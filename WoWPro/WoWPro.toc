@@ -1,0 +1,25 @@
+## Interface: 30300
+## Title: WoW-Pro Guides
+## Notes: Guides created by the WoW-Pro Community
+## Author: Jiyambi
+## SavedVariables: WoWProDB
+
+## X-Category: Compilations
+
+Dongle.lua
+
+WoWPro.lua
+
+Libraries\LibStub\LibStub.lua
+Libraries\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libraries\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+Libraries\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libraries\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Libraries\AceGUI-3.0\AceGUI-3.0.xml
+Libraries\WoWProLib.xml
+Libraries\AceConfig-3.0\AceConfig-3.0.xml
+WoWPro_Widgets.lua
+
+WoWPro_Localization.lua
+WoWPro_Frames.lua
+WoWPro_Config.lua

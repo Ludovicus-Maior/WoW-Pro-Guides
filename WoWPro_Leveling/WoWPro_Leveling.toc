@@ -1,0 +1,22 @@
+## Interface: 30300
+## Title: WoW-Pro Leveling
+## Notes: Leveling guides created by the WoW-Pro Community
+## Author: Jiyambi
+## Dependencies: WoWPro
+## SavedVariablesPerCharacter: WoWPro_LevelingDB
+
+## X-Category: Quest
+
+Dongle.lua
+
+WoWPro_Leveling.lua
+
+Alliance\Guides.xml
+Horde\Guides.xml
+WoWPro_Leveling_NilGuide.lua
+
+WoWPro_Leveling_Parser.lua
+WoWPro_Leveling_Mapping.lua
+WoWPro_Leveling_Config.lua
+WoWPro_Leveling_CurrentGuide.lua
+WoWPro_Leveling_GuideList.lua
