@@ -13,7 +13,7 @@ local actiontypes = {
 	K = "Interface\\Icons\\Ability_Creature_Cursed_02",
 	R = "Interface\\Icons\\Ability_Tracking",
 	H = "Interface\\Icons\\INV_Misc_Rune_01",
-	h = "Interface\\AddOns\\TourGuide\\resting.tga",
+	h = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
 	F = "Interface\\Icons\\Ability_Druid_FlightForm",
 	f = "Interface\\Icons\\Ability_Hunter_EagleEye",
 	N = "Interface\\Icons\\INV_Misc_Note_01",
@@ -91,27 +91,28 @@ frame:SetScript("OnShow", function()
 		local completion = WoWPro_LevelingDB[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
+		local i = 1
+		local index = i + offset
 		shownrows = NUMROWS
 		for i,row in ipairs(rows) do
+			while WoWPro_Leveling.stickies[index] do 
+				index = index + 1
+			end
 			
-			row.i = i + offset
-			
-			while WoWPro_Leveling.stickies[row.i] do row.i = row.i - 1 end
-
-			local check = completion[row.i]
+			local check = completion[index]
 			if check == true then
 				row.check:SetChecked(true)
 			else
 				row.check:SetChecked(false)
 			end
 			
-			local step = steplist[row.i]
+			local step = steplist[index]
 			row.step:SetText(step)
 			
-			local action = WoWPro_Leveling.actions[row.i]
+			local action = WoWPro_Leveling.actions[index]
 			row.action:SetTexture(actiontypes[action])
 			
-			local note = WoWPro_Leveling.notes[row.i]
+			local note = WoWPro_Leveling.notes[index]
 			row.note:SetText(note)
 			
 			-- Setting the note frame size correctly --
@@ -131,15 +132,16 @@ frame:SetScript("OnShow", function()
 			-- On Click - Complete Step Clicked --
 			row.check:SetScript("OnClick", function()
 				if row.check:GetChecked() == 1 then
-					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[row.i] = true
+					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = true
 				else
-					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[row.i] = nil
+					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = nil
 				end
 				
 				WoWPro_Leveling.UpdateCurrentGuidePanel()
 				WoWPro_Leveling:UpdateGuide()
 			end)
 				
+			index = index + 1
 		end
 	
 		scrollbar:SetMinMaxValues(0, math.max(0, #steplist - shownrows))
@@ -147,23 +149,23 @@ frame:SetScript("OnShow", function()
 		
 	end
 	
-	local function UpdateCurrentGuidePanel()
-		WoWPro_Leveling.UpdateCurrentGuidePanel()
-	end
-	
 	local f = scrollbar:GetScript("OnValueChanged")
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		offset = math.floor(value)
-		UpdateCurrentGuidePanel()
+		WoWPro_Leveling.UpdateCurrentGuidePanel()
 		return f(self, value, ...)
 	end)
 
 	frame:EnableMouseWheel()
 	
-	UpdateCurrentGuidePanel()
-		
+	WoWPro_Leveling.UpdateCurrentGuidePanel()
+	
+	scrollbar:SetValue(WoWPro.rows[1].index - 3)
 
-	frame:SetScript("OnShow", UpdateCurrentGuidePanel)
+	frame:SetScript("OnShow", function() 
+		WoWPro_Leveling.UpdateCurrentGuidePanel()
+		scrollbar:SetValue(WoWPro.rows[1].index - 3) 
+	end)
 end )
 
 

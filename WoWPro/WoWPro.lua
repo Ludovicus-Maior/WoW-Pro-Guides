@@ -4,83 +4,77 @@
 
 local L = WoWPro_Locale
 
-WoWPro = DongleStub("Dongle-1.0"):New("WoWPro")
-WoWPro.Version = "0.12 - Alpha"
+WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
+WoWPro.Version = "0.12.1 - Alpha"
 
-function WoWPro:Enable()
+local defaults = { profile = {
+	enable = true,
+	pad = 5,
+	space = 5,
+	resize = true,
+	drag = true,
+	titlebar = true,
+	border = true,
+	mannumsteps = false,
+	minimap = true,
+	numsteps = 3,
+	track = true,
+	bgcolor = {0.2, 0.2, 0.2, 0.7},
+	stickycolor = {0.8, 0.8, 0.8, 0.7},
+	titlecolor = {0.5, 0.5, 0.5, 1},
+	steptextcolor = {1, 1, 1},
+	notetextcolor = {1, 1, 0},
+	tracktextcolor = {1, 1, 0},
+	stepfont = [[Fonts\FRIZQT__.TTF]],
+	notefont = [[Fonts\FRIZQT__.TTF]],
+	trackfont = [[Fonts\FRIZQT__.TTF]],
+	steptextsize = 13,
+	notetextsize = 11,
+	tracktextsize = 10,
+	bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
+	stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
+	bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
+	noteshow = false,
+	
+	-- Enables --
+	enable = true,
+	levelingenable = true,
 
-	-- Creating the default user settings --
-	if not WoWProDB then
-		WoWProDB = {
-			enable = true,
-			pad = 5,
-			space = 5,
-			resize = true,
-			drag = true,
-			titlebar = true,
-			border = true,
-			mannumsteps = false,
-			minimap = true,
-			numsteps = 3,
-			bgcolor = {0.2, 0.2, 0.2, 0.7},
-			stickycolor = {0.8, 0.8, 0.8, 0.7},
-			titlecolor = {0.5, 0.5, 0.5, 1},
-			steptextcolor = {1, 1, 1},
-			notetextcolor = {1, 1, 0},
-			tracktextcolor = {1, 1, 0},
-			stepfont = [[Fonts\FRIZQT__.TTF]],
-			notefont = [[Fonts\FRIZQT__.TTF]],
-			trackfont = [[Fonts\FRIZQT__.TTF]],
-			steptextsize = 13,
-			notetextsize = 11,
-			tracktextsize = 10,
-			bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-			stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-			bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
-			noteshow = false,
-
-			Leveling = {
-				enable = true,
-				questlog = true,
-			},
-		}
-	end
+} }
+		
+function WoWPro:OnInitialize()
+	WoWProDB = LibStub("AceDB-3.0"):New("WoWProDB", defaults, true)
+	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
+	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
+	WoWProDB.RegisterCallback(self, "OnProfileReset", "RefreshConfig")
 	
 	WoWPro.CreateConfig()
+end
+
+function WoWPro:RefreshConfig()
+	WoWPro_Leveling:LoadGuide()
+	WoWPro.CustomizeFrames()
+end
+
+function WoWPro:OnEnable()
 	
-	-- Enabling modules --
-	if WoWPro_Leveling and WoWProDB.Leveling.enable then 
-		WoWPro_Leveling:Enable() 
-	end
+	-- Modules --
+	WoWPro_Leveling:Enable()
 	
-	if not WoWProDB.enable then return end
+	WoWPro.MainFrame:Show()
+	WoWPro.Titlebar:Show()
 	
 	WoWPro.CustomizeFrames()
-	WoWPro.RowSizeSet()
+	WoWPro_Leveling:MapPoint()
+	
 end	
 
-function WoWPro:Disable()
-	if WoWProDB.enable then return end
+function WoWPro:OnDisable()
 	
 	WoWPro.MainFrame:Hide()
 	WoWPro.Titlebar:Hide()
 	
 	WoWPro.GuideFrame:UnregisterAllEvents()
 	
-	-- Loading the Nil Guide - needs to be changed to be generic, not Leveling! --
-	WoWPro_LevelingDB.lastguide = WoWPro_LevelingDB.currentguide
-	WoWPro_LevelingDB.currentguide = "NilGuide"
-	WoWPro_Leveling:LoadGuide()
-	
-end
-
-function WoWPro:ReEnable()
-	if not WoWProDB.enable then return end
-	
-	WoWPro.MainFrame:Show()
-	WoWPro.Titlebar:Show()
-
-	-- ReEnabling Modules --
-	if WoWPro_Leveling then WoWPro_Leveling:ReEnable() end
-	
+	WoWPro_Leveling:RemoveMapPoint()
 end

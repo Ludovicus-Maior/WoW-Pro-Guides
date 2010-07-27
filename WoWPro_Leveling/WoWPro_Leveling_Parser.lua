@@ -11,7 +11,7 @@ local actiontypes = {
 	K = "Interface\\Icons\\Ability_Creature_Cursed_02",
 	R = "Interface\\Icons\\Ability_Tracking",
 	H = "Interface\\Icons\\INV_Misc_Rune_01",
-	h = "Interface\\AddOns\\TourGuide\\resting.tga",
+	h = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
 	F = "Interface\\Icons\\Ability_Druid_FlightForm",
 	f = "Interface\\Icons\\Ability_Hunter_EagleEye",
 	N = "Interface\\Icons\\INV_Misc_Note_01",
@@ -58,6 +58,9 @@ end
 -- Guide Load --
 function WoWPro_Leveling:LoadGuide()
 
+	-- Hiding Next Guide Dialog if it is shown --
+	WoWPro.NextGuideDialog:Hide()
+
 	-- Locating the correct guide --
 	GID = WoWPro_LevelingDB.currentguide
 	local guidelist = WoWPro_Leveling.GuideList
@@ -68,11 +71,11 @@ function WoWPro_Leveling:LoadGuide()
 		if GID == iGID then guideindex = i end
 	end
 	if not guidelist[guideindex] then return end
-	loadedguide = guidelist[guideindex]
-	loadedguidezone = loadedguide["zone"]
+	WoWPro_Leveling.loadedguide = guidelist[guideindex]
+	WoWPro_Leveling.loadedguidezone = WoWPro_Leveling.loadedguide["zone"]
 
 	-- Parsing quests
-	local sequence = loadedguide["sequence"]
+	local sequence = WoWPro_Leveling.loadedguide["sequence"]
 	WoWPro_Leveling.steps, 
 		WoWPro_Leveling.actions, 
 		WoWPro_Leveling.notes, 
@@ -161,6 +164,7 @@ function WoWPro_Leveling:LoadGuide()
 	WoWPro_LevelingDB[GID].progress = p
 
 	if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+	WoWPro_Leveling:MapPoint()
 end
 
 -- Row Content Update --
@@ -170,22 +174,26 @@ function WoWPro_Leveling.RowContentUpdate()
 	local i, k = 1, 1
 	
 	while i <= 15 do if not WoWPro_LevelingDB[GID].completion[k] then
-		local row = WoWPro.rows[i]
 		
 		-- Skipping any unsticky steps or optional steps unless it's time for them to display --
 		local optionalskip = true
-		if WoWPro_Leveling.optional[k] and WoWPro_Leveling.lootitem[k] then
-			local lootqtyi
-			if tonumber(WoWPro_Leveling.lootqty[k]) ~= nil then lootqtyi = tonumber(WoWPro_Leveling.lootqty[k]) else lootqtyi = 1 end
-			if GetItemCount(WoWPro_Leveling.lootitem[k]) >= WoWPro_Leveling.lootqtyi then optionalskip = false end
-		end
-		if WoWPro_Leveling.optional[k] and WoWPro_Leveling.prereq[k] then
-			if WoWPro_LevelingDB.completedQIDs[tonumber(WoWPro_Leveling.prereq[k])] then optionalskip = false end
-		end
 		while ( WoWPro_Leveling.unstickies[k] and i > stickycount+1 ) or (WoWPro_Leveling.optional[k] and optionalskip) do 
-			k = k + 1 end
+			if WoWPro_Leveling.optional[k] and WoWPro_Leveling.lootitem[k] then
+				local lootqtyi
+				if tonumber(WoWPro_Leveling.lootqty[k]) ~= nil then lootqtyi = tonumber(WoWPro_Leveling.lootqty[k]) else lootqtyi = 1 end
+				if GetItemCount(WoWPro_Leveling.lootitem[k]) >= WoWPro_Leveling.lootqtyi then optionalskip = false end
+			end
+			if WoWPro_Leveling.optional[k] and WoWPro_Leveling.prereq[k] then
+				if WoWPro_LevelingDB.completedQIDs[tonumber(WoWPro_Leveling.prereq[k])] then optionalskip = false end
+			end
+			if ( WoWPro_Leveling.unstickies[k] and i > stickycount+1 ) or (WoWPro_Leveling.optional[k] and optionalskip) then 
+				k = k + 1 
+			end
+		end
 		
-		--Loading Local Variables --
+		--Loading Variables --
+		local row = WoWPro.rows[i]
+		row.index = k
 		local step = WoWPro_Leveling.steps[k]
 		local action = WoWPro_Leveling.actions[k] 
 		local note = WoWPro_Leveling.notes[k] 
@@ -202,7 +210,6 @@ function WoWPro_Leveling.RowContentUpdate()
 		local prereq = WoWPro_Leveling.prereq[k] 
 		
 		-- Unstickying stickies --
-		row.index = k
 		if unsticky then
 			for n,stickyrow in ipairs(WoWPro.rows) do 
 				if step == stickyrow.step:GetText() and WoWPro_Leveling.stickies[stickyrow.index] then 
@@ -211,6 +218,7 @@ function WoWPro_Leveling.RowContentUpdate()
 					reload = true
 				end
 			end
+			if reload then break end
 		end
 		
 		-- Counting stickies that are currently active (at the top) --
@@ -227,7 +235,7 @@ function WoWPro_Leveling.RowContentUpdate()
 		-- Setting up click-to-quest log --
 		local questlogcheck = false
 		for j = 1, 25 do if GetQuestLogTitle(j) then 
-		local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
+			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
 			if ( not isHeader ) and questID == QID then
 				questlogcheck = true
 				row:SetScript("OnClick", function(self, button, down)
@@ -235,6 +243,7 @@ function WoWPro_Leveling.RowContentUpdate()
 						QuestLog_OpenToQuest(j)
 					end
 				end)
+				break
 			end
 		end end
 		if not questlogcheck then
@@ -248,13 +257,23 @@ function WoWPro_Leveling.RowContentUpdate()
 			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
 				if ( not isHeader ) and questID == QID then
 					row.trackcheck = true
-					local track = " - "..GetQuestLogLeaderBoard(1, j)
-					for l=1,GetNumQuestLeaderBoards(j) do 
-						if l > 1 then
-							track = track.." \n - "..GetQuestLogLeaderBoard(l, j)
+					if not questtext then
+						local track = " - "..GetQuestLogLeaderBoard(1, j)
+						for l=1,GetNumQuestLeaderBoards(j) do 
+							if l > 1 then
+								track = track.." \n - "..GetQuestLogLeaderBoard(l, j)
+							end
 						end
+						row.track:SetText(track)
+					else --Partial completion steps only track pertinent objective.
+						for l=1,GetNumQuestLeaderBoards(j) do 
+							local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(l, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
+							if questtext:match(itemName) then
+								track = " - "..GetQuestLogLeaderBoard(l, j)
+							end
+						end
+						row.track:SetText(track)
 					end
-					row.track:SetText(track)
 				end
 			end end
 		end
@@ -284,7 +303,7 @@ function WoWPro_Leveling.RowContentUpdate()
 		else row.itembutton:Hide() end
 		
 		-- Setting the zone for the coordinates of the step --
-		if zone then row.zone = zone else row.zone = loadedguidezone end
+		if zone then row.zone = zone else row.zone = WoWPro_Leveling.loadedguidezone end
 		
 		WoWPro.rows[i] = row
 		i = i + 1
@@ -311,16 +330,6 @@ function WoWPro_Leveling:UpdateGuide()
 	WoWPro_Leveling.RowContentUpdate()
 	WoWPro:RowSizeSet()
 	
-	-- Mapping --
-	local rowi = 1
-	while WoWPro_Leveling.stickies[WoWPro.rows[rowi].index] do rowi=rowi+1 end
-	local i = WoWPro.rows[rowi].index
-	local coords = WoWPro_Leveling.maps[i]
-	local desc = WoWPro_Leveling.steps[i]
-	local localzone = WoWPro.rows[rowi].zone
-	WoWPro_Leveling:RemoveMapPoint()
-	WoWPro_Leveling:MapPoint(localzone, coords, desc)
-	
 	-- Updating the guide list or current guide panels if they are shown --
 	if WoWPro_Leveling_GuideList:IsShown() then WoWPro_Leveling.UpdateGuideList() end
 	if WoWPro_Leveling_CurrentGuide:IsShown() then WoWPro_Leveling.UpdateCurrentGuidePanel() end
@@ -335,64 +344,21 @@ function WoWPro_Leveling:UpdateGuide()
 		end
 	end
 	WoWPro_LevelingDB[GID].progress = p
-	WoWPro.TitleText:SetText(loadedguidezone.."   ("..WoWPro_LevelingDB[GID].progress.."/"..WoWPro_LevelingDB[GID].total..")")
+	if not WoWPro_LevelingDB[GID].total then
+		WoWPro_LevelingDB[GID].total = WoWPro_Leveling.stepcount - WoWPro_Leveling.stickiescount - WoWPro_Leveling.optionalcount
+	end
+	WoWPro.TitleText:SetText(WoWPro_Leveling.loadedguidezone.."   ("..WoWPro_LevelingDB[GID].progress.."/"..WoWPro_LevelingDB[GID].total..")")
 	
 	-- If the guide is complete, loading the next guide --
 	if WoWPro_LevelingDB[GID].progress == WoWPro_LevelingDB[GID].total then
-		local frame = CreateFrame("Frame", "GuideComplete", UIParent)
-		frame:SetPoint("CENTER", 0, 100)
-		frame:SetHeight(75)
-		frame:SetWidth(340)
-		frame:SetBackdrop( {
-			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-			edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
-			tile = true, tileSize = 16, edgeSize = 16,
-			insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-		})
-		frame:SetBackdropColor(0.2, 0.2, 0.2, 0.7)
-		
-		local titletext = frame:CreateFontString()
-		titletext:SetPoint("TOP", frame, "TOP", 0, -10)
-		titletext:SetFontObject(GameFontNormal)
-		titletext:SetText("You have completed the current guide.")
-		titletext:SetTextColor(1, 1, 1)
-		
-		local button1 = CreateFrame("Button", "LoadNextGuide", frame, "OptionsButtonTemplate")
-		button1:SetPoint("BOTTOMLEFT", 10, 10)
-		button1:SetHeight(25)
-		button1:SetWidth(160)
-		local button1text = button1:CreateFontString()
-		button1text:SetPoint("TOP", button1, "TOP", 0, -7)
-		button1text:SetFontObject(GameFontNormalSmall)
-		button1text:SetText("Load Next Guide")
-		button1text:SetTextColor(1, 1, 1)
-		button1:SetScript("OnClick", function(self, button)
-			WoWPro_LevelingDB.currentguide = loadedguide["nextGID"]
-			WoWPro_Leveling:LoadGuide()
-			frame:Hide()
-		end) 
-		
-		local button2 = CreateFrame("Button", "OpenGuideList", frame, "OptionsButtonTemplate")
-		button2:SetPoint("BOTTOMRIGHT", -10, 10)
-		button2:SetHeight(25)
-		button2:SetWidth(160)
-		local button2text = button2:CreateFontString()
-		button2text:SetPoint("TOP", button2, "TOP", 0, -7)
-		button2text:SetFontObject(GameFontNormalSmall)
-		button2text:SetText("Choose Guide From List")
-		button2text:SetTextColor(1, 1, 1)
-		button2:SetScript("OnClick", function(self, button)
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
-			InterfaceOptionsFrame_OpenToCategory("Guide List") 
-			frame:Hide()
-		end) 
-		
+		WoWPro.NextGuideDialog:Show()
 	end
 end	
 
 -- Auto-completion Scripts --
 function WoWPro_Leveling:RegisterEvents()
 	local completing = false
+	local currentindex = WoWPro.rows[1].index
 	local events = {
 		"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
 		"MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", 
@@ -416,9 +382,11 @@ function WoWPro_Leveling:RegisterEvents()
 			if loc then
 				WoWPro_LevelingDB.hearth = loc
 				for i = 1,15 do
-					if WoWPro_Leveling.actions[WoWPro.rows[i].index] == "h" and WoWPro_Leveling.steps[WoWPro.rows[i].index] == loc then
-						WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[WoWPro.rows[i].index] = true
+					local index = WoWPro.rows[i].index
+					if WoWPro_Leveling.actions[index] == "h" and WoWPro_Leveling.steps[index] == loc then
+						WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = true
 						if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+						WoWPro_Leveling:MapPoint()
 					end
 				end
 			end
@@ -439,6 +407,7 @@ function WoWPro_Leveling:RegisterEvents()
 						and GetItemCount(WoWPro_Leveling.lootitem[index]) >= lootqtyi then
 							WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = true
 							if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+							WoWPro_Leveling:MapPoint()
 					end
 				end
 			end
@@ -452,11 +421,12 @@ function WoWPro_Leveling:RegisterEvents()
 		-- Auto-Complete: Zone based --
 		if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
 			local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
-			if WoWPro_Leveling.actions[WoWPro.rows[1].index] == "F" or WoWPro_Leveling.actions[WoWPro.rows[1].index] == "R" or 
-			WoWPro_Leveling.actions[WoWPro.rows[1].index] == "H" or WoWPro_Leveling.actions[WoWPro.rows[1].index] == "b" then
-				if WoWPro_Leveling.steps[WoWPro.rows[1].index] == zonetext or WoWPro_Leveling.steps[WoWPro.rows[1].index] == subzonetext then
-					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[WoWPro.rows[1].index] = true
+			if WoWPro_Leveling.actions[currentindex] == "F" or WoWPro_Leveling.actions[currentindex] == "R" or 
+			WoWPro_Leveling.actions[currentindex] == "H" or WoWPro_Leveling.actions[currentindex] == "b" then
+				if WoWPro_Leveling.steps[currentindex] == zonetext or WoWPro_Leveling.steps[currentindex] == subzonetext then
+					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[currentindex] = true
 					if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+					WoWPro_Leveling:MapPoint()
 				end
 			end
 		end
@@ -521,6 +491,7 @@ function WoWPro_Leveling:RegisterEvents()
 									WoWPro_LevelingDB[GID].completion[i] = true
 									WoWPro_LevelingDB.completedQIDs[MissingQIDs[k]] = true
 									if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+									WoWPro_Leveling:MapPoint()
 									completing = false
 								end
 							end
@@ -533,6 +504,7 @@ function WoWPro_Leveling:RegisterEvents()
 								if MissingQIDs[k] == QID then
 									WoWPro_LevelingDB[GID].completion[i] = nil
 									if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+									WoWPro_Leveling:MapPoint()
 								end
 							end
 						end
@@ -541,6 +513,7 @@ function WoWPro_Leveling:RegisterEvents()
 								if MissingQIDs[k] == QID then
 									WoWPro_LevelingDB[GID].completion[i] = nil
 									if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+									WoWPro_Leveling:MapPoint()
 								end
 							end
 						end
@@ -552,6 +525,7 @@ function WoWPro_Leveling:RegisterEvents()
 							if NewQIDs[k] == QID then
 								WoWPro_LevelingDB[GID].completion[i] = true
 								if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+								WoWPro_Leveling:MapPoint()
 							end
 						end
 					end
@@ -562,6 +536,7 @@ function WoWPro_Leveling:RegisterEvents()
 							if CompleteQIDs[k] == QID then
 								WoWPro_LevelingDB[GID].completion[i] = true
 								if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+								WoWPro_Leveling:MapPoint()
 							end
 						end
 					end
@@ -583,6 +558,7 @@ function WoWPro_Leveling:RegisterEvents()
 									if questtext == GetQuestLogLeaderBoard(k, j) then 
 										WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = true
 										if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+										WoWPro_Leveling:MapPoint()
 									end
 								end 
 							end
@@ -597,9 +573,11 @@ function WoWPro_Leveling:RegisterEvents()
 		-- Auto-Complete: Get flight point --
 		if event == "UI_INFO_MESSAGE" then
 			for i = 1,15 do
-				if ... == ERR_NEWTAXIPATH and actions[WoWPro.rows[i].index] == "f" then
-					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[WoWPro.rows[i].index] = true
+				local index = WoWPro.rows[i].index
+				if ... == ERR_NEWTAXIPATH and actions[index] == "f" then
+					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = true
 					if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+					WoWPro_Leveling:MapPoint()
 				end
 			end
 		end

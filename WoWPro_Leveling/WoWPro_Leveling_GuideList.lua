@@ -30,7 +30,7 @@ function WoWPro_Leveling.UpdateGuideList()
 			row.range:SetText("("..startlevel.."-"..endlevel..")")
 			row.guide = GID
 			
-			if WoWPro_LevelingDB[GID] then
+			if WoWPro_LevelingDB[GID] and WoWPro_LevelingDB[GID].total then
 				row.progress:SetText(WoWPro_LevelingDB[GID].progress.."/"..WoWPro_LevelingDB[GID].total)
 			else 
 				row.progress:SetText("")
@@ -274,7 +274,7 @@ frame:SetScript("OnShow", function()
 	frame:EnableMouseWheel()
 	frame:SetScript("OnMouseWheel", function(self, val) scrollbar:SetValue(scrollbar:GetValue() - val*NUMROWS/3) end)
 
-	local function OnShow(self) scrollbar:SetValue(0) end
+	local function OnShow(self) scrollbar:SetValue(0); WoWPro.NextGuideDialog:Hide() end
 	frame:SetScript("OnShow", OnShow)
 	OnShow(frame)
 end )

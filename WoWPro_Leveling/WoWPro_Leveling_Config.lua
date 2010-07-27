@@ -29,21 +29,11 @@ local function createBlizzOptions()
 				name = L["Enable Module"],
 				desc = L["Enables/Disables the leveling module of the WoW-Pro guide addon."],
 				width = "full",
-				get = function(info) return WoWProDB.Leveling.enable end,
-				set = function(info,val) WoWProDB.Leveling.enable = val 
-					WoWPro_Leveling:ReEnable()
-					WoWPro_Leveling:Disable() end
-			},    
-			questtrack = {
-				order = 3,
-				type = "toggle",
-				name = L["Quest Tracking"],
-				desc = L["Allows tracking of quests in the guide frame"],
-				width = "full",
-				get = function(info) return WoWPro_LevelingDB.questtrack end,
-				set = function(info,val) WoWPro_LevelingDB.questtrack = val 
-					WoWPro_Leveling:UpdateGuide() end
-			},  
+				get = function(info) return WoWPro_Leveling:IsEnabled() end,
+				set = function(info,val)  
+						if WoWPro_Leveling:IsEnabled() then WoWPro_Leveling:Disable() else WoWPro_Leveling:Enable() end
+					end
+			}, 
 		},
 	})
 	dialog:SetDefaultSize("WoWPro-Leveling-Bliz", 600, 400)

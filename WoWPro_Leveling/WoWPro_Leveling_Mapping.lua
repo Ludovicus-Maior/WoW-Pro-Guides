@@ -3,7 +3,17 @@
 -------------------------------------------
 
 local cache = {}
-function WoWPro_Leveling:MapPoint(zone, coords, desc)
+
+function WoWPro_Leveling:MapPoint()
+
+	local rowi = 1
+	while WoWPro_Leveling.stickies[WoWPro.rows[rowi].index] do rowi=rowi+1 end
+	local i = WoWPro.rows[rowi].index
+	local coords = WoWPro_Leveling.maps[i]
+	local desc = WoWPro_Leveling.steps[i]
+	local zone = WoWPro.rows[rowi].zone
+	WoWPro_Leveling:RemoveMapPoint()
+
 	if coords ~= nil then
 		local zonei, zonec, zonenames = {}, {}, {}
 		for ci,c in pairs{GetMapContinents()} do
