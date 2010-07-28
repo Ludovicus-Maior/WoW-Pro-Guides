@@ -22,7 +22,7 @@ h2. Features
 * Integrated quest item buttons
 * Easily accessed view of entire guide
 * Sortable guide lists
-* Automatic mapping of coordinates with "TomTom":http://www.wowinterface.com/downloads/info7032-TomTom.html and questgiver locations from "LightHeaded":http://www.wowinterface.com/downloads/info7017-LightHeaded.html if installed
+* Automatic mapping of coordinates with "TomTom":http://www.wowinterface.com/downloads/info7032-TomTom.html
 * "LDB":http://github.com/tekkub/libdatabroker-1-1/wikis quick open/close button
 * Profile management for display settings
 
