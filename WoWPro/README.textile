@@ -25,21 +25,3 @@ h2. Features
 * Automatic mapping of coordinates with "TomTom":http://www.wowinterface.com/downloads/info7032-TomTom.html
 * "LDB":http://github.com/tekkub/libdatabroker-1-1/wikis quick open/close button
 * Profile management for display settings
-
-h2. "Current Version: 0.12.1":http://github.com/Jiyambi/WoW-Pro-Guides/downloads
-
-*Bug Fixes:*
-
-    * Arrow reseting mid-step
-    * "total" variable in guide list and titlebar misbehaving
-    * partial completes listed full quest objectives
-    * New Guide dialog now correctly dissappears
-    * Added "Reset Guide" button to new guide dialog
-    * Current guide pane now defaults to current position in guide
-    * set hearth steps will display the correct icon
-    * combat lockdown instituted
-
-*New Features:*
-
-    * profiles system added via Ace3
-    * enable/disable system moved to Ace3
