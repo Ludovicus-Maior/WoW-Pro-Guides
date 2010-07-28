@@ -25,7 +25,7 @@ h2. Features
 * Automatic mapping of coordinates with "TomTom":http://www.wowinterface.com/downloads/info7032-TomTom.html and questgiver locations from "LightHeaded":http://www.wowinterface.com/downloads/info7017-LightHeaded.html if installed
 * "LDB":http://github.com/tekkub/libdatabroker-1-1/wikis quick open/close button
 
-h2. Current Version: 0.12.1":http://github.com/Jiyambi/WoW-Pro-Guides/downloads
+h2. "Current Version: 0.12.1":http://github.com/Jiyambi/WoW-Pro-Guides/downloads
 
 *Bug Fixes:*
 
