@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WoWPro.Version = "0.12.1 - Alpha"
+WoWPro.Version = "0.12.2 - Alpha"
 
 local defaults = { profile = {
 	enable = true,
@@ -16,7 +16,6 @@ local defaults = { profile = {
 	titlebar = true,
 	border = true,
 	mannumsteps = false,
-	minimap = true,
 	numsteps = 3,
 	track = true,
 	bgcolor = {0.2, 0.2, 0.2, 0.7},
@@ -35,6 +34,7 @@ local defaults = { profile = {
 	stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
 	bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
 	noteshow = false,
+	minimap = { hidden = false, },
 	
 	-- Enables --
 	enable = true,
@@ -43,11 +43,11 @@ local defaults = { profile = {
 } }
 		
 function WoWPro:OnInitialize()
-	WoWProDB = LibStub("AceDB-3.0"):New("WoWProDB", defaults, true)
+	WoWProDB = LibStub("AceDB-3.0"):New("WoWProData", defaults, true)
 	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileReset", "RefreshConfig")
-	
+	WoWPro.CreateMiniMapButton()
 	WoWPro.CreateConfig()
 end
 

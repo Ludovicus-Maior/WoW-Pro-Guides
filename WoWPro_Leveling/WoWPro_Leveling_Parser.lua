@@ -252,7 +252,7 @@ function WoWPro_Leveling.RowContentUpdate()
 		
 		-- Setting up quest tracker --
 		row.trackcheck = false
-		if WoWPro_LevelingDB.questtrack and ( action == "C" or ( (action == "K" or action == "N" ) and questtext)) then
+		if WoWProDB.profile.track and ( action == "C" or ( (action == "K" or action == "N" ) and questtext)) then
 			for j = 1, 25 do if GetQuestLogTitle(j) then 
 			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
 				if ( not isHeader ) and questID == QID then
