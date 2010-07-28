@@ -111,7 +111,7 @@ local function CreateDisplayConfig()
 						desc = L["Allows you to manually set the number of steps displayed. Turns off resize."],
 						get = function(info) return WoWProDB.profile.mannumsteps end,
 						set = function(info,val) WoWProDB.profile.mannumsteps = val 
-							if val then WoWProDB.profile.resize = nil end
+							if val then WoWProDB.profile.resize = false end
 							 WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
 					},
 					numsteps = {

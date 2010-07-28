@@ -151,17 +151,9 @@ function WoWPro_Leveling:LoadGuide()
 		end
 	end
 	
-	--Updating guide total and progress
-	WoWPro_LevelingDB[GID].total = WoWPro_Leveling.stepcount - WoWPro_Leveling.stickiescount - WoWPro_Leveling.optionalcount
-	local p = 0
-	for j = 1,WoWPro_Leveling.stepcount do
-		if WoWPro_LevelingDB[GID].completion[j] 
-		and not WoWPro_Leveling.stickies[j] 
-		and not WoWPro_Leveling.optional[j] then 
-			p = p + 1 
-		end
-	end
-	WoWPro_LevelingDB[GID].progress = p
+	-- Checking zone based completion --
+	if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+	WoWPro_Leveling:ZoneCheck()
 
 	if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
 	WoWPro_Leveling:MapPoint()
@@ -420,15 +412,7 @@ function WoWPro_Leveling:RegisterEvents()
 			
 		-- Auto-Complete: Zone based --
 		if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
-			local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
-			if WoWPro_Leveling.actions[currentindex] == "F" or WoWPro_Leveling.actions[currentindex] == "R" or 
-			WoWPro_Leveling.actions[currentindex] == "H" or WoWPro_Leveling.actions[currentindex] == "b" then
-				if WoWPro_Leveling.steps[currentindex] == zonetext or WoWPro_Leveling.steps[currentindex] == subzonetext then
-					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[currentindex] = true
-					if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
-					WoWPro_Leveling:MapPoint()
-				end
-			end
+			WoWPro_Leveling:ZoneCheck()
 		end
 		
 		-- Auto-Complete: Quest accept, complete, turn in, and partial complete --
@@ -596,4 +580,18 @@ function WoWPro_Leveling:RegisterEvents()
 	end
 
 	WoWPro.GuideFrame:SetScript("OnEvent", eventHandler);
+end
+
+-- Auto-Complete: Zone based --
+function WoWPro_Leveling:ZoneCheck()
+	local currentindex = WoWPro.rows[1].index
+	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
+	if WoWPro_Leveling.actions[currentindex] == "F" or WoWPro_Leveling.actions[currentindex] == "R" or 
+	WoWPro_Leveling.actions[currentindex] == "H" or WoWPro_Leveling.actions[currentindex] == "b" then
+		if WoWPro_Leveling.steps[currentindex] == zonetext or WoWPro_Leveling.steps[currentindex] == subzonetext then
+			WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[currentindex] = true
+			if not WoWPro_Leveling.combat then WoWPro_Leveling:UpdateGuide() end
+			WoWPro_Leveling:MapPoint()
+		end
+	end
 end
