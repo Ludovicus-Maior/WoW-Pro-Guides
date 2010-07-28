@@ -80,8 +80,8 @@ local function CreateDisplayConfig()
 						type = "toggle",
 						name = L["Minimap Button"],
 						desc = L["Show/hide WoW-Pro mini map button."],
-						get = function(info) return WoWProDB.profile.minimap end,
-						set = function(info,val) WoWProDB.profile.minimap = val 
+						get = function(info) return not WoWProDB.profile.minimap.hide end,
+						set = function(info,val) WoWProDB.profile.minimap.hide = not val 
 							 WoWPro.MinimapSet() end
 					},
 					padding = {

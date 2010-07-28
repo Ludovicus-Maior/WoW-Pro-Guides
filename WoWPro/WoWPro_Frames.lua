@@ -17,7 +17,7 @@ end
 
 function WoWPro.MinimapSet()
 	local icon = LibStub("LibDBIcon-1.0")
-	if WoWProDB.profile.minimap then
+	if not WoWProDB.profile.minimap.hide then
 		icon:Show("WoWProIcon")
 	else
 		icon:Hide("WoWProIcon")
@@ -440,8 +440,7 @@ function WoWPro.CreateMiniMapButton()
 			end
 		end,
 	})
-	WoWPro.MinimapVariables = {}
-	icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWPro.MinimapVariables)
+	icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWProDB.profile.minimap)
 end
 
 -- Next Guide Dialog --
@@ -524,5 +523,4 @@ WoWPro.CreateStickyFrame()
 WoWPro.CreateGuideFrame()
 WoWPro.CreateRows()
 WoWPro.CreateMouseNotes()
-WoWPro.CreateMiniMapButton()
 WoWPro.CreateNextGuideDialog()
