@@ -84,7 +84,7 @@ function WoWPro:LoadGuide()
 				for k=1, #CurrentQIDs do
 					if CurrentQIDs[k] == WoWPro_Leveling.QIDs[i] then
 						WoWProDB.char.leveling[GID].completion[i] = true
-						if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
+						if not WoWPro.combat then WoWPro:UpdateGuide() end
 					end
 				end
 			end
@@ -93,7 +93,7 @@ function WoWPro:LoadGuide()
 				for k=1, #CompleteQIDs do
 					if CompleteQIDs[k] == WoWPro_Leveling.QIDs[i] then
 						WoWProDB.char.leveling[GID].completion[i] = true
-						if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
+						if not WoWPro.combat then WoWPro:UpdateGuide() end
 					end
 				end
 			end
@@ -101,10 +101,10 @@ function WoWPro:LoadGuide()
 	end
 	
 	-- Checking zone based completion --
-	if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
+	if not WoWPro.combat then WoWPro:UpdateGuide() end
 	WoWPro_Leveling:AutoCompleteZone()
 
-	if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
+	if not WoWPro.combat then WoWPro:UpdateGuide() end
 	WoWPro:MapPoint()
 end
 
@@ -192,6 +192,7 @@ function WoWPro.RowContentUpdate()
 		end
 	
 		-- Item Button --
+		if action == "H" then use = 6948 end
 		if use then
 			row.itembutton:Show() 
 			row.itemicon:SetTexture(GetItemIcon(use))
@@ -304,7 +305,6 @@ function WoWPro:RegisterEvents()
 		end
 		if event == "QUEST_LOG_UPDATE" then
 			WoWPro_Leveling:AutoCompleteQuestUpdate(...)
-			if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
 			WoWPro_Leveling:UpdateQuestTracker()
 		end	
 		if event == "UI_INFO_MESSAGE" then
@@ -313,12 +313,12 @@ function WoWPro:RegisterEvents()
 
 		-- Locking down guide frame while in combat --
 		if event == "PLAYER_REGEN_DISABLED" then
-			WoWPro_Leveling.combat = true
+			WoWPro.combat = true
 		end
 		
 		-- Unlocking guide frame when leaving combat --
 		if event == "PLAYER_REGEN_ENABLED" then
-			WoWPro_Leveling.combat = false
+			WoWPro.combat = false
 			WoWPro:UpdateGuide()
 		end
 		
@@ -330,6 +330,6 @@ end
 function WoWPro.CompleteStep(step)
 	local GID = WoWProDB.char.currentguide
 	WoWProDB.char.leveling[GID].completion[step] = true
-	if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
+	if not WoWPro.combat then WoWPro:UpdateGuide() end
 	WoWPro:MapPoint()
 end

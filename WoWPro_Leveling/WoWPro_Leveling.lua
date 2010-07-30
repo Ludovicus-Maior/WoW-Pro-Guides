@@ -58,7 +58,7 @@ function WoWPro_Leveling:OnEnable()
 	end
 	
 	-- Registering events and updating the guide window --
-	WoWPro_Leveling.combat = false
+	WoWPro.combat = false
 	WoWPro:RegisterEvents()
 	WoWPro:UpdateGuide()
 	WoWPro:MapPoint()

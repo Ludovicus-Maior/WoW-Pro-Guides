@@ -72,7 +72,7 @@ function WoWPro_Leveling:AutoCompleteGetFP(...)
 		local index = WoWPro.rows[i].index
 		if ... == ERR_NEWTAXIPATH and actions[index] == "f" then
 			WoWProDB.char.leveling[WoWProDB.char.currentguide].completion[index] = true
-			if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
+			if not WoWPro.combat then WoWPro:UpdateGuide() end
 			WoWPro:MapPoint()
 		end
 	end
@@ -134,10 +134,8 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 				if action == "T" and WoWProDB.char.leveling[GID].completion[i] == nil then
 					for k=1,#MissingQIDs do
 						if MissingQIDs[k] == QID then
-							WoWProDB.char.leveling[GID].completion[i] = true
+							WoWPro.CompleteStep(i)
 							WoWProDB.char.leveling.completedQIDs[MissingQIDs[k]] = true
-							if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
-							WoWPro:MapPoint()
 							WoWPro_Leveling.CompletingQuest = false
 						end
 					end
@@ -149,7 +147,7 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 					for k=1, #MissingQIDs do
 						if MissingQIDs[k] == QID then
 							WoWProDB.char.leveling[GID].completion[i] = nil
-							if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
+							if not WoWPro.combat then WoWPro:UpdateGuide() end
 							WoWPro:MapPoint()
 						end
 					end
@@ -158,7 +156,7 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 					for k=1, #MissingQIDs do
 						if MissingQIDs[k] == QID then
 							WoWProDB.char.leveling[GID].completion[i] = nil
-							if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
+							if not WoWPro.combat then WoWPro:UpdateGuide() end
 							WoWPro:MapPoint()
 						end
 					end
@@ -169,9 +167,7 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 			if action == "A" and WoWProDB.char.leveling[GID].completion[i] == nil then
 				for k=1, #NewQIDs do
 					if NewQIDs[k] == QID then
-						WoWProDB.char.leveling[GID].completion[i] = true
-						if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
-						WoWPro:MapPoint()
+						WoWPro.CompleteStep(i)
 					end
 				end
 			end
@@ -180,9 +176,7 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 			if action == "C" and WoWProDB.char.leveling[GID].completion[i] == nil then
 				for k=1, #CompleteQIDs do
 					if CompleteQIDs[k] == QID then
-						WoWProDB.char.leveling[GID].completion[i] = true
-						if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
-						WoWPro:MapPoint()
+						WoWPro.CompleteStep(i)
 					end
 				end
 			end
@@ -202,9 +196,7 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 					if ( not isHeader ) then
 						for k=1,GetNumQuestLeaderBoards(j) do 
 							if questtext == GetQuestLogLeaderBoard(k, j) then 
-								WoWProDB.char.leveling[WoWProDB.char.currentguide].completion[index] = true
-								if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
-								WoWPro:MapPoint()
+								WoWPro.CompleteStep(index)
 							end
 						end 
 					end
@@ -226,9 +218,7 @@ function WoWPro_Leveling:AutoCompleteLoot(msg)
 				or (WoWPro.actions[index] == "B" or WoWPro.actions[index] == "K" or WoWPro.actions[index] == "N") 
 				and WoWPro_Leveling.lootitem[index] and itemid == WoWPro_Leveling.lootitem[index] 
 				and GetItemCount(WoWPro_Leveling.lootitem[index]) >= lootqtyi then
-					WoWProDB.char.leveling[WoWProDB.char.currentguide].completion[index] = true
-					if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
-					WoWPro:MapPoint()
+					WoWPro.CompleteStep(index)
 			end
 		end
 	end
@@ -243,9 +233,7 @@ function WoWPro_Leveling:AutoCompleteSetHearth(...)
 		for i = 1,15 do
 			local index = WoWPro.rows[i].index
 			if WoWPro.actions[index] == "h" and WoWPro.steps[index] == loc then
-				WoWProDB.char.leveling[WoWProDB.char.currentguide].completion[index] = true
-				if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
-				WoWPro:MapPoint()
+				WoWPro.CompleteStep(index)
 			end
 		end
 	end	
@@ -259,9 +247,7 @@ function WoWPro_Leveling:AutoCompleteZone()
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
 	if action == "F" or action == "R" or action == "H" or action == "b" then
 		if step == zonetext or step == subzonetext then
-			WoWProDB.char.leveling[WoWProDB.char.currentguide].completion[currentindex] = true
-			if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
-			WoWPro:MapPoint()
+			WoWPro.CompleteStep(currentindex)
 		end
 	end
 end
@@ -301,4 +287,5 @@ function WoWPro_Leveling:UpdateQuestTracker()
 			end end
 		end
 	end
+	if not WoWPro.combat then WoWPro:UpdateGuide() end
 end
