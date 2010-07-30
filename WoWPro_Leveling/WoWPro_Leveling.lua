@@ -21,7 +21,7 @@ function WoWPro_Leveling:OnEnable()
 	end
 	
 	-- Loading Initial Guide --
-	if not WoWProDB.profile.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
+	if not WoWProDB.char.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
 			Orc = "ZerDur0112", 
 			Troll = "ZerDur0112", 
@@ -36,9 +36,9 @@ function WoWPro_Leveling:OnEnable()
 			Human = "MawElw0112",
 			Worgen = "NilGuide",
 		}
-		WoWProDB.profile.currentguide = startguides[select(2, UnitRace("player"))]
-	elseif not WoWProDB.profile.currentguide then
-		WoWProDB.profile.currentguide = "NilGuide"
+		WoWProDB.char.currentguide = startguides[select(2, UnitRace("player"))]
+	elseif not WoWProDB.char.currentguide then
+		WoWProDB.char.currentguide = "NilGuide"
 	end
 	WoWPro:LoadGuide()
 	
@@ -51,16 +51,16 @@ function WoWPro_Leveling:OnEnable()
 		-- On Click - Complete Step Clicked --
 		WoWPro.rows[i].check:SetScript("OnClick", function()
 			local index = WoWPro.rows[i].index
-			WoWProDB.char.leveling[WoWProDB.profile.currentguide].completion[index] = true
-			WoWPro_Leveling:UpdateGuide()
+			WoWProDB.char.leveling[WoWProDB.char.currentguide].completion[index] = true
+			WoWPro:UpdateGuide()
 			WoWPro:MapPoint()
 		end)
 	end
 	
 	-- Registering events and updating the guide window --
 	WoWPro_Leveling.combat = false
-	WoWPro_Leveling:RegisterEvents()
-	WoWPro_Leveling:UpdateGuide()
+	WoWPro:RegisterEvents()
+	WoWPro:UpdateGuide()
 	WoWPro:MapPoint()
 end
 

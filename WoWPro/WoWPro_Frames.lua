@@ -259,11 +259,11 @@ function WoWPro:CreateResizeButton()
 	-- Scripts --
 		resizebutton:SetScript("OnMouseDown", function()
 			WoWPro.MainFrame:StartSizing(TOPLEFT)
-			if WoWPro_Leveling:UpdateGuide() then WoWPro_Leveling:UpdateGuide() end
+			if WoWPro:UpdateGuide() then WoWPro:UpdateGuide() end
 		end)
 		resizebutton:SetScript("OnMouseUp", function()
 			WoWPro.MainFrame:StopMovingOrSizing()
-			if WoWPro_Leveling:UpdateGuide() then WoWPro_Leveling:UpdateGuide() end
+			if WoWPro:UpdateGuide() then WoWPro:UpdateGuide() end
 		end)
 	WoWPro.resizebutton = resizebutton
 end
@@ -323,7 +323,7 @@ function WoWPro:CreateTitleBar()
 			WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
 			if WoWProDB.profile.resize then WoWPro.MainFrame:StopMovingOrSizing(); WoWPro.resizebutton:Show() end
 			WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
-			WoWPro_Leveling:UpdateGuide()
+			WoWPro:UpdateGuide()
 		end
 	end)   
 end
@@ -465,7 +465,7 @@ function WoWPro:CreateNextGuideDialog()
 	button1text:SetText("Load Next Guide")
 	button1text:SetTextColor(1, 1, 1)
 	button1:SetScript("OnClick", function(self, button)
-		WoWProDB.profile.currentguide = WoWPro.loadedguide["nextGID"]
+		WoWProDB.char.currentguide = WoWPro.loadedguide["nextGID"]
 		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
@@ -495,7 +495,7 @@ function WoWPro:CreateNextGuideDialog()
 	button3text:SetText("Reset Current Guide")
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
-		WoWProDB.char.leveling[WoWProDB.profile.currentguide] = nil
+		WoWProDB.char.leveling[WoWProDB.char.currentguide] = nil
 		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
@@ -536,7 +536,7 @@ function WoWPro:CreateDropdownMenu()
 				InterfaceOptionsFrame_OpenToCategory("Guide List") 
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
-				WoWProDB.char.leveling[WoWProDB.profile.currentguide] = nil
+				WoWProDB.char.leveling[WoWProDB.char.currentguide] = nil
 				WoWPro:LoadGuide()
 			end} )
 	end

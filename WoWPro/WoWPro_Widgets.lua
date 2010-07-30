@@ -10,7 +10,7 @@ function WoWPro:CreateCheck(parent)
 	check:SetNormalTexture("Interface\\Buttons\\UI-CheckBox-Up")
 	check:SetPushedTexture("Interface\\Buttons\\UI-CheckBox-Down")
 	check:SetHighlightTexture("Interface\\Buttons\\UI-CheckBox-Highlight")
-	check:Hide()
+	check:SetDisabledCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 	
 	return check
 end

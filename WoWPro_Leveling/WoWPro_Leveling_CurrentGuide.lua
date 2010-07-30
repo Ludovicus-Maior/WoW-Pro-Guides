@@ -50,43 +50,18 @@ frame:SetScript("OnShow", function()
 		row:SetPoint("RIGHT", scrollbar, "LEFT", -12, 0)
 		row:SetHeight(ROWHEIGHT)
 
-		local check = CreateFrame("CheckButton", nil, row)
-		check:SetWidth(15)
-		check:SetHeight(15)
-		check:SetNormalTexture("Interface\\Buttons\\UI-CheckBox-Up")
-		check:SetPushedTexture("Interface\\Buttons\\UI-CheckBox-Down")
-		check:SetHighlightTexture("Interface\\Buttons\\UI-CheckBox-Highlight")
-		check:SetDisabledCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
-		check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
-		check:SetPoint("TOPLEFT")
-		row.check = check
-		
-		local action = row:CreateTexture()
-		action:SetWidth(15)
-		action:SetHeight(15)
-		action:SetPoint("LEFT", check, "RIGHT", 3, 0)
-		row.action = action
-		
-		local step = row:CreateFontString(nil, nil, "GameFontHighlight")
-		step:SetJustifyH("LEFT")
-		step:SetPoint("LEFT", action, "RIGHT", 3, 0)
-		step:SetPoint("RIGHT")
-		row.step = step
-		
-		local note = row:CreateFontString(nil, nil, "GameFontNormalSmall")
-		note:SetJustifyH("LEFT")
-		note:SetJustifyV("TOP")
-		note:SetPoint("TOPLEFT", action, "BOTTOMLEFT", 0, -4)
-		note:SetPoint("TOPRIGHT", step, "BOTTOMRIGHT", 0, -4)
-		note:SetPoint("BOTTOM")
-		row.note = note
+		row.check = WoWPro:CreateCheck(row)
+		row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+		row.action = WoWPro:CreateAction(row, row.check)
+		row.step = WoWPro:CreateStep(row, row.action)
+		row.note = WoWPro:CreateNote(row, row.action)
 	
 		rows[i] = row
 	end
 	
 	function WoWPro_Leveling.UpdateCurrentGuidePanel()
 		if not frame:IsVisible() then return end
-		local GID = WoWProDB.profile.currentguide
+		local GID = WoWProDB.char.currentguide
 		local steplist = WoWPro.steps
 		local completion = WoWProDB.char.leveling[GID].completion
 		local totalh = 0
@@ -98,6 +73,7 @@ frame:SetScript("OnShow", function()
 			while WoWPro.stickies[index] do 
 				index = index + 1
 			end
+			row.index = index
 			
 			local check = completion[index]
 			if check == true then
@@ -131,14 +107,14 @@ frame:SetScript("OnShow", function()
 			
 			-- On Click - Complete Step Clicked --
 			row.check:SetScript("OnClick", function()
-				if row.check:GetChecked() == 1 then
-					WoWProDB.char.leveling[WoWProDB.profile.currentguide].completion[index] = true
+				if row.check:GetChecked() then
+					completion[row.index] = true
 				else
-					WoWProDB.char.leveling[WoWProDB.profile.currentguide].completion[index] = nil
+					completion[row.index] = nil
 				end
 				
 				WoWPro_Leveling.UpdateCurrentGuidePanel()
-				WoWPro_Leveling:UpdateGuide()
+				WoWPro:UpdateGuide()
 			end)
 				
 			index = index + 1

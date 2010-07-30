@@ -132,7 +132,7 @@ local function CreateDisplayConfig()
 						width = "full",
 						get = function(info) return WoWProDB.profile.track end,
 						set = function(info,val) WoWProDB.profile.track = val 
-							WoWPro_Leveling:UpdateGuide() end
+							WoWPro:UpdateGuide() end
 					},  
 					bgheading = {
 						order = 12,
