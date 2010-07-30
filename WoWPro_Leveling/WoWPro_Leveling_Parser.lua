@@ -254,13 +254,51 @@ end
 -- Auto-Complete: Zone based --
 function WoWPro_Leveling:AutoCompleteZone()
 	local currentindex = WoWPro.rows[1].index
+	local action = WoWPro.actions[currentindex]
+	local step = WoWPro.steps[currentindex]
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
-	if WoWPro.actions[currentindex] == "F" or WoWPro.actions[currentindex] == "R" or 
-	WoWPro.actions[currentindex] == "H" or WoWPro.actions[currentindex] == "b" then
-		if WoWPro.steps[currentindex] == zonetext or WoWPro.steps[currentindex] == subzonetext then
+	if action == "F" or action == "R" or action == "H" or action == "b" then
+		if step == zonetext or step == subzonetext then
 			WoWProDB.char.leveling[WoWProDB.char.currentguide].completion[currentindex] = true
 			if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
 			WoWPro:MapPoint()
+		end
+	end
+end
+
+-- Update Quest Tracker --
+function WoWPro_Leveling:UpdateQuestTracker()
+	for i,row in ipairs(WoWPro.rows) do
+		local index = row.index
+		local questtext = WoWPro_Leveling.questtext[index] 
+		local action = WoWPro.actions[index] 
+		local QID = WoWPro_Leveling.QIDs[index] 
+		-- Setting up quest tracker --
+		row.trackcheck = false
+		if WoWProDB.profile.track and ( action == "C" or ( (action == "K" or action == "N" ) and questtext)) then
+			for j = 1, 25 do if GetQuestLogTitle(j) then 
+				local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
+				if ( not isHeader ) and questID == QID then
+					row.trackcheck = true
+					if not questtext then
+						local track = " - "..GetQuestLogLeaderBoard(1, j)
+						for l=1,GetNumQuestLeaderBoards(j) do 
+							if l > 1 then
+								track = track.." \n - "..GetQuestLogLeaderBoard(l, j)
+							end
+						end
+						row.track:SetText(track)
+					else --Partial completion steps only track pertinent objective.
+						for l=1,GetNumQuestLeaderBoards(j) do 
+							local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(l, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
+							if questtext:match(itemName) then
+								track = " - "..GetQuestLogLeaderBoard(l, j)
+							end
+						end
+						row.track:SetText(track)
+					end
+				end
+			end end
 		end
 	end
 end

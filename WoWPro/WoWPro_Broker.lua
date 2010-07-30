@@ -190,34 +190,6 @@ function WoWPro.RowContentUpdate()
 		if not questlogcheck then
 				row:SetScript("OnClick", function(self, button, down) end)
 		end
-		
-		-- Setting up quest tracker --
-		row.trackcheck = false
-		if WoWProDB.profile.track and ( action == "C" or ( (action == "K" or action == "N" ) and questtext)) then
-			for j = 1, 25 do if GetQuestLogTitle(j) then 
-			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
-				if ( not isHeader ) and questID == QID then
-					row.trackcheck = true
-					if not questtext then
-						local track = " - "..GetQuestLogLeaderBoard(1, j)
-						for l=1,GetNumQuestLeaderBoards(j) do 
-							if l > 1 then
-								track = track.." \n - "..GetQuestLogLeaderBoard(l, j)
-							end
-						end
-						row.track:SetText(track)
-					else --Partial completion steps only track pertinent objective.
-						for l=1,GetNumQuestLeaderBoards(j) do 
-							local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(l, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
-							if questtext:match(itemName) then
-								track = " - "..GetQuestLogLeaderBoard(l, j)
-							end
-						end
-						row.track:SetText(track)
-					end
-				end
-			end end
-		end
 	
 		-- Item Button --
 		if use then
@@ -333,6 +305,7 @@ function WoWPro:RegisterEvents()
 		if event == "QUEST_LOG_UPDATE" then
 			WoWPro_Leveling:AutoCompleteQuestUpdate(...)
 			if not WoWPro_Leveling.combat then WoWPro:UpdateGuide() end
+			WoWPro_Leveling:UpdateQuestTracker()
 		end	
 		if event == "UI_INFO_MESSAGE" then
 			WoWPro_Leveling:AutoCompleteGetFP(...)
