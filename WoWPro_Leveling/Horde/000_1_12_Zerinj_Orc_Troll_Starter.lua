@@ -52,8 +52,7 @@ C Galgar's Cactus Apple Surprise|QID|4402|N|Loot Cactus Apples from Cactuses|US|
 C Sting of the Scorpid|QID|789|N|Kill Scorpid Workers and loot their Scorpid Worker Tails|US|
 C Lazy Peons|QID|5441|U|16114|N|Hit Lazy Peons with the Foreman's Blackjack. You'll find them near the walls.|US|
 
-H Valley of Trials
-T Lazy Peons|QID|5441|N|Go back to The Den.|M|44.6,68.7|
+T Lazy Peons|QID|5441|N|Go back to The Den.|M|44.6,68.7|U|6948|
 A Thazz'ril's Pick|QID|6394|M|44.6,68.7|
 T Vile Familiars|QID|792|M|42.9,69.1|
 A Burning Blade Medallion|QID|794|M|42.9,69.1|

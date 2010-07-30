@@ -399,7 +399,7 @@ local function createBlizzOptions()
 	
 	-- Profile Options
 	config:RegisterOptionsTable("WoWPro-Profile", profiles)
-	dialog:AddToBlizOptions("WoWPro-Profile", "Profiles", "WoW-Pro Guides")
+	dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro Guides")
 
 	return blizzPanel
 end

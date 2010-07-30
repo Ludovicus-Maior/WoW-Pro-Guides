@@ -516,7 +516,7 @@ function WoWPro:CreateDropdownMenu()
 			InterfaceOptionsFrame_OpenToCategory("Guide Display") 
 		end},
 		{text = "Profiles", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("Profiles") 
+			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Profiles") 
 		end},
 	}
 	
