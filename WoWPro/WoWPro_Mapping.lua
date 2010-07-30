@@ -5,6 +5,7 @@
 local cache = {}
 
 function WoWPro:MapPoint()
+	WoWPro:RemoveMapPoint()
 
 	local rowi = 1
 	while WoWPro.stickies[WoWPro.rows[rowi].index] do rowi=rowi+1 end
@@ -12,7 +13,6 @@ function WoWPro:MapPoint()
 	local coords = WoWPro_Leveling.maps[i]
 	local desc = WoWPro.steps[i]
 	local zone = WoWPro.rows[rowi].zone
-	WoWPro:RemoveMapPoint()
 
 	if coords ~= nil then
 		local zonei, zonec, zonenames = {}, {}, {}

@@ -252,6 +252,7 @@ function WoWPro:UpdateGuide()
 	while reload do reload = WoWPro.RowContentUpdate(); WoWPro.RowColorSet() end
 	WoWPro.RowContentUpdate()
 	WoWPro:RowSizeSet()
+	WoWPro:PaddingSet()
 	
 	-- Updating the guide list or current guide panels if they are shown --
 	if WoWPro_Leveling_GuideList:IsShown() then WoWPro_Leveling.UpdateGuideList() end
@@ -337,7 +338,6 @@ function WoWPro:RegisterEvents()
 end
 
 function WoWPro.CompleteStep(step)
-	print("Completing #"..step..": "..WoWPro.steps[step])
 	local GID = WoWProDB.char.currentguide
 	WoWProDB.char.leveling[GID].completion[step] = true
 	if not WoWPro.combat then WoWPro:UpdateGuide() end
