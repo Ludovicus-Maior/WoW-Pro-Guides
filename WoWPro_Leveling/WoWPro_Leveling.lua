@@ -45,18 +45,6 @@ function WoWPro_Leveling:OnEnable()
 	-- Server query for completed quests --
 	QueryQuestsCompleted()
 
-	-- Setting scripts for the guide window --
-	-- NEEDS TO BE CHANGED WHEN WE HAVE MULTIPLE MODULES --
-	for i=1,15 do
-		-- On Click - Complete Step Clicked --
-		WoWPro.rows[i].check:SetScript("OnClick", function()
-			local index = WoWPro.rows[i].index
-			WoWProDB.char.leveling[WoWProDB.char.currentguide].completion[index] = true
-			WoWPro:UpdateGuide()
-			WoWPro:MapPoint()
-		end)
-	end
-	
 	-- Registering events and updating the guide window --
 	WoWPro.combat = false
 	WoWPro:RegisterEvents()
@@ -74,12 +62,6 @@ function WoWPro_Leveling:OnDisable()
 		WoWPro.GuideFrame:UnregisterEvent(event)
 	end
 	
-	-- Setting scripts for the guide window --
-	-- NEEDS TO BE CHANGED WHEN WE HAVE MULTIPLE MODULES --
-	for i=1,15 do
-		-- On Click - Complete Step Clicked --
-		WoWPro.rows[i].check:SetScript("OnClick", function() end)
-	end
 	WoWPro:RemoveMapPoint()
 end
 

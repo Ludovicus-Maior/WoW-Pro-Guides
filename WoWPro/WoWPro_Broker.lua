@@ -118,7 +118,9 @@ function WoWPro.RowContentUpdate()
 		
 		-- Skipping any unsticky steps or optional steps unless it's time for them to display --
 		local optionalskip = true
-		while ( WoWPro_Leveling.unstickies[k] and i > stickycount+1 ) or (WoWPro_Leveling.optional[k] and optionalskip) do 
+		while ( WoWPro_Leveling.unstickies[k] and i > stickycount+1 ) 
+		or (WoWPro_Leveling.optional[k] and optionalskip) 
+		or WoWProDB.char.leveling[GID].completion[k] do 
 			if WoWPro_Leveling.optional[k] and WoWPro_Leveling.lootitem[k] then
 				local lootqtyi
 				if tonumber(WoWPro_Leveling.lootqty[k]) ~= nil then lootqtyi = tonumber(WoWPro_Leveling.lootqty[k]) else lootqtyi = 1 end
@@ -127,7 +129,9 @@ function WoWPro.RowContentUpdate()
 			if WoWPro_Leveling.optional[k] and WoWPro_Leveling.prereq[k] then
 				if WoWProDB.char.leveling.completedQIDs[tonumber(WoWPro_Leveling.prereq[k])] then optionalskip = false end
 			end
-			if ( WoWPro_Leveling.unstickies[k] and i > stickycount+1 ) or (WoWPro_Leveling.optional[k] and optionalskip) then 
+			if ( WoWPro_Leveling.unstickies[k] and i > stickycount+1 ) 
+			or (WoWPro_Leveling.optional[k] and optionalskip) 
+			or WoWProDB.char.leveling[GID].completion[k] then 
 				k = k + 1 
 			end
 		end
@@ -172,6 +176,11 @@ function WoWPro.RowContentUpdate()
 		if step then row.check:Show() else row.check:Hide() end
 		row.note:SetText(note)
 		row.action:SetTexture(actiontypes[action])
+		
+		-- On Click - Complete Step Clicked --
+		row.check:SetScript("OnClick", function()
+			WoWPro.CompleteStep(row.index)
+		end)
 		
 		-- Setting up click-to-quest log --
 		local questlogcheck = false
@@ -328,6 +337,7 @@ function WoWPro:RegisterEvents()
 end
 
 function WoWPro.CompleteStep(step)
+	print("Completing #"..step..": "..WoWPro.steps[step])
 	local GID = WoWProDB.char.currentguide
 	WoWProDB.char.leveling[GID].completion[step] = true
 	if not WoWPro.combat then WoWPro:UpdateGuide() end
