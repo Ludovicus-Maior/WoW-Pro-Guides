@@ -30,13 +30,13 @@ function WoWPro_Leveling.UpdateGuideList()
 			row.range:SetText("("..startlevel.."-"..endlevel..")")
 			row.guide = GID
 			
-			if WoWPro_LevelingDB[GID] and WoWPro_LevelingDB[GID].total then
-				row.progress:SetText(WoWPro_LevelingDB[GID].progress.."/"..WoWPro_LevelingDB[GID].total)
+			if WoWProDB.char.leveling[GID] and WoWProDB.char.leveling[GID].total then
+				row.progress:SetText(WoWProDB.char.leveling[GID].progress.."/"..WoWProDB.char.leveling[GID].total)
 			else 
 				row.progress:SetText("")
 			end
 			
-			if WoWPro_LevelingDB.currentguide == GID then
+			if WoWProDB.profile.currentguide == GID then
 				row:SetChecked(true)
 			else
 				row:SetChecked(false)
@@ -47,13 +47,13 @@ function WoWPro_Leveling.UpdateGuideList()
 		local function OnClick()
 			if IsShiftKeyDown() then
 				local iGuide = guidelist[row.i]
-				WoWPro_LevelingDB.currentguide = iGuide["GID"]
-				WoWPro_LevelingDB[iGuide["GID"]] = nil
-				WoWPro_Leveling:LoadGuide()
+				WoWProDB.profile.currentguide = iGuide["GID"]
+				WoWProDB.char.leveling[iGuide["GID"]] = nil
+				WoWPro:LoadGuide()
 			else
 				local iGuide = guidelist[row.i]
-				WoWPro_LevelingDB.currentguide = iGuide["GID"]
-				WoWPro_Leveling:LoadGuide()
+				WoWProDB.profile.currentguide = iGuide["GID"]
+				WoWPro:LoadGuide()
 			end
 		end
 		

@@ -47,13 +47,13 @@ function WoWPro:OnInitialize()
 	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileReset", "RefreshConfig")
-	WoWPro.CreateMiniMapButton()
-	WoWPro.CreateConfig()
+	WoWPro:CreateMiniMapButton()
+	WoWPro:CreateConfig()
 end
 
 function WoWPro:RefreshConfig()
-	WoWPro_Leveling:LoadGuide()
-	WoWPro.CustomizeFrames()
+	WoWPro:LoadGuide()
+	WoWPro:CustomizeFrames()
 end
 
 function WoWPro:OnEnable()
@@ -64,8 +64,9 @@ function WoWPro:OnEnable()
 	WoWPro.MainFrame:Show()
 	WoWPro.Titlebar:Show()
 	
-	WoWPro.CustomizeFrames()
-	WoWPro_Leveling:MapPoint()
+	WoWPro:CreateDropdownMenu()
+	WoWPro:CustomizeFrames()
+	WoWPro:MapPoint()
 	
 end	
 
@@ -76,5 +77,5 @@ function WoWPro:OnDisable()
 	
 	WoWPro.GuideFrame:UnregisterAllEvents()
 	
-	WoWPro_Leveling:RemoveMapPoint()
+	WoWPro:RemoveMapPoint()
 end

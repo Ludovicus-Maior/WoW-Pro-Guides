@@ -86,16 +86,16 @@ frame:SetScript("OnShow", function()
 	
 	function WoWPro_Leveling.UpdateCurrentGuidePanel()
 		if not frame:IsVisible() then return end
-		local GID = WoWPro_LevelingDB.currentguide
-		local steplist = WoWPro_Leveling.steps
-		local completion = WoWPro_LevelingDB[GID].completion
+		local GID = WoWProDB.profile.currentguide
+		local steplist = WoWPro.steps
+		local completion = WoWProDB.char.leveling[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
 		local i = 1
 		local index = i + offset
 		shownrows = NUMROWS
 		for i,row in ipairs(rows) do
-			while WoWPro_Leveling.stickies[index] do 
+			while WoWPro.stickies[index] do 
 				index = index + 1
 			end
 			
@@ -109,10 +109,10 @@ frame:SetScript("OnShow", function()
 			local step = steplist[index]
 			row.step:SetText(step)
 			
-			local action = WoWPro_Leveling.actions[index]
+			local action = WoWPro.actions[index]
 			row.action:SetTexture(actiontypes[action])
 			
-			local note = WoWPro_Leveling.notes[index]
+			local note = WoWPro.notes[index]
 			row.note:SetText(note)
 			
 			-- Setting the note frame size correctly --
@@ -132,9 +132,9 @@ frame:SetScript("OnShow", function()
 			-- On Click - Complete Step Clicked --
 			row.check:SetScript("OnClick", function()
 				if row.check:GetChecked() == 1 then
-					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = true
+					WoWProDB.char.leveling[WoWProDB.profile.currentguide].completion[index] = true
 				else
-					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = nil
+					WoWProDB.char.leveling[WoWProDB.profile.currentguide].completion[index] = nil
 				end
 				
 				WoWPro_Leveling.UpdateCurrentGuidePanel()

@@ -406,11 +406,4 @@ end
 
 function WoWPro.CreateConfig()
 	blizzPanel = createBlizzOptions()
-	
-	table.insert(WoWPro.menuList, {text = "Guide Display", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("Guide Display") 
-		end} )
-	table.insert(WoWPro.menuList, {text = "Profiles", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("Profiles") 
-		end} )
 end

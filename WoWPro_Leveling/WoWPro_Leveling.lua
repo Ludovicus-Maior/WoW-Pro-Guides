@@ -15,13 +15,13 @@ end
 
 function WoWPro_Leveling:OnEnable()
 	-- Creating empty user settings if none exist
-	if not WoWPro_LevelingDB then 
-		WoWPro_LevelingDB = {} 
-		WoWPro_LevelingDB.completedQIDs = {}
+	if not WoWProDB.char.leveling then 
+		WoWProDB.char.leveling = {} 
+		WoWProDB.char.leveling.completedQIDs = {}
 	end
 	
 	-- Loading Initial Guide --
-	if not WoWPro_LevelingDB.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
+	if not WoWProDB.profile.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
 			Orc = "ZerDur0112", 
 			Troll = "ZerDur0112", 
@@ -36,11 +36,11 @@ function WoWPro_Leveling:OnEnable()
 			Human = "MawElw0112",
 			Worgen = "NilGuide",
 		}
-		WoWPro_LevelingDB.currentguide = startguides[select(2, UnitRace("player"))]
-	elseif not WoWPro_LevelingDB.currentguide then
-		WoWPro_LevelingDB.currentguide = "NilGuide"
+		WoWProDB.profile.currentguide = startguides[select(2, UnitRace("player"))]
+	elseif not WoWProDB.profile.currentguide then
+		WoWProDB.profile.currentguide = "NilGuide"
 	end
-	WoWPro_Leveling:LoadGuide()
+	WoWPro:LoadGuide()
 	
 	-- Server query for completed quests --
 	QueryQuestsCompleted()
@@ -51,9 +51,9 @@ function WoWPro_Leveling:OnEnable()
 		-- On Click - Complete Step Clicked --
 		WoWPro.rows[i].check:SetScript("OnClick", function()
 			local index = WoWPro.rows[i].index
-			WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = true
+			WoWProDB.char.leveling[WoWProDB.profile.currentguide].completion[index] = true
 			WoWPro_Leveling:UpdateGuide()
-			WoWPro_Leveling:MapPoint()
+			WoWPro:MapPoint()
 		end)
 	end
 	
@@ -61,7 +61,7 @@ function WoWPro_Leveling:OnEnable()
 	WoWPro_Leveling.combat = false
 	WoWPro_Leveling:RegisterEvents()
 	WoWPro_Leveling:UpdateGuide()
-	WoWPro_Leveling:MapPoint()
+	WoWPro:MapPoint()
 end
 
 function WoWPro_Leveling:OnDisable()
@@ -80,7 +80,7 @@ function WoWPro_Leveling:OnDisable()
 		-- On Click - Complete Step Clicked --
 		WoWPro.rows[i].check:SetScript("OnClick", function() end)
 	end
-	WoWPro_Leveling:RemoveMapPoint()
+	WoWPro:RemoveMapPoint()
 end
 
 
