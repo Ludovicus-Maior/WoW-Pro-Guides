@@ -122,7 +122,7 @@ function WoWPro.RowContentUpdate()
 			if WoWPro_Leveling.optional[k] and WoWPro_Leveling.lootitem[k] then
 				local lootqtyi
 				if tonumber(WoWPro_Leveling.lootqty[k]) ~= nil then lootqtyi = tonumber(WoWPro_Leveling.lootqty[k]) else lootqtyi = 1 end
-				if GetItemCount(WoWPro_Leveling.lootitem[k]) >= WoWPro_Leveling.lootqtyi then optionalskip = false end
+				if GetItemCount(WoWPro_Leveling.lootitem[k]) >= lootqtyi then optionalskip = false end
 			end
 			if WoWPro_Leveling.optional[k] and WoWPro_Leveling.prereq[k] then
 				if WoWProDB.char.leveling.completedQIDs[tonumber(WoWPro_Leveling.prereq[k])] then optionalskip = false end
