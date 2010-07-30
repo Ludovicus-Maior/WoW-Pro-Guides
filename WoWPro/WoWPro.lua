@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WoWPro.Version = "0.12.2 - Alpha"
+WoWPro.Version = "0.12.3 - Alpha"
 
 local defaults = { profile = {
 	enable = true,
@@ -57,6 +57,11 @@ function WoWPro:RefreshConfig()
 end
 
 function WoWPro:OnEnable()
+
+	-- Warning if the user is missing TomTom --
+	if not TomTom then
+		print("It looks like you don't have TomTom installed. WoW-Pro's guides won't have their full functionality without it! Download it from www.wowinterface.com.")
+	end
 	
 	-- Modules --
 	WoWPro_Leveling:Enable()
