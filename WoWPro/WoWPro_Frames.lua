@@ -77,7 +77,7 @@ end
 function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do
 		-- Setting color and texture for sticky steps --
-		if WoWPro.stickies[row.index] then
+		if WoWPro.stickies and WoWPro.stickies[row.index] then
 			row:SetBackdrop( {
 				bgFile = WoWProDB.profile.stickytexture,
 				tile = true, tileSize = 16
@@ -146,7 +146,7 @@ function WoWPro.RowSizeSet()
 		row:SetHeight(newh)
 		
 		-- Counting stickies --
-		if WoWPro.stickies[row.index] and i == stickycount + 1 then
+		if WoWPro.stickies and WoWPro.stickies[row.index] and i == stickycount + 1 then
 			stickycount = stickycount+1
 		end
 		
@@ -307,18 +307,16 @@ function WoWPro:CreateTitleBar()
 	end) 
 	WoWPro.Titlebar:SetScript ("OnDoubleClick", function (self, button)
 		if ( WoWPro.GuideFrame:IsVisible() ) and button == "LeftButton" then
-			HideUIPanel(WoWPro.StickyFrame)
-		elseif button == "LeftButton" then ShowUIPanel(WoWPro.StickyFrame)
-		end
-		if ( WoWPro.GuideFrame:IsVisible() ) and button == "LeftButton" then
-			HideUIPanel(WoWPro.GuideFrame)
+			if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
+			WoWPro.GuideFrame:Hide()
 			WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
 			if WoWProDB.profile.resize then WoWPro.MainFrame:StartSizing(TOPLEFT); WoWPro.resizebutton:Hide() end
 			WoWPro.MainFrame:SetHeight(WoWPro.Titlebar:GetHeight())
 			if WoWProDB.profile.resize then WoWPro.MainFrame:StopMovingOrSizing() end
 			WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
 		elseif  button == "LeftButton" then
-			ShowUIPanel(WoWPro.GuideFrame)
+			WoWPro.GuideFrame:Show()
+			if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
 			if WoWProDB.profile.resize then WoWPro.MainFrame:StartSizing(TOPLEFT) end
 			WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
 			if WoWProDB.profile.resize then WoWPro.MainFrame:StopMovingOrSizing(); WoWPro.resizebutton:Show() end
@@ -470,7 +468,7 @@ function WoWPro:CreateNextGuideDialog()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 
-	local button2 = CreateFrame("Button", "OpenGuideList", frame, "OptionsButtonTemplate")
+	local button2 = CreateFrame("Button", "OpenWoWPro_Leveling.GuideList", frame, "OptionsButtonTemplate")
 	button2:SetPoint("BOTTOMLEFT", 10, 45)
 	button2:SetHeight(25)
 	button2:SetWidth(160)
@@ -485,7 +483,7 @@ function WoWPro:CreateNextGuideDialog()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 
-	local button3 = CreateFrame("Button", "OpenGuideList", frame, "OptionsButtonTemplate")
+	local button3 = CreateFrame("Button", "OpenWoWPro_Leveling.GuideList", frame, "OptionsButtonTemplate")
 	button3:SetPoint("BOTTOMLEFT", 10, 10)
 	button3:SetHeight(25)
 	button3:SetWidth(160)
@@ -495,7 +493,7 @@ function WoWPro:CreateNextGuideDialog()
 	button3text:SetText("Reset Current Guide")
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
-		WoWProDB.char.leveling[WoWProDB.char.currentguide] = nil
+		WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
 		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
@@ -536,7 +534,7 @@ function WoWPro:CreateDropdownMenu()
 				InterfaceOptionsFrame_OpenToCategory("Guide List") 
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
-				WoWProDB.char.leveling[WoWProDB.char.currentguide] = nil
+				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
 				WoWPro:LoadGuide()
 			end} )
 	end

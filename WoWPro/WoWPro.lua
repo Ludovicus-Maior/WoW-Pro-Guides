@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WoWPro.Version = "0.12.3 - Alpha"
+WoWPro.Version = "1.0.0 - Release"
 
 local defaults = { profile = {
 	enable = true,
@@ -64,7 +64,8 @@ function WoWPro:OnEnable()
 	end
 	
 	-- Modules --
-	WoWPro_Leveling:Enable()
+	if not WoWPro_Leveling then WoWProDB.char.currentguide = "NilGuide"; WoWPro:LoadGuide() end
+	if WoWPro_Leveling then WoWPro_Leveling:Enable() end
 	
 	WoWPro.MainFrame:Show()
 	WoWPro.Titlebar:Show()

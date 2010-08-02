@@ -3,6 +3,7 @@
 ## Notes: Guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
+## Version: 1.0.0
 
 ## X-Category: Compilations
 
@@ -25,3 +26,4 @@ WoWPro_Frames.lua
 WoWPro_Config.lua
 WoWPro_Mapping.lua
 WoWPro_Broker.lua
+WoWPro_NilGuide.lua

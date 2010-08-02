@@ -5,8 +5,15 @@
 local L = WoWPro_Locale
 local ROWHEIGHT, GAP, EDGEGAP = 17, 8, 16
 local titlerow, rows, offset = {}, {}, 0
-local guidelist = WoWPro_Leveling.GuideList
 local NUMROWS = 17 
+
+-- Creating Leveling Guide List --
+WoWPro_Leveling.GuideList = WoWPro.GuideList
+for i,guide in ipairs (WoWPro_Leveling.GuideList) do
+	if guide["guidetype"] ~= "Leveling" then
+		table.remove(WoWPro_Leveling.GuideList,i)
+	end
+end
 
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 frame.name = L["Guide List"]
@@ -18,7 +25,7 @@ function WoWPro_Leveling.UpdateGuideList()
 	if not frame:IsVisible() then return end
 	for i,row in ipairs(rows) do
 		row.i = i + offset
-		local iGuide = guidelist[row.i]
+		local iGuide = WoWPro_Leveling.GuideList[row.i]
 		if iGuide then
 			local GID = iGuide["GID"]
 			local zone = iGuide["zone"]
@@ -30,8 +37,8 @@ function WoWPro_Leveling.UpdateGuideList()
 			row.range:SetText("("..startlevel.."-"..endlevel..")")
 			row.guide = GID
 			
-			if WoWProDB.char.leveling[GID] and WoWProDB.char.leveling[GID].total then
-				row.progress:SetText(WoWProDB.char.leveling[GID].progress.."/"..WoWProDB.char.leveling[GID].total)
+			if WoWProDB.char.guide[GID] and WoWProDB.char.guide[GID].total and WoWProDB.char.guide[GID].progress then
+				row.progress:SetText(WoWProDB.char.guide[GID].progress.."/"..WoWProDB.char.guide[GID].total)
 			else 
 				row.progress:SetText("")
 			end
@@ -45,13 +52,14 @@ function WoWPro_Leveling.UpdateGuideList()
 			row:Hide()
 		end
 		local function OnClick()
+			if not WoWPro_Leveling:IsEnabled() then return end
 			if IsShiftKeyDown() then
-				local iGuide = guidelist[row.i]
+				local iGuide = WoWPro_Leveling.GuideList[row.i]
 				WoWProDB.char.currentguide = iGuide["GID"]
-				WoWProDB.char.leveling[iGuide["GID"]] = nil
+				WoWProDB.char.guide[iGuide["GID"]] = nil
 				WoWPro:LoadGuide()
 			else
-				local iGuide = guidelist[row.i]
+				local iGuide = WoWPro_Leveling.GuideList[row.i]
 				WoWProDB.char.currentguide = iGuide["GID"]
 				WoWPro:LoadGuide()
 			end
@@ -158,33 +166,33 @@ frame:SetScript("OnShow", function()
 		local sorttype = "Default"
 		function authorSort()
 			if sorttype == "AuthorAsc" then
-				table.sort(guidelist, function(a,b) return a.author > b.author end)
+				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.author > b.author end)
 				UpdateGuideList()
 				sorttype = "AuthorDesc"
 			else
-				table.sort(guidelist, function(a,b) return a.author < b.author end)
+				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.author < b.author end)
 				UpdateGuideList()
 				sorttype = "AuthorAsc"
 			end
 		end
 		function zoneSort()
 			if sorttype == "ZoneAsc" then
-				table.sort(guidelist, function(a,b) return a.zone > b.zone end)
+				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.zone > b.zone end)
 				UpdateGuideList()
 				sorttype = "ZoneDesc"
 			else
-				table.sort(guidelist, function(a,b) return a.zone < b.zone end)
+				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.zone < b.zone end)
 				UpdateGuideList()
 				sorttype = "ZoneAsc"
 			end
 		end
 		function rangeSort()
 			if sorttype == "RangeAsc" then
-				table.sort(guidelist, function(a,b) return a.startlevel > b.startlevel end)
+				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.startlevel > b.startlevel end)
 				UpdateGuideList()
 				sorttype = "RangeDesc"
 			else
-				table.sort(guidelist, function(a,b) return a.startlevel < b.startlevel end)
+				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.startlevel < b.startlevel end)
 				UpdateGuideList()
 				sorttype = "RangeAsc"
 			end
@@ -264,7 +272,7 @@ frame:SetScript("OnShow", function()
 	UpdateGuideList()
 	
 	local f = scrollbar:GetScript("OnValueChanged")
-	scrollbar:SetMinMaxValues(0, math.max(0, #guidelist - NUMROWS))
+	scrollbar:SetMinMaxValues(0, math.max(0, #WoWPro_Leveling.GuideList - NUMROWS))
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		offset = math.floor(value)
 		UpdateGuideList()
@@ -279,4 +287,4 @@ frame:SetScript("OnShow", function()
 	OnShow(frame)
 end )
 
-WoWPro_Leveling_GuideList = frame
+WoWPro_Leveling_GuideListFrame = frame

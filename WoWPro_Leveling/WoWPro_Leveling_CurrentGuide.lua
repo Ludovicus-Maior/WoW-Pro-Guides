@@ -6,22 +6,6 @@ local L = WoWPro_Locale
 local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 12, 25, 8, 16
 local offset, rows, shownrows = 0, {}, NUMROWS
 
-local actiontypes = {
-	A = "Interface\\GossipFrame\\AvailableQuestIcon",
-	C = "Interface\\Icons\\Ability_DualWield",
-	T = "Interface\\GossipFrame\\ActiveQuestIcon",
-	K = "Interface\\Icons\\Ability_Creature_Cursed_02",
-	R = "Interface\\Icons\\Ability_Tracking",
-	H = "Interface\\Icons\\INV_Misc_Rune_01",
-	h = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
-	F = "Interface\\Icons\\Ability_Druid_FlightForm",
-	f = "Interface\\Icons\\Ability_Hunter_EagleEye",
-	N = "Interface\\Icons\\INV_Misc_Note_01",
-	B = "Interface\\Icons\\INV_Misc_Coin_01",
-	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
-	U = "Interface\\Icons\\INV_Misc_Bag_08",
-}
-
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 frame.name = L["Current Guide"]
 frame.parent = "WoW-Pro Leveling"
@@ -63,7 +47,7 @@ frame:SetScript("OnShow", function()
 		if not frame:IsVisible() then return end
 		local GID = WoWProDB.char.currentguide
 		local steplist = WoWPro.steps
-		local completion = WoWProDB.char.leveling[GID].completion
+		local completion = WoWProDB.char.guide[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
 		local i = 1
@@ -86,7 +70,7 @@ frame:SetScript("OnShow", function()
 			row.step:SetText(step)
 			
 			local action = WoWPro.actions[index]
-			row.action:SetTexture(actiontypes[action])
+			row.action:SetTexture(WoWPro_Leveling.actiontypes[action])
 			
 			local note = WoWPro.notes[index]
 			row.note:SetText(note)

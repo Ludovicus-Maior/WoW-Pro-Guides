@@ -1,16 +1,18 @@
--------------------------------------------
+----------------------------------
 --      WoWPro_Mapping.lua      --
--------------------------------------------
+----------------------------------
 
 local cache = {}
 
 function WoWPro:MapPoint()
+	
 	WoWPro:RemoveMapPoint()
 
 	local rowi = 1
-	while WoWPro.stickies[WoWPro.rows[rowi].index] do rowi=rowi+1 end
+	while WoWPro.stickies and WoWPro.stickies[WoWPro.rows[rowi].index] do rowi=rowi+1 end
 	local i = WoWPro.rows[rowi].index
-	local coords = WoWPro_Leveling.maps[i]
+	if not WoWPro.maps then return end
+	local coords = WoWPro.maps[i]
 	local desc = WoWPro.steps[i]
 	local zone = WoWPro.rows[rowi].zone
 
@@ -25,6 +27,7 @@ function WoWPro:MapPoint()
 		zi, zc = zone and zonei[zone], zone and zonec[zone]
 		if not zi then
 			zi, zc = GetCurrentMapZone(), GetCurrentMapContinent()
+			print("Zone not found. Using current zone")
 		end
 		zone = zone or zonenames[zc][zi]
 		local numcoords = select("#", string.split(";", coords))

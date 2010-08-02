@@ -6,7 +6,7 @@ local L = WoWPro_Locale
 local myUFG = UnitFactionGroup("player")
 
 WoWPro_Leveling = WoWPro:NewModule("WoWPro_Leveling")
-WoWPro_Leveling.GuideList = {}
+WoWPro.GuideList = {}
 	
 function WoWPro_Leveling:OnInitialize()
 	-- Creating the config options --
@@ -15,9 +15,9 @@ end
 
 function WoWPro_Leveling:OnEnable()
 	-- Creating empty user settings if none exist
-	if not WoWProDB.char.leveling then 
-		WoWProDB.char.leveling = {} 
-		WoWProDB.char.leveling.completedQIDs = {}
+	if not WoWProDB.char.guide then 
+		WoWProDB.char.guide = {} 
+		WoWProDB.char.guide.completedQIDs = {}
 	end
 	
 	-- Loading Initial Guide --
@@ -39,6 +39,9 @@ function WoWPro_Leveling:OnEnable()
 		WoWProDB.char.currentguide = startguides[select(2, UnitRace("player"))]
 	elseif not WoWProDB.char.currentguide then
 		WoWProDB.char.currentguide = "NilGuide"
+	end
+	if WoWProDB.char.lastlevelingguide and WoWProDB.char.lastlevelingguide ~= "NilGuide" and WoWProDB.char.currentguide == "NilGuide" then
+		WoWProDB.char.currentguide = WoWProDB.char.lastlevelingguide
 	end
 	WoWPro:LoadGuide()
 	
@@ -63,14 +66,19 @@ function WoWPro_Leveling:OnDisable()
 	end
 	
 	WoWPro:RemoveMapPoint()
+	WoWProDB.char.lastlevelingguide = WoWProDB.char.currentguide
+	WoWProDB.char.currentguide = "NilGuide"
+	WoWPro:LoadGuide()
+	
 end
 
 
 -- Guide Registration Function --
 function WoWPro_Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, endlevelvalue, nextGIDvalue, factionname, sequencevalue)
 	if factionname and factionname ~= myUFG then return end
-	table.insert(WoWPro_Leveling.GuideList, {
+	table.insert(WoWPro.GuideList, {
 		GID = GIDvalue,
+		guidetype = "Leveling",
 		zone = zonename,
 		author = authorname,
 		startlevel = startlevelvalue,
