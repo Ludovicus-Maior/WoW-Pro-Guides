@@ -50,7 +50,7 @@ A The Tome of Valor (Part 4) |QID|1651| |C|Paladin|
 C The Tome of Valor (Part 4) |N|3 waves of Defias Raiders will attack Daphne. Protect her until you complete the quest| |QID|1651| |C|Paladin|
 T The Tome of Valor (Part 4) |QID|1651| |C|Paladin|
 A The Tome of Valor (Part 5) |QID|1652| |C|Paladin|
-U Use Hearthstone |QID|90| |U|6948| |N|Hearth to Darkshire. |
+H Darkshire |QID|90| 
 A Seasoned Wolf Kabobs |N|(Must have 50 cooking skill/journeyman cooking) | |QID|90|
 T Seasoned Wolf Kabobs |QID|90|
 T Zombie Juice |QID|158| |N||M|74.05,44.75|
@@ -92,9 +92,8 @@ A Seeking Wisdom |QID|269|M|7.8,34.2|
 T The Legend of Stalvan (Part 4) |N|Cross the river to Elwynn Forest. | |QID|69|M|43.8,65.8|
 A The Legend of Stalvan (Part 5) |QID|70|M|43.8,65.8|
 C The Legend of Stalvan (Part 5) |N|In the room upstairs, get the Undelivered Letter from the Storage Chest. | |QID|70| |Z|Elwynn Forest|M|44.30,65.80|
-U Use Hearthstone |QID|225| |U|6948| |N|Hearth to Darkshire. |
-U An Old History Book |QID|337| |N|There's a chance you looted an Old History Book while killing things in Duskwood. It's a random zone drop. Click it and accept the quest. If you didn't get the book, just close this step, it's optional. | |U|2794|
-A An Old History Book |N| Optional. Only for those who looted the Old History Book.| |QID|337|
+H Darkshire |QID|225| 
+A An Old History Book |O|L|2794|U|2794|N| If you have looted the Old History Book.| |QID|337|
 T Gather Rot Blossoms |QID|156|M|74.1,44.7|
 T The Night Watch (Part 3) |QID|58|M|73.5,46.8|
 T The Weathered Grave |N| | |QID|225|M|72.60,47.70|

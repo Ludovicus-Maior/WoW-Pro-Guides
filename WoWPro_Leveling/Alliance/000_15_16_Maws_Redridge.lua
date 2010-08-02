@@ -37,7 +37,7 @@ R Elwynn Forest |QID|118| |N|Get out of Stormwind  | |Z|Stormwind City|M|74.75,9
 T The Price of Shoes |QID|118|M|41.7,65.5|
 A Return to Verner |QID|119|M|41.7,65.5|
 B Buy a Skin of Sweet Rum |QID|116| |N|Buy a Skin of Sweet Rum from Barkeep Dobbins in the Goldshire inn  | |L|1939 1| |Z|Elwynn Forest|M|43.90,65.80|
-U Use Hearthstone |QID|130| |U|6948|
+H Lakeshire |QID|130|
 T Visit the Herbalist |QID|130|M|21.9,46.3|
 A Delivering Daffodils |QID|131|M|21.9,46.3|
 T Delivering Daffodils |QID|131|M|26.6,44.3|

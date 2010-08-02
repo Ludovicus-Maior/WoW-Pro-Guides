@@ -34,7 +34,7 @@ A A Dark Threat Looms (Part 1) |N|Follow the arrows and then accept the quest  (
 T A Dark Threat Looms (Part 1) |N|Click the Suspicious Barrel | |QID|250|M|56.11,13.17|
 A A Dark Threat Looms (Part 2) |QID|199|M|56.0,13.3|
 T A Dark Threat Looms (Part 2) |N|Do NOT get the follow up| |QID|199|M|46.0,13.6|
-U Use Hearthstone |QID|298| |U|6948|
+H Stoutlager Inn |QID|298|
 N Sell junk and repair - WARNING |QID|298| |N|Don't sell the Crocolisk Meat, Flasks of Oil,  Hops, Cask of Merlot, Skin of Sweet Rum and Bottle of Moonshine. Close this step when you're done  |M|34.00,46.41|
 N WARNING: Flasks of Oil |QID|103| |N|Make sure you didn't sell the 5 Flasks of Oil. If you did, buy them back from the merchant! | |L|814 5|
 N WARNING: Hops |QID|116| |N|Make sure you didn't sell the 5 Hops. If you did, buy them back from the merchant! | |L|1274 5|
@@ -75,7 +75,7 @@ T Vyrin's Revenge (Part 2) |QID|531|M|81.7,64.2|
 T Crocolisk Hunting |QID|385|M|81.8,61.7|
 T Bingles' Missing Supplies |QID|2038|M|63.6,47.9|
 C In Defense of the King's Lands (Part 3) |N| Kill 10 Stonesplinter Shamans and 10 Stonesplinter Bonesnappers  (54.27, 26.42) (52.28, 23.51)| |QID|263|M|57.65,31.20|
-U Use Hearthstone |QID|263| |U|6948|
+H Stoutlager Inn |QID|263|
 T In Defense of the King's Lands (Part 3) |QID|263|
 F Ironforge |N|Fly to Ironforge |M|33.92,51.20|
 N Level 18 - Train new skills |N| You should be Level 18 by now, so go train your new skills. Close this step when you're done. |

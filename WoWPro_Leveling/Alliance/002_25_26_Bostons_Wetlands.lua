@@ -30,7 +30,7 @@ C War Banners |N|Kill the orc mobs here until you get the items for this quest. 
 C Apprentice's Duties |N|Kill Giant Wetlands Crocolisks and Fen Creepers until you finish this quest. Fen Creepers can be found in the shallow waters and are stealthed, so you need to get close to see them. Check every pond on the way. (25.5,21.3)(18.1,25.8)| |QID|471|M|28.3,19.7|
 C Blisters on The Land |N|Kill Fen Creepers until you finish this quest. They can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them. (23.5,30.00)(25.83,31.83)(27.6,37.2)| |QID|275|M|20.25,32.1|
 T Blisters on The Land |QID|275|M|56.3,40.5|
-U Use Hearthstone |QID|281| |N|Hearthstone back to the Deepwater Tavern.| |U|6948|
+H Deepwater Tavern |QID|281|
 T Reclaiming Goods |N|| |QID|281|M|13.5,41.4|
 A The Search Continues |N|| |QID|284|M|13.65,38.2|
 T The Search Continues |N|||QID|284|M|14,34.85|

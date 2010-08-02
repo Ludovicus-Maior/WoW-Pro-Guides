@@ -39,7 +39,7 @@ A Morganth |N|This quest is a little difficult to solo, so it's optional. Close 
 C Morganth |N|Make your way to the top of this tower. Kill Morganth and loot his Pendant of Shadow.  | |QID|249|M|80.3,48.75|
 C Tharil’zun |N|Last chance to do this quest. Close this step and abandon this quest if you can't find a group and can't solo it. (69.4,59.3d)||QID|19|M|67.4,58.9|
 C Wanted: Gath'Ilzogg |N|Last chance to do this quest. Gath llzogg is at the top of the keep, guarded by 2 other mobs and an elite dragon whelp. The 2 guards can be pulled solo. Close this step and abandon this quest if you can't find a group and can't solo it. (69.9,55.95)| |QID|169|M|68.1,56|
-U Use Hearthstone |QID|128| |N|Hearth to Lakeshire. | |U|6948|
+H Lakeshire |QID|128|
 T Solomon's Law |QID|91|M|30.0,44.4|
 T Wanted: Lieutenant Fangore |QID|180|M|30.0,44.4|
 T Wanted: Gath'Ilzogg |QID|169| |O|

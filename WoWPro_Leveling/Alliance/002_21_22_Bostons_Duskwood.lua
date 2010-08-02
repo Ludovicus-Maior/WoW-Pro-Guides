@@ -33,7 +33,7 @@ C Eight-Legged Menaces |N|Kill all the spiders in this area, even the other kind
 N Gooey Spider Leg |QID|93| |N|Kill spiders until you get 6 Gooey Spider Legs.|L|2251 6| |M|12,49|
 
 T Eight-Legged Menaces |QID|245| |N|Get back on the road and then go turn in the quest.| |M|21.37,60;45.2,66.9|
-U Use Hearthstone |QID|5| |N|Hearthstone to Darkshire.| |U|6948|
+H Darkshire |QID|5|
 T Jitters' Growling Gut |QID|5| |M|73.8,43.6|
 A Dusky Crab Cakes |QID|93| |M|73.8,43.6|
 T Dusky Crab Cakes |QID|93| |M|73.8,43.6|
