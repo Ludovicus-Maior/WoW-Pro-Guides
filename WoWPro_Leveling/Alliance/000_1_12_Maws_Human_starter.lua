@@ -21,7 +21,7 @@ A Brotherhood of Thieves |QID|18|M|48.1,43.6|
 N Sell and Repair |QID|18| |N|Sell and Repair at Godric Rothgar  |M|47.68,41.39|
 C Investigate Echo Ridge |N|Kill 10 Kobold Workers  | |QID|15|M|47.20,32.90|
 C Brotherhood of Thieves |N|Kill Defias mobs until you've looted 12 Red Burlap Bandanas  | |QID|18|M|54.60,41.94|
-U Use Hearthstone |QID|18| |U|6948|
+H Northshire Abbey |QID|18|
 T Brotherhood of Thieves |QID|18|M|48.1,43.6|
 A Milly Osworth |QID|3903|M|48.1,43.6|
 A Bounty on Garrick Padfoot |QID|6|M|48.1,43.6|
@@ -75,7 +75,7 @@ T Young Lovers |QID|106|M|29.8,86.0|
 A Speak with Gramma |QID|111|M|29.8,86.0|
 T Speak with Gramma |QID|111|M|34.9,83.9|
 A Note to William |QID|107|M|34.9,83.9|
-U Use Hearthstone |QID|62| |N|Hearthstone back to Goldshire | |U|6948|
+H Goldshire |QID|62|
 T Kobold Candles |QID|60|M|43.3,65.7|
 A Shipment to Stormwind |QID|61|M|43.3,65.7|
 T Note to William |QID|107|M|43.3,65.7|
@@ -118,7 +118,7 @@ C Protect the Frontier |N|Kill Young Forest Bears and Prowlers until you finish 
 T Protect the Frontier |QID|52|M|74.0,72.2|
 A Report to Gryan Stoutmantle |QID|109| |N|From Guard Thomas at |M|73.9,72.2|
 T Red Linen Goods |QID|83|M|79.5,68.8|
-U Use Hearthstone |QID|76| |N|Hearthstone back to Goldshire | |U|6948|
+H Goldshire |QID|76|
 T Deliver Thomas' Report |QID|39|M|42.1,65.9|
 T The Jasperlode Mine |QID|76|M|42.1,65.9|
 A Westbrook Garrison Needs Help! |QID|239|M|42.1,65.9|

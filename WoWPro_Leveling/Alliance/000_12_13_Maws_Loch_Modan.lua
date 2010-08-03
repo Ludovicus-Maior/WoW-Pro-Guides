@@ -8,7 +8,7 @@ C The Trogg Threat |N|Keep on killing troggs until you've looted 8 Trogg Stone T
 T In Defense of the King's Lands (Part 1) |QID|224|M|22.1,73.1|
 A In Defense of the King's Lands (Part 2) |QID|237|
 T The Trogg Threat |QID|267|M|23.2,73.7|
-U Use Hearthstone |QID|6261| |U|6948|
+H Sentinel Hill |QID|6261|
 F Trade District |QID|6261| |N| Fly to Stormwind  | |Z|Westfall|M|56.60,52.65|
 T Dungar Longdrink |QID|6261|
 A Return to Lewis |QID|6285|

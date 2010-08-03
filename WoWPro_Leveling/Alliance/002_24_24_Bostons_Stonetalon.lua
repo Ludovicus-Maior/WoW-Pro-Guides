@@ -14,6 +14,6 @@ T Super Reaper 6000 |QID|1093|M|59.0,62.6|
 T A Gnome's Respite |N|(59.38,69.39)(59.9,66.9)|M|60.45,69.78|
 C Pridewings of Stonetalon |N|Follow the arrows and kill Pridewing Wyverns until you complete this quest. (50.00, 45.00)(52.1,43.7)(45,47.5)| |QID|1134|M|55,63|
 C Retrieval for Mauren |N|Kill Blackened Basilisks (32,66)(29,66.3) | |QID|1078|M|38,43.6|
-U Use Hearthstone |QID|1134| |N|Hearthstone back to Astranaar.| |U|6948|
+H Astranaar |QID|1134|
 ]]
 end)

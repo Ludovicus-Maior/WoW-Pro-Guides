@@ -79,7 +79,7 @@ N WARNING: Hops |QID|117| |N|Make sure you didn't sell the 5 Hops. If you did, b
 N Alexston Farmstead |N|Kill all the Defias Pillagers and Defias Looters you can find around the Alexston Farmstead. Then close this step  | |QID|13| |QO|Defias Pillager slain: 15/15| |QID|13| |QO|Defias Looter slain: 15/15|M|38.18,56.23|
 C The People's Militia (Part 2) |N|Kill Defias Pillagers and Looters until you finish the quest. You can go back to the Alexston Farmstead if you run out of mobs to kill in Moonbrook | |QID|13|M|43.23,69.40|
 N Grinding session |QID|13| |N|Grind until you've got 5 bars above level 15. Then close this step  |M|43.23,69.40|
-U Use Hearthstone |QID|13| |U|6948|
+H Sentinel Hill |QID|13|
 T The People's Militia (Part 2) |QID|13|M|56.3,47.5|
 A The People's Militia (Part 3) |QID|14|M|56.3,47.5|
 F Trade District |QID|46| |N| Fly to Stormwind  |M|56.60,52.65|

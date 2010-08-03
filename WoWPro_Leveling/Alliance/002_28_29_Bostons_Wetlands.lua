@@ -19,7 +19,7 @@ C A Grim Task |N|Kill Balgaras the Foul and loot his ear. | |QID|304|M|62.5,28.4
 C The Dark Iron War |N|Kill the dwarves here or at Dun Modr until you finish this quest. (60.25,25.45)(48.65,16.7)| |QID|303|M|61.9,27|
 T The Dark Iron War |QID|303|M|49.8,18.3|
 T A Grim Task |QID|304|M|49.8,18.3|
-U Use Hearthstone |QID|321| |N|Hearth to Deepwater Tavern.| |U|6948|
+H Deepwater Tavern |QID|321|
 T The Cursed Crew |QID|289|M|10.9,59.6|
 N Sell junk and repair |QID|321| |N|Close this step when you're done. |M|11.1,58.3|
 T Lightforge Iron |N| | |QID|321|M|12.00,64.00|
