@@ -229,10 +229,9 @@ C Clefthoof Mastery (Part 3) |QID|9851| |N|Similar to the previous two mastery q
 
 C Vision of the Dead |QID|10252|QO|Aged Clefthoof Blubber: 1/1|N|This is the last opportunity to get the drop, so kill the Aged Clefthoofs for the drop.|US|
 K Murkblood Invaders |QID|9872|L|24558|N|They patrol along the road that goes past Aeris Landing. You only need to kill and loot one to get the plans.|US|
-C Gava'xi |QID|9900| |N|He walks to the top of the nearby hill. Kill ethereals to get crystal parts and void walkers as you go.|M|42,72|
+C Gava'xi |QID|9900| |N|He walks to the top of the nearby hill.|M|42,72|
 C Matters of Security |QID|9925|N|Kill void spawn and loot crystal parts from the ground.|US|
 C Stealing from Thieves |QID|9882|N|Loot crystal parts from the ground.|M|33.5,62.5|US|
-C Gava'xi |QID|9900| |N|He's at , he walks to the top of the nearby hill.|M|42,72|
 
 C Shattering the Veil |QID|9849| |N|Head to the southwestern edge of the zone; use Gordawg's Bolder on the Shattered Rumblers and kill the Minions of Gurok.| |U|24501|
 A Murkblood Invaders |QID|9872| |U|24558|
