@@ -3,19 +3,18 @@
 ---------------------------------
 local L = WoWPro_Locale
 
+-- Frame Update Functions --
 local function GetSide(frame)
 	local x,y = frame:GetCenter()
 	if x > (UIParent:GetWidth()/2) then return "RIGHT" else return "LEFT" end
 end
-
 local function ResetMainFramePosition()
 	local top = WoWPro.Titlebar:GetTop()
 	local left = WoWPro.Titlebar:GetLeft()
 	WoWPro.MainFrame:ClearAllPoints()
 	WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
 end
-
-function WoWPro.MinimapSet()
+function WoWPro:MinimapSet()
 	local icon = LibStub("LibDBIcon-1.0")
 	if not WoWProDB.profile.minimap.hide then
 		icon:Show("WoWProIcon")
@@ -23,16 +22,16 @@ function WoWPro.MinimapSet()
 		icon:Hide("WoWProIcon")
 	end
 end
-function WoWPro.ResizeSet()
+function WoWPro:ResizeSet()
 	-- Resize Customization --
 	WoWPro.MainFrame:SetResizable(WoWProDB.profile.resize)
 	if WoWProDB.profile.resize then WoWPro.resizebutton:Show() else WoWPro.resizebutton:Hide() end
 end
-function WoWPro.DragSet()
+function WoWPro:DragSet()
 	-- Drag Customization --
 	WoWPro.MainFrame:SetMovable(WoWProDB.profile.drag)
 end
-function WoWPro.PaddingSet()
+function WoWPro:PaddingSet()
 	local pad = WoWProDB.profile.pad
 -- Padding Customization --
 	if WoWPro.Titlebar:IsShown() then 
@@ -46,14 +45,14 @@ function WoWPro.PaddingSet()
 	WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyFrame, "BOTTOMRIGHT" )
 	WoWPro.GuideFrame:SetPoint("BOTTOM", 0, pad)
 end
-function WoWPro.TitlebarSet()
+function WoWPro:TitlebarSet()
 -- Titlebar enable/disable --
 	if WoWProDB.profile.titlebar then WoWPro.Titlebar:Show() else WoWPro.Titlebar:Hide() end
 	
 -- Colors --	
 	WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
 end
-function WoWPro.BackgroundSet()
+function WoWPro:BackgroundSet()
 -- Textures and Borders --
 	WoWPro.MainFrame:SetBackdrop( {
 		bgFile = WoWProDB.profile.bgtexture,
@@ -75,10 +74,10 @@ function WoWPro.BackgroundSet()
 		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0) 
 	end
 end	
-function WoWPro.RowColorSet()
+function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do
 		-- Setting color and texture for sticky steps --
-		if WoWPro_Leveling.stickies[row.index] then
+		if WoWPro.stickies and WoWPro.stickies[row.index] then
 			row:SetBackdrop( {
 				bgFile = WoWProDB.profile.stickytexture,
 				tile = true, tileSize = 16
@@ -113,10 +112,10 @@ function WoWPro.RowSizeSet()
 		
 		-- Setting the note frame size correctly, setting up mouseover notes --
 		local newh, noteh, trackh
-		if WoWProDB.profile.noteshow and WoWPro_Leveling.notes[row.index] ~= "" and WoWPro_Leveling.notes[row.index] then
+		if WoWProDB.profile.noteshow and WoWPro.notes[row.index] ~= "" and WoWPro.notes[row.index] then
 			noteh = 1
 			row.note:Hide()
-			WoWPro.mousenotes[i].note:SetText(WoWPro_Leveling.notes[row.index])
+			WoWPro.mousenotes[i].note:SetText(WoWPro.notes[row.index])
 			local mnh = WoWPro.mousenotes[i].note:GetHeight()
 			WoWPro.mousenotes[i]:SetHeight(mnh+20)
 			row:SetScript("OnEnter", function()
@@ -134,9 +133,7 @@ function WoWPro.RowSizeSet()
 			row:SetScript("OnLeave", function() end)
 		end
 		
-		if WoWProDB.profile.track and row.trackcheck and ( WoWPro_Leveling.actions[row.index] == "C" or 
-		( (WoWPro_Leveling.actions[row.index] == "K" or WoWPro_Leveling.actions[row.index] == "N" ) 
-		and WoWPro_Leveling.questtext[row.index])) then
+		if row.trackcheck then
 			row.track:Show()
 			row.track:SetPoint("TOPLEFT", row.action, "BOTTOMLEFT", 0, -noteh-5)
 			trackh = row.track:GetHeight()
@@ -149,7 +146,7 @@ function WoWPro.RowSizeSet()
 		row:SetHeight(newh)
 		
 		-- Counting stickies --
-		if WoWPro_Leveling.stickies[row.index] and i == stickycount + 1 then
+		if WoWPro.stickies and WoWPro.stickies[row.index] and i == stickycount + 1 then
 			stickycount = stickycount+1
 		end
 		
@@ -213,7 +210,7 @@ function WoWPro.CustomizeFrames()
 end
 
 -- Anchor Frame --
-function WoWPro.CreateAnchorFrame()
+function WoWPro:CreateAnchorFrame()
 	local frame = CreateFrame("Frame", "WoWPro.AnchorFrame", UIParent)
 	frame:SetHeight(22)
 	frame:SetWidth(200)
@@ -223,7 +220,7 @@ function WoWPro.CreateAnchorFrame()
 end
 
 -- Main Frame --
-function WoWPro.CreateMainFrame()
+function WoWPro:CreateMainFrame()
 	local frame = CreateFrame("Button", "WoWPro.MainFrame", WoWPro.AnchorFrame)
 	frame:SetMovable(true)
 	frame:SetResizable(true)
@@ -233,12 +230,6 @@ function WoWPro.CreateMainFrame()
 	frame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
 	WoWPro.MainFrame = frame
 	-- Menu --
-	WoWPro.menuList = {
-		{text = "WoW-Pro Guides", isTitle = true},
-		{text = "Config", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Guides")
-		end}
-	}
 	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 	-- Scripts --
 	WoWPro.MainFrame:SetScript("OnMouseDown", function(self, button)
@@ -246,7 +237,7 @@ function WoWPro.CreateMainFrame()
 			ResetMainFramePosition()
 			WoWPro.MainFrame:StartMoving()
 		elseif button == "RightButton" then
-			EasyMenu(WoWPro.menuList, menuFrame, "cursor", 0 , 0, "MENU");
+			EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 		end
 	end)
 	WoWPro.MainFrame:SetScript("OnMouseUp", function(self, button)
@@ -258,7 +249,7 @@ function WoWPro.CreateMainFrame()
 end
 	
 -- Resize Button --
-function WoWPro.CreateResizeButton()
+function WoWPro:CreateResizeButton()
 	local resizebutton = CreateFrame("Button", "WoWPro.ResizeButton", WoWPro.MainFrame)
 	resizebutton:SetHeight(20)
 	resizebutton:SetWidth(20)
@@ -268,17 +259,17 @@ function WoWPro.CreateResizeButton()
 	-- Scripts --
 		resizebutton:SetScript("OnMouseDown", function()
 			WoWPro.MainFrame:StartSizing(TOPLEFT)
-			if WoWPro_Leveling:UpdateGuide() then WoWPro_Leveling:UpdateGuide() end
+			if WoWPro:UpdateGuide() then WoWPro:UpdateGuide() end
 		end)
 		resizebutton:SetScript("OnMouseUp", function()
 			WoWPro.MainFrame:StopMovingOrSizing()
-			if WoWPro_Leveling:UpdateGuide() then WoWPro_Leveling:UpdateGuide() end
+			if WoWPro:UpdateGuide() then WoWPro:UpdateGuide() end
 		end)
 	WoWPro.resizebutton = resizebutton
 end
 	
 -- Title Bar --
-function WoWPro.CreateTitleBar()
+function WoWPro:CreateTitleBar()
 	local titlebar = CreateFrame("Button", "Titlebar", WoWPro.MainFrame)
 	titlebar:SetHeight(22)
 	titlebar:SetWidth(200)
@@ -305,7 +296,7 @@ function WoWPro.CreateTitleBar()
 			ResetMainFramePosition()
 			WoWPro.MainFrame:StartMoving()
 		elseif button == "RightButton" then
-			EasyMenu(WoWPro.menuList, menuFrame, "cursor", 0 , 0, "MENU");
+			EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 		end
 	end)
 	WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
@@ -316,29 +307,27 @@ function WoWPro.CreateTitleBar()
 	end) 
 	WoWPro.Titlebar:SetScript ("OnDoubleClick", function (self, button)
 		if ( WoWPro.GuideFrame:IsVisible() ) and button == "LeftButton" then
-			HideUIPanel(WoWPro.StickyFrame)
-		elseif button == "LeftButton" then ShowUIPanel(WoWPro.StickyFrame)
-		end
-		if ( WoWPro.GuideFrame:IsVisible() ) and button == "LeftButton" then
-			HideUIPanel(WoWPro.GuideFrame)
+			if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
+			WoWPro.GuideFrame:Hide()
 			WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
 			if WoWProDB.profile.resize then WoWPro.MainFrame:StartSizing(TOPLEFT); WoWPro.resizebutton:Hide() end
 			WoWPro.MainFrame:SetHeight(WoWPro.Titlebar:GetHeight())
 			if WoWProDB.profile.resize then WoWPro.MainFrame:StopMovingOrSizing() end
 			WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
 		elseif  button == "LeftButton" then
-			ShowUIPanel(WoWPro.GuideFrame)
+			WoWPro.GuideFrame:Show()
+			if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
 			if WoWProDB.profile.resize then WoWPro.MainFrame:StartSizing(TOPLEFT) end
 			WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
 			if WoWProDB.profile.resize then WoWPro.MainFrame:StopMovingOrSizing(); WoWPro.resizebutton:Show() end
 			WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
-			WoWPro_Leveling:UpdateGuide()
+			WoWPro:UpdateGuide()
 		end
 	end)   
 end
 
 -- Sticky Frame --
-function WoWPro.CreateStickyFrame()
+function WoWPro:CreateStickyFrame()
 	local sticky = CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame)
 	sticky:SetHeight(1)
 	sticky:Hide()
@@ -355,13 +344,13 @@ function WoWPro.CreateStickyFrame()
 end
 
 -- Guide Frame --
-function WoWPro.CreateGuideFrame()
+function WoWPro:CreateGuideFrame()
 	local guide = CreateFrame("Frame", "WoWPro.GuideFrame", WoWPro.MainFrame)
 	WoWPro.GuideFrame = guide
 end
 
 -- Rows to be populated by individual addons --
-function WoWPro.CreateRows()
+function WoWPro:CreateRows()
 	WoWPro.rows = {}
 	for i=1,15 do
 		local row = CreateFrame("Button", nil, WoWPro.GuideFrame)
@@ -395,7 +384,7 @@ function WoWPro.CreateRows()
 end
 
 -- Mouseover Notes individual addons --
-function WoWPro.CreateMouseNotes()
+function WoWPro:CreateMouseNotes()
 	WoWPro.mousenotes = {}
 	for i=1,15 do
 		local row = CreateFrame("Frame", "Mouseover Note Tooltip", WoWPro.GuideFrame)
@@ -425,7 +414,7 @@ function WoWPro.CreateMouseNotes()
 end
 
 -- Mini-map Button --
-function WoWPro.CreateMiniMapButton()
+function WoWPro:CreateMiniMapButton()
 	local ldb = LibStub:GetLibrary("LibDataBroker-1.1")
 	local icon = LibStub("LibDBIcon-1.0")
 
@@ -444,7 +433,7 @@ function WoWPro.CreateMiniMapButton()
 end
 
 -- Next Guide Dialog --
-function WoWPro.CreateNextGuideDialog()
+function WoWPro:CreateNextGuideDialog()
 	local frame = CreateFrame("Frame", "GuideComplete", UIParent)
 	frame:SetPoint("CENTER", 0, 100)
 	frame:SetHeight(150)
@@ -474,12 +463,12 @@ function WoWPro.CreateNextGuideDialog()
 	button1text:SetText("Load Next Guide")
 	button1text:SetTextColor(1, 1, 1)
 	button1:SetScript("OnClick", function(self, button)
-		WoWPro_LevelingDB.currentguide = WoWPro_Leveling.loadedguide["nextGID"]
-		WoWPro_Leveling:LoadGuide()
+		WoWProDB.char.currentguide = WoWPro.loadedguide["nextGID"]
+		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 
-	local button2 = CreateFrame("Button", "OpenGuideList", frame, "OptionsButtonTemplate")
+	local button2 = CreateFrame("Button", "OpenWoWPro_Leveling.GuideList", frame, "OptionsButtonTemplate")
 	button2:SetPoint("BOTTOMLEFT", 10, 45)
 	button2:SetHeight(25)
 	button2:SetWidth(160)
@@ -494,7 +483,7 @@ function WoWPro.CreateNextGuideDialog()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 
-	local button3 = CreateFrame("Button", "OpenGuideList", frame, "OptionsButtonTemplate")
+	local button3 = CreateFrame("Button", "OpenWoWPro_Leveling.GuideList", frame, "OptionsButtonTemplate")
 	button3:SetPoint("BOTTOMLEFT", 10, 10)
 	button3:SetHeight(25)
 	button3:SetWidth(160)
@@ -504,8 +493,8 @@ function WoWPro.CreateNextGuideDialog()
 	button3text:SetText("Reset Current Guide")
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
-		WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide] = nil
-		WoWPro_Leveling:LoadGuide()
+		WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 	
@@ -514,13 +503,50 @@ function WoWPro.CreateNextGuideDialog()
 	WoWPro.NextGuideDialog = frame
 end
 
+-- Dropdown Menu --
+function WoWPro:CreateDropdownMenu()
+	WoWPro.DropdownMenu = {
+		{text = "WoW-Pro Guides", isTitle = true},
+		{text = "Config", func = function() 
+			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Guides")
+		end},
+		{text = "Guide Display", func = function() 
+			InterfaceOptionsFrame_OpenToCategory("Guide Display") 
+		end},
+		{text = "Profiles", func = function() 
+			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Profiles") 
+		end},
+	}
+	
+	-- Modules --
+	if WoWPro_Leveling then
+		table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
+		table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )
+		table.insert(WoWPro.DropdownMenu, {text = "Config", func = function() 
+				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
+			end} )
+		table.insert(WoWPro.DropdownMenu, {text = L["Current Guide"], func = function()
+				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")  
+				InterfaceOptionsFrame_OpenToCategory("Current Guide")
+			end} )
+		table.insert(WoWPro.DropdownMenu, {text = L["Guide List"], func = function() 
+				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
+				InterfaceOptionsFrame_OpenToCategory("Guide List") 
+			end} )
+		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
+				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+				WoWPro:LoadGuide()
+			end} )
+	end
+end
+
 -- Creating the addon's frames --
-WoWPro.CreateAnchorFrame()
-WoWPro.CreateMainFrame()
-WoWPro.CreateResizeButton()
-WoWPro.CreateTitleBar()
-WoWPro.CreateStickyFrame()
-WoWPro.CreateGuideFrame()
-WoWPro.CreateRows()
-WoWPro.CreateMouseNotes()
-WoWPro.CreateNextGuideDialog()
+WoWPro:CreateAnchorFrame()
+WoWPro:CreateMainFrame()
+WoWPro:CreateResizeButton()
+WoWPro:CreateTitleBar()
+WoWPro:CreateStickyFrame()
+WoWPro:CreateGuideFrame()
+WoWPro:CreateRows()
+WoWPro:CreateMouseNotes()
+WoWPro:CreateNextGuideDialog()

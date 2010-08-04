@@ -48,7 +48,7 @@ C Sting of the Scorpid|QID|789|N|Kill Scorpid Workers and loot their Scorpid Wor
 C Lazy Peons|QID|5441|N|Hit Lazy Peons with the Foreman's Blackjack. You'll find them near the walls.|S|U|16114|
 C Vile Familiars|QID|792|N|Work on your other objectives on the way to the Vile Familiars in the north.|M|44.7,57.7|
 C Vile Familiars|QID|1485|C|Warlock|R|Orc, Troll|
-C Galgar's Cactus Apple Surprise|QID|4402|N|Loot Cactus Apples from Cactuses|US|
+C Galgar's Cactus Apple Surprise|QID|4402|N|Loot Cactus Apples from Cactuses|US|M|44.7,57.7|
 C Sting of the Scorpid|QID|789|N|Kill Scorpid Workers and loot their Scorpid Worker Tails|US|
 C Lazy Peons|QID|5441|U|16114|N|Hit Lazy Peons with the Foreman's Blackjack. You'll find them near the walls.|US|
 

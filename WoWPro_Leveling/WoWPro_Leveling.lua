@@ -6,7 +6,7 @@ local L = WoWPro_Locale
 local myUFG = UnitFactionGroup("player")
 
 WoWPro_Leveling = WoWPro:NewModule("WoWPro_Leveling")
-WoWPro_Leveling.GuideList = {}
+WoWPro.GuideList = {}
 	
 function WoWPro_Leveling:OnInitialize()
 	-- Creating the config options --
@@ -15,13 +15,13 @@ end
 
 function WoWPro_Leveling:OnEnable()
 	-- Creating empty user settings if none exist
-	if not WoWPro_LevelingDB then 
-		WoWPro_LevelingDB = {} 
-		WoWPro_LevelingDB.completedQIDs = {}
+	if not WoWProDB.char.guide then 
+		WoWProDB.char.guide = {} 
+		WoWProDB.char.guide.completedQIDs = {}
 	end
 	
 	-- Loading Initial Guide --
-	if not WoWPro_LevelingDB.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
+	if not WoWProDB.char.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
 			Orc = "ZerDur0112", 
 			Troll = "ZerDur0112", 
@@ -36,32 +36,23 @@ function WoWPro_Leveling:OnEnable()
 			Human = "MawElw0112",
 			Worgen = "NilGuide",
 		}
-		WoWPro_LevelingDB.currentguide = startguides[select(2, UnitRace("player"))]
-	elseif not WoWPro_LevelingDB.currentguide then
-		WoWPro_LevelingDB.currentguide = "NilGuide"
+		WoWProDB.char.currentguide = startguides[select(2, UnitRace("player"))]
+	elseif not WoWProDB.char.currentguide then
+		WoWProDB.char.currentguide = "NilGuide"
 	end
-	WoWPro_Leveling:LoadGuide()
+	if WoWProDB.char.lastlevelingguide and WoWProDB.char.lastlevelingguide ~= "NilGuide" and WoWProDB.char.currentguide == "NilGuide" then
+		WoWProDB.char.currentguide = WoWProDB.char.lastlevelingguide
+	end
+	WoWPro:LoadGuide()
 	
 	-- Server query for completed quests --
 	QueryQuestsCompleted()
 
-	-- Setting scripts for the guide window --
-	-- NEEDS TO BE CHANGED WHEN WE HAVE MULTIPLE MODULES --
-	for i=1,15 do
-		-- On Click - Complete Step Clicked --
-		WoWPro.rows[i].check:SetScript("OnClick", function()
-			local index = WoWPro.rows[i].index
-			WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = true
-			WoWPro_Leveling:UpdateGuide()
-			WoWPro_Leveling:MapPoint()
-		end)
-	end
-	
 	-- Registering events and updating the guide window --
-	WoWPro_Leveling.combat = false
-	WoWPro_Leveling:RegisterEvents()
-	WoWPro_Leveling:UpdateGuide()
-	WoWPro_Leveling:MapPoint()
+	WoWPro.combat = false
+	WoWPro:RegisterEvents()
+	WoWPro:UpdateGuide()
+	WoWPro:MapPoint()
 end
 
 function WoWPro_Leveling:OnDisable()
@@ -74,21 +65,20 @@ function WoWPro_Leveling:OnDisable()
 		WoWPro.GuideFrame:UnregisterEvent(event)
 	end
 	
-	-- Setting scripts for the guide window --
-	-- NEEDS TO BE CHANGED WHEN WE HAVE MULTIPLE MODULES --
-	for i=1,15 do
-		-- On Click - Complete Step Clicked --
-		WoWPro.rows[i].check:SetScript("OnClick", function() end)
-	end
-	WoWPro_Leveling:RemoveMapPoint()
+	WoWPro:RemoveMapPoint()
+	WoWProDB.char.lastlevelingguide = WoWProDB.char.currentguide
+	WoWProDB.char.currentguide = "NilGuide"
+	WoWPro:LoadGuide()
+	
 end
 
 
 -- Guide Registration Function --
 function WoWPro_Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, endlevelvalue, nextGIDvalue, factionname, sequencevalue)
 	if factionname and factionname ~= myUFG then return end
-	table.insert(WoWPro_Leveling.GuideList, {
+	table.insert(WoWPro.GuideList, {
 		GID = GIDvalue,
+		guidetype = "Leveling",
 		zone = zonename,
 		author = authorname,
 		startlevel = startlevelvalue,

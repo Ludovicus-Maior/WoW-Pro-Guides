@@ -6,22 +6,6 @@ local L = WoWPro_Locale
 local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 12, 25, 8, 16
 local offset, rows, shownrows = 0, {}, NUMROWS
 
-local actiontypes = {
-	A = "Interface\\GossipFrame\\AvailableQuestIcon",
-	C = "Interface\\Icons\\Ability_DualWield",
-	T = "Interface\\GossipFrame\\ActiveQuestIcon",
-	K = "Interface\\Icons\\Ability_Creature_Cursed_02",
-	R = "Interface\\Icons\\Ability_Tracking",
-	H = "Interface\\Icons\\INV_Misc_Rune_01",
-	h = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
-	F = "Interface\\Icons\\Ability_Druid_FlightForm",
-	f = "Interface\\Icons\\Ability_Hunter_EagleEye",
-	N = "Interface\\Icons\\INV_Misc_Note_01",
-	B = "Interface\\Icons\\INV_Misc_Coin_01",
-	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
-	U = "Interface\\Icons\\INV_Misc_Bag_08",
-}
-
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 frame.name = L["Current Guide"]
 frame.parent = "WoW-Pro Leveling"
@@ -50,54 +34,30 @@ frame:SetScript("OnShow", function()
 		row:SetPoint("RIGHT", scrollbar, "LEFT", -12, 0)
 		row:SetHeight(ROWHEIGHT)
 
-		local check = CreateFrame("CheckButton", nil, row)
-		check:SetWidth(15)
-		check:SetHeight(15)
-		check:SetNormalTexture("Interface\\Buttons\\UI-CheckBox-Up")
-		check:SetPushedTexture("Interface\\Buttons\\UI-CheckBox-Down")
-		check:SetHighlightTexture("Interface\\Buttons\\UI-CheckBox-Highlight")
-		check:SetDisabledCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
-		check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
-		check:SetPoint("TOPLEFT")
-		row.check = check
-		
-		local action = row:CreateTexture()
-		action:SetWidth(15)
-		action:SetHeight(15)
-		action:SetPoint("LEFT", check, "RIGHT", 3, 0)
-		row.action = action
-		
-		local step = row:CreateFontString(nil, nil, "GameFontHighlight")
-		step:SetJustifyH("LEFT")
-		step:SetPoint("LEFT", action, "RIGHT", 3, 0)
-		step:SetPoint("RIGHT")
-		row.step = step
-		
-		local note = row:CreateFontString(nil, nil, "GameFontNormalSmall")
-		note:SetJustifyH("LEFT")
-		note:SetJustifyV("TOP")
-		note:SetPoint("TOPLEFT", action, "BOTTOMLEFT", 0, -4)
-		note:SetPoint("TOPRIGHT", step, "BOTTOMRIGHT", 0, -4)
-		note:SetPoint("BOTTOM")
-		row.note = note
+		row.check = WoWPro:CreateCheck(row)
+		row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+		row.action = WoWPro:CreateAction(row, row.check)
+		row.step = WoWPro:CreateStep(row, row.action)
+		row.note = WoWPro:CreateNote(row, row.action)
 	
 		rows[i] = row
 	end
 	
 	function WoWPro_Leveling.UpdateCurrentGuidePanel()
 		if not frame:IsVisible() then return end
-		local GID = WoWPro_LevelingDB.currentguide
-		local steplist = WoWPro_Leveling.steps
-		local completion = WoWPro_LevelingDB[GID].completion
+		local GID = WoWProDB.char.currentguide
+		local steplist = WoWPro.steps
+		local completion = WoWProDB.char.guide[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
 		local i = 1
 		local index = i + offset
 		shownrows = NUMROWS
 		for i,row in ipairs(rows) do
-			while WoWPro_Leveling.stickies[index] do 
+			while WoWPro.stickies[index] do 
 				index = index + 1
 			end
+			row.index = index
 			
 			local check = completion[index]
 			if check == true then
@@ -109,10 +69,10 @@ frame:SetScript("OnShow", function()
 			local step = steplist[index]
 			row.step:SetText(step)
 			
-			local action = WoWPro_Leveling.actions[index]
-			row.action:SetTexture(actiontypes[action])
+			local action = WoWPro.actions[index]
+			row.action:SetTexture(WoWPro_Leveling.actiontypes[action])
 			
-			local note = WoWPro_Leveling.notes[index]
+			local note = WoWPro.notes[index]
 			row.note:SetText(note)
 			
 			-- Setting the note frame size correctly --
@@ -131,14 +91,14 @@ frame:SetScript("OnShow", function()
 			
 			-- On Click - Complete Step Clicked --
 			row.check:SetScript("OnClick", function()
-				if row.check:GetChecked() == 1 then
-					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = true
+				if row.check:GetChecked() then
+					completion[row.index] = true
 				else
-					WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide].completion[index] = nil
+					completion[row.index] = nil
 				end
 				
 				WoWPro_Leveling.UpdateCurrentGuidePanel()
-				WoWPro_Leveling:UpdateGuide()
+				WoWPro:UpdateGuide()
 			end)
 				
 			index = index + 1

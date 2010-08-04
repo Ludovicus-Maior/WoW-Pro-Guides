@@ -3,19 +3,20 @@
 ## Notes: Guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
+## Version: 1.0.0
 
 ## X-Category: Compilations
 
-Libraries\AceAddon-3.0\AceAddon-3.0.xml
-
 Libraries\LibStub\LibStub.lua
 Libraries\CallbackHandler-1.0\CallbackHandler-1.0.xml
-Libraries\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
-Libraries\LibDataBroker-1.1\LibDataBroker-1.1.lua
-Libraries\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Libraries\AceAddon-3.0\AceAddon-3.0.xml
+Libraries\AceGUI-3.0\AceGUI-3.0.xml
 Libraries\AceDB-3.0\AceDB-3.0.xml
 Libraries\AceDBOptions-3.0\AceDBOptions-3.0.xml
 Libraries\AceConfig-3.0\AceConfig-3.0.xml
+Libraries\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+Libraries\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libraries\LibDBIcon-1.0\LibDBIcon-1.0.lua
 Libraries\WoWProLib.xml
 
 WoWPro.lua
@@ -23,3 +24,6 @@ WoWPro_Widgets.lua
 WoWPro_Localization.lua
 WoWPro_Frames.lua
 WoWPro_Config.lua
+WoWPro_Mapping.lua
+WoWPro_Broker.lua
+WoWPro_NilGuide.lua

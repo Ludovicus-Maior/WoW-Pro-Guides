@@ -132,7 +132,7 @@ local function CreateDisplayConfig()
 						width = "full",
 						get = function(info) return WoWProDB.profile.track end,
 						set = function(info,val) WoWProDB.profile.track = val 
-							WoWPro_Leveling:UpdateGuide() end
+							WoWPro:UpdateGuide() end
 					},  
 					bgheading = {
 						order = 12,
@@ -399,18 +399,11 @@ local function createBlizzOptions()
 	
 	-- Profile Options
 	config:RegisterOptionsTable("WoWPro-Profile", profiles)
-	dialog:AddToBlizOptions("WoWPro-Profile", "Profiles", "WoW-Pro Guides")
+	dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro Guides")
 
 	return blizzPanel
 end
 
 function WoWPro.CreateConfig()
 	blizzPanel = createBlizzOptions()
-	
-	table.insert(WoWPro.menuList, {text = "Guide Display", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("Guide Display") 
-		end} )
-	table.insert(WoWPro.menuList, {text = "Profiles", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("Profiles") 
-		end} )
 end

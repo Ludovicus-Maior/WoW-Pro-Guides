@@ -44,26 +44,6 @@ end
 
 function WoWPro_Leveling.CreateConfig()
 	blizzPanel = createBlizzOptions()
-	InterfaceOptions_AddCategory(WoWPro_Leveling_GuideList)
+	InterfaceOptions_AddCategory(WoWPro_Leveling_GuideListFrame)
 	InterfaceOptions_AddCategory(WoWPro_Leveling_CurrentGuide)
-	
-	-- Adding to the dropdown menu --
-	table.insert(WoWPro.menuList, {text = "", isTitle = true} )
-	table.insert(WoWPro.menuList, {text = "WoW-Pro Leveling", isTitle = true} )
-	table.insert(WoWPro.menuList, {text = "Config", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
-		end} )
-	table.insert(WoWPro.menuList, {text = L["Current Guide"], func = function()
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")  
-			InterfaceOptionsFrame_OpenToCategory("Current Guide")
-		end} )
-	table.insert(WoWPro.menuList, {text = L["Guide List"], func = function() 
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
-			InterfaceOptionsFrame_OpenToCategory("Guide List") 
-		end} )
-	table.insert(WoWPro.menuList, {text = L["Reset Current Guide"], func = function() 
-			WoWPro_LevelingDB[WoWPro_LevelingDB.currentguide] = nil
-			WoWPro_Leveling:LoadGuide()
-		end} )
-		
 end

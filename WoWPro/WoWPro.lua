@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WoWPro.Version = "0.12.2 - Alpha"
+WoWPro.Version = "1.0.0 - Release"
 
 local defaults = { profile = {
 	enable = true,
@@ -47,25 +47,32 @@ function WoWPro:OnInitialize()
 	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileReset", "RefreshConfig")
-	WoWPro.CreateMiniMapButton()
-	WoWPro.CreateConfig()
+	WoWPro:CreateMiniMapButton()
+	WoWPro:CreateConfig()
 end
 
 function WoWPro:RefreshConfig()
-	WoWPro_Leveling:LoadGuide()
-	WoWPro.CustomizeFrames()
+	WoWPro:LoadGuide()
+	WoWPro:CustomizeFrames()
 end
 
 function WoWPro:OnEnable()
+
+	-- Warning if the user is missing TomTom --
+	if not TomTom then
+		print("It looks like you don't have TomTom installed. WoW-Pro's guides won't have their full functionality without it! Download it from www.wowinterface.com.")
+	end
 	
 	-- Modules --
-	WoWPro_Leveling:Enable()
+	if not WoWPro_Leveling then WoWProDB.char.currentguide = "NilGuide"; WoWPro:LoadGuide() end
+	if WoWPro_Leveling then WoWPro_Leveling:Enable() end
 	
 	WoWPro.MainFrame:Show()
 	WoWPro.Titlebar:Show()
 	
-	WoWPro.CustomizeFrames()
-	WoWPro_Leveling:MapPoint()
+	WoWPro:CreateDropdownMenu()
+	WoWPro:CustomizeFrames()
+	WoWPro:MapPoint()
 	
 end	
 
@@ -76,5 +83,5 @@ function WoWPro:OnDisable()
 	
 	WoWPro.GuideFrame:UnregisterAllEvents()
 	
-	WoWPro_Leveling:RemoveMapPoint()
+	WoWPro:RemoveMapPoint()
 end
