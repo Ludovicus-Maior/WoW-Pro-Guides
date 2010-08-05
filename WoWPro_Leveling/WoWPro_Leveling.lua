@@ -47,12 +47,6 @@ function WoWPro_Leveling:OnEnable()
 	
 	-- Server query for completed quests --
 	QueryQuestsCompleted()
-
-	-- Registering events and updating the guide window --
-	WoWPro.combat = false
-	WoWPro:RegisterEvents()
-	WoWPro:UpdateGuide()
-	WoWPro:MapPoint()
 end
 
 function WoWPro_Leveling:OnDisable()

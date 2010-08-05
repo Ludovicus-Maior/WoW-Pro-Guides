@@ -71,7 +71,11 @@ function WoWPro:OnEnable()
 	WoWPro.Titlebar:Show()
 	
 	WoWPro:CreateDropdownMenu()
-	WoWPro:CustomizeFrames()
+
+	-- Registering events and updating the guide window --
+	WoWPro.combat = false
+	WoWPro:RegisterEvents()
+	WoWPro:UpdateGuide()
 	WoWPro:MapPoint()
 	
 end	
