@@ -89,3 +89,57 @@ function WoWPro:OnDisable()
 	
 	WoWPro:RemoveMapPoint()
 end
+
+-- fixes the issue with InterfaceOptionsFrame_OpenToCategory not actually opening the Category (and not even scrolling to it)
+	do
+	doNotRun = false
+	local function InterfaceOptionsFrame_OpenToCategory_Fix(panel)
+		if InCombatLockdown() then return end
+		if doNotRun then
+			doNotRun = false
+			return
+		end
+		local cat = _G['INTERFACEOPTIONS_ADDONCATEGORIES']
+		local panelName;
+		if ( type(panel) == "string" ) then
+			for i, p in pairs(cat) do
+				if p.name == panel then
+					panelName = p.parent or panel
+					break 
+				end 
+			end
+		else
+			for i, p in pairs(cat) do
+				if p == panel then
+					panelName = p.parent or panel.name
+					break
+				end
+			end
+		end
+		if not panelName then return end -- if its not part of our list return early
+			local noncollapsedHeaders = {}
+			local shownpanels = 0
+			local mypanel
+			for i, panel in ipairs(cat) do
+				if not panel.parent or noncollapsedHeaders[panel.parent] then
+					if panel.name == panelName then
+						panel.collapsed = true
+						local t={}
+						t.element = panel
+						InterfaceOptionsListButton_ToggleSubCategories(t)
+						noncollapsedHeaders[panel.name] = true
+						mypanel = shownpanels + 1
+					end
+					if not panel.collapsed then
+						noncollapsedHeaders[panel.name] = true
+					end
+				shownpanels = shownpanels + 1
+			end
+		end
+		local Smin, Smax = InterfaceOptionsFrameAddOnsListScrollBar:GetMinMaxValues()
+		InterfaceOptionsFrameAddOnsListScrollBar:SetValue((Smax/(shownpanels-15))*(mypanel-2))
+		doNotRun = true
+		InterfaceOptionsFrame_OpenToCategory(panel)
+	end
+	hooksecurefunc("InterfaceOptionsFrame_OpenToCategory", function(panel) return InterfaceOptionsFrame_OpenToCategory_Fix(panel) end)
+end
