@@ -66,6 +66,7 @@ function WoWPro:OnEnable()
 	-- Modules --
 	if not WoWPro_Leveling then WoWProDB.char.currentguide = "NilGuide"; WoWPro:LoadGuide() end
 	if WoWPro_Leveling then WoWPro_Leveling:Enable() end
+	if WoWPro_Recorder then WoWPro_Recorder:Enable() end
 	
 	WoWPro.MainFrame:Show()
 	WoWPro.Titlebar:Show()
@@ -77,6 +78,7 @@ function WoWPro:OnEnable()
 	WoWPro:RegisterEvents()
 	WoWPro:UpdateGuide()
 	WoWPro:MapPoint()
+	WoWPro:CustomizeFrames()
 	
 end	
 

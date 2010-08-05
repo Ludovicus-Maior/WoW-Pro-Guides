@@ -8,7 +8,7 @@ local function GetSide(frame)
 	local x,y = frame:GetCenter()
 	if x > (UIParent:GetWidth()/2) then return "RIGHT" else return "LEFT" end
 end
-local function ResetMainFramePosition()
+function WoWPro.ResetMainFramePosition()
 	local top = WoWPro.Titlebar:GetTop()
 	local left = WoWPro.Titlebar:GetLeft()
 	WoWPro.MainFrame:ClearAllPoints()
@@ -52,6 +52,11 @@ function WoWPro:TitlebarSet()
 -- Colors --	
 	WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
 end
+function WoWPro:RecorderBarSet()
+-- Colors --
+	if not WoWPro_Recorder then return end
+	WoWPro.RecorderFrame:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+end
 function WoWPro:BackgroundSet()
 -- Textures and Borders --
 	WoWPro.MainFrame:SetBackdrop( {
@@ -72,6 +77,10 @@ function WoWPro:BackgroundSet()
 		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 1) 
 	else 
 		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0) 
+	end
+-- Recorder Frame --
+	if WoWPro_Recorder then
+		WoWPro_Recorder:RecorderFrameSet()
 	end
 end	
 function WoWPro:RowColorSet()
@@ -234,7 +243,7 @@ function WoWPro:CreateMainFrame()
 	-- Scripts --
 	WoWPro.MainFrame:SetScript("OnMouseDown", function(self, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
-			ResetMainFramePosition()
+			WoWPro.ResetMainFramePosition()
 			WoWPro.MainFrame:StartMoving()
 		elseif button == "RightButton" then
 			EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
@@ -293,7 +302,7 @@ function WoWPro:CreateTitleBar()
 	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 	WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
-			ResetMainFramePosition()
+			WoWPro.ResetMainFramePosition()
 			WoWPro.MainFrame:StartMoving()
 		elseif button == "RightButton" then
 			EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
