@@ -11,7 +11,7 @@ K Noboru the Cudgel |QID|1392|L|6196|N|Noboru is a level 39 "lost one" with a co
 A Noboru the Cudgel |QID|1392|U|6196|
 C Lack of Surplus (Part 1) |QID|698|L|6169 10|N|Get flanks from sawtooth crocolisks  or sawtooth snappers (41-42). |M|38-39,|
 T Noboru the Cudgel |QID|1392|N|Ride to the Harborage |M|25,31|
-C Pool of Tears |QID|1424|N|Swim around until you find 10 of these (in the lake and close to the water on the shore). |M|65,45|
+C Pool of Tears |QID|1424|N|Swim around until you find 5 of these (in the lake and close to the water on the shore). |M|65,45|
 R Misty Reed Post |QID|698|N|Ride to Misty Reed Post to turn in the crocolisk flanks. |M|80,80|
 T Lack of Surplus (Part 1) |QID|698|M|81.3,81.0|
 A Lack of Surplus (Part 2) |QID|699|M|81.3,81.0|
