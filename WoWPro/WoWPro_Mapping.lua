@@ -16,7 +16,8 @@ function WoWPro:MapPoint()
 	if not WoWPro.maps then return end
 	local coords = WoWPro.maps[i]
 	local desc = WoWPro.steps[i]
-	local zone = BL[WoWPro.rows[rowi].zone]
+	local zone = WoWPro.rows[rowi].zone
+	if zone then zone = BL[zone] end
 	
 
 	if coords ~= nil then
