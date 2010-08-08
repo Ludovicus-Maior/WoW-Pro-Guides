@@ -37,8 +37,10 @@ function WoWPro:MapPoint()
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
 			local jcoord = select(numcoords-j+1, string.split(";", coords))
-			local x = jcoord:match("([^|]*),")
-			local y = jcoord:match(",([^|]*)")
+			local x = tonumber(jcoord:match("([^|]*),"))
+			local y = tonumber(jcoord:match(",([^|]*)"))
+			if not x or x > 100 then return end
+			if not y or y > 100 then return end
 			if TomTom or Carbonite then table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false)) end
 		end
 	end
