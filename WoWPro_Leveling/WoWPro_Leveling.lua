@@ -45,6 +45,8 @@ function WoWPro_Leveling:OnEnable()
 	end
 	WoWPro:LoadGuide()
 	
+	WoWPro_Leveling.FirstMapCall = true
+	
 	-- Server query for completed quests --
 	QueryQuestsCompleted()
 end

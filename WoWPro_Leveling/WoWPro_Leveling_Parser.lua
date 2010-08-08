@@ -444,6 +444,12 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 			end
 		end
 	end
+	
+	-- First Map Point --
+	if WoWPro_Leveling.FirstMapCall then
+		WoWPro:MapPoint()
+		WoWPro_Leveling.FirstMapCall = false
+	end
 end
 
 -- Auto-Complete: Loot based --

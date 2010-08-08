@@ -19,21 +19,20 @@ function WoWPro:MapPoint()
 	local zone = WoWPro.rows[rowi].zone
 	if zone then zone = BL[zone] end
 	
-
-	if coords ~= nil then
-		local zonei, zonec, zonenames = {}, {}, {}
-		for ci,c in pairs{GetMapContinents()} do
-			zonenames[ci] = {GetMapZones(ci)}
-			for zi,z in pairs(zonenames[ci]) do
-				zonei[z], zonec[z] = zi, ci
-			end
+	local zonei, zonec, zonenames = {}, {}, {}
+	for ci,c in pairs{GetMapContinents()} do
+		zonenames[ci] = {GetMapZones(ci)}
+		for zi,z in pairs(zonenames[ci]) do
+			zonei[z], zonec[z] = zi, ci
 		end
-		zi, zc = zone and zonei[zone], zone and zonec[zone]
-		if not zi then
-			zi, zc = GetCurrentMapZone(), GetCurrentMapContinent()
-			print("Zone not found. Using current zone")
-		end
-		zone = zone or zonenames[zc][zi]
+	end
+	zi, zc = zone and zonei[zone], zone and zonec[zone]
+	if not zi then
+		zi, zc = GetCurrentMapZone(), GetCurrentMapContinent()
+		print("Zone not found. Using current zone")
+	end
+	zone = zone or zonenames[zc][zi]
+	if coords then
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
 			local jcoord = select(numcoords-j+1, string.split(";", coords))
@@ -42,6 +41,13 @@ function WoWPro:MapPoint()
 			if not x or x > 100 then return end
 			if not y or y > 100 then return end
 			if TomTom or Carbonite then table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false)) end
+		end
+	elseif WoWPro.actions[i]=="T" or WoWPro.actions[i]=="C" and WoWPro.QIDs[i] then
+		QuestMapUpdateAllQuests()
+		QuestPOIUpdateIcons()
+		local _, x, y, obj = QuestPOIGetIconInfo(WoWPro.QIDs[i])
+		if x and y then 
+			if TomTom or Carbonite then table.insert(cache, TomTom:AddZWaypoint(zc, zi, x*100, y*100, desc, false)) end
 		end
 	end
 end
