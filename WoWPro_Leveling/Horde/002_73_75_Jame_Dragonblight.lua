@@ -15,7 +15,7 @@ T Into the Fold |QID|11978|M|12.8,48.5|
 A Blood Oath of the Horde |QID|11983|M|12.8,48.5|
 T Pride of the Horde |QID|11980|M|14.2,49.8|
 
-C Blood Oath of the Horde |QID|11983| |N|Talk to the Taunka'le Refugees and  go through the text until you complete the quest.|
+C Blood Oath of the Horde |QID|11983| |N|Talk to the Taunka'le Refugees and go through the text until you complete the quest.|
 
 T Blood Oath of the Horde |QID|11983|M|12.8,48.5|
 A Agmar's Hammer |QID|12008|M|12.8,48.5|
@@ -71,11 +71,11 @@ A Prevent the Accord |QID|12005|M|38.1,46.2|
 T The Lost Empire |QID|12041|M|36.3,45.6|
 A Strength of Icemist |QID|12063|M|35.8,46.7|
 
-T Strength of Icemist |QID|12063|N|He's to the west at  in Icemist Village.|M|23,42|
+T Strength of Icemist |QID|12063|N|He's to the west at in Icemist Village.|M|23,42|
 A Chains of the Anub'ar |QID|12064|M|22.6,41.7|
 K Anok'ra the Manipulator |QID|12064|QO|Anok'ra's Key Fragment: 1/1|N|Face south, then stay left, he's in a small hut at .|M|25,45|
 K Sinok the Shadowrager |QID|12064|QO|Sinok's Key Fragment: 1/1|N|Head to the upper plateau, Sinok is at .| |L|36754|M|26,44|
-K Tivax the Breaker |QID|12064|QO|Tivax's Key Fragment: 1/1|N|Head north, Tivax is on the other side of the village in a hut at  or (23,39).|M|26,39|
+K Tivax the Breaker |QID|12064|QO|Tivax's Key Fragment: 1/1|N|Head north, Tivax is on the other side of the village in a hut at or (23,39).|M|26,39|
 K Anub'ar Cultists |QID|12057|L|36744|N|Until you get a Flesh-Bound Tome. Also drops off the three named mobs we just killed.|
 A The Flesh-Bound Tome |QID|12057| |U|36744|M|26.9,43.3|
 
@@ -215,7 +215,7 @@ C Cycle of Life |QID|12454|
 T Cycle of Life |QID|12454|M|63.7,71.9|
 A The Plume of Alystros |QID|12456|
 
-C The Plume of Alystros |QID|12456| |N|THIS IS DIFFICULT TO SOLO. The NPC you want to kill has ~120,000 HP and hits for 3k unmitigated. If you're going to try, head to the southeastern tip of the glade at . Use the  Skytalon Molts and kill the mob. Don't worry if you can't get a group, there aren't any follow-ups.| |U|37881|M|65,78|
+C The Plume of Alystros |QID|12456| |N|THIS IS DIFFICULT TO SOLO. The NPC you want to kill has ~120,000 HP and hits for 3k unmitigated. If you're going to try, head to the southeastern tip of the glade at . Use the Skytalon Molts and kill the mob. Don't worry if you can't get a group, there aren't any follow-ups.| |U|37881|M|65,78|
 
 T The Plume of Alystros |QID|12456|
 
@@ -230,7 +230,7 @@ T The High Executor Needs You |QID|12488|
 A To Conquest Hold, But Be Careful! |QID|12487|M|76.8,63.3|
 A Wanted: The Scarlet Onslaught |QID|12205|N||M|77.0,62.8|
 A Blighted Last Rites |QID|12206|M|77.0,62.9|
-C Blighted Last Rites |QID|12206|U|37129|N|Go stand next to the Scarlet Onslaught Prisoner, then use the Flask of Blight.| 
+C Blighted Last Rites |QID|12206|U|37129|N|Go stand next to the Scarlet Onslaught Prisoner, then use the Flask of Blight.|
 T Blighted Last Rites |QID|12206|M|77.0,62.9|
 A Let Them Not Rise! |QID|12211|M|77.0,62.9|
 T Emerald Dragon Tears |QID|12200|M|77.7,62.8|
@@ -273,7 +273,7 @@ T Audience With The Dragon Queen |QID|12496| |N|Get Tariolastrasz to send you up
 A Galakrond and the Scourge |QID|12497|M|59.8,54.7|
 T Galakrond and the Scourge |QID|12497|M|59.5,53.3|
 A On Ruby Wings |QID|12498|M|59.5,53.3|
-N READ THIS |QID|12498|N|Time for some fun. You're about to engage the enemy from dragonback. Now, because you can use this drake for a fair part of Dragonblight, we just got a flying mount several levels early. So, don't turn in the quest "On Ruby Wings" until you're told. We're gonna make the most of this.  Do fly close to the ground, though, in case you go somewhere you're not supposed to.|
+N READ THIS |QID|12498|N|Time for some fun. You're about to engage the enemy from dragonback. Now, because you can use this drake for a fair part of Dragonblight, we just got a flying mount several levels early. So, don't turn in the quest "On Ruby Wings" until you're told. We're gonna make the most of this. Do fly close to the ground, though, in case you go somewhere you're not supposed to.|
 C On Ruby Wings |QID|12498| |N|Use your Beacon and fly north to Galakron's Rest at . Ability 1 and 2 are damage abilities. Use ability 3 when near a Wastes Scavenger to regain mana/HP (you eat them). If you have one, equip your PvP trinket once you've killed the 30 Scavengers, the miniboss we're about to kill does a 10 second fear. Kill the giant Thiassi, at the northwestern tip of Galakron's Rest (use the dragon to make it easy), dismount, then kill Grand Necrolord Antiok, and loot the Scythe that appears.|M|56,35|
 
 A Pest Control |QID|12144| |N|The questgiver is west at .|M|47,33|
@@ -313,7 +313,7 @@ N Grab the Abbey Orders |QID|12234|QO|Scarlet Onslaught Daily Orders: Abbey: 1/1
 K Chancellor Amai |QID|12245|QO|Chancellor Amai slain: 1/1|N|He's just to the northeast of the Abbey exit. Again, talk to him and click the first text. |M|72.7,72.6|
 K Engineer Burke |QID|12245|QO|Engineer Burke slain: 1/1|N|He's on the other side of the Abbey at . Talk, select first option, kill.|M|72.7,74.4|
 N Destroy the ballista |QID|12232|QO|New Hearthglen Ballista bombarded: 1/5|U|37259|N|There's one just southeast of Engineer Burke. Use the Siegesmith Bombs on it. Destroy any you see from now on.|
-N Grab the Beach Orders |QID|12234|QO|Scarlet Onslaught Daily Orders: Beach: 1/1| |N|Follow the path to the beach, the Beach orders are just to the right at  in one of two tents.|M|71.6,80.4|
+N Grab the Beach Orders |QID|12234|QO|Scarlet Onslaught Daily Orders: Beach: 1/1| |N|Follow the path to the beach, the Beach orders are just to the right at in one of two tents.|M|71.6,80.4|
 C A Means to an End |QID|12240|U|37300|N|Head northwest to the lumbermill at , use the termites in the centre of the building and kill Foreman Kaleiki.|M|68,74|
 C Senior Scrivener Barriga |QID|12245|QO|Senior Scrivener Barriga slain: 1/1|N|The last prisoner, Senior Scrivener Barriga is northeast at .|M|69.4,74.0|
 C Bombard the Ballistae |QID|12232| |U|37259|M|73.3,67.6|
@@ -341,7 +341,7 @@ T The Perfect Dissemblance |QID|12260|M|73.6,73.5|
 A A Fall From Grace |QID|12274|M|73.6,73.5|
 N Ring the Bell |QID|12274|QO|Abbey bell rung: 1/1|N|The Onslaught Knights can see through your disguise, so be careful. Head into the abbey. Go right, enter the main hall and take the spiral steps up, right-click the Abbey Bell Rope. (73.0,73.7)(72.9,73.5)| |M|72.3,73.5|
 C A Fall From Grace |QID|12274| |N|Head downstairs, talk to the abbot at , he's to the left at the tip of the southeastern wing. Once you're done, head outside and follow the High Abbot.|M|73,74|
-C Fire Upon the Waters |QID|12243| |N|Head down to the docks, stand next to  the plank at . Use the Apothecary's Burning Water, shoot for the sails. You've got 2 minutes of distracted deckhands now. Head into the ship, go downstairs and take 2 rights, kill Captain Shely and loot her Rutters, then get the hell out of there.| |U|37304|M|71,83|
+C Fire Upon the Waters |QID|12243| |N|Head down to the docks, stand next to the plank at . Use the Apothecary's Burning Water, shoot for the sails. You've got 2 minutes of distracted deckhands now. Head into the ship, go downstairs and take 2 rights, kill Captain Shely and loot her Rutters, then get the hell out of there.| |U|37304|M|71,83|
 T A Fall From Grace |QID|12274| |N|Back at .|M|74,73|
 A The Truth Will Out |QID|12283|M|73.6,73.5|
 C The Truth Will Out |QID|12283| |N|The diary is on the upper floor of the house next to the chapel where Bishop Street was, at .|M|68,77|
@@ -353,8 +353,8 @@ T Torture the Torturer |QID|12252|M|76.8,63.3|
 T The Rod of Compulsion |QID|12271|M|76.8,63.3|
 A The Denouncement |QID|12273|M|76.8,63.3|
 T The Truth Will Out |QID|12283|M|76.8,63.3|
-A Do Unto Others |QID|12285|N|Group Quest|
-N High General Abbendis |QID|12285|QO|The Head of the High General: 1/1|N|Another group quest. She has 96,000 HP, hits for about 3k on cloth  and is immune to snares, stuns, etc. You're going to need a group, preferably one with tank and healer. (71,67)|M|1k on pla,|
+A Do Unto Others |QID|12285|N|Group Quest|M|76.0,63.0|
+N High General Abbendis |QID|12285|QO|The Head of the High General: 1/1|N|Another group quest. She has 96,000 HP, hits for about 3k on cloth and is immune to snares, stuns, etc. You're going to need a group, preferably one with tank and healer. 1k on plate.|M|71,76|
 
 N Blacksmith Goodman |QID|12273|QO|Blacksmith Goodman's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's at the blacksmith. |M|71,70|
 N Commander Jordan |QID|12273|QO|Commander Jordan's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's in the barracks |M|69.7,71.8|
@@ -365,7 +365,7 @@ N Deliver the Horse |QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 
 
 T Fresh Remounts |QID|12214|M|75.9,61.9|
 T The Denouncement |QID|12273|M|76.8,63.3|
-T Do Unto Others |QID|12285|
+T Do Unto Others |QID|12285|M|70.0,76.0|
 F Wyrmrest Temple |QID|12448|N||M|76.5,62.2|
 
 T Report to the Ruby Dragonshrine |QID|12461| |N|Vargastrasz is at . You should just get there before you get dismounted.|M|43,51|
@@ -415,8 +415,8 @@ A Stocking Up |QID|12044| M|55.0,23.4|
 A Shaved Ice |QID|12045| M|54.7,23.2|
 A Nozzlerust Defense |QID|12043|M|54.5,23.6|
 
-C Stocking Up |QID|12044| |N|Head south to the Dragon Wastes and get on your drake. Two camps are at  and (57,28) and another at (59,31). Kill ghouls and collect ore from carts.|M|52,31|
-C Nozzlerust Defense |QID|12043| |N|Two camps are at  and (57,28) and another at (59,31). Collect ore from carts.|M|52,31|
+C Stocking Up |QID|12044| |N|Head south to the Dragon Wastes and get on your drake. Two camps are at and (57,28) and another at (59,31). Kill ghouls and collect ore from carts.|M|52,31|
+C Nozzlerust Defense |QID|12043| |N|Two camps are at and (57,28) and another at (59,31). Collect ore from carts.|M|52,31|
 
 C Shaved Ice |QID|12045| |N|The Iceshard Clusters come from Crystalline Ice Elementals at Coldwind Heights, to the northwest at .|M|54,20|
 
@@ -500,7 +500,7 @@ C Neltharion's Flame |QID|12267| |N|Head down to Rothin the Decayed, use Nelthar
 T Neltharion's Flame |QID|12267|M|35.2,30.0|
 A Tales of Destruction |QID|12266|M|35.2,30.0|
 
-T The Call of the Crusade |QID|12542| |N|Head to the Dragon Wastes, mount your Drake, then fly as far east toward  as you can, then ride the rest of the way.|M|84,26|
+T The Call of the Crusade |QID|12542| |N|Head to the Dragon Wastes, mount your Drake, then fly as far east toward as you can, then ride the rest of the way.|M|84,26|
 A The Cleansing Of Jintha'kalar |QID|12545|M|84.0,26.1|
 
 C That Which Creates Can Also Destroy |QID|12459|U|37887|N|Fight your way to Overseer Deathgaze, he's at . Use the Seeds of Nature's Wrath on him and kill him.|M|90,19|
@@ -528,7 +528,7 @@ A Return To Angrathar |QID|12500|M|59.8,54.7|
 T Report to Lord Afrasastrasz |QID|12435| |N|Talk to the Majordomo and get him to fly you to the middle floor.|M|59.2,54.3|
 A Defending Wyrmrest Temple |QID|12372|N|Daily Quest|M|59.2,54.3|
 
-C Defending Wyrmrest Temple |QID|12372| |N|Talk to a Wyrmrest Defender to start the event. Ability 1 is a DD spell, Ability 2 is a DoT, Ability 3 is  a self-heal, Ability 4 is an escape move (if you get mobbed), Ability 5 should be used once inside the big red beam in the Azure Dragonshrine (you have to go right down near the base of the beam). Kill dragons, not much to it.|M|55.1,66.4|
+C Defending Wyrmrest Temple |QID|12372| |N|Talk to a Wyrmrest Defender to start the event. Ability 1 is a DD spell, Ability 2 is a DoT, Ability 3 is a self-heal, Ability 4 is an escape move (if you get mobbed), Ability 5 should be used once inside the big red beam in the Azure Dragonshrine (you have to go right down near the base of the beam). Kill dragons, not much to it.|M|55.1,66.4|
 
 T Defending Wyrmrest Temple |QID|12372| |N||M|59.2,54.3|
 
