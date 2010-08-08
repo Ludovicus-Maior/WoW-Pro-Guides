@@ -112,7 +112,7 @@ A The Book of Runes |QID|11350|M|49.2,12.2|
 A Keeping Watch on the Interlopers |QID|11297|M|48.5,10.5|
 A March of the Giants |QID|11365|M|48.1,10.5|
 
-C Mimicking Nature's Call |QID|11281| |N|Head to the frozen waterfall. Get right up against the base, use the Carved Horn and kill Frostgore.|M|52.4,3.8|
+C Mimicking Nature's Call |QID|11281|U|33450| |N|Head to the frozen waterfall. Get right up against the base, use the Carved Horn and kill Frostgore.|M|52.4,3.8|
 
 T The Frozen Glade |QID|11312| |N|Lurielle is southeast at the Frozen Glade.|M|61.5,22.9|
 A Spirits of the Ice |QID|11313|
