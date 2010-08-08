@@ -2,7 +2,9 @@
 --      WoWPro_Mapping.lua      --
 ----------------------------------
 
-local cache = {}
+local cache = {}	
+local B = LibStub("LibBabble-Zone-3.0")
+local BL = B:GetLookupTable()
 
 function WoWPro:MapPoint()
 	
@@ -14,7 +16,8 @@ function WoWPro:MapPoint()
 	if not WoWPro.maps then return end
 	local coords = WoWPro.maps[i]
 	local desc = WoWPro.steps[i]
-	local zone = WoWPro.rows[rowi].zone
+	local zone = BL[WoWPro.rows[rowi].zone]
+	
 
 	if coords ~= nil then
 		local zonei, zonec, zonenames = {}, {}, {}

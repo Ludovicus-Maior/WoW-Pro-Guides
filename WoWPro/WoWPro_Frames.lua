@@ -2,6 +2,7 @@
 --      WoWPro_Frames.lua      --
 ---------------------------------
 local L = WoWPro_Locale
+local AceGUI = LibStub("AceGUI-3.0")
 
 -- Frame Update Functions --
 local function GetSide(frame)
@@ -51,11 +52,6 @@ function WoWPro:TitlebarSet()
 	
 -- Colors --	
 	WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
-end
-function WoWPro:RecorderBarSet()
--- Colors --
-	if not WoWPro_Recorder then return end
-	WoWPro.RecorderFrame:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
 end
 function WoWPro:BackgroundSet()
 -- Textures and Borders --
@@ -548,6 +544,11 @@ function WoWPro:CreateDropdownMenu()
 			end} )
 	end
 end
+
+-- Dialog Frame --
+WoWPro.DialogFrame = AceGUI:Create("Window")
+WoWPro.DialogFrame:SetLayout("Flow")
+WoWPro.DialogFrame:Hide()
 
 -- Creating the addon's frames --
 WoWPro:CreateAnchorFrame()

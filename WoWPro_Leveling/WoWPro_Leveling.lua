@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 local myUFG = UnitFactionGroup("player")
 
-WoWPro_Leveling = WoWPro:NewModule("WoWPro_Leveling")
+WoWPro_Leveling = WoWPro:NewModule("WoWPro Leveling")
 WoWPro.GuideList = {}
 	
 function WoWPro_Leveling:OnInitialize()

@@ -87,7 +87,7 @@ A Major Malfunction |QID|8472|M|47.3,46.3|
 
 N Unstable Mana Crystal Crate |QID|8463|L|20743 6|N|You need 6 crates. Look for light beams that come out of the boxes. |M|46,42|
 K Thaelis the Hungerer |QID|8468|L|21781|N|Be careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
-K Arcane Patroller |QID|8472|L|21808 6|N|You need 6 Arcane Cores. They patrol the roadway. |M|45,40.5|
+C Major Malfunction |QID|8472|L|21808 6|N|You need 6 Arcane Cores. They patrol the roadway. |M|45,40.5|
 
 T Major Malfunction |QID|8472|M|47.3,46.3|
 A Delivery to the North Sanctum |QID|8895|M|47.3,46.3|
@@ -105,7 +105,7 @@ K Darnassian Scout |QID|9352|L|20765|N|Kill a Darnassian Scout and loot Incrimin
 A Incriminating Documents |QID|8482|U|20765|N|Click the envelope|M|33.9,58.4|
 C Arcane Instability |QID|8486|N|5 of each: Manawraith & Mana Stalker |M|36,58|
 
-T Arcane Instability |QID|8486|M|36.7,57.4|
+T Arcane Instability |QID|8486|M|35.1,61.3;36.7,57.4|
 T Darnassian Intrusions |QID|9352|N|You should be level 7 now.|M|36.7,57.4|
 
 A Fish Heads, Fish Heads... |QID|8884|N|Go around the northside of the mountain.|M|30.2,58.3|
