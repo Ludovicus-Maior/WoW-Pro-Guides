@@ -25,12 +25,35 @@ function WoWPro:MinimapSet()
 end
 function WoWPro:ResizeSet()
 	-- Resize Customization --
-	WoWPro.MainFrame:SetResizable(WoWProDB.profile.resize)
 	if WoWProDB.profile.resize then WoWPro.resizebutton:Show() else WoWPro.resizebutton:Hide() end
 end
 function WoWPro:DragSet()
 	-- Drag Customization --
-	WoWPro.MainFrame:SetMovable(WoWProDB.profile.drag)
+	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
+	if WoWProDB.profile.drag then
+		WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
+			if button == "LeftButton" and WoWProDB.profile.drag then
+				WoWPro.ResetMainFramePosition()
+				WoWPro.MainFrame:StartMoving()
+			elseif button == "RightButton" then
+				EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+			end
+		end)
+		WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
+			if button == "LeftButton" and WoWProDB.profile.drag then
+				WoWPro.MainFrame:StopMovingOrSizing()
+				WoWPro.AnchorSet()
+			end
+		end) 
+	else
+		WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
+			if button == "RightButton" then
+				EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+			end
+		end)
+		WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
+		end) 
+	end
 end
 function WoWPro:PaddingSet()
 	local pad = WoWProDB.profile.pad
