@@ -378,6 +378,90 @@ local function CreateDisplayConfig()
 							WoWProDB.profile.tracktextcolor = {r,g,b}
 							WoWPro.RowFontSet() end
 					},
+					titlefont = {
+						order = 29,
+						type = "select",
+						dialogControl = 'LSM30_Font',
+						name = L["Title Bar Font"],
+						desc = L["Font used on the title bar."],
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
+						get = function(info) local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("font")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							local hash = values[WoWProDB.profile.titlefont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.titlefont = hashtable[val]
+							WoWPro:TitlebarSet() end
+					},
+					titletextsize = {
+						order = 30,
+						type = "range",
+						name = L["Title Bar Text Size"],
+						desc = L["Size of the title bar text."],
+						min = 1, max = 30, step = 1,
+						get = function(info) return WoWProDB.profile.titletextsize end,
+						set = function(info,val) WoWProDB.profile.titletextsize = val
+							WoWPro:TitlebarSet() end
+					},
+					titletextcolor = {
+						order = 31,
+						type = "color",
+						name = L["Title Bar Text Color"],
+						desc = L["Color of the title bar text."],
+						width = "full",
+						get = function(info) return WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3] end,
+						set = function(info,r,g,b) 
+							WoWProDB.profile.titletextcolor = {r,g,b}
+							WoWPro:TitlebarSet() end
+					},
+					stickytitlefont = {
+						order = 32,
+						type = "select",
+						dialogControl = 'LSM30_Font',
+						name = L["'As you go:' Font"],
+						desc = L["Font used on the top of the sticky frame."],
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
+						get = function(info) local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("font")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							local hash = values[WoWProDB.profile.stickytitlefont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.stickytitlefont = hashtable[val]
+							WoWPro.RowFontSet()
+							WoWPro.RowSizeSet() end
+					},
+					stickytitletextsize = {
+						order = 33,
+						type = "range",
+						name = L["'As you go:' Text Size"],
+						desc = L["Size of the text on the top of the sticky frame."],
+						min = 1, max = 30, step = 1,
+						get = function(info) return WoWProDB.profile.stickytitletextsize end,
+						set = function(info,val) WoWProDB.profile.stickytitletextsize = val
+							WoWPro.RowFontSet()
+							WoWPro.RowSizeSet() end
+					},
+					stickytitletextcolor = {
+						order = 34,
+						type = "color",
+						name = L["'As you go:' Text Color"],
+						desc = L["Color of the text on the top of the sticky frame."],
+						width = "full",
+						get = function(info) return WoWProDB.profile.stickytitletextcolor[1], WoWProDB.profile.stickytitletextcolor[2], WoWProDB.profile.stickytitletextcolor[3] end,
+						set = function(info,r,g,b) 
+							WoWProDB.profile.stickytitletextcolor = {r,g,b}
+							WoWPro.RowFontSet() end
+					},
 				}
 			}
 
