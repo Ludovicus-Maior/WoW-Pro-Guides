@@ -225,7 +225,7 @@ function WoWPro_Leveling:RowUpdate()
 					end} 
 				)
 			end
-			if row.questlogindex then
+			if row.questlogindex and GetNumPartyMembers() > 0 then
 				table.insert(dropdown, 
 					{text = "Share Quest", func = function()
 						QuestLogPushQuest(row.questlogindex)

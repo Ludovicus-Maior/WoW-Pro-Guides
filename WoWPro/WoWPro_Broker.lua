@@ -110,7 +110,7 @@ end
 -- Auto-completion Event Responders --
 function WoWPro:RegisterEvents()
 	WoWPro.events = {
-		"PLAYER_REGEN_ENABLED", "PLAYER_REGEN_DISABLED"
+		"PLAYER_REGEN_ENABLED", "PLAYER_REGEN_DISABLED", "PARTY_MEMBERS_CHANGED"
 	}
 	
 	-- Module Events --
@@ -137,6 +137,11 @@ function WoWPro:RegisterEvents()
 				WoWPro:MapPoint()
 				WoWPro.completing = false
 			end
+		end
+		
+		-- Unlocking guide frame when leaving combat --
+		if event == "PARTY_MEMBERS_CHANGED" then
+			WoWPro:UpdateGuide() 
 		end
 
 		-- Module Event Handlers --
