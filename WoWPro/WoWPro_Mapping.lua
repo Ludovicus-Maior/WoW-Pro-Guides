@@ -6,11 +6,11 @@ local cache = {}
 local B = LibStub("LibBabble-Zone-3.0")
 local BL = B:GetLookupTable()
 
-function WoWPro:MapPoint()
+function WoWPro:MapPoint(row)
 	
 	WoWPro:RemoveMapPoint()
-
-	local rowi = 1
+	
+	local rowi = row or 1
 	while WoWPro.stickies and WoWPro.stickies[WoWPro.rows[rowi].index] do rowi=rowi+1 end
 	local i = WoWPro.rows[rowi].index
 	if not WoWPro.maps then return end

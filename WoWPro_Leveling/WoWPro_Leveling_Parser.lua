@@ -150,6 +150,7 @@ function WoWPro_Leveling:RowUpdate()
 		--Loading Variables --
 		local row = WoWPro.rows[i]
 		row.index = k
+		row.num = i
 		local step = WoWPro.steps[k]
 		local action = WoWPro.actions[k] 
 		local note = WoWPro.notes[k] 
@@ -197,7 +198,10 @@ function WoWPro_Leveling:RowUpdate()
 		-- Right-Click Drop-Down --
 		local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 		local dropdown = {
-			{text = "Step Options", isTitle = true},
+			{text = step.." Options", isTitle = true},
+			{text = "Map Coordinates", func = function()
+				WoWPro:MapPoint(row.num)
+			end} 
 		}
 		if sticky then
 			table.insert(dropdown, 
