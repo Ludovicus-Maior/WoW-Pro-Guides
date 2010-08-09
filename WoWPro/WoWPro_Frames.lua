@@ -143,7 +143,7 @@ function WoWPro.RowSizeSet()
 		if WoWProDB.profile.noteshow and WoWPro.notes[row.index] ~= "" and WoWPro.notes[row.index] then
 			noteh = 1
 			row.note:Hide()
-			WoWPro.mousenotes[i].note:SetText(WoWPro.notes[row.index])
+			WoWPro.mousenotes[i].note:SetText(row.note:GetText())
 			local mnh = WoWPro.mousenotes[i].note:GetHeight()
 			WoWPro.mousenotes[i]:SetHeight(mnh+20)
 			row:SetScript("OnEnter", function()

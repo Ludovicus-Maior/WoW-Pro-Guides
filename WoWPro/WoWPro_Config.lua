@@ -129,9 +129,17 @@ local function CreateDisplayConfig()
 						type = "toggle",
 						name = L["Quest Tracking"],
 						desc = L["Allows tracking of quests in the guide frame"],
-						width = "full",
 						get = function(info) return WoWProDB.profile.track end,
 						set = function(info,val) WoWProDB.profile.track = val 
+							WoWPro:UpdateGuide() end
+					},    
+					showcoords = {
+						order = 11,
+						type = "toggle",
+						name = L["Show Coordinates"],
+						desc = L["Shows the coordinates in the note text."],
+						get = function(info) return WoWProDB.profile.showcoords end,
+						set = function(info,val) WoWProDB.profile.showcoords = val 
 							WoWPro:UpdateGuide() end
 					},  
 					bgheading = {
