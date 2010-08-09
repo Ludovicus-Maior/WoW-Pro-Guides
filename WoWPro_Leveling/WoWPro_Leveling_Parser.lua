@@ -195,10 +195,12 @@ function WoWPro_Leveling:RowUpdate()
 		
 		-- Setting up click-to-quest log --
 		local questlogcheck = false
+		local questlogindex
 		for j = 1, 25 do if GetQuestLogTitle(j) then 
 			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
 			if ( not isHeader ) and questID == QID then
 				questlogcheck = true
+				questlogindex = j
 				row:SetScript("OnClick", function(self, button, down)
 					if button == "LeftButton" then
 						QuestLog_OpenToQuest(j)
@@ -213,6 +215,14 @@ function WoWPro_Leveling:RowUpdate()
 		
 		-- Item Button --
 		if action == "H" then use = 6948 end
+		if ( not use ) and action == "C" and questlogcheck then
+			local link, icon, charges = GetQuestLogSpecialItemInfo(questlogindex)
+			if link then
+				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
+				use = Id
+				WoWPro.uses[k] = use
+			end
+		end
 		if use then
 			row.itembutton:Show() 
 			row.itemicon:SetTexture(GetItemIcon(use))
