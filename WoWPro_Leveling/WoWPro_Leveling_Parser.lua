@@ -195,6 +195,18 @@ function WoWPro_Leveling:RowUpdate()
 			WoWPro.CompleteStep(row.index)
 		end)
 		
+		-- Setting up click-to-quest log --
+		row.questlogcheck = false
+		row.questlogindex = false
+		for j = 1, 25 do if GetQuestLogTitle(j) then 
+			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
+			if ( not isHeader ) and questID == QID then
+				row.questlogcheck = true
+				row.questlogindex = j
+				break
+			end
+		end end
+		
 		-- Right-Click Drop-Down --
 		local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 		local dropdown = {
@@ -208,6 +220,13 @@ function WoWPro_Leveling:RowUpdate()
 					WoWPro:MapPoint(row.num)
 				end} 
 			)
+			if row.questlogindex then
+				table.insert(dropdown, 
+					{text = "Share Quest", func = function()
+						QuestLogPushQuest(row.questlogindex)
+					end} 
+				)
+			end
 			if sticky then
 				table.insert(dropdown, 
 					{text = "Un-Sticky", func = function() 
@@ -230,21 +249,10 @@ function WoWPro_Leveling:RowUpdate()
 			end
 		end
 			
-		-- Setting up click-to-quest log --
-		local questlogcheck = false
-		local questlogindex
-		for j = 1, 25 do if GetQuestLogTitle(j) then 
-			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
-			if ( not isHeader ) and questID == QID then
-				questlogcheck = true
-				questlogindex = j
-				break
-			end
-		end end
-		if questlogcheck then
+		if row.questlogcheck then
 			row:SetScript("OnClick", function(self, button, down)
 				if button == "LeftButton" then
-					QuestLog_OpenToQuest(questlogindex)
+					QuestLog_OpenToQuest(row.questlogindex)
 				elseif button == "RightButton" then
 					EasyMenu(dropdown, menuFrame, "cursor", 0 , 0, "MENU");
 				end
@@ -259,8 +267,8 @@ function WoWPro_Leveling:RowUpdate()
 		
 		-- Item Button --
 		if action == "H" then use = 6948 end
-		if ( not use ) and action == "C" and questlogcheck then
-			local link, icon, charges = GetQuestLogSpecialItemInfo(questlogindex)
+		if ( not use ) and action == "C" and row.questlogcheck then
+			local link, icon, charges = GetQuestLogSpecialItemInfo(row.questlogindex)
 			if link then
 				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
 				use = Id

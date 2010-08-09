@@ -254,19 +254,22 @@ local function CreateDisplayConfig()
 					},
 					stepfont = {
 						order = 20,
-						type = "select",
+						type = 'select',
+						dialogControl = 'LSM30_Font',
 						name = L["Step Font"],
 						desc = L["Font used for the main step text."],
-						values = function() local values = {}
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"), 
+						get = function(info) local values = {}
 							local list = LibStub("LibSharedMedia-3.0"):List("font")
 							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
 							for i,handle in ipairs(list) do
 								values[hashtable[handle]] = handle
 							end
-							return values end,
-						get = function(info) 
-							return WoWProDB.profile.stepfont end,
-						set = function(info,val) WoWProDB.profile.stepfont = val
+							local hash = values[WoWProDB.profile.stepfont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.stepfont = hashtable[val]
 							WoWPro.RowFontSet() end
 					},
 					steptextsize = {
@@ -293,19 +296,22 @@ local function CreateDisplayConfig()
 					},
 					notefont = {
 						order = 23,
-						type = "select",
+						type = 'select',
+						dialogControl = 'LSM30_Font',
 						name = L["Note Font"],
 						desc = L["Font used for the note text."],
-						values = function() local values = {}
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"),
+						get = function(info) local values = {}
 							local list = LibStub("LibSharedMedia-3.0"):List("font")
 							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
 							for i,handle in ipairs(list) do
 								values[hashtable[handle]] = handle
 							end
-							return values end,
-						get = function(info) 
-							return WoWProDB.profile.notefont end,
-						set = function(info,val) WoWProDB.profile.notefont = val
+							local hash = values[WoWProDB.profile.notefont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.notefont = hashtable[val]
 							WoWPro.RowFontSet() end
 					},
 					notetextsize = {
@@ -333,18 +339,21 @@ local function CreateDisplayConfig()
 					trackfont = {
 						order = 26,
 						type = "select",
+						dialogControl = 'LSM30_Font',
 						name = L["Tracker Font"],
 						desc = L["Font used for the tracking text."],
-						values = function() local values = {}
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
+						get = function(info) local values = {}
 							local list = LibStub("LibSharedMedia-3.0"):List("font")
 							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
 							for i,handle in ipairs(list) do
 								values[hashtable[handle]] = handle
 							end
-							return values end,
-						get = function(info) 
-							return WoWProDB.profile.trackfont end,
-						set = function(info,val) WoWProDB.profile.trackfont = val
+							local hash = values[WoWProDB.profile.trackfont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.trackfont = hashtable[val]
 							WoWPro.RowFontSet() end
 					},
 					tracktextsize = {
