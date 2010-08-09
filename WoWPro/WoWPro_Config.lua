@@ -150,7 +150,15 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.showcoords end,
 						set = function(info,val) WoWProDB.profile.showcoords = val 
 							WoWPro:UpdateGuide() end
-					},  
+					},     
+					autoload = {
+						order = 11,
+						type = "toggle",
+						name = L["Auto-Load Guide"],
+						desc = L["Will automatically load the next guide when you complete one."],
+						get = function(info) return WoWProDB.profile.autoload end,
+						set = function(info,val) WoWProDB.profile.autoload = val end
+					}, 
 					bgheading = {
 						order = 12,
 						type = "header",

@@ -97,7 +97,13 @@ function WoWPro:UpdateGuide()
 	
 	-- If the guide is complete, loading the next guide --
 	if WoWProDB.char.guide[GID].progress == WoWProDB.char.guide[GID].total then
-		WoWPro.NextGuideDialog:Show()
+		if WoWProDB.profile.autoload then
+			WoWProDB.char.currentguide = WoWPro.loadedguide["nextGID"]
+			WoWPro:LoadGuide()
+			WoWPro.NextGuideDialog:Hide()
+		else
+			WoWPro.NextGuideDialog:Show()
+		end
 	end
 end	
 

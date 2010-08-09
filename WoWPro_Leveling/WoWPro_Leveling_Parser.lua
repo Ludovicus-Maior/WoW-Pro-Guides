@@ -198,30 +198,36 @@ function WoWPro_Leveling:RowUpdate()
 		-- Right-Click Drop-Down --
 		local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 		local dropdown = {
-			{text = step.." Options", isTitle = true},
-			{text = "Map Coordinates", func = function()
-				WoWPro:MapPoint(row.num)
-			end} 
 		}
-		if sticky then
+		if step then
 			table.insert(dropdown, 
-				{text = "Un-Sticky", func = function() 
-					WoWPro.stickies[row.index] = false
-					WoWPro.UpdateGuide()
-					WoWPro.UpdateGuide()
-					WoWPro.MapPoint()
+				{text = step.." Options", isTitle = true}
+			)
+			table.insert(dropdown, 
+				{text = "Map Coordinates", func = function()
+					WoWPro:MapPoint(row.num)
 				end} 
 			)
-		else
-			table.insert(dropdown, 
-				{text = "Make Sticky", func = function() 
-					WoWPro.stickies[row.index] = true
-					WoWPro.unstickies[row.index] = false
-					WoWPro.UpdateGuide()
-					WoWPro.UpdateGuide()
-					WoWPro.MapPoint()
-				end} 
-			)
+			if sticky then
+				table.insert(dropdown, 
+					{text = "Un-Sticky", func = function() 
+						WoWPro.stickies[row.index] = false
+						WoWPro.UpdateGuide()
+						WoWPro.UpdateGuide()
+						WoWPro.MapPoint()
+					end} 
+				)
+			else
+				table.insert(dropdown, 
+					{text = "Make Sticky", func = function() 
+						WoWPro.stickies[row.index] = true
+						WoWPro.unstickies[row.index] = false
+						WoWPro.UpdateGuide()
+						WoWPro.UpdateGuide()
+						WoWPro.MapPoint()
+					end} 
+				)
+			end
 		end
 			
 		-- Setting up click-to-quest log --
