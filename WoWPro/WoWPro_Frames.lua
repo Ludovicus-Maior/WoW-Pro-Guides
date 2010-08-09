@@ -535,7 +535,7 @@ end
 function WoWPro:CreateDropdownMenu()
 	WoWPro.DropdownMenu = {
 		{text = "WoW-Pro Guides", isTitle = true},
-		{text = "Config", func = function() 
+		{text = "About WoW-Pro", func = function() 
 			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Guides")
 		end},
 		{text = "Guide Display", func = function() 

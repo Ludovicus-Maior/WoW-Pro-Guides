@@ -346,24 +346,24 @@ local function CreateDisplayConfig()
 					},
 				}
 			}
+
 		}
 	}
 
 	return options
 end
 
-local options
 local function createBlizzOptions()
-	options = CreateDisplayConfig()
+	local options = CreateDisplayConfig()
 
 	config:RegisterOptionsTable("WoWPro-Bliz", {
 		name = L["WoW-Pro Guides"],
 		type = "group",
 		args = {
-			verzion = {
+			version = {
 				order = 1,
 				type = "description",
-				name = L["Version: "..WoWPro.Version],
+				name = L["Version"]..": "..WoWPro.Version,
 			},
 			help = {
 				order = 2,
@@ -384,7 +384,78 @@ local function createBlizzOptions()
 				set = function(info,val) 
 						if WoWPro:IsEnabled() then WoWPro:Disable() else WoWPro:Enable() end
 					end
-			},  			
+			}, 
+			blank2 = {
+				order = 5,
+				type = "description",
+				name = " ",
+			},    
+			aboutheader = {
+				order = 6,
+				type = "header",
+				name = "About WoW-Pro",
+			}, 
+			blank3 = {
+				order = 7,
+				type = "description",
+				name = " ",
+			},  	
+			about = {
+				order = 8,
+				type = "description",
+				fontSize = "medium",
+				name = "WoW-Pro.com is a guide website by gamers, for gamers. "
+			}, 	
+			blank5 = {
+				order = 9,
+				type = "description",
+				name = " ",
+			},  
+			about2 = {
+				order = 10,
+				type = "description",
+				fontSize = "medium",
+				name = 
+					"The site hosts hundreds of free guides covering every facet of World of Warcraft. "
+			}, 	 	
+			blank6 = {
+				order = 11,
+				type = "description",
+				name = " ",
+			},  
+			about3 = {
+				order = 12,
+				type = "description",
+				fontSize = "medium",
+				name = 
+					"We are most famous for our leveling guides, especially those written by the site administrator, Jame. "
+			}, 	 	
+			blank7 = {
+				order = 13,
+				type = "description",
+				name = " ",
+			},  
+			about4 = {
+				order = 14,
+				type = "description",
+				fontSize = "medium",
+				name = 
+					"Over the years WoW-Pro has grown into a huge, active community of gamers. "
+			},  	
+			blank8 = {
+				order = 15,
+				type = "description",
+				name = " ",
+			},  	
+			about5 = {
+				order = 16,
+				type = "description",
+				fontSize = "medium",
+				name = 
+					"The WoW-Pro addon will bring many of the guides we've built as a community into the game, "..
+					"but if you get the chance you should definitely stop by, leave a comment saying 'Hi!', and check out "..
+					"some of the guides on WoW-Pro.com!",
+			}, 		
 		},
 	})
 	
