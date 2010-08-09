@@ -194,6 +194,32 @@ function WoWPro_Leveling:RowUpdate()
 			WoWPro.CompleteStep(row.index)
 		end)
 		
+		-- Right-Click Drop-Down --
+		local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
+		local dropdown = {
+			{text = "Step Options", isTitle = true},
+		}
+		if sticky then
+			table.insert(dropdown, 
+				{text = "Un-Sticky", func = function() 
+					WoWPro.stickies[row.index] = false
+					WoWPro.UpdateGuide()
+					WoWPro.UpdateGuide()
+					WoWPro.MapPoint()
+				end} 
+			)
+		else
+			table.insert(dropdown, 
+				{text = "Make Sticky", func = function() 
+					WoWPro.stickies[row.index] = true
+					WoWPro.unstickies[row.index] = false
+					WoWPro.UpdateGuide()
+					WoWPro.UpdateGuide()
+					WoWPro.MapPoint()
+				end} 
+			)
+		end
+			
 		-- Setting up click-to-quest log --
 		local questlogcheck = false
 		local questlogindex
@@ -202,16 +228,23 @@ function WoWPro_Leveling:RowUpdate()
 			if ( not isHeader ) and questID == QID then
 				questlogcheck = true
 				questlogindex = j
-				row:SetScript("OnClick", function(self, button, down)
-					if button == "LeftButton" then
-						QuestLog_OpenToQuest(j)
-					end
-				end)
 				break
 			end
 		end end
-		if not questlogcheck then
-				row:SetScript("OnClick", function(self, button, down) end)
+		if questlogcheck then
+			row:SetScript("OnClick", function(self, button, down)
+				if button == "LeftButton" then
+					QuestLog_OpenToQuest(questlogindex)
+				elseif button == "RightButton" then
+					EasyMenu(dropdown, menuFrame, "cursor", 0 , 0, "MENU");
+				end
+			end)
+		else
+			row:SetScript("OnClick", function(self, button, down)
+				if button == "RightButton" then
+					EasyMenu(dropdown, menuFrame, "cursor", 0 , 0, "MENU");
+				end
+			end)
 		end
 		
 		-- Item Button --
