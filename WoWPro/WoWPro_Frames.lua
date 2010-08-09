@@ -214,15 +214,26 @@ function WoWPro.AnchorSet()
 		end
 	end
 	WoWPro.MainFrame:SetScript("OnUpdate", function()
-		local top = WoWPro.Titlebar:GetTop()
-		local left = WoWPro.Titlebar:GetLeft()
-		WoWPro.AnchorFrame:ClearAllPoints()
-		WoWPro.AnchorFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
+		if WoWProDB.profile.growup then
+			local bottom = WoWPro.MainFrame:GetBottom()
+			local left = WoWPro.MainFrame:GetLeft()
+			WoWPro.AnchorFrame:ClearAllPoints()
+			WoWPro.AnchorFrame:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom)
+		else
+			local top = WoWPro.MainFrame:GetTop()
+			local left = WoWPro.MainFrame:GetLeft()
+			WoWPro.AnchorFrame:ClearAllPoints()
+			WoWPro.AnchorFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
+		end
 		
 		WoWPro.AnchorFrame:SetWidth(WoWPro.Titlebar:GetWidth())
 		WoWPro.AnchorFrame:SetHeight(WoWPro.Titlebar:GetHeight())
 		WoWPro.MainFrame:SetScript("OnUpdate", function()
-			WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
+			if WoWProDB.profile.growup then
+				WoWPro.MainFrame:SetPoint("BOTTOMLEFT", WoWPro.AnchorFrame, "BOTTOMLEFT")
+			else
+				WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
+			end
 			WoWPro.MainFrame:SetScript("OnUpdate", function() end)
 		end)
 	end)

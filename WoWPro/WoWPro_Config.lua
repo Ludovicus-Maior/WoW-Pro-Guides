@@ -123,6 +123,15 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.numsteps end,
 						set = function(info,val) WoWProDB.profile.numsteps = val
 							WoWPro.RowSizeSet() end
+					},     
+					growup = {
+						order = 11,
+						type = "toggle",
+						name = L["Grow Up"],
+						desc = L["Causes the guide window to anchor at it's bottom, growing upward."],
+						get = function(info) return WoWProDB.profile.growup end,
+						set = function(info,val) WoWProDB.profile.growup = val 
+							WoWPro.AnchorSet() end
 					},   
 					track = {
 						order = 11,
