@@ -215,11 +215,16 @@ function WoWPro_Leveling:RowUpdate()
 			table.insert(dropdown, 
 				{text = step.." Options", isTitle = true}
 			)
-			table.insert(dropdown, 
-				{text = "Map Coordinates", func = function()
-					WoWPro:MapPoint(row.num)
-				end} 
-			)
+			QuestMapUpdateAllQuests()
+			QuestPOIUpdateIcons()
+			local _, x, y, obj = QuestPOIGetIconInfo(QID)
+			if coord or x then
+				table.insert(dropdown, 
+					{text = "Map Coordinates", func = function()
+						WoWPro:MapPoint(row.num)
+					end} 
+				)
+			end
 			if row.questlogindex then
 				table.insert(dropdown, 
 					{text = "Share Quest", func = function()
