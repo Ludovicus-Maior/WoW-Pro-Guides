@@ -535,7 +535,7 @@ end
 function WoWPro:CreateDropdownMenu()
 	WoWPro.DropdownMenu = {
 		{text = "WoW-Pro Guides", isTitle = true},
-		{text = "About WoW-Pro", func = function() 
+		{text = "About", func = function() 
 			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Guides")
 		end},
 		{text = "Guide Display", func = function() 
@@ -550,7 +550,7 @@ function WoWPro:CreateDropdownMenu()
 	if WoWPro_Leveling then
 		table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 		table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )
-		table.insert(WoWPro.DropdownMenu, {text = "Config", func = function() 
+		table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
 				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Current Guide"], func = function()
