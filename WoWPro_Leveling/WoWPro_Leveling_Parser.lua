@@ -249,6 +249,17 @@ function WoWPro_Leveling:RowUpdate()
 		
 		-- Setting the zone for the coordinates of the step --
 		if zone then row.zone = zone else row.zone = WoWPro.loadedguide["zone"] end
+	
+		-- Checking for loot items in bags --
+		local lootqtyi
+		if lootitem or action == "B" then
+			if not lootitem then
+				if GetItemCount(lootitem) > 0 then return WoWPro.CompleteStep(k) end
+			end
+			if tonumber(lootqty) ~= nil then lootqtyi = tonumber(lootqty) else lootqtyi = 1 end
+			if GetItemCount(lootitem) >= lootqtyi then return WoWPro.CompleteStep(k) end
+		end
+
 		
 		WoWPro.rows[i] = row
 		i = i + 1
