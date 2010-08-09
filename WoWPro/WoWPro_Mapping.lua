@@ -9,9 +9,12 @@ local BL = B:GetLookupTable()
 function WoWPro:MapPoint(row)
 	
 	WoWPro:RemoveMapPoint()
-	
 	local rowi = row or 1
-	while WoWPro.stickies and WoWPro.stickies[WoWPro.rows[rowi].index] do rowi=rowi+1 end
+	
+	if not row or not WoWPro.stickies[WoWPro.rows[row].index] then 
+		while WoWPro.stickies and WoWPro.stickies[WoWPro.rows[rowi].index] do rowi=rowi+1 end
+	end
+	
 	local i = WoWPro.rows[rowi].index
 	if not WoWPro.maps then return end
 	local coords = WoWPro.maps[i]
