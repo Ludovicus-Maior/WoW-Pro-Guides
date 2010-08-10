@@ -169,7 +169,7 @@ A Seeds of the Blacksouled Keepers |QID|11319|
 C The Lodestone |QID|11366|U|33819|N|Head to the Broken Tablet, use the Rune Sample while standing near it.|M|72,17|
 C Mastering the Runes |QID|11351| |N|Look for a little box called Iron Rune Carving Tools, they spawn under one of the 5 'tent' canopies.|
 
-C Seeds of the Blacksouled Keepers |QID|11319|NOPOI|N|Head northwest to the Twisted Glade. Kill the spores and use the Enchanted Ice Core on their corpses.|M|55,19|
+C Seeds of the Blacksouled Keepers |QID|11319|U|33607|NOPOI|N|Head northwest to the Twisted Glade. Kill the spores and use the Enchanted Ice Core on their corpses.|M|55,19|
 C Spawn of the Twisted Glade |QID|11316|
 
 T Spawn of the Twisted Glade |QID|11316| |N|Head back to the Frozen Glade.|M|61.5,22.9|
