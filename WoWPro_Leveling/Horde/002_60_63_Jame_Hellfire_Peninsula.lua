@@ -375,7 +375,7 @@ B Cenarion Spirits |QID|9472|L|29112|N|Available from the innkeeper.|Z|Zangarmar
 R Swamprat Post |QID|10103|N|To the northeast, at (85,55).|Z|Zangarmarsh|M|85,55|
 
 T Report to Zurai |QID|10103|Z|Zangarmarsh|M|85.5,55.0|
-H Falcon Watch|QID|9387|U|6948|
+F Falcon Watch |QID|9387|
 
 T Source of the Corruption |QID|9387|M|27.0,59.5|
 T A Pilgrim's Plight |QID|9376|M|27.0,62.0|
@@ -388,7 +388,8 @@ T A Debilitating Sickness |QID|9442| |N|The NPC is to the north at Mag'har post,
 A Administering the Salve |QID|9447|
 C Administering the Salve |QID|9447| |N|Use on the Debilitated Mag'har Grunts, they're the ones without shoulder armour.| |U|23394|
 T Administering the Salve |QID|9447|
-F Thrallmar|QID|10838|
+H Falcon Watch |QID|10838|U|6948|
+F Thrallmar |QID|10838|
 
 T The Demoniac Scryer |QID|10838| |N|Building in NW Thrallmar, at .|M|52,36|
 A Report to Nazgrel (Part 2)|QID|10875|M|52.5,36.5|
