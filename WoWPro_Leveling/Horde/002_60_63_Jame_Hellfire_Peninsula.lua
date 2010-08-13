@@ -361,21 +361,21 @@ C Natural Remedies |QID|10351| |N|The circle you're looking for is at .| |U|2947
 T Natural Remedies |QID|10351|
 R Cenarion Refuge |QID|9747|N|Follow the road west, you'll come to Cenarion Refuge shortly after entering the town.|
 
-A The Umbrafen Tride |QID|9747|M|80.5,64.0|
-A Plants of Zangarmarsh |QID|9802|M|80.5,64.0|
-A Leader of the Darkcrest |QID|9730|
-A Leader of the Bloodscale |QID|9817|
-A The Dying Balance |QID|9895|M|78.5,63.0|
-T The Cenarion Expedition |QID|9912|M|78.5,62.0|
-A Disturbance at Umbrafen Lake |QID|9716|M|78.5,62.0|
-A Warden Hamoot |QID|9778|
-T Warden Hamoot |QID|9778|
-A A Warm Welcome |QID|9728|M|79.0,65.5|
-B Cenarion Spirits |QID|9472|L|29112|N|Available from the innkeeper.|
-R Swamprat Post |QID|10103|N|To the northeast, at .|Z|Zangarmarsh|M|85,55|
+A The Umbrafen Tride |QID|9747|Z|Zangarmarsh|M|80.5,64.0|
+A Plants of Zangarmarsh |QID|9802|Z|Zangarmarsh|M|80.5,64.0|
+A Leader of the Darkcrest |QID|9730|Z|Zangarmarsh|M|79.1,64.9|
+A Leader of the Bloodscale |QID|9817|Z|Zangarmarsh|M|79.1,64.9|
+A The Dying Balance |QID|9895|Z|Zangarmarsh|M|78.5,63.0|
+T The Cenarion Expedition |QID|9912|Z|Zangarmarsh|M|78.5,62.0|
+A Disturbance at Umbrafen Lake |QID|9716|Z|Zangarmarsh|M|78.5,62.0|
+A Warden Hamoot |QID|9778|Z|Zangarmarsh|M|78.4,62.1|
+T Warden Hamoot |QID|9778|Z|Zangarmarsh|M|79.1,65.2|
+A A Warm Welcome |QID|9728|Z|Zangarmarsh|M|79.0,65.5|
+B Cenarion Spirits |QID|9472|L|29112|N|Available from the innkeeper.|Z|Zangarmarsh|M|78.5,63.0|
+R Swamprat Post |QID|10103|N|To the northeast, at (85,55).|Z|Zangarmarsh|M|85,55|
 
-T Report to Zurai |QID|10103|M|85.5,55.0|
-H Falcon Watch|QID|9387|U|6948|
+T Report to Zurai |QID|10103|Z|Zangarmarsh|M|85.5,55.0|
+F Falcon Watch |QID|9387|
 
 T Source of the Corruption |QID|9387|M|27.0,59.5|
 T A Pilgrim's Plight |QID|9376|M|27.0,62.0|
@@ -388,7 +388,8 @@ T A Debilitating Sickness |QID|9442| |N|The NPC is to the north at Mag'har post,
 A Administering the Salve |QID|9447|
 C Administering the Salve |QID|9447| |N|Use on the Debilitated Mag'har Grunts, they're the ones without shoulder armour.| |U|23394|
 T Administering the Salve |QID|9447|
-F Thrallmar|QID|10838|
+H Falcon Watch |QID|10838|U|6948|
+F Thrallmar |QID|10838|
 
 T The Demoniac Scryer |QID|10838| |N|Building in NW Thrallmar, at .|M|52,36|
 A Report to Nazgrel (Part 2)|QID|10875|M|52.5,36.5|
