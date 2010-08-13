@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamTer6567", "Terokkar Forest", "Jame", "65", "67", "JamNag6769", "Horde", function()
+WoWPro_Leveling:RegisterGuide("JamTerS6567", "Terokkar Forest - Scryer", "Jame", "65", "67", "JamNag6769", "Horde", function()
 
 --> Original guides written/designed by [Jame]
 -->

@@ -127,8 +127,8 @@ C Crafty's Stuff |QID|11645| |N|Finish collecting Crafty's Stuff. | |Z|Borean Tu
 T Get Me Outa Here!|QID|11673| |N|Go back to Fizzcrank Airstrip.|M|57.0,18.7|
 T Dirty, Stinkin' Snobolds! |QID|11645|M|57.6,18.7|
 A Just a Few More Things... |QID|11650|M|57.6,18.7|
-N Crafty's Tools |QID|11650| |QO|Crafty's Tools: 1/1| |N|Loot Crafty's Tools below the Fizzcrank Pumping Station. On the way, kill Mechanomes (use the Re-Cursive Transmatter Injection on them) and robots (use The Ultrasonic Screwdriver on them), and pick up Fizzcrank Spare Parts. (64.37,23.06)| |Z|Borean Tundra|
-C Re-Cursive |QID|11712| |U|34973| |N|Finish killing Mechagnomes and using the Re-Cursive Transmatter Injection on them while picking up any Fizzcrank Spare Parts you need. |M|15,19.5|
+N Crafty's Tools |QID|11650| |QO|Crafty's Tools: 1/1| |N|Loot Crafty's Tools below the Fizzcrank Pumping Station. On the way, kill Mechanomes (use the Re-Cursive Transmatter Injection on them) and robots (use The Ultrasonic Screwdriver on them), and pick up Fizzcrank Spare Parts.| |Z|Borean Tundra|M|64.37,23.06|
+C Re-Cursive |QID|11712| |U|34973| |N|Finish killing Mechagnomes and using the Re-Cursive Transmatter Injection on them while picking up any Fizzcrank Spare Parts you need. |M|58.4,19.5|
 T Re-Cursive |QID|11712|M|57.4,18.7|
 A Lefty Loosey, Righty Tighty |QID|11788|M|57.4,18.7|
 A Finding Pilot Tailspin |QID|11725|M|57.0,18.7|

@@ -3,7 +3,7 @@ WoWPro_Leveling:RegisterGuide("JamGri7577", "Grizzly Hills", "Jame", "75", "77",
 --Addon Version: Last Modified 7/14/2010
 return [[
 F Venomspite|QID|12257|
-R Conquest Hold|QID|12257|N|Ride east into Grizzly Hills, keep going to Conquest Hold.|M|21,63|Z|Grizzley Hills|
+R Conquest Hold|QID|12257|N|Ride east into Grizzly Hills, keep going to Conquest Hold.|M|21,63|
 T To Conquest Hold, But Be Careful|QID|12487|M|20.8,64.2|
 A The Conqueror's Task|QID|12468|M|20.8,64.2|
 h Conquest Hold|QID|12257|M|20.8,64.5|

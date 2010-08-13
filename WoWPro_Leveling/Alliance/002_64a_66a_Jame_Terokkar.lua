@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamTer6466", "Terokkar Forest", "Jame", "64", "66", "JamNag6668", "Alliance", function()
+WoWPro_Leveling:RegisterGuide("JamTerA6466", "Terokkar Forest - Aldor", "Jame", "64", "66", "JamNag6668", "Alliance", function()
 return [[
 N READ THIS! |QID|10211| |N|This guide is for people who will choose Aldor as a faction in Shattrath. Aldor gives slightly better XP, so if you don't care then stay with this one. If you plan to choose Scryer, right-click this window and choose "Guides", then scroll down and find the Terokkar Scryer guide.|
 F Shattrath City |QID|10211| |N|Fly to Shattrath City. |M|67.80,51.50|

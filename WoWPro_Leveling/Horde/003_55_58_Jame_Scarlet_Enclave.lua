@@ -77,7 +77,7 @@ A An Attack Of Opportunity |QID|12700|M|58.2,31.0|
 T An Attack Of Opportunity |QID|12700|N|Prince Valanar|M|52.3,34.0|
 A Massacre At Light's Point |QID|12701|M|52.3,34.0|
 
-C Massacre At Light's Point |QID|12701|N|Get in the Mine Car in front of Havenshire Mine . Use the canon on the boat, kill Scarlet Defender and escape death by using ability #5.|M|58.83,33|
+C Massacre At Light's Point |QID|12701|N|Get in the Mine Car in front of Havenshire Mine . Use the cannon on the boat, kill Scarlet Defender and escape death by using ability #5.|M|58.83,33|
 
 T Massacre At Light's Point |QID|12701|N|Prince Valanar|M|52.3,34.0|
 A Victory At Death's Breach! |QID|12706|M|52.3,34.0|
@@ -130,17 +130,17 @@ T Bloody Breakout |QID|12727|M|56.3,80.2|
 A A Cry For Vengeance! |QID|12738|M|56.3,80.2|
 
 T A Cry For Vengeance! |QID|12738|N|To the east in the Chapel of the Crimson Flame|M|52.9,81.5|
-A A Special Surprise |QID|12739|R|Tauren|N|Put your goul on passive mode|M|52.9,81.5|
-A A Special Surprise |QID|12747|R|Blood Elf|N|Put your goul on passive mode|M|52.9,81.5|
-A A Special Surprise |QID|12748|R|Orc|N|Put your goul on passive mode|M|52.9,81.5|
-A A Special Surprise |QID|12749|R|Troll|N|Put your goul on passive mode|M|52.9,81.5|
-A A Special Surprise |QID|12750|R|Undead|N|Put your goul on passive mode|M|52.9,81.5|
+A A Special Surprise |QID|12739|R|Tauren|N|Put your ghoul on passive mode|M|52.9,81.5|
+A A Special Surprise |QID|12747|R|Blood Elf|N|Put your ghoul on passive mode|M|52.9,81.5|
+A A Special Surprise |QID|12748|R|Orc|N|Put your ghoul on passive mode|M|52.9,81.5|
+A A Special Surprise |QID|12749|R|Troll|N|Put your ghoul on passive mode|M|52.9,81.5|
+A A Special Surprise |QID|12750|R|Undead|N|Put your ghoul on passive mode|M|52.9,81.5|
 
-C A Special Surprise |QID|12739|R|Tauren|N|Put your goul on passive mode, listen to Malar Bravehorn  speach and kill him|M|54.51,83.86|
-C A Special Surprise |QID|12747|R|Blood Elf|N|Put your goul on passive mode, listen to Lady Eonys  speach and kill her|M|54.28,83.31|
-C A Special Surprise |QID|12748|R|Orc|N|Put your goul on passive mode, listen to Kug Ironjaw  speach and kill him|M|53.77,83.28|
-C A Special Surprise |QID|12749|R|Troll|N|Put your goul on passive mode, listen to Iggy Darktusk  speach and kill him|M|53.81,83.75|
-C A Special Surprise |QID|12750|R|Undead|N|Put your goul on passive mode, listen to Antoine Brack  speach and kill him|M|53.54,83.31|
+C A Special Surprise |QID|12739|R|Tauren|N|Put your ghoul on passive mode, listen to Malar Bravehorn speech and kill him|M|54.51,83.86|
+C A Special Surprise |QID|12747|R|Blood Elf|N|Put your ghoul on passive mode, listen to Lady Eonys speech and kill her|M|54.28,83.31|
+C A Special Surprise |QID|12748|R|Orc|N|Put your ghoul on passive mode, listen to Kug Ironjaw speech and kill him|M|53.77,83.28|
+C A Special Surprise |QID|12749|R|Troll|N|Put your ghoul on passive mode, listen to Iggy Darktusk speech and kill him|M|53.81,83.75|
+C A Special Surprise |QID|12750|R|Undead|N|Put your ghoul on passive mode, listen to Antoine Brack speech and kill him|M|53.54,83.31|
 
 T A Special Surprise |QID|12739|R|Tauren|N|Knight Commander Plaguefist|M|52.9,81.5|
 T A Special Surprise |QID|12747|R|Blood Elf|N|Knight Commander Plaguefist|M|52.9,81.5|

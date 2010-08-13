@@ -4,7 +4,7 @@
 
 local cache = {}	
 local B = LibStub("LibBabble-Zone-3.0")
-local BL = B:GetLookupTable()
+local BL = B:GetUnstrictLookupTable()
 
 function WoWPro:MapPoint(row)
 	
@@ -20,7 +20,7 @@ function WoWPro:MapPoint(row)
 	local coords = WoWPro.maps[i]
 	local desc = WoWPro.steps[i]
 	local zone = WoWPro.rows[rowi].zone
-	if zone then zone = BL[zone] end
+	if zone and BL[zone] then zone = BL[zone] end
 	
 	local zonei, zonec, zonenames = {}, {}, {}
 	for ci,c in pairs{GetMapContinents()} do
