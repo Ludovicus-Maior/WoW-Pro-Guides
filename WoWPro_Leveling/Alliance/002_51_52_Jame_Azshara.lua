@@ -2,26 +2,26 @@ WoWPro_Leveling:RegisterGuide("JamAzs5152", "Azshara", "Jame", "51", "52", "JamF
 return [[
 R Ironforge |QID|3368|
 N Sell junk, repair, restock |QID|3368| |N|Sell junk, repair, restock |
-T Suntara Stones (part 2) |QID|3368|M|67.8,8.3|
-A A Little Slime Goes a Long Way (part 1) |QID|4512|M|75.8,23.4|
-A Passing the Burden |QID|3448|M|77.5,11.8|
-T Passing the Burden |QID|3448|M|31.0,4.8|
-A Arcane Runes |QID|3449|M|31.0,4.8|
-A An Easy Pickup |QID|3450|M|31.0,4.8|
-T An Easy Pickup |QID|3450|M|70.9,94.6|
-A Signal for Pickup |QID|3451|M|70.9,94.6|
-T Signal for Pickup |QID|3451|M|70.9,94.6|
-F Menethil Harbor |QID|4267| |N|Fly to Menethil Harbor. |M|55.60,47.70|
+T Suntara Stones (part 2) |QID|3368|Z|Ironforge|M|67.8,8.3|
+A A Little Slime Goes a Long Way (part 1) |QID|4512|Z|Ironforge|M|75.8,23.4|
+A Passing the Burden |QID|3448|Z|Ironforge|M|77.5,11.8|
+T Passing the Burden |QID|3448|Z|Ironforge|M|31.0,4.8|
+A Arcane Runes |QID|3449|Z|Ironforge|M|31.0,4.8|
+A An Easy Pickup |QID|3450|Z|Ironforge|M|31.0,4.8|
+T An Easy Pickup |QID|3450|Z|Ironforge|M|70.9,94.6|
+A Signal for Pickup |QID|3451|Z|Ironforge|M|70.9,94.6|
+T Signal for Pickup |QID|3451|Z|Ironforge|M|70.9,94.6|
+F Stormwind |QID|4267| |N|Fly to Stormwind. |Z|Ironforge|M|55.60,47.70|
 b Auberdine |QID|4267| |N|Take the boat to Auberdine. |
-F Rut'theran Village |QID|4267| |N|Fly to Rut'theran Village |M|36.30,45.60|
-R Darnassus |QID|4267| |N|Go to Darnassus. |M|60.00,89.80|
-T Rise of the Silithid (final) |QID|4267|M|41.8,85.6|
-A March of the Silithid |QID|4493|M|41.8,85.6|
-T Prayer to Elune (part 2) |QID|3378|M|38.3,80.9|
-R Rut'theran Village |QID|5536| |N|Go to Rut'theran Village. |M|30.50,41.40|
-F Forest Song |QID|5536| |N|Fly to Forest Song, Ashenvale. |M|58.40,94.00|
+F Rut'theran Village |QID|4267| |N|Fly to Rut'theran Village |Z|Darkshore|M|36.30,45.60|
+R Darnassus |QID|4267| |N|Go to Darnassus. |Z|Teldrassil|M|60.00,89.80|
+T Rise of the Silithid (final) |QID|4267|Z|Darnassus|M|41.8,85.6|
+A March of the Silithid |QID|4493|Z|Darnassus|M|41.8,85.6|
+T Prayer to Elune (part 2) |QID|3378|Z|Darnassus|M|38.3,80.9|
+R Rut'theran Village |QID|5536| |N|Go to Rut'theran Village. |Z|Darnassus|M|30.50,41.40|
+F Forest Song |QID|5536| |N|Fly to Forest Song, Ashenvale. |Z|Teldrassil|M|58.40,94.00|
 
-R Azshara |QID|5536| |N|Go to Azshara. |M|95.40,48.40|
+R Azshara |QID|5536| |N|Go to Azshara. |Z|Ashenvale|M|95.40,48.40|
 f Talrendis Point |QID|5536| |N|Get the flight path. |M|11.90,77.60|
 A Spiritual Unrest |QID|5535|M|11.4,78.2|
 A A Land Filled with Hatred |QID|5536|M|11.4,78.2|
@@ -44,14 +44,14 @@ N Helipad |QID|3449| |N|Use the Standard Issue Flare Gun from your inventory on 
 T Arcane Runes |QID|3449|M|77.8,91.3|
 A Return to Tymor |QID|3461|M|77.8,91.3|
 H Ironforge |QID|3461| |N|Hearth to Ironforge. |
-T Return to Tymor |QID|3461|M|31.0,4.8|
+T Return to Tymor |QID|3461|Z|Ironforge|M|31.0,4.8|
 N Sell junk, repair, restock, train skills |QID|2603| |N|Sell junk, repair, restock, train skills.|
-F Nethergarde Keep |QID|2603| |N|Fly to Nethergarde Keep. |M|55.60,47.70|
-A Snickerfang Jowls |QID|2581|M|50.6,14.2|
-A A Boar's Vitality |QID|2583|M|50.6,14.2|
-A The Decisive Striker |QID|2585|M|50.6,14.2|
-A The Basilisk's Bite |QID|2601|M|50.6,14.2|
-A Vulture's Vigor |QID|2603|M|50.6,14.2|
+F Nethergarde Keep |QID|2603| |N|Fly to Nethergarde Keep. |Z|Ironforge|M|55.60,47.70|
+A Snickerfang Jowls |QID|2581|Z|Blasted Lands|M|50.6,14.2|
+A A Boar's Vitality |QID|2583|Z|Blasted Lands|M|50.6,14.2|
+A The Decisive Striker |QID|2585|Z|Blasted Lands|M|50.6,14.2|
+A The Basilisk's Bite |QID|2601|Z|Blasted Lands|M|50.6,14.2|
+A Vulture's Vigor |QID|2603|Z|Blasted Lands|M|50.6,14.2|
 C A Boar's Vitality |N|Complete these five quests together by killing all kinds of mobs in the northern part of Blasted Lands.  Keep in mind that turning in a quest will remove those items from your inventory, so you need extra items. | |QID|2583|
 C Snickerfang Jowls |N|Complete these five quests together by killing all kinds of mobs in the northern part of Blasted Lands.  Keep in mind that turning in a quest will remove those items from your inventory, so you need extra items. | |QID|2581|
 C The Basilisk's Bite |N|Complete these five quests together by killing all kinds of mobs in the northern part of Blasted Lands.  Keep in mind that turning in a quest will remove those items from your inventory, so you need extra items. | |QID|2601|
@@ -66,14 +66,14 @@ A Everything Counts In Large Amounts |N|Right-click the Imperfect Draenethyst Fr
 A (OPTIONAL) To Serve Kum'isha |N|Right-click the Flawless Draenethyst Sphere if you found it to get this quest.  Otherwise, skip this objective. | |QID|2521|
 T (OPTIONAL) Everything Counts In Large Amounts |O| |QID|3501|
 T To Serve Kum'isha |O| |QID|2521|
-T A Boar's Vitality |QID|2583|M|50.7,14.2|
-T Snickerfang Jowls |QID|2581|M|50.7,14.2|
-T The Decisive Striker |QID|2585|M|50.7,14.2|
-T The Basilisk's Bite |QID|2601|M|50.7,14.2|
-T Vulture's Vigor |QID|2603|M|50.7,14.2|
+T A Boar's Vitality |QID|2583|Z|Blasted Lands|M|50.7,14.2|
+T Snickerfang Jowls |QID|2581|Z|Blasted Lands|M|50.7,14.2|
+T The Decisive Striker |QID|2585|Z|Blasted Lands|M|50.7,14.2|
+T The Basilisk's Bite |QID|2601|Z|Blasted Lands|M|50.7,14.2|
+T Vulture's Vigor |QID|2603|Z|Blasted Lands|M|50.7,14.2|
 H Ironforge |QID|8460| |N|Hearth to Ironforge.|
 N Sell junk, repair, restock |QID|8460| |N|Sell junk, repair, restock.|
 
-F Menethil Harbor |QID|8460| |N|Fly to Menethil Harbor. |M|55.50,47.75|
+F Stormwind |QID|8460| |N|Fly to Menethil Harbor. |M|55.50,47.75|
 ]]
 end)

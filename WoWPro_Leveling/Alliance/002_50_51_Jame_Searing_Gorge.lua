@@ -1,8 +1,8 @@
 WoWPro_Leveling:RegisterGuide("JamSea5051", "Searing Gorge", "Jame", "50", "51", "JamAzs5152", "Alliance", function()
 return [[
 R Thelsamar |QID|3441| 
-R Badlands |QID|3441| |N|Run to Badlands. |M|47.00,89.00|
-R Searing Gorge |QID|3441| |N|Run to Searing Gorge. |M|49.70,66.70|
+R Badlands |QID|3441| |N|Run to Badlands. |Z|Loch Modan|M|47.00,89.00|
+R Searing Gorge |QID|3441| |N|Run to Searing Gorge. |Z|Badlands|M|1,60|
 A Divine Retribution |QID|3441|M|39.1,39.0|
 C Divine Retribution |N|Talk to the NPC and go through the dialogue. | |QID|3441|
 T Divine Retribution |QID|3441|M|39.1,39.0|

@@ -1,6 +1,6 @@
 WoWPro_Leveling:RegisterGuide("JamFel5253", "Felwood", "Jame", "52", "53", "JamFer5353", "Alliance", function()
 return [[
-R Menethil Harbor |QID|8460|
+R Stormwind |QID|8460|
 b Darkshore |QID|8460| |N|Take the boat to Auberdine. |M|4.80,57.20|
 F Emerald Sanctuary |QID|8460| |N|Fly to Emerald Sanctuary. |
 A Forces of Jaedenar |QID|5155|M|51.2,82.3|

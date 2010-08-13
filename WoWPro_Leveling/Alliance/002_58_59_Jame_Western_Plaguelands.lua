@@ -53,14 +53,14 @@ A Unfinished Business (part 3) |QID|6025|
 C Unfinished Business (part 3) |N|Go to the top of the tower here and complete this quest. | |QID|6025|M|45.80,18.30|
 T Unfinished Business (part 3) |QID|6025|
 H Stormwind City |QID|5022| |N|Hearth to Stormwind. |
-T Better Late Than Never (part 2) |QID|5022|M|57.2,48.1|
-A Good Natured Emma |QID|5048|M|57.2,48.1|
-T Good Natured Emma |N|This NPC wanders so search the Trade District and Cathedral district. | |QID|5048|M|60.2,57.0|
-A Good Luck Charm |QID|5050|M|60.2,57.0|
+T Better Late Than Never (part 2) |QID|5022|Z|Stormwind City|M|57.2,48.1|
+A Good Natured Emma |QID|5048|Z|Stormwind City|M|57.2,48.1|
+T Good Natured Emma |N|This NPC wanders so search the Trade District and Cathedral district. | |QID|5048|Z|Stormwind City|M|60.2,57.0|
+A Good Luck Charm |QID|5050|Z|Stormwind City|M|60.2,57.0|
 N Sell junk, repair, restock |QID|5220| |N|Sell junk, repair, restock |
 N Make sure you have 30 Dark Iron Scraps |QID|9131| |N|Make sure you have 30 Dark Iron Scraps.|
 
-F Chillwind Camp |QID|5220| |N|Fly to Chillwind Camp. |M|66.30,62.10|
+F Chillwind Camp |QID|5220| |N|Fly to Chillwind Camp. |Z|Stormwind City|M|66.30,62.10|
 T Return to Chillwind Camp (part 2) |QID|5220|M|42.9,84.5|
 A Target: Writhing Haunt |QID|5222|M|42.9,84.5|
 T The Mark of the Lightbringer |QID|9474|M|42.9,84.5|
@@ -92,6 +92,7 @@ A Blood Tinged Skies |QID|5543|M|4.7,38.4|
 A Carrion Grubbage |QID|5544|M|4.7,38.4|
 N From now on... |QID|5544| |N|From now on, kill Carrion Worms, Plaguebats and Plaguehound Runts.|
 
+f Western Plaguelands |QID|5601| |N|Get the flight-path. |M|69.2,49.7|
 R Eastern Plaguelands |QID|5601| |N|Run to Eastern Plaguelands|
 ]]
 end)

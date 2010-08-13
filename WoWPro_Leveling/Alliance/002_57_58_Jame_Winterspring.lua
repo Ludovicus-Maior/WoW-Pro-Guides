@@ -45,18 +45,18 @@ C Winterfall Ritual Totem |N|Kill Winterfall mobs until you are Neutral with Tim
 R Felwood |QID|8470| |N|Go in the tunnel to Felwood, but don't go all the way through the tunnel. |
 T Deadwood Ritual Totem |QID|8470|
 T Winterfall Ritual Totem |QID|8471|
-F Emerald Sanctuary |QID|5128| |N|Fly to Emerald Sanctuary |M|62.50,24.20|
+F Emerald Sanctuary |QID|5128| |N|Fly to Emerald Sanctuary |Z|Felwood|M|62.50,24.20|
 T Words of the High Chief |QID|5128|
 
-F Gadgetzan |N|Fly to Gadgetzan. |M|51.50,82.20|
+F Gadgetzan |N|Fly to Gadgetzan. |Z|Felwood|M|51.50,82.20|
 N Sprinkle |QID|5163| |N|Scare Sprinkle with the Mechanical Yeti. | |Z|Tanaris|M|51.10,26.90|
 N Book of Aquor |QID|4005| |N|Loot the bag called Eridan's Supplies from your inventory. | |L|11169 1| |Z|Tanaris|M|70.40,49.90|
 N Silver Totem of Aquementas |QID|4005| |N|Go here and use the Book of Aquor.  Kill Aquementas and loot the Silver Totem. | |L|11522 1| |Z|Tanaris|M|70.40,49.90|
 F Marshal's Refuge |QID|4005| |N|Fly to Marshal's Refuge | |Z|Tanaris|M|51.00,29.30|
-C Are We There, Yeti? (part 3) |N|Scare Quixxil with the Mechanical Yeti. | |QID|5163|M|43.70,9.40|
-T Aquementas |QID|4005|M|41.9,2.7|
-A Linken's Adventure |QID|3961|M|41.9,2.7|
-T Linken's Adventure |QID|3961|M|44.7,8.1|
+C Are We There, Yeti? (part 3) |N|Scare Quixxil with the Mechanical Yeti. | |QID|5163|Z|Un'Goro Crater|M|43.70,9.40|
+T Aquementas |QID|4005|Z|Un'Goro Crater|M|41.9,2.7|
+A Linken's Adventure |QID|3961|Z|Un'Goro Crater|M|41.9,2.7|
+T Linken's Adventure |QID|3961|Z|Un'Goro Crater|M|44.7,8.1|
 H Everlook |QID|5163| |N|Hearth to Everlook.|
 T Are We There, Yeti? (part 3) |QID|5163|M|60.9,37.6|
 F Rut'theran Village |QID|4901| |N|Fly to Rut'theran Village. |M|62.30,36.60|
@@ -67,15 +67,15 @@ T Wildkin of Elune |QID|4902|
 N Sell junk, repair, restock, train skills |QID|4513| |N|Sell junk, repair, restock, train skills|
 R Rut'theran Village |QID|4513| |N|Go to Rut'theran Village | |Z|Darnassus|M|30.25,41.45|
 F Auberdine |QID|4513| |N|Fly to Auberdine. | |Z|Teldrassil|M|58.40,94.00|
-b Wetlands |QID|4513| |N|Take the boat to Menethil Harbor. | |Z|Darkshore|M|32.40,43.90|
-F Ironforge |QID|4513| |N|Fly to Ironforge | |Z|Wetlands|M|9.50,59.70|
-T A Little Slime Goes a Long Way (part 2) |QID|4513|M|75.8,23.4|
+b Stormwind City |QID|4513| |N|Take the boat to Stormwind. | |Z|Darkshore|M|32.40,43.90|
+F Ironforge |QID|4513| |N|Take the Deeprun Tram to Ironforge | |Z|Stormwind City|M|68.50,31.50|
+T A Little Slime Goes a Long Way (part 2) |QID|4513|Z|Ironforge|M|75.8,23.4|
 F Stormwind City |QID|6182| |N|Fly to Stormwind City. | |Z|Ironforge|M|55.50,47.75|
-A The First and the Last |QID|6182|M|80.0,38.4|
-T The First and the Last |QID|6182|M|78.3,70.7|
-A Honor the Dead |QID|6183|M|78.3,70.7|
-T Honor the Dead |QID|6183|M|78.3,70.7|
-A Flint Shadowmore |QID|6184|M|78.3,70.7|
+A The First and the Last |QID|6182|Z|Stormwind City|M|80.0,38.4|
+T The First and the Last |QID|6182|Z|Stormwind City|M|78.3,70.7|
+A Honor the Dead |QID|6183|Z|Stormwind City|M|78.3,70.7|
+T Honor the Dead |QID|6183|Z|Stormwind City|M|78.3,70.7|
+A Flint Shadowmore |QID|6184|Z|Stormwind City|M|78.3,70.7|
 h Stormwind City |QID|6184| |N|Set your hearthstone to Stormwind. | |Z|Stormwind City|M|52.60,65.70|
 ]]
 end)

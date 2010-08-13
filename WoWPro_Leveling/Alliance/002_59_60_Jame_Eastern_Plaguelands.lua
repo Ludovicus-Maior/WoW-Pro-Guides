@@ -42,7 +42,7 @@ A Redemption |QID|5742|M|4.7,38.4|
 C Redemption |N|Talk to the NPC and listen to the story. | |QID|5742|
 T Redemption |QID|5742|M|4.7,38.4|
 H Stormwind City |QID|6186|
-T The Blightcaller Cometh |QID|6186|M|80.0,38.4|
+T The Blightcaller Cometh |QID|6186|Z|Stormwind City|M|80.0,38.4|
 N Train skills, get ready for outland |QID|10119| |N|Train skills, get ready for outland.|
 
 ]]

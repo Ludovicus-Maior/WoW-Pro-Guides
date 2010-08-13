@@ -25,29 +25,29 @@ A Retribution of the Light |QID|5204|
 A A Final Blow |QID|5242|
 F Talonbranch Glade |QID|3909| |N|Fly to Talonbranch Glade. |M|51.50,82.20|
 R Winterspring |QID|3909| |N|Run to Winterspring. |M|68.40,5.90|
-T The Videre Elixir |QID|3909|M|31.3,45.2|
-A Meet at the Grave |QID|3912|M|31.3,45.2|
+T The Videre Elixir |QID|3909|Z|Winterspring|M|31.3,45.2|
+A Meet at the Grave |QID|3912|Z|Winterspring|M|31.3,45.2|
 R Felwood |QID|4512| |N|Go back to Felwood. | |Z|Winterspring|M|27.90,34.45|
 F Rut'theran Village |QID|4512| |N|Fly to Rut'theran Village. |M|62.50,24.20|
-A Moontouched Wildkin |QID|978|M|55.5,92.0|
+A Moontouched Wildkin |QID|978|Z|Tedrassil|M|55.5,92.0|
 A Starfall |QID|5250|
 R Darnassus |QID|4512| |N|Go to Darnassus. | |Z|Teldrassil|M|55.90,89.80|
 C Felbound Ancients |N|Fill up Eridan's Vial here. | |QID|4441| |Z|Darnassus|M|39.50,85.30|
 R Rut'theran Village |QID|4512| |N|Go to Rut'theran Village. | |Z|Darnassus|M|30.30,41.40|
 F Auberdine |QID|4512| |N|Fly to Auberdine. | |Z|Teldrassil|M|58.40,94.00|
-b Wetlands |QID|4512| |N|Take the boat to Menethil Harbor. | |Z|Darkshore|M|32.40,43.80|
-F Ironforge |QID|4512| |N|Fly to Ironforge. | |Z|Menethil Harbor|M|9.50,59.70|
+b Wetlands |QID|4512| |N|Take the boat to Stormwind. | |Z|Darkshore|M|32.40,43.80|
+R Ironforge |QID|4512| |N|Take the Deeprun Tram to Ironforge | |Z|Stormwind City|M|68.50,31.50|
 N Sell junk, repair, restock, train skills |QID|4512| |N|Sell junk, repair, restock, train skills |
 N Mithril Casing |QID|4243| |N|Make sure you have a Mithril Casing. |
-T A Little Slime Goes a Long Way (part 1) |QID|4512|M|75.8,23.4|
-A A Little Slime Goes a Long Way (part 2) |QID|4513|M|75.8,23.4|
+T A Little Slime Goes a Long Way (part 1) |QID|4512|Z|Ironforge|M|75.8,23.4|
+A A Little Slime Goes a Long Way (part 2) |QID|4513|Z|Ironforge|M|75.8,23.4|
 H Gadgetzan |QID|3912| |N|Hearth to Gadgetzan. |
-A Super Sticky |QID|4504|M|51.6,26.8|
+A Super Sticky |QID|4504|Z|Tanaris|M|51.6,26.8|
 U Videre Elixir |QID|3912| |N|Go here and use the Videre Elixir.  Do not resurrect until finishing the next part. | |U|11243| |Z|Tanaris|M|53.90,28.80|
-T Meet at the Grave |QID|3912|M|54.0,23.4|
-A A Grave Situation |QID|3913|M|54.0,23.4|
+T Meet at the Grave |QID|3912|Z|Tanaris|M|54.0,23.4|
+A A Grave Situation |QID|3913|Z|Tanaris|M|54.0,23.4|
 T A Grave Situation |N|Resurrect and then click on the grave here to complete the quest. | |QID|3913| |Z|Tanaris|M|53.80,29.05|
-A Linken's Sword |QID|3914|M|53.8,29.1|
+A Linken's Sword |QID|3914|Z|Tanaris|M|53.8,29.1|
 N Sell junk, repair, restock |QID|3914| |N|Sell junk, repair, restock |
 F Marshal's Refuge |QID|3914| |N|Fly to Marshal's Refuge. | |Z|Tanaris|M|51.00,29.30|
 ]]

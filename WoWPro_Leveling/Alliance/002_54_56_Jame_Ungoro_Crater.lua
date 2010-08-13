@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamUng5456", "Un'goro Crater", "Jame", "54", "56", "JamWin5656", "Alliance", function()
+WoWPro_Leveling:RegisterGuide("JamUng5456", "Un'Goro Crater", "Jame", "54", "56", "JamWin5656", "Alliance", function()
 return [[
 R Marshal's Refuge |QID|3914|
 T Linken's Sword |QID|3914|M|44.7,8.1|
@@ -68,16 +68,16 @@ A The New Springs |QID|980|M|30.9,50.4|
 T The Mighty U'cha |QID|4301|M|71.6,76.0|
 T The Bait for Lar'korwi |QID|4292|M|71.6,76.0|
 H Gadgetzan |QID|4496| |N|Hearth to Gadgetzan. |
-T Super Sticky |QID|4504|M|51.6,26.8|
-T Bungle in the Jungle |QID|4496|M|50.9,27.0|
+T Super Sticky |QID|4504|Z|Tanaris|M|51.6,26.8|
+T Bungle in the Jungle |QID|4496|Z|Tanaris|M|50.9,27.0|
 F Ratchet |QID|4502| |N|Fly to Ratchet. | |Z|Tanaris|M|51.00,29.30|
-T Volcanic Activity |QID|4502|M|62.4,38.7|
+T Volcanic Activity |QID|4502|Z|The Barrens|M|62.4,38.7|
 F Emerald Sanctuary |QID|4441| |N|Fly to Emerald Sanctuary. | |Z|The Barrens|M|63.10,37.20|
-T Felbound Ancients |QID|4441|M|51.3,81.5|
-A Purified! |QID|4442|M|51.3,81.5|
-T Purified! |QID|4442|M|51.3,81.5|
-T Linken's Memory |QID|3942|M|51.3,81.5|
-A Silver Heart |QID|4084|M|51.3,81.5|
+T Felbound Ancients |QID|4441|Z|Felwood|M|51.3,81.5|
+A Purified! |QID|4442|Z|Felwood|M|51.3,81.5|
+T Purified! |QID|4442|Z|Felwood|M|51.3,81.5|
+T Linken's Memory |QID|3942|Z|Felwood|M|51.3,81.5|
+A Silver Heart |QID|4084|Z|Felwood|M|51.3,81.5|
 T Salve via Hunting |N|Accept this quest and turn it in if you have the required items. | |QID|5882|
 F Talonbranch Glade |QID|980| |N|Fly to Talonbranch Glade. | |Z|Felwood|M|51.50,82.20|
 R Winterspring |QID|980| |N|Go through the tunnel to Winterspring. | |Z|Felwood|M|68.25,5.65|
