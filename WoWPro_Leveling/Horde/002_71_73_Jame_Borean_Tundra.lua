@@ -246,10 +246,10 @@ A The Collapse |QID|11706|M|75.6,35.8|
 
 C The Collapse |QID|11706|U|34968|N|Head to the sinkhole at (70,37) Use the horn and kill the Nerubian who shows up.|M|70,37|
 
-N The Sub-Chieftains |QID|11907|QO|The Grinder slain: 1/1|N|South Point Station to the NW at (65.2,28.7)|M|60.2,20.4|
-N The Sub-Chieftains |QID|11907|QO|Twonky slain: 1/1|N|West Point Station to the NW at (60.2,20.4)|M|65.2,28.7|
-N The Sub-Chieftains |QID|11907|QO|ED-210 slain: 1/1|N|North Point Station to the NW at (65.4,17.5)|M|65.4,17.5|
-N The Sub-Chieftains |QID|11907|QO|Max Blasto slain: 1/1|N|Mid Point Station to the NW at (63.7,22.5)|M|63.7,22.5|
+K The Sub-Chieftains |QID|11907|QO|The Grinder slain: 1/1|N|South Point Station to the NW at (65.2,28.7)|M|60.2,20.4|
+K The Sub-Chieftains |QID|11907|QO|Twonky slain: 1/1|N|West Point Station to the NW at (60.2,20.4)|M|65.2,28.7|
+K The Sub-Chieftains |QID|11907|QO|ED-210 slain: 1/1|N|North Point Station to the NW at (65.4,17.5)|M|65.4,17.5|
+K The Sub-Chieftains |QID|11907|QO|Max Blasto slain: 1/1|N|Mid Point Station to the NW at (63.7,22.5)|M|63.7,22.5|
 
 C Defeat the Gearmaster |QID|11909| |N|Head to the Fizzcrank Pumping station, and go up (access is from a ramp on the NE side - (65.5,23.1)). Use the manual on the ground and kill the mob when he spawns (64.4,23.4).|M|64.4,23.4|
 
