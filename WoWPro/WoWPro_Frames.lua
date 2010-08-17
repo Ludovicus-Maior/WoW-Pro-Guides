@@ -234,6 +234,10 @@ function WoWPro.AnchorSet()
 		local hcenter = (left + right) / 2
 		
 		WoWPro.AnchorFrame:ClearAllPoints()
+
+		if not WoWProDB.profile.anchorpoint then
+			WoWProDB.profile.anchorpoint = "TOPLEFT"
+		end
 		
 		if WoWProDB.profile.anchorpoint == "TOPLEFT" then
 			WoWPro.AnchorFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
