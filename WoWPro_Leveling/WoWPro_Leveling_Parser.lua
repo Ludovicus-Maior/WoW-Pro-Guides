@@ -123,6 +123,7 @@ end
 function WoWPro_Leveling:RowUpdate()
 	local stickycount = 0
 	local reload = false
+	local lootcheck = true
 	local i, k = 1, 1
 	
 	while i <= 15 do if not WoWProDB.char.guide[GID].completion[k] then
@@ -309,7 +310,8 @@ function WoWPro_Leveling:RowUpdate()
 	
 		-- Checking for loot items in bags --
 		local lootqtyi
-		if lootitem or action == "B" then
+		if lootcheck and ( lootitem or action == "B" ) then
+			if not WoWPro.stickies[index] then lootcheck = false end
 			if not lootitem then
 				if GetItemCount(lootitem) > 0 then return WoWPro.CompleteStep(k) end
 			end
@@ -534,10 +536,12 @@ end
 
 -- Auto-Complete: Loot based --
 function WoWPro_Leveling:AutoCompleteLoot(msg)
-	local lootqtyi
+	local lootqtyi, lootcheck
 	local _, _, itemid, name = msg:find(L["^You .*Hitem:(%d+).*(%[.+%])"])
 	for i = 1,15 do
 		local index = WoWPro.rows[i].index
+		if not lootcheck then break end
+		if not WoWPro.stickies[index] then lootcheck = false end
 		if WoWPro.lootitem[index] or WoWPro.actions[index] == "B" then
 			if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
 			if (WoWPro.actions[index] == "B" and name and name == WoWPro.steps[index])
