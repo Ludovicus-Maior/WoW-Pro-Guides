@@ -144,13 +144,37 @@ function WoWPro.RowSizeSet()
 	local space = WoWProDB.profile.space
 	local pad = WoWProDB.profile.pad
 	local stickycount = 0
+	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
+	
+	for i,row in ipairs(WoWPro.rows) do
+		-- Counting stickies --
+		if WoWPro.stickies and WoWPro.stickies[row.index] and i == stickycount + 1 then
+			stickycount = stickycount+1
+		end
+		
+		-- Hiding the row if it's past the set number of steps --
+		if WoWProDB.profile.autoresize then
+			if i <= WoWProDB.profile.numsteps + stickycount then
+				biggeststep = ceil(max(biggeststep,row.step:GetStringWidth()))
+			end
+		end
+	end
+	
+	-- Auto Resizing - Horizontal --
+	if WoWProDB.profile.autoresize and biggeststep and biggeststep ~= 0 then
+		local extraw = WoWPro.MainFrame:GetWidth()
+		local totalw = biggeststep + 50 + pad*2
+		if WoWPro.Titlebar:IsShown() then totalw = max(totalw,ceil(WoWPro.TitleText:GetStringWidth()+pad*2+10),150) end
+		WoWPro.MainFrame:SetWidth(totalw)
+	end
+
 	for i,row in ipairs(WoWPro.rows) do
 		row.check:SetPoint("TOPLEFT", 1, -space)
 		
 		-- Setting the note frame size correctly, setting up mouseover notes --
 		local newh, noteh, trackh
-		if WoWProDB.profile.noteshow and row.note:GetText() ~= "" then
+		if WoWProDB.profile.noteshow and (WoWPro.notes[row.index] or (WoWPro.maps[row.index] and WoWProDB.profile.showcoords)) then
 			noteh = 1
 			row.note:Hide()
 			WoWPro.mousenotes[i].note:SetText(row.note:GetText())
@@ -183,13 +207,8 @@ function WoWPro.RowSizeSet()
 		newh = noteh + trackh + max(row.step:GetHeight(),row.action:GetHeight()) + space*2 +3
 		row:SetHeight(newh)
 		
-		-- Counting stickies --
-		if WoWPro.stickies and WoWPro.stickies[row.index] and i == stickycount + 1 then
-			stickycount = stickycount+1
-		end
-		
 		-- Hiding the row if it's past the set number of steps --
-		if WoWProDB.profile.mannumsteps then
+		if WoWProDB.profile.autoresize then
 			if i <= WoWProDB.profile.numsteps + stickycount then
 				totalh = totalh + newh
 				row:Show()
@@ -205,8 +224,16 @@ function WoWPro.RowSizeSet()
 		end
 	end
 	
-	-- Manual number of Steps --
-	if WoWProDB.profile.mannumsteps then
+	if stickycount >= 1 then
+		WoWPro.StickyFrame:Show()
+		WoWPro.StickyFrame:SetHeight(WoWPro.StickyTitle:GetHeight())
+	else
+		WoWPro.StickyFrame:Hide()
+		WoWPro.StickyFrame:SetHeight(1)
+	end
+	
+	-- Auto Resizing - Vertical --
+	if WoWProDB.profile.autoresize then
 		local titleheight = 0
 		if WoWPro.Titlebar:IsShown() then titleheight = WoWPro.Titlebar:GetHeight() end
 		local totalh = totalh + pad*2 + WoWPro.StickyFrame:GetHeight() + titleheight
