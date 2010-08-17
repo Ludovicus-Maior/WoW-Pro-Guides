@@ -308,7 +308,8 @@ function WoWPro_Leveling:RowUpdate()
 		else row.itembutton:Hide() end
 		
 		-- Setting the zone for the coordinates of the step --
-		if zone then row.zone = zone else row.zone = WoWPro.loadedguide["zone"] end
+		if zone then row.zone = zone 
+		else row.zone = strtrim(strsplit("(",(strsplit("-",WoWPro.loadedguide["zone"])))) end
 	
 		-- Checking for loot items in bags --
 		local lootqtyi
