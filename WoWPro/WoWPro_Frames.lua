@@ -150,7 +150,7 @@ function WoWPro.RowSizeSet()
 		
 		-- Setting the note frame size correctly, setting up mouseover notes --
 		local newh, noteh, trackh
-		if WoWProDB.profile.noteshow and WoWPro.notes[row.index] ~= "" and WoWPro.notes[row.index] then
+		if WoWProDB.profile.noteshow and row.note:GetText() ~= "" then
 			noteh = 1
 			row.note:Hide()
 			WoWPro.mousenotes[i].note:SetText(row.note:GetText())

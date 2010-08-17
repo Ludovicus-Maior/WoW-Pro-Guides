@@ -188,6 +188,8 @@ function WoWPro_Leveling:RowUpdate()
 		row.step:SetText(step)
 		if step then row.check:Show() else row.check:Hide() end
 		if WoWProDB.profile.showcoords and coord and note then note = note.." ("..coord..")" end
+		if WoWProDB.profile.showcoords and coord and not note then note = "("..coord..")" end
+		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
 		row.note:SetText(note)
 		row.action:SetTexture(WoWPro_Leveling.actiontypes[action])
 		

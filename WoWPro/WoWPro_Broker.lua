@@ -57,12 +57,12 @@ function WoWPro:UpdateGuide()
 	
 	-- Setting module-specific updates --
 	if WoWPro.loadedguide["guidetype"] == "Leveling" and WoWPro_Leveling:IsEnabled() then
-		function WoWPro.RowContentUpdate()
+		function WoWPro:RowContentUpdate()
 			WoWPro_Leveling:RowUpdate()
 			WoWPro_Leveling:UpdateQuestTracker()
 		end
 	else	
-		function WoWPro.RowContentUpdate() end
+		function WoWPro:RowContentUpdate() end
 	end
 	
 	-- Stopping update if module isn't enabled --
@@ -73,7 +73,7 @@ function WoWPro:UpdateGuide()
 	while reload do reload = WoWPro.RowContentUpdate() end
 	
 	-- Update content and formatting --
-	WoWPro.RowSet()
+	WoWPro:RowSet()
 	WoWPro:PaddingSet()
 	
 	-- Updating the guide list or current guide panels if they are shown --
