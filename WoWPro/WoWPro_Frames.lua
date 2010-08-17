@@ -214,6 +214,8 @@ function WoWPro.RowSizeSet()
 	end
 end
 function WoWPro.AnchorSet()
+	local w = WoWPro.Titlebar:GetWidth()
+	local h = WoWPro.Titlebar:GetHeight()
 	for i,row in ipairs(WoWPro.rows) do
 		if GetSide(WoWPro.MainFrame) == "RIGHT" then
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
@@ -224,26 +226,39 @@ function WoWPro.AnchorSet()
 		end
 	end
 	WoWPro.MainFrame:SetScript("OnUpdate", function()
-		if WoWProDB.profile.growup then
-			local bottom = WoWPro.MainFrame:GetBottom()
-			local left = WoWPro.MainFrame:GetLeft()
-			WoWPro.AnchorFrame:ClearAllPoints()
-			WoWPro.AnchorFrame:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom)
-		else
-			local top = WoWPro.MainFrame:GetTop()
-			local left = WoWPro.MainFrame:GetLeft()
-			WoWPro.AnchorFrame:ClearAllPoints()
+		local top = WoWPro.MainFrame:GetTop()
+		local bottom = WoWPro.MainFrame:GetBottom()
+		local vcenter = ( top + bottom ) / 2
+		local left = WoWPro.MainFrame:GetLeft()
+		local right = WoWPro.MainFrame:GetRight()
+		local hcenter = (left + right) / 2
+		
+		WoWPro.AnchorFrame:ClearAllPoints()
+		
+		if WoWProDB.profile.anchorpoint == "TOPLEFT" then
 			WoWPro.AnchorFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
+		elseif WoWProDB.profile.anchorpoint == "TOP" then
+			WoWPro.AnchorFrame:SetPoint("TOP", UIParent, "BOTTOMLEFT", hcenter, top)
+		elseif WoWProDB.profile.anchorpoint == "TOPRIGHT" then
+			WoWPro.AnchorFrame:SetPoint("TOPRIGHT", UIParent, "BOTTOMLEFT", right, top)
+		elseif WoWProDB.profile.anchorpoint == "LEFT" then
+			WoWPro.AnchorFrame:SetPoint("LEFT", UIParent, "BOTTOMLEFT", left, vcenter)
+		elseif WoWProDB.profile.anchorpoint == "CENTER" then
+			WoWPro.AnchorFrame:SetPoint("CENTER", UIParent, "BOTTOMLEFT", hcenter, vcenter)
+		elseif WoWProDB.profile.anchorpoint == "RIGHT" then
+			WoWPro.AnchorFrame:SetPoint("RIGHT", UIParent, "BOTTOMLEFT", right, vcenter)
+		elseif WoWProDB.profile.anchorpoint == "BOTTOMLEFT" then
+			WoWPro.AnchorFrame:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom)
+		elseif WoWProDB.profile.anchorpoint == "BOTTOM" then
+			WoWPro.AnchorFrame:SetPoint("BOTTOM", UIParent, "BOTTOMLEFT", hcenter, bottom)
+		elseif WoWProDB.profile.anchorpoint == "BOTTOMRIGHT" then
+			WoWPro.AnchorFrame:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMLEFT", right, bottom)
 		end
 		
-		WoWPro.AnchorFrame:SetWidth(WoWPro.Titlebar:GetWidth())
-		WoWPro.AnchorFrame:SetHeight(WoWPro.Titlebar:GetHeight())
+		WoWPro.AnchorFrame:SetWidth(w)
+		WoWPro.AnchorFrame:SetHeight(h)
 		WoWPro.MainFrame:SetScript("OnUpdate", function()
-			if WoWProDB.profile.growup then
-				WoWPro.MainFrame:SetPoint("BOTTOMLEFT", WoWPro.AnchorFrame, "BOTTOMLEFT")
-			else
-				WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
-			end
+			WoWPro.MainFrame:SetPoint(WoWProDB.profile.anchorpoint, WoWPro.AnchorFrame, WoWProDB.profile.anchorpoint)
 			WoWPro.MainFrame:SetScript("OnUpdate", function() end)
 		end)
 	end)

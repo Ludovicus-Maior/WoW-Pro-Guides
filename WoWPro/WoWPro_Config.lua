@@ -34,58 +34,30 @@ local function CreateDisplayConfig()
 						desc = L["Enables the guide window to be moved by clicking anywhere on it and dragging"],
 						get = function(info) return WoWProDB.profile.drag end,
 						set = function(info,val) WoWProDB.profile.drag = val 
-							WoWPro.DragSet() end
-					},   
-					resize = {
+							WoWPro.DragSet() end,
+					},  
+					anchorpoint = {
 						order = 3,
-						type = "toggle",
-						name = L["Enable Resize"],
-						desc = L["Enables the guide window to be resized using the drag handle in the lower right corner"],
-						get = function(info) return WoWProDB.profile.resize end,
-						set = function(info,val) WoWProDB.profile.resize = val
-							if val then WoWProDB.profile.mannumsteps = nil end
-							WoWPro.ResizeSet() end
-					},
-					titlebar = {
-						order = 4,
-						type = "toggle",
-						name = L["Enable Title Bar"],
-						desc = L["Enables/disables the title bar attached to the guide window."],
-						get = function(info) return WoWProDB.profile.titlebar end,
-						set = function(info,val) WoWProDB.profile.titlebar = val 
-							WoWPro.TitlebarSet(); WoWPro.PaddingSet() end
-					},
-					titlecolor = {
-						order = 5,
-						type = "color",
-						name = L["Title Bar Color"],
-						desc = L["Background color for the title bar."],
-						hasAlpha = true,
-						get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
-						set = function(info,r,g,b,a) 
-							WoWProDB.profile.titlecolor = {r,g,b,a}
-							WoWPro.TitlebarSet() end
-					},
-					noteshow = {
-						order = 6,
-						type = "toggle",
-						name = L["Mouseover Notes"],
-						desc = L["Show notes on mouseover instead of always displaying them."],
-						get = function(info) return WoWProDB.profile.noteshow end,
-						set = function(info,val) WoWProDB.profile.noteshow = val 
-							WoWPro.RowSizeSet() end
-					},
-					minimap = {
-						order = 6,
-						type = "toggle",
-						name = L["Minimap Button"],
-						desc = L["Show/hide WoW-Pro mini map button."],
-						get = function(info) return not WoWProDB.profile.minimap.hide end,
-						set = function(info,val) WoWProDB.profile.minimap.hide = not val 
-							 WoWPro.MinimapSet() end
-					},
+						type = "select",
+						name = L["Anchor Point"],
+						desc = L["Where the window will anchor, growing out from that point as it changes size."],
+						values = {
+								TOPLEFT = "Top Left",
+								TOP = "Top",
+								TOPRIGHT = "Top Right",
+								LEFT = "Left",
+								CENTER = "Center",
+								RIGHT = "Right",
+								BOTTOMLEFT = "Bottom Left",
+								BOTTOM = "Bottom",
+								BOTTOMRIGHT = "Bottom Right"
+							},
+						get = function(info) return WoWProDB.profile.anchorpoint end,
+						set = function(info,val) WoWProDB.profile.anchorpoint = val 
+							WoWPro.AnchorSet() end
+					},  
 					padding = {
-						order = 7,
+						order = 3,
 						type = "range",
 						name = L["Padding"],
 						desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
@@ -95,7 +67,7 @@ local function CreateDisplayConfig()
 							WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
 					},
 					spacing = {
-						order = 8,
+						order = 3,
 						type = "range",
 						name = L["Spacing"],
 						desc = L["Spacing determines how much blank space is left between lines in the guide text. "],
@@ -104,37 +76,26 @@ local function CreateDisplayConfig()
 						set = function(info,val) WoWProDB.profile.space = val
 							WoWPro.RowSizeSet() end
 					},
-					mannumsteps = {
-						order = 9,
+					noteshow = {
+						order = 4,
 						type = "toggle",
-						name = L["Manual Step Number"],
-						desc = L["Allows you to manually set the number of steps displayed. Turns off resize."],
-						get = function(info) return WoWProDB.profile.mannumsteps end,
-						set = function(info,val) WoWProDB.profile.mannumsteps = val 
-							if val then WoWProDB.profile.resize = false end
-							 WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
-					},
-					numsteps = {
-						order = 10,
-						type = "range",
-						name = L["Number of Steps"],
-						desc = L["Number of steps displayed in the guide window. The window is automatically resized to show this number of steps. Does not include sticky steps."],
-						min = 1, max = 15, step = 1,
-						get = function(info) return WoWProDB.profile.numsteps end,
-						set = function(info,val) WoWProDB.profile.numsteps = val
+						name = L["Mouseover Notes"],
+						desc = L["Show notes on mouseover instead of always displaying them."],
+						get = function(info) return WoWProDB.profile.noteshow end,
+						set = function(info,val) WoWProDB.profile.noteshow = val 
 							WoWPro.RowSizeSet() end
-					},     
-					growup = {
-						order = 11,
+					},
+					minimap = {
+						order = 4,
 						type = "toggle",
-						name = L["Grow Up"],
-						desc = L["Causes the guide window to anchor at it's bottom, growing upward."],
-						get = function(info) return WoWProDB.profile.growup end,
-						set = function(info,val) WoWProDB.profile.growup = val 
-							WoWPro.AnchorSet() end
-					},   
+						name = L["Minimap Button"],
+						desc = L["Show/hide WoW-Pro mini map button."],
+						get = function(info) return not WoWProDB.profile.minimap.hide end,
+						set = function(info,val) WoWProDB.profile.minimap.hide = not val 
+							 WoWPro.MinimapSet() end
+					}, 
 					track = {
-						order = 11,
+						order = 4,
 						type = "toggle",
 						name = L["Quest Tracking"],
 						desc = L["Allows tracking of quests in the guide frame"],
@@ -143,7 +104,7 @@ local function CreateDisplayConfig()
 							WoWPro:UpdateGuide() end
 					},    
 					showcoords = {
-						order = 11,
+						order = 4,
 						type = "toggle",
 						name = L["Show Coordinates"],
 						desc = L["Shows the coordinates in the note text."],
@@ -152,13 +113,74 @@ local function CreateDisplayConfig()
 							WoWPro:UpdateGuide() end
 					},     
 					autoload = {
-						order = 11,
+						order = 4,
 						type = "toggle",
 						name = L["Auto-Load Guide"],
 						desc = L["Will automatically load the next guide when you complete one."],
 						get = function(info) return WoWProDB.profile.autoload end,
 						set = function(info,val) WoWProDB.profile.autoload = val end
 					}, 
+					resizeheading = {
+						order = 5,
+						type = "header",
+						name = L["Resize Settings"],
+					}, 
+					resize = {
+						order = 6,
+						type = "toggle",
+						name = L["Manual Resize"],
+						desc = L["Enables the guide window to be resized using the drag handle in the lower right corner"],
+						get = function(info) return WoWProDB.profile.resize end,
+						set = function(info,val) WoWProDB.profile.resize = val
+							if val then WoWProDB.profile.mannumsteps = nil end
+							WoWPro.ResizeSet() end
+					},
+					mannumsteps = {
+						order = 6,
+						type = "toggle",
+						name = L["Auto Resize"],
+						desc = L["Allows you to manually set the number of steps displayed. Turns off manual resize."],
+						get = function(info) return WoWProDB.profile.mannumsteps end,
+						set = function(info,val) WoWProDB.profile.mannumsteps = val 
+							if val then WoWProDB.profile.resize = false end
+							 WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
+					},
+					numsteps = {
+						order = 7,
+						type = "range",
+						name = L["Auto Resize: Number of Steps"],
+						desc = L["Number of steps displayed in the guide window. The window is automatically resized to show this number of steps. Does not include sticky steps."],
+						min = 1, max = 15, step = 1,
+						get = function(info) return WoWProDB.profile.numsteps end,
+						set = function(info,val) WoWProDB.profile.numsteps = val
+							WoWPro.RowSizeSet() end,
+						width = "full"
+					}, 
+					titleheading = {
+						order = 10,
+						type = "header",
+						name = L["Title Bar"],
+					},
+					titlebar = {
+						order = 11,
+						type = "toggle",
+						name = L["Enable Title Bar"],
+						desc = L["Enables/disables the title bar attached to the guide window."],
+						get = function(info) return WoWProDB.profile.titlebar end,
+						set = function(info,val) WoWProDB.profile.titlebar = val 
+							WoWPro.TitlebarSet(); WoWPro.PaddingSet() end
+					},
+					titlecolor = {
+						order = 11,
+						type = "color",
+						name = L["Title Bar Color"],
+						desc = L["Background color for the title bar."],
+						hasAlpha = true,
+						get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
+						set = function(info,r,g,b,a) 
+							WoWProDB.profile.titlecolor = {r,g,b,a}
+							WoWPro.TitlebarSet() end
+					},
 					bgheading = {
 						order = 12,
 						type = "header",
