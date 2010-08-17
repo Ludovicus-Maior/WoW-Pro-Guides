@@ -5,6 +5,8 @@
 local L = WoWPro_Locale
 local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 12, 25, 8, 16
 local offset, rows, shownrows = 0, {}, NUMROWS
+WoWPro_Leveling.CreateCurrentGuideTitle = true
+local title, subtitle
 
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 frame.name = L["Current Guide"]
@@ -13,7 +15,29 @@ frame:Hide()
 
 -- Frame Contents --
 frame:SetScript("OnShow", function()
-	local title, subtitle = LibStub("WoWPro-Heading").new(frame, "WoW-Pro Leveling - "..L["Current Guide"], L["Full transcript of the guide currently loaded."])
+
+	if WoWPro_Leveling.CreateCurrentGuideTitle then
+		title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
+		title:SetPoint("TOPLEFT", 16, -16)
+		title:SetText("WoW-Pro Leveling - "..L["Current Guide"])
+
+		subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+		subtitle:SetHeight(32)
+		subtitle:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -8)
+		subtitle:SetPoint("RIGHT", frame, -32, 0)
+		subtitle:SetNonSpaceWrap(true)
+		subtitle:SetJustifyH("LEFT")
+		subtitle:SetJustifyV("TOP")
+		
+		WoWPro_Leveling.CreateCurrentGuideTitle = false
+	end
+	
+	if WoWProDB.char.currentguide == "NilGuide" then 
+		subtitle:SetText(L["No guide is currently loaded."])
+		return 
+	else
+		subtitle:SetText(L["Full transcript of the guide currently loaded."])
+	end
 
 	local box = LibStub("WoWPro-BG").new(frame)
 	box:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP) 
