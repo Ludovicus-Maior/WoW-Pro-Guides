@@ -21,6 +21,7 @@ function WoWPro_Leveling:OnEnable()
 	end
 	
 	-- Loading Initial Guide --
+	local locClass, engClass = UnitClass("player")
 	if not WoWProDB.char.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
 			Orc = "ZerDur0112", 
@@ -37,6 +38,8 @@ function WoWPro_Leveling:OnEnable()
 			Worgen = "NilGuide",
 		}
 		WoWProDB.char.currentguide = startguides[select(2, UnitRace("player"))]
+	elseif not WoWProDB.char.currentguide and UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
+		WoWProDB.char.currentguide = "JamSca5558";
 	elseif not WoWProDB.char.currentguide then
 		WoWProDB.char.currentguide = "NilGuide"
 	end

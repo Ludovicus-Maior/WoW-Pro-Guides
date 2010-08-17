@@ -183,6 +183,7 @@ A Hellscream's Champion |QID|11916|M|41.3,53.6|
 R Taunka'le Village |QID|11890|N|Talk to Durkot Wolfbrother, he's in the stables SW of Hellscream. Click the text, and you'll get carried to the Village. |M|40.4,54.8|
 
 T Ride to Taunka'le Village |QID|11888|M|77.3,38.5|
+f Taunka'le Village|QID|111888|M|77.75,37.77|Z|Borean Tundra|
 A What Are They Up To? |QID|11890|M|77.3,38.5|
 A Scouting the Sinkholes |QID|11684|M|77.1,37.8|
 T Hellscream's Champion |QID|11916|M|75.9,37.2|
@@ -224,13 +225,13 @@ N Lower Horn Half |QID|11695|QO|Lower Horn Half: 1/1|N|Gurglebobble's Bauble sho
 
 C Patching Up |QID|11894|U|35288|N|Head to the steam vent at . Use the hides on top of the vent.|M|75.85,32.48|
 
-N Things to do... |QID|11899|N| Grab all the spare parts; (2) Kill the Fixxcrank Mechagnomes (loot them) and use the Greatmother's Soulcatcher on their corpse; (3) Use the Sage's Lightning Rod on the robots and kill them (hotkey the rod).|M|1,|
+N Things to do... |QID|11899|N| Grab all the spare parts; (2) Kill the Fixxcrank Mechagnomes (loot them) and use the Greatmother's Soulcatcher on their corpse; (3) Use the Sage's Lightning Rod on the robots and kill them (hotkey the rod).
 C Souls of the Decursed |QID|11899| |U|35401| |N||M|65,23|
 C Weakness to Lightning |QID|11896| |N||M|65,23|
 C Cleaning Up the Pools |QID|11906| |N||M|65,23|
 
 K Chieftan Burblegobble |QID|11695|L|34961|N|He's way south at .|M|68,40|
-N Upper Horn Half |QID|11695|QO|Upper Horn Half: 1/1|N|It's in the pool nearby, again. |M|68.5,40.4|
+N Upper Horn Half |QID|11695|QO|Upper Horn Half: 1/1|N|It's in the pool nearby, again. |M|68,40|
 
 T Cleaning Up the Pools |QID|11906|M|76.9,37.6|
 T Weakness to Lightning |QID|11896|M|77.3,38.5|
@@ -239,37 +240,43 @@ T Patching Up |QID|11894|M|77.5,37.0|
 T Souls of the Decursed |QID|11899|M|77.3,36.9|
 A Defeat the Gearmaster |QID|11909|M|77.3,36.9|
 A Shrouds of the Scourge |QID|11628|M|75.9,37.2|
-h Taunka'le Village|QID|11706|
+H Taunka'le Village|QID|11706|
 T The Horn of Elemental Fury |QID|11695|M|75.6,35.8|
 A The Collapse |QID|11706|M|75.6,35.8|
 
-C The Collapse |QID|11706|U|34968|N|Head to the sinkhole at . Use the horn and kill the Nerubian who shows up.|M|70,37|
+C The Collapse |QID|11706|U|34968|N|Head to the sinkhole at (70,37) Use the horn and kill the Nerubian who shows up.|M|70,37|
 
-C The Sub-Chieftains |QID|11907| |N|In order, the pumping stations are: South Point Station to the NW at , West Point Station to the NW at (60.2,20.4), North Point Station at (65.4,17.5) and Mid Point Station at (63.7,22.5). At each, click the valve and kill the mob that spawns.|M|65.2,28.8|
+K The Sub-Chieftains |QID|11907|QO|The Grinder slain: 1/1|N|South Point Station to the NW at (65.2,28.7)|M|60.2,20.4|
+K The Sub-Chieftains |QID|11907|QO|Twonky slain: 1/1|N|West Point Station to the NW at (60.2,20.4)|M|65.2,28.7|
+K The Sub-Chieftains |QID|11907|QO|ED-210 slain: 1/1|N|North Point Station to the NW at (65.4,17.5)|M|65.4,17.5|
+K The Sub-Chieftains |QID|11907|QO|Max Blasto slain: 1/1|N|Mid Point Station to the NW at (63.7,22.5)|M|63.7,22.5|
+
 C Defeat the Gearmaster |QID|11909| |N|Head to the Fizzcrank Pumping station, and go up (access is from a ramp on the NE side - (65.5,23.1)). Use the manual on the ground and kill the mob when he spawns (64.4,23.4).|M|64.4,23.4|
 
-T Sage Highmesa is Missing |QID|11674| |N|She's way east at .|M|75,23|
-A A Proper Death |QID|11675|M|74.7,23.7|
+T Sage Highmesa is Missing |QID|11674| |N|She's way east at (75,23).|M|74.68,23.67|
+A A Proper Death |QID|11675|M|74.68,23.67|
 
 C Shrouds of the Scourge |QID|11628| |N|Kill Magnataurs and Mammoths to the east. |M|76,22|
 C A Proper Death |QID|11675| |N|Kill Magnataur until you complete the quest.|
 
-T A Proper Death |QID|11675| |N|Back at .|M|75,23|
+T A Proper Death |QID|11675| |N|Back at (74,23).|M|74.68,23.67|
 A Stop the Plague |QID|11677|M|74.7,23.7|
 
-C Stop the Plague |QID|11677|U|34913|N|The cauldron is in a cave to the NE at . Use the seeds on it.|M|78,19|
+C Stop the Plague |QID|11677|U|34913|N|The cauldron is in a cave to the NE at (78,19). Use the seeds on it.|M|78,19|
 
-T Stop the Plague |QID|11677| |N|Back at .|M|75,23|
+T Stop the Plague |QID|11677| |N|Back at (74,23).|M|74.68,23.67|
 A Find Bristlehorn |QID|11678|M|74.7,23.7|
 A Fallen Necropolis |QID|11683|M|74.7,23.7|
 
-T Find Bristlehorn |QID|11678| |N|Head NW to the necropolis, go in the lower entrance on the SW side at . Stay left, the NPC is on a small balcony.|M|69,15|
+C Fallen Necropolis |QID|11683| |N|Kill any undead you still need.|S|M|68.2,17.0|
+T Find Bristlehorn |QID|11678| |N|Head NW to the necropolis, go in the lower entrance on the SW side at (68,15). Stay left, the NPC is on a small balcony.|M|68.56,15.19|
 A The Doctor and the Lich-Lord |QID|11687|M|69.8,12.6|
 
-C The Doctor and the Lich-Lord |QID|11687| |N|Go outside and go around to the back entrance to the necropolis . The Lich is on the outside ring at (69.6,13.9). The Doctor is in the room below, at (69.9,13.3)|M|69.6.12.4,|
-C Fallen Necropolis |QID|11683| |N|Kill any undead you still need.|M|68.2,17.0|
+K The Doctor and the Lich-Lord |QID|11687|QO|Lich-Lord Chillwinter slain: 1/1|N|Go outside and go around to the back entrance to the necropolis . The Lich is on the outside ring at (69.6,13.9)|M|69.6,13.9|
+K The Doctor and the Lich-Lord |QID|11687|QO|Doctor Razorgrin slain: 1/1|N|The Doctor is in the room below, at (69.9,13.3)|M|69.9,13.3|
+C Fallen Necropolis |QID|11683| |N|Kill any undead you still need.|US|M|68.2,17.0|
 
-T Fallen Necropolis |QID|11683| |N|Back at Sage Highmesa, at .|M|75,23|
+T Fallen Necropolis |QID|11683| |N|Back at Sage Highmesa, at (74,23).|M|75,23|
 T The Doctor and the Lich-Lord |QID|11687|M|74.7,23.7|
 A Return with the Bad News |QID|11689|M|74.7,23.7|
 
