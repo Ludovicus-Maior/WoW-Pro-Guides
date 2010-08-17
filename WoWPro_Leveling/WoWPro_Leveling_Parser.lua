@@ -154,7 +154,7 @@ function WoWPro_Leveling:RowUpdate()
 		row.num = i
 		local step = WoWPro.steps[k]
 		local action = WoWPro.actions[k] 
-		local note = WoWPro.notes[k] 
+		local note = WoWPro.notes[k]
 		local QID = WoWPro.QIDs[k] 
 		local coord = WoWPro.maps[k] 
 		local sticky = WoWPro.stickies[k] 
@@ -187,6 +187,7 @@ function WoWPro_Leveling:RowUpdate()
 		-- Getting the image and text for the step --
 		row.step:SetText(step)
 		if step then row.check:Show() else row.check:Hide() end
+		if note then note = strtrim(note) end
 		if WoWProDB.profile.showcoords and coord and note then note = note.." ("..coord..")" end
 		if WoWProDB.profile.showcoords and coord and not note then note = "("..coord..")" end
 		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
@@ -327,14 +328,6 @@ function WoWPro_Leveling:RowUpdate()
 		i = i + 1
 		
 	end k = k + 1 end
-
-	if stickycount >= 1 then
-		WoWPro.StickyFrame:Show()
-		WoWPro.StickyFrame:SetHeight(WoWPro.StickyTitle:GetHeight())
-	else
-		WoWPro.StickyFrame:Hide()
-		WoWPro.StickyFrame:SetHeight(1)
-	end
 
 	return reload
 end

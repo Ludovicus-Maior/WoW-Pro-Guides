@@ -73,7 +73,7 @@ function WoWPro:UpdateGuide()
 	while reload do reload = WoWPro.RowContentUpdate() end
 	
 	-- Update content and formatting --
-	WoWPro:RowSet()
+	WoWPro:RowSet(); WoWPro:RowSet()
 	WoWPro:PaddingSet()
 	
 	-- Updating the guide list or current guide panels if they are shown --

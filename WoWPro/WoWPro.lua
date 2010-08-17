@@ -15,7 +15,7 @@ local defaults = { profile = {
 	drag = true,
 	titlebar = true,
 	border = true,
-	mannumsteps = false,
+	autoresize = false,
 	numsteps = 3,
 	track = true,
 	bgcolor = {0.2, 0.2, 0.2, 0.7},

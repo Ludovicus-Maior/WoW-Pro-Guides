@@ -120,6 +120,11 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.autoload end,
 						set = function(info,val) WoWProDB.profile.autoload = val end
 					}, 
+					blank2 = {
+						order = 5,
+						type = "description",
+						name = " ",
+					},  
 					resizeheading = {
 						order = 5,
 						type = "header",
@@ -128,34 +133,39 @@ local function CreateDisplayConfig()
 					resize = {
 						order = 6,
 						type = "toggle",
-						name = L["Manual Resize"],
-						desc = L["Enables the guide window to be resized using the drag handle in the lower right corner"],
+						name = L["Resize Handle"],
+						desc = L["Enables the guide window to be resized using the resize handle in the lower right corner. \nTurns off auto resizing."],
 						get = function(info) return WoWProDB.profile.resize end,
 						set = function(info,val) WoWProDB.profile.resize = val
-							if val then WoWProDB.profile.mannumsteps = nil end
+							if val then WoWProDB.profile.autoresize = false end
 							WoWPro.ResizeSet() end
 					},
-					mannumsteps = {
+					autoresize = {
 						order = 6,
 						type = "toggle",
 						name = L["Auto Resize"],
-						desc = L["Allows you to manually set the number of steps displayed. Turns off manual resize."],
-						get = function(info) return WoWProDB.profile.mannumsteps end,
-						set = function(info,val) WoWProDB.profile.mannumsteps = val 
+						desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
+						get = function(info) return WoWProDB.profile.autoresize end,
+						set = function(info,val) WoWProDB.profile.autoresize = val 
 							if val then WoWProDB.profile.resize = false end
-							 WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
+							WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
 					},
 					numsteps = {
 						order = 7,
 						type = "range",
 						name = L["Auto Resize: Number of Steps"],
-						desc = L["Number of steps displayed in the guide window. The window is automatically resized to show this number of steps. Does not include sticky steps."],
+						desc = L["Number of steps displayed in the guide window. \nThe window is automatically resized to show this number of steps. \nDoes not include sticky steps."],
 						min = 1, max = 15, step = 1,
 						get = function(info) return WoWProDB.profile.numsteps end,
 						set = function(info,val) WoWProDB.profile.numsteps = val
 							WoWPro.RowSizeSet() end,
 						width = "full"
 					}, 
+					blank3 = {
+						order = 10,
+						type = "description",
+						name = " ",
+					},  
 					titleheading = {
 						order = 10,
 						type = "header",
@@ -168,7 +178,7 @@ local function CreateDisplayConfig()
 						desc = L["Enables/disables the title bar attached to the guide window."],
 						get = function(info) return WoWProDB.profile.titlebar end,
 						set = function(info,val) WoWProDB.profile.titlebar = val 
-							WoWPro.TitlebarSet(); WoWPro.PaddingSet() end
+							WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
 					},
 					titlecolor = {
 						order = 11,
@@ -181,6 +191,11 @@ local function CreateDisplayConfig()
 							WoWProDB.profile.titlecolor = {r,g,b,a}
 							WoWPro.TitlebarSet() end
 					},
+					blank4 = {
+						order = 12,
+						type = "description",
+						name = " ",
+					},  
 					bgheading = {
 						order = 12,
 						type = "header",
@@ -269,6 +284,11 @@ local function CreateDisplayConfig()
 							WoWProDB.profile.stickycolor = {r,g,b,a}
 							WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
 					},
+					blank5 = {
+						order = 19,
+						type = "description",
+						name = " ",
+					},  
 					textheading = {
 						order = 19,
 						type = "header",
