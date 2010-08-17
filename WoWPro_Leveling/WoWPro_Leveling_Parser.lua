@@ -355,6 +355,7 @@ function WoWPro_Leveling:EventHandler(self, event, ...)
 	-- Receiving the result of the completed quest query --
 	if event == "QUEST_QUERY_COMPLETE" then
 		GetQuestsCompleted(WoWProDB.char.guide.completedQIDs)
+		WoWPro.UpdateGuide()
 	end
 		
 	-- Noting that a quest is being completed for quest log update events --

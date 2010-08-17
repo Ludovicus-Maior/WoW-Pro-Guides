@@ -139,7 +139,7 @@ function WoWPro:RegisterEvents()
 			end
 		end
 		
-		-- Unlocking guide frame when leaving combat --
+		-- Updating party-dependant options --
 		if event == "PARTY_MEMBERS_CHANGED" then
 			WoWPro:UpdateGuide() 
 		end

@@ -99,12 +99,12 @@ function WoWPro:OnDisable()
 end
 
 -- fixes the issue with InterfaceOptionsFrame_OpenToCategory not actually opening the Category (and not even scrolling to it)
-	do
-	doNotRun = false
+do
+	WoWPro.CategoryFixDoNotRun = false
 	local function InterfaceOptionsFrame_OpenToCategory_Fix(panel)
 		if InCombatLockdown() then return end
-		if doNotRun then
-			doNotRun = false
+		if WoWPro.CategoryFixDoNotRun then
+			WoWPro.CategoryFixDoNotRun = false
 			return
 		end
 		local cat = _G['INTERFACEOPTIONS_ADDONCATEGORIES']
@@ -146,7 +146,7 @@ end
 		end
 		local Smin, Smax = InterfaceOptionsFrameAddOnsListScrollBar:GetMinMaxValues()
 		InterfaceOptionsFrameAddOnsListScrollBar:SetValue((Smax/(shownpanels-15))*(mypanel-2))
-		doNotRun = true
+		WoWPro.CategoryFixDoNotRun = true
 		InterfaceOptionsFrame_OpenToCategory(panel)
 	end
 	hooksecurefunc("InterfaceOptionsFrame_OpenToCategory", function(panel) return InterfaceOptionsFrame_OpenToCategory_Fix(panel) end)
