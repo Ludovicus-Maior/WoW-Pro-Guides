@@ -278,6 +278,10 @@ function WoWPro.AnchorSet()
 		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 		
 		WoWPro.AnchorFrame:ClearAllPoints()
+
+		if not WoWProDB.profile.anchorpoint then
+			WoWProDB.profile.anchorpoint = "TOPLEFT"
+		end
 		
 		if anchorpoint == "TOPLEFT" then
 			WoWPro.AnchorFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
