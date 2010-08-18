@@ -531,21 +531,18 @@ end
 
 -- Auto-Complete: Loot based --
 function WoWPro_Leveling:AutoCompleteLoot(msg)
-	local lootqtyi, lootcheck
+	local lootqtyi
 	local _, _, itemid, name = msg:find(L["^You .*Hitem:(%d+).*(%[.+%])"])
-	for i = 1,15 do
+	local _, _, _, _, count = msg:find(L["^You .*Hitem:(%d+).*(%[.+%]).*x(%d+)."])
+	if count == nil then count = 1 end
+	for i = 1,1+WoWPro.StickyCount do
 		local index = WoWPro.rows[i].index
-		if not lootcheck then break end
-		if not WoWPro.stickies[index] then lootcheck = false end
-		if WoWPro.lootitem[index] or WoWPro.actions[index] == "B" then
-			if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
-			if (WoWPro.actions[index] == "B" and name and name == WoWPro.steps[index])
-				or (WoWPro.actions[index] == "B" or WoWPro.actions[index] == "K" or WoWPro.actions[index] == "N") 
-				and WoWPro.lootitem[index] and itemid == WoWPro.lootitem[index] 
-				and GetItemCount(WoWPro.lootitem[index]) >= lootqtyi then
-					WoWPro.CompleteStep(index)
-			end
+		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
+		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index]) + count >= lootqtyi then
+			WoWPro.CompleteStep(index)
 		end
+	end
+	for i = 1,15 do
 	end
 end
 			

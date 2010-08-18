@@ -114,11 +114,13 @@ A Cookie's Jumbo Gumbo |QID|9512|M|46.7,70.5|
 C Cookie's Jumbo Gumbo |QID|9512|S|N|Kill crawlers for Skittering Crawler Meat.|
 C A Small Start |QID|9506| |N|Inside the Venture Co. camp get the map and the compass.|M|58.61,66.38;59.55, 67.66|
 C Cookie's Jumbo Gumbo |QID|9512|US|N|Follow the shore east to  while killing crawlers for Skittering Crawler Meat.|M|58,67|
-T A Small Start |QID|9506| |N|Head back to Odesyus' Landing.|M|47.0,70.2|
+T A Small Start |QID|9506| |N|Head back to Odesyus' Landing.|
 A I've Got a Plant |QID|9530|M|47.0,70.2|
 T Cookie's Jumbo Gumbo |QID|9512|M|46.7,70.5|
 A Reclaiming the Ruins |QID|9513|M|47.0,70.2|
 A Precious and Fragile Things Need Special Handling |QID|9523|M|47.2,70.0|
+
+C I've Got a Plant |QID|9530|S|N|Look for piles of leaves and tree trunks.|
 
 C The Great Moongraze Hunt  |QID|9454|US|N|Kill the needed Moongraze Stags and Root Trappers on your way north. They can be found next to the road.|M|48.52,55.63|
 C Medicinal Purpose |QID|9463|US|N|Kill the needed Root Trappers on the way north. They can be found next to the road.|M|48.52,55.63|
@@ -131,13 +133,13 @@ T The Great Moongraze Hunt  |QID|9454|M|49.8,51.9|
 A The Great Moongraze Hunt  |QID|10324|M|49.8,51.9|
 N Sell junk and repair |QID|9530| |N|At Kioni |M|49.69,52.75|
 
-N Note! |QID|9530| |N|From now on, loot any Piles of Leaves and Azure Snapdragon Bulbs you come across until you have five of each.|
+C An Alternative Alternative |QID|9473|S|N|Look for Azure Snapdragon Bulbs.|
 
-C Precious and Fragile Things Need Special Handling |QID|9523| |N|Go to the Wrathscale Point  and collect Ancient Relics. Also kill any Naga you come across for Reclaiming the Ruins|M|35,75|
+C Precious and Fragile Things Need Special Handling |QID|9523| |N|Go to the Wrathscale Point and collect Ancient Relics. Also kill any Naga you come across for Reclaiming the Ruins|M|35,75|
 C Reclaiming the Ruins |QID|9513| |N|Kill any Naga you still need for this quest.|
 A Rune Covered Tablet |QID|9514| |N|The tablet should drop off the naga while you're killing them.| |U|23759|M|36.1,77.0|
 
-C I've Got a Plant |QID|9530| |N|Move towards Odesyus' Landing . There you will find hollow trees. Loot the remaining Piles of Leaves.|M|45.43,66.20|
+C I've Got a Plant |QID|9530|US|N|Move towards Odesyus' Landing . There you will find hollow trees. Loot the remaining Piles of Leaves.|M|45.43,66.20|
 
 T I've Got a Plant |QID|9530|M|47.0,70.2|
 A Tree's Company |QID|9531|M|47.0,70.2|
@@ -146,8 +148,8 @@ T Rune Covered Tablet |QID|9514|M|47.0,70.2|
 T Precious and Fragile Things Need Special Handling |QID|9523|M|47.2,70.0|
 A Warlord Sriss'tiz |QID|9515| |N|Wait a moment until the dialog is finished.|M|47.0,70.2|
 
-C An Alternative Alternative |QID|9473| |N|Go back to Azure Watch  while collecting the remaining Azure Snapdragon Bulbs.|M|48.72,53.81|
-R Azure Watch| |QID|9473| |N|Go back to Azure Watch .|M|48.72,53.81|
+C An Alternative Alternative |QID|9473|US|N|Go back to Azure Watch  while collecting the remaining Azure Snapdragon Bulbs.|M|48.72,53.81|
+R Azure Watch| |QID|9473|M|48.72,53.81|
 
 T An Alternative Alternative |QID|9473|M|48.4,51.8|
 A The Missing Fisherman |QID|10428|M|49.0,51.1|
@@ -158,13 +160,13 @@ T Learning the Language |QID|9538|M|49.4,51.0|
 A Totem of Coo |QID|9539|M|49.4,51.0|
 T Totem of Coo |N|Follow Stillpine Ancenstor Akida up the hill to the northeast.| |QID|9539|M|55.2,41.6|
 A Totem of Tikti |QID|9540|M|55.2,41.6|
-T Totem of Tikti |N|Jump off the cliff to the east, then keep running east until you cross the river, at .| |QID|9540|M|64,39|
+T Totem of Tikti |N|Jump off the cliff to the east, then keep running east until you cross the river.| |QID|9540|M|64,39|
 A Totem of Yor |QID|9541|M|64.5,39.8|
-T Totem of Yor |N|Walk into the water, then swim south to the southern estuary, at .| |QID|9541|M|63,67|
+T Totem of Yor |N|Walk into the water, then swim south to the southern estuary.| |QID|9541|M|63,67|
 A Totem of Vark |QID|9542|M|63.0,67.9|
-T Totem of Vark |N|Wait until the furbolg casts the runspeed buff on you, then don't bother waiting and run straight to Bristlelimb Village at .| |QID|9542|M|28,62|
+T Totem of Vark |N|Wait until the furbolg casts the runspeed buff on you, then don't bother waiting and run straight to Bristlelimb Village.| |QID|9542|M|28,62|
 A The Prophecy of Akida |QID|9544|M|28.1,62.4|
-C The Prophecy of Akida |N|Kill Bristlelimb Furbolgs in the camp and get the keys off them. Use them to unlock 8 cages.| |QID|9544|M|28.5,66.4|
+C The Prophecy of Akida |N|Right click your buff to return to the normal world. Kill Bristlelimb Furbolgs in the camp and get the keys off them. Use them to unlock 8 cages.| |QID|9544|M|28.5,66.4|
 
 C The Great Moongraze Hunt  |QID|10324| |N|In the woods northeast , kill Moongraze Bucks and Infected Nightstalkers for a Faintly Glowing Crystal.|M|30.94,56.87|
 N Find a Faintly Glowing Crystal.| |QID|9455| |L|23678| |N|Keep killing Infected Nightstalkers until one of them drops a Faintly Glowing Crystal.|

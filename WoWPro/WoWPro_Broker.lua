@@ -71,6 +71,7 @@ function WoWPro:UpdateGuide()
 	local reload = true
 	-- Reloading until all stickies that need to unsticky have done so --
 	while reload do reload = WoWPro.RowContentUpdate() end
+	WoWPro.RowContentUpdate()
 	
 	-- Update content and formatting --
 	WoWPro:RowSet(); WoWPro:RowSet()
