@@ -147,19 +147,19 @@ function WoWPro.RowSizeSet()
 -- Row-Specific Customization --
 	local space = WoWProDB.profile.space
 	local pad = WoWProDB.profile.pad
-	local stickycount = 0
+	WoWPro.StickyCount = 0
 	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
 	
 	for i,row in ipairs(WoWPro.rows) do
 		-- Counting stickies --
-		if WoWPro.stickies and WoWPro.stickies[row.index] and i == stickycount + 1 then
-			stickycount = stickycount+1
+		if WoWPro.stickies and WoWPro.stickies[row.index] and i == WoWPro.StickyCount + 1 then
+			WoWPro.StickyCount = WoWPro.StickyCount+1
 		end
 		
 		-- Hiding the row if it's past the set number of steps --
 		if WoWProDB.profile.autoresize then
-			if i <= WoWProDB.profile.numsteps + stickycount then
+			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
 				biggeststep = ceil(max(biggeststep,row.step:GetStringWidth()))
 				if WoWProDB.profile.track and row.trackcheck then
 					biggeststep = ceil(max(biggeststep,row.track:GetStringWidth()))
@@ -217,7 +217,7 @@ function WoWPro.RowSizeSet()
 		
 		-- Hiding the row if it's past the set number of steps --
 		if WoWProDB.profile.autoresize then
-			if i <= WoWProDB.profile.numsteps + stickycount then
+			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
 				totalh = totalh + newh
 				row:Show()
 			else
@@ -236,7 +236,7 @@ function WoWPro.RowSizeSet()
 		end
 	end
 	
-	if stickycount >= 1 then
+	if WoWPro.StickyCount >= 1 then
 		WoWPro.StickyFrame:Show()
 		WoWPro.StickyFrame:SetHeight(WoWPro.StickyTitle:GetHeight())
 	else

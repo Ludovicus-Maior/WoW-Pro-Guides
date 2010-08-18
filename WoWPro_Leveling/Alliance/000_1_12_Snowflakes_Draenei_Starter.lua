@@ -69,6 +69,7 @@ T The Blood Elves |QID|10303|M|72.0,60.8|
 
 A Blood Elf Spy |QID|9311|M|72.0,60.8|
 C Blood Elf Spy |QID|9311| |N|Find her in front of a tent at the top of the ridge. |M|69.27,65.72|
+N Blood Elf Plans |QID|9798| |N|Loot Surveyor Candress's body to get the attack plans.| |L|24414|M|69.3,65.7|
 A Blood Elf Plans |QID|9798| |N|Starts from a drop from Surveyor Candress.| |U|24414|M|69.3,65.7|
 T Blood Elf Spy |QID|9311| |N|Back at the Crash Site.|M|79.5,51.4|
 T Blood Elf Plans |QID|9798|M|79.5,51.4|
@@ -101,21 +102,26 @@ N Visit class trainer |C|Warrior|M|50.02,50.52|
 N Visit class trainer |C|Hunter|M|49.78,51.93|
 
 N Note!| |QID|9616| |N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
-R Odesyus' Landing| |QID|9454| |N|Kill as many Moongraze Stags and Root Trappers as possible on the way south. They can be found next to the road.|M|46,70|
+
+C The Great Moongraze Hunt  |QID|9454| |N|Kill Moongraze Stags.|S|
+C Medicinal Purpose |QID|9463| |N|Kill Root Trappers.|S|
+
+R Odesyus' Landing| |QID|9454| |N|Kill Moongraze Stags and Root Trappers on the way, they are found near the road in the forest.|M|46,70|
 
 A A Small Start |QID|9506|M|47.0,70.2|
 A Cookie's Jumbo Gumbo |QID|9512|M|46.7,70.5|
 
-C A Small Start |QID|9506| |N|Inside the Venture Co. camp get the map at  and the compass at (59.55, 67.66). Kill crawlers for Skittering Crawler Meat along the way|M|58.61,66.38|
-C Cookie's Jumbo Gumbo |QID|9512| |N|Follow the shore east to  while killing crawlers for Skittering Crawler Meat.|M|58,67|
+C Cookie's Jumbo Gumbo |QID|9512|S|N|Kill crawlers for Skittering Crawler Meat.|
+C A Small Start |QID|9506| |N|Inside the Venture Co. camp get the map and the compass.|M|58.61,66.38;59.55, 67.66|
+C Cookie's Jumbo Gumbo |QID|9512|US|N|Follow the shore east to  while killing crawlers for Skittering Crawler Meat.|M|58,67|
 T A Small Start |QID|9506| |N|Head back to Odesyus' Landing.|M|47.0,70.2|
 A I've Got a Plant |QID|9530|M|47.0,70.2|
 T Cookie's Jumbo Gumbo |QID|9512|M|46.7,70.5|
 A Reclaiming the Ruins |QID|9513|M|47.0,70.2|
 A Precious and Fragile Things Need Special Handling |QID|9523|M|47.2,70.0|
 
-C The Great Moongraze Hunt  |QID|9454| |N|Kill the needed Moongraze Stags and Root Trappers on your way north to . They can be found next to the road.|M|48.52,55.63|
-C Medicinal Purpose |QID|9463| |N|Kill the needed Root Trappers on the way north to . They can be found next to the road.|M|48.52,55.63|
+C The Great Moongraze Hunt  |QID|9454|US|N|Kill the needed Moongraze Stags and Root Trappers on your way north. They can be found next to the road.|M|48.52,55.63|
+C Medicinal Purpose |QID|9463|US|N|Kill the needed Root Trappers on the way north. They can be found next to the road.|M|48.52,55.63|
 
 R Azure Watch |QID|9463| |N||M|48.83,53.16|
 

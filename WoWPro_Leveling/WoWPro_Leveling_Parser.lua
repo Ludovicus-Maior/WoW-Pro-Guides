@@ -323,7 +323,6 @@ function WoWPro_Leveling:RowUpdate()
 			if GetItemCount(lootitem) >= lootqtyi then return WoWPro.CompleteStep(k) end
 		end
 
-		
 		WoWPro.rows[i] = row
 		i = i + 1
 		
@@ -567,7 +566,7 @@ end
 
 -- Auto-Complete: Zone based --
 function WoWPro_Leveling:AutoCompleteZone()
-	local currentindex = WoWPro.rows[1].index
+	local currentindex = WoWPro.rows[1+WoWPro.StickyCount].index
 	local action = WoWPro.actions[currentindex]
 	local step = WoWPro.steps[currentindex]
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
