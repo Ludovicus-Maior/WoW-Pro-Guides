@@ -42,6 +42,7 @@ local function CreateDisplayConfig()
 						name = L["Anchor Point"],
 						desc = L["Where the window will anchor, growing out from that point as it changes size."],
 						values = {
+								AUTO = "Auto",
 								TOPLEFT = "Top Left",
 								TOP = "Top",
 								TOPRIGHT = "Top Right",
@@ -159,7 +160,27 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.numsteps end,
 						set = function(info,val) WoWProDB.profile.numsteps = val
 							WoWPro.RowSizeSet() end,
-						width = "full"
+						width = "double"
+					}, 
+					minresizeh = {
+						order = 7,
+						type = "range",
+						name = L["Min Resize - Horiz"],
+						desc = L["Minimum horizontal pixel size the guide window can be set to."],
+						min = 50, max = 1000, step = 10,
+						get = function(info) return WoWProDB.profile.hminresize end,
+						set = function(info,val) WoWProDB.profile.hminresize = val
+							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
+					}, 
+					minresizev = {
+						order = 7,
+						type = "range",
+						name = L["Min Resize - Vert"],
+						desc = L["Minimum vertical pixel size the guide window can be set to."],
+						min = 50, max = 1000, step = 10,
+						get = function(info) return WoWProDB.profile.vminresize end,
+						set = function(info,val) WoWProDB.profile.vminresize = val
+							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
 					}, 
 					blank3 = {
 						order = 10,

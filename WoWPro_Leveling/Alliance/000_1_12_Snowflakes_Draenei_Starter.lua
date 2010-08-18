@@ -6,8 +6,9 @@ T You Survived! |QID|9279| |N|Further southwest at the crash site.|M|80.4,45.9|
 A Replenishing the Healing Crystals |QID|9280|M|80.4,45.9|
 A Volatile Mutations |QID|10302|M|79.1,46.5|
 
-C Volatile Mutations |QID|10302| |N|Also kill Vale Moths for Replenishing the Healing Crystals |M|77.85,43.37|
-C Replenishing the Healing Crystals |QID|9280|M|78.6,45.4|
+C Replenishing the Healing Crystals |QID|9280|M|78.6,45.4|S|
+C Volatile Mutations |QID|10302| |M|77.85,43.37|
+C Replenishing the Healing Crystals |QID|9280|M|78.6,45.4|US|
 
 T Volatile Mutations |QID|10302| |N|Back at the camp|M|79.1,46.5|
 A What Must Be Done... |QID|9293|M|79.1,46.5|
@@ -18,7 +19,7 @@ A Urgent Delivery! |QID|9409|M|80.4,45.9|
 T Urgent Delivery! |QID|9409| |N|At Zaldunn inside the building|M|80.1,48.8|
 A Rescue the Survivors! |R|Draenei| |QID|9283|M|80.1,48.8|
 
-T Shaman Training |QID|9421| |C|Shaman| |N|Get your new skills at the trainer. Tick the step off after you completed the quest.|
+T Shaman Training |QID|9421| |C|Shaman| |N|Get your new skills at the trainer. Tick the step off after you completed the quest.|M|79.3,49.1|
 T Priest Training |QID|9291| |C|Priest| |N|Get your new skills at the trainer. Tick the step off after you completed the quest.|
 T Hunter Training |QID|9288| |C|Hunter| |N|Get your new skills at the trainer. Tick the step off after you completed the quest.|
 T Paladin Training |QID|9287| |C|Paladin| |N|Get your new skills at the trainer. Tick the step off after you completed the quest.|
@@ -29,9 +30,10 @@ N Sell junk and repair |QID|9293| |N|At Mura |M|79.19,50.93|
 A Spare Parts |QID|9305|M|79.5,51.4|
 A Inoculation |QID|9303|M|79.5,51.4|
 
-C Rescue the Survivors! |R|Draenei| |QID|9283| |N|Go west to  and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|
-C Botanical Legwork |QID|9799| |N|Collect Corrupted Flowers around  and kill Mutated Root Lashers|M|74.39,49.97|
+C Rescue the Survivors! |R|Draenei| |QID|9283| |N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|
+C Botanical Legwork |QID|9799|M|74.39,49.97|S|N|Collect Corrupted Flowers.|
 C What Must Be Done... |QID|9293| |N|Kill Mutated Root Lashers.|M|74.9,50.4|
+C Botanical Legwork |QID|9799|M|74.39,49.97|US|N|Collect Corrupted Flowers.|
 C Botanical Legwork |QID|9799|M|74.9,50.4|
 T Botanical Legwork |QID|9799| |N|Back at the Crash Site.|M|79.1,46.5|
 T What Must Be Done... |QID|9293|M|79.1,46.5|
@@ -39,9 +41,10 @@ A Healing the Lake |QID|9294|M|79.1,46.5|
 T Rescue the Survivors! |R|Draenei| |QID|9283|M|80.1,48.8|
 N Sell junk and repair |QID|9305| |N|At Mura |M|79.19,50.93|
 
-C Healing the Lake |QID|9294| |N|Head south to the giant crystal at  and right-click it.|M|77,59|
-C Inoculation |QID|9303| |N|Go to the Nestlewood Thicket at  and use your Inoculating Crystal on the non-aggressive owlkin.| |U|22962|M|78,60|
-C Spare Parts |QID|9305| |N|Into the hills, through the cave.  The parts are spread all over the camp.|M|84.51,65.29|
+C Healing the Lake |QID|9294| |N|Head south to the giant crystal and right-click it.|M|77,59|
+C Inoculation |QID|9303| |N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).| |U|22962|M|78,60|S|
+C Spare Parts |QID|9305| |N|Into the hills, through the cave. The parts are spread all over the camp.|M|84.51,65.29|
+C Inoculation |QID|9303| |N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).| |U|22962|M|78,60|US|
 
 H Ammen Vale |QID|9305| |U|6948|
 T Healing the Lake |QID|9294|M|79.1,46.5|
@@ -51,16 +54,16 @@ T Spare Parts |QID|9305|M|79.5,51.4|
 
 N Visit class trainer |QID|9309|
 
-A Call of Earth (Part 1)|C|Shaman| |QID|9449|M|79.3,49.1|
-T Call of Earth (Part 1)|C|Shaman| |QID|9449| |N|Up in the mountains to the northwest, .|M|71.79,40.28|
-A Call of Earth (Part 2)|C|Shaman| |QID|9450|M|71.3,39.0|
-C Call of Earth (Part 2)|C|Shaman| |QID|9450| |N|Kill Restless Spirits of Earth (70.48, 37.06)
-T Call of Earth (Part 2)|C|Shaman| |QID|9450|M|71.3,39.0|
-A Call of Earth (Part 3)|C|Shaman| |QID|9451|M|71.3,39.0|
-T Call of Earth (Part 3)|C|Shaman| |QID|9451| |N|Return to the Crash Site.|M|79.3,49.1|
+A Call of Earth |C|Shaman| |QID|9449|M|79.3,49.1|
+T Call of Earth |C|Shaman| |QID|9449| |N|Up in the mountains to the northwest.|M|71.79,40.28|
+A Call of Earth |C|Shaman| |QID|9450|M|71.3,39.0|
+C Call of Earth |C|Shaman| |QID|9450| |N|Kill Restless Spirits of Earth.|M|70.48,37.06|
+T Call of Earth |C|Shaman| |QID|9450|M|71.3,39.0|
+A Call of Earth |C|Shaman| |QID|9451|M|71.3,39.0|
+T Call of Earth |C|Shaman| |QID|9451| |N|Return to the Crash Site.|M|79.3,49.1|
 
-T The Missing Scout |QID|9309| |N|Southwest, at .|M|72,60|
-A The Blood Elves |QID|10303| |N|Kill Blood Elf Scouts around |M|70.61,63.16|
+T The Missing Scout |QID|9309| |N|Southwest.|M|72,60|
+A The Blood Elves |QID|10303| |N|Kill Blood Elf Scouts.|M|70.61,63.16|
 C The Blood Elves |QID|10303|
 T The Blood Elves |QID|10303|M|72.0,60.8|
 
@@ -74,14 +77,14 @@ T The Emitter |QID|9312|M|79.5,51.4|
 A Travel to Azure Watch |QID|9313|M|79.5,51.4|
 N Sell junk and repair |QID|9452| |N|At Mura |M|79.19,50.93|
 
-A Word from Azure Watch |QID|9314| |N|Go all the way to the west, and through the pass at |M|69,54|
+A Word from Azure Watch |QID|9314| |N|Go all the way to the west, and through the pass.|M|69,54;64.5,54.0|
 A Red Snapper - Very Tasty! |QID|9452|M|61.1,54.2|
-C Red Snapper - Very Tasty! |N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore at . Sometimes, an angry murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.| |QID|9452| |U|23654|M|62.31,55.11|
+C Red Snapper - Very Tasty! |N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an angry murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.| |QID|9452| |U|23654|M|62.31,55.11|
 T Red Snapper - Very Tasty! |QID|9452|M|61.1,54.2|
 A Find Acteon! |QID|9453|M|61.1,54.2|
-R Azure Watch| |QID|9453| |N|Follow the path to |M|51.18,51.67|
+R Azure Watch| |QID|9453| |N|Follow the path.|M|51.18,51.67|
 T Find Acteon! |QID|9453|M|49.8,51.9|
-A The Great Moongraze Hunt (Part 1) |QID|9454|M|49.8,51.9|
+A The Great Moongraze Hunt|QID|9454|M|49.8,51.9|
 T Travel to Azure Watch |QID|9313|M|48.7,50.3|
 T Word from Azure Watch |QID|9314|M|48.3,49.2|
 h Azure Watch| |QID|9506|
@@ -90,15 +93,15 @@ C Help Tavara |C|Priest| |N|Find her at , to the northeast of Azure Watch.| |QID
 T Help Tavara |C|Priest| |QID|9586| |N|Back at Azure Watch.|
 A Medicinal Purpose |QID|9463|M|48.4,51.8|
 
-N Visit class trainer |C|Shaman| |N|At |M|48.05,50.42|
-N Visit class trainer |C|Paladin| |N|At |M|48.36,49.56|
-N Visit class trainer |C|Priest| |N|At |M|46.60,49.29|
-N Visit class trainer |C|Mage| |N|At |M|49.87,49.96|
-N Visit class trainer |C|Warrior| |N|At |M|50.02,50.52|
-N Visit class trainer |C|Hunter| |N|At |M|49.78,51.93|
+N Visit class trainer |C|Shaman|M|48.05,50.42|
+N Visit class trainer |C|Paladin|M|48.36,49.56|
+N Visit class trainer |C|Priest|M|46.60,49.29|
+N Visit class trainer |C|Mage|M|49.87,49.96|
+N Visit class trainer |C|Warrior|M|50.02,50.52|
+N Visit class trainer |C|Hunter|M|49.78,51.93|
 
 N Note!| |QID|9616| |N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
-R Odesyus' Landing| |QID|9454| |N|Kill as many Moongraze Stags and Root Trappers as possible on the way south to . They can be found next to the road.|M|46,70|
+R Odesyus' Landing| |QID|9454| |N|Kill as many Moongraze Stags and Root Trappers as possible on the way south. They can be found next to the road.|M|46,70|
 
 A A Small Start |QID|9506|M|47.0,70.2|
 A Cookie's Jumbo Gumbo |QID|9512|M|46.7,70.5|
@@ -111,15 +114,15 @@ T Cookie's Jumbo Gumbo |QID|9512|M|46.7,70.5|
 A Reclaiming the Ruins |QID|9513|M|47.0,70.2|
 A Precious and Fragile Things Need Special Handling |QID|9523|M|47.2,70.0|
 
-C The Great Moongraze Hunt (Part 1) |QID|9454| |N|Kill the needed Moongraze Stags and Root Trappers on your way north to . They can be found next to the road.|M|48.52,55.63|
+C The Great Moongraze Hunt  |QID|9454| |N|Kill the needed Moongraze Stags and Root Trappers on your way north to . They can be found next to the road.|M|48.52,55.63|
 C Medicinal Purpose |QID|9463| |N|Kill the needed Root Trappers on the way north to . They can be found next to the road.|M|48.52,55.63|
 
 R Azure Watch |QID|9463| |N||M|48.83,53.16|
 
 T Medicinal Purpose |QID|9463|M|48.4,51.8|
 A An Alternative Alternative |QID|9473|M|48.4,51.8|
-T The Great Moongraze Hunt (Part 1) |QID|9454|M|49.8,51.9|
-A The Great Moongraze Hunt (Part 2) |QID|10324|M|49.8,51.9|
+T The Great Moongraze Hunt  |QID|9454|M|49.8,51.9|
+A The Great Moongraze Hunt  |QID|10324|M|49.8,51.9|
 N Sell junk and repair |QID|9530| |N|At Kioni |M|49.69,52.75|
 
 N Note! |QID|9530| |N|From now on, loot any Piles of Leaves and Azure Snapdragon Bulbs you come across until you have five of each.|
@@ -157,7 +160,7 @@ T Totem of Vark |N|Wait until the furbolg casts the runspeed buff on you, then d
 A The Prophecy of Akida |QID|9544|M|28.1,62.4|
 C The Prophecy of Akida |N|Kill Bristlelimb Furbolgs in the camp and get the keys off them. Use them to unlock 8 cages.| |QID|9544|M|28.5,66.4|
 
-C The Great Moongraze Hunt (Part 2) |QID|10324| |N|In the woods northeast , kill Moongraze Bucks and Infected Nightstalkers for a Faintly Glowing Crystal.|M|30.94,56.87|
+C The Great Moongraze Hunt  |QID|10324| |N|In the woods northeast , kill Moongraze Bucks and Infected Nightstalkers for a Faintly Glowing Crystal.|M|30.94,56.87|
 N Find a Faintly Glowing Crystal.| |QID|9455| |L|23678| |N|Keep killing Infected Nightstalkers until one of them drops a Faintly Glowing Crystal.|
 A Strange Findings |N|Start this off the Faintly Glowing Crystal.| |QID|9455| |U|23678|M|50.6,46.2|
 H Azure Watch| |QID|9544| |U|6948|
@@ -196,22 +199,22 @@ N Sell junk and repair |QID|9559| |N|At Kioni |M|49.69,52.75|
 
 A Seek Huntress Kella Nightbow |C|Hunter| |R|Draenei| |QID|9757| |N|This quest line is very important for your hunter. Do it now.|M|49.8,51.9|
 T Seek Huntress Kella Nightbow |C|Hunter| |QID|9757| |N|She's near the dock on the western side of the island.|M|24.2,54.3|
-A Taming the Beast (Part 1) |C|Hunter| |R|Draenei| |QID|9591|M|24.2,54.3|
-C Taming the Beast (Part 1) |C|Hunter| |R|Draenei| |QID|9591| |N|Barbed Crawlers can be found underwater some distance to the south. Around |M|22.5,73.8|
-T Taming the Beast (Part 1) |C|Hunter| |R|Draenei| |QID|9591|M|24.2,54.3|
-A Taming the Beast (Part 2) |C|Hunter| |R|Draenei| |QID|9592|M|24.2,54.3|
-C Taming the Beast (Part 2) |C|Hunter| |R|Draenei| |QID|9592| |N|Greater Timberstriders can be found to the north of the Exodar, on the eastern side of the road. Around |M|38,34|
-T Taming the Beast (Part 2) |C|Hunter| |R|Draenei| |QID|9592|M|24.2,54.3|
-A Taming the Beast (Part 3) |C|Hunter| |R|Draenei| |QID|9593|M|24.2,54.3|
-C Taming the Beast (Part 3) |C|Hunter| |R|Draenei| |QID|9593| |N|Nightstalkers can be found to the north of the Exodar, on both sides of the road. Around |M|37.5,37.6|
-T Taming the Beast (Part 3) |C|Hunter| |R|Draenei| |QID|9593|M|24.2,54.3|
+A Taming the Beast  |C|Hunter| |R|Draenei| |QID|9591|M|24.2,54.3|
+C Taming the Beast  |C|Hunter| |R|Draenei| |QID|9591| |N|Barbed Crawlers can be found underwater some distance to the south. Around |M|22.5,73.8|
+T Taming the Beast  |C|Hunter| |R|Draenei| |QID|9591|M|24.2,54.3|
+A Taming the Beast  |C|Hunter| |R|Draenei| |QID|9592|M|24.2,54.3|
+C Taming the Beast  |C|Hunter| |R|Draenei| |QID|9592| |N|Greater Timberstriders can be found to the north of the Exodar, on the eastern side of the road. Around |M|38,34|
+T Taming the Beast  |C|Hunter| |R|Draenei| |QID|9592|M|24.2,54.3|
+A Taming the Beast  |C|Hunter| |R|Draenei| |QID|9593|M|24.2,54.3|
+C Taming the Beast  |C|Hunter| |R|Draenei| |QID|9593| |N|Nightstalkers can be found to the north of the Exodar, on both sides of the road. Around |M|37.5,37.6|
+T Taming the Beast  |C|Hunter| |R|Draenei| |QID|9593|M|24.2,54.3|
 A Beast Training |C|Hunter| |R|Draenei| |QID|9675|M|24.2,54.3|
 T Beast Training |C|Hunter| |R|Draenei| |QID|9675| |N|Find Ganaar inside the Exodar.|M|44.0,86.7|
 
 A Control |C|Mage| |R|Draenei| |QID|9595|
 A Strength of One |C|Warrior| |R|Draenei| |QID|9582|M|50.0,50.5|
 
-A Call of Fire (Part 1)|C|Shaman| |R|Draenei| |QID|9464|M|48.1,50.4|
+A Call of Fire |C|Shaman| |R|Draenei| |QID|9464|M|48.1,50.4|
 
 R Stillpine Hold |QID|9559| |N| To the north of Azure Watch. |M|46,20|
 T Stillpine Hold |QID|9559|M|46.7,20.6|
@@ -219,8 +222,8 @@ A Beasts of the Apocalypse! |QID|9560|
 A Murlocs... Why Here? Why Now? |QID|9562|M|44.7,23.6|
 C Beasts of the Apocalypse! |QID|9560| |N|Kill Ravagers at the Menagerie Wreckage .|M|54.24,19.36|
 
-T Call of Fire (Part 1)|C|Shaman| |R|Draenei| |QID|9464| |N|Find Temper in Emberglade, to the east of the ravager area, at .|M|59,17|
-A Call of Fire (Part 2)|C|Shaman| |R|Draenei| |QID|9465|M|59.5,18.1|
+T Call of Fire |C|Shaman| |R|Draenei| |QID|9464| |N|Find Temper in Emberglade, to the east of the ravager area, at .|M|59,17|
+A Call of Fire |C|Shaman| |R|Draenei| |QID|9465|M|59.5,18.1|
 
 C Strength of One |C|Warrior| |R|Draenei| |QID|9582| |N|The Death Ravager is to the north of the ravager area, at .|M|53.9,10.1|
 
@@ -236,7 +239,7 @@ T Murlocs... Why Here? Why Now? |QID|9562| |N|Back at Stillpine Hold|M|44.7,23.6
 T Gurf's Dignity |QID|9564|M|44.7,23.6|
 
 C Chieftain Oomooroo |QID|9573| |N|Go into Stillpine Hold  and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo (47.43, 14.18)|M|45.39,18.06|
-C Call of Fire (Part 2)|C|Shaman| |R|Draenei| |QID|9465| |N|Continue killing owlkin until you loot the Ritual Torch.|M|46.1,16.6|
+C Call of Fire |C|Shaman| |R|Draenei| |QID|9465| |N|Continue killing owlkin until you loot the Ritual Torch.|M|46.1,16.6|
 T Chieftain Oomooroo |QID|9573|M|46.9,21.2|
 A The Kurken is Lurkin' |QID|9570|M|47.0,22.3|
 C The Kurken is Lurkin' |QID|9570| |N|Go back into Stillpine Hold, this time to the left. Kill the Kurken and loot its hide. |M|49.78,12.95|
@@ -247,8 +250,8 @@ T The Kurken is Lurkin' |QID|9570|M|47.0,22.3|
 A The Kurken's Hide |QID|9571|M|47.0,22.3|
 T The Kurken's Hide |QID|9571|M|44.8,23.9|
 A Warn Your People |QID|9622|
-T Call of Fire (Part 2) |C|Shaman| |R|Draenei| |QID|9465|M|59.5,18.1|
-A Call of Fire (Part 3)|C|Shaman| |R|Draenei| |QID|9467|M|59.5,18.1|
+T Call of Fire  |C|Shaman| |R|Draenei| |QID|9465|M|59.5,18.1|
+A Call of Fire |C|Shaman| |R|Draenei| |QID|9467|M|59.5,18.1|
 U Open Fireproof Satchel |QID|9467| |C|Shaman| |R|Draenei| |U|24336|
 T Warn Your People |QID|9622| |N|Travel back to Azure Watch.|
 T Strength of One |C|Warrior| |R|Draenei| |QID|9582|M|50.0,50.5|
@@ -256,14 +259,14 @@ A Behomat |C|Warrior| |R|Draenei| |QID|10350|M|50.0,50.5|
 A Jol |C|Paladin| |R|Draenei| |QID|10366|M|48.4,49.6|
 N Sell junk and repair |N|At Kioni |M|49.69,52.75|
 
-C Call of Fire (Part 3)|C|Shaman| |R|Draenei| |QID|9467| |N|Find the Wicker Effigy on the southwestern most isle at . Clear the area of owlkin, find the Torch in your bags, burn the effigy, and kill Hauteur.| |U|23682|M|11,82|
-T Call of Fire (Part 3) |C|Shaman| |R|Draenei| |QID|9467| |N|Use the Orb of Returning to get back to Temper quickly.| |U|24335|M|59.5,18.1|
-A Call of Fire (Part 4)|C|Shaman| |R|Draenei| |QID|9468|M|59.5,18.1|
-T Call of Fire (Part 4)|C|Shaman| |R|Draenei| |QID|9468| |N|Return to Azure Watch once more.|M|48.1,50.4|
-A Call of Fire (Part 5)|C|Shaman| |R|Draenei| |QID|9461|M|48.1,50.4|
-T Call of Fire (Part 5)|C|Shaman| |R|Draenei| |QID|9461| |N|Find Prophet Velen inside the Exodar.|M|32.8,54.5|
-A Call of Fire (Part 6) |C|Shaman| |R|Draenei| |QID|9555|M|32.8,54.5|
-T Call of Fire (Part 6) |C|Shaman| |R|Draenei| |QID|9555|M|31.4,27.7|
+C Call of Fire |C|Shaman| |R|Draenei| |QID|9467| |N|Find the Wicker Effigy on the southwestern most isle at . Clear the area of owlkin, find the Torch in your bags, burn the effigy, and kill Hauteur.| |U|23682|M|11,82|
+T Call of Fire  |C|Shaman| |R|Draenei| |QID|9467| |N|Use the Orb of Returning to get back to Temper quickly.| |U|24335|M|59.5,18.1|
+A Call of Fire |C|Shaman| |R|Draenei| |QID|9468|M|59.5,18.1|
+T Call of Fire |C|Shaman| |R|Draenei| |QID|9468| |N|Return to Azure Watch once more.|M|48.1,50.4|
+A Call of Fire |C|Shaman| |R|Draenei| |QID|9461|M|48.1,50.4|
+T Call of Fire |C|Shaman| |R|Draenei| |QID|9461| |N|Find Prophet Velen inside the Exodar.|M|32.8,54.5|
+A Call of Fire  |C|Shaman| |R|Draenei| |QID|9555|M|32.8,54.5|
+T Call of Fire  |C|Shaman| |R|Draenei| |QID|9555|M|31.4,27.7|
 
 T Control |C|Mage| |R|Draenei| |QID|9595| |N|Find Bati inside the Exodar.|
 
@@ -271,18 +274,18 @@ T Behomat |C|Warrior| |R|Draenei| |QID|10350| |N|Find Behomat inside the Exodar.
 
 T Jol |C|Paladin| |R|Draenei| |QID|10366| |N|Find Jol inside the Exodar.|M|38.0,82.0|
 
-A Redemption (Part 1)|C|Paladin| |R|Draenei| |QID|9598|M|38.0,82.0|
-C Redemption (Part 1)|C|Paladin| |R|Draenei| |QID|9598| |N|Find and read the book in your inventory.| |U|23926|
-T Redemption (Part 1)|C|Paladin| |R|Draenei| |QID|9598|M|38.0,82.0|
-A Redemption (Part 2)|C|Paladin| |R|Draenei| |QID|9600|M|38.0,82.0|
+A Redemption |C|Paladin| |R|Draenei| |QID|9598|M|38.0,82.0|
+C Redemption |C|Paladin| |R|Draenei| |QID|9598| |N|Find and read the book in your inventory.| |U|23926|
+T Redemption |C|Paladin| |R|Draenei| |QID|9598|M|38.0,82.0|
+A Redemption |C|Paladin| |R|Draenei| |QID|9600|M|38.0,82.0|
 
 T Coming of Age |QID|9623| |N|Just Outside the Exodar|M|35.1,43.4|
 
 A Elekks Are Serious Business |QID|9625|
 R Kessel's Crossing |QID|9625| |Z|Bloodmyst Isle| |N|Go north to Kessel's Crossing on Bloodmyst Isle |M|63.50,88.14|
 
-C Redemption (Part 2)|C|Paladin| |R|Draenei| |QID|9600| |Z|Bloodmyst Isle| |N|Find the corpse of the young furbolg shaman at .|M|65,77|
-T Redemption (Part 2)|C|Paladin| |R|Draenei| |QID|9600| |N|Travel back to the Exodar.|M|38.0,82.0|
+C Redemption |C|Paladin| |R|Draenei| |QID|9600| |Z|Bloodmyst Isle| |N|Find the corpse of the young furbolg shaman at .|M|65,77|
+T Redemption |C|Paladin| |R|Draenei| |QID|9600| |N|Travel back to the Exodar.|M|38.0,82.0|
 R Kessel's Crossing |C|Paladin| |R|Draenei| |Z|Bloodmyst Isle| |N|Go north to Kessel's Crossing on Bloodmyst Isle |M|63.50,88.14|
 T Elekks Are Serious Business |QID|9625| |Z|Bloodmyst Isle|
 N Level 12 |N|You should be level 12. Tick this step off and go to the next Guide.|
