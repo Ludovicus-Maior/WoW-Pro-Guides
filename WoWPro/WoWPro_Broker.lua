@@ -91,9 +91,8 @@ function WoWPro:UpdateGuide()
 		end
 	end
 	WoWProDB.char.guide[GID].progress = p
-	if not WoWProDB.char.guide[GID].total then
-		WoWProDB.char.guide[GID].total = WoWPro.stepcount - WoWPro.stickiescount - WoWPro.optionalcount
-	end
+	WoWProDB.char.guide[GID].total = WoWPro.stepcount - WoWPro.stickiescount - WoWPro.optionalcount
+	
 	WoWPro.TitleText:SetText(WoWPro.loadedguide["zone"].."   ("..WoWProDB.char.guide[GID].progress.."/"..WoWProDB.char.guide[GID].total..")")
 	
 	-- If the guide is complete, loading the next guide --

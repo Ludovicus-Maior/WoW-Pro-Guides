@@ -182,9 +182,9 @@ A Nightstalker Clean Up, Isle 2... |QID|9456|M|47.1,50.6|
 C Nightstalker Clean Up, Isle 2... |N|There should be plenty of them to the north of Azure Watch, on either side of the path. | |QID|9456|M|46.81,39.34|
 T Nightstalker Clean Up, Isle 2... |QID|9456|M|47.1,50.6|
 
-C Tree's Company |N|Go far southwest to a Naga Flag at . Use your Tree Disguise Kit and wait for the complete message.| |QID|9531| |U|23792|M|18.48,84.33|
+C Tree's Company |N|Go far southwest to a Naga Flag. Use your Tree Disguise Kit and wait for the complete message.| |QID|9531| |U|23792|M|18.48,84.33|
 
-A A Cry For Help |N|On the northern side of the island, behind a fallen tree .| |QID|9528|M|14,75|
+A A Cry For Help |N|On the northern side of the island, behind a fallen tree.| |QID|9528|M|14,75|
 C A Cry For Help |N|Escort Magwin across the island, defending her from the owlkin. You'll end up at the next quest NPC we need.| |QID|9528|
 T A Cry For Help |QID|9528|
 T The Missing Fisherman |QID|10428|M|16.6,94.5|
@@ -192,12 +192,12 @@ A All That Remains |QID|9527|M|16.6,94.5|
 C All That Remains |QID|9527| |N|Kill owlkins on this island  until you pick up the Remains of Cowlen's Family.|M|13.41,85.29|
 T All That Remains |QID|9527|M|16.6,94.5|
 
-C Warlord Sriss'tiz |QID|9515| |N|Go back to the main island, to a cave in Wrathscale Point at . Drop down the hole just inside the cave (26.34, 73.90), then kill Warlord Sriss'Tiz (25.12, 74.19).|M|27,77|
+C Warlord Sriss'tiz |QID|9515| |N|Go back to the main island, to a cave in Wrathscale Point. Drop down the hole just inside the cave, then kill Warlord Sriss'Tiz.|M|27,77;26.34,73.90;25.12,74.19|
 R Odesyus' Landing |QID|9515| |N|Fight your way out of the cave. |M|46.11,72.16|
 T Warlord Sriss'tiz |QID|9515|M|47.0,70.2|
 T Tree's Company |QID|9531|M|47.0,70.2|
 A Show Gnomercy |QID|9537|M|47.0,70.2|
-C Show Gnomercy |QID|9537| |N|Search the gnome Engineer "Spark" Overgrind on the beach , talk to him and kill him.|M|48.28,72.22|
+C Show Gnomercy |QID|9537| |N|Search the gnome Engineer "Spark" Overgrind on the beach, talk to him and kill him.|M|48.28,72.22|
 T Show Gnomercy |QID|9537|M|47.0,70.2|
 A Deliver Them From Evil... |QID|9602|M|47.0,70.2|
 H Azure Watch |QID|9602| |N|Or run if your Hearthstone is on cooldown.| |U|6948|
@@ -226,11 +226,11 @@ A Call of Fire |C|Shaman| |R|Draenei| |QID|9464|M|48.1,50.4|
 
 R Stillpine Hold |QID|9559| |N| To the north of Azure Watch. |M|46,20|
 T Stillpine Hold |QID|9559|M|46.7,20.6|
-A Beasts of the Apocalypse! |QID|9560|
+A Beasts of the Apocalypse! |QID|9560|M|44.8,23.9|
 A Murlocs... Why Here? Why Now? |QID|9562|M|44.7,23.6|
-C Beasts of the Apocalypse! |QID|9560| |N|Kill Ravagers at the Menagerie Wreckage .|M|54.24,19.36|
+C Beasts of the Apocalypse! |QID|9560| |N|Kill Ravagers at the Menagerie Wreckage.|M|54.24,19.36|
 
-T Call of Fire |C|Shaman| |R|Draenei| |QID|9464| |N|Find Temper in Emberglade, to the east of the ravager area, at .|M|59,17|
+T Call of Fire |C|Shaman| |R|Draenei| |QID|9464| |N|Find Temper in Emberglade, to the east of the ravager area.|M|59,17|
 A Call of Fire |C|Shaman| |R|Draenei| |QID|9465|M|59.5,18.1|
 
 C Strength of One |C|Warrior| |R|Draenei| |QID|9582| |N|The Death Ravager is to the north of the ravager area, at .|M|53.9,10.1|
@@ -246,7 +246,7 @@ A Gurf's Dignity |QID|9564| |U|23850|M|33.8,25.7|
 T Murlocs... Why Here? Why Now? |QID|9562| |N|Back at Stillpine Hold|M|44.7,23.6|
 T Gurf's Dignity |QID|9564|M|44.7,23.6|
 
-C Chieftain Oomooroo |QID|9573| |N|Go into Stillpine Hold  and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo (47.43, 14.18)|M|45.39,18.06|
+C Chieftain Oomooroo |QID|9573| |N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|M|45.39,18.06;47.43,14.18|
 C Call of Fire |C|Shaman| |R|Draenei| |QID|9465| |N|Continue killing owlkin until you loot the Ritual Torch.|M|46.1,16.6|
 T Chieftain Oomooroo |QID|9573|M|46.9,21.2|
 A The Kurken is Lurkin' |QID|9570|M|47.0,22.3|
@@ -256,11 +256,11 @@ A Blood Crystals |QID|9566|M|50.5,11.5|
 T Blood Crystals |QID|9566| |N|Get out of the cave|M|46.7,20.6|
 T The Kurken is Lurkin' |QID|9570|M|47.0,22.3|
 A The Kurken's Hide |QID|9571|M|47.0,22.3|
-T The Kurken's Hide |QID|9571|M|44.8,23.9|
 A Warn Your People |QID|9622|
+T The Kurken's Hide |QID|9571|M|44.8,23.9|
 T Call of Fire  |C|Shaman| |R|Draenei| |QID|9465|M|59.5,18.1|
 A Call of Fire |C|Shaman| |R|Draenei| |QID|9467|M|59.5,18.1|
-U Open Fireproof Satchel |QID|9467| |C|Shaman| |R|Draenei| |U|24336|
+U Open Fireproof Satchel |QID|9467| |C|Shaman| |R|Draenei| |U|24336|L|23682|
 T Warn Your People |QID|9622| |N|Travel back to Azure Watch.|
 T Strength of One |C|Warrior| |R|Draenei| |QID|9582|M|50.0,50.5|
 A Behomat |C|Warrior| |R|Draenei| |QID|10350|M|50.0,50.5|
@@ -272,9 +272,9 @@ T Call of Fire  |C|Shaman| |R|Draenei| |QID|9467| |N|Use the Orb of Returning to
 A Call of Fire |C|Shaman| |R|Draenei| |QID|9468|M|59.5,18.1|
 T Call of Fire |C|Shaman| |R|Draenei| |QID|9468| |N|Return to Azure Watch once more.|M|48.1,50.4|
 A Call of Fire |C|Shaman| |R|Draenei| |QID|9461|M|48.1,50.4|
-T Call of Fire |C|Shaman| |R|Draenei| |QID|9461| |N|Find Prophet Velen inside the Exodar.|M|32.8,54.5|
-A Call of Fire  |C|Shaman| |R|Draenei| |QID|9555|M|32.8,54.5|
-T Call of Fire  |C|Shaman| |R|Draenei| |QID|9555|M|31.4,27.7|
+T Call of Fire |C|Shaman| |R|Draenei| |QID|9461| |N|Find Prophet Velen inside the Exodar.|M|32.8,54.5|Z|The Exodar|
+A Call of Fire  |C|Shaman| |R|Draenei| |QID|9555|M|32.8,54.5|Z|The Exodar|
+T Call of Fire  |C|Shaman| |R|Draenei| |QID|9555|M|31.4,27.7|Z|The Exodar|
 
 T Control |C|Mage| |R|Draenei| |QID|9595| |N|Find Bati inside the Exodar.|
 
@@ -290,7 +290,7 @@ A Redemption |C|Paladin| |R|Draenei| |QID|9600|M|38.0,82.0|
 T Coming of Age |QID|9623| |N|Just Outside the Exodar|M|35.1,43.4|
 
 A Elekks Are Serious Business |QID|9625|
-R Kessel's Crossing |QID|9625| |Z|Bloodmyst Isle| |N|Go north to Kessel's Crossing on Bloodmyst Isle |M|63.50,88.14|
+R Kessel's Crossing |QID|9625| |Z|Bloodmyst Isle| |N|Go north to Kessel's Crossing on Bloodmyst Isle.|M|63.50,88.14|
 
 C Redemption |C|Paladin| |R|Draenei| |QID|9600| |Z|Bloodmyst Isle| |N|Find the corpse of the young furbolg shaman at .|M|65,77|
 T Redemption |C|Paladin| |R|Draenei| |QID|9600| |N|Travel back to the Exodar.|M|38.0,82.0|
