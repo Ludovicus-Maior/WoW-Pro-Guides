@@ -71,6 +71,7 @@ frame:SetScript("OnShow", function()
 		if not frame:IsVisible() then return end
 		local GID = WoWProDB.char.currentguide
 		local steplist = WoWPro.steps
+		local optional = WoWPro.optional
 		local completion = WoWProDB.char.guide[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
@@ -91,6 +92,7 @@ frame:SetScript("OnShow", function()
 			end
 			
 			local step = steplist[index]
+			if optional[index] then step = step.." (optional)" end
 			row.step:SetText(step)
 			
 			local action = WoWPro.actions[index]

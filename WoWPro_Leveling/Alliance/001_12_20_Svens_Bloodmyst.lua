@@ -1,41 +1,40 @@
 WoWPro_Leveling:RegisterGuide("SveBlo1220", "Bloodmyst Isle", "Sven", "12", "20", "BosRed2021", "Alliance", function()
 return [[
 R Bloodmyst Isle |QID|9663| |N|Go to Bloodmyst Isle |
-T Elekks Are Serious Business |QID|9625|O|N|If you have this quest, turn it in (requires having done Azuremyst previously|
-A A Favorite Treat |QID|9624|
-A Alien Predators |QID|9634|
+T Elekks Are Serious Business |QID|9625|N|If you have this quest, turn it in (requires having done Azuremyst previously|
+A A Favorite Treat |QID|9624|M|63.4,88.8|
+A Alien Predators |QID|9634|M|63.0,87.9|
 N Before accepting Kessel Run, read this.  |QID|9663| |N|Your first epic mount!  It's just like a normal mount, except you can't resummon it if you get dismounted. Stay out of caves, water, and buildings! You can do the quest without the elekk, but it takes a lot longer.|
-A The Kessel Run |QID|9663|
-N Warn Chief Stillpine |QID|9663| |QO|High Chief Stillpine Warned: 1/1|N| Warn Stillpine |Z|Azuremyst Isle|M|46.7,20.8|
-N Warn Exarch Menelauos |QID|9663| |QO|Exarch Menelaous Warned: 1/1|N| Warn Menelaous |Z|Azuremyst Isle|M|47.2,50.6|
-N Warn Admiral Odesyus |QID|9663| |QO|Admiral Odesyus Warned: 1/1|N| Warn Odyseus |Z|Azuremyst Isle|M|47.0,70.2|
-T The Kessel Run |QID|9663|
+A The Kessel Run |QID|9663|M|63.0,87.5|
+N Warn Chief Stillpine |QID|9663| |QO|High Chief Stillpine Warned: 1/1|N|Warn Stillpine |Z|Azuremyst Isle|M|46.7,20.8|
+N Warn Exarch Menelauos |QID|9663| |QO|Exarch Menelaous Warned: 1/1|N|Warn Menelaous |Z|Azuremyst Isle|M|47.2,50.6|
+N Warn Admiral Odesyus |QID|9663| |QO|Admiral Odesyus Warned: 1/1|N|Warn Odyseus |Z|Azuremyst Isle|M|47.0,70.2|
+T The Kessel Run |QID|9663|M|62.99,87.52|
 A Declaration of Power |QID|9666|
 R Blood Watch |QID|9634| |N|Run to Blood watch |M|55,55|
 h Blood Watch |QID|9634| |N|Set hearthstone to Blood Watch |M|55.84,59.80|
-f Get the flight path |QID|9634| |N|At |M|57.69,53.92|
+f Get the flight path |QID|9634||M|57.69,53.92|
 N Restock |QID|9634| |N|Restock food/drink, sell junk|
-A Mac'Aree Mushroom Menagerie  |QID|9648|
-A Catch and Release  |QID|9629|
-A Learning from the Crystals  |QID|9581|
+A Mac'Aree Mushroom Menagerie  |QID|9648|M|56.4,56.8|
+A Catch and Release  |QID|9629|M|53.2,57.7|
+A Learning from the Crystals  |QID|9581|M|52.6,53.2|
 N Blood Mushroom |QID|9648| |QO|Blood Mushroom: 1/1|N|Pick up a Blood Mushroom in this area |M|66,69|
 C Declaration of Power |N| Kill Lord Xiz, don't forget to plant the banner in his corpse .|QID|9666|U|24084|M|68,67|
 N Ruinous Polyspore |QID|9648| |QO|Ruinous Polyspore: 1/1|N| Pick up a Ruinous Polyspore in this area|
-N Sand Pears |QID|9624| |N|From now on, pick up Sand Pears, you need 10 of them.|
-A Saving Princess Stillpine |N|If you didn't do Learning the Language in Azuremyst Isle, skip this step.|QID|9667|
-N Saving Princess Stillpine |QID|9667| |N|You have to kill furbolgs until High Chief Bristlelimb yells and spawns at , then kill him| |L|24099|M|64,76|
-C Saving Princess Stillpine |QID|9667|N|Go open the cage |M|,|
-C A Favorite Treat|QID|9624|N|Kill furbolgs until you have 10 Sand Pears|
-C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings at |M|58.15,83.48|
+C A Favorite Treat|QID|9624|N|Pick up Sand Pears.|S|
+A Saving Princess Stillpine |N|If you didn't do Learning the Language in Azuremyst Isle, skip this step.|QID|9667|M|68.2,81.2|
+N Saving Princess Stillpine |QID|9667| |N|You have to kill furbolgs until High Chief Bristlelimb yells, then kill him.| |L|24099|M|64,76|
+C Saving Princess Stillpine |QID|9667|N|Go open the cage.|M|68.2,81.2|
+C A Favorite Treat|QID|9624|N|Kill furbolgs until you have 10 Sand Pears|US|
+C Learning from the Crystals  |QID|9581|N|Use your Crystal Mining Pick on the Impact Site Crystal.|U|23875|M|58.15,83.48|
+C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|
 T Alien Predators |QID|9634|
 T A Favorite Treat |QID|9624|
 T Declaration of Power |QID|9666|
-A Report to Exarch Admetius|QID|9668|
-C Learning from the Crystals  |QID|9581|N|Use your Crystal Mining Pick on the Impact Site Crystal at |U|23875|M|58.15,83.48|
-N Aquatic Stinkhorn |QID|9648| |QO|Aquatic Stinkhorn: 1/1|N|Grab an Aquatic Stinkhorn from underwater in the blood river |M|58,72|
-N Fel Cone Fungus|QID9648| |QO|Fel Cone Fungus: 1/1|N|Grab a Fel Cone Fungus from around |M|43.04,83.7|
-C Catch and Release|QID|9629|N|Use the Murloc Tagger on 6 Blacksilt Scouts  around (43.8,93.3)|U|23995|M|don't agg,|
-K Cruelfin |QID|9576| |N|Find and kill cruelfin, then loot the Red Crystal Pendant to accept Cruelfin's Necklace.  He pats East and West around |L|23870|M|42.0,94.9|
+A Report to Exarch Admetius|QID|9668|N Aquatic Stinkhorn |QID|9648| |QO|Aquatic Stinkhorn: 1/1|N|Grab an Aquatic Stinkhorn from underwater in the blood river.|M|58,72|
+N Fel Cone Fungus|QID|9648| |QO|Fel Cone Fungus: 1/1|N|Grab a Fel Cone Fungus from around here.|M|43.04,83.7|
+C Catch and Release|QID|9629|N|Use the Murloc Tagger on 6 Blacksilt Scouts.|U|23995|M|43.8,93.3|
+K Cruelfin |QID|9576| |N|Find and kill cruelfin, then loot the Red Crystal Pendant to accept Cruelfin's Necklace.  He pats East and West.|L|23870|M|42.0,94.9|
 A Cruelfin's Necklace|QID|9576|U|23870|
 N Grinding time |QID|9576| |N|Grind on murlocs until you are 4,800 XP from Level 14|
 H Blood Watch |QID|9576| |N|Hearth to Blood Watch|U|6948|
@@ -51,15 +50,16 @@ A What Argus Means to Me |QID|9693|
 T What Argus Means to Me |QID|9693|
 A Blood Watch|QID|9694|
 
-T Beds, Bandages and Beyond|R|Draenei|O|QID|9603|
-A On the Wings of a Hippogryph|R|Draenei|O|QID|9604|
-F The Exodar |QID|9604| |N|Fly to Exodar|R|Draenei|O|
-T On the Wings of a Hippogryph|R|Draenei|O|QID|9604|
-A Hippogryph Master Stephanos|R|Draenei|O|QID|9605|
-T Hippogryph Master Stephanos|R|Draenei|O|QID|9605|
-A Return to Topher Loaal|R|Draenei|O|QID|9606|
-F Blood Watch |QID|9606| |N|Fly back to Blood Watch|R|Draenei|O|
-T Return to Topher Loaal|R|Draenei|O|QID|9606|
+A Beds, Bandages and Beyond|R|Draenei|QID|9603|M|55.8,59.8|
+T Beds, Bandages and Beyond|R|Draenei|QID|9603|
+A On the Wings of a Hippogryph|R|Draenei|QID|9604|
+F The Exodar |QID|9604| |N|Fly to Exodar|R|Draenei|
+T On the Wings of a Hippogryph|R|Draenei|QID|9604|
+A Hippogryph Master Stephanos|R|Draenei|QID|9605|
+T Hippogryph Master Stephanos|R|Draenei|QID|9605|
+A Return to Topher Loaal|R|Draenei|QID|9606|
+F Blood Watch |QID|9606| |N|Fly back to Blood Watch|R|Draenei|
+T Return to Topher Loaal|R|Draenei|QID|9606|
 
 N Repair, restock |QID|9620| |N|Repair, restock food/water, sell junk|
 T The Missing Survey Team|QID|9620|
@@ -70,11 +70,11 @@ T Salvaging the Data|QID|9628|
 A The Second Sample|QID|9584|
 T Blood Watch|QID|9694|
 A Intercepting the Message|QID|9779|
-A Irradiated Crystal Shards|QID|9641|O|L|23984|10|N|If you already have 10 Irradiated Crystal Shards, then accept and turn in the quest|
-T Irradiated Crystal Shards|QID|9641|O|L|23984|10|
+A Irradiated Crystal Shards|QID|9641|L|23984 10|N|If you already have 10 Irradiated Crystal Shards, then accept and turn in the quest|O|
+T Irradiated Crystal Shards|QID|9641|L|23984 10|O|
 A Know Thine Enemy|QID|9567|
 
-C Victims of Corruption|QID|9574|N|Kill Corrupted Treants for the bark, on the way to .|M|49,73|
+C Victims of Corruption|QID|9574|N|Kill Corrupted Treants for the bark, on the way.|M|49,73|
 K Tzerak |QID|9594| |L|23900|N|Kill Tzerak, and loot Tzerak's Armor Plate.  He looks like a Felguard .  If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
 A Signs of the Legion|QID|9594|U|23900|
 C Signs of the Legion|QID|9594|N|While killing Satyrs and Felsworns, keep an eye out for Nazzivus Monument Glyph|
