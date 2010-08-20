@@ -141,6 +141,14 @@ function WoWPro_Leveling:RowUpdate()
 			if WoWPro.optional[k] and WoWPro.prereq[k] then
 				if WoWProDB.char.guide.completedQIDs[tonumber(WoWPro.prereq[k])] then optionalskip = false end
 			end
+			if WoWPro.optional[k] and WoWPro.QIDs[k] then
+				local l=1
+				while GetQuestLogTitle(l) do
+					local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(l)
+					if questID == WoWPro.QIDs[k] then optionalskip = false end
+					l = l+1
+				end
+			end
 			if ( WoWPro.unstickies[k] and i > stickycount+1 ) 
 			or (WoWPro.optional[k] and optionalskip) 
 			or WoWProDB.char.guide[GID].completion[k] then 
@@ -290,7 +298,6 @@ function WoWPro_Leveling:RowUpdate()
 			row.itemicon:SetTexture(GetItemIcon(use))
 			row.itembutton:SetAttribute("type1", "item")
 			row.itembutton:SetAttribute("item1", "item:"..use)
-			row.itembutton:Show()
 			row.cooldown:RegisterEvent("ACTIONBAR_UPDATE_COOLDOWN")
 			row.cooldown:SetScript("OnEvent", function() 
 					local start, duration, enabled = GetItemCooldown(use)
@@ -299,13 +306,11 @@ function WoWPro_Leveling:RowUpdate()
 						row.cooldown:SetCooldown(start, duration)
 					else row.cooldown:Hide() end
 				end)
-			row.itembutton:SetScript("OnShow", function() 
-					local start, duration, enabled = GetItemCooldown(use)
-					if enabled then
-						row.cooldown:Show()
-						row.cooldown:SetCooldown(start, duration)
-					else row.cooldown:Hide() end
-				end)
+			local start, duration, enabled = GetItemCooldown(use)
+			if enabled then
+				row.cooldown:Show()
+				row.cooldown:SetCooldown(start, duration)
+			else row.cooldown:Hide() end
 		else row.itembutton:Hide() end
 		
 		-- Setting the zone for the coordinates of the step --

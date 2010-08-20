@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WoWPro.Version = "1.0.1 - Beta"
+WoWPro.Version = "1.1.0 - Release"
 
 local defaults = { profile = {
 	enable = true,

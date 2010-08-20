@@ -54,9 +54,9 @@ A Beds, Bandages and Beyond|R|Draenei|QID|9603|M|55.8,59.8|
 T Beds, Bandages and Beyond|R|Draenei|QID|9603|
 A On the Wings of a Hippogryph|R|Draenei|QID|9604|
 F The Exodar |QID|9604| |N|Fly to Exodar|R|Draenei|
-T On the Wings of a Hippogryph|R|Draenei|QID|9604|
+T On the Wings of a Hippogryph|R|Draenei|QID|9604|M|57.0,50.2|Z|The Exodar|
 A Hippogryph Master Stephanos|R|Draenei|QID|9605|
-T Hippogryph Master Stephanos|R|Draenei|QID|9605|
+T Hippogryph Master Stephanos|R|Draenei|QID|9605|M|68.5,63.7|Z|The Exodar|
 A Return to Topher Loaal|R|Draenei|QID|9606|
 F Blood Watch |QID|9606| |N|Fly back to Blood Watch|R|Draenei|
 T Return to Topher Loaal|R|Draenei|QID|9606|
@@ -70,15 +70,16 @@ T Salvaging the Data|QID|9628|
 A The Second Sample|QID|9584|
 T Blood Watch|QID|9694|
 A Intercepting the Message|QID|9779|
-A Irradiated Crystal Shards|QID|9641|L|23984 10|N|If you already have 10 Irradiated Crystal Shards, then accept and turn in the quest|O|
+A Irradiated Crystal Shards|QID|9641|L|23984 10|O|N|If you already have 10 Irradiated Crystal Shards, then accept and turn in the quest|M|55.4,55.3|
 T Irradiated Crystal Shards|QID|9641|L|23984 10|O|
-A Know Thine Enemy|QID|9567|
+A Know Thine Enemy|QID|9567|M|55.1,58.0|
 
-C Victims of Corruption|QID|9574|N|Kill Corrupted Treants for the bark, on the way.|M|49,73|
-K Tzerak |QID|9594| |L|23900|N|Kill Tzerak, and loot Tzerak's Armor Plate.  He looks like a Felguard .  If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
+C Victims of Corruption|QID|9574|N|Kill Corrupted Treants for the bark.|M|49,73|
+K Tzerak |QID|9594| |L|23900|N|Kill Tzerak, and loot Tzerak's Armor Plate.  He looks like a Felguard.  If you don't see him, grind on Satyrs until he yells as he spawns.|M|38.41,82.02|
 A Signs of the Legion|QID|9594|U|23900|
-C Signs of the Legion|QID|9594|N|While killing Satyrs and Felsworns, keep an eye out for Nazzivus Monument Glyph|
-C Know Thine Enemy|QID|9567|N|Loot the Nazzivus Monument Glyph at |L|23859|M|36.49,71.36|
+C Signs of the Legion|QID|9594|N|Kill Satyrs and Felsworns|S|
+C Know Thine Enemy|QID|9567|N|Loot the Nazzivus Monument Glyph|L|23859|M|36.49,71.36|
+C Signs of the Legion|QID|9594|N|Finish killing Satyrs and Felsworns|US|
 H Blood Watch|QID|9567| |N|Hearth to Blood Watch||U|6948|
 T Know Thine Enemy|QID|9567|
 T Signs of the Legion|QID|9594|
@@ -88,39 +89,41 @@ A Irradiated Crystal Shards|QID|9641|O|L|23984|10|N|If you have 10 Irradiated Cr
 T Irradiated Crystal Shards|QID|9641|O|L|23984|10|
 N Repair, restock |QID|9584| |N|Repair, restock food/water, sell junk|
 
-C The Second Sample|QID|9584|N|Use the Crystal Mining Pick on the Altered Crystal Sample at |U|23876|M|45.75,47.62|
-C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops|
-N Grinding Time |QID|9584| |N|Grind on spies until you are 10,000 XP away from Level 16.  If you'd rather not go to darkshore, grind until you are 3,300 XP from level 16.|
+C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|S|
+C The Second Sample|QID|9584|N|Use the Crystal Mining Pick on the Altered Crystal Sample.|U|23876|M|45.75,47.62|
+C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|US|
+N Grinding Time |QID|9584| |N|Grind on spies until you are 10,000 XP away from Level 16. If you'd rather not go to Darkshore, grind until you are 3,300 XP from level 16.|
 T The Second Sample|QID|9584|
 A The Final Sample|QID|9585|
 T Intercepting the Message|QID|9779|
 A Translations...|QID|9696|
-T Translations...|QID|9696|
-A Newfound Allies|QID|9632|O|N|Take this if you chose the darkshore loop, otherwise skip it|O|
+T Translations...|QID|9696|M|54.4,54.4|
+A Newfound Allies|QID|9632|N|Take this if you chose the Darkshore loop, otherwise skip it.|M|54.7,54|
 A Audience with the Prophet|QID|9698|
-F The Exodar |QID|9698| |N|Fly to The Exodar|
-T Audience with the Prophet|QID|9698|
+F The Exodar |QID|9698| |N|Fly to The Exodar|M|57.7,53.9|
+T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|
 A Truth or Fiction|QID|9699|
 
-N Darkshore Loop |QID|9632| |N|If you are going to darkshore, we're going to start that loop now.|O|
-T Newfound Allies|QID|9632|O|
-A The Way to Auberdine|QID|9633|O|
-b Darkshore |QID|9633| |N|Take the boat to Auberdine|O|
-T The Way to Auberdine|QID|9633|O|
-A Bashal'Aran|QID|954|O|M|37.4,40.1|
-A Plagued Lands|QID|2118|O|M|38.8,43.4|
-A How Big a Threat?|QID|984|O|M|39.4,43.5|
-A The Tower of Althalaxx (Part 1)|QID|965|O|N|Upstairs|M|39.0,43.6|
-T Bashal'Aran|QID|954|O|M|44.2,36.3|
-C How Big a Threat?|QID|984|O|N|Run to  until you get the quest complete message.|Z|Darkshore|M|50.25,34.28|
-T The Tower of Althalaxx (Part 1)|QID|965|O|N|Don't do Plagued Lands yet|M|55.0,24.9|
-A The Tower of Althalaxx (Part 2)|QID|966|O|M|55.0,24.9|
-C The Tower of Althalaxx (Part 2)|QID|966|N|Kill Dark Strand Fanatics at , just south.|O|Z|Darkshore|M|55,25|
-T The Tower of Althalaxx (Part 2)|QID|966|O|M|55.0,24.9|
-A The Tower of Althalaxx (Part 3)|QID|967|O|N|This quest is completed at the beginning of the 20-30 guide.|M|55.0,24.9|
-C Plagued Lands|QID|2118|O|N|Use the trap on a rabid thistle bear on the way back to Auberdine|U|7586|M|38.4,52.9|
-T Plagued Lands|QID|2118|O|M|38.8,43.4|
-T How Big a Threat?|O|QID|984|M|39.4,43.5|
+T Newfound Allies|QID|9632|O|M|24.2,54.3|Z|AzuremystIsle|
+N Darkshore Loop |QID|9632|N|If you are going to darkshore, we're going to start that loop now.|
+A The Way to Auberdine|QID|9633|O|PRE|9632|
+b Darkshore |QID|9633|N|Take the boat to Auberdine|O|PRE|9632|M|29.3,28.3|
+f Auberdine |QID|2118|O|PRE|9632|M|36.3,45.6|Z|Darkshore|
+T The Way to Auberdine|QID|9633|O|PRE|9632|M|37.4,40.1|Z|Darkshore|
+A Bashal'Aran|QID|954|O|M|37.4,40.1|PRE|9632|Z|Darkshore|
+A Plagued Lands|QID|2118|O|M|38.8,43.4|PRE|9632|Z|Darkshore|
+A How Big a Threat?|QID|984|O|M|39.4,43.5|PRE|9632|Z|Darkshore|
+A The Tower of Althalaxx (Part 1)|QID|965|O|N|Upstairs|M|39.0,43.6|PRE|9632|Z|Darkshore|
+T Bashal'Aran|QID|954|O|M|44.2,36.3|PRE|9632|Z|Darkshore|
+C How Big a Threat?|QID|984|O|N|Run to  until you get the quest complete message.|Z|Darkshore|M|50.25,34.28|PRE|9632|
+T The Tower of Althalaxx (Part 1)|QID|965|O|N|Don't do Plagued Lands yet|M|55.0,24.9|PRE|9632|Z|Darkshore|
+A The Tower of Althalaxx (Part 2)|QID|966|O|M|55.0,24.9|PRE|9632|Z|Darkshore|
+C The Tower of Althalaxx (Part 2)|QID|966|N|Kill Dark Strand Fanatics, just south.|O|Z|Darkshore|M|55,25|PRE|9632|
+T The Tower of Althalaxx (Part 2)|QID|966|O|M|55.0,24.9|PRE|9632|Z|Darkshore|
+A The Tower of Althalaxx (Part 3)|QID|967|O|N|This quest is completed at the beginning of the 20-30 guide.|M|55.0,24.9|PRE|9632|Z|Darkshore|
+C Plagued Lands|QID|2118|O|N|Use the trap on a rabid thistle bear on the way back to Auberdine|U|7586|M|38.4,52.9|PRE|9632|Z|Darkshore|
+T Plagued Lands|QID|2118|O|M|38.8,43.4|PRE|9632|Z|Darkshore|
+T How Big a Threat?|O|QID|984|M|39.4,43.5|PRE|9632|Z|Darkshore|
 
 N Train new skills |QID|9699| |N|Train your skills, professions, etc.  If you did the darkshore loop, decide whether it's worth going back to exodar, or just hearthing from here to Blood Watch.|
 H Blood Watch |QID|9699| |N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back|Z|Bloodmyst Isle|U|6948|
