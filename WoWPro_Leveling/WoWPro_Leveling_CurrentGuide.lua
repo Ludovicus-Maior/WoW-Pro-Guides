@@ -79,9 +79,6 @@ frame:SetScript("OnShow", function()
 		local index = i + offset
 		shownrows = NUMROWS
 		for i,row in ipairs(rows) do
-			while WoWPro.stickies[index] do 
-				index = index + 1
-			end
 			row.index = index
 			
 			local check = completion[index]
@@ -93,6 +90,19 @@ frame:SetScript("OnShow", function()
 			
 			local step = steplist[index]
 			if optional[index] then step = step.." (optional)" end
+			
+			-- Setting sticky texture --
+			if WoWPro.stickies[index] then 
+				step = step.." (sticky)"
+				row:SetBackdrop( {
+					bgFile = WoWProDB.profile.stickytexture,
+					tile = true, tileSize = 16
+				})
+				row:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], WoWProDB.profile.stickycolor[4])
+			else
+				row:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], 0)
+			end
+			
 			row.step:SetText(step)
 			
 			local action = WoWPro.actions[index]
