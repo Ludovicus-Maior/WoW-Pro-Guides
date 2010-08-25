@@ -133,10 +133,8 @@ function WoWPro_Leveling:RowUpdate()
 		while ( WoWPro.unstickies[k] and i > stickycount+1 ) 
 		or (WoWPro.optional[k] and optionalskip) 
 		or WoWProDB.char.guide[GID].completion[k] do 
-			if WoWPro.optional[k] and WoWPro.lootitem[k] then
-				local lootqtyi
-				if tonumber(WoWPro.lootqty[k]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[k]) else lootqtyi = 1 end
-				if GetItemCount(WoWPro.lootitem[k]) >= lootqtyi then optionalskip = false end
+			if WoWPro.optional[k] and WoWPro.uses[k] then
+				if GetItemCount(WoWPro.uses[k]) >= 1 then optionalskip = false end
 			end
 			if WoWPro.optional[k] and WoWPro.prereq[k] then
 				if WoWProDB.char.guide.completedQIDs[tonumber(WoWPro.prereq[k])] then optionalskip = false end

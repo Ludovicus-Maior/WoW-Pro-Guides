@@ -54,13 +54,13 @@ f Ebon Watch |QID|12630| |M|14.1,73.6|
 C Kickin' Nass and Takin' Manes |QID|12630| |N|Kill the trolls, put the boot to Nass!| |U|38659|
 T Kickin' Nass and Takin' Manes |QID|12630| |N|Back to Ebon Watch| |M|14.1,73.8|
 
-A An Invitation, of Sorts... |QID|12631| |O| |N|From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills. | |U|38660| |L|38660|
+A An Invitation, of Sorts... |QID|12631| |O| |N|From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills. | |U|38660|
 T An Invitation, of Sorts... |QID|12631| |O| |M|14.1,73.8|
 
 A Near Miss |QID|12637| |O| |PRE|12631|
 C Near Miss |QID|12637| |O| |N|Bloodrose Datura will give you a demo.| |M|14.29,74.03|
 
-A Darkness Calling |QID|12633| |O| |N|From the Writhing Choker. You get this quest chain if you completed the Drakuru quest chain in Grizzly Hills.| |U|38673| |L|38673|
+A Darkness Calling |QID|12633| |O| |N|From the Writhing Choker. You get this quest chain if you completed the Drakuru quest chain in Grizzly Hills.| |U|38673|
 A Close Call |QID|12638| |O| |PRE|12633|
 T Darkness Calling |QID|12633| |O| |M|14.1,73.8|
 C Close Call |QID|12638|| O| |N|Bloodrose Datura will give you a demo.| |M|14.3,74.0|
