@@ -54,33 +54,33 @@ f Ebon Watch |QID|12630| |M|14.1,73.6|
 C Kickin' Nass and Takin' Manes |QID|12630| |N|Kill the trolls, put the boot to Nass!| |U|38659|
 T Kickin' Nass and Takin' Manes |QID|12630| |N|Back to Ebon Watch| |M|14.1,73.8|
 
-A An Invitation, of Sorts... |QID|12631| |O| |N|From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills.| |U|38660|
+A An Invitation, of Sorts... |QID|12631| |O| |N|From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills. | |U|38660| |L|38660|
 T An Invitation, of Sorts... |QID|12631| |O| |M|14.1,73.8|
 
-A Near Miss |QID|12637| |O| |PRE|An Invitation, of Sorts...|
+A Near Miss |QID|12637| |O| |PRE|12631|
 C Near Miss |QID|12637| |O| |N|Bloodrose Datura will give you a demo.| |M|14.29,74.03|
 
-A Darkness Calling |QID|12633| |O| |N|From the Writhing Choker. You get this quest chain if you completed the Drakuru quest chain in Grizzly Hills.| |U|38673|
-A Close Call |QID|12638| |O| |PRE|Darkness Calling|
+A Darkness Calling |QID|12633| |O| |N|From the Writhing Choker. You get this quest chain if you completed the Drakuru quest chain in Grizzly Hills.| |U|38673| |L|38673|
+A Close Call |QID|12638| |O| |PRE|12633|
 T Darkness Calling |QID|12633| |O| |M|14.1,73.8|
 C Close Call |QID|12638|| O| |N|Bloodrose Datura will give you a demo.| |M|14.3,74.0|
 
 A Taking a Stand |QID|12795| |M|14.3,74.0|
 T Near Miss |QID|12637| |O| |M|14.1,73.8|
 
-A You Can Run, But You Can't Hide |QID|12629| |O| |PRE|An Invitation, of Sorts...| |M|14.1,73.8|
+A You Can Run, But You Can't Hide |QID|12629| |O| |PRE|12631| |M|14.1,73.8|
 C You Can Run, But You Can't Hide |QID|12629| |O| |N|Around the Reliquary of Agony. Pick up the Drool from the ground. Kill the Abominations.| |M|21.24,75.01|
 T You Can Run, But You Can't Hide |QID|12629| |O| |N|Back to Ebon Watch.| |M|14.1,73.8|
 
-A Dressing Down |QID|12648| |O| |PRE|An Invitation, of Sorts...| |M|14.1,73.8|
+A Dressing Down |QID|12648| |O| |PRE|12631| |M|14.1,73.8|
 C Dressing Down |QID|12648| |O| |N|Return to the Reliquary of Agony and use the choker. Buy the plasma from Gristlegut.| |U|38699| |M|19.9,75.5|
 T Close Call |QID|12638| |O| |M|14.1,73.8|
 
-A Silver Lining |QID|12643| |O| |PRE|Darkness Calling| |M|14.1,73.8|
+A Silver Lining |QID|12643| |O| |PRE|12633| |M|14.1,73.8|
 C Silver Lining |QID|12643| |O| |N|Around the Reliquary of Agony. Pick up the Drool from the ground. Kill the Abominations.| |M|21.24,75.01|
 T Silver Lining |QID|12643| |O| |N|Back to Ebon Watch.| |M|14.1,73.8|
 
-A Suit Up! |QID|12649| |O| |PRE|Darkness Calling| |M|14.1,73.8|
+A Suit Up! |QID|12649| |O| |PRE|12633| |M|14.1,73.8|
 C Suit Up! |QID|12649| |O| |N|Return to the Reliquary of Agony and use the choker. You cannot use while shapeshifted. Buy the plasma from Gristlegut.| |U|38699| |M|19.9,75.5|
 
 A Feedin' Da Goolz |QID|12652| |M|19.9,75.5|

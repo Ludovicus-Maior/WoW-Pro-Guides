@@ -3,7 +3,8 @@ return [[
 
 R Ashenvale |QID|1133| |N|Run south to Ashenvale. | |Z|Darkshore|M|44.25,96.17|
 A Bathran's Hair |QID|1010|M|26.4,38.6|
-f Astranaar |QID|1133| |N|Get the flight path. (27,47)(34.39, 48.03)|M|25.57,38.55|
+R Astranaar|QID|1133|M|34.39,48.03|
+f Astranaar |QID|1133|N|Get the flight path.|M|34.39,48.03|
 T Journey to Astranaar |QID|1133|
 A The Zoram Strand |QID|1008|
 A On Guard in Stonetalon |QID|1070|M|34.9,49.8|
@@ -22,7 +23,7 @@ A Raene's Cleansing (part 2) |QID|1023|M|20.3,42.3|
 C Raene's Cleansing (part 2) |N|Kill saltspittle murlocs until you get a Glowing Gem. They are all around the pool.| |QID|1023|M|20.30,44.40|
 T Bathran's Hair |QID|1010|M|26.4,38.6|
 A Orendil's Cure |QID|1020|M|26.4,38.6|
-T The Zoram Strand |N|(27,47)(34.7,48.9)|M|25.57,38.55|
+T The Zoram Strand|M|25.57,38.55;27,47;34.7,48.9|
 A Pridewings of Stonetalon |QID|1134|M|34.7,48.8|
 A Kayneth Stillwind |QID|4581|M|34.7,48.8|
 T Raene's Cleansing (part 2) |QID|1023|M|36.6,49.6|
@@ -33,6 +34,6 @@ T Orendil's Cure |QID|1020|M|37.4,51.8|
 A Elune's Tear |N|This quest becomes available about 20 seconds after turning in the previous one. |QID|1033|M|37.4,51.8|
 N Sell junk and repair |QID|1070| |N|Close this step when you're done. (35.83,52.11)|M|35.6,51.1|
 N Level 24 |QID|1070| |N|You should be level 24 or close. You can go train new skills if you wish, or you can wait until the guide takes us closer to a city. It's up to you. Close this step when you're done. Warlocks: the closest trainer is in Ratchet, 2nd closest is Ironforge.|
-R Stonetalon Mountains |QID|1070| |N|Follow the arrows until you enter Stonetalon Mountains (42.29, 71.12)|M|42.62,58.47|
+R Stonetalon Mountains |QID|1070| |N|Follow the arrows until you enter Stonetalon Mountains|M|42.62,58.47;42.29, 71.12|
 ]]
 end)

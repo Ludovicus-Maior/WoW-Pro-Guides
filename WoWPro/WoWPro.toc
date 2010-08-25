@@ -3,7 +3,7 @@
 ## Notes: Guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
-## Version: 1.1.2
+## Version: 1.1.3
 
 ## X-Category: Compilations
 

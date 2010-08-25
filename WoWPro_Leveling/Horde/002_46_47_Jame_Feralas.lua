@@ -12,17 +12,19 @@ A The Ogres of Feralas (Part 1) |QID|2975|N|Get this from Rok Orhan.  The orc in
 
 C War on the Woodpaw |QID|2862|N|Ride west out of town then turn left (down hill from the road) into the lower wides (71,54).  Kill gnolls until you have 10 Woodpaw Gnoll Manes. |M|72.5,40.2|
 R Camp Mojache |QID|3121|N|Ride back to Camp Mojache .  Do NOT turn in [32] War on the Woodpaw (the followup is a timed quest) which we'll start a little later. |M|74,45|
-F Thunder Bluff |QID|2440|O|N|Fly to Thunder Bluff (optional) if you did Uldaman and [47] The Platinum Discs quest. |
-T The Platinum Discs |QID|2440|O|N|Optional: If you've done this quest in Uldaman: Turn it in to Sage Truthseeker on the lower rise, close to the auction house.  |
-A Portents of Uldum |QID|2965|O|PRE|The Platinum Discs|
+F Thunder Bluff |QID|2440|O|N|Fly to Thunder Bluff (optional) if you did Uldaman and [47] The Platinum Discs quest.|
+T The Platinum Discs |QID|2440|O|N|Optional: If you've done this quest in Uldaman: Turn it in to Sage Truthseeker on the lower rise, close to the auction house.|
+A Portents of Uldum |QID|2965|O|PRE|2440|
 T Portents of Uldum |QID|2965|O|N|Optional line: Turn in to Nara Wildmane on Elder Rise and get the follow up. |
-F Orgrimmar|QID|3121|
-T A Strange Request |QID|3121|N|Find Neeru Fireblade in the Cleft of Shadows and turn in this quest. |M|76.8,37.5|
-A Return to Witch Doctor Uzer'i |QID|3122|M|76.8,37.5|
-H Camp Mojache |QID|3122|U|6948|N|Hearthstone to Camp Mojache. |
+H Camp Mojache |QID|3122|O|PRE|2965|N|Hearthstone to Camp Mojache.|
+T A Strange Request |QID|3121|N|Find Neeru Fireblade in the Cleft of Shadows and turn in this quest. |M|77.0,37.2|
+A Return to Witch Doctor Uzer'i |QID|3122|M|77.0,37.2|
 T Return to Witch Doctor Uzer'i |QID|3122|N|After you turn this quest in, wait for him to do his little script and get the follow ups. |M|74.4,43.4|
 A Testing the Vessel |QID|3123|M|74.4,43.4|
 A Natural Materials |QID|3128|M|74.4,43.4|
+
+C Testing the Vessel |QID|3123|U|9618|N|Kill bears and use the Muisek Vessel on their bodies until you collect 10 muisek. They can be found in the area near Camp Mojache.|
+
 T War on the Woodpaw |QID|2862|N|Turn this one in when you're ready to do the followup. |M|74.9,42.5|
 A Alpha Strike |QID|2863|N|Get this TIMED quest. |M|74.9,42.5|
 
