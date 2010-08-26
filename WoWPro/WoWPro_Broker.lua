@@ -132,9 +132,8 @@ function WoWPro:RegisterEvents()
 		-- Unlocking guide frame when leaving combat --
 		if event == "PLAYER_REGEN_ENABLED" then
 			WoWPro.combat = false
-			WoWPro:UpdateGuide() 
 			if WoWPro.completing then 
-				WoWPro:MapPoint()
+				WoWPro:UpdateGuide() 
 				WoWPro.completing = false
 			end
 		end
@@ -159,9 +158,16 @@ function WoWPro.CompleteStep(step)
 	WoWPro.completing = true
 	local GID = WoWProDB.char.currentguide
 	WoWProDB.char.guide[GID].completion[step] = true
+	for i,row in ipairs(WoWPro.rows) do
+		if WoWProDB.char.guide[GID].completion[row.index] then
+			row.check:SetChecked(true)
+		else
+			row.check:SetChecked(false)
+		end
+	end 
+	WoWPro:MapPoint()
 	if not WoWPro.combat then 
 		WoWPro:UpdateGuide() 
-		WoWPro:MapPoint()
 		WoWPro.completing = false
 	end
 end

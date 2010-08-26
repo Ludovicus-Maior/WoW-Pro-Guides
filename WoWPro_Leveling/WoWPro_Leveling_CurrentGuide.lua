@@ -59,7 +59,6 @@ frame:SetScript("OnShow", function()
 		row:SetHeight(ROWHEIGHT)
 
 		row.check = WoWPro:CreateCheck(row)
-		row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 		row.action = WoWPro:CreateAction(row, row.check)
 		row.step = WoWPro:CreateStep(row, row.action)
 		row.note = WoWPro:CreateNote(row, row.action)

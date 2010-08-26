@@ -56,6 +56,7 @@ end
 	
 -- Guide Load --
 function WoWPro_Leveling:LoadGuide()
+	local GID = WoWProDB.char.currentguide
 
 	-- Parsing quests --
 	local sequence = WoWPro.loadedguide["sequence"]
@@ -193,6 +194,11 @@ function WoWPro_Leveling:RowUpdate()
 		-- Getting the image and text for the step --
 		row.step:SetText(step)
 		if step then row.check:Show() else row.check:Hide() end
+		if WoWProDB.char.guide[GID].completion[k] then
+			row.check:SetChecked(true)
+		else
+			row.check:SetChecked(false)
+		end
 		if note then note = strtrim(note) end
 		if WoWProDB.profile.showcoords and coord and note then note = note.." ("..coord..")" end
 		if WoWProDB.profile.showcoords and coord and not note then note = "("..coord..")" end

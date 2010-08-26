@@ -82,6 +82,7 @@ local zidmap = {
 }
 
 function WoWPro:MapPoint(row)
+	local GID = WoWProDB.char.currentguide
 	
 	-- Removing old map point --
 	WoWPro:RemoveMapPoint()
@@ -91,7 +92,9 @@ function WoWPro:MapPoint(row)
 	
 	-- If a row was not specified, skipping any sticky rows --
 	if not row or not WoWPro.stickies[WoWPro.rows[row].index] then 
-		while WoWPro.stickies and WoWPro.stickies[WoWPro.rows[rowi].index] do rowi=rowi+1 end
+		while WoWPro.stickies[WoWPro.rows[rowi].index] 
+		or WoWProDB.char.guide[GID].completion[WoWPro.rows[rowi].index] 
+		do rowi=rowi+1 end
 	end
 	
 	-- Loading Variables for this step --
