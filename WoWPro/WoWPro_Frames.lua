@@ -368,10 +368,15 @@ function WoWPro:CreateResizeButton()
 		resizebutton:SetScript("OnMouseDown", function()
 			WoWPro.MainFrame:StartSizing(TOPLEFT)
 			if WoWPro:UpdateGuide() then WoWPro:UpdateGuide() end
+			WoWPro.MainFrame:SetScript("OnSizeChanged", function(self, width, height)
+				WoWPro.RowSizeSet()
+
+			end)
 		end)
 		resizebutton:SetScript("OnMouseUp", function()
 			WoWPro.MainFrame:StopMovingOrSizing()
 			if WoWPro:UpdateGuide() then WoWPro:UpdateGuide() end
+			WoWPro.MainFrame:SetScript("OnSizeChanged", nil)
 		end)
 	WoWPro.resizebutton = resizebutton
 end
