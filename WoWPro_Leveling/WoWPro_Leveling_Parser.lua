@@ -317,10 +317,10 @@ function WoWPro_Leveling:RowUpdate()
 	
 		-- Checking for loot items in bags --
 		local lootqtyi
-		if lootcheck and ( lootitem or action == "B" )and not optional then
+		if lootcheck and ( lootitem or action == "B" ) then
 			if not WoWPro.stickies[index] then lootcheck = false end
 			if not lootitem then
-				if GetItemCount(lootitem) > 0 then return WoWPro.CompleteStep(k) end
+				if GetItemCount(step) > 0 then return WoWPro.CompleteStep(k) end
 			end
 			if tonumber(lootqty) ~= nil then lootqtyi = tonumber(lootqty) else lootqtyi = 1 end
 			if GetItemCount(lootitem) >= lootqtyi then return WoWPro.CompleteStep(k) end
