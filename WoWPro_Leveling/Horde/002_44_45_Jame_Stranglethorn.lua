@@ -89,6 +89,7 @@ T Big Game Hunter |QID|208|N|Ride back out to Nesingwary's Expedition.  On compl
 T The Mind's Eye |QID|591|
 A Saving Yenniku |QID|592|
 T Cracking Maury's Foot |QID|613|N|Fly to Booty Bay and turn the key into Sea Wolf KcKinley. |
+A Whiskey Slim's Lost Grog |QID|580|M|27.1,77.4|
 C Saving Yenniku |QID|592|U|3912|N|Find Yenniku in the Ruins of Aboraz  then (39.1, 58.3) and use the Soul Gem on him to stun him then talk to him to fill the gem up. |M|34.10,54.08|
 T Saving Yenniku |QID|592|N|Ride back to Grom'gol and turn in the quest.|
 ]]

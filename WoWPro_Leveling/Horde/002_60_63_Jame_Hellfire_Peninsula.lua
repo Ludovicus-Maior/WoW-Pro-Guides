@@ -328,14 +328,14 @@ C Testing the Antidote |QID|10255| |N|Go find a Hulking Helboar, bring it under 
 
 T Testing the Antidote |QID|10255|M|15.5,52.0|
 
-N Things to do |QID|9387|N|Kill the Illidari Taskmasters while you do the next few quests (for Source of the Corruption). Ignore the Dreghood Brutes, they stop attacking once the taskmaster dies. THey're at the Ruins of Sha'naar at (14,55).|
-A Naladu |QID|10403| |N|The quest NPC is in a house to the left at .|M|15,59|
+N Things to do |QID|9387|N|Kill the Illidari Taskmasters while you do the next few quests (for Source of the Corruption). Ignore the Dreghood Brutes, they stop attacking once the taskmaster dies. THey're at the Ruins of Sha'naar.|M|14,55|
+A Naladu |QID|10403| |N|The quest NPC is in a house to the left.|M|15.6,58.7|
 T Naladu |QID|10403| |N|Wait for the elite to move away from the stairs, then run up them. Go left, Naladu is in a hut at the end of the path at .|M|16,65|
 A A Traitor Among Us |QID|10367|M|16.5,65.0|
 C A Traitor Among Us |QID|10367| |N|The key is in the hut in front of the stairs at .|M|14.3,63.5|
 T A Traitor Among Us |QID|10367| |N|Back at Naladu|M|16.5,65.0|
 A The Dreghood Elders |QID|10368|M|16.5,65.0|
-C The Dreghood Elders |QID|10368| |N|Akoru the Firecaller is at , Ayleen the Waterwaker is at (13,58.4), Morod the Windstirrer is at (13.1, 61).|M|15.6,58.8|
+C The Dreghood Elders |QID|10368|N|Akoru the Firecaller, Ayleen the Waterwaker, Morod the Windstirrer|M|15.6,58.8;13,58.4;13.1,61|
 T The Dreghood Elders |QID|10368|M|16.5,65.0|
 A Arzeth's Demise |QID|10369|M|16.5,65.0|
 C Azreth's Demise |QID|10369| |N|Find that big elite you've been avoiding, and use the staff on him, which makes him non-elite, then kill him.| |U|29513|
