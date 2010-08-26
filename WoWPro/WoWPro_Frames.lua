@@ -147,15 +147,10 @@ function WoWPro.RowSizeSet()
 -- Row-Specific Customization --
 	local space = WoWProDB.profile.space
 	local pad = WoWProDB.profile.pad
-	WoWPro.StickyCount = 0
 	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
 	
 	for i,row in ipairs(WoWPro.rows) do
-		-- Counting stickies --
-		if WoWPro.stickies and WoWPro.stickies[row.index] and i == WoWPro.StickyCount + 1 then
-			WoWPro.StickyCount = WoWPro.StickyCount+1
-		end
 		
 		-- Hiding the row if it's past the set number of steps --
 		if WoWProDB.profile.autoresize then

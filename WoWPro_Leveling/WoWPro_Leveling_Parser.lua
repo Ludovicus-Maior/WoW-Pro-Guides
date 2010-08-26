@@ -122,7 +122,7 @@ end
 
 -- Row Content Update --
 function WoWPro_Leveling:RowUpdate()
-	local stickycount = 0
+	WoWPro.StickyCount = 0
 	local reload = false
 	local lootcheck = true
 	local i, k = 1, 1
@@ -131,7 +131,7 @@ function WoWPro_Leveling:RowUpdate()
 		
 		-- Skipping any unsticky steps or optional steps unless it's time for them to display --
 		local optionalskip = true
-		while ( WoWPro.unstickies[k] and i > stickycount+1 ) 
+		while ( WoWPro.unstickies[k] and i > WoWPro.StickyCount+1 ) 
 		or (WoWPro.optional[k] and optionalskip) 
 		or WoWProDB.char.guide[GID].completion[k] do 
 			if WoWPro.optional[k] and WoWPro.uses[k] then
@@ -148,7 +148,7 @@ function WoWPro_Leveling:RowUpdate()
 					l = l+1
 				end
 			end
-			if ( WoWPro.unstickies[k] and i > stickycount+1 ) 
+			if ( WoWPro.unstickies[k] and i > WoWPro.StickyCount+1 ) 
 			or (WoWPro.optional[k] and optionalskip) 
 			or WoWProDB.char.guide[GID].completion[k] then 
 				k = k + 1 
@@ -187,8 +187,8 @@ function WoWPro_Leveling:RowUpdate()
 		end
 		
 		-- Counting stickies that are currently active (at the top) --
-		if sticky and i == stickycount+1 then
-			stickycount = stickycount+1
+		if sticky and i == WoWPro.StickyCount+1 then
+			WoWPro.StickyCount = WoWPro.StickyCount+1
 		end
 		
 		-- Getting the image and text for the step --
@@ -572,6 +572,7 @@ end
 
 -- Auto-Complete: Zone based --
 function WoWPro_Leveling:AutoCompleteZone()
+	WoWPro.StickyCount = WoWPro.StickyCount or 0
 	local currentindex = WoWPro.rows[1+WoWPro.StickyCount].index
 	local action = WoWPro.actions[currentindex]
 	local step = WoWPro.steps[currentindex]
@@ -616,7 +617,7 @@ function WoWPro_Leveling:UpdateQuestTracker()
 						row.track:SetText(track)
 					else --Partial completion steps only track pertinent objective.
 						for l=1,GetNumQuestLeaderBoards(j) do 
-							local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(l, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
+							local itemname = GetQuestLogLeaderBoard(l, j)
 							if questtext:match(itemName) then
 								track = " - "..GetQuestLogLeaderBoard(l, j)
 								if select(3,GetQuestLogLeaderBoard(l, j)) then
