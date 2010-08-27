@@ -617,8 +617,7 @@ function WoWPro_Leveling:UpdateQuestTracker()
 						row.track:SetText(track)
 					else --Partial completion steps only track pertinent objective.
 						for l=1,GetNumQuestLeaderBoards(j) do 
-							local itemname = GetQuestLogLeaderBoard(l, j)
-							if questtext:match(itemName) then
+							if questtext == GetQuestLogLeaderBoard(l, j) then
 								track = " - "..GetQuestLogLeaderBoard(l, j)
 								if select(3,GetQuestLogLeaderBoard(l, j)) then
 									track =  track.." (C)"
