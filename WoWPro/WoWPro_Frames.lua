@@ -254,9 +254,11 @@ function WoWPro.AnchorSet()
 		if GetSide(WoWPro.MainFrame) == "RIGHT" then
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
 			WoWPro.mousenotes[i]:SetPoint("TOPLEFT", row, "TOPLEFT", -210, 10)
+--			row.itembutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -15, -10)
 		else
 			WoWPro.mousenotes[i]:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, 10)
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPRIGHT", 210, 10)
+--			row.itembutton:SetPoint("TOPRIGHT", row, "TOPRIGHT", 35, -10)
 		end
 	end
 	WoWPro.MainFrame:SetScript("OnUpdate", function()
@@ -268,7 +270,7 @@ function WoWPro.AnchorSet()
 		local hcenter = (left + right) / 2
 		local anchorpoint = WoWProDB.profile.anchorpoint
 		local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
-		
+			
 		-- Setting anchor point based on the quadrant if it's set to auto --
 		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 		
