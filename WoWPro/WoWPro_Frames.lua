@@ -648,6 +648,9 @@ function WoWPro:CreateDropdownMenu()
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
 				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+				for j = 1,WoWPro.stepcount do 
+					WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
+				end
 				WoWPro:LoadGuide()
 			end} )
 	end

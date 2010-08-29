@@ -56,7 +56,11 @@ function WoWPro_Leveling.UpdateGuideList()
 			if IsShiftKeyDown() then
 				local iGuide = WoWPro_Leveling.GuideList[row.i]
 				WoWProDB.char.currentguide = iGuide["GID"]
+				WoWPro:LoadGuide()
 				WoWProDB.char.guide[iGuide["GID"]] = nil
+				for j = 1,WoWPro.stepcount do 
+					WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
+				end
 				WoWPro:LoadGuide()
 			else
 				local iGuide = WoWPro_Leveling.GuideList[row.i]
