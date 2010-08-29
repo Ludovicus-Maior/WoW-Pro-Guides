@@ -67,9 +67,9 @@ function WoWPro_Leveling:LoadGuide()
 		= ParseQuests(string.split("\n", sequence()))
 	
 	--Checking the completed quest table and checking of steps
-	if WoWProDB.char.guide.completedQIDs then
+	if WoWProDB.char.completedQIDs then
 		for i,QID in pairs(WoWPro.QIDs) do
-			if WoWProDB.char.guide.completedQIDs[tonumber(QID)] then
+			if WoWProDB.char.completedQIDs[tonumber(QID)] then
 				WoWProDB.char.guide[GID].completion[i] = true
 			end
 		end
@@ -125,35 +125,58 @@ function WoWPro_Leveling:RowUpdate()
 	WoWPro.StickyCount = 0
 	local reload = false
 	local lootcheck = true
-	local i, k = 1, 1
+	local k = 1
 	
-	while i <= 15 do if not WoWProDB.char.guide[GID].completion[k] then
+	for i=1,15 do
 		
-		-- Skipping any unsticky steps or optional steps unless it's time for them to display --
-		local optionalskip = true
-		while ( WoWPro.unstickies[k] and i > WoWPro.StickyCount+1 ) 
-		or (WoWPro.optional[k] and optionalskip) 
-		or WoWProDB.char.guide[GID].completion[k] do 
+		-- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
+		local skipcheck = true
+		while skipcheck do 
 			if WoWPro.optional[k] and WoWPro.uses[k] then
-				if GetItemCount(WoWPro.uses[k]) >= 1 then optionalskip = false end
-			end
-			if WoWPro.optional[k] and WoWPro.prereq[k] then
-				if WoWProDB.char.guide.completedQIDs[tonumber(WoWPro.prereq[k])] then optionalskip = false end
+				if GetItemCount(WoWPro.uses[k]) >= 1 then skipcheck = false end
 			end
 			if WoWPro.optional[k] and WoWPro.QIDs[k] then
 				local l=1
 				while GetQuestLogTitle(l) do
 					local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(l)
-					if questID == WoWPro.QIDs[k] then optionalskip = false end
+					if questID == WoWPro.QIDs[k] then skipcheck = false end
 					l = l+1
 				end
 			end
-			if ( WoWPro.unstickies[k] and i > WoWPro.StickyCount+1 ) 
-			or (WoWPro.optional[k] and optionalskip) 
-			or WoWProDB.char.guide[GID].completion[k] then 
+			if WoWPro.prereq[k] then 
+				local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+				for j=1,numprereqs do
+					local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+					if WoWPro.optional[k] and jprereq then
+						if WoWProDB.char.completedQIDs[tonumber(jprereq)] then skipcheck = false end
+					end
+					if not WoWPro.optional[k] 
+					and not WoWProDB.char.guide[GID].skipped[k] 
+					and not WoWProDB.char.skippedQIDs[WoWPro.QIDs[k]] then
+						if WoWProDB.char.skippedQIDs[tonumber(jprereq)] then
+							if WoWPro.actions[k] == "A" 
+							or WoWPro.actions[k] == "C" 
+							or WoWPro.actions[k] == "T" then
+								WoWProDB.char.skippedQIDs[WoWPro.QIDs[k]] = true
+							else
+								WoWProDB.char.guide[GID].skipped[k] = true
+							end
+							reload = true
+						else
+							skipcheck = false
+						end
+					end
+				end
+			elseif not WoWPro.optional[k] then
+				skipcheck = false 
+			end
+			if WoWPro.unstickies[k] and i > WoWPro.StickyCount+1 then skipcheck = true end
+			if WoWProDB.char.guide[GID].completion[k] then skipcheck = true end
+			if skipcheck then 
 				k = k + 1 
 			end
 		end
+		if reload then return reload end
 		
 		--Loading Variables --
 		local row = WoWPro.rows[i]
@@ -183,7 +206,7 @@ function WoWPro_Leveling:RowUpdate()
 					reload = true
 				end
 			end
-			if reload then break end
+			if reload then return reload end
 		end
 		
 		-- Counting stickies that are currently active (at the top) --
@@ -206,9 +229,21 @@ function WoWPro_Leveling:RowUpdate()
 		row.note:SetText(note)
 		row.action:SetTexture(WoWPro_Leveling.actiontypes[action])
 		
-		-- On Click - Complete Step Clicked --
-		row.check:SetScript("OnClick", function()
-			WoWPro.CompleteStep(row.index)
+		-- Checkbox Function --
+		row.check:SetScript("OnClick", function(self, button, down)
+			if button == "LeftButton" then
+				if WoWPro.actions[row.index] == "A" 
+				or WoWPro.actions[row.index] == "C" 
+				or WoWPro.actions[row.index] == "T" then
+					WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = true
+				else
+					WoWProDB.char.guide[GID].skipped[row.index] = true
+				end
+				WoWPro:UpdateGuide()
+				WoWPro:MapPoint()
+			elseif button == "RightButton" then
+				WoWPro.CompleteStep(row.index)
+			end
 		end)
 		
 		-- Setting up click-to-quest log --
@@ -333,9 +368,9 @@ function WoWPro_Leveling:RowUpdate()
 		end
 
 		WoWPro.rows[i] = row
-		i = i + 1
 		
-	end k = k + 1 end
+		k = k + 1
+	end
 
 	return reload
 end
@@ -361,7 +396,7 @@ function WoWPro_Leveling:EventHandler(self, event, ...)
 
 	-- Receiving the result of the completed quest query --
 	if event == "QUEST_QUERY_COMPLETE" then
-		GetQuestsCompleted(WoWProDB.char.guide.completedQIDs)
+		GetQuestsCompleted(WoWProDB.char.completedQIDs)
 		WoWPro.UpdateGuide()
 	end
 		
@@ -461,7 +496,7 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 					for k=1,#MissingQIDs do
 						if MissingQIDs[k] == QID then
 							WoWPro.CompleteStep(i)
-							WoWProDB.char.guide.completedQIDs[MissingQIDs[k]] = true
+							WoWProDB.char.completedQIDs[MissingQIDs[k]] = true
 							WoWPro_Leveling.CompletingQuest = false
 						end
 					end

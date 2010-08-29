@@ -4,6 +4,7 @@
 
 function WoWPro:CreateCheck(parent)
 	local check = CreateFrame("CheckButton", nil, parent)
+	check:RegisterForClicks("AnyUp")
 	check:SetPoint("TOPLEFT")
 	check:SetWidth(15)
 	check:SetHeight(15)

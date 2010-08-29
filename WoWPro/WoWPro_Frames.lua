@@ -332,7 +332,7 @@ function WoWPro:CreateMainFrame()
 	frame:SetHeight(300)
 	frame:SetWidth(200)
 	frame:SetMinResize(150,40)
-	frame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
+	frame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
 	WoWPro.MainFrame = frame
 	-- Menu --
 	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
@@ -416,21 +416,24 @@ function WoWPro:CreateTitleBar()
 		end
 	end) 
 	WoWPro.Titlebar:SetScript ("OnDoubleClick", function (self, button)
+		local anchorpoint = WoWProDB.profile.anchorpoint
+		local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
+		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 		if ( WoWPro.GuideFrame:IsVisible() ) and button == "LeftButton" then
 			if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
 			WoWPro.GuideFrame:Hide()
 			WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
-			if WoWProDB.profile.resize then WoWPro.MainFrame:StartSizing(TOPLEFT); WoWPro.resizebutton:Hide() end
+			WoWPro.MainFrame:StartSizing("TOP")
 			WoWPro.MainFrame:SetHeight(WoWPro.Titlebar:GetHeight())
-			if WoWProDB.profile.resize then WoWPro.MainFrame:StopMovingOrSizing() end
-			WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
+			WoWPro.MainFrame:StopMovingOrSizing()
+			WoWPro.AnchorSet()
 		elseif  button == "LeftButton" then
 			WoWPro.GuideFrame:Show()
 			if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
-			if WoWProDB.profile.resize then WoWPro.MainFrame:StartSizing(TOPLEFT) end
+			WoWPro.MainFrame:StartSizing("TOP")
 			WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
-			if WoWProDB.profile.resize then WoWPro.MainFrame:StopMovingOrSizing(); WoWPro.resizebutton:Show() end
-			WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
+			WoWPro.MainFrame:StopMovingOrSizing();
+			WoWPro.AnchorSet()
 			WoWPro:UpdateGuide()
 		end
 	end)   

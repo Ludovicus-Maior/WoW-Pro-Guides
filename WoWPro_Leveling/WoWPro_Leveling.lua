@@ -15,10 +15,9 @@ end
 
 function WoWPro_Leveling:OnEnable()
 	-- Creating empty user settings if none exist
-	if not WoWProDB.char.guide then 
-		WoWProDB.char.guide = {} 
-		WoWProDB.char.guide.completedQIDs = {}
-	end
+	WoWProDB.char.guide = WoWProDB.char.guide or {} 
+	WoWProDB.char.completedQIDs = WoWProDB.char.completedQIDs or {}
+	WoWProDB.char.skippedQIDs = WoWProDB.char.skippedQIDs or {}
 	
 	-- Loading Initial Guide --
 	local locClass, engClass = UnitClass("player")
