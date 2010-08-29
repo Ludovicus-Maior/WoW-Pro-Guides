@@ -22,8 +22,9 @@ WoWPro_Leveling.actiontypes = {
 -- Quest parsing function --
 local function ParseQuests(...)
 	local i = 1
-	local actions, steps, QIDs, notes, index, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, optional, prereq = 
-		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+	local actions, steps, QIDs, notes, index, maps, stickies, unstickies, 
+		uses, zones, lootitem, lootqty, questtext, optional, prereq, noncombat = 
+		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 	local myclass, myrace = UnitClass("player"), UnitRace("player")
 	local stepcount, stickiescount, optionalcount = 0, 0, 0
 	for j=1,select("#", ...) do
@@ -45,13 +46,14 @@ local function ParseQuests(...)
 				if text:match("|QO|([^|]*)|?") then questtext[i] = text:match("|QO|([^|]*)|?") end
 				if text:find("|O|") then optional[i] = true; optionalcount = optionalcount + 1 end
 				if text:match("|PRE|([^|]*)|?") then prereq[i] = text:match("|PRE|([^|]*)|?") end
+				if text:find("|NC|") then noncombat[i] = true end
 				
 				actions[i], steps[i], notes[i], QIDs[i], index[i], maps[i] = action, step, note, QID, i, map
 				i = i + 1
 			end end
 		end
 	end
-	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, stepcount, stickiescount, optional, prereq, optionalcount
+	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, stepcount, stickiescount, optional, prereq, optionalcount, noncombat
 end
 	
 -- Guide Load --
@@ -63,7 +65,7 @@ function WoWPro_Leveling:LoadGuide()
 	WoWPro.steps, WoWPro.actions, WoWPro.notes,  WoWPro.QIDs,  WoWPro.maps, 
 		WoWPro.stickies, WoWPro.unstickies, WoWPro.uses, WoWPro.zones, WoWPro.lootitem, 
 		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickiescount, WoWPro.optional, 
-		WoWPro.prereq, WoWPro.optionalcount
+		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat
 		= ParseQuests(string.split("\n", sequence()))
 	
 	--Checking the completed quest table and checking of steps
@@ -228,6 +230,9 @@ function WoWPro_Leveling:RowUpdate()
 		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
 		row.note:SetText(note)
 		row.action:SetTexture(WoWPro_Leveling.actiontypes[action])
+		if WoWPro.noncombat[k] then
+			row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
+		end
 		
 		-- Checkbox Function --
 		row.check:SetScript("OnClick", function(self, button, down)
@@ -548,15 +553,13 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 	-- Partial Completes --
 	for i = 1,15 do
 		local index = WoWPro.rows[i].index
-		local action = WoWPro.actions[index]
-		local questtext = WoWPro.questtext[index]
-		if action == "K" or action == "N" or action == "C" and questtext then
+		if WoWPro.questtext[index] then
 			for j = 1, 25 do
 				if GetQuestLogTitle(j) then
 					local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
 					if ( not isHeader ) then
 						for k=1,GetNumQuestLeaderBoards(j) do 
-							if questtext == GetQuestLogLeaderBoard(k, j) then 
+							if WoWPro.questtext[index] == GetQuestLogLeaderBoard(k, j) then 
 								WoWPro.CompleteStep(index)
 							end
 						end 

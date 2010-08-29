@@ -111,6 +111,9 @@ frame:SetScript("OnShow", function()
 			
 			local action = WoWPro.actions[index]
 			row.action:SetTexture(WoWPro_Leveling.actiontypes[action])
+			if WoWPro.noncombat[index] then
+				row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
+			end
 			
 			local note = WoWPro.notes[index]
 			row.note:SetText(note)
