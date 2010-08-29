@@ -5,8 +5,8 @@
   <Script file="000_16_18_Maws_Loch_Modan.lua"/>
   <Script file="000_18_19_Maws_Westfall.lua"/>
   <Script file="000_19_20_Maws_Redridge.lua"/>
-  <Script file="001_12_20_Svens_Bloodmyst.lua"/>
-  <Script file="002_12_14_Bostons_Loch_Modan.lua"/>
+  <Script file="001_12_20_Svens_Bloodmyst.lua"/>  
+  <Script file="002_12_14_Bostons_Loch_Modan.lua"/>  <Script file="000_13_20_Hairbos_Night_Elf_Darkshore.lua"/>
   <Script file="002_14_15_Bostons_Westfall.lua"/>
   <Script file="002_15_18_Bostons_Redridge.lua"/>
   <Script file="002_18_20_Bostons_Westfall.lua"/>

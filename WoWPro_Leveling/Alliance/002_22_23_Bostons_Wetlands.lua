@@ -31,7 +31,7 @@ A Digging Through the Ooze|QID|470| |M|11.7,58|
 N From now on...|QID|484|N|From now on, kill and loot Young Wetlands Crocolisks on sight. Close this step.|
 N Gobbler's Head|QID|279|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|M|14.6,40.8;13.44,38.64;18.10,40.10|L|3618 1|
 C Claws from the Deep|N|Kill the rest of the Bluegill Murlocs you need for this quest.|M|20,40.6;13.8,39.8|QID|279|
-A Ormer's Revenge|N|Follow the path up until you find a cave. Accept the quest from Ormer.|M|34,41;37,43.6;38.00, 52.00|
+A Ormer's Revenge|QID|294|N|Follow the path up until you find a cave. Accept the quest from Ormer.|M|34,41;37,43.6;38.00, 52.00|
 T In Search of The Excavation Team (Part 1)|QID|305| |M|38.8,52.3|
 A In Search of The Excavation Team (Part 2)|QID|306| |M|38.8,52.3|
 T The Greenwarden|QID|463|N|Reminder: Don't forget to kill and loot Young Wetlands Crocolisks on sight.|M|34,41;34.9,38.3;56.3,40.3|
@@ -45,11 +45,11 @@ C Fire Taboo|N|Follow the arrows and kill gnolls until you get 9 Crude Flints. T
 T Fire Taboo|QID|277||M|56.3,40.3|
 A Blisters on The Land|QID|275||M|56.3,40.3|
 C Young Crocolisk Skins|N|Finish this quest now.|M|51.00, 36.00|QID|484|
-C Ormer's Revenge|N|Kill raptors until you complete this quest.|M|28.8,43.4;25.7, 48.00;22.4,50.5;24.3,52.5|QID|294|
-T Ormer's Revenge|N|M|34,4|M|37,43.6;38.00,52.00|
-A Ormer's Revenge (Part 2)|QID|295| |M|38.1,51.2|
-H Use Hearthstone|QID|279|N|Hearthstone back to the Deepwater Tavern|U|6948|
-T Digging Through the Ooze|QID|470| |M|11.7,58|
+C Ormer's Revenge|QID|294|N|Kill raptors until you complete this quest.|M|28.8,43.4;25.7, 48.00;22.4,50.5;24.3,52.5|
+T Ormer's Revenge|QID|294|M|38.1,51.2|
+A Ormer's Revenge|QID|295|M|38.1,51.2|
+H Deepwater Tavern|QID|279|
+T Digging Through the Ooze|QID|470|M|11.7,58|
 T In Search of The Excavation Team|QID|306| |M|11.5,52.2|
 T Young Crocolisk Skins|QID|484| |M|8.6,55.8|
 T Claws from the Deep|QID|279| |M|8.4,58.6|
@@ -57,7 +57,9 @@ N READ THIS|QID|3765|N|If you are on a PVP server, you might want to skip the ne
 F Stormwind City|QID|3765|N|Fly to Stormwind City|M|9.50, 59.70|
 N Sell junk, repair, restock|QID|3765|N|Sell junk, repair, visit the AH, restock. Close this step when you're done.|
 A The Corruption Abroad|QID|3765| |M|36.4,67.5||Z|Stormwind City|
-T The Corruption Abroad|QID|3765| |M|38.4,43.1||Z|Darkshore|
-A Researching the Corruption|QID|1275||M|38.4,43.1| |Z|Darkshore|
-f Auberdine|QID|1275|N|Get the flight path|M|36.30, 45.60|Z|Darkshore|
+b Auberdine|QID|3765|
+T The Corruption Abroad|QID|3765|M|38.4,43.1|
+A Researching the Corruption|QID|1275||M|38.4,43.1|Z|Darkshore|
+f Auberdine|QID|1275|N|Get the flight path|M|36.30,45.60|Z|Darkshore|
+A Journey to Astranaar |QID|1133|M|33.9,42.5|Z|Darkshore|
 ]]end)

@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WoWPro.Version = "1.0.1 - Beta"
+WoWPro.Version = "1.1.7 - Beta"
 
 local defaults = { profile = {
 	enable = true,
@@ -55,7 +55,7 @@ function WoWPro:OnInitialize()
 	WoWProDB = LibStub("AceDB-3.0"):New("WoWProData", defaults, true)
 	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
-	WoWProDB.RegisterCallback(self, "OnProfileReset", "RefreshConfig")
+	WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
 	WoWPro:CreateMiniMapButton()
 	WoWPro:CreateConfig()
 end
@@ -63,6 +63,25 @@ end
 function WoWPro:RefreshConfig()
 	WoWPro:LoadGuide()
 	WoWPro:CustomizeFrames()
+end
+
+function WoWPro:SetDefaults()
+	
+	-- AnchorFrame --
+	WoWPro.AnchorFrame:SetHeight(22)
+	WoWPro.AnchorFrame:SetWidth(200)
+	WoWPro.AnchorFrame:SetMinResize(150,40)
+	WoWPro.AnchorFrame:ClearAllPoints()
+	WoWPro.AnchorFrame:SetPoint("TOPRIGHT", UIParent, "RIGHT", -10, 175)
+	
+	-- MainFrame --
+	WoWPro.MainFrame:SetHeight(300)
+	WoWPro.MainFrame:SetWidth(200)
+	WoWPro.MainFrame:SetMinResize(150,40)
+	WoWPro.MainFrame:ClearAllPoints()
+	WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
+	
+	WoWPro:RefreshConfig()
 end
 
 function WoWPro:OnEnable()

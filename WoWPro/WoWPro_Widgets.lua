@@ -4,6 +4,7 @@
 
 function WoWPro:CreateCheck(parent)
 	local check = CreateFrame("CheckButton", nil, parent)
+	check:RegisterForClicks("AnyUp")
 	check:SetPoint("TOPLEFT")
 	check:SetWidth(15)
 	check:SetHeight(15)
@@ -11,6 +12,7 @@ function WoWPro:CreateCheck(parent)
 	check:SetPushedTexture("Interface\\Buttons\\UI-CheckBox-Down")
 	check:SetHighlightTexture("Interface\\Buttons\\UI-CheckBox-Highlight")
 	check:SetDisabledCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
+	check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 	
 	return check
 end

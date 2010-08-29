@@ -11,7 +11,6 @@ F Tarren Mill|QID|650|
 R The Hinterlands |QID|650|N| |Z|Hillsbrad Foothills|M|87,29|
 T Ripple Recovery (Part 2) |QID|650|N|Turn this quest in to Gilveradin Sunchaser in Shindigger's camp.|M|26.7,48.6|
 A A Sticky Situation |QID|77|M|26.7,48.6|
-C Testing the Vessel |QID|3123|U|9618|N|Kill any owlbeasts and use the Wildkin Muisek Vessel on their bodies until you collect 10 muisek while on your way to the Overlook Cliffs  |M|80.8,46.8|
 R The Overlook Cliffs |QID|626|N|Continue to the waterfall .|M|80.8,46.8|
 T Cortello's Riddle (Part 3)|QID|626|N|Once there, jump down into the water (don't miss!), dive down, and find Cortell's Chest (80.81,46.79) and collect your prize.|M|80.8,46.8|
 C Whiskey Slim's Lost Grog |QID|580|N|Start running south along the water towards Revantusk Village  and watch for blue bottles to collect.  Go until you have 12. |M|77,77|

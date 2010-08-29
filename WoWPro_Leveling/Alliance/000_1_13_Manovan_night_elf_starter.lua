@@ -1,11 +1,9 @@
 WoWPro_Leveling:RegisterGuide("ManTel0113", "Teldrassil", "Manovan", "01", "13", "HaiDar1320", "Alliance", function()
 return [[
 
-N Try to log out in an inn or in one of the major cities! This allows more XP the next time you play.|QID|456|
-K Kill Young Nightsabers, Young Thistle Boars and Grells |QID|456|O|N|If this is your first character, kill all these mobs, especially Grells until bag is full. Then sell junk, this wil help give you enough coper to get going, and you will be at least level 2 or 3. Don't level past 4.|
-A The Balance of Nature |QID|456| |N|Back to where you started if you did the optional quest.|M|58, 44|
-A The Woodland Protector |QID|458| |N|Kill Young Nightsabers, Young Thistle on your way there. |M|59, 42|
-C The Balance of Nature |QID|456| |M|60.39, 45.66)|
+A The Balance of Nature |QID|456| |N|In front of you.|M|58,44|
+A The Woodland Protector |QID|458| |N|Kill Young Nightsabers, Young Thistle on your way there. |M|59,42|
+C The Balance of Nature |QID|456| |M|60.39,45.66|
 N Level 2 |N|Kill mobs until you are level 2. Close when completed. |QID|458|LVL|2|
 
 A A Good Friend |QID|4495| |M|60.9,42.0|
@@ -17,11 +15,11 @@ A Simple Sigil |C|Warrior| |QID|3116|
 A Verdant Sigil |C|Druid| |QID|3120|
 A The Balance of Nature |QID|457|
 N Sell junk and repair if needed. You will need some money for training. |QID|457|
-T Encrypted Sigil |C|Rogue| |QID|3118| |N|Inside the main building (59, 38) |M|59, 38|
-T Etched Sigil |C|Hunter| |QID|3117| |N| Walk up the trunk to (58, 40) |M|58, 40|
-T Hallowed Sigil |C|Priest| |QID|3119| |N|Inside the main building (59, 40) |M|59, 40|
-T Simple Sigil |C|Warrior| |QID|3116| |N|Inside the main building (59, 38) |M|59, 38|
-T Verdant Sigil |C|Druide| |QID|3120| |N|Walk up the trunk to (58, 40) |M|58, 40|
+T Encrypted Sigil |C|Rogue| |QID|3118| |N|Inside the main building|M|59,38|
+T Etched Sigil |C|Hunter| |QID|3117| |N| Walk up the trunk|M|58,40|
+T Hallowed Sigil |C|Priest| |QID|3119| |N|Inside the main building|M|59,40|
+T Simple Sigil |C|Warrior| |QID|3116| |N|Inside the main building |M|59,38|
+T Verdant Sigil |C|Druide| |QID|3120| |N|Walk up the trunk |M|58,40|
 N Train in skills while with your trainer.|QID|457|
 T The Woodland Protector |QID|458| |M|57.7,45.3|
 A The Woodland Protector |QID|459|

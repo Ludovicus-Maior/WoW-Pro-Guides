@@ -116,7 +116,7 @@ A The Longbeards |QID|9558|M|54.3,63.4|
 T Return to Honor Hold |QID|10903|M|54.3,63.6|
 A Fel Spirits |QID|10909|M|54.3,63.6|
 A Digging for Prayer Beads |QID|10916|M|54.3,63.6|
-N Silken Thread |N|Buy a Silken thread from Hama. | |L|4291 1|M|54.60,63.70|
+N Silken Thread|N|Buy a Silken thread from Hama.|L|4291 1|M|54.60,63.70|QID|10916|
 N Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|
 A Hellfire Fortifications |QID|10106|
 N Fei Fei Doggy Treat |QID|10916| |N|Talk to Tracy Proudwell and talk about the dog, and then the treat, and then talk to her again and ask to redeem marks.  Buy a Fei Fei Doggy Treat. | |L|31799 1|M|56.30,62.80|

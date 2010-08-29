@@ -147,15 +147,10 @@ function WoWPro.RowSizeSet()
 -- Row-Specific Customization --
 	local space = WoWProDB.profile.space
 	local pad = WoWProDB.profile.pad
-	WoWPro.StickyCount = 0
 	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
 	
 	for i,row in ipairs(WoWPro.rows) do
-		-- Counting stickies --
-		if WoWPro.stickies and WoWPro.stickies[row.index] and i == WoWPro.StickyCount + 1 then
-			WoWPro.StickyCount = WoWPro.StickyCount+1
-		end
 		
 		-- Hiding the row if it's past the set number of steps --
 		if WoWProDB.profile.autoresize then
@@ -259,9 +254,11 @@ function WoWPro.AnchorSet()
 		if GetSide(WoWPro.MainFrame) == "RIGHT" then
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
 			WoWPro.mousenotes[i]:SetPoint("TOPLEFT", row, "TOPLEFT", -210, 10)
+--			row.itembutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -15, -10)
 		else
 			WoWPro.mousenotes[i]:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, 10)
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPRIGHT", 210, 10)
+--			row.itembutton:SetPoint("TOPRIGHT", row, "TOPRIGHT", 35, -10)
 		end
 	end
 	WoWPro.MainFrame:SetScript("OnUpdate", function()
@@ -273,7 +270,7 @@ function WoWPro.AnchorSet()
 		local hcenter = (left + right) / 2
 		local anchorpoint = WoWProDB.profile.anchorpoint
 		local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
-		
+			
 		-- Setting anchor point based on the quadrant if it's set to auto --
 		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 		
@@ -335,7 +332,7 @@ function WoWPro:CreateMainFrame()
 	frame:SetHeight(300)
 	frame:SetWidth(200)
 	frame:SetMinResize(150,40)
-	frame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
+	frame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
 	WoWPro.MainFrame = frame
 	-- Menu --
 	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
@@ -368,10 +365,15 @@ function WoWPro:CreateResizeButton()
 		resizebutton:SetScript("OnMouseDown", function()
 			WoWPro.MainFrame:StartSizing(TOPLEFT)
 			if WoWPro:UpdateGuide() then WoWPro:UpdateGuide() end
+			WoWPro.MainFrame:SetScript("OnSizeChanged", function(self, width, height)
+				WoWPro.RowSizeSet()
+
+			end)
 		end)
 		resizebutton:SetScript("OnMouseUp", function()
 			WoWPro.MainFrame:StopMovingOrSizing()
 			if WoWPro:UpdateGuide() then WoWPro:UpdateGuide() end
+			WoWPro.MainFrame:SetScript("OnSizeChanged", nil)
 		end)
 	WoWPro.resizebutton = resizebutton
 end
@@ -414,21 +416,24 @@ function WoWPro:CreateTitleBar()
 		end
 	end) 
 	WoWPro.Titlebar:SetScript ("OnDoubleClick", function (self, button)
+		local anchorpoint = WoWProDB.profile.anchorpoint
+		local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
+		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 		if ( WoWPro.GuideFrame:IsVisible() ) and button == "LeftButton" then
 			if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
 			WoWPro.GuideFrame:Hide()
 			WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
-			if WoWProDB.profile.resize then WoWPro.MainFrame:StartSizing(TOPLEFT); WoWPro.resizebutton:Hide() end
+			WoWPro.MainFrame:StartSizing("TOP")
 			WoWPro.MainFrame:SetHeight(WoWPro.Titlebar:GetHeight())
-			if WoWProDB.profile.resize then WoWPro.MainFrame:StopMovingOrSizing() end
-			WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
+			WoWPro.MainFrame:StopMovingOrSizing()
+			WoWPro.AnchorSet()
 		elseif  button == "LeftButton" then
 			WoWPro.GuideFrame:Show()
 			if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
-			if WoWProDB.profile.resize then WoWPro.MainFrame:StartSizing(TOPLEFT) end
+			WoWPro.MainFrame:StartSizing("TOP")
 			WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
-			if WoWProDB.profile.resize then WoWPro.MainFrame:StopMovingOrSizing(); WoWPro.resizebutton:Show() end
-			WoWPro.MainFrame:SetPoint("TOPLEFT", WoWPro.AnchorFrame, "TOPLEFT")
+			WoWPro.MainFrame:StopMovingOrSizing();
+			WoWPro.AnchorSet()
 			WoWPro:UpdateGuide()
 		end
 	end)   
@@ -643,6 +648,9 @@ function WoWPro:CreateDropdownMenu()
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
 				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+				for j = 1,WoWPro.stepcount do 
+					WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
+				end
 				WoWPro:LoadGuide()
 			end} )
 	end
