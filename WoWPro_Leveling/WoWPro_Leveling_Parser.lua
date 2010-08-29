@@ -554,18 +554,27 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 	for i = 1,15 do
 		local index = WoWPro.rows[i].index
 		if WoWPro.questtext[index] then
-			for j = 1, 25 do
-				if GetQuestLogTitle(j) then
-					local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
-					if ( not isHeader ) then
-						for k=1,GetNumQuestLeaderBoards(j) do 
-							if WoWPro.questtext[index] == GetQuestLogLeaderBoard(k, j) then 
-								WoWPro.CompleteStep(index)
-							end
-						end 
-					end
-				end	
+			local numquesttext = select("#", string.split(";", WoWPro.questtext[index]))
+			local notcomplete = false
+			for l=1,numquesttext do
+				local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[index]))
+				local lcomplete = false
+				for j = 1, 25 do
+					if GetQuestLogTitle(j) then
+						local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
+						if ( not isHeader ) then
+							for k=1,GetNumQuestLeaderBoards(j) do 
+								if lquesttext == GetQuestLogLeaderBoard(k, j) then 
+									lcomplete = true
+									WoWPro.CompleteStep(index)
+								end
+							end 
+						end
+					end	
+				end
+				if not lcomplete then notcomplete = true end
 			end
+			if not notcomplete then WoWPro.CompleteStep(index) end
 		end
 	end
 	
@@ -624,8 +633,6 @@ end
 
 -- Update Quest Tracker --
 function WoWPro_Leveling:UpdateQuestTracker()
-	if not WoWPro.questtext then return end
-
 	for i,row in ipairs(WoWPro.rows) do
 		local index = row.index
 		local questtext = WoWPro.questtext[index] 
@@ -654,15 +661,20 @@ function WoWPro_Leveling:UpdateQuestTracker()
 						end
 						row.track:SetText(track)
 					else --Partial completion steps only track pertinent objective.
-						for l=1,GetNumQuestLeaderBoards(j) do 
-							if questtext == GetQuestLogLeaderBoard(l, j) then
-								track = " - "..GetQuestLogLeaderBoard(l, j)
-								if select(3,GetQuestLogLeaderBoard(l, j)) then
-									track =  track.." (C)"
+						local numquesttext = select("#", string.split(";", questtext))
+						for l=1,numquesttext do
+							local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
+							for l=1,GetNumQuestLeaderBoards(j) do 
+								local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(l, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
+								if itemName and lquesttext:match(itemName) then
+									track = " - "..GetQuestLogLeaderBoard(l, j)
+									if select(3,GetQuestLogLeaderBoard(l, j)) then
+										track =  track.." (C)"
+									end
 								end
 							end
+							row.track:SetText(track)
 						end
-						row.track:SetText(track)
 					end
 				end
 			end end
