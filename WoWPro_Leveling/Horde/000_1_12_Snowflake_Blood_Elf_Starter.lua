@@ -68,7 +68,7 @@ H Sunstrider Isle |QID|8338|U|6948|R|Blood Elf|
 T Tainted Arcane Sliver |QID|8338|R|Blood Elf|M|37.2,18.9|
 
 T Felendren the Banished |QID|8335|R|Blood Elf|M|35.4,22.5|
-A Aiding the Outrunners |QID|8347|R|Blood Elf|
+A Aiding the Outrunners |QID|8347|R|Blood Elf|M|35.4,22.5|
 
 T Aiding the Outrunners |QID|8347|R|Blood Elf|M|40.4,32.2|
 A Slain by the Wretched |QID|9704|M|40.4,32.2|
@@ -85,9 +85,11 @@ A Unstable Mana Crystals |QID|8463|N|Back outside of the inn.|M|48.2,46.0|
 A Wanted: Thaelis the Hungerer |QID|8468|N|From the wanted poster.|M|48.2,46.3|
 A Major Malfunction |QID|8472|M|47.3,46.3|
 
-N Unstable Mana Crystal Crate |QID|8463|L|20743 6|N|You need 6 crates. Look for light beams that come out of the boxes. |M|46,42|
-K Thaelis the Hungerer |QID|8468|L|21781|N|Be careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
-C Major Malfunction |QID|8472|L|21808 6|N|You need 6 Arcane Cores. They patrol the roadway. |M|45,40.5|
+C Unstable Mana Crystals |QID|8463|M|48.2,46.0|S|N|Look for light beams that come out of the boxes.|M|46,42|
+C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|S|
+C Wanted: Thaelis the Hungerer |QID|8468|N|Be careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
+C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|US|
+C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|M|46,42|N|Look for light beams that come out of the boxes.|
 
 T Major Malfunction |QID|8472|M|47.3,46.3|
 A Delivery to the North Sanctum |QID|8895|M|47.3,46.3|

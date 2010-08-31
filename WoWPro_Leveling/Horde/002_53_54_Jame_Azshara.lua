@@ -19,11 +19,11 @@ A Stealing Knowledge|QID|3517|M|22.6,51.4|
 
 A Kim'jael Indeed!|QID|3601|N|Avoid the furbolgs, just run away from them if they attack.|M|53.5,21.8|
 C Kim'jael Indeed!|QID|3601|N|Go to the Thalassian Base Camp  and open crates until you get all the items.|M|56.2,29.6|
-K Reclaimers and Surveyers|QID|3505|N|Keep killing elves until you have 10 of each.|Q|Betrayed|QO|Blood Elf Reclaimer slain: 10/10|M|56.0,25.0|
-K Reclaimers and Surveyers|QID|3505|N|Keep killing elves until you have 10 of each.|Q|Betrayed|QO|Blood Elf Surveyor slain: 10/10|M|56.0,25.0|
+K Reclaimers and Surveyers|QID|3505|N|Keep killing elves until you have 10 of each.|QO|Blood Elf Reclaimer slain: 10/10|M|56.0,25.0|
+K Reclaimers and Surveyers|QID|3505|N|Keep killing elves until you have 10 of each.|QO|Blood Elf Surveyor slain: 10/10|M|56.0,25.0|
 
 C Betrayed (Part 2)|QID|3505|N|Approach the Kaldorei Book of Summoning at  to complete the quest.|M|59.5,31.3|
-T Betrayed (Part 2)|QID|3505|N|At the book at |M|59.50,31.29|
+T Betrayed (Part 2)|QID|3505|N|At the book.|M|59.50,31.29|
 A Betrayed (Part 3)|QID|3506|M|59.5,31.3|
 C Betrayed (Part 3)|QID|3506|N|Click one of the floating crystals. When the defender spawns, move away from the crystals. As you kill him, Magus Rimtori will spawn. Get back your health and mana, then kill Magus Rimtori. If an infernal spawns, just kill it and wait until the crystals respawn and try again.|M|59.5,31.6|
 

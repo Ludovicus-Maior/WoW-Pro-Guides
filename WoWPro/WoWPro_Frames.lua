@@ -177,7 +177,7 @@ function WoWPro.RowSizeSet()
 		
 		-- Setting the note frame size correctly, setting up mouseover notes --
 		local newh, noteh, trackh
-		if WoWProDB.profile.noteshow and (WoWPro.notes[row.index] or (WoWPro.maps[row.index] and WoWProDB.profile.showcoords)) then
+		if WoWProDB.profile.mousenotes and (WoWPro.notes[row.index] or (WoWPro.maps[row.index] and WoWProDB.profile.showcoords)) then
 			noteh = 1
 			row.note:Hide()
 			WoWPro.mousenotes[i].note:SetText(row.note:GetText())
@@ -394,7 +394,8 @@ function WoWPro:CreateTitleBar()
 	WoWPro.Titlebar = titlebar
 	-- Text --
 	local titletext = WoWPro.Titlebar:CreateFontString()
-	titletext:SetPoint("TOP", WoWPro.Titlebar, "TOP", 0, -5)
+	titletext:SetPoint("TOPRIGHT", WoWPro.Titlebar, "TOPRIGHT", -5, -5)
+	titletext:SetPoint("TOPLEFT", WoWPro.Titlebar, "TOPLEFT", 5, -5)
 	titletext:SetFontObject(GameFontNormal)
 	titletext:SetText("WoW-Pro Guides")
 	titletext:SetTextColor(1, 1, 1)

@@ -71,7 +71,7 @@ function WoWPro_Leveling:LoadGuide()
 	--Checking the completed quest table and checking of steps
 	if WoWProDB.char.completedQIDs then
 		for i,QID in pairs(WoWPro.QIDs) do
-			if WoWProDB.char.completedQIDs[tonumber(QID)] then
+			if WoWProDB.char.completedQIDs[QID] then
 				WoWProDB.char.guide[GID].completion[i] = true
 			end
 		end
@@ -171,6 +171,9 @@ function WoWPro_Leveling:RowUpdate()
 				end
 			elseif not WoWPro.optional[k] then
 				skipcheck = false 
+			end
+			if WoWProDB.char.guide[GID].skipped[k] or WoWProDB.char.skippedQIDs[WoWPro.QIDs[k]] then
+				skipcheck = true
 			end
 			if WoWPro.unstickies[k] and i > WoWPro.StickyCount+1 then skipcheck = true end
 			if WoWProDB.char.guide[GID].completion[k] then skipcheck = true end
