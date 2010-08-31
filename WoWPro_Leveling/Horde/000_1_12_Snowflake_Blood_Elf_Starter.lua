@@ -1,7 +1,7 @@
 WoWPro_Leveling:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
 return [[
 A Reclaiming Sunstrider Isle |QID|8325|R|Blood Elf|N|Magistrix Erona|M|38.0,21.0|
-C Mana Wyrm |QID|8325|R|Blood Elf|N|Go down the big stairs and you should see plenty of Mana Wyrms Kill 8 |M|37.60,22.00|
+C Mana Wyrm |QID|8325|R|Blood Elf|N|Go down the big stairs and you should see plenty of Mana Wyrms.|M|37.60,22.00|
 
 T Reclaiming Sunstrider Isle |QID|8325|R|Blood Elf|N|Magistrix Erona|M|38.0,21.0|
 A Unfortunate Measures |QID|8326|R|Blood Elf|M|38.0,21.0|
@@ -48,10 +48,11 @@ T Thirst Unending |QID|8346|R|Blood Elf|M|37.2,18.9|
 
 T Report to Lanthan Perilon |QID|8327|R|Blood Elf|N|To the west.|M|35.4,22.5|
 A Aggression |QID|8334|R|Blood Elf|M|35.4,22.5|
+C Aggression |QID|8334|R|Blood Elf|S|
 N Solanian's Scrying Orb |QID|8330|QO|Solanian's Scrying Orb: 1/1|R|Blood Elf|N|Go south. |M|35.10,28.90|
 N Scroll of Scourge Magic |QID|8330|QO|Scroll of Scourge Magic: 1/1|R|Blood Elf|N|Go northwest. |M|31.40,22.80|
 C The Shrine of Dath'Remar |QID|8345|R|Blood Elf|N|Go further north until you reach the shrine. Read the plaque. |M|29.7,19.5|
-C Aggression |QID|8334|R|Blood Elf|
+C Aggression |QID|8334|R|Blood Elf|US|
 
 T Solanian's Belongings |QID|8330|R|Blood Elf|N|Up the ramp, inside the building.|M|38.8,19.4|
 T The Shrine of Dath'Remar |QID|8345|R|Blood Elf|M|38.8,19.4|
@@ -59,10 +60,9 @@ T The Shrine of Dath'Remar |QID|8345|R|Blood Elf|M|38.8,19.4|
 T Aggression |QID|8334|R|Blood Elf|M|35.4,22.5|
 A Felendren the Banished |QID|8335|R|Blood Elf|M|35.4,22.5|
 
-C Felendren the Banished |QID|8335|L|20799|R|Blood Elf|N|Go up the ramp. At the top pull the two Tainted Arcane Wraiths (they can be pulled one by one), then kill Felendren (32.70, 25.60)|M|30.8,27.1|
+C Felendren the Banished |QID|8335|L|20799|R|Blood Elf|N|Go up the ramp. At the top pull the two Tainted Arcane Wraiths (they can be pulled one by one), then kill Felendren|M|30.8,27.1;32.70, 25.60|
 K Tainted Arcane Wraith |QID|8338|L|20483|R|Blood Elf|
-U Tainted Arcane Sliver |QID|8338|U|20483|R|Blood Elf|
-A Tainted Arcane Sliver |QID|8338|R|Blood Elf|M|32.2,25.9|
+A Tainted Arcane Sliver |QID|8338|R|Blood Elf|U|20483
 
 H Sunstrider Isle |QID|8338|U|6948|R|Blood Elf|
 T Tainted Arcane Sliver |QID|8338|R|Blood Elf|M|37.2,18.9|
@@ -85,9 +85,11 @@ A Unstable Mana Crystals |QID|8463|N|Back outside of the inn.|M|48.2,46.0|
 A Wanted: Thaelis the Hungerer |QID|8468|N|From the wanted poster.|M|48.2,46.3|
 A Major Malfunction |QID|8472|M|47.3,46.3|
 
-N Unstable Mana Crystal Crate |QID|8463|L|20743 6|N|You need 6 crates. Look for light beams that come out of the boxes. |M|46,42|
-K Thaelis the Hungerer |QID|8468|L|21781|N|Be careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
-C Major Malfunction |QID|8472|L|21808 6|N|You need 6 Arcane Cores. They patrol the roadway. |M|45,40.5|
+C Unstable Mana Crystals |QID|8463|M|48.2,46.0|S|N|Look for light beams that come out of the boxes.|M|46,42|
+C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|S|
+C Wanted: Thaelis the Hungerer |QID|8468|N|Be careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
+C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|US|
+C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|M|46,42|N|Look for light beams that come out of the boxes.|
 
 T Major Malfunction |QID|8472|M|47.3,46.3|
 A Delivery to the North Sanctum |QID|8895|M|47.3,46.3|

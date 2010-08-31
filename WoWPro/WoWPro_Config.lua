@@ -82,8 +82,8 @@ local function CreateDisplayConfig()
 						type = "toggle",
 						name = L["Mouseover Notes"],
 						desc = L["Show notes on mouseover instead of always displaying them."],
-						get = function(info) return WoWProDB.profile.noteshow end,
-						set = function(info,val) WoWProDB.profile.noteshow = val 
+						get = function(info) return WoWProDB.profile.mousenotes end,
+						set = function(info,val) WoWProDB.profile.mousenotes = val 
 							WoWPro.RowSizeSet() end
 					},
 					minimap = {

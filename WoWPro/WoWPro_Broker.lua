@@ -33,11 +33,9 @@ function WoWPro:LoadGuide()
 	local guidetype = WoWPro.loadedguide["guidetype"]
 	
 	-- Creating a new entry if this guide does not have one
-	if WoWProDB.char.guide[GID] == nil then 
-		WoWProDB.char.guide[GID] = {
-			completion = {}
-		}
-	end
+	WoWProDB.char.guide[GID] = WoWProDB.char.guide[GID] or {}
+	WoWProDB.char.guide[GID].completion = WoWProDB.char.guide[GID].completion or {}
+	WoWProDB.char.guide[GID].skipped = WoWProDB.char.guide[GID].skipped or {}
 		
 	-- Running Module-specific LoadGuide() --
 	if WoWPro.loadedguide["guidetype"] == "Leveling" and WoWPro_Leveling:IsEnabled() then WoWPro_Leveling:LoadGuide() end
@@ -132,9 +130,8 @@ function WoWPro:RegisterEvents()
 		-- Unlocking guide frame when leaving combat --
 		if event == "PLAYER_REGEN_ENABLED" then
 			WoWPro.combat = false
-			WoWPro:UpdateGuide() 
 			if WoWPro.completing then 
-				WoWPro:MapPoint()
+				WoWPro:UpdateGuide() 
 				WoWPro.completing = false
 			end
 		end
@@ -159,9 +156,16 @@ function WoWPro.CompleteStep(step)
 	WoWPro.completing = true
 	local GID = WoWProDB.char.currentguide
 	WoWProDB.char.guide[GID].completion[step] = true
+	for i,row in ipairs(WoWPro.rows) do
+		if WoWProDB.char.guide[GID].completion[row.index] then
+			row.check:SetChecked(true)
+		else
+			row.check:SetChecked(false)
+		end
+	end 
+	WoWPro:MapPoint()
 	if not WoWPro.combat then 
 		WoWPro:UpdateGuide() 
-		WoWPro:MapPoint()
 		WoWPro.completing = false
 	end
 end
