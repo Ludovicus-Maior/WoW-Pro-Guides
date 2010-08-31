@@ -19,10 +19,13 @@ WoWPro_Leveling.actiontypes = {
 	U = "Interface\\Icons\\INV_Misc_Bag_08",
 }
 
+-- tag |CC| means autocomplete on waypoint arrival, regardless of waypoint sequence order -> waypcomplete = 1
+-- tag |CS| means autocomplete on waypoint arrival, but player has to follow the sequence order
+
 -- Quest parsing function --
 local function ParseQuests(...)
 	local i = 1
-	local actions, steps, QIDs, notes, index, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, optional, prereq = 
+	local actions, steps, QIDs, notes, index, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, optional, prereq, waypcomplete = 
 		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 	local myclass, myrace = UnitClass("player"), UnitRace("player")
 	local stepcount, stickiescount, optionalcount = 0, 0, 0
@@ -45,6 +48,11 @@ local function ParseQuests(...)
 				if text:match("|QO|([^|]*)|?") then questtext[i] = text:match("|QO|([^|]*)|?") end
 				if text:find("|O|") then optional[i] = true; optionalcount = optionalcount + 1 end
 				if text:match("|PRE|([^|]*)|?") then prereq[i] = text:match("|PRE|([^|]*)|?") end
+				if action == "R" and map then
+					if text:find("|CC|") then waypcomplete[i] = 1
+					elseif text:find("|CS|") then waypcomplete[i] = 2
+					else waypcomplete[i] = false end
+				end
 				
 				actions[i], steps[i], notes[i], QIDs[i], index[i], maps[i] = action, step, note, QID, i, map
 				i = i + 1
@@ -314,7 +322,7 @@ function WoWPro_Leveling:RowUpdate()
 		-- Setting the zone for the coordinates of the step --
 		if zone then row.zone = zone 
 		else row.zone = strtrim(strsplit("(",(strsplit("-",WoWPro.loadedguide["zone"])))) end
-	
+
 		-- Checking for loot items in bags --
 		local lootqtyi
 		if lootcheck and ( lootitem or action == "B" )and not optional then
@@ -475,6 +483,7 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 				if action == "C" and WoWProDB.char.guide[GID].completion[i] then
 					for k=1, #MissingQIDs do
 						if MissingQIDs[k] == QID then
+
 							WoWProDB.char.guide[GID].completion[i] = nil
 							if not WoWPro.combat then WoWPro:UpdateGuide() end
 							WoWPro:MapPoint()
@@ -569,8 +578,10 @@ function WoWPro_Leveling:AutoCompleteZone()
 	local currentindex = WoWPro.rows[1+WoWPro.StickyCount].index
 	local action = WoWPro.actions[currentindex]
 	local step = WoWPro.steps[currentindex]
+	local coord = WoWPro.maps[currentindex]
+	local waypcomplete = WoWPro.waypcomplete[currentindex]
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
-	if action == "F" or action == "R" or action == "H" or action == "b" then
+	if action == "F" or action == "H" or action == "b" or (action == "R" and not waypcomplete) then
 		if step == zonetext or step == subzonetext then
 			WoWPro.CompleteStep(currentindex)
 		end
