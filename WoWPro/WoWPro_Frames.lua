@@ -149,6 +149,7 @@ function WoWPro.RowSizeSet()
 	local pad = WoWProDB.profile.pad
 	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
+	WoWPro.StickyCount = WoWPro.StickyCount or 0
 	
 	for i,row in ipairs(WoWPro.rows) do
 		

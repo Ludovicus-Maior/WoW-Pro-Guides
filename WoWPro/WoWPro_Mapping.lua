@@ -89,6 +89,7 @@ function WoWPro:MapPoint(row)
 	
 	-- Setting first row as 1 by default, or the specified row if one is given --
 	local rowi = row or 1
+	if not WoWPro.rows[rowi].index then return end
 	
 	-- If a row was not specified, skipping any sticky rows --
 	if not row or not WoWPro.stickies[WoWPro.rows[row].index] then 
