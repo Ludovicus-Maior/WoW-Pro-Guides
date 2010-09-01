@@ -462,8 +462,6 @@ end
 function WoWPro:CreateGuideFrame()
 	local guide = CreateFrame("Frame", "WoWPro.GuideFrame", WoWPro.MainFrame)
 	WoWPro.GuideFrame = guide
-	
-	WoWPro.Scrollbar = LibStub("WoWPro-Scroll").new(box, 6)
 end
 
 -- Rows to be populated by individual addons --
