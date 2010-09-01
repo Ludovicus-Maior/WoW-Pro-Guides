@@ -1,0 +1,56 @@
+------------------------------------------------------------------------
+r276 | nevcairiel | 2010-07-31 08:41:11 +0000 (Sat, 31 Jul 2010) | 1 line
+Changed paths:
+   A /tags/3.3-release32 (from /trunk:275)
+
+Weekly Tag - #32
+------------------------------------------------------------------------
+r275 | nevcairiel | 2010-07-31 08:40:47 +0000 (Sat, 31 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r274 | nevcairiel | 2010-07-20 16:41:27 +0000 (Tue, 20 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r273 | nevcairiel | 2010-07-18 07:59:20 +0000 (Sun, 18 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r271 | nevcairiel | 2010-07-18 00:57:23 +0000 (Sun, 18 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r269 | nevcairiel | 2010-07-10 06:29:53 +0000 (Sat, 10 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r268 | nevcairiel | 2010-07-01 16:00:59 +0000 (Thu, 01 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r266 | nevcairiel | 2010-06-30 20:45:27 +0000 (Wed, 30 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r265 | shefki | 2010-06-30 00:00:43 +0000 (Wed, 30 Jun 2010) | 2 lines
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Add entry for The Ruby Sanctum
+
+------------------------------------------------------------------------

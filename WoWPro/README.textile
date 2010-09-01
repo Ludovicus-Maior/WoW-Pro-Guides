@@ -1,0 +1,27 @@
+WoW-Pro-Guides is a set of addons which bring the guides from WoW-Pro.com into the game.
+Currently, the only active module for the WoW-Pro addon is a leveling guide module.
+The addon is designed to provide easy, streamlined questing and leveling in a completely customizable package.
+
+h2. Features
+
+* Automatic detection of objective completion
+** Detect quest accept, completion and turnin
+** Detect travel (in any form)
+** Detection of flight point discovery
+** Detection of Hearth point change
+** Conditionals based on player's class, race, completed quests, and item possession
+* Completely cusomizable frame:
+** Size can be changed to display many steps or only one
+** Step explanations can be displayed always or only show on hover over
+** Text can be customized: font, color, and size can be changed
+** Spacing and padding of the guide window can be customized.
+** Border and background texture can be changed or removed
+** Background color can be changed
+** Titlebar displaying zone and progress can be removed
+* Integrated quest tracker (can be disabled if desired)
+* Integrated quest item buttons
+* Easily accessed view of entire guide
+* Sortable guide lists
+* Automatic mapping of coordinates with "TomTom":http://www.wowinterface.com/downloads/info7032-TomTom.html
+* "LDB":http://github.com/tekkub/libdatabroker-1-1/wikis quick open/close button
+* Profile management for display settings
