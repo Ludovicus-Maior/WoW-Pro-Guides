@@ -462,6 +462,8 @@ end
 function WoWPro:CreateGuideFrame()
 	local guide = CreateFrame("Frame", "WoWPro.GuideFrame", WoWPro.MainFrame)
 	WoWPro.GuideFrame = guide
+	
+	WoWPro.Scrollbar = LibStub("WoWPro-Scroll").new(box, 6)
 end
 
 -- Rows to be populated by individual addons --
@@ -651,7 +653,7 @@ function WoWPro:CreateDropdownMenu()
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
 				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
 				for j = 1,WoWPro.stepcount do 
-					WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
+					if WoWPro.QIDs[j] then WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil end
 				end
 				WoWPro:LoadGuide()
 			end} )
