@@ -1,0 +1,111 @@
+------------------------------------------------------------------------
+r33 | yssaril | 2010-07-25 17:23:31 +0000 (Sun, 25 Jul 2010) | 1 line
+Changed paths:
+   A /tags/v3.4.1 (from /trunk:32)
+
+Tagging as v3.4.1
+------------------------------------------------------------------------
+r32 | yssaril | 2010-07-22 19:41:17 +0000 (Thu, 22 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BackgroundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BorderWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/FontWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SoundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+
+forgot to bump the widget version numbers
+------------------------------------------------------------------------
+r31 | yssaril | 2010-07-21 21:27:09 +0000 (Wed, 21 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BackgroundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BorderWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/FontWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SoundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+
+fix a backward compatibility issue with addons still using t[name] = name tables instead of the LSM hash table t[name] = path. (should now give those addons previews of the selections again) 
+------------------------------------------------------------------------
+r30 | yssaril | 2010-07-21 19:56:18 +0000 (Wed, 21 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/prototypes.lua
+
+cosmetic alignment fix of the StatusbarWidget
+------------------------------------------------------------------------
+r28 | yssaril | 2010-07-14 04:11:26 +0000 (Wed, 14 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BackgroundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BorderWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/FontWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SoundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+
+Get AceGUI focus before we generate the dropdown (reduces frame creation)
+------------------------------------------------------------------------
+r27 | yssaril | 2010-07-13 14:51:57 +0000 (Tue, 13 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BackgroundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BorderWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/FontWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SoundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/prototypes.lua
+
+widgets could error out if the old ones loaded after the new ones. Should be fixed now (LibStub to the rescue)
+------------------------------------------------------------------------
+r26 | yssaril | 2010-07-12 22:09:59 +0000 (Mon, 12 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BackgroundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BorderWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/FontWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SoundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+
+widgets will now once again auto populate if a nil list is set
+------------------------------------------------------------------------
+r25 | yssaril | 2010-07-12 19:45:14 +0000 (Mon, 12 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BackgroundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BorderWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/FontWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SoundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+
+forgot to bump widget version number
+------------------------------------------------------------------------
+r24 | yssaril | 2010-07-12 19:44:14 +0000 (Mon, 12 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BackgroundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BorderWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/FontWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SoundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/prototypes.lua
+
+fixed global number nil error. sorry about that. (also removed all trailing spaces)
+------------------------------------------------------------------------
+r23 | yssaril | 2010-07-12 06:55:27 +0000 (Mon, 12 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BackgroundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BorderWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/FontWidget.lua
+   D /trunk/AceGUI-3.0-SharedMediaWidgets/SharedFunctions.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SoundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+   A /trunk/AceGUI-3.0-SharedMediaWidgets/prototypes.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/widget.xml
+   M /trunk/AceGUI-3.0-SharedMediaWidgets.toc
+
+Complete recoding of all widgets. They no longer leach of the Dropdown widget. Nothing changed API wise.
+------------------------------------------------------------------------
+r22 | nevcairiel | 2010-02-09 20:09:10 +0000 (Tue, 09 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BackgroundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/BorderWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/FontWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SharedFunctions.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/SoundWidget.lua
+   M /trunk/AceGUI-3.0-SharedMediaWidgets/StatusbarWidget.lua
+
+Check if the pullout is still open before trying to close it, hopefully fixing a rare error occuring when selecting an option in the dropdown.
+------------------------------------------------------------------------

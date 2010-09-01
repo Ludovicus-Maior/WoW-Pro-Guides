@@ -1,0 +1,5 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="WoWProLib_Heading.lua"/>
+	<Script file="WoWProLib_Background.lua"/>
+	<Script file="WoWProLib_Scroll.lua"/>
+</Ui>
