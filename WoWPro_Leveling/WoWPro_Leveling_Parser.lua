@@ -233,7 +233,7 @@ function WoWPro_Leveling:RowUpdate()
 		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
 		row.note:SetText(note)
 		row.action:SetTexture(WoWPro_Leveling.actiontypes[action])
-		if WoWPro.noncombat[k] then
+		if WoWPro.noncombat[k] and WoWPro.actions[k] == "C" then
 			row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
 		end
 		
