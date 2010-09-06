@@ -148,10 +148,11 @@ frame:SetScript("OnShow", function()
 					completion[row.index] = true
 				elseif not row.check:GetChecked() then
 					completion[row.index]  = nil
-					if WoWPro.actions[row.index] == "A" 
-					or WoWPro.actions[row.index] == "C" 
-					or WoWPro.actions[row.index] == "T" then
-						WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = nil
+					if WoWPro.QIDs[row.index] 
+					and ( WoWPro.actions[row.index] == "A" 
+						or WoWPro.actions[row.index] == "C" 
+						or WoWPro.actions[row.index] == "T" ) then
+							WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = nil
 					else
 						WoWProDB.char.guide[GID].skipped[row.index] = nil
 					end

@@ -94,8 +94,10 @@ function WoWPro:MapPoint(row)
 	-- If a row was not specified, skipping any sticky rows --
 	if not row or not WoWPro.stickies[WoWPro.rows[row].index] then 
 		while WoWPro.stickies[WoWPro.rows[rowi].index] 
-		or WoWProDB.char.guide[GID].completion[WoWPro.rows[rowi].index] 
-		do rowi=rowi+1 end
+			or WoWProDB.char.guide[GID].completion[WoWPro.rows[rowi].index] do 
+				rowi=rowi+1 
+				if not WoWPro.rows[rowi].index then return end
+		end
 	end
 	
 	-- Loading Variables for this step --
