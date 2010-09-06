@@ -240,10 +240,11 @@ function WoWPro_Leveling:RowUpdate()
 		-- Checkbox Function --
 		row.check:SetScript("OnClick", function(self, button, down)
 			if button == "LeftButton" then
-				if WoWPro.actions[row.index] == "A" 
-				or WoWPro.actions[row.index] == "C" 
-				or WoWPro.actions[row.index] == "T" then
-					WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = true
+				if WoWPro.QIDs[row.index] 
+				and ( WoWPro.actions[row.index] == "A" 
+					or WoWPro.actions[row.index] == "C" 
+					or WoWPro.actions[row.index] == "T" ) then
+						WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = true
 				else
 					WoWProDB.char.guide[GID].skipped[row.index] = true
 				end
