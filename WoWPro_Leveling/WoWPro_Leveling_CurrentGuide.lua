@@ -108,6 +108,10 @@ frame:SetScript("OnShow", function()
 				row:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], 0)
 			end
 			
+			if WoWPro.unstickies[index] then 
+				step = step.." (un-sticky)"
+			end
+		
 			row.step:SetText(step)
 			
 			local action = WoWPro.actions[index]

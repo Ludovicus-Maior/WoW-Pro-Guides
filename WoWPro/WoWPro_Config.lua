@@ -120,6 +120,16 @@ local function CreateDisplayConfig()
 						desc = L["Will automatically load the next guide when you complete one."],
 						get = function(info) return WoWProDB.profile.autoload end,
 						set = function(info,val) WoWProDB.profile.autoload = val end
+					},    
+					guidescroll = {
+						order = 4,
+						type = "toggle",
+						name = L["Scroll Mode"],
+						desc = L["Displays full, scrollable guide in guide frame, instead of need-to-know info."],
+						get = function(info) return WoWProDB.profile.guidescroll end,
+						set = function(info,val) WoWProDB.profile.guidescroll = val 
+							WoWPro:TitlebarSet() 
+							WoWPro:UpdateGuide() end
 					}, 
 					blank2 = {
 						order = 5,
