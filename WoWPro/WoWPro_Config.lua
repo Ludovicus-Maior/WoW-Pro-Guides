@@ -82,8 +82,8 @@ local function CreateDisplayConfig()
 						type = "toggle",
 						name = L["Mouseover Notes"],
 						desc = L["Show notes on mouseover instead of always displaying them."],
-						get = function(info) return WoWProDB.profile.noteshow end,
-						set = function(info,val) WoWProDB.profile.noteshow = val 
+						get = function(info) return WoWProDB.profile.mousenotes end,
+						set = function(info,val) WoWProDB.profile.mousenotes = val 
 							WoWPro.RowSizeSet() end
 					},
 					minimap = {
@@ -120,6 +120,16 @@ local function CreateDisplayConfig()
 						desc = L["Will automatically load the next guide when you complete one."],
 						get = function(info) return WoWProDB.profile.autoload end,
 						set = function(info,val) WoWProDB.profile.autoload = val end
+					},    
+					guidescroll = {
+						order = 4,
+						type = "toggle",
+						name = L["Scroll Mode"],
+						desc = L["Displays full, scrollable guide in guide frame, instead of need-to-know info."],
+						get = function(info) return WoWProDB.profile.guidescroll end,
+						set = function(info,val) WoWProDB.profile.guidescroll = val 
+							WoWPro:TitlebarSet() 
+							WoWPro:UpdateGuide() end
 					}, 
 					blank2 = {
 						order = 5,

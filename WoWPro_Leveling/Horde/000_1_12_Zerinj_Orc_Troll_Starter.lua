@@ -43,17 +43,17 @@ A Vile Familiars|QID|1485|C|Warlock|R|Orc, Troll|M|42.6,68.9|
 A Galgar's Cactus Apple Surprise|QID|4402|M|42.7,67.3|
 A Lazy Peons|QID|5441|M|44.6,68.6|
 
-C Galgar's Cactus Apple Surprise|QID|4402|N|Loot Cactus Apples from Cactuses|S|
+C Galgar's Cactus Apple Surprise|QID|4402|N|Loot Cactus Apples from Cactuses|S|NC|
 C Sting of the Scorpid|QID|789|N|Kill Scorpid Workers and loot their Scorpid Worker Tails|S|
-C Lazy Peons|QID|5441|N|Hit Lazy Peons with the Foreman's Blackjack. You'll find them near the walls.|S|U|16114|
+C Lazy Peons|QID|5441|N|Hit Lazy Peons with the Foreman's Blackjack. You'll find them near the walls.|S|U|16114|NC|
 C Vile Familiars|QID|792|N|Work on your other objectives on the way to the Vile Familiars in the north.|M|44.7,57.7|
 C Vile Familiars|QID|1485|C|Warlock|R|Orc, Troll|
-C Galgar's Cactus Apple Surprise|QID|4402|N|Loot Cactus Apples from Cactuses|US|M|44.7,57.7|
+C Galgar's Cactus Apple Surprise|QID|4402|N|Loot Cactus Apples from Cactuses|US|M|44.7,57.7|NC|
 C Sting of the Scorpid|QID|789|N|Kill Scorpid Workers and loot their Scorpid Worker Tails|US|
-C Lazy Peons|QID|5441|U|16114|N|Hit Lazy Peons with the Foreman's Blackjack. You'll find them near the walls.|US|
+C Lazy Peons|QID|5441|U|16114|N|Hit Lazy Peons with the Foreman's Blackjack. You'll find them near the walls.|US|NC|
 
 T Lazy Peons|QID|5441|N|Go back to The Den.|M|44.6,68.7|U|6948|
-A Thazz'ril's Pick|QID|6394|M|44.6,68.7|
+A Thazz'ril's Pick|QID|6394|M|44.6,68.7|PRE|5441|
 T Vile Familiars|QID|792|M|42.9,69.1|
 A Burning Blade Medallion|QID|794|M|42.9,69.1|
 T Sting of the Scorpid|QID|789|M|42.1,68.4|

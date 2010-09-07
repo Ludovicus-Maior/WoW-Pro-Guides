@@ -48,10 +48,21 @@ function WoWPro:LoadGuide()
 end
 
 -- Guide Update --
-function WoWPro:UpdateGuide()
+function WoWPro:UpdateGuide(offset)
 	
 	if WoWProDB.char.currentguide == "NilGuide" then WoWPro:LoadNilGuide(); return end
 	if not WoWPro.loadedguide then return end
+	
+	-- Finding the active step in the guide --
+	local k = 1
+	while WoWProDB.char.guide[GID].completion[k] 
+		or WoWProDB.char.guide[GID].skipped[k] 
+		or WoWProDB.char.skippedQIDs[WoWPro.QIDs[k]] do 
+			k = k + 1 
+	end
+	WoWPro.ActiveStep = k
+	WoWPro.Offset = offset or WoWPro.ActiveStep
+	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	
 	-- Setting module-specific updates --
 	if WoWPro.loadedguide["guidetype"] == "Leveling" and WoWPro_Leveling:IsEnabled() then

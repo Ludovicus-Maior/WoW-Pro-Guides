@@ -1,7 +1,6 @@
 WoWPro_Leveling:RegisterGuide("HaiDar1320", "Darkshore", "Hairbo", "13", "20", "BosRed2027", "Alliance", function()
 return [[
 
-N Remember, try to log out in an inn or in one of the major cities! |QID|952|
 R Rut'theran Village |N|Use the portal behind the bank. |QID|952|
 F Auberdine |QID|952|
 h Auberdine |QID|952| |N|Just go down the ramp from the flight area.|

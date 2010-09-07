@@ -87,6 +87,8 @@ function WoWPro:TitlebarSet()
 -- Size --
 	WoWPro.Titlebar:SetHeight(WoWPro.TitleText:GetHeight()+10)
 	
+-- Scrollbar --
+	if WoWProDB.profile.guidescroll then WoWPro.Scrollbar:Show() else WoWPro.Scrollbar:Hide() end
 end
 function WoWPro:BackgroundSet()
 -- Textures and Borders --
@@ -149,6 +151,7 @@ function WoWPro.RowSizeSet()
 	local pad = WoWProDB.profile.pad
 	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
+	WoWPro.StickyCount = WoWPro.StickyCount or 0
 	
 	for i,row in ipairs(WoWPro.rows) do
 		
@@ -171,13 +174,15 @@ function WoWPro.RowSizeSet()
 		if WoWPro.Titlebar:IsShown() then totalw = max(totalw,ceil(WoWPro.TitleText:GetStringWidth()+pad*2+10)) end
 		WoWPro.MainFrame:SetWidth(totalw)
 	end
-
+	
+	WoWPro.ShownRows = 0
+	
 	for i,row in ipairs(WoWPro.rows) do
 		row.check:SetPoint("TOPLEFT", 1, -space)
 		
 		-- Setting the note frame size correctly, setting up mouseover notes --
 		local newh, noteh, trackh
-		if WoWProDB.profile.noteshow and (WoWPro.notes[row.index] or (WoWPro.maps[row.index] and WoWProDB.profile.showcoords)) then
+		if WoWProDB.profile.mousenotes and (WoWPro.notes[row.index] or (WoWPro.maps[row.index] and WoWProDB.profile.showcoords)) then
 			noteh = 1
 			row.note:Hide()
 			WoWPro.mousenotes[i].note:SetText(row.note:GetText())
@@ -215,6 +220,7 @@ function WoWPro.RowSizeSet()
 			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
 				totalh = totalh + newh
 				row:Show()
+				WoWPro.ShownRows = WoWPro.ShownRows + 1
 			else
 				for j=i,15 do WoWPro.rows[j]:Hide() end break
 			end
@@ -227,7 +233,10 @@ function WoWPro.RowSizeSet()
 					WoWPro.rows[j]:Hide() 
 				end
 				break
-			else row:Show() end
+			else 
+				row:Show() 
+				WoWPro.ShownRows = WoWPro.ShownRows + 1
+			end
 		end
 	end
 	
@@ -333,6 +342,7 @@ function WoWPro:CreateMainFrame()
 	frame:SetWidth(200)
 	frame:SetMinResize(150,40)
 	frame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
+	frame:EnableMouseWheel()
 	WoWPro.MainFrame = frame
 	-- Menu --
 	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
@@ -394,7 +404,8 @@ function WoWPro:CreateTitleBar()
 	WoWPro.Titlebar = titlebar
 	-- Text --
 	local titletext = WoWPro.Titlebar:CreateFontString()
-	titletext:SetPoint("TOP", WoWPro.Titlebar, "TOP", 0, -5)
+	titletext:SetPoint("TOPRIGHT", WoWPro.Titlebar, "TOPRIGHT", -5, -5)
+	titletext:SetPoint("TOPLEFT", WoWPro.Titlebar, "TOPLEFT", 5, -5)
 	titletext:SetFontObject(GameFontNormal)
 	titletext:SetText("WoW-Pro Guides")
 	titletext:SetTextColor(1, 1, 1)
@@ -458,8 +469,14 @@ end
 
 -- Guide Frame --
 function WoWPro:CreateGuideFrame()
-	local guide = CreateFrame("Frame", "WoWPro.GuideFrame", WoWPro.MainFrame)
-	WoWPro.GuideFrame = guide
+	WoWPro.GuideFrame = CreateFrame("Frame", "WoWPro.GuideFrame", WoWPro.MainFrame)
+end
+
+-- Scrollbar --
+function WoWPro:CreateScrollbar()
+	WoWPro.Scrollbar = LibStub("WoWPro-Scroll").new(WoWPro.GuideFrame)
+	WoWPro.Scrollbar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 20, -20)
+	WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 20, 20)
 end
 
 -- Rows to be populated by individual addons --
@@ -647,9 +664,10 @@ function WoWPro:CreateDropdownMenu()
 				InterfaceOptionsFrame_OpenToCategory("Guide List") 
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
+				if not WoWProDB.char.currentguide or WoWProDB.char.currentguide == "NilGuide" then return end
 				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
 				for j = 1,WoWPro.stepcount do 
-					WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
+					if WoWPro.QIDs[j] then WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil end
 				end
 				WoWPro:LoadGuide()
 			end} )
@@ -667,7 +685,8 @@ WoWPro:CreateMainFrame()
 WoWPro:CreateResizeButton()
 WoWPro:CreateTitleBar()
 WoWPro:CreateStickyFrame()
-WoWPro:CreateGuideFrame()
+WoWPro:CreateGuideFrame();
+WoWPro:CreateScrollbar()
 WoWPro:CreateRows()
 WoWPro:CreateMouseNotes()
 WoWPro:CreateNextGuideDialog()
