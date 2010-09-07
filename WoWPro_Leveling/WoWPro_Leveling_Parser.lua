@@ -17,14 +17,15 @@ WoWPro_Leveling.actiontypes = {
 	B = "Interface\\Icons\\INV_Misc_Coin_01",
 	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	U = "Interface\\Icons\\INV_Misc_Bag_08",
+	L = "Interface\\Icons\\Spell_ChargePositive"
 }
 
 -- Quest parsing function --
 local function ParseQuests(...)
 	local i = 1
 	local actions, steps, QIDs, notes, index, maps, stickies, unstickies, 
-		uses, zones, lootitem, lootqty, questtext, optional, prereq, noncombat = 
-		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+		uses, zones, lootitem, lootqty, questtext, optional, prereq, noncombat, level = 
+		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 	local myclass, myrace = UnitClass("player"), UnitRace("player")
 	local stepcount, stickiescount, optionalcount = 0, 0, 0
 	for j=1,select("#", ...) do
@@ -40,20 +41,21 @@ local function ParseQuests(...)
 				local map = text:match("|M|([^|]*)|?")
 				if text:find("|S|") then stickies[i] = true; stickiescount = stickiescount + 1 end
 				if text:find("|US|") then unstickies[i] = true end
-				if text:match("|U|([^|]*)|?") then uses[i] = text:match("|U|([^|]*)|?") end
-				if text:match("|Z|([^|]*)|?") then zones[i] = text:match("|Z|([^|]*)|?") end
-				if text:match("|L|") then _, _, lootitem[i], lootqty[i] = text:find("|L|(%d+)%s?(%d*)|") end
-				if text:match("|QO|([^|]*)|?") then questtext[i] = text:match("|QO|([^|]*)|?") end
+				uses[i] = text:match("|U|([^|]*)|?")
+				zones[i] = text:match("|Z|([^|]*)|?")
+				_, _, lootitem[i], lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
+				questtext[i] = text:match("|QO|([^|]*)|?")
 				if text:find("|O|") then optional[i] = true; optionalcount = optionalcount + 1 end
-				if text:match("|PRE|([^|]*)|?") then prereq[i] = text:match("|PRE|([^|]*)|?") end
+				prereq[i] = text:match("|PRE|([^|]*)|?")
 				if text:find("|NC|") then noncombat[i] = true end
+				level[i] = text:match("|LVL|([^|]*)|?")
 				
 				actions[i], steps[i], notes[i], QIDs[i], index[i], maps[i] = action, step, note, QID, i, map
 				i = i + 1
 			end end
 		end
 	end
-	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, stepcount, stickiescount, optional, prereq, optionalcount, noncombat
+	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, stepcount, stickiescount, optional, prereq, optionalcount, noncombat, level
 end
 	
 -- Guide Load --
@@ -65,7 +67,7 @@ function WoWPro_Leveling:LoadGuide()
 	WoWPro.steps, WoWPro.actions, WoWPro.notes,  WoWPro.QIDs,  WoWPro.maps, 
 		WoWPro.stickies, WoWPro.unstickies, WoWPro.uses, WoWPro.zones, WoWPro.lootitem, 
 		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickiescount, WoWPro.optional, 
-		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat
+		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat, WoWPro.level
 		= ParseQuests(string.split("\n", sequence()))
 	
 	--Checking the completed quest table and checking of steps
@@ -100,7 +102,6 @@ function WoWPro_Leveling:LoadGuide()
 				for k=1, #CurrentQIDs do
 					if CurrentQIDs[k] == WoWPro.QIDs[i] then
 						WoWProDB.char.guide[GID].completion[i] = true
-						if not WoWPro.combat then WoWPro:UpdateGuide() end
 					end
 				end
 			end
@@ -109,9 +110,18 @@ function WoWPro_Leveling:LoadGuide()
 				for k=1, #CompleteQIDs do
 					if CompleteQIDs[k] == WoWPro.QIDs[i] then
 						WoWProDB.char.guide[GID].completion[i] = true
-						if not WoWPro.combat then WoWPro:UpdateGuide() end
 					end
 				end
+			end
+		end
+	end
+	
+	-- Checking level based completion --
+	if WoWProDB.char.guide then
+		local GID = WoWProDB.char.currentguide
+		for i=1, #WoWPro.actions do
+			if WoWProDB.char.guide[GID].completion[i] == nil and WoWPro.level[i] and tonumber(WoWPro.level[i]) >= UnitLevel("player") then
+				WoWProDB.char.guide[GID].completion[i] = true
 			end
 		end
 	end
