@@ -649,7 +649,7 @@ function WoWPro:CreateDropdownMenu()
 				InterfaceOptionsFrame_OpenToCategory("Guide List") 
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
-				if not WoWProDB.char.currentguide then return end
+				if not WoWProDB.char.currentguide or WoWProDB.char.currentguide == "NilGuide" then return end
 				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
 				for j = 1,WoWPro.stepcount do 
 					if WoWPro.QIDs[j] then WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil end

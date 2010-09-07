@@ -120,7 +120,7 @@ function WoWPro_Leveling:LoadGuide()
 	if WoWProDB.char.guide then
 		local GID = WoWProDB.char.currentguide
 		for i=1, #WoWPro.actions do
-			if WoWProDB.char.guide[GID].completion[i] == nil and WoWPro.level[i] and tonumber(WoWPro.level[i]) >= UnitLevel("player") then
+			if WoWProDB.char.guide[GID].completion[i] == nil and WoWPro.level[i] and tonumber(WoWPro.level[i]) <= UnitLevel("player") then
 				WoWProDB.char.guide[GID].completion[i] = true
 			end
 		end
@@ -408,6 +408,7 @@ function WoWPro_Leveling:RegisterEvents()
 	table.insert(WoWPro.events, "UI_INFO_MESSAGE")
 	table.insert(WoWPro.events, "CHAT_MSG_SYSTEM")
 	table.insert(WoWPro.events, "CHAT_MSG_LOOT")
+	table.insert(WoWPro.events, "PLAYER_LEVEL_UP")
 end
 
 -- Event Response Logic --
@@ -440,6 +441,9 @@ function WoWPro_Leveling:EventHandler(self, event, ...)
 	end	
 	if event == "UI_INFO_MESSAGE" then
 		WoWPro_Leveling:AutoCompleteGetFP(...)
+	end
+	if event == "PLAYER_LEVEL_UP" then
+		WoWPro_Leveling:AutoCompleteLevel(...)
 	end
 
 end
@@ -641,6 +645,21 @@ function WoWPro_Leveling:AutoCompleteZone()
 	if action == "F" or action == "R" or action == "H" or action == "b" then
 		if step == zonetext or step == subzonetext then
 			WoWPro.CompleteStep(currentindex)
+		end
+	end
+end
+
+-- Auto-Complete: Level based --
+function WoWPro_Leveling:AutoCompleteLevel(...)
+	local newlevel = ...
+	if WoWProDB.char.guide then
+		local GID = WoWProDB.char.currentguide
+		for i=1,#WoWPro.actions do
+			if WoWProDB.char.guide[GID].completion[i] == nil 
+				and WoWPro.level[i] 
+				and tonumber(WoWPro.level[i]) <= newlevel then
+					WoWPro.CompleteStep(i)
+			end
 		end
 	end
 end

@@ -68,6 +68,7 @@ frame:SetScript("OnShow", function()
 	
 	function WoWPro_Leveling.UpdateCurrentGuidePanel()
 		if not frame:IsVisible() then return end
+		if WoWProDB.char.currentguide == "NilGuide" then return end
 		local GID = WoWProDB.char.currentguide
 		local steplist = WoWPro.steps
 		local optional = WoWPro.optional
