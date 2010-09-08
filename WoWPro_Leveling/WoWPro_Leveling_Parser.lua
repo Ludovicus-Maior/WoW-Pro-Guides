@@ -17,7 +17,8 @@ WoWPro_Leveling.actiontypes = {
 	B = "Interface\\Icons\\INV_Misc_Coin_01",
 	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	U = "Interface\\Icons\\INV_Misc_Bag_08",
-	L = "Interface\\Icons\\Spell_ChargePositive"
+	L = "Interface\\Icons\\Spell_ChargePositive",
+	r = "Interface\\Icons\\Ability_Repair"
 }
 
 -- Quest parsing function --
