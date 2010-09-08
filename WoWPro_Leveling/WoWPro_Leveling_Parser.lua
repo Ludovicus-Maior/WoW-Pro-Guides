@@ -24,8 +24,8 @@ WoWPro_Leveling.actiontypes = {
 local function ParseQuests(...)
 	local i = 1
 	local actions, steps, QIDs, notes, index, maps, stickies, unstickies, 
-		uses, zones, lootitem, lootqty, questtext, optional, prereq, noncombat, level = 
-		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+		uses, zones, lootitem, lootqty, questtext, optional, prereq, noncombat, level, leadin = 
+		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 	local myclass, myrace = UnitClass("player"), UnitRace("player")
 	local stepcount, stickiescount, optionalcount = 0, 0, 0
 	for j=1,select("#", ...) do
@@ -49,13 +49,14 @@ local function ParseQuests(...)
 				prereq[i] = text:match("|PRE|([^|]*)|?")
 				if text:find("|NC|") then noncombat[i] = true end
 				level[i] = text:match("|LVL|([^|]*)|?")
+				leadin[i] = text:match("|LEAD|([^|]*)|?")
 				
 				actions[i], steps[i], notes[i], QIDs[i], index[i], maps[i] = action, step, note, QID, i, map
 				i = i + 1
 			end end
 		end
 	end
-	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, stepcount, stickiescount, optional, prereq, optionalcount, noncombat, level
+	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, stepcount, stickiescount, optional, prereq, optionalcount, noncombat, level, leadin
 end
 	
 -- Guide Load --
@@ -67,7 +68,7 @@ function WoWPro_Leveling:LoadGuide()
 	WoWPro.steps, WoWPro.actions, WoWPro.notes,  WoWPro.QIDs,  WoWPro.maps, 
 		WoWPro.stickies, WoWPro.unstickies, WoWPro.uses, WoWPro.zones, WoWPro.lootitem, 
 		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickiescount, WoWPro.optional, 
-		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat, WoWPro.level
+		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat, WoWPro.level, WoWPro.leadin
 		= ParseQuests(string.split("\n", sequence()))
 	
 	--Checking the completed quest table and checking of steps
@@ -226,14 +227,21 @@ function WoWPro_Leveling:RowUpdate()
 		local questtext = WoWPro.questtext[k] 
 		local optional = WoWPro.optional[k] 
 		local prereq = WoWPro.prereq[k] 
+		local leadin = WoWPro.leadin[k] 
 		local completion = WoWProDB.char.guide[GID].completion
+		
+		-- Checking off lead in steps --
+		if leadin and WoWProDB.char.completedQIDs[tonumber(leadin)] then
+			completion[row.index] = true
+			reload = true
+			return reload
+		end
 		
 		-- Unstickying stickies --
 		if unsticky and i == WoWPro.StickyCount+1 then
-			for n,stickyrow in ipairs(WoWPro.rows) do 
-				if step == stickyrow.step:GetText() and WoWPro.stickies[stickyrow.index] then 
-					completion[stickyrow.index] = true
-					stickyrow.step:SetText("")
+			for n,row in ipairs(WoWPro.rows) do 
+				if step == row.step:GetText() and WoWPro.stickies[row.index] then 
+					completion[row.index] = true
 					reload = true
 				end
 			end
