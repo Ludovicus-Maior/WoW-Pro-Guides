@@ -153,9 +153,8 @@ function WoWPro.RowSizeSet()
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
 	WoWPro.StickyCount = WoWPro.StickyCount or 0
 	
+	-- Hiding the row if it's past the set number of steps --
 	for i,row in ipairs(WoWPro.rows) do
-		
-		-- Hiding the row if it's past the set number of steps --
 		if WoWProDB.profile.autoresize then
 			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
 				biggeststep = ceil(max(biggeststep,row.step:GetStringWidth()))
@@ -508,6 +507,7 @@ function WoWPro:CreateRows()
 		row.note = WoWPro:CreateNote(row, row.action)
 		row.track = WoWPro:CreateTrack(row, row.action)
 		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row)
+		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row)
 		
 		WoWPro.rows[i] = row	
 	end

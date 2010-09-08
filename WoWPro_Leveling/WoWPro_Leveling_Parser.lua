@@ -24,8 +24,9 @@ WoWPro_Leveling.actiontypes = {
 local function ParseQuests(...)
 	local i = 1
 	local actions, steps, QIDs, notes, index, maps, stickies, unstickies, 
-		uses, zones, lootitem, lootqty, questtext, optional, prereq, noncombat, level, leadin = 
-		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+		uses, zones, lootitem, lootqty, questtext, optional, prereq, noncombat, 
+		level, leadin, target = 
+		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 	local myclass, myrace = UnitClass("player"), UnitRace("player")
 	local stepcount, stickiescount, optionalcount = 0, 0, 0
 	for j=1,select("#", ...) do
@@ -50,13 +51,15 @@ local function ParseQuests(...)
 				if text:find("|NC|") then noncombat[i] = true end
 				level[i] = text:match("|LVL|([^|]*)|?")
 				leadin[i] = text:match("|LEAD|([^|]*)|?")
+				target[i] = text:match("|T|([^|]*)|?")
 				
 				actions[i], steps[i], notes[i], QIDs[i], index[i], maps[i] = action, step, note, QID, i, map
 				i = i + 1
 			end end
 		end
 	end
-	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, stepcount, stickiescount, optional, prereq, optionalcount, noncombat, level, leadin
+	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, 
+	stepcount, stickiescount, optional, prereq, optionalcount, noncombat, level, leadin, target
 end
 	
 -- Guide Load --
@@ -68,7 +71,8 @@ function WoWPro_Leveling:LoadGuide()
 	WoWPro.steps, WoWPro.actions, WoWPro.notes,  WoWPro.QIDs,  WoWPro.maps, 
 		WoWPro.stickies, WoWPro.unstickies, WoWPro.uses, WoWPro.zones, WoWPro.lootitem, 
 		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickiescount, WoWPro.optional, 
-		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat, WoWPro.level, WoWPro.leadin
+		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat, WoWPro.level, WoWPro.leadin,
+		WoWPro.target
 		= ParseQuests(string.split("\n", sequence()))
 	
 	--Checking the completed quest table and checking of steps
@@ -228,6 +232,7 @@ function WoWPro_Leveling:RowUpdate()
 		local optional = WoWPro.optional[k] 
 		local prereq = WoWPro.prereq[k] 
 		local leadin = WoWPro.leadin[k] 
+		local target = WoWPro.target[k] 
 		local completion = WoWProDB.char.guide[GID].completion
 		
 		-- Checking off lead in steps --
@@ -433,6 +438,20 @@ function WoWPro_Leveling:RowUpdate()
 				row.cooldown:SetCooldown(start, duration)
 			else row.cooldown:Hide() end
 		else row.itembutton:Hide() end
+		
+		-- Target Button --
+		if target then
+			row.targetbutton:Show() 
+			row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
+				.."\n/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end")
+			if use then
+				row.targetbutton:SetPoint("TOPRIGHT", row.itembutton, "TOPLEFT", -5, 0)
+			else
+				row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
+			end 
+		else
+			row.targetbutton:Hide() 
+		end
 		
 		-- Setting the zone for the coordinates of the step --
 		if zone then row.zone = zone 

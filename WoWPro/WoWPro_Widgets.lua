@@ -62,7 +62,7 @@ function WoWPro:CreateItemButton(parent)
 	itembutton:SetFrameStrata("LOW")
 	itembutton:SetHeight(20)
 	itembutton:SetWidth(20)
-	itembutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -15, -7)
+	itembutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
 
 	local cooldown = CreateFrame("Cooldown", nil, itembutton)
 	cooldown:SetAllPoints(itembutton)
@@ -75,4 +75,23 @@ function WoWPro:CreateItemButton(parent)
 	itembutton:RegisterForClicks("anyUp")
 	
 	return itembutton, itemicon, cooldown
+end
+
+
+function WoWPro:CreateTargetButton(parent)
+	local targetbutton = CreateFrame("Button", nil, parent, "SecureActionButtonTemplate")
+	targetbutton:SetAttribute("type", "macro")
+	targetbutton:SetFrameStrata("LOW")
+	targetbutton:SetHeight(20)
+	targetbutton:SetWidth(20)
+	targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -35, -7)
+
+	local targeticon = targetbutton:CreateTexture(nil, "ARTWORK")
+	targeticon:SetWidth(24) targeticon:SetHeight(24)
+	targeticon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
+	targeticon:SetAllPoints(targetbutton)
+
+	targetbutton:RegisterForClicks("anyUp")
+	
+	return targetbutton, targeticon
 end
