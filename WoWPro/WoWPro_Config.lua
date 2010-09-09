@@ -26,7 +26,7 @@ local function CreateDisplayConfig()
 						order = 1,
 						type = "description",
 						name = " ",
-					},  
+					}, 
 					drag = {
 						order = 2,
 						type = "toggle",
@@ -131,18 +131,29 @@ local function CreateDisplayConfig()
 							WoWPro:TitlebarSet() 
 							WoWPro:UpdateGuide() end
 					}, 
-					blank2 = {
+					arank = {
 						order = 5,
+						type = "range",
+						name = L["Difficulty / Completeness"],
+						desc = L["Governs how many steps will be skipped. Use 5 for the most completeness, 1 to skip all non-essential steps."],
+						min = 1, max = 5, step = 1,
+						get = function(info) return WoWProDB.profile.rank end,
+						set = function(info,val) WoWProDB.profile.rank = val 
+							WoWPro.UpdateGuide() end,
+						width = "double"
+					}, 
+					blank2 = {
+						order = 6,
 						type = "description",
 						name = " ",
 					},  
 					resizeheading = {
-						order = 5,
+						order = 6,
 						type = "header",
 						name = L["Resize Settings"],
 					}, 
 					resize = {
-						order = 6,
+						order = 7,
 						type = "toggle",
 						name = L["Resize Handle"],
 						desc = L["Enables the guide window to be resized using the resize handle in the lower right corner. \nTurns off auto resizing."],
@@ -152,7 +163,7 @@ local function CreateDisplayConfig()
 							WoWPro.ResizeSet() end
 					},
 					autoresize = {
-						order = 6,
+						order = 7,
 						type = "toggle",
 						name = L["Auto Resize"],
 						desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
@@ -162,7 +173,7 @@ local function CreateDisplayConfig()
 							WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
 					},
 					numsteps = {
-						order = 7,
+						order = 8,
 						type = "range",
 						name = L["Auto Resize: Number of Steps"],
 						desc = L["Number of steps displayed in the guide window. \nThe window is automatically resized to show this number of steps. \nDoes not include sticky steps."],
@@ -173,7 +184,7 @@ local function CreateDisplayConfig()
 						width = "double"
 					}, 
 					minresizeh = {
-						order = 7,
+						order = 8,
 						type = "range",
 						name = L["Min Resize - Horiz"],
 						desc = L["Minimum horizontal pixel size the guide window can be set to."],
@@ -183,7 +194,7 @@ local function CreateDisplayConfig()
 							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
 					}, 
 					minresizev = {
-						order = 7,
+						order = 8,
 						type = "range",
 						name = L["Min Resize - Vert"],
 						desc = L["Minimum vertical pixel size the guide window can be set to."],

@@ -95,6 +95,13 @@ frame:SetScript("OnShow", function()
 			
 			local step = steplist[index]
 			if optional[index] then step = step.." (optional)" end
+			if WoWPro.prof[index] then
+				local prof, proflvl = string.split(" ", WoWPro.prof[index]) 
+				step = step.." ("..prof..")"
+			end
+			if WoWPro.rank[index] then
+				step = step.." (rank "..WoWPro.rank[index]..")"
+			end
 			
 			-- Setting sticky texture --
 			if WoWPro.stickies[index] then 

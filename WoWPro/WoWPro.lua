@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WoWPro.Version = "1.2.10"
+WoWPro.Version = "1.2.11"
 
 local defaults = { profile = {
 	enable = true,
@@ -45,6 +45,7 @@ local defaults = { profile = {
 	vminresize = 100,
 	anchorpoint = "AUTO",
 	guidescroll = false,
+	rank = 5,
 	
 	-- Enables --
 	enable = true,

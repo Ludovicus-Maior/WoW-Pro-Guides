@@ -26,8 +26,8 @@ local function ParseQuests(...)
 	local i = 1
 	local actions, steps, QIDs, notes, index, maps, stickies, unstickies, 
 		uses, zones, lootitem, lootqty, questtext, optional, prereq, noncombat, 
-		level, leadin, target, prof = 
-		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+		level, leadin, target, prof, rank = 
+		{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 	local myclass, myrace = UnitClass("player"), UnitRace("player")
 	local stepcount, stickiescount, optionalcount = 0, 0, 0
 	for j=1,select("#", ...) do
@@ -54,6 +54,7 @@ local function ParseQuests(...)
 				leadin[i] = text:match("|LEAD|([^|]*)|?")
 				target[i] = text:match("|T|([^|]*)|?")
 				prof[i] = text:match("|P|([^|]*)|?")
+				rank[i] = text:match("|RANK|([^|]*)|?")
 				
 				actions[i], steps[i], notes[i], QIDs[i], index[i], maps[i] = action, step, note, QID, i, map
 				i = i + 1
@@ -61,7 +62,7 @@ local function ParseQuests(...)
 		end
 	end
 	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, 
-	stepcount, stickiescount, optional, prereq, optionalcount, noncombat, level, leadin, target, prof
+	stepcount, stickiescount, optional, prereq, optionalcount, noncombat, level, leadin, target, prof, rank
 end
 	
 -- Guide Load --
@@ -74,7 +75,7 @@ function WoWPro_Leveling:LoadGuide()
 		WoWPro.stickies, WoWPro.unstickies, WoWPro.uses, WoWPro.zones, WoWPro.lootitem, 
 		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickiescount, WoWPro.optional, 
 		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat, WoWPro.level, WoWPro.leadin,
-		WoWPro.target, WoWPro.prof
+		WoWPro.target, WoWPro.prof, WoWPro.rank
 		= ParseQuests(string.split("\n", sequence()))
 	
 	--Checking the completed quest table and checking of steps
@@ -203,7 +204,6 @@ function WoWPro_Leveling:RowUpdate()
 				elseif not WoWPro.optional[k] then
 					skipcheck = false 
 				end
-				
 				if WoWPro.prof[k] then
 					local prof, proflvl = string.split(";",WoWPro.prof[k])
 					proflvl = proflvl or 1
@@ -214,6 +214,9 @@ function WoWPro_Leveling:RowUpdate()
 							skipcheck = false
 						end
 					end
+				end
+				if WoWPro.rank[k] then
+					if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then skipcheck = true end
 				end
 				if WoWProDB.char.guide[GID].skipped[k] or WoWProDB.char.skippedQIDs[WoWPro.QIDs[k]] then
 					skipcheck = true
