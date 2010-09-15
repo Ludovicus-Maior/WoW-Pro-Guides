@@ -6,7 +6,6 @@ local cache = {}
 local B = LibStub("LibBabble-Zone-3.0")
 local BL = B:GetUnstrictLookupTable()
 
-
 local zidmap = {
    [1] = "Dun Morogh",
    [3] = "Badlands",
@@ -92,12 +91,7 @@ function WoWPro:MapPoint(row)
 	local i
 	if row then i = WoWPro.rows[row].index 
 	else 
-		i = WoWPro.ActiveStep 
-		while WoWPro.stickies[i] 
-		or WoWProDB.char.guide[GID].completion[i] 
-		or WoWProDB.char.guide[GID].skipped[i] 
-		or WoWProDB.char.skippedQIDs[WoWPro.QIDs[i]] 
-		do i = i + 1 end
+		i = WoWPro_Leveling:NextStep()
 	end
 	local coords; if WoWPro.maps then coords = WoWPro.maps[i] else coords = nil end
 	local desc = WoWPro.steps[i]

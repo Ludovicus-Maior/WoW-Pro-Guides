@@ -54,13 +54,7 @@ function WoWPro:UpdateGuide(offset)
 	if not WoWPro.loadedguide then return end
 	
 	-- Finding the active step in the guide --
-	local k = 1
-	while WoWProDB.char.guide[GID].completion[k] 
-		or WoWProDB.char.guide[GID].skipped[k] 
-		or WoWProDB.char.skippedQIDs[WoWPro.QIDs[k]] do 
-			k = k + 1 
-	end
-	WoWPro.ActiveStep = k
+	WoWPro.ActiveStep = WoWPro_Leveling:NextStep()
 	WoWPro.Offset = offset or WoWPro.ActiveStep
 	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	
@@ -93,7 +87,7 @@ function WoWPro:UpdateGuide(offset)
 	-- Updating the progress count --
 	local p = 0
 	for j = 1,WoWPro.stepcount do
-		if WoWProDB.char.guide[GID].completion[j] 
+		if ( WoWProDB.char.guide[GID].completion[j] or WoWProDB.char.guide[GID].skipped[j] )
 		and not WoWPro.stickies[j] 
 		and not WoWPro.optional[j] then 
 			p = p + 1 
