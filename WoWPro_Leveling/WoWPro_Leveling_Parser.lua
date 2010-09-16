@@ -39,8 +39,9 @@ WoWPro_Leveling.actionlabels = {
 }
 
 -- Determine Next Active Step --
-function WoWPro_Leveling:NextStep(k)
+function WoWPro_Leveling:NextStep(k, i)
 	if not k then k = 1 end
+	if not i then i = 1 end
 	local skip = true
 	while skip do skip = false
 	
@@ -77,7 +78,7 @@ function WoWPro_Leveling:NextStep(k)
 					end
 					reload = true
 				else
-					if WoWProDB.char.completedQIDs[tonumber(jprereq)] then skip = false else skip = true end
+					if WoWProDB.char.completedQIDs[tonumber(jprereq)] and WoWPro.optional[k] then skip = false else skip = true end
 				end
 			end
 		end
@@ -345,7 +346,7 @@ function WoWPro_Leveling:RowUpdate()
 		
 		-- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
 		if not WoWProDB.profile.guidescroll then
-			k, reload = WoWPro_Leveling:NextStep(k)
+			k, reload = WoWPro_Leveling:NextStep(k, i)
 			if reload then return reload end
 		end
 		

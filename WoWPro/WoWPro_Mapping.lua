@@ -91,7 +91,7 @@ function WoWPro:MapPoint(row)
 	local i
 	if row then i = WoWPro.rows[row].index 
 	else 
-		i = WoWPro_Leveling:NextStep()
+		i = WoWPro_Leveling:NextStep(WoWPro.ActiveStep)
 	end
 	local coords; if WoWPro.maps then coords = WoWPro.maps[i] else coords = nil end
 	local desc = WoWPro.steps[i]
