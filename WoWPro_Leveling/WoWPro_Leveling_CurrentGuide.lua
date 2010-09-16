@@ -148,48 +148,15 @@ frame:SetScript("OnShow", function()
 			row.check:SetScript("OnClick", function(self, button, down)
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 				if button == "LeftButton" and row.check:GetChecked() then
-					if WoWPro.actions[row.index] == "A" 
-					or WoWPro.actions[row.index] == "C" 
-					or WoWPro.actions[row.index] == "T" then
-						WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = true
-					else 
-						WoWProDB.char.guide[GID].skipped[row.index] = true
-					end
+					local steplist = WoWPro_Leveling:SkipStep(row.index)
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
+					if steplist ~= "" then 
+						WoWPro:SkipStepDialogCall(row.index, steplist)
+					end
 				elseif button == "RightButton" and row.check:GetChecked() then
 					completion[row.index] = true
 				elseif not row.check:GetChecked() then
-					completion[row.index]  = nil
-					if WoWPro.QIDs[row.index] 
-					and ( WoWPro.actions[row.index] == "A" 
-						or WoWPro.actions[row.index] == "C" 
-						or WoWPro.actions[row.index] == "T" ) then
-							WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = nil
-					else
-						WoWProDB.char.guide[GID].skipped[row.index] = nil
-					end
-					local rerun = true
-					local currentstep = row.index
-					while rerun do
-						rerun = false
-						for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
-							local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
-							for k=1,numprereqs do
-								local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
-								if tonumber(kprereq) == WoWPro.QIDs[currentstep] then
-									if WoWPro.actions[j] == "A" 
-									or WoWPro.actions[j] == "C" 
-									or WoWPro.actions[j] == "T" then
-										WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
-									else
-										WoWProDB.char.guide[GID].skipped[j] = nil
-									end
-									rerun = true
-									currentstep = j
-								end
-							end
-						end end
-					end
+					WoWPro_Leveling:UnSkipStep(row.index)
 				end
 				WoWPro_Leveling.UpdateCurrentGuidePanel()
 				WoWPro:UpdateGuide()
