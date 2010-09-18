@@ -68,6 +68,7 @@ frame:SetScript("OnShow", function()
 	
 	function WoWPro_Leveling.UpdateCurrentGuidePanel()
 		if not frame:IsVisible() then return end
+		if WoWProDB.char.currentguide == "NilGuide" then return end
 		local GID = WoWProDB.char.currentguide
 		local steplist = WoWPro.steps
 		local optional = WoWPro.optional
@@ -94,6 +95,13 @@ frame:SetScript("OnShow", function()
 			
 			local step = steplist[index]
 			if optional[index] then step = step.." (optional)" end
+			if WoWPro.prof[index] then
+				local prof, proflvl = string.split(" ", WoWPro.prof[index]) 
+				step = step.." ("..prof..")"
+			end
+			if WoWPro.rank[index] then
+				step = step.." (rank "..WoWPro.rank[index]..")"
+			end
 			
 			-- Setting sticky texture --
 			if WoWPro.stickies[index] then 
@@ -107,6 +115,10 @@ frame:SetScript("OnShow", function()
 				row:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], 0)
 			end
 			
+			if WoWPro.unstickies[index] then 
+				step = step.." (un-sticky)"
+			end
+		
 			row.step:SetText(step)
 			
 			local action = WoWPro.actions[index]
@@ -136,47 +148,15 @@ frame:SetScript("OnShow", function()
 			row.check:SetScript("OnClick", function(self, button, down)
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 				if button == "LeftButton" and row.check:GetChecked() then
-					if WoWPro.actions[row.index] == "A" 
-					or WoWPro.actions[row.index] == "C" 
-					or WoWPro.actions[row.index] == "T" then
-						WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = true
-					else 
-						WoWProDB.char.guide[GID].skipped[row.index] = true
-					end
+					local steplist = WoWPro_Leveling:SkipStep(row.index)
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
+					if steplist ~= "" then 
+						WoWPro:SkipStepDialogCall(row.index, steplist)
+					end
 				elseif button == "RightButton" and row.check:GetChecked() then
 					completion[row.index] = true
 				elseif not row.check:GetChecked() then
-					completion[row.index]  = nil
-					if WoWPro.actions[row.index] == "A" 
-					or WoWPro.actions[row.index] == "C" 
-					or WoWPro.actions[row.index] == "T" then
-						WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = nil
-					else
-						WoWProDB.char.guide[GID].skipped[row.index] = nil
-					end
-					local rerun = true
-					local currentstep = row.index
-					while rerun do
-						rerun = false
-						for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
-							local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
-							for k=1,numprereqs do
-								local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
-								if tonumber(kprereq) == WoWPro.QIDs[currentstep] then
-									if WoWPro.actions[j] == "A" 
-									or WoWPro.actions[j] == "C" 
-									or WoWPro.actions[j] == "T" then
-										WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
-									else
-										WoWProDB.char.guide[GID].skipped[j] = nil
-									end
-									rerun = true
-									currentstep = j
-								end
-							end
-						end end
-					end
+					WoWPro_Leveling:UnSkipStep(row.index)
 				end
 				WoWPro_Leveling.UpdateCurrentGuidePanel()
 				WoWPro:UpdateGuide()

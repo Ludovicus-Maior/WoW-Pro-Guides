@@ -82,5 +82,5 @@
   <Script file="003_58_59_Jame_Eastern_Plaguelands.lua"/>
   <Script file="003_59_60_Jame_Western_Plaguelands.lua"/>
   <Script file="003_60_60_Jame_Eastern_Plaguelands.lua"/>
-  <Script file="003_60_61_Jame_Western_Plaguelands.lua"/>
+  <Script file="003_60_61_Jame_Western_Plaguelands.lua"/>  <Script file="Taxi_Northrend_Continental.lua"/>  
 </Ui>

@@ -87,6 +87,8 @@ function WoWPro:TitlebarSet()
 -- Size --
 	WoWPro.Titlebar:SetHeight(WoWPro.TitleText:GetHeight()+10)
 	
+-- Scrollbar --
+	if WoWProDB.profile.guidescroll then WoWPro.Scrollbar:Show() else WoWPro.Scrollbar:Hide() end
 end
 function WoWPro:BackgroundSet()
 -- Textures and Borders --
@@ -151,9 +153,8 @@ function WoWPro.RowSizeSet()
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
 	WoWPro.StickyCount = WoWPro.StickyCount or 0
 	
+	-- Hiding the row if it's past the set number of steps --
 	for i,row in ipairs(WoWPro.rows) do
-		
-		-- Hiding the row if it's past the set number of steps --
 		if WoWProDB.profile.autoresize then
 			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
 				biggeststep = ceil(max(biggeststep,row.step:GetStringWidth()))
@@ -172,7 +173,9 @@ function WoWPro.RowSizeSet()
 		if WoWPro.Titlebar:IsShown() then totalw = max(totalw,ceil(WoWPro.TitleText:GetStringWidth()+pad*2+10)) end
 		WoWPro.MainFrame:SetWidth(totalw)
 	end
-
+	
+	WoWPro.ShownRows = 0
+	
 	for i,row in ipairs(WoWPro.rows) do
 		row.check:SetPoint("TOPLEFT", 1, -space)
 		
@@ -216,6 +219,7 @@ function WoWPro.RowSizeSet()
 			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
 				totalh = totalh + newh
 				row:Show()
+				WoWPro.ShownRows = WoWPro.ShownRows + 1
 			else
 				for j=i,15 do WoWPro.rows[j]:Hide() end break
 			end
@@ -228,7 +232,10 @@ function WoWPro.RowSizeSet()
 					WoWPro.rows[j]:Hide() 
 				end
 				break
-			else row:Show() end
+			else 
+				row:Show() 
+				WoWPro.ShownRows = WoWPro.ShownRows + 1
+			end
 		end
 	end
 	
@@ -315,6 +322,32 @@ function WoWPro.CustomizeFrames()
 	WoWPro.ResizeSet(); WoWPro.DragSet(); WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.BackgroundSet(); WoWPro.RowSet(); WoWPro.MinimapSet()
 end
 
+-- Create Dialog Box --
+function WoWPro:CreateDialogBox(name, w, h)
+	local frame = CreateFrame("Frame", name, UIParent)
+	frame:SetPoint("CENTER", 0, 100)
+	frame:SetBackdrop( {
+		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+		edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
+		tile = true, tileSize = 16, edgeSize = 16,
+		insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+	})
+	frame:SetBackdropColor(0.2, 0.2, 0.2, 1)
+	frame:SetHeight(h)
+	frame:SetWidth(w)
+	frame:SetFrameStrata("TOOLTIP")
+	frame:Hide()
+
+	local titletext = frame:CreateFontString()
+	titletext:SetPoint("TOP", frame, "TOP", 0, -10)
+	titletext:SetFont([[Fonts\FRIZQT__.TTF]], 15)
+	titletext:SetWidth(w)
+	titletext:SetTextColor(1, 1, 1)
+	titletext:SetText(name)
+	
+	return frame, titletext
+end
+
 -- Anchor Frame --
 function WoWPro:CreateAnchorFrame()
 	local frame = CreateFrame("Frame", "WoWPro.AnchorFrame", UIParent)
@@ -334,6 +367,7 @@ function WoWPro:CreateMainFrame()
 	frame:SetWidth(200)
 	frame:SetMinResize(150,40)
 	frame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
+	frame:EnableMouseWheel()
 	WoWPro.MainFrame = frame
 	-- Menu --
 	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
@@ -460,8 +494,14 @@ end
 
 -- Guide Frame --
 function WoWPro:CreateGuideFrame()
-	local guide = CreateFrame("Frame", "WoWPro.GuideFrame", WoWPro.MainFrame)
-	WoWPro.GuideFrame = guide
+	WoWPro.GuideFrame = CreateFrame("Frame", "WoWPro.GuideFrame", WoWPro.MainFrame)
+end
+
+-- Scrollbar --
+function WoWPro:CreateScrollbar()
+	WoWPro.Scrollbar = LibStub("WoWPro-Scroll").new(WoWPro.GuideFrame)
+	WoWPro.Scrollbar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 20, -20)
+	WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 20, 20)
 end
 
 -- Rows to be populated by individual addons --
@@ -493,6 +533,7 @@ function WoWPro:CreateRows()
 		row.note = WoWPro:CreateNote(row, row.action)
 		row.track = WoWPro:CreateTrack(row, row.action)
 		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row)
+		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row)
 		
 		WoWPro.rows[i] = row	
 	end
@@ -547,26 +588,64 @@ function WoWPro:CreateMiniMapButton()
 	icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWProDB.profile.minimap)
 end
 
+-- Skip Steps Dialog --
+function WoWPro:CreateSkipStepsDialog()
+	local frame, titletext = WoWPro:CreateDialogBox("Skip Steps", 250, 250)
+	
+	local explanation = frame:CreateFontString()
+	explanation:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -15-titletext:GetHeight())
+	explanation:SetJustifyH("LEFT")
+	explanation:SetFontObject(GameFontNormal)
+	explanation:SetWidth(frame:GetWidth()-20)
+	explanation:SetTextColor(1, 1, 1)
+
+	local button1 = CreateFrame("Button", "Okay", frame, "OptionsButtonTemplate")
+	button1:SetPoint("BOTTOM", 0, 45)
+	button1:SetHeight(25)
+	button1:SetWidth(160)
+	local button1text = button1:CreateFontString()
+	button1text:SetPoint("TOP", button1, "TOP", 0, -7)
+	button1text:SetFontObject(GameFontNormalSmall)
+	button1text:SetText("Okay")
+	button1text:SetTextColor(1, 1, 1)
+	button1:SetScript("OnClick", function(self, button)
+		WoWPro.SkipStepsDialog:Hide()
+	end) 
+
+	local button2 = CreateFrame("Button", "Cancel", frame, "OptionsButtonTemplate")
+	button2:SetPoint("BOTTOM", 0, 10)
+	button2:SetHeight(25)
+	button2:SetWidth(160)
+	local button2text = button2:CreateFontString()
+	button2text:SetPoint("TOP", button2, "TOP", 0, -7)
+	button2text:SetFontObject(GameFontNormalSmall)
+	button2text:SetText("Cancel")
+	button2text:SetTextColor(1, 1, 1)
+	button2:SetScript("OnClick", function(self, button)
+		WoWPro.SkipStepsDialog:Hide()
+	end)
+	
+	WoWPro.SkipStepsDialog = frame
+	WoWPro.SkipStepsDialogText = explanation
+	WoWPro.SkipStepsCancelButton = button2
+	
+	function WoWPro:SkipStepDialogCall(index, steplist)
+		WoWPro.SkipStepsDialogText:SetText("Skipping the step "..WoWPro.steps[index].." will also cause the following steps to skip: \n\n"
+			..strtrim(steplist))
+		WoWPro.SkipStepsDialog:SetHeight(120+WoWPro.SkipStepsDialogText:GetHeight())
+		WoWPro.SkipStepsCancelButton:SetScript("OnClick", function(self, button)
+			WoWPro.SkipStepsDialog:Hide()
+			WoWPro_Leveling:UnSkipStep(index)
+		end)
+		WoWPro.SkipStepsDialog:Show()
+	end
+end
+
+
 -- Next Guide Dialog --
 function WoWPro:CreateNextGuideDialog()
-	local frame = CreateFrame("Frame", "GuideComplete", UIParent)
-	frame:SetPoint("CENTER", 0, 100)
-	frame:SetHeight(150)
-	frame:SetWidth(180)
-	frame:SetBackdrop( {
-		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-		edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
-		tile = true, tileSize = 16, edgeSize = 16,
-		insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-	})
-	frame:SetBackdropColor(0.2, 0.2, 0.2, 0.7)
-
-	local titletext = frame:CreateFontString()
-	titletext:SetPoint("TOP", frame, "TOP", 0, -10)
-	titletext:SetFontObject(GameFontNormal)
-	titletext:SetText("You have completed the current guide.")
-	titletext:SetWidth(180)
-	titletext:SetTextColor(1, 1, 1)
+	
+	local frame, titletext = WoWPro:CreateDialogBox("You have completed the current guide.", 150, 180)
 
 	local button1 = CreateFrame("Button", "LoadNextGuide", frame, "OptionsButtonTemplate")
 	button1:SetPoint("BOTTOMLEFT", 10, 80)
@@ -613,8 +692,6 @@ function WoWPro:CreateNextGuideDialog()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 	
-	frame:Hide()
-	
 	WoWPro.NextGuideDialog = frame
 end
 
@@ -649,9 +726,10 @@ function WoWPro:CreateDropdownMenu()
 				InterfaceOptionsFrame_OpenToCategory("Guide List") 
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
+				if not WoWProDB.char.currentguide or WoWProDB.char.currentguide == "NilGuide" then return end
 				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
 				for j = 1,WoWPro.stepcount do 
-					WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
+					if WoWPro.QIDs[j] then WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil end
 				end
 				WoWPro:LoadGuide()
 			end} )
@@ -669,7 +747,9 @@ WoWPro:CreateMainFrame()
 WoWPro:CreateResizeButton()
 WoWPro:CreateTitleBar()
 WoWPro:CreateStickyFrame()
-WoWPro:CreateGuideFrame()
+WoWPro:CreateGuideFrame();
+WoWPro:CreateScrollbar()
 WoWPro:CreateRows()
 WoWPro:CreateMouseNotes()
 WoWPro:CreateNextGuideDialog()
+WoWPro:CreateSkipStepsDialog()

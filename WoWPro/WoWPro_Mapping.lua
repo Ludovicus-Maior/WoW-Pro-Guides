@@ -7,7 +7,6 @@ local cache = {}
 local B = LibStub("LibBabble-Zone-3.0")
 local BL = B:GetUnstrictLookupTable()
 
-
 -- placeholder flags in case you want to implement options to disable
 -- TomTom tooltips and right-clicking drop-down menus
 local SHOW_MINIMAP_MENU = true
@@ -220,26 +219,23 @@ local zidmap = {
 function WoWPro:MapPoint(row)
 
 	local GID = WoWProDB.char.currentguide
+	if GID == "NilGuide" then return end
 
 	-- Removing old map point --
 	WoWPro:RemoveMapPoint()
 	
-	-- Setting first row as 1 by default, or the specified row if one is given --
-	local rowi = row or 1
-	if not WoWPro.rows[rowi].index then return end
-	
-	-- If a row was not specified, skipping any sticky rows --
-	if not row or not WoWPro.stickies[WoWPro.rows[row].index] then 
-		while WoWPro.stickies[WoWPro.rows[rowi].index] 
-		or WoWProDB.char.guide[GID].completion[WoWPro.rows[rowi].index] 
-		do rowi=rowi+1 end
-	end
-	
 	-- Loading Variables for this step --
-	local i = WoWPro.rows[rowi].index
+	local i
+	if row then i = WoWPro.rows[row].index 
+	else 
+		i = WoWPro_Leveling:NextStep(WoWPro.ActiveStep)
+	end
 	local coords; if WoWPro.maps then coords = WoWPro.maps[i] else coords = nil end
 	local desc = WoWPro.steps[i]
-	local zone = WoWPro.rows[rowi].zone
+	local zone
+	if row then zone = WoWPro.rows[row].zone else 
+		zone = WoWPro.zones[i] or strtrim(strsplit("(",(strsplit("-",WoWPro.loadedguide["zone"]))))
+	end 
 	local autoarrival = WoWPro.waypcomplete[i]
 	WoWProMapping.autoarrival = autoarrival
 
@@ -263,7 +259,7 @@ function WoWPro:MapPoint(row)
 			local data = LightHeaded:LoadNPCData(tonumber(npcid))
 			if not data then return end
 			for zid,x,y in data:gmatch("([^,]+),([^,]+),([^:]+):") do 
-				zone = zidmap[zid]
+				zone = zidmap[tonumber(zid)]
 				if not coords then coords = tostring(x)..","..tostring(y)
 				else coords = coords..";"..tostring(x)..","..tostring(y)
 				end

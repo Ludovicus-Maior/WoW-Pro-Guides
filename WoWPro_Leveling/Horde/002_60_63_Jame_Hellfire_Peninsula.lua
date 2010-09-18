@@ -3,22 +3,22 @@ return [[
 H Undercity|QID|9407|U|6948|
 R Portal to the Blasted Lands|QID|9407|N|By the Portal Trainer |Z|Undercity|M|84,15|
 A Through the Dark Portal |QID|9407|M|58.0,56.0|
-R Hellfire Peninsula|N||Z|Blasted Lands|QID|9407|M|58.7,60.0|
-T Through the Dark Portal |QID|9407|M|87.5,50.0|
-A Arrival in Outland |QID|10120|M|87.5,50.0|
-T Arrival in Outland |QID|10120|M|87.5,48.0|
-A Journey to Thrallmar |QID|10289|M|87.5,48.0|
+R Hellfire Peninsula|N|Through the great big portal.|Z|Blasted Lands|QID|9407|M|58.7,60.0|
+T Through the Dark Portal |QID|9407|M|87.3,49.8|
+A Arrival in Outland |QID|10120|M|87.3,49.8|
+T Arrival in Outland |QID|10120|M|87.3,48.1|
+A Journey to Thrallmar |QID|10289|M|87.3,48.1|
 F Thrallmar|QID|10289|
-
+h Thrallmar|QID|10121|M|56.7,37.5|
 T Journey to Thrallmar |QID|10289|M|56.0,37.0|
 A Report to Nazgrel (Part 1)|QID|10291|M|56.0,37.0|
 T Report to Nazgrel (Part 1)|QID|10291|M|55.0,36.0|
 A Eradicate the Burning Legion |QID|10121|M|55.0,36.0|
-A Bonechewer Blood |QID|10450|M|55.0,36.5|
-A I Work... For the Horde! |QID|10086|M|55.0,39.0|
-h Thrallmar|QID|10121| 
+A Bonechewer Blood |QID|10450|M|55.1,36.4|
+A I Work... For the Horde! |QID|10086|M|55.2,38.8|
 
-N Flying|QID|10809|N|Expert Riding may be purchased for 225g, you will also need 50g for a mount. Wind Rider Jahubo |M|54.2,41.6|
+
+N Flying|QID|10809|N|Expert Riding may be purchased for 225g, you will also need 50g for a mount. Wind Rider Jahubo.|M|54.2,41.6|
 T Eradicate the Burning Legion |QID|10121|N|If you take the south exit from Thrallmar, head east and you'll find the quest NPC.|M|58.0,41.5|
 A Felspark Ravine |QID|10123|M|58.0,41.5|
 C Felspark Ravine |QID|10123|N|It's just to the east, at .|M|62,39|
@@ -29,23 +29,23 @@ C Bonechewer Blood |QID|10450|M|56.5,47.0|
 T Felspark Ravine |QID|10123|M|58.0,41.5|
 A Forward Base: Reaver's Fall |QID|10124|M|58.0,41.5|
 
-T I Work... For the Horde! |QID|10086|M|55.0,39.0|
+T I Work... For the Horde! |QID|10086|M|55.2,38.8|
 A Burn It Up... For the Horde! |QID|10087|M|55.0,39.0|
-A Falcon Watch |QID|9498|R|Tauren, Orc, Undead, Troll|M|55.0,39.0|
+A Falcon Watch |QID|9498|R|Tauren, Orc, Undead, Troll|M|55.2,39.1|
 T Bonechewer Blood |QID|10450|M|55.0,36.5|
 A Apothecary Zelana |QID|10449|M|55.0,36.5|
 
 T Forward Base: Reaver's Fall |QID|10124|N|SE of Thrallmar, at .|M|66,44|
 A Disrupt Their Reinforcements |QID|10208|M|66.0,43.5|
-T Apothecary Zelana |QID|10449|M|66.0,42.0|
-A Spinebreaker Post |QID|10242|M|66.0,42.0|
+T Apothecary Zelana |QID|10449|M|66.2,42.0|
+A Spinebreaker Post |QID|10242|M|66.2,42.0|
 
 K Demons|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|70.91,45.28|
-N Disrupt Port Xilus|QID|10208|QO|Disrupt Port Xilus: 1/1|N|Step inside the gates and right click to disable.|
+N Disrupt Port Xilus|QID|10208|QO|Disrupt Port Xilus: 1/1|N|Step inside the gates and right click to disable.|M|70,45|
 K Demons|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|73.98,39.11|
-N Disrupt Port Kruul|QID|10208|QO|Disrupt Port Kruul: 1/1|N|Step inside the gates and right click to disable.|
+N Disrupt Port Kruul|QID|10208|QO|Disrupt Port Kruul: 1/1|N|Step inside the gates and right click to disable.|M|74.0,38.7|
 
-T Disrupt Their Reinforcements |QID|10208|N|Back at Reaver's Fall, .|M|66,44|
+T Disrupt Their Reinforcements |QID|10208|N|Back at Reaver's Fall.|M|66,44|
 A Mission: Gateways Murketh and Shaadraz |QID|10129|M|66.0,43.5|
 C Mission: Gateways Murketh and Shaadraz |QID|10129|U|28038|N|Talk to Wing Commander Brack and you'll go on a controlled flight, your job is to throw bombs at the Gateways, which look like the portals we just destroyed.|M|66.0,43.5|
 T Mission: Gateways Murketh and Shaadraz |QID|10129|M|66.0,43.5|
@@ -95,8 +95,8 @@ C Cannons of Rage |QID|10391|N|Kill the fel canons at Forge Camp: Rage. |M|59,32
 
 T Cannons of Rage |QID|10391|M|55.0,36.0|
 A Doorway to the Abyss |QID|10392|M|55.0,36.0|
-
-K Warbringer Arix'Amal|QID|10392|L|29795|N|Head to Invasion Point: Annihilator, kill Warbringer Arix'Amal and loot the key |M|54,27|
+	
+K Warbringer Arix'Amal|QID|10392|L|29795|N|Head to Invasion Point: Annihilator, kill Warbringer Arix'Amal and loot the key |M|53.1,26.4|
 C Doorway to the Abyss |QID|10392|N|Stand in the portal infront of the glyph, left-click the glyph.|M|53.0,26.5|
 
 A Outland Sucks! |QID|10236|N|Foreman Razelcraz|M|51.5,30.5|

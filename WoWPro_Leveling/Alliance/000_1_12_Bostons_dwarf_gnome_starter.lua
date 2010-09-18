@@ -39,7 +39,7 @@ T Coldridge Valley Mail Delivery |M|22.60,71.43| |QID|233| |N|Follow the road we
 A Coldridge Valley Mail Delivery |QID|234| |M|22.60,71.43|
 A The Boar Hunter |QID|183| |M|22.60,71.43|
 C The Boar Hunter |QID|183| |S|
-T Coldridge Valley Mail Delivery|M| |QID|234| |M|25.08,75.71|
+T Coldridge Valley Mail Delivery|QID|234| |M|25.08,75.71|
 A The Troll Cave |QID|182| |M|25.08,75.71|
 C The Troll Cave |QID|182| |S| 
 N Felix's Box |QID|3361| |QO|Felix's Box 1/1| |M|20.88,76.07| |L|10438 1| 
