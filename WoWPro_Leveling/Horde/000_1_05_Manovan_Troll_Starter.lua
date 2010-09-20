@@ -1,7 +1,7 @@
 WoWPro_Leveling:RegisterGuide("ManDar0105", "Darkspear Shore", "Manovan", "01", "05", "PreDar0512", "Horde", function()
 --> Original guides written/designed by [Manovan]
 -->
---> Last modified by [Pretzl] 4:20 PM 9/16/2010
+--> Last modified by [Pretzl] 2:33 AM 9/20/2010
 return [[
 
 A The Rise of the Darkspear |QID|24776|C|Hunter| |N|From Jin'thala.|
@@ -113,9 +113,10 @@ A More Than Expected |QID|.....|C|Warrior|
 A More Than Expected |QID|.....|C|Warlock|
 
 T More Than Expected |QID|24787||N|Meet up with Vol'jin inside the main building overlooking the sea in the village to the south-east.|
-A Moraya |QID|25064|
 N Watch the vision in the fire.|
-A Crab Fishin' |QID|25037|
+A Moraya |QID|25064|
+A Crab Fishin' |QID|25037|N|Outside the building, from Tora'jin.|M|68.43,87.68|
+
 T Moraya |QID|25064|
 A A Troll's Truest Companion |QID|24622|
 
@@ -123,29 +124,44 @@ T A Troll's Truest Companion |QID|24622|N|At Bloodtalon Shore.  Turn into Kijara
 A Saving The Young |QID|24623|N|Kijara|
 A Mercy For The Lost |QID|24624|N|Tegashi|
 A Consort of the Sea Witch |QID|24625|N|Tegashi|
+
 N Things to do |QID|25037| |N|Kill crabs for 6 Fresh Crawler Meat, Kill 8 Corrupted Bloodtalon Raptors and use your whistle when close to the raptor babies, you may stop once you have saved 12.|
 
 K Naj'tess |QID|24625|L|50018| |N|Up the small hill in the middle of the island where you're killing raptors. Loot the Naj'tess' Orb of Corruption|
-T Consort of the Sea Witch |QID|24625| |N|At Bloodtalon Shore.|
-A Young And Vicious |QID|24626|
-C Young And Vicious |QID|24626| |N|Use the lasso to capture a raptor called Swiftclaw who is running around the island. |
-T Young And Vicious |QID|24626|
-T Crab Fishin' |QID|25037|
-A Breaking The Line |QID|25035| |N|Outside Vol'jin's building.|
-N Speak to Jornun |QID|25035| |N|You will automatically mount on a raptor and take you will automatically ride to Spitescale Cove.|
-T Breaking The Line |QID|25035|
-A No More Mercy |QID|24812|
-A Territorial Fetish |QID|24813| |N|Inside the Cave.|
-C No More Mercy |QID|24812|
-C Territorial Fetish |QID|24813|
 
-T No More Mercy |QID|24812| |N|At the Entrance of the Cave.|
+T Consort of the Sea Witch |QID|24625| |N|At Bloodtalon Shore, to Tegashi.|M|63.41,95.24|
+T Mercy for the Lost|QID|24624|N|Tegashi|M|63.41,95.24|
+T Saving the Young|QID|24623|N|Kijara|
+A Young And Vicious |QID|24626|N|Kijara|
+
+C Young And Vicious |QID|24626|QO|N|Capture Swiftclaw: 1/1|N|Use the lasso to capture a raptor called Swiftclaw who is running around the island. |
+
+T Young And Vicious |QID|24626|N|Ride him back to the pens, then head to Moraya to turn in the quest.|M|66.04,87.97;67.23,87.98|
+
+T Crab Fishin' |QID|25037|N|Tora'jin|M|68.42,87.65|
+
+A Breaking The Line |QID|25035| |N|From Tortunga, outside Vol'jin's building.|M|67.97,88.97|
+
+N Speak to Jornun |QID|25035| |N|He offers you a raptor to take you to Spitescale Cove.|
+
+T Breaking The Line |QID|25035|N|Morakki|M|67.93,74.13|
+A No More Mercy |QID|24812|N|Morakki|M|67.93,74.13|
+A Territorial Fetish |QID|24813|N|Morakki|M|67.93,74.13|
+
+C Territorial Fetish |QID|24813|N|Head into the cave and use the Territorial Fetish on the flags, and kill Spitescale Naga until you complete both quests.|M|69.088,71.93|
+C No More Mercy |QID|24812|
+
+L Level 5|LVL|5|N|Kill Naga until you are level 5.|
+
+T No More Mercy |QID|24812| |N|Back to Morakki at the Entrance of the Cave.|M|67.93,74.13
 T Territorial Fetish |QID|24813|
 A An Ancient Enemy |QID|24814|
-N Speak to Vol'jin |QID|25035| |N|You are going to kill an NPC named Zar'jira with the help of NPC's. Go to Next step once you have killed this boss.|
-N Speak to Vanira |QID|25035| |N|She will teleport you back to Darkspear Hold.|
-T An Ancient Enemy |QID|24814|
-A Sen'jin Village  |QID|25073|
+
+C An Ancient Enemy|QID|24814|N|You are going to kill an NPC named Zar'jira with the help of NPC's. First speak to Vol'jin at Spitescale Cove, then kill Zar'jira.|M|68.86,71.93|
+
+R Darkspear Hold|QID|24814|N|Speak to Vanira; she will teleport you back to Darkspear Hold.|M|68.17,87.80|
+
+T An Ancient Enemy |QID|24814|N|Vol'jin|M|68.84,88.67
 
 ]]
 end)

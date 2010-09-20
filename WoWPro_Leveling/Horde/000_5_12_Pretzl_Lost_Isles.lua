@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("KriWrkFil", "WORKING: Lost Isles 5-12", "WORKING", "05", "12", "Nil", "Horde", function()
+WoWPro_Leveling:RegisterGuide("PreLos0512", "Lost Isles", "Pretzl", "05", "12", "Nil", "Horde", function()
 --> Original guides written/designed by [Pretzl]
 -->
 --> Last modified by [Pretzl] 9/20/2010
@@ -86,7 +86,6 @@ A Precious Cargo|QID|.....|M|23.22,67.52|
 C Precious Cargo|QID|.....|N|Fight your way to the precious cargo. Open it up.|M|11.8,62.75|
 T Precious Cargo|QID|.....|N|Turn in the quest to Thrall.|M|11.8,62.75|
 A Meet Me Up Top|QID|.....|N|And that's where it ends for now.......|
-
 
 
 
