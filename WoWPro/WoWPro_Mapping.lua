@@ -304,8 +304,8 @@ function WoWPro:MapPoint(row)
 		if not y or y > 100 then return end
 		if TomTom or Carbonite then
 			local uid
-			uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, false, nil, nil, WoWProMapping_callbacks_tomtom)
-			
+			uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, autoarrival, nil, nil, WoWProMapping_callbacks_tomtom)
+					
 			waypoint.uid = uid
 			waypoint.index = i
 			waypoint.zone = zone
