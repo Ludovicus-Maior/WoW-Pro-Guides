@@ -93,10 +93,6 @@ local function WoWProMapping_tooltip_update_both(event, tooltip, uid, dist)
 	end
 end
 
--- arrival distance, so TomTom can call our customized distance function when player
--- gets to the final destination
-local arrivaldistance = TomTomDB.profiles.Default.persistence.cleardistance + 1
-
 local autoarrival	-- flag to indicate if the step should autocomplete
 			-- when final position is reached; defined inside WoWPro:MapPoint from guide tag
 
@@ -144,7 +140,7 @@ local WoWProMapping_callbacks_tomtom = {
 				tooltip_update = WoWProMapping_tooltip_update_both,
 			},
 			distance = {
-				[arrivaldistance] = WoWProMapping_distance,
+				
 			},
 }
 
@@ -291,6 +287,11 @@ function WoWPro:MapPoint(row)
 		print("Zone not found. Using current zone")
 	end
 	zone = zone or zonenames[zc][zi]
+
+	-- arrival distance, so TomTom can call our customized distance function when player
+	-- gets to the final destination
+	local arrivaldistance = TomTom.db.profile.persistence.cleardistance + 1
+	WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
 	
 	-- Parsing and mapping coordinates --
 	
@@ -346,4 +347,5 @@ function WoWPro:RemoveMapPoint()
 		TomTom:RemoveWaypoint(cache[i].uid)
 	end
 	wipe(cache)
+	wipe(WoWProMapping_callbacks_tomtom.distance)
 end
