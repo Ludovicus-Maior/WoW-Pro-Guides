@@ -235,7 +235,7 @@ function WoWPro:MapPoint(row)
 	local i
 	if row then i = WoWPro.rows[row].index 
 	else 
-		i = WoWPro_Leveling:NextStep(WoWPro.ActiveStep)
+		i = WoWPro_Leveling:NextStepNotSticky(WoWPro.ActiveStep)
 	end
 	local coords; if WoWPro.maps then coords = WoWPro.maps[i] else coords = nil end
 	local desc = WoWPro.steps[i]
@@ -249,7 +249,7 @@ function WoWPro:MapPoint(row)
 	if zone and BL[zone] then zone = BL[zone] end
 	
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
-	if WoWPro.actions[i]=="T" or WoWPro.actions[i]=="C" and WoWPro.QIDs and WoWPro.QIDs[i] and not coords then
+	if (WoWPro.actions[i]=="T" or WoWPro.actions[i]=="C") and WoWPro.QIDs and WoWPro.QIDs[i] and not coords then
 		QuestMapUpdateAllQuests()
 		QuestPOIUpdateIcons()
 		local _, x, y, obj = QuestPOIGetIconInfo(WoWPro.QIDs[i])

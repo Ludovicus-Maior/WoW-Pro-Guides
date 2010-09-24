@@ -127,6 +127,23 @@ function WoWPro_Leveling:NextStep(k, i)
 	return k, reload
 end
 
+-- Determine Next Non Sticky Active Step --
+-- (Silvann) Created this to use in WoWPro:MapPoint, to solve issue 142
+function WoWPro_Leveling:NextStepNotSticky(k, i)
+	if not k then k = 1 end
+	if not i then i = 1 end
+	local sticky = true
+	while sticky do 
+		sticky = false
+		k = WoWPro_Leveling:NextStep(k)
+		if WoWPro.stickies[k] == true then 
+			sticky = true
+			k = k + 1
+		end
+	end
+	return k
+end
+
 -- Skip a step --
 function WoWPro_Leveling:SkipStep(index)
 	if WoWPro.actions[index] == "A" 
