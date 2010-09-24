@@ -342,8 +342,8 @@ function WoWPro:MapPoint(row)
 end
 
 function WoWPro:RemoveMapPoint()
-	while cache[1] do 
-		TomTom:RemoveWaypoint(cache[1].uid) 
-		table.remove(cache)
+	for i=1,#cache,1 do
+		TomTom:RemoveWaypoint(cache[i].uid)
 	end
+	wipe(cache)
 end
