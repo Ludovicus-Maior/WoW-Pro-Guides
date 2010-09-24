@@ -95,7 +95,7 @@ C Cannons of Rage |QID|10391|N|Kill the fel canons at Forge Camp: Rage. |M|59,32
 
 T Cannons of Rage |QID|10391|M|55.0,36.0|
 A Doorway to the Abyss |QID|10392|M|55.0,36.0|
-	
+
 K Warbringer Arix'Amal|QID|10392|L|29795|N|Head to Invasion Point: Annihilator, kill Warbringer Arix'Amal and loot the key |M|53.1,26.4|
 C Doorway to the Abyss |QID|10392|N|Stand in the portal infront of the glyph, left-click the glyph.|M|53.0,26.5|
 
