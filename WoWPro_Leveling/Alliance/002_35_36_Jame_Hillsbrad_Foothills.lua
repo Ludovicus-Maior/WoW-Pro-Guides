@@ -23,21 +23,21 @@ C Stormwind Ho! |N|Complete this quest on the Eastern Shore. | |QID|562|M|56.20,
 T Stormwind Ho! |QID|562|M|51.5,58.4|
 A Reassignment |QID|563|M|51.5,58.4|
 F Refuge Pointe |QID|659| |N|Fly to Refuge Pointe. |M|49.30,52.30|
-A Worth Its Weight in Gold |QID|691|M|46.2,47.8|
+A Worth Its Weight in Gold |QID|691|Z|Arathi Highland|M|46.2,47.8|
 T Hints of a New Plague? |N| | |QID|659| |Z|Arathi Highlands|M|60.00,53.00|
-A Hints of a New Plague? (part 2) |QID|658|M|60.2,53.9|
+A Hints of a New Plague? (part 2) |QID|658|Z|Arathi Highland|M|60.2,53.9|
 C Hints of a New Plague? (part 2) |N|You are looking for a Forsaken Courier and several bodyguards.  This quest is not easy, but there is a trick to it.  You have to kill the Courier and loot the envelope by using some means to distract the guards.  If you cannot solo this, get some assistance from somebody.  The courier wanders on the road throughout the zone. | |QID|658|
-T Hints of a New Plague? (part 2) |QID|658|M|60.2,53.9|
-A Hints of a New Plague? (part 3) |QID|657|M|60.2,53.9|
-T Hints of a New Plague? (part 3) |QID|657|M|60.2,53.9|
-A Hints of a New Plague? (part 4) |QID|660|M|60.2,53.9|
+T Hints of a New Plague? (part 2) |QID|658|Z|Arathi Highland|M|60.2,53.9|
+A Hints of a New Plague? (part 3) |QID|657|Z|Arathi Highland|M|60.2,53.9|
+T Hints of a New Plague? (part 3) |QID|657|Z|Arathi Highland|M|60.2,53.9|
+A Hints of a New Plague? (part 4) |QID|660|Z|Arathi Highland|M|60.2,53.9|
 C Hints of a New Plague? (part 4) |N|Kinelory is better off in front of you.  Try to fight one at a time, but let Kinelory be the one to attract mobs. | |QID|660|
-T Hints of a New Plague? (part 4) |QID|660|M|60.2,53.9|
-A Hints of a New Plague? (part 5) |QID|661|M|60.2,53.9|
+T Hints of a New Plague? (part 4) |QID|660|Z|Arathi Highland|M|60.2,53.9|
+A Hints of a New Plague? (part 5) |QID|661|Z|Arathi Highland|M|60.2,53.9|
 N Witherbark Tusk |QID|691| |N|Kill Trolls until you get 10 tusks for the quest. | |L|4503 10| |Z|Arathi Highlands|M|63.00,65.00|
 N Witherbark Medicine Pouch |QID|691| |N|Kill Witch Doctors to get the Medicine Pouches needed for the quest. | |L|4522 4|
 C Worth Its Weight in Gold |N|Kill Witherbark Shadow Hunters in the cave until you get the Shadow Hunter Knife | |QID|691| |Z|Arathi Highlands|M|68.00,75.00|
-T Worth Its Weight in Gold |N|Turn in your quest at Refuge Pointe. | |QID|691|M|46.2,47.8|
+T Worth Its Weight in Gold |N|Turn in your quest at Refuge Pointe. | |QID|691|Z|Arathi Highland|M|46.2,47.8|
 H Southshore |QID|661| |N|Hearth to Southshore. |
 T Hints of a New Plague? (part 5) |QID|661|M|50.3,59.0|
 N Sell junk, repair, restock |QID|564| |N|Sell junk, repair, restock |
@@ -57,25 +57,25 @@ A Letter to Stormpike |QID|514|M|50.6,57.1|
 T Costly Menace |QID|564|M|52.4,56.0|
 
 F Ironforge |QID|514| |N|Fly to Ironforge. |M|49.30,52.30|
-A Reclaimers' Business in Desolace |QID|1453|M|69.9,21.2|
-T Letter to Stormpike |QID|514|M|74.7,11.7|
+A Reclaimers' Business in Desolace |QID|1453|Z|Ironforge|M|69.9,21.2|
+T Letter to Stormpike |QID|514|Z|Ironforg4|M|74.7,11.7|
 A Further Mysteries |N|Get the follow-up.| |QID|525|M|74.7,11.7|
 R Stormwind City |QID|563| |N|Take the Deeprun Tram in Tinker Town.|
 N Sell junk, repair, restock, train new skills. |QID|563| |N|Sell junk, repair, restock, train new skills.|
-T Reassignment |QID|563|M|75.8,36.7|
+T Reassignment |QID|563|Z|Stormwind City|M|75.8,36.7|
 N Lesser Bloodstone Ore |QID|627| |N|Make sure you have 4 Lesser Bloodstone Ore unless you turned in Favor for Krazek already.|
 
 F Rebel Camp |QID|601| |N|Fly to Rebel Camp | |Z|Stormwind City|M|71.00,72.50|
 C Water Elementals |N|Go Southwest and kill Water Elementals to get the Elemental Bracers needed for the quest. | |QID|601| |Z|Stranglethorn Vale|M|22.00,22.00|
 F Booty Bay |QID|601| |N|Fly to Booty Bay from the Rebel Camp. | |Z|Stranglethorn Vale|M|38.20,4.00|
-T Water Elementals |QID|601|M|27.2,77.0|
+T Water Elementals |QID|601|Z|Stranglethorn Vale|M|27.2,77.0|
 A Magical Analysis |QID|602|
 H Southshore |QID|525| |N|Hearth to Southshore.|
 T Further Mysteries |QID|525|M|48.1,59.1|
 A Noble Deaths |QID|512|M|48.1,59.1|
 R Alterac Mountains |QID|602| |N| |M|54.00,7.00|
 R Strahnbrad |QID|602| |N|Follow the path to Strahnbrad. | |Z|Alterac Mountains|M|57.00,47.00|
-C Noble Deaths |N|Kill mobs here to get the Alterac Signets needed for the quest. | |QID|512|M|62.3,45.4|
+C Noble Deaths |N|Kill mobs here to get the Alterac Signets needed for the quest. | |QID|512|Z|Alterac Mountains|M|62.3,45.4|
 T Magical Analysis |N|Turn your quest in. | |QID|602| |Z|Alterac Mountains|M|18.00,75.00|
 A Ansirem's Key |QID|603|
 T Noble Deaths |N|Turn your quest in at Southshore. | |QID|512|M|48.1,59.1|
@@ -83,7 +83,7 @@ F Ironforge |QID|603| |N|Fly to Ironforge |M|49.30,52.30|
 h Ironforge |QID|603| |N|Set your home location to Ironforge. | |Z|Ironforge|M|18.40,51.50|
 N Sell junk, repair, restock. |QID|603| |N|Sell junk, repair, restock. |
 F Booty Bay |QID|603| |N|Fly to Booty Bay. | |Z|Ironforge|M|55.40,47.70|
-T Ansirem's Key |QID|603|
+T Ansirem's Key |QID|603|Z|Stranglethorn Vale|M|27.24,77.52|
 A "Pretty Boy" Duncan |QID|610|
 b Ratchet |QID|1453| |N|Take the boat to Ratchet. | |Z|Stranglethorn Vale|M|26.00,73.20|
 N NOTE |QID|1453| |N|If you have the Desolace-Nijel's Point flight path, go straight there, otherwise read the instructions on how to run there. |
