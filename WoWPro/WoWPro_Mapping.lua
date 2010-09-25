@@ -101,14 +101,16 @@ local OldCleardistance	-- saves TomTom's option to restore it
 -- Function to handle the distance callback in TomTom, when player gets to the final destination
 local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 
+	if UnitOnTaxi("player") then return end
+
+	if not autoarrival then return end
+
 	local iactual
 	for i,waypoint in ipairs(cache) do
 		if (waypoint.uid == uid) then
 			iactual = i break
 		end
 	end
-
-	if not autoarrival then return end
 
 	if autoarrival == 1 then
 		for i=iactual+1,#cache,1 do
