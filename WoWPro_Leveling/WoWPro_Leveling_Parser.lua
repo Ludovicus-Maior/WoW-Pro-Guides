@@ -255,7 +255,7 @@ local function ParseQuests(...)
 
 				if action == "R" and map then
 					if text:find("|CC|") then waypcomplete[i] = 1
-					-- elseif text:find("|CS|") then waypcomplete[i] = 2
+					elseif text:find("|CS|") then waypcomplete[i] = 2
 					else waypcomplete[i] = false end
 				end
 

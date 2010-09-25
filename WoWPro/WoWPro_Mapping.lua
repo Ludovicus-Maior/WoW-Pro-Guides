@@ -96,6 +96,8 @@ end
 local autoarrival	-- flag to indicate if the step should autocomplete
 			-- when final position is reached; defined inside WoWPro:MapPoint from guide tag
 
+local OldCleardistance	-- saves TomTom's option to restore it
+
 -- Function to handle the distance callback in TomTom, when player gets to the final destination
 local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 
@@ -116,15 +118,22 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 		if iactual == 1 then
 			WoWPro.CompleteStep(cache[iactual].index)
 		end
-	end
+	
 
-	--[[	
 	elseif autoarrival == 2 then
-		if #cache ~= 1 then return 
-		else WoWPro.CompleteStep(cache[#cache].index)
+		if iactual ~= #cache then return 
+		elseif iactual == 1 then 
+			WoWPro.CompleteStep(cache[iactual].index)
+		else
+			TomTom:RemoveWaypoint(cache[iactual].uid)
+			TomTom:SetCrazyArrow(cache[iactual-1].uid, TomTom.db.profile.arrow.arrival, cache[iactual-1].desc)
+			table.remove(cache)
+			for i=1,#cache,1 do
+				cache[i].j = cache[i].j - 1
+			end
 		end
 	end
-	--]]
+	
 end
 
 -- table with custom callback functions to use in TomTom
@@ -224,6 +233,9 @@ function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
 	if GID == "NilGuide" then return end
 
+	TomTom.db.profile.arrow.setclosest = true
+	OldCleardistance = TomTom.db.profile.persistence.cleardistance
+
 	-- Removing old map point --
 	WoWPro:RemoveMapPoint()
 	
@@ -289,9 +301,18 @@ function WoWPro:MapPoint(row)
 	zone = zone or zonenames[zc][zi]
 
 	-- arrival distance, so TomTom can call our customized distance function when player
-	-- gets to the final destination
-	local arrivaldistance = TomTom.db.profile.persistence.cleardistance + 1
+	-- gets to the waypoints
+	local arrivaldistance
+	if (not OldCleardistance) or (OldCleardistance == 0) then
+		arrivaldistance = 10
+	else
+		arrivaldistance = OldCleardistance + 1
+	end
 	WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
+
+	-- prevents TomTom from clearing waypoints that are not final destination
+	if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
+
 	
 	-- Parsing and mapping coordinates --
 	
@@ -305,8 +326,9 @@ function WoWPro:MapPoint(row)
 		if not y or y > 100 then return end
 		if TomTom or Carbonite then
 			local uid
-			uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, autoarrival, nil, nil, WoWProMapping_callbacks_tomtom)
-					
+			
+			uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, true, nil, nil, WoWProMapping_callbacks_tomtom)
+			
 			waypoint.uid = uid
 			waypoint.index = i
 			waypoint.zone = zone
@@ -318,10 +340,10 @@ function WoWPro:MapPoint(row)
 			table.insert(cache, waypoint)
 		end
 	end
-	TomTomDB.profiles.Default.arrow.setclosest = true
-
+	
 	if autoarrival and #cache > 0 then
 		if autoarrival == 1 then
+			TomTom.db.profile.arrow.setclosest = true
 			local closest_uid = TomTom:GetClosestWaypoint()
 			local iactual
 			for i,waypoint in ipairs(cache) do
@@ -332,14 +354,15 @@ function WoWPro:MapPoint(row)
 			for i=iactual+1,#cache,1 do
 				TomTom:RemoveWaypoint(cache[i].uid) 
 			end
-		end
-
-		--[[
+		
 		elseif autoarrival == 2 then
-			TomTomDB.profiles.Default.arrow.setclosest = false
+			TomTom.db.profile.arrow.setclosest = false
+			
 		end
-		--]]
+		
 	end
+	TomTom.db.profile.persistence.cleardistance = OldCleardistance
+	
 end
 
 function WoWPro:RemoveMapPoint()
