@@ -48,7 +48,7 @@ T Panther Mastery |QID|190|M|35.8,10.7|
 A Panther Mastery (follow-up) |QID|191|M|35.8,10.7|
 C Panther Mastery (follow-up) |N|Kill Panthers and Tigers until you complete both quests. | |QID|191|M|30.00,9.00|
 C Tiger Mastery (follow-up) |N| | |QID|186|M|30.00,9.00|
-C Raptor Mastery (follow-up) |N|Go southwest and kill 10 Stranglethorn Raptors. | |QID|194|M|27.80,14.80|
+C Raptor Mastery |N|Go southwest and kill 10 Stranglethorn Raptors. | |QID|194|M|27.80,14.80|
 C Bloodscalp Ears |N|Get 15 bloodscalp ears from the Trolls here.  There are several other camps, one at 33,15, that you can kill Trolls at as well. | |QID|189|M|29.00,20.00|
 C Singing Blue Shards |N|Go west and kill Basilisks until you get ten Singing Crystal Shards. | |QID|605|M|26.80,18.70|
 C The Stone of the Tides |N|Swim to the island until you get the quest complete message for The Stone of the Tides. | |QID|578|M|21.00,22.00|
@@ -75,25 +75,33 @@ A Tiger Mastery (part 3) |QID|187|M|35.8,10.7|
 T Panther Mastery |QID|191|M|35.8,10.7|
 A Panther Mastery (part 3) |QID|192|M|35.8,10.7|
 T Raptor Mastery |QID|194|M|35.8,10.7|
-A Raptor Mastery (part 3) |QID|195|M|35.8,10.7|
+A Raptor Mastery (part 2) |QID|195|M|35.8,10.7|
 N Green Hills of Stranglethorn |N|Turn in any Green Hills of Stranglethorn quests that you can turn in while you are here.|
-N Level Check: 33
-F Refuge Pointe |QID|634| |N|Go to the Rebel Camp, and fly to Refuge Pointe, Arathi Highlands. |M|38.20,4.05|
-T Plea To The Alliance |QID|634|M|45.8,47.6|
+N Level Check: 33 |LVL|33|
+F Menethil Harbor |QID|631| |N|Go to the Rebel Camp, and fly to Menethil Harbor, Wetlands. |M|38.20,4.05|
+A The Thandol Span |QID|631|Z|Wetlands|M|49.95,18.34|
+T The Thandol Span |QID|631|Z|Wetlands|M|51.24,7.97|
+A The Thandol Span (part 2) |QID|632|
+T The Thandol Span (part 2) |QID|632|Z|Wetlands|M|49.95,18.34|
+A The Thandol Span (part 3) |QID|633
+C The Thandol Span (part 3) |QID|633|Z|Arathi Highlands|M|48.67,87.95|
+T The Thandol Span (part 3) |QID|633|Z|Wetlands|M|49.95,18.34|
+A Plea To The Alliance |QID|634|
+f Refuge Pointe |QID|634|Z|Arathi Highlands|M|45.7,46.19|
+T Plea To The Alliance |QID|634|Z|Arathi Highlands|M|45.8,47.6|
 N Sell junk, repair, restock |N|Sell junk, repair, restock |
 R Hillsbrad Foothills |QID|9435| |N|Run west to the Hillsbrad Foothills. | |Z|Arathi Highlands|M|20.30,29.60|
 R Southshore |QID|9435| |N|Run to Southshore. | |Z|Hillsbrad Foothills|M|50.30,51.90|
 f Southshore |QID|9435| |N|Get the flight-path. | |Z|Hillsbrad Foothills|M|49.40,52.30|
 T Southshore |O| |QID|538|
-A Missing Crystals |QID|9435|M|51.0,58.7|
-A Down the Coast |QID|536|M|51.5,58.4|
-
+A Missing Crystals |QID|9435|Z|Hillsbrad Foothills|M|51.0,58.7|
+A Down the Coast |QID|536|Z|Hillsbrad Foothill|M|51.5,58.4|
 C Down the Coast |N|Kill the murlocs needed for Down the Coast.  It on the shore south/west of Southshore. | |QID|536| |Z|Hillsbrad Foothills|M|49.10,63.40|
 C Missing Crystals |N|Loot the crate at this location. | |QID|9435| |Z|Hillsbrad Foothills|M|55.50,35.20|
-T Missing Crystals |QID|9435|M|51.0,58.7|
-T Down the Coast |QID|536|M|51.5,58.4|
+T Missing Crystals |QID|9435|Z|Hillsbrad Foothill|M|51.0,58.7|
+T Down the Coast |QID|536|Z|Hillsbrad Foothill|M|51.5,58.4|
 T Southshore |QID|538|
-N Level check: 34 |QID|187|
+N Level check: 34 |QID|187|LVL|34|
 H The Salty Sailor Tavern |QID|187| |N|Hearth to Booty Bay.|
 N Train skills |QID|187| |N|Train your skills in Stormwind if able to.  Look for Green Hills of Stranglethorn Pages in the Auction House while you are there.  If you are a Rogue, train in Booty Bay.  Ask in general chat while in Stranglethorn Vale if anybody wants to trade Stranglethorn Pages. |
 F Rebel Camp |QID|187| |N|Fly to Rebel Camp. |M|27.50,77.80|
