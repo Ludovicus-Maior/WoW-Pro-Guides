@@ -2,10 +2,153 @@
 --      WoWPro_Mapping.lua      --
 ----------------------------------
 
+local L = WoWPro_Locale
 local cache = {}	
 local B = LibStub("LibBabble-Zone-3.0")
 local BL = B:GetUnstrictLookupTable()
 
+-- placeholder flags in case you want to implement options to disable
+-- later on TomTom tooltips and right-clicking drop-down menus
+local SHOW_MINIMAP_MENU = true
+local SHOW_WORLDMAP_MENU = true
+local SHOW_MINIMAP_TOOLTIP = true
+local SHOW_WORLDMAP_TOOLTIP = true
+
+
+-- WoWPro customized callback functions for TomTom --
+
+-- Function to customize the drop-down menu when right-clicking
+-- the TomTom waypoint on the minimap
+local function WoWProMapping_minimap_onclick(event, uid, self, button)
+	if SHOW_MINIMAP_MENU then
+		TomTom:InitializeDropdown(uid)
+		ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
+	end
+end
+
+-- Function to customize the drop-down menu when right-clicking 
+-- the TomTom waypoint on the world map
+local function WoWProMapping_worldmap_onclick(event, uid, self, button)
+	if SHOW_WORLDMAP_MENU then
+		TomTom:InitializeDropdown(uid)
+		ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
+	end
+end
+
+-- Function to customize the tooltip when mouse-over the TomTom waypoint, 
+-- can be called by both minimap and world map tooltip functions
+local function WoWProMapping_tooltip(event, tooltip, uid, dist)
+
+	local iactual
+	for i,waypoint in ipairs(cache) do
+		if (waypoint.uid == uid) then
+			iactual = i break
+		end
+	end
+
+	local zone = cache[iactual].zone
+	local x = cache[iactual].x
+	local y = cache[iactual].y
+	local desc = cache[iactual].desc
+	local jcoord = cache[iactual].j
+	
+	tooltip:SetText(desc or L["WoWPro waypoint"])
+	if dist and tonumber(dist) then
+		tooltip:AddLine(string.format(L["%s yards away"], math.floor(dist)), 1, 1, 1)
+	else
+		tooltip:AddLine(L["Unknown distance"])
+	end
+	tooltip:AddLine(string.format(L["%s (%.2f, %.2f)"], zone, x, y), 0.7, 0.7, 0.7)
+	if #cache > 1 then
+		tooltip:AddLine(string.format(L["Waypoint %d of %d"], jcoord, #cache), 1, 1, 1)
+	end
+	tooltip:Show()
+end
+
+-- Function to customize the tooltip when mouse-over the TomTom waypoint on the minimap
+local function WoWProMapping_tooltip_minimap(event, tooltip, uid, dist)
+	if not SHOW_MINIMAP_TOOLTIP then 
+		tooltip:Hide()
+		return
+	end
+	return WoWProMapping_tooltip(event, tooltip, uid, dist)
+end
+
+-- Function to customize the tooltip when mouse-over the TomTom waypoint on the world map
+local function WoWProMapping_tooltip_worldmap(event, tooltip, uid, dist)
+	if not SHOW_WORLDMAP_TOOLTIP then
+		tooltip:Hide()
+		return
+	end
+	return WoWProMapping_tooltip(event, tooltip, uid, dist)
+end
+
+-- Function to update customized tooltips, for both minimap and world map 
+-- (could be changed later so they can be different)
+local function WoWProMapping_tooltip_update_both(event, tooltip, uid, dist)
+	if dist and tonumber(dist) then
+		tooltip.lines[2]:SetFormattedText(L["%s yards away"], math.floor(dist), 1, 1, 1)
+	else
+		tooltip.lines[2]:SetText(L["Unknown distance"])
+	end
+end
+
+-- arrival distance, so TomTom can call our customized distance function when player
+-- gets to the final destination
+local arrivaldistance = TomTomDB.profiles.Default.persistence.cleardistance + 1
+
+local autoarrival	-- flag to indicate if the step should autocomplete
+			-- when final position is reached; defined inside WoWPro:MapPoint from guide tag
+
+-- Function to handle the distance callback in TomTom, when player gets to the final destination
+local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
+
+	local iactual
+	for i,waypoint in ipairs(cache) do
+		if (waypoint.uid == uid) then
+			iactual = i break
+		end
+	end
+
+	if not autoarrival then return end
+
+	if autoarrival == 1 then
+		for i=iactual+1,#cache,1 do
+			TomTom:RemoveWaypoint(cache[i].uid)
+		end
+			
+		if iactual == 1 then
+			WoWPro.CompleteStep(cache[iactual].index)
+		end
+	end
+
+	--[[	
+	elseif autoarrival == 2 then
+		if #cache ~= 1 then return 
+		else WoWPro.CompleteStep(cache[#cache].index)
+		end
+	end
+	--]]
+end
+
+-- table with custom callback functions to use in TomTom
+local WoWProMapping_callbacks_tomtom = {
+			minimap = {
+				onclick = WoWProMapping_minimap_onclick,
+				tooltip_show = WoWProMapping_tooltip_minimap,
+				tooltip_update = WoWProMapping_tooltip_update_both,
+			},
+			world = {
+				onclick = WoWProMapping_worldmap_onclick,
+				tooltip_show = WoWProMapping_tooltip_worldmap,
+				tooltip_update = WoWProMapping_tooltip_update_both,
+			},
+			distance = {
+				[arrivaldistance] = WoWProMapping_distance,
+			},
+}
+
+-- parameters for Lightheaded
 local zidmap = {
    [1] = "Dun Morogh",
    [3] = "Badlands",
@@ -81,9 +224,10 @@ local zidmap = {
 }
 
 function WoWPro:MapPoint(row)
+
 	local GID = WoWProDB.char.currentguide
 	if GID == "NilGuide" then return end
-	
+
 	-- Removing old map point --
 	WoWPro:RemoveMapPoint()
 	
@@ -91,20 +235,21 @@ function WoWPro:MapPoint(row)
 	local i
 	if row then i = WoWPro.rows[row].index 
 	else 
-		i = WoWPro_Leveling:NextStep(WoWPro.ActiveStep)
+		i = WoWPro_Leveling:NextStepNotSticky(WoWPro.ActiveStep)
 	end
 	local coords; if WoWPro.maps then coords = WoWPro.maps[i] else coords = nil end
 	local desc = WoWPro.steps[i]
 	local zone
 	if row then zone = WoWPro.rows[row].zone else 
-		zone = WoWPro.zones[i] or strtrim(strsplit("(",(strsplit("-",WoWPro.loadedguide["zone"])))) 
-	end
+		zone = WoWPro.zones[i] or strtrim(strsplit("(",(strsplit("-",WoWPro.loadedguide["zone"]))))
+	end 
+	autoarrival = WoWPro.waypcomplete[i]
 	
 	-- Look up zone's localization --
 	if zone and BL[zone] then zone = BL[zone] end
 	
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
-	if WoWPro.actions[i]=="T" or WoWPro.actions[i]=="C" and WoWPro.QIDs and WoWPro.QIDs[i] and not coords then
+	if (WoWPro.actions[i]=="T" or WoWPro.actions[i]=="C") and WoWPro.QIDs and WoWPro.QIDs[i] and not coords then
 		QuestMapUpdateAllQuests()
 		QuestPOIUpdateIcons()
 		local _, x, y, obj = QuestPOIGetIconInfo(WoWPro.QIDs[i])
@@ -128,6 +273,7 @@ function WoWPro:MapPoint(row)
 		end
 	end
 
+
 	-- If there aren't coords to map, ending map function --
 	if not coords then return end
 	
@@ -147,18 +293,57 @@ function WoWPro:MapPoint(row)
 	zone = zone or zonenames[zc][zi]
 	
 	-- Parsing and mapping coordinates --
+	
 	local numcoords = select("#", string.split(";", coords))
 	for j=1,numcoords do
+		local waypoint = {}
 		local jcoord = select(numcoords-j+1, string.split(";", coords))
 		local x = tonumber(jcoord:match("([^|]*),"))
 		local y = tonumber(jcoord:match(",([^|]*)"))
 		if not x or x > 100 then return end
 		if not y or y > 100 then return end
-		if TomTom or Carbonite then table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false)) end
+		if TomTom or Carbonite then
+			local uid
+			uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, false, nil, nil, WoWProMapping_callbacks_tomtom)
+			
+			waypoint.uid = uid
+			waypoint.index = i
+			waypoint.zone = zone
+			waypoint.x = x
+			waypoint.y = y
+			waypoint.desc = desc
+			waypoint.j = numcoords-j+1
+
+			table.insert(cache, waypoint)
+		end
 	end
-	
+	TomTomDB.profiles.Default.arrow.setclosest = true
+
+	if autoarrival and #cache > 0 then
+		if autoarrival == 1 then
+			local closest_uid = TomTom:GetClosestWaypoint()
+			local iactual
+			for i,waypoint in ipairs(cache) do
+				if (waypoint.uid == closest_uid) then 
+					iactual = i break end
+			end
+
+			for i=iactual+1,#cache,1 do
+				TomTom:RemoveWaypoint(cache[i].uid) 
+			end
+		end
+
+		--[[
+		elseif autoarrival == 2 then
+			TomTomDB.profiles.Default.arrow.setclosest = false
+		end
+		--]]
+	end
 end
 
 function WoWPro:RemoveMapPoint()
-	while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
+	while cache[1] do 
+		TomTom:RemoveWaypoint(cache[1].uid) 
+		table.remove(cache)
+	end
 end
