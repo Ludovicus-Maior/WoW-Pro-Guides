@@ -10,11 +10,11 @@ h Stoutlager Inn |QID|1339| |N|Set your hearthstone to Thelsamar |M|35.55,48.40|
 A Thelsamar Blood Sausages |QID|418|M|34.8,49.3|
 A Rat Catching |QID|416|M|34.8,47.1|
 A Mountaineer Stormpike's Task |QID|1339|M|34.8,47.1|
-N From now on...  |QID|418| |N|From now on, kill mobs for the Thelsamar Blood Sausages quest.|
+C Thelsamar Blood Sausages |N|Kill mobs south of Thelsamar until you get the items for this quest.| |QID|418|S|M|37.4,38.9|
 C Rat Catching |N|Kill Tunnel Rat mobs until you get the ears for this quest. | |QID|416|M|26.00,42.00|
 T Mountaineer Stormpike's Task |QID|1339|M|24.8,18.4|
 A Stormpike's Order |QID|1338|M|24.8,18.4|
-C Thelsamar Blood Sausages |N|Kill mobs south of Thelsamar until you get the items for this quest.| |QID|418|M|37.4,38.9|
+C Thelsamar Blood Sausages |N|Kill mobs south of Thelsamar until you get the items for this quest.| |QID|418|US|M|37.4,38.9|
 A The Trogg Threat |QID|267|M|23.2,73.7|
 A In Defense of the King's Lands |N|This is from Mountaineer Cobbleflint, outside | |QID|217|M|22.10,73.20|
 C The Trogg Threat |N|Kill mobs until you get the items for this quest. | |QID|267|M|33.00,73.00|
@@ -28,14 +28,14 @@ F Ironforge |QID|6661| |N|Fly to Ironforge |M|33.90,50.95|
 N Sell junk, repair, restock, train skills |QID|6661| |N|Sell junk, repair, restock, train skills|
 R Deeprun Tram |QID|6661| |N|Go to the Deeprun Tram | |Z|Ironforge|M|76.50,51.10|
 A Deeprun Rat Roundup |N|Get this quest from Monty in the Tram. | |QID|6661|
-C Deeprun Rat Roundup |N|Use the flute to catch five Deeprun Rats | |QID|6661|
+C Deeprun Rat Roundup |N|Use the flute to catch five Deeprun Rats | |QID|6661|U|17117|
 T Deeprun Rat Roundup |QID|6661|
 A Me Brother, Nipsy |N|Get the next quest from Monty .| |QID|6662|M|small del,|
 T Me Brother, Nipsy |N|Get on the tram and turn this quest in at the other end.| |QID|6662|
 R Stormwind City  |QID|1338| |N|Exit the Tram to Stormwind City|
-T Stormpike's Order |QID|1338|M|64.6,37.2|
+T Stormpike's Order |QID|1338|Z|Stormwind City|M|64.6,37.2|
 R Elwynn Forest |N|Go to Elwynn Forest | |Z|Stormwind City|M|75.00,94.50|
-A Report to Gryan Stoutmantle |QID|109|M|42.1,65.9|
+A Report to Gryan Stoutmantle |N|From Marshal Dughan|QID|109|Z|Elwynn Forest|M|42.1,65.9|
 R Westfall |N|Go to Westfall. | |Z|Elwynn Forest|M|20.25,80.50|
 ]]
 end)
