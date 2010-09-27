@@ -27,9 +27,9 @@ A Rifle the Bodies |QID|11999|M|38.1,46.2|
 A Wanted: Dreadtalon |QID|12091| |N|From the Wanted Poster just outside the door.|
 A Wanted: Gigantaur |QID|12090|
 A Wanted: Magister Keldonus |QID|12089|
-A Message from the West |QID|12033|M|37.3,46.8|PRE|11916|
-C Message from the West |QID|12033|N|Use the firepot right next to the quest NPC.|M|37.4,46.7|PRE|11916|
-T Message from the West |QID|12033|M|37.3,46.8|PRE|11916|
+A Message from the West |QID|12033|M|37.3,46.8|PRE|11916|O|
+C Message from the West |QID|12033|N|Use the firepot right next to the quest NPC.|M|37.4,46.7|PRE|11916|O|
+T Message from the West |QID|12033|M|37.3,46.8|PRE|11916|O|
 T Victory Nears... |QID|12034| M|36.6,46.6|
 A From the Depths of Azjol-Nerub |QID|12036|M|36.6,46.6|PRE|12034|
 A The High Executor Needs You |QID|12488|
@@ -302,7 +302,7 @@ A On Ruby Wings |QID|12498|M|59.5,53.3|PRE|12497|
 N READ THIS |QID|12498|N|Time for some fun. You're about to engage the enemy from dragonback. Now, because you can use this drake for a fair part of Dragonblight, we just got a flying mount several levels early. So, don't turn in the quest "On Ruby Wings" until you're told. We're gonna make the most of this. Do fly close to the ground, though, in case you go somewhere you're not supposed to.|
 C On Ruby Wings |QID|12498|N|Use your Beacon and fly north to Galakron's Rest. Ability 1 and 2 are damage abilities. Use ability 3 when near a Wastes Scavenger to regain mana/HP (you eat them). If you have one, equip your PvP trinket once you've killed the 30 Scavengers, the miniboss we're about to kill does a 10 second fear. Kill the giant Thiassi, at the northwestern tip of Galakron's Rest (use the dragon to make it easy), dismount, then kill Grand Necrolord Antiok, and loot the Scythe that appears.|M|56,35|
 
-A Pest Control |QID|12144| |N|The questgiver is west at .|M|47,33|
+A Pest Control |QID|12144| |N|The questgiver is to the west.|M|47,33|
 N Dreadtalon |QID|12091|N|The elite Dreadtalon is the in the area, if you can get a group, do so.|
 
 C That Which Creates Can Also Destroy |QID|12459|QO|Weakened Reanimated Frost Wyrm slain: 1/1|U|37887|N|It'll be up in the sky, use the Seeds of Nature's Wrath on it and finish it.|M|55.2,45.7|
