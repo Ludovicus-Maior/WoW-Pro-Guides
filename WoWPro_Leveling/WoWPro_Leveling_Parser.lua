@@ -146,6 +146,7 @@ end
 
 -- Skip a step --
 function WoWPro_Leveling:SkipStep(index)
+	if not WoWPro.QIDs[index] then return "" end
 	if WoWPro.actions[index] == "A" 
 	or WoWPro.actions[index] == "C" 
 	or WoWPro.actions[index] == "T" then
@@ -288,6 +289,8 @@ function WoWPro_Leveling:LoadGuide()
 		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat, WoWPro.level, WoWPro.leadin,
 		WoWPro.target, WoWPro.prof, WoWPro.rank, WoWPro.waypcomplete
 		= ParseQuests(string.split("\n", sequence()))
+	
+	collectgarbage("collect")
 	
 	--Checking the completed quest table and checking of steps
 	if WoWProDB.char.completedQIDs then

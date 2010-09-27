@@ -74,7 +74,7 @@ end
 
 -- Guide Registration Function --
 function WoWPro_Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, endlevelvalue, nextGIDvalue, factionname, sequencevalue)
-	if factionname and factionname ~= myUFG then return end
+	if factionname and factionname ~= myUFG and factionname ~= "Neutral"	then return end
 	table.insert(WoWPro.GuideList, {
 		GID = GIDvalue,
 		guidetype = "Leveling",
