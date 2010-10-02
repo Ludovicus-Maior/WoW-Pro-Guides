@@ -38,10 +38,6 @@ WoWPro_Leveling.actionlabels = {
 	r = "Repair/Restock"
 }
 
--- TODO: change this
--- tag |CC| means autocomplete on waypoint arrival, regardless of waypoint sequence order -> waypcomplete = 1
--- tag |CS| means autocomplete on waypoint arrival, but player has to follow the sequence order
-
 -- Determine Next Active Step --
 function WoWPro_Leveling:NextStep(k, i)
 	if not k then k = 1 end
@@ -385,11 +381,14 @@ function WoWPro_Leveling:LoadGuide()
 			WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val) 
 		end
 	end)	
-	local f = WoWPro.Scrollbar:GetScript("OnValueChanged")
+	local oldOffset = 0
 	WoWPro.Scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		local offset = math.floor(value)
-		WoWPro:UpdateGuide(offset)
-		return f(self, value, ...)
+		if not WoWProDB.profile.guidescroll or offset == oldOffset then return
+		else
+			oldOffset = offset
+			return WoWPro:UpdateGuide(offset) 
+		end
 	end)
 end
 
