@@ -306,14 +306,14 @@ A Pest Control |QID|12144| |N|The questgiver is to the west.|M|47,33|
 N Dreadtalon |QID|12091|N|The elite Dreadtalon is the in the area, if you can get a group, do so.|
 
 C That Which Creates Can Also Destroy |QID|12459|QO|Weakened Reanimated Frost Wyrm slain: 1/1|U|37887|N|It'll be up in the sky, use the Seeds of Nature's Wrath on it and finish it.|M|55.2,45.7|
-C Pest Control |QID|12144| |N|First camp is at , then there's one at (56,52).|M|55,41|
+C Pest Control |QID|12144|M|55,41;56,52|
 T Pest Control |QID|12144|M|46.7,33.5|
 N Get on your land mount|QID|12145|
 A Canyon Chase |QID|12145|M|46.7,33.5|PRE|12144|
 C Canyon Chase |QID|12145|N|Follow the snobolds, they'll lead you to a Magnatur named Icefist.|M|42,40|
 N Loot the Horn |QID|12147|L|36856|
 T Canyon Chase |QID|12145|M|46.7,33.5|
-A Disturbing Implications |QID|12147|U|36856|M|42.4,38.9|PRE|12145|
+A Disturbing Implications |QID|12147|U|36856|M|42.4,38.9|PRE|12145|N|From the horn.|
 
 T Disturbing Implications |QID|12147| |N|Head east into the Dragon Wastes and fly to Wyrmrest Temple, Aurastrasza is on the ground floor.|M|60.0,55.2|
 A One of a Kind |QID|12148|PRE|12147|
@@ -323,28 +323,28 @@ C One of a Kind |QID|12148| |N|Head to the canyon to the west. Bonesunder has 21
 T One of a Kind |QID|12148|N||M|60.0,55.2|
 A Mighty Magnataur |QID|12149|PRE|12148|
 
-C Mighty Magnataur |QID|12149|QO|Drakegore slain: 1/1|N|Drakegore is elite, but doesn't hit too hard, and can be snared/stunned/feared/rooted.|M|68,41|
-C Mighty Magnataur |QID|12149|QO|Iceshatter slain: 1/1|N|Iceshatter's tougher, as he's immune to movement impairing effects, but still soloable. Run out of range of his Pulsing Shards or bubble/iceblock/CoS through it.|M|67,50|
+C Mighty Magnataur: Drakegore |QID|12149|QO|Drakegore slain: 1/1|N|Drakegore is elite, but doesn't hit too hard, and can be snared/stunned/feared/rooted.|M|68,41|
+C Mighty Magnataur: Iceshatter |QID|12149|QO|Iceshatter slain: 1/1|N|Iceshatter's tougher, as he's immune to movement impairing effects, but still soloable. Run out of range of his Pulsing Shards or bubble/iceblock/CoS through it.|M|67,50|
 C In Service of Frost |QID|12127|U|36847|N|Ice Revenants will be on a frozen lake just south of you. Beat one down to 35% and use the Frost Gem on it.|M|66.2,52.9|
-C Mighty Magnataur |QID|12149|QO|Bloodfeast slain: 1/1|N|The hardest of the 3, Bloodfeast's completely immune to any CC and summons maggots that heal him, but are immune to AoE. So just burn him as fast as humanely possible.|M|67,70|
+C Mighty Magnataur: Bloodfeast |QID|12149|QO|Bloodfeast slain: 1/1|N|The hardest of the 3, Bloodfeast's completely immune to any CC and summons maggots that heal him, but are immune to AoE. So just burn him as fast as humanely possible.|M|67,70|
 
-T Mighty Magnataur |QID|12149| |N|Back at Wyrmrest Temple.|
+T Mighty Magnataur |QID|12149|N|Back at Wyrmrest Temple.|
 A Reclusive Runemaster |QID|12150|PRE|12149|
 
 N Dragonblight Group Quests |QID|12095|N|You've now got all of the group quests in Dragonblight, aside from To Dragon's Fall, which is a follow up to the Agmar's Hammer Wanted quests, Wanton Warlord, which is a follow-up to Reclusive Runemaster, and Do Unto Others, which you'll get after the New Hearthglen quests. So get these quests done when you can. Turn-ins won't be mentioned, so turn them in whenever you're in the area.|
 
-K Deathguard Schneider |QID|12245|QO|Deathguard Schneider slain: 1/1|N|New Hearthglen. She's behind the gallows in a cage at , talk to her and select the first text option; kill her.|M|71.4,72.2|
-N Grab the Barracks Orders |QID|12234|QO|Scarlet Onslaught Daily Orders: Barracks: 1/1|N|Go into the Barracks to the west at . As you enter, go right, then left, then left, the orders are on the table to the right.|M|69.7,71.9|
-N Grab the Abbey Orders |QID|12234|QO|Scarlet Onslaught Daily Orders: Abbey: 1/1|N|Head southeast to the abbey at . The orders are in the last room in the northeast wing, ground floor. (73.4,72.6)|M|72.3,73.5|
-K Chancellor Amai |QID|12245|QO|Chancellor Amai slain: 1/1|N|He's just to the northeast of the Abbey exit. Again, talk to him and click the first text. |M|72.7,72.6|
-K Engineer Burke |QID|12245|QO|Engineer Burke slain: 1/1|N|He's on the other side of the Abbey at . Talk, select first option, kill.|M|72.7,74.4|
-N Destroy the ballista |QID|12232|QO|New Hearthglen Ballista bombarded: 1/5|U|37259|N|There's one just southeast of Engineer Burke. Use the Siegesmith Bombs on it. Destroy any you see from now on.|
-N Grab the Beach Orders |QID|12234|QO|Scarlet Onslaught Daily Orders: Beach: 1/1| |N|Follow the path to the beach, the Beach orders are just to the right at in one of two tents.|M|71.6,80.4|
-C A Means to an End |QID|12240|U|37300|N|Head northwest to the lumbermill at , use the termites in the centre of the building and kill Foreman Kaleiki.|M|68,74|
-C Senior Scrivener Barriga |QID|12245|QO|Senior Scrivener Barriga slain: 1/1|N|The last prisoner, Senior Scrivener Barriga is northeast at .|M|69.4,74.0|
-C Bombard the Ballistae |QID|12232| |U|37259|M|73.3,67.6|
-K Onslaught Knight |QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|
-N Deliver the Horse |QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 1/3|U|37202|N|Target the horse and use the riding crop. Then ride back to Venomspite and use ability 1 to deliver the horse to Hansel Bauer. |M|75.9,61.9|
+C Kill Deathguard Schneider |QID|12245|QO|Deathguard Schneider slain: 1/1|N|New Hearthglen. She's behind the gallows in a cage, talk to her and select the first text option; kill her.|M|71.4,72.2|
+C Grab the Barracks Orders |NC|QID|12234|QO|Scarlet Onslaught Daily Orders: Barracks: 1/1|N|Go into the Barracks to the west. As you enter, go right, then left, then left, the orders are on the table to the right.|M|69.7,71.9|
+C Grab the Abbey Orders |NC|QID|12234|QO|Scarlet Onslaught Daily Orders: Abbey: 1/1|N|Head southeast to the abbey. The orders are in the last room in the northeast wing, ground floor.|M|72.3,73.5;73.4,72.6|
+C Kill Chancellor Amai |QID|12245|QO|Chancellor Amai slain: 1/1|N|He's just to the northeast of the Abbey exit. Again, talk to him and click the first text. |M|72.7,72.6|
+C Kill Engineer Burke |QID|12245|QO|Engineer Burke slain: 1/1|N|He's on the other side of the Abbey. Talk, select first option, kill.|M|72.7,74.4|
+C Bombard the Ballistae |QID|12232|U|37259|N|There's one just southeast of Engineer Burke. Use the Siegesmith Bombs on it. Destroy any you see from now on.|S|
+C Grab the Beach Orders |NC|QID|12234|QO|Scarlet Onslaught Daily Orders: Beach: 1/1| |N|Follow the path to the beach, the Beach orders are just to the right at in one of two tents.|M|71.6,80.4|
+C A Means to an End |QID|12240|U|37300|N|Head northwest to the lumbermill, use the termites in the centre of the building and kill Foreman Kaleiki.|M|68,74|
+C Kill Senior Scrivener Barriga |QID|12245|QO|Senior Scrivener Barriga slain: 1/1|N|The last prisoner, Senior Scrivener Barriga is northeast.|M|69.4,74.0|
+C Bombard the Ballistae|QID|12232|U|37259|M|73.3,67.6|US|
+K Onslaught Knight|QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|
+C Fresh Remounts|QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 1/3|U|37202|N|Target the horse and use the riding crop. Then ride back to Venomspite and use ability 1 to deliver the horse to Hansel Bauer.|M|75.9,61.9|
 
 T Bombard the Ballistae |QID|12232|M|77.5,62.0|
 T A Means to an End |QID|12240|M|77.0,62.9|
@@ -354,7 +354,7 @@ A Torture the Torturer |QID|12252|M|76.8,63.3|PRE|12245|
 T Need to Know |QID|12234|M|76.7,63.0|
 A The Spy in New Hearthglen |QID|12239|M|76.7,63.0|PRE|12234|
 
-C Torture the Torturer |QID|12252| |N|Head back to the Scarlet Onslaught barracks, they're at . Head right, then left and left, there'll be a staircase down on your right. Use the Branding Iron on LeCraft 5 times, then kill him.| |U|37314|M|70,72|
+C Torture the Torturer |QID|12252| |N|Head back to the Scarlet Onslaught barracks. Head right, then left and left, there'll be a staircase down on your right. Use the Branding Iron on LeCraft 5 times, then kill him.| |U|37314|M|70,72|
 N Loot the Torturer's Rod |QID|12271|L|37432|N|Off the dead body.|
 A The Rod of Compulsion |QID|12271| |U|37432|M|69.8,72.0|
 T The Spy in New Hearthglen |QID|12239| |N|Agent Skully is southeast at .|M|74,73|
@@ -372,7 +372,7 @@ T A Fall From Grace |QID|12274| |N|Back at .|M|74,73|
 A The Truth Will Out |QID|12283|M|73.6,73.5|PRE|12274|
 C The Truth Will Out |QID|12283| |N|The diary is on the upper floor of the house next to the chapel where Bishop Street was, at .|M|68,77|
 K Onslaught Knight |QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|
-N Deliver the Horse |QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 2/3|U|37202|N|Target the horse and use the riding crop. Then ride back to Venomspite and use ability 1 to deliver the horse to Hansel Bauer. |M|75.9,61.9|
+C Fresh Remounts |QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 2/3|U|37202|N|Target the horse and use the riding crop. Then ride back to Venomspite and use ability 1 to deliver the horse to Hansel Bauer. |M|75.9,61.9|
 
 T Fire Upon the Waters |QID|12243|M|77.0,62.9|
 T Torture the Torturer |QID|12252|M|76.8,63.3|
@@ -387,7 +387,7 @@ N Commander Jordan |QID|12273|QO|Commander Jordan's denouncement & death: 1/1|U|
 N Stable Master Mercer |QID|12273|QO|Stable Master Mercer's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's at the stables |M|68,75|
 N Lead Cannoneer Zierhut |QID|12273|QO|Lead Cannoneer Zierhut's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's halfway down to the coast by all the cannons |M|73,78|
 K Onslaught Knight |QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|
-N Deliver the Horse |QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 2/3|U|37202|N|Use the Riding crop on the horse and ride it back to Hansel Bauer. Use ability 1 to hand the final horse in. |M|75.9,61.9|
+C Fresh Remounts |QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 2/3|U|37202|N|Use the Riding crop on the horse and ride it back to Hansel Bauer. Use ability 1 to hand the final horse in. |M|75.9,61.9|
 
 T Fresh Remounts |QID|12214|M|75.9,61.9|
 T The Denouncement |QID|12273|M|76.8,63.3|

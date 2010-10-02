@@ -231,7 +231,7 @@ local zidmap = {
 }
 
 function WoWPro:MapPoint(row)
-
+	if not TomTom then return end
 	local GID = WoWProDB.char.currentguide
 	if GID == "NilGuide" then return end
 

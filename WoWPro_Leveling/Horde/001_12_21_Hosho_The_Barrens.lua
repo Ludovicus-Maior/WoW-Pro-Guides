@@ -79,21 +79,21 @@ A The Disruption Ends|QID|872|M|51.5,30.9|
 T Raptor Thieves|QID|869|M|51.9,30.3|
 A Stolen Silver|QID|3281|M|51.9,30.3|
 
-F Orgrimmar|QID|1963|C|Rogue|N|Take a quick trip to Orgrimmar to turn in your rogue quest.||T|
-T The Shattered Hand|QID|1963|C|Rogue||T|
-A The Shattered Hand|QID|1858|C|Rogue||T|
-C The Shattered Hand|QID|1858|C|Rogue|N|Go to the inn in Orgrimmar and pickpocket Gamon (54.1,68.2)||T|
-T The Shattered Hand|QID|1858|C|Rogue||T|
-F The Crossroads|QID|853|C|Rogue||T|
+F Orgrimmar|QID|1963|C|Rogue|N|Take a quick trip to Orgrimmar to turn in your rogue quest.|
+T The Shattered Hand|QID|1963|C|Rogue|
+A The Shattered Hand|QID|1858|C|Rogue|
+C The Shattered Hand|QID|1858|C|Rogue|N|Go to the inn in Orgrimmar and pickpocket Gamon (54.1,68.2)|
+T The Shattered Hand|QID|1858|C|Rogue|
+F The Crossroads|QID|853|C|Rogue|
 
 A Apothecary Zamah|QID|853|M|51.5,30.2|
 A Consumed by Hatred|QID|899|N|Look for Mankrik in The Crossroads. He's near the gate to the South.|M|52.0,31.6|
 A Lost in Battle|QID|4921|M|52.0,31.6|
 
-F Thunder Bluff|QID|853|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Thunder Bluff.|R|Tauren|T|
-T Apothecary Zamah|QID|853|R|Tauren||T|
-A Serpentbloom (Dungeon)|QID|962|R|Tauren||T|
-F Camp Taurajo|QID|894|R|Tauren|N|(46.1,49.5)|Z|Thunder Bluff||T|
+F Thunder Bluff|QID|853|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Thunder Bluff.|R|Tauren|
+T Apothecary Zamah|QID|853|R|Tauren|
+A Serpentbloom (Dungeon)|QID|962|R|Tauren|
+F Camp Taurajo|QID|894|R|Tauren|N|(46.1,49.5)|Z|Thunder Bluff|
 
 C Lost in Battle|QID|4921|N|Mankrik's wife is the "Beaten Corpse" found near a few small tauren buildings.|M|49.3,50.4|
 
@@ -140,16 +140,16 @@ T Centaur Bracers|QID|855|N|Now head west, past the crossroads, to Regthar Death
 T Verog the Dervish|QID|851|
 A Hezrul Bloodmark|QID|852|
 
-T Supplies for the Crossroads|QID|5041|N|Head back to the Crossroads.||T|
-T The Disruption Ends|QID|872||T|
-T Lost in Battle|QID|4921||T|
-T The Stagnant Oasis|QID|877||T|
-A Altered Beings|QID|880||T|
-T Echeyakee|QID|881||T|
-A The Angry Scytheclaws|QID|905||T|
+T Supplies for the Crossroads|QID|5041|N|Head back to the Crossroads.|
+T The Disruption Ends|QID|872|
+T Lost in Battle|QID|4921|
+T The Stagnant Oasis|QID|877|
+A Altered Beings|QID|880|
+T Echeyakee|QID|881|
+A The Angry Scytheclaws|QID|905|
 
-F Camp Taurajo|QID|852|N|(51.1,28.1)|T|
-h Camp Taurajo|QID|852|N|(45.6,59.0)||T|
+F Camp Taurajo|QID|852|N|(51.1,28.1)|
+h Camp Taurajo|QID|852|N|(45.6,59.0)|
 
 C Stolen Silver|QID|3281|N|Head to the Raptor Grounds, avoiding the Bristleback Quillboar camps. Clear your way through the grounds, picking off raptors one by one. The stolen silver is in a chest at the back of the grounds, guarded by three raptors (58.0,53.9). One of these can be pulled solo.|
 C Raptor Horns|QID|865|N|Stay at the Raptor Grounds, killing any loose raptors you find until you have 5 Intact Raptor Horns and at least 3 Sunscale Feathers.|L|5165|3|
@@ -160,19 +160,19 @@ C Hezrul Bloodmark|QID|852|N|Hezrul Bloodmark patrols Clockwise around the Oasis
 
 T Hezrul Bloodmark|QID|852|N|Run a little further north to Regthar's Bunker.|
 
-F Ratchet|QID|865|N|(51.5,30.3)||T|
-T Raptor Horns|QID|865|N|Run all the way east to Ratchet.||T|
-A Smart Drinks|QID|1491||T|
-A Deepmoss Spider Eggs|QID|1069||T|
-A Trouble at the Docks|QID|959||T|
+F Ratchet|QID|865|N|(51.5,30.3)|
+T Raptor Horns|QID|865|N|Run all the way east to Ratchet.|
+A Smart Drinks|QID|1491|
+A Deepmoss Spider Eggs|QID|1069|
+A Trouble at the Docks|QID|959|
 
-F The Crossroads|QID|880|N|(63.1,37.2)||T|
-T Altered Beings|QID|880|N|Return to the Crossroads.||T|
-A Hamuul Runetotem|QID|1489||T|
-T The Angry Scytheclaws|QID|905||T|
-A Jorn Skyseer|QID|3261||T|
-T Stolen Silver|QID|3281||T|
-A Report to Kadrak|QID|6541||T|
+F The Crossroads|QID|880|N|(63.1,37.2)|
+T Altered Beings|QID|880|N|Return to the Crossroads.|
+A Hamuul Runetotem|QID|1489|
+T The Angry Scytheclaws|QID|905|
+A Jorn Skyseer|QID|3261|
+T Stolen Silver|QID|3281|
+A Report to Kadrak|QID|6541|
 
 T Wenikee Boltbucket|QID|3921|N|Follow the road north.|
 A Nugget Slugs|QID|3922|
@@ -185,7 +185,7 @@ C The Escape|QID|863|N|This is a really easy escort mission. Accept it. When we 
 C Nugget Slugs|QID|3922|N|Now, patrol the area looting any more Nugget Slugs you need.|
 
 R Ogrimmar|QID|3922|R|Tauren|N|Tauren, it is time for you to visit the Horde's capital if you haven't already. (If you already have, skip this part). Walk East, and don't stop walking until you reach a river (62.9,7.7). When you hit the river, turn north. You will come to a bridge (63.2,2.9), and over the bridge, you will find the Orgrimmar West Gate.|
-f Orgrimmar|QID|3922|R|Tauren|N|He is at the top of the Skytower in the Valley of Strength (45.2,64.6).|Z|Orgrimmar||T|
+f Orgrimmar|QID|3922|R|Tauren|N|He is at the top of the Skytower in the Valley of Strength (45.2,64.6).|Z|Orgrimmar|
 R The Barrens|QID|3922|R|Tauren|N|Head back to the Barrens (15.6,61.7)|Z|Orgrimmar|
 R Sludge Fen|QID|3922|R|Tauren|N|Go back to the Sludge Fen by the same route you came by (56.4,7.7)|
 
@@ -196,8 +196,8 @@ T Report to Kadrak|QID|6541|N|Now run north, to the very top of the Mor'shan Ram
 A The Warsong Reports|QID|6543|
 R Ashenvale|QID|6548|N|Follow the road north until you reach Ashenvale.|M|48.1,2.1|
 R Splintertree Post|QID|6548|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.|Z|Ashenvale|M|71.1,67.5|
-N Warsong Scout Update|QID|6543|QO|Warsong Scout Update: 1/1|N|Open your stack of warsong reports, and give one of them to the guard with a Blue question mark over her head (71,68). Remember to give her only one, or you won't have enough to go around.|Z|Ashenvale||T|
-f Splintertree Post|QID|6548|N|Then head into Splintertree Post and get the flight path (73.2,61.6).||Z|Ashenvale||T|
+N Warsong Scout Update|QID|6543|QO|Warsong Scout Update: 1/1|N|Open your stack of warsong reports, and give one of them to the guard with a Blue question mark over her head (71,68). Remember to give her only one, or you won't have enough to go around.|Z|Ashenvale|
+f Splintertree Post|QID|6548|N|Then head into Splintertree Post and get the flight path (73.2,61.6).||Z|Ashenvale|
 N Warsong Outrider Update|QID|6543|QO|Warsong Outrider Update: 1/1|N|Go to the second guard and get the Warsong Outrider Update. He patrols all along the road northeast of Splintertree (94,47).|Z|Ashenvale|
 R Zoram'gar Outpost|QID|6548|N|Get back to the junction, and follow the road all the way west to Zoram'gar Outpost (12,34), being very careful to avoid Astranaar, the major Alliance settlement in this zone.|Z|Ashenvale|
 N Warsong Runner Update|QID|6543|QO|Warsong Runner Update: 1/1||N|When you get there, hand out the last report (12.2,34.2).|Z|Ashenvale|
@@ -223,40 +223,40 @@ R Malaka'jin|QID|6401|N|At (71,95), you'll find a Darkspear Troll settlement cal
 A Blood Feeders|QID|6461|
 C Deepmoss spider Eggs|QID|1069|N|We are now going to do the two Spider quests you have at the moment. Keep following the road 'til about (57,76), then go into Sishir Canyon, on your left. Here you'll find all the spiders you could ever want.|Z|Stonetalon Mountains|
 C Blood Feeders|QID|6461|
-f Sun Rock Retreat|QID|6401|N|(45.2,59.9)|Z|Stonetalon Mountains||T|
-T Kaya's Alive|QID|6401||T|
+f Sun Rock Retreat|QID|6401|N|(45.2,59.9)|Z|Stonetalon Mountains|
+T Kaya's Alive|QID|6401|
 
 T Blood Feeders|QID|6461|N|Walk back south to Malaka'Jin.|
 H Camp Taurajo|QID|1489|U|6948|
 
-F Thunder Bluff|QID|1489|N|(44.5,59.1)||T|
-T Hamuul Runetotem|QID|1489|N|At the Elder Rise.||T|
-A Nara Wildmane|QID|1490||T|
-T Nara Wildmane|QID|1490||T|
-A Leaders of the Fang|QID|914||T|
+F Thunder Bluff|QID|1489|N|(44.5,59.1)|
+T Hamuul Runetotem|QID|1489|N|At the Elder Rise.|
+A Nara Wildmane|QID|1490|
+T Nara Wildmane|QID|1490|
+A Leaders of the Fang|QID|914|
 N Wailing Caverns|QID|914|N|You now have all the quests for Wailing Caverns. This is a great time for you to look for a group for that instance, as you continue questing. We won't be completing those quests in this guide, so if you don't end up going there, just abandon them later.|
 
-F Orgrimmar|QID|3923|N|(46.8,50.2)||T|
-T Rilli Greasygob|QID|3923|N|Head to the Valley of Honor and look for Rilli Greasygob.||T|
-A Samophlange Manual|QID|3924||T|
-C Samophlange Manual|QID|3924|N|Head out of Orgrimmar West Gate. Very close by, at around (61,4) you should find Boulder Lode Mine. Fight your way into the mine, and be VERY careful. This area is full of 17-18 mobs that run away at low health and are packed incredibly tightly. Also, because the area is so small inside the cave, respawn can and will bite you. At the back of the cave, you'll find Boss Copperplug (60.0,4.1).|
+F Orgrimmar|QID|3923|M|46.8,50.2|
+T Rilli Greasygob|QID|3923|N|Head to the Valley of Honor and look for Rilli Greasygob.|
+A Samophlange Manual|QID|3924|
+C Samophlange Manual|QID|3924|M|60.0,4.1|N|Head out of Orgrimmar West Gate. Very close by you should find Boulder Lode Mine. Fight your way into the mine, and be VERY careful. This area is full of 17-18 mobs that run away at low health and are packed incredibly tightly. Also, because the area is so small inside the cave, respawn can and will bite you. At the back of the cave, you'll find Boss Copperplug.|
 C Miner's Fortune|QID|896|N|Keep killing goblins until the Cate's Eye Emerald drops.|
 
 T The Warsong Reports|QID|6543|N|When you're all done, go west back to Mor'shan Rampart.|
-H Camp Taurajo|QID|3261|U|6948|N|If your hearth isn't up, run back to the Crossroads and then fly there.(51.5,30.3)|
-T Jorn Skyseer|QID|3261||T|
-A Ishamuhale|QID|882||T|
-A Tribes at War|QID|878||T|
+H Camp Taurajo|QID|3261|U|6948|N|If your hearth isn't up, run back to the Crossroads and then fly there.|M|51.5,30.3|
+T Jorn Skyseer|QID|3261|
+A Ishamuhale|QID|882|
+A Tribes at War|QID|878|
 
-C Tribes at War|QID|878|N|Move north to (43,51). Move back and forth between this camp and the one at (42,48) until you have killed the necessary number of Bristlebacks of each type.|
+C Tribes at War|QID|878|N|Move north. Move back and forth between this camp and the other until you have killed the necessary number of Bristlebacks of each type.|M|43,51;42,48|
 C Consumed by Hatred|QID|899|N|Keep killing Bristlebacks until you have enough tusks.|
 N Blood Shards|QID|5052|L|5075 11|N|Continue to kill until you have at least 11 Blood Shards.|
 
-T Tribes at War|QID|878|N|Head back to Camp Taurajo.||T|
-A Blood Shards of Agamaggan|QID|5052||T|
-T Blood Shards of Agamaggan|QID|5052||T|
+T Tribes at War|QID|878|N|Head back to Camp Taurajo.|
+A Blood Shards of Agamaggan|QID|5052|
+T Blood Shards of Agamaggan|QID|5052|
 
-R Northwatch Hold|QID|891|N|Go back to Mangletooth (44.6,59.2) and take the quest Spirit of the Wind. That will give you a nifty little speed buff, which will help us get to the next part that little bit quicker! Run north along the road, and then turn east towards Northwatch Hold (60.4,53.0). Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them. The speed buff you have should chop a bit of time off that journey, and should wear off just as you arrive. How convenient!|
+R Northwatch Hold|QID|891|M|44.6,59.2|N|Go back to Mangletooth and take the quest Spirit of the Wind. That will give you a nifty little speed buff, which will help us get to the next part that little bit quicker! Run north along the road, and then turn east towards Northwatch Hold (60.4,53.0). Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them. The speed buff you have should chop a bit of time off that journey, and should wear off just as you arrive. How convenient!|
 K Cannoneer Smythe|QID|891|QO|Cannoneer Smythe slain: 1/1|N|Follow the path from the entrance, up to the top of the hill, then turn right and approach the West tower. If you get lost, use the map. Clear off any mobs around the tower. Inside this tower, you will find 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but by no means impossible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower. At the top you will find Canoneer Smythe, and one guard (63.1,56.7). Take care of them both.|
 K Cannoneer Whessan|QID|891|QO|Cannoneer Whessan slain: 1/1|N|Now head to the East tower. Same routine as before, three guards on the ground level. Take them down, climb the tower, use any tactics you have and bring down Cannoneer Whessan (60.5,54.8), and leave the tower.|
 N Theramore Medals|QID|891|L|5078 10|N|Loot 10 Theramore Medals.|
@@ -278,13 +278,13 @@ R The Crossroads|QID|899|N|(52,30)|
 T Consumed By Hatred|QID|899|
 
 F Camp Taurajo|QID|882|N|(51.5,30.3)|
-T Ishamuhale|QID|882||T|
+T Ishamuhale|QID|882|
 A Enraged Thunder Lizards|QID|907|
 
 C Enraged Thunder Lizards|QID|907|N|Head north to (46,50) and look for Lakota'mani. This is a named Thunder Lizard. He has a long-ish patrol route and a less than ideal respawn time, so you might not find him. If you do find him, kill him, and loot his hoof. This hoof starts a quest which is worth 1,300 exp. After you have killed him, or while you are looking for him, kill the Thunderheads in the area and loot their blood. Once you have 3 Thunder Lizard Bloods, head back to Camp Taurajo. (Don't worry if you don't find Lakota'mani, he isn't essential, and the 1.3k exp isn't really worth camping the area for.)|
 A Lakoto'mani|QID|883|U|5099||O|L|5099|
 
-T Lakoto'mani|QID|883||T||O|
+T Lakoto'mani|QID|883||O|
 T Enraged Thunder Lizards|QID|907|N|Go back to Camp Taurajo.|
 A Cry of the Thunderhawk |QID|913|
 
