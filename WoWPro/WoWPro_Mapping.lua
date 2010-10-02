@@ -231,12 +231,8 @@ local zidmap = {
 }
 
 function WoWPro:MapPoint(row)
-	if not TomTom then return end
 	local GID = WoWProDB.char.currentguide
 	if GID == "NilGuide" then return end
-
-	TomTom.db.profile.arrow.setclosest = true
-	OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
 	-- Removing old map point --
 	WoWPro:RemoveMapPoint()
@@ -283,7 +279,6 @@ function WoWPro:MapPoint(row)
 		end
 	end
 
-
 	-- If there aren't coords to map, ending map function --
 	if not coords then return end
 	
@@ -302,75 +297,96 @@ function WoWPro:MapPoint(row)
 	end
 	zone = zone or zonenames[zc][zi]
 
-	-- arrival distance, so TomTom can call our customized distance function when player
-	-- gets to the waypoints
-	local arrivaldistance
-	if (not OldCleardistance) or (OldCleardistance == 0) then
-		arrivaldistance = 10
-	else
-		arrivaldistance = OldCleardistance + 1
-	end
-	WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
-
-	-- prevents TomTom from clearing waypoints that are not final destination
-	if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
-
-	
-	-- Parsing and mapping coordinates --
-	
-	local numcoords = select("#", string.split(";", coords))
-	for j=1,numcoords do
-		local waypoint = {}
-		local jcoord = select(numcoords-j+1, string.split(";", coords))
-		local x = tonumber(jcoord:match("([^|]*),"))
-		local y = tonumber(jcoord:match(",([^|]*)"))
-		if not x or x > 100 then return end
-		if not y or y > 100 then return end
-		if TomTom or Carbonite then
-			local uid
-			
-			uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, true, nil, nil, WoWProMapping_callbacks_tomtom)
-			
-			waypoint.uid = uid
-			waypoint.index = i
-			waypoint.zone = zone
-			waypoint.x = x
-			waypoint.y = y
-			waypoint.desc = desc
-			waypoint.j = numcoords-j+1
-
-			table.insert(cache, waypoint)
-		end
-	end
-	
-	if autoarrival and #cache > 0 then
-		if autoarrival == 1 then
-			TomTom.db.profile.arrow.setclosest = true
-			local closest_uid = TomTom:GetClosestWaypoint()
-			local iactual
-			for i,waypoint in ipairs(cache) do
-				if (waypoint.uid == closest_uid) then 
-					iactual = i break end
-			end
-
-			for i=iactual+1,#cache,1 do
-				TomTom:RemoveWaypoint(cache[i].uid) 
-			end
+	if TomTom and TomTom.db then
+		TomTom.db.profile.arrow.setclosest = true
+		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 		
-		elseif autoarrival == 2 then
-			TomTom.db.profile.arrow.setclosest = false
-			
+		-- arrival distance, so TomTom can call our customized distance function when player
+		-- gets to the waypoints
+		local arrivaldistance
+		if (not OldCleardistance) or (OldCleardistance == 0) then
+			arrivaldistance = 10
+		else
+			arrivaldistance = OldCleardistance + 1
+		end
+		WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
+
+		-- prevents TomTom from clearing waypoints that are not final destination
+		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
+
+		
+		-- Parsing and mapping coordinates --
+		
+		local numcoords = select("#", string.split(";", coords))
+		for j=1,numcoords do
+			local waypoint = {}
+			local jcoord = select(numcoords-j+1, string.split(";", coords))
+			local x = tonumber(jcoord:match("([^|]*),"))
+			local y = tonumber(jcoord:match(",([^|]*)"))
+			if not x or x > 100 then return end
+			if not y or y > 100 then return end
+			if TomTom or Carbonite then
+				local uid
+				
+				uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, true, nil, nil, WoWProMapping_callbacks_tomtom)
+				
+				waypoint.uid = uid
+				waypoint.index = i
+				waypoint.zone = zone
+				waypoint.x = x
+				waypoint.y = y
+				waypoint.desc = desc
+				waypoint.j = numcoords-j+1
+
+				table.insert(cache, waypoint)
+			end
 		end
 		
+		if autoarrival and #cache > 0 then
+			if autoarrival == 1 then
+				TomTom.db.profile.arrow.setclosest = true
+				local closest_uid = TomTom:GetClosestWaypoint()
+				local iactual
+				for i,waypoint in ipairs(cache) do
+					if (waypoint.uid == closest_uid) then 
+						iactual = i break end
+				end
+
+				for i=iactual+1,#cache,1 do
+					TomTom:RemoveWaypoint(cache[i].uid) 
+				end
+			
+			elseif autoarrival == 2 then
+				TomTom.db.profile.arrow.setclosest = false
+				
+			end
+			
+		end
+		TomTom.db.profile.persistence.cleardistance = OldCleardistance
+	elseif Carbonite then 
+		-- Parsing and mapping coordinates --
+		local numcoords = select("#", string.split(";", coords))
+		for j=1,numcoords do
+			local jcoord = select(numcoords-j+1, string.split(";", coords))
+			local x = tonumber(jcoord:match("([^|]*),"))
+			local y = tonumber(jcoord:match(",([^|]*)"))
+			if not x or x > 100 then return end
+			if not y or y > 100 then return end
+			table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false))
+		end
+	
 	end
-	TomTom.db.profile.persistence.cleardistance = OldCleardistance
 	
 end
 
 function WoWPro:RemoveMapPoint()
-	for i=1,#cache,1 do
-		TomTom:RemoveWaypoint(cache[i].uid)
+	if TomTom and TomTom.db then
+		for i=1,#cache,1 do
+			TomTom:RemoveWaypoint(cache[i].uid)
+		end
+		wipe(cache)
+		wipe(WoWProMapping_callbacks_tomtom.distance)
+	elseif Carbonite then
+		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
 	end
-	wipe(cache)
-	wipe(WoWProMapping_callbacks_tomtom.distance)
 end
