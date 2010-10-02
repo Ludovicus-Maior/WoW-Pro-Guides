@@ -38,40 +38,75 @@ WoWPro_Leveling.actionlabels = {
 	r = "Repair/Restock"
 }
 
--- TODO: change this
--- tag |CC| means autocomplete on waypoint arrival, regardless of waypoint sequence order -> waypcomplete = 1
--- tag |CS| means autocomplete on waypoint arrival, but player has to follow the sequence order
-
 -- Determine Next Active Step --
 function WoWPro_Leveling:NextStep(k, i)
 	if not k then k = 1 end
 	if not i then i = 1 end
 	local skip = true
-	while skip do skip = false
+	while skip do 
 	
-		-- Skipping Optional quests unless they are in the quest log --
-		if WoWPro.optional[k] and WoWPro.QIDs[k] then skip = true
+		-- The step deaults to NOT skipped --
+		skip = false
+	
+		-- Optional Quests --
+		if WoWPro.optional[k] and WoWPro.QIDs[k] then 
+			skip = true --Optional steps default to skipped --
+			
+			-- Checking Quest Log --
 			local l=1
 			while GetQuestLogTitle(l) do
 				local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(l)
-				if questID == WoWPro.QIDs[k] then skip = false end
+				if questID == WoWPro.QIDs[k] then 
+					skip = false -- If the optional quest is in the quest log, it's NOT skipped --
+				end
 				l = l+1
+			end
+			
+			-- Checking Use Items --
+			if WoWPro.uses[k] then
+				if GetItemCount(WoWPro.uses[k]) >= 1 then 
+					skip = false -- If the optional quest has a use item and it's in the bag, it's NOT skipped --
+				end
+			end
+			
+			-- Checking Prerequisites --
+			if WoWPro.prereq[k] then
+			
+				skip = false -- defaulting to NOT skipped
+				
+				local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+				for j=1,numprereqs do
+					local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+					if not WoWPro.completedQIDs[tonumber(jprereq)] then 
+						skip = true -- If one of the prereqs is NOT complete, step is skipped.
+					end
+				end
 			end
 		end
 		
-		-- Skipping optional quests with use tags unless the use item is in the inventory --
-		if WoWPro.optional[k] and WoWPro.uses[k] then skip = true
-			if GetItemCount(WoWPro.uses[k]) >= 1 then skip = false end
+		-- Skipping profession quests if their requirements aren't met --
+		if WoWPro.prof[k] then
+			local prof, proflvl = string.split(";",WoWPro.prof[k])
+			proflvl = proflvl or 1
+			skip = true --Profession steps skipped by default
+			for skillIndex = 1, GetNumSkillLines() do
+				local skillName, isHeader, isExpanded, skillRank = GetSkillLineInfo(skillIndex)
+				if not isHeader and skillName == prof and skillRank >= proflvl then
+					skip = false -- The step is NOT skipped if the skill is present at the correct level or higher
+				end
+			end
 		end
 		
-		-- Skipping quests with prerequisites if their prerequisite is not complete --
-		if WoWPro.prereq[k] and not WoWProDB.char.guide[GID].skipped[k] and not WoWProDB.char.skippedQIDs[WoWPro.QIDs[k]] then 
+		-- Skipping quests with prerequisites if their prerequisite was skipped --
+		if WoWPro.prereq[k] 
+		and not WoWProDB.char.guide[GID].skipped[k] 
+		and not WoWProDB.char.skippedQIDs[WoWPro.QIDs[k]] then 
 			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
 			for j=1,numprereqs do
 				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
 				if WoWProDB.char.skippedQIDs[tonumber(jprereq)] then
 					skip = true
-					-- If their prerequisite has been manually skipped, skipping any dependant quests --
+					-- If their prerequisite has been skipped, skipping any dependant quests --
 					if WoWPro.actions[k] == "A" 
 					or WoWPro.actions[k] == "C" 
 					or WoWPro.actions[k] == "T" then
@@ -81,28 +116,15 @@ function WoWPro_Leveling:NextStep(k, i)
 						WoWProDB.char.guide[GID].skipped[k] = true
 					end
 					reload = true
-				else
-					if WoWProDB.char.completedQIDs[tonumber(jprereq)] and WoWPro.optional[k] then skip = false else skip = true end
-				end
-			end
-		end
-		
-		-- Skipping profession quests if their requirements aren't met --
-		if WoWPro.prof[k] then
-			local prof, proflvl = string.split(";",WoWPro.prof[k])
-			proflvl = proflvl or 1
-			skip = true
-			for skillIndex = 1, GetNumSkillLines() do
-				local skillName, isHeader, isExpanded, skillRank = GetSkillLineInfo(skillIndex)
-				if not isHeader and skillName == prof and skillRank >= proflvl then
-					skip = false
 				end
 			end
 		end
 		
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank[k] then
-			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then skip = true end
+			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
+				skip = true 
+			end
 		end
 		
 		-- Skipping any manually skipped quests --
@@ -146,6 +168,7 @@ end
 
 -- Skip a step --
 function WoWPro_Leveling:SkipStep(index)
+	if not WoWPro.QIDs[index] then return "" end
 	if WoWPro.actions[index] == "A" 
 	or WoWPro.actions[index] == "C" 
 	or WoWPro.actions[index] == "T" then
@@ -289,10 +312,12 @@ function WoWPro_Leveling:LoadGuide()
 		WoWPro.target, WoWPro.prof, WoWPro.rank, WoWPro.waypcomplete
 		= ParseQuests(string.split("\n", sequence()))
 	
+	collectgarbage("collect")
+	
 	--Checking the completed quest table and checking of steps
-	if WoWProDB.char.completedQIDs then
+	if WoWPro.completedQIDs then
 		for i,QID in pairs(WoWPro.QIDs) do
-			if WoWProDB.char.completedQIDs[QID] then
+			if WoWPro.completedQIDs[QID] then
 				WoWProDB.char.guide[GID].completion[i] = true
 			end
 		end
@@ -356,11 +381,14 @@ function WoWPro_Leveling:LoadGuide()
 			WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val) 
 		end
 	end)	
-	local f = WoWPro.Scrollbar:GetScript("OnValueChanged")
+	local oldOffset = 0
 	WoWPro.Scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		local offset = math.floor(value)
-		WoWPro:UpdateGuide(offset)
-		return f(self, value, ...)
+		if not WoWProDB.profile.guidescroll or offset == oldOffset then return
+		else
+			oldOffset = offset
+			return WoWPro:UpdateGuide(offset) 
+		end
 	end)
 end
 
@@ -405,7 +433,7 @@ function WoWPro_Leveling:RowUpdate()
 		local completion = WoWProDB.char.guide[GID].completion
 		
 		-- Checking off lead in steps --
-		if leadin and WoWProDB.char.completedQIDs[tonumber(leadin)] then
+		if leadin and WoWPro.completedQIDs[tonumber(leadin)] then
 			completion[row.index] = true
 			reload = true
 			return reload
@@ -637,7 +665,9 @@ function WoWPro_Leveling:EventHandler(self, event, ...)
 
 	-- Receiving the result of the completed quest query --
 	if event == "QUEST_QUERY_COMPLETE" then
-		GetQuestsCompleted(WoWProDB.char.completedQIDs)
+		WoWPro.completedQIDs = {}
+		GetQuestsCompleted(WoWPro.completedQIDs)
+		collectgarbage("collect")
 		WoWPro.UpdateGuide()
 	end
 		
@@ -740,7 +770,7 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 					for k=1,#MissingQIDs do
 						if MissingQIDs[k] == QID then
 							WoWPro.CompleteStep(i)
-							WoWProDB.char.completedQIDs[MissingQIDs[k]] = true
+							WoWPro.completedQIDs[MissingQIDs[k]] = true
 							WoWPro_Leveling.CompletingQuest = false
 						end
 					end

@@ -8,9 +8,9 @@ T It's All Fun and Games|QID|12892|
 A I Have an Idea, But First...|QID|12891|
 C I Have an Idea, But First...|QID|12891|
 T I Have an Idea, But First...|QID|12891|
-A Free Your Mind|QID|
-C Free Your Mind|QID| |U|41366|
-T Free Your Mind|QID|
+A Free Your Mind|QID|12893|
+C Free Your Mind|QID|12893|U|41366|
+T Free Your Mind|QID|12893|
 A If He Cannot Be Turned|QID|12896|
 C If He Cannot Be Turned|QID|12896| |N|Kill General Lightsbane|
 T If He Cannot Be Turned|QID|12896|
