@@ -77,7 +77,7 @@ function WoWPro_Leveling:NextStep(k, i)
 				local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
 				for j=1,numprereqs do
 					local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-					if not WoWProDB.char.completedQIDs[tonumber(jprereq)] then 
+					if not WoWPro.completedQIDs[tonumber(jprereq)] then 
 						skip = true -- If one of the prereqs is NOT complete, step is skipped.
 					end
 				end
@@ -315,9 +315,9 @@ function WoWPro_Leveling:LoadGuide()
 	collectgarbage("collect")
 	
 	--Checking the completed quest table and checking of steps
-	if WoWProDB.char.completedQIDs then
+	if WoWPro.completedQIDs then
 		for i,QID in pairs(WoWPro.QIDs) do
-			if WoWProDB.char.completedQIDs[QID] then
+			if WoWPro.completedQIDs[QID] then
 				WoWProDB.char.guide[GID].completion[i] = true
 			end
 		end
@@ -433,7 +433,7 @@ function WoWPro_Leveling:RowUpdate()
 		local completion = WoWProDB.char.guide[GID].completion
 		
 		-- Checking off lead in steps --
-		if leadin and WoWProDB.char.completedQIDs[tonumber(leadin)] then
+		if leadin and WoWPro.completedQIDs[tonumber(leadin)] then
 			completion[row.index] = true
 			reload = true
 			return reload
@@ -665,7 +665,9 @@ function WoWPro_Leveling:EventHandler(self, event, ...)
 
 	-- Receiving the result of the completed quest query --
 	if event == "QUEST_QUERY_COMPLETE" then
-		GetQuestsCompleted(WoWProDB.char.completedQIDs)
+		WoWPro.completedQIDs = {}
+		GetQuestsCompleted(WoWPro.completedQIDs)
+		collectgarbage("collect")
 		WoWPro.UpdateGuide()
 	end
 		
@@ -768,7 +770,7 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 					for k=1,#MissingQIDs do
 						if MissingQIDs[k] == QID then
 							WoWPro.CompleteStep(i)
-							WoWProDB.char.completedQIDs[MissingQIDs[k]] = true
+							WoWPro.completedQIDs[MissingQIDs[k]] = true
 							WoWPro_Leveling.CompletingQuest = false
 						end
 					end
