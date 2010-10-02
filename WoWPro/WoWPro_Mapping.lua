@@ -363,7 +363,7 @@ function WoWPro:MapPoint(row)
 			
 		end
 		TomTom.db.profile.persistence.cleardistance = OldCleardistance
-	elseif Carbonite then 
+	elseif TomTom then 
 		-- Parsing and mapping coordinates --
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
@@ -386,7 +386,7 @@ function WoWPro:RemoveMapPoint()
 		end
 		wipe(cache)
 		wipe(WoWProMapping_callbacks_tomtom.distance)
-	elseif Carbonite then
+	elseif TomTom then
 		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
 	end
 end
