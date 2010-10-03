@@ -230,6 +230,37 @@ local zidmap = {
    [4395] = "Dalaran",
 }
 
+local function findBlizzCoords(questId)
+	local POIFrame
+
+    	-- Try to find the correct quest frame
+    	for i = 1, MAX_NUM_QUESTS do
+        	local questFrame = _G["WorldMapQuestFrame"..i];
+        	if ( questFrame ) then
+             		if ( questFrame.questId == questId ) then
+                		POIFrame = questFrame.poiIcon
+             			break
+             		end
+        	end
+    	end
+
+    	if not POIFrame then return nil, nil end
+
+    	local _, _, _, x, y = POIFrame:GetPoint()
+    	local frame = WorldMapDetailFrame
+    	local width = frame:GetWidth()
+    	local height = frame:GetHeight()
+    	local scale = frame:GetScale() / POIFrame:GetScale()
+    	local cx = (x / scale) / width
+    	local cy = (-y / scale) / height
+
+    	if cx < 0 or cx > 1 or cy < 0 or cy > 1 then
+        	return nil, nil
+    	end
+
+    	return cx * 100, cy * 100
+end
+
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
 	if GID == "NilGuide" then return end
@@ -258,8 +289,9 @@ function WoWPro:MapPoint(row)
 	if (WoWPro.actions[i]=="T" or WoWPro.actions[i]=="C") and WoWPro.QIDs and WoWPro.QIDs[i] and not coords then
 		QuestMapUpdateAllQuests()
 		QuestPOIUpdateIcons()
-		local _, x, y, obj = QuestPOIGetIconInfo(WoWPro.QIDs[i])
-		if x and y then coords = tostring(x*100)..","..tostring(y*100) end
+		WorldMapFrame_UpdateQuests()
+		local x, y = findBlizzCoords(WoWPro.QIDs[i])
+		if x and y then coords = tostring(x)..","..tostring(y) end
 	end
 	
 	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
