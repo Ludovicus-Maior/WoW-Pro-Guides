@@ -1,5 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">  <Script file="000_1_12_Bostons_dwarf_gnome_starter.lua"/>  <Script file="000_1_12_Maws_Human_starter.lua"/>  <Script file="000_1_12_Snowflakes_Draenei_Starter.lua"/>  <Script file="000_1_12_Taraloms_nightelf_starter.lua"/>  <Script file="000_1_13_Manovan_night_elf_starter.lua"/>
-  <Script file="000_12_13_Maws_Loch_Modan.lua"/>
+  <Script file="000_1_05_Rpotor_Worgen_Starter.lua"/>  <Script file="000_12_13_Maws_Loch_Modan.lua"/>
   <Script file="000_13_15_Maws_Westfall.lua"/>
   <Script file="000_15_16_Maws_Redridge.lua"/>
   <Script file="000_16_18_Maws_Loch_Modan.lua"/>
