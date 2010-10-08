@@ -16,8 +16,8 @@ h Shattrath City |QID|9957| |Z|Shattrath City||N|Make Shattrath City (Aldor) you
 N Sell junk, repair, restock, train skills |QID|9957| |N|Sell junk, repair, restock, train skills |
 N Do Underbog or Slave Pens (Optional) |QID|9957| |N|You can do the instances in Zangarmarsh for extra XP if you wish. |
 A Rather Be Fishin' |QID|10037|M|64.0,15.5||Z|Shattrath City|
-A The Outcast's Plight |QID|10917|
-A The Eyes of Skettis |QID|10847|M|52.6,21.0|
+A The Outcast's Plight |QID|10917||Z|Shattrath City|
+A The Eyes of Skettis |QID|10847|M|52.6,21.0||Z|Shattrath City|
 R Terokkar Forest |QID|9957| |N|Go out of Shattrath City. |M|69.00,0.10|
 C Rather Be Fishin' |N|Kill eels until you finish this quest. | |QID|10037|M|38.00,13.00|
 T What's Wrong at Cenarion Thicket? |QID|9957|M|44.3,26.3|
