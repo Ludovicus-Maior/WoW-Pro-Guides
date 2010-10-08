@@ -94,12 +94,12 @@ C Help Tavara |C|Priest| |N|Find her at , to the northeast of Azure Watch.| |QID
 T Help Tavara |C|Priest| |QID|9586| |N|Back at Azure Watch.|
 A Medicinal Purpose |QID|9463|M|48.4,51.8|
 
-N Visit class trainer |C|Shaman|M|48.05,50.42|
-N Visit class trainer |C|Paladin|M|48.36,49.56|
-N Visit class trainer |C|Priest|M|46.60,49.29|
-N Visit class trainer |C|Mage|M|49.87,49.96|
-N Visit class trainer |C|Warrior|M|50.02,50.52|
-N Visit class trainer |C|Hunter|M|49.78,51.93|
+N Visit class trainer |C|Shaman|M|48.05,50.42||QID|9454| 
+N Visit class trainer |C|Paladin|M|48.36,49.56||QID|9454| 
+N Visit class trainer |C|Priest|M|46.60,49.29||QID|9454| 
+N Visit class trainer |C|Mage|M|49.87,49.96||QID|9454| 
+N Visit class trainer |C|Warrior|M|50.02,50.52||QID|9454| 
+N Visit class trainer |C|Hunter|M|49.78,51.93||QID|9454| 
 
 N Note!| |QID|9616| |N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
 

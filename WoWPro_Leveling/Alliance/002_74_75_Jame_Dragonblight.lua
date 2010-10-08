@@ -374,7 +374,7 @@ A Canyon Chase |QID|12143|M|64.4,26.9|
 N Note: |QID|12467| |N|Now we're going to kill Icestorm, a level 73 elite wyrm. Read the next paragraph before you talk to "Wyrmbait". |M|64.60,27.50|
 K Icestorm |QID|12467| |QO|Thel'zan's Phylactery: 1/1| |N|Wyrmbait will fetch Icestorm for you. All you have to do is stand aside and let the NPCs tank for you and let them build some threat. Once Icestorm is down to 50% HP or so, start attacking it. Stay on its side to avoid the breath. If you do this properly, Icestorm should never attack you. If you got an ability to lower or reset your threat, use it, that way you can start attacking Icestorm earlier. ==Note== Icestorm is NOT immune to frost, surprisingly. You should be ready now, talk to "Wyrmbait" , tell him to go fetch Icestorm. After you kill Icestorm Thel'zan's Phylactery should appear on the floor: Loot it.|M|64.60,27.50|
 
-C Canyon Chase |N|Go north to the canyon entrance at . Follow those running snobolds east and they'll lead you to their boss, Chilltusk (72.00, 28.00). Kill him and loot the Emblazoned Battle Horn.|M|67.00,24.00|
+C Canyon Chase |QID|12143|N|Go north to the canyon entrance at . Follow those running snobolds east and they'll lead you to their boss, Chilltusk (72.00, 28.00). Kill him and loot the Emblazoned Battle Horn.|M|67.00,24.00|
 A Disturbing Implications |QID|12146| |U|36855| |N|Right-click the Emblazoned Battle Horn to start Disturbing Implications.|M|72.5,29.2|
 
 H Wintergarde Keep |QID|12467| |N|Hearthstone to Wintergarde Keep. If your stone is not up, just go to the other end of the canyon and then ride south/southeast back to Wintergarde Keep.|
