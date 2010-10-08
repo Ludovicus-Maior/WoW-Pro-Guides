@@ -104,11 +104,12 @@ A Garments of Spirituality|QID|5648|C|Priest|R|Orc, Troll|M|54.2,42.9|
 C Garments of Spirituality|QID|5648|C|Priest|N|Use Power Word: Fortitude and Lesser Heal on Grunt Kor'ja|R|Orc, Troll|M|53.1,46.5|
 T Garments of Spirituality|QID|5648|C|Priest|R|Orc, Troll|M|54.2,42.9|
 
-K Lieutenant Benedict|QID|784|QO|Lieutenant Benedict slain: 1/1|N|Go south-east to Tiragarde Keep and kill Kul Tiras Sailors and Marines while making your way to the castle. Remember to loot their Canvas Scraps. Once at the castle go upstairs into a big room, and kill Lieutenant Benedict. Be sure to loot the key from him.|M|59.4,58.3|
+C Carry Your Weight|QID|791|S|
+K Lieutenant Benedict|QID|784|QO|Lieutenant Benedict slain: 1/1|N|Go south-east to Tiragarde Keep and kill Kul Tiras Sailors and Marines while making your way to the castle. Once at the castle go upstairs into a big room, and kill Lieutenant Benedict. Be sure to loot the key from him.|M|59.4,58.3|
 N Aged Envelope|QID|830|L|4881|N|Go up to the top of the castle and open Benedict's Chest.|
 A The Admiral's Orders|QID|830|U|4881|
 C Vanquish the Betrayers|QID|784|N|Kill any remaining marines or sailors you need.|
-C Carry Your Weight|QID|791|
+C Carry Your Weight|QID|791|US|
 
 T Vanquish the Betrayers|QID|784|N|Go back to Razor Hill.|M|51.9,43.5|
 A From The Wreckage....|QID|825|M|51.9,43.5|
@@ -116,8 +117,9 @@ T The Admiral's Orders|QID|830|M|51.9,43.5|
 A The Admiral's Orders|QID|831|M|51.9,43.5|
 T Carry Your Weight|QID|791|M|49.9,40.3|
 
-C From The Wreckage....|QID|825|N|Go south-east to about (64,52) and go kill Crawlers and Makruras while looking for Gnomish Tools.|M|64,52|
-C A Solvent Spirit|QID|818|
+C A Solvent Spirit|QID|818|S|
+C From The Wreckage....|QID|825|N|Go south-east and look for Gnomish Tools.|M|64,52|
+C A Solvent Spirit|QID|818|US|
 
 K Razormane|QID|837|QO|Razormane Quilboar slain: 4/4|N|Go to the north-west to the area around (49,49) and kill 4 Razormane Quilboars and 4 Razormane Scouts.|M|49,49|
 K Razormane|QID|837|QO|Razormane Scout slain: 4/4|N|Go to the north-west to the area around (49,49) and kill 4 Razormane Scouts.|
@@ -129,11 +131,12 @@ C Thwarting Kolkar Aggression|QID|786|N|Run south to (50.8,79.2). The attack pla
 T Thwarting Kolkar Aggression|QID|786|N|Go back to Sen'Jin Village.|M|54.5,74.7|
 T A Solvent Spirit|QID|818|M|55.9,74.4|
 
-N Things to do|QID|817|N|Kill Durotar Tigers and loot their fur while looking for Taillasher Eggs. They are located on all the islands. When you are atleast halfway done with those quests go to the main island.|
+C Break a Few Eggs|QID|815|S|
+C Practical Prey|QID|817|S|
 C Minshina's Skull|QID|808|N|Kill Voodo Trolls and Hexed Trolls (Watch out, these guys heal to full health, try to interrupt it) while going to the main encampment of trolls (The one with Zalazane in it). Go to the back of the hill on the east and make sure that Zalazane isn't near and loot Minshina's Skull from an Imprisoned Darkspear for Minshina's Skull.|M|67.5,87.5|
 C Zalazane|QID|826|N|Wait for Zalazane to come up and then kill him. Then kill the remaining Trolls you need.|
-C Break a Few Eggs|QID|815|N|Get any eggs or tiger furs you still need before leaving the islands.|
-C Practical Prey|QID|817|N|Get any eggs or tiger furs you still need before leaving the islands.|
+C Break a Few Eggs|QID|815|N|Get any eggs or tiger furs you still need before leaving the islands.|US|
+C Practical Prey|QID|817|N|Get any eggs or tiger furs you still need before leaving the islands.|US|
 
 T Zalazane|QID|826|N|Swim back to Sen'Jin Village.|M|55.9,74.7|
 T Minshina's Skull|QID|808|M|55.9,74.7|

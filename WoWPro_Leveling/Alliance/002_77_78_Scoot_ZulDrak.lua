@@ -75,7 +75,7 @@ T You Can Run, But You Can't Hide |QID|12629| |O| |N|Back to Ebon Watch |M|14.26
 
 A Dressing Down |QID|12648| |O| |PRE|12631|M|14.1,73.8|
 C Dressing Down |QID|12648| |O| |N|Return to the Reliquary of Agony and use the choker.  Buy the plasma from Gristlegut .| |U|38699|M|19.82,75.32|
-T Close Call |QID|12638| |O|
+T Close Call |QID|12638| |O| |M|14.1,73.8|
 
 A Silver Lining |QID|12643| |O| |PRE|12633|
 C Silver Lining |QID|12643| |O| |N|Around the Reliquary of Agony .  Pick up the Drool from the ground. Kill the Abominations.|M|21.24,75.01|
@@ -84,9 +84,9 @@ T Silver Lining |QID|12643| |O| |N|Back to Ebon Watch |M|14.12,73.79|
 A Suit Up! |QID|12649| |O| |PRE|12633|
 C Suit Up! |QID|12649| |O| |N|Return to the Reliquary of Agony and use the choker. You cannot use while shapeshifted. Buy the plasma from Gristlegut .| |U|38699|M|19.91,75.44|
 
-A Feedin' Da Goolz |QID|12652| M|19.9,75.5|
-C Feedin' Da Goolz |QID|12652| |N|Use the bowl near the ghouls.  Be careful of the Blightguards, they see through your disguise. You should hotkey the chocker because your diguise will fail at some point.| |U|38701|M|20.5,74.8|
-T Feedin' Da Goolz |QID|12652| |N|Back to Gristlegut .|M|19.91,75.44|
+A Feedin' Da Goolz |QID|12652| |M|19.9,75.5|
+C Feedin' Da Goolz |QID|12652| |N|Use the bowl near the ghouls. Be careful of the Blightguards, they see through your disguise. You should hotkey the chocker because your diguise will fail at some point.| |U|38701|
+T Feedin' Da Goolz |QID|12652| |N|Back to Gristlegut.| |M|19.9,75.5|
 T Dressing Down |QID|12648| |O| |N|Back to Ebon Watch |M|14.12,73.79|
 T Suit Up! |QID|12649| |O| |N|Back to Ebon Watch |M|14.12,73.79|
 

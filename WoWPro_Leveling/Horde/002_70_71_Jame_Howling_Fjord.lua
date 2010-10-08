@@ -369,7 +369,7 @@ T To Venomspite! |QID|12182|N|If you didn't get flown to Venomspite, abandon To 
 A The Forsaken Blight and You: How Not to Die |QID|12188|
 A Funding the War Effort |QID|12303|
 
-A Beachfront Property |QID|12304|N|From Surveyor Hansen.|M|79,65|Z|Dragonblight|
+A Beachfront Property |QID|12304|N|From Surveyor Hansen.|M|79.4,65.1|Z|Dragonblight|
 
 C The Forsaken Blight and You: How Not to Die |QID|12188|S|
 C Beachfront Property |QID|12304|S|

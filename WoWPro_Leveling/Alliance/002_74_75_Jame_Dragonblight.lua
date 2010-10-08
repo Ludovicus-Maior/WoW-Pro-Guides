@@ -122,8 +122,8 @@ T The Favor of Zangus |QID|12168|M|29.2,55.6|
 A The High Cultist |QID|12169|M|29.2,55.6|
 
 A Death to the Traitor King |QID|13167| |N|Go northwest to the Pit of Narjun . Let yourself fall down in one of the holes and go to Kilix the Unraveler. Get his 3 quests.|M|26.00,51.00|
-A Don't Forget the Eggs!
-A The Faceless Ones
+A Don't Forget the Eggs!|QID|13182|
+A The Faceless Ones|QID|13187|
 
 N Instance: Azjol-Nerub |QID|12169| |N|You have all the quests for the normal version of the instance Azjol-Nerub. [Death to the Traitor King] [Don't Forget the Eggs!] So from now on, if you feel like it, you should look for a group for Azjol-Nerub (Abbreviation: AZN). It's a very quick instance for level 72-74 players, I recommend it. If you don't feel like it or if you don't find a group, you can abandon the above quests. They can easily be picked up in the future anyway, if you change your mind.|
 N Instance: Ahn'kahet: The Old Kingdom |QID|12169| |N|You also have the quest for the normal version of the instance Ahn'kahet: The Old Kingdom. [The Faceless Ones] So from now on, if you feel like it, you should look for a group for Ahn'kahet. It's for level 73-75 players and I also recommend it.If you don't feel like it or if you don't find a group, you can abandon the quests. They can easily be picked up in the future anyway, if you change your mind.|

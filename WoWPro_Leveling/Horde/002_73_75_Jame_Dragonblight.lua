@@ -235,7 +235,7 @@ f Venomspite |QID|12188|M|76.5,62.2|N|If you didn't follow Jame's Howling Fjord 
 T Imbeciles Abound! |QID|12189|M|77.7,62.8|O|
 A The Forsaken Blight and You: How Not to Die |QID|12188|M|77.7,62.8|PRE|12189|
 A Funding the War Effort |QID|12303|M|76,63.2|
-A Beachfront Property |QID|12304|N|From Surveyor Hansen.|M|79,65|
+A Beachfront Property |QID|12304|N|From Surveyor Hansen.|M|79.4,65.1|
 C The Forsaken Blight and You: How Not to Die |QID|12188|S|
 C Beachfront Property |QID|12304|S|
 C Funding the War Effort |QID|12303|N|Gather treasure near the water while killing ghosts|
