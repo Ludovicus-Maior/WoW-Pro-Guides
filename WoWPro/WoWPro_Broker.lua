@@ -161,6 +161,9 @@ end
 function WoWPro.CompleteStep(step)
 	WoWPro.completing = true
 	local GID = WoWProDB.char.currentguide
+	if WoWProDB.profile.checksound then	
+		PlaySoundFile(WoWProDB.profile.checksoundfile)
+	end
 	WoWProDB.char.guide[GID].completion[step] = true
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProDB.char.guide[GID].completion[row.index] then
@@ -168,7 +171,7 @@ function WoWPro.CompleteStep(step)
 		else
 			row.check:SetChecked(false)
 		end
-	end 
+	end
 	WoWPro:MapPoint()
 	if not WoWPro.combat then 
 		WoWPro:UpdateGuide() 
