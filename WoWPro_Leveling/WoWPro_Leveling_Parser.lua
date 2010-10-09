@@ -246,7 +246,6 @@ function WoWPro_Leveling:UnSkipStep(index)
 	WoWPro:MapPoint()
 end
 
-
 -- Quest parsing function --
 local function ParseQuests(...)
 	local i = 1
@@ -313,60 +312,36 @@ function WoWPro_Leveling:LoadGuide()
 		= ParseQuests(string.split("\n", sequence()))
 	
 	collectgarbage("collect")
-	
-	--Checking the completed quest table and checking of steps
-	if WoWPro.completedQIDs then
-		for i,QID in pairs(WoWPro.QIDs) do
-			if WoWPro.completedQIDs[QID] then
-				WoWProDB.char.guide[GID].completion[i] = true
-			end
-		end
-	end
 		
-	-- Going though current quest log and checking off accept/complete steps
-	local i, k, n = 1, 1, 1
-	local CurrentQIDs, CompleteQIDs = {}, {}
-	while GetQuestLogTitle(i) do
-		local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
-		if ( not isHeader ) then
-			CurrentQIDs[k] = questID
-			if isComplete == 1 then
-				CompleteQIDs[n] = questID
-				n = n + 1
-			end
-			k = k + 1
-		end
-		i = i + 1
-	end		
-	if WoWProDB.char.guide then
-		local GID = WoWProDB.char.currentguide
-		for i=1, WoWPro.stepcount do
-			-- Quest Accepts --
-			if WoWPro.actions[i] == "A" and WoWProDB.char.guide[GID].completion[i] == nil then
-				for k=1, #CurrentQIDs do
-					if CurrentQIDs[k] == WoWPro.QIDs[i] then
-						WoWProDB.char.guide[GID].completion[i] = true
-					end
-				end
-			end
-			-- Quest Completion --
-			if WoWPro.actions[i] == "C" and WoWProDB.char.guide[GID].completion[i] == nil and CompleteQIDs then
-				for k=1, #CompleteQIDs do
-					if CompleteQIDs[k] == WoWPro.QIDs[i] then
-						WoWProDB.char.guide[GID].completion[i] = true
-					end
-				end
-			end
-		end
-	end
+	WoWPro_Leveling:AutoCompleteQuestUpdate() --Calling this will populate our quest log table for use here
 	
-	-- Checking level based completion --
 	if WoWProDB.char.guide then
-		local GID = WoWProDB.char.currentguide
 		for i=1, WoWPro.stepcount do
-			if WoWProDB.char.guide[GID].completion[i] == nil and WoWPro.level[i] and tonumber(WoWPro.level[i]) <= UnitLevel("player") then
+			local QID = WoWPro.QIDs[i]
+			local action = WoWPro.actions[i]
+			local completion = WoWProDB.char.guide[GID].completion[i]
+			local level = WoWPro.level[i]
+	
+			-- Turned in quests --
+			if WoWPro.completedQIDs then
+				if WoWPro.completedQIDs[QID] then
+					WoWProDB.char.guide[GID].completion[i] = true
+				end
+			end
+		
+			-- Quest Accepts and Completions --
+			if not completion and WoWPro.QuestLog[QID] then 
+				if action == "A" then WoWProDB.char.guide[GID].completion[i] = true end
+				if action == "C" and WoWPro.QuestLog[QID].complete then
+					WoWProDB.char.guide[GID].completion[i] = true
+				end
+			end
+	
+			-- Checking level based completion --
+			if completion and level and tonumber(level) <= UnitLevel("player") then
 				WoWProDB.char.guide[GID].completion[i] = true
 			end
+			
 		end
 	end
 	
@@ -390,6 +365,7 @@ function WoWPro_Leveling:LoadGuide()
 			return WoWPro:UpdateGuide(offset) 
 		end
 	end)
+	
 end
 
 -- Row Content Update --
@@ -500,18 +476,6 @@ function WoWPro_Leveling:RowUpdate()
 			WoWPro:UpdateGuide()
 		end)
 		
-		-- Setting up click-to-quest log --
-		row.questlogcheck = false
-		row.questlogindex = false
-		for j = 1, 25 do if GetQuestLogTitle(j) then 
-			local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
-			if ( not isHeader ) and questID == QID then
-				row.questlogcheck = true
-				row.questlogindex = j
-				break
-			end
-		end end
-		
 		-- Right-Click Drop-Down --
 		local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 		local dropdown = {
@@ -531,10 +495,10 @@ function WoWPro_Leveling:RowUpdate()
 					end} 
 				)
 			end
-			if row.questlogindex and GetNumPartyMembers() > 0 then
+			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and GetNumPartyMembers() > 0 then
 				table.insert(dropdown, 
 					{text = "Share Quest", func = function()
-						QuestLogPushQuest(row.questlogindex)
+						QuestLogPushQuest(WoWPro.QuestLog[QID].index)
 					end} 
 				)
 			end
@@ -560,10 +524,10 @@ function WoWPro_Leveling:RowUpdate()
 			end
 		end
 			
-		if row.questlogcheck then
+		if WoWPro.QuestLog[QID] then
 			row:SetScript("OnClick", function(self, button, down)
 				if button == "LeftButton" then
-					QuestLog_OpenToQuest(row.questlogindex)
+					QuestLog_OpenToQuest(WoWPro.QuestLog[QID].index)
 				elseif button == "RightButton" then
 					EasyMenu(dropdown, menuFrame, "cursor", 0 , 0, "MENU");
 				end
@@ -578,8 +542,8 @@ function WoWPro_Leveling:RowUpdate()
 		
 		-- Item Button --
 		if action == "H" then use = 6948 end
-		if ( not use ) and action == "C" and row.questlogcheck then
-			local link, icon, charges = GetQuestLogSpecialItemInfo(row.questlogindex)
+		if ( not use ) and action == "C" and WoWPro.QuestLog[QID] then
+			local link, icon, charges = GetQuestLogSpecialItemInfo(WoWPro.QuestLog[QID].index)
 			if link then
 				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
 				use = Id
@@ -716,139 +680,100 @@ end
 
 -- Auto-Complete: Quest Update --
 function WoWPro_Leveling:AutoCompleteQuestUpdate()
-	if not WoWPro.actions then return end
-
-	if CurrentQIDs then 
-		OldQIDs = CurrentQIDs
-	else
-		OldQIDs = {}
-	end
-	CurrentQIDs, NewQIDs, MissingQIDs, CompleteQIDs  = {}, {}, {}, {}
+	if not WoWPro.actions then return end -- Not updating if there is no guide loaded.
 	
-	local i, k, l, m, n = 1, 1, 1, 1, 1
+	local oldQuests, newQuests, missingQuests
+	oldQuests = WoWPro.QuestLog or {}
+	newQuests, missingQuests = {}, {}
+	
+	-- Generating the Quest Log table --
+	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
+	local i = 1
 	while GetQuestLogTitle(i) do
-		local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
+		local questTitle, level, questTag, suggestedGroup, isHeader, 
+			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
+		local leaderBoard
 		if ( not isHeader ) then
-			CurrentQIDs[k] = questID
-			local count = 0
-			for j=1, #OldQIDs do
-				if CurrentQIDs[k] == OldQIDs[j] then count = count + 1 end
-			end
-			if count == 0 then 
-				NewQIDs[l] = questID
-				l = l + 1
-			end
-			if isComplete == 1 then
-				CompleteQIDs[n] = questID
-				n = n + 1
-			end
-			
-			k = k + 1
+			if GetNumQuestLeaderBoards(i) then 
+				leaderBoard = {} 
+				for j=1,GetNumQuestLeaderBoards(i) do 
+					leaderBoard[j] = GetQuestLogLeaderBoard(j, i)
+				end 
+			else leaderBoard = nil end
+			WoWPro.QuestLog[questID] = {
+				title = questTitle,
+				level = level,
+				tag = questTag,
+				group = suggestedGroup,
+				complete = isComplete,
+				daily = isDaily,
+				leaderBoard = leaderBoard,
+				index = i
+			}
 		end
 		i = i + 1
-	end	
-			
-	for i=1,#OldQIDs do 
-		local count = 0
-		local questID = OldQIDs[i]
-		for k=1,#CurrentQIDs do
-			if OldQIDs[i] == CurrentQIDs[k] then count = count + 1 end
-		end 
-		if count == 0 then 
-			MissingQIDs[m] = questID
-			m = m + 1
-		end
 	end
 
+	-- Generating table newQuests --
+	for QID, questInfo in pairs(WoWPro.QuestLog) do
+		if not oldQuests[QID] then newQuests[QID] = true end
+	end
+	
+	-- Generating table missingQuests --
+	for QID, questInfo in pairs(oldQuests) do
+		if not WoWPro.QuestLog[QID] then missingQuests[QID] = true end
+	end
+	
 	if WoWProDB.char.guide then
 		local GID = WoWProDB.char.currentguide
 		for i=1,#WoWPro.actions do
 		
 			local action = WoWPro.actions[i]
 			local QID = WoWPro.QIDs[i]
+			local completion = WoWProDB.char.guide[GID].completion[i]
 		
 			-- Quest Turn-Ins --
-			if WoWPro_Leveling.CompletingQuest == true then
-				if action == "T" and WoWProDB.char.guide[GID].completion[i] == nil then
-					for k=1,#MissingQIDs do
-						if MissingQIDs[k] == QID then
-							WoWPro.CompleteStep(i)
-							WoWPro.completedQIDs[MissingQIDs[k]] = true
-							WoWPro_Leveling.CompletingQuest = false
-						end
-					end
-				end
-				
+			if WoWPro_Leveling.CompletingQuest and action == "T" and not completion and missingQuests[QID] then
+				WoWPro.CompleteStep(i)
+				WoWPro.completedQIDs[QID] = true
+				WoWPro_Leveling.CompletingQuest = false
+			end
+			
 			-- Abandoned Quests --
-			else
-				if action == "A" and WoWProDB.char.guide[GID].completion[i] then
-					for k=1, #MissingQIDs do
-						if MissingQIDs[k] == QID then
-							WoWProDB.char.guide[GID].completion[i] = nil
-							if not WoWPro.combat then WoWPro:UpdateGuide() end
-							WoWPro:MapPoint()
-						end
-					end
-				end
-				if action == "C" and WoWProDB.char.guide[GID].completion[i] then
-					for k=1, #MissingQIDs do
-						if MissingQIDs[k] == QID then
-
-							WoWProDB.char.guide[GID].completion[i] = nil
-							if not WoWPro.combat then WoWPro:UpdateGuide() end
-							WoWPro:MapPoint()
-						end
-					end
-				end
+			if not WoWPro_Leveling.CompletingQuest and ( action == "A" or action == "C" ) 
+			and completion and missingQuests[QID] then
+				WoWProDB.char.guide[GID].completion[i] = nil
+				if not WoWPro.combat then WoWPro:UpdateGuide() end
+				WoWPro:MapPoint()
 			end
 			
 			-- Quest Accepts --
-			if action == "A" and WoWProDB.char.guide[GID].completion[i] == nil then
-				for k=1, #NewQIDs do
-					if NewQIDs[k] == QID then
-						WoWPro.CompleteStep(i)
-					end
-				end
+			if newQuests[QID] and action == "A" and not completion then
+				WoWPro.CompleteStep(i)
 			end
 			
 			-- Quest Completion --
-			if action == "C" and WoWProDB.char.guide[GID].completion[i] == nil then
-				for k=1, #CompleteQIDs do
-					if CompleteQIDs[k] == QID then
-						WoWPro.CompleteStep(i)
-					end
-				end
+			if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
+				WoWPro.CompleteStep(i)
 			end
 			
-		end
-	end
-	
-	-- Partial Completes --
-	for i = 1,15 do
-		local index = WoWPro.rows[i].index
-		if WoWPro.questtext[index] then
-			local numquesttext = select("#", string.split(";", WoWPro.questtext[index]))
-			local notcomplete = false
-			for l=1,numquesttext do
-				local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[index]))
-				local lcomplete = false
-				for j = 1, 25 do
-					if GetQuestLogTitle(j) then
-						local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
-						if ( not isHeader ) then
-							for k=1,GetNumQuestLeaderBoards(j) do 
-								if lquesttext == GetQuestLogLeaderBoard(k, j) then 
-									lcomplete = true
-									WoWPro.CompleteStep(index)
-								end
-							end 
+			-- Partial Completion --
+			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and action == "C" and WoWPro.questtext[i] then 
+				local numquesttext, notcomplete = select("#", string.split(";", WoWPro.questtext[i])), false
+				for l=1,numquesttext do
+					local lquesttext, lcomplete = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i])), false
+					for j, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
+						if lquesttext == objective then --if the objective matches the step's criteria, mark true
+							lcomplete = true
 						end
-					end	
+					end
+					if not lcomplete then notcomplete = true end --if one of the listed objectives isn't complete, then the step is not complete.
 				end
-				if not lcomplete then notcomplete = true end
+				if not notcomplete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
 			end
-			if not notcomplete then WoWPro.CompleteStep(index) end
+		
 		end
+	
 	end
 	
 	-- First Map Point --
@@ -932,42 +857,40 @@ function WoWPro_Leveling:UpdateQuestTracker()
 		-- Setting up quest tracker --
 		row.trackcheck = false
 		if WoWProDB.profile.track and ( action == "C" or ( (action == "K" or action == "N" ) and questtext)) then
-			for j = 1, 25 do if GetQuestLogTitle(j) then 
-				local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(j)
-				if ( not isHeader ) and questID == QID and GetQuestLogLeaderBoard(1, j) then
-					row.trackcheck = true
-					if not questtext then
-						track = " - "..GetQuestLogLeaderBoard(1, j)
-						if select(3,GetQuestLogLeaderBoard(1, j)) then
-							track =  track.." (C)"
+			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard then
+				local j = WoWPro.QuestLog[QID].index
+				row.trackcheck = true
+				if not questtext then
+					track = " - "..WoWPro.QuestLog[QID].leaderBoard[1]
+					if select(3,GetQuestLogLeaderBoard(1, j)) then
+						track =  track.." (C)"
+					end
+					for l=1,#WoWPro.QuestLog[QID].leaderBoard do 
+						if l > 1 then
+							track = track.." \n - "..WoWPro.QuestLog[QID].leaderBoard[l]
+							if select(3,GetQuestLogLeaderBoard(l, j)) then
+								track =  track.." (C)"
+							end
 						end
+					end
+					row.track:SetText(track)
+				else --Partial completion steps only track pertinent objective.
+					local numquesttext = select("#", string.split(";", questtext))
+					for l=1,numquesttext do
+						local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
 						for l=1,GetNumQuestLeaderBoards(j) do 
-							if l > 1 then
-								track = track.." \n - "..GetQuestLogLeaderBoard(l, j)
+							local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(l, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
+							if itemName and lquesttext:match(itemName) then
+								track = " - "..GetQuestLogLeaderBoard(l, j)
 								if select(3,GetQuestLogLeaderBoard(l, j)) then
 									track =  track.." (C)"
 								end
 							end
 						end
 						row.track:SetText(track)
-					else --Partial completion steps only track pertinent objective.
-						local numquesttext = select("#", string.split(";", questtext))
-						for l=1,numquesttext do
-							local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
-							for l=1,GetNumQuestLeaderBoards(j) do 
-								local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(l, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
-								if itemName and lquesttext:match(itemName) then
-									track = " - "..GetQuestLogLeaderBoard(l, j)
-									if select(3,GetQuestLogLeaderBoard(l, j)) then
-										track =  track.." (C)"
-									end
-								end
-							end
-							row.track:SetText(track)
-						end
 					end
 				end
-			end end
+			end
 		end
 	end
 	if not WoWPro.combat then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
