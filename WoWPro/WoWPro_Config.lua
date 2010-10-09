@@ -6,6 +6,14 @@ local L = WoWPro_Locale
 local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
+local soundfiles = {
+			["Window Close"] = [[Sound\Interface\AuctionWindowClose.wav]],
+			["Window Open"] = [[Sound\Interface\AuctionWindowOpen.wav]],
+			["Level Up"] = [[Sound\Interface\LevelUp.wav]],
+			["Map Ping"] = [[Sound\Interface\MapPing.wav]],
+			["Boat Docked"] = [[Sound\Doodad\BoatDockedWarning.wav]],
+		}
+			
 local function CreateDisplayConfig()
 	local options = {
 		type = "group",
@@ -130,9 +138,32 @@ local function CreateDisplayConfig()
 						set = function(info,val) WoWProDB.profile.guidescroll = val 
 							WoWPro:TitlebarSet() 
 							WoWPro:UpdateGuide() end
-					}, 
-					arank = {
+					},
+					checksoundfile = {
 						order = 5,
+						type = "select",
+						name = L["Step Completed Sound"],
+						desc = L["Sound played when a guide step is completed"],
+						values = function() local values = {}
+							for k,v in pairs(soundfiles) do
+								values[v] = k
+							end
+							return values end,
+						get = function(info)
+							return WoWProDB.profile.checksoundfile end,
+						set = function(info,val) WoWProDB.profile.checksoundfile = val
+							PlaySoundFile(val) end,
+					},
+					checksound = {
+						order = 5,
+						type = "toggle",
+						name = L["Enable Sound"],
+						desc = L["Plays a check-off sound when a guide step is completed."],
+						get = function(info) return WoWProDB.profile.checksound end,
+						set = function(info,val) WoWProDB.profile.checksound = val end
+					},
+					arank = {
+						order = 6,
 						type = "range",
 						name = L["Difficulty / Completeness"],
 						desc = L["Governs how many steps will be skipped. Use 5 for the most completeness, 1 to skip all non-essential steps."],
@@ -143,17 +174,17 @@ local function CreateDisplayConfig()
 						width = "double"
 					}, 
 					blank2 = {
-						order = 6,
+						order = 7,
 						type = "description",
 						name = " ",
 					},  
 					resizeheading = {
-						order = 6,
+						order = 7,
 						type = "header",
 						name = L["Resize Settings"],
 					}, 
 					resize = {
-						order = 7,
+						order = 8,
 						type = "toggle",
 						name = L["Resize Handle"],
 						desc = L["Enables the guide window to be resized using the resize handle in the lower right corner. \nTurns off auto resizing."],
@@ -163,7 +194,7 @@ local function CreateDisplayConfig()
 							WoWPro.ResizeSet() end
 					},
 					autoresize = {
-						order = 7,
+						order = 8,
 						type = "toggle",
 						name = L["Auto Resize"],
 						desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
@@ -173,7 +204,7 @@ local function CreateDisplayConfig()
 							WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
 					},
 					numsteps = {
-						order = 8,
+						order = 9,
 						type = "range",
 						name = L["Auto Resize: Number of Steps"],
 						desc = L["Number of steps displayed in the guide window. \nThe window is automatically resized to show this number of steps. \nDoes not include sticky steps."],
@@ -184,7 +215,7 @@ local function CreateDisplayConfig()
 						width = "double"
 					}, 
 					minresizeh = {
-						order = 8,
+						order = 9,
 						type = "range",
 						name = L["Min Resize - Horiz"],
 						desc = L["Minimum horizontal pixel size the guide window can be set to."],
@@ -194,7 +225,7 @@ local function CreateDisplayConfig()
 							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
 					}, 
 					minresizev = {
-						order = 8,
+						order = 9,
 						type = "range",
 						name = L["Min Resize - Vert"],
 						desc = L["Minimum vertical pixel size the guide window can be set to."],
@@ -204,17 +235,17 @@ local function CreateDisplayConfig()
 							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
 					}, 
 					blank3 = {
-						order = 10,
+						order = 11,
 						type = "description",
 						name = " ",
 					},  
 					titleheading = {
-						order = 10,
+						order = 11,
 						type = "header",
 						name = L["Title Bar"],
 					},
 					titlebar = {
-						order = 11,
+						order = 12,
 						type = "toggle",
 						name = L["Enable Title Bar"],
 						desc = L["Enables/disables the title bar attached to the guide window."],
@@ -223,7 +254,7 @@ local function CreateDisplayConfig()
 							WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
 					},
 					titlecolor = {
-						order = 11,
+						order = 12,
 						type = "color",
 						name = L["Title Bar Color"],
 						desc = L["Background color for the title bar."],
@@ -234,17 +265,17 @@ local function CreateDisplayConfig()
 							WoWPro.TitlebarSet() end
 					},
 					blank4 = {
-						order = 12,
+						order = 13,
 						type = "description",
 						name = " ",
 					},  
 					bgheading = {
-						order = 12,
+						order = 13,
 						type = "header",
 						name = L["Backgrounds"],
 					},
 					bgtexture = {
-						order = 13,
+						order = 14,
 						type = "select",
 						name = L["Guide Window Background"],
 						desc = L["Texture used for the guide window background."],
@@ -261,7 +292,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet() end
 					},
 					bgcolor = {
-						order = 14,
+						order = 15,
 						type = "color",
 						name = L["Guide Window Color"],
 						desc = L["Background color for the guide window"],
@@ -272,7 +303,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet() end
 					},
 					bordertexture = {
-						order = 15,
+						order = 16,
 						type = "select",
 						name = L["Border Texture"],
 						desc = L["Texture used for the guide window border."],
@@ -290,7 +321,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet() end
 					},
 					border = {
-						order = 16,
+						order = 17,
 						type = "toggle",
 						name = L["Enable Border"],
 						desc = L["Enables/disables the border around the guide window."],
@@ -299,7 +330,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet() end
 					},
 					stickytexture = {
-						order = 17,
+						order = 18,
 						type = "select",
 						name = L["Sticky Background"],
 						desc = L["Texture used for sticky step background."],
@@ -316,7 +347,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
 					},
 					stickycolor = {
-						order = 18,
+						order = 19,
 						type = "color",
 						name = L["Sticky Step Color"],
 						desc = L["Background color for the sticky step frames."],
@@ -327,17 +358,17 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
 					},
 					blank5 = {
-						order = 19,
+						order = 20,
 						type = "description",
 						name = " ",
 					},  
 					textheading = {
-						order = 19,
+						order = 20,
 						type = "header",
 						name = L["Text Formatting"],
 					},
 					stepfont = {
-						order = 20,
+						order = 21,
 						type = 'select',
 						dialogControl = 'LSM30_Font',
 						name = L["Step Font"],
@@ -357,7 +388,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					steptextsize = {
-						order = 21,
+						order = 22,
 						type = "range",
 						name = L["Step Text Size"],
 						desc = L["Size of the main step text."],
@@ -368,7 +399,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					steptextcolor = {
-						order = 22,
+						order = 23,
 						type = "color",
 						name = L["Step Text Color"],
 						desc = L["Color of the main step text."],
@@ -379,7 +410,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					notefont = {
-						order = 23,
+						order = 24,
 						type = 'select',
 						dialogControl = 'LSM30_Font',
 						name = L["Note Font"],
@@ -399,7 +430,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					notetextsize = {
-						order = 24,
+						order = 25,
 						type = "range",
 						name = L["Note Text Size"],
 						desc = L["Size of the note text."],
@@ -410,7 +441,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					notetextcolor = {
-						order = 25,
+						order = 26,
 						type = "color",
 						name = L["Note Text Color"],
 						desc = L["Color of the note text."],
@@ -421,7 +452,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					trackfont = {
-						order = 26,
+						order = 27,
 						type = "select",
 						dialogControl = 'LSM30_Font',
 						name = L["Tracker Font"],
@@ -441,7 +472,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					tracktextsize = {
-						order = 27,
+						order = 28,
 						type = "range",
 						name = L["Tracker Text Size"],
 						desc = L["Size of the tracking text."],
@@ -452,7 +483,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					tracktextcolor = {
-						order = 28,
+						order = 29,
 						type = "color",
 						name = L["Tracker Text Color"],
 						desc = L["Color of the tracking text."],
@@ -463,7 +494,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					titlefont = {
-						order = 29,
+						order = 30,
 						type = "select",
 						dialogControl = 'LSM30_Font',
 						name = L["Title Bar Font"],
@@ -483,7 +514,7 @@ local function CreateDisplayConfig()
 							WoWPro:TitlebarSet() end
 					},
 					titletextsize = {
-						order = 30,
+						order = 31,
 						type = "range",
 						name = L["Title Bar Text Size"],
 						desc = L["Size of the title bar text."],
@@ -493,7 +524,7 @@ local function CreateDisplayConfig()
 							WoWPro:TitlebarSet() end
 					},
 					titletextcolor = {
-						order = 31,
+						order = 32,
 						type = "color",
 						name = L["Title Bar Text Color"],
 						desc = L["Color of the title bar text."],
@@ -504,7 +535,7 @@ local function CreateDisplayConfig()
 							WoWPro:TitlebarSet() end
 					},
 					stickytitlefont = {
-						order = 32,
+						order = 33,
 						type = "select",
 						dialogControl = 'LSM30_Font',
 						name = L["'As you go:' Font"],
@@ -525,7 +556,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					stickytitletextsize = {
-						order = 33,
+						order = 34,
 						type = "range",
 						name = L["'As you go:' Text Size"],
 						desc = L["Size of the text on the top of the sticky frame."],
@@ -536,7 +567,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					stickytitletextcolor = {
-						order = 34,
+						order = 35,
 						type = "color",
 						name = L["'As you go:' Text Color"],
 						desc = L["Color of the text on the top of the sticky frame."],
