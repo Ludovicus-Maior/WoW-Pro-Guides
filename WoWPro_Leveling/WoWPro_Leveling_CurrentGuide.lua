@@ -94,6 +94,7 @@ frame:SetScript("OnShow", function()
 			end
 			
 			local step = steplist[index]
+			if not step then row.check:Hide() end
 			if optional[index] then step = step.." (optional)" end
 			if WoWPro.prof[index] then
 				local prof, proflvl = string.split(" ", WoWPro.prof[index]) 
