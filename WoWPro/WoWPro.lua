@@ -12,6 +12,8 @@ local defaults = { profile = {
 	pad = 5,
 	space = 5,
 	resize = false,
+	checksoundfile = [[Sound\Interface\MapPing.wav]],
+	checksound = true,
 	drag = true,
 	titlebar = true,
 	border = true,

@@ -491,6 +491,9 @@ function WoWPro_Leveling:RowUpdate()
 			elseif button == "RightButton" and row.check:GetChecked() then
 				completion[row.index] = true
 				WoWPro:MapPoint()
+				if WoWProDB.profile.checksound then	
+					PlaySoundFile(WoWProDB.profile.checksoundfile)
+				end
 			elseif not row.check:GetChecked() then
 				WoWPro_Leveling:UnSkipStep(row.index)
 			end

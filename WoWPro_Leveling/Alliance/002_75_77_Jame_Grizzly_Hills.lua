@@ -5,32 +5,32 @@ return [[
 f Amberpine Lodge |QID|12511|
 h Amberpine Lodge |QID|12511|
 
-T The Hills Have Us |QID|12511| |N|To Lieutenant Dumont in Amberpine Lodge | |T|M|31.89,60.15|
-A Local Support |QID|12292| |T|M|31.8,60.2|
-A Replenishing the Storehouse |QID|12212| |N|From Master Woodsman Anderhol in Amberpine Lodge | |T|M|32.06,59.98|
-A Them or Us! |QID|12215| |N|From Master Woodsman Anderhol in Amberpine Lodge | |T|M|32.02,59.89|
-A Mmm... Amberseeds! |QID|12225| |N|Amberseed in Amberpine Lodge | |T|M|31.80,59.64|
-T Mmm... Amberseeds! |QID|12225| |N|To Master Woodsman Anderhol Amberpine Lodge | |T|M|32.06,59.96|
-A Just Passing Through |QID|12226| |T|M|32.1,60.0|
+T The Hills Have Us |QID|12511| |N|To Lieutenant Dumont in Amberpine Lodge | |M|31.89,60.15|
+A Local Support |QID|12292| |M|31.8,60.2|
+A Replenishing the Storehouse |QID|12212| |N|From Master Woodsman Anderhol in Amberpine Lodge | |M|32.06,59.98|
+A Them or Us! |QID|12215| |N|From Master Woodsman Anderhol in Amberpine Lodge | |M|32.02,59.89|
+A Mmm... Amberseeds! |QID|12225| |N|Amberseed in Amberpine Lodge | |M|31.80,59.64|
+T Mmm... Amberseeds! |QID|12225| |N|To Master Woodsman Anderhol Amberpine Lodge | |M|32.06,59.96|
+A Just Passing Through |QID|12226| |M|32.1,60.0|
 
 C Replenishing the Storehouse |QID|12212| |N|North of Amberpine Lodge, kill Tallhorn Stags|M|33.3,58.0|
 
-T Replenishing the Storehouse |QID|12212| |N|Back to Master Woodsman Anderhol in Amberpine Lodge | |T|M|32.06,59.94|
-A Take Their Rear! |QID|12216| |T|M|32.1,60.0|
-A Troll Season! |QID|12210| |T|M|31.8,60.2|
+T Replenishing the Storehouse |QID|12212| |N|Back to Master Woodsman Anderhol in Amberpine Lodge| |M|32.06,59.94|
+A Take Their Rear! |QID|12216| |M|32.1,60.0|
+A Troll Season! |QID|12210| |M|31.8,60.2|
 
 C Just Passing Through |QID|12226| |U|188670| |N|Loot the [Blackroot] northwest of Amberpine Lodge |M|29,54|
 C Them or Us! |QID|12215| |N|Go west to the grey area in the woods  and (22,57), kill Graymist Hunters.|M|25,56|
-C Local Support |QID|12292| |N|In Evergreen Trading Post , go inside the tower and loot the Cedar Chest|M|16,65|
+C Local Support |QID|12292| |N|In Evergreen Trading Post , go inside the tower and loot the Cedar ChesM|16,65|
 
 H Amberpine Lodge |QID|12292|
 
-T Local Support |QID|12292| |N|Back to Lieutenant Dumont in Amberpine Lodge | |T|M|31.87,60.20|
-A Close the Deal |QID|12293| |T|M|31.8,60.2|
+T Local Support |QID|12292| |N|Back to Lieutenant Dumont in Amberpine Lodge | |M|31.87,60.20|
+A Close the Deal |QID|12293| |M|31.8,60.2|
 T Them or Us! |QID|12215| |N|Master Woodsman Anderhol |M|32.06,59.94|
-A Eagle Eyes |QID|12217| |T|M|32.1,60.0|
-T Just Passing Through |QID|12226| |T|M|32.1,60.0|
-A Doing Your Duty |QID|12227| |T|M|32.1,60.0|
+A Eagle Eyes |QID|12217| |M|32.1,60.0|
+T Just Passing Through |QID|12226| |M|32.1,60.0|
+A Doing Your Duty |QID|12227| |M|32.1,60.0|
 
 C Doing Your Duty |QID|12227| |N|In the Amberpine Outhouse |M|32.23,58.93|
 
@@ -41,11 +41,11 @@ A A Tentative Pact |QID|12294|M|34.8,55.6|
 
 C Eagle Eyes |QID|12217| |N|There is a bunch around |M|36,59|
 
-T Eagle Eyes |QID|12217| |N|Master Woodsman Anderhol in Amberpine Lodge | |T|M|32.07,60.01|
-T A Tentative Pact |QID|12294| |T|M|31.8,60.2|
-A An Exercise in Diplomacy |QID|12295| |T|M|31.8,60.2|
-A Secrets of the Flamebinders |QID|12222| |N|Woodsman Drake in Amberpine Lodge | |T|M|32.45,59.97|
-A Thinning the Ranks |QID|12223| |T|M|32.4,59.9|
+T Eagle Eyes |QID|12217| |N|Master Woodsman Anderhol in Amberpine Lodge | |M|32.07,60.01|
+T A Tentative Pact |QID|12294| |M|31.8,60.2|
+A An Exercise in Diplomacy |QID|12295| |M|31.8,60.2|
+A Secrets of the Flamebinders |QID|12222| |N|Woodsman Drake in Amberpine Lodge | |M|32.45,59.97|
+A Thinning the Ranks |QID|12223| |M|32.4,59.9|
 
 T Troll Season! |QID|12210| |N|Kill Grizzly Bears on your way while going north until you hit a wooden bridge.  Turn this quest into Samir in Granite Springs |M|16.23,47.70|
 A Filling the Cages |QID|11984|M|16.2,47.6|
@@ -55,7 +55,7 @@ C Filling the Cages |QID|11984| |U|35736| |N|Sap a solo troll and use the [Bount
 
 T Filling the Cages |QID|11984| |N|Samir in Granite Springs |M|16.21,47.70|
 A Truce? |QID|11989| |N|Drakuru in Granite Springs |M|16.39,47.79|
-C Truce? |QID|11989| |U|38083| |N|Loot the knife and use it to seal the pact|M|16.5,47.8|
+C Truce? |QID|11989| |U|38083| |N|Loot the knife and use it to seal the pacM|16.5,47.8|
 T Truce? |QID|11989| |N|Grizzly Hills, Granite Springs |M|16.44,47.83|
 A Vial of Visions |QID|11990|M|16.4,47.8|
 
@@ -109,26 +109,26 @@ A Words of Warning |QID|12302|M|21.9,29.9|
 T Words of Warning |QID|12302| |N|Grizzly Hills, Silverbrook |M|26.47,31.83|
 A Escape from Silverbrook |QID|12308| |N| Hop on the horse in Silverbrook and get ready to so huge worg action . You might want to disable the follow option for the camera on this one as you have to look behind you the whole time.|M|26.42,31.80|
 
-T Escape from Silverbrook |QID|12308| |N|Lieutenant Dumont in  Amberpine Lodge | |T|M|31.90,60.19|
-A A Swift Response |QID|12310| |T|M|31.8,60.2|
+T Escape from Silverbrook |QID|12308| |N|Lieutenant Dumont in  Amberpine Lodge | |M|31.90,60.19|
+A A Swift Response |QID|12310| |M|31.8,60.2|
 N Sell junk and repair |QID|12222| |N||M|31.38,59.87|
 
 K Vladek |QID|12310| |QO|Vladek slain: 1/1| |N|southeast to Forest's Edge Post |M|36.15,67.76|
 C A Swift Response |QID|12310|
 A Descent into Darkness |QID|12105| |U|36940| |N|Use the [Mikhail's Journal] to start the quest. If you don't have it yet, keep killing Silverbrook Hunters until you get it.|M|37.0,66.5|
-C Take Their Rear! |QID|12216| |N|Kill Grizzly Bears around the estern side of Forest's Edge Post|M|30.6,53.4|
+C Take Their Rear! |QID|12216| |N|Kill Grizzly Bears around the estern side of Forest's Edge PosM|30.6,53.4|
 C Secrets of the Flamebinders |QID|12222| |N|In Voldrune |M|31,75|
 C Thinning the Ranks |QID|12223| |N|In Voldrune |M|31,75|
 
-T Secrets of the Flamebinders |QID|12222| |N|Woodsman Drake in Amberpine Lodge | |T|M|32.50,59.96|
-T Thinning the Ranks |QID|12223| |T|M|32.4,59.9|
-A The Thane of Voldrune |QID|12255| |T|M|32.4,59.9|
-T Take Their Rear! |QID|12216| |N|Master Woodsman Anderhol in Amberpine Lodge | |T|M|32.07,60.01|
-T A Swift Response |QID|12310| |N|Lieutenant Dumont in Amberpine Lodge | |T|M|31.91,60.18|
-T Descent into Darkness |QID|12105| |T|M|31.8,60.2|
-A Report to Gryan Stoutmantle... Again |QID|12109| |T|M|31.8,60.2|
-A A Dark Influence |QID|12220| |N|Hierophant Thayreen in Amberpine Lodge | |T|M|31.21,59.47|
-A The Failed World Tree |QID|12219| |T|M|31.2,59.5|
+T Secrets of the Flamebinders |QID|12222| |N|Woodsman Drake in Amberpine Lodge | |M|32.50,59.96|
+T Thinning the Ranks |QID|12223| |M|32.4,59.9|
+A The Thane of Voldrune |QID|12255| |M|32.4,59.9|
+T Take Their Rear! |QID|12216| |N|Master Woodsman Anderhol in Amberpine Lodge | |M|32.07,60.01|
+T A Swift Response |QID|12310| |N|Lieutenant Dumont in Amberpine Lodge | |M|31.91,60.18|
+T Descent into Darkness |QID|12105| |M|31.8,60.2|
+A Report to Gryan Stoutmantle... Again |QID|12109| |M|31.8,60.2|
+A A Dark Influence |QID|12220| |N|Hierophant Thayreen in Amberpine Lodge | |M|31.21,59.47|
+A The Failed World Tree |QID|12219| |M|31.2,59.5|
 
 T Seared Scourge |QID|12029| |N|Mack Fearsen in Granite Springs |M|16.67,48.24|
 A Search and Rescue |QID|12037|
@@ -166,10 +166,10 @@ N Use the orb beneath the Limb |U|37173| |QID|12220| |QO|Orb used beneath Vordra
 C A Dark Influence |QID|12220| |U|37173| |N|Use the [Geomancer's Orb] in the Vordrassil's Heart's cave |M|46.6,51.9|
 C The Failed World Tree |QID|12219| |N|Kill Entropic Oozes until you've looted 6 Slime Samples|M|40.4,50.6|
 
-T A Dark Influence |QID|12220| |N|Hierophant Thayreen in Amberpine Lodge | |T|M|31.22,59.49|
-T The Failed World Tree |QID|12219| |T|M|31.2,59.5|
-A A Possible Link |QID|12246| |T|M|31.2,59.5|
-A Children of Ursoc |QID|12247| |T|M|31.2,59.5|
+T A Dark Influence |QID|12220| |N|Hierophant Thayreen in Amberpine Lodge | |M|31.22,59.49|
+T The Failed World Tree |QID|12219| |M|31.2,59.5|
+A A Possible Link |QID|12246| |M|31.2,59.5|
+A Children of Ursoc |QID|12247| |M|31.2,59.5|
 N Sell junk and repair |QID|12443| |N||M|31.38,59.87|
 
 C The Thane of Voldrune |QID|12255| |N|Get on Flamebringer  and the Thane Torvald Eriksson in Voldrune (27.24, 73.60)|M|26.6,77.8|
@@ -201,18 +201,18 @@ N Sell junk and repair |QID|12027| |N||M|31.38,59.87|
 A Mr. Floppy's Perilous Adventure |QID|12027| |N|From Emily in Heartwood Trading Post |M|49.18,34.08|
 C Mr. Floppy's Perilous Adventure |QID|12027|M|49.2,34.1|
 
-T Mr. Floppy's Perilous Adventure |QID|12027| |N|Squire Walter in Westfall Brigade Encampment | |T|M|59.10,26.50|
-T Report to Gryan Stoutmantle... Again |QID|12109| |N|Captain Gryan Stoutmantle in Westfall Brigade Encampment | |T|M|59.38,26.10|
-A Hollowstone Mine |QID|12158| |T|M|59.4,26.0|
-A Softening the Blow |QID|11998| |T|M|59.4,26.0|
-A Mounting Up |QID|12414| |N|From Squire Percy in Westfall Brigade Encampment | |T|M|59.13,26.63|
+T Mr. Floppy's Perilous Adventure |QID|12027| |N|Squire Walter in Westfall Brigade Encampment | |M|59.10,26.50|
+T Report to Gryan Stoutmantle... Again |QID|12109| |N|Captain Gryan Stoutmantle in Westfall Brigade Encampment | |M|59.38,26.10|
+A Hollowstone Mine |QID|12158| |M|59.4,26.0|
+A Softening the Blow |QID|11998| |M|59.4,26.0|
+A Mounting Up |QID|12414| |N|From Squire Percy in Westfall Brigade Encampment | |M|59.13,26.63|
 
-f Westfall Brigade Encampment |QID|12414| |T|
+f Westfall Brigade Encampment |QID|12414| |
 
 N Get 5 Wild Carrots |QID|12414| |L|37707 5| |N|In the field south of the camp|
 C Mounting Up |QID|12414| |U|37708| |N|Target an Highland Mustang, use the [Stick] and bring the Mustang back to Squire Percy |M|59.13,26.63|
 
-T Mounting Up |QID|12414| |N|Squire Percy in Westfall Brigade Encampment | |T|M|59.13,26.63|
+T Mounting Up |QID|12414| |N|Squire Percy in Westfall Brigade Encampment | |M|59.13,26.63|
 N Reequip your weapon(s) |QID|12158|
 
 T Hollowstone Mine |QID|12158| |N|Petrov in Hollowstone Mine |M|55.13,23.44|
@@ -223,8 +223,8 @@ C Souls at Unrest |QID|12159| |U|37932| |N|Use the [Miner's Lantern] to burn the
 T Souls at Unrest |QID|12159| |N|Petrov in Hollowstone Mine |M|55.13,23.44|
 A A Name from the Past |QID|12160|M|55.1,23.4|
 
-T A Name from the Past |QID|12160| |N|Captain Gryan Stoutmantle in Westfall Brigade Encampment )| |T|M|59.38,26.10|
-A Ruuna the Blind |QID|12161| |N|From Private Arun in Westfall Brigade Encampment | |T|M|59.28,26.29|
+T A Name from the Past |QID|12160| |N|Captain Gryan Stoutmantle in Westfall Brigade Encampment )| |M|59.38,26.10|
+A Ruuna the Blind |QID|12161| |N|From Private Arun in Westfall Brigade Encampment | |M|59.28,26.29|
 
 C Softening the Blow |QID|11998| |N|Buy a [Howlin' Good Moonshine] from Hugh Glass in Redwood Trading Post |M|69.06,40.11|
 A A Bear of an Appetite |QID|12279|M|69.1,40.1|
@@ -234,8 +234,8 @@ A Nice to Meat You |QID|12113|M|73.8,34.0|
 A Therapy |QID|12114|M|73.8,34.0|
 A It Takes Guts.... |QID|12116| |N|Kraz in Harkor's Camp |M|73.85,34.22|
 
-T Softening the Blow |QID|11998| |N|Kill every Duskhowl Prowler and Longhoof Grazer while going back to Brugar Stoneshear in Westfall Brigade Encampment | |T|M|59.76,27.63|
-A Brothers in Battle |QID|12002| |T|M|59.8,27.5|
+T Softening the Blow |QID|11998| |N|Kill every Duskhowl Prowler and Longhoof Grazer while going back to Brugar Stoneshear in Westfall Brigade Encampment | |M|59.76,27.63|
+A Brothers in Battle |QID|12002| |M|59.8,27.5|
 
 A Find Kurun! |QID|11981| |N|From Fallen Earthen Warrior in Thor Modan |M|63.63,23.21|
 A The Damaged Journal |QID|11986| |N|From a Battered Journal on the floor, northeast of the Fallen Earth Warrior in Thor Modan |M|64.58,19.83|
@@ -243,20 +243,20 @@ A The Damaged Journal |QID|11986| |N|From a Battered Journal on the floor, north
 C The Damaged Journal |QID|11986| |U|35739| |N|You need to find 8 [Missing Journal Page] to complete the journal|
 C Brothers in Battle |QID|12002|
 
-T The Damaged Journal |QID|11986| |N|Torthen Deepdig in Westfall Brigade Encampment | |T|M|59.73,27.57|
-A The Runic Keystone |QID|11988| |T|M|59.8,27.5|
-T Brothers in Battle |QID|12002| |N|Brugar Stoneshear in  Westfall Brigade Encampment | |T|M|59.73,27.63|
-A Uncovering the Tunnels |QID|12003| |T|M|59.8,27.5|
+T The Damaged Journal |QID|11986| |N|Torthen Deepdig in Westfall Brigade Encampment | |M|59.73,27.57|
+A The Runic Keystone |QID|11988| |M|59.8,27.5|
+T Brothers in Battle |QID|12002| |N|Brugar Stoneshear in  Westfall Brigade Encampment | |M|59.73,27.63|
+A Uncovering the Tunnels |QID|12003| |M|59.8,27.5|
 
 N Investigate the South Building |QID|12003| |QO|Investigate South Building: 1/1| |N|To the east, enter the southern building of Thor Modan . Kill the dwarves.|M|63.45,28.10|
 N Investigate the East Building |QID|12003| |QO|Investigate East Building: 1/1| |N|To the northeast, enter the estern building of Thor Modan  Kill the dwarves.|M|66.71,24.43|
 C Uncovering the Tunnels |QID|12003| |N|To the west/northwest, enter the northen building of Thor Modan  Kill the dwarves.||M|62.63,20.76|
 C The Runic Keystone |QID|11988| |N|Kill more dwarves|M|65.1,19.3|
 
-T The Runic Keystone |QID|11988| |N|Torthen Deepdig in Westfall Brigade Encampment | |T|M|59.75,27.59|
-A The Runic Prophecies |QID|11993| |T|M|59.8,27.5|
-T Uncovering the Tunnels |QID|12003| |N|Brugar Stoneshear in Westfall Brigade Encampment | |T|M|59.75,27.59|
-A The Fate of Orlond |QID|12010| |T|M|59.8,27.5|
+T The Runic Keystone |QID|11988| |N|Torthen Deepdig in Westfall Brigade Encampment | |M|59.75,27.59|
+A The Runic Prophecies |QID|11993| |M|59.8,27.5|
+T Uncovering the Tunnels |QID|12003| |N|Brugar Stoneshear in Westfall Brigade Encampment | |M|59.75,27.59|
+A The Fate of Orlond |QID|12010| |M|59.8,27.5|
 
 T Find Kurun! |QID|11981| |N|Kurun at the very top of the Boulder Hills |M|65.65,17.79|
 A Raining Down Destruction |QID|11982|M|65.8,17.8|
@@ -281,9 +281,9 @@ C The Runic Prophecies |QID|11993| |N|A few paces east, find the Second Rune Pla
 C Into the Breach |QID|11985| |N|Kill Iron Thane Argrum at the very end of the trench |M|69.78,13.54|
 C Steady as a Rock? |QID|12014| |U|35837| |N|Cross the small bridge, use the [Portable Seismograph] and loot the [Thor Modan Stability Profile] |M|70.63,13.42|
 
-T Steady as a Rock? |QID|12014| |N|Grizzly Hills, Westfall Brigade Encampment | |T|M|59.73,27.56|
-A Check Up on Raegar |QID|12128| |T|M|59.8,27.5|
-T The Runic Prophecies |QID|11993| |N|Torthen Deepdig in Westfall Brigade Encampment | |T|M|59.73,27.56|
+T Steady as a Rock? |QID|12014| |N|Grizzly Hills, Westfall Brigade Encampment | |M|59.73,27.56|
+A Check Up on Raegar |QID|12128| |M|59.8,27.5|
+T The Runic Prophecies |QID|11993| |N|Torthen Deepdig in Westfall Brigade Encampment | |M|59.73,27.56|
 N Sell junk and repair |QID|11985| |N||M|59.79,27.83|
 
 T Into the Breach |QID|11985| |N|Kurun at the very top of the Boulder Hills |M|65.65,17.79|
@@ -306,10 +306,10 @@ C Children of Ursoc |QID|12247| |N|She's in a cave |M|66.89,62.30|
 
 H Amberpine Lodge |QID|12247|
 
-T A Possible Link |QID|12246| |N|Hierophant Thayreen inAmberpine Lodge | |T|M|31.21,59.49|
-T Children of Ursoc |QID|12247| |T|M|31.2,59.5|
-A Vordrassil's Sapling |QID|12248| |T|M|31.2,59.5|
-A Vordrassil's Seeds |QID|12250| |T|M|31.2,59.5|
+T A Possible Link |QID|12246| |N|Hierophant Thayreen inAmberpine Lodge | |M|31.21,59.49|
+T Children of Ursoc |QID|12247| |M|31.2,59.5|
+A Vordrassil's Sapling |QID|12248| |M|31.2,59.5|
+A Vordrassil's Seeds |QID|12250| |M|31.2,59.5|
 
 C Vordrassil's Sapling |QID|12248| |U|37306| |N|Use the [Verdant Torch] on the tree  and get the [Vordrassil's Ashes]|M|50.63,42.73|
 C Vordrassil's Seeds |QID|12250| |N|Loot the Vordrassil's Seed|M|51.5,47.1|
@@ -347,7 +347,7 @@ N Get 5 Sacred Mojos |QID|12068| |L|36758 5| |N|Kill Drakkari Oracles and Protec
 T Voices From the Dust |QID|12068| |U|35797| |N|Use the [Drakuru's Elixir] near the brazier in Drakil'jin Ruins |M|71.70,26.12|
 A Cleansing Drak'Tharon |QID|12238|
 
-C Therapy |QID|12114| |N|Kill more trolls if you are not done yet|
+C Therapy |QID|12114| |N|Kill more trolls if you are not done ye
 
 T Therapy |QID|12114| |N|Harkor in Harkor's Camp |M|73.76,34.09|
 T Dun-da-Dun-tah! |QID|12082|M|73.8,34.0|
