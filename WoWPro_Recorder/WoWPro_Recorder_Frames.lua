@@ -266,7 +266,7 @@ config:RegisterOptionsTable("WoWPro Recorder - New Guide - Leveling", {
 			type = "input",
 			name = "Zone Name:",
 			desc = "The zone where the guide takes place.",
-			get = function(info) return WoWPro_Recorder.CurrentGuide.Zone end,
+			get = function(info) return WoWPro_Recorder.CurrentGuide.Zone or GetZoneText() end,
 			set = function(info,val) WoWPro_Recorder.CurrentGuide.Zone = val end,
 		},
 		authorname = {
@@ -274,7 +274,7 @@ config:RegisterOptionsTable("WoWPro Recorder - New Guide - Leveling", {
 			type = "input",
 			name = "Author Name:",
 			desc = "The author of the original guide.",
-			get = function(info) return WoWPro_Recorder.CurrentGuide.Author end,
+			get = function(info) return WoWPro_Recorder.CurrentGuide.Author or GetUnitName("player") end,
 			set = function(info,val) WoWPro_Recorder.CurrentGuide.Author = val end,
 		},
 		startlevel = {

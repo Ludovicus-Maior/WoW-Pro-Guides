@@ -70,7 +70,7 @@ frame:SetScript("OnShow", function()
 		if not frame:IsVisible() then return end
 		if WoWProDB.char.currentguide == "NilGuide" then return end
 		local GID = WoWProDB.char.currentguide
-		local steplist = WoWPro.steps
+		local steplist = WoWPro.step
 		local optional = WoWPro.optional
 		local completion = WoWProDB.char.guide[GID].completion
 		local totalh = 0
@@ -81,9 +81,9 @@ frame:SetScript("OnShow", function()
 		for i,row in ipairs(rows) do
 			row.index = index
 			
-			if completion[index] or WoWProDB.char.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QIDs[index]] then
+			if completion[index] or WoWProDB.char.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QID[index]] then
 				row.check:SetChecked(true)
-				if WoWProDB.char.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QIDs[index]] then
+				if WoWProDB.char.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QID[index]] then
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 				else
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
@@ -105,7 +105,7 @@ frame:SetScript("OnShow", function()
 			end
 			
 			-- Setting sticky texture --
-			if WoWPro.stickies[index] then 
+			if WoWPro.stickie[index] then 
 				step = step.." (sticky)"
 				row:SetBackdrop( {
 					bgFile = WoWProDB.profile.stickytexture,
@@ -116,19 +116,19 @@ frame:SetScript("OnShow", function()
 				row:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], 0)
 			end
 			
-			if WoWPro.unstickies[index] then 
+			if WoWPro.unstickie[index] then 
 				step = step.." (un-sticky)"
 			end
 		
 			row.step:SetText(step)
 			
-			local action = WoWPro.actions[index]
+			local action = WoWPro.action[index]
 			row.action:SetTexture(WoWPro_Leveling.actiontypes[action])
 			if WoWPro.noncombat[index] then
 				row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
 			end
 			
-			local note = WoWPro.notes[index]
+			local note = WoWPro.note[index]
 			row.note:SetText(note)
 			
 			-- Setting the note frame size correctly --

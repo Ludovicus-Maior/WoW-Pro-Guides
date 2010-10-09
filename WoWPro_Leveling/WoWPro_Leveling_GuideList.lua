@@ -59,7 +59,7 @@ function WoWPro_Leveling.UpdateGuideList()
 				WoWPro:LoadGuide()
 				WoWProDB.char.guide[iGuide["GID"]] = nil
 				for j = 1,WoWPro.stepcount do 
-					WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
+					WoWProDB.char.skippedQIDs[WoWPro.QID[j]] = nil
 				end
 				WoWPro:LoadGuide()
 			else
