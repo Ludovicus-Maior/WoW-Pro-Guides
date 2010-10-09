@@ -498,8 +498,8 @@ function WoWPro:CreateGuideFrame()
 end
 
 -- Scrollbar --
-function WoWPro:CreateScrollbar()
-	WoWPro.Scrollbar = LibStub("WoWPro-Scroll").new(WoWPro.GuideFrame)
+function WoWPro:CreateGuideWindowScrollbar()
+	WoWPro.Scrollbar = WoWPro:CreateScrollbar(WoWPro.GuideFrame)
 	WoWPro.Scrollbar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 20, -20)
 	WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 20, 20)
 end
@@ -748,7 +748,7 @@ WoWPro:CreateResizeButton()
 WoWPro:CreateTitleBar()
 WoWPro:CreateStickyFrame()
 WoWPro:CreateGuideFrame();
-WoWPro:CreateScrollbar()
+WoWPro:CreateGuideWindowScrollbar()
 WoWPro:CreateRows()
 WoWPro:CreateMouseNotes()
 WoWPro:CreateNextGuideDialog()

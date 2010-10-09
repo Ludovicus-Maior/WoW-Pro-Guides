@@ -39,12 +39,12 @@ frame:SetScript("OnShow", function()
 		subtitle:SetText(L["Full transcript of the guide currently loaded."])
 	end
 
-	local box = LibStub("WoWPro-BG").new(frame)
+	local box = WoWPro:CreateBG(frame)
 	box:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP) 
 	box:SetPoint("LEFT", EDGEGAP, 0)
 	box:SetPoint("BOTTOMRIGHT", -EDGEGAP, EDGEGAP)
 	
-	local scrollbar = LibStub("WoWPro-Scroll").new(box, 6)
+	local scrollbar = WoWPro:CreateScrollbar(box, 6)
 
 	for i=1,NUMROWS do
 		local row = CreateFrame("Frame", nil, box)
