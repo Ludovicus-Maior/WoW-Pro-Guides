@@ -196,7 +196,6 @@ function WoWPro_Recorder:RecorderFrameSet()
 	end
 end
 
-
 -- New Guide Dialog --
 config:RegisterOptionsTable("WoWPro Recorder - New Guide", {
 	name = "Create New Guide",
@@ -321,49 +320,20 @@ config:RegisterOptionsTable("WoWPro Recorder - New Guide - Leveling", {
 			name = "Register Guide",
 			desc = "Registers the guide to be used. Current guide will be lost unless saved.",
 			width = "full",
-			func = function(info,val) WoWPro_Recorder:RegisterGuide(WoWPro_Recorder.CurrentGuide.Type, 
-					WoWPro_Recorder.CurrentGuide.Zone, WoWPro_Recorder.CurrentGuide.StartLvl, 
-					WoWPro_Recorder.CurrentGuide.EndLvl, WoWPro_Recorder.CurrentGuide.Author, 
-					WoWPro_Recorder.CurrentGuide.GID, WoWPro_Recorder.CurrentGuide.NextGID); dialog:CloseAll()
+			func = function(info,val) 
+					if not WoWPro_Recorder.CurrentGuide.Type or not WoWPro_Recorder.CurrentGuide.Zone 
+						or not WoWPro_Recorder.CurrentGuide.StartLvl or not WoWPro_Recorder.CurrentGuide.EndLvl
+						or not WoWPro_Recorder.CurrentGuide.Author or not WoWPro_Recorder.CurrentGuide.GID
+						or not WoWPro_Recorder.CurrentGuide.NextGID then return end
+					WoWPro_Recorder:RegisterGuide(WoWPro_Recorder.CurrentGuide.Type, 
+						WoWPro_Recorder.CurrentGuide.Zone, WoWPro_Recorder.CurrentGuide.StartLvl, 
+						WoWPro_Recorder.CurrentGuide.EndLvl, WoWPro_Recorder.CurrentGuide.Author, 
+						WoWPro_Recorder.CurrentGuide.GID, WoWPro_Recorder.CurrentGuide.NextGID);
+					WoWPro:LoadGuide(WoWPro_Recorder.CurrentGuide.GID);
+					dialog:Close("WoWPro Recorder - New Guide - Leveling");
 				end,
 		},
 	},
 })
 dialog:SetDefaultSize("WoWPro Recorder - New Guide - Leveling", 375, 300)
 
--- Dialog: Guide Type Select --
-function WoWPro_Recorder:CreateGuideTypeDialog()
-
-	local frame, titletext = WoWPro:CreateDialogBox("New Guide", 200, 180)
-
-	local dropdownlabel = frame:CreateFontString()
-	dropdownlabel:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -15-titletext:GetHeight())
-	dropdownlabel:SetJustifyH("LEFT")
-	dropdownlabel:SetFontObject(GameFontNormal)
-	dropdownlabel:SetText("Select the guide's type:")
-	dropdownlabel:SetWidth(frame:GetWidth()-20)
-	dropdownlabel:SetTextColor(1, 1, 1)
-	
-	local dropdown, moduletable = {}, {}
-	local i = 1
-	for name, module in WoWPro:IterateModules() do
-		if name ~= "WoWPro Recorder" then
-			moduletable[i] = name
-			i = i+1
-		end
-	end
-	for i = 1, #moduletable do
-		dropdown[i] = {
-			text = moduletable[i],
-			func = function() end
-		}
-	end
-	
---[[	
-	EasyMenu(dropdown, frame, dropdownlabel, 0, -10) 
-]]--
-	frame:Hide()
-		
-	WoWPro_Recorder.GuideTypeDialog = frame
-	
-end

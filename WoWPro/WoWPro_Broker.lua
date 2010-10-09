@@ -6,7 +6,8 @@ local L = WoWPro_Locale
 local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 
 -- Guide Load --
-function WoWPro:LoadGuide()
+function WoWPro:LoadGuide(guideID)
+	if guideID then WoWProDB.char.currentguide = guideID end
 
 	-- Hiding Next Guide Dialog if it is shown --
 	WoWPro.NextGuideDialog:Hide()

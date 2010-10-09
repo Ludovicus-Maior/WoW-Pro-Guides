@@ -24,8 +24,6 @@ function WoWPro_Recorder:OnEnable()
 	WoWPro_Recorder.CurrentGuide = WoWPro_Recorder.CurrentGuide or {}
 	
 	WoWPro_Recorder:RecorderFrameSet()
-
-	WoWPro_Recorder:CreateGuideTypeDialog()
 end
 
 function WoWPro_Recorder:OnDisable()
@@ -47,7 +45,10 @@ function WoWPro_Recorder:RegisterGuide(module, zonename, startlevelvalue, endlev
 		author = authorname,
 		startlevel = startlevelvalue,
 		endlevel = endlevelvalue,
-		sequence = function() return [[]] end,
+		sequence = function() 
+return [[
+N First Step |N|This is the first step in your new guide. A guide must always have at least one step. Delete this one when you add your own!|
+]] end,
 		nextGID = nextGIDvalue,
 	})
 	

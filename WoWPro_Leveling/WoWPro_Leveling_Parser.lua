@@ -375,7 +375,7 @@ function WoWPro_Leveling:LoadGuide()
 	WoWPro_Leveling:AutoCompleteZone()
 	
 	-- Scrollbar Settings --
-	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(0, WoWPro.stepcount - WoWPro.ShownRows))
+	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
 	WoWPro.MainFrame:SetScript("OnMouseWheel", function(self, val) 
 		if WoWProDB.profile.guidescroll then 
 			WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val) 
