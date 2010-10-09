@@ -80,7 +80,7 @@ end
 
 -- Frame Contents --
 frame:SetScript("OnShow", function()
-	local title, subtitle = WoWPro:CreateHeading("WoWPro-Heading").new(frame, "WoW-Pro Leveling - "..L["Guide List"], L["Available WoW-Pro leveling guides are listed below. \nSelect one and hit \"Okay\" to load. \nShift+click a guide to clear it."])
+	local title, subtitle = WoWPro:CreateHeading(frame, "WoW-Pro Leveling - "..L["Guide List"], L["Available WoW-Pro leveling guides are listed below. \nSelect one and hit \"Okay\" to load. \nShift+click a guide to clear it."])
 
 	local box = WoWPro:CreateBG(frame)
 	box:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP) 
