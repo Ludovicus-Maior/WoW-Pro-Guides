@@ -57,7 +57,6 @@ N First Step |N|This is the first step in your new guide. A guide must always ha
 end
 
 function WoWPro_Recorder:RegisterEvents()
-
 	WoWPro_Recorder.events = {"QUEST_LOG_UPDATE", "UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP"}
 	
 	for _, event in pairs(WoWPro_Recorder.events) do
@@ -65,12 +64,36 @@ function WoWPro_Recorder:RegisterEvents()
 	end
 
 	local function eventHandler(self, event, ...)
+		local x, y = GetPlayerMapPosition("player")
+		local zonetag
+		if GetZoneText() ~= WoWPro.loadedguide["zone"] then zonetag = GetZoneText() else zonetag = nil end
 	
-		if event == "QUEST_LOG_UPDATE" then
+		if event == "CHAT_MSG_SYSTEM" then
+			local msg = ...
+			local _, _, loc = msg:find(L["(.*) is now your home."])
+			if loc then
+				local stepInfo = {
+					action = "h",
+					step = loc,
+					QID = WoWPro_Recorder.lastStep,
+					map = tostring(x*100)..","..tostring(y*100),
+					note = "At "..GetUnitName("target")..".",
+					zone = zonetag
+				}
+				WoWPro_Recorder.lastStep = WoWPro.newQuest
+				WoWPro:dbp("Adding hearth location "..loc)
+				WoWPro_Recorder:AddStep(stepInfo)
+			end	
+		
+		elseif event == "QUEST_LOG_UPDATE" then
 			WoWPro_Leveling:PopulateQuestLog()
-				local x, y = GetPlayerMapPosition("player")
-				local zonetag
-				if GetZoneText() ~= WoWPro.loadedguide["zone"] then zonetag = GetZoneText() else zonetag = nil end
+			--if it's the first call (on log in), all quests can show up as new, so need to end early --
+			local endEarly
+			if not WoWPro.AfterFirstCall then 
+				WoWPro.AfterFirstCall = true
+				endEarly = true
+			else endEarly = false end
+			if endEarly then return end
 			if WoWPro.newQuest then
 				local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
 				local stepInfo = {
@@ -81,9 +104,9 @@ function WoWPro_Recorder:RegisterEvents()
 					note = "From "..GetUnitName("target")..".",
 					zone = zonetag
 				}
+				WoWPro_Recorder.lastStep = WoWPro.newQuest
 				WoWPro:dbp("Adding new quest "..WoWPro.newQuest)
 				WoWPro_Recorder:AddStep(stepInfo)
-				WoWPro_Leveling:AutoCompleteQuestUpdate()
 			elseif WoWPro.missingQuest and WoWPro_Leveling.CompletingQuest then
 				local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
 				local stepInfo = {
@@ -124,8 +147,6 @@ function WoWPro_Recorder:RegisterEvents()
 					end
 				end
 			end
-				
-			
 		end
 		
 	end
