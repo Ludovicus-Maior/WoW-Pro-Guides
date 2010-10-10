@@ -81,6 +81,7 @@ function WoWPro_Recorder:RegisterEvents()
 					note = "From "..GetUnitName("target")..".",
 					zone = zonetag
 				}
+				WoWPro:dbp("Adding new quest "..WoWPro.newQuest)
 				WoWPro_Recorder:AddStep(stepInfo)
 				WoWPro_Leveling:AutoCompleteQuestUpdate()
 			elseif WoWPro.missingQuest and WoWPro_Leveling.CompletingQuest then
@@ -95,6 +96,33 @@ function WoWPro_Recorder:RegisterEvents()
 				}
 				WoWPro_Recorder:AddStep(stepInfo)
 				WoWPro_Leveling:AutoCompleteQuestUpdate()
+			else
+				for QID, questInfo in pairs(WoWPro.QuestLog) do
+					WoWPro:dbp("Checking quest "..QID.." for completion.")
+					if questInfo.complete then 
+						WoWPro:dbp("Found complete quest "..QID)
+						if not WoWPro.oldQuests[QID].complete then
+							WoWPro:dbp("Quest "..QID.." is newly complete.")
+							local nc = false
+							if GetNumQuestLeaderBoards(questInfo.index) then 
+								for j=1,GetNumQuestLeaderBoards(questInfo.index) do 
+									local objtype = select(2,GetQuestLogLeaderBoard(j, questInfo.index))
+									if objtype == "event" then nc = true end
+								end 
+							end
+							local stepInfo = {
+								action = "C",
+								step = questInfo.title,
+								QID = QID,
+								map = tostring(x*100)..","..tostring(y*100),
+								zone = zonetag,
+								noncombat = nc
+							}
+							WoWPro_Recorder:AddStep(stepInfo)
+							WoWPro_Leveling:AutoCompleteQuestUpdate()
+						end
+					end
+				end
 			end
 				
 			
@@ -107,9 +135,10 @@ function WoWPro_Recorder:RegisterEvents()
 end
 
 function WoWPro_Recorder:AddStep(stepInfo)
-	for i,tag in pairs(WoWPro_Leveling.Tags) do 
+	for tag,value in pairs(stepInfo) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
-		table.insert(WoWPro[tag], WoWPro.stepcount+1, stepInfo[tag])
+		table.insert(WoWPro[tag], WoWPro.stepcount+1, value)
+		print("Adding tag "..tag.." at position "..WoWPro.stepcount+1)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	WoWPro:UpdateGuide()

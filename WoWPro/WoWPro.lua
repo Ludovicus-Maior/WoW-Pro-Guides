@@ -6,6 +6,13 @@ local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
+WoWPro.debugmode = true
+
+function WoWPro:dbp(message)
+	if WoWPro.debugmode then
+		print("WoW-Pro Debug: "..message)
+	end
+end
 
 local defaults = { profile = {
 	enable = true,

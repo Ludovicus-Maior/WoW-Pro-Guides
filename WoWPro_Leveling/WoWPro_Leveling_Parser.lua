@@ -734,8 +734,11 @@ function WoWPro_Leveling:PopulateQuestLog()
 end
 
 function WoWPro_Leveling:AutoCompleteQuestUpdate()
+
+	local GID = WoWProDB.char.currentguide
+	if GID == "NilGuide" then return end
+
 	if WoWProDB.char.guide then
-		local GID = WoWProDB.char.currentguide
 		for i=1,#WoWPro.action do
 		
 			local action = WoWPro.action[i]
