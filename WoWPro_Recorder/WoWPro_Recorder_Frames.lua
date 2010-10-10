@@ -38,8 +38,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	recordtext:SetPoint("LEFT", WoWPro.RecorderFrame, "LEFT", 6, 0)
 	recordtext:SetPoint("RIGHT", WoWPro.RecorderFrame, "LEFT", 37, 0)
 	recordtext:SetJustifyH("LEFT")
-	WoWPro_RecorderDB.status = WoWPro_RecorderDB.status or "STOP"
-	recordtext:SetText(WoWPro_RecorderDB.status)
+	WoWPro_Recorder.status = WoWPro_Recorder.status or "STOP"
+	recordtext:SetText(WoWPro_Recorder.status)
 	WoWPro.RecordText = recordtext
 
 	-- RecordButton --
@@ -67,8 +67,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	-- Scripts --
 	WoWPro.StopButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
-			WoWPro_RecorderDB.status = "STOP"
-			WoWPro.RecordText:SetText(WoWPro_RecorderDB.status)
+			WoWPro_Recorder.status = "STOP"
+			WoWPro.RecordText:SetText(WoWPro_Recorder.status)
 		end
 	end) 
 

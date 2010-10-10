@@ -64,7 +64,7 @@ function WoWPro_Recorder:RegisterEvents()
 	end
 
 	local function eventHandler(self, event, ...)
-		if WoWPro_RecorderDB.status == "STOP" then return end
+		if WoWPro_Recorder.status == "STOP" then return end
 		
 		local x, y = GetPlayerMapPosition("player")
 		local zonetag
