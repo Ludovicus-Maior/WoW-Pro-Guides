@@ -718,6 +718,8 @@ function WoWPro_Leveling:PopulateQuestLog()
 		end
 		i = i + 1
 	end
+	
+	if WoWPro.oldQuests == {} then return end
 
 	-- Generating table WoWPro.newQuest --
 	for QID, questInfo in pairs(WoWPro.QuestLog) do

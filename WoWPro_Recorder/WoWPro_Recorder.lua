@@ -83,7 +83,21 @@ function WoWPro_Recorder:RegisterEvents()
 				}
 				WoWPro_Recorder:AddStep(stepInfo)
 				WoWPro_Leveling:AutoCompleteQuestUpdate()
+			elseif WoWPro.missingQuest and WoWPro_Leveling.CompletingQuest then
+				local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
+				local stepInfo = {
+					action = "T",
+					step = questInfo.title,
+					QID = WoWPro.missingQuest,
+					map = tostring(x*100)..","..tostring(y*100),
+					note = "To "..GetUnitName("target")..".",
+					zone = zonetag
+				}
+				WoWPro_Recorder:AddStep(stepInfo)
+				WoWPro_Leveling:AutoCompleteQuestUpdate()
 			end
+				
+			
 		end
 		
 	end
@@ -95,9 +109,8 @@ end
 function WoWPro_Recorder:AddStep(stepInfo)
 	for i,tag in pairs(WoWPro_Leveling.Tags) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
-		if tag == "action" then table.insert(WoWPro[tag], #WoWPro.action+1,  stepInfo[tag])
-		else table.insert(WoWPro[tag], #WoWPro.action, stepInfo[tag]) end
+		table.insert(WoWPro[tag], WoWPro.stepcount+1, stepInfo[tag])
 	end
-	WoWPro.stepcount = #WoWPro.action
+	WoWPro.stepcount = WoWPro.stepcount+1
 	WoWPro:UpdateGuide()
 end

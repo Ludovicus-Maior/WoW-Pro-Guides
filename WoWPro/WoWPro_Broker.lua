@@ -103,7 +103,7 @@ function WoWPro:UpdateGuide(offset)
 	WoWPro.TitleText:SetText(WoWPro.loadedguide["zone"].."   ("..WoWProDB.char.guide[GID].progress.."/"..WoWProDB.char.guide[GID].total..")")
 	
 	-- If the guide is complete, loading the next guide --
-	if WoWProDB.char.guide[GID].progress == WoWProDB.char.guide[GID].total then
+	if WoWProDB.char.guide[GID].progress == WoWProDB.char.guide[GID].total and not WoWPro_Recorder then
 		if WoWProDB.profile.autoload then
 			WoWProDB.char.currentguide = WoWPro.loadedguide["nextGID"]
 			WoWPro:LoadGuide()
