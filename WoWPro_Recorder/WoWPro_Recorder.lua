@@ -64,9 +64,19 @@ function WoWPro_Recorder:RegisterEvents()
 	end
 
 	local function eventHandler(self, event, ...)
+		if WoWPro_RecorderDB.status == "STOP" then return end
+		
 		local x, y = GetPlayerMapPosition("player")
 		local zonetag
 		if GetZoneText() ~= WoWPro.loadedguide["zone"] then zonetag = GetZoneText() else zonetag = nil end
+	
+		local function checkClassQuest(QID, questTable)
+			if UnitClass("player") == questTable[QID].header then 
+				return UnitClass("player")
+			else
+				return nil
+			end
+		end
 	
 		if event == "CHAT_MSG_SYSTEM" then
 			local msg = ...
@@ -80,11 +90,35 @@ function WoWPro_Recorder:RegisterEvents()
 					note = "At "..GetUnitName("target")..".",
 					zone = zonetag
 				}
-				WoWPro_Recorder.lastStep = WoWPro.newQuest
 				WoWPro:dbp("Adding hearth location "..loc)
 				WoWPro_Recorder:AddStep(stepInfo)
 			end	
-		
+			WoWPro_Leveling:AutoCompleteSetHearth(...)
+		elseif event == "PLAYER_LEVEL_UP" then
+			local newLevel = ...
+			local stepInfo = {
+				action = "L",
+				step = "Level "..newLevel,
+				QID = WoWPro_Recorder.lastStep,
+				note = "You should be around level "..newLevel.." by this point.",
+			}
+			WoWPro:dbp("Adding level up to level "..newLevel)
+			WoWPro_Recorder:AddStep(stepInfo)
+			WoWPro_Leveling:AutoCompleteLevel(newLevel)
+		elseif event == "UI_INFO_MESSAGE" then
+			if ... == ERR_NEWTAXIPATH then
+				local stepInfo = {
+					action = "f",
+					step = GetSubZoneText() or GetZoneText(),
+					QID = WoWPro_Recorder.lastStep,
+					map = tostring(x*100)..","..tostring(y*100),
+					note = "At "..GetUnitName("target")..".",
+					zone = zonetag
+				}
+				WoWPro:dbp("Adding get FP "..GetSubZoneText() or GetZoneText())
+				WoWPro_Recorder:AddStep(stepInfo)
+			end
+			WoWPro_Leveling:AutoCompleteGetFP(...)
 		elseif event == "QUEST_LOG_UPDATE" then
 			WoWPro_Leveling:PopulateQuestLog()
 			--if it's the first call (on log in), all quests can show up as new, so need to end early --
@@ -102,11 +136,13 @@ function WoWPro_Recorder:RegisterEvents()
 					QID = WoWPro.newQuest,
 					map = tostring(x*100)..","..tostring(y*100),
 					note = "From "..GetUnitName("target")..".",
-					zone = zonetag
+					zone = zonetag,
+					class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
 				}
 				WoWPro_Recorder.lastStep = WoWPro.newQuest
 				WoWPro:dbp("Adding new quest "..WoWPro.newQuest)
 				WoWPro_Recorder:AddStep(stepInfo)
+				WoWPro_Leveling:AutoCompleteQuestUpdate()
 			elseif WoWPro.missingQuest and WoWPro_Leveling.CompletingQuest then
 				local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
 				local stepInfo = {
@@ -115,7 +151,8 @@ function WoWPro_Recorder:RegisterEvents()
 					QID = WoWPro.missingQuest,
 					map = tostring(x*100)..","..tostring(y*100),
 					note = "To "..GetUnitName("target")..".",
-					zone = zonetag
+					zone = zonetag,
+					class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
 				}
 				WoWPro_Recorder:AddStep(stepInfo)
 				WoWPro_Leveling:AutoCompleteQuestUpdate()
@@ -139,7 +176,8 @@ function WoWPro_Recorder:RegisterEvents()
 								QID = QID,
 								map = tostring(x*100)..","..tostring(y*100),
 								zone = zonetag,
-								noncombat = nc
+								noncombat = nc,
+								class = checkClassQuest(QID,WoWPro.QuestLog)
 							}
 							WoWPro_Recorder:AddStep(stepInfo)
 							WoWPro_Leveling:AutoCompleteQuestUpdate()

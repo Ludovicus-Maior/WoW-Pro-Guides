@@ -693,12 +693,14 @@ function WoWPro_Leveling:PopulateQuestLog()
 	
 	-- Generating the Quest Log table --
 	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
-	local i = 1
+	local i, currentHeader = 1, "None"
 	while GetQuestLogTitle(i) do
 		local questTitle, level, questTag, suggestedGroup, isHeader, 
 			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
 		local leaderBoard
-		if ( not isHeader ) then
+		if isHeader then
+			currentHeader = questTitle
+		else
 			if GetNumQuestLeaderBoards(i) then 
 				leaderBoard = {} 
 				for j=1,GetNumQuestLeaderBoards(i) do 
@@ -713,6 +715,7 @@ function WoWPro_Leveling:PopulateQuestLog()
 				complete = isComplete,
 				daily = isDaily,
 				leaderBoard = leaderBoard,
+				header = currentHeader,
 				index = i
 			}
 		end
