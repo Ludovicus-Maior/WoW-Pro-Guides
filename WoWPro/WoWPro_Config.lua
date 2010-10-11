@@ -153,6 +153,7 @@ local function CreateDisplayConfig()
 							return WoWProDB.profile.checksoundfile end,
 						set = function(info,val) WoWProDB.profile.checksoundfile = val
 							PlaySoundFile(val) end,
+						disabled = function(...) return not WoWProDB.profile.checksound end,
 					},
 					checksound = {
 						order = 5,
