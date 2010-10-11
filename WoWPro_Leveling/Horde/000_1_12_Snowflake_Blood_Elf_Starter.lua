@@ -1,10 +1,29 @@
 WoWPro_Leveling:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
 return [[
 A Reclaiming Sunstrider Isle |QID|8325|R|Blood Elf|N|Magistrix Erona|M|38.0,21.0|
+
 C Mana Wyrm |QID|8325|R|Blood Elf|N|Go down the big stairs and you should see plenty of Mana Wyrms.|M|37.60,22.00|
+L Level 2|LVL|2|N|Kill mana wyrms until you ding.|
 
 T Reclaiming Sunstrider Isle |QID|8325|R|Blood Elf|N|Magistrix Erona|M|38.0,21.0|
-A Unfortunate Measures |QID|8326|R|Blood Elf|M|38.0,21.0|
+A Unfortunate Measures|QID|8326|R|Blood Elf|M|38.0,21.0|N|Magistrix Erona|
+
+A Solanian's Belongings|QID|8330|R|Blood Elf|M|38.97,20.26|N|Well Watcher Solanian|
+A The Shrine of Dath'Remar|QID|8345|R|Blood Elf|M|38.97,20.26|N|Well Watcher Solanian|
+
+A A Fistful of Slivers |QID|8336|R|Blood Elf|N|Jump down to the left. From Arcanist Ithanas.|M|38.3,19.1|
+
+A Thirst Unending|QID|8346|R|Blood Elf|N|Go through the gazeebo in front of you.|M|37.2,18.9|
+
+C Mana Wyrm |QID|8346|R|Blood Elf|N|Find a Mana Wyrm and use Arcane Torrent close to it. |M|37.50,23.90|
+C Unfortunate Measures |QID|8326|R|Blood Elf|N|Kill Springpaw Lynxs and loot 8 Lynx collars. |M|36.00,24.00|
+C A Fistful of Slivers |QID|8336|R|Blood Elf|N|Kill Mana Wyrms and loot 6 arcane silvers. |M|37.50,23.90|
+L Level 3|LVL|3|N|Kill mana wyrms until you ding.|
+N Solanian's Journal |QID|8330|QO|Solanian's Journal: 1/1|R|Blood Elf|N|Near the big green crystal. |M|37.70,24.90|
+
+T Unfortunate Measures |QID|8326|R|Blood Elf|M|38,21|N|Magistrix Erona|
+A Report to Lanthan Perilon |QID|8327|R|Blood Elf|M|38.2,20.8|N|Magistrix Erona|
+
 A Hunter Training |QID|9393|R|Blood Elf|C|Hunter|M|38.0,21.0|
 A Mage Training |QID|8328|R|Blood Elf|C|Mage|M|38.0,21.0|
 A Paladin Training |QID|9676|R|Blood Elf|C|Paladin|M|38.0,21.0|
@@ -18,50 +37,31 @@ T Paladin Training |QID|9676|R|Blood Elf|C|Paladin|M|39.5,20.6|
 T Priest Training |QID|8564|R|Blood Elf|C|Priest|M|39.4,20.4|
 T Rogue Training |QID|9392|R|Blood Elf|C|Rogue|M|38.9,20.0|
 T Warlock Training |QID|8563|R|Blood Elf|C|Warlock|M|38.9,21.4|
-A Well Watcher Solanian |QID|10070|R|Blood Elf|C|Hunter|M|39.0,20.0|
-A Well Watcher Solanian |QID|10068|R|Blood Elf|C|Mage|M|39.2,21.5|
-A Well Watcher Solanian |QID|10069|R|Blood Elf|C|Paladin|M|39.5,20.6|
-A Well Watcher Solanian |QID|10072|R|Blood Elf|C|Priest|M|39.4,20.4|
-A Well Watcher Solanian |QID|10071|R|Blood Elf|C|Rogue|M|38.9,20.0|
-A Well Watcher Solanian |QID|10073|R|Blood Elf|C|Warlock|M|38.9,21.4|
 
-T Well Watcher Solanian |QID|10070|R|Blood Elf|C|Hunter|N|Up the ramp, inside the building.|
-T Well Watcher Solanian |QID|10068|R|Blood Elf|C|Mage|N|Up the ramp, inside the building.|M|38.8,19.4|
-T Well Watcher Solanian |QID|10069|R|Blood Elf|C|Paladin|N|Up the ramp, inside the building.|M|38.8,19.4|
-T Well Watcher Solanian |QID|10072|R|Blood Elf|C|Priest|N|Up the ramp, inside the building.|
-T Well Watcher Solanian |QID|10071|R|Blood Elf|C|Rogue|N|Up the ramp, inside the building.|M|38.8,19.4|
-T Well Watcher Solanian |QID|10073|R|Blood Elf|C|Warlock|N|Up the ramp, inside the building.|M|38.8,19.4|
-A Solanian's Belongings |QID|8330|R|Blood Elf|M|38.8,19.4|
-A The Shrine of Dath'Remar |QID|8345|R|Blood Elf|M|38.8,19.4|
-A A Fistful of Slivers |QID|8336|R|Blood Elf|N|Jump down to the left.|M|38.3,19.1|
-A Thirst Unending |QID|8346|R|Blood Elf|N|Go through the gazeebo in front of you.|M|37.2,18.9|
-
-C Mana Wyrm |QID|8346|R|Blood Elf|N|Find a Mana Wyrm and use Arcane Torrent close to it. |M|37.50,23.90|
-C Unfortunate Measures |QID|8326|R|Blood Elf|N|Kill Springpaw Lynxs and loot 8 Lynx collars. |M|36.00,24.00|
-C A Fistful of Slivers |QID|8336|R|Blood Elf|N|Kill Mana Wyrms and loot 6 arcane silvers. |M|37.50,23.90|
-N Solanian's Journal |QID|8330|QO|Solanian's Journal: 1/1|R|Blood Elf|N|Near the big green crystal. |M|37.70,24.90|
-
-T Unfortunate Measures |QID|8326|R|Blood Elf|M|38.2,20.8|
-A Report to Lanthan Perilon |QID|8327|R|Blood Elf|M|38.2,20.8|
 T A Fistful of Slivers |QID|8336|R|Blood Elf|M|38.3,19.1|
-T Thirst Unending |QID|8346|R|Blood Elf|M|37.2,18.9|
+
+T Thirst Unending |QID|8346|R|Blood Elf|M|37.2,18.9|N|Jainthess Thelryn|
 
 T Report to Lanthan Perilon |QID|8327|R|Blood Elf|N|To the west.|M|35.4,22.5|
+
 A Aggression |QID|8334|R|Blood Elf|M|35.4,22.5|
-C Aggression |QID|8334|R|Blood Elf|S|
+
+C Aggression |QID|8334|R|Blood Elf|S|N|
 N Solanian's Scrying Orb |QID|8330|QO|Solanian's Scrying Orb: 1/1|R|Blood Elf|N|Go south. |M|35.10,28.90|
 N Scroll of Scourge Magic |QID|8330|QO|Scroll of Scourge Magic: 1/1|R|Blood Elf|N|Go northwest. |M|31.40,22.80|
-C The Shrine of Dath'Remar |QID|8345|R|Blood Elf|N|Go further north until you reach the shrine. Read the plaque. |M|29.7,19.5|
+C The Shrine of Dath'Remar |QID|8345|R|Blood Elf|N|Go further north until you reach the shrine. Read the plaque.|M|29.7,19.5|
 C Aggression |QID|8334|R|Blood Elf|US|
+L Level 4|LVL|4|N|Kill stuff until you hit level 4.|
 
 T Solanian's Belongings |QID|8330|R|Blood Elf|N|Up the ramp, inside the building.|M|38.8,19.4|
 T The Shrine of Dath'Remar |QID|8345|R|Blood Elf|M|38.8,19.4|
 
-T Aggression |QID|8334|R|Blood Elf|M|35.4,22.5|
+T Aggression |QID|8334|R|Blood Elf|M|35.4,22.5|N|Lanthan Perilon|
 A Felendren the Banished |QID|8335|R|Blood Elf|M|35.4,22.5|
 
-C Felendren the Banished |QID|8335|L|20799|R|Blood Elf|N|Go up the ramp. At the top pull the two Tainted Arcane Wraiths (they can be pulled one by one), then kill Felendren|M|30.8,27.1;32.70, 25.60|
+C Felendren the Banished |QID|8335|L|20799|R|Blood Elf|N|Go up the ramp. At the top pull the two Tainted Arcane Wraiths (they can be pulled one by one), then kill Felendren|M|30.8,27.1;32.70,25.60|
 K Tainted Arcane Wraith |QID|8338|L|20483|R|Blood Elf|
+
 A Tainted Arcane Sliver |QID|8338|R|Blood Elf|U|20483
 
 H Sunstrider Isle |QID|8338|U|6948|R|Blood Elf|
@@ -90,6 +90,8 @@ C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|S|
 C Wanted: Thaelis the Hungerer |QID|8468|N|Be careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
 C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|US|
 C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|M|46,42|N|Look for light beams that come out of the boxes.|
+
+L Level 6|LVL|6|If not level 6 yet, kill stuffs.
 
 T Major Malfunction |QID|8472|M|47.3,46.3|
 A Delivery to the North Sanctum |QID|8895|M|47.3,46.3|
@@ -204,7 +206,12 @@ A The Magister's Apprentice |QID|8888|N|Up the right ramp.|M|60.3,61.4|
 R Silvermoon City |QID|9067|N|For training and purchasing of Suntouched Special Reserve. |M|56.8,51.6|
 B Suntouched Special Reserve |QID|9067|L|22775|N|You can find your class trainer by asking a guard. Vinemaster Suntouched <Wine & Spirits Merchant> |M|79.70,58.40|
 
-T The Magister's Apprentice |QID|8888|N|Head out of the city and follow the road east.|M|67.8,56.5|
+A Fetch!|QID|9402|N|From Instructor Antheol.|R|Blood Elf|C|Mage|M|55.7,54.5|
+C Loot Azure Phial|QID|9402|L|23551|N|Dive into the middle of the lake.  The phial is on the bottom.|R|Blood Elf|C|Mage|M|54.87,56.38|
+T Fetch!|QID|9402|N|Back to Instructor Antheol.|R|Blood Elf|C|Mage|M|55.7,54.5|
+A The Purest Water|QID|9403|N|Instructor Antheol|R|Blood Elf|C|Mage|M|55.7,54.5|
+
+T The Magister's Apprentice |QID|8888|N|Head out of the city and follow the road east.|M|67.8,56.5|Z|Eversong Woods|
 A Deactivating the Spire |QID|8889|M|67.8,56.5|
 A Where's Wyllithen? |QID|9394|M|67.8,56.5|
 T Where's Wyllithen? |QID|9394|M|68.7,46.9|
@@ -219,10 +226,12 @@ A Abandoned Investigations |QID|8891|M|69.2,52.1|
 T Deactivating the Spire |QID|8889|M|67.8,56.5|
 A Word from the Spire |QID|8890|M|67.8,56.5|
 
-T Word from the Spire |QID|8890|N|Back at farstrider retreat, up the right ramp. |M|59.4,62.6|
+T Word from the Spire |QID|8890|N|Back at farstrider retreat, up the right ramp. |M|60.3,61.4|
 T Abandoned Investigations |QID|8891|M|60.3,61.4|
 
-K Spearcrafter Otembe |QID|8477||L|20759N|Go southeast to the trolls. From now on kill trolls that you need for Amani Encroachment while doing the next quests. (70.00, 72.00)|
+C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
+K Spearcrafter Otembe|QID|8477|L|20759|N|Head to southeast to the trolls, toward Spearcrafter Otembe. Kill trolls that you need for Amani Encroachment while you go.|M|70,72|
+
 A Zul'Marosh |QID|8479|M|70.5,72.3|
 K Chieftain Zul'Marosh |QID|8479|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first. |M|61.60,79.60|
 U Amani Invasion Plans |QID|9360|U|23249|
@@ -230,32 +239,20 @@ A Amani Invasion |QID|9360|M|62.6,79.7|
 
 T Zul'Marosh |QID|8479|M|70.5,72.3|
 
-C Amani Encroachment |QID|8476|N||M|69.00,72.00|
+C Amani Encroachment|QID|8476|US|M|69.00,72.00|
 
 T Amani Invasion |QID|9360|N|Back at farstrider retreat. The Elrendar Falls are nearby. Go there if you want the explorer achievement. |M|64.00,73.00|
 T Amani Encroachment |QID|8476|M|60.3,62.8|
-A Warning Fairbreeze Village |QID|9363|M|60.3,62.8|
 T The Spearcrafter's Hammer |QID|8477|M|59.5,62.6|
+
+C The Purest Water|QID|9403|N|Go to the base of the waterfall, in the water, and fill the azure phial.|M|64.21,72.66|L|23552|U|23566|
+
+T The Purest Water|QID|9403|N|Instructor Antheol.|M|55.7,54.5|
 
 H Fairbreeze Village |QID|9255|U|6948|
 T Research Notes |QID|9255|M|44.0,70.8|
 T Warning Fairbreeze Village |QID|9363|M|43.3,70.8|
 T Defending Fairbreeze Village |QID|9252|M|46.9,71.8|
-A The Scorched Grove |QID|9258|
-T The Party Never Ends |QID|9067|M|38.1,73.6|
-T The Scorched Grove |QID|9258|N|Follow the road west and then south till you reach Larianna Riverwind. Be sure to take the follow-up!|
-A A Somber Task |QID|8473|
-
-K Old Whitebark |QID|8474|L|23228|N|He roams this area. Loot his Pendant from him. Kill Withered Green Keepers while looking for him. |M|33.70,84.90|
-A Old Whitebark's Pendant |QID|8474|U|23228|
-C A Somber Task |QID|8473|N|Kill 10 Withered Green Keepers.|
-
-T A Somber Task |QID|8473|
-T Old Whitebark's Pendant |QID|8474|N|Be sure to take the follow-up!|
-A Whitebark's Memory |QID|10166|
-
-N Whitebark's Memory |QID|10166|U|28209|N|Go to the big blueish runestone in the Scorched Grove . When you use the pendant here, Whitebark's Ghost will appear. When he is almost dead he will have a quest for you. Accept and complete it immediately. Close this step when that's done.|M|37.00,86.00|
-T Whitebark's Memory |QID|10166|N|Back at Larianna Riverwind.|
 
 ]]
 end)

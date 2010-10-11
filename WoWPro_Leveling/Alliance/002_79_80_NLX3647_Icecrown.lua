@@ -1,6 +1,6 @@
 WoWPro_Leveling:RegisterGuide("NLXIce7980", "Icecrown", "NLX3647", "79", "80", "nil", "Alliance", function()
 return [[
-A Preparations for War|QID|13418| |T|
+A Preparations for War|QID|13418| 
 T Preparations for War|QID|13418| |N|Talk to Officer Van Rossem again to fly to the Skybreaker|
 A It's All Fun and Games|QID|12892|
 C It's All Fun and Games|QID|12892| |U|41265|
@@ -8,9 +8,9 @@ T It's All Fun and Games|QID|12892|
 A I Have an Idea, But First...|QID|12891|
 C I Have an Idea, But First...|QID|12891|
 T I Have an Idea, But First...|QID|12891|
-A Free Your Mind|QID|
-C Free Your Mind|QID| |U|41366|
-T Free Your Mind|QID|
+A Free Your Mind|QID|12893|
+C Free Your Mind|QID|12893|U|41366|
+T Free Your Mind|QID|12893|
 A If He Cannot Be Turned|QID|12896|
 C If He Cannot Be Turned|QID|12896| |N|Kill General Lightsbane|
 T If He Cannot Be Turned|QID|12896|
@@ -34,21 +34,21 @@ K Tinky Wickwhistle |QID|12955| |QO|Tinky Wickwhistle defeated: 1/1| |N||M|36.12
 
 T Get the Key|QID|12949|
 A Let the Baron Know|QID|12951|
-T Let the Baron Know|QID|12951| |T|
-A Vaelen Has Returned|QID|13085| |T|
-T Eliminate the Competition|QID|12955| |T|
-A The Bone Witch|QID|12999| |T|
-T Shadow Vault Decree|QID|12943| |T|
-T Vaelen Has Returned|QID|13085| |T|
-A Ebon Blade Prisoners|QID|12982| |T|
-A Leave Our Mark|QID|12995| |T|
-A Crush Dem Vrykuls!|QID|12992| |T|
-A Vandalizing Jotunheim|QID|13084| |T|
+T Let the Baron Know|QID|12951| 
+A Vaelen Has Returned|QID|13085| 
+T Eliminate the Competition|QID|12955| 
+A The Bone Witch|QID|12999| 
+T Shadow Vault Decree|QID|12943| 
+T Vaelen Has Returned|QID|13085| 
+A Ebon Blade Prisoners|QID|12982| 
+A Leave Our Mark|QID|12995| 
+A Crush Dem Vrykuls!|QID|12992| 
+A Vandalizing Jotunheim|QID|13084| 
 
 C Crush Dem Vrykuls!|QID|12992| |N|Kill Vrykuls for keys and free prisoners on the way to the Bone Witch| |U|42480|
 C Leave Our Mark|QID|12995| |U|42480| |N|Keep killing Vrykuls for keys until you have 8 keys, and free Ebon Blade Prisoners|
 C Ebon Blade Prisoners|QID|12982|
-C Vandalizing Jotunheim|QID|13084| |T| |N|Burn 10 Banners|
+C Vandalizing Jotunheim|QID|13084|  |N|Burn 10 Banners|
 
 T The Bone Witch|QID|12999|
 A Reading the Bones|QID|13092|
@@ -69,25 +69,25 @@ A The Art of Being a Water Terror|QID|13091|
 C The Art of Being a Water Terror|QID|13091|
 T The Art of Being a Water Terror|QID|13091|
 
-T Crush Dem Vrykuls!|QID|12992| |T|
-T Leave Our Mark|QID|12995| |T|
-T Ebon Blade Prisoners|QID|12982| |T|
-T Vandalizing Jotunheim|QID|13084| |T|
+T Crush Dem Vrykuls!|QID|12992| 
+T Leave Our Mark|QID|12995| 
+T Ebon Blade Prisoners|QID|12982| 
+T Vandalizing Jotunheim|QID|13084| 
 
-A To the Rise with all Due Haste!|QID|12806| |T|
-A Blackwatch|QID|13106| |T|
+A To the Rise with all Due Haste!|QID|12806| 
+A Blackwatch|QID|13106| 
 
-T To the Rise with all Due Haste!|QID|12806| |T|
-A The Story Thus Far...|QID|12807| |T|
-C The Story Thus Far...|QID|12807| |T|
-T The Story Thus Far...|QID|12807| |T|
+T To the Rise with all Due Haste!|QID|12806| 
+A The Story Thus Far...|QID|12807| 
+C The Story Thus Far...|QID|12807| 
+T The Story Thus Far...|QID|12807| 
 
-A Blood in the Water|QID|12810| |T|
+A Blood in the Water|QID|12810| 
 C Blood in the Water|QID|12810| |U|40551|
-T Blood in the Water|QID|12810| |T|
+T Blood in the Water|QID|12810| 
 
-A Intelligence Gathering|QID|12838| |T|
-A You'll Need a Gryphon|QID|12814| |T|
+A Intelligence Gathering|QID|12838| 
+A You'll Need a Gryphon|QID|12814| 
 A From Their Corpses, Rise!|QID|12813|
 
 C You'll Need a Gryphon|QID|12814|
@@ -96,9 +96,9 @@ C From Their Corpses, Rise!|QID|12813| |U|40587|
 
 A The Grand (Admiral's) Plan|QID|12839| |U|40666|
 
-T The Grand (Admiral's) Plan|QID|12839| |T|
-T Intelligence Gathering|QID|12838| |T|
-T You'll Need a Gryphon|QID|12814| |T|
+T The Grand (Admiral's) Plan|QID|12839| 
+T Intelligence Gathering|QID|12838| 
+T You'll Need a Gryphon|QID|12814| 
 T From Their Corpses, Rise!|QID|12813|
 
 A In Strict Confidence|QID|12840|
@@ -180,23 +180,23 @@ C Let's Get Out of Here|QID|13482|
 T Let's Get Out of Here|QID|13482|
 
 A Judgment Day Comes!|QID|13226|
-T Judgment Day Comes!|QID|13226| |T|
-A Honor Above All Else|QID|13036| |T|
-T Honor Above All Else|QID|13036| |T|
-A Scourge Tactics|QID|13008| |T|
-A Curing The Incurable|QID|13040| |T|
-A Defending The Vanguard|QID|13039| |T|
+T Judgment Day Comes!|QID|13226| 
+A Honor Above All Else|QID|13036|
+T Honor Above All Else|QID|13036|
+A Scourge Tactics|QID|13008|
+A Curing The Incurable|QID|13040| 
+A Defending The Vanguard|QID|13039| 
 C Scourge Tactics|QID|13008|
 C Curing The Incurable|QID|13040|
 C Defending The Vanguard|QID|13039|
-T Defending The Vanguard|QID|13039| |T|
-T Curing The Incurable|QID|13040| |T|
-T Scourge Tactics|QID|13008| |T|
-A If There Are Survivors...|QID|13044| |T|
-T If There Are Survivors...|QID|13044| |T|
-A Into The Wild Green Yonder|QID|13045| |T|
+T Defending The Vanguard|QID|13039| 
+T Curing The Incurable|QID|13040| 
+T Scourge Tactics|QID|13008| 
+A If There Are Survivors...|QID|13044| 
+T If There Are Survivors...|QID|13044| 
+A Into The Wild Green Yonder|QID|13045| 
 C Into The Wild Green Yonder|QID|13045| |N|Rescue 3 Captured Argent Crusaders from Scourgeholme and drop them off at the Vanguard Infirmary.|
-T Into The Wild Green Yonder|QID|13045| |T|
+T Into The Wild Green Yonder|QID|13045| 
 A A Cold Front Approaches|QID|13070|
 T A Cold Front Approaches|QID|13070|
 A The Last Line Of Defense|QID|13086|
@@ -337,7 +337,7 @@ A Retest Now |QID|13321|
 N Loot Cult of the Damned Research - Page 1 |QID|13345| |L|44459|
 N Loot Cult of the Damned Research - Page 2 |QID|13345| |L|44460|
 N Loot Cult of the Damned Research - Page 3 |QID|13345| |L|44461|
-U |QID|13345| |U|44459|
+U Cult of the Damned Research |QID|13345| |U|44459|
 K Enslaved Minions of Void Summoners |QID|13344| |L|44434 5| |N|Get 5 Dark Matters by using the rod on the corpse of an Enslaved Minion| |U|44433|
 N Summon the Dark Messenger |QID|13344| |QO|Dark Messenger summoned: 1/1| |N|Head to the summoning stone and right click it |M|53.8,33.6|
 K Cultists around the cauldrons |QID|13321| |L|44301 10| |U|44307|
@@ -573,7 +573,5 @@ T The Rider of the Unholy|QID|13161|
 A The Fate of Bloodbane|QID|13164|
 C The Fate of Bloodbane|QID|13164|
 T The Fate of Bloodbane|QID|13164|
-
-N Just a note
 ]]
 end)

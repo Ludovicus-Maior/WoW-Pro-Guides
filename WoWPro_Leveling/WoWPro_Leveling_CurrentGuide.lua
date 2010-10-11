@@ -39,12 +39,12 @@ frame:SetScript("OnShow", function()
 		subtitle:SetText(L["Full transcript of the guide currently loaded."])
 	end
 
-	local box = LibStub("WoWPro-BG").new(frame)
+	local box = WoWPro:CreateBG(frame)
 	box:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP) 
 	box:SetPoint("LEFT", EDGEGAP, 0)
 	box:SetPoint("BOTTOMRIGHT", -EDGEGAP, EDGEGAP)
 	
-	local scrollbar = LibStub("WoWPro-Scroll").new(box, 6)
+	local scrollbar = WoWPro:CreateScrollbar(box, 6)
 
 	for i=1,NUMROWS do
 		local row = CreateFrame("Frame", nil, box)
@@ -94,7 +94,15 @@ frame:SetScript("OnShow", function()
 			end
 			
 			local step = steplist[index]
+			if not step then row.check:Hide() end
 			if optional[index] then step = step.." (optional)" end
+			if WoWPro.prof[index] then
+				local prof, proflvl = string.split(" ", WoWPro.prof[index]) 
+				step = step.." ("..prof..")"
+			end
+			if WoWPro.rank[index] then
+				step = step.." (rank "..WoWPro.rank[index]..")"
+			end
 			
 			-- Setting sticky texture --
 			if WoWPro.stickies[index] then 
@@ -141,48 +149,15 @@ frame:SetScript("OnShow", function()
 			row.check:SetScript("OnClick", function(self, button, down)
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 				if button == "LeftButton" and row.check:GetChecked() then
-					if WoWPro.actions[row.index] == "A" 
-					or WoWPro.actions[row.index] == "C" 
-					or WoWPro.actions[row.index] == "T" then
-						WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = true
-					else 
-						WoWProDB.char.guide[GID].skipped[row.index] = true
-					end
+					local steplist = WoWPro_Leveling:SkipStep(row.index)
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
+					if steplist ~= "" then 
+						WoWPro:SkipStepDialogCall(row.index, steplist)
+					end
 				elseif button == "RightButton" and row.check:GetChecked() then
 					completion[row.index] = true
 				elseif not row.check:GetChecked() then
-					completion[row.index]  = nil
-					if WoWPro.QIDs[row.index] 
-					and ( WoWPro.actions[row.index] == "A" 
-						or WoWPro.actions[row.index] == "C" 
-						or WoWPro.actions[row.index] == "T" ) then
-							WoWProDB.char.skippedQIDs[WoWPro.QIDs[row.index]] = nil
-					else
-						WoWProDB.char.guide[GID].skipped[row.index] = nil
-					end
-					local rerun = true
-					local currentstep = row.index
-					while rerun do
-						rerun = false
-						for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
-							local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
-							for k=1,numprereqs do
-								local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
-								if tonumber(kprereq) == WoWPro.QIDs[currentstep] then
-									if WoWPro.actions[j] == "A" 
-									or WoWPro.actions[j] == "C" 
-									or WoWPro.actions[j] == "T" then
-										WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
-									else
-										WoWProDB.char.guide[GID].skipped[j] = nil
-									end
-									rerun = true
-									currentstep = j
-								end
-							end
-						end end
-					end
+					WoWPro_Leveling:UnSkipStep(row.index)
 				end
 				WoWPro_Leveling.UpdateCurrentGuidePanel()
 				WoWPro:UpdateGuide()

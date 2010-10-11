@@ -122,8 +122,8 @@ T The Favor of Zangus |QID|12168|M|29.2,55.6|
 A The High Cultist |QID|12169|M|29.2,55.6|
 
 A Death to the Traitor King |QID|13167| |N|Go northwest to the Pit of Narjun . Let yourself fall down in one of the holes and go to Kilix the Unraveler. Get his 3 quests.|M|26.00,51.00|
-A Don't Forget the Eggs!
-A The Faceless Ones
+A Don't Forget the Eggs!|QID|13182|
+A The Faceless Ones|QID|13187|
 
 N Instance: Azjol-Nerub |QID|12169| |N|You have all the quests for the normal version of the instance Azjol-Nerub. [Death to the Traitor King] [Don't Forget the Eggs!] So from now on, if you feel like it, you should look for a group for Azjol-Nerub (Abbreviation: AZN). It's a very quick instance for level 72-74 players, I recommend it. If you don't feel like it or if you don't find a group, you can abandon the above quests. They can easily be picked up in the future anyway, if you change your mind.|
 N Instance: Ahn'kahet: The Old Kingdom |QID|12169| |N|You also have the quest for the normal version of the instance Ahn'kahet: The Old Kingdom. [The Faceless Ones] So from now on, if you feel like it, you should look for a group for Ahn'kahet. It's for level 73-75 players and I also recommend it.If you don't feel like it or if you don't find a group, you can abandon the quests. They can easily be picked up in the future anyway, if you change your mind.|
@@ -374,7 +374,7 @@ A Canyon Chase |QID|12143|M|64.4,26.9|
 N Note: |QID|12467| |N|Now we're going to kill Icestorm, a level 73 elite wyrm. Read the next paragraph before you talk to "Wyrmbait". |M|64.60,27.50|
 K Icestorm |QID|12467| |QO|Thel'zan's Phylactery: 1/1| |N|Wyrmbait will fetch Icestorm for you. All you have to do is stand aside and let the NPCs tank for you and let them build some threat. Once Icestorm is down to 50% HP or so, start attacking it. Stay on its side to avoid the breath. If you do this properly, Icestorm should never attack you. If you got an ability to lower or reset your threat, use it, that way you can start attacking Icestorm earlier. ==Note== Icestorm is NOT immune to frost, surprisingly. You should be ready now, talk to "Wyrmbait" , tell him to go fetch Icestorm. After you kill Icestorm Thel'zan's Phylactery should appear on the floor: Loot it.|M|64.60,27.50|
 
-C Canyon Chase |N|Go north to the canyon entrance at . Follow those running snobolds east and they'll lead you to their boss, Chilltusk (72.00, 28.00). Kill him and loot the Emblazoned Battle Horn.|M|67.00,24.00|
+C Canyon Chase |QID|12143|N|Go north to the canyon entrance at . Follow those running snobolds east and they'll lead you to their boss, Chilltusk (72.00, 28.00). Kill him and loot the Emblazoned Battle Horn.|M|67.00,24.00|
 A Disturbing Implications |QID|12146| |U|36855| |N|Right-click the Emblazoned Battle Horn to start Disturbing Implications.|M|72.5,29.2|
 
 H Wintergarde Keep |QID|12467| |N|Hearthstone to Wintergarde Keep. If your stone is not up, just go to the other end of the canyon and then ride south/southeast back to Wintergarde Keep.|

@@ -16,7 +16,7 @@ local function createBlizzOptions()
 			help = {
 				order = 0,
 				type = "description",
-				name = L["Character-specific settings for the WoW-Pro addon's leveling module."],
+				name = L["Settings for the WoW-Pro addon's leveling module."],
 			},
 			blank = {
 				order = 1,
@@ -163,6 +163,24 @@ local function createBlizzOptions()
 				fontSize = "medium",
 				name = "Use Item",
 				image = "Interface\\Icons\\INV_Misc_Bag_08",
+				imageWidth = 15,
+				imageHeight = 15
+			},    
+			level = {
+				order = 19,
+				type = "description",
+				fontSize = "medium",
+				name = "Level Up",
+				image = "Interface\\Icons\\Spell_ChargePositive",
+				imageWidth = 15,
+				imageHeight = 15
+			},    
+			repair = {
+				order = 20,
+				type = "description",
+				fontSize = "medium",
+				name = "Repair/Restock",
+				image = "Interface\\Icons\\Ability_Repair",
 				imageWidth = 15,
 				imageHeight = 15
 			}, 

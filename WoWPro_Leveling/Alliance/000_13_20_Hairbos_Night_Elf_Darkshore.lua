@@ -43,7 +43,7 @@ C Cleansing of the Infected |QID|2138|
 N Level 14? |N|If by chance you are not level 14, grind until you are.|QID|2138|
 
 C The Cliffspring River |QID|4762| |N|Use your Empty Sampling Tube. |U|12350| |M|51,25|
-T Buzzbox 323 |FQID|1002| |M|51.3, 54.3|
+T Buzzbox 323 |QID|1002| |M|51.3, 54.3|
 A Buzzbox 525 |QID|1003|
 A Beached Sea Turtle (1) |QID|4722| |M|53,18|
 A Beached Sea Turtle (2) |QID|4725|

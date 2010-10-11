@@ -16,7 +16,7 @@ A Fiery Menace! |QID|7724|M|38.6,27.8|
 A What the Flux? |QID|7722|M|38.8,28.5|
 f Thorium Point |QID|4449| |N|Get the Flight Path.|
 N Kill Dwarves |QID|7728| |N|Kill all the Dark Iron Steamsmiths at this location and loot them. |M|39.00,50.00|
-N From now on... |QID|7723| |N|From now on, kill any Heavy War Golem, Elemental, Dark Iron Taskmaster, and Dark Iron Slaver you see. |
+N From now on... |QID|7723||N|From now on, kill any Heavy War Golem, Elemental, Dark Iron Taskmaster, and Dark Iron Slaver you see. |
 N Keep Dark Iron Scraps |QID|9131| |N|Keep any Dark Iron Scraps you find. |
 A Caught! |N| | |QID|4449|M|65.00,62.00|
 C Caught! |N|Kill 8 Dark Iron Geologists here. | |QID|4449|
@@ -31,7 +31,7 @@ R The Slag Pit |QID|7727| |N|Go here and enter the Slag Pit through the door. |M
 C WANTED: Overseer Maltorius |N|Continue inwards to a metal ramp, then go straight at the fork (through the quarry gate).  Continue inward and then go up a ramp. Find Overseer Maltorius.  Kill him and loot his head. (40.85, 35.80)| |QID|7701|M|40.9,35.8|
 C What the Flux? |N|Loot the plans on the ground. | |QID|7722|M|40.50,35.70|
 C JOB OPPORTUNITY: Culling the Competition |N|Kill the rest of the mobs needed for this quest but stay in the area of Overseer Maltius. | |QID|7729|
-C Incendosaurs? Whateverosaur is More Like It |N|Go across the bridge and jump down to the lower level at the end of the bridge.  Go east and kill 20 Incendosaurs. | |QID|7727|M|49.00,36.00|
+C Incendosaurs? Whateverosaur is More Like It |N|Go across the bridge and jump down to the lower level at the end of the bridge.  Go east and kill 20 Incendosaurs. | |QID|7727|M|49.85,39.05|
 R The Cauldron |QID|3442| |N|Go out of the Slag Pit and to the Cauldron.  |M|46.90,46.60|
 N Heart of Flame |QID|3442| |N|Kill elementals until you get 4 Hearts of Flame. | |L|10509 4|M|54.50,43.75|
 N Smithing Tuyere |QID|7728| |N|Get on the elevator at this location and get off at the top floor (third stop after you start moving).  Kill all the Steamsmiths here. (40.00, 54.00)| |L|18959 1|
@@ -43,7 +43,7 @@ T Incendosaurs? Whateverosaur is More Like It |QID|7727|M|38.6,27.8|
 T What the Flux? |QID|7722|M|38.8,28.5|
 T JOB OPPORTUNITY: Culling the Competition |QID|7729|M|39.0,27.5|
 T WANTED: Overseer Maltorius |QID|7701|M|37.6,26.5|
-N Sell junk, repair, restock |QID|3443| |N|Sell junk, repair, restock.|
+N Sell junk, repair, restock |QID|3443| |N|Sell junk, repair, restock.||M|38.78,28.46|
 
 N From now on... |QID|7724| |N|From now on, kill Greater Lava Spiders, Golems, and Dwarves that you see. |
 N Smithing Tuyere |QID|7728| |N|Kill Steamsmiths at this location if you need the Smithing Tuyere. |M|39.00,50.00|

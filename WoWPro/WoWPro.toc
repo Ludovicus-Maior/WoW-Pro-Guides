@@ -3,7 +3,7 @@
 ## Notes: Guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
-## Version: 1.2.6
+## Version: 1.5.2
 
 ## X-Category: Compilations
 
@@ -19,7 +19,6 @@ Libraries\AceGUI-3.0-SharedMediaWidgets\widget.xml
 Libraries\LibDataBroker-1.1\LibDataBroker-1.1.lua
 Libraries\LibDBIcon-1.0\LibDBIcon-1.0.lua
 Libraries\LibBabble-Zone-3.0\lib.xml
-Libraries\WoWProLib.xml
 
 WoWPro.lua
 WoWPro_Widgets.lua

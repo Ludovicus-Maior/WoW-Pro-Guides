@@ -5,13 +5,15 @@
 local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WoWPro.Version = "1.2.6"
+WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
 
 local defaults = { profile = {
 	enable = true,
 	pad = 5,
 	space = 5,
 	resize = false,
+	checksoundfile = [[Sound\Interface\MapPing.wav]],
+	checksound = true,
 	drag = true,
 	titlebar = true,
 	border = true,
@@ -45,6 +47,7 @@ local defaults = { profile = {
 	vminresize = 100,
 	anchorpoint = "AUTO",
 	guidescroll = false,
+	rank = 5,
 	
 	-- Enables --
 	enable = true,
