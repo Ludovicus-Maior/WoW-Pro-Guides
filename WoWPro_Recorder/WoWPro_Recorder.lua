@@ -101,6 +101,7 @@ function WoWPro_Recorder:RegisterEvents()
 				step = "Level "..newLevel,
 				QID = WoWPro_Recorder.lastStep,
 				note = "You should be around level "..newLevel.." by this point.",
+				level = newLevel
 			}
 			WoWPro:dbp("Adding level up to level "..newLevel)
 			WoWPro_Recorder:AddStep(stepInfo)
@@ -201,4 +202,58 @@ function WoWPro_Recorder:AddStep(stepInfo)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	WoWPro:UpdateGuide()
+end
+
+function WoWPro_Recorder:SaveGuide()
+
+	local guideString = "WoWPro_Leveling:RegisterGuide('"
+		..WoWPro_Recorder.CurrentGuide.GID.."', '"
+		..WoWPro_Recorder.CurrentGuide.Zone.."', '"
+		..WoWPro_Recorder.CurrentGuide.Author.."', '"
+		..WoWPro_Recorder.CurrentGuide.StartLvl.."', '"
+		..WoWPro_Recorder.CurrentGuide.EndLvl.."', '"
+		..WoWPro_Recorder.CurrentGuide.NextGID.."', '"
+		..UnitFactionGroup("player").."', function() \nreturn [[\n"
+		
+	function addTag(line, tag, value)
+		line = line..tag.."|"
+		if value then
+			line = line..value.."|"
+		end
+	end
+	
+	for i,action in pairs(WoWPro.action) do
+		
+		guideString = guideString.."/n"..action.." "..WoWPro.step[i].."|QID"..WoWPro.QID[i].."|"
+		
+		if WoWPro.optional[i] then addTag(guideString, "O") end
+		if WoWPro.sticky[i] then addTag(guideString, "S") end
+		if WoWPro.unsticky[i] then addTag(guideString, "US") end
+		if WoWPro.rank[i] then addTag(guideString, "RANK", WoWPro.rank[i]) end
+		if WoWPro.noncombat[i] then addTag(guideString, "NC") end
+		if WoWPro.level[i] then addTag(guideString, "LVL", WoWPro.level[i]) end
+		if WoWPro.prof[i] then addTag(guideString, "P", WoWPro.prof[i]) end
+		if WoWPro.waypcomplete[i] == 1 then addTag(guideString, "CC")
+		elseif WoWPro.waypcomplete[i] == 2 then addTag(guideString, "CS") end
+		if WoWPro.prereq[i] then addTag(guideString, "PRE", WoWPro.prereq[i]) end
+		if WoWPro.leadin[i] then addTag(guideString, "LEAD", WoWPro.leadin[i]) end
+		if WoWPro.use[i] then addTag(guideString, "U", WoWPro.use[i]) end
+		if WoWPro.lootitem[i] then
+			guideString = guideString.."L|"..WoWPro.lootitem[i]
+			if WoWPro.lootqty[i] > 1 then
+				guideString = guideString.." "..WoWPro.lootqty[i].."|"
+			else
+				guideString = guideString.."|"
+			end
+		end
+		if WoWPro.target[i] then addTag(guideString, "T", WoWPro.target[i]) end
+		if WoWPro.questtext[i] then addTag(guideString, "QO", WoWPro.questtext[i]) end
+		if WoWPro.map[i] then addTag(guideString, "M", WoWPro.map[i]) end
+		if WoWPro.zone[i] then addTag(guideString, "Z", WoWPro.zone[i]) end
+		if WoWPro.note[i] then addTag(guideString, "N", WoWPro.note[i]) end
+	
+	end
+	
+	WoWPro_RecorderDB[WoWPro_Recorder.CurrentGuide.GID] = guideString
+	
 end

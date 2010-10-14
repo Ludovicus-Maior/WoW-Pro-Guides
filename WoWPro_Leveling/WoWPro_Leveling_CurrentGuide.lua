@@ -105,7 +105,7 @@ frame:SetScript("OnShow", function()
 			end
 			
 			-- Setting sticky texture --
-			if WoWPro.stickie[index] then 
+			if WoWPro.sticky[index] then 
 				step = step.." (sticky)"
 				row:SetBackdrop( {
 					bgFile = WoWProDB.profile.stickytexture,
@@ -116,7 +116,7 @@ frame:SetScript("OnShow", function()
 				row:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], 0)
 			end
 			
-			if WoWPro.unstickie[index] then 
+			if WoWPro.unsticky[index] then 
 				step = step.." (un-sticky)"
 			end
 		

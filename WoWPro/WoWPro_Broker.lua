@@ -14,8 +14,8 @@ function WoWPro:LoadGuide(guideID)
 	
 	-- Clearing tables --
 	WoWPro.step, WoWPro.action, WoWPro.note,  WoWPro.QID,  WoWPro.map, 
-		WoWPro.stickie, WoWPro.unstickie, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
-		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickiecount, WoWPro.optional, 
+		WoWPro.sticky, WoWPro.unsticky, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
+		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickycount, WoWPro.optional, 
 		WoWPro.prereq, WoWPro.optionalcount
 		= {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 
@@ -92,13 +92,13 @@ function WoWPro:UpdateGuide(offset)
 	local p = 0
 	for j = 1,WoWPro.stepcount do
 		if ( WoWProDB.char.guide[GID].completion[j] or WoWProDB.char.guide[GID].skipped[j] )
-		and not WoWPro.stickie[j] 
+		and not WoWPro.sticky[j] 
 		and not WoWPro.optional[j] then 
 			p = p + 1 
 		end
 	end
 	WoWProDB.char.guide[GID].progress = p
-	WoWProDB.char.guide[GID].total = WoWPro.stepcount - WoWPro.stickiecount - WoWPro.optionalcount
+	WoWProDB.char.guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
 	
 	WoWPro.TitleText:SetText(WoWPro.loadedguide["zone"].."   ("..WoWProDB.char.guide[GID].progress.."/"..WoWProDB.char.guide[GID].total..")")
 	

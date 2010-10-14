@@ -119,7 +119,7 @@ end
 function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do
 		-- Setting color and texture for sticky steps --
-		if WoWPro.stickie and WoWPro.stickie[row.index] then
+		if WoWPro.sticky and WoWPro.sticky[row.index] then
 			row:SetBackdrop( {
 				bgFile = WoWProDB.profile.stickytexture,
 				tile = true, tileSize = 16

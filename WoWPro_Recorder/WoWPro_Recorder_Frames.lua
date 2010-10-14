@@ -161,6 +161,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	-- Scripts --
 	WoWPro.SaveButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
+			WoWPro_RecorderDB[WoWPro_Recorder.CurrentGuide.GID] = ""
+			WoWPro_Recorder:SaveGuide()
 		end
 	end)  
 

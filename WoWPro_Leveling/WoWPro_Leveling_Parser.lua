@@ -136,7 +136,7 @@ function WoWPro_Leveling:NextStep(k, i)
 		end
 		
 		-- Skipping any unstickies until it's time for them to display --
-		if WoWPro.unstickie[k] and WoWPro.StickyCount and i > WoWPro.StickyCount+1 then skip = true end
+		if WoWPro.unsticky[k] and WoWPro.StickyCount and i > WoWPro.StickyCount+1 then skip = true end
 		
 		-- Skipping completed steps --
 		if WoWProDB.char.guide[GID].completion[k] then skip = true end
@@ -158,7 +158,7 @@ function WoWPro_Leveling:NextStepNotSticky(k, i)
 	while sticky do 
 		sticky = false
 		k = WoWPro_Leveling:NextStep(k)
-		if WoWPro.stickie[k] == true then 
+		if WoWPro.sticky[k] == true then 
 			sticky = true
 			k = k + 1
 		end
@@ -310,8 +310,8 @@ function WoWPro_Leveling:LoadGuide()
 	-- Parsing quests --
 	local sequence = WoWPro.loadedguide["sequence"]
 	WoWPro.step, WoWPro.action, WoWPro.note,  WoWPro.QID,  WoWPro.map, 
-		WoWPro.stickie, WoWPro.unstickie, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
-		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickiecount, WoWPro.optional, 
+		WoWPro.sticky, WoWPro.unsticky, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
+		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickycount, WoWPro.optional, 
 		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat, WoWPro.level, WoWPro.leadin,
 		WoWPro.target, WoWPro.prof, WoWPro.rank, WoWPro.waypcomplete
 		= ParseQuests(string.split("\n", sequence()))
@@ -397,8 +397,8 @@ function WoWPro_Leveling:RowUpdate()
 		local note = WoWPro.note[k]
 		local QID = WoWPro.QID[k] 
 		local coord = WoWPro.map[k] 
-		local sticky = WoWPro.stickie[k] 
-		local unsticky = WoWPro.unstickie[k] 
+		local sticky = WoWPro.sticky[k] 
+		local unsticky = WoWPro.unsticky[k] 
 		local use = WoWPro.use[k] 
 		local zone = WoWPro.zone[k] 
 		local lootitem = WoWPro.lootitem[k] 
@@ -423,7 +423,7 @@ function WoWPro_Leveling:RowUpdate()
 		-- Unstickying stickies --
 		if unsticky and i == WoWPro.StickyCount+1 then
 			for n,row in ipairs(WoWPro.rows) do 
-				if step == row.step:GetText() and WoWPro.stickie[row.index] then 
+				if step == row.step:GetText() and WoWPro.sticky[row.index] then 
 					completion[row.index] = true
 					reload = true
 				end
@@ -510,7 +510,7 @@ function WoWPro_Leveling:RowUpdate()
 			if sticky then
 				table.insert(dropdown, 
 					{text = "Un-Sticky", func = function() 
-						WoWPro.stickie[row.index] = false
+						WoWPro.sticky[row.index] = false
 						WoWPro.UpdateGuide()
 						WoWPro.UpdateGuide()
 						WoWPro.MapPoint()
@@ -519,8 +519,8 @@ function WoWPro_Leveling:RowUpdate()
 			else
 				table.insert(dropdown, 
 					{text = "Make Sticky", func = function() 
-						WoWPro.stickie[row.index] = true
-						WoWPro.unstickie[row.index] = false
+						WoWPro.sticky[row.index] = true
+						WoWPro.unsticky[row.index] = false
 						WoWPro.UpdateGuide()
 						WoWPro.UpdateGuide()
 						WoWPro.MapPoint()
@@ -596,7 +596,7 @@ function WoWPro_Leveling:RowUpdate()
 		-- Checking for loot items in bags --
 		local lootqtyi
 		if lootcheck and ( lootitem or action == "B" ) then
-			if not WoWPro.stickie[index] then lootcheck = false end
+			if not WoWPro.sticky[index] then lootcheck = false end
 			if not lootitem then
 				if GetItemCount(step) > 0 then return WoWPro.CompleteStep(k) end
 			end
