@@ -30,7 +30,7 @@ function WoWPro:LoadNilGuide()
 	for i=2,15 do
 		WoWPro.rows[i]:Hide()
 		WoWPro.rows[i].check:Hide()
-		WoWPro.rows[1].targetbutton:Hide()
+		WoWPro.rows[i].targetbutton:Hide()
 		WoWPro.rows[i].itembutton:Hide()
 		WoWPro.rows[i].step:SetText(nil)
 		WoWPro.rows[i].note:SetText(nil)
