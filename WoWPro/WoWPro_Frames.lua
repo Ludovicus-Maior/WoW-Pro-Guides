@@ -584,6 +584,11 @@ function WoWPro:CreateMiniMapButton()
 				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Guides")
 			end
 		end,
+		OnTooltipShow = function(self) 
+			self:AddLine("WoW-Pro")
+			self:AddLine("Left-click to enable/disable addon", 1, 1, 1)
+			self:AddLine("Right-click to open config panel", 1, 1, 1) 
+			end,
 	})
 	icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWProDB.profile.minimap)
 end

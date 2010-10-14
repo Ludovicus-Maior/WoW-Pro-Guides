@@ -2,22 +2,22 @@ WoWPro_Leveling:RegisterGuide("JamTerA6466", "Terokkar Forest - Aldor", "Jame", 
 return [[
 N READ THIS! |QID|10211| |N|This guide is for people who will choose Aldor as a faction in Shattrath. Aldor gives slightly better XP, so if you don't care then stay with this one. If you plan to choose Scryer, right-click this window and choose "Guides", then scroll down and find the Terokkar Scryer guide.|
 F Shattrath City |QID|10211| |N|Fly to Shattrath City. |M|67.80,51.50|
-A A'dal |N| | |QID|10210|M|59.70,41.45|
-T A'dal |QID|10210|M|54.0,44.8|
-A City of Light |QID|10211|M|54.8,44.3|
+A A'dal |N| | |Z|Shattrath City||QID|10210|M|59.70,41.45|
+T A'dal |Z|Shattrath City||QID|10210|M|54.0,44.8|
+A City of Light |Z|Shattrath City||QID|10211|M|54.8,44.3|
 C City of Light |N|Follow the npc until you get the quest completion. | |QID|10211|
-T City of Light |QID|10211|M|54.8,44.3|
+T City of Light |Z|Shattrath City||QID|10211|M|54.8,44.3|
 N This guide follows the Aldor faction |QID|10554| |N|This guide follows the Aldor faction.  You can read about it by using Google. |
-N Allegiance to the Aldor |QID|10554| |N|Turn in the quest "Allegiance to the Aldor"  |M|55.00,43,98|
-A Ishanah |QID|10554|M|54.8,44.3|
-T Ishanah |N|You must take the elevator up to this area. | |QID|10554|M|24.0,29.7|
-A Restoring the Light |QID|10021|M|24.0,29.7|
-h Shattrath City |QID|9957| |N|Make Shattrath City (Aldor) your home location. (28.00, 49.00)|
+N Allegiance to the Aldor |QID|10554| |N|Turn in the quest "Allegiance to the Aldor"  |Z|Shattrath City||M|55.00,43,98|
+A Ishanah |Z|Shattrath City| |QID|10554|M|54.8,44.3|
+T Ishanah |N|You must take the elevator up to this area. | |Z|Shattrath City||QID|10554|M|24.0,29.7|
+A Restoring the Light |Z|Shattrath City||QID|10021|M|24.0,29.7|
+h Shattrath City |QID|9957| |Z|Shattrath City||N|Make Shattrath City (Aldor) your home location. (28.00, 49.00)|
 N Sell junk, repair, restock, train skills |QID|9957| |N|Sell junk, repair, restock, train skills |
 N Do Underbog or Slave Pens (Optional) |QID|9957| |N|You can do the instances in Zangarmarsh for extra XP if you wish. |
-A Rather Be Fishin' |QID|10037|M|64.0,15.5|
-A The Outcast's Plight |QID|10917|
-A The Eyes of Skettis |QID|10847|M|52.6,21.0|
+A Rather Be Fishin' |QID|10037|M|64.0,15.5||Z|Shattrath City|
+A The Outcast's Plight |QID|10917||Z|Shattrath City|
+A The Eyes of Skettis |QID|10847|M|52.6,21.0||Z|Shattrath City|
 R Terokkar Forest |QID|9957| |N|Go out of Shattrath City. |M|69.00,0.10|
 C Rather Be Fishin' |N|Kill eels until you finish this quest. | |QID|10037|M|38.00,13.00|
 T What's Wrong at Cenarion Thicket? |QID|9957|M|44.3,26.3|
