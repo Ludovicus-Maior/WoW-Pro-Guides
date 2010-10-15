@@ -262,6 +262,7 @@ local function findBlizzCoords(questId)
 end
 
 function WoWPro:MapPoint(row)
+	if not WoWPro.loadedguide then return end
 	local GID = WoWProDB.char.currentguide
 	if GID == "NilGuide" then return end
 
