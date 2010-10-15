@@ -1,0 +1,13 @@
+## Interface: 40000
+## Title: WoW-Pro Recorder
+## Notes: Record and edit guides for use with the WoW-Pro Addon
+## Author: Jiyambi
+## Dependencies: WoWPro
+## Version: 1.0.0
+## SavedVariables: WoWPro_RecorderDB
+
+## X-Category: Quest
+
+WoWPro_Recorder.lua
+
+WoWPro_Recorder_Frames.lua

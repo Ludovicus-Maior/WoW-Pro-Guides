@@ -59,7 +59,7 @@ function WoWPro_Leveling.UpdateGuideList()
 				WoWPro:LoadGuide()
 				WoWProDB.char.guide[iGuide["GID"]] = nil
 				for j = 1,WoWPro.stepcount do 
-					WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil
+					WoWProDB.char.skippedQIDs[WoWPro.QID[j]] = nil
 				end
 				WoWPro:LoadGuide()
 			else
@@ -80,7 +80,7 @@ end
 
 -- Frame Contents --
 frame:SetScript("OnShow", function()
-	local title, subtitle = WoWPro:CreateHeading("WoWPro-Heading").new(frame, "WoW-Pro Leveling - "..L["Guide List"], L["Available WoW-Pro leveling guides are listed below. \nSelect one and hit \"Okay\" to load. \nShift+click a guide to clear it."])
+	local title, subtitle = WoWPro:CreateHeading(frame, "WoW-Pro Leveling - "..L["Guide List"], L["Available WoW-Pro leveling guides are listed below. \nSelect one and hit \"Okay\" to load. \nShift+click a guide to clear it."])
 
 	local box = WoWPro:CreateBG(frame)
 	box:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP) 
