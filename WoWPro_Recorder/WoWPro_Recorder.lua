@@ -28,6 +28,7 @@ function WoWPro_Recorder:OnEnable()
 	WoWPro_Recorder:RecorderFrameSet()
 	
 	WoWPro_Recorder:RegisterEvents()
+	WoWPro_Recorder:RegisterSavedGuides()
 end
 
 function WoWPro_Recorder:OnDisable()
@@ -39,6 +40,25 @@ function WoWPro_Recorder:OnDisable()
 		WoWPro.GuideFrame:UnregisterEvent(event)
 	end
 	
+end
+
+function WoWPro_Recorder:RegisterSavedGuides()
+	local myUFG = UnitFactionGroup("player")
+	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
+		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
+		table.insert(WoWPro.GuideList, {
+			GID = GID,
+			guidetype = guideInfo.guidetype,
+			zone = guideInfo.zone,
+			author = guideInfo.author,
+			startlevel = guideInfo.startlevel,
+			endlevel = guideInfo.endlevel,
+			sequence = function()
+return guideInfo.sequence
+end,
+			nextGID = guideInfo.nextGID,
+		})
+	end
 end
 
 function WoWPro_Recorder:RegisterGuide(module, zonename, startlevelvalue, endlevelvalue, authorname, GIDvalue, nextGIDvalue)
@@ -283,6 +303,17 @@ function WoWPro_Recorder:SaveGuide()
 	end
 	
 	local guideString = header..sequence.."\n]]"
+	
+	WoWPro_RecorderDB[GID] = {
+		guidetype = "Leveling",
+		zone = WoWPro.loadedguide["zone"],
+		author = WoWPro.loadedguide["author"],
+		startlevel = WoWPro.loadedguide["startlevel"],
+		endlevel = WoWPro.loadedguide["endlevel"],
+		sequence = sequence,
+		nextGID = WoWPro.loadedguide["nextGID"],
+		faction = UnitFactionGroup("player")
+	}
 	
 	-- Save Guide Dialog --
 	config:RegisterOptionsTable("WoWPro Recorder - Save Guide", {

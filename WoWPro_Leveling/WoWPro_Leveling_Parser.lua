@@ -248,11 +248,12 @@ end
 
 -- Quest parsing function --
 local function ParseQuests(...)
+	WoWPro:dbp("Parsing guide text...")
 	local i = 1
 	
-	WoWPro_Leveling.Tags = { "action", "step", "QID", "note", "index", "map", "stickie", "unstickie", 
+	if not WoWPro_Leveling.Tags then WoWPro_Leveling.Tags = { "action", "step", "QID", "note", "index", "map", "stickie", "unstickie", 
 		"use", "zone", "lootitem", "lootqty", "questtext", "optional", "prereq", "noncombat", 
-		"level", "leadin", "target", "prof", "rank", "waypcomplete" }
+		"level", "leadin", "target", "prof", "rank", "waypcomplete" } end
 	
 	local actions, steps, QIDs, notes, index, maps, stickies, unstickies, 
 		uses, zones, lootitem, lootqty, questtext, optional, prereq, noncombat, 
@@ -265,6 +266,7 @@ local function ParseQuests(...)
 		if text ~= "" then
 			local class, race = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?")
 			if class == nil or class:find(myclass) then if race == nil or race:find(myrace) then
+				WoWPro:dbp("Line "..j.." parsed.")
 				local _, _, action, step, tag = text:find("^(%a) ([^|]*)(.*)")
 				step = step:trim()
 				stepcount = stepcount + 1
@@ -299,6 +301,7 @@ local function ParseQuests(...)
 			end end
 		end
 	end
+	WoWPro:dbp("Parsing complete.")
 	return steps, actions, notes, QIDs, maps, stickies, unstickies, uses, zones, lootitem, lootqty, questtext, 
 	stepcount, stickiescount, optional, prereq, optionalcount, noncombat, level, leadin, target, prof, rank, waypcomplete
 end

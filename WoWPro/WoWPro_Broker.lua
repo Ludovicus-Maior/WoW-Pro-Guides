@@ -8,6 +8,7 @@ local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
 	if guideID then WoWProDB.char.currentguide = guideID end
+	WoWPro:dbp("Loading guide "..WoWProDB.char.currentguide)
 
 	-- Hiding Next Guide Dialog if it is shown --
 	WoWPro.NextGuideDialog:Hide()
@@ -15,9 +16,11 @@ function WoWPro:LoadGuide(guideID)
 	-- Clearing tables --
 	WoWPro.step, WoWPro.action, WoWPro.note,  WoWPro.QID,  WoWPro.map, 
 		WoWPro.sticky, WoWPro.unsticky, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
-		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickycount, WoWPro.optional, 
-		WoWPro.prereq, WoWPro.optionalcount
-		= {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+		WoWPro.lootqty, WoWPro.questtext, WoWPro.optional, 
+		WoWPro.prereq
+		= {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+		
+	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
 
 	-- Locating the correct guide --
 	GID = WoWProDB.char.currentguide
@@ -32,6 +35,7 @@ function WoWPro:LoadGuide(guideID)
 	if not WoWPro.GuideList[guideindex] then return end
 	WoWPro.loadedguide = WoWPro.GuideList[guideindex]
 	local guidetype = WoWPro.loadedguide["guidetype"]
+	WoWPro:dbp("Found guide info of type "..guidetype)
 	
 	-- Creating a new entry if this guide does not have one
 	WoWProDB.char.guide[GID] = WoWProDB.char.guide[GID] or {}
