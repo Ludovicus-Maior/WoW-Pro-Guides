@@ -59,7 +59,7 @@ function WoWPro:UpdateGuide(offset)
 	WoWPro.Offset = offset or WoWPro.ActiveStep
 	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	if WoWPro.ShownRows then 
-		WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
+		WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows+2))
 	end
 	
 	-- Setting module-specific updates --

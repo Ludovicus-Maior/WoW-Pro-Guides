@@ -91,7 +91,7 @@ function WoWPro_Recorder:RegisterEvents()
 					action = "h",
 					step = loc,
 					QID = WoWPro_Recorder.lastStep,
-					map = tostring(x*100)..","..tostring(y*100),
+					map = string.format("%.2f,%.2f", x*100,y*100),
 					note = "At "..GetUnitName("target")..".",
 					zone = zonetag
 				}
@@ -119,7 +119,7 @@ function WoWPro_Recorder:RegisterEvents()
 					action = "f",
 					step = GetSubZoneText() or GetZoneText(),
 					QID = WoWPro_Recorder.lastStep,
-					map = tostring(x*100)..","..tostring(y*100),
+					map = string.format("%.2f,%.2f", x*100,y*100),
 					note = "At "..GetUnitName("target")..".",
 					zone = zonetag
 				}
@@ -143,7 +143,7 @@ function WoWPro_Recorder:RegisterEvents()
 					action = "A",
 					step = questInfo.title,
 					QID = WoWPro.newQuest,
-					map = tostring(x*100)..","..tostring(y*100),
+					map = string.format("%.2f,%.2f", x*100,y*100),
 					note = "From "..GetUnitName("target")..".",
 					zone = zonetag,
 					class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
@@ -158,7 +158,7 @@ function WoWPro_Recorder:RegisterEvents()
 					action = "T",
 					step = questInfo.title,
 					QID = WoWPro.missingQuest,
-					map = tostring(x*100)..","..tostring(y*100),
+					map = string.format("%.2f,%.2f", x*100,y*100),
 					note = "To "..GetUnitName("target")..".",
 					zone = zonetag,
 					class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
@@ -184,7 +184,7 @@ function WoWPro_Recorder:RegisterEvents()
 								action = "C",
 								step = questInfo.title,
 								QID = QID,
-								map = tostring(x*100)..","..tostring(y*100),
+								map = string.format("%.2f,%.2f", x*100,y*100),
 								zone = zonetag,
 								noncombat = nc,
 								class = checkClassQuest(QID,WoWPro.QuestLog)
