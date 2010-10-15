@@ -6,7 +6,7 @@ local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
-WoWPro.debugmode = true
+WoWPro.debugmode = false
 
 function WoWPro:dbp(message)
 	if WoWPro.debugmode then

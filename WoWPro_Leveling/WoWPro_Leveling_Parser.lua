@@ -561,18 +561,18 @@ function WoWPro_Leveling:RowUpdate()
 			row.itembutton:SetAttribute("type1", "item")
 			row.itembutton:SetAttribute("item1", "item:"..use)
 			row.cooldown:RegisterEvent("ACTIONBAR_UPDATE_COOLDOWN")
-			row.cooldown:SetScript("OnEvent", function() 
-					local start, duration, enabled = GetItemCooldown(use)
-					if enabled then
-						row.cooldown:Show()
-						row.cooldown:SetCooldown(start, duration)
-					else row.cooldown:Hide() end
-				end)
-			local start, duration, enabled = GetItemCooldown(use)
-			if enabled then
-				row.cooldown:Show()
-				row.cooldown:SetCooldown(start, duration)
-			else row.cooldown:Hide() end
+--			row.cooldown:SetScript("OnEvent", function() 
+--					local start, duration, enabled = GetItemCooldown(use)
+--					if enabled then
+--						row.cooldown:Show()
+--						row.cooldown:SetCooldown(start, duration)
+--					else row.cooldown:Hide() end
+--				end)
+--			local start, duration, enabled = GetItemCooldown(use)
+--			if enabled then
+--				row.cooldown:Show()
+--				row.cooldown:SetCooldown(start, duration)
+--			else row.cooldown:Hide() end
 		else row.itembutton:Hide() end
 		
 		-- Target Button --

@@ -3,6 +3,8 @@
 -----------------------------------
 
 local L = WoWPro_Locale
+local config = LibStub("AceConfig-3.0")
+local dialog = LibStub("AceConfigDialog-3.0")
 
 WoWPro_Recorder = WoWPro:NewModule("WoWPro Recorder")
 	
@@ -49,7 +51,7 @@ function WoWPro_Recorder:RegisterGuide(module, zonename, startlevelvalue, endlev
 		endlevel = endlevelvalue,
 		sequence = function() 
 return [[
-N First Step |N|This is the first step in your new guide. A guide must always have at least one step. Delete this one when you add your own!|
+N First Step |QID|1|N|This is the first step in your new guide. A guide must always have at least one step. Delete this one when you add your own!|
 ]] end,
 		nextGID = nextGIDvalue,
 	})
@@ -61,9 +63,11 @@ function WoWPro_Recorder:RegisterEvents()
 	
 	for _, event in pairs(WoWPro_Recorder.events) do
 		WoWPro.RecorderFrame:RegisterEvent(event)
+		WoWPro:dbp(event.." event registered")
 	end
 
 	local function eventHandler(self, event, ...)
+		WoWPro:dbp(event.." event fired.")
 		if WoWPro_Recorder.status == "STOP" then return end
 		
 		local x, y = GetPlayerMapPosition("player")
@@ -79,6 +83,7 @@ function WoWPro_Recorder:RegisterEvents()
 		end
 	
 		if event == "CHAT_MSG_SYSTEM" then
+			WoWPro:dbp("CHAT_MSG_SYSTEM detected.")
 			local msg = ...
 			local _, _, loc = msg:find(L["(.*) is now your home."])
 			if loc then
@@ -95,6 +100,7 @@ function WoWPro_Recorder:RegisterEvents()
 			end	
 			WoWPro_Leveling:AutoCompleteSetHearth(...)
 		elseif event == "PLAYER_LEVEL_UP" then
+			WoWPro:dbp("PLAYER_LEVEL_UP detected.")
 			local newLevel = ...
 			local stepInfo = {
 				action = "L",
@@ -107,6 +113,7 @@ function WoWPro_Recorder:RegisterEvents()
 			WoWPro_Recorder:AddStep(stepInfo)
 			WoWPro_Leveling:AutoCompleteLevel(newLevel)
 		elseif event == "UI_INFO_MESSAGE" then
+			WoWPro:dbp("UI_INFO_MESSAGE detected.")
 			if ... == ERR_NEWTAXIPATH then
 				local stepInfo = {
 					action = "f",
@@ -121,6 +128,7 @@ function WoWPro_Recorder:RegisterEvents()
 			end
 			WoWPro_Leveling:AutoCompleteGetFP(...)
 		elseif event == "QUEST_LOG_UPDATE" then
+			WoWPro:dbp("QUEST_LOG_UPDATE detected.")
 			WoWPro_Leveling:PopulateQuestLog()
 			--if it's the first call (on log in), all quests can show up as new, so need to end early --
 			local endEarly
@@ -155,6 +163,7 @@ function WoWPro_Recorder:RegisterEvents()
 					zone = zonetag,
 					class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
 				}
+				WoWPro:dbp("Turning in quest "..stepInfo.QID)
 				WoWPro_Recorder:AddStep(stepInfo)
 				WoWPro_Leveling:AutoCompleteQuestUpdate()
 			else
@@ -194,66 +203,106 @@ function WoWPro_Recorder:RegisterEvents()
 	
 end
 
-function WoWPro_Recorder:AddStep(stepInfo)
+function WoWPro_Recorder:AddStep(stepInfo,position)
+	local pos = position or WoWPro.stepcount
 	for tag,value in pairs(stepInfo) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
-		table.insert(WoWPro[tag], WoWPro.stepcount+1, value)
-		print("Adding tag "..tag.." at position "..WoWPro.stepcount+1)
+		table.insert(WoWPro[tag], pos+1, value)
+		print("Adding tag "..tag.." at position "..pos+1)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	WoWPro:UpdateGuide()
 end
 
+function WoWPro_Recorder:RemoveStep(position)
+	local pos = position or WoWPro.stepcount
+	for i,tag in pairs(WoWPro_Leveling.Tags) do 
+		if not WoWPro[tag] then WoWPro[tag] = {} end
+		table.remove(WoWPro[tag], pos)
+		print("Removing tag "..tag.." at position "..pos)
+	end
+	WoWPro.stepcount = WoWPro.stepcount-1
+	WoWPro:UpdateGuide()
+end
+
 function WoWPro_Recorder:SaveGuide()
 
-	local guideString = "WoWPro_Leveling:RegisterGuide('"
-		..WoWPro_Recorder.CurrentGuide.GID.."', '"
-		..WoWPro_Recorder.CurrentGuide.Zone.."', '"
-		..WoWPro_Recorder.CurrentGuide.Author.."', '"
-		..WoWPro_Recorder.CurrentGuide.StartLvl.."', '"
-		..WoWPro_Recorder.CurrentGuide.EndLvl.."', '"
-		..WoWPro_Recorder.CurrentGuide.NextGID.."', '"
+	local GID = WoWProDB.char.currentguide
+	
+	local header = "WoWPro_Leveling:RegisterGuide('"
+		..GID.."', '"
+		..WoWPro.loadedguide["zone"].."', '"
+		..WoWPro.loadedguide["author"].."', '"
+		..WoWPro.loadedguide["startlevel"].."', '"
+		..WoWPro.loadedguide["endlevel"].."', '"
+		..WoWPro.loadedguide["nextGID"].."', '"
 		..UnitFactionGroup("player").."', function() \nreturn [[\n"
+		
+	local sequence = ""
 		
 	function addTag(line, tag, value)
 		line = line..tag.."|"
 		if value then
 			line = line..value.."|"
 		end
+		return line
 	end
 	
 	for i,action in pairs(WoWPro.action) do
+	
+		sequence = sequence.."\n"
+			..action.." "
+			..WoWPro.step[i].."|"
 		
-		guideString = guideString.."/n"..action.." "..WoWPro.step[i].."|QID"..WoWPro.QID[i].."|"
-		
-		if WoWPro.optional[i] then addTag(guideString, "O") end
-		if WoWPro.sticky[i] then addTag(guideString, "S") end
-		if WoWPro.unsticky[i] then addTag(guideString, "US") end
-		if WoWPro.rank[i] then addTag(guideString, "RANK", WoWPro.rank[i]) end
-		if WoWPro.noncombat[i] then addTag(guideString, "NC") end
-		if WoWPro.level[i] then addTag(guideString, "LVL", WoWPro.level[i]) end
-		if WoWPro.prof[i] then addTag(guideString, "P", WoWPro.prof[i]) end
-		if WoWPro.waypcomplete[i] == 1 then addTag(guideString, "CC")
-		elseif WoWPro.waypcomplete[i] == 2 then addTag(guideString, "CS") end
-		if WoWPro.prereq[i] then addTag(guideString, "PRE", WoWPro.prereq[i]) end
-		if WoWPro.leadin[i] then addTag(guideString, "LEAD", WoWPro.leadin[i]) end
-		if WoWPro.use[i] then addTag(guideString, "U", WoWPro.use[i]) end
+		if WoWPro.QID[i] then sequence = addTag(sequence, "QID", WoWPro.QID[i]) end
+		if WoWPro.optional[i] then sequence = addTag(sequence, "O") end
+		if WoWPro.sticky[i] then sequence = addTag(sequence, "S") end
+		if WoWPro.unsticky[i] then sequence = addTag(sequence, "US") end
+		if WoWPro.rank[i] then sequence = addTag(sequence, "RANK", WoWPro.rank[i]) end
+		if WoWPro.noncombat[i] then sequence = addTag(sequence, "NC") end
+		if WoWPro.level[i] then sequence = addTag(sequence, "LVL", WoWPro.level[i]) end
+		if WoWPro.prof[i] then sequence = addTag(sequence, "P", WoWPro.prof[i]) end
+		if WoWPro.waypcomplete[i] == 1 then sequence = addTag(sequence, "CC")
+		elseif WoWPro.waypcomplete[i] == 2 then sequence = addTag(sequence, "CS") end
+		if WoWPro.prereq[i] then sequence = addTag(sequence, "PRE", WoWPro.prereq[i]) end
+		if WoWPro.leadin[i] then sequence = addTag(sequence, "LEAD", WoWPro.leadin[i]) end
+		if WoWPro.use[i] then sequence = addTag(sequence, "U", WoWPro.use[i]) end
 		if WoWPro.lootitem[i] then
-			guideString = guideString.."L|"..WoWPro.lootitem[i]
-			if WoWPro.lootqty[i] > 1 then
-				guideString = guideString.." "..WoWPro.lootqty[i].."|"
+			sequence = sequence.."L|"..WoWPro.lootitem[i]
+			if WoWPro.lootqty[i] > tostring(1) then
+				sequence = sequence.." "..WoWPro.lootqty[i].."|"
 			else
-				guideString = guideString.."|"
+				sequence = sequence.."|"
 			end
 		end
-		if WoWPro.target[i] then addTag(guideString, "T", WoWPro.target[i]) end
-		if WoWPro.questtext[i] then addTag(guideString, "QO", WoWPro.questtext[i]) end
-		if WoWPro.map[i] then addTag(guideString, "M", WoWPro.map[i]) end
-		if WoWPro.zone[i] then addTag(guideString, "Z", WoWPro.zone[i]) end
-		if WoWPro.note[i] then addTag(guideString, "N", WoWPro.note[i]) end
-	
+		if WoWPro.target[i] then sequence = addTag(sequence, "T", WoWPro.target[i]) end
+		if WoWPro.questtext[i] then sequence = addTag(sequence, "QO", WoWPro.questtext[i]) end
+		if WoWPro.map[i] then sequence = addTag(sequence, "M", WoWPro.map[i]) end
+		if WoWPro.zone[i] then sequence = addTag(sequence, "Z", WoWPro.zone[i]) end
+		if WoWPro.note[i] then sequence = addTag(sequence, "N", WoWPro.note[i]) end
 	end
 	
-	WoWPro_RecorderDB[WoWPro_Recorder.CurrentGuide.GID] = guideString
+	local guideString = header..sequence.."\n]]"
 	
+	-- Save Guide Dialog --
+	config:RegisterOptionsTable("WoWPro Recorder - Save Guide", {
+		name = "Save Guide",
+		type = "group",
+		args = {
+			guidetype = {
+				order = 0,
+				type = "input",
+				multiline = true,
+				name = "Copy the following and paste it into a guide file:",
+				desc = "",
+				width = "full",
+				get = function(info)
+						return guideString:trim():gsub("|N", "||N")
+					end,
+			},
+		},
+	})
+	dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 500, 200)
+	dialog:Open("WoWPro Recorder - Save Guide", WoWPro.DialogFrame)
+
 end

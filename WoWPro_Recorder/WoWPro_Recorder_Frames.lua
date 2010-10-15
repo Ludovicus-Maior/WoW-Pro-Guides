@@ -38,7 +38,7 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	recordtext:SetPoint("LEFT", WoWPro.RecorderFrame, "LEFT", 6, 0)
 	recordtext:SetPoint("RIGHT", WoWPro.RecorderFrame, "LEFT", 37, 0)
 	recordtext:SetJustifyH("LEFT")
-	WoWPro_Recorder.status = WoWPro_Recorder.status or "STOP"
+	WoWPro_Recorder.status = WoWPro_Recorder.status or "REC"
 	recordtext:SetText(WoWPro_Recorder.status)
 	WoWPro.RecordText = recordtext
 
@@ -52,8 +52,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	-- Scripts --
 	WoWPro.RecordButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
-			WoWPro_RecorderDB.status = "REC"
-			WoWPro.RecordText:SetText(WoWPro_RecorderDB.status)
+			WoWPro_Recorder.status = "REC"
+			WoWPro.RecordText:SetText(WoWPro_Recorder.status)
 		end
 	end) 
 	
@@ -84,6 +84,7 @@ function WoWPro_Recorder:CreateRecorderFrame()
 		if button == "LeftButton" then
 		end
 	end)  
+	WoWPro.AddButton:Hide()
 
 	-- SubtractButton --
 	local subtractbutton = CreateFrame("Button", "SubtractButton", WoWPro.RecorderFrame)
@@ -95,6 +96,7 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	-- Scripts --
 	WoWPro.SubtractButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
+			WoWPro_Recorder:RemoveStep()
 		end
 	end)  
 
@@ -110,6 +112,7 @@ function WoWPro_Recorder:CreateRecorderFrame()
 		if button == "LeftButton" then
 		end
 	end)  
+	WoWPro.EditButton:Hide()
 
 	-- NoteButton --
 	local notebutton = CreateFrame("Button", "NoteButton", WoWPro.RecorderFrame)
@@ -122,7 +125,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	WoWPro.NoteButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
 		end
-	end)   
+	end)  
+	WoWPro.NoteButton:Hide()	
 
 	-- NewButton --
 	local newbutton = CreateFrame("Button", "NewButton", WoWPro.RecorderFrame)
@@ -149,7 +153,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	WoWPro.OpenButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
 		end
-	end)  
+	end) 
+	WoWPro.OpenButton:Hide()
 
 	-- SaveButton --
 	local savebutton = CreateFrame("Button", "SaveButton", WoWPro.RecorderFrame)
@@ -161,10 +166,9 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	-- Scripts --
 	WoWPro.SaveButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
-			WoWPro_RecorderDB[WoWPro_Recorder.CurrentGuide.GID] = ""
 			WoWPro_Recorder:SaveGuide()
 		end
-	end)  
+	end) 
 
 	-- DeleteButton --
 	local deletebutton = CreateFrame("Button", "DeleteButton", WoWPro.RecorderFrame)
@@ -177,7 +181,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	WoWPro.DeleteButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
 		end
-	end) 
+	end)
+	WoWPro.DeleteButton:Hide() 
 	
 end
 
@@ -338,4 +343,3 @@ config:RegisterOptionsTable("WoWPro Recorder - New Guide - Leveling", {
 	},
 })
 dialog:SetDefaultSize("WoWPro Recorder - New Guide - Leveling", 375, 300)
-
