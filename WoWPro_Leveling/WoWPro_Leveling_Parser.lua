@@ -321,7 +321,7 @@ function WoWPro_Leveling:LoadGuide()
 	
 	collectgarbage("collect")
 		
-	populateQuestLog() --Calling this will populate our quest log table for use here
+	WoWPro_Leveling:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
 	if WoWProDB.char.guide then
 		for i=1, WoWPro.stepcount do
@@ -662,7 +662,7 @@ function WoWPro_Leveling:EventHandler(self, event, ...)
 		WoWPro_Leveling:AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
-		populateQuestLog(...)
+		WoWPro_Leveling:PopulateQuestLog(...)
 		WoWPro_Leveling:AutoCompleteQuestUpdate(...)
 		WoWPro_Leveling:UpdateQuestTracker()
 	end	
@@ -688,7 +688,7 @@ function WoWPro_Leveling:AutoCompleteGetFP(...)
 end
 
 -- Auto-Complete: Quest Update --
-function populateQuestLog()
+function WoWPro_Leveling:PopulateQuestLog()
 	if not WoWPro.action then return end -- Not updating if there is no guide loaded.
 	
 	WoWPro.oldQuests = WoWPro.QuestLog or {}
