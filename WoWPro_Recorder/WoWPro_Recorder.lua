@@ -228,7 +228,7 @@ function WoWPro_Recorder:AddStep(stepInfo,position)
 	for tag,value in pairs(stepInfo) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
 		table.insert(WoWPro[tag], pos+1, value)
-		print("Adding tag "..tag.." at position "..pos+1)
+		WoWPro:dbp("Adding tag "..tag.." at position "..pos+1)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	WoWPro:UpdateGuide()
@@ -239,7 +239,7 @@ function WoWPro_Recorder:RemoveStep(position)
 	for i,tag in pairs(WoWPro_Leveling.Tags) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
 		table.remove(WoWPro[tag], pos)
-		print("Removing tag "..tag.." at position "..pos)
+		WoWPro:dbp("Removing tag "..tag.." at position "..pos)
 	end
 	WoWPro.stepcount = WoWPro.stepcount-1
 	WoWPro:UpdateGuide()
@@ -302,7 +302,7 @@ function WoWPro_Recorder:SaveGuide()
 		if WoWPro.note[i] then sequence = addTag(sequence, "N", WoWPro.note[i]) end
 	end
 	
-	local guideString = header..sequence.."\n]]"
+	local guideString = header..sequence.."\n]]\n\nend)"
 	
 	WoWPro_RecorderDB[GID] = {
 		guidetype = "Leveling",
