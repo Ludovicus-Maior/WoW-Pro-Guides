@@ -5,14 +5,10 @@
 local L = WoWPro_Locale
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
-WoWPro.debugmode = false
+WoWPro.Version = GetAddOnMetadata("WoWPro", "Version")
 
-function WoWPro:dbp(message)
-	if WoWPro.debugmode then
-		print("WoW-Pro Debug: "..message)
-	end
-end
+_G["BINDING_NAME_CLICK WoWPro_ItemButton:LeftButton"] = "Use quest item"
+BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
 
 local defaults = { profile = {
 	enable = true,
@@ -118,7 +114,7 @@ function WoWPro:OnEnable()
 	WoWPro:UpdateGuide()
 	WoWPro:MapPoint()
 	WoWPro:CustomizeFrames()
-	
+	SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_ItemButton:LeftButton")
 end	
 
 function WoWPro:OnDisable()

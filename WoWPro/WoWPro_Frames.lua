@@ -119,7 +119,7 @@ end
 function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do
 		-- Setting color and texture for sticky steps --
-		if WoWPro.sticky and WoWPro.sticky[row.index] then
+		if WoWPro.stickies and WoWPro.stickies[row.index] then
 			row:SetBackdrop( {
 				bgFile = WoWProDB.profile.stickytexture,
 				tile = true, tileSize = 16
@@ -181,7 +181,7 @@ function WoWPro.RowSizeSet()
 		
 		-- Setting the note frame size correctly, setting up mouseover notes --
 		local newh, noteh, trackh
-		if WoWProDB.profile.mousenotes and (WoWPro.note[row.index] or (WoWPro.map[row.index] and WoWProDB.profile.showcoords)) then
+		if WoWProDB.profile.mousenotes and (WoWPro.notes[row.index] or (WoWPro.maps[row.index] and WoWProDB.profile.showcoords)) then
 			noteh = 1
 			row.note:Hide()
 			WoWPro.mousenotes[i].note:SetText(row.note:GetText())
@@ -507,6 +507,7 @@ end
 -- Rows to be populated by individual addons --
 function WoWPro:CreateRows()
 	WoWPro.rows = {}
+	local current = true
 	for i=1,15 do
 		local row = CreateFrame("Button", nil, WoWPro.GuideFrame)
 		row:SetBackdrop( {
@@ -532,11 +533,13 @@ function WoWPro:CreateRows()
 		row.step = WoWPro:CreateStep(row, row.action)
 		row.note = WoWPro:CreateNote(row, row.action)
 		row.track = WoWPro:CreateTrack(row, row.action)
-		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row)
-		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row)
+		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row, current)
+		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, current)
 		
-		WoWPro.rows[i] = row	
+		WoWPro.rows[i] = row
+		current = false	
 	end
+	
 end
 
 -- Mouseover Notes individual addons --
@@ -635,7 +638,7 @@ function WoWPro:CreateSkipStepsDialog()
 	WoWPro.SkipStepsCancelButton = button2
 	
 	function WoWPro:SkipStepDialogCall(index, steplist)
-		WoWPro.SkipStepsDialogText:SetText("Skipping the step "..WoWPro.step[index].." will also cause the following steps to skip: \n\n"
+		WoWPro.SkipStepsDialogText:SetText("Skipping the step "..WoWPro.steps[index].." will also cause the following steps to skip: \n\n"
 			..strtrim(steplist))
 		WoWPro.SkipStepsDialog:SetHeight(120+WoWPro.SkipStepsDialogText:GetHeight())
 		WoWPro.SkipStepsCancelButton:SetScript("OnClick", function(self, button)
@@ -734,7 +737,7 @@ function WoWPro:CreateDropdownMenu()
 				if not WoWProDB.char.currentguide or WoWProDB.char.currentguide == "NilGuide" then return end
 				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
 				for j = 1,WoWPro.stepcount do 
-					if WoWPro.QID[j] then WoWProDB.char.skippedQIDs[WoWPro.QID[j]] = nil end
+					if WoWPro.QIDs[j] then WoWProDB.char.skippedQIDs[WoWPro.QIDs[j]] = nil end
 				end
 				WoWPro:LoadGuide()
 			end} )

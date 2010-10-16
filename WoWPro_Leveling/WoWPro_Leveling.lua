@@ -21,11 +21,6 @@ function WoWPro_Leveling:OnEnable()
 	
 	-- Loading Initial Guide --
 	local locClass, engClass = UnitClass("player")
-	local guideExists = false
-	for i, guideInfo in pairs(WoWPro.GuideList) do
-		if guideInfo["GID"] == WoWProDB.char.currentguide then guideExists = true end
-	end
-	if not guideExists then WoWProDB.char.currentguide = nil end
 	if not WoWProDB.char.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
 			Orc = "ZerDur0112", 
@@ -79,7 +74,7 @@ end
 
 -- Guide Registration Function --
 function WoWPro_Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, endlevelvalue, nextGIDvalue, factionname, sequencevalue)
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
+	if factionname and factionname ~= myUFG and factionname ~= "Neutral"	then return end
 	table.insert(WoWPro.GuideList, {
 		GID = GIDvalue,
 		guidetype = "Leveling",

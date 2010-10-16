@@ -262,7 +262,6 @@ local function findBlizzCoords(questId)
 end
 
 function WoWPro:MapPoint(row)
-	if not WoWPro.loadedguide then return end
 	local GID = WoWProDB.char.currentguide
 	if GID == "NilGuide" then return end
 
@@ -275,11 +274,11 @@ function WoWPro:MapPoint(row)
 	else 
 		i = WoWPro_Leveling:NextStepNotSticky(WoWPro.ActiveStep)
 	end
-	local coords; if WoWPro.map then coords = WoWPro.map[i] else coords = nil end
-	local desc = WoWPro.step[i]
+	local coords; if WoWPro.maps then coords = WoWPro.maps[i] else coords = nil end
+	local desc = WoWPro.steps[i]
 	local zone
 	if row then zone = WoWPro.rows[row].zone else 
-		zone = WoWPro.zone[i] or strtrim(strsplit("(",(strsplit("-",WoWPro.loadedguide["zone"]))))
+		zone = WoWPro.zones[i] or strtrim(strsplit("(",(strsplit("-",WoWPro.loadedguide["zone"]))))
 	end 
 	autoarrival = WoWPro.waypcomplete[i]
 	
@@ -287,19 +286,19 @@ function WoWPro:MapPoint(row)
 	if zone and BL[zone] then zone = BL[zone] end
 	
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
-	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
+	if (WoWPro.actions[i]=="T" or WoWPro.actions[i]=="C") and WoWPro.QIDs and WoWPro.QIDs[i] and not coords then
 		QuestMapUpdateAllQuests()
 		QuestPOIUpdateIcons()
 		WorldMapFrame_UpdateQuests()
-		local x, y = findBlizzCoords(WoWPro.QID[i])
+		local x, y = findBlizzCoords(WoWPro.QIDs[i])
 		if x and y then coords = tostring(x)..","..tostring(y) end
 	end
 	
 	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
-	if LightHeaded and WoWPro.QID and WoWPro.QID[i] and not coords then
+	if LightHeaded and WoWPro.QIDs and WoWPro.QIDs[i] and not coords then
 		local npcid, npcname, stype
-		if WoWPro.action[i]=="A" then _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i])
-		else _, _, _, _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i]) end
+		if WoWPro.actions[i]=="A" then _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QIDs[i])
+		else _, _, _, _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QIDs[i]) end
 		if stype == "npc" then
 			local data = LightHeaded:LoadNPCData(tonumber(npcid))
 			if not data then return end
