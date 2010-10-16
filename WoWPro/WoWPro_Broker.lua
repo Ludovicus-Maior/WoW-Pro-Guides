@@ -6,17 +6,21 @@ local L = WoWPro_Locale
 local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 
 -- Guide Load --
-function WoWPro:LoadGuide()
+function WoWPro:LoadGuide(guideID)
+	if guideID then WoWProDB.char.currentguide = guideID end
+	WoWPro:dbp("Loading guide "..WoWProDB.char.currentguide)
 
 	-- Hiding Next Guide Dialog if it is shown --
 	WoWPro.NextGuideDialog:Hide()
 	
 	-- Clearing tables --
-	WoWPro.steps, WoWPro.actions, WoWPro.notes,  WoWPro.QIDs,  WoWPro.maps, 
-		WoWPro.stickies, WoWPro.unstickies, WoWPro.uses, WoWPro.zones, WoWPro.lootitem, 
-		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickiescount, WoWPro.optional, 
-		WoWPro.prereq, WoWPro.optionalcount
-		= {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+	WoWPro.step, WoWPro.action, WoWPro.note,  WoWPro.QID,  WoWPro.map, 
+		WoWPro.sticky, WoWPro.unsticky, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
+		WoWPro.lootqty, WoWPro.questtext, WoWPro.optional, 
+		WoWPro.prereq
+		= {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+		
+	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
 
 	-- Locating the correct guide --
 	GID = WoWProDB.char.currentguide
@@ -31,6 +35,7 @@ function WoWPro:LoadGuide()
 	if not WoWPro.GuideList[guideindex] then return end
 	WoWPro.loadedguide = WoWPro.GuideList[guideindex]
 	local guidetype = WoWPro.loadedguide["guidetype"]
+	WoWPro:dbp("Found guide info of type "..guidetype)
 	
 	-- Creating a new entry if this guide does not have one
 	WoWProDB.char.guide[GID] = WoWProDB.char.guide[GID] or {}
@@ -57,6 +62,9 @@ function WoWPro:UpdateGuide(offset)
 	WoWPro.ActiveStep = WoWPro_Leveling:NextStep()
 	WoWPro.Offset = offset or WoWPro.ActiveStep
 	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
+	if WoWPro.ShownRows then 
+		WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows+2))
+	end
 	
 	-- Setting module-specific updates --
 	if WoWPro.loadedguide["guidetype"] == "Leveling" and WoWPro_Leveling:IsEnabled() then
@@ -88,18 +96,18 @@ function WoWPro:UpdateGuide(offset)
 	local p = 0
 	for j = 1,WoWPro.stepcount do
 		if ( WoWProDB.char.guide[GID].completion[j] or WoWProDB.char.guide[GID].skipped[j] )
-		and not WoWPro.stickies[j] 
+		and not WoWPro.sticky[j] 
 		and not WoWPro.optional[j] then 
 			p = p + 1 
 		end
 	end
 	WoWProDB.char.guide[GID].progress = p
-	WoWProDB.char.guide[GID].total = WoWPro.stepcount - WoWPro.stickiescount - WoWPro.optionalcount
+	WoWProDB.char.guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
 	
 	WoWPro.TitleText:SetText(WoWPro.loadedguide["zone"].."   ("..WoWProDB.char.guide[GID].progress.."/"..WoWProDB.char.guide[GID].total..")")
 	
 	-- If the guide is complete, loading the next guide --
-	if WoWProDB.char.guide[GID].progress == WoWProDB.char.guide[GID].total then
+	if WoWProDB.char.guide[GID].progress == WoWProDB.char.guide[GID].total and not WoWPro_Recorder then
 		if WoWProDB.profile.autoload then
 			WoWProDB.char.currentguide = WoWPro.loadedguide["nextGID"]
 			WoWPro:LoadGuide()

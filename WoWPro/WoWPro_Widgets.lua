@@ -13,6 +13,7 @@ function WoWPro:CreateCheck(parent)
 	check:SetHighlightTexture("Interface\\Buttons\\UI-CheckBox-Highlight")
 	check:SetDisabledCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 	check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+	check:Hide()
 	
 	return check
 end
@@ -73,6 +74,7 @@ function WoWPro:CreateItemButton(parent)
 	itemicon:SetAllPoints(itembutton)
 
 	itembutton:RegisterForClicks("anyUp")
+	itembutton:Hide()
 	
 	return itembutton, itemicon, cooldown
 end
@@ -92,6 +94,7 @@ function WoWPro:CreateTargetButton(parent)
 	targeticon:SetAllPoints(targetbutton)
 
 	targetbutton:RegisterForClicks("anyUp")
+	targetbutton:Hide()
 	
 	return targetbutton, targeticon
 end
