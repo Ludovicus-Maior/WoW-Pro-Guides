@@ -321,7 +321,7 @@ function WoWPro_Leveling:LoadGuide()
 	
 	collectgarbage("collect")
 		
-	WoWPro_Leveling:PopulateQuestLog() --Calling this will populate our quest log table for use here
+	populateQuestLog() --Calling this will populate our quest log table for use here
 	
 	if WoWProDB.char.guide then
 		for i=1, WoWPro.stepcount do
@@ -662,7 +662,7 @@ function WoWPro_Leveling:EventHandler(self, event, ...)
 		WoWPro_Leveling:AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
-		WoWPro_Leveling:PopulateQuestLog(...)
+		populateQuestLog(...)
 		WoWPro_Leveling:AutoCompleteQuestUpdate(...)
 		WoWPro_Leveling:UpdateQuestTracker()
 	end	
@@ -688,7 +688,7 @@ function WoWPro_Leveling:AutoCompleteGetFP(...)
 end
 
 -- Auto-Complete: Quest Update --
-function WoWPro_Leveling:PopulateQuestLog()
+function populateQuestLog()
 	if not WoWPro.action then return end -- Not updating if there is no guide loaded.
 	
 	WoWPro.oldQuests = WoWPro.QuestLog or {}
@@ -697,7 +697,8 @@ function WoWPro_Leveling:PopulateQuestLog()
 	-- Generating the Quest Log table --
 	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
 	local i, currentHeader = 1, "None"
-	while GetQuestLogTitle(i) do
+	local max, entries = GetNumQuestLogEntries()
+	for i=1,tonumber(entries) do
 		local questTitle, level, questTag, suggestedGroup, isHeader, 
 			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
 		local leaderBoard
@@ -722,9 +723,7 @@ function WoWPro_Leveling:PopulateQuestLog()
 				index = i
 			}
 		end
-		i = i + 1
 	end
-	
 	if WoWPro.oldQuests == {} then return end
 
 	-- Generating table WoWPro.newQuest --
@@ -740,7 +739,6 @@ function WoWPro_Leveling:PopulateQuestLog()
 end
 
 function WoWPro_Leveling:AutoCompleteQuestUpdate()
-
 	local GID = WoWProDB.char.currentguide
 	if GID == "NilGuide" then return end
 
