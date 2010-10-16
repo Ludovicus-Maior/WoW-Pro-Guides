@@ -76,7 +76,7 @@
   <Script file="002_77_78_Scoot_ZulDrak.lua"/>
   <Script file="002_78_79_Scoot_Sholazar_Basin.lua"/>
   <Script file="002_79_80_Scoot_The_Storm_Peaks.lua"/>
-  <Script file="002_80_80_Scoot_Icecrown.lua"/>
+  <Script file="002_80_80_Scoot_Icecrown.lua"/>  <Script file="002_80_82_Arixan_Vashjir.lua"/>
   <Script file="003_55_58_Jame_Scarlet_Enclave.lua"/>
   <Script file="003_58_58_Jame_Western_Plaguelands.lua"/>
   <Script file="003_58_59_Jame_Eastern_Plaguelands.lua"/>

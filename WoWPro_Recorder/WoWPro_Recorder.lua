@@ -1,12 +1,19 @@
 -----------------------------------
 --      WoWPro_Recorder.lua      --
 -----------------------------------
+print("Running file WoWPro_Recorder.lua")
 
 local L = WoWPro_Locale
 local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
 WoWPro_Recorder = WoWPro:NewModule("WoWPro Recorder")
+
+if WoWPro_Recorder == nil then
+	print("WoWPro_Recorder is nil")
+else
+	print("WoWPro_Recorder is NOT nil")
+end
 	
 
 function WoWPro_Recorder:OnInitialize()
@@ -151,12 +158,10 @@ function WoWPro_Recorder:RegisterEvents()
 			WoWPro:dbp("QUEST_LOG_UPDATE detected.")
 			WoWPro_Leveling:PopulateQuestLog()
 			--if it's the first call (on log in), all quests can show up as new, so need to end early --
-			local endEarly
 			if not WoWPro.AfterFirstCall then 
 				WoWPro.AfterFirstCall = true
-				endEarly = true
-			else endEarly = false end
-			if endEarly then return end
+				return
+			end
 			if WoWPro.newQuest then
 				local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
 				local stepInfo = {
@@ -164,10 +169,10 @@ function WoWPro_Recorder:RegisterEvents()
 					step = questInfo.title,
 					QID = WoWPro.newQuest,
 					map = string.format("%.2f,%.2f", x*100,y*100),
-					note = "From "..GetUnitName("target")..".",
 					zone = zonetag,
 					class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
 				}
+				if GetUnitName("target") then stepInfo.note = "From "..GetUnitName("target").."."
 				WoWPro_Recorder.lastStep = WoWPro.newQuest
 				WoWPro:dbp("Adding new quest "..WoWPro.newQuest)
 				WoWPro_Recorder:AddStep(stepInfo)
