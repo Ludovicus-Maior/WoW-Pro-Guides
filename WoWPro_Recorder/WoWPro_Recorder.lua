@@ -1,20 +1,12 @@
 -----------------------------------
 --      WoWPro_Recorder.lua      --
 -----------------------------------
-print("Running file WoWPro_Recorder.lua")
 
 local L = WoWPro_Locale
 local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
 WoWPro_Recorder = WoWPro:NewModule("WoWPro Recorder")
-
-if WoWPro_Recorder == nil then
-	print("WoWPro_Recorder is nil")
-else
-	print("WoWPro_Recorder is NOT nil")
-end
-	
 
 function WoWPro_Recorder:OnInitialize()
 	
@@ -95,7 +87,7 @@ function WoWPro_Recorder:RegisterEvents()
 
 	local function eventHandler(self, event, ...)
 		WoWPro:dbp(event.." event fired.")
-		if WoWPro_Recorder.status == "STOP" then return end
+		if WoWPro_Recorder.status == "STOP" or not WoWPro.loadedguide then return end
 		
 		local x, y = GetPlayerMapPosition("player")
 		local zonetag
