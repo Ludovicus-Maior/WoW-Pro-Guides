@@ -54,7 +54,8 @@ end
 
 -- Guide Update --
 function WoWPro:UpdateGuide(offset)
-	
+
+	if WoWPro.combat then return end
 	if WoWProDB.char.currentguide == "NilGuide" then WoWPro:LoadNilGuide(); return end
 	if not WoWPro.loadedguide then return end
 	
@@ -150,7 +151,7 @@ function WoWPro:RegisterEvents()
 		end
 		
 		-- Updating party-dependant options --
-		if event == "PARTY_MEMBERS_CHANGED" then
+		if event == "PARTY_MEMBERS_CHANGED" and not WoWPro.combat then
 			WoWPro:UpdateGuide() 
 		end
 
