@@ -409,7 +409,7 @@ F Wyrmrest Temple |QID|12146|
 T Disturbing Implications |QID|12146| |N|Turn in to Aurastrasza, who resides at the bottom floor of Wyrmrest Temple.|M|60.0,55.1|
 A One of a Kind |QID|12148|
 
-T Mystery of the Infinite |N|Go to Tariolastrasz and ask him to fly you to the top floor.|
+T Mystery of the Infinite |QID|12470|N|Go to Tariolastrasz and ask him to fly you to the top floor.|
 T Audience With The Dragon Queen |QID|12495|M|59.8,54.7|
 A Galakrond and the Scourge |QID|12497|M|59.8,54.7|
 
