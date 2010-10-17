@@ -1,10 +1,9 @@
------------------------------------
---      WoWPro_Recorder.lua      --
------------------------------------
+message("WoWPro_Recorder.lua Loaded")
 
 local L = WoWPro_Locale
 local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
+
 
 WoWPro_Recorder = WoWPro:NewModule("WoWPro Recorder")
 
