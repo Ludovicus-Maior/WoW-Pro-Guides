@@ -311,7 +311,7 @@ function WoWPro_Leveling:LoadGuide()
 	local GID = WoWProDB.char.currentguide
 
 	-- Parsing quests --
-	local sequence = WoWPro.loadedguide["sequence"]
+	local sequence = WoWPro.loadedguide.sequence
 	WoWPro.step, WoWPro.action, WoWPro.note,  WoWPro.QID,  WoWPro.map, 
 		WoWPro.sticky, WoWPro.unsticky, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
 		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickycount, WoWPro.optional, 
@@ -697,7 +697,7 @@ function WoWPro_Leveling:PopulateQuestLog()
 	-- Generating the Quest Log table --
 	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
 	local i, currentHeader = 1, "None"
-	local max, entries = GetNumQuestLogEntries()
+	local entries = GetNumQuestLogEntries()
 	for i=1,tonumber(entries) do
 		local questTitle, level, questTag, suggestedGroup, isHeader, 
 			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
