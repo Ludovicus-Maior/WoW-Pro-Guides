@@ -1,9 +1,9 @@
-## Interface: 30300
+## Interface: 40000
 ## Title: WoW-Pro Guides
 ## Notes: Guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
-## Version: 1.5.2
+## Version: 1.6.0
 
 ## X-Category: Compilations
 
