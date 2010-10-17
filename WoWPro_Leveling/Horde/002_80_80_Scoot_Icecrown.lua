@@ -128,11 +128,11 @@ T The Story Thus Far... |QID|12807| |N|Talk to him to get the story. Turn it in 
 f Death's Rise |QID|12810| |N|Get the flight path .|M|19.42,47.78|
 
 A Blood in the Water |QID|12810|
-C Blood in the Water |QID|12810| |N|Go to Onslaught Harbor , jump in the water and kill the sharks. They are all around the Harbor, except on the South. Collect their blood in the Gore Bladder.| |U|M|9.28,40.77|
+C Blood in the Water |QID|12810| |N|Go to Onslaught Harbor , jump in the water and kill the sharks. They are all around the Harbor, except on the South. Collect their blood in the Gore Bladder.|M|9.28,40.77|
 T Blood in the Water |QID|12810| |N|Back to Lord-Commander Arete .|M|19.58,48.18|
 
 A You'll Need a Gryphon |QID|12814|
-C You'll Need a Gryphon |QID|12814| |N|Head back to Onslaught Harbor and kill a Gryphon Rider. Use the Onslaught Gryphon Reigns and fly to Uzo Deathcaller at Death's Rise .| |U|M|19.64,47.87|
+C You'll Need a Gryphon |QID|12814| |N|Head back to Onslaught Harbor and kill a Gryphon Rider. Use the Onslaught Gryphon Reigns and fly to Uzo Deathcaller at Death's Rise .|M|19.64,47.87|
 T You'll Need a Gryphon |QID|12814|
 N Daily Quests |QID|12838| |N|Now you've opened all of the Knights of the Ebon Blade daily quests, here and at The Shadow Vault.|
 
@@ -141,7 +141,7 @@ A No Fly Zone |QID|12815| |N|Uzo Deathcaller |M|19.64,47.87|
 A From Their Corpses, Rise! |QID|12813| |N|Setaal Darkmender .|M|19.68,48.31|
 
 A Intelligence Gathering |QID|12838| |N|Aurochs Grimbane patrols around Death's Rise.|
-C From Their Corpses, Rise! |QID|12813| |N|Go to the beaches in Onslaught Harbor, kill guards and loot them for keys to the chests lying around. Use Darkmender's Tincture on the bodies.| |U|40587|
+C From Their Corpses, Rise! |QID|12813| |N|Go to the beaches in Onslaught Harbor, kill guards and loot them for keys to the chests lying around. Use Darkmender's Tincture on the bodies.|U|40587|
 C Intelligence Gathering |QID|12838| |N|Keep getting keys and opening chests until you complete this.|
 C No Fly Zone |QID|12815| |N|Kill 10 Gryphon Riders. You don't have to use the Bone Gryphon, but if you do here's how.  Put up your Bone Armor, pull with Icy Breath, put the Disease on when they get to melee range, spam Icy Breath until dead. Watch out for the patrols, they will aggro and you can find yourself fighting 4 or 5 of them. I suggest running away if that happens.| |U|40600|
 
