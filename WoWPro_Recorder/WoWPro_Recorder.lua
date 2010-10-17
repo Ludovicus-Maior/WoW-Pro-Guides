@@ -88,7 +88,7 @@ function WoWPro_Recorder:RegisterEvents()
 
 	local function eventHandler(self, event, ...)
 		WoWPro:dbp(event.." event fired.")
-		if WoWPro_Recorder.status == "STOP" then return end
+		if WoWPro_Recorder.status == "STOP" or not WoWPro.loadedguide then return end
 		
 		local x, y = GetPlayerMapPosition("player")
 		local zonetag

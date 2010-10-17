@@ -303,10 +303,10 @@ function WoWPro_Leveling:LoadGuide()
 	local GID = WoWProDB.char.currentguide
 
 	-- Parsing quests --
-	local sequence = WoWPro.loadedguide["sequence"]
-	WoWPro.steps, WoWPro.actions, WoWPro.notes,  WoWPro.QIDs,  WoWPro.maps, 
-		WoWPro.stickies, WoWPro.unstickies, WoWPro.uses, WoWPro.zones, WoWPro.lootitem, 
-		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickiescount, WoWPro.optional, 
+	local sequence = WoWPro.loadedguide.sequence
+	WoWPro.step, WoWPro.action, WoWPro.note,  WoWPro.QID,  WoWPro.map, 
+		WoWPro.sticky, WoWPro.unsticky, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
+		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickycount, WoWPro.optional, 
 		WoWPro.prereq, WoWPro.optionalcount, WoWPro.noncombat, WoWPro.level, WoWPro.leadin,
 		WoWPro.target, WoWPro.prof, WoWPro.rank, WoWPro.waypcomplete
 		= ParseQuests(string.split("\n", sequence()))
@@ -688,8 +688,10 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 	
 	-- Generating the Quest Log table --
 	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
-	local i = 1
-	while GetQuestLogTitle(i) do
+	local i, currentHeader = 1, "None"
+	local entries = GetNumQuestLogEntries()
+	for i=1,tonumber(entries) do
+
 		local questTitle, level, questTag, suggestedGroup, isHeader, 
 			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
 		local leaderBoard
@@ -711,8 +713,8 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 				index = i
 			}
 		end
-		i = i + 1
 	end
+	if WoWPro.oldQuests == {} then return end
 
 	-- Generating table newQuests --
 	for QID, questInfo in pairs(WoWPro.QuestLog) do
@@ -724,6 +726,12 @@ function WoWPro_Leveling:AutoCompleteQuestUpdate()
 		if not WoWPro.QuestLog[QID] then missingQuests[QID] = true end
 	end
 	
+end
+
+function WoWPro_Leveling:AutoCompleteQuestUpdate()
+	local GID = WoWProDB.char.currentguide
+	if GID == "NilGuide" then return end
+
 	if WoWProDB.char.guide then
 		local GID = WoWProDB.char.currentguide
 		for i=1,#WoWPro.actions do
