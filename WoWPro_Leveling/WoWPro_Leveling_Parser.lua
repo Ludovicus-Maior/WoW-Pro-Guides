@@ -697,7 +697,8 @@ function WoWPro_Leveling:PopulateQuestLog()
 	-- Generating the Quest Log table --
 	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
 	local i, currentHeader = 1, "None"
-	while GetQuestLogTitle(i) do
+	local max, entries = GetNumQuestLogEntries()
+	for i=1,tonumber(entries) do
 		local questTitle, level, questTag, suggestedGroup, isHeader, 
 			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
 		local leaderBoard
@@ -722,9 +723,7 @@ function WoWPro_Leveling:PopulateQuestLog()
 				index = i
 			}
 		end
-		i = i + 1
 	end
-	
 	if WoWPro.oldQuests == {} then return end
 
 	-- Generating table WoWPro.newQuest --
@@ -740,7 +739,6 @@ function WoWPro_Leveling:PopulateQuestLog()
 end
 
 function WoWPro_Leveling:AutoCompleteQuestUpdate()
-
 	local GID = WoWProDB.char.currentguide
 	if GID == "NilGuide" then return end
 

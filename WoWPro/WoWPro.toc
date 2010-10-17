@@ -3,7 +3,11 @@
 ## Notes: Guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
+<<<<<<< HEAD
 ## Version: 1.6.0
+=======
+## Version: 1.6.1
+>>>>>>> WoW-Pro-Guides/master
 
 ## X-Category: Compilations
 
