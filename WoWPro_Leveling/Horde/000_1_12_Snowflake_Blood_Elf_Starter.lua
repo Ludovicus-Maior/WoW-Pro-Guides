@@ -3,7 +3,7 @@ return [[
 A Reclaiming Sunstrider Isle |QID|8325|R|Blood Elf|N|Magistrix Erona|M|38.0,21.0|
 
 C Mana Wyrm |QID|8325|R|Blood Elf|N|Go down the big stairs and you should see plenty of Mana Wyrms.|M|37.60,22.00|
-L Level 2|LVL|2|N|Kill mana wyrms until you ding.|
+L Level 2|LVL|2|N|Kill mana wyrms until you ding.|QID|8326|
 
 T Reclaiming Sunstrider Isle |QID|8325|R|Blood Elf|N|Magistrix Erona|M|38.0,21.0|
 A Unfortunate Measures|QID|8326|R|Blood Elf|M|38.0,21.0|N|Magistrix Erona|

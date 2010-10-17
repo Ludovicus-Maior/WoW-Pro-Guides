@@ -13,6 +13,7 @@ function WoWPro:CreateCheck(parent)
 	check:SetHighlightTexture("Interface\\Buttons\\UI-CheckBox-Highlight")
 	check:SetDisabledCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 	check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+	check:Hide()
 	
 	return check
 end
@@ -56,13 +57,8 @@ function WoWPro:CreateTrack(parent, anchor1)
 end
 
 
-function WoWPro:CreateItemButton(parent, current)
-	local itembutton
-	if current then
-		itembutton = CreateFrame("Button", "WoWPro_ItemButton", parent, "SecureActionButtonTemplate")
-	else
-		itembutton = CreateFrame("Button", nil, parent, "SecureActionButtonTemplate")
-	end
+function WoWPro:CreateItemButton(parent)
+	local itembutton = CreateFrame("Button", nil, parent, "SecureActionButtonTemplate")
 	itembutton:SetAttribute("type", "item")
 	itembutton:SetFrameStrata("LOW")
 	itembutton:SetHeight(20)
@@ -78,18 +74,14 @@ function WoWPro:CreateItemButton(parent, current)
 	itemicon:SetAllPoints(itembutton)
 
 	itembutton:RegisterForClicks("anyUp")
+	itembutton:Hide()
 	
 	return itembutton, itemicon, cooldown
 end
 
 
-function WoWPro:CreateTargetButton(parent, current)
-	local targetbutton
-	if current then
-		targetbutton = CreateFrame("Button", "WoWPro_TargetButton", parent, "SecureActionButtonTemplate")
-	else
-		targetbutton = CreateFrame("Button", nil, parent, "SecureActionButtonTemplate")
-	end
+function WoWPro:CreateTargetButton(parent)
+	local targetbutton = CreateFrame("Button", nil, parent, "SecureActionButtonTemplate")
 	targetbutton:SetAttribute("type", "macro")
 	targetbutton:SetFrameStrata("LOW")
 	targetbutton:SetHeight(20)
@@ -102,6 +94,7 @@ function WoWPro:CreateTargetButton(parent, current)
 	targeticon:SetAllPoints(targetbutton)
 
 	targetbutton:RegisterForClicks("anyUp")
+	targetbutton:Hide()
 	
 	return targetbutton, targeticon
 end
