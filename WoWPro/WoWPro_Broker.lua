@@ -70,8 +70,9 @@ function WoWPro:UpdateGuide(offset)
 	-- Setting module-specific updates --
 	if WoWPro.loadedguide["guidetype"] == "Leveling" and WoWPro_Leveling:IsEnabled() then
 		function WoWPro:RowContentUpdate()
-			WoWPro_Leveling:RowUpdate()
+			local reload = WoWPro_Leveling:RowUpdate() 
 			WoWPro_Leveling:UpdateQuestTracker()
+			return reload
 		end
 	else	
 		function WoWPro:RowContentUpdate() end
