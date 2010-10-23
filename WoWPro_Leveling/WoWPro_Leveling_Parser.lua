@@ -705,7 +705,7 @@ function WoWPro_Leveling:PopulateQuestLog()
 		if isHeader then
 			currentHeader = questTitle
 		else
-			if GetNumQuestLeaderBoards(i) then 
+			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
 				leaderBoard = {} 
 				for j=1,GetNumQuestLeaderBoards(i) do 
 					leaderBoard[j] = GetQuestLogLeaderBoard(j, i)
