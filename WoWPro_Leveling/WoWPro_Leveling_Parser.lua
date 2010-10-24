@@ -601,10 +601,10 @@ function WoWPro_Leveling:RowUpdate()
 		if lootcheck and ( lootitem or action == "B" ) then
 			if not WoWPro.sticky[index] then lootcheck = false end
 			if not lootitem then
-				if GetItemCount(step) > 0 then return WoWPro.CompleteStep(k) end
+				if GetItemCount(step) > 0 and not completion[k] then WoWPro.CompleteStep(k) end
 			end
 			if tonumber(lootqty) ~= nil then lootqtyi = tonumber(lootqty) else lootqtyi = 1 end
-			if GetItemCount(lootitem) >= lootqtyi then return WoWPro.CompleteStep(k) end
+			if GetItemCount(lootitem) >= lootqtyi and not completion[k] then WoWPro.CompleteStep(k) end
 		end
 
 		WoWPro.rows[i] = row
@@ -705,7 +705,7 @@ function WoWPro_Leveling:PopulateQuestLog()
 		if isHeader then
 			currentHeader = questTitle
 		else
-			if GetNumQuestLeaderBoards(i) then 
+			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
 				leaderBoard = {} 
 				for j=1,GetNumQuestLeaderBoards(i) do 
 					leaderBoard[j] = GetQuestLogLeaderBoard(j, i)
