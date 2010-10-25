@@ -10,6 +10,16 @@ WoWPro.debugmode = false
 
 function WoWPro:dbp(message)
 	if WoWPro.debugmode then
+		print("|cffffff00WoW-Pro Debug|r: "..message)
+	end
+end
+
+function WoWPro:Print(message)
+	print("|cffffff00WoW-Pro|r: "..message)
+end
+
+function WoWPro:dbp(message)
+	if WoWPro.debugmode then
 		print("WoW-Pro Debug: "..message)
 	end
 end
@@ -99,7 +109,7 @@ function WoWPro:OnEnable()
 
 	-- Warning if the user is missing TomTom --
 	if not TomTom then
-		print("It looks like you don't have TomTom installed. WoW-Pro's guides won't have their full functionality without it! Download it from www.wowinterface.com.")
+		WoWPro:Print("It looks like you don't have |cff33ff33TomTom|r installed. WoW-Pro's guides won't have their full functionality without it! Download it from www.wowinterface.com.")
 	end
 	
 	-- Modules --
