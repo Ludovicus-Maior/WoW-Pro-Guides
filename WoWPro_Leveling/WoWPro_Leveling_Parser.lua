@@ -382,6 +382,9 @@ function WoWPro_Leveling:RowUpdate()
 	local reload = false
 	local lootcheck = true
 	local k = WoWPro.Offset
+	local itemkb = false
+	local targetkb = false
+	ClearOverrideBindings(WoWPro.MainFrame)
 
 	for i=1,15 do
 		
@@ -558,6 +561,7 @@ function WoWPro_Leveling:RowUpdate()
 				WoWPro.use[k] = use
 			end
 		end
+		
 		if use then
 			row.itembutton:Show() 
 			row.itemicon:SetTexture(GetItemIcon(use))
@@ -576,6 +580,16 @@ function WoWPro_Leveling:RowUpdate()
 				row.cooldown:Show()
 				row.cooldown:SetCooldown(start, duration)
 			else row.cooldown:Hide() end
+			if not itemkb and row.itembutton:IsVisible() then
+				local key1, key2 = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+				if key1 then
+					SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembutton"..i..":LeftButton")
+				end
+				if key2 then
+					SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembutton"..i..":LeftButton")
+				end
+				itemkb = true
+			end
 		else row.itembutton:Hide() end
 		
 		-- Target Button --
@@ -588,6 +602,16 @@ function WoWPro_Leveling:RowUpdate()
 			else
 				row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
 			end 
+			if not targetkb and row.targetbutton:IsVisible() then
+				local key1, key2 = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
+				if key1 then
+					SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbutton"..i..":LeftButton")
+				end
+				if key2 then
+					SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_targetbutton"..i..":LeftButton")
+				end
+				targetkb = true
+			end
 		else
 			row.targetbutton:Hide() 
 		end
