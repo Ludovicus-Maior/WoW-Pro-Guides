@@ -326,7 +326,7 @@ function WoWPro:MapPoint(row)
 	zi, zc = zone and zonei[zone], zone and zonec[zone]
 	if not zi then
 		zi, zc = GetCurrentMapZone(), GetCurrentMapContinent()
-		print("Zone not found. Using current zone")
+		WoWPro:Print("Zone not found. Using current zone")
 	end
 	zone = zone or zonenames[zc][zi]
 

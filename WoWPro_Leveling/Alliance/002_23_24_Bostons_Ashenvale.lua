@@ -23,7 +23,7 @@ A Raene's Cleansing (part 2) |QID|1023|M|20.3,42.3|
 C Raene's Cleansing (part 2) |N|Kill saltspittle murlocs until you get a Glowing Gem. They are all around the pool.| |QID|1023|M|20.30,44.40|
 T Bathran's Hair |QID|1010|M|26.4,38.6|
 A Orendil's Cure |QID|1020|M|26.4,38.6|
-T The Zoram Strand|M|25.57,38.55;27,47;34.7,48.9|
+T The Zoram Strand|M|25.57,38.55;27,47;34.7,48.9|QID|1008|
 A Pridewings of Stonetalon |QID|1134|M|34.7,48.8|
 A Kayneth Stillwind |QID|4581|M|34.7,48.8|
 T Raene's Cleansing (part 2) |QID|1023|M|36.6,49.6|

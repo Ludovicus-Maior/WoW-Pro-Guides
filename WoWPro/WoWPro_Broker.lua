@@ -83,7 +83,7 @@ function WoWPro:UpdateGuide(offset)
 
 	local reload = true
 	-- Reloading until all stickies that need to unsticky have done so --
-	while reload do reload = WoWPro.RowContentUpdate() end
+	while reload do reload = WoWPro:RowContentUpdate() end
 	WoWPro.RowContentUpdate()
 	
 	-- Update content and formatting --
