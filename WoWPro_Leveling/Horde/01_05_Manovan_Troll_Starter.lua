@@ -153,7 +153,7 @@ C No More Mercy |QID|24812|
 
 L Level 5|LVL|5|N|Kill Naga until you are level 5.|
 
-T No More Mercy |QID|24812| |N|Back to Morakki at the Entrance of the Cave.|M|67.93,74.13
+T No More Mercy |QID|24812| |N|Back to Morakki at the Entrance of the Cave.|M|67.93,74.13|
 T Territorial Fetish |QID|24813|
 A An Ancient Enemy |QID|24814|
 
@@ -161,7 +161,10 @@ C An Ancient Enemy|QID|24814|N|You are going to kill an NPC named Zar'jira with 
 
 R Darkspear Hold|QID|24814|N|Speak to Vanira; she will teleport you back to Darkspear Hold.|M|68.17,87.80|
 
-T An Ancient Enemy |QID|24814|N|Vol'jin|M|68.84,88.67
+T An Ancient Enemy |QID|24814|N|Vol'jin|M|68.84,88.67|
+
+
+A Sen'jin Village|QID|25073|M|68.86,88.73|N|From Vol'jin.|
 
 ]]
 end)

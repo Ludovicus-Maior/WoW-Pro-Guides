@@ -205,6 +205,7 @@ function WoWPro_Recorder:RegisterEvents()
 								map = string.format("%.2f,%.2f", x*100,y*100),
 								zone = zonetag,
 								noncombat = nc,
+								use = questInfo.use,
 								class = checkClassQuest(QID,WoWPro.QuestLog)
 							}
 							WoWPro_Recorder:AddStep(stepInfo)
@@ -230,6 +231,7 @@ function WoWPro_Recorder:AddStep(stepInfo,position)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	WoWPro:UpdateGuide()
+	WoWPro_Recorder:SaveGuide()
 end
 
 function WoWPro_Recorder:RemoveStep(position)
@@ -241,9 +243,10 @@ function WoWPro_Recorder:RemoveStep(position)
 	end
 	WoWPro.stepcount = WoWPro.stepcount-1
 	WoWPro:UpdateGuide()
+	WoWPro_Recorder:SaveGuide()
 end
 
-function WoWPro_Recorder:SaveGuide()
+function WoWPro_Recorder:SaveGuide(window)
 
 	local GID = WoWProDB.char.currentguide
 	
@@ -332,6 +335,6 @@ function WoWPro_Recorder:SaveGuide()
 		},
 	})
 	dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 500, 200)
-	dialog:Open("WoWPro Recorder - Save Guide", WoWPro.DialogFrame)
+	if window then dialog:Open("WoWPro Recorder - Save Guide", WoWPro.DialogFrame) end
 
 end
