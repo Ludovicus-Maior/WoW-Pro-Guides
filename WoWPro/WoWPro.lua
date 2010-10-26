@@ -18,12 +18,6 @@ function WoWPro:Print(message)
 	print("|cffffff00WoW-Pro|r: "..message)
 end
 
-function WoWPro:dbp(message)
-	if WoWPro.debugmode then
-		print("WoW-Pro Debug: "..message)
-	end
-end
-
 local defaults = { profile = {
 	enable = true,
 	pad = 5,
