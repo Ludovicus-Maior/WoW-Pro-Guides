@@ -112,9 +112,9 @@ function WoWPro_Recorder:RegisterEvents()
 					step = loc,
 					QID = WoWPro_Recorder.lastStep,
 					map = string.format("%.2f,%.2f", x*100,y*100),
-					note = "At "..GetUnitName("target")..".",
 					zone = zonetag
 				}
+				if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
 				WoWPro:dbp("Adding hearth location "..loc)
 				WoWPro_Recorder:AddStep(stepInfo)
 			end	
@@ -140,9 +140,9 @@ function WoWPro_Recorder:RegisterEvents()
 					step = GetSubZoneText() or GetZoneText(),
 					QID = WoWPro_Recorder.lastStep,
 					map = string.format("%.2f,%.2f", x*100,y*100),
-					note = "At "..GetUnitName("target")..".",
 					zone = zonetag
 				}
+				if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
 				WoWPro:dbp("Adding get FP "..GetSubZoneText() or GetZoneText())
 				WoWPro_Recorder:AddStep(stepInfo)
 			end
@@ -151,12 +151,10 @@ function WoWPro_Recorder:RegisterEvents()
 			WoWPro:dbp("QUEST_LOG_UPDATE detected.")
 			WoWPro_Leveling:PopulateQuestLog()
 			--if it's the first call (on log in), all quests can show up as new, so need to end early --
-			local endEarly
 			if not WoWPro.AfterFirstCall then 
 				WoWPro.AfterFirstCall = true
-				endEarly = true
-			else endEarly = false end
-			if endEarly then return end
+				return 
+			end
 			if WoWPro.newQuest then
 				local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
 				local stepInfo = {
@@ -164,10 +162,10 @@ function WoWPro_Recorder:RegisterEvents()
 					step = questInfo.title,
 					QID = WoWPro.newQuest,
 					map = string.format("%.2f,%.2f", x*100,y*100),
-					note = "From "..GetUnitName("target")..".",
 					zone = zonetag,
 					class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
 				}
+				if GetUnitName("target") then stepInfo.note = "From "..GetUnitName("target").."." end
 				WoWPro_Recorder.lastStep = WoWPro.newQuest
 				WoWPro:dbp("Adding new quest "..WoWPro.newQuest)
 				WoWPro_Recorder:AddStep(stepInfo)
@@ -179,10 +177,10 @@ function WoWPro_Recorder:RegisterEvents()
 					step = questInfo.title,
 					QID = WoWPro.missingQuest,
 					map = string.format("%.2f,%.2f", x*100,y*100),
-					note = "To "..GetUnitName("target")..".",
 					zone = zonetag,
 					class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
 				}
+				if GetUnitName("target") then stepInfo.note = "To "..GetUnitName("target").."." end
 				WoWPro:dbp("Turning in quest "..stepInfo.QID)
 				WoWPro_Recorder:AddStep(stepInfo)
 				WoWPro_Leveling:AutoCompleteQuestUpdate()
@@ -228,7 +226,7 @@ function WoWPro_Recorder:AddStep(stepInfo,position)
 	for tag,value in pairs(stepInfo) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
 		table.insert(WoWPro[tag], pos+1, value)
-		print("Adding tag "..tag.." at position "..pos+1)
+		WoWPro:dbp("Adding tag "..tag.." at position "..pos+1)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	WoWPro:UpdateGuide()
@@ -239,7 +237,7 @@ function WoWPro_Recorder:RemoveStep(position)
 	for i,tag in pairs(WoWPro_Leveling.Tags) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
 		table.remove(WoWPro[tag], pos)
-		print("Removing tag "..tag.." at position "..pos)
+		WoWPro:dbp("Removing tag "..tag.." at position "..pos)
 	end
 	WoWPro.stepcount = WoWPro.stepcount-1
 	WoWPro:UpdateGuide()
@@ -302,7 +300,7 @@ function WoWPro_Recorder:SaveGuide()
 		if WoWPro.note[i] then sequence = addTag(sequence, "N", WoWPro.note[i]) end
 	end
 	
-	local guideString = header..sequence.."\n]]"
+	local guideString = header..sequence.."\n]]\n\nend)"
 	
 	WoWPro_RecorderDB[GID] = {
 		guidetype = "Leveling",
