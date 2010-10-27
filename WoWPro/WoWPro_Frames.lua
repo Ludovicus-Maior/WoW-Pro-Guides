@@ -386,6 +386,20 @@ function WoWPro:CreateMainFrame()
 			WoWPro.AnchorSet()
 		end
 	end)
+
+	-- Set initial keybindings frames
+	WoWPro.FauxItemButton = CreateFrame("Frame", "WoWPro_FauxItemButton", UIParent)
+	WoWPro.FauxItemButton:SetScript("OnMouseUp", function(self, button)
+		if button == "LeftButton" then
+			WoWPro:dbp("Clicking FauxItemButton")
+		end
+	end)
+	WoWPro.FauxTargetButton = CreateFrame("Frame", "WoWPro_FauxTargetButton", UIParent)
+	WoWPro.FauxTargetButton:SetScript("OnMouseUp", function(self, button)
+		if button == "LeftButton" then
+			WoWPro:dbp("Clicking FauxTargetButton")
+		end
+	end)
 end
 	
 -- Resize Button --
@@ -532,8 +546,8 @@ function WoWPro:CreateRows()
 		row.step = WoWPro:CreateStep(row, row.action)
 		row.note = WoWPro:CreateNote(row, row.action)
 		row.track = WoWPro:CreateTrack(row, row.action)
-		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row)
-		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row)
+		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row, i)
+		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, i)
 		
 		WoWPro.rows[i] = row	
 	end

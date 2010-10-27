@@ -8,14 +8,27 @@ WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
 WoWPro.debugmode = false
 
+-- WoWPro keybindings name descriptions
+_G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
+BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
+_G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
+
+-- Debug print function
 function WoWPro:dbp(message)
-	if WoWPro.debugmode then
+	if WoWPro.debugmode and message ~= nil then
 		print("|cffffff00WoW-Pro Debug|r: "..message)
 	end
 end
 
+-- WoWPro print function
 function WoWPro:Print(message)
+<<<<<<< HEAD
 	print("|cffffff00WoW-Pro|r: "..message)
+=======
+	if message ~= nil then
+		print("|cffffff00WoW-Pro|r: "..message)
+	end
+>>>>>>> silvann/master
 end
 
 local defaults = { profile = {
@@ -122,7 +135,16 @@ function WoWPro:OnEnable()
 	WoWPro:UpdateGuide()
 	WoWPro:MapPoint()
 	WoWPro:CustomizeFrames()
-	
+
+	-- Keybindings initial setup
+	local keys = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+	if not keys then	
+		SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
+	end
+	local keys = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
+	if not keys then	
+		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
+	end
 end	
 
 function WoWPro:OnDisable()
