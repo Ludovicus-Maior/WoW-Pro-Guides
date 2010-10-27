@@ -4,7 +4,7 @@ H Stormwind City|QID|10119|
 R Portal to the Blasted Lands|QID|10119|N|By the Portal Trainer |Z|Stormwind City|M|50.3,86|
 B Nethergarde Bitter |L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. |M|63.50,17.00|
 
-A Through the Dark Portal |QID|10119|M|58.3,55.9|
+A Through the Dark Portal |QID|10119|Z|Blasted Lands|M|58.3,55.9|
 R Hellfire Peninsula |QID|10119| |N|Go through the portal. |M|58.70,59.75|
 T Through the Dark Portal |QID|10119|M|87.3,50.7|
 A Arrival in Outland |QID|10288|M|87.3,50.7|
@@ -18,11 +18,12 @@ T Force Commander Danath |QID|10254|M|56.6,66.7|
 A The Legion Reborn |QID|10141|M|56.6,66.7|
 A Know your Enemy |QID|10160|M|56.6,66.7|
 A Waste Not, Want Not |QID|10055|M|51.2,60.0|
+C Waste Not, Want Not |N|Loot items off the ground until you finish this quest. | |QID|10055|M|60.4,52.1|S|
 T Know your Enemy |QID|10160|M|50.9,60.2|
 A Fel Orc Scavengers |QID|10482|M|50.9,60.2|
 N Flying|QID|10482|N|Expert Riding may be purchased for 250gold, you will also need 50gold for a mount. Hargen Bronzewing |M|54.3,62.6|
-C Fel Orc Scavengers |N|Kill Orcs until you finish this quest.  Loot Metal Cogs and Wooden Planks at the same time. | |QID|10482|M|62.00,54.00|
-C Waste Not, Want Not |N|Loot items off the ground until you finish this quest. | |QID|10055|M|60.4,52.1|
+C Fel Orc Scavengers |N|Kill Orcs until you finish this quest.| |QID|10482|M|62.00,54.00|
+C Waste Not, Want Not |N|Loot items off the ground until you finish this quest. | |QID|10055|M|60.4,52.1|US|
 T Fel Orc Scavengers |QID|10482|M|50.9,60.2|
 T Waste Not, Want Not |QID|10055|M|51.2,60.0|
 A Ill Omens |QID|10483|M|50.9,60.2|
@@ -54,13 +55,11 @@ A In Case of Emergency... |QID|10161|M|49.2,74.8|
 C Ravager Egg Roundup |N|Get 12 Ravager eggs from the ground and the Ravagers. | |QID|9349|M|42.00,83.00|
 T Ravager Egg Roundup |QID|9349|M|49.2,74.8|
 A Helboar, the Other White Meat |QID|9361|M|49.2,74.8|
-N From now on.. |QID|9361| |N|From now on, kill Helboars and loot them.  Use Purification Mixture on the Tainted Helboar Meat. |
-N From now on... |QID|10161| |N|From now on, loot Zeppelin Debris from the ground. |
+C Helboar, the Other White Meat |QID|9361|M|50.2,74.8||N|Kill Helboars and loot them.  Use Purification Mixture on the Tainted Helboar Meat. |S|
+C In Case of Emergency... |N|Collect any Zeppelin Debris| |QID|10161|M|58.1,71.3|S|
 C Ill Omens |N|Kill orcs until you get a Cursed Talisman for this quest. | |QID|10483|M|63.00,78.00|
-N Zeplin Debris |QID|10161| |N| Gather some debris from here.  | |L|28116 30|M|62.42,70.70|
 T Ill Omens |QID|10483|M|71.0,63.4|
 A Cursed Talismans |QID|10484|M|71.0,63.4|
-N Sell junk, repair |QID|10143| |N|Sell junk, repair |M|70.95,63.25|
 T Expedition Point |QID|10143|M|71.3,62.8|
 A Disrupt Their Reinforcements |QID|10144|M|71.3,62.8|
 A Zeth'Gor Must Burn! |QID|10895|M|71.3,62.8|
@@ -69,18 +68,17 @@ N Forge Tower |QID|10895| |N|Use the Smoke Beacon here. | |Q|Zeth'Gor Must Burn!
 N Northern Tower |QID|10895| |N|Use the Smoke Beacon here. | |Q|Zeth'Gor Must Burn!|QO|Northern Tower Marked: 1/1|U|31739|M|68.00,67.10|
 C Zeth'Gor Must Burn! |N|Use the Smoke Beacon here. | |QID|10895| |U|31739|M|66.45,76.35|
 C Cursed Talismans |N|Kill Orcs until you get the talismans for this quest. | |QID|10484|M|64.2,71.8|
-C In Case of Emergency... |N|Get the rest of the Zeppelin Debris needed for this quest. | |QID|10161|M|58.1,71.3|
+C In Case of Emergency... |N|Get the rest of the Zeppelin Debris needed for this quest. | |QID|10161|M|58.1,71.3|US|
 T Cursed Talismans |QID|10484|M|71.0,63.4|
 A Warlord of the Bleeding Hollow |QID|10485|M|71.0,63.4|
 T Zeth'Gor Must Burn! |QID|10895|M|71.3,62.8|
 C Warlord of the Bleeding Hollow |N|Kill Warlord Morkh and take his armor. | |QID|10485|M|70.15,76.90|
 T Warlord of the Bleeding Hollow |QID|10485|M|71.0,63.4|
 A Return to Honor Hold |QID|10903|M|71.0,63.4|
-N Sell junk, repair |QID|10144| |N|Sell junk, repair |M|70.90,63.25|
 
-N Demonic Rune Stone |QID|10144| |N|Kill Demons until you have 4 Demonic Rune Stones. | |L|28513 4|M|71.20,58.75|
+K Demonic Rune Stone |QID|10144| |N|Kill Demons until you have 4 Demonic Rune Stones. | |L|28513 4|M|71.20,58.75|
 N Portal Kaalez |QID|10144| |N|Disrupt the portal here by clicking on it when inside. | |Q|Disrupt Their Reinforcements|QO|Disrupt Portal Kaalez: 1/1|M|72.70,58.95|
-N Demonic Rune Stone |QID|10144| |N|Kill Demons until you have 4 Demonic Rune Stones. | |L|28513 4|
+K Demonic Rune Stone |QID|10144| |N|Kill Demons until you have 4 Demonic Rune Stones. | |L|28513 4|
 C Disrupt Their Reinforcements |N|Disrupt the portal here. | |QID|10144|M|71.50,55.15|
 T Disrupt Their Reinforcements |QID|10144|M|71.3,62.8|
 A Mission: The Murketh and Shaadraz Gateways |QID|10146|M|71.3,62.8|
@@ -172,7 +170,7 @@ A Demonic Contamination |QID|9372|M|15.7,52.0|
 A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|
 A Colossal Menace |QID|10132|
 A The Cenarion Expedition |QID|9912|M|15.7,52.0|
-C Helboar, the Other White Meat |N|Finish this quest if you haven't done so already (use purification mixture on tainted helboar meat). (30.00, 40.00)| |QID|9361|M|50.2,74.8|
+C Helboar, the Other White Meat |N|Finish this quest if you haven't done so already (use purification mixture on tainted helboar meat). (30.00, 40.00)| |QID|9361|M|50.2,74.8|US|
 C Demonic Contamination |N|Kill Hulking Helboars until you get the samples for this quest. | |QID|9372|M|30.00,40.00|
 T The Longbeards |QID|9558|M|24.0,72.1|
 A The Arakkoa Threat |QID|9417|M|24.0,72.1|
