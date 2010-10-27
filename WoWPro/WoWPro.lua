@@ -22,13 +22,9 @@ end
 
 -- WoWPro print function
 function WoWPro:Print(message)
-<<<<<<< HEAD
-	print("|cffffff00WoW-Pro|r: "..message)
-=======
 	if message ~= nil then
 		print("|cffffff00WoW-Pro|r: "..message)
 	end
->>>>>>> silvann/master
 end
 
 local defaults = { profile = {
