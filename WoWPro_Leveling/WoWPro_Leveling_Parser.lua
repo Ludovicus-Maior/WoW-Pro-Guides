@@ -562,7 +562,7 @@ function WoWPro_Leveling:RowUpdate()
 			end
 		end
 		
-		if use then
+		if use and GetItemInfo(use) then
 			row.itembutton:Show() 
 			row.itemicon:SetTexture(GetItemIcon(use))
 			row.itembutton:SetAttribute("type1", "item")
