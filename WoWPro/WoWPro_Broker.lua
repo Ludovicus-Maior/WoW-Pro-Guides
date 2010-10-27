@@ -124,7 +124,8 @@ end
 -- Auto-completion Event Responders --
 function WoWPro:RegisterEvents()
 	WoWPro.events = {
-		"PLAYER_REGEN_ENABLED", "PLAYER_REGEN_DISABLED", "PARTY_MEMBERS_CHANGED"
+		"PLAYER_REGEN_ENABLED", "PLAYER_REGEN_DISABLED", "PARTY_MEMBERS_CHANGED",
+		"UPDATE_BINDINGS",
 	}
 	
 	-- Module Events --
@@ -154,6 +155,11 @@ function WoWPro:RegisterEvents()
 		
 		-- Updating party-dependant options --
 		if event == "PARTY_MEMBERS_CHANGED" and not WoWPro.combat then
+			WoWPro:UpdateGuide() 
+		end
+
+		-- Updating WoWPro keybindings --
+		if event == "UPDATE_BINDINGS" and not WoWPro.combat then
 			WoWPro:UpdateGuide() 
 		end
 

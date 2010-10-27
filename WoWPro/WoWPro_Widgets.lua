@@ -57,8 +57,8 @@ function WoWPro:CreateTrack(parent, anchor1)
 end
 
 
-function WoWPro:CreateItemButton(parent)
-	local itembutton = CreateFrame("Button", nil, parent, "SecureActionButtonTemplate")
+function WoWPro:CreateItemButton(parent, id)
+	local itembutton = CreateFrame("Button", "WoWPro_itembutton"..id, parent, "SecureActionButtonTemplate")
 	itembutton:SetAttribute("type", "item")
 	itembutton:SetFrameStrata("LOW")
 	itembutton:SetHeight(20)
@@ -80,8 +80,8 @@ function WoWPro:CreateItemButton(parent)
 end
 
 
-function WoWPro:CreateTargetButton(parent)
-	local targetbutton = CreateFrame("Button", nil, parent, "SecureActionButtonTemplate")
+function WoWPro:CreateTargetButton(parent, id)
+	local targetbutton = CreateFrame("Button", "WoWPro_targetbutton"..id, parent, "SecureActionButtonTemplate")
 	targetbutton:SetAttribute("type", "macro")
 	targetbutton:SetFrameStrata("LOW")
 	targetbutton:SetHeight(20)
