@@ -1,7 +1,7 @@
 WoWPro_Leveling:RegisterGuide("AriMtH8082", "Mount Hyjal", "Arixan", "80", "82", "nil", "Horde", function()
 return [[
 
-N Mt. Hyjal |N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|
+N Mt. Hyjal |PRE|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|
 R Orgrimmar |QID|27721|Z|Orgrimmar|N|Make your way to Orgimmar.|
 
 A Warchief's Command: Mount Hyjal |QID|27721|M|49.7,76.7|Z|Orgirmmar|N|Get the quest from the Warchief's Command Board.|
@@ -78,6 +78,104 @@ T Through the Dream |QID|25325|M|52.1,17.4|N|At Alysra in front of you.|
 A Return to Nordrassil |QID|25578|M|52.1,17.4|
 
 T Return to Nordrassil |QID|25578|M|62.1,24.8|N|At Ysera back in Nordrassil.|
+A The Return of the Ancients |QID|25584|M|62.1,24.8|
+
+T The Return of the Ancients |QID|25584|M|35.7,19.5|N|At Oomla Whitehorn.|
+A Harrying the Hunters |QID|25255|M|35.7,19.5|
+A End of the Supply Line |QID|25233|M|35.7,19.7|N|From Jadi Falaryn.|
+A In the Rear With the Gear |QID|25234|M|35.7,19.7|N|From Jadi Falaryn.|
+
+C Harrying the Hunters |QID|25255|M|35.5,24.6|S|
+C In the Rear With the Gear |QID|25234|M|35.2,23.3|N|Kill Twilight Slavedrivers for Twilight Supplies.|
+C Harrying the Hunters |QID|25255|M|35.5,24.6|US|
+
+T End of the Supply Line |QID|25233|M|35.7,19.7|N|At Jadi Falaryn.|
+T In the Rear With the Gear |QID|25234|M|35.7,19.7|N|At Jadi Falaryn.|
+T Harrying the Hunters |QID|25255|M|35.7,19.5|N|At Oomla Whitehorn.|
+A The Voice of Lo'Gosh |QID|25269|M|35.7,19.5|N|From Oomla Whitehorn.|
+
+T The Voice of Lo'Gosh |QID|25269|M|30.1,31.7|N|Follow the road west until it branches. Take the fork to the right, down to a valley. If you are following the road down, continue straight, past the wolf statue. In a cage at the edge of the small pond is Takrik Ragehowl.|
+A Howling Mad |QID|25270|M|30.1,31.7|N|From Takrik Ragehowl.|
+
+C Howling Mad |QID|25270|M||N|Kill Lycanthoth Vandals for Polluted Incense.|
+
+T Howling Mad |QID|25270|M|30.1,31.7|N|Back at Takrik Ragehowl.|
+A Lycanthoth the Corruptor |QID|25272|M|30.1,31.7|N|From Takrik Ragehowl.|
+
+C Lycanthoth the Corruptor |QID|25272|M|32.0,36.6;32.4,37.2|N|Use Lycanthoth's Incense near the altar inside the cave to summon Lycanthoth.|
+T Lycanthoth the Corruptor |QID|25272|M|32.4,37.2|N|At Spirit of Lo'Gosh.|
+A The Shrine Reclaimed |QID|25279|M|29.6,29.4|N|From Spirit of Lo'Gosh after you dismount.|
+
+T The Shrine Reclaimed |QID|25279|M|28.4,29.9|N|At Takrik Ragehowl to the west.|
+A Cleaning House |QID|25277|M|28.4,29.9|N|From Takrik Ragehowl.|
+A From the Mouth of Madness |QID|25297|M|28.2,29.9|N|From Rio Duran.|
+A The Eye of Twilight |QID|25300|M|28.6,30.2|N|From Royce Duskwhisper.|
+
+N From the Mouth of Madness |QID|25297|L|52727|M|29.4,31.6|N|Loot Bitterblossom from around the edge of the pond.|
+C Cleaning House |QID|25277|M|27.7,34.5|N|Kill Hovel Brutes.|S|
+
+N From the Mouth of Madness |QID|25297|L|52726|M|27.5,34.1|N|Search around the base of the rock formations for Stonebloom.|
+N From the Mouth of Madness |QID|25297|L|52728|M|28.4,35.8|N|Collect a Darkflame Ember from the brazier.|
+
+T From the Mouth of Madness |QID|25297|M|28.4,36.4|N|A small caudlron near the brazier.|
+A Free Your Mind, the Rest Follows |QID|25298|M|28.4,36.4|From the Twilight Cauldron.|
+
+T The Eye of Twilight |QID|25300|M|27.2,35.2|N|To the right of the cave entrance.|
+A Mastering Puppets |QID|25301|M|27.2,35.2|N|From the Eye of Twilight.|
+
+C Free Your Mind, the Rest Follows |QID|25298|M|26.9,36.2|N|Talk to Twilight Servitors.|S|
+T Mastering Puppets |QID|25301|M|25.8,41.6|N|From the entrance take your first left and then at the next split take a right. Continue straight until you reach a pedestal with a book on it.|
+A Elementary! |QID|25303|M|25.8,41.6|N|From the book.|
+C Elementary! |QID|25303|M|25.8,41.6|N|Activate the four orbs in the following order: Crucible of Fire, Crucible of Earth, Crucible of Air, Crucible of Water. This will summon The Manipulator. Kill him to complete the quest.|
+T Elementary! |QID|25303|M|25.8,41.6|N|At the book.|
+A Return to Duskwhisper |QID|25312|N|From the book.|
+C Free Your Mind, the Rest Follows |QID|25298|N|Talk to Twilight Servitors.|US|
+C Cleaning House |QID|25277|M||N|Kill Hovel Brutes.|US|
+
+T Return to Duskwhisper |QID|25312|M|28.4,30.1|N|You will have a buff that makes the ogres friendly so exit the cave quickily. Return to the camp and turn in at Royce Duskwhisper.|
+T Cleaning House |QID|25277|M|28.4,29.9|At Takrik Ragehowl.|
+A Sweeping the Shelf |QID|25354|M|28.4,29.9|N|From Takrik Ragehowl.|
+A Lightning in a Bottle |QID|25355|M|28.4,29.9|N|From Takrik Ragehowl.|
+T Free Your Mind, the Rest Follows |QID|25298|M|28.1,29.9|At Rio Duran.|
+
+C Sweeping the Shelf |QID|25354|M|26.5,38.1|S|
+N Lightning in a Bottle |QID|25355|L|52834|M|26.4,37.8|N|Loot a Charged Condenser Jar from the lightning rods scattered around the area.|
+T Lightning in a Bottle |QID|25355|U|52854|N|Use the Totem of Lo'Gosh to summon the wolf spirit.|
+A Into the Maw! |QID|25617|N|From the summoned Spirit of Lo'Gosh.|
+C Sweeping the Shelf |QID|25354|M|26.5,38.1|US|
+
+T Into the Maw! |QID|25617|M|26.1,41.1|N|Enter the portal in the center if the Twilight Cultists camp and turn in at Jordan Olafson.|
+A Forged of Shadow and Flame |QID|25575|M|26.2,41.8|N|From Jordan Olafson.|
+A Crushing the Cores |QID|25577|M|26.2,41.8|N|From Jordan Olafson.|
+A Rage of the Wolf Ancient |QID|25576|M|26.3,41.9|N|From Yargra Blackscar.|
+
+C Forged of Shadow and Flame |QID|25575|S|
+N Crushing the Cores |QID|25577|L|55123 8|N|Kill Searing Guardians and loot Smoldering Cores.|S|
+C Rage of the Wolf Ancient |QID|25576|M|27.0,41.5|N|Dark Iron Laborers can be found through-out the caves.|
+C Forged of Shadow and Flame |QID|25575|M|27.0,41.5|US|
+N Crushing the Cores |QID|25577|L|55123 8|M|27.0,41.5|N|Kill Searing Guardians and loot Smoldering Cores.|US|
+C Crushing the Cores |QID|25577|M||N|Find a Twilight Anvil, which is usually around the edges of the cavern, and use the Smoldering Cores while standing next to it.|
+
+T Rage of the Wolf Ancient |QID|25576|M|26.3,41.9|N|At Yargra Blackscar.|
+T Forged of Shadow and Flame |QID|25575|M|26.2,41.9|N|At Jordan Olafson.|
+T Crushing the Cores |QID|25577|M|26.2,41.9|N|At Jordan Olafson.|
+A Cindermaul, the Portal Master |QID|25599|M|26.2,41.9|N|From Jordan Olafson.|
+
+C Cindermaul, the Portal Master |QID|25599|M|30.6,41.7|N|Head west back to the center of the cavern. From the center, follow the path down to the right. In the first cavern to the left, you will find Cindermaul. Kill him, then loot the chest he leaves behind.|
+
+T Cindermaul, the Portal Master |QID|25599|M|26.2,41.9|N|At Jordan Olafson.|
+A Forgemaster Pyrendius |QID|25600|M|26.2,41.9|N|From Jordan Olafson.|
+
+C Forgemaster Pyrendius |QID|25600|M|31.1,45.6|N|Forgemaster Pyrendius is a level 80 elite. He has 154k health, so don't try to fight him directly. He is standing in a circle of runes. To kill him, make sure you hit him at least once, then drag Pyrendius to one of those runes, click on it to activate the rune, then position Pyrendius so that he is standing on the rune. Repeat that, moving from rune to rune, until he dies.|
+
+T Forgemaster Pyrendius |QID|25600|M|26.2,41.9|N|At Jordan Olafson.|
+A Return from the Firelands |QID|25612|M|26.2,41.9|N|From Jordan Olafson.|
+
+T Return from the Firelands |QID|25612|M|28.4,29.9|N|Enter the portal behind you. This will return you the Shrine of Goldrinn. Fly back to the camp to Takrik Ragehowl.|
+T Sweeping the Shelf |QID|25354|M|28.4,29.9|N|At Takrik Ragehowl.|
+
+A Aviana's Legacy |QID|27874|M|28.4,29.8|N|From Vision of Ysera.|
+A The Fires of Mount Hyjal |QID|25630|M|28.2,29.9|N|From Rio Duran.|
 
 ]]
 end)
