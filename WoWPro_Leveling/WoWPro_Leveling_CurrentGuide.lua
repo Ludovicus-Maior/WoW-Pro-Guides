@@ -72,7 +72,7 @@ frame:SetScript("OnShow", function()
 		local GID = WoWProDB.char.currentguide
 		local steplist = WoWPro.step
 		local optional = WoWPro.optional
-		local completion = WoWProDB.char.guide[GID].completion
+		local completion = WoWPro_LevelingDB.guide[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
 		local i = 1
@@ -81,9 +81,9 @@ frame:SetScript("OnShow", function()
 		for i,row in ipairs(rows) do
 			row.index = index
 			
-			if completion[index] or WoWProDB.char.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QID[index]] then
+			if completion[index] or WoWPro_LevelingDB.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QID[index]] then
 				row.check:SetChecked(true)
-				if WoWProDB.char.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QID[index]] then
+				if WoWPro_LevelingDB.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QID[index]] then
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 				else
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")

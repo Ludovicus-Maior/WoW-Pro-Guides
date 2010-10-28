@@ -37,11 +37,6 @@ function WoWPro:LoadGuide(guideID)
 	local guidetype = WoWPro.loadedguide["guidetype"]
 	WoWPro:dbp("Found guide info of type "..guidetype)
 	
-	-- Creating a new entry if this guide does not have one
-	WoWProDB.char.guide[GID] = WoWProDB.char.guide[GID] or {}
-	WoWProDB.char.guide[GID].completion = WoWProDB.char.guide[GID].completion or {}
-	WoWProDB.char.guide[GID].skipped = WoWProDB.char.guide[GID].skipped or {}
-		
 	-- Running Module-specific LoadGuide() --
 	if WoWPro.loadedguide["guidetype"] == "Leveling" and WoWPro_Leveling:IsEnabled() then WoWPro_Leveling:LoadGuide() end
 	
@@ -94,7 +89,8 @@ function WoWPro:UpdateGuide(offset)
 	-- Updating the guide list or current guide panels if they are shown --
 	if WoWPro_Leveling_GuideListFrame:IsShown() then WoWPro_Leveling.UpdateGuideList() end
 	if WoWPro_Leveling_CurrentGuide:IsShown() then WoWPro_Leveling.UpdateCurrentGuidePanel() end
-	
+
+	-- TODO: make next lines, that use WoWProDB.char.guide, module specific
 	-- Updating the progress count --
 	local p = 0
 	for j = 1,WoWPro.stepcount do
@@ -180,6 +176,7 @@ function WoWPro.CompleteStep(step)
 	if WoWProDB.profile.checksound then	
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
+	-- TODO: make next lines, that use WoWProDB.char.guide, module specific
 	WoWProDB.char.guide[GID].completion[step] = true
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProDB.char.guide[GID].completion[row.index] then

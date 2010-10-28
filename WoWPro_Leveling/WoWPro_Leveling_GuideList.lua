@@ -37,8 +37,8 @@ function WoWPro_Leveling.UpdateGuideList()
 			row.range:SetText("("..startlevel.."-"..endlevel..")")
 			row.guide = GID
 			
-			if WoWProDB.char.guide[GID] and WoWProDB.char.guide[GID].total and WoWProDB.char.guide[GID].progress then
-				row.progress:SetText(WoWProDB.char.guide[GID].progress.."/"..WoWProDB.char.guide[GID].total)
+			if WoWPro_LevelingDB.guide[GID] and WoWPro_LevelingDB.guide[GID].total and WoWPro_LevelingDB.guide[GID].progress then
+				row.progress:SetText(WoWPro_LevelingDB.guide[GID].progress.."/"..WoWPro_LevelingDB.guide[GID].total)
 			else 
 				row.progress:SetText("")
 			end
@@ -57,7 +57,7 @@ function WoWPro_Leveling.UpdateGuideList()
 				local iGuide = WoWPro_Leveling.GuideList[row.i]
 				WoWProDB.char.currentguide = iGuide["GID"]
 				WoWPro:LoadGuide()
-				WoWProDB.char.guide[iGuide["GID"]] = nil
+				WoWPro_LevelingDB.guide[iGuide["GID"]] = nil
 				for j = 1,WoWPro.stepcount do 
 					WoWProDB.char.skippedQIDs[WoWPro.QID[j]] = nil
 				end

@@ -660,7 +660,7 @@ function WoWPro:CreateSkipStepsDialog()
 	end
 end
 
-
+-- TODO: make it module specific, move this to WoWPro_Leveling
 -- Next Guide Dialog --
 function WoWPro:CreateNextGuideDialog()
 	
@@ -706,7 +706,7 @@ function WoWPro:CreateNextGuideDialog()
 	button3text:SetText("Reset Current Guide")
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
-		WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+		WoWPro_LevelingDB.guide[WoWProDB.char.currentguide] = nil
 		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
@@ -728,7 +728,7 @@ function WoWPro:CreateDropdownMenu()
 			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Profiles") 
 		end},
 	}
-	
+	-- TODO: move this to wowpro_leveling
 	-- Modules --
 	if WoWPro_Leveling then
 		table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
@@ -746,7 +746,7 @@ function WoWPro:CreateDropdownMenu()
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
 				if not WoWProDB.char.currentguide or WoWProDB.char.currentguide == "NilGuide" then return end
-				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+				WoWPro_LevelingDB.guide[WoWProDB.char.currentguide] = nil
 				for j = 1,WoWPro.stepcount do 
 					if WoWPro.QID[j] then WoWProDB.char.skippedQIDs[WoWPro.QID[j]] = nil end
 				end
