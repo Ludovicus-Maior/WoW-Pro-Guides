@@ -15,10 +15,5 @@
   <Script file="78_79_Scoot_Sholazar_Basin.lua"/>
   <Script file="79_80_Scoot_The_Storm_Peaks.lua"/>
   <Script file="80_80_Scoot_Icecrown.lua"/>  <Script file="80_82_Arixan_Vashjir.lua"/>    <Script file="80_82_Arixan_Mt_Hyjal.lua"/>
-  <Script file="55_58_Jame_Scarlet_Enclave.lua"/>
-  <Script file="58_58_Jame_Western_Plaguelands.lua"/>
-  <Script file="58_59_Jame_Eastern_Plaguelands.lua"/>
-  <Script file="59_60_Jame_Western_Plaguelands.lua"/>
-  <Script file="60_60_Jame_Eastern_Plaguelands.lua"/>
-  <Script file="60_61_Jame_Western_Plaguelands.lua"/>  
+  <Script file="55_58_Jame_Scarlet_Enclave.lua"/>  
 </Ui>
