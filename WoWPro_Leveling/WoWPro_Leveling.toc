@@ -4,7 +4,7 @@
 ## Author: Jiyambi
 ## Dependencies: WoWPro
 ## SavedVariablesPerCharacter: WoWPro_LevelingDB
-## Version: 1.7.0
+## Version: 1.7.1
 
 ## X-Category: Quest
 

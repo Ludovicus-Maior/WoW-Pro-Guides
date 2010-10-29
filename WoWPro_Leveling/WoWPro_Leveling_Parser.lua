@@ -89,9 +89,11 @@ function WoWPro_Leveling:NextStep(k, i)
 			local prof, proflvl = string.split(";",WoWPro.prof[k])
 			proflvl = proflvl or 1
 			skip = true --Profession steps skipped by default
-			for skillIndex = 1, GetNumSkillLines() do
-				local skillName, isHeader, isExpanded, skillRank = GetSkillLineInfo(skillIndex)
-				if not isHeader and skillName == prof and skillRank >= proflvl then
+			local profs = {}
+			prof[1], prof[2], prof[3], prof[4], prof[5], prof[6] = GetProfessions()
+			for p=1,6 do
+				local skillName, _, skillRank = GetProfessionInfo(prof[p])
+				if skillName == prof and skillRank >= proflvl then
 					skip = false -- The step is NOT skipped if the skill is present at the correct level or higher
 				end
 			end
@@ -567,7 +569,7 @@ function WoWPro_Leveling:RowUpdate()
 			end
 		end
 		
-		if use then
+		if use and GetItemInfo(use) then
 			row.itembutton:Show() 
 			row.itemicon:SetTexture(GetItemIcon(use))
 			row.itembutton:SetAttribute("type1", "item")
