@@ -31,7 +31,7 @@ C War on the Twilight's Hammer|QID|25319|M|48.2,30.6|
 C The Flameseer's Staff|QID|25472|M|48.2,30.6|
 T The Flameseer's Staff|QID|25472|M|47.7,35.4|N|Back at Malfurion Stormrage.|
 T War on the Twilight's Hammer|QID|25319|M|47.7,35.4|
-A Flamebreaker|QID|25323|M|47.7,35.4|
+A Flamebreaker|QID|25323|M|47.7,35.4|N|From Malfurion Stormrage.|
 C Flamebreaker|QID|25323|M|48.2,29.5;47.5,21.5|N|Use the Flameseer's Staff on the Blazebound Elementals in the charred areas around The Verdant Thicket. This will break up the elementals into 8-10 smaller elementals. Kill these Unbound Flame Spirits.|
 T Flamebreaker|QID|25323|M|47.7,35.4|N|Back at Malfurion Stormrage.|
 A The Return of Baron Geddon|QID|25464|M|47.7,35.4|
@@ -43,7 +43,7 @@ T Emerald Allies|QID|25430|M|48.5,19.0|N|At Alysra an Emerald Flight dragon.|
 A The Captured Scout|QID|25320|M|48.5,19.0|
 T The Captured Scout|QID|25320|M|44.5,18.8|N|Scout Larandia is located in a cage in the back of the Twilight Command Post.|
 A Twilight Captivity|QID|25321|M|44.5,18.8|
-C Twilight Captivity|QID|25321|M|44.3,20.3|
+C Twilight Captivity|QID|25321|M|44.3,20.3|N|From the Twilight Overseer's down below.|
 T Twilight Captivity|QID|25321|M|44.5,18.8|N|Back at Scout Larandia.|
 A Return to Alysra|QID|25424|M|44.5,18.8|
 T Return to Alysra|QID|25424|M|48.5,19.0|N|Back to Alysra.|
@@ -71,7 +71,7 @@ A Howling Mad|QID|25270|M|30.1,31.7|N|From Takrik Ragehowl.|
 C Howling Mad|QID|25270|N|Kill Lycanthoth Vandals for Polluted Incense.|
 T Howling Mad|QID|25270|M|30.1,31.7|N|Back at Takrik Ragehowl.|
 A Lycanthoth the Corruptor|QID|25272|M|30.1,31.7|N|From Takrik Ragehowl.|
-C Lycanthoth the Corruptor|QID|25272|M|32.0,36.6;32.4,37.2|N|Use Lycanthoth's Incense near the altar inside the cave to summon Lycanthoth.|
+C Lycanthoth the Corruptor|QID|25272|U|52682|M|32.0,36.6;32.4,37.2|N|Use Lycanthoth's Incense near the altar inside the cave to summon Lycanthoth.|
 T Lycanthoth the Corruptor|QID|25272|M|32.4,37.2|N|At Spirit of Lo'Gosh.|
 A The Shrine Reclaimed|QID|25279|M|29.6,29.4|N|From Spirit of Lo'Gosh after you dismount.|
 T The Shrine Reclaimed|QID|25279|M|28.4,29.9|N|At Takrik Ragehowl to the west.|
@@ -95,7 +95,7 @@ A Return to Duskwhisper|QID|25312|N|From the book.|
 C Free Your Mind, the Rest Follows|QID|25298|US|N|Talk to Twilight Servitors.|
 C Cleaning House|QID|25277|US|N|Kill Hovel Brutes.|
 T Return to Duskwhisper|QID|25312|M|28.4,30.1|N|You will have a buff that makes the ogres friendly so exit the cave quickily. Return to the camp and turn in at Royce Duskwhisper.|
-T Cleaning House|QID|25277|M|28.4,29.9|
+T Cleaning House|QID|25277|M|28.4,29.9|N|At Takrik Ragehowl.|
 A Sweeping the Shelf|QID|25354|M|28.4,29.9|N|From Takrik Ragehowl.|
 A Lightning in a Bottle|QID|25355|M|28.4,29.9|N|From Takrik Ragehowl.|
 T Free Your Mind, the Rest Follows|QID|25298|M|28.1,29.9|
