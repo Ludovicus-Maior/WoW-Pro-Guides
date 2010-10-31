@@ -7,7 +7,7 @@ A Warchief's Command: Mount Hyjal|QID|27721|M|49.7,76.7|Z|Orgirmmar|N|Get the qu
 N Talk to Cenarion Emissary Blackhoof|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|In the Valley of Wisdom.|
 T Warchief's Command: Mount Hyjal|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|
 A As Hyjal Burns|QID|25316|M|45.5,44.7|Z|Moonglade|
-N Ride Aronus|QID|25316|M|46.0,45.1|Z|Moonglade|Nide on Aronus to get to Mount Hyjal.|
+N Ride Aronus|QID|25316|M|46.0,45.1|Z|Moonglade|N|Ride on Aronus to get to Mount Hyjal.|
 T As Hyjal Burns|QID|25316|M|62.1,24.8|N|Inside the building at Ysera.|
 A Protect the World Tree|QID|25317|M|62.1,24.8|
 h Nordrassil|QID|25317|M|63.0,24.1|N|At Sebelia next to the door.|
@@ -136,9 +136,9 @@ A Scrambling for Eggs|QID|25656|M|42.18,45.40|N|From Thisalee Crow.|
 C An Offering for Aviana|QID|25663|U|55208|M|40.38,44.31|N|Go to the small circle of stones just outside the shrine. Use the Sacred Nectar while standing near the basin in the center of the stone circle. The Spirit of Aviana will appear.|
 T An Offering for Aviana|QID|25663|M|40.38,44.31|N|To Mysterious Winged Spirit.|
 A A Plea From Beyond|QID|25665|M|40.38,44.31|
-C Scrambling for Eggs|QID|25656|M|36.58,43.42|S|
+C Scrambling for Eggs|QID|25656|S|M|36.58,43.42|
 C The Wormwing Problem|QID|25655|M|39.08,41.53|
-C Scrambling for Eggs|QID|25656|M|36.58,43.42|US|
+C Scrambling for Eggs|QID|25656|US|M|36.58,43.42|
 T The Wormwing Problem|QID|25655|M|42.18,45.40|N|To Thisalee Crow.|
 T Scrambling for Eggs|QID|25656|M|42.18,45.40|N|To Thisalee Crow.|
 A A Bird in Hand|QID|25731|M|42.18,45.40|N|From Thisalee Crow.|
@@ -149,7 +149,44 @@ C A Bird in Hand|QID|25731|M|38.50,44.04|N|Once she is captured, talk to Marion 
 C A Prayer and a Wing|QID|25664|U|55211|M|35.67,42.30|N|Get on your flying mount and fly up to the top of the ridge to the north. You will see several nests. Land in one and use the Enormous Bird Call to summon Blaithe.|
 T A Bird in Hand|QID|25731|M|42.20,45.37|N|To Thisalee Crow.|
 T A Prayer and a Wing|QID|25664|M|44.38,46.21|N|To Choluna.|
-A Fact-Finding Mission|QID|25740|M|43.55,45.82|N|From Skylord Omnuron.|N|Go up the ramp at the front of the Shrine, and follow it up to the third tier. Pick up Fact-Finding Mission from Skylord Omnuron. We will be doing this quest later.|
+A Fact-Finding Mission|QID|25740|M|43.55,45.82|N|From Skylord Omnuron. We will be doing this quest later.|
+A Save the Wee Animals|QID|25385|M|19.25,37.96|N|Mount up and head west, past the Shrine of Goldrinn and the Twilight Cultists camp. Follow the road until you reach the Grove of Aessina. From Mylune.|
+A If You're Not Against Us...|QID|25404|M|19.04,36.98|N|From Matoclaw.|
+f Grove of Aessina|QID|25404|M|19.58,36.42|N|At Elizil Wintermoth.|
+C If You're Not Against Us...|QID|25404|M|22.18,44.91|
+T If You're Not Against Us...|QID|25404|M|22.18,44.91|N|To Tyrus Blackhorn.|
+A Seeds of Their Demise|QID|25408|M|22.18,44.91|N|Leave the shrine and go slightly east up the road to a small tower. Find Tyrus Blackhorn at the base of the tower. From Tyrus Blackhorn.|
+C Seeds of Their Demise|QID|25408|M|21.63,43.89|N|Kill Wailing Weeds in the area directly surrounding the tower until you get 8 Bileberry.  AE spells and abilities are the most effective method.|
+T Seeds of Their Demise|QID|25408|M|22.18,44.83|N|To Tyrus Blackhorn.|
+A A New Master|QID|25411|M|22.18,44.83|N|From Tyrus Blackhorn.|
+T The Fires of Mount Hyjal|QID|25630|M|19.02,40.99|N|At Laina Nightsky just outside of the grove.|
+A Fighting Fire With ... Anything|QID|25381|M|19.02,40.99|N|From Laina Nightsky.|
+A Disrupting the Rituals|QID|25382|M|19.02,40.99|N|From Laina Nightsky.|
+C A New Master|QID|25411|U|53120|M|14.54,45.26|N|Kill a Twilight Inferno Lord and then use the Bottled Bileberry Brew on him to complete A New Master.|
+T A New Master|QID|25411|M|14.54,45.26|N|To Subjugated Inferno Lord.|
+A The Name Never Spoken|QID|25412|M|14.54,45.26|N|From Subjugated Inferno Lord.|
+C Save the Wee Animals|QID|25385|S|M|13.57,39.83|
+C Disrupting the Rituals|QID|25382|S|M|12.02,38.36|
+C Fighting Fire With ... Anything|QID|25381|S|M|13.72,46.89|
+N The Name Never Spoken|QID|25412|QO|Southern Firestone Examined: 1/1|M|14.33,45.33|N|The first firestone is in the southern end of the charred zoned.  Clear the mobs and right-click to examine it.|
+N The Name Never Spoken|QID|25412|QO|Central Firestone Examined: 1/1|M|11.61,41.50|N|The second firestone is just a bit north of the southern stone.|
+C The Name Never Spoken|QID|25412|M|9.63,36.45|N|The last firestone is just north of the central stone.|
+C Save the Wee Animals|QID|25385|US|M|13.57,39.83|
+C Disrupting the Rituals|QID|25382|US|M|12.02,38.36|
+C Fighting Fire With ... Anything|QID|25381|US|M|13.72,46.89|
+T Fighting Fire With ... Anything|QID|25381|M|18.95,40.99|N|To Laina Nightsky.|
+T Disrupting the Rituals|QID|25382|M|18.95,40.99|N|To Laina Nightsky.|
+T Save the Wee Animals|QID|25385|M|19.25,37.95|N|To Mylune.|
+A Oh, Deer!|QID|25392|M|19.25,37.95|N|From Mylune.|
+T The Name Never Spoken|QID|25412|M|22.23,44.93|N|To Tyrus Blackhorn.|
+A Black Heart of Flame|QID|25428|M|22.23,44.93|N|From Tyrus Blackhorn.|
+C Black Heart of Flame|QID|25428|U|53464|M|12.37,44.26|
+C Oh, Deer!|QID|25392|M|18.99,37.66|
+T Oh, Deer!|QID|25392|M|19.24,37.81|N|To Mylune.|
+T Black Heart of Flame|QID|25428|M|22.18,44.93|N|To Tyrus Blackhorn.|
+A Last Stand at Whistling Grove|QID|25940|M|19.10,40.98|N|From Laina Nightsky.|
+T Last Stand at Whistling Grove|QID|25940|M|13.68,32.88|N|To Keeper Taldros.|
+A The Bears Up There|QID|25462|M|13.68,32.88|N|From Keeper Taldros.|
 ]]
 
 end)
