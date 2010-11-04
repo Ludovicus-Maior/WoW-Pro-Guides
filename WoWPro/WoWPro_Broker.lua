@@ -16,9 +16,9 @@ function WoWPro:LoadGuide(guideID)
 	-- Clearing tables --
 	WoWPro.step, WoWPro.action, WoWPro.note,  WoWPro.QID,  WoWPro.map, 
 		WoWPro.sticky, WoWPro.unsticky, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
-		WoWPro.lootqty, WoWPro.questtext, WoWPro.optional, 
+		WoWPro.lootqty, WoWPro.questtext, WoWPro.optional, WoWPro.waypcomplete,
 		WoWPro.prereq
-		= {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+		= {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 		
 	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
 
