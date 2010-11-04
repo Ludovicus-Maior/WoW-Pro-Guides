@@ -90,13 +90,8 @@ function WoWPro_Leveling:NextStep(k, i)
 			proflvl = proflvl or 1
 			skip = true --Profession steps skipped by default
 			local profs = {}
-<<<<<<< HEAD
 			prof[1], prof[2], prof[3], prof[4], prof[5], prof[6] = GetProfessions()
 			for p=1,6 do
-=======
-			prof[1], prof[2] = GetProfessions()
-			for p=1,2 do
->>>>>>> Cataclysm
 				local skillName, _, skillRank = GetProfessionInfo(prof[p])
 				if skillName == prof and skillRank >= proflvl then
 					skip = false -- The step is NOT skipped if the skill is present at the correct level or higher
