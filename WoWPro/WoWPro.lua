@@ -111,14 +111,18 @@ function WoWPro:OnEnable()
 		"level", "target", "prof", "waypcomplete", "rank" 
 	}
 	
+	-- Setting up addon-wide events --
+	WoWPro.events = {
+		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED",
+		"UPDATE_BINDINGS",
+	}
+	
 	-- Module Enabling --
 	for name, module in WoWPro:IterateModules() do
 		WoWPro:dbp("Enabling "..name.." module...")
 		module:Enable()
 	end
-	
-	-- Registering events and updating the guide window --
-	WoWPro:RegisterEvents()
+	WoWPro:RegisterAllEvents()
 	WoWPro:LoadGuide()
 	WoWPro:MapPoint()
 	WoWPro:CustomizeFrames()
@@ -141,24 +145,22 @@ function WoWPro:OnDisable()
 end
 
 function WoWPro:RegisterTags(tagtable)
+	if not WoWPro.Tags then return end
 	for i=1,#tagtable do
 		table.insert(WoWPro.Tags,tagtable[i])
 	end
 end
 
--- Auto-completion Event Responders --
-function WoWPro:RegisterEvents()
-	WoWPro:dbp("Registering Events: Core Addon")
-	
-	WoWPro.events = {
-		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED",
-		"UPDATE_BINDINGS",
-	}
-	
-	-- Module Events --
-	for name, module in WoWPro:IterateModules() do
-		WoWPro[name]:RegisterEvents() 
+function WoWPro:RegisterEvents(eventtable)
+	if not WoWPro.events then return end
+	for i=1,#eventtable do
+		table.insert(WoWPro.events,eventtable[i])
 	end
+end
+
+-- Auto-completion Event Responders --
+function WoWPro:RegisterAllEvents()
+	WoWPro:dbp("Registering Events: Core Addon")
 	
 	for _, event in ipairs(WoWPro.events) do
 		WoWPro.GuideFrame:RegisterEvent(event)
@@ -184,7 +186,7 @@ function WoWPro:RegisterEvents()
 
 		-- Module Event Handlers --
 		for name, module in WoWPro:IterateModules() do
-			WoWPro[name]:EventHandler(self, event, ...) 
+			if WoWPro[name].EventHandler then WoWPro[name]:EventHandler(self, event, ...) end
 		end
 	end)
 end

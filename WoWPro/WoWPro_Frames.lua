@@ -112,9 +112,9 @@ function WoWPro:BackgroundSet()
 		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0) 
 	end
 -- Recorder Frame --
-	if WoWPro_Recorder then
-		WoWPro_Recorder:RecorderFrameSet()
-	end
+--	if WoWPro.Recorder then
+--		WoWPro.Recorder:RecorderFrameSet()
+--	end
 end	
 function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do
@@ -660,6 +660,7 @@ function WoWPro:CreateSkipStepsDialog()
 	end
 end
 
+-- TODO: make it module specific, move this to WoWPro_Leveling
 -- Next Guide Dialog --
 function WoWPro:CreateNextGuideDialog()
 	
@@ -705,7 +706,7 @@ function WoWPro:CreateNextGuideDialog()
 	button3text:SetText("Reset Current Guide")
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
-		WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+		WoWPro_LevelingDB.guide[WoWProDB.char.currentguide] = nil
 		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
@@ -728,6 +729,7 @@ function WoWPro:CreateDropdownMenu()
 		end},
 	}
 	
+	-- TODO: move this to wowpro_leveling
 	-- Modules --
 	if WoWPro.Leveling then
 		table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )

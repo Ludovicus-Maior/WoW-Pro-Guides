@@ -87,10 +87,11 @@ function WoWPro:UpdateGuide(offset)
 	WoWPro_LevelingDB.guide[GID].progress = p
 	WoWPro_LevelingDB.guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
 	
+	-- TODO: make next lines module specific
 	WoWPro.TitleText:SetText(WoWPro.Guides[GID].zone.."   ("..WoWPro_LevelingDB.guide[GID].progress.."/"..WoWPro_LevelingDB.guide[GID].total..")")
 	
 	-- If the guide is complete, loading the next guide --
-	if WoWPro_LevelingDB.guide[GID].progress == WoWPro_LevelingDB.guide[GID].total and not WoWPro_Recorder then
+	if WoWPro_LevelingDB.guide[GID].progress == WoWPro_LevelingDB.guide[GID].total and not WoWPro.Recorder then
 		if WoWProDB.profile.autoload then
 			WoWProDB.char.currentguide = WoWPro.Guides[GID].nextGID
 			WoWPro:LoadGuide()
@@ -192,6 +193,8 @@ function WoWPro.CompleteStep(step)
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
 	WoWPro_LevelingDB.guide[GID].completion[step] = true
+	
+	-- TODO: make next lines module specific
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWPro_LevelingDB.guide[GID].completion[row.index] then
 			row.check:SetChecked(true)

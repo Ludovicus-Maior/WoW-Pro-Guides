@@ -9,9 +9,8 @@ local dialog = LibStub("AceConfigDialog-3.0")
 function WoWPro_Recorder:CreateRecorderFrame()
 	local recorderframe = CreateFrame("Button", "RecorderFrame", WoWPro.MainFrame)
 	recorderframe:SetHeight(30)
-	recorderframe:SetWidth(200)
-	recorderframe:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "TOPLEFT")
-	recorderframe:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "TOPRIGHT")
+	recorderframe:SetWidth(225)
+	recorderframe:SetPoint("TOPRIGHT", Minimap, "BOTTOMRIGHT", 0, -20)
 	recorderframe:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 		tile = true, tileSize = 16,

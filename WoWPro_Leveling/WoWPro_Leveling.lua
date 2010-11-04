@@ -14,6 +14,11 @@ function WoWPro.Leveling:OnEnable()
 	
 	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin"})
 	
+	WoWPro:RegisterEvents({"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
+		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
+		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", "PLAYER_LEVEL_UP"
+	})
+	
 	--Loading Frames--
 	if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Leveling:CreateConfig()

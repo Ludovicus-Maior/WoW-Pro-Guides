@@ -6,10 +6,11 @@ local L = WoWPro_Locale
 local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
-WoWPro_Recorder = WoWPro:NewModule("WoWPro Recorder")
+WoWPro.Recorder = WoWPro:NewModule("Recorder")
+WoWPro_Recorder = {}
 	
 
-function WoWPro_Recorder:OnInitialize()
+function WoWPro.Recorder:OnInitialize()
 	
 	-- Creating the config options --
 --	WoWPro_Recorder:CreateConfig()
@@ -19,7 +20,7 @@ function WoWPro_Recorder:OnInitialize()
 
 end
 
-function WoWPro_Recorder:OnEnable()
+function WoWPro.Recorder:OnEnable()
 
 	-- Creating empty user settings if none exist
 	WoWPro_RecorderDB = WoWPro_RecorderDB or {}
@@ -31,7 +32,7 @@ function WoWPro_Recorder:OnEnable()
 	WoWPro_Recorder:RegisterSavedGuides()
 end
 
-function WoWPro_Recorder:OnDisable()
+function WoWPro.Recorder:OnDisable()
 
 	-- Unregistering Recorder Module Events --
 	local events = {
@@ -46,8 +47,7 @@ function WoWPro_Recorder:RegisterSavedGuides()
 	local myUFG = UnitFactionGroup("player")
 	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
-		table.insert(WoWPro.GuideList, {
-			GID = GID,
+		WoWPro.Guides[GID] = {
 			guidetype = guideInfo.guidetype,
 			zone = guideInfo.zone,
 			author = guideInfo.author,
@@ -57,13 +57,12 @@ function WoWPro_Recorder:RegisterSavedGuides()
 return guideInfo.sequence
 end,
 			nextGID = guideInfo.nextGID,
-		})
+		}
 	end
 end
 
 function WoWPro_Recorder:RegisterGuide(module, zonename, startlevelvalue, endlevelvalue, authorname, GIDvalue, nextGIDvalue)
-	table.insert(WoWPro.GuideList, {
-		GID = GIDvalue,
+	WoWPro.Guides[GIDvalue] = {
 		guidetype = gsub(module,"WoWPro ",""),
 		zone = zonename,
 		author = authorname,
@@ -74,7 +73,7 @@ return [[
 N First Step |QID|1|N|This is the first step in your new guide. A guide must always have at least one step. Delete this one when you add your own!|
 ]] end,
 		nextGID = nextGIDvalue,
-	})
+	}
 	
 end
 

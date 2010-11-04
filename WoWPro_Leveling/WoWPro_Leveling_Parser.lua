@@ -553,25 +553,6 @@ function WoWPro.Leveling:RowUpdate(offset)
 	return reload
 end
 
--- Register Leveling Events --
-function WoWPro.Leveling:RegisterEvents()
-	WoWPro:dbp("Registering Events: Leveling Module")
-
-	WoWPro.Leveling.CompletingQuest = false
-	
-	table.insert(WoWPro.events, "QUEST_LOG_UPDATE")
-	table.insert(WoWPro.events, "QUEST_COMPLETE")
-	table.insert(WoWPro.events, "QUEST_QUERY_COMPLETE")
-	table.insert(WoWPro.events, "ZONE_CHANGED")
-	table.insert(WoWPro.events, "ZONE_CHANGED_INDOORS")
-	table.insert(WoWPro.events, "MINIMAP_ZONE_CHANGED")
-	table.insert(WoWPro.events, "ZONE_CHANGED_NEW_AREA")
-	table.insert(WoWPro.events, "UI_INFO_MESSAGE")
-	table.insert(WoWPro.events, "CHAT_MSG_SYSTEM")
-	table.insert(WoWPro.events, "CHAT_MSG_LOOT")
-	table.insert(WoWPro.events, "PLAYER_LEVEL_UP")
-end
-
 -- Event Response Logic --
 function WoWPro.Leveling:EventHandler(self, event, ...)
 
