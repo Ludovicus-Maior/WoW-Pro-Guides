@@ -48,14 +48,14 @@ function WoWPro:LoadGuide(guideID)
 	-- Stopping update if module isn't enabled --
 	if WoWPro.loadedguide["guidetype"] == "Leveling" and not WoWPro_Leveling:IsEnabled() then return end
 
-	if not WoWPro.combat then WoWPro:UpdateGuide() end
+	if not InCombatLockdown() then WoWPro:UpdateGuide() end
 	WoWPro:MapPoint()
 end
 
 -- Guide Update --
 function WoWPro:UpdateGuide(offset)
 
-	if WoWPro.combat then return end
+	if InCombatLockdown() then return end
 	if WoWProDB.char.currentguide == "NilGuide" then WoWPro:LoadNilGuide(); return end
 	if not WoWPro.loadedguide then return end
 	
@@ -121,58 +121,6 @@ function WoWPro:UpdateGuide(offset)
 	end
 end	
 
--- Auto-completion Event Responders --
-function WoWPro:RegisterEvents()
-	WoWPro.events = {
-		"PLAYER_REGEN_ENABLED", "PLAYER_REGEN_DISABLED", "PARTY_MEMBERS_CHANGED",
-		"UPDATE_BINDINGS",
-	}
-	
-	-- Module Events --
-	if WoWPro_Leveling:IsEnabled() then 
-		WoWPro_Leveling:RegisterEvents()
-	end
-	
-	for _, event in ipairs(WoWPro.events) do
-		WoWPro.GuideFrame:RegisterEvent(event)
-	end
-		
-	local function eventHandler(self, event, ...)
-	
-		-- Locking down guide frame while in combat --
-		if event == "PLAYER_REGEN_DISABLED" then
-			WoWPro.combat = true
-		end
-		
-		-- Unlocking guide frame when leaving combat --
-		if event == "PLAYER_REGEN_ENABLED" then
-			WoWPro.combat = false
-			if WoWPro.completing then 
-				WoWPro:UpdateGuide() 
-				WoWPro.completing = false
-			end
-		end
-		
-		-- Updating party-dependant options --
-		if event == "PARTY_MEMBERS_CHANGED" and not WoWPro.combat then
-			WoWPro:UpdateGuide() 
-		end
-
-		-- Updating WoWPro keybindings --
-		if event == "UPDATE_BINDINGS" and not WoWPro.combat then
-			WoWPro:UpdateGuide() 
-		end
-
-		-- Module Event Handlers --
-		if WoWPro_Leveling:IsEnabled() then 
-			WoWPro_Leveling:EventHandler(self, event, ...)
-		end
-		
-	end
-
-	WoWPro.GuideFrame:SetScript("OnEvent", eventHandler);
-end
-
 -- Step Completion Tasks --
 function WoWPro.CompleteStep(step)
 	WoWPro.completing = true
@@ -189,7 +137,7 @@ function WoWPro.CompleteStep(step)
 		end
 	end
 	WoWPro:MapPoint()
-	if not WoWPro.combat then 
+	if not InCombatLockdown() then 
 		WoWPro:UpdateGuide() 
 		WoWPro.completing = false
 	end

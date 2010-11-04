@@ -2,18 +2,22 @@
 --      WoWPro_Leveling      --
 -------------------------------
 
-local L = WoWPro_Locale
 local myUFG = UnitFactionGroup("player")
 
 WoWPro_Leveling = WoWPro:NewModule("WoWPro Leveling")
 WoWPro.GuideList = {}
 	
 function WoWPro_Leveling:OnInitialize()
-	-- Creating the config options --
-	WoWPro_Leveling:CreateConfig()
+	WoWPro.Modules["WoWPro Leveling"] =  WoWPro_ThisModuleDB.enable
 end
 
 function WoWPro_Leveling:OnEnable()
+	--Loading Frames--
+	if not WoWPro_Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
+		WoWPro_Leveling:CreateConfig()
+		WoWPro_Leveling.FramesLoaded = true
+	end
+	
 	-- Creating empty user settings if none exist
 	WoWProDB.char.guide = WoWProDB.char.guide or {} 
 	WoWPro.completedQIDs = WoWPro.completedQIDs or {}
