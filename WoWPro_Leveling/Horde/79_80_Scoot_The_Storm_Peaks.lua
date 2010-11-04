@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("ScoSto7980", "The Storm Peaks", "Scoot", "79", "80", "ScoIce8080", "Horde", function()
+WoWPro.Leveling:RegisterGuide("ScoSto7980", "The Storm Peaks", "Scoot", "79", "80", "ScoIce8080", "Horde", function()
 return [[
 
 N Read Please |QID|12853| |N|This guide will get you the Achievement The Summit of Storm Peaks.  Set your Hearth anywhere you want. Sell/Repair/Restock when you think you need to.|

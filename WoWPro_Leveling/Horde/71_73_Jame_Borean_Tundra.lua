@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamBor7173", "Borean Tundra", "Jame", "71", "73", "JamDra7375", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamBor7173", "Borean Tundra", "Jame", "71", "73", "JamDra7375", "Horde", function()
 --> Original guides written/designed by [Jame]
 -->
 --> Addon written by [Black Cat] 2/14/2009

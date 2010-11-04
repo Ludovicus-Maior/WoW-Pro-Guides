@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHel6062", "Hellfire Peninsula", "Jame", "60", "62", "JamZan6264", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamHel6062", "Hellfire Peninsula", "Jame", "60", "62", "JamZan6264", "Alliance", function()
 return [[
 H Stormwind City|QID|10119|
 R Portal to the Blasted Lands|QID|10119|N|By the Portal Trainer |Z|Stormwind City|M|50.3,86|

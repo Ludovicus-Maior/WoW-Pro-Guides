@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("RpoGil0105", "Gilneas City", "Rpotor", "01", "05", "nil", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("RpoGil0105", "Gilneas City", "Rpotor", "01", "05", "nil", "Alliance", function()
 return [[
 
 A Lockdown! |QID|14078|M|59.2,23.9|N|From Prince Liam Greymane right in front of you.|

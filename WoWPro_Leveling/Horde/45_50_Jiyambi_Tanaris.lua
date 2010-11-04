@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('JiyTan4550', 'Tanaris', 'Jiyambi', '45', '50', 'JiyUng5055', 'Horde', function() 
+WoWPro.Leveling:RegisterGuide('JiyTan4550', 'Tanaris', 'Jiyambi', '45', '50', 'JiyUng5055', 'Horde', function() 
 return [[
 
 f Gadgetzan|QID||M|52.04,27.61|N|From Bulkrek Ragefist.|

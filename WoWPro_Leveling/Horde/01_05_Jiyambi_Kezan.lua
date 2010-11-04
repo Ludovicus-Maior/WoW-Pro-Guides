@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JiyKez0105", "Kezan", "Jiyambi", "01", "05", "PreLos0512", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JiyKez0105", "Kezan", "Jiyambi", "01", "05", "PreLos0512", "Horde", function()
 --> Original guides written/designed by [Jiyambi]
 -->
 --> Last modified by [Pretzl] 12:48 AM 9/19/2010

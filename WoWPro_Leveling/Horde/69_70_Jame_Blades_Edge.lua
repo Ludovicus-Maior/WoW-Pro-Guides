@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamBla6970", "Blade's Edge Mountains", "Jame", "69", "70", "JamHow7071", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamBla6970", "Blade's Edge Mountains", "Jame", "69", "70", "JamHow7071", "Horde", function()
 return [[
 H Garadar|QID|10928|U|6948|
 

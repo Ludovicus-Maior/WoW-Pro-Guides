@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamDra7475", "Dragonblight", "Jame", "74", "75", "JamGri7577", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamDra7475", "Dragonblight", "Jame", "74", "75", "JamGri7577", "Alliance", function()
 return [[
 
 

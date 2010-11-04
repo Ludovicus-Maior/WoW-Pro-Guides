@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamZan6466", "Zangarmarsh", "Jame", "64","66", "JamTer6466", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamZan6466", "Zangarmarsh", "Jame", "64","66", "JamTer6466", "Alliance", function()
 return [[
 R Zangarmarsh|QID|9912|N|Go to Zangarmarsh.|M|4.00, 51.00|
 A The Umbrafen Tribe|QID|9747|M|80.40, 64.20|

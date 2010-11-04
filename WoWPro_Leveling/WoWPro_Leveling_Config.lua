@@ -29,9 +29,9 @@ local function createBlizzOptions()
 				name = L["Enable Module"],
 				desc = L["Enables/Disables the leveling module of the WoW-Pro guide addon."],
 				width = "full",
-				get = function(info) return WoWPro_Leveling:IsEnabled() end,
+				get = function(info) return WoWPro.Leveling:IsEnabled() end,
 				set = function(info,val)  
-						if WoWPro_Leveling:IsEnabled() then WoWPro_Leveling:Disable() else WoWPro_Leveling:Enable() end
+						if WoWPro.Leveling:IsEnabled() then WoWPro.Leveling:Disable() else WoWPro.Leveling:Enable() end
 					end
 			}, 
 			blank2 = {
@@ -188,12 +188,12 @@ local function createBlizzOptions()
 		},
 	})
 	dialog:SetDefaultSize("WoWPro-Leveling-Bliz", 600, 400)
-	dialog:AddToBlizOptions("WoWPro-Leveling-Bliz", "WoW-Pro Leveling", "WoW-Pro Guides")
+	dialog:AddToBlizOptions("WoWPro-Leveling-Bliz", "WoW-Pro Leveling")
 
 	return blizzPanel
 end
 
-function WoWPro_Leveling:CreateConfig()
+function WoWPro.Leveling:CreateConfig()
 	blizzPanel = createBlizzOptions()
 	InterfaceOptions_AddCategory(WoWPro_Leveling_GuideListFrame)
 	InterfaceOptions_AddCategory(WoWPro_Leveling_CurrentGuide)

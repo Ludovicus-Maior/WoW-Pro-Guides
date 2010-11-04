@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("PreLos0512", "Lost Isles", "Pretzl", "05", "12", "Nil", "Horde", function()
+WoWPro.Leveling:RegisterGuide("PreLos0512", "Lost Isles", "Pretzl", "05", "12", "Nil", "Horde", function()
 --> Original guides written/designed by [Pretzl]
 -->
 --> Last modified by [Pretzl] 9/20/2010

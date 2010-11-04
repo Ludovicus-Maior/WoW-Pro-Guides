@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('SolDar1220', 'Darkshore', 'Solitha', '12', '20', 'SolAsh2025', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('SolDar1220', 'Darkshore', 'Solitha', '12', '20', 'SolAsh2025', 'Alliance', function()
 -- Recorded by Solitha
 -- Needs polish, |RANK| tags, |PRE| tags, |N| tags.
 

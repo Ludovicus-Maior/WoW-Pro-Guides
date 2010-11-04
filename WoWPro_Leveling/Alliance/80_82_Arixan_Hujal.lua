@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('Arihyj8082', 'Hyjal', 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Hyjal', 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
 return [[
 
 A A Personal Summons|QID|28825|M|71.44,72.32|Z|Stormwind City|

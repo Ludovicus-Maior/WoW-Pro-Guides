@@ -654,7 +654,7 @@ function WoWPro:CreateSkipStepsDialog()
 		WoWPro.SkipStepsDialog:SetHeight(120+WoWPro.SkipStepsDialogText:GetHeight())
 		WoWPro.SkipStepsCancelButton:SetScript("OnClick", function(self, button)
 			WoWPro.SkipStepsDialog:Hide()
-			WoWPro_Leveling:UnSkipStep(index)
+			WoWPro.Leveling:UnSkipStep(index)
 		end)
 		WoWPro.SkipStepsDialog:Show()
 	end
@@ -729,7 +729,7 @@ function WoWPro:CreateDropdownMenu()
 	}
 	
 	-- Modules --
-	if WoWPro_Leveling then
+	if WoWPro.Leveling then
 		table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 		table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )
 		table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
@@ -744,10 +744,10 @@ function WoWPro:CreateDropdownMenu()
 				InterfaceOptionsFrame_OpenToCategory("Guide List") 
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
-				if not WoWProDB.char.currentguide or WoWProDB.char.currentguide == "NilGuide" then return end
-				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+				if not WoWProDB.char.currentguide then return end
+				WoWPro_LevelingDB.guide[WoWProDB.char.currentguide] = nil
 				for j = 1,WoWPro.stepcount do 
-					if WoWPro.QID[j] then WoWProDB.char.skippedQIDs[WoWPro.QID[j]] = nil end
+					if WoWPro.QID[j] then WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = nil end
 				end
 				WoWPro:LoadGuide()
 			end} )

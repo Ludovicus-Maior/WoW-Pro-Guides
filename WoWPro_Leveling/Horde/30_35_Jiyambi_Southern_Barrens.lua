@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('JiySou1525', 'Southern Barrens', 'Jiyambi', '30', '35', 'JiyDus3540', 'Horde', function() 
+WoWPro.Leveling:RegisterGuide('JiySou1525', 'Southern Barrens', 'Jiyambi', '30', '35', 'JiyDus3540', 'Horde', function() 
 --Needs testing by a level appropriate character
 return [[
 

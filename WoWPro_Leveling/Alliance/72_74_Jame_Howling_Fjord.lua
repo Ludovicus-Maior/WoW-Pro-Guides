@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHow7274", "Howling Fjord", "Jame", "72", "74", "JamDra7475", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamHow7274", "Howling Fjord", "Jame", "72", "74", "JamDra7475", "Alliance", function()
 return [[
 
 

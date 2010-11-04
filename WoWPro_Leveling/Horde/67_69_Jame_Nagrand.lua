@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamNag6769", "Nagrand", "Jame", "67", "69", "JamBla6970", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamNag6769", "Nagrand", "Jame", "67", "69", "JamBla6970", "Horde", function()
 --> Original guides written/designed by [Jame]
 -->
 --> Addon written by [Black Cat] 2/14/2009

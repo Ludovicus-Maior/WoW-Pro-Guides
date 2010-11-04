@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 12, 25, 8, 16
 local offset, rows, shownrows = 0, {}, NUMROWS
-WoWPro_Leveling.CreateCurrentGuideTitle = true
+WoWPro.Leveling.CreateCurrentGuideTitle = true
 local title, subtitle
 
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
@@ -16,7 +16,7 @@ frame:Hide()
 -- Frame Contents --
 frame:SetScript("OnShow", function()
 
-	if WoWPro_Leveling.CreateCurrentGuideTitle then
+	if WoWPro.Leveling.CreateCurrentGuideTitle then
 		title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
 		title:SetPoint("TOPLEFT", 16, -16)
 		title:SetText("WoW-Pro Leveling - "..L["Current Guide"])
@@ -29,10 +29,10 @@ frame:SetScript("OnShow", function()
 		subtitle:SetJustifyH("LEFT")
 		subtitle:SetJustifyV("TOP")
 		
-		WoWPro_Leveling.CreateCurrentGuideTitle = false
+		WoWPro.Leveling.CreateCurrentGuideTitle = false
 	end
 	
-	if WoWProDB.char.currentguide == "NilGuide" then 
+	if not WoWProDB.char.currentguide then 
 		subtitle:SetText(L["No guide is currently loaded."])
 		return 
 	else
@@ -66,13 +66,13 @@ frame:SetScript("OnShow", function()
 		rows[i] = row
 	end
 	
-	function WoWPro_Leveling.UpdateCurrentGuidePanel()
+	function WoWPro.Leveling.UpdateCurrentGuidePanel()
 		if not frame:IsVisible() then return end
-		if WoWProDB.char.currentguide == "NilGuide" then return end
+		if not WoWProDB.char.currentguide then return end
 		local GID = WoWProDB.char.currentguide
 		local steplist = WoWPro.step
 		local optional = WoWPro.optional
-		local completion = WoWProDB.char.guide[GID].completion
+		local completion = WoWPro_LevelingDB.guide[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
 		local i = 1
@@ -81,9 +81,9 @@ frame:SetScript("OnShow", function()
 		for i,row in ipairs(rows) do
 			row.index = index
 			
-			if completion[index] or WoWProDB.char.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QID[index]] then
+			if completion[index] or WoWPro_LevelingDB.guide[GID].skipped[index] or WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[index]] then
 				row.check:SetChecked(true)
-				if WoWProDB.char.guide[GID].skipped[index] or WoWProDB.char.skippedQIDs[WoWPro.QID[index]] then
+				if WoWPro_LevelingDB.guide[GID].skipped[index] or WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[index]] then
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 				else
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
@@ -123,7 +123,7 @@ frame:SetScript("OnShow", function()
 			row.step:SetText(step)
 			
 			local action = WoWPro.action[index]
-			row.action:SetTexture(WoWPro_Leveling.actiontypes[action])
+			row.action:SetTexture(WoWPro.Leveling.actiontypes[action])
 			if WoWPro.noncombat[index] then
 				row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
 			end
@@ -149,7 +149,7 @@ frame:SetScript("OnShow", function()
 			row.check:SetScript("OnClick", function(self, button, down)
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 				if button == "LeftButton" and row.check:GetChecked() then
-					local steplist = WoWPro_Leveling:SkipStep(row.index)
+					local steplist = WoWPro.Leveling:SkipStep(row.index)
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 					if steplist ~= "" then 
 						WoWPro:SkipStepDialogCall(row.index, steplist)
@@ -157,9 +157,9 @@ frame:SetScript("OnShow", function()
 				elseif button == "RightButton" and row.check:GetChecked() then
 					completion[row.index] = true
 				elseif not row.check:GetChecked() then
-					WoWPro_Leveling:UnSkipStep(row.index)
+					WoWPro.Leveling:UnSkipStep(row.index)
 				end
-				WoWPro_Leveling.UpdateCurrentGuidePanel()
+				WoWPro.Leveling.UpdateCurrentGuidePanel()
 				WoWPro:UpdateGuide()
 				WoWPro:MapPoint()
 			end)
@@ -175,18 +175,18 @@ frame:SetScript("OnShow", function()
 	local f = scrollbar:GetScript("OnValueChanged")
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		offset = math.floor(value)
-		WoWPro_Leveling.UpdateCurrentGuidePanel()
+		WoWPro.Leveling.UpdateCurrentGuidePanel()
 		return f(self, value, ...)
 	end)
 
 	frame:EnableMouseWheel()
 	
-	WoWPro_Leveling.UpdateCurrentGuidePanel()
+	WoWPro.Leveling.UpdateCurrentGuidePanel()
 	
 	scrollbar:SetValue(WoWPro.rows[1].index - 3)
 
 	frame:SetScript("OnShow", function() 
-		WoWPro_Leveling.UpdateCurrentGuidePanel()
+		WoWPro.Leveling.UpdateCurrentGuidePanel()
 		scrollbar:SetValue(WoWPro.rows[1].index - 3) 
 	end)
 end )

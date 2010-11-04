@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('JiyUng5055', 'Un\'Goro Crater', 'Jiyambi', '50', '55', 'JiySili5055', 'Horde', function() 
+WoWPro.Leveling:RegisterGuide('JiyUng5055', 'Un\'Goro Crater', 'Jiyambi', '50', '55', 'JiySili5055', 'Horde', function() 
 return [[
 
 A The Fare of Lar'korwi|QID|24731|M|71.27,76.67|N|From Torwa Pathfinder.|

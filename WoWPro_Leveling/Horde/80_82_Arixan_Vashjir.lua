@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('AriVas8082', 'Vashjir', 'Arixan', '80', '82', 'AriHyj8082', 'Horde', function() 
+WoWPro.Leveling:RegisterGuide('AriVas8082', 'Vashjir', 'Arixan', '80', '82', 'AriHyj8082', 'Horde', function() 
 return [[
 
 A Warchief's Command: Vashj'ir!|QID|27718|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|

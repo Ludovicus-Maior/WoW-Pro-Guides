@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamGri7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamGri7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Horde", function()
 --Original guide written/designed by Jame
 --Addon Version: Last Modified 7/14/2010
 return [[

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("ManDar0105", "Darkspear Shore", "Manovan", "01", "05", "PreDar0512", "Horde", function()
+WoWPro.Leveling:RegisterGuide("ManDar0105", "Darkspear Shore", "Manovan", "01", "05", "PreDar0512", "Horde", function()
 --> Original guides written/designed by [Manovan]
 -->
 --> Last modified by [Pretzl] 2:33 AM 9/20/2010

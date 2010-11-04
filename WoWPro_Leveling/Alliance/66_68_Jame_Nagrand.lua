@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamNag6668", "Nagrand", "Jame", "66", "68", "JamBla6870", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamNag6668", "Nagrand", "Jame", "66", "68", "JamBla6870", "Alliance", function()
 return [[
 R Terokkar Forest |QID|9792| |N|Go to Terokkar Forest. |
 R Nagrand |QID|9792| |N|Go to Nagrand. |M|20.30,55.60|

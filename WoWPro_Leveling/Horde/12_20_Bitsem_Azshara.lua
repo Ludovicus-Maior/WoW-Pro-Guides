@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('BitAzs1220', 'Azshara', 'Bitsem', '12', '20', 'Troll5', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('BitAzs1220', 'Azshara', 'Bitsem', '12', '20', 'Troll5', 'Horde', function()
 return [[
 
 T Beyond Durotar|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('JiyDus3540', 'Dustwallow Marsh', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function() 
+WoWPro.Leveling:RegisterGuide('JiyDus3540', 'Dustwallow Marsh', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function() 
 return [[
 
 A Suspicious Hoofprints|RANK|1|QID|27259|M|29.68,47.55|N|From a patch of dirt on the ground.|

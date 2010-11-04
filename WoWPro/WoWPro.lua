@@ -3,8 +3,10 @@
 --------------------------
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
+WP_Modules = {}
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
-WoWPro.debugmode = false
+WoWPro.DebugMode = true
+WoWPro.Guides = {}
 
 -- WoWPro keybindings name descriptions
 _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
@@ -13,7 +15,7 @@ _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
 -- Debug print function
 function WoWPro:dbp(message)
-	if WoWPro.debugmode and message ~= nil then
+	if WoWPro.DebugMode and message ~= nil then
 		print("|cffffff00WoW-Pro Debug|r: "..message)
 	end
 end
@@ -76,14 +78,15 @@ local defaults = { profile = {
 	
 function WoWPro:OnInitialize()
 	WoWProDB = LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
-	-- Setting up callbacks for use with profiels --
-	WoWProDB:RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
-	WoWProDB:RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
-	WoWProDB:RegisterCallback(self, "OnProfileReset", "SetDefaults")
+	-- Setting up callbacks for use with profiels - these seem to be broken? --
+	--	WoWProDB:RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
+	--	WoWProDB:RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
+	--	WoWProDB:RegisterCallback(self, "OnProfileReset", "SetDefaults")
 	WoWPro.Modules = {}
 end
 
 function WoWPro:OnEnable()
+	WoWPro:dbp("|cff33ff33Enabled|r: Core Addon")
 
 	-- Warning if the user is missing TomTom --
 	if not TomTom then
@@ -104,17 +107,14 @@ function WoWPro:OnEnable()
 	
 	-- Setting up addon-wide tags --
 	WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", "unsticky", 
-	"use", "zone", "lootitem", "lootqty", "optional", 
-	"level", "target", "prof", "waypcomplete" }
+		"use", "zone", "lootitem", "lootqty", "optional", 
+		"level", "target", "prof", "waypcomplete", "rank" 
+	}
 	
-	-- Modules --
+	-- Module Enabling --
 	for name, module in WoWPro:IterateModules() do
-		if WoWPro.Modules[name] then module:Enable() end
-			--Sets up module specific...
-				--Tags
-				--Default guides
-				--Save Data Load
-				--Misc (server quest querry, other first log in stuff)
+		WoWPro:dbp("Enabling "..name.." module...")
+		module:Enable()
 	end
 	
 	-- Registering events and updating the guide window --
@@ -135,13 +135,58 @@ function WoWPro:OnEnable()
 end	
 
 function WoWPro:OnDisable()
-	
-	WoWPro.MainFrame:Hide()
-	WoWPro.Titlebar:Hide()
-	
+	WoWPro:AbleFrames()
 	WoWPro.GuideFrame:UnregisterAllEvents()
-	
 	WoWPro:RemoveMapPoint()
+end
+
+function WoWPro:RegisterTags(tagtable)
+	for i=1,#tagtable do
+		table.insert(WoWPro.Tags,tagtable[i])
+	end
+end
+
+-- Auto-completion Event Responders --
+function WoWPro:RegisterEvents()
+	WoWPro:dbp("Registering Events: Core Addon")
+	
+	WoWPro.events = {
+		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED",
+		"UPDATE_BINDINGS",
+	}
+	
+	-- Module Events --
+	for name, module in WoWPro:IterateModules() do
+		WoWPro[name]:RegisterEvents() 
+	end
+	
+	for _, event in ipairs(WoWPro.events) do
+		WoWPro.GuideFrame:RegisterEvent(event)
+	end
+	
+	WoWPro.GuideFrame:SetScript("OnEvent", function(self, event, ...)
+		WoWPro:dbp("Event Fired: "..event)
+		
+		-- Unlocking guide frame when leaving combat --
+		if event == "PLAYER_REGEN_ENABLED" then
+			WoWPro:UpdateGuide() 
+		end
+		
+		-- Updating party-dependant options --
+		if event == "PARTY_MEMBERS_CHANGED" and not InCombatLockdown() then
+			WoWPro:UpdateGuide() 
+		end
+
+		-- Updating WoWPro keybindings --
+		if event == "UPDATE_BINDINGS" and not InCombatLockdown() then
+			WoWPro:UpdateGuide() 
+		end
+
+		-- Module Event Handlers --
+		for name, module in WoWPro:IterateModules() do
+			WoWPro[name]:EventHandler(self, event, ...) 
+		end
+	end)
 end
 
 -- Fix Interface Options Category bug --
