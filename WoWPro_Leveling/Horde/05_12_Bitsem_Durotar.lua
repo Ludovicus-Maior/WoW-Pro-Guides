@@ -1,8 +1,6 @@
 WoWPro_Leveling:RegisterGuide('BitDur0112', 'Durotar', 'Bitsem', '05', '12', 'BitAzs1220', 'Horde', function()
 return [[
 
-T Sen'jin Village|QID|25073|M|56.02,74.71|N|To Master Gadrin.|
-
 A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|
 A Cleaning Up the Coastline|QID|25170|M|55.77,75.34|N|From Bom'bay.|
 f Sen'jin Village|QID|25170|M|55.40,73.40|N|At Handler Marnlek.|

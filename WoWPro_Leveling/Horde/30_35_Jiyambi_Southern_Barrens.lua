@@ -1,4 +1,5 @@
 WoWPro_Leveling:RegisterGuide('JiySou1525', 'Southern Barrens', 'Jiyambi', '30', '35', 'JiyDus3540', 'Horde', function() 
+--Needs testing by a level appropriate character
 return [[
 
 T Warchief's Command: Southern Barrens!|O|RANK|3|QID|28549|M|31.42,13.32|N|To Nura Pathfinder.|
@@ -8,12 +9,12 @@ T Clear the High Road|RANK|1|QID|24504|M|37.36,16.70|N|To Tunawa Stillwind.|
 A Warriors' Redemption|RANK|1|QID|24512|M|37.59,16.65|N|From Holgom.|
 A Feeding the Fear|RANK|1|QID|25284|M|37.61,16.63|N|From Holgom.|
 C Feeding the Fear|RANK|1|QID|25284|S|M|37.27,13.15|
-C Warriors' Redemption|RANK|1|QID|24512|S|M|37.30,14.10|
+C Warriors' Redemption|RANK|1|QID|24512|S|NC|M|37.30,14.10|
 A Eye for an Eye|RANK|1|QID|24513|M|37.11,13.95|N|From Oltarg. Use the rope to get down the cliff, and circle to the other side of the tower to find the entrance.|
 C Eye for an Eye|RANK|1|QID|24513|M|37.17,13.98|
 T Eye for an Eye|RANK|1|QID|24513|M|37.11,13.95|N|To Oltarg.|
 C Feeding the Fear|RANK|1|QID|25284|US|M|37.27,13.15|
-C Warriors' Redemption|RANK|1|QID|24512|US|M|37.30,14.10|
+C Warriors' Redemption|RANK|1|QID|24512|US|NC|M|37.30,14.10|
 T Warriors' Redemption|RANK|1|QID|24512|M|37.63,16.63|N|To Holgom.|
 T Feeding the Fear|RANK|1|QID|25284|M|37.63,16.63|N|To Holgom.|
 A Holdout at Hunter's Hill|RANK|1|QID|24505|M|37.36,16.70|N|From Tunawa Stillwind.|PRE|24504|
@@ -43,15 +44,15 @@ A A Curious Bloom|RANK|1|QID|24542|PRE|24539|M|44.31,33.40|N|From Lane Tallgrass
 A A Family Divided|RANK|1|QID|24543|PRE|24529|M|44.49,33.59|N|From Tawane.|
 C Speaking Their Language|RANK|1|QID|24534|U|49782|M|43.03,41.74|
 T Speaking Their Language|RANK|1|QID|24534|M|44.12,33.71|N|To Makaba Flathoof.|
-C A Curious Bloom|RANK|1|QID|24542|M|42.11,33.99|
+C A Curious Bloom|RANK|1|QID|24542|NC|M|42.11,33.99|
 A Biological Intervention|RANK|1|QID|24565|M|50.37,40.69|N|From Naralex.|
 A Adder Subtraction|RANK|1|QID|24570|M|50.36,40.51|N|From Muyoh.|
 A Lashvine Seeds|RANK|1|QID|24571|M|50.36,40.51|N|From Muyoh.|
 C Biological Intervention|RANK|1|QID|24565|S|
-C Adder Subtraction|RANK|1|QID|24570|S|
+C Adder Subtraction|RANK|1|QID|24570|S|NC|
 C Lashvine Seeds|RANK|1|QID|24571|
 C Biological Intervention|RANK|1|QID|24565|US|
-C Adder Subtraction|RANK|1|QID|24570|US|
+C Adder Subtraction|RANK|1|QID|24570|US|NC|
 T Biological Intervention|RANK|1|QID|24565|M|50.37,40.69|N|To Naralex.|
 A To Harvest Chaos|RANK|1|QID|24574|PRE|24565|M|50.37,40.61|N|From Naralex.|
 T Adder Subtraction|RANK|1|QID|24570|M|50.36,40.51|N|To Muyoh.|
@@ -78,17 +79,17 @@ T Lion's Pride|RANK|1|QID|24552|M|41.54,47.16|N|To Jorn Skyseer.|
 T Meet the New Boss|RANK|1|QID|24551|M|41.53,46.82|N|To Warlord Bloodhilt.|
 T A Line in the Dirt|RANK|1|QID|24546|M|41.64,46.59|N|To Kirge Sternhorn.|
 A Siegebreaker|RANK|1|QID|24569|PRE|24551|M|41.51,46.75|N|From Warlord Bloodhilt.|
-C Siegebreaker|RANK|1|QID|24569|M|41.00,53.10|N|Right-click the catapults.|
+C Siegebreaker|RANK|1|QID|24569|NC|M|41.00,53.10|N|Right-click the catapults.|
 T Siegebreaker|RANK|1|QID|24569|M|41.51,46.75|N|To Warlord Bloodhilt.|
 A Taking Back Taurajo|RANK|1|QID|24572|PRE|24569|M|41.51,46.75|N|From Warlord Bloodhilt.|
 A Honoring the Dead|RANK|1|QID|24573|PRE|24569|M|41.53,46.63|N|From Winnoa Pineforest.|
 C Taking Back Taurajo|RANK|1|QID|24572|S|M|44.05,52.21|
-C Honoring the Dead|RANK|1|QID|24573|U|49880|M|43.70,52.34;44.33,52.57;44.33,52.57;44.36,50.94|N|Follow the arrows to each of the dead tauren, and use the totem by their corpses.|
+C Honoring the Dead|RANK|1|QID|24573|NC|U|49880|M|43.70,52.34;44.33,52.57;44.33,52.57;44.36,50.94|N|Follow the arrows to each of the dead tauren, and use the totem by their corpses.|
 C Taking Back Taurajo|RANK|1|QID|24572|US|M|44.05,52.21|
 T Honoring the Dead|RANK|1|QID|24573|M|41.51,46.64|N|To Winnoa Pineforest.|
 T Taking Back Taurajo|RANK|1|QID|24572|M|41.53,46.81|N|To Warlord Bloodhilt.|
 A Desolation Hold Inspection|RANK|1|QID|24577|PRE|24572|M|41.50,46.78|N|From Warlord Bloodhilt.|
-C Desolation Hold Inspection|RANK|1|QID|24577|M|41.69,69.79|N|Talk to Warlord Bloodhilt - he'll give you a wolf that will take you right where you need to go, past any hostile mobs!|
+C Desolation Hold Inspection|RANK|1|QID|24577|NC|M|41.69,69.79|N|Talk to Warlord Bloodhilt - he'll give you a wolf that will take you right where you need to go, past any hostile mobs!|
 T Desolation Hold Inspection|RANK|1|QID|24577|M|41.69,69.79|N|To Warlord Gar'dul.|
 A Changing of the Gar'dul|RANK|1|QID|24591|PRE|24591|M|41.69,69.79|N|From Warlord Gar'dul.|
 f Desolation Hold|RANK|1|QID|24631|M|41.26,70.78|N|At Crador.|
@@ -104,11 +105,11 @@ T Intelligence Warfare|RANK|1|QID|24634|M|41.65,69.77|N|To Warlord Bloodhilt.|
 A The Butcher of Taurajo|RANK|1|QID|24637|PRE|24634|M|41.65,69.77|N|From Warlord Bloodhilt.|
 A Parts-is-Parts|RANK|2|QID|24619|M|42.62,70.22|N|From Calder Gray.|
 C Silithissues|RANK|2|QID|24654|U|50128|M|43.30,69.26|N|Use the Bucket of Burning Pitch while standing on the white sand patches - the silithid mounds just look like rocks, but when you use the pitch, they'll come running out in a swarm.|
-C Parts-is-Parts|RANK|2|QID|24619|S|U|49948|M|45.29,69.79|N|Use the saw on the bodies of soldiers you kill.|
+C Parts-is-Parts|RANK|2|QID|24619|S|NC|U|49948|M|45.29,69.79|N|Use the saw on the bodies of soldiers you kill.|
 C Flightmare|RANK|2|QID|24631|S|U|50031|M|45.29,69.79|N|While you kill normal soldiers, use the hook on any griffons you see.|
 C Claim the Battle Scar|RANK|2|QID|24618|NC|M|45.29,69.79|
 C Flightmare|RANK|2|QID|24631|US|U|50031|M|45.29,69.79|N|Use the hook on any griffons you see.|
-C Parts-is-Parts|RANK|2|QID|24619|US|U|49948|M|45.29,69.79|N|Use the saw on the bodies of soldiers you kill.|
+C Parts-is-Parts|RANK|2|QID|24619|US|NC|U|49948|M|45.29,69.79|N|Use the saw on the bodies of soldiers you kill.|
 T Parts-is-Parts|RANK|2|QID|24619|M|42.63,70.21|N|To Calder Gray.|
 A Hearts-is-Hearts|RANK|2|QID|24620|PRE|24619|M|42.63,70.21|N|From Calder Gray.|
 T Claim the Battle Scar|RANK|2|QID|24618|M|41.69,69.81|N|To Warlord Bloodhilt.|
@@ -141,10 +142,10 @@ A A Weezil in the Henhouse|RANK|1|QID|24684|M|49.19,82.36|N|From Gann Stonespire
 C A Weezil in the Henhouse|RANK|1|QID|24684|M|50.74,86.78|N|Kill dwarves on your way in.|
 T A Weezil in the Henhouse|RANK|1|QID|24684|M|50.74,86.78|N|To Weezil Slipshadow.|
 A Dwarf Fortress|RANK|1|QID|24685|PRE|24684|M|50.74,86.78|N|From Weezil Slipshadow.|
-C Dwarf Fortress|RANK|1|QID|24685|M|50.14,86.73|N|Be careful - the plans are guarded by a group of three dwarves. Pull cautiously and use cooldowns if you need them.|
+C Dwarf Fortress|RANK|1|QID|24685|NC|M|50.14,86.73|N|Be careful - the plans are guarded by a group of three dwarves. Pull cautiously and use cooldowns if you need them.|
 T Dwarf Fortress|RANK|1|QID|24685|M|50.73,86.83|N|To Weezil Slipshadow.|
 A Sabotage!|RANK|1|QID|24747|PRE|24685|M|50.73,86.83|N|From Weezil Slipshadow.|
-C Sabotage!|RANK|1|QID|24747|M|49.79,86.87|N|Head out of the room and turn right, then right again between the tanks. Follow the arrow, you'll find the artillery shell. Click it, run for your life, and get ready for a fun cutscene!|
+C Sabotage!|RANK|1|QID|24747|NC|M|49.79,86.87|N|Head out of the room and turn right, then right again between the tanks. Follow the arrow, you'll find the artillery shell. Click it, run for your life, and get ready for a fun cutscene!|
 T Sabotage!|RANK|1|QID|24747|M|50.73,86.83|N|To Gann Stonespire. Congrats on a nice, blue quest reward!|
 A Next of Kin|RANK|1|QID|25292|PRE|24747|M|49.23,82.18|N|From Nato Raintree. Take this quest if you'd like to do Dustwallow Marsh next.|
 ]]

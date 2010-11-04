@@ -1,6 +1,6 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">    <Script file="01_05_Jiyambi_Kezan.lua"/>    <Script file="01_05_Manovan_Troll_Starter.lua"/>  <Script file="05_12_Pretzl_Lost_Isles.lua"/>    <Script file="05_12_Pretzl_Durotar.lua"/>  <Script file="05_12_Bitsem_Durotar.lua"/>
-  <Script file="01_12_Snowflake_Blood_Elf_Starter.lua"/>
-  <Script file="12_21_Snowflake_Ghostlands.lua"/>  <Script file="12_20_Bitsem_Azshara.lua"/>  <Script file="30_35_Jiyambi_Southern_Barrens.lua"/>  <Script file="35_40_Jiyambi_Dustwallow_Marsh.lua"/>
+<Ui xmlns="http://www.blizzard.com/wow/ui/">    <Script file="01_05_Jiyambi_Kezan.lua"/>  <Script file="05_12_Pretzl_Lost_Isles.lua"/>  <Script file="01_05_Bitsem_Echo_Isles.lua"/>  <Script file="05_12_Bitsem_Durotar.lua"/>
+  <Script file="01_12_Snowflake_Eversong_Woods.lua"/>
+  <Script file="12_21_Snowflake_Ghostlands.lua"/>  <Script file="12_20_Bitsem_Azshara.lua"/>  <Script file="30_35_Jiyambi_Southern_Barrens.lua"/>  <Script file="35_40_Jiyambi_Dustwallow_Marsh.lua"/>  <Script file="40_45_Jiyambi_Thousand_Needles.lua"/>  <Script file="45_50_Jiyambi_Tanaris.lua"/>  <Script file="50_55_Jiyambi_UnGoro.lua"/>
   <Script file="60_63_Jame_Hellfire_Peninsula.lua"/>
   <Script file="63_65_Jame_Zangarmarsh.lua"/>
   <Script file="65a_67a_Jame_Terokkar_Forest.lua"/>
