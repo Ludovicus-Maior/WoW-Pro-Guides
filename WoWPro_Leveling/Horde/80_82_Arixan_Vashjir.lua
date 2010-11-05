@@ -80,6 +80,32 @@ C Nerve Tonic|QID|25358|US|M|56.87,39.51|Z|Kelp'thar Forest|N|Finish collecting 
 T Ophidophobia|QID|25459|M|57.08,28.86|Z|Kelp'thar Forest|N|To Adarrah.|
 T Nerve Tonic|QID|25358|M|57.25,29.26|Z|Kelp'thar Forest|N|To Mack Fearsen.|
 A A Desperate Plea|QID|25638|M|56.48,29.99|Z|Kelp'thar Forest|N|From Mack Fearsen.|
+A A Desperate Plea|QID|25638|M|36.09,57.96|Z|
+A Oh, the Insanity!|QID|25651|M|55.25,38.87|Z|Kelp'thar Forest|N|From Budd.|
+A Lady La-La's Medallion|QID|25419|M|50.62,48.43|Z|Kelp'thar Forest|N|Kill Gilblin Collector's until you get Lady La-La's Necklace.|
+K Lady La-La's Medallion|QID|25419|L|55188 5|M|50.62,48.43|Z|Kelp'thar Forest|N|Kill Gilblin Collector's until you get 5 Medllion Fragments.|
+C Lady La-La's Medallion|QID|25419|M|52.75,50.21|Z|Kelp'thar Forest|N|Combine the 5 Medallion Fragments into Lady La-La's Medallion.|
+T Lady La-La's Medallion|QID|25419|M|52.75,50.21|Z|Kelp'thar Forest|N|Complete the quest to get your reward.|
+K Oh, the Insanity!|QID|25651|L|55185 50|M|52.75,50.21|Z|Kelp'thar Forest|N|Kill Gilblin Hoarder's and collect cannon balls until you have 50 Pilfered Cannonballs.|
+C Oh, the Insanity!|QID|25651|M|51.66,53.23|Z|Kelp'thar Forest|N|Use the cannonballs to convert them into a Keg of Gunpowder.|
+A Blackfin's Booty|QID|25503|M|51.15,51.97|Z|Kelp'thar Forest|N|Kill Gilbingle and loot the Waterlogged Journal from him. Use it to accept the quest Blackfin's Booty.|
+T Oh, the Insanity!|QID|25651|M|55.27,38.91|Z|Kelp'thar Forest|N|To Budd.|
+A Dah, Nunt... Dah, Nunt...|QID|25657|M|55.27,38.91|Z|Kelp'thar Forest|N|From Budd.|
+C Dah, Nunt... Dah, Nunt...|QID|25657|U|55190|M|58.21,49.04|Z|Kelp'thar Forest|N|Find the Rusty Harpoon Gun and use the Booby-Trapped Bait. The shark will come and eat the bait.|
+T Dah, Nunt... Dah, Nunt...|QID|25657|M|58.34,48.76|Z|Kelp'thar Forest|
+A Shark Weak|QID|27699|M|58.34,48.76|Z|Kelp'thar Forest|
+C Shark Weak|QID|27699|M|59.25,46.87|Z|Kelp'thar Forest|
+C Blackfin's Booty|QID|25503|M|56.73,53.96|Z|Kelp'thar Forest|N|Find Blackfin. He is an orca that swims in the waters above The Accursed Reef. Kill him and loot Gliblingle's Map.|
+T Shark Weak|QID|27699|M|55.41,38.94|Z|Kelp'thar Forest|N|To Budd.|
+A DUN-dun-DUN-dun-DUN-dun|QID|25670|M|55.41,38.94|Z|Kelp'thar Forest|N|From Budd.|
+C DUN-dun-DUN-dun-DUN-dun|QID|25670|M|60.35,59.75|Z|Kelp'thar Forest|N|Go back to the Rusty Harpoon Gun. Use Budd's Chain. You will be picked up by Gnaws. Use the Fire Harpoon Gun ability when prompted. Once Gnaws dies, you will be in Gnaws' Boneyard. Swim back to The Accursed Reef.|
+T DUN-dun-DUN-dun-DUN-dun|QID|25670|M|58.37,48.55|Z|Kelp'thar Forest|N|To Budd.|
+A A Bone to Pick|QID|25732|M|58.37,48.55|Z|Kelp'thar Forest|N|From Budd.|
+C A Bone to Pick|QID|25732|M|53.15,57.75|Z|Kelp'thar Forest|
+T A Bone to Pick|QID|25732|M|58.34,48.65|Z|Kelp'thar Forest|N|To Budd.|
+A Decisions, Decisions|QID|25743|M|58.34,48.65|Z|Kelp'thar Forest|N|From Budd.|
+C Decisions, Decisions|QID|25743|U|55806|M|58.37,48.52|Z|Kelp'thar Forest|N|Use The Pewter Pounder on The Porcelain Prophet next to you. Budd will turn back into a human.|
+T Decisions, Decisions|QID|25743|M|58.37,48.52|Z|Kelp'thar Forest|N|To Budd.|
 ]]
 
 end)
