@@ -57,7 +57,7 @@ function WoWPro.Leveling:NextStep(k)
 			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
 			for j=1,numprereqs do
 				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-				if not WoWPro.completedQIDs[tonumber(jprereq)] then 
+				if not WoWPro_LevelingDB.completedQIDs[tonumber(jprereq)] then 
 					skip = true -- If one of the prereqs is NOT complete, step is skipped.
 				end
 			end
@@ -243,8 +243,8 @@ function WoWPro.Leveling:LoadGuide()
 		local level = WoWPro.level[i]
 
 		-- Turned in quests --
-		if WoWPro.completedQIDs then
-			if WoWPro.completedQIDs[QID] then
+		if WoWPro_LevelingDB.completedQIDs then
+			if WoWPro_LevelingDB.completedQIDs[QID] then
 				WoWPro_LevelingDB.guide[GID].completion[i] = true
 			end
 		end
@@ -331,7 +331,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		local completion = WoWPro_LevelingDB.guide[GID].completion
 		
 		-- Checking off lead in steps --
-		if leadin and WoWPro.completedQIDs[tonumber(leadin)] then
+		if leadin and WoWPro_LevelingDB.completedQIDs[tonumber(leadin)] then
 			completion[row.index] = true
 			reload = true
 			return reload
