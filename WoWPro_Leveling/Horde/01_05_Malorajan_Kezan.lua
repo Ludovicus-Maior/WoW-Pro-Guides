@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('MalKez0105', 'Kezan', 'Malorajan', '01', '05', 'MalLos0512', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('MalKez0105', 'Kezan', 'Malorajan', '01', '05', 'MalLos0512', 'Horde', function()
 return [[
 
 A Taking Care of Business|QID|14138|M|56.52,77.00|N|From Sassy Hardwrench.|

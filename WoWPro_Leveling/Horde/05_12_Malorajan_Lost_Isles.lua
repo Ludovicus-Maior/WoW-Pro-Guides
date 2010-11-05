@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('MalLos0512', 'Lost Isles', 'Malorajan', '05', '12', 'BitAzs1220', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('MalLos0512', 'Lost Isles', 'Malorajan', '05', '12', 'BitAzs1220', 'Horde', function()
 return [[
 
 A Goblin Escape Pods|QID|14001|M|24.63,77.96|Z|The Lost Isles|N|From Geargrinder Gizmo.|
