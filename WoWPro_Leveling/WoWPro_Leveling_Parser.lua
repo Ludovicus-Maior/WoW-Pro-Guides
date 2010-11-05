@@ -297,7 +297,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 	local itemkb = false
 	local targetkb = false
 	ClearOverrideBindings(WoWPro.MainFrame)
-
+	
 	for i=1,15 do
 		
 		-- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
@@ -549,6 +549,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 	
 	WoWPro.StickyCount = WoWPro.StickyCount or 0
 	WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.StickyCount].index
+	WoWPro.Leveling:UpdateQuestTracker()
 
 	return reload
 end
@@ -802,7 +803,7 @@ function WoWPro.Leveling:UpdateQuestTracker()
 		local track
 		-- Setting up quest tracker --
 		row.trackcheck = false
-		if WoWProDB.profile.track and ( action == "C" or ( (action == "K" or action == "N" ) and questtext)) then
+		if WoWProDB.profile.track and ( action == "C" or questtext) then
 			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard then
 				local j = WoWPro.QuestLog[QID].index
 				row.trackcheck = true
