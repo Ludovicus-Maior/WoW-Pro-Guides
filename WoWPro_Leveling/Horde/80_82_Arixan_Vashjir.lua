@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('AriVas8082', 'Vashjir', 'Arixan', '80', '82', 'AriHyj8082', 'Horde', function() 
+WoWPro_Leveling:RegisterGuide('AriVas8082', 'Vashjir', 'Arixan', '80', '82', 'AriHyj8082', 'Horde', function() 
 return [[
 
 A Warchief's Command: Vashj'ir!|QID|27718|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|
@@ -106,6 +106,17 @@ T A Bone to Pick|QID|25732|M|58.34,48.65|Z|Kelp'thar Forest|N|To Budd.|
 A Decisions, Decisions|QID|25743|M|58.34,48.65|Z|Kelp'thar Forest|N|From Budd.|
 C Decisions, Decisions|QID|25743|U|55806|M|58.37,48.52|Z|Kelp'thar Forest|N|Use The Pewter Pounder on The Porcelain Prophet next to you. Budd will turn back into a human.|
 T Decisions, Decisions|QID|25743|M|58.37,48.52|Z|Kelp'thar Forest|N|To Budd.|
+T A Desperate Plea|QID|25638|M|46.32,47.03|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
+A Undersea Sanctuary|QID|25794|M|46.32,47.03|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
+C Undersea Sanctuary|QID|25794|U|56020|M|46.43,46.27|Z|Kelp'thar Forest|N|Use Erunak's Scrying Orb to view Deepmist Grotto.|
+T Undersea Sanctuary|QID|25794|M|46.33,46.75|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
+A Spelunking|QID|26000|M|46.33,46.75|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
+T Spelunking|QID|26000|M|63.92,59.89|Z|Kelp'thar Forest|N|To Gurrok.|
+h Deepmist Grotto|M|63.92,59.89|Z|Kelp'thar Forest|N|At Erunak Stonespeaker.|
+A Debriefing|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
+C Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|Talk to Gurrok to complete this quest.|
+T Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
+A Wake of Destruction|QID|25887|M|63.92,59.76|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 ]]
 
 end)
