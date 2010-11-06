@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('AriMtH8082', 'Mount Hyjal', 'Arixan', '80', '82', 'nil', 'Horde', function() 
+WoWPro.Leveling:RegisterGuide('AriMtH8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriVas8082', 'Horde', function() 
 return [[
 
 N Mt. Hyjal|PRE|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|
