@@ -285,7 +285,7 @@ A Seeds of the Lashers |QID|12458| |N|Lord Itharius|M|59.6,54.4|
 A Mystery of the Infinite |QID|12470| |N|Chromie |M|60.0,54.5|
 A The Obsidian Dragonshrine |QID|12447| |N|Nalice |M|60.1,54.2|
 
-N Go to Torastrasza |QID|12454| |N|Ask him to send you to the ground level.|
+N Go to Torastrasza |QID|12454| |N|Ask him to send you to the ground level.||M|59.57,53.46|
 
 A Cycle of Life |QID|12454| |N|Ride south/southeast to the Emerald Dragonshrine . Find Nishera the Garden Keeper, she patrols around the lake. Get her quest.|M|63.00,69.00|
 
