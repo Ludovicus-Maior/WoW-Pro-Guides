@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySili5560', 'Horde', function() 
+WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560', 'Horde', function() 
 return [[
 
 N Devilsaurs|QID|24720|N|Huge, elite, hostile dinosaurs patrol this zone, so always be aware of your surroundings! That said, this is one of prettiest and most fun zones, so don't be discouraged!|
@@ -194,8 +194,10 @@ C Ever Watching From Above|QID|24695|QO|Gorilla Observation: 1/1|M|83.98,46.39|N
 C Ever Watching From Above|QID|24695|QO|Diemetradon Observation: 1/1|M|83.50,46.70|N|Diemetradon lever. Use ability 3 to increase your armor, then use ability 2 to defeat 5 humanoids at Marshall's Stand.|
 T Ever Watching From Above|QID|24695|M|83.43,46.02|N|To Nablya.|
 N Talk to Nabiya|QID|28859|N|Speak with Nabiya to be returned to Marshall's Stand.|
-A The Dunes of Silithus|QID|28859|M|55.66,60.65|N|From Zen'Aliri - take this if you would like to do Silithus next.|
 
+A The Dunes of Silithus|QID|28859|M|55.66,60.65|N|From Zen'Aliri - take this if you would like to do Silithus next.|
+F Mossy Pile|O|QID|28859|M|55.97,64.15|N|Fly to Mossy Pile.|
+R Silithus|O|QID|28859|M|29.14,22.29;30.07,10.43;27.30,10.57|N|Head along the road to the north-west, into Silithus.|
 ]]
 
 end)

@@ -599,7 +599,7 @@ function WoWPro.Leveling:AutoCompleteGetFP(...)
 	for i = 1,15 do
 		local index = WoWPro.rows[i].index
 		if ... == ERR_NEWTAXIPATH and WoWPro.action[index] == "f" then
-			WoWProDB.char.guide[WoWProDB.char.currentguide].completion[index] = true
+			WoWPro_LevelingDB.guide[WoWProDB.char.currentguide].completion[index] = true
 			if not WoWPro.combat then WoWPro:UpdateGuide() end
 			WoWPro:MapPoint()
 		end
@@ -749,7 +749,7 @@ function WoWPro.Leveling:AutoCompleteSetHearth(...)
 	local msg = ...
 	local _, _, loc = msg:find(L["(.*) is now your home."])
 	if loc then
-		WoWProDB.char.guide.hearth = loc
+		WoWPro_LevelingDB.guide.hearth = loc
 		for i = 1,15 do
 			local index = WoWPro.rows[i].index
 			if WoWPro.action[index] == "h" and WoWPro.step[index] == loc then
@@ -778,7 +778,7 @@ end
 -- Auto-Complete: Level based --
 function WoWPro.Leveling:AutoCompleteLevel(...)
 	local newlevel = ...
-	if WoWProDB.char.guide then
+	if WoWPro_LevelingDB.guide then
 		local GID = WoWProDB.char.currentguide
 		for i=1,#WoWPro.action do
 			if not WoWPro_LevelingDB.guide[GID].completion[i] 
