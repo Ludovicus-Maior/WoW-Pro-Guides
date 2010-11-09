@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWes5859", "Western Plaguelands", "Jame", "58", "59", "JamEas5959", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamWes5859", "Western Plaguelands", "Jame", "58", "59", "JamEas5959", "Horde", function()
 return [[
 H Undercity|QID|6029|U|6948|
 N Bank|QID|4808|N|Deposit Tinkee's Letter .|Z|Undercity|M|66.6,44.1|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamDes3638", "Desolace", "Jame", "36", "38", "JamDus3840", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamDes3638", "Desolace", "Jame", "36", "38", "JamDus3840", "Alliance", function()
 return [[
 R Nijel's Point |QID|1453| |N|Go to Nijel's Point by going up the path here. |M|67.00,16.00|
 T Reclaimers' Business in Desolace |QID|1453|M|66.2,9.6|

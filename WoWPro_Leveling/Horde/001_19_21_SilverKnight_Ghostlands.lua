@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("SilGho1921", "Ghostlands", "SilverKinght", "19", "21", "JamSto2122", "Horde", function()
+WoWPro.Leveling:RegisterGuide("SilGho1921", "Ghostlands", "SilverKinght", "19", "21", "JamSto2122", "Horde", function()
 return [[
 R Silvermoon City|QID|9151|N|Take the translocation orb to Silvermoon |M|55.24,11.32|
 f Silvermoon City|QID|9151|N||Z|Eversong Woods|M|54.41,50.80|

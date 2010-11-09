@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamSwa4141", "Swamp of Sorrows", "Jame", "41", "41", "JamBad4142", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamSwa4141", "Swamp of Sorrows", "Jame", "41", "41", "JamBad4142", "Horde", function()
 return [[
 R Duskwood |QID|1392|N|Go to the main road then travel north to Duskwood .|Z|Duskwood|M|40.8,4.1|
 R Deadwind Pass |QID|1392|N|Follow the road north and east, turn right at the crossroads (avoiding the alliance town of Darkshire) (87.1,40.6).|Z|Duskwood|

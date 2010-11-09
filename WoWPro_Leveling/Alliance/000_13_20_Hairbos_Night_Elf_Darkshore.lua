@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("HaiDar1320", "Darkshore", "Hairbo", "13", "20", "BosRed2027", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("HaiDar1320", "Darkshore", "Hairbo", "13", "20", "BosRed2027", "Alliance", function()
 return [[
 
 R Rut'theran Village |N|Use the portal behind the bank. |QID|952|

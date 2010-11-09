@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "JamIce7980", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "JamIce7980", "Alliance", function()
 return [[
 
 N READ THIS! |QID|12818| |N|This guide picks up only non-group, non-instance quests. It also assumes that you have cold-weather flight|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosDus2728", "Duskwood", "Boston", "27", "28", "BosWet2829", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosDus2728", "Duskwood", "Boston", "27", "28", "BosWet2829", "Alliance", function()
 return [[
 
 A Look To The Stars (Part 1) |QID|174|M|79.8,48.1|

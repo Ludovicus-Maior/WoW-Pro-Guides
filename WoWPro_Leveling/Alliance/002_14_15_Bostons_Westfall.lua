@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosWes1415", "Westfall", "Boston", "14", "15", "BosRed1518", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosWes1415", "Westfall", "Boston", "14", "15", "BosRed1518", "Alliance", function()
 return [[
 
 A Westfall Stew (part 1) |QID|36| M|60.0,19.4|

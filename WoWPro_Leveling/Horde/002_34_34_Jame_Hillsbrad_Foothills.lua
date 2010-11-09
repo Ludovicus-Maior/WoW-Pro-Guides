@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHil3434", "Hillsbrad Foothills", "Jame", "34", "34", "JamAra3435", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamHil3434", "Hillsbrad Foothills", "Jame", "34", "34", "JamAra3435", "Horde", function()
 
 --> Original guides written/designed by [Jame]
 -->

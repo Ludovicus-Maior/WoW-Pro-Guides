@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHin5050", "The Hinterlands", "Jame", "50", "50", "JamSea5051", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamHin5050", "The Hinterlands", "Jame", "50", "50", "JamSea5051", "Alliance", function()
 return [[
 
 R Aerie Peak |QID|1452| 

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamFel5354", "Felwood", "Jame", "53", "54", "JamUng5456", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamFel5354", "Felwood", "Jame", "53", "54", "JamUng5456", "Alliance", function()
 return [[
 R Emerald Sanctuary |QID|5159|
 T Cleansed Water Returns to Felwood |QID|5159|M|51.2,82.3|

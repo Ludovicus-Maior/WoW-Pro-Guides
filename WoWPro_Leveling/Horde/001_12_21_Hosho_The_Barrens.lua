@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("HosBar1221", "The Barrens", "Hosho", "12", "21", "JamSton2122", "Horde", function()
+WoWPro.Leveling:RegisterGuide("HosBar1221", "The Barrens", "Hosho", "12", "21", "JamSton2122", "Horde", function()
 return [[
 h The Crossroads|QID|844|M|52.0,29.9|
 A Raptor Thieves|QID|869|M|51.9,30.3|

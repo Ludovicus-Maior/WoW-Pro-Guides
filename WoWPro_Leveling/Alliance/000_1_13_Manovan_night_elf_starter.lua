@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("ManTel0113", "Teldrassil", "Manovan", "01", "13", "HaiDar1320", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("ManTel0113", "Teldrassil", "Manovan", "01", "13", "HaiDar1320", "Alliance", function()
 return [[
 
 A The Balance of Nature |QID|456| |N|In front of you.|M|58,44|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("MawElw0112", "Elwynn Forest", "Maw", "01", "12", "MawLoc1213", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("MawElw0112", "Elwynn Forest", "Maw", "01", "12", "MawLoc1213", "Alliance", function()
 return [[
 A A Threat Within|QID|783|M|48.1,43.6|
 T A Threat Within|QID|783|M|48.9,41.6|

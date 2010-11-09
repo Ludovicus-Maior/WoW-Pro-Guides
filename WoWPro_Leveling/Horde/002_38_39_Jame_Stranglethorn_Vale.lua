@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamStr3839", "Stranglethorn Vale", "Jame", "38", "39", "JamDus3940", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamStr3839", "Stranglethorn Vale", "Jame", "38", "39", "JamDus3940", "Horde", function()
 
 --> Original guides written/designed by [Jame]
 -->

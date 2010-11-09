@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWDK5960", "Western Plaguelands", "Jame DK", "59", "60", "JamEDK6060", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamWDK5960", "Western Plaguelands", "Jame DK", "59", "60", "JamEDK6060", "Horde", function()
 return [[
 T Return to the Bulwark |QID|5236|M|83.0,71.9|
 A A Plague Upon Thee |QID|5901|N|Mickey Levine|

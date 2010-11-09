@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamDus3840", "Dustwallow Marsh", "Jame", "38", "40", "JamDus4041", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamDus3840", "Dustwallow Marsh", "Jame", "38", "40", "JamDus4041", "Alliance", function()
 return [[
 
 R Ironforge |QID|1457|

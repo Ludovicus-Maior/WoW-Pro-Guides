@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("MawWes1315", "Westfall", "Maw", "13", "15", "MawRed1516", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("MawWes1315", "Westfall", "Maw", "13", "15", "MawRed1516", "Alliance", function()
 return [[
 
 N Sell junk and repair |QID|153| |N|Close this step when you're done  |M|57.68,53.84|

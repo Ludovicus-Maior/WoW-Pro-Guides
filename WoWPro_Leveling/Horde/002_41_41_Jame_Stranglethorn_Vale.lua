@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamStr4141", "Stranglethorn Vale", "Jame", "41", "41", "JamSwa4141", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamStr4141", "Stranglethorn Vale", "Jame", "41", "41", "JamSwa4141", "Horde", function()
 return [[
 
 F Grom'gol Base Camp |QID|1240|N|Fly to Grom'gol Outpost |

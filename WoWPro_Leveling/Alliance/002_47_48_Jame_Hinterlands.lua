@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHin4748", "The Hinterlands", "Jame", "47", "48", "JamTan4850", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamHin4748", "The Hinterlands", "Jame", "47", "48", "JamTan4850", "Alliance", function()
 return [[
 R Aerie Peak |QID|1449| 
 A A Gesture of Goodwill |QID|9470|M|15.1,47.2|

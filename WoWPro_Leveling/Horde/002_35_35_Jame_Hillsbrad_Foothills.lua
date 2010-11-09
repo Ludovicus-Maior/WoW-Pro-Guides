@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHil3535", "Hillsbrad Foothills", "Jame", "35", "35", "JamAlt3535", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamHil3535", "Hillsbrad Foothills", "Jame", "35", "35", "JamAlt3535", "Horde", function()
 return [[
 
 H Tarren Mill|QID|517|U|6948|

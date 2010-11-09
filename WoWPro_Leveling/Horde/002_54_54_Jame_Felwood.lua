@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamFel5454", "Felwood", "Jame", "54", "54", "JamWin5455", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamFel5454", "Felwood", "Jame", "54", "54", "JamWin5455", "Horde", function()
 return [[
 H Orgrimmar|QID|3568|U|6948|N|If you hearth isn't up, run back to Valormok  and fly to Orgrimmar.|M|22.0,49.7|
 N Bank|QID|3568|N|Put the vials in your bank , we'll get them out later.|M|49.6,69.4|

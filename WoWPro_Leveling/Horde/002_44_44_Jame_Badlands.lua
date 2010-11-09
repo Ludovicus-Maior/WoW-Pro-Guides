@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamBad4444", "Badlands", "Jame", "44", "44", "JamStr4445", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamBad4444", "Badlands", "Jame", "44", "44", "JamStr4445", "Horde", function()
 return [[
 F Kargath |QID|712|N|Fly to Kargath in the Badlands. |
 C Study of the Elements: Rock |QID|712|N|Ride south to around  to find Greater Rock Elementals.  Kill then until you've found 5 bracers.  There are more to the west around (7,80). |M|13,85|

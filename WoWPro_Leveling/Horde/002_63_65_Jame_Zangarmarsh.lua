@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "63", "65", "JamTer6567", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "63", "65", "JamTer6567", "Horde", function()
 return [[
 
 F Swamprat Post|QID|9775|

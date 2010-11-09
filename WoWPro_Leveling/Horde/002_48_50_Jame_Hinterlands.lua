@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHin4850", "The Hinterlands", "Jame", "48", "50", "JamTan5051", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamHin4850", "The Hinterlands", "Jame", "48", "50", "JamTan5051", "Horde", function()
 return [[
 A Ripple Recovery (Part 1)|QID|649|N|Get this quest from Dran Droffers at Droffers and Son Salvage on the drag near the valley of honor. |M|59.5,36.8|
 T Ripple Recovery (Part 1) |QID|649|N|Turn around and turn this into Malton Droffers standing next to you. |M|59.5,36.8|

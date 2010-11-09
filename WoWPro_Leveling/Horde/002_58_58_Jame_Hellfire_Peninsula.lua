@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHel5858", "Hellfire Peninsula", "Jame", "58", "58", "JamWes5859", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamHel5858", "Hellfire Peninsula", "Jame", "58", "58", "JamWes5859", "Horde", function()
 return [[
 H Undercity|QID|9407|U|6948|
 N Bank|QID|4808|N|Deposit Tinkee's Letter .|Z|Undercity|M|66.6,44.1|

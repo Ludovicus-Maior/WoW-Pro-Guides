@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWes5959", "Western Plaguelands", "Jame DK", "59", "59", "JamEas5960", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamWes5959", "Western Plaguelands", "Jame DK", "59", "59", "JamEas5960", "Alliance", function()
 return [[
 F Chillwind Camp|N|Flightmaster at |Z|Eastern Plaguelands|M|75.9,53.4|
 T Return to Chillwind Camp (Part 4)|QID|5226|M|42.9,84.5|

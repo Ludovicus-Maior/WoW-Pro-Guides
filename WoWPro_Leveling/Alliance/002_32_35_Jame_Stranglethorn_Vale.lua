@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamStr3235", "Stranglethorn Vale", "Jame", "32", "35", "JamHil3536", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamStr3235", "Stranglethorn Vale", "Jame", "32", "35", "JamHil3536", "Alliance", function()
 return [[
 R |QID|1181| Booty Bay
 T Goblin Sponsorship (part 1) |QID|1180|M|26.3,73.6|

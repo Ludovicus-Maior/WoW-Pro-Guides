@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamUng5556", "Un'Goro Crater", "Jame", "55", "56", "JamFel5656", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamUng5556", "Un'Goro Crater", "Jame", "55", "56", "JamFel5656", "Horde", function()
 return [[
 
 H Orgrimmar|QID|974|U|6948|

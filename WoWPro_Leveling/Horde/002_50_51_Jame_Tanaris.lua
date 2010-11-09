@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamTan5051", "Tanaris", "Jame", "50", "51", "JamFer5152", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamTan5051", "Tanaris", "Jame", "50", "51", "JamFer5152", "Horde", function()
 return [[
 
 H Gadgetzan|QID|2641|U|6948|

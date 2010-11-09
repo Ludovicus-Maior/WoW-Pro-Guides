@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWin5455", "Winterspring", "Jame", "54", "55", "JamUng5556", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamWin5455", "Winterspring", "Jame", "54", "55", "JamUng5556", "Horde", function()
 return [[
 A Winterfall Activity|QID|8464|M|27.7,34.5|
 T It's a Secret to Everybody (Part 3)|QID|3908|M|31.3,45.2|

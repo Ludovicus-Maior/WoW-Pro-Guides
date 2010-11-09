@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamBad4142", "Badlands", "Jame", "41", "42", "JamStr4243", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamBad4142", "Badlands", "Jame", "41", "42", "JamStr4243", "Horde", function()
 return [[
 
 F Kargath |QID|1418|N|Fly to Kargath in the badlands.  Sell, repair, and restock food/drink. |

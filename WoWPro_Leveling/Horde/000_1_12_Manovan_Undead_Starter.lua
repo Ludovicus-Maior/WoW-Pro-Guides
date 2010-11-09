@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("ManTir0112", "Tirisfal Glades", "Manovan", "01", "12", "SnoGho1221", "Horde", function()
+WoWPro.Leveling:RegisterGuide("ManTir0112", "Tirisfal Glades", "Manovan", "01", "12", "SnoGho1221", "Horde", function()
 return [[
 A Rude Awakening |QID|363|R|Undead|N|From Undertaker Mordo outside. Go upstairs. |M|30.21,71.64|
 T Rude Awakening |QID|363|R|Undead|N|At Shadow Priest Sarvis in the chapel to the north.|M|30.8,66.2|

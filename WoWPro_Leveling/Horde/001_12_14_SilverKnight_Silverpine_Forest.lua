@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("SilSil1214", "Silverpine Forest", "SilverKinght", "12", "14", "SilBar1416", "Horde", function()
+WoWPro.Leveling:RegisterGuide("SilSil1214", "Silverpine Forest", "SilverKinght", "12", "14", "SilBar1416", "Horde", function()
 return [[
 
 R Brill|QID|445|N|Head to Brill in Tirisfal Glades and speak with Apothecary Johaan at .|Z|Tirisfal Glades|M|59.45,52.39|

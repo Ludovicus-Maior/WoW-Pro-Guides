@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosAsh2324", "Ashenvale", "Boston", "23", "24", "BosSto2424", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosAsh2324", "Ashenvale", "Boston", "23", "24", "BosSto2424", "Alliance", function()
 return [[
 
 R Ashenvale |QID|1133| |N|Run south to Ashenvale. | |Z|Darkshore|M|44.25,96.17|

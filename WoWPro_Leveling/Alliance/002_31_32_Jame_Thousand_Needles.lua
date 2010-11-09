@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamTho3132", "Thousand Needles", "Jame", "31", "32", "JamStr3235", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamTho3132", "Thousand Needles", "Jame", "31", "32", "JamStr3235", "Alliance", function()
 return [[
 R Theramore Isle |QID|1175| |N|Fly to Theramore. | |Z|Dustwallow Marsh|M|58.40,94.00|
 h Theramore Isle |QID|1175| |N|Make Theramore your home location. | |Z|Dustwallow Marsh|M|66.60,45.20|

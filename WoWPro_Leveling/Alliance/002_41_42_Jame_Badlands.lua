@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamBad4142", "Badlands", "Jame", "41", "42", "JamStr4244", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamBad4142", "Badlands", "Jame", "41", "42", "JamStr4244", "Alliance", function()
 return [[
 R Ironforge |QID|707|
 N Get the items mentioned earlier |QID|714| |N|Make sure you have the following items: Frost Oil, Gyrochronatom, Patterned Bronze Bracers, 2x Elixir of Fortitude |

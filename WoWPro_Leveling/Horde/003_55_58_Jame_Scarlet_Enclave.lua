@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamSca5558", "The Scarlet Enclave", "Jame DK", "55", "58", "JamWDK5858", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamSca5558", "The Scarlet Enclave", "Jame DK", "55", "58", "JamWDK5858", "Horde", function()
 return [[
 A In Service Of The Lich King |QID|12593|N|The Lich King|M|51.3,35.2|
 

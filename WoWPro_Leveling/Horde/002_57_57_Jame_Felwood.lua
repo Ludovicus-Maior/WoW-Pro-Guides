@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamFel5757", "Felwood", "Jame", "57", "57", "JamWin5758", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamFel5757", "Felwood", "Jame", "57", "57", "JamWin5758", "Horde", function()
 return [[
 H Orgrimmar|QID|5165|U|6948|
 

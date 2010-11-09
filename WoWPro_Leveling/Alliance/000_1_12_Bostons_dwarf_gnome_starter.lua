@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosDun0112", "Dun Morogh", "Mr Boston", "01", "12", "MawLos1213", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosDun0112", "Dun Morogh", "Mr Boston", "01", "12", "MawLos1213", "Alliance", function()
 return [[
 
 L Kill Wolves and Troggs |QID|179| |M|30.19,73.96| |LVL|2| |N|Kill these until you are level 2.|

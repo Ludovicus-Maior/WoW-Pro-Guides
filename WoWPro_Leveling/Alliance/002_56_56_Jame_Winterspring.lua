@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWin5656", "Winterspring", "Jame", "56", "56", "JamFel5657", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamWin5656", "Winterspring", "Jame", "56", "56", "JamFel5657", "Alliance", function()
 return [[
 R Winterspring |QID|980| |N|Through the tunnel from Felwood (or Moonglade, if you're a druid.|
 A Winterfall Activity |N| | |QID|8464|M|27.75,34.50|

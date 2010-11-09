@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosWes1820", "Westfall", "Boston", "18", "20", "BosRed2021", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosWes1820", "Westfall", "Boston", "18", "20", "BosRed2021", "Alliance", function()
 return [[
 T The Defias Brotherhood (part 2) |QID|132|M|56.3,47.5|
 A The Defias Brotherhood (part 3) |QID|135|M|56.3,47.5|

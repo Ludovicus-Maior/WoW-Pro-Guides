@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("MawLoc1618", "Loch Modan", "Maw", "16", "18", "MawWes1819", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("MawLoc1618", "Loch Modan", "Maw", "16", "18", "MawWes1819", "Alliance", function()
 return [[
 
 F Thelsamar |QID|307| |N|Fly to Thalsamar, Loch Modan  | |Z|Ironforge|M|55.60,47.95|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamAlt3535", "Alterac Mountains", "Jame", "35", "35", "JamAra3537", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamAlt3535", "Alterac Mountains", "Jame", "35", "35", "JamAra3537", "Horde", function()
 
 --> Original guides written/designed by [Jame]
 -->

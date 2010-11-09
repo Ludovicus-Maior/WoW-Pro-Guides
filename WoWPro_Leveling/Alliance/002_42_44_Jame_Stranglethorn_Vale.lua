@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamStr4244", "Stranglethorn Vale", "Jame", "42", "44", "JamSwa4445", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamStr4244", "Stranglethorn Vale", "Jame", "42", "44", "JamSwa4445", "Alliance", function()
 return [[
 R Booty Bay |QID|595|
 h Booty Bay |QID|595| |N|Make Booty Bay your home location. |M|27.00,77.30|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamAra4041", "Arathi Highlands", "Jame", "40", "41", "JamBad4141", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamAra4041", "Arathi Highlands", "Jame", "40", "41", "JamBad4141", "Horde", function()
 --> Original guides written/designed by [Jame]
 -->
 --> Last modified by [Jiyambi] 7/12/2009

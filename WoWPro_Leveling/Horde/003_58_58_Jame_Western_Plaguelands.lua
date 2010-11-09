@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWDK5858", "Western Plaguelands", "Jame DK", "58", "58", "JamEDK5859", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamWDK5858", "Western Plaguelands", "Jame DK", "58", "58", "JamEDK5859", "Horde", function()
 return [[
 R Orgrimmar|QID|13189|N|Take the portal behind Mograine|
 T Warchief's Blessing|QID|13189|N|Thrall in the Valley of Wisdom|M|31.8,37.8|

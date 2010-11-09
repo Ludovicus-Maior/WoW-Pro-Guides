@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamStr4445", "Stranglethorn Vale", "Jame", "44", "45", "JamTan4546", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamStr4445", "Stranglethorn Vale", "Jame", "44", "45", "JamTan4546", "Horde", function()
 return [[
 R Kargath |QID|572|N|We're heading out! Ride back to Kargath . |M|4.3,46.4|
 F Booty Bay|QID|572|

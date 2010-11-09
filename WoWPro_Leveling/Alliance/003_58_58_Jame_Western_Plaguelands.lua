@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWes5858", "Western Plaguelands", "Jame DK", "58", "58", "JamEas5859", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamWes5858", "Western Plaguelands", "Jame DK", "58", "58", "JamEas5859", "Alliance", function()
 return [[
 R Stormwind|QID|13188|N|Take the portal behind Mograine|
 T Where Kings Walk|QID|13188|N|King Varian Wrynn in Stormwind Keep.|M|80.0,38.4|

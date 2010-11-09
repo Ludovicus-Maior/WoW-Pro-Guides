@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoSho7879", "Horde", function()
+WoWPro.Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoSho7879", "Horde", function()
 --Last Modified: 7/16/2010
 return [[
 N Amphitheater of Anguish |QID|12948|N|While questing look for a group for the Amphitheater of Anguish. There are 6 quests here (7 if you get the lead in from Shifty Vickers in the middle section of Dalaran's Sewers). You will need some of them for the Achievement, so anytime you can get in, do so. You must be 75 to do these quests.|

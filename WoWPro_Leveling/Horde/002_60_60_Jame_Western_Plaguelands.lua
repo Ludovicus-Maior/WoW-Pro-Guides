@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWes6060", "Western Plaguelands", "Jame", "60", "60", "JamHel6063", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamWes6060", "Western Plaguelands", "Jame", "60", "60", "JamHel6063", "Horde", function()
 return [[
 N Redpath's Shield|QID|5168|QO|Redpath's Shield: 1/1|N|Loot Redpath's Shield in Gahrron’s Withering |M|63.8,57.2|
 C Heroes of Darrowshire|QID|5168|N|Loot Davil's Libramin Hearthglen's town hall. (45.7,34.6)(54.0,24.5)(47.2,20.5)(42.5,18.9)|M|49.8,42.8|

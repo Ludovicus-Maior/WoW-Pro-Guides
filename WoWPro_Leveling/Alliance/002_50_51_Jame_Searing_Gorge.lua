@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamSea5051", "Searing Gorge", "Jame", "50", "51", "JamAzs5152", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamSea5051", "Searing Gorge", "Jame", "50", "51", "JamAzs5152", "Alliance", function()
 return [[
 R Thelsamar |QID|3441| 
 R Badlands |QID|3441| |N|Run to Badlands. |Z|Loch Modan|M|47.00,89.00|

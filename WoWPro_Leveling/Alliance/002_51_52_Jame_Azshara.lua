@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamAzs5152", "Azshara", "Jame", "51", "52", "JamFel5253", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamAzs5152", "Azshara", "Jame", "51", "52", "JamFel5253", "Alliance", function()
 return [[
 R Ironforge |QID|3368|
 N Sell junk, repair, restock |QID|3368| |N|Sell junk, repair, restock |

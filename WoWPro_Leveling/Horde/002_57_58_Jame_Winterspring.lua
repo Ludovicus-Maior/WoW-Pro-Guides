@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWin5758", "Winterspring", "Jame", "57", "58", "JamBur5858", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamWin5758", "Winterspring", "Jame", "57", "58", "JamBur5858", "Horde", function()
 return [[
 F Everlook|QID|4721|N||Z|Felwood|M|34.3,53.9|
 

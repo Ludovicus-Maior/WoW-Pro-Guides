@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("ScoSho7879", "Sholazar Basin", "Scoot", "78", "79", "NLXIce7980", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("ScoSho7879", "Sholazar Basin", "Scoot", "78", "79", "NLXIce7980", "Alliance", function()
 return [[
 N Cold Weather Flying |QID|12620| |N|You should be at least 77 and have Cold Weather Flying before using this guide. There are some quest here that REQUIRE you to be able to fly in order to complete them.|
 

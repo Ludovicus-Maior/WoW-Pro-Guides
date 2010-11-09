@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamFer5152", "Feralas", "Jame", "51", "52", "JamSea5252", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamFer5152", "Feralas", "Jame", "51", "52", "JamSea5252", "Horde", function()
 return [[
 
 

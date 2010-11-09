@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamSea5252", "Searing Gorge", "Jame", "52", "52", "The Barrens", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamSea5252", "Searing Gorge", "Jame", "52", "52", "The Barrens", "Horde", function()
 return [[
 F Kargath|QID|3441|
 R Searing Gorge|QID|3441|N|Head southwest out of the Badlands (0.2,63.4)|Z|Badlands|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("MawLoc1213", "Loch Modan", "Maw", "12", "13", "MawWes1315", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("MawLoc1213", "Loch Modan", "Maw", "12", "13", "MawWes1315", "Alliance", function()
 return [[
 A In Defense of the King's Lands (Part 1) |QID|224|M|22.1,73.1|
 A The Trogg Threat |QID|267|M|23.2,73.7|

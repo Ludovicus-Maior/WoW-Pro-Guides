@@ -1,19 +1,19 @@
 -------------------------------
---      WoWPro_Leveling      --
+--      WoWPro.Leveling      --
 -------------------------------
 
 local L = WoWPro_Locale
 local myUFG = UnitFactionGroup("player")
 
-WoWPro_Leveling = WoWPro:NewModule("WoWPro Leveling")
+WoWPro.Leveling = WoWPro:NewModule("WoWPro Leveling")
 WoWPro.GuideList = {}
 	
-function WoWPro_Leveling:OnInitialize()
+function WoWPro.Leveling:OnInitialize()
 	-- Creating the config options --
-	WoWPro_Leveling:CreateConfig()
+	WoWPro.Leveling:CreateConfig()
 end
 
-function WoWPro_Leveling:OnEnable()
+function WoWPro.Leveling:OnEnable()
 	-- Creating empty user settings if none exist
 	WoWProDB.char.guide = WoWProDB.char.guide or {} 
 	WoWPro.completedQIDs = WoWPro.completedQIDs or {}
@@ -52,13 +52,13 @@ function WoWPro_Leveling:OnEnable()
 	end
 	WoWPro:LoadGuide()
 	
-	WoWPro_Leveling.FirstMapCall = true
+	WoWPro.Leveling.FirstMapCall = true
 	
 	-- Server query for completed quests --
 	QueryQuestsCompleted()
 end
 
-function WoWPro_Leveling:OnDisable()
+function WoWPro.Leveling:OnDisable()
 	-- Unregistering Leveling Module Events --
 	local events = {
 		"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
@@ -78,7 +78,7 @@ end
 
 
 -- Guide Registration Function --
-function WoWPro_Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, endlevelvalue, nextGIDvalue, factionname, sequencevalue)
+function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, endlevelvalue, nextGIDvalue, factionname, sequencevalue)
 	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
 	table.insert(WoWPro.GuideList, {
 		GID = GIDvalue,

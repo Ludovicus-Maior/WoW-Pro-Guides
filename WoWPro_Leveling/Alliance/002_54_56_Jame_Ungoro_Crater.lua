@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamUng5456", "Un'Goro Crater", "Jame", "54", "56", "JamWin5656", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamUng5456", "Un'Goro Crater", "Jame", "54", "56", "JamWin5656", "Alliance", function()
 return [[
 R Marshal's Refuge |QID|3914|
 T Linken's Sword |QID|3914|M|44.7,8.1|

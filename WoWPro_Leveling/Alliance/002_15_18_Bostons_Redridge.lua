@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosRed1518", "Redridge Mountains", "Boston", "15", "18", "BosWes1820", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosRed1518", "Redridge Mountains", "Boston", "15", "18", "BosWes1820", "Alliance", function()
 return [[
 
 R Elwynn Forest |QID|244| |N|Go to Elwynn Forest | |Z|Stormwind City|M|76.00,94.00|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamEas6060", "Eastern Plaguelands", "Jame", "60", "60", "JamWes6060", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamEas6060", "Eastern Plaguelands", "Jame", "60", "60", "JamWes6060", "Horde", function()
 return [[
 T Demon Dogs|QID|5542|N|Ride east until you hit Thondroril River, go north along the river bank, then cross the river so you are on the eastern bank and ride north until you find a house.|M|4.7,38.3|
 T Blood Tinged Skies|QID|5543|M|4.7,38.3|

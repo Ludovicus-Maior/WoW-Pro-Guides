@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHel6063", "Hellfire Peninsula", "Jame", "60", "63", "JamZan6365", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamHel6063", "Hellfire Peninsula", "Jame", "60", "63", "JamZan6365", "Horde", function()
 return [[
 H Undercity|QID|9407|U|6948|
 R Portal to the Blasted Lands|QID|9407|N|By the Portal Trainer |Z|Undercity|M|84,15|

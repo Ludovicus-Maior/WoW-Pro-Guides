@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamEas5859", "Eastern Plaguelands", "Jame DK", "58", "59", "JamWes5959", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamEas5859", "Eastern Plaguelands", "Jame DK", "58", "59", "JamWes5959", "Alliance", function()
 return [[
 A Demon Dogs|QID|5542|N|Head northeast to the river, then north along the river bank, then cross the river and keep going north until you find a house. In front of the house is Lord Tirion Fordring.|M|4.7,38.4|
 A Blood Tinged Skies|QID|5543|M|4.7,38.4|

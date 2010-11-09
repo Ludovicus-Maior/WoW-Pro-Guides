@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosWet2526", "Wetlands", "Boston", "25", "26", "BosRed2627", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosWet2526", "Wetlands", "Boston", "25", "26", "BosRed2627", "Alliance", function()
 return [[
 
 F Auberdine |QID|1275| |N|Fly to Auberdine. | |Z|Ashenvale|M|34.43,48.05|

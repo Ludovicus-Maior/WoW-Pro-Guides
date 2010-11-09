@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamBur5858", "Burning Steppes", "Jame", "58", "58", "JamWes5859", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamBur5858", "Burning Steppes", "Jame", "58", "58", "JamWes5859", "Horde", function()
 return [[
 N Bank|QID|4023|L|10575|N|Get the Black Dragonflight Molt out of your bank .|Z|Undercity|M|66.6,44.1|
 h Undercity|QID|4061|N||Z|Undercity|M|67.6,37.9|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamDra7375", "Dragonblight", "Jame", "73", "75", "JamGri7577", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamDra7375", "Dragonblight", "Jame", "73", "75", "JamGri7577", "Horde", function()
 --> Original guides written/designed by [Jame]
 -->
 --> Last modified by [Jiyambi] 19/6/2009

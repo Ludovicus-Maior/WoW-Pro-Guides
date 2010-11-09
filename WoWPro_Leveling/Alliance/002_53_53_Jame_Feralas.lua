@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamFer5353", "Feralas", "Jame", "53", "53", "JamFel5354", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamFer5353", "Feralas", "Jame", "53", "53", "JamFel5354", "Alliance", function()
 return [[
 R Feathermoon Stronghold |QID|2879| 
 N Sell junk, repair, restock |QID|2879| |N|Sell junk, repair, restock |

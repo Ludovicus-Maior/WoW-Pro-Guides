@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamTan4850", "Tanaris", "Jame", "48", "50", "JamHin5050", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamTan4850", "Tanaris", "Jame", "48", "50", "JamHin5050", "Alliance", function()
 return [[
 R Gadgetzan |QID|992|
 A Gadgetzan Water Survey |QID|992|M|50.2,27.5|

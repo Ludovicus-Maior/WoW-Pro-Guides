@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor7072", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor7072", "Alliance", function()
 return [[
 H Shattrath City |QID|9794| |N|Hearth to Shattrath City. |
 N Sell junk, repair, restock |QID|9794| |N|Sell junk, repair, restock |

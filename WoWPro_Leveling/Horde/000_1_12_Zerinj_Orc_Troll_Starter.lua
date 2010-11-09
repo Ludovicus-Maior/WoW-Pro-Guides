@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("ZerDur0112", "Durotar", "Zerinj", "01", "12", "HosBar1221", "Horde", function()
+WoWPro.Leveling:RegisterGuide("ZerDur0112", "Durotar", "Zerinj", "01", "12", "HosBar1221", "Horde", function()
 return [[
 A Your Place In The World|QID|4641|N|From the NPC in front of you.|M|43.3,68.6|
 T Your Place In The World|QID|4641|M|42.1,68.4|

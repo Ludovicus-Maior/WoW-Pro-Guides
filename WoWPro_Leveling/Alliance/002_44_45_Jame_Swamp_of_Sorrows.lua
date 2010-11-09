@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamSwa4445", "Swamp of Sorrows", "Jame", "44", "45", "JamTan4545", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamSwa4445", "Swamp of Sorrows", "Jame", "44", "45", "JamTan4545", "Alliance", function()
 return [[
 R Darkshire |QID|624|
 R Deadwind Pass |QID|624| |N|Run east to Deadwind Pass. |M|91.00,41.00|

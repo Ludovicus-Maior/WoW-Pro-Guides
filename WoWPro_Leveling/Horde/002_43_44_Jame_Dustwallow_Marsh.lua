@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamDus4344", "Dustwallow Marsh", "Jame", "43", "44", "JamSwa4444", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamDus4344", "Dustwallow Marsh", "Jame", "43", "44", "JamSwa4444", "Horde", function()
 return [[
 H Orgrimmar|QID|11204|
 F Brackenwall Village |QID|11204|N|Fly to Brackenwall in Dustwallow Marsh. |

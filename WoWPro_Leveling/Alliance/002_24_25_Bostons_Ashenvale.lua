@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosAsh2425", "Ashenvale", "Boston", "24", "25", "BosWet2526", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosAsh2425", "Ashenvale", "Boston", "24", "25", "BosWet2526", "Alliance", function()
 return [[
 
 

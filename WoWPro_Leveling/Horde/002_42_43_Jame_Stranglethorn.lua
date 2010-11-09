@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamStr4243", "Stranglethorn Vale", "Jame", "42", "43", "JamDus4344", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamStr4243", "Stranglethorn Vale", "Jame", "42", "43", "JamDus4344", "Horde", function()
 return [[
 F Booty Bay |QID|595|N|Fly to Booty Bay. |
 A Akiris by the Bundle |QID|617|N|From Brivateer Bloads in front of the bank.  Check for any Strangelthorn pages you are missing in the auction house while you are here. |M|26.8,76.4|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamFel5657", "Felwood", "Jame", "56", "57", "JamWin5758", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamFel5657", "Felwood", "Jame", "56", "57", "JamWin5758", "Alliance", function()
 return [[
 R Felwood |QID|5084| |N|Through the tunnel from Winterspring, or Moonglade if you're a druid.|
 T Falling to Corruption |N|Fight your way to this location and turn the quest in. | |QID|5084|M|60.20,5.90|

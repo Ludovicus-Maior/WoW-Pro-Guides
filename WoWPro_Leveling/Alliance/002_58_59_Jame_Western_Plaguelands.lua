@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWes5859", "Western Plaguelands", "Jame", "58", "59", "JamEas5960", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamWes5859", "Western Plaguelands", "Jame", "58", "59", "JamEas5960", "Alliance", function()
 return [[
 R Stormwind City |QID|6184|
 F Aerie Peak |QID|6184| |N|Fly to Aerie Peak. | |Z|Stormind City|M|66.30,62.00|

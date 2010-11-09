@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamEDK6060", "Eastern Plaguelands", "Jame DK", "60", "60", "JamWDK6061", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamEDK6060", "Eastern Plaguelands", "Jame DK", "60", "60", "JamWDK6061", "Horde", function()
 return [[
 T Demon Dogs |QID|5542|N|Tirion Fordring|M|4.7,38.3|
 T Blood Tinged Skies |QID|5543|M|4.7,38.3|

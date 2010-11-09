@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamFel5656", "Felwood", "Jame", "56", "56", "JamWin5657", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamFel5656", "Felwood", "Jame", "56", "56", "JamWin5657", "Horde", function()
 return [[
 H Orgrimmar|QID|5159|U|6948|N|If your stone is still on cooldown, use the flight path |Z|Un'Goro Crater|M|45.2,5.9|
 

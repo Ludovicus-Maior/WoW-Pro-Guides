@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamTan4747", "Tanaris", "Jame", "47", "47", "JamHin4748", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamTan4747", "Tanaris", "Jame", "47", "47", "JamHin4748", "Alliance", function()
 return [[
 R Gadgetzan |QID|2941|
 T The Borrower |QID|2941|M|52.4,26.9|

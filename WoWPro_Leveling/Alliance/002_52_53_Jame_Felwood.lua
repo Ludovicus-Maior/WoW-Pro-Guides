@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamFel5253", "Felwood", "Jame", "52", "53", "JamFer5353", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamFel5253", "Felwood", "Jame", "52", "53", "JamFer5353", "Alliance", function()
 return [[
 R Stormwind |QID|8460|
 b Darkshore |QID|8460| |N|Take the boat to Auberdine. |M|4.80,57.20|

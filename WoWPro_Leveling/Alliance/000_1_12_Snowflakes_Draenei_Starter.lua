@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
 return [[
 
 A You Survived! |QID|9279|M|84.2,43.0|

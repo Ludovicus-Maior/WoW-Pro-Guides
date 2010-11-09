@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHil3536", "Hillsbrad Foothills", "Jame", "35", "36", "JamDes3638", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamHil3536", "Hillsbrad Foothills", "Jame", "35", "36", "JamDes3638", "Alliance", function()
 return [[
 N Soothing Spices |QID|555| |N|Buy one Soothing Spices from the merchant. | |L|3713 1|M|48.90,55.00|
 A Hints of a New Plague? |QID|659|M|50.3,59.0|

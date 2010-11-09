@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("SilBar1416", "The Barrens", "SilverKinght", "14", "16", "SilSil1619", "Horde", function()
+WoWPro.Leveling:RegisterGuide("SilBar1416", "The Barrens", "SilverKinght", "14", "16", "SilSil1619", "Horde", function()
 return [[
 
 R Durotar|QID|840|N|Head out of Undercity and take the zeppelin to Orgrimmar .|Z|Tirisfal Glades|M|60.75,58.65|

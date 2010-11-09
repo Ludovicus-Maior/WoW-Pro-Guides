@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamHow7071", "Howling Fjord", "Jame", "70", "71", "JamBor7173", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamHow7071", "Howling Fjord", "Jame", "70", "71", "JamBor7173", "Horde", function()
 --Original guide written/designed by Jame
 --Revised by ndlarsen
 --Addon Version: Last Modified (yyyy-mm-dd) 2010-08-09

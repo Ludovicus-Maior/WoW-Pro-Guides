@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("NLXIce7980", "Icecrown", "NLX3647", "79", "80", "nil", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("NLXIce7980", "Icecrown", "NLX3647", "79", "80", "nil", "Alliance", function()
 return [[
 A Preparations for War|QID|13418| 
 T Preparations for War|QID|13418| |N|Talk to Officer Van Rossem again to fly to the Skybreaker|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamTho3131", "Thousand Needles", "Jame", "31", "31", "JamHil3132", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamTho3131", "Thousand Needles", "Jame", "31", "31", "JamHil3132", "Horde", function()
 
 --> Original guides written/designed by [Jame]
 -->

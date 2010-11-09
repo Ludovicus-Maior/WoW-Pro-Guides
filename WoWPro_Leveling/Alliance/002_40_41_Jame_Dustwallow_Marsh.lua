@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamDus4041", "Dustwallow Marsh", "Jame", "40", "41", "JamBad4142", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamDus4041", "Dustwallow Marsh", "Jame", "40", "41", "JamBad4142", "Alliance", function()
 return [[
 
 R Mudsprocket |QID|11214| |N|Go west then south on the path to Mudsprocket. |M|41.90,72.60|

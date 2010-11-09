@@ -8,10 +8,10 @@ local titlerow, rows, offset = {}, {}, 0
 local NUMROWS = 17 
 
 -- Creating Leveling Guide List --
-WoWPro_Leveling.GuideList = WoWPro.GuideList
-for i,guide in ipairs (WoWPro_Leveling.GuideList) do
+WoWPro.Leveling.GuideList = WoWPro.GuideList
+for i,guide in ipairs (WoWPro.Leveling.GuideList) do
 	if guide["guidetype"] ~= "Leveling" then
-		table.remove(WoWPro_Leveling.GuideList,i)
+		table.remove(WoWPro.Leveling.GuideList,i)
 	end
 end
 
@@ -21,11 +21,11 @@ frame.parent = "WoW-Pro Leveling"
 frame:Hide()
 
 -- Populating Guide List --
-function WoWPro_Leveling.UpdateGuideList()
+function WoWPro.Leveling.UpdateGuideList()
 	if not frame:IsVisible() then return end
 	for i,row in ipairs(rows) do
 		row.i = i + offset
-		local iGuide = WoWPro_Leveling.GuideList[row.i]
+		local iGuide = WoWPro.Leveling.GuideList[row.i]
 		if iGuide then
 			local GID = iGuide["GID"]
 			local zone = iGuide["zone"]
@@ -52,9 +52,9 @@ function WoWPro_Leveling.UpdateGuideList()
 			row:Hide()
 		end
 		local function OnClick()
-			if not WoWPro_Leveling:IsEnabled() then return end
+			if not WoWPro.Leveling:IsEnabled() then return end
 			if IsShiftKeyDown() then
-				local iGuide = WoWPro_Leveling.GuideList[row.i]
+				local iGuide = WoWPro.Leveling.GuideList[row.i]
 				WoWProDB.char.currentguide = iGuide["GID"]
 				WoWPro:LoadGuide()
 				WoWProDB.char.guide[iGuide["GID"]] = nil
@@ -63,7 +63,7 @@ function WoWPro_Leveling.UpdateGuideList()
 				end
 				WoWPro:LoadGuide()
 			else
-				local iGuide = WoWPro_Leveling.GuideList[row.i]
+				local iGuide = WoWPro.Leveling.GuideList[row.i]
 				WoWProDB.char.currentguide = iGuide["GID"]
 				WoWPro:LoadGuide()
 			end
@@ -75,7 +75,7 @@ function WoWPro_Leveling.UpdateGuideList()
 end
 
 local function UpdateGuideList()
-	WoWPro_Leveling.UpdateGuideList()
+	WoWPro.Leveling.UpdateGuideList()
 end
 
 -- Frame Contents --
@@ -170,33 +170,33 @@ frame:SetScript("OnShow", function()
 		local sorttype = "Default"
 		function authorSort()
 			if sorttype == "AuthorAsc" then
-				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.author > b.author end)
+				table.sort(WoWPro.Leveling.GuideList, function(a,b) return a.author > b.author end)
 				UpdateGuideList()
 				sorttype = "AuthorDesc"
 			else
-				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.author < b.author end)
+				table.sort(WoWPro.Leveling.GuideList, function(a,b) return a.author < b.author end)
 				UpdateGuideList()
 				sorttype = "AuthorAsc"
 			end
 		end
 		function zoneSort()
 			if sorttype == "ZoneAsc" then
-				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.zone > b.zone end)
+				table.sort(WoWPro.Leveling.GuideList, function(a,b) return a.zone > b.zone end)
 				UpdateGuideList()
 				sorttype = "ZoneDesc"
 			else
-				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.zone < b.zone end)
+				table.sort(WoWPro.Leveling.GuideList, function(a,b) return a.zone < b.zone end)
 				UpdateGuideList()
 				sorttype = "ZoneAsc"
 			end
 		end
 		function rangeSort()
 			if sorttype == "RangeAsc" then
-				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.startlevel > b.startlevel end)
+				table.sort(WoWPro.Leveling.GuideList, function(a,b) return a.startlevel > b.startlevel end)
 				UpdateGuideList()
 				sorttype = "RangeDesc"
 			else
-				table.sort(WoWPro_Leveling.GuideList, function(a,b) return a.startlevel < b.startlevel end)
+				table.sort(WoWPro.Leveling.GuideList, function(a,b) return a.startlevel < b.startlevel end)
 				UpdateGuideList()
 				sorttype = "RangeAsc"
 			end
@@ -276,7 +276,7 @@ frame:SetScript("OnShow", function()
 	UpdateGuideList()
 	
 	local f = scrollbar:GetScript("OnValueChanged")
-	scrollbar:SetMinMaxValues(0, math.max(0, #WoWPro_Leveling.GuideList - NUMROWS))
+	scrollbar:SetMinMaxValues(0, math.max(0, #WoWPro.Leveling.GuideList - NUMROWS))
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		offset = math.floor(value)
 		UpdateGuideList()

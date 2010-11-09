@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("SilSil1619", "Silverpine Forest", "SilverKinght", "16", "19", "SilGho1921", "Horde", function()
+WoWPro.Leveling:RegisterGuide("SilSil1619", "Silverpine Forest", "SilverKinght", "16", "19", "SilGho1921", "Horde", function()
 return [[
 F Orgrimmar|QID|264|
 R Undercity|QID|264|N|Take the zeppelin to Undercity.|

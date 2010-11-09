@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoSho7879", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoSho7879", "Alliance", function()
 return [[
 N READ THIS! |QID|12902| |N|You have a couple of choices at this point. If you followed Jame's Dragonblight guide you have the quest Into the Breach!, which will be the first quest in the Achievement, but you will have to make your own way to Light's Breach. Otherwise you can do the optional quest that starts at Westfall Brigade Encampment in Grizzly Hills, it will fly you there, but doesn't count toward the Achievement. To do the optional quest abandon Into the Breach! and get Reallocating Resources from Captain Gryan Stoutmantle.|
 N Amphitheater of Anguish |QID|12948| |N|While questing look for a group for the Amphitheater of Anguish. There are 6 quests here . You will need some of them for the Achievement, so anytime you can get in, do so. You must be 75 to do these quests.|M|7 if you ,|

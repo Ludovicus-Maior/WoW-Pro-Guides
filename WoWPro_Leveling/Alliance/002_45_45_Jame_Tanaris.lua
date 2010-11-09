@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamTan4545", "Tanaris", "Jame", "45", "45", "JamFer4547", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamTan4545", "Tanaris", "Jame", "45", "45", "JamFer4547", "Alliance", function()
 return [[
 R Gadgetzan |QID|2864|
 T Tran'rek |QID|2864|M|51.6,26.8|

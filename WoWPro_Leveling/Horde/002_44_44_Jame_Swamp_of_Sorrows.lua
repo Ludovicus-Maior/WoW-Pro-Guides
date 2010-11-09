@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamSwa4444", "Swamp of Sorrows", "Jame", "44", "44", "JamBad4444", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamSwa4444", "Swamp of Sorrows", "Jame", "44", "44", "JamBad4444", "Horde", function()
 return [[
 H Orgrimmar |QID|1393|
 

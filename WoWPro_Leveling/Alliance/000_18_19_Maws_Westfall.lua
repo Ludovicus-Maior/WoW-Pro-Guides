@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("MawWes1819", "Westfall", "Maw", "18", "19", "MawRed1920", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("MawWes1819", "Westfall", "Maw", "18", "19", "MawRed1920", "Alliance", function()
 return [[
 
 

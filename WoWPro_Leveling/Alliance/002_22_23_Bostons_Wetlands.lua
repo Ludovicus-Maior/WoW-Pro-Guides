@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosWet2223","Wetlands", Boston, "22", "23",  "BosAsh2324", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosWet2223","Wetlands", Boston, "22", "23",  "BosAsh2324", "Alliance", function()
 return [[
 F Trade District|QID|1078|N|Fly to Stormwind|M|77.50, 44.30||Z|Duskwood|
 A Mathias and the Defias|N|This is a rogue only quest chain and it's totally optional, but it nets you some extra XP and helps you level your Lockpicking skill. Please note that you'll need at least 70 in Lockpicking to complete this quest. You don't HAVE to do this quest, it's optional.|QID|2360|C|Rogue||M|78.4,70.7||Z|Stormwind City|

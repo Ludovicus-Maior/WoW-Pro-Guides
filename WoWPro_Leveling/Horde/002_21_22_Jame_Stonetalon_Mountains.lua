@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamSto2122", "Stonetalon Mountains", "Jame", "21", "22", "JamHil2224", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamSto2122", "Stonetalon Mountains", "Jame", "21", "22", "JamHil2224", "Horde", function()
 --> Original guides written/designed by [Jame]
 -->
 --> Addon written by [freedave2000] 2/14/2009

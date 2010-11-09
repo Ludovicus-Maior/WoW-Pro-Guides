@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamEas5960", "Eastern Plaguelands", "Jame DK", "59", "60", "", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamEas5960", "Eastern Plaguelands", "Jame DK", "59", "60", "", "Alliance", function()
 return [[
 T Demon Dogs|QID|5542|M|4.7,38.4|
 T Blood Tinged Skies|QID|5543|M|4.7,38.4|

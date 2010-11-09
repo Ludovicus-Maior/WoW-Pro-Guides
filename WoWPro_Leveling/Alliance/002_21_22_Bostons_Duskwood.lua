@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosDus2122","Duskwood", "Boston", "21", "22", "Wetlands", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosDus2122","Duskwood", "Boston", "21", "22", "Wetlands", "Alliance", function()
 return [[
 
 

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("TarTel0112", "Teldrassil", "Taralom", "01", "12", "SveBlo1220", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("TarTel0112", "Teldrassil", "Taralom", "01", "12", "SveBlo1220", "Alliance", function()
 return [[
 A The Balance of Nature (Part 1) |QID|456|M|58.7,44.3|
 C The Balance of Nature (Part 1) |N|| |QID|456|M|60.39,45.66|

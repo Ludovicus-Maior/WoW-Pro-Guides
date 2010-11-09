@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("MawRed1920", "Redridge Mountains", "Maw", "19", "20", "BosRed2021", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("MawRed1920", "Redridge Mountains", "Maw", "19", "20", "BosRed2021", "Alliance", function()
 return [[
 
 N Follow the arrows 1 |QID|92| |N|Kill on sight: Great Goretusks, Redridge Mongrels, Redridge Poachers, Tarantulas. Close this step when you reach the final arrow.  (29.41, 76.92) (32.17, 82.59) (34.56, 83.37) |M|31.11,68.23|

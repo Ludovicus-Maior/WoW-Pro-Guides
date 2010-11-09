@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosLoc1214", "Loch Modan", "Boston", "12", "14", "BosWes1415", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosLoc1214", "Loch Modan", "Boston", "12", "14", "BosWes1415", "Alliance", function()
 return [[
 
 R Stormwind City |QID|1339| |N|Go to Stormwind City.|

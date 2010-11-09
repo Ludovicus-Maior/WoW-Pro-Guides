@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("SnoGho1221", "Ghostlands", "Snowflake", "12", "21", "JamSto2122", "Horde", function()
+WoWPro.Leveling:RegisterGuide("SnoGho1221", "Ghostlands", "Snowflake", "12", "21", "JamSto2122", "Horde", function()
 --> Original guides written/designed by [Snowflake]
 -->
 --> Addon written by [Black Cat] 

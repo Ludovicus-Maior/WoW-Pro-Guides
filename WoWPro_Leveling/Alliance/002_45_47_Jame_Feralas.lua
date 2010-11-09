@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamFer4547", "Feralas", "Jame", "45", "47", "JamTan4747", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamFer4547", "Feralas", "Jame", "45", "47", "JamTan4747", "Alliance", function()
 return [[
 R Thalanaar |QID|2969|
 N Clear area around cage |QID|2969| |N|Clear the area in the camp around the cage containing Sprite Darters, then quickly go to Kindal and start the quest (checkmark this objective when done to get directions). (66.50, 47.20)|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosAsh2930", "Ashenvale", "Boston", "29", "30", "JamAsh3031", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosAsh2930", "Ashenvale", "Boston", "29", "30", "JamAsh3031", "Alliance", function()
 return [[
 
 b Darkshore |QID|9526| |N|Take the boat to Auberdine. | |Z|Stormwind City|M|23,55.5|

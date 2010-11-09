@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWes5960", "Western Plaguelands", "Jame", "59", "60", "JamEas6060", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamWes5960", "Western Plaguelands", "Jame", "59", "60", "JamEas6060", "Horde", function()
 return [[
 T Return to the Bulwark (Part 4)|QID|5236|M|83.0,71.9|
 A A Plague Upon Thee (Part 1)|QID|5901|

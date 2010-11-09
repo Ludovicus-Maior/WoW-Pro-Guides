@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("MawRed1516", "Redridge Mountains", "Maw", "15", "16", "MawLoc1618", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("MawRed1516", "Redridge Mountains", "Maw", "15", "16", "MawLoc1618", "Alliance", function()
 return [[
 
 R Three Corners |QID|244| |N|Run to Redridge Mountains  | |Z|Elwynn Forest|M|94.18,72.20|

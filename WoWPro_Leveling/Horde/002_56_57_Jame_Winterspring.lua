@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWin5657", "Winterspring", "Jame", "56", "57", "JamFel5757", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamWin5657", "Winterspring", "Jame", "56", "57", "JamFel5757", "Horde", function()
 return [[
 
 R Winterspring|QID|980|N|(65.4,2.9)(68.2,5.5)|Z|Felwood|M|65.1,8.2|

@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosWet2829", "Wetlands", "Boston", "28", "29", "BosAsh2930", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosWet2829", "Wetlands", "Boston", "28", "29", "BosAsh2930", "Alliance", function()
 return [[
 
 R Deeprun Tram |QID|270| |N|Run to the Deeprun Tram. | |Z|Stormwind City|M|68.50,31.50|

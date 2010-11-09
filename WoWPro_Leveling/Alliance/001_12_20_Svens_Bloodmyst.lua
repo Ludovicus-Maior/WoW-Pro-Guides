@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("SveBlo1220", "Bloodmyst Isle", "Sven", "12", "20", "BosRed2021", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("SveBlo1220", "Bloodmyst Isle", "Sven", "12", "20", "BosRed2021", "Alliance", function()
 return [[
 R Bloodmyst Isle |QID|9663| |N|Go to Bloodmyst Isle |
 T Elekks Are Serious Business |QID|9625|N|If you have this quest, turn it in (requires having done Azuremyst previously|

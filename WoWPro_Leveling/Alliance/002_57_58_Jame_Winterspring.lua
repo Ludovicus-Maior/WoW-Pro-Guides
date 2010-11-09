@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamWin5758", "Winterspring", "Jame", "57", "58", "JamWes5859", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamWin5758", "Winterspring", "Jame", "57", "58", "JamWes5859", "Alliance", function()
 return [[
 R Everlook
 A Ursius of the Shardtooth |QID|5054|

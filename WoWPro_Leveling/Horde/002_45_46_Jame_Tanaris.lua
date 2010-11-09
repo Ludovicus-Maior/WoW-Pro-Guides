@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamTan4546", "Tanaris", "Jame", "45", "46", "JamFer4647", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamTan4546", "Tanaris", "Jame", "45", "46", "JamFer4647", "Horde", function()
 return [[
 b Tirisfal Glades |QID|232|N|Take the zepplin to the Undercity (the landing is in Tirisfal Glades) |
 A Errand for Apothecary Zinge (Part 1) |QID|232|N|Ride/run to the Apothecarium and get [45] Errand for Apothecary Zinge from Apothecary Zinge. |M|49.9,68.4|

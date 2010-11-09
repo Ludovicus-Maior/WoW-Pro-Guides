@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("BosRed2627", "Redridge Mountains", "Boston", "26", "27", "BosDus2728", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("BosRed2627", "Redridge Mountains", "Boston", "26", "27", "BosDus2728", "Alliance", function()
 return [[
 
 

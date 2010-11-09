@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("ShiMul0112", "Mulgore", "Shinke", "01", "12","HosBar1224", "Horde", function()
+WoWPro.Leveling:RegisterGuide("ShiMul0112", "Mulgore", "Shinke", "01", "12","HosBar1224", "Horde", function()
 return [[
 
 A The Hunt Begins |QID|747|N|Grull Hawkwind. (45,77) |M|45,77|

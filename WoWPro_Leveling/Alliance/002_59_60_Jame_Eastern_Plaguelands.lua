@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("JamEas5960", "Eastern Plaguelands", "Jame", "59", "60", "JamHel6062", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamEas5960", "Eastern Plaguelands", "Jame", "59", "60", "JamHel6062", "Alliance", function()
 return [[
 R Eastern Plaguelands |QID|5601| |N|Through the path from Western Plaguelands.|
 N SI:7 Insignia (Fredo) |QID|6185| |N|Loot the insignia from the body here.  Do not fight the elite. | |L|16001 1|M|27.20,75.00|
