@@ -1,7 +1,7 @@
 WoWPro.Leveling:RegisterGuide('AriMtH8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriVas8082', 'Horde', function() 
 return [[
 
-N Mt. Hyjal|PRE|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|
+N Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|
 R Orgrimmar|QID|27721|Z|Orgrimmar|N|Make your way to Orgimmar.|
 A Warchief's Command: Mount Hyjal|QID|27721|M|49.7,76.7|Z|Orgirmmar|N|Get the quest from the Warchief's Command Board.|
 N Talk to Cenarion Emissary Blackhoof|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|In the Valley of Wisdom.|
@@ -195,7 +195,7 @@ T Smashing Through Ashes|QID|25490|M|27.15,62.57|N|To Arch Druid Hamuul Runetote
 A Durable Seeds|QID|25491|M|27.15,62.57|N|From Arch Druid Hamuul Runetotem.|
 A Fresh Bait|QID|25493|M|27.15,62.57|N|From Arch Druid Hamuul Runetotem.|
 A Firebreak|QID|25492|M|27.08,62.97|N|From Rayne Feathersong.|
-N Nemesis|PRE|25491|N|As you complete the next steps, watch out for Nemesis, a level 80 Elite giant turtle who patrols all over The Flamewake.|
+N Nemesis|QID|25491|N|As you complete the next steps, watch out for Nemesis, a level 80 Elite giant turtle who patrols all over The Flamewake.|
 C Durable Seeds|QID|25491|S|M|35.49,53.51|N|Look for small piles of dirt on the ground. Click on them to get a Hyjal Seedling.|
 C Fresh Bait|QID|25493|S|M|35.62,54.29|N|Kill Core Hounds for Core Hound Entrails.|
 C Firebreak|QID|25492|M|34.42,56.71|
