@@ -7,7 +7,7 @@ A Warchief's Command: Mount Hyjal|QID|27721|M|49.7,76.7|Z|Orgirmmar|N|Get the qu
 N Talk to Cenarion Emissary Blackhoof|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|In the Valley of Wisdom.|
 T Warchief's Command: Mount Hyjal|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|
 A As Hyjal Burns|QID|25316|M|45.5,44.7|Z|Moonglade|
-N Ride Aronus|QID|25316|M|46.0,45.1|Z|Moonglade|N|Ride on Aronus to get to Mount Hyjal.|
+N Ride Aronus|QID|25316|M|46.0,45.1|Z|Moonglade|
 T As Hyjal Burns|QID|25316|M|62.1,24.8|N|Inside the building at Ysera.|
 A Protect the World Tree|QID|25317|M|62.1,24.8|
 h Nordrassil|QID|25317|M|63.0,24.1|N|At Sebelia next to the door.|
@@ -187,6 +187,225 @@ T Black Heart of Flame|QID|25428|M|22.18,44.93|N|To Tyrus Blackhorn.|
 A Last Stand at Whistling Grove|QID|25940|M|19.10,40.98|N|From Laina Nightsky.|
 T Last Stand at Whistling Grove|QID|25940|M|13.68,32.88|N|To Keeper Taldros.|
 A The Bears Up There|QID|25462|M|13.68,32.88|N|From Keeper Taldros.|
+C The Bears Up There|QID|25462|M|13.93,34.22|N|Find one of the trees nearby that has small ladders around its base. Click on one of the ladders to climb into the tree. In the tree, Click on one of the bear cubs you are near to grab it. Then use the vehicle controls on your action bar to climb to the top of the tree. Once you are at the top of the tree, you will get a new control: Chuck-a-Bear. Aim for the trampoline in front of Keeper Taldros and toss the bear cub onto it. Then climb to a lower part of the tree to get another bear cub. Repeat 6 times.|
+T The Bears Up There|QID|25462|M|13.66,32.89|N|To Keeper Taldros.|
+A Smashing Through Ashes|QID|25490|M|13.66,32.89|N|From Keeper Taldros.|
+C Smashing Through Ashes|QID|25490|M|19.83,58.70|
+T Smashing Through Ashes|QID|25490|M|27.15,62.57|N|To Arch Druid Hamuul Runetotem.|
+A Durable Seeds|QID|25491|M|27.15,62.57|N|From Arch Druid Hamuul Runetotem.|
+A Fresh Bait|QID|25493|M|27.15,62.57|N|From Arch Druid Hamuul Runetotem.|
+A Firebreak|QID|25492|M|27.08,62.97|N|From Rayne Feathersong.|
+N Nemesis|PRE|25491|N|As you complete the next steps, watch out for Nemesis, a level 80 Elite giant turtle who patrols all over The Flamewake.|
+C Durable Seeds|QID|25491|S|M|35.49,53.51|N|Look for small piles of dirt on the ground. Click on them to get a Hyjal Seedling.|
+C Fresh Bait|QID|25493|S|M|35.62,54.29|N|Kill Core Hounds for Core Hound Entrails.|
+C Firebreak|QID|25492|M|34.42,56.71|
+C Durable Seeds|QID|25491|US|M|35.49,53.51|N|Finish collecting Hyjal Seedlings.|
+C Fresh Bait|QID|25493|US|M|35.62,54.29|N|Kill Core Hounds for Core Hound Entrails.|
+T Durable Seeds|QID|25491|M|27.16,62.62|N|To Arch Druid Hamuul Runetotem.|
+T Fresh Bait|QID|25493|M|27.16,62.62|N|To Arch Druid Hamuul Runetotem.|
+A Hell's Shells|QID|25507|M|27.18,62.65|N|From Arch Druid Hamuul Runetotem.|
+T Firebreak|QID|25492|M|27.09,62.95|N|To Rayne Feathersong.|
+A Prepping the Soil|QID|25502|M|27.09,62.95|N|From Rayne Feathersong.|
+C Hell's Shells|QID|25507|U|54744|M|40.27,55.81|N|Get on your flying mount and fly around The Flamewake until you find Nemesis. Land a safe distance away and place the Heap of Core Hound Innards on the ground so that Nemesis walks near them. Once Nemesis gets in range of the Innards, he will begin to eat them, allowing you to run up to him and collect the shell fragment by clicking on him. As soon as you have the fragment, quickly get on your mount to get away before he attacks you.|
+C Prepping the Soil|QID|25502|M|33.10,64.45|N|Head to a small area in the south part of The Flamewake, almost directly east of the Sanctuary of Malorne. You will be in front of a cave entrance. Find the Flameward. Clear the area of any enemies that might attack you then right-click on the Flameward to activate it. Defend the Flameward from anything that comes out to attack it. After about a minute, the Flameward will be fully activated, which will kill any remaining enemies around it.|
+T Fact-Finding Mission|QID|25740|M|32.82,70.73|N|To Thisalee Crow.|
+A Sethria's Brood|QID|25746|M|32.82,70.73|N|From Thisalee Crow.|
+A A Gap in Their Armor|QID|25758|M|32.86,70.73|N|From Thisalee Crow.|
+C A Gap in Their Armor|QID|25758|S|M|31.54,76.25|
+C Sethria's Brood|QID|25746|S|M|31.33,76.40|N|Kill the Twilight Dragonkin. Avoid the Twilight Juggernauts for now.|
+A The Codex of Shadows|QID|25763|M|31.21,77.08|N|In the center of the camp, you will find a pedestal with a book on it. Click on the book and accept the quest The Codex of Shadows.|
+C A Gap in Their Armor|QID|25758|US|M|31.54,76.25|
+C Sethria's Brood|QID|25746|US|M|31.33,76.40|N|Kill the Twilight Dragonkin. Avoid the Twilight Juggernauts for now.|
+T Sethria's Brood|QID|25746|M|32.80,70.79|N|To Thisalee Crow.|
+T A Gap in Their Armor|QID|25758|M|32.80,70.79|N|To Thisalee Crow.|
+A Disassembly|QID|25761|M|32.80,70.79|N|From Thisalee Crow.|
+T The Codex of Shadows|QID|25763|M|32.80,70.79|N|To Thisalee Crow.|
+A Egg Hunt|QID|25764|M|32.80,70.79|N|From Thisalee Crow.|
+C Disassembly|QID|25761|U|55883|M|30.70,80.05|N|Find a Twilight Juggernaut. Use Thisalee's Shiv on him to break his armor, then kill him. You can use the Shiv multiple times to further decrease his armor.|
+C Egg Hunt|QID|25764|M|29.80,76.97|N|Find one of the Shadow Cloak Generators. Click on it to deactivate it. Keep doing this until you find Aviana's egg. Once you find the egg, you must defend it until the druids come to collect it.|
+T Disassembly|QID|25761|M|32.78,70.74|N|To Thisalee Crow.|
+T Egg Hunt|QID|25764|M|32.78,70.74|N|To Thisalee Crow.|
+A Sethria's Demise|QID|25776|M|32.78,70.74|N|From Thisalee Crow.|
+C Sethria's Demise|QID|25776|U|56003|M|35.46,97.83|N|Attack her until she changes into her dragon form. When she does, use Thisalee's Signal Rocket to summon the Druids of the Talon to help you defeat her. She will occasionally place a shadow fissure on the ground around. Move out of it as soon as you see it to avoid massive damage.|
+T Sethria's Demise|QID|25776|M|32.78,70.77|N|To Thisalee Crow.|
+A Return to the Shrine|QID|25795|M|32.78,70.77|N|From Thisalee Crow.|
+T Prepping the Soil|QID|25502|M|27.10,62.97|N|To Rayne Feathersong.|
+T Hell's Shells|QID|25507|M|27.16,62.58|N|To Arch Druid Hamuul Runetotem.|
+A Tortolla Speaks|QID|25510|M|27.16,62.58|N|From Arch Druid Hamuul Runetotem.|
+T Tortolla Speaks|QID|25510|M|24.76,56.08|N|Fly to Torolla, who is chained on the far side of the lake.|
+A Breaking the Bonds|QID|25514|M|24.76,56.08|N|From Tortolla.|
+A Children of Tortolla|QID|25519|M|24.76,56.08|N|From Tortolla.|
+C Children of Tortolla|QID|25519|M|24.06,56.89|N|Jump into the lake and swim down. Kill the Deep Corruptors to rescue the eggs they are near.|
+C Breaking the Bonds|QID|25514|M|25.24,54.90|N|Go back to Tortolla. Use the giant rod to your left to break the chain holding Tortola and summon a Twilight Dominator. Kill him, then repeat on the other rod to the right.|
+T Breaking the Bonds|QID|25514|M|24.68,55.78|N|To Tortolla.|
+T Children of Tortolla|QID|25519|M|24.68,55.78|N|To Tortolla.|
+A An Ancient Awakens|QID|25520|M|24.68,55.78|N|From Tortolla.|
+T An Ancient Awakens|QID|25520|M|27.14,62.59|N|To Arch Druid Hamuul Runetotem.|
+T Return to the Shrine|QID|25795|M|44.41,46.24|N|Fly back to the Shrine of Aviana. Find Choluna in the back.|
+A An Ancient Reborn|QID|25807|M|44.41,46.24|N|From Choluna.|
+C An Ancient Reborn|QID|25807|U|56016|M|44.34,47.89|N|Go up the ramp to your right, into a small room where you will find Aviana's Egg. Use the Herald's Incense near the egg to resurrect Aviana.|
+T An Ancient Reborn|QID|25807|M|44.34,47.89|N|To Aviana.|
+A The Hatchery Must Burn|QID|25810|M|44.09,46.01|N|From Morthis Whisperwing.|
+A The Last Living Lorekeeper|QID|25830|M|43.82,45.97|N|From Vision of Ysera.|
+F Firelands Hatchery|QID|25810|M|39.20,58.23|N|Fly back down into The Flamewake. Enter the large portal in the center.|
+T The Hatchery Must Burn|QID|25810|M|37.23,56.22|Z|Firelands Hatchery|N|To Farden Talonshrike.|
+A Flight in the Firelands|QID|25523|M|37.23,56.22|Z|Firelands Hatchery|N|From Farden Talonshrike.|
+C Flight in the Firelands|QID|25523|M|36.51,53.32|Z|Firelands Hatchery|N|Loot a Twilight Firelance from one of the weapon ranks behind Farden. Equip it and jump on one of the Aviana's Guardians nearby. Flight does not work the normal way on these mounts. You must use the Flap ability to make them move forward AND stay in the air. You will move forward and gain altitude the more you use the ability. Fly to one of the flags on any the ledges in the cavern, then fly back to complete the quest.|
+T Flight in the Firelands|QID|25523|M|37.27,56.22|Z|Firelands Hatchery|N|To Farden Talonshrike.|
+A Wave One|QID|25525|M|37.27,56.22|Z|Firelands Hatchery|N|From Farden Talonshrike.|
+C Wave One|QID|25525|M|37.66,49.68|Z|Firelands Hatchery|N|Using the same controls, fly into the center of the cavern. You will see many Twilight Buzzards flying around. "Kill" them by running onto the buzzards with your mount.|
+T Wave One|QID|25525|M|37.25,56.23|Z|Firelands Hatchery|N|To Farden Talonshrike.|
+A Wave Two|QID|25544|M|37.27,56.27|Z|Firelands Hatchery|N|From Farden Talonshrike.|
+C Wave Two|QID|25544|M|35.08,51.10|Z|Firelands Hatchery|N|This quest is exactly the same as the last one, except now there are flaming boulders falling from the sky that you must dodge. If your mount gets killed, there are replacement mounts at the bottom of the cavern.|
+T Wave Two|QID|25544|M|37.26,56.23|Z|Firelands Hatchery|N|To Farden Talonshrike.|
+A Egg Wave|QID|25560|M|37.26,56.23|Z|Firelands Hatchery|N|From Farden Talonshrike.|
+C Egg Wave|QID|25560|M|35.96,51.87|Z|Firelands Hatchery|N|This quest is much easier. Still using the same controls, fly over to the ledges around the room and run over the eggs that are on them.|
+T Egg Wave|QID|25560|M|37.26,56.21|Z|Firelands Hatchery|N|To Farden Talonshrike.|
+A Return to Aviana|QID|25832|M|37.26,56.21|Z|Firelands Hatchery|N|From Farden Talonshrike.|
+T The Last Living Lorekeeper|QID|25830|M|27.45,55.69|N|To Nordu.|
+A Firefight|QID|25842|M|27.45,55.69|N|From Nordu.|
+C Firefight|QID|25842|M|26.86,52.98|N|Kill 5 Firey Tormentors nearby.|
+T Firefight|QID|25842|M|27.37,55.80|N|To Nordu.|
+A Aessina's Miracle|QID|25372|M|27.37,55.80|N|From Nordu.|
+T Return to Aviana|QID|25832|M|44.31,47.91|N|To Aviana.|
+T Aessina's Miracle|QID|25372|M|19.53,37.88|N|To Arch Druid Hamuul Runetotem.|
+A Tortolla's Revenge|QID|25843|M|19.57,37.92|N|From Arch Druid Hamuul Runetotem.|
+T Tortolla's Revenge|QID|25843|M|42.07,60.88|N|To Tortolla.|
+A The Hammer and the Key|QID|25904|M|42.07,60.88|N|From Tortolla.|
+A Lost Wardens|QID|25881|M|42.28,60.64|N|From Niden, a nightelf sitting on the ground next to Tortolla.|
+A Breakthrough|QID|25899|M|42.28,60.64|N|From Niden.|
+C Lost Wardens|QID|25881|S|M|48.98,51.70|
+C Breakthrough|QID|25899|M|49.47,51.54|
+C Lost Wardens|QID|25881|US|M|48.98,51.70|
+T Lost Wardens|QID|25881|M|57.15,55.94|N|Continue to follow the road east until you reach a building with nightelves fighting around it. Go inside to find Captain Irontree.|
+A Pressing the Advantage|QID|25886|M|57.15,55.94|N|From Captain Irontree.|
+T Breakthrough|QID|25899|M|57.15,55.94|N|To Captain Irontree.|
+A Hyjal Recycling Program|QID|25901|M|56.87,56.01|N|From Logram.|
+C Hyjal Recycling Program|QID|25901|S|M|56.80,52.80|
+C Pressing the Advantage|QID|25886|M|54.16,54.28|
+C The Hammer and the Key|QID|25904|M|60.42,58.91|N|Continue killing Twilight Field Captains.|
+C Hyjal Recycling Program|QID|25901|US|M|56.80,52.80|
+T The Hammer and the Key|QID|25904|M|42.25,60.80|N|To Tortolla.|
+A The Third Flamegate|QID|25906|M|42.25,60.80|N|From Tortolla.|
+T Pressing the Advantage|QID|25886|M|57.14,55.96|N|To Captain Irontree.|
+T Hyjal Recycling Program|QID|25901|M|56.86,56.05|N|To Logram.|
+T The Third Flamegate|QID|25906|M|64.30,53.54|Z|The Crucible of Flame|N|Go farther down the road, to the east, until you reach another flamegate. Enter it to be teleported to The Crucible of Flame. Speak to Garunda Mountainpeak.|
+A The Time for Mercy has Passed|QID|25910|M|64.30,53.54|Z|The Crucible of Flame|N|From Garunda Mountainpeak.|
+A The Strength of Tortolla|QID|25915|M|64.30,53.54|Z|The Crucible of Flame|N|From Garunda Mountainpeak.|
+C The Time for Mercy has Passed|QID|25910|S|M|61.17,56.87|Z|The Crucible of Flame|
+C The Strength of Tortolla|QID|25915|M|65.95,58.11|Z|The Crucible of Flame|N|Make your way through the cavern until you find a Nemesis Crystal. Move the Cild of Tortolla following you close to the crystal and he will automatically examine it.|
+C The Time for Mercy has Passed|QID|25910|US|M|61.17,56.87|Z|The Crucible of Flame|
+T The Time for Mercy has Passed|QID|25910|M|64.34,53.55|Z|The Crucible of Flame|N|To Garunda Mountainpeak.|
+T The Strength of Tortolla|QID|25915|M|64.34,53.55|Z|The Crucible of Flame|N|To Garunda Mountainpeak.|
+A Finish Nemesis|QID|25923|M|64.34,53.55|Z|The Crucible of Flame|N|From Garunda Mountainpeak.|
+C Finish Nemesis|QID|25923|U|56207|M|63.08,62.60|Z|The Crucible of Flame|N|Time to fight the giant turtle we have been dodging all this time. Go all the way to the end of the cave, where you will find Nemesis. Attack him until you get the message "Nemesis is about to erupt!" When you see that, use the Totem of Tortolla to place a shield around yourself, protecting you from damage but also preventing any movement or attacks by you. Nemesis will erupt in flames, damaging himself and everything around him. Repeat this sequence of attacking and shielding until Nemesis is dead.|
+T Finish Nemesis|QID|25923|M|64.31,53.54|Z|The Crucible of Flame|N|To Garunda Mountainpeak.|
+A Tortolla's Triumph|QID|25928|M|64.31,53.54|Z|The Crucible of Flame|N|From Garunda Mountainpeak.|
+T Tortolla's Triumph|QID|25928|M|42.11,60.86|N|Use the portal nearby to teleport back to The Scorched Plain. Follow the road, heading west, all the way back to Tortolla.|
+A The Ancients are With Us|QID|25653|M|42.11,60.86|N|From Tortolla.|
+T The Ancients are With Us|QID|25653|M|62.07,24.91|
+A Commander Jarod Shadowsong|QID|25597|M|62.07,24.91|N|From Ysera.|
+T Commander Jarod Shadowsong|QID|25597|M|71.92,58.11|N|To Elementalist Ortell.|
+A Signed in Blood|QID|25274|M|71.92,58.11|N|From Elementalist Ortell.|
+C Signed in Blood|QID|25274|U|52683|M|73.01,59.08|N|Follow the road out of the cave until you reach a small group of Twilight Recruits. Speak to one of the recruits to get him to follow you. Lead him out of sight of the rest of the group and use the Blackjack on the recruit. This will kill him. Loot the Twilight Recruitment Papers.|
+T Signed in Blood|QID|25274|M|71.93,58.14|N|To Elementalist Ortell.|
+A Your New Identity|QID|25276|M|71.93,58.14|N|From Elementalist Ortell.|
+T Your New Identity|QID|25276|M|76.94,62.09|N|To Condenna the Pitiless.|
+A Trial By Fire|QID|25223|M|76.94,62.09|N|From Condenna the Pitiless.|
+A In Bloom|QID|25224|M|76.94,62.09|N|From Condenna the Pitiless.|
+A Waste of Flesh|QID|25330|M|77.04,62.20|N|From Instructor Cargall.|
+C Trial By Fire|QID|25223|S|M|81.76,64.37|
+C In Bloom|QID|25224|S|M|82.28,62.67|
+C Waste of Flesh|QID|25330|U|52819|M|82.23,63.61|N|Find an Immolated Supplicant that are running around covered in fire. Use the Frostgale Crystal on them to put out the flames.|
+C In Bloom|QID|25224|US|M|82.28,62.67|
+C Trial By Fire|QID|25223|US|M|81.76,64.37|
+T Waste of Flesh|QID|25330|M|77.07,62.09|N|To Instructor Cargall.|
+T Trial By Fire|QID|25223|M|76.95,62.07|N|To Condenna the Pitiless.|
+T In Bloom|QID|25224|M|76.95,62.07|N|To Condenna the Pitiless.|
+A Twilight Training|QID|25291|M|76.95,62.07|N|From Condenna the Pitiless.|
+T Twilight Training|QID|25291|M|89.56,59.03|N|To Instructor Mylva.|
+A Physical Training: Forced Labor|QID|25509|M|89.56,59.03|N|From Instructor Mylva.|
+A Walking the Dog|QID|25294|M|90.13,56.44|N|From Instructor Devoran.|
+A Gather the Intelligence|QID|25296|M|88.30,58.52|
+N Gather the Intelligence|QID|25296|M|91.95,51.60|N|Search the camp until you find the Twilight Communique. It can be just about anywhere in the camp so just keep looking around until you find it. Try to grab it when none of the Twilight Guards are close by. If they see you take the communique they will attack.|
+C Gather the Intelligence|QID|25296|M|91.95,51.60|N|Leave the camp. Head northeast, toward the other camp, Doom's Vigil. Find the Hyjal Battleplans somewhere in the Doom's Vigil camp.|
+C Physical Training: Forced Labor|QID|25509|S|U|54788|M|89.55,49.35|N|use the Twilight Pick on Darkwhisper Lodestones.|
+K Spinescale Basilisk|QID|25294|L|52708 5|M|89.55,49.35|N|Kill Spinescale Basilisk and loot 5 Charred Basilisk Meat.|
+C Physical Training: Forced Labor|QID|25509|US|U|54788|M|89.55,49.35|N|use the Twilight Pick on Darkwhisper Lodestones.|
+C Walking the Dog|QID|25294|U|52717|M|92.43,50.73|N|Once back in the camp, use the Firey Leash to summon the Spawn of Smolderos. Feed him the 5 Charred Basilisk Meat.|
+T Walking the Dog|QID|25294|M|90.11,56.32|N|To Instructor Devoran.|
+A A Champion's Collar|QID|25494|M|90.11,56.32|N|From Instructor Devoran.|
+T Gather the Intelligence|QID|25296|M|88.32,58.52|N|To Instructor Devoran.|
+A Seeds of Discord|QID|25308|M|88.32,58.52|N|From Instructor Devoran.|
+T Physical Training: Forced Labor|QID|25509|M|89.58,59.06|N|To Instructor Mylva.|
+A Agility Training: Run Like Hell!|QID|25499|M|89.58,59.06|N|From Instructor Mylva.|
+C Agility Training: Run Like Hell!|QID|25499|M|88.66,57.88|
+T Agility Training: Run Like Hell!|QID|25499|M|89.58,59.03|N|To Instructor Mylva.|
+A Mental Training: Speaking the Truth to Power|QID|25299|M|89.58,59.03|N|From Instructor Mylva.|
+C Mental Training: Speaking the Truth to Power|QID|25299|U|52828|M|89.58,59.03|N|Use the Orb of Ascension. You will be asked 10 yes/no questions. The questions are simple and the answers are VERY obvious. Dismiss the Orb once you get the quest completed message.|
+T Mental Training: Speaking the Truth to Power|QID|25299|M|89.58,59.03|N|To Instructor Mylva.|
+A Spiritual Training: Mercy is for the Weak|QID|25309|M|89.58,59.03|N|From Instructor Mylva.|
+C Spiritual Training: Mercy is for the Weak|QID|25309|M|92.11,48.36|N|Go back to Doom's Vigil. To your left as you enter the camp, you will see a group of Failed Supplicants. Kill 5 Failed Supplicants.|
+C A Champion's Collar|QID|25494|M|84.20,47.31|N|Leave the camp and follow the road when it turns north. You will find the Spinescale Matriarch. Kill her and loot the Spiked Basilisk Hide.|
+T A Champion's Collar|QID|25494|M|90.14,56.49|N|To Instructor Devoran.|
+A Grudge Match|QID|25496|M|90.14,56.49|N|From Instructor Devoran.|
+C Grudge Match|QID|25496|M|77.86,51.18|N|Leave the camp and go to the Seat of the Chosen. Go to the first building on your left as you enter the camp. Speak to Gromm'ko to challenge him to a match. Once your core hound pup kills his raptor, Gromm'ko will attack you.|
+C Seeds of Discord|QID|25308|U|55137|M|76.62,48.71|N|Go to the Ogre Outhouse on the right side of the large building. Use the Ogre Disguise near the outhouse to transform into an ogre. Enter the large building. Speak to Karr'gonn to get him to leave the room. As soon as he is outside, kill High Cultist Azennios.|
+T Grudge Match|QID|25496|M|90.12,56.45|N|To Instructor Devoran.|
+T Seeds of Discord|QID|25308|M|88.28,58.51|N|To Instructor Devoran.|
+T Spiritual Training: Mercy is for the Weak|QID|25309|M|89.55,59.00|N|To Instructor Mylva.|
+A The Greater of Two Evils|QID|25310|M|89.55,59.00|N|From Instructor Mylva.|
+A Twilight Territory|QID|25311|M|89.55,59.00|N|From Instructor Mylva.|
+C Twilight Territory|QID|25311|M|67.78,68.94|
+C The Greater of Two Evils|QID|25310|U|54814|M|64.91,64.82|N|Use the Talisman of Flame Ascendancy and use the abilities you now have to kill Garnoth. Start off the fight by using Flame Shield to protect yourself, the use Ascendant Strike 3 times to attack Garnoth. Repeat this rotation until he is dead.|
+T The Greater of Two Evils|QID|25310|M|89.56,59.09|N|To Instructor Mylva.|
+T Twilight Territory|QID|25311|M|89.56,59.09|N|To Instructor Mylva.|
+A Speech Writing for Dummies|QID|25314|M|88.30,58.50|
+C Speech Writing for Dummies|QID|25314|M|78.87,56.40|N|Search around the roads leading to the Seat of the Chosen until you find Okrog.|
+T Speech Writing for Dummies|QID|25314|M|88.28,58.51|
+A Head of the Class|QID|25601|M|88.28,58.51|
+T Head of the Class|QID|25601|M|89.56,59.07|N|To Instructor Mylva.|
+A Graduation Speech|QID|25315|M|89.56,59.07|N|From Instructor Mylva.|
+C Graduation Speech|QID|25315|M|95.22,51.33|N|Fly over to Doom's Vigil. You will find a podium all the way at the back of the camp. Click on it to start the event. During this event, you will have to use 3 abilities depending on the crowd's mood. These abilities are: Inspire, Incite, and Pander. The members of the crowd will say different things depending on their mood. Wait until a random crowd member says something, then use the abilities. Once you have made the correct choice 10 times, the crowd will riot, allowing you to rescue Jarod Shadowsong.|
+T Graduation Speech|QID|25315|M|95.35,51.36|N|To Commander Jarod Shadowsong.|
+A Twilight Riot|QID|25531|M|95.35,51.36|
+T Twilight Riot|QID|25531|M|72.24,74.60|N|To Commander Jarod Shadowsong.|
+A Slash and Burn|QID|25608|M|72.24,74.60|N|From Commander Jarod Shadowsong.|
+C Slash and Burn|QID|25608|M|84.34,55.98|N|Get on one of the Emerald Drakes nearby. Fly east back into Darkwhisper Gorge. Use the Acid Blast ability on any ground units you see until you have killed 40 Twilight's Hammer units, and the Aerial Swipe ability on 5 of the Twilight Stormwakers, the twilight dragons flying around.|
+T Slash and Burn|QID|25608|M|72.15,74.03|N|To Commander Jarod Shadowsong.|
+A Might of the Firelord|QID|25548|M|72.11,74.11|N|From Commander Jarod Shadowsong.|
+A Secrets of the Flame|QID|25554|M|71.99,74.17|N|From Cenarius.|
+f Gates of Sothann|QID|25554|M|71.67,75.24|N|At Althera.|
+C Might of the Firelord|QID|25548|S|M|58.49,82.53|
+N Secrets of the Flame|QID|25554|M|59.66,80.81|N|Get the The Burning Litanies.|
+N Secrets of the Flame|QID|25554|M|58.13,78.90|N|Get the Tome of Flame.|
+C Secrets of the Flame|QID|25554|M|56.84,83.85|N|Get the Ascendant's Codex.|
+A The Twilight Egg|QID|25644|M|59.06,83.88|
+C Might of the Firelord|QID|25548|US|M|58.49,82.53|
+T Might of the Firelord|QID|25548|M|72.06,73.91|N|To Commander Jarod Shadowsong.|
+A The Sanctum of the Prophets|QID|25549|M|72.06,73.91|N|From Commander Jarod Shadowsong.|
+T Secrets of the Flame|QID|25554|M|71.91,73.98|N|To Cenarius.|
+A The Gatekeeper|QID|25555|M|71.91,73.97|N|From Cenarius.|
+T The Twilight Egg|QID|25644|M|72.23,73.86|N|To Aronus.|
+A Brood of Evil|QID|25552|M|72.23,73.86|N|From Aronus.|
+C Brood of Evil|QID|25552|M|59.46,77.60|N|Fly back to Ascendant's Circle. Kill a Young Twilight Drake and loot his skull.|
+C The Sanctum of the Prophets|QID|25549|M|58.20,68.15|N|Fly to the camp north of Ascendant's Circle. Kill everything you need.|
+C The Gatekeeper|QID|25555|U|55153|M|57.56,68.55|N|Find Azralon the Gatekeeper in the northwest end of the camp. Make sure you are at full health/mana. Attack him and immediately use the Horn of Cenarius to summon Goldrinn and a group of druids to help you kill him.|
+T Brood of Evil|QID|25552|M|72.19,73.84|N|To Aronus.|
+A Death to the Broodmother|QID|25553|M|72.05,73.82|N|From Aronus.|
+T The Sanctum of the Prophets|QID|25549|M|72.05,73.97|N|To Commander Jarod Shadowsong.|
+A Magma Monarch|QID|25550|M|72.05,73.97|N|From Commander Jarod Shadowsong.|
+T The Gatekeeper|QID|25555|M|71.92,74.02|N|To Cenarius.|
+C Death to the Broodmother|QID|25553|U|55173|M|54.78,85.27|N|Use the Young Twilight Drake Skull to summon Desperiona. Aronus and Aviana come to help so don't panic when she appears.|
+C Magma Monarch|QID|25550|U|55179|M|43.89,82.83|N|Fly to the charred area southwest of Sulferon Spire. Find King Moltron. Land near him and use the Drums of the Turtle God to summon Tortolla. Kill King Moltron.|
+T Death to the Broodmother|QID|25553|M|72.24,73.91|N|To Aronus.|
+T Magma Monarch|QID|25550|M|72.07,74.00|N|To Commander Jarod Shadowsong.|
+A The Firelord|QID|25551|M|71.95,73.96|N|From Cenarius.|
+C The Firelord|QID|25551|M|49.07,76.66|N|It's finally time to fight Ragnaros. Fly to the flamegate just past where you fought Azralon. Enter the portal and speak to Cenarius to start the battle. Malfurion Stormrage and Arch Druid Hamuul some to help out as well. Once the battle starts, Cenarius will hold threat on Ragnaros, while Hamuul and Malfurion cast spells on him that cause Ragnaros to take 2000% increased magic and physical damage. Every 30 secods or so, Ragnaros will submerge and summon a flame wave. Once the flame wave passes, Ragnaros will summon adds that attack Malfurion and Hamuul. Alternate between keeping the adds clear and DPS'ing Ragnaros until he dies.|
+T The Firelord|QID|25551|M|72.04,74.10|N|Once he is finished off, go back through the portal to be teleported back to the Throne of Flame and speak to Commander Jarod Shadowsong.|
+A The Battle Is Won, The War Goes On|QID|27399|M|72.05,73.89|N|From Commander Jarod Shadowsong.|
+F Orgrimmar|QID|28790|M|71.67,75.24|N|Fly back to Orgrimmar.|
+T The Battle Is Won, The War Goes On|QID|27399|M|50.38,38.23|Z|Orgrimmar|N|To Farseer Krogar.|
 ]]
 
 end)
