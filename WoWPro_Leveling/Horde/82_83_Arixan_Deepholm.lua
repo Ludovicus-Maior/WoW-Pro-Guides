@@ -113,7 +113,7 @@ A Apply and Flash Dry|QID|26411|M|46.51,57.23|N|From Initiate Goldmine.|
 C Apply and Flash Dry|QID|26411|U|58502|M|46.51,57.23|N|Use the Explosive Bonding Compound on Flint Oremantle, who is lying on the ground next to Goldmine.|
 T Apply and Flash Dry|QID|26411|M|46.51,57.23|N|To Initiate Goldmine.|
 A Take Him to the Earthcaller|QID|26413|M|46.51,57.23|N|From Initiate Goldmine.|
-C Take Him to the Earthcaller|QID|26413|M|49.65,53.32|N|Return to the Temple of Earth. Flint Oremantle will follow you.|
+C Take Him to the Earthcaller|QID|26413|M|49.65,53.32|N|Back to the Temple of Earth. Flint Oremantle will follow you.|
 T Take Him to the Earthcaller|QID|26413|M|49.54,53.44|N|To Earthcaller Yevaa.|
 A To Stonehearth's Aid|QID|26484|M|49.54,53.44|N|From Earthcaller Yevaa.|
 T To Stonehearth's Aid|QID|26484|M|27.89,68.71|N|Fly to Stonehearth. Find Crag Rockcrusher.|
@@ -121,12 +121,51 @@ A The Quaking Fields|QID|27931|M|27.89,68.71|N|From Crag Rockcrusher.|
 T The Quaking Fields|QID|27931|M|30.71,77.75|N|To Slate Quicksand.|
 A The Axe of Earthly Sundering|QID|27932|M|30.71,77.75|N|From Slate Quicksand.|
 A Elemental Ore|QID|27933|M|30.71,77.75|N|From Slate Quicksand.|
-C Elemental Ore|QID|27933|M|35.41,79.06|N|Kill Jade Ragers in the area until you get 6 Elemental Ore.|S|
+C Elemental Ore|QID|27933|S|M|35.41,79.06|N|Kill Jade Ragers in the area until you get 6 Elemental Ore.|
 C The Axe of Earthly Sundering|QID|27932|U|60490|M|38.96,85.86|N|Find an Emerald Colossus and use The Axe of Earthly Sundering. It will turn into a Sundered Emerald Colossus, which if far easier to kill.|
-C Elemental Ore|QID|27933|M|35.41,79.06|N|Kill Jade Ragers in the area until you get 6 Elemental Ore.|US|
+C Elemental Ore|QID|27933|US|M|35.41,79.06|N|Kill Jade Ragers in the area until you get 6 Elemental Ore.|
 T The Axe of Earthly Sundering|QID|27932|M|30.69,77.77|N|To Slate Quicksand.|
 T Elemental Ore|QID|27933|M|30.69,77.77|N|To Slate Quicksand.|
 A One With the Ground|QID|27934|M|30.69,77.77|N|From Slate Quicksand.|
+C One With the Ground|QID|27934|M|47.11,90.17|N|Talk to Slate and tell him you are ready to complete the ritual. You will go tunneling through the ground into Avalanchion?s Vault.|
+T One With the Ground|QID|27934|M|47.11,90.17|N|Click the notification box to turn in One With the Ground.|
+A Bring Down the Avalanche|QID|27935|M|47.11,90.17|N|Accept the followup, Bring Down the Avalanche.|
+C Bring Down the Avalanche|QID|27935|M|46.96,89.23|N|Kill Avalanchion.|
+T Bring Down the Avalanche|QID|27935|M|27.88,68.68|N|Once he is dead, leave the cave by jumping down into the water and heading north to exit exit. Then return to Crag Rockcrusher at Stonehearth. |
+A Stonefather's Boon|QID|26499|M|27.88,68.68|N|From Crag Rockcrusher.|
+A We're Surrounded|QID|26500|M|28.23,69.69|N|From Earthbreaker Dolomite.|
+C Stonefather's Boon|QID|26499|S|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather?s Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
+C We're Surrounded|QID|26500|M|31.38,72.07|
+C Stonefather's Boon|QID|26499|US|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather?s Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
+T We're Surrounded|QID|26500|M|28.24,69.72|N|To Earthbreaker Dolomite.|
+A Thunder Stones|QID|26502|M|28.21,69.66|N|From Earthbreaker Dolomite.|
+T Stonefather's Boon|QID|26499|M|27.86,68.69|N|To Crag Rockcrusher.|
+A Sealing the Way|QID|26501|M|27.86,68.69|N|From Crag Rockcrusher.|
+C Thunder Stones|QID|26502|S|M|25.84,68.47|
+N Sealing the Way|QID|26501|U|58885|M|27.3,67.8|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the building.|
+N Sealing the Way|QID|26501|U|58885|M|26.0,68.8|N|Seal the second door.|
+N Sealing the Way|QID|26501|U|58885|M|26.2,69.9|N|Seal the third door.|
+C Sealing the Way|QID|26501|U|58885|M|27.3,70.1|N|Seal the final door.|
+C Thunder Stones|QID|26502|US|M|25.84,68.47|
+T Sealing the Way|QID|26501|M|24.55,62.41|N|To Gravel Longslab.|
+A Shatter Them!|QID|26537|M|24.55,62.41|N|From Gravel Longslab.|
+T Thunder Stones|QID|26502|M|24.72,62.14|N|To Clay Mudaxle.|
+A Fixer Upper|QID|26564|M|24.72,62.14|N|From Clay Mudaxle.|
+A Battlefront Triage|QID|26591|M|24.63,62.11|N|From Earthmender Deepvein.|
+C Fixer Upper|QID|26564|S|M|21.01,57.78|N|Collect 6 Catapult Parts.|
+C Battlefront Triage|QID|26591|S|U|58965|M|23.62,61.32|N|Use Deepvein's Patch Kit on the Inured Earthen.|
+C Shatter Them!|QID|26537|M|23.31,60.51|N|Kill 12 Stone Troggs.|
+C Fixer Upper|QID|26564|US|M|21.01,57.78|N|Collect 6 Catapult Parts.|
+C Battlefront Triage|QID|26591|US|U|58965|M|23.62,61.32|N|Use Deepvein's Patch Kit on the Inured Earthen.|
+T Battlefront Triage|QID|26591|M|24.59,62.14|N|To Earthmender Deepvein.|
+T Fixer Upper|QID|26564|M|24.75,62.13|N|To Clay Mudaxle.|
+T Shatter Them!|QID|26537|M|24.52,62.41|N|To Gravel Longslab.|
+A Troggzor the Earthinator|QID|26625|M|24.52,62.41|N|From Gravel Longslab.|
+C Troggzor the Earthinator|QID|26625|M|22.51,56.74|N|Troggzor is located on a small rise. Kill him ant loot The Earthinator's Cudgel.|
+T Troggzor the Earthinator|QID|26625|M|24.52,62.40|N|To Gravel Longslab.|
+A Rush Delivery|QID|27126|M|24.72,62.17|N|From Clay Mudaxle.|
+T Rush Delivery|QID|27126|M|20.77,61.56|N|To Peak Grindstone.|
+A Close Escort|QID|26632|M|20.69,61.59|N|From Peak Grindstone.|
 ]]
 
 end)
