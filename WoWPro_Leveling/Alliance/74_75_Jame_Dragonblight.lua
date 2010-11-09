@@ -250,7 +250,7 @@ A The Bait |QID|12016|M|47.7,76.6|
 C Tua'kea's Crab Traps |QID|12009| |N|Swim southwest towards Kili'ua's Atoll . Gather 8 Tua'kea Crab Traps on the way.|M|44.00,82.00|
 K Kili'ua |QID|12016| |L|35831| |N|Once you reach Kili'ua's Atoll, kill Kili'ua and loot [The Flesh of "Two Huge Pincers"] |M|43.27,82.40|
 
-R The Briny Pinnacle |QID|12032| |N|Swim west to The Briny Pinnacle (no need to look for Crab Traps, there are none in this area) (34.00, 83.00)|
+R The Briny Pinnacle |QID|12032| |N|Swim west to The Briny Pinnacle (no need to look for Crab Traps, there are none in this area) |M|34.00, 83.00|
 C Conversing With the Depths |QID|12032| |N|Follow the path up until you find The Pearl of the Depth.  Right-click it and the sea-goddess Oacha'noa will come and talk to you. Jump in the water when she gives you the compulsion buff.|M|34.00,83.00|
 
 H Moa'ki Harbor |QID|12016| |N|Hearthstone back to Moa'ki Harbor.|
@@ -263,7 +263,7 @@ K Tu'u'gwar |QID|12017| |QO|Tu'u'gwar slain: 1/1| |U|35838| |N|Follow the fishin
 
 R Moa'ki Harbor |QID|12017| |N|Swim back to Moa'ki Harbor|
 T Meat on the Hook |QID|12017| |N|Tua'kea |M|47.7,76.6|
-T Conversing With the Depths |QID|12032| |N|Elder Ko'nani  |M|48.10,74.90|
+T Conversing With the Depths |QID|12032| |N|Toalu'u The Mystic |M|49.12,75.68|
 
 
 N Sell junk, repair, restock. |QID|12107| |N|Sell junk, repair, restock.|
@@ -285,7 +285,7 @@ A Seeds of the Lashers |QID|12458| |N|Lord Itharius|M|59.6,54.4|
 A Mystery of the Infinite |QID|12470| |N|Chromie |M|60.0,54.5|
 A The Obsidian Dragonshrine |QID|12447| |N|Nalice |M|60.1,54.2|
 
-N Go to Torastrasza |QID|12454| |N|Ask him to send you to the ground level.|
+N Go to Torastrasza |QID|12454| |N|Ask him to send you to the ground level.||M|59.57,53.46|
 
 A Cycle of Life |QID|12454| |N|Ride south/southeast to the Emerald Dragonshrine . Find Nishera the Garden Keeper, she patrols around the lake. Get her quest.|M|63.00,69.00|
 
