@@ -142,22 +142,24 @@ C To Battlescar!|QID|26082|M|46.04,36.01;41.23,38.49|N|Take the lift down, then 
 T To Battlescar!|QID|26082|M|45.11,32.82|N|To General Grebo, back up on Cliffwalker Post.|
 A Proof of Lies|QID|26097|PRE|26082|M|45.00,32.82|N|From High Chieftain Cliffwalker.|
 T Proof of Lies|QID|26097|M|39.71,46.38|N|Take the lift down and head to the tree. At the top, turn-in to Orthus Cliffwalker.|
-A Betrayal at the Grove|QID|26098|M|39.71,46.38|N|From Orthus Cliffwalker.|
+A Betrayal at the Grove|QID|26098|PRE|26097|M|39.71,46.38|N|From Orthus Cliffwalker.|
 T Betrayal at the Grove|QID|26098|M|45.01,32.73|N|To High Chieftain Cliffwalker, back up on Cliffwalker Post.|
-A Is This Justice?|QID|26099|M|45.01,32.73|N|From High Chieftain Cliffwalker.|
+A Is This Justice?|QID|26099|PRE|26098|M|45.01,32.73|N|From High Chieftain Cliffwalker.|
 C Is This Justice?|QID|26099|N|Let the NPCs tank, the general is elite so you don't want him hitting you if you can avoid it.|
 T Is This Justice?|QID|26099|M|45.01,32.89|N|To Masha Cliffwalker.|
-A The General is Dead|QID|26100|M|45.01,32.89|N|From Masha Cliffwalker.|
+A The General is Dead|QID|26100|PRE|26099|M|45.01,32.89|N|From Masha Cliffwalker.|
 
 H Krom'gar Fortress|QID|26100|M|66.54,62.80|N|Fly back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T The General is Dead|QID|26100|M|66.16,63.74|N|To Overlord Krom'gar.|
-A Might Makes Right|QID|26101|M|66.16,63.74|N|From Overlord Krom'gar.|
+A Might Makes Right|QID|26101|PRE|26100|M|66.16,63.74|N|From Overlord Krom'gar.|
 F Cliffwalker Post|QID|26101|M|66.53,62.79|
 T Might Makes Right|QID|26101|M|45.63,34.17|N|To Overlord Krom'gar.|
-A To Be Horde...|QID|26115|M|45.63,34.17|N|From Overlord Krom'gar.|
+A To Be Horde...|QID|26115|PRE|26101|M|45.63,34.17|N|From Overlord Krom'gar.|
 C To Be Horde...|NC|QID|26115|M|45.58,34.17|N|Just enjoy the event.|
 T To Be Horde...|QID|26115|M|45.58,34.17|N|Congrats on some nice gear!|
-A Nothing Left for You Here|QID|26134|M|45.54,33.80|N|From High Chieftain Cliffwalker. Pick this up if you'd like to go to Desolace next.|
+A Nothing Left for You Here|QID|26134|PRE|26115|M|45.54,33.80|N|From High Chieftain Cliffwalker. Pick this up if you'd like to go to Desolace next.|
+
+N Zone Choice - Desolace or Southern Barrens|QID|26134|N|You now have the choice of which zone to go to next. If you chose Desolace, open the guide list and select that zone. Otherwise, the guide will automatically continue to the Southern Barrens. Both are great zones, so just pick one!|
 
 
 ]]
