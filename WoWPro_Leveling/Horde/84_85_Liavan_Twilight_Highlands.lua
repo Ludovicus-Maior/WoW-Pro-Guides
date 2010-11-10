@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('LiaTwi8485', 'Twilight Highlands', 'Liavan', '84', '85', nil, 'Horde', function()
+WoWPro.Leveling:RegisterGuide('LiaTwi8485', 'Twilight Highlands', 'Liavan', '84', '85', nil, 'Horde', function()
 return [[
 
 A Ready the Air Force|QID|26358|M|60.17,50.46|Z|Azshara|N|From Captain Krazz.|
