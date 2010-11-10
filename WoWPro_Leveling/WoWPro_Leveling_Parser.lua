@@ -270,21 +270,6 @@ function WoWPro.Leveling:LoadGuide()
 	
 	-- Scrollbar Settings --
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
-	WoWPro.MainFrame:SetScript("OnMouseWheel", function(self, val) 
-		if WoWProDB.profile.guidescroll then 
-			WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val) 
-		end
-	end)	
-	local oldOffset = 0
-	WoWPro.Scrollbar:SetScript("OnValueChanged", function(self, value, ...)
-		local offset = math.floor(value)
-		if not WoWProDB.profile.guidescroll or offset == oldOffset then return
-		else
-			oldOffset = offset
-			return WoWPro:UpdateGuide(offset) 
-		end
-	end)
-	
 end
 
 -- Row Content Update --
