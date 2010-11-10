@@ -513,9 +513,27 @@ end
 
 -- Scrollbar --
 function WoWPro:CreateGuideWindowScrollbar()
-	WoWPro.Scrollbar = WoWPro:CreateScrollbar(WoWPro.GuideFrame)
+	WoWPro.Scrollbar = WoWPro:CreateScrollbar(WoWPro.GuideFrame, nil, 1)
 	WoWPro.Scrollbar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 20, -20)
 	WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 20, 20)
+
+	WoWPro.Scrollbar:SetValueStep(1)
+	local f = WoWPro.Scrollbar:GetScript("OnValueChanged")
+	local oldOffset = 0
+	WoWPro.Scrollbar:SetScript("OnValueChanged", function(self, value, ...)
+		local offset = math.floor(value)
+		if not WoWProDB.profile.guidescroll then return end
+		if offset ~= oldOffset then
+			oldOffset = offset
+			WoWPro:UpdateGuide(offset)
+		end
+		return f(self, value, ...)
+	end)
+	WoWPro.MainFrame:SetScript("OnMouseWheel", function(self, val) 
+		if WoWProDB.profile.guidescroll then 
+			WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val) 
+		end
+	end)
 end
 
 -- Rows to be populated by individual addons --
