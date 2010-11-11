@@ -1,7 +1,7 @@
 --------------------------------------
 --      WoWPro_Leveling_Parser      --
 --------------------------------------
-
+	
 local L = WoWPro_Locale
 WoWPro.Leveling.actiontypes = {
 	A = "Interface\\GossipFrame\\AvailableQuestIcon",
@@ -39,6 +39,7 @@ WoWPro.Leveling.actionlabels = {
 }
 
 -- Determine Next Active Step (Leveling Module Specific)--
+-- This function is called by the main NextStep function in the core broker --
 function WoWPro.Leveling:NextStep(k)
 	local GID = WoWProDB.char.currentguide
 
@@ -575,6 +576,11 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	end
 	if event == "PLAYER_LEVEL_UP" then
 		WoWPro.Leveling:AutoCompleteLevel(...)
+		WoWPro.Leveling.CheckAvailableSpells(...)
+--		WoWPro.Leveling.CheckAvailableTalents()
+	end
+	if event == "TRAINER_UPDATE" then
+		WoWPro.Leveling.CheckAvailableSpells()
 	end
 
 end
@@ -768,7 +774,7 @@ function WoWPro.Leveling:AutoCompleteLevel(...)
 	local newlevel = ...
 	if WoWPro_LevelingDB.guide then
 		local GID = WoWProDB.char.currentguide
-		for i=1,#WoWPro.action do
+		for i=1,WoWPro.stepcount do
 			if not WoWPro_LevelingDB.guide[GID].completion[i] 
 				and WoWPro.level[i] 
 				and tonumber(WoWPro.level[i]) <= newlevel then
@@ -831,4 +837,21 @@ function WoWPro.Leveling:UpdateQuestTracker()
 		end
 	end
 	if not WoWPro.combat then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
+end
+
+-- Get Currently Available Spells --
+function WoWPro.Leveling.GetAvailableSpells(...)
+	local newLevel = ... or UnitLevel("player")
+	local i, j = 1, 0
+	local availableSpells = {}
+	while GetSpellBookItemName(i, "spell") do
+		local info = GetSpellBookItemInfo(i, "spell")
+		local name = GetSpellBookItemName(i, "spell")
+		if info == "FUTURESPELL" and GetSpellAvailableLevel(i, "spell") <= newLevel then
+			table.insert(availableSpells,name)
+			j = j + 1
+		end
+		i = i + 1
+	end
+	return j, availableSpells
 end

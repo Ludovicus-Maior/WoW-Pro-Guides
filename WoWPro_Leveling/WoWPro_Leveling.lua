@@ -16,12 +16,14 @@ function WoWPro.Leveling:OnEnable()
 	
 	WoWPro:RegisterEvents({"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", "PLAYER_LEVEL_UP"
+		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", "PLAYER_LEVEL_UP", "TRAINER_UPDATE"
 	})
 	
 	--Loading Frames--
 	if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Leveling:CreateConfig()
+		WoWPro.Leveling.CreateSpellFrame()
+		WoWPro.Leveling.CreateSpellListFrame()
 		WoWPro.Leveling.FramesLoaded = true
 	end
 	
@@ -67,7 +69,7 @@ function WoWPro.Leveling:OnDisable()
 	local events = {
 		"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
 		"MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", 
-		"PLAYER_LEVEL_UP"
+		"PLAYER_LEVEL_UP", "TRAINER_UPDATE"
 	}
 	for _, event in ipairs(events) do
 		WoWPro.GuideFrame:UnregisterEvent(event)

@@ -17,3 +17,4 @@ WoWPro_Leveling_Parser.lua
 WoWPro_Leveling_Config.lua
 WoWPro_Leveling_CurrentGuide.lua
 WoWPro_Leveling_GuideList.lua
+WoWPro_Leveling_Frames.lua

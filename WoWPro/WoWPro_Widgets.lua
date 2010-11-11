@@ -56,7 +56,6 @@ function WoWPro:CreateTrack(parent, anchor1)
 	return track
 end
 
-
 function WoWPro:CreateItemButton(parent, id)
 	local itembutton = CreateFrame("Button", "WoWPro_itembutton"..id, parent, "SecureActionButtonTemplate")
 	itembutton:SetAttribute("type", "item")
@@ -78,7 +77,6 @@ function WoWPro:CreateItemButton(parent, id)
 	
 	return itembutton, itemicon, cooldown
 end
-
 
 function WoWPro:CreateTargetButton(parent, id)
 	local targetbutton = CreateFrame("Button", "WoWPro_targetbutton"..id, parent, "SecureActionButtonTemplate")
@@ -115,7 +113,6 @@ function WoWPro:CreateHeading(parent, text, subtext)
 
 	return title, subtitle
 end
-
 
 function WoWPro:CreateBG(parent)
 	local bg = {
