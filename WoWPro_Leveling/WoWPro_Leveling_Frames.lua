@@ -36,7 +36,7 @@ function WoWPro.Leveling.CreateSpellFrame()
 	tooltiptext:SetJustifyH("LEFT")
 	tooltiptext:SetJustifyV("TOP")
 	tooltiptext:SetWidth(200-20)
-	tooltiptext:SetText("You have new spells available to learn!\n\nClick here to see what they are.\nRight-click to open your spellbook.\n\nMake sure to visit your trainer next time you are in a major city.")
+	tooltiptext:SetText("You have new abilities available to learn!\n\nClick here to see what they are.\nRight-click to open your spellbook.\n\nMake sure to visit your trainer next time you are in a major city.")
 	tooltip.tooltiptext = tooltiptext
 	
 	WoWPro.Leveling.SpellButton:SetScript("OnEnter", function()
@@ -68,7 +68,7 @@ function WoWPro.Leveling.CreateSpellFrame()
 end
 
 function WoWPro.Leveling.CreateSpellListFrame()
-	local frame, titletext = WoWPro:CreateDialogBox("Available Spells", 250, 250)
+	local frame, titletext = WoWPro:CreateDialogBox("Available Abilities", 250, 250)
 	
 	local explanation = frame:CreateFontString()
 	explanation:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -15-titletext:GetHeight())
@@ -95,7 +95,7 @@ function WoWPro.Leveling.CreateSpellListFrame()
 		for _,spellname in pairs(WoWPro.Leveling.AvailableSpells) do
 			listOfSpells = listOfSpells.."   - "..spellname.."\n"
 		end
-		WoWPro.Leveling.SpellListDialogText:SetText("When you visit your trainer, you'll be able to learn the following spells:\n\n"
+		WoWPro.Leveling.SpellListDialogText:SetText("When you visit your trainer, you'll be able to learn the following abilities:\n\n"
 			..listOfSpells)
 		WoWPro.Leveling.SpellListDialog:SetHeight(70+WoWPro.Leveling.SpellListDialogText:GetHeight())
 		WoWPro.Leveling.SpellListDialog:Show()
