@@ -1,5 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Script file="01_05_Rpotor_Worgen_Starter.lua"/>  <!--  <Script file="01_11_Kurich_Elwynn_Forest.lua"/>    <Script file="11_15_Kurich_Westfall.lua"/>    <Script file="15_20_Kurich_Redridge_Mountains.lua"/> -->
+  <Script file="01_05_Rpotor_Worgen_Starter.lua"/>  <Script file="01_12_Snowflakes_Azuremyst.lua"/>    <Script file="12_20_Svens_Bloodmyst.lua"/>  <!--  <Script file="01_11_Kurich_Elwynn_Forest.lua"/>    <Script file="11_15_Kurich_Westfall.lua"/>    <Script file="15_20_Kurich_Redridge_Mountains.lua"/> -->
   <Script file="60_62_Jame_Hellfire.lua"/>
   <Script file="62_64_Jame_Zangarmarsh.lua"/>
   <Script file="64a_66a_Jame_Terokkar.lua"/>

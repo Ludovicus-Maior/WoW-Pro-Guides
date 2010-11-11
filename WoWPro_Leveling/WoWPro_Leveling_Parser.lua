@@ -591,7 +591,7 @@ function WoWPro.Leveling:AutoCompleteGetFP(...)
 	end
 end
 
--- Auto-Complete: Quest Update --
+-- Populate the Quest Log table for other functions to call on --
 function WoWPro.Leveling:PopulateQuestLog()
 	if not WoWPro.action then return end -- Not updating if there is no guide loaded.
 	
@@ -649,6 +649,7 @@ function WoWPro.Leveling:PopulateQuestLog()
 	
 end
 
+-- Auto-Complete: Quest Update --
 function WoWPro.Leveling:AutoCompleteQuestUpdate()
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
@@ -686,18 +687,20 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate()
 			end
 			
 			-- Partial Completion --
-			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and action == "C" and WoWPro.questtext[i] then 
-				local numquesttext, notcomplete = select("#", string.split(";", WoWPro.questtext[i])), false
+			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] then 
+				local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
+				local complete
 				for l=1,numquesttext do
-					local lquesttext, lcomplete = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i])), false
-					for j, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
+					local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
+					local lcomplete = false
+					for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
 						if lquesttext == objective then --if the objective matches the step's criteria, mark true
 							lcomplete = true
 						end
 					end
-					if not lcomplete then notcomplete = true end --if one of the listed objectives isn't complete, then the step is not complete.
+					if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
 				end
-				if not notcomplete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
+				if complete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
 			end
 		
 		end
