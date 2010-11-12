@@ -40,25 +40,6 @@ WoWPro.Leveling.actionlabels = {
 	r = "Repair/Restock"
 }
 
--- Update Item Tracking --
-local function GetLootTrackingInfo(lootitem,lootqty,count)
---[[Purpose: Creates a string containing:
-	- tracked item's name
-	- how many the user has
-	- how many the user needs
-	- a complete symbol if the ammount the user has is equal to the ammount they need 
-]]
-	local track = "" 												--If the function did have a track string, adds a newline
-	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	numinbag = GetItemCount(lootitem)+(count or 1)		--Finds the number in the bag, and adds a count if supplied
-	track = track..numinbag										--Adds the number in bag to the string
-	track = track.."/"..lootqty								--Adds the total number needed to the string
-	if lootqty == numinbag then
-		track = track.." (C)"									--If the user has the requisite number of items, adds a complete marker
-	end
-	return track													--Returns the track string to the calling function
-end
-
 -- Determine Next Active Step (Leveling Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Leveling:NextStep(k)
@@ -747,6 +728,25 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate()
 	
 end
 
+-- Update Item Tracking --
+local function GetLootTrackingInfo(lootitem,lootqty,count)
+--[[Purpose: Creates a string containing:
+	- tracked item's name
+	- how many the user has
+	- how many the user needs
+	- a complete symbol if the ammount the user has is equal to the ammount they need 
+]]
+	local track = "" 												--If the function did have a track string, adds a newline
+	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
+	numinbag = GetItemCount(lootitem)+(count or 1)		--Finds the number in the bag, and adds a count if supplied
+	track = track..numinbag										--Adds the number in bag to the string
+	track = track.."/"..lootqty								--Adds the total number needed to the string
+	if lootqty == numinbag then
+		track = track.." (C)"									--If the user has the requisite number of items, adds a complete marker
+	end
+	return track													--Returns the track string to the calling function
+end
+
 -- Auto-Complete: Loot based --
 function WoWPro.Leveling:AutoCompleteLoot(msg)
 	local lootqtyi
@@ -756,7 +756,7 @@ function WoWPro.Leveling:AutoCompleteLoot(msg)
 	for i = 1,1+WoWPro.ActiveStickyCount do
 		local index = WoWPro.rows[i].index
 		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
-		if WoWProDB.profile.track then
+		if WoWProDB.profile.track and WoWPro.lootitem[index] then
 			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi,count)
 			WoWPro.rows[i].track:SetText(strtrim(track))
 		end
