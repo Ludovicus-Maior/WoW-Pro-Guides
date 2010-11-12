@@ -56,7 +56,6 @@ function WoWPro.Leveling.CreateSpellFrame()
 	function WoWPro.Leveling.CheckAvailableSpells(...)
 		local numSpells
 		numSpells, WoWPro.Leveling.AvailableSpells = WoWPro.Leveling.GetAvailableSpells(...)
-		print("numSpells = "..numSpells)
 		if numSpells > 0 then
 			WoWPro.Leveling.SpellButton:Show()
 		else

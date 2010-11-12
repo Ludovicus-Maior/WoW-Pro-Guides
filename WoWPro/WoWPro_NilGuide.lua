@@ -3,16 +3,10 @@
 -------------------------------
 
 function WoWPro:LoadNilGuide()
-
-	-- Clearing tables --
-	WoWPro.step, WoWPro.action, WoWPro.note,  WoWPro.QID,  WoWPro.map, 
-		WoWPro.sticky, WoWPro.unsticky, WoWPro.use, WoWPro.zone, WoWPro.lootitem, 
-		WoWPro.lootqty, WoWPro.questtext, WoWPro.stepcount, WoWPro.stickycount, WoWPro.optional, 
-		WoWPro.prereq, WoWPro.optionalcount, WoWPro.waypcomplete
-		= {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 		
 	WoWPro.step = { "No Guide Loaded" }
 	WoWPro.action = { "Interface\\Icons\\INV_Misc_Note_01" }
+	WoWPro.stepcount = 1
 	
 	WoWPro.TitleText:SetText("No Guide Loaded")
 	WoWPro.StickyFrame:Hide()

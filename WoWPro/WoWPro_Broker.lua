@@ -7,6 +7,14 @@ local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
+	
+	--Re-initiallizing tags and counts--
+	for i,tag in pairs(WoWPro.Tags) do 
+		WoWPro[tag] = {}
+	end
+	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
+	
+	--Checking the GID and loading the guide --
 	if guideID then WoWProDB.char.currentguide = guideID end 
 	local GID = WoWProDB.char.currentguide
 	if not GID then 
@@ -15,20 +23,14 @@ function WoWPro:LoadGuide(guideID)
 		return 
 	end 
 	if not WoWPro.Guides[GID] then 
-		WoWPro:dbp("Guide "..GID.." not found.")
+		WoWPro:dbp("Guide "..GID.." not found, loading NilGuide.")
+		WoWPro:LoadNilGuide() 
 		return 
 	end 
-	
 	WoWPro:dbp("Loading Guide: "..GID)
 	
-	--Re-initiallizing tags and counts--
-	for i,tag in pairs(WoWPro.Tags) do 
-		WoWPro[tag] = {}
-	end
-	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
-	collectgarbage("collect")
-	
 	-- Creating a new entry if this guide does not have one
+	-- TODO: Make this apply to any module!
 	WoWPro_LevelingDB.guide[GID] = WoWPro_LevelingDB.guide[GID] or {}
 	WoWPro_LevelingDB.guide[GID].completion = WoWPro_LevelingDB.guide[GID].completion or {}
 	WoWPro_LevelingDB.guide[GID].skipped = WoWPro_LevelingDB.guide[GID].skipped or {}

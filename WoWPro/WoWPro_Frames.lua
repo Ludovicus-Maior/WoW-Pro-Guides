@@ -682,7 +682,7 @@ end
 -- Next Guide Dialog --
 function WoWPro:CreateNextGuideDialog()
 	
-	local frame, titletext = WoWPro:CreateDialogBox("You have completed the current guide.", 150, 180)
+	local frame, titletext = WoWPro:CreateDialogBox("Guide Completed", 180, 150)
 
 	local button1 = CreateFrame("Button", "LoadNextGuide", frame, "OptionsButtonTemplate")
 	button1:SetPoint("BOTTOMLEFT", 10, 80)
@@ -694,8 +694,7 @@ function WoWPro:CreateNextGuideDialog()
 	button1text:SetText("Load Next Guide")
 	button1text:SetTextColor(1, 1, 1)
 	button1:SetScript("OnClick", function(self, button)
-		WoWProDB.char.currentguide = WoWPro.loadedguide["nextGID"]
-		WoWPro:LoadGuide()
+		WoWPro:LoadGuide(WoWPro.Guides[WoWProDB.char.currentguide].nextGID)
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 

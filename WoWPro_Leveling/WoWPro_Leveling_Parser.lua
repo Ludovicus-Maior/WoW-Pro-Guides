@@ -276,6 +276,11 @@ end
 -- Row Content Update --
 function WoWPro.Leveling:RowUpdate(offset)
 	local GID = WoWProDB.char.currentguide
+	if InCombatLockdown() 
+		or not GID 
+		or not WoWPro.Guides[GID]
+		then return 
+	end
 	WoWPro.StickyCount = 0
 	local reload = false
 	local lootcheck = true
