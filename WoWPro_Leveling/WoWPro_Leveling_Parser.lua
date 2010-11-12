@@ -18,6 +18,7 @@ WoWPro.Leveling.actiontypes = {
 	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	U = "Interface\\Icons\\INV_Misc_Bag_08",
 	L = "Interface\\Icons\\Spell_ChargePositive",
+	l = "Interface\\Icons\\INV_Misc_Bag_08",
 	r = "Interface\\Icons\\Ability_Repair"
 }
 WoWPro.Leveling.actionlabels = {
@@ -35,8 +36,28 @@ WoWPro.Leveling.actionlabels = {
 	b = "Boat or Zeppelin",
 	U = "Use",
 	L = "Level",
+	l = "Loot",
 	r = "Repair/Restock"
 }
+
+-- Update Item Tracking --
+local function GetLootTrackingInfo(lootitem,lootqty,count)
+--[[Purpose: Creates a string containing:
+	- tracked item's name
+	- how many the user has
+	- how many the user needs
+	- a complete symbol if the ammount the user has is equal to the ammount they need 
+]]
+	local track = "" 												--If the function did have a track string, adds a newline
+	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
+	numinbag = GetItemCount(lootitem)+(count or 1)		--Finds the number in the bag, and adds a count if supplied
+	track = track..numinbag										--Adds the number in bag to the string
+	track = track.."/"..lootqty								--Adds the total number needed to the string
+	if lootqty == numinbag then
+		track = track.." (C)"									--If the user has the requisite number of items, adds a complete marker
+	end
+	return track													--Returns the track string to the calling function
+end
 
 -- Determine Next Active Step (Leveling Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
@@ -281,7 +302,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		or not WoWPro.Guides[GID]
 		then return 
 	end
-	WoWPro.StickyCount = 0
+	WoWPro.ActiveStickyCount = 0
 	local reload = false
 	local lootcheck = true
 	local k = offset or WoWPro.ActiveStep
@@ -329,7 +350,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end
 		
 		-- Unstickying stickies --
-		if unsticky and i == WoWPro.StickyCount+1 then
+		if unsticky and i == WoWPro.ActiveStickyCount+1 then
 			for n,row in ipairs(WoWPro.rows) do 
 				if step == row.step:GetText() and WoWPro.sticky[row.index] then 
 					completion[row.index] = true
@@ -340,8 +361,8 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end
 		
 		-- Counting stickies that are currently active (at the top) --
-		if sticky and i == WoWPro.StickyCount+1 then
-			WoWPro.StickyCount = WoWPro.StickyCount+1
+		if sticky and i == WoWPro.ActiveStickyCount+1 then
+			WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount+1
 		end
 		
 		-- Getting the image and text for the step --
@@ -538,8 +559,8 @@ function WoWPro.Leveling:RowUpdate(offset)
 		k = k + 1
 	end
 	
-	WoWPro.StickyCount = WoWPro.StickyCount or 0
-	WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.StickyCount].index
+	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
+	WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
 	WoWPro.Leveling:UpdateQuestTracker()
 
 	return reload
@@ -732,9 +753,13 @@ function WoWPro.Leveling:AutoCompleteLoot(msg)
 	local _, _, itemid, name = msg:find(L["^You .*Hitem:(%d+).*(%[.+%])"])
 	local _, _, _, _, count = msg:find(L["^You .*Hitem:(%d+).*(%[.+%]).*x(%d+)."])
 	if count == nil then count = 1 end
-	for i = 1,1+WoWPro.StickyCount do
+	for i = 1,1+WoWPro.ActiveStickyCount do
 		local index = WoWPro.rows[i].index
 		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
+		if WoWProDB.profile.track then
+			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi,count)
+			WoWPro.rows[i].track:SetText(strtrim(track))
+		end
 		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index]) + count >= lootqtyi then
 			WoWPro.CompleteStep(index)
 		end
@@ -760,8 +785,8 @@ end
 
 -- Auto-Complete: Zone based --
 function WoWPro.Leveling:AutoCompleteZone()
-	WoWPro.StickyCount = WoWPro.StickyCount or 0
-	local currentindex = WoWPro.rows[1+WoWPro.StickyCount].index
+	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
+	local currentindex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
 	local action = WoWPro.action[currentindex]
 	local step = WoWPro.step[currentindex]
 	local coord = WoWPro.map[currentindex]
@@ -798,15 +823,16 @@ function WoWPro.Leveling:UpdateQuestTracker()
 		local index = row.index
 		local questtext = WoWPro.questtext[index] 
 		local action = WoWPro.action[index] 
+		local lootitem = WoWPro.lootitem[index] 
+		local lootqty = WoWPro.lootqty[index] 
 		local QID = WoWPro.QID[index]
-		local track
 		-- Setting up quest tracker --
 		row.trackcheck = false
-		if WoWProDB.profile.track and ( action == "C" or questtext) then
+		if WoWProDB.profile.track and ( action == "C" or questtext or lootitem) then
 			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard then
 				local j = WoWPro.QuestLog[QID].index
 				row.trackcheck = true
-				if not questtext then
+				if not questtext and action == "C" then
 					track = " - "..WoWPro.QuestLog[QID].leaderBoard[1]
 					if select(3,GetQuestLogLeaderBoard(1, j)) then
 						track =  track.." (C)"
@@ -819,8 +845,7 @@ function WoWPro.Leveling:UpdateQuestTracker()
 							end
 						end
 					end
-					row.track:SetText(track)
-				else --Partial completion steps only track pertinent objective.
+				elseif questtext then --Partial completion steps only track pertinent objective.
 					local numquesttext = select("#", string.split(";", questtext))
 					for l=1,numquesttext do
 						local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
@@ -838,10 +863,15 @@ function WoWPro.Leveling:UpdateQuestTracker()
 						row.track:SetText(track)
 					end
 				end
+				if lootitem then
+					if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
+					track = GetLootTrackingInfo(lootitem,lootqty)
+				end
+				row.track:SetText(strtrim(track))
 			end
 		end
 	end
-	if not WoWPro.combat then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
+	if not InCombatLockdown() then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
 end
 
 -- Get Currently Available Spells --
@@ -852,7 +882,8 @@ function WoWPro.Leveling.GetAvailableSpells(...)
 	while GetSpellBookItemName(i, "spell") do
 		local info = GetSpellBookItemInfo(i, "spell")
 		local name = GetSpellBookItemName(i, "spell")
-		if info == "FUTURESPELL" and GetSpellAvailableLevel(i, "spell") <= newLevel then
+		if info == "FUTURESPELL" 
+		and GetSpellAvailableLevel(i, "spell") <= newLevel then
 			table.insert(availableSpells,name)
 			j = j + 1
 		end

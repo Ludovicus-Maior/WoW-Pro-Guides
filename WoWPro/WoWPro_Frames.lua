@@ -151,12 +151,12 @@ function WoWPro.RowSizeSet()
 	local pad = WoWProDB.profile.pad
 	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
-	WoWPro.StickyCount = WoWPro.StickyCount or 0
+	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
 	
 	-- Hiding the row if it's past the set number of steps --
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProDB.profile.autoresize then
-			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
+			if i <= WoWProDB.profile.numsteps + WoWPro.ActiveStickyCount then
 				biggeststep = ceil(max(biggeststep,row.step:GetStringWidth()))
 				if WoWProDB.profile.track and row.trackcheck then
 					biggeststep = ceil(max(biggeststep,row.track:GetStringWidth()))
@@ -216,7 +216,7 @@ function WoWPro.RowSizeSet()
 		
 		-- Hiding the row if it's past the set number of steps --
 		if WoWProDB.profile.autoresize then
-			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
+			if i <= WoWProDB.profile.numsteps + WoWPro.ActiveStickyCount then
 				totalh = totalh + newh
 				row:Show()
 				WoWPro.ShownRows = WoWPro.ShownRows + 1
@@ -239,7 +239,7 @@ function WoWPro.RowSizeSet()
 		end
 	end
 	
-	if WoWPro.StickyCount >= 1 then
+	if WoWPro.ActiveStickyCount >= 1 then
 		WoWPro.StickyFrame:Show()
 		WoWPro.StickyFrame:SetHeight(WoWPro.StickyTitle:GetHeight())
 	else

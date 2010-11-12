@@ -159,7 +159,7 @@ function WoWPro:NextStep(k,i)
 		end
 		
 		-- Skipping any unstickies until it's time for them to display --
-		if WoWPro.unsticky[k] and WoWPro.StickyCount and i > WoWPro.StickyCount+1 then skip = true end
+		if WoWPro.unsticky[k] and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then skip = true end
 		
 		-- Skipping completed steps --
 		if WoWPro_LevelingDB.guide[GID].completion[k] then skip = true end
