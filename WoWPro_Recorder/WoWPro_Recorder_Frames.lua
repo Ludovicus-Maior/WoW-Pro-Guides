@@ -1,16 +1,17 @@
 ------------------------------------------
---      WoWPro_Recorder_Frames.lua      --
+--      WoWPro.Recorder_Frames.lua      --
 ------------------------------------------
 
 local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
 -- Recorder Frame --
-function WoWPro_Recorder:CreateRecorderFrame()
+function WoWPro.Recorder:CreateRecorderFrame()
 	local recorderframe = CreateFrame("Button", "RecorderFrame", WoWPro.MainFrame)
 	recorderframe:SetHeight(30)
 	recorderframe:SetWidth(225)
-	recorderframe:SetPoint("TOPRIGHT", Minimap, "BOTTOMRIGHT", 0, -20)
+	recorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
+	recorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
 	recorderframe:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 		tile = true, tileSize = 16,
@@ -37,8 +38,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	recordtext:SetPoint("LEFT", WoWPro.RecorderFrame, "LEFT", 6, 0)
 	recordtext:SetPoint("RIGHT", WoWPro.RecorderFrame, "LEFT", 37, 0)
 	recordtext:SetJustifyH("LEFT")
-	WoWPro_Recorder.status = WoWPro_Recorder.status or "REC"
-	recordtext:SetText(WoWPro_Recorder.status)
+	WoWPro.Recorder.status = WoWPro.Recorder.status or "REC"
+	recordtext:SetText(WoWPro.Recorder.status)
 	WoWPro.RecordText = recordtext
 
 	-- RecordButton --
@@ -51,8 +52,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	-- Scripts --
 	WoWPro.RecordButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
-			WoWPro_Recorder.status = "REC"
-			WoWPro.RecordText:SetText(WoWPro_Recorder.status)
+			WoWPro.Recorder.status = "REC"
+			WoWPro.RecordText:SetText(WoWPro.Recorder.status)
 		end
 	end) 
 	
@@ -66,8 +67,8 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	-- Scripts --
 	WoWPro.StopButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
-			WoWPro_Recorder.status = "STOP"
-			WoWPro.RecordText:SetText(WoWPro_Recorder.status)
+			WoWPro.Recorder.status = "STOP"
+			WoWPro.RecordText:SetText(WoWPro.Recorder.status)
 		end
 	end) 
 
@@ -95,7 +96,7 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	-- Scripts --
 	WoWPro.SubtractButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
-			WoWPro_Recorder:RemoveStep()
+			WoWPro.Recorder:RemoveStep()
 		end
 	end)  
 
@@ -165,7 +166,7 @@ function WoWPro_Recorder:CreateRecorderFrame()
 	-- Scripts --
 	WoWPro.SaveButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
-			WoWPro_Recorder:SaveGuide(true)
+			WoWPro.Recorder:SaveGuide(true)
 		end
 	end) 
 
@@ -186,7 +187,7 @@ function WoWPro_Recorder:CreateRecorderFrame()
 end
 
 -- Customizing Recorder Frame --
-function WoWPro_Recorder:RecorderFrameSet()
+function WoWPro.Recorder:RecorderFrameSet()
 	WoWPro.RecorderFrame:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 		edgeFile = WoWProDB.profile.bordertexture,
@@ -214,29 +215,30 @@ config:RegisterOptionsTable("WoWPro Recorder - New Guide", {
 			desc = "The guide's type determines what kind of events will be listened for.",
 			width = "full",
 			values = function()
-					WoWPro.ModuleTable = {}
+					WoWPro.Recorder.ModuleTable = {}
 					local i = 1
 					for name, module in WoWPro:IterateModules() do
-						if name ~= "WoWPro Recorder" then
-							WoWPro.ModuleTable[i] = name
+						if name ~= "Recorder" then
+							WoWPro.Recorder.ModuleTable[i] = name
 							i = i+1
 						end
 					end
-					return WoWPro.ModuleTable
+					return WoWPro.Recorder.ModuleTable
 				end,
 			get = function(info) 
 					return nil end,
 			set = function(info,val) 
-					WoWPro_Recorder.CurrentGuide.Type = WoWPro.ModuleTable[val]
-					WoWPro_Recorder.CurrentGuide.TypeVal = val
-					if WoWPro_Recorder.CurrentGuide.Type == "WoWPro Leveling" then
+					WoWPro.Recorder.CurrentGuide.Type = WoWPro.Recorder.ModuleTable[val]
+					WoWPro.Recorder.CurrentGuide.TypeVal = val
+					if WoWPro.Recorder.CurrentGuide.Type == "Leveling" then
+						dialog:Close("WoWPro Recorder - New Guide");
 						dialog:Open("WoWPro Recorder - New Guide - Leveling", WoWPro.DialogFrame)
 					end
 				end,
 		},
 	},
 })
-dialog:SetDefaultSize("WoWPro Recorder - New Guide", 200, 100)
+dialog:SetDefaultSize("WoWPro Recorder - New Guide", 300, 125)
 config:RegisterOptionsTable("WoWPro Recorder - New Guide - Leveling", {
 	name = "Create New Guide",
 	type = "group",
@@ -248,21 +250,21 @@ config:RegisterOptionsTable("WoWPro Recorder - New Guide - Leveling", {
 			desc = "The guide's type determines what kind of events will be listened for.",
 			width = "full",
 			values = function()
-				WoWPro.ModuleTable = {}
+				WoWPro.Recorder.ModuleTable = {}
 				local i = 1
 				for name, module in WoWPro:IterateModules() do
-					if name ~= "WoWPro Recorder" then
-						WoWPro.ModuleTable[i] = name
+					if name ~= "Recorder" then
+						WoWPro.Recorder.ModuleTable[i] = name
 						i = i+1
 					end
 				end
-				return WoWPro.ModuleTable
+				return WoWPro.Recorder.ModuleTable
 			end,
-			get = function(info) return WoWPro_Recorder.CurrentGuide.TypeVal end,
+			get = function(info) return WoWPro.Recorder.CurrentGuide.TypeVal end,
 			set = function(info,val)
-					WoWPro_Recorder.CurrentGuide.Type = WoWPro.ModuleTable[val]
-					WoWPro_Recorder.CurrentGuide.TypeVal = val
-					if WoWPro_Recorder.CurrentGuide.Type == "WoWPro Leveling" then
+					WoWPro.Recorder.CurrentGuide.Type = WoWPro.Recorder.ModuleTable[val]
+					WoWPro.Recorder.CurrentGuide.TypeVal = val
+					if WoWPro.Recorder.CurrentGuide.Type == "Leveling" then
 						dialog:Open("WoWPro Recorder - New Guide - Leveling", WoWPro.DialogFrame)
 					end
 				end,
@@ -272,48 +274,48 @@ config:RegisterOptionsTable("WoWPro Recorder - New Guide - Leveling", {
 			type = "input",
 			name = "Zone Name:",
 			desc = "The zone where the guide takes place.",
-			get = function(info) return WoWPro_Recorder.CurrentGuide.Zone or GetZoneText() end,
-			set = function(info,val) WoWPro_Recorder.CurrentGuide.Zone = val end,
+			get = function(info) return WoWPro.Recorder.CurrentGuide.Zone or GetZoneText() end,
+			set = function(info,val) WoWPro.Recorder.CurrentGuide.Zone = val end,
 		},
 		authorname = {
 			order = 2,
 			type = "input",
 			name = "Author Name:",
 			desc = "The author of the original guide.",
-			get = function(info) return WoWPro_Recorder.CurrentGuide.Author or GetUnitName("player") end,
-			set = function(info,val) WoWPro_Recorder.CurrentGuide.Author = val end,
+			get = function(info) return WoWPro.Recorder.CurrentGuide.Author or GetUnitName("player") end,
+			set = function(info,val) WoWPro.Recorder.CurrentGuide.Author = val end,
 		},
 		startlevel = {
 			order = 3,
 			type = "input",
 			name = "Start Level:",
 			desc = "The starting level for the guide.",
-			get = function(info) return WoWPro_Recorder.CurrentGuide.StartLvl end,
-			set = function(info,val) WoWPro_Recorder.CurrentGuide.StartLvl = val end,
+			get = function(info) return WoWPro.Recorder.CurrentGuide.StartLvl end,
+			set = function(info,val) WoWPro.Recorder.CurrentGuide.StartLvl = val end,
 		},
 		endlevel = {
 			order = 4,
 			type = "input",
 			name = "End Level:",
 			desc = "The ending level for the guide.",
-			get = function(info) return WoWPro_Recorder.CurrentGuide.EndLvl end,
-			set = function(info,val) WoWPro_Recorder.CurrentGuide.EndLvl = val end,
+			get = function(info) return WoWPro.Recorder.CurrentGuide.EndLvl end,
+			set = function(info,val) WoWPro.Recorder.CurrentGuide.EndLvl = val end,
 		},
 		gid = {
 			order = 5,
 			type = "input",
 			name = "GID:",
 			desc = "The ID for this guide.",
-			get = function(info) return WoWPro_Recorder.CurrentGuide.GID end,
-			set = function(info,val) WoWPro_Recorder.CurrentGuide.GID = val end,
+			get = function(info) return WoWPro.Recorder.CurrentGuide.GID end,
+			set = function(info,val) WoWPro.Recorder.CurrentGuide.GID = val end,
 		},
 		nextguide = {
 			order = 6,
 			type = "input",
 			name = "Next GID:",
 			desc = "The ID for the guide which will follow this one.",
-			get = function(info) return WoWPro_Recorder.CurrentGuide.NextGID end,
-			set = function(info,val) WoWPro_Recorder.CurrentGuide.NextGID = val end,
+			get = function(info) return WoWPro.Recorder.CurrentGuide.NextGID end,
+			set = function(info,val) WoWPro.Recorder.CurrentGuide.NextGID = val end,
 		},
 		blank = {
 			order = 7,
@@ -327,18 +329,21 @@ config:RegisterOptionsTable("WoWPro Recorder - New Guide - Leveling", {
 			desc = "Registers the guide to be used. Current guide will be lost unless saved.",
 			width = "full",
 			func = function(info,val) 
-					if not WoWPro_Recorder.CurrentGuide.Type or not WoWPro_Recorder.CurrentGuide.Zone 
-						or not WoWPro_Recorder.CurrentGuide.StartLvl or not WoWPro_Recorder.CurrentGuide.EndLvl
-						or not WoWPro_Recorder.CurrentGuide.Author or not WoWPro_Recorder.CurrentGuide.GID
-						or not WoWPro_Recorder.CurrentGuide.NextGID then return end
-					WoWPro_Recorder:RegisterGuide(WoWPro_Recorder.CurrentGuide.Type, 
-						WoWPro_Recorder.CurrentGuide.Zone, WoWPro_Recorder.CurrentGuide.StartLvl, 
-						WoWPro_Recorder.CurrentGuide.EndLvl, WoWPro_Recorder.CurrentGuide.Author, 
-						WoWPro_Recorder.CurrentGuide.GID, WoWPro_Recorder.CurrentGuide.NextGID);
-					WoWPro:LoadGuide(WoWPro_Recorder.CurrentGuide.GID);
+					if not WoWPro.Recorder.CurrentGuide.Type or not WoWPro.Recorder.CurrentGuide.Zone 
+						or not WoWPro.Recorder.CurrentGuide.StartLvl or not WoWPro.Recorder.CurrentGuide.EndLvl
+						or not WoWPro.Recorder.CurrentGuide.Author or not WoWPro.Recorder.CurrentGuide.GID
+						or not WoWPro.Recorder.CurrentGuide.NextGID then
+							WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out all the fields. Make sure you press 'Enter' for every single one, even the ones that were automatically filled out!")
+							return 
+					end
+					WoWPro.Recorder:RegisterGuide(WoWPro.Recorder.CurrentGuide.Type, 
+						WoWPro.Recorder.CurrentGuide.Zone, WoWPro.Recorder.CurrentGuide.StartLvl, 
+						WoWPro.Recorder.CurrentGuide.EndLvl, WoWPro.Recorder.CurrentGuide.Author, 
+						WoWPro.Recorder.CurrentGuide.GID, WoWPro.Recorder.CurrentGuide.NextGID);
+					WoWPro:LoadGuide(WoWPro.Recorder.CurrentGuide.GID);
 					dialog:Close("WoWPro Recorder - New Guide - Leveling");
 				end,
 		},
 	},
 })
-dialog:SetDefaultSize("WoWPro Recorder - New Guide - Leveling", 375, 300)
+dialog:SetDefaultSize("WoWPro Recorder - New Guide - Leveling", 400, 325)

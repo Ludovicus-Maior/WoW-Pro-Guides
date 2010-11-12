@@ -1,5 +1,5 @@
 -----------------------------------
---      WoWPro_Recorder.lua      --
+--      WoWPro.Recorder.lua      --
 -----------------------------------
 
 local L = WoWPro_Locale
@@ -7,29 +7,36 @@ local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
 WoWPro.Recorder = WoWPro:NewModule("Recorder")
-WoWPro_Recorder = {}
 	
 
 function WoWPro.Recorder:OnInitialize()
 	
 	-- Creating the config options --
---	WoWPro_Recorder:CreateConfig()
+--	WoWPro.Recorder:CreateConfig()
 
 	-- Creating Frames --
-	WoWPro_Recorder:CreateRecorderFrame()
+	WoWPro.Recorder:CreateRecorderFrame()
 
 end
 
 function WoWPro.Recorder:OnEnable()
 
+	WoWProDB.profile.hminresize = 230
+
+	--Loading Frames--
+	if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
+		WoWPro.Recorder:CreateRecorderFrame()
+		WoWPro.Recorder.FramesLoaded = true
+	end
+
 	-- Creating empty user settings if none exist
-	WoWPro_RecorderDB = WoWPro_RecorderDB or {}
-	WoWPro_Recorder.CurrentGuide = WoWPro_Recorder.CurrentGuide or {}
+	WoWPro.RecorderDB = WoWPro.RecorderDB or {}
+	WoWPro.Recorder.CurrentGuide = WoWPro.Recorder.CurrentGuide or {}
 	
-	WoWPro_Recorder:RecorderFrameSet()
+	WoWPro.Recorder:RecorderFrameSet()
 	
-	WoWPro_Recorder:RegisterEvents()
-	WoWPro_Recorder:RegisterSavedGuides()
+	WoWPro.Recorder:RegisterEvents()
+	WoWPro.Recorder:RegisterSavedGuides()
 end
 
 function WoWPro.Recorder:OnDisable()
@@ -43,9 +50,9 @@ function WoWPro.Recorder:OnDisable()
 	
 end
 
-function WoWPro_Recorder:RegisterSavedGuides()
+function WoWPro.Recorder:RegisterSavedGuides()
 	local myUFG = UnitFactionGroup("player")
-	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
+	for GID,guideInfo in pairs(WoWPro.RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
 		WoWPro.Guides[GID] = {
 			guidetype = guideInfo.guidetype,
@@ -61,7 +68,7 @@ end,
 	end
 end
 
-function WoWPro_Recorder:RegisterGuide(module, zonename, startlevelvalue, endlevelvalue, authorname, GIDvalue, nextGIDvalue)
+function WoWPro.Recorder:RegisterGuide(module, zonename, startlevelvalue, endlevelvalue, authorname, GIDvalue, nextGIDvalue)
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = gsub(module,"WoWPro ",""),
 		zone = zonename,
@@ -77,10 +84,10 @@ N First Step |QID|1|N|This is the first step in your new guide. A guide must alw
 	
 end
 
-function WoWPro_Recorder:RegisterEvents()
-	WoWPro_Recorder.events = {"QUEST_LOG_UPDATE", "UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP"}
+function WoWPro.Recorder:RegisterEvents()
+	WoWPro.Recorder.events = {"QUEST_LOG_UPDATE", "UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP"}
 	
-	for _, event in pairs(WoWPro_Recorder.events) do
+	for _, event in pairs(WoWPro.Recorder.events) do
 		WoWPro.RecorderFrame:RegisterEvent(event)
 		WoWPro:dbp(event.." event registered")
 	end
@@ -88,7 +95,7 @@ function WoWPro_Recorder:RegisterEvents()
 	local function eventHandler(self, event, ...)
 		local GID = WoWProDB.char.currentguide
 		WoWPro:dbp(event.." event fired.")
-		if WoWPro_Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
+		if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
 		
 		local x, y = GetPlayerMapPosition("player")
 		local zonetag
@@ -110,13 +117,13 @@ function WoWPro_Recorder:RegisterEvents()
 				local stepInfo = {
 					action = "h",
 					step = loc,
-					QID = WoWPro_Recorder.lastStep,
+					QID = WoWPro.Recorder.lastStep,
 					map = string.format("%.2f,%.2f", x*100,y*100),
 					zone = zonetag
 				}
 				if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
 				WoWPro:dbp("Adding hearth location "..loc)
-				WoWPro_Recorder:AddStep(stepInfo)
+				WoWPro.Recorder:AddStep(stepInfo)
 			end	
 			WoWPro.Leveling:AutoCompleteSetHearth(...)
 		elseif event == "PLAYER_LEVEL_UP" then
@@ -125,12 +132,12 @@ function WoWPro_Recorder:RegisterEvents()
 			local stepInfo = {
 				action = "L",
 				step = "Level "..newLevel,
-				QID = WoWPro_Recorder.lastStep,
+				QID = WoWPro.Recorder.lastStep,
 				note = "You should be around level "..newLevel.." by this point.",
 				level = newLevel
 			}
 			WoWPro:dbp("Adding level up to level "..newLevel)
-			WoWPro_Recorder:AddStep(stepInfo)
+			WoWPro.Recorder:AddStep(stepInfo)
 			WoWPro.Leveling:AutoCompleteLevel(newLevel)
 		elseif event == "UI_INFO_MESSAGE" then
 			WoWPro:dbp("UI_INFO_MESSAGE detected.")
@@ -138,13 +145,13 @@ function WoWPro_Recorder:RegisterEvents()
 				local stepInfo = {
 					action = "f",
 					step = GetSubZoneText() or GetZoneText(),
-					QID = WoWPro_Recorder.lastStep,
+					QID = WoWPro.Recorder.lastStep,
 					map = string.format("%.2f,%.2f", x*100,y*100),
 					zone = zonetag
 				}
 				if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
 				WoWPro:dbp("Adding get FP "..GetSubZoneText() or GetZoneText())
-				WoWPro_Recorder:AddStep(stepInfo)
+				WoWPro.Recorder:AddStep(stepInfo)
 			end
 			WoWPro.Leveling:AutoCompleteGetFP(...)
 		elseif event == "QUEST_LOG_UPDATE" then
@@ -166,9 +173,9 @@ function WoWPro_Recorder:RegisterEvents()
 					class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
 				}
 				if GetUnitName("target") then stepInfo.note = "From "..GetUnitName("target").."." end
-				WoWPro_Recorder.lastStep = WoWPro.newQuest
+				WoWPro.Recorder.lastStep = WoWPro.newQuest
 				WoWPro:dbp("Adding new quest "..WoWPro.newQuest)
-				WoWPro_Recorder:AddStep(stepInfo)
+				WoWPro.Recorder:AddStep(stepInfo)
 				WoWPro.Leveling:AutoCompleteQuestUpdate()
 			elseif WoWPro.missingQuest and WoWPro.Leveling.CompletingQuest then
 				local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
@@ -182,7 +189,7 @@ function WoWPro_Recorder:RegisterEvents()
 				}
 				if GetUnitName("target") then stepInfo.note = "To "..GetUnitName("target").."." end
 				WoWPro:dbp("Turning in quest "..stepInfo.QID)
-				WoWPro_Recorder:AddStep(stepInfo)
+				WoWPro.Recorder:AddStep(stepInfo)
 				WoWPro.Leveling:AutoCompleteQuestUpdate()
 			else
 				for QID, questInfo in pairs(WoWPro.QuestLog) do
@@ -208,7 +215,7 @@ function WoWPro_Recorder:RegisterEvents()
 								use = questInfo.use,
 								class = checkClassQuest(QID,WoWPro.QuestLog)
 							}
-							WoWPro_Recorder:AddStep(stepInfo)
+							WoWPro.Recorder:AddStep(stepInfo)
 							WoWPro.Leveling:AutoCompleteQuestUpdate()
 						end
 					end
@@ -222,7 +229,7 @@ function WoWPro_Recorder:RegisterEvents()
 	
 end
 
-function WoWPro_Recorder:AddStep(stepInfo,position)
+function WoWPro.Recorder:AddStep(stepInfo,position)
 	local pos = position or WoWPro.stepcount
 	for tag,value in pairs(stepInfo) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
@@ -231,10 +238,10 @@ function WoWPro_Recorder:AddStep(stepInfo,position)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	WoWPro:UpdateGuide()
-	WoWPro_Recorder:SaveGuide()
+	WoWPro.Recorder:SaveGuide()
 end
 
-function WoWPro_Recorder:RemoveStep(position)
+function WoWPro.Recorder:RemoveStep(position)
 	local pos = position or WoWPro.stepcount
 	for i,tag in pairs(WoWPro.Leveling.Tags) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
@@ -243,10 +250,10 @@ function WoWPro_Recorder:RemoveStep(position)
 	end
 	WoWPro.stepcount = WoWPro.stepcount-1
 	WoWPro:UpdateGuide()
-	WoWPro_Recorder:SaveGuide()
+	WoWPro.Recorder:SaveGuide()
 end
 
-function WoWPro_Recorder:SaveGuide(window)
+function WoWPro.Recorder:SaveGuide(window)
 
 	local GID = WoWProDB.char.currentguide
 	
@@ -305,7 +312,7 @@ function WoWPro_Recorder:SaveGuide(window)
 	
 	local guideString = header..sequence.."\n]]\n\nend)"
 	
-	WoWPro_RecorderDB[GID] = {
+	WoWPro.RecorderDB[GID] = {
 		guidetype = "Leveling",
 		zone = WoWPro.Guides[GID].zone,
 		author = WoWPro.Guides[GID].author,
