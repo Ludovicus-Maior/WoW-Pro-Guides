@@ -186,6 +186,16 @@ event to the guide frame.
 	end
 end
 
+-- Event Un-Registration Function --
+function WoWPro:UnregisterEvents(eventtable)
+--[[Purpose: Iterates through the supplied table of events, and removes each 
+event from the guide frame.
+]]--
+	for _, event in ipairs(eventtable) do
+		WoWPro.GuideFrame:UnregisterEvent(event)
+	end
+end
+
 -- Fix Interface Options Category bug --
 if not IsAddOnLoaded("!BlizzBugsSuck") then		-- Conflicts with BlizzBugsSuck, therefore only runs if not present. 
 	local doNotRun = false								

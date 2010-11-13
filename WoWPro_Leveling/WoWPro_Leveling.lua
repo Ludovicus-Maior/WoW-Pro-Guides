@@ -9,7 +9,7 @@ local myUFG = UnitFactionGroup("player")
 function WoWPro.Leveling:OnInitialize()
 end
 
--- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
+-- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.Leveling:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Leveling Module")
 	
@@ -17,10 +17,11 @@ function WoWPro.Leveling:OnEnable()
 	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin"})
 	
 	-- Event Registration --
-	WoWPro:RegisterEvents({"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
+	WoWPro.Leveling.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", "PLAYER_LEVEL_UP", "TRAINER_UPDATE"
-	})
+	}
+	WoWPro:RegisterEvents(WoWPro.Leveling.Events)
 	
 	--Loading Frames--
 	if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
@@ -41,20 +42,20 @@ function WoWPro.Leveling:OnEnable()
 	-- New Level 1 Character --
 	if not WoWProDB.char.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
-			Orc = "ZerDur0112", 
-			Troll = "ZerDur0112", 
-			Scourge = "ManTir0112",
-			Tauren = "ShiMul0112",
+			Orc = nil, 
+			Troll = "BitDur0105", 
+			Scourge = nil,
+			Tauren = nil,
 			BloodElf = "SnoEve0112",
-			Goblin = "NilGuide",
+			Goblin = "MalKez0105", 
 			Draenei = "SnoAzu0112",
-			NightElf = "ManTel0113",
-			Dwarf = "BosDun0112",
-			Gnome = "BosDun0112",
-			Human = "MawElw0112",
-			Worgen = "NilGuide",
+			NightElf = nil,
+			Dwarf = nil,
+			Gnome = "GylGno0105",
+			Human = "KurElw0111",
+			Worgen = "RpoGil0105",
 		}
-		WoWPro:LoadGuide(startguides[select(2, UnitRace("player"))])
+		WoWPro:LoadGuide(startguides[engClass])
 	-- New Death Knight --
 	elseif not WoWProDB.char.currentguide and UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
 		WoWPro:LoadGuide("JamSca5558")
@@ -70,27 +71,28 @@ function WoWPro.Leveling:OnEnable()
 	QueryQuestsCompleted()
 end
 
+-- Called when the module is disabled --
 function WoWPro.Leveling:OnDisable()
 	-- Unregistering Leveling Module Events --
-	local events = {
-		"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
-		"MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", 
-		"PLAYER_LEVEL_UP", "TRAINER_UPDATE"
-	}
-	for _, event in ipairs(events) do
-		WoWPro.GuideFrame:UnregisterEvent(event)
+	WoWPro:UnregisterEvents(WoWPro.Leveling.Events)
+	
+	--[[ If the current guide is a leveling guide, removes the map point, stores the guide's ID to be resumed later, 
+	sets the current guide to nil, and loads the nil guide. ]]
+	if WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Leveling" then
+		WoWPro:RemoveMapPoint()
+		WoWProDB.char.lastlevelingguide = WoWProDB.char.currentguide
+		WoWProDB.char.currentguide = nil
+		WoWPro:LoadGuide()
 	end
-	
-	WoWPro:RemoveMapPoint()
-	WoWProDB.char.lastlevelingguide = WoWProDB.char.currentguide
-	WoWProDB.char.currentguide = nil
-	WoWPro:LoadGuide()
-	
 end
 
 -- Guide Registration Function --
-function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, endlevelvalue, nextGIDvalue, factionname, sequencevalue)
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
+function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, 
+	endlevelvalue, nextGIDvalue, factionname, sequencevalue)
+--[[Purpose: Called by guides to register them to the WoWPro.Guide table. All members
+of this table must have a quidetype parameter to let the addon know what module should handle that guide.
+]]
+	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end -- If the guide is not of the correct faction, don't register it
 	WoWPro:dbp("Guide Registered: "..GIDvalue)
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = "Leveling",
