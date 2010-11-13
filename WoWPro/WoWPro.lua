@@ -4,29 +4,29 @@
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
-WoWPro.DebugMode = false
+WoWPro.DebugMode = true
 WoWPro.Guides = {}
 
--- WoWPro keybindings name descriptions
+-- WoWPro keybindings name descriptions --
 _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
 BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
 _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
--- Debug print function
+-- Debug print function --
 function WoWPro:dbp(message)
 	if WoWPro.DebugMode and message ~= nil then
 		print("|cffffff00WoW-Pro Debug|r: "..message)
 	end
 end
 
--- WoWPro print function
+-- WoWPro print function --
 function WoWPro:Print(message)
 	if message ~= nil then
 		print("|cffffff00WoW-Pro|r: "..message)
 	end
 end
 
--- Default profile options
+-- Default profile options --
 local defaults = { profile = {
 	drag = true,
 	anchorpoint = "AUTO",
@@ -71,6 +71,7 @@ local defaults = { profile = {
 	stickytitletextcolor = {1, 1, 1},
 } }
 
+-- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro:OnInitialize()
 	WoWProDB = LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
 	-- Setting up callbacks for use with profiels --
@@ -79,6 +80,7 @@ function WoWPro:OnInitialize()
 	WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
 end
 
+-- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Core Addon")
 
@@ -89,19 +91,19 @@ function WoWPro:OnEnable()
 			.."Download it for free from www.wowinterface.com or www.curse.com.")
 	end
 	
-	--Loading Frames--
+	-- Loading Frames --
 	if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro:CreateFrames()
 		WoWPro:CreateConfig()
 		WoWPro:CustomizeFrames()
 		WoWPro.FramesLoaded = true
-	else -- Addon was previously disabled
+	else -- Addon was previously disabled, so no need to create frames, just turn them back on
 		WoWPro:AbleFrames()
 	end
 	
-	-- Setting up addon-wide tags --
-	WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", "unsticky", 
-		"use", "zone", "lootitem", "lootqty", "optional", 
+	-- Core Tag Setup --
+	WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", 
+		"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
 		"level", "target", "prof", "waypcomplete", "rank" 
 	}
 	
@@ -110,52 +112,14 @@ function WoWPro:OnEnable()
 		WoWPro:dbp("Enabling "..name.." module...")
 		module:Enable()
 	end
-	WoWPro:RegisterAllEvents()
-	WoWPro:LoadGuide()
-	WoWPro:MapPoint()
-	WoWPro:CustomizeFrames()
-
-	-- Keybindings initial setup
-	local keys = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
-	if not keys then	
-		SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
-	end
-	local keys = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
-	if not keys then	
-		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
-	end
-end	
-
-function WoWPro:OnDisable()
-	WoWPro:AbleFrames()
-	WoWPro.GuideFrame:UnregisterAllEvents()
-	WoWPro:RemoveMapPoint()
-end
-
-function WoWPro:RegisterTags(tagtable)
-	if not WoWPro.Tags then return end
-	for i=1,#tagtable do
-		table.insert(WoWPro.Tags,tagtable[i])
-	end
-end
-
-function WoWPro:RegisterEvents(eventtable)
-	for _, event in ipairs(eventtable) do
-		WoWPro.GuideFrame:RegisterEvent(event)
-	end
-end
-
--- Auto-completion Event Responders --
-function WoWPro:RegisterAllEvents()
-	WoWPro:dbp("Registering Events: Core Addon")
 	
-	-- Setting up addon-wide events --
-	WoWPro:RegisterEvents( {
+	-- Event Setup --
+	WoWPro:dbp("Registering Events: Core Addon")
+	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED",
 		"UPDATE_BINDINGS",
 	})
-	
-	WoWPro.GuideFrame:SetScript("OnEvent", function(self, event, ...)
+	WoWPro.GuideFrame:SetScript("OnEvent", function(self, event, ...)		-- Setting up event handler
 		WoWPro:dbp("Event Fired: "..event)
 		
 		-- Unlocking guide frame when leaving combat --
@@ -178,11 +142,53 @@ function WoWPro:RegisterAllEvents()
 			if WoWPro[name].EventHandler then WoWPro[name]:EventHandler(self, event, ...) end
 		end
 	end)
+	
+	WoWPro:LoadGuide()			-- Loads Current Guide (if nil, loads NilGuide)
+	WoWPro:MapPoint()				-- Maps the active step
+	WoWPro:CustomizeFrames()	-- Applies profile display settings
+
+	-- Keybindings Initial Setup --
+	local keys = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+	if not keys then	
+		SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
+	end
+	local keys = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
+	if not keys then	
+		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
+	end
+end	
+
+-- Called when the addon is disabled --
+function WoWPro:OnDisable()
+	WoWPro:AbleFrames()								-- Hides all frames
+	WoWPro.GuideFrame:UnregisterAllEvents()	-- Unregisters all events
+	WoWPro:RemoveMapPoint()							-- Removes any active map points
+end
+
+-- Tag Registration Function --
+function WoWPro:RegisterTags(tagtable)
+--[[ Purpose: Can be called by modules to add tags to the WoWPro.Tags table. 
+This table is iterated on in several key functions within the addon.
+]]--
+	if not WoWPro.Tags then return end			-- If the table doesn't exist for some reason (function called too early), end.
+	for i=1,#tagtable do
+		table.insert(WoWPro.Tags,tagtable[i])	-- Insert each tag from the table supplied into the WoWPro.Tags table.
+	end
+end
+
+-- Event Registration Function --
+function WoWPro:RegisterEvents(eventtable)
+--[[Purpose: Iterates through the supplied table of events, and registers each 
+event to the guide frame.
+]]--
+	for _, event in ipairs(eventtable) do
+		WoWPro.GuideFrame:RegisterEvent(event)
+	end
 end
 
 -- Fix Interface Options Category bug --
-if not IsAddOnLoaded("!BlizzBugsSuck") then
-	local doNotRun = false
+if not IsAddOnLoaded("!BlizzBugsSuck") then		-- Conflicts with BlizzBugsSuck, therefore only runs if not present. 
+	local doNotRun = false								
 	local function get_panel_name(panel)
 		local cat = INTERFACEOPTIONS_ADDONCATEGORIES
 		if ( type(panel) == "string" ) then

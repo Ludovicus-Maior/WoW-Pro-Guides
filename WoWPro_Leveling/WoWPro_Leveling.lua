@@ -2,18 +2,21 @@
 --      WoWPro_Leveling      --
 -------------------------------
 
+WoWPro.Leveling = WoWPro:NewModule("Leveling")
 local myUFG = UnitFactionGroup("player")
 
-WoWPro.Leveling = WoWPro:NewModule("Leveling")
-	
+-- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Leveling:OnInitialize()
 end
 
+-- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.Leveling:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Leveling Module")
 	
+	-- Leveling Tag Setup --
 	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin"})
 	
+	-- Event Registration --
 	WoWPro:RegisterEvents({"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", "PLAYER_LEVEL_UP", "TRAINER_UPDATE"
@@ -27,7 +30,7 @@ function WoWPro.Leveling:OnEnable()
 		WoWPro.Leveling.FramesLoaded = true
 	end
 	
-	-- Creating empty user settings if none exist
+	-- Creating empty user settings if none exist --
 	WoWPro_LevelingDB = WoWPro_LevelingDB or {}
 	WoWPro_LevelingDB.guide = WoWPro_LevelingDB.guide or {} 
 	WoWPro_LevelingDB.completedQIDs = WoWPro_LevelingDB.completedQIDs or {}
@@ -35,6 +38,7 @@ function WoWPro.Leveling:OnEnable()
 	
 	-- Loading Initial Guide --
 	local locClass, engClass = UnitClass("player")
+	-- New Level 1 Character --
 	if not WoWProDB.char.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
 			Orc = "ZerDur0112", 
@@ -51,9 +55,11 @@ function WoWPro.Leveling:OnEnable()
 			Worgen = "NilGuide",
 		}
 		WoWPro:LoadGuide(startguides[select(2, UnitRace("player"))])
+	-- New Death Knight --
 	elseif not WoWProDB.char.currentguide and UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
 		WoWPro:LoadGuide("JamSca5558")
 	end
+	-- No current guide, but a guide was stored for later use --
 	if WoWProDB.char.lastlevelingguide and not WoWProDB.char.currentguide then
 		WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
 	end
