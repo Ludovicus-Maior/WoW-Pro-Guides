@@ -8,8 +8,7 @@ local dialog = LibStub("AceConfigDialog-3.0")
 -- Create a button --
 local function CreateButton(name, texture, anchor)
 	local button = CreateFrame("Button", name, WoWPro.RecorderFrame)
-	button:SetHeight(20)
-	button:SetWidth(20)
+	button:SetSize(20,20)
 	button:SetPoint("LEFT", anchor, "RIGHT", 0, 0)
 	button:SetNormalTexture(texture)
 	return button

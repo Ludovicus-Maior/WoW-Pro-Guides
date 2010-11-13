@@ -47,22 +47,45 @@ end
 -- Guide Update --
 function WoWPro:UpdateGuide(offset)
 	local GID = WoWProDB.char.currentguide
+	
+	-- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
 	if InCombatLockdown() 
 		or not GID 
 		or not WoWPro.Guides[GID]
 		then return 
 	end
 	
+	-- If the module that handles this guide is not present and enabled, then end --
 	local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
-	if not module:IsEnabled() then return end
+	if not module or not module:IsEnabled() then return end
 	
 	-- Finding the active step in the guide --
-	WoWPro.ActiveStep = WoWPro:NextStep()
+	WoWPro.ActiveStep = WoWPro:NextStep(WoWPro.ActiveStep or 1)
 	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount))
 	
+	-- Calling on the guide's module to populate the guide window's rows --
 	local function rowContentUpdate()
 		local reload = WoWPro[module:GetName()]:RowUpdate(offset)
+		for i, row in pairs(WoWPro.rows) do
+			local modulename
+			-- Hyjack the click and menu functions for the Recorder if it's enabled --
+			if WoWPro.Recorder then 
+				WoWPro.Recorder:RowUpdate()
+				modulename = "Recorder" 
+			else modulename = module:GetName() 
+			end
+			local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
+			if WoWPro[modulename].RowLeftClick then
+				row:SetScript("OnClick", function(self, button, down)
+					if button == "LeftButton" then
+						WoWPro[modulename]:RowLeftClick(i)
+					elseif button == "RightButton" then
+						EasyMenu(WoWPro[modulename].RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU");
+					end
+				end)
+			end
+		end
 		return reload
 	end
 	local reload = true

@@ -554,7 +554,7 @@ end
 function WoWPro:CreateRows()
 	WoWPro.rows = {}
 	for i=1,15 do
-		local row = CreateFrame("Button", nil, WoWPro.GuideFrame)
+		local row = CreateFrame("CheckButton", nil, WoWPro.GuideFrame)
 		row:SetBackdrop( {
 			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 			tile = true, tileSize = 16
@@ -572,7 +572,6 @@ function WoWPro:CreateRows()
 		row:SetHeight(25)
 		row:RegisterForClicks("AnyUp");
 
-
 		row.check = WoWPro:CreateCheck(row)
 		row.action = WoWPro:CreateAction(row, row.check)
 		row.step = WoWPro:CreateStep(row, row.action)
@@ -580,6 +579,13 @@ function WoWPro:CreateRows()
 		row.track = WoWPro:CreateTrack(row, row.action)
 		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row, i)
 		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, i)
+		
+		local highlight = row:CreateTexture()
+		highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
+		highlight:SetTexCoord(0, 1, 0, 0.578125)
+		highlight:SetAllPoints()
+		row:SetHighlightTexture(highlight)
+		row:SetCheckedTexture(highlight)
 		
 		WoWPro.rows[i] = row	
 	end

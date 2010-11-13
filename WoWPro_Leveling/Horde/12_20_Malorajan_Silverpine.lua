@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('MalSil1220', 'Silverpine Forest', 'Malorajan', '12', '20', nil, 'Horde', function()
+WoWPro.Leveling:RegisterGuide('MalSil1220', 'Silverpine Forest', 'Malorajan', '12', '20', nil, 'Horde', function()
 return [[
 
 A Warchief's Command: Silverpine Forest!|QID|28568|M|66.07,49.80|Z|Undercity|N|You can pick this quest up from the Warchief's Command Board in Undercity.|

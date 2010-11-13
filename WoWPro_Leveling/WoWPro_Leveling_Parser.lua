@@ -290,6 +290,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 	local itemkb = false
 	local targetkb = false
 	ClearOverrideBindings(WoWPro.MainFrame)
+	WoWPro.Leveling.RowDropdownMenu = {}
 	
 	for i=1,15 do
 		
@@ -392,7 +393,6 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end)
 		
 		-- Right-Click Drop-Down --
-		local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 		local dropdown = {
 		}
 		if step then
@@ -438,22 +438,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 				)
 			end
 		end
-			
-		if WoWPro.QuestLog[QID] then
-			row:SetScript("OnClick", function(self, button, down)
-				if button == "LeftButton" then
-					QuestLog_OpenToQuest(WoWPro.QuestLog[QID].index)
-				elseif button == "RightButton" then
-					EasyMenu(dropdown, menuFrame, "cursor", 0 , 0, "MENU");
-				end
-			end)
-		else
-			row:SetScript("OnClick", function(self, button, down)
-				if button == "RightButton" then
-					EasyMenu(dropdown, menuFrame, "cursor", 0 , 0, "MENU");
-				end
-			end)
-		end
+		WoWPro.Leveling.RowDropdownMenu[i] = dropdown
 		
 		-- Item Button --
 		if action == "H" then use = 6948 end
@@ -546,6 +531,14 @@ function WoWPro.Leveling:RowUpdate(offset)
 
 	return reload
 end
+
+-- Left-Click Row Function --
+function WoWPro.Leveling.RowLeftClick(i)
+	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
+		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
+	end
+end
+
 
 -- Event Response Logic --
 function WoWPro.Leveling:EventHandler(self, event, ...)
@@ -652,12 +645,18 @@ function WoWPro.Leveling:PopulateQuestLog()
 
 	-- Generating table WoWPro.newQuest --
 	for QID, questInfo in pairs(WoWPro.QuestLog) do
-		if not WoWPro.oldQuests[QID] then WoWPro.newQuest = QID end
+		if not WoWPro.oldQuests[QID] then 
+			WoWPro.newQuest = QID 
+			WoWPro:dbp("New Quest: "..WoWPro.QuestLog[QID].title)
+		end
 	end
 	
 	-- Generating table WoWPro.missingQuest --
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
-		if not WoWPro.QuestLog[QID] then WoWPro.missingQuest = QID end
+		if not WoWPro.QuestLog[QID] then 
+			WoWPro.missingQuest = QID 
+			WoWPro:dbp("Missing Quest: "..WoWPro.oldQuests[QID].title)
+		end
 	end
 	
 end

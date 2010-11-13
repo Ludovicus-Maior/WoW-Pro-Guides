@@ -124,6 +124,7 @@ function WoWPro.Recorder:RegisterEvents()
 				WoWPro.Recorder:AddStep(stepInfo)
 			end	
 			WoWPro.Leveling:AutoCompleteSetHearth(...)
+			
 		elseif event == "PLAYER_LEVEL_UP" then
 			WoWPro:dbp("PLAYER_LEVEL_UP detected.")
 			local newLevel = ...
@@ -137,6 +138,7 @@ function WoWPro.Recorder:RegisterEvents()
 			WoWPro:dbp("Adding level up to level "..newLevel)
 			WoWPro.Recorder:AddStep(stepInfo)
 			WoWPro.Leveling:AutoCompleteLevel(newLevel)
+			
 		elseif event == "UI_INFO_MESSAGE" then
 			WoWPro:dbp("UI_INFO_MESSAGE detected.")
 			if ... == ERR_NEWTAXIPATH then
@@ -152,14 +154,10 @@ function WoWPro.Recorder:RegisterEvents()
 				WoWPro.Recorder:AddStep(stepInfo)
 			end
 			WoWPro.Leveling:AutoCompleteGetFP(...)
+			
 		elseif event == "QUEST_LOG_UPDATE" then
 			WoWPro:dbp("QUEST_LOG_UPDATE detected.")
-			WoWPro.Leveling:PopulateQuestLog()
-			--if it's the first call (on log in), all quests can show up as new, so need to end early --
-			if not WoWPro.AfterFirstCall then 
-				WoWPro.AfterFirstCall = true
-				return 
-			end
+			
 			if WoWPro.newQuest then
 				local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
 				local stepInfo = {
@@ -175,6 +173,7 @@ function WoWPro.Recorder:RegisterEvents()
 				WoWPro:dbp("Adding new quest "..WoWPro.newQuest)
 				WoWPro.Recorder:AddStep(stepInfo)
 				WoWPro.Leveling:AutoCompleteQuestUpdate()
+				
 			elseif WoWPro.missingQuest and WoWPro.Leveling.CompletingQuest then
 				local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
 				local stepInfo = {
@@ -189,11 +188,10 @@ function WoWPro.Recorder:RegisterEvents()
 				WoWPro:dbp("Turning in quest "..stepInfo.QID)
 				WoWPro.Recorder:AddStep(stepInfo)
 				WoWPro.Leveling:AutoCompleteQuestUpdate()
+				
 			else
 				for QID, questInfo in pairs(WoWPro.QuestLog) do
-					WoWPro:dbp("Checking quest "..QID.." for completion.")
 					if questInfo.complete then 
-						WoWPro:dbp("Found complete quest "..QID)
 						if not WoWPro.oldQuests[QID].complete then
 							WoWPro:dbp("Quest "..QID.." is newly complete.")
 							local nc = false
@@ -219,6 +217,7 @@ function WoWPro.Recorder:RegisterEvents()
 					end
 				end
 			end
+		
 		end
 		
 	end
@@ -227,6 +226,27 @@ function WoWPro.Recorder:RegisterEvents()
 	
 end
 
+function WoWPro.Recorder:RowUpdate()
+	WoWPro.Recorder.RowDropdownMenu = {}
+	for i,row in pairs(WoWPro.rows) do
+		local dropdown = {
+		}
+		WoWPro.Recorder.RowDropdownMenu[i] = dropdown
+		
+		if WoWPro.Recorder.SelectedStep == row.index then
+			row:SetChecked(true)
+		else
+			row:SetChecked(false)
+		end
+		
+	end
+end
+
+function WoWPro.Recorder:RowLeftClick(i)
+	WoWPro.Recorder.SelectedStep = WoWPro.rows[i].index
+	WoWPro.Recorder:RowUpdate()
+end
+		
 function WoWPro.Recorder:AddStep(stepInfo,position)
 	local pos = position or WoWPro.stepcount
 	for tag,value in pairs(stepInfo) do 
