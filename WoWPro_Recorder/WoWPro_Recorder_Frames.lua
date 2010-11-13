@@ -187,7 +187,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 end
 
 -- Customizing Recorder Frame --
-function WoWPro.Recorder:RecorderFrameSet()
+function WoWPro.Recorder:CustomizeFrames()
 	WoWPro.RecorderFrame:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 		edgeFile = WoWProDB.profile.bordertexture,
@@ -200,6 +200,20 @@ function WoWPro.Recorder:RecorderFrameSet()
 		WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 1) 
 	else 
 		WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 0) 
+	end
+	
+	--Minimum Frame Size to match --
+	if WoWProDB.profile.hminresize < 230 then WoWProDB.profile.hminresize = 230 end
+	if WoWPro.MainFrame:GetWidth() < 230 then
+	
+		-- AnchorFrame --
+		WoWPro.AnchorFrame:SetWidth(230)
+		
+		-- MainFrame --
+		WoWPro.MainFrame:SetWidth(230)
+		WoWPro.MainFrame:ClearAllPoints()
+		WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
+		
 	end
 end
 

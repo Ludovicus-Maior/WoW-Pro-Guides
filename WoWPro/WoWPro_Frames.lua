@@ -30,6 +30,18 @@ function WoWPro:ResizeSet()
 	-- Resize Customization --
 	if WoWProDB.profile.resize then WoWPro.resizebutton:Show() else WoWPro.resizebutton:Hide() end
 	WoWPro.MainFrame:SetMinResize(WoWProDB.profile.hminresize,WoWProDB.profile.vminresize)
+	if WoWPro.MainFrame:GetWidth() < WoWProDB.profile.hminresize then
+		-- AnchorFrame --
+		WoWPro.AnchorFrame:SetWidth(WoWProDB.profile.hminresize)
+		-- MainFrame --
+		WoWPro.MainFrame:SetWidth(WoWProDB.profile.hminresize)
+	end
+	if WoWPro.MainFrame:GetHeight() < WoWProDB.profile.vminresize then
+		-- MainFrame --
+		WoWPro.MainFrame:SetHeight(WoWProDB.profile.vminresize)
+	end
+	WoWPro.MainFrame:ClearAllPoints()
+	WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
 end
 function WoWPro:DragSet()
 	-- Drag Customization --
@@ -111,10 +123,6 @@ function WoWPro:BackgroundSet()
 	else 
 		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0) 
 	end
--- Recorder Frame --
---	if WoWPro.Recorder then
---		WoWPro.Recorder:RecorderFrameSet()
---	end
 end	
 function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do
@@ -319,7 +327,13 @@ function WoWPro.RowSet()
 	WoWPro.AnchorSet()
 end
 function WoWPro.CustomizeFrames()
-	WoWPro.ResizeSet(); WoWPro.DragSet(); WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.BackgroundSet(); WoWPro.RowSet(); WoWPro.MinimapSet()
+	WoWPro.ResizeSet(); WoWPro.DragSet(); WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.BackgroundSet(); WoWPro.RowSet(); WoWPro.MinimapSet();
+	
+	-- Module Customize Frames --
+	for name, module in WoWPro:IterateModules() do
+		if WoWPro[name].CustomizeFrames then WoWPro[name]:CustomizeFrames() end
+	end
+	
 end
 
 -- Create Dialog Box --

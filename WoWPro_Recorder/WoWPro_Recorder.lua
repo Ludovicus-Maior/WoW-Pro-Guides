@@ -21,8 +21,6 @@ end
 
 function WoWPro.Recorder:OnEnable()
 
-	WoWProDB.profile.hminresize = 230
-
 	--Loading Frames--
 	if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Recorder:CreateRecorderFrame()
@@ -33,7 +31,7 @@ function WoWPro.Recorder:OnEnable()
 	WoWPro.RecorderDB = WoWPro.RecorderDB or {}
 	WoWPro.Recorder.CurrentGuide = WoWPro.Recorder.CurrentGuide or {}
 	
-	WoWPro.Recorder:RecorderFrameSet()
+	WoWPro.Recorder:CustomizeFrames()
 	
 	WoWPro.Recorder:RegisterEvents()
 	WoWPro.Recorder:RegisterSavedGuides()

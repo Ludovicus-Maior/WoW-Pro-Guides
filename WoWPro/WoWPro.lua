@@ -3,7 +3,6 @@
 --------------------------
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
-WP_Modules = {}
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
 WoWPro.DebugMode = false
 WoWPro.Guides = {}
@@ -27,6 +26,7 @@ function WoWPro:Print(message)
 	end
 end
 
+-- Default profile options
 local defaults = { profile = {
 	drag = true,
 	anchorpoint = "AUTO",
@@ -40,7 +40,7 @@ local defaults = { profile = {
 	guidescroll = false,
 	checksound = true,
 	checksoundfile = [[Sound\Interface\MapPing.wav]],
-	rank = 3,
+	rank = 2,
 	resize = false,
 	autoresize = true,
 	numsteps = 1,
@@ -69,20 +69,14 @@ local defaults = { profile = {
 	stickytitlefont = [[Fonts\FRIZQT__.TTF]],
 	stickytitletextsize = 13,
 	stickytitletextcolor = {1, 1, 1},
-	
-	-- Enables --
-	enable = true,
-	levelingenable = true,
-
 } }
-	
+
 function WoWPro:OnInitialize()
 	WoWProDB = LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
-	-- Setting up callbacks for use with profiels - these seem to be broken? --
-	--	WoWProDB:RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
-	--	WoWProDB:RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
-	--	WoWProDB:RegisterCallback(self, "OnProfileReset", "SetDefaults")
-	WoWPro.Modules = {}
+	-- Setting up callbacks for use with profiels --
+	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
+	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
+	WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
 end
 
 function WoWPro:OnEnable()
@@ -109,12 +103,6 @@ function WoWPro:OnEnable()
 	WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", "unsticky", 
 		"use", "zone", "lootitem", "lootqty", "optional", 
 		"level", "target", "prof", "waypcomplete", "rank" 
-	}
-	
-	-- Setting up addon-wide events --
-	WoWPro.events = {
-		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED",
-		"UPDATE_BINDINGS",
 	}
 	
 	-- Module Enabling --
@@ -152,9 +140,8 @@ function WoWPro:RegisterTags(tagtable)
 end
 
 function WoWPro:RegisterEvents(eventtable)
-	if not WoWPro.events then return end
-	for i=1,#eventtable do
-		table.insert(WoWPro.events,eventtable[i])
+	for _, event in ipairs(eventtable) do
+		WoWPro.GuideFrame:RegisterEvent(event)
 	end
 end
 
@@ -162,9 +149,11 @@ end
 function WoWPro:RegisterAllEvents()
 	WoWPro:dbp("Registering Events: Core Addon")
 	
-	for _, event in ipairs(WoWPro.events) do
-		WoWPro.GuideFrame:RegisterEvent(event)
-	end
+	-- Setting up addon-wide events --
+	WoWPro:RegisterEvents( {
+		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED",
+		"UPDATE_BINDINGS",
+	})
 	
 	WoWPro.GuideFrame:SetScript("OnEvent", function(self, event, ...)
 		WoWPro:dbp("Event Fired: "..event)

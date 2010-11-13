@@ -6,7 +6,6 @@ local L = WoWPro_Locale
 local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
-
 function WoWPro:RefreshConfig()
 	WoWPro:LoadGuide()
 	WoWPro:CustomizeFrames()
