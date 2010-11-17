@@ -14,9 +14,6 @@ function WoWPro.Recorder:OnInitialize()
 	-- Creating the config options --
 --	WoWPro.Recorder:CreateConfig()
 
-	-- Creating Frames --
-	WoWPro.Recorder:CreateRecorderFrame()
-
 end
 
 function WoWPro.Recorder:OnEnable()
@@ -24,6 +21,7 @@ function WoWPro.Recorder:OnEnable()
 	--Loading Frames--
 	if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Recorder:CreateRecorderFrame()
+		WoWPro.Recorder.SelectedStep = WoWPro.stepcount
 		WoWPro.Recorder.FramesLoaded = true
 	end
 
@@ -35,6 +33,7 @@ function WoWPro.Recorder:OnEnable()
 	
 	WoWPro.Recorder:RegisterEvents()
 	WoWPro.Recorder:RegisterSavedGuides()
+	
 end
 
 function WoWPro.Recorder:OnDisable()
@@ -94,6 +93,13 @@ function WoWPro.Recorder:RegisterEvents()
 		local GID = WoWProDB.char.currentguide
 		WoWPro:dbp(event.." event fired.")
 		if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
+		
+		if not WoWPro.Recorder.DialogsLoaded then
+			if WoWPro.action then
+				WoWPro.Recorder.CreateDialogs()
+				WoWPro.Recorder.DialogsLoaded = true
+			end
+		end
 		
 		local x, y = GetPlayerMapPosition("player")
 		local zonetag
@@ -226,7 +232,8 @@ function WoWPro.Recorder:RegisterEvents()
 	
 end
 
-function WoWPro.Recorder:RowUpdate()
+function WoWPro.Recorder:RowUpdate(offset)
+	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 	WoWPro.Recorder.RowDropdownMenu = {}
 	for i,row in pairs(WoWPro.rows) do
 		local dropdown = {
@@ -244,7 +251,7 @@ end
 
 function WoWPro.Recorder:RowLeftClick(i)
 	WoWPro.Recorder.SelectedStep = WoWPro.rows[i].index
-	WoWPro.Recorder:RowUpdate()
+	WoWPro.Recorder:RowUpdate(true)
 end
 		
 function WoWPro.Recorder:AddStep(stepInfo,position)
@@ -255,6 +262,7 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
 		WoWPro:dbp("Adding tag "..tag.." at position "..pos+1)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
+	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep + 1
 	WoWPro:UpdateGuide()
 	WoWPro.Recorder:SaveGuide()
 end
@@ -267,6 +275,7 @@ function WoWPro.Recorder:RemoveStep(position)
 		WoWPro:dbp("Removing tag "..tag.." at position "..pos)
 	end
 	WoWPro.stepcount = WoWPro.stepcount-1
+	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep - 1
 	WoWPro:UpdateGuide()
 	WoWPro.Recorder:SaveGuide()
 end

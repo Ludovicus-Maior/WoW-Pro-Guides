@@ -365,6 +365,8 @@ end
 -- Anchor Frame --
 function WoWPro:CreateAnchorFrame()
 	local frame = CreateFrame("Frame", "WoWPro.AnchorFrame", UIParent)
+	frame:SetMovable(true)
+	frame:SetResizable(true)
 	frame:SetHeight(22)
 	frame:SetWidth(200)
 	frame:SetMinResize(150,40)

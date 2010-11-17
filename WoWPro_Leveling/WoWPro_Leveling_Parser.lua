@@ -42,7 +42,7 @@ WoWPro.Leveling.actionlabels = {
 
 -- Determine Next Active Step (Leveling Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
-function WoWPro.Leveling:NextStep(k)
+function WoWPro.Leveling:NextStep(k, skip)
 	local GID = WoWProDB.char.currentguide
 
 	-- Optional Quests --
@@ -533,10 +533,11 @@ function WoWPro.Leveling:RowUpdate(offset)
 end
 
 -- Left-Click Row Function --
-function WoWPro.Leveling.RowLeftClick(i)
+function WoWPro.Leveling:RowLeftClick(i)
 	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
 		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
 	end
+	WoWPro.rows[i]:SetChecked(nil)
 end
 
 

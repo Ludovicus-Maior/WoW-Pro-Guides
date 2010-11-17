@@ -71,17 +71,17 @@ function WoWPro:UpdateGuide(offset)
 			local modulename
 			-- Hyjack the click and menu functions for the Recorder if it's enabled --
 			if WoWPro.Recorder then 
-				WoWPro.Recorder:RowUpdate()
 				modulename = "Recorder" 
-			else modulename = module:GetName() 
-			end
+				WoWPro.Recorder:RowUpdate(offset)
+			else modulename = module:GetName() end
 			local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 			if WoWPro[modulename].RowLeftClick then
 				row:SetScript("OnClick", function(self, button, down)
 					if button == "LeftButton" then
 						WoWPro[modulename]:RowLeftClick(i)
 					elseif button == "RightButton" then
-						EasyMenu(WoWPro[modulename].RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU");
+						EasyMenu(WoWPro[modulename].RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						WoWPro.rows[i]:SetChecked(nil)
 					end
 				end)
 			end
@@ -171,7 +171,7 @@ function WoWPro:NextStep(k,i)
 			end
 		end
 		
-		WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k)
+		skip = WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k, skip)
 		
 		-- Skipping any manually skipped quests --
 		if WoWPro_LevelingDB.guide[GID].skipped[k] then
