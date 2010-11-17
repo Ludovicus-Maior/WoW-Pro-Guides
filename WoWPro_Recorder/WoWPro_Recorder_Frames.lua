@@ -380,7 +380,7 @@ function WoWPro.Recorder.CreateDialogs()
 				name = "Action Type:",
 				desc = "The step's type.",
 				width = "full",
-				values = WoWPro.Leveling.actionlabels
+				values = WoWPro.Leveling.actionlabels,
 				get = function(info) 
 						return WoWPro.action[WoWPro.Recorder.SelectedStep] end,
 				set = function(info,val) 
@@ -393,8 +393,7 @@ function WoWPro.Recorder.CreateDialogs()
 				name = "Display Changes",
 				width = "full",
 				func = function(info,val)
-					WoWPro:UpdateGuide()
-					dialog:Close("WoWPro Recorder - Edit Step");
+					WoWPro:UpdateGuide();
 				end,
 			},
 		},

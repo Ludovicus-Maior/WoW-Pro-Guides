@@ -255,7 +255,7 @@ function WoWPro.Recorder:RowLeftClick(i)
 end
 		
 function WoWPro.Recorder:AddStep(stepInfo,position)
-	local pos = position or WoWPro.stepcount
+	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 	for tag,value in pairs(stepInfo) do 
 		if not WoWPro[tag] then WoWPro[tag] = {} end
 		table.insert(WoWPro[tag], pos+1, value)

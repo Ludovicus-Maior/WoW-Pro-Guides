@@ -61,6 +61,7 @@ function WoWPro:UpdateGuide(offset)
 	
 	-- Finding the active step in the guide --
 	WoWPro.ActiveStep = WoWPro:NextStep(WoWPro.ActiveStep or 1)
+	if WoWPro.Recorder then WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep end
 	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount))
 	
