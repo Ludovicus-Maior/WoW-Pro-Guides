@@ -461,8 +461,8 @@ function WoWPro:CreateTitleBar()
 	WoWPro.Titlebar = titlebar
 	-- Text --
 	local titletext = WoWPro.Titlebar:CreateFontString()
-	titletext:SetPoint("TOPRIGHT", WoWPro.Titlebar, "TOPRIGHT", -5, -5)
-	titletext:SetPoint("TOPLEFT", WoWPro.Titlebar, "TOPLEFT", 5, -5)
+	titletext:SetPoint("TOPRIGHT", WoWPro.Titlebar, "TOPRIGHT", -5, -7)
+	titletext:SetPoint("TOPLEFT", WoWPro.Titlebar, "TOPLEFT", 5, -7)
 	titletext:SetFontObject(GameFontNormal)
 	titletext:SetText("WoW-Pro Guides")
 	titletext:SetTextColor(1, 1, 1)

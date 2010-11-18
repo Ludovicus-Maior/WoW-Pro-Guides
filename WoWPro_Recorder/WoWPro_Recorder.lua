@@ -256,7 +256,8 @@ end
 		
 function WoWPro.Recorder:AddStep(stepInfo,position)
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
-	for tag,value in pairs(stepInfo) do 
+	for i,tag in pairs(WoWPro.Tags) do 
+		value = stepInfo[tag]
 		if not WoWPro[tag] then WoWPro[tag] = {} end
 		table.insert(WoWPro[tag], pos+1, value)
 		WoWPro:dbp("Adding tag "..tag.." at position "..pos+1)

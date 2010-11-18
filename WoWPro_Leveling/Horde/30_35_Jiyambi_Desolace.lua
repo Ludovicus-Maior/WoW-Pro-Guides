@@ -243,7 +243,7 @@ A Into the Fray!|QID|14393|PRE|14332|M|72.26,67.37|N|From Khan Leh'Prah.|
 C Into the Fray!|QID|14393|M|69.54,76.70|N|Talk to the Khan to start the battle. You will get to ride a centaur, and get several centaur troops to command in battle. Ability 1 is a basic attack. Ability 2 sends the troops in. Ability 3 calls the troops back to you. Ability 4 requests healing. Ability 5 calls for reinforcements.|
 T Into the Fray!|QID|14393|M|72.26,67.41|N|To Khan Leh'Prah.|
 A Death to Agogridon|QID|14394|M|72.26,67.41|N|From Khan Leh'Prah.|
-C Death to Agogridon|QID|14394|M|77.45,76.04;79.77,77.76;79.32,82.16;81.71,80.71|N|Make sure you are still on your centaur - talk to the Khan if you need to remount. Follow the arrows to teh demon you need to defeat. The Khans will show up, so it's not difficult.|
+C Death to Agogridon|QID|14394|M|77.45,76.04;79.77,77.76;79.32,82.16;81.71,80.71|N|Make sure you are still on your centaur - talk to the Khan if you need to remount. Follow the arrows to the demon you need to defeat. The Khans will show up, so it's not difficult.|
 T Death to Agogridon|QID|14394|M|82.30,80.85|N|To Khan Leh'Prah. Congrats on a very nice weapon!|
 
 ]]
