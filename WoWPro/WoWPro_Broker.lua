@@ -76,13 +76,14 @@ function WoWPro:UpdateGuide(offset)
 				WoWPro.Recorder:RowUpdate(offset)
 			else modulename = module:GetName() end
 			local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
-			if WoWPro[modulename].RowLeftClick then
+			if WoWPro[modulename].RowLeftClick and WoWPro[modulename].RowDropdownMenu then
 				row:SetScript("OnClick", function(self, button, down)
 					if button == "LeftButton" then
 						WoWPro[modulename]:RowLeftClick(i)
 					elseif button == "RightButton" then
-						EasyMenu(WoWPro[modulename].RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
 						WoWPro.rows[i]:SetChecked(nil)
+						if WoWPro.Recorder then WoWPro[modulename]:RowLeftClick(i) end
+						EasyMenu(WoWPro[modulename].RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
 					end
 				end)
 			end

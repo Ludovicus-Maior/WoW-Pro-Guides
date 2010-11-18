@@ -343,7 +343,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end
 		
 		-- Counting stickies that are currently active (at the top) --
-		if sticky and i == WoWPro.ActiveStickyCount+1 then
+		if sticky and i == WoWPro.ActiveStickyCount+1 and not WoWPro.Recorder then
 			WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount+1
 		end
 		
@@ -591,9 +591,7 @@ function WoWPro.Leveling:AutoCompleteGetFP(...)
 	for i = 1,15 do
 		local index = WoWPro.rows[i].index
 		if ... == ERR_NEWTAXIPATH and WoWPro.action[index] == "f" then
-			WoWPro_LevelingDB.guide[WoWProDB.char.currentguide].completion[index] = true
-			if not WoWPro.combat then WoWPro:UpdateGuide() end
-			WoWPro:MapPoint()
+			WoWPro.CompleteStep(index)
 		end
 	end
 end
@@ -628,6 +626,12 @@ function WoWPro.Leveling:PopulateQuestLog()
 				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
 				use = Id
 			end
+			local coords
+			QuestMapUpdateAllQuests()
+			QuestPOIUpdateIcons()
+			WorldMapFrame_UpdateQuests()
+			local x, y = WoWPro:findBlizzCoords(questID)
+			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
 			WoWPro.QuestLog[questID] = {
 				title = questTitle,
 				level = level,
@@ -638,6 +642,7 @@ function WoWPro.Leveling:PopulateQuestLog()
 				leaderBoard = leaderBoard,
 				header = currentHeader,
 				use = use,
+				coords = coords,
 				index = i
 			}
 		end
@@ -833,13 +838,13 @@ function WoWPro.Leveling:UpdateQuestTracker()
 				local j = WoWPro.QuestLog[QID].index
 				row.trackcheck = true
 				if not questtext and action == "C" then
-					track = " - "..WoWPro.QuestLog[QID].leaderBoard[1]
+					track = "- "..WoWPro.QuestLog[QID].leaderBoard[1]
 					if select(3,GetQuestLogLeaderBoard(1, j)) then
 						track =  track.." (C)"
 					end
 					for l=1,#WoWPro.QuestLog[QID].leaderBoard do 
 						if l > 1 then
-							track = track.." \n - "..WoWPro.QuestLog[QID].leaderBoard[l]
+							track = track.."\n- "..WoWPro.QuestLog[QID].leaderBoard[l]
 							if select(3,GetQuestLogLeaderBoard(l, j)) then
 								track =  track.." (C)"
 							end
@@ -853,7 +858,7 @@ function WoWPro.Leveling:UpdateQuestTracker()
 							if GetQuestLogLeaderBoard(m, j) then
 								local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(m, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
 								if itemName and lquesttext:match(itemName) then
-									track = " - "..GetQuestLogLeaderBoard(m, j)
+									track = "- "..GetQuestLogLeaderBoard(m, j)
 									if select(3,GetQuestLogLeaderBoard(m, j)) then
 										track =  track.." (C)"
 									end

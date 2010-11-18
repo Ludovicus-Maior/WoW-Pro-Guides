@@ -7,7 +7,7 @@ local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
 WoWPro.Recorder = WoWPro:NewModule("Recorder")
-	
+WoWPro.Recorder.stepInfo = {}
 
 function WoWPro.Recorder:OnInitialize()
 	
@@ -49,7 +49,7 @@ end
 
 function WoWPro.Recorder:RegisterSavedGuides()
 	local myUFG = UnitFactionGroup("player")
-	for GID,guideInfo in pairs(WoWPro.RecorderDB) do
+	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
 		WoWPro.Guides[GID] = {
 			guidetype = guideInfo.guidetype,
@@ -93,13 +93,6 @@ function WoWPro.Recorder:RegisterEvents()
 		local GID = WoWProDB.char.currentguide
 		WoWPro:dbp(event.." event fired.")
 		if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
-		
-		if not WoWPro.Recorder.DialogsLoaded then
-			if WoWPro.action then
-				WoWPro.Recorder.CreateDialogs()
-				WoWPro.Recorder.DialogsLoaded = true
-			end
-		end
 		
 		local x, y = GetPlayerMapPosition("player")
 		local zonetag
@@ -237,6 +230,38 @@ function WoWPro.Recorder:RowUpdate(offset)
 	WoWPro.Recorder.RowDropdownMenu = {}
 	for i,row in pairs(WoWPro.rows) do
 		local dropdown = {
+			{text = "Move Up", func = function()
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
+				if pos == 1 then return end
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.insert(WoWPro[tag], pos-1, WoWPro[tag][pos])
+				end
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.remove(WoWPro[tag], pos+1)
+				end
+				WoWPro.Recorder.SelectedStep = pos-1
+				WoWPro:UpdateGuide()
+			end},
+			{text = "Move Down", func = function()
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
+				if pos == WoWPro.stepcount then return end
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.insert(WoWPro[tag], pos+2, WoWPro[tag][pos])
+				end
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.remove(WoWPro[tag], pos)
+				end
+				WoWPro.Recorder.SelectedStep = pos+1
+				WoWPro:UpdateGuide()
+			end},
+			{text = "Clone Step", func = function()
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.insert(WoWPro[tag], pos, WoWPro[tag][pos])
+				end
+				WoWPro.stepcount = WoWPro.stepcount+1
+				WoWPro:UpdateGuide()
+			end}
 		}
 		WoWPro.Recorder.RowDropdownMenu[i] = dropdown
 		
@@ -256,8 +281,8 @@ end
 		
 function WoWPro.Recorder:AddStep(stepInfo,position)
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
-	for tag,value in pairs(stepInfo) do 
-		if not WoWPro[tag] then WoWPro[tag] = {} end
+	for i,tag in pairs(WoWPro.Tags) do 
+		value = stepInfo[tag]
 		table.insert(WoWPro[tag], pos+1, value)
 		WoWPro:dbp("Adding tag "..tag.." at position "..pos+1)
 	end
@@ -339,7 +364,7 @@ function WoWPro.Recorder:SaveGuide(window)
 	
 	local guideString = header..sequence.."\n]]\n\nend)"
 	
-	WoWPro.RecorderDB[GID] = {
+	WoWPro_RecorderDB[GID] = {
 		guidetype = "Leveling",
 		zone = WoWPro.Guides[GID].zone,
 		author = WoWPro.Guides[GID].author,
