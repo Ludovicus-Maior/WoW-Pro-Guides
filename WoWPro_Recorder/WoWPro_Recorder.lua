@@ -94,13 +94,6 @@ function WoWPro.Recorder:RegisterEvents()
 		WoWPro:dbp(event.." event fired.")
 		if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
 		
-		if not WoWPro.Recorder.DialogsLoaded then
-			if WoWPro.action then
-				WoWPro.Recorder.CreateDialogs()
-				WoWPro.Recorder.DialogsLoaded = true
-			end
-		end
-		
 		local x, y = GetPlayerMapPosition("player")
 		local zonetag
 		if GetZoneText() ~= WoWPro.Guides[GID].zone then zonetag = GetZoneText() else zonetag = nil end
@@ -237,6 +230,30 @@ function WoWPro.Recorder:RowUpdate(offset)
 	WoWPro.Recorder.RowDropdownMenu = {}
 	for i,row in pairs(WoWPro.rows) do
 		local dropdown = {
+			{text = "Move Up", func = function()
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
+				if pos == 1 then return end
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.insert(WoWPro[tag], pos-1, WoWPro[tag][pos])
+				end
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.remove(WoWPro[tag], pos+1)
+				end
+				WoWPro.Recorder.SelectedStep = pos-1
+				WoWPro:UpdateGuide()
+			end},
+			{text = "Move Down", func = function()
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
+				if pos == WoWPro.stepcount then return end
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.insert(WoWPro[tag], pos+2, WoWPro[tag][pos])
+				end
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.remove(WoWPro[tag], pos)
+				end
+				WoWPro.Recorder.SelectedStep = pos+1
+				WoWPro:UpdateGuide()
+			end} 
 		}
 		WoWPro.Recorder.RowDropdownMenu[i] = dropdown
 		
