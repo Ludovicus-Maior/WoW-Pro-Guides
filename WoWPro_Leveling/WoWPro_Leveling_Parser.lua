@@ -343,7 +343,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end
 		
 		-- Counting stickies that are currently active (at the top) --
-		if sticky and i == WoWPro.ActiveStickyCount+1 then
+		if sticky and i == WoWPro.ActiveStickyCount+1 and not WoWPro.Recorder then
 			WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount+1
 		end
 		
@@ -591,9 +591,7 @@ function WoWPro.Leveling:AutoCompleteGetFP(...)
 	for i = 1,15 do
 		local index = WoWPro.rows[i].index
 		if ... == ERR_NEWTAXIPATH and WoWPro.action[index] == "f" then
-			WoWPro_LevelingDB.guide[WoWProDB.char.currentguide].completion[index] = true
-			if not WoWPro.combat then WoWPro:UpdateGuide() end
-			WoWPro:MapPoint()
+			WoWPro.CompleteStep(index)
 		end
 	end
 end
