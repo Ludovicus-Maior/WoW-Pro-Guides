@@ -59,7 +59,17 @@ function WoWPro.Recorder:CreateRecorderFrame()
 			WoWPro.Recorder.status = "REC"
 			WoWPro.RecordText:SetText(WoWPro.Recorder.status)
 		end
-	end) 
+	end)
+	WoWPro.RecordButton:SetScript("OnEnter", function(self)
+		GameTooltip:SetOwner(self, "RecordButton")
+		GameTooltip:SetPoint("TOP", RecordButton, "BOTTOM", 0, 0)
+		GameTooltip:AddLine("Record", 1, 1, 1, 1)
+		GameTooltip:AddLine("Click to record.", 0.7, 0.7, 0.7, 0.7)
+		GameTooltip:Show()
+	end)
+	WoWPro.RecordButton:SetScript("OnLeave", function(self)
+		GameTooltip:Hide()
+	end)
 	
 	-- StopButton --
 	WoWPro.StopButton = CreateButton("StopButton", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Stop.tga", WoWPro.RecordButton)
@@ -70,6 +80,16 @@ function WoWPro.Recorder:CreateRecorderFrame()
 			WoWPro.RecordText:SetText(WoWPro.Recorder.status)
 		end
 	end) 
+	WoWPro.StopButton:SetScript("OnEnter", function(self)
+		GameTooltip:SetOwner(self, "StopButton")
+		GameTooltip:SetPoint("TOP", StopButton, "BOTTOM", 0, 0)
+		GameTooltip:AddLine("Stop", 1, 1, 1, 1)
+		GameTooltip:AddLine("Click to stop recording.", 0.7, 0.7, 0.7, 0.7)
+		GameTooltip:Show()
+	end)
+	WoWPro.StopButton:SetScript("OnLeave", function(self)
+		GameTooltip:Hide()
+	end)
 
 	-- AddButton --
 	-- DISABLED --
@@ -89,6 +109,16 @@ function WoWPro.Recorder:CreateRecorderFrame()
 			dialog:Open("WoWPro Recorder - Subtract Step", WoWPro.DialogFrame)
 		end
 	end)  
+	WoWPro.SubtractButton:SetScript("OnEnter", function(self)
+		GameTooltip:SetOwner(self, "SubtractButton")
+		GameTooltip:SetPoint("TOP", SubtractButton, "BOTTOM", 0, 0)
+		GameTooltip:AddLine("Subtract", 1, 1, 1, 1)
+		GameTooltip:AddLine("Click to subtract the selected step.", 0.7, 0.7, 0.7, 0.7)
+		GameTooltip:Show()
+	end)
+	WoWPro.SubtractButton:SetScript("OnLeave", function(self)
+		GameTooltip:Hide()
+	end)
 
 	-- EditButton --
 	WoWPro.EditButton = CreateButton("EditButton", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Edit.tga", WoWPro.SubtractButton)
@@ -98,6 +128,17 @@ function WoWPro.Recorder:CreateRecorderFrame()
 			dialog:Open("WoWPro Recorder - Edit Step", WoWPro.DialogFrame)
 		end
 	end) 
+	WoWPro.EditButton:SetScript("OnEnter", function(self)
+		GameTooltip:SetOwner(self, "EditButton")
+		GameTooltip:SetPoint("TOP", EditButton, "BOTTOM", 0, 0)
+		GameTooltip:AddLine("Edit", 1, 1, 1, 1)
+		GameTooltip:AddLine("Click to open the step editor", 0.7, 0.7, 0.7, 0.7)
+		GameTooltip:AddLine("for the selected step.", 0.7, 0.7, 0.7, 0.7)
+		GameTooltip:Show()
+	end)
+	WoWPro.EditButton:SetScript("OnLeave", function(self)
+		GameTooltip:Hide()
+	end)
 
 	-- NoteButton --
 	-- DISABLED --
@@ -117,6 +158,16 @@ function WoWPro.Recorder:CreateRecorderFrame()
 			dialog:Open("WoWPro Recorder - New Guide", WoWPro.DialogFrame)
 		end
 	end)  
+	WoWPro.NewButton:SetScript("OnEnter", function(self)
+		GameTooltip:SetOwner(self, "NewButton")
+		GameTooltip:SetPoint("TOP", NewButton, "BOTTOM", 0, 0)
+		GameTooltip:AddLine("New", 1, 1, 1, 1)
+		GameTooltip:AddLine("Click to setup a new guide.", 0.7, 0.7, 0.7, 0.7)
+		GameTooltip:Show()
+	end)
+	WoWPro.NewButton:SetScript("OnLeave", function(self)
+		GameTooltip:Hide()
+	end)
 
 	-- OpenButton --
 	-- DISABLED --
@@ -136,6 +187,16 @@ function WoWPro.Recorder:CreateRecorderFrame()
 			WoWPro.Recorder:SaveGuide(true)
 		end
 	end) 
+	WoWPro.SaveButton:SetScript("OnEnter", function(self)
+		GameTooltip:SetOwner(self, "SaveButton")
+		GameTooltip:SetPoint("TOP", SaveButton, "BOTTOM", 0, 0)
+		GameTooltip:AddLine("Save", 1, 1, 1, 1)
+		GameTooltip:AddLine("Click to save the current guide.", 0.7, 0.7, 0.7, 0.7)
+		GameTooltip:Show()
+	end)
+	WoWPro.SaveButton:SetScript("OnLeave", function(self)
+		GameTooltip:Hide()
+	end)
 
 	-- DeleteButton --
 	-- DISABLED --
