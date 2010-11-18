@@ -7,7 +7,7 @@ local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
 WoWPro.Recorder = WoWPro:NewModule("Recorder")
-	
+WoWPro.Recorder.stepInfo = {}
 
 function WoWPro.Recorder:OnInitialize()
 	
@@ -258,7 +258,6 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 	for i,tag in pairs(WoWPro.Tags) do 
 		value = stepInfo[tag]
-		if not WoWPro[tag] then WoWPro[tag] = {} end
 		table.insert(WoWPro[tag], pos+1, value)
 		WoWPro:dbp("Adding tag "..tag.." at position "..pos+1)
 	end

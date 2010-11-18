@@ -628,6 +628,12 @@ function WoWPro.Leveling:PopulateQuestLog()
 				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
 				use = Id
 			end
+			local coords
+			QuestMapUpdateAllQuests()
+			QuestPOIUpdateIcons()
+			WorldMapFrame_UpdateQuests()
+			local x, y = WoWPro:findBlizzCoords(questID)
+			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
 			WoWPro.QuestLog[questID] = {
 				title = questTitle,
 				level = level,
@@ -638,6 +644,7 @@ function WoWPro.Leveling:PopulateQuestLog()
 				leaderBoard = leaderBoard,
 				header = currentHeader,
 				use = use,
+				coords = coords,
 				index = i
 			}
 		end

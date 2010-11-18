@@ -230,7 +230,7 @@ local zidmap = {
    [4395] = "Dalaran",
 }
 
-local function findBlizzCoords(questId)
+function WoWPro:findBlizzCoords(questId)
 	local POIFrame
 
     	-- Try to find the correct quest frame
@@ -290,7 +290,7 @@ function WoWPro:MapPoint(row)
 		QuestMapUpdateAllQuests()
 		QuestPOIUpdateIcons()
 		WorldMapFrame_UpdateQuests()
-		local x, y = findBlizzCoords(WoWPro.QID[i])
+		local x, y = WoWPro:findBlizzCoords(WoWPro.QID[i])
 		if x and y then coords = tostring(x)..","..tostring(y) end
 	end
 	
