@@ -40,8 +40,8 @@ function WoWPro:ResizeSet()
 		-- MainFrame --
 		WoWPro.MainFrame:SetHeight(WoWProDB.profile.vminresize)
 	end
-	WoWPro.MainFrame:ClearAllPoints()
-	WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
+	--WoWPro.MainFrame:ClearAllPoints()
+	--WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
 end
 function WoWPro:DragSet()
 	-- Drag Customization --
@@ -797,8 +797,7 @@ end
 
 -- Creating the addon's frames --
 function WoWPro:CreateFrames()
-	WoWPro:CreateAnchorFrame()
-	WoWPro:CreateMainFrame()
+	
 	WoWPro:CreateResizeButton()
 	WoWPro:CreateTitleBar()
 	WoWPro:CreateStickyFrame()
@@ -855,3 +854,6 @@ function WoWPro:AbleFrames()
 		WoWPro.Titlebar:Hide()
 	end
 end
+
+WoWPro:CreateAnchorFrame()
+WoWPro:CreateMainFrame()
