@@ -253,7 +253,14 @@ function WoWPro.Recorder:RowUpdate(offset)
 				end
 				WoWPro.Recorder.SelectedStep = pos+1
 				WoWPro:UpdateGuide()
-			end} 
+			end},
+			{text = "Clone Step", func = function()
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
+				for _,tag in pairs(WoWPro.Tags) do 
+					table.insert(WoWPro[tag], pos, WoWPro[tag][pos])
+				end
+				WoWPro:UpdateGuide()
+			end}
 		}
 		WoWPro.Recorder.RowDropdownMenu[i] = dropdown
 		
