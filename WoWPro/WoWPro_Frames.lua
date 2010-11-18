@@ -101,6 +101,7 @@ function WoWPro:TitlebarSet()
 	
 -- Scrollbar --
 	if WoWProDB.profile.guidescroll then WoWPro.Scrollbar:Show() else WoWPro.Scrollbar:Hide() end
+	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end 
 end
 function WoWPro:BackgroundSet()
 -- Textures and Borders --
@@ -123,6 +124,7 @@ function WoWPro:BackgroundSet()
 	else 
 		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0) 
 	end
+	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end 
 end	
 function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do

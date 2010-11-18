@@ -210,14 +210,23 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	end)
 
 	-- DeleteButton --
-	-- DISABLED --
 	WoWPro.DeleteButton = CreateButton("DeleteButton", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Trash.tga", WoWPro.SaveButton)
 	-- Scripts --
 	WoWPro.DeleteButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
+			dialog:Open("WoWPro Recorder - Delete Guide", WoWPro.DialogFrame)
 		end
 	end)
-	WoWPro.DeleteButton:Hide() 
+	WoWPro.DeleteButton:SetScript("OnEnter", function(self)
+		GameTooltip:SetOwner(self, "DeleteButton")
+		GameTooltip:SetPoint("TOP", DeleteButton, "BOTTOM", 0, 0)
+		GameTooltip:AddLine("Delete Guide", 1, 1, 1, 1)
+		GameTooltip:AddLine("Click to delete the current guide.", 0.7, 0.7, 0.7, 0.7)
+		GameTooltip:Show()
+	end)
+	WoWPro.DeleteButton:SetScript("OnLeave", function(self)
+		GameTooltip:Hide()
+	end)
 	
 end
 
@@ -239,14 +248,14 @@ function WoWPro.Recorder:CustomizeFrames()
 	end
 	
 	--Minimum Frame Size to match --
-	if WoWProDB.profile.hminresize < 230 then WoWProDB.profile.hminresize = 230 end
-	if WoWPro.MainFrame:GetWidth() < 230 then
+	if WoWProDB.profile.hminresize < 250 then WoWProDB.profile.hminresize = 250 end
+	if WoWPro.MainFrame:GetWidth() < 250 then
 	
 		-- AnchorFrame --
-		WoWPro.AnchorFrame:SetWidth(230)
+		WoWPro.AnchorFrame:SetWidth(250)
 		
 		-- MainFrame --
-		WoWPro.MainFrame:SetWidth(230)
+		WoWPro.MainFrame:SetWidth(250)
 		WoWPro.MainFrame:ClearAllPoints()
 		WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
 		
@@ -767,4 +776,41 @@ function WoWPro.Recorder.CreateDialogs()
 		},
 	})
 	dialog:SetDefaultSize("WoWPro Recorder - Edit Note", 400, 200)
+	config:RegisterOptionsTable("WoWPro Recorder - Delete Guide", {
+		name = "Delete Step",
+		type = "group",
+		args = {
+			message = {
+				order = 0,
+				type = "description",
+				fontSize = "medium",
+				name = "Are you sure you want to delete this guide? This action cannot be undone.\n\n"
+					.."Note that this will only delete the recorder save file."
+					.."It will not delete any files located in the WoWPro_Leveling folder.\n\n",
+				width = "full",
+			}, 
+			delete = {
+				order = 2,
+				type = "execute",
+				name = "Delete",
+				width = "full",
+				func = function(info,val) 
+					WoWPro.RecorderDB[WoWProDB.char.currentguide] = nil
+					WoWProDB.char.currentguide = nil
+					WoWPro:LoadGuide()
+					dialog:Close("WoWPro Recorder - Delete Guide");
+				end,
+			},
+			cancel = {
+				order = 3,
+				type = "execute",
+				name = "Cancel",
+				width = "full",
+				func = function(info,val) 
+					dialog:Close("WoWPro Recorder - Delete Guide");
+				end,
+			},
+		},
+	})
+	dialog:SetDefaultSize("WoWPro Recorder - Delete Guide", 350, 250)
 end
