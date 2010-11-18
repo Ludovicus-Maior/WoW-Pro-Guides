@@ -259,6 +259,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				for _,tag in pairs(WoWPro.Tags) do 
 					table.insert(WoWPro[tag], pos, WoWPro[tag][pos])
 				end
+				WoWPro.stepcount = WoWPro.stepcount+1
 				WoWPro:UpdateGuide()
 			end}
 		}

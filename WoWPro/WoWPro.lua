@@ -4,7 +4,7 @@
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
-WoWPro.DebugMode = true
+WoWPro.DebugMode = false
 WoWPro.Guides = {}
 
 -- WoWPro keybindings name descriptions --
