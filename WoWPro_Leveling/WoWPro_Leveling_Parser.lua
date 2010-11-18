@@ -332,7 +332,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end
 		
 		-- Unstickying stickies --
-		if unsticky and i == WoWPro.ActiveStickyCount+1 then
+		if unsticky and i == WoWPro.ActiveStickyCount+1 and not WoWPro.Recorder then
 			for n,row in ipairs(WoWPro.rows) do 
 				if step == row.step:GetText() and WoWPro.sticky[row.index] then 
 					completion[row.index] = true
@@ -343,7 +343,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end
 		
 		-- Counting stickies that are currently active (at the top) --
-		if sticky and i == WoWPro.ActiveStickyCount+1 and not WoWPro.Recorder then
+		if sticky and i == WoWPro.ActiveStickyCount+1 then
 			WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount+1
 		end
 		
