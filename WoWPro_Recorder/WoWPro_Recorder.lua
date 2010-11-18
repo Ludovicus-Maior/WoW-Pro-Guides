@@ -49,7 +49,7 @@ end
 
 function WoWPro.Recorder:RegisterSavedGuides()
 	local myUFG = UnitFactionGroup("player")
-	for GID,guideInfo in pairs(WoWPro.RecorderDB) do
+	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
 		WoWPro.Guides[GID] = {
 			guidetype = guideInfo.guidetype,
@@ -363,7 +363,7 @@ function WoWPro.Recorder:SaveGuide(window)
 	
 	local guideString = header..sequence.."\n]]\n\nend)"
 	
-	WoWPro.RecorderDB[GID] = {
+	WoWPro_RecorderDB[GID] = {
 		guidetype = "Leveling",
 		zone = WoWPro.Guides[GID].zone,
 		author = WoWPro.Guides[GID].author,

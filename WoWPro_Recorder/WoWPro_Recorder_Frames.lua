@@ -1110,14 +1110,55 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	CreateNewButton()
 	
 	-- OpenButton --
-	-- DISABLED --
-	WoWPro.OpenButton = CreateButton("OpenButton", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Open.tga", WoWPro.NewButton)
-	-- Scripts --
-	WoWPro.OpenButton:SetScript("OnMouseUp", function(self, button)
-		if button == "LeftButton" then
-		end
-	end) 
-	WoWPro.OpenButton:Hide()
+	local function CreateOpenButton()
+		WoWPro.OpenButton = CreateButton("OpenButton", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Open.tga", WoWPro.NewButton)
+		-- Scripts --
+		WoWPro.OpenButton:SetScript("OnMouseUp", function(self, button)
+			if button == "LeftButton" then
+				dialog:Open("WoWPro Recorder - Open Guide", WoWPro.DialogFrame)
+			end
+		end) 
+		WoWPro.OpenButton:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner(self, "OpenButton")
+			GameTooltip:SetPoint("TOP", OpenButton, "BOTTOM", 0, 0)
+			GameTooltip:AddLine("Open Guide", 1, 1, 1, 1)
+			GameTooltip:AddLine("Click to open a guide to edit.", 0.7, 0.7, 0.7, 0.7)
+			GameTooltip:Show()
+		end)
+		WoWPro.OpenButton:SetScript("OnLeave", function(self)
+			GameTooltip:Hide()
+		end) 
+		config:RegisterOptionsTable("WoWPro Recorder - Open Guide", {
+			name = "Open Guide",
+			type = "group",
+			args = {
+				guidetype = {
+					order = 0,
+					type = "select",
+					name = "Select a guide to open:",
+					desc = "All guides are listed here, including those that come with the addon and those you have created using the recorder.",
+					width = "full",
+					values = function()
+							local infoTable = {}
+							for GID, guideInfo in pairs(WoWPro.Guides) do
+								infoTable[GID] = guideInfo.author.."'s "..guideInfo.zone.." "
+									..guideInfo.startlevel.."-"..guideInfo.endlevel
+							end
+							return infoTable
+						end,
+					get = function(info) 
+							return nil end,
+					set = function(info,val) 
+							WoWPro:LoadGuide(val)
+							dialog:Close("WoWPro Recorder - Open Guide")
+						end,
+				},
+			},
+		})
+		dialog:SetDefaultSize("WoWPro Recorder - Open Guide", 300, 125)
+	end
+	CreateOpenButton()
+	
 
 	-- SaveButton --
 	local function CreateSaveButton()
