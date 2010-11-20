@@ -198,7 +198,7 @@ function WoWPro:NextStep(k,i)
 						end
 					end
   				end
-                           end
+                         end
 
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank[k] then
