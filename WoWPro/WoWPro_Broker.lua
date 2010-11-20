@@ -165,7 +165,29 @@ function WoWPro:NextStep(k,i)
 				end
 			end
 		end
-		
+
+		-- Skipping reputation quests if their requirements are met --
++		if WoWPro.rep[k] then
++			local rep, repID, replvl = string.split(",",WoWPro.rep[k])
++			repID = tonumber(repID) or 0
++			replvl = tonumber(replvl) or 0
++			skip = true --reputation steps skipped by default
++
++			for factionIndex = 1, GetNumFactions() do
++  				name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
++    				canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfo(factionIndex)
++				-- For standingID, 1=hated, 2=Hostile, 3=Unfriendly, 4=Neutral, 5=Friendly, 6=Honored, 7=Revered, 8=Exalted  				
++				if rep == name then
++					if (repID > 0) and (repID == standingId) then
++						skip = false
++					end
++					if (repID == 0) and (replvl > earnedValue) then
++ 						skip = false
++					end
++  				end
++			end
++		end
+
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
