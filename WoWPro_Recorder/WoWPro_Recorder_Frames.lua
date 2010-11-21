@@ -1166,7 +1166,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					get = function(info) 
 							return nil end,
 					set = function(info,val) 
-							WoWPro:LoadGuide(val)
+							WoWPro.LoadGuide(val)
 							dialog:Close("WoWPro Recorder - Open Guide")
 						end,
 				},

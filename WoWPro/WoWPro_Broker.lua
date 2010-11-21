@@ -167,8 +167,8 @@ function WoWPro:NextStep(k,i)
 		end
 
 		-- Skipping reputation quests if their requirements are met --
-+		if WoWPro.rep[k] then
-+			local rep, repID, replvl = string.split(",",WoWPro.rep[k])
+		if WoWPro.rep[k] then
+			local rep, repID, replvl = string.split(",",WoWPro.rep[k])
 			repID = string.lower(repID) or 0
 			if repID == 'hated' then repID = 1 end
 			if repID == 'hostile' then repID = 2 end
@@ -178,14 +178,14 @@ function WoWPro:NextStep(k,i)
 			if repID == 'honored' then repID = 6 end
 			if repID == 'revered' then repID = 7 end
 			if repID == 'exalted' then repID = 8 end
-+			replvl = tonumber(replvl) or 0
-+			skip = true --reputation steps skipped by default
-+
-+			for factionIndex = 1, GetNumFactions() do
-+  				name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
-+    				canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfo(factionIndex)
-+				if rep == name then
-+					if (repID == standingId) and (replvl == 0) then
+			replvl = tonumber(replvl) or 0
+			skip = true --reputation steps skipped by default
+
+			for factionIndex = 1, GetNumFactions() do
+  				name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
+    				canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfo(factionIndex)
+				if rep == name then
+					if (repID == standingId) and (replvl == 0) then
 						skip = false
 					end
 					if (replvl > 0) then
@@ -194,11 +194,12 @@ function WoWPro:NextStep(k,i)
 							skip = false 
 						end
 						if (repID == standingId) and (earnedValue <= replvl) then
-                                                                skip = false
+                     skip = false
 						end
 					end
   				end
-                         end
+			end
+      end
 
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank[k] then

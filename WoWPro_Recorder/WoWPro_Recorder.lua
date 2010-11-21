@@ -295,7 +295,6 @@ end
 function WoWPro.Recorder:RemoveStep(position)
 	local pos = position or WoWPro.stepcount
 	for i,tag in pairs(WoWPro.Tags) do 
-		if not WoWPro[tag] then WoWPro[tag] = {} end
 		table.remove(WoWPro[tag], pos)
 		WoWPro:dbp("Removing tag "..tag.." at position "..pos)
 	end

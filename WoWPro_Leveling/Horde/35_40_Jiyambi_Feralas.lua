@@ -40,6 +40,9 @@ f Stonemaul Hold|QID|27134|M|51.00,48.38|N|At Mergek.|
 A Testing the Vessel|QID|25336|M|52.26,48.06|N|From Gombana.|
 A The Mark of Quality|QID|25452|M|52.83,47.12|N|From Jangdor Swiftstrider.|
 h Stonemaul Hold|QID|25452|M|51.90,47.47|N|At Chonk.|
+C The Mark of Quality|QID|25452|M|52.07,31.60|N|The yetis can be found to the north. Follow the road north, then cut east to Rage Scar Hold.|
+T The Mark of Quality|QID|25452|M|52.83,47.12|N|To Jangdor Swiftstrider, back at Stonemaul Hold.|
+A Improved Quality|QID|25453|M|52.82,47.10|N|From Jangdor Swiftstrider.|
 ]]
 
 end)
