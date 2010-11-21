@@ -325,25 +325,23 @@ function WoWPro.Leveling:RowUpdate(offset)
 		local completion = WoWPro_LevelingDB.guide[GID].completion
 		
 		-- Checking off lead in steps --
-		if leadin and WoWPro_LevelingDB.completedQIDs[tonumber(leadin)] then
-			completion[row.index] = true
-			reload = true
-			return reload
+		if leadin and WoWPro_LevelingDB.completedQIDs[tonumber(leadin)] and not completion[k] then
+			completion[k] = true
+			return true --reloading
 		end
 		
 		-- Unstickying stickies --
-		if unsticky and i == WoWPro.ActiveStickyCount+1 and not WoWPro.Recorder then
+		if unsticky and i == WoWPro.ActiveStickyCount+1 then
 			for n,row in ipairs(WoWPro.rows) do 
-				if step == row.step:GetText() and WoWPro.sticky[row.index] then 
+				if step == row.step:GetText() and WoWPro.sticky[row.index] and not completion[row.index] then 
 					completion[row.index] = true
-					reload = true
+					return true --reloading
 				end
 			end
-			if reload then return reload end
 		end
 		
 		-- Counting stickies that are currently active (at the top) --
-		if sticky and i == WoWPro.ActiveStickyCount+1 then
+		if sticky and i == WoWPro.ActiveStickyCount+1 and not completion[k] then
 			WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount+1
 		end
 		
