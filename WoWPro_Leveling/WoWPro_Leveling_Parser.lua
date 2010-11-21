@@ -221,6 +221,10 @@ local function ParseQuests(...)
 				WoWPro.prof[i] = text:match("|P|([^|]*)|?")
 				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
 
+				for _,tag in pairs(WoWPro.Tags) do 
+					if not WoWPro[tag][i] then WoWPro[tag][i] = false end
+				end
+				
 				i = i + 1
 			end end
 		end

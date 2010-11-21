@@ -49,7 +49,7 @@ end
 
 function WoWPro.Recorder:RegisterSavedGuides()
 	local myUFG = UnitFactionGroup("player")
-	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
+	for GID,guideInfo in pairs(WoWPro.RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
 		WoWPro.Guides[GID] = {
 			guidetype = guideInfo.guidetype,
@@ -234,6 +234,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == 1 then return end
 				for _,tag in pairs(WoWPro.Tags) do 
+					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
 					table.insert(WoWPro[tag], pos-1, WoWPro[tag][pos])
 				end
 				for _,tag in pairs(WoWPro.Tags) do 
@@ -246,6 +247,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == WoWPro.stepcount then return end
 				for _,tag in pairs(WoWPro.Tags) do 
+					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
 					table.insert(WoWPro[tag], pos+2, WoWPro[tag][pos])
 				end
 				for _,tag in pairs(WoWPro.Tags) do 
@@ -257,7 +259,8 @@ function WoWPro.Recorder:RowUpdate(offset)
 			{text = "Clone Step", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				for _,tag in pairs(WoWPro.Tags) do 
-					table.insert(WoWPro[tag], pos, WoWPro[tag][pos])
+					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
+					table.insert(WoWPro[tag], pos+1, WoWPro[tag][pos])
 				end
 				WoWPro.stepcount = WoWPro.stepcount+1
 				WoWPro:UpdateGuide()
@@ -283,6 +286,7 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 	for i,tag in pairs(WoWPro.Tags) do 
 		value = stepInfo[tag]
+		if not value then value = false end
 		table.insert(WoWPro[tag], pos+1, value)
 		WoWPro:dbp("Adding tag "..tag.." at position "..pos+1)
 	end
@@ -320,9 +324,9 @@ function WoWPro.Recorder:SaveGuide(window)
 	local sequence = ""
 		
 	function addTag(line, tag, value)
-		line = line..tag.."|"
+		line = line..tag.."\|"
 		if value then
-			line = line..value.."|"
+			line = line..value.."\|"
 		end
 		return line
 	end
@@ -333,7 +337,7 @@ function WoWPro.Recorder:SaveGuide(window)
 			..action.." "
 			..WoWPro.step[i].."|"
 		
-		if WoWPro.QID[i] then sequence = addTag(sequence, "QID", WoWPro.QID[i]) end
+		if WoWPro.QID[i] then sequence = addTag(sequence, "QID", tostring(WoWPro.QID[i])) end
 		if WoWPro.optional[i] then sequence = addTag(sequence, "O") end
 		if WoWPro.sticky[i] then sequence = addTag(sequence, "S") end
 		if WoWPro.unsticky[i] then sequence = addTag(sequence, "US") end
@@ -363,7 +367,7 @@ function WoWPro.Recorder:SaveGuide(window)
 	
 	local guideString = header..sequence.."\n]]\n\nend)"
 	
-	WoWPro_RecorderDB[GID] = {
+	WoWPro.RecorderDB[GID] = {
 		guidetype = "Leveling",
 		zone = WoWPro.Guides[GID].zone,
 		author = WoWPro.Guides[GID].author,
@@ -387,7 +391,7 @@ function WoWPro.Recorder:SaveGuide(window)
 				desc = "",
 				width = "full",
 				get = function(info)
-						return guideString:trim():gsub("|N", "||N")
+						return guideString:trim():gsub("|N", "||N"):gsub("|R", "||R")
 					end,
 			},
 		},
