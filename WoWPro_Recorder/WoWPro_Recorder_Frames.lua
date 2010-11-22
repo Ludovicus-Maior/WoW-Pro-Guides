@@ -1176,7 +1176,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	end
 	CreateOpenButton()
 	
-
 	-- SaveButton --
 	local function CreateSaveButton()
 		WoWPro.SaveButton = CreateButton("SaveButton", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Save.tga", WoWPro.OpenButton)
@@ -1237,7 +1236,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					name = "Delete",
 					width = "full",
 					func = function(info,val) 
-						WoWPro.RecorderDB[WoWProDB.char.currentguide] = nil
+						WoWPro_RecorderDB[WoWProDB.char.currentguide] = nil
 						WoWProDB.char.currentguide = nil
 						WoWPro:LoadGuide()
 						dialog:Close("WoWPro Recorder - Delete Guide");

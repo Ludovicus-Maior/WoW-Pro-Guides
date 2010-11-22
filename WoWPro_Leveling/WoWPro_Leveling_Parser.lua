@@ -709,7 +709,6 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate()
 			
 			-- Partial Completion --
 			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] then 
-				print("Checking for partial completion")
 				local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
 				local complete = true
 				for l=1,numquesttext do
@@ -718,7 +717,6 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate()
 					for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
 						if lquesttext == objective then --if the objective matches the step's criteria, mark true
 							lcomplete = true
-							print("Objective "..objective.." is complete.")
 						end
 					end
 					if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
