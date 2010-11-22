@@ -568,8 +568,8 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					name = "Delete",
 					width = "full",
 					func = function(info,val) 
-						WoWPro.Recorder:RemoveStep(WoWPro.Recorder.SelectedStep)
 						dialog:Close("WoWPro Recorder - Subtract Step");
+						WoWPro.Recorder:RemoveStep(WoWPro.Recorder.SelectedStep)
 					end,
 				},
 				cancel = {
