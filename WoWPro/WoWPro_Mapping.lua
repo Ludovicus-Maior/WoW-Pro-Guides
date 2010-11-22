@@ -262,9 +262,8 @@ local function findBlizzCoords(questId)
 end
 
 function WoWPro:MapPoint(row)
-	if not WoWPro.loadedguide then return end
 	local GID = WoWProDB.char.currentguide
-	if GID == "NilGuide" then return end
+	if not GID or not WoWPro.Guides[GID] then return end
 
 	-- Removing old map point --
 	WoWPro:RemoveMapPoint()
@@ -273,13 +272,13 @@ function WoWPro:MapPoint(row)
 	local i
 	if row then i = WoWPro.rows[row].index 
 	else 
-		i = WoWPro_Leveling:NextStepNotSticky(WoWPro.ActiveStep)
+		i = WoWPro:NextStepNotSticky(WoWPro.ActiveStep)
 	end
 	local coords; if WoWPro.map then coords = WoWPro.map[i] else coords = nil end
 	local desc = WoWPro.step[i]
 	local zone
 	if row then zone = WoWPro.rows[row].zone else 
-		zone = WoWPro.zone[i] or strtrim(strsplit("(",(strsplit("-",WoWPro.loadedguide["zone"]))))
+		zone = WoWPro.zone[i] or strtrim(strsplit("(",(strsplit("-",WoWPro.Guides[GID].zone))))
 	end 
 	autoarrival = WoWPro.waypcomplete[i]
 	

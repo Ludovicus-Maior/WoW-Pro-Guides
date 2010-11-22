@@ -2,11 +2,11 @@
 --      WoWPro.lua      --
 --------------------------
 
-local L = WoWPro_Locale
-
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
+WP_Modules = {}
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
-WoWPro.debugmode = false
+WoWPro.DebugMode = false
+WoWPro.Guides = {}
 
 -- WoWPro keybindings name descriptions
 _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
@@ -15,7 +15,7 @@ _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
 -- Debug print function
 function WoWPro:dbp(message)
-	if WoWPro.debugmode and message ~= nil then
+	if WoWPro.DebugMode and message ~= nil then
 		print("|cffffff00WoW-Pro Debug|r: "..message)
 	end
 end
@@ -28,107 +28,102 @@ function WoWPro:Print(message)
 end
 
 local defaults = { profile = {
-	enable = true,
+	drag = true,
+	anchorpoint = "AUTO",
 	pad = 5,
 	space = 5,
-	resize = false,
-	checksoundfile = [[Sound\Interface\MapPing.wav]],
+	mousenotes = false,
+	minimap = { hidden = false, },
+	track = true,
+	showcoords = false,
+	autoload = true,
+	guidescroll = false,
 	checksound = true,
-	drag = true,
-	titlebar = true,
-	border = true,
+	checksoundfile = [[Sound\Interface\MapPing.wav]],
+	rank = 3,
+	resize = false,
 	autoresize = true,
 	numsteps = 1,
-	track = true,
-	bgcolor = {0.2, 0.2, 0.2, 0.7},
-	stickycolor = {0.8, 0.8, 0.8, 0.7},
-	titlecolor = {0.5, 0.5, 0.5, 1},
-	steptextcolor = {1, 1, 1},
-	titletextcolor = {1, 1, 1},
-	notetextcolor = {1, 1, 0},
-	tracktextcolor = {1, 1, 0},
-	stickytitletextcolor = {1, 1, 1},
-	stepfont = [[Fonts\FRIZQT__.TTF]],
-	notefont = [[Fonts\FRIZQT__.TTF]],
-	trackfont = [[Fonts\FRIZQT__.TTF]],
-	titlefont = [[Fonts\FRIZQT__.TTF]],
-	stickytitlefont = [[Fonts\FRIZQT__.TTF]],
-	steptextsize = 13,
-	notetextsize = 11,
-	tracktextsize = 10,
-	titletextsize = 15,
-	stickytitletextsize = 13,
-	bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-	stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-	bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
-	noteshow = false,
-	minimap = { hidden = false, },
 	hminresize = 200,
 	vminresize = 100,
-	anchorpoint = "AUTO",
-	guidescroll = false,
-	rank = 5,
+	titlebar = true,
+	titlecolor = {0.5, 0.5, 0.5, 1},
+	bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
+	bgcolor = {0.2, 0.2, 0.2, 0.7},
+	bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
+	border = true,
+	stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
+	stickycolor = {0.8, 0.8, 0.8, 0.7},
+	stepfont = [[Fonts\FRIZQT__.TTF]],
+	steptextsize = 13,
+	steptextcolor = {1, 1, 1},
+	notefont = [[Fonts\FRIZQT__.TTF]],
+	notetextsize = 11,
+	notetextcolor = {1, 1, 0},
+	trackfont = [[Fonts\FRIZQT__.TTF]],
+	tracktextsize = 10,
+	tracktextcolor = {1, 1, 0},
+	titlefont = [[Fonts\FRIZQT__.TTF]],
+	titletextsize = 15,
+	titletextcolor = {1, 1, 1},
+	stickytitlefont = [[Fonts\FRIZQT__.TTF]],
+	stickytitletextsize = 13,
+	stickytitletextcolor = {1, 1, 1},
 	
 	-- Enables --
 	enable = true,
 	levelingenable = true,
 
 } }
-		
+	
 function WoWPro:OnInitialize()
-	WoWProDB = LibStub("AceDB-3.0"):New("WoWProData", defaults, true)
-	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
-	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
-	WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
-	WoWPro:CreateMiniMapButton()
-	WoWPro:CreateConfig()
-end
-
-function WoWPro:RefreshConfig()
-	WoWPro:LoadGuide()
-	WoWPro:CustomizeFrames()
-end
-
-function WoWPro:SetDefaults()
-	
-	-- AnchorFrame --
-	WoWPro.AnchorFrame:SetHeight(22)
-	WoWPro.AnchorFrame:SetWidth(200)
-	WoWPro.AnchorFrame:SetMinResize(150,40)
-	WoWPro.AnchorFrame:ClearAllPoints()
-	WoWPro.AnchorFrame:SetPoint("TOPRIGHT", UIParent, "RIGHT", -10, 175)
-	
-	-- MainFrame --
-	WoWPro.MainFrame:SetHeight(300)
-	WoWPro.MainFrame:SetWidth(200)
-	WoWPro.MainFrame:SetMinResize(150,40)
-	WoWPro.MainFrame:ClearAllPoints()
-	WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
-	
-	WoWPro:RefreshConfig()
+	WoWProDB = LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
+	-- Setting up callbacks for use with profiels - these seem to be broken? --
+	--	WoWProDB:RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
+	--	WoWProDB:RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
+	--	WoWProDB:RegisterCallback(self, "OnProfileReset", "SetDefaults")
+	WoWPro.Modules = {}
 end
 
 function WoWPro:OnEnable()
+	WoWPro:dbp("|cff33ff33Enabled|r: Core Addon")
 
 	-- Warning if the user is missing TomTom --
 	if not TomTom then
-		WoWPro:Print("It looks like you don't have |cff33ff33TomTom|r installed. WoW-Pro's guides won't have their full functionality without it! Download it from www.wowinterface.com.")
+		WoWPro:Print("It looks like you don't have |cff33ff33TomTom|r installed. "
+			.."WoW-Pro's guides won't have their full functionality without it! "
+			.."Download it for free from www.wowinterface.com or www.curse.com.")
 	end
 	
-	-- Modules --
-	if not WoWPro_Leveling then WoWProDB.char.currentguide = "NilGuide"; WoWPro:LoadGuide() end
-	if WoWPro_Leveling then WoWPro_Leveling:Enable() end
-	if WoWPro_Recorder then WoWPro_Recorder:Enable() end
+	--Loading Frames--
+	if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
+		WoWPro:CreateFrames()
+		WoWPro:CreateConfig()
+		WoWPro:CustomizeFrames()
+		WoWPro.FramesLoaded = true
+	else -- Addon was previously disabled
+		WoWPro:AbleFrames()
+	end
 	
-	WoWPro.MainFrame:Show()
-	WoWPro.Titlebar:Show()
+	-- Setting up addon-wide tags --
+	WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", "unsticky", 
+		"use", "zone", "lootitem", "lootqty", "optional", 
+		"level", "target", "prof", "waypcomplete", "rank" 
+	}
 	
-	WoWPro:CreateDropdownMenu()
-
-	-- Registering events and updating the guide window --
-	WoWPro.combat = false
-	WoWPro:RegisterEvents()
-	WoWPro:UpdateGuide()
+	-- Setting up addon-wide events --
+	WoWPro.events = {
+		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED",
+		"UPDATE_BINDINGS",
+	}
+	
+	-- Module Enabling --
+	for name, module in WoWPro:IterateModules() do
+		WoWPro:dbp("Enabling "..name.." module...")
+		module:Enable()
+	end
+	WoWPro:RegisterAllEvents()
+	WoWPro:LoadGuide()
 	WoWPro:MapPoint()
 	WoWPro:CustomizeFrames()
 
@@ -144,13 +139,56 @@ function WoWPro:OnEnable()
 end	
 
 function WoWPro:OnDisable()
-	
-	WoWPro.MainFrame:Hide()
-	WoWPro.Titlebar:Hide()
-	
+	WoWPro:AbleFrames()
 	WoWPro.GuideFrame:UnregisterAllEvents()
-	
 	WoWPro:RemoveMapPoint()
+end
+
+function WoWPro:RegisterTags(tagtable)
+	if not WoWPro.Tags then return end
+	for i=1,#tagtable do
+		table.insert(WoWPro.Tags,tagtable[i])
+	end
+end
+
+function WoWPro:RegisterEvents(eventtable)
+	if not WoWPro.events then return end
+	for i=1,#eventtable do
+		table.insert(WoWPro.events,eventtable[i])
+	end
+end
+
+-- Auto-completion Event Responders --
+function WoWPro:RegisterAllEvents()
+	WoWPro:dbp("Registering Events: Core Addon")
+	
+	for _, event in ipairs(WoWPro.events) do
+		WoWPro.GuideFrame:RegisterEvent(event)
+	end
+	
+	WoWPro.GuideFrame:SetScript("OnEvent", function(self, event, ...)
+		WoWPro:dbp("Event Fired: "..event)
+		
+		-- Unlocking guide frame when leaving combat --
+		if event == "PLAYER_REGEN_ENABLED" then
+			WoWPro:UpdateGuide() 
+		end
+		
+		-- Updating party-dependant options --
+		if event == "PARTY_MEMBERS_CHANGED" and not InCombatLockdown() then
+			WoWPro:UpdateGuide() 
+		end
+
+		-- Updating WoWPro keybindings --
+		if event == "UPDATE_BINDINGS" and not InCombatLockdown() then
+			WoWPro:UpdateGuide() 
+		end
+
+		-- Module Event Handlers --
+		for name, module in WoWPro:IterateModules() do
+			if WoWPro[name].EventHandler then WoWPro[name]:EventHandler(self, event, ...) end
+		end
+	end)
 end
 
 -- Fix Interface Options Category bug --

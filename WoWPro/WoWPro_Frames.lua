@@ -112,9 +112,9 @@ function WoWPro:BackgroundSet()
 		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0) 
 	end
 -- Recorder Frame --
-	if WoWPro_Recorder then
-		WoWPro_Recorder:RecorderFrameSet()
-	end
+--	if WoWPro.Recorder then
+--		WoWPro.Recorder:RecorderFrameSet()
+--	end
 end	
 function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do
@@ -654,13 +654,13 @@ function WoWPro:CreateSkipStepsDialog()
 		WoWPro.SkipStepsDialog:SetHeight(120+WoWPro.SkipStepsDialogText:GetHeight())
 		WoWPro.SkipStepsCancelButton:SetScript("OnClick", function(self, button)
 			WoWPro.SkipStepsDialog:Hide()
-			WoWPro_Leveling:UnSkipStep(index)
+			WoWPro.Leveling:UnSkipStep(index)
 		end)
 		WoWPro.SkipStepsDialog:Show()
 	end
 end
 
-
+-- TODO: make it module specific, move this to WoWPro_Leveling
 -- Next Guide Dialog --
 function WoWPro:CreateNextGuideDialog()
 	
@@ -706,7 +706,7 @@ function WoWPro:CreateNextGuideDialog()
 	button3text:SetText("Reset Current Guide")
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
-		WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+		WoWPro_LevelingDB.guide[WoWProDB.char.currentguide] = nil
 		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
@@ -729,8 +729,9 @@ function WoWPro:CreateDropdownMenu()
 		end},
 	}
 	
+	-- TODO: move this to wowpro_leveling
 	-- Modules --
-	if WoWPro_Leveling then
+	if WoWPro.Leveling then
 		table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 		table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )
 		table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
@@ -745,30 +746,73 @@ function WoWPro:CreateDropdownMenu()
 				InterfaceOptionsFrame_OpenToCategory("Guide List") 
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
-				if not WoWProDB.char.currentguide or WoWProDB.char.currentguide == "NilGuide" then return end
-				WoWProDB.char.guide[WoWProDB.char.currentguide] = nil
+				if not WoWProDB.char.currentguide then return end
+				WoWPro_LevelingDB.guide[WoWProDB.char.currentguide] = nil
 				for j = 1,WoWPro.stepcount do 
-					if WoWPro.QID[j] then WoWProDB.char.skippedQIDs[WoWPro.QID[j]] = nil end
+					if WoWPro.QID[j] then WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = nil end
 				end
 				WoWPro:LoadGuide()
 			end} )
 	end
 end
 
--- Dialog Frame --
-WoWPro.DialogFrame = AceGUI:Create("Window")
-WoWPro.DialogFrame:SetLayout("Flow")
-WoWPro.DialogFrame:Hide()
-
 -- Creating the addon's frames --
-WoWPro:CreateAnchorFrame()
-WoWPro:CreateMainFrame()
-WoWPro:CreateResizeButton()
-WoWPro:CreateTitleBar()
-WoWPro:CreateStickyFrame()
-WoWPro:CreateGuideFrame();
-WoWPro:CreateGuideWindowScrollbar()
-WoWPro:CreateRows()
-WoWPro:CreateMouseNotes()
-WoWPro:CreateNextGuideDialog()
-WoWPro:CreateSkipStepsDialog()
+function WoWPro:CreateFrames()
+	WoWPro:CreateAnchorFrame()
+	WoWPro:CreateMainFrame()
+	WoWPro:CreateResizeButton()
+	WoWPro:CreateTitleBar()
+	WoWPro:CreateStickyFrame()
+	WoWPro:CreateGuideFrame()
+	WoWPro:CreateGuideWindowScrollbar()
+	WoWPro:CreateRows()
+	WoWPro:CreateMouseNotes()
+	WoWPro:CreateNextGuideDialog()
+	WoWPro:CreateSkipStepsDialog()
+	WoWPro:CreateMiniMapButton()
+	WoWPro:CreateDropdownMenu()
+--		local createAnchorFrame()
+			--Create the anchor frame with size (same size as the guide frame)
+			--Attach to default position on screen
+--		local createGuideFrame()
+			--Create the guide frame with default settings
+			--Attach to the anchor frame
+			--Set to moveable and resizeable
+--		local createTitleBar()
+			--Create the title bar frame with default settings
+			--Attach to the guide frame, above it
+--		local createStickyFrame()
+			--Create the sticky frame with default settings
+			--Attach to the guide frame, inside at the top
+			--Hide the sticky frame by default
+--		local createResizeButton()
+			--Create the resize button frame with default settings
+			--Attach to the guide frame, inside at the bottom right
+--		local createGuideWindowScrollbar()
+			--Create the scroll bar frame with default settings
+			--Attach to the guide frame, outside to the right
+			--Hide by default
+--		local createRows()
+			--Create the 25 row frames with default settings
+			--Attach to the guide frame, inside, starting at the top (first attaches to the sticky frame)
+--		local createMouseNotes()
+			--Create the 25 mouse note frames with default settings
+			--Attach to the row frames
+			--Hide by default
+--		local createDialog()
+			--Create the dialog frame with default settings - empty by default
+			--Attach to the center of the screen
+			--Hide by default
+--		local createMiniMapButton()
+end
+
+--Enables or Disables frames (hides/shows)
+function WoWPro:AbleFrames() 
+	if WoWPro:IsEnabled() then
+		WoWPro.MainFrame:Show()
+		WoWPro.Titlebar:Show()
+	else
+		WoWPro.MainFrame:Hide()
+		WoWPro.Titlebar:Hide()
+	end
+end

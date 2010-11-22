@@ -188,12 +188,12 @@ local function createBlizzOptions()
 		},
 	})
 	dialog:SetDefaultSize("WoWPro-Leveling-Bliz", 600, 400)
-	dialog:AddToBlizOptions("WoWPro-Leveling-Bliz", "WoW-Pro Leveling", "WoW-Pro Guides")
+	dialog:AddToBlizOptions("WoWPro-Leveling-Bliz", "WoW-Pro Leveling")
 
 	return blizzPanel
 end
 
-function WoWPro.Leveling.CreateConfig()
+function WoWPro.Leveling:CreateConfig()
 	blizzPanel = createBlizzOptions()
 	InterfaceOptions_AddCategory(WoWPro_Leveling_GuideListFrame)
 	InterfaceOptions_AddCategory(WoWPro_Leveling_CurrentGuide)
