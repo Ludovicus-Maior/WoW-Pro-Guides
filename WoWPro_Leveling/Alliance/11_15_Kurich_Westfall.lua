@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide("KurWes1120", "Westfall", "Kurich", "11", "15", "", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("KurWes1120", "Westfall", "Kurich", "11", "15", "KurRed1520", "Alliance", function()
 return [[
 T Furlbrow's Deed|QID|184|M|60.04,19.28|
 T Hero's Call: Westfall|QID|26378|M|60.04,19.28|

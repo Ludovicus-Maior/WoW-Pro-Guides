@@ -30,6 +30,18 @@ function WoWPro:ResizeSet()
 	-- Resize Customization --
 	if WoWProDB.profile.resize then WoWPro.resizebutton:Show() else WoWPro.resizebutton:Hide() end
 	WoWPro.MainFrame:SetMinResize(WoWProDB.profile.hminresize,WoWProDB.profile.vminresize)
+	if WoWPro.MainFrame:GetWidth() < WoWProDB.profile.hminresize then
+		-- AnchorFrame --
+		WoWPro.AnchorFrame:SetWidth(WoWProDB.profile.hminresize)
+		-- MainFrame --
+		WoWPro.MainFrame:SetWidth(WoWProDB.profile.hminresize)
+	end
+	if WoWPro.MainFrame:GetHeight() < WoWProDB.profile.vminresize then
+		-- MainFrame --
+		WoWPro.MainFrame:SetHeight(WoWProDB.profile.vminresize)
+	end
+	--WoWPro.MainFrame:ClearAllPoints()
+	--WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
 end
 function WoWPro:DragSet()
 	-- Drag Customization --
@@ -89,6 +101,7 @@ function WoWPro:TitlebarSet()
 	
 -- Scrollbar --
 	if WoWProDB.profile.guidescroll then WoWPro.Scrollbar:Show() else WoWPro.Scrollbar:Hide() end
+	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end 
 end
 function WoWPro:BackgroundSet()
 -- Textures and Borders --
@@ -111,10 +124,7 @@ function WoWPro:BackgroundSet()
 	else 
 		WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0) 
 	end
--- Recorder Frame --
---	if WoWPro.Recorder then
---		WoWPro.Recorder:RecorderFrameSet()
---	end
+	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end 
 end	
 function WoWPro:RowColorSet()
 	for i,row in ipairs(WoWPro.rows) do
@@ -151,12 +161,12 @@ function WoWPro.RowSizeSet()
 	local pad = WoWProDB.profile.pad
 	local biggeststep = 0
 	local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
-	WoWPro.StickyCount = WoWPro.StickyCount or 0
+	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
 	
 	-- Hiding the row if it's past the set number of steps --
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProDB.profile.autoresize then
-			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
+			if i <= WoWProDB.profile.numsteps + WoWPro.ActiveStickyCount then
 				biggeststep = ceil(max(biggeststep,row.step:GetStringWidth()))
 				if WoWProDB.profile.track and row.trackcheck then
 					biggeststep = ceil(max(biggeststep,row.track:GetStringWidth()))
@@ -216,7 +226,7 @@ function WoWPro.RowSizeSet()
 		
 		-- Hiding the row if it's past the set number of steps --
 		if WoWProDB.profile.autoresize then
-			if i <= WoWProDB.profile.numsteps + WoWPro.StickyCount then
+			if i <= WoWProDB.profile.numsteps + WoWPro.ActiveStickyCount then
 				totalh = totalh + newh
 				row:Show()
 				WoWPro.ShownRows = WoWPro.ShownRows + 1
@@ -239,7 +249,7 @@ function WoWPro.RowSizeSet()
 		end
 	end
 	
-	if WoWPro.StickyCount >= 1 then
+	if WoWPro.ActiveStickyCount >= 1 then
 		WoWPro.StickyFrame:Show()
 		WoWPro.StickyFrame:SetHeight(WoWPro.StickyTitle:GetHeight())
 	else
@@ -319,7 +329,13 @@ function WoWPro.RowSet()
 	WoWPro.AnchorSet()
 end
 function WoWPro.CustomizeFrames()
-	WoWPro.ResizeSet(); WoWPro.DragSet(); WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.BackgroundSet(); WoWPro.RowSet(); WoWPro.MinimapSet()
+	WoWPro.ResizeSet(); WoWPro.DragSet(); WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.BackgroundSet(); WoWPro.RowSet(); WoWPro.MinimapSet();
+	
+	-- Module Customize Frames --
+	for name, module in WoWPro:IterateModules() do
+		if WoWPro[name].CustomizeFrames then WoWPro[name]:CustomizeFrames() end
+	end
+	
 end
 
 -- Create Dialog Box --
@@ -351,6 +367,8 @@ end
 -- Anchor Frame --
 function WoWPro:CreateAnchorFrame()
 	local frame = CreateFrame("Frame", "WoWPro.AnchorFrame", UIParent)
+	frame:SetMovable(true)
+	frame:SetResizable(true)
 	frame:SetHeight(22)
 	frame:SetWidth(200)
 	frame:SetMinResize(150,40)
@@ -443,8 +461,8 @@ function WoWPro:CreateTitleBar()
 	WoWPro.Titlebar = titlebar
 	-- Text --
 	local titletext = WoWPro.Titlebar:CreateFontString()
-	titletext:SetPoint("TOPRIGHT", WoWPro.Titlebar, "TOPRIGHT", -5, -5)
-	titletext:SetPoint("TOPLEFT", WoWPro.Titlebar, "TOPLEFT", 5, -5)
+	titletext:SetPoint("TOPRIGHT", WoWPro.Titlebar, "TOPRIGHT", -5, -7)
+	titletext:SetPoint("TOPLEFT", WoWPro.Titlebar, "TOPLEFT", 5, -7)
 	titletext:SetFontObject(GameFontNormal)
 	titletext:SetText("WoW-Pro Guides")
 	titletext:SetTextColor(1, 1, 1)
@@ -513,16 +531,34 @@ end
 
 -- Scrollbar --
 function WoWPro:CreateGuideWindowScrollbar()
-	WoWPro.Scrollbar = WoWPro:CreateScrollbar(WoWPro.GuideFrame)
+	WoWPro.Scrollbar = WoWPro:CreateScrollbar(WoWPro.GuideFrame, nil, 1)
 	WoWPro.Scrollbar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 20, -20)
 	WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 20, 20)
+
+	WoWPro.Scrollbar:SetValueStep(1)
+	local f = WoWPro.Scrollbar:GetScript("OnValueChanged")
+	local oldOffset = 0
+	WoWPro.Scrollbar:SetScript("OnValueChanged", function(self, value, ...)
+		local offset = math.floor(value)
+		if not WoWProDB.profile.guidescroll then return end
+		if offset ~= oldOffset then
+			oldOffset = offset
+			WoWPro:UpdateGuide(offset)
+		end
+		return f(self, value, ...)
+	end)
+	WoWPro.MainFrame:SetScript("OnMouseWheel", function(self, val) 
+		if WoWProDB.profile.guidescroll then 
+			WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val) 
+		end
+	end)
 end
 
 -- Rows to be populated by individual addons --
 function WoWPro:CreateRows()
 	WoWPro.rows = {}
 	for i=1,15 do
-		local row = CreateFrame("Button", nil, WoWPro.GuideFrame)
+		local row = CreateFrame("CheckButton", nil, WoWPro.GuideFrame)
 		row:SetBackdrop( {
 			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 			tile = true, tileSize = 16
@@ -540,7 +576,6 @@ function WoWPro:CreateRows()
 		row:SetHeight(25)
 		row:RegisterForClicks("AnyUp");
 
-
 		row.check = WoWPro:CreateCheck(row)
 		row.action = WoWPro:CreateAction(row, row.check)
 		row.step = WoWPro:CreateStep(row, row.action)
@@ -548,6 +583,13 @@ function WoWPro:CreateRows()
 		row.track = WoWPro:CreateTrack(row, row.action)
 		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row, i)
 		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, i)
+		
+		local highlight = row:CreateTexture()
+		highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
+		highlight:SetTexCoord(0, 1, 0, 0.578125)
+		highlight:SetAllPoints()
+		row:SetHighlightTexture(highlight)
+		row:SetCheckedTexture(highlight)
 		
 		WoWPro.rows[i] = row	
 	end
@@ -664,7 +706,7 @@ end
 -- Next Guide Dialog --
 function WoWPro:CreateNextGuideDialog()
 	
-	local frame, titletext = WoWPro:CreateDialogBox("You have completed the current guide.", 150, 180)
+	local frame, titletext = WoWPro:CreateDialogBox("Guide Completed", 180, 150)
 
 	local button1 = CreateFrame("Button", "LoadNextGuide", frame, "OptionsButtonTemplate")
 	button1:SetPoint("BOTTOMLEFT", 10, 80)
@@ -676,8 +718,7 @@ function WoWPro:CreateNextGuideDialog()
 	button1text:SetText("Load Next Guide")
 	button1text:SetTextColor(1, 1, 1)
 	button1:SetScript("OnClick", function(self, button)
-		WoWProDB.char.currentguide = WoWPro.loadedguide["nextGID"]
-		WoWPro:LoadGuide()
+		WoWPro:LoadGuide(WoWPro.Guides[WoWProDB.char.currentguide].nextGID)
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 
@@ -758,8 +799,7 @@ end
 
 -- Creating the addon's frames --
 function WoWPro:CreateFrames()
-	WoWPro:CreateAnchorFrame()
-	WoWPro:CreateMainFrame()
+	
 	WoWPro:CreateResizeButton()
 	WoWPro:CreateTitleBar()
 	WoWPro:CreateStickyFrame()
@@ -816,3 +856,6 @@ function WoWPro:AbleFrames()
 		WoWPro.Titlebar:Hide()
 	end
 end
+
+WoWPro:CreateAnchorFrame()
+WoWPro:CreateMainFrame()

@@ -59,8 +59,8 @@ function WoWPro.Leveling.UpdateGuideList()
 		local function OnClick()
 			if not WoWPro.Leveling:IsEnabled() then return end
 			if IsShiftKeyDown() then
-				WoWPro:LoadGuide(guides[row.i].GID)
 				WoWPro_LevelingDB.guide[guides[row.i].GID] = nil
+				WoWPro:LoadGuide(guides[row.i].GID)
 				for j = 1,WoWPro.stepcount do 
 					WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = nil
 				end

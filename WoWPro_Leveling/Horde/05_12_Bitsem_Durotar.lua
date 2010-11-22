@@ -1,4 +1,4 @@
-WoWPro_Leveling:RegisterGuide('BitDur0512', 'Durotar', 'Bitsem', '5', '12', 'BitAzs1220', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('BitDur0512', 'Durotar', 'Bitsem', '05', '12', 'BitAzs1220', 'Horde', function()
 return [[
 
 A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|

@@ -2,7 +2,7 @@ WoWPro.Leveling:RegisterGuide("JamHel6062", "Hellfire Peninsula", "Jame", "60", 
 return [[
 H Stormwind City|QID|10119|
 R Portal to the Blasted Lands|QID|10119|N|By the Portal Trainer |Z|Stormwind City|M|50.3,86|
-B Nethergarde Bitter |L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. |M|63.50,17.00|
+B Nethergarde Bitter |QID|10119|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. |M|63.50,17.00|
 
 A Through the Dark Portal |QID|10119|M|58.3,55.9|
 R Hellfire Peninsula |QID|10119| |N|Go through the portal. |M|58.70,59.75|
@@ -119,7 +119,7 @@ T Return to Honor Hold |QID|10903|M|54.3,63.6|
 A Fel Spirits |QID|10909|M|54.3,63.6|
 A Digging for Prayer Beads |QID|10916|M|54.3,63.6|
 N Silken Thread|N|Buy a Silken thread from Hama.|L|4291 1|M|54.60,63.70|QID|10916|
-N Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|
+N Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|QID|10916|
 A Hellfire Fortifications |QID|10106|
 N Fei Fei Doggy Treat |QID|10916| |N|Talk to Tracy Proudwell and talk about the dog, and then the treat, and then talk to her again and ask to redeem marks.  Buy a Fei Fei Doggy Treat. | |L|31799 1|M|56.30,62.80|
 N Draenei Prayer Beads |QID|10916| |N|Talk to Fei Fei the dog, turn the treat in, then follow the dog to the cache.  Right-click the cache and loot the Draenei Prayer Beads. The dog is at , and the cache is at (54.1,63.3) behind the inn. You don't have to wait for the dog, but can run to the cache and loot the beads.| |L|31795 1|M|56.40,62.90|

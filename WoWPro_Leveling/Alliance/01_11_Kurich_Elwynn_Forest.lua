@@ -1,11 +1,11 @@
-WoWPro_Leveling:RegisterGuide("KurElw0111", "Elwynn Forest", "Kurich", "01", "11", "", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest", "Kurich", "01", "11", "KurWes1120", "Alliance", function()
 return [[
-A Beating Them Back!|QID||M|48.20,42.06|
-C Beating Them Back!|N|Kill worgs around this location. | |QID||M|46.89,39.09||
-T Beating Them Back!|QID||M|48.93,56.96|
-A Lions For Lambs|QID||M|48.93,56.86|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location. | |QID||M|46.89,39.09
-T Lions For Lambs|QID||M|48.93,56.86|
+A Beating Them Back!|QID|28766|M|48.20,42.06|
+C Beating Them Back!|N|Kill worgs around this location. | |QID|28766|M|46.89,39.09||
+T Beating Them Back!|QID|28766|M|48.93,56.96|
+A Lions For Lambs|QID|28774|M|48.93,56.86|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location. | |QID|28774|M|46.89,39.09
+T Lions For Lambs|QID|28774|M|48.93,56.86|
 
 A Etched Letter|QID|26910|C|Hunter|M|48.20,42.06|
 A Consecrated Letter|QID|3101|C|Paladin|M|48.20,42.06|
@@ -42,29 +42,29 @@ T Charging Into Battle|N|Train new skills while here. | |QID|26913|C|Warrior|M|5
 T The Power Of The Light|N|Train new skills while here. | |QID|26918|C|Paladin|M|50.43,42.12|
 T Mastering The Arcane|N|Train new skills while here. | |QID|26916|C|Mage|M|49.66,39.40|
 T The Hunter's Path|N|Train new skills while here. | |QID|26917|C|Hunter|M|48.55,42.56|
-A Join The Battle!|QID||C|Warlock|M|49.87,42.65|
-A Join The Battle!|QID||C|Rogue|M|50.31,39.92|
-A Join The Battle!|QID||C|Priest|M|49.81,39.49|
-A Join The Battle!|QID||C|Warrior|M|50.24,42.28|
-A Join The Battle!|QID||C|Paladin|M|50.43,42.12|
-A Join The Battle!|QID||C|Mage|M|49.66,39.40|
-A Join The Battle!|QID||C|Hunter|M|48.55,42.56|
-T Join The Battle!|QID||C|Warlock|M|48.81,38.38|
-T Join The Battle!|QID||C|Rogue|M|48.81,38.38|
-T Join The Battle!|QID||C|Priest|M|48.81,38.38|
-T Join The Battle!|QID||C|Warrior|M|48.81,38.38|
-T Join The Battle!|QID||C|Paladin|M|48.81,38.38|
-T Join The Battle!|QID||C|Mage|M|48.81,38.38|
-T Join The Battle!|QID||C|Hunter|M|48.81,38.38|
+A Join The Battle!|QID|28780|C|Warlock|M|49.87,42.65|
+A Join The Battle!|QID|28780|C|Rogue|M|50.31,39.92|
+A Join The Battle!|QID|28780|C|Priest|M|49.81,39.49|
+A Join The Battle!|QID|28780|C|Warrior|M|50.24,42.28|
+A Join The Battle!|QID|28780|C|Paladin|M|50.43,42.12|
+A Join The Battle!|QID|28780|C|Mage|M|49.66,39.40|
+A Join The Battle!|QID|28780|C|Hunter|M|48.55,42.56|
+T Join The Battle!|QID|28780|C|Warlock|M|48.81,38.38|
+T Join The Battle!|QID|28780|C|Rogue|M|48.81,38.38|
+T Join The Battle!|QID|28780|C|Priest|M|48.81,38.38|
+T Join The Battle!|QID|28780|C|Warrior|M|48.81,38.38|
+T Join The Battle!|QID|28780|C|Paladin|M|48.81,38.38|
+T Join The Battle!|QID|28780|C|Mage|M|48.81,38.38|
+T Join The Battle!|QID|28780|C|Hunter|M|48.81,38.38|
 
-A They Sent Assassins|QID||M|48.81,38.38|
-A Fear No Evil|QID||M|48.49,38.20|
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID||M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID||M|48.40,35.79|
-T Fear No Evil|QID||M|48.49,38.20|
-T They Sent Assassins|QID||M|48.81,38.38|
-A The Rear Is Clear|QID||M|48.81,38.38|
-T The Rear Is Clear|QID||M|48.20,42.06|
+A They Sent Assassins|QID|28796|M|48.81,38.38|
+A Fear No Evil|QID|28812|M|48.49,38.20|
+C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28796|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28812|M|48.40,35.79|
+T Fear No Evil|QID|28812|M|48.49,38.20|
+T They Sent Assassins|QID|28796|M|48.81,38.38|
+A The Rear Is Clear|QID|28822|M|48.81,38.38|
+T The Rear Is Clear|QID|28822|M|48.20,42.06|
 A Blackrock Invasion|QID|26389|M|48.20,42.06|
 A Extinguishing Hope|QID|26390|M|48.15,42.52|
 C Extinguishing Hope|N|Extinguish the fires and kill orcs around here. | |U|58362| |QID|26390|M|54.02,48.52|
