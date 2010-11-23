@@ -114,8 +114,8 @@ T Darnassian Intrusions |QID|9352|N|You should be level 7 now.|M|36.7,57.4|
 
 A Fish Heads, Fish Heads... |QID|8884|N|Go around the northside of the mountain.|M|30.2,58.3|
 
-K Grimscale Forager |QID|8884|L|21757 8|N|For the 8 fish heads. |M|27,59.5|
-N Captain Kelisendra's Lost Rutters |QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters. |M|27,59.5|
+C Fish Heads, Fish Heads... |QID|8884|N|Kill murlocs for the 8 fish heads. |M|27,59.5|
+l Captain Kelisendra's Lost Rutters |QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|M|27,59.5|
 A Captain Kelisendra's Lost Rutters |QID|8887|U|21776|M|27.3,57.2|
 
 T Fish Heads, Fish Heads... |QID|8884|M|30.2,58.3|

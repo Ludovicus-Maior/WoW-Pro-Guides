@@ -744,9 +744,10 @@ local function GetLootTrackingInfo(lootitem,lootqty,count)
 	- how many the user needs
 	- a complete symbol if the ammount the user has is equal to the ammount they need 
 ]]
+--	if not GetItemInfo(lootitem) then return "" end
 	local track = "" 												--If the function did have a track string, adds a newline
 	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	numinbag = GetItemCount(lootitem)+(count or 1)		--Finds the number in the bag, and adds a count if supplied
+	numinbag = GetItemCount(lootitem)+(count or 0)		--Finds the number in the bag, and adds a count if supplied
 	track = track..numinbag										--Adds the number in bag to the string
 	track = track.."/"..lootqty								--Adds the total number needed to the string
 	if lootqty == numinbag then
@@ -833,9 +834,11 @@ function WoWPro.Leveling:UpdateQuestTracker()
 		local action = WoWPro.action[index] 
 		local lootitem = WoWPro.lootitem[index] 
 		local lootqty = WoWPro.lootqty[index] 
+					if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
 		local QID = WoWPro.QID[index]
 		-- Setting up quest tracker --
 		row.trackcheck = false
+		local track = ""
 		if WoWProDB.profile.track and ( action == "C" or questtext or lootitem) then
 			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard then
 				local j = WoWPro.QuestLog[QID].index
@@ -871,10 +874,11 @@ function WoWPro.Leveling:UpdateQuestTracker()
 						row.track:SetText(track)
 					end
 				end
-				if lootitem then
-					if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-					track = GetLootTrackingInfo(lootitem,lootqty)
-				end
+			end
+			if lootitem then
+				row.trackcheck = true
+				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
+				track = GetLootTrackingInfo(lootitem,lootqty)
 				row.track:SetText(strtrim(track))
 			end
 		end
