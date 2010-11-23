@@ -212,7 +212,7 @@ function WoWPro.RowSizeSet()
 			row:SetScript("OnLeave", function() end)
 		end
 		
-		if row.trackcheck then
+		if row.trackcheck and row.track:GetText() ~= "" then
 			row.track:Show()
 			row.track:SetPoint("TOPLEFT", row.action, "BOTTOMLEFT", 0, -noteh-5)
 			trackh = row.track:GetHeight()

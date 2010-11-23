@@ -744,7 +744,7 @@ local function GetLootTrackingInfo(lootitem,lootqty,count)
 	- how many the user needs
 	- a complete symbol if the ammount the user has is equal to the ammount they need 
 ]]
---	if not GetItemInfo(lootitem) then return "" end
+	if not GetItemInfo(lootitem) then return "" end
 	local track = "" 												--If the function did have a track string, adds a newline
 	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
 	numinbag = GetItemCount(lootitem)+(count or 0)		--Finds the number in the bag, and adds a count if supplied
@@ -871,7 +871,6 @@ function WoWPro.Leveling:UpdateQuestTracker()
 								end
 							end
 						end
-						row.track:SetText(track)
 					end
 				end
 			end
@@ -879,9 +878,9 @@ function WoWPro.Leveling:UpdateQuestTracker()
 				row.trackcheck = true
 				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
 				track = GetLootTrackingInfo(lootitem,lootqty)
-				row.track:SetText(strtrim(track))
 			end
 		end
+		row.track:SetText(track)
 	end
 	if not InCombatLockdown() then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
 end

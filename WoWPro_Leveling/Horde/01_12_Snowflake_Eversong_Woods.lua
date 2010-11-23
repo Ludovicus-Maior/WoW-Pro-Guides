@@ -137,7 +137,7 @@ T Taking the Fall  |QID|9064|M|55.7,54.5|
 A Swift Discipline |QID|9066|M|55.7,54.5|
 A The Dead Scar |QID|8475|M|50.3,50.8|
 
-C Apprentice Meledor |QID|9066|U|22473|N|Target Apprentice Meledor and Apprentice Ralen, use the rod that Anetheol gave you.  (44.80, 60.90)|M|45.20,56.40|
+C Swift Discipline |QID|9066|U|22473|N|Target Apprentice Meledor and Apprentice Ralen, use the rod that Anetheol gave you.|M|45.20,56.40;44.9,61.0|
 C The Dead Scar |QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers. Take care of a pat of 4-5 ghouls: Don't fight in the center of the Dead Scar. |M|51.2,56.3|
 
 T Swift Discipline |QID|9066|M|55.7,54.5|
