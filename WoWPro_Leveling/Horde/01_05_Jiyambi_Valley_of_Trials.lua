@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('JiyDur0105', 'Durotar - Valley of Trials', 'Jiyambi', '01', '05', 'BitDur0512', 'Horde', function() 
+WoWPro.Leveling:RegisterGuide('JiyDur0105', 'Durotar - Valley of Trials (Orc)', 'Jiyambi', '01', '05', 'BitDur0512', 'Horde', function() 
 return [[
 
 A Your Place In The World|QID|25152|M|43.33,68.81|N|From Kaltunk.|

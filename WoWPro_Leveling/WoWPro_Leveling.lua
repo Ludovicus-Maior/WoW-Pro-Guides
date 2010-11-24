@@ -42,7 +42,7 @@ function WoWPro.Leveling:OnEnable()
 	-- New Level 1 Character --
 	if not WoWProDB.char.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
-			Orc = nil, 
+			Orc = "JiyDur0105", 
 			Troll = "BitDur0105", 
 			Scourge = nil,
 			Tauren = nil,
