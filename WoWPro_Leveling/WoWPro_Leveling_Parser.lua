@@ -863,7 +863,7 @@ function WoWPro.Leveling:UpdateQuestTracker()
 						for m=1,GetNumQuestLeaderBoards(j) do 
 							if GetQuestLogLeaderBoard(m, j) then
 								local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(m, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
-								if itemName and lquesttext:match(itemName) then
+								if itemName and string.gmatch(lquesttext,itemName) then
 									track = "- "..GetQuestLogLeaderBoard(m, j)
 									if select(3,GetQuestLogLeaderBoard(m, j)) then
 										track =  track.." (C)"
