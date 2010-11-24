@@ -141,7 +141,13 @@ T A Bird of Legend|QID|28782|M|55.90,28.32|N|To Jeb Guthrie, back at the Goodgru
 T Ursius|QID|28639|M|55.96,28.13|N|To Francis Morcott.|
 T Shy-Rotam|QID|28742|N|To Jez Goodgrub.|
 T You Gotta Have Eggs|QID|28828|M|56.01,28.17|N|To Jez Goodgrub.|
-H Everlook|QID|28847|M|58.03,63.76|N|If your hearth is down or you didn't set it there, run back.|
+R Winterfall Village|QID|28614|M|65.31,46.14|N|East of Everlook|
+A Bearzerker|QID|28614|M|65.31,46.14|N|From Burndl.|
+A Turning the Earth|QID|28615|M|65.31,46.14|N|From Tanrir.|
+C Turning the Earth|QID|28615|U|64637|M|67.37,50.25|N|Use the totem on Winterfall totems in the village.|
+C Bearzerker|QID|28614|M|69.48,50.50|N|Kill Grolnar the Berserk in the cave at the top of Winterfall Village.|
+T Turning the Earth|QID|28615|M|65.36,46.15|N|To Tanrir.|
+T Bearzerker|QID|28614|M|65.33,46.15|N|To Burndl.|
 R Beryl Egress|QID|28847|M|58.03,63.76|N|South of Everlook.|
 T The Pursuit of Umbranse|QID|28847|M|58.03,63.76|N|To Haleh.|
 A Altered Beasts|QID|28837|PRE|28847|M|55.24,67.70|N|From Haleh.|
@@ -156,7 +162,25 @@ C Razor Beak and Antlers Pointy|QID|28829|S|M|64.30,77.76|N|Kill owlbeasts in th
 C Essence of the Claw-Totem|QID|28839|NC|QO|Essence of the Claw-Totem: 1/1|M|65.1,73.9|N|Right-click the Claw-Totem inside the cave.|
 C Essence of the Life-Totem|QID|28839|NC|QO|Essence of the Life-Totem: 1/1|M|65.6,77.6|N|Right-click the Life-Totem inside the cave.|
 C Essence of the Moon-Totem|QID|28839|NC|QO|Essence of the Moon-Totem: 1/1|M|64.79,81.04|N|Right-click the Moon-Totem inside the cave.|
+T Magic Prehistoric|QID|28839|N|The turn-in should pop up automatically.|
+A Winterwater|QID|28840|PRE|28839|N|The quest should pop up automatically.|
 C Razor Beak and Antlers Pointy|QID|28829|US|N|Kill owlbeasts in the Owl Wing Thicket.|
+T Razor Beak and Antlers Pointy|QID|28829|M|61.92,74.70|N|To Jadrag the Slicer.|
+A Chips off the Old Block|QID|28830|PRE|28829|M|61.92,74.70|N|From Jadrag the Slicer.|
+A Damn You, Frostilicus|QID|28831|PRE|28829|M|61.92,74.70|N|From Jadrag the Slicer.|
+C Chips off the Old Block|QID|28830|M|59.44,80.51|N|Kill frost giants.|
+C Winterwater|QID|28840|S|M|62.47,86.04|N|Kill and loot ice avatars at the bottom of Frostwhisper Gorge.|
+C Damn You, Frostilicus|QID|28831|M|63.14,86.09|N|Frostilicus is at the bottom of Frostwhisper Gorge, on the east side. The ramp down is on the wast side.|
+C Winterwater|QID|28840|US|M|62.47,86.04|N|Kill and loot ice avatars at the bottom of Frostwhisper Gorge.|
+T Chips off the Old Block|QID|28830|M|61.85,74.61|N|To Jadrag the Slicer.|
+T Damn You, Frostilicus|QID|28831|M|61.85,74.61|N|To Jadrag the Slicer.|
+T Winterwater|QID|28840|M|58.04,63.78|N|To Haleh, back at the Beryl Egress.|
+A The Arcane Storm Within|QID|28841|PRE|28840|M|58.04,63.78|N|From Haleh.|
+A Umbranse's Deliverance|QID|28842|PRE|28840|M|58.04,63.78|N|From Haleh.|
+C The Arcane Storm Within|QID|28841|U|66060|M|49.52,70.39|N|In Mazthoril, kill the guardians for each portal, then use the totem to close it.|
+C Umbranse's Deliverance|QID|28842|U|66061|M|49.52,70.39|Z|Mazthoril|N|Kill Umbranse at the bottom of the cave.|
+T The Arcane Storm Within|QID|28841|M|57.99,63.82|N|Use the sigil to return to Haleh.|
+T Umbranse's Deliverance|QID|28842|M|57.99,63.82|N|To Haleh. Congrats on a very nice piece of gear!|
 ]]
 
 end)
