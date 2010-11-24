@@ -71,6 +71,12 @@ local defaults = { profile = {
 	stickytitletextcolor = {1, 1, 1},
 } }
 
+-- Core Tag Setup --
+WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", 
+	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
+	"level", "target", "prof", "rep", "waypcomplete", "rank"  
+}
+
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro:OnInitialize()
 	WoWProDB = LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
@@ -100,11 +106,6 @@ function WoWPro:OnEnable()
 		WoWPro:AbleFrames()
 	end
 	
-	-- Core Tag Setup --
-	WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", 
-		"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
-		"level", "target", "prof", "rep", "waypcomplete", "rank"  
-	}
 	
 	-- Module Enabling --
 	for name, module in WoWPro:IterateModules() do

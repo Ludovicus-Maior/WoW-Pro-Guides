@@ -74,7 +74,8 @@ function WoWPro.Recorder:RegisterGuide(module, zonename, startlevelvalue, endlev
 		endlevel = endlevelvalue,
 		sequence = function() 
 return [[
-N First Step |QID|1|N|This is the first step in your new guide. A guide must always have at least one step. Delete this one when you add your own!|
+
+
 ]] end,
 		nextGID = nextGIDvalue,
 	}
