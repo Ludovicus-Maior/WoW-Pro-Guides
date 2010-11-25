@@ -39,8 +39,9 @@ function WoWPro.Leveling:OnEnable()
 	
 	-- Loading Initial Guide --
 	local locClass, engClass = UnitClass("player")
+	local locRace, engRace = UnitRace("player")
 	-- New Level 1 Character --
-	if not WoWProDB.char.currentguide and UnitLevel("player") == 1 and UnitXP("player") == 0 then
+	if UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
 			Orc = "JiyDur0105", 
 			Troll = "BitDur0105", 
@@ -55,13 +56,12 @@ function WoWPro.Leveling:OnEnable()
 			Human = "KurElw0111",
 			Worgen = "RpoGil0105",
 		}
-		WoWPro:LoadGuide(startguides[engClass])
+		WoWPro:LoadGuide(startguides[engRace])
 	-- New Death Knight --
-	elseif not WoWProDB.char.currentguide and UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
+	elseif UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
 		WoWPro:LoadGuide("JamSca5558")
-	end
 	-- No current guide, but a guide was stored for later use --
-	if WoWProDB.char.lastlevelingguide and not WoWProDB.char.currentguide then
+	elseif WoWProDB.char.lastlevelingguide and not WoWProDB.char.currentguide then
 		WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
 	end
 	

@@ -543,7 +543,6 @@ function WoWPro.Leveling:RowLeftClick(i)
 	WoWPro.rows[i]:SetChecked(nil)
 end
 
-
 -- Event Response Logic --
 function WoWPro.Leveling:EventHandler(self, event, ...)
 
@@ -810,9 +809,10 @@ end
 
 -- Auto-Complete: Level based --
 function WoWPro.Leveling:AutoCompleteLevel(...)
-	local newlevel = ...
+	local newlevel = ... or UnitLevel("player")
 	if WoWPro_LevelingDB.guide then
 		local GID = WoWProDB.char.currentguide
+		if not WoWPro_LevelingDB.guide[GID] then return end
 		for i=1,WoWPro.stepcount do
 			if not WoWPro_LevelingDB.guide[GID].completion[i] 
 				and WoWPro.level[i] 
@@ -893,7 +893,7 @@ function WoWPro.Leveling.GetAvailableSpells(...)
 	while GetSpellBookItemName(i, "spell") do
 		local info = GetSpellBookItemInfo(i, "spell")
 		local name = GetSpellBookItemName(i, "spell")
-		if info == "FUTURESPELL" 
+		if info == "FUTURESPELL" and not "Master Riding" and not "Artisan Riding"
 		and GetSpellAvailableLevel(i, "spell") <= newLevel then
 			table.insert(availableSpells,name)
 			j = j + 1

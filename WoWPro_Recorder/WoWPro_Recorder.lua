@@ -243,6 +243,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				end
 				WoWPro.Recorder.SelectedStep = pos-1
 				WoWPro:UpdateGuide()
+				WoWPro.Recorder:SaveGuide()
 			end},
 			{text = "Move Down", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
@@ -256,6 +257,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				end
 				WoWPro.Recorder.SelectedStep = pos+1
 				WoWPro:UpdateGuide()
+				WoWPro.Recorder:SaveGuide()
 			end},
 			{text = "Clone Step", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
@@ -265,6 +267,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				end
 				WoWPro.stepcount = WoWPro.stepcount+1
 				WoWPro:UpdateGuide()
+				WoWPro.Recorder:SaveGuide()
 			end}
 		}
 		WoWPro.Recorder.RowDropdownMenu[i] = dropdown

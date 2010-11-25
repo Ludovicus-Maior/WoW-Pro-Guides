@@ -1,0 +1,20 @@
+------------------------------------------------------------------------
+r17 | rabbit | 2010-10-31 22:19:21 +0000 (Sun, 31 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/LibDBIcon-1.0/LibDBIcon-1.0.lua
+
+Make sure that we create missing icons when the library is re-enabled.
+------------------------------------------------------------------------
+r16 | rabbit | 2010-10-16 08:16:10 +0000 (Sat, 16 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/LibDBIcon-1.0/LibDBIcon-1.0.lua
+   M /trunk/LibDBIcon-1.0.toc
+
+Add a black background and toc bump.
+------------------------------------------------------------------------
+r15 | rabbit | 2010-09-20 07:25:59 +0000 (Mon, 20 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/LibDBIcon-1.0/LibDBIcon-1.0.lua
+
+Drycoded fixes for elkanos issues.
+------------------------------------------------------------------------

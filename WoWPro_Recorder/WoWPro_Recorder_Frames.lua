@@ -639,6 +639,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					set = function(info,val) 
 							WoWPro.action[WoWPro.Recorder.SelectedStep] = val
 							WoWPro:UpdateGuide();
+							WoWPro.Recorder:SaveGuide()
 						end,
 				}, 
 				rank = {
@@ -660,6 +661,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 							if val == 1 then val = nil else val = tostring(val) end
 							WoWPro.rank[WoWPro.Recorder.SelectedStep] = val
 							WoWPro:UpdateGuide()
+							WoWPro.Recorder:SaveGuide()
 						end,
 				}, 
 				step = {
@@ -673,6 +675,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.step[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				QID = {
@@ -685,6 +688,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.QID[WoWPro.Recorder.SelectedStep] = tonumber(val)
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				note = {
@@ -699,6 +703,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.note[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				comheader = {
@@ -715,6 +720,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					set = function(info,val) 
 						WoWPro.sticky[WoWPro.Recorder.SelectedStep] = val
 						WoWPro:UpdateGuide()
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				unsticky = {
@@ -726,6 +732,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					set = function(info,val) 
 						WoWPro.unsticky[WoWPro.Recorder.SelectedStep] = val
 						WoWPro:UpdateGuide()
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				noncombat = {
@@ -737,6 +744,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					set = function(info,val) 
 						WoWPro.noncombat[WoWPro.Recorder.SelectedStep] = val
 						WoWPro:UpdateGuide()
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				questtext = {
@@ -750,6 +758,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.questtext[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				map = {
@@ -763,6 +772,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.map[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				zone = {
@@ -775,6 +785,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end 
 						WoWPro.zone[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				prereq = {
@@ -787,6 +798,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.prereq[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				opheader = {
@@ -803,6 +815,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					set = function(info,val) 
 						WoWPro.optional[WoWPro.Recorder.SelectedStep] = val
 						WoWPro:UpdateGuide()
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				waypcomplete1 = {
@@ -819,6 +832,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val then val = 1 end
 						WoWPro.prof[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide()
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				waypcomplete2 = {
@@ -835,6 +849,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val then val = 2 end
 						WoWPro.prof[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide()
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				use = {
@@ -847,6 +862,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.use[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				target = {
@@ -860,6 +876,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.target[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				lootitem = {
@@ -872,6 +889,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.lootitem[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				lootqty = {
@@ -884,6 +902,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.lootqty[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				level = {
@@ -896,6 +915,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.level[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				prof = {
@@ -909,6 +929,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end
 						WoWPro.prof[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 				leadin = {
@@ -921,6 +942,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if val == "" then val = nil end 
 						WoWPro.leadin[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide();
+						WoWPro.Recorder:SaveGuide()
 					end,
 				},
 			},

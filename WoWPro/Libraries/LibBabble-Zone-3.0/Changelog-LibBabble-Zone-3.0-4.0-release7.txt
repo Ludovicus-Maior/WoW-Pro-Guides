@@ -1,0 +1,43 @@
+------------------------------------------------------------------------
+r298 | nevcairiel | 2010-11-24 15:11:21 +0000 (Wed, 24 Nov 2010) | 1 line
+Changed paths:
+   A /tags/4.0-release7 (from /trunk:297)
+
+Weekly Tag - #7
+------------------------------------------------------------------------
+r297 | nevcairiel | 2010-11-24 15:09:47 +0000 (Wed, 24 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r296 | nevcairiel | 2010-11-21 16:22:01 +0000 (Sun, 21 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r294 | nevcairiel | 2010-11-15 19:36:05 +0000 (Mon, 15 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r292 | nevcairiel | 2010-11-10 20:19:13 +0000 (Wed, 10 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r291 | nevcairiel | 2010-10-24 09:24:09 +0000 (Sun, 24 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
+r289 | nevcairiel | 2010-10-24 09:04:52 +0000 (Sun, 24 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/LibBabble-Zone-3.0.lua
+
+Automated LibBabble re-generation from the localization system
+------------------------------------------------------------------------
