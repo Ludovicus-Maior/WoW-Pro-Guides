@@ -28,9 +28,9 @@
 -- end
 -- @class file
 -- @name AceAddon-3.0.lua
--- @release $Id: AceAddon-3.0.lua 895 2009-12-06 16:28:55Z nevcairiel $
+-- @release $Id: AceAddon-3.0.lua 980 2010-10-27 14:20:11Z nevcairiel $
 
-local MAJOR, MINOR = "AceAddon-3.0", 5
+local MAJOR, MINOR = "AceAddon-3.0", 10
 local AceAddon, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not AceAddon then return end -- No Upgrade needed.
@@ -153,6 +153,7 @@ function AceAddon:NewAddon(objectorname, ...)
 	setmetatable( object, addonmeta )
 	self.addons[name] = object
 	object.modules = {}
+	object.orderedModules = {}
 	object.defaultModuleLibraries = {}
 	Embed( object ) -- embed NewModule, GetModule methods
 	self:EmbedLibraries(object, select(i,...))
@@ -285,6 +286,7 @@ function NewModule(self, name, prototype, ...)
 	
 	safecall(self.OnModuleCreated, self, module) -- Was in Ace2 and I think it could be a cool thing to have handy.
 	self.modules[name] = module
+	tinsert(self.orderedModules, module)
 	
 	return module
 end
@@ -489,12 +491,14 @@ local pmixins = {
 -- target (object) - target object to embed aceaddon in
 --
 -- this is a local function specifically since it's meant to be only called internally
-function Embed(target)
+function Embed(target, skipPMixins)
 	for k, v in pairs(mixins) do
 		target[k] = v
 	end
-	for k, v in pairs(pmixins) do
-		target[k] = target[k] or v
+	if not skipPMixins then
+		for k, v in pairs(pmixins) do
+			target[k] = target[k] or v
+		end
 	end
 end
 
@@ -547,8 +551,9 @@ function AceAddon:EnableAddon(addon)
 		end
 	
 		-- enable possible modules.
-		for name, module in pairs(addon.modules) do
-			self:EnableAddon(module)
+		local modules = addon.orderedModules
+		for i = 1, #modules do
+			self:EnableAddon(modules[i])
 		end
 	end
 	return self.statuses[addon.name] -- return true if we're disabled
@@ -580,8 +585,9 @@ function AceAddon:DisableAddon(addon)
 			if lib then safecall(lib.OnEmbedDisable, lib, addon) end
 		end
 		-- disable possible modules.
-		for name, module in pairs(addon.modules) do
-			self:DisableAddon(module)
+		local modules = addon.orderedModules
+		for i = 1, #modules do
+			self:DisableAddon(modules[i])
 		end
 	end
 	
@@ -638,5 +644,15 @@ AceAddon.frame:SetScript("OnEvent", onEvent)
 
 -- upgrade embeded
 for name, addon in pairs(AceAddon.addons) do
-	Embed(addon)
+	Embed(addon, true)
+end
+
+-- 2010-10-27 nevcairiel - add new "orderedModules" table
+if oldminor and oldminor < 10 then
+	for name, addon in pairs(AceAddon.addons) do
+		addon.orderedModules = {}
+		for module_name, module in pairs(addon.modules) do
+			tinsert(addon.orderedModules, module)
+		end
+	end
 end

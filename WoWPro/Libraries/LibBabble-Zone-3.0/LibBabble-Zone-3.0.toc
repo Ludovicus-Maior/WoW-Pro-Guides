@@ -1,4 +1,4 @@
-## Interface: 30300
+## Interface: 40000
 ## LoadOnDemand: 1
 ## Title: Lib: Babble-Zone-3.0
 ## Notes: A library to help with localization of Zones.
@@ -9,7 +9,7 @@
 ## X-eMail: ckknight@gmail.com
 ## X-Category: Library
 ## X-License: MIT
-## X-Curse-Packaged-Version: 3.3-release32
+## X-Curse-Packaged-Version: 4.0-release7
 ## X-Curse-Project-Name: LibBabble-Zone-3.0
 ## X-Curse-Project-ID: libbabble-zone-3-0
 ## X-Curse-Repository-ID: wow/libbabble-zone-3-0/mainline

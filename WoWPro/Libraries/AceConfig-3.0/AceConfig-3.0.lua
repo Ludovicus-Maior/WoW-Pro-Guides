@@ -3,7 +3,7 @@
 -- as well as associate it with a slash command.
 -- @class file
 -- @name AceConfig-3.0
--- @release $Id: AceConfig-3.0.lua 877 2009-11-02 15:56:50Z nevcairiel $
+-- @release $Id: AceConfig-3.0.lua 969 2010-10-07 02:11:48Z shefki $
 
 --[[
 AceConfig-3.0
@@ -19,8 +19,8 @@ if not AceConfig then return end
 
 local cfgreg = LibStub("AceConfigRegistry-3.0")
 local cfgcmd = LibStub("AceConfigCmd-3.0")
-local cfgdlg = LibStub("AceConfigDialog-3.0")
---TODO: local cfgdrp = LibStub("AceConfigDropdown-3.0")
+--TODO: local cfgdlg = LibStub("AceConfigDialog-3.0", true)
+--TODO: local cfgdrp = LibStub("AceConfigDropdown-3.0", true)
 
 -- Lua APIs
 local pcall, error, type, pairs = pcall, error, type, pairs
@@ -36,7 +36,7 @@ local pcall, error, type, pairs = pcall, error, type, pairs
 -- You can supply a slash command (or a table of slash commands) to register with AceConfigCmd directly.
 -- @paramsig appName, options [, slashcmd]
 -- @param appName The application name for the config table.
--- @param options The option table (or a function to generate one on demand)
+-- @param options The option table (or a function to generate one on demand).  http://www.wowace.com/addons/ace3/pages/ace-config-3-0-options-tables/
 -- @param slashcmd A slash command to register for the option table, or a table of slash commands.
 -- @usage
 -- local AceConfig = LibStub("AceConfig-3.0")

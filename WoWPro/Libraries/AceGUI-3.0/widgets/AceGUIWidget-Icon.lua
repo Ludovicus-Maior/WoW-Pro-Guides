@@ -1,33 +1,48 @@
-local AceGUI = LibStub("AceGUI-3.0")
+--[[-----------------------------------------------------------------------------
+Icon Widget
+-------------------------------------------------------------------------------]]
+local Type, Version = "Icon", 20
+local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
+if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
 -- Lua APIs
-local select = select
+local select, pairs, print = select, pairs, print
 
 -- WoW APIs
-local CreateFrame, UIParent = CreateFrame, UIParent
+local CreateFrame, UIParent, GetBuildInfo = CreateFrame, UIParent, GetBuildInfo
 
---------------------------
--- Label 	 			--
---------------------------
-do
-	local Type = "Icon"
-	local Version = 12
-	
-	local function OnAcquire(self)
+--[[-----------------------------------------------------------------------------
+Scripts
+-------------------------------------------------------------------------------]]
+local function Control_OnEnter(frame)
+	frame.obj:Fire("OnEnter")
+end
+
+local function Control_OnLeave(frame)
+	frame.obj:Fire("OnLeave")
+end
+
+local function Button_OnClick(frame, button)
+	frame.obj:Fire("OnClick", button)
+	AceGUI:ClearFocus()
+end
+
+--[[-----------------------------------------------------------------------------
+Methods
+-------------------------------------------------------------------------------]]
+local methods = {
+	["OnAcquire"] = function(self)
 		self:SetHeight(110)
 		self:SetWidth(110)
-		self:SetLabel("")
+		self:SetLabel()
 		self:SetImage(nil)
 		self:SetImageSize(64, 64)
-	end
-	
-	local function OnRelease(self)
-		self.frame:ClearAllPoints()
-		self.frame:Hide()
 		self:SetDisabled(false)
-	end
-	
-	local function SetLabel(self, text)
+	end,
+
+	-- ["OnRelease"] = nil,
+
+	["SetLabel"] = function(self, text)
 		if text and text ~= "" then
 			self.label:Show()
 			self.label:SetText(text)
@@ -36,26 +51,23 @@ do
 			self.label:Hide()
 			self:SetHeight(self.image:GetHeight() + 10)
 		end
-	end
-	
-	local function SetImage(self, path, ...)
+	end,
+
+	["SetImage"] = function(self, path, ...)
 		local image = self.image
 		image:SetTexture(path)
 		
 		if image:GetTexture() then
-			self.imageshown = true
-			local n = select('#', ...)
+			local n = select("#", ...)
 			if n == 4 or n == 8 then
 				image:SetTexCoord(...)
 			else
 				image:SetTexCoord(0, 1, 0, 1)
 			end
-		else
-			self.imageshown = nil
 		end
-	end
-	
-	local function SetImageSize(self, width, height)
+	end,
+
+	["SetImageSize"] = function(self, width, height)
 		self.image:SetWidth(width)
 		self.image:SetHeight(height)
 		--self.frame:SetWidth(width + 30)
@@ -64,86 +76,69 @@ do
 		else
 			self:SetHeight(height + 10)
 		end
-	end
-	
-	local function SetDisabled(self, disabled)
+	end,
+
+	["SetDisabled"] = function(self, disabled)
 		self.disabled = disabled
 		if disabled then
 			self.frame:Disable()
-			self.label:SetTextColor(0.5,0.5,0.5)
+			self.label:SetTextColor(0.5, 0.5, 0.5)
 			self.image:SetVertexColor(0.5, 0.5, 0.5, 0.5)
 		else
 			self.frame:Enable()
-			self.label:SetTextColor(1,1,1)
+			self.label:SetTextColor(1, 1, 1)
 			self.image:SetVertexColor(1, 1, 1)
 		end
 	end
-	
-	local function OnClick(this, button)
-		this.obj:Fire("OnClick", button)
-		AceGUI:ClearFocus()
+}
+
+--[[-----------------------------------------------------------------------------
+Constructor
+-------------------------------------------------------------------------------]]
+local function Constructor()
+	local frame = CreateFrame("Button", nil, UIParent)
+	frame:Hide()
+
+	frame:EnableMouse(true)
+	frame:SetScript("OnEnter", Control_OnEnter)
+	frame:SetScript("OnLeave", Control_OnLeave)
+	frame:SetScript("OnClick", Button_OnClick)
+
+	local label = frame:CreateFontString(nil, "BACKGROUND", "GameFontHighlight")
+	label:SetPoint("BOTTOMLEFT")
+	label:SetPoint("BOTTOMRIGHT")
+	label:SetJustifyH("CENTER")
+	label:SetJustifyV("TOP")
+	label:SetHeight(18)
+
+	local image = frame:CreateTexture(nil, "BACKGROUND")
+	image:SetWidth(64)
+	image:SetHeight(64)
+	image:SetPoint("TOP", 0, -5)
+
+	local highlight = frame:CreateTexture(nil, "HIGHLIGHT")
+	highlight:SetAllPoints(image)
+	highlight:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-Tab-Highlight")
+	highlight:SetTexCoord(0, 1, 0.23, 0.77)
+	highlight:SetBlendMode("ADD")
+
+	local widget = {
+		label = label,
+		image = image,
+		frame = frame,
+		type  = Type
+	}
+	for method, func in pairs(methods) do
+		widget[method] = func
 	end
-	
-	local function OnEnter(this)
-		this.obj.highlight:Show()
-		this.obj:Fire("OnEnter")
-	end
-	
-	local function OnLeave(this)
-		this.obj.highlight:Hide()
-		this.obj:Fire("OnLeave")
+	-- SetText is deprecated, but keep it around for a while. (say, to WoW 4.0)
+	if (select(4, GetBuildInfo()) < 40000) then
+		widget.SetText = widget.SetLabel
+	else
+		widget.SetText = function(self, ...) print("AceGUI-3.0-Icon: SetText is deprecated! Use SetLabel instead!"); self:SetLabel(...) end
 	end
 
-	local function Constructor()
-		local frame = CreateFrame("Button",nil,UIParent)
-		local self = {}
-		self.type = Type
-		
-		self.OnRelease = OnRelease
-		self.OnAcquire = OnAcquire
-		self.SetLabel = SetLabel
-		self.frame = frame
-		self.SetImage = SetImage
-		self.SetImageSize = SetImageSize
-		
-		-- SetText should be deprecated along the way
-		self.SetText = SetLabel
-		self.SetDisabled = SetDisabled
-
-		frame.obj = self
-		
-		frame:SetHeight(110)
-		frame:SetWidth(110)
-		frame:EnableMouse(true)
-		frame:SetScript("OnClick", OnClick)
-		frame:SetScript("OnLeave", OnLeave)
-		frame:SetScript("OnEnter", OnEnter)
-		local label = frame:CreateFontString(nil,"BACKGROUND","GameFontHighlight")
-		label:SetPoint("BOTTOMLEFT",frame,"BOTTOMLEFT",0,0)
-		label:SetPoint("BOTTOMRIGHT",frame,"BOTTOMRIGHT",0,0)
-		label:SetJustifyH("CENTER")
-		label:SetJustifyV("TOP")
-		label:SetHeight(18)
-		self.label = label
-		
-		local image = frame:CreateTexture(nil,"BACKGROUND")
-		self.image = image
-		image:SetWidth(64)
-		image:SetHeight(64)
-		image:SetPoint("TOP",frame,"TOP",0,-5)
-		
-		local highlight = frame:CreateTexture(nil,"OVERLAY")
-		self.highlight = highlight
-		highlight:SetAllPoints(image)
-		highlight:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-Tab-Highlight")
-		highlight:SetTexCoord(0,1,0.23,0.77)
-		highlight:SetBlendMode("ADD")
-		highlight:Hide()
-		
-		AceGUI:RegisterAsWidget(self)
-		return self
-	end
-	
-	AceGUI:RegisterWidgetType(Type,Constructor,Version)
+	return AceGUI:RegisterAsWidget(widget)
 end
 
+AceGUI:RegisterWidgetType(Type, Constructor, Version)

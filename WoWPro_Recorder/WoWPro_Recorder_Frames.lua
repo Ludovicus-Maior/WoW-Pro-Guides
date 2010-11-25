@@ -98,7 +98,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	CreateStopButton()
 
 	-- AddButton --
-	local function CreateSubtractButton()
+	local function CreateAddButton()
 		WoWPro.AddButton = CreateButton("AddButton", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Add.tga", WoWPro.StopButton)
 		-- Scripts --
 		WoWPro.AddButton:SetScript("OnMouseUp", function(self, button)
@@ -508,6 +508,18 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					name = "Register Step",
 					width = "full",
 					func = function(info,val) 
+						if not WoWPro.Recorder.stepInfo.action then
+								WoWPro:Print("Looks like your step is missing an action type! We can't register it without one. Please fill that out and try again.")
+								return 
+						end
+						if not WoWPro.Recorder.stepInfo.step then
+								WoWPro:Print("Looks like your step is missing step text! We can't register it without it. Please fill that out and try again.")
+								return 
+						end
+						if not WoWPro.Recorder.stepInfo.QID then
+								WoWPro:Print("Looks like your step is missing a QID! We can't register it without one. Please fill that out and try again.")
+								return 
+						end
 						WoWPro.Recorder:AddStep(WoWPro.Recorder.stepInfo)
 						WoWPro.Recorder.stepInfo = {}
 						WoWPro.Recorder.QIDtoAdd = nil
@@ -519,7 +531,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 		})
 		dialog:SetDefaultSize("WoWPro Recorder - Add Step - Edit Step", 575, 775)
 	end
-	CreateSubtractButton()
+	CreateAddButton()
 
 	-- SubtractButton --
 	local function CreateSubtractButton()
@@ -1050,7 +1062,9 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					type = "input",
 					name = "Zone Name:",
 					desc = "The zone where the guide takes place.",
-					get = function(info) return WoWPro.Recorder.CurrentGuide.Zone or GetZoneText() end,
+					get = function(info) 
+						WoWPro.Recorder.CurrentGuide.Zone = WoWPro.Recorder.CurrentGuide.Zone or GetZoneText()
+						return WoWPro.Recorder.CurrentGuide.Zone end,
 					set = function(info,val) WoWPro.Recorder.CurrentGuide.Zone = val end,
 				},
 				authorname = {
@@ -1058,7 +1072,9 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					type = "input",
 					name = "Author Name:",
 					desc = "The author of the original guide.",
-					get = function(info) return WoWPro.Recorder.CurrentGuide.Author or GetUnitName("player") end,
+					get = function(info) 
+						WoWPro.Recorder.CurrentGuide.Author = WoWPro.Recorder.CurrentGuide.Author or GetUnitName("player")
+						return WoWPro.Recorder.CurrentGuide.Author end,
 					set = function(info,val) WoWPro.Recorder.CurrentGuide.Author = val end,
 				},
 				startlevel = {
@@ -1109,7 +1125,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 								or not WoWPro.Recorder.CurrentGuide.StartLvl or not WoWPro.Recorder.CurrentGuide.EndLvl
 								or not WoWPro.Recorder.CurrentGuide.Author or not WoWPro.Recorder.CurrentGuide.GID
 								or not WoWPro.Recorder.CurrentGuide.NextGID then
-									WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out all the fields. Make sure you press 'Enter' for every single one, even the ones that were automatically filled out!")
+									WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out all the fields.")
 									return 
 							end
 							WoWPro.Recorder:RegisterGuide(WoWPro.Recorder.CurrentGuide.Type, 

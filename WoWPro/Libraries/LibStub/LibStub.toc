@@ -5,9 +5,5 @@
 ## X-Website: http://jira.wowace.com/browse/LS
 ## X-Category: Library
 ## X-License: Public Domain	
-## X-Curse-Packaged-Version: r237-release
-## X-Curse-Project-Name: TomTom
-## X-Curse-Project-ID: tomtom
-## X-Curse-Repository-ID: wow/tomtom/mainline
 
 LibStub.lua

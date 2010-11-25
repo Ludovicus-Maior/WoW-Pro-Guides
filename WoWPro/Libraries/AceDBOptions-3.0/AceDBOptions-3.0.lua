@@ -1,8 +1,8 @@
 --- AceDBOptions-3.0 provides a universal AceConfig options screen for managing AceDB-3.0 profiles.
 -- @class file
 -- @name AceDBOptions-3.0
--- @release $Id: AceDBOptions-3.0.lua 895 2009-12-06 16:28:55Z nevcairiel $
-local ACEDBO_MAJOR, ACEDBO_MINOR = "AceDBOptions-3.0", 11
+-- @release $Id: AceDBOptions-3.0.lua 938 2010-06-13 07:21:38Z nevcairiel $
+local ACEDBO_MAJOR, ACEDBO_MINOR = "AceDBOptions-3.0", 12
 local AceDBOptions, oldminor = LibStub:NewLibrary(ACEDBO_MAJOR, ACEDBO_MINOR)
 
 if not AceDBOptions then return end -- No upgrade needed
@@ -30,7 +30,7 @@ local L = {
 	reset_desc = "Reset the current profile back to its default values, in case your configuration is broken, or you simply want to start over.",
 	reset = "Reset Profile",
 	reset_sub = "Reset the current profile to the default",
-	choose_desc = "You can either create a new profile by entering a name in the editbox, or choose one of the already exisiting profiles.",
+	choose_desc = "You can either create a new profile by entering a name in the editbox, or choose one of the already existing profiles.",
 	new = "New",
 	new_sub = "Create a new empty profile.",
 	choose = "Existing Profiles",

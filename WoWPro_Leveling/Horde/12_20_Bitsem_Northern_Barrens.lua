@@ -1,7 +1,7 @@
 WoWPro.Leveling:RegisterGuide('BitNor1220', 'Northern Barrens', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
 return [[
 
-A Plainstrider Menace|QID|M|67.41,38.77|RANK|1|N|From Halga Bloodeye.|
+A Plainstrider Menace|QID|844|M|67.41,38.77|RANK|1|N|From Halga Bloodeye.|
 A In Defense of Far Watch|QID|871|RANK|1|N|From Kargal Battlescar.|
 C In Defense of Far Watch|QID|871|S|N|Kill Plainstriders while slaying Razormanes.|
 A Through Fire and Flames|QID|13878|RANK|1|N|From Dorak.|
