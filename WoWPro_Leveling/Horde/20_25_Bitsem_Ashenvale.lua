@@ -3,7 +3,7 @@ return [[
 
 f The Mor'shan Rampart|QID|6441|M|41.97,15.84|Z|Northern Barrens|N|At Gort Goreflight.|
 A Rescue the Fallen|QID|13613|RANK|1|M|42.42,15.76|Z|Northern Barrens|N|From Dinah Halfmoon.|
-A Mor'shan Defense|QID||13612|RANK|1|M|42.73,15.06|Z|Northern Barrens|N|From Kadrak.|
+A Mor'shan Defense|QID|13612|RANK|1|M|42.73,15.06|Z|Northern Barrens|N|From Kadrak.|
 A Find Gorat!|QID|13618|RANK|1|M|42.73,15.06|Z|Northern Barrens|N|From Kadrak.|
 A Empty Quivers|QID|13615|RANK|1|M|42.23,15.22|Z|Northern Barrens|N|From Truun.|
 
