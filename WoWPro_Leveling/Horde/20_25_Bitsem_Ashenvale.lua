@@ -174,7 +174,7 @@ C Vorsha the Lasher|QID|6641|NC|M|9.58,27.88|Escort quest. Follow Muglash and he
 
 C Lousy Pieces of Ship|QID|13883|S|M|5.00,31.12|N|Collect Sunken Ship Parts and kill 10 hydras for blubber.|
 C Keep the Fires Burning|QID|13890|M|11.44,35.23;6.74,28.97|N|Take 10 Blubber to the Forge and turn it into Mystlash Hydra Oil. Go light the Lighthouse.|
-C Lousy Pieces of Ship|QID|13883US||M|5.00,31.12|N|Finish collecting Ship Parts.|
+C Lousy Pieces of Ship|QID|13883|US|M|5.00,31.12|N|Finish collecting Ship Parts.|
 
 T Vorsha the Lasher|QID|6641|M|12.42,35.15|N|To Warsong Runner.|
 T Keep the Fires Burning|QID|13890|M|12.08,33.82|N|To Commander Grimfang.|
