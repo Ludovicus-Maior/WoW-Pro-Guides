@@ -1,11 +1,11 @@
 WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest (Human)", "Kurich", "01", "11", "KurWes1120", "Alliance", function()
 return [[
-A Beating Them Back!|QID|28766|M|48.20,42.06|
-C Beating Them Back!|N|Kill worgs around this location. | |QID|28766|M|46.89,39.09||
-T Beating Them Back!|QID|28766|M|48.93,56.96|
-A Lions For Lambs|QID|28774|M|48.93,56.86|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location. | |QID|28774|M|46.89,39.09
-T Lions For Lambs|QID|28774|M|48.93,56.86|
+A Beating Them Back!|QID|28767|M|48.20,42.06|
+C Beating Them Back!|N|Kill worgs around this location. | |QID|28767|M|46.89,39.09||
+T Beating Them Back!|QID|28767|M|48.20,42.06|
+A Lions For Lambs|QID|28759|M|48.20,42.06|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location. | |QID|28759|M|46.89,39.09|
+T Lions For Lambs|QID|28759|M|48.20,42.06|
 
 A Etched Letter|QID|26910|C|Hunter|M|48.20,42.06|
 A Consecrated Letter|QID|3101|C|Paladin|M|48.20,42.06|
@@ -57,22 +57,23 @@ T Join The Battle!|QID|28780|C|Paladin|M|48.81,38.38|
 T Join The Battle!|QID|28780|C|Mage|M|48.81,38.38|
 T Join The Battle!|QID|28780|C|Hunter|M|48.81,38.38|
 
-A They Sent Assassins|QID|28796|M|48.81,38.38|
-A Fear No Evil|QID|28812|M|48.49,38.20|
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28796|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28812|M|48.40,35.79|
-T Fear No Evil|QID|28812|M|48.49,38.20|
-T They Sent Assassins|QID|28796|M|48.81,38.38|
-A The Rear Is Clear|QID|28822|M|48.81,38.38|
-T The Rear Is Clear|QID|28822|M|48.20,42.06|
+A They Sent Assassins|QID|28791|M|48.81,38.38|
+A Fear No Evil|QID|28806|M|48.49,38.20|
+C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28791|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28806|M|48.40,35.79|
+T Fear No Evil|QID|28806|M|48.49,38.20|
+T They Sent Assassins|QID|28791|M|48.81,38.38|
+A The Rear Is Clear|QID|28817|M|48.81,38.38|
+T The Rear Is Clear|QID|28817|M|48.20,42.06|
 A Blackrock Invasion|QID|26389|M|48.20,42.06|
-A Extinguishing Hope|QID|26390|M|48.15,42.52|
-C Extinguishing Hope|N|Extinguish the fires and kill orcs around here. | |U|58362| |QID|26390|M|54.02,48.52|
+A Extinguishing Hope|QID|26391|M|48.15,42.52|
+C Extinguishing Hope|N|Extinguish the fires and kill orcs around here. | |U|58362| |QID|26391|M|54.02,48.52|
 C Blackrock Invasion|N|Kill Orcs until you have 8 Blackrock Weapons. | |QID|26389|M|54.02,48.52|
-T Extinguishing Hope|QID|26390|M|48.15,42.52|
+T Extinguishing Hope|QID|26391|M|48.15,42.52|
 T Blackrock Invasion|QID|26389|M|48.20,42.06|
-A Ending The Invasion|QID|26930|M|48.20,42.06|
-C Ending The Invasion|N|Kill Kurtok The Slayer. | |T|Kurtok The Slayer|QID|26930|M|
+
+A Ending The Invasion|QID|26390|M|48.20,42.06|
+C Ending The Invasion|N|Kill Kurtok The Slayer.|QID|26390|M|56.90, 40.81|
 H Northshire Valley|QID|26390|U|6948|
 T Ending The Invasion|QID|26390|M|48.20,42.06|
 A Report To Goldshire|QID|54|M|48.20,42.06|
@@ -80,7 +81,7 @@ A Rest And Relaxtion|QID|2158|M|45.56,47.74|
 
 f Lion's Pride Inn|QID|2158|M|41.72,64.64|
 T Rest And Relaxation|QID|2158|M|43.77,65.80|
-h Goldshire|QID|47|M|43.77,65.80|
+h Lion's Pride Inn|QID|47|M|43.77,65.80|
 A Kobold Candles|QID|60|M|43.32,65.71|
 T Report To Goldshire|QID|54|M|42.11,65.92|
 A The Fargodeep Mines|QID|62|M|42.11,65.92|
@@ -130,15 +131,17 @@ A The Escape|QID|114|M|43.32,65.70|
 T The Jasperlode Mine|QID|76|M|42.11,65.93|
 r Sell Junk,Restock,Train and Repair. | |QID|114|
 
-N Talk to Marshal Dughan and ask for a ride with the Stormwind Charger. | |QID|114|M|42.11,65.93|
+N Marshal Dughan |N|Talk to Marshal Dughan and ask for a ride with the Stormwind Charger. | |QID|114|M|42.11,65.93|
 A Bounty On Murlocs|QID|46|M|74.03,72.32|
 A Wanted:James Clark|QID|26152|M|74.03,72.32|
 T Further Concerns|QID|35|M|73.97,72.18|
 A Find The Lost Guards|QID|37|M|73.97,72.18|
 A Protect The Frontier|QID|52|M|73.97,72.18|
+C Protect The Frontier|QID|52|M|73.97,72.18|S|
 T Find The Lost Guards|N|Kill Bears and Wolves as you go. | |QID|37|M|72.66,60.33|
 A Discover Rolf's Fate|QID|45|M|72.66,60.33|
-T Discover Rolf's Fate|N|Kill Murlocs and pickup their Murloc Fins as you go. | |QID|45|M|79.80,55.50|
+C Bounty On Murlocs|QID|46|S|
+T Discover Rolf's Fate|QID|45|M|79.80,55.50|
 A Report To Thomas|QID|71|M|79.80,55.50|
 C Wanted:James Clark|N|Kill James clark and pickup his head and the Gold Pickup Schedule. | |T|James Clark|QID|26152|M|78.66,67.16|
 A The Collector|N|Get this from the Gold Pickup Schedule in your bags. | |U|1307|QID|123|
@@ -150,11 +153,11 @@ A Manhunt|QID|147|M|81.86,66.04|
 f Eastvale Logging Camp|QID|147|M|81.83,66.56|
 r Sell Junk and Repair. | |QID|147|
 
-C Bounty on Murlocs|N|Gather wood while walking there.Kill Murlocs until you have 8 Murloc Fins.|QID|46|M|79.51,56.00|
+C Bounty on Murlocs|N|Gather wood while walking there.Kill Murlocs until you have 8 Murloc Fins.|QID|46|M|79.51,56.00|US|
 C A Bundle Of Trouble|N|Collect 8 Bundles Of Wood and kill Bears and Wolves as you go. | |QID|5545|M|80.75,61.33|
 T A Bundle Of Trouble|QID|5545|M|81.38,66.11|
-C Protect The Frontier|N|Kill the remaining wolves and Bears you need to finnish the quest. | |QID|52|M|87.55,67.79|
-N If you want the explorer's achievement go to Ridgepoint Tower now. | |QID|147|M|83.99,78.92|
+C Protect The Frontier|N|Kill the remaining wolves and Bears you need to finnish the quest. | |QID|52|M|87.55,67.79|US|
+R Ridgepoint Tower|N|If you want the explorer's achievement go to Ridgepoint Tower now. | |QID|147|M|83.99,78.92|
 T Protect The Frontier|QID|52|M|73.97,72.18|
 T Bounty On Murlocs|QID|46|M|73.97,72.18|
 T Report To Thomas|QID|71|M|73.97,72.18|
@@ -168,20 +171,20 @@ F Goldshire|QID|114|M|81.86,66.04|
 r Sell Junk, Restock, Train and Repair. | |QID|114|
 
 T The Escape|QID|114|M|43.15,89.63|
-N If you want the exploration achievement for Elwynn Forest head to Jerod's Landing now. | |QID|114|M|46.42,86.90|
+R Jerod's Landing |N|If you want the exploration achievement for Elwynn Forest head to Jerod's Landing now. | |QID|114|M|46.42,86.90|
 H Lion's Pride Inn|QID|114|U|6948|
 A Elmore's task|QID|1097|M|41.71,65.55|
 A A Swift Message|QID|26393|M|41.71,65.55|
 T A Swift Message|QID|26393|M|41.72,64.64|
 A Continue To Stormwind|QID|26394|M|41.72,64.64|
-F Stormwind|QID|26394|M|41.72,64.64|
-T Continue To Stormwind|QID|26393|Z|Stormwind City|M|77.17,60.98|
+F Trade District|QID|26394|M|41.72,64.64|
+T Continue To Stormwind|QID|26394|Z|Stormwind City|M|77.17,60.98|
 A Dungar Longdrink|QID|26395|Z|Stormwind City|M|77.17,60.98|
-T Elmore's Task|QID|114|Z|Stormwind City|M|59.72,33.78|
+T Elmore's Task|QID|1097|Z|Stormwind City|M|59.72,33.78|
 T Dungar Longdrink|QID|26395|Z|Stormwind City|M|70.93,72.48|
 A Return To Argus|QID|26396|Z|Stormwind City|M|70.93,72.48|
 F Goldshire|QID|26396|Z|Stormwind city|M|70.93,72.48|
-T Return To Argus|QID|26395|M|41.71,65.55|
+T Return To Argus|QID|26396|M|41.71,65.55|
 A Westbrook Garrison Needs Help!|QID|239|M|42.10,65.93|
 A Hero's Call: Westfall!|QID|26378|M|42.10,65.93|
 A Princess Must Die!|QID|88|M|34.66,84.48|
