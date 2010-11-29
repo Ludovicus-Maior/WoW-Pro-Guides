@@ -93,41 +93,41 @@ L Level 17|QID|27232|LVL|17|N|You should be around level 17 by this point.|
 T The Waters Run Red...|QID|27232|M|45.78,41.92|N|To Admiral Hatchet.|
 T Hair of the Dog|QID|27226|M|45.77,41.90|N|To Warlord Torok.|
 A To Forsaken Forward Command|QID|27290|M|44.69,41.52|
-T To Forsaken Forward Command|QID|27290|M|57.40,18.91|Zuins of Gilneas|N|To Deathstalker Commander Belmont.|
-A In Time, All Will Be Revealed|QID|27342|M|57.40,18.91|Zuins of Gilneas|N|From Deathstalker Commander Belmont.|
-A Losing Ground|QID|27333|M|57.48,18.28|Zuins of Gilneas|N|From Forward Commander Onslaught.|
-A The F.C.D.|QID|27345|M|57.48,18.28|Zuins of Gilneas|N|From Forward Commander Onslaught.|
-f Forsaken Forward Command|QID|27345|M|57.29,17.84|Zuins of Gilneas|N|At Bat Handler Doomair.|
-C In Time, All Will Be Revealed|QID|27342|M|68.33,29.60|Zuins of Gilneas|
-C Losing Ground|QID|27333|M|54.87,16.50|Zuins of Gilneas|
-C The F.C.D.|QID|27345|M|45.81,21.95|Zuins of Gilneas|
-T Losing Ground|QID|27333|M|57.57,18.21|Zuins of Gilneas|N|To Forward Commander Onslaught.|
-T The F.C.D.|QID|27345|M|57.57,18.21|Zuins of Gilneas|N|To Forward Commander Onslaught.|
-T In Time, All Will Be Revealed|QID|27342|M|57.44,18.68|Zuins of Gilneas|N|To Deathstalker Commander Belmont.|
-A Break in Communications: Dreadwatch Outpost|QID|27349|M|57.48,18.38|Zuins of Gilneas|N|From Forward Commander Onslaught.|
-C Break in Communications: Dreadwatch Outpost|QID|27349|NC|M|51.77,32.08|Zuins of Gilneas|
-T Break in Communications: Dreadwatch Outpost|QID|27349|M|51.83,32.24|Zuins of Gilneas|
-A Break in Communications: Rutsak's Guard|QID|27350|M|51.83,32.24|Zuins of Gilneas|
-T Break in Communications: Rutsak's Guard|QID|27350|M|65.65,34.10|Zuins of Gilneas|N|To Captain Rutsak.|
-A Vengeance for Our Soldiers|QID|27360|M|65.65,34.17|Zuins of Gilneas|N|From Captain Rutsak.|
-A On Whose Orders?|QID|27364|M|65.67,34.31|Zuins of Gilneas|N|From Captain Rutsak.|
-C Vengeance for Our Soldiers|QID|27360|M|58.56,41.09|Zuins of Gilneas|
-C On Whose Orders?|QID|27364|M|57.83,44.57|Zuins of Gilneas|
-T On Whose Orders?|QID|27364|M|57.68,44.31|Zuins of Gilneas|
-A What Tomorrow Brings|QID|27401|M|57.68,44.31|Zuins of Gilneas|
-C What Tomorrow Brings|QID|27401|M|53.40,43.11|Zuins of Gilneas|
+T To Forsaken Forward Command|QID|27290|M|57.40,18.91|Z|Ruins of Gilneas|N|To Deathstalker Commander Belmont.|
+A In Time, All Will Be Revealed|QID|27342|M|57.40,18.91|Z|Ruins of Gilneas|N|From Deathstalker Commander Belmont.|
+A Losing Ground|QID|27333|M|57.48,18.28|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
+A The F.C.D.|QID|27345|M|57.48,18.28|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
+f Forsaken Forward Command|QID|27345|M|57.29,17.84|Z|Ruins of Gilneas|N|At Bat Handler Doomair.|
+C In Time, All Will Be Revealed|QID|27342|M|68.33,29.60|Z|Ruins of Gilneas|
+C Losing Ground|QID|27333|M|54.87,16.50|Z|Ruins of Gilneas|
+C The F.C.D.|QID|27345|M|45.81,21.95|Z|Ruins of Gilneas|
+T Losing Ground|QID|27333|M|57.57,18.21|Z|Ruins of Gilneas|N|To Forward Commander Onslaught.|
+T The F.C.D.|QID|27345|M|57.57,18.21|Z|Ruins of Gilneas|N|To Forward Commander Onslaught.|
+T In Time, All Will Be Revealed|QID|27342|M|57.44,18.68|Z|Ruins of Gilneas|N|To Deathstalker Commander Belmont.|
+A Break in Communications: Dreadwatch Outpost|QID|27349|M|57.48,18.38|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
+C Break in Communications: Dreadwatch Outpost|QID|27349|NC|M|51.77,32.08|Z|Ruins of Gilneas|
+T Break in Communications: Dreadwatch Outpost|QID|27349|M|51.83,32.24|Z|Ruins of Gilneas|
+A Break in Communications: Rutsak's Guard|QID|27350|M|51.83,32.24|Z|Ruins of Gilneas|
+T Break in Communications: Rutsak's Guard|QID|27350|M|65.65,34.10|Z|Ruins of Gilneas|N|To Captain Rutsak.|
+A Vengeance for Our Soldiers|QID|27360|M|65.65,34.17|Z|Ruins of Gilneas|N|From Captain Rutsak.|
+A On Whose Orders?|QID|27364|M|65.67,34.31|Z|Ruins of Gilneas|N|From Captain Rutsak.|
+C Vengeance for Our Soldiers|QID|27360|M|58.56,41.09|Z|Ruins of Gilneas|
+C On Whose Orders?|QID|27364|M|57.83,44.57|Z|Ruins of Gilneas|
+T On Whose Orders?|QID|27364|M|57.68,44.31|Z|Ruins of Gilneas|
+A What Tomorrow Brings|QID|27401|M|57.68,44.31|Z|Ruins of Gilneas|
+C What Tomorrow Brings|QID|27401|M|53.40,43.11|Z|Ruins of Gilneas|
 L Level 18|QID|27401|LVL|18|N|You should be around level 18 by this point.|
-T What Tomorrow Brings|QID|27401|M|54.72,44.45|Zuins of Gilneas|
-A Fall Back!|QID|27405|M|54.72,44.45|Zuins of Gilneas|
-T Vengeance for Our Soldiers|QID|27360|M|65.65,34.21|Zuins of Gilneas|N|To Captain Rutsak.|
-T Fall Back!|QID|27405|M|72.89,30.17|Zuins of Gilneas|N|To Deathstalker Commander Belmont.|
-A A Man Named Godfrey|QID|27406|M|72.89,30.17|Zuins of Gilneas|
-A Resistance is Futile|QID|27423|M|73.35,31.03|Zuins of Gilneas|
-C Resistance is Futile|QID|27423|M|77.02,52.70|Zuins of Gilneas|
-T Resistance is Futile|QID|27423|M|77.47,53.01|Zuins of Gilneas|
-C A Man Named Godfrey|QID|27406|M|79.77,75.77|Zuins of Gilneas|
-T A Man Named Godfrey|QID|27406|M|79.77,75.77|Zuins of Gilneas|
-A The Great Escape|QID|27438|M|79.77,75.77|Zuins of Gilneas|N|From Deathstalker Commander Belmont.|
+T What Tomorrow Brings|QID|27401|M|54.72,44.45|Z|Ruins of Gilneas|
+A Fall Back!|QID|27405|M|54.72,44.45|Z|Ruins of Gilneas|
+T Vengeance for Our Soldiers|QID|27360|M|65.65,34.21|Z|Ruins of Gilneas|N|To Captain Rutsak.|
+T Fall Back!|QID|27405|M|72.89,30.17|Z|Ruins of Gilneas|N|To Deathstalker Commander Belmont.|
+A A Man Named Godfrey|QID|27406|M|72.89,30.17|Z|Ruins of Gilneas|
+A Resistance is Futile|QID|27423|M|73.35,31.03|Z|Ruins of Gilneas|
+C Resistance is Futile|QID|27423|M|77.02,52.70|Z|Ruins of Gilneas|
+T Resistance is Futile|QID|27423|M|77.47,53.01|Z|Ruins of Gilneas|
+C A Man Named Godfrey|QID|27406|M|79.77,75.77|Z|Ruins of Gilneas|
+T A Man Named Godfrey|QID|27406|M|79.77,75.77|Z|Ruins of Gilneas|
+A The Great Escape|QID|27438|M|79.77,75.77|Z|Ruins of Gilneas|N|From Deathstalker Commander Belmont.|
 C The Great Escape|QID|27438|NC|M|51.82,66.59|
 T The Great Escape|QID|27438|M|51.78,66.09|N|To Lady Sylvanas Windrunner.|
 A Rise, Godfrey|QID|27472|M|51.78,66.09|
