@@ -360,7 +360,7 @@ function WoWPro:MapPoint(row)
 			if TomTom or Carbonite then
 				local uid
 				
-				uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, true, nil, nil, WoWProMapping_callbacks_tomtom)
+				uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, false, nil, nil, WoWProMapping_callbacks_tomtom)
 				
 				waypoint.uid = uid
 				waypoint.index = i
@@ -378,14 +378,17 @@ function WoWPro:MapPoint(row)
 			if autoarrival == 1 then
 				TomTom.db.profile.arrow.setclosest = true
 				local closest_uid = TomTom:GetClosestWaypoint()
-				local iactual
-				for i,waypoint in ipairs(cache) do
-					if (waypoint.uid == closest_uid) then 
-						iactual = i break end
-				end
+				
+				if closest_uid then
+					local iactual
+					for i,waypoint in ipairs(cache) do
+						if (waypoint.uid == closest_uid) then 
+							iactual = i break end
+					end
 
-				for i=iactual+1,#cache,1 do
-					TomTom:RemoveWaypoint(cache[i].uid) 
+					for i=iactual+1,#cache,1 do
+						TomTom:RemoveWaypoint(cache[i].uid) 
+					end
 				end
 			
 			elseif autoarrival == 2 then
