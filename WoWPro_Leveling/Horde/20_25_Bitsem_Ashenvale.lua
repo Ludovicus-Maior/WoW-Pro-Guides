@@ -72,6 +72,7 @@ C Destroy the Legion|QID|26448|S|M|84.07,70.30|N|Slay any 15 demons and collect 
 C Playing With Felfire|QID|13730|U|45478|M|79.84,64.72|N|Fill the Reinforced Canister with 7 Felfires from Felfire Hill.|
 C Destroy the Legion|QID|26448|US|M|84.07,70.30|N|Slay any 15 demons at Felfire Hill, Demon Fall Canyon, or Demon Fall Ridge.|
 A Diabolical Plans|QID|26447|RANK|1|M|80.81,68.51|
+A Sharptalon's Claw|QID|2|RANK|2|U|16305|M|75.52,70.28|N|Keep your eye out for a blue hippogryph.|
 C Ashenvale Outrunners|QID|6503|US|M|75.52,70.28|N|Finish killing Ashenvale Outrunners.|
 
 H Splintertree Post|QID|6503|
@@ -229,6 +230,7 @@ T Between a Rock and a Thistlefur|QID|216|M|37.84,43.41|N|To Karang Amakkar.|
 F Silverwind Refuge|QID|13974|N|Fly to Silverwind Refuge.|
 
 A We're Here to Do One Thing, Maybe Two...|QID|25945|RANK|1|M|49.88,65.67|N|Accept if you plan on going to Stonetalon Mountains, don't get on the caravan until you're ready to leave Ashenvale. From Blood Guard Aldo Rockrain.|
+T Sharptalon's Claw|QID|2|RANK|2|M|49.76,65.13|N|To Senani Thunderheart.|
 A Thinning the... Herd?|QID|13967|RANK|2|M|49.76,65.13|N|From Senani Thunderheart.|
 T Tweedle's Tiny Package|QID|13974|M|49.98,67.17|N|To Flooz.|
 A Mass Production|QID|13977|RANK|2|M|49.98,67.25|
@@ -254,6 +256,7 @@ A They're Out There!|QID|13980|PRE|13977|RANK|2|M|46.12,63.25|N|From Foreman Jin
 A Building Your Own Coffin|QID|13983|RANK|2|M|46.12,63.25|N|From Foreman Jinx.|
 
 C They're Out There!|QID|13980|S|U|46776|M|41.25,68.99|N|Collect parts while killing Assassins. Use Jinx's Goggles to be able to see them.|
+A Ursangous's Paw|QID|23|RANK|2|U|16303|M|41.25,68.99|N|Look for a black night elf druid bear in this area.|
 C Building Your Own Coffin|QID|13983|M|37.38,71.32|
 C They're Out There!|QID|13980|US|U|46776|M|41.25,68.99|N|Use Jinx's Goggles to be able to see them.|
 
@@ -277,6 +280,7 @@ T Vortex|QID|13888|M|52.06,56.46|N|To Stikwad.|
 
 T Condition Critical!|QID|13958|M|60.65,52.70|N|To Thagg.|
 A Stalemate|QID|13962|PRE|13958|RANK|2|M|60.65,52.70|N|From Thagg.|
+A Shadumbra's Head|QID|24|RANK|2|U|16304|M|62.06,51.25|N|Keep an eye out for a black panther in this area.|
 C Stalemate|QID|13962|M|62.06,51.25|N|Go to the top floor of nearby building and slay Keeper Ordanus.|
 T Stalemate|QID|13962|M|60.70,52.71|N|To Thagg.|
 
@@ -284,7 +288,11 @@ C King of the Foulweald|QID|6621|U|16972|M|56.37,63.49|N|Use Senani's Banner on 
 
 H Silverwind Refuge|QID|6621|N|Hearth to Silverwind Refuge
 
+T Ursangous's Paw|QID|23|RANK|2|M|50.13,67.52|N|To Captain Tarkan.|
 T King of the Foulweald|QID|6621|M|49.78,65.07|N|To Senani Thunderheart.|
+
+F Hellscream's Watch|QID|24|RANK|2|N|Fly to Hellscream's Watch.|
+T Shadumbra's Head|QID|24|RANK|2|M|M|38.34,42.96|N|To Captain Goggath.|
 
 F Splintertree Post|QID|1918|N|Fly to Splintertree Post.|
 
