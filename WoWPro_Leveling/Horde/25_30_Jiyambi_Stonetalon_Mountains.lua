@@ -1,5 +1,4 @@
 WoWPro.Leveling:RegisterGuide('JiySto2530', "Stonetalon Mountains", 'Jiyambi', '25', '30', 'JiySou3035', 'Horde', function() 
---Needs testing by a level appropriate character
 return [[
 
 R Silverwind Refuge|QID|25945|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|

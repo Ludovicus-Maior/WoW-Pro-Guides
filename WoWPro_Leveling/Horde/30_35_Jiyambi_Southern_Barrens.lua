@@ -1,5 +1,4 @@
 WoWPro.Leveling:RegisterGuide('JiySou3035', 'Southern Barrens', 'Jiyambi', '30', '35', 'JiyDus3540', 'Horde', function() 
---Needs testing by a level appropriate character
 return [[
 
 T Warchief's Command: Southern Barrens!|O|QID|28549|M|31.42,13.32|N|To Nura Pathfinder.|
