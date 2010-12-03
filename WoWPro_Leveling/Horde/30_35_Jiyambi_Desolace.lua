@@ -172,7 +172,7 @@ A Stubborn Lands|RANK|2|QID|14247|M|70.35,32.88|N|From Cenarion Embassador Thunk
 T Stubborn Lands|RANK|2|QID|14247|M|69.36,21.33|
 A Heavy Metal|RANK|2|QID|14254|PRE|14247|M|69.36,21.33|
 C Early Adoption|RANK|2|QID|14246|U|49014|M|70.18,17.78|N|Use the eggs at the nests in the area. Wait with the egg and protect it until a swoop flies in to adopt it.|
-C Heavy Metal|RANK|2|NC|QID|14254|M|62.25,23.91|N|The betals are located to the west, and look like little pink clouds on the ground.|
+C Heavy Metal|RANK|2|NC|QID|14254|M|62.25,23.91|N|The metals are located to the west, and look like little pink clouds on the ground.|
 T Heavy Metal|RANK|2|QID|14254|M|60.95,28.95|N|To Bizby, a goblin located at a camp to the west.|
 A New Beginnings|RANK|2|QID|14251|M|60.95,28.95|N|From Bizby.|
 A Good Gold For Bad Tail|RANK|2|QID|14252|M|60.95,28.95|N|From Bizby.|
@@ -181,9 +181,9 @@ C Fletch Me Some Plumage!|RANK|2|QID|14253|M|73.01,33.53|S|N|From swoops in nort
 C Good Gold For Bad Tail|RANK|2|QID|14252|M|77.27,32.32|S|N|From basilisks in northern Desolace.|
 C New Beginnings|RANK|2|QID|14251|M|64.56,22.45|S|N|From scorpions in northern Desolace.|
 T Early Adoption|RANK|2|QID|14246|M|70.39,32.85|N|To Cenarion Embassador Thunk.|
-C Fletch Me Some Plumage!|RANK|2|QID|14253|M|73.01,33.53|S|N|From swoops in northern Desolace.|
-C Good Gold For Bad Tail|RANK|2|QID|14252|M|77.27,32.32|S|N|From basilisks in northern Desolace.|
-C New Beginnings|RANK|2|QID|14251|M|64.56,22.45|S|N|From scorpions in northern Desolace.|
+C Fletch Me Some Plumage!|RANK|2|QID|14253|M|73.01,33.53|US|N|From swoops in northern Desolace.|
+C Good Gold For Bad Tail|RANK|2|QID|14252|M|77.27,32.32|US|N|From basilisks in northern Desolace.|
+C New Beginnings|RANK|2|QID|14251|M|64.56,22.45|US|N|From scorpions in northern Desolace.|
 T New Beginnings|RANK|2|QID|14251|M|60.97,28.99|N|To Bizby.|
 T Good Gold For Bad Tail|RANK|2|QID|14252|M|60.97,28.99|N|To Bizby.|
 T Fletch Me Some Plumage!|RANK|2|QID|14253|M|60.97,28.99|N|To Bizby.|
