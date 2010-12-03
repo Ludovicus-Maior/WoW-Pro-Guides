@@ -180,11 +180,18 @@ end
 local function ParseQuests(...)
 	WoWPro:dbp("Parsing Guide...")
 	local i = 1
-	local myclass, myrace = UnitClass("player"), UnitRace("player")
+	local myclassL, myclass = UnitClass("player")
+	local myraceL, myrace = UnitRace("player")
+	if myrace == "Scourge" then
+		myrace = "Undead"
+	end
 	for j=1,select("#", ...) do
 		local text = select(j, ...)
 		if text ~= "" then
 			local class, race = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?")
+			if class ~= nil then
+				class = strupper(class)
+			end
 			if class == nil or class:find(myclass) then if race == nil or race:find(myrace) then
 				_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
 				WoWPro.step[i] = WoWPro.step[i]:trim()
