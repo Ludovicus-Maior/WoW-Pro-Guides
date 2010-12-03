@@ -3,7 +3,7 @@
 ## Notes: Guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
-## Version: 2.0.3
+## Version: 2.0.4
 
 ## X-Category: Compilations
 
@@ -14,7 +14,7 @@ Libraries\AceGUI-3.0\AceGUI-3.0.xml
 Libraries\AceDB-3.0\AceDB-3.0.xml
 Libraries\AceDBOptions-3.0\AceDBOptions-3.0.xml
 Libraries\AceConfig-3.0\AceConfig-3.0.xml
-Libraries\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+Libraries\LibSharedMedia-3.0\lib.xml
 Libraries\AceGUI-3.0-SharedMediaWidgets\widget.xml
 Libraries\LibDataBroker-1.1\LibDataBroker-1.1.lua
 Libraries\LibDBIcon-1.0\LibDBIcon-1.0.lua

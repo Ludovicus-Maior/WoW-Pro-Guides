@@ -191,8 +191,8 @@ local function CreateDisplayConfig()
 						order = 6,
 						type = "range",
 						name = L["Difficulty / Completeness"],
-						desc = L["Governs how many steps will be skipped. Use 5 for the most completeness, 1 to skip all non-essential steps."],
-						min = 1, max = 5, step = 1,
+						desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
+						min = 1, max = 3, step = 1,
 						get = function(info) return WoWProDB.profile.rank end,
 						set = function(info,val) WoWProDB.profile.rank = val 
 							WoWPro.UpdateGuide() end,

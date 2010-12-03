@@ -356,7 +356,7 @@ function WoWPro.Recorder:SaveGuide(window)
 		if WoWPro.use[i] then sequence = addTag(sequence, "U", WoWPro.use[i]) end
 		if WoWPro.lootitem[i] then
 			sequence = sequence.."L|"..WoWPro.lootitem[i]
-			if WoWPro.lootqty[i] > tostring(1) then
+			if WoWPro.lootqty[i] then
 				sequence = sequence.." "..WoWPro.lootqty[i].."|"
 			else
 				sequence = sequence.."|"
