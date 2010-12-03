@@ -32,7 +32,7 @@ T Riding On|QID|25171|M|51.92,43.48|N|To Gar'Thok.|
 
 A From Bad to Worse|QID|25173|M|51.92,43.48|N|From Gar'Thok.|
 A Exploiting the Situation|QID|25176|M|53.05,43.12|N|From Gail Nozzywig.|
-h Razor Hill|QID|25176|M|51.61,41.65|N|At InnkeePRE Grosk.|
+h Razor Hill|QID|25176|M|51.61,41.65|N|At Innkeeper Grosk.|
 A Meats to Orgrimmar|QID|6365|M|50.76,42.78|N|From Grimtak.|N|Profession Trainers available here: Rawrk-First Aid Trainer (54.1,42.0), Runda-Profession Trainer (52.9,41.9)|
 C From Bad to Worse|QID|25173|S|M|57.45,55.24|N|Collect Treasures while killing Northwatch Marines, Northwatch Sharpshooters, and Lieutenant Palliter.|
 
@@ -45,8 +45,8 @@ T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|
 T Meats to Orgrimmar|QID|6365|M|53.07,43.59|N|To Burok.|
 A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|N|From Burok.|
-T Ride to Orgrimmar|QID|6384|M|50.87,62.61;53.44,78.85|Z|Orgrimmar|N|Take the lift down, the turn in to InnkeePRE Gryshka.|
-A Doras the Wind Rider Master|QID|6385|PRE|6384|M|53.44,78.85|Z|Orgrimmar|N|From InnkeePRE Gryshka.|
+T Ride to Orgrimmar|QID|6384|M|50.87,62.61;53.44,78.85|Z|Orgrimmar|N|Take the lift down, the turn in to Innkeeper Gryshka.|
+A Doras the Wind Rider Master|QID|6385|PRE|6384|M|53.44,78.85|Z|Orgrimmar|N|From Innkeeper Gryshka.|
 T Doras the Wind Rider Master|QID|6385|M|50.87,62.61;49.49,59.30|Z|Orgrimmar|N|Back up the lift to Doras.|
 A Return to Razor Hill|QID|6386|PRE|6385|M|49.49,59.30|Z|Orgrimmar|N|From Doras.|
 
@@ -99,62 +99,62 @@ C Lost But Not Forgotten|QID|25193|M|42.44,33.59|
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|N|To Misha Tor'kren.|
 T Watershed Patrol|QID|25188|M|49.55,40.17|N|To Thonk.|
 
-A Winds in the Desert|QID|834|M|46.36,22.99|Z|Durotar|N|From Rezlak.|
-A Securing the Lines|QID|835|M|46.36,22.99|Z|Durotar|N|From Rezlak.|
-C Winds in the Desert|QID|834|S|M|50.11,25.77|Z|Durotar|N|Retrieve Sacks of Supplies and kill 12 Harpies.|
-C Securing the Lines|QID|835|M|54.00,27.37|Z|Durotar|N|Kill 12 Durotar Harpies. Any type of harpy will suffice.|
-C Winds in the Desert|QID|834|US|M|50.11,25.77|Z|Durotar|N|Retrieve 5 Sacks of Supplies in Razorwind Canyon.|
-T Winds in the Desert|QID|834|M|46.41,22.96|Z|Durotar|N|To Rezlak.|
-T Securing the Lines|QID|835|M|46.41,22.96|Z|Durotar|N|To Rezlak.|
+A Winds in the Desert|QID|834|M|46.36,22.99|N|From Rezlak.|
+A Securing the Lines|QID|835|M|46.36,22.99|N|From Rezlak.|
+C Winds in the Desert|QID|834|S|M|50.11,25.77|N|Retrieve Sacks of Supplies and kill 12 Harpies.|
+C Securing the Lines|QID|835|M|54.00,27.37|N|Kill 12 Durotar Harpies. Any type of harpy will suffice.|
+C Winds in the Desert|QID|834|US|M|50.11,25.77|N|Retrieve 5 Sacks of Supplies in Razorwind Canyon.|
+T Winds in the Desert|QID|834|M|46.41,22.96|N|To Rezlak.|
+T Securing the Lines|QID|835|M|46.41,22.96|N|To Rezlak.|
 
-h Valley of Wisdom|QID|25263|M|39.03,48.57|N|At Miwana.|N|You can choose another Inn in Org if it makes more sense.|
+h Valley of Wisdom|QID|25263|M|39.03,48.57|N|At Miwana.|N|You can choose another Inn in Org if it makes more sense.|Z|Orgrimmar|
 
-T The Dranosh'ar Blockade|QID|25196|M|44.97,14.74|N|To Gor the Enforcer.|
-A Fizzled|QID|25260|PRE|25196|M|44.97,14.74|N|From Gor the Enforcer.|
-A Thunder Down Under|QID|25236|M|44.97,14.74|N|From Gor the Enforcer.|
-A The Wolf and The Kodo|QID|25205|M|44.94,14.78|N|From Shin Stonepillar.|
-C The Wolf and The Kodo|QID|25205|M|55.24,13.99|N|Speak to Shin, ask him to tell his story. When "wolfed", run East and a bit South until you find fighting kodos. Wait for story to finish.|
-T The Wolf and The Kodo|QID|25205|M|44.90,14.76|N|To Shin Stonepillar.|
+T The Dranosh'ar Blockade|QID|25196|M|44.97,14.74|N|To Gor the Enforcer.|Z|Orgrimmar|
+A Fizzled|QID|25260|PRE|25196|M|44.97,14.74|N|From Gor the Enforcer.|Z|Orgrimmar|
+A Thunder Down Under|QID|25236|M|44.97,14.74|N|From Gor the Enforcer.|Z|Orgrimmar|
+A The Wolf and The Kodo|QID|25205|M|44.94,14.78|N|From Shin Stonepillar.|Z|Orgrimmar|
+C The Wolf and The Kodo|QID|25205|M|55.24,13.99|N|Speak to Shin, ask him to tell his story. When "wolfed", run East and a bit South until you find fighting kodos. Wait for story to finish.|Z|Orgrimmar|
+T The Wolf and The Kodo|QID|25205|M|44.90,14.76|N|To Shin Stonepillar.|Z|Orgrimmar|
 
 A Ignoring the Warnings|QID|25206|M|44.95,14.74|N|From Gor the Enforcer.|
-C Ignoring the Warnings|QID|25206|M|37.39,19.46|Z|Durotar|N|Destroy 12 Warring Elementals. You may slay either Furious Earthguards or Teeming Waterguards.|
-C Thunder Down Under|QID|25236|M|40.71,30.06|Z|Durotar||N|Head for Thunder Ridge and take a swim in the lake. The click the Thunder Lizards all over the bottom of the lake, avoid their shockwaves.|
-C Fizzled|QID|25260|M|42.11,26.69|Z|Durotar|N|Dive down to Fizzle and loot the Orb.|
+C Ignoring the Warnings|QID|25206|M|37.39,19.46|N|Destroy 12 Warring Elementals. You may slay either Furious Earthguards or Teeming Waterguards.|
+C Thunder Down Under|QID|25236|M|40.71,30.06||N|Head for Thunder Ridge and take a swim in the lake. The click the Thunder Lizards all over the bottom of the lake, avoid their shockwaves.|
+C Fizzled|QID|25260|M|42.11,26.69|N|Dive down to Fizzle and loot the Orb.|
 
 L Level 11|QID|835|LVL|11|N|You should be around level 11 by this point.|
 
-T Fizzled|QID|25260|M|44.98,14.76|Z|Durotar|N|To Gor the Enforcer.|
-A Margoz|QID|25261|PRE|25260|M|44.98,14.76|Z|Durotar|N|From Gor the Enforcer.|
-T Thunder Down Under|QID|25236|M|44.98,14.76|Z|Durotar|N|To Gor the Enforcer.|
-T Ignoring the Warnings|QID|25206|M|44.98,14.76|Z|Durotar|N|To Gor the Enforcer.|
-A Beyond Durotar|QID|25648|M|44.98,14.76|Z|Durotar|N|If you plan on going to Azshara next. From Gor the Enforcer.|
-T Margoz|QID|25261|M|56.39,20.17|Z|Durotar|N|To Margoz.|
+T Fizzled|QID|25260|M|44.98,14.76|N|To Gor the Enforcer.|
+A Margoz|QID|25261|PRE|25260|M|44.98,14.76|N|From Gor the Enforcer.|
+T Thunder Down Under|QID|25236|M|44.98,14.76|N|To Gor the Enforcer.|
+T Ignoring the Warnings|QID|25206|M|44.98,14.76|N|To Gor the Enforcer.|
+A Beyond Durotar|QID|25648|M|44.98,14.76|N|If you plan on going to Azshara next. From Gor the Enforcer.|
+T Margoz|QID|25261|M|56.39,20.17|N|To Margoz.|
 
-A Skull Rock|QID|25262|PRE|25261|M|56.39,20.17|Z|Durotar|N|From Margoz.|
-A Sent for Help|QID|25256|M|56.39,20.17|Z|Durotar|N|From Vek'nag.|
-T Sent for Help|QID|25256|M|58.81,23.14|Z|Durotar|N|Report to Spiketooth at Deadeye Shore in Durotar. |
-A Ghislania|QID|25257|PRE|25256|M|58.81,23.14|Z|Durotar|N|From Spiketooth.|
-A Griswold Hanniston|QID|25258|PRE|25256|M|58.81,23.14|Z|Durotar|N|From Spiketooth.|
-A Gaur Icehorn|QID|25259|PRE|25256|M|58.81,23.14|Z|Durotar|N|From Spiketooth.|
+A Skull Rock|QID|25262|PRE|25261|M|56.39,20.17|N|From Margoz.|
+A Sent for Help|QID|25256|M|56.39,20.17|N|From Vek'nag.|
+T Sent for Help|QID|25256|M|58.81,23.14|N|Report to Spiketooth at Deadeye Shore in Durotar. |
+A Ghislania|QID|25257|PRE|25256|M|58.81,23.14|N|From Spiketooth.|
+A Griswold Hanniston|QID|25258|PRE|25256|M|58.81,23.14|N|From Spiketooth.|
+A Gaur Icehorn|QID|25259|PRE|25256|M|58.81,23.14|N|From Spiketooth.|
 
-C Ghislania|QID|25257|M|59.62,22.66|Z|Durotar|N|Speak to Ghislania at the beach and challenge her to combat.|
-C Griswold Hanniston|QID|25258|M|59.12,22.36|Z|Durotar|N|Speak to Friswold Hanniston at the beach and challenge him to combat.|
-C Gaur Icehorn|QID|25259|M|59.37,23.36|Z|Durotar|N|Speak to Gaur Icehorn at the beach and challenge him to combat.|
-T Ghislania|QID|25257|M|58.84,23.10|Z|Durotar|N|To Spiketooth.|
-T Griswold Hanniston|QID|25258|M|58.77,23.12|Z|Durotar|N|To Spiketooth.|
+C Ghislania|QID|25257|M|59.62,22.66|N|Speak to Ghislania at the beach and challenge her to combat.|
+C Griswold Hanniston|QID|25258|M|59.12,22.36|N|Speak to Friswold Hanniston at the beach and challenge him to combat.|
+C Gaur Icehorn|QID|25259|M|59.37,23.36|N|Speak to Gaur Icehorn at the beach and challenge him to combat.|
+T Ghislania|QID|25257|M|58.84,23.10|N|To Spiketooth.|
+T Griswold Hanniston|QID|25258|M|58.77,23.12|N|To Spiketooth.|
 
 L Level 12|QID|25259|LVL|12|N|You should be around level 12 by this point.|
 
-T Gaur Icehorn|QID|25259|M|58.77,23.12|Z|Durotar|N|To Spiketooth.|
+T Gaur Icehorn|QID|25259|M|58.77,23.12|N|To Spiketooth.|
 C The Burning Blade|QID|25232|M|51.85,26.27||N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
-C Skull Rock|QID|25262|M|53.42,10.20|Z|Durotar|N|Gather 6 Searing Collars from the cultists in Skull Rock.|
-T Skull Rock|QID|25262|M|56.41,20.05|Z|Durotar|N|To Margoz.|
-A Neeru Fireblade|QID|25263|PRE|25262|M|56.41,20.05|Z|Durotar|N|From Margoz.|
-T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar.|
+C Skull Rock|QID|25262|M|53.42,10.20|N|Gather 6 Searing Collars from the cultists in Skull Rock.|
+T Skull Rock|QID|25262|M|56.41,20.05|N|To Margoz.|
+A Neeru Fireblade|QID|25263|PRE|25262|M|56.41,20.05|N|From Margoz.|
+T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar.|Z|Orgrimmar|
 
-T Neeru Fireblade|QID|25263|M|58.50,54.34|N|To Neeru Fireblade.|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|
-A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|N|If you plan on going to Northern Barrens next. From Neeru Fireblade.|
-A Warchief's Command: Northern Barrens!|QID|28494|M|66.42,49.28|N|If you plan on going to Northern Barrens next.|
+T Neeru Fireblade|QID|25263|M|58.50,54.34|N|To Neeru Fireblade.|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|Z|Orgrimmar|
+A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|N|If you plan on going to Northern Barrens next. From Neeru Fireblade.|Z|Orgrimmar|
+A Warchief's Command: Northern Barrens!|QID|28494|M|66.42,49.28|N|If you plan on going to Northern Barrens next.|Z|Orgrimmar|
 T Beyond Durotar|QID|25648|M|26.84,77.00|Z|Azshara|N|Outside Orgrimmar's rear gate in Azshara. To Ag'tor Bloodfist.|
 ]]
 end)

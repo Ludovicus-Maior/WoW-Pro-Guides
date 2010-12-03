@@ -63,7 +63,10 @@ C Dead Elves Walking|QID|13801|S|M|75.64,75.25|N|Destroy any 15 of the night elf
 A Torek's Assault|QID|6544|M|68.36,75.21||N|This is an escort quest. If you hate them, skip it. If not, clear the path and house before accepting quest. Be sure to keep Torek alive.|
 C Torek's Assault|QID|6544|NC|M|64.71,75.40|
 
-C Pierce Their Heart!|QID|13805|M|S|75.91,75.36|N|Entrance to Barrow Den. Kill Ghosts while following the blood trail.|
+K Sharptalon|QID|2|M|78.1,65.8;73.3,70.6;71.3,75.5;73.7,78.5|T|Sharptalon|L|16305|N|Keep and eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|
+A Sharptalon's Claw|QID|2|U|16305|N|From Sharptalon's Claw.|
+
+C Pierce Their Heart!|QID|13805|S|M|75.91,75.36|N|Entrance to Barrow Den. Kill Ghosts while following the blood trail.|
 C Pierce Their Heart!|QID|13805|U|45683|M|75.91,75.36;75.54,74.12|N|Use the Tainted Blood of the Kaldorei on the Heart.|
 C Pierce Their Heart!|QID|13805|US|
 C Dead Elves Walking|QID|13801|US|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|
@@ -71,8 +74,7 @@ C Dead Elves Walking|QID|13801|US|M|75.64,75.25|N|Destroy any 15 of the night el
 C Destroy the Legion|QID|26448|S|M|84.07,70.30|N|Slay any 15 demons and collect Felfires with the canister.|
 C Playing With Felfire|QID|13730|U|45478|M|79.84,64.72|N|Fill the Reinforced Canister with 7 Felfires from Felfire Hill.|
 C Destroy the Legion|QID|26448|US|M|84.07,70.30|N|Slay any 15 demons at Felfire Hill, Demon Fall Canyon, or Demon Fall Ridge.|
-A Diabolical Plans|QID|26447|RANK|1|M|80.81,68.51|
-A Sharptalon's Claw|QID|2|RANK|2|U|16305|M|75.52,70.28|N|Keep your eye out for a blue hippogryph.|
+A Diabolical Plans|QID|26447|U|23798|RANK|1|M|80.81,68.51|N|From the Diabolical Plans you hopefully looted. If not, kill more demons.|
 C Ashenvale Outrunners|QID|6503|US|M|75.52,70.28|N|Finish killing Ashenvale Outrunners.|
 
 H Splintertree Post|QID|6503|
@@ -130,14 +132,14 @@ T Wet Work|QID|13865|M|82.52,53.78|N|To Krokk.|
 A As Good as it Gets|QID|13870|PRE|13865|RANK|2|M|82.52,53.78|N|From Krokk.|
 
 T As Good as it Gets|QID|13870|M|90.93,58.29|N|To Overseer Gorthak.|
-A Security!|QID|13871|PRE|13870|RANK|2|M|90.93,58.29|N|From Overseer Gorthak.|
+A Security!|QID|13871|PRE|13870|RANK|1|M|90.93,58.29|N|From Overseer Gorthak.|
 C Security!|QID|13871|M|91.25,57.50|N|Wander around until the Assassin attacks you. Kill it.|
 T Security!|QID|13871|M|90.94,58.12|N|To Overseer Gorthak.|
-A Sheelah's Last Wish|QID|13873|PRE|13871|RANK|2|M|90.79,58.24|N|From Guardian Menerin.|
+A Sheelah's Last Wish|QID|13873|PRE|13871|RANK|1|M|90.79,58.24|N|From Guardian Menerin.|
 
 T Sheelah's Last Wish|QID|13873|M|89.59,48.71|N|To Guardian Gurtar.|
-A Gurtar's Request|QID|13875|PRE|13873|RANK|2|M|89.59,48.71|N|From Guardian Gurtar.|
-C Gurtar's Request|QID|13875|U|46316|M|88.29,48.84|N|Collect 8 Thorned Bloodcups sparking on the ground, then use the Orc-Hair Braid to make the Bloodcup Braid.|
+A Gurtar's Request|QID|13875|PRE|13873|RANK|1|M|89.59,48.71|N|From Guardian Gurtar.|
+C Gurtar's Request|QID|13875|U|46316|M|88.29,48.84|N|Collect 8 Thorned Bloodcups sparking on the ground, then use the Orc-Hair Braid to make the Bloodcup Braid. These are tricky to see, but the red flowers are found all over the lumber camp (They do not show on the mini map for herb gatherers).|
 
 H Splintertree Post|QID|6503|N|If Hearthstone isn't ready, just check off this step and run back to Splintertree Post.|
 
@@ -165,6 +167,7 @@ f Zoram'gar Outpost|QID|13842|M|11.20,34.40|N|At Andruk.|
 h Zoram'gar Outpost|QID|13842|M|12.92,34.14|N|At Innkeeper Duras.|
 f Silverwind Refuge|QID|13842|M|49.35,65.30|N|At Wind Tamer Shoshok.|
 
+T Sharptalon's Claw|QID|2|M|49.8,65.2|N|To Senani Thunderheart.|
 A Keep the Fires Burning|QID|13890|RANK|1|M|12.08,33.78|N|From Commander Grimfang.|
 A Blackfathom Deeps|QID|26894|RANK|1|M|12.08,33.78|N|From Commander Grimfang.|N|If you plan on doing the Blackfathom Deeps dungeon.|
 A Lousy Pieces of Ship|QID|13883|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.|
@@ -230,7 +233,6 @@ T Between a Rock and a Thistlefur|QID|216|M|37.84,43.41|N|To Karang Amakkar.|
 F Silverwind Refuge|QID|13974|N|Fly to Silverwind Refuge.|
 
 A We're Here to Do One Thing, Maybe Two...|QID|25945|RANK|1|M|49.88,65.67|N|Accept if you plan on going to Stonetalon Mountains, don't get on the caravan until you're ready to leave Ashenvale. From Blood Guard Aldo Rockrain.|
-T Sharptalon's Claw|QID|2|RANK|2|M|49.76,65.13|N|To Senani Thunderheart.|
 A Thinning the... Herd?|QID|13967|RANK|2|M|49.76,65.13|N|From Senani Thunderheart.|
 T Tweedle's Tiny Package|QID|13974|M|49.98,67.17|N|To Flooz.|
 A Mass Production|QID|13977|RANK|2|M|49.98,67.25|
@@ -256,7 +258,8 @@ A They're Out There!|QID|13980|PRE|13977|RANK|2|M|46.12,63.25|N|From Foreman Jin
 A Building Your Own Coffin|QID|13983|RANK|2|M|46.12,63.25|N|From Foreman Jinx.|
 
 C They're Out There!|QID|13980|S|U|46776|M|41.25,68.99|N|Collect parts while killing Assassins. Use Jinx's Goggles to be able to see them.|
-A Ursangous's Paw|QID|23|RANK|2|U|16303|M|41.25,68.99|N|Look for a black night elf druid bear in this area.|
+K Ursangous|QID|23|M|41.8,65.2|T|Ursangous|L|16303|N|Keep and eye out for Ursangous. Kill and loot the paw. Use the paw to start the quest.|
+A Ursangous's Paw|QID|23|U|16303|N|From Ursangous's Paw.|
 C Building Your Own Coffin|QID|13983|M|37.38,71.32|
 C They're Out There!|QID|13980|US|U|46776|M|41.25,68.99|N|Use Jinx's Goggles to be able to see them.|
 
@@ -278,9 +281,10 @@ A Vortex|QID|13888|PRE|13880|RANK|2|M|52.36,56.84|N|From The Vortex.|
 C Vortex|QID|13888|M|47.05,39.08|N|Speak to Vortex when ready to go. Use his attacks to defeat Lord Magmathar.|
 T Vortex|QID|13888|M|52.06,56.46|N|To Stikwad.|
 
+K Shadumbra|QID|24|M|61.8,49.9;59.3,54.4;53.6,54.7|T|Shadumbra|L|16304|N|Keep and eye out for Shadumbra. Kill and loot the head. Use the head to start the quest.|
+A Shadumbra's Head|QID|24|U|16304|N|From Shadumbra's Head.|
 T Condition Critical!|QID|13958|M|60.65,52.70|N|To Thagg.|
 A Stalemate|QID|13962|PRE|13958|RANK|2|M|60.65,52.70|N|From Thagg.|
-A Shadumbra's Head|QID|24|RANK|2|U|16304|M|62.06,51.25|N|Keep an eye out for a black panther in this area.|
 C Stalemate|QID|13962|M|62.06,51.25|N|Go to the top floor of nearby building and slay Keeper Ordanus.|
 T Stalemate|QID|13962|M|60.70,52.71|N|To Thagg.|
 
@@ -288,11 +292,9 @@ C King of the Foulweald|QID|6621|U|16972|M|56.37,63.49|N|Use Senani's Banner on 
 
 H Silverwind Refuge|QID|6621|N|Hearth to Silverwind Refuge
 
-T Ursangous's Paw|QID|23|RANK|2|M|50.13,67.52|N|To Captain Tarkan.|
+T Ursangous's Paw|QID|23|M|49.8,65.2|N|To Senani Thunderheart.|
+T Shadumbra's Head|QID|24|M|49.8,65.2|N|To Senani Thunderheart.|
 T King of the Foulweald|QID|6621|M|49.78,65.07|N|To Senani Thunderheart.|
-
-F Hellscream's Watch|QID|24|RANK|2|N|Fly to Hellscream's Watch.|
-T Shadumbra's Head|QID|24|RANK|2|M|M|38.34,42.96|N|To Captain Goggath.|
 
 F Splintertree Post|QID|1918|N|Fly to Splintertree Post.|
 
