@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('05_10_Dun_Morogh', 'Dun Morogh', 'Gameldar', '05', '10', '10_15_Loch_Modan', 'Alliance', function() 
+WoWPro.Leveling:RegisterGuide('GamDun0510', 'Dun Morogh', 'Gameldar', '05', '10', '10_15_Loch_Modan', 'Alliance', function() 
 return [[
 
 A Frostmane Aggression|QID|25724|M|53.66,52.15|N|From Captain Tharran.|

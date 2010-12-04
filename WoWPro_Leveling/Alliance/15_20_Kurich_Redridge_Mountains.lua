@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", nil, "Alliance", function()
+WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", "TwiDus2025", "Alliance", function()
 return [[
 A Wanted: Redridge Gnolls|QID|26504|M|16.05,64.61|
 A Franks And Beans|QID|26506|M|15.62,65.34|

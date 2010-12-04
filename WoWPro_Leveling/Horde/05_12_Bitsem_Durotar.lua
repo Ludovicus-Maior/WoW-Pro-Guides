@@ -73,7 +73,6 @@ A Watershed Patrol|QID|25188|PRE|25187|RANK|2|M|49.56,40.22|N|From Thonk.|
 
 L Level 9|QID|25188|LVL|9|N|You should be around level 9 by this point.|
 
-A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 A Raggaran's Rage|QID|25190|RANK|2|M|42.67,49.86|N|From Raggaran.|
 C Raggaran's Rage|QID|25190|M|43.88,49.01|N|Kill 4 Razormane Quilboar and 4 Razormane Scouts.|
 T Raggaran's Rage|QID|25190|M|42.73,49.85|N|To Raggaran.|
@@ -98,6 +97,7 @@ A Lost But Not Forgotten|QID|25193|RANK|2|M|43.30,30.58|N|From Misha Tor'kren.|
 C Lost But Not Forgotten|QID|25193|M|42.44,33.59|
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|N|To Misha Tor'kren.|
 T Watershed Patrol|QID|25188|M|49.55,40.17|N|To Thonk.|
+A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 
 A Winds in the Desert|QID|834|M|46.36,22.99|N|From Rezlak.|
 A Securing the Lines|QID|835|M|46.36,22.99|N|From Rezlak.|
@@ -146,7 +146,6 @@ T Griswold Hanniston|QID|25258|M|58.77,23.12|N|To Spiketooth.|
 L Level 12|QID|25259|LVL|12|N|You should be around level 12 by this point.|
 
 T Gaur Icehorn|QID|25259|M|58.77,23.12|N|To Spiketooth.|
-C The Burning Blade|QID|25232|M|51.85,26.27||N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
 C Skull Rock|QID|25262|M|53.42,10.20|N|Gather 6 Searing Collars from the cultists in Skull Rock.|
 T Skull Rock|QID|25262|M|56.41,20.05|N|To Margoz.|
 A Neeru Fireblade|QID|25263|PRE|25262|M|56.41,20.05|N|From Margoz.|

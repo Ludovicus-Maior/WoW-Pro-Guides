@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh (Gnome)", "Gylin", "01", "05", "GylDun0512", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh (Gnome)", "Gylin", "01", "05", "GamDun0510", "Alliance", function()
 return
 [[
 

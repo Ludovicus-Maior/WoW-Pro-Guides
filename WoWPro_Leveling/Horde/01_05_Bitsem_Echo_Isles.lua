@@ -45,7 +45,7 @@ T The Basics: Hitting Things|RANK|1|QID|24639|C|Warrior|M|65.78,84.52|N|To Norte
 T The Basics: Hitting Things|RANK|1|QID|26273|C|Warlock|M|64.92,83.26|N|To Voldreka.|
 T The Basics: Hitting Things|RANK|1|QID|24783|C|Priest|M|67.66,83.02|N|To Tunari.|
 T The Basics: Hitting Things|RANK|1|QID|24759|C|Shaman|M|64.94,84.21|N|To Nekali.|
-T The Basics: Hitting Things|RANK|1|QID|24777|C|Hunter|67.09,83.30|N|To Ortezza.|
+T The Basics: Hitting Things|RANK|1|QID|24777|C|Hunter|M|67.09,83.30|N|To Ortezza.|
 
 A A Rough Start|RANK|1|QID|24767|PRE|24765|C|Druid|M|67.69,84.69|N|From Zen'tabra.|
 A A Rough Start|RANK|1|QID|24753|PRE|24721|C|Mage|M|68.22,83.99|N|From Soratha.|
