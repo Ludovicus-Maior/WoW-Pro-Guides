@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('WkjFel4550', 'Felwood', 'wkjezz', '45', '50', 'WkjWin5055', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('FELWk', 'Felwood', 'wkjezz', '45', '50', 'WSWK', 'Alliance', function()
 return [[
 
 N Note|QID|99999|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|

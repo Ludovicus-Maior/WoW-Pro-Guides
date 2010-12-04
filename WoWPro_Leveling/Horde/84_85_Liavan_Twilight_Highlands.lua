@@ -536,8 +536,6 @@ T The Hammer of Twilight|QID|27786|To The Hammer of Twilight|
 A Skullcrusher The Mountain|QID|27788|From The Hammer of Twilight|
 C Skullcrusher The Mountain|QID|27788|N|bugged as of time this revision was done still|
 T Skullcrusher The Mountain|QID|27788|
-
-N do not check this off
 ]]
 
 end)

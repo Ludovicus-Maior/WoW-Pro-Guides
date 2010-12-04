@@ -139,8 +139,30 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						dialog:Open("WoWPro Recorder - Add Step - Choose Quest", WoWPro.DialogFrame)
 					end,
 				},
-				notquest = {
+				repairrestock = {
 					order = 2,
+					type = "execute",
+					name = "Repair/Restock Step",
+					width = "full",
+					func = function(info,val) 
+						dialog:Close("WoWPro Recorder - Add Step");
+						local x, y = GetPlayerMapPosition("player")
+						local zonetag, note
+						if GetZoneText() ~= WoWPro.Guides[WoWProDB.char.currentguide].zone then zonetag = GetZoneText() else zonetag = nil end
+						if GetUnitName("target") then note = "At "..GetUnitName("target").."." end
+						WoWPro.Recorder:AddStep({
+							action = "r",
+							step = "Repair/Restock",
+							QID = WoWPro.Recorder.lastStep,
+							map = string.format("%.2f,%.2f", x*100,y*100),
+							zone = zonetag,
+							note = note,
+							waycomplete = 1,
+						})
+					end,
+				},
+				notquest = {
+					order = 3,
 					type = "execute",
 					name = "Start From Scratch",
 					width = "full",
@@ -830,7 +852,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					end,
 					set = function(info,val) 
 						if val then val = 1 end
-						WoWPro.prof[WoWPro.Recorder.SelectedStep] = val 
+						WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide()
 						WoWPro.Recorder:SaveGuide()
 					end,
@@ -847,7 +869,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					end,
 					set = function(info,val) 
 						if val then val = 2 end
-						WoWPro.prof[WoWPro.Recorder.SelectedStep] = val 
+						WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep] = val 
 						WoWPro:UpdateGuide()
 						WoWPro.Recorder:SaveGuide()
 					end,

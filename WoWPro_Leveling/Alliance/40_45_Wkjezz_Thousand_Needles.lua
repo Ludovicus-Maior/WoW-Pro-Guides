@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('WkjTho4045', 'Thousand Needles', 'Wkjezz', '40', '45', 'WkjTan4550', 'Alliance', function() 
+WoWPro.Leveling:RegisterGuide('TN1', 'Thousand Needles', 'Wkjezz', '40', '45', 'TAN1', 'Alliance', function() 
 
 return [[
 

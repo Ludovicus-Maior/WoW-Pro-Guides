@@ -152,7 +152,7 @@ function WoWPro:NextStep(k,i)
 			end
 			
 		end
-		
+	
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof[k] then
 			local prof, proflvl = string.split(";",WoWPro.prof[k])

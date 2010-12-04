@@ -3,7 +3,7 @@ return [[
 
 A Hero's Call: Searing Gorge!|QID|28582|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|
 H Dragon's Mouth.|QID|28582|N|Hearth back to Dragon's Mouth.|
-R Follow the arrow.|QID|28582|M|9.79,51.31|Z|Badlands|N|Close this step when you get to the waypoint.|
+R Follow the arrow.|QID|28582|CC|M|9.79,51.31|Z|Badlands|
 T Hero's Call: Searing Gorge!|QID|28582|M|68.54,53.59|N|To Jack Rockleg.|
 A A New Master... But Who?|QID|27963|M|68.54,53.59|N|From Jack Rockleg.|
 A The Fewer, the Better|QID|27960|M|68.54,53.59|N|From Burrian Coalpart.|
@@ -30,11 +30,11 @@ T Out of Place|QID|27961|M|68.48,53.50|N|To Burrian Coalpart.|
 T A Lumbering Relic|QID|27962|M|68.48,53.50|N|To Burrian Coalpart.|
 T A Proper Antivenom|QID|27958|M|68.59,53.44|N|To Prisanne Dustcropper.|
 r Sell junk, repair/restock.|QID|27964|
-R Follow the waypoints.|QID|27964|M|70.11,39.80;65.53,38.36|N|Close this step when you reach the last one.|
+R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|
 C Dig-Boss Dinwhisker|QID|27964|M|54.93,45.64|N|Kill Dark Iron Excavators and Footmen until Dig-Boss Dinwhisker appears. After you kill him, loot the "Dark Ember" off the ground.|
 T Dig-Boss Dinwhisker|QID|27964|M|68.52,53.68|N|To Jack Rockleg.|
 A Thorium Point: The Seat of the Brotherhood|QID|27965|M|68.52,53.68|N|From Jack Rockleg.|
-R Follow the waypoints.|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|N|Close this step when you reach the last one.|
+R Thorium Point|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|
 f Thorium Point|QID|27965|M|38.01,30.67|N|At Lanie Reed.|
 T Thorium Point: The Seat of the Brotherhood|QID|27965|M|38.21,26.83|N|To Overseer Oilfist.|
 A Rasha'krak|QID|28099|M|38.21,26.83|N|From Overseer Oilfist.|
@@ -60,7 +60,7 @@ T The Spiders Have to Go|QID|27980|M|37.64,26.73|N|To Lookout Captain Lolo Longs
 T Recon Essentials|QID|27977|M|36.65,28.25|N|To Taskmaster Scrange.|
 A Twilight Collars|QID|27982|M|36.75,28.25|N|From Taskmaster Scrange.|
 A Dark Ministry|QID|27979|M|38.33,27.99|N|From Hansel Heavyhands.|
-C Twilight Collars|QID|27982|S|M|38.68,28.71|Kill any Twilight mobs as you go along.|
+C Twilight Collars|QID|27982|S|M|38.68,28.71|N|Kill any Twilight mobs as you go along.|
 C Dark Ministry|QID|27979|L|62824|M|24.68,26.29|N|Kill Finister to get "Finister's Spherule".|
 A Lunthistle's Tale|QID|27984|M|29.43,26.46|N|From Zamael Lunthistle.|
 C Lunthistle's Tale|QID|27984|NC|M|29.43,26.46|N|Listen to his tale.|
@@ -76,6 +76,7 @@ T Dark Ministry|QID|27979|M|38.25,28.00|N|To Hansel Heavyhands.|
 A In the Hall of the Mountain-Lord|QID|27986|M|38.28,28.04|N|From Hansel Heavyhands.|
 T Twilight Collars|QID|27982|M|38.48,28.65|N|To Master Smith Burninate.|
 r Sell junk, repair/restock.|QID|27986|
+R Iron Summit|QID|27986|M|39.59,31.28;57.87.39.16;29.51,50.22;31.78,59.97;37.68,62.88|
 f Iron Summit|QID|27986|M|40.95,68.58|N|At Doug Deepdown.|
 T In the Hall of the Mountain-Lord|QID|27986|M|39.26,67.78|N|To Mountain-Lord Rendan.|
 A Siege!|QID|28028|M|39.26,67.78|N|From Mountain-Lord Rendan.|
@@ -86,10 +87,10 @@ N As you go:|QID|28030|S|N|Pick up crates as you kill the Dark Iron Marksmen. Ki
 C Set Them Ablaze!|QID|28029|QO|Southwestern tower ablaze: 1/1|M|44.03,60.94|N|Click on the Southwestern tower brazier.|
 C Set Them Ablaze!|QID|28029|QO|Eastern tower ablaze: 1/1|M|50.06,54.72|N|Click on the Eastern tower brazier.|
 C Set Them Ablaze!|QID|28029|QO|Southeastern tower ablaze: 1/1|M|35.67,60.67|N|Click on the Southeastern tower brazier.|
-C Set Them Ablaze!|QID|28029|QO|Western tower ablaze: 1/1|M|33.32,54.47|N|Click on the Western tower brazier.|
-C Siege!|QID|28028|M|48.59,66.16|N|Kill Dark Iron Marksman near the tower.|
-C They Build a Better Bullet|QID|28030|US|M|49.17,73.38|
 C The Mysteries of the Fire-Gizzard|QID|28032|M|34.85,67.89|
+C Set Them Ablaze!|QID|28029|QO|Western tower ablaze: 1/1|M|33.32,54.47|N|Click on the Western tower brazier.|
+C Siege!|QID|28028|M|48.59,66.16|N|Kill Dark Iron Marksman near the Iron Summit.|
+C They Build a Better Bullet|QID|28030|US|M|49.17,73.38|
 T The Mysteries of the Fire-Gizzard|QID|28032|M|39.02,68.77|N|To Agnes Flimshale.|
 T Siege!|QID|28028|M|39.32,67.71|N|To Mountain-Lord Rendan.|
 T Set Them Ablaze!|QID|28029|M|39.32,67.71|N|To Mountain-Lord Rendan.|
@@ -118,15 +119,14 @@ T Sweet, Horrible Freedom|QID|28055|M|43.72,28.46|N|To Evonice Sootsmoker.|
 T Rise, Obsidion|QID|28056|M|43.72,28.46|N|To Evonice Sootsmoker.|
 A Kill 'em With Sleep Deprivation|QID|28057|M|43.66,28.46|N|From Evonice Sootsmoker.|
 N Warning: Wall of text on next step.|QID|28057|N|Close this step.|
-N Kill 'em With Sleep Deprivation|QID|28057|N|After looting the first pillow a timed event starts. After some time, a pack of Sleepy Dark Iron Workers spawns from one of the ends. After a bit more time another pack spawns, there are about 10+ but they are fairly weak and easy to kill. After some more time, a level 49 elite, Chambermaid Pillaclencher, will spawn. She likes to do knockback and silence ALOT! If you can kill her she will drop on the ground a lootable item.|
+N Kill 'em With Sleep Deprivation|QID|28057|N|After looting the first pillow a timed event starts. After some time, a pack of Sleepy Dark Iron Workers spawns from one of the ends, after a bit more time another pack spawns, there are about 10+ but they are fairly weak and easy to kill. After some more time, a level 49 elite, Chambermaid Pillaclencher, will spawn. She likes to do knockback and silence ALOT! If you can kill her she will drop on the ground a lootable item. Close this step.|
 C Kill 'em With Sleep Deprivation|QID|28057|M|44.87,31.65|N|Loot pillows.|
 T Kill 'em With Sleep Deprivation|QID|28057|M|42.38,34.34|N|To Taskmaster Scrange.|
 A Look at the Size of It!|QID|28058|U|62933|M|45.21,30.66|N|After you kill Chambermaid Pillaclencher, loot the sparkling pillow next to her corpse. Then accept the quest.|
 T Look at the Size of It!|QID|28058|M|43.73,28.58|N|To Evonice Sootsmoker.|
 A Twisted Twilight Ties|QID|28060|M|42.47,34.22|N|From Taskmaster Scrange.|
 C Twisted Twilight Ties|QID|28060|M|40.88;35.71|N|Speak with Hansel Heavyhands and help him assault Overseer Maltorius and Twilight-Lord Arkkus.|
-R Follow the waypoints.|QID|28060|M|47.69,41.96;78.96,40.16|N|Drop down after you get to the first waypoint. Close this step when at the second.|
-T Twisted Twilight Ties|QID|28060|M|49.96,39.28|N|To Overseer Oilfist.|
+T Twisted Twilight Ties|QID|28060|M|47.69,41.96;49.96,39.28|N|To Overseer Oilfist. Drop down at the first waypoint.|
 A From Whence He Came|QID|28062|M|49.96,39.28|N|From Overseer Oilfist.|
 A Minions of Calcinder|QID|28061|M|50.19,38.90|N|From Overseer Oilfist.|
 C Minions of Calcinder|QID|28061|M|43.78,27.65|N|Kill 6 Searing Flamewraiths as you head towards the waypoint.
@@ -136,7 +136,7 @@ T From Whence He Came|QID|28062|M|43.78,27.65|
 A Welcome to the Brotherhood|QID|28064|M|43.78,27.65|
 H Iron Summit|QID|28053|N|Hearth back to Iron Summit.|
 F Fly to Thorium Point.|QID|28053|M|40.89,68.91|
-A Lunk Like Your Style|QID|28053|M|39.02,25.97|N|Get from Lunk up the ramp of the tower. Close this step after you accept/complete the quest.|
+T Lunk Like Your Style|QID|28053|M|39.02,25.97|N|Get from Lunk up the ramp of the tower. This is a hit complete type quest, no acceptance.|
 T Welcome to the Brotherhood|QID|28064|M|38.08,26.70|N|To Overseer Oilfist.|
 F Stormwind City|QID|28666|M|40.89,68.91|N|Fly to Stormwind to train, visit AH, etc.|
 ]]

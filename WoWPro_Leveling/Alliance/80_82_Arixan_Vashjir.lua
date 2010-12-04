@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('AriVas8082', "Vash'jir", 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('AriVas8082', 'Vashjir', 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
 return [[
 
 A Call of Duty|QID|14482|RANK|1|M|41.1,48.6|Z|Stormwind City|N|From Recruiter Burns|
@@ -616,6 +616,6 @@ T Back to Darkbreak Cove|QID|26181|M|42.7,37.8|Z|The Abyssal Depths|N|To Erunak 
 
 A Defending the Rift|QID|26193|RANK|1|M|Z|The Abyssal Depths|N|From Erunak Stonespeaker.|
 N Defending the Rift|QID|26193|M|Z|The Abyssal Depths|N|Speak to Erunak again and tell him you are ready to enter the battle.|
-T Defineding the Rift|QID|26193|QO|Fight in the Battle for the Abyssal Breach: 1/1|M|69.7,34.5|Z|The Abyssal Depths|N|End of this region.|
+T Defending the Rift|QID|26193|QO|Fight in the Battle for the Abyssal Breach: 1/1|M|69.7,34.5|Z|The Abyssal Depths|N|End of this region.|
 ]]
 end)

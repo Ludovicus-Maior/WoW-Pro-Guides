@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', '45', '50', 'WkjUng5055', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('TAN1', 'Tanaris', 'Wkjezz', '45', '50', 'UNGC', 'Alliance', function()
 return [[
 
 N This Guide:|QID|99999|N|Starts off on the Speedbarge in Thousand Needles. If you did not complete Thousand Needles; It's OK, Just skip this step and the next one. (Click to continue)|
@@ -151,7 +151,7 @@ C Thunderdrome: Zumonga!|QID|25094|NC|M|51.70,28.29|
 T Thunderdrome: Zumonga!|QID|25094|M|51.65,27.97|N|To Katrina Turner.|
 A Thunderdrome: The Ginormus!|QID|25067|M|51.75,28.02|N|From Dr. Dealwell.|
 C Thunderdrome: The Ginormus!|QID|25067|NC|M|51.56,28.39|
-N The Secrets of Uldum|QID|25566|M|37.82,84.17|N|As mentioned, this quest can not be completed until the 7th Dec 2010. This quide was written before then, so for now, this is the end of the Tanaris Guide. I hope you have had as much fun in this zone as I did Smiling However, you should have been able to complete the zone's meta achievement and got 3 levels (w/o BOA itmes)|
+N The Secrets of Uldum|QID|25566|M|37.82,84.17|N|As mentioned, this quest can not be completed until the 7th Dec 2010. This quide was written before then, so for now, this is the end of the Tanaris Guide. I hope you have had as much fun in this zone as I did :) However, you should have been able to complete the zone's meta achievement and got 3 levels (w/o BOA itmes)|
 ]]
 
 end)
