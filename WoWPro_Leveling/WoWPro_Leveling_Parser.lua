@@ -214,7 +214,7 @@ local function ParseQuests(...)
 				end
 				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
 
-				if WoWPro.action[i] == "R" and WoWPro.map[i] then
+				if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
 					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
 					elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
 					else WoWPro.waypcomplete[i] = false end
