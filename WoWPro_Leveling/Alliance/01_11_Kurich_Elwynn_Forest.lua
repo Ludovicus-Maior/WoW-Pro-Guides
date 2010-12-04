@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide("BitWes1020", "Elwynn Forest", "Kurich", "01", "11", "KurWes1120", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
 return [[
 A Beating Them Back!|QID|28767|M|48.20,42.06|
 C Beating Them Back!|N|Kill worgs around this location. | |QID|28767|M|46.89,39.09||
