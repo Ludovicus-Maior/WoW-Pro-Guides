@@ -1,8 +1,6 @@
 WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548', 'Alliance', function()
-return [[
-
-A Hero's Call: Eastern Plaguelands!|QID|28578|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|
-F Chillwind Camp|QID|9999|M|71.56,71.68|Z|Stormwind City|N|Fly to Chillwind Camp.|
+return [[A Hero's Call: Eastern Plaguelands!|QID|28578|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|
+F Chillwind Camp|M|71.56,71.68|Z|Stormwind City|N|Fly to Chillwind Camp.|
 A Into the Woods|QID|27683|M|42.97,83.55|Z|Western Plaguelands|N|From Argent Officer Pureheart at Chillwind Camp.|
 R Thondroril River|QID|27683|M|69.69,50.25|Z|Western Plaguelands|N|Run to Thondroril River, or fly if you have the flight point.|
 T Into the Woods|QID|27683|M|9.02,66.40|N|To Fiona.|

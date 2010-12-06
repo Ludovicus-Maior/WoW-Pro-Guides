@@ -1,8 +1,6 @@
 WoWPro.Leveling:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', '50', '52', 'CraSwa5254', 'Alliance', function()
-return [[
-
-A A Hero's Call: Burning Steppes|QID|28666|M|62.93,71.53;62.28,29.97|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|
-H iron Summit|QID|28666|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|
+return [[A A Hero's Call: Burning Steppes|QID|28666|M|62.93,71.53;62.28,29.97|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|
+H Iron Summit|QID|28666|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|
 R Blackrock Mountain|QID|28666|M|33.49,74.91|Z|Searing Gorge|N|Run to the waypoint young padawn.|
 R Burning Steppes|QID|28666|M|47.3,68.29;74.31,68.46;74.2,68.55;47.24,68.77;47.24,68.77;47.09,69.18;47.28,69.5;47.29,69.69;47.37,69.71;47.38,70.17;47.39,70.58;47,71|Z|Blackrock Mountain|N|Follow the waypoints through Blackrock Mountain to Burning Steppes.|
 f Flamestar Post|M|17.82,52.63|N|At Hans Oreflight.|

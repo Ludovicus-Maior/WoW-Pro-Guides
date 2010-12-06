@@ -1,7 +1,5 @@
 WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
-return [[
-
-R Note:|QID|10302|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
+return [[R Note:|QID|10302|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
 f Seat of the Naaru|QID|9625|10302|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
 A You Survived!|R|Draenei|QID|9279|M|84.2,43.0|Z|Azuremyst Isle|N|From Megelon right in front of you.|
 T You Survived!|R|Draenei|QID|9279|N|Further southwest at the crash site.|M|80.4,45.9|
@@ -14,6 +12,7 @@ T Replenishing the Healing Crystals|R|Draenei|QID|9280|M|80.4,45.9|Z|Azuremyst I
 A Volatile Mutations|QID|10302|M|79.1,46.5|Z|Azuremyst Isle|
 C Volatile Mutations|QID|10302|M|77.85,43.37|Z|Azuremyst Isle|
 T Volatile Mutations|QID|10302|N|Back at the camp|M|79.1,46.5|Z|Azuremyst Isle|
+
 A What Must Be Done...|QID|9293|M|79.1,46.5|Z|Azuremyst Isle|
 A Botanical Legwork|QID|9799|M|79.1,46.5|Z|Azuremyst Isle|
 A Urgent Delivery!|QID|9409|M|80.4,45.9|Z|Azuremyst Isle|
@@ -31,18 +30,33 @@ T Botanical Legwork|QID|9799|N|Back at the Crash Site.|M|79.1,46.5|Z|Azuremyst I
 T What Must Be Done...|QID|9293|M|79.1,46.5|Z|Azuremyst Isle|
 A Healing the Lake|QID|9294|M|79.1,46.5|Z|Azuremyst Isle|
 T Rescue the Survivors!|R|Draenei|QID|9283|M|80.1,48.8|Z|Azuremyst Isle|
-A The Light's Power|QID|26966|C|Paladin|M|79.75,48.34|Z|Azuremyst Isle|N|From Aurelon.|
-A Your First Lesson|QID|26958|C|Warrior|M|79.61,49.42|Z|Azuremyst Isle|N|From Kore.|
+
 N Shaman Training|QID|9421|C|Shaman|N|Get your new skills at the trainer.|M|79.3,49.1|Z|Azuremyst Isle|
 N Priest Training|QID|9291|C|Priest|N|Get your new skills at the trainer.|Z|Azuremyst Isle|
 N Hunter Training|QID|9288|C|Hunter|N|Get your new skills at the trainer.|Z|Azuremyst Isle|
 N Paladin Training|QID|9287|C|Paladin|N|Get your new skills at the trainer.|Z|Azuremyst Isle|
 N Warrior Training|QID|9289|C|Warrior|N|Get your new skills at the trainer.|Z|Azuremyst Isle|
 N Mage Training|QID|9290|C|Mage|N|Get your new skills at the trainer.|Z|Azuremyst Isle|
-C The Light's Power|QID|26966|C|Paladin|M|80.08,45.77|Z|Azuremyst Isle|N|Learn Seal of Righteousness and Judgement from Aurelon. Apply Seal of Righteousness, go the waypoint and use Judgement on a Training Dummy.|
-C Your First Lesson|QID|26958|C|Warrior|M|79.61,49.42|Z|Azuremyst Isle|N|Learn Charge from Kore. Go the waypoint and use Charge on a Training Dummy.|
-T The Light's Power|QID|26966|C|Paladin|M|79.75,48.34|Z|Azuremyst Isle|N|To Aurelon.|
-T Your First Lesson|QID|26958|C|Warrior|M|79.61,49.42|Z|Azuremyst Isle|N|To Kore.|
+
+A Your First Lesson|QID|27091|M|79.61,49.42|R|Draenei|C|Warrior|N|From Kore.|
+C Your First Lesson|QID|27091|M|80.08,45.77||R|Draenei|C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
+T Your First Lesson|QID|27091|M|79.61,49.42|R|Draenei|C|Warrior|N|To Kore.|
+A Arcane Missiles|QID|10068|R|Draenei|M|79.6,48.8|C|Mage|N|From Valaatu.|
+C Arcane Missiles|QID|10068|R|Draenei|M|80.08,45.77|C|Mage|N|Learn Arcane Missiles from Valaatu. Find a Training Dummy on the northwest side of the Crash Site and practice using Arcane Missiles 2 times. |
+T Arcane Missiles|QID|10068|R|Draenei|M|79.6,48.8|C|Mage|N|To Valaatu.|
+A Primal Strike|QID|10073|R|Draenei|M|79.9,49.1|C|Shaman|N|From Firmanvaar. |
+C Primal Strike|QID|10073|R|Draenei|M|80.08,45.77|C|Shaman|N|Learn Primal Strike from Firmanvaar. Find a Training Dummy on the northwest side of the Crash Site and practice using Primal Strike 3 times. |
+T Primal Strike|QID|10073|R|Draenei|M|79.9,49.1|C|Shaman|N|To Firmanvaar. |
+A Steadying Your Shot|QID|10070|R|Draenei|M|79.9,49.6|C|Hunter|N|From Keilnei.|
+C Steadying Your Shot|QID|10070|R|Draenei|M|80.08,45.77|C|Hunter|N|Learn Steady Shot from Keilnei. Find a Training Dummy on the northwest side of the Crash Site and practice using Steady Shot 5 times. |
+T Steadying Your Shot|QID|10070|R|Draenei|M|79.9,49.6|C|Hunter|N|To Keilnei.|
+A The Light's Power|QID|10069|R|Draenei|M|79.75,48.34|C|Paladin|N|From Aurelon.|
+C The Light's Power|QID|10069|R|Draenei|M|80.08,45.77|C|Paladin|N|Learn Seal of Righteousness and Judgement from Aurelon. Apply Seal of Righteousness, find a Training Dummy on the northwest side of the Crash Site and use Judgement. |
+T The Light's Power|QID|10069|R|Draenei|M|79.75,48.34|C|Paladin|N|To Aurelon|
+A Aiding the Injured|QID|10072|R|Draenei|M|80.1,48.5|C|Priest|N|From Zalduun.|
+C Aiding the Injured|QID|10072|R|Draenei|M|80.1,48.5|C|Priest|N|Learn Flash Heal from Zalduun. Use Flash Heal 5 times to heal the wounds of Injured Draenei at the Crash Site. |
+T Aiding the Injured|QID|10072|R|Draenei|M|80.1,48.5|C|Priest|N|To Zalduun.|
+
 r Sell junk and repair|QID|9305|N|At Mura, close this step when done.|M|79.19,50.93|Z|Azuremyst Isle|
 C Healing the Lake|QID|9294|N|Head south to the giant crystal and right-click it.|M|77,59|Z|Azuremyst Isle|
 C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|Z|Azuremyst Isle|S|
@@ -68,6 +82,7 @@ A The Emitter|QID|9312|M|79.5,51.4|Z|Azuremyst Isle|
 T The Emitter|QID|9312|M|79.5,51.4|Z|Azuremyst Isle|
 A Travel to Azure Watch|QID|9313|M|79.5,51.4|Z|Azuremyst Isle|
 r Sell junk and repair|QID|9452| |N|At Mura |M|79.19,50.93|Z|Azuremyst Isle|
+
 A Word from Azure Watch |QID|9314| |N|Go all the way to the west, and through the pass.|M|69,54;64.5,54.0|Z|Azuremyst Isle|
 A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|Z|Azuremyst Isle|
 C Red Snapper - Very Tasty!|N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an angry murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.| |QID|9452| |U|23654|M|62.31,55.11|Z|Azuremyst Isle|
@@ -96,6 +111,7 @@ T On the Wings of a Hippogryph|QID|9604|R|Draenei|M|57.03,50.14|Z|The Exodar|N|G
 A Hippogryph Master Stephanos|QID|9605|R|Draenei|Z|Azuremyst Isle|N|From Nurguni.|
 T Hippogryph Master Stephanos|QID|9605|R|Draenei|Z|The Exodar|N|Go to Hippogryph Master Stephanos.|
 A Return to Caregiver Chellan|QID|9606|R|Draenei|Z|The Exodar|N|From Stephanos.|
+
 F Azure Watch|QID|9606|R|Draenei|M|54.33,36.73|Z|The Exodar|N|Fly back to Azure Watch.|
 T Return to Caregiver Chellan|QID|9606|R|Draenei|M|48.39,49.25|Z|Azuremyst Isle|N|To Caregiver Chellan.|
 C The Great Moongraze Hunt|QID|9454|N|Kill Moongraze Stags.|S|Z|Azuremyst Isle|
@@ -120,6 +136,7 @@ A An Alternative Alternative|QID|R|Draenei|9473|M|48.4,51.8|Z|Azuremyst Isle|
 T The Great Moongraze Hunt|QID|9454|M|49.8,51.9|Z|Azuremyst Isle|
 A The Great Moongraze Hunt|QID|10324|M|49.8,51.9|Z|Azuremyst Isle|
 r Sell junk and repair|QID|9530|N|At Kioni|M|49.69,52.75|Z|Azuremyst Isle|
+
 C An Alternative Alternative|QID|9473|R|Draenei|S|N|Look for Azure Snapdragon Bulbs.|Z|Azuremyst Isle|
 C Precious and Fragile Things Need Special Handling|QID|9523|N|Go to the Wrathscale Point and collect Ancient Relics. Also kill any Naga you come across for Reclaiming the Ruins|M|35,75|Z|Azuremyst Isle|
 C Reclaiming the Ruins|QID|9513|N|Kill any Naga you still need for this quest.|Z|Azuremyst Isle|
@@ -142,6 +159,7 @@ A Totem of Coo|QID|9539|M|49.4,51.0|Z|Azuremyst Isle|
 N Find a Faintly Glowing Crystal.|QID|9455|L|23678|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal.|M|48.26,41.43|Z|Azuremyst Isle|
 A Strange Findings|N|Start this off the Faintly Glowing Crystal.|QID|9455|U|23678|M|48.26,41.43|Z|Azuremyst Isle|
 T Strange Findings|QID|9455|M|47.1,50.6|Z|Azuremyst Isle|
+
 A Nightstalker Clean Up, Isle 2...|QID|9456|M|47.1,50.6|Z|Azuremyst Isle|
 T Totem of Coo|N|Follow Stillpine Ancenstor Akida up the hill to the northeast.|QID|9539|M|55.2,41.6|Z|Azuremyst Isle|
 A Totem of Tikti|QID|9540|M|55.2,41.6|Z|Azuremyst Isle|
@@ -156,6 +174,7 @@ T Totem of Vark|N|Head to the totem.|QID|9542|M|28,62|Z|Azuremyst Isle|
 A The Prophecy of Akida|QID|9544|M|28.1,62.4|Z|Azuremyst Isle|
 C The Prophecy of Akida|N|Kill Bristlelimb Furbolgs in the camp and get the keys off them. Use them to unlock 8 cages.|QID|9544|M|28.5,66.4|Z|Azuremyst Isle|
 C Warlord Sriss'tiz|QID|9515|N|Go back to the main island, to a cave in Wrathscale Point. Drop down the hole just inside the cave, then kill Warlord Sriss'Tiz.|M|27,77;26.34,73.90;25.12,74.19|Z|Azuremyst Isle|
+
 C Tree's Company|N|Fight your way out of the cavem then go far southwest to a Naga Flag. Use your Tree Disguise Kit and wait for the complete message.|QID|9531|U|23792|M|18.48,84.33|Z|Azuremyst Isle|
 A A Cry For Help|N|On the northern side of the island, behind a fallen tree.| |QID|9528|M|14,75|Z|Azuremyst Isle|
 C A Cry For Help|N|Escort Magwin across the island, defending her from the owlkin. You'll end up at the next quest NPC we need.| |QID|9528|M|16.6,94.5|Z|Azuremyst Isle|
@@ -180,6 +199,7 @@ H Azure Watch|QID|9602|N|Or run if your Hearthstone is on cooldown.|U|6948|Z|Azu
 T Deliver Them From Evil...|QID|9602|M|47.1,50.6|Z|Azuremyst Isle|
 A Coming of Age|QID|9623|M|47.1,50.6|Z|Azuremyst Isle|
 r Sell junk and repair|QID|9559|N|At Kioni|M|49.69,52.75|Z|Azuremyst Isle|
+
 R Stillpine Hold|QID|9559|N|To the north of Azure Watch.|M|46,20|Z|Azuremyst Isle|
 A Beasts of the Apocalypse!|QID|9560|M|44.8,23.9|Z|Azuremyst Isle|
 A Murlocs... Why Here? Why Now?|QID|9562|M|44.7,23.6|Z|Azuremyst Isle|

@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('BitAra2025', 'Arathi Highlands', 'Bitsem', '25', '30', 'filler', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('BitAra2025', 'Arathi Highlands', 'Bitsem', '25', '30', 'CraHin3035', 'Alliance', function()
 return [[
 
 T Into Arathi|QID|26139|O|M|39.92,48.73|Z|Arathi Highlands|N|To Captain Nials.|

@@ -1,7 +1,7 @@
 WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
 return [[
 
-N Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|
+N Mt. Hyjal|QID|25316|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|
 A A Personal Summons|QID|28825|M|71.44,72.32|Z|Stormwind City|
 h Trade District|QID|28825|M|60.36,75.20|Z|Stormwind City|N|At Innkeeper Allison.|
 A Hero's Call: Mount Hyjal!|QID|27726|M|62.87,71.59|Z|Stormwind City|N|From Innkeeper Allison.|
@@ -26,13 +26,13 @@ A Flames from Above|QID|25574|PRE|25370|RANK|2|M|64.06,22.51|N|From Tholo Whiteh
 C Flames from Above|QID|25574|RANK|2|U|55122|M|55.80,15.33|N|Use Tholo's Horn in the middle of the Twilight encampment.|
 T Flames from Above|QID|25574|RANK|2|M|64.05,22.50|N|To Tholo Whitehoof.|
 T Protect the World Tree|QID|25317|M|47.68,35.51|N|To Malfurion Stormrage.|
-A War on the Twilight's Hammer|QID|25319|PRE|25317|M|47.68,35.51|N|From Malfurion Stormrage.|
-A The Flameseer's Staff|QID|25472|PRE|25317|M|47.68,35.51|N|From Windspeaker Tamila.|
+A War on the Twilight's Hammer|QID|25319|M|47.68,35.51|N|From Malfurion Stormrage.|
+A The Flameseer's Staff|QID|25472|M|47.68,35.51|N|From Windspeaker Tamila.|
 C The Flameseer's Staff|QID|25472|M|43.41,28.80|
 C War on the Twilight's Hammer|QID|25319|M|47.09,30.18|
 T War on the Twilight's Hammer|QID|25319|M|47.74,35.43|N|To Malfurion Stormrage.|
 T The Flameseer's Staff|QID|25472|M|47.74,35.43|N|To Malfurion Stormrage.|
-A Flamebreaker|QID|25323|PRE|25319;25472|M|47.74,35.43|N|From Malfurion Stormrage.|
+A Flamebreaker|QID|25323|M|47.74,35.43|N|From Malfurion Stormrage.|
 C Flamebreaker|QID|25323|U|53107|M|43.99,33.22|Use the Flameseer's Staff on the Blazebound Elementals in the charred areas around The Verdant Thicket. This will break up the elementals into 8-10 smaller elementals. Kill these Unbound Flame Spirits.|
 T Flamebreaker|QID|25323|M|47.67,35.47|N|To Malfurion Stormrage.|
 A The Return of Baron Geddon|QID|25464|PRE|25323|M|47.67,35.47|N|From Malfurion Stormrage.|
@@ -136,7 +136,7 @@ T Sweeping the Shelf|QID|25352|RANK|2|M|28.19,29.83|N|To Ian Duran.|
 T Return from the Firelands|QID|25611|M|28.19,29.83|N|To Ian Duran.|
 A Aviana's Legacy|QID|27874|PRE|25611|M|28.4,29.8|N|From Vision of Ysera.|
 A The Fires of Mount Hyjal|QID|25630|PRE|25611|M|28.18,29.87|N|From Rio Duran.|
-f Shrine of Aviana|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
+f Shrine of Aviana|QID|25630|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
 T Aviana's Legacy|QID|27874|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|
 T Wings Over Mount Hyjal|QID|25985|RANK|2|M|44.37,46.21|N|To Choluna.|
 A An Offering for Aviana|QID|25663|PRE|27874|M|44.39,46.21|N|From Choluna.|
@@ -172,7 +172,7 @@ A A New Master|QID|25411|PRE|25408|M|22.18,44.83|N|From Tyrus Blackhorn.|
 T The Fires of Mount Hyjal|QID|25630|M|19.02,40.99|N|At Laina Nightsky just outside of the grove.|
 L Level 81|QID|25630|LVL|81|N|You should be around level 81 by this point.|
 A Fighting Fire With ... Anything|QID|25381|PRE|25630|RANK|2|M|19.02,40.99|N|From Laina Nightsky.|
-A Disrupting the Rituals|QID|25382|PRE|25382|RANK|2|M|19.02,40.99|N|From Laina Nightsky.|
+A Disrupting the Rituals|QID|25382|PRE|25630|RANK|2|M|19.02,40.99|N|From Laina Nightsky.|
 C A New Master|QID|25411|U|53120|M|14.54,45.26|N|Kill a Twilight Inferno Lord and then use the Bottled Bileberry Brew on him to complete A New Master.|
 T A New Master|QID|25411|M|14.54,45.26|N|To Subjugated Inferno Lord.|
 A The Name Never Spoken|QID|25412|PRE|25411|M|14.54,45.26|N|From Subjugated Inferno Lord.|
@@ -190,7 +190,7 @@ T Disrupting the Rituals|QID|25382|RANK|2|M|18.95,40.99|N|To Laina Nightsky.|
 T Save the Wee Animals|QID|25385|M|19.25,37.95|N|To Mylune.|
 A Oh, Deer!|QID|25392|PRE|25385|M|19.25,37.95|N|From Mylune.|
 T The Name Never Spoken|QID|25412|M|22.23,44.93|N|To Tyrus Blackhorn.|
-A Black Heart of Flame|QID|25428|PRE|25428|M|22.23,44.93|N|From Tyrus Blackhorn.|
+A Black Heart of Flame|QID|25428|PRE|25412|M|22.23,44.93|N|From Tyrus Blackhorn.|
 C Black Heart of Flame|QID|25428|U|53464|M|12.37,44.26|
 C Oh, Deer!|QID|25392|M|18.99,37.66|
 T Oh, Deer!|QID|25392|M|19.24,37.81|N|To Mylune.|
@@ -342,14 +342,14 @@ K Spinescale Basilisk|QID|25294|L|52708 5|M|89.55,49.35|N|Kill Spinescale Basili
 C Physical Training: Forced Labor|QID|25509|US|U|54788|M|89.55,49.35|N|use the Twilight Pick on Darkwhisper Lodestones.|
 C Walking the Dog|QID|25294|U|52717|M|92.43,50.73|N|Once back in the camp, use the Firey Leash to summon the Spawn of Smolderos. Feed him the 5 Charred Basilisk Meat.|
 T Walking the Dog|QID|25294|M|90.11,56.32|N|To Instructor Devoran.|
-A A Champion's Collar|QID|25494|PRE|25594|M|90.11,56.32|N|From Instructor Devoran.|
+A A Champion's Collar|QID|25494|PRE|25294|M|90.11,56.32|N|From Instructor Devoran.|
 T Gather the Intelligence|QID|25296|M|88.32,58.52|N|To Instructor Devoran.|
 A Seeds of Discord|QID|25308|PRE|25296|M|88.32,58.52|N|From Instructor Devoran.|
 T Physical Training: Forced Labor|QID|25509|M|89.58,59.06|N|To Instructor Mylva.|
 A Agility Training: Run Like Hell!|QID|25499|PRE|25509|M|89.53,58.98|N|From Instructor Mylva.|
 T Walking the Dog|QID|25294|M|90.14,56.50|N|To Instructor Devoran.|
 C Agility Training: Run Like Hell!|QID|25499|M|88.64,57.99|
-L Level 82|QID|25494|LVL|82|N|You should be around level 82 by this point.|
+L Level 82|QID|25499|LVL|82|N|You should be around level 82 by this point.|
 T Agility Training: Run Like Hell!|QID|25499|M|89.53,59.09|N|To Instructor Mylva.|
 A Mental Training: Speaking the Truth to Power|QID|25299|PRE|25499|M|89.53,59.09|N|From Instructor Mylva.|
 C Mental Training: Speaking the Truth to Power|QID|25299|U|52828|M|89.58,59.03|N|Use the Orb of Ascension. You will be asked 10 yes/no questions. The questions are simple and the answers are VERY obvious. Dismiss the Orb once you get the quest completed message.|
@@ -358,7 +358,7 @@ A Spiritual Training: Mercy is for the Weak|QID|25309|PRE|25299|M|89.58,59.03|N|
 C Spiritual Training: Mercy is for the Weak|QID|25309|M|92.11,48.36|N|Go back to Doom's Vigil. To your left as you enter the camp, you will see a group of Failed Supplicants. Kill 5 Failed Supplicants.|
 C A Champion's Collar|QID|25494|M|84.20,47.31|N|Leave the camp and follow the road when it turns north. You will find the Spinescale Matriarch. Kill her and loot the Spiked Basilisk Hide.|
 T A Champion's Collar|QID|25494|M|90.14,56.49|N|To Instructor Devoran.|
-A Grudge Match|QID|25496|PRE|25496|M|90.14,56.49|N|From Instructor Devoran.|
+A Grudge Match|QID|25496|PRE|25494|M|90.14,56.49|N|From Instructor Devoran.|
 C Grudge Match|QID|25496|M|77.86,51.18|N|Leave the camp and go to the Seat of the Chosen. Go to the first building on your left as you enter the camp. Speak to Gromm'ko to challenge him to a match. Once your core hound pup kills his raptor, Gromm'ko will attack you.|
 C Seeds of Discord|QID|25308|U|55137|M|76.62,48.71|N|Go to the Ogre Outhouse on the right side of the large building. Use the Ogre Disguise near the outhouse to transform into an ogre. Enter the large building. Speak to Karr'gonn to get him to leave the room. As soon as he is outside, kill High Cultist Azennios.|
 T Grudge Match|QID|25496|M|90.12,56.45|N|To Instructor Devoran.|

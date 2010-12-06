@@ -1,6 +1,7 @@
 WoWPro.Leveling:RegisterGuide('AriVas8082', "Vash'jir", 'Arixan', '80', '82', 'AriDee8283', 'Horde', function() 
 return [[
 
+N Rest of Guide to Come!|QID|99999|N|This guide is here, but it's only half done. Unfortunately, though we worked our hardest, we were unable to complete this guide before relase. There is a full Mount Hyjal guide, and every other Horde guide (including Deepholm, Uldum, and the Twilight Highlands) is here. This guide will be updated within the week.|
 A Warchief's Command: Vashj'ir!|QID|27718|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|
 T Warchief's Command: Vashj'ir!|QID|27718|M|55.84,12.29|Z|Durotar|N|To Commander Thorak inside the tower.|
 A Call of Duty|QID|25924|M|55.84,12.29|Z|Durotar|N|From Commander Thorak.|
@@ -117,6 +118,7 @@ A Debriefing|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|From Erunak Stonespeak
 C Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|Talk to Gurrok to complete this quest.|
 T Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Wake of Destruction|QID|25887|M|63.92,59.76|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
+N Rest of Guide to Come!|QID|99999|N|Unfortunately, though we worked our hardest, we were unable to complete this guide before relase. There is a full Mount Hyjal guide, and every other Horde guide (including Deepholm, Uldum, and the Twilight Highlands) is here. This guide will be updated within the week.|
 ]]
 
 end)

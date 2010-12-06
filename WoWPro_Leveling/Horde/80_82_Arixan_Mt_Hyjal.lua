@@ -1,9 +1,7 @@
 WoWPro.Leveling:RegisterGuide('AriMtH8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriVas8082', 'Horde', function() 
-return [[
-
-N Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|
-R Orgrimmar|QID|27721|Z|Orgrimmar|N|Make your way to Orgimmar.|
-A Warchief's Command: Mount Hyjal|QID|27721|M|49.7,76.7|Z|Orgirmmar|N|Get the quest from the Warchief's Command Board.|
+return [[N Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|
+R Orgrimmar|QID|27721|Z|Orgrimmar|N|Make your way to Orgrimmar.|
+A Warchief's Command: Mount Hyjal|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board.|
 N Talk to Cenarion Emissary Blackhoof|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|In the Valley of Wisdom.|
 T Warchief's Command: Mount Hyjal|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|
 A As Hyjal Burns|QID|25316|M|45.5,44.7|Z|Moonglade|
@@ -35,7 +33,7 @@ A Flamebreaker|QID|25323|M|47.7,35.4|N|From Malfurion Stormrage.|
 C Flamebreaker|QID|25323|M|48.2,29.5;47.5,21.5|N|Use the Flameseer's Staff on the Blazebound Elementals in the charred areas around The Verdant Thicket. This will break up the elementals into 8-10 smaller elementals. Kill these Unbound Flame Spirits.|
 T Flamebreaker|QID|25323|M|47.7,35.4|N|Back at Malfurion Stormrage.|
 A The Return of Baron Geddon|QID|25464|M|47.7,35.4|
-C The Return of Baron Geddon|QID|25464|M|44.1,27.0|N|Go The Circle of Cinders, where you will find Baron Geddon. You need to use the Flameseer's Staff  on him. Every 10 seconds or so, he will begin to channel an AOE fire effect that will hurt you badly, forcing you to move away. When the fire dies down, run back in and use the staff again.|
+C The Return of Baron Geddon|QID|25464|M|44.1,27.0|N|Go The Circle of Cinders, where you will find Baron Geddon. You need to use the Flameseer's Staff on him. Every 10 seconds or so, he will begin to channel an AOE fire effect that will hurt you badly, forcing you to move away. When the fire dies down, run back in and use the staff again.|
 N The Revenge of Baron Geddon|QID|25464|N|As soon as the quest is complete, Baron Geddon will cast Living Bomb on you. After about 10 seconds, you will blow up, causing you to fly into the air (you will take some falling damage) and dealing damage to anyone around you. So get away from everyone until it goes off.|
 T The Return of Baron Geddon|QID|25464|M|47.7,35.4|N|Back at Malfurion Stormrage.|
 A Emerald Allies|QID|25430|M|47.7,35.4|N|From Windspeaker Tamila.|
@@ -156,7 +154,7 @@ f Grove of Aessina|QID|25404|M|19.58,36.42|N|At Elizil Wintermoth.|
 C If You're Not Against Us...|QID|25404|M|22.18,44.91|
 T If You're Not Against Us...|QID|25404|M|22.18,44.91|N|To Tyrus Blackhorn.|
 A Seeds of Their Demise|QID|25408|M|22.18,44.91|N|Leave the shrine and go slightly east up the road to a small tower. Find Tyrus Blackhorn at the base of the tower. From Tyrus Blackhorn.|
-C Seeds of Their Demise|QID|25408|M|21.63,43.89|N|Kill Wailing Weeds in the area directly surrounding the tower until you get 8 Bileberry.  AE spells and abilities are the most effective method.|
+C Seeds of Their Demise|QID|25408|M|21.63,43.89|N|Kill Wailing Weeds in the area directly surrounding the tower until you get 8 Bileberry. AE spells and abilities are the most effective method.|
 T Seeds of Their Demise|QID|25408|M|22.18,44.83|N|To Tyrus Blackhorn.|
 A A New Master|QID|25411|M|22.18,44.83|N|From Tyrus Blackhorn.|
 T The Fires of Mount Hyjal|QID|25630|M|19.02,40.99|N|At Laina Nightsky just outside of the grove.|
@@ -168,7 +166,7 @@ A The Name Never Spoken|QID|25412|M|14.54,45.26|N|From Subjugated Inferno Lord.|
 C Save the Wee Animals|QID|25385|S|M|13.57,39.83|
 C Disrupting the Rituals|QID|25382|S|M|12.02,38.36|
 C Fighting Fire With ... Anything|QID|25381|S|M|13.72,46.89|
-N The Name Never Spoken|QID|25412|QO|Southern Firestone Examined: 1/1|M|14.33,45.33|N|The first firestone is in the southern end of the charred zoned.  Clear the mobs and right-click to examine it.|
+N The Name Never Spoken|QID|25412|QO|Southern Firestone Examined: 1/1|M|14.33,45.33|N|The first firestone is in the southern end of the charred zoned. Clear the mobs and right-click to examine it.|
 N The Name Never Spoken|QID|25412|QO|Central Firestone Examined: 1/1|M|11.61,41.50|N|The second firestone is just a bit north of the southern stone.|
 C The Name Never Spoken|QID|25412|M|9.63,36.45|N|The last firestone is just north of the central stone.|
 C Save the Wee Animals|QID|25385|US|M|13.57,39.83|

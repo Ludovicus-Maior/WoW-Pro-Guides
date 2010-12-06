@@ -1,7 +1,5 @@
 WoWPro.Leveling:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', '82', '83', 'AriUld8384', 'Horde', function()
-return [[
-
-A Warchief's Command: Deepholm!|QID|27722|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|
+return [[A Warchief's Command: Deepholm!|QID|27722|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|
 T Warchief's Command: Deepholm!|QID|27722|M|50.30,38.24|Z|Orgrimmar|N|To Farseer Krogar.|
 
 A The Maelstrom|QID|27203|M|50.30,38.24|Z|Orgrimmar|N|From Farseer Krogar.|
@@ -428,7 +426,7 @@ C Therazane's Mercy|QID|26831|QO|High Priestess Lorthuna defeated: 1/1|M|62.50,3
 C Therazane's Mercy|QID|26831|QO|Boldrich Stonerender defeated: 1/1|N|Head west to find him.|
 C The Twilight Flight|QID|26831|M|63.20,38.20|N|Fight, chase, Kill!|
 
-T The Twilight Flight|QID|26731|M|64.10,36.90|N|To Terath.|
+T The Twilight Flight|QID|26831|M|64.10,36.90|N|To Terath.|
 C The Stone March|QID|26829|M|62.00,35.60|US|N|Finish killing Cultists.|
 
 T The Stone March|QID|26829|M|63.30,25.10|N|To Therazane.|

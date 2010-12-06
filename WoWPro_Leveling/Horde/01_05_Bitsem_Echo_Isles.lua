@@ -1,7 +1,5 @@
 WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar - Echo Isles (Troll)', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', function()
-return [[
-
-A The Rise of the Darkspear|RANK|1|QID|24764|C|Druid|M|62.43,84.53|N|From Jin'thala.|
+return [[A The Rise of the Darkspear|RANK|1|QID|24764|C|Druid|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24750|C|Mage|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24770|C|Rogue|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24607|C|Warrior|M|62.43,84.53|N|From Jin'thala.|
@@ -118,7 +116,7 @@ C The Arts of a Rogue|RANK|1|QID|24772|C|Rogue|M|65.90,83.24|N|Train Stealth and
 C The Arts of a Warrior|RANK|1|QID|24640|C|Warrior|M|65.39,84.16|N|Train Charge and practice on Tiki Target.|
 C The Arts of a Warlock|RANK|1|QID|26274|C|Warlock|M|64.92,83.26|N|Train Immolate and practice.|
 C The Arts of a Priest|RANK|1|QID|24784|C|Priest|M|67.66,83.02|N|Train Power Word: Fortitude and practice.|
-C The Arts of a Shaman|RANK|1|QID|24760|C|Shaman|M|64.94,84.21|N|Train Rockbiter and practice.|
+C The Arts of a Shaman|RANK|1|QID|24760|C|Shaman|M|64.94,84.21|N|Train Primal Strike and practice.|
 C The Arts of a Hunter|RANK|1|QID|24778|C|Hunter|M|67.09,83.30|N|Train Steady Shot and practice.|
 
 T The Arts of a Druid|RANK|1|QID|24766|C|Druid|M|67.66,84.58|N|To Zen'tabra.|
@@ -167,7 +165,6 @@ C Consort of the Sea Witch|RANK|1|QID|24625|M|60.48,89.62|N|Kill Naj'tess and re
 C Saving the Young|RANK|1|QID|24623|U|52283|US|M|60.48,89.62|N|Use the Bloodtalon Whistle to rescue 12 Lost Bloodtalon Hatchlings.|
 C Mercy for the Lost|RANK|1|QID|24624|US|M|59.65,88.83|N|Kill 8 Corrupted Bloodtalon Raptors.|
 
-
 T Saving the Young|RANK|1|QID|24623|M|63.37,95.19|N|To Kijara.|
 T Mercy for the Lost|RANK|1|QID|24624|M|63.37,95.19|N|To Tegashi.|
 T Consort of the Sea Witch|RANK|1|QID|24625|M|63.37,95.19|N|To Tegashi.|
@@ -194,7 +191,7 @@ A An Ancient Enemy|RANK|1|QID|24814|PRE|24813|M|67.95,74.05|N|From Morakki.|
 
 C An Ancient Enemy|RANK|1|QID|24814|M|68.43,71.99|N|Speak with Vol'jin in Spitescale Cove and aid him in killing Zar'jira, the Sea Witch. Go East, then North, up the hill.|
 N An Ancient Enemy|RANK|1|QID|24814|M|68.43,71.99|N|There will be Totems for health and mana. Concentrate on Manifestations and stomp Braziers when necessary.|
-N An Ancient Enemy|RANK|1|QID|24814|M|68.43,71.55|N|Speak with Vanira for Teleport vack to Darkspear Hold.|
+N An Ancient Enemy|RANK|1|QID|24814|M|68.43,71.55|N|Speak with Vanira for Teleport back to Darkspear Hold.|
 
 T An Ancient Enemy|RANK|1|QID|24814|M|68.81,88.64|N|To Vol'jin.|
 A Sen'jin Village|RANK|1|QID|25073|PRE|24814|M|68.86,88.73|N|From Vol'jin.|

@@ -1,11 +1,10 @@
 WoWPro.Leveling:RegisterGuide('CraBad4548', 'Badlands', 'Crackerhead22', '45', '48', 'CraSea4850', 'Alliance', function()
-return [[
-
-A Hero's Call: Badlands!|QID|28579|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|
-H Hearth back to Light's Hope Chapel.|QID|99999|
-T Fuselight, Ho!|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|From Gek Nozzlerocket.|
+return [[A Hero's Call: Badlands!|QID|28579|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|
+H Light's Hope Chapel|QID|27762|N|Hearth back to Light's Hope Chapel, or fly if your hearth is on cooldown.|
+A Fuselight, Ho!|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|From Gek Nozzlerocket.|
 C Fuselight, Ho!|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|Click on "The Uncrashable" behind Gek.|
-A To Fuselight Proper|QID|27763|M|92.48,38.94|N|From Eddie Flofizzle.|
+T Fuselight, Ho!|QID|27762|M|92.6,38.9|N|From Gek Nozzlerocket.|
+A To Fuselight Proper|QID|27763|M|92.48,38.94|N|Report to Eddie Flofizzle.|
 R To Fuselight Proper|QID|27763|M|88.13,32.54|Z|Badlands|N|Run to the teleporter.|CC|
 f Fuselight|QID|27763|M|82.02,30.88;74.93,33.86;68.62,30.77;70.17,35.40;67.94,35.65;64.35,35.24|N|At Mixi Sweetride.|
 h Fuselight|QID|27763|M|65.88,35.85|N|At Sally Gearwell.|
@@ -45,7 +44,7 @@ A Dustwind Dig|QID|27791|M|47.05,56.55|N|From Dr. Hieronymus Blam.|
 T Dustwind Dig|QID|27791|M|49.19,36.84|N|To Lead Prospector Durdin.|
 A All's Fair in Love, War, and Archaeology|QID|27792|M|49.19,36.84|N|From Lead Prospector Durdin.|
 f Dustwind Dig|QID|27772|M|48.90,36.33|N|At Nancy Skybrew.|
-r Sell junk, repair/restock.|QID|99999|
+r Sell junk, repair/restock.|QID|27823|
 A A Dwarf's Got Needs|QID|27823|M|49.44,37.11|N|From Sigrun Ironhew.|
 C A Dwarf's Got Needs|QID|27823|M|49.03,28.78|N|Kill Dark Iron Dwarves to obtain 15 mugs of "Shadowstout".|
 T A Dwarf's Got Needs|QID|27823|M|49.39,36.93|N|To Sigrun Ironhew.|
@@ -108,7 +107,7 @@ T Olaf, the Big Fella'|QID|27835|M|20.53,55.94|N|To Olaf.|
 T Baelog, the Glass Cannon|QID|27834|M|20.53,55.94|N|To Baelog.|
 T Eric, the Utility Dwarf|QID|27828|M|20.53,55.94|N|To Eric "The Swift".|
 A The Wrath of a Dragonflight|QID|27829|M|20.53,55.94|N|From Eric "The Swift".|
-N Note:|QID|99999|N|Abuse the heck out of Eric's, "Eric's Charge" ability as it is a stun. Especially when fighting the elites.|
+N Note:|QID|27829|N|Abuse the heck out of Eric's, "Eric's Charge" ability as it is a stun. Especially when fighting the elites. Close this step.|
 C The Wrath of a Dragonflight|QID|27829|M|26.38,45.02|N|Kalaran wanders around so look for his boss icon on the minimap.|
 T The Wrath of a Dragonflight|QID|27829|M|26.12,45.32|
 A Their Hunt Continues|QID|27830|M|26.12,45.32|
@@ -126,13 +125,13 @@ T Rheastrasza's Gift|QID|27858|M|17.47,30.64|
 A Devastation|QID|27930|M|17.47,30.64|
 T Devastation|QID|27930|M|18.77,30.16|N|Go inside the cave.|
 A The Egg Lives On|QID|27859|M|17.98,30.55|N|From Dr. Hieronymus Blam. Close this step when done.|
-H Hearth back to Dragon's Mouth.|QID|99999|
-r Sell junk, repair/restock.|QID|99999|
+H Dragon's Mouth|QID|27825|N|Hearth back to Dragon's Mouth or run if your hearth is on cooldown.|
+r Sell junk, repair/restock.|QID|27825|
 C Survival of the Fattest|QID|27825|M|11.84,71.49|N|Kill ogres as you head towards the cave. Loot the glowing things.|
 C Half-Ton Holdouts|QID|27833|M|14.71,63.74|N|Head back outside the cave to kill the rest of the ogres that you need.|
 T Survival of the Fattest|QID|27825|M|20.74,55.86|N|To Victoria Dolen.|
 T Half-Ton Holdouts|QID|27833|M|20.96,57.39|N|To Terrance Storm.|
-F Stormwind City|QID|99999|M|21.78,57.70|N|Fly to Stormwind visit your trainers, and AH.|
+F Stormwind City|M|21.78,57.70|N|Fly to Stormwind visit your trainers, and AH.|
 ]]
 
 end)
