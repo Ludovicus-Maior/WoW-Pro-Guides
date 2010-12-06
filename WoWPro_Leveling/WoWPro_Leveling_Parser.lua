@@ -189,8 +189,13 @@ local function ParseQuests(...)
 		local text = select(j, ...)
 		if text ~= "" then
 			local class, race = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?")
-			if class ~= nil then
-				class = strupper(class)
+			if class then
+				-- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
+				class = strupper(strreplace(class, " ", ""))
+			end
+			if race then
+				-- deleting whitespaces to compare with Blizzard's race tokens
+				race = strreplace(race, " ", "")
 			end
 			if class == nil or class:find(myclass) then if race == nil or race:find(myrace) then
 				_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
@@ -214,7 +219,7 @@ local function ParseQuests(...)
 				end
 				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
 
-				if WoWPro.action[i] == "R" and WoWPro.map[i] then
+				if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
 					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
 					elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
 					else WoWPro.waypcomplete[i] = false end

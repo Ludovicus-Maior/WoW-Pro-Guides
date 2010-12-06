@@ -247,10 +247,17 @@ function WoWPro:findBlizzCoords(questId)
     	if not POIFrame then return nil, nil end
 
     	local _, _, _, x, y = POIFrame:GetPoint()
+		
+		-- sanity check if there's a problem with Blizzard's quest map POI APIs
+		if (not x) or (not y) then
+			return nil, nil
+    	end
+		
     	local frame = WorldMapDetailFrame
     	local width = frame:GetWidth()
     	local height = frame:GetHeight()
     	local scale = frame:GetScale() / POIFrame:GetScale()
+		
     	local cx = (x / scale) / width
     	local cy = (-y / scale) / height
 
