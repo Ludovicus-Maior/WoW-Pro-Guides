@@ -311,11 +311,10 @@ A Violent Gale|QID|26426|M|From Diamant the Patient.|
 C Violent Gale|QID|26426|M|52.00,32.00;58.00,25.00|
 T Violent Gale|QID|26426|
 A Depth of the Depths|QID|26869|
-C Depth of the Depths|QID|26869|N|Follow the main path until you reach a fork.Wait for the Colossal Gyreworm to go by then start running down the right fork. Follow this around until you reach a small branch to you right. Duck into this and wait for the elite to path by again, then continue up the tunnel, following the elite. Take the next right. Hug the wall to your right until you enter a short tunnel. Follow this to another chamber. Keep hugging the right wall and enter the first tunnel you come to. This will lead to the chamber with the stone you are looking for.
-T Depth of the Depths|QID|26869|M|66.40,20.60|N|Click on the stone.|
+T Depth of the Depths|QID|26869|M|66.40,20.60|N|Mount up on a ground mount and then follow the main path until you reach a fork.Wait for the Colossal Gyreworm to go by then start running down the right fork. Follow this around until you reach a small branch to you right. Duck into this and wait for the elite to path by again, then continue up the tunnel, following the elite. Take the next right. Hug the wall to your right until you enter a short tunnel. Follow this to another chamber. Keep hugging the right wall and enter the first tunnel you come to. This will lead to the chamber with the stone you are looking for.|
 A A Rock Amongst Many|QID|26871|M|66.40,20.60|N|From the Gigantic Painite Cluster.|
 
-T A Rock Amongst Many|QID|26871|N|Don’t go back the way you came. Take the exit directly in front of you, into another tunnel. Keep the wall on your right side as you follow this tunnel. At the end of it, you will drop down into the large central chamber. To your left is the circular tunnel that the Colossal Gyreworm paths around. Wait for him to go by, then follow him down the right fork. There will be some stones blocking the way, but they can be hopped over. Take the first right you can, and follow this tunnel all the way to the exit.
+T A Rock Amongst Many|QID|26871|N|Don't go back the way you came. Take the exit directly in front of you, into another tunnel. Keep the wall on your right side as you follow this tunnel. At the end of it, you will drop down into the large central chamber. To your left is the circular tunnel that the Colossal Gyreworm paths around. Wait for him to go by, then follow him down the right fork. There will be some stones blocking the way, but they can be hopped over. Take the first right you can, and follow this tunnel all the way to the exit.
 A Entrenched|QID|26436|M|56.5,42.5|N|From Diamant the Patient.|
 
 T Entrenched|QID|26436|M|34.40,34.40|N|To Kor the Immovable. He's way to the West.|
@@ -336,17 +335,17 @@ A Pebble|QID|28869|M|34.40,34.40|N|From Kor the Immovable.|
 T Pebble|QID|28869|N|To Pebble.|
 A Clingy|QID|26440|N|From Pebble.|
 
-C Clingy|QID|26440|M|30.00,46.00|N|Pebble will begin “harvesting” the crystal. Defend him.|
+C Clingy|QID|26440|M|30.00,46.00|N|Pebble will begin "harvesting" the crystal. Defend him.|
 T Clingy|QID|26440|N|To Pebble.|
 A So Big, So Round...|QID|26441|N|From Pebble.|
-T So Big, So Round...|QID|26441|N|To Kor the Immovable|
+T So Big, So Round...|QID|26441|M|34.40,34.40|N|To Kor the Immovable|
 A Petrified Delicacies|QID|26507|M|34.40,34.40|N|From Kor the Immovable.|
 A Rock Bottom|QID|26575|M|34.40,34.40|N|From Kor the Immovable.|
 
 C Petrified Delicacies|QID|26507|N|Head to the shelf to the northeast. Loot any Petrified Bats off the ground. The basilisks in the area can also drop them.
 T Petrified Delicacies|QID|26507|N|To Pebbles, who should still be following you around|
 
-C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite’s eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
+C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite's eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
 
 T Rock Bottom|QID|26575|M|34.40,34.40|N|To Kor the Immovable.|
 A Steady Hand|QID|26576|M|34.40,34.40|N|From Kor the Immovable.|
@@ -396,7 +395,7 @@ A Corruption Destuction|QID|26585|M|72.20,53.90|N|From Gorsik the Tumultuous.|
 A Wrath of the Fungalmancer|QID|26583|M|68.50,26.30|N|From Ruberick.|
 C Shaken and Stirred|QID|26584|N|Right behind Ruberick, you may have notice there are troggs raining from the sky. Kill 8 of these Verlock Pillartumblers.|
 
-N Wrath of the Fungalmancer|QID|26583|N|Go in the direction Ruberick is facing, until you enter Fungal Deep. Follow the cave down until you run into Earthmender Norsala. If you reach a point where the path splits off in different directions, it means someone else is doing the event. Wait a couple minutes and she should re-appear.|
+N Wrath of the Fungalmancer|QID|26583|M|69.8,31.8|N|Go in the direction Ruberick is facing, until you enter Fungal Deep. Follow the cave down until you run into Earthmender Norsala. If you reach a point where the path splits off in different directions, it means someone else is doing the event. Wait a couple minutes and she should re-appear.|
 N Wrath of the Fungalmancer|QID|26583|N|Speak to Norsala and let her know you are ready to start the event.Follow him, attacking when you can.|
 C Wrath of the Fungalmancer|QID|26583|N|He’ll lead you on a merry chase through his cave, stopping a couple times. Be sure to watch out for the mushrooms he throws each time he stops. They will start small and begin growing, eventually exploding for a moderate amount of damage that hits everyone within 5 yards or so. You can stop this by attacking the mushrooms.|
 T Wrath of the Fungalmancer|QID|26583|M|68.50,26.30|N|Once Glop makes his last stand and is finished off, take the path to your left, then turn right to head out of the cave.|
