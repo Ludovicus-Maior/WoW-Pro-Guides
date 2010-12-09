@@ -64,12 +64,12 @@ A Deathwing's Fall|QID|26258|M|49.63,52.97|N|From Maruut Stonebinder.|
 A Blood of the Earthwarder|QID|26259|M|49.69,52.99|N|From Seer Kormo.|
 
 C Blood of the Earthwarder|QID|26259|M|52.75,58.67|N|Leave the temple and go to The Blood Trail. All along the chain of small lava pools you will find Living Blood. Kill them until you have collected 5 Blood of Neltharion.|
-C Deathwing's Fall|QID|26258|NC|M|59.01,58.69|N|When you have finished, mount up and follow The Blood Trail until you reach Deathwing?s Fall. You will get the quest complete message.|
+C Deathwing's Fall|QID|26258|NC|M|59.01,58.69|N|When you have finished, mount up and follow The Blood Trail until you reach Deathwing's Fall. You will get the quest complete message.|
 
 T Deathwing's Fall|QID|26258|M|59.17,58.70|
 A Bleed the Bloodshaper|QID|26256|M|59.17,58.70|
 
-C Bleed the Bloodshaper|QID|26256|M|61.21,59.44|N|Find and kill a Twilight Bloodshaper in the area around Deathwing?s Fall. He should drop the Twilight Orders.|
+C Bleed the Bloodshaper|QID|26256|M|61.21,59.44|N|Find and kill a Twilight Bloodshaper in the area around Deathwing's Fall. He should drop the Twilight Orders.|
 
 T Bleed the Bloodshaper|QID|26256|M|61.32,58.76|
 A Question the Slaves|QID|26261|M|61.32,58.76|
@@ -80,7 +80,7 @@ C Question the Slaves|QID|26261|M|65.47,62.41|N|Mount up and fly to quarry just 
 T Question the Slaves|QID|26261|M|65.47,62.41|
 A The Forgemaster's Log|QID|26260|M|65.47,62.41|
 
-T The Forgemaster's Log|QID|26260|M|63.75,55.36|N|Find the Forgemaster?s Log at the top of a tower.|
+T The Forgemaster's Log|QID|26260|M|63.75,55.36|N|Find the Forgemaster's Log at the top of a tower.|
 A Silvermarsh Rendezvous|QID|27007|M|63.75,55.36|
 
 C Silvermarsh Rendezvous|QID|27007|M|69.96,60.17|N|Fly up and to the southwest to Upper Silvermarsh.|
@@ -177,7 +177,7 @@ C Elemental Ore|QID|27933|US|M|35.41,79.06|N|Kill Jade Ragers in the area until 
 T The Axe of Earthly Sundering|QID|27932|M|30.69,77.77|N|To Slate Quicksand.|
 T Elemental Ore|QID|27933|M|30.69,77.77|N|To Slate Quicksand.|
 A One With the Ground|QID|27934|M|30.69,77.77|N|From Slate Quicksand.|
-C One With the Ground|QID|27934|M|47.11,90.17|N|Talk to Slate and tell him you are ready to complete the ritual. You will go tunneling through the ground into Avalanchion?s Vault.|
+C One With the Ground|QID|27934|M|47.11,90.17|N|Talk to Slate and tell him you are ready to complete the ritual. You will go tunneling through the ground into Avalanchion's Vault.|
 T One With the Ground|QID|27934|M|47.11,90.17|N|Click the notification box to turn in One With the Ground.|
 A Bring Down the Avalanche|QID|27935|M|47.11,90.17|N|Accept the followup, Bring Down the Avalanche.|
 
@@ -187,9 +187,9 @@ T Bring Down the Avalanche|QID|27935|M|27.88,68.68|N|Once he is dead, leave the 
 A Stonefather's Boon|QID|26499|M|27.88,68.68|N|From Crag Rockcrusher.|
 A We're Surrounded|QID|26500|M|28.23,69.69|N|From Earthbreaker Dolomite.|
 
-C Stonefather's Boon|QID|26499|S|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather?s Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
+C Stonefather's Boon|QID|26499|S|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather's Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
 C We're Surrounded|QID|26500|M|31.38,72.07|
-C Stonefather's Boon|QID|26499|US|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather?s Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
+C Stonefather's Boon|QID|26499|US|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather's Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
 
 T We're Surrounded|QID|26500|M|28.24,69.72|N|To Earthbreaker Dolomite.|
 A Thunder Stones|QID|26502|M|28.21,69.66|N|From Earthbreaker Dolomite.|
@@ -198,10 +198,10 @@ T Stonefather's Boon|QID|26499|M|27.86,68.69|N|To Crag Rockcrusher.|
 A Sealing the Way|QID|26501|M|27.86,68.69|N|From Crag Rockcrusher.|
 
 C Thunder Stones|QID|26502|S|M|25.84,68.47|N|Collect Thunder Stones.|
-N Sealing the Way|QID|26501|U|58885|M|27.3,67.8|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the building.|
-N Sealing the Way|QID|26501|U|58885|M|26.0,68.8|N|Seal the second door.|
-N Sealing the Way|QID|26501|U|58885|M|26.2,69.9|N|Seal the third door.|
-C Sealing the Way|QID|26501|U|58885|M|27.3,70.1|N|Seal the final door.|
+N Sealing the Way|QID|26501|U|58885|M|27.3,67.8|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the Shrine.|
+N Sealing the Way|QID|26501|U|58885|M|26.0,68.8|N|Seal the Barracks.|
+N Sealing the Way|QID|26501|U|58885|M|26.2,69.9|N|Seal the Inn.|
+C Sealing the Way|QID|26501|U|58885|M|27.3,70.1|N|Seal the Armory.|
 C Thunder Stones|QID|26502|US|M|25.84,68.47|
 
 T Sealing the Way|QID|26501|M|24.55,62.41|N|To Gravel Longslab.|
