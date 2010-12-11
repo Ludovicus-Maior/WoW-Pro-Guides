@@ -852,15 +852,19 @@ function WoWPro.Leveling:UpdateQuestTracker()
 				local j = WoWPro.QuestLog[QID].index
 				row.trackcheck = true
 				if not questtext and action == "C" then
-					track = "- "..WoWPro.QuestLog[QID].leaderBoard[1]
-					if select(3,GetQuestLogLeaderBoard(1, j)) then
-						track =  track.." (C)"
+					if WoWPro.QuestLog[QID].leaderBoard[1] then
+						track = "- "..WoWPro.QuestLog[QID].leaderBoard[1]
+						if select(3,GetQuestLogLeaderBoard(1, j)) then
+							track =  track.." (C)"
+						end
 					end
 					for l=1,#WoWPro.QuestLog[QID].leaderBoard do 
 						if l > 1 then
-							track = track.."\n- "..WoWPro.QuestLog[QID].leaderBoard[l]
-							if select(3,GetQuestLogLeaderBoard(l, j)) then
-								track =  track.." (C)"
+							if WoWPro.QuestLog[QID].leaderBoard[l] then
+								track = track.."\n- "..WoWPro.QuestLog[QID].leaderBoard[l]
+								if select(3,GetQuestLogLeaderBoard(l, j)) then
+									track =  track.." (C)"
+								end
 							end
 						end
 					end
