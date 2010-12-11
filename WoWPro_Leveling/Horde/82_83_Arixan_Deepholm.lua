@@ -64,12 +64,12 @@ A Deathwing's Fall|QID|26258|M|49.63,52.97|N|From Maruut Stonebinder.|
 A Blood of the Earthwarder|QID|26259|M|49.69,52.99|N|From Seer Kormo.|
 
 C Blood of the Earthwarder|QID|26259|M|52.75,58.67|N|Leave the temple and go to The Blood Trail. All along the chain of small lava pools you will find Living Blood. Kill them until you have collected 5 Blood of Neltharion.|
-C Deathwing's Fall|QID|26258|NC|M|59.01,58.69|N|When you have finished, mount up and follow The Blood Trail until you reach Deathwing?s Fall. You will get the quest complete message.|
+C Deathwing's Fall|QID|26258|NC|M|59.01,58.69|N|When you have finished, mount up and follow The Blood Trail until you reach Deathwing's Fall. You will get the quest complete message.|
 
 T Deathwing's Fall|QID|26258|M|59.17,58.70|
 A Bleed the Bloodshaper|QID|26256|M|59.17,58.70|
 
-C Bleed the Bloodshaper|QID|26256|M|61.21,59.44|N|Find and kill a Twilight Bloodshaper in the area around Deathwing?s Fall. He should drop the Twilight Orders.|
+C Bleed the Bloodshaper|QID|26256|M|61.21,59.44|N|Find and kill a Twilight Bloodshaper in the area around Deathwing's Fall. He should drop the Twilight Orders.|
 
 T Bleed the Bloodshaper|QID|26256|M|61.32,58.76|
 A Question the Slaves|QID|26261|M|61.32,58.76|
@@ -80,7 +80,7 @@ C Question the Slaves|QID|26261|M|65.47,62.41|N|Mount up and fly to quarry just 
 T Question the Slaves|QID|26261|M|65.47,62.41|
 A The Forgemaster's Log|QID|26260|M|65.47,62.41|
 
-T The Forgemaster's Log|QID|26260|M|63.75,55.36|N|Find the Forgemaster?s Log at the top of a tower.|
+T The Forgemaster's Log|QID|26260|M|63.75,55.36|N|Find the Forgemaster's Log at the top of a tower.|
 A Silvermarsh Rendezvous|QID|27007|M|63.75,55.36|
 
 C Silvermarsh Rendezvous|QID|27007|M|69.96,60.17|N|Fly up and to the southwest to Upper Silvermarsh.|
@@ -177,7 +177,7 @@ C Elemental Ore|QID|27933|US|M|35.41,79.06|N|Kill Jade Ragers in the area until 
 T The Axe of Earthly Sundering|QID|27932|M|30.69,77.77|N|To Slate Quicksand.|
 T Elemental Ore|QID|27933|M|30.69,77.77|N|To Slate Quicksand.|
 A One With the Ground|QID|27934|M|30.69,77.77|N|From Slate Quicksand.|
-C One With the Ground|QID|27934|M|47.11,90.17|N|Talk to Slate and tell him you are ready to complete the ritual. You will go tunneling through the ground into Avalanchion?s Vault.|
+C One With the Ground|QID|27934|M|47.11,90.17|N|Talk to Slate and tell him you are ready to complete the ritual. You will go tunneling through the ground into Avalanchion's Vault.|
 T One With the Ground|QID|27934|M|47.11,90.17|N|Click the notification box to turn in One With the Ground.|
 A Bring Down the Avalanche|QID|27935|M|47.11,90.17|N|Accept the followup, Bring Down the Avalanche.|
 
@@ -187,9 +187,9 @@ T Bring Down the Avalanche|QID|27935|M|27.88,68.68|N|Once he is dead, leave the 
 A Stonefather's Boon|QID|26499|M|27.88,68.68|N|From Crag Rockcrusher.|
 A We're Surrounded|QID|26500|M|28.23,69.69|N|From Earthbreaker Dolomite.|
 
-C Stonefather's Boon|QID|26499|S|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather?s Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
+C Stonefather's Boon|QID|26499|S|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather's Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
 C We're Surrounded|QID|26500|M|31.38,72.07|
-C Stonefather's Boon|QID|26499|US|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather?s Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
+C Stonefather's Boon|QID|26499|US|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather's Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
 
 T We're Surrounded|QID|26500|M|28.24,69.72|N|To Earthbreaker Dolomite.|
 A Thunder Stones|QID|26502|M|28.21,69.66|N|From Earthbreaker Dolomite.|
@@ -198,10 +198,10 @@ T Stonefather's Boon|QID|26499|M|27.86,68.69|N|To Crag Rockcrusher.|
 A Sealing the Way|QID|26501|M|27.86,68.69|N|From Crag Rockcrusher.|
 
 C Thunder Stones|QID|26502|S|M|25.84,68.47|N|Collect Thunder Stones.|
-N Sealing the Way|QID|26501|U|58885|M|27.3,67.8|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the building.|
-N Sealing the Way|QID|26501|U|58885|M|26.0,68.8|N|Seal the second door.|
-N Sealing the Way|QID|26501|U|58885|M|26.2,69.9|N|Seal the third door.|
-C Sealing the Way|QID|26501|U|58885|M|27.3,70.1|N|Seal the final door.|
+N Sealing the Way|QID|26501|U|58885|M|27.3,67.8|N|Kill any troggs that are attacking the Earthen Geomancer, then use the Rockslide Reagent on him to seal the Shrine.|
+N Sealing the Way|QID|26501|U|58885|M|26.0,68.8|N|Seal the Barracks.|
+N Sealing the Way|QID|26501|U|58885|M|26.2,69.9|N|Seal the Inn.|
+C Sealing the Way|QID|26501|U|58885|M|27.3,70.1|N|Seal the Armory.|
 C Thunder Stones|QID|26502|US|M|25.84,68.47|
 
 T Sealing the Way|QID|26501|M|24.55,62.41|N|To Gravel Longslab.|
@@ -311,11 +311,10 @@ A Violent Gale|QID|26426|M|From Diamant the Patient.|
 C Violent Gale|QID|26426|M|52.00,32.00;58.00,25.00|
 T Violent Gale|QID|26426|
 A Depth of the Depths|QID|26869|
-C Depth of the Depths|QID|26869|N|Follow the main path until you reach a fork.Wait for the Colossal Gyreworm to go by then start running down the right fork. Follow this around until you reach a small branch to you right. Duck into this and wait for the elite to path by again, then continue up the tunnel, following the elite. Take the next right. Hug the wall to your right until you enter a short tunnel. Follow this to another chamber. Keep hugging the right wall and enter the first tunnel you come to. This will lead to the chamber with the stone you are looking for.
-T Depth of the Depths|QID|26869|M|66.40,20.60|N|Click on the stone.|
+T Depth of the Depths|QID|26869|M|66.40,20.60|N|Mount up on a ground mount and then follow the main path until you reach a fork.Wait for the Colossal Gyreworm to go by then start running down the right fork. Follow this around until you reach a small branch to you right. Duck into this and wait for the elite to path by again, then continue up the tunnel, following the elite. Take the next right. Hug the wall to your right until you enter a short tunnel. Follow this to another chamber. Keep hugging the right wall and enter the first tunnel you come to. This will lead to the chamber with the stone you are looking for.|
 A A Rock Amongst Many|QID|26871|M|66.40,20.60|N|From the Gigantic Painite Cluster.|
 
-T A Rock Amongst Many|QID|26871|N|Don’t go back the way you came. Take the exit directly in front of you, into another tunnel. Keep the wall on your right side as you follow this tunnel. At the end of it, you will drop down into the large central chamber. To your left is the circular tunnel that the Colossal Gyreworm paths around. Wait for him to go by, then follow him down the right fork. There will be some stones blocking the way, but they can be hopped over. Take the first right you can, and follow this tunnel all the way to the exit.
+T A Rock Amongst Many|QID|26871|N|Don't go back the way you came. Take the exit directly in front of you, into another tunnel. Keep the wall on your right side as you follow this tunnel. At the end of it, you will drop down into the large central chamber. To your left is the circular tunnel that the Colossal Gyreworm paths around. Wait for him to go by, then follow him down the right fork. There will be some stones blocking the way, but they can be hopped over. Take the first right you can, and follow this tunnel all the way to the exit.
 A Entrenched|QID|26436|M|56.5,42.5|N|From Diamant the Patient.|
 
 T Entrenched|QID|26436|M|34.40,34.40|N|To Kor the Immovable. He's way to the West.|
@@ -336,17 +335,17 @@ A Pebble|QID|28869|M|34.40,34.40|N|From Kor the Immovable.|
 T Pebble|QID|28869|N|To Pebble.|
 A Clingy|QID|26440|N|From Pebble.|
 
-C Clingy|QID|26440|M|30.00,46.00|N|Pebble will begin “harvesting” the crystal. Defend him.|
+C Clingy|QID|26440|M|30.00,46.00|N|Pebble will begin "harvesting" the crystal. Defend him.|
 T Clingy|QID|26440|N|To Pebble.|
 A So Big, So Round...|QID|26441|N|From Pebble.|
-T So Big, So Round...|QID|26441|N|To Kor the Immovable|
+T So Big, So Round...|QID|26441|M|34.40,34.40|N|To Kor the Immovable|
 A Petrified Delicacies|QID|26507|M|34.40,34.40|N|From Kor the Immovable.|
 A Rock Bottom|QID|26575|M|34.40,34.40|N|From Kor the Immovable.|
 
 C Petrified Delicacies|QID|26507|N|Head to the shelf to the northeast. Loot any Petrified Bats off the ground. The basilisks in the area can also drop them.
 T Petrified Delicacies|QID|26507|N|To Pebbles, who should still be following you around|
 
-C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite’s eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
+C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite's eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
 
 T Rock Bottom|QID|26575|M|34.40,34.40|N|To Kor the Immovable.|
 A Steady Hand|QID|26576|M|34.40,34.40|N|From Kor the Immovable.|
@@ -396,7 +395,7 @@ A Corruption Destuction|QID|26585|M|72.20,53.90|N|From Gorsik the Tumultuous.|
 A Wrath of the Fungalmancer|QID|26583|M|68.50,26.30|N|From Ruberick.|
 C Shaken and Stirred|QID|26584|N|Right behind Ruberick, you may have notice there are troggs raining from the sky. Kill 8 of these Verlock Pillartumblers.|
 
-N Wrath of the Fungalmancer|QID|26583|N|Go in the direction Ruberick is facing, until you enter Fungal Deep. Follow the cave down until you run into Earthmender Norsala. If you reach a point where the path splits off in different directions, it means someone else is doing the event. Wait a couple minutes and she should re-appear.|
+N Wrath of the Fungalmancer|QID|26583|M|69.8,31.8|N|Go in the direction Ruberick is facing, until you enter Fungal Deep. Follow the cave down until you run into Earthmender Norsala. If you reach a point where the path splits off in different directions, it means someone else is doing the event. Wait a couple minutes and she should re-appear.|
 N Wrath of the Fungalmancer|QID|26583|N|Speak to Norsala and let her know you are ready to start the event.Follow him, attacking when you can.|
 C Wrath of the Fungalmancer|QID|26583|N|He’ll lead you on a merry chase through his cave, stopping a couple times. Be sure to watch out for the mushrooms he throws each time he stops. They will start small and begin growing, eventually exploding for a moderate amount of damage that hits everyone within 5 yards or so. You can stop this by attacking the mushrooms.|
 T Wrath of the Fungalmancer|QID|26583|M|68.50,26.30|N|Once Glop makes his last stand and is finished off, take the path to your left, then turn right to head out of the cave.|
