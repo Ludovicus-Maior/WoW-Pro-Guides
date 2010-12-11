@@ -17,7 +17,7 @@ function WoWPro:LoadNilGuide()
 	WoWPro.rows[1].check:Hide()
 	WoWPro.rows[1].targetbutton:Hide()
 	WoWPro.rows[1].itembutton:Hide()
-	WoWPro.rows[1].note:SetText("Right-click the guide frame for options.")
+	WoWPro.rows[1].note:SetText('Right-click the guide header and select "Guide List" to choose a guide.')
 	WoWPro.rows[1].action:SetTexture("Interface\\Icons\\INV_Misc_Note_01")
 	WoWPro.rows[1].track:SetText(nil)
 	

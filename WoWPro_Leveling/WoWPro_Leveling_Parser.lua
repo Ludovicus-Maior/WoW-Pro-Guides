@@ -106,32 +106,31 @@ function WoWPro.Leveling:SkipStep(index)
 	else 
 		WoWPro_LevelingDB.guide[GID].skipped[index] = true
 	end
-	local rerun = true
 	local steplist = ""
-	local currentstep = index
-	while rerun do
-		rerun = false
-		for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
-			local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
-			for k=1,numprereqs do
-				local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
-				if tonumber(kprereq) == WoWPro.QID[currentstep] and WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[currentstep]]
-				then
-					if WoWPro.action[j] == "A" 
-					or WoWPro.action[j] == "C" 
-					or WoWPro.action[j] == "T" then
-						WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = true
-						WoWPro_LevelingDB.guide[GID].skipped[j] = true
-					else
-						WoWPro_LevelingDB.guide[GID].skipped[j] = true
+	
+	local function skipstep(currentstep)
+		for j = 1,WoWPro.stepcount do 
+			if WoWPro.prereq[j] then
+				local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
+				for k=1,numprereqs do
+					local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
+					if tonumber(kprereq) == WoWPro.QID[currentstep] 
+					and WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[currentstep]] then
+						if WoWPro.action[j] == "A" 
+						or WoWPro.action[j] == "C" 
+						or WoWPro.action[j] == "T" then
+							WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = true
+						end
+						steplist = steplist.."- "..WoWPro.step[j].."\n"
+						skipstep(j)
 					end
-					rerun = true
-					currentstep = j
-					steplist = steplist.."- "..WoWPro.step[j].."\n"
 				end
-			end
-		end end
+			end 
+		end
 	end
+	
+	skipstep(index)
+	
 	WoWPro:MapPoint()
 	return steplist
 end
@@ -149,10 +148,8 @@ function WoWPro.Leveling:UnSkipStep(index)
 	else
 		WoWPro_LevelingDB.guide[GID].skipped[index] = nil
 	end
-	local rerun = true
-	local currentstep = index
-	while rerun do
-		rerun = false
+	
+	local function unskipstep(currentstep)
 		for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
 			local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
 			for k=1,numprereqs do
@@ -162,16 +159,15 @@ function WoWPro.Leveling:UnSkipStep(index)
 					or WoWPro.action[j] == "C" 
 					or WoWPro.action[j] == "T" then
 						WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = nil
-						WoWPro_LevelingDB.guide[GID].skipped[j] = nil
-					else
-						WoWPro_LevelingDB.guide[GID].skipped[j] = nil
 					end
-					rerun = true
-					currentstep = j
+					WoWPro_LevelingDB.guide[GID].skipped = {}
+					unskipstep(j)
 				end
 			end
 		end end
 	end
+	
+	unskipstep(index)
 	WoWPro:UpdateGuide()
 	WoWPro:MapPoint()
 end

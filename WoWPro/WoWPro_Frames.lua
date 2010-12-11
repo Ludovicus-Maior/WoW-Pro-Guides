@@ -31,8 +31,6 @@ function WoWPro:ResizeSet()
 	if WoWProDB.profile.resize then WoWPro.resizebutton:Show() else WoWPro.resizebutton:Hide() end
 	WoWPro.MainFrame:SetMinResize(WoWProDB.profile.hminresize,WoWProDB.profile.vminresize)
 	if WoWPro.MainFrame:GetWidth() < WoWProDB.profile.hminresize then
-		-- AnchorFrame --
-		WoWPro.AnchorFrame:SetWidth(WoWProDB.profile.hminresize)
 		-- MainFrame --
 		WoWPro.MainFrame:SetWidth(WoWProDB.profile.hminresize)
 	end
@@ -40,8 +38,6 @@ function WoWPro:ResizeSet()
 		-- MainFrame --
 		WoWPro.MainFrame:SetHeight(WoWProDB.profile.vminresize)
 	end
-	--WoWPro.MainFrame:ClearAllPoints()
-	--WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
 end
 function WoWPro:DragSet()
 	-- Drag Customization --
@@ -49,7 +45,6 @@ function WoWPro:DragSet()
 	if WoWProDB.profile.drag then
 		WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
 			if button == "LeftButton" and WoWProDB.profile.drag then
-				WoWPro.ResetMainFramePosition()
 				WoWPro.MainFrame:StartMoving()
 			elseif button == "RightButton" then
 				EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
@@ -73,7 +68,7 @@ function WoWPro:DragSet()
 end
 function WoWPro:PaddingSet()
 	local pad = WoWProDB.profile.pad
--- Padding Customization --
+	-- Padding Customization --
 	if WoWPro.Titlebar:IsShown() then 
 		WoWPro.StickyFrame:SetPoint("TOPLEFT", WoWPro.Titlebar, "BOTTOMLEFT", pad+3, -pad+3)
 		WoWPro.StickyFrame:SetPoint("TOPRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", -pad-3, -pad+3)
@@ -280,46 +275,44 @@ function WoWPro.AnchorSet()
 		end
 	end
 	WoWPro.MainFrame:SetScript("OnUpdate", function()
-		local top = WoWPro.MainFrame:GetTop()
-		local bottom = WoWPro.MainFrame:GetBottom()
-		local vcenter = ( top + bottom ) / 2
-		local left = WoWPro.MainFrame:GetLeft()
-		local right = WoWPro.MainFrame:GetRight()
-		local hcenter = (left + right) / 2
-		local anchorpoint = WoWProDB.profile.anchorpoint
-		local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
+		if not InCombatLockdown() then
+			local top = WoWPro.MainFrame:GetTop()
+			local bottom = WoWPro.MainFrame:GetBottom()
+			local vcenter = ( top + bottom ) / 2
+			local left = WoWPro.MainFrame:GetLeft()
+			local right = WoWPro.MainFrame:GetRight()
+			local hcenter = (left + right) / 2
+			local anchorpoint = WoWProDB.profile.anchorpoint
+			local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
+				
+			-- Setting anchor point based on the quadrant if it's set to auto --
+			if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 			
-		-- Setting anchor point based on the quadrant if it's set to auto --
-		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
-		
-		WoWPro.AnchorFrame:ClearAllPoints()
-		
-		if anchorpoint == "TOPLEFT" then
-			WoWPro.AnchorFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
-		elseif anchorpoint == "TOP" then
-			WoWPro.AnchorFrame:SetPoint("TOP", UIParent, "BOTTOMLEFT", hcenter, top)
-		elseif anchorpoint == "TOPRIGHT" then
-			WoWPro.AnchorFrame:SetPoint("TOPRIGHT", UIParent, "BOTTOMLEFT", right, top)
-		elseif anchorpoint == "LEFT" then
-			WoWPro.AnchorFrame:SetPoint("LEFT", UIParent, "BOTTOMLEFT", left, vcenter)
-		elseif anchorpoint == "CENTER" then
-			WoWPro.AnchorFrame:SetPoint("CENTER", UIParent, "BOTTOMLEFT", hcenter, vcenter)
-		elseif anchorpoint == "RIGHT" then
-			WoWPro.AnchorFrame:SetPoint("RIGHT", UIParent, "BOTTOMLEFT", right, vcenter)
-		elseif anchorpoint == "BOTTOMLEFT" then
-			WoWPro.AnchorFrame:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom)
-		elseif anchorpoint == "BOTTOM" then
-			WoWPro.AnchorFrame:SetPoint("BOTTOM", UIParent, "BOTTOMLEFT", hcenter, bottom)
-		elseif anchorpoint == "BOTTOMRIGHT" then
-			WoWPro.AnchorFrame:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMLEFT", right, bottom)
+			WoWPro.MainFrame:ClearAllPoints()
+			
+			if anchorpoint == "TOPLEFT" then
+				WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
+			elseif anchorpoint == "TOP" then
+				WoWPro.MainFrame:SetPoint("TOP", UIParent, "BOTTOMLEFT", hcenter, top)
+			elseif anchorpoint == "TOPRIGHT" then
+				WoWPro.MainFrame:SetPoint("TOPRIGHT", UIParent, "BOTTOMLEFT", right, top)
+			elseif anchorpoint == "LEFT" then
+				WoWPro.MainFrame:SetPoint("LEFT", UIParent, "BOTTOMLEFT", left, vcenter)
+			elseif anchorpoint == "CENTER" then
+				WoWPro.MainFrame:SetPoint("CENTER", UIParent, "BOTTOMLEFT", hcenter, vcenter)
+			elseif anchorpoint == "RIGHT" then
+				WoWPro.MainFrame:SetPoint("RIGHT", UIParent, "BOTTOMLEFT", right, vcenter)
+			elseif anchorpoint == "BOTTOMLEFT" then
+				WoWPro.MainFrame:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom)
+			elseif anchorpoint == "BOTTOM" then
+				WoWPro.MainFrame:SetPoint("BOTTOM", UIParent, "BOTTOMLEFT", hcenter, bottom)
+			elseif anchorpoint == "BOTTOMRIGHT" then
+				WoWPro.MainFrame:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMLEFT", right, bottom)
+			end
+			
+			WoWPro.MainFrame:SetScript("OnUpdate", function()
+			end)
 		end
-		
-		WoWPro.AnchorFrame:SetWidth(w)
-		WoWPro.AnchorFrame:SetHeight(h)
-		WoWPro.MainFrame:SetScript("OnUpdate", function()
-			WoWPro.MainFrame:SetPoint(anchorpoint, WoWPro.AnchorFrame, anchorpoint)
-			WoWPro.MainFrame:SetScript("OnUpdate", function() end)
-		end)
 	end)
 end
 function WoWPro.RowSet()
@@ -364,27 +357,15 @@ function WoWPro:CreateDialogBox(name, w, h)
 	return frame, titletext
 end
 
--- Anchor Frame --
-function WoWPro:CreateAnchorFrame()
-	local frame = CreateFrame("Frame", "WoWPro.AnchorFrame", UIParent)
-	frame:SetMovable(true)
-	frame:SetResizable(true)
-	frame:SetHeight(22)
-	frame:SetWidth(200)
-	frame:SetMinResize(150,40)
-	frame:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
-	WoWPro.AnchorFrame = frame
-end
-
 -- Main Frame --
 function WoWPro:CreateMainFrame()
-	local frame = CreateFrame("Button", "WoWPro.MainFrame", WoWPro.AnchorFrame)
+	local frame = CreateFrame("Button", "WoWPro.MainFrame", UIParent)
 	frame:SetMovable(true)
 	frame:SetResizable(true)
 	frame:SetHeight(300)
 	frame:SetWidth(200)
 	frame:SetMinResize(150,40)
-	frame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
+	frame:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
 	frame:EnableMouseWheel()
 	WoWPro.MainFrame = frame
 	-- Menu --
@@ -392,7 +373,6 @@ function WoWPro:CreateMainFrame()
 	-- Scripts --
 	WoWPro.MainFrame:SetScript("OnMouseDown", function(self, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
-			WoWPro.ResetMainFramePosition()
 			WoWPro.MainFrame:StartMoving()
 		elseif button == "RightButton" then
 			EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
@@ -471,7 +451,6 @@ function WoWPro:CreateTitleBar()
 	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 	WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
-			WoWPro.ResetMainFramePosition()
 			WoWPro.MainFrame:StartMoving()
 		elseif button == "RightButton" then
 			EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
@@ -577,6 +556,17 @@ function WoWPro:CreateRows()
 		row:RegisterForClicks("AnyUp");
 
 		row.check = WoWPro:CreateCheck(row)
+		row.check:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner(self, "CheckButton")
+			GameTooltip:AddLine("RIGHT-Click:", 1, 1, 1, 1)
+			GameTooltip:AddLine("   Manually check this step off.", 0.7, 0.7, 0.7, 0.7)
+			GameTooltip:AddLine("LEFT-Click:", 1, 1, 1, 1)
+			GameTooltip:AddLine("   Skip this step.", 0.7, 0.7, 0.7, 0.7)
+			GameTooltip:Show()
+		end)
+		row.check:SetScript("OnLeave", function(self)
+			GameTooltip:Hide()
+		end)
 		row.action = WoWPro:CreateAction(row, row.check)
 		row.step = WoWPro:CreateStep(row, row.action)
 		row.note = WoWPro:CreateNote(row, row.action)
@@ -811,12 +801,9 @@ function WoWPro:CreateFrames()
 	WoWPro:CreateSkipStepsDialog()
 	WoWPro:CreateMiniMapButton()
 	WoWPro:CreateDropdownMenu()
---		local createAnchorFrame()
-			--Create the anchor frame with size (same size as the guide frame)
-			--Attach to default position on screen
 --		local createGuideFrame()
 			--Create the guide frame with default settings
-			--Attach to the anchor frame
+			--Attach todefault position on screen
 			--Set to moveable and resizeable
 --		local createTitleBar()
 			--Create the title bar frame with default settings
@@ -857,5 +844,4 @@ function WoWPro:AbleFrames()
 	end
 end
 
-WoWPro:CreateAnchorFrame()
 WoWPro:CreateMainFrame()
