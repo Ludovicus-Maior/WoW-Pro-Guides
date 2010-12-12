@@ -257,6 +257,7 @@ end
 -- Step Completion Tasks --
 function WoWPro.CompleteStep(step)
 	local GID = WoWProDB.char.currentguide
+	if WoWPro_LevelingDB.guide[GID].completion[step] then return end
 	if WoWProDB.profile.checksound then	
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end

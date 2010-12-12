@@ -74,7 +74,7 @@ local defaults = { profile = {
 -- Core Tag Setup --
 WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", 
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
-	"level", "target", "prof", "rep", "waypcomplete", "rank"  
+	"level", "target", "prof", "waypcomplete", "rank"  
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
