@@ -157,13 +157,18 @@ function WoWPro:NextStep(k,i)
 		if WoWPro.prof[k] then
 			local prof, proflvl = string.split(";",WoWPro.prof[k])
 			proflvl = proflvl or 1
-			skip = true --Profession steps skipped by default
-			local profs = {}
-			profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
-			for p=1,6 do
-				local skillName, _, skillRank = GetProfessionInfo(profs[p])
-				if skillName == prof and skillRank >= proflvl then
-					skip = false -- The step is NOT skipped if the skill is present at the correct level or higher
+			
+			if prof and type(prof) == "string" and type(proflvl) == "number" then
+				skip = true --Profession steps skipped by default
+				local profs = {}
+				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
+				for p=1,6 do
+					if profs[p] then
+						local skillName, _, skillRank = GetProfessionInfo(profs[p])
+						if skillName == prof and skillRank >= proflvl then
+							skip = false -- The step is NOT skipped if the skill is present at the correct level or higher
+						end
+					end
 				end
 			end
 		end
