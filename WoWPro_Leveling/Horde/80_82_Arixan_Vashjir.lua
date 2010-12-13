@@ -185,7 +185,7 @@ T Undersea Inflation|QID|25218|M|41.3,34.3|Z|Shimmering Expanse|N|To The Great S
 T Crabby Patrons|QID|25360|M|41.3,34.3|Z|Shimmering Expanse|N|To Felice.|
 
 A Totem Modification|QID|25217|PRE|25218|RANK|1|M|41.3,34.3|Z|Shimmering Expanse|N|From The Great Sambino.|
-C Totem Modification|QID|25217|M|41.3,34.3|Z|Shimmering Expanse|N|Go to one of the brown/orange patches on the ground and use Sambino's Modified Strength of Earth Totem. Defend the totem from whatever sea life comes to destroy it until the Enormous Sea Crab appears. Kill him to complete Totem Modifaction.|
+C Totem Modification|QID|25217|M|41.3,34.3|Z|Shimmering Expanse|N|Go to one of the brown/orange patches on the ground and use Sambino's Modified Strength of Earth Totem. Defend the totem from whatever sea life comes to destroy it until the Enormous Sand Crab appears. Kill him to complete Totem Modifaction.|
 T Totem Modification|QID|25217|M|41.3,34.3|Z|Shimmering Expanse|N|To The Great Sambino.|
 
 A Back In One Piece|QID|25456|PRE|25217|RANK|1|M|41.3,34.3|Z|Shimmering Expanse|N|From The Great Sambino.|
@@ -199,7 +199,7 @@ T Toshe's Vengeance|QID|25359|M|64.1,42.2|Z|Shimmering Expanse|N|To Toshe Chaosr
 
 A Vengeful Heart|QID|25439|RANK|1|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
 A Vortex|QID|25441|RANK|1|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-C Vengeful Heart|QID|25439|S|M|66.3,46.5|Z|Shimmering Expanse|N|Kill Zin'Jatar Ravagers. Make sure the areas where you fight the naga are clear of snakes, otherwise the nage will command the snakes to attack you.|
+C Vengeful Heart|QID|25439|S|M|66.3,46.5|Z|Shimmering Expanse|N|Kill Zin'Jatar Ravagers. Make sure the areas where you fight the naga are clear of snakes, otherwise the naga will command the snakes to attack you.|
 C Vortex|QID|25441|M|64.1,42.2|U|54785|Z|Shimmering Expanse|N|Use the Globes of Tumultuous Water to suck up the swarming serpents. |
 C Vengeful Heart|QID|25439|US|M|66.3,46.5|Z|Shimmering Expanse|N|Kill remaining Zin'Jatar Ravagers.|
 T Vengeful Heart|QID|25439|M|64.1,42.2|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
