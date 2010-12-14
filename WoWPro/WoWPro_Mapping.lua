@@ -285,7 +285,7 @@ function WoWPro:MapPoint(row)
 	local desc = WoWPro.step[i]
 	local zone
 	if row then zone = WoWPro.rows[row].zone else 
-		zone = WoWPro.zone[i] or strtrim(strsplit("(",(strsplit("-",WoWPro.Guides[GID].zone))))
+		zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(%-]+)"))
 	end 
 	autoarrival = WoWPro.waypcomplete[i]
 	
