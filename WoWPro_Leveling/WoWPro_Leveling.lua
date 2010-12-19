@@ -14,7 +14,7 @@ function WoWPro.Leveling:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Leveling Module")
 	
 	-- Leveling Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin"})
+	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep"})
 	
 	-- Event Registration --
 	WoWPro.Leveling.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
@@ -28,6 +28,7 @@ function WoWPro.Leveling:OnEnable()
 		WoWPro.Leveling:CreateConfig()
 		WoWPro.Leveling.CreateSpellFrame()
 		WoWPro.Leveling.CreateSpellListFrame()
+		WoWPro.Leveling.CreateGuideList()
 		WoWPro.Leveling.FramesLoaded = true
 	end
 	
@@ -45,16 +46,16 @@ function WoWPro.Leveling:OnEnable()
 		local startguides = {
 			Orc = "JiyDur0105", 
 			Troll = "BitDur0105", 
-			Scourge = nil,
-			Tauren = nil,
+			Scourge = "JiyTir0112",
+			Tauren = "GylMul0105",
 			BloodElf = "SnoEve0112",
 			Goblin = "MalKez0105", 
 			Draenei = "SnoAzu0112",
-			NightElf = nil,
-			Dwarf = nil,
+			NightElf = "BitTel0110",
+			Dwarf = "GylDwa0105",
 			Gnome = "GylGno0105",
 			Human = "KurElw0111",
-			Worgen = "RpoGil0105",
+			Worgen = "RpoGil0113",
 		}
 		WoWPro:LoadGuide(startguides[engRace])
 	-- New Death Knight --
@@ -89,10 +90,15 @@ end
 -- Guide Registration Function --
 function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, 
 	endlevelvalue, nextGIDvalue, factionname, sequencevalue)
---[[Purpose: Called by guides to register them to the WoWPro.Guide table. All members
-of this table must have a quidetype parameter to let the addon know what module should handle that guide.
-]]
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end -- If the guide is not of the correct faction, don't register it
+	
+--[[ Purpose: 
+		Called by guides to register them to the WoWPro.Guide table. All members
+		of this table must have a quidetype parameter to let the addon know what 
+		module should handle that guide.]]
+		
+	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
+		-- If the guide is not of the correct faction, don't register it
+		
 	WoWPro:dbp("Guide Registered: "..GIDvalue)
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = "Leveling",

@@ -19,11 +19,12 @@ C The Earth Claims All|QID|26244|S|M|55.6,72.6|N|Kill Deepstone Elementals.|
 A Captain's Log|QID|26246|PRE|26245|M|53.5,73.3|N|Click the Captain's Log to get this quest.|
 C Gunship Down|QID|26245|M|53.5,73.7;56.1,74.2;56.7,76.4|N|Find the three clues at these points.|
 C The Earth Claims All|QID|26244|US|M|55.6,72.6|N|Kill Deepstone Elementals.|
-T Gunship Down|QID|26245|M|53.5,73.7|N|To Maruut Stonebinder.|
-T Captain's Log|QID|26246|M|53.3,73.7|N|To Maruut Stonebinder.|
+T Gunship Down|QID|26245|M|49.6,53|N|To Maruut Stonebinder.|
+T Captain's Log|QID|26246|M|49.6,53|N|To Maruut Stonebinder.|
 T The Earth Claims All|QID|26244|M|49.7,53|N|To Seer Kormo.|
 T Elemental Energy|QID|27136|M|49.7,53|N|To Seer Kormo.|
 A Diplomacy First|QID|26247|PRE|26246;26244;27136|M|49.6,53|N|From Maruut Stonebinder.|
+A Where's Goldmine?|QID|26409|PRE|26876|M|49.52,53.40|N|From Earthcaller Yevaa.|
 T Diplomacy First|QID|26247|M|62.2,47|N|Fly up to the Alliance Gunship. To Stormcaller Mylra.|
 A All Our Friends Are Dead|QID|26248|PRE|26247|M|62.2,47|N|From Stormcaller Mylra.|
 A The Admiral's Cabin|QID|26249|PRE|26247|M|62.2,47|N|From Stormcaller Mylra.|
@@ -100,7 +101,6 @@ A The World Pillar Fragment|QID|26876|PRE|26857;26861|M|64.49,82.25|N|From Storm
 C The World Pillar Fragment|QID|26876|U|60810|M|69.73,76.72|N|Fly to the center of Abyssion's Lair. Use the Earthen Ring Banner there to summon Abyssion. You will fight him the same way that you fought the Stonescale Matriarch. You will also have some NPCs there to help you out. When you see the warning that Abyssion is casting a powerful shadow nova, run away, preferably behind the pillar. It hits for about 20k, which could kill you if you are low.|
 T Blood of the Earthwarder|QID|26259|RANK|2|M|49.66,53.02|N|To Seer Kormo.|
 T The World Pillar Fragment|QID|26876|M|49.66,53.02|N|To Maruut Stonebinder.|
-A Where's Goldmine?|QID|26409|PRE|26876|M|49.52,53.40|N|From Earthcaller Yevaa.|
 T Where's Goldmine?|QID|26409|M|46.48,57.33|N|Leave the Temple and start going to the west around the outside. Find Initiate Goldmine.|
 A Explosive Bonding Compound|QID|26410|PRE|26409|M|46.48,57.33|N|From Initiate Goldmine.|
 C Explosive Bonding Compound|QID|26410|M|44.25,55.24|N|Kill Rockslice Flayers in the area to the west until you have 5 White Stone Resin.|
@@ -219,7 +219,7 @@ C Loose Stone|QID|26375|U|58254|M|59.00,42.00|S|N|Use Delicate Chain Smasher to 
 C Hatred Runs Deep|QID|26376|QO|Lorthuna's Gate Cultists slain: 12/12|M|59.5,39.9|N|Kill Twilight Duskwardens.|
 C Unsolid Ground|QID|26377|U|58783|M|58.80,41.20|US|
 C Loose Stone|QID|26375|U|58254|M|59.00,42.00|US|N|Finish releasing Quartz Rocklings with the Delicate Chain Smasher.|
-C Hatred Runs Deep|QID|26379|QO|Dragul Giantbutcher slain: 1/1|M|60.20,39.50|N|Finish kills for this quest.|
+C Hatred Runs Deep|QID|26376|QO|Dragul Giantbutcher slain: 1/1|M|60.20,39.50|N|Finish kills for this quest.|
 T Loose Stones|QID|26375|M|56.5,41.1|N|To Quartz Stonetender.|
 T Unsolid Ground|QID|26377|M|56.50,41.20|N|To Diamant the Patient.|
 T Hatred Runs Deep|QID|26376|M|56.50,41.20|N|To Diamant the Patient.|

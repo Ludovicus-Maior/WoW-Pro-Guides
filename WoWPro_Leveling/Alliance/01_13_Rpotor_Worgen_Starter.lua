@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide("RpoGil0105", "Gilneas City", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas - Worgen", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
 return [[
 
 A Lockdown! |QID|14078|Z|Ruins of Gilneas City|M|59.2,23.9|N|From Prince Liam Greymane right in front of you.|
@@ -170,9 +170,9 @@ A Two By Sea|QID|14382|Z|Ruins of Gilneas|M|28.90,63.91|N|From Lord Godfrey.|
 A Save the Children!|QID|14368|Z|Ruins of Gilneas|M|28.90,63.91|N|From Melinda Hammond.|
 
 C Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|S|
-N Talk to Cynthia|QID|14368|Z|Ruins of Gilneas|M|29.59,69.18|QO|Cynthia Rescued: 1/1|N|Go southeast and find Cynthia. Right-click her to rescue her.|
-N Talk to James|QID|14368|Z|Ruins of Gilneas|M|28.56,66.74|QO|James Rescued: 1/1|N|James is northwest, next to the house. Right-click James to rescue him.|
-N Talk to Ashley|QID|14368|Z|Ruins of Gilneas|M|27.92,66.64|QO|Ashley Rescued: 1/1|N|Inside the house upstairs. Rescue her.|
+N Talk to James|QID|14368|Z|Ruins of Gilneas|M|28.56,66.74|QO|James rescued: 1/1|N|James is northwest, next to the house. Right-click James to rescue him.|
+N Talk to Ashley|QID|14368|Z|Ruins of Gilneas|M|27.92,66.64|QO|Ashley rescued: 1/1|N|Inside the house upstairs. Rescue her.|
+C Talk to Cynthia|QID|14368|Z|Ruins of Gilneas|M|29.59,69.18|QO|Cynthia rescued: 1/1|N|Go southeast and find Cynthia. Right-click her to rescue her.|
 
 C Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|S|
 N Kill Captain Anson|QID|14382|Z|Ruins of Gilneas|M|25.26,72.09; 23.9,75.0|QO|Captain Anson slain: 1/1|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.| 
@@ -342,11 +342,12 @@ A Endgame|QID|26706|Z|Ruins of Gilneas|M|41.65,36.55|N|From Lorna Crowley.|
 C Endgame|QID|26706|Z|Ruins of Gilneas|M|57.00,16.35|N|Get on a hippogryph. After you land on the Horde gunship, follow Lorna Crowley downstairs and stay close to her until you complete the quest.|
 T Endgame|QID|26706|Z|Ruins of Gilneas|M|41.62,36.52|N|To Lorna Crowley.|
 L Level 13|QID|26706|LVL|13|N|You should be around level 13 by this point.|
+A Rut'theran Village|QID|14434|N|Talk to Admiral Nightwind, take this quest.  You will be in Rut'theran Village. This is a accept/complete all-in-one type quest, so right-click the box to continue.|
 A The Howling Oak|QID|28517|M|55.22,89.15|Z|Teldrassil|N|From Krennan Aranas.|
 T The Howling Oak|QID|28517|M|55.08,88.46;48.12,14.48|Z|Darnassus|N|Take the teleporter, then go to the Howling Oak and turn in to Genn Greymane.|
 A Breaking Waves of Change|QID|26385|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
 f |QID|26385|M|36.67,47.91|Z|Darnassus|N|At Leora.|
-N Fly to Lor'Danel|QID|26385|M|36.47,49.39;55.42,88.41|Z|Darnassus|N|Take the teleport out of Darnassus, then get a Hyppogryph ride to Lor'Danel. Click-off this step once you're on the Hyppogryph.|
+F Lor'danel|QID|26385|M|36.47,49.39;55.42,88.41|Z|Darnassus|N|Take the teleport out of Darnassus, then get a Hyppogryph ride to Lor'danel.|
 T Breaking Waves of Change|QID|26385|M|51.77,18.00|Z|Darkshore|N|To Dentaria Silverglade. You'll be taken to the next guide, which will cover Darkshore!|
 
 ]]

@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil', 'Bitsem', '01', '10', 'JamDar1320', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil - Night Elf', 'Bitsem', '01', '10', 'JamDar1320', 'Alliance', function()
 return [[
 
 A The Balance of Nature|QID|28713|M|57.97,39.19|N|From Ilthalaine.|

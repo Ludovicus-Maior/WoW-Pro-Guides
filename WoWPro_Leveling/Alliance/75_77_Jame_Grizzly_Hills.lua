@@ -1,7 +1,5 @@
 WoWPro.Leveling:RegisterGuide("JamGri7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Alliance", function()
 return [[
-
-
 f Amberpine Lodge |QID|12511|
 h Amberpine Lodge |QID|12511|
 
@@ -20,7 +18,7 @@ A Take Their Rear! |QID|12216| |M|32.1,60.0|
 A Troll Season! |QID|12210| |M|31.8,60.2|
 
 C Just Passing Through |QID|12226| |U|188670| |N|Loot the [Blackroot] northwest of Amberpine Lodge |M|29,54|
-C Them or Us! |QID|12215| |N|Go west to the grey area in the woods  and (22,57), kill Graymist Hunters.|M|25,56|
+C Them or Us! |QID|12215| |N|Go west to the grey area in the woods and (22,57), kill Graymist Hunters.|M|25,56|
 C Local Support |QID|12292| |N|In Evergreen Trading Post , go inside the tower and loot the Cedar ChesM|16,65|
 
 H Amberpine Lodge |QID|12292|
@@ -47,7 +45,7 @@ A An Exercise in Diplomacy |QID|12295| |M|31.8,60.2|
 A Secrets of the Flamebinders |QID|12222| |N|Woodsman Drake in Amberpine Lodge | |M|32.45,59.97|
 A Thinning the Ranks |QID|12223| |M|32.4,59.9|
 
-T Troll Season! |QID|12210| |N|Kill Grizzly Bears on your way while going north until you hit a wooden bridge.  Turn this quest into Samir in Granite Springs |M|16.23,47.70|
+T Troll Season! |QID|12210| |N|Kill Grizzly Bears on your way while going north until you hit a wooden bridge. Turn this quest into Samir in Granite Springs |M|16.23,47.70|
 A Filling the Cages |QID|11984|M|16.2,47.6|
 N Talk to Budd |QID|11984| |N|Guy with the troll mask |M|16.3,48.1|
 
@@ -55,7 +53,7 @@ C Filling the Cages |QID|11984| |U|35736| |N|Sap a solo troll and use the [Bount
 
 T Filling the Cages |QID|11984| |N|Samir in Granite Springs |M|16.21,47.70|
 A Truce? |QID|11989| |N|Drakuru in Granite Springs |M|16.39,47.79|
-C Truce? |QID|11989| |U|38083| |N|Loot the knife and use it to seal the pacM|16.5,47.8|
+C Truce? |QID|11989| |U|38083| |N|Loot the knife and use it to seal the pact.|M|16.5,47.8|
 T Truce? |QID|11989| |N|Grizzly Hills, Granite Springs |M|16.44,47.83|
 A Vial of Visions |QID|11990|M|16.4,47.8|
 
@@ -81,7 +79,7 @@ T Subject to Interpretation |QID|11991|M|13.2,60.9|
 A Sacrifices Must be Made |QID|12007|M|13.2,60.9|
 
 N Get 5 Shimmering Snowcaps |QID|12483| |L|35782 5| |N|From the Shimmering Snowcaps, to the west, near the river|
-K Warlord Zim'bo |L|35836| |QID|12007| |N|In the  Zimb'bo's Hideout |M|15,37|
+K Warlord Zim'bo |L|35836| |QID|12007| |N|In the Zimb'bo's Hideout |M|15,37|
 C Sacrifices Must be Made |QID|12007| |N|From the Seer of Zeb' Halak, up the stairs at |M|17.92,36.51|
 
 T Sacrifices Must be Made |QID|12007| |U|35797| |N|Near the Drakuru's Brazier |M|17.46,36.42|
@@ -109,7 +107,7 @@ A Words of Warning |QID|12302|M|21.9,29.9|
 T Words of Warning |QID|12302| |N|Grizzly Hills, Silverbrook |M|26.47,31.83|
 A Escape from Silverbrook |QID|12308| |N| Hop on the horse in Silverbrook and get ready to so huge worg action . You might want to disable the follow option for the camera on this one as you have to look behind you the whole time.|M|26.42,31.80|
 
-T Escape from Silverbrook |QID|12308| |N|Lieutenant Dumont in  Amberpine Lodge | |M|31.90,60.19|
+T Escape from Silverbrook |QID|12308| |N|Lieutenant Dumont in Amberpine Lodge | |M|31.90,60.19|
 A A Swift Response |QID|12310| |M|31.8,60.2|
 N Sell junk and repair |QID|12222| |N||M|31.38,59.87|
 
@@ -135,7 +133,7 @@ A Search and Rescue |QID|12037|
 T Shimmercap Stew |QID|12483| |N|Prigmon in Granite Springs |M|15.76,46.77|
 A Say Hello to My Little Friend |QID|12190|M|15.7,46.7|
 
-N Use the orb beneath the Tears |U|37173| |QID|12220| |QO|Orb used beneath Vordrassil's Tears: 1/1| |N|Kill Entropic Oozes on your way to the cave.  Use the orb in the cave at |M|28,45|
+N Use the orb beneath the Tears |U|37173| |QID|12220| |QO|Orb used beneath Vordrassil's Tears: 1/1| |N|Kill Entropic Oozes on your way to the cave. Use the orb in the cave at |M|28,45|
 R Blue Sky Logging Grounds |QID|12042| |N|Cross the river north and then ride northeast to the pumping station |M|37,32|
 
 T Heart of the Ancients |QID|12042| |N|Clear the way to the top, go inside the cabin and turn in. |M|37,32.5|
@@ -172,7 +170,7 @@ A A Possible Link |QID|12246| |M|31.2,59.5|
 A Children of Ursoc |QID|12247| |M|31.2,59.5|
 N Sell junk and repair |QID|12443| |N||M|31.38,59.87|
 
-C The Thane of Voldrune |QID|12255| |N|Get on Flamebringer  and the Thane Torvald Eriksson in Voldrune (27.24, 73.60)|M|26.6,77.8|
+C The Thane of Voldrune |QID|12255| |N|Get on Flamebringer and the Thane Torvald Eriksson in Voldrune (27.24, 73.60)|M|26.6,77.8|
 
 A Seeking Solvent |QID|12443| |N|From Barblefink in Venture Bay |M|23.0,80.2|
 A Keep Them at Bay! |QID|12316| |N|From Lieutenant Stuart in Venture Bay |M|22.1,81.2|
@@ -245,12 +243,12 @@ C Brothers in Battle |QID|12002|
 
 T The Damaged Journal |QID|11986| |N|Torthen Deepdig in Westfall Brigade Encampment | |M|59.73,27.57|
 A The Runic Keystone |QID|11988| |M|59.8,27.5|
-T Brothers in Battle |QID|12002| |N|Brugar Stoneshear in  Westfall Brigade Encampment | |M|59.73,27.63|
+T Brothers in Battle |QID|12002| |N|Brugar Stoneshear in Westfall Brigade Encampment | |M|59.73,27.63|
 A Uncovering the Tunnels |QID|12003| |M|59.8,27.5|
 
 N Investigate the South Building |QID|12003| |QO|Investigate South Building: 1/1| |N|To the east, enter the southern building of Thor Modan . Kill the dwarves.|M|63.45,28.10|
-N Investigate the East Building |QID|12003| |QO|Investigate East Building: 1/1| |N|To the northeast, enter the estern building of Thor Modan  Kill the dwarves.|M|66.71,24.43|
-C Uncovering the Tunnels |QID|12003| |N|To the west/northwest, enter the northen building of Thor Modan  Kill the dwarves.||M|62.63,20.76|
+N Investigate the East Building |QID|12003| |QO|Investigate East Building: 1/1| |N|To the northeast, enter the estern building of Thor Modan Kill the dwarves.|M|66.71,24.43|
+C Uncovering the Tunnels |QID|12003| |N|To the west/northwest, enter the northen building of Thor Modan Kill the dwarves.||M|62.63,20.76|
 C The Runic Keystone |QID|11988| |N|Kill more dwarves|M|65.1,19.3|
 
 T The Runic Keystone |QID|11988| |N|Torthen Deepdig in Westfall Brigade Encampment | |M|59.75,27.59|
@@ -274,7 +272,7 @@ A Into the Breach |QID|11985|M|65.8,17.8|
 T The Fate of Orlond |QID|12010| |N|Down the breach in Surveyor Orlond in Thor Modan . It is possible to jump into the water if you do not have a flying mount yet.|M|67.44,15.24|
 A Steady as a Rock? |QID|12014|M|67.5,15.3|
 
-K Subterranean Thresher |QID|12014|  |QO|Portable Seismograph: 1/1| |N|In the watter|
+K Subterranean Thresher |QID|12014| |QO|Portable Seismograph: 1/1| |N|In the watter|
 N Third Prophecy |QID|11993| |QO|Third Prophecy Deciphered: 1/1| |N|Out of the water, cross the small bridge east, find the Third Rune Plate in Thor Modan |M|68.50,16.16|
 N First Prophecy |QID|11993| |QO|First Prophecy Deciphered: 1/1| |N|A few paces northeast, find the First Rune Plate in Thor Modan |M|69.00,14.54|
 C The Runic Prophecies |QID|11993| |N|A few paces east, find the Second Rune Plate in Thor Modan |M|70.13,14.62|
@@ -300,7 +298,7 @@ C Out of Body Experience |QID|12327| |U|37661|
 T Out of Body Experience |QID|12327| |N|Cancel the Out of Body Experience buff.|M|44.0,47.9|
 A Fate and Coincidence |QID|12329|M|44.0,47.9|
 
-N Listen to Orsonn's Story |QID|12247| |QO|Orsonn's Story: 1/1| |N|Kill Frostpaw Warriors on the way to Orsonn.  He's in a cave |M|48.16,58.73|
+N Listen to Orsonn's Story |QID|12247| |QO|Orsonn's Story: 1/1| |N|Kill Frostpaw Warriors on the way to Orsonn. He's in a cave |M|48.16,58.73|
 C A Possible Link |QID|12246| |N|Kill Frostpaw Warriors|M|63.6,57.9|
 C Children of Ursoc |QID|12247| |N|She's in a cave |M|66.89,62.30|
 
@@ -311,7 +309,7 @@ T Children of Ursoc |QID|12247| |M|31.2,59.5|
 A Vordrassil's Sapling |QID|12248| |M|31.2,59.5|
 A Vordrassil's Seeds |QID|12250| |M|31.2,59.5|
 
-C Vordrassil's Sapling |QID|12248| |U|37306| |N|Use the [Verdant Torch] on the tree  and get the [Vordrassil's Ashes]|M|50.63,42.73|
+C Vordrassil's Sapling |QID|12248| |U|37306| |N|Use the [Verdant Torch] on the tree and get the [Vordrassil's Ashes]|M|50.63,42.73|
 C Vordrassil's Seeds |QID|12250| |N|Loot the Vordrassil's Seed|M|51.5,47.1|
 
 T Fate and Coincidence |N|Sasha in White Pine Trading Post |M|57.52,41.27|
@@ -354,12 +352,12 @@ T Dun-da-Dun-tah! |QID|12082|M|73.8,34.0|
 T It Takes Guts.... |QID|12116| |N|Kraz in Harkor's Camp |M|73.90,34.25|
 A Drak'aguul's Mallet |QID|12120|M|73.9,34.1|
 
-C Drak'aguul's Mallet |QID|12120| |N|Kill Drak'aguul. He spawns at  and patrols on the path towards Drakil'jin Ruin|M|74,30|
+C Drak'aguul's Mallet |QID|12120| |N|Kill Drak'aguul. He spawns at and patrols on the path towards Drakil'jin Ruin|M|74,30|
 
 T Drak'aguul's Mallet |QID|12120| |N|Kraz in Harkor's Camp |M|73.91,34.02|
 A See You on the Other Side |QID|12121|M|73.9,34.1|
 
-C See You on the Other Side |QID|12121| |U|36834| |N|Bang the gong in the Drakil'jin Ruins  with the [Charged Drakil'jin Mallet]. Don't be afraid but... you're dead.|M|71.55,24.70|
+C See You on the Other Side |QID|12121| |U|36834| |N|Bang the gong in the Drakil'jin Ruins with the [Charged Drakil'jin Mallet]. Don't be afraid but... you're dead.|M|71.55,24.70|
 
 T See You on the Other Side |QID|12121| |N|Gan'jo in the catacombs of the Drakil'jin Ruins |M|69.44,19.51|
 A Chill Out, Mon |QID|12137|M|69.4,19.5|
@@ -367,7 +365,7 @@ A Chill Out, Mon |QID|12137|M|69.4,19.5|
 N Get the Snow of Eternal Slumber |QID|12137| |QO|Snow of Eternal Slumber: 1/1| |N|Get the [Snow of Eternal Slumber] from Gan'jo's Chest |M|69.43,19.54|
 C Chill Out, Mon |QID|12137| |U|36859| |N|Talk to Gan'jo to return to the living, target Ancient Drakkari Warmonger or Soothsayer and use the [Snow of Eternal Slumber]. Loot the Drakkari Spirit Particles.|M|69.4,19.5|
 
-T Chill Out, Mon |QID|12137| |N|Kraz in  Harkor's Camp |M|73.90,34.21|
+T Chill Out, Mon |QID|12137| |N|Kraz in Harkor's Camp |M|73.90,34.21|
 A Jin'arrak's End |QID|12152|M|73.9,34.1|
 
 N Get the Sacred Drakkari Offering |QID|12152| |L|36870| |N|Get the [Sacred Drakkari Offering] in the catacombs again |M|71.18,19.73|
@@ -379,7 +377,7 @@ T Jin'arrak's End |QID|12152| |N|Kraz in Harkor's Camp |M|73.96,34.18|
 T Runes of Compulsion |QID|12093| |N|Gavrock in the Ruins of Tethys |M|79.78,33.66|
 A Latent Power |QID|12094|M|79.8,33.6|
 N Drain power from the Second Ancient Stone |QID|12094| |QO|Power Drawn from Second Ancient Stone: 1/1| |U|36787| |N|Go south/southwest to an isle with a stone in Eastwind Shore |M|78.80,39.83|
-N Drain power from the First Ancient Stone |QID|12094| |QO|Power Drawn from First Ancient Stone: 1/1| |U|36787| |N|Go west to another blue stone  |M|71.34,39.59|
+N Drain power from the First Ancient Stone |QID|12094| |QO|Power Drawn from First Ancient Stone: 1/1| |U|36787| |N|Go west to another blue stone |M|71.34,39.59|
 T A Bear of an Appetite |QID|12279| |N|Hugh Glass in Redwood Trading Post |M|69.05,40.13|
 C Latent Power |QID|12094| |U|36787| |N|The Third Ancient Stone is further southwest |M|74.06,43.98|
 
@@ -387,7 +385,7 @@ T Check Up on Raegar |QID|12128| |N|Raegar Breakbrow in Prospector's Point |M|77
 A The Perfect Plan |QID|12129|M|77.1,48.6|
 A The Captive Prospectors |QID|12180| |N|Mountaineer Kilian in Prospector's Point |M|77.00,48.50|
 
-N Free Prospector Gann |QID|12180| |QO|Prospector Gann Rescued: 1/1| |U|37013| |N|Go south/southwest  and kill dwarves and golems until you get [Dun Argol Cage Key]. Use it to open the case at (76.40, 55.14)|M|76.5,55|
+N Free Prospector Gann |QID|12180| |QO|Prospector Gann Rescued: 1/1| |U|37013| |N|Go south/southwest and kill dwarves and golems until you get [Dun Argol Cage Key]. Use it to open the case at (76.40, 55.14)|M|76.5,55|
 N Free Prospector Torgan |QID|12180| |QO|Prospector Torgan Rescued: 1/1| |U|37013| |N|Up the stairs southwest to find Torgan's cage in Dun Argol |M|76.17,58.47|
 C The Captive Prospectors |QID|12180| |U|37013| |N|Follow the stairs southwest to the top to find Prospector Varana in Dun Argol |M|75.88,60.93|
 C The Perfect Plan |QID|12129| |U|36849| |N|Kill Iron Rune-Smiths until you have all three part of the [War Golem Blueprint]. Combine them.|M|76.6,55.1|
@@ -424,7 +422,7 @@ T ... Or Maybe We Don't |QID|12138| |N|Raegar Breakbrow in Prospector's Point |M
 A Blackout |QID|12154|M|77.1,48.6|
 A The Iron Thane and His Anvil |QID|12153|M|77.1,48.6|
 
-N Going down in Dun'Argol |QID|12153| |U|37071| |N|Ride to Dun'Argol and use the [Overseer Disguise Kit]. Take one of the elevators inside the big dwarven building  and do down to the room with the Dun Argol Power Core.|M|76.5,63.2|
+N Going down in Dun'Argol |QID|12153| |U|37071| |N|Ride to Dun'Argol and use the [Overseer Disguise Kit]. Take one of the elevators inside the big dwarven building and do down to the room with the Dun Argol Power Core.|M|76.5,63.2|
 C Blackout |QID|12154| |U|36935| |N|Target the Dun Argol Power and use the [Raegar's Explosives]|M|76.5,63.2|
 C The Iron Thane and His Anvil |QID|12153| |U|36865| |N|Use the [Golem Control Unit] and kill Iron Thane Furyhammer |M|76.41,63.81|
 
@@ -453,7 +451,6 @@ N Group quests |QID|12164| |N|Find a group to complete these or abandon them|
 C Ursoc, the Bear God |QID|12249| |U|37307| |N|Can be soloed if you are a tank or healer class. Start the quest by talking to Tur Ragepaw . Use the [Purified Ashes of Vordrassil] on Ursoc's corpse.|M|52.6,24.1|
 
 T Ursoc, the Bear God |QID|12249| |N|Hierophant Thayreen in Amberpine Lodge |M|31.23,59.47|
-
 
 K Varmlam |QID|12164| |QO|Varlam slain: 1/1| |N|Grizzly Hills, Bloodmoon Isle |M|84.94,23.62|
 K Selas |QID|12164| |QO|Selas slain: 1/1| |N|Grizzly Hills, Bloodmoon Isle |M|85.92,27.88|

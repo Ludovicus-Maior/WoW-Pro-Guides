@@ -362,6 +362,7 @@ function WoWPro:CreateMainFrame()
 	local frame = CreateFrame("Button", "WoWPro.MainFrame", UIParent)
 	frame:SetMovable(true)
 	frame:SetResizable(true)
+	frame:SetClampedToScreen(true)
 	frame:SetHeight(300)
 	frame:SetWidth(200)
 	frame:SetMinResize(150,40)
@@ -752,11 +753,11 @@ function WoWPro:CreateDropdownMenu()
 		{text = "About", func = function() 
 			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Guides")
 		end},
-		{text = "Guide Display", func = function() 
+		{text = "Display Sttings", func = function() 
 			InterfaceOptionsFrame_OpenToCategory("Guide Display") 
 		end},
-		{text = "Profiles", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Profiles") 
+		{text = L["Guide List"], func = function() 
+			InterfaceOptionsFrame_OpenToCategory("Guide List") 
 		end},
 	}
 	
@@ -771,10 +772,6 @@ function WoWPro:CreateDropdownMenu()
 		table.insert(WoWPro.DropdownMenu, {text = L["Current Guide"], func = function()
 				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")  
 				InterfaceOptionsFrame_OpenToCategory("Current Guide")
-			end} )
-		table.insert(WoWPro.DropdownMenu, {text = L["Guide List"], func = function() 
-				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
-				InterfaceOptionsFrame_OpenToCategory("Guide List") 
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
 				if not WoWProDB.char.currentguide then return end
@@ -801,6 +798,7 @@ function WoWPro:CreateFrames()
 	WoWPro:CreateSkipStepsDialog()
 	WoWPro:CreateMiniMapButton()
 	WoWPro:CreateDropdownMenu()
+	WoWPro:CreateGuideList()
 --		local createGuideFrame()
 			--Create the guide frame with default settings
 			--Attach todefault position on screen

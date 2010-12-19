@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('AyaHil2025', 'Hillsbrad Foothills', 'AyaJulia', '20', '25', 'JiyAra2530', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('AyaHil2025', 'Hillsbrad Foothills', 'Shanyn', '20', '25', 'JiyAra2530', 'Horde', function()
 return [[
 
 T Empire of Dirt|QID|27746|M|29.23,63.35|N|To High Executor Darthalia.|O|

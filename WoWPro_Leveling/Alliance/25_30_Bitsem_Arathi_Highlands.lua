@@ -65,7 +65,7 @@ T Northfold Manor|QID|26093|M|39.89,48.75|N|To Captain Nials.|
 A Stromgarde Badges|QID|26095|PRE|26093|RANK|1|M|39.89,48.75|N|From Captain Nials.|
 C Stromgarde Badges|QID|26095|M|19.99,66.47|
 
-R Refuge Pointe|QID|26095|NC|P|1|M|39.97,48.83|N|Run or Hearth back to Refuge Pointe.|
+R Refuge Pointe|QID|26095|NC|M|39.97,48.83|N|Run or Hearth back to Refuge Pointe.|
 
 T Stromgarde Badges|QID|26095|M|39.91,48.75|N|To Captain Nials.|
 T Quae and Kinelory|QID|26113|M|54.76,55.33|N|To Quae.|
@@ -127,7 +127,7 @@ A The Princess Unleashed|QID|26049|PRE|26049|RANK|1|M|40.26,49.07|N|From Skuerto
 C The Princess Unleashed|QID|26049|U|4472|M|57.56,34.99|N|Use the Scroll of Myzrael to summon her. Defeat her and loot. You may need another player to assist. She's a level 30 Elite.|
 T The Princess Unleashed|QID|26049|M|57.26,34.61|
 
-R Refuge Pointe|QID|26542|NC|P|1|M|39.97,48.83|N|Run or Hearth back to Refuge Pointe.|
+R Refuge Pointe|QID|26542|NC|M|39.97,48.83|N|Run or Hearth back to Refuge Pointe.|
 
 A Hero's Call: The Hinterlands!|QID|26542|RANK|1|M|40,48.8|N|If you're going to the Hinterlands. From Captain Nials.|
 ]]

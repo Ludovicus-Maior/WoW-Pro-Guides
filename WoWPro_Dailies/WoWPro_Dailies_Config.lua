@@ -1,5 +1,5 @@
 --------------------------------------
---      WoWPro_Leveling_Config      --
+--      WoWPro_Dailies_Config      --
 --------------------------------------
 
 local L = WoWPro_Locale
@@ -9,14 +9,14 @@ local dialog = LibStub("AceConfigDialog-3.0")
 
 local function createBlizzOptions()
 
-	config:RegisterOptionsTable("WoWPro-Leveling-Bliz", {
-		name = "WoW-Pro Leveling",
+	config:RegisterOptionsTable("WoWPro-Dailies-Bliz", {
+		name = "WoW-Pro Dailies",
 		type = "group",
 		args = {
 			help = {
 				order = 0,
 				type = "description",
-				name = L["Settings for the WoW-Pro addon's leveling module."],
+				name = L["Settings for the WoW-Pro addon's Dailies module."],
 			},
 			blank = {
 				order = 1,
@@ -27,11 +27,11 @@ local function createBlizzOptions()
 				order = 2,
 				type = "toggle",
 				name = L["Enable Module"],
-				desc = L["Enables/Disables the leveling module of the WoW-Pro guide addon."],
+				desc = L["Enables/Disables the dailies module of the WoW-Pro guide addon."],
 				width = "full",
-				get = function(info) return WoWPro.Leveling:IsEnabled() end,
+				get = function(info) return WoWPro.Dailies:IsEnabled() end,
 				set = function(info,val)  
-						if WoWPro.Leveling:IsEnabled() then WoWPro.Leveling:Disable() else WoWPro.Leveling:Enable() end
+						if WoWPro.Dailies:IsEnabled() then WoWPro.Dailies:Disable() else WoWPro.Dailies:Enable() end
 					end
 			}, 
 			blank2 = {
@@ -42,7 +42,7 @@ local function createBlizzOptions()
 			helpheader = {
 				order = 4,
 				type = "header",
-				name = "WoW-Pro Leveling Help",
+				name = "WoW-Pro Dailies Help",
 			},
 			blank3 = {
 				order = 5,
@@ -120,16 +120,7 @@ local function createBlizzOptions()
 				image = "Interface\\Icons\\Ability_Druid_FlightForm",
 				imageWidth = 15,
 				imageHeight = 15
-			},   
-			getfp = {
-				order = 14,
-				type = "description",
-				fontSize = "medium",
-				name = "Get Flight Path",
-				image = "Interface\\Icons\\Ability_Hunter_EagleEye",
-				imageWidth = 15,
-				imageHeight = 15
-			},   
+			},  
 			note = {
 				order = 15,
 				type = "description",
@@ -147,16 +138,7 @@ local function createBlizzOptions()
 				image = "Interface\\Icons\\INV_Misc_Coin_01",
 				imageWidth = 15,
 				imageHeight = 15
-			},   
-			boat = {
-				order = 17,
-				type = "description",
-				fontSize = "medium",
-				name = "Go by Boat or Zeppelin",
-				image = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
-				imageWidth = 15,
-				imageHeight = 15
-			},    
+			},  
 			use = {
 				order = 18,
 				type = "description",
@@ -165,35 +147,17 @@ local function createBlizzOptions()
 				image = "Interface\\Icons\\INV_Misc_Bag_08",
 				imageWidth = 15,
 				imageHeight = 15
-			},    
-			level = {
-				order = 19,
-				type = "description",
-				fontSize = "medium",
-				name = "Level Up",
-				image = "Interface\\Icons\\Spell_ChargePositive",
-				imageWidth = 15,
-				imageHeight = 15
-			},    
-			repair = {
-				order = 20,
-				type = "description",
-				fontSize = "medium",
-				name = "Repair/Restock",
-				image = "Interface\\Icons\\Ability_Repair",
-				imageWidth = 15,
-				imageHeight = 15
 			}, 
-			
 		},
 	})
-	dialog:SetDefaultSize("WoWPro-Leveling-Bliz", 600, 400)
-	dialog:AddToBlizOptions("WoWPro-Leveling-Bliz", "WoW-Pro Leveling")
+	dialog:SetDefaultSize("WoWPro-Dailies-Bliz", 600, 400)
+	dialog:AddToBlizOptions("WoWPro-Dailies-Bliz", "WoW-Pro Dailies")
 
 	return blizzPanel
 end
 
-function WoWPro.Leveling:CreateConfig()
+function WoWPro.Dailies:CreateConfig()
 	blizzPanel = createBlizzOptions()
-	InterfaceOptions_AddCategory(WoWPro_Leveling_CurrentGuide)
+--	WoWPro.Dailies:CreateGuideList()
+	InterfaceOptions_AddCategory(WoWPro_Dailies_CurrentGuide)
 end

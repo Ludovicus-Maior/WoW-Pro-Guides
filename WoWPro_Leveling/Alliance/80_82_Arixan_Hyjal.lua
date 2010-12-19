@@ -1,25 +1,24 @@
 WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
 return [[
-
 N Mt. Hyjal|QID|25316|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|
 A A Personal Summons|QID|28825|M|71.44,72.32|Z|Stormwind City|
 h Trade District|QID|28825|M|60.36,75.20|Z|Stormwind City|N|At Innkeeper Allison.|
-A Hero's Call: Mount Hyjal!|QID|27726|M|62.87,71.59|Z|Stormwind City|N|From Innkeeper Allison.|
+A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|Stormwind City|
 T A Personal Summons|QID|28825|M|74.58,18.94|Z|Stormwind City|N|To Naraat the Earthspeaker.|
 A Eye of the Storm|QID|28826|PRE|28825|M|74.58,18.94|Z|Stormwind City|N|From Naraat the Earthspeaker.|
 C Eye of the Storm|QID|28826|M|74.43,19.25|Z|Stormwind City|
 T Eye of the Storm|QID|28826|M|74.56,19.18|Z|Stormwind City|N|To Naraat the Earthspeaker.|
-C Hero's Call: Mount Hyjal!|QID|27726|NC|M|52.96,20.27|Z|Stormwind City|
-T Hero's Call: Mount Hyjal!|QID|27726|M|45.45,44.74|Z|Moonglade|N|To Emissary Windsong.|
-A As Hyjal Burns|QID|25316|PRE|27726|M|45.45,44.74|Z|Moonglade|N|From Emissary Windsong.|
+C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.7,28.36|Z|Stormwind City|
+T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|Moonglade|N|To Emissary Windsong.|
+A As Hyjal Burns|QID|25316|PRE|27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|
 T As Hyjal Burns|QID|25316|M|62.08,24.89|N|To Ysera.|
 A Protect the World Tree|QID|25317|PRE|25316|M|62.08,24.89|N|From Ysera.|
 f Nordrassil|QID|25317|M|62.14,21.68|N|At Fayran Elthas.|
-A The Earth Rises|QID|25460|PRE|25316|RANK|2|M|64.05,22.58|N|From Tholo Whitehoof.|
+A The Earth Rises|QID|25460|PRE|25316|RANK|2|M|64.05,22.58|N|From Anren Shadowseeker.|
 A Inciting the Elements|QID|25370|PRE|25316|RANK|2|M|64.05,22.58|N|From Tholo Whitehoof.|
-N Inciting the Elements|QID|25370|RANK|2|U|53009 4|M|67.11,22.08|N|Loot 4 Juniper Berries.|
+N Inciting the Elements|QID|25370|RANK|2|L|53009 4|M|67.11,22.08|N|Loot 4 Juniper Berries.|
 C The Earth Rises|QID|25460|RANK|2|M|64.61,22.62|
-C Inciting the Elements|QID|25370|RANK|2|M|64.8,22.5|N|Use the Berries on Faerie Dragons and kill the Twilight Inciter.|
+C Inciting the Elements|QID|25370|RANK|2|U|53009|M|64.8,22.5|N|Use the Berries on Faerie Dragons and kill the Twilight Inciter.|
 T The Earth Rises|QID|25460|RANK|2|M|64.03,22.66|N|To Anren Shadowseeker.|
 T Inciting the Elements|QID|25370|RANK|2|M|64.07,22.46|N|To Tholo Whitehoof.|
 A Flames from Above|QID|25574|PRE|25370|RANK|2|M|64.06,22.51|N|From Tholo Whitehoof.|
@@ -49,6 +48,7 @@ T Twilight Captivity|QID|25321|M|44.46,18.95|N|To Scout Larandia.|
 A Return to Alysra|QID|25424|PRE|25321|M|44.46,18.95|N|From Scout Larandia.|
 T Return to Alysra|QID|25424|M|48.39,18.97|N|To Alysra.|
 A A Prisoner of Interest|QID|25324|PRE|25424|M|48.39,18.97|N|From Alysra.|
+N A Prisoner of Interest|QID|25324|M|52.54,17.34|N|Find the Cave entrance to reach Captain Saynna Stormrunner.|
 T A Prisoner of Interest|QID|25324|M|56.71,18.82|N|To Captain Saynna Stormrunner.|
 A Through the Dream|QID|25325|PRE|25324|M|56.71,18.82|N|From Captain Saynna Stormrunner.|
 C Through the Dream|QID|25325|NC|M|52.58,17.31|
@@ -58,7 +58,6 @@ T Return to Nordrassil|QID|25578|M|62.04,24.87|N|To Ysera.|
 A The Return of the Ancients|QID|25584|PRE|25578|M|62.04,24.87|N|From Ysera.|
 A Wings Over Mount Hyjal|QID|25985|M|63.27,21.56|N|From Tiala Whitemane.|
 T The Return of the Ancients|QID|25584|M|35.70,19.47|N|To Oomla Whitehorn.|
-A Wings Over Mount Hyjal|QID|25985|PRE|25578|RANK|2|M|63.27,21.56|N|From Tiala Whitemane.|
 A Harrying the Hunters|QID|25255|PRE|25584|RANK|2|M|35.70,19.49|N|From Oomla Whitehorn.|
 A In the Rear With the Gear|QID|25234|PRE|25584|RANK|2|M|35.72,19.69|N|From Jadi Falaryn.|
 A End of the Supply Line|QID|25233|PRE|25584|M|35.72,19.69|N|From Jadi Falaryn.|
@@ -79,7 +78,7 @@ T Lycanthoth the Corruptor|QID|25273|M|32.46,37.30|N|To Spirit of Goldrinn.|
 A The Shrine Reclaimed|QID|25280|PRE|25273|M|29.63,29.36|N|From Spirit of Goldrinn.|
 T The Shrine Reclaimed|QID|25280|M|28.28,29.81|N|To Ian Duran.|
 A Cleaning House|QID|25278|PRE|25280|M|28.21,29.85|N|From Ian Duran.|
-A From the Mouth of Madness|QID|25297|PRE|25280|RANK|2|M|28.27,29.91|N|From Royce Duskwhisper.|
+A From the Mouth of Madness|QID|25297|PRE|25280|RANK|2|M|28.27,29.91|N|From Rio Duran.|
 A The Eye of Twilight|QID|25300|PRE|25280|RANK|2|M|28.34,29.97|N|From Royce Duskwhisper.|
 N From the Mouth of Madness|QID|25297|RANK|2|L|52727|M|29.4,31.6|N|Loot Bitterblossom from around the edge of the pond.|
 C Cleaning House|QID|25278|S|M|27.7,34.5|N|Kill Hovel Brutes.|
@@ -106,42 +105,41 @@ T Get Me Outta Here!|QID|25332|M|28.33,30.00|N|To Royce Duskwhisper.|
 T Return to Duskwhisper|QID|25312|RANK|2|M|28.33,30.00|N|N|You will have a buff that makes the ogres friendly so exit the cave quickily.|
 T Cleaning House|QID|25278|M|28.23,29.80|N|To Ian Duran.|
 A Lightning in a Bottle|QID|25353|PRE|25278|M|28.23,29.80|N|From Ian Duran.|
-A Sweeping the Shelf|QID|25352|PRE|25278|RANK|2|M|28.20,29.89|N|From Rio Duran.|
+A Sweeping the Shelf|QID|25352|PRE|25278|RANK|2|M|28.20,29.89|N|From Ian Duran.|
 T Free Your Mind, the Rest Follows|QID|25298|RANK|2|M|28.21,29.90|N|To Rio Duran.|
-C Lightning in a Bottle|QID|25353|U|52853|M|22.85,31.90|
-T Lightning in a Bottle|QID|25353|M|22.85,31.93|N|To Howling Riftdweller.|
+C Lightning in a Bottle|QID|25353|U|52834|M|22.85,31.90|N|Use the Condenser Jar.|
+N Lightning in a Bottle|QID|25353|U|52853|M|22.85,31.90|N|Use the Totem.|
+T Lightning in a Bottle|QID|25353|M|22.85,31.93|N|To Spirit of Goldrinn.|
 A Into the Maw!|QID|25618|PRE|25353|M|22.87,31.93|N|From Howling Riftdweller.|
 C Sweeping the Shelf|QID|25352|RANK|2|M|26.76,40.87|
-T Into the Maw!|QID|25618|M|26.24,41.89|Z|Firelands Forgeworks|N|Enter the portal in the center if the Twilight Cultists camp and turn in at Jordan Olafson.|
-A Crushing the Cores|QID|25577|PRE|25618|M|26.24,41.89|Z|Firelands Forgeworks|N|From Jordan Olafson.|
-A Forged of Shadow and Flame|QID|25575|PRE|25618|M|26.27,41.93|Z|Firelands Forgeworks|N|From Yargra Blackscar.|
-A Rage of the Wolf Ancient|QID|25576|PRE|25618|M|26.29,41.94|Z|Firelands Forgeworks|N|From Yargra Blackscar.|
-C Forged of Shadow and Flame|QID|25575|M|S|30.11,39.21|Z|Firelands Forgeworks|
+T Into the Maw!|QID|25618|M|26.24,41.89|Z|Mount Hyjal|N|Enter the portal in the center if the Twilight Cultists camp and turn in at Jordan Olafson.|
+A Crushing the Cores|QID|25577|PRE|25618|M|26.24,41.89|Z|Mount Hyjal|N|From Jordan Olafson.|
+A Forged of Shadow and Flame|QID|25575|PRE|25618|M|26.27,41.93|Z|Mount Hyjal|N|From Yargra Blackscar.|
+A Rage of the Wolf Ancient|QID|25576|PRE|25618|M|26.29,41.94|Z|Mount Hyjal|N|From Yargra Blackscar.|
+C Forged of Shadow and Flame|QID|25575|M|S|30.11,39.21|Z|Mount Hyjal|
 N Crushing the Cores|QID|25577|S|L|55123 8|N|Kill Searing Guardians and loot Smoldering Cores.|
-C Rage of the Wolf Ancient|QID|25576|M|28.51,40.57|Z|Firelands Forgeworks|
+C Rage of the Wolf Ancient|QID|25576|M|28.51,40.57|Z|Mount Hyjal|
 C Forged of Shadow and Flame|QID|25575|US|M|27.0,41.5|
 N Crushing the Cores|QID|25577|US|L|55123 8|M|27.0,41.5|N|Kill Searing Guardians and loot Smoldering Cores.|
 C Crushing the Cores|QID|25577|N|Find a Twilight Anvil, which is usually around the edges of the cavern, and use the Smoldering Cores while standing next to it.|
-T Rage of the Wolf Ancient|QID|25576|M|26.34,41.95|Z|Firelands Forgeworks|N|To Yargra Blackscar.|
-T Forged of Shadow and Flame|QID|25575|M|26.30,41.91|Z|Firelands Forgeworks|N|To Jordan Olafson.|
-T Crushing the Cores|QID|25577|M|26.30,41.91|Z|Firelands Forgeworks|N|To Jordan Olafson.|
-A Cindermaul, the Portal Master|QID|25599|PRE|25575;25576;25577|M|26.34,41.88|Z|Firelands Forgeworks|N|From Jordan Olafson.|
-C Cindermaul, the Portal Master|QID|25599|M|30.75,41.61|Z|Firelands Forgeworks|N|Head west back to the center of the cavern. From the center, follow the path down to the right. In the first cavern to the left, you will find Cindermaul. Kill him, then loot the chest he leaves behind.|
-T Cindermaul, the Portal Master|QID|25599|M|26.30,41.87|Z|Firelands Forgeworks|N|To Jordan Olafson.|
-A Forgemaster Pyrendius|QID|25600|PRE|25599|M|26.33,41.88|Z|Firelands Forgeworks|N|From Jordan Olafson.|
-C Forgemaster Pyrendius|QID|25600|M|32.08,45.76|Z|Firelands Forgeworks|N|Forgemaster Pyrendius is a level 80 elite. He has 154k health, so don't try to fight him directly. He is standing in a circle of runes. To kill him, make sure you hit him at least once, then drag Pyrendius to one of those runes, click on it to activate the rune, then position Pyrendius so that he is standing on the rune. Repeat that, moving from rune to rune, until he dies.|
-T Forgemaster Pyrendius|QID|25600|M|26.26,41.89|Z|Firelands Forgeworks|N|To Jordan Olafson.|
-A Return from the Firelands|QID|25611|PRE|25600|M|26.26,41.89|Z|Firelands Forgeworks|N|From Jordan Olafson.|
+T Rage of the Wolf Ancient|QID|25576|M|26.34,41.95|Z|Mount Hyjal|N|To Yargra Blackscar.|
+T Forged of Shadow and Flame|QID|25575|M|26.30,41.91|Z|Mount Hyjal|N|To Jordan Olafson.|
+T Crushing the Cores|QID|25577|M|26.30,41.91|Z|Mount Hyjal|N|To Jordan Olafson.|
+A Cindermaul, the Portal Master|QID|25599|PRE|25575;25576;25577|M|26.34,41.88|Z|Mount Hyjal|N|From Jordan Olafson.|
+C Cindermaul, the Portal Master|QID|25599|M|30.75,41.61|Z|Mount Hyjal|N|Head west back to the center of the cavern. From the center, follow the path down to the right. In the first cavern to the left, you will find Cindermaul. Kill him, then loot the chest he leaves behind.|
+T Cindermaul, the Portal Master|QID|25599|M|26.30,41.87|Z|Mount Hyjal|N|To Jordan Olafson.|
+A Forgemaster Pyrendius|QID|25600|PRE|25599|M|26.33,41.88|Z|Mount Hyjal|N|From Jordan Olafson.|
+C Forgemaster Pyrendius|QID|25600|M|32.08,45.76|Z|Mount Hyjal|N|Forgemaster Pyrendius is a level 80 elite. He has 154k health, so don't try to fight him directly. He is standing in a circle of runes. To kill him, make sure you hit him at least once, then drag Pyrendius to one of those runes, click on it to activate the rune, then position Pyrendius so that he is standing on the rune. Repeat that, moving from rune to rune, until he dies.|
+T Forgemaster Pyrendius|QID|25600|M|26.26,41.89|Z|Mount Hyjal|N|To Jordan Olafson.|
+A Return from the Firelands|QID|25611|PRE|25600|M|26.26,41.89|Z|Mount Hyjal|N|From Jordan Olafson.|
 T Sweeping the Shelf|QID|25352|RANK|2|M|28.19,29.83|N|To Ian Duran.|
 T Return from the Firelands|QID|25611|M|28.19,29.83|N|To Ian Duran.|
-A Aviana's Legacy|QID|27874|PRE|25611|M|28.4,29.8|N|From Vision of Ysera.|
 A The Fires of Mount Hyjal|QID|25630|PRE|25611|M|28.18,29.87|N|From Rio Duran.|
 f Shrine of Aviana|QID|25630|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
-T Aviana's Legacy|QID|27874|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|
-T Wings Over Mount Hyjal|QID|25985|RANK|2|M|44.37,46.21|N|To Choluna.|
-A An Offering for Aviana|QID|25663|PRE|27874|M|44.39,46.21|N|From Choluna.|
-A The Wormwing Problem|QID|25655|PRE|27874|M|42.18,45.40|N|From Thisalee Crow.|
-A Scrambling for Eggs|QID|25656|M|PRE|27874|42.18,45.40|N|From Thisalee Crow.|
+T Wings Over Mount Hyjal|QID|25985|M|44.37,46.21|N|To Choluna.|
+A An Offering for Aviana|QID|25663|M|39,46.21|N|From Choluna.|
+A The Wormwing Problem|QID|25655|M|42.18,45.40|N|From Thisalee Crow.|
+A Scrambling for Eggs|QID|25656|M|42.18,45.40|N|From Thisalee Crow.|
 C An Offering for Aviana|QID|25663|U|55208|M|40.38,44.31|N|Go to the small circle of stones just outside the shrine. Use the Sacred Nectar while standing near the basin in the center of the stone circle. The Spirit of Aviana will appear.|
 T An Offering for Aviana|QID|25663|M|40.38,44.31|N|To Mysterious Winged Spirit.|
 A A Plea From Beyond|QID|25665|PRE|25663|M|40.38,44.31|
@@ -159,7 +157,6 @@ C A Prayer and a Wing|QID|25664|U|55211|M|35.67,42.30|N|Get on your flying mount
 T A Bird in Hand|QID|25731|M|42.20,45.37|N|To Thisalee Crow.|
 T A Prayer and a Wing|QID|25664|M|44.38,46.21|N|To Choluna.|
 A Fact-Finding Mission|QID|25740|PRE|25664;25731|M|43.55,45.82|N|From Skylord Omnuron. We will be doing this quest later.|
-
 A Save the Wee Animals|QID|25385|PRE|25630|M|19.25,37.96|N|Mount up and head west, past the Shrine of Goldrinn and the Twilight Cultists camp. Follow the road until you reach the Grove of Aessina. From Mylune.|
 A If You're Not Against Us...|QID|25404|PRE|25630|M|19.04,36.98|N|From Matoclaw.|
 f Grove of Aessina|QID|25404|M|19.58,36.42|N|At Elizil Wintermoth.|
@@ -192,7 +189,7 @@ A Oh, Deer!|QID|25392|PRE|25385|M|19.25,37.95|N|From Mylune.|
 T The Name Never Spoken|QID|25412|M|22.23,44.93|N|To Tyrus Blackhorn.|
 A Black Heart of Flame|QID|25428|PRE|25412|M|22.23,44.93|N|From Tyrus Blackhorn.|
 C Black Heart of Flame|QID|25428|U|53464|M|12.37,44.26|
-C Oh, Deer!|QID|25392|M|18.99,37.66|
+C Oh, Deer!|QID|25392|QO|Injured Fawn Escorted Home: 3/3|M|18.99,37.66|
 T Oh, Deer!|QID|25392|M|19.24,37.81|N|To Mylune.|
 T Black Heart of Flame|QID|25428|M|22.18,44.93|N|To Tyrus Blackhorn.|
 A Last Stand at Whistling Grove|QID|25940|PRE|25428;25392|M|19.10,40.98|N|From Laina Nightsky.|
@@ -255,24 +252,24 @@ A An Ancient Reborn|QID|25807|PRE|25795|M|44.41,46.24|N|From Choluna.|
 C An Ancient Reborn|QID|25807|U|56016|M|44.34,47.89|N|Go up the ramp to your right, into a small room where you will find Aviana's Egg. Use the Herald's Incense near the egg to resurrect Aviana.|
 T An Ancient Reborn|QID|25807|M|44.34,47.89|N|To Aviana.|
 A An Ancient Awakens|QID|25520|PRE|25514;25519|M|24.49,55.81|N|From Tortolla.|
-T An Ancient Awakens|QID|25520|M|27.10,62.57|N|To Arch Druid Hamuul Runetotem.|
 A The Hatchery Must Burn|QID|25810|PRE|25807|RANK|2|M|44.09,46.01|N|From Morthis Whisperwing.|
+T An Ancient Awakens|QID|25520|M|27.10,62.57|N|To Arch Druid Hamuul Runetotem.|
 A The Last Living Lorekeeper|QID|25830|M|27.03,62.61|N|From Vision of Ysera.|
 F Firelands Hatchery|QID|25810|M|39.20,58.23|N|Fly back down into The Flamewake. Enter the large portal in the center.|
-T The Hatchery Must Burn|QID|25810|RANK|2|M|37.23,56.22|Z|Firelands Hatchery|N|To Farden Talonshrike.|
-A Flight in the Firelands|QID|25523|PRE|25810|RANK|2|M|37.23,56.22|Z|Firelands Hatchery|N|From Farden Talonshrike.|
-C Flight in the Firelands|QID|25523|RANK|2|M|36.51,53.32|Z|Firelands Hatchery|N|Loot a Twilight Firelance from one of the weapon ranks behind Farden. Equip it and jump on one of the Aviana's Guardians nearby. Flight does not work the normal way on these mounts. You must use the Flap ability to make them move forward AND stay in the air. You will move forward and gain altitude the more you use the ability. Fly to one of the flags on any the ledges in the cavern, then fly back to complete the quest.|
-T Flight in the Firelands|QID|25523|RANK|2|M|37.27,56.22|Z|Firelands Hatchery|N|To Farden Talonshrike.|
-A Wave One|QID|25525|PRE|25523|RANK|2|M|37.27,56.22|Z|Firelands Hatchery|N|From Farden Talonshrike.|
-C Wave One|QID|25525|RANK|2|M|37.66,49.68|Z|Firelands Hatchery|N|Using the same controls, fly into the center of the cavern. You will see many Twilight Buzzards flying around. "Kill" them by running onto the buzzards with your mount.|
-T Wave One|QID|25525|RANK|2|M|37.25,56.23|Z|Firelands Hatchery|N|To Farden Talonshrike.|
-A Wave Two|QID|25544|PRE|25525|RANK|2|M|37.27,56.27|Z|Firelands Hatchery|N|From Farden Talonshrike.|
-C Wave Two|QID|25544|RANK|2|M|35.08,51.10|Z|Firelands Hatchery|N|This quest is exactly the same as the last one, except now there are flaming boulders falling from the sky that you must dodge. If your mount gets killed, there are replacement mounts at the bottom of the cavern.|
-T Wave Two|QID|25544|RANK|2|M|37.26,56.23|Z|Firelands Hatchery|N|To Farden Talonshrike.|
-A Egg Wave|QID|25560|PRE|25544|RANK|2|M|37.26,56.23|Z|Firelands Hatchery|N|From Farden Talonshrike.|
-C Egg Wave|QID|25560|RANK|2|M|35.96,51.87|Z|Firelands Hatchery|N|This quest is much easier. Still using the same controls, fly over to the ledges around the room and run over the eggs that are on them.|
-T Egg Wave|QID|25560|RANK|2|M|37.26,56.21|Z|Firelands Hatchery|N|To Farden Talonshrike.|
-A Return to Aviana|QID|25832|PRE|25560|RANK|2|M|37.26,56.21|Z|Firelands Hatchery|N|From Farden Talonshrike.|
+T The Hatchery Must Burn|QID|25810|RANK|2|M|37.23,56.22|Z|Mount Hyjal|N|To Farden Talonshrike.|
+A Flight in the Firelands|QID|25523|PRE|25810|RANK|2|M|37.23,56.22|Z|Mount Hyjal|N|From Farden Talonshrike.|
+C Flight in the Firelands|QID|25523|RANK|2|M|36.51,53.32|U|52716|Z|Mount Hyjal|N|Loot a Twilight Firelance from one of the weapon ranks behind Farden. Equip it and jump on one of the Aviana's Guardians nearby. Flight does not work the normal way on these mounts. You must use the Flap ability to make them move forward AND stay in the air. You will move forward and gain altitude the more you use the ability. Fly to one of the flags on any the ledges in the cavern, then fly back to complete the quest.|
+T Flight in the Firelands|QID|25523|RANK|2|M|37.27,56.22|Z|Mount Hyjal|N|To Farden Talonshrike.|
+A Wave One|QID|25525|PRE|25523|RANK|2|M|37.27,56.22|Z|Mount Hyjal|N|From Farden Talonshrike.|
+C Wave One|QID|25525|U|52716|RANK|2|M|37.66,49.68|Z|Mount Hyjal|N|Using the same controls, fly into the center of the cavern. You will see many Twilight Buzzards flying around. "Kill" them by running onto the buzzards with your mount.|
+T Wave One|QID|25525|RANK|2|M|37.25,56.23|Z|Mount Hyjal|N|To Farden Talonshrike.|
+A Wave Two|QID|25544|PRE|25525|RANK|2|M|37.27,56.27|Z|Mount Hyjal|N|From Farden Talonshrike.|
+C Wave Two|QID|25544|U|52716|RANK|2|M|35.08,51.10|Z|Mount Hyjal|N|This quest is exactly the same as the last one, except now there are flaming boulders falling from the sky that you must dodge. If your mount gets killed, there are replacement mounts at the bottom of the cavern.|
+T Wave Two|QID|25544|RANK|2|M|37.26,56.23|Z|Mount Hyjal|N|To Farden Talonshrike.|
+A Egg Wave|QID|25560|PRE|25544|RANK|2|M|37.26,56.23|Z|Mount Hyjal|N|From Farden Talonshrike.|
+C Egg Wave|QID|25560|U|52716|RANK|2|M|33.29,58.5|Z|Mount Hyjal|N|This quest is much easier. Still using the same controls, fly over to the ledges around the room and run over the eggs that are on them.|
+T Egg Wave|QID|25560|RANK|2|M|37.26,56.21|Z|Mount Hyjal|N|To Farden Talonshrike.|
+A Return to Aviana|QID|25832|PRE|25560|RANK|2|M|37.26,56.21|Z|Mount Hyjal|N|From Farden Talonshrike.|
 T The Last Living Lorekeeper|QID|25830|PRE|25807|M|27.62,55.67|N|To Nordu.|
 A Firefight|QID|25842|PRE|25830|M|27.49,55.50|N|From Nordu.|
 C Firefight|QID|25842|M|26.80,52.53|Kill 5 Firey Tormentors nearby.|
@@ -291,7 +288,7 @@ T Lost Wardens|QID|25881|RANK|2|M|57.15,55.94|N|Continue to follow the road east
 A Pressing the Advantage|QID|25886|PRE|25881|RANK|2|M|57.15,55.94|N|From Captain Irontree.|
 T Breakthrough|QID|25899|RANK|2|M|57.15,55.94|N|To Captain Irontree.|
 A Hyjal Recycling Program|QID|25901|PRE|25843|RANK|2|M|56.87,56.01|N|From Logram.|
-C Hyjal Recycling Program|QID|25901|RANK|2|S|M|56.80,52.80|
+C Hyjal Recycling Program|QID|25901|RANK|2|S|M|56.80,52.80;58.66,54.29|N|Collect Arrows.|
 C Pressing the Advantage|QID|25886|RANK|2|M|54.16,54.28|
 C The Hammer and the Key|QID|25904|M|60.42,58.91|N|Continue killing Twilight Field Captains.|
 C Hyjal Recycling Program|QID|25901|RANK|2|US|M|56.80,52.80|
@@ -299,18 +296,19 @@ T The Hammer and the Key|QID|25904|M|42.25,60.80|N|To Tortolla.|
 A The Third Flamegate|QID|25906|PRE|25904|M|42.25,60.80|N|From Tortolla.|
 T Pressing the Advantage|QID|25886|RANK|2|M|57.14,55.96|N|To Captain Irontree.|
 T Hyjal Recycling Program|QID|25901|RANK|2|M|56.86,56.05|N|To Logram.|
-T The Third Flamegate|QID|25906|M|64.30,53.54|Z|The Crucible of Flame|N|Go farther down the road, to the east, until you reach another flamegate. Enter it to be teleported to The Crucible of Flame. Speak to Garunda Mountainpeak.|
-A The Time for Mercy has Passed|QID|25910|PRE|25906|RANK|2|M|64.30,53.54|Z|The Crucible of Flame|N|From Garunda Mountainpeak.|
-A The Strength of Tortolla|QID|25915|PRE|25906|M|64.30,53.54|Z|The Crucible of Flame|N|From Garunda Mountainpeak.|
-C The Time for Mercy has Passed|QID|25910|RANK|2|S|M|61.17,56.87|Z|The Crucible of Flame|
-C The Strength of Tortolla|QID|25915|M|65.95,58.11|Z|The Crucible of Flame|N|Make your way through the cavern until you find a Nemesis Crystal. Move the Cild of Tortolla following you close to the crystal and he will automatically examine it.|
-C The Time for Mercy has Passed|QID|25910|RANK|2|US|M|61.17,56.87|Z|The Crucible of Flame|
-T The Time for Mercy has Passed|QID|25910|RANK|2|M|64.34,53.55|Z|The Crucible of Flame|N|To Garunda Mountainpeak.|
-T The Strength of Tortolla|QID|25915|M|64.34,53.55|Z|The Crucible of Flame|N|To Garunda Mountainpeak.|
-A Finish Nemesis|QID|25923|PRE|25915|M|64.34,53.55|Z|The Crucible of Flame|N|From Garunda Mountainpeak.|
-C Finish Nemesis|QID|25923|U|56207|M|63.08,62.60|Z|The Crucible of Flame|N|Time to fight the giant turtle we have been dodging all this time. Go all the way to the end of the cave, where you will find Nemesis. Attack him until you get the message "Nemesis is about to erupt!" When you see that, use the Totem of Tortolla to place a shield around yourself, protecting you from damage but also preventing any movement or attacks by you. Nemesis will erupt in flames, damaging himself and everything around him. Repeat this sequence of attacking and shielding until Nemesis is dead.|
-T Finish Nemesis|QID|25923|M|64.31,53.54|Z|The Crucible of Flame|N|To Garunda Mountainpeak.|
-A Tortolla's Triumph|QID|25928|PRE|25923|M|64.31,53.54|Z|The Crucible of Flame|N|From Garunda Mountainpeak.|
+T The Third Flamegate|QID|25906|M|64.30,53.54|Z|Mount Hyjal|N|Go farther down the road, to the east, until you reach another flamegate. Enter it to be teleported to The Crucible of Flame. Speak to Garunda Mountainpeak.|
+A The Time for Mercy has Passed|QID|25910|PRE|25906|RANK|2|M|64.30,53.54|Z|Mount Hyjal|N|From Garunda Mountainpeak.|
+N The Strength of Tortolla|QID|25915|Z|Mount Hyjal|N|If you are a pet class before you accept this quest, ensure that your pet is dismissed, else it can potentially bug out.|
+A The Strength of Tortolla|QID|25915|PRE|25906|M|64.30,53.54|Z|Mount Hyjal|N|From Garunda Mountainpeak.|
+C The Time for Mercy has Passed|QID|25910|RANK|2|S|M|61.17,56.87|Z|Mount Hyjal|
+C The Strength of Tortolla|QID|25915|M|65.95,58.11|Z|Mount Hyjal|N|Make your way through the cavern until you find a Nemesis Crystal. Move the Cild of Tortolla following you close to the crystal and he will automatically examine it.|
+C The Time for Mercy has Passed|QID|25910|RANK|2|US|M|61.17,56.87|Z|Mount Hyjal|
+T The Time for Mercy has Passed|QID|25910|RANK|2|M|64.34,53.55|Z|Mount Hyjal|N|To Garunda Mountainpeak.|
+T The Strength of Tortolla|QID|25915|M|64.34,53.55|Z|Mount Hyjal|N|To Garunda Mountainpeak.|
+A Finish Nemesis|QID|25923|PRE|25915|M|64.34,53.55|Z|Mount Hyjal|N|From Garunda Mountainpeak.|
+C Finish Nemesis|QID|25923|U|56207|M|63.08,62.60|Z|Mount Hyjal|N|Time to fight the giant turtle we have been dodging all this time. Go all the way to the end of the cave, where you will find Nemesis. Attack him until you get the message "Nemesis is about to erupt!" When you see that, use the Totem of Tortolla to place a shield around yourself, protecting you from damage but also preventing any movement or attacks by you. Nemesis will erupt in flames, damaging himself and everything around him. Repeat this sequence of attacking and shielding until Nemesis is dead.|
+T Finish Nemesis|QID|25923|M|64.31,53.54|Z|Mount Hyjal|N|To Garunda Mountainpeak.|
+A Tortolla's Triumph|QID|25928|PRE|25923|M|64.31,53.54|Z|Mount Hyjal|N|From Garunda Mountainpeak.|
 T Tortolla's Triumph|QID|25928|M|42.11,60.86|N|Use the portal nearby to teleport back to The Scorched Plain. Follow the road, heading west, all the way back to Tortolla.|
 A The Ancients are With Us|QID|25653|PRE|25928|M|42.05,60.88|N|From Tortolla.|
 T The Ancients are With Us|QID|25653|M|62.08,24.93|N|To Ysera.|
@@ -325,7 +323,7 @@ A In Bloom|QID|25224|PRE|25276|M|76.89,62.09|N|From Condenna the Pitiless.|
 A Trial By Fire|QID|25223|PRE|25276|M|76.97,62.20|N|From Condenna the Pitiless.|
 A Waste of Flesh|QID|25330|PRE|25276|M|76.99,62.16|N|From Instructor Cargall.|
 C Trial By Fire|QID|25223|M|81.81,64.04|
-C In Bloom|QID|25224|M|81.02,63.88|
+C In Bloom|QID|25224|M|81.02,63.88;78.75,62.28|L|52537 5|N|Collect Flame Blossoms.|
 C Waste of Flesh|QID|25330|U|52819|M|78.95,63.18|N|Find an Immolated Supplicant that are running around covered in fire. Use the Frostgale Crystal on them to put out the flames.|
 T Waste of Flesh|QID|25330|M|77.09,62.23|N|To Instructor Cargall.|
 T Trial By Fire|QID|25223|M|76.95,62.15|N|To Condenna the Pitiless.|
@@ -340,7 +338,8 @@ C Gather the Intelligence|QID|25296|M|91.95,51.60|N|Leave the camp. Head northea
 C Physical Training: Forced Labor|QID|25509|S|U|54788|M|89.55,49.35|N|use the Twilight Pick on Darkwhisper Lodestones.|
 K Spinescale Basilisk|QID|25294|L|52708 5|M|89.55,49.35|N|Kill Spinescale Basilisk and loot 5 Charred Basilisk Meat.|
 C Physical Training: Forced Labor|QID|25509|US|U|54788|M|89.55,49.35|N|use the Twilight Pick on Darkwhisper Lodestones.|
-C Walking the Dog|QID|25294|U|52717|M|92.43,50.73|N|Once back in the camp, use the Firey Leash to summon the Spawn of Smolderos. Feed him the 5 Charred Basilisk Meat.|
+N Walking the Dog|QID|25294|U|52717|M|92.43,50.73|N|Once back in the camp, use the Fiery Leash to summon the Spawn of Smolderos.|
+C Walking the Dog|QID|25294|U|52708|M|92.43,50.73|N|Feed him the 5 Charred Basilisk Meat.|
 T Walking the Dog|QID|25294|M|90.11,56.32|N|To Instructor Devoran.|
 A A Champion's Collar|QID|25494|PRE|25294|M|90.11,56.32|N|From Instructor Devoran.|
 T Gather the Intelligence|QID|25296|M|88.32,58.52|N|To Instructor Devoran.|
@@ -360,7 +359,8 @@ C A Champion's Collar|QID|25494|M|84.20,47.31|N|Leave the camp and follow the ro
 T A Champion's Collar|QID|25494|M|90.14,56.49|N|To Instructor Devoran.|
 A Grudge Match|QID|25496|PRE|25494|M|90.14,56.49|N|From Instructor Devoran.|
 C Grudge Match|QID|25496|M|77.86,51.18|N|Leave the camp and go to the Seat of the Chosen. Go to the first building on your left as you enter the camp. Speak to Gromm'ko to challenge him to a match. Once your core hound pup kills his raptor, Gromm'ko will attack you.|
-C Seeds of Discord|QID|25308|U|55137|M|76.62,48.71|N|Go to the Ogre Outhouse on the right side of the large building. Use the Ogre Disguise near the outhouse to transform into an ogre. Enter the large building. Speak to Karr'gonn to get him to leave the room. As soon as he is outside, kill High Cultist Azennios.|
+N Seeds of Discord|QID|25308|U|55137|M|77.35,48.27|N|Go to the Ogre Outhouse on the right side of the large building. Use the Ogre Disguise near the outhouse to transform into an ogre.|
+C Seeds of Discord|QID|25308|U|55137|M|76.62,48.71|N|Enter the large building. Speak to Karr'gonn to get him to leave the room. As soon as he is outside, kill High Cultist Azennios.|
 T Grudge Match|QID|25496|M|90.12,56.45|N|To Instructor Devoran.|
 T Seeds of Discord|QID|25308|M|88.28,58.51|N|To Instructor Devoran.|
 T Spiritual Training: Mercy is for the Weak|QID|25309|M|89.56,59.04|N|To Instructor Mylva.|
@@ -387,9 +387,9 @@ A Might of the Firelord|QID|25548|PRE|25608|M|71.97,73.97|N|From Commander Jarod
 A Secrets of the Flame|QID|25554|PRE|25608|M|71.96,74.01|N|From Cenarius.|
 f Gates of Sothann|QID|25554|M|71.57,75.24|N|At Althera.|
 C Might of the Firelord|QID|25548|S|M|58.49,82.53|
-N Secrets of the Flame|QID|25554|M|59.66,80.81|N|Get the The Burning Litanies.|
-N Secrets of the Flame|QID|25554|M|58.13,78.90|N|Get the Tome of Flame.|
-C Secrets of the Flame|QID|25554|M|56.84,83.85|N|Get the Ascendant's Codex.|
+C Secrets of the Flame|QID|25554|M|59.66,80.81|L|54906|N|The 3 items for this quest are in the various camps in this area, appearing at random places. Get the The Burning Litanies.|
+C Secrets of the Flame|QID|25554|M|58.13,78.90|L|54905|N|Get the Tome of Flame.|
+C Secrets of the Flame|QID|25554|M|56.84,83.85|L|54907|N|Get the Ascendant's Codex.|
 A The Twilight Egg|QID|25644|PRE|25608|M|59.07,83.85|N|From Twilight Subjugator.|
 C Might of the Firelord|QID|25548|US|M|58.49,82.53|
 T Might of the Firelord|QID|25548|M|72.08,74.05|N|To Commander Jarod Shadowsong.|
@@ -410,10 +410,10 @@ C Death to the Broodmother|QID|25553|U|55173|M|54.78,85.27|N|Use the Young Twili
 C Magma Monarch|QID|25550|U|55179|M|43.89,82.83|N|Fly to the charred area southwest of Sulferon Spire. Find King Moltron. Land near him and use the Drums of the Turtle God to summon Tortolla. Kill King Moltron.|
 T Death to the Broodmother|QID|25553|M|72.24,73.91|N|To Aronus.|
 T Magma Monarch|QID|25550|M|72.07,74.00|N|To Commander Jarod Shadowsong.|
-A The Firelord|QID|25551|PRE|25555|M|71.95,73.96|N|From Cenarius.|
-C The Firelord|QID|25551|M|49.07,76.66|N|It's finally time to fight Ragnaros. Fly to the flamegate just past where you fought Azralon. Enter the portal and speak to Cenarius to start the battle. Malfurion Stormrage and Arch Druid Hamuul some to help out as well. Once the battle starts, Cenarius will hold threat on Ragnaros, while Hamuul and Malfurion cast spells on him that cause Ragnaros to take 2000% increased magic and physical damage. Every 30 secods or so, Ragnaros will submerge and summon a flame wave. Once the flame wave passes, Ragnaros will summon adds that attack Malfurion and Hamuul. Alternate between keeping the adds clear and DPS'ing Ragnaros until he dies.|
+A The Firelord|QID|25551|PRE|25553;25550|M|71.95,73.96|N|From Cenarius.|
+T Return to Aviana|QID|25832|M|44.34,47.89|To Aviana.|
+C The Firelord|QID|25551|M|55.45,66.91|N|It's finally time to fight Ragnaros. Fly to the flamegate just past where you fought Azralon. Enter the portal and speak to Cenarius to start the battle. Malfurion Stormrage and Arch Druid Hamuul some to help out as well. Once the battle starts, Cenarius will hold threat on Ragnaros, while Hamuul and Malfurion cast spells on him that cause Ragnaros to take 2000% increased magic and physical damage. Every 30 secods or so, Ragnaros will submerge and summon a flame wave. Once the flame wave passes, Ragnaros will summon adds that attack Malfurion and Hamuul. Alternate between keeping the adds clear and DPS'ing Ragnaros until he dies.|
 T The Firelord|QID|25551|M|72.09,74.07|N|To Commander Jarod Shadowsong.|
 A The Battle Is Won, The War Goes On|QID|27398|PRE|25551|M|72.09,74.07|N|From Commander Jarod Shadowsong.|
 ]]
-
 end)

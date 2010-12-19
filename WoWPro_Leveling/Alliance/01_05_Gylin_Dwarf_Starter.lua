@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh (Dwarf)", "Gylin", "01", "05", "GamDun0510", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh - Dwarf", "Gylin", "01", "05", "GamDun0510", "Alliance", function()
 return
 [[
 

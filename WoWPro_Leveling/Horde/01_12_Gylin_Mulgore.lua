@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('GylMul0105', 'Mulgore', 'Gylin', '01', '12', 'nil', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('GylMul0105', 'Mulgore - Tauren', 'Gylin', '01', '12', 'nil', 'Horde', function()
 return [[
 
 A The First Step |QID|14449|M|45.14,75.56|Z|Mulgore|N|From Chief Hawkwind.|

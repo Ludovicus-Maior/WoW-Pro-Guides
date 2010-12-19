@@ -1,6 +1,5 @@
-WoWPro.Leveling:RegisterGuide('AriVas8082', 'Vashjir', 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
-return [[
-A Call of Duty|QID|14482|M|41.1,48.6|Z|Stormwind City|N|From Recruiter Burns|
+WoWPro.Leveling:RegisterGuide('AriVas8082', "Vash'jir", 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
+return [[A Call of Duty|QID|14482|M|41.1,48.6|Z|Stormwind City|N|From Recruiter Burns|
 C Call of Duty|QID|14482|M|27.4,24.1|Z|Stormwind City|N|Head to the northernmost dock. A small event will happen with soldiers talking about recent events. Just wait around for the mercenary ship to arrive.|
 T Call of Duty|QID|14482|M|45.2,23.4|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Sea Legs|QID|24432|PRE|14482|M|45.2,23.4|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
@@ -86,7 +85,7 @@ C Lady La-La's Medallion|QID|25419|M|49.3,48.7;53.6,54.6;55.7,58.7|Z|Kelp'thar F
 T Lady La-La's Medallion|QID|25419|M|49.3,48.7;53.6,54.6;55.7,58.7|Z|Kelp'thar Forest|N|Complete the quest to get your reward.|
 K Gilblin Hoarders|QID|25651|RANK|2|L|55185 50|US|M|49.3,48.7;53.6,54.6;55.7,58.7|Z|Kelp'thar Forest|N|Kill Gilblin Hoarder's and collect cannon balls until you have 50 Pilfered Cannonballs.|
 C Oh, the Insanity!|QID|25651|RANK|2|M|51.66,53.23|Z|Kelp'thar Forest|U|55185|N|Use the cannonballs to convert them into a Keg of Gunpowder.|
-N Blackfin's Booty|QID|25503|RANK|2|M|51.5,51.6|L|54639|Z|Kelp'thar Forest|N|Kill Gilbingle and loot the Waterlogged Journal from him.
+N Blackfin's Booty|QID|25503|RANK|2|M|51.5,51.6|L|54639|Z|Kelp'thar Forest|N|Kill Gilblingle and loot the Waterlogged Journal from him.|T|Gilblingle|
 A Blackfin's Booty|QID|25503|RANK|2|M|51.5,51.6|U|54639|Z|Kelp'thar Forest|N|Use it to accept the quest Blackfin's Booty.|
 T Oh, the Insanity!|QID|25651|M|55.3,38.9|Z|Kelp'thar Forest|N|To Budd.|
 A Dah, Nunt... Dah, Nunt...|QID|25657|PRE|25651|RANK|2|M|55.3,38.9|Z|Kelp'thar Forest|N|From Budd.|
@@ -113,7 +112,7 @@ C Undersea Sanctuary|QID|25794|U|56020|M|46.43,46.27|Z|Kelp'thar Forest|N|Use Er
 T Undersea Sanctuary|QID|25794|M|46.3,46.8|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Spelunking|QID|25812|PRE|25794|M|46.3,46.8|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 T Spelunking|QID|25812|M|64.0,59.8|Z|Kelp'thar Forest|N|To Private Pollard.|
-A Debriefing|QID|225824|PRE|25812|M|63.0,59.9|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
+A Debriefing|QID|25824|PRE|25812|M|63.0,59.9|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 h Deepmist Grotto|QID|25824|M|63.9,59.9|Z|Kelp'thar Forest|N|At Erunak Stonespeaker.|
 C Debriefing|QID|25824|M|63.9,59.9|Z|Kelp'thar Forest|QO|Private Pollard Debriefed|N|Talk to Private Pollard to complete this quest.|
 T Debriefing|QID|25824|M|63.8,59.7|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
@@ -230,8 +229,8 @@ T Still Valuable|QID|25920|M|62.8,50.0|Z|Shimmering Expanse|N|To Wavespeaker Val
 A Overseer Idra'kess|QID|25921|PRE|25918;25919;25920|M|62.6,49.8|Z|Shimmering Expanse|N|From Captain Taylor.|
 N Overseer Idra'kess|QID|25921|M|57.6,57.3|Z|Shimmering Expanse|N|Follow the outside wall directly behind Captain Tailor, keeping the wall on your left. Keep going, heading generally southwest, until you reach a tunnel leading up. Follow this tunnel until you get to the upper chamber. In the back of this chamber, directly opposite the tunnel, you will find Overseer Idra'kess.|
 C Overseer Idra'kess|QID|25921|M|57.6,57.3|QO|Overseer Idra'kess slain: 1/1|Z|Shimmering Expanse|N|When his health reaches about 40% he will place a shield around himself that reduces all damage he takes by 90%. Several Nesprah Abscesses will spawn around him. Each one you destroy weakens his shield, eventually removing it.|
-T Overseer Idra'kess|QID|25921|M|62.6,49.8|Z|Shimmering Expanse|N|To Captain Taylor.|
-A Waking The Beast|QID|25922|PRE|25921|M|62.6,49.8|Z|Shimmering Expanse|N|From Captain Taylor.|
+T Overseer Idra'kess|QID|25921|M|51.66,52.21|Z|Shimmering Expanse|N|To Earthmender Duarn.|
+A Waking The Beast|QID|25922|PRE|25921|M|51.66,52.21|Z|Shimmering Expanse|N|From Earthmender Duarn.|
 C Waking The Beast|QID|25922|M|62.6,49.8|Z|Shimmering Expanse|QO|Listen as Duarn speaks to Nespirah: 1/1|N|Listen as Duarn speaks to Nespirah|
 C Waking The Beast|QID|25922|M|50.3,55.4|Z|Shimmering Expanse|QO|Escape on Erunak's Seahorse: 1/1|N|Leave Nespirah through first exit to the south of the brain room. Just outside the tunnel you will find Erunak's Seahorse.|
 T Waking The Beast|QID|25922|M|49.2,57|Z|Shimmering Expanse|N|To Captain Taylor.|
@@ -282,11 +281,11 @@ T Reoccupation|QID|25619|M|40.5,75.4|Z|Shimmering Expanse|N|To Fathom-Stalker Az
 A The Revered Lady|QID|25620|PRE|25619|M|40.5,75.4|Z|Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
 T The Revered Lady|QID|25620|M|39.4,59|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 A To the Fathom-Lord's Call|QID|25637|PRE|25620|M|39.4,59|Z|Shimmering Expanse|N|From Lady Naz'jar.|
-A Built to Last|QID|25968|RANK|2|M|39,58.6|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
+A Built to Last|QID|25658|RANK|2|M|39,58.6|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
 C To the Fathom-Lord's Call|QID|25637|S|QO|Kvaldir invaders on the terrace slain: 16/16|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|Shimmering Expanse|N|Kill Kvaldir.|
-C Build To Last|QID|25968|RANK|2|M|34.6,65.4|QO|Nar'shola Wards activated: 6/6|Z|Shimmering Expanse|N|Activate the defenses which look like blue basins.|
+C Built To Last|QID|25658|RANK|2|M|34.6,65.4|QO|Nar'shola Wards activated: 6/6|Z|Shimmering Expanse|N|Activate the defenses which look like blue basins.|
 C To the Fathom-Lord's Call|QID|25637|US|QO|Kvaldir invaders on the terrace slain: 16/16|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|Shimmering Expanse|N|Kill the remaining Kvaldir.|
-T Build To Last|QID|25968|RANK|2|M|49,58.6|Z|Shimmering Expanse|N|To Sira'kess Tide Priestess.|
+T Built To Last|QID|25658|RANK|2|M|49,58.6|Z|Shimmering Expanse|N|To Sira'kess Tide Priestess.|
 T To the Fathom-Lord's Call|QID|25637|M|36.5,78.5|Z|Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|
 A Not Soon Forgotten|QID|25659|PRE|25637|M|36.5,78.5|Z|Shimmering Expanse|N|From Fathom-Lord Zin'jatar.|
 C Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|N|Swim up the tunnel in front of you until you find Varkul the Unrelenting. He will be surrounded by 5 Sira'kess Sea Witches and some other naga. As long as they are not being attacked, they will channel spell that causes Varkul to take increased damage. So Attach Varkul until he calls in the other kvaldir. Then let the other naga tank him while you kill off the adds.|
@@ -383,9 +382,7 @@ A Full Circle|QID|26219|PRE|26005|M|69.6,75.3|Z|Shimmering Expanse|N|From Captai
 C Full Circle|QID|26219|M|69.6,75.3|QO|Board the Pincer X2 once it arrives: 1/1|Z|Shimmering Expanse|N|Get on board the sub once it arrives.|
 C Full Circle|QID|26219|M|54.5,72.8|QO|Secure Darkbreak Cove: 1/1|Z|Abyssal Depths|N|Secure Darkbreak Cove.|
 T Full Circle|QID|27219|M|54.5,72.8|Z|Abyssal Depths|N|To Captain Glovaal.|
-A Our Aquatic Neigh-Bors|QID|26104|PRE|27219|M|54.5,72.8|Z|Abyssal Depths|N|From Captain Glovaal.|
 A Bio-Fuel|QID|26103|PRE|27219|M|55.5,72.9|Z|Abyssal Depths|N|Engineer Hexascrub.|
-C Our Aquatic Neigh-Bors|QID|26104|QO|Seahorse captured: 5/5|U|56835|M|54.5,73.0|Z|Abyssal Depths|N|Swim out and up to the ridge above you. Go to the top of one of the tall pillars with the red kelp on it. Use the Seahorse Lasso while swimming just about the red kelp to toss the rope in. You will either capture a seahorse or a shark, which will attack you. Keep doing this until you capture 5 seahorses. You can do this at any of the pillars up here.|
 C Bio-Fuel|QID|26103|M|56.8,44.2;53.9,49.6;54.5,62.9;49.3,74.7;56,7,74.4|L|56818 4|U|56821|Z|Abyssal Depths|N|Oilify 4 Seabrush Terrapins after killing them.|
 C Bio-Fuel|QID|26103|M|54.8,42.7;58.5,49.7;53.0,60.3;55.1,68.7;51.4,81|L|56819 4|U|56821|Z|Abyssal Depths|N|Oilify 4 Scourgut Remora after killing them.|
 C Bio-Fuel|QID|26103|M|56.1,45.;52.3,40.5;50.6,73.2;54.5,73.7|L|56820 4|U|56821|Z|Abyssal Depths|N|Oilify 4 Spinescale Hammerheads after killing them.|
@@ -393,11 +390,10 @@ T Bio-Fuel|QID|26103|M|55.5,72.9|Z|Abyssal Depths|N|To Engineer Hexascrub.|
 A Fuel-ology 101|QID|26106|PRE|26103|M|55.5,72.9|Z|Abyssal Depths|N|From Engineer Hexascrub.|
 C Fuel-ology 101|QID|26106|M|55.5,72.9|QO|Create the perfect bio-fuel: 1/1|Z|Abyssal Depths|N|Go to the table in the middle of the camp and click on it to begin mixing. You will need to select 5 samples of the different types of oil you collected. The combination that finally worked for me was 2x Remora Oil and 3x Hammerhead Oil, but I am not sure if there is a "correct" combination that will work every time. Just mix 5 samples together and take whatever you get to Engineer Hexascrub. If you don't get the quest complete message, just try again following Hexascrub's suggestions until you complete the quest.|
 T Fuel-ology 101|QID|26106|M|55.5,72.9|Z|Abyssal Depths|N|To Engineer Hexascrub.|
-T Our Aquatic Neigh-Bors|QID|26104|M|54.5,72.8|Z|Abyssal Depths|N|To Captain Glovaal.|
 A Claim Korthun's End|QID|26105|PRE|26103|M|54.5,72.8|Z|Abyssal Depths|N|Kill a Hellscream Seadog to automatically be offered this quest from Captain Glovaal.|
 C Claim Korthun's End|QID|26105|M|55.9,70.6;56.5,72.6;51.9,70.7;53,58;49.2,67.3|QO|Hellscream Seadog slain: 7/7|Z|Abyssal Depths|N|Kill Hellsong Seadogs.|
 T Claim Korthun's End|QID|26105|M|55.6,72.9|Z|Abyssal Depths|N|To Jorlan Trueblade.|
-A The Brothers Digsong|QID|26014|PRE|26104;26105;26106;|M|54.5,72.8|Z|Abyssal Depths|N|From Captain Glovaal.|
+A The Brothers Digsong|QID|26014|PRE|26105;26106;|M|54.5,72.8|Z|Abyssal Depths|N|From Captain Glovaal.|
 T The Brothers Digsong|QID|26014|M|47.4,49.7|Z|Abyssal Depths|N|To Humphrey Digsong.|
 A Phosphora Hunting|QID|26015|PRE|26014|M|47.4,49.7|Z|Abyssal Depths|N|From Humphrey Digsong.|
 C Phosphora Hunting|QID|26015|M|46.3,53.2;43.7,56;43.3,62.6;42.5,68.9;46.4,65|L|56568 6|Z|Abyssal Depths|N| Kill Pyreshell Crabs and Luxscale Groupers, which can be found anywhere in Coldlight Chasm, until you have 6 Coldlight Phosphora.|

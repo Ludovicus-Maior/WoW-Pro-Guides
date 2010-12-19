@@ -13,19 +13,12 @@ end
 
 function WoWPro:SetDefaults()
 	
-	-- AnchorFrame --
-	WoWPro.AnchorFrame:SetHeight(22)
-	WoWPro.AnchorFrame:SetWidth(200)
-	WoWPro.AnchorFrame:SetMinResize(150,40)
-	WoWPro.AnchorFrame:ClearAllPoints()
-	WoWPro.AnchorFrame:SetPoint("TOPRIGHT", UIParent, "RIGHT", -10, 175)
-	
 	-- MainFrame --
 	WoWPro.MainFrame:SetHeight(300)
 	WoWPro.MainFrame:SetWidth(200)
 	WoWPro.MainFrame:SetMinResize(150,40)
 	WoWPro.MainFrame:ClearAllPoints()
-	WoWPro.MainFrame:SetPoint("TOPRIGHT", WoWPro.AnchorFrame, "TOPRIGHT")
+	WoWPro.AnchorFrame:SetPoint("TOPRIGHT", UIParent, "RIGHT", -10, 175)
 	
 	WoWPro:RefreshConfig()
 end
@@ -36,8 +29,8 @@ local soundfiles = {
 			["Level Up"] = [[Sound\Interface\LevelUp.wav]],
 			["Map Ping"] = [[Sound\Interface\MapPing.wav]],
 			["Boat Docked"] = [[Sound\Doodad\BoatDockedWarning.wav]],
-		}
-			
+}
+
 local function CreateDisplayConfig()
 	local options = {
 		type = "group",
@@ -735,4 +728,5 @@ end
 
 function WoWPro.CreateConfig()
 	blizzPanel = createBlizzOptions()
+	InterfaceOptions_AddCategory(WoWPro.GuideList)
 end

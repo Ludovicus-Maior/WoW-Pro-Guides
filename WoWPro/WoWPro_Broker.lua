@@ -99,8 +99,16 @@ function WoWPro:UpdateGuide(offset)
 	WoWPro:PaddingSet()
 	
 	-- Updating the guide list or current guide panels if they are shown --
-	if WoWPro_Leveling_GuideListFrame:IsShown() then WoWPro.Leveling.UpdateGuideList() end
-	if WoWPro_Leveling_CurrentGuide:IsShown() then WoWPro.Leveling.UpdateCurrentGuidePanel() end
+	if WoWPro[module:GetName()].GuideList 
+	and WoWPro[module:GetName()].GuideList:IsShown() 
+	and WoWPro[module:GetName()].UpdateGuideList then
+		WoWPro[module:GetName()].UpdateGuideList() 
+	end
+	if WoWPro[module:GetName()].CurrentGuide 
+	and WoWPro[module:GetName()].CurrentGuide:IsShown() 
+	and WoWPro[module:GetName()].UpdateCurrentGuide then
+		WoWPro[module:GetName()].UpdateCurrentGuide() 
+	end
 	
 	-- Updating the progress count --
 	local p = 0

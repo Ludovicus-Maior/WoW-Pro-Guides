@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
+WoWPro.Leveling:RegisterGuide("SnoEve0112", "Eversong Woods - Blood Elf", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
 
 return [[
 

@@ -131,6 +131,37 @@ function WoWPro:CreateBG(parent)
 	return box
 end
 
+function WoWPro:CreateTab(name, parent)
+
+	local bg = {
+		bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
+		tile = true,
+		tileSize = 16,
+		insets = { left = 5, right = 5, top = 5, bottom = 5 }
+	}
+	local tab = CreateFrame('Button', nil, parent)
+	tab:SetBackdrop(bg)
+	tab:SetBackdropColor(0.1, 0.1, 0.1, 1)
+	tab:RegisterForClicks("anyUp")
+	
+	tab.border = tab:CreateTexture('border')
+	tab.border:SetAllPoints(tab)
+	tab.border:SetPoint("BOTTOM", 0, 5)
+	tab.border:SetTexture("Interface\\OPTIONSFRAME\\UI-OptionsFrame-InactiveTab")
+	
+	tab.text = tab:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+	tab.text:SetHeight(35)
+	tab.text:SetPoint("TOPLEFT", tab, "TOPLEFT", 0, -3)
+	tab.text:SetPoint("TOPRIGHT", tab, "TOPRIGHT", 0, -3)
+	tab.text:SetJustifyH("CENTER")
+	tab.text:SetText(name)
+	
+	tab:SetWidth(tab.text:GetWidth()+20)
+	tab:SetHeight(35)
+	
+	return tab
+end
+
 -- Creates a scrollbar
 -- Parent is required, offset and step are optional
 function WoWPro:CreateScrollbar(parent, offset, step)

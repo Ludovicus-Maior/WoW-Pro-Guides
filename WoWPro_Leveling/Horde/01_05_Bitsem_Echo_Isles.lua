@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar - Echo Isles (Troll)', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar - Echo Isles - Troll', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', function()
 return [[A The Rise of the Darkspear|RANK|1|QID|24764|C|Druid|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24750|C|Mage|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24770|C|Rogue|M|62.43,84.53|N|From Jin'thala.|

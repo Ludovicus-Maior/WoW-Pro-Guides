@@ -1,9 +1,13 @@
-WoWPro.Leveling:RegisterGuide('JiyDur0105', 'Durotar - Valley of Trials (Orc)', 'Jiyambi', '01', '05', 'BitDur0512', 'Horde', function() 
-return [[A Your Place In The World|QID|25152|M|43.33,68.81|N|From Kaltunk.|
+WoWPro.Leveling:RegisterGuide('JiyDur0105', 'Durotar - Valley of Trials - Orc', 'Jiyambi', '01', '05', 'BitDur0512', 'Horde', function() 
+return [[
+
+A Your Place In The World|QID|25152|M|43.33,68.81|N|From Kaltunk.|
 T Your Place In The World|QID|25152|M|43.22,68.23|N|To Gornek.|
 A Cutting Teeth|QID|25126|M|43.22,68.23|N|From Gornek.|
 C Cutting Teeth|QID|25126|M|44.90,65.60|N|Kill boars in the nearby boar pen.|
 T Cutting Teeth|QID|25126|M|43.26,68.22|N|To Gornek.|
+
+L Level 3|QID|25126|LVL|3|N|Kill boars until you reach level 3.|
 
 A Rune-Inscribed Parchment|RANK|1|QID|3089|C|Shaman|M|43.22,68.23|N|From Gornek.|
 A Glyphic Parchment|RANK|1|QID|25138|C|Mage|M|43.22,68.23|N|From Gornek.|
@@ -40,8 +44,6 @@ T Steady Shot|RANK|1|QID|25139|C|Hunter|M|42.84,69.33|N|To Karranisha.|
 T Immolate|RANK|1|QID|25145|C|Warlock|M|42.39,68.07|N|To Nartok.|
 T Eviscerate|RANK|1|QID|25141|C|Rogue|M|42.37,68.81|N|To Rwag.|
 
-L Level 3|QID|25126|LVL|3|N|Kill boars until you reach level 3.|
-
 A Invaders in Our Home|QID|25172|M|43.23,68.21|N|From Gornek.|
 A Lazy Peons|QID|25134|M|43.51,67.47|N|From Foreman Thazz'ril.|
 A Galgar's Cactus Apple Surprise|QID|25136|M|42.75,67.31|N|From Galgar.|
@@ -77,3 +79,5 @@ T Report to Sen'jin Village|QID|25133|M|55.93,74.69|N|To Master Gadrin.|
 ]]
 
 end)
+
+

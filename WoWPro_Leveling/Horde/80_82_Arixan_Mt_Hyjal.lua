@@ -1,25 +1,27 @@
 WoWPro.Leveling:RegisterGuide('AriMtH8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriVas8082', 'Horde', function() 
-return [[N Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|
+return [[
+
+N Flying in Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|
 R Orgrimmar|QID|27721|Z|Orgrimmar|N|Make your way to Orgrimmar.|
 A Warchief's Command: Mount Hyjal|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board.|
-N Talk to Cenarion Emissary Blackhoof|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|In the Valley of Wisdom.|
-T Warchief's Command: Mount Hyjal|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|
+b Moonglade|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|Talk to Cenarion Emissary Blackhoof in the Valley of Wisdom to be teleported to Moonglade.|
+T Warchief's Command: Mount Hyjal|QID|27721|M|45.5,44.7|Z|Moonglade|N|To Emissary Windsong.|
 A As Hyjal Burns|QID|25316|M|45.5,44.7|Z|Moonglade|
-N Ride Aronus|QID|25316|M|46.0,45.1|Z|Moonglade|
-T As Hyjal Burns|QID|25316|M|62.1,24.8|N|Inside the building at Ysera.|
-A Protect the World Tree|QID|25317|M|62.1,24.8|
+F Mount Hyjal|QID|25316|M|62.1,24.8|N|Hop on Aronus.|
+T As Hyjal Burns|QID|25316|M|62.1,24.8|N|When you land, head inside the building to Ysera.|
+A Protect the World Tree|QID|25317|M|62.10,24.87|N|From Ysera.|
 h Nordrassil|QID|25317|M|63.0,24.1|N|At Sebelia next to the door.|
 A The Earth Rises|QID|25460|M|63.9,22.7|N|From Anren Shadowseeker.|
-A Inciting the Elements|QID|25370|M|64.0,22.5|N|From Tholo Whitehoof.|
-N Inciting the Elements|QID|25370|S|L|53009 4|N|Loot 4 Juniper Berries.|
+A Inciting the Elements|QID|25370|M|64.07,22.56|N|From Tholo Whitehoof.|
+l Inciting the Elements|QID|25370|S|L|53009 4|N|Loot 4 Juniper Berries.|
 C The Earth Rises|QID|25460|S|M|64.8,22.5|
-C Inciting the Elements|QID|25370|M|64.8,22.5|N|Use the Berries on Faerie Dragons and then kill the Twilight Inciter.|
+C Inciting the Elements|QID|25370|U|53009|M|64.8,22.5|N|Use the Berries on Faerie Dragons and then kill the Twilight Inciter.|
 C The Earth Rises|QID|25460|US|M|64.8,22.5|
 T The Earth Rises|QID|25460|M|63.9,22.7|N|Back at Anren Shadowseeker.|
 T Inciting the Elements|QID|25370|M|64.0,22.5|N|At Tholo Whitehoof.|
-A Flames from Above|QID|25574|M|64.0,22.5|
-f Nordrassil, Hyjal|QID|25317|M|62.2,21.6|
-C Flames from Above|QID|25574|M|55.8,15.3|N|Use Tholo's Horn in the middle of the Twilight encampment.|
+A Flames from Above|QID|25574|M|64.02,22.57|N|From Tholo Whitehoof.|
+f Nordrassil|QID|25574|M|62.14,21.62|N|At Fayran Elthas.|
+C Flames from Above|QID|25574|U|55122|M|55.8,15.3|N|Use Tholo's Horn in the middle of the Twilight encampment.|
 T Flames from Above|QID|25574|M|64.0,22.5|N|Back at Tholo Whitehoof.|
 T Protect the World Tree|QID|25317|M|47.7,35.4|N|Fly or follow the road to Malfurion Stormrage.|
 A War on the Twilight's Hammer|QID|25319|M|47.7,35.4|
@@ -76,10 +78,10 @@ T The Shrine Reclaimed|QID|25279|M|28.4,29.9|N|At Takrik Ragehowl to the west.|
 A Cleaning House|QID|25277|M|28.4,29.9|N|From Takrik Ragehowl.|
 A From the Mouth of Madness|QID|25297|M|28.2,29.9|N|From Rio Duran.|
 A The Eye of Twilight|QID|25300|M|28.6,30.2|N|From Royce Duskwhisper.|
-N From the Mouth of Madness|QID|25297|L|52727|M|29.4,31.6|N|Loot Bitterblossom from around the edge of the pond.|
+N From the Mouth of Madness|QID|25297|L|52727 |M|29.4,31.6|N|Loot Bitterblossom from around the edge of the pond.|
 C Cleaning House|QID|25277|S|M|27.7,34.5|N|Kill Hovel Brutes.|
-N From the Mouth of Madness|QID|25297|L|52726|M|27.5,34.1|N|Search around the base of the rock formations for Stonebloom.|
-N From the Mouth of Madness|QID|25297|L|52728|M|28.4,35.8|N|Collect a Darkflame Ember from the brazier.|
+N From the Mouth of Madness|QID|25297|L|52726 |M|27.5,34.1|N|Search around the base of the rock formations for Stonebloom.|
+N From the Mouth of Madness|QID|25297|L|52728 |M|28.4,35.8|N|Collect a Darkflame Ember from the brazier.|
 T From the Mouth of Madness|QID|25297|M|28.4,36.4|N|A small caudlron near the brazier.|
 A Free Your Mind, the Rest Follows|QID|25298|M|28.4,36.4|
 T The Eye of Twilight|QID|25300|M|27.2,35.2|N|To the right of the cave entrance.|
@@ -98,7 +100,7 @@ A Sweeping the Shelf|QID|25354|M|28.4,29.9|N|From Takrik Ragehowl.|
 A Lightning in a Bottle|QID|25355|M|28.4,29.9|N|From Takrik Ragehowl.|
 T Free Your Mind, the Rest Follows|QID|25298|M|28.1,29.9|
 C Sweeping the Shelf|QID|25354|S|M|26.5,38.1|
-N Lightning in a Bottle|QID|25355|L|52834|M|26.4,37.8|N|Loot a Charged Condenser Jar from the lightning rods scattered around the area.|
+N Lightning in a Bottle|QID|25355|L|52834 |M|26.4,37.8|N|Loot a Charged Condenser Jar from the lightning rods scattered around the area.|
 T Lightning in a Bottle|QID|25355|U|52854|N|Use the Totem of Lo'Gosh to summon the wolf spirit.|
 A Into the Maw!|QID|25617|N|From the summoned Spirit of Lo'Gosh.|
 C Sweeping the Shelf|QID|25354|US|M|26.5,38.1|

@@ -1,6 +1,7 @@
 WoWPro.Leveling:RegisterGuide('AriVas8082', "Vash'jir", 'Arixan', '80', '82', 'AriDee8283', 'Horde', function() 
 return [[
 
+
 A Warchief's Command: Vashj'ir!|QID|27718|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|
 T Warchief's Command: Vashj'ir!|QID|27718|M|55.84,12.29|Z|Durotar|N|To Commander Thorak inside the tower.|
 A Call of Duty|QID|25924|M|55.84,12.29|Z|Durotar|N|From Commander Thorak.|
@@ -112,7 +113,7 @@ C Undersea Sanctuary|QID|25794|U|56020|M|46.43,46.27|Z|Kelp'thar Forest|N|Use Er
 T Undersea Sanctuary|QID|25794|M|46.33,46.75|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Spelunking|QID|26000|M|46.33,46.75|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 T Spelunking|QID|26000|M|63.92,59.89|Z|Kelp'thar Forest|N|To Gurrok.|
-h Deepmist Grotto|M|63.92,59.89|Z|Kelp'thar Forest|N|At Erunak Stonespeaker.|
+h Deepmist Grotto|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|At Erunak Stonespeaker.|
 A Debriefing|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 C Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|Talk to Gurrok to complete this quest.|
 T Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
@@ -450,13 +451,13 @@ A Environmental Awareness|QID|26122|
 C Environmental Awareness|QID|26122|U|56821|Z|The Abyssal Depths|
 C When in Vashj'ir|QID|26104|QO|Seahorse captured: 5/5|U|56835|Z|The Abyssal Depths|N|Swim out and up to the ridge above you. Go to the top of one of the tall pillars with the red kelp on it. Use the Seahorse Lasso while swimming just about the red kelp to toss the rope in. You will either capture a seahorse or a shark, which will attack you. Keep doing this until you capture 5 seahorses. You can do this at any of the pillars up here.|
 T When in Vashj'ir|QID|26104|
-A Orako|QID|26086|N|From Captain “Jewels” Verne.|
 T Environmental Awareness|QID|26122|N|To Fiasco Sizzlegrin.|
 
 A The Perfect Fuel|QID|26126|N|from Fiasco Sizzlegrin|
 C The Perfect Fuel|QID|26126|N|Just mix 5 samples together and take whatever you get to Fiasco Sizzlegrin. If you don't get the quest complete message, just try again following Hexascrub's suggestions until you complete the quest.|
-T The Perfect Fuel|QID|26126|N|To Fiasco Sizzlegrin.|
+T The Perfect Fuel|QID|26126|N|To Fiasco Sizzlegrin.| 
 
+A Orako|QID|26086|N|From Captain “Jewels” Verne.|
 T Orako|QID|26086|N|Go to way point and swim down as far as you can.|
 A "Glow-Juice|QID|26087|N|From Orako.|
 C "Glow-Juice|QID|26087|N|Kill Pyreshell Crabs and Luxscale Groupers, which can be found anywhere in Coldlight Chasm, until you have 6 Coldlight Phosphora.|
@@ -568,4 +569,5 @@ N Defending the Rift|QID|26193|M|Z|The Abyssal Depths|N|Speak to Erunak again an
 T Defending the Rift|QID|26193|QO|Fight in the Battle for the Abyssal Breach: 1/1|M|69.7,34.5|Z|The Abyssal Depths|N|End of this region.|
 
 ]]
+
 end)
