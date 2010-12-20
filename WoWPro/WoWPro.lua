@@ -106,6 +106,8 @@ function WoWPro:OnEnable()
 		WoWPro:AbleFrames()
 	end
 	
+	-- Creating empty user settings if none exist --
+	WoWProCharDB = WoWProCharDB or {}
 	
 	-- Module Enabling --
 	for name, module in WoWPro:IterateModules() do

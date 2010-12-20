@@ -41,10 +41,12 @@ function WoWPro.Dailies:NextStep(k, skip)
 
 	-- All non-A and non-N steps are Optional Quests --
 	if WoWPro.action[k] ~= "A" and WoWPro.action[k] ~= "N" and WoWPro.QID[k] then 
+	
+		skip = true
 		
 		-- Checking Quest Log --
 		if WoWPro.QuestLog[tonumber(WoWPro.QID[k])] then 
-			skip = false -- If the optional quest is in the quest log, it's NOT skipped --
+			skip = false -- If the quest is in the quest log, it's NOT skipped --
 		end
 		
 	end
@@ -101,8 +103,8 @@ function WoWPro.Dailies:LoadGuide()
 	local GID = WoWProDB.char.currentguide
 	-- Creating a new entry if this guide does not have one
 	-- TODO: Make this apply to any module!
-	WoWPro_DailiesDB.guide[GID] = WoWPro_DailiesDB.guide[GID] or {}
-	WoWPro_DailiesDB.guide[GID].completion = WoWPro_DailiesDB.guide[GID].completion or {}
+	WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
+	WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
 
 	-- Parsing quests --
 	local sequence = WoWPro.Guides[GID].sequence
@@ -115,26 +117,36 @@ function WoWPro.Dailies:LoadGuide()
 	-- Checking to see if any steps are already complete --
 	for i=1, WoWPro.stepcount do
 		local action = WoWPro.action[i]
-		local completion = WoWPro_DailiesDB.guide[GID].completion[i]
-		local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
+		local completion = WoWProCharDB.Guide[GID].completion[i]
+		local numQIDs
+		if WoWPro.QID[i] then
+			numQIDs = select("#", string.split(";", WoWPro.QID[i]))
+		else
+			numQIDs = 0
+		end
 		for j=1,numQIDs do
-			local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
-			QID = tonumber(QID)
+			local QID 
+			if WoWPro.QID[i] then
+				select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
+				QID = tonumber(QID)
+			else
+				QID = nil
+			end
 		
 			-- Quest Accepts --
 			if not completion and action == "A" then 
-				if WoWPro.QuestLog[QID] then WoWPro_DailiesDB.guide[GID].completion[i] = true end
+				if WoWPro.QuestLog[QID] then WoWProCharDB.Guide[GID].completion[i] = true end
 			end
 			
 			-- Turned in quests --
 			if not completion and WoWPro_DailiesDB.completedQIDs and WoWPro_DailiesDB.completedQIDs[QID] then
-				WoWPro_DailiesDB.guide[GID].completion[i] = true
+				WoWProCharDB.Guide[GID].completion[i] = true
 			end
 			
 			-- Quest Completions --
 			if not completion and WoWPro.QuestLog[QID] then 
 				if action == "C" and WoWPro.QuestLog[QID].complete then
-					WoWPro_DailiesDB.guide[GID].completion[i] = true
+					WoWProCharDB.Guide[GID].completion[i] = true
 				end
 			end
 		end
@@ -193,7 +205,7 @@ function WoWPro.Dailies:RowUpdate(offset)
 		if WoWPro.prof[k] then
 			local prof, proflvl = string.split(" ", WoWPro.prof[k]) 
 		end
-		local completion = WoWPro_LevelingDB.guide[GID].completion
+		local completion = WoWProCharDB.Guide[GID].completion
 		
 		-- Unstickying stickies --
 		if unsticky and i == WoWPro.ActiveStickyCount+1 then
@@ -430,7 +442,7 @@ end
 -- Populate the Quest Log table for other functions to call on --
 function WoWPro.Dailies:PopulateQuestLog()
 	-- Not updating if there is no guide loaded ir if the Leveling module is already updating
-	if not WoWProDB.char.currentguide or (WoWPro.Leveling and WoWPro.Leveling:IsEnabled()) then 
+	if not WoWProDB.char.currentguide or (WoWPro.Leveling and WoWPro.Leveling:IsEnabled()) and WoWPro.QuestLog then 
 		return 
 	end 
 	
@@ -506,13 +518,15 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate()
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] or not WoWPro.Guides[GID].guidetype=="Dailies" then return end
 
-	if WoWPro_DailiesDB.guide[GID] then
+	if WoWProCharDB.Guide[GID] then
 		for i=1,#WoWPro.action do
 			local action = WoWPro.action[i]
-			local completion = WoWPro_DailiesDB.guide[GID].completion[i]
+			local completion = WoWProCharDB.Guide[GID].completion[i]
+			if not WoWPro.QID[i] then break end
 			local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
 			for j=1,numQIDs do
-				local QID = tonumber(select(numQIDs-j+1, string.split(";", WoWPro.QID[i])))
+				local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
+				QID = tonumber(QID)
 			
 				-- Quest Turn-Ins --
 				if WoWPro.Dailies.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
@@ -523,7 +537,7 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate()
 				-- Abandoned Quests --
 				if not WoWPro.Dailies.CompletingQuest and ( action == "A" or action == "C" ) 
 				and completion and WoWPro.missingQuest == QID then
-					WoWPro_DailiesDB.guide[GID].completion[i] = nil
+					WoWProCharDB.Guide[GID].completion[i] = nil
 					WoWPro:UpdateGuide()
 					WoWPro:MapPoint()
 				end
@@ -540,7 +554,7 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate()
 				
 				-- Partial Completion --
 				if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
-				and not WoWPro_DailiesDB.guide[GID].completion[i] then 
+				and not WoWProCharDB.Guide[GID].completion[i] then 
 					local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
 					local complete = true
 					for l=1,numquesttext do
@@ -602,7 +616,7 @@ function WoWPro.Dailies:AutoCompleteLoot(msg)
 			WoWPro.rows[i].track:SetText(strtrim(track))
 		end
 		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index]) + count >= lootqtyi 
-		and not WoWPro_DailiesDB.guide[WoWProDB.char.currentguide].completion[index] then
+		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
 			WoWPro.CompleteStep(index)
 		end
 	end
@@ -615,11 +629,11 @@ function WoWPro.Dailies:AutoCompleteSetHearth(...)
 	local msg = ...
 	local _, _, loc = msg:find(L["(.*) is now your home."])
 	if loc then
-		WoWPro_DailiesDB.guide.hearth = loc
+		WoWProCharDB.Guide.hearth = loc
 		for i = 1,15 do
 			local index = WoWPro.rows[i].index
 			if WoWPro.action[index] == "h" and WoWPro.step[index] == loc 
-			and not WoWPro_DailiesDB.guide[WoWProDB.char.currentguide].completion[index] then
+			and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
 				WoWPro.CompleteStep(index)
 			end
 		end
@@ -637,7 +651,7 @@ function WoWPro.Dailies:AutoCompleteZone()
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
 	if action == "F" or action == "H" or (action == "R" and not waypcomplete) then
 		if step == zonetext or step == subzonetext 
-		and not WoWPro_DailiesDB.guide[WoWProDB.char.currentguide].completion[currentindex] then
+		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
 			WoWPro.CompleteStep(currentindex)
 		end
 	end

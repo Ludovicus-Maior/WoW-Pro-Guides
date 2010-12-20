@@ -36,8 +36,8 @@ function WoWPro.Dailies.UpdateGuideList()
 			row.category:SetText(iGuide.category)
 			row.guide = GID
 			
-			if WoWPro_DailiesDB.guide[GID] and WoWPro_DailiesDB.guide[GID].total and WoWPro_DailiesDB.guide[GID].progress then
-				row.progress:SetText(WoWPro_DailiesDB.guide[GID].progress.."/"..WoWPro_DailiesDB.guide[GID].total)
+			if WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].total and WoWProCharDB.Guide[GID].progress then
+				row.progress:SetText(WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total)
 			else 
 				row.progress:SetText("")
 			end
@@ -53,7 +53,7 @@ function WoWPro.Dailies.UpdateGuideList()
 		local function OnClick()
 			if not WoWPro.Dailies:IsEnabled() then return end
 			if IsShiftKeyDown() then
-				WoWPro_DailiesDB.guide[guides[row.i].GID] = nil
+				WoWProCharDB.Guide[guides[row.i].GID] = nil
 				WoWPro.Dailies.Resetting = true
 				WoWPro:LoadGuide(guides[row.i].GID)
 				for j = 1,WoWPro.stepcount do 

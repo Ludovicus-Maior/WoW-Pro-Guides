@@ -72,7 +72,7 @@ frame:SetScript("OnShow", function()
 		local GID = WoWProDB.char.currentguide
 		local steplist = WoWPro.step
 		local optional = WoWPro.optional
-		local completion = WoWPro_DailiesDB.guide[GID].completion
+		local completion = WoWProCharDB.Guide[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
 		local i = 1

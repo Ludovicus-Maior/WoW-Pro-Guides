@@ -37,8 +37,8 @@ function WoWPro.Leveling.UpdateGuideList()
 			row.range:SetText("("..iGuide.startlevel.."-"..iGuide.endlevel..")")
 			row.guide = GID
 			
-			if WoWPro_LevelingDB.guide[GID] and WoWPro_LevelingDB.guide[GID].total and WoWPro_LevelingDB.guide[GID].progress then
-				row.progress:SetText(WoWPro_LevelingDB.guide[GID].progress.."/"..WoWPro_LevelingDB.guide[GID].total)
+			if WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].total and WoWProCharDB.Guide[GID].progress then
+				row.progress:SetText(WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total)
 			else 
 				row.progress:SetText("")
 			end
@@ -54,7 +54,7 @@ function WoWPro.Leveling.UpdateGuideList()
 		local function OnClick()
 			if not WoWPro.Leveling:IsEnabled() then return end
 			if IsShiftKeyDown() then
-				WoWPro_LevelingDB.guide[guides[row.i].GID] = nil
+				WoWProCharDB.Guide[guides[row.i].GID] = nil
 				WoWPro.Leveling.Resetting = true
 				WoWPro:LoadGuide(guides[row.i].GID)
 				for j = 1,WoWPro.stepcount do 

@@ -70,7 +70,7 @@ function WoWPro.Leveling:NextStep(k, skip)
 	
 	-- Skipping quests with prerequisites if their prerequisite was skipped --
 	if WoWPro.prereq[k] 
-	and not WoWPro_LevelingDB.guide[GID].skipped[k] 
+	and not WoWProCharDB.Guide[GID].skipped[k] 
 	and not WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] then 
 		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
 		for j=1,numprereqs do
@@ -82,9 +82,9 @@ function WoWPro.Leveling:NextStep(k, skip)
 				or WoWPro.action[k] == "C" 
 				or WoWPro.action[k] == "T" then
 					WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] = true
-					WoWPro_LevelingDB.guide[GID].skipped[k] = true
+					WoWProCharDB.Guide[GID].skipped[k] = true
 				else
-					WoWPro_LevelingDB.guide[GID].skipped[k] = true
+					WoWProCharDB.Guide[GID].skipped[k] = true
 				end
 			end
 		end
@@ -102,9 +102,9 @@ function WoWPro.Leveling:SkipStep(index)
 	or WoWPro.action[index] == "C" 
 	or WoWPro.action[index] == "T" then
 		WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[index]] = true
-		WoWPro_LevelingDB.guide[GID].skipped[index] = true
+		WoWProCharDB.Guide[GID].skipped[index] = true
 	else 
-		WoWPro_LevelingDB.guide[GID].skipped[index] = true
+		WoWProCharDB.Guide[GID].skipped[index] = true
 	end
 	local steplist = ""
 	
@@ -138,15 +138,15 @@ end
 -- Unskip a step --
 function WoWPro.Leveling:UnSkipStep(index)
 	local GID = WoWProDB.char.currentguide
-	WoWPro_LevelingDB.guide[GID].completion[index] = nil
+	WoWProCharDB.Guide[GID].completion[index] = nil
 	if WoWPro.QID[index] 
 	and ( WoWPro.action[index] == "A" 
 		or WoWPro.action[index] == "C" 
 		or WoWPro.action[index] == "T" ) then
 			WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[index]] = nil
-			WoWPro_LevelingDB.guide[GID].skipped[index] = nil
+			WoWProCharDB.Guide[GID].skipped[index] = nil
 	else
-		WoWPro_LevelingDB.guide[GID].skipped[index] = nil
+		WoWProCharDB.Guide[GID].skipped[index] = nil
 	end
 	
 	local function unskipstep(currentstep)
@@ -160,7 +160,7 @@ function WoWPro.Leveling:UnSkipStep(index)
 					or WoWPro.action[j] == "T" then
 						WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = nil
 					end
-					WoWPro_LevelingDB.guide[GID].skipped = {}
+					WoWProCharDB.Guide[GID].skipped = {}
 					unskipstep(j)
 				end
 			end
@@ -255,27 +255,27 @@ function WoWPro.Leveling:LoadGuide()
 	for i=1, WoWPro.stepcount do
 		local QID = WoWPro.QID[i]
 		local action = WoWPro.action[i]
-		local completion = WoWPro_LevelingDB.guide[GID].completion[i]
+		local completion = WoWProCharDB.Guide[GID].completion[i]
 		local level = WoWPro.level[i]
 
 		-- Turned in quests --
 		if WoWPro_LevelingDB.completedQIDs then
 			if WoWPro_LevelingDB.completedQIDs[QID] then
-				WoWPro_LevelingDB.guide[GID].completion[i] = true
+				WoWProCharDB.Guide[GID].completion[i] = true
 			end
 		end
 	
 		-- Quest Accepts and Completions --
 		if not completion and WoWPro.QuestLog[QID] then 
-			if action == "A" then WoWPro_LevelingDB.guide[GID].completion[i] = true end
+			if action == "A" then WoWProCharDB.Guide[GID].completion[i] = true end
 			if action == "C" and WoWPro.QuestLog[QID].complete then
-				WoWPro_LevelingDB.guide[GID].completion[i] = true
+				WoWProCharDB.Guide[GID].completion[i] = true
 			end
 		end
 
 		-- Checking level based completion --
 		if completion and level and tonumber(level) <= UnitLevel("player") then
-			WoWPro_LevelingDB.guide[GID].completion[i] = true
+			WoWProCharDB.Guide[GID].completion[i] = true
 		end
 		
 	end
@@ -335,7 +335,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		if WoWPro.prof[k] then
 			local prof, proflvl = string.split(" ", WoWPro.prof[k]) 
 		end
-		local completion = WoWPro_LevelingDB.guide[GID].completion
+		local completion = WoWProCharDB.Guide[GID].completion
 		
 		-- Checking off lead in steps --
 		if leadin and WoWPro_LevelingDB.completedQIDs[tonumber(leadin)] and not completion[k] then
@@ -361,9 +361,9 @@ function WoWPro.Leveling:RowUpdate(offset)
 		-- Getting the image and text for the step --
 		row.step:SetText(step)
 		if step then row.check:Show() else row.check:Hide() end
-		if completion[k] or WoWPro_LevelingDB.guide[GID].skipped[k] or WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] then
+		if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] then
 			row.check:SetChecked(true)
-			if WoWPro_LevelingDB.guide[GID].skipped[k] or WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] then
+			if WoWProCharDB.Guide[GID].skipped[k] or WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] then
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 			else
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
@@ -601,7 +601,7 @@ function WoWPro.Leveling:AutoCompleteGetFP(...)
 	for i = 1,15 do
 		local index = WoWPro.rows[i].index
 		if ... == ERR_NEWTAXIPATH and WoWPro.action[index] == "f" 
-		and not WoWPro_LevelingDB.guide[WoWProDB.char.currentguide].completion[index] then
+		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
 			WoWPro.CompleteStep(index)
 		end
 	end
@@ -683,12 +683,12 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate()
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 
-	if WoWPro_LevelingDB.guide then
+	if WoWProCharDB.Guide then
 		for i=1,#WoWPro.action do
 		
 			local action = WoWPro.action[i]
 			local QID = WoWPro.QID[i]
-			local completion = WoWPro_LevelingDB.guide[GID].completion[i]
+			local completion = WoWProCharDB.Guide[GID].completion[i]
 		
 			-- Quest Turn-Ins --
 			if WoWPro.Leveling.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
@@ -700,7 +700,7 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate()
 			-- Abandoned Quests --
 			if not WoWPro.Leveling.CompletingQuest and ( action == "A" or action == "C" ) 
 			and completion and WoWPro.missingQuest == QID then
-				WoWPro_LevelingDB.guide[GID].completion[i] = nil
+				WoWProCharDB.Guide[GID].completion[i] = nil
 				WoWPro:UpdateGuide()
 				WoWPro:MapPoint()
 			end
@@ -717,7 +717,7 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate()
 			
 			-- Partial Completion --
 			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
-			and not WoWPro_LevelingDB.guide[GID].completion[i] then 
+			and not WoWProCharDB.Guide[GID].completion[i] then 
 				local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
 				local complete = true
 				for l=1,numquesttext do
@@ -779,7 +779,7 @@ function WoWPro.Leveling:AutoCompleteLoot(msg)
 			WoWPro.rows[i].track:SetText(strtrim(track))
 		end
 		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index]) + count >= lootqtyi 
-		and not WoWPro_LevelingDB.guide[WoWProDB.char.currentguide].completion[index] then
+		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
 			WoWPro.CompleteStep(index)
 		end
 	end
@@ -792,11 +792,11 @@ function WoWPro.Leveling:AutoCompleteSetHearth(...)
 	local msg = ...
 	local _, _, loc = msg:find(L["(.*) is now your home."])
 	if loc then
-		WoWPro_LevelingDB.guide.hearth = loc
+		WoWProCharDB.Guide.hearth = loc
 		for i = 1,15 do
 			local index = WoWPro.rows[i].index
 			if WoWPro.action[index] == "h" and WoWPro.step[index] == loc 
-			and not WoWPro_LevelingDB.guide[WoWProDB.char.currentguide].completion[index] then
+			and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
 				WoWPro.CompleteStep(index)
 			end
 		end
@@ -814,7 +814,7 @@ function WoWPro.Leveling:AutoCompleteZone()
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
 	if action == "F" or action == "H" or action == "b" or (action == "R" and not waypcomplete) then
 		if step == zonetext or step == subzonetext 
-		and not WoWPro_LevelingDB.guide[WoWProDB.char.currentguide].completion[currentindex] then
+		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
 			WoWPro.CompleteStep(currentindex)
 		end
 	end
@@ -823,11 +823,11 @@ end
 -- Auto-Complete: Level based --
 function WoWPro.Leveling:AutoCompleteLevel(...)
 	local newlevel = ... or UnitLevel("player")
-	if WoWPro_LevelingDB.guide then
+	if WoWProCharDB.Guide then
 		local GID = WoWProDB.char.currentguide
-		if not WoWPro_LevelingDB.guide[GID] then return end
+		if not WoWProCharDB.Guide[GID] then return end
 		for i=1,WoWPro.stepcount do
-			if not WoWPro_LevelingDB.guide[GID].completion[i] 
+			if not WoWProCharDB.Guide[GID].completion[i] 
 				and WoWPro.level[i] 
 				and tonumber(WoWPro.level[i]) <= newlevel then
 					WoWPro.CompleteStep(i)

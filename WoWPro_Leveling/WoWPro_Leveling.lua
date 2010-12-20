@@ -34,7 +34,7 @@ function WoWPro.Leveling:OnEnable()
 	
 	-- Creating empty user settings if none exist --
 	WoWPro_LevelingDB = WoWPro_LevelingDB or {}
-	WoWPro_LevelingDB.guide = WoWPro_LevelingDB.guide or {} 
+	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
 	WoWPro_LevelingDB.completedQIDs = WoWPro_LevelingDB.completedQIDs or {}
 	WoWPro_LevelingDB.skippedQIDs = WoWPro_LevelingDB.skippedQIDs or {}
 	

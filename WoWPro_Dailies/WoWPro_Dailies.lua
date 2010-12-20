@@ -32,7 +32,7 @@ function WoWPro.Dailies:OnEnable()
 	
 	-- Creating empty user settings if none exist --
 	WoWPro_DailiesDB = WoWPro_DailiesDB or {}
-	WoWPro_DailiesDB.guide = WoWPro_DailiesDB.guide or {} 
+	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
 	WoWPro_DailiesDB.completedQIDs = WoWPro_DailiesDB.completedQIDs or {}
 	
 	if WoWProDB.char.lastdailiesguide and not WoWProDB.char.currentguide then

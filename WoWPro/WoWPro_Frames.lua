@@ -738,7 +738,7 @@ function WoWPro:CreateNextGuideDialog()
 	button3text:SetText("Reset Current Guide")
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
-		WoWPro_LevelingDB.guide[WoWProDB.char.currentguide] = nil
+		WoWProCharDB.Guide[WoWProDB.char.currentguide] = nil
 		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 
@@ -753,7 +753,7 @@ function WoWPro:CreateDropdownMenu()
 		{text = "About", func = function() 
 			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Guides")
 		end},
-		{text = "Display Sttings", func = function() 
+		{text = "Display Settings", func = function() 
 			InterfaceOptionsFrame_OpenToCategory("Guide Display") 
 		end},
 		{text = L["Guide List"], func = function() 
@@ -775,7 +775,7 @@ function WoWPro:CreateDropdownMenu()
 			end} )
 		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
 				if not WoWProDB.char.currentguide then return end
-				WoWPro_LevelingDB.guide[WoWProDB.char.currentguide] = nil
+				WoWProCharDB.Guide[WoWProDB.char.currentguide] = nil
 				for j = 1,WoWPro.stepcount do 
 					if WoWPro.QID[j] then WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = nil end
 				end

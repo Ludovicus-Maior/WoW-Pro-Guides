@@ -44,7 +44,7 @@ WoWPro.GuideList = frame
 WoWPro.GuideList.TabTable = tab
 
 local function OnShow(self) 
-	if GID and WoWPro.Guides[GID].guidetype then
+	if GID and WoWPro.Guides[GID] and WoWPro.Guides[GID].guidetype then
 		WoWPro.ActivateTab(WoWPro.GuideList.TabTable[WoWPro.Guides[GID].guidetype])
 	end 
 end
