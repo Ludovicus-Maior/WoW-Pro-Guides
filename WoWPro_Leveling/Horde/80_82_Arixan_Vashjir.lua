@@ -269,9 +269,9 @@ A Shelled Salvation|QID|25593|Z|Shimmering Expanse|N|From Captian Vilethorn.|
 
 C Deep Attraction|QID|25592|Z|Shimmering Expanse|S|N|Kill any Redgill Scavengers you see.|
 C Something Edible|QID|25595|Z|Shimmering Expanse|S|N|Kill any Snapjaw Groupers you see.|
-C Shelled Salvation|QID|25593|Z|Shimmering Expanse|N|Leave Legion’s Rest and swim up and to the east. Along the way, collect any Spiralung you see on the ground. They look like small conch shells. Give these to the Nespirah Survivors floating over the air vents to rescue them.|
+C Shelled Salvation|QID|25593|Z|Shimmering Expanse|N|Leave Legion's Rest and swim up and to the east. Along the way, collect any Spiralung you see on the ground. They look like small conch shells. Give these to the Nespirah Survivors floating over the air vents to rescue them.|
 A Crafty Crabs|QID|25594|Z|Shimmering Expanse|N|From Fiasco Sizzlegrin.|
-C Crafty Crabs|QID|25594|Z|Shimmering Expanse|N|Collect Fiasco’s Spare Parts off the sea floor in the area just south of Nespirah. You can also get them by killing the Sandskin Pincers, though not every crab will drop one.|
+C Crafty Crabs|QID|25594|Z|Shimmering Expanse|N|Collect Fiasco's Spare Parts off the sea floor in the area just south of Nespirah. You can also get them by killing the Sandskin Pincers, though not every crab will drop one.|
 T Crafty Crabs|QID|25594|Z|Shimmering Expanse|N|To Fiasco Sizzlegrin.|
 C Deep Attraction|QID|25592|Z|Shimmering Expanse|US|N|Kill any Redgill Scavengers you see.|
 C Something Edible|QID|25595|Z|Shimmering Expanse|US|N|Kill any Snapjaw Groupers you see.|
@@ -355,7 +355,7 @@ T Swift Action|QID|25963|M|49.2,56.9|Z|Shimmering Expanse|N|To Captian Vilethorn
 
 A Gauging Success|QID|25965|PRE|25963|RANK|1|Z|Shimmering Expanse|N|From Captian Vilethorn.|
 A Fallen But Not Forgotten|QID|25964|RANK|1|Z|Shimmering Expanse|N|From Legionnaire Nazgrim.|
-C Fallen But Not Forgotten|QID|25964|S|M|34.4,78.3|Z|Shimmering Expanse|N|While doing the next two steps, look for Injured Alliance Volunteers. Speak to them to send them back to the rendezvous point.|
+C Fallen But Not Forgotten|QID|25964|S|M|34.4,78.3|Z|Shimmering Expanse|N|While doing the next two steps, look for Injured Assault Volunteers. Speak to them to send them back to the rendezvous point.|
 C Gauging Success|QID|25965|QO|Scout the Tunnel to the North: 1/1|M|33.0,67.7|Z|Shimmering Expanse|N|Scout the Tunnel to the North.|
 C Gauging Success|QID|25965|QO|Scout the Northwestern Terrace: 1/1|M|32.1,72.4|Z|Shimmering Expanse|N|Scout the Northwestern Terrace.|
 C Fallen But Not Forgotten|QID|25964|US|M|34.4,78.3|Z|Shimmering Expanse|N|Look for the remaining Volunteers.|
@@ -445,11 +445,8 @@ A Full Circle|QID|26221|RANK|1|M|Z|Shimmering Expanse|N|From Legionnaire Nazgrim
 C Full Circle|QID|26221|Z|Shimmering Expanse|N|Get on board the sub once it arrives.|
 T Full Circle|QID|26221|Z|The Abyssal Depths|N|To Captain “Jewels” Verne.|
 
-A When in Vashj'ir|QID|26104|
 A Environmental Awareness|QID|26122|
 C Environmental Awareness|QID|26122|U|56821|Z|The Abyssal Depths|
-C When in Vashj'ir|QID|26104|QO|Seahorse captured: 5/5|U|56835|Z|The Abyssal Depths|N|Swim out and up to the ridge above you. Go to the top of one of the tall pillars with the red kelp on it. Use the Seahorse Lasso while swimming just about the red kelp to toss the rope in. You will either capture a seahorse or a shark, which will attack you. Keep doing this until you capture 5 seahorses. You can do this at any of the pillars up here.|
-T When in Vashj'ir|QID|26104|
 A Orako|QID|26086|N|From Captain “Jewels” Verne.|
 T Environmental Awareness|QID|26122|N|To Fiasco Sizzlegrin.|
 
