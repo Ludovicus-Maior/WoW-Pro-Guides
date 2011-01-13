@@ -183,7 +183,8 @@ local function ParseQuests(...)
 	end
 	for j=1,select("#", ...) do
 		local text = select(j, ...)
-		if text ~= "" then
+		text = text:trim()
+		if text ~= "" and text:sub(1,1) ~= ";" then
 			local class, race = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?")
 			if class then
 				-- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
