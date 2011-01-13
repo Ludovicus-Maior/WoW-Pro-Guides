@@ -21,8 +21,8 @@ T Blood Oath of the Horde |QID|11983|M|12.8,48.5|
 A Agmar's Hammer |QID|12008|M|12.8,48.5|PRE|11983|
 
 f Agarm's Hammer |QID|12034|N|It's east at .|M|37,48|
-T Agmar's Hammer |QID|12008|M|36.3,45.6|
-A Victory Nears... |QID|12034|M|36.3,45.6|
+T Agmar's Hammer |QID|12008|M|38.1,46.3|
+A Victory Nears... |QID|12034|M|38.1,46.3|
 A Rifle the Bodies |QID|11999|M|38.1,46.2|
 A Wanted: Dreadtalon |QID|12091| |N|From the Wanted Poster just outside the door.|
 A Wanted: Gigantaur |QID|12090|
@@ -68,7 +68,7 @@ T From the Depths of Azjol-Nerub |QID|12036|M|36.6,46.6|
 A The Might of the Horde |QID|12053|M|36.6,46.6|PRE|12036|
 T Rifle the Bodies |QID|11999|M|38.1,46.2|
 A Prevent the Accord |QID|12005|M|38.1,46.2|PRE|11999|
-T The Lost Empire |QID|12041|M|36.3,45.6|
+T The Lost Empire |QID|12041|M|38.1,46.3|
 A Strength of Icemist |QID|12063|M|35.8,46.7|
 
 T Strength of Icemist |QID|12063|N|He's to the west at in Icemist Village.|M|23,42|
@@ -104,9 +104,9 @@ A Blightbeasts be Damned! |QID|12072|M|37.2,45.7|PRE|12071|
 T Prevent the Accord |QID|12005|M|38.1,46.2|
 T A Strange Device |QID|12059|M|38.1,46.2|
 A Projections and Plans |QID|12061|M|38.1,46.2|PRE|12059|
-T Return of the High Chief |QID|12069|M|36.3,45.6|
-A All Hail Roanauk! |QID|12140|M|36.3,45.6|PRE|12069|
-T All Hail Roanauk! |QID|12140|N|Make sure you follow Overlord Agmar.|M|36.3,45.6|
+T Return of the High Chief |QID|12069|M|38.1,46.3|
+A All Hail Roanauk! |QID|12140|M|38.1,46.3|PRE|12069|
+T All Hail Roanauk! |QID|12140|N|Make sure you follow Overlord Agmar.|M|38.1,46.3|
 T Koltira and the Language of Death |QID|12115|M|37.1,46.5|
 A In Service of Blood |QID|12125|M|37.1,46.5|
 A In Service of Frost |QID|12127|M|37.1,46.5|
@@ -142,7 +142,7 @@ C Strengthen the Ancients |US|QID|12096|U|36786|N|Use the Bark of the Walkers on
 T Strengthen the Ancients |QID|12096| |N|Back at Agmar's Hammer.|M|36.5,47.9|
 T Atop the Woodlands |QID|12084|M|38.1,46.2|
 A Search Indu'le Village |QID|12106|M|38.1,46.2|PRE|12084|
-T A Letter for Home |QID|12085|M|36.3,45.6|
+T A Letter for Home |QID|12085|M|38.1,46.3|
 F Moa'ki Harbor|QID|11958|M|37.5,45.7|
 
 A Let Nothing Go To Waste |QID|11958|M|48.0,74.9|
