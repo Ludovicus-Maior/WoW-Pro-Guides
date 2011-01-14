@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'AriTwi8485', 'Alliance', function() 
+WoWPro.Leveling:RegisterGuide('MagTwi8485', 'Uldum', 'Hezkezl', '83', '84', 'AriTwi8485', 'Alliance', function() 
 return [[
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|
