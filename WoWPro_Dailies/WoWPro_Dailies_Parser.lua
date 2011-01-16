@@ -84,7 +84,6 @@ local function ParseQuests(...)
 			end
 
 			if text:find("|NC|") then WoWPro.noncombat[i] = true end
-			WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 			WoWPro.target[i] = text:match("|T|([^|]*)|?")
 			WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
 			WoWPro.prof[i] = text:match("|P|([^|]*)|?")
@@ -100,11 +99,8 @@ end
 	
 -- Guide Load --
 function WoWPro.Dailies:LoadGuide()
+	WoWPro:dbp("Running: WoWPro.Dailies:LoadGuide()")
 	local GID = WoWProDB.char.currentguide
-	-- Creating a new entry if this guide does not have one
-	-- TODO: Make this apply to any module!
-	WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
-	WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
 
 	-- Parsing quests --
 	local sequence = WoWPro.Guides[GID].sequence
@@ -112,7 +108,7 @@ function WoWPro.Dailies:LoadGuide()
 	
 	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps registered.")
 		
-	WoWPro.Dailies:PopulateQuestLog() --Calling this will populate our quest log table for use here
+	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
 	-- Checking to see if any steps are already complete --
 	for i=1, WoWPro.stepcount do
@@ -127,26 +123,27 @@ function WoWPro.Dailies:LoadGuide()
 		for j=1,numQIDs do
 			local QID 
 			if WoWPro.QID[i] then
-				select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
+				QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(QID)
+				WoWPro:dbp("Checking for completion: "..QID.." - "..WoWPro.step[i])
 			else
 				QID = nil
 			end
 		
 			-- Quest Accepts --
 			if not completion and action == "A" then 
-				if WoWPro.QuestLog[QID] then WoWProCharDB.Guide[GID].completion[i] = true end
+				if WoWPro.QuestLog[QID] then WoWPro.CompleteStep(i) end
 			end
 			
 			-- Turned in quests --
-			if not completion and WoWPro_DailiesDB.completedQIDs and WoWPro_DailiesDB.completedQIDs[QID] then
-				WoWProCharDB.Guide[GID].completion[i] = true
+			if not completion and WoWProCharDB.completedQIDs and WoWProCharDB.completedQIDs[QID] then
+				WoWPro.CompleteStep(i)
 			end
 			
 			-- Quest Completions --
 			if not completion and WoWPro.QuestLog[QID] then 
 				if action == "C" and WoWPro.QuestLog[QID].complete then
-					WoWProCharDB.Guide[GID].completion[i] = true
+					WoWPro.CompleteStep(i)
 				end
 			end
 		end
@@ -169,6 +166,7 @@ function WoWPro.Dailies:RowUpdate(offset)
 		or not WoWPro.Guides[GID]
 		then return 
 	end
+	WoWPro:dbp("Running: WoWPro.Dailies:RowUpdate()")
 	WoWPro.ActiveStickyCount = 0
 	local reload = false
 	local lootcheck = true
@@ -242,7 +240,7 @@ function WoWPro.Dailies:RowUpdate(offset)
 		end
 		
 		-- Checkbox Function --
-		row.check:SetScript("OnClick", function(self, button, down)
+		function WoWPro.Dailies:CheckFunction(row, button, down)
 			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 			if row.check:GetChecked() then
 				completion[row.index] = true
@@ -254,6 +252,9 @@ function WoWPro.Dailies:RowUpdate(offset)
 			end
 			WoWPro:MapPoint()
 			WoWPro:UpdateGuide()
+		end
+		row.check:SetScript("OnClick", function(self, button, down)
+			WoWPro.Dailies:CheckFunction(row, button, down)
 		end)
 		
 		-- Right-Click Drop-Down --
@@ -408,14 +409,7 @@ end
 
 -- Event Response Logic --
 function WoWPro.Dailies:EventHandler(self, event, ...)
-
-	-- Receiving the result of the completed quest query --
-	if event == "QUEST_QUERY_COMPLETE" then
-		WoWPro_DailiesDB.completedQIDs = {}
-		GetQuestsCompleted(WoWPro_DailiesDB.completedQIDs)
-		collectgarbage("collect")
-		WoWPro.UpdateGuide()
-	end
+	WoWPro:dbp("Running: Dailies Event Handler")
 		
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
@@ -433,141 +427,90 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 		WoWPro.Dailies:AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
-		WoWPro.Dailies:PopulateQuestLog(...)
+		WoWPro:PopulateQuestLog(...)
+		WoWPro.Dailies:CheckDailiesReset(...)
 		WoWPro.Dailies:AutoCompleteQuestUpdate(...)
 		WoWPro.Dailies:UpdateQuestTracker()
 	end
-end
-
--- Populate the Quest Log table for other functions to call on --
-function WoWPro.Dailies:PopulateQuestLog()
-	-- Not updating if there is no guide loaded ir if the Leveling module is already updating
-	if not WoWProDB.char.currentguide or (WoWPro.Leveling and WoWPro.Leveling:IsEnabled()) and WoWPro.QuestLog then 
-		return 
-	end 
-	
-	WoWPro.oldQuests = WoWPro.QuestLog or {}
-	WoWPro.newQuest, WoWPro.missingQuest = false, false
-	
-	-- Generating the Quest Log table --
-	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
-	local i, currentHeader = 1, "None"
-	local entries = GetNumQuestLogEntries()
-	for i=1,tonumber(entries) do
-		local questTitle, level, questTag, suggestedGroup, isHeader, 
-			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
-		local leaderBoard
-		if isHeader then
-			currentHeader = questTitle
-		else
-			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
-				leaderBoard = {} 
-				for j=1,GetNumQuestLeaderBoards(i) do 
-					leaderBoard[j] = GetQuestLogLeaderBoard(j, i)
-				end 
-			else leaderBoard = nil end
-			local link, icon, charges = GetQuestLogSpecialItemInfo(i)
-			local use
-			if link then
-				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
-				use = Id
+	if event == "QUEST_QUERY_COMPLETE" and WoWPro.Dailies.DailiesReset then
+		WoWPro.Dailies.DailiesReset = false
+		for GID, GuideInfo in pairs(WoWPro.Guides) do
+			if GuideInfo.guidetype == "Dailies" then
+				WoWProCharDB.Guide[GID].completion = {}
 			end
-			local coords
-			QuestMapUpdateAllQuests()
-			QuestPOIUpdateIcons()
-			WorldMapFrame_UpdateQuests()
-			local x, y = WoWPro:findBlizzCoords(questID)
-			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
-			WoWPro.QuestLog[questID] = {
-				title = questTitle,
-				level = level,
-				tag = questTag,
-				group = suggestedGroup,
-				complete = isComplete,
-				daily = isDaily,
-				leaderBoard = leaderBoard,
-				header = currentHeader,
-				use = use,
-				coords = coords,
-				index = i
-			}
 		end
+		WoWPro:UpdateGuide()
 	end
-	if WoWPro.oldQuests == {} then return end
-
-	-- Generating table WoWPro.newQuest --
-	for QID, questInfo in pairs(WoWPro.QuestLog) do
-		if not WoWPro.oldQuests[QID] then 
-			WoWPro.newQuest = QID 
-			WoWPro:dbp("New Quest: "..WoWPro.QuestLog[QID].title)
-		end
-	end
-	
-	-- Generating table WoWPro.missingQuest --
-	for QID, questInfo in pairs(WoWPro.oldQuests) do
-		if not WoWPro.QuestLog[QID] then 
-			WoWPro.missingQuest = QID 
-			WoWPro:dbp("Missing Quest: "..WoWPro.oldQuests[QID].title)
-		end
-	end
-	
 end
+
+function WoWPro.Dailies:CheckDailiesReset()
+	if GetDailyQuestsCompleted() == WoWPro.Dailies.CompletedDailies then return end
+	WoWPro.Dailies.CompletedDailies = GetDailyQuestsCompleted()
+	if WoWPro.Dailies.CompletedDailies == 0 then
+		WoWPro.Dailies.DailiesReset = true
+		QueryQuestsCompleted()
+	end
+end
+
 
 -- Auto-Complete: Quest Update --
 function WoWPro.Dailies:AutoCompleteQuestUpdate()
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] or not WoWPro.Guides[GID].guidetype=="Dailies" then return end
+	WoWPro:dbp("Running: Dailies AutoCompleteQuestUpdate")
 
 	if WoWProCharDB.Guide[GID] then
 		for i=1,#WoWPro.action do
 			local action = WoWPro.action[i]
 			local completion = WoWProCharDB.Guide[GID].completion[i]
-			if not WoWPro.QID[i] then break end
-			local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
-			for j=1,numQIDs do
-				local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
-				QID = tonumber(QID)
-			
-				-- Quest Turn-Ins --
-				if WoWPro.Dailies.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
-					WoWPro.CompleteStep(i)
-					WoWPro.Dailies.CompletingQuest = false
-				end
+			if WoWPro.QID[i] then
+				local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
+				for j=1,numQIDs do
+					local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
+					QID = tonumber(QID)
 				
-				-- Abandoned Quests --
-				if not WoWPro.Dailies.CompletingQuest and ( action == "A" or action == "C" ) 
-				and completion and WoWPro.missingQuest == QID then
-					WoWProCharDB.Guide[GID].completion[i] = nil
-					WoWPro:UpdateGuide()
-					WoWPro:MapPoint()
-				end
-				
-				-- Quest Accepts --
-				if WoWPro.newQuest == QID and action == "A" and not completion then
-					WoWPro.CompleteStep(i)
-				end
-				
-				-- Quest Completion --
-				if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
-					WoWPro.CompleteStep(i)
-				end
-				
-				-- Partial Completion --
-				if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
-				and not WoWProCharDB.Guide[GID].completion[i] then 
-					local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
-					local complete = true
-					for l=1,numquesttext do
-						local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
-						local lcomplete = false
-						for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
-							if lquesttext == objective then --if the objective matches the step's criteria, mark true
-								lcomplete = true
-							end
-						end
-						if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
+					-- Quest Turn-Ins --
+					if WoWPro.Dailies.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
+						WoWPro.CompleteStep(i)
+						WoWPro.Dailies.CompletingQuest = false
 					end
-					if complete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
+					
+					-- Abandoned Quests --
+					if not WoWPro.Dailies.CompletingQuest and ( action == "A" or action == "C" ) 
+					and completion and WoWPro.missingQuest == QID then
+						WoWProCharDB.Guide[GID].completion[i] = false
+						WoWPro:UpdateGuide()
+						WoWPro:MapPoint()
+					end
+					
+					-- Quest Accepts --
+					if WoWPro.newQuest == QID and action == "A" and not completion then
+						WoWPro.CompleteStep(i)
+					end
+					
+					-- Quest Completion --
+					if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
+						WoWPro.CompleteStep(i)
+					end
+					
+					-- Partial Completion --
+					if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
+					and not WoWProCharDB.Guide[GID].completion[i] then 
+						WoWPro:dbp("Checking for QO completion: "..QID.." - "..WoWPro.step[i].." - "..WoWPro.questtext[i])
+						local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
+						local complete = true
+						for l=1,numquesttext do
+							local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
+							local lcomplete = false
+							for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
+								if lquesttext == objective then --if the objective matches the step's criteria, mark true
+									lcomplete = true
+								end
+							end
+							if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
+						end
+						if complete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
+					end
 				end
 			end
 		end

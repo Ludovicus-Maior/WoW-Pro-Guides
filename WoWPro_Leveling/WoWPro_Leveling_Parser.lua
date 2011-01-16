@@ -60,7 +60,7 @@ function WoWPro.Leveling:NextStep(k, skip)
 			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
 			for j=1,numprereqs do
 				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-				if not WoWPro_LevelingDB.completedQIDs[tonumber(jprereq)] then 
+				if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
 					skip = true -- If one of the prereqs is NOT complete, step is skipped.
 				end
 			end
@@ -71,17 +71,17 @@ function WoWPro.Leveling:NextStep(k, skip)
 	-- Skipping quests with prerequisites if their prerequisite was skipped --
 	if WoWPro.prereq[k] 
 	and not WoWProCharDB.Guide[GID].skipped[k] 
-	and not WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] then 
+	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then 
 		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
 		for j=1,numprereqs do
 			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-			if WoWPro_LevelingDB.skippedQIDs[tonumber(jprereq)] then
+			if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
 				skip = true
 				-- If their prerequisite has been skipped, skipping any dependant quests --
 				if WoWPro.action[k] == "A" 
 				or WoWPro.action[k] == "C" 
 				or WoWPro.action[k] == "T" then
-					WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] = true
+					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
 					WoWProCharDB.Guide[GID].skipped[k] = true
 				else
 					WoWProCharDB.Guide[GID].skipped[k] = true
@@ -101,7 +101,7 @@ function WoWPro.Leveling:SkipStep(index)
 	if WoWPro.action[index] == "A" 
 	or WoWPro.action[index] == "C" 
 	or WoWPro.action[index] == "T" then
-		WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[index]] = true
+		WoWProCharDB.skippedQIDs[WoWPro.QID[index]] = true
 		WoWProCharDB.Guide[GID].skipped[index] = true
 	else 
 		WoWProCharDB.Guide[GID].skipped[index] = true
@@ -115,11 +115,11 @@ function WoWPro.Leveling:SkipStep(index)
 				for k=1,numprereqs do
 					local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
 					if tonumber(kprereq) == WoWPro.QID[currentstep] 
-					and WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[currentstep]] then
+					and WoWProCharDB.skippedQIDs[WoWPro.QID[currentstep]] then
 						if WoWPro.action[j] == "A" 
 						or WoWPro.action[j] == "C" 
 						or WoWPro.action[j] == "T" then
-							WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = true
+							WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = true
 						end
 						steplist = steplist.."- "..WoWPro.step[j].."\n"
 						skipstep(j)
@@ -143,7 +143,7 @@ function WoWPro.Leveling:UnSkipStep(index)
 	and ( WoWPro.action[index] == "A" 
 		or WoWPro.action[index] == "C" 
 		or WoWPro.action[index] == "T" ) then
-			WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[index]] = nil
+			WoWProCharDB.skippedQIDs[WoWPro.QID[index]] = nil
 			WoWProCharDB.Guide[GID].skipped[index] = nil
 	else
 		WoWProCharDB.Guide[GID].skipped[index] = nil
@@ -158,7 +158,7 @@ function WoWPro.Leveling:UnSkipStep(index)
 					if WoWPro.action[j] == "A" 
 					or WoWPro.action[j] == "C" 
 					or WoWPro.action[j] == "T" then
-						WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = nil
+						WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = nil
 					end
 					WoWProCharDB.Guide[GID].skipped = {}
 					unskipstep(j)
@@ -249,7 +249,7 @@ function WoWPro.Leveling:LoadGuide()
 	
 	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps registered.")
 		
-	WoWPro.Leveling:PopulateQuestLog() --Calling this will populate our quest log table for use here
+	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
 	-- Checking to see if any steps are already complete --
 	for i=1, WoWPro.stepcount do
@@ -259,8 +259,8 @@ function WoWPro.Leveling:LoadGuide()
 		local level = WoWPro.level[i]
 
 		-- Turned in quests --
-		if WoWPro_LevelingDB.completedQIDs then
-			if WoWPro_LevelingDB.completedQIDs[QID] then
+		if WoWProCharDB.completedQIDs then
+			if WoWProCharDB.completedQIDs[QID] then
 				WoWProCharDB.Guide[GID].completion[i] = true
 			end
 		end
@@ -338,7 +338,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		local completion = WoWProCharDB.Guide[GID].completion
 		
 		-- Checking off lead in steps --
-		if leadin and WoWPro_LevelingDB.completedQIDs[tonumber(leadin)] and not completion[k] then
+		if leadin and WoWProCharDB.completedQIDs[tonumber(leadin)] and not completion[k] then
 			completion[k] = true
 			return true --reloading
 		end
@@ -361,9 +361,9 @@ function WoWPro.Leveling:RowUpdate(offset)
 		-- Getting the image and text for the step --
 		row.step:SetText(step)
 		if step then row.check:Show() else row.check:Hide() end
-		if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] then
+		if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
 			row.check:SetChecked(true)
-			if WoWProCharDB.Guide[GID].skipped[k] or WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] then
+			if WoWProCharDB.Guide[GID].skipped[k] or WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 			else
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
@@ -383,7 +383,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end
 		
 		-- Checkbox Function --
-		row.check:SetScript("OnClick", function(self, button, down)
+		function WoWPro.Leveling:CheckFunction(row, button, down)
 			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 			if button == "LeftButton" and row.check:GetChecked() then
 				local steplist = WoWPro.Leveling:SkipStep(row.index)
@@ -401,6 +401,9 @@ function WoWPro.Leveling:RowUpdate(offset)
 				WoWPro.Leveling:UnSkipStep(row.index)
 			end
 			WoWPro:UpdateGuide()
+		end
+		row.check:SetScript("OnClick", function(self, button, down)
+			WoWPro.Leveling:CheckFunction(row, button, down)
 		end)
 		
 		-- Right-Click Drop-Down --
@@ -553,14 +556,7 @@ end
 
 -- Event Response Logic --
 function WoWPro.Leveling:EventHandler(self, event, ...)
-
-	-- Receiving the result of the completed quest query --
-	if event == "QUEST_QUERY_COMPLETE" then
-		WoWPro_LevelingDB.completedQIDs = {}
-		GetQuestsCompleted(WoWPro_LevelingDB.completedQIDs)
-		collectgarbage("collect")
-		WoWPro.UpdateGuide()
-	end
+	WoWPro:dbp("Running: Leveling Event Handler")
 		
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
@@ -578,7 +574,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 		WoWPro.Leveling:AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
-		WoWPro.Leveling:PopulateQuestLog(...)
+		WoWPro:PopulateQuestLog(...)
 		WoWPro.Leveling:AutoCompleteQuestUpdate(...)
 		WoWPro.Leveling:UpdateQuestTracker()
 	end	
@@ -607,77 +603,6 @@ function WoWPro.Leveling:AutoCompleteGetFP(...)
 	end
 end
 
--- Populate the Quest Log table for other functions to call on --
-function WoWPro.Leveling:PopulateQuestLog()
-	if not WoWPro.action then return end -- Not updating if there is no guide loaded.
-	
-	WoWPro.oldQuests = WoWPro.QuestLog or {}
-	WoWPro.newQuest, WoWPro.missingQuest = false, false
-	
-	-- Generating the Quest Log table --
-	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
-	local i, currentHeader = 1, "None"
-	local entries = GetNumQuestLogEntries()
-	for i=1,tonumber(entries) do
-		local questTitle, level, questTag, suggestedGroup, isHeader, 
-			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
-		local leaderBoard
-		if isHeader then
-			currentHeader = questTitle
-		else
-			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
-				leaderBoard = {} 
-				for j=1,GetNumQuestLeaderBoards(i) do 
-					leaderBoard[j] = GetQuestLogLeaderBoard(j, i)
-				end 
-			else leaderBoard = nil end
-			local link, icon, charges = GetQuestLogSpecialItemInfo(i)
-			local use
-			if link then
-				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
-				use = Id
-			end
-			local coords
-			QuestMapUpdateAllQuests()
-			QuestPOIUpdateIcons()
-			WorldMapFrame_UpdateQuests()
-			local x, y = WoWPro:findBlizzCoords(questID)
-			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
-			WoWPro.QuestLog[questID] = {
-				title = questTitle,
-				level = level,
-				tag = questTag,
-				group = suggestedGroup,
-				complete = isComplete,
-				daily = isDaily,
-				leaderBoard = leaderBoard,
-				header = currentHeader,
-				use = use,
-				coords = coords,
-				index = i
-			}
-		end
-	end
-	if WoWPro.oldQuests == {} then return end
-
-	-- Generating table WoWPro.newQuest --
-	for QID, questInfo in pairs(WoWPro.QuestLog) do
-		if not WoWPro.oldQuests[QID] then 
-			WoWPro.newQuest = QID 
-			WoWPro:dbp("New Quest: "..WoWPro.QuestLog[QID].title)
-		end
-	end
-	
-	-- Generating table WoWPro.missingQuest --
-	for QID, questInfo in pairs(WoWPro.oldQuests) do
-		if not WoWPro.QuestLog[QID] then 
-			WoWPro.missingQuest = QID 
-			WoWPro:dbp("Missing Quest: "..WoWPro.oldQuests[QID].title)
-		end
-	end
-	
-end
-
 -- Auto-Complete: Quest Update --
 function WoWPro.Leveling:AutoCompleteQuestUpdate()
 	local GID = WoWProDB.char.currentguide
@@ -693,7 +618,7 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate()
 			-- Quest Turn-Ins --
 			if WoWPro.Leveling.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
 				WoWPro.CompleteStep(i)
-				WoWPro_LevelingDB.completedQIDs[QID] = true
+				WoWProCharDB.completedQIDs[QID] = true
 				WoWPro.Leveling.CompletingQuest = false
 			end
 			
@@ -838,6 +763,7 @@ end
 
 -- Update Quest Tracker --
 function WoWPro.Leveling:UpdateQuestTracker()
+	if not WoWPro.GuideFrame:IsVisible() then return end
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 	

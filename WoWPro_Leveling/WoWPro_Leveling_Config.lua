@@ -195,5 +195,4 @@ end
 
 function WoWPro.Leveling:CreateConfig()
 	blizzPanel = createBlizzOptions()
-	InterfaceOptions_AddCategory(WoWPro_Leveling_CurrentGuide)
 end

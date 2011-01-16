@@ -18,7 +18,7 @@ function WoWPro:SetDefaults()
 	WoWPro.MainFrame:SetWidth(200)
 	WoWPro.MainFrame:SetMinResize(150,40)
 	WoWPro.MainFrame:ClearAllPoints()
-	WoWPro.AnchorFrame:SetPoint("TOPRIGHT", UIParent, "RIGHT", -10, 175)
+	WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
 	
 	WoWPro:RefreshConfig()
 end
@@ -713,15 +713,15 @@ local function createBlizzOptions()
 	profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
 	
 	dialog:SetDefaultSize("WoWPro-Bliz", 600, 400)
-	dialog:AddToBlizOptions("WoWPro-Bliz", "WoW-Pro Guides")
+	dialog:AddToBlizOptions("WoWPro-Bliz", "WoW-Pro")
 
 	-- Display Options
 	config:RegisterOptionsTable("WoWPro-Display", options.args.display)
-	dialog:AddToBlizOptions("WoWPro-Display", options.args.display.name, "WoW-Pro Guides")
+	dialog:AddToBlizOptions("WoWPro-Display", options.args.display.name, "WoW-Pro")
 	
 	-- Profile Options
 	config:RegisterOptionsTable("WoWPro-Profile", profiles)
-	dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro Guides")
+	dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro")
 
 	return blizzPanel
 end
@@ -729,4 +729,5 @@ end
 function WoWPro.CreateConfig()
 	blizzPanel = createBlizzOptions()
 	InterfaceOptions_AddCategory(WoWPro.GuideList)
+	InterfaceOptions_AddCategory(WoWPro.CurrentGuideFrame)
 end

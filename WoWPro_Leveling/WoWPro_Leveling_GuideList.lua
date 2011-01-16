@@ -58,7 +58,7 @@ function WoWPro.Leveling.UpdateGuideList()
 				WoWPro.Leveling.Resetting = true
 				WoWPro:LoadGuide(guides[row.i].GID)
 				for j = 1,WoWPro.stepcount do 
-					if WoWPro.QID[j] then WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = nil end
+					if WoWPro.QID[j] then WoWProCharDB.completedQIDs[WoWPro.QID[j]] = nil end
 				end
 				WoWPro:LoadGuide(guides[row.i].GID)
 				WoWPro.Leveling.Resetting = false

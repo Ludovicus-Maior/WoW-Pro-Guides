@@ -17,7 +17,7 @@ function WoWPro.Dailies:OnEnable()
 	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat"})
 	
 	-- Event Registration --
-	WoWPro.Dailies.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
+	WoWPro.Dailies.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT"
 	}
@@ -33,7 +33,7 @@ function WoWPro.Dailies:OnEnable()
 	-- Creating empty user settings if none exist --
 	WoWPro_DailiesDB = WoWPro_DailiesDB or {}
 	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
-	WoWPro_DailiesDB.completedQIDs = WoWPro_DailiesDB.completedQIDs or {}
+	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
 	
 	if WoWProDB.char.lastdailiesguide and not WoWProDB.char.currentguide then
 		WoWPro:LoadGuide(WoWProDB.char.lastdailiesguide)

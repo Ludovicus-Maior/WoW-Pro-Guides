@@ -3,7 +3,6 @@
 ## Notes: Leveling guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## SavedVariablesPerCharacter: WoWPro_LevelingDB
 ## Version: 2.1.0
 
 ## X-Category: Quest
@@ -15,6 +14,5 @@ Horde\Guides.xml
 
 WoWPro_Leveling_Parser.lua
 WoWPro_Leveling_Config.lua
-WoWPro_Leveling_CurrentGuide.lua
 WoWPro_Leveling_GuideList.lua
 WoWPro_Leveling_Frames.lua

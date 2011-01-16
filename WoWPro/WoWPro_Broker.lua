@@ -30,7 +30,6 @@ function WoWPro:LoadGuide(guideID)
 	WoWPro:dbp("Loading Guide: "..GID)
 	
 	-- Creating a new entry if this guide does not have one
-	-- TODO: Make this apply to any module!
 	WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
 	WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
 	WoWProCharDB.Guide[GID].skipped = WoWProCharDB.Guide[GID].skipped or {}
@@ -46,6 +45,8 @@ end
 
 -- Guide Update --
 function WoWPro:UpdateGuide(offset)
+	if not WoWPro.GuideFrame:IsVisible() then return end
+	WoWPro:dbp("Running: UpdateGuide()")
 	local GID = WoWProDB.char.currentguide
 	
 	-- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
@@ -100,15 +101,11 @@ function WoWPro:UpdateGuide(offset)
 	
 	-- Updating the guide list or current guide panels if they are shown --
 	if WoWPro[module:GetName()].GuideList 
-	and WoWPro[module:GetName()].GuideList:IsShown() 
+	and WoWPro[module:GetName()].GuideList:IsVisible() 
 	and WoWPro[module:GetName()].UpdateGuideList then
 		WoWPro[module:GetName()].UpdateGuideList() 
 	end
-	if WoWPro[module:GetName()].CurrentGuide 
-	and WoWPro[module:GetName()].CurrentGuide:IsShown() 
-	and WoWPro[module:GetName()].UpdateCurrentGuide then
-		WoWPro[module:GetName()].UpdateCurrentGuide() 
-	end
+	if WoWPro.CurrentGuideFrame:IsVisible() then WoWPro.UpdateCurrentGuidePanel() end
 	
 	-- Updating the progress count --
 	local p = 0
@@ -228,7 +225,7 @@ function WoWPro:NextStep(k,i)
 		-- Skipping any manually skipped quests --
 		if WoWProCharDB.Guide[GID].skipped[k] then
 			skip = true
-		elseif WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[k]] then
+		elseif WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
 			WoWProCharDB.Guide[GID].skipped[k] = true
 			skip = true
 		end
@@ -270,8 +267,6 @@ function WoWPro.CompleteStep(step)
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
 	WoWProCharDB.Guide[GID].completion[step] = true
-	
-	-- TODO: make next lines module specific
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProCharDB.Guide[GID].completion[row.index] then
 			row.check:SetChecked(true)
@@ -279,6 +274,86 @@ function WoWPro.CompleteStep(step)
 			row.check:SetChecked(false)
 		end
 	end
+	
+	WoWPro:dbp("Step Complete: "..WoWPro.step[step])
+	
 	WoWPro:MapPoint()
 	WoWPro:UpdateGuide() 
+end
+
+-- Populate the Quest Log table for other functions to call on --
+function WoWPro:PopulateQuestLog()
+	WoWPro:dbp("Populating quest log...")
+	
+	WoWPro.oldQuests = WoWPro.QuestLog or {}
+	WoWPro.newQuest, WoWPro.missingQuest = false, false
+	
+	-- Generating the Quest Log table --
+	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
+	local i, currentHeader = 1, "None"
+	local entries = GetNumQuestLogEntries()
+	for i=1,tonumber(entries) do
+		local questTitle, level, questTag, suggestedGroup, isHeader, 
+			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
+		local leaderBoard
+		if isHeader then
+			currentHeader = questTitle
+		else
+			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
+				leaderBoard = {} 
+				for j=1,GetNumQuestLeaderBoards(i) do 
+					leaderBoard[j] = GetQuestLogLeaderBoard(j, i)
+				end 
+			else leaderBoard = nil end
+			local link, icon, charges = GetQuestLogSpecialItemInfo(i)
+			local use
+			if link then
+				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
+				use = Id
+			end
+			local coords
+			QuestMapUpdateAllQuests()
+			QuestPOIUpdateIcons()
+			WorldMapFrame_UpdateQuests()
+			local x, y = WoWPro:findBlizzCoords(questID)
+			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
+			WoWPro.QuestLog[questID] = {
+				title = questTitle,
+				level = level,
+				tag = questTag,
+				group = suggestedGroup,
+				complete = isComplete,
+				daily = isDaily,
+				leaderBoard = leaderBoard,
+				header = currentHeader,
+				use = use,
+				coords = coords,
+				index = i
+			}
+		end
+	end
+	if WoWPro.oldQuests == {} then return end
+
+	-- Generating table WoWPro.newQuest --
+	for QID, questInfo in pairs(WoWPro.QuestLog) do
+		if not WoWPro.oldQuests[QID] then 
+			WoWPro.newQuest = QID 
+			WoWPro:dbp("New Quest: "..WoWPro.QuestLog[QID].title)
+		end
+	end
+	
+	-- Generating table WoWPro.missingQuest --
+	for QID, questInfo in pairs(WoWPro.oldQuests) do
+		if not WoWPro.QuestLog[QID] then 
+			WoWPro.missingQuest = QID 
+			WoWPro:dbp("Missing Quest: "..WoWPro.oldQuests[QID].title)
+		end
+	end
+	
+	local num = 0
+	for i, QID in pairs(WoWPro.QuestLog) do
+		num = num+1
+	end
+	WoWPro:dbp("Quest Log populated. "..num.." quests found.")
+	
 end

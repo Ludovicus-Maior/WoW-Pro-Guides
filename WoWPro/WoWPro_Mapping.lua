@@ -285,7 +285,7 @@ function WoWPro:MapPoint(row)
 	local desc = WoWPro.step[i]
 	local zone
 	if row then zone = WoWPro.rows[row].zone else 
-		zone = WoWPro.zone[i] or strtrim(strsplit("(",(strsplit("-",WoWPro.Guides[GID].zone))))
+		zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(%-]+)"))
 	end 
 	autoarrival = WoWPro.waypcomplete[i]
 	
@@ -303,6 +303,7 @@ function WoWPro:MapPoint(row)
 	
 	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
 	if LightHeaded and WoWPro.QID and WoWPro.QID[i] and not coords then
+		if type(WoWPro.QID[i]) ~= "number" then return end
 		local npcid, npcname, stype
 		if WoWPro.action[i]=="A" then _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i])
 		else _, _, _, _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i]) end

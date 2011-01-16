@@ -17,7 +17,7 @@ function WoWPro.Leveling:OnEnable()
 	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep"})
 	
 	-- Event Registration --
-	WoWPro.Leveling.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
+	WoWPro.Leveling.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", "PLAYER_LEVEL_UP", "TRAINER_UPDATE"
 	}
@@ -35,8 +35,8 @@ function WoWPro.Leveling:OnEnable()
 	-- Creating empty user settings if none exist --
 	WoWPro_LevelingDB = WoWPro_LevelingDB or {}
 	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
-	WoWPro_LevelingDB.completedQIDs = WoWPro_LevelingDB.completedQIDs or {}
-	WoWPro_LevelingDB.skippedQIDs = WoWPro_LevelingDB.skippedQIDs or {}
+	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
+	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	
 	-- Loading Initial Guide --
 	local locClass, engClass = UnitClass("player")

@@ -118,11 +118,29 @@ function WoWPro:OnEnable()
 	-- Event Setup --
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
-		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED",
+		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_QUERY_COMPLETE",
 		"UPDATE_BINDINGS",
 	})
 	WoWPro.GuideFrame:SetScript("OnEvent", function(self, event, ...)		-- Setting up event handler
 		WoWPro:dbp("Event Fired: "..event)
+		
+		-- Receiving the result of the completed quest query --
+		if event == "QUEST_QUERY_COMPLETE" then
+			local num = 0
+			for i, QID in pairs(WoWProCharDB.completedQIDs) do
+				num = num+1
+			end
+			WoWPro:dbp("Old Completed QIDs: "..num)
+			WoWProCharDB.completedQIDs = {}
+			GetQuestsCompleted(WoWProCharDB.completedQIDs)
+			num = 0
+			for i, QID in pairs(WoWProCharDB.completedQIDs) do
+				num = num+1
+			end
+			WoWPro:dbp("New Completed QIDs: "..num)
+			collectgarbage("collect")
+			WoWPro.UpdateGuide()
+		end
 		
 		-- Unlocking guide frame when leaving combat --
 		if event == "PLAYER_REGEN_ENABLED" then
@@ -141,7 +159,11 @@ function WoWPro:OnEnable()
 
 		-- Module Event Handlers --
 		for name, module in WoWPro:IterateModules() do
-			if WoWPro[name].EventHandler then WoWPro[name]:EventHandler(self, event, ...) end
+			if WoWPro[name].EventHandler 
+			and WoWProDB.char.currentguide 
+			and WoWPro.Guides[WoWProDB.char.currentguide]
+			and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == name 
+			then WoWPro[name]:EventHandler(self, event, ...) end
 		end
 	end)
 	

@@ -467,7 +467,7 @@ function WoWPro:CreateTitleBar()
 		local anchorpoint = WoWProDB.profile.anchorpoint
 		local hquadrant, vquadrant = GetSide(WoWPro.MainFrame)
 		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
-		if ( WoWPro.GuideFrame:IsVisible() ) and button == "LeftButton" then
+		if WoWPro.GuideFrame:IsVisible() then
 			if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
 			WoWPro.GuideFrame:Hide()
 			WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
@@ -475,7 +475,7 @@ function WoWPro:CreateTitleBar()
 			WoWPro.MainFrame:SetHeight(WoWPro.Titlebar:GetHeight())
 			WoWPro.MainFrame:StopMovingOrSizing()
 			WoWPro.AnchorSet()
-		elseif  button == "LeftButton" then
+		else
 			WoWPro.GuideFrame:Show()
 			if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
 			WoWPro.MainFrame:StartSizing("TOP")
@@ -751,13 +751,24 @@ function WoWPro:CreateDropdownMenu()
 	WoWPro.DropdownMenu = {
 		{text = "WoW-Pro Guides", isTitle = true},
 		{text = "About", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Guides")
+			InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
 		end},
 		{text = "Display Settings", func = function() 
 			InterfaceOptionsFrame_OpenToCategory("Guide Display") 
 		end},
 		{text = L["Guide List"], func = function() 
 			InterfaceOptionsFrame_OpenToCategory("Guide List") 
+		end},
+		{text = L["Current Guide"], func = function() 
+			InterfaceOptionsFrame_OpenToCategory("Current Guide") 
+		end},
+		{text = L["Reset Current Guide"], func = function() 
+			if not WoWProDB.char.currentguide then return end
+			WoWProCharDB.Guide[WoWProDB.char.currentguide] = nil
+			for j = 1,WoWPro.stepcount do 
+				if WoWPro.QID[j] then WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = nil end
+			end
+			WoWPro:LoadGuide()
 		end},
 	}
 	
@@ -768,18 +779,6 @@ function WoWPro:CreateDropdownMenu()
 		table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )
 		table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
 				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
-			end} )
-		table.insert(WoWPro.DropdownMenu, {text = L["Current Guide"], func = function()
-				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")  
-				InterfaceOptionsFrame_OpenToCategory("Current Guide")
-			end} )
-		table.insert(WoWPro.DropdownMenu, {text = L["Reset Current Guide"], func = function() 
-				if not WoWProDB.char.currentguide then return end
-				WoWProCharDB.Guide[WoWProDB.char.currentguide] = nil
-				for j = 1,WoWPro.stepcount do 
-					if WoWPro.QID[j] then WoWPro_LevelingDB.skippedQIDs[WoWPro.QID[j]] = nil end
-				end
-				WoWPro:LoadGuide()
 			end} )
 	end
 end
