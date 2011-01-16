@@ -771,16 +771,6 @@ function WoWPro:CreateDropdownMenu()
 			WoWPro:LoadGuide()
 		end},
 	}
-	
-	-- TODO: move this to wowpro_leveling
-	-- Modules --
-	if WoWPro.Leveling then
-		table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
-		table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )
-		table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
-				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
-			end} )
-	end
 end
 
 -- Creating the addon's frames --

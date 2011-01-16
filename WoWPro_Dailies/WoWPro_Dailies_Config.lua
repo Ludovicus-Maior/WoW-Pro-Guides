@@ -158,6 +158,10 @@ end
 
 function WoWPro.Dailies:CreateConfig()
 	blizzPanel = createBlizzOptions()
---	WoWPro.Dailies:CreateGuideList()
-	InterfaceOptions_AddCategory(WoWPro_Dailies_CurrentGuide)
+
+	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
+	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Dailies", isTitle = true} )
+	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
+			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Dailies") 
+		end} )
 end

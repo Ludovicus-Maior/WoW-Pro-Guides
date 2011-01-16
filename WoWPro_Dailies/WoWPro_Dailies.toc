@@ -15,5 +15,4 @@ Neutral\Guides.xml
 
 WoWPro_Dailies_Parser.lua
 WoWPro_Dailies_Config.lua
-WoWPro_Dailies_CurrentGuide.lua
 WoWPro_Dailies_GuideList.lua
