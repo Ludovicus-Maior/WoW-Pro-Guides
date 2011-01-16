@@ -1,6 +1,6 @@
 WoW-Pro Addon - Change Log
 
-v2.2.0
+v2.1.2
 	New Features:
 		- Redesigned guide list groups all your guides in one panel, in different tabs based on module!
 		- Current guide panel will be shared between modules
