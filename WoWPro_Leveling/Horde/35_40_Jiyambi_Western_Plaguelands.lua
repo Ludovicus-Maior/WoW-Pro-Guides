@@ -124,27 +124,27 @@ A Bagging Bisp|QID|27154|N|The quest should pop up automatically.|
 C Bagging Bisp|QID|27154|N|Talk to the mage at the top of the tower.|
 T Bagging Bisp|QID|27154|M|45.82,18.44|N|The turn-in should pop up automatically.|
 A Turning Yourself In|QID|27155|M|45.82,18.44|N|The quest should pop up automatically.|
-T Turning Yourself In|QID|27155|M|45.82,18.44|N|To Highlord Tirion Fordring, back at the second floor of the keep. You CAN safely jump off the tower.|
-F The Menders' Stead|QID|26957|M|41.91,14.96|
-T The Long Trip Home|QID|26957|M|44.65,18.43|N|To Del Gahrron.|
+T Turning Yourself In|QID|27155|M|41.91,14.96|N|To Highlord Tirion Fordring, back at the second floor of the keep. You CAN safely jump off the tower.|
+F The Menders' Stead|QID|26957|M|44.65,18.43|
+T The Long Trip Home|QID|26957|M|50.60,52.56|N|To Del Gahrron.|
 A Memories from a Lost Past|QID|27017|PRE|26957|M|50.60,52.56|N|From Del Gahrron.|
-A Gahrron's Withering Cauldron|QID|27053|N|From Field Agent Kaartish.|
-C Gahrron's Withering Cauldron|QID|27053|M|49.27,54.81|N|Kill the cauldron lord at Gahrron's Withering to get the key.|
+A Gahrron's Withering Cauldron|QID|27053|N|From Field Agent Kaartish.|M|49.27,54.81|
+C Gahrron's Withering Cauldron|QID|27053|M|62.52,58.96|N|Kill the cauldron lord at Gahrron's Withering to get the key.|
 T Gahrron's Withering Cauldron|QID|27053|M|62.52,58.96|N|To the cauldron.|
 A Return to the Stead|QID|27057|M|62.56,58.58|N|From the cauldron.|
-C Memories from a Lost Past|QID|27017|M|62.56,58.58|N|In the farmhouse. The painting is on the wall downstairs, the book is upstairs.|
-T Memories from a Lost Past|QID|27017|M|64.93,59.52|N|To Del Gahrron, back at The Menders' Stand.|
-T Return to the Stead|QID|27057|M|50.64,52.63|N|To Field Agent Kaartish.|
+C Memories from a Lost Past|QID|27017|M|64.93,59.52|N|In the farmhouse. The painting is on the wall downstairs, the book is upstairs.|
+T Memories from a Lost Past|QID|27017|M|50.64,52.63|N|To Del Gahrron, back at The Menders' Stand.|
+T Return to the Stead|QID|27057|M|49.27,54.82|N|To Field Agent Kaartish.|
 A Desperate Acts|QID|27054|PRE|27057|M|49.27,54.82|N|From Field Agent Kaartish.|
-A Zen'Kiki and the Cultists|QID|26955|PRE|27057|M|49.27,54.82|N|From Adrine Towhide.|
-C Desperate Acts|QID|27054|M|48.97,54.71|N|Kill and loot Instructor Malicia.|
+A Zen'Kiki and the Cultists|QID|26955|PRE|27057|M|48.97,54.71|N|From Adrine Towhide.|
 C Zen'Kiki and the Cultists|QID|26955|S|NC|M|66.05,47.77|N|Release bears from their cages. Zen'Kiki will heal them.|
+C Desperate Acts|QID|27054|M|66.05,47.77|N|Kill and loot Instructor Malicia.|
 T Desperate Acts|QID|27054|M|67.04,45.24|N|The turn-in should pop up automatically.|
 A Students of Krastinov|QID|27055|M|67.04,45.24|N|The quest should pop up automatically.|
 C Zen'Kiki and the Cultists|QID|26955|US|NC|M|67.04,45.24|N|Release bears from their cages. Zen'Kiki will heal them.|
-C Students of Krastinov|QID|27055|M|67.04,45.24|N|Head to the cave to the north and kill the various mobs there.|
-T Students of Krastinov|QID|27055|M|64.52,34.72|N|To Field Agent Kaartish, back at the Menders' Stead.|
-T Zen'Kiki and the Cultists|QID|26955|M|49.30,54.85|N|To Adrine Towhide.|
+C Students of Krastinov|QID|27055|M|64.52,34.72|N|Head to the cave to the north and kill the various mobs there.|
+T Students of Krastinov|QID|27055|M|49.30,54.85|N|To Field Agent Kaartish, back at the Menders' Stead.|
+T Zen'Kiki and the Cultists|QID|26955|M|48.93,54.73|N|To Adrine Towhide.|
 A Into the Woods|QID|27683|M|48.93,54.73|N|From Adrine Towhide. Pick this up if you'd like to do Eastern Plaguelands next.|
 F Andorhal|QID|27083|M|50.49,52.27|
 T The Battle Resumes!|QID|27083|M|46.97,63.90|N|To Koltira Deathweaver.|
@@ -169,5 +169,4 @@ A The Reckoning|QID|27144|M|49.08,63.69|
 C The Reckoning|QID|27144|NC|M|48.89,63.58|N|Watch the scene.|
 T The Reckoning|QID|27144|M|48.97,63.70|N|To Lady Sylvanas Windrunner. Congrats on the nice piece of gear!|
 ]]
-
 end)

@@ -1,89 +1,176 @@
-WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest - Human", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest (Human)", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
 return [[
-A Beating Them Back!|QID|28767|M|48.20,42.06|
-C Beating Them Back!|N|Kill worgs around this location. | |QID|28767|M|46.89,39.09||
-T Beating Them Back!|QID|28767|M|48.20,42.06|
-A Lions For Lambs|QID|28759|M|48.20,42.06|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location. | |QID|28759|M|46.89,39.09|
-T Lions For Lambs|QID|28759|M|48.20,42.06|
+A Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|
+A Beating Them Back!|QID|28766|C|Warrior|M|48.20,42.06|
+A Beating Them Back!|QID|28767|C|Hunter|M|48.20,42.06|
+A Beating Them Back!|QID|28763|C|Priest|M|48.20,42.06|
+A Beating Them Back!|QID|28757|C|Mage|M|48.20,42.06|
+A Beating Them Back!|QID|28764|C|Rogue|M|48.20,42.06|
+A Beating Them Back!|QID|28765|C|Warlock|M|48.20,42.06|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28762|C|Paladin|M|46.89,39.09|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28766|C|Warrior|M|46.89,39.09|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28767|C|Hunter|M|46.89,39.09|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28763|C|Priest|M|46.89,39.09|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28757|C|Mage|M|46.89,39.09|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28764|C|Rogue|M|46.89,39.09|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28765|C|Warlock|M|46.89,39.09|
+T Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|
+T Beating Them Back!|QID|28766|C|Warrior|M|48.20,42.06|
+T Beating Them Back!|QID|28767|C|Hunter|M|48.20,42.06|
+T Beating Them Back!|QID|28763|C|Priest|M|48.20,42.06|
+T Beating Them Back!|QID|28757|C|Mage|M|48.20,42.06|
+T Beating Them Back!|QID|28764|C|Rogue|M|48.20,42.06|
+T Beating Them Back!|QID|28765|C|Warlock|M|48.20,42.06|
 
-A Etched Letter|QID|26910|C|Hunter|M|48.20,42.06|
-A Consecrated Letter|QID|3101|C|Paladin|M|48.20,42.06|
-A Hallowed Letter|QID|3103|C|Priest|M|48.20,42.06|
-A Glyphic Letter|QID|3104|C|Mage|M|48.20,42.06|
-A Encrypted Letter|QID|3102|C|Rogue|M|48.20,42.06|
-A Tainted Letter|QID|3105|C|Warlock|M|48.20,42.06|
-A Simple Letter|QID|3100|C|Warrior|M|48.20,42.06|
-T Etched Letter|QID|26910|C|Hunter|M|48.55,42.56|
-T Concecrated Letter|QID|3101|C|Paladin|M|50.43,42.12|
-T Hallowed Letter|QID|3103|C|Priest|M|49.81,39.49|
-T Glyphic Letter|QID|3104|C|Mage|M|49.66,39.40|
-T Encrypted Letter|QID|3102|C|Rogue|M|50.31,39.92|
-T Tainted Letter|QID|3105|C|Warlock|M|49.87,42.65|
-T Simple Letter|QID|3100|C|Warrior|M|50.24,42.28|
-A Charging Into Battle|QID|26913|C|Warrior|M|50.24,42.28|
-A The Hunter's Path|QID|26917|C|Hunter|M|48.55,42.56|
-A The Power Of The Light|QID|26918|C|Paladin|M|50.43,42.12|
-A Mastering The Arcane|QID|26916|C|Mage|M|49.66,39.40|
-A The Deepest Cut|QID|26915|C|Rogue|M|50.31,39.92|
-A Healing The Wounded|QID|26919|C|Priest|M|49.81,39.49|
-A Immolation|QID|26914|C|Warlock|M|49.87,42.65|
-C Immolation|N|Learn Immolate then use it on the training dummies. |QID|26914|C|Warlock|48.63,44.37|
-C The Deepest Cut|N|Learn Eviscerate and use it on the training dummies. |QID|26915|C|Rogue|M|48.63,44.37|
-C Healing The Wounded|N|Learn Flash Heal then use it on Wounded Trainees inside  the abbey. | |QID|26919|C|Priest|
-C Charging Into Battle|N|Learn Charge from the warrior trainer then use it on the training dummies. | |QID|26913|C|Warrior|M|48.63,44.37|
-C The Hunter's Path|N|Learn Steady Shot from the hunter trainer then use it on the training dummies. | |QID|26917|C|Hunter|M|48.63,44.37|
-C The Power Of The Light|N|Learn Seal of righteousness and judgement then use judgement on the training dummies. | |QID|26918|C|Paladin|M|48.63,44.37|
-C Mastering The Arcane|N|Learn Arcane Missiles then use it on the training dummies. | |QID|26916|C|Mage|M|48.63,44.37|
-T Immolation|N|Train new skills while here. | |QID|26914|C|Warlock|M|49.87,42.65|
-T The Deepest Cut|N|Train new skills while here. | |QID|26915|C|Rogue|M|50.31,39.92|
-T Healing The Wounded|N|Train new skills while here. | |QID|26919|C|Priest|M|49.81,39.49|
-T Charging Into Battle|N|Train new skills while here. | |QID|26913|C|Warrior|M|50.24,42.28|
-T The Power Of The Light|N|Train new skills while here. | |QID|26918|C|Paladin|M|50.43,42.12|
-T Mastering The Arcane|N|Train new skills while here. | |QID|26916|C|Mage|M|49.66,39.40|
-T The Hunter's Path|N|Train new skills while here. | |QID|26917|C|Hunter|M|48.55,42.56|
-A Join The Battle!|QID|28780|C|Warlock|M|49.87,42.65|
-A Join The Battle!|QID|28780|C|Rogue|M|50.31,39.92|
-A Join The Battle!|QID|28780|C|Priest|M|49.81,39.49|
-A Join The Battle!|QID|28780|C|Warrior|M|50.24,42.28|
-A Join The Battle!|QID|28780|C|Paladin|M|50.43,42.12|
-A Join The Battle!|QID|28780|C|Mage|M|49.66,39.40|
-A Join The Battle!|QID|28780|C|Hunter|M|48.55,42.56|
-T Join The Battle!|QID|28780|C|Warlock|M|48.81,38.38|
-T Join The Battle!|QID|28780|C|Rogue|M|48.81,38.38|
-T Join The Battle!|QID|28780|C|Priest|M|48.81,38.38|
-T Join The Battle!|QID|28780|C|Warrior|M|48.81,38.38|
-T Join The Battle!|QID|28780|C|Paladin|M|48.81,38.38|
-T Join The Battle!|QID|28780|C|Mage|M|48.81,38.38|
-T Join The Battle!|QID|28780|C|Hunter|M|48.81,38.38|
+A Lions For Lambs|QID|28759|C|Hunter|M|48.20,42.06|
+A Lions For Lambs|QID|28771|C|Priest|M|48.20,42.06|
+A Lions For Lambs|QID|28769|C|Mage|M|48.20,42.06|
+A Lions For Lambs|QID|28772|C|Rogue|M|48.20,42.06|
+A Lions For Lambs|QID|28773|C|Warlock|M|48.20,42.06|
+A Lions For Lambs|QID|28774|C|Warrior|M|48.20,42.06|
+A Lions For Lambs|QID|28770|C|Paladin|M|48.20,42.06|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28759|C|Hunter|M|46.89,39.09|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28771|C|Priest|M|46.89,39.09|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28769|C|Mage|M|46.89,39.09|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28772|C|Rogue|M|46.89,39.09|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28773|C|Warlock|M|46.89,39.09|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28774|C|Warrior|M|46.89,39.09|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28770|C|Paladin|M|46.89,39.09|
+T Lions For Lambs|QID|28759|C|Hunter|M|48.20,42.06|
+T Lions For Lambs|QID|28771|C|Priest|M|48.20,42.06|
+T Lions For Lambs|QID|28769|C|Mage|M|48.20,42.06|
+T Lions For Lambs|QID|28772|C|Rogue|M|48.20,42.06|
+T Lions For Lambs|QID|28773|C|Warlock|M|48.20,42.06|
+T Lions For Lambs|QID|28774|C|Warrior|M|48.20,42.06|
+T Lions For Lambs|QID|28770|C|Paladin|M|48.20,42.06|
 
-A They Sent Assassins|QID|28791|M|48.81,38.38|
-A Fear No Evil|QID|28806|M|48.49,38.20|
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28791|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28806|M|48.40,35.79|
-T Fear No Evil|QID|28806|M|48.49,38.20|
-T They Sent Assassins|QID|28791|M|48.81,38.38|
-A The Rear Is Clear|QID|28817|M|48.81,38.38|
-T The Rear Is Clear|QID|28817|M|48.20,42.06|
-A Blackrock Invasion|QID|26389|M|48.20,42.06|
-A Extinguishing Hope|QID|26391|M|48.15,42.52|
-C Extinguishing Hope|N|Extinguish the fires and kill orcs around here. | |U|58362| |QID|26391|M|54.02,48.52|
-C Blackrock Invasion|N|Kill Orcs until you have 8 Blackrock Weapons. | |QID|26389|M|54.02,48.52|
-T Extinguishing Hope|QID|26391|M|48.15,42.52|
-T Blackrock Invasion|QID|26389|M|48.20,42.06|
+A Etched Letter|QID|26910|C|Hunter|R|Human|M|48.20,42.06|
+A Consecrated Letter|QID|3101|C|Paladin|R|Human|M|48.20,42.06|
+A Hallowed Letter|QID|3103|C|Priest|R|Human|M|48.20,42.06|
+A Glyphic Letter|QID|3104|C|Mage|R|Human|M|48.20,42.06|
+A Encrypted Letter|QID|3102|C|Rogue|R|Human|M|48.20,42.06|
+A Tainted Letter|QID|3105|C|Warlock|R|Human|M|48.20,42.06|
+A Simple Letter|QID|3100|C|Warrior|R|Human|M|48.20,42.06|
+T Etched Letter|QID|26910|C|Hunter|R|Human|M|48.55,42.56|
+T Concecrated Letter|QID|3101|C|Paladin|R|Human|M|50.43,42.12|
+T Hallowed Letter|QID|3103|C|Priest|R|Human|M|49.81,39.49|
+T Glyphic Letter|QID|3104|C|Mage|R|Human|M|49.66,39.40|
+T Encrypted Letter|QID|3102|C|Rogue|R|Human|M|50.31,39.92|
+T Tainted Letter|QID|3105|C|Warlock|R|Human|M|49.87,42.65|
+T Simple Letter|QID|3100|C|Warrior|R|Human|M|50.24,42.28|
 
-A Ending The Invasion|QID|26390|M|48.20,42.06|
-C Ending The Invasion|N|Kill Kurtok The Slayer.|QID|26390|M|56.90, 40.81|
-H Northshire Valley|QID|26390|U|6948|
-T Ending The Invasion|QID|26390|M|48.20,42.06|
-A Report To Goldshire|QID|54|M|48.20,42.06|
-A Rest And Relaxtion|QID|2158|M|45.56,47.74|
+A Charging Into Battle|QID|26913|C|Warrior|R|Human|M|50.24,42.28|
+A The Hunter's Path|QID|26917|C|Hunter|R|Human|M|48.55,42.56|
+A The Power Of The Light|QID|26918|C|Paladin|R|Human|M|50.43,42.12|
+A Mastering The Arcane|QID|26916|C|Mage|R|Human|M|49.66,39.40|
+A The Deepest Cut|QID|26915|C|Rogue|R|Human|M|50.31,39.92|
+A Healing The Wounded|QID|26919|C|Priest|R|Human|M|49.81,39.49|
+A Immolation|QID|26914|C|Warlock|R|Human|M|49.87,42.65|
+C Immolation|N|Learn Immolate then use it on the training dummies. |QID|26914|C|Warlock|R|Human|48.63,44.37|
+C The Deepest Cut|N|Learn Eviscerate and use it on the training dummies. |QID|26915|C|Rogue|R|Human|M|48.63,44.37|
+C Healing The Wounded|N|Learn Flash Heal then use it on Wounded Trainees inside the abbey.|QID|26919|C|Priest|R|Human|
+C Charging Into Battle|N|Learn Charge from the warrior trainer then use it on the training dummies.|QID|26913|C|Warrior|R|Human|M|48.63,44.37|
+C The Hunter's Path|N|Learn Steady Shot from the hunter trainer then use it on the training dummies.|QID|26917|C|Hunter|R|Human|M|48.63,44.37|
+C The Power Of The Light|N|Learn Seal of righteousness and judgement then use judgement on the training dummies.|QID|26918|C|Paladin|R|Human|M|48.63,44.37|
+C Mastering The Arcane|N|Learn Arcane Missiles then use it on the training dummies.|QID|26916|C|Mage|R|Human|M|48.63,44.37|
+T Immolation|N|Train new skills while here.|QID|26914|C|Warlock|R|Human|M|49.87,42.65|
+T The Deepest Cut|N|Train new skills while here. | |QID|26915|C|Rogue|R|Human|M|50.31,39.92|
+T Healing The Wounded|N|Train new skills while here. | |QID|26919|C|Priest|R|Human|M|49.81,39.49|
+T Charging Into Battle|N|Train new skills while here. | |QID|26913|C|Warrior|R|Human|M|50.24,42.28|
+T The Power Of The Light|N|Train new skills while here. | |QID|26918|C|Paladin|R|Human|M|50.43,42.12|
+T Mastering The Arcane|N|Train new skills while here. | |QID|26916|C|Mage|R|Human|M|49.66,39.40|
+T The Hunter's Path|N|Train new skills while here. | |QID|26917|C|Hunter|R|Human|M|48.55,42.56|
+
+A Join The Battle!|QID|28788|C|Warlock|R|Human|M|49.87,42.65|
+A Join The Battle!|QID|28787|C|Rogue|R|Human|M|50.31,39.92|
+A Join The Battle!|QID|28786|C|Priest|R|Human|M|49.81,39.49|
+A Join The Battle!|QID|28789|C|Warrior|R|Human|M|50.24,42.28|
+A Join The Battle!|QID|28785|C|Paladin|R|Human|M|50.43,42.12|
+A Join The Battle!|QID|28784|C|Mage|R|Human|M|49.66,39.40|
+A Join The Battle!|QID|28780|C|Hunter|R|Human|M|48.55,42.56|
+T Join The Battle!|QID|28788|C|Warlock|R|Human|M|48.81,38.38|
+T Join The Battle!|QID|28787|C|Rogue|R|Human|M|48.81,38.38|
+T Join The Battle!|QID|28786|C|Priest|R|Human|M|48.81,38.38|
+T Join The Battle!|QID|28789|C|Warrior|R|Human|M|48.81,38.38|
+T Join The Battle!|QID|28785|C|Paladin|R|Human|M|48.81,38.38|
+T Join The Battle!|QID|28784|C|Mage|R|Human|M|48.81,38.38|
+T Join The Battle!|QID|28780|C|Hunter|R|Human|M|48.81,38.38|
+
+A They Sent Assassins|QID|28791|C|Hunter|R|Human|M|48.81,38.38|
+A Fear No Evil|QID|28806|C|Hunter|R|Human|M|48.49,38.16|
+A They Sent Assassins|QID|28792|C|Mage|R|Human|M|48.81,38.38|
+A Fear No Evil|QID|28808|C|Mage|R|Human|M|48.49,38.16|
+A They Sent Assassins|QID|28797|C|Warrior|R|Human|M|48.81,38.38|
+A Fear No Evil|QID|28813|C|Warrior|R|Human|M|48.49,38.16|
+A They Sent Assassins|QID|28794|C|Priest|R|Human|M|48.81,38.38|
+A Fear No Evil|QID|28810|C|Priest|R|Human|M|48.49,38.16|
+A They Sent Assassins|QID|28795|C|Rogue|R|Human|M|48.81,38.38|
+A Fear No Evil|QID|28811|C|Rogue|R|Human|M|48.49,38.16|
+A They Sent Assassins|QID|28793|C|Paladin|R|Human|M|48.81,38.38|
+A Fear No Evil|QID|28809|C|Paladin|R|Human|M|48.49,38.16|
+A They Sent Assassins|QID|28796|C|Warlock|R|Human|M|48.81,38.38|
+A Fear No Evil|QID28812|C|Warlock|R|Human|M|48.49,38.16|
+
+C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28791|C|Hunter|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28806|C|Hunter|R|Human|M|48.40,35.79|
+C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28792|C|Mage|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28808|C|Mage|R|Human|M|48.40,35.79|
+C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28797|C|Warrior|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28813|C|Warrior|R|Human|M|48.40,35.79|
+C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28794|C|Priest|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28810|C|Priest|R|Human|M|48.40,35.79|
+C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28795|C|Rogue|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28811|C|Rogue|R|Human|M|48.40,35.79|
+C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28793|C|Paladin|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28809|C|Paladin|R|Human|M|48.40,35.79|
+C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28796|C|Warlock|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28812|C|Warlock|R|Human|M|48.40,35.79|T Fear No Evil|QID|28806|C|Hunter|R|Human|M|48.49,38.16|
+
+T They Sent Assassins|QID|28791|C|Hunter|R|Human|M|48.81,38.38|
+T Fear No Evil|QID|28808|C|Mage|R|Human|M|48.49,38.16|
+T They Sent Assassins|QID|28792|C|Mage|R|Human|M|48.81,38.38|
+T Fear No Evil|QID|28813|C|Warrior|R|Human|R|Human|M|48.49,38.16|
+T They Sent Assassins|QID|28797|C|Warrior|R|Human|R|Human|M|48.81,38.38|
+T Fear No Evil|QID|28810|C|Priest|R|Human|M|48.49,38.16|
+T They Sent Assassins|QID|28794|C|Priest|R|Human|M|48.81,38.38|
+T Fear No Evil|QID|28811|C|Rogue|R|Human|M|48.49,38.16|
+T They Sent Assassins|QID|28795|C|Rogue|R|Human|M|48.81,38.38|
+T Fear No Evil|QID|28809|C|Paladin|R|Human|M|48.49,38.16|
+T They Sent Assassins|QID|28793|C|Paladin|R|Human|M|48.81,38.38|
+T Fear No Evil|QID|28812|C|Warlock|R|Human|M|48.49,38.16|
+T They Sent Assassins|QID|28796|C|Warlock|R|Human|M|48.81,38.38|
+
+A The Rear Is Clear|QID|28817|C|Hunter|R|Human|M|48.81,38.38|
+T The Rear Is Clear|QID|28817|C|Hunter|R|Human|M|48.20,42.06|
+A The Rear Is Clear|QID|28818|C|Mage|R|Human|M|48.81,38.38|
+T The Rear Is Clear|QID|28818|C|Mage|R|Human|M|48.20,42.06|
+A The Rear Is Clear|QID|28823|C|Warrior|R|Human|M|48.81,38.38|
+T The Rear Is Clear|QID|28823|C|Warrior|R|Human|M|48.20,42.06|
+A The Rear Is Clear|QID|28820|C|Priest|R|Human|M|48.81,38.38|
+T The Rear Is Clear|QID|28820|C|Priest|R|Human|M|48.20,42.06|
+A The Rear Is Clear|QID|28821|C|Rogue|R|Human|M|48.81,38.38|
+T The Rear Is Clear|QID|28821|C|Rogue|R|Human|M|48.20,42.06|
+A The Rear Is Clear|QID|28819|C|Paladin|R|Human|M|48.81,38.38|
+T The Rear Is Clear|QID|28819|C|Paladin|R|Human|M|48.20,42.06|
+A The Rear Is Clear|QID|28822|C|Warlock|R|Human|M|48.81,38.38|
+T The Rear Is Clear|QID|28822|C|Warlock|R|Human|M|48.20,42.06|
+
+A Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|
+A Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|
+C Extinguishing Hope|N|Extinguish the fires and kill orcs around here.|U|58362||QID|26391|R|Human|M|54.02,48.52|
+C Blackrock Invasion|N|Kill Orcs until you have 8 Blackrock Weapons.|QID|26389|R|Human|M|54.02,48.52|
+T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|
+A Ending The Invasion|QID|26390|R|Human|M|48.20,42.06|
+C Ending The Invasion|N|Kill Kurtok The Slayer.|QID|26390|R|Human|M|56.90,40.81|
+H Northshire Valley|QID|26390|R|Human|U|6948|
+T Ending The Invasion|QID|26390|R|Human|M|48.20,42.06|
+A Report To Goldshire|QID|54|R|Human|M|48.20,42.06|
 
 f Lion's Pride Inn|QID|2158|M|41.72,64.64|
 T Rest And Relaxation|QID|2158|M|43.77,65.80|
 h Lion's Pride Inn|QID|47|M|43.77,65.80|
 A Kobold Candles|QID|60|M|43.32,65.71|
-T Report To Goldshire|QID|54|M|42.11,65.92|
+T Report To Goldshire|QID|54|R|Human|M|42.11,65.92|
 A The Fargodeep Mines|QID|62|M|42.11,65.92|
 r Sell Junk,restock,train and repair. | |QID|60|
 A Gold Dust Exchange|QID|47|M|42.14,67.25|
@@ -163,7 +250,7 @@ T Bounty On Murlocs|QID|46|M|73.97,72.18|
 T Report To Thomas|QID|71|M|73.97,72.18|
 A Cloth And Leather Armor|QID|59|M|73.97,72.18|
 C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps. | |QID|83|M|71.20,78.86|
-C Manhunt|N|Kill Morgan the collector and  pick up his ring. | |T|Morgan The Collector|QID|147|M|71.05,80.63|
+C Manhunt|N|Kill Morgan the collector and pick up his ring. | |T|Morgan The Collector|QID|147|M|71.05,80.63|
 T Cloth And Leather Armor|QID|59|M|79.46,68.71|
 T Fine Linen Goods|QID|83|M|79.46,68.71|
 T Manhunt|QID|147|M|81.86,66.04|
@@ -190,14 +277,15 @@ A Hero's Call: Westfall!|QID|26378|M|42.10,65.93|
 A Princess Must Die!|QID|88|M|34.66,84.48|
 C Princess Must Die!|N|Kill Princess and pickup the Brass Collar. | |QID|88|M|33.02,85.52|
 T Princess Must Die!|QID|88|M|34.66,84.48|
-
 A Wanted: Hogger|QID|176|M|24.54,74.67|
 T Westbrook Garrison Needs Help!|QID|239|M|24.23,74.45|
 A Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|
-C Wanted: Hogger|N|Kill Gnolls and pick up their armbands on the way. | |T|Hogger|QID|176|M|24.92,94.93|
+C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|S|
+C Wanted: Hogger|N|Get Hogger down in health quickly, help will arrive and take him.|M|25.1,94.6|QID|176|
 A Furlbrow's Deed|N|It's a folded paper next to a dead man. | |QID|184|M|24.78,95.26|
-C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands. | |QID|11|M|25.94,89.52|
+C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|US|
 T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|
+T Wanted: Hogger|QID|176|M|42.2,65.9|N|To Marshal Dughan.|
 ]]
 
 end)

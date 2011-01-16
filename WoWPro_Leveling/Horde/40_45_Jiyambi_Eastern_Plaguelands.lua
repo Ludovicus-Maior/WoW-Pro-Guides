@@ -181,11 +181,14 @@ C Ix'lar the Underlord|QID|27487|M|61.13,35.65|N|Kill the crypt lord and other s
 C The Corpulent One|QID|27477|M|57.39,28.49|N|Borelgore patrols along the ditch in this area.|
 C Righteous Indignation|QID|27479|S|M|65.22,13.76|N|Kill and loot trolls.|
 C Out of the Ziggurat|QID|27481|M|66.78,9.92|N|The warlord is at the top of the Zul'Mashar tower. Watch out for the mounds of dirt around the area, each hides a troll zombie!|
+T Out of the Ziggurat|QID|27481|M|60.67,43.33|N|The turn-in will pop up automatically.|
+A Into the Flames|QID|27482|RANK|3|PRE|27481|M|67.29,9.11|N|The new quest will pop up automatically.|
+C Into the Flames|QID|27482|U|61316|M|67.29,9.11|N|Throw the corpse into the flame.|
+T Into the Flames|QID|27482|M|67.29,9.11|N|The turn-in will pop up automatically.|
 C Righteous Indignation|QID|27479|US|M|65.22,13.76|N|Kill and loot trolls.|
 T Ix'lar the Underlord|QID|27487|M|61.46,42.66|N|To Fiona, back at Eastwall Tower. There's no hearth point there so you'll sadly have to ride back.|
 T Righteous Indignation|QID|27479|M|61.05,43.24|N|To Deacon Andaal.|
-T Out of the Ziggurat|QID|27481|M|60.67,43.33|N|To Vex'tul.|
-A Into the Flames|QID|27482|RANK|3|PRE|27481|M|60.67,43.33|N|From Vex'tul.|
+
 T The Corpulent One|QID|27477|M|61.51,43.18|N|To Gamella Cracklefizz.|
 A Impatience|QID|27488|M|61.51,43.18|N|From Tarenar Sunstrike.|
 C Impatience|QID|27488|NC|M|65.49,24.43|N|In Northdale.|
@@ -210,8 +213,6 @@ T Blind Fury|QID|27524|M|27.46,21.32|N|To Tarenar Sunstrike.|
 A Guardians of Stratholme|QID|27525|M|27.46,21.32|N|From Tarenar Sunstrike.|
 A Scourged Mass|QID|27528|M|27.63,21.02|N|From Crusader Kevin Frost.|
 A Defenders of Darrowshire|QID|27529|M|27.63,21.02|N|From Crusader Kevin Frost.|
-A The Battle Must Go On|QID|11537|M|27.63,21.02|N|From Crusader Kevin Frost.|
-A Moving Things Along|QID|26988|M|27.63,21.02|N|From Crusader Kevin Frost.|
 A Add 'em to the Pile|QID|27539|M|27.63,21.02|N|From Crusader Kevin Frost.|
 C Add 'em to the Pile|QID|27539|S|M|14.40,26.51|N|Kill and loot skeletons.|
 C Defenders of Darrowshire|QID|27529|S|M|14.28,29.90|N|Kill ghouls and speak with the spirits that appear.|

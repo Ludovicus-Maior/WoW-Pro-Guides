@@ -50,6 +50,7 @@ A A Family Divided|QID|24543|PRE|24529|M|44.49,33.59|N|From Tawane.|
 C Speaking Their Language|QID|24534|U|49782|M|43.03,41.74|
 T Speaking Their Language|QID|24534|M|44.12,33.71|N|To Makaba Flathoof.|
 C A Curious Bloom|QID|24542|NC|M|42.11,33.99|
+T A Curious Bloom|QID|24542|M|50.37,40.69|N|To Naralex.|
 A Biological Intervention|QID|24565|M|50.37,40.69|N|From Naralex.|
 A Adder Subtraction|QID|24570|M|50.36,40.51|N|From Muyoh.|
 A Lashvine Seeds|QID|24571|M|50.36,40.51|N|From Muyoh.|

@@ -1,7 +1,6 @@
-WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh - Dwarf", "Gylin", "01", "05", "GamDun0510", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh (Dwarf)", "Gylin", "01", "05", "GamDun0510", "Alliance", function()
 return
 [[
-
 A Hold the Line! |QID|24469| |M|36.90,70.11||Z|Dun Morogh| |N|From Joren Ironstock|
 C Hold the Line! |QID|24469| |M|36.54,71.73| |Z|Dun Morogh||QO|Rockjaw Invader slain: 6/6|
 T Hold the Line! |QID|24469| |M|36.84,70.14||Z|Dun Morogh| |N|To Joren Ironstock|
@@ -26,9 +25,9 @@ T Dwarven Artifacts |QID|24477| |M|35.70,66.27||Z|Dun Morogh| |N|To Grundel Hark
 A Make Hay While the Sun Shines |PRE|24477| |QID|24486|
 T First Things First: We're Gonna Need Some Beer |QID|24474| |M|35.74,66.31| |Z|Dun Morogh||N|To Jona Ironstock|
 A All the Other Stuff |PRE|24474| |QID|24475|
-C All the Other Stuff |S| |QID|24475| |N|Kill any Boars or Wolves you see and loot them for Boar Haunches and Ragged Wolf Hides| 
+C All the Other Stuff |S| |QID|24475| |N|Kill any Boars or Wolves you see and loot them for Boar Haunches and Ragged Wolf Hides|
 C Make Hay While the Sun Shines |QID|24486| |M|34.13,71.75| |N|Attack the Rockjaws, and they will throw the artifacts at you, or kill them and loot the artifacts| |QO|Priceless Rockjaw Artifact: 5/5|
-C All the Other Stuff |US||QID|24475| |N|Kill any Boars or Wolves you still need haunches or hides from| 
+C All the Other Stuff |US||QID|24475| |N|Kill any Boars or Wolves you still need haunches or hides from|
 
 L Level 3 |LVL|3| |QID|24475| |N|You should be around level 3 by this point|
 
@@ -97,7 +96,7 @@ C A Refugee's Quandary |NC| |QID|3361| |M|29.77,78.46||Z|Dun Morogh| |QO|Felix's
 C Trolling for Information |NC| |QID|24489| |M|29.66,78.63||Z|Dun Morogh| |N|Stand near the Soothsayer and wait for them to speak| |QO|Soothsayer Rikkari Scouted: 1/1|
 C A Refugee's Quandary |NC| |QID|3361| |M|33.31,77.83||Z|Dun Morogh| |QO|Felix's Bucket of Bolts: 1/1|
 C Trolling for Information |NC| |QID|24489| |M|33.35,77.75||Z|Dun Morogh| |N|Stand near the Soothsayer and wait for them to speak| |QO|Soothsayer Shi'kala Scouted: 1/1|
-C The Troll Menace |US||QID|182||M|33.31,77.83||Z|Dun Morogh|  |N|Kill any remaining Trolls you need| |QO|Frostmane Troll Whelp slain: 10/10|
+C The Troll Menace |US||QID|182||M|33.31,77.83||Z|Dun Morogh| |N|Kill any remaining Trolls you need| |QO|Frostmane Troll Whelp slain: 10/10|
 
 L Level 4 |LVL|4| |QID|24489| |N|You should be around level 4 by this point|
 

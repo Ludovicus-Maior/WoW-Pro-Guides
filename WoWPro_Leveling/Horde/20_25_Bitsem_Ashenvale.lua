@@ -108,7 +108,7 @@ A Bad News Bear-er|QID|13848|RANK|1|M|53.23,42.54|Z|
 K Gorgannon|QID|26449|QO|Gorgannon Killed:1/1|M|84.08,71.07;84.24,77.20;87.41,78.98;89.57,76.78|N|Follow the waypoints to Gorgannon in Demonfall Canyon. Kill him, pick up the loot.|
 C Never Again!|QID|26449|QO|Diathorus Killed:1/1|M|82.72,77.91;81.38,78.12;81.12,79.32;80.94,80.05;79.53,80.65;78.41,81.57;78.38,83.84|N|Follow the waypoints through the Canyon and up another path to Diathorus. Kill him, pick up the loot.|
 
-H Splintertree Post|QID|6503|N|If Hearthstone isn't ready, just check off this step and run back to Splintertree Post.|
+H Splintertree Post|QID|26449|N|If Hearthstone isn't ready, just run back to Splintertree Post.|
 
 T Never Again!|QID|26449|M|73.20,60.08|N|To Valusha.|
 A Demon Duty|QID|13806|RANK|1|M|73.76,61.59|N|From Locke Okarr.|
@@ -141,7 +141,7 @@ T Sheelah's Last Wish|QID|13873|M|89.59,48.71|N|To Guardian Gurtar.|
 A Gurtar's Request|QID|13875|PRE|13873|RANK|1|M|89.59,48.71|N|From Guardian Gurtar.|
 C Gurtar's Request|QID|13875|U|46316|M|88.29,48.84|N|Collect 8 Thorned Bloodcups sparking on the ground, then use the Orc-Hair Braid to make the Bloodcup Braid. These are tricky to see, but the red flowers are found all over the lumber camp (They do not show on the mini map for herb gatherers).|
 
-H Splintertree Post|QID|6503|N|If Hearthstone isn't ready, just check off this step and run back to Splintertree Post.|
+H Splintertree Post|QID|13875|N|If Hearthstone isn't ready, just run back to Splintertree Post.|
 
 T Gurtar's Request|QID|13875|M|73.34,62.08|N|To Splintertree Demolisher.|
 T Demon Duty|QID|13806|M|73.76,61.71|N|To Locke Okarr.|
@@ -169,7 +169,7 @@ f Silverwind Refuge|QID|13842|M|49.35,65.30|N|At Wind Tamer Shoshok.|
 
 T Sharptalon's Claw|QID|2|M|49.8,65.2|N|To Senani Thunderheart.|
 A Keep the Fires Burning|QID|13890|RANK|1|M|12.08,33.78|N|From Commander Grimfang.|
-A Blackfathom Deeps|QID|26894|RANK|1|M|12.08,33.78|N|From Commander Grimfang.|N|If you plan on doing the Blackfathom Deeps dungeon.|
+A Blackfathom Deeps|QID|26894|RANK|1|M|12.08,33.78|N|From Commander Grimfang. Pick up if you plan on running the Blackfathom Deeps instance.|
 A Lousy Pieces of Ship|QID|13883|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.|
 A The Essence of Aku'Mai|QID|26890|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.||N|If you plan on doing the Blackfathom Deeps dungeon.|
 
@@ -290,19 +290,24 @@ T Stalemate|QID|13962|M|60.70,52.71|N|To Thagg.|
 
 C King of the Foulweald|QID|6621|U|16972|M|56.37,63.49|N|Use Senani's Banner on to of the hill. Defend it against the mobs that appear. Activate Murgut's Totem Basket.|
 
-H Silverwind Refuge|QID|6621|N|Hearth to Silverwind Refuge
+H Silverwind Refuge|QID|6621|N|Hearth to Silverwind Refuge.|
 
 T Ursangous's Paw|QID|23|M|49.8,65.2|N|To Senani Thunderheart.|
-T Shadumbra's Head|QID|24|M|49.8,65.2|N|To Senani Thunderheart.|
 T King of the Foulweald|QID|6621|M|49.78,65.07|N|To Senani Thunderheart.|
 
 F Splintertree Post|QID|1918|N|Fly to Splintertree Post.|
 
 T The Befouled Element|QID|1918|M|74.15,60.77
-A Je'neu of the Earthen Ring|QID|824|PRE|1918|RANK|2|M|74.15,60.77|N||N|To Mastok Wrilehiss.|N|Currently you must enter the Blackfathom Deeps Instance to turn in this quest. Don't accept it if you don't wish to do so. From Mastok Wrilehiss.|
-C The Essence of Aku'Mai|QID|26890|RANK|2|M|44.44,35.02|Z|Blackfathom Deeps|N|This is completed outside of the instance itself. If you don't want to make the trip, just abandon it.|
+A Je'neu of the Earthen Ring|QID|824|PRE|1918|RANK|2|M|74.15,60.77|N|From Mastok Wrilehiss. This quest is currently turned in inside of the Blackfathom Deeps instance.|
 
-F Zoram'gar|QID|26890|N|Fly to Zoram'gar if you are doing The Essence of Aku'Mai quest.|
+F Hellscream's Watch|QID|24|N|Fly to Hellscream's Watch
+T Shadumbra's Head|QID|24|M|38.10,43.80|N|To Captain Goggath.|
+
+F Zoram'gar Outpost|QID|26809|N|Fly to Zoram'gar Outpost if you are doing the quests The Essence of Aku'Mai, Blackfathom Deeps, or Je'neu of the Earthen Ring.|
+
+C The Essence of Aku'Mai|QID|26890|RANK|2|M|44.44,35.02|Z|Blackfathom Deeps|N|This is completed outside of the instance itself. If you don't want to make the trip, just abandon it.|
+T Blackfathom Deeps|QID|26894|RANK|1|M|10.00,14.00|N|To Je'nue Sancrea. He is inside of the Blackfathom Deeps instance.|
+T Je'neu of the Earthen Ring|QID|824|PRE|1918|RANK|2|M|10.00,14.00|N|To Je'neu Sancrea. He is inside of the Blackfathom Deeps instance.|
 
 T The Essence of Aku'Mai|QID|26890|M|11.54,35.29|N|To Dagrun Ragehammer.|
 

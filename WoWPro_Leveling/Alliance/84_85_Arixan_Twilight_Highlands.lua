@@ -663,10 +663,4 @@ T Never Leave a Dinner Behind|QID|27753|M|49.79,29.23|N|To Fanny Thundermar.|
 
 ]]
 
-
-
-end)
-
-]]
-
 end)

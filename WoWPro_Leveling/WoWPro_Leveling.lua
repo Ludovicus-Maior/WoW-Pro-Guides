@@ -32,12 +32,6 @@ function WoWPro.Leveling:OnEnable()
 		WoWPro.Leveling.FramesLoaded = true
 	end
 	
-	-- Creating empty user settings if none exist --
-	WoWPro_LevelingDB = WoWPro_LevelingDB or {}
-	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
-	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
-	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
-	
 	-- Loading Initial Guide --
 	local locClass, engClass = UnitClass("player")
 	local locRace, engRace = UnitRace("player")

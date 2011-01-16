@@ -52,10 +52,8 @@ function WoWPro:CreateGuideList()
 
 	local function OnShow(self)
 		local GID = WoWProDB.char.currentguide
-		if GID and WoWPro.Guides[GID] and WoWPro.Guides[GID].guidetype then
-			WoWPro.ActivateTab(WoWPro.GuideList.TabTable[WoWPro.Guides[GID].guidetype])
-		else
-			WoWPro.ActivateTab(WoWPro.GuideList.TabTable[WoWPro.GuideList.TabHashTable[1]])
+		if GID and WoWPro.Guides[GID] then
+			WoWPro.ActivateTab(WoWPro.Guides[GID].guidetype)
 		end 
 	end
 	WoWPro.GuideList:SetScript("OnShow", OnShow)

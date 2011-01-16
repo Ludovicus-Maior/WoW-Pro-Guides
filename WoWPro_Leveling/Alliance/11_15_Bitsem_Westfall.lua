@@ -3,6 +3,7 @@ return [[
 
 A Hero's Call: Westfall!|QID|26378|RANK|1|M|24.29,74.45|Z|Elwynn Forest|N|From Deputy Rainer.|
 T Hero's Call: Westfall!|QID|26378|M|60.05,19.40|N|To Lieutenant Horatio Laine.|
+T Furlbrow's Deed|N|To Lieutenant Horatio Laine.|QID|184|M|60.05,19.40|
 
 A Murder Was The Case That They Gave Me|QID|26209|PRE|26378|RANK|1|M|60.05,19.40|N|From Lieutenant Horatio Laine.|
 C Murder Was The Case That They Gave Me|QID|26209|M|58.26,18.50|N|Question homeless people in the field. Some will fight you, some give information.|
@@ -12,10 +13,11 @@ A Hot On the Trail: The Riverpaw Clan|QID|26213|RANK|1|M|60.10,19.32|N|From Lieu
 A Hot On the Trail: Murlocs|QID|26214|RANK|1|M|60.10,19.32|N|From Lieutenant Horatio Laine.|
 
 C Hot On the Trail: Murlocs|QID|26214|S|M|55.98,11.02|N|Kill Murlocs and Gnolls until you have their clues.|
-A Captain Sanders' Hidden Treasure|QID|26353|RANK|1|M|55.98,11.02|N|This quest is from loot dropped by murlocs.|
+A Captain Sanders' Hidden Treasure|QID|26353|RANK|1|M|55.98,11.02|N|This quest is from loot dropped by murlocs.|U|1357|
 C Hot On the Trail: The Riverpaw Clan|QID|26213|M|58.28,11.45|N|Kill Gnolls until you have their clue.|
 C Hot On the Trail: Murlocs|QID|26214|US|M|55.98,11.02|N|Continue killing Murlocs until you have their clues.|
-
+T Hot On the Trail: The Riverpaw Clan|QID|26213|RANK|1|M|60.10,19.32|N|To Lieutenant Horatio Laine.|
+T Hot On the Trail: Murlocs|QID|26214|RANK|1|M|60.10,19.32|N|To Lieutenant Horatio Laine.|
 A Meet Two-Shoed Lou|QID|26215|PRE|26214|RANK|1|M|60.13,19.37|N|From Lieutenant Horatio Laine.|
 
 f Furlbrow's Pumpkin Farm|QID|11911|M|49.85,18.75|N|At Hoboair.|
@@ -74,13 +76,13 @@ T Captain Sanders' Hidden Treasure|QID|26356|M|25.95,16.96|
 
 f Sentinel Hill|QID|26266|NC|M|56.96,47.10|N|Get the flight path.|
 
-A Hero's Call: Redridge Mountains!|QID|26365|RANK|1|M|56.39,47.52|Z|Sentinel Tower|N|If you'll be continuing on to Redridge. From Captain Danuvin.|
-A The Legend of Captain Grayson|QID|26371|RANK|1|M|56.44,47.45|Z|Sentinel Tower|N|From Scout Galiaan.|
-T Hope for the People|QID|26266|M|56.88,47.13|Z|Sentinel Tower|N|To Hope Saldean.|
+A Hero's Call: Redridge Mountains!|QID|26365|RANK|1|M|56.39,47.52|N|If you'll be continuing on to Redridge. From Captain Danuvin.|
+A The Legend of Captain Grayson|QID|26371|RANK|1|M|56.44,47.45|N|From Scout Galiaan.|
+T Hope for the People|QID|26266|M|56.88,47.13|N|To Hope Saldean.|
 
-A Feeding the Hungry and the Hopeless|QID|26271|RANK|1|M|56.88,47.13|Z|Sentinel Tower|N|From Hope Saldean.|
-A In Defense of Westfall|QID|26286|RANK|1|M|56.35,47.55|Z|Sentinel Tower|N|From Marshal Gryan Stoutmantle.|
-A The Westfall Brigade|QID|26287|RANK|1|M|56.40,47.52|Z|Sentinel Tower|N|From Captain Danuvin.|
+A Feeding the Hungry and the Hopeless|QID|26271|RANK|1|M|56.88,47.13|N|From Hope Saldean.|
+A In Defense of Westfall|QID|26286|RANK|1|M|56.35,47.55|N|From Marshal Gryan Stoutmantle.|
+A The Westfall Brigade|QID|26287|RANK|1|M|56.40,47.52|N|From Captain Danuvin.|
 
 C The Westfall Brigade|QID|26287|S|M|51.30,53.34|N|Kill Riverpaw Gnolls.|
 C In Defense of Westfall|QID|26286|M|53.42,49.31|N|Loot the Gnoll Attack Orders.|
@@ -89,13 +91,13 @@ C The Westfall Brigade|QID|26287|US|M|51.30,53.34|N|Kill remaining Gnolls.|
 h Sentinel Hill|QID|26287|M|52.78,53.65|N|At Innkeeper Heather.|
 
 C Feeding the Hungry and the Hopeless|QID|26271|NC|U|57991|M|51.77,47.58|N|Run around outside the wall and use the Westfall Stew near the Homeless. They will come to you.|
-T In Defense of Westfall|QID|26286|M|56.30,47.59|Z|Sentinel Tower|N|To Marshal Gryan Stoutmantle.|
-T The Westfall Brigade|QID|26287|M|56.36,47.54|Z|Sentinel Tower|N|To Captain Danuvin.|
+T In Defense of Westfall|QID|26286|M|56.30,47.59|N|To Marshal Gryan Stoutmantle.|
+T The Westfall Brigade|QID|26287|M|56.36,47.54|N|To Captain Danuvin.|
 
-A Jango Spothide|QID|26288|PRE|26287|RANK|1|M|56.36,47.54|Z|Sentinel Tower|N|From Captain Danuvin.|
+A Jango Spothide|QID|26288|PRE|26287|RANK|1|M|56.36,47.54|N|From Captain Danuvin.|
 
-T Feeding the Hungry and the Hopeless|QID|26271|M|56.90,47.03|Z|Sentinel Tower|N|To Hope Saldean.|
-A Find Agent Kearnen|QID|26289|RANK|1|M|56.44,47.46|Z|Sentinel Tower|N|From Marshal Gryan Stoutmantle.|
+T Feeding the Hungry and the Hopeless|QID|26271|M|56.90,47.03|N|To Hope Saldean.|
+A Find Agent Kearnen|QID|26289|RANK|1|M|56.44,47.46|N|From Marshal Gryan Stoutmantle.|
 
 f Moonbrook|M|42.13,63.39|N|At Tina Skyden.|
 
@@ -118,17 +120,17 @@ C Secrets of the Tower|QID|26290|NC|PRE|58112|U|58112|M|70.42,74.22|
 T Secrets of the Tower|QID|26290|M|68.39,70.45|N|To Agent Kearnen.|
 A Big Trouble in Moonbrook|QID|26291|PRE|26290|RANK|1|M|68.39,70.45|N|From Agent Kearnen.|
 
-H Sentinel Hill|QID|26288|NC|QO|Riverpaw Mystic slain: 5/5;Riverpaw Taskmaster slain: 5/5;Jango Spothide slain: 1/1|M|56.45,47.57|N|Hearth to Sentinel Hll.|
+H Sentinel Hill|QID|26288|NC|QO|M|56.45,47.57|N|Hearth to Sentinel Hll.|
 
-T Big Trouble in Moonbrook|QID|26291|M|56.41,47.41|Z|Sentinel Tower|N|To Marshal Gryan Stoutmantle.|
-A To Moonbrook!|QID|26292|PRE|26291|RANK|1|M|56.41,47.41|Z|Sentinel Tower|N|From Marshal Gryan Stoutmantle.|
-T Jango Spothide|QID|26288|M|56.49,47.50|Z|Sentinel Tower|N|To Captain Danuvin.|
+T Big Trouble in Moonbrook|QID|26291|M|56.41,47.41|N|To Marshal Gryan Stoutmantle.|
+A To Moonbrook!|QID|26292|PRE|26291|RANK|1|M|56.41,47.41|N|From Marshal Gryan Stoutmantle.|
+T Jango Spothide|QID|26288|M|56.49,47.50|N|To Captain Danuvin.|
 
 F Moonbrook|QID|26292|NC|M|42.13,64.11|N|Fly to Moonbrook.|
 
 T To Moonbrook!|QID|26292|M|42.11,63.99|N|To Captain Alpert.|
 A Propaganda|QID|26295|PRE|26292|RANK|1|M|42.11,63.99|N|From Captain Alpert.|
-A Evidence Collection|QID|26296|RANK|1|M|43.69,67.90|N|Looted from a Moonbrook Thug.|
+A Evidence Collection|QID|26296|RANK|1|M|43.69,67.90|N|Looted from a Moonbrook Thug.|U|58117|
 C Evidence Collection|QID|26296|S|M|45.53,70.95|N|Kill thugs and loot their bandanas while finding propoganda.|
 C Propaganda|QID|26295|M|41.56,66.42;42.27,69.68;42.57,69.67;43.48,66.72|N|Collect information.|
 C Evidence Collection|QID|26296|US|M|45.53,70.95|N|Finish killing Thugs.|
@@ -142,19 +144,20 @@ T The Dawning of a New Day|QID|26297|M|42.18,64.19|N|To Captain Alpert.|
 A Secrets Revealed|QID|26319|PRE|26297|RANK|1|M|42.18,64.19|N|From Captain Alpert.|
 T Secrets Revealed|QID|26319|M|42.86,65.08|N|To Thoralius the Wise.|
 A A Vision of the Past|QID|26320|PRE|26319|RANK|1|M|42.86,65.08|N|From Thoralius the Wise.|
-C A Vision of the Past|QID|26320|NC|U|58147|M|0.00,0.00|Z|The Deadmines|N|You must enter the Deadmines Instance to complete this quest.|
+R Defias Hideout|QID|26320|M|40.86,81.98|N|Run inside the building.|
+C A Vision of the Past|QID|26320|NC|U|58147|M||N|Follow the orhpans and homeless to The Deadmines instance. Once you enter the Deadmines Instance, use the incense. Then get ready to feel like a bad person if you've done the original Deadmines.|
 
 A The Foreman|QID|27756|RANK|1|M|29.78,28.11|Z|The Deadmines|N|If you wish to do the Deadmines Instance. If not, just leave and check off this step. From Lieutenant Horatio Laine.|
 C Keeper of the Flame|QID|26347|M|37.79,40.04|
 
 H Sentinel Hill|QID|26347|NC|M|30.50,85.63|N|Hearth to Sentinel Hill.|
 
-T A Vision of the Past|QID|26320|M|56.27,47.45|Z|Sentinel Tower|N|To Marshal Gryan Stoutmantle.|
-A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|Z|Sentinel Tower|
-C Rise of the Brotherhood|QID|26322|NC|M|56.36,47.55|Z|Sentinel Tower|
+T A Vision of the Past|QID|26320|M|56.27,47.45|N|To Marshal Gryan Stoutmantle.|
+A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|
+C Rise of the Brotherhood|QID|26322|NC|M|56.36,47.55|
 T Keeper of the Flame|QID|26347|M|30.55,85.49|N|To Captain Grayson.|
 
-F Stormwind|NC|N|Hearth to Sentinel Hill, or run to Moonbrook and fly from there.|
+F Stormwind City|NC|N|Hearth to Sentinel Hill, or run to Moonbrook and fly from there.|
 
 T Rise of the Brotherhood|QID|26322|M|85.62,31.92|Z|Stormwind City|N|To King Varian Wrynn.|
 A Return to Sentinel Hill|QID|26370|PRE|26322|RANK|1|M|85.62,31.92|Z|Stormwind City|N|From King Varian Wrynn.|

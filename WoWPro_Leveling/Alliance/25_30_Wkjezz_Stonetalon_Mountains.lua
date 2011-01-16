@@ -8,7 +8,7 @@ A The Only Way Down is in a Body Bag|QID|25614|O|M|71.80,45.67|N|From Kalen True
 
 T Do Yourself a Favor|QID|25613|O|M|71.80,45.67|N|To Kalen Trueshot.|
 
-C The Only Way Down is in a Body Bag|QID|25614|M|71.84,45.83|N|Shoot the windriders witht he cannon, and then the parachutes.|
+C The Only Way Down is in a Body Bag|QID|25614|M|71.84,45.83|N|Shoot the windriders with the cannon, and then the parachutes.|
 
 T The Only Way Down is in a Body Bag|QID|25614|M|71.84,45.77|N|To Kalen Trueshot.|
 
@@ -26,7 +26,7 @@ T Field Test: Gnomecorder|QID|25621|M|73.12,46.96|
 
 A Burn, Baby, Burn!|QID|25622|M|73.12,46.96|N|This quest will begin from an alert on your playing window (UI) From Krom'gar Incinerator.|
 
-C Burn, Baby, Burn!|QID|25622|S|U|55152|QO|Warsong Stockpile Incinerated: 0/8|M|73.27,51.31|N|Loot the flame thrower from an Incinerator Mob. Then target Warsong Stockpiles and use your flame thrower near them.|
+C Burn, Baby, Burn!|QID|25622|S|U|55152|QO|Warsong Stockpile Incinerated: 8/8|M|73.27,51.31|N|Loot the flame thrower from an Incinerator Mob. Then target Warsong Stockpiles and use your flame thrower near them.|
 
 C Hellscream's Legacy|QID|25616|S|M|73.83,47.62|N|Kill the oil can on the elite mobs backs.|
 
@@ -52,7 +52,7 @@ C Don't Look Them in the Eyes|QID|25642|S|M|71.54,62.60|
 
 C Windshear Mine Cleanup|QID|25646|US|M|71.23,62.79|
 
-C Don't Look Them in the Eyes|QID|25642|US|M|71.24,61.79|N|This ore is from Killing Peons carrying ore.  When you attack they will lob ore at you. Be warned, this ore will knock you back so keep your back against a wall.|
+C Don't Look Them in the Eyes|QID|25642|US|M|71.24,61.79|N|This ore is from Killing Peons carrying ore. When you attack they will lob ore at you. Be warned, this ore will knock you back so keep your back against a wall.|
 
 A Illegible Orc Letter|QID|25647|U|55181|M|72.74,61.73|N|Make sure you loot Goblins for this Item.|
 
@@ -104,7 +104,7 @@ T Gerenzo the Traitor|QID|25729|M|63.10,45.84|
 
 l Just Ask Alice|QID|25673|L|55227 |M|63.05,45.67|N|Just behind Gerenzo. Once you have done this, mount up and take a flying leap into the water.|
 
-C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|N|This quest is soloable by pet/kite/healing classes.  It may be tough for a non heal class to solo at level. If you need it, ask for help, or if you have to, abandon it.|
+C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|N|This quest is soloable by pet/kite/healing classes. It may be tough for a non heal class to solo at level. If you need it, ask for help, or if you have to, abandon it.|
 
 C Free Our Sisters|QID|25662|US|M|64.91,52.13|
 
@@ -154,7 +154,7 @@ T Fallowmere Beckons|QID|25769|M|59.55,56.90|N|To Lord Fallowmere.|
 
 A Bombs Away: Mirkfallon Post!|QID|25768|M|59.55,56.90|N|From Lord Fallowmere.|
 
-C Preparations for the Future|QID|25741|S|QO|Deepmoss Venom Sac: 0/10|M|58.32,70.83|
+C Preparations for the Future|QID|25741|S|QO|Deepmoss Venom Sac: 10/10|M|58.32,70.83|
 
 C If the Horde Don't Get You...|QID|25739|M|58.40,70.89|
 
@@ -186,11 +186,11 @@ C They Put the Assass in... Never Mind|QID|25806|S|U|56014|N|Use your goggles to
 
 C Leave No Man Behind!|QID|25809|S|M|70.66,72.54|
 
-U Shuttin Her Down|QID|25811|PRE|56018|U|56018|QO|Plant Explosives at First Beam 0/1|M|70.64,76.04|N|First Beam is here.|
+U Shuttin Her Down|QID|25811|PRE|56018|U|56018|QO|Plant Explosives at First Beam 1/1|M|70.64,76.04|N|First Beam is here.|
 
-U Shuttin Her Down|QID|25811|PRE|56018|U|56018|QO|Plant Explosives at Second Beam 0/1|M|69.67,75.24|N|Second Beam is here.|
+U Shuttin Her Down|QID|25811|PRE|56018|U|56018|QO|Plant Explosives at Second Beam 1/1|M|69.67,75.24|N|Second Beam is here.|
 
-U Shuttin Her Down|QID|25811|PRE|56018|U|56018|QO|Plant Explosives at Third Beam 0/1|M|68.72,71.30|N|Third  Beam is here (on the groud, level, not the track)|
+U Shuttin Her Down|QID|25811|PRE|56018|U|56018|QO|Plant Explosives at Third Beam 1/1|M|68.72,71.30|N|Third Beam is here (on the groud, level, not the track)|
 
 C Shuttin Her Down|QID|25811|U|56018|M|68.47,72.56|
 
@@ -316,7 +316,7 @@ T Warn Master Thal'darah|QID|25880|M|39.96,33.53|N|To Master Thal'darah.|
 
 A Save the Children!|QID|25889|M|39.95,33.50|N|From Master Thal'darah.|
 
-C Save the Children!|QID|25889|U|56168|M|40.09,32.03|N|Use your whistle to begin.  If you have done the quest in Dragonblight on a main you will know what to do. Fly south, land near a feared druid. Press 1. Fly back to the Overlook to the flight point, press 2. Repeat 5 times.|
+C Save the Children!|QID|25889|U|56168|M|40.09,32.03|N|Use your whistle to begin. If you have done the quest in Dragonblight on a main you will know what to do. Fly south, land near a feared druid. Press 1. Fly back to the Overlook to the flight point, press 2. Repeat 5 times.|
 
 T Save the Children!|QID|25889|M|39.95,33.57|N|To Master Thal'darah.|
 
@@ -368,7 +368,7 @@ h Farwatcher's Glen|QID|25935|M|31.50,60.62|N|At Innkeeper Bernice.|
 
 R Carefull shimmy down the mountain.|QID|999999|CS|M|31.01,62.13;30.23,63.15;30.06,64.98|
 
-C World First: Gnomegen|QID|25934|S|M|27.39,70.10|N|Kill every Fire elemental you see.  You may need to kill quite a number of them to get the Heart to drop.|
+C World First: Gnomegen|QID|25934|S|M|27.39,70.10|N|Kill every Fire elemental you see. You may need to kill quite a number of them to get the Heart to drop.|
 
 C Hungry Pups|QID|25935|S|M|30.65,72.39|
 
@@ -394,7 +394,7 @@ T Brood of Seldarria|QID|25931|M|33.05,59.62|N|To Hierophant Malyk.|
 
 T Hungry Pups|QID|25935|M|32.47,61.22|N|To Houndmaster Jonathan.|
 
-N The End|QID|99999|N|This is the end of Stonetalon Mountains. If you did all of the Lead-in quests from Ashenvale, you should be 58/60 for the zone Achievement. The Lead-in quests for Southern Barrens and Desolace (All's Clear and Help for Desolace) count as Ashenvale Quests if you are seeking 60/60.  This guide leads into Desolace which I recommend over Southern Barrens. Skip this step to load the next guide. If you wish to go to Southern Barrens, please load the guide manually.|
+N The End|QID|99999|N|This is the end of Stonetalon Mountains. If you did all of the Lead-in quests from Ashenvale, you should be 58/60 for the zone Achievement. The Lead-in quests for Southern Barrens and Desolace (All's Clear and Help for Desolace) count as Ashenvale Quests if you are seeking 60/60. This guide leads into Desolace which I recommend over Southern Barrens. Skip this step to load the next guide. If you wish to go to Southern Barrens, please load the guide manually.|
 
 ]]
 

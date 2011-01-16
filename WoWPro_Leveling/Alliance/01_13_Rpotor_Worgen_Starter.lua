@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas - Worgen", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
 return [[
 
 A Lockdown! |QID|14078|Z|Ruins of Gilneas City|M|59.2,23.9|N|From Prince Liam Greymane right in front of you.|

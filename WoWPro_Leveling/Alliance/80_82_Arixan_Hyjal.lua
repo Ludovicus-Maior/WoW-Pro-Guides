@@ -247,11 +247,12 @@ C Children of Tortolla|QID|25519|M|22.66,56.87|N|Jump into the lake and swim dow
 C Breaking the Bonds|QID|25514|M|24.00,55.88|N|Go back to Tortolla. Use the giant rod to your left to break the chain holding Tortola and summon a Twilight Dominator. Kill him, then repeat on the other rod to the right.|
 T Breaking the Bonds|QID|25514|M|24.45,55.85|N|To Tortolla.|
 T Children of Tortolla|QID|25519|M|24.49,55.81|N|To Tortolla.|
+A An Ancient Awakens|QID|25520|PRE|25514;25519|M|24.49,55.81|N|From Tortolla.|
 T Return to the Shrine|QID|25795|M|44.41,46.24|N|Fly back to the Shrine of Aviana. Find Choluna in the back.|
 A An Ancient Reborn|QID|25807|PRE|25795|M|44.41,46.24|N|From Choluna.|
 C An Ancient Reborn|QID|25807|U|56016|M|44.34,47.89|N|Go up the ramp to your right, into a small room where you will find Aviana's Egg. Use the Herald's Incense near the egg to resurrect Aviana.|
 T An Ancient Reborn|QID|25807|M|44.34,47.89|N|To Aviana.|
-A An Ancient Awakens|QID|25520|PRE|25514;25519|M|24.49,55.81|N|From Tortolla.|
+
 A The Hatchery Must Burn|QID|25810|PRE|25807|RANK|2|M|44.09,46.01|N|From Morthis Whisperwing.|
 T An Ancient Awakens|QID|25520|M|27.10,62.57|N|To Arch Druid Hamuul Runetotem.|
 A The Last Living Lorekeeper|QID|25830|M|27.03,62.61|N|From Vision of Ysera.|
@@ -322,9 +323,10 @@ T Your New Identity|QID|25276|M|76.89,62.09|N|To Condenna the Pitiless.|
 A In Bloom|QID|25224|PRE|25276|M|76.89,62.09|N|From Condenna the Pitiless.|
 A Trial By Fire|QID|25223|PRE|25276|M|76.97,62.20|N|From Condenna the Pitiless.|
 A Waste of Flesh|QID|25330|PRE|25276|M|76.99,62.16|N|From Instructor Cargall.|
+C Waste of Flesh|QID|25330|S|U|52819|M|78.95,63.18|N|Kill Fiery Instructors, collect Flame Blossoms and use the Frostgale Crystal on them to put out flaming Supplicants.|
 C Trial By Fire|QID|25223|M|81.81,64.04|
 C In Bloom|QID|25224|M|81.02,63.88;78.75,62.28|L|52537 5|N|Collect Flame Blossoms.|
-C Waste of Flesh|QID|25330|U|52819|M|78.95,63.18|N|Find an Immolated Supplicant that are running around covered in fire. Use the Frostgale Crystal on them to put out the flames.|
+C Waste of Flesh|QID|25330|US|U|52819|M|78.95,63.18|N|Find an Immolated Supplicant that are running around covered in fire. Use the Frostgale Crystal on them to put out the flames.|
 T Waste of Flesh|QID|25330|M|77.09,62.23|N|To Instructor Cargall.|
 T Trial By Fire|QID|25223|M|76.95,62.15|N|To Condenna the Pitiless.|
 T In Bloom|QID|25224|M|76.95,62.15|N|To Condenna the Pitiless.|
@@ -334,8 +336,8 @@ A Physical Training: Forced Labor|QID|25509|PRE|25291|M|89.54,59.05|N|From Instr
 A Walking the Dog|QID|25294|PRE|25291|M|90.08,56.48|N|From Instructor Devoran.|
 A Gather the Intelligence|QID|25296|PRE|25291|M|88.36,58.57|N|From Instructor Mylva.|
 N Gather the Intelligence|QID|25296|M|91.95,51.60|N|Search the camp until you find the Twilight Communique. It can be just about anywhere in the camp so just keep looking around until you find it. Try to grab it when none of the Twilight Guards are close by. If they see you take the communique they will attack.|
+C Physical Training: Forced Labor|QID|25509|S|U|54788|M|89.55,49.35|N|Kill Basilisks and use the Twilight Pick on Darkwhisper Lodestones on your way to the other camp.|
 C Gather the Intelligence|QID|25296|M|91.95,51.60|N|Leave the camp. Head northeast, toward the other camp, Doom's Vigil. Find the Hyjal Battleplans somewhere in the Doom's Vigil camp.|
-C Physical Training: Forced Labor|QID|25509|S|U|54788|M|89.55,49.35|N|use the Twilight Pick on Darkwhisper Lodestones.|
 K Spinescale Basilisk|QID|25294|L|52708 5|M|89.55,49.35|N|Kill Spinescale Basilisk and loot 5 Charred Basilisk Meat.|
 C Physical Training: Forced Labor|QID|25509|US|U|54788|M|89.55,49.35|N|use the Twilight Pick on Darkwhisper Lodestones.|
 N Walking the Dog|QID|25294|U|52717|M|92.43,50.73|N|Once back in the camp, use the Fiery Leash to summon the Spawn of Smolderos.|
@@ -346,7 +348,6 @@ T Gather the Intelligence|QID|25296|M|88.32,58.52|N|To Instructor Devoran.|
 A Seeds of Discord|QID|25308|PRE|25296|M|88.32,58.52|N|From Instructor Devoran.|
 T Physical Training: Forced Labor|QID|25509|M|89.58,59.06|N|To Instructor Mylva.|
 A Agility Training: Run Like Hell!|QID|25499|PRE|25509|M|89.53,58.98|N|From Instructor Mylva.|
-T Walking the Dog|QID|25294|M|90.14,56.50|N|To Instructor Devoran.|
 C Agility Training: Run Like Hell!|QID|25499|M|88.64,57.99|
 L Level 82|QID|25499|LVL|82|N|You should be around level 82 by this point.|
 T Agility Training: Run Like Hell!|QID|25499|M|89.53,59.09|N|To Instructor Mylva.|

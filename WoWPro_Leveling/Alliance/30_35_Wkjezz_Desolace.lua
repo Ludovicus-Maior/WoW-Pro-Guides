@@ -2,15 +2,21 @@ WoWPro.Leveling:RegisterGuide('WkjDes3035', 'Desolace', 'Wkjezz', '30', '35', 'W
 
 return [[
 
-N This Guide:|QID|99999|N|Starts at Farwatcher's Glen, In Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide. (Click the checkbox to continue)|
+R Farwatcher's Glen|QID|25938|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
 
-R Carefully shimmy down the mountain (again)|QID|99999|M|31.01,62.13;30.23,63.15;30.06,64.98|Z|Stonetalon Mountains|
+A Help for Desolace|QID|25938|M|54.18,9.41|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
+
+R Down the mountain|QID|25938|M|30.95,62.20;30.23,63.15;30.06,64.98|N|Follow the waypoints to help you safely down the mountains.|CS|Z|Stonetalon Mountains|
 
 T Help for Desolace|QID|25938|M|54.18,9.41|N|To Officer Jankie.|
 
+R Tethris Aran |QID|14384|N|Head to Tethris Aran on the border between Stonetalon Mountains and Desolace, and find Officer Jankie.|
+
 A Rerouted!|QID|14384|M|54.18,9.41|N|From Officer Jankie.|
 
-R Run here.|QID|99999|CC|M|67.50,16.79|
+R Nijel's Point|QID|14384|M|54.18,9.41|N|Mount Jankie's Mount for a ride to Nijel's Point.|
+f Nijel's Point|QID|14384|M|64.72,10.39|
+h Nijel's Point|QID|14384|M|66.26,6.64|N|At Innkeeper Lyshaerya. Don't forget to stock up! The food and drink vendor is next to the innkeeper.|
 
 T Rerouted!|QID|14384|M|66.75,10.90|N|To Corporal Melkins.|
 
@@ -20,55 +26,47 @@ T Lay of the Land|QID|14387|M|66.48,11.76|N|To Vahlarriel Demonslayer.|
 
 A Elune's Gifts|QID|14354|M|66.48,11.76|N|From Vahlarriel Demonslayer.|
 
-h Nijel's Point|QID|14354|M|66.26,6.64|N|At Innkeeper Lyshaerya. Don't forget to stock up! The food and drink vendor is next to the innkeeper.|
+C Elune's Gifts|QID|14354|M|77.00,18.25|N|Visit the Cup of Elune.|QO|Cup of Elune Visited: 1/1|
+A Nothing a Couple of Melons Won't Fix|QID|14193|M|77.00,18.25|N|Started by the Cup of Elune.|
 
-f Nijel's Point|QID|99999|M|64.72,10.39|
+C Elune's Gifts|QID|14354|M|78.77,22.98|N|Visit Elune's Brazier|QO|Elune's Brazier Visited: 1/1|
+A Ten Pounds of Flesh|QID|14358|M|78.77,22.98|N|Started by Elune's Brazier.|
 
-A Nothing a Couple of Melons Won't Fix|QID|14193|M|77.00,18.25|
-
-C Nothing a Couple of Melons Won't Fix|QID|14193|S|L|48106 8|M|77.06,18.18|N|Gather 8 Melons as you go.|
-
-A Ten Pounds of Flesh|QID|14358|M|78.77,22.98|
-
-C Ten Pounds of Flesh|QID|14358|S|L|48857 10|N|Kill and loot Satyrs for their flesh|
-
-C Elune's Gifts|QID|14354|M|76.41,26.01|
-
-A To the Hilt!|QID|14357|M|75.97,26.57|
+C Elune's Gifts|QID|14354|M|75.97,26.57|N|Visit Handmaiden Of Elune|QO|Handmaiden Of Elune Visited: 1/1|
+A To the Hilt!|QID|14357|M|75.97,26.57|N|Started by Elune's Handmaiden.|
 
 C To the Hilt!|QID|14357|S|L|48943 20|N|From weapons racks and Satyr kills.|
+C Ten Pounds of Flesh|QID|14358|S|L|48857 10|N|Kill and loot Satyrs for their flesh|
+C Nothing a Couple of Melons Won't Fix|QID|14193|L|48106 8|M|77.06,18.18|N|Gather 8 Melons from the floor.|
 
-C Nothing a Couple of Melons Won't Fix|QID|14193|US|U|48106|M|77.03,18.05|
+C Nothing a Couple of Melons Won't Fix|QID|14193|M|77.06,18.18|N|Head back to the Cup of Elune, and offer the 8 Melonfruit there.|U|48106|QO|Cleansing Ritual Completed: 1/1|
+T Nothing a Couple of Melons Won't Fix|QID|14193|M|77.06,18.18|N|Heads-up Turn-in|
 
-T Nothing a Couple of Melons Won't Fix|QID|14193|M|77.03,18.05|N|UI Quest Alert|
-
-C Ten Pounds of Flesh|QID|14358|US|U|48857|M|78.81,23.13|
-
-T Ten Pounds of Flesh|QID|14358|M|78.81,23.13|N|This quest is repeatable for the buff only, Does not count for Loremaster's Achievement.|
-
-C To the Hilt!|QID|14357|US|NC|U|48943|M|75.92,26.54|
-
-T To the Hilt!|QID|14357|M|75.92,26.54|
+C Ten Pounds of Flesh|QID|14358|N|Head back to Elune's Brazier and offer the 10 pieces of Satyr Flesh there.|U|48857|QO|Sacrifical Offering Accepted: 1/1|
+T Ten Pounds of Flesh|QID|14358|N|At Elune's Brazier. Don't bother with the follow-up, it is for buff only and does not count for any other quest achievements.|
+C To the Hilt!|QID|14357|M|75.97,26.57|N|Head back to Elune's Handmaiden and offer the 20 Satyr Saber there.|U|48943|QO|Elune's Ritual of War Completed|
+T To the Hilt!|QID|14357|M|75.97,26.57|N|Heads-up Turn-in|
 
 T Elune's Gifts|QID|14354|M|66.44,11.71|N|To Vahlarriel Demonslayer.|
 
 A Peace of Mind|QID|14361|M|66.73,10.97|N|From Captain Pentigast.|
 
 A Ethel Rethor|QID|14365|M|66.73,10.92|N|From Corporal Melkins.|
+A The Karnitol Shipwreck |QID|1454|M|66.20,9.65|N|From Kreldig Ungor.|
 
-r Repair and Sell Junk|QID|99999|M|67.95,08.37|N|Maxton Strang|
+r Repair and Sell Junk|QID|14361|M|67.95,08.37|N|Maxton Strang|
 
-A New Beginnings|QID|14251|M|60.90,28.99|N|From Bizby.|
+A New Beginnings|QID|14251|M|60.90,28.99|N|From Bizby.|RANK|2|
 
-A Good Gold For Bad Tail|QID|14252|M|60.90,28.99|N|From Bizby.|
+A Good Gold For Bad Tail|QID|14252|M|60.90,28.99|N|From Bizby.|RANK|2|
 
-A Fletch Me Some Plumage!|QID|14253|M|60.90,28.99|N|From Bizby.|
+A Fletch Me Some Plumage!|QID|14253|M|60.90,28.99|N|From Bizby.|RANK|2|
 
-C New Beginnings|QID|14251|S|M|60.55,27.05|
+C New Beginnings|QID|14251|S|M|60.55,27.05|RANK|2|
 
-C Good Gold For Bad Tail|QID|14252|S|M|60.20,30.99|
+C Good Gold For Bad Tail|QID|14252|S|M|60.20,30.99|RANK|2|
 
-C Fletch Me Some Plumage!|QID|14253|S|
+C Fletch Me Some Plumage!|QID|14253|S|RANK|2|
 
 C Peace of Mind|QID|14361|M|53.40,33.34|N|The kill is by a cave south of the fortress.|
 
@@ -76,15 +74,15 @@ T Peace of Mind|QID|14361|M|53.40,33.34|N|To UI Alert|
 
 A You'll Know It When You See It|QID|14363|M|53.40,33.34|N|From UI Alert|
 
-R Run to the small building|QID|99999|CC|M|54.07,29.52|
+R Run to the small building|QID|14363|CC|M|54.07,29.52|
 
 C You'll Know It When You See It|QID|14363|M|52.94,28.96|
 
 T You'll Know It When You See It|QID|14363|M|52.94,28.96|N|UI Alert|
 
 A Putting Their Heads Together|QID|14364|M|52.94,28.96|N|UI Alert|
-
-A Ears Are Burning|QID|14362|U|49203|M|55.23,26.35|N|Looted from Burning Blade mobs.|
+K Burning Blade |QID|14365|M|55.23,26.35|N|Kill the Burning Blade until a Burning Blade Ear drops|L|49203|
+A Ears Are Burning|QID|14362|U|49203|N|Quest starts from the Burning Blade Ear that dropped from the Burning Blade.|
 
 C Putting Their Heads Together|QID|14364|L|48953 100|N|From piles around the compound.|
 
@@ -92,9 +90,9 @@ C Putting Their Heads Together|QID|14364|U|48953|M|54.96,26.68|
 
 C Ears Are Burning|QID|14362|M|53.20,27.48|
 
-C Fletch Me Some Plumage!|QID|14253|US|M|46.33,34.99|
+C Fletch Me Some Plumage!|QID|14253|US|M|46.33,34.99|RANK|2|
 
-f Ethel Rethor|QID|14362|M|39.04,27.01|N|At Korrah's Hippogryph.|
+f Ethel Rethor|QID|14365|M|39.04,27.01|N|At Korrah's Hippogryph.|
 
 T Ethel Rethor|QID|14365|M|38.83,26.97|N|To Cenarion Researcher Korrah.|
 
@@ -105,21 +103,19 @@ C The Emerging Threat|QID|14256|M|39.07,27.43|N|speak to the Tauren and she'll s
 T The Emerging Threat|QID|14256|M|38.79,27.06|N|To Cenarion Researcher Korrah.|
 
 A Slitherblade Slaughter|QID|14257|M|38.79,27.06|N|From Cenarion Researcher Korrah.|
+T The Karnitol Shipwreck |QID|1454|M|36.13,30.49|N|Karnitol's Chest found along the coast|
+A The Karnitol Shipwreck |QID|1455|M|36.13,30.49|N|From Karnitol's Chest|
 
 C Slitherblade Slaughter|QID|14257|M|36.57,36.27|N|Sliverblade Nagas drop Bones at 100% Rate. Warriors drop Fins at a low rate. Sorcerers Drop Scales at a low rate, but in multiples.|
 
 T Slitherblade Slaughter|QID|14257|M|38.88,27.02|N|To Cenarion Researcher Korrah.|
 
 A Going Deep|QID|14260|M|38.88,27.02|N|From Cenarion Researcher Korrah.|
-
-C Going Deep|QID|14260|U|49064|M|38.82,27.13|
-
+C Going Deep|QID|14260|U|49064|M|38.82,27.13|N|Use the Slitherblade Charm to turn you into a Naga (dismount first)|
 T Going Deep|QID|14260|M|31.06,30.94|N|To Valishj.|
 
 A Wetter Than Wet|QID|14264|M|31.06,30.94|N|From Valishj.|
-
-C Wetter Than Wet|QID|14264|M|33.98,24.84|
-
+C Wetter Than Wet|QID|14264|M|33.98,24.84|N|You must be in Naga form for the kills to count.|
 T Wetter Than Wet|QID|14264|M|31.07,30.85|N|To Valishj.|
 
 A Deep Impact|QID|14268|M|31.07,30.85|N|From Valishj.|
@@ -128,7 +124,7 @@ C Deep Impact|QID|14268|L|49102 4|M|29.08,19.52|N|Look for flat rocks around sun
 
 C Deep Impact|QID|14268|U|49102|M|33.25,11.18|N|Now combine the fragments.|
 
-T Deep Impact|QID|14268|M|33.32,11.79|No UI Alert|
+T Deep Impact|QID|14268|M|33.32,11.79|N|UI Alert|
 
 A Mystery Solved|QID|14282|M|33.32,11.79|N|from UI Alert.|
 
@@ -150,21 +146,23 @@ T Return and Report|QID|14301|M|38.82,27.02|N|To Cenarion Researcher Korrah.|
 
 A Official Assessment|QID|14302|M|38.82,27.02|N|From Cenarion Researcher Korrah.|
 
-H Nijel's Point|QID|99999|N|Hearth or Fly, the choice is yours.|
+H Nijel's Point|QID|14364|N|Hearth or Fly, the choice is yours.|
 
 T Putting Their Heads Together|QID|14364|M|66.61,10.98|N|To Captain Pentigast.|
-
 T Ears Are Burning|QID|14362|M|66.61,10.98|N|To Captain Pentigast.|
+T The Karnitol Shipwreck |QID|1455|M|66.20,9.70|N|To Kreldig Ungor|
 
-C Good Gold For Bad Tail|QID|14252|US|M|59.21,17.02|
+C Good Gold For Bad Tail|QID|14252|US|M|59.21,17.02|RANK|2|
 
-C New Beginnings|QID|14251|US|M|62.53,27.33|
+C New Beginnings|QID|14251|US|M|62.53,27.33|RANK|2|
 
-T New Beginnings|QID|14251|M|60.95,28.92|N|To Bizby.|
+T New Beginnings|QID|14251|M|60.95,28.92|N|To Bizby.|RANK|2|
 
-T Good Gold For Bad Tail|QID|14252|M|60.95,28.92|N|To Bizby.|
+T Good Gold For Bad Tail|QID|14252|M|60.95,28.92|N|To Bizby.|RANK|2|
 
-T Fletch Me Some Plumage!|QID|14253|M|60.95,28.92|N|To Bizby.|
+T Fletch Me Some Plumage!|QID|14253|M|60.95,28.92|N|To Bizby.|RANK|2|
+
+A Bone Collector |QID|5501|M|62.36,38.95|N|From Bibbly F'utzbuckle|RANK|3|
 
 A Blood Theory|QID|14304|M|58.69,46.42|N|From Thressa Amberglen.|
 
@@ -195,6 +193,10 @@ C Blood Theory|QID|14304|US|U|49138|M|48.26,52.08|
 C Stubborn Winds|QID|14307|US|M|45.21,49.00|
 
 C Pulling Weeds|QID|14306|US|M|59.41,56.64|
+
+C Bone Collector |QID|5501|S|M|52.2,58.4|N|Kodo Bones from the graveyard|RANK|3|
+
+C Bone Collector |QID|5501|US|M|52.2,58.4|N|Kodo Bones from the graveyard|RANK|3|
 
 C A Time to Reap|QID|14305|US|M|54.45,60.72|N|The highest concentration of this seems to be to the South West of the Oasis, the Kodo Graveyard.|
 
@@ -232,13 +234,13 @@ C Breakout!|QID|14314|M|72.60,55.71|
 
 C Cenarion Property|QID|14316|US|M|72.93,43.30|
 
-f Thunk's Abode|QID|14316|M|70.69,32.97|N|At Thunk's Wyvern.|
+T Bone Collector |QID|5501|US|M|52.2,58.4|N|Kodo Bones from the graveyard|RANK|3|
 
 A Early Adoption|QID|14246|M|70.43,32.89|N|From Cenarion Embassador Thunk.|
 
 A Stubborn Lands|QID|14247|M|70.43,32.89|N|From Cenarion Embassador Thunk.|
 
-C Early Adoption|QID|14246|S|U|49014|M|66.27,22.38|N|Find the swoop nests. Clear the area around it for mobs.  Protect the egg from attacking mobs.|
+C Early Adoption|QID|14246|S|U|49014|M|66.27,22.38|N|Find the swoop nests. Clear the area around it for mobs. Protect the egg from attacking mobs.|
 
 T Stubborn Lands|QID|14247|M|69.47,21.30|
 
@@ -290,9 +292,9 @@ A Infernal Encroachment|QID|14373|M|36.65,71.31|N|From Thargad.|
 
 A Portals of the Legion|QID|14374|M|36.65,71.31|N|From Thargad.|
 
-K Three Princes|QID|14328|QO|Sherik Defeated 0/1|M|35.55,81.43|N|Kill Sherik (Click the check box to continue)|
+K Three Princes|QID|14328|QO|Sherik Defeated: 1/1|M|35.55,81.43|N|Kill Sherik (Click the check box to continue)|
 
-K Three Princes|QID|14328|QO|Rhoho Defeated 0/1|M|41.46,82.91|N|Kill Rhoho (Click the check box to continue)|
+K Three Princes|QID|14328|QO|Rhoho Defeated: 1/1|M|41.46,82.91|N|Kill Rhoho (Click the check box to continue)|
 
 C Three Princes|QID|14328|M|35.66,91.21|
 
@@ -302,7 +304,7 @@ T Three Princes|QID|14328|M|40.42,95.50|N|To Khan Shodo.|
 
 A Not So Fast!|QID|14329|M|40.42,95.50|N|From Khan Shodo.|
 
-H Karnum's Glade|QID|99999|N|If you don't want to hearth, Run back to Thargad's Camp. (Manually check this step off  if you do not hearth)|
+H Karnum's Glade|QID|99999|N|If you don't want to hearth, Run back to Thargad's Camp. (Manually check this step off if you do not hearth)|
 
 F Thargad's Camp|QID|99999|N|Fly here. Run if you did not Hearth.|
 
@@ -312,7 +314,7 @@ T Not So Fast!|QID|14329|M|33.86,50.58|N|UI Alert.|
 
 A Behind Closed Doors|QID|14330|U|38567|M|25.88,77.06|
 
-R Gates of Mauraudon|QID|99999|CC|M|29.89,62.56|N|Enter the gates.  We zone into a dead zone in terms of a map now, so I will not be able to make you a way point :(|
+R Gates of Mauraudon|QID|99999|CC|M|29.89,62.56|N|Enter the gates. We zone into a dead zone in terms of a map now, so I will not be able to make you a way point :(|
 
 A While You're Here|QID|14333|M|38.20,58.07|Z|Maraudon|
 
@@ -334,7 +336,7 @@ C Get Me Out of Here!|QID|6132|M|33.94,53.44|N|From Melizza Brimbuzzle. You will
 
 T Get Me Out of Here!|QID|6132|M|47.85,61.80|N|To Hornizz Brimbuzzle.|
 
-C Infernal Encroachment|QID|14373|S|QO|Lesser Infernals Destroyed: 0/10|M|51.08,79.76|N|Infernals will drop an item for a quest. So make sure you loot them also!|
+C Infernal Encroachment|QID|14373|S|QO|Lesser Infernals Destroyed: 10/10|M|51.08,79.76|N|Infernals will drop an item for a quest. So make sure you loot them also!|
 
 C Portals of the Legion|QID|14374|U|14547|M|50.72,80.92|
 
@@ -352,7 +354,7 @@ T Time For Change|QID|14332|M|72.33,67.29|N|To Khan Leh'Prah.|
 
 A Into the Fray!|QID|14393|M|72.33,67.29|N|From Khan Leh'Prah.|
 
-C Into the Fray!|QID|14393|M|70.09,77.29|N|Tell the Centaur you are ready.  Learn what your buttons do and have fun killing. This is one of the most great quests in the game.|
+C Into the Fray!|QID|14393|M|70.09,77.29|N|Tell the Centaur you are ready. Learn what your buttons do and have fun killing. This is one of the most great quests in the game.|
 
 T Into the Fray!|QID|14393|M|72.30,67.39|N|To Khan Leh'Prah.|
 
@@ -374,7 +376,7 @@ A Hunting Brendol|QID|14378|M|36.65,71.29|N|From Thargad.|
 
 A Rock Lobstrock!|QID|14379|M|36.52,71.36|N|From Dumti.|
 
-C Rock Lobstrock!|QID|14379|S|QO|Tender Lobstrock Tail: 0/7|M|36.43,71.31|N|Low drop rate, you may need to kill in the ocean too. Be aware of the Horde camp also.|
+C Rock Lobstrock!|QID|14379|S|QO|Tender Lobstrock Tail: 7/7|M|36.43,71.31|N|Low drop rate, you may need to kill in the ocean too. Be aware of the Horde camp also.|
 
 C Hunting Brendol|QID|14378|
 
@@ -396,7 +398,7 @@ C Cleansing Our Crevasse|QID|14381|M|37.66,45.65|N|Jump on the Hippogryph direct
 
 T Cleansing Our Crevasse|QID|14381|M|57.42,47.73|N|To Karnum Marshweaver.|
 
-N The end.|QID|99999|N|Thanks for doing Desolace with me and congrats on your zone achievement. We will be going to Ferelas next, so when you're ready click off of this step to continue.   If you wish to quest somewhere else now, you can manually select a new guide by right clicking on the Addon frame. WKjezz|
+N The end.|QID|99999|N|Thanks for doing Desolace with me and congrats on your zone achievement. We will be going to Ferelas next, so when you're ready click off of this step to continue. If you wish to quest somewhere else now, you can manually select a new guide by right clicking on the Addon frame. WKjezz|
 
 ]]
 

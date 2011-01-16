@@ -108,6 +108,9 @@ function WoWPro:OnEnable()
 	
 	-- Creating empty user settings if none exist --
 	WoWProCharDB = WoWProCharDB or {}
+	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
+	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
+	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	
 	-- Module Enabling --
 	for name, module in WoWPro:IterateModules() do

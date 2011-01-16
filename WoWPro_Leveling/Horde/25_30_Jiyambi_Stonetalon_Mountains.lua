@@ -3,7 +3,7 @@ return [[
 
 R Silverwind Refuge|QID|25945|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|
 f Silverwind Refuge|QID|25945|M|49.29,65.25|Z|Ashenvale|N|At Wind Tamer Shoshok.|
-T Warchief's Command: Southern Barrens!|QID|28532|M|49.90,65.74|Z|Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
+T Warchief's Command: Stonetalon Mountains!|QID|28532|M|49.90,65.74|Z|Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.90,65.74|Z|Ashenvale|N|From Blood Guard Aldo Rockrain.|
 C We're Here to Do One Thing, Maybe Two...|QID|25945|NC|M|48.58,66.46|Z|Ashenvale|N|Hop on the wagon and enjoy the ride.|
 
@@ -26,12 +26,14 @@ A Krom'gar Fortress|QID|26004|PRE|26002|M|74.28,47.71|N|From Saurboz.|
 R Krom'gar Fortress|QID|26004|M|66.54,62.80|
 f Krom'gar Fortress|QID|26004|M|66.54,62.80|N|At Kormal the Swift.|
 T Krom'gar Fortress|QID|26004|M|66.13,63.72|N|To Overlord Krom'gar.|
+A Seek and Destroy|QID|26009|M|66.07,63.75|RANK|3|N|From Overlord Krom'gar.|
 A Ashes to Ashes|QID|26010|PRE|26004|M|66.13,63.72|N|From Overlord Krom'gar.|
 h Krom'gar Fortress|QID|26010|M|66.45,64.20|N|If you like, set your hearth at Felonius Stark.|
 A Dream of a Better Tomorrow|RANK|2|QID|26026|PRE|26004|M|66.13,64.23|N|From Clarissa.|
 B Quartermaster|QID|26010|M|65.85,64.12|N|The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|
 A Enemy of the Horde: Marshal Paltrow|QID|26011|PRE|26004|M|65.77,63.33|N|From Spy-Mistress Anara.|
 
+C Seek and Destroy|QID|26009|M|61.42,64.88|S|RANK|3|N|From Overlord Krom'gar.|
 C Ashes to Ashes|QID|26010|U|56473|M|61.42,64.88|S|N|Use the flamethrower on the tents.|
 C Enemy of the Horde: Marshal Paltrow|QID|26011|M|61.97,67.71|N|Kill Marshal Paltrow.|
 A Orders from Base Camp|QID|26016|M|62.04,67.88|N|The orders drop from Marshal Paltrow. Right-click them to accept the quest.|U|56474|
@@ -46,6 +48,7 @@ C BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.21,47.19|GRP|2|N|Jump off if you'd 
 H Krom'gar Fortress|QID|26004|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T Enemy of the Horde: Marshal Paltrow|QID|26011|M|65.77,63.31|N|To Spy-Mistress Anara, back at Krom'gar Fortress.|
 T BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.77,63.31|N|To Spy-Mistress Anara.|
+T Seek and Destroy|QID|26009|M|66.09,63.75|RANK|3|N|To Overlord Krom'gar.|
 T Ashes to Ashes|QID|26010|M|66.09,63.75|N|To Overlord Krom'gar.|
 A Report to Bombgutz|QID|26020|PRE|26010|M|66.09,63.75|N|From Overlord Krom'gar.|
 T Orders from Base Camp|QID|26016|M|66.09,63.75|N|To Overlord Krom'gar.|
@@ -159,7 +162,6 @@ T To Be Horde...|QID|26115|M|45.58,34.17|N|Congrats on some nice gear!|
 A Nothing Left for You Here|QID|26134|PRE|26115|M|45.54,33.80|N|From High Chieftain Cliffwalker. Pick this up if you'd like to go to Desolace next.|
 
 N Zone Choice - Desolace or Southern Barrens|QID|26134|N|You now have the choice of which zone to go to next. If you chose Desolace, open the guide list and select that zone. Otherwise, the guide will automatically continue to the Southern Barrens. Both are great zones, so just pick one!|
-
 
 ]]
 

@@ -2,15 +2,11 @@ WoWPro.Leveling:RegisterGuide('WkjDus3540', 'Dustwallow Marsh', 'WKjezz', '30', 
 
 return [[
 
-N This Guide|QID|99999|N|Picks up directly from where Southern Barrens leaves of. If you did not do Southern Barrens, please make your way to Fort Triumph. Alternatively you can sail to Theramore Isle. (Manually close this step by right clicking the check box)|
+N This Guide|QID|27251|N|Picks up directly from where Southern Barrens leaves off. If you did not do Southern Barrens, you can take the Hero's Call quest from Darnassus, Exodar or Stormwind instead. Either make your way to Fort Triumph and run to Theramore or sail from Wetlands. (Manually close this step by right clicking the check box)|
 
-R Zone into the Marsh|QID|99999|CC|M|55.82,50.10|N|Follow the path all the way east. It's populated by Alliance vehicles and banners.|
+R Theramore Isle |QID|27251|N|Follow the path all the way east to Theramore. It's populated by Alliance vehicles and banners.|
 
 A They Call Him Smiling Jim|QID|27251|M|66.05,45.91|N|From Guard Byron.|
-
-A Tabetha's Farm|QID|11212|M|66.10,46.08|N|From Guard Byron.|
-
-A Mission to Mudsprocket|QID|27248|M|65.08,47.00|N|From Lieutenant Aden.|
 
 h Theramore Isle|QID|27251|M|66.57,45.26|N|At Innkeeper Janene. Take this chance to sell your junk and restock also.|
 
@@ -25,6 +21,8 @@ A Inspecting the Ruins|QID|27249|M|68.21,48.58|N|From Captain Garran Vimes.|
 f Theramore Isle|QID|27249|M|67.49,51.33|N|At Baldruc.|
 
 A This Old Lighthouse|QID|27216|M|68.30,51.84|N|From Sergeant Amelyn.|
+
+T Hero's Call: Dustwallow Marsh! |QID|28552|M|68.36,51.02|O|N|To Calia Hastings|
 
 A Traitors Among Us|QID|27210|M|68.33,51.04|N|From Calia Hastings.|
 
@@ -70,7 +68,7 @@ T Is it Real?|QID|27219|M|58.74,60.15|N|To Nat Pagle.|
 
 A Nat's Bargain|QID|27220|M|58.74,60.15|N|From Nat Pagle.|
 
-U Use this item now|QID|99999|U|33166|N|When you have used the paste, manually click the check box to continue|
+U Pagle's Fish Paste|QID|27220|U|33166|N|Use Pagle's Fish Paste|
 
 C Nat's Bargain|QID|27220|U|33166|M|56.26,62.75|N|Swim to this spot. Make sure you paste yourself before you swim here. A shark will attack you, so kill it.|
 
@@ -78,11 +76,15 @@ T Nat's Bargain|QID|27220|M|58.72,60.18|N|To Nat Pagle.|
 
 A Oh, It's Real|QID|27221|M|58.72,60.18|N|From Nat Pagle.|
 
-H Theramore Isle|QID|99999|N|Hearth or Run.|
+H Theramore Isle|QID|27221|N|Hearth or Run.|
+
+A Tabetha's Farm|QID|11212|M|66.10,46.08|N|From Guard Byron.|
+
+A Mission to Mudsprocket|QID|27248|M|65.08,47.00|N|From Lieutenant Aden.|
 
 A A Disturbing Development|QID|27214|M|65.18,46.87|N|From Lieutenant Aden.|
 
-r Repair and Sell Junk|QID|99999|M|67.90,49.99|N|Jensen Farran.|
+r Repair and Sell Junk|QID|27214|M|67.90,49.99|N|Jensen Farran.|
 
 T Oh, It's Real|QID|27221|M|69.59,51.72|N|To Major Mills.|
 
@@ -146,7 +148,7 @@ T Renn McGill|QID|27235|M|63.70,16.97|N|To Renn McGill.|
 
 A Secondhand Diving Gear|QID|27236|M|63.68,16.97|N|From Renn McGill.|
 
-l The Tool Kit.|QID|99999|L|33039 |M|63.06,18.63|
+l The Tool Kit.|QID|27236|L|33039 |M|63.06,18.63|
 
 C Secondhand Diving Gear|QID|27236|M|61.69,18.21|
 
@@ -154,9 +156,9 @@ T Secondhand Diving Gear|QID|27236|M|63.73,17.03|N|To Renn McGill.|
 
 A Recover the Cargo!|QID|27237|M|63.73,17.03|N|From Renn McGill.|
 
-U Open the supplies bag.|QID|99999|U|33045|N|(Click to manually complete)|
+U Open the supplies bag.|QID|27237|U|33045|N|(Click to manually complete)|
 
-U Put on the helmet.|QID|99999|U|33040|N|(Click to manually complete)|
+U Put on the helmet.|QID|27237|U|33040|N|(Click to manually complete)|
 
 C Recover the Cargo!|QID|27237|U|33044|M|66.76,13.89|N|Use this item on floaty piles of Debris. Don't forget to Re-equip your helmet.|
 
@@ -174,7 +176,7 @@ A Lieutenant Paval Reethe|QID|27263|M|29.77,48.20|N|From Inspector Tarem.|
 
 A The Black Shield|QID|27252|M|29.62,48.55|N|From Inspector Tarem.|
 
-H Theramore Isle|QID|99999|N|Hearth or Run back|
+H Theramore Isle|QID|27246|N|Hearth or Run back|
 
 T The Orc Report|QID|27246|M|65.08,47.13|N|To Lieutenant Aden.|
 
@@ -212,7 +214,7 @@ T The Black Shield|QID|27284|M|64.74,50.39|N|To Caz Twosprocket. Sell and Repair
 
 A The Black Shield|QID|27285|M|64.74,50.39|N|From Caz Twosprocket.|
 
-R The Fly Over|QID|99999|NC|CC|M|67.37,51.11|N|Tell Cassa Crimsonwing you are ready.|
+R The Fly Over|QID|27239|NC|CC|M|67.37,51.11|N|Tell Cassa Crimsonwing you are ready.|
 
 C Survey Alcaz Island|QID|27239|NC|M|67.37,51.07|N|Enjoy the ride and enjoy our thanks. Thanks for using Wow-Pro|
 
@@ -428,7 +430,7 @@ T Peace at Last|QID|27291|M|68.21,48.54|N|To Captain Garran Vimes.|
 
 R Run to the flight master|QID|99999|CC|M|67.50,51.23|
 
-F Mudsprocket|QID|99999|N|Fly back.|
+F Mudsprocket|QID|27411|N|Fly back.|
 
 T Challenge to the Black Flight|QID|27411|M|41.86,73.89|N|To Brogg.|
 

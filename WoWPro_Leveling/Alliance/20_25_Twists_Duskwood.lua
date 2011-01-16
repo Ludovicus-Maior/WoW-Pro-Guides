@@ -3,9 +3,9 @@ return
 [[
 
 A Hero's Call: Duskwood!|QID|26728|M|28.59,41.02|Z|Redridge Mountains|N|From Bailiff Conacher in Lakeshire.|
-R Darkshire|QID|26728|M|74.54,41.59|N|Run to Darkshire in Duskwood.  Take the left fork at Three Corners.|CC|
-T Hero's Call: Duskwood!|QID|26728|M|73.57,46.90|Z|Duskwood|N|Commander Althea Ebonlocke in front of the town hall.|
+R Darkshire|QID|26728|M|74.54,41.59|N|Run to Darkshire in Duskwood. Take the left fork at Three Corners.|CC|
 
+T Hero's Call: Duskwood!|QID|26728|M|73.57,46.90|Z|Duskwood|N|Commander Althea Ebonlocke in front of the town hall.|
 
 A Wolves at Our Heels|QID|26618|M|73.72,46.89|N|Commander Althea Ebonlocke in front of the town hall.|
 
@@ -119,7 +119,7 @@ A Note to the Mayor|QID|26681|M|87.45,35.38|N|Abercrombie outside of town at Beg
 T Note to the Mayor|QID|26681|M|71.85,46.45|N|Lord Ello Ebonlocke in Darkshire Town Hall.|
 A The Embalmer's Revenge|QID|26727|M|71.85,46.45|N|Lord Ello Ebonlocke in Darkshire Town Hall.|
 
-C The Embalmer's Revenge|QID|26727|M|73.84,46.62|N|He spawns in the middle of town.  If you die, come back quickly as you can still finish him.|
+C The Embalmer's Revenge|QID|26727|M|73.84,46.62|N|He spawns in the middle of town. If you die, come back quickly as you can still finish him.|
 
 T The Embalmer's Revenge|QID|26727|M|71.85,46.45|N|Lord Ello Ebonlocke in Darkshire Town Hall.|
 
@@ -143,8 +143,8 @@ A Mistmangle's Revenge|QID|26674|M|75.76,45.28|N|Madame Eva in the house across 
 C Mistmangle's Revenge|QID|26674|M|77.39,36.32|N|Use the ring at the manor house. Then kill Stalvan Mistmangle after the talking.|U|59363|
 T Mistmangle's Revenge|QID|26674|M|78.98,44.21|N|Tobia Mismantle.|
 
-F Sentinel Hill|QID|26719|M|56.64,49.37|Z|Westfall|N|Its easier to reach from here.|
-R Darkshire|QID|26777|M|67.08,62.91|N|Run to Darkshire.|Z|Westfall|CC|
+F Sentinel Hill|QID|26719|M|77.53,44.32|N|Fly to Sentinel Hill. Its easier to reach from here.|
+R Duskwood|QID|26777|M|67.08,62.91|N|Run back into Duskwood zone.|Z|Westfall|
 
 T Delivery to Master Harris|QID|26719|M|18.40,57.76|N|Deliver the message to Oliver Harris.|Z|Duskwood|
 A A Curse We Cannot Lift|QID|26720|M|18.40,57.76|N|Oliver Harris in Raven Hill.|
@@ -186,7 +186,7 @@ A The Halls of the Dead|QID|26753|M|23.44,35.54|N|The dirt Mound.|
 T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs.|
 A Buried Below|QID|26722|M|20.36,27.44|N|In the Dawning Wood Catacombs.|
 
-T Buried Below|QID|26722|M|18.08,25.33|N|There is an exit in the location where you got the quest. Skip the follow-up. You may attempt it if you wish.  But be warned. The mobs are level 24 and its hard to just pull them one at a time.|
+T Buried Below|QID|26722|M|18.08,25.33|N|There is an exit in the location where you got the quest. Skip the follow-up. You may attempt it if you wish. But be warned. The mobs are level 24 and its hard to just pull them one at a time.|
 A Morbent's Bane|QID|26754|M|18.08,25.33|N|In the tunnel.|O|
 
 C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morben Fel before taking him down.|U|60212|O|
@@ -197,7 +197,7 @@ T Morbent's Bane|QID|26754|M|18.40,57.94|N|Sven Yorgen back at Raven Hill.|O|
 T Bear In Mind|QID|26787|M|18.6,58.21|N|Jitters back at Raven Hill.|
 T The Cries of the Dead|QID|26778|M|19.92,57.88|N|Sister Eisington back at Raven Hill.|
 
-A Rebels Without a Clue|QID|26838|M|19.92,57.88|N|Sister Eisington at Raven Hill.|
+A Rebels Without a Clue|QID|26838|M|19.92,57.88|N|Sister Eisington at Raven Hill. Will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!"|
 
 T The Weathered Grave|QID|26793|M|72.62,47.64|N|Return by flight to Darkshire. Sirra Von'lndi in the Town Hall.|
 A Morgan Ladimore|QID|26794|M|72.62,47.64|N|Sirra Von'lndi in the Town Hall.|

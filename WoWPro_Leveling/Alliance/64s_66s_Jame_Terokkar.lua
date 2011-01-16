@@ -3,15 +3,15 @@ return [[
 N READ THIS! |QID|10211| |N|This guide is for people who will choose Scryer as a faction in Shattrath. If you plan to choose Aldor, right-click the header and choose "Guide List", then scroll down and find the Terokkar Aldor guide.|
 F Shattrath City|QID|10211|N|Fly to Shattrath City.|M|67.80,51.50|Z|Zangramarsh|
 A A'dal|Z|Shattrath City|QID|10210|M|59.70,41.45|N|From Haggard War Veteran.|
-T A'dal|Z|Shattrath City||QID|10210|M|54.0,44.8|N|To A'dal.|
+T A'dal|Z|Shattrath City|QID|10210|M|54.0,44.8|N|To A'dal.|
 A City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|From Khadgar.|
-C City of Light |N|Follow the npc until you get the quest completion.|QID|10211|M|54.8,44.3|
+C City of Light |N|Follow the npc until you get the quest completion.|QID|10211|M|54.8,44.3|Z|Shattrath City|
 T City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|To Kadgar.|
-N This guide follows the Scryers faction.|N|Right click the box to continue.|
+N This guide follows the Scryers faction.|N|Right click the box to continue.|Z|Shattrath City|
 N Allegiance to the Scryers|QID|10553|N|Turn in the quest "Allegiance to the Scryers"|M|55.00,43.98|Z|Shattrath City|
 A Voren'thal the Seer|Z|Shattrath City|QID|10553|M|54.8,44.3|N|From Khadgar.|
 T Voren'thal the Seer|Z|Shattrath City|N|You must take the elevator up to this area.|QID|10553|M|43.5,91.8|
-h Shattrath City|QID|9957|N|Make Shattrath City (Scryers) your home location.|M|56.35,81.55|Z|Shattrath City|
+h Scryer's Tier|QID|9957|N|Make Shattrath City (Scryers) your home location.|M|56.35,81.55|Z|Shattrath City|
 r Sell junk, repair, restock, train skills|QID|9957|M|54.6,82.4|Z|Shattrath City|
 N Do Underbog or Slave Pens (Optional)|Z|Shattrath City|QID|9957|N|You can do the instances in Zangarmarsh for extra XP if you wish.|M|27.92,47.45|
 A Rather Be Fishin'|QID|10037|M|64.0,15.5|Z|Shattrath City|N|From Seth.|
@@ -271,3 +271,5 @@ T The Skettis Offensive|QID|10879|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Re
 r Sell junk, repair, restock.|QID|9957|M|54.6,82.4|Z|Shattrath City|N|Visit your trainers, etc. Close this step to continue to the next guide.|
 ]]
 end)
+
+

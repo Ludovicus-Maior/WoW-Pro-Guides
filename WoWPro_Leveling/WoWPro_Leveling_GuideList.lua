@@ -26,6 +26,7 @@ table.sort(guides, function(a,b) return a.startlevel < b.startlevel end)
 
 -- Populating Guide List --
 function WoWPro.Leveling.UpdateGuideList()
+	if not WoWPro.Leveling.GuideList then return end
 	if not WoWPro.Leveling.GuideList:IsVisible() then return end
 	for i,row in ipairs(WoWPro.Leveling.GuideList.rows) do
 		row.i = i + offset
@@ -266,7 +267,11 @@ function WoWPro.Leveling.CreateGuideList()
 	frame:EnableMouseWheel()
 	frame:SetScript("OnMouseWheel", function(self, val) scrollbar:SetValue(scrollbar:GetValue() - val*NUMROWS/3) end)
 
-	local function OnShow(self) scrollbar:SetValue(0); WoWPro.NextGuideDialog:Hide() end
+	local function OnShow(self) 
+		scrollbar:SetValue(0); 
+		WoWPro.Leveling.UpdateGuideList()
+		WoWPro.NextGuideDialog:Hide() 
+	end
 	frame:SetScript("OnShow", OnShow)
 	OnShow(frame)
 	

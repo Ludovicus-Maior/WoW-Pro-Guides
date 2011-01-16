@@ -1,7 +1,6 @@
-WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh - Gnome", "Gylin", "01", "05", "GamDun0510", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh (Gnome)", "Gylin", "01", "05", "GamDun0510", "Alliance", function()
 return
 [[
-
 A Pinned Down |QID|27670| |M|25.77,31.93| |N|From Nevin Twistwrench standing in front of you|
 C Pinned Down |QID|27670| |M|26.49,31.94| |QO|Crazed Leper Gnome slain: 6/6|
 T Pinned Down |QID|27670| |M|25.77,31.93| |N|To Nevin Twistwrench|

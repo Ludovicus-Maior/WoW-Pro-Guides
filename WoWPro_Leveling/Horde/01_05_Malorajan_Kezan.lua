@@ -62,7 +62,6 @@ A Primal Strike|QID|14011|M|59.7,76.2|N|From Maxx Avalanche.|C|Shaman|
 C Primal Strike|QID|14011|M|60.31,77.53|N|Speak with Maxx Avalanche and train Primal Strike, then use it 2 times on a Training Dummy. |C|Shaman|
 T Primal Strike|QID|14011|M|59.9,76.2|N|To Maxx Avalanche.|C|Shaman|
 
-
 A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|Z|Kezan|
 C Life of the Party|QID|14113|M|60.21,85.76|Z|Kezan|
 T Life of the Party|QID|14113|M|56.52,76.95|Z|Kezan|

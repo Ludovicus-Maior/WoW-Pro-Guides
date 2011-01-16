@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle - Draenai", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
 return [[
 
 R Note:|QID|10302|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|

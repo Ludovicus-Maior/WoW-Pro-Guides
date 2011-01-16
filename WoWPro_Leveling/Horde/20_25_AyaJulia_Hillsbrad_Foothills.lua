@@ -94,6 +94,13 @@ A Trail of Filth|QID|28330|
 C Trail of Filth|QID|28330|U|63426|M|47.85,72.37|N|Inside the building. Some classes may have difficulty with this quest. Look for a group or come back to it later if it's giving you trouble.|
 C Green Living|QID|28325|M|48.59,71.42|U|63426|US|N|Pick up broken barrels on the ground.|
 C Studies in Lethality|QID|28324|U|63426|M|48.59,71.42|US|N|Use the Lethality Analyzer on the Blight Slimes.|
+l Daggerspine Attack Plans|QID|28356|M|50.69,76.2|L|63686|N|Igonore Orkus for now, and kill Daggerspine Nagas until this drops.|
+A Preemptive Strike|QID|28356|U|63686|N|Accept the quest from the plans.|M|50.69,76.2|
+C Preemptive Strike|QID|28356|N|Kill 15 Daggerspine Nagas.|M|50.69,76.2|
+T Green Living|QID|28325|M|49.09,66.36|N|To Serge Hinott.|
+T Trail of Filth|QID|28330|M|49.09,66.36|N|To Serge Hinott.|
+T Studies in Lethality|QID|28324|M|49.09,66.36|N|To Serge Hinott.|
+T Preemptive Strike|QID|28356|M|49.15,66.34|N|To Helcular.|
 T Green Living|QID|28325|M|49.09,66.36|N|To Serge Hinott.|
 T Trail of Filth|QID|28330|M|49.09,66.36|N|To Serge Hinott.|
 T Studies in Lethality|QID|28324|M|49.09,66.36|N|To Serge Hinott.|

@@ -1,5 +1,7 @@
 WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades - Undead', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function() 
-return [[A Fresh out of the Grave|QID|24959|M|29.41,70.96|N|From Agatha.|
+return [[
+
+A Fresh out of the Grave|QID|24959|M|29.41,70.96|N|From Agatha.|
 T Fresh out of the Grave|QID|24959|M|30.04,71.27|N|To Undertaker Mordo.|
 
 A The Shadow Grave|QID|28608|M|30.04,71.27|N|From Undertaker Mordo.|
@@ -124,8 +126,8 @@ C The Scarlet Palisade|QID|24980|S|M|31.92,46.00|Z|Crusader's Outpost|N|Kill mem
 K Scarlet Crusade|QID|24979|L|52079 |M|34.91,48.45|N|Kill Scarlet Crusade at the Scarlet Palisade until you get a Scarlet Letter.|
 A A Scarlet Letter|QID|24979|PRE|52079|U|52079|M|34.91,48.45|N|Right-click the item you just got.|
 
-C A Scarlet Letter|QID|24979|NC|M|31.69,46.13|Z|Crusader's Outpost|N|Go to the top of the tower and talk to Lilian. Watch the scene.|
-C The Scarlet Palisade|QID|24980|US|M|31.92,46.00|Z|Crusader's Outpost|N|Kill members of the Scarlet Crusade.|
+C A Scarlet Letter|QID|24979|NC|M|31.69,46.13|N|Go to the top of the tower and talk to Lilian. Watch the scene.|
+C The Scarlet Palisade|QID|24980|US|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
 C Briny Sea Cucumber|QID|24976|NC|QO|Briny Sea Cucumber: 8/8|M|33.19,43.14|N|Collect Sea Cucumbers from the ocean floor. Watch out for the rare level 10 murloc who roams the area - he's probably a bit too strong for you!|
 C Ever So Lonely|QID|24974|U|52059|QO|Vile Fin captured: 1/1|M|35.06,44.67|N|Use the murloc leash on a murloc after you beat it down.|
 C Xavren's Thorn|QID|24976|NC|QO|Xavren's Thorn: 4/4|M|33.19,43.14|N|Collect Xavren's Thorn on the cliffs above the beach.|
@@ -191,7 +193,7 @@ A The Chill of Death|QID|24988|M|65.29,60.39|N|From Gretchen Dedmar.|
 C Darkhound Pounding|QID|24990|S|M|50.01,60.28|N|Kill and loot darkhounds.|
 C The Chill of Death|QID|24988|S|M|59.10,56.50|N|Kill and loot bats.|
 
-A Escaped From Gilneas|QID|24992|M|55.27,64.85|N|If you wander along the road in this area, a worgen should appear and yell at you. This quest will then pop up for you to accept.|
+A Escaped From Gilneas|QID|24992|M|55.27,64.85|N|Get a Cursed Darkhound low in health then stop attacking, a worgen should appear and yell at you. This quest will then pop up, you should automatically accept it.|
 C A Thorn in our Side|QID|24981|M|52.19,67.54|N|Kill and loot scarlet crusade members around the Scarlet Watchtower.|
 C Darkhound Pounding|QID|24990|US|M|50.01,60.28|N|Kill and loot darkhounds.|
 C The Chill of Death|QID|24988|US|M|59.10,56.50|N|Kill and loot bats.|
@@ -261,7 +263,7 @@ A Deaths in the Family|QID|25029|M|54.61,29.91|N|From Coleman Farthing.|
 
 C The Mills Overrun|QID|25004|S|M|46.69,31.46|N|Kill and loot both types of skeleton.|
 C Devlin's Remains|QID|25029|QO|Devlin's Remains: 1/1|M|48.89,33.99|N|Kill and loot Devlin.|
-C Nissa's Remains|QID|25029|QO|Nissa's Remains: 1/1|M|48.89,33.99|N|Kill and loot Nissa, inside the house.|
+C Nissa's Remains|QID|25029|QO|Nissa's Remains: 1/1|M|49.37,36.03|N|Kill and loot Nissa, inside the house.|
 C Thurman's Remains|QID|25029|QO|Thurman's Remains: 1/1|M|45.89,30.19|N|Kill and loot Thurman.|
 C Gregor's Remains|QID|25029|QO|Gregor's Remains: 1/1|M|45.56,29.98|N|Kill and loot Gregor.|
 C The Mills Overrun|QID|25004|US|M|46.69,31.46|N|Kill and loot both types of skeleton.|
@@ -287,14 +289,14 @@ r Repair/Restock/Trainer|QID|25007|
 
 R The Bulwark|QID|25007|M|83.57,69.93|N|At the eastern-most point in the zone.|
 
-f The Bulwark|QID|25007|N|From Timothy Cunningham.|
+f The Bulwark|QID|25007|N|From Timothy Cunningham.|M|83.55,69.97|
 
 h The Bulwark|QID|25046|M|83.08,71.93|N|At Provisioner Elda.|
 
-A Grisly Grizzlies|QID|25056|N|From Apothecary Dithers.|
-T East... Always to the East|QID|25007|N|To High Executor Derrington.|
+A Grisly Grizzlies|QID|25056|N|From Apothecary Dithers.|M|83.25,69.26|
+T East... Always to the East|QID|25007|N|To High Executor Derrington.|M|83.22,69|
 
-A At War With The Scarlet Crusade|QID|25009|N|From High Executor Derrington.|
+A At War With The Scarlet Crusade|QID|25009|N|From High Executor Derrington.|M|83.22,69|
 C Grisly Grizzlies|QID|25056|S|M|77.83,66.17|N|Kill and loot bears.|
 C At War With The Scarlet Crusade|QID|25009|M|80.01,56.29|N|Kill members of the Scarlet Crusade at the Crusader Outpost to the north.|
 C Grisly Grizzlies|QID|25056|US|M|77.83,66.17|N|Kill and loot bears.|

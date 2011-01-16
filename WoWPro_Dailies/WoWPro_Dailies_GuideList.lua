@@ -21,10 +21,12 @@ for guidID,guide in pairs(WoWPro.Guides) do
 		})
 	end
 end
-table.sort(guides, function(a,b) return a.startlevel < b.startlevel end)
+table.sort(guides, function(a,b) return a.name < b.name end)
 
 -- Populating Guide List --
 function WoWPro.Dailies.UpdateGuideList()
+	if not WoWPro.Dailies.GuideList then return end
+	if not WoWPro.Dailies.GuideList:IsVisible() then return end
 	if not WoWPro.Dailies.GuideList:IsVisible() then return end
 	for i,row in ipairs(WoWPro.Dailies.GuideList.rows) do
 		row.i = i + offset
@@ -265,7 +267,11 @@ function WoWPro.Dailies.CreateGuideList()
 	frame:EnableMouseWheel()
 	frame:SetScript("OnMouseWheel", function(self, val) scrollbar:SetValue(scrollbar:GetValue() - val*NUMROWS/3) end)
 
-	local function OnShow(self) scrollbar:SetValue(0); WoWPro.NextGuideDialog:Hide() end
+	local function OnShow(self) 
+		scrollbar:SetValue(0); 
+		WoWPro.Dailies.UpdateGuideList()
+		WoWPro.NextGuideDialog:Hide() 
+	end
 	frame:SetScript("OnShow", OnShow)
 	OnShow(frame)
 	

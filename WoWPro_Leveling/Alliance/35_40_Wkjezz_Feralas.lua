@@ -10,10 +10,6 @@ F Thargad's Camp|QID|99999|N|Fly Here|
 
 A Signs of Change|QID|25447|M|50.67,17.11|Z|Feralas|N|From Telaron Windflight.|
 
-A Saving Warpwood|QID|27129|M|50.67,17.11|Z|Feralas|N|From Telaron Windflight.|
-
-A The Highborne|QID|27131|M|50.67,17.11|Z|Feralas|N|From Telaron Windflight.|
-
 A The Northspring Menace|QID|25448|M|51.13,17.81|Z|Feralas|N|From Erina Willowborn.|
 
 A Dark Heart|QID|25654|M|51.13,17.81|Z|Feralas|N|From Erina Willowborn.|
@@ -71,8 +67,6 @@ T General Shandris Feathermoon|QID|26402|M|46.05,49.09|Z|Feralas|N|To Shandris F
 A The Battle of Sardor|QID|25304|M|46.05,49.09|Z|Feralas|N|From Shandris Feathermoon.|
 
 A Pitting Madness Against Madness|QID|26985|M|46.05,49.09|Z|Feralas|N|From Shandris Feathermoon.|
-
-A Eyes in the Sky|QID|27133|M|46.05,49.09|Z|Feralas|N|From Shandris Feathermoon.|
 
 f Feathermoon Stronghold|QID|99999|M|46.80,45.35|N|Get the Flight Path.|
 
@@ -214,8 +208,6 @@ C Forces of Nature: Treants|QID|25410|U|53105|M|58.23,58.86|Z|Feralas|N|Again yo
 
 T Forces of Nature: Treants|QID|25410|M|57.06,53.82|Z|Feralas|N|To Handler Tessina.|
 
-A Eyes in the Sky|QID|27133|M|58.34,50.79|Z|Feralas|
-
 C Gordok Guards|QID|25406|S|M|61.91,40.97|
 
 C Ogre Abduction|QID|25403|U|52833|M|58.40,46.37|Z|Feralas|
@@ -232,7 +224,7 @@ T Tell Silvia|QID|25208|M|56.85,54.93|Z|Feralas|N|To Silvia.|
 
 A Might of the Sentinels|QID|25333|M|56.85,54.93|Z|Feralas|N|From Silvia.|
 
-C Might of the Sentinels|QID|25333|M|43.44,67.38|Z|Dire Maul|N|The guide may not lead you to where you need to go as we are in a weird zone.  Basically head into Dire Maul. Go North every chance you can.  You will come across an Arena. Drop into it and walk all the way to the north end of the Arena and wait.|
+C Might of the Sentinels|QID|25333|M|43.44,67.38|Z|Dire Maul|N|The guide may not lead you to where you need to go as we are in a weird zone. Basically head into Dire Maul. Go North every chance you can. You will come across an Arena. Drop into it and walk all the way to the north end of the Arena and wait.|
 
 H Feathermoon Stronghold|QID|99999|N|Hearth back to Feathermoon.|
 
@@ -326,7 +318,7 @@ A Ysondre's Farewell|QID|25438|M|81.50,42.47|N|From Ysondre.|
 
 T Ysondre's Farewell|QID|25438|M|77.19,56.54|N|To Adella.|
 
-N END|QID|99999|N|This is the End of Feralas. Time to go to Thousand Needles! I would recommend going to Darnassas now for training, banking, and auction needs.  Our Thousand Needles guide starts there.|
+N END|QID|99999|N|This is the End of Feralas. Time to go to Thousand Needles! I would recommend going to Darnassas now for training, banking, and auction needs. Our Thousand Needles guide starts there.|
 
 ]]
 

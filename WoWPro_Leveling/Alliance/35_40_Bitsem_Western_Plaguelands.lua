@@ -97,7 +97,6 @@ T Zen'Kiki, the Druid|QID|26953|M|48.93,54.74|N|To Adrine Towhide.|
 A A Different Approach|QID|26954|PRE|26953|M|48.93,54.74|N|From Adrine Towhide.|
 T I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.58,54.89|N|To Selyria Groenveld.|
 
-A Threat to the Kingdom|QID|26761|M|48.71,34.56|Z|
 C A Different Approach|QID|26954|M|53.72,53.59|N|Poke (right click) him to get him to pull a bird. Help him kill it. Repeat.|
 T A Different Approach|QID|26954|M|49.00,54.72|N|To Adrine Towhide.|
 T Northridge Lumber Mill|QID|26935|M|48.12,32.45|N|To Nathaniel Dumah.|
@@ -139,7 +138,7 @@ C It's About Time!|QID|27156|M|43.09,16.33|N|Talk to Trainees. Challenge and bea
 T It's About Time!|QID|27156|M|43.28,15.96|N|To Lieutenant Myner.|
 
 A Drudges... |QID|27157|PRE|27157|M|43.28,15.96|N|From Lieutenant Myner.|
-C Drudges... |QID|27157|QO|Shadril slain: 0/1|M|45.86,12.31;45.37,9.73|N|Enter the mine. Kill the *ew* huge spider.|
+C Drudges... |QID|27157|QO|Shadril slain: 1/1|M|45.86,12.31;45.37,9.73|N|Enter the mine. Kill the *ew* huge spider.|
 T Drudges... |QID|27157|M|43.27,15.91|N|To Lieutenant Myner.|
 
 C Taelan Fordring's Legacy|QID|27151|M|54.78,24.69|N|Kill Gnoll looters.|
@@ -150,17 +149,20 @@ C Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.
 T Unusual Behavior... Even For Gnolls|QID|27152|M|57.28,35.71|
 
 A The Good People of Hearthglen|QID|27153|PRE|27152|M|57.28,35.71|
-C The Good People of Hearthglen|QID|27153|M|44.86,12.57;44.45,13.55;43.66,13.76;42.16,18.33|N|Back to Hearthglen. Follow the arrows and question the citizens.|
-T The Good People of Hearthglen|QID|27153|M|42.16,18.33|N|To High Cleric Alphus.|
+N Bree Ironstock|QID|27153|M|43.68,17.22|QO|Speak with Bree Ironstock: 1/1|N|Back to Hearthglen. Talk to Bree Ironstock.|
+N High Cleric Alphus|QID|27153|M|42.15,18.24|QO|Speak with High Cleric Alphus: 1/1|N|Talk to High Cleric Alphus.|
+N Morris Vant|QID|27153|M|44.38,13.55|QO|Speak with Morris Vant: 1/1|N|Talk to Morris Vant.|
+C The Good People of Hearthglen|QID|27153|M|44.82,12.47|N|Talk to Outfitter Mendelev.|
+T The Good People of Hearthglen|QID|27153|M|44.82,12.47|N|(With a UI Alert)|
 
-A Bagging Bisp|QID|27154|PRE|27153|M|42.16,18.33|N|From High Cleric Alphus.|
+A Bagging Bisp|QID|27154|PRE|27153|M|42.16,18.33|N|(From a UI Alert)|
 C Bagging Bisp|QID|27154|M|45.90,18.46|N|Head up to the top of the tower and confront Bisp.|
 T Bagging Bisp|QID|27154|M|45.90,18.46|
 
 A Turning Yourself In|QID|27155|PRE|27154|M|45.90,18.46|
 T Turning Yourself In|QID|27155|M|42.06,14.61|N|Head to the Highlord and face the music.|
 
-F Mender's Stead|QID|26957|NC|M|44.62,18.37|N|Fly to Mender's Stead.|
+F The Mender's Stead|QID|26957|NC|M|44.62,18.37|N|Fly to Mender's Stead.|
 
 T The Long Trip Home|QID|26957|M|50.59,52.52|N|To Del Gahrron.|
 A Memories from a Lost Past|QID|27017|PRE|26957|M|50.59,52.52|N|From Del Gahrron.|
@@ -174,17 +176,15 @@ C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43;64.88,59.32|N|The Prayer 
 
 T Return to the Stead|QID|27057|M|49.32,54.76|N|To Field Agent Kaartish.|
 A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
+A Zen'Kiki and the Cultists|QID|26955|M|48.93,54.76|N|From Adrine Towhide.|
 T Memories from a Lost Past|QID|27017|M|50.60,52.60|N|To Del Gahrron.|
 
-C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill INstructor Malicia and loot the orders.|
-T Desperate Acts|QID|27054|M|66.04,47.75|N|To Instructor Malicia.|
-
-A Students of Krastinov|QID|27055|PRE|27054|M|66.04,47.75|N|From Instructor Malicia.|
+C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill Instructor Malicia and loot the orders.|
+T Desperate Acts|QID|27054|M|66.04,47.75|N|(With a UI Alert)|
+A Students of Krastinov|QID|27055|PRE|27054|M|66.04,47.75|N|(From a UI Alert)|
+C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|
 C Students of Krastinov|QID|27055|M|65.22,38.83;64.64,35.20|N|Enter the cave and kill, kill, kill.|
 T Students of Krastinov|QID|27055|M|49.31,54.81|N|To Field Agent Kaartish.|
-
-A Zen'Kiki and the Cultists|QID|26955|M|48.93,54.76|N|From Adrine Towhide.|
-C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|
 T Zen'Kiki and the Cultists|QID|26955|M|48.93,54.77|N|To Adrine Towhide.|
 
 F Andorhal|QID|27197|M|50.52,52.36|N|Fly to Andorhal.|

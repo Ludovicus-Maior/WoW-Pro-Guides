@@ -2,11 +2,10 @@ WoWPro.Leveling:RegisterGuide('WkjSotBar3035', 'Southern Barrens', 'WKJezz', '25
 
 return [[
 
-N This Guide|QID|99999|N|Starts off where Stonetalon Mountains Leaves off. When you are ready, manually close this step to continue.|
-
-F Northwatch Expedition Base Camp|QID|99999|N|Fly on over.|
+R Stonetalon Pass|QID|24862|N|Welcome to the Southern Barrens guide. This guide starts off where Stonetalon Mountains leaves off with the lead-up quest All's Clear. Alternatively, take the Hero's Call: Southern Barrens quest from Darnassus or Exodar. For both, head to Commander Walpole at Stonetalon Pass, and hand in the respective quest.|M|29.89,8.97|
 
 T All's Clear|QID|25852|O|M|29.85,9.00|N|To Commander Walpole.|
+T Hero's Call: Southern Barrens! |QID|28550|O|M|29.89,8.97|To Commander Walpole.|
 
 A Running the Gauntlet|QID|24862|M|29.83,8.97|N|From Commander Walpole.|
 
@@ -46,7 +45,7 @@ C Repel Boarders!|QID|24934|M|57.47,60.97|Z|Northern Barrens|N|Tell the Admiral 
 
 T Repel Boarders!|QID|24934|M|57.47,60.97|Z|Northern Barrens|N|To Captain Fisher.|
 
-R Northwatch Hold|QID|99999|N|Ask for a ride back from Captain Fisher.|
+R Northwatch Hold|QID|24938|N|Ask for a ride back from Captain Fisher.|
 
 A The Guns of Northwatch|QID|24938|M|69.22,49.07|N|From Admiral Aubrey.|
 
@@ -56,7 +55,7 @@ A Langridge Shot|QID|24941|M|67.03,46.57|N|From Thomas Paxton.|
 
 C Langridge Shot|QID|24941|M|67.63,46.59|N|In the tower beside the quest giver.|
 
-T Langridge Shot|QID|24941|M|66.98,46.54|
+T Langridge Shot|QID|24941|M|66.98,46.54|N|To Paxton's Field Cannon.|
 
 A Re-Take the Courtyard|QID|24943|M|66.98,46.58|N|From Thomas Paxton.|
 
@@ -85,13 +84,12 @@ A Silencing Rageroar|QID|24956|M|66.92,46.79|N|From Tolliver Houndstooth.|
 T Re-Take the Courtyard|QID|24943|M|67.00,46.57|N|To Thomas Paxton.|
 
 A Lifting the Siege|QID|24948|M|67.00,46.57|N|From Thomas Paxton.|
-
-C Lifting the Siege|QID|24948|U|52017|M|68.17,41.47|
-
-C Silencing Rageroar|QID|24956|M|67.71,36.88|N|Kill the Hex master, then Rageroar|
+K Karga Rageroar |QID|24956|L|52036|M|67.6,36.7|N|Kill Karga Rageroar and loot his helm.|
+C Lifting the Siege|QID|24948|U|52017|M|68.17,41.47|N|Burn the Blade Thrower.|QO|Rageroar Blade Thrower Burned: 1/1|M|68.00,36.45|
+C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|
+C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|
 
 C Lifting the Siege|QID|24948|US|U|52017|M|67.36,37.16|
-
 T Silencing Rageroar|QID|24956|M|66.94,46.77|N|To Tolliver Houndstooth.|
 
 T Lifting the Siege|QID|24948|M|66.99,46.60|N|To Thomas Paxton.|
@@ -182,7 +180,7 @@ T To Harvest Chaos|QID|24574|M|50.37,40.69|N|To Naralex.|
 
 A The Nightmare Scar|QID|24601|M|50.37,40.69|N|From Naralex.|
 
-R Run to this point|QID|99999|CC|M|48.31,38.89|N|Then tell Naralex you are ready.|
+R Run to this point|QID|24601|CC|M|48.31,38.89|N|Then tell Naralex you are ready.|
 
 C The Nightmare Scar|QID|24601|M|48.20,38.71|N|Protect the Druid|
 
@@ -198,21 +196,17 @@ A Diplomacy By Another Means|QID|25044|M|49.90,49.43|N|From Ambassador Gaines.|
 
 A Lion's Pride|QID|25041|M|49.78,50.46|N|From Sam Trawley.|
 
-A Heartswood|QID|1738|M|49.43,49.18|N|From Takar the Seer.|
-
-A The Orb of Soran'ruk|QID|1740|M|49.47,49.10|N|From Doan Karhan.|
-
 C Lion's Pride|QID|25041|S|M|33.84,39.36|
-
-C Fields of Blood|QID|25043|S|M|31.87,30.50|
 
 C Diplomacy By Another Means|QID|25044|U|49782|M|43.05,41.87|N|Blow the horn in the pit.|
 
 T Diplomacy By Another Means|QID|25044|M|43.02,41.73|N|UI Alert.|
 
-C Fields of Blood|QID|25043|US|M|46.35,47.19|
+C Fields of Blood|QID|25043|S|M|31.87,30.50|Take out the grunts. The Capture the Hill quest will spawn about eight of the ten grunts needed.|
 
-C A Line in the Dirt|QID|25045|M|46.32,47.23|
+C A Line in the Dirt|QID|25045|M|46.32,47.23;49.43,54.03|N|Capture the Hill then defend it. Don't reclick the hill if you lose control of it, or the number of mobs will multiply. If you lose control, fall back and try again later, or try another hill|
+
+C Fields of Blood|QID|25043|US|M|46.35,47.19|
 
 C Lion's Pride|QID|25041|US|M|46.54,47.44|
 
@@ -228,7 +222,7 @@ T Lion's Pride|QID|25041|M|49.74,50.50|N|To Sam Trawley.|
 
 A Marching On Our Stomachs|QID|25042|M|49.74,50.50|N|From Sam Trawley.|
 
-C Clap 'Em In Irons|QID|25057|S|U|52271|M|44.62,49.99|
+C Clap 'Em In Irons|QID|25057|S|U|52271|M|44.62,49.99|N|Challenge Looters, bring their health down to 20%, then use the Northwatch Manacles on them.|
 
 C The Taurajo Briefs|QID|25059|M|45.36,52.42|N|Sparkley Parchments located around the camp.|
 
@@ -356,7 +350,7 @@ A Bael'dun Rescue|QID|25153|M|49.39,86.92|N|From Bael'dun Survivor.|
 
 A Who Did This?|QID|25163|M|49.59,87.14|N|From Wounded Bael'dun Officer.|
 
-N WARNING: Read this.|QID|99999|N|Some people do not ready quest text closely.  The fire in the keep will 1 shot you. If you are at level for this zone.  Every time you are near a valve (they bubble) stand by it and activate it.  You will be protected. You need to do this in regularly, not just one time. (Click the check box to continue)|
+N WARNING: Read this.|QID|99999|N|Some people do not ready quest text closely. The fire in the keep will 1 shot you. If you are at level for this zone. Every time you are near a valve (they bubble) stand by it and activate it. You will be protected. You need to do this in regularly, not just one time. (Click the check box to continue)|
 
 C Bael'dun Rescue|QID|25153|S|M|49.41,86.88|
 
@@ -398,7 +392,7 @@ T The Deed Is Done|QID|25185|M|43.48,78.27|N|To General Twinbraid.|
 
 A Reinforcements From Theramore|QID|26687|M|43.48,78.27|N|From General Twinbraid.|
 
-N The End.|QID|99999|N|Well Done on your achievement.  The next zone is Dustwallow Marsh. Close this step and you will lead right into it.  If you wish to try a different zone you can right click the title of this addon and load a new guide from our Guide list. WKjezz|
+N The End.|QID|99999|N|Well Done on your achievement. The next zone is Dustwallow Marsh. Close this step and you will lead right into it. If you wish to try a different zone you can right click the title of this addon and load a new guide from our Guide list. WKjezz|
 
 ]]
 

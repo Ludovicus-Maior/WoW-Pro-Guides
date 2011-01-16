@@ -14,16 +14,7 @@ A The Battle for Arathi Basin!|QID|8105|RANK|1|M|39.96,46.93|N|From Field Marsha
 A Worth Its Weight in Gold|QID|26035|RANK|1|M|40.34,49.03|N|From Skuerto.|
 
 A Shakes O'Breen|QID|26336|RANK|1|M|40.34,49.03|N|From Skuerto.|
-A Levixus the Soul Caller|QID|10253|RANK|1|M|40.34,49.03|N|From Skuerto.|
-A Death to the Traitor King|QID|13167|RANK|1|M|40.34,49.03|N|From Skuerto.|
-A Death's Door|QID|10910|RANK|1|M|40.34,49.03|N|From Skuerto.|
 
-A Search and Rescue|QID|12037|RANK|1|M|40.34,49.03|N|From Skuerto.|
-A Man on the Inside|QID|24792|RANK|1|M|40.34,49.03|N|From Skuerto.|
-A The Foreman|QID|27756|RANK|1|M|40.34,49.03|N|From Skuerto.|
-A Prisoner of War|QID|11973|RANK|1|M|40.34,49.03|N|From Skuerto.|
-
-A Disarmament|QID|13205|RANK|1|M|40.34,49.03|N|From Skuerto. If you're going to do Utgard Keep.|
 A The Stone Shards|QID|26341|RANK|1|M|40.34,49.03|N|From Skuerto.|
 A Home Sweet Gnome|QID|26943|RANK|1|M|40.34,49.03|N|From Skuerto. If you wish to go to Gnomerigan.|
 

@@ -1,18 +1,19 @@
 WoWPro.Leveling:RegisterGuide("JamTerA6466", "Terokkar Forest - Aldor", "Jame", "64", "66", "JamNag6668", "Alliance", function()
 return [[
+
 N READ THIS!|N|This guide is for people who will choose Aldor as a faction in Shattrath. Aldor gives slightly better XP, so if you don't care then stay with this one. If you plan to choose Scryer, right-click the header and choose "Guide List", then scroll down and find the Terokkar Scryer guide.|
 F Shattrath City|QID|10211|N|Fly to Shattrath City.|M|67.80,51.50|Z|Zangramarsh|
 A A'dal|Z|Shattrath City|QID|10210|M|59.70,41.45|N|From Haggard War Veteran.|
 T A'dal|Z|Shattrath City||QID|10210|M|54.0,44.8|N|To A'dal.|
 A City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|From Khadgar.|
-C City of Light |N|Follow the npc until you get the quest completion.|QID|10211|M|54.8,44.3|
+C City of Light |N|Follow the npc until you get the quest completion.|QID|10211|M|54.8,44.3|Z|Shattrath City|
 T City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|To Kadgar.|
-N This guide follows the Aldor faction.|N|Right click the box to continue.|
+N This guide follows the Aldor faction.|N|Right click the box to continue.|Z|Shattrath City|
 N Allegiance to the Aldor|QID|10554|N|Turn in the quest "Allegiance to the Aldor" |Z|Shattrath City||M|55.00,43,98|
 A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|
 T Ishanah|N|You must take the elevator up to this area.|Z|Shattrath City|QID|10554|M|24.0,29.7|N|To Ishanah.|
 A Restoring the Light|Z|Shattrath City|QID|10021|M|24.0,29.7|N|From Ishanah.|
-h Shattrath City|QID|9957|Z|Shattrath City|N|Make Shattrath City (Aldor) your home location.|M|28.00,49.00|
+h Aldor Rise|QID|9957|Z|Shattrath City|N|Make Shattrath City (Aldor) your home location.|M|28.00,49.00|
 N Sell junk, repair, restock, train skills|QID|9957|N|Sell junk, repair, restock, train skills.|M|27.92,47.45|
 N Do Underbog or Slave Pens (Optional)|QID|9957|N|You can do the instances in Zangarmarsh for extra XP if you wish.|M|27.92,47.45|Z|Shattrath City|
 A Rather Be Fishin'|QID|10037|M|64.0,15.5|Z|Shattrath City|N|From Seth.|

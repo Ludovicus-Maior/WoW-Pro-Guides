@@ -1,8 +1,6 @@
 WoWPro.Leveling:RegisterGuide("JamHow7071", "Howling Fjord", "Jame", "70", "71", "JamBor7173", "Horde", function()
---Original guide written/designed by Jame
---Revised by ndlarsen
---Addon Version: Last Modified (yyyy-mm-dd) 2010-08-09
 return [[
+
 R Vengeance Landing |QID|11167|N|Take the Zeppelin from Undercity.|Z|Tirisfal Glades|M|59.09,59.02|
 A The New Plague |QID|11167|M|78.5,29.0|
 A Let Them Eat Crow |QID|11227|M|79.1,31.2|
@@ -13,6 +11,7 @@ K Fjord Crows |QID|11227|L|33238|N|Use the "Sic'em" ability of your Plaguehound 
 C War is Hell |QID|11270|U|33278|S|N|Burn the Forsaken and Alliance corpses with the Burning Torch.|
 C Let Them Eat Crow |QID|11227|U|33238|N|Use the Crow Meat 5 times.|
 C The New Plague |QID|11167|N|Head southeast to the wrecked ship. The containers are on and around the ship.|M|81,35|
+C War is Hell |QID|11270|U|33278|US|N|Burn the Forsaken and Alliance corpses with the Burning Torch.|
 
 T War is Hell |QID|11270|M|78.6,31.2|
 A Reports from the Field |QID|11221|
@@ -87,7 +86,7 @@ N Watchtower Burned |QID|11285|QO|Winterskorn Watchtower Burned: 1/1|U|33472|N|T
 N Bridge Burned |QID|11285|QO|Winterskorn Bridge Burned: 1/1|U|33472|N|Head behind the tower and go west to the bridge, burn it.|M|66.0,39.9|
 N Dwelling Burned |QID|11285|QO|Winterskorn Dwelling Burned: 1/1|U|33472|N| Over the bridge, just west, is a small building, set it alight as well.|M|65,41|
 N Barracks Burned |QID|11285|QO|Winterskorn Barracks Burned: 1/1|U|33472|N| The final structure is to the northwest, careful not to aggro the elite when you light it up.|M|64,40|
-
+C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|US|
 
 T Baleheim Bodycount |QID|11283|M|71.1,39.1|
 T Baleheim Must Burn! |QID|11285|

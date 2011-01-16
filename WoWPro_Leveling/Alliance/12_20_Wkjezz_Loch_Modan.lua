@@ -4,10 +4,10 @@ return [[
 A A Tiny, Clever Commander|QID|26843|M|25.50,17.69|N|From Mountaineer Stormpike.|
 C A Tiny, Clever Commander|QID|26843|M|25.81,31.24|
 T A Tiny, Clever Commander|QID|26843|M|25.47,18.02|N|To Mountaineer Stormpike.|
-A Who's In Charge Here?|QID|26845|M|25.41,17.90|N|From Mountaineer Stormpike.|
 A Kobold and Kobolder|QID|26844|M|25.47,18.02|N|From Mountaineer Stormpike.|
 C Kobold and Kobolder|QID|26844|M|31.20,26.70|
 T Kobold and Kobolder|QID|26844|M|25.41,17.90|N|To Mountaineer Stormpike.|
+A Who's In Charge Here?|QID|26845|M|25.41,17.90|N|From Mountaineer Stormpike.|
 A Filthy Paws|QID|26863|M|25.41,17.90|N|From Mountaineer Stormpike.|
 A A Nasty Exploit|QID|26846|M|25.41,17.90|N|From Scout Dorli.|
 R Filthy Paws|QID|26863|CC|M|35.29,17.93|N|Run here|
@@ -16,35 +16,37 @@ C A Nasty Exploit|QID|26846|M|36.23,23.45|
 C Filthy Paws|QID|26863|M|35.09,24.63|
 T Filthy Paws|QID|26863|M|25.48,17.74|N|To Mountaineer Stormpike.|
 T Who's In Charge Here?|QID|26845|M|25.48,17.74|N|To Mountaineer Stormpike.|
-T A Nasty Exploit|QID|26846|M|25.48,17.74|N|To Scout Dorli.|
 A The Bearer of Gnoll-edge|QID|26864|M|25.48,17.74|N|From Mountaineer Stormpike.|
+T A Nasty Exploit|QID|26846|M|25.48,17.74|N|To Scout Dorli.|
 h Stoutlager Inn|QID|26928|M|35.48,48.44|N|At Innkeeper Hearthstove.|
 T The Bearer of Gnoll-edge|QID|26864|M|35.09,46.41|N|To Mountaineer Kadrell.|
-A Out of Gnoll-where|QID|26842|M|35.09,46.41|N|From Mountaineer Kadrell.|
 A Suddenly, Murlocs!|QID|26927|M|35.09,46.41|N|From Mountaineer Kadrell.|
+A Out of Gnoll-where|QID|26842|M|35.09,46.41|N|From Mountaineer Kadrell.|
 T Suddenly, Murlocs!|QID|26927|M|34.81,49.06|N|To Cannary Caskshot.|
 A Smells Like A Plan|QID|26928|M|34.81,49.06|N|From Cannary Caskshot.|
-A WANTED: The Dark Iron Spy|QID|13648|M|37.26,46.44|N|From Innkeeper Hearthstove.|
+A WANTED: The Dark Iron Spy|QID|13648|M|37.26,46.44|N|From "Wanted" sign.|
 A Looking for Lurkers|QID|25118|M|35.37,42.86|N|From Dakk Blunderblast.|
 C Looking for Lurkers|QID|25118|S|M|29.01,48.29|
 C Out of Gnoll-where|QID|26842|QO|Mosshide Ear: 12/12|M|26.25,42.37|
 C Looking for Lurkers|QID|25118|US|M|29.01,48.29|
 A In Defense of the King's Lands|QID|26146|M|23.48,75.03|N|From Captain Rugelfuss.|
 A The Trogg Threat|QID|26145|M|23.44,74.94|N|From Mountaineer Cobbleflint.|
+R Up the Trail|QID|26145|CC|M|23.21,76.52;22.58,77.34;26.66,77.34;23.48,79.83;24.85,78.01;27.51,76.46;30.31,78.37|N|Go up this mountain trail and kill Troggs around the valley.|
 C In Defense of the King's Lands|QID|26146|M|35.78,80.53|
 C The Trogg Threat|QID|26145|M|31.63,69.62|
 T The Trogg Threat|QID|26145|M|23.45,74.98|N|To Mountaineer Cobbleflint.|
 T In Defense of the King's Lands|QID|26146|M|23.41,75.00|N|To Captain Rugelfuss.|
 A A Decisive Strike|QID|26148|M|23.37,75.01|N|From Captain Rugelfuss.|
 A Bigger and Uglier|QID|26147|M|23.40,75.02|N|From Mountaineer Wallbang.|
-C A Decisive Strike|QID|26148|M|34.22,61.07|
-C Bigger and Uglier|QID|26147|M|35.04,59.37|
-R WANTED: The Dark Iron Spy|QID|13648|CC|M|40.37,67.05|
-C WANTED: The Dark Iron Spy|QID|13648|M|36.46,61.23|
-A Explorers' League Document (1 of 6)|QID|13656|M|36.76,61.25|
-C Smells Like A Plan|QID|26928|M|42.92,47.90|
+C Bigger and Uglier|QID|26147|M|35.04,59.37|S|N|Killing Stonesplinters
+C A Decisive Strike|QID|26148|M|33.08;70.65;35.36,65.18;35.64.62.25;33.86,62.19;35.60,61.10|N|Grawmug in the rear of the cave|
+C Bigger and Uglier|QID|26147|M|35.04,59.37|US|N|Killing Stonesplinters|
 T A Decisive Strike|QID|26148|M|23.40,75.01|N|To Captain Rugelfuss.|
 T Bigger and Uglier|QID|26147|M|23.34,75.01|N|To Mountaineer Wallbang.|
+R WANTED: The Dark Iron Spy|QID|13648|CC|M|23.21,76.52;30.31,78.37;34.11,75.11;22.62,77.46;38.6,73.78;40.37,67.05|N|Take the Trail, go through the Trogg camp and swing south around the mountain. Take trail up.|
+C WANTED: The Dark Iron Spy|QID|13648|M|36.46,61.23|N|Watch out for the Dark Iron Courier!|
+A Explorers' League Document (1 of 6)|QID|13656|M|36.76,61.25|
+C Smells Like A Plan|QID|26928|M|42.92,47.90|
 T Explorers' League Document (1 of 6)|QID|13656|M|37.18,47.82|N|To Torren Squarejaw.|
 T Out of Gnoll-where|QID|26842|M|35.03,46.56|N|To Mountaineer Kadrell.|
 A Buzz Off|QID|26932|M|35.01,46.42|N|From Mountaineer Kadrell.|
