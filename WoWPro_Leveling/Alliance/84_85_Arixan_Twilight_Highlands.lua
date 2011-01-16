@@ -274,8 +274,8 @@ A Fight Like a Wildhammer|QID|27752|M|49.76,29.23|N|From Low Shaman Blundy.|
 C Fight Like a Wildhammer|QID|27752|S|M|53.08,27.73|
 C Never Leave a Dinner Behind|QID|27753|S|M|52.55,27.99|
 C Dragonmaw Takedown|QID|27754|M|48.76,39.88|
-C Fight Like a Wildhammer|QID|27752;28861|US|M|53.08,27.73|N|You can go back and forth between towns. Try to pick those not fighting.|
-C Never Leave a Dinner Behind|QID|27753;28862|US|M|52.55,27.99|N|You can go back and forth between towns. Try to pick those not fighting.|
+C Fight Like a Wildhammer|QID|27752|US|M|53.08,27.73|N|You can go back and forth between towns. Try to pick those not fighting.|
+C Never Leave a Dinner Behind|QID|27753|US|M|52.55,27.99|N|You can go back and forth between towns. Try to pick those not fighting.|
 
 T Dragonmaw Takedown|QID|27754|M|49.03,29.69|N|To Colin Thundermar.|
 T Fight Like a Wildhammer|QID|27752|M|49.77,29.20|N|To Low Shaman Blundy.|
