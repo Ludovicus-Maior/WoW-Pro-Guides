@@ -331,8 +331,6 @@ C Putting the Pieces Together|QID|26439|M|33.47,43.80|US|N|Click on Dormant Ston
 T Putting the Pieces Together|QID|26439|M|34.2,35|N|To Kirin'Var Ghost.|
 T Making Things Crystal Clear|QID|26437|M|34.40,34.40|N|To Kor the Immovable.|
 T Intervention|QID|26438|M|34.40,34.40|N|To Kor the Immovable.|
-A Pebble|QID|28869|M|34.40,34.40|N|From Kor the Immovable.|
-T Pebble|QID|28869|N|To Pebble.|
 A Clingy|QID|26440|N|From Pebble.|
 
 C Clingy|QID|26440|M|30.00,46.00|N|Pebble will begin "harvesting" the crystal. Defend him.|
@@ -351,20 +349,20 @@ T Rock Bottom|QID|26575|M|34.40,34.40|N|To Kor the Immovable.|
 A Steady Hand|QID|26576|M|34.40,34.40|N|From Kor the Immovable.|
 A Rocky Upheaval|QID|26577|M|34.40,34.40|N|From Kor the Immovable.|
 
-T Steady Hand|QID|26576|M|33.00,24.10|N|To Terrath the Steady.|
-A Don't. Stop. Moving.|QID|26656|M|33.00,24.10|N|From Terrath the Steady.|
+T Steady Hand|QID|26576|M|39.9,19.4|N|To Terrath the Steady.|
+A Don't. Stop. Moving.|QID|26656|M|39.9,19.4|N|From Terrath the Steady.|
 
 C Don't. Stop. Moving.|QID|26656|M|42.50,13.00;50.60,13.00|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run northwest to about (42.50,13.00), then head directly east to the stone circle at (50.60, 13.00)|
-T Don't. Stop. Moving.|QID|26656|M|33.00,24.10|N|To Terrath the Steady.|
-A Hard Falls|QID|26657|M|33.00,24.10|N|From Terrath the Steady.|
-A Fragile Values|QID|26658|M|33.00,24.10|N|From Terrath the Steady.|
+T Don't. Stop. Moving.|QID|26656|M|39.9,19.4|N|To Terrath the Steady.|
+A Hard Falls|QID|26657|M|39.9,19.4|N|From Terrath the Steady.|
+A Fragile Values|QID|26658|M|39.9,19.4|N|From Terrath the Steady.|
 
 C Hard Falls|QID|26657|M|33.60,21.40|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
 C Fragile Values|QID|26658|M|35.38,26.40|N|Search the area until you find two stone troggs with a basilisk in a net. Kill the two troggs and loot them to get a Stonework Mallet.|
 
-T Hard Falls|QID|26657|M|33.00,24.10|N|To Terrath the Steady.|
-T Fragile Values|QID|26658|M|33.00,24.10|N|To Terrath the Steady.|
-A Resonating Blows|QID|26659|M|33.00,24.10|N|From Terrath the Steady.|
+T Hard Falls|QID|26657|M|39.9,19.4|N|To Terrath the Steady.|
+T Fragile Values|QID|26658|M|39.9,19.4|N|To Terrath the Steady.|
+A Resonating Blows|QID|26659|M|39.9,19.4|N|From Terrath the Steady.|
 
 C Resonating Blows|QID|26659|U|60266|M|32.60,24.30|N| Terrath will come and toss you up onto some floating rocks. Jump from rock to rock until you reach a cluster of rocks all on the same level. You will attack Aeosera from these rocks. When she targets the platform you are standing on, jump to another and continue to attack. Continue attacking and jumping from rock to rock until she surrenders.|
 
@@ -395,9 +393,8 @@ A Corruption Destuction|QID|26585|M|72.20,53.90|N|From Gorsik the Tumultuous.|
 A Wrath of the Fungalmancer|QID|26583|M|68.50,26.30|N|From Ruberick.|
 C Shaken and Stirred|QID|26584|N|Right behind Ruberick, you may have notice there are troggs raining from the sky. Kill 8 of these Verlock Pillartumblers.|
 
-N Wrath of the Fungalmancer|QID|26583|M|69.8,31.8|N|Go in the direction Ruberick is facing, until you enter Fungal Deep. Follow the cave down until you run into Earthmender Norsala. If you reach a point where the path splits off in different directions, it means someone else is doing the event. Wait a couple minutes and she should re-appear.|
-N Wrath of the Fungalmancer|QID|26583|N|Speak to Norsala and let her know you are ready to start the event.Follow him, attacking when you can.|
-C Wrath of the Fungalmancer|QID|26583|N|He’ll lead you on a merry chase through his cave, stopping a couple times. Be sure to watch out for the mushrooms he throws each time he stops. They will start small and begin growing, eventually exploding for a moderate amount of damage that hits everyone within 5 yards or so. You can stop this by attacking the mushrooms.|
+N Wrath of the Fungalmancer|QID|26583|M|69.8,31.8|N|Go in the direction Ruberick is facing, until you enter Fungal Deep. Follow the cave down until you run into Earthmender Norsala.Speak to Norsala and let her know you are ready to start the event.If you reach a point where the path splits off in different directions, it means someone else is doing the event.Follow him, attacking when you can.If she is not there you can follow the tunnel to the right and catch up to him and attack him.Everyone on his threat list gets credit for the kill.|
+C Wrath of the Fungalmancer|QID|26583|N|He'll lead you on a merry chase through his cave, stopping a couple times. Be sure to watch out for the mushrooms he throws each time he stops. They will start small and begin growing, eventually exploding for a moderate amount of damage that hits everyone within 5 yards or so. You can stop this by attacking the mushrooms.|
 T Wrath of the Fungalmancer|QID|26583|M|68.50,26.30|N|Once Glop makes his last stand and is finished off, take the path to your left, then turn right to head out of the cave.|
 
 C Corruption Destruction|QID|26585|M|73.00,27.00|N|Loot Verlok Miracle-Grow, which will be on the ground and in crates all over this area.|
