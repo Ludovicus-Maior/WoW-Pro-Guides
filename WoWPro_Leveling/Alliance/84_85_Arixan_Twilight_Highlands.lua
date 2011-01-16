@@ -644,23 +644,5 @@ A Skullcrusher the Mountain|QID|27787|M|45.40,87.93|N|From The Hammer of Twiligh
 C Skullcrusher the Mountain|QID|27787|M|45.31,88.25|
 T Skullcrusher the Mountain|QID|27787|M|43.36,57.51|N|To Kurdran Wildhammer.|
 
-A Never Leave a Dinner Behind|QID|28862|M|49.76,29.23|N|From Fanny Thundermar.|
-A Fight Like a Wildhammer|QID|28861|M|49.76,29.23|N|From Low Shaman Blundy.|
-A Keeping the Dragonmaw at Bay|QID|28860|
-A Warlord Halthar is Back|QID|28863|
-
-C Fight Like a Wildhammer|QID|28861|S|M|53.08,27.73|
-C Never Leave a Dinner Behind|QID|28862|S|M|52.55,27.99|
-C Keeping the Dragonmaw at Bay|QID|28860|S|M|52.55,27.99|
-C Warlord Halthar is Back|QID|28863|M|52.55,27.99|
-C Keeping the Dragonmaw at Bay|QID|28860|US|M|52.55,27.99|
-C Fight Like a Wildhammer|QID|28861|US|M|53.08,27.73|N|You can go back and forth between towns. Try to pick those not fighting.|
-C Never Leave a Dinner Behind|QID|28862|US|M|52.55,27.99|N|You can go back and forth between towns. Try to pick those not fighting.|
-
-
-T Fight Like a Wildhammer|QID|28861|M|49.77,29.20|N|To Low Shaman Blundy.|
-T Never Leave a Dinner Behind|QID|27753|M|49.79,29.23|N|To Fanny Thundermar.|
-
 ]]
-
 end)
