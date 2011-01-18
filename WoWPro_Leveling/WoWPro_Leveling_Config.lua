@@ -34,23 +34,34 @@ local function createBlizzOptions()
 						if WoWPro.Leveling:IsEnabled() then WoWPro.Leveling:Disable() else WoWPro.Leveling:Enable() end
 					end
 			}, 
-			blank2 = {
+			hide = {
 				order = 3,
+				type = "toggle",
+				name = L["Enable Hiding"],
+				desc = L["Enables/Disables hiding the leveling module when inside an instance (Dungeon, Arena ...)."],
+				width = "full",
+				get = function(info) return WoWProCharDB.AutoHideLevelingInsideInstances ; end,
+				set = function(info,val)  
+						if WoWProCharDB.AutoHideLevelingInsideInstances == true then WoWProCharDB.AutoHideLevelingInsideInstances=false; else WoWProCharDB.AutoHideLevelingInsideInstances=true; end
+					end
+			}, 
+			blank2 = {
+				order = 4,
 				type = "description",
 				name = " ",
 			},    
 			helpheader = {
-				order = 4,
+				order = 5,
 				type = "header",
 				name = "WoW-Pro Leveling Help",
 			},
 			blank3 = {
-				order = 5,
+				order = 6,
 				type = "description",
 				name = " ",
 			},  
 			accept = {
-				order = 6,
+				order = 7,
 				type = "description",
 				fontSize = "medium",
 				name = "Accept Quest",
@@ -59,7 +70,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			complete = {
-				order = 7,
+				order = 8,
 				type = "description",
 				fontSize = "medium",
 				name = "Complete Quest",
@@ -68,7 +79,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			turnin = {
-				order = 8,
+				order = 9,
 				type = "description",
 				fontSize = "medium",
 				name = "Turn In Quest",
@@ -77,7 +88,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			kill = {
-				order = 9,
+				order = 10,
 				type = "description",
 				fontSize = "medium",
 				name = "Kill",
@@ -86,7 +97,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			runto = {
-				order = 10,
+				order = 11,
 				type = "description",
 				fontSize = "medium",
 				name = "Run To",
@@ -95,7 +106,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			hearth = {
-				order = 11,
+				order = 12,
 				type = "description",
 				fontSize = "medium",
 				name = "Use Hearthstone",
@@ -104,7 +115,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			sethearth = {
-				order = 12,
+				order = 13,
 				type = "description",
 				fontSize = "medium",
 				name = "Set Hearthstone",
@@ -113,7 +124,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			fly = {
-				order = 13,
+				order = 14,
 				type = "description",
 				fontSize = "medium",
 				name = "Fly To",
@@ -122,7 +133,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			getfp = {
-				order = 14,
+				order = 15,
 				type = "description",
 				fontSize = "medium",
 				name = "Get Flight Path",
@@ -131,7 +142,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			note = {
-				order = 15,
+				order = 16,
 				type = "description",
 				fontSize = "medium",
 				name = "Note",
@@ -140,7 +151,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			buy = {
-				order = 16,
+				order = 17,
 				type = "description",
 				fontSize = "medium",
 				name = "Buy",
@@ -149,7 +160,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			boat = {
-				order = 17,
+				order = 18,
 				type = "description",
 				fontSize = "medium",
 				name = "Go by Boat or Zeppelin",
@@ -158,7 +169,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},    
 			use = {
-				order = 18,
+				order = 19,
 				type = "description",
 				fontSize = "medium",
 				name = "Use Item",
@@ -167,7 +178,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},    
 			level = {
-				order = 19,
+				order = 20,
 				type = "description",
 				fontSize = "medium",
 				name = "Level Up",
@@ -176,7 +187,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},    
 			repair = {
-				order = 20,
+				order = 21,
 				type = "description",
 				fontSize = "medium",
 				name = "Repair/Restock",

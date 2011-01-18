@@ -571,6 +571,22 @@ end
 function WoWPro.Leveling:EventHandler(self, event, ...)
 	WoWPro:dbp("Running: Leveling Event Handler")
 		
+	-- Noticing if we have entered a Dungeon!
+	if event == "ZONE_CHANGED_NEW_AREA" and WoWProCharDB.AutoHideLevelingInsideInstances == true then
+		if IsInInstance() then
+			WoWPro:Print("|cff33ff33Instance Auto Hide|r: Leveling Module")
+			WoWPro.MainFrame:Hide()
+			WoWPro.Titlebar:Hide()
+			WoWPro.Hidden = true
+			return
+		elseif WoWPro.Hidden == true then
+			WoWPro:Print("|cff33ff33Instance Exit Auto Show|r: Leveling Module")
+			WoWPro.MainFrame:Show()
+			WoWPro.Titlebar:Show()
+			WoWPro.Hidden = nil
+		end
+	end	
+
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
 		WoWPro.Leveling.CompletingQuest = true
@@ -582,7 +598,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	end	
 	if event == "CHAT_MSG_LOOT" then
 		WoWPro.Leveling:AutoCompleteLoot(...)
-	end	
+	end
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
 		WoWPro.Leveling:AutoCompleteZone(...)
 	end
