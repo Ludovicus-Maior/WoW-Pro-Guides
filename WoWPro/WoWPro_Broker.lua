@@ -197,7 +197,9 @@ function WoWPro:NextStep(k,i)
   				name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
     				canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfo(factionIndex)
 				if rep == name then
-					if (repID == standingId) and (replvl == 0) then
+                                              if ((repID == 0 and replvl == 0) and (standingID > 3)) then
+                                                       skip = false
+					elseif (repID == standingId) and (replvl == 0) then
 						skip = false
 					end
 					if (replvl > 0) then
