@@ -238,7 +238,7 @@ local function ParseQuests(...)
 				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
 				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 				WoWPro.target[i] = text:match("|T|([^|]*)|?")
-                                    WoWPro.rep[i] = text:match("|Rep|([^|]*)|?")
+                                    WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
 				WoWPro.prof[i] = text:match("|P|([^|]*)|?")
 				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
 
