@@ -194,10 +194,10 @@ C They Took Me Pants!|QID|28234|M|62.31,46.93|N|Upstairs of the building.|
 C Death Worthy of a Dragonmaw|QID|27813|M|61.97,49.53|N|While flying, help them up.  You get the credit without the fight.|
 C Anything We Can Get|QID|27814|US|M|62.58,46.71|N|Help any orcs up then grab their weapons on the ground before it despawns.|
 
+T They Took Me Pants!|QID|28234|M|63.20,47.65|
 T Anything We Can Get|QID|27814|M|62.57,48.74|N|To Brom Forgehammer.|
 T Death Worthy of a Dragonmaw|QID|27813|M|62.47,48.49|N|To Mackay Firebeard.|
 A Somethin' for the Boys|QID|27815|M|62.41,48.56|N|From Mackay Firebeard.|
-T They Took Me Pants!|QID|28234|M|63.20,47.65|
 
 T Somethin' for the Boys|QID|27815|M|57.42,58.15|N|To Iain Firebeard.|
 
@@ -235,7 +235,6 @@ A A Steady Supply|QID|27649|PRE|27644|M|52.42,70.39|N|From Eoin Dunwald.|
 T Donnelly Dunwald|QID|27643|M|46.53,59.17|N|To Donnelly Dunwald.|
 A Finding Beak|QID|27646|M|46.53,59.17|N|From Donnelly Dunwald.|
 
-C While Meeting The Family|QID|27641|S|M|49.80,71.20|
 C A Steady Supply|QID|27649|S|M|49.54,71.85|N|Kegs in the buildings.|
 C Sifting Through The Wreckage|QID|27642|S|M|51.94,70.32|N|On the ground and in the buildings.|
 C Finding Beak|QID|27646|QO|Search the buildings in eastern Dunwald Hovel: 1/1|M|48.44,52.57|
@@ -247,7 +246,7 @@ A Home Again|QID|27650|M|47.84,74.52|N|From Cayden Dunwald.|
 
 C Sifting Through The Wreckage|QID|27642|US|M|51.94,70.32|N|On the ground and in the buildings.|
 C Steady Supply|QID|27649|US|M|49.54,71.85|N|Kegs in the buildings.|
-C While Meeting The Family|QID|27641|US|M|49.80,71.20|
+C While Meeting The Family|QID|27641|M|49.80,71.20|
 
 T Home Again|QID|27650|M|45.97,65.53|N|To Keely Dunwald.|
 A Doing It Like a Dunwald|QID|27651|M|45.97,65.53|N|From Keely Dunwald.|
