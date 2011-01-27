@@ -45,50 +45,51 @@ def ParseArgs():
     parser.add_option('-U','--url',dest="url",help="Root URL for WoWPro Source",default='http://wow-pro.com/node/3196')
     parser.add_option('-R','--root',dest="root",help='Root directory for WoWPro_Leveling',default=DEFAULT_ROOT)
     parser.add_option('-N',"--no",dest="noupdate",action='store_true',default=False,help='Check, but do not update')
+    parser.add_option('-T',"--test",dest="test",action='store_true',default=False,help='Test updating one guide')
     (options,args) = parser.parse_args()
     return options
 
 class FindGuides(HTMLParser):
 
     def __init__(self,Root):
-	HTMLParser.__init__(self)
-	self._root = Root
-	self._href = ""
-	self._list = []
-	try:
-	    self._rootHandle =urllib.urlopen(Root)
-	    print "# Opened Root URL ",Root
-	except IOError:
-	    print "!! Failed to open Root URL."
-	    pass
+        HTMLParser.__init__(self)
+        self._root = Root
+        self._href = ""
+        self._list = []
+        try:
+            self._rootHandle =urllib.urlopen(Root)
+            print "# Opened Root URL ",Root
+        except IOError:
+            print "!! Failed to open Root URL."
+            pass
 
 
     def handle_starttag(self, tag, attrs):
-	if tag != "a" and tag != "img" : return
-	# Record the current href of the link
-	if tag == "a" :
-	    self._href = ""
+        if tag != "a" and tag != "img" : return
+        # Record the current href of the link
+        if tag == "a" :
+            self._href = ""
             for attr in attrs:
-	      if attr[0] == "href": 
-		    self._href = attr[1]
-	    return
-	if tag == "img" :
+              if attr[0] == "href": 
+                    self._href = attr[1]
+            return
+        if tag == "img" :
             for attr in attrs:
-	        if attr[0] == "src" and re.search("Button",attr[1]):
-	            self._list.append(self._href)
-		    return
-	        if attr[0] == "alt" and re.search("Source",attr[1]):
-	            self._list.append(self._href)
-		    return    
+                if attr[0] == "src" and re.search("Button",attr[1]):
+                    self._list.append(self._href)
+                    return
+                if attr[0] == "alt" and re.search("Source",attr[1]):
+                    self._list.append(self._href)
+                    return    
 
  
     def GuidesList(self):
-#	print "## Reading URL"
-	self._lump = self._rootHandle.read()
-	while( self._lump != ""): 
-	    self.feed(self._lump)
-	    self._lump = self._rootHandle.read()
-	return self._list
+#        print "## Reading URL"
+        self._lump = self._rootHandle.read()
+        while( self._lump != ""): 
+            self.feed(self._lump)
+            self._lump = self._rootHandle.read()
+        return self._list
 
 Guides = {}
 Guide2Web = {}
@@ -96,81 +97,80 @@ Guide2Web = {}
 class FindSource(HTMLParser):
 
     def __init__(self,Page):
-	HTMLParser.__init__(self)
-	self._page = Page
-	self._inP = False
-	self._inGuide = False
-	self._guideID = ""
-	self._guideIDs = []
-	self._Done = False
-	self._data = None
-	try:
-	    self._rootHandle =urllib.urlopen(Page)
-	    print "# Opened Page URL ",Page
-	except IOError:
-	    print "! Failed to open Page URL."
-	    pass
+        HTMLParser.__init__(self)
+        self._page = Page
+        self._inP = False
+        self._inGuide = False
+        self._guideID = ""
+        self._guideIDs = []
+        self._Done = False
+        self._data = None
+        try:
+            self._rootHandle =urllib.urlopen(Page)
+            print "# Opened Page URL ",Page
+        except IOError:
+            print "! Failed to open Page URL."
+            pass
 
 
     def handle_starttag(self, tag, attrs):
-	if self._Done: return
-	if tag == "p": 
-	    self._inP = True
-	    self._data = None
-	if tag == "div":
+        if self._Done: return
+        if tag == "p": 
+            self._inP = True
+            self._data = None
+        if tag == "div":
             for attr in attrs:
-	        if attr[0] == "id" and re.search("comments",attr[1]):
-		    self._Done = True
-		    self._inP = False
-	
+                if attr[0] == "id" and re.search("comments",attr[1]):
+                    self._Done = True
+                    self._inP = False
+        
 
     def handle_endtag(self, tag):
-	if tag == "p" :
-	    self._inP = False
-	    # Handle empty <p></p> pairs.  They are an empty line
-	    if self._inGuide == True and self._data == None:
-	        Guides[self._guideID].append("")
-		print "@@ Added empty line"
+        if tag == "p" :
+            self._inP = False
+            # Handle empty <p></p> pairs.  They are an empty line
+            if self._inGuide == True and self._data == None:
+                Guides[self._guideID].append("")
+                print "@@ Added empty line"
 
     def handle_data(self,data):
-	if self._inP:
-	    data = string.strip(data)
-	    if not self._inGuide :
-                mo = re.search('WoWPro.Leveling:RegisterGuide\s*\(\s*"([^"]+)"',data)
-                if not mo:
-                    mo = re.search("WoWPro.Leveling:RegisterGuide\s*\(\s*'([^']+)'",data)
-                if mo:
-                    self._guideID = mo.group(1)
-                    self._inGuide = True
-                    self._sawBrackets = False
-                    print "## Found Guide ", self._guideID, "inside", self._page
-                    self._guideIDs.append(self._guideID)
-                    Guide2Web[self._guideID] = self._page
-                    Guides[self._guideID] = []
-                    Guides[self._guideID].append(data)
-	            self._data = data
-		return
-	    if self._inGuide:
-		Guides[self._guideID].append(data)
-	        self._data = data
-		if re.search("]]",data):
-                    self._sawBrackets = True
-                    return
-                if self._sawBrackets and re.search("end\s*\)",data):
-                    self._inGuide = False
-                    self._sawBrackets = False
-#                    print "Finished Guide ", self._guideID, "with ", len(Guides[self._guideID])
+        data = string.strip(data)
+        if not self._inGuide :
+            mo = re.search('WoWPro.Leveling:RegisterGuide\s*\(\s*"([^"]+)"',data)
+            if not mo:
+                mo = re.search("WoWPro.Leveling:RegisterGuide\s*\(\s*'([^']+)'",data)
+            if mo:
+                self._guideID = mo.group(1)
+                self._inGuide = True
+                self._sawBrackets = False
+                print "## Found Guide ", self._guideID, "inside", self._page
+                self._guideIDs.append(self._guideID)
+                Guide2Web[self._guideID] = self._page
+                Guides[self._guideID] = []
+                Guides[self._guideID].append(data)
+                self._data = data
+            return
+        if self._inGuide:
+            Guides[self._guideID].append(data)
+            self._data = data
+            if re.search("]]",data):
+                self._sawBrackets = True
                 return
-		
+            if self._sawBrackets and re.search("end\s*\)",data):
+                self._inGuide = False
+                self._sawBrackets = False
+#               print "Finished Guide ", self._guideID, "with ", len(Guides[self._guideID])
+            return
+                
  
     def ReadGuide(self):
-#	print "## Reading URL"
-	self._lump = self._rootHandle.read()
-	while( self._lump != ""): 
-	    self.feed(self._lump)
-	    self._lump = self._rootHandle.read()
-	return self._guideIDs
-	
+#        print "## Reading URL"
+        self._lump = self._rootHandle.read()
+        while( self._lump != ""): 
+            self.feed(self._lump)
+            self._lump = self._rootHandle.read()
+        return self._guideIDs
+        
 def ScrapeGuideFromWoWPro(RootSourceNode):
     fg=FindGuides(RootSourceNode)
     guides=fg.GuidesList()
@@ -179,25 +179,25 @@ def ScrapeGuideFromWoWPro(RootSourceNode):
       fs=FindSource(guide)
       src=fs.ReadGuide()
       if len(src) < 1:
-	print "!! No guide found in page.  Bad link, I think."
+        print "!! No guide found in page.  Bad link, I think."
 
 Guide2File={}
 GuideEOL={}
 
 def NewlinesNick(nl):
     if nl == None:
-	return "None"
+        return "None"
     if len(nl) == 1:
-	if nl[0] == '\n':
-	    return "UNIX"
-	elif nl[0] == '\r\n':
-	    return "DOS"
-	elif nl[0] == '\r':
-	    return "MAC"
-	else:
-	    return "Unknown"
+        if nl[0] == '\n':
+            return "UNIX"
+        elif nl[0] == '\r\n':
+            return "DOS"
+        elif nl[0] == '\r':
+            return "MAC"
+        else:
+            return "Unknown"
     else:
-	return "MIXED"
+        return "MIXED"
 
 def ScrapeWoWProLua(lua):
     file=open(lua,"rU")
@@ -211,7 +211,7 @@ def ScrapeWoWProLua(lua):
             Guide2File[_guideID] = lua
     if _guideID == "":
         print "!! No Guide found inside %s " % lua
-	return
+        return
     GuideEOL[_guideID] = file.newlines
     print "# Found %s Guide %s inside %s " % ( NewlinesNick(file.newlines),_guideID, lua)
     file.close()
@@ -254,7 +254,6 @@ def UpdateGuideFile(guide):
     file=open(Guide2File[guide],"wb")
     eol = GuideEOL[guide]
     for line in Guides[guide]:
-	print "["+line+"]",len(eol)
         file.write(line + eol)
     file.close()
 
@@ -269,14 +268,21 @@ def UpdateFiles():
 if __name__ == "__main__":
     pa=ParseArgs()
     if pa.noupdate == True:
-	print "# Not updating, just checking!"
+        print "# Not updating, just checking!"
     if os.access(pa.root,os.F_OK):
-	print "# Able to access %s alright." % pa.root
+        print "# Able to access %s alright." % pa.root
+    if pa.test == True:
+        print "## Running short test"
+        ScrapeWoWProLua("/Applications/World of Warcraft/Interface/Addons/WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua")
+        fs=FindSource(" http://wow-pro.com/node/3200")
+        src=fs.ReadGuide()
+        UpdateGuideFile("GylDwa0105")
+        exit(0)
     ScrapeWoWProLeveling(pa.root)
     ScrapeGuideFromWoWPro(pa.url)
     CrossCheck()
     if pa.noupdate == True:
-	print "# Skipping update"
+        print "# Skipping update"
     else:
         UpdateFiles()
 
