@@ -222,7 +222,7 @@ function WoWPro:NextStep(k,i)
 							skip = false 
 						end
 						if (repID == standingId) and (earnedValue <= replvl) then
-                                                                                                                skip = false
+                                                                                                skip = false
 						end
 					end
   				end
