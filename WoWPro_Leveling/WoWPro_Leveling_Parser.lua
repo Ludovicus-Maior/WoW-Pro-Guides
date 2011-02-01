@@ -490,6 +490,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end
 		
 		if use and GetItemInfo(use) then
+			row.itembutton.item_id = use
 			row.itembutton:Show() 
 			row.itemicon:SetTexture(GetItemIcon(use))
 			row.itembutton:SetAttribute("type1", "item")
@@ -517,7 +518,10 @@ function WoWPro.Leveling:RowUpdate(offset)
 				end
 				itemkb = true
 			end
-		else row.itembutton:Hide() end
+		else
+			row.itembutton.item_id = nil
+			row.itembutton:Hide()
+		end
 		
 		-- Target Button --
 		if target then
