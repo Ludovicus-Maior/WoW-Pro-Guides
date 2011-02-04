@@ -1,7 +1,6 @@
-WoWPro.Leveling:RegisterGuide('CraSha7070Ald', 'Shadowmoon Valley - Aldor', 'Crackerhead22', '69', '70', '####', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('CraSha7070', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', '####', 'Alliance', function()
 return [[
 
-N Aldor Side:|N|This guide follows the Aldor side of Shadowmoon Valley, and assumes you start this in Nagrand. If you are with the Scryers, then open the guide list and scroll down until you see "Shadowmoon Valley - Scryers", and select that. Certain group quests will be done at the end of the guide.|
 A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|
 F Allerian Stronghold|QID|11044|M|54.16,75.15|Z|Nagrand|N|Fly to Allerian Stronghold.|
 R Shadowmoon Valley|QID|11044|M|23,28|N|Run to Shadowmoon Valley.|
@@ -49,12 +48,12 @@ A Illidari-Bane Shard|QID|10621|U|30756|M|22.49,35.97|N|Accept the quest from th
 C The Sketh'lon Wreckage|QID|10569|M|36.05,30.78|N|Kill Arakkoa until you get all three pages.|
 C Enraged Spirits of Water|QID|10480|U|30094|M|49.18,23.10|N|Use the totem and kill the Enraged Water Spirits near it.|
 C The Second Course...|QID|10677|M|49.02,26.89|N|Kill Greater Felfire Diemetradons in the fel lava river.|
-A The Ashtongue Tribe|QID|10619|M|61.24,29.18|N|From Vindicator Aluumen.|
-A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|
-A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|
-f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|
+A The Ashtongue Tribe|QID|10619|M|61.24,29.18|N|From Vindicator Aluumen.|REP|Aldor|
+A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|REP|Aldor|
+A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|REP|Aldor|
+f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|REP|Aldor|
 H Wildhammer Stronghold|QID|10572|M|37.06,58.17|N|Hearth back to Wildhammer Stronghold.|
-r Repair/Restock|QID|10568|M|37.26,57.58|
+r REPair/Restock|QID|10568|M|37.26,57.58|
 T The Second Course...|QID|10677|M|36.59,55.18|N|To Gnomus.|
 A The Main Course!|QID|10678|M|36.59,55.18|N|From Gnomus.|
 T Illidari-Bane Shard|QID|10621|M|36.83,54.79|N|To Ordinn Thunderfist.|
@@ -87,7 +86,7 @@ A Bring Down the Warbringer!|QID|10586|M|40.44,41.35|N|From Stormer Ewan Wildwin
 C Bring Down the Warbringer!|QID|10586|U|30688|M|38.95,46.26|
 
 H Wildhammer Stronghold|QID|10586|M|37.06,58.17|N|Hearth back to Wildhammer Stronghold.|
-r Repair/Restock|QID|10586|M|37.23,58.13|
+r REPair/Restock|QID|10586|M|37.23,58.13|
 T Bring Down the Warbringer!|QID|10586|M|39.54,53.64|N|To Wing Commander Nuainn.|
 A Gaining Access|QID|10589|M|39.54,53.64|N|From Wing Commander Nuainn.|
 C Gaining Access|QID|10589|M|24.20,35.88|N|Kill Mo'arg Weaponsmiths.|
@@ -127,32 +126,53 @@ A Divination: Gorefiend's Truncheon|QID|10636|M|58.16,70.82|N|From Ancient Shado
 A Divination: Gorefiend's Armor|QID|10634|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.|
 C Enraged Spirits of Air|QID|10481|U|30094|M|59.85,69.71|N|Use the totem and kill the Enraged Air Spirit. They tend to be a bit spread out.|
 C The Main Course!|QID|10678|M|56.38,45.33|N|Go to the waypoint and kill Felspine the Greater to get his hide.|
-l Tablets of Baa'ri|QID|10568|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|
-C The Ashtongue Tribe|QID|10619|M|56.91,36.41|
-l Tablets of Baa'ri|QID|10568|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|
-C Divination: Gorefiend's Cloak|QID|10635|U|30721|M|64.47,39.73|N|Put on the Spectrecles and kill Clerics of Karabor until the cloak drops.|
-C Karabor Training Grounds|QID|10587|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|
-T The Ashtongue Tribe|QID|10619|M|61.25,29.18|N|To Vindicator Aluumen.|
-A Reclaiming Holy Grounds|QID|10816|M|61.25,29.18|N|From Vindicator Aluumen.|
-T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|
-A A Necessary Distraction|QID|10637|M|61.25,29.18|N|From Exarch Onaala.|
-T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|
-A Oronu the Elder|QID|10571|M|62.52,28.49|N|From Anchorite Ceyla.|
-r Repair/Restock|QID|10571|M|62.33,28.97|
 
-C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|
-T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|
-A The Ashtongue Corruptors|QID|10574|M|62.55,28.44|N|From Anchorite Ceyla.|
-C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|
-l A Necessary Distraction|QID|10637|L|30811 |M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|
-C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want..|
+l Tablets of Baa'ri|QID|10568|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor|
+C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor|REP|Aldor|
+l Tablets of Baa'ri|QID|10568|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor|
+
+l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers|
+C The Ashtongue Broken|QID|10807|M|56.91,36.41|N|Kill the mobs needed for this quest.|REP|Scryers|
+l Tablets of Baa'ri|QID|10683|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers|
+
+C Divination: Gorefiend's Cloak|QID|10635|U|30721|M|64.47,39.73|N|Put on the Spectrecles and kill Clerics of Karabor until the cloak drops.|
+
+C Karabor Training Grounds|QID|10587|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Aldor|
+T The Ashtongue Tribe|QID|10619|M|61.25,29.18|N|To Vindicator Aluumen.|REP|Aldor|
+A Reclaiming Holy Grounds|QID|10816|M|61.25,29.18|N|From Vindicator Aluumen.|REP|Aldor|
+T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|REP|Aldor|
+A A Necessary Distraction|QID|10637|M|61.25,29.18|N|From Exarch Onaala.|REP|Aldor|
+T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|REP|Aldor|
+A Oronu the Elder|QID|10571|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor|
+r REPair/Restock|QID|10571|M|62.33,28.97|REP|Aldor|
+
+C Karabor Training Grounds|QID|10687|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Scryers|
+T The Ashtongue Broken|QID|10807|M|54.7,58.2|N|To Varen the Reclaimer.|REP|Scryers|
+A The Great Retribution|QID|10817|M|54.7,58.2|N|From Varen the Reclaimer.|REP|Scryers|
+T Karabor Training Grounds|QID|10687|M|55.8,58.2|N|To Larissa Sunstrike.|REP|Scryers|
+A A Necessary Distraction|QID|10688|M|55.8,58.2|N|From Larissa Sunstrike.|REP|Scryers|
+T Tablets of Baa'ri|QID|10683|M|56.3,59.6|N|To Arcanist Thelis.|REP|Scryers|
+A Oronu the Elder|QID|10684|M|56.3,59.6|N|From Arcanist Thelis.|REP|Scryers|
+r REPair/Restock|QID|10571|M|62.33,28.97|REP|Scryers|
+
+C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor|
+T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor|
+A The Ashtongue Corruptors|QID|10574|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor|
+C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor|
+l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor|
+C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Aldor|
+
 T Divination: Gorefiend's Cloak|QID|10635|M|58.30,70.82|N|To Ancient Shadowmoon Spirit.|
 K Haalum|QID|10574|QO|Haalum's Medallion Fragment: 1/1|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|
 K Eykene|QID|10574|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|
+K Haalum|QID|10685|QO|Haalum's Medallion Fragment: 1/1|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|
+K Eykene|QID|10685|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|
 T Enraged Spirits of Air|QID|10481|M|42.27,45.04|N|To Earthmender Torlok.|
 A Oronok Torn-heart|QID|10513|M|42.27,45.07|N|From Earthmender Torlok.|
 K Uylaru|QID|10574|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|
 C The Ashtongue Corruptors|QID|10574|M|49.79,23.28|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|
+K Uylaru|QID|10685|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|
+C The Ashtongue Corruptors|QID|10685|M|49.79,23.28|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|
 
 T Oronok Torn-heart|QID|10513|M|53.95,23.49|N|To Oronok Torn-heart.|
 A I Was A Lot Of Things...|QID|10514|M|53.94,23.49|N|From Oronok Torn-heart.|
@@ -176,11 +196,19 @@ C Escape from Coilskar Cistern|QID|10451|NC|M|53.10,25.35|N|Just follow her and 
 T The Cipher of Damnation - Grom'tor's Charge|QID|10522|M|44.65,23.65|N|To Grom'tor, Son of Oronok.|
 A The Cipher of Damnation - The First Fragment Recovered|QID|10523|M|44.65,23.65|N|From Grom'tor, Son of Oronok.|
 T The Cipher of Damnation - The First Fragment Recovered|QID|10523|M|53.85,23.52|N|To Oronok Torn-heart.|
-T A Necessary Distraction|QID|10637|M|61.25,29.23|N|To Exarch Onaala. The follow up she gives takes you back to Nagrand.|
-T Reclaiming Holy Grounds|QID|10816|M|61.24,29.18|N|To Vindicator Aluumen.|
-T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|
-A The Warden's Cage|QID|10575|M|62.56,28.43|N|From Anchorite Ceyla.|
-T The Warden's Cage|QID|10575|M|57.33,49.64|N|To Sanoru, he is underground.|
+
+T A Necessary Distraction|QID|10637|M|61.25,29.23|N|To Exarch Onaala. The follow up she gives takes you back to Nagrand.|REP|Aldor|
+T Reclaiming Holy Grounds|QID|10816|M|61.24,29.18|N|To Vindicator Aluumen.|REP|Aldor|
+T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|REP|Aldor|
+A The Warden's Cage|QID|10575|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor|
+T The Warden's Cage|QID|10575|M|57.33,49.64|N|To Sanoru, he is underground.|REP|Aldor|
+
+T A Necessary Distraction|QID|10688|M|55.8,58.2|N|To Larissa Sunstrike. The follow up she gives takes you back to Nagrand.|REP|Scryers|
+T The Great Retribution|QID|10817|M|54.7,58.2|N|To Varen the Reclaimer.|REP|Scryers|
+T The Ashtongue Corruptors|QID|10685|M|56.3,59.6|N|To Arcanist Thelis.|REP|Scryers|
+A The Warden's Cage|QID|10686|M|56.3,59.6|N|From Arcanist Thelis.|REP|Scryers|
+T The Warden's Cage|QID|10686|M|57.33,49.64|N|To Sanoru, he is underground.|REP|Scryers|
+
 A Proof of Allegiance|QID|10622|M|57.33,49.64|N|From Sanoru.|
 C Proof of Allegiance|QID|10622|M|56.33,49.48|N|Head to the top of the wall and kill Zandras.|
 T Proof of Allegiance|QID|10622|M|57.33,49.65|N|To Sanoru.|
@@ -191,7 +219,7 @@ T Borak, Son of Oronok|QID|10546|M|47.57,57.28|N|To Borak, Son of Oronok.|
 A Of Thistleheads and Eggs...|QID|10547|M|47.57,57.28|N|From Borak, Son of Oronok.|
 C Of Thistleheads and Eggs...|QID|10547|M|46.04,59.17|N|Find and loot an egg off of the ground.|
 T The Main Course!|QID|10678|M|36.57,55.22|N|To Gnomus.|
-r Repair/Restock|QID|10547|M|36.78,55.08|N|At Mari Stonehand.|
+r REPair/Restock|QID|10547|M|36.78,55.08|N|At Mari Stonehand.|
 T Ar'tor, Son of Oronok|QID|10527|M|29.67,50.42|N|To Ar'tor, Son of Oronok.|
 A Demonic Crystal Prisons|QID|10528|M|29.67,50.42|N|From Ar'tor, Son of Oronok.|
 C Demonic Crystal Prisons|QID|10528|M|28.09,47.80|N|Kill Painmistress Gabrissa and loot the key from her corpse.|
@@ -273,7 +301,8 @@ C The Cipher of Damnation - Borak's Charge|QID|10578|M|61.08,56.60|N|Find and ki
 T Karynaku|QID|10858|M|69.83,61.36|N|To Karynaku.|
 A Zuluhed the Whacked|QID|10866|M|69.81,61.28|N|From Karynaku.|
 A Zuluhed the Whacked|QID|10866|M|70.00,61.46|N|From Karynaku.|
-C Zuluhed the Whacked|QID|10866|M|69.86,61.23|
+K Zuluhed the Whacked|QID|10866|M|71.09,61.56|N|Clear both rooms next to the waypoint. Once he is summoned head into one of the two rooms, reason being the Dragonmaw Elites that spawn on the parapet to peck you to death from range. Kill then loot Zuluhed.|
+C Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|Click on the ball&chain that is connected to Karynaku to free her.|
 T Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|To Karynaku.|
 A Ally of the Netherwing|QID|10870|M|69.86,61.23|N|From Karynaku.|
 T Ally of the Netherwing|QID|10870|M|59.33,58.65|N|To Mordenai.|
@@ -285,7 +314,7 @@ C Dissension Amongst the Ranks...|QID|10776|U|31279|M|42.11,70.51|N|Use the Taba
 T Wanted: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.28,53.99|N|To Warcaller Beersnout.|
 T Teron Gorefiend, I am...|QID|10645|M|36.79,56.57|N|To Zorus the Judicator.|
 T Dissension Amongst the Ranks...|QID|10776|M|36.29,56.90|N|To Thane Yoregar.|
-r Repair/Restock|QID|10781|M|36.85,54.80|N|At Ordinn Thunderfist.|
+r REPair/Restock|QID|10781|M|36.85,54.80|N|At Ordinn Thunderfist.|
 T The Cipher of Damnation - The Second Fragment Recovered|QID|10541|M|53.88,23.45|N|To Oronok Torn-heart.|
 T The Cipher of Damnation - The Third Fragment Recovered|QID|10579|M|53.88,23.45|N|To Domesticated Felboar.|
 A The Cipher of Damnation|QID|10588|M|53.88,23.45|N|From Oronok Torn-heart.|
