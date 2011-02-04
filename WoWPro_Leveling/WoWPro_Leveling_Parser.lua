@@ -385,7 +385,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 			row.check:SetChecked(false)
 			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 		end
-		if note then note = strtrim(note) end
+		if note then note = strtrim(note) note = string.gsub(note,"\\n","\n") end
 		if WoWProDB.profile.showcoords and coord and note then note = note.." ("..coord..")" end
 		if WoWProDB.profile.showcoords and coord and not note then note = "("..coord..")" end
 		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
