@@ -1,18 +1,61 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Script file="01_13_Rpotor_Worgen_Starter.lua"/>    <Script file="01_05_Gylin_Gnome_Starter.lua"/>    <Script file="01_05_Gylin_Dwarf_Starter.lua"/>    <Script file="05_10_Gameldar_Dun_Morogh.lua"/>  <Script file="01_12_Snowflakes_Azuremyst.lua"/>  <Script file="01_12_Bitsem_Teldrassil.lua"/>    <Script file="12_20_Svens_Bloodmyst.lua"/>    <Script file="12_20_Wkjezz_Loch_Modan.lua"/>    <Script file="01_11_Kurich_Elwynn_Forest.lua"/>    <Script file="11_15_Bitsem_Westfall.lua"/>    <Script file="13_20_James_Darkshore.lua"/>    <Script file="15_20_Kurich_Redridge_Mountains.lua"/>    <Script file="20_25_Twists_Duskwood.lua"/>  <Script file="20_25_Wkjezz_Ashenvale.lua"/>  <Script file="20_25_Wkjezz_Wetlands.lua"/>    <Script file="25_30_Bitsem_Arathi_Highlands.lua"/>  <Script file="25_30_Savagefool_Northern_Stranglethorn.lua"/>    <Script file="25_30_Wkjezz_Stonetalon_Mountains.lua"/>    <Script file="30_35_Wkjezz_Southern_Barrens.lua"/>    <Script file="30_35_Wkjezz_Desolace.lua"/>    <Script file="30_35_Bitsem_Cape_of_Stranglethorn.lua"/>    <Script file="35_40_Wkjezz_Feralas.lua"/>    <Script file="35_40_Wkjezz_Dustwallow_Marsh.lua"/>    <Script file="30_35_Crackerhead22_Hinterlands.lua"/>    <Script file="35_40_Bitsem_Western_Plaguelands.lua"/>    <Script file="40_45_Crackerhead22_Eastern_Plaguelands.lua"/>    <Script file="40_45_Wkjezz_Thousand_Needles.lua"/>    <Script file="45_48_Crackerhead22_Badlands.lua"/>    <Script file="48_50_Crackerhead22_Searing_Gorge.lua"/>    <Script file="45_50_Wkjezz_Tanaris.lua"/>    <Script file="45_50_Wkjezz_Felwood.lua"/>    <Script file="50_52_Crackerhead22_Burning_Steppes.lua"/>    <Script file="52_54_Crackerhead22_Swamp_of_Sorrows.lua"/>    <Script file="50_55_Wkjezz_UnGoro.lua"/>    <Script file="50_55_Wkjezz_Winterspring.lua"/>    <Script file="54_58_Crackerhead22_Blasted_Lands.lua"/>    <Script file="55_60_Wkjezz_Silithus.lua"/>
-  <Script file="60_62_Jame_Hellfire.lua"/>
-  <Script file="62_64_Jame_Zangarmarsh.lua"/>
-  <Script file="64a_66a_Jame_Terokkar.lua"/>
-  <Script file="64s_66s_Jame_Terokkar.lua"/>
-  <Script file="66_68_Jame_Nagrand.lua"/>
-  <Script file="68_70_Jame_Blades_Edge_Mountains.lua"/>  <Script file="70a_70a_Crackerhead22_Shadowmoon.lua"/>  <Script file="70s_70s_Crackerhead22_Shadowmoon.lua"/>
-  <Script file="70_72_Jame_Borean_Tundra.lua"/>
-  <Script file="72_74_Jame_Howling_Fjord.lua"/>
-  <Script file="74_75_Jame_Dragonblight.lua"/>
-  <Script file="75_77_Jame_Grizzly_Hills.lua"/>
-  <Script file="77_78_Scoot_ZulDrak.lua"/>
-  <Script file="78_79_Scoot_Sholazar_Basin.lua"/>
-  <Script file="79_80_Cyberlamb_Storm_Peaks.lua"/>
-  <Script file="79_80_NLX3647_Icecrown.lua"/>  <Script file="80_82_Arixan_Hyjal.lua"/>    <Script file="80_82_Arixan_Vashjir.lua"/>  <Script file="82_83_Arixan_Deepholm.lua"/>  <Script file="83_84_Arixan_Uldum.lua"/>  <Script file="84_85_Arixan_Twilight_Highlands.lua"/>
-  <Script file="55_58_Jame_Scarlet_Enclave.lua"/>
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Script file="01_05_Gylin_Dwarf_Starter.lua"/>
+  <Script file="01_05_Gylin_Gnome_Starter.lua"/>
+  <Script file="01_11_Kurich_Elwynn_Forest.lua"/>
+  <Script file="01_12_Bitsem_Teldrassil.lua"/>
+  <Script file="01_12_Snowflakes_Azuremyst.lua"/>
+  <Script file="01_13_Rpotor_Worgen_Starter.lua"/>
+  <Script file="05_10_Gameldar_Dun_Morogh.lua"/>
+  <Script file="11_15_Bitsem_Westfall.lua"/>
+  <Script file="12_20_Svens_Bloodmyst.lua"/>
+  <Script file="12_20_Wkjezz_Loch_Modan.lua"/>
+  <Script file="13_20_James_Darkshore.lua"/>
+  <Script file="15_20_Kurich_Redridge_Mountains.lua"/>
+  <Script file="20_25_Twists_Duskwood.lua"/>
+  <Script file="20_25_Wkjezz_Ashenvale.lua"/>
+  <Script file="20_25_Wkjezz_Wetlands.lua"/>
+  <Script file="25_30_Bitsem_Arathi_Highlands.lua"/>
+  <Script file="25_30_Savagefool_Northern_Stranglethorn.lua"/>
+  <Script file="25_30_Wkjezz_Stonetalon_Mountains.lua"/>
+  <Script file="30_35_Bitsem_Cape_of_Stranglethorn.lua"/>
+  <Script file="30_35_Crackerhead22_Hinterlands.lua"/>
+  <Script file="30_35_Wkjezz_Desolace.lua"/>
+  <Script file="30_35_Wkjezz_Southern_Barrens.lua"/>
+  <Script file="35_40_Bitsem_Western_Plaguelands.lua"/>
+  <Script file="35_40_Wkjezz_Dustwallow_Marsh.lua"/>
+  <Script file="35_40_Wkjezz_Feralas.lua"/>
+  <Script file="40_45_Crackerhead22_Eastern_Plaguelands.lua"/>
+  <Script file="40_45_Wkjezz_Thousand_Needles.lua"/>
+  <Script file="45_48_Crackerhead22_Badlands.lua"/>
+  <Script file="45_50_Wkjezz_Felwood.lua"/>
+  <Script file="45_50_Wkjezz_Tanaris.lua"/>
+  <Script file="48_50_Crackerhead22_Searing_Gorge.lua"/>
+  <Script file="50_52_Crackerhead22_Burning_Steppes.lua"/>
+  <Script file="50_55_Wkjezz_UnGoro.lua"/>
+  <Script file="50_55_Wkjezz_Winterspring.lua"/>
+  <Script file="52_54_Crackerhead22_Swamp_of_Sorrows.lua"/>
+  <Script file="54_58_Crackerhead22_Blasted_Lands.lua"/>
+  <Script file="55_58_Jame_Scarlet_Enclave.lua"/>
+  <Script file="55_60_Wkjezz_Silithus.lua"/>
+  <Script file="60_62_Jame_Hellfire.lua"/>
+  <Script file="62_64_Jame_Zangarmarsh.lua"/>
+  <Script file="64a_66a_Jame_Terokkar.lua"/>
+  <Script file="64s_66s_Jame_Terokkar.lua"/>
+  <Script file="66_68_Jame_Nagrand.lua"/>
+  <Script file="68_70_Jame_Blades_Edge_Mountains.lua"/>
+  <Script file="70_72_Jame_Borean_Tundra.lua"/>
+  <Script file="70a_70a_Crackerhead22_Shadowmoon.lua"/>
+  <Script file="70s_70s_Crackerhead22_Shadowmoon.lua"/>
+  <Script file="72_74_Jame_Howling_Fjord.lua"/>
+  <Script file="74_75_Jame_Dragonblight.lua"/>
+  <Script file="75_77_Jame_Grizzly_Hills.lua"/>
+  <Script file="77_78_Scoot_ZulDrak.lua"/>
+  <Script file="78_79_Scoot_Sholazar_Basin.lua"/>
+  <Script file="79_80_Cyberlamb_Storm_Peaks.lua"/>
+  <Script file="79_80_NLX3647_Icecrown.lua"/>
+  <Script file="80_82_Arixan_Hyjal.lua"/>
+  <Script file="80_82_Arixan_Vashjir.lua"/>
+  <Script file="82_83_Arixan_Deepholm.lua"/>
+  <Script file="83_84_Arixan_Uldum.lua"/>
+  <Script file="84_85_Arixan_Twilight_Highlands.lua"/>
 </Ui>

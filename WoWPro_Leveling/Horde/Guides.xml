@@ -1,19 +1,57 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">    <Script file="01_05_Malorajan_Kezan.lua"/>  <Script file="05_12_Malorajan_Lost_Isles.lua"/>    <Script file="01_05_Jiyambi_Valley_of_Trials.lua"/>  <Script file="01_05_Bitsem_Echo_Isles.lua"/>  <Script file="05_12_Bitsem_Durotar.lua"/>  
-  <Script file="01_12_Snowflake_Eversong_Woods.lua"/>    <Script file="01_12_Gylin_Mulgore.lua"/>  <Script file="01_12_Jiyambi_Tirisfal_Glades.lua"/>
-  <Script file="12_21_Snowflake_Ghostlands.lua"/>    <Script file="12_20_Malorajan_Silverpine.lua"/>  <Script file="12_20_Bitsem_Azshara.lua"/>  <Script file="12_20_Bitsem_Northern_Barrens.lua"/>  <Script file="20_25_Bitsem_Ashenvale.lua"/>  <Script file="20_25_AyaJulia_Hillsbrad_Foothills.lua"/>  <Script file="25_30_Jiyambi_Arathi_Highlands.lua"/>  <Script file="25_30_Jiyambi_Stonetalon_Mountains.lua"/>  <Script file="25_30_Wkjezz_Northern_Stranglethorn.lua"/>    <Script file="30_35_Jiyambi_Hinterlands.lua"/>    <Script file="30_35_Jiyambi_Desolace.lua"/>  <Script file="30_35_Jiyambi_Southern_Barrens.lua"/>  <Script file="30_35_Wkjezz_Cape_of_Stranglethorn.lua"/>  <Script file="35_40_Jiyambi_Western_Plaguelands.lua"/>  <Script file="40_45_Jiyambi_Eastern_Plaguelands.lua"/>  <Script file="35_40_Jiyambi_Dustwallow_Marsh.lua"/>  <Script file="35_40_Jiyambi_Feralas.lua"/>  <Script file="40_45_Jiyambi_Thousand_Needles.lua"/>  <Script file="45_48_Liavan_Badlands.lua"/>  <Script file="45_50_Jiyambi_Felwood.lua"/>  <Script file="45_50_Jiyambi_Tanaris.lua"/>  <Script file="50_52_Liavan_Burning_Steppes.lua"/>  <Script file="52_55_Liavan_Swamp_of_Sorrows.lua"/>  <Script file="50_55_Jiyambi_UnGoro.lua"/>  <Script file="50_55_Jiyambi_Winterspring.lua"/>  <Script file="55_60_Jiyambi_Silithus.lua"/>  <Script file="55_60_Jiyambi_Blasted_Lands.lua"/>
-  <Script file="60_63_Jame_Hellfire_Peninsula.lua"/>
-  <Script file="63_65_Jame_Zangarmarsh.lua"/>
-  <Script file="65a_67a_Jame_Terokkar_Forest.lua"/>
-  <Script file="65s_67s_Jame_Terokkar_Forest.lua"/>
-  <Script file="67_69_Jame_Nagrand.lua"/>
-  <Script file="69_70_Jame_Blades_Edge.lua"/>
-  <Script file="70_71_Jame_Howling_Fjord.lua"/>
-  <Script file="71_73_Jame_Borean_Tundra.lua"/>
-  <Script file="73_75_Jame_Dragonblight.lua"/>
-  <Script file="75_77_Jame_Grizzly_Hills.lua"/>
-  <Script file="77_78_Scoot_ZulDrak.lua"/>
-  <Script file="78_79_Scoot_Sholazar_Basin.lua"/>
-  <Script file="79_80_Scoot_The_Storm_Peaks.lua"/>
-  <Script file="80_80_Scoot_Icecrown.lua"/>  <Script file="80_82_Arixan_Mt_Hyjal.lua"/>    <Script file="80_82_Arixan_Vashjir.lua"/>    <Script file="82_83_Arixan_Deepholm.lua"/>  <Script file="83_84_Arixan_Uldum.lua"/>  <Script file="84_85_Liavan_Twilight_Highlands.lua"/>
-  <Script file="55_58_Jame_Scarlet_Enclave.lua"/>  
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Script file="01_05_Bitsem_Echo_Isles.lua"/>
+  <Script file="01_05_Jiyambi_Valley_of_Trials.lua"/>
+  <Script file="01_05_Malorajan_Kezan.lua"/>
+  <Script file="01_12_Gylin_Mulgore.lua"/>
+  <Script file="01_12_Jiyambi_Tirisfal_Glades.lua"/>
+  <Script file="01_12_Snowflake_Eversong_Woods.lua"/>
+  <Script file="05_12_Bitsem_Durotar.lua"/>
+  <Script file="05_12_Malorajan_Lost_Isles.lua"/>
+  <Script file="12_20_Bitsem_Azshara.lua"/>
+  <Script file="12_20_Bitsem_Northern_Barrens.lua"/>
+  <Script file="12_20_Malorajan_Silverpine.lua"/>
+  <Script file="12_21_Snowflake_Ghostlands.lua"/>
+  <Script file="20_25_AyaJulia_Hillsbrad_Foothills.lua"/>
+  <Script file="20_25_Bitsem_Ashenvale.lua"/>
+  <Script file="25_30_Jiyambi_Arathi_Highlands.lua"/>
+  <Script file="25_30_Jiyambi_Stonetalon_Mountains.lua"/>
+  <Script file="25_30_Wkjezz_Northern_Stranglethorn.lua"/>
+  <Script file="30_35_Jiyambi_Desolace.lua"/>
+  <Script file="30_35_Jiyambi_Hinterlands.lua"/>
+  <Script file="30_35_Jiyambi_Southern_Barrens.lua"/>
+  <Script file="30_35_Wkjezz_Cape_of_Stranglethorn.lua"/>
+  <Script file="35_40_Jiyambi_Dustwallow_Marsh.lua"/>
+  <Script file="35_40_Jiyambi_Feralas.lua"/>
+  <Script file="35_40_Jiyambi_Western_Plaguelands.lua"/>
+  <Script file="40_45_Jiyambi_Eastern_Plaguelands.lua"/>
+  <Script file="40_45_Jiyambi_Thousand_Needles.lua"/>
+  <Script file="45_48_Liavan_Badlands.lua"/>
+  <Script file="45_50_Jiyambi_Felwood.lua"/>
+  <Script file="45_50_Jiyambi_Tanaris.lua"/>
+  <Script file="50_52_Liavan_Burning_Steppes.lua"/>
+  <Script file="50_55_Jiyambi_UnGoro.lua"/>
+  <Script file="50_55_Jiyambi_Winterspring.lua"/>
+  <Script file="52_55_Liavan_Swamp_of_Sorrows.lua"/>
+  <Script file="55_58_Jame_Scarlet_Enclave.lua"/>
+  <Script file="55_60_Jiyambi_Blasted_Lands.lua"/>
+  <Script file="55_60_Jiyambi_Silithus.lua"/>
+  <Script file="60_63_Jame_Hellfire_Peninsula.lua"/>
+  <Script file="63_65_Jame_Zangarmarsh.lua"/>
+  <Script file="65a_67a_Jame_Terokkar_Forest.lua"/>
+  <Script file="65s_67s_Jame_Terokkar_Forest.lua"/>
+  <Script file="67_69_Jame_Nagrand.lua"/>
+  <Script file="69_70_Jame_Blades_Edge.lua"/>
+  <Script file="70_71_Jame_Howling_Fjord.lua"/>
+  <Script file="71_73_Jame_Borean_Tundra.lua"/>
+  <Script file="73_75_Jame_Dragonblight.lua"/>
+  <Script file="75_77_Jame_Grizzly_Hills.lua"/>
+  <Script file="77_78_Scoot_ZulDrak.lua"/>
+  <Script file="78_79_Scoot_Sholazar_Basin.lua"/>
+  <Script file="79_80_Scoot_The_Storm_Peaks.lua"/>
+  <Script file="80_80_Scoot_Icecrown.lua"/>
+  <Script file="80_82_Arixan_Mt_Hyjal.lua"/>
+  <Script file="80_82_Arixan_Vashjir.lua"/>
+  <Script file="82_83_Arixan_Deepholm.lua"/>
+  <Script file="83_84_Arixan_Uldum.lua"/>
+  <Script file="84_85_Liavan_Twilight_Highlands.lua"/>
 </Ui>
