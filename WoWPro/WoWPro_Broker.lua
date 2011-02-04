@@ -180,8 +180,14 @@ function WoWPro:NextStep(k,i)
 
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep[k] then
-			local rep, repID, replvl = string.split(",",WoWPro.rep[k])
-			repID = string.lower(repID) or 0
+			local rep, temprep, replvl = string.split(",",WoWPro.rep[k])
+			if temprep == nil then temprep = "neutral-exalted" end
+			local repID,repmax = string.split("-",temprep)
+			if repmax== nil then repmax = repID end	
+			repID = string.lower(repID)
+			repmax = string.lower(repmax) 
+			replvl = tonumber(replvl) or 0
+
 			if repID == 'hated' then repID = 1 end
 			if repID == 'hostile' then repID = 2 end
 			if repID == 'unfriendly' then repID = 3 end
@@ -190,14 +196,24 @@ function WoWPro:NextStep(k,i)
 			if repID == 'honored' then repID = 6 end
 			if repID == 'revered' then repID = 7 end
 			if repID == 'exalted' then repID = 8 end
-			replvl = tonumber(replvl) or 0
+
+			if repmax == 'hated' then repmax = 1
+			elseif repmax == 'hostile' then repmax = 2
+			elseif repmax == 'unfriendly' then repmax = 3
+			elseif repmax == 'neutral' then repmax = 4
+			elseif repmax == 'friendly' then repmax = 5
+			elseif repmax == 'honored' then repmax = 6
+			elseif repmax == 'revered' then repmax = 7
+			elseif repmax == 'exalted' then repmax = 8
+			else repmax = 8 end
+
 			skip = true --reputation steps skipped by default
 
 			for factionIndex = 1, GetNumFactions() do
   				name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
     				canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfo(factionIndex)
 				if rep == name then
-					if (repID == standingId) and (replvl == 0) then
+					if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 						skip = false
 					end
 					if (replvl > 0) then
@@ -206,13 +222,12 @@ function WoWPro:NextStep(k,i)
 							skip = false 
 						end
 						if (repID == standingId) and (earnedValue <= replvl) then
-                     skip = false
+                                                                                                skip = false
 						end
 					end
   				end
 			end
-      end
-
+                                 end	
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
