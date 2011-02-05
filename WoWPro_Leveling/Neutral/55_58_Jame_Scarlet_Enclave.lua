@@ -1,12 +1,14 @@
-WoWPro.Leveling:RegisterGuide("JamSca5558", "The Scarlet Enclave - Death Knight", "Jame", "55", "58", "JamWDK5858", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamScar5558", "The Scarlet Enclave - Death Knight", "Jame", "55", "58", "BitWes3540|JiyWes3540", "Neutral", function()
 return [[
+N Shopping List:|QID|9999|N| *Level 59 30 Crypt Fiend Parts, 30 Core Of Elements, 30 Dark Iron Scraps, 30 Savage Fronds. You'll need these when you get to the Eastern Plaguelands|
+
 A In Service Of The Lich King |QID|12593|N|The Lich King|M|51.3,35.2|
 
 T In Service Of The Lich King |QID|12593|N|Go northwest to Instructor Razuvious|M|48.0,28.5|
 A The Emblazoned Runeblade |QID|12619|M|48.0,28.5|
 
 N Get a Battle-worn Sword |QID|12619|L|38607|N|Get a [Battle-worn Sword] from one of the glowing weapon racks|
-C The Emblazoned Runeblade |QID|12619|U|38607|N|Use the [Battle-worn Sword] near a runeforge|M|48.6,33.5|
+C The Emblazoned Runeblade |QID|12619|U|38607|N|Use the [Battle-worn Sword] near a runeforge|M|47.4,31.0|
 
 T The Emblazoned Runeblade |QID|12619|N|Instructor Razuvious|M|48.0,28.5|
 A Runeforging: Preparation For Battle |QID|12842|M|48.0,28.5|
@@ -71,13 +73,13 @@ A The Gift That Keeps On Giving |QID|12698|M|54.1,35.0|
 
 C The Gift That Keeps On Giving |QID|12698|U|39253|N|Go to the Havenshire Mine  and Use the [Gift of the Harvester] on the Scarlet Miners. When you have 5 bring them to Gothik|M|58,31|
 
-T The Gift That Keeps On Giving |QID|12698|M|58.2,31.0|
-A An Attack Of Opportunity |QID|12700|M|58.2,31.0|
+T The Gift That Keeps On Giving |QID|12698|M|54.1,35.0|
+A An Attack Of Opportunity |QID|12700|M|54.1,35.0|
 
 T An Attack Of Opportunity |QID|12700|N|Prince Valanar|M|52.3,34.0|
 A Massacre At Light's Point |QID|12701|M|52.3,34.0|
 
-C Massacre At Light's Point |QID|12701|N|Get in the Mine Car in front of Havenshire Mine . Use the cannon on the boat, kill Scarlet Defender and escape death by using ability #5.|M|58.83,33|
+C Massacre At Light's Point |QID|12701|N|Get in the Mine Car in front of Havenshire Mine . Use the canon on the boat, kill Scarlet Defender and escape death by using ability #5.|M|58.83,33|
 
 T Massacre At Light's Point |QID|12701|N|Prince Valanar|M|52.3,34.0|
 A Victory At Death's Breach! |QID|12706|M|52.3,34.0|
@@ -130,23 +132,45 @@ T Bloody Breakout |QID|12727|M|56.3,80.2|
 A A Cry For Vengeance! |QID|12738|M|56.3,80.2|
 
 T A Cry For Vengeance! |QID|12738|N|To the east in the Chapel of the Crimson Flame|M|52.9,81.5|
+A A Special Surprise|QID|12742|R|Human|N|Put your goul on passive mode|M|52.9,81.5|
+A A Special Surprise|QID|12743|R|Night Elf|N|Put your goul on passive mode|M|52.9,81.5|
+A A Special Surprise|QID|12744|R|Dwarf|N|Put your goul on passive mode|M|52.9,81.5|
+A A Special Surprise|QID|12745|R|Gnome|N|Put your goul on passive mode|M|52.9,81.5|
+A A Special Surprise|QID|12746|R|Draenei|N|Put your goul on passive mode|M|52.9,81.5|
+A A Special Surprise |QID|28649|R|Worgen|N|Put your ghoul on passive mode|M|52.9,81.5|
 A A Special Surprise |QID|12739|R|Tauren|N|Put your ghoul on passive mode|M|52.9,81.5|
 A A Special Surprise |QID|12747|R|Blood Elf|N|Put your ghoul on passive mode|M|52.9,81.5|
 A A Special Surprise |QID|12748|R|Orc|N|Put your ghoul on passive mode|M|52.9,81.5|
 A A Special Surprise |QID|12749|R|Troll|N|Put your ghoul on passive mode|M|52.9,81.5|
 A A Special Surprise |QID|12750|R|Undead|N|Put your ghoul on passive mode|M|52.9,81.5|
+A A Special Surprise |QID|28650|R|Goblin|N|Put your ghoul on passive mode|M|52.9,81.5|
 
-C A Special Surprise |QID|12739|R|Tauren|N|Put your ghoul on passive mode, listen to Malar Bravehorn speech and kill him|M|54.51,83.86|
-C A Special Surprise |QID|12747|R|Blood Elf|N|Put your ghoul on passive mode, listen to Lady Eonys speech and kill her|M|54.28,83.31|
-C A Special Surprise |QID|12748|R|Orc|N|Put your ghoul on passive mode, listen to Kug Ironjaw speech and kill him|M|53.77,83.28|
-C A Special Surprise |QID|12749|R|Troll|N|Put your ghoul on passive mode, listen to Iggy Darktusk speech and kill him|M|53.81,83.75|
-C A Special Surprise |QID|12750|R|Undead|N|Put your ghoul on passive mode, listen to Antoine Brack speech and kill him|M|53.54,83.31|
+C A Special Surprise|QID|12742|R|Human|N|Put your goul on passive mode, listen to Ellen Stanbridge's speach and kill her. |M|54.6,83.7|
+C A Special Surprise|QID|12743|R|Night Elf|N|Put your goul on passive mode, listen to Yazmina Oakenthorn's speach and kill her. |M|54.3,83.8|
+C A Special Surprise|QID|12744|R|Dwarf|N|Put your goul on passive mode, listen to Donovan Pulfrost's speach and kill him. |M|54.1,83.5|
+C A Special Surprise|QID|12745|R|Gnome|N|Put your goul on passive mode, listen to Goby Blastenheimer's speach and kill him. |M|54.9,83.7|
+C A Special Surprise|QID|12746|R|Draenei|N|Put your goul on passive mode, listen to Valok the Righteous' speach and kill him. |M|54.5,83.5|
+C A Special Surprise|QID|28649|R|Worgen|N|Put your goul on passive mode, listen to Lord Haraford's speach and kill him. |M|54.5,83.4|
+C A Special Surprise |QID|12739|R|Tauren|N|Put your ghoul on passive mode, listen to Malar Bravehorn's speech and kill him|M|54.51,83.86|
+C A Special Surprise |QID|12747|R|Blood Elf|N|Put your ghoul on passive mode, listen to Lady Eonys' speech and kill her|M|54.28,83.31|
+C A Special Surprise |QID|12748|R|Orc|N|Put your ghoul on passive mode, listen to Kug Ironjaw's speech and kill him|M|53.77,83.28|
+C A Special Surprise |QID|12749|R|Troll|N|Put your ghoul on passive mode, listen to Iggy Darktusk's speech and kill him|M|53.81,83.75|
+C A Special Surprise |QID|12750|R|Undead|N|Put your ghoul on passive mode, listen to Antoine Brack's speech and kill him|M|53.54,83.31|
+C A Special Surprise |QID|28650|R|Goblin|N|Put your ghoul on passive mode, listen toGally Lumpstain's speech and kill her|M|53.54,83.6|
 
+T A Special Surprise|QID|12742|R|Human|N|Knight Commander Plaguefist|M|52.9,81.5|
+T A Special Surprise|QID|12743|R|Night Elf|N|Knight Commander Plaguefist|M|52.9,81.5|
+T A Special Surprise|QID|12744|R|Dwarf|N|Knight Commander Plaguefist|M|52.9,81.5|
+T A Special Surprise|QID|12745|R|Gnome|N|Knight Commander Plaguefist|M|52.9,81.5|
+T A Special Surprise|QID|12746|R|Draenei|N|Knight Commander Plaguefist|M|52.9,81.5|
+T A Special Surprise|QID|28649|R|Worgen|N|Knight Commander Plaguefist|M|52.9,81.5|
 T A Special Surprise |QID|12739|R|Tauren|N|Knight Commander Plaguefist|M|52.9,81.5|
 T A Special Surprise |QID|12747|R|Blood Elf|N|Knight Commander Plaguefist|M|52.9,81.5|
 T A Special Surprise |QID|12748|R|Orc|N|Knight Commander Plaguefist|M|52.9,81.5|
 T A Special Surprise |QID|12749|R|Troll|N|Knight Commander Plaguefist|M|52.9,81.5|
 T A Special Surprise |QID|12750|R|Undead|N|Knight Commander Plaguefist|M|52.9,81.5|
+T A Special Surprise |QID|28650|R|Goblin|N|Knight Commander Plaguefist|M|52.9,81.5|
+
 A A Sort Of Homecoming |QID|12751|M|52.9,81.5|
 
 T A Sort Of Homecoming |QID|12751|N|Thassarian in the Scarlet Tavern|M|56.3,80.2|
@@ -188,6 +212,8 @@ A The Battle For The Ebon Hold |QID|13166|M|83.4,49.4|
 C The Battle For The Ebon Hold |QID|13166|N|Use the pink teleporter. Have the NPCs help you kill Patchwork and 10 scourges.|
 
 T The Battle For The Ebon Hold |QID|13166|N|Highlord Darion Mograine|M|83.4,49.4|
-A Warchief's Blessing |QID|13189|M|83.4,49.4|
+A Where Kings Walk |QID|13188|R|Human,Night Elf,Dwarf,Gnome,Draenei,Worgen|M|83.4,49.4|
+A Warchief's Blessing |QID|13189|R|Tauren,Blood Elf,Orc,Troll,Undead,Goblin|M|83.4,49.4|
+; Perhaps there should be more here? -LM
 ]]
 end)

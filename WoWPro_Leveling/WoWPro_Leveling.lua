@@ -54,7 +54,7 @@ function WoWPro.Leveling:OnEnable()
 		WoWPro:LoadGuide(startguides[engRace])
 	-- New Death Knight --
 	elseif UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
-		WoWPro:LoadGuide("JamSca5558")
+		WoWPro:LoadGuide("JamScar5558")
 	-- No current guide, but a guide was stored for later use --
 	elseif WoWProDB.char.lastlevelingguide and not WoWProDB.char.currentguide then
 		WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
@@ -94,6 +94,16 @@ function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startleve
 		-- If the guide is not of the correct faction, don't register it
 		
 	WoWPro:dbp("Guide Registered: "..GIDvalue)
+	if factionname == "Neutral" then
+	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
+	    local  AllianceGUID, HordeGID = string.split("|",nextGIDvalue)
+	    if myUFG == "Alliance" then
+	        nextGIDvalue = AllianceGUID
+	    else
+	        nextGIDvalue = HordeGID
+	    end
+        WoWPro:dbp("Neutral Guide "..GIDvalue.." for "..myUFG.." chose "..nextGIDvalue)
+	end
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = "Leveling",
 		zone = zonename,

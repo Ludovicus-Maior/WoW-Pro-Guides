@@ -425,7 +425,9 @@ end
 function WoWPro:RemoveMapPoint()
 	if TomTom and TomTom.db then
 		for i=1,#cache,1 do
-			TomTom:RemoveWaypoint(cache[i].uid)
+		    if cache[i].uid ~= nil then
+			    TomTom:RemoveWaypoint(cache[i].uid)
+			end
 		end
 		wipe(cache)
 		wipe(WoWProMapping_callbacks_tomtom.distance)
