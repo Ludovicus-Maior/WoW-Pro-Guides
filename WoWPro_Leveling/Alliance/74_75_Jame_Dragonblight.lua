@@ -1,7 +1,13 @@
+-- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2010-12-03 22:19
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3291/revisions/23473/view
+-- Date: 2010-12-03 22:18
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamDra7475", "Dragonblight", "Jame", "74", "75", "JamGri7577", "Alliance", function()
 return [[
-
-
 
 N Note |QID|12298| |N|If you followed my previous guides, you should be in Wintergarde Keep, Dragonblight and have the following quest: High Commander Halford Wyrmbane If you don't have it, just ignore this quest, it's not a big deal, you can get the follow up anyway. Let's get started!|
 f Wintergarde Keep |QID|12298| |N|Get the new flight path. |M|77.0,49.8|
@@ -34,7 +40,8 @@ A Wanted: High Shaman Bloodpaw |QID|12441|
 A Wanted: Onslaught Commander Iustus |QID|12442|
 
 h Wintergarde Keep |QID|12253| |N|Make this inn your home location. |M|77.50,51.50|
-N Group mob map |QID|12151| |N|Before we go on, Check the map with the locations of all the group quest mobs you have to kill in Dragonblight. Please note that at this point you don't have all the group quests, you only have the 3 wanted quests we just took. So ignore the rest for now, and check back on this map whenever you get a group for either of those group quests, you'll find your targets very quickly that way. Kreug Oathbreaker . High Shaman Bloodpaw (90.0, 72.0). Commander Iustus (87.0, 38.3). Dregmar Runebrand (72.0, 49.0). Abbendis (71.1, 77.8). Alystros (64.6, 77.3). Grom'thar (57.0, 76.0)|M|89.7,52.4|
+N Group mob map |QID|12151| |N|Before we go on, Check the map with the locations of all the group quest mobs you have to kill in Dragonblight. Please note that at this point you don't have all the group quests, you only have the 3 wanted quests we just took. So ignore the rest for now, and check back on this map whenever you get a group for either of those group quests, you'll find your targets very quickly that way. Kreug Oathbreaker . High Shaman Bloodpaw (90.0, 72.0). Commander Iustus (87.0, 38.3). Dregmar Runebrand (72.0, 49.0). Abbendis (71.1, 77.
+. Alystros (64.6, 77.3). Grom'thar (57.0, 76.0)|M|89.7,52.4|
 N Note: Kreug Oathbreaker |QID|12438| |N|Right now, the closest target is Kreug Oathbreaker, so if you see a group going for him while you're still in the area, join them. But don't waste your time trying to find a group, keep following the guide normally and just go for those group quests when the opportunity arises.|
 
 C Imprints on the Past |QID|12282| |N|Go back to the gate and take the path going down south. Go to the first building on your right-hand side. Go to the upper floor and find the Scrying Orb. |M|78.90,50.90|
@@ -265,10 +272,8 @@ R Moa'ki Harbor |QID|12017| |N|Swim back to Moa'ki Harbor|
 T Meat on the Hook |QID|12017| |N|Tua'kea |M|47.7,76.6|
 T Conversing With the Depths |QID|12032| |N|Toalu'u The Mystic |M|49.12,75.68|
 
-
 N Sell junk, repair, restock. |QID|12107| |N|Sell junk, repair, restock.|
 N Level 74 |QID|12107| |N|You should be level 74 by now.|
-
 
 F Stars' Rest |QID|12107| |N|Fly to Stars' Rest.|
 T The End of the Line |QID|12107| |N|Image of Archmage Modera |M|29.00,55.50|
@@ -390,7 +395,7 @@ R Wintergarde Keep |QID|12473| |N|If you're sucessful, go back to Wintergarde Ke
 T An End And A Beginning |QID|12473|M|78.6,48.2|
 A To Fordragon Hold! |QID|12474|M|78.6,48.2|
 
-F Wyrmrest Temple |QID|12469| 
+F Wyrmrest Temple |QID|12469|
 A Return to Sender |QID|12469| |N|Follow the dots on my guide map until . There you should find a Nozzlerust Supply Runner.|M|48.00,24.00|
 
 T Return to Sender |QID|12469| |N|From there ride east to Nozzlerust Post .|M|55.00,24.00|
@@ -404,7 +409,7 @@ f Fordragon Hold |QID|12474| |N|Get the new flight path .|M|39.5,25.9|
 T To Fordragon Hold! |QID|12474| |N|Follow the path west towards the highest tower, there you'll find Highlord Bolvar Fordragon .|M|37.81,23.4|
 A Audience With The Dragon Queen |QID|12495|M|37.8,23.4|
 
-F Wyrmrest Temple |QID|12146| 
+F Wyrmrest Temple |QID|12146|
 
 T Disturbing Implications |QID|12146| |N|Turn in to Aurastrasza, who resides at the bottom floor of Wyrmrest Temple.|M|60.0,55.1|
 A One of a Kind |QID|12148|
@@ -439,7 +444,8 @@ T Mighty Magnataur |QID|12149|
 A Reclusive Runemaster |QID|12150|
 
 N Note: group quests |QID|12151| |N|Now we're all set for most of the group quests of Dragonblight. These can't be soloed by most classes, so look for a group for those quests while you keep on following the guide. Here's a list of the quests: [My Old Enemy] [The Plume of Alystros] [Wanted: High Shaman Bloodpaw] [Wanted: Kreug Oathbreaker] [Wanted: Onslaught Commander Iustus] [Reclusive Runemaster]. Once you finish [Reclusive Runemaster] (Defeat Dreg'mar), get the follow up [Wanton Warlord] (Kill Grom'thar) and also look for a group for it.|
-N Group mob map |QID|12151| |N|Here is the map of the group quests again. You can get there quickly thanks to your Wyrmrest Vanquisher, so just keep on following the guide normally and whenever you find a group for one of the quests, summomn your drake and fly there! Kreug Oathbreaker . High Shaman Bloodpaw (90.0, 72.0). Commander Iustus (87.0, 38.3). Dregmar Runebrand (72.0, 49.0). Abbendis (71.1, 77.8). Alystros (64.6, 77.3). Grom'thar (57.0, 76.0)|M|89.7,52.4|
+N Group mob map |QID|12151| |N|Here is the map of the group quests again. You can get there quickly thanks to your Wyrmrest Vanquisher, so just keep on following the guide normally and whenever you find a group for one of the quests, summomn your drake and fly there! Kreug Oathbreaker . High Shaman Bloodpaw (90.0, 72.0). Commander Iustus (87.0, 38.3). Dregmar Runebrand (72.0, 49.0). Abbendis (71.1, 77.
+. Alystros (64.6, 77.3). Grom'thar (57.0, 76.0)|M|89.7,52.4|
 
 T Report to the Ruby Dragonshrine |QID|12460| |U|38302| |N|Summon your Wyrmrest Vanquisher. Fly northwest to Ceristrasz |M|52.00,50.00|
 A Heated Battle |QID|12416|M|52.2,50.0|
@@ -449,7 +455,7 @@ C Heated Battle |QID|12416| |N|Very easy quest, you simply have to go down in th
 T Heated Battle |QID|12416| |N|Go back to Ceristrasz. |M|52.00,50.00|
 A Return to the Earth |QID|12417|M|52.2,50.0|
 
-U Summon your drake  |QID|12417| |U|38302| 
+U Summon your drake  |QID|12417| |U|38302|
 C Return to the Earth |QID|12417| |U|37727| |N|Fly to the southern canyon . Look for a Ruby Acorn. Loot it. Look for a Ruby Keeper (those dead dragons in flames). Target it and right-click the Ruby Acorn. Repeat this step 6 times.|M|47.00,53.00|
 
 T Return to the Earth |QID|12417| |U|38302| |N|Get out of the dragonshrine, summon your drake and fly back to Ceristrasz |M|52.00,50.00|

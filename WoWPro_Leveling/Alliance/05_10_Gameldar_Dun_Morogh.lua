@@ -1,44 +1,83 @@
-WoWPro.Leveling:RegisterGuide('GamDun0510', 'Dun Morogh', 'Gameldar', '05', '10', 'WkjLoc1220', 'Alliance', function() 
-return 
-[[
+-- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-02-05 01:18
+-- Who: Ludovicus Maior
+-- Log: Removed extra tabs and whitespace.
+--	Removed empty tags (aka ||'s).
 
-A Bound for Kharanos |QID|26380|M|49.89,45.01|Z|Dun Morogh|N|From Ciara Deepstone.| |R|Gnome| |QO|Bring the Sample Casks to Innkeeper Belm at the Thunderbrew Distillery in Kharanos.|
+-- URL: http://wow-pro.com/node/3200/revisions/24083/view
+-- Date: 2011-01-30 19:28
+-- Who: Ludovicus Maior
+-- Log: Corrected RegisterGuide to match GIT
 
-A Beer Basted Boar Ribs |QID|384|M|53.89,50.79|Z|Dun Morogh|N|From Ragnar Thunderbrew. Kill any boars you see from now on for Tender Boar Meat.|
-T Bound for Kharanos |QID|26380|M|54.47,50.81|Z|Dun Morogh|N|To Innkeeper Belm.| |R|Gnome|
-h Thunderbrew Distillery |QID|384|M|54.47,50.81|Z|Dun Morogh|N|Make Thunderbrew Distillery your new home.|
-N Sell junk |QID|384|M|54.47,50.81|Z|Dun Morogh|N|To Innkeeper Belm.|
-B Rhapsody Malt |NC||QID|384|M|54.47,50.81|Z|Dun Morogh|N|From Innkeeper Belm.| |QO|Rhapsody Malt: 1/1|
+-- URL: http://wow-pro.com/node/3200/revisions/24063/view
+-- Date: 2011-01-27 19:12
+-- Who: Ludovicus Maior
+-- Log:  WoWPro.Leveling
 
-O Train Cooking |QID|384|M|54.69,50.89|Z|Dun Morogh|N|Train this secondary profession if you want to.|
-O Train First Aid |QID|384|M|54.31,50.90|Z|Dun Morogh|N|Train this secondary profession if you want to.|
+-- URL: http://wow-pro.com/node/3200/revisions/23812/view
+-- Date: 2010-12-22 06:20
+-- Who: Gylin
 
-N Train new skills/spells |QID|384|M|54.69,50.89|Z|Dun Morogh|N|Train any new skills/spells you need.| |C|Rogue|
-N Train new skills/spells |QID|384|M|54.46,50.93|Z|Dun Morogh|N|Train any new skills/spells you need.| |C|Warrior|
-N Train new skills/spells |QID|384|M|54.44,50.53|Z|Dun Morogh|N|Train any new skills/spells you need.| |C|Priest|
-N Train new skills/spells |QID|384|M|54.66,50.32|Z|Dun Morogh|N|Train any new skills/spells you need.| |C|Mage,Paladin,Shaman|
+-- URL: http://wow-pro.com/node/3200/revisions/23632/view
+-- Date: 2010-12-06 09:00
+-- Who: Gylin
 
-A The Perfect Stout |QID|315|M|54.12,51.21|Z|Dun Morogh|N|From Rejold Barleybrew.|
+-- URL: http://wow-pro.com/node/3200/revisions/23631/view
+-- Date: 2010-12-06 08:58
+-- Who: Gylin
 
-N Train new skills/spells |QID|384|M|54.39,52.03|Z|Dun Morogh|N|Train any new skills/spells you need.| |C|Warlock|
+-- URL: http://wow-pro.com/node/3200/revisions/23319/view
+-- Date: 2010-12-03 07:56
+-- Who: Jiyambi
 
-T On to Kharanos |QID|26373|M|53.68,52.17|Z|Dun Morogh|N|To Captain Tharran.| |R|Gnome|
-A Frostmane Aggression |QID|25724|M|53.68,52.17|Z|Dun Morogh|N|From Captain Tharran.|
+-- URL: http://wow-pro.com/node/3200/revisions/23261/view
+-- Date: 2010-12-02 21:47
+-- Who: Jiyambi
 
-N Train new skills/spells |QID|384|M|52.91,51.34|Z|Dun Morogh|N|Train any new skills/spells you need.| |C|Hunter|
+-- URL: http://wow-pro.com/node/3200/revisions/23260/view
+-- Date: 2010-12-02 21:46
+-- Who: Jiyambi
 
-A Bound for Kharanos |QID|26380|M|49.89,45.01|Z|Dun Morogh|N|From Ciara Deepstone.| |R|Dwarf,Human,Nightelf||QO|Bring the Sample Casks to Innkeeper Belm at the Thunderbrew Distillery in Kharanos.|
-R Frostmane Aggression |CC||QID|25724|M|49.95,43.90|Z|Dun Morogh|N|Run to here then head up the hill.|
-C Frostmane Aggression |QID|25724|QO|Frostmane Seer slain: 5/5;Frostmane Snowstrider slain: 7/7|M|49.03,37.87|Z|Dun Morogh|
-C The Perfect Stout |QID|315|NC|N|Collect any Shimmerweeds you still need from the baskets on the ground.|
-R Follow the path down the hill |QID|384|CS|M|49.75,41.00;51.97,40.46;54.45,50.70|N|Kill any boars at bottom of the hill for Tender Boar Meat, then run back to Kharanos.|
+WoWPro.Leveling:RegisterGuide('GamDun0510', 'Dun Morogh', 'Gameldar', '05', '10', 'WkjLoc1220', 'Alliance', function()
+return [[
 
-T Bound for Kharanos |QID|26380| |M|54.45,50.70|Z|Dun Morogh| |N|To Innkeeper Belm.| |R|Dwarf,Human,Nightelf|
-T The Perfect Stout |QID|315| |M|54.12,51.21|Z|Dun Morogh| |N|To Rejold Barleybrew.|
-T Frostmane Aggression |QID|25724| |M|53.68,52.17|Z|Dun Morogh| |N|To Captain Tharran.|
-A Culling the Wendigos |QID|25667| |M|53.68,52.17|Z|Dun Morogh| |N|From Captain Tharran.|
-A Forced to Watch from Afar |QID|313| |M|53.68,52.17|Z|Dun Morogh| |N|From Captain Tharran.|
-A Pilfered Supplies |QID|25668| |M|53.67,52.14|Z|Dun Morogh| |N|From Quartermaster Glynna.|
+A Bound for Kharanos|QID|26380|M|49.89,45.01|Z|Dun Morogh|N|From Ciara Deepstone.|R|Gnome|QO|Bring the Sample Casks to Innkeeper Belm at the Thunderbrew Distillery in Kharanos.|
+
+A Beer Basted Boar Ribs|QID|384|M|53.89,50.79|Z|Dun Morogh|N|From Ragnar Thunderbrew. Kill any boars you see from now on for Tender Boar Meat.|
+T Bound for Kharanos|QID|26380|M|54.47,50.81|Z|Dun Morogh|N|To Innkeeper Belm.|R|Gnome|
+h Thunderbrew Distillery|QID|384|M|54.47,50.81|Z|Dun Morogh|N|Make Thunderbrew Distillery your new home.|
+N Sell junk|QID|384|M|54.47,50.81|Z|Dun Morogh|N|To Innkeeper Belm.|
+B Rhapsody Malt|NC|QID|384|M|54.47,50.81|Z|Dun Morogh|N|From Innkeeper Belm.|QO|Rhapsody Malt: 1/1|
+
+O Train Cooking|QID|384|M|54.69,50.89|Z|Dun Morogh|N|Train this secondary profession if you want to.|
+O Train First Aid|QID|384|M|54.31,50.90|Z|Dun Morogh|N|Train this secondary profession if you want to.|
+
+N Train new skills/spells|QID|384|M|54.69,50.89|Z|Dun Morogh|N|Train any new skills/spells you need.|C|Rogue|
+N Train new skills/spells|QID|384|M|54.46,50.93|Z|Dun Morogh|N|Train any new skills/spells you need.|C|Warrior|
+N Train new skills/spells|QID|384|M|54.44,50.53|Z|Dun Morogh|N|Train any new skills/spells you need.|C|Priest|
+N Train new skills/spells|QID|384|M|54.66,50.32|Z|Dun Morogh|N|Train any new skills/spells you need.|C|Mage,Paladin,Shaman|
+
+A The Perfect Stout|QID|315|M|54.12,51.21|Z|Dun Morogh|N|From Rejold Barleybrew.|
+
+N Train new skills/spells|QID|384|M|54.39,52.03|Z|Dun Morogh|N|Train any new skills/spells you need.|C|Warlock|
+
+T On to Kharanos|QID|26373|M|53.68,52.17|Z|Dun Morogh|N|To Captain Tharran.|R|Gnome|
+A Frostmane Aggression|QID|25724|M|53.68,52.17|Z|Dun Morogh|N|From Captain Tharran.|
+
+N Train new skills/spells|QID|384|M|52.91,51.34|Z|Dun Morogh|N|Train any new skills/spells you need.|C|Hunter|
+
+A Bound for Kharanos|QID|26380|M|49.89,45.01|Z|Dun Morogh|N|From Ciara Deepstone.|R|Dwarf,Human,Nightelf|QO|Bring the Sample Casks to Innkeeper Belm at the Thunderbrew Distillery in Kharanos.|
+R Frostmane Aggression|CC|QID|25724|M|49.95,43.90|Z|Dun Morogh|N|Run to here then head up the hill.|
+C Frostmane Aggression|QID|25724|QO|Frostmane Seer slain: 5/5;Frostmane Snowstrider slain: 7/7|M|49.03,37.87|Z|Dun Morogh|
+C The Perfect Stout|QID|315|NC|N|Collect any Shimmerweeds you still need from the baskets on the ground.|
+R Follow the path down the hill|QID|384|CS|M|49.75,41.00;51.97,40.46;54.45,50.70|N|Kill any boars at bottom of the hill for Tender Boar Meat, then run back to Kharanos.|
+
+T Bound for Kharanos|QID|26380|M|54.45,50.70|Z|Dun Morogh|N|To Innkeeper Belm.|R|Dwarf,Human,Nightelf|
+T The Perfect Stout|QID|315|M|54.12,51.21|Z|Dun Morogh|N|To Rejold Barleybrew.|
+T Frostmane Aggression|QID|25724|M|53.68,52.17|Z|Dun Morogh|N|To Captain Tharran.|
+A Culling the Wendigos|QID|25667|M|53.68,52.17|Z|Dun Morogh|N|From Captain Tharran.|
+A Forced to Watch from Afar|QID|313|M|53.68,52.17|Z|Dun Morogh|N|From Captain Tharran.|
+A Pilfered Supplies|QID|25668|M|53.67,52.14|Z|Dun Morogh|N|From Quartermaster Glynna.|
 
 R Make your way into the cave here|QID|25667|CC|M|49.51,52.90|Z|Dun Morogh|
 C Culling the Wendigos|QID|25667|S|QO|Wendigo slain: 10/10|M|48.28,47.38|Z|Dun Morogh|N|Kill Wendigos as you make your way through the cave.|
@@ -117,7 +156,7 @@ T Those Blasted Troggs!|QID|432|M|76.30,54.60|Z|Dun Morogh|N|To Foreman Stonebro
 T The Public Servant|QID|433|M|75.84,54.34|Z|Dun Morogh|N|To Senator Mehr Stonehallow.|
 A Trouble at the Lake|QID|25986|M|75.91,54.26|Z|Dun Morogh|N|From Senator Mehr Stonehallow.|
 f Gol'Bolar Quarry|QID|25986|M|75.87,54.36|Z|Dun Morogh|N|At Dominic Galebeard.|
-N Let the Troggs kill you|QID|25986||N|Run back into the quarry and let the Troggs kill you, then res' at the Spirit Healer.|
+N Let the Troggs kill you|QID|25986|N|Run back into the quarry and let the Troggs kill you, then res' at the Spirit Healer.|
 
 A Entombed in Ice|QID|25978|M|82.79,48.36|Z|Dun Morogh|N|From Sergeant Bahrum.|
 T Trouble at the Lake|QID|25986|M|82.79,48.36|Z|Dun Morogh|N|To Sergeant Bahrum.|
@@ -147,7 +186,7 @@ R Striking Back|QID|26094|U|56814|Z|Dun Morogh|N|Jump into the Repaired Bomber h
 C Striking Back|QID|26094|U|56814|M|78.25,20.50|Z|Dun Morogh|N|Drop Bombs on the Dark Iron Attackers.|
 T Striking Back|QID|26094|M|78.20,20.45|Z|Dun Morogh|N|To Commander Stonebreaker.|
 A Grimaxe's Demise|QID|26102|M|78.20,20.45|Z|Dun Morogh|N|From Commander Stonebreaker.|
-K Grimaxe's Demise|QID|26102|T|Dark Iron Golem|M|78.40,34.66|Z|Dun Morogh||N|Kill the golem he is sitting on, then kill Grimaxe.|
+K Grimaxe's Demise|QID|26102|T|Dark Iron Golem|M|78.40,34.66|Z|Dun Morogh|N|Kill the golem he is sitting on, then kill Grimaxe.|
 K Grimaxe's Demise|QID|26102|T|General Grimaxe|QO|General Grimaxe slain: 1/1|M|78.40,34.66|Z|Dun Morogh|
 T Grimaxe's Demise|QID|26102|M|78.23,20.49|Z|Dun Morogh|N|To Commander Stonebreaker.|
 A Demanding Answers|QID|26112|M|78.24,20.50|Z|Dun Morogh|N|From Commander Stonebreaker.|

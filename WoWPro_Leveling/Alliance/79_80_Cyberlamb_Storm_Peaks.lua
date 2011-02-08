@@ -1,9 +1,19 @@
+-- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2010-12-03 22:32
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3299/revisions/23489/view
+-- Date: 2010-12-03 22:32
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "JamIce7980", "Alliance", function()
 return [[
 
 N READ THIS! |QID|12818| |N|This guide picks up only non-group, non-instance quests. It also assumes that you have cold-weather flight|
 
-A Luxurious Getaway |QID|12853| |N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips & Crows" down in the sewers| |Z|Dalaran| |M|31.23,49.63|
+A Luxurious Getaway |QID|12853| |N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips
+&
+Crows" down in the sewers| |Z|Dalaran| |M|31.23,49.63|
 
 N Head on over to Storm Peaks! |QID|12818| |N|Head on over to Storm Peaks|
 
@@ -475,7 +485,7 @@ A Forging a Head |QID|12985| |N|From Njormeld| |M|63.2,63.2|
 
 A Jormuttar is Soo Fat... |QID|13011| |N|From King Jokkum| |M|65.4,60.1|
 
-C Forging a Head |QID|12985| |N|Use the Diamond Tipped Pick on Dead Iron Giants and loot 8 Stormforged Eyes| |M|70,60| |U|42424| |L|42423 8| 
+C Forging a Head |QID|12985| |N|Use the Diamond Tipped Pick on Dead Iron Giants and loot 8 Stormforged Eyes| |M|70,60| |U|42424| |L|42423 8|
 
 T Forging a Head |QID|12985| |N|Njormeld| |M|63.2,63.2|
 

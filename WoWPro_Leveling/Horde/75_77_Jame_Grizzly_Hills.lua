@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2010-12-03 22:26
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3294/revisions/23479/view
+-- Date: 2010-12-03 22:26
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamGri7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Horde", function()
 --Original guide written/designed by Jame
 --Addon Version: Last Modified 7/14/2010

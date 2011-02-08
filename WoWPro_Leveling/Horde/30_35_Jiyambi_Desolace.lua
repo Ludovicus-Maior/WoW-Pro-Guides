@@ -1,4 +1,35 @@
-WoWPro.Leveling:RegisterGuide('JiyDes3035', 'Desolace', 'Jiyambi', '30', '35', 'JiyFer3540', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2010-12-04 02:37
+-- Who: Liavan
+-- Log: Fix some U and L tags to be the appropriate horde version updated cords for Blubbergut.
+
+-- URL: http://wow-pro.com/node/3314/revisions/23543/view
+-- Date: 2010-12-04 02:33
+-- Who: Liavan
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3314/revisions/23540/view
+-- Date: 2010-12-04 02:05
+-- Who: Liavan
+-- Log: Updated U and L tags to horde item Ids on:
+--	K Burning Blade Member|QID|14232|L|49010|N|Kill a burning blade member and loot their ear.|
+--	
+--	A Ears Are Burning|QID|14232|U|49010|M|53.32,33.19|N|Right-click the Burning Blade Ear to start the quest.|
+--	
+--	A Jugkar's Undoing|RANK|2|QID|14344|U|49200|N|From the Infernal Power Core.|
+--	
+--	Updated cords for:
+--	C Blubbergut|RANK|2|QID|14334|M|20.01,72.90|N|Blubbergut is a huge orca. He patrols the area.|
+
+-- URL: http://wow-pro.com/node/3314/revisions/23525/view
+-- Date: 2010-12-04 00:11
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3314/revisions/23524/view
+-- Date: 2010-12-04 00:10
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyDes3035', 'Desolace', 'Jiyambi', '30', '35', 'JiyFer3540', 'Horde', function()
 --Needs testing by a level appropriate character
 return [[
 
@@ -84,8 +115,8 @@ A Official Assessment|QID|14302|PRE|14301|M|38.80,26.96|N|From Cenarion Research
 C Peace of Mind|NC|QID|14223|M|53.13,33.06|N|Kill Kohor, outside of Thunder Axe Fortress.|
 T Peace of Mind|QID|14223|N|The turn-in should pop up automatically.|
 A You'll Know It When You See It|QID|14225|PRE|14223|N|The new quest should pop up automatically.|
-K Burning Blade Member|QID|14232|L|49008|N|Kill a burning blade member and loot their ear.|
-A Ears Are Burning|QID|14232|U|49008|M|53.32,33.19|N|Right-click the Burning Blade Ear to start the quest.|
+K Burning Blade Member|QID|14232|L|49010|N|Kill a burning blade member and loot their ear.|
+A Ears Are Burning|QID|14232|U|49010|M|53.32,33.19|N|Right-click the Burning Blade Ear to start the quest.|
 C Ears Are Burning|QID|14232|M|54.94,26.66|N|Collect ears from burning blade members.|S|
 C You'll Know It When You See It|NC|QID|14225|M|52.90,28.95|N|Loot the chest.|
 T You'll Know It When You See It|QID|14225|N|The turn-in should pop up automatically.|
@@ -197,7 +228,7 @@ A Shadowprey Village|QID|14337|PRE|14327|M|57.40,47.68|N|From Karnum Marshweaver
 C Infernal Encroachment|RANK|2|QID|14342|M|50.69,74.00|S|N|Kill infernals. Make sure you loot them - one will drop a quest starting item.|
 C Portals of the Legion|RANK|2|QID|5581|U|14547|M|49.87,77.58|N|Right-click the portals. A guardian will appear - defeat it to destroy the portal.|
 C Infernal Encroachment|RANK|2|QID|14342|M|50.69,74.00|US|N|Kill infernals. Make sure you loot them - one will drop a quest starting item.|
-A Jugkar's Undoing|RANK|2|QID|14344|U|49219|N|From the Infernal Power Core.|
+A Jugkar's Undoing|RANK|2|QID|14344|U|49200|N|From the Infernal Power Core.|
 C Jugkar's Undoing|RANK|2|QID|14344|U|49199|M|54.36,76.96|N|Use the Infernal Power Core on the big demon. You'll take control of him - use him to defeat the warlock. Ability 1 is an enrage, Ability 2 is a stun, and Ability 3 is a cone of fire. Just use them when they are off cooldown, try to use the stun to interrupt the warlock's casts.|
 T Jugkar's Undoing|RANK|2|QID|14344|N|The turn-in should pop up automatically.|
 
@@ -223,7 +254,7 @@ A Blubbergut|RANK|2|QID|14334|M|22.71,72.02|N|From Mai'Lahii.|
 A Fish in a Bucket|RANK|3|QID|5421|M|22.36,73.18|N|From Jinar'Zillen.|
 f Shadowprey Village|RANK|2|QID|5421|M|21.58,74.01|N|At Thalon.|
 C Fish in a Bucket|RANK|3|NC|QID|5421|M|19.74,85.58|S|N|Loot the cages on the bottom of the sea. The bubbly fissures will allow you to regain you breath.|
-C Blubbergut|RANK|2|QID|14334|M|20.01,84.90|N|Blubbergut is a huge orca. He patrols the area.|
+C Blubbergut|RANK|2|QID|14334|M|20.01,72.90|N|Blubbergut is a huge orca. He patrols the area.|
 C Fish in a Bucket|RANK|3|NC|QID|5421|M|19.74,85.58|US|N|Loot the cages on the bottom of the sea. The bubbly fissures will allow you to regain you breath.|
 T Blubbergut|RANK|2|QID|14334|M|22.69,72.04|N|To Mai'Lahii.|
 T Fish in a Bucket|RANK|3|QID|5421|M|22.43,73.06|N|To Jinar'Zillen.|

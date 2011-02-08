@@ -1,3 +1,15 @@
+-- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2010-12-06 23:38
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3224/revisions/23318/view
+-- Date: 2010-12-03 07:40
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3224/revisions/23317/view
+-- Date: 2010-12-03 07:40
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('WkjWet2025', 'Wetlands', 'Wkjezz', '20', '25', 'BitAra2025', 'Alliance', function()
 return [[
 

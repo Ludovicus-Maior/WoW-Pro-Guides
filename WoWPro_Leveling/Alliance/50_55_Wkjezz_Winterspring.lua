@@ -1,5 +1,19 @@
-WoWPro.Leveling:RegisterGuide('WkjWin5055', 'Winterspring', 'Wkjezz', '50', '55', 'CraBla5458', 'Alliance', function()
-return [[N This Guide:|QID|99999|N|Starts where the Felwood Guide leaves off. Did not do felwood? Don't worry, Just make your way to Talenbranch Glade in Felwood to begin.|
+-- URL: http://wow-pro.com/wiki/source_code_winterspring_alliance
+-- Date: 2010-12-06 05:17
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3263/revisions/23408/view
+-- Date: 2010-12-03 11:54
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3263/revisions/23407/view
+-- Date: 2010-12-03 11:54
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('WkjWin5055', 'Winterspring', 'Wkjezz', '50', '55', 'placeholder', 'Alliance', function()
+return [[
+
+N This Guide:|QID|99999|N|Starts where the Felwood Guide leaves off. Did not do felwood? Don't worry, Just make your way to Talenbranch Glade in Felwood to begin.|
 R Timbermaw Hold|QID|99999|CC|M|64.33,10.50|Z|Felwood|N|Run into the tunnel here.|
 T Speak to Salfa|QID|28521|M|21.09,46.23|N|To Salfa.|
 A Winterfall Activity|QID|28522|M|21.09,46.23|N|From Salfa.|
@@ -192,7 +206,9 @@ T Ursius|QID|28639|M|55.89,28.16|N|To Francis Morcott.|
 T Shy-Rotam|QID|28742|M|55.95,28.10|N|To Jez Goodgrub.|
 T You Gotta Have Eggs|QID|28828|M|55.97,28.16|N|To Jez Goodgrub.|
 T A Bird of Legend|QID|28782|M|55.98,28.20|N|To Jeb Guthrie.|
-N End of the Guide.|QID|99999|N|Brrrr... Time for a nice hot coffee! Glad you could join us in Winterspring! Good Luck with your next guide. As always visit www.wow-pro.com for more great guides and community feedback. (click to continue)|
+N End of the Guide.|QID|99999|N|Brrrr... Time for a nice hot coffee! Glad you could join us in Winterspring! Good Luck with your next guide. As always visit
+www.wow-pro.com
+for more great guides and community feedback. (click to continue)|
 ]]
 
 end)

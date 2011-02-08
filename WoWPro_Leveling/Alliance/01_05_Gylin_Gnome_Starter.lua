@@ -1,6 +1,47 @@
-WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh (Gnome)", "Gylin", "01", "05", "GamDun0510", "Alliance", function()
+-- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-02-05 01:18
+-- Who: Ludovicus Maior
+-- Log: Removed extra tabs and whitespace.
+--	Removed empty tags (aka ||'s).
+
+-- URL: http://wow-pro.com/node/3200/revisions/24083/view
+-- Date: 2011-01-30 19:28
+-- Who: Ludovicus Maior
+-- Log: Corrected RegisterGuide to match GIT
+
+-- URL: http://wow-pro.com/node/3200/revisions/24063/view
+-- Date: 2011-01-27 19:12
+-- Who: Ludovicus Maior
+-- Log:  WoWPro.Leveling
+
+-- URL: http://wow-pro.com/node/3200/revisions/23812/view
+-- Date: 2010-12-22 06:20
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3200/revisions/23632/view
+-- Date: 2010-12-06 09:00
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3200/revisions/23631/view
+-- Date: 2010-12-06 08:58
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3200/revisions/23319/view
+-- Date: 2010-12-03 07:56
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3200/revisions/23261/view
+-- Date: 2010-12-02 21:47
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3200/revisions/23260/view
+-- Date: 2010-12-02 21:46
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh", "Gylin - Gnome", "01", "05", "GylDun0512", "Alliance", function()
 return
 [[
+
 A Pinned Down |QID|27670| |M|25.77,31.93| |N|From Nevin Twistwrench standing in front of you|
 C Pinned Down |QID|27670| |M|26.49,31.94| |QO|Crazed Leper Gnome slain: 6/6|
 T Pinned Down |QID|27670| |M|25.77,31.93| |N|To Nevin Twistwrench|

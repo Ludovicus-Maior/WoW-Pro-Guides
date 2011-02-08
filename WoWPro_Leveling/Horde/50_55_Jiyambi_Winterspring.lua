@@ -1,4 +1,12 @@
-WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'JiyBla5560', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_winterspring_horde
+-- Date: 2010-12-03 11:56
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3264/revisions/23409/view
+-- Date: 2010-12-03 11:55
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'JiyBla5560', 'Horde', function()
 return [[
 
 R Winterspring|QID|28521|M|21.04,46.22|N|Head through the Timbermaw tunnels to Winterspring.|

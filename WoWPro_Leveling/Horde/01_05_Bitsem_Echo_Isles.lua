@@ -1,5 +1,64 @@
-WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar - Echo Isles - Troll', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', function()
-return [[A The Rise of the Darkspear|RANK|1|QID|24764|C|Druid|M|62.43,84.53|N|From Jin'thala.|
+-- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-01-24 00:46
+-- Who: Ludovicus Maior
+-- Log: Optimize acquisition of a few quests: [The War of Northwatch Aggression], [A Exploiting the Situation].
+--	Do [The Wolf and The Kodo] first, in order to maximize the water breathing buff.
+--	Coordinate tweaks for [Thonk], [Raggaran's Rage], [Neeru Fireblade].
+--	Addition note for [Lost But Not Forgotten], so you don't kill alligators before you need them.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24034/view
+-- Date: 2011-01-22 03:51
+-- Who: Ludovicus Maior
+-- Log: Cleaned up some Race specific quests. Broke up a |N| tag on a quest into separate N steps.
+--	Relocated [A Purge the Valley] for better flow.  Touched up a few coordinates.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24030/view
+-- Date: 2011-01-21 21:51
+-- Who: Ludovicus Maior
+-- Log: Added |R|Orc| to the race specific quests not available to my goblin.
+--	Added a missing leading quest [Hana'zua].
+
+-- URL: http://wow-pro.com/node/3199/revisions/23669/view
+-- Date: 2010-12-07 04:06
+-- Who: Estraile
+-- Log: Addon Version: v2.0.6
+--	Game Version: 4.0.3
+--	Summary: Fixed placement of level step in Valley of Trials guide
+
+-- URL: http://wow-pro.com/node/3199/revisions/23616/view
+-- Date: 2010-12-05 23:06
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3199/revisions/23594/view
+-- Date: 2010-12-05 05:01
+-- Who: Crackerhead22
+-- Log: Fixed note error reported by Estraile.
+
+-- URL: http://wow-pro.com/node/3199/revisions/23574/view
+-- Date: 2010-12-04 19:06
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3199/revisions/23573/view
+-- Date: 2010-12-04 19:05
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3199/revisions/23337/view
+-- Date: 2010-12-03 10:30
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3199/revisions/23259/view
+-- Date: 2010-12-02 21:30
+-- Who: Bitsem
+-- Log: Added most recent Durotar 5-12 guide.
+
+-- URL: http://wow-pro.com/node/3199/revisions/23258/view
+-- Date: 2010-12-02 21:14
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar - Echo Isles (Troll)', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', function()
+return [[
+
+A The Rise of the Darkspear|RANK|1|QID|24764|C|Druid|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24750|C|Mage|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24770|C|Rogue|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24607|C|Warrior|M|62.43,84.53|N|From Jin'thala.|
@@ -43,7 +102,7 @@ T The Basics: Hitting Things|RANK|1|QID|24639|C|Warrior|M|65.78,84.52|N|To Norte
 T The Basics: Hitting Things|RANK|1|QID|26273|C|Warlock|M|64.92,83.26|N|To Voldreka.|
 T The Basics: Hitting Things|RANK|1|QID|24783|C|Priest|M|67.66,83.02|N|To Tunari.|
 T The Basics: Hitting Things|RANK|1|QID|24759|C|Shaman|M|64.94,84.21|N|To Nekali.|
-T The Basics: Hitting Things|RANK|1|QID|24777|C|Hunter|M|67.09,83.30|N|To Ortezza.|
+T The Basics: Hitting Things|RANK|1|QID|24777|C|Hunter|67.09,83.30|N|To Ortezza.|
 
 A A Rough Start|RANK|1|QID|24767|PRE|24765|C|Druid|M|67.69,84.69|N|From Zen'tabra.|
 A A Rough Start|RANK|1|QID|24753|PRE|24721|C|Mage|M|68.22,83.99|N|From Soratha.|

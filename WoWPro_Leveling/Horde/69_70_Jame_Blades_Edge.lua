@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2010-12-03 21:38
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3282/revisions/23452/view
+-- Date: 2010-12-03 21:37
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamBla6970", "Blade's Edge Mountains", "Jame", "69", "70", "JamHow7071", "Horde", function()
 return [[
 H Garadar|QID|10928|U|6948|

@@ -1,4 +1,17 @@
-WoWPro.Leveling:RegisterGuide('JiyDus3540', 'Dustwallow Marsh', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2011-01-17 19:17
+-- Who: Estraile
+-- Log: Fixed notes for Theramore Spies and Twilight of the Dawn Runner
+
+-- URL: http://wow-pro.com/node/3242/revisions/23365/view
+-- Date: 2010-12-03 11:16
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3242/revisions/23364/view
+-- Date: 2010-12-03 11:16
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyDus3540', 'Dustwallow Marsh', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function()
 return [[
 
 A Suspicious Hoofprints|RANK|1|QID|27259|M|29.68,47.55|N|From a patch of dirt on the ground.|
@@ -7,9 +20,9 @@ A The Black Shield|RANK|1|QID|27254|M|29.63,48.52|N|From the shield on the wall.
 R Brackenwall Village|RANK|1|QID|27254|M|37.52,31.62|N|Head to the Horde base for this area, Brackenwall Village|
 A SMASH BROODQUEEN|RANK|1|QID|27229|M|37.52,31.62|N|From the wanted poster.|
 T Next of Kin|RANK|1|QID|25292|O|M|35.52,30.15|N|To Alto Stonespire.|
-A Theramore Spies|RANK|2|QID|1201|M|35.29,30.63|N|From Nazeer Bloodpike. Outdated?|
+A Theramore Spies|RANK|2|QID|1201|M|35.29,30.63|N|From Nazeer Bloodpike.|
 f Brackenwall Village|RANK|1|QID|27182|M|35.57,31.86|
-A Twilight of the Dawn Runner|RANK|1|QID|9437|M|35.86,31.71|N|From Balandar Brightstar. Outdated?|
+A Twilight of the Dawn Runner|RANK|1|QID|9437|M|35.86,31.71|N|From Balandar Brightstar.|
 T Warchief's Command: Dustwallow Marsh!|RANK|1|QID|28549|O|M|31.42,13.32|N|To Krog.|
 T Suspicious Hoofprints|RANK|1|QID|27259|M|36.39,31.82|N|To Krog.|
 T Lieutenant Paval Reethe|RANK|1|QID|27260|M|36.39,31.82|N|To Krog.|

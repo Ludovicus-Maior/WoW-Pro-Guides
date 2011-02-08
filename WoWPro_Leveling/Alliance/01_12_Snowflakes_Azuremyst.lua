@@ -1,6 +1,42 @@
-WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
-return [[
+-- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2011-01-25 01:28
+-- Who: Fluclo
 
+-- URL: http://wow-pro.com/node/3206/revisions/24048/view
+-- Date: 2011-01-25 01:25
+-- Who: Fluclo
+-- Log: Corrected layout for An Alternative Alternative
+
+-- URL: http://wow-pro.com/node/3206/revisions/23721/view
+-- Date: 2010-12-10 05:17
+-- Who: Crackerhead22
+-- Log: Changed, "Azuremyst Isle (Draenai)", to "Azuremyst Isle - Draenai".
+--	Removed the unneeded zone tags due to first change.
+
+-- URL: http://wow-pro.com/node/3206/revisions/23598/view
+-- Date: 2010-12-05 07:19
+-- Who: Crackerhead22
+-- Log: Changed the NPC names for the class quests, to the correct NPCs.
+
+-- URL: http://wow-pro.com/node/3206/revisions/23597/view
+-- Date: 2010-12-05 07:15
+-- Who: Crackerhead22
+-- Log: Added missing class quests, added spacing for easier editing.
+
+-- URL: http://wow-pro.com/node/3206/revisions/23320/view
+-- Date: 2010-12-03 07:57
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3206/revisions/23278/view
+-- Date: 2010-12-02 23:18
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3206/revisions/23277/view
+-- Date: 2010-12-02 23:18
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle - Draenai", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
+return [[
 R Note:|QID|10302|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
 f Seat of the Naaru|QID|9625|10302|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
 A You Survived!|R|Draenei|QID|9279|M|84.2,43.0|N|From Megelon right in front of you.|
@@ -134,7 +170,7 @@ C The Great Moongraze Hunt |QID|9454|US|N|Kill the needed Moongraze Stags and Ro
 C Medicinal Purpose|QID|9463|R|Draenei|US|N|Kill the needed Root Trappers on the way north. They can be found next to the road.|M|48.52,55.63|
 R Azure Watch|QID|9463|M|48.83,53.16|N|Run to Azure Watch.|
 T Medicinal Purpose|QID|9463|R|Draenei|M|48.4,51.8|
-A An Alternative Alternative|QID|R|Draenei|9473|M|48.4,51.8|
+A An Alternative Alternative|QID|9473|M|48.4,51.8|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|M|49.8,51.9|
 A The Great Moongraze Hunt|QID|10324|M|49.8,51.9|
 r Sell junk and repair|QID|9530|N|At Kioni|M|49.69,52.75|
@@ -152,7 +188,7 @@ T Precious and Fragile Things Need Special Handling|QID|9523|M|47.2,70.0|
 A Warlord Sriss'tiz|QID|9515|N|Wait a moment until the dialog is finished.|M|47.0,70.2|
 C An Alternative Alternative|QID|9473|R|Draenei|US|N|Go back to Azure Watch while collecting the remaining Azure Snapdragon Bulbs.|M|48.72,53.81|
 R Azure Watch|QID|9473|M|48.72,53.81|
-T An Alternative Alternative|QID|R|Draenei|9473|M|48.4,51.8|
+T An Alternative Alternative|QID|9473|M|48.4,51.8|R|Draenei|
 A The Missing Fisherman|QID|10428|M|49.0,51.1|
 A Learning the Language|QID|9538|M|49.4,51.0|
 C Learning the Language|N|Read the book.|QID|9538|U|23818|

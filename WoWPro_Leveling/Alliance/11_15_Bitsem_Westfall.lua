@@ -1,3 +1,25 @@
+-- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2011-01-06 15:32
+-- Who: Crackerhead22
+-- Log: Added turn in for "Furlbrow's Deed"
+
+-- URL: http://wow-pro.com/node/3213/revisions/23814/view
+-- Date: 2010-12-22 23:59
+-- Who: Crackerhead22
+-- Log: Added missing turn-ins.
+
+-- URL: http://wow-pro.com/node/3213/revisions/23322/view
+-- Date: 2010-12-03 08:42
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3213/revisions/23295/view
+-- Date: 2010-12-03 07:22
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3213/revisions/23294/view
+-- Date: 2010-12-03 07:21
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('BitWes1020', 'Westfall', 'Bitsem', '10', '20', 'KurRed1520', 'Alliance', function()
 return [[
 

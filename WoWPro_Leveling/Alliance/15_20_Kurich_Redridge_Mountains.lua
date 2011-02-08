@@ -1,5 +1,30 @@
+-- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2011-01-30 19:13
+-- Who: Ludovicus Maior
+-- Log: Fixed RegisterGuide line to match GIT.
+
+-- URL: http://wow-pro.com/node/3215/revisions/23593/view
+-- Date: 2010-12-05 04:50
+-- Who: Crackerhead22
+-- Log: Added spaces, fixed date.
+
+-- URL: http://wow-pro.com/node/3215/revisions/23592/view
+-- Date: 2010-12-05 04:46
+-- Who: Crackerhead22
+-- Log: Finished source code.
+
+-- URL: http://wow-pro.com/node/3215/revisions/23300/view
+-- Date: 2010-12-03 07:27
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3215/revisions/23299/view
+-- Date: 2010-12-03 07:27
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", "TwiDus2025", "Alliance", function()
-return [[F Eastvale Logging Camp|QID|26365|M|56.16,51.64|Z|Westfall|N|Fly to Eastvale Logging Camp.|
+return [[
+
+F Eastvale Logging Camp|QID|26365|M|56.16,51.64|Z|Westfall|N|Fly to Eastvale Logging Camp.|
 R Redridge Mountains|QID|26365|M|81.96,73.92;96.68,72.33|Z|Elwynn Forest|N|Follow the waypoints into Redridge Mountains.|
 A Wanted: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|
@@ -24,11 +49,11 @@ A We Must Prepare!|QID|26510|M|28.78,41.15|Z|Lakeshire Town Hall|N|From Magistra
 A Lake Everstill Clean Up|QID|26511|M|28.61,40.99|Z|Lakeshire Town Hall|N|From Bailiff Conacher.|
 h Lakeshire|QID|26511|M|26.38,41.54|Z|Lakeshire Inn|N|At Innkeeper Brianna.|
 A An Unwelcome Guest|QID|26509|M|22.03,42.79|N|From Martie Jainrose.|
-K An Unwelcome Guest|QID|26509|M|17.59,44.80|N|Find and kill Bellygrub. Loot his tusk, once he is dead.|
+K An Unwelcome Guest|QID|26509|M|17.59,44.80|N|Find and kill Bellygrub.  Loot his tusk, once he is dead.|
 T An Unwelcome Guest|QID|26509|M|21.89,42.82|N|To Martie Jainrose.|
 r Sell junk, Repair/Restock|QID|26509|M|29.57,42.98|N|At Dorin Songblade.|
 A Nida's Necklace|QID|26508|M|28.35,48.72|N|From Shawn.|
-l Nida's Necklace|QID|26508|L|10958 |M|20.43,47.21;35.6,49.6|N|Jump in the water and look for Glinting Mud. Itcan be anywhere within the 2 waypoints. Head to the west first, if not there then head east.|
+l Nida's Necklace|QID|26508|L|10958 |M|20.43,47.21;35.6,49.6|N|Jump in the water and look for Glinting Mud.  Itcan be anywhere within the 2 waypoints.  Head to the west first, if not there then head east.|
 C Lake Everstill Clean Up|QID|26511|S|M|37.46,43.48|N|Kill any murloc you see.|
 l We Must Prepare!|QID|26510|L|58894 |M|37.82,42.14|N|Pick up the Gnomecorder on the small isle.|
 C Lake Everstill Clean Up|QID|26511|US|M|37.46,43.48|N|Kill any murloc you see.|
@@ -42,18 +67,18 @@ T Tuning the Gnomecorder|QID|26512|M|32.31,39.51|
 
 A Canyon Romp|QID|26514|M|32.31,39.51|
 C Like a Fart in the Wind|QID|26513|S|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|
-C Canyon Romp|QID|26514|M|32.14,25.18|N|Kill any Gnoll you see. Be careful of the elite Etin wandering around.|
+C Canyon Romp|QID|26514|M|32.14,25.18|N|Kill any Gnoll you see.  Be careful of the elite Etin wandering around.|
 C Like a Fart in the Wind|QID|26513|US|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|
 T Canyon Romp|QID|26514|M|32.57,25.13|
 A They've Wised Up...|QID|26544|M|32.57,25.13|
 A He Who Controls the Ettins|QID|26519|U|58898|M|33.92,24.55|N|You should have looted a Dirt-Stained Scroll by now, if not keep killing Gnolls until one drops.|
-l They've Wised Up...|QID|26544|L|58936 |M|20.57,26.82;20.22,23.77|N|Head inside of Rethbane Caverns and look for a Blackrock Overseer. Kill him to get the Blackrock Missive.|
+l They've Wised Up...|QID|26544|L|58936 |M|20.57,26.82;20.22,23.77|N|Head inside of Rethbane Caverns and look for a Blackrock Overseer.  Kill him to get the Blackrock Missive.|
 T They've Wised Up...|QID|26544|M|20.22,23.77|
 A Yowler Must Die!|QID|26545|M|20.22,23.77|
 C He Who Controls the Ettins|QID|26519|M|18.05,18.48|N|Find and kill Ardo Dirtpaw.|
 T He Who Controls the Ettins|QID|26519|M|17.93,18.53|N|Turn it in at the orb.|
 A Saving Foreman Oslow|QID|26520|M|17.93,18.53|
-K Yowler Must Die!|QID|26545|U|58895|L|58937 |M|27.45,22.09|N|Ok, time to grab some help, go around looking for a Canyon Enttin. When you see one, use the orb and quickly get it down to around 50% health. Find Yowler, kill him and loot the plans.|
+K Yowler Must Die!|QID|26545|U|58895|L|58937 |M|27.45,22.09|N|Ok, time to grab some help, go around looking for a Canyon Enttin.  When you see one, use the orb and quickly get it down to around 50% health.  Find Yowler, kill him and loot the plans.|
 C Saving Foreman Oslow|QID|26520|U|58895|M|31.75,44.41|N|When you get near the boulder use the orb again to get the rock off Oslow.|
 
 T Like a Fart in the Wind|QID|26513|M|31.80,44.76|N|To Marshal Marris.|
@@ -67,7 +92,7 @@ A Weapons of War|QID|26571|M|28.57,40.84|Z|Lakeshire Town Hall|N|From Colonel Tr
 A Surveying Equipment|QID|26569|M|29.63,44.41|N|From Foreman Oslow.|
 A Render's Army|QID|26570|M|29.63,44.41|N|From Marshal Marris.|
 A In Search of Bravo Company|QID|26586|M|28.58,40.90|Z|Lakeshire Town Hall|N|From Colonel Troteman.|
-C Render's Army|QID|26570|S|M|29.35,10.76|N|Kill any and all orcs for this quest. Except for the elites.|
+C Render's Army|QID|26570|S|M|29.35,10.76|N|Kill any and all orcs for this quest.  Except for the elites.|
 T In Search of Bravo Company|QID|26586|M|47.42,41.68|N|To Messner.|
 A Breaking Out is Hard to Do|QID|26587|M|47.42,41.68|N|From Messner.|
 C Weapons of War|QID|26571|M|50.82,41.45|N|Kill Homurk for the knife, and Murdunk for the bow.|
@@ -87,7 +112,7 @@ C And Last But Not Least... Danforth|QID|26562|M|28.13,18.25|N|Kill Overlord Bar
 T And Last But Not Least... Danforth|QID|26562|M|28.21,17.11|
 A Return of the Bravo Company|QID|26563|M|28.07,17.29|N|From Danforth.|
 C Surveying Equipment|QID|26569|M|32.46,9.82|N|You'll get these as you kill orcs at Render's Camp.|
-C Render's Army|QID|26570|US|M|29.35,10.76|N|Kill any and all orcs for this quest. Except for the elites.|
+C Render's Army|QID|26570|US|M|29.35,10.76|N|Kill any and all orcs for this quest.  Except for the elites.|
 
 H Lakeshire Inn|QID|26563|N|Hearth back to Lakeshire or run if it on cooldown.|
 T His Heart Must Be In It|QID|26573|M|28.51,40.85|Z|Lakeshire Town Hall|N|To Colonel Troteman.|
@@ -107,10 +132,10 @@ A Point of Contact: Brubaker|QID|26639|M|52.48,55.19|N|From John J. Keeshan.|
 A Hunting the Hunters|QID|26638|M|52.46,55.38|N|From Danforth.|
 A Bravo Company Field Kit: Chloroform|QID|26637|M|52.49,55.47|N|From Messner.|
 A Bravo Company Field Kit: Camouflage|QID|26636|M|52.49,55.47|N|From Krakauer.|
-l Bravo Company Field Kit: Chloroform|QID|26637|L|59156 8|M|42.75,53.87|N|Enter the lake and kill any Muckdweller you see. Don't forget to surface now and then, and be careful of Ol' Gummers.|
-C Hunting the Hunters|QID|26638|S|M|52.95,67.78|N|Kill any Blackrock Hunter you see. They are stealthed.|
-C Bravo Company Field Kit: Camouflage|QID|26636|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|
-C Hunting the Hunters|QID|26638|US|M|52.95,67.78|N|Kill any Blackrock Hunter you see. They are stealthed.|
+l Bravo Company Field Kit: Chloroform|QID|26637|L|59156 8|M|42.75,53.87|N|Enter the lake and kill any Muckdweller you see.  Don't forget to surface now and then, and be careful of Ol' Gummers.|
+C Hunting the Hunters|QID|26638|S|M|52.95,67.78|N|Kill any Blackrock Hunter you see.  They are stealthed.|
+C Bravo Company Field Kit: Camouflage|QID|26636|M|50.40,65.50|N|The poop is everywhere, look for the sparkling piles.  The leaves are under trees.|
+C Hunting the Hunters|QID|26638|US|M|52.95,67.78|N|Kill any Blackrock Hunter you see.  They are stealthed.|
 T Point of Contact: Brubaker|QID|26639|M|53.01,67.78|N|To Brubaker.|
 A Unspeakable Atrocities|QID|26640|M|53.01,67.78|N|From Brubaker.|
 T Bravo Company Field Kit: Camouflage|QID|26636|M|52.47,55.45|N|To Krakauer.|
@@ -118,14 +143,14 @@ T Bravo Company Field Kit: Chloroform|QID|26637|M|52.47,55.45|N|To Messner.|
 T Hunting the Hunters|QID|26638|M|52.47,55.45|N|To Danforth.|
 T Unspeakable Atrocities|QID|26640|M|52.47,55.45|N|To John J. Keeshan.|
 A Prisoners of War|QID|26646|M|52.50,55.48|N|From John J. Keeshan.|
-l Blackrock Holding Pen Key|QID|26646|U|60384|L|59261 |M|69.4,76.53|N|Use the field kit. Then use ability #1 (Camoflauge) when you get near the camp. Use #2 (Distraction) to get past guards (can backfire somewhat). Use #3 (Chloroform) on the orc where the key is.|
-C Prisoners of War|QID|26646|U|60384|M|69.40,58.59|N|If the orc is about to wake up, use ability #3 again. Use #2 to get out of the cave. Then head to the waypoint, click on one of the cages to free the people.|
+l Blackrock Holding Pen Key|QID|26646|U|60384|L|59261 |M|69.4,76.53|N|Use the field kit.  Then use ability #1 (Camoflauge) when you get near the camp.  Use #2 (Distraction) to get past guards (can backfire somewhat).  Use #3 (Chloroform) on the orc where the key is.|
+C Prisoners of War|QID|26646|U|60384|M|69.40,58.59|N|If the orc is about to wake up, use ability #3 again.  Use #2 to get out of the cave.  Then head to the waypoint, click on one of the cages to free the people.|
 T Prisoners of War|QID|26646|M|69.46,58.62|N|From Keeshan.|
 A To Win a War, You Gotta Become War|QID|26651|M|69.46,58.62|
-C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|Seaforium Planted at Blackrock Tower: 1/1|M|63.68,70.51|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|
-C To Win a War, You Gotta Become War|QID|26651|U|60385|M|63.86,70.34|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|
+C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|Seaforium Planted at Blackrock Tower: 1/1|M|63.68,70.51|N|Re-apply the Camouflage if it's low.  Head to the waypoint and use #2 to get in the tower.  Use the Chloroform to get to the top.  Once inside at the top use ability #4.|
+C To Win a War, You Gotta Become War|QID|26651|U|60385|M|63.86,70.34|N|Same deal as the Tower.  Use a distraction to get in and plant a charge,|
 
-R Shalewind Canyon|QID|26651|U|60385|M|72.4,64.3;77.26,65.86|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|
+R Shalewind Canyon|QID|26651|U|60385|M|72.4,64.3;77.26,65.86|N|Head to Shalewind Canyon.  Use your field kit abilities to get there.|
 T To Win a War, You Gotta Become War|QID|26651|M|77.60,65.56|N|To John J. Keeshan.|
 A Detonation|QID|26668|M|77.60,65.56|N|From John J. Keeshan.|
 C Detonation|QID|26668|NC|M|77.60,65.61|N|Enjoy the brief cut scene.|
@@ -134,7 +159,7 @@ f Shalewind Canyon|QID|26668|M|77.91,65.85|N|At Nora Baldwin.|
 A The Dark Tower|QID|26693|M|77.57,65.57|N|From John J. Keeshan.|
 A Shadowhide Extinction|QID|26692|M|77.59,65.54|N|From Danforth.|
 r Repair/Restock|QID|26692|M|78.71,63.46|N|At Clyde Ranthal.|
-C The Dark Tower|QID|26693|M|67.58,29.61|N|Enter the cave and kill General Fangore. Loot his corpse to get the Key of Ilgalar.|
+C The Dark Tower|QID|26693|M|67.58,29.61|N|Enter the cave and kill General Fangore.  Loot his corpse to get the Key of Ilgalar.|
 T The Dark Tower|QID|26693|M|67.55,29.54|
 A The Grand Magus Doane|QID|26694|M|67.55,29.54|
 C Shadowhide Extinction|QID|26692|S|N|Kill any Gnoll you come across.|
@@ -144,14 +169,14 @@ T Shadowhide Extinction|QID|26692|M|77.79,65.16|N|To Danforth.|
 T The Grand Magus Doane|QID|26694|M|77.77,65.23|N|To John J. Keeshan.|
 
 A AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|77.29,65.80|N|From Colonel Troteman.|
-C AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|71.47,40.78|N|Hop in the tank and head towared Keeshan's post. You should have all 200 when you get there.|
+C AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|71.47,40.78|N|Hop in the tank and head towared Keeshan's post.  You should have all 200 when you get there.|
 T AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|To Colonel Troteman.|
 A Showdown at Stonewatch|QID|26713|M|60.76,36.57|N|From Colonel Troteman.|
 C Showdown at Stonewatch|QID|26713|QO|Tharil'zun slain: 1/1|M|60.29,47.27|N|First up is Tharil'zun.|
 C Showdown at Stonewatch|QID|26713|M|58.44,55.60|N|Head to the waypoint to kill Gath'Ilzogg.|
 T Showdown at Stonewatch|QID|26713|M|58.44,55.53|
 A Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.44,55.53|
-C Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.89,55.27|N|Use the horn tha should be next to Gath'Ilzogg's corpse. Try to stay on Darkblaze's side, and just attack as hard as you can. You can not pull it off of Keeshan.|
+C Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.89,55.27|N|Use the horn tha should be next to Gath'Ilzogg's corpse.  Try to stay on Darkblaze's side, and just attack as hard as you can.  You can not pull it off of Keeshan.|
 T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.55,36.46|N|To Colonel Troteman.|
 A Triumphant Return|QID|26726|M|60.55,36.46|N|From Colonel Troteman.|
 H Lakeshire Inn|QID|26726|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|

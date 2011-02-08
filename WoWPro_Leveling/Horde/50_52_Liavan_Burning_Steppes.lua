@@ -1,3 +1,19 @@
+-- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2010-12-06 02:08
+-- Who: Liavan
+
+-- URL: http://wow-pro.com/node/3266/revisions/23619/view
+-- Date: 2010-12-06 01:43
+-- Who: Liavan
+
+-- URL: http://wow-pro.com/node/3266/revisions/23414/view
+-- Date: 2010-12-03 11:59
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3266/revisions/23413/view
+-- Date: 2010-12-03 11:59
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('LiaBur5052', 'Burning Steppes', 'Liavan', '50', '52', 'LiaSwa5255', 'Horde', function()
 return [[
 

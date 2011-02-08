@@ -1,3 +1,51 @@
+-- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2011-01-21 21:02
+-- Who: Crackerhead22
+-- Log: Changed reputation tags to the way Twists asked them to be.
+
+-- URL: http://wow-pro.com/node/3285/revisions/24007/view
+-- Date: 2011-01-17 04:07
+-- Who: Crackerhead22
+-- Log: Added note about group quests.
+
+-- URL: http://wow-pro.com/node/3285/revisions/24006/view
+-- Date: 2011-01-17 03:53
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3285/revisions/24005/view
+-- Date: 2011-01-17 03:50
+-- Who: Crackerhead22
+-- Log: Updated source code for so it includes |Rep| tags
+
+-- URL: http://wow-pro.com/node/3285/revisions/23798/view
+-- Date: 2010-12-20 14:06
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3285/revisions/23796/view
+-- Date: 2010-12-19 12:07
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3285/revisions/23795/view
+-- Date: 2010-12-19 11:43
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3285/revisions/23794/view
+-- Date: 2010-12-19 11:42
+-- Who: Crackerhead22
+-- Log: Added in Aldor source code
+
+-- URL: http://wow-pro.com/node/3285/revisions/23461/view
+-- Date: 2010-12-03 21:58
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3285/revisions/23460/view
+-- Date: 2010-12-03 21:57
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3285/revisions/23459/view
+-- Date: 2010-12-03 21:57
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('CraSha7070', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', '####', 'Alliance', function()
 return [[
 
@@ -302,7 +350,8 @@ T Karynaku|QID|10858|M|69.83,61.36|N|To Karynaku.|
 A Zuluhed the Whacked|QID|10866|M|69.81,61.28|N|From Karynaku.|
 A Zuluhed the Whacked|QID|10866|M|70.00,61.46|N|From Karynaku.|
 K Zuluhed the Whacked|QID|10866|M|71.09,61.56|N|Clear both rooms next to the waypoint. Once he is summoned head into one of the two rooms, reason being the Dragonmaw Elites that spawn on the parapet to peck you to death from range. Kill then loot Zuluhed.|
-C Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|Click on the ball&chain that is connected to Karynaku to free her.|
+C Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|Click on the ball
+that is connected to Karynaku to free her.|
 T Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|To Karynaku.|
 A Ally of the Netherwing|QID|10870|M|69.86,61.23|N|From Karynaku.|
 T Ally of the Netherwing|QID|10870|M|59.33,58.65|N|To Mordenai.|

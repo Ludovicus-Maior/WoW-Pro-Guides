@@ -1,3 +1,16 @@
+-- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2011-01-13 01:47
+-- Who: brandonh6k
+-- Log: Fixed Overload Agmar's location.  It was listing him in the walking around location (which isn't that often), not the sitting on the throne one.
+
+-- URL: http://wow-pro.com/node/3292/revisions/23476/view
+-- Date: 2010-12-03 22:23
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3292/revisions/23475/view
+-- Date: 2010-12-03 22:23
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamDra7375", "Dragonblight", "Jame", "73", "75", "JamGri7577", "Horde", function()
 --> Original guides written/designed by [Jame]
 -->
@@ -382,10 +395,18 @@ T The Truth Will Out |QID|12283|M|76.8,63.3|
 A Do Unto Others |QID|12285|N|Group Quest|M|76.0,63.0|PRE|12283|
 N High General Abbendis |QID|12285|QO|The Head of the High General: 1/1|N|Another group quest. She has 96,000 HP, hits for about 3k on cloth and is immune to snares, stuns, etc. You're going to need a group, preferably one with tank and healer. 1k on plate.|M|71,76|
 
-N Blacksmith Goodman |QID|12273|QO|Blacksmith Goodman's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's at the blacksmith. |M|71,70|
-N Commander Jordan |QID|12273|QO|Commander Jordan's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's in the barracks |M|69.7,71.8|
-N Stable Master Mercer |QID|12273|QO|Stable Master Mercer's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's at the stables |M|68,75|
-N Lead Cannoneer Zierhut |QID|12273|QO|Lead Cannoneer Zierhut's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's halfway down to the coast by all the cannons |M|73,78|
+N Blacksmith Goodman |QID|12273|QO|Blacksmith Goodman's denouncement
+&
+death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's at the blacksmith. |M|71,70|
+N Commander Jordan |QID|12273|QO|Commander Jordan's denouncement
+&
+death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's in the barracks |M|69.7,71.8|
+N Stable Master Mercer |QID|12273|QO|Stable Master Mercer's denouncement
+&
+death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's at the stables |M|68,75|
+N Lead Cannoneer Zierhut |QID|12273|QO|Lead Cannoneer Zierhut's denouncement
+&
+death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's halfway down to the coast by all the cannons |M|73,78|
 K Onslaught Knight |QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|
 C Fresh Remounts |QID|12214|QO|Scarlet Onslaught Warhorse reins handed over: 2/3|U|37202|N|Use the Riding crop on the horse and ride it back to Hansel Bauer. Use ability 1 to hand the final horse in. |M|75.9,61.9|
 

@@ -1,3 +1,33 @@
+-- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2011-01-17 03:49
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3277/revisions/24003/view
+-- Date: 2011-01-17 03:25
+-- Who: Crackerhead22
+-- Log: Updated source code for so it includes |Rep| tags.
+
+-- URL: http://wow-pro.com/node/3277/revisions/23953/view
+-- Date: 2011-01-08 10:35
+-- Who: Crackerhead22
+-- Log: Fixed setting hearth step not auto-completing, fixed a couple missing |Z| tag issue.
+
+-- URL: http://wow-pro.com/node/3277/revisions/23731/view
+-- Date: 2010-12-11 02:36
+-- Who: Crackerhead22
+-- Log: Updated source code for Aldor and Scryers.  Added in |Z| where needed, added sticky steps, removed an outdated quest.
+
+-- URL: http://wow-pro.com/node/3277/revisions/23445/view
+-- Date: 2010-12-03 21:32
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3277/revisions/23442/view
+-- Date: 2010-12-03 21:22
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3277/revisions/23441/view
+-- Date: 2010-12-03 21:21
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("JamTer6466", "Terokkar Forest", "Jame", "64", "66", "JamNag6668", "Alliance", function()
 return [[

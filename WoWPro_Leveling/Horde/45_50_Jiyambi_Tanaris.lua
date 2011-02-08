@@ -1,4 +1,12 @@
-WoWPro.Leveling:RegisterGuide('JiyTan4550', 'Tanaris', 'Jiyambi', '45', '50', 'JiyUng5055', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
+-- Date: 2010-12-03 11:49
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3260/revisions/23401/view
+-- Date: 2010-12-03 11:49
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyTan4550', 'Tanaris', 'Jiyambi', '45', '50', 'JiyUng5055', 'Horde', function()
 return [[
 
 f Gadgetzan|QID|24906|M|52.04,27.61|N|From Bulkrek Ragefist.|

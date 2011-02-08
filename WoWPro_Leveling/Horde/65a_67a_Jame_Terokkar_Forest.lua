@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2010-12-03 21:31
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3278/revisions/23443/view
+-- Date: 2010-12-03 21:30
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamTerA6567", "Terokkar Forest - Aldor", "Jame", "65", "67", "JamNag6769", "Horde", function()
 
 --> Original guides written/designed by [Jame]

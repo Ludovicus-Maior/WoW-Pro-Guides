@@ -1,6 +1,28 @@
-WoWPro.Leveling:RegisterGuide("JamHow7071", "Howling Fjord", "Jame", "70", "71", "JamBor7173", "Horde", function()
-return [[
+-- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2011-01-08 18:40
+-- Who: STrek
+-- Log: added code:
+--	C War is Hell |QID|11270|U|33278|US|N|Burn the Forsaken and Alliance corpses with the Burning Torch.|
+--	
+--	so sticky gets unsticked and quest is completed before the 'turn in' step is presented
 
+-- URL: http://wow-pro.com/node/3288/revisions/23826/view
+-- Date: 2010-12-25 03:10
+-- Who: Crackerhead22
+-- Log: Added |US| tag for "C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|"
+
+-- URL: http://wow-pro.com/node/3288/revisions/23467/view
+-- Date: 2010-12-03 22:09
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3288/revisions/23466/view
+-- Date: 2010-12-03 22:09
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("JamHow7071", "Howling Fjord", "Jame", "70", "71", "JamBor7173", "Horde", function()
+--Original guide written/designed by Jame
+--Revised by ndlarsen
+return [[
 R Vengeance Landing |QID|11167|N|Take the Zeppelin from Undercity.|Z|Tirisfal Glades|M|59.09,59.02|
 A The New Plague |QID|11167|M|78.5,29.0|
 A Let Them Eat Crow |QID|11227|M|79.1,31.2|
@@ -283,7 +305,8 @@ T What's in That Brew? |QID|11298|
 T Eyes of the Eagle |QID|11417|U|33618|N|Back at (30,6).|M|29.64,5.72|
 A Alpha Worg |QID|11324|
 
-C Alpha Worg |QID|11324|NOPOI|N|Look for Garwal. He patrols between the three points, (27,8), (26,12), (28,17). You don't have to be in the Worg disguise.|
+C Alpha Worg |QID|11324|NOPOI|N|Look for Garwal. He patrols between the three points, (27,
+, (26,12), (28,17). You don't have to be in the Worg disguise.|
 
 N Things to do |QID|11264|N|Deathless Watchers and Putrid Wights are kill on sight until you finish the relevant quest, especially the watchers.|
 

@@ -1,6 +1,28 @@
+-- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2011-01-04 20:09
+-- Who: Crackerhead22
+-- Log: Added missing cords.
+
+-- URL: http://wow-pro.com/node/3265/revisions/23928/view
+-- Date: 2011-01-04 20:07
+-- Who: Crackerhead22
+-- Log: Fixed several notes, steps, sticky steps.
+
+-- URL: http://wow-pro.com/node/3265/revisions/23591/view
+-- Date: 2010-12-05 04:41
+-- Who: Crackerhead22
+-- Log: Fixed spelling error which would have caused a step to not Auto-complete.
+
+-- URL: http://wow-pro.com/node/3265/revisions/23412/view
+-- Date: 2010-12-03 11:59
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3265/revisions/23411/view
+-- Date: 2010-12-03 11:58
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', '50', '52', 'CraSwa5254', 'Alliance', function()
 return [[
-
 A A Hero's Call: Burning Steppes|QID|28666|M|62.93,71.53;62.28,29.97|Z|Stormwind City|N|Pick up from the Hero's Call Board. If you have the quest, "Mouton Flamestar" or if your level is too high, this quest will not be there.|
 H Iron Summit|QID|28666|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|
 R Blackrock Mountain|QID|28666|M|33.49,74.91|Z|Searing Gorge|N|Run to the waypoint young padawn.|

@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2010-12-03 07:24
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3214/revisions/23296/view
+-- Date: 2010-12-03 07:24
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('BitNor1220', 'Northern Barrens', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
 return [[
 
@@ -166,15 +174,13 @@ T Who's Shroomin' Who?|QID|13999|M|67.07,74.78|N|To Sashya.|
 h Ratchet|QID|891|M|67.29,74.68|N|At Innkeeper Wiley.|
 
 A It's Gotta be the Horn|QID|865|RANK|1|M|67.85,71.58|N|From Mebok Mizzyrix.|
-A Root Samples|QID|866|P|Herbalism|RANK|3|M|67.85,71.58|N|From Mebok Mizzyrix.|
-A WANTED: Cap'n Garvey|QID|895|RANK|2|M|68.28,71.28|N|From Wanted Poster.|
+A WANTED: Cap'n Garvey|QID|895|RANK|2|M|68.28,71.28|N|From Mebok Mizzyrix.|
 
 f Ratchet|QID|895|M|69.11,70.67|N|Get the Ratchet Flight Point.|
 
 A Southsea Freebooters|QID|887|RANK|2|M|69.53,72.88|N|From Wharfmaster Dizzywig.|
 A Take it up with Tony|QID|14052|RANK|1|M|69.53,72.88|N|From Wharfmaster Dizzywig.|
 
-C Root Samples|QID|866|S|N|Gather Herbs for Root Samples.|
 A It's Gotta be the Horn|QID|865|RANK|1|M|56.41,56.05|Z|
 C Investigate the Wreckage|QID|14066|NC|M|58.86,67.19|
 T Investigate the Wreckage|QID|14066|M|58.86,67.19|

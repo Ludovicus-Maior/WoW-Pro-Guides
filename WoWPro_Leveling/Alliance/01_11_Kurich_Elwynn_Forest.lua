@@ -1,4 +1,34 @@
-WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest (Human)", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
+-- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2011-01-26 02:48
+-- Who: Fluclo
+-- Log: Missing the A for Rest And Relaxation
+
+-- URL: http://wow-pro.com/node/3197/revisions/23934/view
+-- Date: 2011-01-06 15:28
+-- Who: Crackerhead22
+-- Log: Added missing turn in for "Wanted: Hogger", added in class quests and race tags noted by calmeira.
+
+-- URL: http://wow-pro.com/node/3197/revisions/23323/view
+-- Date: 2010-12-03 08:42
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3197/revisions/23254/view
+-- Date: 2010-12-02 17:31
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3197/revisions/23243/view
+-- Date: 2010-12-02 09:47
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3197/revisions/23242/view
+-- Date: 2010-12-02 09:46
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3197/revisions/23241/view
+-- Date: 2010-12-02 09:42
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest - Human", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
 return [[
 A Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|
 A Beating Them Back!|QID|28766|C|Warrior|M|48.20,42.06|
@@ -166,6 +196,7 @@ H Northshire Valley|QID|26390|R|Human|U|6948|
 T Ending The Invasion|QID|26390|R|Human|M|48.20,42.06|
 A Report To Goldshire|QID|54|R|Human|M|48.20,42.06|
 
+A Rest And Relaxation|QID|2158|
 f Lion's Pride Inn|QID|2158|M|41.72,64.64|
 T Rest And Relaxation|QID|2158|M|43.77,65.80|
 h Lion's Pride Inn|QID|47|M|43.77,65.80|
@@ -250,7 +281,7 @@ T Bounty On Murlocs|QID|46|M|73.97,72.18|
 T Report To Thomas|QID|71|M|73.97,72.18|
 A Cloth And Leather Armor|QID|59|M|73.97,72.18|
 C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps. | |QID|83|M|71.20,78.86|
-C Manhunt|N|Kill Morgan the collector and pick up his ring. | |T|Morgan The Collector|QID|147|M|71.05,80.63|
+C Manhunt|N|Kill Morgan the collector and  pick up his ring. | |T|Morgan The Collector|QID|147|M|71.05,80.63|
 T Cloth And Leather Armor|QID|59|M|79.46,68.71|
 T Fine Linen Goods|QID|83|M|79.46,68.71|
 T Manhunt|QID|147|M|81.86,66.04|

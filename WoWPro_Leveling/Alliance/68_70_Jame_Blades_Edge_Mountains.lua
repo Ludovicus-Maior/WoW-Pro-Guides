@@ -1,3 +1,16 @@
+-- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2010-12-27 19:40
+-- Who: Crackerhead22
+-- Log: Added missing quests, cords, step notes, |QO| tags, sticky steps, quests needed for quest achievement.
+
+-- URL: http://wow-pro.com/node/3281/revisions/23451/view
+-- Date: 2010-12-03 21:36
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3281/revisions/23450/view
+-- Date: 2010-12-03 21:36
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor7072", "Alliance", function()
 return [[
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
@@ -59,8 +72,8 @@ r Sell junk, repair, restock|QID|10516|N|Sell junk, repair, restock |M|37.7,64.8
 C Getting the Bladespire Tanked|N|Use the beer ogres until you complete this quest. |QID|10512|M|40.3,53.0|S|U|30353|
 C The Bladespire Ogres |N|Kill any ogre you see for this quest.|QID|10504|M|40.3,53.0|S|
 A The Trappings of a Vindicator |QID|10516|M|44.0,51.9|N|From Vindicator Vuuleen.|
-l Vindicator Vuuleen's Blade |QID|10516|N|Go in this building and kill the two non-elite mobs. Do not pull the elite mobs. Kill Droggam by going close to him (without attracting any mob), and use the Bloodmaul Brutebane Keg on him. Droggam will run towards you without attracting the elites. Loot the blade. (39.20, 52.80)|L|30413 1|M|39.20, 52.80|
-C The Trappings of a Vindicator |N|Kill Mugdorg in this building by using the beer in the same manner as last time. Take the shield.|QID|10516|M|42.00,57.00|
+l Vindicator Vuuleen's Blade |QID|10516|N|Go in this building and kill the two non-elite mobs.  Do not pull the elite mobs.  Kill Droggam by going close to him (without attracting any mob), and use the Bloodmaul Brutebane Keg on him.  Droggam will run towards you without attracting the elites.  Loot the blade. (39.20, 52.80)|L|30413 1|M|39.20, 52.80|
+C The Trappings of a Vindicator |N|Kill Mugdorg in this building by using the beer in the same manner as last time.  Take the shield.|QID|10516|M|42.00,57.00|
 T The Trappings of a Vindicator |QID|10516|M|44.0,51.9|N|To Vindicator Vuuleen.|
 A Gorr'Dim, Your Time Has Come... |QID|10517|M|44.0,51.9|N|From Vindicator Vuuleen.|U|30353|
 C Gorr'Dim, Your Time Has Come... |N|Kill Gorr'Dim by using the beer in the same manner as before. |QID|10517|M|40.00,49.00|
@@ -69,7 +82,7 @@ A Planting the Banner|QID|10518|N|From Vindicator Vuuleen.|
 l Bladespire Clan Banner|QID|10518|N|Kill a Bladespire Champion on the second floor of this building (stairs are outside) and loot the Bladespire Clan Banner.|L|30416 1|M|39,58|
 C Getting the Bladespire Tanked|N|Use the beer on more ogres until you complete this quest. |QID|10512|M|40.3,53.0|US|U|30353|
 C The Bladespire Ogres |N|Kill the rest of the ogres for this quest.|QID|10504|M|40.3,53.0|US|
-C Planting the Banner |U|30416|N|You may need a group for this quest. Plant the banner at the top of the tower here and fight the waves of mobs. Loot the helm at the end.|QID|10518|M|46.00,74.00|
+C Planting the Banner |U|30416|N|You may need a group for this quest.  Plant the banner at the top of the tower here and fight the waves of mobs.  Loot the helm at the end.|QID|10518|M|46.00,74.00|
 
 H Sylvanaar |QID|10504| |N|Hearth to Sylvanaar.|M|35.83,63.93|
 T The Bladespire Ogres |QID|10504|M|36.3,66.2|N|To Commander Skyshadow.|
@@ -91,19 +104,19 @@ f Toshley's Station |QID|10557|N|Get the flight path.|M|61.15,70.45|
 C Test Flight: The Zephyrium Capacitorium |N|Talk to Rally Zabnapper and start the flight.|QID|10557|M|60.20,68.80|
 T Test Flight: The Zephyrium Capacitorium |QID|10557|M|60.3,68.4|N|To Tally Zapnabber.|
 A Test Flight: The Singing Ridge |QID|10710|M|60.3,68.4|N|From Tally Zapnabber.|
-C Picking Up Some Power Converters |U|30656|N|Right-click the Power Converters on the ground around this location, and use the Protovoltaic Magneto Collector on the elementals. Do this until you finish this quest.|QID|10584|M|58.00,61.00|
+C Picking Up Some Power Converters |U|30656|N|Right-click the Power Converters on the ground around this location, and use the Protovoltaic Magneto Collector on the elementals.  Do this until you finish this quest.|QID|10584|M|58.00,61.00|
 T Picking Up Some Power Converters |QID|10584|M|60.5,69.0|N|To Toshley.|
 A Ride the Lightning |QID|10657|M|60.5,69.0|N|From Toshley.|
 A Ridgespine Menace |QID|10620|M|60.4,68.8|N|From Dizzy Dina.|
 A Cutting Your Teeth |QID|10632|M|60.5,68.4|N|From Razak Ironsides.|
 
 C Test Flight: The Singing Ridge |N|Right-click Tally's Waiver, then talk to Rally and take another flight.|QID|10710|M|60.20,68.80|U|30540|
-C Ride the Lightning |U|30818|N|Use the Magneto Sphere to absorb lightning strikes from Scalewing Serpents. Kill them until you get 5 glands and absorb 25 lightning strikes.|QID|10657|M|68.00,61.00|S|
+C Ride the Lightning |U|30818|N|Use the Magneto Sphere to absorb lightning strikes from Scalewing Serpents.  Kill them until you get 5 glands and absorb 25 lightning strikes.|QID|10657|M|68.00,61.00|S|
 C Cutting Your Teeth |N|Kill Daggermaw Lashtails until you get the items for this quest.|QID|10632|M|63.00,56.00|S|
 C Ridgespine Menace |N|Go north and kill Ridgespine Stalkers, they are in stealth.|QID|10620|
 C Cutting Your Teeth |N|Kill Daggermaw Lashtails until you get the items for this quest.|QID|10632|M|63.00,56.00|US|
-C Ride the Lightning |U|30818|N|Use the Magneto Sphere to absorb lightning strikes from Scalewing Serpents. Kill them until you get 5 glands and absorb 25 lightning strikes.|QID|10657|M|68.00,61.00|US|
-C What Came First, the Drake or the Egg? |N|Kill mobs and click on Netherdrake Eggs to spawn a whelp. Use the Temporal Phase Modulator on it to turn it into a random type of nether drake. Kill them until you get the items for this quest.|QID|10609|M|67.00,75.00|
+C Ride the Lightning |U|30818|N|Use the Magneto Sphere to absorb lightning strikes from Scalewing Serpents.  Kill them until you get 5 glands and absorb 25 lightning strikes.|QID|10657|M|68.00,61.00|US|
+C What Came First, the Drake or the Egg? |N|Kill mobs and click on Netherdrake Eggs to spawn a whelp.  Use the Temporal Phase Modulator on it to turn it into a random type of nether drake.  Kill them until you get the items for this quest.|QID|10609|M|67.00,75.00|
 C Crystal Clear |N|Kill Crystal Flayers until you finish this quest.|QID|10608|
 T Test Flight: The Singing Ridge |QID|10710|M|60.3,68.4|N|To Tally Zapnabber.|
 T What Came First, the Drake or the Egg? |QID|10609|M|61.0,68.1|N|To Fizit "Doc" Clocktock.|
@@ -129,10 +142,10 @@ A Show Them Gnome Mercy! |QID|10675|M|60.5,69.0|N|From Toshley.|
 T More than a Pound of Flesh |QID|10671|M|60.4,68.8|N|To Dizzy Dina.|
 T Test Flight: Razaan's Landing |QID|10711|M|60.3,68.4|N|To Tally Zapnabber.|
 
-C Gauging the Resonant Frequency |N|Clear the area here and then use the Oscillating Frequency Scanner five times in different spots. You have to make a pentagon shaped placement area and then stand in the middle of it. |U|30701|QID|10594|M|61.00,76.00|
+C Gauging the Resonant Frequency |N|Clear the area here and then use the Oscillating Frequency Scanner five times in different spots.  You have to make a pentagon shaped placement area and then stand in the middle of it. |U|30701|QID|10594|M|61.00,76.00|
 T Gauging the Resonant Frequency |QID|10594|M|60.2,68.9|N|To Nickwinkle the Metro-Gnome.|
 R Razor Ridge|QID|10675|N|Talk to the gnome and get sent to Razaan's Landing |M|60.20,68.80|
-C Show Them Gnome Mercy!|N|Kill mobs here until Nexus-Prince Razaan shows up. Kill him and loot the Collection of Souls from the cube.|QID|10675|M|66.40,44.10|
+C Show Them Gnome Mercy!|N|Kill mobs here until Nexus-Prince Razaan shows up.  Kill him and loot the Collection of Souls from the cube.|QID|10675|M|66.40,44.10|
 T Show Them Gnome Mercy!|QID|10675|M|60.5,69.0|N|To Toshley.|
 r Sell junk, repair, restock |QID|10674|M|60.73,69.06|
 
@@ -152,7 +165,7 @@ A From the Ashes |QID|10771|M|61.2,38.4|N|From Mosswood the Ancient.|
 T Mystery Mask |QID|10812|M|62.2,40.1|N|To Wildlord Antelarion.|
 A Felsworn Gas Mask |QID|10819|M|62.2,40.1|N|From Wildlord Antelarion.|
 h Evergrove |QID|10682| |N|Set your hearthstone to Evergrove. |M|62.85,38.30|
-C A Time for Negotiation... |N|Find Overseer Nuaar, who wanders on the path southeast to northwest of Evergrove. Talk to him and complete the quest.|QID|10682|M|58.8,39.1|T|Overseer Nuaar|
+C A Time for Negotiation... |N|Find Overseer Nuaar, who wanders on the path southeast to northwest of Evergrove.  Talk to him and complete the quest.|QID|10682|M|58.8,39.1|T|Overseer Nuaar|
 T A Time for Negotiation... |QID|10682|M|62.0,39.5|N|To Tree Warden Chawn.|
 A ...and a Time for Action |QID|10713|M|62.0,39.5|N|From Tree Warden Chawn.|
 A Poaching from Poachers |QID|10717|M|62.0,39.5|N|From Samia Inkling.|
@@ -183,13 +196,13 @@ T Crush the Bloodmaul Camp! |QID|10796|M|62.0,38.0|N|To Lieutenant Fairweather.|
 
 N Gas Mask |QID|10820|N|If your low on time with the Felsworn Gas Mask, destroy it. Then get a new one from Wildlord Antelarion. Close this step.|M|62.15,40.15|
 C Culling the Wild |N|Kill the mobs needed for this quest.|QID|10753|M|71.00,36.00|S|
-T Felsworn Gas Mask |U|31366|N|Go up the mountain path and then go to this location and make sure you are not mounted or shapeshifted. Put the gas mask on then turn this quest in.|QID|10819|M|73.00,40.00|
+T Felsworn Gas Mask |U|31366|N|Go up the mountain path and then go to this location and make sure you are not mounted or shapeshifted.  Put the gas mask on then turn this quest in.|QID|10819|M|73.00,40.00|
 A Deceive thy Enemy |QID|10820|M|73.2,40.0|N|From Legion Communicator.|U|31366|
 C Deceive thy Enemy |N|Kill the mobs for this quest.|QID|10820|M|74.43,40.66|
 T Deceive thy Enemy |N|Put the gas mask on and turn this quest in.|QID|10820|M|73.30,40.00|U|31366|
 A You're Fired! |QID|10821|N|From Legion Communicator.|U|31366|M|73.2,40.0|
 l Camp Anger Key|QID|10821|N|Kill Anger Guards until you get 5 Camp Anger Keys|L|31536 5|M|74.43,40.66|
-C You're Fired! |N|Find the five obelisks, and activate them quickly. Kill Doomcryer (elite mob, not immune to anything).|QID|10821|
+C You're Fired! |N|Find the five obelisks, and activate them quickly.  Kill Doomcryer (elite mob, not immune to anything).|QID|10821|
 C Culling the Wild |N|Kill the mobs needed for this quest.|QID|10753|M|71.00,36.00|US|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|S|
 C Southern Volcanic Soil|N|Click the soil.|QID|10771|M|71.65,22.37|QO|Southern Volcanic Soil: 1/1|
@@ -232,7 +245,7 @@ A The Truth Unorbed |N|Right-click the orb to start this quest.|QID|10825|M|40.2
 C Whelps of the Wyrmcult |N|Capture the Blackwhelps for this quest by using the Blackwhelp Net.|QID|10747|M|32.3,34.9|S|U|31129|
 l Costume Scraps |QID|10722|N|Go in the cave here and kill Wyrmcult mobs until you get 5 Costume Scraps.|L|31121 5|M|32.00,31.00|
 U Costume Scraps|QID|10722|N|Use the scraps to get an Overseer Disguise.|U|31121|M|32.00,33.00|L|31122|
-C Meeting at the Blackwing Coven|N|Right-click the Costume Scraps in your inventory, and then use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M|32.00,33.00|
+C Meeting at the Blackwing Coven|N|Right-click the Costume Scraps in your inventory, and then use the Overseer Costume.  Talk to Korphis Darkscale.|QID|10722|M|32.00,33.00|
 C Whelps of the Wyrmcult |N|Capture the rest of the Blackwhelps for this quest by using the Blackwhelp Net.|QID|10747|M|32.3,34.9|US|U|31129|
 
 H Evergrove |QID|10607|N|Hearth to Evergrove.|M|62.84,38.35|
@@ -255,7 +268,7 @@ T Exorcising the Trees |QID|10830|M|36.9,22.5|N|To Treebole.|
 l Grisly Totem |QID|10802|N|Kill ogres here until you get three Grisly Totems. |M|30.00,22.00|L|31754 3|
 C Gorgrom the Dragon-Eater |N|Use the Altar, kill Gorgrom, then drop the Grisly Totems on him.|QID|10802|M|30.00,22.00|U|31754|
 C Slaughter at Boulder'mok |N|Kill ogres until you finish this quest.|QID|10803|M|30.3,24.6|
-C Maxnar Must Die! |N|Kill Maxnar the Ashmaw. You may use the costume scraps if you have 5 of them to save time.|QID|10748|M|34.00,36.00|
+C Maxnar Must Die! |N|Kill Maxnar the Ashmaw.  You may use the costume scraps if you have 5 of them to save time.|QID|10748|M|34.00,36.00|
 H Evergrove |QID|10818|N|Hearth to Evergrove, or run if your hearth is not up.|M|62.84,38.35|
 T Maxnar Must Die! |QID|10748|M|62.0,39.5|To Tree Warden Chawn.|
 T Gorgrom the Dragon-Eater |QID|10802|M|62.0,38.0|N|To Commander Haephus Stonewall.|
@@ -269,17 +282,17 @@ N Group |QID|10805|N|Get a group for Massacre at Gruul's Lair and Showdown.|M|53
 C Massacre at Gruul's Lair |N|Kill the mobs needed for this quest, then kill Fingrom at 66, 20, in the house.|QID|10805|M|60.45,21.21|
 T Massacre at Gruul's Lair |QID|10805|N|To Baron Sablemane.|M|53.3,41.2|
 A Showdown |QID|10806|N|From Baron Sablemane.|M|53.3,41.2|
-C Showdown |N|Use Sablemane's Signet then let Baron Sablemane be the one to get attacked by the elite. Kill Goc. Sablemane cannot be healed.|QID|10806|M|64.00,18.00|U|31808|
+C Showdown |N|Use Sablemane's Signet then let Baron Sablemane be the one to get attacked by the elite.  Kill Goc.  Sablemane cannot be healed.|QID|10806|M|64.00,18.00|U|31808|
 T Showdown |QID|10806|N|To Baron Sablemane.|M|53.3,41.2|
 F Toshley's Station |QID|11672|N|Fly to Toshley's Station.|M|61.61,39.64|
 
-T Death's Door|QID|10910|U|31763|M|64.64,69.96|N|Head to Death's Door area, find a safe spot then use the Druid Signal. Wait a moment until the druid comes down then turn the quest into the Evergrove Druid.|
+T Death's Door|QID|10910|U|31763|M|64.64,69.96|N|Head to Death's Door area, find a safe spot then use the Druid Signal.  Wait a moment until the druid comes down then turn the quest into the Evergrove Druid.|
 A Harvesting the Fel Ammunition|QID|10904|M|64.64,69.96|N|From Evergrove Druid.|
 C Harvesting the Fel Ammunition|QID|10904|M|64.78,66.66|N|Kill Deathforge Smiths and Deathforge Over-Smiths until you get 5 Fel Cannonballs.|
 T Harvesting the Fel Ammunition|QID|10904|U|31763|M|64.46,72.22|N|Find a safe spot, use the signal then turn the quest into the Evergrove Druid.|
 A Fire At Will!|QID|10911|M|64.46,72.22|N|From Evergrove Druid.|
-C Southern Warp-Gate|QID|10911|U|31807|QO|South Warp-Gate Destroyed: 1/1|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate" a total of 7 times to destroy the Warp-Gate.|
-C Fire At Will!|QID|10911|U|31807|M|62.01,60.53|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate" a total of 7 times to destroy the Warp-Gate.|
+C Southern Warp-Gate|QID|10911|U|31807|QO|South Warp-Gate Destroyed: 1/1|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition.  You will have a pet bar, use the "Artillery on the Warp-Gate" ability  to attack the Warp-Gate, and then protect it.  You need to use "Artillery on the Warp-Gate"  a total of 7 times to destroy the Warp-Gate.|
+C Fire At Will!|QID|10911|U|31807|M|62.01,60.53|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition.  You will have a pet bar, use the "Artillery on the Warp-Gate" ability  to attack the Warp-Gate, and then protect it.  You need to use "Artillery on the Warp-Gate"  a total of 7 times to destroy the Warp-Gate.|
 T Fire At Will!|QID|10911|U|31763|M|65.19,69.93|N|Find a safe spot, use the signal then turn the quest into the Evergrove Druid.|
 A The Hound-Master|QID|10912|M|65.16,69.93|N|From Evergrove Druid.|
 C The Hound-Master|QID|10912|U|31809|M|63.57,59.18|N|Head over to Baelmon, use the Evergrove Wand and then kill him.|
@@ -296,13 +309,13 @@ C Maggoc's Treasure Chest|QID|10996|T|Maggoc|M|67.82,58.52|N|Maggoc circles arou
 R Toshley's Station|QID|10997|M|60.49,68.74|N|Head to Toshley's Station.|
 F Shattrath City|QID|10997|M|61.1,70.43|N|Fly to Shattrath City.|
 
-C Even Gronn Have Standards|QID|10997|M|20.37,18.26|Z|Terokkar Forest|N|Fly up to The Barrier Hills, enter the building. Kill Slaag, then loot his standard from the ground.|
+C Even Gronn Have Standards|QID|10997|M|20.37,18.26|Z|Terokkar Forest|N|Fly up to The Barrier Hills, enter the building.  Kill Slaag, then loot his standard from the ground.|
 H Evergrove|QID|10995|M|63.83,41.26|N|Hearth back to Evergrove, or fly if your hearth is not up.|
 T Grulloc Has Two Skulls|QID|10995|M|55.41,44.93|N|To Mog'dorg the Wizened.|
 T Maggoc's Treasure Chest|QID|10996|M|55.41,44.93|N|To Mog'dorg the Wizened.|
 T Even Gronn Have Standards|QID|10997|M|55.41,44.93|N|To Mog'dorg the Wizened.|
 A Grim(oire) Business|QID|10998|M|55.41,44.93|N|From Mog'dorg the Wizened.|
-C Grim(oire) Business|QID|10998|M|77.53,31.16|N|Stand in one of the circles of fire to summon Vim'gol. Kill him them loot his Grimoire.|
+C Grim(oire) Business|QID|10998|M|77.53,31.16|N|Stand in one of the circles of fire to summon Vim'gol.  Kill him them loot his Grimoire.|
 T Grim(oire) Business|QID|10998|M|55.44,44.96|N|To Mog'dorg the Wizened.|
 A Into the Soulgrinder|QID|11000|M|55.44,44.96|N|From Mog'dorg the Wizened.|
 C Into the Soulgrinder|QID|11000|U|32467|M|60.01,24.15|N|Go to the waypoint and use the Grimoire. Protect The Soulgrinder from the Ogres that spawn. After a while Skulloc will finally be attackable. Kill him then loot his soul from the ground.|
@@ -317,7 +330,7 @@ A An Apexis Relic|QID|11058|M|28.37,57.51|N|From Torkus.|
 A Our Boy Wants To Be A Skyguard Ranger|QID|11030|M|28.37,57.51|N|From Torkus.|
 l Apexis Shards|QID|11058|L|32569 15|M|29.43,66|N|Kill and loot mobs, as well as loot the shard clusters until you get 15 shards.|
 C An Apexis Relic|QID|11058|M|27.68,68.05|N|This works like the old Simon game. The crystal in the middle will send a bolt to a color, starting with 1 color and workings its way up. After it finishes, you will have to copy what it did. If you have trouble I would recommend the addon "Ogri'Lazy". It can be found on Curse and WoWInterface,|
-C Our Boy Wants To Be A Skyguard Ranger|QID|11030|M|29.56,81.14|N|Click on the Fel Crystalforge and choose to purchase a flask of the beast. Warning: If you fly into this area, the Fel Cannons will attack you. They can knock you around and possibly knock you off your mount. Keep moving.|
+C Our Boy Wants To Be A Skyguard Ranger|QID|11030|M|29.56,81.14|N|Click on the Fel Crystalforge and choose to purchase a flask of the beast.  Warning: If you fly into this area, the Fel Cannons will attack you.  They can knock you around and possibly knock you off your mount.  Keep moving.|
 T Our Boy Wants To Be A Skyguard Ranger|QID|11030|M|28.36,57.73|N|To Torkus.|
 A A Father's Duty|QID|11061|M|28.35,57.73|N|From Torkus.|
 T An Apexis Relic|QID|11058|M|28.67,57.40|N|To Chu'a'lor.|
@@ -326,9 +339,9 @@ T The Skyguard Outpost|QID|11062|M|27.63,52.84|N|To Sky Sergeant Vanderlip.|
 
 A Bombing Run|QID|11010|M|27.63,52.84|N|From Sky Sergeant Vanderlip.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
 A Bombing Run|QID|11102|M|27.63,52.84|N|From Sky Sergeant Vanderlip.|C|Druid|
-C Bombing Run|QID|11010|U|32456|M|32.18,42.46|N|Hotkey the bombs, then head to where the waypoint is. When you get there you should be able to see the Fel Cannons, and right next to them red bobbing arrows. Where the red arrows are, is where you have to bomb. The bomb can be used while moving, you can not stop moving due to the cannons.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
+C Bombing Run|QID|11010|U|32456|M|32.18,42.46|N|Hotkey the bombs, then head to where the waypoint is.  When you get there you should be able to see the Fel Cannons, and right next to them red bobbing arrows. Where the red arrows are, is where you have to bomb.  The bomb can be used while moving, you can not stop moving due to the cannons.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
 T Bombing Run|QID|11102|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
-C Bombing Run|QID|11010|U|32456|M|32.18,42.46|N|Hotkey the bombs, then head to where the waypoint is. When you get there you should be able to see the Fel Cannons, and right next to them red bobbing arrows. Where the red arrows are, is where you have to bomb. The bomb can be used while moving, you can not stop moving due to the cannons.|C|Druid|
+C Bombing Run|QID|11010|U|32456|M|32.18,42.46|N|Hotkey the bombs, then head to where the waypoint is.  When you get there you should be able to see the Fel Cannons, and right next to them red bobbing arrows. Where the red arrows are, is where you have to bomb.  The bomb can be used while moving, you can not stop moving due to the cannons.|C|Druid|
 T Bombing Run|QID|11102|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Druid|
 A Assault on Bash'ir Landing!|QID|11119|M|27.50,52.74|N|From Sky Commander Keller.|
 T Assault on Bash'ir Landing!|QID|11119|M|27.93,52.14|N|To Aether-tech Apprentice.|
@@ -341,7 +354,7 @@ C To Rule The Skies|QID|11078|M|34.10,54.66|N|Click on the egg, and choose to pl
 T To Rule The Skies|QID|11078|M|27.47,52.69|N|To Sky Commander Keller.|
 A Guardian of the Monument|QID|11059|M|28.70,57.25|N|From Chu'a'lor.|
 l Apexis Shards|QID|11059|L|32569 35|M|29.43,66|N|Kill and loot mobs, as well as loot the shard clusters until you get 35 shards. You can also do the dailies, "Bomb Them Again" and "Wrangle More Aether Rays" for 15 shards each.|
-C Guardian of the Monument|QID|11059|M|27.39,68.56|N|You do not need 4 people for this. Head to the large crystal, click it and put in the 35 shards. Once it shows you the first color, go to a different color and fail it, you will take about 7-9k dmg. The Guardian will appear about 15-20 seconds later. Kill and loot it.|
+C Guardian of the Monument|QID|11059|M|27.39,68.56|N|You do not need 4 people for this.  Head to the large crystal, click it and put in the 35 shards. Once it shows you the first color, go to a different color and fail it, you will take about 7-9k dmg. The Guardian will appear about 15-20 seconds later. Kill and loot it.|
 T Guardian of the Monument|QID|11059|M|28.70,57.25|N|To Chu'a'lor.|
 l Apexis Shards|QID|11061|L|32569 10|M|54.34,10.60|N|You will need 10 shards, so kill mobs, etc. until you get 10.|
 C A Father's Duty|QID|11061|M|54.43,10.86|N|Click on the forge and turn in the 10 shards to get the flask.|

@@ -1,4 +1,53 @@
-WoWPro.Leveling:RegisterGuide('WkjLoc1220', 'Loch Modan', 'Wkjezz', '12', '20', 'WkjWet2025', 'Alliance', function() 
+-- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2011-01-09 20:36
+-- Who: Ludovicus Maior
+-- Log: Verified previous changes.
+--	Added Notes and coords to [A Decisive Strike], [Bigger and Uglier] and made the Stick.
+--	Added a "R"un to the mountain trail to kill troggs.
+--	Added an explicit path to [WANTED: The Dark Iron Spy].
+--	Added a warning about the Dark Iron Courier.
+--	
+
+-- URL: http://wow-pro.com/node/3216/revisions/23968/view
+-- Date: 2011-01-09 17:41
+-- Who: Ludovicus Maior
+-- Log: Sequence tweak to avoid traveling after [Bigger and Uglier].  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35270 .
+
+-- URL: http://wow-pro.com/node/3216/revisions/23967/view
+-- Date: 2011-01-09 17:38
+-- Who: Ludovicus Maior
+-- Log: Quest [WANTED: The Dark Iron Spy] is not from Innkeeper.  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35268 .
+
+-- URL: http://wow-pro.com/node/3216/revisions/23966/view
+-- Date: 2011-01-09 17:34
+-- Who: Ludovicus Maior
+-- Log: Sequence wrong after turning in [The Bearer of Gnoll-edge].  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35267 .
+
+-- URL: http://wow-pro.com/node/3216/revisions/23965/view
+-- Date: 2011-01-09 17:32
+-- Who: Ludovicus Maior
+-- Log: Sequence wrong around [A Nasty Exploit].  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35266 .
+
+-- URL: http://wow-pro.com/node/3216/revisions/23964/view
+-- Date: 2011-01-09 17:30
+-- Who: Ludovicus Maior
+-- Log: Sequence wrong around [A Who's In Charge Here?]
+--	http://wow-pro.com/wiki/source_code_loch_modan#comment-35265
+
+-- URL: http://wow-pro.com/node/3216/revisions/23963/view
+-- Date: 2011-01-09 17:26
+-- Who: Ludovicus Maior
+-- Log: Initial checkin of guide as of release 2.1.1 of 11-Dec-2010
+
+-- URL: http://wow-pro.com/node/3216/revisions/23302/view
+-- Date: 2010-12-03 07:29
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3216/revisions/23301/view
+-- Date: 2010-12-03 07:29
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('WkjLoc1220', 'Loch Modan', 'Wkjezz', '12', '20', 'WkjWet2025', 'Alliance', function()
 return [[
 
 A A Tiny, Clever Commander|QID|26843|M|25.50,17.69|N|From Mountaineer Stormpike.|
@@ -43,7 +92,7 @@ C A Decisive Strike|QID|26148|M|33.08;70.65;35.36,65.18;35.64.62.25;33.86,62.19;
 C Bigger and Uglier|QID|26147|M|35.04,59.37|US|N|Killing Stonesplinters|
 T A Decisive Strike|QID|26148|M|23.40,75.01|N|To Captain Rugelfuss.|
 T Bigger and Uglier|QID|26147|M|23.34,75.01|N|To Mountaineer Wallbang.|
-R WANTED: The Dark Iron Spy|QID|13648|CC|M|23.21,76.52;30.31,78.37;34.11,75.11;22.62,77.46;38.6,73.78;40.37,67.05|N|Take the Trail, go through the Trogg camp and swing south around the mountain. Take trail up.|
+R WANTED: The Dark Iron Spy|QID|13648|CC|M|23.21,76.52;30.31,78.37;34.11,75.11;22.62,77.46;38.6,73.78;40.37,67.05|N|Take the Trail, go through the Trogg camp and swing south around the mountain.  Take trail up.|
 C WANTED: The Dark Iron Spy|QID|13648|M|36.46,61.23|N|Watch out for the Dark Iron Courier!|
 A Explorers' League Document (1 of 6)|QID|13656|M|36.76,61.25|
 C Smells Like A Plan|QID|26928|M|42.92,47.90|

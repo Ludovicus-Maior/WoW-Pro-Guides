@@ -1,4 +1,12 @@
-WoWPro.Leveling:RegisterGuide('JiyHin3035', 'The Hinterlands', 'Jiyambi', '30', '35', 'JiyWes3540', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
+-- Date: 2010-12-03 11:14
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3240/revisions/23360/view
+-- Date: 2010-12-03 11:13
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyHin3035', 'The Hinterlands', 'Jiyambi', '30', '35', 'JiyWes3540', 'Horde', function()
 return [[
 
 A Revantusk Village|QID|26430|O|M|69.00,34.78|N|From Drum Fel in Hammerfall in Arathi Highlands.|

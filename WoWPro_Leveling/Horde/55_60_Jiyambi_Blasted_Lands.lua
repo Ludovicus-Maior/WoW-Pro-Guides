@@ -1,4 +1,12 @@
-WoWPro.Leveling:RegisterGuide('JiyBla5560', 'Blasted Lands', 'Jiyambi', '55', '60', 'JamHel6063', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2010-12-03 12:02
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3268/revisions/23417/view
+-- Date: 2010-12-03 12:02
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyBla5560', 'Blasted Lands', 'Jiyambi', '55', '60', 'JamHel6063', 'Horde', function()
 return [[
 
 T Call of the Warmatron|QID|28865|M|40.47,11.65|N|To Okrilla.|
@@ -146,8 +154,6 @@ C You Are Rakh'likh, Demon|QID|25701|U|56012|M|46.53,21.88;44.90,26.85|N|Speak t
 T You Are Rakh'likh, Demon|QID|25701|M|41.57,32.04;54.29,50.00|N|To Watcher Wazzik. Congrats on the excellent ring!|
 
 A Through the Dark Portal|QID|9407|M|54.42,50.56|N|From Warlord Dar'toon. Take this quest if you are ready to head to Hellfire Peninsula.|
-
-
 
 ]]
 

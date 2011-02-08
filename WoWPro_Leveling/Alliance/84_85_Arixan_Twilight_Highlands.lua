@@ -1,4 +1,30 @@
-WoWPro.Leveling:RegisterGuide('MagTwi8485', 'Twilight Highlands', 'Melliandra', '84', '85', nil, 'Alliance', function() 
+-- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2011-02-05 05:12
+-- Who: Ludovicus Maior
+-- Log: Re-sync from GitHub. Seems I picked up an earlier version of this guide.
+
+-- URL: http://wow-pro.com/node/3311/revisions/24095/view
+-- Date: 2011-02-04 22:27
+-- Who: Ludovicus Maior
+-- Log: Synchronize with GitHub Alliance/84_85_Arixan_Twilight_Highlands.lua
+
+-- URL: http://wow-pro.com/node/3311/revisions/23734/view
+-- Date: 2010-12-11 07:46
+-- Who: MagicSN
+
+-- URL: http://wow-pro.com/node/3311/revisions/23722/view
+-- Date: 2010-12-10 07:19
+-- Who: MagicSN
+
+-- URL: http://wow-pro.com/node/3311/revisions/23517/view
+-- Date: 2010-12-03 23:28
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3311/revisions/23516/view
+-- Date: 2010-12-03 23:28
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('MagTwi8485', 'Twilight Highlands', 'Melliandra', '84', '85', nil, 'Alliance', function()
 return [[
 
 A Hero's Call: Twilight Highlands!|QID|28716|M|62.90,71.78|N|From the Message boards at either end of town.|Z|Stormwind City|
@@ -38,7 +64,6 @@ C He's Holding Out on Us|QID|27064|M|80.39,62.34|N|There is a small stairwell le
 T He's Holding Out on Us|QID|27064|M|80.39,62.34|N|To Anduin Wrynn.|Z|Stormwind City|
 A Expert Opinion|QID|28807|PRE|26977|M|80.39,62.34|From Anduin Wrynn|Z|Stormwind City|
 T Expert Opinion|QID|28807|M|81.28,63.32|N|To Master Mathias Shaw, same building.|
-
 
 A The Old Barracks|QID|27072|PRE|26977|M|81.28,63.32|N|From Master Mathias Shaw.|Z|Stormwind City|
 C The Old Barracks|QID|27072|M|37.24,56.47|N|Kill crazed cultists. Work on this building since you need to make your way down to the bottom floor to turn in this quest.|Z|Stormwind City|
@@ -513,7 +538,9 @@ T Last of Her Kind|QID|28247|M|59.12,69.91|N|To Lirastrasza.|
 A Victors' Point|QID|28248|M|59.12,69.91|N|From Lirastrasza.|
 T Victors' Point|QID|28248|M|43.39,57.48|N|To Kurdran Wildhammer.|
 
-A Ogres & Ettins|QID|27492|M|43.39,57.48|N|From Kurdran Wildhammer.|
+A Ogres
+&
+Ettins|QID|27492|M|43.39,57.48|N|From Kurdran Wildhammer.|
 A Call in the Artillery|QID|27496|M|43.39,57.48|N|From Cassius the White.|
 A SI:7 Drop|QID|27490|M|43.39,57.48|N|From Cassius the White.|
 
@@ -526,11 +553,15 @@ N Call in the Artillery|QID|27496|QO|Southwestern building targeted: 1/1|U|61363
 N Call in the Artillery|QID|27496|QO|Southern building targeted: 1/1|U|61363|M|41.36,73.73|N|Southern building targeted.|
 N Call in the Artillery|QID|27496|QO|Northeastern building targeted: 1/1|U|61363|M|41.02,64.30|N|Northeasterb building targeted.|
 C Call in the Artillery|QID|27496|U|61363|M|38.87,61.16|N|Northern building targeted.|
-C Ogres & Ettins|QID|27492|M|43.03,63.11|
+C Ogres
+&
+Ettins|QID|27492|M|43.03,63.11|
 
 T SI:7 Drop|QID|27490|M|43.41,57.48|N|To Cassius the White.|
 T Call in the Artillery|QID|27496|M|43.41,57.48|N|To Cassius the White.|
-T Ogres & Ettins|QID|27492|M|43.41,57.48|N|To Kurdran Wildhammer.|
+T Ogres
+&
+Ettins|QID|27492|M|43.41,57.48|N|To Kurdran Wildhammer.|
 
 A Move the Mountain|QID|27494|M|43.41,57.48|N|From Kurdran Wildhammer.|
 C Move the Mountain|QID|27494|M|38.05,66.08|

@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
+-- Date: 2010-12-03 22:34
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3300/revisions/23491/view
+-- Date: 2010-12-03 22:33
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("ScoSto7980", "The Storm Peaks", "Scoot", "79", "80", "ScoIce8080", "Horde", function()
 return [[
 
@@ -21,7 +29,7 @@ T Clean Up |QID|12818|M|41.0,86.4|
 A Just Around the Corner |QID|12819|M|41.0,86.4|
 C Just Around the Corner |QID|12819| |N|THE AREA AROUND AND OVER THE MINE FIELD IS A NO FLY ZONE!!!  Land well away at the first spot and follow the dots in. You will see a clear path. Dismiss any pets you have.  (35.38,89.31) (35.51,89.36) (35.36,89.17) (35.33,88.69) (35.45,88.29) (35.42,87.91) (35.29,87.67) (35.10,87.77).|M|36.2,89.3|
 N CAUTION! |QID|12819| |N|Be careful getting out of the Minefield. Start back the way you came in, then make the first right. Follow the clear path. Don't try to fly until you reach the road! Click off when done.  (35.29,87.67) (35.42,87.91) (35.04,88.17) (34.70,87.66) (34.82,87.30) (33.97,86.47)|M|35.10,87.77|
-C Expression of Gratitude |QID|12836| 
+C Expression of Gratitude |QID|12836|
 C Reclaimed Rations |QID|12827| |N|Loot boxes, kill Gnolls|M|35.0,83.8|
 T Just Around the Corner |QID|12819|M|41.0,86.4|
 
@@ -83,8 +91,6 @@ T Know No Fear |QID|12822|M|40.9,85.3|
 
 A When All Else Fails |QID|13060|
 N End of K3 quests |QID|12846|
-
-
 
 F Sifreldar Village |QID|12846| |N||M|40,73|
 T Leave No Goblin Behind |QID|12846| |N|Go into the cave at . Lok'lira the Crone is to the left in the first room.|M|41.84,69.62|
@@ -191,8 +197,6 @@ T Off With Their Black Wings |QID|12942|M|48.4,72.1|
 T Yulda's Folly |QID|12968|M|48.4,72.1|
 N Dailies |QID|12922| |N|You have now opened the daily quests for this area.  Come back anytime you want.  Gretta the Arbiter is the Quest Giver.|
 N End of Brunnhildar Village quests |QID|12922|
-
-
 
 F Frostfield Lake |QID|12922| |N||M|73,62|
 N Slag Covered Metal |QID|12922| |N|The Slag Covered Metal drops from the Stormforged Iron Giants. Pick up a boulder, you can only carry one at a time.  Use the Charm of Earth while targeting a Giant.  Kill him.| |U|41505| |L|41556|
@@ -301,8 +305,6 @@ T The Reckoning |QID|13047|
 N Halls of Lightning |QID|13034| |N|The next two quests that King Jokkum has are for The Halls of Lightning.  Get them now if you want to or come back later when you find a group.|
 N End of Dun Niffelem/Thorim quests |QID|13034|
 
-
-
 F Camp Tunka'lo |N|| |QID|13034|M|65,50|
 f Camp Tunka'lo |N|| |QID|13034|M|65.43,50.65|
 
@@ -333,8 +335,6 @@ F Temple of Life |QID|13058| |N||M|64.72,47.39|
 C Changing the Wind's Course |QID|13058| |N|Dismiss any pets.  Use the Lorehammer to mount Stormhoof.  1. Is a channeled lightning attack.  2. Is Earth Shock.  3. Is a melee attack.  Attack the North Wind.  YOU MUST RIGHT-CLICK ON HIM TO MELEE ATTACK!!  Open with 1, Spam 3, Use 1 whenever it's up, Use 2 when he casts Cyclone.  Get him to about 20%, WHILE MOUNTED, the Horn will appear, blow it and your done.  If you get dismounted, run off the platform, get out of combat (he will reset, but its better that waiting for a respawn), remount and go for it again.| |U|42918|
 T Changing the Wind's Course |QID|13058|
 N End of Camp Tunka'lo quests |QID|13060|
-
-
 
 F Grom'arsh Crash-Site |N|| |QID|13060|M|36,49|
 f Grom'arsh Crash-Site |N|| |QID|13060|M|36.20,49.36|
@@ -409,8 +409,6 @@ C Forging the Keystone |QID|13285| |N|Talk to Brann, he's real this time. You wo
 T Forging the Keystone |QID|13285| |N|Back at the crash site.|
 N End of Grom'arsh Crash-Site quests |QID|12929|
 
-
-
 F Bouldercrag's Refuge |QID|12929| |N||M|30.46,36.69|
 T The Earthen of Ulduar |QID|12929|
 
@@ -456,7 +454,7 @@ A Valduran the Stormborn |QID|12984|
 C Valduran the Stormborn |QID|12984| |N|Back to Nidavelir. He's in the building at . Blow the horn, let them tank.| |U|42419|M|24.42,52.00|
 T Valduran the Stormborn |QID|12984|
 
-A Destroy the Forges! |QID|12988| 
+A Destroy the Forges! |QID|12988|
 
 A Hit Them Where it Hurts |QID|12991|
 C Destroy the Forges! |QID|12988| |N|South , Central (29.61,45.89), North (29.03,45.87)| |U|42441|M|30.24,46.23|

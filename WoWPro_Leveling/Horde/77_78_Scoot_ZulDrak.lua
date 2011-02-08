@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_zul039drak_horde
+-- Date: 2010-12-03 22:29
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3296/revisions/23483/view
+-- Date: 2010-12-03 22:29
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoSho7879", "Horde", function()
 --Last Modified: 7/16/2010
 return [[
@@ -106,8 +114,6 @@ C The Storm King's Vengeance |QID|12919| |N|Kill Thrym and finish killing any Sc
 T The Storm King's Vengeance |QID|12919| |N|Back to Crusader Forward Camp.| |M|25.3,64.0|
 N End of the Lights Breach/Crusader Forward Camp quests |QID|12661|
 
-
-
 N Overlord Drakuru |QID|12661| |N|Go to Reliquary of Pain, where you killed Algar the Chosen. Equip your disguise and port up to Voltarus from the center of the platform. Hotkey the diguise so you can reequip it when it fails, some of the following quest have another item to use. Overlord Drakuru is on the outer ring of the platform.| |U|38699| |M|28.4,44.9;27.1,46.1|
 
 A Dark Horizon |QID|12664| |O| |N|You got this because you didn't finish the Drakuru quest chain in Grizzly Hills.| |M|27.1,46.1|
@@ -153,8 +159,6 @@ C Betrayal |QID|12713| |N|Back to Overlord Drakuru. Talk to him to start. Don't 
 U PORT DOWN NOW!! |QID|12713| |N|You only have 3 minutes, so quit reading this, Heal yourself, and use Drakuru's Last Wish to port down.|
 T Betrayal |QID|12713| |N|Blow the horn one last time.| |U|41390|
 N End of the Ebon Watch quests |QID|12795|
-
-
 
 T Taking a Stand |QID|12795| |N|Head to the Argent Stand.| |M|39.5,66.9|
 
@@ -286,8 +290,6 @@ T Too Much of a Good Thing |QID|12516| |N|Back to the Argent Stand.| |M|40.61,65
 
 A To the Witch Doctor |QID|12623| |M|40.61,65.59|
 N End of the Argent Stand Quests |QID|12623|
-
-
 
 T To the Witch Doctor |QID|12623| |N|Go up the stairs next to the Amphitheater of Anguish. Zim'Torga is just ahead on your right.| |M|59.52,57.98|
 

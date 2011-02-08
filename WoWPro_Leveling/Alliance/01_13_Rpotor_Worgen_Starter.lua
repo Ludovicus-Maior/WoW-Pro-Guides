@@ -1,3 +1,57 @@
+-- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2011-01-30 19:54
+-- Who: Ludovicus Maior
+-- Log: Corrected RegisterGuide line.
+
+-- URL: http://wow-pro.com/node/3211/revisions/24076/view
+-- Date: 2011-01-30 17:13
+-- Who: Ludovicus Maior
+-- Log: Added Quest giver/turnin information for many steps.
+--	Altered sequences of steps to allow you to use quest reward armor sooner.
+--	Corrected several coordinates. 
+--	Added two auto-turnin quests as 'N' steps.  
+--	An "A" step by itself does not work.
+
+-- URL: http://wow-pro.com/node/3211/revisions/24072/view
+-- Date: 2011-01-29 17:18
+-- Who: Ludovicus Maior
+-- Log: Added missing  QIDs to Level 7 and 9 steps.
+
+-- URL: http://wow-pro.com/node/3211/revisions/23733/view
+-- Date: 2010-12-11 05:09
+-- Who: Crackerhead22
+-- Log: Made the flight to Lor'danel auto-complete.
+
+-- URL: http://wow-pro.com/node/3211/revisions/23732/view
+-- Date: 2010-12-11 04:36
+-- Who: Crackerhead22
+-- Log: Added in the quest 'Rut'theran Village'.
+
+-- URL: http://wow-pro.com/node/3211/revisions/23730/view
+-- Date: 2010-12-10 22:16
+-- Who: Crackerhead22
+-- Log: Fixed a QO issue with "Save the Children!" quest that was causing it to no auto-complete the steps.
+
+-- URL: http://wow-pro.com/node/3211/revisions/23699/view
+-- Date: 2010-12-08 02:21
+-- Who: Shakazahn
+
+-- URL: http://wow-pro.com/node/3211/revisions/23698/view
+-- Date: 2010-12-08 02:18
+-- Who: Shakazahn
+
+-- URL: http://wow-pro.com/node/3211/revisions/23564/view
+-- Date: 2010-12-04 16:28
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3211/revisions/23291/view
+-- Date: 2010-12-03 07:18
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3211/revisions/23290/view
+-- Date: 2010-12-03 07:17
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
 return [[
 
@@ -7,8 +61,8 @@ T Lockdown! |QID|14078|Z|Ruins of Gilneas City|M|54.7,17.7|N|Go north and then w
 A Something's Amiss |QID|14091|Z|Ruins of Gilneas City|M|54.7,17.7|
 
 T Something's Amiss |QID|14091|Z|Ruins of Gilneas City|M|59.6,22.2|N|Back to Greymane.|
-A All Hell Breaks Loose |QID|14093|Z|Ruins of Gilneas City|M|59.6,22.2|
-A Evacuate the Merchant Square |QID|14098|Z|Ruins of Gilneas City|M|59.6,22.2|
+A All Hell Breaks Loose |QID|14093|Z|Ruins of Gilneas City|M|59.6,22.2|N|From Prince Liam Greymane.|
+A Evacuate the Merchant Square |QID|14098|Z|Ruins of Gilneas City|M|59.6,22.2|N|From Prince Liam Greymane.|
 
 A Salvage the Supplies |QID|14094|Z|Ruins of Gilneas City|M|59.7,26.8|N|Go a few steps south to Gwen Armstead.|
 N Check Your Mail |QID|14098|Z|Ruins of Gilneas City|M|58.8,31.7|N|There's a mailbox a few steps south. You can pick up your Bind on Account items and pets here.|O|
@@ -23,33 +77,33 @@ C Evacuate the Merchant Square |QID|14098|N|Click on Merchant Square Doors.|US|Z
 T Salvage the Supplies |QID|14094|Z|Ruins of Gilneas City|M|59.7,26.8|N|Back to Gwen Armstead.|
 
 T All Hell Breaks Loose |QID|14093|Z|Ruins of Gilneas City|M|59.8,22.5|N|Back to Greymane.|
-T Evacuate the Merchant Square |QID|14098|Z|Ruins of Gilneas City|M|59.8,22.5|
-A Royal Orders |QID|14099|Z|Ruins of Gilneas City|M|59.8,22.5|
+T Evacuate the Merchant Square |QID|14098|Z|Ruins of Gilneas City|M|59.8,22.5|N|Back to Greymane.|
+A Royal Orders |QID|14099|Z|Ruins of Gilneas City|M|59.8,22.5|N|From Prince Liam Greymane.|
 
 T Royal Orders |QID|14099|Z|Ruins of Gilneas City|M|70.7,54.7|N|Southeast through the Merchant Square, down some steps and across a bridge.|
-A Your Instructor |QID|14265|Z|Ruins of Gilneas City|M|70.7,54.7|C|Warrior|
-A Someone's Looking for You |QID|14269|Z|Ruins of Gilneas City|M|70.7,54.7|C|Rogue|
-A Shady Associates |QID|14273|Z|Ruins of Gilneas City|M|70.7,54.7|C|Warlock|
-A Someone's Keeping Track of You |QID|14275|Z|Ruins of Gilneas City|M|70.7,54.7|C|Hunter|
-A Arcane Inquiries |QID|14277|Z|Ruins of Gilneas City|M|70.7,54.7|C|Mage|
-A Seek the Sister |QID|14278|Z|Ruins of Gilneas City|M|70.7,54.7|C|Priest|
-A The Winds Know Your Name... Apparently |QID|14280|Z|Ruins of Gilneas City|M|70.7,54.7|C|Druid|
+A Your Instructor |QID|14265|Z|Ruins of Gilneas City|M|70.7,54.7|C|Warrior|N|From Gwen Armstead.|
+A Someone's Looking for You |QID|14269|Z|Ruins of Gilneas City|M|70.7,54.7|C|Rogue|N|From Gwen Armstead.|
+A Shady Associates |QID|14273|Z|Ruins of Gilneas City|M|70.7,54.7|C|Warlock|N|From Gwen Armstead.|
+A Someone's Keeping Track of You |QID|14275|Z|Ruins of Gilneas City|M|70.7,54.7|C|Hunter|N|From Gwen Armstead.|
+A Arcane Inquiries |QID|14277|Z|Ruins of Gilneas City|M|70.7,54.7|C|Mage|N|From Gwen Armstead.|
+A Seek the Sister |QID|14278|Z|Ruins of Gilneas City|M|70.7,54.7|C|Priest|N|From Gwen Armstead.|
+A The Winds Know Your Name... Apparently |QID|14280|Z|Ruins of Gilneas City|M|70.7,54.7|C|Druid|N|From Gwen Armstead.|
 
-T Your Instructor |QID|14265|Z|Ruins of Gilneas City|M|67.7,64.3|C|Warrior|N|Go straight and then take your first right.|
-T Someone's Looking for You |QID|14269|Z|Ruins of Gilneas City|M|71.2,65.6|C|Rogue|N|She's hidden, but appears when you approach.|
-T Shady Associates |QID|14273|Z|Ruins of Gilneas City|M|71.2,64.3|C|Warlock|
-T Someone's Keeping Track of You |QID|14275|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter|
-T Arcane Inquiries |QID|14277|Z|Ruins of Gilneas City|M|68.2,64.8|C|Mage|N|Go straight and then take your first right.|
-T Seek the Sister |QID|14278|Z|Ruins of Gilneas City|M|70.5,65.2|C|Priest|
-T The Winds Know Your Name... Apparently |QID|14280|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|
+T Your Instructor |QID|14265|Z|Ruins of Gilneas City|M|67.7,64.3|C|Warrior|N|Go straight and then take your first right to Sergeant Cleese.|
+T Someone's Looking for You |QID|14269|Z|Ruins of Gilneas City|M|71.2,65.6|C|Rogue|N|Loren the Fence is hidden, but she appears when you approach.|
+T Shady Associates |QID|14273|Z|Ruins of Gilneas City|M|71.2,64.3|C|Warlock|N|To Vitus Darkwalker.|
+T Someone's Keeping Track of You |QID|14275|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter|N|To Huntsman Blake.|
+T Arcane Inquiries |QID|14277|Z|Ruins of Gilneas City|M|68.2,64.8|C|Mage|N|Go straight and then take your first right to Myriam Spellwaker.|
+T Seek the Sister |QID|14278|Z|Ruins of Gilneas City|M|70.5,65.2|C|Priest|N|See Sister Almyra.|
+T The Winds Know Your Name... Apparently |QID|14280|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|N|To Celestine of the Harvest.|
 
-A Charge |QID|14266|Z|Ruins of Gilneas City|M|67.7,64.3|C|Warrior|
-A Eviscerate |QID|14272|Z|Ruins of Gilneas City|M|71.2,65.6|C|Rogue|
-A Immolate |QID|14274|Z|Ruins of Gilneas City|M|71.2,64.3|C|Warlock|
-A Steady Shot |QID|14276|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter|
-A Flash Heal |QID|14279|Z|Ruins of Gilneas City|M|68.2,64.8|C|Priest|
-A Arcane Missles |QID|14281|Z|Ruins of Gilneas City|M|70.5,65.2|C|Mage|
-A Healing Touch |QID|14283|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|
+A Charge |QID|14266|Z|Ruins of Gilneas City|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|
+A Eviscerate |QID|14272|Z|Ruins of Gilneas City|M|71.2,65.6|C|Rogue|N|From Loren the Fence.|
+A Immolate |QID|14274|Z|Ruins of Gilneas City|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|
+A Steady Shot |QID|14276|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter|N|From Huntsman Blake.|
+A Flash Heal |QID|14279|Z|Ruins of Gilneas City|M|68.2,64.8|C|Priest|N|From Myriam Spellwaker.|
+A Arcane Missles |QID|14281|Z|Ruins of Gilneas City|M|70.5,65.2|C|Mage|N|From Sister Almyra.|
+A Healing Touch |QID|14283|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|N|From Celestine of the Harvest.|
 
 C Charge |QID|14266|Z|Ruins of Gilneas City|M|66.9,64.2|C|Warrior|N|Train Charge from your trainer and then practice it on a Bloodfang Worgen.|
 C Eviscerate |QID|14272|Z|Ruins of Gilneas City|M|66.9,64.2|C|Rogue|N|Train Eviscerate from your trainer and then practice it on a Bloodfang Worgen.|
@@ -59,90 +113,95 @@ C Flash Heal |QID|14279|Z|Ruins of Gilneas City|M|68.2,64.8|C|Priest|N|Train Fla
 C Arcane Missles |QID|14281|Z|Ruins of Gilneas City|M|66.9,64.2|C|Mage|N|Train Arcane Missles from your trainer and then practice it on a Bloodfang Worgen.|
 C Healing Touch |QID|14283|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|N|Train Healing Touch from your trainer and then practice it a Wounded Guard.|
 
-T Charge |QID|14266|Z|Ruins of Gilneas City|M|67.7,64.3|C|Warrior|
-T Eviscerate |QID|14272|Z|Ruins of Gilneas City|M|71.2,65.6|C|Rogue|
-T Immolate |QID|14274|Z|Ruins of Gilneas City|M|71.2,64.3|C|Warlock|
-T Steady Shot |QID|14276|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter|
-T Flash Heal |QID|14279|Z|Ruins of Gilneas City|M|68.2,64.8|C|Priest|
-T Arcane Missles |QID|14281|Z|Ruins of Gilneas City|M|70.5,65.2|C|Mage|
-T Healing Touch |QID|14283|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|
+T Charge |QID|14266|Z|Ruins of Gilneas City|M|67.7,64.3|C|Warrior|N|To Sergeant Cleese.|
+T Eviscerate |QID|14272|Z|Ruins of Gilneas City|M|71.2,65.6|C|Rogue|N|To Loren the Fence.|
+T Immolate |QID|14274|Z|Ruins of Gilneas City|M|71.2,64.3|C|Warlock|N|To Vitus Darkwalker.|
+T Steady Shot |QID|14276|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter|N|To Huntsman Blake.|
+T Flash Heal |QID|14279|Z|Ruins of Gilneas City|M|68.2,64.8|C|Priest|N|To Myriam Spellwaker.|
+T Arcane Missles |QID|14281|Z|Ruins of Gilneas City|M|70.5,65.2|C|Mage|N|To Sister Almyra.|
+T Healing Touch |QID|14283|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|N|To Celestine of the Harvest.|
 
-A Safety in Numbers |QID|14286|Z|Ruins of Gilneas City|M|67.7,64.3|C|Warrior|
-A Safety in Numbers |QID|14285|Z|Ruins of Gilneas City|M|71.2,65.6|C|Rogue|
-A Safety in Numbers |QID|14287|Z|Ruins of Gilneas City|M|71.2,64.3|C|Warlock|
-A Safety in Numbers |QID|14288|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter|
-A Safety in Numbers |QID|14289|Z|Ruins of Gilneas City|M|68.2,64.8|C|Priest|
-A Safety in Numbers |QID|14290|Z|Ruins of Gilneas City|M|70.5,65.2|C|Mage|
-A Safety in Numbers |QID|14291|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|
+A Safety in Numbers |QID|14286|Z|Ruins of Gilneas City|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|
+A Safety in Numbers |QID|14285|Z|Ruins of Gilneas City|M|71.2,65.6|C|Rogue|N|From Loren the Fence.|
+A Safety in Numbers |QID|14287|Z|Ruins of Gilneas City|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|
+A Safety in Numbers |QID|14290|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter||From Huntsman Blake.|
+A Safety in Numbers |QID|14289|Z|Ruins of Gilneas City|M|68.2,64.8|C|Priest|N|From Myriam Spellwaker.|
+A Safety in Numbers |QID|14288|Z|Ruins of Gilneas City|M|70.5,65.2|C|Mage|N|From Sister Almyra.|
+A Safety in Numbers |QID|14291|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|N|From Celestine of the Harvest.|
 
-T Safety in Numbers |QID|14286|Z|Ruins of Gilneas City|M|65.9,77.4|C|Warrior|
-T Safety in Numbers |QID|14285|Z|Ruins of Gilneas City|M|65.9,77.4|C|Rogue|
-T Safety in Numbers |QID|14287|Z|Ruins of Gilneas City|M|65.9,77.4|C|Warlock|
-T Safety in Numbers |QID|14288|Z|Ruins of Gilneas City|M|65.9,77.4|C|Hunter|
-T Safety in Numbers |QID|14289|Z|Ruins of Gilneas City|M|65.9,77.4|C|Priest|
-T Safety in Numbers |QID|14290|Z|Ruins of Gilneas City|M|65.9,77.4|C|Mage|
-T Safety in Numbers |QID|14291|Z|Ruins of Gilneas City|M|65.9,77.4|C|Druid|
+T Safety in Numbers |QID|14286|Z|Ruins of Gilneas City|M|65.9,77.4|C|Warrior|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14285|Z|Ruins of Gilneas City|M|65.9,77.4|C|Rogue|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14287|Z|Ruins of Gilneas City|M|65.9,77.4|C|Warlock|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14290|Z|Ruins of Gilneas City|M|65.9,77.4|C|Hunter|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14289|Z|Ruins of Gilneas City|M|65.9,77.4|C|Priest|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14288|Z|Ruins of Gilneas City|M|65.9,77.4|C|Mage|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14291|Z|Ruins of Gilneas City|M|65.9,77.4|C|Druid|N|To King Genn Greymane.|
 
-A Old Divisions |QID|14157|Z|Ruins of Gilneas City|M|65.9,77.4|N|Go northwest to the military district, take a left and enter the tower.|
-A While You're At It |QID|24930|Z|Ruins of Gilneas City|M|65.5,77.4|
+N Training in Earnest|QID|14157|Z|Ruins of Gilneas City|M|65.9,77.4|N|Take a moment and click on the minimap button that looks like a magnifying glass and make sure "class trainer" is enabled.  Then when you level up and get new skills, train at a convenient time.  Your trainers will follow you as you progress.|
+A Old Divisions |QID|14157|Z|Ruins of Gilneas City|M|65.9,77.4|N|From King Genn Greymane.|
+A While You're At It |QID|24930|Z|Ruins of Gilneas City|M|65.5,77.4|N|From Lord Godfrey.|
 
-C While You're At It |QID|24930|Z|Ruins of Gilneas City|M|58.0,72.0|N|Kill 5 Bloodfang Worgen|S|
-T Old Divisions |QID|14157|Z|Ruins of Gilneas City|M|58.0,72.0;57.9,75.3|
-A The Prison Rooftop |QID|28850|Z|Ruins of Gilneas City|M|57.9,75.3|
+C While You're At It |QID|24930|Z|Ruins of Gilneas City|M|58.0,72.0|N|Kill Bloodfang Worgen on your way to the tower|S|
+T Old Divisions |QID|14157|Z|Ruins of Gilneas City|M|58.0,72.0;57.9,75.3|N|Go northwest to the military district, take a left and enter the tower and see Captain Broderick.|
+A The Prison Rooftop |QID|28850|Z|Ruins of Gilneas City|M|57.9,75.3|From Captain Broderick.|
 
 T The Prison Rooftop |QID|28850|Z|Ruins of Gilneas City|M|55.0,63.1|N|Go up the stairs and then follow the ledge around to Crowley.|
-A By the Skin of His Teeth |QID|14154|Z|Ruins of Gilneas City|M|55.0,63.1|
+A By the Skin of His Teeth |QID|14154|Z|Ruins of Gilneas City|M|55.0,63.1|N|From Lord Darius Crowley.|
 C By the Skin of His Teeth |QID|14154|Z|Ruins of Gilneas City|M|55.0,63.1|N|Fight off the attacking Worgen for 2 minutes to complete the quest.|
-T By the Skin of His Teeth |QID|14154|Z|Ruins of Gilneas City|M|55.0,63.1|
-A Brothers In Arms |QID|26129|Z|Ruins of Gilneas City|M|55.0,63.1|
+T By the Skin of His Teeth |QID|14154|Z|Ruins of Gilneas City|M|55.0,63.1|N|To Lord Darius Crowley.|
+A Brothers In Arms |QID|26129|Z|Ruins of Gilneas City|M|55.0,63.1|N|From Lord Darius Crowley.|
 C While You're At It |QID|24930|Z|Ruins of Gilneas City|M|58.0,72.0|N|Kill 5 Bloodfang Worgen|US|
 
-T While You're At It |QID|24930|Z|Ruins of Gilneas City|M|65.5,77.4|N|Leave the balcony along the walkway, get down the stairs and go back southeast.|
-T Brothers In Arms |QID|26129|Z|Ruins of Gilneas City|M|65.9,77.4|
-A The Rebel Lord's Arsenal |QID|14159|Z|Ruins of Gilneas City|M|65.9,77.4|
+T While You're At It |QID|24930|Z|Ruins of Gilneas City|M|65.5,77.4|N|Leave the balcony along the walkway, get down the stairs and go back southeast to Lord Godfrey.|
+T Brothers In Arms |QID|26129|Z|Ruins of Gilneas City|M|65.9,77.4|N|To King Genn Greymane.|
+A The Rebel Lord's Arsenal |QID|14159|Z|Ruins of Gilneas City|M|65.9,77.4|N|From King Genn Greymane.|
 
-N Cellar Door |QID|14159|Z|Ruins of Gilneas City|M|55.5,81.5|N|Go southwest/west, take a right around the house and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs.|
-T The Rebel Lord's Arsenal |QID|14159|Z|Ruins of Gilneas City|M|56.7,85.1|
+T The Rebel Lord's Arsenal |QID|14159|Z|Ruins of Gilneas City|M|55.48,81.59;56.63,85.43|Go southwest/west, take a right around the house and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
 
 A From the Shadows |QID|14204|Z|Ruins of Gilneas City|M|56.9,81.7|N|Turn around and get this quest from Lorna Crowley.|
 
-C From the Shadows |QID|14204|Z|Ruins of Gilneas City|M|54.6,81.5|N|Use the pet ability Attack Lurker to reveal hidden Bloodfang Lurkers.|
+C From the Shadows |QID|14204|Z|Ruins of Gilneas City|M|54.6,81.5|N|Use the pet ability Attack Lurker to reveal hidden Bloodfang Lurkers in the alleys.|
 
 T From the Shadows |QID|14204|Z|Ruins of Gilneas City|M|56.7,81.4|N|Return to Lorna Crowley.|
-A Message to Greymane |QID|14214|Z|Ruins of Gilneas City|M|56.7,81.4|
+A Message to Greymane |QID|14214|Z|Ruins of Gilneas City|M|56.7,81.4|N|From Lorna Crowley.|
 
 T Message to Greymane |QID|14214|Z|Ruins of Gilneas City|M|58.9,83.6|N|Return to King Greymane.|
-A Save Krennan Aranas |QID|14293|Z|Ruins of Gilneas City|M|58.9,83.6|
+A Save Krennan Aranas |QID|14293|Z|Ruins of Gilneas City|M|58.9,83.6|N|From King Genn Greymane.|
 
 C Save Krennan Aranas |QID|14293|Z|Ruins of Gilneas City|M|66.0,62.2|N|Your horse is scripted, but he will stop under Krennan Aranas.  When he does use your (1) Rescue Krennan mount ability.|
 
 T Save Krennan Aranas |QID|14293|Z|Ruins of Gilneas City|M|55.8,80.2|N|Turn in to Lord Godfrey.|
-A Time to Regroup |QID|14294|Z|Ruins of Gilneas City|M|55.8,80.2|
+A Time to Regroup |QID|14294|Z|Ruins of Gilneas City|M|55.8,80.2|N|From Lord Godfrey.|
 
 T Time to Regroup |QID|14294|Z|Ruins of Gilneas City|M|30.5,73.3|N|Go west, then south along the streets then through a bridge west into the Greymane Court district. Continue northwest along the street to King Greymane.|
-A Sacrifices |QID|14212|Z|Ruins of Gilneas City|M|31.0,72.6|N|At Lord Crowley.|
+A Sacrifices |QID|14212|Z|Ruins of Gilneas City|M|31.0,72.6|N|From Lord Crowley.|
+N Training in Earnest|QID|14212|Z|Ruins of Gilneas City|M|31.0,72.6|N|Train here, if you have leveled.|
 
-C Sacrifices |QID|14212|Z|Ruins of Gilneas City|M|31.0,72.9|N|Mount Crowley's Horse.  While on the scripted path use your mount's (1) Throw Torch ability to round up 50 worgen.|
+C Sacrifices |QID|14212|Z|Ruins of Gilneas City|M|31.0,72.9|N|Mount Crowley's Horse.  While on the scripted path use your mount's (1) Throw Torch ability to round up 50 worgen. If you do not get 50, ride the horse again.|
 
-T Sacrifices |QID|14212|Z|Ruins of Gilneas City|M|40.3,39.5|N|Turn in to Tobias Mistmantle.|
-A By Blood and Ash |QID|14218|Z|Ruins of Gilneas City|M|40.3,39.5|
+T Sacrifices |QID|14212|Z|Ruins of Gilneas City|M|40.3,39.5|N|To Tobias Mistmantle.|
+A By Blood and Ash |QID|14218|Z|Ruins of Gilneas City|M|40.3,39.5|N|From Tobias Mistmantle|
 
 C By Blood and Ash |QID|14218|Z|Ruins of Gilneas City|M|38.7,38.6|N|Hop on a cannon and then use the Rebel Cannon ability to kill 100 Bloodfang Stalkers.|
 
-T By Blood and Ash |QID|14218|Z|Ruins of Gilneas City|M|40.3,39.5|Back to Tobias.|
-A Never Surrender, Sometimes Retreat |QID|14221|Z|Ruins of Gilneas City|M|40.3,39.5|
+T By Blood and Ash |QID|14218|Z|Ruins of Gilneas City|M|40.3,39.5|To Tobias.|
+A Never Surrender, Sometimes Retreat |QID|14221|Z|Ruins of Gilneas City|M|40.3,39.5|N|From Tobias Mistmantle.|
 
 T Never Surrender, Sometimes Retreat |QID|14221|Z|Ruins of Gilneas City|M|48.8,52.6|N|Go inside the Cathedral behind Tobias and all the way to Lord Crowley at the top of the steps.|
-A Last Stand |QID|14222|Z|Ruins of Gilneas City|M|48.8,52.6|
+A Last Stand |QID|14222|Z|Ruins of Gilneas City|M|48.8,52.6|N|From Lord Darius Crowley.|
 
-C Last Stand |QID|14222|Z|Ruins of Gilneas City|M|45.3,47.4|
+C Last Stand |QID|14222|Z|Ruins of Gilneas City|M|45.3,47.4|N|Kill 8 Frenzied Stalkers.|
 
 T Last Stand |QID|14222|Z|Ruins of Gilneas City|M|48.8,52.6|N|Turn in back at Crowley and enjoy the cinematic.|
+
+N Last Chance at Humanity|QID|14375|Z|Ruins of Gilneas City|M|36.4,61.3|NC|N|Accept quest from King Genn Greymane, and click off this step.|
+; No Turn-in as this quest auto-completes
 
 A Among Humans Again|QID|14313|Z|Ruins of Gilneas|M|36.45,62.20|N|From Lord Godfrey.|
 T Among Humans Again|QID|14313|Z|Ruins of Gilneas|M|37.36,63.28|N|To Krennan Aranas.|
 A In Need of Ingredients|QID|14320|Z|Ruins of Gilneas|M|37.36,63.28|N|From Krennan Aranas.|
-T In Need of Ingredients|QID|14320|Z|Ruins of Gilneas|M|32.90,66.32|
+N Training in Earnest|QID|14320|Z|Ruins of Gilneas|M|37.36,63.28|N|Talk to Jack "All-Trades" Derrington and learn any professions you want."
+T In Need of Ingredients|QID|14320|Z|Ruins of Gilneas|M|32.90,66.32|To Crate of Mandrake Essence.|
 A Invasion|QID|14321|Z|Ruins of Gilneas|M|32.84,66.22|N|From Slain Watchman.|
 T Invasion|QID|14321|Z|Ruins of Gilneas|M|37.33,63.37|N|To Gwen Armstead.|
 A Kill or Be Killed|QID|14336|Z|Ruins of Gilneas|M|37.33,63.37|N|From Gwen Armstead.|
@@ -164,38 +223,36 @@ T Holding Steady|QID|14366|Z|Ruins of Gilneas|M|37.36,63.29|N|To Gwen Armstead.|
 
 A The Allens' Storm Cellar|QID|14367|Z|Ruins of Gilneas|M|37.36,63.29|N|From Gwen Armstead.|
 
-T The Allens' Storm Cellar|QID|14367|Z|Ruins of Gilneas|M|28.90,63.91|N|To Lord Godfrey.|
+T The Allens' Storm Cellar|QID|14367|Z|Ruins of Gilneas|M|28.48,64.37;28.97,63.93|N|To Lord Godfrey.|
 A Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|28.90,63.91|N|From Lord Godfrey.|
 A Two By Sea|QID|14382|Z|Ruins of Gilneas|M|28.90,63.91|N|From Lord Godfrey.|
 A Save the Children!|QID|14368|Z|Ruins of Gilneas|M|28.90,63.91|N|From Melinda Hammond.|
 
-C Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|S|
-N Talk to James|QID|14368|Z|Ruins of Gilneas|M|28.56,66.74|QO|James rescued: 1/1|N|James is northwest, next to the house. Right-click James to rescue him.|
-N Talk to Ashley|QID|14368|Z|Ruins of Gilneas|M|27.92,66.64|QO|Ashley rescued: 1/1|N|Inside the house upstairs. Rescue her.|
-C Talk to Cynthia|QID|14368|Z|Ruins of Gilneas|M|29.59,69.18|QO|Cynthia rescued: 1/1|N|Go southeast and find Cynthia. Right-click her to rescue her.|
+C Talk to James|QID|14368|Z|Ruins of Gilneas|M|28.56,66.74|QO|James rescued: 1/1|N|James is northwest, next to the house. Right-click James to rescue him.|
+C Talk to Ashley|QID|14368|Z|Ruins of Gilneas|M|27.92,66.64|QO|Ashley rescued: 1/1|N|Inside the house upstairs. Right-click to rescue her.|
+C Talk to Cynthia|QID|14368|Z|Ruins of Gilneas|M|29.59,69.18|QO|Cynthia rescued: 1/1|N|Go southeast to the cornfield and find Cynthia near the shed. Right-click her to rescue her.|
+T Save the Children!|QID|14368|Z|Ruins of Gilneas|M|28.89,63.97|N|To Melinda Hammond.|
+N Sell Junk|QID|14369|Z|Ruins of Gilneas|M|28.81,63.48|N|Sell Junk.|
 
 C Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|S|
-N Kill Captain Anson|QID|14382|Z|Ruins of Gilneas|M|25.26,72.09; 23.9,75.0|QO|Captain Anson slain: 1/1|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.| 
-N Kill Captain Morris|QID|14382|Z|Ruins of Gilneas|M|29,54,74.23; 27.2,80.0|QO|Captain Morris slain: 1/1|N|Go to another catapult, kill the Forsaken Machinist, launch yourself onto the other ship. Go downstairs and kill Captain Morris.|
-C Two By Sea|QID|14382|Z|Ruins of Gilneas|M|27.50,80.32|
+C Kill Captain Anson|QID|14382|Z|Ruins of Gilneas|M|25.26,72.09; 23.9,75.0|QO|Captain Anson slain: 1/1|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.|
+C Kill Captain Morris|QID|14382|Z|Ruins of Gilneas|M|29,54,74.23; 27.2,80.0|QO|Captain Morris slain: 1/1|N|Go to another catapult, kill the Forsaken Machinist, launch yourself onto the other ship. Go downstairs and kill Captain Morris.|
 C Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|US|
 
 T Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|28.89,63.97|N|To Lord Godfrey.|
 T Two By Sea|QID|14382|Z|Ruins of Gilneas|M|28.89,63.97|N|To Lord Godfrey.|
-T Save the Children!|QID|14368|Z|Ruins of Gilneas|M|28.89,63.97|N|To Melinda Hammond.|
 A Leader of the Pack|QID|14386|Z|Ruins of Gilneas|M|28.89,63.97|N|From Lord Godfrey.|
 
-L Level 7|LVL|7|N|You should be around level 7 by this point.|
+L Level 7|QID|14386|LVL|7|N|You should be around level 7 by this point.|
 
 C Leader of the Pack|QID|14386|Z|Ruins of Gilneas|M|24.30,67.70|N|Target Dark Ranger Thyala and use your Mastiff Whistle. The dogs will tank her nicely, so you can kill her easily.|U|49240|
 T Leader of the Pack|QID|14386|Z|Ruins of Gilneas|M|28.89,63.87|N|To Lord Godfrey.|
 A As the Land Shatters|QID|14396|Z|Ruins of Gilneas|M|28.89,63.87|N|From Lord Godfrey.|
 T As the Land Shatters|QID|14396|Z|Ruins of Gilneas|M|29.11,65.09|N|To Prince Liam Greymane.|
 A Gasping for Breath|QID|14395|Z|Ruins of Gilneas|M|29.11,65.09|N|From Prince Liam Greymane.|
-C Gasping for Breath|QID|14395|Z|Ruins of Gilneas|M|28.77,67.39|N|Jump in the water and swim to a Drowning Watchman. Click on him and swim back to the shore. Repeat 4 times.| 
+C Gasping for Breath|QID|14395|Z|Ruins of Gilneas|M|28.77,67.39|N|Jump in the water and swim to a Drowning Watchman. Click on him and swim back to the shore. Repeat 4 times.|
 T Gasping for Breath|QID|14395|Z|Ruins of Gilneas|M|29.08,65.12|N|To Prince Liam Greymane.|
 A Evacuation|QID|14397|Z|Ruins of Gilneas|M|29.08,65.12|N|From Prince Liam Greymane.|
-
 T Evacuation|QID|14397|Z|Ruins of Gilneas|M|37.57,65.21|N|To Gwen Armstead.|
 A Grandma Wahl|QID|14398|Z|Ruins of Gilneas|M|37.57,65.21|N|From Gwen Armstead.|
 A The Hayward Brothers|QID|14403|Z|Ruins of Gilneas|M|37.57,65.21|N|From Gwen Armstead.|
@@ -207,25 +264,25 @@ C The Hungry Ettin|QID|14416|Z|Ruins of Gilneas|M|39.72,76.82|N|Hop on one of th
 T The Hungry Ettin|QID|14416|Z|Ruins of Gilneas|M|37.60,72.77|N|To Lorna Crowley.|
 T Grandma Wahl|QID|14398|Z|Ruins of Gilneas|M|32.53,75.55|N|To Grandma Wahl.|
 A Grandma's Lost It Alright|QID|14399|Z|Ruins of Gilneas|M|32.53,75.55|N|From Grandma Wahl.|
-C Grandma's Lost It Alright|QID|14399|Z|Ruins of Gilneas|M|33.88,77.37|N|Loot the Linen-Wrapped Book.|
+C Grandma's Lost It Alright|QID|14399|Z|Ruins of Gilneas|M|33.88,77.37|N|Loot the Linen-Wrapped Book under the red rose arbor.|
 T Grandma's Lost It Alright|QID|14399|Z|Ruins of Gilneas|M|32.51,75.52|N|To Grandma Wahl.|
 A I Can't Wear This|QID|14400|Z|Ruins of Gilneas|M|32.51,75.52|N|From Grandma Wahl.|
-C I Can't Wear This|QID|14400|Z|Ruins of Gilneas|M|32.00,75.57|N|Loot Grandma’s Good Clothes.|
+C I Can't Wear This|QID|14400|Z|Ruins of Gilneas|M|32.00,75.57|N|Loot Grandma’s Good Clothes from the clothes line between the house and the sea-wall.|
 T I Can't Wear This|QID|14400|Z|Ruins of Gilneas|M|32.50,75.55|N|To Grandma Wahl.|
 
 L Level 8|QID|14401|LVL|8|N|You should be around level 8 by this point.|
 
 A Grandma's Cat|QID|14401|Z|Ruins of Gilneas|M|32.50,75.55|N|From Grandma Wahl.|
-C Grandma's Cat|QID|14401|Z|Ruins of Gilneas|M|35.19,74.94|N|Loot Chance the Cat. Lucius the Cruel will spawn and attack you. Kill him. Loot Chance the Cat from the corpse.|
+C Grandma's Cat|QID|14401|Z|Ruins of Gilneas|M|35.19,74.94|N|Loot Chance the Cat near the white rose arbor on a rock. Lucius the Cruel will spawn and attack you. Kill him. Loot Chance the Cat from the corpse.|
 T Grandma's Cat|QID|14401|Z|Ruins of Gilneas|M|32.48,75.35|N|To Grandma Wahl.|
 T The Hayward Brothers|QID|14403|Z|Ruins of Gilneas|M|36.84,84.19|N|To Sebastian Hayward.|
 A Not Quite Shipshape|QID|14404|Z|Ruins of Gilneas|M|36.84,84.19|N|From Sebastian Hayward.|
 A Washed Up|QID|14412|Z|Ruins of Gilneas|M|36.84,84.19|N|From Sebastian Hayward.|
 
-C Washed Up|QID|14412|Z|Ruins of Gilneas|M|36.83,85.06|N|Kill 6 Forsaken Castaways.|
 N Not Quite Shipshape|QID|14404|Z|Ruins of Gilneas|M|37.53,85.96|QO|Coal Tar: 1/1|N|Loot the Barrel of Coal Tar.|
 N Not Quite Shipshape|QID|14404|Z|Ruins of Gilneas|M|37.42,87.13|QO|Shipwright's Tools: 1/1|N|Loot the Shipwright's Tools, inside the house.|
 C Not Quite Shipshape|QID|14404|Z|Ruins of Gilneas|M|36.17,86.44|N|Loot the Planks of Wood.|
+C Washed Up|QID|14412|Z|Ruins of Gilneas|M|36.83,85.06|N|Kill 6 Forsaken Castaways.|
 T Not Quite Shipshape|QID|14404|Z|Ruins of Gilneas|M|36.88,84.20|N|To Sebastian Hayward.|
 T Washed Up|QID|14412|Z|Ruins of Gilneas|M|36.88,84.20|N|To Sebastian Hayward.|
 A Escape By Sea|QID|14405|Z|Ruins of Gilneas|M|36.88,84.20|N|From Sebastian Hayward.|
@@ -237,6 +294,9 @@ T To Greymane Manor|QID|14465|Z|Ruins of Gilneas|M|28.17,50.03|N|To Queen Mia Gr
 h Greymane Manor|Z|Ruins of Gilneas|M|28.17,50.03|N|Set your hearthstone at Queen Mia Greymane.|
 A The King's Observatory|QID|14466|Z|Ruins of Gilneas|M|28.17,50.03|N|From Queen Mia Greymane.|
 T The King's Observatory|QID|14466|Z|Ruins of Gilneas|M|26.40,46.97|N|To King Genn Greymane.|
+
+N Alas, Gilneas!|QID|14467|Z|Ruins of Gilneas|M|26.40,46.97|NC|N|Look through King Genn Greymane's scope. Click off when done.|
+
 A Exodus|QID|24438|Z|Ruins of Gilneas|M|26.40,46.97|N|From King Genn Greymane.|
 N Board a Stagecoach CarriageS|QID|24438|Z|Ruins of Gilneas|M|30.2,55.5|N|Get out of the manor, go down the road and get on a Stagecoach Carriage.|
 
@@ -246,7 +306,7 @@ C Stranded at the Marsh|QID|24468|Z|Ruins of Gilneas|M|53.24,71.99|N|Kill Swamp 
 A Stranded at the Marsh|QID|24468|Z|Ruins of Gilneas|M|51.86,80.52|N|To Prince Liam Greymane.|
 C Introductions Are in Order|QID|24472|Z|Ruins of Gilneas|M|48.21,85.54;46.75,83.40|N|Go to the top of the hill and loot Koroth's Baner. Kill 4 Ogre Minions on the way.|
 T Introductions Are in Order|QID|24472|Z|Ruins of Gilneas|M|51.76,80.23|N|To Prince Liam Greymane.|
-L Level 9|LVL|9|N|You should be around level 9 by this point.|
+L Level 9|QID|24483|LVL|9|N|You should be around level 9 by this point.|
 A Stormglen|QID|24483|Z|Ruins of Gilneas|M|51.81,80.17|N|From Prince Liam Greymane.|
 
 T Stormglen|QID|24483|Z|Ruins of Gilneas|M|59.84,91.80|N|To Gwen Armstead.|
@@ -267,7 +327,6 @@ A Losing Your Tail|QID|24616|Z|Ruins of Gilneas|M|63.36,82.92|N|From Belrysa Sta
 C Losing Your Tail|QID|24616|Z|Ruins of Gilneas|M|63.93,81.23|N|Walk on the freezing trap on purpose, use the talisman and then kill the Dark Scout.|U|49944|
 T Losing Your Tail|QID|24616|Z|Ruins of Gilneas|M|63.33,82.95|N|To Belrysa Starbreeze.|
 A Tal'doren, the Wild Home|QID|24617|Z|Ruins of Gilneas|M|63.33,82.95|N|From Belrysa Starbreeze.|
-
 
 N Sell Junk|QID|24617|Z|Ruins of Gilneas|M|68.13,74.49|N|Sell Junk.|
 T Tal'doren, the Wild Home|QID|24617|Z|Ruins of Gilneas|M|68.69,73.29|N|To Lord Darius Crowley.|

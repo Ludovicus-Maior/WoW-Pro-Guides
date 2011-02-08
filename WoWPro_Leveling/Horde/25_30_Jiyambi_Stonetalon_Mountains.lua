@@ -1,4 +1,37 @@
-WoWPro.Leveling:RegisterGuide('JiySto2530', "Stonetalon Mountains", 'Jiyambi', '25', '30', 'JiySou3035', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2011-01-10 04:32
+-- Who: Crackerhead22
+-- Log: Changed turn in name for "Warchief's Command: Southern Barrens!" to "Warchief's Command: Stonetalon Mountains!"
+
+-- URL: http://wow-pro.com/node/3234/revisions/23542/view
+-- Date: 2010-12-04 02:29
+-- Who: Liavan
+-- Log: Hopefully this time i did it correct but i just added in one daily quest that was available and set it up as Rank 3.
+
+-- URL: http://wow-pro.com/node/3234/revisions/23541/view
+-- Date: 2010-12-04 02:12
+-- Who: Liavan
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3234/revisions/23538/view
+-- Date: 2010-12-04 01:53
+-- Who: Liavan
+-- Log: Added in daily quest that was missing and set it as rank 3 also added should be lvl tags.
+--	A Seek and Destroy|QID|26009|M|66.07,63.75|RANK|3|N|From Overlord Krom'gar.|
+--	C Seek and Destroy|QID|26009|M|61.42,64.88|S|RANK|3|N|From Overlord Krom'gar.|
+--	T Seek and Destroy|QID|26009|M|66.09,63.75|RANK|3|N|To Overlord Krom'gar.|
+--	
+--	
+
+-- URL: http://wow-pro.com/node/3234/revisions/23347/view
+-- Date: 2010-12-03 10:47
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3234/revisions/23346/view
+-- Date: 2010-12-03 10:47
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiySto2530', "Stonetalon Mountains", 'Jiyambi', '25', '30', 'JiySou3035', 'Horde', function()
 return [[
 
 R Silverwind Refuge|QID|25945|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|

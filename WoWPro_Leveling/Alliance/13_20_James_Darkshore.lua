@@ -1,4 +1,64 @@
-WoWPro.Leveling:RegisterGuide("JamDar1320", "Darkshore", "Jame", "13", "20", "WkjAsh2025", "Alliance", function() 
+-- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2010-12-31 03:04
+-- Who: Fluclo
+-- Log: Added step to Coax Taldan's Spirit which auto-completes on coaxing the spirit
+
+-- URL: http://wow-pro.com/node/3218/revisions/23871/view
+-- Date: 2010-12-31 02:51
+-- Who: Fluclo
+-- Log: Corrected QO tag on Thundris Windweaver's Spirit to allow auto-complete to work correctly
+
+-- URL: http://wow-pro.com/node/3218/revisions/23870/view
+-- Date: 2010-12-31 02:19
+-- Who: Fluclo
+-- Log: High Cultist Azerynn missing M tag before coordinates
+
+-- URL: http://wow-pro.com/node/3218/revisions/23868/view
+-- Date: 2010-12-30 19:46
+-- Who: Fluclo
+-- Log: Changed to K for Shatterspear Overseer, and the resulting Overseer's Orders 
+
+-- URL: http://wow-pro.com/node/3218/revisions/23867/view
+-- Date: 2010-12-30 17:48
+-- Who: Fluclo
+-- Log: Included a fishing quest available in the area for those with the fishing skill
+
+-- URL: http://wow-pro.com/node/3218/revisions/23866/view
+-- Date: 2010-12-30 16:22
+-- Who: Fluclo
+-- Log: Updated steps for 'Bearer of Good Fortune', directing user to [K] instead of [A] to get the drop required to start quest, and gave details on where to find 'A Troubling Prescription'
+
+-- URL: http://wow-pro.com/node/3218/revisions/23865/view
+-- Date: 2010-12-30 16:17
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3218/revisions/23760/view
+-- Date: 2010-12-16 12:24
+-- Who: Crackerhead22
+-- Log: Added in QO steps, added in missing quest, added more quest notes, added in a few sticky steps.
+
+-- URL: http://wow-pro.com/node/3218/revisions/23565/view
+-- Date: 2010-12-04 16:28
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3218/revisions/23356/view
+-- Date: 2010-12-03 11:10
+-- Who: Jiyambi
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3218/revisions/23355/view
+-- Date: 2010-12-03 11:10
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3218/revisions/23306/view
+-- Date: 2010-12-03 07:32
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3218/revisions/23305/view
+-- Date: 2010-12-03 07:32
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("JamDar1320", "Darkshore", "Jame", "13", "20", "WkjAsh2025", "Alliance", function()
 return [[
 
 A The Last Wave of Survivors|QID|13518|M|51.80,18.10|N|From Dentaria Silverglade.|
@@ -41,7 +101,7 @@ C Bearer of Good Fortune|QID|13557|U|44925|M|57.50,32.41|N|Open cages until you 
 C The Corruption's Source|QID|13529|M|58.75,32.64|N|Kill Vile Grells until you finish the quest.|US|
 C A Cure In The Dark|QID|13554|M|58.86,32.34|N|Kill Vile Grells and Vile Corruptors.|
 R Bashal'Aran Collapse|QID|28529|M|52.81,32.72|N|Head outside the cave, and jump into the 'Maw of the Void'.|
-l Writings of the Dark Herald|QID|28529|M|52.32,31.03|L|64450|N|Run up the ramp and kill Telarius Voidstrider. Then loot the "Writings of the Dark Herald".
+l Writings of the Dark Herald|QID|28529|M|52.32,31.03|L|64450|N|Run up the ramp and kill Telarius Voidstrider.  Then loot the "Writings of the Dark Herald".
 A Writings of the Void|QID|28529|U|64450|N|Accept the quest from the writings.|M|52.32,31.03
 
 H Lor'danel|QID|13554|U|6948|N|Hearth back to Lor'danel.|
@@ -334,13 +394,13 @@ A The Tides Turn Against Us|QID|13898|M|45.27,75.10|N|From Felros.|
 C The Tides Turn Against Us|QID|13898|M|31.19,84.20|N|Go into the cave and kill nagas as you go.|
 T The Darkscale Warlord|QID|13899|M|32.27,85.30|N|To Warlord Wrathspine.|
 A The Offering to Azshara|QID|13900|M|32.25,85.13|N|From Warlord Wrathspine.|
-C The Offering to Azshara|QID|13900|M|32.57,84.61|N|Go out of the cave and head to on top of it. Kill the naga surrounding the horn.|
+C The Offering to Azshara|QID|13900|M|32.57,84.61|N|Go out of the cave and head to on top of it.  Kill the naga surrounding the horn.|
 T The Offering to Azshara|QID|13900|M|32.81,84.23|N|To Malfurion Stormrage.|
 A The Battle for Darkshore|QID|13897|M|32.83,84.30|N|From Malfurion Stormrage.|
-C The Battle for Darkshore|QID|13897|U|58365|M|40.12,83.91|N|Head to The Master's Glave. Target the Avatar of Soggoth, use the horn then help kill it.|
+C The Battle for Darkshore|QID|13897|U|58365|M|40.12,83.91|N|Head to The Master's Glave.  Target the Avatar of Soggoth, use the horn then help kill it.|
 T The Tides Turn Against Us|QID|13898|M|45.32,75.09|N|To Felros.|
 T The Battle for Darkshore|QID|13897|M|45.32,75.09|N|To Balren of the Claw.|
 A Ashes in Ashenvale|QID|26408|M|45.32,75.09|N|From Balren of the Claw.|
-N Fly to Lor'danel or Darnassus|N|To visit your trainers, AH, etc. Right click the box of this step to continue.|
+N Fly to Lor'danel or Darnassus|N|To visit your trainers, AH, etc.  Right click the box of this step to continue.|
 ]]
 end)

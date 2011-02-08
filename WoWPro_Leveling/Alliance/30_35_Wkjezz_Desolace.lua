@@ -1,10 +1,98 @@
+-- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2011-01-02 20:42
+-- Who: Fluclo
+-- Log: Added the quest Bone Collector
+
+-- URL: http://wow-pro.com/node/3313/revisions/23920/view
+-- Date: 2011-01-02 20:36
+-- Who: Fluclo
+-- Log: Added correct QID to a Nijel's Point Hearthstone so that it goes away after related quests have been handed in.
+
+-- URL: http://wow-pro.com/node/3313/revisions/23919/view
+-- Date: 2011-01-02 20:35
+-- Who: Fluclo
+-- Log: Added correct QID for Run to the small building so that it doesn't reappear after quest has been completed
+
+-- URL: http://wow-pro.com/node/3313/revisions/23918/view
+-- Date: 2011-01-02 20:34
+-- Who: Fluclo
+-- Log: Bizby's grinding quests not required for zone progression, therefore added Rank 2 to all steps
+
+-- URL: http://wow-pro.com/node/3313/revisions/23917/view
+-- Date: 2011-01-02 20:31
+-- Who: Fluclo
+-- Log: Tweaks to starting of the zone
+
+-- URL: http://wow-pro.com/node/3313/revisions/23916/view
+-- Date: 2011-01-02 20:08
+-- Who: Fluclo
+-- Log: Corrected Deep Impact
+
+-- URL: http://wow-pro.com/node/3313/revisions/23915/view
+-- Date: 2011-01-02 19:43
+-- Who: Fluclo
+-- Log: Clarified need to be Naga for a couple of quests
+
+-- URL: http://wow-pro.com/node/3313/revisions/23914/view
+-- Date: 2011-01-02 19:25
+-- Who: Fluclo
+-- Log: Added two new quests, Karnitol Shipwreck, since player already in area for the Slitherblade quest chain
+
+-- URL: http://wow-pro.com/node/3313/revisions/23913/view
+-- Date: 2011-01-02 19:21
+-- Who: Fluclo
+-- Log: Changed quest IDs on a couple of steps.
+
+-- URL: http://wow-pro.com/node/3313/revisions/23912/view
+-- Date: 2011-01-02 11:48
+-- Who: Fluclo
+-- Log: Clarified step for Ears Are Burning
+
+-- URL: http://wow-pro.com/node/3313/revisions/23911/view
+-- Date: 2011-01-02 11:12
+-- Who: Fluclo
+-- Log: Updated handling of Elune's Gifts to flow properly on the display.
+
+-- URL: http://wow-pro.com/node/3313/revisions/23910/view
+-- Date: 2011-01-02 10:35
+-- Who: Fluclo
+-- Log: Corrected quest number for Nijel's Point to allow seamless reloading of guide
+
+-- URL: http://wow-pro.com/node/3313/revisions/23909/view
+-- Date: 2011-01-02 10:17
+-- Who: Fluclo
+-- Log: Moved the set home at Nijel's Point to a more convinient place to avoid doubling back.
+
+-- URL: http://wow-pro.com/node/3313/revisions/23908/view
+-- Date: 2011-01-02 10:14
+-- Who: Fluclo
+-- Log: Changed Run to Nijel's Point to mount the provided gryphon, and moved flight point to a more appropriate place.
+
+-- URL: http://wow-pro.com/node/3313/revisions/23907/view
+-- Date: 2011-01-02 10:06
+-- Who: Fluclo
+-- Log: Improved entry for route from Stonetalon Mountains to Desolace
+
+-- URL: http://wow-pro.com/node/3313/revisions/23906/view
+-- Date: 2011-01-02 09:42
+-- Who: Fluclo
+-- Log: Corrected some |QO| tags
+
+-- URL: http://wow-pro.com/node/3313/revisions/23523/view
+-- Date: 2010-12-03 23:47
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3313/revisions/23522/view
+-- Date: 2010-12-03 23:45
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('WkjDes3035', 'Desolace', 'Wkjezz', '30', '35', 'WkjFer3540', 'Alliance', function()
 
 return [[
 
 R Farwatcher's Glen|QID|25938|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
 
-A Help for Desolace|QID|25938|M|54.18,9.41|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
+A Help for Desolace|QID|25938|M|54.18,9.41|N|From Hierophant Malyk.  Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
 
 R Down the mountain|QID|25938|M|30.95,62.20;30.23,63.15;30.06,64.98|N|Follow the waypoints to help you safely down the mountains.|CS|Z|Stonetalon Mountains|
 
@@ -43,7 +131,7 @@ C Nothing a Couple of Melons Won't Fix|QID|14193|M|77.06,18.18|N|Head back to th
 T Nothing a Couple of Melons Won't Fix|QID|14193|M|77.06,18.18|N|Heads-up Turn-in|
 
 C Ten Pounds of Flesh|QID|14358|N|Head back to Elune's Brazier and offer the 10 pieces of Satyr Flesh there.|U|48857|QO|Sacrifical Offering Accepted: 1/1|
-T Ten Pounds of Flesh|QID|14358|N|At Elune's Brazier. Don't bother with the follow-up, it is for buff only and does not count for any other quest achievements.|
+T Ten Pounds of Flesh|QID|14358|N|At Elune's Brazier.  Don't bother with the follow-up, it is for buff only and does not count for any other quest achievements.|
 C To the Hilt!|QID|14357|M|75.97,26.57|N|Head back to Elune's Handmaiden and offer the 20 Satyr Saber there.|U|48943|QO|Elune's Ritual of War Completed|
 T To the Hilt!|QID|14357|M|75.97,26.57|N|Heads-up Turn-in|
 

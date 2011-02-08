@@ -1,3 +1,21 @@
+-- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2011-01-27 12:43
+-- Who: Fluclo
+-- Log: Added coords for eggs
+
+-- URL: http://wow-pro.com/node/3287/revisions/23989/view
+-- Date: 2011-01-15 18:38
+-- Who: Crackerhead22
+-- Log: Added notes, fixed notes. Added cords, fixed cords. Added sticky steps.
+
+-- URL: http://wow-pro.com/node/3287/revisions/23465/view
+-- Date: 2010-12-03 22:08
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3287/revisions/23464/view
+-- Date: 2010-12-03 22:07
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamHow7274", "Howling Fjord", "Jame", "72", "74", "JamDra7475", "Alliance", function()
 return [[
 
@@ -137,7 +155,7 @@ T Iron Rune Constructs and You: The Bluff |QID|11491|M|75.1,65.5|N|To Walt.|
 A Lightning Infused Relics |QID|11494|M|75.1,65.5|N|From Walt.|
 A The Delicate Sound of Thunder |QID|11495|N|From Walt.|
 C Lightning Infused Relics |S|QID|11494|N|Click the work bench again, then go down to the bottom of the pit here to collect 15 Iron Rune Data using the Collect Data ability. You take no damage from falling while in the suit, and if an Iron Rune Dwarf questions you, use the Bluff ability. Stay away from Rampaging Earth Elementals; run away from them if you aggro. |M|72.78,74.70|
-C The Delicate Sound of Thunder |QID|11495|N|Go to the teleport rune called "Golem Transport - Top Level" and use the Rocket Jump ability while standing on it. Go to the middle Teleport rune here and Rocket Jump again. Go into the cave until you see a big statue, then wait for the quest complete message. (72.12,70.40) (71.59,69.83)|M|73.19,73.38|
+C The Delicate Sound of Thunder |QID|11495|N|Go to the teleport rune called "Golem Transport - Top Level" and use the Rocket Jump ability while standing on it. Go to the middle Teleport rune here and Rocket Jump again. Go into the cave until you see a big statue, then wait for the quest complete message.  (72.12,70.40) (71.59,69.83)|M|73.19,73.38|
 C Lightning Infused Relics |US|QID|11494|N|Click the work bench again, then go down to the bottom of the pit here to collect 15 Iron Rune Data using the Collect Data ability. You take no damage from falling while in the suit, and if an Iron Rune Dwarf questions you, use the Bluff ability. Stay away from Rampaging Earth Elementals; run away from them if you aggro. |M|72.78,74.70|
 T Lightning Infused Relics |QID|11494|N|To leave, take the left to the east outside the cave to get to the top. Turn quest into Walt.|M|75.1,65.5|
 T The Delicate Sound of Thunder |QID|11495|N|To Walt.|
@@ -368,8 +386,8 @@ C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest
 C Seeds of the Blacksouled Keepers |QID|11319|U|33607|N|Kill Spores here and use the Enchanted Ice Core on their remains until you complete this quest.|M|53.71,18.56|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|US|
 
-R Camp Winterhoof |QID|11349|N|Another optional step to get the Exploration Achievement. Be careful, this is Horde territory .|M|47.99,11.78|
-C The Cleansing |QID|11322|N|Go northeast to the road, then follow it northwest to the crossroad. Take the small frozen path going up into the mountains until you find the Frostblade Shrine here. Click on it and kill Your Inner Turmoil. |M|61.09,1.98|
+R Camp Winterhoof |QID|11349|N|Another optional step to get the Exploration Achievement.  Be careful, this is Horde territory .|M|47.99,11.78|
+C The Cleansing |QID|11322|N|Go northeast to the road, then follow it northwest to the crossroad.  Take the small frozen path going up into the mountains until you find the Frostblade Shrine here. Click on it and kill Your Inner Turmoil. |M|61.09,1.98|
 T Mastering the Runes |QID|11349|N|You now have a 3 minute levitation buff, so mount up and aim for Fort Wildervar. Drop the buff when you're over the lake. Turn the quest into Prospector Belvar.|M|62.3,17.2|
 A The Rune of Command |QID|11348|M|62.3,17.2|N|From Prospector Belvar.|
 T The Lodestone |QID|11358|N|To Researcher Aderan.|
@@ -433,7 +451,7 @@ T Gruesome, But Necessary |QID|11246|N|To Westguard Sergeant.|
 T Burn Skorn, Burn! |QID|11247|N|To Westguard Sergeant.|
 
 A All Hail the Conqueror of Skorn! |QID|11250|N|From Westguard Sergeant.|
-C Eyes of the Eagle |QID|11416|N|Mount up and jump off the southern cliff into the river, then click on the egg here. Kill Talonshrike and loot his eyes.|M|44.02,38.44|
+C Eyes of the Eagle |QID|11416|N|Mount up and jump off the southern cliff  into the river, then click on the egg here. Kill Talonshrike and loot his eyes.|M|44.02,38.44;41.43,37.67|
 C Send Them Packing |S|QID|11224|N|Use "/raise" with Abandoned Pack Mules targeted to send them packing. |M|33.53,38.71|
 C Danger! Explosives! |QID|11218|U|33190|N|Use Steelring's Foolproof Dynamite on Whisper Gulch Ore here and collect the fragments that the explosion produces.|M|35.71,36.53|
 C Send Them Packing |US|QID|11224|N|Finish useing "/raise" with Abandoned Pack Mules targeted to send them packing. |M|33.53,38.71|

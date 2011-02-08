@@ -1,5 +1,28 @@
+-- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2010-12-24 01:53
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3279/revisions/23823/view
+-- Date: 2010-12-24 00:55
+-- Who: Crackerhead22
+-- Log: Fixed from notes via tepes had made.
+
+-- URL: http://wow-pro.com/node/3279/revisions/23809/view
+-- Date: 2010-12-21 21:53
+-- Who: Crackerhead22
+-- Log: Added |M| tags, NPC and step notes, added |QO| tags to a few steps, added Sticky steps, added missing quest steps.
+
+-- URL: http://wow-pro.com/node/3279/revisions/23447/view
+-- Date: 2010-12-03 21:34
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3279/revisions/23446/view
+-- Date: 2010-12-03 21:34
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamNag6668", "Nagrand", "Jame", "66", "68", "JamBla6870", "Alliance", function()
 return [[
+
 R Nagrand|QID|9792|N|Go to Nagrand.|M|20.30,55.60|
 A I Must Have Them! |QID|10109|M|61.7,67.1|N|From Wazat.|
 N From now on...|QID|9861|N|From now on, kill Air Elementals until you get the Howling Wind, and kill Wild Elekks.|
@@ -21,7 +44,7 @@ T The Nesingwary Safari|QID|10113|N|To Hemet Nesingwary.|M|71.46,40.7|
 A Talbuk Mastery (part 1)|QID|9857|M|71.6,40.5|N|From Harold Lane.|
 A Windroc Mastery (part 1)|QID|9854|M|71.6,40.5|N|From Shado 'Fitz' Farstrider.|
 A Clefthoof Mastery (part 1)|QID|9789|M|71.6,40.5|N|From Hemet Nesingwary.|
-N Kristen DeMeza |QID|9897|M|71.42,40.6|N|Kill mobs in this area until Kristen DeMeza shows up at the Nesingwary Safari (it may take a long time). Kill the undead that spawns. |
+N Kristen DeMeza |QID|9897|M|71.42,40.6|N|Kill mobs in this area until Kristen DeMeza shows up at the Nesingwary Safari (it may take a long time).  Kill the undead that spawns. |
 A I'm Saved! |QID|9897|N|From Kristen DeMeza. Skip if it takes too long for her to show up.|M|71.42,40.6|
 T I'm Saved! |QID|9897|N|To Harold Lane.|M|71.42,40.6|
 N Howling Wind |QID|9861|N|Kill mobs until you get the Howling Wind.|L|24504|M|64.0,45.1|
@@ -78,7 +101,7 @@ T HELP! |QID|9923|M|55.5,68.8|N|To Arechron.|
 A Corki's Gone Missing Again!|QID|9924|M|55.5,68.8|N|From Arechron.|
 T The Ruins of Burning Blade|QID|9921|M|54.5,72.2|N|To Mo'mor the Breaker.|
 A The Twin Clefts of Nagrand|QID|9922|M|54.5,72.2|N|From Mo'mor the Breaker.|
-A He Called Himself Altruis...|QID|9982|N|From Huntress Kima. She wanders around Telaar.|M|53.54,72|
+A He Called Himself Altruis...|QID|9982|N|From Huntress Kima.  She wanders around Telaar.|M|53.54,72|
 
 N Sell junk, repair, restock |QID|9800|N|Do not sell Ogre Warbeads or Ivory Tusks. Sell junk, repair, restock.|M|53.25,70|
 A The Consortium Needs You! |QID|9913|M|51.8,34.8|N|From Consortium Recruiter.|M|51.18,69.83|
@@ -119,19 +142,19 @@ C Corki's Gone Missing Again! |N|Free Corki from the north part of the cave.|QID
 C The Twin Clefts of Nagrand |N|Kill the rest of the mobs for this quest.|QID|9922|M|40.00,32.00|
 l Obsidian Warbeads|N|Kill ogres until you get the warbeads for this quest.|QID|10476|M|40.76,31.45|L|25433 10|
 C Muck Diving |N|Kill Muck mobs until you get the items for this quest.|QID|9815|M|41.00,38.00|
-C The Spirit Polluted |N|Go here and kill 10 Lake Surgers and the Polluted Essence. Use the torch of liquid fire on Sunspring Villager Corpses as well.|QID|9810|M|33.00,50.00|
+C The Spirit Polluted |N|Go here and kill 10 Lake Surgers and the Polluted Essence.  Use the torch of liquid fire on  Sunspring Villager Corpses as well.|QID|9810|M|33.00,50.00|
 C Stopping the Spread |N|Use the torch on the rest of the corpses for this quest.|QID|9874|M|33.2,47.7|U|24560|
 C Solving the Problem |N|Kill mobs until you finish this quest.|QID|9878|M|32,43|S|
 C Murkblood Corrupters |N|Kill mobs until you finish this quest.|QID|9862|M|32,43|S|
-A The Totem of Kar'dash |N|Make sure you have full health before accepting this escort quest. You must also kill the two brutes in the house before the quest can be accepted.|QID|9879|M|33.00,42.00|
-C The Totem of Kar'dash |N|Kill the mobs that spawn and make sure you are at full health before each fight. The escort npc is weak. Getting a group for this may help.|QID|9879|
+A The Totem of Kar'dash |N|Make sure you have full health before accepting this escort quest.  You must also kill the two brutes in the house before the quest can be accepted.|QID|9879|M|33.00,42.00|
+C The Totem of Kar'dash |N|Kill the mobs that spawn and make sure you are at full health before each fight.  The escort npc is weak.  Getting a group for this may help.|QID|9879|
 C Solving the Problem |N|Kill mobs until you finish this quest.|QID|9878|M|32,43|US|
 C Murkblood Corrupters |N|Kill mobs until you finish this quest.|QID|9862|M|32,43|US|
 
 N From now on... |N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead" |
 T He Called Himself Altruis...|QID|9982|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
-C Survey the Land |N|Make sure you are not mounted when you accept this quest (or abandon it and re-accept it). You should fly around automatically.|QID|9991|M|27.29,43.1|
+C Survey the Land |N|Make sure you are not mounted when you accept this quest (or abandon it and re-accept it).  You should fly around automatically.|QID|9991|M|27.29,43.1|
 T Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
 K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|N|Kill Bach'lor and loot his hoof. He wanders between the waypoints.|T|Bach'lor|L|24523|
 A Matters of Security |QID|9925|M|30.8,58.1|N|From Zerid.|
@@ -189,14 +212,14 @@ K Zorbo the Advisor|N|Kill Zorbo inside the cave.|QID|9940|M|46.22,18.83|QO|Zorb
 C Wanted: Zorbo the Advisor|N|Kill mobs in the area.|QID|9940|M|46.00,23.00|US|
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest. |QID|9931|M|50.00,22.00|U|25555|US|
 
-N Ring of Blood|N|Look for a group for Ring of Blood. Look for a group for the Windroc Mastery and Talbuk Mastery quests also, and do those. Grind on ogres in the meantime. |M|5 people,|
+N Ring of Blood|N|Look for a group  for Ring of Blood.  Look for a group for the Windroc Mastery and Talbuk Mastery quests also, and do those.  Grind on ogres in the meantime. |M|5 people,|
 N From now on...|N|From now on, kill Greater Windrocs and Aged Clefthoofs. |
 l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|L|28667|
-K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye. He wanders around where the waypoints are.|T|Gutripper|L|24513|
+K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye.  He wanders around where the waypoints are.|T|Gutripper|L|24513|
 l Mountain Gronn Eyeball|QID|10252|N|Kill the Mountain Gronn on this path and loot the eyeball.|L|28665|M|30.00,32.00|T|Mountain Gronn|
 C The Ravaged Caravan|N|Get the crates needed for this quest.|QID|9956|M|27.00,23.00|S|
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|
-T Corki's Ransom|QID|9954|M|27.00,23.00|N|Go in the cave here, go to the back of the cave and find Corki. Turn the quest in.|
+T Corki's Ransom|QID|9954|M|27.00,23.00|N|Go in the cave here, go to the back of the cave and find Corki.  Turn the quest in.|
 A Cho'war the Pillager|QID|9955|M|27.00,23.00|From Corki.|
 K Cho'war the Pillager|N|Go through the cave and kill Cho'war (group needed)|QID|9955|M|27.17,18.68;27.00,11.00|L|25648|
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|
@@ -231,7 +254,7 @@ A Message to Telaar |QID|9933|M|73.8,62.6|N|From Lantresor of the Blade.|
 T Message to Telaar |QID|9933|M|55.5,68.8|N|To Arechron.|
 
 C The Ultimate Bloodsport |N|Get a group for this quest and then kill Tusker.|QID|9852|M|44.28,65.6|
-C Wanted: Durn the Hungerer|N|Kill Durn the Hungerer, he wanders around Oshu'gun. You need three or four people, this is a hard one.|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|
+C Wanted: Durn the Hungerer|N|Kill Durn the Hungerer, he wanders around Oshu'gun.  You need three or four people, this is a hard one.|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|
 T Wanted: Durn the Hungerer|QID|9938|N|To Waden Moi'bff Jill.|M|54.8,71.0|
 T The Ultimate Bloodsport|QID|9852|N|To Hemet Nesingwary.|M|71.52,40.79|
 ]]

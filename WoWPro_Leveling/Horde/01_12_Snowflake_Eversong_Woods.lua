@@ -1,4 +1,50 @@
-WoWPro.Leveling:RegisterGuide("SnoEve0112", "Eversong Woods - Blood Elf", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
+-- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2011-02-05 14:18
+-- Who: Ludovicus Maior
+-- Log: Submitted by zoefed on Thu, 2011-01-20 09:13.
+--	
+--	Bug Report: Guide: Eversong Woods Bloodelf - Step: (89/157) Turning in the quest: The Ring Of Mmmrrrggglll. The waypoint arrow shows somewhere in the sea. The  quest NPC is located at these CORRECT coordinates: 30.2,58.5.
+
+-- URL: http://wow-pro.com/node/3207/revisions/24099/view
+-- Date: 2011-02-05 14:12
+-- Who: Ludovicus Maior
+-- Log: Submitted by Grramps on Sat, 2011-02-05 05:34.
+--	
+--	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
+
+-- URL: http://wow-pro.com/node/3207/revisions/24069/view
+-- Date: 2011-01-29 17:08
+-- Who: Ludovicus Maior
+-- Log: Added missing QIDs to L steps.
+
+-- URL: http://wow-pro.com/node/3207/revisions/23614/view
+-- Date: 2010-12-05 21:08
+-- Who: Crackerhead22
+-- Log: Added missing steps/quests.
+
+-- URL: http://wow-pro.com/node/3207/revisions/23596/view
+-- Date: 2010-12-05 06:45
+-- Who: Crackerhead22
+-- Log: Added missing class quests.
+
+-- URL: http://wow-pro.com/node/3207/revisions/23595/view
+-- Date: 2010-12-05 05:55
+-- Who: Crackerhead22
+-- Log: Changed |R|Blood Elf| to |R|BloodElf| so the Blood Elf only quests will show.
+
+-- URL: http://wow-pro.com/node/3207/revisions/23321/view
+-- Date: 2010-12-03 08:10
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3207/revisions/23289/view
+-- Date: 2010-12-03 07:13
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3207/revisions/23279/view
+-- Date: 2010-12-02 23:20
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
 
 return [[
 
@@ -10,11 +56,11 @@ A Unfortunate Measures|QID|8326|R|BloodElf|M|38.0,21.0|N|Magistrix Erona|
 A Solanian's Belongings|QID|8330|R|BloodElf|M|38.97,20.26|N|Well Watcher Solanian|
 A The Shrine of Dath'Remar|QID|8345|R|BloodElf|M|38.97,20.26|N|Well Watcher Solanian|
 A A Fistful of Slivers |QID|8336|R|BloodElf|N|Jump down to the left. From Arcanist Ithanas.|M|38.3,19.1|
-A Thirst Unending|QID|8346|R|BloodElf|N|Go through the gazeebo in front of you.|M|37.2,18.9|
+A Thirst Unending|QID|8346|R|BloodElf|N|Go through the gazeebo in front of you to Arcanist Helion.|M|37.2,18.9|
 C Mana Wyrm |QID|8346|R|BloodElf|N|Find a Mana Wyrm and use Arcane Torrent close to it. |M|37.50,23.90|
 C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill Springpaw Lynxs and loot 8 Lynx collars. |M|36.00,24.00|
 C A Fistful of Slivers |QID|8336|R|BloodElf|N|Kill Mana Wyrms and loot 6 arcane silvers. |M|37.50,23.90|
-L Level 3|LVL|3|N|Kill mana wyrms until you ding.|
+L Level 3|QID|8336|LVL|3|N|Kill mana wyrms until you ding.|
 N Solanian's Journal |QID|8330|QO|Solanian's Journal: 1/1|R|BloodElf|N|Near the big green crystal. |M|37.70,24.90|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|38,21|N|Magistrix Erona|
 A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|38.2,20.8|N|Magistrix Erona|
@@ -58,7 +104,7 @@ C Healing the Wounded|QID|10072|R|BloodElf|M|39,20.2|C|Priest|N|Learn Flash Heal
 T Healing the Wounded|QID|10072|R|BloodElf|M|39,20.2|C|Priest|N|To Matron Arena.|
 
 T A Fistful of Slivers |QID|8336|R|BloodElf|M|38.3,19.1|
-T Thirst Unending |QID|8346|R|BloodElf|M|37.2,18.9|N|Jainthess Thelryn|
+T Thirst Unending |QID|8346|R|BloodElf|M|37.2,18.9|N|To Arcanist Helion.|
 T Report to Lanthan Perilon |QID|8327|R|BloodElf|N|To the west.|M|35.4,22.5|
 A Aggression |QID|8334|R|BloodElf|M|35.4,22.5|
 C Aggression |QID|8334|R|BloodElf|S|N|Kill any Tender and Feral Tender you see.|
@@ -66,7 +112,7 @@ N Solanian's Scrying Orb |QID|8330|QO|Solanian's Scrying Orb: 1/1|R|BloodElf|N|G
 N Scroll of Scourge Magic |QID|8330|QO|Scroll of Scourge Magic: 1/1|R|BloodElf|N|Go northwest. |M|31.40,22.80|
 C The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|Go further north until you reach the shrine. Read the plaque.|M|29.7,19.5|
 C Aggression |QID|8334|R|BloodElf|US|
-L Level 4|LVL|4|N|Kill stuff until you hit level 4.|
+L Level 4|QID|8334|LVL|4|N|Kill stuff until you hit level 4.|
 
 T Solanian's Belongings |QID|8330|R|BloodElf|N|Up the ramp, inside the building.|M|38.8,19.4|
 T The Shrine of Dath'Remar |QID|8345|R|BloodElf|M|38.8,19.4|
@@ -98,7 +144,7 @@ C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|S|
 C Wanted: Thaelis the Hungerer |QID|8468|N|Be careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
 C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|US|
 C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|M|46,42|N|Look for light beams that come out of the boxes.|
-L Level 6|LVL|6|If not level 6 yet, kill stuffs.
+L Level 6|QID|8472|LVL|6|If not level 6 yet, kill stuffs.
 T Major Malfunction |QID|8472|M|47.3,46.3|
 A Delivery to the North Sanctum |QID|8895|M|47.3,46.3|
 T Wanted: Thaelis the Hungerer |QID|8468|M|47.8,46.6|
@@ -110,7 +156,7 @@ T Malfunction at the West Sanctum |QID|9119|M|36.7,57.4|
 A Arcane Instability |QID|8486|M|36.7,57.4|
 K Darnassian Scout |QID|9352|L|20765|N|Kill a Darnassian Scout and loot Incriminating Documents |M|34.50,60.00|
 A Incriminating Documents |QID|8482|U|20765|N|Click the envelope|M|33.9,58.4|
-C Arcane Instability |QID|8486|N|5 of each: Manawraith & Mana Stalker |M|36,58|
+C Arcane Instability |QID|8486|N|5 of each: Manawraith and Mana Stalker |M|36,58|
 T Arcane Instability |QID|8486|M|35.1,61.3;36.7,57.4|
 T Darnassian Intrusions |QID|9352|N|You should be level 7 now.|M|36.7,57.4|
 A Fish Heads, Fish Heads... |QID|8884|N|Go around the northside of the mountain.|M|30.2,58.3|
@@ -130,7 +176,7 @@ A Soaked Pages |QID|9062|M|44.9,61.0|
 C Soaked Pages |QID|9062|L|22414|N|Dive under the bridge just in front of you. |M|44.40,61.90|
 T Soaked Pages |QID|9062|M|44.9,61.0|
 A Taking the Fall |QID|9064|M|44.9,61.0|
-T Taking the Fall |QID|9064|M|55.7,54.5|
+T Taking the Fall  |QID|9064|M|55.7,54.5|
 A Swift Discipline |QID|9066|M|55.7,54.5|
 A The Dead Scar |QID|8475|M|50.3,50.8|
 C Swift Discipline |QID|9066|U|22473|N|Target Apprentice Meledor and Apprentice Ralen, use the rod that Anetheol gave you.|M|45.20,56.40;44.9,61.0|
@@ -157,19 +203,19 @@ A Fly to Silvermoon City|QID|9133|M|44,70|N|From Skymaster Brightdawn.|
 F Silvermoon City|QID|9067|M|44,70|N|Fly to Silvermoon City.|
 T Fly to Silvermoon City|QID|9133|M|54,71|Z|Silvermoon City|N|To Sathren Azuredawn.|
 A Skymistress Gloaming|QID|9134|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|
-B Suntouched Special Reserve|QID|9067|L|22775|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|M|79.70,58.40|
+B Suntouched Special Reserve|QID|9067|L|22775|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.  Also, visit your trainer if you need to.|M|79.70,58.40|
 T Skymistress Gloaming|QID|9134|M|54.38,50.79|N|To Skymistress Gloaming.|
 A Return to Sathiel|QID|9135|M|54.38,50.79|N|From Skymistress Gloaming.|
 F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
 A Return to Sathiel|QID|9135|M|43.69,71.51|N|To Sathiel.|
 
-T Captain Kelisendra's Lost Rutters |QID|8887|N|Follow the road west until you reach Sunsail Anchorage. Kill any Springpaw you come across.|M|36.4,66.7|
+T Captain Kelisendra's Lost Rutters |QID|8887|N|Follow the road west until you reach Sunsail Anchorage.  Kill any Springpaw you come across.|M|36.4,66.7|
 A Grimscale Pirates! |QID|8886|M|36.4,66.7|
 A Lost Armaments |QID|8480|M|36.4,66.7|
 C Looting Weapon Container |QID|8480|L|22413 8|N|First stop at the big white gazeebo and run circles around it looting Weapon Containers. |M|31.0,69.0|
 C Grimscale Pirates! |QID|8886|L|21771 6|N|Kill murlocs and collect barrels for Cargo loot. |M|24.9,66.8|
 K Kill Mmmrrrggglll |QID|8885|L|21770|N|He roams the beach. |M|25,69|
-T The Ring of Mmmrrrggglll |QID|8885|
+T The Ring of Mmmrrrggglll |QID|8885|M|30.2,58.5|
 T Grimscale Pirates! |QID|8886|N|Back to Captain Kelisendra at Sunsail Anchorage.|M|36.4,66.7|
 T Lost Armaments |QID|8480|M|36.4,66.7|
 A Wretched Ringleader |QID|9076|M|36.4,66.7|
@@ -200,7 +246,7 @@ A The Spearcrafter's Hammer |QID|8477|M|59.5,62.6|
 A The Magister's Apprentice |QID|8888|N|Up the right ramp.|M|60.3,61.4|
 
 A Fetch!|QID|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
-C Loot Azure Phial|QID|9402|L|23551|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|M|54.87,56.38|
+C Loot Azure Phial|QID|9402|L|23551|N|Dive into the middle of the lake.  The phial is on the bottom.|R|BloodElf|C|Mage|M|54.87,56.38|
 T Fetch!|QID|9402|N|Back to Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
 A The Purest Water|QID|9403|N|Instructor Antheol|R|BloodElf|C|Mage|M|55.7,54.5|
 T The Magister's Apprentice |QID|8888|N|Head out of the city and follow the road east.|M|67.8,56.5|Z|Eversong Woods|
@@ -216,7 +262,7 @@ C Deactivating the Spire |QID|8889|L|21783|N|Click on the Orb. On the second flo
 A Abandoned Investigations |QID|8891|M|69.2,52.1|
 T Deactivating the Spire |QID|8889|M|67.8,56.5|
 A Word from the Spire |QID|8890|M|67.8,56.5|
-N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City. Right-click the box to continue.|
+N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City.  Right-click the box to continue.|
 T Word from the Spire |QID|8890|N|Back at farstrider retreat, up the right ramp. |M|60.3,61.4|
 T Abandoned Investigations |QID|8891|M|60.3,61.4|
 C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
@@ -238,7 +284,7 @@ T Research Notes |QID|9255|M|44.0,70.8|
 T Warning Fairbreeze Village |QID|9363|M|43.3,70.8|
 T Defending Fairbreeze Village |QID|9252|M|46.9,71.8|
 T The Party Never Ends |QID|9067|M|38.1,73.6|
-N The next few quests are optional|QID|9258|N|If you want to skip, go ahead. Honestly I would recommend doing them, as more exp, means possibly another level, which means easier time in Ghostlands. Right-click to continue.|
+N The next few quests are optional|QID|9258|N|If you want to skip, go ahead.  Honestly I would recommend doing them, as more exp, means possibly another level, which means easier time in Ghostlands. Right-click to continue.|
 A The Scorched Grove|QID|9258|N|From Ardeyn Riverwind.|M|43.6,71.2|
 T The Scorched Grove|QID|9258|M|34,80|N|Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
 A A Somber Task|QID|8473|M|34,80|N|From Larianna Riverwind.|

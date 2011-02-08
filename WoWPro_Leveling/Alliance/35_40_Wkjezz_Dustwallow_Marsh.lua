@@ -1,8 +1,51 @@
-WoWPro.Leveling:RegisterGuide('WkjDus3540', 'Dustwallow Marsh', 'WKjezz', '30', '40', 'WkjTho4045', 'Alliance', function()
+-- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2011-01-05 19:17
+-- Who: Fluclo
+-- Log: Added QID numbers to a few steps
+--	Added Hero's Call Optional quest
+
+-- URL: http://wow-pro.com/node/3241/revisions/23931/view
+-- Date: 2011-01-05 00:34
+-- Who: kayeich
+-- Log: Edited the register guide to say 35-40 instead of 30-40
+
+-- URL: http://wow-pro.com/node/3241/revisions/23533/view
+-- Date: 2010-12-04 00:39
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3241/revisions/23532/view
+-- Date: 2010-12-04 00:30
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3241/revisions/23531/view
+-- Date: 2010-12-04 00:28
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3241/revisions/23530/view
+-- Date: 2010-12-04 00:25
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3241/revisions/23529/view
+-- Date: 2010-12-04 00:25
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3241/revisions/23528/view
+-- Date: 2010-12-04 00:22
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3241/revisions/23363/view
+-- Date: 2010-12-03 11:15
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3241/revisions/23362/view
+-- Date: 2010-12-03 11:15
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('WkjDus3540', 'Dustwallow Marsh', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function()
 
 return [[
 
-N This Guide|QID|27251|N|Picks up directly from where Southern Barrens leaves off. If you did not do Southern Barrens, you can take the Hero's Call quest from Darnassus, Exodar or Stormwind instead. Either make your way to Fort Triumph and run to Theramore or sail from Wetlands. (Manually close this step by right clicking the check box)|
+N This Guide|QID|27251|N|Picks up directly from where Southern Barrens leaves off. If you did not do Southern Barrens, you can take the Hero's Call quest from Darnassus, Exodar or Stormwind instead.  Either make your way to Fort Triumph and run to Theramore or sail from Wetlands.  (Manually close this step by right clicking the check box)|
 
 R Theramore Isle |QID|27251|N|Follow the path all the way east to Theramore. It's populated by Alliance vehicles and banners.|
 

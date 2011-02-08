@@ -1,5 +1,19 @@
+-- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_alliance
+-- Date: 2010-12-05 01:31
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3261/revisions/23404/view
+-- Date: 2010-12-03 11:52
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3261/revisions/23403/view
+-- Date: 2010-12-03 11:51
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('WkjUng5055', "Un'Goro Crater", 'Wkjezz', '50', '55', 'WkjSil5560', 'Alliance', function()
-return [[F Darnassus|QID|99999|Z|Darnassus|N|This guide starts in Darnassus. So if you followed my Tanaris Guide, go ahead and venture back now, train, sell junk, repair etc. Either way you don't have to go to Darnassus; but it makes the Zone Achievement a bit easier if you do.|
+return [[
+
+F Darnassus|QID|99999|Z|Darnassus|N|This guide starts in Darnassus. So if you followed my Tanaris Guide, go ahead and venture back now, train, sell junk, repair etc. Either way you don't have to go to Darnassus; but it makes the Zone Achievement a bit easier if you do.|
 A Hero's Call: Un'Goro Crater!|QID|28525|M|45.28,49.90|Z|Darnassus|
 F Gunstan's Dig|QID|99999|Z|Tanaris|N|Fly to Gunstan's Dig in Tanaris. If you do not have this flight path, go as far south as you can in Kalimdor. If you have a nice mage friend, get them to portal you to Theremore and fly from there.|
 R Run here...|QID|99999|CC|M|27.58,58.00|Z|Tanaris|N|This is the path to Un'goro from Tanaris. (click to continue)|

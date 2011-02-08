@@ -1,3 +1,25 @@
+-- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2011-01-05 10:59
+-- Who: Crackerhead22
+-- Log: Added notes, sticky steps. Fixed several waypoint issues, notes and sticky steps.
+
+-- URL: http://wow-pro.com/node/3249/revisions/23924/view
+-- Date: 2011-01-04 07:26
+-- Who: Crackerhead22
+-- Log: Fixed a few errors via gargonfog's suggestions.
+
+-- URL: http://wow-pro.com/node/3249/revisions/23439/view
+-- Date: 2010-12-03 21:10
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3249/revisions/23379/view
+-- Date: 2010-12-03 11:31
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3249/revisions/23378/view
+-- Date: 2010-12-03 11:30
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('CraSwa5254', 'Swamp of Sorrows', 'Crackerhead22', '52', '54', 'CraBla5458', 'Alliance', function()
 return [[
 

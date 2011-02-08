@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2010-12-03 12:10
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3272/revisions/23425/view
+-- Date: 2010-12-03 12:10
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamHel6063", "Hellfire Peninsula", "Jame", "60", "63", "JamZan6365", "Horde", function()
 return [[
 H Undercity|QID|9407|U|6948|
@@ -16,7 +24,6 @@ T Report to Nazgrel (Part 1)|QID|10291|M|55.0,36.0|
 A Eradicate the Burning Legion |QID|10121|M|55.0,36.0|
 A Bonechewer Blood |QID|10450|M|55.1,36.4|
 A I Work... For the Horde! |QID|10086|M|55.2,38.8|
-
 
 N Flying|QID|10809|N|Expert Riding may be purchased for 225g, you will also need 50g for a mount. Wind Rider Jahubo.|M|54.2,41.6|
 T Eradicate the Burning Legion |QID|10121|N|If you take the south exit from Thrallmar, head east and you'll find the quest NPC.|M|58.0,41.5|

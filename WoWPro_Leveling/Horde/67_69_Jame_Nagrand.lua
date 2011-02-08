@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2010-12-03 21:35
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3280/revisions/23448/view
+-- Date: 2010-12-03 21:35
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamNag6769", "Nagrand", "Jame", "67", "69", "JamBla6970", "Horde", function()
 --> Original guides written/designed by [Jame]
 -->
@@ -6,7 +14,7 @@ WoWPro.Leveling:RegisterGuide("JamNag6769", "Nagrand", "Jame", "67", "69", "JamB
 return [[
 
 R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .| |Z|Terokkar Forest|M|20,56|
-N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide| 
+N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide|
 C A Head Full of Ivory |QID|9914| |N|Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|
 N The Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|S|
 

@@ -1,4 +1,12 @@
-WoWPro.Leveling:RegisterGuide('JiyFel4550', 'Felwood', 'Jiyambi', '45', '50', 'JiyWin5055', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2010-12-03 11:46
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3258/revisions/23397/view
+-- Date: 2010-12-03 11:45
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyFel4550', 'Felwood', 'Jiyambi', '45', '50', 'JiyWin5055', 'Horde', function()
 return [[
 
 R Emerald Sanctuary|QID|27997|M|51.1,80.5|N|In Felwood.|

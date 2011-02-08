@@ -1,3 +1,24 @@
+-- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2010-12-19 07:48
+-- Who: lunargecko
+
+-- URL: http://wow-pro.com/node/3267/revisions/23548/view
+-- Date: 2010-12-04 06:19
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3267/revisions/23547/view
+-- Date: 2010-12-04 06:18
+-- Who: Crackerhead22
+-- Log: Added source code.
+
+-- URL: http://wow-pro.com/node/3267/revisions/23416/view
+-- Date: 2010-12-03 12:01
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3267/revisions/23415/view
+-- Date: 2010-12-03 12:01
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('CraBla5458', 'Blasted Lands', 'Crackerhead22', '54', '58', 'JamHel6062', 'Alliance', function()
 return [[
 
@@ -43,12 +64,12 @@ C Attune the Bloodstone|QID|26158|NC|QO|Use external Bloodstone Teleporter: 1/1|
 T Attune the Bloodstone|QID|26158|M|62.32,26.23|N|To Kasim Sharim.|
 A The First Step|QID|26159|M|62.32,26.23|N|From Kasim Sharim.|
 A A Bloodmage's Gotta Eat Too|QID|26172|M|62.32,26.23|N|From Kasim Sharim.|
-C A Bloodmage's Gotta Eat Too|QID|26172|S|M|51.64,25.98|N|Use the Bloodstone Teleporter to get out of the cave. Kill any boar you come across.|
+C A Bloodmage's Gotta Eat Too|QID|26172|S|M|51.64,25.98|N|Use the Bloodstone Teleporter to get out of the cave.  Kill any boar you come across.|
 C The First Step|QID|26159|M|48.47,30.66;52.38,27.17|N|The basilisks are primarily on the east side of the road, while the hyenas are on the west side of the road.|
 C A Bloodmage's Gotta Eat Too|QID|26172|US|M|51.64,25.98|N|Kill any boar you come across.|
-A One Draenei's Junk...|QID|25771|O|U|10593|N|You may or may not get this while killing in the Blasted Lands.. If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
+A One Draenei's Junk...|QID|25771|O|U|10593|N|You may or may not get this while killing in the Blasted Lands..  If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
 T One Draenei's Junk...|QID|25771|O|M|49.01,31.81|N|To Kum'isha the Collector.|
-A Kum'isha's Endeavors|QID|25772|O|U|8244|N|You may or may not get this while killing in the Blasted Lands.. If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
+A Kum'isha's Endeavors|QID|25772|O|U|8244|N|You may or may not get this while killing in the Blasted Lands..  If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
 T Kum'isha's Endeavors|QID|25772|O|N|To Kum'isha the Collector.|
 T The First Step|QID|26159|M|62.64,26.19|N|To Kasim Sharim.|
 A Blood Ritual|QID|26160|M|62.64,26.19|N|From Kasim Sharim.|
@@ -59,7 +80,7 @@ A The Amulet of Allistarj|QID|26167|M|62.65,26.15|N|From Kasim Sharim.|
 A The Amulet of Sevine|QID|26168|M|62.65,26.15|N|From Kasim Sharim.|
 A The Amulet of Grol|QID|26169|M|62.65,26.15|
 C The Amulet of Allistarj|QID|26167|M|61.58,27.00|N|Use the teleporter to go outside, then head back inside the cave.|
-C The Amulet of Grol|QID|26169|M|70.98,35.50|N|The head is inside the ship's hold. When you pick up the amulet you will be attacked.|
+C The Amulet of Grol|QID|26169|M|70.98,35.50|N|The head is inside the ship's hold.  When you pick up the amulet you will be attacked.|
 C The Amulet of Sevine|QID|26168|M|73.04,47.42|N|Talk to the murloc and choose to ask for the amulet.|
 
 A Home... Gone... Naga...|QID|25702|M|73.04,47.42|N|From Salt-Flop.|
@@ -82,7 +103,7 @@ T The Amulet of Allistarj|QID|26167|M|61.37,29.93|N|Click on the Bloodstone Tele
 T The Amulet of Sevine|QID|26168|M|62.39,26.22|N|To Kasim Sharim.|
 T The Amulet of Grol|QID|26169|M|62.39,26.22|N|To Kasim Sharim.|
 
-A Time is Short|QID|26163|M|62.39,26.22|N|From Kasim Sharim. You can also throw away the Broken Amulet that is in your inventory.|
+A Time is Short|QID|26163|M|62.39,26.22|N|From Kasim Sharim.  You can also throw away the Broken Amulet that is in your inventory.|
 T Time is Short|QID|26163|M|54.98,49.62|N|To Watcher Grimeo.|
 A The Charred Granite of the Dark Portal|QID|26164|M|54.98,49.62|N|From Watcher Grimeo.|
 A The Vile Blood of Demons|QID|26165|M|54.98,49.62|N|From Watcher Grimeo.|
@@ -99,7 +120,7 @@ T The Vile Blood of Demons|QID|26165|M|55.00,49.57|N|To Watcher Grimeo.|
 A Enhancing the Stone|QID|26166|M|54.99,49.57|N|From Watcher Grimeo.|
 T Protecting Our Rear|QID|26173|M|54.68,50.29|N|To Watch Commander Relthorn Netherwane.|
 A Watching Our Back|QID|26174|M|54.68,50.29|N|From Watch Commander Relthorn Netherwane.|
-C Watching Our Back|QID|26174|M|53.96,49.93|N|This can be very tricky to do. You have wait untill the patrollers backs are to you.|
+C Watching Our Back|QID|26174|M|53.96,49.93|N|This can be very tricky to do.  You have wait untill the patrollers backs are to you.|
 T Watching Our Back|QID|26174|M|54.70,50.35|N|To Watch Commander Relthorn Netherwane.|
 
 A Surwich|QID|26175|M|54.70,50.35|N|From Watch Commander Relthorn Netherwane.|
@@ -110,13 +131,13 @@ C Not Just Any Body|QID|26161|QO|Loramus' Torso: 1/1|M|41.43,33.27;39.98,37.16|N
 C Not Just Any Body|QID|26161|QO|Loramus' Legs: 1/1|M|46.88,39.39|N|As always go inside the cave, and you see the chest with his legs.|
 T Not Just Any Body|QID|26161|M|61.37,29.93|N|As always click on the Bloodstone Teleporter to find Kasim Sharim.|
 A The Altar of Storms|QID|26162|M|62.91,25.98|N|From Kasim Sharim.|
-C The Altar of Storms|QID|26162|M|40.34,35.72;36.98,28.16|N|Demons will spawn near the small altars with candles. Kill them as quickly as possible.|
+C The Altar of Storms|QID|26162|M|40.34,35.72;36.98,28.16|N|Demons will spawn near the small altars with candles.  Kill them as quickly as possible.|
 T The Altar of Storms|QID|26162|M|61.37,29.93|N|Click the Bloodstone then talk to Loramus Thalipedes.|
 A The Final Ritual|QID|26170|M|62.60,26.06|N|From Kasim Sharim.|
-C The Final Ritual|QID|26170|M|62.46,26.03|N|Talk to Kasim and choose to do the ritual. Wait a moment then talk to Loramus.|
+C The Final Ritual|QID|26170|M|62.46,26.03|N|Talk to Kasim and choose to do the ritual.  Wait a moment then talk to Loramus.|
 T The Final Ritual|QID|26170|M|62.38,26.02|N|To Loramus Thalipedes.|
 A You Are Rakh'likh, Demon|QID|26171|M|62.38,26.02|N|From Loramus Thalipedes.|
-C You Are Rakh'likh, Demon|QID|26171|U|56012|M|46.5,21.67|N|Speak with the Deathly Usher. Kill Razelikh, and then once he enters Loramus, get him down in health then use the Stone Knife when he says too.|
+C You Are Rakh'likh, Demon|QID|26171|U|56012|M|46.5,21.67|N|Speak with the Deathly Usher.  Kill Razelikh, and then once he enters Loramus, get him down in health then use the Stone Knife when he says too.|
 H Nethergarde Keep|QID|26171|U|56012|N|Hearth to Nethergarde Keep, or if you wish, you can jump down the mountain.|
 r Sell junk, repair/restock.|QID|26171|
 R The Dark Portal|QID|26171|M|53.7,42.85|N|Run to The Dark Portal.|
@@ -132,7 +153,7 @@ K Wormthorn's Dream|QID|26184|QO|Felspore Bog Lord slain: 3/3|M|38.77,70|N|Go he
 C Wormthorn's Dream|QID|26184|US|N|Kill any Doomguard Destoryer, Dreadlord Defilier, and Corrupted Darkwood Treant you need left.|
 T Wormthorn's Dream|QID|26184|M|46.45,87.02|N|To Mayor Charlton Connisport.|
 A Advice from the Cenarion Circle|QID|26185|M|46.45,87.02|N|From Mayor Charlton Connisport.|
-T Advice from the Cenarion Circle|QID|26185|M|47.24,88.67|N|To Cenarion Observer Shayana. She tends to wander around the village.|
+T Advice from the Cenarion Circle|QID|26185|M|47.24,88.67|N|To Cenarion Observer Shayana.  She tends to wander around the village.|
 A Demoniac Vessel|QID|26186|M|47.24,88.67|N|From Cenarion Observer Shayana.|
 C Nightstalker Legs|QID|26186|U|57178|L|57181 20|M|38.33,58.23|N|Kill spiders to get legs, then turn them into a powder. You need 20.|
 C Tainted Hides|QID|26186|U|57177|L|57180 |M|38.33,58.23|N|Kill bears to get hides. You need 4. Once you have 4, use them to create the Tainted Hide Pouch.|
@@ -144,7 +165,7 @@ A The Downfall of Marl Wormthorn|QID|26187|M|46.36,87.01|N|From Mayor Charlton C
 C The Downfall of Marl Wormthorn|QID|26187|U|57185|M|34.84,68.11|N|Kill the demons around him then use the vessel to snap him out of his trance, then defeat him.|
 T The Downfall of Marl Wormthorn|QID|26187|M|46.34,87.06|N|To Mayor Charlton Connisport.|
 F Stormwind City|QID|28708|M|47.11,89.29|N|Fly to Stormwind to visit trainers, AH, sell junk and repair/restock.|
-L You should by now...|QID|28708|N|Between level 58-60 by now. If you are not level 60, I would suggest doing another zone or two to hit 60. That way you can fly in the Outlands. If you don't wish to do that, just close this step and the next guide will load.|
+L You should by now...|QID|28708|N|Between level 58-60 by now.  If you are not level 60, I would suggest doing another zone or two to hit 60.  That way you can fly in the Outlands.  If you don't wish to do that, just close this step and the next guide will load.|
 ]]
 
 end)

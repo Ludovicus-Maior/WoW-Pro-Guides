@@ -1,3 +1,16 @@
+-- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2010-12-07 20:46
+-- Who: Crackerhead22
+-- Log: Added waypoints, moved a couple steps around, removed redundant steps.
+
+-- URL: http://wow-pro.com/node/3271/revisions/23424/view
+-- Date: 2010-12-03 12:09
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3271/revisions/23423/view
+-- Date: 2010-12-03 12:09
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamHel6062", "Hellfire Peninsula", "Jame", "60", "62", "JamZan6264", "Alliance", function()
 return [[
 R Portal to the Blasted Lands|QID|10119|N|By the Portal Trainer |Z|Stormwind City|M|50.3,86|
@@ -57,7 +70,7 @@ A In Case of Emergency... |QID|10161|M|49.2,74.8|N|From "Screaming" Screed Luckh
 l Ravager Egg Roundup|N|Get 12 Ravager eggs from the ground and the Ravagers.|QID|9349|M|42.00,83.00|L|23217 12|
 T Ravager Egg Roundup|QID|9349|M|49.2,74.8|N|To Legassi.|
 A Helboar, the Other White Meat |QID|9361|M|49.2,74.8|N|From Legassi.|
-C Helboar, the Other White Meat|QID|9361|N|Kill Helboars around the quest giver and loot them. Use Purification Mixture on the Tainted Helboar Meat.|U|23268|
+C Helboar, the Other White Meat|QID|9361|N|Kill Helboars around the quest giver and loot them.  Use Purification Mixture on the Tainted Helboar Meat.|U|23268|
 T Helboar, the Other White Meat |QID|9361|M|49.2,74.8|N|To Legassi.|
 A Smooth as Butter|QID|9356|M|49.2,74.8|N|From Legassi.|
 
@@ -103,7 +116,7 @@ A Wing Commander Gryphongar |QID|10344|M|78.4,34.9|N|From Runetog Wildhammer.|
 T Wing Commander Gryphongar |QID|10344|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Mission: The Abyssal Shelf |QID|10163|M|79.3,33.9|N|From Wing Commander Gryphongar.|
 N Area 52 Special |QID|10163|N|Hotkey this item, then right-click the box to continue.|M|79.3,33.9|
-C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow and begin flying, then bomb the mobs needed for this quest. | |QID|10163|M|78.35,34.36|
+C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow and begin flying, then bomb the mobs needed for this quest.  | |QID|10163|M|78.35,34.36|
 T Mission: The Abyssal Shelf |QID|10163|M|79.3,33.9|To Wing Commander Gryphongar.|
 A Go to the Front |QID|10382|M|79.3,33.9|N|From Wing Commander Gryphongar.|
 
@@ -126,23 +139,23 @@ A The Longbeards |QID|9558|M|54.3,63.4|N|From Sid Limbardi.|
 T Return to Honor Hold |QID|10903|M|54.3,63.6|N|Upstairs to Assistant Klatu.|
 A Fel Spirits |QID|10909|M|54.3,63.6|N|From Assistant Klatu.|
 A Digging for Prayer Beads |QID|10916|M|54.3,63.6|N|From Assistant Klatu.|
-l Draenei Prayer Beads|QID|10916|M|64.16,63.32|N|Head outside the inn and turn left, follow the wall, to the waypoint. Loot Fei Fei's Cache (glittering dirt pile).|
-r Sell junk, repair, restock |N|Sell junk, repair, restock |M|54.65,63.53|QID|10916|
-A Hellfire Fortifications |QID|10106|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|
+l Draenei Prayer Beads|QID|10916|M|64.16,63.32|N|Head outside the inn and turn left, follow the wall, to the waypoint.  Loot Fei Fei's Cache (glittering dirt pile).|
+r Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|QID|10916|
+A Hellfire Fortifications |QID|10106|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell.  This is optional as it is a PvP quest, so skip if you don't wish to do it.|
 T The Dark Missive |QID|10395|N|Head to Warp-Scryer Kryv.|M|56.69,66.52|
 A The Heart of Darkness |QID|10399|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A The Path of Glory |QID|10047|M|56.7,66.5|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A Overlord |QID|10400|N|From Force Commander Danath Trollbane.|M|56.64,66.69|
-A Weaken the Ramparts |QID|9575|M|56.72,66.34|N|From Lieutenant Chadwick. This is an instance quest, so this is optional, skip if you don't want to do it.|
+A Weaken the Ramparts |QID|9575|M|56.72,66.34|N|From Lieutenant Chadwick.  This is an instance quest, so this is optional, skip if you don't want to do it.|
 
-N Hellfire Ramparts (note)|QID|9575|M|56.72,66.34|N|You may do the Hellfire Ramparts instance if you wish, for extra experience. Head into the Dungeon Finder and queue for the Ramparts as you are questing from now on. |
+N Hellfire Ramparts (note)|QID|9575|M|56.72,66.34|N|You may do the Hellfire Ramparts instance if you wish, for extra experience.  Head into the Dungeon Finder and queue for the Ramparts as you are questing from now on. |
 A Unyielding Souls |QID|10050|M|50.9,60.2|N|From Honor Guard Wesilow.|
 A A Job for an Intelligent Man |QID|9355|M|52.0,62.6|N|From Foreman Biggums.|
 A When This Mine's a-Rockin' |QID|10079|M|52.0,62.6|N|From Foreman Biggums.|
 C A Job for an Intelligent Man |N|Kill the sandworms needed for this quest. | |QID|9355|M|46.00,64.00|
 N Eroded Leather Case |QID|9373| |N|Kill worms until you get an Eroded Leather Case. | |L|23338 1|M|46.00,64.00|
 A Missing Missive |N|Right-click the case to accept the quest. | |QID|9373| |U|23338|M|47.8,65.8|
-C Fel Spirits |N|Use the Anchorite Relic in your inventory when you are near some orcs. Kill the orcs while near the relic, then kill the Fel Spirits that spawn until you finish this quest. | |QID|10909|M|46.00,74.00|
+C Fel Spirits |N|Use the Anchorite Relic in your inventory when you are near some orcs.  Kill the orcs while near the relic, then kill the Fel Spirits that spawn until you finish this quest. | |QID|10909|M|46.00,74.00|
 T In Case of Emergency... |QID|10161|M|49.2,74.8|N|To "Screaming" Screed Luckheed.|
 A Voidwalkers Gone Wild |QID|9351|M|49.2,74.8|N|From "Screaming" Screed Luckheed.|
 T Smooth as Butter |QID|9356|M|49.2,74.8|N|To Legassi.|
@@ -154,7 +167,7 @@ H Honor Hold |QID|10916| |N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
 T Fel Spirits |QID|10909|M|54.3,63.6|N|To Assistant Klatu.|
 T Digging for Prayer Beads|QID|10916|M|54.3,63.6|N|To Assistant Klatu.|
 A The Exorcism of Colonel Jules|QID|10935|M|54.3,63.6|N|From Assistant Klatu.|
-C The Exorcism of Colonel Jules|N|Talk to Anchorite Barada and start the ritual. Kill the mobs that spawn. When there are too many mobs in the room, use the Prayer Beads to kill them. Talk to Colonel Jules afterward to finish it. | |QID|10935|M|53.90,63.55|
+C The Exorcism of Colonel Jules|N|Talk to Anchorite Barada and start the ritual.  Kill the mobs that spawn.  When there are too many mobs in the room, use the Prayer Beads to kill them.  Talk to Colonel Jules afterward to finish it. | |QID|10935|M|53.90,63.55|
 T The Exorcism of Colonel Jules|QID|10935|M|54.3,63.6|N|To Assistant Klatu.|
 A Trollbane is Looking for You|QID|10936|M|54.3,63.6|N|From Assistant Klatu.|
 T Trollbane is Looking for You|QID|10936|M|56.6,66.7|N|To Force Commander Danath Trollbane.|
@@ -193,7 +206,7 @@ C The Arakkoa Threat |N|Kill birds until you finish this quest.|QID|9417|S|M|25.
 C The Finest Down |N|Kill birds until you finish this quest.|QID|9420|M|25.6,70.3|S|
 N Avruu's Orb |QID|9418| |N|Kill and loot every bird mob you see, then kill Avruu and take his Orb. | |L|23580 1|M|26.00,71.00|
 A Avruu's Orb |N|Right-click the Orb to accept this quest.|QID|9418||U|23580|M|25.7,75.1|
-T Avruu's Orb |QID|9418|M|29.0,81.5|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get him down to about 50%, then turn the quest in to it.|
+T Avruu's Orb |QID|9418|M|29.0,81.5|N|Click on the Haal'eshi Altar, Aeranas will spawn.  Get him down to about 50%, then turn the quest in to it.|
 C The Arakkoa Threat |N|Kill birds until you finish this quest.|QID|9417|US|M|25.6,70.3|
 C The Finest Down |N|Kill birds until you finish this quest.|QID|9420|M|25.6,70.3|US|
 T The Finest Down |QID|9420|M|24.0,72.1|N|To Mirren Longbeard.|
@@ -203,10 +216,10 @@ T Rampaging Ravagers |QID|9385|M|24.0,72.1|N|To Gremni Longbeard.|
 C Deadly Predators |N|Kill the mobs needed for this quest.|QID|9398|M|32.00,61.00|
 C Hellfire Fortifications |N|Do this quest (optional) by taking over the towers.|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|
 
-N Start looking for a group... |QID|10937|N|Start looking for a group for The Rock Flayer Matriarch and Drill the Drillmaster. Kill mobs in this area while you do so. |M|34.00,63.00|
+N Start looking for a group... |QID|10937|N|Start looking for a group for The Rock Flayer Matriarch and Drill the Drillmaster.  Kill mobs in this area while you do so. |M|34.00,63.00|
 C The Rock Flayer Matriarch|N|Kill the elite in this cave.|QID|9490|M|34.00,64.00|
 C Drill the Drillmaster |N|Kill Drillmaster Zurok.|QID|10937|M|49.00,55.00|
-C An Ambitious Plan |N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal. Click on the red Crystal that appears.|QID|9383|M|46.00,82.00|
+C An Ambitious Plan |N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal.  Click on the red Crystal that appears.|QID|9383|M|46.00,82.00|
 C Voidwalkers Gone Wild |N|Kill voidwalkers until you finish this quest.|QID|9351|M|46.00,82.00|
 K Arch Mage Xintor|N|Kill Arch Mage Xintor.|QID|10057|M|53.60,81.00|QO|Arch Mage Xintor slain: 1/1|
 C Looking to the Leadership|QID|10057|M|54.7,83.6|N|Kill Lieutenant Commander Thalvos.|
@@ -246,7 +259,7 @@ N Moh's Cage |N|Free Moh from his cage.|QID|10238|QO|Moh Saved: 1/1|M|46.41,45.0
 C How to Serve Goblins |N|Free Jakk from his cage.|QID|10238|M|47.50,46.70|
 T How to Serve Goblins |QID|10238|N|To Foreman Razelcraz.|M|51.31,30.5|
 A Shizz Work |QID|10629|N|From Foreman Razelcraz.|M|51.31,30.5|
-C Shizz Work |N|Use the Felhound Whistle to summon the Fel Guard Hound. Kill boars to the west and then right-click on the Felhound Poo as it appears. Do this until you get the key.|QID|10629|M|50.31,28.08|
+C Shizz Work |N|Use the Felhound Whistle to summon the Fel Guard Hound.  Kill boars to the west and then right-click on the Felhound Poo as it appears.  Do this until you get the key.|QID|10629|M|50.31,28.08|
 T Shizz Work |QID|10629|N|To Foreman Razelcraz.|M|51.31,30.5|
 A Beneath Thrallmar|QID|10630|N|From Foreman Razelcraz.|M|51.31,30.5|
 C Beneath Thrallmar|N|Go in the cave and kill Urga'zz.|QID|10630|M|53.90,31.70|
@@ -290,7 +303,7 @@ A The Earthbinder |QID|10349|N|From Tola'thion.|M|15.62,52.12|
 T Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|To Mahuram Stouthoof.|
 T The Earthbinder |QID|10349|N|To Earthbinder Galandria Nightbreeze.|M|15.89,51.59|
 A Natural Remedies |QID|10351|N|From Earthbinder Galandria Nightbreeze.|M|15.89,51.59|
-C Natural Remedies |N|Make sure you have a group for this. Go here and use the seed, then kill the elite.|QID|10351|M|13.00,39.00|
+C Natural Remedies |N|Make sure you have a group for this.  Go here and use the seed, then kill the elite.|QID|10351|M|13.00,39.00|
 T Natural Remedies |QID|10351|N|To Earthbind Galandria Nightbreeze.|M|15.89,51.59|
 T Cruel Taskmasters |QID|9399|M|23.1,40.3|N|To Ikan.|
 T Sha'naar Relics |QID|9430|M|23.4,36.5|N|To Amaan the Wise.|

@@ -1,8 +1,36 @@
+-- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2011-01-29 17:01
+-- Who: Ludovicus Maior
+-- Log: Added QIDs to LVL 18,20 steps.
+
+-- URL: http://wow-pro.com/node/3217/revisions/24020/view
+-- Date: 2011-01-20 12:49
+-- Who: Ludovicus Maior
+-- Log: Optimize quest acceptance for [Military Breakthrough].  Optimize quest ordering for [First Degree Mortar], [Hand-me-downs], and [Military Breakthrough] to minimize time in the minefield.
+
+-- URL: http://wow-pro.com/node/3217/revisions/24011/view
+-- Date: 2011-01-18 12:03
+-- Who: Ludovicus Maior
+-- Log: Added two leadin quests to Azshara.  One in the goblin line and another you can get from the quest boards.
+
+-- URL: http://wow-pro.com/node/3217/revisions/23324/view
+-- Date: 2010-12-03 09:00
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3217/revisions/23304/view
+-- Date: 2010-12-03 07:31
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3217/revisions/23303/view
+-- Date: 2010-12-03 07:30
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('BitAzs1220', 'Azshara', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
 
 return [[
 
 T Beyond Durotar|O|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|
+T Warchief's Command: Azshara!|O|QID|28496|M|26.84,77.00|N|To Ag'tor Bloodfist.|
 
 A Venison for the Troops|QID|14118|M|26.88,76.98|N|From Ag'tor Bloodfist.|
 
@@ -12,6 +40,7 @@ C The Eyes of Ashenvale|QID|14117|S|M|29.80,74.71|N|Kill 8 Talrendis Scouts. If 
 
 C Venison for the Troops|QID|14118|S|M|27.98,68.76|N|Kill Weakened Mosshoof Stags and Talrendis Scouts while you are doing the next few quests.|
 
+T Report to the Labor Captain|O|QID|25275|M|26.93,77.04|N|To Labor Captain Grabbit|
 A Runaway Shredder!|QID|14129|M|26.93,77.04|N|From Labor Captain Grabbit.|
 
 C Runaway Shredder!|QID|14129|M|27.00,72.83|n|Attack one of the runaway shredders and hop inside when it's damaged enough.|
@@ -106,19 +135,19 @@ A Another Warm Body|QID|14468|M|29.44,66.76|RANK|2|N|From Private Worcester.|
 
 T Another Warm Body|QID|14468|M|29.43,57.68|N|To Commander Molotov.|
 
-A Military Breakthrough|QID|14470|RANK|2|M|29.43,57.68|N|From Glix Grindlock.|
-
 A Hand-me-downs|QID|14469|RANK|2|M|29.43,57.68|N|From Commander Molotov.|
 
+A Military Breakthrough|QID|14470|RANK|2|M|29.43,57.68|N|From Glix Grindlock.|
+
 A First Degree Mortar|QID|14471|RANK|2|M|29.13,57.90|N|From Xiz "The Eye" Salvoblast.|
+
+C Military Breakthrough|QID|14470|M|27.63,51.91|N|Kill Warlord Krellen and recover the SFG.|
 
 C Hand-me-downs|QID|14469|S|M|27.75,54.06|N|Retrieve 12 Military Supply Packs from the central minefield.|
 
 C First Degree Mortar|QID|14471|M|31.10,57.63|N|Use a Goblin Mortar to slaughter 60 Spitelash Attackers.|
 
 T First Degree Mortar|QID|14471|M|29.20,57.91|N|To Xiz "The Eye" Salvoblast.|
-
-C Military Breakthrough|QID|14470|M|27.63,51.91|N|Kill Warlord Krellen and recover the SFG.|
 
 C Hand-me-downs|QID|14469|US|M|27.75,54.06|N|Retrieve 12 Military Supply Packs from the central minefield.|
 
@@ -276,7 +305,7 @@ A Azsharite Experiment Number One|QID|14385|PRE|14377|M|50.39,74.30|N|From Assis
 
 A The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.50,74.75|N|From Hobart Grapplehammer.|
 
-L Level 18|LVL|18|N|You should be around level 18 by this point.|
+L Level 18|QID|14383|LVL|18|N|You should be around level 18 by this point.|
 
 C The Terrible Tinkers of the Ruined Reaches|QID|14383|S|M|43.49,83.00;40.07,84.43|N|Follow the lit path West, kill gnomes on your way to Bingham Gadgetspring inside the house. Kill him.|
 
@@ -380,7 +409,7 @@ A Shore Leave|QID|24449|PRE|14485|M|34.33,44.88;34.48,44.59|N|From Captain Tork.
 
 T Shore Leave|QID|24449|M|60.59,50.57|N|To Uncle Bedlam. Hop on Copter when ready to leave.|
 
-L Level 20|LVL|20|N|You should be around level 20 by this point.|
+L Level 20|QID|14407|LVL|20|N|You should be around level 20 by this point.|
 
 T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec.|
 

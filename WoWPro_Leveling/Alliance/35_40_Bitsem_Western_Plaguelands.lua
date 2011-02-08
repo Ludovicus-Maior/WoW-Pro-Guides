@@ -1,3 +1,48 @@
+-- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2010-12-21 01:29
+-- Who: Bitsem
+
+-- URL: http://wow-pro.com/node/3244/revisions/23807/view
+-- Date: 2010-12-21 01:27
+-- Who: Bitsem
+
+-- URL: http://wow-pro.com/node/3244/revisions/23806/view
+-- Date: 2010-12-21 00:14
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3244/revisions/23805/view
+-- Date: 2010-12-20 23:16
+-- Who: Crackerhead22
+-- Log: Added in QO steps for "The Good People of Hearthglen" to make it easier to find the NPCS.
+
+-- URL: http://wow-pro.com/node/3244/revisions/23804/view
+-- Date: 2010-12-20 22:56
+-- Who: Crackerhead22
+-- Log: Fixed |QO| error with "Drudges... ", it was 0/1 and not 1/1.
+
+-- URL: http://wow-pro.com/node/3244/revisions/23803/view
+-- Date: 2010-12-20 22:27
+-- Who: Crackerhead22
+-- Log: Removed "Threat to the Kingdom" quest.
+
+-- URL: http://wow-pro.com/node/3244/revisions/23802/view
+-- Date: 2010-12-20 22:23
+-- Who: Crackerhead22
+-- Log: Removed a |Z| tag that was causing "Zone not found" error.
+
+-- URL: http://wow-pro.com/node/3244/revisions/23599/view
+-- Date: 2010-12-05 07:50
+-- Who: Bitsem
+-- Log: Added Source Code. Untested.
+
+-- URL: http://wow-pro.com/node/3244/revisions/23369/view
+-- Date: 2010-12-03 11:23
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3244/revisions/23368/view
+-- Date: 2010-12-03 11:22
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('BitWes3540', 'Western Plaguelands', 'Bitsem', '35', '40', 'CraEas4045', 'Alliance', function()
 return [[
 
@@ -137,9 +182,12 @@ A Taelan Fordring's Legacy|QID|27151|M|42.19,14.98|N|From Daria L'Rayne.|
 C It's About Time!|QID|27156|M|43.09,16.33|N|Talk to Trainees. Challenge and beat them.|
 T It's About Time!|QID|27156|M|43.28,15.96|N|To Lieutenant Myner.|
 
-A Drudges... |QID|27157|PRE|27157|M|43.28,15.96|N|From Lieutenant Myner.|
-C Drudges... |QID|27157|QO|Shadril slain: 1/1|M|45.86,12.31;45.37,9.73|N|Enter the mine. Kill the *ew* huge spider.|
-T Drudges... |QID|27157|M|43.27,15.91|N|To Lieutenant Myner.|
+A Drudges...
+|QID|27157|PRE|27157|M|43.28,15.96|N|From Lieutenant Myner.|
+C Drudges...
+|QID|27157|QO|Shadril slain: 1/1|M|45.86,12.31;45.37,9.73|N|Enter the mine. Kill the *ew* huge spider.|
+T Drudges...
+|QID|27157|M|43.27,15.91|N|To Lieutenant Myner.|
 
 C Taelan Fordring's Legacy|QID|27151|M|54.78,24.69|N|Kill Gnoll looters.|
 T Taelan Fordring's Legacy|QID|27151|M|54.99,24.73|

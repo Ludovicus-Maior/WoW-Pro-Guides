@@ -1,3 +1,48 @@
+-- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2011-02-08 01:08
+-- Who: Ludovicus Maior
+-- Log: Submitted by andyarnolduk on Mon, 2011-02-07 15:20.
+--	
+--	The waypoint for step 10 is a little off... it should be:
+--	A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.10|N|From Ysiel Windsinger.|
+--	Cheers
+--	Andy
+--	
+--	[And lo, WowHead agrees.  Looks like a typo]
+
+-- URL: http://wow-pro.com/node/3273/revisions/23945/view
+-- Date: 2011-01-07 19:15
+-- Who: Crackerhead22
+-- Log: Fixed step sequence errors, fixed note errors, fixed missing cords, fixed missing |N| tags.
+
+-- URL: http://wow-pro.com/node/3273/revisions/23941/view
+-- Date: 2011-01-07 16:04
+-- Who: Crackerhead22
+-- Log: Added more missing |N| tags.
+
+-- URL: http://wow-pro.com/node/3273/revisions/23940/view
+-- Date: 2011-01-07 15:48
+-- Who: Crackerhead22
+-- Log: Added missing |N| tags, added sticky step.
+
+-- URL: http://wow-pro.com/node/3273/revisions/23708/view
+-- Date: 2010-12-09 00:11
+-- Who: Crackerhead22
+-- Log: Updated source with NPC notes, waypoints.
+
+-- URL: http://wow-pro.com/node/3273/revisions/23686/view
+-- Date: 2010-12-07 20:48
+-- Who: Crackerhead22
+-- Log: Corrected first line so it would auto-load.
+
+-- URL: http://wow-pro.com/node/3273/revisions/23428/view
+-- Date: 2010-12-03 12:12
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3273/revisions/23427/view
+-- Date: 2010-12-03 12:11
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamZan6264", "Zangarmarsh", "Jame", "62","64", "JamTerA6466", "Alliance", function()
 return [[
 N Suggestion to buy:|N|I would suggest buying 5 Sanguine Hibiscus from the AH if they are not too expensive, for a quest later in the guide.|
@@ -9,7 +54,7 @@ A Leader of the Bloodscale|M|79.10,64.80|QID|9817|N|From the Wanted Poster.|
 A The Dying Balance|QID|9895|M|78.60,63.10|N|From Lethyn Moonfire.|
 h Cenarion Refuge|QID|9912|N|Set your hearthstone to Cenarion Refuge.|M|78.50,63.00|
 T The Cenarion Expedition|QID|9912|M|78.40,62.10|N|To Ysiel Windsinger.|
-A Disturbance at Umbrafen Lake|QID|9716|M|78.40,72.10|N|From Ysiel Windsinger.|
+A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.10|N|From Ysiel Windsinger.|
 A Warden Hamoot|QID|9778|M|78.40,62.10|N|From Ysiel Windsinger.|
 T Warden Hamoot|QID|9778|M|79.10,65.20|N|To Warden Hamoot.|
 A A Warm Welcome|QID|9728|M|79.10,65.20|N|From Warden Hamoot.|

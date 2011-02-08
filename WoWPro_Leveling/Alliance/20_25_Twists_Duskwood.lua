@@ -1,9 +1,40 @@
-WoWPro.Leveling:RegisterGuide("TwiDus2025", "Duskwood", "Twists", "20", "25", nil, "Alliance", function()
+-- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2010-12-23 05:48
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3222/revisions/23817/view
+-- Date: 2010-12-23 05:48
+-- Who: Crackerhead22
+-- Log: Added in 'SavNorStr2530' for the next GID.
+
+-- URL: http://wow-pro.com/node/3222/revisions/23816/view
+-- Date: 2010-12-23 05:45
+-- Who: Crackerhead22
+-- Log: Added back in "A Rebels Without a Clue|QID|26838|M|19.92,57.88|N|Sister Eisington at Raven Hill.|", but added in the note about it not showing with having the quest "Hero's Call: Northern Stranglethorn Vale!".
+
+-- URL: http://wow-pro.com/node/3222/revisions/23813/view
+-- Date: 2010-12-22 19:19
+-- Who: Crackerhead22
+-- Log: Changed "R Darkshire|QID|26777|M|67.08,62.91|N|Run to Darkshire.|Z|Westfall|CC|" to "R Duskwood|QID|26777|M|67.08,62.91|N|Run back into Duskwood zone.|Z|Westfall|" via the user, tepes, suggestion.
+
+-- URL: http://wow-pro.com/node/3222/revisions/23759/view
+-- Date: 2010-12-16 11:28
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3222/revisions/23314/view
+-- Date: 2010-12-03 07:38
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3222/revisions/23313/view
+-- Date: 2010-12-03 07:38
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("TwiDus2025", "Duskwood", "Twists", "20", "25", "SavNorStr2530", "Alliance", function()
 return
 [[
 
 A Hero's Call: Duskwood!|QID|26728|M|28.59,41.02|Z|Redridge Mountains|N|From Bailiff Conacher in Lakeshire.|
-R Darkshire|QID|26728|M|74.54,41.59|N|Run to Darkshire in Duskwood. Take the left fork at Three Corners.|CC|
+R Darkshire|QID|26728|M|74.54,41.59|N|Run to Darkshire in Duskwood.  Take the left fork at Three Corners.|CC|
 
 T Hero's Call: Duskwood!|QID|26728|M|73.57,46.90|Z|Duskwood|N|Commander Althea Ebonlocke in front of the town hall.|
 
@@ -119,7 +150,7 @@ A Note to the Mayor|QID|26681|M|87.45,35.38|N|Abercrombie outside of town at Beg
 T Note to the Mayor|QID|26681|M|71.85,46.45|N|Lord Ello Ebonlocke in Darkshire Town Hall.|
 A The Embalmer's Revenge|QID|26727|M|71.85,46.45|N|Lord Ello Ebonlocke in Darkshire Town Hall.|
 
-C The Embalmer's Revenge|QID|26727|M|73.84,46.62|N|He spawns in the middle of town. If you die, come back quickly as you can still finish him.|
+C The Embalmer's Revenge|QID|26727|M|73.84,46.62|N|He spawns in the middle of town.  If you die, come back quickly as you can still finish him.|
 
 T The Embalmer's Revenge|QID|26727|M|71.85,46.45|N|Lord Ello Ebonlocke in Darkshire Town Hall.|
 
@@ -186,7 +217,7 @@ A The Halls of the Dead|QID|26753|M|23.44,35.54|N|The dirt Mound.|
 T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs.|
 A Buried Below|QID|26722|M|20.36,27.44|N|In the Dawning Wood Catacombs.|
 
-T Buried Below|QID|26722|M|18.08,25.33|N|There is an exit in the location where you got the quest. Skip the follow-up. You may attempt it if you wish. But be warned. The mobs are level 24 and its hard to just pull them one at a time.|
+T Buried Below|QID|26722|M|18.08,25.33|N|There is an exit in the location where you got the quest. Skip the follow-up. You may attempt it if you wish.  But be warned. The mobs are level 24 and its hard to just pull them one at a time.|
 A Morbent's Bane|QID|26754|M|18.08,25.33|N|In the tunnel.|O|
 
 C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morben Fel before taking him down.|U|60212|O|

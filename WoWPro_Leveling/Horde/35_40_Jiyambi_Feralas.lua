@@ -1,4 +1,22 @@
-WoWPro.Leveling:RegisterGuide('JiyFer3540', 'Feralas', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2010-12-04 03:01
+-- Who: Liavan
+-- Log: deleted A step as the quest giver has moved to be inside Dire Maul.
+
+-- URL: http://wow-pro.com/node/3245/revisions/23545/view
+-- Date: 2010-12-04 02:54
+-- Who: Liavan
+-- Log: Updated a few U and L tags and some cords that where having zoning issues.
+
+-- URL: http://wow-pro.com/node/3245/revisions/23371/view
+-- Date: 2010-12-03 11:24
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3245/revisions/23370/view
+-- Date: 2010-12-03 11:23
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyFer3540', 'Feralas', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function()
 return [[
 
 R Camp Ataya|QID|25339|M|41.60,15.14|N|In Feralas.|
@@ -8,8 +26,8 @@ A Dark Heart|QID|25340|RANK|2|M|41.61,15.21|N|From Talo Thornhoof.|
 A Signs of Change|QID|25210|M|41.39,15.40|N|From Konu Runetotem.|
 h Camp Ataya|QID|14411|US|M|41.40,15.73|N|At Adene Treetotem.|
 C Vengeance on the Northspring|QID|25339|S|RANK|2|M|39.46,12.70|N|Kill harpies in the area.|
-K Harpies|QID|25340|RANK|2|M|40.59,8.52|N|Kill harpies until you find the Horn of the Hatetalon.|
-C Dark Heart|QID|25340|RANK|2|M|40.59,8.52|N|Use the Horn of the Hatetalon near the Hatetalon Stones. Kill and loot the summoned harpy.|
+K Harpies|QID|25340|RANK|2|M|40.59,8.52|L|9530|N|Kill harpies until you find the Horn of the Hatetalon.|
+C Dark Heart|QID|25340|RANK|2|M|40.59,8.52|U|9530|N|Use the Horn of the Hatetalon near the Hatetalon Stones. Kill and loot the summoned harpy.|
 C Vengeance on the Northspring|QID|25339|US|RANK|2|M|39.46,12.70|N|Kill harpies in the area.|
 T Vengeance on the Northspring|QID|25339|RANK|2|M|41.59,15.25|N|To Talo Thornhoof, back at Camp Ataya|
 T Dark Heart|QID|25340|RANK|2|M|41.62,15.20|N|To Talo Thornhoof.|
@@ -35,7 +53,6 @@ R Stonemaul Hold|QID|25386|M|51.92,48.07|N|Folow the road.|
 T To Stonemaul Hold|QID|25386|M|51.92,48.07|N|To Orhan Ogreblade.|
 A The Gordunni Threat|QID|25209|M|51.92,48.02|N|From Orhan Ogreblade.|
 A The Gordunni Orb|QID|25341|M|51.92,48.02|N|From Orhan Ogreblade.|
-A Ogre in the Field|QID|27134|M|51.92,48.02|N|From Orhan Ogreblade.|
 f Stonemaul Hold|QID|27134|M|51.00,48.38|N|At Mergek.|
 A Testing the Vessel|QID|25336|M|52.26,48.06|N|From Gombana.|
 A The Mark of Quality|QID|25452|RANK|2|M|52.83,47.12|N|From Jangdor Swiftstrider.|
@@ -56,7 +73,7 @@ C Improved Quality|QID|25453|US|RANK|2|M|52.29,58.39|N|Kill ogres around the Rui
 T Find OOX-22/FE!|QID|25475|RANK|2|M|53.37,55.71|N|To Homing Robot OOX-22/FE.|
 A Rescue OOX-22/FE!|QID|25476|RANK|2|M|53.37,55.71|N|From Homing Robot OOX-22/FE.|
 C Rescue OOX-22/FE!|QID|25476|RANK|2|M|55.62,51.34|N|Follow the chicken. There will be one ambush of yetis when you get close to the road, so be ready.|
-A Perfect Yeti Hide|QID|25454|O|RANK|2|U|18972|M|55.11,51.31|N|If you received a perfect yeti hide, use it to start a quest.|
+A Perfect Yeti Hide|QID|25454|O|RANK|2|U|55167|M|55.11,51.31|N|If you received a perfect yeti hide, use it to start a quest.|
 C Even More Fuel for the Zapping|QID|25466|RANK|3|M|45.39,65.85|N|Kill and loot water elementals on the coast|
 C Still With The Zapped Giants|QID|25465|RANK|3|U|18904|M|53.69,51.96;50.27,51.41;45.39,65.85|N|Use the zapper on the elite giants along the coastline  - they will shrink. Kill and loot them.|
 C Even More Fuel for the Zapping|QID|25466|RANK|3|M|45.39,65.85|N|Kill and loot water elementals on the coast|
@@ -78,7 +95,7 @@ C Ogre Abduction|QID|25344|U|52833|M|59.85,46.59|N|Use the orb on an Ogre Mage a
 T Rulers of Dire Maul|QID|25252|M|51.91,48.03|N|To Orhan Ogreblade.|
 T Ogre Abduction|QID|25344|M|51.91,46.62|N|To Swar'jan.|
 A Might of the Stonemaul|QID|25329|PRE|25344|M|51.91,48.04|N|From Orhan Ogreblade.|
-C Might of the Stonemaul|QID|25329|M|42.76,69.26;43.25,69.23;43.32,68.56;43.12,68.49;43.41,67.32|Z|Dire Maul|N|Head inside Dire Maul. Leap down into the arena. Watch the event as it progresses, don't worry, you'll get help from some NPCs.|
+C Might of the Stonemaul|QID|25329|M|59.32,39.37;61.02,34.99;62.51,30.94|N|Head inside Dire Maul. Leap down into the arena. Watch the event as it progresses, don't worry, you'll get help from some NPCs.|
 H Stonemaul Hold|QID|25329|M|51.90,48.02|N|If your hearth is up and set there, hearth back. Otherwise, ride back.|
 T Might of the Stonemaul|QID|25329|M|51.90,48.02|N|To Orhan Ogreblade.|
 A To Camp Mojache|QID|25387|PRE|25329|M|51.90,48.02|N|From Orhan Ogreblade.|
@@ -89,7 +106,6 @@ T To Camp Mojache|QID|25387|M|74.61,42.91|N|To Chief Spirithorn.|
 A The Hilltop Threat|QID|25373|M|74.60,42.89|N|From Chief Spirithorn.|
 A Twisted Sisters|QID|25349|M|74.60,42.89|N|From Chief Spirithorn.|
 A War on the Woodpaw|QID|25363|M|74.92,42.52|N|From Hadoken Swiftstrider.|
-A Saving Warpwood|QID|27130|M|74.92,42.52|N|From Hadoken Swiftstrider. Pick this up if you'd like to do Dire Maul.|
 A The Highborne|QID|27132|M|74.92,42.52|N|From Hadoken Swiftstrider. Pick this up if you'd like to do Dire Maul.|
 A The Darkmist Ruins|QID|25643|M|75.07,42.78|N|From Sage Palerunner.|
 h Camp Mojache|QID|25643|M|74.79,45.12|N|At Innkeeper Greul.|

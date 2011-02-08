@@ -1,3 +1,20 @@
+-- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2011-01-30 19:17
+-- Who: Ludovicus Maior
+-- Log: Corrected RegisterGuide line to match GIT.
+
+-- URL: http://wow-pro.com/node/3238/revisions/23580/view
+-- Date: 2010-12-04 21:02
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3238/revisions/23357/view
+-- Date: 2010-12-03 11:10
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3238/revisions/23354/view
+-- Date: 2010-12-03 11:09
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('WkjCap3035', 'The Cape of Stranglethorn', 'Wkjezz', '30', '35', 'JiyWes3540', 'Horde', function()
 return [[
 
@@ -61,7 +78,7 @@ A Plunging Into Zul'Gurub|QID|26554|M|77.17,45.12|Z|Northern Stranglethorn|N|UI 
 C Plunging Into Zul'Gurub|QID|26554|U|58964|M|82.21,35.42|Z|Northern Stranglethorn|
 T Plunging Into Zul'Gurub|QID|26554|M|82.36,35.48|Z|Northern Stranglethorn|N|UI Alert|
 A High Priest Venoxis|QID|26555|M|82.36,35.48|Z|Northern Stranglethorn|N|UI Alert|
-C High Priest Venoxis|QID|26555|U|58964|M|83.73,35.99|Z|Northern Stranglethorn|N|Similar deal to before, except snakes will combart the Priest to heal him. Grab the ladder when it appears. (You may need to shift out of a shapeshifted form to do this)|
+C High Priest Venoxis|QID|26555|U|58964|M|83.73,35.99|Z|Northern Stranglethorn|N|Similar deal to before, except snakes will combart the Priest to heal him.  Grab the ladder when it appears. (You may need to shift out of a shapeshifted form to do this)|
 T High Priest Venoxis|QID|26555|M|34.63,27.89|N|To Chabal.|
 T Recipe for Disaster|QID|26535|M|35.14,27.50|N|To Mixmaster Jasper.|
 A The Captain's Chest|QID|26599|M|40.16,67.77|N|From Captain Hecklebury Smotts.|
@@ -144,9 +161,9 @@ T Your First Day as a Pirate|QID|26631|M|44.37,91.58|N|To Captain Keelhaul in th
 A Swabbing Duty|QID|26633|M|44.37,91.58|N|From Captain Keelhaul.|
 A Cannonball Swim|QID|26635|M|44.46,92.62|N|From "Pretty Boy" Duncan.|
 A The Bane of Many A Pirate|QID|26634|M|44.54,92.05|N|From Garr Salthoof.|
-C Swabbing Duty|QID|26633|M|44.52,92.76|N|Grab a mop and start right clicking green and grey slimes on the deck. Prioritise the ones with red arrows over them.|
+C Swabbing Duty|QID|26633|M|44.52,92.76|N|Grab a mop and start right clicking green and grey slimes on the deck.  Prioritise the ones with red arrows over them.|
 T Swabbing Duty|QID|26633|M|44.48,91.61|N|To Captain Keelhaul.|
-C Cannonball Swim|QID|26635|M|50.39,95.08|N|Dive deep in the nearby waters to loot the cannon balls.|
+C Cannonball Swim|QID|26635|M|50.39,95.08|N|Dive deep in the nearby waters  to loot the cannon balls.|
 C The Bane of Many A Pirate|QID|26634|M|56.53,80.90|N|Crates on the land near trees.|
 T Cannonball Swim|QID|26635|M|44.55,93.55|N|To "Pretty Boy" Duncan.|
 T The Bane of Many A Pirate|QID|26634|M|44.46,91.92|N|To Garr Salthoof.|

@@ -1,5 +1,24 @@
+-- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2011-01-30 19:36
+-- Who: Ludovicus Maior
+-- Log: Corrected RegisterGuide line to match GIT
+
+-- URL: http://wow-pro.com/node/3259/revisions/23612/view
+-- Date: 2010-12-05 18:57
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3259/revisions/23400/view
+-- Date: 2010-12-03 11:48
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3259/revisions/23399/view
+-- Date: 2010-12-03 11:48
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', '45', '50', 'WkjUng5055', 'Alliance', function()
-return [[N This Guide:|QID|99999|N|Starts off on the Speedbarge in Thousand Needles. If you did not complete Thousand Needles; It's OK, Just skip this step and the next one. (Click to continue)|
+return [[
+
+N This Guide:|QID|99999|N|Starts off on the Speedbarge in Thousand Needles. If you did not complete Thousand Needles; It's OK, Just skip this step and the next one. (Click to continue)|
 A Tanaris is Calling|QID|27446|M|75.95,74.58|Z|Thousand Needles|N|From Fizzle Brassbolts.|
 R Tanaris is Calling|QID|99999|CC|U|55121|M|74.38,94.85|Z|Thousand Needles|N|If you have your boat use it now and heat south, if you do not, swim. Continue along the path marked by the co-ords (click to complete)|
 h Gadgetzan|QID|27446|M|52.59,27.00|N|At Innkeeper Fizzgrimble.|
@@ -112,7 +131,7 @@ R Then here...|QID|99999|CC|M|54.02,71.85|N|Into the circle room. Get in there c
 C Just Trying to Kill Some Bugs|QID|24953|M|54.54,72.01|N|Explode!|
 T Just Trying to Kill Some Bugs|QID|24953|M|55.65,60.83|N|To Zeke Bootscuff.|
 A Land's End|QID|25061|M|55.31,60.30|N|From Narain Soothfancy.|
-A Find OOX-17/TN!|QID|351|O|LEAD|648|N|By now you should be high enough level to handle the Beacon quest. This is why I have pathed this guide like this up until now, giving you more chance to loot the Beacon. If you have not had the beacon drop please skip this step. |
+A Find OOX-17/TN!|QID|351|O|LEAD|648|N|By now you should be high enough level to handle the Beacon quest. This is why I have pathed this guide like this up until now, giving you more chance to loot the Beacon.  If you have not had the beacon drop please skip this step. |
 T Find OOX-17/TN!|QID|351|O|M|59.81,64.06|N|To Homing Robot OOX-17/TN.|
 A Rescue OOX-17/TN!|QID|648|O|PRE|351|M|59.80,63.99|N|From Homing Robot OOX-17/TN.|
 C Rescue OOX-17/TN!|QID|648|O|NC|M|60.86,53.63|
@@ -167,7 +186,9 @@ T Thunderdrome: Sarinexx!|QID|25095|M|51.67,27.94|N|To Katrina Turner.|
 A Thunderdrome: Grudge Match!|QID|25513|M|51.74,28.04|N|From Dr. Dealwell.|
 C Thunderdrome: Grudge Match!|QID|25513|NC|M|51.70,28.50|
 T Thunderdrome: Grudge Match!|QID|25513|M|51.65,28.00|N|To Katrina Turner.|
-N WKJezz www.wow-pro.com|QID|1|N|Well done on your achievement! If you did not get a distress beacon, it's ok to be honest as going to Booty Bay to turn it in is not very time effective anymore. See you in Un'Goro! (Close this step to continue)|
+N WKJezz
+www.wow-pro.com
+|QID|1|N|Well done on your achievement!  If you did not get a distress beacon, it's ok to be honest as going to Booty Bay to turn it in is not very time effective anymore. See you in Un'Goro! (Close this step to continue)|
 ]]
 
 end)

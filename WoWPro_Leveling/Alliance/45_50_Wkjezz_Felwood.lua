@@ -1,9 +1,26 @@
+-- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2011-01-30 19:24
+-- Who: Ludovicus Maior
+-- Log: Corrected Register guide to match GIT.
+
+-- URL: http://wow-pro.com/node/3257/revisions/23618/view
+-- Date: 2010-12-06 01:03
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3257/revisions/23396/view
+-- Date: 2010-12-03 11:45
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3257/revisions/23395/view
+-- Date: 2010-12-03 11:44
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', '45', '50', 'WkjWin5055', 'Alliance', function()
 return [[
 
 N Note|QID|99999|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|
 A Hero's Call: Felwood!|QID|28543|M|45.19,50.01|Z|Darnassus|
-F Forrest Song|QID|99999|N|in Ashenvale. If you should happen to have Emerald Sanctuary go there instead and skip this and the next step.|
+F Forrest Song|QID|99999|N|in Ashenvale.  If you should happen to have Emerald Sanctuary go there instead and skip this and the next step.|
 R Ride to this point:.|QID|99999|M|59.54,63.20|Z|Ashenvale|N|Follow the path to this crossroad and then go North into Felwood.|
 T Hero's Call: Felwood!|QID|28543|O|M|51.20,80.49|N|To Tenell Leafrunner.|
 A The Corruption of the Jadefire|QID|27997|M|51.20,80.49|N|From Tenell Leafrunner.|

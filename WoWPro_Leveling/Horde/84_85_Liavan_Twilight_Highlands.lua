@@ -1,6 +1,13 @@
+-- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2010-12-03 23:31
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3312/revisions/23518/view
+-- Date: 2010-12-03 23:30
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('LiaTwi8485', 'Twilight Highlands', 'Liavan', '84', '85', nil, 'Horde', function()
 return [[
-
 
 R Orgrimmar|QID|28717|Z|Orgrimmar|N|Make your way to Orgimmar.|
 A Warchief's Command: Twilight Highlands!|QID|28717|M|49.67,76.45|Z|Orgrimmar|
@@ -10,14 +17,14 @@ A Machines of War|QID|26293|M|48.16,70.71|Z|Orgrimmar|N|From Garrosh Hellscream.
 T Machines of War|QID|26293|M|26.18,78.80|Z|Azshara|N|To Foreman Glibbs.|
 
 A Weapons of Mass Dysfunction|QID|26294|M|26.18,78.80|Z|Azshara|N|From Foreman Glibbs.|
-C Weapons of Mass Dysfunction|QID|26294|NC|M|73.88,8.15|Z|Orgrimmar|N|Click the 3rd Hellscream Demolisher and then right-click the Chief Engineer next to it.|
+C Weapons of Mass Dysfunction|QID|26294|NC|M|73.88,8.15|Z|Orgrimmar|N|Click the demo to find faulty one, then punt a gnome!|
 T Weapons of Mass Dysfunction|QID|26294|M|48.08,70.61|Z|Orgrimmar|N|To Garrosh Hellscream.|
 
 A Sauranok Will Point the Way|QID|28909|M|48.08,70.61|Z|Orgrimmar|N|From Garrosh Hellscream.|
 T Sauranok Will Point the Way|QID|28909|M|48.07,71.15|Z|Orgrimmar|N|To Sauranok the Mystic.|
-A Unfamiliar Waters|QID|26311|M|48.07,71.15|Z|Orgrimmar|N|From Sauranok the Mystic.|
 
-C Unfamiliar Waters|QID|26311|M|71.24,50.60|Z|Orgrimmar|N|Talk to Herezegor Flametusk inside the building. After the ambush, talk to him again to get the chart.|
+A Unfamiliar Waters|QID|26311|M|48.07,71.15|Z|Orgrimmar|N|From Sauranok the Mystic.|
+C Unfamiliar Waters|QID|26311|M|71.24,50.60|Z|Orgrimmar|N|Talk to Herezegor Flamecrusk inside building. After the ambush, talk to him again to get the chart.|
 T Unfamiliar Waters|QID|26311|M|47.97,71.07|Z|Orgrimmar|N|To Sauranok the Mystic.|
 
 A Where Is My Warfleet?|QID|26324|M|48.20,70.57|Z|Orgrimmar|N|From Garrosh Hellscream.|
@@ -33,11 +40,9 @@ A Smoot's Samophlange|QID|26361|M|54.52,51.21|Z|Azshara|N|From Fleep.|
 T Ready the Navy|QID|26335|M|53.52,47.36|Z|Azshara|
 A Beating the Market|QID|26337|M|53.52,47.36|Z|Azshara|
 
-C Ready the Ground Troops|QID|26374|M|55.24,48.15|Z|Azshara|N|Find AWOL grunts and right-click them. You'll have to beat them up sometimes.|S|
-C Beating the Market|QID|26337|M|58.12,52.42|Z|Azshara|N|Find a Bilgewater Foreman, they're scattered throughout the harbor. Talk to it and beat it down.|
-C Smoot's Samophlange|QID|26361|M|54.73,48.78|Z|Azshara|N|You need to find Smoot, a small goblin who's running wildly, zig-zaging through the harbor. When you find him, right-click him to make him drop then Samophlange, then right-click the Samophlange to loot it.|
-C Ready the Ground Troops|QID|26374|M|55.24,48.15|Z|Azshara|N|Find AWOL grunts and right-click them. You'll have to beat them up sometimes.|US|
-
+C Beating the Market|QID|26337|M|58.12,52.42|Z|Azshara|N|Scattered throughout the harbor. Tag AWOL grunts as you look for him.|
+C Smoot's Samophlange|QID|26361|M|54.73,48.78|Z|Azshara|N|Running Wildly threw the harbor.|
+C Ready the Ground Troops|QID|26374|M|55.24,48.15|Z|Azshara|N|Find any awol grunts you still might need.|
 
 T Smoot's Samophlange|QID|26361|M|54.57,51.27|Z|Azshara|N|To Fleep.|
 A Pre-Flight Checklist|QID|26372|M|54.57,51.27|Z|Azshara|N|From Fleep.|
@@ -49,7 +54,7 @@ A Twilight Skies|QID|28849|M|60.14,50.40|Z|Azshara|N|From Captain Krazz.|
 
 T Twilight Skies|QID|28849|M|50.69,73.97|Z|Azshara|N|To Friz Groundspin. Top of the tower.|
 A Twilight Skies|QID|26388|M|50.69,73.97|Z|Azshara|N|From Friz Groundspin.|
-C Twilight Skies|QID|26388|M|50.78,73.73|N|Wait for the Zeppelin. It will be a long ride, watch the cool air assault, help defend your ship and then right-click one of the side cannons to jump off with a parachute. WARNING: Stay on the ship, don't fly away with your mount, you won't be able to keep up even if you've got a 310% speed mount.|
+C Twilight Skies|QID|26388|M|81.97,50.32|N|Wait for the boat|
 T Twilight Skies|QID|26388|M|82.53,49.90|N|To Admiral Stonefist.|
 
 A Stalled Negotiations|QID|26539|M|82.53,49.90|N|From Admiral Stonefist.|
@@ -57,11 +62,11 @@ A Emergency Aid|QID|26538|M|82.55,50.02|N|From Warlord Krogg.|
 
 T Stalled Negotiations|QID|26539|M|78.84,51.75|N|To Ornak, on the main land.|
 A Madness|QID|26549|M|78.84,51.75|N|From Ornak.|
-C Madness|QID|26549|M|75.27,54.95|N|Bring your Negociator to the main orc building, then watch him "negociate".|
+C Madness|QID|26549|M|73.71,53.85|
 T Madness|QID|26549|M|73.75,53.88|N|To Zaela.|
 A Negotiations Terminated|QID|26608|M|73.75,53.88|N|From Zaela.|
 
-C Emergency Aid|QID|26538|M|76.53,49.47|N|Speak with Gregor.|
+C Emergency Aid|QID|26538|M|76.53,49.47|
 T Emergency Aid|QID|26538|M|76.53,49.49|N|To Gregor.|
 
 A Dangerous Compassion|QID|26540|M|76.53,49.49|N|From Gregor.|
@@ -72,34 +77,31 @@ A You Say You Want a Revolution|QID|26619|M|82.58,49.91|N|From Warlord Krogg.|
 T You Say You Want a Revolution|QID|26619|M|76.59,49.55|N|To Zaela, back in the small hut.|
 
 A Insurrection|QID|26621|M|76.59,49.55|N|From Zaela.|
-C Insurrection|QID|26621|M|74.96,52.62|N|Talk to 3 Dragonmaw Workers or Merchants, pick the 2nd line for one of them and the 1st line for the other two. Then kill Dragonmaw Enforcers and Warlocks.|
+C Insurrection|QID|26621|M|74.96,52.62|
 T Insurrection|QID|26621|M|76.56,49.54|N|To Zaela.|
 
 A Death to Mor'ghor|QID|26622|M|76.56,49.54|N|From Zaela.|
-C Death to Mor'ghor|QID|26622|M|75.43,55.57|N|Back in the big building. Kill Mor'ghor. The NPCs will help you.|
+C Death to Mor'ghor|QID|26622|M|75.43,55.57|N|Back in the big building|
 T Death to Mor'ghor|QID|26622|M|74.73,53.07|N|To Garrosh Hellscream.|
 
 A Securing the Beach Head|QID|26786|M|74.73,53.07|N|From Garrosh Hellscream.|
 A Cementing Our Victory|QID|26788|M|74.29,53.34|N|From Ornak.|
 T Securing the Beach Head|QID|26786|M|73.83,53.90|N|To Artesh.|
 A Muddied Waters|QID|26784|M|73.83,53.90|N|From Artesh.|
-
-C Muddied Waters|QID|26784|M|65.01,41.58|N|Kill Mudded Water Elementals.|S|
-C Cementing Our Victory|QID|26788|M|66.20,44.15|N|Loot Verrall River Muck, they're big piles of mud scattered across the river.|
-C Muddied Waters|QID|26784|M|65.01,41.58|N|Kill Mudded Water Elementals.|US|
-
+C Cementing Our Victory|QID|26788|M|66.20,44.15|
+C Muddied Waters|QID|26784|M|65.01,41.58|
 T Cementing Our Victory|QID|26788|M|74.23,53.25|N|To Ornak.|
 T Muddied Waters|QID|26784|M|73.82,53.89|N|To Artesh.|
 
 A The Warchief Will be Pleased|QID|26798|M|73.82,53.89|N|From Artesh.|
-T The Warchief Will be Pleased|QID|26798|M|73.78,53.87|N|Go through the portal. To Garrosh Hellscream in Grommash Hold in Orgrimmar. |
+T The Warchief Will be Pleased|QID|26798|M|48.16,70.56|Z|Orgrimmar|N|To Garrosh Hellscream. Go threw the portal.|
 
 A Traitor's Bait|QID|26830|M|48.16,70.56|Z|Orgrimmar|N|From Garrosh Hellscream.|
-C Traitor's Bait|QID|26830|M|45.54,62.01|Z|Orgrimmar|N|Talk to the Suspicious Peon at the base of the southern Zeppelin Tower. Sauranok will come, defeat him.|
+C Traitor's Bait|QID|26830|M|43.73,63.68|Z|Orgrimmar|N|Bottom of the tower.|
 T Traitor's Bait|QID|26830|M|48.10,70.67|Z|Orgrimmar|N|To Garrosh Hellscream.|
 
 A Return to the Highlands|QID|26840|M|48.10,70.67|Z|Orgrimmar|N|From Garrosh Hellscream.|
-f Dragonmw Port|QID|26840|M|50.22,39.16|Z|Orgrimmar|N|Take the portal from Org to Twilight Highlands. Get the flight path just to the left of the building when exiting.|
+f Dragonmaw Port|QID|26840|M|73.78,52.81|N|Take the portal from Org to Twilight Highlands.Get flight path|
 T Return to the Highlands|QID|26840|M|75.30,54.84|N|To Zaela.|
 
 A The Northern Flank|QID|27583|M|75.30,54.84|N|From Zaela.|
@@ -110,13 +112,13 @@ A Scouting the Shore|QID|27610|M|78.18,62.43|N|From Rok'tar.|
 A Blood on the Sand|QID|27611|M|78.18,62.43|N|From Rok'tar.|
 
 C Scouting the Shore|QID|27610|NC|M|77.57,65.12|
-C Blood on the Sand|QID|27611|M|77.42,66.74|N|Kill Highland Marines, stay away of the red arrows on the ground.|
+C Blood on the Sand|QID|27611|M|77.42,66.74|
 
 T Blood on the Sand|QID|27611|M|78.24,62.63|N|To Rok'tar.|
 T Scouting the Shore|QID|27610|M|78.24,62.63|N|To Rok'tar.|
 A Mo' Better Shredder|QID|27622|M|78.40,62.59|N|From Juice Gnugat.|
 
-C Mo' Better Shredder|QID|27622|M|69.17,63.25|N|Right-click the Salvageable Shredder, then defend it.|
+C Mo' Better Shredder|QID|27622|M|69.17,63.25|
 T Mo' Better Shredder|QID|27622|M|78.41,62.63|N|To Juice Gnugat.|
 A Krazzworks|QID|28583|M|78.41,62.63|N|From Juice Gnugat.|
 
@@ -124,16 +126,14 @@ T The Northern Flank|QID|27583|M|70.24,43.30|N|To Gralok.|
 A Blood in the Surf|QID|27584|M|70.24,43.30|N|From Gralok.|
 A Shells on the Sea Shore|QID|27586|M|70.24,43.30|N|From Fergus Gearchum.|
 
-C Blood in the Surf|QID|27584|M|70.11,38.77|N|Kill Blackscale Nagas.|S|
-C Shells on the Sea Shore|QID|27586|M|70.72,38.45|N|Right-click Unexploded Mortar Shells. They're quite small shells scattered on the shore.|
-C Blood in the Surf|QID|27584|M|70.11,38.77|N|Kill Blackscale Nagas.|US|
-
+C Shells on the Sea Shore|QID|27586|M|70.72,38.45|
+C Blood in the Surf|QID|27584|M|70.11,38.77|
 
 T Blood in the Surf|QID|27584|M|70.25,43.27|N|To Gralok.|
 T Shells on the Sea Shore|QID|27586|M|70.30,43.39|N|To Fergus Gearchum.|
 A Blast Him!|QID|27606|M|70.30,43.39|N|From Fergus Gearchum.|
 
-C Blast Him!|QID|27606|U|61928|M|71.32,41.63|N|Go near the Heth'Jatari Banners and use the Heth'Jatari Conch. Kill Fathom-Lord Heth'Jatar, you can walk him into the mortar fire to kill him quicker.|
+C Blast Him!|QID|27606|U|61928|M|72.10,41.42|
 T Blast Him!|QID|27606|M|70.32,43.32|N|To Fergus Gearchum.|
 
 A Narkrall, the Drake-Tamer|QID|27690|M|70.23,43.29|N|From Gralok.|
@@ -143,10 +143,9 @@ A Wildhammer Infestation|QID|28588|M|77.61,16.67|N|From Captain Krazz.|
 A Pool Pony Rescue|QID|28586|M|77.61,16.67|N|From Flashbang Rothman.|
 A Quality Construction|QID|28584|M|77.61,16.67|N|From Brett the Bomber.|
 
-C Wildhammer Infestation|QID|28588|M|75.55,16.39|N|Kill Wildhammer Raiders.|S|
-C Quality Construction|QID|28584|U|65146|M|75.70,17.76|N|Fix Faulty Valves, they're attached to buildings all over the Krazzworks. Use the Blast Tape on them. It only works on the valves which are leaking oil.|
-C Pool Pony Rescue|QID|28586|U|65162|M|81.07,21.19|N|Stay mounted and fly low near the water. Find Krazzworks Laborer, target them and throw a poney at them!.|
-C Wildhammer Infestation|QID|28588|M|75.55,16.39|N|Kill Wildhammer Raiders.|US|
+C Quality Construction|QID|28584|U|65146|M|75.70,17.76|N|Fix leaking valves while killing Raiders|
+C Wildhammer Infestation|QID|28588|M|75.55,16.39|
+C Pool Pony Rescue|QID|28586|U|65162|M|81.07,21.19|N|Stay mounted and fly low near the water and throw out Ponies|
 f The Krazzworks|QID|28584|M|75.37,17.76|N|At Harpo Boltknuckle.|
 
 T Wildhammer Infestation|QID|28588|M|77.60,16.72|N|To Captain Krazz.|
@@ -158,22 +157,20 @@ C Everything But the Kitchen Sink|QID|28589|M|77.43,15.91|
 T Everything But the Kitchen Sink|QID|28589|M|77.66,16.63|N|To Captain Krazz.|
 
 A Reprisal|QID|28590|M|77.66,16.63|N|From Captain Krazz.|
-T Reprisal|QID|28590|N|To Patch, on the zeppelin.|
+T Reprisal|QID|28590|M|81.00,70.05|N|To Patch.|
 
-A Off The Wall|QID|28591|N|From Patch.|
-C Off The Wall|QID|28591|N|Get on a Skyshredder Turret and fire at will.|
-T Off The Wall|QID|28591|N|To Patch.|
+A Off The Wall|QID|28591|M|81.63,70.34|N|From Patch.|
+C Off The Wall|QID|28591|M|79.08,80.40|N|Tommygun time!!|
+T Off The Wall|QID|28591|M|78.57,80.33|N|To Patch.|
 
-A Highbank, Crybank|QID|28594|N|From Patch.|
-A Of Utmost Importance|QID|28593|N|From Patch.|
-A Parting Packages|QID|28592|N|From Ticker.|
-
-C Boat bombed|QID|28592|QO|Highbank boat bomb placed: 1/1|U|64669|M|81.60,78.78|N|Place the bomb right in the center of the boat.|
-C Tower bombed|QID|28592|QO|Highbank tower bomb placed: 1/1|U|64669|M|82.00,73.42|N|Place the bomb at the base of the tower, inside.|
-C Keep bombed|QID|28592|U|64669|M|79.90,77.22|N|Place the Bomb under the archway of the keep, at the base.|
-C Highbank, Crybank|QID|28594|M|80.48,76.76|N|Kill Highbank Defenders.|S|
-C Of Utmost Importance|QID|28593|M|79.47,77.61|N|Go down to the basement, loot the Induction Samophlange.|
-C Highbank, Crybank|QID|28594|M|80.48,76.76|N|Kill Highbank Defenders.|US|
+A Highbank, Crybank|QID|28594|M|77.70,78.86|N|From Patch.|
+A Of Utmost Importance|QID|28593|M|77.21,77.53|N|From Patch.|
+A Parting Packages|QID|28592|M|77.09,75.72|N|From Ticker.|
+C Boat bombed|QID|28592|QO|Highbank boat bomb placed: 1/1|U|64669|M|81.60,78.78|
+C Tower bombed|QID|28592|QO|Highbank tower bomb placed: 1/1|U|64669|M|82.00,73.42|
+C Keep bombed|QID|28592|U|64669|M|79.90,77.22|N|Must be under the archway of the keep|
+C Of Utmost Importance|QID|28593|M|79.47,77.61|N|Go down to the basement|
+C Highbank, Crybank|QID|28594|M|80.48,76.76|N|Kill any Highbank Gaurdsmans you may still need|
 
 T Parting Packages|QID|28592|M|81.86,80.31|N|To Ticker.|
 T Of Utmost Importance|QID|28593|M|82.08,80.05|N|To Patch.|
@@ -191,12 +188,12 @@ f Bloodgulch|QID|27747|M|54.16,42.28|N|At Bramok Gorewing.|
 
 A War Forage|QID|27750|M|53.84,43.30|N|From Griff.|
 
-C War Forage|QID|27750|S|M|49.11,37.78|N|Loot Wildhammer Food Stores scattered around the buildings.|
-C Total War|QID|27747|S|M|46.08,37.61|N|Right-click Thundermar Ale Kegs, also scattered around the buildings.|
-C Crushing the Wildhammer|QID|27751|M|49.10,37.28;46.14,37.30;45.08,42.92|N|Kill Wildhammer Warbrands and loot their Insignias.|
+C War Forage|QID|27750|S|M|49.11,37.78|N|Loot food scattered around the buildings.|
+C Total War|QID|27747|S|M|46.08,37.61|N|Smash up kegs|
+C Crushing the Wildhammer|QID|27751|M|52.28,42.17|N|Kill Wildhammer Warbrands and loot Insignia|
 C War Forage|QID|27750|US|M|49.11,37.78|N|Loot food scattered around the buildings.|
 C Total War|QID|27747|US|M|46.08,37.61|N|Smash up kegs|
-C Drag 'em Down|QID|27929|U|62775|M|51.38,39.98|N|Use the Barbed Fleshhook to pull down Gryphon Riders and kill them.|
+C Drag 'em Down|QID|27929|U|62775|M|51.38,39.98|N|use Barbed Fleshhook to pull down Gryphon's rider and kill them.|
 
 T War Forage|QID|27750|M|53.86,43.25|N|To Griff.|
 T Drag 'em Down|QID|27929|M|54.77,44.19|N|To Narkrall Rakeclaw.|
@@ -216,22 +213,22 @@ T Bait and Throttle|QID|28041|M|51.60,47.95|
 A How to Maim Your Dragon|QID|28043|M|51.60,47.95|
 T Blood in the Highlands|QID|28038|M|50.69,58.37|N|To Wodin the Troll-Servant.|
 
-C How to Maim Your Dragon|QID|28043|U|62917|M|54.52,43.00|N|Go to Black Drake Roost, place the Gryphon Bait on the ground, defeat the Baited Black Drake. Once it's defeated, climb on it.|
+C How to Maim Your Dragon|QID|28043|U|62917|M|54.52,43.00|N|Place bait on the ground, defeat drake.|
 
 T How to Maim Your Dragon|QID|28043|M|54.33,43.88|N|To Zaela.|
 A The Demon Chain|QID|28123|M|54.33,43.88|N|From Zaela.|
 
-T A Vision of Twilight|QID|27947|M|57.85,33.58|N|Turn in at the Eye of Twilight.|
-A We All Must Sacrifice|QID|27951|M|57.85,33.58|N|From the Eye of Twilight.|
+T A Vision of Twilight|QID|27947|M|57.85,33.58|N|Turns in to an alter|
+A We All Must Sacrifice|QID|27951|M|57.85,33.58|N|back to the alter|
 
 C Paint it Black|QID|27945|M|60.46,34.42|N|Kill Obsidian Stoneslaves for Black diamond heart.|S|
 C We All Must Sacrifice|QID|27951|M|56.37,33.10|
 C Paint it Black|QID|27945|M|60.46,34.42|US|
 
-T We All Must Sacrifice|QID|27951|M|57.91,33.55|N|To the Eye of Twilight.|
-A The Eyes Have It|QID|27954|M|57.91,33.55|N|From the Eye of Twilight.|
+T We All Must Sacrifice|QID|27951|M|57.91,33.55|N|back to the alter|
+A The Eyes Have It|QID|27954|M|57.91,33.55|
 
-C The Demon Chain|QID|28123|M|49.15,28.20|N|Lying on the ground near the corpse of Narkrall Rakeclaw. Loot the Demon Chain.|
+C The Demon Chain|QID|28123|M|49.15,28.20|N|Laying on the ground near a corpse|
 
 T The Demon Chain|QID|28123|M|54.33,43.83|N|To Zaela.|
 A Fury Unbound|QID|28133|M|54.29,43.77|N|From Zaela.|
@@ -240,13 +237,13 @@ A The Weeping Wound|QID|27375|M|53.19,42.73|N|From Mallia.|
 T The Eyes Have It|QID|27954|M|53.28,42.72|N|To Garona Halforcen.|
 A Eye Spy|QID|27955|M|53.28,42.72|N|From Garona Halforcen.|
 
-C Eye Spy|QID|27955|M|53.36,42.89|N|Click on the Eye of twilight in the same room.|
+C Eye Spy|QID|27955|M|53.36,42.89|N|Click on the Eye of twilight in the room with you|
 T Eye Spy|QID|27955|M|53.31,42.73|N|To Garona Halforcen.|
 
 T The Weeping Wound|QID|27375|M|44.01,10.49|N|To Earthcaller Torunscar.|
 A Torn Ground|QID|27299|M|44.01,10.49|N|From Earthcaller Torunscar.|
 
-C Torn Ground|QID|27299|M|44.38,13.22;46.27,9.82|N|Kill 3 Tentacles of Iso'rath - The non-elite kind.|
+C Torn Ground|QID|27299|M|41.92,11.56|N|kill the smaller non elite outer most tentacles.|
 
 T Torn Ground|QID|27299|M|44.06,10.52|N|To Earthcaller Torunscar.|
 A Pushing Back|QID|27300|M|44.06,10.52|N|From Earthcaller Torunscar.|
@@ -271,17 +268,17 @@ C The Maw of Iso'rath|QID|27376|M|44.41,10.72|N|Hop on a Earthen Ring Gryphon|
 T The Maw of Iso'rath|QID|27376|M|48.38,14.52|Z|The Maw of Madness|N|To Earthcaller Yevaa.|
 A Devoured|QID|27377|M|48.38,14.52|Z|The Maw of Madness|N|From Earthcaller Yevaa.|
 
-C Devoured|QID|27377|M|48.26,13.86|Z|The Maw of Madness|N|Don't worry, you're supposed to die.|
+C Devoured|QID|27377|M|48.26,13.86|Z|The Maw of Madness|N|Don't worry|
 
 T Devoured|QID|27377|M|33.32,50.40|Z|The Maelstrom|N|To Thrall.|
 A The Worldbreaker|QID|27378|M|33.32,50.40|Z|The Maelstrom|N|From Thrall.|
 
-C The Worldbreaker|QID|27378|M|33.37,50.22|Z|The Maelstrom|N|Don't worry again, there's nothing you can do here. Just watch and wait.|
+C The Worldbreaker|QID|27378|M|33.37,50.22|Z|The Maelstrom|
 T The Worldbreaker|QID|27378|M|48.68,16.61|Z|The Maw of Madness|N|To Earthcaller Yevaa.|
 
 A The Terrors of Iso'rath|QID|27379|M|48.68,16.61|Z|The Maw of Madness|N|From Earthcaller Yevaa.|
 
-C The Terrors of Iso'rath|QID|27379|M|49.37,15.84|Z|The Maw of Madness|QO|Save Stormcaller Jalara: 1/1|N|Kill the non-elite tentacles first. Go back inside the Fields of Restorations whenever the Digestive Acid starts to hurt too much.|
+C The Terrors of Iso'rath|QID|27379|M|49.37,15.84|Z|The Maw of Madness|QO|Save Stormcaller Jalara: 1/1|N|Free the ones from the non elites first they will help you on the elites|
 C The Terrors of Iso'rath|QID|27379|M|49.09,13.21|Z|The Maw of Madness|QO|Save Earthmender Duarn: 1/1|
 C The Terrors of Iso'rath|QID|27379|M|47.21,13.27|Z|The Maw of Madness|QO|Save Hargoth Dimblaze: 1/1|
 C The Terrors of Iso'rath|QID|27379|M|47.24,15.80|Z|The Maw of Madness|QO|Save Stormcaller Mylra:1/1|
@@ -289,12 +286,12 @@ C The Terrors of Iso'rath|QID|27379|M|47.24,15.80|Z|The Maw of Madness|QO|Save S
 T The Terrors of Iso'rath|QID|27379|M|48.63,16.59|Z|The Maw of Madness|N|To Earthcaller Yevaa.|
 
 A Nightmare|QID|27380|M|48.63,16.59|Z|The Maw of Madness|N|From Earthcaller Yevaa.|
-C Nightmare|QID|27380|M|48.37,15.40|Z|The Maw of Madness|N|If the Brain is evading, log out and back in. While fighting the brain, step inside the Field of Restoration whenever possible to lower the digestive acid bar.|
+C Nightmare|QID|27380|M|48.37,15.40|Z|The Maw of Madness|N|Brain evading seemed to be a problem on the Beta logging out and back in seemed to fix it|
 
 T Nightmare|QID|27380|M|44.02,10.58|N|To Earthcaller Torunscar.|
 A Warm Welcome|QID|27486|M|44.04,10.51|N|From Golluck Rockfist.|
 
-C Fury Unbound|QID|28133|M|36.59,38.18|N|Talk to Zaela and tell her you're ready to fight Torth|
+C Fury Unbound|QID|28133|M|36.59,38.18|N|Talk to Zaela and tell her your ready to fight Torth|
 T Fury Unbound|QID|28133|M|36.45,38.15|
 
 A Whispers in the Wind|QID|28149|M|36.43,37.99|N|From Buunu.|
@@ -308,7 +305,7 @@ T Even Dragons Bleed|QID|27504|M|29.85,31.27|N|To Velastrasza.|
 A Draconic Mending|QID|27505|M|29.85,31.27|N|From Velastrasza.|
 A Life from Death|QID|27506|M|29.85,31.27|N|From Baleflame.|
 
-C Draconic Mending|QID|27505|M|27.90,32.87;29.81,33.04|S|N|Go near Acridostrasz or a similar large red dragon and defend Menders from WyrmKillers. Then use the seed on their corpses. Once the Dragon is back to 100% life, you'll get the quest updates.|
+C Draconic Mending|QID|27505|M|29.87,33.36|S|N|go near Acridostrasz or a similar large red drake and defend Menders from WyrmKillers|
 C Life from Death|QID|27506|U|61323|M|31.08,33.58|N|Use the seed on any Wyrmkillers corpse|
 C Draconic Mending|QID|27505|M|29.87,33.36|US|
 
@@ -322,8 +319,8 @@ A Encroaching Twilight|QID|27507|M|29.33,26.04|N|From Calen.|
 A Far from the Nest|QID|27508|M|29.33,26.04|N|From Lirastrasza.|
 f Vermillion Redoubt|QID|27507|M|28.50,24.92|N|At Aquinastrasz.|
 
-C Breach in the Defenses|QID|27509|M|17.85,16.82|N|Go inside the cave, use the Flashgrowht Mote on the portal.|
-C Far from the Nest|QID|27508|M|21.90,19.18|S|N|Vermillion Eggs are found lying on the ground and dropped by mobs carrying them after being killed.|
+C Breach in the Defenses|QID|27509|M|17.85,16.82|N|Inside the cave.|
+C Far from the Nest|QID|27508|M|21.90,19.18|S|N|laying on the ground and dropped by mobs carrying them after being killed.|
 C Encroaching Twilight|QID|27507|M|20.08,14.66|
 C Far from the Nest|QID|27508|M|21.90,19.18|US|
 
@@ -337,7 +334,7 @@ A Easy Pickings|QID|28091|M|27.31,36.76|N|From Patch.|
 A Precious Goods|QID|28090|M|27.31,36.76|N|From Patch.|
 
 C Easy Pickings|QID|28091|M|25.13,38.76|S|
-C Precious Goods|QID|28090|M|25.62,37.92|N|The key can drop off most mobs in this encampment. Use it on the chest inside the chariot.|
+C Precious Goods|QID|28090|M|25.62,37.92|N|Key can drop off Most mob in this encampment use it on the chest inside the caravan.|
 C Easy Pickings|QID|28091|M|25.13,38.76|US|
 
 T Precious Goods|QID|28090|M|27.31,36.77|N|To Patch.|
@@ -349,11 +346,11 @@ A If The Key Fits|QID|28092|M|29.59,41.00|N|From Warlord Krogg.|
 A Paving the Way|QID|28094|M|29.61,41.14|N|From Patch.|
 
 C Paving the Way|QID|28094|M|31.16,47.67|S|
-C If The Key Fits|QID|28092|M|29.74,51.70|N|Follow the road towards the big gate. Tag mobs one by one on the way and let your Gob Squad handle them. Try to fight only one mob at a time to not get overwhelmed.|
+C If The Key Fits|QID|28092|M|29.74,51.70|N|head down the road to the gate|
 T If The Key Fits|QID|28092|M|29.31,52.24|N|To Patch.|
 A Pressing Forward|QID|28093|M|29.31,52.24|N|From Patch.|
 C Paving the Way|QID|28094|M|31.16,47.67|US|N|Make sure to complete this before going to far forward to complete Pressing forward or your squad will run off|
-T Paving the Way|QID|28094|M|29.53,51.85|N|To Patch.|N|Make sure to complete this before going too far forward to complete Pressing forward or your squad will run off.|
+T Paving the Way|QID|28094|M|29.53,51.85|N|To Patch.|N|Make sure to complete this before going to far forward to complete Pressing forward or your squad will run off|
 C Pressing Forward|QID|28093|M|22.60,56.26|
 T Pressing Forward|QID|28093|M|22.13,56.54|N|To Calen.|
 
@@ -369,22 +366,21 @@ A Thog's Nightlight|QID|28166|M|36.42,38.09|N|From Buunu.|
 T Purple is Your Color|QID|28147|M|36.73,38.08|N|To Rotgrum.|
 A Dressed to Kill|QID|28151|M|36.73,38.08|N|From Rotgrum.|
 
-C Dressed to Kill|QID|28151|M|40.70,30.72|N|Kill ogres.|S|
-C Thog's Nightlight|QID|28166|M|40.67,32.86|N|The Light of Souls is in the big building with Thog, on the table.|
-C Dressed to Kill|QID|28151|M|40.70,30.72|N|Kill ogres.|US|
+C Thog's Nightlight|QID|28166|M|40.67,32.86|N|In the big building with Thog, its sitting on the table.|
+C Dressed to Kill|QID|28151|M|40.70,30.72|N|Kill ogres.|
 
 T Dressed to Kill|QID|28151|M|36.73,38.00|N|To Rotgrum.|
 T Thog's Nightlight|QID|28166|M|36.43,38.04|N|To Buunu.|
 A Night Terrors|QID|28170|M|36.43,38.04|N|From Buunu.|
 
-R Night Terrors|QID|28170|U|67537|CC|M|35.14,36.62;35.00,35.16;34.15,35.65|N|Enter the cave and talk to Uchek, then Head North, follow the arrows while staying on the same level. Use the Light of Souls whenever you get jumped by ghosts.|
+R Night Terrors|QID|28170|U|67537|CC|M|35.14,36.62;35.00,35.16;34.15,35.65|N|Enter the cave and talk to Uchek, then Head North|
 C Night Terrors|QID|28170|U|67537|M|34.24,35.68|QO|First Shrine Cleansed: 1/1|N|
 R Night Terrors|QID|28170|U|67537|CC|M|33.97,35.10;33.43,36.81|N|Jump off north, then head southwest|
 C Night Terrors|QID|28170|U|67537|M|34.11,35.63|QO|Second Shrine Cleansed: 1/1|N|
 R Night Terrors|QID|28170|U|67537|CC|M|34.20,36.63;34.64,37.98;34.27,37.82|N|Head back east toward where Uchek was, then go right.|
 C Night Terrors|QID|28170|U|67537|M|34.11,35.63|QO|Third Shrine Cleansed: 1/1|N|
 
-T Night Terrors|QID|28170|M|36.37,37.99|N|Jump down and head back out the cave to Buunu.|
+T Night Terrors|QID|28170|M|36.37,37.99|N|jump down and head back out the cave to Buunu.|
 
 T Enter the Dragon Queen|QID|28712|M|14.93,16.28|N|To Lirastrasza.|
 A Battle of Life and Death|QID|28758|M|14.18,15.44|N|From Calen.|
@@ -401,74 +397,82 @@ A Blackout|QID|28173|M|59.06,69.82|N|From Lirastrasza.|
 A Shining Through the Dark|QID|28175|M|59.06,69.82|N|From Velastrasza.|
 
 C A Fitting End|QID|28191|M|60.69,83.65|S|
-C Shining Through the Dark|QID|28175|U|63139|M|63.86,77.93|N|The cave entrance is on the west side of the dead tree. Go inside and plant Alexstrasza's Tear.|
-C Blackout|QID|28173|U|63092|M|62.60,86.62|N|Use the hook to grapple on to a drake's back and kill it. You can use the hook while flying on your mount or on the back of a dying Drake to jump from drake to drake. You can also grapple on to a friendly drake.|
+C Shining Through the Dark|QID|28175|U|63139|M|63.86,77.93|N|Cave under the tree entrance is on the west side|
+C Blackout|QID|28173|U|63092|M|62.60,86.62|N|Use hook to grapple on to a drakes back and kill it. Can use the hook while flying on your mount or on the back of a dying Drake. can also grapple on to a friendly drake.|
 C A Fitting End|QID|28191|M|60.69,83.65|US|
 
-T Blackout|QID|28173|M|59.06,69.79|N|Mount up, fly to Lirastrasza.|
+T Blackout|QID|28173|M|59.06,69.79|N|To Lirastrasza.|
 T A Fitting End|QID|28191|M|59.06,69.79|N|To Lirastrasza.|
 T Shining Through the Dark|QID|28175|M|59.06,69.79|N|To Velastrasza.|
 A Following the Young Home|QID|28176|M|59.06,69.79|N|From Lirastrasza.|
 
-C Following the Young Home|QID|28176|U|63126|M|57.86,86.45|QO|Obsidian Whelps hatched: 1/1|N|Use Mother's flame to hatch the eggs.|
-C Following the Young Home|QID|28176|M|49.88,85.69|N|Follow the whelps.|
+C Following the Young Home|QID|28176|U|63126|M|49.88,85.69|QO|Obsidian Whelps hatched: 1/1|N|Use Mother's flame to hatch the eggs|
+C Following the Young Home|QID|28176|M|49.88,85.69|N|follow the whelps|
 
 T Following the Young Home|QID|28176|M|44.99,90.95|N|To Baleflame. Deeper inside the cave|
 A Last of Her Kind|QID|28247|M|44.99,90.95|N|From Baleflame.|
 
-C Last of Her Kind|QID|28247|M|45.07,91.82|N|Don't stand infront of her, and avoid the lava pools she casts. Ignore the whelps, just bring Obsidia down.|
+C Last of Her Kind|QID|28247|M|45.07,91.82|
 
 T Last of Her Kind|QID|28247|M|59.06,69.78|N|To Lirastrasza.|
 A Crushblow|QID|28249|M|59.06,69.78|N|From Lirastrasza.|
 
 T Crushblow|QID|28249|M|45.32,75.42|N|To Warlord Zaela.|
-A Ogres & Ettins|QID|27493|M|45.32,75.42|N|From Warlord Zaela.|
+A Ogres
+&
+Ettins|QID|27493|M|45.32,75.42|N|From Warlord Zaela.|
 A Kor'kron Drop|QID|27491|M|45.32,75.42|N|From Lady Cozwynn.|
 A Call in the Artillery|QID|27497|M|45.32,75.42|N|From Lady Cozwynn.|
 f Crushblow|QID|27497|M|45.68,76.25|N|At Tokrog.|
 
-C Kor'kron Drop|QID|27491|M|45.72,76.02|QO|Get wind rider squad: 1/1|N|Talk to Jon-Jon right next to the flight master.|
-C Kor'kron Drop|QID|27491|M|39.17,64.57|QO||N|Fly northwest, there's a glowing red X on the ground. This is where you unmount.|
-C Ogres & Ettins|QID|27493|M|42.47,71.21|S|
-C Call in the Artillery|QID|27497|U|61367|M|39.10,62.51|QO|Northern building targeted: 1/1|N|Use the Artillery Flare when near the building.|
-C Call in the Artillery|QID|27497|U|61367|M|40.93,64.18|QO|Northeastern building targeted: 1/1|N|Use the Artillery Flare when near the building.|
-C Call in the Artillery|QID|27497|U|61367|M|39.88,69.25|QO|Southwestern building targeted: 1/1|N|Use the Artillery Flare when near the building.|
-C Call in the Artillery|QID|27497|U|61367|M|41.25,72.70|QO|Southern building targeted:1/1|N|Use the Artillery Flare when near the building.|
-C Ogres & Ettins|QID|27493|M|42.47,71.21|US|
+C Kor'kron Drop|QID|27491|M|45.72,76.02|QO|Get wind rider squad: 1/1|N|Talk to Jon-Jon right next to fligh master|
+C Kor'kron Drop|QID|27491|M|39.17,64.57|QO||N|Fly northwest X on ground marks the spot|
+C Ogres
+&
+Ettins|QID|27493|M|42.47,71.21|S|
+C Call in the Artillery|QID|27497|U|61367|M|39.10,62.51|QO|Northern building targeted: 1/1|
+C Call in the Artillery|QID|27497|U|61367|M|40.93,64.18|QO|Northeastern building targeted: 1/1|
+C Call in the Artillery|QID|27497|U|61367|M|39.88,69.25|QO|Southwestern building targeted: 1/1|
+C Call in the Artillery|QID|27497|U|61367|M|41.25,72.70|QO|Southern building targeted:1/1|
+C Ogres
+&
+Ettins|QID|27493|M|42.47,71.21|US|
 
-T Ogres & Ettins|QID|27493|M|45.26,75.42|N|To Warlord Zaela.|
+T Ogres
+&
+Ettins|QID|27493|M|45.26,75.42|N|To Warlord Zaela.|
 T Kor'kron Drop|QID|27491|M|45.26,75.42|N|To Lady Cozwynn.|
 T Call in the Artillery|QID|27497|M|45.26,75.42|N|To Lady Cozwynn.|
 A Move the Mountain|QID|27495|M|45.26,75.42|N|From Warlord Zaela.|
 
-C Move the Mountain|QID|27495|M|38.10,66.24|N|Right-click the Hidden Explosives and fly off.|
+C Move the Mountain|QID|27495|M|38.10,66.24|N|Back to the northwest half way up the path going up the MT.|
 
 T Move the Mountain|QID|27495|M|38.10,66.24|
 A Signal the Attack|QID|27499|M|38.10,66.24|
 
-C Signal the Attack|QID|27499|U|61511|M|40.45,62.23|N|Go on top of the tower and use the signal.|
+C Signal the Attack|QID|27499|U|61511|M|40.45,62.23|N|Top of the tower between the northern and northeastern buildings|
 T Signal the Attack|QID|27499|M|40.45,62.23|
 A Four Heads are Better than None|QID|27501|M|40.45,62.23|
 
-C Four Heads are Better than None|QID|27501|M|39.89,71.29;37.73,71.26|QO|Za's Head: 1/1|N|Go inside the cave, at the fork go left. Kill Za'Brox and loot the two heads off him.|
-C Four Heads are Better than None|QID|27501|M|38.78,70.63|N|Go back, this time at the fork go the other way. Kill Beeble'phod and loot the two heads.|
+C Four Heads are Better than None|QID|27501|M|37.73,71.26|QO|Za's Head: 1/1|N|Go in the cave take the Y to the left.|
+C Four Heads are Better than None|QID|27501|M|38.78,70.63|N|Take the Y to the right.
 
 T Four Heads are Better than None|QID|27501|M|45.34,75.49|N|To Lady Cozwynn.|
 A Up to the Citadel|QID|27503|M|45.34,75.49|N|From Lady Cozwynn.|
 
-C Up to the Citadel|QID|27503|M|38.96,64.09|QO|Speak to the Squad commander: 1/1|N|Same location as the red glowing X on the ground from earlier. Speak with Kor'kron Squad Commander and escort him.|
+C Up to the Citadel|QID|27503|M|38.96,64.09|QO|Speak to the Squad commander: 1/1|N|Same location as the X on the ground from earlier|
 C Up to the Citadel|QID|27503|M|37.61,65.53|QO|Kor'kron escorted: 1/1|
 
 T Up to the Citadel|QID|27503|M|37.71,64.96|N|To Cho'gall.|
 A Just You and Garona|QID|27638|M|37.73,64.89|N|From Cho'gall.|
 
-T Just You and Garona|QID|27638|M|36.37,65.93|N|To Garona Halforcen. She's on the top of the hill, at the base of a tower.|
+T Just You and Garona|QID|27638|M|36.37,65.93|N|To Garona Halforcen. She top the hill bottom of a tower.|
 A Dark Assassins|QID|27653|M|36.37,65.93|N|From Garona Halforcen.|
 A Bring the Hammer Down|QID|27655|M|36.37,65.93|N|From Garona Halforcen.|
 A Help from the Earthcaller|QID|27658|M|36.37,65.93|N|From Garona Halforcen.|
 
-C Dark Assassins|QID|27653|M|36.46,73.71|S|N|Kill Dark Assassins and loot their pendants.|
-C Bring the Hammer Down|QID|27655|M|38.61,75.54|N|Kill Twilight Cultists.|
+C Dark Assassins|QID|27653|M|36.46,73.71|S|N|Kill dark assassins and loot their pendants|
+C Bring the Hammer Down|QID|27655|M|38.61,75.54|N|Kill cultist|
 C Dark Assassins|QID|27653|M|36.46,73.71|US|
 
 T Dark Assassins|QID|27653|M|36.34,65.97|N|To Garona Halforcen.|
@@ -476,35 +480,35 @@ T Bring the Hammer Down|QID|27655|M|36.34,65.97|N|To Garona Halforcen.|
 A Distract Them for Me|QID|27689|M|36.34,65.97|N|From Garona Halforcen.|
 A The Elementium Axe|QID|27696|M|36.34,65.97|N|From Garona Halforcen.|
 
-
+C The Elementium Axe|QID|27696|M|40.20,84.02|S|
 C Distract Them for Me|QID|27689|M|36.28,70.29|QO|Master Klem slain: 1/1|N|Down in the pit.|
 C Distract Them for Me|QID|27689|M|42.29,83.61|QO|Mia the Rose slain: 1/1|N|Second floor of this building.|
 C Distract Them for Me|QID|27689|M|43.23,88.32|QO|Dame Alys Finnsson slain: 1/1|
-C The Elementium Axe|QID|27696|M|40.20,84.02|N|Kill Blindeye the Guardian, loot his axe.|
+C The Elementium Axe|QID|27696|M|40.20,84.02|US|
 
 T Help from the Earthcaller|QID|27658|M|37.57,88.70|N|To Earthcaller Yevaa.|
 A Portal Overload|QID|27659|M|37.57,88.70|N|From Earthcaller Yevaa.|
 A Unbinding|QID|27662|M|37.57,88.70|N|From Initiate Goldmine.|
 A Spirit of the Loch|QID|27660|M|37.54,88.72|N|From Earthcaller Yevaa.|
 
-C Unbinding|QID|27662|M|40.12,77.88|S|N|Kill any Enslaved Inferno and Enslaved Tempest on sight.|
-C Portal Overload|QID|27659|M|44.47,81.45|QO|Debilitated Aetharon slain: 1/1|N|Up and high on a floating island. Right-click the Air Portal Controller and kill Aetharon.|
-C Portal Overload|QID|27659|M|38.29,79.99|QO|Debilitated Apexar slain: 1/1|N|Right-click the Earth Portal Controller and kill Apexar.|
+C Unbinding|QID|27662|M|40.12,77.88|S|N|Kill any Enslave Inferno and Tempest|
+C Portal Overload|QID|27659|M|44.47,81.45|QO|Debilitated Aetharon slain: 1/1|N|Up high on a floating plateaua|
+C Portal Overload|QID|27659|M|38.29,79.99|QO|Debilitated Apexar slain: 1/1|
 C Unbinding|QID|27662|M|40.12,77.88|US|
 T The Elementium Axe|QID|27696|M|36.39,66.01|N|To Garona Halforcen.|
 T Distract Them for Me|QID|27689|M|36.39,66.01|N|To Garona Halforcen.|
 A Dragon, Unchained|QID|27701|M|36.36,66.02|N|From Garona Halforcen.|
 
-C Portal Overload|QID|27659|M|32.71,62.41|QO|Debilitated Edemantus slain: 1/1|N|ight-click the Water Portal Controller and kill Edemantus.|
+C Portal Overload|QID|27659|M|32.71,62.41|QO|Debilitated Edemantus slain: 1/1|
 
-C Dragon, Unchained|QID|27701|U|62248|M|32.41,68.60|N|Use the Elementium Axe to Free Lirastrasza.|
+C Dragon, Unchained|QID|27701|U|62248|M|32.41,68.60|
 
 T Dragon, Unchained|QID|27701|M|36.36,65.95|N|To Garona Halforcen.|
 A Coup de Grace|QID|27703|M|36.36,65.95|N|From Garona Halforcen.|
 
-T Spirit of the Loch|QID|27660|M|27.65,63.91|N|To Countess Verrall. Underwater.|
+T Spirit of the Loch|QID|27660|M|27.65,63.91|N|To Countess Verrall.|N|Underwater.|
 A Fire the Cannon|QID|27661|M|27.65,63.91|N|From Countess Verrall.|
-C Coup de Grace|QID|27703|M|29.98,67.35|N|Kill any Twilight skyterrors you see laying wounded on the ground around the lake or inside the lake underwater.|
+C Coup de Grace|QID|27703|M|29.98,67.35|N|Kill any Twilight skyterrors you see laying wounded on the ground or in the water.|
 T Coup de Grace|QID|27703|M|36.36,65.95|N|To Garona Halforcen.|
 
 C Fire the Cannon|QID|27661|M|40.87,79.07|
@@ -512,42 +516,41 @@ C Fire the Cannon|QID|27661|M|40.87,79.07|
 T Fire the Cannon|QID|27661|M|27.64,63.87|N|To Countess Verrall.|
 A Water of Life|QID|27798|M|27.64,63.87|N|From Countess Verrall.|
 
-C Water of Life|QID|27798|U|62503|M|35.07,61.04|N|Use the Water of Life on the corpse of Forgemaster Finaly. He's underwater on the other side of the lake. Listen to him until you get the quest update.|
+C Water of Life|QID|27798|U|62503|M|35.07,61.04|N|back under the water|
 
 T Water of Life|QID|27798|M|36.34,65.97|N|To Garona Halforcen.|
 T Portal Overload|QID|27659|M|37.50,88.50|N|To Earthcaller Yevaa.|
 T Unbinding|QID|27662|M|37.52,88.65|N|To Initiate Goldmine.|
 A Mr. Goldmine's Wild Ride|QID|28885|M|37.60,88.67|N|From Initiate Goldmine.|
 
-T Mr. Goldmine's Wild Ride|QID|28885|M|38.32,93.89|N|Speak with Initiate Goldmine, get in the cart. Once you're off the cart, you might have to move around until Initiate Goldmine gets unstuck. Turn in the quest.|
+T Mr. Goldmine's Wild Ride|QID|28885|M|38.32,93.89|N|To Initiate Goldmine
 A A Little on the Side|QID|27742|M|38.32,93.89|N|From Initiate Goldmine.|
 A While We're Here|QID|27743|M|38.32,93.89|N|From Initiate Goldmine.|
-A Rune Ruination|QID|27744|M|37.47,93.23|N|From the Twilight Rune of Earth on the ground.|
+A Rune Ruination|QID|27744|M|37.47,93.23|N|From Depths Overseer.|
 
-C While We're Here|QID|27743|M|36.97,93.06|N|Kill Twilight Miners and Depths Overseer.|S|
-C A Little on the Side|QID|27742|M|36.61,93.54|N|You can find them on the floor and by killing Elementium Spinners.|S|
-C Rune Ruination|QID|27744|M|35.17,90.40|QO|Rune of Water destroyed: 1/1|
-C Rune Ruination|QID|27744|M|33.49,88.38-|QO|Rune of Air destroyed: 1/1|
+C A Little on the Side|QID|27742|M|36.61,93.54|
+C While We're Here|QID|27743|M|36.97,93.06|
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|Rune of Earth destroyed: 1/1|
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|Rune of Water destroyed: 1/1|
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|Rune of Air destroyed: 1/1|
 C Rune Ruination|QID|27744|M|34.33,86.71|QO|Rune of Fire destroyed: 1/1|
-C While We're Here|QID|27743|M|36.97,93.06|N|Kill Twilight Miners and Depths Overseer.|US|
-C A Little on the Side|QID|27742|M|36.61,93.54|N|You can find them on the floor and by killing Elementium Spinners.|US|
 
 T A Little on the Side|QID|27742|N|To Initiate Goldmine.|
 T While We're Here|QID|27743|N|To Initiate Goldmine.|
-T Rune Ruination|QID|27744|N|To Initiate Goldmine.|
+T Rune Ruination|QID|27744|N|To Depths Overseer.|
 A A Fiery Reunion|QID|27745|N|From Initiate Goldmine.|
 
-C A Fiery Reunion|QID|27745|U|62394|M|34.17,85.23;36.36,83.85|N|Kill Magmatooth, loot the Fire Portal Controller and use it at the Fire Portal, where Magmatooth was standing.|
+C A Fiery Reunion|QID|27745|U|62394|M|36.36,83.85|N|Kill the fire elemental loot and use the Fire Portal Controller|
 
 T A Fiery Reunion|QID|27745|N|To Initiate Goldmine.|
 A Garona Needs You|QID|27783|N|From Initiate Goldmine.|
 
-T Garona Needs You|QID|27783|M|36.38,65.95|N|To Garona.|
-A The Hammer of Twilight|QID|M|36.38,65.95|27786|From Garona.|
-T The Hammer of Twilight|QID|27786|M|45.40,88.00|To The Hammer of Twilight|
+T Garona Needs You|QID|27783|N|To Garona.|
+A The Hammer of Twilight|QID|27786|From Garona.|
+T The Hammer of Twilight|QID|27786|To The Hammer of Twilight|
 
 A Skullcrusher The Mountain|QID|27788|From The Hammer of Twilight|
-C Skullcrusher The Mountain|QID|27788|N|Bugged as of time this revision was done still. If you don't have a tank and a healer, just fly up and watch Lady Cozwynn take him down very slowly...|
+C Skullcrusher The Mountain|QID|27788|N|bugged as of time this revision was done still|
 T Skullcrusher The Mountain|QID|27788|
 ]]
 

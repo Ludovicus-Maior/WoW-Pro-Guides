@@ -1,4 +1,21 @@
-WoWPro.Leveling:RegisterGuide('MalSil1220', 'Silverpine Forest', 'Malorajan', '12', '20', nil, 'Horde', function()
+-- URL: http://wow-pro.com/wiki/source_code_silverpine_forest
+-- Date: 2010-12-26 01:41
+-- Who: Crackerhead22
+-- Log: Added |N| tags, fixed several |N|, fixed a few waypoints, added sticky steps, added |QO| steps, added missing quest.
+
+-- URL: http://wow-pro.com/node/3219/revisions/23325/view
+-- Date: 2010-12-03 09:02
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3219/revisions/23308/view
+-- Date: 2010-12-03 07:33
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3219/revisions/23307/view
+-- Date: 2010-12-03 07:33
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('MalSil1220', 'Silverpine Forest', 'Malorajan', '12', '20', 'AyaHil2025', 'Horde', function()
 return [[
 
 A Warchief's Command: Silverpine Forest!|QID|28568|M|66.07,49.80|Z|Undercity|N|You can pick this quest up from the Warchief's Command Board in Undercity.|

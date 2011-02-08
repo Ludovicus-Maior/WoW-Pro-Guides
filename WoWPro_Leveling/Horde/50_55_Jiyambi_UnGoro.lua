@@ -1,4 +1,12 @@
-WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_horde
+-- Date: 2010-12-03 11:53
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3262/revisions/23405/view
+-- Date: 2010-12-03 11:52
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560', 'Horde', function()
 return [[
 
 N Devilsaurs|QID|24720|N|Huge, elite, hostile dinosaurs patrol this zone, so always be aware of your surroundings! That said, this is one of prettiest and most fun zones, so don't be discouraged!|
@@ -102,7 +110,7 @@ C Shizzle's Flyer|QID|24736|M|37.04,29.06|N|Kill and loot Pterrorddaxes in the S
 C Super Sticky|QID|24737|U|50742|M|45.18,17.81|N|Use the Tar Scraper on the tar beasts that you kill.|S|
 C Hard to Harvest|NC|QID|24700|M|45.08,14.97|N|THe tar makes you swim extremely slow. Peak under the tar pit surface to see where the flow is, then hop in and out of the tar on the surface until you reach the flower's location. Then swim down, harvest it, and hop out.|
 C Super Sticky|QID|24737|U|50742|M|45.18,17.81|N|Use the Tar Scraper on the tar beasts that you kill.|US|
-C Marshal's Refuse|NC|QID|24701|M|44.12,10.94|N|The Stoen Guardian's aren't hostile, however they will attack when you try to loot the supplies. You can pull more than one at once this way, too, so be careful.| 
+C Marshal's Refuse|NC|QID|24701|M|44.12,10.94|N|The Stoen Guardian's aren't hostile, however they will attack when you try to loot the supplies. You can pull more than one at once this way, too, so be careful.|
 C Here Lies Dadanga|O|QID|24702|U|24702|M|45.47,7.75|N|If you have 10 Bloodpetal Spores, you can complete this quest for a VERY nice movement speed buff. RIP Dadanga!|
 C Crystals of Power|NC|US|QID|24720|M|44.79,17.53;37.04,29.06|N|Loot 7 yellow crystals from the big crystal nodes in this part of the zone.|QO|Yellow Power Crystal: 7/7|
 

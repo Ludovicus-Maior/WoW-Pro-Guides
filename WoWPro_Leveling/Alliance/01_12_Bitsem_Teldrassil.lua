@@ -1,4 +1,21 @@
-WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil (Night Elf)', 'Bitsem', '01', '10', 'JamDar1320', 'Alliance', function()
+-- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2011-01-29 17:21
+-- Who: Ludovicus Maior
+-- Log: Adding missing QID to Level 6 step.
+
+-- URL: http://wow-pro.com/node/3204/revisions/23274/view
+-- Date: 2010-12-02 23:14
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3204/revisions/23273/view
+-- Date: 2010-12-02 23:14
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3204/revisions/23272/view
+-- Date: 2010-12-02 23:13
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil', 'Bitsem', '1', '10', 'unknown', 'Alliance', function()
 return [[
 
 A The Balance of Nature|QID|28713|M|57.97,39.19|N|From Ilthalaine.|
@@ -127,7 +144,7 @@ T An Unexpected Gift|QID|6342|M|36.70,47.95|Z|Darnassus|N|To Leora.|
 A Return to Nyoma|QID|6343|PRE|6342|M|36.70,47.95|Z|Darnassus|N|From Leora.|
 T Return to Nyoma|QID|6343|M|56.71,53.50|N|To Nyoma.|
 
-L Level 6|LVL|6|N|You should be around level 6 by this point.|
+L Level 6|QID|489|LVL|6|N|You should be around level 6 by this point.|
 
 T Seek Redemption!|QID|489|M|59.56,49.19|N|To Zenn Foulhoof.|
 

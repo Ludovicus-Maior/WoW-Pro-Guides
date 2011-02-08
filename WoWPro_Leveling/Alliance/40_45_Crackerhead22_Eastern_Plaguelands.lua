@@ -1,3 +1,21 @@
+-- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_alliance
+-- Date: 2010-12-22 04:10
+-- Who: Crackerhead22
+-- Log: Fixed several missing |N| tags, fixed a few waypoints, fixed a few NPC and step notes, added a few Sticky steps, and fixed a couple of QIDs.
+
+-- URL: http://wow-pro.com/node/3251/revisions/23590/view
+-- Date: 2010-12-05 04:33
+-- Who: Crackerhead22
+-- Log: Removed static QID.
+
+-- URL: http://wow-pro.com/node/3251/revisions/23383/view
+-- Date: 2010-12-03 11:34
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3251/revisions/23382/view
+-- Date: 2010-12-03 11:33
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548', 'Alliance', function()
 return [[
 
@@ -277,7 +295,7 @@ T Augustus' Receipt Book|QID|27534|M|11.40,28.73|N|To Augustus the Touched.|
 C Counter-Plague Research|QID|27531|M|25.09,34.66|N|The berries are small green bushes with red berries next to the mushrooms. The arms are glittering but can be hard to spot, so look carefully. The "Flesh Giant Foot Scrapings" is near the Corpsebeasts where the waypoint is.|
 T Counter-Plague Research|QID|27531|M|17.81,27.86|N|To Argent Apothecary Judkins.|
 T Journey's End|QID|27527|U|61379|M|73.83,52.16|N|To Fiona. Use "Gidwin's Hearthstone" to save your own.
-F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc. Close this step when done.|
+F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc.  Close this step when done.|
 ]]
 
 end)

@@ -1,4 +1,17 @@
-WoWPro.Leveling:RegisterGuide('WkjFer3540', 'Feralas', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function() 
+-- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2011-01-09 00:23
+-- Who: kayeich
+-- Log: Removed Dire Maul quests
+
+-- URL: http://wow-pro.com/node/3243/revisions/23367/view
+-- Date: 2010-12-03 11:21
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3243/revisions/23366/view
+-- Date: 2010-12-03 11:20
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('WkjFer3540', 'Feralas', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function()
 
 return [[
 
@@ -224,7 +237,7 @@ T Tell Silvia|QID|25208|M|56.85,54.93|Z|Feralas|N|To Silvia.|
 
 A Might of the Sentinels|QID|25333|M|56.85,54.93|Z|Feralas|N|From Silvia.|
 
-C Might of the Sentinels|QID|25333|M|43.44,67.38|Z|Dire Maul|N|The guide may not lead you to where you need to go as we are in a weird zone. Basically head into Dire Maul. Go North every chance you can. You will come across an Arena. Drop into it and walk all the way to the north end of the Arena and wait.|
+C Might of the Sentinels|QID|25333|M|43.44,67.38|Z|Dire Maul|N|The guide may not lead you to where you need to go as we are in a weird zone.  Basically head into Dire Maul. Go North every chance you can.  You will come across an Arena. Drop into it and walk all the way to the north end of the Arena and wait.|
 
 H Feathermoon Stronghold|QID|99999|N|Hearth back to Feathermoon.|
 
@@ -318,7 +331,7 @@ A Ysondre's Farewell|QID|25438|M|81.50,42.47|N|From Ysondre.|
 
 T Ysondre's Farewell|QID|25438|M|77.19,56.54|N|To Adella.|
 
-N END|QID|99999|N|This is the End of Feralas. Time to go to Thousand Needles! I would recommend going to Darnassas now for training, banking, and auction needs. Our Thousand Needles guide starts there.|
+N END|QID|99999|N|This is the End of Feralas. Time to go to Thousand Needles! I would recommend going to Darnassas now for training, banking, and auction needs.  Our Thousand Needles guide starts there.|
 
 ]]
 

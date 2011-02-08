@@ -1,3 +1,25 @@
+-- URL: http://wow-pro.com/wiki/source_code_searing_gorge_alliance
+-- Date: 2011-01-04 20:08
+-- Who: Crackerhead22
+-- Log: Changed date on Change log to correct date.
+
+-- URL: http://wow-pro.com/node/3255/revisions/23925/view
+-- Date: 2011-01-04 17:34
+-- Who: Crackerhead22
+-- Log: Added notes, added more sticky steps, fixed notes, fixed steps not auto-completing, fixed wrong steps.
+
+-- URL: http://wow-pro.com/node/3255/revisions/23394/view
+-- Date: 2010-12-03 11:42
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3255/revisions/23391/view
+-- Date: 2010-12-03 11:41
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3255/revisions/23390/view
+-- Date: 2010-12-03 11:40
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', '48', '50', 'CraBur5052', 'Alliance', function()
 return [[
 

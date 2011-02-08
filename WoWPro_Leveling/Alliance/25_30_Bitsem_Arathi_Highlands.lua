@@ -1,3 +1,29 @@
+-- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2010-12-25 03:17
+-- Who: Crackerhead22
+-- Log: Removed quests that did not belong in Arathi Highlands.
+
+-- URL: http://wow-pro.com/node/3229/revisions/23714/view
+-- Date: 2010-12-09 12:49
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3229/revisions/23713/view
+-- Date: 2010-12-09 12:47
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3229/revisions/23712/view
+-- Date: 2010-12-09 12:44
+-- Who: Gylin
+-- Log: Removed P tags on lines 68 and 130
+
+-- URL: http://wow-pro.com/node/3229/revisions/23334/view
+-- Date: 2010-12-03 10:07
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3229/revisions/23333/view
+-- Date: 2010-12-03 10:07
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('BitAra2025', 'Arathi Highlands', 'Bitsem', '25', '30', 'CraHin3035', 'Alliance', function()
 return [[
 

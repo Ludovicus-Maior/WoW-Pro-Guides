@@ -1,8 +1,38 @@
-WoWPro.Leveling:RegisterGuide('WkjSotBar3035', 'Southern Barrens', 'WKJezz', '25', '30', 'WkjDus3540', 'Alliance', function() 
+-- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2011-01-04 17:53
+-- Who: Fluclo
+-- Log: Added another hill to A Line in the Dirt, and added some notes, also reorganised Fields of Blood quest since you'll take out many grunts in the Capture the Hill quest.
+
+-- URL: http://wow-pro.com/node/3235/revisions/23926/view
+-- Date: 2011-01-04 17:46
+-- Who: Fluclo
+-- Log: Updated Run QID for The Nightmare Scar
+--	Removed the quest Heartswood which was an old Warlock quest that is no longer in the game
+--	Removed the quest The Orb of Soran'ruk which was an old Warlock quest that is no longer in the game
+--	Added note for Clap 'Em In Irons
+
+-- URL: http://wow-pro.com/node/3235/revisions/23923/view
+-- Date: 2011-01-03 22:44
+-- Who: Fluclo
+-- Log: Changed level from 25-30 to 30-35
+--	Updated first couple of quests to take both likely scenarios of following previous quest chain, or the Hero's Call.
+--	Updated QID on Ride back from Captain Fisher
+--	Added turn-in note for Langridge Shot
+--	Tweaked Lifting the Siege/Silencing Rageroar
+
+-- URL: http://wow-pro.com/node/3235/revisions/23349/view
+-- Date: 2010-12-03 10:51
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3235/revisions/23348/view
+-- Date: 2010-12-03 10:50
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('WkjSotBar3035', 'Southern Barrens', 'WKJezz', '30', '35', 'WkjDus3540', 'Alliance', function()
 
 return [[
 
-R Stonetalon Pass|QID|24862|N|Welcome to the Southern Barrens guide. This guide starts off where Stonetalon Mountains leaves off with the lead-up quest All's Clear. Alternatively, take the Hero's Call: Southern Barrens quest from Darnassus or Exodar. For both, head to Commander Walpole at Stonetalon Pass, and hand in the respective quest.|M|29.89,8.97|
+R Stonetalon Pass|QID|24862|N|Welcome to the Southern Barrens guide.  This guide starts off where Stonetalon Mountains leaves off with the lead-up quest All's Clear. Alternatively, take the Hero's Call: Southern Barrens quest from Darnassus or Exodar.  For both, head to Commander Walpole at Stonetalon Pass, and hand in the respective quest.|M|29.89,8.97|
 
 T All's Clear|QID|25852|O|M|29.85,9.00|N|To Commander Walpole.|
 T Hero's Call: Southern Barrens! |QID|28550|O|M|29.89,8.97|To Commander Walpole.|
@@ -202,9 +232,9 @@ C Diplomacy By Another Means|QID|25044|U|49782|M|43.05,41.87|N|Blow the horn in 
 
 T Diplomacy By Another Means|QID|25044|M|43.02,41.73|N|UI Alert.|
 
-C Fields of Blood|QID|25043|S|M|31.87,30.50|Take out the grunts. The Capture the Hill quest will spawn about eight of the ten grunts needed.|
+C Fields of Blood|QID|25043|S|M|31.87,30.50|Take out the grunts.  The Capture the Hill quest will spawn about eight of the ten grunts needed.|
 
-C A Line in the Dirt|QID|25045|M|46.32,47.23;49.43,54.03|N|Capture the Hill then defend it. Don't reclick the hill if you lose control of it, or the number of mobs will multiply. If you lose control, fall back and try again later, or try another hill|
+C A Line in the Dirt|QID|25045|M|46.32,47.23;49.43,54.03|N|Capture the Hill then defend it.  Don't reclick the hill if you lose control of it, or the number of mobs will multiply.  If you lose control, fall back and try again later, or try another hill|
 
 C Fields of Blood|QID|25043|US|M|46.35,47.19|
 
@@ -350,7 +380,7 @@ A Bael'dun Rescue|QID|25153|M|49.39,86.92|N|From Bael'dun Survivor.|
 
 A Who Did This?|QID|25163|M|49.59,87.14|N|From Wounded Bael'dun Officer.|
 
-N WARNING: Read this.|QID|99999|N|Some people do not ready quest text closely. The fire in the keep will 1 shot you. If you are at level for this zone. Every time you are near a valve (they bubble) stand by it and activate it. You will be protected. You need to do this in regularly, not just one time. (Click the check box to continue)|
+N WARNING: Read this.|QID|99999|N|Some people do not ready quest text closely.  The fire in the keep will 1 shot you. If you are at level for this zone.  Every time you are near a valve (they bubble) stand by it and activate it.  You will be protected. You need to do this in regularly, not just one time. (Click the check box to continue)|
 
 C Bael'dun Rescue|QID|25153|S|M|49.41,86.88|
 
@@ -392,7 +422,7 @@ T The Deed Is Done|QID|25185|M|43.48,78.27|N|To General Twinbraid.|
 
 A Reinforcements From Theramore|QID|26687|M|43.48,78.27|N|From General Twinbraid.|
 
-N The End.|QID|99999|N|Well Done on your achievement. The next zone is Dustwallow Marsh. Close this step and you will lead right into it. If you wish to try a different zone you can right click the title of this addon and load a new guide from our Guide list. WKjezz|
+N The End.|QID|99999|N|Well Done on your achievement.  The next zone is Dustwallow Marsh. Close this step and you will lead right into it.  If you wish to try a different zone you can right click the title of this addon and load a new guide from our Guide list. WKjezz|
 
 ]]
 

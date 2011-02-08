@@ -1,3 +1,15 @@
+-- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2010-12-03 22:17
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3290/revisions/23471/view
+-- Date: 2010-12-03 22:17
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3290/revisions/23470/view
+-- Date: 2010-12-03 22:16
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamBor7173", "Borean Tundra", "Jame", "71", "73", "JamDra7375", "Horde", function()
 --> Original guides written/designed by [Jame]
 -->
@@ -457,7 +469,7 @@ T Monitoring the Rift: Sundered Chasm |QID|11582|M|45.0,33.4|
 A Monitoring the Rift: Winterfin Cavern |QID|12728|M|45.0,33.4|
 T The Borean Inquisition |QID|11646|N|In the mage tower just next to you.|M|46.3,32.8|
 A The Art of Persuasion |QID|11648|M|46.3,32.8|
-C The Art of Persuasion |QID|11648|U|34811|N|Use the Neural Needler on the Imprisoned Beryl Sorcerer till he speaks.| 
+C The Art of Persuasion |QID|11648|U|34811|N|Use the Neural Needler on the Imprisoned Beryl Sorcerer till he speaks.|
 T The Art of Persuasion |QID|11648|M|46.3,32.8|
 A Sharing Intelligence |QID|11663|M|46.3,32.8|
 T Sharing Intelligence |QID|11663|M|45.3,33.3|

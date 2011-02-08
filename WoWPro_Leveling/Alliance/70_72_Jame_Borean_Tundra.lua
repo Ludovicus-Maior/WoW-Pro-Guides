@@ -1,9 +1,51 @@
+-- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2011-01-18 19:23
+-- Who: Fluclo
+-- Log: Added NonCombat tag to quest Khu'nok Will Know 
+
+-- URL: http://wow-pro.com/node/3289/revisions/24014/view
+-- Date: 2011-01-18 19:04
+-- Who: Fluclo
+-- Log: Added QID to Flying so that it doesn't show each time the guide is reset
+
+-- URL: http://wow-pro.com/node/3289/revisions/24013/view
+-- Date: 2011-01-18 18:58
+-- Who: Fluclo
+-- Log: Changed Overcharged Capacity to Buy instead of Note
+
+-- URL: http://wow-pro.com/node/3289/revisions/24012/view
+-- Date: 2011-01-18 18:52
+-- Who: Fluclo
+-- Log: Added more info for Overcharged Capacitor step
+
+-- URL: http://wow-pro.com/node/3289/revisions/23975/view
+-- Date: 2011-01-10 15:07
+-- Who: Crackerhead22
+-- Log: ;
+
+-- URL: http://wow-pro.com/node/3289/revisions/23946/view
+-- Date: 2011-01-07 22:46
+-- Who: Crackerhead22
+-- Log: Cleaned up(condensed) code, added quest accept and turn-in of "Hero's Call: Northrend!" and added note about purchasing Cold Weather Flying.
+
+-- URL: http://wow-pro.com/node/3289/revisions/23860/view
+-- Date: 2010-12-30 03:47
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3289/revisions/23469/view
+-- Date: 2010-12-03 22:16
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3289/revisions/23468/view
+-- Date: 2010-12-03 22:13
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("JamBor7072", "Borean Tundra", "Jame", "70", "72", "JamHow7274", "Alliance", function()
 return [[
 
-N Overcharged Capacitor |QID|11650|N|Find an engineer or visit the AH to acquire an Overcharged Capacitor. If possible, leave it in your delivery box to save space.|M|62.9,71.7|Z|Stormwind City|
-N Cold Weather Flying|N|Purchase Cold Weather Flying from Bralla Cloudwing for 500 gold(faction discounts apply).|M|70.29,73.37|Z|Stormwind City|
-A Hero's Call: Northrend!|QID|28709|Z|Stormwind City|N|From Hero's Call Board. May not show if your level is too high.|M|62.9,71.7|
+B Overcharged Capacitor |QID|11650|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest pays out 4g70s and 20k XP and leads to two further quests each worth the same (and one with a 2-3g green reward), so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|M|62.9,71.7|Z|Stormwind City|
+N Cold Weather Flying|QID|11672|N|Purchase Cold Weather Flying from Bralla Cloudwing for 500 gold(faction discounts apply).|M|70.29,73.37|Z|Stormwind City|
+A Hero's Call: Northrend! |QID|28709|N|From the Hero's Callboard in Darnassus, Ironforge, or either Callboard in Stormwind City.  May not show if your level is too high.|M|62.9,71.7|Z|Stormwind City|
 R Stormwind Harbor |QID|11672|N|Go to Stormwind Harbor.|Z|Stormwind City|M|27.06,25.50|
 b Valiance Keep |QID|11672|N|Take the boat from the north dock to get to Valiance Keep.|Z|Stormwind City|M|18.01,25.48|
 f Valiance Keep |QID|11672|N|Get the flight path at Valiance Keep.|M|58.94,68.30|
@@ -110,7 +152,7 @@ C Ears of Our Enemies |QID|11866|N|Kill Loot Crazed enemies south of D.E.H.T.A.|
 T Unfit for Death |QID|11865|N|To Zaza at the D.E.H.T.A. Encampment.|M|56.80,44.03|
 A The Culler Cometh |QID|11868|N|From Zaza|M|56.80,44.03|
 T Help Those That Cannot Help Themselves |QID|11876|N|To Arch Druid Lathorius.|M|57.06,44.30|
-A Khu'nok Will Know |QID|11878|N|From Arch Druid Lathorius.|M|57.06,44.30|
+A Khu'nok Will Know |QID|11878|NC|N|From Arch Druid Lathorius.|M|57.06,44.30|
 T Ears of Our Enemies |QID|11866|N|To Arch Druid Lathorius.|M|57.06,44.30|
 T Happy as a Clam |QID|11869|N|To Heirophant Cenius|M|57.33,44.08|
 A The Abandoned Reach |QID|11870|N|From Heirophant Cenius|M|57.33,44.08|
@@ -234,7 +276,7 @@ T A Father's Words |QID|11620|N|Go to the Shrine of Scales southwest and turn th
 A The Trident of Naz'jan |QID|11625|M|43.6,80.5|N|From Veehja.|
 C The Trident of Naz'jan |QID|11625|N|Swim/fly southeast to Riplash Ruins. Kill Ragnar Drakkarlund and loot the Trident of Naz'jan.|M|53.13,90.70|
 T The Trident of Naz'jan |QID|11625|N|Back to Veehja at the Shrine of Scales.|M|43.63,80.62|
-A The Emissary |QID|11626|M|43.6,80.5|N|From Veehja.|
+A The Emissary |QID|11626|M|43.6,80.5|N|From  Veehja.|
 C The Emissary |QID|11626|U|35850|N|Swim to the large iceberg at Riplash Ruins and dive down to find Leviroth. Use the Trident of Naz'jan on him and finish him off.|M|51.40,88.19|
 T The Emissary |QID|11626|N|To Karuk.|M|47.15,75.39|N|To
 C The Culler Cometh |QID|11868|N|Kill Karen at the far south edge of this field.|M|57.20,56.03|

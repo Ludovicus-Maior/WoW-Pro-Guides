@@ -1,6 +1,26 @@
-WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'LiaTwi8485', 'Horde', function() 
-return [[
+-- URL: http://wow-pro.com/wiki/source_code_uldum_horde
+-- Date: 2010-12-12 04:16
+-- Who: Jiyambi
 
+-- URL: http://wow-pro.com/node/3310/revisions/23719/view
+-- Date: 2010-12-09 14:02
+-- Who: MagicSN
+
+-- URL: http://wow-pro.com/node/3310/revisions/23629/view
+-- Date: 2010-12-06 08:47
+-- Who: Bitsem
+-- Log: Made all the changes from the comment. Will post the one that I didn't make and one extra that I did in comments.
+
+-- URL: http://wow-pro.com/node/3310/revisions/23515/view
+-- Date: 2010-12-03 23:27
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3310/revisions/23514/view
+-- Date: 2010-12-03 23:25
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'LiaTwi8485', 'Horde', function()
+return [[
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|
 C Easy Money|QID|27003|N|Click on the camel, Lady Humps.|
@@ -77,7 +97,6 @@ C Just the Tip|QID|27176|M|68.08,31.51|L|60868|U|60859|M|67.91,31.44|N|Kill Sult
 C Field Work|QID|27179|M|63.50,31.33|N|Kill Sand Pygmys and loot Ornate Tablet Fragments. You can also find them lying around in this area.|
 C Do the World a Favor|QID|27187|M|64.38,32.13|N|Kill Mangy Hyenas.|US|
 
-
 T Do the World a Favor|QID|27187|M|64.38,32.13|l
 T Field Work|QID|27179|M|64.60,28.65|N|To Harrison Jones.|
 T Just the Tip|QID|27176|M|64.60,28.65|N|To Harrison Jones.|
@@ -122,7 +141,6 @@ C Do the Honors|QID|27669|U|62054|M|64.48,31.04|N|Use the Orbs of the Stars. Wat
 T Do the Honors|QID|27669|M|63.90,33.90|N|To Harrison Jones.|
 T Impending Retribution|QID|28134|M|54.93,32.80|N|To King Phaoris.|
 
-
 A That Gleam in his Eye|QID|27899|M|54.29,35.23|N|From Adarrah.|
 T Al'Akir's Vengeance|QID|28135|M|45.23,37.92|N|To Prince Nadun.|
 
@@ -136,7 +154,6 @@ A The Prophet's Dying Words|QID|27602|M|40.03,40.57|N|From Prophet Hadassi.|
 T The Prophet's Dying Words|QID|27602|M|39.66,45.38|N|"Talk" to the Sand-Covered Hieroglyph.|
 
 A Colossal Guardians|QID|27623|M|39.66,45.38|
-
 
 C Under the Choking Sands|QID|27519|M|40.63,39.15|N|Right-click Oasis Survivors to rescue them.|S|
 C Minions of Al'Akir|QID|27520|M|41.07,38.47|S|
@@ -350,7 +367,6 @@ C Idolatry|QID|27942|M|32.98,60.99|N|Loot Well-Preserved Idols. Contained in sma
 C Angered Spirits|QID|27943|U|62794|M|32.77,65.27|N|Bring down Furious Spirits below 50% HP, then use the Licensed Proton Accelerator Cannon.|
 C Fashionism|QID|27941|M|34.47,66.97|N|Look for Dead Troopers in the area, right-click them and loot their uniforms.|US|
 C Idolatry|QID|27942|M|32.98,60.99|N|Loot Well-Preserved Idols. Contained in small sphynx statues on the ground.|US|
-
 
 T Fashionism|QID|27941|M|24.43,64.56|N|To Belloc Brightblade.|
 T Idolatry|QID|27942|M|24.45,64.11|N|To Commander Schnottz.|

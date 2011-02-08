@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2010-12-03 11:08
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3237/revisions/23352/view
+-- Date: 2010-12-03 11:07
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('BitCap3035', 'Cape of Stranglethorn', 'Bitsem', '30', '35', 'filler', 'Alliance', function()
 return [[
 

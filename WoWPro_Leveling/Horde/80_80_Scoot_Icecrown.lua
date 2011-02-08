@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2010-12-03 22:43
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3302/revisions/23495/view
+-- Date: 2010-12-03 22:37
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide("ScoIce8080", "Icecrown", "Scoot", "78", "80", "nil", "Horde", function()
 return [[
 N Icecrown: The Final Goal |QID|13164| |N|This is the hardest Zone Achievement to get in Northrend. You will have to do 12 group quests to complete it and finding groups for them is almost impossible, since the Tournament came out. Get help form your Guild or other friends. Depending on your class, gear and skill level you may be able to solo some or all of them. It is optional to pick up the first quest in each chain when they become available (I suggest you do), but at least you will know where they are. You can wait until the end to do them if you want. The turn in steps are at the end. Read Lightheaded for strategies.|
@@ -29,8 +37,6 @@ T If He Cannot Be Turned |QID|12897| |N|Back to Orgrim's Hammer. It moves around
 A The Shadow Vault |QID|12899|
 T The Shadow Vault |QID|12899| |N|Back to Baron Sliver. He has moved to .|M|42.86,24.99|
 
-
-
 A The Duke |QID|12938|
 A Blackwatch |QID|13106|
 f Shadow Vault |QID|12938| |N|Get the Flight Path. |M|43.74,24.30|
@@ -55,8 +61,8 @@ T Honor Challenge |QID|12939|
 A Shadow Vault Decree |QID|12943|
 
 A Get the Key |QID|12949| |N|Go back to the Savage Ledge . Vaelen the Flayed is chained to the wall at the back of the hall.|M|37,23|
-C Shadow Vault Decree |QID|12943| |N|Find Thane Ufrang the Mighty on his throne and read the Shadow Vault Decree to him. Then kill him.| 
-C Get the Key |QID|12949| |N|Instructor Hroegar is outside, kill him and get the key.| 
+C Shadow Vault Decree |QID|12943| |N|Find Thane Ufrang the Mighty on his throne and read the Shadow Vault Decree to him. Then kill him.|
+C Get the Key |QID|12949| |N|Instructor Hroegar is outside, kill him and get the key.|
 T Get the Key |QID|12949| |N|Back to Vaelen.|
 
 A Let the Baron Know |QID|12951|
@@ -75,17 +81,17 @@ A Ebon Blade Prisoners |QID|12982|
 T The Bone Witch |QID|12999| |N|She's in a cave in Njorndar Village .|M|32.34,42.69|
 
 A Reading the Bones |QID|13093|
-T Reading the Bones |QID|13093| |N|It takes 15 Vrykul Bones, you should have enough. The quest is repeatable after this. Remember to turn them in everytime you can.| 
+T Reading the Bones |QID|13093| |N|It takes 15 Vrykul Bones, you should have enough. The quest is repeatable after this. Remember to turn them in everytime you can.|
 
 A Deep in the Bowels of The Underhalls |QID|13042|
 N Multiple Quests |QID|13084| |N|You're getting ready to do several quests at a time. Kill anything you see and plant the Ebon Blade Banner on the corpse, burn Vrykul banners and get keys to rescue prisoners. Keep the bones you collect too.|
 C Ebon Blade Prisoners |QID|12982| |N|Head to the SW around . Kill Vrykul and look for keys to the cages. DO NOT get on your flying mount while the Ebon Blade Prisoners are following you, they will get aggro anyway and you will have to deal with it when you land. Don't forget to plant banners in the bodies. Burn any Vrykul Banners you see.| |U|42480|M|22,57|
 C Crush Dem Vrykuls! |QID|12992| |N|Kill any more Vrykul you need and plant the banner.| |U|42480|
 C Leave Our Mark |QID|12995| |N|You should be done by now, but if you're not continue until you are.| |U|42480|
-C Vandalizing Jotunheim |QID|13084| |N|Burn any more banners you still need.| 
+C Vandalizing Jotunheim |QID|13084| |N|Burn any more banners you still need.|
 F The Underhalls |QID|13043| |N|Fly over to the Underhalls .|M|32.56,32.26|
 
-A Revenge for the Vargul |QID|13059| |N|Inside the Underhalls, go straight back the take a left.| 
+A Revenge for the Vargul |QID|13059| |N|Inside the Underhalls, go straight back the take a left.|
 C Revenge for the Vargul |QID|13059| |N|Turn around, go straight ahead, down the stairs into the first room. Throw out the sword to challenge. You'll fight three guys here. First from the left, then the right, then the main guy.| |U|42928|
 C Deep in the Bowels of The Underhalls |QID|13042| |N|Go out of the room and down the stairs. He's to the left under the landing. Loot the book.|
 
@@ -104,21 +110,18 @@ T The Sum is Greater than the Parts |QID|13043|
 
 A The Art of Being a Water Terror |QID|13091|
 C The Art of Being a Water Terror |QID|13091| |N|Unlock the gate at  and use a Water Terror to kill 10 Vrykul.|M|31.36,41.13|
-T The Art of Being a Water Terror |QID|13091| |N|Back to The Bone Witch.| 
+T The Art of Being a Water Terror |QID|13091| |N|Back to The Bone Witch.|
 
 A Through the Eye |QID|13121|
 C Through the Eye |QID|13121| |N|Fly over to Kul'galar Keep  and get to the Eye of the Lich King. Hang out until you get the complete message.|M|24.97,61.05|
-T Through the Eye |QID|13121| |N|Back to The Bone Witch.| 
+T Through the Eye |QID|13121| |N|Back to The Bone Witch.|
 
 A Find the Ancient Hero |QID|13133|
 C Find the Ancient Hero |QID|13133| |N|Go into the Halls of the Ancestors at , start waking up the Slumbering Mjordins. Eventually you will wake up Iskaldar. When you get him, use the amulet.| |U|43166|M|28.04,47.06|
-T Find the Ancient Hero |QID|13133| |N|Back to The Bone Witch. Iskaldar will follow you.| 
+T Find the Ancient Hero |QID|13133| |N|Back to The Bone Witch. Iskaldar will follow you.|
 N Group Quests |QID|13213| |N|The next 3 quests from the Bone Witch are group quests. You can look for a group while questing, but do them all when you find one. Turn them in as you finish them. They lead to a 6 quest chain in the arena at Valhalas.|
 
 A Not-So-Honorable Combat |QID|13137| |O|
-
-
-
 
 F Death's Rise |QID|12806| |N|To the SW |M|19.88,48.05|
 T To the Rise with all Due Haste! |QID|12806|
@@ -158,9 +161,6 @@ T In Scrict Confindence |QID|12840|
 N Group Quests |QID|12852| |N|The last 2 quests here are group quests. Look for groups while you quest.|
 
 A Second Chances |QID|12847| |O|
-
-
-
 
 T Blackwatch |QID|13106| |N|Above the Fleshworks at .|M|35.46,66.49|
 
@@ -222,9 +222,6 @@ C Let's Get Out of Here |QID|13481| |N|Easy escort. Most of the mobs will be fig
 T The Flesh Giant Champion |QID|13235| |N|Darkrider Arly .|M|35.46,66.49|
 T Let's Get Out of Here |QID|13481| |N|Back to Orgrim's Hammer. Brother Keltan patrols around the upper and lower decks.|
 
-
-
-
 A Judgment Day Comes! |QID|13227| |N|Brother Keltan patrols around the upper and lower decks.|
 F The Argent Vanguard |QID|13227| |N|.|M|86,76|
 T Judgment Day Comes! |QID|13227| |N| Highlord Tirion Fordring at the Argent Vanguard. |M|87.48,75.86|
@@ -271,8 +268,8 @@ A It Could Kill Us All |QID|13135|
 
 A The Stone That Started A Revolution |QID|13130|
 
-A The Restless Dead |QID|13110| |N|Inside the building| 
-C The Restless Dead |QID|13110| |N|Kill the Scourge Skeletons and use the Holy Water on their corpses. Loot them for Scourgestones also.| 
+A The Restless Dead |QID|13110| |N|Inside the building|
+C The Restless Dead |QID|13110| |N|Kill the Scourge Skeletons and use the Holy Water on their corpses. Loot them for Scourgestones also.|
 C The Purging Of Scourgeholme |QID|13118| |N|Keep killing mobs until you're done. There are 2 High Priests near , you can find the other one ane the Underkings while wandering around.|M|70.80,60.17|
 C The Scourgestone |QID|13122| |N|Keep killing mobs until you're done.|
 F Ruins of Shandaral |QID|13135| |N|Head over to the Ruins of Shandaral in Crystalsong Forest .| |Z|Crystalsong Forest|M|80,62|
@@ -300,10 +297,6 @@ T The Battle For Crusaders' Pinnacle |QID|13141| |N|Back to Father Gustav in the
 
 A The Crusaders' Pinnacle |QID|13157|
 T The Crusaders' Pinnacle |QID|13157| |N|Highlord Tirion Fordring .|M|79.83,71.79|
-
-
-
-
 
 A A Tale of Valor |QID|13068|
 f Crusaders' Pinnacle |QID|13068| |N|Get the Flight Path .|M|79.46,72.30|
@@ -352,10 +345,6 @@ T Light Within the Darkness |QID|13083| |N|Back to Highlord Tirion Fordring at C
 A Orgrim's Hammer |QID|13224| |N|Inside the building on a bunk to the right .|M|79.48,72.73|
 T Orgrim's Hammer |QID|13224| |N|Back to Orgrim's Hammer. Sky-Reaver Korm Blackscar.|
 
-
-
-
-
 A The Broken Front |QID|13228|
 
 A Opportunity |QID|13258| |N|Koltira Deathweaver|
@@ -390,7 +379,7 @@ T Assault by Ground |QID|13310|
 C The Broken Front |QID|13228| |N|Head to the Broken Front . Find a Dying Berserker and talk to him.|M|69,66|
 
 A Avenge Me! |QID|13230|
-C Avenge Me! |QID|13230| |N|The Dying Soldiers are lying all around on the ground. Don't feel bad about killing them while they're helpless, Alliance aren't really people anyway.| 
+C Avenge Me! |QID|13230| |N|The Dying Soldiers are lying all around on the ground. Don't feel bad about killing them while they're helpless, Alliance aren't really people anyway.|
 T Avenge Me! |QID|13230| |N|Back to Orgrim's Hammer. Sky-Reaver Korm Blackscar.|
 T The Broken Front |QID|13228|
 
@@ -451,7 +440,7 @@ A Retest Now |QID|13356|
 N Dark Matter |QID|13358| |N| Around . Drink the Diluted Cult Tonic (it lasts 10 minutes). Kill the Void Summoners and their Minions. Use the Rod of Siphoning on the dead Voidwalker to get Dark Matter. You need 5.| |U|44433| |L|44434 5|M|54,30|
 C Not a Bug |QID|13358| |N|Click on the Crystal floating at .|M|53.77,33.69|
 N Tainted Essence |QID|13356| |N|Head towards . Keep killing mobs and collecting Tainted Essence until you have 10. Drink more Tonic if the buff runs out (10 minutes).| |U|44307| |L|44301 10|M|49,33|
-N Writhing Mass |QID|13356| |N|Use the tainted essence to make a Writhing Mass.| |U|44301| |L|44304 1| 
+N Writhing Mass |QID|13356| |N|Use the tainted essence to make a Writhing Mass.| |U|44301| |L|44304 1|
 C Retest Now |QID|13356| |N|Back to the cauldrons at . Throw the Mass into a cauldron. You will get a buff for 2 hours. Dark (closest to the stairs) = 60 Spell Power, Green (middle) = 75 Stamania, Blue (farthest form the stairs) = 100 Attack Power.| |U|43304|M|49,33|
 N Cult of the Damned Thesis |QID|13366| |N|The entrance to Aldur'thar is at . Go inside and kill the Cult Researchers to get the 3 pages. They have a knockback that hits for about 2K and drains Mana (it's instant cast too, joy). You will end up pulling 2-3 at a time, so be prepared.| |L|44459 1| |L|44460 1| |L|44461 1|M|51.91,32.33|
 C Need More Info |QID|13366| |N|Combine the pages when you get them all.| |U|44461|
@@ -473,8 +462,6 @@ C Blinding the Eyes in the Sky |QID|13313| |N|Try around . Use the rocket launch
 N Scourge Converters |N|Converters are around .| |QID|13307|QO|Scourge Converters slain: 5/5|M|48,40|
 C Bloodspatterd Banners |QID|13307| |N|Around . The groups of Converted Heroes can be pulled one at a time, if you work from the end of a line from range. Pulling more than 3 at a time is not recomended.|M|45,53|
 T Opportunity |QID|13258| |N|Sergeant Kregga . There is a gap in the wall. He's just on the other side.|M|54.95,84.22|
-
-
 
 A Establishing Superiority |QID|13259|
 C Establishing Superiority |QID|13259| |N|They're around everywhere.|
@@ -563,7 +550,7 @@ N Weeping Quarry Ledger |QID|13174| |N|| |L|43689 1|M|39.17,36.71|
 N Weeping Quarry Map |QID|13174| |N|| |L|43691 1|M|38.69,39.41|
 C Amidst the Confusion |QID|13174| |N|Weeping Quarry Schedule |M|37.22,41.67|
 T Seeds of Chaos |QID|13172| |N|Back to the Shadow Vault, Keritose Bloodblade .|M|44.05,24.56|
-T Amidst the Confusion |QID|13174| 
+T Amidst the Confusion |QID|13174|
 
 A Vereth the Cunning |QID|13155|
 T Vereth the Cunning |QID|13155| |N|Vereth the Cunning is on the Rise of Suffering .|M|53.91,71.42|
@@ -591,21 +578,16 @@ A The Rider of the Unholy |QID|13161| |O|
 A The Rider of Frost |QID|13162| |O|
 A The Rider of Blood |QID|13163| |O|
 
-
-
-
-
 C Not-So-Honorable Combat |QID|13137| |N|| |O|M|28.6,51.8|
 T Not-So-Honorable Combat |QID|13137| |O|
 
 A Banshee's Revenge |QID|13142| |PRE|13137| |O|
 C Banshee's Revenge |QID|13142| |N|| |O|M|17.5,56.1|
-T Banshee's Revenge |QID|13142| |O| 
+T Banshee's Revenge |QID|13142| |O|
 
 A Battle at Valhalas |QID|13213| |PRE|13142| |O|
 T Battle at Valhalas |QID|13213| |O|
 N Battles at Valhalas (Arena) |QID|13219| |N|There are 6 quests in this arena-type chain. Some classes may be able to solo some or all of them. Turn them in as you complete them.| |PRE|13213|
-
 
 C Second Chances |QID|12847| |N|| |O|M|9.5,47.3|
 T Second Chances |QID|12847| |O|
@@ -614,7 +596,6 @@ A The Admiral Revealed |QID|12852| |PRE|12847| |O|
 C The Admiral Revealed |QID|12852| |N|| |O|M|9,49|
 T The Admiral Revealed |QID|12852| |O|
 
-
 C Against the Giants |QID|13277| |N| and (70,72)| |O|M|65,59|
 T Against the Giants |QID|13277| |O|
 
@@ -622,10 +603,8 @@ A Basic Chemistry |QID|13279| |PRE|13277| |O|
 C Basic Chemistry |QID|13279| |N|| |O|M|63,62|
 T Basic Chemistry |QID|13279| |O|
 
-
 C No Rest For The Wicked |QID|13367| |O|
 T No Rest For The Wicked |QID|13367| |O|
-
 
 C The Rider of the Unholy |QID|13161| |N|| |O|M|56.2,80.2|
 C The Rider of Frost |QID|13162| |N|| |O|M|61.9,68.6|

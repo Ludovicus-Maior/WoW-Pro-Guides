@@ -1,4 +1,26 @@
-WoWPro.Leveling:RegisterGuide('JiyEas4045', 'Eastern Plaguelands', 'Jiyambi', '40', '45', 'LiaBad4548', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_horde
+-- Date: 2010-12-28 05:29
+-- Who: Crackerhead22
+-- Log: Quests "The Battle Must Go On" and "Moving Things Along" removed since they are not part of this zone.
+
+-- URL: http://wow-pro.com/node/3252/revisions/23835/view
+-- Date: 2010-12-28 04:56
+-- Who: Crackerhead22
+-- Log: Added missing steps for the quest "Into the Flames".
+
+-- URL: http://wow-pro.com/node/3252/revisions/23636/view
+-- Date: 2010-12-06 09:41
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3252/revisions/23385/view
+-- Date: 2010-12-03 11:35
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3252/revisions/23384/view
+-- Date: 2010-12-03 11:35
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyEas4045', 'Eastern Plaguelands', 'Jiyambi', '40', '45', 'LiaBad4548', 'Horde', function()
 return [[
 
 R Eastern Plaguelands|M|10.09,65.72|N|Head to Fiona's Caravan, just across the bridge from the Western Plaguelands.|

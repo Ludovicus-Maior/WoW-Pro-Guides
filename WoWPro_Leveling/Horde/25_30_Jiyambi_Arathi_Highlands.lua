@@ -1,4 +1,12 @@
-WoWPro.Leveling:RegisterGuide('JiyAra2530', 'Arathi Highlands', 'Jiyambi', '25', '30', 'JiyHin3035', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2010-12-03 10:09
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3230/revisions/23335/view
+-- Date: 2010-12-03 10:08
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyAra2530', 'Arathi Highlands', 'Jiyambi', '25', '30', 'JiyHin3035', 'Horde', function()
 return [[
 
 A Warchief's Command: Arathi Highlands!|QID|28619|O|M|56.53,47.02|Z|Hillsbrad Foothills|N|From High Warlord Cromush.|

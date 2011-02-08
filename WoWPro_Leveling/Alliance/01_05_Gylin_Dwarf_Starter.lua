@@ -1,6 +1,47 @@
-WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh (Dwarf)", "Gylin", "01", "05", "GamDun0510", "Alliance", function()
+-- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-02-05 01:18
+-- Who: Ludovicus Maior
+-- Log: Removed extra tabs and whitespace.
+--	Removed empty tags (aka ||'s).
+
+-- URL: http://wow-pro.com/node/3200/revisions/24083/view
+-- Date: 2011-01-30 19:28
+-- Who: Ludovicus Maior
+-- Log: Corrected RegisterGuide to match GIT
+
+-- URL: http://wow-pro.com/node/3200/revisions/24063/view
+-- Date: 2011-01-27 19:12
+-- Who: Ludovicus Maior
+-- Log:  WoWPro.Leveling
+
+-- URL: http://wow-pro.com/node/3200/revisions/23812/view
+-- Date: 2010-12-22 06:20
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3200/revisions/23632/view
+-- Date: 2010-12-06 09:00
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3200/revisions/23631/view
+-- Date: 2010-12-06 08:58
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3200/revisions/23319/view
+-- Date: 2010-12-03 07:56
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3200/revisions/23261/view
+-- Date: 2010-12-02 21:47
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3200/revisions/23260/view
+-- Date: 2010-12-02 21:46
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh", "Gylin - Dwarf", "01", "05", "GylDun0512", "Alliance", function()
 return
 [[
+
 A Hold the Line! |QID|24469| |M|36.90,70.11||Z|Dun Morogh| |N|From Joren Ironstock|
 C Hold the Line! |QID|24469| |M|36.54,71.73| |Z|Dun Morogh||QO|Rockjaw Invader slain: 6/6|
 T Hold the Line! |QID|24469| |M|36.84,70.14||Z|Dun Morogh| |N|To Joren Ironstock|
@@ -96,7 +137,7 @@ C A Refugee's Quandary |NC| |QID|3361| |M|29.77,78.46||Z|Dun Morogh| |QO|Felix's
 C Trolling for Information |NC| |QID|24489| |M|29.66,78.63||Z|Dun Morogh| |N|Stand near the Soothsayer and wait for them to speak| |QO|Soothsayer Rikkari Scouted: 1/1|
 C A Refugee's Quandary |NC| |QID|3361| |M|33.31,77.83||Z|Dun Morogh| |QO|Felix's Bucket of Bolts: 1/1|
 C Trolling for Information |NC| |QID|24489| |M|33.35,77.75||Z|Dun Morogh| |N|Stand near the Soothsayer and wait for them to speak| |QO|Soothsayer Shi'kala Scouted: 1/1|
-C The Troll Menace |US||QID|182||M|33.31,77.83||Z|Dun Morogh| |N|Kill any remaining Trolls you need| |QO|Frostmane Troll Whelp slain: 10/10|
+C The Troll Menace |US||QID|182||M|33.31,77.83||Z|Dun Morogh|  |N|Kill any remaining Trolls you need| |QO|Frostmane Troll Whelp slain: 10/10|
 
 L Level 4 |LVL|4| |QID|24489| |N|You should be around level 4 by this point|
 

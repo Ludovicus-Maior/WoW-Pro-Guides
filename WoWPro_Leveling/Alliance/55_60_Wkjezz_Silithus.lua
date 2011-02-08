@@ -1,5 +1,19 @@
+-- URL: http://wow-pro.com/wiki/source_code_silithus_alliance
+-- Date: 2010-12-05 04:21
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3269/revisions/23420/view
+-- Date: 2010-12-03 12:06
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3269/revisions/23419/view
+-- Date: 2010-12-03 12:06
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('WkjSil5560', 'Silithus', 'Wkjezz', '55', '60', 'JamHel6062', 'Alliance', function()
-return [[H Marshal's Stand|QID|99999|Z|Un'goro Crater|N|Hearth or Fly to Marshal's Stand in Un'goro Crater|
+return [[
+
+H Marshal's Stand|QID|99999|Z|Un'goro Crater|N|Hearth or Fly to Marshal's Stand in Un'goro Crater|
 A The Dunes of Silithus|QID|28859|M|55.69,60.68|Z|Un'Goro Crater|N|From Zen'Aliri.|
 R Repair/Sell Junk|QID|99999|NC|CC|M|54.99,61.85|Z|Un'goro Crater|N|Go see Gibbert.|
 F Mossy Pile|QID|99999|
@@ -83,7 +97,7 @@ R Run here.|QID|99999|CC|M|35.31,60.30|N|The way out.|
 R Run here.|QID|99999|CC|M|52.69,25.18|N|Bottom of the spiral. East facing tunnel.|
 C Glyph Chasing|QID|8309|US|M|54.59,25.93|
 C Breaking the Code|QID|8310|M|49.36,29.15|N|Kill bugs till one loses their brain!|
-A Brann Bronzebeard's Lost Letter|QID|8308|O|U|20461|M|56.83,75.51|N|This could drop off any of the Silithid Mobs. On various tests i have looted this 3/4 times. Skip this if you want to, otherwise farm bugs until you get it or give up all hope.|
+A Brann Bronzebeard's Lost Letter|QID|8308|O|U|20461|M|56.83,75.51|N|This could drop off any of the Silithid Mobs.  On various tests i have looted this 3/4 times.  Skip this if you want to, otherwise farm bugs until you get it or give up all hope.|
 T Noggle's Lost Satchel|QID|8282|M|55.27,36.21|N|To Noggle Ficklespragg top floor.|
 T Into The Maw of Madness|QID|8306|M|53.25,32.57|N|To Commander Mar'alith.|
 T Glyph Chasing|QID|8309|M|46.43,79.02|N|To Rutgar Glyphshaper.|

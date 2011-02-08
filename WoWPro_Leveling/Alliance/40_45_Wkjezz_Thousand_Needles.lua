@@ -1,7 +1,57 @@
-WoWPro.Leveling:RegisterGuide('WkjTho4045', 'Thousand Needles', 'Wkjezz', '40', '45', 'WkjTan4550', 'Alliance', function() 
+-- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2011-01-30 19:37
+-- Who: Ludovicus Maior
+-- Log: Corrected RegisterGuide line to match GIT
+
+-- URL: http://wow-pro.com/node/3253/revisions/23974/view
+-- Date: 2011-01-10 11:35
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3253/revisions/23973/view
+-- Date: 2011-01-10 11:33
+-- Who: Fluclo
+-- Log: Various updates to log to improve flow
+
+-- URL: http://wow-pro.com/node/3253/revisions/23952/view
+-- Date: 2011-01-07 23:57
+-- Who: Fluclo
+-- Log: Corrected and improved In the Outhouse quest
+
+-- URL: http://wow-pro.com/node/3253/revisions/23951/view
+-- Date: 2011-01-07 23:45
+-- Who: Fluclo
+-- Log: Corrected the starting note for In the Outhouse
+
+-- URL: http://wow-pro.com/node/3253/revisions/23949/view
+-- Date: 2011-01-07 23:42
+-- Who: Fluclo
+-- Log: Added a seperate step to buy a bottle of grog for Bar Fight, fixed typo on note
+
+-- URL: http://wow-pro.com/node/3253/revisions/23947/view
+-- Date: 2011-01-07 23:35
+-- Who: Fluclo
+-- Log: Added starting information on how to get there, the three optional breadcrumb quests, corrected turnin QID for The Grimtotem are Coming and added a note of warning for quest Two If By Boat.
+
+-- URL: http://wow-pro.com/node/3253/revisions/23603/view
+-- Date: 2010-12-05 07:59
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3253/revisions/23602/view
+-- Date: 2010-12-05 07:58
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3253/revisions/23387/view
+-- Date: 2010-12-03 11:37
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3253/revisions/23386/view
+-- Date: 2010-12-03 11:36
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('WkjTho4045', 'Thousand Needles', 'Wkjezz', '40', '45', 'WkjTan4550', 'Alliance', function()
 return [[
 
-F New Thalanaar |QID|25486|N|There's two ways to Thousand Needles, and that's by going via Falfindel Waywarder in Shadebough, Feralas or via Dyslix Silvergrub in Mudsprocket, Dustwallow Marsh. Both give the quest To New Thalanaar that gives you the ability to speak to the flight master for a discovery flight to New Thalanaar. Alternatively, if you already know how to get to New Thalanaar, you can take Hero's Call: Thousand Needles! from Darnassus or The Exodar.|
+F New Thalanaar |QID|25486|N|There's two ways to Thousand Needles, and that's by going via Falfindel Waywarder in Shadebough, Feralas or via Dyslix Silvergrub in Mudsprocket, Dustwallow Marsh.  Both give the quest To New Thalanaar that gives you the ability to speak to the flight master for a discovery flight to New Thalanaar.  Alternatively, if you already know how to get to New Thalanaar, you can take Hero's Call: Thousand Needles! from Darnassus or The Exodar.|
 
 T Hero's Call: Thousand Needles |QID|28503|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 T To New Thalanaar |QID|25479|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
@@ -9,7 +59,9 @@ T To New Thalanaar |QID|25481|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|
 C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
 T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|To Rendow.|
-A Two If By Boat|QID|25488|M|88.53,44.27|Z|Feralas|N|From Rendow. Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
+A Two If By Boat|QID|25488|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle
+&
+Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
 T Two If By Boat|QID|25488|M|75.93,74.59|N|To Fizzle Brassbolts (at the top)|
 A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|
 C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
@@ -30,7 +82,9 @@ K Pirate Treasure Hunters |QID|25524|L|54821|M|80.00, 75.00|N|Kill Pirate Treasu
 C In the Outhouse|QID|25524|U|54821|M|79.61,75.03|N|Use the Pirate's Crowbar on the Outhouse|
 T In the Outhouse|QID|25524|M|79.58,75.09|N|To Submerged Outhouse|
 C Down in the Deeps|QID|25515|US|M|80.61,76.83|Collect Rocket Car Parts from the ground.|
-f Fizzle & Pozzik's Speedbarge|QID|25524|M|79.16,71.95|N|At Tilly Topspin, back onto the Speedbarge.|
+f Fizzle
+&
+Pozzik's Speedbarge|QID|25524|M|79.16,71.95|N|At Tilly Topspin, back onto the Speedbarge.|
 T Down in the Deeps|QID|25515|M|76.50,73.64|N|To Jinky Twizzlefixxit.|
 A Pirate Accuracy Increasing|QID|25532|M|76.50,73.64|
 C Pirate Accuracy Increasing|QID|25532|M|78.89,75.71|QO|Get a boat from Mazzer: 1/1|N|Speak to Mazzar on the south pontoon and tell him to get you into your boat.|
@@ -66,7 +120,7 @@ A Haunted|QID|25660|M|91.67,78.67|N|From Spirit of Tony Two-Tusk.|
 T Haunted|QID|25660|M|96.81,72.41|N|To Ajamon Ghostcaller.|
 A With a Little Help...|QID|25661|M|96.81,72.41|N|From Ajamon Ghostcaller.|
 C With a Little Help...|QID|25661|L|55196|M|91.03,68.93|N|Kill "Evil Dolly" and loot her heart, in the Captain's Room (bottom of ship) on the most northern boat.|
-C With a Little Help...|QID|25661|L|55197|M|88.09,73.92|N|Kill Seadog Fajardo on the next ship just inside the middle cabin and loot his lungs. To get onto the boat, find the Rope Ladder and climb it.|
+C With a Little Help...|QID|25661|L|55197|M|88.09,73.92|N|Kill Seadog Fajardo on the next ship just inside the middle cabin and loot his lungs.  To get onto the boat, find the Rope Ladder and climb it.|
 C With a Little Help...|QID|25661|L|55199|M|88.46,77.03|N|Kill Lilly Landlubber on the southern most ship at the wheel (top) and loot her Liver, again using the Rope Ladder to get onto the ship.|
 T With a Little Help...|QID|25661|M|96.84,72.41|N|Climb up the mountains and head to Ajamon Ghostcaller.|
 A Carcass Collection|QID|25672|M|96.84,72.41|N|From Ajamon Ghostcaller.|
@@ -78,7 +132,9 @@ T The Mad Magus|QID|25704|M|86.28,92.10;96.80,72.34|N|To Ajamon Ghostcaller, rem
 C Fool's Gold|QID|25774|S|M|48.05,42.85|N|Very very big gold ore nodes. Head into the cave and collect 8 (under water)|
 C The Ancient Brazier|QID|25762|U|55986|M|43.93,37.52|N|This quest is tricky. This is actually in an UNDERWATER cave. Once you enter the cave follow the left path all the way around until you find the brazier. (The co-ords point to the cave mouth).|
 C Fool's Gold|QID|25774|US|M|48.05,42.85|N|Very very big gold ore nodes. Head into the cave and collect 8 (under water)|
-H Fizzle & Pozzik's Speedbarge|QID|25774|N|Hearth. Do not turn in the quests on the steam barge yet.|
+H Fizzle
+&
+Pozzik's Speedbarge|QID|25774|N|Hearth. Do not turn in the quests on the steam barge yet.|
 T Fool's Gold|QID|25774|M|91.38,57.70|N|To Crazzle Sprysprocket.|
 A Fake Gold for Black Gold|QID|25778|M|91.36,57.65|N|From Crazzle Sprysprocket.|
 T The Ancient Brazier|QID|25762|M|90.09,52.97|N|To Skycaller Vrakthris.|
@@ -112,7 +168,9 @@ C Freezing the Pipes|QID|28047|NC|U|62912|M|64.95,85.79|
 C That Smart One's Gotta Go|QID|28048|M|64.57,85.73|
 T Freezing the Pipes|QID|28047|M|69.90,85.19|N|To Brivelthwerp.|
 T That Smart One's Gotta Go|QID|28048|M|69.90,85.19|N|To Brivelthwerp.|
-H Fizzle & Pozzik's Speedbarge|QID|25825|N|If it is down, just sail back (Click to continue)|U|55121|
+H Fizzle
+&
+Pozzik's Speedbarge|QID|25825|N|If it is down, just sail back (Click to continue)|U|55121|
 T Deliver the Goods|QID|25825|M|75.97,74.65|N|To Fizzle Brassbolts.|
 A Free Freewind Post|QID|25835|M|75.97,74.65|N|From Fizzle Brassbolts.|
 T Quiet the Cannons|QID|25585|M|76.48,73.67|N|To Jinky Twizzlefixxit.|
@@ -121,16 +179,16 @@ A Free Freewind Post|QID|25835|M|75.88,74.65|N|From Fizzle Brassbolts.|
 T Free Freewind Post|QID|25835|M|46.35,57.88|N|To Quentin.|U|55121|
 A Grimtotem in the Post|QID|25869|M|46.36,57.82|N|From Quentin.|
 A Save the Sentinel|QID|25871|M|46.81,56.11|N|From Brienna Starglow.|
-C Grimtotem in the Post|QID|25869|S|M|42.79,51.02|N|Kill the Grimtotem Invaders as you walk up Freewind Post to the next quests. Any in the middle of battle with Freewind Warriors will not aggro you unless you attack them. The Freewind Warriors, although shown in red, will not attack you, and are not attackable.|
+C Grimtotem in the Post|QID|25869|S|M|42.79,51.02|N|Kill the Grimtotem Invaders as you walk up Freewind Post to the next quests.  Any in the middle of battle with Freewind Warriors will not aggro you unless you attack them.  The Freewind Warriors, although shown in red, will not attack you, and are not attackable.|
 A Horn of the Traitor|QID|25873|M|44.58,49.96|N|From Montarr.|
 C Save the Sentinel|QID|25871|M|45.16,50.16|
 C Horn of the Traitor|QID|25873|M|45.91,50.83|N|Attack Cliffwatcher Longhorn and loot the Horn.|
 C Grimtotem in the Post|QID|25869|US|M|42.79,51.02|N|Finish killing the Grimtotem Invaders.|
-T Grimtotem in the Post|QID|25869|M|46.36,57.90|N|To Quentin. You can jump over the edge and into the water to avoid running all the way back down.|
+T Grimtotem in the Post|QID|25869|M|46.36,57.90|N|To Quentin.  You can jump over the edge and into the water to avoid running all the way back down.|
 T Horn of the Traitor|QID|25873|M|46.36,57.90|N|To Quentin.|
 T Save the Sentinel|QID|25871|M|46.78,56.05|N|To Brienna Starglow.|
 A Together Again|QID|27275|M|46.78,56.05|N|From Brienna Starglow.|
-T Together Again|QID|27275|M|42.17,47.05|N|To Feralas Sentinel. Start crossing the bridge into Darkcloud Pinnacle and the Feralas Sentinel will appear by your side.|
+T Together Again|QID|27275|M|42.17,47.05|N|To Feralas Sentinel.  Start crossing the bridge into Darkcloud Pinnacle and the Feralas Sentinel will appear by your side.|
 A No Weapons For You!|QID|27310|M|42.22,48.20|N|From Feralas Sentinel.|
 A Darkcloud Grimtotem|QID|27312|M|42.22,48.20|N|From Feralas Sentinel.|
 A Grimtotem Chiefs: Isha Gloomaxe|QID|27314|M|42.22,48.20|N|From Feralas Sentinel.|
@@ -162,7 +220,7 @@ T No Weapons For You!|QID|27310|M|34.10,39.07|N|To Feralas Sentinel.|
 T Darkcloud Grimtotem|QID|27312|M|35.36,39.37|N|To Feralas Sentinel.|
 T The Captive Bride|QID|27357|M|39.15,25.84|N|To Lakota Windsong.|
 A Invoking the Serpent|QID|27329|M|39.15,25.84|N|From Lakota Windsong.|
-C Invoking the Serpent|QID|27329|U|61043|M|38.07,35.40|N|Head to Arikara's Needle, then use Shu'halo Artifacts to call the wind serpent. Kill any Grimtotem Spirit's that appear, whilst they are out, Arikara becomes immune.|
+C Invoking the Serpent|QID|27329|U|61043|M|38.07,35.40|N|Head to Arikara's Needle, then use Shu'halo Artifacts to call the wind serpent.  Kill any Grimtotem Spirit's that appear, whilst they are out, Arikara becomes immune.|
 T Invoking the Serpent|QID|27329|M|39.13,25.84|N|To Lakota Windsong.|
 A Trouble at Highperch|QID|28085|M|12.81,33.97|
 T Trouble at Highperch|QID|28085|M|12.84,34.02|N|To Pao'ka Swiftmountain.|U|55121|
@@ -199,7 +257,7 @@ T Codemaster's Code|QID|28139|M|30.47,49.33|N|To Lakota Windsong.|
 T Behind You!|QID|28136|M|30.47,49.33|N|To Lakota Windsong.|
 A The Elder Crone|QID|28140|M|30.47,49.33|N|From Lakota Windsong.|
 C The Elder Crone|QID|28140|U|63071|M|35.88,60.64|
-T The Elder Crone|QID|28140|M|35.88,60.64|N|HUD Turn-in. Note you will lose your disguise on turning this quest in.|
+T The Elder Crone|QID|28140|M|35.88,60.64|N|HUD Turn-in.  Note you will lose your disguise on turning this quest in.|
 A To the Withering|QID|28142|M|35.88,60.64|N|HUD Accept|
 T To the Withering|QID|28142|M|50.16,62.58|N|To Magatha Grimtotem.|
 A Four Twilight Elements|QID|28157|M|50.16,62.58|N|From Magatha Grimtotem.|
@@ -213,10 +271,12 @@ C Four Twilight Elements|QID|28157|M|60.44,64.39|
 T Four Twilight Elements|QID|28157|M|50.08,62.63|N|To Magatha Grimtotem.|
 T Unbound|QID|28158|M|50.08,62.63|N|To Magatha Grimtotem.|
 A The Doomstone|QID|28159|M|50.08,62.63|N|From Magatha Grimtotem.|
-C The Doomstone|QID|28159|U|63104|M|54.51,62.92|N|Kill Animus. Beware, he likes to throw people around. Don't get too carried away... epic music can make for an epic death.|
+C The Doomstone|QID|28159|U|63104|M|54.51,62.92|N|Kill Animus.  Beware, he likes to throw people around. Don't get too carried away... epic music can make for an epic death.|
 T The Doomstone|QID|28159|M|50.11,62.62|N|To Magatha Grimtotem.|
 A Spread the Word|QID|28160|M|50.11,62.62|N|From Magatha Grimtotem.|
-H Fizzle & Pozzik's Speedbarge|QID|99999|N|Hearth to the barge.|
+H Fizzle
+&
+Pozzik's Speedbarge|QID|99999|N|Hearth to the barge.|
 T Spread the Word|QID|28160|M|75.92,74.57|N|To Fizzle Brassbolts.|
 A Tanaris is Calling|QID|27446|M|75.92,74.57|N|From Fizzle Brassbolts.|
 N The End|QID|99999|U|55121|N|That's It for Thousand Needles Folks. Head on south into Tanaris and join me for Wkjezz's Tanaris Guide!|

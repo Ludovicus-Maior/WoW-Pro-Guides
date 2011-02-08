@@ -1,3 +1,15 @@
+-- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2010-12-06 05:51
+-- Who: Liavan
+
+-- URL: http://wow-pro.com/node/3250/revisions/23381/view
+-- Date: 2010-12-03 11:32
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3250/revisions/23380/view
+-- Date: 2010-12-03 11:31
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('LiaSwa5255', 'Swamp of Sorrows', 'Liavan', '52', '55', 'JiyBla5560', 'Horde', function()
 return [[
 

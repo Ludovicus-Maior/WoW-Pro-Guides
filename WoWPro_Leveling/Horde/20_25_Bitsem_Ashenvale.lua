@@ -1,3 +1,28 @@
+-- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2011-01-11 01:10
+-- Who: Estraile
+
+-- URL: http://wow-pro.com/node/3228/revisions/23970/view
+-- Date: 2011-01-09 20:50
+-- Who: Crackerhead22
+-- Log: Hopefully fixed QID issue with Hearthing.
+
+-- URL: http://wow-pro.com/node/3228/revisions/23801/view
+-- Date: 2010-12-20 16:25
+-- Who: Bitsem
+
+-- URL: http://wow-pro.com/node/3228/revisions/23756/view
+-- Date: 2010-12-16 03:26
+-- Who: Gylin
+
+-- URL: http://wow-pro.com/node/3228/revisions/23332/view
+-- Date: 2010-12-03 09:56
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3228/revisions/23331/view
+-- Date: 2010-12-03 09:56
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('BitAsh2025', 'Ashenvale', 'Bitsem', '20', '25', 'JiySto2530', 'Horde', function()
 return [[
 
@@ -173,7 +198,8 @@ A Blackfathom Deeps|QID|26894|RANK|1|M|12.08,33.78|N|From Commander Grimfang. Pi
 A Lousy Pieces of Ship|QID|13883|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.|
 A The Essence of Aku'Mai|QID|26890|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.||N|If you plan on doing the Blackfathom Deeps dungeon.|
 
-A Vorsha the Lasher|QID|6641|RANK|2|M|12.77,34.14|N|From Muglash.|N|Escort quest>|
+A Vorsha the Lasher|QID|6641|RANK|2|M|12.77,34.14|N|From Muglash.|N|Escort quest
+|
 C Vorsha the Lasher|QID|6641|NC|M|9.58,27.88|Escort quest. Follow Muglash and help him kill Vorsha. Level 27 Druid kitty can solo no problem.|
 
 C Lousy Pieces of Ship|QID|13883|S|M|5.00,31.12|N|Collect Sunken Ship Parts and kill 10 hydras for blubber.|

@@ -1,27 +1,57 @@
-WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades - Undead', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function() 
-return [[
+-- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2011-01-29 17:11
+-- Who: Ludovicus Maior
+-- Log: Added missing QID to Level 4 step.
 
-A Fresh out of the Grave|QID|24959|M|29.41,70.96|N|From Agatha.|
-T Fresh out of the Grave|QID|24959|M|30.04,71.27|N|To Undertaker Mordo.|
+-- URL: http://wow-pro.com/node/3205/revisions/24036/view
+-- Date: 2011-01-22 14:39
+-- Who: Ludovicus Maior
+-- Log: Added a bunch of |R|Undead,Troll| and |R|Undead| tags where appropriate.
 
-A The Shadow Grave|QID|28608|M|30.04,71.27|N|From Undertaker Mordo.|
-C The Shadow Grave|QID|28608|NC|M|30.33,72.24;30.33,72.84;29.69,71.99|N|Head down into the crypt and right-click the thread and the vial of green liquid.|
-T The Shadow Grave|QID|28608|M|30.00,72.82;30.31,72.87;30.08,71.33|N|To Undertaker Mordo.|
+-- URL: http://wow-pro.com/node/3205/revisions/23828/view
+-- Date: 2010-12-25 08:31
+-- Who: Crackerhead22
+-- Log: Added missing |M| tags, fixed a couple |M| cords.
 
-A Those That Couldn't Be Saved|QID|26799|M|30.08,71.33|N|From Undertaker Mordo.|
-A The Wakening|QID|24960|M|30.65,71.46|N|From Caretaker Caice.|
+-- URL: http://wow-pro.com/node/3205/revisions/23671/view
+-- Date: 2010-12-07 04:46
+-- Who: Bitsem
+-- Log: Added Class quests.
 
-C Those That Couldn't Be Saved|QID|26799|S|M|30.80,70.07|N|Kill zombies.|
-C The Wakening|QID|24960|NC|M|29.41,69.63;30.25,69.06;30.80,69.15|N|Right-click on the forsaken with the yellow arrows above them, and go through their conversation.|
-C Those That Couldn't Be Saved|QID|26799|US|M|30.80,70.07|N|Kill zombies.|
+-- URL: http://wow-pro.com/node/3205/revisions/23660/view
+-- Date: 2010-12-06 23:25
+-- Who: Jiyambi
 
-T The Wakening|QID|24960|M|30.65,71.40|N|To Caretaker Caice.|
+-- URL: http://wow-pro.com/node/3205/revisions/23276/view
+-- Date: 2010-12-02 23:16
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3205/revisions/23275/view
+-- Date: 2010-12-02 23:15
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades - Undead', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function()
+return [[A Fresh out of the Grave|QID|24959|M|29.41,70.96|R|Undead|N|From Agatha.|
+T Fresh out of the Grave|QID|24959|M|30.04,71.27|R|Undead|N|To Undertaker Mordo.|
+
+A The Shadow Grave|QID|28608|M|30.04,71.27|R|Undead|N|From Undertaker Mordo.|
+C The Shadow Grave|QID|28608|NC|M|30.33,72.24;30.33,72.84;29.69,71.99|R|Undead|N|Head down into the crypt and right-click the thread and the vial of green liquid.|
+T The Shadow Grave|QID|28608|M|30.00,72.82;30.31,72.87;30.08,71.33|R|Undead|N|To Undertaker Mordo.|
+
+A Those That Couldn't Be Saved|QID|26799|M|30.08,71.33|R|Undead|N|From Undertaker Mordo.|
+A The Wakening|QID|24960|M|30.65,71.46|R|Undead|N|From Caretaker Caice.|
+
+C Those That Couldn't Be Saved|QID|26799|S|M|30.80,70.07|R|Undead|N|Kill zombies.|
+C The Wakening|QID|24960|NC|M|29.41,69.63;30.25,69.06;30.80,69.15|R|Undead|N|Right-click on the forsaken with the yellow arrows above them, and go through their conversation.|
+C Those That Couldn't Be Saved|QID|26799|US|M|30.80,70.07|R|Undead|N|Kill zombies.|
+
+T The Wakening|QID|24960|M|30.65,71.40|R|Undead|N|To Caretaker Caice.|
 
 L Level 2|QID|24960|LVL|2|N|You should be around level 2 by this point.|
 
-A Beyond the Graves|QID|25089|M|30.65,71.40|N|From Caretaker Caice.|
-T Those That Couldn't Be Saved|QID|26799|M|30.10,71.30|N|To Undertaker Mordo.|
-T Beyond the Graves|QID|25089|M|31.74,65.66|N|To Deathguard Saltain.|
+A Beyond the Graves|QID|25089|M|30.65,71.40|R|Undead|N|From Caretaker Caice.|
+T Those That Couldn't Be Saved|QID|26799|M|30.10,71.30|R|Undead|N|To Undertaker Mordo.|
+T Beyond the Graves|QID|25089|M|31.74,65.66|R|Undead|N|To Deathguard Saltain.|
 
 A Recruitment|QID|26800|M|31.74,65.66|N|From Deathguard Saltain.|
 A Scourge on our Perimeter|QID|26801|M|30.86,66.20|N|From Shadow Priest Sarvis.|
@@ -35,42 +65,42 @@ T Scourge on our Perimeter|QID|26801|M|30.87,66.19|N|To Shadow Priest Sarvis.|
 
 L Level 3|QID|26801|LVL|3|N|You should be around level 3 by this point.|
 
-A Hallowed Scroll|QID|3097|C|Priest|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Glyphic Scroll|QID|3098|C|Mage|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Trail-Worn Scroll|QID|24962|C|Hunter|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Simple Scroll|QID|3095|C|Warrior|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Tainted Scroll|QID|3099|C|Warlock|M|30.87,66.19|N|From Shadow Priest Sarvis.|
-A Encrypted Scroll|QID|3096|C|Rogue|M|30.87,66.19|N|From Shadow Priest Sarvis.|
+A Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|30.87,66.19|N|From Shadow Priest Sarvis.|
+A Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|30.87,66.19|N|From Shadow Priest Sarvis.|
+A Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|30.87,66.19|N|From Shadow Priest Sarvis.|
+A Simple Scroll|QID|3095|R|Undead|C|Warrior|M|30.87,66.19|N|From Shadow Priest Sarvis.|
+A Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|30.87,66.19|N|From Shadow Priest Sarvis.|
+A Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|30.87,66.19|N|From Shadow Priest Sarvis.|
 
 A The Truth of the Grave|QID|24961|M|30.89,66.11|N|From Novice Elreth.|
 
-T Hallowed Scroll|QID|3097|C|Priest|M|31.12,66.08|N|To Dark Cleric Duesten.|
-T Glyphic Scroll|QID|309|C|Mage|M|30.91,66.13|N|To Isabella.|
-T Trail-Worn Scroll|QID|24962|C|Hunter|M|31.47,65.59|N|To Xavier the Huntsman.|
-T Simple Scroll|QID|3095|C|Warrior|M|32.63,65.61|N|To Dannil Stern.|
-T Tainted Scroll|QID|3099|C|Warlock|M|30.92,66.30|N|To Maximillion.|
-T Encrypted Scroll|QID|3096|C|Rogue|M|30.87,66.19|N|To David Trias.|
+T Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|31.12,66.08|N|To Dark Cleric Duesten.|
+T Glyphic Scroll|QID|309|R|Undead|C|Mage|M|30.91,66.13|N|To Isabella.|
+T Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|31.47,65.59|N|To Xavier the Huntsman.|
+T Simple Scroll|QID|3095|R|Undead|C|Warrior|M|32.63,65.61|N|To Dannil Stern.|
+T Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|30.92,66.30|N|To Maximillion.|
+T Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|30.87,66.19|N|To David Trias.|
 
-A Of Light and Shadows|QID|24966|C|Priest|M|31.12,66.08|N|From Dark Cleric Duesten.|
-A Magic Training|QID|24965|C|Mage|M|30.91,66.13|N|From Isabella.|
-A The Thrill of the Hunt|QID|24964|C|Hunter|M|31.47,65.59|N|From Xavier the Huntsman.|
-A Charging into Battle|QID|24969|C|Warrior|M|32.63,65.61|N|From Dannal Stern.|
-A Dark Deeds|QID|24968|C|Warlock|M|30.92,66.30|N|From Maximillion.|
-A Stab!|QID|24967|C|Rogue|M|30.87,66.19|N|From David Trias.|
+A Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|31.12,66.08|N|From Dark Cleric Duesten.|
+A Magic Training|QID|24965|R|Undead|C|Mage|M|30.91,66.13|N|From Isabella.|
+A The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.47,65.59|N|From Xavier the Huntsman.|
+A Charging into Battle|QID|24969|R|Undead|C|Warrior|M|32.63,65.61|N|From Dannal Stern.|
+A Dark Deeds|QID|24968|R|Undead|C|Warlock|M|30.92,66.30|N|From Maximillion.|
+A Stab!|QID|24967|R|Undead|C|Rogue|M|30.87,66.19|N|From David Trias.|
 
-C Of Light and Shadows|QID|24966|C|Priest|NC|M|31.12,66.08|N|Train Flash Heal. Use it on the wounded forsaken next to you.|
-C Magic Training|QID|24965|C|Mage|M|31.65,66.83|N|Train Arcane Missles from Isabella. Go to a Dummy, cast Fireball, then Arcane Missles when it becomes available.|
-C The Thrill of the Hunt|QID|24964|C|Hunter|M|31.65,66.83|N|Learn Steady Shot from Xavier, practice it 5 times on a Dummy.|
-C Charging into Battle|QID|24969|C|Warrior|M|31.65,66.83|N|Learn Chrage from Dannal and practice it on a Dummy.|
-C Dark Deeds|QID|24968|C|Warlock|M|31.65,66.83|N|Learn Immolate from Maximillion and practice it 5 times on a Dummy.|
-C Stab!|QID|24967|C|Rogue|M|31.65,66.83|N|Learn Eviscerate from David, practice it 3 times on a Dummy.|
+C Of Light and Shadows|QID|24966|R|Undead|C|Priest|NC|M|31.12,66.08|N|Train Flash Heal. Use it on the wounded forsaken next to you.|
+C Magic Training|QID|24965|R|Undead|C|Mage|M|31.65,66.83|N|Train Arcane Missles from Isabella. Go to a Dummy, cast Fireball, then Arcane Missles when it becomes available.|
+C The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.65,66.83|N|Learn Steady Shot from Xavier, practice it 5 times on a Dummy.|
+C Charging into Battle|QID|24969|R|Undead|C|Warrior|M|31.65,66.83|N|Learn Chrage from Dannal and practice it on a Dummy.|
+C Dark Deeds|QID|24968|R|Undead|C|Warlock|M|31.65,66.83|N|Learn Immolate from Maximillion and practice it 5 times on a Dummy.|
+C Stab!|QID|24967|R|Undead|C|Rogue|M|31.65,66.83|N|Learn Eviscerate from David, practice it 3 times on a Dummy.|
 
-T Of Light and Shadows|QID|24966|C|Priest|M|31.07,66.07|N|To Dark Cleric Duesten.|
-T Magic Training|QID|24965|C|Mage|M|30.91,66.13|N|To Isabella.|
-T The Thrill of the Hunt|QID|24964|C|Hunter|M|31.47,65.59|N|To Xavier the Huntsman.|
-T Charging into Battle|QID|24969|C|Warrior|M|32.63,65.61|N|To Dannal Stern.|
-T Dark Deeds|QID|24968|C|Warlock|M|30.92,66.30|N|To Maximillion.|
-T Stab!|QID|24967|C|Rogue|M|30.87,66.19|N|To David Trias.|
+T Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|31.07,66.07|N|To Dark Cleric Duesten.|
+T Magic Training|QID|24965|R|Undead|C|Mage|M|30.91,66.13|N|To Isabella.|
+T The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.47,65.59|N|To Xavier the Huntsman.|
+T Charging into Battle|QID|24969|R|Undead|C|Warrior|M|32.63,65.61|N|To Dannal Stern.|
+T Dark Deeds|QID|24968|R|Undead|C|Warlock|M|30.92,66.30|N|To Maximillion.|
+T Stab!|QID|24967|R|Undead|C|Rogue|M|30.87,66.19|N|To David Trias.|
 
 C The Truth of the Grave|QID|24961|NC|M|32.69,65.79|N|She's in the inn, though the location inside is random. Right-click the cowering woman and choose the gossip option.|
 T The Truth of the Grave|QID|24961|M|30.89,66.08|N|To Novice Elreth.|
@@ -84,24 +114,24 @@ T The Damned|QID|26802|M|32.99,61.08|N|To Executor Arren.|
 
 A Night Web's Hollow|QID|24973|M|32.99,61.08|N|From Executor Arren.|
 
-L Level 4|LVL|4|N|You should be around level 4 by this point.|
+L Level 4|QID|24973|LVL|4|N|You should be around level 4 by this point.|
 
 C Night Web's Hollow|QID|24973|M|27.86,58.61|N|Kill spiders over at the mine.|
 T Night Web's Hollow|QID|24973|M|32.97,61.09|N|To Executor Arren.|
 
-A No Better Than the Zombies|QID|24970|M|32.97,61.09|N|From Executor Arren.|
-T No Better Than the Zombies|QID|24970|M|35.74,62.19|N|To Darnell.|
+A No Better Than the Zombies|QID|24970|M|32.97,61.09|R|Undead|N|From Executor Arren.|
+T No Better Than the Zombies|QID|24970|M|35.74,62.19|R|Undead|N|To Darnell.|
 
-A Assault on the Rotbrain Encampment|QID|24971|M|35.74,62.19|N|From Darnell.|
-C Assault on the Rotbrain Encampment|QID|24971|M|36.63,68.78|N|Kill the hostile undead, and Marshal Redpath.|
-T Assault on the Rotbrain Encampment|QID|24971|M|30.88,66.20|N|To Shadow Priest Sarvis.|
+A Assault on the Rotbrain Encampment|QID|24971|M|35.74,62.19|R|Undead|N|From Darnell.|
+C Assault on the Rotbrain Encampment|QID|24971|M|36.63,68.78|R|Undead|N|Kill the hostile undead, and Marshal Redpath.|
+T Assault on the Rotbrain Encampment|QID|24971|M|30.88,66.20|R|Undead|N|To Shadow Priest Sarvis.|
 
-A Vital Intelligence|QID|24972|M|30.88,66.20|N|From Shadow Priest Sarvis.|
+A Vital Intelligence|QID|24972|M|30.88,66.20|R|Undead|N|From Shadow Priest Sarvis.|
 
 L Level 5|QID|24971|LVL|5|N|You should be around level 5 by this point.|
 
-R Calston Estate|QID|24972|M|44.70,53.60|N|Follow the road out of Deathknell.|
-T Vital Intelligence|QID|24972|M|44.70,53.60|N|To Deathguard Simmer.|
+R Calston Estate|QID|24978|M|44.70,53.60|N|Follow the road out of Deathknell.|
+T Vital Intelligence|QID|24972|M|44.70,53.60|R|Undead|N|To Deathguard Simmer.|
 
 A Reaping the Reapers|QID|24978|M|44.70,53.60|N|From Deathguard Simmer.|
 A Fields of Grief|QID|24975|M|44.61,53.76|N|From Apothecary Johaan.|
@@ -116,7 +146,7 @@ A The Scarlet Palisade|QID|24980|M|44.71,53.62|N|From Deathguard Simmer.|
 T Fields of Grief|QID|24975|M|44.62,53.75|N|To Apothecary Johaan.|
 
 A Variety is the Spice of Death|QID|24976|M|44.62,53.75|N|From Apothecary Johaan.|
-A Ever So Lonely|QID|24974|M|44.71,53.64|N|From Sedrick Calston.|
+A Ever So Lonely|QID|24974|M|44.71,53.64|N|From Sedrick Calston, upstairs.|
 
 L Level 6|QID|24974|LVL|6|N|You should be around level 6 by this point.|
 
@@ -173,20 +203,20 @@ T The New Forsaken|QID|24982|M|60.95,50.58|N|To Magistrate Sevren, upstairs at t
 A Forsaken Duties|QID|24983|M|60.95,50.58|N|From Magistrate Sevren.|
 T Supplying Brill|QID|6321|M|58.87,51.96|N|To Anette Williams.|
 
-A Ride to the Undercity|QID|6323|M|58.87,51.96|N|From Anette Williams.|
+A Ride to the Undercity|QID|6323|M|58.87,51.96|R|Undead,Troll|N|From Anette Williams.|
 
-F Undercity|QID|6323|M|58.87,51.96|N|Talk to Anette Williams.|
+F Undercity|QID|6323|M|58.87,51.96|R|Undead,Troll|N|Talk to Anette Williams.|
 
-T Ride to the Undercity|QID|6323|M|61.63,41.87|Z|Undercity|N|To Gordon Wendham.|
+T Ride to the Undercity|QID|6323|M|61.63,41.87|Z|Undercity|R|Undead,Troll|N|To Gordon Wendham.|
 
-A Michael Garrett|QID|6322|M|61.63,41.87|Z|Undercity|N|From Gordon Wendham.|
-T Michael Garrett|QID|6322|M|63.21,48.30|Z|Undercity|N|To Michael Garrett.|
+A Michael Garrett|QID|6322|M|61.63,41.87|Z|Undercity|R|Undead,Troll|N|From Gordon Wendham.|
+T Michael Garrett|QID|6322|M|63.21,48.30|Z|Undercity|R|Undead,Troll|N|To Michael Garrett.|
 
-A Return to Morris|QID|6324|M|63.21,48.30|Z|Undercity|N|From Michael Garrett.|
+A Return to Morris|QID|6324|M|63.21,48.30|Z|Undercity|R|Undead,Troll|N|From Michael Garrett.|
 
-F Brill|QID|6324|M|63.21,48.30|Z|Undercity|N|Talk to Michael Garrett.|
+F Brill|QID|6324|M|63.21,48.30|Z|Undercity|R|Undead,Troll|N|Talk to Michael Garrett.|
 
-T Return to Morris|QID|6324|M|60.15,52.33|N|To Deathguard Morris.|
+T Return to Morris|QID|6324|M|60.15,52.33|R|Undead,Troll|N|To Deathguard Morris.|
 T Forsaken Duties|QID|24983|M|65.41,60.22|N|To Deathguard Linnea.|
 
 A The Chill of Death|QID|24988|M|65.29,60.39|N|From Gretchen Dedmar.|

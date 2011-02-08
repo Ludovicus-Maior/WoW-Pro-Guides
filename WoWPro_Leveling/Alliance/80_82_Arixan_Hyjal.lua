@@ -1,5 +1,47 @@
+-- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_alliance
+-- Date: 2010-12-23 17:12
+-- Who: Bitsem
+
+-- URL: http://wow-pro.com/node/3303/revisions/23819/view
+-- Date: 2010-12-23 17:06
+-- Who: Bitsem
+-- Log: Added sticky steps to a few quests. Removed second Walking the Dog Turn In step.
+
+-- URL: http://wow-pro.com/node/3303/revisions/23720/view
+-- Date: 2010-12-09 15:46
+-- Who: Bitsem
+-- Log: Fixed two small things. 
+--	A From the Mouth of Madness is from Rio Duran, not Royce Duskwhisper.
+--	A Sweeping the Shelf is from Ian Duran, not Rio Duran.
+--	Great work as usual Magic! :)
+
+-- URL: http://wow-pro.com/node/3303/revisions/23717/view
+-- Date: 2010-12-09 13:42
+-- Who: MagicSN
+
+-- URL: http://wow-pro.com/node/3303/revisions/23704/view
+-- Date: 2010-12-08 15:54
+-- Who: MagicSN
+
+-- URL: http://wow-pro.com/node/3303/revisions/23702/view
+-- Date: 2010-12-08 10:50
+-- Who: MagicSN
+
+-- URL: http://wow-pro.com/node/3303/revisions/23578/view
+-- Date: 2010-12-04 20:17
+-- Who: MagicSN
+
+-- URL: http://wow-pro.com/node/3303/revisions/23498/view
+-- Date: 2010-12-03 22:48
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3303/revisions/23497/view
+-- Date: 2010-12-03 22:46
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
 return [[
+
 N Mt. Hyjal|QID|25316|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|
 A A Personal Summons|QID|28825|M|71.44,72.32|Z|Stormwind City|
 h Trade District|QID|28825|M|60.36,75.20|Z|Stormwind City|N|At Innkeeper Allison.|

@@ -1,4 +1,20 @@
-WoWPro.Leveling:RegisterGuide('JiyTho4045', 'Thousand Needles', 'Jiyambi', '40', '45', 'JiyTan4550', 'Horde', function() 
+-- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2010-12-07 04:52
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3254/revisions/23431/view
+-- Date: 2010-12-03 12:14
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3254/revisions/23389/view
+-- Date: 2010-12-03 11:39
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3254/revisions/23388/view
+-- Date: 2010-12-03 11:38
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyTho4045', 'Thousand Needles', 'Jiyambi', '40', '45', 'JiyTan4550', 'Horde', function()
 return [[
 
 T Warchief's Command: Thousand Needles!|O|QID|28504|M|41.86,73.85|Z|Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
@@ -11,14 +27,16 @@ C The Grimtotem are Coming|QID|25487|PRE|27062|M|10.56,8.51|N|Make your way down
 T The Grimtotem are Coming|QID|25487|M|10.56,8.51|N|To Motega Firemane.|
 A Two If By Boat|QID|25489|M|10.56,8.51|N|From Motega Firemane.|
 
-f Fizzle & Pozzik's Speedbarge|RANK|1|QID|25489|M|79.13,71.93|N|Once you arive at the speedbarge, pick up the flight point at Zazzix Boomride.|
+f Fizzle
+&
+Pozzik's Speedbarge|RANK|1|QID|25489|M|79.13,71.93|N|Once you arive at the speedbarge, pick up the flight point at Zazzix Boomride.|
 T Two If By Boat|QID|25489|M|75.94,74.68|N|To Pozzik. He can be found at the very top front room of the barge.|
 A Do Me a Favor?|QID|25505|PRE|25489|M|75.94,74.68|N|From Pozzik.|
 T Do Me a Favor?|QID|25505|M|77.16,74.47|N|To Razzeric.|
 A Down in the Deeps|PRE|25505|QID|25516|M|77.16,74.47|N|From Razzeric.|
 A Bar Fight!|RANK|2|QID|25518|PRE|25489|M|78.06,73.71|N|From Zamek.|
-B Bottle of Grog|RANK|2|QID|25518|M|76.55,74.58|N|Go inside and buy a Bottle of Grog from the bartender.|L|54746|
-C Bar Fight!|RANK|2|QID|25518|M|76.55,74.58|N|Use the Bottle of Grog on a gnome in the bar to start the fight.|U|54746|
+B Bottle of Grog|RANK|2|QID|25518|M|76.55,74.58|N|Go inside and buy a Bottle of Grog from the bartender.|L|54747|
+C Bar Fight!|RANK|2|QID|25518|M|76.55,74.58|N|Use the Bottle of Grog on a gnome in the bar to start the fight.|U|54747|
 T Bar Fight!|RANK|2|QID|25518|M|78.04,73.66|N|To Zamek.|
 
 A In the Outhouse|QID|25526|PRE|25489|M|79.59,75.04|N|Swim down to the outhouse under the lake - don't worry, you have a buff that lets you breathe underwater here.|

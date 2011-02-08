@@ -1,3 +1,21 @@
+-- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2010-12-23 18:39
+-- Who: Crackerhead22
+-- Log: Added "To the Aid of the Thorium Brotherhood", fixed several |M| tags, |N| tags, added |N| tags to several steps. Fixed a couple of steps so they auto-complete. Added a couple of sticky steps.
+
+-- URL: http://wow-pro.com/node/3247/revisions/23589/view
+-- Date: 2010-12-05 04:26
+-- Who: Crackerhead22
+-- Log: Made Hearth points auto-complete, removed static QIDs, fixed "Fuselight, Ho!" quest.
+
+-- URL: http://wow-pro.com/node/3247/revisions/23375/view
+-- Date: 2010-12-03 11:28
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3247/revisions/23374/view
+-- Date: 2010-12-03 11:28
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('CraBad4548', 'Badlands', 'Crackerhead22', '45', '48', 'CraSea4850', 'Alliance', function()
 return [[
 
