@@ -1,4 +1,18 @@
-WoWPro.Leveling:RegisterGuide("JamScar5558", "The Scarlet Enclave - Death Knight", "Jame", "55", "58", "BitWes3540|JiyWes3540", "Neutral", function()
+-- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2011-02-08 03:05
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3369/revisions/24102/view
+-- Date: 2011-02-07 11:53
+-- Who: Gylin
+-- Log: title typo fix
+
+-- URL: http://wow-pro.com/node/3369/revisions/24101/view
+-- Date: 2011-02-05 21:26
+-- Who: Ludovicus Maior
+-- Log: Initial Create
+
+WoWPro.Leveling:RegisterGuide("JamScar5558", "The Scarlet Enclave - Death Knight", "Jame", "55", "58", "CraBla5458|JiyBla5560", "Neutral", function()
 return [[
 N Shopping List:|QID|9999|N| *Level 59 30 Crypt Fiend Parts, 30 Core Of Elements, 30 Dark Iron Scraps, 30 Savage Fronds. You'll need these when you get to the Eastern Plaguelands|
 
@@ -183,7 +197,6 @@ A A Meeting With Fate |QID|12755|M|56.3,79.8|
 
 T A Meeting With Fate |QID|12755|N|Mount up and ride to the Scarlet Overlook. Take the path south leading down to King's Harbor, where you will find High General Abbendis.|M|65.6,83.8|
 A The Scarlet Onslaught Emerges |QID|12756|M|65.6,83.8|
-
 
 T The Scarlet Onslaught Emerges |QID|12756|M|56.3,79.8|
 A Scarlet Armies Approach... |QID|12757|N|Take the portal|M|56.3,79.8|

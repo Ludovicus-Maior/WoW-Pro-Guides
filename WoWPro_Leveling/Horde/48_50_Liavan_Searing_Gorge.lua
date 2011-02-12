@@ -1,6 +1,21 @@
-WoWPro.Leveling:RegisterGuide('LiaSea4850', 'Searing Gorge', 'Liavan', '48', '50', 'LiaBur5055', 'Horde', function() 
-return [[
+-- URL: http://wow-pro.com/wiki/source_code_searing_gorge_horde
+-- Date: 2010-12-04 17:10
+-- Who: Liavan
 
+-- URL: http://wow-pro.com/node/3256/revisions/23567/view
+-- Date: 2010-12-04 16:59
+-- Who: Liavan
+
+-- URL: http://wow-pro.com/node/3256/revisions/23393/view
+-- Date: 2010-12-03 11:42
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3256/revisions/23392/view
+-- Date: 2010-12-03 11:41
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('LiaSea4850', 'Searing Gorge', 'Liavan', '48', '50', 'LiaBur5055', 'Horde', function()
+return [[
 
 F New Kargath|QID|28512|Z|New Kargath|
 R Follow the arrow.|QID|28512|CS|M|9.79,51.31|Z|Badlands|N|Close this step when you get to the waypoint.|
@@ -29,7 +44,6 @@ C A Lumbering Relic|QID|27962|M|69.42,72.19|Z|Searing Gorge|
 T Out of Place|QID|27961|M|68.52,53.21|Z|Searing Gorge|N|To Burrian Coalpart.|
 T A Lumbering Relic|QID|27962|M|68.52,53.21|Z|Searing Gorge|N|To Burrian Coalpart.|
 T A Proper Antivenom|QID|27958|M|68.52,53.21|Z|Searing Gorge|N|To Prisanne Dustcropper.|
-
 
 C Dig-Boss Dinwhisker|QID|27964|M|53.34,44.85|Z|Searing Gorge|
 T Dig-Boss Dinwhisker|QID|27964|M|68.58,53.19|Z|Searing Gorge|N|To Jack Rockleg.|
@@ -118,10 +132,8 @@ T Sweet, Horrible Freedom|QID|28055|M|43.66,28.49|Z|Searing Gorge|N|To Evonice S
 T Rise, Obsidion|QID|28056|M|43.66,28.49|Z|Searing Gorge|N|To Evonice Sootsmoker.|
 A Kill 'em With Sleep Deprivation|QID|28057|M|43.66,28.49|Z|Searing Gorge|N|From Evonice Sootsmoker.|
 
-
 C Kill 'em With Sleep Deprivation|QID|28057|M|45.20,30.20|Z|Searing Gorge|
 T Kill 'em With Sleep Deprivation|QID|28057|M|42.34,34.24|Z|Searing Gorge|N|To Taskmaster Scrange.|
-
 
 A Twisted Twilight Ties|QID|28060|M|42.34,34.24|Z|Searing Gorge|N|From Taskmaster Scrange.|
 C Twisted Twilight Ties|QID|28060|M|40.90,35.80|Z|Searing Gorge|
