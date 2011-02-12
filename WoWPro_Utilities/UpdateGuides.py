@@ -137,14 +137,12 @@ class FindSource(HTMLParser):
         if tag == "br" and self._inGuide == True and self._data != "":
             Guides[self._guideID].append(self._data)
             self._data = ""
-            print "<BR/>"
         if tag == "p" :
             self._inP = False
             # Handle <p></p> pairs.
             if self._inGuide == True:
                 Guides[self._guideID].append(self._data)
                 self._data = ""
-                print "</P>"
 
     def handle_data(self,data):
         if self._Done: return
@@ -162,13 +160,13 @@ class FindSource(HTMLParser):
                 Guide2Web[self._guideID] = self._page
                 Guides[self._guideID] = []
                 Guides[self._guideID].append(data)
-                print "{"+data+"}",
+#                print "{"+data+"}",
                 self._data = ""
             return
         if self._inGuide:
             if data == "&":
                 data = " & "
-            print "{"+data+"}",
+#            print "{"+data+"}",
             if data == "":
                 Guides[self._guideID].append(data)
                 self._data = ""
