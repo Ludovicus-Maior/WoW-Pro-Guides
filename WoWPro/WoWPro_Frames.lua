@@ -626,9 +626,16 @@ function WoWPro:CreateMiniMapButton()
 		icon = "Interface\\Icons\\Achievement_WorldEvent_Brewmaster",
 		OnClick = function(clickedframe, button)
 			if button == "LeftButton" then
-				if WoWPro:IsEnabled() then WoWPro:Disable() else WoWPro:Enable() end
+				if WoWProCharDB.Enabled then
+				    WoWPro:Disable()
+				    WoWProCharDB.Enabled = false
+				else
+				    WoWProCharDB.Enabled = true
+				    WoWPro:Enable()
+				end
 			elseif button == "RightButton" then
-				InterfaceOptionsFrame_OpenToCategory("WoW-Pro Guides")
+			    WoWPro:Print("Opening WoW-Pro")
+				InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
 			end
 		end,
 		OnTooltipShow = function(self) 

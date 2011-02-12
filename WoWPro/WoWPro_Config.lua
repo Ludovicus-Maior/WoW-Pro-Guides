@@ -630,10 +630,16 @@ local function createBlizzOptions()
 				order = 4,
 				type = "toggle",
 				name = L["Enable Addon"],
-				desc = L["Enables/Disables the WoW-Pro guide addon."],
-				get = function(info) return WoWPro:IsEnabled() end,
+				desc = L["Enables/Disables showing the WoW-Pro guide addons."],
+				get = function(info) return WoWProCharDB.Enabled end,
 				set = function(info,val) 
-						if WoWPro:IsEnabled() then WoWPro:Disable() else WoWPro:Enable() end
+						if WoWProCharDB.Enabled then
+						    WoWProCharDB.Enabled = false
+						    WoWPro:Disable()
+						else
+						    WoWProCharDB.Enabled = true
+						    WoWPro:Enable()
+						end
 					end
 			}, 
 			blank2 = {

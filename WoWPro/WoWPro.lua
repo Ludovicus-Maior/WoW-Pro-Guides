@@ -84,6 +84,15 @@ function WoWPro:OnInitialize()
 	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
+
+	-- Creating empty user settings if none exist --
+	WoWProCharDB = WoWProCharDB or {}
+	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
+	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
+	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
+	if WoWProCharDB.Enabled == nil then
+	    WoWProCharDB.Enabled = true
+	end
 end
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
@@ -94,7 +103,14 @@ function WoWPro:OnEnable()
 	if not TomTom then
 		WoWPro:Print("It looks like you don't have |cff33ff33TomTom|r installed. "
 			.."WoW-Pro's guides won't have their full functionality without it! "
-			.."Download it for free from www.wowinterface.com or www.curse.com.")
+			.."Download it for free from www.wowinterface.com or www.curse.com .")
+	end
+
+	-- Warning if the user is missing Swatter --
+	if not Swatter then
+		WoWPro:Print("It looks like you don't have |cff33ff33Swatter|r installed. "
+			.."While we would love to claim our software is bug free, errors have occured. "
+			.."Download it for free from http://auctioneeraddon.com/dl/AddOns/!Swatter-5.6.4424.zip or consider installing Auctioneer from www.curse.com .")
 	end
 	
 	-- Loading Frames --
@@ -105,12 +121,6 @@ function WoWPro:OnEnable()
 	else -- Addon was previously disabled, so no need to create frames, just turn them back on
 		WoWPro:AbleFrames()
 	end
-	
-	-- Creating empty user settings if none exist --
-	WoWProCharDB = WoWProCharDB or {}
-	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
-	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
-	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	
 	-- Module Enabling --
 	for name, module in WoWPro:IterateModules() do
@@ -182,6 +192,12 @@ function WoWPro:OnEnable()
 	local keys = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
 	if not keys then	
 		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
+	end
+	
+	-- If the base addon was disabled by the user, put it to sleep now.
+	if not WoWProCharDB.Enabled then
+	    WoWPro:Print("|cffff3333Disabled|r: Core Addon")
+	    WoWPro:Disable()
 	end
 end	
 
