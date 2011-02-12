@@ -79,8 +79,7 @@ A Heads Up|QID|26518|M|63.90,59.72|N|From Doran Steelwing.|
 A Faces of Evil|QID|26521|M|63.81,60.00|N|From Fraggar Thundermantle.|
 A All That Skitters|QID|26523|M|63.81,60.00|N|From Fraggar Thundermantle.|
 C Faces of Evil|QID|26521|S|U|58209|N|Use the torch by any mask you see, has a small range and can be used while moving.|
-l All That Skitters|QID|26523|S|L|58120 8|N|Grab the spiders as you (you need
-.  They can be a little hard to grab since they are small and move aroud a lot.|
+l All That Skitters|QID|26523|S|L|58120 8|N|Grab the spiders as you (you need.  They can be a little hard to grab since they are small and move aroud a lot.|
 K Heads Up|QID|26518|M|65.16,65.11|N|Head to the first set of stairs, go up and turn left.  When you hit the next set of stairs, go up and turn right.  Follow the path ignoring the next set of stairs to find Umboda.|
 C Vilebranch Scum|QID|26497|M|68.60,69.10|
 C Faces of Evil|QID|26521|US|U|58209|M|65.29,67.31|N|Burn any of the masks you need too.|

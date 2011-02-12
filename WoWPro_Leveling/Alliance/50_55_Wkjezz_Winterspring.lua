@@ -206,9 +206,7 @@ T Ursius|QID|28639|M|55.89,28.16|N|To Francis Morcott.|
 T Shy-Rotam|QID|28742|M|55.95,28.10|N|To Jez Goodgrub.|
 T You Gotta Have Eggs|QID|28828|M|55.97,28.16|N|To Jez Goodgrub.|
 T A Bird of Legend|QID|28782|M|55.98,28.20|N|To Jeb Guthrie.|
-N End of the Guide.|QID|99999|N|Brrrr... Time for a nice hot coffee! Glad you could join us in Winterspring! Good Luck with your next guide. As always visit
-www.wow-pro.com
-for more great guides and community feedback. (click to continue)|
+N End of the Guide.|QID|99999|N|Brrrr... Time for a nice hot coffee! Glad you could join us in Winterspring! Good Luck with your next guide. As always visitwww.wow-pro.comfor more great guides and community feedback. (click to continue)|
 ]]
 
 end)

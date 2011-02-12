@@ -350,8 +350,7 @@ T Karynaku|QID|10858|M|69.83,61.36|N|To Karynaku.|
 A Zuluhed the Whacked|QID|10866|M|69.81,61.28|N|From Karynaku.|
 A Zuluhed the Whacked|QID|10866|M|70.00,61.46|N|From Karynaku.|
 K Zuluhed the Whacked|QID|10866|M|71.09,61.56|N|Clear both rooms next to the waypoint. Once he is summoned head into one of the two rooms, reason being the Dragonmaw Elites that spawn on the parapet to peck you to death from range. Kill then loot Zuluhed.|
-C Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|Click on the ball
-that is connected to Karynaku to free her.|
+C Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|Click on the ballthat is connected to Karynaku to free her.|
 T Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|To Karynaku.|
 A Ally of the Netherwing|QID|10870|M|69.86,61.23|N|From Karynaku.|
 T Ally of the Netherwing|QID|10870|M|59.33,58.65|N|To Mordenai.|

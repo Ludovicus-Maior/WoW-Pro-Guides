@@ -32,6 +32,7 @@
 
 WoWPro.Leveling:RegisterGuide('WkjNor2530', 'Northern Stranglethorn', 'Gloves', '30', '35', 'WkjCap3035', 'Horde', function()
 
+
 return [[
 
 A Northern Stranglethorn: The Fallen Empire|QID|26417|M|53.94,54.42|Z|Orgrimmar|N|This guide starts at Orgrimmar assuming you have trained new skills. Get this quest from Bort.|

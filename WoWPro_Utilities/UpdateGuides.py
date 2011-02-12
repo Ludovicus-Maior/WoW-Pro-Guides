@@ -123,7 +123,9 @@ class FindSource(HTMLParser):
         if self._Done: return
         if tag == "p": 
             self._inP = True
-            self._data = None
+            if self._inGuide == True and self._data != "":
+                Guides[self._guideID].append(self._data)
+            self._data = ""
         if tag == "div":
             for attr in attrs:
                 if attr[0] == "id" and re.search("comments",attr[1]):
@@ -132,12 +134,17 @@ class FindSource(HTMLParser):
         
 
     def handle_endtag(self, tag):
+        if tag == "br" and self._inGuide == True and self._data != "":
+            Guides[self._guideID].append(self._data)
+            self._data = ""
+            print "<BR/>"
         if tag == "p" :
             self._inP = False
-            # Handle empty <p></p> pairs.  They are an empty line
-            if self._inGuide == True and self._data == None:
-                Guides[self._guideID].append("")
-                print "@@ Added empty line"
+            # Handle <p></p> pairs.
+            if self._inGuide == True:
+                Guides[self._guideID].append(self._data)
+                self._data = ""
+                print "</P>"
 
     def handle_data(self,data):
         if self._Done: return
@@ -155,17 +162,26 @@ class FindSource(HTMLParser):
                 Guide2Web[self._guideID] = self._page
                 Guides[self._guideID] = []
                 Guides[self._guideID].append(data)
-                self._data = data
+                print "{"+data+"}",
+                self._data = ""
             return
         if self._inGuide:
-            Guides[self._guideID].append(data)
-            self._data = data
+            if data == "&":
+                data = " & "
+            print "{"+data+"}",
+            if data == "":
+                Guides[self._guideID].append(data)
+                self._data = ""
+                return
+#            Guides[self._guideID].append(data)
+            self._data = self._data + data
             if re.search("]]",data):
                 self._sawBrackets = True
                 return
             if self._sawBrackets and re.search("end\s*\)",data):
                 self._inGuide = False
                 self._sawBrackets = False
+                Guides[self._guideID].append(data)
 #               print "Finished Guide ", self._guideID, "with ", len(Guides[self._guideID])
             return
                 
@@ -411,10 +427,12 @@ if __name__ == "__main__":
         print "# Able to access %s alright." % pa.root
     if pa.test == True:
         print "## Running short test"
-        ScrapeWoWProLua("/Applications/World of Warcraft/Interface/Addons/WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua")
-        fs=FindRevisions(" http://wow-pro.com/node/3200")
+        ScrapeWoWProLua("/Applications/World of Warcraft/Interface/Addons/WoWPro_Leveling/Alliance/40_45_Wkjezz_Thousand_Needles.lua")
+        fs=FindSource(" http://wow-pro.com/node/3253")
         src=fs.ReadGuide()
-        UpdateGuideFile("GylDwa0105")
+        fs=FindRevisions(" http://wow-pro.com/node/3253")
+        src=fs.ReadGuide()
+        UpdateGuideFile("WkjTho4045")
         exit(0)
     ScrapeWoWProLeveling(pa.root)
     ScrapeGuideFromWoWPro(pa.url)

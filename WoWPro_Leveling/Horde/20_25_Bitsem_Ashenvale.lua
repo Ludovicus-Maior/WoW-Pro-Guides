@@ -198,8 +198,7 @@ A Blackfathom Deeps|QID|26894|RANK|1|M|12.08,33.78|N|From Commander Grimfang. Pi
 A Lousy Pieces of Ship|QID|13883|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.|
 A The Essence of Aku'Mai|QID|26890|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.||N|If you plan on doing the Blackfathom Deeps dungeon.|
 
-A Vorsha the Lasher|QID|6641|RANK|2|M|12.77,34.14|N|From Muglash.|N|Escort quest
-|
+A Vorsha the Lasher|QID|6641|RANK|2|M|12.77,34.14|N|From Muglash.|N|Escort quest|
 C Vorsha the Lasher|QID|6641|NC|M|9.58,27.88|Escort quest. Follow Muglash and help him kill Vorsha. Level 27 Druid kitty can solo no problem.|
 
 C Lousy Pieces of Ship|QID|13883|S|M|5.00,31.12|N|Collect Sunken Ship Parts and kill 10 hydras for blubber.|

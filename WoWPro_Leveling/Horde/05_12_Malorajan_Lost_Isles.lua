@@ -107,15 +107,9 @@ C Warchief's Revenge|QID|14243|M|12.56,61.69|N|Hit the #1 button, aim then click
 T Warchief's Revenge|QID|14243|M|35.86,66.72|N|To Thrall.|
 A Farewell, For Now|QID|14445|M|35.86,66.72|N|From Thrall.|
 T Farewell, For Now|QID|14445|M|36.00,67.49|N|To Sassy Hardwrench.|
-A Up, Up
-&
-Away!|QID|14244|M|36.00,67.49|N|From Sassy Hardwrench.|
-C Up, Up
-&
-Away!|QID|14244|M|43.98,64.31|N|Click on the Rocket Sling, choose to use it and hold on tight!|
-T Up, Up
-&
-Away!|QID|14244|M|44.51,64.36|N|To Foreman Dampwick.|
+A Up, Up & Away!|QID|14244|M|36.00,67.49|N|From Sassy Hardwrench.|
+C Up, Up & Away!|QID|14244|M|43.98,64.31|N|Click on the Rocket Sling, choose to use it and hold on tight!|
+T Up, Up & Away!|QID|14244|M|44.51,64.36|N|To Foreman Dampwick.|
 
 A It's a Town-In-A-Box|QID|14245|M|44.51,64.36|N|From Foreman Dampwick.|
 C It's a Town-In-A-Box|QID|14245|M|45.46,65.35|N|Click on the plunger to create Town-In-A-Box.|
@@ -138,9 +132,7 @@ L Level 8|QID|24816|LVL|8|N|You should be around level 8 by this point.|
 C Who's Top of the Food Chain Now?|QID|24816|M|41.52,71.49|N|Kill and loot sharks until you get 5 Shark Parts.|
 T Who's Top of the Food Chain Now?|QID|24816|M|45.26,65.55|N|To Assistant Greely.|
 A A Goblin in Shark's Clothing|QID|24817|M|45.26,65.55|N|From Assistant Greely.|
-C A Goblin in Shark's Clothing|QID|24817|M|42.73,65.68|N|Use one of the controllers, then use the abilites 1
-&
-2 until The Hammer is dead. Use ability 3 to heal.|
+C A Goblin in Shark's Clothing|QID|24817|M|42.73,65.68|N|Use one of the controllers, then use the abilites 1 & 2 until The Hammer is dead. Use ability 3 to heal.|
 T A Goblin in Shark's Clothing|QID|24817|M|45.34,65.20|N|To Hobart Grapplehammer.|
 A Invasion Imminent!|QID|24856|M|45.34,65.20|N|From Hobart Grapplehammer.|
 T Invasion Imminent!|QID|24856|M|52.19,73.11|N|To Megs Dreadshredder.|
@@ -224,9 +216,7 @@ T The Heads of the SI:7|QID|25093|M|36.30,43.35|N|To Aggra.|
 T Mine Disposal, the Goblin Way|QID|25058|M|37.37,41.88|N|To Sassy Hardwrench.|
 
 A The Pride of Kezan|QID|25066|M|37.37,41.88|N|From Sassy Hardwrench.|
-C The Pride of Kezan|QID|25066|M|32.03,31.46|N|Talk to Sassy and choose to hop into the plane. Fly around using ability 1
-&
-2 and shoot down 10 Gnome planes.|
+C The Pride of Kezan|QID|25066|M|32.03,31.46|N|Talk to Sassy and choose to hop into the plane. Fly around using ability 1 & 2 and shoot down 10 Gnome planes.|
 T The Pride of Kezan|QID|25066|M|37.33,41.90|N|To Sassy Hardwrench.|
 A The Warchief Wants You|QID|25098|M|37.33,41.90|N|From Sassy Hardwrench.|
 T The Warchief Wants You|QID|25098|M|36.83,43.17|N|To Thrall.|

@@ -88,6 +88,7 @@
 
 WoWPro.Leveling:RegisterGuide('WkjDes3035', 'Desolace', 'Wkjezz', '30', '35', 'WkjFer3540', 'Alliance', function()
 
+
 return [[
 
 R Farwatcher's Glen|QID|25938|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|

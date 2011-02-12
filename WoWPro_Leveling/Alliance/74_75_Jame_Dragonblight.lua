@@ -40,8 +40,7 @@ A Wanted: High Shaman Bloodpaw |QID|12441|
 A Wanted: Onslaught Commander Iustus |QID|12442|
 
 h Wintergarde Keep |QID|12253| |N|Make this inn your home location. |M|77.50,51.50|
-N Group mob map |QID|12151| |N|Before we go on, Check the map with the locations of all the group quest mobs you have to kill in Dragonblight. Please note that at this point you don't have all the group quests, you only have the 3 wanted quests we just took. So ignore the rest for now, and check back on this map whenever you get a group for either of those group quests, you'll find your targets very quickly that way. Kreug Oathbreaker . High Shaman Bloodpaw (90.0, 72.0). Commander Iustus (87.0, 38.3). Dregmar Runebrand (72.0, 49.0). Abbendis (71.1, 77.
-. Alystros (64.6, 77.3). Grom'thar (57.0, 76.0)|M|89.7,52.4|
+N Group mob map |QID|12151| |N|Before we go on, Check the map with the locations of all the group quest mobs you have to kill in Dragonblight. Please note that at this point you don't have all the group quests, you only have the 3 wanted quests we just took. So ignore the rest for now, and check back on this map whenever you get a group for either of those group quests, you'll find your targets very quickly that way. Kreug Oathbreaker . High Shaman Bloodpaw (90.0, 72.0). Commander Iustus (87.0, 38.3). Dregmar Runebrand (72.0, 49.0). Abbendis (71.1, 77.. Alystros (64.6, 77.3). Grom'thar (57.0, 76.0)|M|89.7,52.4|
 N Note: Kreug Oathbreaker |QID|12438| |N|Right now, the closest target is Kreug Oathbreaker, so if you see a group going for him while you're still in the area, join them. But don't waste your time trying to find a group, keep following the guide normally and just go for those group quests when the opportunity arises.|
 
 C Imprints on the Past |QID|12282| |N|Go back to the gate and take the path going down south. Go to the first building on your right-hand side. Go to the upper floor and find the Scrying Orb. |M|78.90,50.90|
@@ -444,8 +443,7 @@ T Mighty Magnataur |QID|12149|
 A Reclusive Runemaster |QID|12150|
 
 N Note: group quests |QID|12151| |N|Now we're all set for most of the group quests of Dragonblight. These can't be soloed by most classes, so look for a group for those quests while you keep on following the guide. Here's a list of the quests: [My Old Enemy] [The Plume of Alystros] [Wanted: High Shaman Bloodpaw] [Wanted: Kreug Oathbreaker] [Wanted: Onslaught Commander Iustus] [Reclusive Runemaster]. Once you finish [Reclusive Runemaster] (Defeat Dreg'mar), get the follow up [Wanton Warlord] (Kill Grom'thar) and also look for a group for it.|
-N Group mob map |QID|12151| |N|Here is the map of the group quests again. You can get there quickly thanks to your Wyrmrest Vanquisher, so just keep on following the guide normally and whenever you find a group for one of the quests, summomn your drake and fly there! Kreug Oathbreaker . High Shaman Bloodpaw (90.0, 72.0). Commander Iustus (87.0, 38.3). Dregmar Runebrand (72.0, 49.0). Abbendis (71.1, 77.
-. Alystros (64.6, 77.3). Grom'thar (57.0, 76.0)|M|89.7,52.4|
+N Group mob map |QID|12151| |N|Here is the map of the group quests again. You can get there quickly thanks to your Wyrmrest Vanquisher, so just keep on following the guide normally and whenever you find a group for one of the quests, summomn your drake and fly there! Kreug Oathbreaker . High Shaman Bloodpaw (90.0, 72.0). Commander Iustus (87.0, 38.3). Dregmar Runebrand (72.0, 49.0). Abbendis (71.1, 77.. Alystros (64.6, 77.3). Grom'thar (57.0, 76.0)|M|89.7,52.4|
 
 T Report to the Ruby Dragonshrine |QID|12460| |U|38302| |N|Summon your Wyrmrest Vanquisher. Fly northwest to Ceristrasz |M|52.00,50.00|
 A Heated Battle |QID|12416|M|52.2,50.0|

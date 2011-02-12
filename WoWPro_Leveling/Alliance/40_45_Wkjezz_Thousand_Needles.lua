@@ -59,9 +59,7 @@ T To New Thalanaar |QID|25481|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|
 C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
 T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|To Rendow.|
-A Two If By Boat|QID|25488|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle
-&
-Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
+A Two If By Boat|QID|25488|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
 T Two If By Boat|QID|25488|M|75.93,74.59|N|To Fizzle Brassbolts (at the top)|
 A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|
 C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
@@ -82,9 +80,7 @@ K Pirate Treasure Hunters |QID|25524|L|54821|M|80.00, 75.00|N|Kill Pirate Treasu
 C In the Outhouse|QID|25524|U|54821|M|79.61,75.03|N|Use the Pirate's Crowbar on the Outhouse|
 T In the Outhouse|QID|25524|M|79.58,75.09|N|To Submerged Outhouse|
 C Down in the Deeps|QID|25515|US|M|80.61,76.83|Collect Rocket Car Parts from the ground.|
-f Fizzle
-&
-Pozzik's Speedbarge|QID|25524|M|79.16,71.95|N|At Tilly Topspin, back onto the Speedbarge.|
+f Fizzle & Pozzik's Speedbarge|QID|25524|M|79.16,71.95|N|At Tilly Topspin, back onto the Speedbarge.|
 T Down in the Deeps|QID|25515|M|76.50,73.64|N|To Jinky Twizzlefixxit.|
 A Pirate Accuracy Increasing|QID|25532|M|76.50,73.64|
 C Pirate Accuracy Increasing|QID|25532|M|78.89,75.71|QO|Get a boat from Mazzer: 1/1|N|Speak to Mazzar on the south pontoon and tell him to get you into your boat.|
@@ -132,9 +128,7 @@ T The Mad Magus|QID|25704|M|86.28,92.10;96.80,72.34|N|To Ajamon Ghostcaller, rem
 C Fool's Gold|QID|25774|S|M|48.05,42.85|N|Very very big gold ore nodes. Head into the cave and collect 8 (under water)|
 C The Ancient Brazier|QID|25762|U|55986|M|43.93,37.52|N|This quest is tricky. This is actually in an UNDERWATER cave. Once you enter the cave follow the left path all the way around until you find the brazier. (The co-ords point to the cave mouth).|
 C Fool's Gold|QID|25774|US|M|48.05,42.85|N|Very very big gold ore nodes. Head into the cave and collect 8 (under water)|
-H Fizzle
-&
-Pozzik's Speedbarge|QID|25774|N|Hearth. Do not turn in the quests on the steam barge yet.|
+H Fizzle & Pozzik's Speedbarge|QID|25774|N|Hearth. Do not turn in the quests on the steam barge yet.|
 T Fool's Gold|QID|25774|M|91.38,57.70|N|To Crazzle Sprysprocket.|
 A Fake Gold for Black Gold|QID|25778|M|91.36,57.65|N|From Crazzle Sprysprocket.|
 T The Ancient Brazier|QID|25762|M|90.09,52.97|N|To Skycaller Vrakthris.|
@@ -168,9 +162,7 @@ C Freezing the Pipes|QID|28047|NC|U|62912|M|64.95,85.79|
 C That Smart One's Gotta Go|QID|28048|M|64.57,85.73|
 T Freezing the Pipes|QID|28047|M|69.90,85.19|N|To Brivelthwerp.|
 T That Smart One's Gotta Go|QID|28048|M|69.90,85.19|N|To Brivelthwerp.|
-H Fizzle
-&
-Pozzik's Speedbarge|QID|25825|N|If it is down, just sail back (Click to continue)|U|55121|
+H Fizzle & Pozzik's Speedbarge|QID|25825|N|If it is down, just sail back (Click to continue)|U|55121|
 T Deliver the Goods|QID|25825|M|75.97,74.65|N|To Fizzle Brassbolts.|
 A Free Freewind Post|QID|25835|M|75.97,74.65|N|From Fizzle Brassbolts.|
 T Quiet the Cannons|QID|25585|M|76.48,73.67|N|To Jinky Twizzlefixxit.|
@@ -274,9 +266,7 @@ A The Doomstone|QID|28159|M|50.08,62.63|N|From Magatha Grimtotem.|
 C The Doomstone|QID|28159|U|63104|M|54.51,62.92|N|Kill Animus.  Beware, he likes to throw people around. Don't get too carried away... epic music can make for an epic death.|
 T The Doomstone|QID|28159|M|50.11,62.62|N|To Magatha Grimtotem.|
 A Spread the Word|QID|28160|M|50.11,62.62|N|From Magatha Grimtotem.|
-H Fizzle
-&
-Pozzik's Speedbarge|QID|99999|N|Hearth to the barge.|
+H Fizzle & Pozzik's Speedbarge|QID|99999|N|Hearth to the barge.|
 T Spread the Word|QID|28160|M|75.92,74.57|N|To Fizzle Brassbolts.|
 A Tanaris is Calling|QID|27446|M|75.92,74.57|N|From Fizzle Brassbolts.|
 N The End|QID|99999|U|55121|N|That's It for Thousand Needles Folks. Head on south into Tanaris and join me for Wkjezz's Tanaris Guide!|

@@ -11,9 +11,7 @@ return [[
 
 N READ THIS! |QID|12818| |N|This guide picks up only non-group, non-instance quests. It also assumes that you have cold-weather flight|
 
-A Luxurious Getaway |QID|12853| |N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips
-&
-Crows" down in the sewers| |Z|Dalaran| |M|31.23,49.63|
+A Luxurious Getaway |QID|12853| |N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips & Crows" down in the sewers| |Z|Dalaran| |M|31.23,49.63|
 
 N Head on over to Storm Peaks! |QID|12818| |N|Head on over to Storm Peaks|
 

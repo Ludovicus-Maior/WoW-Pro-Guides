@@ -145,8 +145,7 @@ T Panther Mastery|QID|193|M|43.76,22.42|N|To Sir S. J. Erlgadin.|
 T Raptor Mastery|QID|197|M|44.05,22.94|N|To Hemet Nesingwary Jr..|
 A Big Game Hunter|QID|208|M|44.05,22.94|N|From Hemet Nesingwary Jr..|
 T Excelsior|QID|26345|M|43.78,23.42|N|To Drizzlik.|
-r Sell
-Repair|QID|26743|M|43.68,23.24|N|To Jaquilina Dramet. Close this step when done.|
+r SellRepair|QID|26743|M|43.68,23.24|N|To Jaquilina Dramet. Close this step when done.|
 
 C Sacred to the Bloodscalp|QID|26743|M|37.30,25.57|N|Kill the Bloodscalp Trolls in this area till the quest is complete.|
 C Population Con-Troll|QID|26751|M|26.74,21.82|N|Kill Bloodscalps Trolls in the area until the quest is completed.|S|
@@ -185,8 +184,7 @@ A Zul'Mamwe Mambo|QID|26779|M|52.71,66.72|N|From Ghaliri.|
 F Rebel Camp|QID|26779|
 R Nesingwary's Expedition|QID|208|M|44.16,22.61|
 T Big Game Hunter|QID|208|M|44.27,22.92|N|To Hemet Nesingwary Jr..|
-r Sell
-Repair|QID|26743|M|43.68,23.24|N|To Jaquilina Dramet.|
+r SellRepair|QID|26743|M|43.68,23.24|N|To Jaquilina Dramet.|
 R Rebel Camp|QID|26779|M|47.56,11.49|
 F Fort Livingston|QID|26779|
 C Zul'Mamwe Mambo|QID|26779|M|59.77,72.01|S|

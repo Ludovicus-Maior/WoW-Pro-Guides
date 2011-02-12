@@ -305,8 +305,7 @@ T What's in That Brew? |QID|11298|
 T Eyes of the Eagle |QID|11417|U|33618|N|Back at (30,6).|M|29.64,5.72|
 A Alpha Worg |QID|11324|
 
-C Alpha Worg |QID|11324|NOPOI|N|Look for Garwal. He patrols between the three points, (27,
-, (26,12), (28,17). You don't have to be in the Worg disguise.|
+C Alpha Worg |QID|11324|NOPOI|N|Look for Garwal. He patrols between the three points, (27,, (26,12), (28,17). You don't have to be in the Worg disguise.|
 
 N Things to do |QID|11264|N|Deathless Watchers and Putrid Wights are kill on sight until you finish the relevant quest, especially the watchers.|
 

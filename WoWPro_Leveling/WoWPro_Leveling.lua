@@ -114,3 +114,13 @@ function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startleve
 		nextGID = nextGIDvalue,
 	}
 end
+
+function WoWPro.Leveling:LoadAllGuides()
+        WoWPro:Print("Test Load of All Guides")
+	for guidID,guide in pairs(WoWPro.Guides) do
+            WoWPro:Print("Test Loading " .. guidID)
+	    WoWPro:LoadGuide(guidID)
+	end
+        WoWPro:Print("Done!")
+end	    
+

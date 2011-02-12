@@ -72,6 +72,7 @@
 
 WoWPro.Leveling:RegisterGuide('WkjAsh2025', 'Ashenvale', 'WKJezz', '20', '25', 'WkjSton2530', 'Alliance', function()
 
+
 return [[
 
 N Hi There!|QID|99999|NC|N|This guide will not include turn ins from quests obtained in Darkshore/Hero's Call Board. Please turn any of these lead in quests as you come across them. One more thing; Ashenvale has a weird design, so we will be making what seems some odd moves around the zone, this is to provide maximum possible XP. (Click this step to continue)|

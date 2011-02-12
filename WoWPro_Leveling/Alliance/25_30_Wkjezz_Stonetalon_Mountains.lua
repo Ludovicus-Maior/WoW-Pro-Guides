@@ -23,6 +23,7 @@
 
 WoWPro.Leveling:RegisterGuide('WkjSton2530', 'Stonetalon Mountains', 'WKjezz', '25', '30', 'WkjSotBar3035', 'Alliance', function()
 
+
 return [[
 
 N Before we start...|QID|99999|N|This guide pick up from the exact point where Ashenvale leaves off; Stardust Spire in Ashenvale. If you are starting this zone from new the quests marked optional should not apply to you. (Click the check box to continue).|

@@ -1,4 +1,17 @@
-WoWPro.Leveling:RegisterGuide('CraNet6970', 'Netherstorm', 'Crackerhead22', '69', '70', '####', 'Alliance', function() 
+-- URL: http://wow-pro.com/wiki/source_code_netherstorm_horde
+-- Date: 2011-01-23 01:59
+-- Who: Crackerhead22
+-- Log: Added source code.
+
+-- URL: http://wow-pro.com/node/3284/revisions/23458/view
+-- Date: 2010-12-03 21:44
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3284/revisions/23457/view
+-- Date: 2010-12-03 21:41
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('CraNet6970', 'Netherstorm', 'Crackerhead22', '69', '70', '####', 'Horde', function()
 return [[
 
 A Assist Exarch Orelis|QID|11038|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor|

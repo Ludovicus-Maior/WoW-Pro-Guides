@@ -8,6 +8,7 @@
 
 WoWPro.Leveling:RegisterGuide("JamTerS6567", "Terokkar Forest - Scryer", "Jame", "65", "67", "JamNag6769", "Horde", function()
 
+
 --> Original guides written/designed by [Jame]
 -->
 --> Last modified by [Jiyambi] 7/12/2009

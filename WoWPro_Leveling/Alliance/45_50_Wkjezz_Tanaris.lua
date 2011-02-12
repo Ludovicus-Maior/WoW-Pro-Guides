@@ -186,9 +186,7 @@ T Thunderdrome: Sarinexx!|QID|25095|M|51.67,27.94|N|To Katrina Turner.|
 A Thunderdrome: Grudge Match!|QID|25513|M|51.74,28.04|N|From Dr. Dealwell.|
 C Thunderdrome: Grudge Match!|QID|25513|NC|M|51.70,28.50|
 T Thunderdrome: Grudge Match!|QID|25513|M|51.65,28.00|N|To Katrina Turner.|
-N WKJezz
-www.wow-pro.com
-|QID|1|N|Well done on your achievement!  If you did not get a distress beacon, it's ok to be honest as going to Booty Bay to turn it in is not very time effective anymore. See you in Un'Goro! (Close this step to continue)|
+N WKJezzwww.wow-pro.com|QID|1|N|Well done on your achievement!  If you did not get a distress beacon, it's ok to be honest as going to Booty Bay to turn it in is not very time effective anymore. See you in Un'Goro! (Close this step to continue)|
 ]]
 
 end)

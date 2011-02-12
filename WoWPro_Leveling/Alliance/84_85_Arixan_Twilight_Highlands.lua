@@ -538,9 +538,7 @@ T Last of Her Kind|QID|28247|M|59.12,69.91|N|To Lirastrasza.|
 A Victors' Point|QID|28248|M|59.12,69.91|N|From Lirastrasza.|
 T Victors' Point|QID|28248|M|43.39,57.48|N|To Kurdran Wildhammer.|
 
-A Ogres
-&
-Ettins|QID|27492|M|43.39,57.48|N|From Kurdran Wildhammer.|
+A Ogres & Ettins|QID|27492|M|43.39,57.48|N|From Kurdran Wildhammer.|
 A Call in the Artillery|QID|27496|M|43.39,57.48|N|From Cassius the White.|
 A SI:7 Drop|QID|27490|M|43.39,57.48|N|From Cassius the White.|
 
@@ -553,15 +551,11 @@ N Call in the Artillery|QID|27496|QO|Southwestern building targeted: 1/1|U|61363
 N Call in the Artillery|QID|27496|QO|Southern building targeted: 1/1|U|61363|M|41.36,73.73|N|Southern building targeted.|
 N Call in the Artillery|QID|27496|QO|Northeastern building targeted: 1/1|U|61363|M|41.02,64.30|N|Northeasterb building targeted.|
 C Call in the Artillery|QID|27496|U|61363|M|38.87,61.16|N|Northern building targeted.|
-C Ogres
-&
-Ettins|QID|27492|M|43.03,63.11|
+C Ogres & Ettins|QID|27492|M|43.03,63.11|
 
 T SI:7 Drop|QID|27490|M|43.41,57.48|N|To Cassius the White.|
 T Call in the Artillery|QID|27496|M|43.41,57.48|N|To Cassius the White.|
-T Ogres
-&
-Ettins|QID|27492|M|43.41,57.48|N|To Kurdran Wildhammer.|
+T Ogres & Ettins|QID|27492|M|43.41,57.48|N|To Kurdran Wildhammer.|
 
 A Move the Mountain|QID|27494|M|43.41,57.48|N|From Kurdran Wildhammer.|
 C Move the Mountain|QID|27494|M|38.05,66.08|

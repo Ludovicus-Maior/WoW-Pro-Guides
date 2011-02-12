@@ -27,9 +27,7 @@ C The Grimtotem are Coming|QID|25487|PRE|27062|M|10.56,8.51|N|Make your way down
 T The Grimtotem are Coming|QID|25487|M|10.56,8.51|N|To Motega Firemane.|
 A Two If By Boat|QID|25489|M|10.56,8.51|N|From Motega Firemane.|
 
-f Fizzle
-&
-Pozzik's Speedbarge|RANK|1|QID|25489|M|79.13,71.93|N|Once you arive at the speedbarge, pick up the flight point at Zazzix Boomride.|
+f Fizzle & Pozzik's Speedbarge|RANK|1|QID|25489|M|79.13,71.93|N|Once you arive at the speedbarge, pick up the flight point at Zazzix Boomride.|
 T Two If By Boat|QID|25489|M|75.94,74.68|N|To Pozzik. He can be found at the very top front room of the barge.|
 A Do Me a Favor?|QID|25505|PRE|25489|M|75.94,74.68|N|From Pozzik.|
 T Do Me a Favor?|QID|25505|M|77.16,74.47|N|To Razzeric.|
