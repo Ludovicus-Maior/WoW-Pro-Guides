@@ -7,7 +7,9 @@ local myUFG = UnitFactionGroup("player")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Leveling:OnInitialize()
-	WoWProCharDB.AutoHideLevelingInsideInstances = WoWProCharDB.AutoHideLevelingInsideInstances or true
+	if WoWProCharDB.AutoHideLevelingInsideInstances == nil then
+	    WoWProCharDB.AutoHideLevelingInsideInstances = true
+	end
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
