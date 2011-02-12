@@ -634,7 +634,6 @@ function WoWPro:CreateMiniMapButton()
 				    WoWPro:Enable()
 				end
 			elseif button == "RightButton" then
-			    WoWPro:Print("Opening WoW-Pro")
 				InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
 			end
 		end,
