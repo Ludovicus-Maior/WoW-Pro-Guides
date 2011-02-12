@@ -3,7 +3,7 @@
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 2.1.3
+## Version: 2.1.3a
 
 ## X-Category: Quest
 
