@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2011-02-13 16:04
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3225/revisions/23996/view
 -- Date: 2011-01-16 08:51
 -- Who: Estraile
 -- Log: Combining the two seperate versions of the source into one.
@@ -469,7 +473,7 @@ r Repair/Sell|QID|99999|M|34.71,71.31|N|From the Boyer in the tower.|
 K Tidress|QID|26470|M|48.23,70.63|QO|Tideress slain: 1/1|N|Kill Tidress on the isle.|
 C Retaking Mystral Lake|QID|26470|M|52.78,71.67|N|Kill elementals until you're done.|
 
-R Waypoint Trail|QID|26480|CC|M|53.07,71.67;54.00,73.93,51.58,74.94|
+R Waypoint Trail|QID|26480|CC|M|53.07,71.67;54.00,73.93;51.58,74.94|
 
 T Dartol's Rod|QID|26480|M|50.89,75.07|N|Do not Kill Krolg, use the rod then turn the quest into Krolg.|U|46739|
 A King of the Foulweald|QID|13989|M|50.89,75.07|N|From Krolg.|
@@ -478,7 +482,7 @@ T Report from the Northern Front|QID|26456|M|61.88,83.85|N|To Sentinel Farsong. 
 
 C King of the Foulweald|QID|13989|U|46777|M|56.38,63.56|N|You will fight a series of Furblogs. Try to drink/eat between waves. It has been known not to spawn Chief Murgut. If this happens to you, drop the flag on the hill again.|
 
-R Waypoint Trail|QID|13989|CC|M|53.07,71.67;54.00,73.93,51.58,74.94|
+R Waypoint Trail|QID|13989|CC|M|53.07,71.67;54.00,73.93;51.58,74.94|
 
 T King of the Foulweald|QID|13989|M|54.00,73.93;51.58,74.94;50.86,75.20|N|To Krolg.|
 A A New Adornment|QID|26481|M|50.86,75.20|N|From Krolg.|

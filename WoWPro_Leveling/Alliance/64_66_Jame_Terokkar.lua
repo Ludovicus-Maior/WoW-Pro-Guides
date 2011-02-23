@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2011-02-21 00:07
+-- Who: Crackerhead22
+-- Log: Added missing zone tag.
+
+-- URL: http://wow-pro.com/node/3277/revisions/24119/view
+-- Date: 2011-02-20 17:24
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3277/revisions/24004/view
 -- Date: 2011-01-17 03:49
 -- Who: Crackerhead22
 
@@ -107,7 +116,7 @@ r Sell junk, repair, restock, train skills|QID|10847|M|54.6,82.4|Z|Shattrath Cit
 T Restoring the Light |QID|10021|Z|Shattrath City|M|24.0,29.7|N|To Ishanah.|Rep|Aldor|
 T The Eyes of Skettis |QID|10847|Z|Shattrath City|M|52.6,21.0|N|To Rilak the Redeemed.|
 A Seek Out Kirrik|QID|10849|Z|Shattrath City|M|52.6,21.0|N|From Rilak the Redeemed.|
-T The Outcast's Plight|QID|10917|N|To Vekax.|M|51.1,17.64;45.1,19.9|
+T The Outcast's Plight|QID|10917|N|To Vekax. He tends to wander between the two treehouses.|M|51.1,17.64;45.1,19.9|Z|Shattrath City|
 T Rather Be Fishin'|QID|10037|Z|Shattrath City|M|64.0,15.5|N|To Seth.|
 A A Cure for Zahlia |QID|10020|Z|Shattrath City|M|64.43,15.4|N|From Sha'nir.|Rep|Aldor|
 T Wind Trader Lathrai|QID|9979|Z|Shattrath City|M|72.2,30.7|N|To Wind Trader Lathrai.|

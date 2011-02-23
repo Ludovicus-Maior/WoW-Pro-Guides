@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2011-02-23 01:26
+-- Who: Ludovicus Maior
+-- Log: Corrected Coordinates on [A Good-Fer-Nothin' Slither-Dogs], [Zanzil's Secret] and [Backdoor Dealings].
+--	Removed PRE tag on [Dask "The Flask" Gobfizzle] as it did not seem to be required for me.
+
+-- URL: http://wow-pro.com/node/3237/revisions/23353/view
 -- Date: 2010-12-03 11:08
 -- Who: Jiyambi
 
@@ -12,11 +18,11 @@ return [[
 T Hero's Call: Cape of Stranglethorn!|QID|28702|O|M|55.16,42.48|Z|The Cape of Stranglethorn|N|To Bronwyn Hewstrike.|
 T To the Cape|QID|28605|O|M|55.16,42.48|N|To Bronwyn Hewstrike.|
 
-A Dask "The Flask" Gobfizzle|QID|26826|PRE|28702|M|55.12,42.44|Z|The Cape of Stranglethorn|N|From Bronwyn Hewstrike.|
+A Dask "The Flask" Gobfizzle|QID|26826|M|55.12,42.44|Z|The Cape of Stranglethorn|N|From Bronwyn Hewstrike.|
 T Dask "The Flask" Gobfizzle|QID|26826|M|55.33,42.01|Z|The Cape of Stranglethorn|N|To Dask "The Flask" Gobfizzle.|
 
 A Too Big For His Britches|QID|26823|PRE|26826|M|55.33,42.01|Z|The Cape of Stranglethorn|N|From Dask "The Flask" Gobfizzle.|
-A Good-Fer-Nothin' Slither-Dogs|QID|26822|RANK|2|M|55.06,41.86|Z|The Cape of Stranglethorn|N|From Goris.|
+A Good-Fer-Nothin' Slither-Dogs|QID|26822|RANK|2|M|54.76,41.86|Z|The Cape of Stranglethorn|N|From Goris.|
 
 f Explorers' League Digsite|QID|26822|M|55.65,41.26|Z|The Cape of Stranglethorn|N|At Colin Swifthammer.|
 
@@ -49,8 +55,8 @@ T If They're Just Going to Leave Them Lying Around...|QID|26820|M|55.44,42.07|Z|
 T Maywiki|QID|26808|M|55.68,42.14|Z|The Cape of Stranglethorn|N|To Maywiki.|
 
 A Backdoor Dealings|QID|26809|PRE|26808|M|55.68,42.14|Z|The Cape of Stranglethorn|N|From Maywiki.|
-C Zanzil's Secret|QID|26815|S|M|53.23,31.23|Z|The Cape of Stranglethorn|N|Kill Zanzil mobs while continuing.|
-C Backdoor Dealings|QID|26809|M|61.53,43.05|Z|The Cape of Stranglethorn|N|Activate the Totem.|
+C Zanzil's Secret|QID|26815|S|M|42.18,32.75|Z|The Cape of Stranglethorn|N|Kill Zanzil mobs while continuing.|
+C Backdoor Dealings|QID|26809|M|54.18,31.45|Z|The Cape of Stranglethorn|N|Activate the Totem.|
 C Zanzil's Secret|QID|26815|US|M|53.23,31.23|Z|The Cape of Stranglethorn|N|Finish killing Zanzil mobs for Zanzil's Mixtures.|
 
 T Zanzil's Secret|QID|26815|M|55.24,41.90|Z|The Cape of Stranglethorn|N|To Dask "The Flask" Gobfizzle.|

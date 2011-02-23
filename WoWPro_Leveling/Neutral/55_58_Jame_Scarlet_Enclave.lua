@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2011-02-18 18:16
+-- Who: wkjezz
+
+-- URL: http://wow-pro.com/node/3369/revisions/24104/view
 -- Date: 2011-02-08 03:05
 -- Who: Ludovicus Maior
 

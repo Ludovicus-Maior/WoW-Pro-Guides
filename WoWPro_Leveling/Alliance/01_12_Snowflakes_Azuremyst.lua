@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2011-02-22 01:59
+-- Who: Crackerhead22
+-- Log: Fixed a race tag issue with "Medicinal Purpose".
+
+-- URL: http://wow-pro.com/node/3206/revisions/24049/view
 -- Date: 2011-01-25 01:28
 -- Who: Fluclo
 
@@ -133,7 +138,7 @@ T Travel to Azure Watch|QID|9313|M|48.7,50.3|
 T Word from Azure Watch|QID|9314|M|48.3,49.2|
 h Azure Watch|QID|9506|
 A Beds, Bandages, and Beyond|QID|9603|R|Draenei|N|From Caregive Chellan.|
-A Medicinal Purpose|QID|R|Draenei|9463|M|48.4,51.8|
+A Medicinal Purpose|QID|9463|R|Draenei|M|48.4,51.8|
 N Visit class trainer|C|Shaman|M|48.05,50.42||QID|9454|
 N Visit class trainer|C|Paladin|M|48.36,49.56||QID|9454|
 N Visit class trainer|C|Priest|M|46.60,49.29||QID|9454|
