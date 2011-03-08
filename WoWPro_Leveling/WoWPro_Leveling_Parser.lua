@@ -91,8 +91,10 @@ function WoWPro.Leveling:NextStep(k, skip)
 	end
 
 	-- Skipping L steps if we are already past the level
-	if WoWPro.action[k] == "L" and tonumber(WoWPro.level[k]) <= UnitLevel("player") then
-		skip = true
+	if WoWPro.action[k] == "L" and WoWPro.level[k] then
+	    if tonumber(WoWPro.level[k]) <= UnitLevel("player") then
+		    skip = true
+	    end
 	end
 					
 	return skip
