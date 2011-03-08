@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2011-03-08 12:23
+-- Who: Ludovicus Maior
+-- Log: Coord corrections for [Northwestern Temple].
+
+-- URL: http://wow-pro.com/node/3239/revisions/23611/view
 -- Date: 2010-12-05 18:00
 -- Who: Crackerhead22
 -- Log: Changed a quest to make it run smoothly into Bit's WPL guide.
@@ -148,7 +153,7 @@ C The Shell of Shadra|QID|26530|M|48.35,67.64|N|Run to the top of the Altar of Z
 T The Shell of Shadra|QID|26530|M|30.74,47.20|N|To Gilda Cloudcaller.|
 
 A Summoning Shadra|QID|26531|M|30.74,47.20|N|From Gilda Cloudcaller.|
-C Northwestern Temple|QID|26531|U|58784|QO|Northwestern Temple: 1/1|M|32.12,62.66|N|Go to the top of the Northwestern Temple and use the idol.|
+C Northwestern Temple|QID|26531|U|58784|QO|Northwestern Temple: 1/1|M|32.03,67.07|N|Go to the top of the Northwestern Temple and use the idol.|
 C Southwestern Temple|QID|26531|U|58784|M|32.55,76.15|N|Go to the top of the Southwestern Temple and use the idol.|
 C Summoning Shadra|QID|26531|U|58784|M|37.03,71.55|N|Run up to the top of the Eastern Tower and use the idol.|
 T Summoning Shadra|QID|26531|M|34.39,67.91|N|To Wildhammer Lookout.|

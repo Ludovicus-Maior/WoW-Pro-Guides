@@ -1,4 +1,15 @@
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_horde
+-- Date: 2011-02-28 23:25
+-- Who: Ludovicus Maior
+-- Log: Add [Yetiphobia].
+
+-- URL: http://wow-pro.com/node/3264/revisions/24139/view
+-- Date: 2011-02-28 23:22
+-- Who: Ludovicus Maior
+-- Log: Added [Perfect Horns] to the Horde Winterfall guide.
+--	The Alliance side had it.  Discovered by Josral.
+
+-- URL: http://wow-pro.com/node/3264/revisions/23410/view
 -- Date: 2010-12-03 11:56
 -- Who: Jiyambi
 
@@ -86,12 +97,18 @@ A Seril's Boast|QID|28627|PRE|28626|M|59.80,49.24|N|From Seril Scourgebane.|
 T Seril's Boast|QID|28627|M|59.79,49.61|N|To Deez Rocksnitch.|
 A Fresh From The Hills|QID|28632|PRE|28627|M|59.79,49.61|N|From Deez Rocksnitch.|
 A Are We There, Yeti?|QID|28629|PRE|28627|M|59.33,49.84|N|From Umi Rumplesnicker.|
+A The Perfect Horns|QID|28631|M|59.34,49.83|N|From Umi Rumplesnicker.|
 A Echo Three|QID|28630|PRE|28627|M|59.33,49.84|N|From Umi Rumplesnicker.|
 C Are We There, Yeti?|QID|28629|S|M|71.73,51.91|N|Kill and loot yetis.|
 T Echo Three|QID|28630|M|67.03,55.11|N|To Echo Three, the box outside the yeti cave.|
+C The Perfect Horns|QID|28631|M|69.65,49.72|
 C Fresh From The Hills|QID|28632|M|69.69,54.61|N|Don't be alarmed! Attack the ice imprisoning you to be set free. Once you are free, make your way out of the cave, attacking any chunks of pure ice you might see.|
 C Are We There, Yeti?|QID|28629|US|M|71.73,51.91|N|Kill and loot yetis.|
 T Are We There, Yeti?|QID|28629|M|59.35,49.84|N|To Umi Rumplesnicker, back in Everlook.|
+T The Perfect Horns|QID|28631|M|59.31,49.79|N|To Umi Rumplesnicker.|
+A Yetiphobia|QID|28722|M|59.31,49.79|N|From Umi Rumplesnicker.|
+C Yetiphobia|QID|28722|U|12928|M|60.04,50.87|N| Type /tar Leg (or target her) and use the yeti device.|
+T Yetiphobia|QID|28722|M|59.30,49.81|N|To Umi Rumplesnicker.|
 T Fresh From The Hills|QID|28632|M|59.79,49.62|N|To Deez Rocksnitch.|
 A Ice Delivery|QID|28628|PRE|28632|M|59.79,49.62|N|From Deez Rocksnitch.|
 T Ice Delivery|QID|28628|M|59.76,49.18|N|To Seril Scourgebane.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2011-03-08 12:33
+-- Who: Ludovicus Maior
+-- Log: Sequence changes around [A Line in the Dirt], [A Report to Twinbraid], and [Echoes of Agamaggan] for more optimal play.
+
+-- URL: http://wow-pro.com/node/3235/revisions/23927/view
 -- Date: 2011-01-04 17:53
 -- Who: Fluclo
 -- Log: Added another hill to A Line in the Dirt, and added some notes, also reorganised Fields of Blood quest since you'll take out many grunts in the Capture the Hill quest.
@@ -227,15 +232,15 @@ A Diplomacy By Another Means|QID|25044|M|49.90,49.43|N|From Ambassador Gaines.|
 
 A Lion's Pride|QID|25041|M|49.78,50.46|N|From Sam Trawley.|
 
+C A Line in the Dirt|QID|25045|M|46.32,47.23;49.43,54.03|N|Capture the Hill then defend it.  Don't reclick the hill if you lose control of it, or the number of mobs will multiply.  If you lose control, fall back and try again later, or try another hill|
+
 C Lion's Pride|QID|25041|S|M|33.84,39.36|
 
 C Diplomacy By Another Means|QID|25044|U|49782|M|43.05,41.87|N|Blow the horn in the pit.|
 
 T Diplomacy By Another Means|QID|25044|M|43.02,41.73|N|UI Alert.|
 
-C Fields of Blood|QID|25043|S|M|31.87,30.50|Take out the grunts.  The Capture the Hill quest will spawn about eight of the ten grunts needed.|
-
-C A Line in the Dirt|QID|25045|M|46.32,47.23;49.43,54.03|N|Capture the Hill then defend it.  Don't reclick the hill if you lose control of it, or the number of mobs will multiply.  If you lose control, fall back and try again later, or try another hill|
+C Fields of Blood|QID|25043|S|M|31.87,30.50|Take out the grunts.|
 
 C Fields of Blood|QID|25043|US|M|46.35,47.19|
 
@@ -293,11 +298,11 @@ A Powder Play|QID|25079|M|49.44,67.59|N|From Mizzy Pistonhammer.|
 
 T Claim the Battlescar|QID|25081|M|49.11,66.96|N|To Commander Roberts.|
 
+A Report to Twinbraid|QID|25087|M|49.12,67.14|N|From Commander Roberts.|
+
 T Working the Bugs Out|QID|25082|M|49.19,67.83|N|To Logan Talonstrike.|
 
 A Firestone Point|QID|25086|M|49.19,67.83|N|From Logan Talonstrike.|
-
-A Report to Twinbraid|QID|25087|M|49.12,67.14|N|From Commander Roberts.|
 
 C Powder Play|QID|25079|M|47.40,69.45|N|Kill and loot a goblin. If you catch it just right you can kill one right outside the fort walls.|
 
@@ -333,11 +338,11 @@ C Blood of the Barrens|QID|24606|M|42.12,84.95|
 
 T Blood of the Barrens|QID|24606|M|45.14,85.45|N|To Mahka.|
 
+A Echoes of Agamaggan|QID|24653|M|45.15,85.41|N|From Mahka.|
+
 T A Growing Threat|QID|25084|M|45.06,85.36|N|To Dorn Redearth.|
 
 A Mangletooth|QID|25085|M|45.09,85.36|N|From Dorn Redearth.|
-
-A Echoes of Agamaggan|QID|24653|M|45.15,85.41|N|From Mahka.|
 
 C Echoes of Agamaggan|QID|24653|S|QO|Polished Boar Skull: 1/3|M|41.46,84.06|
 

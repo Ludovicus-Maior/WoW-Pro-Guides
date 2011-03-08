@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-03-08 12:18
+-- Who: Ludovicus Maior
+-- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24043/view
 -- Date: 2011-01-24 00:46
 -- Who: Ludovicus Maior
 -- Log: Optimize acquisition of a few quests: [The War of Northwatch Aggression], [A Exploiting the Situation].

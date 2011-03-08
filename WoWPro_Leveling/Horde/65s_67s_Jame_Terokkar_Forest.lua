@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2011-03-05 23:50
+-- Who: Ludovicus Maior
+-- Log: Duplicated for the other faction [Vengeful Souls]
+
+-- URL: http://wow-pro.com/node/3278/revisions/24142/view
+-- Date: 2011-03-05 23:48
+-- Who: Ludovicus Maior
+-- Log: Corrected [Vengeful Souls] as per Josral and added some coords.
+
+-- URL: http://wow-pro.com/node/3278/revisions/23444/view
 -- Date: 2010-12-03 21:31
 -- Who: Jiyambi
 
@@ -116,14 +126,14 @@ T Veil Skith: Darkstone of Terokk |QID|10839|M|37.4,51.5|
 A Veil: Rhaze: Unliving Evil |QID|10848|M|37.4,51.5|
 T Missing Friends |QID|10852|M|37.7,51.3|
 A The Tomb of Lights |QID|10840|M|37.5,50.8|
-A The Vengeful Harbinger |QID|10842|
+A Vengeful Souls |QID|10842|M|37.5,50.8|
 
 C Before Darkness Falls |QID|10878| |N|Kill fel orcs to the southeast at the Shadow Stair, .|M|40,56|
 K Fel Orcs|QID|10880|L|31707|N|Until you find the Cabal Orders.| |
 A Cabal Orders |QID|10880| |U|31707|M|32.2,52.8|
 
-C The Vengeful Harbinger |QID|10842|U|30527|N|Head east to the Tomb of Lights at , kill Bonelashers on the way. You may need help for this quest. Once you're ready, head down and clear the eastern room. Then head to the circle at the end and use the Draenei Tomb Relic. Fight off the waves that attack.|M|47,55|
-T The Vengeful Harbinger |QID|10842|N|There should be a Dranei spirit in the center of the alter to turnin the quest, if there isn't then its bugged. You will need to either wait till your server resets or just abandon the quest as there is nothing a GM can/will do.
+C Vengeful Souls |QID|10842|M|47,55|N|Head east to the Tomb of Lights, kill Bonelashers on the way.|
+T Vengeful Souls |QID|10842|M|37.5,50.8|
 C The Tomb of Lights |QID|10840|
 
 T The Tomb of Lights |QID|10840| |N|Back at the caravan, kill Bonelashers on your way back.|M|37.5,50.8|

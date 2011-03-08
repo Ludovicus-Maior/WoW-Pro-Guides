@@ -1,4 +1,12 @@
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2011-02-28 20:48
+-- Who: Ludovicus Maior
+-- Log: Eliminated sequence [Reborn From The Ashes], [Fate, Up Against Your Will],
+--	 [A Royal Coup], [The Killing Time], [The Battle For The Undercity].
+--	
+--	Kudos to Dez, seeyabye91, and exace for being persistent.
+
+-- URL: http://wow-pro.com/node/3291/revisions/23474/view
 -- Date: 2010-12-03 22:19
 -- Who: Jiyambi
 
@@ -678,30 +686,6 @@ N Ask him... |QID|12499| |N|Ask him to fly you back to the ground level.|
 F Fordragon Hold |QID|12499|
 T Return To Angrathar |QID|12499| |N|Go to Highlord Bolvar Fordragon. Enjoy the super cool cinematic.|M|37.8,23.4|
 
-R Angrathar the Wrathgate |QID|13347| |N|Mount up, ride to the Wrathgate . If you want to watch the cinematic again, you can talk to Alexstrasza and click on the text.|M|38.00,19.00|
-A Reborn From The Ashes |QID|13347|M|38.5,19.3|
-C Reborn From The Ashes |QID|13347| |N|Look for Fordragon's Shield, it's on Alexstrasza's left. Loot it.|M|38.0,19.6|
-
-R Stormwind City |QID|13347| |N|Hearthstone back to a main city and go to Stormwind.|
-
-T Reborn From The Ashes |QID|13347| |N|Go to King Varian Wrynn in Stormwind Keep.|M|80.0,38.4|
-A Fate, Up Against Your Will |QID|13369|
-
-T Fate, Up Against Your Will |QID|13369| |N|Talk to Lady Jaina Proudmoore, who stands next to the king. Tell her you're ready to go to Orgrimmar.|
-A A Royal Coup |QID|13370|
-
-T A Royal Coup |QID|13370| |N|Take the portal back to Stormwind.|
-A The Killing Time |QID|13371|
-
-T The Killing Time |QID|13371| |N|Take the portal to the Undercity.|
-A The Battle For The Undercity |QID|13377|
-
-N Note: |QID|13377| |N|Speak to King Varian to activate the event, then wait until the timer starts. Now all you have to do is follow King Varian Wrynn through this amazing quest. You're pretty much unkillable thanks to the auras you get from King Varian and Jaina, so have fun and help them fight till the end of the event.|
-T The Battle For The Undercity |QID|13377| |N|Once back in Stormwind|
-
-N Note: |QID|12511| |N|While you're here, train your new skills, visit the AH, etc.|
-
-R Wintergarde Keep |QID|12511| |N|Once you're ready to go again, go to Stormwind Harbor, take the boat to Borean Tundra (northernmost dock) and fly to Wintergarde Keep, Dragonblight.|
 N Group quests |QID|12151| |N|Try a last time to get a group for the group quests of Dragonblight, if you don't find one, just abandon those groups quests now, we are done with Dragonblight. You can come back here at level 80 to finish those group quests.|
 
 A  The Hills Have Us |QID|12511| |N|In Wintergarde Keep, go to the gryphon landing site, this will send you to Grizzly Hills.|M|77.1,50.1|

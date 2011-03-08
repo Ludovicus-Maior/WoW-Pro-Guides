@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-03-08 12:18
+-- Who: Ludovicus Maior
+-- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24043/view
 -- Date: 2011-01-24 00:46
 -- Who: Ludovicus Maior
 -- Log: Optimize acquisition of a few quests: [The War of Northwatch Aggression], [A Exploiting the Situation].
@@ -108,24 +113,22 @@ C Galgar's Cactus Apple Surprise|QID|25136|S|NC|M|44.62,64.74|N|Loot cactus appl
 C Lazy Peons|QID|25134|S|NC|U|16114|M|40.88,60.48|N|Hit peons with the Foreman's Blackjack.|
 C Invaders in Our Home|QID|25172|M|43.91,72.54|N|Kill Northwatch scouts to the south.|
 T Invaders in Our Home|QID|25172|M|43.27,68.24|N|To Gornek.|
+T Galgar's Cactus Apple Surprise|QID|25136|M|42.73,67.29|N|To Galgar.|
+T Lazy Peons|QID|25134|M|43.54,67.48|N|To Foreman Thazz'ril.|
 A Sting of the Scorpid|QID|25127|M|43.27,68.24|N|From Gornek.|
-A Hana'zua|QID|25128|M|43.44,69.13|N|From Canaga Earthcaller.|
-C Sting of the Scorpid|QID|25127|S|M|41.85,60.37|N|Kill and loot scorpids.|
-C Galgar's Cactus Apple Surprise|QID|25136|US|NC|M|44.62,64.74|N|Loot cactus apples from cactuses.|
-C Lazy Peons|QID|25134|US|NC|U|16114|M|40.88,60.48|N|Hit peons with the Foreman's Blackjack.|
+C Sting of the Scorpid|QID|25127|M|41.85,60.37|N|Kill and loot scorpids.|
+T Sting of the Scorpid|QID|25127|M|43.26,68.17|N|To Gornek.|
+A Hana'zua|QID|25128|PRE|25127|M|42.40,69.16|N|From Canaga Earthcaller.|
+A Vile Familiars|QID|25131|PRE|25127|M|43.43,67.48|N|From Zureetha Fargaze.|
+C Vile Familiars|QID|25131|M|44.48,56.56|N|Kill Vile Familiars near the cave to the north.|
 T Hana'zua|QID|25128|M|40.63,62.58|N|To Hana'zua.|
 A Sarkoth|QID|25129|M|40.63,62.58|N|From Hana'zua.|
 C Sarkoth|QID|25129|M|40.35,66.85|N|Kill and loot Sarkoth.|
 T Sarkoth|QID|25129|M|40.59,62.63|N|To Hana'zua.|
 A Back to the Den|QID|25130|M|40.59,62.63|N|From Hana'zua.|
-C Sting of the Scorpid|QID|25127|US|M|41.85,60.37|N|Kill and loot scorpids.|
-T Galgar's Cactus Apple Surprise|QID|25136|M|42.73,67.29|N|To Galgar. You can get back to the Den by going past where Sarkoth was and jumping down.|
-T Lazy Peons|QID|25134|M|43.54,67.48|N|To Foreman Thazz'ril.|
-T Sting of the Scorpid|QID|25127|M|43.26,68.17|N|To Gornek.|
-T Back to the Den|QID|25130|M|43.26,68.17|N|To Gornek.|
-A Vile Familiars|QID|25131|PRE|25127|M|43.43,67.48|N|From Zureetha Fargaze.|
-C Vile Familiars|QID|25131|M|44.48,56.56|N|Kill Vile Familiars near the cave to the north.|
-T Vile Familiars|QID|25131|M|43.47,67.48|N|To Zureetha Fargaze, back at the Den.|
+T Back to the Den|QID|25130|M|40.54,66.91;42.12,67.37;43.26,68.17|N|To Gornek. Jump down near where you fought Sarkoth.|
+T Vile Familiars|QID|25131|M|43.47,67.48|N|To Zureetha Fargaze, back at the Den.  |
+
 A Burning Blade Medallion|QID|25132|M|43.47,67.48|N|From Zureetha Fargaze.|
 A Thazz'ril's Pick|QID|25135|M|43.47,67.48|N|From Foreman Thazz'ril.|
 C Thazz'ril's Pick|QID|25135|NC|M|43.75,53.77|S|N|Inside the cave to the north.|

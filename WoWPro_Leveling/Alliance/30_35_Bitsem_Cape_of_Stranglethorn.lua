@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2011-03-06 19:21
+-- Who: Ludovicus Maior
+-- Log: Removed references to [The Curse of the Tides] which is obsolete.
+--	Besides, they were all A steps and no C and T's.  Wierd.
+
+-- URL: http://wow-pro.com/node/3237/revisions/24126/view
 -- Date: 2011-02-23 01:26
 -- Who: Ludovicus Maior
 -- Log: Corrected Coordinates on [A Good-Fer-Nothin' Slither-Dogs], [Zanzil's Secret] and [Backdoor Dealings].
@@ -113,9 +119,7 @@ T Airwyn Bantamflax|QID|26821|M|42.49,73.15|Z|The Cape of Stranglethorn|N|To Air
 
 h Booty Bay|QID|26593|M|40.93,73.79|Z|The Cape of Stranglethorn|N|At Innkeeper Skindle.|
 
-A The Curse of the Tides|QID|611|M|41.22,74.16|Z|The Cape of Stranglethorn|N|From Catelyn the Blade.|
-
-f Booty Bay|QID|611|NC|U|4027|M|41.64,74.47|N|Get the Booty Bay flight path.|
+f Booty Bay|QID|26593|NC|U|4027|M|41.64,74.47|N|Get the Booty Bay flight path.|
 
 A The Call of Kalimdor|QID|26596|M|40.56,68.20|Z|The Cape of Stranglethorn|N|If you're going to go to Dustwallow Marsh in Kalimdor next. From Corporal Jeyne.|
 A The Battle for Andorhal|QID|28749|M|41.55,74.35|Z|The Cape of Stranglethorn|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
@@ -130,8 +134,6 @@ C Scaring Shaky|QID|26593|US|M|49.49,59.47|Z|The Cape of Stranglethorn|N|Finish 
 C The Captain's Chest|QID|26599|M|51.59,68.80|Z|The Cape of Stranglethorn|N|Kill Gorlash and loot Smotts' Chest.|
 
 H Booty Bay|QID|26599|N|Hearth to Booty Bay.|
-
-A The Curse of the Tides|QID|611|M|41.18,74.14|Z|The Cape of Stranglethorn|N|From Catelyn the Blade.|
 
 T An Old Sea Dog|QID|26617|M|41.03,73.25|Z|The Cape of Stranglethorn|N|To Fleet Master Seahorn.|
 T Stranglethorn Fever|QID|26597|M|41.86,72.81|Z|The Cape of Stranglethorn|N|To Fin Fizracket.|
@@ -167,7 +169,6 @@ C Details of the Attack|QID|26612|US|M|42.08,83.04;41.12,82.55|Z|The Cape of Str
 
 H Booty Bay|QID|26612|NC|M|41.19,73.06|N|Hearth or run to Booty Bay.|
 
-A The Curse of the Tides|QID|611|M|41.20,74.14|Z|The Cape of Stranglethorn|N|From Catelyn the Blade.|
 T Up to Snuff|QID|26613|M|40.75,73.78|Z|The Cape of Stranglethorn|N|To Deeg.|
 T Details of the Attack|QID|26612|M|41.12,73.13|Z|The Cape of Stranglethorn|N|To Baron Revilgaz.|
 
@@ -189,7 +190,6 @@ l Oversized Pirate Hat|QID|26630|L|59148|M|42.72,69.13|Z|The Cape of Strangletho
 C Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|Z|The Cape of Stranglethorn|N|Take the Head and Hat to the Fleetmaster.|
 T Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|Z|The Cape of Stranglethorn|N|To Fleet Master Seahorn.|
 
-A The Curse of the Tides|QID|611|M|41.20,74.09|Z|The Cape of Stranglethorn|N|From Catelyn the Blade.|
 T Seeing Where Your Loyalties Lie|QID|26629|M|43.85,56.34|Z|The Cape of Stranglethorn|N|To Yancey Grillsen.|
 A Your First Day as a Pirate|QID|26631|PRE|26629|M|43.85,56.34|Z|The Cape of Stranglethorn|N|From Yancey Grillsen.|
 

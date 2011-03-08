@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2011-03-08 12:27
+-- Who: Ludovicus Maior
+-- Log: The [The Orc Report] does not come from "Swamp Eye" Jarl, but from a grave near the house he is in.
+
+-- URL: http://wow-pro.com/node/3241/revisions/23933/view
 -- Date: 2011-01-05 19:17
 -- Who: Fluclo
 -- Log: Added QID numbers to a few steps
@@ -146,7 +151,7 @@ T The Hermit of Swamplight Manor|QID|27215|M|55.44,26.30|N|To "Swamp Eye" Jarl.|
 
 A Marsh Frog Legs|QID|27183|M|55.36,26.13|N|From "Swamp Eye" Jarl.|
 
-A The Orc Report|QID|27246|M|55.38,26.05|N|From "Swamp Eye" Jarl.|
+A The Orc Report|QID|27246|M|55.44,25.89|N|From the grave next to the house.|
 
 A What's Haunting Witch Hill?|QID|27188|M|55.53,26.19|N|From Mordant Grimsby.|
 
