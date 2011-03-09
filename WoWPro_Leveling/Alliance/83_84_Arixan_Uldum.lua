@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'AriTwi8485', 'Alliance', function() 
+WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'AriTwi8485', 'Alliance', function()
 return [[
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|
@@ -16,7 +16,7 @@ A Budd's Plan|QID|27924|M|59.71,72.03|N|From Budd.|
 C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Set bales of hay on fire.|S|
 C Budd's Plan|QID|27924|M|60.91,74.08|N|Kill Neferset Denizens and Neferset Sentinels for Armor Pieces or find them on ground.|S|
 C Kavem the Callous|QID|28105|L|62817|M|59.96,73.92|N|Kill Kavem and loot the Neferset Key.|
-C Smoke in Their Eyes|QID|27923|U|630l27|M|62.12,73.98|N|Set bales of hay on fire.|US|
+C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Set bales of hay on fire.|US|
 C Budd's Plan|QID|27924|M|60.91,74.08|N|Kill Neferset Denizens and Neferset Sentinels for Armor Pieces or find them on ground.|US|
 
 T Smoke in Their Eyes|QID|27923|M|59.65,72.05|N|To Prince Nadun.|
@@ -69,15 +69,15 @@ T Premature Explosionation|QID|27141|M|64.59,28.60|N|To Harrison Jones.|
 
 A Field Work|QID|27179|M|64.59,28.60|N|From Sand Pygmy Corpse.|
 A Just the Tip|QID|27176|M|64.85,29.53|
-A Do the World a Favor|QID|27187|M|68.09,31.26|N|Kill Mangy Hyenas or Skarf to be offered this quest.|
+A Do the World a Favor|QID|27187|M|65.4,30.8|N|Kill Mangy Hyenas or Skarf to be offered this quest.|S|
+C Field Work|QID|27179|N|Kill Sand Pygmies and loot Ornate Tablet Fragments. You can also find them lying around in this area.|S|
+C Just the Tip|QID|27176|M|68.08,31.51|M|67.91,31.44|U|60859|N|Kill Sultan Oogah and loot the Sultan's Staff, then click it. If you do not find the Sultan, check for Skarf, he might be riding it.|
+A Do the World a Favor|QID|27187|M|68.09,31.26|N|Kill Mangy Hyenas or Skarf to be offered this quest.|US|
+C Do the World a Favor|QID|27187|N|Kill Mangy Hyenas.|S|
+C Field Work|QID|27179|M|63.50,31.33|N|Get the remaining Ornate Tablet Fragments.|US|
+C Do the World a Favor|QID|27187|M|66.78,26.76;63.34,26.99|N|Kill Mangy Hyenas.|US|
 
-C Do the World a Favor|QID|27187|M|68.09,31.26|N|Kill Mangy Hyenas.|S|
-C Just the Tip|QID|27176|M|68.08,31.51|L|60868|U|60859|M|67.91,31.44|N|Kill Sultan Oogah and loot the Sultan's Staff, then click it. If you do not find the Sultan, check for Skarf, he might be riding it.
-C Field Work|QID|27179|M|63.50,31.33|N|Kill Sand Pygmys and loot Ornate Tablet Fragments. You can also find them lying around in this area.|
-C Do the World a Favor|QID|27187|M|64.38,32.13|N|Kill Mangy Hyenas.|US|
-
-
-T Do the World a Favor|QID|27187|M|64.38,32.13|l
+T Do the World a Favor|QID|27187|M|64.60,28.65|N|Quest ends automatically.|
 T Field Work|QID|27179|M|64.60,28.65|N|To Harrison Jones.|
 T Just the Tip|QID|27176|M|64.60,28.65|N|To Harrison Jones.|
 
@@ -105,14 +105,25 @@ T By the Light of the Stars|QID|27549|M|64.48,28.05|
 A Tipping the Balance|QID|27431|M|64.49,27.98|N|From Harrison Jones.|
 C Tipping the Balance|QID|27431|M|64.41,27.32|N|Talk to Harrison and click 'Ask "What can I do to help?".|
 T Tipping the Balance|QID|27431|M|64.50,27.99|N|To Harrison Jones.|
-A Just A Fancy Cockroach|QID|27627|RANK|2|M|62.48,31.91|N|Kill a Scarab to get this quest.|
-
 A After the Fall|QID|27624|M|64.50,27.99|N|From Harrison Jones.|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|62.48,31.91|QO|Amethyst Scarabs Slain: 5/5.|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.0,32.5|QO|Emerald Scarabs Slain: 5/5.|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.5,27.6|QO|Sapphire Scarabs Slain: 5/5.|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.2,33.1|QO|Turquoise Scarabs Slain: 5/5.|
-C After the Fall|QID|27624|M|62.48,31.91;65.38,32.72;66.8,27.81;64.01,26.38|N|Gather the heads of the 4 statues.|
+A Just A Fancy Cockroach|QID|27627|RANK|2|M|63.77,27.26|N|Kill a Scarab to get this quest.|
+
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5.|N|Kill Amethyst Scarabs.|S|
+C After the Fall|QID|27624|M|63.96,26.68|QO|Orb of the Morning Star: 1/1|N|Collect the Orb of the Morning Star.|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5.|N|Kill the remaining Amethyst Scarabs.|US|
+
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5.|N|Kill Turquoise Scarabs.|S|
+C After the Fall|QID|27624|M|62.64,31.97|QO|Orb of the North Star: 1/1|N|Collect the Orb of the North Star.|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5.|N|Kill the remaining Turquoise Scarabs.|US|
+
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5.|N|Kill Emerald Scarabs.|S|
+C After the Fall|QID|27624|M|65.26,32.56|QO|Orb of the Shooting Star: 1/1|N|Collect the Orb of the Shooting Star.|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5.|N|Kill the remaining Emerald Scarabs.|US|
+
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5.|N|Kill Sapphire Scarabs.|S|
+C After the Fall|QID|27624|M|66.78,28.01|QO|Orb of the Evening Star: 1/1|N|Collect the Orb of the Evening Star.|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5.|N|Kill the remaining Sapphire Scarabs.|US|
+
 T Just A Fancy Cockroach|QID|27627|RANK|2|M|63.2,33.1|N|Auto Turnin.|
 T After the Fall|QID|27624|M|64.47,28.02|N|To Harrison Jones.|
 
@@ -120,7 +131,6 @@ A Do the Honors|QID|27669|M|64.47,28.02|N|From Harrison Jones.|
 C Do the Honors|QID|27669|U|62054|M|64.48,31.04|N|Use the Orbs of the Stars. Watch the cinematic and be teleported outside.|
 T Do the Honors|QID|27669|M|63.90,33.90|N|To Harrison Jones.|
 T Impending Retribution|QID|28134|M|54.93,32.80|N|To King Phaoris.|
-
 
 A That Gleam in his Eye|QID|27899|M|54.29,35.23|N|From Adarrah.|
 T Al'Akir's Vengeance|QID|28135|M|45.23,37.92|N|To Prince Nadun.|
@@ -135,7 +145,6 @@ A The Prophet's Dying Words|QID|27602|M|40.03,40.57|N|From Prophet Hadassi.|
 T The Prophet's Dying Words|QID|27602|M|39.66,45.38|N|"Talk" to the Sand-Covered Hieroglyph.|
 
 A Colossal Guardians|QID|27623|M|39.66,45.38|
-
 
 C Under the Choking Sands|QID|27519|M|40.63,39.15|N|Right-click Oasis Survivors to rescue them.|S|
 C Minions of Al'Akir|QID|27520|M|41.07,38.47|S|
@@ -349,7 +358,6 @@ C Idolatry|QID|27942|M|32.98,60.99|N|Loot Well-Preserved Idols. Contained in sma
 C Angered Spirits|QID|27943|U|62794|M|32.77,65.27|N|Bring down Furious Spirits below 50% HP, then use the Licensed Proton Accelerator Cannon.|
 C Fashionism|QID|27941|M|34.47,66.97|N|Look for Dead Troopers in the area, right-click them and loot their uniforms.|US|
 C Idolatry|QID|27942|M|32.98,60.99|N|Loot Well-Preserved Idols. Contained in small sphynx statues on the ground.|US|
-
 
 T Fashionism|QID|27941|M|24.43,64.56|N|To Belloc Brightblade.|
 T Idolatry|QID|27942|M|24.45,64.11|N|To Commander Schnottz.|
