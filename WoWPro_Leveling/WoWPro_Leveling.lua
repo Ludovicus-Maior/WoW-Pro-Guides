@@ -119,11 +119,13 @@ function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startleve
 end
 
 function WoWPro.Leveling:LoadAllGuides()
-        WoWPro:Print("Test Load of All Guides")
+    WoWPro:Print("Test Load of All Guides")
+    local gCount=0
 	for guidID,guide in pairs(WoWPro.Guides) do
-            WoWPro:Print("Test Loading " .. guidID)
+        WoWPro:Print("Test Loading " .. guidID)
 	    WoWPro:LoadGuide(guidID)
+	    gCount = gCount + 1
 	end
-        WoWPro:Print("Done!")
+        WoWPro:Print("Done! "..tostring(gCount).." guides present")
 end	    
 
