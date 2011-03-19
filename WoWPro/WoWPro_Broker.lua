@@ -21,7 +21,21 @@ function WoWPro:LoadGuide(guideID)
 		WoWPro:LoadNilGuide() 
 		WoWPro:dbp("No guide specified, loading NilGuide.")
 		return 
-	end 
+	end
+	-- If the current guide can not be found, see if it was renamed.
+	if not WoWPro.Guides[GID] then
+	    local myUFG = UnitFactionGroup("player"):sub(1,1)
+	    local name,levels = text:match("([A-Za-z]+)([0-9]+)")
+	    local newGID =name..myUFG..levels
+	    if WoWPro.Guides[newGID] then
+	        -- Yeah, we renamed the guide on the poor chap.
+	        -- Remap the state
+	        WoWPro:Print("Guide "..GID.." was renamed to "..newGID..".  Remapping.")
+	        WoWProCharDB.Guide[newGID] = WoWProCharDB.Guide[GID]
+	        WoWProCharDB.Guide[GID] = nil
+	        GID = newGID    
+	    end
+	end
 	if not WoWPro.Guides[GID] then 
 		WoWPro:dbp("Guide "..GID.." not found, loading NilGuide.")
 		WoWPro:LoadNilGuide() 
@@ -183,7 +197,9 @@ function WoWPro:NextStep(k,i)
 			local rep, temprep, replvl = string.split(",",WoWPro.rep[k])
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repID,repmax = string.split("-",temprep)
-			if repmax== nil then repmax = repID end	
+			if repmax== nil then repmax = repID end
+			-- Canonicalize the case
+			rep = string.lower(rep)
 			repID = string.lower(repID)
 			repmax = string.lower(repmax) 
 			replvl = tonumber(replvl) or 0
@@ -206,13 +222,15 @@ function WoWPro:NextStep(k,i)
 			elseif repmax == 'revered' then repmax = 7
 			elseif repmax == 'exalted' then repmax = 8
 			else repmax = 8 end
-
+            
 			skip = true --reputation steps skipped by default
-
+			
 			for factionIndex = 1, GetNumFactions() do
   				name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
     				canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfo(factionIndex)
-				if rep == name then
+    			name=string.lower(name)
+    			-- The guide will have "Scryers" and the faction name is "The Scryers"
+				if string.find(name,rep) then
 					if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 						skip = false
 					end
