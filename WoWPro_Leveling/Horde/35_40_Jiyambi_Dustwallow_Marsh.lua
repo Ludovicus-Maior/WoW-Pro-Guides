@@ -164,7 +164,7 @@ T Direhorn Raiders|RANK|1|QID|27340|M|46.10,57.45|N|To Apprentice Morlann.|
 T Help Mudsprocket|RANK|1|QID|11215|M|42.28,72.93|N|To Drazzit Dripvalve.|
 T Delivery for Drazzit|RANK|2|QID|11208|M|42.28,72.93|N|To Drazzit Dripvalve.|
 A Catch a Dragon by the Tail|RANK|1|QID|27413|M|41.59,72.93|N|From Gizzix Grimegurgle.|
-A WANTED: Goreclaw the Ravenous|RANK|1|QID|27412|M|41.68,73.13|N|From Gizzix Grimegurgle.|
+A WANTED: Goreclaw the Ravenous|RANK|1|QID|27412|M|41.75,73.11|N|From Wanted Poster.|
 A Bloodfen Feathers|RANK|1|QID|27407|M|41.86,73.85|N|From Brogg.|
 f Mudsprocket|RANK|1|QID|27407|M|42.82,72.45|From Dyslix Silvergrub.|
 
