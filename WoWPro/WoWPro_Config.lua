@@ -641,71 +641,89 @@ local function createBlizzOptions()
 						    WoWPro:Enable()
 						end
 					end
-			}, 
+			},
+			reset = {
+			    order = 5,
+			    type = "execute",
+			    name = L["Reset Current Guide"],
+			    desc = L["If your current guide is behaving oddly, this wipes the state, forgets skipped quests and restarts the current guide."],
+			    image = "Interface\\Icons\\INV_Misc_EngGizmos_27",
+			    func =  function (info) if WoWProDB.char.currentguide then
+			                local GID = WoWProDB.char.currentguide
+			                WoWPro:Print("Resetting guide "..GID)
+			                WoWProCharDB.Guide[GID].completion =  {}	
+	                        WoWProCharDB.Guide[GID].skipped = {}
+	                        WoWProCharDB.Guide[GID].progress = nil
+	                        WoWProCharDB.Guide[GID].total = nil
+	                        WoWProCharDB.skippedQIDs = {}
+			                WoWPro:LoadGuide()
+			              end
+			            end
+			},
 			blank2 = {
-				order = 5,
+				order = 6,
 				type = "description",
 				name = " ",
 			},    
 			aboutheader = {
-				order = 6,
+				order = 7,
 				type = "header",
 				name = "About WoW-Pro",
 			}, 
 			blank3 = {
-				order = 7,
+				order = 8,
 				type = "description",
 				name = " ",
 			},  	
 			about = {
-				order = 8,
+				order = 9,
 				type = "description",
 				fontSize = "medium",
 				name = "WoW-Pro.com is a guide website by gamers, for gamers. "
 			}, 	
 			blank5 = {
-				order = 9,
+				order = 10,
 				type = "description",
 				name = " ",
 			},  
 			about2 = {
-				order = 10,
+				order = 11,
 				type = "description",
 				fontSize = "medium",
 				name = 
 					"The site hosts hundreds of free guides covering every facet of World of Warcraft. "
 			}, 	 	
 			blank6 = {
-				order = 11,
+				order = 12,
 				type = "description",
 				name = " ",
 			},  
 			about3 = {
-				order = 12,
+				order = 13,
 				type = "description",
 				fontSize = "medium",
 				name = 
 					"We are most famous for our leveling guides, especially those written by the site administrator, Jame. "
 			}, 	 	
 			blank7 = {
-				order = 13,
+				order = 14,
 				type = "description",
 				name = " ",
 			},  
 			about4 = {
-				order = 14,
+				order = 15,
 				type = "description",
 				fontSize = "medium",
 				name = 
 					"Over the years WoW-Pro has grown into a huge, active community of gamers. "
 			},  	
 			blank8 = {
-				order = 15,
+				order = 16,
 				type = "description",
 				name = " ",
 			},  	
 			about5 = {
-				order = 16,
+				order = 17,
 				type = "description",
 				fontSize = "medium",
 				name = 
