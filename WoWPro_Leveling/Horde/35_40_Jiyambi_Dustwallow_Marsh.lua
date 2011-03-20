@@ -60,7 +60,7 @@ C Marsh Frog Legs|RANK|1|QID|27183|M|56.36,25.12|S|N|Kill the frog critters near
 C What's Haunting Witch Hill?|RANK|1|QID|27188|M|56.14,24.18|N|Gather information by killing ghosts and zombies around Witch Hill.|
 
 T What's Haunting Witch Hill?|RANK|1|QID|27188|M|55.39,26.30|N|To Mordant Grimsby.|
-A The Witch's Bane|RANK|1|QID|27189|PRE|27188|M|55.39,26.30|N|From Loose Dirt.|
+A The Witch's Bane|RANK|1|QID|27189|PRE|27188|M|55.39,26.30|N|From Mordant Grimsby.|
 
 C The Witch's Bane|RANK|1|QID|27189|M|50.71,22.52|S|
 C The Theramore Docks|RANK|3|QID|1202|M|71.49,51.10|N|Be very careful - DO NOT run through Theramore. Instead, swim around the edge to the docks - you should avoid being flagged for PvP that way.|
@@ -164,7 +164,7 @@ T Direhorn Raiders|RANK|1|QID|27340|M|46.10,57.45|N|To Apprentice Morlann.|
 T Help Mudsprocket|RANK|1|QID|11215|M|42.28,72.93|N|To Drazzit Dripvalve.|
 T Delivery for Drazzit|RANK|2|QID|11208|M|42.28,72.93|N|To Drazzit Dripvalve.|
 A Catch a Dragon by the Tail|RANK|1|QID|27413|M|41.59,72.93|N|From Gizzix Grimegurgle.|
-A WANTED: Goreclaw the Ravenous|RANK|1|QID|27412|M|41.75,73.11|N|From Wanted Poster.|
+A WANTED: Goreclaw the Ravenous|RANK|1|QID|27412|M|41.68,73.13|N|From Gizzix Grimegurgle.|
 A Bloodfen Feathers|RANK|1|QID|27407|M|41.86,73.85|N|From Brogg.|
 f Mudsprocket|RANK|1|QID|27407|M|42.82,72.45|From Dyslix Silvergrub.|
 

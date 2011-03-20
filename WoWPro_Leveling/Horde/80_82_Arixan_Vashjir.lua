@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2011-03-12 18:40
+-- Who: Ludovicus Maior
+-- Log: Unique IDs
+
+-- URL: http://wow-pro.com/node/3306/revisions/24019/view
 -- Date: 2011-01-19 12:55
 -- Who: Jame
 
@@ -46,7 +51,7 @@
 -- Date: 2010-12-03 23:05
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriVas8082', "Vash'jir", 'Arixan', '80', '82', 'AriDee8283', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('AriVasH8082', "Vash'jir", 'Arixan', '80', '82', 'AriDeeH8283', 'Horde', function()
 return [[
 
 A Warchief's Command: Vashj'ir!|QID|27718|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|

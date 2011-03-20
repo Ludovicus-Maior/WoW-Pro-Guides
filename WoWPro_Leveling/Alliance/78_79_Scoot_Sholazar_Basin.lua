@@ -1,4 +1,17 @@
-WoWPro.Leveling:RegisterGuide("ScoSho7879", "Sholazar Basin", "Scoot", "78", "79", "NLXIce7980", "Alliance", function()
+-- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_alliance
+-- Date: 2011-03-12 18:35
+-- Who: Ludovicus Maior
+-- Log: Unique Guide IDs
+
+-- URL: http://wow-pro.com/node/3297/revisions/23486/view
+-- Date: 2010-12-03 22:30
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3297/revisions/23485/view
+-- Date: 2010-12-03 22:30
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("ScoShoA7879", "Sholazar Basin", "Scoot", "78", "79", "NLXIce7980", "Alliance", function()
 return [[
 N Cold Weather Flying |QID|12620| |N|You should be at least 77 and have Cold Weather Flying before using this guide. There are some quest here that REQUIRE you to be able to fly in order to complete them.|
 
@@ -149,7 +162,7 @@ A The Mist Isn't Listening |QID|12538| |U|38621|
 C Lightning Definitely Strikes Twice |QID|12537| |N|At the stone shrine in the little lake (big puddle?) (45.39,37.27), use the crystals, then destory them.| |U|38510|M|45.4,37.2|
 C The Mist Isn't Listening |QID|12538| |N|Kill any more you need.|M|45.5,39.8|
 T Lightning Definitely Strikes Twice |QID|12537| |U|38512|
-T The Mist Isn't Listening |QID|12538| 
+T The Mist Isn't Listening |QID|12538|
 
 A Hoofing It |QID|12539|
 C Rhino Mastery: The Kill |QID|12556| |N|Around the Glimmering Pillar to the SE.|M|48.50,44.32|

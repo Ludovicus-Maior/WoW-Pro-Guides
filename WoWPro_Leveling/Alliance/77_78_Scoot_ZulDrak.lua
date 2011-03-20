@@ -1,4 +1,17 @@
-WoWPro.Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoSho7879", "Alliance", function()
+-- URL: http://wow-pro.com/wiki/source_code_zul039drak_alliance
+-- Date: 2011-03-12 18:33
+-- Who: Ludovicus Maior
+-- Log: Make guide IDs unique
+
+-- URL: http://wow-pro.com/node/3295/revisions/23482/view
+-- Date: 2010-12-03 22:28
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3295/revisions/23481/view
+-- Date: 2010-12-03 22:28
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide("ScoZulA7778", "Zul'Drak", "Scoot", "77", "78", "ScoShoA7879", "Alliance", function()
 return [[
 N READ THIS! |QID|12902| |N|You have a couple of choices at this point. If you followed Jame's Dragonblight guide you have the quest Into the Breach!, which will be the first quest in the Achievement, but you will have to make your own way to Light's Breach. Otherwise you can do the optional quest that starts at Westfall Brigade Encampment in Grizzly Hills, it will fly you there, but doesn't count toward the Achievement. To do the optional quest abandon Into the Breach! and get Reallocating Resources from Captain Gryan Stoutmantle.|
 N Amphitheater of Anguish |QID|12948| |N|While questing look for a group for the Amphitheater of Anguish. There are 6 quests here . You will need some of them for the Achievement, so anytime you can get in, do so. You must be 75 to do these quests.|M|7 if you ,|
@@ -100,12 +113,10 @@ C Our Only Hope |QID|12916| |N|Use the Jumbo Seaforium Charge on the cage. |M|19
 T Our Only Hope |QID|12916|M|19.7,56.4|
 
 A The Storm King's Vengeance |QID|12919|
-N READ THIS!!! |QID|12919| |N|Read the tips from Lightheaded for the strategy for this quest. It's not that difficult, but the explaination takes up alot of space. Besides, you have Lightheaded, so you might as well use it.| 
+N READ THIS!!! |QID|12919| |N|Read the tips from Lightheaded for the strategy for this quest. It's not that difficult, but the explaination takes up alot of space. Besides, you have Lightheaded, so you might as well use it.|
 C The Storm King's Vengeance |QID|12919| |N|Talk to Gymer when you're ready.|
 T The Storm King's Vengeance |QID|12919| |N|Back to Crusader Forward Camp |M|25.43,63.97|
 N End of the Lights Breach/Crusader Forward Camp quests |QID|12661|
-
-
 
 N Overlord Drakuru |QID|12661| |N|Go to Reliquary of Pain, where you killed Algar the Chosen. Equip your disguise and port up to Voltarus from the center of the platform . Hotkey the diguise so you can reequip it when it fails, some of the following quest have another item to use. Overlord Drakuru is at (27.12,46.10)on the outer ring of the platform.| |U|38699|M|23.81,45.01|
 
@@ -115,7 +126,7 @@ T Dark Horizon |QID|12664| |O| M|27.1,46.2|
 
 A Reunited |QID|12663| |O| |N|You got this because you finished the Drakuru quest chain in Grizzly Hills.|
 C Reunited |QID|12663| |O| |N|Circle around the platform until you find a ramp on the outer ring. Gorebag is up there. . Enjoy the ride.|M|29.76,47.90|
-T Reunited |QID|12663| |O| 
+T Reunited |QID|12663| |O|
 T Infiltrating Voltarus |QID|12661| |N|Port back down, blow the horn.| |U|41390|
 
 A So Far, So Bad |QID|12669|
@@ -152,8 +163,6 @@ C Betrayal |QID|12713| |N|Back to Overlord Drakuru . Talk to him to start.  Don'
 U PORT DOWN NOW!! |QID|12713| |N|You only have 3 minutes, so quit reading this, Heal yourself, and use [Drakuru's Last Wish] to port down.| |U|43059|
 T Betrayal |QID|12713| |N|Blow the horn one last time.| |U|41390|
 N End of the Ebon Watch quests |QID|12795|
-
-
 
 T Taking a Stand |QID|12795| |N|Head to the Argent Stand. |M|39.44,66.90|
 
@@ -282,8 +291,6 @@ T Too Much of a Good Thing |QID|12516| |N|Back to the Argent Stand. |M|40.61,65.
 
 A To the Witch Doctor |QID|12623|M|40.5,65.6|
 N End of the Argent Stand Quests |QID|12623|
-
-
 
 T To the Witch Doctor |QID|12623| |N|Go up the stairs next to the Amphitheater of Anguish. Zim'Torga is just ahead on your right. |M|59.52,57.98|
 

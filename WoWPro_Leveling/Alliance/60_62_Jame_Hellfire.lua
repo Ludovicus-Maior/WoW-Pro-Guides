@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2011-03-09 15:53
+-- Who: savagefool
+-- Log: changed a cordinate to match the quest.
+
+-- URL: http://wow-pro.com/node/3271/revisions/23685/view
 -- Date: 2010-12-07 20:46
 -- Who: Crackerhead22
 -- Log: Added waypoints, moved a couple steps around, removed redundant steps.
@@ -139,7 +144,7 @@ A The Longbeards |QID|9558|M|54.3,63.4|N|From Sid Limbardi.|
 T Return to Honor Hold |QID|10903|M|54.3,63.6|N|Upstairs to Assistant Klatu.|
 A Fel Spirits |QID|10909|M|54.3,63.6|N|From Assistant Klatu.|
 A Digging for Prayer Beads |QID|10916|M|54.3,63.6|N|From Assistant Klatu.|
-l Draenei Prayer Beads|QID|10916|M|64.16,63.32|N|Head outside the inn and turn left, follow the wall, to the waypoint.  Loot Fei Fei's Cache (glittering dirt pile).|
+l Draenei Prayer Beads|QID|10916|M|54.16,63.32|N|Head outside the inn and turn left, follow the wall, to the waypoint.  Loot Fei Fei's Cache (glittering dirt pile).|
 r Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|QID|10916|
 A Hellfire Fortifications |QID|10106|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell.  This is optional as it is a PvP quest, so skip if you don't wish to do it.|
 T The Dark Missive |QID|10395|N|Head to Warp-Scryer Kryv.|M|56.69,66.52|

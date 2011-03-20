@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2011-03-20 20:27
+-- Who: Ludovicus Maior
+-- Log: Tepes had found duplicated A lines too!
+
+-- URL: http://wow-pro.com/node/3259/revisions/24187/view
+-- Date: 2011-03-20 20:23
+-- Who: Ludovicus Maior
+-- Log: Removed spurious 'A'steps for [Rocket Rescue] and [Scavengers Scavenged] and another spelin error.
+
+-- URL: http://wow-pro.com/node/3259/revisions/24085/view
 -- Date: 2011-01-30 19:36
 -- Who: Ludovicus Maior
 -- Log: Corrected RegisterGuide line to match GIT
@@ -27,19 +37,14 @@ r Sell Junk / Repair and Restock|QID|99999|M|52.28,29.72|N|You can also put item
 f Gadgetzan|QID|27446|M|51.32,29.45|N|At Bera Stonehammer.|
 T Tanaris is Calling|QID|27446|M|51.23,29.90|N|To Kelsey Steelspark.|
 A Seaside Salvage|QID|25048|M|51.23,29.90|N|From Kelsey Steelspark.|
-A Seaside Salvage|QID|25048|M|51.24,29.90|N|From Kelsey Steelspark.|
 A Puddle Stomping|QID|25049|M|51.25,29.88|N|From Kelsey Steelspark.|
-A Puddle Stomping|QID|25049|M|51.23,29.90|N|From Kelsey Steelspark.|
 A Butcherbot|QID|25112|M|52.24,28.07|N|From Driz Plunkbow.|
-A Butcherbot|QID|25112|M|52.26,28.05|N|From Driz Plunkbow.|
 C Seaside Salvage|QID|25048|S|M|54.88,36.83|N|Kill Striders as you go.|
 C Puddle Stomping|QID|25049|M|54.93,43.58|
 C Seaside Salvage|QID|25048|US|M|54.88,36.83|N|Finishe killing Striders.|
 C Puddle Stomping|QID|25049|M|54.31,39.92|
 C Butcherbot|QID|25112|U|52715|M|49.73,39.34|N|Progress to this location killing Basalisks as you go. Once dead use the Butcherbot Control when targeting the Basilisks.|
 C Butcherbot|QID|25112|U|52715|M|47.54,39.77|
-A Rocket Rescue|QID|25050|M|51.24,29.93|N|From Kelsey Steelspark.|
-A Scavengers Scavenged|QID|25111|M|52.21,28.04|N|From Driz Plunkbow.|
 T Seaside Salvage|QID|25048|M|51.27,29.98|N|To Kelsey Steelspark.|
 T Puddle Stomping|QID|25049|M|51.25,29.94|N|To Kelsey Steelspark.|
 A Rocket Rescue|QID|25050|M|51.25,29.94|N|From Kelsey Steelspark.|
@@ -125,7 +130,7 @@ C A Great Idea|QID|24951|U|52031|M|55.60,60.62|N|Look for the big fat beetle, th
 T A Great Idea|QID|24951|M|55.65,60.79|N|To Zeke Bootscuff.|
 A Just Trying to Kill Some Bugs|QID|24953|M|55.65,60.79|N|From Zeke Bootscuff.|
 R Talk to Narain Soothfancy.|QID|99999|CC|M|55.25,60.26|N|All that meat grinding was worth it, now you get to pilot a silithid! (click to continue)|
-R Go here|QID|99999|CC|M|54.66,69.60|N|Go to the hole here; it's the first one you see on the way down the ram and you will be heading south west as you enter. (click to continue)|
+R Go here|QID|99999|CC|M|54.66,69.60|N|Go to the hole here; it's the first one you see on the way down the ramp and you will be heading south west as you enter. (click to continue)|
 R Then here...|QID|99999|CC|M|54.19,70.07|N|Go to the cave mouth here, and take the left fork. (click to continue)|
 R Then here...|QID|99999|CC|M|54.02,71.85|N|Into the circle room. Get in there center, and hit button 2 (click to continue)|
 C Just Trying to Kill Some Bugs|QID|24953|M|54.54,72.01|N|Explode!|

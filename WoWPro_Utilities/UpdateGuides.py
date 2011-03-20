@@ -99,6 +99,7 @@ class FindGuides(HTMLParser):
 
 Guides = {}
 Guide2Web = {}
+GuideDuplicates = []
 
 class FindSource(HTMLParser):
 
@@ -157,6 +158,9 @@ class FindSource(HTMLParser):
                 self._sawBrackets = False
                 print "## Found Guide ", self._guideID, "inside", self._page
                 self._guideIDs.append(self._guideID)
+                if Guide2Web.has_key(self._guideID):
+                    print "!! Web page ",Guide2Web[self._guideID], " and ", self._page , " both reference ", self._guideID
+                    GuideDuplicates.append(self._guideID)
                 Guide2Web[self._guideID] = self._page
                 Guides[self._guideID] = []
                 Guides[self._guideID].append(data)
@@ -325,6 +329,7 @@ def ScrapeGuideFromWoWPro(RootSourceNode):
 
 Guide2File={}
 GuideEOL={}
+GuideDups=[]
 
 def NewlinesNick(nl):
     if nl == None:
@@ -350,6 +355,9 @@ def ScrapeWoWProLua(lua):
             mo = re.search("WoWPro.Leveling:RegisterGuide\s*\(\s*'([^']+)'",line)
         if mo:
             _guideID = mo.group(1)
+            if Guide2File.has_key(_guideID):
+                print "!! Duplicate guide ID discoverd in ",Guide2File[_guideID]," and ", lua, " for ",_guideID
+                GuideDups.append(_guideID)
             Guide2File[_guideID] = lua
     if _guideID == "":
         print "!! No Guide found inside %s " % lua
@@ -386,6 +394,14 @@ def CrossCheck():
         else:     
             if ValidGuides.get(guide,0) == 1:
                 ValidGuides[guide] = 2
+    if len(GuideDuplicates) > 0 :
+        for guide in GuideDuplicates:
+            print("!! Guide %s is duplicated on the web site" % guide)
+            foundError = foundError + 1
+    if len(GuideDups) > 0:
+        for guide in GuideDups:
+            print("!! Guide %s is duplicated on disk" % guide)
+            foundError = foundError + 1
     if foundError > 0:
         print "!! Failed cross Check, %d errors detected" % foundError
     else:

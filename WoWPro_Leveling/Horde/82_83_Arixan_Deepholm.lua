@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_horde
+-- Date: 2011-03-12 18:42
+-- Who: Ludovicus Maior
+-- Log: Unique IDs
+
+-- URL: http://wow-pro.com/node/3308/revisions/24056/view
 -- Date: 2011-01-26 02:09
 -- Who: Jame
 
@@ -33,7 +38,7 @@
 -- Date: 2010-12-03 23:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', '82', '83', 'AriUld8384', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('AriDeeH8283', 'Deepholm', 'Arixan', '82', '83', 'AriUldH8384', 'Horde', function()
 return [[
 
 A Warchief's Command: Deepholm!|QID|27722|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|

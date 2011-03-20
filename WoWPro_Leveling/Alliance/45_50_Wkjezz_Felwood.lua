@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2011-03-20 20:18
+-- Who: Ludovicus Maior
+-- Log: Corrections around [Crying Violet] and quests shifted to "Andalar Shadevale".  Speling corrections and addition comments.
+
+-- URL: http://wow-pro.com/node/3257/revisions/24082/view
 -- Date: 2011-01-30 19:24
 -- Who: Ludovicus Maior
 -- Log: Corrected Register guide to match GIT.
@@ -71,25 +76,23 @@ f Wildheart Point|QID|28152|M|44.29,61.89|N|At Chyella Hushglade.|
 h Wildheart Point|QID|28152|M|43.98,61.94|N|At Innkeeper Teenycaugh.|
 T Jaedenar Awaits|QID|28152|M|43.96,61.90|N|To Greta Mosshoof.|
 A Crying Violet|QID|28116|M|43.96,61.90|N|From Greta Mosshoof.|
-C Crying Violet|QID|28116|M|45.84,68.96|N|Can be hard to see, just keep your eyes open for sparkles. Herbalists, check your minimap.|
-T Crying Violet|QID|28116|M|43.97,61.86|N|To Greta Mosshoof.|
-A Purity From Corruption|QID|28119|M|44.01,61.89|N|From Greta Mosshoof.|
 A Forces of Jaedenar|QID|28121|M|44.09,61.93|N|From Jessir Moonbow.|
-A The Demon Prince|QID|28129|M|44.03,61.86|N|From Farlus Wildheart.|
-R Purity From Corruption|QID|28119|CC|M|41.58,57.20|
-C Forces of Jaedenar|QID|28121|S|M|35.90,59.85|N|Kill them all.|
-C Purity From Corruption|QID|28119|U|12922|M|35.93,59.52|N|Kill the mobs that you need for "Forces of Jaedenar" on the way.|
-T Purity From Corruption|QID|28119|M|35.92,59.62|
-C Forces of Jaedenar|QID|28121|QO|Jaedenar Adept slain: 6/6|M|39.69,58.91|N|Enter this Den for adepts. You will need to kill four at the very least before moving on.|
-A Dousing the Flames of Protection|QID|28126|M|35.92,59.62|
-C Forces of Jaedenar|QID|28121|US|M|35.90,59.85|N|You must finish this before moving on.|
-T Forces of Jaedenar|QID|28121|M|35.87,59.83|
-A The Inner Circle|QID|28128|M|35.87,59.83|
+C Crying Violet|QID|28116|M|41.50,57.37|N|Can be hard to see, just keep your eyes open for sparkles. Herbalists, check your minimap.|
+T Crying Violet|QID|28116|M|36.35,58.25|N|To Andalar Shadevale.|
+T Forces of Jaedenar|QID|28121|M|36.35,58.25|N|To Andalar Shadevale.|
+A Purity From Corruption|QID|28119|M|36.35,58.25|N|From Andalar Shadevale.|
+C Purity From Corruption|QID|28119|M|35.93,59.52|N|Fill up at the moonwell.|
+T Purity From Corruption|QID|28119|M|36.35,58.25|N|To Andalar Shadevale.|
+
+A The Inner Circle|QID|28128|M|36.35,58.25|N|From Andalar Shadevale.|
+A The Demon Prince|QID|28129|M|36.35,58.25|N|From Andalar Shadevale.|
+A Dousing the Flames of Protection|QID|28126|M|36.35,58.25|N|From Andalar Shadevale.|
+
 R Dousing the Flames of Protection|QID|28126|CC|M|36.17,58.23|N|Enter this building.|
 C The Demon Prince|QID|28129|M|36.70,55.75|
 T The Demon Prince|QID|28129|M|36.70,55.74|
 A Twin Temptresses|QID|28131|M|36.70,55.74|
-C Dousing the Flames of Protection|QID|28126|U|12906|QO|Extinguish the Brazier of Pain: 1/1|M|36.96,55.89|N|First Brazier is here. (click to complere)|
+C Dousing the Flames of Protection|QID|28126|U|12906|QO|Extinguish the Brazier of Pain: 1/1|M|36.96,55.89|N|First Brazier is here. (click to complete)|
 C Dousing the Flames of Protection|QID|28126|U|12906|QO|Extinguish the Brazier of Hatred: 1/1|M|37.28,54.92|N|Second Brazier is here.|
 C Dousing the Flames of Protection|QID|28126|U|12906|QO|Extinguish the Brazier of Suffering: 1/1|M|37.38,53.16|N|This is on the level below the 2nd brazier. Third Brazier is here.|
 C Dousing the Flames of Protection|QID|28126|U|12906|QO|Extinguish the Bazier of Malice: 1/1|M|38.21,52.54|N|Keep working your way deeper into the cave after this.|
@@ -181,13 +184,13 @@ T Rejoining the Forest|QID|28228|M|48.69,25.19|N|To Flourishing Protector.|
 C Wanted: The Demon Hunter|QID|28217|M|45.40,20.30|N|Talk to the "friendly" npc here.|
 T Wanted: The Demon Hunter|QID|28217|M|45.54,20.11|N|To Feronas Sindweller.|
 A A Destiny of Flame and Sorrow|QID|28218|M|45.54,20.11|N|From Feronas Sindweller.|
-C A Destiny of Flame and Sorrow|QID|28218|NC|M|45.37,19.83|
+C A Destiny of Flame and Sorrow|QID|28218|NC|M|45.37,19.83|N|Join in and whack Arthas.|
 T A Destiny of Flame and Sorrow|QID|28218|M|45.53,20.10|N|To Feronas Sindweller.|
 A The Skull of Gul'dan|QID|28256|M|45.53,20.10|N|From Feronas Sindweller.|
-C The Skull of Gul'dan|QID|28256|NC|M|45.16,19.90|
+C The Skull of Gul'dan|QID|28256|NC|M|45.16,19.90|N|Help fight the demons.|
 T The Skull of Gul'dan|QID|28256|M|45.55,20.08|
 A The Fall of Tichondrius|QID|28257|M|45.55,20.08|N|From Feronas Sindweller.|
-C The Fall of Tichondrius|QID|28257|NC|M|45.31,20.01|
+C The Fall of Tichondrius|QID|28257|NC|M|45.31,20.01|N|Again, help out.|
 T The Fall of Tichondrius|QID|28257|M|45.51,20.13|
 A Deceivers In Our Midst|QID|28261|M|45.51,20.13|N|From Feronas Sindweller.|
 R Deceivers In Our Midst|QID|28261|CC|U|63419|M|43.61,18.54|N|Climb up the cliff to this point, then put on the mask. (click to continue)|

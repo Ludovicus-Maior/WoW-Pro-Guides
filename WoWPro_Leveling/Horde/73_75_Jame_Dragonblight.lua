@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2011-03-12 18:31
+-- Who: Ludovicus Maior
+-- Log: Grizz changed ID.
+
+-- URL: http://wow-pro.com/node/3292/revisions/23981/view
 -- Date: 2011-01-13 01:47
 -- Who: brandonh6k
 -- Log: Fixed Overload Agmar's location.  It was listing him in the walking around location (which isn't that often), not the sitting on the throne one.
@@ -11,7 +16,7 @@
 -- Date: 2010-12-03 22:23
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamDra7375", "Dragonblight", "Jame", "73", "75", "JamGri7577", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamDra7375", "Dragonblight", "Jame", "73", "75", "JamGriH7577", "Horde", function()
 --> Original guides written/designed by [Jame]
 -->
 --> Last modified by [Jiyambi] 19/6/2009

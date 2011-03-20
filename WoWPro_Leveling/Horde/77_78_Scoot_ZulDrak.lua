@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_horde
+-- Date: 2011-03-12 18:34
+-- Who: Ludovicus Maior
+-- Log: Make Guide IDs unique
+
+-- URL: http://wow-pro.com/node/3296/revisions/23484/view
 -- Date: 2010-12-03 22:29
 -- Who: Jiyambi
 
@@ -6,7 +11,7 @@
 -- Date: 2010-12-03 22:29
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoSho7879", "Horde", function()
+WoWPro.Leveling:RegisterGuide("ScoZulH7778", "Zul'Drak", "Scoot", "77", "78", "ScoShoH7879", "Horde", function()
 --Last Modified: 7/16/2010
 return [[
 N Amphitheater of Anguish |QID|12948|N|While questing look for a group for the Amphitheater of Anguish. There are 6 quests here (7 if you get the lead in from Shifty Vickers in the middle section of Dalaran's Sewers). You will need some of them for the Achievement, so anytime you can get in, do so. You must be 75 to do these quests.|

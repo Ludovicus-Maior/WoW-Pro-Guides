@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2011-03-12 18:30
+-- Who: Ludovicus Maior
+-- Log: Grizz changed ID
+
+-- URL: http://wow-pro.com/node/3291/revisions/24138/view
 -- Date: 2011-02-28 20:48
 -- Who: Ludovicus Maior
 -- Log: Eliminated sequence [Reborn From The Ashes], [Fate, Up Against Your Will],
@@ -14,7 +19,7 @@
 -- Date: 2010-12-03 22:18
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamDra7475", "Dragonblight", "Jame", "74", "75", "JamGri7577", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamDra7475", "Dragonblight", "Jame", "74", "75", "JamGriA7577", "Alliance", function()
 return [[
 
 N Note |QID|12298| |N|If you followed my previous guides, you should be in Wintergarde Keep, Dragonblight and have the following quest: High Commander Halford Wyrmbane If you don't have it, just ignore this quest, it's not a big deal, you can get the follow up anyway. Let's get started!|

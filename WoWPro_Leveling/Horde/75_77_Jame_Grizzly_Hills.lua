@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2011-03-12 18:29
+-- Who: Ludovicus Maior
+-- Log: Make Guide ID unique
+
+-- URL: http://wow-pro.com/node/3294/revisions/23480/view
 -- Date: 2010-12-03 22:26
 -- Who: Jiyambi
 
@@ -6,7 +11,7 @@
 -- Date: 2010-12-03 22:26
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamGri7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamGriH7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Horde", function()
 --Original guide written/designed by Jame
 --Addon Version: Last Modified 7/14/2010
 return [[

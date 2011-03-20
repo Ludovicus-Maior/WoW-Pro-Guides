@@ -1,4 +1,51 @@
-WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'AriTwi8485', 'Alliance', function()
+-- URL: http://wow-pro.com/wiki/source_code_uldum_alliance
+-- Date: 2011-03-12 18:43
+-- Who: Ludovicus Maior
+-- Log: Unique ID
+
+-- URL: http://wow-pro.com/node/3309/revisions/24152/view
+-- Date: 2011-03-09 01:10
+-- Who: Ludovicus Maior
+-- Log: Geri's first cut at a better [Just A Fancy Cockroach] + [After the Fall] mix and coord corrections.
+
+-- URL: http://wow-pro.com/node/3309/revisions/24147/view
+-- Date: 2011-03-08 01:14
+-- Who: Ludovicus Maior
+-- Log: Tweak to sequence around [Do the World a Favor] by Geri.
+--	Spelling corrections by Ludovicus.
+
+-- URL: http://wow-pro.com/node/3309/revisions/24146/view
+-- Date: 2011-03-08 00:51
+-- Who: Ludovicus Maior
+-- Log: U tag on [Smoke in Their Eyes] had an spurious 'l' in the middle.
+--	Found by Geri.
+
+-- URL: http://wow-pro.com/node/3309/revisions/23744/view
+-- Date: 2010-12-12 04:14
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3309/revisions/23743/view
+-- Date: 2010-12-12 04:14
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3309/revisions/23718/view
+-- Date: 2010-12-09 13:59
+-- Who: MagicSN
+
+-- URL: http://wow-pro.com/node/3309/revisions/23630/view
+-- Date: 2010-12-06 08:58
+-- Who: Bitsem
+-- Log: Made requested changes. See comment.
+
+-- URL: http://wow-pro.com/node/3309/revisions/23512/view
+-- Date: 2010-12-03 23:23
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3309/revisions/23511/view
+-- Date: 2010-12-03 23:21
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('AriUldA8384', 'Uldum', 'Hezkezl', '83', '84', 'AriTwi8485', 'Alliance', function()
 return [[
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|

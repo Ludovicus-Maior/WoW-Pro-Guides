@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_alliance
+-- Date: 2011-03-12 20:19
+-- Who: Ludovicus Maior
+-- Log: Unique IDS
+
+-- URL: http://wow-pro.com/node/3303/revisions/23820/view
 -- Date: 2010-12-23 17:12
 -- Who: Bitsem
 
@@ -39,7 +44,7 @@
 -- Date: 2010-12-03 22:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('ArihyjA8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDeeA8283', 'Alliance', function()
 return [[
 
 N Mt. Hyjal|QID|25316|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|

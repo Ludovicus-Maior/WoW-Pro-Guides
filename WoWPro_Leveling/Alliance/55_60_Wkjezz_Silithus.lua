@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_silithus_alliance
+-- Date: 2011-03-20 20:31
+-- Who: Ludovicus Maior
+-- Log: The quest [Wanted - Deathclasp, Terror of the Sands] is from the announcement board.
+
+-- URL: http://wow-pro.com/node/3269/revisions/23588/view
 -- Date: 2010-12-05 04:21
 -- Who: wkjezz
 

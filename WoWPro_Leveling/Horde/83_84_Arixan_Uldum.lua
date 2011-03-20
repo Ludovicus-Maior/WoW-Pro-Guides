@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_uldum_horde
+-- Date: 2011-03-12 18:43
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3310/revisions/23745/view
 -- Date: 2010-12-12 04:16
 -- Who: Jiyambi
 
@@ -19,7 +23,7 @@
 -- Date: 2010-12-03 23:25
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'LiaTwi8485', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('AriUldH8384', 'Uldum', 'Hezkezl', '83', '84', 'LiaTwi8485', 'Horde', function()
 return [[
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|

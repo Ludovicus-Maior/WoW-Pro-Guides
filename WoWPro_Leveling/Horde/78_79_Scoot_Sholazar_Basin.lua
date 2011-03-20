@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_horde
+-- Date: 2011-03-12 18:35
+-- Who: Ludovicus Maior
+-- Log: Unique  Guide IDs
+
+-- URL: http://wow-pro.com/node/3298/revisions/23488/view
 -- Date: 2010-12-03 22:31
 -- Who: Jiyambi
 
@@ -6,7 +11,7 @@
 -- Date: 2010-12-03 22:31
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("ScoSho7879", "Sholazar Basin", "Scoot", "78", "79", "ScoSto7980", "Horde", function()
+WoWPro.Leveling:RegisterGuide("ScoShoH7879", "Sholazar Basin", "Scoot", "78", "79", "ScoSto7980", "Horde", function()
 return [[
 N Cold Weather Flying |QID|12620| |N|You should be at least 77 and have Cold Weather Flying before using this guide. There are some quest here that REQUIRE you to be able to fly in order to complete them.|
 
