@@ -25,7 +25,7 @@ F Mossy Pile|QID|99999|
 R Silithus|QID|99999|NC|CC|M|27.36,10.39|Z|Un'goro Crater|N|Follow the path on your map North West.|
 T The Dunes of Silithus|QID|28859|M|54.92,35.98|N|To Windcaller Proudhorn.|
 A Securing the Supply Lines|QID|8280|M|54.92,35.98|N|From Windcaller Proudhorn.|
-A Wanted - Deathclasp, Terror of the Sands|QID|8283|M|55.00,35.98|N|From Windcaller Proudhorn.|
+A Wanted - Deathclasp, Terror of the Sands|QID|8283|M|55.00,35.98|N|From Announcement Board.|
 h Cenarion Hold|QID|8283|M|55.59,36.88|N|At Calandrath.|
 A Deadly Desert Venom|QID|8277|M|55.37,36.29|N|From Beetix Ficklespragg in the top floor of the inn.|
 A The Twilight Mystery|QID|8284|M|53.54,35.19|N|From Geologist Larksbane.|
