@@ -121,9 +121,14 @@ end
 function WoWPro.Leveling:LoadAllGuides()
     WoWPro:Print("Test Load of All Guides")
     local gCount=0
+    local nextGID
 	for guidID,guide in pairs(WoWPro.Guides) do
         WoWPro:Print("Test Loading " .. guidID)
 	    WoWPro:LoadGuide(guidID)
+	    nextGID = WoWPro.Guides[guidID].nextGID
+	    if nextGID == nil or WoWPro.Guides[nextGID] == nil then	    
+	        WoWPro:Print("Successor to " .. guidID .. " which is " .. tostring(nextGID) .. " is invalid.")
+	    end
 	    gCount = gCount + 1
 	end
         WoWPro:Print("Done! "..tostring(gCount).." guides present")
