@@ -192,7 +192,7 @@ local function ParseQuests(...)
 		local text = select(j, ...)
 		text = text:trim()
 		if text ~= "" and text:sub(1,1) ~= ";" then
-			local class, race, gender = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|GEN|([^|]*)|?")
+			local class, race, gender, faction = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
 			if class then
 				-- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
 				class = strupper(strreplace(class, " ", ""))
@@ -213,7 +213,11 @@ local function ParseQuests(...)
 					gender = 1
 				end
 			end
-			if class == nil or class:find(myclass) then if race == nil or race:find(myrace) then if gender == nil or gender == UnitSex("player") then
+			if faction then
+				-- deleting leading/trailing whitespace and then canonicalize the case
+				faction=strupper(strtrim(faction))
+            end			    
+			if class == nil or class:find(myclass) then if race == nil or race:find(myrace) then if gender == nil or gender == UnitSex("player") then if faction == nil or faction == strupper(UnitFactionGroup("player")) then
 				_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
 				WoWPro.step[i] = WoWPro.step[i]:trim()
 				WoWPro.stepcount = WoWPro.stepcount + 1
@@ -254,7 +258,7 @@ local function ParseQuests(...)
 				end
 				
 				i = i + 1
-			end end end
+			end end end end
 		end
 	end
 end
