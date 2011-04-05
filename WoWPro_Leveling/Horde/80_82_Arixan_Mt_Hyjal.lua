@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_horde
+-- Date: 2011-04-05 23:14
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3304/revisions/24057/view
 -- Date: 2011-01-26 02:25
 -- Who: Jame
 
@@ -24,7 +28,7 @@
 -- Date: 2010-12-03 22:52
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriMtH8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriVas8082', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('AriMtH8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriVasH8082', 'Horde', function()
 return [[
 
 N Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar. Close this step.|

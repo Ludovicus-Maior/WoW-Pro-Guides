@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2011-04-05 23:39
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3299/revisions/24207/view
+-- Date: 2011-04-05 00:02
+-- Who: Ludovicus Maior
+-- Log: Fixed M, N, and U tag errors in guide.
+--	Improved some text hints. Does not have my precision M fixes.
+
+-- URL: http://wow-pro.com/node/3299/revisions/23490/view
 -- Date: 2010-12-03 22:32
 -- Who: Jiyambi
 
@@ -6,7 +16,7 @@
 -- Date: 2010-12-03 22:32
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "JamIce7980", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "EstIce7985", "Alliance", function()
 return [[
 
 N READ THIS! |QID|12818| |N|This guide picks up only non-group, non-instance quests. It also assumes that you have cold-weather flight|
@@ -77,7 +87,7 @@ T Ample Inspiration |QID|12828| |N|Ricket| |M|40.9,85.3|
 
 C A Delicate Touch |QID|12820| |N|Lay down land mines and kill 12 Snowblind Followers| |M|42,81| |U|40676|
 
-A Only Partly Forgotten |QID|12831| |N|Enter the cave and find an Injured Goblin Miner to get this quest| |M|41,79|
+A Only Partly Forgotten |QID|12831| |N|Enter the cave and find an Injured Goblin Miner to get this quest| |M|40.43,78.04|
 
 K Ore Repossession |QID|12830| |N|Kill Snowblind Diggers in the cave and loot 5 Impure Saronite Ore| |M|43.9,75.5| |L|40744 5|
 
@@ -209,7 +219,7 @@ T Going Bearback |QID|12851| |N|Brijana| |M|53.2,65.7|
 
 A Cold Hearted |QID|12856| |N|From Brijana| |M|53.2,65.7|
 
-C Cold Hearted |QID|12856| |N|Mount the Captured Proto-Drakes and use them to rescue Brunnhildar Prisoners| |M|63,63|
+C Cold Hearted |QID|12856| |N|Fly to the Captured Proto-Drakes mount them in mid-air and use them to rescue Brunnhildar Prisoners 3 at a time.| |M|63,63|
 
 T Cold Hearted |QID|12856| |N|Brijana| |M|53.2,65.7|
 
@@ -233,9 +243,9 @@ A Off With Their Black Wings |QID|12942| |N|From Iva the Vengeful | |M|48.3,72.1
 
 A Yulda's Folly |QID|12968| |N|From Iva the Vengeful | |M|48.3,72.1|
 
-C The Slithering Darkness |QID|12989| |N|Enter the cave and kill 8 Ravenous Jormungar| |M|55,64|
+C The Slithering Darkness |QID|12989| |N|Enter the cave and kill 8 Ravenous Jormungar| |M|55.91,64.26|
 
-C The Last of Her Kind |QID|12983| |N|Find the Injured Icemaw Matriarch toward the back of the cave, mount her and ride out| |M|54,60| |U|42838|
+C The Last of Her Kind |QID|12983| |N|Find the Injured Icemaw Matriarch toward the back of the cave, mount her and ride out| |M|54.75,60.25| |U|42838|
 
 T The Last of Her Kind |QID|12983| |N|Astrid Bjornrittar| |M|49.7,71.7|
 
@@ -243,13 +253,13 @@ A The Warm-Up |QID|12996| |N|From Astrid Bjornrittar| |M|49.7,71.7|
 
 T The Slithering Darkness |QID|12989| |N|Astrid Bjornrittar| |M|49.7,71.7|
 
-C The Warm-Up |QID|12996| |N|Use the Reins of the Icemaw Matriarch to summon a bear and use the controls to defeat Kirgaraak| |M|51,66| |U|42481|
+C The Warm-Up |QID|12996| |N|Use the Reins of the Icemaw Matriarch to summon a bear and use the controls to defeat Kirgaraak| |M|50.6,67.6| |U|42481|
 
 T The Warm-Up |QID|12996| |N|Astrid Bjornrittar| |M|49.7,71.7|
 
 A Into the Pit |QID|12997| |N|From Astrid Bjornrittar| |M|49.7,71.7|
 
-C Into the Pit |QID|12997| |N|Use the Reins of the Icemaw Matriarch to summon a bear and use the controls to defeat 6 Hyldsmeet Warbear| |M|50,65| |U|42481|
+C Into the Pit |QID|12997| |N|Use the Reins of the Warbear Matriarch to summon a bear and use the controls to defeat 6 Hyldsmeet Warbear| |M|50,65| |U|42499|
 
 T Into the Pit |QID|12997| |N|Astrid Bjornrittar| |M|49.7,71.7|
 
@@ -263,7 +273,7 @@ T Lok'lira's Parting Gift |QID|13062| |N|Gretta the Arbiter| |M|50.8,65.5|
 
 A The Drakkensryd |QID|12886| |N|From Gretta the Arbiter| |M|50.8,65.5|
 
-C The Drakkensryd |QID|12886| |N|Use the Hyldnir Harpoon to jump from drake to drake and kill 10 Hyldsmeet Drake-Rider. Jump to Column Ornaments if you need to heal and when you complete the quest | |U|Hyldnir Harpoon|
+C The Drakkensryd |QID|12886| |N|Use the Hyldnir Harpoon to jump from drake to drake and kill 10 Hyldsmeet Drake-Rider. Jump to Column Ornaments if you need to heal and when you complete the quest | |U|41058|
 
 T The Drakkensryd |QID|12886| |N|Thorim| |M|33.4,58.0|
 
@@ -349,13 +359,13 @@ C Stemming the Aggressors |QID|12866| |N|Kill 8 Frostfeather Screechers and 8 Fr
 
 T Stemming the Aggressors |QID|12866| |N|Glorthal Stiffbeard| |M|29.14,74.87|
 
-C Pieces to the Puzzle |QID|12858| |N|Kill Library Guardians and loot 6 Inventor's Disk Fragments, then combine them to create The Inventor's Disk| |L|41132|
+C Pieces to the Puzzle |QID|12858| |N|Kill Library Guardians and loot 6 Inventor's Disk Fragments, then combine them to create The Inventor's Disk| |L|41132|M|38.0,40.0|
 
 T Pieces to the Puzzle |QID|12858| |N|Use Brann's Communicator to turn in this quest| |U|40971|
 
 A Data Mining |QID|12860| |N|From Brann Bronzebeard|
 
-C Data Mining |QID|12860| |N|Use The Inventor's Disk on the Databanks in the area and collect 7 pieces of Hidden Data| |U|41132|
+C Data Mining |QID|12860| |N|Use The Inventor's Disk on the Databanks in the area and collect 7 pieces of Hidden Data| |U|41179|
 
 T Data Mining |QID|12860| |N|Use Brann's Communicator to turn in this quest| |U|40971|
 
@@ -393,13 +403,13 @@ A An Experienced Guide |QID|12875| |N|From Yorg Stormheart| |M|30.2,74.7|
 
 A Unwelcome Guests |QID|12876| |N|From Fjorlin Frostbrow| |M|29.8,75.7|
 
-C Unwelcome Guests |QID|12876| |N|Kill 10 Stormforged Pillager in the tunnel| |M|26.9,66.9|
+C Unwelcome Guests |QID|12876| |N|Kill 10 Stormforged Pillager in the tunnel. Take lefts until you hit a big room with an ledge.| |M|26.9,66.9|
 
 T An Experienced Guide |QID|12875| |N|Drom Frostgrip| |M|25.2,68.5|
 
 A The Lonesome Watcher |QID|12877| |N|From Drom Frostgrip| |M|25.2,68.5|
 
-C The Lonesome Watcher |QID|12877| |N|Kill an Iron Dwarf Monitor and loot Frostgrip's Signet Ring| |M|26,82|
+C The Lonesome Watcher |QID|12877| |N|Kill an Iron Dwarf Monitor and loot Frostgrip's Signet Ring.  Just leave the cave.| |M|26,82|
 
 T Unwelcome Guests |QID|12876| |N|Fjorlin Frostbrow| |M|29.8,75.7|
 
@@ -427,7 +437,7 @@ T Fury of the Frostborn King |QID|12879| |N|Creteus| |M|38.2,61.6|
 
 A The Master Explorer |QID|12880| |N|Creteus| |M|38.2,61.6|
 
-T The Master Explorer |QID|12880| |N|Brann Bronzebeard| |M|39.5,56.3|
+T The Master Explorer |QID|12880| |N|To Brann Bronzebeard,at the bottom of the engine.| |M|39.5,56.3|
 
 A The Brothers Bronzebeard |QID|12973| |N|From Brann Bronzebeard, at the bottom of the Engine of the Makers| |M|39.5,56.3|
 
@@ -455,7 +465,7 @@ T A New Beginning |QID|13009| |N|Thorim| |M|33.4,58.0|
 
 A Veranus |QID|13050| |N|From Thorim| |M|33.4,58.0|
 
-C Veranus |QID|13050| |N|Loot 5 Small Proto-Drake Egg| |M|44,48| |L|42784 5|
+C Veranus |QID|13050| |N|Loot 5 Small Proto-Drake Egg| |M|43.7,67.3;52.4,75.1| |L|42784 5|
 
 T Veranus |QID|13050| |N|Thorim| |M|33.4,58.0|
 
@@ -495,7 +505,7 @@ T Mounting Hodir's Helm |QID|12987| |N|Njormeld| |M|63.2,63.2|
 
 K Jormuttar is Soo Fat... |QID|13011| |N|Use the Everfrost Razor to skin bears in the cave until you loot an Icemaw Bear Flank| |M|56,64| |U|42732| |L|42733|
 
-C Jormuttar is Soo Fat... |QID|13011| |N|Use the Icemaw Bear Flank to lure Jormuttar, then kill him| |M|54,60| |U|42733|
+C Jormuttar is Soo Fat... |QID|13011| |N|Use the Icemaw Bear Flank to lure Jormuttar, then kill him| |M|54.65,60.77| |U|42733|
 
 T Jormuttar is Soo Fat... |QID|13011| |N|King Jokkum| |M|65.4,60.1|
 
@@ -567,11 +577,11 @@ A The Gifts of Loken |QID|12965| |N|From Bouldercrag the Rockshaper| |M|31.4,38.
 
 A Facing the Storm |QID|12978| |N|From Bruor Ironbane| |M|31.2,38.1|
 
-N The Gifts of Loken - Fury |QID|12965| |QO|Loken's Fury destroyed: 1/1| |N|Destroy Loken's Fury| |M|24,43|
+N The Gifts of Loken - Fury |QID|12965| |QO|Loken's Fury destroyed: 1/1| |N|Destroy Loken's Fury, right-click on it| |M|24,42.7|
 
-N The Gifts of Loken - Power |QID|12965| |QO|Loken's Power destroyed: 1/1| |N|Destroy Loken's Power| |M|26.1,47.5|
+N The Gifts of Loken - Power |QID|12965| |QO|Loken's Power destroyed: 1/1| |N|Destroy Loken's Power, right-click on it| |M|26.1,47.5|
 
-N The Gifts of Loken - Favor |QID|12965| |QO|Loken's Favor destroyed: 1/1| |N|Destroy Loken's Favor| |M|24.5,48.4|
+N The Gifts of Loken - Favor |QID|12965| |QO|Loken's Favor destroyed: 1/1| |N|Destroy Loken's Favor, right-click on it| |M|24.5,48.4|
 
 C Facing the Storm |QID|12978| |N|Kill 10 Nidavelir Stormforged Champions, Stormforged Magi, or Stormforged War Golems| |M|25,46|
 
@@ -587,7 +597,7 @@ T Armor of Darkness |QID|12979| |N|Bruor Ironbane| |M|31.2,38.1|
 
 A The Armor's Secrets |QID|12980| |N|From Bruor Ironbane| |M|31.2,38.1|
 
-C The Armor's Secrets |QID|12980| |N|Step through the dialogue with Attendant Tock| |M|32.0,40.7|
+C The Armor's Secrets |QID|12980| |N|Fly out and around to Mimir's Workshop. Tock is inside.  Talk to him.| |M|33.78,39.34;32.03,40.73|
 
 T The Armor's Secrets |QID|12980| |N|Bruor Ironbane| |M|31.2,38.1|
 
@@ -603,11 +613,11 @@ A Destroy the Forges! |QID|12988| |N|From Bouldercrag the Rockshaper| |M|31.4,38
 
 A Hit Them Where it Hurts |QID|12991| |N|From Bruor Ironbane| |M|31.2,38.1|
 
-N Destroy the Forges - North |QID|12988| |QO|North Lightning Forge damaged: 1/1| |N|Use Bouldercrag's Bomb and damage the North Lightning Forge| |M|29.9,45.8| |U|42441|
+N Destroy the Forges - North |QID|12988| |QO|North Lightning Forge damaged: 1/1| |N|Use Bouldercrag's Bomb and damage the North Lightning Forge| |M|29.02,45.86| |U|42441|
 
-N Destroy the Forges - Central |QID|12988| |QO|Central Lightning Forge damaged: 1/1| |N|Use Bouldercrag's Bomb and damage the Central Lightning Forge| |M|29.5,45.9| |U|42441|
+N Destroy the Forges - Central |QID|12988| |QO|Central Lightning Forge damaged: 1/1| |N|Use Bouldercrag's Bomb and damage the Central Lightning Forge| |M|29.55,45.86| |U|42441|
 
-N Destroy the Forges - South |QID|12988| |QO|South Lightning Forge damaged: 1/1| |N|Use Bouldercrag's Bomb and damage the South Lightning Forge| |M|30.2,46.1| |U|42441|
+N Destroy the Forges - South |QID|12988| |QO|South Lightning Forge damaged: 1/1| |N|Use Bouldercrag's Bomb and damage the South Lightning Forge| |M|30.23,46.14| |U|42441|
 
 C Hit Them Where it Hurts |QID|12991| |N|Kill 10 Stormforged Artificers in this area| |M|29,46|
 
@@ -617,21 +627,22 @@ T Destroy the Forges! |QID|12988| |N|Bouldercrag the Rockshaper| |M|31.4,38.0|
 
 A A Colossal Threat |QID|12993| |N|From Bouldercrag the Rockshaper| |M|31.4,38.0|
 
-N A Colossal Threat - Attack Specs |QID|12993| |N|Loot the Colossus Attack Specs| |M|30,46 |L|42475|
+N A Colossal Threat - Attack Specs |QID|12993| |N|Loot the Colossus Attack Specs| |M|28.9,44.1 |L|42475|
 
-N A Colossal Threat - Defense Specs |QID|12993| |N|Loot the Colossus Defense Specs| |M|29,45| |L|42476|
+N A Colossal Threat - Defense Specs |QID|12993| |N|Loot the Colossus Defense Specs| |M|29.9,45.8| |L|42476|
 
 T A Colossal Threat |QID|12993| |N|Bouldercrag the Rockshaper| |M|31.4,38.0|
 
 A The Heart of the Storm |QID|12998| |N|From Bouldercrag the Rockshaper| |M|31.4,38.0|
 
-C The Heart of the Storm |QID|12998| |N|Enter Uldis| |M|through side of the mountain at 32.3,64.0 and click on the Heart of the Storm to try to prevent Overseer Narvir from obtaining the Heart of the Storm| |M|32,64|
+C The Heart of the Storm |QID|12998| |N|Through side of the mountain and click on the Heart of the Storm to try to prevent Overseer Narvir from obtaining the Heart of the Storm| |M|32.4,63.6;32.40,60.92;36.1,60.9|
 
 T The Heart of the Storm |QID|12998| |N|Bouldercrag the Rockshaper| |M|31.4,38.0|
 
 A The Iron Colossus |QID|13007| |N|From Bouldercrag the Rockshaper| |M|31.4,38.0|
 
-C The Iron Colossus |QID|13007| |N|Click on a Jormunger Control orb at 27,35 and use a Tamed Jormungar to defeat the Iron Colossus| |M|27.1,35.8|
+N The Iron Colossus |QID|13007| |N|Click on a Jormunger Control orb.|M|26.30,35.72|
+C The Iron Colossus |QID|13007| |N|Use the Tamed Jormungar to defeat the Iron Colossus. Use lots of acid. When he Ground Slams, go under and stafe left/right/behind.|M|28.2,47.4|
 
 T The Iron Colossus |QID|13007| |N|Bouldercrag the Rockshaper| |M|31.4,38.0|
 

@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2011-04-05 23:20
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3203/revisions/24071/view
 -- Date: 2011-01-29 17:15
 -- Who: Ludovicus Maior
 -- Log: Added missing QIDs to Level 2,3,4,5,6 steps.
@@ -35,7 +39,7 @@
 -- Date: 2010-12-02 23:02
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('GylMul0105', 'Mulgore', 'Gylin', '01', '12', 'nil', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('GylMul0105', 'Mulgore', 'Gylin', '01', '12', 'BitNor1220', 'Horde', function()
 return [[
 
 A The First Step|QID|14449|M|45.14,75.56|Z|Mulgore|N|From Chief Hawkwind.|

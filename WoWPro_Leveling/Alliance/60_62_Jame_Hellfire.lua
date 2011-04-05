@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2011-04-03 06:01
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3271/revisions/24197/view
+-- Date: 2011-04-01 13:04
+-- Who: Crackerhead22
+-- Log: Fixed a misspelling, fixed cords for run to Telhamat.
+
+-- URL: http://wow-pro.com/node/3271/revisions/24160/view
 -- Date: 2011-03-09 15:53
 -- Who: savagefool
 -- Log: changed a cordinate to match the quest.
@@ -41,7 +50,7 @@ A Fel Orc Scavengers |QID|10482|M|50.9,60.2|N|From Lieutenant Amadi.|
 N Flying|QID|10482|N|If you are level 60, Expert Riding may be purchased for 250 gold, you will also need 50 gold for a mount. Trainer is Hargen Bronzewing.|M|54.3,62.6|
 C Waste Not, Want Not|S|N|Loot Metal Cogs and Wooden Planks off the ground until you finish this quest. |QID|10055|M|60.4,52.1|
 C Fel Orc Scavengers |N|Kill Orcs until you finish this quest.|QID|10482|M|62.00,54.00|
-C Waste Not, Want Not |N|Loot Metal Cogs and Wooden Planks off the ground until you finish this quest. |QID|10055|M|60.4,52.1|US|
+C Waste Not, Want Not |N|Loot Metal Cogs/Poles and Wooden Planks off the ground until you finish this quest. |QID|10055|M|60.4,52.1|US|
 T Fel Orc Scavengers |QID|10482|M|50.9,60.2|N|To Lieutenant Amadi.|
 T Waste Not, Want Not |QID|10055|M|51.2,60.0|N|To Dumphry.|
 A Ill Omens |QID|10483|M|50.9,60.2|N|From Lieutenant Amadi.|
@@ -49,13 +58,12 @@ A Laying Waste to the Unwanted |QID|10078|M|51.2,60.0|N|From Dumphry.|
 T The Legion Reborn |QID|10141|M|61.7,60.8|N|To Sergeant Altumus.|
 A The Path of Anguish |QID|10142|M|61.7,60.8|From Sergeant Altumus.|
 C The Path of Anguish |N|Kill the mobs needed for this quest.|QID|10142|M|65.00,58.00|
-N Burn Catapult 1 |QID|10078| |N|Burn the first catapult here with the Flaming Torch. | |Q|Laying Waste to the Unwanted|QO|Eastern Thrower Burned: 1/1| |U|26002|M|58.50,46.80|
-N Burn Catapult 2 |QID|10078| |N|Burn the catapult here with the Flaming Torch. | |Q|Laying Waste to the Unwanted|QO|Central Eastern Thrower Burned: 1/1| |U|26002|M|55.85,46.75|
-N Burn Catapult 3 |QID|10078| |N|Burn the catapult here with the Flaming Torch. | |Q|Laying Waste to the Unwanted|QO|Central Western Thrower Burned: 1/1| |U|26002|M|53.50,47.20|
-N Burn Catapult 4 |QID|10078| |N|Burn the catapult here with the Flaming Torch. | |Q|Laying Waste to the Unwanted|QO|Western Thrower Burned: 1/1| |U|26002|M|52.80,47.20|
-C Laying Waste to the Unwanted |N|Burn any Catapults you missed. | |QID|10078|M|58.7,47.0|
+N Burn Catapult 1 |QID|10078|N|Burn the first thrower here with the Flaming Torch. |Q|Laying Waste to the Unwanted|QO|Eastern Thrower Burned: 1/1|U|26002|M|58.50,46.80|
+N Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Torch. |Q|Laying Waste to the Unwanted|QO|Central Eastern Thrower Burned: 1/1|U|26002|M|55.85,46.75|
+N Burn Catapult 3 |QID|10078|N|Burn the third thrower here with the Flaming Torch. |Q|Laying Waste to the Unwanted|QO|Central Western Thrower Burned: 1/1|U|26002|M|53.50,47.20|
+C Laying Waste to the Unwanted |N|Burn the last thrower here.|QID|10078|U|26002|M|52.80,47.20|
 
-R Temple of Telhamat|QID|9398|M|46.05,44.13;34.11,45.87;28.72,45.5523.23,40.64|Run to the Temple of Telhamat.|
+R Temple of Telhamat|QID|9398|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|Run to the Temple of Telhamat.|
 A Deadly Predators |QID|9398|M|23.4,39.7|N|From Scout Vanura.|
 A In Search of Sedai |QID|9390|M|23.1,40.3|N|From Anchorite Obadei.|
 A Cruel Taskmasters |QID|9399|M|23.1,40.3|N|From Ikan.|
@@ -63,7 +71,7 @@ A The Rock Flayer Matriarch |QID|9490|M|23.1,40.3|N|From Ikan.|
 A The Pools of Aggonar|QID|9426|M|23.4,36.5|N|From Amaan the Wise.|
 f Temple of Telhamat|QID|9390|N|Get the flight path.|M|25.20,37.20|
 T In Search of Sedai|QID|9390|M|25.20,37.20|N|To Sedai's Corpse.|
-A Return to Obadei|QID|9423|M|26.9,37.4|N|
+A Return to Obadei|QID|9423|M|25.20,37.20|N|From Sedai's Corpse.|
 T Return to Obadei|QID|9423|M|23.1,40.3|N|To Anchorite Obadei.|
 A Makuru's Vengeance |QID|9424|M|23.1,40.3|N|From Makuru.|
 F Honor Hold|QID|10142|N|Fly to Honor Hold.|M|25.20,37.20|
@@ -82,7 +90,7 @@ A Smooth as Butter|QID|9356|M|49.2,74.8|N|From Legassi.|
 l Zeppelin Debris|QID|10161|N|Loot Zeppelin Debris from the ground.|S|L|28116 30|
 C Smooth as Butter |N|Kill Buzzards until you get the wings for this quest.|QID|9356|M|56.00,73.00|
 C Ill Omens |N|Kill orcs until you get a Cursed Talisman for this quest.|QID|10483|M|63.00,78.00|
-l Zeplin Debris |QID|10161|N|Gather the rest of the Zeplin debris you need.|L|28116 30|M|62.42,70.70|US|
+l Zeppelin Debris |QID|10161|N|Gather the rest of the Zeplin debris you need.|L|28116 30|M|62.42,70.70|US|
 T Ill Omens |QID|10483|M|71.0,63.4|N|To Corporal Ironridge.|
 A Cursed Talismans |QID|10484|M|71.0,63.4|N|From Corparal Ironridge.|
 r Sell junk, repair|QID|10143|M|70.95,63.25|N|At Supply Officer Shandria.|
@@ -90,9 +98,9 @@ T Expedition Point |QID|10143|M|71.3,62.8|N|To Forward Commander Kingston.|
 A Disrupt Their Reinforcements |QID|10144|M|71.3,62.8|N|From Forward Commander Kingston.|
 A Zeth'Gor Must Burn! |QID|10895|M|71.3,62.8|N|From Wing Commander Dabir'ee.|
 C Cursed Talismans |N|Kill Orcs until you get the talismans for this quest.|QID|10484|M|64.2,71.8|S|
-N Forge Tower |QID|10895| |N|Use the Smoke Beacon here.|Q|Zeth'Gor Must Burn!|QO|Forge Tower Marked: 1/1|U|31739|M|70.20,69.20|
-N Foothill Tower |QID|10895| |N|Use the Smoke Beacon here.|Q|Zeth'Gor Must Burn!|QO|Foothill Tower Marked: 1/1|U|31739|M|70.70,71.35|
-N Northern Tower |QID|10895| |N|Use the Smoke Beacon here.|Q|Zeth'Gor Must Burn!|QO|Northern Tower Marked: 1/1|U|31739|M|68.00,67.10|
+N Northern Tower |QID|10895|N|Use the Smoke Beacon here.|Q|Zeth'Gor Must Burn!|QO|Northern Tower Marked: 1/1|U|31739|M|68.00,67.10|
+N Forge Tower |QID|10895|N|Use the Smoke Beacon here.|Q|Zeth'Gor Must Burn!|QO|Forge Tower Marked: 1/1|U|31739|M|70.20,69.20|
+N Foothill Tower |QID|10895|N|Use the Smoke Beacon here.|Q|Zeth'Gor Must Burn!|QO|Foothill Tower Marked: 1/1|U|31739|M|70.70,71.35|
 C Zeth'Gor Must Burn! |N|Use the Smoke Beacon here.|QID|10895| |U|31739|M|66.45,76.35|
 C Cursed Talismans |N|Kill Orcs until you get the talismans for this quest.|QID|10484|M|64.2,71.8|US|
 T Cursed Talismans |QID|10484|M|71.0,63.4|N|To Corpral Ironridge.|
@@ -122,10 +130,10 @@ T Wing Commander Gryphongar |QID|10344|M|79.3,33.9|N|To Wing Commander Gryphonga
 A Mission: The Abyssal Shelf |QID|10163|M|79.3,33.9|N|From Wing Commander Gryphongar.|
 N Area 52 Special |QID|10163|N|Hotkey this item, then right-click the box to continue.|M|79.3,33.9|
 C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow and begin flying, then bomb the mobs needed for this quest.  | |QID|10163|M|78.35,34.36|
-T Mission: The Abyssal Shelf |QID|10163|M|79.3,33.9|To Wing Commander Gryphongar.|
+T Mission: The Abyssal Shelf |QID|10163|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Go to the Front |QID|10382|M|79.3,33.9|N|From Wing Commander Gryphongar.|
 
-T Go to the Front |QID|10382|M|78.35,34.36;68.3,28.6|N||N|Talk to Gryphoneer Windbellow and get sent to Honor Point. Then to the quest into Field Marshal Brock.|
+T Go to the Front |QID|10382|M|78.35,34.36;68.3,28.6|N|Talk to Gryphoneer Windbellow and get sent to Honor Point. Then to the quest into Field Marshal Brock.|
 A Disruption - Forge Camp: Mageddon|QID|10394|N|From Field Marshal Brock.|M|68.3,28.6|
 C Disruption - Forge Camp: Mageddon|N|Kill the mobs needed for this quest here.|QID|10394|M|65.00,31.00|
 T Disruption - Forge Camp: Mageddon|QID|10394|N|To Field Marshal Brock.|M|68.3,28.6|
@@ -144,7 +152,7 @@ A The Longbeards |QID|9558|M|54.3,63.4|N|From Sid Limbardi.|
 T Return to Honor Hold |QID|10903|M|54.3,63.6|N|Upstairs to Assistant Klatu.|
 A Fel Spirits |QID|10909|M|54.3,63.6|N|From Assistant Klatu.|
 A Digging for Prayer Beads |QID|10916|M|54.3,63.6|N|From Assistant Klatu.|
-l Draenei Prayer Beads|QID|10916|M|54.16,63.32|N|Head outside the inn and turn left, follow the wall, to the waypoint.  Loot Fei Fei's Cache (glittering dirt pile).|
+l Draenei Prayer Beads|QID|10916|M|54.16,63.32|N|Head outside the inn and turn left, follow the wall, to the waypoint.  Loot Fei Fei's Cache (glittering dirt pile).|L|31795|
 r Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|QID|10916|
 A Hellfire Fortifications |QID|10106|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell.  This is optional as it is a PvP quest, so skip if you don't wish to do it.|
 T The Dark Missive |QID|10395|N|Head to Warp-Scryer Kryv.|M|56.69,66.52|
@@ -196,7 +204,7 @@ A An Ambitious Plan |QID|9383|M|23.2,36.7|N|From Elsaana.|
 T Missing Missive |QID|9373|M|15.7,52.0|N|To Thiah Redmane.|
 T Helping the Cenarion Post |QID|10443|M|15.7,52.0|N|To Thiah Redmane.|
 A Demonic Contamination |QID|9372|M|15.7,52.0|N|From Thiah Redmane.|
-A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|Frin Mahuram Stouthoof.|
+A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|From Mahuram Stouthoof.|
 A Colossal Menace |QID|10132|N|From Tola'thion.|M|15.59,52.13|
 A The Cenarion Expedition |QID|9912|M|15.7,52.0|N|From Amythiel Mistwalker.|M|16.02,52.26|
 C Demonic Contamination |N|Kill Hulking Helboars until you get the samples for this quest.|QID|9372|M|30.00,40.00|
@@ -209,7 +217,7 @@ A The Finest Down |QID|9420|M|24.0,72.1|N|From Mirren Longbeard.|
 
 C The Arakkoa Threat |N|Kill birds until you finish this quest.|QID|9417|S|M|25.6,70.3|
 C The Finest Down |N|Kill birds until you finish this quest.|QID|9420|M|25.6,70.3|S|
-N Avruu's Orb |QID|9418| |N|Kill and loot every bird mob you see, then kill Avruu and take his Orb. | |L|23580 1|M|26.00,71.00|
+N Avruu's Orb |QID|9418|N|Head to the waypoint above the small cave, then kill Avruu and take his Orb.|L|23580 1|M|25.7,75.14|
 A Avruu's Orb |N|Right-click the Orb to accept this quest.|QID|9418||U|23580|M|25.7,75.1|
 T Avruu's Orb |QID|9418|M|29.0,81.5|N|Click on the Haal'eshi Altar, Aeranas will spawn.  Get him down to about 50%, then turn the quest in to it.|
 C The Arakkoa Threat |N|Kill birds until you finish this quest.|QID|9417|US|M|25.6,70.3|
@@ -219,32 +227,33 @@ T The Arakkoa Threat |QID|9417|M|24.0,72.1|N|To Gremni Longbeard.|
 C Rampaging Ravagers |N|Kill the mobs needed for this quest.|QID|9385|M|22.00,67.00|
 T Rampaging Ravagers |QID|9385|M|24.0,72.1|N|To Gremni Longbeard.|
 C Deadly Predators |N|Kill the mobs needed for this quest.|QID|9398|M|32.00,61.00|
-C Hellfire Fortifications |N|Do this quest (optional) by taking over the towers.|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|
+C Hellfire Fortifications |N|Do this quest by taking over the towers.|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|O|
 
 N Start looking for a group... |QID|10937|N|Start looking for a group for The Rock Flayer Matriarch and Drill the Drillmaster.  Kill mobs in this area while you do so. |M|34.00,63.00|
 C The Rock Flayer Matriarch|N|Kill the elite in this cave.|QID|9490|M|34.00,64.00|
-C Drill the Drillmaster |N|Kill Drillmaster Zurok.|QID|10937|M|49.00,55.00|
+C Drill the Drillmaster |N|Kill Drillmaster Zurok.|QID|10937|M|47.89,56.11|
 C An Ambitious Plan |N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal.  Click on the red Crystal that appears.|QID|9383|M|46.00,82.00|
-C Voidwalkers Gone Wild |N|Kill voidwalkers until you finish this quest.|QID|9351|M|46.00,82.00|
+C Voidwalkers Gone Wild |N|Kill and loot Voidwalkers until you finish this quest.|QID|9351|M|46.00,82.00|
 K Arch Mage Xintor|N|Kill Arch Mage Xintor.|QID|10057|M|53.60,81.00|QO|Arch Mage Xintor slain: 1/1|
 C Looking to the Leadership|QID|10057|M|54.7,83.6|N|Kill Lieutenant Commander Thalvos.|
 C An Old Gift|N|Loot the book here.|QID|10058|M|55.00,86.80|
 T Voidwalkers Gone Wild |QID|9351|M|49.2,74.8|N|To "Screaming" Screed Luckheed.
-H Honor Hold |QID|10937| |N|Hearth to Honor Hold. |U|6948|M|55.00,86.80|
+
+H Honor Hold |QID|10937|N|Hearth to Honor Hold. |U|6948|M|54.3,63.4|
 T An Old Gift |QID|10058|M|54.3,63.4|N|To Father Malgor Devidicus.|
-T Hellfire Fortifications|QID|10106|N|M|56.34,62.78|N|To Warrant Officer Tracy Proudwell.|
-T Drill the Drillmaster|QID|10937|N|To Force Commander Danath Trollbane.|
-T Looking to the Leadership |QID|10057|M|50.9,60.2|N|
+T Hellfire Fortifications|QID|10106|M|56.34,62.78|N|To Warrant Officer Tracy Proudwell.|O|
+T Drill the Drillmaster|QID|10937|N|To Force Commander Danath Trollbane.|M|56.61,66.64|
+T Looking to the Leadership |QID|10057|M|50.9,60.2|N|To Honor Guard Wesilow.|
 F Temple of Telhamat|QID|9383|N|Fly to the Temple of Telhamat |M|54.70,62.35|
 T An Ambitious Plan |QID|9383|M|23.4,36.5|N|To Elsaana.|
 r Sell junk, repair, restock|QID|9383|M|23.32,39.94|N|At Talaara.|
 T Deadly Predators |QID|9398|M|23.4,39.7|N|To Scout Vanura.|
 T The Rock Flayer Matriarch |QID|9490|N|To Ikan.|M|23.13,40.26|
 
-C Makuru's Vengeance |N|Kill Grunts until you get the Beads for this quest.|QID|9424|M|35.00,35.00|
-N Start looking for a group... |QID|10400|N|Start looking for a group for Overlord |M|43.3,31|
-C The Heart of Darkness |N|Kill Oozes and Terrorfiends until you complete these two quests.|QID|10399|M|38.00,44.00|
-C The Pools of Aggonar |N|Kill Oozes and Terrorfiends until you complete these two quests.|QID|9426|M|38.00,44.00|
+C Makuru's Vengeance |N|Kill and loot Mag'har Grunts until you get the Beads for this quest.|QID|9424|M|35.00,35.00|
+N Start looking for a group... |QID|10400|N|Start looking for a group for Overlord.|
+C The Heart of Darkness |N|Kill Oozes and Terrorfiends until you complete these two quests.|QID|10399|M|40.34,32.72|
+C The Pools of Aggonar |N|Kill Oozes and Terrorfiends until you complete these two quests.|QID|9426|M|40.34,32.72|
 C Overlord |N|Kill Arazzius the Cruel (need a group).|QID|10400|M|43.3,31|
 T Makuru's Vengeance |QID|9424|M|23.1,40.3|N|To Makuru.|
 A Atonement |QID|9543|M|23.1,40.3|N|From Anchorite Obadei.|
@@ -256,7 +265,7 @@ A Sha'naar Relics |QID|9430|M|23.4,36.5|N|From Amaan the Wise.|
 C Cleansing the Waters|N|Go here and use the Cleansing Vial, then kill Aggonis.|QID|9427|M|40.00,31.20|
 
 A Outland Sucks!|QID|10236|N|From Foreman Razelcraz.|M|51.31,30.5|
-C Outland Sucks!|N|Loot wooden crates until you finish this quest.|QID|10236|M|48.26,43.81|
+C Outland Sucks!|N|Loot wooden crates in the shallow valley until you finish this quest.|QID|10236|M|48.26,40.81|
 T Outland Sucks!|QID|10236|N|To Foreman Razelcraz.|M|51.31,30.5|
 A How to Serve Goblins |QID|10238|N|From Foreman Razelcraz.|M|51.31,30.5|
 N Manni's Cage |N|Free Manni from his cage.|QID|10238|QO|Manni Saved: 1/1|M|45.10,41.10|

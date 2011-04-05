@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_horde
+-- Date: 2011-04-05 23:22
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3256/revisions/23568/view
 -- Date: 2010-12-04 17:10
 -- Who: Liavan
 
@@ -14,7 +18,7 @@
 -- Date: 2010-12-03 11:41
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('LiaSea4850', 'Searing Gorge', 'Liavan', '48', '50', 'LiaBur5055', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('LiaSea4850', 'Searing Gorge', 'Liavan', '48', '50', 'LiaBur5052', 'Horde', function()
 return [[
 
 F New Kargath|QID|28512|Z|New Kargath|

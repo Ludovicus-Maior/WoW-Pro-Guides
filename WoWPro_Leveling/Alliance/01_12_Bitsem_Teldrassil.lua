@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2011-04-05 23:33
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3204/revisions/24120/view
 -- Date: 2011-02-20 21:10
 -- Who: Ludovicus Maior
 -- Log: Change starting level from '1' to '01' like the rest.
@@ -20,7 +24,7 @@
 -- Date: 2010-12-02 23:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil', 'Bitsem', '01', '10', 'unknown', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil', 'Bitsem', '01', '10', 'JamDar1320', 'Alliance', function()
 return [[
 
 A The Balance of Nature|QID|28713|M|57.97,39.19|N|From Ilthalaine.|

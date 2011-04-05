@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2011-04-05 23:34
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3285/revisions/24190/view
 -- Date: 2011-03-20 20:39
 -- Who: Ludovicus Maior
 -- Log: Major update; lots of coord updates, missing quests for scryers, missing 'C' lines, added waypoints.
@@ -51,7 +55,7 @@
 -- Date: 2010-12-03 21:57
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraSha7070', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', '####', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('CraSha7070', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', 'JamBor7072', 'Alliance', function()
 return [[
 
 A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|

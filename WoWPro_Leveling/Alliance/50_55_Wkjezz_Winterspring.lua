@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_alliance
+-- Date: 2011-04-05 23:25
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3263/revisions/23625/view
 -- Date: 2010-12-06 05:17
 -- Who: wkjezz
 
@@ -10,7 +14,7 @@
 -- Date: 2010-12-03 11:54
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjWin5055', 'Winterspring', 'Wkjezz', '50', '55', 'placeholder', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('WkjWin5055', 'Winterspring', 'Wkjezz', '50', '55', 'WkjSil5560', 'Alliance', function()
 return [[
 
 N This Guide:|QID|99999|N|Starts where the Felwood Guide leaves off. Did not do felwood? Don't worry, Just make your way to Talenbranch Glade in Felwood to begin.|

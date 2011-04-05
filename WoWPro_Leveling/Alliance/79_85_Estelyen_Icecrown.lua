@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2011-04-05 23:40
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3301/revisions/24106/view
 -- Date: 2011-02-08 12:49
 -- Who: Estelyen
 
@@ -15,7 +19,7 @@
 -- Date: 2010-12-03 22:35
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("EstIce7985", "Icecrown", "Estelyen", "79", "85", "nil", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("EstIce7985", "Icecrown", "Estelyen", "79", "85", "ArihyjA8082", "Alliance", function()
 return [[
 N How to use this Guide|QID|99999|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|
 A Preparations for War|QID|13418|N|From Officer Van Rossem on Krasus Landing in Dalaran.|Z|Dalaran|M|68.80,46.60|

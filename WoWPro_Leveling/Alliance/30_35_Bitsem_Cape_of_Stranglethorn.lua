@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2011-04-05 23:30
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3237/revisions/24145/view
 -- Date: 2011-03-06 19:21
 -- Who: Ludovicus Maior
 -- Log: Removed references to [The Curse of the Tides] which is obsolete.
@@ -18,7 +22,7 @@
 -- Date: 2010-12-03 11:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitCap3035', 'Cape of Stranglethorn', 'Bitsem', '30', '35', 'filler', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('BitCap3035', 'Cape of Stranglethorn', 'Bitsem', '30', '35', 'BitWes3540', 'Alliance', function()
 return [[
 
 T Hero's Call: Cape of Stranglethorn!|QID|28702|O|M|55.16,42.48|Z|The Cape of Stranglethorn|N|To Bronwyn Hewstrike.|

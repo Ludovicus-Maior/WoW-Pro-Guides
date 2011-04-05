@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2011-04-02 19:01
+-- Who: Ludovicus Maior
+-- Log: Syntax error in quest [Fear No Evil] for Human Warlocks.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24058/view
 -- Date: 2011-01-26 02:48
 -- Who: Fluclo
 -- Log: Missing the A for Rest And Relaxation
@@ -139,7 +144,7 @@ A Fear No Evil|QID|28811|C|Rogue|R|Human|M|48.49,38.16|
 A They Sent Assassins|QID|28793|C|Paladin|R|Human|M|48.81,38.38|
 A Fear No Evil|QID|28809|C|Paladin|R|Human|M|48.49,38.16|
 A They Sent Assassins|QID|28796|C|Warlock|R|Human|M|48.81,38.38|
-A Fear No Evil|QID28812|C|Warlock|R|Human|M|48.49,38.16|
+A Fear No Evil|QID|28812|C|Warlock|R|Human|M|48.49,38.16|
 
 C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28791|C|Hunter|R|Human|M|48.40,35.79|
 C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28806|C|Hunter|R|Human|M|48.40,35.79|

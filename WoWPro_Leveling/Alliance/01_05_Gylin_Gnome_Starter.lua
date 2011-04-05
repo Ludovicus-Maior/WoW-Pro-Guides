@@ -1,4 +1,17 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-04-05 23:41
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3200/revisions/24219/view
+-- Date: 2011-04-05 23:32
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3200/revisions/24200/view
+-- Date: 2011-04-02 18:57
+-- Who: Ludovicus Maior
+-- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
+
+-- URL: http://wow-pro.com/node/3200/revisions/24097/view
 -- Date: 2011-02-05 01:18
 -- Who: Ludovicus Maior
 -- Log: Removed extra tabs and whitespace.
@@ -38,7 +51,7 @@
 -- Date: 2010-12-02 21:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh", "Gylin - Gnome", "01", "05", "GylDun0512", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh", "Gylin - Gnome", "01", "05", "GamDun0510", "Alliance", function()
 return
 [[
 
@@ -140,7 +153,7 @@ T The Arts of a Rogue |QID|26207| |M|33.39,36.78| |N|To Kelsey Steelspark| |C|Ro
 T The Power of a Warlock |QID|26201| |M|33.25,38.31| |N|To Alamar Grimm.| |C|Warlock|
 
 T What's Keeping Jessup? |QID|26316| |M|33.12,48.70| |N|To Jessup McCree|
-A Get Me Explosives Back! |QID|26284|
+A Get Me Explosives Back! |QID|26285|
 A Missing in Action |QID|26284|
 C Missing in Action |NC||S| |QID|26284| |N|Attack the cages to release captives| |QO|Captured Demolitionists rescued: 6/6|
 C Get Me Explosives Back! |QID|26285| |M|33.90,51.02| |N|Kill Rockjaws and loot Stolen Powder Kegs from them| |QO|Stolen Powder Keg: 7/7|
@@ -176,7 +189,7 @@ C Paint it Black |QID|26342| |M|39.03,43.28| |N|Use the Paintinator on Sentry Bo
 T Paint it Black |QID|26342| |M|37.46,44.07| |N|To Jarvi Shadowstep|
 A Down with Crushcog! |PRE|26342| |QID|26364|
 N Speak to High Tinker Mekkatorgue |QID|26364| |M|40.57,42.02| |N|Tell him you're ready to begin, then close this step|
-C Down with Crushcog! |QID|26364| |M|41.02,40.36| |N|Use the Orbital Targeting Device on the area where Crushcog is standing| |U|58253| |QO|Razlo Crushcog defeated: 1/1|
+C Down with Crushcog! |QID|26364| |M|41.02,40.36| |N|Use the Orbital Targeting Device on the area where Crushcog is standing. Defend yourself if attacked.| |U|58253| |QO|Razlo Crushcog defeated: 1/1|
 T Down with Crushcog! |QID|26364| |M|37.42,43.95| |N|To Jarvi Shadowstep|
 A On to Kharanos |PRE|26364| |QID|26373|
 R On to Kharanos |QID|26373| |M|49.20,45.44| |N|Follow the path East out of the Brewnall Village towards Kharanos|

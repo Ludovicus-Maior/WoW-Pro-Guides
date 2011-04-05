@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2011-04-05 23:37
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3273/revisions/24206/view
+-- Date: 2011-04-04 15:00
+-- Who: Crackerhead22
+-- Log: Some note changes.
+
+-- URL: http://wow-pro.com/node/3273/revisions/24103/view
 -- Date: 2011-02-08 01:08
 -- Who: Ludovicus Maior
 -- Log: Submitted by andyarnolduk on Mon, 2011-02-07 15:20.
@@ -43,10 +52,10 @@
 -- Date: 2010-12-03 12:11
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamZan6264", "Zangarmarsh", "Jame", "62","64", "JamTerA6466", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamZan6264", "Zangarmarsh", "Jame", "62","64", "JamTer6466", "Alliance", function()
 return [[
 N Suggestion to buy:|N|I would suggest buying 5 Sanguine Hibiscus from the AH if they are not too expensive, for a quest later in the guide.|
-R Zangarmarsh|QID|9912|N|Go to Zangarmarsh.|M|4.00,51.00|
+R Zangarmarsh|QID|9912|N|Go to Zangarmarsh.|M|82.9,65.08|
 A The Umbrafen Tribe|QID|9747|M|80.40,64.20|N|From Ikeyen.|
 A Plants of Zangarmarsh|QID|9802|M|80.30,64.20|N|From Lauranna Thar'well.|
 A Leader of the Darkcrest|M|79.10,64.80|QID|9730|N|From the Wanted Poster.|
@@ -58,7 +67,7 @@ A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.10|N|From Ysiel Windsinger.|
 A Warden Hamoot|QID|9778|M|78.40,62.10|N|From Ysiel Windsinger.|
 T Warden Hamoot|QID|9778|M|79.10,65.20|N|To Warden Hamoot.|
 A A Warm Welcome|QID|9728|M|79.10,65.20|N|From Warden Hamoot.|
-N Sell junk, repair, restock|M|79.27,63.78|N|Repair at Fedryen Swiftwhisper.|QID|9901|
+r Sell junk, repair, restock|M|79.27,63.78|N|Repair at Fedryen Swiftwhisper.|QID|9901|
 
 N Platform|QID|9901|N|Use the platform here to get the next quests.|M|70.00, 49.00|CC|
 A Fulgor Spores|QID|9777|M|68.6,48.7|N|From Ruam.|
@@ -70,15 +79,17 @@ A The Dead Mire|QID|9782|M|68.3,50.1|N|From Vindicator Idaar.|
 f Telredor|QID|9901|N|Get the flight-path.|M|67.80,51.5|
 A Too Many Mouths to Feed|QID|9781|M|67.7,48.0|N|From Haalrun.|
 A Menacing Marshfangs|QID|9791|M|67.7,48.0|N|From Noraani.|
+C Menacing Marshfangs|N|Kill Marshfang Rippers needed for this quest.|M|85.00,47.0|QID|9791|S|
 l Fulgor Spores|N|Loot the green mushroom looking things off the ground around Telredor, until you finish this quest.|M|67.00,50.0|QID|9777|L|24383 6|
-N From now on...|N|From now on, kill Marshfang Rippers and keep any Fertile Spores you find, you will need 10. Right click the box to close this step.|
+N Fertile Spores|N|From now on, kill then loot Sporebats, Greater Sporebats, Marsh Walkers and Fen Striders, and keep any Fertile Spores you find, you will need 6. Right click the box to close this step.|
 
-C Unfinished Business|N|Go here and kill Sporewing.|M|77.00,45.0|QID|9901|
-l Withered Basidium|QID|9901|N|Kill Withered Giants until you get the Withered Basidium.|L|24483|S|
-C The Dead Mire|N|Go here and loot the soil.|M|83.80,43.3|QID|9782|
-A Withered Basidium|N|Right-click the Withered Basidium to start this quest.|QID|9827|U|24483|M|78.3,45.2|
+C Unfinished Business|N|Go here, find, then kill Sporewing. It wanders between the waypoints.|M|77.00,45.0;79.52,47.75|QID|9901|T|Sporewing|
+l Withered Basidium|QID|9901|N|Kill and loot Withered Giants until you get the Withered Basidium.|L|24483|S|
+l Bog Lord Tendrils|QID|9901|N|Kill and loot Withered Giants and Withered Bog Lords until you get 6 Bog Lord Tendrils.|L|24291 6|S|
+C The Dead Mire|N|Go to either waypoint and loot the soil that should be near it.|M|83.80,43.3;70.71,43.44|QID|9782|
 l Withered Basidium|QID|9901|N|Kill Withered Giants until you get the Withered Basidium.|L|24483|US|
-C Menacing Marshfangs|N|Kill the rest of the Marshfang Rippers for this quest.|M|85.00, 47.0|QID|9791|
+A Withered Basidium|N|Right-click the Withered Basidium to start this quest.|QID|9827|U|24483|M|78.3,45.2|
+C Menacing Marshfangs|N|Kill the rest of the Marshfang Rippers for this quest.|M|85.00,47.0|QID|9791|US|
 T Fulgor Spores|QID|9777|M|68.6,48.7|N|To Ruam.|
 T Withered Basidium|QID|9827|M|68.6,48.7|N|To Ruam.|
 A Withered Flesh|QID|10355|M|68.6,48.7|N|From Ruam.|
@@ -93,7 +104,7 @@ C An Unnatural Drought|N|Kill mobs until you finish this quest.|M|82.00,39.0|QID
 C Withered Flesh|N|Kill mobs until you finish this quest.|M|80.00,40.0|QID|10355|
 C Plants of Zangarmarsh|N|Kill mobs until you get the plant parts for this quest.|QID|9802|M|80.1,73.3|
 C An Unnatural Drought|N|Kill mobs until you finish this quest.|M|82.00,39.0|QID|9783|US|
-l Bog Lord Tendril|QID|9743|N|Kill mobs until you get 6 Bog Lord Tendrils|L|24291 6|M|82.00,39.0|
+l Bog Lord Tendrils|QID|9901|N|Kill and loot Withered Giants and Withered Bog Lords until you get 6 Bog Lord Tendrils.|L|24291 6|S|
 l Unidentified Plant Parts|QID|9802|N|Kill mobs until you have at least 30 Unidentified Plant Parts. Reason being that another quest opens when you are Friendly with the Cenarion Expedition.|L|24401 30|M|82.00,39.0|
 
 T Withered Flesh|QID|10355|M|68.6,48.7|N|To Ruam.|
@@ -104,7 +115,7 @@ C Disturbance at Umbrafen Lake|N|Go to this spot to automatically finish this qu
 C Too Many Mouths to Feed|N|Kill the rest of the Hydras needed for this quest in the lake.|QID|9781|US|
 C Umbrafen Eel Filets|US|N|Kill Eels until you have 8 Eel Filets. You may need to use the potion of underwater breathing.|QID|9780|M|74.2,60.7|
 C The Dying Balance|N|Kill Boglash. You may need a group for this.|M|82.00, 74.0|QID|9895|
-C The Umbrafen Tribe|N|Kill the mobs needed for this quest. Kataru is at this location.|M|85.00, 90.0|QID|9747|
+C The Umbrafen Tribe|N|Kill the mobs needed for this quest. Kataru is at the location of the waypoint, at the top of the building.|M|85.00, 90.0|QID|9747|
 A Escape from Umbrafen|QID|9752|M|83.4,85.5|N|From Kayra Longmane.|
 C Escape from Umbrafen|N|Do this Escort Quest. You will get ambushed twice by 2 Umbrafen each time.|QID|9752|M|83.4,85.5|
 
@@ -138,13 +149,13 @@ U Umbrafen Lake Controls Disabled|QID|9720|QO|Umbrafen Lake Controls Disabled: 1
 N Drain Schematics|QID|9731|N|Kill Steam Pump Overseers and loot the Schematics if he has it. Use the Ironvine Seeds on the Control Console to get more Overseers to spawn. Repeat until you get the Drain Schematics.|M|70.50, 80.3|L|24330|U|24355|
 A Drain Schematics|N|Right click the Drain Schematics to start the quest.|QID|9731|U|24330|M|62.0,40.8|
 C A Warm Welcome|S|N|Look for a group for the quest Leader of the Darkcrest while killing Nagas for this quest.|QID|9728|M|70.9,82.1|
-U Lagoon Controls Disabled|N|Go here and disable the pump with the Ironvine Seeds.|M|63.10, 64.1|QID|9720|QO|Lagoon Controls Disabled: 1/1|U|24355|
-C Leader of the Darkcrest|N|Get a group to do this quest. Kill Rajah Haghazed.|M|65.00, 69.0|QID|9730|
+U Lagoon Controls Disabled|N|Go here and disable the pump with the Ironvine Seeds.|M|63.10,64.1|QID|9720|QO|Lagoon Controls Disabled: 1/1|U|24355|
+C Leader of the Darkcrest|N|Get a group to do this quest if needed. Kill Rajah Haghazed.|M|65.00,69.0|QID|9730|
 C A Warm Welcome|US|N|Look for a group for the quest Leader of the Darkcrest while killing Nagas for this quest.|QID|9728|M|70.9,82.1|
-C Blacksting's Bane|N|Kill Blacksting and take his Stinger.|M|50.00, 59.0|QID|9896|
-C The Boha'mu Ruins|N|Go here to complete the quest.|M|44.20, 68.9|QID|9786|
+C Blacksting's Bane|N|Kill Blacksting and take his Stinger.|M|50.00,59.0|QID|9896|
+C The Boha'mu Ruins|N|Go here to complete the quest.|M|44.20,68.9|QID|9786|
 C Drain Schematics|N|Go here and dive underwater a bit until you get the quest complete message.|M|50.50,41.0|QID|9731|
-C Leader of the Bloodscale|N|Get a group for this quest and kill the elite here.|M|65.00,41.0|QID|9817|S|
+C Leader of the Bloodscale|N|Get a group for this quest if needed, and Rajis Fyashe here.|M|65.00,41.0|QID|9817|S|
 U Serpent Lake Controls Disabled|QID|9720|QO|Serpent Lake Controls Disabled: 1/1|U|24355|N|Use the Ironvine Seeds here.|M|62.00,41.0|
 C Leader of the Bloodscale|N|Get a group for this quest and kill the elite here.|M|65.00,41.0|QID|9817|US|
 T Umbrafen Eel Filets|QID|9780|M|67.7,48.0|N|To Noraani.|
@@ -177,7 +188,7 @@ T The Orebor Harborage|QID|9776|M|41.9,27.2|N|To Ikuti.|
 A Ango'rosh Encroachment|QID|9835|M|41.9,27.2|N|From Ikuti.|
 A Daggerfen Deviance|QID|10115|M|41.9,27.2|N|From Ikuti.|
 A Wanted: Chieftain Mummaki|QID|10116|M|41.7,27.3|N|From Wanted Poster.|
-N From now on..|QID|9808|N|From now on, loot Glowcaps (red glowing mushrooms) off the ground.|
+N From now on..|QID|9808|N|From now on, loot Glowcaps (red glowing mushrooms) off the ground. You will need 10 of them.|
 C Daggerfen Deviance|N|Kill the Daggerfen needed for this quest.|QID|10115|M|24,27|S|
 l Daggerfen Poison Vial|N|Go in this area and loot the Daggerfen Poison Vial. Kill all the mobs in the area as well.|M|25.40,25.0|L|24500|
 C Secrets of the Daggerfen|N|Go up the tower, kill all the mobs including the chieftain, and loot the manual from the ground.|M|24.40,27.0|QID|9848|
@@ -209,7 +220,7 @@ A Sporeggar|QID|9919|M|19.1,63.9|N|From Fahssn.|
 T Observing the Sporelings|M|23.30,66.2|QID|9701|N|To Watcher Leesa'oh.|
 A A Question of Gluttony|QID|9702|M|23.3,66.2|N|From Watcher Leesa'oh.|
 C A Question of Gluttony|N|Go here, killing giants on the way. Loot Discarded Nutriments off the ground until you get enough for this quest.|M|27.00,63.0|QID|9702|
-T A Question of Gluttony|M|23.30,66.2|QID|9702|N|To Watcher Leesa'oh
+T A Question of Gluttony|M|23.30,66.2|QID|9702|N|To Watcher Leesa'oh.|
 A Familiar Fungi|QID|9708|M|23.3,66.2|N|From Leesa'oh.|
 l "Count" Ungula's Mandible|QID|9911|N|Go here and look for a mob called Count Ungula. Kill it and loot the mandible.|M|33.00,60.0|L|25459 1|
 A The Count of the Marshes|N|Right-click the Mandible to start the quest.|QID|9911|U|25459|M|32.8,59.1|
@@ -218,8 +229,8 @@ l Idols of the Feralfen|N|Kill mobs and loot Idols off the ground until you fini
 C Natural Armor|N|Kill Fenclaw Trashers until you get the hides needed for this quest.|M|50.00,40.0|QID|9834|
 T Failed Incursion|QID|9876|N|Head down the drain to turn this quest in to Watcher Jhang.|M|50.00,40.0|
 
-H Cenarion Refuge|QID|9728|N|Hearth to Cenarion Refuge.|U|6948|M|78.59,62.87|
-N Sell junk, repair, restock, turn in plant parts|QID|9896|N|Sell junk, repair, restock, turn in plant parts|M|79.25, 63.7|
+H Cenarion Refuge|QID|9787|N|Hearth to Cenarion Refuge.|U|6948|M|78.59,62.87|
+N Sell junk, repair, restock, turn in plant parts|QID|9787|N|Sell junk, repair, restock, turn in plant parts|M|79.25, 63.7|
 T Idols of the Feralfen|QID|9787|M|68.2,49.4|N|To Anchorite Ahuurn.|
 A Gathering the Reagents|QID|9801|M|68.2,49.4|N|From Anchorite Ahuurn.|
 F Orebor Harborage|QID|9834|N|Fly to Orebor Harborage|M|67.80, 51.5|
@@ -231,7 +242,7 @@ C Familiar Fungi|N|Kill ogres until you get the Mushroom Samples for this quest.
 C Stinger Venom|N|Kill Marshlight Bleeders and bee mobs until you get the items needed for this quest.|M|20.00,30.0|QID|9830|
 C Diaphanous Wings|N|Kill mobs until you get the wings for this quest.|M|20.00,30.0|QID|9790|
 C Balance Must Be Preserved|N|Go here and use the Ironvine Seeds to disable the pump.|M|25.40,42.9|QID|9720|U|24355|
-C The Terror of Marshlight Lake|N|Kill Terrorclaw here as well as the other mobs.|M|22.20,45.3|QID|9902|
+C The Terror of Marshlight Lake|N|Kill Terrorclaw here, Terrorclaw can fear.|M|22.20,45.3|QID|9902|
 
 T Sporeggar|QID|9919|M|19.7,52.1|N|To Msshi'fn.|
 A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. Will disappear if you are friendly with Sporeggar.|M|19.7,52.1|
@@ -244,8 +255,8 @@ A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|
 A Oh, It's On!|QID|9717|N|From T'shu. Optional dungeon quest, skip if you do not want to do it.|
 A Stalk the Stalker|QID|9719|N|From Khn'nix.Optional dungeon quest, skip if you do not want to do it.|M|19.64,49.71|
 A Fertile Spores|QID|9806|M|19.2,49.4|N|From Gshaff.|M|19.5,50.0|
-N From now on...|QID|9806|N|From now on, kill Marsh Walkers, Fen Striders, Sporebats.|M|19.5,50.0|
-N The Underbog|QID|9790|N|You may do The Underbog now if you wish.|M|19.5,50.0|
+C Gathering the Reagents|N|Kill and loot Marsh Walkers, Fen Striders and Sporebats, until you finish this quest.|M|63.00,51.0|QID|9801|S|
+N The Underbog|QID|9790|N|You may do The Underbog now if you wish.|
 T Familiar Fungi|M|23.30,66.2|QID|9708|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms|QID|9709|M|23.3,66.2|N|From Watcher Leesa'oh.|
 T The Count of the Marshes|QID|9911|M|23.3,66.2|N|To Watcher Leesa'oh.|
@@ -253,7 +264,7 @@ T The Count of the Marshes|QID|9911|M|23.3,66.2|N|To Watcher Leesa'oh.|
 H Cenarion Refuge|QID|9720|N|Hearth to Cenarion Refuge.|U|6948|M|78.56,62.82|
 T Balance Must Be Preserved|QID|9720|M|78.4,62.0|N|To Ysiel Windsinger.|
 r Sell junk, repair, restock|QID|9801|N|Sell junk, repair, restock|M|79.23,63.7|
-C Gathering the Reagents|N|Kill and loot Marsh Walkers, Fen Striders and Sporebats (not the Young Sporebats), until you finish this quest.|M|63.00,51.0|QID|9801|
+C Gathering the Reagents|N|Kill and loot Marsh Walkers, Fen Striders and Sporebats, until you finish this quest.|M|63.00,51.0|QID|9801|US|
 T Gathering the Reagents|QID|9801|M|68.2,49.4|N|To Anchorite Ahuurn.|
 A Messenger to the Feralfen|QID|9803|M|68.2,49.4|N|From Anchorite Ahuurn.|
 T Diaphanous Wings|QID|9790|M|67.7,48.0|N|To Haalrun.|

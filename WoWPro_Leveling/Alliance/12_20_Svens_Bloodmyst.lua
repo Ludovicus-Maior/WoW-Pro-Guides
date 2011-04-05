@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2011-04-05 23:28
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3220/revisions/24078/view
 -- Date: 2011-01-30 18:27
 -- Who: Fluclo
 -- Log: Improved information flow for many quests as well as included Map points in many others.
@@ -15,7 +19,7 @@
 -- Date: 2010-12-03 07:35
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("SveBlo1220", "Bloodmyst Isle", "Sven", "12", "20", "BosRed2021", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("SveBlo1220", "Bloodmyst Isle", "Sven", "12", "20", "WkjAsh2025", "Alliance", function()
 return [[
 
 R Bloodmyst Isle |QID|9624|M|65.25,94.00|Z|Bloodmyst Isle|N|There are two quests to lead you to Bloodmyst Isle.  'Elekks Are Serious Business' from Torallius the Pack Handler outside The Exodar if you have done the Coming of Age quest in Azuremyst Isle, or Hero's Call: Bloodmyst Isle! from the Hero's Callboard in The Exodar.  Take either of these two quests, then head north to Booodmyst Isle.|

@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2011-04-05 23:18
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3221/revisions/24081/view
 -- Date: 2011-01-30 19:19
 -- Who: Ludovicus Maior
 -- Log: Corrected RegisterGuide line to match GIT.
@@ -16,7 +20,7 @@
 -- Date: 2010-12-03 07:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("SnoGho1221", "Ghostlands", "Snowflake", "12", "21", "JamSto2122", "Horde", function()
+WoWPro.Leveling:RegisterGuide("SnoGho1221", "Ghostlands", "Snowflake", "12", "21", "AyaHil2025", "Horde", function()
 return [[
 
 A Missing in the Ghostlands |QID|9144|M|44.06,70.73|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|

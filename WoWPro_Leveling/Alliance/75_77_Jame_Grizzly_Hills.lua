@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2011-04-02 19:09
+-- Who: Ludovicus Maior
+-- Log: Fixed bad U/QID tag on [Vordrassil's Sapling], corrected location text for [Hour of the Worg ] and added a tip for killing Goremaw.
+
+-- URL: http://wow-pro.com/node/3293/revisions/24162/view
 -- Date: 2011-03-12 18:29
 -- Who: Ludovicus Maior
 -- Log: Make guide id unique
@@ -26,7 +31,7 @@
 -- Date: 2010-12-03 22:24
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "75", "77", "ScoZulA7778", "Alliance", function()
 return [[
 
 f Amberpine Lodge |QID|12511|
@@ -338,7 +343,7 @@ T Children of Ursoc |QID|12247|M|31.2,59.5|
 A Vordrassil's Sapling |QID|12248|M|31.2,59.5|
 A Vordrassil's Seeds |QID|12250|M|31.2,59.5|
 
-C Vordrassil's Sapling |QID|12248U|37306|N|Use the [Verdant Torch] on the tree  and get the [Vordrassil's Ashes]|M|50.63,42.73|
+C Vordrassil's Sapling |QID|12248|U|37306|N|Use the [Verdant Torch] on the tree  and get the [Vordrassil's Ashes]|M|50.63,42.73|
 C Vordrassil's Seeds |QID|12250|N|Loot the Vordrassil's Seed|M|51.5,47.1|
 
 T Fate and Coincidence |N|Sasha in White Pine Trading Post |M|57.52,41.27|
@@ -353,7 +358,7 @@ T Anatoly Will Talk |QID|12330|M|57.5,41.3|
 A A Sister's Pledge |QID|12411|M|57.5,41.3|
 
 T A Sister's Pledge |QID|12411|N|Anya in Duskhowl Den |M|64.87,43.43|
-A Hour of the Worg |QID|12164|N|From Sasha in Duskhowl Den |M|64.87,43.43|
+A Hour of the Worg |QID|12164|N|From White Pine Trading Post|M|57.53, 41.27|
 
 C A Bear of an Appetite |QID|12279|U|37542|N|Use the [Fishing Net] on the School of Northern Salmon near the Ruins of Tethys |M|78,37|
 
@@ -483,7 +488,7 @@ T Ursoc, the Bear God |QID|12249|N|Hierophant Thayreen in Amberpine Lodge |M|31.
 
 K Varmlam |QID|12164|QO|Varlam slain: 1/1|N|Grizzly Hills, Bloodmoon Isle |M|84.94,23.62|
 K Selas |QID|12164|QO|Selas slain: 1/1|N|Grizzly Hills, Bloodmoon Isle |M|85.92,27.88|
-K Goremaw |QID|12164|QO|Goremaw slain: 1/1|N|Grizzly Hills, Shadowfang Tower |M|86.77,26.96|
+K Goremaw |QID|12164|QO|Goremaw slain: 1/1|N|Grizzly Hills, Shadowfang Tower stables, on the right.|M|86.77,26.96|
 C Hour of the Worg |QID|12164|N|Kill the Shade of Arugal |M|87.6,26.5|
 T Hour of the Worg |QID|12164|N|Sasha right there or in White Pine Trading Post |M|57.52,41.35|
 ]]

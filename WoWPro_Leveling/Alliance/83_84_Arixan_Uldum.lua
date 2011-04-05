@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_uldum_alliance
+-- Date: 2011-04-05 23:36
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3309/revisions/24174/view
 -- Date: 2011-03-12 18:43
 -- Who: Ludovicus Maior
 -- Log: Unique ID
@@ -45,7 +49,7 @@
 -- Date: 2010-12-03 23:21
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriUldA8384', 'Uldum', 'Hezkezl', '83', '84', 'AriTwi8485', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('AriUldA8384', 'Uldum', 'Hezkezl', '83', '84', 'MagTwi8485', 'Alliance', function()
 return [[
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|

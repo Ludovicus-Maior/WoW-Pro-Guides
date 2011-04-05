@@ -1,4 +1,17 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-04-05 23:41
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3200/revisions/24219/view
+-- Date: 2011-04-05 23:32
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3200/revisions/24200/view
+-- Date: 2011-04-02 18:57
+-- Who: Ludovicus Maior
+-- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
+
+-- URL: http://wow-pro.com/node/3200/revisions/24097/view
 -- Date: 2011-02-05 01:18
 -- Who: Ludovicus Maior
 -- Log: Removed extra tabs and whitespace.
@@ -38,7 +51,7 @@
 -- Date: 2010-12-02 21:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh", "Gylin - Dwarf", "01", "05", "GylDun0512", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh", "Gylin - Dwarf", "01", "05", "GamDun0510", "Alliance", function()
 return
 [[
 
