@@ -268,12 +268,28 @@ function WoWPro:findBlizzCoords(questId)
     	return cx * 100, cy * 100
 end
 
+local FinalCoord
+function WoWPro:MapPointDelta()
+    local x, y = GetPlayerMapPosition("player");
+    if FinalCoord then
+        local X,Y
+        X=FinalCoord[1]
+        Y=FinalCoord[2]
+        x = x * 100.0
+        y = y * 100.0
+        return { sqrt((X-x)*(X-x)+(Y-y)*(Y-y)), X , Y , x , y }
+    else
+        return nil
+    end
+end
+
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 
 	-- Removing old map point --
 	WoWPro:RemoveMapPoint()
+	FinalCoord = nil
 	
 	-- Loading Variables for this step --
 	local i
@@ -379,6 +395,7 @@ function WoWPro:MapPoint(row)
 				waypoint.j = numcoords-j+1
 
 				table.insert(cache, waypoint)
+				FinalCoord = { x , y }
 			end
 		end
 		
@@ -416,6 +433,7 @@ function WoWPro:MapPoint(row)
 			if not x or x > 100 then return end
 			if not y or y > 100 then return end
 			table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false))
+			FinalCoord = { x , y }
 		end
 	
 	end

@@ -93,6 +93,9 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
+	if WoWProDB.global.Deltas == nil then
+	    WoWProDB.global.Deltas = {}
+	end
 end
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --

@@ -33,12 +33,14 @@ function WoWPro:LoadGuide(guideID)
 	        WoWPro:Print("Guide "..GID.." was renamed to "..newGID..".  Remapping.")
 	        WoWProCharDB.Guide[newGID] = WoWProCharDB.Guide[GID]
 	        WoWProCharDB.Guide[GID] = nil
-	        GID = newGID    
+	        GID = newGID
+	        WoWProDB.char.currentguide = GID  
 	    end
 	end
 	if not WoWPro.Guides[GID] then 
 		WoWPro:dbp("Guide "..GID.." not found, loading NilGuide.")
-		WoWPro:LoadNilGuide() 
+		WoWPro:LoadNilGuide()
+		WoWProDB.char.currentguide = nil 
 		return 
 	end 
 	WoWPro:dbp("Loading Guide: "..GID)
@@ -308,7 +310,14 @@ function WoWPro.CompleteStep(step)
 		end
 	end
 	
-	WoWPro:dbp("Step Complete: "..WoWPro.step[step])
+	local Delta = WoWPro:MapPointDelta()
+	if Delta then
+	    local line = string.format("Action=%s|Step=%s|M0=%.2f,%.2f|M1=%.2f,%.2f|Error=%.2f|QID=%d|Vers=%s|Guide=%s",WoWPro.action[step],WoWPro.step[step],Delta[2],Delta[3],Delta[4],Delta[5],Delta[1],WoWPro.QID[step],WoWPro.Version,GID)
+	    table.insert(WoWProDB.global.Deltas, line)
+	    WoWPro:dbp(line)
+	else
+	    WoWPro:dbp("Step Complete: "..WoWPro.step[step])
+	end
 	
 	WoWPro:MapPoint()
 	WoWPro:UpdateGuide() 
