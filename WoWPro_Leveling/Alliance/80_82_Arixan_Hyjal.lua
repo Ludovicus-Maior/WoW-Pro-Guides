@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_alliance
+-- Date: 2011-04-19 17:40
+-- Who: Ludovicus Maior
+-- Log: Corrected the quests given by Ortell, in Outhouse Hideout.
+--	Added a note to [Mental Training: Speaking the Truth to Power] to alert you to the toolbar for answering questions, which I failed to notice and I got zapped to death.
+
+-- URL: http://wow-pro.com/node/3303/revisions/24176/view
 -- Date: 2011-03-12 20:19
 -- Who: Ludovicus Maior
 -- Log: Unique IDS
@@ -203,7 +209,7 @@ C A Bird in Hand|QID|25731|M|38.50,44.04|N|Once she is captured, talk to Marion 
 C A Prayer and a Wing|QID|25664|U|55211|M|35.67,42.30|N|Get on your flying mount and fly up to the top of the ridge to the north. You will see several nests. Land in one and use the Enormous Bird Call to summon Blaithe.|
 T A Bird in Hand|QID|25731|M|42.20,45.37|N|To Thisalee Crow.|
 T A Prayer and a Wing|QID|25664|M|44.38,46.21|N|To Choluna.|
-A Fact-Finding Mission|QID|25740|PRE|25664;25731|M|43.55,45.82|N|From Skylord Omnuron. We will be doing this quest later.|
+A Fact-Finding Mission|QID|25740|PRE|25664;25731|M|43.55,45.82|N|From Skylord Omnuron on the 3rd floor. We will be doing this quest later.|
 A Save the Wee Animals|QID|25385|PRE|25630|M|19.25,37.96|N|Mount up and head west, past the Shrine of Goldrinn and the Twilight Cultists camp. Follow the road until you reach the Grove of Aessina. From Mylune.|
 A If You're Not Against Us...|QID|25404|PRE|25630|M|19.04,36.98|N|From Matoclaw.|
 f Grove of Aessina|QID|25404|M|19.58,36.42|N|At Elizil Wintermoth.|
@@ -239,6 +245,8 @@ C Black Heart of Flame|QID|25428|U|53464|M|12.37,44.26|
 C Oh, Deer!|QID|25392|QO|Injured Fawn Escorted Home: 3/3|M|18.99,37.66|
 T Oh, Deer!|QID|25392|M|19.24,37.81|N|To Mylune.|
 T Black Heart of Flame|QID|25428|M|22.18,44.93|N|To Tyrus Blackhorn.|
+A Good News... and Bad News|QID|29066|M|22.18,44.93|N|From Tyrus Blackhorn.|
+T Good News... and Bad News|QID|29066|M|19.04,37.01|N|To Matoclaw.|
 A Last Stand at Whistling Grove|QID|25940|PRE|25428;25392|M|19.10,40.98|N|From Laina Nightsky.|
 T Last Stand at Whistling Grove|QID|25940|M|13.68,32.88|N|To Keeper Taldros.|
 A The Bears Up There|QID|25462|PRE|25940|M|13.68,32.88|N|From Keeper Taldros.|
@@ -381,7 +389,7 @@ A Twilight Training|QID|25291|PRE|25223;25224;25330|M|76.95,62.15|N|From Condenn
 T Twilight Training|QID|25291|M|89.54,59.05|N|To Instructor Mylva.|
 A Physical Training: Forced Labor|QID|25509|PRE|25291|M|89.54,59.05|N|From Instructor Mylva.|
 A Walking the Dog|QID|25294|PRE|25291|M|90.08,56.48|N|From Instructor Devoran.|
-A Gather the Intelligence|QID|25296|PRE|25291|M|88.36,58.57|N|From Instructor Mylva.|
+A Gather the Intelligence|QID|25296|PRE|25291|M|88.36,58.57|N|From Ortell, in Outhouse Hideout.|
 N Gather the Intelligence|QID|25296|M|91.95,51.60|N|Search the camp until you find the Twilight Communique. It can be just about anywhere in the camp so just keep looking around until you find it. Try to grab it when none of the Twilight Guards are close by. If they see you take the communique they will attack.|
 C Physical Training: Forced Labor|QID|25509|S|U|54788|M|89.55,49.35|N|Kill Basilisks and use the Twilight Pick on Darkwhisper Lodestones on your way to the other camp.|
 C Gather the Intelligence|QID|25296|M|91.95,51.60|N|Leave the camp. Head northeast, toward the other camp, Doom's Vigil. Find the Hyjal Battleplans somewhere in the Doom's Vigil camp.|
@@ -391,7 +399,7 @@ N Walking the Dog|QID|25294|U|52717|M|92.43,50.73|N|Once back in the camp, use t
 C Walking the Dog|QID|25294|U|52708|M|92.43,50.73|N|Feed him the 5 Charred Basilisk Meat.|
 T Walking the Dog|QID|25294|M|90.11,56.32|N|To Instructor Devoran.|
 A A Champion's Collar|QID|25494|PRE|25294|M|90.11,56.32|N|From Instructor Devoran.|
-T Gather the Intelligence|QID|25296|M|88.32,58.52|N|To Instructor Devoran.|
+T Gather the Intelligence|QID|25296|M|88.32,58.52|N|To Ortell, in Outhouse Hideout.|
 A Seeds of Discord|QID|25308|PRE|25296|M|88.32,58.52|N|From Instructor Devoran.|
 T Physical Training: Forced Labor|QID|25509|M|89.58,59.06|N|To Instructor Mylva.|
 A Agility Training: Run Like Hell!|QID|25499|PRE|25509|M|89.53,58.98|N|From Instructor Mylva.|
@@ -399,7 +407,7 @@ C Agility Training: Run Like Hell!|QID|25499|M|88.64,57.99|
 L Level 82|QID|25499|LVL|82|N|You should be around level 82 by this point.|
 T Agility Training: Run Like Hell!|QID|25499|M|89.53,59.09|N|To Instructor Mylva.|
 A Mental Training: Speaking the Truth to Power|QID|25299|PRE|25499|M|89.53,59.09|N|From Instructor Mylva.|
-C Mental Training: Speaking the Truth to Power|QID|25299|U|52828|M|89.58,59.03|N|Use the Orb of Ascension. You will be asked 10 yes/no questions. The questions are simple and the answers are VERY obvious. Dismiss the Orb once you get the quest completed message.|
+C Mental Training: Speaking the Truth to Power|QID|25299|U|52828|M|89.58,59.03|N|Use the Orb of Ascension. You will be asked 10 yes/no questions. Use your new toolbar to answer the questions.|
 T Mental Training: Speaking the Truth to Power|QID|25299|M|89.58,59.03|N|To Instructor Mylva.|
 A Spiritual Training: Mercy is for the Weak|QID|25309|PRE|25299|M|89.58,59.03|N|From Instructor Mylva.|
 C Spiritual Training: Mercy is for the Weak|QID|25309|M|92.11,48.36|N|Go back to Doom's Vigil. To your left as you enter the camp, you will see a group of Failed Supplicants. Kill 5 Failed Supplicants.|
@@ -410,7 +418,7 @@ C Grudge Match|QID|25496|M|77.86,51.18|N|Leave the camp and go to the Seat of th
 N Seeds of Discord|QID|25308|U|55137|M|77.35,48.27|N|Go to the Ogre Outhouse on the right side of the large building. Use the Ogre Disguise near the outhouse to transform into an ogre.|
 C Seeds of Discord|QID|25308|U|55137|M|76.62,48.71|N|Enter the large building. Speak to Karr'gonn to get him to leave the room. As soon as he is outside, kill High Cultist Azennios.|
 T Grudge Match|QID|25496|M|90.12,56.45|N|To Instructor Devoran.|
-T Seeds of Discord|QID|25308|M|88.28,58.51|N|To Instructor Devoran.|
+T Seeds of Discord|QID|25308|M|88.28,58.51|N|To Ortell, in Outhouse Hideout.|
 T Spiritual Training: Mercy is for the Weak|QID|25309|M|89.56,59.04|N|To Instructor Mylva.|
 A The Greater of Two Evils|QID|25310|PRE|25309|M|89.59,58.98|N|From Instructor Mylva.|
 A Twilight Territory|QID|25311|PRE|25309|M|89.59,58.98|N|From Instructor Mylva.|
@@ -418,9 +426,9 @@ C Twilight Territory|QID|25311|M|67.00,67.06|
 C The Greater of Two Evils|QID|25310|U|54814|M|64.91,64.82|N|Use the Talisman of Flame Ascendancy and use the abilities you now have to kill Garnoth. Start off the fight by using Flame Shield to protect yourself, the use Ascendant Strike 3 times to attack Garnoth. Repeat this rotation until he is dead.|
 T The Greater of Two Evils|QID|25310|M|89.56,59.04|N|To Instructor Mylva.|
 T Twilight Territory|QID|25311|M|89.56,59.04|N|To Instructor Mylva.|
-A Speech Writing for Dummies|QID|25314|PRE|25311;25310;25496;25308|M|88.31,58.53|N|From Instructor Mylva.|
+A Speech Writing for Dummies|QID|25314|PRE|25311;25310;25496;25308|M|88.31,58.53|N|From Ortell, in Outhouse Hideout.|
 C Speech Writing for Dummies|QID|25314|M|78.87,56.40|N|Search around the roads leading to the Seat of the Chosen until you find Okrog.|
-T Speech Writing for Dummies|QID|25314|M|88.23,58.48|
+T Speech Writing for Dummies|QID|25314|M|88.23,58.48|N|To Ortell, in Outhouse Hideout.|
 A Head of the Class|QID|25601|PRE|25314|M|88.23,58.48|
 T Head of the Class|QID|25601|M|89.53,59.05|N|To Instructor Mylva.|
 A Graduation Speech|QID|25315|M|PRE|25601|89.53,59.05|N|From Instructor Mylva.|

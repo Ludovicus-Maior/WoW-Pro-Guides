@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_uldum_alliance
+-- Date: 2011-04-19 17:57
+-- Who: Ludovicus Maior
+-- Log: Broke up [The Thrill of Discovery] and [Colossal Guardians].
+--	Enhanced notes for survival tips.
+
+-- URL: http://wow-pro.com/node/3309/revisions/24222/view
 -- Date: 2011-04-05 23:36
 -- Who: Ludovicus Maior
 
@@ -53,7 +59,7 @@ WoWPro.Leveling:RegisterGuide('AriUldA8384', 'Uldum', 'Hezkezl', '83', '84', 'Ma
 return [[
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|
-C Easy Money|QID|27003|N|Click on the camel, Lady Humps.|
+C Easy Money|QID|27003|N|Click on the camel, Lady Humps. Relax and watch the movie.|
 T Easy Money|QID|27003|M|59.70,71.82|
 
 A Traitors!|QID|27922|M|59.63,72.05|N|From Prince Nadun.|
@@ -74,8 +80,8 @@ T Smoke in Their Eyes|QID|27923|M|59.65,72.05|N|To Prince Nadun.|
 T Kavem the Callous|QID|28105|M|59.65,72.05|N|To Prince Nadun.|
 T Budd's Plan|QID|27924|M|59.68,72.03|N|To Budd.|
 
-A Escape From the Lost City|QID|28112|M|59.69,72.02|N|From Prince Nadun.|
-T Escape From the Lost City|QID|28112|M|54.90,32.84|N|To King Phaoris.|
+A Escape From the Lost City|QID|28112|M|59.69,72.02|N|From Prince Nadun. Enjoy the Man-o-Taur Movie.|
+T Escape From the Lost City|QID|28112|M|54.90,32.84|N|To King Phaoris. Don't be silly, do not take the money unless you REALLY need it.|
 
 A Impending Retribution|QID|28134|M|54.90,32.84|
 
@@ -115,7 +121,7 @@ C Take it to 'Em!|QID|27993|M|64.21,23.11|
 T Take it to 'Em!|QID|27993|M|64.38,22.39|N|To Harrison Jones.|
 
 A Premature Explosionation|QID|27141|M|64.38,22.39|N|From Harrison Jones.|
-C Premature Explosionation|QID|27141|M|64.35,22.29|N|Right-click the Powder Keg.|
+C Premature Explosionation|QID|27141|M|64.35,22.29|N|Right-click the Powder Keg, and enjoy the action.|
 T Premature Explosionation|QID|27141|M|64.59,28.60|N|To Harrison Jones.|
 
 A Field Work|QID|27179|M|64.59,28.60|N|From Sand Pygmy Corpse.|
@@ -137,9 +143,11 @@ C On to Something|QID|27196|M|64.25,27.01|N|Follow Harrison Jones, stay on your 
 T On to Something|QID|27196|M|64.55,27.97|N|To Harrison Jones.|
 
 A The Thrill of Discovery|QID|27511|M|64.55,27.97|N|From Harrison Jones.|
-C The Thrill of Discovery|QID|27511|M|65.62,25.94;64.48,30.27;65.60,34.00|N|Examine the North Hieroglyphs, the Ancient Mechanism and the Southern Hieroglyphs.|
+C The Thrill of Discovery|QID|27511|M|65.62,25.94|N|Examine the North Hieroglyphs.|QO|Northern Hieroglyphs Examined: 1/1|
+C The Thrill of Discovery|QID|27511|M|64.48,30.27|N|Examine the Ancient Mechanism.|QO|Ancient Mechanism Examined: 1/1|
+C The Thrill of Discovery|QID|27511|M|65.60,34.00|N|Examine the Southern Hieroglyphs.|QO|Southern Hieroglyphs Examined: 1/1|
 
-A Be Prepared|QID|27517|M|65.16,33.71|
+A Be Prepared|QID|27517|M|65.16,33.71|N|If you have avoided the skeletons, get near one now and be prepared to fight.|
 T The Thrill of Discovery|QID|27511|M|64.54,28.51|
 A Lessons From the Past|QID|27541|M|63.46,32.61|N|From Schnottz Scout.|
 
@@ -151,29 +159,29 @@ T Be Prepared|QID|27517|M|64.45,28.00|N|To Harrison Jones.|
 
 A By the Light of the Stars|QID|27549|M|64.45,28.00|N|From Harrison Jones.|
 C By the Light of the Stars|QID|27549|M|62.15,32.93|N|Gather the balls of light floating around the room.|
-T By the Light of the Stars|QID|27549|M|64.48,28.05|
+T By the Light of the Stars|QID|27549|M|64.48,28.05|N|Prepare for another cinematic experience!|
 
 A Tipping the Balance|QID|27431|M|64.49,27.98|N|From Harrison Jones.|
-C Tipping the Balance|QID|27431|M|64.41,27.32|N|Talk to Harrison and click 'Ask "What can I do to help?".|
+C Tipping the Balance|QID|27431|M|64.41,27.32|N|Talk to Harrison and click 'Ask "What can I do to help?" and watch the action.|
 T Tipping the Balance|QID|27431|M|64.50,27.99|N|To Harrison Jones.|
 A After the Fall|QID|27624|M|64.50,27.99|N|From Harrison Jones.|
 A Just A Fancy Cockroach|QID|27627|RANK|2|M|63.77,27.26|N|Kill a Scarab to get this quest.|
 
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5.|N|Kill Amethyst Scarabs.|S|
-C After the Fall|QID|27624|M|63.96,26.68|QO|Orb of the Morning Star: 1/1|N|Collect the Orb of the Morning Star.|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5.|N|Kill the remaining Amethyst Scarabs.|US|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill Amethyst Scarabs.|S|
+C After the Fall|QID|27624|M|63.96,26.68|QO|Orb of the Morning Star: 1/1|N|Collect the Orb of the Morning Star from the head of the statue.|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill the remaining Amethyst Scarabs.|US|
 
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5.|N|Kill Turquoise Scarabs.|S|
-C After the Fall|QID|27624|M|62.64,31.97|QO|Orb of the North Star: 1/1|N|Collect the Orb of the North Star.|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5.|N|Kill the remaining Turquoise Scarabs.|US|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill Turquoise Scarabs.|S|
+C After the Fall|QID|27624|M|62.64,31.97|QO|Orb of the North Star: 1/1|N|Collect the Orb of the North Star from the head of the statue.|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill the remaining Turquoise Scarabs.|US|
 
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5.|N|Kill Emerald Scarabs.|S|
-C After the Fall|QID|27624|M|65.26,32.56|QO|Orb of the Shooting Star: 1/1|N|Collect the Orb of the Shooting Star.|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5.|N|Kill the remaining Emerald Scarabs.|US|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill Emerald Scarabs.|S|
+C After the Fall|QID|27624|M|65.26,32.56|QO|Orb of the Shooting Star: 1/1|N|Collect the Orb of the Shooting Star from the head of the statue.|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill the remaining Emerald Scarabs.|US|
 
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5.|N|Kill Sapphire Scarabs.|S|
-C After the Fall|QID|27624|M|66.78,28.01|QO|Orb of the Evening Star: 1/1|N|Collect the Orb of the Evening Star.|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5.|N|Kill the remaining Sapphire Scarabs.|US|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5|N|Kill Sapphire Scarabs.|S|
+C After the Fall|QID|27624|M|66.78,28.01|QO|Orb of the Evening Star: 1/1|N|Collect the Orb of the Evening Star from the head of the statue.|
+C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5|N|Kill the remaining Sapphire Scarabs.|US|
 
 T Just A Fancy Cockroach|QID|27627|RANK|2|M|63.2,33.1|N|Auto Turnin.|
 T After the Fall|QID|27624|M|64.47,28.02|N|To Harrison Jones.|
@@ -199,7 +207,8 @@ A Colossal Guardians|QID|27623|M|39.66,45.38|
 
 C Under the Choking Sands|QID|27519|M|40.63,39.15|N|Right-click Oasis Survivors to rescue them.|S|
 C Minions of Al'Akir|QID|27520|M|41.07,38.47|S|
-C Colossal Guardians|QID|27623|M|41.19,37.73;39.60,40.88|N|Right-click the Colossus of the Moon, kill it and loot the Stone of the Moon. Then do the same for the Colossus of the Sun.|
+C Colossal Guardians|QID|27623|M|41.19,37.73|N|Right-click the Colossus of the Moon, kill it and loot the Stone of the Moon.|QO|Stone of the Moon: 1/1|
+C Colossal Guardians|QID|27623|M|39.60,40.88|N|Right-click the Colossus of the Sun, kill it and loot the Stone of the Sun.|QO|Stone of the Sun: 1/1|
 C Under the Choking Sands|QID|27519|M|40.63,39.15|N|Right-click Oasis Survivors to rescue them.|US|
 C Minions of Al'Akir|QID|27520|M|41.07,38.47|US|
 
@@ -214,9 +223,9 @@ A Send Word to Phaoris|QID|27628|M|45.23,37.95|N|From Prince Nadun.|
 T Minions of Al'Akir|QID|27520|M|45.23,37.95|N|To Prince Nadun.|
 
 A The Vortex Pinnacle|QID|28845|M|45.25,37.79|N|Inside the Instance, if you wish to do it. From General Ammantep.|
-T Send Word to Phaoris|QID|27628|M|54.79,32.72|N|To King Phaoris.|
+T Send Word to Phaoris|QID|27628|M|54.79,32.72|N|To King Phaoris, and a movie.|
 
-A The High Priest's Vote|QID|27630|M|54.97,34.01|N|From Prince Nadun. He's inside the dam.|
+A The High Priest's Vote|QID|27630|M|54.97,34.01|N|From Prince Nadun. He's outside the throne room.|
 A The Vizier's Vote|QID|27629|M|54.97,34.01|N|From Prince Nadun.|
 A The High Commander's Vote|QID|27631|M|54.97,34.01|N|From Prince Nadun.|
 
@@ -233,11 +242,11 @@ T Trespassers in the Water|QID|27837|M|52.81,45.59;54.18,41.83|N|To High Priest 
 T Stopping the Spread|QID|27836|M|54.18,41.83|N|To High Priest Amet.|
 
 A The Defilers' Ritual|QID|28611|M|54.16,41.93|N|From High Priest Amet.|
-C The Defilers' Ritual|QID|28611|M|52.81,45.59;52.18,40.18;49.89,40.11|N|At the 2nd arrow, dive underwater, swim to the Murkdeep Cavern and kill Dark Ritualist Zakahn.|
+C The Defilers' Ritual|QID|28611|M|52.81,45.59;52.18,40.18;49.89,40.11|N|At the 2nd arrow, dive underwater, swim to the Murkdeep Cavern and kill Dark Ritualist Zakahn. Pull his assistants first.|
 T The Defilers' Ritual|QID|28611|M|52.81,45.59;54.18,41.83|N|To High Priest Amet.|
 
 A The Root of the Corruption|QID|27838|M|54.20,42.00|N|From High Priest Amet.|
-C The Root of the Corruption|QID|27838|M|57.87,42.52;58.92,14.13|
+C The Root of the Corruption|QID|27838|M|58.92,14.13|
 T The Root of the Corruption|QID|27838|M|57.87,42.52;54.16,41.93|N|To High Priest Amet.|
 T The High Commander's Vote|QID|27631|M|57.87,42.52;58.84,46.14|N|To High Commander Kamses.|
 

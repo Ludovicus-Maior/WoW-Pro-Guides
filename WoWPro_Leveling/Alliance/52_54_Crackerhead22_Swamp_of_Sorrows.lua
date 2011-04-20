@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2011-04-14 14:41
+-- Who: Crackerhead22
+-- Log: "C In With a Bang" waypoint set to where "Lil' Crazy Jerry" is for the cannon.
+
+-- URL: http://wow-pro.com/node/3249/revisions/23932/view
 -- Date: 2011-01-05 10:59
 -- Who: Crackerhead22
 -- Log: Added notes, sticky steps. Fixed several waypoint issues, notes and sticky steps.
@@ -57,7 +62,7 @@ T Kill Gil|QID|27598|M|83.86,40.04|N|To Crazy Larry.|
 T Can't Take It With Them|QID|27599|M|83.86,40.04|N|To Crazy Larry.|
 
 A In With a Bang|QID|27600|M|83.86,40.04|N|From Crazy Larry.|
-C In With a Bang|QID|27600|M|98.47,26.97|N|Talk to Lil' Crazy Jerry just north of the camp and choose to go into the cannon. Fuse is by the mast, powder is in the captain's cabin, and the publications are down in the hold.|
+C In With a Bang|QID|27600|M|83.59,37.85|N|Talk to Lil' Crazy Jerry just north of the camp where the waypoint is, and choose to go into the cannon. Fuse is by the mast, powder is in the captain's cabin, and the publications are down in the hold.|
 T In With a Bang|QID|27600|M|83.93,40.03|N|Click on the cannon that is on the deck to go back. Then go to Crazy Larry to turn in the quest..|
 A Baba Bogbrew|QID|27740|M|83.93,40.03|N|From Crazy Larry.|
 T Baba Bogbrew|QID|27740|M|69.12,76.20|N|Talk to Lil' Crazy just south of the camp, then head to Baba Bogbrew.|

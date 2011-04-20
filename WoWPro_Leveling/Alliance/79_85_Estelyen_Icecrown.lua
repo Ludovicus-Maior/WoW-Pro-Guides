@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2011-04-19 17:35
+-- Who: Ludovicus Maior
+-- Log: Coordinate Corrections. Breakout of objectives around [The Vile Hold]
+
+-- URL: http://wow-pro.com/node/3301/revisions/24225/view
 -- Date: 2011-04-05 23:40
 -- Who: Ludovicus Maior
 
@@ -57,7 +62,7 @@ A The Purging Of Scourgeholme|QID|13118|N|From The Ebon Watcher.|
 A The Scourgestone|QID|13122|N|From The Ebon Watcher.|
 A It Could Kill Us All|QID|13135|N|From Crusade Engineer Spitzpatrick.|M|83.00,73.00|
 A The Stone That Started A Revolution|QID|13130|N|From Crusade Architect Silas.|
-A The Restless Dead|QID|13110|N|From Father Gustav.|82.80,72.80|
+A The Restless Dead|QID|13110|N|From Father Gustav, in the shed.|82.80,72.80|
 C The Restless Dead|QID|13110|U|43153|N|Kill Reanimated Crusaders in Scourgeholme and use the Holy Water on their corpses.|M|79.40,65.20|
 C The Purging Of Scourgeholme|QID|13118|N|Kill the mobs you still need for this quest. The High Priests are inside the ziggurats.|
 C The Scourgestone|QID|13122|N|Kill more scourge and collect Scourgestones off them.|
@@ -65,7 +70,7 @@ C The Stone That Started A Revolution|QID|13130|N|Travel to the Unbound Thicket 
 C It Could Kill Us All|QID|13135|N|Kill more mobs in the area and collect their Crystallized Energy.|
 T It Could Kill Us All|QID|13135|N|At Crusade Engineer Spitzpatrick.|M|83.00,73.00|
 T The Stone That Started A Revolution|QID|13130|N|At Crusade Architect Silas.|
-T The Restless Dead|QID|13110|N|At Father Gustav.|82.80,72.80|
+T The Restless Dead|QID|13110|N|To Father Gustav.|M|82.88,72.78|
 T The Purging Of Scourgeholme|QID|13118|N|At The Ebon Watcher.|M|83.00,72.80|
 T The Scourgestone|QID|13122|N|At The Ebon Watcher.|
 A The Air Stands Still|QID|13125|N|From The Ebon Watcher.|
@@ -201,7 +206,7 @@ T Need More Info|QID|13345|N|At Thassarian.|
 A No Rest For The Wicked|QID|13346|N|Another 5-Man quest. From Thassarian.|
 A Raise the Barricades|QID|13332|N|From Thassarian.|
 C Raise the Barricades|QID|13332|U|44127|N|Use the item at the flashing markers in this area.|M|50.00,40.00|
-N You need to be quick|QID|13346|N|You have to loot items from chests on the next quest. They must be looted within 4 minutes of each other, else they'll disappear again.|M|52.80,30.70|
+N You need to be quick|QID|13346|N|You have to loot items from chests on the next quest. They must be looted within 4 minutes of each other, else they'll disappear again. Fly to this cave and clear the room first.|M|52.80,30.70|
 N Loot Alumeth's Heart|QID|13346|L|44477|M|52.80,30.70|
 N Loot Alumeth's Scepter|QID|13346|L|44478|M|52.82,29.73|
 N Loot Alumeth's Robes|QID|13346|L|44479|M|52.90,29.00|
@@ -227,8 +232,8 @@ C Before the Gate of Horror|QID|13335|U|44653|N|Kill Skeletal Reavers and use th
 T Before the Gate of Horror|QID|13335|N|At Thassarian, he's standing on the left "wing" of the Skybreaker.|
 A Shatter the Shards|QID|13339|N|Another 5-Man quest. From Thassarian.|
 A The Guardians of Corp'rethar|QID|13338|N|Another 5-Man quest. From Thassarian.|
-N Broken Shard of Horror|QID|13339|L|44319|N|Destroy this crystal.|M|47.78,68.14|
-N Broken Shard of Despair|QID|13339|L|44320|N|Destroy this crystal.|M|49.83,66.71|
+N Broken Shard of Horror|QID|13339|L|44319|N|Destroy this crystal on the top level.|M|47.78,68.14|
+N Broken Shard of Despair|QID|13339|L|44320|N|Destroy this crystal on the middle level.|M|49.83,66.71|
 N Broken Shard of Suffering|QID|13339|L|44321|N|Destroy this crystal.|M|45.82,69.52|
 C The Guardians of Corp'rethar|QID|13338|N|Kill Harbingers of Horror and Corp'rethar Guardians on the Gate of Horror.|M|47,78,68.14|
 T Shatter the Shards|QID|13339|N|At Thassarian, he's standing on the left "wing" of the Skybreaker.|
@@ -242,15 +247,15 @@ T I Have an Idea, But First...|QID|12891|N|At Baron Sliver.|M|44.12,24.69|
 A Free Your Mind|QID|12893|N|From Baron Sliver.|
 N Free your Mind|QID|12893|U|41366|N|Kill Lady Nightswood and use the Sovereign Rod on her corpse.|M|41.75,24.45|
 N Free your Mind|QID|12893|U|41366|N|Kill Vile and use the Sovereign Rod on his corpse.|M|44.38,26.89|
-C Free your Mind|QID|12893|U|41366|N|Kill The Leaper and use the Sovereign Rod on his corpse. He patrols around on this ledge.|M|24.66,23.26|
+C Free your Mind|QID|12893|U|41366|N|Kill The Leaper and use the Sovereign Rod on his corpse. He patrols around on the ledge above Baron Sliver.|M|44.66,23.26|
 T Free your Mind|QID|12893|N|At Baron Sliver.|M|44.12,24.69|
 A If He Cannot Be Turned|QID|12896|N|From Baron Sliver.|
 C If He Cannot Be Turned|QID|12896|N|Click on one of the Weapon Racks inside the Shadow Vault and General Lighstbane will appear. Kill him.|M|44.69,19.90|
 T If He Cannot Be Turned|QID|12896|N|At Thassarian, he's standing on the left "wing" of the Skybreaker.|
 A The Shadow Vault|QID|12898|N|From Thassarian.|
 T The Shadow Vault|QID|12898|N|Back to Baron Sliver, he has moved a little to the west.|M|42.86,25.00|
-A Blackwatch|QID|13106|N|From Baron Sliver.|
 A The Duke|QID|12938|N|From Baron Sliver.|
+A Blackwatch|QID|13106|N|From Baron Sliver.|
 T The Duke|QID|12938|N|At Duke Lankral inside the Shadow Vault.|M|44.66,20.35|
 A Honor Challenge|QID|12939|N|From Duke Lankral.|
 A Eliminate the Competition|QID|12955|N|From The Leaper just outside.|M|43.45,25.06|
@@ -285,15 +290,15 @@ A Reading the Bones|QID|13092|N|From the Bone Witch.|
 C Reading the Bones|QID|13092|N|Kill Vrykuls and loot their bones.|M|29.00,40.40|
 T Reading the Bones|QID|13092|N|At the Bone Witch.|M|32.40,42.80|
 A Deep in the Bowels of The Underhalls|QID|13042|N|From the Bone Witch.|
-R Enter the Underhalls|QID|13042|M|33.00,32.00|CC|
+R Enter the Underhalls|QID|13042|M|32.44,31.86|CC|
 A Revenge for the Vargul|QID|13059|N|From Bethod Feigr, turn left the first corridor in the Underhalls to find him.|M|36.00,33.00|
 C Revenge for the Vargul|QID|13059|U|42928|N|Go down the staircase to the middle level, enter the room. Use the sword in front of Thane Illskar.|M|32.80,38.00|
 C Deep in the Bowels of The Underhalls|QID|13042|N|Attack Apprentice Osterkilgr, he is under the staircase. Be a little careful not to kill him too fast, you have to give him opportunity to reveal some information before he dies. Afterwards, loot his corpse.|M|
 A The Sum is Greater than the Parts|QID|13043|U|42772|N|Read the book to accept the quest.|
 C The Sum is Greater than the Parts|QID|13043|N|Mount on Nergeld in the room next to Apprentice Osterkilgr. Use your abilities to beat the waves of mobs. When Dr. Terrible appears, focus on him.|M|33.40,33.20|
 T Revenge for the Vargul|QID|13059|N|At Bethod Feigr, upstairs.|M|36.00,33.00|
-T The Sum is Greater than the Parts|QID|13043|N|At the Bone Witch.|M|32.40,42.80|
 T Deep in the Bowels of The Underhalls|QID|13042|N|At the Bone Witch.|
+T The Sum is Greater than the Parts|QID|13043|N|At the Bone Witch.|M|32.40,42.80|
 A The Art of Being a Water Terror|QID|13091|N|From the Bone Witch.|
 C The Art of Being a Water Terror|QID|13091|N|Open the gate outside, you have to be on the ground for this to work. After you possess a Water Elemeantal, use your abilities to kill 10 Vrykul.|M|31.00,41.00|
 T The Art of Being a Water Terror|QID|13091|N|At the Bone Witch.|M|32.40,42.80|
@@ -328,8 +333,8 @@ C Blood in the Water|QID|12810|U|40551|N|Sharks are in the water around the isla
 T Intelligence Gathering|QID|12838|N|At Aurochs Grimbane.|M|19.80,47.60|
 A The Grand (Admiral's)Plan|QID|12839|U|40666|N|Read the Grand Admirals Note to accept this quest.|
 T Blood in the Water|QID|12810|N|At Lord-Commander Arete.|M|19.60,48.00|
-T The Grand (Admiral's)Plan|QID|12839|N|At Lord-Commander Arete.|M|19.60,48.00|
 A You'll Need a Gryphon|QID|12814|N|From Lord-Commander Arete.|
+T The Grand (Admiral's)Plan|QID|12839|N|At Lord-Commander Arete.|M|19.60,48.00|
 A In Strict Confidence|QID|12840|N|From Lord-Commander Arete.|
 N Captain Welsington|QID|12840|QO|Captain Welsington beaten for information and killed: 1/1|N|You have to beat some information out of him, so be careful not to kill him too fast.|M|05.70,41.90|
 N Captain Hartford|QID|12840|QO|Captain Hartford beaten for information and killed: 1/1|N|You have to beat some information out of her, so be careful not to kill her too fast.|M|07.00,41.90|
@@ -388,7 +393,7 @@ A Destroying the Altars|QID|13119|N|From Darkrider Arly.|
 A Death's Gaze|QID|13120|N|From Darkrider Arly.|
 K Master Summoner Zarod|QID|13119|L|43159|N|Kill the Master Summoner and loot his Staff.|M|36.5,71.2|
 C Destroying the Altars|QID|13119|U|43159|N|Use the Staff near each of the four Summoning Altars.|M|36.74,70.72|
-C Death's Gaze|QID|13120|U|43229|N|Use the orb near the pedastals at these 3 locations.|M|32.60,70.60;34.60,69.60;30.50,65.10|
+C Death's Gaze|QID|13120|U|43229|N|Use the orb near the pedastals at these 3 locations.|M|32.57,70.62;34.60,69.62;30.54,65.11|
 T Death's Gaze|QID|13120|N|At Darkrider Arly.|M|35.40,66.40|
 T Destroying the Altars|QID|13119|N|At Darkrider Arly.|
 A Spill Their Blood|QID|13134|N|From Darkrider Arly.|
@@ -450,9 +455,10 @@ A New Recruit|QID|13143|N|From Vereth the Cunning.|
 C New Recruit|QID|13143|N|Fly up to the ledge above and beat down a Lithe Stalker until a popup message tells it that it's weakened, then use the item on it. Lead it to this position and it'll jump off the cliff, completing the quest.|M|55.92,69.38|
 T New Recruit|QID|13143|N|At Vereth the Cunning.|M|54.00,71.00|
 A The Vile Hold|QID|13145|N|From Vereth the Cunning.|
-N Altar of Sacrifice explored|QID|13145|QO|Altar of Sacrifice explored: 1/1|N|Use the Eye of Dominion just up the road behind Vereth the Cunnung, then move the Lithe Stalker east to scout the following positions.|M|56.3,79.1|
-N Icy Lookout explored|QID|13145|QO|Icy Lookout explored: 1/1|N|Scout the Icy Lookout.|M|60.6,68.7|
-N Blood Forge explored|QID|13145|QO|Blood Forge explored: 1/1|N|Scout the Blood Forge.|M|58.1,70.9|
+N Altar of Sacrifice explored|QID|13145|N|Use the Eye of Dominion just up the road behind Vereth the Cunnung, then move the Lithe Stalker east to Malykriss.|M|55.46,73.76|
+N Altar of Sacrifice explored|QID|13145|QO|Altar of Sacrifice explored: 1/1|N|Climb up the wall here.|M|57.64,76.01;56.3,79.1|
+N Icy Lookout explored|QID|13145|QO|Icy Lookout explored: 1/1|N|Scout the Icy Lookout. Just walk down the road.|M|55.75,73.67;56.28,69.18;60.6,68.7|
+N Blood Forge explored|QID|13145|QO|Blood Forge explored: 1/1|N|Scout the Blood Forge. Leap down into Malykriss at the first waypoint. |M|56.34,69.92;58.1,70.9|
 N Runeworks explored|QID|13145|QO|Runeworks explored: 1/1|N|Scout the Runeworks.|M|59.1,74.4|
 T The Vile Hold|QID|13145|N|At Vereth the Cunning.|M|54.00,71.00|
 A Generosity Abounds|QID|13146|N|From Vereth the Cunning.|
@@ -469,8 +475,8 @@ T Stunning View|QID|13160|N|At Vereth the Cunning.|
 A The Rider of Blood|QID|13163|N|A 5-Man quest. From Vereth the Cunning.|
 A The Rider of Frost|QID|13162|N|Another 5-Man quest. From Vereth the Cunning.|
 A The Rider of the Unholy|QID|13161|N|Yet another 5-Man quest. From Vereth the Cunning.|
-C The Rider of the Unholy|QID|13161|N|Kill Rokir, the Rider of the Unholy.|M|56.20,80.00|
-C The Rider of Blood|QID|13163|N|Kill Baelok, the Rider of Blood.|M|59.00,71.40|
+C The Rider of the Unholy|QID|13161|N|Kill Rokir, the Rider of the Unholy, on the platform,|M|56.21,80.44|
+C The Rider of Blood|QID|13163|N|Kill Baelok, the Rider of Blood, in the corner of Malykriss.|M|58.o99,70.99|
 C The Rider of Frost|QID|13162|N|Kill Sapph, the Rider of Frost.|M|61.60,68.60|
 C The Runesmiths of Malykriss|QID|13140|N|Kill Skeletal Runesmiths and loot Saronite Plates off them.|S|
 C I'm Smelting... Smelting!|QID|13138|U|43289|N|Use the Bag of Jagged Shards near one of the Malykriss furnaces.|M|57.87,74.09|
@@ -490,18 +496,18 @@ T The Runesmiths of Malykriss|QID|13140|N|At Crusader Olakin Sainrith.|
 A By Fire Be Purged|QID|13211|N|From Crusader Olakin Sainrith.|
 A A Visit to the Doctor|QID|13152|N|From Darkrider Arly.|M|35.40,66.40|
 C By Fire Be Purged|QID|13211|U|43524|N|Burn Festering Corpses on your way.|S|
-C A Visit to the Doctor|QID|13152|N|Enter the cave right below the camp. Deep inside you will find the Ghoul "Patches". Reease him and help him kill Doctor Sabnok.|M|35.40,66.40|
+C A Visit to the Doctor|QID|13152|N|Enter the cave right below the camp. Inside you will find "Patches". Stay to the right. Release him and help him kill Doctor Sabnok.|M|35.40,66.40|
 C By Fire Be Purged|QID|13211|U|43524|N|Burn Festering Corpses.|US|
 T By Fire Be Purged|QID|13211|N|At Crusader Olakin Sainrith.|M|35.40,66.40|
 T A Visit to the Doctor|QID|13152|N|At Darkrider Arly.|M|35.40,66.40|
 A Killing Two Scourge With One Skeleton|QID|13144|N|From Darkrider Arly.|
-C Killing Two Scourge With One Skeleton|QID|13144|N|Click on one of the Grasping Arms sticking out of the ground and lead your new pet to the Chained Abominations so they can be burned.|M|32.60,70.60|
+C Killing Two Scourge With One Skeleton|QID|13144|N|Click on one of the Green Glowing Grasping Arms sticking out of the ground and lead your new pet to the Chained Abominations so they can be burned. Rinse and Repeat.|M|35.24,71.04;32.60,70.60|
 T Killing Two Scourge With One Skeleton|QID|13144|N|At Darkrider Arly.|M|35.40,66.40|
 A He's Gone to Pieces|QID|13212|N|From Darkrider Arly after Olakin has been abducted.|
 C He's Gone to Pieces|QID|13212|N|Kill Corpulent Horrors below until you have all the body parts you need.|M|33.40,66.00|
 T He's Gone to Pieces|QID|13212|N|At Darkrider Arly.|M|35.40,66.40|
 A Putting Olakin Back Together Again|QID|13220|N|From Darkrider Arly.|
-N Find The Doctor's Cleaver|QID|13220|L|43568|N|At the far end of the cave below. Jump down to the right once you're inside to get there quicker.|M|36.60,67.50|
+N Find The Doctor's Cleaver|QID|13220|L|43568|N|At the far end of the cave below. Jump down to the right once you're inside to get there quicker.|M|36.60,67.50;36.66,66.97|
 N Find a Spool of Thread|QID|13220|L|43567|N|Find the thread in the room opposite of where you jumped down.|M|34.70,66.00|
 C Putting Olakin Back Together Again|QID|13220|U|43564|N|Use Olakin's Remains at the Sanctum of Reanimation Slab, thats the table-looking thing with skulls and bones on it where you jumped down.|
 T Putting Olakin Back Together Again|QID|13220|N|At Darkrider Arly.|M|35.40,66.40|
@@ -518,7 +524,7 @@ A Tirion's Help|QID|13402|N|From Thassarian.|
 T Tirion's Help|QID|13402|N|At Highlord Tirion Fordring at Crusader's Pinnacle.|M|79.80,71.80|
 A Tirion's Gambit|QID|13403|N|From Highlord Tirion Fordring.|
 K Cultist Acolytes|QID|13403|L|44784|N|Kill Acolytes in front of the Cathedral of Darkness until you find a Cultist Acolyte Hood.|M|46.00,76.20|
-N Directions|QID|13403|U|44784|N|I'm giving instructions now so the big text from WoWPro doesn't ruin your view on the final event in Icecrown. Equip the Hood and meet up with Highlord Tirion Fordring in front of the Cathedral of Darkness. Follow him once the Event starts. When the battle begins, don't join in or drop your disguise, you'll be sorry you did. The Lich King casts a spell that will instakill you, even on Lvevel 85 and full Cataclysm-Gear. Instead, wait until a portal appears and immediately click on it to get out of there. Click this step off and start the Event.|M|44.50,76.20|
+N Directions|QID|13403|U|44784|N|I'm giving instructions now so the big text from WoWPro doesn't ruin your view on the final event in Icecrown. Equip the Hood and meet up with Highlord Tirion Fordring in front of the Cathedral of Darkness. Follow him once the Event starts. When the battle begins, don't join in or drop your disguise, you'll be sorry you did. The Lich King casts a spell that will instakill you, even on Lvevel 85 and full Cataclysm-Gear. Instead, wait until a portal appears and immediately click on it to get out of there. Click this step off and start the Event.|M|44.41,76.20|
 C Tirion's Gambit|QID|13403|U|44784|N|Remember, use the Portal as soon as it appears.|
 T Tirion's Gambit|QID|13403|N|At Highlord Tirion Fordring at Crusader's Pinnacle.|M|79.80,71.80|
 N Task done!|QID|99999|N|This is the end of the Icecrown guide. Thanks for using it and have fun on your adventures!|
