@@ -257,12 +257,12 @@ A In Worg's Clothing |QID|11323|
 T In Worg's Clothing |QID|11323| |N|Fight your way through the Rivenwood, open the Riven Widow Cocoons when you see them; you'll be going through here several times, so don't worry about finishing that now. Head to the cave, then use the Worg Disguise and turn the quest in inside the cave.| |U|33618|M|29.64,5.72|
 A Brother Betrayers |QID|11415|
 
-K Bjomolf |QID|11415|QO|Bjomolf slain: 1/1|U|33618|N|Bjomolf is southwest.|M|27,21|
-K Varg |QID|11415|QO|Varg slain: 1/1|U|33618|N|Varg is then east.|M|34,29|
+K Bjomolf |QID|11415|QO|Bjomolf slain: 1/1|U|33618|T|Bjomolf|N|Bjomolf is southwest.|M|27,21|
+K Varg |QID|11415|QO|Varg slain: 1/1|U|33618|T|Varg|N|Varg is then east.|M|34,29|
 C Rivenwood Captives |QID|11296| |N|In the Rivenwood, open the Riven Widow Cocoons until you complete the quest.|M|29.64,17.04|
 
 R Gjalerbron |QID|11266|N|North.|M|35,15|
-C Of Keys and Cages |QID|11265|N|You want to kill any Vrykul, and you'll get Cage Keys. Use them on the cages to free the prisoners. The rarer Large Gjalerbron Cage Key is used on the Large Gjalerbron Cage at the center of Gjalerbron, it will spawn up to 5 prisoners at a time.|S|
+C Of  Keys and Cages |QID|11265|N|You want to kill any Vrykul, and you'll get Cage Keys. Use them on the cages to free the prisoners. The rarer Large Gjalerbron Cage Key is used on the Large Gjalerbron Cage at the center of Gjalerbron, it will spawn up to 5 prisoners at a time.|S|
 
 C Dealing With Gjalerbron |QID|11263| |N|Kill the remaining Vrykul you need for this quest. |M|34.68,15.28|
 
@@ -273,8 +273,7 @@ C Of Keys and Cages |QID|11265|N|Get any prisoners you still need.|US|
 T Brother Betrayers |QID|11415|U|33618|N|Back at the wolf cave, to the northwest.|M|29.64,5.72|
 A Eyes of the Eagle |QID|11417|
 
-K Scourge |QID|11398|L|33962|N|Head to the beach. Kill them until you get a Scourge Device.|M|26,20|
-A It's a Scourge Device |QID|11398| |U|33962|
+A It's a Scourge Device |QID|11398| |U|33962|N|Head to the beach. Kill them until you get a Scourge Device.|M|26,20|
 A Trident of the Son |QID|11422| |N|From the murloc Old Icefin.|M|20,22|
 
 T It's a Scourge Device |QID|11398| |N|Back the Apothecary Camp.|M|26.2,24.5|
