@@ -10,7 +10,9 @@ def Parse(line,linec,Frags):
     STEP=first[0]
     SPACE=first[1]
     TITLE=first[2:]
-    if( "ACTKNURHhFfRrTlL".find(STEP) < 0 ):
+    if(STEP == "-"):
+        return None
+    if( "ABCTKNURHhFfRbrTlL;".find(STEP) < 0 ):
         print "! Line %d has unknown step type %c: [%s]" % (linec,STEP,line)
         return None
     if( not SPACE.isspace() ):
@@ -25,7 +27,7 @@ def Parse(line,linec,Frags):
         TAG=Frags.pop(0).strip()
         if(TAG == ""):
             continue
-        if(TAG == "QID" or TAG=="RANK" or TAG=="PRE" or TAG=="LEAD" or TAG=="LVL" ):
+        if(TAG == "QID" or TAG=="RANK" or TAG=="PRE" or TAG=="LEAD" or TAG=="LVL" or TAG == "U"):
             qid=Frags.pop(0)
             if(not qid.isdigit()):
                 print "! Line %d, for step %c non-decimal %s: [%s]" % (linec,STEP,TAG,line)
@@ -53,23 +55,12 @@ def Parse(line,linec,Frags):
                         return None   
             step['M']=coords
             continue
-        if(TAG == "N" or TAG == "Z" or TAG == "C" or TAG == "QO" or TAG == "REP" or TAG == "R" or TAG == "T" ):
+        if(TAG == "N" or TAG == "Z" or TAG == "C" or TAG == "QO" or TAG == "REP" or TAG == "R" or TAG == "P" or TAG == "T" or TAG == "GEN" or TAG == "FACTION" ):
             step[TAG]=Frags.pop(0)
             continue
-        if(TAG == "S" or TAG == "US" or TAG == "CC" or TAG == "NC" or TAG == "O" ):
+        if(TAG == "S" or TAG == "US" or TAG == "CC" or TAG == "CS" or TAG == "NC" or TAG == "O" ):
             step[TAG]=True
             continue            
-        if(TAG == "U"):
-            u=Frags.pop(0)
-            if(not u.isdigit()):
-                print "! Line %d for step %c non-decimal U: [%s]" % (linec,STEP,line)
-                return None
-            U=str(int(u))
-            if( U != u):
-                print "! Line %d, for step %c malformed U: [%s]" % (linec,STEP,line)
-                return None
-            step['U']=U
-            continue
         if(TAG == "L"):
             loot=Frags.pop(0).split()
             if(len(loot) > 2):
