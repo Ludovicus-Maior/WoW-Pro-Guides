@@ -27,7 +27,7 @@ def Parse(line,linec,Frags):
         TAG=Frags.pop(0).strip()
         if(TAG == ""):
             continue
-        if(TAG == "QID" or TAG=="RANK" or TAG=="PRE" or TAG=="LEAD" or TAG=="LVL" or TAG == "U"):
+        if(TAG == "QID" or TAG=="RANK" or TAG=="LEAD" or TAG=="LVL" or TAG == "U"):
             qid=Frags.pop(0)
             if(not qid.isdigit()):
                 print "! Line %d, for step %c non-decimal %s: [%s]" % (linec,STEP,TAG,line)
@@ -37,6 +37,18 @@ def Parse(line,linec,Frags):
                 print "! Line %d for step %c malformed %s: [%s]" % (linec,STEP,TAG,line)
                 return None
             step['QID']=QID
+            continue
+        if(TAG == "PRE"):
+            qids=Frags.pop(0).split(';')
+            for qid in qids:
+                if(not qid.isdigit()):
+                    print "! Line %d, for step %c non-decimal %s: [%s]" % (linec,STEP,TAG,line)
+                    return None
+                QID=str(int(qid))
+                if( QID != qid):
+                    print "! Line %d for step %c malformed %s: [%s]" % (linec,STEP,TAG,line)
+                    return None 
+            step[TAG]=qids
             continue
         if(TAG == "M"):
             coords=Frags.pop(0).split(';')
