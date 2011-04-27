@@ -1,10 +1,10 @@
-## Interface: 40000
+## Interface: 40100
 ## Title: WoW-Pro
 ## Notes: Guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
-## Version: 2.1.8
+## Version: 2.1.10
 
 ## X-Category: Compilations
 

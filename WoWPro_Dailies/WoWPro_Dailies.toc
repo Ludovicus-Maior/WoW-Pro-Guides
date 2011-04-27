@@ -1,9 +1,9 @@
-## Interface: 40000
+## Interface: 40100
 ## Title: WoW-Pro Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 2.1.8
+## Version: 2.1.10
 
 ## X-Category: Quest
 
