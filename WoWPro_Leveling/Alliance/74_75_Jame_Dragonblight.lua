@@ -1,4 +1,15 @@
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2011-04-24 00:42
+-- Who: Crackerhead22
+-- Log: Fixed line-! Line 65 for step C has unknown tag [Kill Vengeful Geists to free the Trapped Wintergarde Villagers.]: [C Rescue from Town Square|QID|12253|S|QO|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|]
+--	Fixed line-! Line 67 for step C has unknown tag [Now just go from one building to another, killing Vengeful Geists to free the Trapped Wintergarde Villagers.]: [C Rescue from Town Square|QID|12253|US|QO|N|Now just go from one building to another, killing Vengeful Geists to free the Trapped Wintergarde Villagers.|]
+--	Fixed line-! Line 79 for step C has unknown tag [Q]: [C The Bleeding Ore |QID|12272| |Q|The Bleeding Ore|S|N|Mine the Strange Ore nodes.|M|80.4,45.1|]
+--	Fixed line-! Line 88 for step C has unknown tag [Q]: [C The Bleeding Ore |QID|12272|US|Q|The Bleeding Ore|N|Finish getting the ore you need.|M|80.4,45.1|]
+--	Fixed line-! Line 152 for step T has unknown tag [To the Image of Archmage Modera.]: [T Rifle the Bodies |QID|12000| |N|N|To the Image of Archmage Modera.|M|29.00,55.50|]
+--	Fixed line-! Line 223 for step A has unknown tag [From Elder Mana'loa.]: [A Conversing With the Depths |QID|12032|M|36.62,64.98|From Elder Mana'loa.|]
+--	Fixed line-! Line 288 for step N has 1 M coords: [N Plague Wagons Sabotaged|QID|12326|M||Get near a Plaue Wagon and use Ability #3, defend the Gnome until you get a quest update. Do this 6 times.|QO|Plague Wagon Sabotaged: 6/6|]
+
+-- URL: http://wow-pro.com/node/3291/revisions/24234/view
 -- Date: 2011-04-19 03:14
 -- Who: Crackerhead22
 -- Log: Added a lot of notes, added sticky steps.
@@ -62,9 +73,9 @@ N Group mob map |QID|12151| |N|Before we go on, Check the map with the locations
 N Note: Kreug Oathbreaker |QID|12438| |N|Right now, the closest target is Kreug Oathbreaker, so if you see a group going for him while you're still in the area, join them. But don't waste your time trying to find a group, keep following the guide normally and just go for those group quests when the opportunity arises.|
 
 K Vengeful Geists |QID|12258| |QO|Vengeful Geist slain: 15/15|M|79.9,49.7|S|N|Kill any Vengeful Geist you see.|
-C Rescue from Town Square|QID|12253|S|QO|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|
+C Rescue from Town Square|QID|12253|S|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|
 C Imprints on the Past |QID|12282| |N|Go back to the gate and take the path going down south. Go to the first building on your right-hand side. Go to the upper floor and find the Scrying Orb. |M|78.90,50.90|
-C Rescue from Town Square|QID|12253|US|QO|N|Now just go from one building to another, killing Vengeful Geists to free the Trapped Wintergarde Villagers.|
+C Rescue from Town Square|QID|12253|US|N|Now just go from one building to another, killing Vengeful Geists to free the Trapped Wintergarde Villagers.|
 K Vengeful Geists |QID|12258| |QO|Vengeful Geist slain: 15/15|M|79.9,49.7|US|N|Finish killing Vengeful Geists.|
 
 T Rescue from Town Square |QID|12253| |N|High Commander Halford Wyrmbane |M|78.60,48.20|
@@ -76,7 +87,7 @@ A Orik Trueheart and the Forgotten Shore |QID|12287|M|79.1,47.2|
 U Quarterflash's Homing Bot |QID|12272| |U|37459| |N|Go up to Siege Engineer Quarterflash . Use Quarterflash's Homing Bot and mount up.|M|77.80,50.30|
 R Wintergarde Mine |QID|12272| |N|Follow the bot, it will take you to the Wintergarde Mine. |M|80.00,45.00|
 
-C The Bleeding Ore |QID|12272| |Q|The Bleeding Ore|S|N|Mine the Strange Ore nodes.|M|80.4,45.1|
+C The Bleeding Ore |QID|12272|S|N|Mine the Strange Ore nodes.|M|80.4,45.1|
 l Wintergarde Miner's Cards|QID|12269|S|QO|Wintergarde Miner's Card: 10/10|N|Kill and loot RisenWintergarde Miners to get the cards.|
 T The Search for Slinkin |QID|12276| |N|Stick to the right and you'll find Slinkin the Demo-Gnome. |M|81.53,42.20|
 A Leave Nothing to Chance |QID|12277|M|81.5,42.2|N|From Slinkin the Demo-Gnome's corpse.|
@@ -85,7 +96,7 @@ l Wintergarde Mine Bomb |QID|12269| |L|37465| |N|Turn around, take a right turn 
 N Leave Nothing to Chance |QID|12277| |QO|Lower Wintergarde Mine Shaft Destroyed: 1/1| |U|37465| |N|Go back to the mine entrance and you should see a glimmer on the floor. Right-click the Wintergarde Mine Bomb while standing there. |M|80.14,45.28|
 C Leave Nothing to Chance |QID|12277| |U|37465| |N|Go around the mine to the upper shaft. You'll find another glimmering spot there. Use the Wintergarde Mine Bomb again. |M|80.41,44.59|
 
-C The Bleeding Ore |QID|12272|US|Q|The Bleeding Ore|N|Finish getting the ore you need.|M|80.4,45.1|
+C The Bleeding Ore |QID|12272|US|N|Finish getting the ore you need.|M|80.4,45.1|
 l Wintergarde Miner's Cards|QID|12269|US|QO|Wintergarde Miner's Card: 10/10|N|Kill and loot Risen Wintergarde Miners to finish getting the cards.|
 H Wintergarde Keep |QID|12269| |N|Hearthstone back to Wintergarde Keep (or just ride there if HS not up)|M|79.1,47.2|
 
@@ -149,7 +160,7 @@ T The High Cultist |QID|12169| |N|To Warden Jodi Moonsong.|M|29.20,55.60|
 
 A Avenge this Atrocity! |QID|12006| |N|From Ethenial Moonshadow.|M|24.00,60.00|
 l Moonrest Gardens Plans |QID|12000|U|35783|L|35783|N|Look for Dead Mage Hunters. Dismount and loot the corpse, you'll receive a Mage Hunter's Personal Effects. Right-click them and loot the contents. Repeat this step until you find the Moonrest Gardens Plans.|
-T Rifle the Bodies |QID|12000| |N|N|To the Image of Archmage Modera.|M|29.00,55.50|
+T Rifle the Bodies |QID|12000| |N|To the Image of Archmage Modera.|M|29.00,55.50|
 A Prevent the Accord |QID|12004| |N|From the Image of Archmage Modera.|M|29.00,55.50|
 K Blue Dragonflight forces |QID|12006|S|QO|Blue Dragonflight forces at Moonrest Gardens slain: 15/15| |N|Kill any Blue Dragonflight Force mob you see.|M|24.00,60.00|
 K Wind Trader Mu'fah |QID|12004| |L|35800| |N|Clear the way to the other side of the crater. Find and kill Wind Trader Mu'fah . He's standing infront of the door of that big stone building. Loot Wind Trader Mu'fah's Remains.|M|18.44,58.88|
@@ -220,7 +231,7 @@ A The End of the Line |QID|12107|M|40.3,66.9|N|From the corpse of Mage-Commander
 N Ley Line Focus information retrieved|QID|12107|U|36815|QO|Ley Line Focus information retrieved: 1/1||N|Get close to the Ley Line Focus and right-click the Ley Line Focus Control Talisman, then wait until you get the quest completion.|
 C Freedom for the Lingering |QID|12031| |N|Get out of the lake, and finish kill Indu'le Fishermen/Warriors/Mystics until you finish up.|M|37.2,65.5|
 T Freedom for the Lingering |QID|12031| |N|To Elder Mana'loa.|M|36.62,64.98|
-A Conversing With the Depths |QID|12032|M|36.62,64.98|From Elder Mana'loa.|
+A Conversing With the Depths |QID|12032|M|36.62,64.98|N|From Elder Mana'loa.|
 C The End of the Line |QID|12107|N|Mount up, ride east to the western ledge of the Azure Dragonshrine. You should get a "Azure Dragonshrine Observed" message. (Be careful to not confuse it with the area discovery message).|M|53.00,65.00|
 
 A Tua'kea's Crab Traps |QID|12009| |N|From Tua'kea.|M|47.7,76.6|
@@ -285,7 +296,7 @@ A Steamtank Surprise |QID|12326|M|89.7,46.4|N|From Duke August Foehammer.|
 
 N Note: Kreug Oathbreaker |QID|12438| |N|This area is very close to Kreug Oathbreaker. So if you see a group forming for him, join it.|
 N Now comes a fun quest. |QID|12326||N|Read the whole paragraph before you jump in a tank. You'll get in one of those steam tanks and look around for Plague Wagons. Stand close to it and use Ability #3. To defend yourself, use Ability #2 first and then Ability #1 on the frozen targets, this does tripple damage. Once you have destroyed 6 Plague Wagons, go west to the Wintergarde Mausoleum  and use Ability #4: You're ready now, get in a tank and have fun!|
-N Plague Wagons Sabotaged|QID|12326|M||Get near a Plaue Wagon and use Ability #3, defend the Gnome until you get a quest update. Do this 6 times.|QO|Plague Wagon Sabotaged: 6/6|
+N Plague Wagons Sabotaged|QID|12326|M|N|Get near a Plaue Wagon and use Ability #3, defend the Gnome until you get a quest update. Do this 6 times.|QO|Plague Wagon Sabotaged: 6/6|
 C Steamtank Surprise |QID|12326|N|Use Ability #4 near the entrance of the Mausoleum.|M|86.00,50.00|
 T Steamtank Surprise |QID|12326|N|Go down in the Wintergarde Mausoleum and turn this quest into Ambo Cash.|M|85.9,50.9|
 A Scattered To The Wind |QID|12455|M|85.9,50.9|N|From Ambo Cash.|

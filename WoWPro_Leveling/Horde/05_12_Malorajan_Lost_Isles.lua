@@ -1,4 +1,17 @@
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2011-04-25 21:58
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3212/revisions/24266/view
+-- Date: 2011-04-25 21:51
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3212/revisions/24265/view
+-- Date: 2011-04-25 21:49
+-- Who: Crackerhead22
+-- Log: Fixed GEN tags.
+
+-- URL: http://wow-pro.com/node/3212/revisions/24002/view
 -- Date: 2011-01-17 02:11
 -- Who: Crackerhead22
 -- Log: Added/fixed notes, sticky steps, QO steps for The Lost Isles.  Added "The" to the first line to make it 'The Lost Isles' instead of 'Lost Isles', removed unneeded zone tags after that.
@@ -49,11 +62,11 @@ T Goblin Escape Pods|QID|14474|M|27.86,75.58|N|To Sassy Hardwrench.|
 A Get Our Stuff Back!|QID|14014|M|27.86,75.58|N|From Sassy Hardwrench.|
 A Monkey Business|QID|14019|M|27.89,74.43|N|From Bamm Megabomb.|
 A It's Our Problem Now|QID|14473|M|27.89,74.40|N|From Maxx Avalanche.|
-C It's Our Problem Now|QID|14473|M|29.24,69.93|S|Kill 6 Teraptor Hatchlings.|
+C It's Our Problem Now|QID|14473|M|29.24,69.93|S|N|Kill 6 Teraptor Hatchlings.|
 C Get Our Stuff Back!|QID|14014|M|29.13,70.04|S|N|Pick up any Crate of Tools you see.|
-C Monkey Business|QID|14019|U|49028|M|28.20,72.30|N|Feed Monkies the banana bombs, the banana have about a 30 yard range.|
+C Monkey Business|QID|14019|U|49028|M|28.20,72.30|N|Feed Monkies the banana bombs, the bananas have about a 30 yard range.|
 C Get Our Stuff Back!|QID|14014|M|29.13,70.04|US|N|Pick up any Crate of Tools you see.|
-C It's Our Problem Now|QID|14473|M|29.24,69.93|US|Kill 6 Teraptor Hatchlings.|
+C It's Our Problem Now|QID|14473|M|29.24,69.93|US|N|Kill 6 Teraptor Hatchlings.|
 L Level 6|QID|14473|LVL|6|N|You should be around level 6 by this point.|
 T It's Our Problem Now|QID|14473|M|27.88,74.30|N|To Maxx Avalanche.|
 T Monkey Business|QID|14019|M|27.92,74.38|N|To Bamm Megabomb.|
@@ -179,7 +192,7 @@ C Zombies vs. Super Booster Rocket Boots|QID|24942|U|52013|M|62.09,49.41|S|N|Act
 C Rockin' Powder|QID|24946|M|63.19,52.90|S|N|Loot any Rockin' Powder mounds you see.|
 K Gaahl|QID|24945|M|59.59,40.21|N|Kill Gaahl.|QO|Gaahl slain: 1/1|
 K Malmo|QID|24945|M|58.77,47.17|N|Kill Malmo.|QO|Malmo slain: 1/1|
-C Three Little Pygmies|QID|24945|M|63.66,52.78|Kill Teloch to finish this quest.|
+C Three Little Pygmies|QID|24945|M|63.66,52.78|N|Kill Teloch to finish this quest.|
 C Rockin' Powder|QID|24946|M|63.19,52.90|US|N|Loot any Rockin' Powder mounds you see.|
 C Zombies vs. Super Booster Rocket Boots|QID|24942|U|52013|M|62.09,49.41|US|N|Finish slaying any Goblin Zombies you have left.|
 T Zombies vs. Super Booster Rocket Boots|QID|24942|M|51.83,47.16|N|Use the Rocket Boots to get to Coach Crosscheck safely.|U|52013|
@@ -256,33 +269,33 @@ T The Ultimate Footbomb Uniform|QID|25201|M|54.41,16.97|N|To Coach Crosscheck.|
 T Shredder Shutdown|QID|25200|M|54.41,16.97|N|To Assistant Greely.|
 A Release the Valves|QID|25204|M|54.41,16.97|N|From Assistant Greely.|
 
-A What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.15|N|From Ace. (For Males.)|MEN|
-A The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|From Izzy. (For Females.)|FEM|
+A What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.15|N|From Ace. (For Males.)|GEN|MALE|
+A The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|From Izzy. (For Females.)|GEN|FEMALE|
 N Valve #1|QID|25204|M|50.73,13.81|QO|Valve #1 released: 1/1|N|Release Valve #1.|
 N Valve #3|QID|25204|M|50.54,13.11|QO|Valve #3 released: 1/1|N|Release Valve #3.|
 N Valve #2|QID|25204|M|50.18,11.75|QO|Valve #2 released: 1/1|N|Release Valve #2.|
 C Release the Valves|QID|25204|M|49.88,12.71|N|Release Valve #4.|
-C What Kind of Name is Chip, Anyway?|QID|25203|M|49.86,13.89|N|Kill Chip. (For Males.)|MEN|
-C The Fastest Way to His Heart|QID|25202|M|49.86,13.89|N|Kill and loot Chip to get his heart. (For Females.)|FEM|
+C What Kind of Name is Chip, Anyway?|QID|25203|M|49.86,13.89|N|Kill Chip. (For Males.)|GEN|MALE|
+C The Fastest Way to His Heart|QID|25202|M|49.86,13.89|N|Kill and loot Chip to get his heart. (For Females.)|GEN|FEMALE|
 T Release the Valves|QID|25204|M|51.40,13.12|N|At the Platform Control Panel.|
 A Good-bye, Sweet Oil|QID|25207|M|51.40,13.12|N|From the Platform Control Panel.|
 C Good-bye, Sweet Oil|QID|25207|M|51.40,13.15|N|Press the Big Red Button.|
-T What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.23|N|To Ace. (For Males.)|MEN|
-T The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|To Izzy. (For Females.)|FEM|
+T What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.23|N|To Ace. (For Males.)|GEN|MALE|
+T The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|To Izzy. (For Females.)|GEN|FEMALE|
 T Good-bye, Sweet Oil|QID|25207|M|54.37,17.00|N|To Assistant Greely.|
 A The Slave Pits|QID|25213|M|54.36,17.02|N|From Assistant Greely.|
 T The Slave Pits|QID|25213|M|43.65,25.31|N|To Sassy Hardwrench.|
 
-A She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.31|N|From Sassy Hardwrench. (For Males.)|MEN|
-A What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|From Sassy Hardwrench. (For Females.)|FEM|
+A She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.31|N|From Sassy Hardwrench. (For Males.)|GEN|MALE|
+A What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|From Sassy Hardwrench. (For Females.)|GEN|FEMALE|
 A Escape Velocity|QID|25214|M|43.82,25.33|N|From Hobart Grapplehammer.|
 C Escape Velocity|QID|25214|M|41.49,26.24|S|N|Click on the cages to attack the rockets.|
-C She Loves Me, She Loves Me NOT!|QID|25243|M|38.90,25.55|N|Kill and loot Candy for her heart. (For Males.)|MEN|
-C What Kind of Name is Candy, Anyway?|QID|25244|M|38.90,25.55|N|Kill Candy. (For Females.)|FEM|
+C She Loves Me, She Loves Me NOT!|QID|25243|M|38.90,25.55|N|Kill and loot Candy for her heart. (For Males.)|GEN|MALE|
+C What Kind of Name is Candy, Anyway?|QID|25244|M|38.90,25.55|N|Kill Candy. (For Females.)|GEN|FEMALE|
 C Escape Velocity|QID|25214|M|41.49,26.24|US|N|Click on the cages to attack the rockets.|
 T Escape Velocity|QID|25214|M|43.84,25.35|N|To Hobart Grapplehammer.|
 T She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.32|N|To Sassy Hardwrench.|
-T What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|To Sassy Hardwrench. (For Females.)|FEM|
+T What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|To Sassy Hardwrench. (For Females.)|GEN|FEMALE|
 A Final Confrontation|QID|25251|M|43.66,25.32|N|From Sassy Hardwrench.|
 C Final Confrontation|QID|25251|M|43.27,20.03|N|Hop into the Ultimate Footbomb Uniform, head to where the Trade Prince Gallywix is. Use the abilities of the shredder when they are not on cooldown.|
 T Final Confrontation|QID|25251|M|43.67,25.32|N|To Sassy Hardwrench.|
@@ -291,8 +304,8 @@ T Victory!|QID|25265|M|42.14,17.41|N|To Thrall.|
 
 A Warchief's Emissary|QID|25266|M|42.14,17.41|N|From Thrall.|
 R Bladefist Bay|QID|25266|M|42.59,16.40|N|Talk to Sasst Hardwrench and choose to go to Orgrimmar.|
-T Warchief's Emissary|QID|25266|M|57.67|Z|Durotar|N|To Korkron Loyalist.|
-A Message for Garrosh|QID|25267|M|57.67|Z|Durotar|N|From Korkron Loyalist.|
+T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|Durotar|N|To Korkron Loyalist.|
+A Message for Garrosh|QID|25267|M|57.67,9.6|Z|Durotar|N|From Korkron Loyalist.|
 T Message for Garrosh|QID|25267|M|48.2,70.72|Z|Orgrimmar|N|To Garrosh Hellscream.|
 A Report to the Labor Captain|QID|25275|M|48.2,70.72|Z|Orgrimmar|N|From Garrosh Hellscream.|
 N Visit your trainers, AH, etc.|N|Close this step when ready to continue.|

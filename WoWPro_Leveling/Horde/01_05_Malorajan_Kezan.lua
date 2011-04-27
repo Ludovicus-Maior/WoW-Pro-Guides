@@ -1,4 +1,17 @@
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2011-04-25 21:58
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3212/revisions/24266/view
+-- Date: 2011-04-25 21:51
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3212/revisions/24265/view
+-- Date: 2011-04-25 21:49
+-- Who: Crackerhead22
+-- Log: Fixed GEN tags.
+
+-- URL: http://wow-pro.com/node/3212/revisions/24002/view
 -- Date: 2011-01-17 02:11
 -- Who: Crackerhead22
 -- Log: Added/fixed notes, sticky steps, QO steps for The Lost Isles.  Added "The" to the first line to make it 'The Lost Isles' instead of 'Lost Isles', removed unneeded zone tags after that.
@@ -56,11 +69,11 @@ T Megs in Marketing|QID|28349|M|58.22,76.61|N|To Megs Dreadshredder.|
 A Rolling with my Homies|QID|14071|M|58.22,76.61|N|From Megs Dreadshredder.|
 N Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|Gobber picked up: 1/1|N|Use the keys, then pick up Gobber.|
 N Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|Ace picked up: 1/1|NC|N|Pick Up Ace.|
-N Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|Izzy picked up: 1/1|NC|N|Pick up Izzy.|
+C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|Izzy picked up: 1/1|NC|N|Pick up Izzy.|
 T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|
 A Report for Tryouts|QID|24567|M|58.24,76.01|N|From Megs Dreadshredder.|
-A Off to the Bank|QID|26712|M|56.49,76.98|N|From Candy Cane. (For Males)|MEN|
-A Off to the Bank|QID|26711|M|56.49,76.98|N|From Chip Endale. (For Females)|FEM|
+A Off to the Bank|QID|26712|M|56.49,76.98|N|From Candy Cane. (For Males)|GEN|MALE|
+A Off to the Bank|QID|26711|M|56.49,76.98|N|From Chip Endale. (For Females)|GEN|FEMALE|
 A Do it Yourself|QID|14070|M|56.49,76.98|N|From Sassy Hardwrench.|
 
 T Report for Tryouts|QID|24567|M|48.75,57.83|N|To Coach Crosscheck.|
@@ -80,19 +93,19 @@ N Bruno Flameretardant beaten down|QID|14070|M|45.21,74.77|N|Beat down Bruno Fla
 N Sudsy Magee beaten down|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|Sudsy Magee beaten down: 1/1|
 N Jack the Hammer beaten down|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|Jack the Hammer beaten down: 1/1|
 C Do it Yourself|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|
-T Off to the Bank|QID|26712|M|30.09,71.67|N|To FBoK Bank Teller. (For Males)|MEN|
-T Off to the Bank|QID|26711|M|30.09,71.67|N|To FBoK Bank Teller. (For Females)|FEM|
+T Off to the Bank|QID|26712|M|30.09,71.67|N|To FBoK Bank Teller. (For Males)|GEN|MALE|
+T Off to the Bank|QID|26711|M|30.09,71.67|N|To FBoK Bank Teller. (For Females)|GEN|FEMALE|
 
-A The New You|QID|14109|PRE|26712|M|30.09,71.67|N|From FBoK Bank Teller. (For Males)|MEN|
-B Hip New Outfit|QID|14109|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|MEN|
-B Cool Shades|QID|14109|M|37.59,55.21|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|MEN|
-C The New You|QID|14109|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|MEN|
-T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane. (For Males)|MEN|
-A The New You|QID|14110|PRE|26711|M|30.09,71.67|N|From FBoK Bank Teller. (For Females)|FEM|
-B Hip New Outfit|QID|14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|FEM|
-B hiny Bling|QID|14110|M|37.59,55.21|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|FEM|
-C The New You|QID|14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|FEM|
-T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale. (For Females)|FEM|
+A The New You|QID|14109|PRE|26712|M|30.09,71.67|N|From FBoK Bank Teller. (For Males)|GEN|MALE|
+B Hip New Outfit|QID|14109|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|MALE|
+B Cool Shades|QID|14109|M|37.59,55.21|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|MALE|
+C The New You|QID|14109|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|GEN|MALE|
+T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane. (For Males)|GEN|MALE|
+A The New You|QID|14110|PRE|26711|M|30.09,71.67|N|From FBoK Bank Teller. (For Females)|GEN|FEMALE|
+B Hip New Outfit|QID|14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|FEMALE|
+B hiny Bling|QID|14110|M|37.59,55.21|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|FEMALE|
+C The New You|QID|14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|GEN|FEMALE|
+T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale. (For Females)|GEN|FEMALE|
 T Give Sassy the News|QID|24520|M|56.42,76.97|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
 
@@ -115,12 +128,12 @@ A Primal Strike|QID|14011|M|59.7,76.2|N|From Maxx Avalanche.|C|Shaman|
 C Primal Strike|QID|14011|M|60.31,77.53|N|Speak with Maxx Avalanche and train Primal Strike, then use it 2 times on a Training Dummy. |C|Shaman|
 T Primal Strike|QID|14011|M|59.9,76.2|N|To Maxx Avalanche.|C|Shaman|
 
-A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane. (For Males)|MEN|
-C Life of the Party|QID|14113|M|60.21,85.76|N|Entertain 10 Partygoers. Use a random ability on one, then use the one it wants. Some are partied out.|MEN|
-T Life of the Party|QID|14113|M|56.52,76.95|N|To Sassy Hardwrench.|MEN|
-A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale. (For Females)|FEM|
-C Life of the Party|QID|14153|M|60.21,85.76|N|Entertain 10 Partygoers. Use a random ability on one, then use the one it wants. Some are partied out.|FEM|
-T Life of the Party|QID|14153|M|56.52,76.95|N|To Sassy Hardwrench.|FEM|
+A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane. (For Males)|GEN|MALE|
+C Life of the Party|QID|14113|M|60.21,85.76|N|Entertain 10 Partygoers. Use a random ability on one, then use the one it wants. Some are partied out.|GEN|MALE|
+T Life of the Party|QID|14113|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|MALE|
+A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale. (For Females)|GEN|FEMALE|
+C Life of the Party|QID|14153|M|60.21,85.76|N|Entertain 10 Partygoers. Use a random ability on one, then use the one it wants. Some are partied out.|GEN|FEMALE|
+T Life of the Party|QID|14153|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|FEMALE|
 
 A Pirate Party Crashers|QID|14115|M|56.52,76.95|N|From Sassy Hardwrench.|
 L Level 4|QID|14115|LVL|4|N|You should be around level 4 by this point.|

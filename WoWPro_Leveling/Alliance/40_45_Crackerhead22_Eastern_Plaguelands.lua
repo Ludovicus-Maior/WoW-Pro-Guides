@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_alliance
+-- Date: 2011-04-23 18:06
+-- Who: ikiboun
+-- Log: move quest "A Argent Call: Northdale|QID|27466|M|61.56,43.23|N|From Tarenar Sunstrike" after running to East Tower. Also changed the NPC coord.
+
+-- URL: http://wow-pro.com/node/3251/revisions/23810/view
 -- Date: 2010-12-22 04:10
 -- Who: Crackerhead22
 -- Log: Fixed several missing |N| tags, fixed a few waypoints, fixed a few NPC and step notes, added a few Sticky steps, and fixed a couple of QIDs.
@@ -205,9 +210,9 @@ C Argent Call: The Noxious Glade|QID|27465|M|77.35,39.07|N|Watch out for Gargino
 T Smokey and the Bandage|QID|27458|M|74.94,53.36|N|To Smokey LaRue.|
 T Buried Blades|QID|27467|US|M|75.67,52.21|N|To Master Craftsman Omarion.|
 T Argent Call: The Noxious Glade|QID|27465|M|75.80,52.07|N|To Lord Maxwell Tyrosus.|
-A Argent Call: Northdale|QID|27466|M|75.74,52.36|N|From Tarenar Sunstrike.|
 A An Opportune Alliance|QID|27457|M|73.85,52.01|N|From Rimblat Earthshatter.|
 R Eastwall Tower|QID|27457|M|62,42|Run to Eastwall Tower.|
+A Argent Call: Northdale|QID|27466|M|61.56,43.23|N|From Tarenar Sunstrike.|
 f Eastwall Tower|QID|27457|M|61.62,43.81|N|At Richard Trueflight.|
 T An Opportune Alliance|QID|27457|M|61.42,42.83|N|To Fiona.|
 T Argent Call: Northdale|QID|27466|M|61.42,42.78|N|To Fiona.|

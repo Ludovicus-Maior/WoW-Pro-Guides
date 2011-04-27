@@ -1,4 +1,28 @@
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2011-04-23 21:22
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3312/revisions/24254/view
+-- Date: 2011-04-23 20:11
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3312/revisions/24247/view
+-- Date: 2011-04-22 19:48
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3312/revisions/24246/view
+-- Date: 2011-04-22 19:13
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3312/revisions/24245/view
+-- Date: 2011-04-22 18:11
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3312/revisions/24244/view
+-- Date: 2011-04-22 17:56
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3312/revisions/23519/view
 -- Date: 2010-12-03 23:31
 -- Who: Jiyambi
 
@@ -41,7 +65,7 @@ T Ready the Navy|QID|26335|M|53.52,47.36|Z|Azshara|
 A Beating the Market|QID|26337|M|53.52,47.36|Z|Azshara|
 
 C Beating the Market|QID|26337|M|58.12,52.42|Z|Azshara|N|Scattered throughout the harbor. Tag AWOL grunts as you look for him.|
-C Smoot's Samophlange|QID|26361|M|54.73,48.78|Z|Azshara|N|Running Wildly threw the harbor.|
+C Smoot's Samophlange|QID|26361|M|54.73,48.78|Z|Azshara|N|Running Wildly through the harbor.|
 C Ready the Ground Troops|QID|26374|M|55.24,48.15|Z|Azshara|N|Find any awol grunts you still might need.|
 
 T Smoot's Samophlange|QID|26361|M|54.57,51.27|Z|Azshara|N|To Fleep.|
@@ -94,7 +118,7 @@ T Cementing Our Victory|QID|26788|M|74.23,53.25|N|To Ornak.|
 T Muddied Waters|QID|26784|M|73.82,53.89|N|To Artesh.|
 
 A The Warchief Will be Pleased|QID|26798|M|73.82,53.89|N|From Artesh.|
-T The Warchief Will be Pleased|QID|26798|M|48.16,70.56|Z|Orgrimmar|N|To Garrosh Hellscream. Go threw the portal.|
+T The Warchief Will be Pleased|QID|26798|M|48.16,70.56|Z|Orgrimmar|N|To Garrosh Hellscream. Go through the portal.|
 
 A Traitor's Bait|QID|26830|M|48.16,70.56|Z|Orgrimmar|N|From Garrosh Hellscream.|
 C Traitor's Bait|QID|26830|M|43.73,63.68|Z|Orgrimmar|N|Bottom of the tower.|
@@ -143,9 +167,10 @@ A Wildhammer Infestation|QID|28588|M|77.61,16.67|N|From Captain Krazz.|
 A Pool Pony Rescue|QID|28586|M|77.61,16.67|N|From Flashbang Rothman.|
 A Quality Construction|QID|28584|M|77.61,16.67|N|From Brett the Bomber.|
 
+C Wildhammer Infestation|QID|28588|M|75.55,16.39|S|
 C Quality Construction|QID|28584|U|65146|M|75.70,17.76|N|Fix leaking valves while killing Raiders|
-C Wildhammer Infestation|QID|28588|M|75.55,16.39|
-C Pool Pony Rescue|QID|28586|U|65162|M|81.07,21.19|N|Stay mounted and fly low near the water and throw out Ponies|
+C Wildhammer Infestation|QID|28588|M|75.55,16.39|US|
+C Pool Pony Rescue|QID|28586|U|65162|M|81.07,21.19|N|Stay mounted and fly low near the water and throw out Ponies.|
 f The Krazzworks|QID|28584|M|75.37,17.76|N|At Harpo Boltknuckle.|
 
 T Wildhammer Infestation|QID|28588|M|77.60,16.72|N|To Captain Krazz.|
@@ -153,11 +178,11 @@ T Quality Construction|QID|28584|M|77.60,16.72|N|To Brett the Bomber.|
 T Pool Pony Rescue|QID|28586|M|77.60,16.72|N|To Flashbang Rothman.|
 
 A Everything But the Kitchen Sink|QID|28589|M|77.60,16.72|N|From Captain Krazz.|
-C Everything But the Kitchen Sink|QID|28589|M|77.43,15.91|
+C Everything But the Kitchen Sink|QID|28589|M|77.43,15.91|N|Fly up to one of the cannons.|
 T Everything But the Kitchen Sink|QID|28589|M|77.66,16.63|N|To Captain Krazz.|
 
 A Reprisal|QID|28590|M|77.66,16.63|N|From Captain Krazz.|
-T Reprisal|QID|28590|M|81.00,70.05|N|To Patch.|
+T Reprisal|QID|28590|M|81.00,70.05|N|To Patch on the zeppelin.|
 
 A Off The Wall|QID|28591|M|81.63,70.34|N|From Patch.|
 C Off The Wall|QID|28591|M|79.08,80.40|N|Tommygun time!!|
@@ -177,7 +202,7 @@ T Of Utmost Importance|QID|28593|M|82.08,80.05|N|To Patch.|
 T Highbank, Crybank|QID|28594|M|82.08,80.05|N|To Patch.|
 
 A Krazz Works!|QID|28595|M|82.08,80.05|N|From Patch.|
-T Krazz Works!|QID|28595|M|77.72,16.62|N|To Captain Krazz.|
+T Krazz Works!|QID|28595|M|77.72,16.62|N|Go to the top of the tower and take the Krazzworks Gyrocopter. Be careful though, it may drop you in a group of hostile mobs. Then go to Captain Krazz.|
 
 T Narkrall, the Drake-Tamer|QID|27690|M|54.81,44.14|N|To Narkrall Rakeclaw.|
 A Drag 'em Down|QID|27929|M|54.81,44.14|N|From Narkrall Rakeclaw.|
@@ -213,7 +238,7 @@ T Bait and Throttle|QID|28041|M|51.60,47.95|
 A How to Maim Your Dragon|QID|28043|M|51.60,47.95|
 T Blood in the Highlands|QID|28038|M|50.69,58.37|N|To Wodin the Troll-Servant.|
 
-C How to Maim Your Dragon|QID|28043|U|62917|M|54.52,43.00|N|Place bait on the ground, defeat drake.|
+C How to Maim Your Dragon|QID|28043|U|62917|M|42.30,62.30|N|Place the bait on the ground, defeat the drake.|
 
 T How to Maim Your Dragon|QID|28043|M|54.33,43.88|N|To Zaela.|
 A The Demon Chain|QID|28123|M|54.33,43.88|N|From Zaela.|

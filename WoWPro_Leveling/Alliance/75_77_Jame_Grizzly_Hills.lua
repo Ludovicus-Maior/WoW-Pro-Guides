@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2011-04-24 00:24
+-- Who: Crackerhead22
+-- Log: Fixed line-T Riding the Red Rocket|QID|12437|O|N|To Commander Howser.|M|M|14.8,86.6|
+--	Fixed line-A The Captive Prospectors |QID|12180|N|From Mountaineer Kilian.|M|77.00,48.50|
+
+-- URL: http://wow-pro.com/node/3293/revisions/24243/view
+-- Date: 2011-04-20 23:13
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3293/revisions/24240/view
 -- Date: 2011-04-19 23:49
 -- Who: Crackerhead22
 
@@ -232,7 +242,7 @@ T Down With Captain Zorna! |QID|12314|O|N|To Baron Freeman.|M|22.2,81.2|
 A Riding the Red Rocket|QID|12437|N|From Commander Howser. This quest is optional since the Alliance has to control Venture Bay.|M|14.8,86.6|
 l Element 115|QID|12437|O|N|Clear your way into the middle ship again and grab the Element 115.|L|37664|M|16.5,80.3|
 C Riding the Red Rocket|QID|12437|O|N|Click on one of the rockets and then stear your way towards the waypoint. You will complete the quest when you run into the ship.|M|9.4,78.4|
-T Riding the Red Rocket|QID|12437|O|N|To Commander Howser.|M|M|14.8,86.6|
+T Riding the Red Rocket|QID|12437|O|N|To Commander Howser.|M|14.8,86.6|
 
 H Amberpine Lodge |QID|12255|N|Hearth to Amberpine Lodge, or run back if your hearth is not up.|M|31.97,60.22|
 T The Thane of Voldrune |QID|12255|N|To Woodsman Drake.|M|32.45,59.94|
@@ -348,7 +358,7 @@ A Sasha's Hunt |QID|12134|M|57.5,41.3|N|From Sasha.|
 A Anatoly Will Talk |QID|12330|M|57.5,41.3|N|From Sasha.|
 
 C Sasha's Hunt |QID|12134|N|Kill 12 Solstice Hunters.|M|60,40|
-C Anatoly Will Talk |QID|12330|U|37665|N|Use the [Tranquilizer Dart] on Tatjana|M|62.3,42.0|
+C Anatoly Will Talk |QID|12330|U|37665|N|Use the [Tranquilizer Dart] on Tatjana, then click on the horse.|M|62.3,42.0|
 T Sasha's Hunt |QID|12134|N|To Sasha.|M|57.52,41.35|
 T Anatoly Will Talk |QID|12330|M|57.5,41.3|N|To Sasha.|
 A A Sister's Pledge |QID|12411|M|57.5,41.3|N|From Sasha.|
@@ -371,9 +381,9 @@ C Therapy |QID|12114|N|Kill the trolls needed for this quest.|S|
 C It Takes Guts.... |QID|12116|N|Head into the catacombs and loot the Drakkari Canopic Jars.|M|71.5,23|
 C Voices From the Dust |QID|12068|N|Go deeper in the catabombs where you see a !. Loot the Drakkari Tablets.|M|69.38,18.14|
 A Dun-da-Dun-tah! |QID|12082|N|From Harrison Jones.|M|69.46,17.50|
-C Dun-da-Dun-tah! |QID|12082|N|Let him tank the big snake that spawns, then follow him out..|M|69.5,17.5|
+C Dun-da-Dun-tah! |QID|12082|N|Let him tank the big snake that spawns, then follow him out.|M|69.5,17.5|
 l Sacred Mojos |QID|12068|L|36758 5|N|Kill and loot Drakkari Oracles and Protectors until you get 5 mojos.|US|
-T Voices From the Dust |QID|12068|U|35797|N|Use the [Drakuru's Elixir] near the brazier in Drakil'jin Ruins, the turn the quest into the Image of Drakuru.|M|71.70,26.12|
+T Voices From the Dust |QID|12068|U|35797|N|Use the [Drakuru's Elixir] near the brazier in Drakil'jin Ruins, then turn the quest into the Image of Drakuru.|M|71.70,26.12|
 A Cleansing Drak'Tharon |QID|12238|N|From the Image of Drakuru. This leads into Drak'Tharon Keep, so this quest is optional to take.|
 N Drak'Tharon Keep|QID|12238|N|You now have both quests for Drak'Tharon Keep, you can queue for this instance if you wish.|O|
 C Therapy |QID|12114|N|Kill more trolls if you are not finished this quest yet.|US|
@@ -408,7 +418,7 @@ C Latent Power |QID|12094|U|36787|N|The Third Ancient Stone is further southwest
 
 T Check Up on Raegar |QID|12128|N|To Raegar Breakbrow.|M|77.10,48.73|
 A The Perfect Plan |QID|12129|M|77.1,48.6|N|From Rargar Breakbrow.|
-A The Captive Prospectors |QID|12180|N|From Mountaineer Kilian.|77.00,48.50|
+A The Captive Prospectors |QID|12180|N|From Mountaineer Kilian.|M|77.00,48.50|
 
 C The Perfect Plan |QID|12129|U|36849|N|Kill Iron Rune-Smiths until you have all three parts of the [War Golem Blueprint]. Combine them.|M|76.6,55.1|S|
 N Free Prospector Gann |QID|12180|QO|Prospector Gann Rescued: 1/1|U|37013|N|Go south/southwest and kill dwarves and golems until you get [Dun Argol Cage Key]. Use it to open the cage.|M|76.5,55|
@@ -420,11 +430,11 @@ T The Perfect Plan |QID|12129|N|To Raegar Breakbrow.|M|77.10,48.72|
 A Why Fabricate When You Can Appropriate? |QID|12130|M|77.1,48.6|N|From Raegar Breakbrow.|
 T The Captive Prospectors |QID|12180|N|To Mountaineer Kilian.|M|76.97,48.50|
 A Looking the Part |QID|12183|M|77.0,48.4|N|From Mountaineer Kilian.|
+C Why Fabricate When You Can Appropriate? |QID|12130|N|Loot War Golem Parts.|M|76.6,54.8|S|
 C Looking the Part |QID|12183|N|Go to the first building in Dun'Argol, kill an Iron Run Overseer and loot an [Overseer's Uniform].|M|76.4,55.0|
 T Looking the Part |QID|12183|N|To Mountaineer Kilian.|M|76.92,48.49|
 A Cultivating an Image |QID|12184|M|77.0,48.4|N|From Mountaineer Kilian.|
 
-C Why Fabricate When You Can Appropriate? |QID|12130|N|Loot War Golem Parts.|M|76.6,54.8|S|
 C Cultivating an Image |QID|12184|U|37045|N|Go back to Dun'Argol, kill dwarf and take pretty picture with the [Kilian's Camera].|M|76.1,56.4|
 C Why Fabricate When You Can Appropriate? |QID|12130|N|Loot War Golem Parts.|M|76.6,54.8|US|
 T Why Fabricate When You Can Appropriate? |QID|12130|N|To Raegar Breakbrow.|M|77.05,48.60|
@@ -432,7 +442,7 @@ A We Have the Power |QID|12131|M|77.1,48.6|N|From Raegar Breakbrow.|
 T Cultivating an Image |QID|12184|N|To Mountaineer Kilian.|M|76.96,48.49|
 A Put on Your Best Face for Loken |QID|12185|M|77.0,48.4|N|From Mountaineer Kilian.|
 
-l Get Durar's Power Cell |QID|12131|QO|Durar's Power Cell: 1/1|U|37071|N|Go to Dun'Argol. Mount up and then use the [Overseer Disguise Kit]. Find Rune-Smith Durar, kill him and loot [Durar's Power Cell].|M|74.7,54.3|
+l Durar's Power Cell |QID|12131|QO|Durar's Power Cell: 1/1|U|37071|N|Go to Dun'Argol. Mount up and then use the [Overseer Disguise Kit]. Find Rune-Smith Durar, kill him and loot [Durar's Power Cell].|M|78.89,57|
 C We Have the Power |QID|12131|U|37071|N|Use the [Overseer Disguise Kit] again and find Rune-Smith Kathorn, kill him and loot [Kathorn's Power Cell].|M|76.78,58.87|
 C Put on Your Best Face for Loken |QID|12185|U|37071|N|Go out of the building, mount up and then use the [Overseer Disguise Kit]. Loken's Pedestral is in the eastermost building.|M|81.51,60.27|
 N Warning: do not turn in Put on Your Best Face for Loken |QID|12185|U|37071|N|Out of the building, mount up and use [Overseer Disguise Kit] again. You will need the disguise again, keep it for now.|
@@ -453,12 +463,9 @@ T Put on Your Best Face for Loken |QID|12185|N|To Mountaineer Kilian.|M|76.92,48
 
 T Latent Power |QID|12094|N|To Gavrock.|M|79.77,33.61|
 A Free at Last |QID|12099|M|79.8,33.6|N|From Gavrock.|
-
 C Free at Last |QID|12099|U|36796|N|Ride southwest to a plain area. Use the [Gavrock's Runebreaker] on the Runed Giants. If the giant attacks, re-use the [Gavrock's Runebreaker] until it works.|M|72,37|
 C Nice to Meat You |QID|12113|N|If you are not done already, kill Longhoof Grazers and Duskhowl Prowlers to finishing this quest.|M|72.7,37.6|US|
-
 T Nice to Meat You |QID|12113|N|To Harkor.|M|73.70,34.06|
-
 T Free at Last |QID|12099|N|To Gavrock.|M|79.70,33.59|
 
 H Amberpine Lodge|QID|12248|N|Hearth to Amberpine Lodge, or run back if your hearth is not up.|M|31.97,60.22|
@@ -470,14 +477,16 @@ A Ursoc, the Bear God |QID|12249|M|31.2,59.5|N|From Hierophant Thayreen.|
 N Group quests |QID|12164|N|Find a group to complete these or abandon them.|
 
 C Ursoc, the Bear God |QID|12249|U|37307|N|Can be soloed by quite a few classes. Start the quest by talking to Tur Ragepaw, choose which form you want him to take; tank, healing or dps. Use the [Purified Ashes of Vordrassil] on Ursoc's corpse.|M|52.6,24.1|
-T Ursoc, the Bear God |QID|12249|N|Hierophant Thayreen.|M|31.23,59.47|
-
 N The following quest you may need help with.|QID|12164|
-R Bloodmoon Isle|QID|12164|N|Head to Bloodmoon Isle.|
-K Varmlam |QID|12164|QO|Varlam slain: 1/1|N|Kill Varlam.|M|84.94,23.62|
+R Bloodmoon Isle|QID|12164|N|Head to Bloodmoon Isle.|M|84.94,23.62|
 K Selas |QID|12164|QO|Selas slain: 1/1|N|Kill Selas.|M|85.92,27.88|
+K Varmlam |QID|12164|QO|Varlam slain: 1/1|N|Kill Varlam.|M|84.94,23.62|
 K Goremaw |QID|12164|QO|Goremaw slain: 1/1|N|Head to the Shadowfang Tower stables, on the right side of the tower.|M|86.77,26.96|
 C Hour of the Worg |QID|12164|N|Head to the top of the tower and kill the Shade of Arugal.|M|87.6,26.5|
 T Hour of the Worg |QID|12164|N|Turn into Sasha right there or in White Pine Trading Post if you happen to miss her at the tower.|M|57.52,41.35|
+
+H Amberpine Lodge|QID|12249|N|Hearth to Amberpine Lodge, or run back if your hearth is not up.|M|31.97,60.22|
+T Ursoc, the Bear God |QID|12249|N|Hierophant Thayreen.|M|31.23,59.47|
+N Close this step to go to the next guide.|QID|12789|
 ]]
 end)

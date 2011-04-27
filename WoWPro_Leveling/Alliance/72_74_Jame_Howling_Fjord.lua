@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2011-04-24 00:35
+-- Who: Crackerhead22
+-- Log: Fixed line-! Line 285 for step T has unknown tag [Zeh'gehn.]: [T A Carver and a Croaker |QID|11476|M|35.6,80.6|Zeh'gehn.|]
+
+-- URL: http://wow-pro.com/node/3287/revisions/24062/view
 -- Date: 2011-01-27 12:43
 -- Who: Fluclo
 -- Log: Added coords for eggs
@@ -282,7 +287,7 @@ T Zeh'gehn Sez |QID|11459|M|35.6,80.2|N|To Handsome Terry.|
 A A Carver and a Croaker |QID|11476|M|35.6,80.2|N|From Handsome Terry.|
 l Scalawag Frog |QID|11476|QO|Scalawag Frog: 1/1|N|Click on a Scalawag Frog nearby. |M|35.90,80.62|
 C A Carver and a Croaker |QID|11476|N|Buy a Shiny Knife from "Silvermoon" Harry here. |M|35.10,80.94|
-T A Carver and a Croaker |QID|11476|M|35.6,80.6|Zeh'gehn.|
+T A Carver and a Croaker |QID|11476|M|35.6,80.6|N|To Zeh'gehn.|
 A "Crowleg" Dan |QID|11479|M|35.6,80.6|N|From Zeh'gehn.|
 C "Crowleg" Dan |QID|11479|N|Defeat "Crowleg" Dan on the ship here. |M|35.95,83.60|
 T "Crowleg" Dan |QID|11479|M|35.6,80.2|N|To Handsome Terry.|

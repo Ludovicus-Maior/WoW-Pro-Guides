@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_horde
+-- Date: 2011-04-25 16:34
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3304/revisions/24210/view
 -- Date: 2011-04-05 23:14
 -- Who: Ludovicus Maior
 
@@ -337,7 +341,7 @@ C Egg Wave|QID|25560|M|35.96,51.87|Z|Firelands Hatchery|N|This quest is much eas
 T Egg Wave|QID|25560|M|37.26,56.21|Z|Firelands Hatchery|N|To Farden Talonshrike.|
 A Return to Aviana|QID|25832|M|37.26,56.21|Z|Firelands Hatchery|N|From Farden Talonshrike.|
 
-T The Last Living Lorekeeper|QID|25830|M|27.45,55.69|N|To Nordu.|
+T The Last Living Lorekeeper|QID|25830|M|27.45,55.69|N|Exit the cave through the portal. To Nordu.|
 A Firefight|QID|25842|M|27.45,55.69|N|From Nordu.|
 C Firefight|QID|25842|M|26.86,52.98|N|Kill 5 Firey Tormentors nearby.|
 T Firefight|QID|25842|M|27.37,55.80|N|To Nordu.|

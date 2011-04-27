@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2011-04-20 18:59
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3274/revisions/23430/view
 -- Date: 2010-12-03 12:13
 -- Who: Jiyambi
 
@@ -6,7 +10,7 @@
 -- Date: 2010-12-03 12:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "63", "65", "JamTer6567", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "63", "65", "JamTerA6567", "Horde", function()
 return [[
 
 F Swamprat Post|QID|9775|

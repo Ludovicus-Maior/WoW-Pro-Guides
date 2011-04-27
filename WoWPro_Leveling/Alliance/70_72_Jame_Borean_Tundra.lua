@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2011-04-24 00:31
+-- Who: Crackerhead22
+-- Log: Fixed line-! Line 363 for step A has unknown tag [3]: [A Surrounded! |QID|11944|N|From Corporal Venn.|M|82.02,46.42|3]
+--	Fixed line-! Line 502 for step F Bad coord 334.14: [F Amber Ledge |QID|11704|N|Fly to Amber Ledge or take a free teleport from Librarian Tiare.|M|33.28,334.14|]
+
+-- URL: http://wow-pro.com/node/3289/revisions/24015/view
 -- Date: 2011-01-18 19:23
 -- Who: Fluclo
 -- Log: Added NonCombat tag to quest Khu'nok Will Know 
@@ -360,7 +366,7 @@ C The Gearmaster |QID|11798|N|Go up the ramp here, loot The Gearmaster's Manual 
 C Deploy the Shake-n-Quake! |QID|11723|U|34981|N|Head down to the south sinkhole and use the Shake-n-Quake 5000 Control Unit. Kill Lord Kryxix when he spawns.|M|69.99,37.09|
 T The Son of Karkut |QID|12086|N|To Corporal Venn at Death's Stand.|M|82.02,46.42|
 
-A Surrounded! |QID|11944|N|From Corporal Venn.|M|82.02,46.42|3
+A Surrounded! |QID|11944|N|From Corporal Venn.|M|82.02,46.42|
 C Surrounded! |QID|11944|N|Kill Ziggurat Defenders.|S|
 K Rocknar's Grit |QID|11650|QO|A Handful of Rocknar's Grit: 1/1| |N|Kill Rocknar and loot A Handful of Rocknar's Grit.|M|81.47,42.49|
 C Surrounded! |QID|11944|N|Kill Ziggurat Defenders.|US|
@@ -499,7 +505,7 @@ N Drake Hunt |QID|12117|N|Drake Hunt is now a repeatable daily quest. You may pi
 C Cracking the Code |QID|11931|N|Kill Inquisitor Caleras to the north and loot the Azure Codex. Kill Coldarra Spellbinders around him until you get 3 Shimmering Runes.|M|32.77,27.84|
 T Cracking the Code |QID|11931|N|To Raelorasz.|M|33.31,34.53|
 
-F Amber Ledge |QID|11704|N|Fly to Amber Ledge or take a free teleport from Librarian Tiare.|M|33.28,334.14|
+F Amber Ledge |QID|11704|N|Fly to Amber Ledge or take a free teleport from Librarian Tiare.|M|33.28,34.14|
 C Plan B |QID|11658|N|Grab the Warsong Banner here and loot 10 Warsong Outfits from the bodies around the area.|M|49.57,26.55|
 T King Mrgl-Mrgl |QID|11704|N|Go north to the road, then follow it east to Winterfin Retreat.|M|43.50,13.97|
 A Learning to Communicate |QID|11571|N|From King Mrgl-Mrgl.|M|43.50,13.97|
