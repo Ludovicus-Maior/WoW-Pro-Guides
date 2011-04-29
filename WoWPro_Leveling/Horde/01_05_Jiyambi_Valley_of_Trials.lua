@@ -1,4 +1,18 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-04-29 15:27
+-- Who: Ludovicus Maior
+-- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
+
+-- URL: http://wow-pro.com/node/3199/revisions/24318/view
+-- Date: 2011-04-29 15:25
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3199/revisions/24315/view
+-- Date: 2011-04-29 15:19
+-- Who: Ludovicus Maior
+-- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
+
+-- URL: http://wow-pro.com/node/3199/revisions/24148/view
 -- Date: 2011-03-08 12:18
 -- Who: Ludovicus Maior
 -- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.

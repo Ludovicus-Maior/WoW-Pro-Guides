@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2011-04-29 14:11
+-- Who: Ludovicus Maior
+-- Log: Line 127 for step A has unknown tag [From Huntsman Blake.], Line 146 for step A has unknown tag [From Captain Broderick.], Line 159 for step T has unknown tag [Go southwest/west, ...], Line 187 for step T has unknown tag [To Tobias.], Line 204 for step T has unknown tag [To Crate of Mandrake Essence.], Line 239 for step C has 3 M coords, Line 408 for step f has too short a title.
+
+-- URL: http://wow-pro.com/node/3211/revisions/24090/view
 -- Date: 2011-01-30 19:54
 -- Who: Ludovicus Maior
 -- Log: Corrected RegisterGuide line.
@@ -124,7 +129,7 @@ T Healing Touch |QID|14283|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|N|To Cele
 A Safety in Numbers |QID|14286|Z|Ruins of Gilneas City|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|
 A Safety in Numbers |QID|14285|Z|Ruins of Gilneas City|M|71.2,65.6|C|Rogue|N|From Loren the Fence.|
 A Safety in Numbers |QID|14287|Z|Ruins of Gilneas City|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|
-A Safety in Numbers |QID|14290|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter||From Huntsman Blake.|
+A Safety in Numbers |QID|14290|Z|Ruins of Gilneas City|M|71.3,61.4|C|Hunter|N|From Huntsman Blake.|
 A Safety in Numbers |QID|14289|Z|Ruins of Gilneas City|M|68.2,64.8|C|Priest|N|From Myriam Spellwaker.|
 A Safety in Numbers |QID|14288|Z|Ruins of Gilneas City|M|70.5,65.2|C|Mage|N|From Sister Almyra.|
 A Safety in Numbers |QID|14291|Z|Ruins of Gilneas City|M|70.2,65.7|C|Druid|N|From Celestine of the Harvest.|
@@ -143,7 +148,7 @@ A While You're At It |QID|24930|Z|Ruins of Gilneas City|M|65.5,77.4|N|From Lord 
 
 C While You're At It |QID|24930|Z|Ruins of Gilneas City|M|58.0,72.0|N|Kill Bloodfang Worgen on your way to the tower|S|
 T Old Divisions |QID|14157|Z|Ruins of Gilneas City|M|58.0,72.0;57.9,75.3|N|Go northwest to the military district, take a left and enter the tower and see Captain Broderick.|
-A The Prison Rooftop |QID|28850|Z|Ruins of Gilneas City|M|57.9,75.3|From Captain Broderick.|
+A The Prison Rooftop |QID|28850|Z|Ruins of Gilneas City|M|57.9,75.3|N|From Captain Broderick.|
 
 T The Prison Rooftop |QID|28850|Z|Ruins of Gilneas City|M|55.0,63.1|N|Go up the stairs and then follow the ledge around to Crowley.|
 A By the Skin of His Teeth |QID|14154|Z|Ruins of Gilneas City|M|55.0,63.1|N|From Lord Darius Crowley.|
@@ -156,7 +161,7 @@ T While You're At It |QID|24930|Z|Ruins of Gilneas City|M|65.5,77.4|N|Leave the 
 T Brothers In Arms |QID|26129|Z|Ruins of Gilneas City|M|65.9,77.4|N|To King Genn Greymane.|
 A The Rebel Lord's Arsenal |QID|14159|Z|Ruins of Gilneas City|M|65.9,77.4|N|From King Genn Greymane.|
 
-T The Rebel Lord's Arsenal |QID|14159|Z|Ruins of Gilneas City|M|55.48,81.59;56.63,85.43|Go southwest/west, take a right around the house and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
+T The Rebel Lord's Arsenal |QID|14159|Z|Ruins of Gilneas City|M|55.48,81.59;56.63,85.43|N|Go southwest/west, take a right around the house and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
 
 A From the Shadows |QID|14204|Z|Ruins of Gilneas City|M|56.9,81.7|N|Turn around and get this quest from Lorna Crowley.|
 
@@ -184,7 +189,7 @@ A By Blood and Ash |QID|14218|Z|Ruins of Gilneas City|M|40.3,39.5|N|From Tobias 
 
 C By Blood and Ash |QID|14218|Z|Ruins of Gilneas City|M|38.7,38.6|N|Hop on a cannon and then use the Rebel Cannon ability to kill 100 Bloodfang Stalkers.|
 
-T By Blood and Ash |QID|14218|Z|Ruins of Gilneas City|M|40.3,39.5|To Tobias.|
+T By Blood and Ash |QID|14218|Z|Ruins of Gilneas City|M|40.3,39.5|N|To Tobias.|
 A Never Surrender, Sometimes Retreat |QID|14221|Z|Ruins of Gilneas City|M|40.3,39.5|N|From Tobias Mistmantle.|
 
 T Never Surrender, Sometimes Retreat |QID|14221|Z|Ruins of Gilneas City|M|48.8,52.6|N|Go inside the Cathedral behind Tobias and all the way to Lord Crowley at the top of the steps.|
@@ -201,7 +206,7 @@ A Among Humans Again|QID|14313|Z|Ruins of Gilneas|M|36.45,62.20|N|From Lord Godf
 T Among Humans Again|QID|14313|Z|Ruins of Gilneas|M|37.36,63.28|N|To Krennan Aranas.|
 A In Need of Ingredients|QID|14320|Z|Ruins of Gilneas|M|37.36,63.28|N|From Krennan Aranas.|
 N Training in Earnest|QID|14320|Z|Ruins of Gilneas|M|37.36,63.28|N|Talk to Jack "All-Trades" Derrington and learn any professions you want."
-T In Need of Ingredients|QID|14320|Z|Ruins of Gilneas|M|32.90,66.32|To Crate of Mandrake Essence.|
+T In Need of Ingredients|QID|14320|Z|Ruins of Gilneas|M|32.90,66.32|N|To Crate of Mandrake Essence.|
 A Invasion|QID|14321|Z|Ruins of Gilneas|M|32.84,66.22|N|From Slain Watchman.|
 T Invasion|QID|14321|Z|Ruins of Gilneas|M|37.33,63.37|N|To Gwen Armstead.|
 A Kill or Be Killed|QID|14336|Z|Ruins of Gilneas|M|37.33,63.37|N|From Gwen Armstead.|
@@ -235,8 +240,8 @@ T Save the Children!|QID|14368|Z|Ruins of Gilneas|M|28.89,63.97|N|To Melinda Ham
 N Sell Junk|QID|14369|Z|Ruins of Gilneas|M|28.81,63.48|N|Sell Junk.|
 
 C Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|S|
-C Kill Captain Anson|QID|14382|Z|Ruins of Gilneas|M|25.26,72.09; 23.9,75.0|QO|Captain Anson slain: 1/1|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.|
-C Kill Captain Morris|QID|14382|Z|Ruins of Gilneas|M|29,54,74.23; 27.2,80.0|QO|Captain Morris slain: 1/1|N|Go to another catapult, kill the Forsaken Machinist, launch yourself onto the other ship. Go downstairs and kill Captain Morris.|
+C Kill Captain Anson|QID|14382|Z|Ruins of Gilneas|M|25.26,72.09;23.9,75.0|QO|Captain Anson slain: 1/1|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.|
+C Kill Captain Morris|QID|14382|Z|Ruins of Gilneas|M|29.54,74.23;27.2,80.0|QO|Captain Morris slain: 1/1|N|Go to another catapult, kill the Forsaken Machinist, launch yourself onto the other ship. Go downstairs and kill Captain Morris.|
 C Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|US|
 
 T Unleash the Beast|QID|14369|Z|Ruins of Gilneas|M|28.89,63.97|N|To Lord Godfrey.|
@@ -405,7 +410,7 @@ A Rut'theran Village|QID|14434|N|Talk to Admiral Nightwind, take this quest.  Yo
 A The Howling Oak|QID|28517|M|55.22,89.15|Z|Teldrassil|N|From Krennan Aranas.|
 T The Howling Oak|QID|28517|M|55.08,88.46;48.12,14.48|Z|Darnassus|N|Take the teleporter, then go to the Howling Oak and turn in to Genn Greymane.|
 A Breaking Waves of Change|QID|26385|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
-f |QID|26385|M|36.67,47.91|Z|Darnassus|N|At Leora.|
+f Get the Darnassus Flight Point|QID|26385|M|36.67,47.91|Z|Darnassus|N|At Leora.|
 F Lor'danel|QID|26385|M|36.47,49.39;55.42,88.41|Z|Darnassus|N|Take the teleport out of Darnassus, then get a Hyppogryph ride to Lor'danel.|
 T Breaking Waves of Change|QID|26385|M|51.77,18.00|Z|Darkshore|N|To Dentaria Silverglade. You'll be taken to the next guide, which will cover Darkshore!|
 

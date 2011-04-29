@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2011-04-29 16:23
+-- Who: Ludovicus Maior
+-- Log: Line 36 for step R has 1 M coords: , Line 37 for step T has 1 M coords.
+
+-- URL: http://wow-pro.com/node/3314/revisions/23544/view
 -- Date: 2010-12-04 02:37
 -- Who: Liavan
 -- Log: Fix some U and L tags to be the appropriate horde version updated cords for Blubbergut.
@@ -33,8 +38,8 @@ WoWPro.Leveling:RegisterGuide('JiyDes3035', 'Desolace', 'Jiyambi', '30', '35', '
 --Needs testing by a level appropriate character
 return [[
 
-R Desolace|QID|14184|M|54.7.8.8|
-T Warchief's Command: Desolace!|O|QID|28548|M|54.7.8.8|N|To Furien at Tethris Aran in Desolace.|
+R Desolace|QID|14184|M|54.7,8.8|
+T Warchief's Command: Desolace!|O|QID|28548|M|54.7,8.8|N|To Furien at Tethris Aran in Desolace.|
 T Nothing Left for You Here|O|QID|26134|M|54.74,8.84|N|To Furien.|
 A My Time Has Passed|QID|14184|M|54.74,8.84|N|From Furien.|
 

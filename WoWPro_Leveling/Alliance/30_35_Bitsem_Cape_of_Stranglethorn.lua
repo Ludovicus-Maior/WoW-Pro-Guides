@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2011-04-29 14:31
+-- Who: Ludovicus Maior
+-- Log: Line 131 for step T has unknown tag [Turns in at a barrel near the water.]
+
+-- URL: http://wow-pro.com/node/3237/revisions/24218/view
 -- Date: 2011-04-05 23:30
 -- Who: Ludovicus Maior
 
@@ -128,7 +133,7 @@ f Booty Bay|QID|26593|NC|U|4027|M|41.64,74.47|N|Get the Booty Bay flight path.|
 A The Call of Kalimdor|QID|26596|M|40.56,68.20|Z|The Cape of Stranglethorn|N|If you're going to go to Dustwallow Marsh in Kalimdor next. From Corporal Jeyne.|
 A The Battle for Andorhal|QID|28749|M|41.55,74.35|Z|The Cape of Stranglethorn|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
 
-T The Bloodsail Buccaneers|QID|26609|M|41.35,61.16|Z|The Cape of Stranglethorn|Turns in at a barrel near the water.|
+T The Bloodsail Buccaneers|QID|26609|M|41.35,61.16|Z|The Cape of Stranglethorn|N|Turns in at a barrel near the water.|
 A Bloodsail Treachery|QID|26610|PRE|26609|M|41.35,61.16|Z|The Cape of Stranglethorn|
 A An Old Sea Dog|QID|26617|U|59142|M|41.19,61.36|Z|The Cape of Stranglethorn|N|From "Good-Boy" Bruce.|
 

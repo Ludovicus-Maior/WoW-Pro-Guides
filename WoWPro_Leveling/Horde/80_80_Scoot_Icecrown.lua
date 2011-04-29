@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2011-04-29 17:06
+-- Who: Ludovicus Maior
+-- Log: Line 103 for step C Bad coord , Line 315 for step T has 3 M coords, Line 412 for step C Bad coord 1 at a ti, Line 519 for step C Bad coord  .....
+
+-- URL: http://wow-pro.com/node/3302/revisions/24209/view
 -- Date: 2011-04-05 23:13
 -- Who: Ludovicus Maior
 
@@ -100,7 +105,7 @@ C Revenge for the Vargul |QID|13059| |N|Turn around, go straight ahead, down the
 C Deep in the Bowels of The Underhalls |QID|13042| |N|Go out of the room and down the stairs. He's to the left under the landing. Loot the book.|
 
 A The Sum is Greater than the Parts |QID|13043| |N|Click on the book.| |U|42772|
-C The Sum is Greater than the Parts |QID|13043| |N|Go left from the Apprentice Osterkilgr into the Hall of Horrors. Mount Nergeld. You have to survive several waves of mob before Dr. Terrible will spawn. Keep the mobs off of you with  Roar and (3) Stomp until Dr. Terrible spawns. Chain (4) him and (1) Punch him to death. When he tries to heal, interupt with (3) Stomp. If Nergeld dies, you can finish him on your own. The mobs will go away when Dr. Terrible is dead.|M|2,|
+C The Sum is Greater than the Parts |QID|13043| |N|Go left from the Apprentice Osterkilgr into the Hall of Horrors. Mount Nergeld. You have to survive several waves of mob before Dr. Terrible will spawn. Keep the mobs off of you with  Roar and (3) Stomp until Dr. Terrible spawns. Chain (4) him and (1) Punch him to death. When he tries to heal, interrupt with (3) Stomp. If Nergeld dies, you can finish him on your own. The mobs will go away when Dr. Terrible is dead.|M|33.4,33.2|
 T Revenge for the Vargul |QID|13059| |N|Go back to Bethod Feigr on your way out.|
 T Leave Our Mark |QID|12995| |N|Head back to Baron Sliver at the Shadow Vault .|M|42.86,24.99|
 T Crush Dem Vrykuls! |QID|12992|
@@ -312,7 +317,7 @@ T A Hero Remains |QID|13072| |N|Back to Highlord Tirion Fordring at Crusaders' P
 
 A The Keeper's Favor |QID|13073|
 N Arch Druid Lilliandra |QID|13073| |N|Arch Druid Lilliandra is in the Argent Vanguard at . Talk to her to get the port to Moonglade. Click off this step.|M|87.04,76.98|
-T The Keeper's Favor |QID|13073| |N|Keeper Remulos is right in front of you. | |Z|Moonglade|M|36,2,40.7|
+T The Keeper's Favor |QID|13073| |N|Keeper Remulos is right in front of you. | |Z|Moonglade|M|36.2,40.7|
 
 A Hope Within the Emerald Nightmare |QID|13074|
 C Hope Within the Emerald Nightmare |QID|13074| |N|The acorns are on the ground, but are hard to see. When you get three get far enough away from the shrine and you will leave the dream. Be careful of the Elites they are the boundary you need to get past.|
@@ -409,7 +414,7 @@ A Against the Giants |QID|13277| |O|
 T Volatility |QID|13239| |N|Chief Engineer Copperclaw. This becomes a daily now.|
 
 A Green Technology |QID|13379|
-C That's Abominable! |QID|13264| |N|Go to back the Broken Front. Kill Abominations for their guts, use the Reanimation Kit on them , send them into the groups of mobs around (68,61), and blow them up. Repeat until done.|M|1 at a ti,|
+C That's Abominable! |QID|13264| |N|Go to back the Broken Front. Kill Abominations for their guts, use the Reanimation Kit on them , send them into the groups of mobs, and blow them up. Repeat until done.|M|68,61|
 T That's Abominable! |QID|13264| |N|Back to Orgrim's Hammer. Koltira Deathweaver. This become a daily now.|
 
 A Sneak Preview |QID|13351|
@@ -515,8 +520,8 @@ C Cradle of the Frostbrood |QID|13349| |N|Kill any more mobs you need for the qu
 T Cradle of the Frostbrood |QID|13349| |N|Fly back to Orgrim's Hammer. Koltira Deathweaver|
 T Time for Answers |QID|13360| |N|The Court of Bones. Matthais Lehner .|M|49.17,73.17|
 
-A The Hunter and the Prince |QID|13361|
-C The Hunter and the Prince |QID|13361| |N|Use any Bloodstained Stone on the ground to start the battle. Stomp  and Annililate (4) to open, then spam Parry (1) and Deathstrike (2) until you have at least 75% Mana. Repeat until dead. If Arthas dies, use another stone to try again.|M|3,|
+A The Hunter and the Prince |QID|13361|M|49.17,73.17|
+C The Hunter and the Prince |QID|13361| |N|Use any Bloodstained Stone on the ground to start the battle. Stomp  and Annililate (4) to open, then spam Parry (1) and Deathstrike (2) until you have at least 75% Mana. Repeat until dead. If Arthas dies, use another stone to try again.|
 T The Hunter and the Prince |QID|13361| |N|Matthais Lehner .|M|49.17,73.17|
 
 A Knowledge is a Terrible Burden |QID|13362|
@@ -538,7 +543,7 @@ T Parting Gifts |QID|13168| |N|Keritose Bloodblade |M|44.05,24.56|
 A From Whence They Came |QID|13171|
 A An Undead's Best Friend |QID|13169|
 A Honor is for the Weak |QID|13170|
-N Three Quests |QID|13171| |N|Control a Watcher and do all three quests at the same time. Blink, (2)Heal, (3)Vanish, (4)Feed Hound, (5)Kill Lookout, (6)Destroy Crystal.|M|1,|
+N Three Quests |QID|13171| |N|Control a Watcher and do all three quests at the same time. Blink, (2)Heal, (3)Vanish, (4)Feed Hound, (5)Kill Lookout, (6)Destroy Crystal.|M|40,32||
 C From Whence They Came |QID|13171| |N|Destroy the Crystals|
 C An Undead's Best Friend |QID|13169| |N|Feed the Hounds|
 C Honor is for the Weak |QID|13170| |N|Kill the Lookouts|
@@ -572,7 +577,7 @@ A Matchmaker |QID|13147|
 A Stunning View |QID|13160|
 C Generosity Abounds |QID|13146| |N|The bombs are at . Use (2) to drag a bomb to the front gate to the Abominations.|M|57.48,75.88|
 C Matchmaker |QID|13147| |N|The Runeworks  is the best place to do this. Use (4) on the Brutes to start a fight.|M|59.10,74.40|
-C Stunning View |QID|13160| |N|The Gargoyles are in the rocks around the rim. Use  on them. Dismount when done.|M|3,|
+C Stunning View |QID|13160| |N|The Gargoyles are in the rocks around the rim. Use  on them. Dismount when done.|M|61,74|
 T Generosity Abounds |QID|13146| |N|Vereth the Cunning .|M|53.91,71.42|
 T Matchmaker |QID|13147|
 T Stunning View |QID|13160|

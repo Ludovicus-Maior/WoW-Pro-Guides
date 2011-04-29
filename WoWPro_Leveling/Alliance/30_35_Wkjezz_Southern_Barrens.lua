@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2011-04-29 14:34
+-- Who: Ludovicus Maior
+-- Log: Line 44 for step T has unknown tag [To Commander Walpole.], Line 243 for step C has unknown tag [Take out the grunts.].
+
+-- URL: http://wow-pro.com/node/3235/revisions/24151/view
 -- Date: 2011-03-08 12:33
 -- Who: Ludovicus Maior
 -- Log: Sequence changes around [A Line in the Dirt], [A Report to Twinbraid], and [Echoes of Agamaggan] for more optimal play.
@@ -41,7 +46,7 @@ return [[
 R Stonetalon Pass|QID|24862|N|Welcome to the Southern Barrens guide.  This guide starts off where Stonetalon Mountains leaves off with the lead-up quest All's Clear. Alternatively, take the Hero's Call: Southern Barrens quest from Darnassus or Exodar.  For both, head to Commander Walpole at Stonetalon Pass, and hand in the respective quest.|M|29.89,8.97|
 
 T All's Clear|QID|25852|O|M|29.85,9.00|N|To Commander Walpole.|
-T Hero's Call: Southern Barrens! |QID|28550|O|M|29.89,8.97|To Commander Walpole.|
+T Hero's Call: Southern Barrens! |QID|28550|O|M|29.89,8.97|N|To Commander Walpole.|
 
 A Running the Gauntlet|QID|24862|M|29.83,8.97|N|From Commander Walpole.|
 
@@ -240,7 +245,7 @@ C Diplomacy By Another Means|QID|25044|U|49782|M|43.05,41.87|N|Blow the horn in 
 
 T Diplomacy By Another Means|QID|25044|M|43.02,41.73|N|UI Alert.|
 
-C Fields of Blood|QID|25043|S|M|31.87,30.50|Take out the grunts.|
+C Fields of Blood|QID|25043|S|M|31.87,30.50|N|Take out the grunts.|
 
 C Fields of Blood|QID|25043|US|M|46.35,47.19|
 

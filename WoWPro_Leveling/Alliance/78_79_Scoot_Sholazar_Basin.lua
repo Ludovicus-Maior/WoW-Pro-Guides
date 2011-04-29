@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_alliance
+-- Date: 2011-04-29 15:07
+-- Who: Ludovicus Maior
+-- Log: Line 31 for step T Bad coord 58.65. ,  Line 221 for step C has unknown tag [Kill Frenzyhearts in the area.], Line 327 for step K has 1 M coords.
+
+-- URL: http://wow-pro.com/node/3297/revisions/24216/view
 -- Date: 2011-04-05 23:26
 -- Who: Ludovicus Maior
 
@@ -28,7 +33,7 @@ F Dalaran |QID|12521| |N|You can get Cold Weather Flying from Hira Snowdown on K
 
 A Where in the World is Hemet Nesingwary? |QID|12521| |N|From Archmage Pentarus, near the exit from Krasus' Landing. |M|68.68,42.06|
 C Where in the World is Hemet Nesingwary? |QID|12521| |N|Talk to the Archmage again to get a flight.|
-T Where in the World is Hemet Nesingwary? |QID|12521| |N|To Monte Muzzleshot. He's hanging from a tree. |M|35.68,58.65.|
+T Where in the World is Hemet Nesingwary? |QID|12521| |N|To Monte Muzzleshot. He's hanging from a tree. |M|35.68,58.65|
 
 A Welcome to Sholazar Basin |QID|12489|M|39.7,58.7| |N|From Monte Muzzleshot.|
 T Welcome to Sholazar Basin |QID|12489| |N|To Hemet Nesingwary. Find Hemet at, where else, Nesingwary Base Camp, to the West. |M|27.09,58.72|
@@ -218,7 +223,7 @@ A Sharpening Your Talons |QID|12603| |N|From Dorian Drakestalker.| |M|42.3,28.7|
 A Securing the Bait |QID|12605| |N|From Dorian Drakestalker.| |M|42.3,28.7|
 A Burning to Help |QID|12683| |N|From Colvin Norrington.| |M|42.1,28.7|
 C The Lost Mistwhisper Treasure |QID|12575| |N|On the top level of the Spearborn Encampment. When you get near the treasure, Warlord Tartek will show up and attack you.| |U|38623|M|41.61,19.60|
-C Forced Hand |QID|12576| Kill Frenzyhearts in the area.| |U|38623|
+C Forced Hand |QID|12576| |N|Kill Frenzyhearts in the area.| |U|38623|
 C Burning to Help |QID|12683| |N|Dive into the lake; use the sample container to get rid of the the debuff.  Call Jaloot if you want the swimming buff.| |U|39164|M|39.7,38.0|
 T The Lost Mistwhisper Treasure |QID|12575| |N|To Mistcaller Soo-gan, at Mistwhisper Refuge.| |M|42.16,38.52|
 T Forced Hand |QID|12576| |N|To Mistcaller Soo-gan.| |M|42.1,38.6|
@@ -324,7 +329,7 @@ R Reclamation |QID|12546|M|65.75,33.00|N|Go here, dismount and summon the Etymid
 K Urgreth of the Thousand Tombs |QID|12546|M|70.2,37.0|QO|Urgreth of the Thousand Tombs slain: 1/1|N|Use Titanic Surge when he channels Dark Barrage.|
 K Hailscorn |QID|12546|M|70.0,34.0|QO|Hailscorn slain: 1/1|N|Keep your back to the mountain and hit Cataclysm only when she spawns her troops.|U|38709|
 K Bythius the Flesh-Shaper|QID|12546|M|70.0,38.4;72.6,40.4;73.6,40.8|QO|Bythius the Flesh-Shaper slain: 1/1|N|Cleave the guy, cata for the dogs.|U|38709|
-K Scourge Minions|QID|12546|M|70.38.4;72.6,40.4;73.6,40.8|QO|Scourge Minions destroyed: 200/200|
+K Scourge Minions|QID|12546|M|70,38.4;72.6,40.4;73.6,40.8|QO|Scourge Minions destroyed: 200/200|
 T Reclamation |QID|12546| |N|To Avatar of Freya, at Rainspeaker Rapids.| |M|64.59,48.52|
 T It Could Be Anywhere! |QID|12624| |N|To Chad. I know you found it a long time ago. Turn it in now if you haven't already.|M|26.9,58.9|
 T A Hero's Burden |QID|12581| |N|Artruis's Phylactery. If you have it, turn it in.| |U|38624|

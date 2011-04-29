@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2011-04-29 15:01
+-- Who: Ludovicus Maior
+-- Log: Line 299 for step N has 1 M coords:
+
+-- URL: http://wow-pro.com/node/3291/revisions/24261/view
 -- Date: 2011-04-24 00:42
 -- Who: Crackerhead22
 -- Log: Fixed line-! Line 65 for step C has unknown tag [Kill Vengeful Geists to free the Trapped Wintergarde Villagers.]: [C Rescue from Town Square|QID|12253|S|QO|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|]
@@ -296,7 +301,7 @@ A Steamtank Surprise |QID|12326|M|89.7,46.4|N|From Duke August Foehammer.|
 
 N Note: Kreug Oathbreaker |QID|12438| |N|This area is very close to Kreug Oathbreaker. So if you see a group forming for him, join it.|
 N Now comes a fun quest. |QID|12326||N|Read the whole paragraph before you jump in a tank. You'll get in one of those steam tanks and look around for Plague Wagons. Stand close to it and use Ability #3. To defend yourself, use Ability #2 first and then Ability #1 on the frozen targets, this does tripple damage. Once you have destroyed 6 Plague Wagons, go west to the Wintergarde Mausoleum  and use Ability #4: You're ready now, get in a tank and have fun!|
-N Plague Wagons Sabotaged|QID|12326|M|N|Get near a Plaue Wagon and use Ability #3, defend the Gnome until you get a quest update. Do this 6 times.|QO|Plague Wagon Sabotaged: 6/6|
+N Plague Wagons Sabotaged|QID|12326|N|Get near a Plague Wagon and use Ability #3, defend the Gnome until you get a quest update. Do this 6 times.|QO|Plague Wagon Sabotaged: 6/6|
 C Steamtank Surprise |QID|12326|N|Use Ability #4 near the entrance of the Mausoleum.|M|86.00,50.00|
 T Steamtank Surprise |QID|12326|N|Go down in the Wintergarde Mausoleum and turn this quest into Ambo Cash.|M|85.9,50.9|
 A Scattered To The Wind |QID|12455|M|85.9,50.9|N|From Ambo Cash.|

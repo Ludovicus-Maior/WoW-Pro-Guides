@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2011-04-29 16:38
+-- Who: Ludovicus Maior
+-- Log: Line ** for step * has unknown tag [If you didn't
+
+-- URL: http://wow-pro.com/node/3268/revisions/23418/view
 -- Date: 2010-12-03 12:02
 -- Who: Jiyambi
 
@@ -40,7 +45,7 @@ C Some People Just Need Killing|QID|25681|M|61.94,1.22;52.20,2.67|N|Right-click 
 T Some People Just Need Killing|QID|25681|M|62.19,1.41|N|To Tak'arili. You can use another box to get back to him, they are all over.|
 A Mission Complete|QID|25682|PRE|25681|M|62.19,1.41|N|From Tak'arili.|
 
-H Dreadmaul Hold|QID|25682|M|40.44,11.39|If you didn't set your hearth there, run back.|
+H Dreadmaul Hold|QID|25682|M|40.44,11.39|N|If you didn't set your hearth there, run back.|
 T Mission Complete|QID|25682|M|40.49,11.70|N|To Okrilla.|
 A The Dreadmaul Furnace|QID|25683|PRE|25682|M|40.49,11.70|N|From Okrilla.|
 
@@ -109,9 +114,9 @@ T Atrocities|QID|25703|M|71.00,59.89|N|To Neptool.|
 A False Idols|QID|25705|PRE|25703|M|71.00,59.89|N|From Neptool.|
 A Neptool's Revenge|QID|25706|PRE|25703|M|71.00,59.89|N|From Neptool.|
 C False Idols|QID|25705|M|60.87,64.00|S|N|Right-click the idols to destroy them.|
-C Neptool's Revenge|QID|25706|M|66.87,72.23|QO|Bloodwash Gambler slain: 4/4|Gamblers can be found around the Bloodwash Fighting Pits.|
-C Neptool's Revenge|QID|25706|M|60.90,74.74|QO|Bloodwash Idolater slain: 4/4|Idolaters can be found around the Bloodwash Shrine.|
-C Neptool's Revenge|QID|25706|M|61.34,63.49|QO|Bloodwash Zealot Slain: 8/8;Bloodwash Acolyte slain: 8/8|Zealots and Acolytes can be found in and around Bloodwash Cavern.|
+C Neptool's Revenge|QID|25706|M|66.87,72.23|QO|Bloodwash Gambler slain: 4/4|N|Gamblers can be found around the Bloodwash Fighting Pits.|
+C Neptool's Revenge|QID|25706|M|60.90,74.74|QO|Bloodwash Idolater slain: 4/4|N|Idolaters can be found around the Bloodwash Shrine.|
+C Neptool's Revenge|QID|25706|M|61.34,63.49|QO|Bloodwash Zealot Slain: 8/8;Bloodwash Acolyte slain: 8/8|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|
 C False Idols|QID|25705|M|60.87,64.00|US|N|Right-click the idols to destroy them.|
 A The Future of the Rockpool|QID|25707|M|61.54,63.02|N|From Abandoned Bloodwash Crate. Click it and choose to help the tadpoles.|
 C The Future of the Rockpool|QID|25707|M|69.23,81.26|N|Drag the crate to the beach and swim a little ways out into the water.|
@@ -140,7 +145,7 @@ A The Downfall of Marl Wormthorn|RANK|2|QID|25720|PRE|25719|M|49.81,71.45|N|From
 C The Downfall of Marl Wormthorn|RANK|2|QID|25720|U|57185|M|34.75,67.67|N|Take out the demons around him first, use the vessel to snap him out of his trance, then defeat him.|
 T The Downfall of Marl Wormthorn|RANK|2|QID|25720|M|49.76,71.46|N|To Rohan Sunveil. Congrats on the very nice piece of gear!|
 
-H Dreadmaul Hold|QID|25682|M|40.44,11.39|If you didn't set your hearth there, run back.|
+H Dreadmaul Hold|QID|25682|M|40.44,11.39|N|If you didn't set your hearth there, run back.|
 T Ogre Combat|QID|25675|M|42.72,13.90|N|To Master Aitokk.|
 
 T The Amulet of Allistarj|QID|25697|M|41.56,31.95;39.22,36.19|N|To Bloodmage Lynnore. Use the bloodstone to get in.|

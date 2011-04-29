@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2011-04-29 18:19
+-- Who: Ludovicus Maior
+-- Log: Change O step to N step.
+
+-- URL: http://wow-pro.com/node/3203/revisions/24213/view
 -- Date: 2011-04-05 23:20
 -- Who: Ludovicus Maior
 
@@ -234,7 +239,7 @@ T A Bundle of Hides|QID|6361|M|47.41,58.68|Z|Mulgore|R|Tauren,BloodElf|N|To Tak.
 A Ride to Thunder Bluff|QID|6362|M|47.41,58.68|Z|Mulgore|R|Tauren,BloodElf|N|From Tak.|
 F Fly to Thunder Bluff|QID|24550|M|42.48,28.66|R|Tauren,BloodElf|
 
-O Buy a Thunder Bluff Tabard|QID|6362|M|39.73,29.46|N|If you plan on doing instances to raise your reputation with Thunder Bluff, you can buy a tabard here from Brave Tuha.|
+N Buy a Thunder Bluff Tabard|QID|6362|M|39.73,29.46|N|If you plan on doing instances to raise your reputation with Thunder Bluff, you can buy a tabard here from Brave Tuha.|
 T Ride to Thunder Bluff|QID|6362|M|45.32,55.69|Z|Thunder Bluff|R|Tauren,BloodElf|N|To Ahanu. Go to the bottom of the ramp then outside, Ahanu is in the 1st building on the left.|
 A Tal the Wind Rider Master|QID|6363|M|45.32,55.69|Z|Thunder Bluff|R|Tauren,BloodElf|N|From Ahanu.|
 A Warchief's Command: Azshara!|QID|28496|M|42.75,57.29|Z|Thunder Bluff|N|From the Signboard.|

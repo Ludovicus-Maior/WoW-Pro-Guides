@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2011-04-29 16:46
+-- Who: Ludovicus Maior
+-- Log: Line 301, for step A non-decimal PRE
+
+-- URL: http://wow-pro.com/node/3282/revisions/23453/view
 -- Date: 2010-12-03 21:38
 -- Who: Jiyambi
 
@@ -298,7 +303,7 @@ K Ogre Elites|QID|10724|O|L|31755|N|You may need a group for this. Kill Ogre Eli
 C Prisoner of the Bladespire|QID|10724|O|U|31144|
 
 T Prisoner of the Bladespire|QID|10724|O|N|Rexxar |M|51.79,58.42|
-A Showdown|QID|10742|O|PRE|Prisoner of the Bladespire|
+A Showdown|QID|10742|O|PRE|10724|N|Prisoner of the Bladespire|
 
 C Showdown|QID|10742|O|U|31146|N|Go to the Altar of Goc and use Rexxar's Battle Horn. |M|63.91,18.49|
 

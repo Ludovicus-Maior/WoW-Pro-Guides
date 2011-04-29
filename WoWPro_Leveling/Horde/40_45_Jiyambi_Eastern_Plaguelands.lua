@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_horde
+-- Date: 2011-04-29 15:17
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3252/revisions/23836/view
 -- Date: 2010-12-28 05:29
 -- Who: Crackerhead22
 -- Log: Quests "The Battle Must Go On" and "Moving Things Along" removed since they are not part of this zone.
@@ -40,7 +44,7 @@ C Just Encased|QID|27368|M|8.43,29.39|N|Head into the cave and kill and loot spi
 T Just Encased|QID|27368|M|4.18,36.00|N|To Gidwin Goldbraids, back outside the cave.|
 A Greasing the Wheel|QID|27369|PRE|27368|M|4.19,36.02|N|From Gidwin Goldbraids.|
 C Greasing the Wheel|QID|27369|NC|M|3.41,36.38;7.91,55.26|N|Loot Banshee's Bells from the riverside on your way back to the caravan.|
-C A Gift For Fiona|QID|27372|M|13.76,64.13|N|Kill and loot plaguehounds.|
+C A Gift For Fiona|QID|27372|M|13.76,64.13|N|Kill and loot plaguehounds.|US|
 T A Gift For Fiona|QID|27372|M|9.07,66.45|N|To Fiona, back at the caravan.|
 T Greasing the Wheel|QID|27369|M|9.06,66.45|N|To Fiona.|
 A Onward, to Light's Hope Chapel|QID|27373|M|8.95,66.55|N|From Fiona.|

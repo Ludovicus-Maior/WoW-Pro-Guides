@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_alliance
+-- Date: 2011-04-29 14:45
+-- Who: Ludovicus Maior
+-- Log: Line 46 for step A has unknown tag [68.94,53.5], Line 111 for step R has 1 M coords, Line 167 for step C has 1 M coords.
+
+-- URL: http://wow-pro.com/node/3255/revisions/23929/view
 -- Date: 2011-01-04 20:08
 -- Who: Crackerhead22
 -- Log: Changed date on Change log to correct date.
@@ -43,7 +48,7 @@ T The Fewer, the Better|QID|27960|M|68.52,53.49|N|To Burrian Coalpart.|
 A Out of Place|QID|27961|M|68.52,53.49|N|From Burrian Coalpart.|
 A A Lumbering Relic|QID|27962|M|68.52,53.49|N|From Burrian Coalpart.|
 T Lunk's Task|QID|27956|M|68.94,53.50|N|To Lunk.|
-A Lunk No Kill|QID|27957|68.94,53.5|N|From Lunk. This step will not auto-close when completing so close this step.|
+A Lunk No Kill|QID|27957|M|68.94,53.5|N|From Lunk. This step will not auto-close when completing so close this step.|
 A A Proper Antivenom|QID|27958|M|68.61,53.38|N|From Prisanne Dustcropper.|
 A Lunk's Adventure: Spider Rider|QID|27959|M|60.27,55.13|N|Once you kill a spider, Lunk will appear out of nowhere. Get his quest.|
 C Out of Place|QID|27961|S|N|Grab the chickens as quickly as you can, they can be looted from on a mount.. The spiders will kill the chickens.|
@@ -108,7 +113,7 @@ A In the Hall of the Mountain-Lord|QID|27986|M|38.28,28.04|N|From Hansel Heavyha
 T Twilight Collars|QID|27982|M|38.48,28.65|N|To Master Smith Burninate.|
 
 r Sell junk, repair/restock.|QID|27986|M|38.48,28.65|N|At Master Smith Burninate.|
-R Iron Summit|QID|27986|M|39.59,31.28;57.87.39.16;29.51,50.22;31.78,59.97;37.68,62.88|N|Head to the Iron Summit.|
+R Iron Summit|QID|27986|M|39.59,31.28;57.87,39.16;29.51,50.22;31.78,59.97;37.68,62.88|N|Head to the Iron Summit.|
 f Iron Summit|QID|27986|M|40.95,68.58|N|At Doug Deepdown.|
 T In the Hall of the Mountain-Lord|QID|27986|M|39.26,67.78|N|To Mountain-Lord Rendan.|
 A Siege!|QID|28028|M|39.26,67.78|N|From Mountain-Lord Rendan.|
@@ -164,7 +169,7 @@ A Look at the Size of It!|QID|28058|U|62933|M|45.21,30.66|N|After you kill Chamb
 T Look at the Size of It!|QID|28058|M|43.73,28.58|N|To Evonice Sootsmoker.|
 T Kill 'em With Sleep Deprivation|QID|28057|M|42.38,34.34|N|To Taskmaster Scrange.|
 A Twisted Twilight Ties|QID|28060|M|42.47,34.22|N|From Taskmaster Scrange.|
-C Twisted Twilight Ties|QID|28060|M|40.88;35.71|N|Speak with Hansel Heavyhands and help him assault Overseer Maltorius and Twilight-Lord Arkkus.|
+C Twisted Twilight Ties|QID|28060|M|40.88,35.71|N|Speak with Hansel Heavyhands and help him assault Overseer Maltorius and Twilight-Lord Arkkus.|
 T Twisted Twilight Ties|QID|28060|M|47.69,41.96;49.96,39.28|N|To Overseer Oilfist. Drop down at the first waypoint.|
 
 A From Whence He Came|QID|28062|M|49.96,39.28|N|From Overseer Oilfist.|

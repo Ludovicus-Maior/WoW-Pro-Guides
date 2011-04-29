@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2011-04-29 16:24
+-- Who: Ludovicus Maior
+-- Log: Line 216 for step R has unknown tag [Nalk to Keebok ..]
+
+-- URL: http://wow-pro.com/node/3238/revisions/24080/view
 -- Date: 2011-01-30 19:17
 -- Who: Ludovicus Maior
 -- Log: Corrected RegisterGuide line to match GIT.
@@ -213,13 +218,13 @@ C Prepare for Takeoff|QID|26695|M|42.60,69.11|N|In a crate in the old port autho
 C Turning the Brashtide|QID|26699|US|M|42.25,69.68|
 T Prepare for Takeoff|QID|26695|M|41.18,73.03|N|To Baron Revilgaz.|
 A The Final Voyage of the Brashtide|QID|26697|M|41.18,73.03|N|From Baron Revilgaz.|
-R The Final Voyage of the Brashtide|QID|26697|CC|Nalk to Keebok right behind you near the horde flightpath.|
+R The Final Voyage of the Brashtide|QID|26697|CC|N|Talk to Keebok right behind you near the horde flightpath.|
 C The Final Voyage of the Brashtide|QID|26697|M|31.93,58.35|N|Drop lots of bombs. Make sure you hit little boats too.|
 T Turning the Brashtide|QID|26699|M|41.18,73.09|N|To Baron Revilgaz.|
 T The Damsel's (Bad) Luck|QID|26700|M|41.18,73.09|N|To Baron Revilgaz.|
 T The Final Voyage of the Brashtide|QID|26697|M|41.18,73.09|N|To Baron Revilgaz.|
 A Bloodsail's End|QID|26703|M|41.18,73.09|N|From Baron Revilgaz.|
-R Bloodsail's End.|QID|26703|CC|Nalk to Keebok right behind you near the horde flightpath.|
+R Bloodsail's End.|QID|26703|CC|N|Talk to Keebok right behind you near the horde flightpath.|
 C Bloodsail's End|QID|26703|M|36.08,66.52|
 T Bloodsail's End|QID|26703|M|41.13,73.12|N|To Baron Revilgaz.|
 A The Battle for Andorhal|QID|28750|M|41.73,74.05|N|From Arcanist Arman.|

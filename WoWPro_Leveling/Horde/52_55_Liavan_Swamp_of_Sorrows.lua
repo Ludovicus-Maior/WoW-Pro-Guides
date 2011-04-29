@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2011-04-29 16:35
+-- Who: Ludovicus Maior
+-- Log: Line 69 for step C has 1 M coords
+
+-- URL: http://wow-pro.com/node/3250/revisions/23626/view
 -- Date: 2010-12-06 05:51
 -- Who: Liavan
 
@@ -66,7 +71,7 @@ C Legends of the Sunken Temple|QID|27704|NC|M|69.55,51.85;70.96,45.96;71.41,43.5
 C Legends of the Sunken Temple|QID|27704|NC|M|54.27,79.03|
 T Legends of the Sunken Temple|QID|27704|M|54.29,79.03|
 A Step One: The Priestess|QID|27705|M|54.29,79.03|
-C Step One: The Priestess|QID|27705|M|73.04,46.30;74.79;49.24|
+C Step One: The Priestess|QID|27705|M|73.04,46.30;74.79,49.24|
 T Step One: The Priestess|QID|27705|M|54.29,79.03|
 A Step Two: The Bloodletter|QID|27768|M|53.99,79.65|N|From Lord Itharius.|
 C Step Two: The Bloodletter|QID|27768|M|77.52,46.16|

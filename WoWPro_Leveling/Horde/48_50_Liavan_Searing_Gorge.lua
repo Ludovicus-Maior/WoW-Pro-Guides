@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_horde
+-- Date: 2011-04-29 16:33
+-- Who: Ludovicus Maior
+-- Log:  Line 119 for step T has unknown tag [Speak with ...]
+
+-- URL: http://wow-pro.com/node/3256/revisions/24214/view
 -- Date: 2011-04-05 23:22
 -- Who: Ludovicus Maior
 
@@ -116,7 +121,7 @@ A Deceit|QID|28033|M|39.33,67.75|Z|Searing Gorge|N|From Mountain-Lord Rendan.|
 T Deceit|QID|28033|M|39.71,67.97|Z|Searing Gorge|N|To Lunk.|
 A Lunk's Adventure: Rendan's Weakness|QID|28034|M|39.71,67.97|Z|Searing Gorge|N|From Lunk.|
 C Lunk's Adventure: Rendan's Weakness|QID|28034|M|40.58,68.23|Z|Searing Gorge|
-T Lunk's Adventure: Rendan's Weakness|QID|28034|M|39.52,67.82|Z|Searing Gorge|N|TN|Speak with three Iron Summit Guards and ask them to join your dance. |o Mountain-Lord Rendan.|
+T Lunk's Adventure: Rendan's Weakness|QID|28034|M|39.52,67.82|Z|Searing Gorge|N|Speak with three Iron Summit Guards and ask them to join your dance. The go to Mountain-Lord Rendan.|
 A The Mountain-Lord's Support|QID|28035|M|39.52,67.82|Z|Searing Gorge|N|From Mountain-Lord Rendan.|
 h Iron Summit|M|39.21,66.02|N|At Velma Rockslide.|
 F Thorium Point|QID|28035|M|40.89,68.91|N|Fly to Thorium Point.|

@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2011-04-29 15:51
+-- Who: Ludovicus Maior
+-- Log: Line 96 for step C has 1 M coords
+
+-- URL: http://wow-pro.com/node/3216/revisions/24293/view
+-- Date: 2011-04-29 14:23
+-- Who: Ludovicus Maior
+-- Log: Line 91 for step C has 1 M coords.
+
+-- URL: http://wow-pro.com/node/3216/revisions/23969/view
 -- Date: 2011-01-09 20:36
 -- Who: Ludovicus Maior
 -- Log: Verified previous changes.
@@ -88,7 +98,7 @@ T In Defense of the King's Lands|QID|26146|M|23.41,75.00|N|To Captain Rugelfuss.
 A A Decisive Strike|QID|26148|M|23.37,75.01|N|From Captain Rugelfuss.|
 A Bigger and Uglier|QID|26147|M|23.40,75.02|N|From Mountaineer Wallbang.|
 C Bigger and Uglier|QID|26147|M|35.04,59.37|S|N|Killing Stonesplinters
-C A Decisive Strike|QID|26148|M|33.08;70.65;35.36,65.18;35.64.62.25;33.86,62.19;35.60,61.10|N|Grawmug in the rear of the cave|
+C A Decisive Strike|QID|26148|M|33.08,70.65;35.36,65.18;35.64,62.25;33.86,62.19;35.60,61.10|N|Grawmug in the rear of the cave|
 C Bigger and Uglier|QID|26147|M|35.04,59.37|US|N|Killing Stonesplinters|
 T A Decisive Strike|QID|26148|M|23.40,75.01|N|To Captain Rugelfuss.|
 T Bigger and Uglier|QID|26147|M|23.34,75.01|N|To Mountaineer Wallbang.|

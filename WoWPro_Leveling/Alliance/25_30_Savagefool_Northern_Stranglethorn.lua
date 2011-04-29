@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2011-04-29 14:30
+-- Who: Ludovicus Maior
+-- Log: Line 55 for step C has unknown tag [These are all over the place in Kurzen's Compound.]
+
+-- URL: http://wow-pro.com/node/3231/revisions/24125/view
 -- Date: 2011-02-23 01:21
 -- Who: Ludovicus Maior
 -- Log: Link this guide to BitCap3035.
@@ -52,7 +57,7 @@ A Panther Stalking|QID|191|M|53.58,24.18|N|From the drop down menu.|
 C The Fate of Kurzen|QID|26735|M|57.65,21.21|N|These are all over the place in Kurzen's Compound.|S|
 C Bad Medicine|QID|26732|M|57.85,20.58|
 A Just Hatched|QID|26738|M|57.85,20.58|N|From the drop down menu. You get this quest when you loot a Lashtail Raptor Egg Fragment.|
-C The Fate of Kurzen|QID|26735|M|57.65,21.21|These are all over the place in Kurzen's Compound.|US|
+C The Fate of Kurzen|QID|26735|M|57.65,21.21|N|These are all over the place in Kurzen's Compound.|US|
 C Tiger Stalking|QID|186|M|60.23,29.45|
 T Tiger Stalking|QID|186|M|60.23,29.45|N|From the drop down menu.|
 A Tiger Prowess|QID|187|M|60.23,29.45|N|From the drop down menu.|

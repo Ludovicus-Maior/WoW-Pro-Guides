@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2011-04-29 16:44
+-- Who: Ludovicus Maior
+-- Log: Line 26 for step A has unknown tag [71.5,40.5]
+
+-- URL: http://wow-pro.com/node/3280/revisions/23449/view
 -- Date: 2010-12-03 21:35
 -- Who: Jiyambi
 
@@ -23,7 +28,7 @@ C I Must Have Them! |QID|10109|M|69.5,57.0|S|
 
 A Windroc Mastery (Part 1) |QID|9854|N|Shado 'Fitz' Farstider, north at the Nesingwary Safari.|M|71.6,40.5|
 A Clefthoof Mastery (Part 1) |QID|9789|N|Hemet Nesingwary |M|71.5,40.8|
-A Talbuk Mastery (Part 1) |QID|9857|N|Harold Lane (71.4, 40.6)M|71.5,40.5|
+A Talbuk Mastery (Part 1) |QID|9857|N|Harold Lane|M|71.5,40.5|
 C Windroc Mastery (Part 1) |QID|9854|S|
 C Clefthoof Mastery (Part 1) |QID|9789|S|
 C Talbuk Mastery (Part 1) |QID|9857|S|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_silithus_horde
+-- Date: 2011-04-29 16:43
+-- Who: Ludovicus Maior
+-- Log: Line ** for step * has unknown tag [GRP], Line 27 for step C has unknown tag [From spiders and scorpions.]:
+
+-- URL: http://wow-pro.com/node/3270/revisions/23422/view
 -- Date: 2010-12-03 12:07
 -- Who: Jiyambi
 
@@ -14,23 +19,23 @@ T The Dunes of Silithus|O|QID|28859|M|54.92,35.85|N|To Windcaller Proudhorn.|
 T Warchief's Command: Silithus!|O|QID|28527|M|54.92,35.85|N|To Windcaller Proudhorn.|
 N Silithus|QID|28859|M|53.29,33.61|N|This zone is NOT very well designed at all. If you'd like to skip it (I recommend this), take Call of the Warmatron from the orc inside the main building, then go through the portal in to the Blasted Lands. Open up the WoW-Pro guide list and choose the Blasted Lands guide. If you'd still like to do this zone, just click off this step.|
 A Securing the Supply Lines|QID|8280|M|54.92,35.85|N|From Windcaller Proudhorn.|
-A Wanted - Deathclasp, Terror of the Sands|QID|8283|M|55.05,35.93|GRP|3|N|From Windcaller Proudhorn.|
+A Wanted - Deathclasp, Terror of the Sands|QID|8283|M|55.05,35.93|N|From Windcaller Proudhorn.|
 h Cenarion Hold|QID|8304|M|55.51,36.72|N|If you'd like, set your hearth at Calandrath.|
 A Deadly Desert Venom|QID|8277|M|55.35,36.26|N|From Beetix Ficklespragg.|
 A The Twilight Mystery|QID|8284|M|53.58,35.24|N|From Geologist Larksbane.|
 A Report to General Kirika|QID|9416|M|52.96,34.68|N|From Scout Bloodfist.|
-f Cenarion Hold|QID||M|52.75,34.66|N|From Runk Windtamer.|
+f Cenarion Hold|QID|9416|M|52.75,34.66|N|From Runk Windtamer.|
 A Secret Communication|QID|8318|M|52.67,35.56|N|From Bor Wildmane.|
 A Twilight Geolords|QID|8320|M|52.76,35.63|N|From Huum Wildmane.|
 A Dearest Natalia|QID|8304|M|53.22,32.48|N|From Commander Mar'alith.|
 
-C Deadly Desert Venom|QID|8277|M|47.91,36.17|S|From spiders and scorpions.|
+C Deadly Desert Venom|QID|8277|M|47.91,36.17|S|N|From spiders and scorpions.|
 C Securing the Supply Lines|QID|8280|M|47.27,38.32|S|
 C Secret Communication|QID|8318|M|43.32,38.61|S|N|Dropped by Geolords and Prophets.|
 C Twilight Geolords|QID|8320|M|43.91,40.41|N|This camp should have enough Geolords. Prophets occassionally patrol through - be careful, they are elite and quite strong, but if you manage to kill one the drop 10 Encrypted Texts.|
 C Secret Communication|QID|8318|M|43.32,38.61|US|N|Dropped by Geolords and Prophets. Be careful, the Prophets are elite and quite strong, but if you manage to kill one the drop 10 Encrypted Texts..|
 C The Twilight Mystery|NC|QID|8284|M|29.44,9.74|N|Loot the tablets scattered around the ground in the Crystal Vale.|
-C Deadly Desert Venom|QID|8277|M|47.91,36.17|US|From spiders and scorpions.|
+C Deadly Desert Venom|QID|8277|M|47.91,36.17|US|N|From spiders and scorpions.|
 C Securing the Supply Lines|QID|8280|M|47.27,38.32|US|
 
 T Secret Communication|QID|8318|M|52.67,35.62|N|To Bor Wildmane, back at Cenarion Hold.|
@@ -73,7 +78,7 @@ T A Terrible Purpose|QID|8287|M|53.21,32.43|N|To Commander Mar'alith.|
 
 A Glyph Chasing|QID|8309|M|46.35,79.20|N|From Rutgar Glyphshaper, at the Bronsebeard Encampment to the south.|
 A Breaking the Code|QID|8310|M|46.11,79.44|N|From Frankal Stonebridge.|
-C Wanted - Deathclasp, Terror of the Sands|QID|8283|M|49.61,82.45|GRP|3|N|This is a group quest, skip it if you are on your own.|
+C Wanted - Deathclasp, Terror of the Sands|QID|8283|M|49.61,82.45|N|This is a group quest, skip it if you are on your own.|
 C Noggle's Lost Satchel|NC|QID|8282|M|49.32,81.46|N|If you aren't in a group, be very careful of Deathclasp!|
 
 C Breaking the Code|S|QID|8310|M|55.51,90.60|QO|Hive'Regal Silithid Brain: 1/1|N|Kill and loot silithid.|
@@ -82,7 +87,7 @@ C Glyph Chasing|QID|8309|M|55.51,90.60|QO|Hive'Regal Rubbing: 1/1|N|Right-click 
 C Breaking the Code|US|QID|8310|M|55.51,90.60|QO|Hive'Regal Silithid Brain: 1/1|N|Kill and loot silithid.|
 
 H Cenarion Hold|QID|8321|M|55.51,36.72|N|Ride if you didn't set your hearth there.|
-T Wanted - Deathclasp, Terror of the Sands|QID|8283|M|54.58,31.99|GRP|3|N|To Vish Kozus. Congrats on the very nice piece of gear!|
+T Wanted - Deathclasp, Terror of the Sands|QID|8283|M|54.58,31.99|N|To Vish Kozus. Congrats on the very nice piece of gear!|
 
 C Breaking the Code|S|QID|8310|M|52.83,25.23|QO|Hive'Ashi Silithid Brain: 1/1|N|Kill and loot silithid.|
 C Glyph Chasing|QID|8309|M|52.83,25.23;54.70,26.16|QO|Hive'Ashi Rubbing: 1/1|N|Right-click the white stone.|

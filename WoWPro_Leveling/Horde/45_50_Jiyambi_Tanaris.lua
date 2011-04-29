@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
+-- Date: 2011-04-29 18:11
+-- Who: Ludovicus Maior
+-- Log:  Line 150 for step C Bad coord In the center of the desert:
+
+-- URL: http://wow-pro.com/node/3260/revisions/23402/view
 -- Date: 2010-12-03 11:49
 -- Who: Jiyambi
 
@@ -147,7 +152,7 @@ T I'm With Scorpid|QID|25521|RANK|2|M|42.47,24.24|N|To Gus Rustflutter.|
 A Gargantapid|QID|25522|RANK|2|M|42.46,24.24|N|From Gus Rustflutter.|
 
 C Gargantapid|QID|25522|RANK|2|M|46.11,23.71|N|In a cave to the east.|
-C Sang'thraze the Deflector|QID|25025|RANK|2|M|44.98,44.68|M|In the center of the desert, you'll find a wind elemental. Kill and loot him.|
+C Sang'thraze the Deflector|QID|25025|RANK|2|M|44.98,44.68|N|In the center of the desert, you'll find a wind elemental. Kill and loot him.|
 
 T Andoren Will Know|QID|25018|M|33.32,77.00|N|To Examiner Andoren Dawnrise.|
 A Fragments of Language|QID|25020|M|33.32,77.00|N|From Examiner Andoren Dawnrise.|

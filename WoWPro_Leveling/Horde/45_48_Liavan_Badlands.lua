@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
+-- Date: 2011-04-29 16:29
+-- Who: Ludovicus Maior
+-- Log: Line 22 for step A has 3 M coords, Line 124 for step A has unknown tag [From Gargal]
+
+-- URL: http://wow-pro.com/node/3248/revisions/24047/view
 -- Date: 2011-01-24 10:34
 -- Who: Crackerhead22
 -- Log: Added notes.
@@ -19,7 +24,7 @@
 WoWPro.Leveling:RegisterGuide('LiaBad4548', 'Badlands', 'Liavan', '45', '48', 'LiaSea4850', 'Horde', function()
 return [[
 
-A To Fuselight Proper|QID|27763|M|,92.77,38.90|N|From Eddie Flofizzle.|
+A To Fuselight Proper|QID|27763|M|92.77,38.90|N|From Eddie Flofizzle.|
 
 T To Fuselight Proper|QID|27763|M|88.37,32.67;65.11,38.29|N|To Dolph Blastus.|
 A Easily Swayed|QID|27774|M|65.11,38.29|N|From Dolph Blastus.|
@@ -121,7 +126,7 @@ A The Bad Dogs|QID|27890|M|18.06,42.39|N|From Rhea.|
 T The Bad Dogs|QID|27890|M|18.77,42.88|N|To Amakkar.|
 A Amakkar, Jack of All Trades|QID|27891|M|18.77,42.87|N|From Amakkar.|
 A Jurrix the Striker|QID|27892|M|18.78,42.87|N|From Jurrix Whitemane.|
-A Gargal, the Behemoth|QID|27893|M|18.83,42.88|From Gargal
+A Gargal, the Behemoth|QID|27893|M|18.83,42.88|N|From Gargal
 A Half-Ton Holdouts|QID|27880|M|17.71,43.77|N|From Gorn.|RANK|3|
 C Jurrix the Striker|QID|27892|M|20.94,42.89|N|Test out both abilities on any nearby mobs.|
 C Amakkar, Jack of All Trades|QID|27891|M|20.94,42.89|N|Test out both abilities on any nearby mobs.|

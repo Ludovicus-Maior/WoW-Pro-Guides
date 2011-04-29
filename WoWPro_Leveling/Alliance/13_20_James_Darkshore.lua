@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2011-04-29 14:23
+-- Who: Ludovicus Maior
+-- Log: Line 249 for step C has unknown tag [Follow Archaeologist Hollee.]
+
+-- URL: http://wow-pro.com/node/3218/revisions/23872/view
 -- Date: 2010-12-31 03:04
 -- Who: Fluclo
 -- Log: Added step to Coax Taldan's Spirit which auto-completes on coaxing the spirit
@@ -246,7 +251,7 @@ A Coaxing the Spirits|QID|13547|M|39.08,43.13|N|From Yalda.|
 l Frienzied Cyclone Bracers|QID|13542|M|39.51,42.09|N|Kill Frenzied Cyclones to get their bracers.|L|44868 8|S|
 A The Last Refugee|QID|13605|M|38.59,42.37|N|From Archaeologist Hollee.|
 N Coax Taldan's Spirit|QID|13547|M|38.54,41.89|N|Grab Taldan's Spirit when Archaeologist Hollee stops at his corpse.|QO|Taldan's spirit coaxed: 1/1|
-C The Last Refugee|QID|13605|NC|M|41.20,43.34|Follow Archaeologist Hollee.|
+C The Last Refugee|QID|13605|NC|M|41.20,43.34|N|Follow Archaeologist Hollee.|
 N Sentinel Elissa Starbreeze's Spirit|QID|13547|M|40.95,41.41|N|Grab Elissa's spirit.|QO|Sentinel Elissa Starbreeze's spirit coaxed: 1/1|
 K Cloudtamer Wildmane|QID|13543|M|40.76,41.51|QO|Cloudtamer Wildmane slain: 1/1|N|Head upstairs and Kill Cloudtamer.|
 N Thundris Windweaver's Spirit|QID|13547|M|39.31,38.96|QO|Thundris Windweaver's spirit coaxed: 1/1|N|Talk to Thundris' corpse to get his spirit.|

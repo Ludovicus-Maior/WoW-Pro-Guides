@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2011-04-29 15:35
+-- Who: Ludovicus Maior
+-- Log: Line 123 for step C has unknown tag [Collect Centaur ...], Line 128 for step C has unknown tag [Use the Fungal ...], Line 158 for step C has unknown tag [.], Line 241 for step C has unknown tag [n].
+
+-- URL: http://wow-pro.com/node/3214/revisions/23297/view
 -- Date: 2010-12-03 07:24
 -- Who: Jiyambi
 
@@ -120,12 +125,12 @@ A Into the Raptor's Den|QID|905|PRE|881|RANK|1|M|49.98,59.82|N|From Sergra Darkt
 C Into the Raptor's Den|QID|905|U|5165|S|M|48.57,74.81;49.64,75.15;47.80,74.67;48.01,76.08|N|From now on kill Raptors on sight until you have 3 feathers.|
 A Flushing Out Verog|QID|14072|RANK|1|M|55.11,78.38|N|From Shoe.|
 A King of Centaur Mountain|QID|13995|RANK|2|M|54.97,78.57|N|Escort quest. From Gorgal Angerscar.|
-C Flushing Out Verog|QID|14072|S|M|52.94,80.85|Collect Centaur Intelligence from centaur camps while questing.|
+C Flushing Out Verog|QID|14072|S|M|52.94,80.85|N|Collect Centaur Intelligence from centaur camps while questing.|
 
 C King of Centaur Mountain|QID|13995|NC|M|54.37,78.36|N|Escort quest. Follow Gorgal and protect him. Help him kill Kurak.|
 T King of Centaur Mountain|QID|13995|M|55.15,78.43|N|To Shoe.|
 
-C In Fungus We Trust|QID|13998|NC|U|46789|M|54.94,80.12|Use the Fungal Cultures near the Stagnant Oasis.|
+C In Fungus We Trust|QID|13998|NC|U|46789|M|54.94,80.12|N|Use the Fungal Cultures near the Stagnant Oasis.|
 T A Growing Problem|QID|13988|M|58.77,81.07;60.73,85.38|N|Go up the mountain path to Jerrik Highmountain.|
 
 A The Stagnant Oasis|QID|877|PRE|13988|RANK|1|M|60.73,85.38|N|From Jerrik Highmountain.|
@@ -155,7 +160,7 @@ T Deathgate's Reinforcements|QID|14073|M|37.79,55.33|N|To Regthar Deathgate.|
 A Hezrul Bloodmark|QID|852|PRE|14073|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 A Centaur Bracers|QID|855|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 
-C Centaur Bracers|QID|855|S|M|39.71,70.36|N|Kill Kolkar Marauders and Stormseers and loot their Bracers.|.
+C Centaur Bracers|QID|855|S|M|39.71,70.36|N|Kill Kolkar Marauders and Stormseers and loot their Bracers.|
 C Hezrul Bloodmark|QID|852|M|40.14,72.17|N|Slay Hezrul Bloodmark and collect his head. He has two minions with him.|
 C Centaur Bracers|QID|855|US|M|39.71,70.36|N|Finish collecting 10 Centaur Bracers from Kolkar Marauders and Stormseers.|
 
@@ -238,7 +243,7 @@ A Love it or Limpet|QID|14038|PRE|14034|RANK|1|M|68.37,69.12|N|From Gazlowe.|
 T Find Baron Longshore|QID|14045|M|69.85,85.27|N|To Baron Longshore.|
 
 A The Baron's Demands|QID|14046|PRE|14045|RANK|1|M|69.85,85.27|N|From Baron Longshore.|
-C The Baron's Demands|QID|14046|M|69.85,85.27|n|Free Baron Longshore.|
+C The Baron's Demands|QID|14046|M|69.85,85.27|N|Free Baron Longshore.|
 T The Baron's Demands|QID|14046|M|69.86,85.17|N|To Baron Longshore.|
 
 A A Most Unusual Map|QID|14049|PRE|14046|RANK|1|M|69.86,85.17|N|From Baron Longshore.|

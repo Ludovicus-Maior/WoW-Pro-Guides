@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2011-04-29 14:27
+-- Who: Ludovicus Maior
+-- Log: Line 103 for step C has unknown tag [Kill Worgen as you go in Brightwood Grove.], Line 105 for step C has unknown tag [Finish Killing Worger], Line 107 for step T has unknown tag [Calor across from the fountain.], Line 108 for step A has unknown tag [Calor across from the fountain.], Line 139 for step A has unknown tag [Calor across the road from the fligh path.], Line 159 for step C has unknown tag [Finish killing.].
+
+-- URL: http://wow-pro.com/node/3222/revisions/23818/view
 -- Date: 2010-12-23 05:48
 -- Who: Crackerhead22
 
@@ -100,12 +105,12 @@ A Juice Delivery|QID|26676|M|73.83,44.47|N|Tavernkeep Smitts in the Scarlet Rave
 T Juice Delivery|QID|26676|M|87.45,35.38|N|Abercrombie outside of town at Beggar's Haunt.|
 A Ogre Thieves|QID|26680|M|87.45,35.38|N|Abercrombie outside of town at Beggar's Haunt.|
 
-C Worgen in the Woods|QID|26688|M|75.28,47.95|Kill Worgen as you go in Brightwood Grove.|S|
+C Worgen in the Woods|QID|26688|M|75.28,47.95|N|Kill Worgen as you go in Brightwood Grove.|S|
 C The Stolen Letters|QID|26667|M|61.24,40.39|N|Laying on the ground outside the tents.|
-C Worgen in the Woods|QID|26688|M|75.28,47.95|Finish Killing Worger|US|
+C Worgen in the Woods|QID|26688|M|75.28,47.95|N|Finish Killing Worgen.|US|
 
-T Worgen in the Woods|QID|26688|M|75.28,47.95|Calor across from the fountain.|
-A The Rotting Orchard|QID|26689|M|75.28,47.95|Calor across from the fountain.|
+T Worgen in the Woods|QID|26688|M|75.28,47.95|N|Calor across from the fountain.|
+A The Rotting Orchard|QID|26689|M|75.28,47.95|N|Calor across from the fountain.|
 T The Stolen Letters|QID|26667|M|72.50,46.87|N|Clerk Daltry in the Darkshire Town Hall|
 A In A Dark Corner|QID|26669|M|72.50,46.87|N|Clerk Daltry in the Darkshire Town Hall|
 
@@ -136,7 +141,7 @@ T In A Dark Corner|QID|26669|M|72.50,46.87|N|Clerk Daltry in the Darkshire Town 
 A Roland's Doom|QID|26670|M|72.50,46.87|N|Clerk Daltry in the Darkshire Town Hall|
 
 T The Rotting Orchard|QID|26689|M|75.28,47.95|N|Calor across from the fountain.|
-A Vile and Tainted|QID|26690|M|75.28,47.95|Calor across the road from the fligh path.|
+A Vile and Tainted|QID|26690|M|75.28,47.95|N|Calor across the road from the fligh path.|
 
 T Classy Glass|QID|26685|M|79.53,47.41|N|Viktori Prism'Antras across the road from the fligh path.|
 T Ogre Thieves|QID|26680|M|87.45,35.38|N|Abercrombie outside of town at Beggar's Haunt.|
@@ -154,9 +159,9 @@ C The Embalmer's Revenge|QID|26727|M|73.84,46.62|N|He spawns in the middle of to
 
 T The Embalmer's Revenge|QID|26727|M|71.85,46.45|N|Lord Ello Ebonlocke in Darkshire Town Hall.|
 
-C Vile and Tained|QID|26690|N|Kill as you go.|S|
+C Vile and Tainted|QID|26690|N|Kill as you go.|S|
 C Roland's Doom|QID|26670|M|73.63,79.19|N|In the back of the cave.|
-C Vile and Tained|QID|26690|Finish killing.|US|
+C Vile and Tainted|QID|26690|N|Finish killing.|US|
 
 T Vile and Tainted|QID|26690|M|75.28,47.95|N|Calor across the road from the Inn.|
 A Worgen in the Woods|QID|26691|M|75.28,47.95|N|Calor across the road from the Inn.|

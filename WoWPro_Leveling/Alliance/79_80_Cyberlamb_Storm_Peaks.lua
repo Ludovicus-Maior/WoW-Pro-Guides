@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2011-04-29 15:08
+-- Who: Ludovicus Maior
+-- Log: Line 558, for step C non-decimal U
+
+-- URL: http://wow-pro.com/node/3299/revisions/24224/view
 -- Date: 2011-04-05 23:39
 -- Who: Ludovicus Maior
 
@@ -555,7 +560,7 @@ A Relief for the Fallen |QID|12937| |N|From Bouldercrag the Rockshaper| |M|31.4,
 
 C Fighting Back |QID|12931| |N|Kill 10 Stormforged Raiders| |M|27,38|
 
-C Relief for the Fallen |QID|12937| |N|Use the Telluric Poultice and aid 8 Fallen Earthen Defenders in this area| |U|i41988|
+C Relief for the Fallen |QID|12937| |N|Use the Telluric Poultice and aid 8 Fallen Earthen Defenders in this area| |U|41988|
 
 T Fighting Back |QID|12931| |N|Bouldercrag the Rockshaper| |M|31.4,38.0|
 

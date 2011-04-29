@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-04-29 18:18
+-- Who: Ludovicus Maior
+-- Log: Changed O steps to N steps.
+
+-- URL: http://wow-pro.com/node/3200/revisions/24226/view
 -- Date: 2011-04-05 23:41
 -- Who: Ludovicus Maior
 
@@ -62,8 +67,8 @@ h Thunderbrew Distillery|QID|384|M|54.47,50.81|Z|Dun Morogh|N|Make Thunderbrew D
 N Sell junk|QID|384|M|54.47,50.81|Z|Dun Morogh|N|To Innkeeper Belm.|
 B Rhapsody Malt|NC|QID|384|M|54.47,50.81|Z|Dun Morogh|N|From Innkeeper Belm.|QO|Rhapsody Malt: 1/1|
 
-O Train Cooking|QID|384|M|54.69,50.89|Z|Dun Morogh|N|Train this secondary profession if you want to.|
-O Train First Aid|QID|384|M|54.31,50.90|Z|Dun Morogh|N|Train this secondary profession if you want to.|
+N Train Cooking|QID|384|M|54.69,50.89|Z|Dun Morogh|N|Train this secondary profession if you want to.|
+N Train First Aid|QID|384|M|54.31,50.90|Z|Dun Morogh|N|Train this secondary profession if you want to.|
 
 N Train new skills/spells|QID|384|M|54.69,50.89|Z|Dun Morogh|N|Train any new skills/spells you need.|C|Rogue|
 N Train new skills/spells|QID|384|M|54.46,50.93|Z|Dun Morogh|N|Train any new skills/spells you need.|C|Warrior|

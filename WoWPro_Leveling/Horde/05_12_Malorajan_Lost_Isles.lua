@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2011-04-29 15:27
+-- Who: Ludovicus Maior
+-- Log: Line 213 for step A has unknown tag [From Sassy Hardwrench.]
+
+-- URL: http://wow-pro.com/node/3212/revisions/24268/view
 -- Date: 2011-04-25 21:58
 -- Who: Crackerhead22
 
@@ -210,7 +215,7 @@ C Volcanoth!|QID|24958|U|52043|M|70.88,52.34|N|Hotkey the Bootzooka, get in rang
 T Volcanoth!|QID|24958|M|72.87,57.02|N|To Sassy Hardwrench.|
 
 h Warchief's Lookout|QID|24958|M|72.87,57.02|N|Sets automatically.|
-A Old Friends|QID|25023|M|72.87,57.02|From Sassy Hardwrench.|
+A Old Friends|QID|25023|M|72.87,57.02|N|From Sassy Hardwrench.|
 L Level 10|QID|25023|LVL|10|N|You should be around level 10 by this point.|
 T Old Friends|QID|25023|M|36.81,43.16|N|To Thrall.|
 A Repel the Paratroopers|QID|25024|M|36.81,43.16|N|From Thrall.|

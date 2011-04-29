@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_uldum_horde
+-- Date: 2011-04-29 17:14
+-- Who: Ludovicus Maior
+-- Log: Line 44, for step C non-decimal U:, Line 104 for step T has unknown tag [l]
+
+-- URL: http://wow-pro.com/node/3310/revisions/24175/view
 -- Date: 2011-03-12 18:43
 -- Who: Ludovicus Maior
 
@@ -41,7 +46,7 @@ A Budd's Plan|QID|27924|M|59.71,72.03|N|From Budd.|
 C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Set bales of hay on fire.|S|
 C Budd's Plan|QID|27924|M|60.91,74.08|N|Kill Neferset Denizens and Neferset Sentinels for Armor Pieces or find them on ground.|S|
 C Kavem the Callous|QID|28105|L|62817|M|59.96,73.92|N|Kill Kavem and loot the Neferset Key.|
-C Smoke in Their Eyes|QID|27923|U|630l27|M|62.12,73.98|N|Set bales of hay on fire.|US|
+C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Set bales of hay on fire.|US|
 C Budd's Plan|QID|27924|M|60.91,74.08|N|Kill Neferset Denizens and Neferset Sentinels for Armor Pieces or find them on ground.|US|
 
 T Smoke in Their Eyes|QID|27923|M|59.65,72.05|N|To Prince Nadun.|
@@ -101,7 +106,7 @@ C Just the Tip|QID|27176|M|68.08,31.51|L|60868|U|60859|M|67.91,31.44|N|Kill Sult
 C Field Work|QID|27179|M|63.50,31.33|N|Kill Sand Pygmys and loot Ornate Tablet Fragments. You can also find them lying around in this area.|
 C Do the World a Favor|QID|27187|M|64.38,32.13|N|Kill Mangy Hyenas.|US|
 
-T Do the World a Favor|QID|27187|M|64.38,32.13|l
+T Do the World a Favor|QID|27187|M|64.38,32.13|
 T Field Work|QID|27179|M|64.60,28.65|N|To Harrison Jones.|
 T Just the Tip|QID|27176|M|64.60,28.65|N|To Harrison Jones.|
 

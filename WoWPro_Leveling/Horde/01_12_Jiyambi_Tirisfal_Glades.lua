@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2011-04-29 15:20
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3205/revisions/24070/view
 -- Date: 2011-01-29 17:11
 -- Who: Ludovicus Maior
 -- Log: Added missing QID to Level 4 step.
@@ -31,7 +35,9 @@
 -- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades - Undead', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function()
-return [[A Fresh out of the Grave|QID|24959|M|29.41,70.96|R|Undead|N|From Agatha.|
+return [[
+
+A Fresh out of the Grave|QID|24959|M|29.41,70.96|R|Undead|N|From Agatha.|
 T Fresh out of the Grave|QID|24959|M|30.04,71.27|R|Undead|N|To Undertaker Mordo.|
 
 A The Shadow Grave|QID|28608|M|30.04,71.27|R|Undead|N|From Undertaker Mordo.|

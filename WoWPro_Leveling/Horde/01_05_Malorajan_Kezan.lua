@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2011-04-29 15:27
+-- Who: Ludovicus Maior
+-- Log: Line 213 for step A has unknown tag [From Sassy Hardwrench.]
+
+-- URL: http://wow-pro.com/node/3212/revisions/24268/view
 -- Date: 2011-04-25 21:58
 -- Who: Crackerhead22
 

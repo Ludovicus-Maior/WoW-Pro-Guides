@@ -1,4 +1,18 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-04-29 15:27
+-- Who: Ludovicus Maior
+-- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
+
+-- URL: http://wow-pro.com/node/3199/revisions/24318/view
+-- Date: 2011-04-29 15:25
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3199/revisions/24315/view
+-- Date: 2011-04-29 15:19
+-- Who: Ludovicus Maior
+-- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
+
+-- URL: http://wow-pro.com/node/3199/revisions/24148/view
 -- Date: 2011-03-08 12:18
 -- Who: Ludovicus Maior
 -- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.
@@ -61,14 +75,16 @@
 -- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('BitDur0512', 'Durotar', 'Bitsem', '05', '12', 'BitAzs1220', 'Horde', function()
-return [[A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|
+return [[
+
+A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|
 A Cleaning Up the Coastline|QID|25170|M|55.77,75.34|N|From Bom'bay.|
 f Sen'jin Village|QID|25170|M|55.40,73.40|N|At Handler Marnlek.|N|Train Herbalism, Alchemy, Fishing or Riding if you wish.|
 C Cleaning Up the Coastline|QID|25170|S|M|59.02,74.41|N|Kill 5 Pygmy Surf Crawlers for Crawler Mucus, while destroying 3 Northwatch Supply Crates and killing 10 Northwatch Lugs.|
 
 L Level 6|QID|25170|LVL|6|N|You should be around level 6 by this point.|
 
-C Breaking the Chain|QID|25167|M|52.45,80.60|Destroy 3 Northwatch Supply Crates and kill 10 Northwatch Lugs.|
+C Breaking the Chain|QID|25167|M|52.45,80.60|N|Destroy 3 Northwatch Supply Crates and kill 10 Northwatch Lugs.|
 C Cleaning Up the Coastline|QID|25170|US|M|59.02,74.41|N|Kill 5 Pygmy Surf Crawlers.|
 T Breaking the Chain|QID|25167|M|55.95,74.80|N|To Master Gadrin.|
 A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|
@@ -91,7 +107,7 @@ f Razor Hill|QID|25171|M|55.96,74.80;53.06,43.58|N|Train new skills, then talk t
 T Riding On|QID|25171|M|51.92,43.48|N|To Gar'Thok.|
 
 A From Bad to Worse|QID|25173|M|51.92,43.48|N|From Gar'Thok.|
-A Meats to Orgrimmar|QID|6365|M|50.76,42.78|R|Orc,Tauren,Troll|From Grimtak.|
+A Meats to Orgrimmar|QID|6365|M|50.76,42.78|R|Orc,Tauren,Troll|N|From Grimtak.|
 h Razor Hill|QID|25176|M|51.61,41.65|N|At Innkeeper Grosk.|
 A Exploiting the Situation|QID|25176|M|53.05,43.12|N|From Gail Nozzywig.|
 R Profession Trainers||QID|25176|M|52.96,41.90|N|To Runda-Profession Trainer, outside the Barracks|

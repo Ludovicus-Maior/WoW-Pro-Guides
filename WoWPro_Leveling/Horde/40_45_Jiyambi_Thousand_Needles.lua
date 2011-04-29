@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2011-04-29 16:28
+-- Who: Ludovicus Maior
+-- Log: Line 48 for step A has unknown tag [From Razzeric.], Line 163 for step A has 1 M coords, Line 199 for step A has 1 M coords.
+
+-- URL: http://wow-pro.com/node/3254/revisions/23672/view
 -- Date: 2010-12-07 04:52
 -- Who: Jiyambi
 
@@ -45,7 +50,7 @@ C In the Outhouse|QID|25526|U|54821|M|79.58,75.03|N|Use the crowbar on the outho
 T In the Outhouse|QID|25526|M|79.58,75.03|N|At the outhouse.|
 
 T Down in the Deeps|QID|25516|M|77.10,74.45|N|To Razzeric.|
-A Pirate Accuracy Increasing|QID|25533|PRE|25516|M|77.10,74.45|From Razzeric.|
+A Pirate Accuracy Increasing|QID|25533|PRE|25516|M|77.10,74.45|N|From Razzeric.|
 C Pirate Accuracy Increasing|QID|25533|M|79.18,76.61|N|Head to the dock and talk to the goblin there. He'll give you a boat that will act as a pet. Use the main ability to extinguish the fires - it's pretty difficult, just pe patient and aim for the base of the fires.|
 T Pirate Accuracy Increasing|QID|25533|
 A Circle the Wagons... er, Boats|QID|25543|PRE|25533|
@@ -160,7 +165,7 @@ T What's that Rattle?|QID|28284|M|43.35,43.43|N|To the rattle outside the tent.|
 A The Rattle of Bones|QID|27317|PRE|27276|M|43.35,43.43|N|From the rattle.|
 T The Rattle of Bones|QID|27317|M|43.35,43.43|N|To Freewind Brave.|
 A The Writ of History|QID|27321|PRE|27317|M|43.60,43.73|N|From Freewind Brave.|
-A The Drums of War|QID|27326|M|PRE|27317|43.60,43.73|N|From Freewind Brave.|
+A The Drums of War|QID|27326|PRE|27317|M|43.60,43.73|N|From Freewind Brave.|
 
 C The Writ of History|QID|27321|NC|M|38.74,41.81|
 T The Writ of History|QID|27321|M|38.75,41.91|N|To Freewind Brave.|
@@ -196,7 +201,7 @@ C Death to all Trappers!|QID|28087|M|10.38,33.91|N|Kill and loot the trappers.|
 C Free the Pridelings|QID|28086|NC|M|11.00,36.76|US|N|Right-click the baby wyverns to free them.|
 T Free the Pridelings|QID|28086|M|12.74,34.02|N|To Pao'ka Swiftmountain.|
 T Death to all Trappers!|QID|28087|M|12.76,34.00|N|To Pao'ka Swiftmountain.|
-A Release Heartrazor|QID|28088|M|PRE|28086;28087|12.76,34.00|N|From Pao'ka Swiftmountain.|
+A Release Heartrazor|QID|28088|PRE|28086;28087|M|12.76,34.00|N|From Pao'ka Swiftmountain.|
 C Release Heartrazor|QID|28088|M|17.93,41.00|N|Kill the Twilight's Hammer NPCs around Heartrazor to free him.|
 T Release Heartrazor|QID|28088|M|12.76,33.98|N|To Pao'ka Swiftmountain.|
 A The Twilight Skymaster|QID|28098|M|12.76,33.98|N|From Pao'ka Swiftmountain.|

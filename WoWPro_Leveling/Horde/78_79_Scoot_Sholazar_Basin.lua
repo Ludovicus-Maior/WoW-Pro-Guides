@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_horde
+-- Date: 2011-04-29 16:55
+-- Who: Ludovicus Maior
+-- Log: Line 22 for step T Bad coord 58.65., Line 58 for step A has unknown tag [26.7,59.0], Line 209 for step C has unknown tag [Kill Frenzyhearts in the area.]
+
+-- URL: http://wow-pro.com/node/3298/revisions/24169/view
 -- Date: 2011-03-12 18:35
 -- Who: Ludovicus Maior
 -- Log: Unique  Guide IDs
@@ -19,7 +24,7 @@ F Dalaran |QID|12521| |N|You can get Cold Weather Flying from Hira Snowdown on K
 
 A Where in the World is Hemet Nesingwary? |QID|12521| |N|Near the exit from Krasus' Landing. |M|68.68,42.06|
 C Where in the World is Hemet Nesingwary? |QID|12521| |N|Talk to the Archmage again to get a flight.|
-T Where in the World is Hemet Nesingwary? |QID|12521| |N|He's hanging from a tree at |M|35.68,58.65.|
+T Where in the World is Hemet Nesingwary? |QID|12521| |N|He's hanging from a tree at |M|35.68,58.65|
 
 A Welcome to Sholazar Basin |QID|12489|M|39.7,58.7|
 T Welcome to Sholazar Basin |QID|12489| |N|Go find Hemet at, where else, Nesingwary Base Camp to the West. |M|27.09,58.72|
@@ -55,7 +60,7 @@ N Re-equip Ranged |QID|12549| |N|Make sure you re-equip the slot the gun was in.
 
 A The Great Hunter's Challenge |QID|12592|M|27.1,59.9|
 
-A Dreadsaber Mastery: Becoming a Predator |QID|12549| |N|He's under the tent at (26.71,59.12)M|26.7,59.0|
+A Dreadsaber Mastery: Becoming a Predator |QID|12549| |N|He's under the tent.|M|26.71,59.12|
 
 A Rhino Mastery: The Test |QID|12520| |N||M|27.09,58.72|
 C Rhino Mastery: The Test |QID|12520| |N|Head up the road to the NW. You'll see Rhinos and Dreadsabers all around.|
@@ -206,7 +211,7 @@ A Sharpening Your Talons |QID|12603|M|42.3,28.7|
 A Securing the Bait |QID|12605|M|42.3,28.7|
 A Burning to Help |QID|12683|M|42.1,28.7|
 C The Lost Mistwhisper Treasure |QID|12575| |N|On the top level of the Spearborn Encampment . When you get near the treasure Warlord Tartek will show up and attack you.| |U|38623|M|41.61,19.60|
-C Forced Hand |QID|12576| Kill Frenzyhearts in the area.| |U|38623|
+C Forced Hand |QID|12576|N|Kill Frenzyhearts in the area.| |U|38623|
 C Burning to Help |QID|12683| |N|Dive into the lake, use the sample container to get rid of the the debuff.  Call Jaloot if you want the swimming buff.| |U|39164|M|39.7,38.0|
 T The Lost Mistwhisper Treasure |QID|12575| |N|Mistwhisper Refuge |M|42.16,38.52|
 T Forced Hand |QID|12576|M|42.1,38.6|

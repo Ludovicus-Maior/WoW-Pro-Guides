@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_alliance
+-- Date: 2011-04-29 16:06
+-- Who: Ludovicus Maior
+-- Log: Line 40 for step A has 3 M coords, Line 182 for step A has unknown tag [12740].
+
+-- URL: http://wow-pro.com/node/3295/revisions/24203/view
 -- Date: 2011-04-02 19:18
 -- Who: Ludovicus Maior
 -- Log: OK, this is a HUGE update. Added From/To notes to most quests.   Added [The Amphitheater of Anguish] series.  Eliminated LightSpeed advice dependencies and added some notes and QO tags.
@@ -37,7 +42,7 @@ A Trolls Is Gone Crazy! |QID|12861|M|32.2,75.7|N|From Chief Rageclaw.|
 
 A In Search Of Answers |QID|12902|M|32.2,75.7|N|From Crusader Lord Lantinga.|
 
-A Wanted: Ragemane's Flipper |QID|12857|N|From Wanted!|M|32.26,75,67|
+A Wanted: Ragemane's Flipper |QID|12857|N|From Wanted!|M|32.26,75.67|
 N Group quests |QID|12857| |N|This is the first group quest in Zul'Drak. Just keep questing till you can find a group. Turn it in when you're done.|
 T In Search Of Answers |QID|12902| |N|To Orders From Drakuru, the glowing blue scroll on the pedestal at Rageclaw Den.|M|34.92,83.84|
 
@@ -179,7 +184,7 @@ N End of the Ebon Watch quests |QID|12795|
 
 T Taking a Stand |QID|12795| |N|Head to the Argent Stand.|M|39.44,66.90|
 
-A Defend the Stand |QID|12503|M|39.4,67.0| 12740 |N|From Commander Falstaav.|
+A Defend the Stand |QID|12503|M|39.4,67.0| |N|From Commander Falstaav.|
 
 A Parachutes for the Argent Crusade |QID|12740|M|39.4,67.0| |N|From Commander Falstaav.|
 C Parachutes for the Argent Crusade |QID|12740| |N|Throw parachutes to the Argent fighters out in the battlefield.| |U|39615|M|38.4,67.1|

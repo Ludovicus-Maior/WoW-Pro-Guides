@@ -1,4 +1,18 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-04-29 15:27
+-- Who: Ludovicus Maior
+-- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
+
+-- URL: http://wow-pro.com/node/3199/revisions/24318/view
+-- Date: 2011-04-29 15:25
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3199/revisions/24315/view
+-- Date: 2011-04-29 15:19
+-- Who: Ludovicus Maior
+-- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
+
+-- URL: http://wow-pro.com/node/3199/revisions/24148/view
 -- Date: 2011-03-08 12:18
 -- Who: Ludovicus Maior
 -- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.
@@ -107,7 +121,7 @@ T The Basics: Hitting Things|RANK|1|QID|24639|C|Warrior|M|65.78,84.52|N|To Norte
 T The Basics: Hitting Things|RANK|1|QID|26273|C|Warlock|M|64.92,83.26|N|To Voldreka.|
 T The Basics: Hitting Things|RANK|1|QID|24783|C|Priest|M|67.66,83.02|N|To Tunari.|
 T The Basics: Hitting Things|RANK|1|QID|24759|C|Shaman|M|64.94,84.21|N|To Nekali.|
-T The Basics: Hitting Things|RANK|1|QID|24777|C|Hunter|67.09,83.30|N|To Ortezza.|
+T The Basics: Hitting Things|RANK|1|QID|24777|C|Hunter|M|67.09,83.30|N|To Ortezza.|
 
 A A Rough Start|RANK|1|QID|24767|PRE|24765|C|Druid|M|67.69,84.69|N|From Zen'tabra.|
 A A Rough Start|RANK|1|QID|24753|PRE|24721|C|Mage|M|68.22,83.99|N|From Soratha.|
@@ -145,14 +159,14 @@ A Proving Pit|RANK|1|QID|24786|PRE|24785|C|Priest|M|67.66,83.02|N|From Tunari.|
 A Proving Pit|RANK|1|QID|24762|PRE|24761|C|Shaman|M|64.94,84.21|N|From Nekali.|
 A Proving Pit|RANK|1|QID|24780|PRE|24779|C|Hunter|M|67.09,83.30|N|From Ortezza.|
 
-C Proving Pit|RANK|1|QID|24768|C|Druid|M|67.61,83.76|N||Fight a naga in the proving pit.|
-C Proving Pit|RANK|1|QID|24754|C|Mage|M|67.61,83.76|N||Fight a naga in the proving pit.|
-C Proving Pit|RANK|1|QID|24774|C|Rogue|M|65.25,83.85|N||Fight a naga in the proving pit.|
-C Proving Pit|RANK|1|QID|24642|C|Warrior|M|65.25,83.85|N||Fight a naga in the proving pit.|
-C Proving Pit|RANK|1|QID|26276|C|Warlock|M|65.25,83.85|N||Fight a naga in the proving pit.|
-C Proving Pit|RANK|1|QID|24786|C|Priest|M|67.61,83.76|N||Fight a naga in the proving pit.|
-C Proving Pit|RANK|1|QID|24762|C|Shaman|M|65.25,83.85|N||Fight a naga in the proving pit.|
-C Proving Pit|RANK|1|QID|24780|C|Hunter|M|67.61,83.76|N||Fight a naga in the proving pit.|
+C Proving Pit|RANK|1|QID|24768|C|Druid|M|67.61,83.76|N|Fight a naga in the proving pit.|
+C Proving Pit|RANK|1|QID|24754|C|Mage|M|67.61,83.76|N|Fight a naga in the proving pit.|
+C Proving Pit|RANK|1|QID|24774|C|Rogue|M|65.25,83.85|N|Fight a naga in the proving pit.|
+C Proving Pit|RANK|1|QID|24642|C|Warrior|M|65.25,83.85|N|Fight a naga in the proving pit.|
+C Proving Pit|RANK|1|QID|26276|C|Warlock|M|65.25,83.85|N|Fight a naga in the proving pit.|
+C Proving Pit|RANK|1|QID|24786|C|Priest|M|67.61,83.76|N|Fight a naga in the proving pit.|
+C Proving Pit|RANK|1|QID|24762|C|Shaman|M|65.25,83.85|N|Fight a naga in the proving pit.|
+C Proving Pit|RANK|1|QID|24780|C|Hunter|M|67.61,83.76|N|Fight a naga in the proving pit.|
 
 L Level 3|QID|24768|LVL|3|N|You should be around level 3 by this point.|
 

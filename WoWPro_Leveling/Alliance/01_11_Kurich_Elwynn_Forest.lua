@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2011-04-29 14:05
+-- Who: Ludovicus Maior
+-- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
+
+-- URL: http://wow-pro.com/node/3197/revisions/24272/view
 -- Date: 2011-04-26 22:42
 -- Who: Ludovicus Maior
 -- Log: Fixed syntax errors.
@@ -200,7 +205,8 @@ A Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|
 A Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|
 C Extinguishing Hope|N|Extinguish the fires and kill orcs around here.|U|58362||QID|26391|R|Human|M|54.02,48.52|
 C Blackrock Invasion|N|Kill Orcs until you have 8 Blackrock Weapons.|QID|26389|R|Human|M|54.02,48.52|
-T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|
+T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|
+T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|
 A Ending The Invasion|QID|26390|R|Human|M|48.20,42.06|
 C Ending The Invasion|N|Kill Kurtok The Slayer.|QID|26390|R|Human|M|56.90,40.81|
 H Northshire Valley|QID|26390|R|Human|U|6948|

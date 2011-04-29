@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2011-04-29 14:58
+-- Who: Ludovicus Maior
+-- Log: Line 254 for step A has unknown tag [From Tree Warden Chawn.], Line 257 for step T has unknown tag [To Samia Inkling.], Line 273 for step T has unknown tag [To Tree Warden Chawn.]
+
+-- URL: http://wow-pro.com/node/3281/revisions/23833/view
 -- Date: 2010-12-27 19:40
 -- Who: Crackerhead22
 -- Log: Added missing quests, cords, step notes, |QO| tags, sticky steps, quests needed for quest achievement.
@@ -251,10 +256,10 @@ C Whelps of the Wyrmcult |N|Capture the rest of the Blackwhelps for this quest b
 H Evergrove |QID|10607|N|Hearth to Evergrove.|M|62.84,38.35|
 T Whispers of the Raven God |QID|10607|M|62.2,39.1|N|To Timeon.|
 T Meeting at the Blackwing Coven |QID|10722|M|62.0,39.5|N|To Tree Warden Chawn.|
-A Maxnar Must Die! |QID|10748|M|62.0,39.5|From Tree Warden Chawn.|
+A Maxnar Must Die! |QID|10748|M|62.0,39.5|N|From Tree Warden Chawn.|
 T The Truth Unorbed |QID|10825|M|62.0,39.5|N|To Tree Warden Chawn.|
 A Treebole Must Know |QID|10829|M|62.0,39.5|N|From Tree Warden Chawn.|
-T Whelps of the Wyrmcult |QID|10747|M|62.0,39.5|To Samia Inkling.|
+T Whelps of the Wyrmcult |QID|10747|M|62.0,39.5|N|To Samia Inkling.|
 r Sell junk, repair, restock |QID|10829|N|Sell junk, repair, restock.|M|61.61,38.55|
 
 T Treebole Must Know |QID|10829|M|36.9,22.5|N|To Treebole.|
@@ -270,7 +275,7 @@ C Gorgrom the Dragon-Eater |N|Use the Altar, kill Gorgrom, then drop the Grisly 
 C Slaughter at Boulder'mok |N|Kill ogres until you finish this quest.|QID|10803|M|30.3,24.6|
 C Maxnar Must Die! |N|Kill Maxnar the Ashmaw.  You may use the costume scraps if you have 5 of them to save time.|QID|10748|M|34.00,36.00|
 H Evergrove |QID|10818|N|Hearth to Evergrove, or run if your hearth is not up.|M|62.84,38.35|
-T Maxnar Must Die! |QID|10748|M|62.0,39.5|To Tree Warden Chawn.|
+T Maxnar Must Die! |QID|10748|M|62.0,39.5|N|To Tree Warden Chawn.|
 T Gorgrom the Dragon-Eater |QID|10802|M|62.0,38.0|N|To Commander Haephus Stonewall.|
 A Baron Sablemane Has Requested Your Presence |QID|10818|M|62.0,38.0|N|From Commander Haephus Stonewall.|
 T Slaughter at Boulder'mok |QID|10803|M|62.0,38.0|N|To Lieutenant Fairweather.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2011-04-29 16:52
+-- Who: Ludovicus Maior
+-- Log: Line 285 for step C has unknown tag [NGo northwest to ...]
+
+-- URL: http://wow-pro.com/node/3294/revisions/24211/view
 -- Date: 2011-04-05 23:15
 -- Who: Ludovicus Maior
 
@@ -282,7 +287,7 @@ F Camp Oneqwah|QID|12082|O|M|22.0,64.5|
 K Overseer Brunon|QID|12093|QO|Overseer Brunon slain: 1/1|N|Go east/southeast to a summoning circle with 4 dwarves Iron Rune-Weavers channeling. Kill the 4 Dwarves. Overseer Brunon will spawn. Kill him.|M|78.8,43.4|
 K Overseer Lochli|QID|12093|QO|Overseer Lochli slain: 1/1|N|Go northwest to another summoning circle. Kill the 4 Dwarves. Overseer Lochli will spawn. Kill him.|M|75.2,37.1|
 K Overseer Korgan|QID|12093|QO|Overseer Korgan slain: 1/1|N|Go northwest to another summoning circle. Kill the 4 Dwarves. Overseer Korgan will spawn. Kill him.|M|71.7,34.5|
-C Runes of Compulsion|QID|12093|NGo northwest to another summoning circle. Kill the 4 Dwarves. Overseer Druval will spawn. Kill him.|M|67.6,29.6|
+C Runes of Compulsion|QID|12093|N|Go northwest to another summoning circle. Kill the 4 Dwarves. Overseer Druval will spawn. Kill him.|M|67.6,29.6|
 
 C Therapy|QID|12114|N|Kill Drakkari Protectors and Drakkari Oracles on your way.|S|
 C It Takes Guts....|QID|12116|N|Further north you'll find an entrance to the catacombs. Look for Drakkari Canopic Jars. Loot 5 of them.|M|71.5,23.0|

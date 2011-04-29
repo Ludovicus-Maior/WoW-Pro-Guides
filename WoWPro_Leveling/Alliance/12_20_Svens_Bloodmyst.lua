@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2011-04-29 14:21
+-- Who: Ludovicus Maior
+-- Log: Line 113 for step A has unknown tag [10], Line 114 for step T has unknown tag [10].
+
+-- URL: http://wow-pro.com/node/3220/revisions/24217/view
 -- Date: 2011-04-05 23:28
 -- Who: Ludovicus Maior
 
@@ -110,8 +115,8 @@ T Know Thine Enemy|QID|9567|
 T Signs of the Legion|QID|9594|
 A Containing the Threat|QID|9569|
 T Victims of Corruption|QID|9574|
-A Irradiated Crystal Shards|QID|9641|O|L|23984|10|N|If you have 10 Irradiated Crystal Shards, then accept and turn in the quest|
-T Irradiated Crystal Shards|QID|9641|O|L|23984|10|
+A Irradiated Crystal Shards|QID|9641|O|L|23984 10|N|If you have 10 Irradiated Crystal Shards, then accept and turn in the quest|
+T Irradiated Crystal Shards|QID|9641|O|L|23984 10|
 r Repair/Restock |QID|584|N|Repair/Sell Junk|
 
 C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|S|

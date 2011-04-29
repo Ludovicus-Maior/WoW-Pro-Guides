@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2011-04-29 14:33
+-- Who: Ludovicus Maior
+-- Log: Line 169, for step F non-decimal QID
+
+-- URL: http://wow-pro.com/node/3239/revisions/24149/view
 -- Date: 2011-03-08 12:23
 -- Who: Ludovicus Maior
 -- Log: Coord corrections for [Northwestern Temple].
@@ -166,7 +171,7 @@ A Rescue OOX-09/HL!|QID|836|M|49.36,37.67|N|If you accept this quest, the turn-i
 N If you chose to accept....|QID|863|N|Rescue OOX-09/HL! quest, you will have to head for Booty Bay, I am not including the turn-in for this quest.  Close this step to continue.|
 A The Battle for Andorhal|QID|28505|N|From Gryphon Master Talonaxe.|
 F Ironforge|QID|28576|C|Hunter,Mage,Paladin,Priest,Rogue,Warlock,Warrior,Shaman|M|11.13,46.07|N|Head to Ironforge to visit your trainers, AH, etc.|
-F Stormwind City|QID|C|Druid|28576|M|11.13,46.07|N|Head to Stormwind to visit your trainers, AH, etc.  Or use your Teleport: Moonglade to go to Darnassus.|
+F Stormwind City|QID|28576|C|Druid|M|11.13,46.07|N|Head to Stormwind to visit your trainers, AH, etc.  Or use your Teleport: Moonglade to go to Darnassus.|
 H Wildhammer Keep|QID|28576|N|Hearth back to Wildhammer Keep, or fly there if your hearth is not up.|
 F Andorhal|QID|28576|N|Speak with Guthrum Thunderfist to fly to Andorhal in Western Plaguelands. Then report to Thassarian within Andorhal.|
 ]]

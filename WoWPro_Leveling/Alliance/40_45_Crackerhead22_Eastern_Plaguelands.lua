@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_alliance
+-- Date: 2011-04-29 14:41
+-- Who: Ludovicus Maior
+-- Log: Line 33 for step T has unknown tag [To Fiona.], Line 169 for step A has unknown tag [From the Crusader's Flare.], Line 170 for step A has unknown tag [From the Cursader's Flare.], Line 208 for step C has 1 M coords, Line 214 for step R has unknown tag [Run to Eastwall Tower.], Line 272 for step C has unknown tag [Kill Cursed Mages and Scourge Soldiers to get their skulls.], Line 281, for step T non-decimal QID.
+
+-- URL: http://wow-pro.com/node/3251/revisions/24253/view
 -- Date: 2011-04-23 18:06
 -- Who: ikiboun
 -- Log: move quest "A Argent Call: Northdale|QID|27466|M|61.56,43.23|N|From Tarenar Sunstrike" after running to East Tower. Also changed the NPC coord.
@@ -30,7 +35,7 @@ A Into the Woods|QID|27683|M|42.97,83.55|Z|Western Plaguelands|N|From Argent Off
 R Thondroril River|QID|27683|M|69.69,50.25|Z|Western Plaguelands|N|Run to Thondroril River, or fly if you have the flight point.|
 
 T Into the Woods|QID|27683|M|9.02,66.40|N|To Fiona.|
-T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.40|Z|N|To Fiona.|
+T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.40|N|To Fiona.|
 A Gidwin Goldbraids|QID|27367|M|9.02,66.40|N|From Fiona.|
 A Tarenar Sunstrike|QID|27370|M|9.02,66.40|N|From Fiona.|
 f Get flightpoint.|QID|27367|M|10.02,65.70|N|At Frax Bucketdrop.|
@@ -166,8 +171,8 @@ T The Brotherhood of Light|QID|27459|M|72.53,74.86|N|To Archmage Angela Dosantos
 A Soft Landing|QID|27460|M|72.61,74.87|N|From Archmage Angela Dosantos.|
 C Soft Landing|QID|27460|M|77.55,79.26|N|Kill the 10 Scarlet Crusaders, then use the Flare at the waypoint.|
 T Soft Landing|QID|27460|M|77.55,79.26|N|To the Crusader's Flare.|
-A To Take the Abbey|QID|27461|M|77.55,79.26|From the Crusader's Flare.|
-A To Take the Barracks|QID|27462|M|77.55,79.26|From the Cursader's Flare.|
+A To Take the Abbey|QID|27461|M|77.55,79.26|N|From the Crusader's Flare.|
+A To Take the Barracks|QID|27462|M|77.55,79.26|N|From the Cursader's Flare.|
 T To Take the Barracks|QID|27462|M|75.48,76.17|N|To Crusade Commander Korfax.|
 A Scarlet Salvage|QID|27614|M|75.48,76.17|N|From Crusade Commander Korfax.|
 A The Wrathcaster|QID|27615|M|75.48,76.17|N|From Crusade Commander Korfax.|
@@ -205,13 +210,13 @@ T Like Rats|QID|27620|M|75.66,52.18|N|To Leonid Barthalomew the Revered.|
 T Gathering Some Grub(s)|QID|27456|M|73.86,51.96|N|To Rimblat Earthshatter.|
 r Sell junk, repair/restock.|QID|27458|M|75.16,53.69|
 C Smokey and the Bandage|QID|27458|L|62028 1|M|71.58,46.38|N|Kill Stephen Browman to get "Browman's Wrappings".|
-C Buried Blades|QID|27467|M|S|76.20,39.41|N| Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|
+C Buried Blades|QID|27467|S|M|76.20,39.41|N| Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|
 C Argent Call: The Noxious Glade|QID|27465|M|77.35,39.07|N|Watch out for Garginox, a level 45 elite.|
 T Smokey and the Bandage|QID|27458|M|74.94,53.36|N|To Smokey LaRue.|
 T Buried Blades|QID|27467|US|M|75.67,52.21|N|To Master Craftsman Omarion.|
 T Argent Call: The Noxious Glade|QID|27465|M|75.80,52.07|N|To Lord Maxwell Tyrosus.|
 A An Opportune Alliance|QID|27457|M|73.85,52.01|N|From Rimblat Earthshatter.|
-R Eastwall Tower|QID|27457|M|62,42|Run to Eastwall Tower.|
+R Eastwall Tower|QID|27457|M|61.56,43.23|N|Run to Eastwall Tower.|
 A Argent Call: Northdale|QID|27466|M|61.56,43.23|N|From Tarenar Sunstrike.|
 f Eastwall Tower|QID|27457|M|61.62,43.81|N|At Richard Trueflight.|
 T An Opportune Alliance|QID|27457|M|61.42,42.83|N|To Fiona.|
@@ -269,7 +274,7 @@ A Gidwin's Fate Revealed|QID|27526|M|27.48,21.27|N|From Tarenar Sunstrike.|
 T Guardians of Stratholme|QID|27525|M|27.48,21.27|N|To Tarenar Sunstrike.|
 C Scourged Mass|QID|27528|U|61369|M|32.22,21.30|N|Kill Overstuffed Golems and then burn their corpses.|S|
 C Defenders of Darrowshire|QID|27529|M|36.27,17.53|N|Kill Cannibal Ghouls then to talk to the spirits.|S|
-C Add 'em to the Pile|QID|27539|M|38.38,30.46|Kill Cursed Mages and Scourge Soldiers to get their skulls.|S|
+C Add 'em to the Pile|QID|27539|M|38.38,30.46|N|Kill Cursed Mages and Scourge Soldiers to get their skulls.|S|
 C Gidwin's Fate Revealed|QID|27526|M|28.69,26.06|N|As you enter the slaughterhouse you will be treated to a cutscene.|
 T Gidwin's Fate Revealed|QID|27526|M|28.34,25.90|N|To Gidwin Goldbraids.|
 
@@ -278,7 +283,7 @@ C Scourged Mass|QID|27528|U|61369|M|32.22,21.30|N|Kill Overstuffed Golems and th
 C Defenders of Darrowshire|QID|27529|M|36.27,17.53|N|Kill Cannibal Ghouls then to talk to the spirits.|US|
 C Add 'em to the Pile|QID|27539|M|38.38,30.46|N|Kill Cursed Mages and Scourge Soldiers to get their skulls.|US|
 T Scourged Mass|QID|27528|M|27.71,20.98|N|To Crusader Kevin Frost.|
-T Defenders of Darrowshire|QID||27529|M|27.71,20.98|N|To Crusader Kevin Frost.|
+T Defenders of Darrowshire|QID|27529|M|27.71,20.98|N|To Crusader Kevin Frost.|
 T Add 'em to the Pile|QID|27539|M|27.71,20.98|N|To Crusader Kevin Frost.|
 A The Corpsebeasts|QID|27530|M|27.71,20.98|N|From Crusader Kevin Frost.|
 C The Corpsebeasts|QID|27530|U|61375|M|28.95,35.02|N|The beacons need to be put near the body so you will have to kill the enemies around it. Also the 3 beacons can not be within 10 yards of each other.|

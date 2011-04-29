@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2011-04-29 16:19
+-- Who: Ludovicus Maior
+-- Log: Line 175 for step F has unknown tag [73.21,61.54], Line 202 for step C has unknown tag [Escort quest.], Line 296 for step A has unknown tag [RANK2M]
+
+-- URL: http://wow-pro.com/node/3228/revisions/23976/view
 -- Date: 2011-01-11 01:10
 -- Who: Estraile
 
@@ -172,7 +177,7 @@ T Gurtar's Request|QID|13875|M|73.34,62.08|N|To Splintertree Demolisher.|
 T Demon Duty|QID|13806|M|73.76,61.71|N|To Locke Okarr.|
 T Satyr Horns|QID|6441|M|73.84,62.45|N|To Pixel.|
 
-F Fly to Orgrimmar|QID|13841|73.21,61.54|N|At Vhulgra.|
+F Fly to Orgrimmar|QID|13841|M|73.21,61.54|N|At Vhulgra.|
 
 T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar|N|Take the lift down, then turn in to Garrosh Hellscream.|
 A Dread Head Redemption|QID|13842|PRE|13841|M|48.12,70.72|Z|Orgrimmar|N|From Garrosh Hellscream.|
@@ -181,7 +186,7 @@ F Fly to Splintertree Outpost|QID|13842|N|Fly back to Splintertree...again. (Or 
 
 C Dread Head Redemption|QID|13842|M|72.22,56.76|N|Back into the mine, talk to Durak, he'll monologue, then attack you with a minion. Kill and loot.|
 
-F Fly to Orgrimmar|QID|13841|73.21,61.54|N|Fly back to Orgrimmar.|
+F Fly to Orgrimmar|QID|13841|M|73.21,61.54|N|Fly back to Orgrimmar.|
 
 T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar|N|To Garrosh Hellscream.|
 
@@ -198,8 +203,8 @@ A Blackfathom Deeps|QID|26894|RANK|1|M|12.08,33.78|N|From Commander Grimfang. Pi
 A Lousy Pieces of Ship|QID|13883|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.|
 A The Essence of Aku'Mai|QID|26890|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.||N|If you plan on doing the Blackfathom Deeps dungeon.|
 
-A Vorsha the Lasher|QID|6641|RANK|2|M|12.77,34.14|N|From Muglash.|N|Escort quest|
-C Vorsha the Lasher|QID|6641|NC|M|9.58,27.88|Escort quest. Follow Muglash and help him kill Vorsha. Level 27 Druid kitty can solo no problem.|
+A Vorsha the Lasher|QID|6641|RANK|2|M|12.77,34.14|N|From Muglash.|N|Escort quest.|
+C Vorsha the Lasher|QID|6641|NC|M|9.58,27.88|N|Follow Muglash and help him kill Vorsha. Level 27 Druid kitty can solo no problem.|
 
 C Lousy Pieces of Ship|QID|13883|S|M|5.00,31.12|N|Collect Sunken Ship Parts and kill 10 hydras for blubber.|
 C Keep the Fires Burning|QID|13890|M|11.44,35.23;6.74,28.97|N|Take 10 Blubber to the Forge and turn it into Mystlash Hydra Oil. Go light the Lighthouse.|
@@ -261,7 +266,7 @@ A We're Here to Do One Thing, Maybe Two...|QID|25945|RANK|1|M|49.88,65.67|N|Acce
 A Thinning the... Herd?|QID|13967|RANK|2|M|49.76,65.13|N|From Senani Thunderheart.|
 T Tweedle's Tiny Package|QID|13974|M|49.98,67.17|N|To Flooz.|
 A Mass Production|QID|13977|RANK|2|M|49.98,67.25|
-A Well, Come to the Jungle|QID|26416|M|RANK|1|49.70,67.14|N|From Cromula.|N|From Flooz.|N|If you plan on going to Stranglethorn Vale.|
+A Well, Come to the Jungle|QID|26416|RANK|1|M|49.70,67.14|N|From Cromula. If you plan on going to Stranglethorn Vale.|
 A Simmer Down Now|QID|25|RANK|2|M|50.12,67.52|N|From Captain Tarkan.|
 
 h Silverwind Refuge|QID|25|M|50.37,67.20|N|At Innkeeper Chin'toka.|
@@ -293,7 +298,7 @@ T Building Your Own Coffin|QID|13983|M|46.14,63.27|N|To Foreman Jinx.|
 
 T Thunder Peak|QID|13879|RANK|1|M|52.06,56.46|N|To Stikwad.|
 A Hot Lava|QID|13880|PRE|13879|RANK|2|M|52.22,56.54|N|From Core.|
-A Put Out The Fire|QID|13884|PRE|13879|RANK2M|52.12,56.59|N|From Arctanus.|
+A Put Out The Fire|QID|13884|PRE|13879|RANK|2|M|52.12,56.59|N|From Arctanus.|
 
 C Put Out The Fire|QID|13884|S|M|52.16,49.41|N|Kill Lava Ragers while fillig in fissures.|
 C Hot Lava|QID|13880|U|46352|M|50.89,48.66|N|Use the Gift of the Earth to fill fissures (they look like brown geysers occassionally spewing lava.|

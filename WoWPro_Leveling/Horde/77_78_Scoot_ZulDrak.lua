@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_horde
+-- Date: 2011-04-29 16:53
+-- Who: Ludovicus Maior
+-- Log: Line 442 for step T has unknown tag [Back to Har'koa.]
+
+-- URL: http://wow-pro.com/node/3296/revisions/24167/view
 -- Date: 2011-03-12 18:34
 -- Who: Ludovicus Maior
 -- Log: Make Guide IDs unique
@@ -439,7 +444,7 @@ T The Gods Have Spoken |QID|12729| |N|Back to Har'koa. Remember she's at Zim'Tor
 
 A Convocation at Zol'Heb |QID|12730| |M|60.13,57.72|
 C Convocation at Zol'Heb |QID|12730| |N|Zol'Heb is on the way to Gundrak on the right. Use the item in the circle to summon the Prophet. After you get him to about 75% health, Har'koa will show up to help. The Prophet has an evil AoE, but Har'koa can remove it so stay close to her. If you die just run back and try to pick a good time to rez. He may kill Har'koa, so be prepared to finish him off, if necessary.| |U|39566| |M|77.55,36.67|
-T Convocation at Zol'Heb |QID|12730| Back to Har'koa.| |M|60.13,57.72|
+T Convocation at Zol'Heb |QID|12730|N|Back to Har'koa.| |M|60.13,57.72|
 C Malas the Corrupter |QID|12554| |N|Last chance in the guide.| |M|61.1,77.7|
 C Wanted: Ragemane's Flipper |QID|12857| |N|Last chance in the guide.| |M|38.6,84.6|
 T Malas the Corrupter |QID|12554| |M|58.1,72.1|

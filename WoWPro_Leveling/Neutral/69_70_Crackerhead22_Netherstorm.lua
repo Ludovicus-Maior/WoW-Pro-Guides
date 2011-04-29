@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_horde
+-- Date: 2011-04-29 17:17
+-- Who: Ludovicus Maior
+-- Log: Line 128 for step C has unknown tag [Loot the Bn'aar Access Crystal ...]
+
+-- URL: http://wow-pro.com/node/3284/revisions/24154/view
 -- Date: 2011-03-09 02:37
 -- Who: Ludovicus Maior
 
@@ -124,8 +129,8 @@ T Recharging the Batteries|QID|10190|M|31.53,56.66|N|To Bot-Specialist Alley.|
 T Essence for the Engines|QID|10224|M|32.43,66.67|N|To Chief Engineer Trep.|
 
 A Elemental Power Extraction|QID|10226|M|32.42,66.66|N|From Chief Engineer Trep.|
-C Shutting Down Manaforge B'naar|QID|10299|M|23.81,70.47|N|Loot the Bn'aar Access Crystal off of Overseer Theredis' corpse. Note: At the time of doing this guide, all that is needed is to loot the crystal to complete the quest. If this changes please let the WoWPro team know.|REP|Aldor|
-C Shutting Down Manaforge B'naar|QID|10329|M|23.83,70.58|Loot the Bn'aar Access Crystal off of Overseer Theredis' corpse. Note: At the time of doing this guide, all that is needed is to loot the crystal to complete the quest. If this changes please let the WoWPro team know.|REP|Scryers|
+C Shutting Down Manaforge B'naar|QID|10299|M|23.81,70.47|N|Loot the Bn'aar Access Crystal off of Overseer Theredis' corpse.|REP|Aldor|
+C Shutting Down Manaforge B'naar|QID|10329|M|23.83,70.58|N|Loot the Bn'aar Access Crystal off of Overseer Theredis' corpse.|REP|Scryers|
 C Elemental Power Extraction|QID|10226|U|28547|M|21.24,78.04|N|Use the Elemental Power Extractor on a living Sundered Rumbler or Warp Aberration. Kill it then loot the blue crystal floating above the corpse.|
 K Warp-Raider Nesaad|QID|10205|QO|Warp-Raider Nesaad slain: 1/1|M|27.98,78.96|N|Kill Warp-Raider Nesaad.|
 U Multi-Spectrum Terrain Analyzer|QID|10203|U|30354|QO|Multi-Spectrum Terrain Analyzer retrieved: 1/1|M|40.25,72.88|N|Click on the Multi-Spectrum Terrain Analyzer.|

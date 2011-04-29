@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2011-04-29 14:43
+-- Who: Ludovicus Maior
+-- Log: Line 78 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 82 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 89 for step A has unknown tag [Heads-up Accept].
+
+-- URL: http://wow-pro.com/node/3253/revisions/24086/view
 -- Date: 2011-01-30 19:37
 -- Who: Ludovicus Maior
 -- Log: Corrected RegisterGuide line to match GIT
@@ -75,18 +80,18 @@ B Bottle of Grog |QID|25517|L|54746|N|Buy a Bottle of Grog from Daisy|
 C Bar Fight!|QID|25517|U|54746|N|Taget a goblin and use the grog you just bought from Daisy.|
 T Bar Fight!|QID|25517|M|78.02,73.36|N|To Rizzle Brassbolts.|
 A In the Outhouse|QID|25524|M|79.61,75.03|N|From Submerged Outhouse (jump into the water)|
-C Down in the Deeps|QID|25515|S|M|80.61,76.83|Collect Rocket Car Parts from the ground.|
+C Down in the Deeps|QID|25515|S|M|80.61,76.83|N|Collect Rocket Car Parts from the ground.|
 K Pirate Treasure Hunters |QID|25524|L|54821|M|80.00, 75.00|N|Kill Pirate Treasure Hunters until you loot a Pirate's Crowbar|
 C In the Outhouse|QID|25524|U|54821|M|79.61,75.03|N|Use the Pirate's Crowbar on the Outhouse|
 T In the Outhouse|QID|25524|M|79.58,75.09|N|To Submerged Outhouse|
-C Down in the Deeps|QID|25515|US|M|80.61,76.83|Collect Rocket Car Parts from the ground.|
+C Down in the Deeps|QID|25515|US|M|80.61,76.83|N|Collect Rocket Car Parts from the ground.|
 f Fizzle & Pozzik's Speedbarge|QID|25524|M|79.16,71.95|N|At Tilly Topspin, back onto the Speedbarge.|
 T Down in the Deeps|QID|25515|M|76.50,73.64|N|To Jinky Twizzlefixxit.|
 A Pirate Accuracy Increasing|QID|25532|M|76.50,73.64|
 C Pirate Accuracy Increasing|QID|25532|M|78.89,75.71|QO|Get a boat from Mazzer: 1/1|N|Speak to Mazzar on the south pontoon and tell him to get you into your boat.|
 C Pirate Accuracy Increasing|QID|25532|M|77.52,77.92|N|Use the Frost Cannon (#1 on your action bar) to extinguish the fires|
 T Pirate Accuracy Increasing|QID|25532|M|80.07,75.24|N|Heads-up Turn-in|
-A Circle the Wagons... er, Boats|QID|25542|M|80.12,75.15|Heads-up Accept|
+A Circle the Wagons... er, Boats|QID|25542|M|80.12,75.15|N|Heads-up Accept|
 C Circle the Wagons... er, Boats|QID|25542|M|73.91,74.03|N|Use the Fire Cannon (#1 on your action bar) to sink the row-boats.|
 T Circle the Wagons... er, Boats|QID|25542|M|76.52,73.66|N|Click the Leave Vehicle button on your HUD to fly and parachute back onto the Speedbarge, then back to Jinky Twizzlefixxit.|
 A Quiet the Cannons|QID|25585|M|76.52,73.66|N|From Jinky Twizzlefixxit.|

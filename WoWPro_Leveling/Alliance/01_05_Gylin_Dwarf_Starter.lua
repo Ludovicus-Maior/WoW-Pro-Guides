@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-04-29 18:18
+-- Who: Ludovicus Maior
+-- Log: Changed O steps to N steps.
+
+-- URL: http://wow-pro.com/node/3200/revisions/24226/view
 -- Date: 2011-04-05 23:41
 -- Who: Ludovicus Maior
 

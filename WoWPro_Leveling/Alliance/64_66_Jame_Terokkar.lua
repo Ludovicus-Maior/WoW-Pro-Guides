@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2011-04-29 14:51
+-- Who: Ludovicus Maior
+-- Log: Line 55 for step N has 3 M coords, Line 248 for step C has unknown tag [52.00,58.00], Line 273 for step C has unknown tag [52.00,58.00], Line 289 for step T has unknown tag [To Magistriz Fyalenn.].
+
+-- URL: http://wow-pro.com/node/3277/revisions/24208/view
 -- Date: 2011-04-05 11:02
 -- Who: Crackerhead22
 -- Log: Fixed REP tag so it would work, fixed notes, fixed cords.  Added O tags, added couple of sticky steps.
@@ -52,7 +57,7 @@ A City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|From Khadgar.|
 C City of Light |N|Follow the npc until you get the quest completion.|QID|10211|M|54.8,44.3|Z|Shattrath City|
 T City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|To Kadgar.|
 N At this point you will have to choose either Aldor or Scryers.|N|Right click the box to continue.|Z|Shattrath City|
-N Allegiance to the ...|QID|10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43,98|
+N Allegiance to the ...|QID|10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
 
 A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|REP|Aldor|
 T Ishanah|N|You must take the elevator up to this area.|Z|Shattrath City|QID|10554|M|24.0,29.7|N|To Ishanah.|REP|Aldor|
@@ -245,7 +250,7 @@ T The Elusive Ironjaw |QID|10022|M|58.3,54.8|N|To Bertelm.|
 T Escape from Firewing Point!|QID|10051|M|57.2,55.7|N|To Captain Auric Sunchaser.|
 N Sell junk, Repair, restock |QID|10896|M|56.51,54.94|
 
-C Recover the Bones |N|Loot the bones needed for this quest.|QID|10030|S|52.00,58.00|
+C Recover the Bones |N|Loot the bones needed for this quest.|QID|10030|S|M|52.00,58.00|
 C The Infested Protectors|N|Kill treant mobs and then the spawned wood mites until you finish this quest.|QID|10896|M|52.00,58.00|
 l Trachela's Carcass|QID|10035|N|Kill Trachela and loot the carcass.|L|30618|M|43.00,51.00|
 T The Infested Protectors |QID|10896|M|37.9,51.7|N|To Lakotae.|
@@ -270,7 +275,7 @@ A Digging Through Bones |QID|10922|M|31.0,76.1|N|From Chief Archaelogist Letoll.
 C Digging Through Bones |N|Do this escort quest.|QID|10922|M|31.0,76.1|
 T Digging Through Bones |QID|10922|M|31.0,76.1|N|To Dwarfowitz.|
 A Fumping |QID|10929|N|From Dwarfowitz.|
-C Recover the Bones |N|Loot the rest of the bones needed for this quest.|QID|10030|US|52.00,58.00|
+C Recover the Bones |N|Loot the rest of the bones needed for this quest.|QID|10030|US|M|52.00,58.00|
 
 R Auchindoun |QID|10227|N|Enter Auchindoun from this location. |M|33.00,66.00|
 A I See Dead Draenei|QID|10227|N|From Ha'lei.|
@@ -286,7 +291,7 @@ H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrat
 r Sell junk, Repair, restock, train skills|QID|10412|M|54.6,82.4|Z|Shattrath City|REP|Scryers|
 
 A Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|From Magistriz Fyalenn.|REP|Scryers|
-T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|To Magistriz Fyalenn.|REP|Scryers|
+T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|To Magistriz Fyalenn.|REP|Scryers|
 T A Cure for Zahlia|QID|10020|Z|Shattrath City|N|To Sha'nir.|M|64.37,15.55|REP|Aldor|
 T Ezekiel|QID|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|N|To Ezekial. He wanders around the Terrace of Light.|
 A What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|From Ezekiel.|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|

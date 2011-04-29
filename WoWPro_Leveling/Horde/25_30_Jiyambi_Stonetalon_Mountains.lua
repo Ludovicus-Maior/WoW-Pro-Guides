@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2011-04-29 16:21
+-- Who: Ludovicus Maior
+-- Log: Line 45 for step C has 3 M coords:, Line 77 for step A has unknown tag [GRP]:
+
+-- URL: http://wow-pro.com/node/3234/revisions/23972/view
 -- Date: 2011-01-10 04:32
 -- Who: Crackerhead22
 -- Log: Changed turn in name for "Warchief's Command: Southern Barrens!" to "Warchief's Command: Stonetalon Mountains!"
@@ -42,7 +47,7 @@ C We're Here to Do One Thing, Maybe Two...|QID|25945|NC|M|48.58,66.46|Z|Ashenval
 
 T We're Here to Do One Thing, Maybe Two...|QID|25945|M|74.28,47.70|N|To Saurboz.|
 A Barrier to Entry|QID|25999|PRE|25945|M|74.28,47.70|N|From Saurboz.|
-C Barrier to Entry|NC|QID|25999|U|56263|M|73.37,42.68|M|You can't trigger the mines, don't worry. There are sentinals scattered around - if you aggro one, you can lead it into an armed mine to cause major damage.|
+C Barrier to Entry|NC|QID|25999|U|56263|M|73.37,42.68|N|You can't trigger the mines, don't worry. There are sentinals scattered around - if you aggro one, you can lead it into an armed mine to cause major damage.|
 T Barrier to Entry|QID|25999|M|74.27,47.71|N|To Saurboz.|
 A The Missing Blastgineer|QID|26001|PRE|25999|M|74.27,47.71|N|From Saurboz.|
 A Lessons from the Lost Isles|QID|26003|PRE|25999|M|74.41,47.63|N|From Kilag Gorefang.|
@@ -74,9 +79,9 @@ C Ashes to Ashes|NC|QID|26010|U|56473|M|61.42,64.88|US|N|Use the flamethrower on
 C Dream of a Better Tomorrow|RANK|2|NC|QID|26026|M|59.94,64.21|QO|Mechanized Air: 1/1|N|Inside the goblin hut.|
 C Dream of a Better Tomorrow|RANK|2|NC|QID|26026|M|63.09,56.72|QO|Mechanized Fire: 1/1|N|On top of the huge logging machine.|
 C Dream of a Better Tomorrow|RANK|2|NC|QID|26026|M|66.18,50.05|QO|Mechanized Ice: 1/1|N|On top of the tower.|
-A BEWARE OF CRAGJAW!|RANK|2|QID|26043|M|65.01,49.37|GRP|2|
+A BEWARE OF CRAGJAW!|RANK|2|QID|26043|M|65.01,49.37|
 C Dream of a Better Tomorrow|RANK|2|NC|QID|26026|M|68.42,45.70;67.09,43.60;63.05,45.70|QO|BD-816 War Apparatus: 1/1|N|At the end of the stretch of deck, guarded by Gerenzo Wrenchwhistle.|
-C BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.21,47.19|GRP|2|N|Jump off if you'd like to try to take on Cragjaw. He's at the center of the lake. Feel free to skip this quest if it's too hard and you can't find someone to help you.|
+C BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.21,47.19|N|Jump off if you'd like to try to take on Cragjaw. He's at the center of the lake. Feel free to skip this quest if it's too hard and you can't find someone to help you.|
 
 H Krom'gar Fortress|QID|26004|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T Enemy of the Horde: Marshal Paltrow|QID|26011|M|65.77,63.31|N|To Spy-Mistress Anara, back at Krom'gar Fortress.|

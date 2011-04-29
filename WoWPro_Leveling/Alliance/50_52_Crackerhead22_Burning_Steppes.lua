@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2011-04-29 14:48
+-- Who: Ludovicus Maior
+-- Log: Line 121 for step C has 1 M coords, Line 123 for step C has 1 M coords, Line 127 for step C has 1 M coords, Line 179 for step K has 3 M coords.
+
+-- URL: http://wow-pro.com/node/3265/revisions/23930/view
 -- Date: 2011-01-04 20:09
 -- Who: Crackerhead22
 -- Log: Added missing cords.
@@ -118,13 +123,13 @@ C Trial by Magma|QID|28266|M|30.75,33.41|N|Talk to Wyrtle Spreelthonket and choo
 T Trial by Magma|QID|28266|M|30.75,33.77|N|To General Thorg'izog.|
 A I Am the Law and I Am the Lash|QID|28278|M|30.75,33.77|N|From General Thorg'izog.|
 A Abuse of Power|QID|28279|M|30.75,33.77|N|Automatically accepted.|
-C Abuse of Power|QID|28279|S|U|63390|M|35.10;35.83|N|Spam the cudgel to kill the Blackrock Sergeants.|
+C Abuse of Power|QID|28279|S|U|63390|M|35.10,35.83|N|Spam the cudgel to kill the Blackrock Sergeants.|
 C I Am the Law and I Am the Lash|QID|28278|U|63390|M|36.34,37.49|N|I recommend putting the cudgel on the action bar. That way if you are spotting you can spam the crap out of it, to kill the mob.|
-C Abuse of Power|QID|28279|US|U|63390|M|35.10;35.83|N|Spam the cudgel to kill the Blackrock Sergeants.|
+C Abuse of Power|QID|28279|US|U|63390|M|35.10,35.83|N|Spam the cudgel to kill the Blackrock Sergeants.|
 T I Am the Law and I Am the Lash|QID|28278|M|30.78,33.76|N|To General Thorg'izog.|
 T Abuse of Power|QID|28279|M|35.13,35.86|N|(UI Alert)|
 A Enough Damage For One Day|QID|28286|M|35.13,35.86|N|(UI Alert)|
-C Abuse of Power|QID|28279|US|U|63390|M|35.10;35.83|N|Spam the cudgel to kill the Blackrock Sergeants.|
+C Abuse of Power|QID|28279|US|U|63390|M|35.10,35.83|N|Spam the cudgel to kill the Blackrock Sergeants.|
 T Enough Damage For One Day|QID|28286|M|46.38,45.75|N|To Colonel Troteman.|
 A Morgan's Vigil|QID|28310|M|46.38,45.75|N|From Colonel Troteman.|
 R Morgan's Vigil|QID|28310|M|46.05,50.46;54.81,47.61;65.38,54.58;70.62,60.97;71.85,63.17|N|Run to Morgan's Vigil.|
@@ -176,7 +181,7 @@ T Assault on Dreadmaul Rock|QID|28320|M|73.52,67.05|N|To Colonel Troteman.|
 
 A Glory Amidst Chaos|QID|28321|M|73.52,67.05|N|From Colonel Troteman.|
 K General Thorg'izog|QID|28321|QO|General Thorg'izog slain: 1/1|M|65.12,46.66|N|General Thorg'izog needs to be killed. Enter the cave at the waypoint, at the split head left.|
-K Dragon-Lord Neeralak|QID|28321|QO|Dragon-Lord Neeralak slain: 1/1|M|69.52,43.10;63.79,37.8166.31,37.96;68.88,44.14|N|Dragon-Lord Neeralak's turn to die. Follow the path up, he is in the cave.|
+K Dragon-Lord Neeralak|QID|28321|QO|Dragon-Lord Neeralak slain: 1/1|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|N|Dragon-Lord Neeralak's turn to die. Follow the path up, he is in the cave.|
 C Glory Amidst Chaos|QID|28321|QO|High Warlock Xi'lun slain: 1/1|M|70.88,38.13|N|Time to kill High Warlock Xi'lun. Enter the cave at the waypoint, at the split head left.|
 T Glory Amidst Chaos|QID|28321|M|73.52,67.00|N|To Colonel Troteman.|
 A The Spoils of War|QID|28322|M|73.52,67.00|N|From Colonel Troteman.|

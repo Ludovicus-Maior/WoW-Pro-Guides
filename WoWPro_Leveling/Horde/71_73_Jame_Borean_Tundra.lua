@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2011-04-29 16:51
+-- Who: Ludovicus Maior
+-- Log: Line 62 for step f has unknown tag [40.4,51.4], Line 340, for step A non-decimal PRE.
+
+-- URL: http://wow-pro.com/node/3290/revisions/23472/view
 -- Date: 2010-12-03 22:17
 -- Who: Jiyambi
 
@@ -59,7 +64,7 @@ A Reinforcements Incoming... |QID|11618|M|41.3,53.6|
 A Ride to Taunka'le Village |QID|11888|M|41.7,54.7|
 A Too Close For Comfort |QID|11574|M|41.7,54.7|
 A To Bor'gorok Outpost, Quickly! |QID|12486|M|41.6,53.5|
-f Warsong Hold |QID|11636|N|The lift is hard to find. Go up the stairs behind Hellscream, and sit at the top. Don't walk forwards onto the circular area. The lift is an area on top of the stairs, and perfectly matches the rest of the floor. It's a pain to find. | |T|M|40.4,51.4|
+f Warsong Hold |QID|11636|N|The lift is hard to find. Go up the stairs behind Hellscream, and sit at the top. Don't walk forwards onto the circular area. The lift is an area on top of the stairs, and perfectly matches the rest of the floor. It's a pain to find.|M|40.4,51.4|
 T Wind Master To'bor |QID|11634| |N|Head straight SE, go in a straight line.|M|42.3,54.9|
 A Magic Carpet Ride |QID|11636|M|42.3,54.9|
 
@@ -337,7 +342,7 @@ C Breaking Through |QID|11898|O|N|Go to the teleporter at . Kill Vanthryn at (85
 H Taunka'le Village|QID|11929|U|6948|
 
 T Breaking Through |QID|11898|O|
-A The Fall of Taunka'le Village |QID|11929|N|Don't turn it in.|O|PRE|Breaking Through|
+A The Fall of Taunka'le Village |QID|11929|N|Don't turn it in.|O|
 
 N Careful about Animal Blood |QID|11866|N|If you kill an animal, you'll gain the Animal Blood debuff. If you come within range of a D.E.H.T.A NPC with this debuff, they'll come after you. Use water to wash it off or wait for the debuff to wear off.|
 A Ears of Our Enemies |QID|11866|N|From the Archdruid in the D.E.H.T.A camp at . You have to do the mission statement first, you can just complete that.|M|57,44|

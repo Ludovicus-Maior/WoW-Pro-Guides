@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2011-04-29 17:11
+-- Who: Ludovicus Maior
+-- Log: Line 147 for step C has unknown tag [rUS], Line 193 for step A Bad coord r63.92, Line 299 for step C has unknown tag [Shimmering Expanse], ...
+
+-- URL: http://wow-pro.com/node/3306/revisions/24171/view
 -- Date: 2011-03-12 18:40
 -- Who: Ludovicus Maior
 -- Log: Unique IDs
@@ -144,7 +149,7 @@ A Nerve Tonic|QID|25358|M|57.20,29.33|Z|Kelp'thar Forest|N|From Mack Fearsen.|
 A Ophidophobia|QID|25459|M|57.11,28.85|Z|Kelp'thar Forest|N|From Adarrah.|
 C Nerve Tonic|QID|25358|S|M|56.87,39.51|Z|Kelp'thar Forest|N|Collect the small crates floating all around the ship.|
 C Ophidophobia|QID|25459|M|56.42,38.46|Z|Kelp'thar Forest|N|Kill 4 Brinescale Serpents at Gorrok's Lament.|
-C Nerve Tonic|QID|25358|rUS|M|56.87,39.51|Z|Kelp'thar Forest|N|Finish collecting the small crates.|
+C Nerve Tonic|QID|25358|US|M|56.87,39.51|Z|Kelp'thar Forest|N|Finish collecting the small crates.|
 T Ophidophobia|QID|25459|M|57.08,28.86|Z|Kelp'thar Forest|N|To Adarrah.|
 T Nerve Tonic|QID|25358|M|57.25,29.26|Z|Kelp'thar Forest|N|To Mack Fearsen.|
 
@@ -190,7 +195,7 @@ h Deepmist Grotto|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|At Erunak Stonesp
 A Debriefing|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 C Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|Talk to Gurrok to complete this quest.|
 T Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
-A Wake of Destruction|QID|25887|M|r63.92,59.76|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
+A Wake of Destruction|QID|25887|M|63.92,59.76|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 A Wake of Destruction|QID|25887|M|63.92,59.76|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 N Wake of Destruction|QID|25887|M|58.1,69.8|Z|Kelp'thar Forest|U|56576|N|Swim out of the grotto and head just a bit west, where you will find the Famished Great Sharks. Target one of the sharks while staying far enough away that it doesn't attack you and use the Orb of Suggestion. Close this step once you're riding a shark.|
 C Wake of Destruction|QID|25887|M|57.7,66.5|Z|Kelp'thar Forest|QO|Zin'jatar Guardians Eaten Alive: 25/25|N|Swim near the Zin'Jatar Guardians and use the ability "Eat Naga". You don't actually have to target the naga, just swim near them.|
@@ -250,10 +255,10 @@ T The Great Sambino|QID|25216|M|41.3,34.3|Z|Shimmering Expanse|N|From The Great 
 A Undersea Inflation|QID|25218|PRE|25216|RANK|1|M|41.3,34.3|Z|Shimmering Expanse|N|From The Great Sambino.|
 A Crabby Patrons|QID|25360|RANK|1|M|41.3,34.3|Z|Shimmering Expanse|N|From Felice.|
 
-C Crabby Patrons|QID|25360|M|41.7,34.5|S|Z|Shimmering Expanse|Kill Crabs.|
+C Crabby Patrons|QID|25360|M|41.7,34.5|S|Z|Shimmering Expanse|N|Kill Crabs.|
 C Undersea Inflation|QID|25218|S|U|54608|M|41.7,34.5|Z|Shimmering Expanse|N|While you are doing that, use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full.|
 l Sambino's Air Valve|QID|25218|M|41.7,34.5|Z|Shimmering Expanse|N|Keep killing crabs until this item drops drops.|L|54611|
-C Crabby Patrons|QID|25360|M|41.7,34.5|US|Z|Shimmering Expanse|Kill the remaining Crabs|
+C Crabby Patrons|QID|25360|M|41.7,34.5|US|Z|Shimmering Expanse|N|Kill the remaining Crabs|
 C Undersea Inflation|QID|25218|US|U|54608|M|41.7,34.5|Z|Shimmering Expanse|N|While you are doing that, use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full.|
 T Undersea Inflation|QID|25218|M|41.3,34.3|Z|Shimmering Expanse|N|To The Great Sambino.|
 A Totem Modification|QID|25217|PRE|25218|RANK|1|M|41.3,34.3|Z|Shimmering Expanse|N|From The Great Sambino.|
@@ -296,10 +301,10 @@ T Making Contact|QID|25900|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Dua
 
 A Slave Labor|QID|25907|RANK|1|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
 A Stick It To Them|QID|25908|RANK|1|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-C Slave Labor|QID|25907|U|56178|S|M|57.5,52.0|Shimmering Expanse|N|Use the Rope near Miners.|
+C Slave Labor|QID|25907|U|56178|S|M|57.5,52.0|Z|Shimmering Expanse|N|Use the Rope near Miners.|
 C Stick It To Them|QID|25908|M|57,52.6|Z|Shimmering Expanse|N|Kill 7 Idra'kess Sentinels and 7 Idra'kess Enchantress.|
-C Slave Labor|QID|25907|U|56178|US|M|57.5,52.0|Shimmering Expanse|N|Free remaining Miners.|
-T Slave Labor|QID|25907|M|51.7,52.1|Shimmering Expanse|N|To Earthmender Duarn.|
+C Slave Labor|QID|25907|U|56178|US|M|57.5,52.0|Z|Shimmering Expanse|N|Free remaining Miners.|
+T Slave Labor|QID|25907|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
 T Stick It To Them|QID|25908|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
 
 A Capture The Crab|QID|25989|PRE|25908|RANK|1|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
@@ -396,7 +401,7 @@ A The Revered Lady|QID|25620|PRE|25619|RANK|1|M|40.6,75.4|Z|Shimmering Expanse|N
 T The Revered Lady|QID|25620|M|39.4,59|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 
 A To the Fathom-Lord's Call|QID|25637|PRE|25620|RANK|1|Z|Shimmering Expanse|N|From Lady Naz'jar.|
-A Build to Last|QID|25658|RANK|1|M|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
+A Build to Last|QID|25658|RANK|1|M|39,58.6|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
 
 C To the Fathom-Lord's Call|QID|25637|S|QO|Kvaldir invaders on the terrace slain: 16/16|M|31.7,72.6|Z|Shimmering Expanse|N|Kill Kvaldir.|
 C Build To Last|QID|25658|M|38.41,56.39|Z|Shimmering Expanse|N|Swimp way up to the Nar'shola Terrace. Activate the wards, they look like blue basins.|
@@ -523,7 +528,7 @@ f Swift Seahorse|QID|26006|M|49.48,65.58|U|57412|N|Swim just outside the cave, a
 f Stygian Bounty|QID|26006|M|64.90,68.11|Z|Vashj'ir|N|At Brogdul.|Z|Shimmering Expanse|
 T A Breath of Fresh Air|QID|26006|Z|Shimmering Expanse|N|Click on the rope ladder to board the ship, then turn the quest into Legionnaire Nazgrim.|M|49.61,65.88|
 
-A Full Circle|QID|26221|RANK|1|M|Z|Shimmering Expanse|N|From Legionnaire Nazgrim.|M|64.48,68.68|
+A Full Circle|QID|26221|RANK|1|Z|Shimmering Expanse|N|From Legionnaire Nazgrim.|M|64.48,68.68|
 C Full Circle|QID|26221|Z|Shimmering Expanse|N|Get on board the sub once it arrives.|M|64.64,68.73|
 T Full Circle|QID|26221|Z|Abyssal Depths|N|To Captain “Jewels” Verne.|M|51.4,61.5|
 
@@ -586,7 +591,7 @@ T Put it On|QID|25988|N|To Fiasco Sizzlegrin.|Z|Abyssal Depths|M|51.5,60.8|
 A Promontory Point|QID|25984|N|From Fiasco Sizzlegrin.|Z|Abyssal Depths|M|51.5,60.8|
 
 T Promontory Point|QID|25984|N|Atop a big column. To Legionnaire Nazgrim.|Z|Abyssal Depths|M|42.73,37.82|
-A Clearing the Defiled|QID|26071|From Legionnaire Nazgrim.|Z|Abyssal Depths|M|42.73,37.82|
+A Clearing the Defiled|QID|26071|N|From Legionnaire Nazgrim.|Z|Abyssal Depths|M|42.73,37.82|
 A The Wavespeaker|QID|26057|N|From Legionnaire Nazgrim.|Z|Abyssal Depths|M|42.73,37.82|
 A Scalding Shrooms|QID|26096|N|From Wavespeaker Tulra.|Z|Abyssal Depths|M|42.73,37.82|
 A Into the Totem|QID|26072|N|From Erunak Stonespeaker.|Z|Abyssal Depths|M|42.73,37.82|

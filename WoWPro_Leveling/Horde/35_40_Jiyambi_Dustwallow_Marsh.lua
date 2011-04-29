@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2011-04-29 16:25
+-- Who: Ludovicus Maior
+-- Log: Line 179 for step f has unknown tag [From Dyslix Silvergrub.]
+
+-- URL: http://wow-pro.com/node/3242/revisions/24192/view
 -- Date: 2011-03-20 21:58
 -- Who: Ludovicus Maior
 -- Log: Import TwoToad https://github.com/Jiyambi/WoW-Pro-Guides/commit/6f679123512da96001fc6cbc2e98f2f4e41eb505
@@ -176,7 +181,7 @@ T Delivery for Drazzit|RANK|2|QID|11208|M|42.28,72.93|N|To Drazzit Dripvalve.|
 A Catch a Dragon by the Tail|RANK|1|QID|27413|M|41.59,72.93|N|From Gizzix Grimegurgle.|
 A WANTED: Goreclaw the Ravenous|RANK|1|QID|27412|M|41.75,73.11|N|From Wanted Poster.|
 A Bloodfen Feathers|RANK|1|QID|27407|M|41.86,73.85|N|From Brogg.|
-f Mudsprocket|RANK|1|QID|27407|M|42.82,72.45|From Dyslix Silvergrub.|
+f Mudsprocket|RANK|1|QID|27407|M|42.82,72.45|N|From Dyslix Silvergrub.|
 
 C Bloodfen Feathers|RANK|1|QID|27407|M|32.38,65.36|S|N|Roughly 50% drop from raptors.|
 C WANTED: Goreclaw the Ravenous|RANK|1|QID|27412|M|32.38,65.36|N|Be careful to clear the area around him first, or you might end up with the entire camp of raptors.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_horde
+-- Date: 2011-04-29 17:06
+-- Who: Ludovicus Maior
+-- Log: Line 464 for step A Bad coord 88 .30
+
+-- URL: http://wow-pro.com/node/3304/revisions/24264/view
 -- Date: 2011-04-25 16:34
 -- Who: Chrisser000
 
@@ -461,7 +466,7 @@ C The Greater of Two Evils|QID|25310|U|54814|M|64.91,64.82|N|Use the Talisman of
 
 T The Greater of Two Evils|QID|25310|M|89.56,59.09|N|To Instructor Mylva.|
 T Twilight Territory|QID|25311|M|89.56,59.09|N|To Instructor Mylva.|
-A Speech Writing for Dummies|QID|25314|M|88 .30,58.50|
+A Speech Writing for Dummies|QID|25314|M|88.30,58.50|
 C Speech Writing for Dummies|QID|25314|M|78.97,52.45;78.87,56.40|N|Search around the roads leading to the Seat of the Chosen until you find an ogre called Okrog.|
 T Speech Writing for Dummies|QID|25314|M|88.28,58.51|
 A Head of the Class|QID|25601|M|88.28,58.51|

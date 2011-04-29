@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2011-04-29 15:32
+-- Who: Ludovicus Maior
+-- Log: Line 47 for step C has unknown tag [n], Line 47 for step C has unknown tag [Attack one of the ...], Line 379, for step A non-decimal PRE, Line 609 for step A has 1 M coords, Line 690 for step T has unknown tag [To Kadrak.].
+
+-- URL: http://wow-pro.com/node/3217/revisions/24068/view
 -- Date: 2011-01-29 17:01
 -- Who: Ludovicus Maior
 -- Log: Added QIDs to LVL 18,20 steps.
@@ -44,7 +49,7 @@ C Venison for the Troops|QID|14118|S|M|27.98,68.76|N|Kill Weakened Mosshoof Stag
 T Report to the Labor Captain|O|QID|25275|M|26.93,77.04|N|To Labor Captain Grabbit|
 A Runaway Shredder!|QID|14129|M|26.93,77.04|N|From Labor Captain Grabbit.|
 
-C Runaway Shredder!|QID|14129|M|27.00,72.83|n|Attack one of the runaway shredders and hop inside when it's damaged enough.|
+C Runaway Shredder!|QID|14129|M|27.00,72.83|N|Attack one of the runaway shredders and hop inside when it's damaged enough.|
 
 T Runaway Shredder!|QID|14129|M|27.00,72.83|N|To Reprogrammed Shredder.|
 
@@ -376,7 +381,7 @@ T Field Promotion|QID|24448|M|34.34,44.89|N|To Captain Tork.|
 
 A Still Beating Heart|QID|14487|PRE|24448|M|34.34,44.89|N|From Captain Tork.|
 
-A Extermination|QID|14480|PRE|M|34.44,44.77|N|From Sergeant Zelks.|
+A Extermination|QID|14480|M|34.44,44.77|N|From Sergeant Zelks.|
 
 A Head of the Snake|QID|14484|PRE|14487|M|34.44,44.77|N|From Sergeant Zelks.|
 
@@ -606,7 +611,7 @@ T Ice Cold|QID|14261|M|66.57,19.63|N|To Blastnoggin.|
 
 T Pro-liberation|QID|14297|M|66.42,20.29|N|To Jellix Fuselighter.|
 
-A Farewell, Minnow|QID|14392|PRE|24467|M| |N|From Kalecgos.|
+A Farewell, Minnow|QID|14392|PRE|24467|M|67,20.4|N|From Azuregos.|
 
 H Bilgewater Harbor|QID|14392|U|6948|
 
@@ -687,7 +692,7 @@ A To The Ramparts!|QID|13866|PRE|24463|M|94.39,46.80|Z|Ashenvale|N|From Kulg Gor
 
 F Northern Barrens |QID|13866|M|94.39,46.80|Z|Ashenvale|N|Talk to Kulg for a free flight.|
 
-T To The Ramparts!|QID|13866|M|42.41,15.18|Z|Northern Barrens|To Kadrak.|
+T To The Ramparts!|QID|13866|M|42.41,15.18|Z|Northern Barrens|N|To Kadrak.|
 
 f The Mor'shan Rampart|QID|13866|M|42.02,15.81|Z|Northern Barrens|N|At Gort Goreflight.|
 

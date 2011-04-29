@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2011-04-29 15:13
+-- Who: Ludovicus Maior
+-- Log: Line 65 for step A has unknown tag [82.80,72.80], Line 238 for step C has 3 M coords, Line 273 for step A has 3 M coords, Line 276 for step T has 3 M coords, Line 296 for step C has 1 M coords, Line 479 for step C Bad coord 58.o99.
+
+-- URL: http://wow-pro.com/node/3301/revisions/24236/view
 -- Date: 2011-04-19 17:35
 -- Who: Ludovicus Maior
 -- Log: Coordinate Corrections. Breakout of objectives around [The Vile Hold]
@@ -62,7 +67,7 @@ A The Purging Of Scourgeholme|QID|13118|N|From The Ebon Watcher.|
 A The Scourgestone|QID|13122|N|From The Ebon Watcher.|
 A It Could Kill Us All|QID|13135|N|From Crusade Engineer Spitzpatrick.|M|83.00,73.00|
 A The Stone That Started A Revolution|QID|13130|N|From Crusade Architect Silas.|
-A The Restless Dead|QID|13110|N|From Father Gustav, in the shed.|82.80,72.80|
+A The Restless Dead|QID|13110|N|From Father Gustav, in the shed.|M|82.80,72.80|
 C The Restless Dead|QID|13110|U|43153|N|Kill Reanimated Crusaders in Scourgeholme and use the Holy Water on their corpses.|M|79.40,65.20|
 C The Purging Of Scourgeholme|QID|13118|N|Kill the mobs you still need for this quest. The High Priests are inside the ziggurats.|
 C The Scourgestone|QID|13122|N|Kill more scourge and collect Scourgestones off them.|
@@ -235,7 +240,7 @@ A The Guardians of Corp'rethar|QID|13338|N|Another 5-Man quest. From Thassarian.
 N Broken Shard of Horror|QID|13339|L|44319|N|Destroy this crystal on the top level.|M|47.78,68.14|
 N Broken Shard of Despair|QID|13339|L|44320|N|Destroy this crystal on the middle level.|M|49.83,66.71|
 N Broken Shard of Suffering|QID|13339|L|44321|N|Destroy this crystal.|M|45.82,69.52|
-C The Guardians of Corp'rethar|QID|13338|N|Kill Harbingers of Horror and Corp'rethar Guardians on the Gate of Horror.|M|47,78,68.14|
+C The Guardians of Corp'rethar|QID|13338|N|Kill Harbingers of Horror and Corp'rethar Guardians on the Gate of Horror.|M|47.78,68.14|
 T Shatter the Shards|QID|13339|N|At Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T The Guardians of Corp'rethar|QID|13338|N|At Thassarian.|
 A It's All Fun and Games|QID|12887|N|From Thassarian.|
@@ -270,10 +275,10 @@ A The Bone Witch|QID|12999|N|From The Leaper.|
 T Honor Challenge|QID|12939|N|At Duke Lankral inside the Shadow Vault.|M|44.66,20.35|
 A Shadow Vault Decree|QID|12943|N|From Duke Lankral.|
 R Enter Urfang's Hall|M|39.04,23.98|CC|
-A Get the Key|QID|12949|N|Fight your way to the back of Urfang's Hall and get the Quest from Vaelen the Flayed.|M|41,05,23.88|
+A Get the Key|QID|12949|N|Fight your way to the back of Urfang's Hall and get the Quest from Vaelen the Flayed.|M|41.05,23.88|
 C Shadow Vault Decree|QID|12943|U|41776|N|Stand right in front of Thane Urfang and use the Decree. He won't be too happy about what it reads, so you'll have to kill him afterwards.|M|40.20,23.80|
 C Get the Key|QID|12949|N|Kill Instructor Hroegar, he partrols among the fighters outside.|M|37.00,23.40|
-T Get the Key|QID|12949|N|At Vaelen the Flayed in Urfang's Hall.|M|41,05,23.88|
+T Get the Key|QID|12949|N|At Vaelen the Flayed in Urfang's Hall.|M|41.05,23.88|
 A Let the Baron know|QID|12951|N|From Vaelen the Flayed.|
 T Let the Baron know|QID|12951|N|At Baron Sliver in front of the Shadow Vault.|M|42.86,25.00|
 A Vaelen has returned|QID|13085|N|From baron Sliver.|
@@ -293,7 +298,7 @@ A Deep in the Bowels of The Underhalls|QID|13042|N|From the Bone Witch.|
 R Enter the Underhalls|QID|13042|M|32.44,31.86|CC|
 A Revenge for the Vargul|QID|13059|N|From Bethod Feigr, turn left the first corridor in the Underhalls to find him.|M|36.00,33.00|
 C Revenge for the Vargul|QID|13059|U|42928|N|Go down the staircase to the middle level, enter the room. Use the sword in front of Thane Illskar.|M|32.80,38.00|
-C Deep in the Bowels of The Underhalls|QID|13042|N|Attack Apprentice Osterkilgr, he is under the staircase. Be a little careful not to kill him too fast, you have to give him opportunity to reveal some information before he dies. Afterwards, loot his corpse.|M|
+C Deep in the Bowels of The Underhalls|QID|13042|N|Attack Apprentice Osterkilgr, he is under the staircase. Be a little careful not to kill him too fast, you have to give him opportunity to reveal some information before he dies. Afterwards, loot his corpse.|M|34.04,36.29|
 A The Sum is Greater than the Parts|QID|13043|U|42772|N|Read the book to accept the quest.|
 C The Sum is Greater than the Parts|QID|13043|N|Mount on Nergeld in the room next to Apprentice Osterkilgr. Use your abilities to beat the waves of mobs. When Dr. Terrible appears, focus on him.|M|33.40,33.20|
 T Revenge for the Vargul|QID|13059|N|At Bethod Feigr, upstairs.|M|36.00,33.00|
@@ -476,7 +481,7 @@ A The Rider of Blood|QID|13163|N|A 5-Man quest. From Vereth the Cunning.|
 A The Rider of Frost|QID|13162|N|Another 5-Man quest. From Vereth the Cunning.|
 A The Rider of the Unholy|QID|13161|N|Yet another 5-Man quest. From Vereth the Cunning.|
 C The Rider of the Unholy|QID|13161|N|Kill Rokir, the Rider of the Unholy, on the platform,|M|56.21,80.44|
-C The Rider of Blood|QID|13163|N|Kill Baelok, the Rider of Blood, in the corner of Malykriss.|M|58.o99,70.99|
+C The Rider of Blood|QID|13163|N|Kill Baelok, the Rider of Blood, in the corner of Malykriss.|M|58.99,70.99|
 C The Rider of Frost|QID|13162|N|Kill Sapph, the Rider of Frost.|M|61.60,68.60|
 C The Runesmiths of Malykriss|QID|13140|N|Kill Skeletal Runesmiths and loot Saronite Plates off them.|S|
 C I'm Smelting... Smelting!|QID|13138|U|43289|N|Use the Bag of Jagged Shards near one of the Malykriss furnaces.|M|57.87,74.09|

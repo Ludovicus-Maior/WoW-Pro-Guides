@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2011-04-29 14:56
+-- Who: Ludovicus Maior
+-- Log: Line 133 for step N has too short a title, Line 174 for step N has too short a title, Line 239 for step A has unknown tag [From Corki.], Line 305 for step C has 1 M coords.
+
+-- URL: http://wow-pro.com/node/3279/revisions/24229/view
 -- Date: 2011-04-06 14:49
 -- Who: Crackerhead22
 -- Log: Added in missing notes on "The Master Planner" and "Patience and Understanding".
@@ -130,7 +135,7 @@ A Agitated Spirits of Skysong |QID|9804|M|60.5,22.4|N|From Elementalist Lo'ap.|
 T Eating Damnation |QID|9821|M|61.8,24.4|N|To Gordawg.|
 A Shattering the Veil |QID|9849|M|61.8,24.4|N|From Gordawg.|
 
-N |QID|9804|N|Keep the Nagrand Cherry unless you can cast underwater breathing. Destroy Gordawg's Imprint since you do not need it.|
+N Nagrand Cherry and Stuff|QID|9804|N|Keep the Nagrand Cherry unless you can cast underwater breathing. Destroy Gordawg's Imprint since you do not need it.|
 C Agitated Spirits of Skysong|N|Lill Lake Spirits in the lake until you finish this quest.|QID|9804|U|24421|
 T Agitated Spirits of Skysong|QID|9804|M|60.5,22.4|N|To Elementalist Lo'ap.|
 A Blessing of Incineratus |QID|9805|M|60.5,22.4|N|From Elementalist Lo'ap.|
@@ -171,7 +176,7 @@ T He Called Himself Altruis...|QID|9982|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
 C Survey the Land |N|Make sure you are not mounted when you accept this quest (or abandon it and re-accept it).  You should fly around automatically.|QID|9991|M|27.29,43.1|
 T Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
-N |QID|9859|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion.|
+N Altruis Offers Too Much|QID|9859|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion.|
 K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|N|Kill Bach'lor and loot his hoof. He wanders between the waypoints.|T|Bach'lor|L|24523|US|
 A Matters of Security |QID|9925|M|30.8,58.1|N|From Zerid.|
 A Gava'xi |QID|9900|M|30.8,58.1|N|From Zerid.|
@@ -236,7 +241,7 @@ l Mountain Gronn Eyeball|QID|10252|N|Kill the Mountain Gronn on this path and lo
 C The Ravaged Caravan|N|Get the crates needed for this quest.|QID|9956|M|27.00,23.00|S|
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|S|
 T Corki's Ransom|QID|9954|M|27.00,23.00|N|Go in the cave here, go to the back of the cave and find Corki. Turn the quest in, be careful of the elite.|
-A Cho'war the Pillager|QID|9955|M|27.00,23.00|From Corki.|
+A Cho'war the Pillager|QID|9955|M|27.00,23.00|N|From Corki.|
 K Cho'war the Pillager|N|Go through the cave and kill Cho'war (group may be needed)|QID|9955|M|27.17,18.68;27.00,11.00|L|25648|
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|US|
 C Gurok the Usurper|N|Use the skulls at the pulsating purple circle. Kill Gurok then loot him(with a group if need be). He has a nasty knock back, so don't have your back towards the cliff.|QID|9853|M|29.00,25.00|U|24502|
@@ -302,7 +307,7 @@ N The rest...|N|The following quests Altruis gives (after this note), have pre-r
 A Against the Legion|QID|10641|M|27.35,43.06|N|From Altruis the Sufferer.|
 A Against the Illidari|QID|10668|M|27.35,43.06|N|From Altruis the Sufferer.|
 A Against All Odds|QID|10669|M|27.35,43.06|N|From Altruis the Sufferer.|
-C Against All Odds|QID|10669|M||Z|Zangarmarsh|N|Go the waypoint and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
+C Against All Odds|QID|10669|M|15,41|Z|Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
 l Freshly Drawn Blood|QID|10641|Z|Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
 C Against the Legion|QID|10641|M|40,20|Z|Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
 C Against the Illidari|QID|10668|M|28.2,49.8|Z|Shadowmoon Valley|N|Now all the way down to Shadowmoon. Head to the waypoint then kill Lothros.|

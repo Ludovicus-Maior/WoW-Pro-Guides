@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2011-04-29 15:24
+-- Who: Ludovicus Maior
+-- Log: Line 148 for step L has unknown tag [If not level 6 yet, kill stuffs.], Line 202 for step T has unknown tag [9130], Line 281 for step C has 1 M coords, Line 299 for step T has unknown tag [To Larianna Riverwind.]
+
+-- URL: http://wow-pro.com/node/3207/revisions/24100/view
 -- Date: 2011-02-05 14:18
 -- Who: Ludovicus Maior
 -- Log: Submitted by zoefed on Thu, 2011-01-20 09:13.
@@ -145,7 +150,7 @@ C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|S|
 C Wanted: Thaelis the Hungerer |QID|8468|N|Be careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
 C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|US|
 C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|M|46,42|N|Look for light beams that come out of the boxes.|
-L Level 6|QID|8472|LVL|6|If not level 6 yet, kill stuffs.
+L Level 6|QID|8472|LVL|6|N|If not level 6 yet, kill stuffs.
 T Major Malfunction |QID|8472|M|47.3,46.3|
 A Delivery to the North Sanctum |QID|8895|M|47.3,46.3|
 T Wanted: Thaelis the Hungerer |QID|8468|M|47.8,46.6|
@@ -199,7 +204,7 @@ r Sell junk, repair/restock|QID|9130|M|43.7,71.54|N|At Sathiel.|
 T Saltheril's Haven |QID|9395|M|38.1,73.6|
 A The Party Never Ends |QID|9067|M|38.1,73.6|
 B Buy Bundle of Fireworks |QID|9067|L|22777|N|Buy a Bundle of fireworks from Halis Dawnstrider |M|44.10,70.40|
-T Goods from Silvermoon City|9130|N|To Skymaster Brightdawn.|M|44,70|
+T Goods from Silvermoon City|QID|9130|N|To Skymaster Brightdawn.|M|44,70|
 A Fly to Silvermoon City|QID|9133|M|44,70|N|From Skymaster Brightdawn.|
 F Silvermoon City|QID|9067|M|44,70|N|Fly to Silvermoon City.|
 T Fly to Silvermoon City|QID|9133|M|54,71|Z|Silvermoon City|N|To Sathren Azuredawn.|
@@ -278,7 +283,7 @@ T Amani Invasion |QID|9360|N|Back at farstrider retreat. The Elrendar Falls are 
 T Amani Encroachment |QID|8476|M|60.3,62.8|
 A Warning Fairbreeze Village|QID|9363|M|60.32,62.76|N|From Lieutenant Dawnrunner.|
 T The Spearcrafter's Hammer |QID|8477|M|59.5,62.6|
-C The Purest Water|QID|9403|M|R|BloodElf|C|Mage|64.21,72.66|U|23566|N|Go to the base of the waterfall, in the water, and fill the azure phial.|
+C The Purest Water|QID|9403|R|BloodElf|C|Mage|M|64.21,72.66|U|23566|N|Go to the base of the waterfall, in the water, and fill the azure phial.|
 T The Purest Water|QID|9403|R|BloodElf|C|Mage|N|Instructor Antheol.|M|55.7,54.5|
 H Fairbreeze Village|QID|9255|U|6948|
 T Research Notes |QID|9255|M|44.0,70.8|
@@ -296,7 +301,7 @@ T Old Whitebark's Pendant|QID|8474|M|34,80|N|At Larianna Riverwind.|
 A Whitebark's Memory|QID|10166|M|34,80|N|From Larianna Riverwind.|
 T Whitebark's Memory|QID|10166|M|37.58,86.14|N|Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
 C A Somber Task|QID|8473|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|US|
-T A Somber Task|QID|8473|M|34,80|To Larianna Riverwind.|
+T A Somber Task|QID|8473|M|34,80|N|To Larianna Riverwind.|
 N If you need to visit your trainers|QID|8473|N|Head to Silvermoon City and train, visit the AH etc. Once done, hearth or fly back to Fairbreeze, then close this step to go to the next guide.|
 ]]
 

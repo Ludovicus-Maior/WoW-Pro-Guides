@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2011-04-29 15:39
+-- Who: Ludovicus Maior
+-- Log: Line 218 for step K has 1 M coords, Line 221 for step K has 1 M coords.
+
+-- URL: http://wow-pro.com/node/3221/revisions/24212/view
 -- Date: 2011-04-05 23:18
 -- Who: Ludovicus Maior
 
@@ -215,10 +220,10 @@ C Apothecary Enith|QID|9164|QO|Apothecary Enith Rescued: 1/1|M|32.1,73.9|N|Go do
 K Jurion the Deceiver|QID|9170|QO| Jurion the Deceiver slain: 1/1|M|32.1,74|N|Kill Jurion the Deciever in the crypt.|
 K Mirdoran the Fallen|QID|9170|QO|Mirdoran the Fallen slain: 1/1|M|37.1,79.1|N|Kill Mirdoran the Fallen.|
 C Apprentice Varnis|QID|9164|QO|Apprentice Varnis Rescued: 1/1|M|40.97,83.10|N|Go into the butchery and talk to Aprentive Varnis.|
-K Borgoth the Bloodletter.|QID|9170|S|M|41,83.1;32.789.9|N|Borgoth can be in either butchery.|
+K Borgoth the Bloodletter.|QID|9170|S|M|41,83.1;32.7,89.9|N|Borgoth can be in either butchery.|
 C Captives at Deatholme|QID|9164|M|32.8,89.3|N|Talk to Ranger Vedoran to rescue him.|
 C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|N|Masophet can be in either ziggurat..|
-K Borgoth the Bloodletter|QID|9170|US|QO|Borgoth the Bloodletter slain: 1/1|M|41,83.1;32.789.9|N|Borgoth can be in either butchery.|
+K Borgoth the Bloodletter|QID|9170|US|QO|Borgoth the Bloodletter slain: 1/1|M|41,83.1;32.7,89.9|N|Borgoth can be in either butchery.|
 C The Traitor's Destruction|QID|9167|M|32.81,82.45|N|Dar'Khan is a 21 elite, he has 2-4 adds in the same room as him.  He likes fear now and then.  If you have help, or if you think you can solo him, go ahead.  If not, go ahead and skip, though the rewards are nice.|
 T The Traitor's Destruction|QID|9167|M|54.99,48.99|N|To Magister Kaendris.|
 A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|N|From Magister Kaendris.|

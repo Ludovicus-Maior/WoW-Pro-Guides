@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2011-04-29 14:29
+-- Who: Ludovicus Maior
+-- Log: Line 116 for step T has unknown tag [A Attack on the Tower]: [T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|A Attack on the Tower|QID|26038|PRE|26037|M|12.95,69.32|N|From Apprentice Kryten.|]
+
+-- URL: http://wow-pro.com/node/3229/revisions/23827/view
 -- Date: 2010-12-25 03:17
 -- Who: Crackerhead22
 -- Log: Removed quests that did not belong in Arathi Highlands.
@@ -113,7 +118,7 @@ T Wand over Fist|QID|26036|M|40.35,48.99|N|To Skuerto.|
 
 A Trelane's Defenses|QID|26037|PRE|26036|RANK|1|M|40.35,48.99|N|From Skuerto.|
 C Trelane's Defenses|QID|26037|M|11.08,71.08|N|Kill Boulderfist Shaman until you get the Azure Agate.|
-T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|A Attack on the Tower|QID|26038|PRE|26037|M|12.95,69.32|N|From Apprentice Kryten.|
+T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|
 
 A Attack on the Tower|QID|26038|PRE|26037|RANK|1|M|12.95,69.32|N|From Apprentice Kryten.|
 C Attack on the Tower|QID|26038|M|11.32,70.28;11.18,70.02;11.29,71.08|N|Follow the arrow, up the tower and to the chests. Loot them. Kill the ogres that attack you.|

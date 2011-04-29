@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2011-04-29 16:05
+-- Who: Ludovicus Maior
+-- Log: Line 59 for step A has unknown tag [From Sergeant Altumus.], Line * for step N has unknown tag [Q], Line 115 for step N has unknown tag [Disrupt Their Reinforcements], Line 284 for step N has unknown tag [M5].
+
+-- URL: http://wow-pro.com/node/3271/revisions/24205/view
 -- Date: 2011-04-03 06:01
 -- Who: Crackerhead22
 
@@ -56,14 +61,14 @@ T Waste Not, Want Not |QID|10055|M|51.2,60.0|N|To Dumphry.|
 A Ill Omens |QID|10483|M|50.9,60.2|N|From Lieutenant Amadi.|
 A Laying Waste to the Unwanted |QID|10078|M|51.2,60.0|N|From Dumphry.|
 T The Legion Reborn |QID|10141|M|61.7,60.8|N|To Sergeant Altumus.|
-A The Path of Anguish |QID|10142|M|61.7,60.8|From Sergeant Altumus.|
+A The Path of Anguish |QID|10142|M|61.7,60.8|N|From Sergeant Altumus.|
 C The Path of Anguish |N|Kill the mobs needed for this quest.|QID|10142|M|65.00,58.00|
-N Burn Catapult 1 |QID|10078|N|Burn the first thrower here with the Flaming Torch. |Q|Laying Waste to the Unwanted|QO|Eastern Thrower Burned: 1/1|U|26002|M|58.50,46.80|
-N Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Torch. |Q|Laying Waste to the Unwanted|QO|Central Eastern Thrower Burned: 1/1|U|26002|M|55.85,46.75|
-N Burn Catapult 3 |QID|10078|N|Burn the third thrower here with the Flaming Torch. |Q|Laying Waste to the Unwanted|QO|Central Western Thrower Burned: 1/1|U|26002|M|53.50,47.20|
+N Burn Catapult 1 |QID|10078|N|Burn the first thrower here with the Flaming Torch. |QO|Eastern Thrower Burned: 1/1|U|26002|M|58.50,46.80|
+N Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Torch. |QO|Central Eastern Thrower Burned: 1/1|U|26002|M|55.85,46.75|
+N Burn Catapult 3 |QID|10078|N|Burn the third thrower here with the Flaming Torch. |QO|Central Western Thrower Burned: 1/1|U|26002|M|53.50,47.20|
 C Laying Waste to the Unwanted |N|Burn the last thrower here.|QID|10078|U|26002|M|52.80,47.20|
 
-R Temple of Telhamat|QID|9398|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|Run to the Temple of Telhamat.|
+R Temple of Telhamat|QID|9398|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|N|Run to the Temple of Telhamat.|
 A Deadly Predators |QID|9398|M|23.4,39.7|N|From Scout Vanura.|
 A In Search of Sedai |QID|9390|M|23.1,40.3|N|From Anchorite Obadei.|
 A Cruel Taskmasters |QID|9399|M|23.1,40.3|N|From Ikan.|
@@ -98,9 +103,9 @@ T Expedition Point |QID|10143|M|71.3,62.8|N|To Forward Commander Kingston.|
 A Disrupt Their Reinforcements |QID|10144|M|71.3,62.8|N|From Forward Commander Kingston.|
 A Zeth'Gor Must Burn! |QID|10895|M|71.3,62.8|N|From Wing Commander Dabir'ee.|
 C Cursed Talismans |N|Kill Orcs until you get the talismans for this quest.|QID|10484|M|64.2,71.8|S|
-N Northern Tower |QID|10895|N|Use the Smoke Beacon here.|Q|Zeth'Gor Must Burn!|QO|Northern Tower Marked: 1/1|U|31739|M|68.00,67.10|
-N Forge Tower |QID|10895|N|Use the Smoke Beacon here.|Q|Zeth'Gor Must Burn!|QO|Forge Tower Marked: 1/1|U|31739|M|70.20,69.20|
-N Foothill Tower |QID|10895|N|Use the Smoke Beacon here.|Q|Zeth'Gor Must Burn!|QO|Foothill Tower Marked: 1/1|U|31739|M|70.70,71.35|
+N Northern Tower |QID|10895|N|Use the Smoke Beacon here.|QO|Northern Tower Marked: 1/1|U|31739|M|68.00,67.10|
+N Forge Tower |QID|10895|N|Use the Smoke Beacon here.|QO|Forge Tower Marked: 1/1|U|31739|M|70.20,69.20|
+N Foothill Tower |QID|10895|N|Use the Smoke Beacon here.|QO|Foothill Tower Marked: 1/1|U|31739|M|70.70,71.35|
 C Zeth'Gor Must Burn! |N|Use the Smoke Beacon here.|QID|10895| |U|31739|M|66.45,76.35|
 C Cursed Talismans |N|Kill Orcs until you get the talismans for this quest.|QID|10484|M|64.2,71.8|US|
 T Cursed Talismans |QID|10484|M|71.0,63.4|N|To Corpral Ironridge.|
@@ -112,11 +117,11 @@ A Return to Honor Hold |QID|10903|M|71.0,63.4|N|From Corparal Ironridge.|
 r Sell junk, repair|QID|10903|M|70.95,63.25|N|At Supply Officer Shandria.|
 
 l Demonic Rune Stone |QID|10144||N|Kill Demons until you have 4 Demonic Rune Stones.|L|28513 4|M|71.20,58.75|
-N Portal Kaalez |QID|10144||N|Disrupt the portal here by clicking on it when inside.|Q|Disrupt Their Reinforcements|QO|Disrupt Portal Kaalez: 1/1|M|72.70,58.95|
+N Portal Kaalez |QID|10144||N|Disrupt the portal here by clicking on it when inside.|QO|Disrupt Portal Kaalez: 1/1|M|72.70,58.95|
 l Demonic Rune Stones |QID|10144||N|Kill Demons until you have 4 Demonic Rune Stones.|L|28513 4|M|71.50,55.15|
 C Disrupt Their Reinforcements |N|Disrupt the portal here.|QID|10144|M|71.50,55.15|
-T Disrupt Their Reinforcements |QID|10144|M|71.3,62.8|N|To Foward Commander Kingston.|
-A Mission: The Murketh and Shaadraz Gateways |QID|10146|M|71.3,62.8|N|Foward Commander Kingston.|
+T Disrupt Their Reinforcements |QID|10144|M|71.3,62.8|N|To Forward Commander Kingston.|
+A Mission: The Murketh and Shaadraz Gateways |QID|10146|M|71.3,62.8|N|Forward Commander Kingston.|
 N Seaforium PU-36 Explosive Nether Modulator |QID|10146|N|Hotkey this item, then right-click the box to continue.|M|71.40,62.50|
 C Mission: The Murketh and Shaadraz Gateways |N|Talk to Wing Commander Dabir'ee to begin flying and then use the hotkeyed bomb to destroy the gateways.|QID|10146|M|71.40,62.50|
 T Mission: The Murketh and Shaadraz Gateways |QID|10146|M|71.4,62.7|N|To Forward Commander Kingston.|
@@ -281,7 +286,7 @@ T Beneath Thrallmar|QID|10630|N|To Foreman Razelcraz.|M|51.31,30.5|
 H Honor Hold |QID|10400|N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
 T The Heart of Darkness |QID|10399|N|To Warp-Scryer Kryv|M|56.61,66.49|
 T Overlord|QID|10400|N|To Force Commander Danath Trollbane.|M|56.63,66.64|
-N Check for Upgrades |QID|10050| |N| Now that you should be Honored with Honor Hold you might want to check the quartermaster for upgrades.|M5|6.7,62.58|
+N Check for Upgrades |QID|10050| |N| Now that you should be Honored with Honor Hold you might want to check the quartermaster for upgrades.|M|56.7,62.58|
 
 F Temple of Telhamat |QID|9427|N|Fly to Temple of Telhamat.|M|54.70,62.30|
 T Cleansing the Waters |QID|9427|M|23.4,36.5|N|To Amaan the Wise.|

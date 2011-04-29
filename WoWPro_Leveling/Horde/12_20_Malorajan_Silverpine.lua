@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_silverpine_forest
+-- Date: 2011-04-29 15:36
+-- Who: Ludovicus Maior
+-- Log: Line 74 for step C has unknown tag [Find a Forest Ettin ...], Line 169 for step C has unknown tag [Kill Worgens  ...].
+
+-- URL: http://wow-pro.com/node/3219/revisions/23830/view
 -- Date: 2010-12-26 01:41
 -- Who: Crackerhead22
 -- Log: Added |N| tags, fixed several |N|, fixed a few waypoints, added sticky steps, added |QO| steps, added missing quest.
@@ -71,7 +76,7 @@ A Skitterweb Menace|QID|27095|M|44.06,21.30|N|From Warlord Torok.|
 A Lost in the Darkness|QID|27093|M|44.07,21.29|N|From Admiral Hatchet.|
 T Playing Dirty|QID|27082|M|44.74,20.91|N|To Apothecary Wormcrud.|
 A It's Only Poisonous if You Ingest It|QID|27088|M|44.73,20.94|N|From Apothecary Wormcrud.|
-C It's Only Poisonous if You Ingest It|QID|27088|U|60808|M|41.69,28.02|Find a Forest Ettin (look for the boss icon on the mini map to help you), use the chicken then kill it.|T|Forest Ettin|
+C It's Only Poisonous if You Ingest It|QID|27088|U|60808|M|41.69,28.02|N|Find a Forest Ettin (look for the boss icon on the mini map to help you), use the chicken then kill it.|T|Forest Ettin|
 C Lost in the Darkness|QID|27093|M|34.32,9.92|S|N|Attack the Webbed Victims to free Orc Sea Dogs. Possible to be agressive mobs.|
 C Skitterweb Menace|QID|27095|M|35.51,13.02|N|Kill any spider you come across.|
 T Skitterweb Menace|QID|27095|M|35.65,13.60|N|(UI Alert)|
@@ -166,7 +171,7 @@ T Vengeance for Our Soldiers|QID|27360|M|65.65,34.21|Z|Ruins of Gilneas|N|To Cap
 T Fall Back!|QID|27405|M|72.89,30.17|Z|Ruins of Gilneas|N|To Deathstalker Commander Belmont.|
 A A Man Named Godfrey|QID|27406|M|72.89,30.17|Z|Ruins of Gilneas|N|From Deathstalker Commander Belmont.|
 A Resistance is Futile|QID|27423|M|73.41,31.39|Z|Ruins of Gilneas|N|Head just outside of Emberstone and you will automatically accept this quest.|
-C Resistance is Futile|QID|27423|M|77.02,52.70|Z|Ruins of Gilneas|Kill Worgens and Warhounds as you head to the waypoint.|
+C Resistance is Futile|QID|27423|M|77.02,52.70|Z|Ruins of Gilneas|N|Kill Worgens and Warhounds as you head to the waypoint.|
 T Resistance is Futile|QID|27423|M|77.47,53.01|Z|Ruins of Gilneas|N|To Deathstalker Commander Belmont.|
 C A Man Named Godfrey|QID|27406|M|79.77,75.77|Z|Ruins of Gilneas|N|Click on Godfrey's corpse.|
 T A Man Named Godfrey|QID|27406|M|79.77,75.77|Z|Ruins of Gilneas|N|To Deathstalker Commander Belmont.|

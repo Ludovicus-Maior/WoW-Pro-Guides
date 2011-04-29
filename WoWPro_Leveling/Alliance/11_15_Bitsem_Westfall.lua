@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2011-04-29 14:20
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3213/revisions/23935/view
 -- Date: 2011-01-06 15:32
 -- Who: Crackerhead22
 -- Log: Added turn in for "Furlbrow's Deed"
@@ -142,7 +146,7 @@ C Secrets of the Tower|QID|26290|NC|PRE|58112|U|58112|M|70.42,74.22|
 T Secrets of the Tower|QID|26290|M|68.39,70.45|N|To Agent Kearnen.|
 A Big Trouble in Moonbrook|QID|26291|PRE|26290|RANK|1|M|68.39,70.45|N|From Agent Kearnen.|
 
-H Sentinel Hill|QID|26288|NC|QO|M|56.45,47.57|N|Hearth to Sentinel Hll.|
+H Sentinel Hill|QID|26288|NC|M|56.45,47.57|N|Hearth to Sentinel Hill.|
 
 T Big Trouble in Moonbrook|QID|26291|M|56.41,47.41|N|To Marshal Gryan Stoutmantle.|
 A To Moonbrook!|QID|26292|PRE|26291|RANK|1|M|56.41,47.41|N|From Marshal Gryan Stoutmantle.|
@@ -167,7 +171,7 @@ A Secrets Revealed|QID|26319|PRE|26297|RANK|1|M|42.18,64.19|N|From Captain Alper
 T Secrets Revealed|QID|26319|M|42.86,65.08|N|To Thoralius the Wise.|
 A A Vision of the Past|QID|26320|PRE|26319|RANK|1|M|42.86,65.08|N|From Thoralius the Wise.|
 R Defias Hideout|QID|26320|M|40.86,81.98|N|Run inside the building.|
-C A Vision of the Past|QID|26320|NC|U|58147|M||N|Follow the orhpans and homeless to The Deadmines instance. Once you enter the Deadmines Instance, use the incense. Then get ready to feel like a bad person if you've done the original Deadmines.|
+C A Vision of the Past|QID|26320|NC|U|58147|N|Follow the orphans and homeless to The Deadmines instance. Stick to the right. Once you enter the Deadmines Instance, use the incense. Then get ready to feel like a bad person if you've done the original Deadmines.|
 
 A The Foreman|QID|27756|RANK|1|M|29.78,28.11|Z|The Deadmines|N|If you wish to do the Deadmines Instance. If not, just leave and check off this step. From Lieutenant Horatio Laine.|
 C Keeper of the Flame|QID|26347|M|37.79,40.04|

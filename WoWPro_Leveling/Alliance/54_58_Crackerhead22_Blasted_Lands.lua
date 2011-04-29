@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2011-04-29 14:49
+-- Who: Ludovicus Maior
+-- Log: Line 30 for step C has 1 M coords
+
+-- URL: http://wow-pro.com/node/3267/revisions/23791/view
 -- Date: 2010-12-19 07:48
 -- Who: lunargecko
 
@@ -27,7 +32,7 @@ h Nethergarde Keep|QID|25715|M|60.72,14.13|N|At Mama Morton.|
 T Onward to the Blasted Lands|QID|27919|M|61.53,18.46|N|To Enohar Thunderbrew.|
 A A Closer Look|QID|25715|M|61.53,18.46|N|From Enohar Thunderbrew.|
 f Nethergarde Keep|QID|25715|M|61.21,21.75|N|At Alexandra Constantine.|
-C Minor Distractions|QID|25710|M|62.72,23.43;|N|They are stealthed, and usually can be found by the cannons.|
+C Minor Distractions|QID|25710|M|62.72,23.43|N|They are stealthed, and usually can be found by the cannons.|
 C A Closer Look|QID|25715|NC|M|68.91,28.08|N|Run near the ships for completion.|
 T A Closer Look|QID|25715|M|61.51,18.52|N|To Enohar Thunderbrew.|
 A Our Fallen Friends|QID|25708|M|61.51,18.52|N|From Enohar Thunderbrew.|

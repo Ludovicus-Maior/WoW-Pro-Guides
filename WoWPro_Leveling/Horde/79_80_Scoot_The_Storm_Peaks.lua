@@ -1,4 +1,11 @@
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
+-- Date: 2011-04-29 18:14
+-- Who: Ludovicus Maior
+-- Log: ! Line 187 for step A has unknown tag [To the left. (24.01, 61.74)]: [A Valkyrion Must Burn |QID|12953| To the left. (24.01, 61.74)|M|24.0,61.8|]
+--	! Line 223 for step C Bad coord : [C Battling the Elements |QID|12967| |N|Get on Snorri's Back.  Pick up the Snowdrifts  and throw Snowballs (2) at Seething Revenants.|M|1,|]
+--	! Line 226 for step T has unknown tag [(63.17,63.21)]: [T Forging an Alliance |QID|12924|(63.17,63.21)|M|63.2,63.2|]
+
+-- URL: http://wow-pro.com/node/3300/revisions/23492/view
 -- Date: 2010-12-03 22:34
 -- Who: Jiyambi
 
@@ -184,7 +191,7 @@ A Mending Fences |QID|12915|M|33.4,58.0|
 F Valkyrion |QID|12968| |N||M|23,61|
 C Yulda's Folly |QID|12968| |N|She's in the big building with two entrances.|
 
-A Valkyrion Must Burn |QID|12953| To the left. (24.01, 61.74)|M|24.0,61.8|
+A Valkyrion Must Burn |QID|12953|N|To the left.|M|24.01, 61.74|
 C Valkyrion Must Burn |QID|12953| |N|Go find a Valkyrion Harpoon Gun  and burn 6 haystacks.  Kill anything that gets in your way.|M|25.89,59.73|
 C Off With Their Black Wings |QID|12942| |N|The flying mobs.|
 K Valkyrion Aspirants |QID|12925| |N| Kill Valkyrion Aspirants until you have 6 Vials of Frost Oil| |L|41612 6|
@@ -220,10 +227,10 @@ F Fjorn's Anvil |QID|12966| |N||M|75,63|
 T You Can't Miss Him |QID|12966|M|75.4,63.6|
 
 A Battling the Elements |QID|12967|M|75.4,63.6|
-C Battling the Elements |QID|12967| |N|Get on Snorri's Back.  Pick up the Snowdrifts  and throw Snowballs (2) at Seething Revenants.|M|1,|
+C Battling the Elements |QID|12967| |N|Get on Snorri's Back.  Pick up the Snowdrifts  and throw Snowballs (2) at Seething Revenants.|M|77.1,62.8|
 T Battling the Elements |QID|12967|M|75.4,63.6|
 F Dun Niffelem |QID|12924| |N||M|62,61|
-T Forging an Alliance |QID|12924|(63.17,63.21)|M|63.2,63.2|
+T Forging an Alliance |QID|12924|N|Njormeld|M|63.17,63.21|
 
 A A New Beginning |QID|13009|M|63.2,63.2|
 N Dailies |QID|13009| |N|Now you have opened the first of the Sons of Hodir Dailies.  Get used to this area, the best Shoulder Enchant in the game (if you don't have Inscription) requires you to be Exalted with them.|

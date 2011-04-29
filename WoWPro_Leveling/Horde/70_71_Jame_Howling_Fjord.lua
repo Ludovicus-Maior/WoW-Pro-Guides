@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2011-04-29 16:48
+-- Who: Ludovicus Maior
+-- Log: Line ** for step * has unknown tag [NOPOI], Line 367 for step C has 3 M coords, Line 552 for step T has 3 M coords.
+
+-- URL: http://wow-pro.com/node/3288/revisions/23954/view
 -- Date: 2011-01-08 18:40
 -- Who: STrek
 -- Log: added code:
@@ -184,7 +189,7 @@ T Burn Skorn, Burn! |QID|11258|
 T Towers of Certain Doom |QID|11259|
 A The Conqueror of Skorn! |QID|11261|
 
-C The Fallen Sisters |QID|11314|U|33606|NOPOI|N|In the Vibrant Glade to the east. Beat a Chill Nymph down to below 30% HP, then use Lurielle's Pendant. Rinse and repeat.|M|51,26|
+C The Fallen Sisters |QID|11314|U|33606|N|In the Vibrant Glade to the east. Beat a Chill Nymph down to below 30% HP, then use Lurielle's Pendant. Rinse and repeat.|M|51,26|
 C Wild Vines |QID|11315|
 
 T The Fallen Sisters |QID|11314| |N|Back at the Frozen Glade.|M|61.5,22.9|
@@ -195,7 +200,7 @@ A Seeds of the Blacksouled Keepers |QID|11319|
 C The Lodestone |QID|11366|U|33819|N|Head to the Broken Tablet, use the Rune Sample while standing near it.|M|72,17|
 C Mastering the Runes |QID|11351| |N|Look for a little box called Iron Rune Carving Tools, they spawn under one of the 5 'tent' canopies.|
 
-C Seeds of the Blacksouled Keepers |QID|11319|U|33607|NOPOI|N|Head northwest to the Twisted Glade. Kill the spores and use the Enchanted Ice Core on their corpses.|M|55,19|
+C Seeds of the Blacksouled Keepers |QID|11319|U|33607|N|Head northwest to the Twisted Glade. Kill the spores and use the Enchanted Ice Core on their corpses.|M|55,19|
 C Spawn of the Twisted Glade |QID|11316|
 
 T Spawn of the Twisted Glade |QID|11316| |N|Head back to the Frozen Glade.|M|61.5,22.9|
@@ -305,7 +310,7 @@ T What's in That Brew? |QID|11298|
 T Eyes of the Eagle |QID|11417|U|33618|N|Back at (30,6).|M|29.64,5.72|
 A Alpha Worg |QID|11324|
 
-C Alpha Worg |QID|11324|NOPOI|N|Look for Garwal. He patrols between the three points, (27,, (26,12), (28,17). You don't have to be in the Worg disguise.|
+C Alpha Worg |QID|11324|N|Look for Garwal. He patrols between the three points, (27,, (26,12), (28,17). You don't have to be in the Worg disguise.|
 
 N Things to do |QID|11264|N|Deathless Watchers and Putrid Wights are kill on sight until you finish the relevant quest, especially the watchers.|
 
@@ -364,7 +369,7 @@ N Fengir's Clue |QID|11504|QO|Fengir's Clue: 1/1|N|Fengir's Clue is in a pile of
 N Rodin's Clue |QID|11504|QO|Rodin's Clue: 1/1|N|Rodin's Clue is to the east in an Unlocked Chest at (59.2,77.0).|
 N Isuldof's Clue |QID|11504|QO|Isuldof's Clue: 1/1|N|Isuldof's Clue is southeast, a Long Tail Feather at (59.4,79.4).|
 N Windan's Clue |QID|11504|QO|Windan's Clue: 1/1|N|Windan's clue, the last of them, is east in a Cannonball at (62.0,80.1).|
-C Shield Hill |QID|11424|M|59.00,78,00|
+C Shield Hill |QID|11424|M|59.00,78.00|
 
 A Against Nifflevar |QID|12482| |N|At Ghostblade Post, which is to the east over the bridge at (67,61).|M|67.45,60.59|
 A The Enemy's Legacy |QID|11423|M|67.35,60.31|
@@ -455,7 +460,7 @@ A Gambling Debt |QID|11464|M|36.31,80.48|
 C Gambling Debt |QID|11464| |N|Talk to Silvermoon Harry, click the text, beat him, talk to him and click the text again.|M|35.10,80.94|
 T Gambling Debt |QID|11464|M|36.31,80.48|
 A Jack Likes His Drink |QID|11466|M|36.31,80.48|
-C Jack Likes His Drink |QID|11466|NOPOI|N|Head into the building and talk to Olga, the Scalawag Wench (35.3,79.6). Bribe her, watch Jack pass out. Right click him and hit the text.|M|35.42,79.53|
+C Jack Likes His Drink |QID|11466|N|Head into the building and talk to Olga, the Scalawag Wench (35.3,79.6). Bribe her, watch Jack pass out. Right click him and hit the text.|M|35.42,79.53|
 T Jack Likes His Drink |QID|11466|M|36.31,80.48|
 A Dead Man's Debt |QID|11467|M|36.31,80.48|
 A Swabbin' Soap |QID|11469| |N|On the ship at (38,80).|M|37.75,79.58|
@@ -501,7 +506,7 @@ A The Jig is Up |QID|11471|M|35.40,79.44|
 
 C Swabbin' Soap |QID|11469| |N|Head to the northwest point of the isle. Big Roy is in the water at (31,78).|M|31.07,78.76|
 
-C The Jig is Up |QID|11471|NOPOI|N|The cave entrance is at (33.57,75.61). The quest is a little hard, you've got to beat "Mad" Jonah Sterling to 30%, then kill the bear Hozzer. Both can be stunned, slowed and feared. There isn't a followup, but it rewards some nice trinkets.|M|33.57,75.61|
+C The Jig is Up |QID|11471|N|The cave entrance is at (33.57,75.61). The quest is a little hard, you've got to beat "Mad" Jonah Sterling to 30%, then kill the bear Hozzer. Both can be stunned, slowed and feared. There isn't a followup, but it rewards some nice trinkets.|M|33.57,75.61|
 C The Frozen Heart of Isuldof |QID|11512| |N|If you didn't do the previous quest, hug the wall to get past Jonah, if you did just walk past, head down to the bottom of the cave. The frozen heart is down there.|M|32.33,78.67|
 
 T The Jig is Up |QID|11471| |N|Annie Bonn is on the top floor of the building back at Scalawag Point.|M|35.40,79.44|
@@ -549,7 +554,7 @@ T Return to Atuik |QID|11572| |N|Take the lift behind Orfus, then ride north to 
 
 R Moa'ki Harbor |QID|12118|N|Go out onto the docks and take the turtle boat. (23.2,57.7)|M|23.55,57.79|
 
-T Travel to Moa'ki Harbor |QID|12118|Z|Dragonblight|M|47.99,74,89|
+T Travel to Moa'ki Harbor |QID|12118|Z|Dragonblight|M|47.99,74.89|
 f Moa'ki Harbor|QID|11585|N|(48.5,74)|Z|Dragonblight|M|48.51,74.39|
 R Go to Unu'pe |QID|11585|N|Go out onto the second pier, a turtle boat will come that takes you to Unu'pe. (47.6,49.0)|Z|Dragonblight|M|48.02,78.69|
 
