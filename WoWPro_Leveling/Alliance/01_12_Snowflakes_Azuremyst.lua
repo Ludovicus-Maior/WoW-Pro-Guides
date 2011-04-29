@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2011-04-26 22:50
+-- Who: Ludovicus Maior
+-- Log: Added missing S tag and got rid of a rogue QID.
+
+-- URL: http://wow-pro.com/node/3206/revisions/24123/view
 -- Date: 2011-02-22 01:59
 -- Who: Crackerhead22
 -- Log: Fixed a race tag issue with "Medicinal Purpose".
@@ -43,7 +48,7 @@
 WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle - Draenai", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
 return [[
 R Note:|QID|10302|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
-f Seat of the Naaru|QID|9625|10302|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
+f Seat of the Naaru|QID|9625|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
 A You Survived!|R|Draenei|QID|9279|M|84.2,43.0|N|From Megelon right in front of you.|
 T You Survived!|R|Draenei|QID|9279|N|Further southwest at the crash site.|M|80.4,45.9|
 A Replenishing the Healing Crystals|R|Human, Worgen, Gnome, Dwarf, Night Elf|QID|9369|M|80.4,45.9|
@@ -65,7 +70,7 @@ r Sell junk and repair|QID|9293| |N|At Mura |M|79.19,50.93|
 A Spare Parts |QID|9305|M|79.5,51.4|
 A Inoculation |QID|9303|M|79.5,51.4|
 C Rescue the Survivors!|R|Draenei|QID|9283|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|
-C Botanical Legwork|QID|9799|M|74.39,49.97S|N|Collect Corrupted Flowers.|
+C Botanical Legwork|QID|9799|M|74.39,49.97|S|N|Collect Corrupted Flowers.|
 C What Must Be Done...|QID|9293| |N|Kill Mutated Root Lashers.|M|74.9,50.4|
 C Botanical Legwork|QID|9799|M|74.39,49.97|US|N|Collect Corrupted Flowers.|
 C Botanical Legwork|QID|9799|M|74.9,50.4|

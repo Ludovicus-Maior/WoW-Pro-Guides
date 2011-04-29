@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_alliance
+-- Date: 2011-04-26 23:12
+-- Who: Crackerhead22
+-- Log: Fixed missing N tags for "Rage of the Wolf Ancient" and "Pressing the Advantage". Fixed missing QID tags for "l Charred Basilisk Meat" steps.
+
+-- URL: http://wow-pro.com/node/3303/revisions/24270/view
 -- Date: 2011-04-26 01:05
 -- Who: Crackerhead22
 -- Log: N tag fixes, M tag fixes, added some sticky steps.
@@ -180,7 +185,7 @@ A Forged of Shadow and Flame|QID|25575|PRE|25618|M|26.27,41.93|N|From Yargra Bla
 A Rage of the Wolf Ancient|QID|25576|PRE|25618|M|26.29,41.94|N|From Yargra Blackscar.|
 C Forged of Shadow and Flame|QID|25575|S|M|30.11,39.21|N|Destroy Twilight Arms Crates as you come across them.|
 l Crushing the Cores|QID|25577|S|L|55123 8|N|Kill Searing Guardians and loot Smoldering Cores.|
-C Rage of the Wolf Ancient|QID|25576|M|28.51,40.57|Kill Dark Iron Laborers.|
+C Rage of the Wolf Ancient|QID|25576|M|28.51,40.57|N|Kill Dark Iron Laborers.|
 C Forged of Shadow and Flame|QID|25575|US|M|27.0,41.5|N|Finish destroying Twilight Arms Crates.|
 l Crushing the Cores|QID|25577|US|L|55123 8|M|27.0,41.5|N|Kill Searing Guardians and loot Smoldering Cores.|
 C Crushing the Cores|QID|25577|U|55123|N|Find a Twilight Anvil, which is usually around the edges of the cavern, and use the Smoldering Cores while standing next to it.|
@@ -354,7 +359,7 @@ A Pressing the Advantage|QID|25886|PRE|25881|RANK|2|M|57.15,55.94|N|From Captain
 T Breakthrough|QID|25899|RANK|2|M|57.15,55.94|N|To Captain Irontree.|
 A Hyjal Recycling Program|QID|25901|PRE|25843|RANK|2|M|56.87,56.01|N|From Logram.|
 C Hyjal Recycling Program|QID|25901|RANK|2|S|M|56.80,52.80;58.66,54.29|N|Collect Arrows.|
-C Pressing the Advantage|QID|25886|RANK|2|M|54.16,54.28|Kill Twilight Field Captains.|
+C Pressing the Advantage|QID|25886|RANK|2|M|54.16,54.28|N|Kill Twilight Field Captains.|
 C The Hammer and the Key|QID|25904|M|60.42,58.91|N|Continue killing Twilight Field Captains until the Glyph of Opening drops.|
 C Hyjal Recycling Program|QID|25901|RANK|2|US|M|56.80,52.80|N|Collect Arrows.|
 T The Hammer and the Key|QID|25904|M|42.25,60.80|N|To Tortolla.|
@@ -403,10 +408,10 @@ A Physical Training: Forced Labor|QID|25509|PRE|25291|M|89.54,59.05|N|From Instr
 A Walking the Dog|QID|25294|PRE|25291|M|90.08,56.48|N|From Instructor Devoran.|
 A Gather the Intelligence|QID|25296|PRE|25291|M|88.36,58.57|N|From the Outhouse Hideout.|
 l Twilight Communique|QID|25296|M|88.98,57.01|L|52724|N|Search the camp until you find the Twilight Communique. It can be just about anywhere in the camp so just keep looking around until you find it. Try to grab it when none of the Twilight Guards are close by. If they see you take the communique they will attack.|
-l Charred Basilisk Meat|25294|L|52708 5|S|M|89.55,49.35|N|Kill Spinescale Basilisk and loot 5 Charred Basilisk Meat.|
+l Charred Basilisk Meat|QID|25294|L|52708 5|S|M|89.55,49.35|N|Kill Spinescale Basilisk and loot 5 Charred Basilisk Meat.|
 C Physical Training: Forced Labor|QID|25509|S|U|54788|M|89.55,49.35|N|Use the Twilight Pick on Darkwhisper Lodestones on your way to the other camp.|
 C Gather the Intelligence|QID|25296|M|91.95,51.60|N|Leave the camp. Head northeast, toward the other camp, Doom's Vigil. Find the Hyjal Battleplans somewhere in the Doom's Vigil camp.|
-l Charred Basilisk Meat|25294|L|52708 5|US|M|89.55,49.35|N|Kill Spinescale Basilisk and loot 5 Charred Basilisk Meat.|
+l Charred Basilisk Meat|QID|25294|L|52708 5|US|M|89.55,49.35|N|Kill Spinescale Basilisk and loot 5 Charred Basilisk Meat.|
 C Physical Training: Forced Labor|QID|25509|US|U|54788|M|89.55,49.35|N|use the Twilight Pick on Darkwhisper Lodestones.|
 N Walking the Dog|QID|25294|U|52717|M|90.11,56.32|N|Once back in the camp, use the Fiery Leash to summon the Spawn of Smolderos.|
 C Walking the Dog|QID|25294|U|52708|M|90.11,56.32|N|Feed him the 5 Charred Basilisk Meat.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_alliance
+-- Date: 2011-04-27 07:02
+-- Who: Crackerhead22
+-- Log: Fixed errors from http://wow-pro.com/node/3387/
+
+-- URL: http://wow-pro.com/node/3307/revisions/24238/view
 -- Date: 2011-04-19 17:46
 -- Who: Ludovicus Maior
 -- Log: [A Slight Problem] had a  two 'A' steps and no 'T' step. Corrected coordinates for "Kor the Immovable" and removed the report his missing location text. Rerouted [Don't. Stop. Moving.] to reflect Kor's change of domicile. A dozen coordinate tweaks.
@@ -56,7 +61,7 @@ A The Maelstrom|QID|27203|PRE|27727|Z|The Maelstrom|M|74.5,19.3|N|From Neraat th
 T The Maelstrom|QID|27203|M|33.2,50.2|Z|The Maelstrom|N|To Thrall.|
 A Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|PRE|27203|M|33.2,50.2|N|From Thrall.|
 C Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|M|33.2,50.2|N|Hop on the Wyvern behind you.|
-T Deepholm, Realm of Earth|QID|27123|Z|Z|Deepholm|M|49.6,53|N|To Maruut Stonebinder.
+T Deepholm, Realm of Earth|QID|27123|Z|Deepholm|M|49.6,53|N|To Maruut Stonebinder.
 A Gunship Down|QID|26245|PRE|27123|M|49.6,53|N|From Maruut Stonebinder.|
 A Elemental Energy|QID|27136|PRE|27123|M|49.7,53|N|From Seer Kormo.|
 A The Earth Claims All|QID|26244|PRE|27123|M|49.7,53|N|From Seer Kormo.|
@@ -83,9 +88,9 @@ T All Our Friends Are Dead|QID|26248|M|62.2,47|N|To Stormcaller Mylra.|
 A Take No Prisoners|QID|26251|PRE|26248|M|62.2,47|N|From Stormcaller Mylra.|
 A On Second Thought, Take One Prisoner|QID|26250|PRE|26251|M|62.2,47|N|From Stormcaller Mylra.|
 C Without a Captain or Crew|QID|26427|RANK|2|M|63.1,39.4;63.4,44.6|N|Pick up the Coil of Rope and Bottle of Whiskey.|
-C Take No Prisoners|QID|26251|M|60.8,42.3|N|Kill 6 Twilight Saboteurs.|
+C Take No Prisoners|QID|26251|M|60.8,42.3|N|Kill 6 Twilight Saboteurs.|S|
 C On Second Thought, Take One Prisoner|QID|26250|M|60.7,41.3|N|Attack Mor'norokk the Hateful and subdue him.|
-C Take No Prisoners|QID|26251|US|60.8,42.3|N|Kill 6 Twilight Saboteurs.|
+C Take No Prisoners|QID|26251|US|M|60.8,42.3|N|Kill 6 Twilight Saboteurs.|
 T Without a Captain or Crew|QID|26427|RANK|2|M|64,46.2|N|To First Mate Moody.|
 T Take No Prisoners|QID|26251|M|62.2,47|N|To Stormcaller Mylra.|
 T On Second Thought, Take One Prisoner|QID|26250|M|62.2,47|N|To Stormcaller Mylra.|
@@ -223,12 +228,12 @@ T Reactivate the Construct|QID|26762|N|To Pyrium Lodestone.|
 T Mystic Masters|QID|26770|N|To Flint Oremantle.|
 A Down into the Chasm|QID|26834|PRE|26762;26770|M|22.6,52.1|N|From Pyrium Lodestone.|
 T Down into the Chasm|QID|26834|M|27.6,44.9|N|To Slate Quicksand.|
-A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|From Slate Quicksand.|
+A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
 A Fungal Monstrosities|QID|26792|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
 C Sprout No More|QID|26791|S|N|Obtain a War Guardian and start destroying Giant Mushrooms and Fungal Monstrosities.|
 C Fungal Monstrosities|QID|26792|M|27.5,38.3|N|Destroy Fungal Monstrosities.|
 C Sprout No More|QID|26791|M|27.6,35.6|US|N|Finish destroying Giant Shrooms.|
-T Sprout No More|QID|26791|M|27.6,44.9|To Slate Quicksand.|
+T Sprout No More|QID|26791|M|27.6,44.9|N|To Slate Quicksand.|
 T Fungal Monstrosities|QID|26792|M|27.6,44.9|N|To Slate Quicksand.|
 A A Slight Problem|QID|26835|PRE|26791;26792|M|27.6,44.9|N|From Slate Quickand.|
 T A Slight Problem|QID|26835|PRE|26791;26792|M|22.6,52.1|N|To Pyrium Lodestone.|
@@ -269,7 +274,7 @@ C Hatred Runs Deep|QID|26376|QO|Dragul Giantbutcher slain: 1/1|M|60.20,39.50|N|F
 T Loose Stones|QID|26375|M|56.5,41.1|N|To Quartz Stonetender.|
 T Unsolid Ground|QID|26377|M|56.50,41.20|N|To Diamant the Patient.|
 T Hatred Runs Deep|QID|26376|M|56.50,41.20|N|To Diamant the Patient.|
-A Violent Gale|QID|26426|PRE|26375;26376;26377|M|From Diamant the Patient.|
+A Violent Gale|QID|26426|PRE|26375;26376;26377|M|56.50,41.20|N|From Diamant the Patient.|
 C Violent Gale|QID|26426|M|52.00,32.00;58.00,25.00|N|Find Felsen and the entrance to Crumbling Depths.|
 T Violent Gale|QID|26426|
 A Depth of the Depths|QID|26869|PRE|26426|N|Automatic from Diamond the Patient.|
@@ -303,11 +308,11 @@ T Petrified Delicacies|QID|26507|RANK|2|N|To Pebble, who should still be followi
 C Rock Bottom|QID|26575|M|47.5,27.00|M|34,33|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite’s eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
 T Rock Bottom|QID|26575|M|34.12,34.19|N|Back to Kor the Immovable.|
 A Steady Hand|QID|26576|PRE|26575|RANK|2|M|34.12,34.19|N|From Kor.|
-A Rocky Upheaval|QID|26577|PRE|26575||M|34.12,34.19From Kor.|
+A Rocky Upheaval|QID|26577|PRE|26575|M|34.12,34.19|N|From Kor.|
 T Steady Hand|QID|26576|RANK|2|N|To Terrath the Steady.|
 A Don't. Stop. Moving.|QID|26656|PRE|26576|RANK|2|M|39.94,19.41|N|From Terrath the Steady.|
 C Don't. Stop. Moving.|QID|26656|RANK|2|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
-T Don't. Stop. Moving.|QID|26656|RANK|2|M|39.94,19.41|To Terrath the Steady.|
+T Don't. Stop. Moving.|QID|26656|RANK|2|M|39.94,19.41|N|To Terrath the Steady.|
 A Hard Falls|QID|26657|PRE|26656|RANK|2|M|39.94,19.41|N|From Terrath the Steady.|
 A Fragile Values|QID|26658|PRE|26656|RANK|2|M|39.94,19.41|N|From Terrath the Steady.|
 C Hard Falls|QID|26657|RANK|2|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
@@ -363,7 +368,7 @@ T The Twilight Flight|QID|26831|M|64.1,36.9|N|To Terath.|
 C The Stone March|QID|26829|M|62,35.6|US|N|Finish killing Cultists.|
 T The Stone March|QID|26829|M|63.3,25.1|N|To Therazane.|
 T Therazane's Mercy|QID|26832|M|63.3,25.1|N|To Therazane.|
-A Word in Stone|QID|26833|PRE|26829;26831,26832|N|From Therazane.|
+A Word in Stone|QID|26833|PRE|26829;26831;26832|N|From Therazane.|
 T Word in Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
 A Undying Twilight|QID|26875|PRE|26833|N|From Maruut.|
 C Undying Twilight|QID|26875|M|48.8,53.7|N|Kill Twilight Invaders and Desecrated Earthrager.|

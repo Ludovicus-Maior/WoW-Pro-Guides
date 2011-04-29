@@ -1,4 +1,12 @@
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2011-04-28 22:32
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3266/revisions/24287/view
+-- Date: 2011-04-28 22:02
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3266/revisions/23620/view
 -- Date: 2010-12-06 02:08
 -- Who: Liavan
 
@@ -47,7 +55,7 @@ A Return to Ariok|QID|28425|M|8.36,35.73|N|From Gorzeeki Wildeyes.|
 T Return to Ariok|QID|28425|M|17.34,51.59|N|To Ariok.|
 A Chiselgrip, the Heart of the Steppes|QID|28426|M|17.34,51.59|N|From Ariok.|
 C Chiselgrip, the Heart of the Steppes|QID|28426|M|36.76,53.81|
-T Chiselgrip, the Heart of the Steppes|QID|28426|M|17.34,51.59|N|From Ariok.|
+T Chiselgrip, the Heart of the Steppes|QID|28426|M|46.76,44.11|N|To Stebben Oreknuckle.|
 A Prove Yer Allegiance|QID|28225|M|46.80,44.10|N|From Stebben Oreknuckle.|
 A Scrapped Golems|QID|28226|M|46.80,44.10|N|From Stebben Oreknuckle.|
 f Ruins of Thaurissan|QID|28226|M|46.17,41.87|N|At Grimly Singefeather.|
@@ -57,10 +65,10 @@ A A Perfect Costume|QID|28428|R|Undead,Orc|M|45.38,46.16|N|From Thelaron Direnee
 A A Perfect Costume|QID|28431|R|Blood Elf,Troll|M|45.38,46.16|N|From Thelaron Direneedle.|
 A A Perfect Costume|QID|28429|R|Tauren|M|45.38,46.16|N|From Thelaron Direneedle.|
 A A Perfect Costume|QID|28430|R|Goblin|M|45.38,46.16|N|From Thelaron Direneedle.|
-C A Perfect Costume|QID|28428|R|Undead,Orc|M|45.38,46.16|N|You will need 2 hides, 4 mud, and 2 thread.|
-C A Perfect Costume|QID|28431|R|Blood Elf,Troll|M|45.38,46.16|N|You will need 3 hides, 2 mud , and 1 thread.|
-C A Perfect Costume|QID|28429|R|Tauren|M|45.38,46.16|N|You will need 4 hides, 1 mud, and 3 thread.|
-C A Perfect Costume|QID|28430|R|Goblin|M|45.38,46.16|N|You will need a hide, 3 mud, and 4 thread.|
+C A Perfect Costume|QID|28428|R|Undead,Orc|M|45.38,46.16|N|Click the table next to you. You will need 2 hides, 4 mud, and 2 thread.|
+C A Perfect Costume|QID|28431|R|Blood Elf,Troll|M|45.38,46.16|N|Click the table next to you. You will need 3 hides, 2 mud , and 1 thread.|
+C A Perfect Costume|QID|28429|R|Tauren|M|45.38,46.16|N|Click the table next to you. You will need 4 hides, 1 mud, and 3 thread.|
+C A Perfect Costume|QID|28430|R|Goblin|M|45.38,46.16|N|Click the table next to you. You will need 1 hide, 3 mud, and 4 thread.|
 T A Perfect Costume|QID|28428|R|Undead,Orc|M|44.57,44.47|N|To Eitrigg.|
 T A Perfect Costume|QID|28431|R|Blood Elf,Troll|M|44.57,44.47|N|To Eitrigg.|
 T A Perfect Costume|QID|28429|R|Tauren|M|44.57,44.47|N|To Eitrigg.|
@@ -97,7 +105,7 @@ C Trial by Magma|QID|28438|M|31.02,33.95|N|Talk to Wyrtle Spreelthonket and choo
 T Trial by Magma|QID|28438|M|30.75,33.74|N|To General Thorg'izog.|
 A I Am the Law and I Am the Lash|QID|28439|M|30.75,33.74|N|From General Thorg'izog.|
 A Abuse of Power|QID|28440|M|30.75,33.74|N|From General Thorg'izog.|
-C I Am the Law and I Am the Lash|QID|28439|U|63390|M|35.89,34.61|N|I recommend putting the cudgel on the action bar. That way if you are spotting you can spam the crap out of it, to kill the mob.|
+C I Am the Law and I Am the Lash|QID|28439|U|63390|M|35.89,34.61|N|I recommend putting the cudgel on the action bar. That way, if you are spotted you can spam the crap out of it to kill the mob.|
 C Abuse of Power|QID|28440|U|63390|M|33.50,36.03|N|Spam the cudgel to kill them.|
 T Abuse of Power|QID|28440|M|33.50,36.03|
 A Enough Damage For One Day|QID|28441|M|33.50,36.03|

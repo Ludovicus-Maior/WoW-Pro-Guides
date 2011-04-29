@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2011-04-26 22:46
+-- Who: Ludovicus Maior
+-- Log: Added missing N and PRE tags
+
+-- URL: http://wow-pro.com/node/3204/revisions/24220/view
 -- Date: 2011-04-05 23:33
 -- Who: Ludovicus Maior
 
@@ -28,7 +33,7 @@ WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil', 'Bitsem', '01', '10', 
 return [[
 
 A The Balance of Nature|QID|28713|M|57.97,39.19|N|From Ilthalaine.|
-C The Balance of Nature|QID|28713|M|58.23,40.16|Kill Young Nightsabers.|
+C The Balance of Nature|QID|28713|M|58.23,40.16|N|Kill Young Nightsabers.|
 
 L Level 2|QID|28713|LVL|2|N|You should be around level 2 by this point.|
 
@@ -104,7 +109,7 @@ A Vile Touch|QID|28727|PRE|28726|N|From Tarindrella. She's still with you.|
 C Vile Touch|QID|28727|QO|Githyiss the Vile slain: 0/1|M|56.28,22.52|N|Kill Gilthyiss the Vile.|
 T Vile Touch|QID|28727|M|57.16,33.09|N|To Ayanna Everstride.|
 
-A Signs of Things to Come|QID|28728|28727|NC|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|
+A Signs of Things to Come|QID|28728|PRE|28727|NC|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|
 T Signs of Things to Come|QID|28728|M|57.18,33.20|N|To Dentaria Silverglade.|
 
 A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|M|57.18,33.20|N|From Dentaria Silverglade.|

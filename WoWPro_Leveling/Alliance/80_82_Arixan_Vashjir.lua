@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2011-04-26 23:16
+-- Who: Crackerhead22
+-- Log: Fixed M tag errors for "T Eye of the Storm" "N Speak to Fathom-Lord Zin'jatar" "f Voldrin's Hold". Fixed U tag error for "U Visions of the Past: Rise From The Deep".
+
+-- URL: http://wow-pro.com/node/3305/revisions/24262/view
 -- Date: 2011-04-24 01:00
 -- Who: Crackerhead22
 
@@ -172,7 +177,7 @@ return [[
 T A Personal Summons|QID|28825|M|74.5,19.2|Z|Stormwind City|N|This should be in your quest log when you enter Stormwind. Turn in at Naraat the Earthspeaker|
 A Eye of the Storm|QID|28826|M|74.5,19.2|Z|Stormwind City|N|From Naraat the Earthspeaker.|
 C Eye of the Storm|QID|28826|M|74.4,19.6|Z|Stormwind City|N|Right click the water bowl behind you. Enjoy your first Cataclysm cinematic!|
-T Eye of the Storm|QID|28826|M|74.5.19.2|Z|Stormwind City|N|To Naraat the Earthspeaker.|
+T Eye of the Storm|QID|28826|M|74.5,19.2|Z|Stormwind City|N|To Naraat the Earthspeaker.|
 A To the Depths|QID|28827|M|74.5,19.2|Z|Stormwind City|N|From Naraat the Earthspeaker.|
 T To the Depths|QID|28827|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|
 A Call of Duty|QID|14482|M|27.39,24.16|Z|Stormwind City|N|From Recruiter Burns.|
@@ -507,7 +512,7 @@ T Fallen But Not Forgotten|QID|25753|M|39.08,78.52|Z|Shimmering Expanse|N|To Cap
 A Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|PRE|25753;25754|M|39.20,78.61|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
 U Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|U|55171|M|28.9,78.7|Z|Shimmering Expanse|N|Swim up the tunnel directly west. At the far end is the location where you start the second vision. Use the Blade of the Naz'jar Battlemaiden to begin.|
 A By Her Lady's Word|QID|25858|M|29.1,78.6|Z|Shimmering Expanse|N|From Lady Naz'jar.|
-N Speak to Fathom-Lord Zin'jatar|QID|25858|QO|Speak to Fathom-Lord Zin'jatar: 1/1|M|34,45,78.65|Z|Shimmering Expanse|N|Speak to Fathom-Lord Zin'jatar.|
+N Speak to Fathom-Lord Zin'jatar|QID|25858|QO|Speak to Fathom-Lord Zin'jatar: 1/1|M|34.45,78.65|Z|Shimmering Expanse|N|Speak to Fathom-Lord Zin'jatar.|
 N Speak to Overseer Idra'kess|QID|25858|QO|Speak to Overseer Idra'kess: 1/1|M|36.79,79.73|Z|Shimmering Expanse|N|Speak to Overseer Idra'kess.|
 C By Her Lady's Word|QID|25858|M|39.19,78.01|Z|Shimmering Expanse|N|Finally, speak with Lady Sira'kess.|
 T By Her Lady's Word|QID|25858|M|46.2,79.5|Z|Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
@@ -547,7 +552,7 @@ T Honor and Privilege|QID|25898|M|56.9,80.5|Z|Shimmering Expanse|N|To Jorlan Tru
 A Welcome News|QID|25911|PRE|25898|RANK|1|M|56.6,80.4|Z|Shimmering Expanse|N|From Jorlan Trueblade.|
 T Welcome News|QID|25911|M|46.49,57.45;49.2,57|Z|Shimmering Expanse|N|To Captain Taylor.|
 A Visions of the Past: Rise From The Deep|QID|25626|PRE|25911|M|49.43,57.53|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-U Visions of the Past: Rise From The Deep|QID|25626|M|33.1,77.8|U|55171|Z|Shimmering Expanse|U||N|Swim to the Quel'Dormir Temple, on the top terrace of the Ruins of Vashj'ir. In the center of the temple, you will find the Crucible. Swim up to a ledge just behind to find the point where you can enter the vision.|
+U Visions of the Past: Rise From The Deep|QID|25626|M|33.1,77.8|U|55171|Z|Shimmering Expanse|N|Swim to the Quel'Dormir Temple, on the top terrace of the Ruins of Vashj'ir. In the center of the temple, you will find the Crucible. Swim up to a ledge just behind to find the point where you can enter the vision.|
 A Devout Assembly|QID|25896|PRE|26626|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
 A Her Lady's Hand|QID|25629|PRE|26626|M|33.1,75.9|Z|Shimmering Expanse|N|From Lady Naz'jar.|
 C Her Lady's Hand|QID|25629|S|N|Kill any of the Kvaldir fighting the Naz'jar Honor Guards. When the guards are out of combat, you will automatically send them back to the temple.|
@@ -566,7 +571,7 @@ T Final Judgement|QID|25951|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 T Visions of the Past: Rise From The Deep|QID|25626|M|46.69,57.53;49.45,57.57|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
 A A Breath of Fresh Air|QID|26005|PRE|25626|M|49.45,57.57|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
 f The Lightless Reaches|QID|26005|M|57.1,75.18|Z|Shimmering Expanse|N|Grab the flight point at the Swift Seahorse.|
-f Voldrin's Hold|QID|26005|M||Z|Vashj'ir|N|Grab the flight point from Salty McTavish.|
+f Voldrin's Hold|QID|26005|M|69.4,75.2|Z|Vashj'ir|N|Grab the flight point from Salty McTavish.|
 T A Breath of Fresh Air|QID|26005|M|69.61,75.34|Z|Vashj'ir|U|57412|N|You can use the Boom Boots to get to the surface. Turn quest in to Captain Taylor.|
 
 A Full Circle|QID|26219|PRE|26005|M|69.6,75.3|Z|Vashj'ir|N|From Captain Taylor.|
