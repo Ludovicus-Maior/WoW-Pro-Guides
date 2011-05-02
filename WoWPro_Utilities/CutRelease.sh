@@ -26,4 +26,4 @@ done
 echo "# OK, the current version numbers are:"
 fgrep -H Version: */*.toc
 
-zip -r --include *.lua *.toc *.xml @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies
+zip -r --include *.lua *.toc *.tga *.xml @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies
