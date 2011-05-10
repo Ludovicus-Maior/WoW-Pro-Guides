@@ -1,2 +1,2 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">  
+<Ui xmlns="http://www.blizzard.com/wow/ui/">  <Script file="Cracker_HellScream.lua"/>
 </Ui>
