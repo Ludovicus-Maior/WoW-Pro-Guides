@@ -601,6 +601,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
 		WoWPro.Leveling.CompletingQuest = true
+		WoWPro.Leveling:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	
 	-- Auto-Completion --
@@ -644,7 +645,7 @@ function WoWPro.Leveling:AutoCompleteGetFP(...)
 end
 
 -- Auto-Complete: Quest Update --
-function WoWPro.Leveling:AutoCompleteQuestUpdate()
+function WoWPro.Leveling:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 
@@ -670,6 +671,10 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate()
 				WoWPro:MapPoint()
 			end
 			
+            -- Quest AutoComplete --
+            if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
+                WoWPro.CompleteStep(i)
+            end
 			-- Quest Accepts --
 			if WoWPro.newQuest == QID and action == "A" and not completion then
 				WoWPro.CompleteStep(i)
