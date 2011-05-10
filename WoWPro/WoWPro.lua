@@ -108,6 +108,12 @@ function WoWPro:OnEnable()
 			.."WoW-Pro's guides won't have their full functionality without it! "
 			.."Download it for free from www.wowinterface.com or www.curse.com .")
 	end
+	
+	if not TomTom.AddMFWaypoint then
+		WoWPro:Print("It looks like you don't have a recent |cff33ff33TomTom|r installed. "
+			.."WoW-Pro's guides won't have their full functionality without it! "
+			.."Download it for free from www.wowinterface.com or www.curse.com .")
+    end	
 
 	-- Warning if the user is missing Swatter --
 	if not Swatter then
@@ -135,7 +141,7 @@ function WoWPro:OnEnable()
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_QUERY_COMPLETE",
-		"UPDATE_BINDINGS",
+		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD"
 	})
 	WoWPro.GuideFrame:SetScript("OnEvent", function(self, event, ...)		-- Setting up event handler
 		WoWPro:dbp("Event Fired: "..event)
@@ -159,7 +165,7 @@ function WoWPro:OnEnable()
 		end
 		
 		-- Unlocking guide frame when leaving combat --
-		if event == "PLAYER_REGEN_ENABLED" then
+		if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_ENTERING_WORLD" then
 			WoWPro:UpdateGuide() 
 		end
 		
