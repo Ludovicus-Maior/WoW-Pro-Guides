@@ -1,4 +1,12 @@
 -- URL: http://wow-pro.com/wiki/source_code_uldum_horde
+-- Date: 2011-05-03 00:02
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3310/revisions/24360/view
+-- Date: 2011-05-02 23:45
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3310/revisions/24350/view
 -- Date: 2011-04-29 17:14
 -- Who: Ludovicus Maior
 -- Log: Line 44, for step C non-decimal U:, Line 104 for step T has unknown tag [l]
@@ -67,7 +75,7 @@ C Speak with Sun Priest Asaris|QID|28134|M|52.98,27.78|QO|Speak with Sun Priest 
 A Relics of the Sun King|QID|28141|M|52.98,27.78|
 A Venomblood Antidote|QID|28145|M|52.98,27.78|N|From Sun Priest Asaris.|
 
-C Relics of the Sun King|QID|28141|S|M|46.39,21.60|N|Kill various camFel-riding mobs and loot Relics of the Sun King.|
+C Relics of the Sun King|QID|28141|S|M|46.39,21.60|N|Kill various camel-riding mobs and loot Relics of the Sun King.|
 C Venomblood Antidote|QID|28145|U|63086|M|46.64,20.64|N|Kill scorpids and use the vial on their corpses.|
 C Relics of the Sun King|QID|28141|US|M|46.39,21.60|N|Finish killing Wastewander outriders.|
 
@@ -75,20 +83,19 @@ T Relics of the Sun King|QID|28141|M|52.98,27.75|
 T Venomblood Antidote|QID|28145|M|52.98,27.75|N|To Sun Priest Asaris.|
 
 A The Bandit Warlord|QID|28502|M|52.98,27.75|N|From Sun Priest Asaris.|
-
 C The Bandit Warlord|QID|28502|M|45.72,16.20|
+T The Bandit Warlord|QID|28502|M|52.98,27.63|N|To Sun Priest Asaris.|
+
 C Speak with Asaq|QID|28134|M|49.66,39.13|QO|Speak with Asaq: 1/1|N|Talk to Asaq for Impending Retribution Quest.|NC|
 A Take it to 'Em!|QID|27993|M|49.68,39.03|N|From Mack.|
 
-C Speak with Nomarch Teneth|QID|28134|M|60.26,38.34|QO|Speak with Nomarch Teneth: 1/1|N|Talk to Nomarch for the Impending Retribution Quest.|NC|
-C Impending Retribution|QID|28134|M|60.21,38.33|
+C Impending Retribution|QID|28134|M|60.26,38.34|QO|Speak with Nomarch Teneth: 1/1|N|Talk to Nomarch for the Impending Retribution Quest.|NC|
 A Thieving Little Pluckers|QID|28250|M|60.21,38.33|N|From Nomarch Teneth.|
 C Thieving Little Pluckers|QID|28250|U|63351|M|58.60,39.58|N|To the south by the trees.|
 T Thieving Little Pluckers|QID|28250|M|60.25,38.32|N|To Nomarch Teneth.|
 
 T Impending Retribution|QID|28134|M|54.93,32.80|N|To King Phaoris.|
 A Al'Akir's Vengeance|QID|28135|M|54.93,32.80|N|From King Phaoris.|
-T The Bandit Warlord|QID|28502|M|52.98,27.63|N|To Sun Priest Asaris.|
 
 C Take it to 'Em!|QID|27993|M|64.21,23.11|
 T Take it to 'Em!|QID|27993|M|64.38,22.39|N|To Harrison Jones.|
@@ -148,7 +155,6 @@ T After the Fall|QID|27624|M|64.47,28.02|N|To Harrison Jones.|
 A Do the Honors|QID|27669|M|64.47,28.02|N|From Harrison Jones.|
 C Do the Honors|QID|27669|U|62054|M|64.48,31.04|N|Use the Orbs of the Stars. Watch the cinematic and be teleported outside.|
 T Do the Honors|QID|27669|M|63.90,33.90|N|To Harrison Jones.|
-T Impending Retribution|QID|28134|M|54.93,32.80|N|To King Phaoris.|
 
 A That Gleam in his Eye|QID|27899|M|54.29,35.23|N|From Adarrah.|
 T Al'Akir's Vengeance|QID|28135|M|45.23,37.92|N|To Prince Nadun.|

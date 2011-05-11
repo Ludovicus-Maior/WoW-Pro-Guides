@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2011-05-06 03:05
+-- Who: Crackerhead22
+-- Log: Added turn-in "Blasted Lands: The Other Side of the World" for those coming from Winterspring.
+
+-- URL: http://wow-pro.com/node/3267/revisions/24366/view
+-- Date: 2011-05-06 02:50
+-- Who: Crackerhead22
+-- Log: Added run to and turn-in for "Nethergarde Needs You!" for those coming from Silithus.
+
+-- URL: http://wow-pro.com/node/3267/revisions/24305/view
 -- Date: 2011-04-29 14:49
 -- Who: Ludovicus Maior
 -- Log: Line 30 for step C has 1 M coords
@@ -26,6 +36,10 @@
 
 WoWPro.Leveling:RegisterGuide('CraBla5458', 'Blasted Lands', 'Crackerhead22', '54', '58', 'JamHel6062', 'Alliance', function()
 return [[
+
+T Blasted Lands: The Other Side of the World|QID|28857|M|60.11,13.67|N|To Quartermaster Lungertz.|O|
+R Blasted Lands|QID|28867|M|53.4,33.4|Z|Silithus|N|Click on the portal by the Nethergarde Mage to go to the Blasted Lands.|O|
+T Nethergarde Needs You!|QID|28867|M|60.11,13.67|N|To Quartermaster Lungertz.|O|
 
 A Minor Distractions|QID|25710|M|60.11,13.67|N|From Quartermaster Lungertz.|
 h Nethergarde Keep|QID|25715|M|60.72,14.13|N|At Mama Morton.|

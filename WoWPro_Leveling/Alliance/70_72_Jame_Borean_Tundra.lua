@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2011-05-04 09:35
+-- Who: Crackerhead22
+-- Log: Added |P| tag for cooking quest line.
+
+-- URL: http://wow-pro.com/node/3289/revisions/24258/view
 -- Date: 2011-04-24 00:31
 -- Who: Crackerhead22
 -- Log: Fixed line-! Line 363 for step A has unknown tag [3]: [A Surrounded! |QID|11944|N|From Corporal Venn.|M|82.02,46.42|3]
@@ -83,7 +88,7 @@ T Notify Arlos |QID|11791|N|To General Arlos, inside the keep.|M|56.67,72.64|
 A A Diplomatic Mission |QID|12141|M|56.7,72.6|N|From Counselor Talbot.|
 A Enemies of the Light |QID|11792|M|56.6,72.5|N|From Harbringer Vurenn.|
 
-N Cooking Quest |QID|13088|N|If the quest is available to you, grab Northern Cooking from Rollick MacKreel here. When you finish the quest, turn it in next time you're in Valiance Keep. There will be no future reminders. Move onto the next step when ready.|M|57.9,71.5|
+N Cooking Quest |QID|13088|N|If the quest is available to you, grab Northern Cooking from Rollick MacKreel here. When you finish the quest, turn it in next time you're in Valiance Keep. There will be no future reminders. Move onto the next step when ready.|M|57.9,71.5|P|Cooking,350|
 A Nick of Time |QID|11575|N|From Midge, inside the inn.|M|58.41,67.85|
 T Word on the Street |QID|11927|N|To Leryssa on the top floor of the inn.|M|58.72,68.32|
 A Thassarian, My Brother |QID|11599|M|58.7,68.4|N|From Leryssa.|

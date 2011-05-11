@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2011-05-06 03:12
+-- Who: TwoToad
+-- Log: Updated the Warsong Farm Outpost to use stickies. Updated location of Shadowstalker Getry (it was off a little).
+
+-- URL: http://wow-pro.com/node/3290/revisions/24365/view
+-- Date: 2011-05-05 03:10
+-- Who: TwoToad
+-- Log: Updated a section to use stickies, instead of the old method.
+
+-- URL: http://wow-pro.com/node/3290/revisions/24343/view
 -- Date: 2011-04-29 16:51
 -- Who: Ludovicus Maior
 -- Log: Line 62 for step f has unknown tag [40.4,51.4], Line 340, for step A non-decimal PRE.
@@ -76,12 +86,14 @@ A Super Strong Metal Plates! |QID|11644|M|32.1,54.3|
 A Into the Mist |QID|11655|M|32.3,54.3|
 A Horn of the Ancient Mariner |QID|11660|M|32.3,54.3|
 
-C Mobu's Pneumatic Tank Transjigamarig |QID|11643| |N|Head north into the mist, the item is in a hut at . While you're doing this, kill all the Kvaldir, for the Tuskarr Relics, and collect any Super Strong Metal Plates you see.|M|32.4,49.1|
-C Horn of the Ancient Mariner |QID|11660| |N|Drops off the Kvaldir Mistweavers.|M|30.4,53.5|
-C Super Strong Metal Plates! |QID|11644|M|29.9,54.4|
-C Into the Mist |QID|11655|M|30.4,53.5|
-A Escaping the Mist |QID|11664| |N|The quest NPC is upstairs in the hut at . This is a short escort.|M|32,52|
-C Into the Mist |QID|11655|M|30.4,53.5|
+C Super Strong Metal Plates!|QID|11644|N|The Metal Plates are scattered on the ground.|S|
+C Into the Mist|QID|11655|N|Kill Kvaldir for the Tuskarr Relics.|S|
+C Mobu's Pneumatic Tank Transjigamarig|QID|11643|N|Head north into the mist, the Pneumatic Tank Transjigamarig is inside a hut.|M|32.4,49.1|
+C Horn of the Ancient Mariner|QID|11660| |N|Drops off the Kvaldir Mistweavers.|M|30.4,53.5|
+C Super Strong Metal Plates!|QID|11644|N|Finish collecting Metal Plates.|US|M|29.9,54.4|
+C Into the Mist|QID|11655|N|Continue killing Kvaldir until you have 8 Tuskarr Relics.|US|M|30.4,53.5|
+A Escaping the Mist|QID|11664|N|The quest NPC is upstairs in the hut. This is a short escort.|M|32,52|
+C Into the Mist|QID|11655|M|30.4,53.5|
 
 T Mobu's Pneumatic Tank Transjigamarig |QID|11643|M|32.1,54.3|
 T Super Strong Metal Plates! |QID|11644|M|32.1,54.3|
@@ -140,10 +152,11 @@ A The Warsong Farms |QID|11686|M|38.1,52.6|
 A Merciful Freedom |QID|11676|M|37.9,52.6|
 A Damned Filthy Swine |QID|11688|M|37.9,52.3|
 
-N Things to do |QID|11688|N|Kill all Unliving Swine, Warsong Aberrations and En'kilah Nercrolords until you've gotten 10 swine kills and 5 cage keys. Use the keys on scourge prisons to free the prisioners.|
-C The Warsong Farms |QID|11686| |N|Go NE to Torp's Farm at . Then go SW to the Granary at (35,55), then NW to the Slaughterhouse at (39.51,47.37).|M|36,53|
-C Merciful Freedom |QID|11676|M|36.4,48.1|
-C Damned Filthy Swine |QID|11688|
+C Merciful Freedom|QID|11676|N|Collect keys from Warsong Aberrations and En'kilah Necrolords to free prisoners.|S|
+C Damned Filthy Swine|QID|11688|N|Kill 10 Unliving Swine.|S|
+C The Warsong Farms|QID|11686|N|Go NE to Torp's Farm. Then SW to the Granary, and finally NW to the Slaughterhouse.|M|36,53;35,55;39.51,47.37|
+C Merciful Freedom|QID|11676|N|Collect keys from Warsong Aberrations and En'kilah Necrolords to free prisoners.|US|M|36.4,48.1|
+C Damned Filthy Swine|QID|11688|N|Finish killing the 10 Unliving Swine.|US|
 
 T The Warsong Farms |QID|11686|M|37.9,52.6|
 A Get to Getry |QID|11703|M|37.9,52.6|
@@ -156,7 +169,7 @@ C Bring 'Em Back Alive |QID|11690| |U|34954|
 
 T Bring 'Em Back Alive |QID|11690|M|37.9,52.3|
 
-T Get to Getry |QID|11703| |N|He's up on a guard tower at .|M|35,46|
+T Get to Getry|QID|11703|N|He's up on a guard tower.|M|34.6,46.4|
 A Foolish Endeavors |QID|11705|M|34.6,46.4|
 C Foolish Endeavors |QID|11705| |N|Let Saurfang tank. If you are going to die, back off and let Saurfang finish it. Let Getry engage first, but be right behind him, this quest can bug easily if he aggros before he is supposed to.|
 
