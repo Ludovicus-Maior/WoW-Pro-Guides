@@ -283,6 +283,7 @@ function WoWPro:MapPointDelta()
     end
 end
 
+
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
@@ -300,13 +301,13 @@ function WoWPro:MapPoint(row)
 	local coords; if WoWPro.map then coords = WoWPro.map[i] else coords = nil end
 	local desc = WoWPro.step[i]
 	local zone
-	if row then zone = WoWPro.rows[row].zone else 
+	if row then
+	    zone = WoWPro.rows[row].zone
+	else 
 		zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(%-]+)"))
-	end 
+	end
 	autoarrival = WoWPro.waypcomplete[i]
 	
-	-- Look up zone's localization --
-	if zone and BL[zone] then zone = BL[zone] end
 	
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
 	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
@@ -339,20 +340,25 @@ function WoWPro:MapPoint(row)
 	if not coords then return end
 	
 	-- Finding the zone --
-	local zonei, zonec, zonenames = {}, {}, {}
-	for ci,c in pairs{GetMapContinents()} do
-		zonenames[ci] = {GetMapZones(ci)}
-		for zi,z in pairs(zonenames[ci]) do
-			zonei[z], zonec[z] = zi, ci
-		end
+	zm = nil
+	if zone then
+	    if tonumber(zone) then
+	        -- Using a numeric zone ID
+	        zm = tonumber(zone)
+	        zf = 0
+	    elseif WoWPro.Zone2MapID[zone] then
+	        -- Zone found in DB
+	        zm = WoWPro.Zone2MapID[zone].mapID
+	        zf = 0
+	    end
+    end
+    
+    if not zm then
+	    zm = GetCurrentMapAreaID()
+	    zf = 0
+	    WoWPro:Print("Zone ["..zone.."] not found. Using map id "..tostring(zm))
 	end
-	zi, zc = zone and zonei[zone], zone and zonec[zone]
-	if not zi then
-		zi, zc = GetCurrentMapZone(), GetCurrentMapContinent()
-		WoWPro:Print("Zone not found. Using current zone")
-	end
-	zone = zone or zonenames[zc][zi]
-
+	
 	if TomTom and TomTom.db then
 		TomTom.db.profile.arrow.setclosest = true
 		OldCleardistance = TomTom.db.profile.persistence.cleardistance
@@ -384,8 +390,10 @@ function WoWPro:MapPoint(row)
 			if TomTom or Carbonite then
 				local uid
 				
-				uid = TomTom:AddZWaypoint(zc, zi, x, y, desc, false, nil, nil, WoWProMapping_callbacks_tomtom)
-				
+				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = desc, callbacks = WoWProMapping_callbacks_tomtom})
+				if not uid then
+				    WoWPro:Print("Failed to set waypoint!  Please report a bug with the guide and step number.")
+				end
 				waypoint.uid = uid
 				waypoint.index = i
 				waypoint.zone = zone
@@ -411,9 +419,13 @@ function WoWPro:MapPoint(row)
 							iactual = i break end
 					end
 
-					for i=iactual+1,#cache,1 do
-						TomTom:RemoveWaypoint(cache[i].uid) 
+					if iactual then
+						for i=iactual+1,#cache,1 do
+							TomTom:RemoveWaypoint(cache[i].uid) 
+						end
 					end
+				else
+				    WoWPro:Print("No closest waypoint?")
 				end
 			
 			elseif autoarrival == 2 then
