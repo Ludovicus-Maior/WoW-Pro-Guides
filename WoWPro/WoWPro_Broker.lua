@@ -316,7 +316,7 @@ function WoWPro.CompleteStep(step)
 	    if WoWPro.QID[step] then
 	        qid = WoWPro.QID[step]
 	    end
-	    local line = string.format("Action=%s|Step=%s|M0=%.2f,%.2f|M1=%.2f,%.2f|Error=%.2f|QID=%d|Vers=%s|Guide=%s",WoWPro.action[step],WoWPro.step[step],Delta[2],Delta[3],Delta[4],Delta[5],Delta[1],qid,WoWPro.Version,GID)
+	    local line = string.format("Action=%s|Step=%s|M0=%.2f,%.2f|M1=%.2f,%.2f|Error=%.2f|QID=%s|Vers=%s|Guide=%s",WoWPro.action[step],WoWPro.step[step],Delta[2],Delta[3],Delta[4],Delta[5],Delta[1],qid,WoWPro.Version,GID)
 	    table.insert(WoWProDB.global.Deltas, line)
 	    WoWPro:dbp(line)
 	else
