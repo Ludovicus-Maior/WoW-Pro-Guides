@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_silithus_horde
+-- Date: 2011-05-17 01:11
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3270/revisions/24339/view
 -- Date: 2011-04-29 16:43
 -- Who: Ludovicus Maior
 -- Log: Line ** for step * has unknown tag [GRP], Line 27 for step C has unknown tag [From spiders and scorpions.]:
@@ -11,7 +15,7 @@
 -- Date: 2010-12-03 12:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', '55', '60', 'JiyBla5560', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', '55', '60', 'JiyBla5560', 'Neutral', function()
 return [[
 
 R Cenarion Hold|QID|8280|M|54.92,35.85|

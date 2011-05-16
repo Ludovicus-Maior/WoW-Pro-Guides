@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_alliance
+-- Date: 2011-05-17 01:21
+-- Who: Ludovicus Maior
+-- Log: Small N syntax fix
+
+-- URL: http://wow-pro.com/node/3307/revisions/24377/view
 -- Date: 2011-05-11 18:29
 -- Who: Crackerhead22
 -- Log: Syntax Errors fixed.

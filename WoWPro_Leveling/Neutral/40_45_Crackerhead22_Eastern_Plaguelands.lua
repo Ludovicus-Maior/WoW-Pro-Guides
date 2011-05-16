@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_alliance
+-- Date: 2011-05-17 01:09
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3251/revisions/24301/view
 -- Date: 2011-04-29 14:41
 -- Who: Ludovicus Maior
 -- Log: Line 33 for step T has unknown tag [To Fiona.], Line 169 for step A has unknown tag [From the Crusader's Flare.], Line 170 for step A has unknown tag [From the Cursader's Flare.], Line 208 for step C has 1 M coords, Line 214 for step R has unknown tag [Run to Eastwall Tower.], Line 272 for step C has unknown tag [Kill Cursed Mages and Scourge Soldiers to get their skulls.], Line 281, for step T non-decimal QID.
@@ -26,7 +30,7 @@
 -- Date: 2010-12-03 11:33
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548', 'Neutral', function()
 return [[
 
 A Hero's Call: Eastern Plaguelands!|QID|28578|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|

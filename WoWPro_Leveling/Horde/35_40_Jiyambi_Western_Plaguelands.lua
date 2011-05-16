@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2011-05-17 00:45
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3246/revisions/23832/view
 -- Date: 2010-12-27 09:04
 -- Who: Crackerhead22
 -- Log: Fixed some waypoints.
@@ -15,7 +19,7 @@
 -- Date: 2010-12-03 11:25
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyWes3540', 'Western Plaguelands', 'Jiyambi', '35', '40', 'JiyEas4045', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('JiyWes3540', 'Western Plaguelands', 'Jiyambi', '35', '40', 'CraEas4045', 'Horde', function()
 return [[
 
 R Andorhal|M|46.56,64.71|N|At the center of the Western Plaguelands.|

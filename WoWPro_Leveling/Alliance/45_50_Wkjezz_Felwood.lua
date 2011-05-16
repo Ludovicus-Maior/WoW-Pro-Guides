@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2011-05-17 01:02
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3257/revisions/24186/view
 -- Date: 2011-03-20 20:18
 -- Who: Ludovicus Maior
 -- Log: Corrections around [Crying Violet] and quests shifted to "Andalar Shadevale".  Speling corrections and addition comments.
@@ -20,7 +24,7 @@
 -- Date: 2010-12-03 11:44
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', '45', '50', 'WkjWin5055', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', '45', '50', 'JiyWin5055', 'Alliance', function()
 return [[
 
 N Note|QID|99999|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|

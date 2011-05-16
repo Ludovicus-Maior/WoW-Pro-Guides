@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2011-05-17 01:03
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3259/revisions/24188/view
 -- Date: 2011-03-20 20:27
 -- Who: Ludovicus Maior
 -- Log: Tepes had found duplicated A lines too!
@@ -25,7 +29,7 @@
 -- Date: 2010-12-03 11:48
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', '45', '50', 'WkjUng5055', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', '45', '50', 'JiyUng5055', 'Alliance', function()
 return [[
 
 N This Guide:|QID|99999|N|Starts off on the Speedbarge in Thousand Needles. If you did not complete Thousand Needles; It's OK, Just skip this step and the next one. (Click to continue)|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2011-05-17 01:19
+-- Who: Ludovicus Maior
+-- Log: Fix Syntax errors.
+
+-- URL: http://wow-pro.com/node/3211/revisions/24388/view
 -- Date: 2011-05-15 19:40
 -- Who: Ludovicus Maior
 -- Log: Changes to accommodate new mapping system!
@@ -366,7 +371,7 @@ C Betrayal at Tempest's Reach|QID|24592|Z|Gilneas_terrain1|M|82.07,66.63;80.34,6
 T Betrayal at Tempest's Reach|QID|24592|Z|Gilneas_terrain1|M|78.27,72.01|N|To King Genn Greymane.|U|50218|
 A Flank the Forsaken|QID|24677|Z|Gilneas_terrain1|M|78.27,72.01|N|From King Genn Greymane.|
 N Flank the Forsaken|QID|24677|Z|Gilneas_terrain1|M|78.36,71.80|N|Speak to Lord Hewell to get a horse which will take you to Livery Outpost.|
-T Flank the Forsaken|QID|24677|Z|Gilneas_terrain1|M|70.88,39.85|To Lorna Crowley.|
+T Flank the Forsaken|QID|24677|Z|Gilneas_terrain1|M|70.88,39.85|N|To Lorna Crowley.|
 A Last Meal|QID|24675|Z|Gilneas_terrain1|M|70.76,39.82|N|From Magda Whitewall.|
 A Slaves to No One|QID|24674|Z|Gilneas_terrain1|M|70.65,39.70|N|From Marcus.|
 A Liberation Day|QID|24575|Z|Gilneas_terrain1|M|70.88,39.85|N|From Lorna Crowley.|
@@ -385,7 +390,7 @@ C Push Them Out|QID|24676|Z|Gilneas_terrain1|M|74.14,27.45|N|Kill Valnov the Mad
 T Push Them Out|QID|24676|Z|Gilneas_terrain1|M|70.87,39.80|N|To Lorna Crowley.|
 A The Battle for Gilneas City|QID|24904|LVL|11|Z|Gilneas_terrain1|M|70.87,39.80|N|From Lorna Crowley.|
 C The Battle for Gilneas City|QID|24904|M|70.06,40.89|Z|Gilneas_terrain1|N|Speak to Krennan Aranas standing at the bridge leading to the city. This will start a big script. Follow Prince Liam Greymane and help out with the fights. Use the Rapier of the Gilnean Patriots to boost the combatants during the fights.|U|50334|
-T The Battle for Gilneas| City|QID|24904|M|38.59,60.17|Z|GilneasCity|N|To Lorna Crowley.|
+T The Battle for Gilneas City|QID|24904|M|38.59,60.17|Z|GilneasCity|N|To Lorna Crowley.|
 A The Hunt For Sylvanas|QID|24902|M|38.59,60.17|Z|GilneasCity|N|From Lorna Crowley.|
 C The Hunt For Sylvanas|QID|24902|NC|M|44.44,51.54|Z|GilneasCity|N|Follow Tobias Mistmantle carefully.|
 T The Hunt For Sylvanas|QID|24902|M|38.53,60.37|Z|GilneasCity|N|To Lorna Crowley.|

@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
+-- Date: 2011-05-17 00:56
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3248/revisions/24334/view
 -- Date: 2011-04-29 16:29
 -- Who: Ludovicus Maior
 -- Log: Line 22 for step A has 3 M coords, Line 124 for step A has unknown tag [From Gargal]
@@ -21,7 +25,7 @@
 -- Date: 2010-12-03 11:29
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('LiaBad4548', 'Badlands', 'Liavan', '45', '48', 'LiaSea4850', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('LiaBad4548', 'Badlands', 'Liavan', '45', '48', 'CraSea4850', 'Horde', function()
 return [[
 
 A To Fuselight Proper|QID|27763|M|92.77,38.90|N|From Eddie Flofizzle.|
