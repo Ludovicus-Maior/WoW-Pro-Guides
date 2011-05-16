@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_horde
+-- Date: 2011-05-12 20:09
+-- Who: Chrisser000
+
+-- URL: http://wow-pro.com/node/3304/revisions/24348/view
 -- Date: 2011-04-29 17:06
 -- Who: Ludovicus Maior
 -- Log: Line 464 for step A Bad coord 88 .30
@@ -423,7 +427,7 @@ T Twilight Training|QID|25291|M|89.56,59.03|N|To Instructor Mylva.|
 A Physical Training: Forced Labor|QID|25509|M|89.56,59.03|N|From Instructor Mylva.|
 A Walking the Dog|QID|25294|M|90.13,56.44|N|From Instructor Devoran.|
 A Gather the Intelligence|QID|25296|M|88.30,58.52|
-N Gather the Intelligence|QID|25296|M|91.95,51.60|N|Search the camp until you find the Twilight Communique. It can be just about anywhere in the camp so just keep looking around until you find it. Try to grab it when none of the Twilight Guards are close by. If they see you take the communique they will attack. Close this step once you've found teh Twlight Communique.|
+N Gather the Intelligence|QID|25296|M|91.95,51.60|N|Search the camp until you find the Twilight Communique. It can be just about anywhere in the camp so just keep looking around until you find it. Try to grab it when none of the Twilight Guards are close by. If they see you take the communique they will attack. Close this step once you've found the Twlight Communique.|
 
 C Gather the Intelligence|QID|25296|M|91.95,51.60|N|Leave the camp. Head northeast, toward the other camp, Doom's Vigil. Find the Hyjal Battleplans somewhere in the Doom's Vigil camp.|
 C Physical Training: Forced Labor|QID|25509|S|U|54788|M|89.55,49.35|N|Use the Twilight Pick on Darkwhisper Lodestones.|

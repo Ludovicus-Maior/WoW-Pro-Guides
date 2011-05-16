@@ -1,4 +1,17 @@
-WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560', 'Neutral', function()
+-- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_horde
+-- Date: 2011-04-29 16:34
+-- Who: Ludovicus Maior
+-- Log: Line 92 for step C has unknown tag [GRP]
+
+-- URL: http://wow-pro.com/node/3262/revisions/23406/view
+-- Date: 2010-12-03 11:53
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3262/revisions/23405/view
+-- Date: 2010-12-03 11:52
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560', 'Horde', function()
 return [[
 
 N Devilsaurs|QID|24720|N|Huge, elite, hostile dinosaurs patrol this zone, so always be aware of your surroundings! That said, this is one of prettiest and most fun zones, so don't be discouraged!|
@@ -81,7 +94,7 @@ A The Fledgling Colossus|QID|24692|PRE|24690|M|55.00,62.28|N|From Hol'anyee Mars
 A Peculiar Delicacies|QID|24691|PRE|24690|M|54.82,63.78|N|From Quixxil.|
 
 C Peculiar Delicacies|QID|24691|M|50.10,80.79|S|N|Kill and loot silithid at the Slithering Scar.|
-C The Fledgling Colossus|QID|24692|GRP|2|M|49.98,81.55;46.70,82.96;46.76,86.74|N|This is fairly easy for a group quest, but if you find it too difficult, save it for later or skip it - it has no follor-ups. When the collossus starts casting Poison Explosion, run and hide behind the pillar.|
+C The Fledgling Colossus|QID|24692|M|49.98,81.55;46.70,82.96;46.76,86.74|N|This is fairly easy for a group quest, but if you find it too difficult, save it for later or skip it - it has no follor-ups. When the collossus starts casting Poison Explosion, run and hide behind the pillar.|
 C Peculiar Delicacies|QID|24691|M|50.10,80.79|US|N|Kill and loot silithid at the Slithering Scar.|
 
 H Marshall's Stand|QID|24691|M|54.79,63.90|N|Ride back if you didn't set your hearth there.|

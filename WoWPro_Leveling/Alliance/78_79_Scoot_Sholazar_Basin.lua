@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_alliance
+-- Date: 2011-05-11 18:39
+-- Who: Crackerhead22
+-- Log: Syntax errors fixed.
+
+-- URL: http://wow-pro.com/node/3297/revisions/24370/view
 -- Date: 2011-05-07 10:24
 -- Who: Crackerhead22
 -- Log: Added in notes, QO steps, fixed a few steps, added sticky steps.
@@ -35,7 +40,7 @@ return [[
 F Dalaran |QID|12521| |N|Head to Dalaran.|
 
 A Where in the World is Hemet Nesingwary? |QID|12521|N|From Archmage Pentarus, near the exit from Krasus' Landing.|M|68.68,42.06|
-T Where in the World is Hemet Nesingwary? |QID|12521|N|Talk to the Archmage again to get a flight. To Monte Muzzleshot. He's hanging from a tree.|M|35.68,58.65.|
+T Where in the World is Hemet Nesingwary? |QID|12521|N|Talk to the Archmage again to get a flight. To Monte Muzzleshot. He's hanging from a tree.|M|35.68,58.65|
 
 A Welcome to Sholazar Basin |QID|12489|M|39.7,58.7|N|From Monte Muzzleshot.|
 T Welcome to Sholazar Basin |QID|12489|N|To Hemet Nesingwary. Find Hemet at, where else, Nesingwary Base Camp, to the West.|M|27.09,58.72|
@@ -310,7 +315,7 @@ T Return of the Lich Hunter|QID|12692|M|55.4,69.6|O|N|To Elder Harkek. Unlocks D
 T Cultist Incursion |QID|12608|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 T Salvaging Life's Strength |QID|12805|N|To Avatar of Freya.|M|64.5,48.7|
 
-A Exterminate the Intruders |QID|12617|N|From Avatar of Freya.M|64.5,48.7|
+A Exterminate the Intruders |QID|12617|N|From Avatar of Freya.|M|64.5,48.7|
 A Weapons of Destruction |QID|12660|N|From Avatar of Freya.|M|64.5,48.7|
 C Exterminate the Intruders |QID|12617|S|N|Kill Cultist Intruders. The cultists throw bombs, but they don't have a large blast radius; just move away a little bit.|M|56.21,41.28|
 C Weapons of Destruction |QID|12660|N|Death's Hand Encampment. The bombs are huge; you can't miss them.|M|56.21,41.28|
@@ -352,12 +357,12 @@ T Back Through the Waygate |QID|12797|N|To Avatar of Freya, at Rainspeaker Rapid
 
 A Reclamation |QID|12546|N|From Avatar of Freya.|
 R Reclamation |QID|12546|M|71.31,33.84|N|Go here, dismount and summon the Etymidian. Remember to heal when you get below 50%.|U|38709|
-K Scourge Minions|QID|12546|M|70.38.4;72.6,40.4;73.6,40.8|QO|Scourge Minions destroyed: 200/200|S|N|Destroy any type of Minion.|
+K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|QO|Scourge Minions destroyed: 200/200|S|N|Destroy any type of Minion.|
 K Hailscorn |QID|12546|M|70.0,34.0|QO|Hailscorn slain: 1/1|N|Keep your back to the mountain and hit Cataclysm only when she spawns her troops.|U|38709|
 K Urgreth of the Thousand Tombs |QID|12546|M|70.2,37.0|QO|Urgreth of the Thousand Tombs slain: 1/1|N|Move away when he channels Dark Barrage.|
 K Hailscorn |QID|12546|M|70.0,34.0|QO|Hailscorn slain: 1/1|N|Keep your back to the mountain and hit Cataclysm only when she spawns her troops.|U|38709|
 C Reclamation|QID|12546|M|70.0,38.4;72.6,40.4;73.6,40.8|N|Find Bythius the Flesh-Shaper, use Cleave on the guy, and Cataclysm for the dogs.|U|38709|
-K Scourge Minions|QID|12546|M|70.38.4;72.6,40.4;73.6,40.8|QO|Scourge Minions destroyed: 200/200|US|N|Finish killing Minions.|
+K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|QO|Scourge Minions destroyed: 200/200|US|N|Finish killing Minions.|
 T Reclamation |QID|12546|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 T It Could Be Anywhere! |QID|12624|N|To Chad. I know you found it a long time ago. Turn it in now if you haven't already.|M|26.9,58.9|
 T A Hero's Burden |QID|12581|N|Artruis's Phylactery. If you have it, turn it in.|U|38624|

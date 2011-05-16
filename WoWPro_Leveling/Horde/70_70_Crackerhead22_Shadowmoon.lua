@@ -1,3 +1,20 @@
+-- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2011-05-15 18:15
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3286/revisions/24384/view
+-- Date: 2011-05-15 01:45
+-- Who: Crackerhead22
+-- Log: Added source code!!!!!
+
+-- URL: http://wow-pro.com/node/3286/revisions/23463/view
+-- Date: 2010-12-03 21:59
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3286/revisions/23462/view
+-- Date: 2010-12-03 21:58
+-- Who: Jiyambi
+
 WoWPro.Leveling:RegisterGuide('CraSha7070H', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', 'JamBor7173', 'Horde', function()
 return [[
 
@@ -54,7 +71,7 @@ A The Rod of Lianthe|QID|10778|M|35.24,41.27|N|From Parshah. He wanders up and d
 T The Hand of Gul'dan|QID|10681|M|42.22,45.03|N|To Earthmender Torlok.|
 A Enraged Spirits of Fire and Earth|QID|10458|M|42.22,45.03|N|From Earthmender Torlok.|
 K Enraged Earth Spirit|QID|10458|U|30094|QO|Earthen Soul Captured: 8/8|M|42.73,47.86;46.59,52.15|N|Use the totem and kill Enraged Earth Spirits between these points.|
-C Enraged Spirits of Fire and Earth|QID|10458|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits. Warning: Yes, the green stuff is lava and yes, it will hurt you.|
+C Enraged Spirits of Fire and Earth|QID|10458|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits. Warning: Yes, the green stuff is lava and yes, it  will hurt you.|
 T Enraged Spirits of Fire and Earth|QID|10458|M|42.18,45.05|N|To Earthmender Torlok.|
 A Enraged Spirits of Water|QID|10480|M|42.18,45.05|N|From Earthmender Torlok.|
 C A Grunt's Work...|QID|10702|US|M|38.26,43.69|N|Finish getting the kills needed.|

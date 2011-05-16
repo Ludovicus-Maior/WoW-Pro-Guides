@@ -1,4 +1,23 @@
-WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'JiyBla5560|CraBla5458', 'Horde', function()
+-- URL: http://wow-pro.com/wiki/source_code_winterspring_horde
+-- Date: 2011-02-28 23:25
+-- Who: Ludovicus Maior
+-- Log: Add [Yetiphobia].
+
+-- URL: http://wow-pro.com/node/3264/revisions/24139/view
+-- Date: 2011-02-28 23:22
+-- Who: Ludovicus Maior
+-- Log: Added [Perfect Horns] to the Horde Winterfall guide.
+--	The Alliance side had it.  Discovered by Josral.
+
+-- URL: http://wow-pro.com/node/3264/revisions/23410/view
+-- Date: 2010-12-03 11:56
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3264/revisions/23409/view
+-- Date: 2010-12-03 11:55
+-- Who: Jiyambi
+
+WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'JiyBla5560', 'Horde', function()
 return [[
 
 R Winterspring|QID|28521|M|21.04,46.22|N|Head through the Timbermaw tunnels to Winterspring.|
@@ -187,9 +206,6 @@ C The Arcane Storm Within|QID|28841|U|66060|M|49.52,70.39|N|In Mazthoril, kill t
 C Umbranse's Deliverance|QID|28842|U|66061|M|49.52,70.39|Z|Mazthoril|N|Kill Umbranse at the bottom of the cave.|
 T The Arcane Storm Within|QID|28841|M|57.99,63.82|N|Use the sigil to return to Haleh.|
 T Umbranse's Deliverance|QID|28842|M|57.99,63.82|N|To Haleh. Congrats on a very nice piece of gear!|
-
-A Blasted Lands: The Other Side of the World|QID|28858|M|57.99,63.82|N|From Haleh. Accept this if you'd like to do the Blasted Lands next, or if you're ready to move on to Hellfire Peninsula.|FACTION|Horde|
-A Blasted Lands: The Other Side of the World|QID|28857|M|59.8,51.2|N|From Innkeeper Vizzle in Everlook. Accept this if you'd like to do the Blasted Lands next, or if you're ready to move on to Hellfire Peninsula.|FACTION|Alliance|
 ]]
 
 end)

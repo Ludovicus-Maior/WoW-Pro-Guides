@@ -1,4 +1,17 @@
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2011-05-15 18:13
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3285/revisions/24383/view
+-- Date: 2011-05-15 01:21
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3285/revisions/24382/view
+-- Date: 2011-05-14 22:36
+-- Who: Crackerhead22
+-- Log: Added missing Scryer quest accept and flight point.
+
+-- URL: http://wow-pro.com/node/3285/revisions/24221/view
 -- Date: 2011-04-05 23:34
 -- Who: Ludovicus Maior
 
@@ -185,6 +198,8 @@ A Divination: Gorefiend's Truncheon|QID|10636|M|58.16,70.82|N|From Ancient Shado
 A Divination: Gorefiend's Armor|QID|10634|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.|
 C Enraged Spirits of Air|QID|10481|U|30094|M|59.85,69.71|N|Use the totem and kill the Enraged Air Spirit. They tend to be a bit spread out.|
 C The Main Course!|QID|10678|M|56.38,45.33|N|Go to the waypoint and kill Felspine the Greater to get his hide.|
+f Sanctum of the Stars|QID|10687|M|56.32,57.81|N|At Alieshor.|REP|Scryers|
+A Karabor Training Grounds|QID|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers|
 A Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|From Arcanist Thelis|REP|Scryers|
 A The Ashtongue Broken|QID|10807|M|54.73,58.19|N|From Varen the Reclaimer|REP|Scryers|
 
@@ -342,8 +357,8 @@ A Karynaku|QID|10858|M|66.92,57.86|N|From Neltharaku.|
 
 N Group Quests|QID|10858|N|The following steps are all the group quests we skipped before. Time to get help, since they can be somewhat nasty.|
 K Morgroron|QID|10626|L|30785 |M|23.3,38.3|N|Kill Morgroron and loot his corpse for his glaive.|
-C Capture the Weapons|QID|10626|L|30785 |M|24.9,37.2|N|Kill Makazradon and loot his corpse for his glaive.|
-T Capture the Weapons|QID|10626|L|30785 |M|36.83,54.8|N|To Ordinn Thunderfist.|
+C Capture the Weapons|QID|10626|M|24.9,37.2|N|Kill Makazradon and loot his corpse for his glaive.|
+T Capture the Weapons|QID|10626|M|36.83,54.8|N|To Ordinn Thunderfist.|
 A The Hermit Smith|QID|10662|M|36.83,54.8|N|From Ordinn Thunderfist.|
 C Breaching the Path|QID|10773|M|51.00,58.75|N|Kill everything that is needed in the path.|
 T Breaching the Path|QID|10773|M|52.50,62.91|N|To Wildhammer Gryphon Rider.|

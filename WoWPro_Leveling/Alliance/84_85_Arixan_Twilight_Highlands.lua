@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2011-05-11 18:35
+-- Who: Crackerhead22
+-- Log: Fixed Syntax Errors.
+
+-- URL: http://wow-pro.com/node/3311/revisions/24369/view
 -- Date: 2011-05-06 17:57
 -- Who: Crackerhead22
 -- Log: Added notes, etc.
@@ -72,12 +77,12 @@ T Unholy Cow|QID|27060|M|44.05,4.28|N|To Anduin Wrynn.|Z|Stormwind City|
 C He's Holding Out on Us|QID|27064|M|80.39,62.34|N|There is a small stairwell leading up to the 3rd floor.|Z|Stormwind City|
 
 T He's Holding Out on Us|QID|27064|M|80.39,62.34|N|To Anduin Wrynn.|Z|Stormwind City|
-A Expert Opinion|QID|28807|PRE|26977|M|80.39,62.34|From Anduin Wrynn|Z|Stormwind City|
+A Expert Opinion|QID|28807|PRE|26977|M|80.39,62.34|N|From Anduin Wrynn|Z|Stormwind City|
 T Expert Opinion|QID|28807|M|81.28,63.32|N|To Master Mathias Shaw, same building.|
 
 A The Old Barracks|QID|27072|PRE|26977|M|81.28,63.32|N|From Master Mathias Shaw.|Z|Stormwind City|
 C The Old Barracks|QID|27072|M|37.24,56.47|N|Kill crazed cultists. Work on this building since you need to make your way down to the bottom floor to turn in this quest.|Z|Stormwind City|
-T The Old Barracks|QID|27072|M|37.24,56.47|N|To Jack Bauden.|Stormwind City|
+T The Old Barracks|QID|27072|M|37.24,56.47|N|To Jack Bauden.|
 
 A Cataclysm in the Catacombs|QID|27092|PRE|26977|M|37.24,56.47|N|From Jack Bauden.|Z|Stormwind City|
 C Cataclysm in the Catacombs|QID|27092|M|51.30,42.30|N|You must enter the catacombs found in the bottom of the Cathedral of Light. Kill the Black Bishop and then disarm the bomb.|Z|Stormwind City|
@@ -188,7 +193,7 @@ A Honorable Bearing|QID|27806|PRE|27803|M|60.08,58.00|N|From Keegan Firebeard.|
 
 A Small Comforts|QID|27805|M|60.39,58.25|N|From Cailin Longfellow inside the building.|
 l Meara's Dried Roses|QID|27805|QO|Meara's Dried Roses: 1/1|M|59.85,56.20|N|Up the stone to enter the house, then left and left.|
-l Aprika's Doll|QID|27805|M|QO|Aprika's Doll: 1/1|M|59.46,55.88|N|Small blue bear.|
+l Aprika's Doll|QID|27805|QO|Aprika's Doll: 1/1|M|59.46,55.88|N|Small blue bear.|
 C Small Comforts|QID|27805|QO|Parlan's Ivory Hammer: 1/1|M|59.32,56.88|N|Enter and to the left.|
 T Small Comforts|QID|27805|M|60.40,58.24|N|To Cailin Longfellow inside the building.|
 
@@ -492,7 +497,7 @@ T Breach in the Defenses|QID|27509|M|29.29,26.05|N|To Calen.|
 
 L Level 85|QID|27509|LVL|85|N|You should be around level 85 by this point.|
 
-A Mathias' Command|QID|28101|M|M|29.34,25.94|N|From Calen.|
+A Mathias' Command|QID|28101|M|29.34,25.94|N|From Calen.|
 T Mathias' Command|QID|28101|M|26.02,38.92|N|To Master Mathias Shaw.|
 
 A Easy Pickings|QID|28103|M|26.02,38.92|N|From Master Mathias Shaw.|

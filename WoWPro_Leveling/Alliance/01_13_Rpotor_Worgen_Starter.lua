@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2011-05-15 19:40
+-- Who: Ludovicus Maior
+-- Log: Changes to accommodate new mapping system!
+
+-- URL: http://wow-pro.com/node/3211/revisions/24290/view
 -- Date: 2011-04-29 14:11
 -- Who: Ludovicus Maior
 -- Log: Line 127 for step A has unknown tag [From Huntsman Blake.], Line 146 for step A has unknown tag [From Captain Broderick.], Line 159 for step T has unknown tag [Go southwest/west, ...], Line 187 for step T has unknown tag [To Tobias.], Line 204 for step T has unknown tag [To Crate of Mandrake Essence.], Line 239 for step C has 3 M coords, Line 408 for step f has too short a title.
@@ -61,17 +66,17 @@ WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "01", 
 return [[
 
 ; Zone is Ruins of Gilneas City
-A Lockdown! |QID|14078|Z|GilneasCity|M|59.2,23.9|N|From Prince Liam Greymane right in front of you.|
+A Lockdown! |QID|14078|Z|GilneasCity|M|59.11,23.83|N|From Prince Liam Greymane right in front of you.|
 
-T Lockdown! |QID|14078|Z|GilneasCity|M|54.7,17.7|N|Go north and then west along the street to Lieutenant Walden lying on the ground.|
-A Something's Amiss |QID|14091|Z|GilneasCity|M|54.7,17.7|
+T Lockdown! |QID|14078|Z|GilneasCity|M|54.65,16.68|N|Go north and then west along the street to Lieutenant Walden lying on the ground.|
+A Something's Amiss |QID|14091|Z|GilneasCity|M|54.65,16.68|
 
-T Something's Amiss |QID|14091|Z|GilneasCity|M|59.6,22.2|N|Back to Greymane.|
-A All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.6,22.2|N|From Prince Liam Greymane.|
-A Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.6,22.2|N|From Prince Liam Greymane.|
+T Something's Amiss |QID|14091|Z|GilneasCity|M|59.80,22.23|N|Back to Greymane.|
+A All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|
+A Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|
 
-A Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.7,26.8|N|Go a few steps south to Gwen Armstead.|
-N Check Your Mail |QID|14098|Z|GilneasCity|M|58.8,31.7|N|There's a mailbox a few steps south. You can pick up your Bind on Account items and pets here.|O|
+A Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.58,26.77|N|Go a few steps south to Gwen Armstead.|
+N Check Your Mail |QID|14098|Z|GilneasCity|M|58.94,31.89|N|There's a mailbox a few steps south. You can pick up your Bind on Account items and pets here.|O|
 
 C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|Z|GilneasCity|M|58.8,32.7|S|
 C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|Z|GilneasCity|M|58.8,32.7|S|
@@ -80,13 +85,13 @@ C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|US|Z|GilneasCity|
 C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|US|Z|GilneasCity|
 C Evacuate the Merchant Square |QID|14098|N|Click on Merchant Square Doors.|US|Z|GilneasCity|
 
-T Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.7,26.8|N|Back to Gwen Armstead.|
+T Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.58,26.77|N|Back to Gwen Armstead.|
 
-T All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.8,22.5|N|Back to Greymane.|
-T Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.8,22.5|N|Back to Greymane.|
-A Royal Orders |QID|14099|Z|GilneasCity|M|59.8,22.5|N|From Prince Liam Greymane.|
+T All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.80,22.23|N|Back to Greymane.|
+T Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.80,22.23|N|Back to Greymane.|
+A Royal Orders |QID|14099|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|
 
-T Royal Orders |QID|14099|Z|GilneasCity|M|70.7,54.7|N|Southeast through the Merchant Square, down some steps and across a bridge.|
+T Royal Orders |QID|14099|Z|GilneasCity|M|61.53,41.52;69.09,45.32;70.76,55.03|N|Southeast through the Merchant Square, down some steps and across a bridge.|
 A Your Instructor |QID|14265|Z|GilneasCity|M|70.7,54.7|C|Warrior|N|From Gwen Armstead.|
 A Someone's Looking for You |QID|14269|Z|GilneasCity|M|70.7,54.7|C|Rogue|N|From Gwen Armstead.|
 A Shady Associates |QID|14273|Z|GilneasCity|M|70.7,54.7|C|Warlock|N|From Gwen Armstead.|
@@ -107,8 +112,8 @@ A Charge |QID|14266|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|
 A Eviscerate |QID|14272|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|From Loren the Fence.|
 A Immolate |QID|14274|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|
 A Steady Shot |QID|14276|Z|GilneasCity|M|71.3,61.4|C|Hunter|N|From Huntsman Blake.|
-A Flash Heal |QID|14279|Z|GilneasCity|M|68.2,64.8|C|Priest|N|From Myriam Spellwaker.|
-A Arcane Missles |QID|14281|Z|GilneasCity|M|70.5,65.2|C|Mage|N|From Sister Almyra.|
+A Flash Heal |QID|14279|Z|GilneasCity|M|68.2,64.8|C|Priest|N|From Sister Almyra.|
+A Arcane Missles |QID|14281|Z|GilneasCity|M|70.5,65.2|C|Mage|N|From Myriam Spellwaker.|
 A Healing Touch |QID|14283|Z|GilneasCity|M|70.2,65.7|C|Druid|N|From Celestine of the Harvest.|
 
 C Charge |QID|14266|Z|GilneasCity|M|66.9,64.2|C|Warrior|N|Train Charge from your trainer and then practice it on a Bloodfang Worgen.|
@@ -123,16 +128,16 @@ T Charge |QID|14266|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|To Sergeant Cleese.|
 T Eviscerate |QID|14272|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|To Loren the Fence.|
 T Immolate |QID|14274|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|To Vitus Darkwalker.|
 T Steady Shot |QID|14276|Z|GilneasCity|M|71.3,61.4|C|Hunter|N|To Huntsman Blake.|
-T Flash Heal |QID|14279|Z|GilneasCity|M|68.2,64.8|C|Priest|N|To Myriam Spellwaker.|
-T Arcane Missles |QID|14281|Z|GilneasCity|M|70.5,65.2|C|Mage|N|To Sister Almyra.|
+T Flash Heal |QID|14279|Z|GilneasCity|M|70.5,65.2|C|Priest|N|To Sister Almyra.|
+T Arcane Missles |QID|14281|Z|GilneasCity|M|68.2,64.8|C|Mage|N|To Myriam Spellwaker.|
 T Healing Touch |QID|14283|Z|GilneasCity|M|70.2,65.7|C|Druid|N|To Celestine of the Harvest.|
 
 A Safety in Numbers |QID|14286|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|
 A Safety in Numbers |QID|14285|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|From Loren the Fence.|
 A Safety in Numbers |QID|14287|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|
 A Safety in Numbers |QID|14290|Z|GilneasCity|M|71.3,61.4|C|Hunter|N|From Huntsman Blake.|
-A Safety in Numbers |QID|14289|Z|GilneasCity|M|68.2,64.8|C|Priest|N|From Myriam Spellwaker.|
-A Safety in Numbers |QID|14288|Z|GilneasCity|M|70.5,65.2|C|Mage|N|From Sister Almyra.|
+A Safety in Numbers |QID|14289|Z|GilneasCity|M|70.5,65.2|C|Priest|N|From Sister Almyra.|
+A Safety in Numbers |QID|14288|Z|GilneasCity|M|68.2,64.8|C|Mage|N|From Myriam Spellwaker.|
 A Safety in Numbers |QID|14291|Z|GilneasCity|M|70.2,65.7|C|Druid|N|From Celestine of the Harvest.|
 
 T Safety in Numbers |QID|14286|Z|GilneasCity|M|65.9,77.4|C|Warrior|N|To King Genn Greymane.|
@@ -162,7 +167,7 @@ T While You're At It |QID|24930|Z|GilneasCity|M|65.5,77.4|N|Leave the balcony al
 T Brothers In Arms |QID|26129|Z|GilneasCity|M|65.9,77.4|N|To King Genn Greymane.|
 A The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|65.9,77.4|N|From King Genn Greymane.|
 
-T The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|55.48,81.59;56.63,85.43|N|Go southwest/west, take a right around the house and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
+T The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|61.94,82.13;55.61,81.55|N|Go southwest/west, take a right around the house and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
 
 A From the Shadows |QID|14204|Z|GilneasCity|M|56.9,81.7|N|Turn around and get this quest from Lorna Crowley.|
 
@@ -179,11 +184,9 @@ C Save Krennan Aranas |QID|14293|Z|GilneasCity|M|66.0,62.2|N|Your horse is scrip
 T Save Krennan Aranas |QID|14293|Z|GilneasCity|M|55.8,80.2|N|Turn in to Lord Godfrey.|
 A Time to Regroup |QID|14294|Z|GilneasCity|M|55.8,80.2|N|From Lord Godfrey.|
 
-
 T Time to Regroup |QID|14294|Z|GilneasCity|M|53.84,84.03;42.80,82.85;30.5,73.3|N|Go west, then south along the streets then through a bridge west into the Greymane Court district. Continue northwest along the street to King Greymane.|
 N Training in Earnest|QID|14212|Z|GilneasCity|M|32.24,73.29|N|Find your trainer here, and train, if you have leveled.|
 A Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.6|N|From Lord Crowley.|
-
 
 C Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.9|N|Mount Crowley's Horse.  While on the scripted path use your mount's (1) Throw Torch ability to round up 50 worgen. If you do not get 50, ride the horse again.|
 
@@ -202,7 +205,7 @@ C Last Stand |QID|14222|Z|GilneasCity|M|45.3,47.4|N|Kill 8 Frenzied Stalkers.|
 
 T Last Stand |QID|14222|Z|GilneasCity|M|48.8,52.6|N|Turn in back at Crowley and enjoy the cinematic.|
 
-N Last Chance at Humanity|QID|14375|Z|Gilneas_terrain1|M|36.4,61.3|NC|N|Accept quest from King Genn Greymane, and click off this step.|
+A Last Chance at Humanity|QID|14375|Z|Gilneas_terrain1|M|36.48,61.38|NC|N|Accept quest from King Genn Greymane, and click off this step.|
 ; No Turn-in as this quest auto-completes
 ; Zone is now Ruins of Gilneas
 A Among Humans Again|QID|14313|Z|Gilneas_terrain1|M|36.45,62.20|N|From Lord Godfrey.|
@@ -231,7 +234,7 @@ T Holding Steady|QID|14366|Z|Gilneas_terrain1|M|37.36,63.29|N|To Gwen Armstead.|
 
 A The Allens' Storm Cellar|QID|14367|Z|Gilneas_terrain1|M|37.36,63.29|N|From Gwen Armstead.|
 
-T The Allens' Storm Cellar|QID|14367|Z|Gilneas_terrain1|M|29.96,65.34;28.97,63.93|N|To Lord Godfrey.|
+T The Allens' Storm Cellar|QID|14367|Z|Gilneas_terrain1|M|30.13,63.82;28.97,63.93|N|To Lord Godfrey.|
 A Unleash the Beast|QID|14369|Z|Gilneas_terrain1|M|28.90,63.91|N|From Lord Godfrey.|
 A Two By Sea|QID|14382|Z|Gilneas_terrain1|M|28.90,63.91|N|From Lord Godfrey.|
 A Save the Children!|QID|14368|Z|Gilneas_terrain1|M|28.90,63.91|N|From Melinda Hammond.|
