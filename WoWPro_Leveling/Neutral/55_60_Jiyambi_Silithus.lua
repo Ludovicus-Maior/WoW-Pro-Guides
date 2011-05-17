@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_silithus_horde
+-- Date: 2011-05-17 01:54
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3270/revisions/24397/view
 -- Date: 2011-05-17 01:11
 -- Who: Ludovicus Maior
 
@@ -15,7 +19,7 @@
 -- Date: 2010-12-03 12:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', '55', '60', 'JiyBla5560', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', '55', '60', 'JamHel6062|JamHel6063', 'Neutral', function()
 return [[
 
 R Cenarion Hold|QID|8280|M|54.92,35.85|

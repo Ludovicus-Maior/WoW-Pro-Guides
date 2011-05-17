@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_horde
+-- Date: 2011-05-17 02:00
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3264/revisions/24396/view
 -- Date: 2011-05-17 01:10
 -- Who: Ludovicus Maior
 
@@ -21,7 +25,7 @@
 -- Date: 2010-12-03 11:55
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'JiyBla5560', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'CraBla5458|JiyBla5560', 'Neutral', function()
 return [[
 
 R Winterspring|QID|28521|M|21.04,46.22|N|Head through the Timbermaw tunnels to Winterspring.|

@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_alliance
+-- Date: 2011-05-17 01:57
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3251/revisions/24393/view
 -- Date: 2011-05-17 01:09
 -- Who: Ludovicus Maior
 
@@ -30,7 +34,7 @@
 -- Date: 2010-12-03 11:33
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548|LiaBad4548', 'Neutral', function()
 return [[
 
 A Hero's Call: Eastern Plaguelands!|QID|28578|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|

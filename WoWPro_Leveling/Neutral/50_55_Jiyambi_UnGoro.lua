@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_horde
+-- Date: 2011-05-17 01:58
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3262/revisions/24395/view
 -- Date: 2011-05-17 01:10
 -- Who: Ludovicus Maior
 
@@ -15,7 +19,7 @@
 -- Date: 2010-12-03 11:52
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560|JiySil5560', 'Neutral', function()
 return [[
 
 N Devilsaurs|QID|24720|N|Huge, elite, hostile dinosaurs patrol this zone, so always be aware of your surroundings! That said, this is one of prettiest and most fun zones, so don't be discouraged!|

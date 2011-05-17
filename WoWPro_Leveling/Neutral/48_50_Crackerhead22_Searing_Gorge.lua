@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_alliance
+-- Date: 2011-05-17 01:58
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3255/revisions/24394/view
 -- Date: 2011-05-17 01:10
 -- Who: Ludovicus Maior
 
@@ -29,7 +33,7 @@
 -- Date: 2010-12-03 11:40
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', '48', '50', 'CraBur5052', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', '48', '50', 'CraBur5052|LiaBur5052', 'Neutral', function()
 return [[
 
 A Hero's Call: Searing Gorge!|QID|28582|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. If you have the quest, "To the Aid of the Thorium Brotherhood" or if your level is too high, this quest will not be there.|
