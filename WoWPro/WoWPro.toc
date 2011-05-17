@@ -2,6 +2,7 @@
 ## Title: WoW-Pro
 ## Notes: Guides created by the WoW-Pro Community
 ## Author: Jiyambi
+## Dependencies: TomTom
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
 ## Version: 2.1.12
