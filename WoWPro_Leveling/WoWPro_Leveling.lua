@@ -115,22 +115,29 @@ function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startleve
 		endlevel = endlevelvalue,
 		sequence = sequencevalue,
 		nextGID = nextGIDvalue,
+		faction = factionname
 	}
 end
 
 function WoWPro.Leveling:LoadAllGuides()
     WoWPro:Print("Test Load of All Guides")
-    local gCount=0
+    local aCount=0
+    local hCount=0
+    local nCount=0
     local nextGID
 	for guidID,guide in pairs(WoWPro.Guides) do
-        WoWPro:Print("Test Loading " .. guidID)
-	    WoWPro:LoadGuide(guidID)
-	    nextGID = WoWPro.Guides[guidID].nextGID
-	    if nextGID == nil or WoWPro.Guides[nextGID] == nil then	    
-	        WoWPro:Print("Successor to " .. guidID .. " which is " .. tostring(nextGID) .. " is invalid.")
+	    if WoWPro.Guides[guidID].guidetype == "Leveling" then
+            WoWPro:Print("Test Loading " .. guidID)
+	        WoWPro:LoadGuide(guidID)
+	        nextGID = WoWPro.Guides[guidID].nextGID
+	        if nextGID == nil or WoWPro.Guides[nextGID] == nil then	    
+	            WoWPro:Print("Successor to " .. guidID .. " which is " .. tostring(nextGID) .. " is invalid.")
+	        end
+	        if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end
+	        if WoWPro.Guides[guidID].faction == "Neutral"  then nCount = nCount + 1 end
+	        if WoWPro.Guides[guidID].faction == "Horde"    then hCount = hCount + 1 end
 	    end
-	    gCount = gCount + 1
 	end
-        WoWPro:Print("Done! "..tostring(gCount).." guides present")
+        WoWPro:Print(string.format("Done! %d A, %d N, %d H guides present", aCount, nCount, hCount))
 end	    
 
