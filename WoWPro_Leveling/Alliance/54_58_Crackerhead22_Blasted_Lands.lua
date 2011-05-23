@@ -84,13 +84,13 @@ T Attune the Bloodstone|QID|26158|M|62.32,26.23|N|To Kasim Sharim.|
 A The First Step|QID|26159|M|62.32,26.23|N|From Kasim Sharim.|
 A A Bloodmage's Gotta Eat Too|QID|26172|M|62.32,26.23|N|From Kasim Sharim.|
 C A Bloodmage's Gotta Eat Too|QID|26172|S|M|51.64,25.98|N|Use the Bloodstone Teleporter to get out of the cave.  Kill any boar you come across.|
-C The First Step|QID|26159|M|48.47,30.66;52.38,27.17|N|The basilisks are primarily on the east side of the road, while the hyenas are on the west side of the road.|
+C The First Step|QID|26159|N|The basilisks are primarily on the east side of the road, while the hyenas are on the west side of the road.|
 C A Bloodmage's Gotta Eat Too|QID|26172|US|M|51.64,25.98|N|Kill any boar you come across.|
 A One Draenei's Junk...|QID|25771|O|U|10593|N|You may or may not get this while killing in the Blasted Lands..  If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
 T One Draenei's Junk...|QID|25771|O|M|49.01,31.81|N|To Kum'isha the Collector.|
 A Kum'isha's Endeavors|QID|25772|O|U|8244|N|You may or may not get this while killing in the Blasted Lands..  If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
 T Kum'isha's Endeavors|QID|25772|O|N|To Kum'isha the Collector.|
-T The First Step|QID|26159|M|62.64,26.19|N|To Kasim Sharim.|
+T The First Step|QID|26159|M|61.4,29.9|N|Use the Bloodstone Teleporter to get to Kasim Sharim.|
 A Blood Ritual|QID|26160|M|62.64,26.19|N|From Kasim Sharim.|
 T A Bloodmage's Gotta Eat Too|QID|26172|M|62.64,26.19|N|To Kasim Sharim.|
 C Blood Ritual|QID|26160|NC|M|62.64,26.19|N|Talk to Kasim to get it started.|
