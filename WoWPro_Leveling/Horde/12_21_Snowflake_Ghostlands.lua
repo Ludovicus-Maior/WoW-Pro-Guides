@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2011-05-28 11:14
+-- Who: Ludovicus Maior
+-- Log: Coord tweaks and added the explorer achievement step.
+
+-- URL: http://wow-pro.com/node/3221/revisions/24324/view
 -- Date: 2011-04-29 15:39
 -- Who: Ludovicus Maior
 -- Log: Line 218 for step K has 1 M coords, Line 221 for step K has 1 M coords.
@@ -178,7 +183,7 @@ K Bring Me Kel'gash's Head!|QID|9215|L|22640 |M|65.33,79.51|N|If you feel that y
 U Poison the Smoked Meat Rack|QID|9275|US|U|22796|QO|Poison the Smoked Meat Rack: 1/1|M|62.82,75.13|N|Poison the Smoked Meat Rack.|
 U Poison the Fresh Fish Rack|QID|9275|US|U|22796|QO|Poison the Fresh Fish Rack: 1/1|M|68.22,57.85|N|Poison the Fresh Fish Rack.|
 
-f Hatchet Hills|M|74.72,67.05|N|At Kiz Coilspanner.|
+f Hatchet Hills|M|63.93,61.44;74.72,67.05|N|At Kiz Coilspanner.|
 H Tranquilien|QID|9193|U|6948|N|Hearth back to Tranquilien or fly there if you want to save your hearth.|
 A The Sanctum of the Sun|QID|9151|M|46.04,31.97|N|From Magister Darenis.|
 T Troll Juju|QID|9199|M|44.84,32.32|N|To Deathstalker Maltendis.|
@@ -219,12 +224,13 @@ A Captives at Deatholme|QID|9164|M|47.54,34.80|N|From Apothecary Renzithen.|
 C Apothecary Enith|QID|9164|QO|Apothecary Enith Rescued: 1/1|M|32.1,73.9|N|Go down into the crypt and Talk to Apothecary Enith.|
 K Jurion the Deceiver|QID|9170|QO| Jurion the Deceiver slain: 1/1|M|32.1,74|N|Kill Jurion the Deciever in the crypt.|
 K Mirdoran the Fallen|QID|9170|QO|Mirdoran the Fallen slain: 1/1|M|37.1,79.1|N|Kill Mirdoran the Fallen.|
-C Apprentice Varnis|QID|9164|QO|Apprentice Varnis Rescued: 1/1|M|40.97,83.10|N|Go into the butchery and talk to Aprentive Varnis.|
+C Apprentice Varnis|QID|9164|QO|Apprentice Varnis Rescued: 1/1|M|37.88,84.40;40.97,83.10|N|Go into the butchery and talk to Aprentive Varnis.|
 K Borgoth the Bloodletter.|QID|9170|S|M|41,83.1;32.7,89.9|N|Borgoth can be in either butchery.|
 C Captives at Deatholme|QID|9164|M|32.8,89.3|N|Talk to Ranger Vedoran to rescue him.|
 C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|N|Masophet can be in either ziggurat..|
 K Borgoth the Bloodletter|QID|9170|US|QO|Borgoth the Bloodletter slain: 1/1|M|41,83.1;32.7,89.9|N|Borgoth can be in either butchery.|
 C The Traitor's Destruction|QID|9167|M|32.81,82.45|N|Dar'Khan is a 21 elite, he has 2-4 adds in the same room as him.  He likes fear now and then.  If you have help, or if you think you can solo him, go ahead.  If not, go ahead and skip, though the rewards are nice.|
+N Thalassian Pass|QID|9167|M|31.74,65.24;31.74,65.66|N|To get your exploration Acheivement, go here.|
 T The Traitor's Destruction|QID|9167|M|54.99,48.99|N|To Magister Kaendris.|
 A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|N|From Magister Kaendris.|
 T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|

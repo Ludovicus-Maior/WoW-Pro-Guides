@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-05-28 11:12
+-- Who: Ludovicus Maior
+-- Log: Coord/Zone tweaks
+
+-- URL: http://wow-pro.com/node/3199/revisions/24435/view
+-- Date: 2011-05-28 11:04
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3199/revisions/24319/view
 -- Date: 2011-04-29 15:27
 -- Who: Ludovicus Maior
 -- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].

@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-05-28 11:12
+-- Who: Ludovicus Maior
+-- Log: Coord/Zone tweaks
+
+-- URL: http://wow-pro.com/node/3199/revisions/24435/view
+-- Date: 2011-05-28 11:04
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3199/revisions/24319/view
 -- Date: 2011-04-29 15:27
 -- Who: Ludovicus Maior
 -- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
@@ -142,7 +151,7 @@ A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
 T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
-C The Burning Blade|QID|25232|M|53.16,40.44;54.55,38.59;53.57,36.02;51.85,26.27||N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
+C The Burning Blade|QID|25232|M|53.06,41.27;54.12,40.73;54.55,38.59;53.57,36.02;51.85,26.27||N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar. Go straight and jump down!|
 A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 
@@ -228,7 +237,7 @@ C Skull Rock|QID|25262|M|55.03,10.95;53.42,10.20|Z|Durotar|N|Gather 6 Searing Co
 T Skull Rock|QID|25262|M|56.41,20.05|Z|Durotar|N|To Margoz.|
 A Neeru Fireblade|QID|25263|PRE|25262|M|56.41,20.05|Z|Durotar|N|From Margoz.|
 
-T Neeru Fireblade|QID|25263|M|50.49,13.23;45.90,13.97;49.62,77.31;46.09,66.89;49.88,58.98|Z|Orgrimmar|N|To Neeru Fireblade.|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|
+T Neeru Fireblade|QID|25263|M|49.93,59.15|Z|The Cleft of Shadow|N|To Neeru Fireblade, in the Cleft of Shadow.|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|
 A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|Orgrimmar|N|If you plan on going to Northern Barrens next. From Neeru Fireblade.|
 
 h Valley of Wisdom|QID|25263|M|39.03,48.57|N|At Miwana.|N|You can choose another Inn in Org if it makes more sense.|

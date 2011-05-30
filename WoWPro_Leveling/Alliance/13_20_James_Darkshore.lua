@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2011-05-22 00:04
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3218/revisions/24294/view
 -- Date: 2011-04-29 14:23
 -- Who: Ludovicus Maior
 -- Log: Line 249 for step C has unknown tag [Follow Archaeologist Hollee.]
@@ -86,27 +90,27 @@ C The Boon of the Seas|QID|13520|M|49.56,18.48|N|Dive underwater and open Encrus
 C Buzzbox 413|QID|13521|M|47.13,18.26|N|Kill Corrupted Tide Crawlers.|
 C The Boon of the Seas|QID|13520|M|49.56,18.48|N|Dive underwater and open Encrusted Clams.|US|
 T The Boon of the Seas|QID|13520|M|50.93,18.75|N|To Serendia Oakwhisper.|
-T Buzzbox 413|QID|13521|M|53.23,19.58|
+T Buzzbox 413|QID|13521|M|53.23,19.58|N|To Buzzbox 413.|
 
-A No Accounting for Taste|QID|13527|M|53.23,19.58|
+A No Accounting for Taste|QID|13527|M|53.23,19.58|N|From Buzzbox 413.|
 C No Accounting for Taste|QID|13527|M|55.05,20.95|N|Loot the Decomposing Thistle Bear.|
 T No Accounting for Taste|QID|13527|M|51.18,19.59|N|To Wizbang Cranktoggle.|
 A Buzzbox 723|QID|13528|M|51.18,19.59|N|From Wizbang Cranktoggle.|
 C Buzzbox 723|QID|13528|M|55.64,25.15;54.89,27.76|N|Kill Corrupted Thistle Bears.|
-T Buzzbox 723|QID|13528|M|54.19,29.21|
-A A Cure In The Dark|QID|13554|M|54.19,29.21|
+T Buzzbox 723|QID|13528|M|54.19,29.21|N|To Buzzbox 723.|
+A A Cure In The Dark|QID|13554|M|54.19,29.21|N|From Buzzbox 723.|
 A The Corruption's Source|QID|13529|M|56.23,27.35;56.81,30.04|N|From Tharnariun Treetender.|
-K Vile Corruptors |QID|13557|L|44927|N|Enter the waterfall, and kill Vile Corruptors until one drops the Corruptor's Master Key.|
-A Bearer of Good Fortune|QID|13557|U|44927|M|57.02,31.46|N|Right click the Corruptor's Master Key to accept the quest.|
-C Bearer of Good Fortune|QID|13557|U|44925|M|57.50,32.41|N|Open the cages on the way.|S|
 C The Corruption's Source|QID|13529|M|58.75,32.64|N|Kill Vile Grells on the way.|S|
+l Corruptor's Master Key|QID|13557|L|44927|N|Enter the waterfall, and kill Vile Corruptors until one drops the Corruptor's Master Key.|
+A Bearer of Good Fortune|QID|13557|U|44927|M|57.02,31.46|N|Right click the Corruptor's Master Key to accept the quest.|
+C Bearer of Good Fortune|QID|13557|M|57.50,32.41|N|Open the cages on the way.|S|
 A A Troubling Prescription|QID|13831|M|56.78,33.47;57.37,33.80|N|From the Disgusting Workbench on lower level, first cave on left as you come down the ramp.|
-C The Corruption's Source|QID|13529|M|58.75,32.64|QO|Zenn Foulhoof slain: 1/1|N|Kill Zenn Foulhoof, you can locate him easily on your minimap by tracking the skull.|
-C Bearer of Good Fortune|QID|13557|U|44925|M|57.50,32.41|N|Open cages until you finish the quest.|US|
+K Zenn Foulhoof|QID|13529|M|58.75,32.64|QO|Zenn Foulhoof slain: 1/1|N|Kill Zenn Foulhoof, you can locate him easily on your minimap by tracking the skull.|
+C Bearer of Good Fortune|QID|13557|M|57.50,32.41|N|Open cages until you finish the quest.|US|
 C The Corruption's Source|QID|13529|M|58.75,32.64|N|Kill Vile Grells until you finish the quest.|US|
 C A Cure In The Dark|QID|13554|M|58.86,32.34|N|Kill Vile Grells and Vile Corruptors.|
 R Bashal'Aran Collapse|QID|28529|M|52.81,32.72|N|Head outside the cave, and jump into the 'Maw of the Void'.|
-l Writings of the Dark Herald|QID|28529|M|52.32,31.03|L|64450|N|Run up the ramp and kill Telarius Voidstrider.  Then loot the "Writings of the Dark Herald".
+l Writings of the Dark Herald|QID|28529|M|52.32,31.03|L|64450|N|Run up the ramp and kill Telarius Voidstrider. Then loot the "Writings of the Dark Herald".
 A Writings of the Void|QID|28529|U|64450|N|Accept the quest from the writings.|M|52.32,31.03
 
 H Lor'danel|QID|13554|U|6948|N|Hearth back to Lor'danel.|
@@ -126,19 +130,19 @@ A Solace for the Highborne|QID|13561|M|46.80,33.23|N|From Arya Autumnlight.|
 C The Final Flame of Bashal'Aran|QID|13562|NC|M|45.97,34.25|
 C Solace for the Highborne|QID|13561|M|47.27,34.59|N|Kill Cursed and Writhing Highbornes on the way.|S|
 C A Love Eternal|QID|13563|M|48.29,36.54|N|Kill Anaya Dawnrunner, loot her pendant.|
-C Solace for the Highborne|QID|13561|M|47.27,34.59|US|
+C Solace for the Highborne|QID|13561|M|47.27,34.59|US|N|Finish killing Cursed and Writhering Highbornes.|
 T Solace for the Highborne|QID|13561|M|46.76,33.28|N|To Arya Autumnlight.|
 
-C A Lost Companion|QID|13564|NC|M|43.00,38.86|
+C A Lost Companion|QID|13564|NC|M|43.00,38.86|N|Head to the waypoint to find Grimclaw.|
 T A Lost Companion|QID|13564|M|42.95,38.90|N|To Keeper Karithus.|
 A Unsavory Remedies|QID|13598|M|42.95,38.90|N|From Keeper Karithus.|
 A Ritual Materials|QID|13566|M|42.95,38.90|N|From Keeper Karithus.|
 A Twice Removed|QID|13565|M|42.95,38.90|N|From Seraphine.|
-C Ritual Materials|QID|13566|M|44.66,40.86|QO|Tuft of Mottled Doe Hair: 3/3;Thistle Bear Fur: 3/3|N|Right-click 3 Mottled Doe. Also right-click and/or kill Hungry Thistle Bears on the way.|S|
-C Unsavory Remedies|QID|13598|M|49.15,40.55|QO|Fuming Toadstool: 6/6|N|Loot Fuming Toadstools on the way.|S|
+l Tufts of Mottled Doe Hair|QID|13566|M|44.66,40.86|L|45027 3|N|Right-click 3 Mottled Doe.|
+C Unsavory Remedies|QID|13598|M|49.15,40.55|N|Loot Fuming Toadstools on the way.|S|
 C Twice Removed|QID|13565|U|45911|M|48.60,40.81|N|Use your Petrified Root everytime you kill a Darkscale Scout.|U|45911|
 C Unsavory Remedies|QID|13598|M|49.15,40.55|N|Loot Fuming Toadstools.|US|
-C Ritual Materials|QID|13566|M|47.44,38.42;45.26,41.09|QO|Tuft of Mottled Doe Hair: 3/3;Thistle Bear Fur: 3/3|US|
+l Thistle Bear Fur|QID|13566|M|48.88,37.95|L|45885 3|N|Wait until a Hungry Thistle Bear catches a fish, then click on it to get the fur.|
 C Ritual Materials|QID|13566|M|42.68,40.68;41.70,39.07|N|Right-click 3 Moonstalkers.|
 T Unsavory Remedies|QID|13598|M|42.96,39.11|N|To Keeper Karithus.|
 T Ritual Materials|QID|13566|M|42.96,39.11|N|To Keeper Karithus.|
@@ -150,7 +154,6 @@ A Grimclaw's Return|QID|13599|M|42.99,39.10|N|From Keeper Karithus.|
 L Level 15|QID|13560|LVL|15|N|You should be around level 15 by this point.|
 
 H Lor'danel|QID|13599|M|46.83,33.2|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|
-r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're done.|
 T Grimclaw's Return|QID|13599|M|50.88,18.20|N|To Serendia Oakwhisper.|
 T A Love Eternal|QID|13563|M|50.85,18.00|N|To Cerellean Whiteclaw.|
 T The Final Flame of Bashal'Aran|QID|13562|M|50.82,18.19|N|To Ranger Glynda Nal'Shea.|
@@ -167,9 +170,9 @@ A Shatterspear Laborers|QID|13504|M|58.93,19.49|N|From Sentinel Tysha Moonblade.
 C Shatterspear Laborers|QID|13504|M|60.55,22.17|N|Kill Shatterspear Laborers on the way.|S|
 C Remnants of the Highborne|QID|13505|M|60.43,21.54|N|Loot Highborne Relics on the way.|S|
 K Shatterspear Overseer |QID|13506|L|44979|M|60.67,17.74|N|Kill the Shatterspear Overseer and loot the Overseer's Orders|
-C Remnants of the Highborne|QID|13505|M|60.43,21.54|US|
-C Shatterspear Laborers|QID|13504|M|60.55,22.17|US|
 A Reason to Worry|QID|13506|U|44979|M|60.67,17.74|N|Start the quest from the Overseers Orders.|
+C Remnants of the Highborne|QID|13505|M|60.43,21.54|US|N|Finish looting Highborne Relics.|
+C Shatterspear Laborers|QID|13504|M|60.55,22.17|US|N|Finish killing Laborers.|
 T Reason to Worry|QID|13506|M|58.94,19.48|N|To Lieutenant Morra Starbreeze.|
 A Swift Response|QID|13508|M|58.94,19.48|N|From Lieutenant Morra Starbreeze.|
 T Remnants of the Highborne|QID|13505|M|58.93,19.49|N|To Balthule Shadowstrike.|
@@ -185,23 +188,23 @@ T Swift Response|QID|13508|M|63.77,6.04|N|To Alanndarian Nightsong.|
 A One Bitter Wish|QID|13511|M|63.77,6.04|N|From Alanndarian Nightsong.|
 C One Bitter Wish|QID|13511|M|64.15,5.31|N|Kill Rit'ko and loot his key.|
 A Timely Arrival|QID|13510|M|64.44,5.47|N|Open the cage to free Sentinel Aynasha, then accept her quest, you'll have to escort her.|
-C Timely Arrival|QID|13510|NC|M|60.58,6.97|
+C Timely Arrival|QID|13510|M|60.58,6.97|N|Excort Sentinel Aynasha to safety.|
 
-T One Bitter Wish|QID|13511|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
 C Denying Manpower|QID|13507|M|62.23,9.31|N|Kill the Trolls needed for the quest.|US|
 C War Supplies|QID|13509|U|44999|M|62.42,8.08|US|N|Use the Sentinel Torch to burn Shatterspear Armaments.|
+T One Bitter Wish|QID|13511|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
 T War Supplies|QID|13509|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
 T Timely Arrival|QID|13510|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
-T Denying Manpower|QID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|
+T Denying Manpower|QlID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|
 A Strategic Strikes|QID|13512|M|58.94,19.51|N|From Lieutenant Morra Starbreeze.|
 A On the Brink|QID|13513|M|58.94,19.51|N|From Balthule Shadowstrike.|
 A The Looting of Althalaxx|QID|13844|M|59.25,19.63|N|From Mathas Wildwood.|
 
 C On the Brink|QID|13513|M|57.33,25.86|N|Kill Shatterspear Shamans on the way and loot their amulets.|S|
 C The Looting of Althalaxx|QID|13844|M|58.28,24.01|N|Go inside the tower, find a Charred Book to the side halfway upstairs. Also Kill Teegan Holloway.|
-C Strategic Strikes|QID|13512|U|44995|M|56.80,25.88|QO|Lorenth Thundercall slain: 1/1|N|Use the Dryad Spear to kill him. Keep moving around to avoid the lightnings.|U|44995|
+K Lorenth Thundercall|QID|13512|U|44995|M|56.80,25.88|QO|Lorenth Thundercall slain: 1/1|N|Use the Dryad Spear to kill him. Keep moving around to avoid the lightnings.|U|44995|
 C Strategic Strikes|QID|13512|U|44995|M|61.24,20.76|QO|Sheya Stormweaver slain: 1/1|N|Use the Dryad Spear to kill her. You can hide behind pillars to avoid her bolts while your spear is on cooldown.|U|44995|
-C On the Brink|QID|13513|M|57.33,25.86|US|
+C On the Brink|QID|13513|M|57.33,25.86|US|N|Finish gathering Shatterspear Amulets.|
 T Strategic Strikes|QID|13512|M|58.88,19.47|N|To Lieutenant Morra Starbreeze.|
 T On the Brink|QID|13513|M|58.88,19.47|N|To Balthule Shadowstrike.|
 A The Front Line|QID|13590|M|58.88,19.47|N|From Lieutenant Morra Starbreeze.|
@@ -213,26 +216,27 @@ C The Ancients' Ire|QID|13514|M|69.44,19.54;70.26,20.33;71.05,17.89;70.67,17.07|
 T The Front Line|QID|13590|M|72.23,19.06|N|Leave the vehicle once you reach the location. Turn in to Huntress Sandrya Moonfall.|
 A Ending the Threat|QID|13515|M|72.23,19.06|N|From Huntress Sandrya Moonfall.|
 C Ending the Threat|QID|13515|M|72.21,19.06|N|Talk to Huntress Sandrya Moonfall and tell her you're ready, then help her kill Jor'kil the Soulripper. Loot Hellscream's Missive.|
+l Hellscream's Missive|QID|13591|M|72.21,19.06|N|Loot Jor'kil the Soulripper to get the missive.|L|46318|
 A Disturbing Connections|QID|13591|M|72.31,18.90|N|Right-click Hellscream's Missive and accept the quest.|U|46318|
 T Ending the Threat|QID|13515|M|72.35,18.87|N|To Huntress Sandrya Moonfall.|
 T The Ancients' Ire|QID|13514|M|69.14,19.25|N|To Kerlonian Evershade.|
 
 L Level 17|QID|13591|LVL|17|N|You should be around level 17 by this point.|
 
-H Lor'danel |QID|13554|U|6948|
-r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're done.|
+H Lor'danel|QID|13591|U|6948|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|
+r Sell Junk and Repair|QID|13591|M|50.76,19.24|N|Close this step when you're done.|
 T Disturbing Connections|QID|13591|M|50.65,19.65|N|To Ranger Glynda Nal'Shea.|
 A The Twilight's Hammer|QID|13519|M|50.31,20.29|N|From Sentinel Lendra.|
 A Twilight Plans|QID|13596|M|50.31,20.29|N|From Sentinel Lendra.|
 T Remembrance of Auberdine |QID|13570|M|50.13,19.45|N|To Cerellean Whiteclaw.|
 
 R Bashal'Aran|QID|13523|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|
-A Power Over the Tides|QID|13523|M|44.60,30.83|N|From Moon Priestess Tharill.|
 C Twilight Plans|QID|13596|M|45.10,30.34|N|Loot Twilight Plans, they're small glowing scrolls scattered across this camp.|S|
 C The Twilight's Hammer|QID|13519|M|44.11,32.22|N|Kill Twilight Fanatics.|S|
+A Power Over the Tides|QID|13523|M|44.60,30.83|N|From Moon Priestess Tharill.|
 K High Cultist Azerynn|QID|13519|M|43.66,31.36|QO|High Cultist Azerynn slain: 1/1|N|Kill High Cultist Azerynn.|
-C Power Over the Tides|QID|13523|U|44975|M|43.97,28.54|N|Kill Eneraged Tidal Spirits and use the Orb of Elune on their corpses.|
-C The Twilight's Hammer|QID|13519|M|44.11,32.22|US|
+C Power Over the Tides|QID|13523|U|44975|M|43.97,28.54|N|Kill Enraged Tidal Spirits and use the Orb of Elune on their corpses.|
+C The Twilight's Hammer|QID|13519|M|44.11,32.22|US|N|Kill Twilight Fanatics.|
 C Twilight Plans|QID|13596|M|45.10,30.34|N|Loot Twilight Plans you still need.|US|
 T Power Over the Tides|QID|13523|M|44.62,30.68|N|To Moon Priestess Tharill.|
 
@@ -247,8 +251,8 @@ T In Aid of the Refugees|QID|13601|M|42.61,45.05|N|To Priestess Alinya.|
 A Against the Wind|QID|13542|M|42.56,45.16|N|From Sentinel Selarin.|
 A Three Hammers to Break|QID|13543|M|42.63,45.16|N|From Corvine Moonrise.|
 A Malfurion's Return|QID|13573|M|42.63,45.16|N|From Corvine Moonrise.|
-A Coaxing the Spirits|QID|13547|M|39.08,43.13|N|From Yalda.|
 l Frienzied Cyclone Bracers|QID|13542|M|39.51,42.09|N|Kill Frenzied Cyclones to get their bracers.|L|44868 8|S|
+A Coaxing the Spirits|QID|13547|M|39.08,43.13|N|From Yalda.|
 A The Last Refugee|QID|13605|M|38.59,42.37|N|From Archaeologist Hollee.|
 N Coax Taldan's Spirit|QID|13547|M|38.54,41.89|N|Grab Taldan's Spirit when Archaeologist Hollee stops at his corpse.|QO|Taldan's spirit coaxed: 1/1|
 C The Last Refugee|QID|13605|NC|M|41.20,43.34|N|Follow Archaeologist Hollee.|
@@ -317,7 +321,7 @@ T Mounting the Offensive|QID|13902|M|45.25,75.12|N|To Balren of the Claw.|
 A Leave No Tracks|QID|13892|M|45.25,75.12|N|From Balren of the Claw.|
 A What's Happening to the Blackwood Furbolg?|QID|13525|M|45.19,75.16|N|From Foriel Broadleaf.|
 A Consumed|QID|13881|M|45.19,74.70|N|From Kathrena Winterwisp.|
-C Consumed|QID|13881|NC|M|45.89,78.78|
+C Consumed|QID|13881|M|45.03,79.2|N|Investigate the Watering Hole. Kill Consumed Thistle Bears.|
 T What's Happening to the Blackwood Furbolg?|QID|13525|M|43.54,80.94|N|To Elder Brolg.|
 A The Bear's Paw|QID|13526|M|43.54,80.94|N|From Elder Brolg.|
 l The Bear's Paw|QID|13526|M|44.99,88.61|N|Loot 8 of the Bear's Paws off of the ground.|L|44850 8|
@@ -334,7 +338,7 @@ T Consumed|QID|13881|M|45.19,74.69|N|To Kathrena Winterwisp.|
 T Stepping Up Surveillance|QID|13948|M|45.25,75.18|N|To Balren of the Claw.|
 A Unearthed Knowledge|QID|13896|M|45.28,75.05|N|From Larien.|
 A The Seeds of Life|QID|13882|M|45.19,74.69|N|From Kathrena Winterwisp.|
-N Seed of the Earth|QID|13882|M|45.35,74.87|N|Talk to Onu to get the Seed of the Earth.|QO|Seed of the Earth: 1/1|
+l Seed of the Earth|QID|13882|M|45.35,74.87|N|Talk to Onu to get the Seed of the Earth.|QO|Seed of the Earth: 1/1|
 r Sell junk, repair/restock.|M|45.31,74.67|QID|13882|
 
 N Seed of the Sky|QID|13882|M|42.06,78.96|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|QO|Seed of the Sky: 1/1|S|
@@ -343,7 +347,7 @@ A Cleansing the Afflicted|QID|13545|M|43.48,80.96|N|From Elder Brolg.|
 A Jadefire Braziers|QID|13572|M|43.57,80.95|N|From Gren Tornfur.|
 C Cleansing the Afflicted|QID|13545|U|44889|M|44.62,82.07|N|Use the Blessed Herb Bundle on the Furblogs and kill what spawns.|S|
 C Jadefire Braziers|QID|13572|M|44.36,84.07|N|Attack the braziers with the green fire to destroy them.|
-C Cleansing the Afflicted|QID|13545|U|44889|M|44.62,82.07|N|Use the Blessed Herb Bundle on the Furblogs and kill what spawns.|S|
+C Cleansing the Afflicted|QID|13545|U|44889|M|44.62,82.07|N|Use the Blessed Herb Bundle on the Furblogs and kill what spawns.|US|
 L Level 20|QID|13572|LVL|20|N|You should be around level 20 by this point.|
 T Jadefire Braziers|QID|13572|M|43.55,80.94|N|To Gren Tornfur.|
 T Cleansing the Afflicted|QID|13545|M|43.55,80.94|N|To Elder Brolg.|
@@ -357,18 +361,20 @@ A Soggoth and Kronn|QID|13893|M|37.69,82.74|N|From Archaeologist Groff.|
 A Sweeping Clean the Ruins|QID|13907|M|37.69,82.74|N|From Archaeologist Groff.|
 A Swamped Secrets|QID|13912|M|37.69,82.93|N|From Jr. Archaeologist Ferd.|
 A The Absent-Minded Prospector|QID|13911|M|37.69,82.93|N|From Prospector Remtravel. If he isn't there then someone else is doing the quest. Either wait or do part of the other quests.|
+C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|N|Kill murlocs to finish the quest.|S|
 C The Absent-Minded Prospector|QID|13911|NC|M|37.68,82.95|N|Follow him and protect him. Kill murlocs as you come across them.|
 T The Absent-Minded Prospector|QID|13911|M|37.73,82.95|N|To Jr. Archaeologist Ferd.|
 C Swamped Secrets|QID|13912|M|36.99,83.37|N|Go down into the water to get the disc.|
-C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|N|Kill murlocs to finish the quest.|
+C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|N|Kill murlocs to finish the quest.|US|
 T Swamped Secrets|QID|13912|M|37.70,82.90|N|To Jr. Archaeologist Ferd.|
 A The Titans' Terminal|QID|13918|M|37.70,82.90|N|From Jr. Archaeologist Ferd.|
 
 T Sweeping Clean the Ruins|QID|13907|M|37.70,82.90|N|To Archaeologist Groff.|
 A Got Some Flotsam?|QID|13909|M|37.70,82.90|N|From Archaeologist Groff.|
+C Got Some Flotsam?|QID|13909|M|37.16,86.91|N|Look all around the beach for the wreckage.|S|
 l The Titans' Terminal|QID|13918|U|46388|M|37.09,81.24|N|Use the detector, click on the mud piles, and then use it again till you have 5.|L|46702 5|
-U The Titans' Terminal|QID|13918|U|46702|M|37.09,81.24|N|Combine the fragments to complete the quest.
-C Got Some Flotsam?|QID|13909|M|37.16,86.91|N|Look all around the beach for the wreckage.|
+U The Titans' Terminal|QID|13918|U|46702|M|37.09,81.24|N|Combine the fragments to complete the quest.|L|46387|
+C Got Some Flotsam?|QID|13909|M|37.16,86.91|N|Look all around the beach for the wreckage.|US|
 T The Titans' Terminal|QID|13918|M|37.69,82.92|N|To Jr. Archaeologist Ferd.|
 T Got Some Flotsam?|QID|13909|M|37.68,82.78|N|To Archaeologist Groff.|
 A A New Home|QID|13910|M|37.68,82.78|N|From Archaeologist Groff.|
@@ -381,31 +387,32 @@ A An Ounce of Prevention|QID|13925|M|45.20,74.71|N|From Kathrena Winterwisp.|
 T Soggoth and Kronn|QID|13893|M|45.29,75.07|N|To Larien.|
 A The Slumbering Ancients|QID|13895|M|45.36,74.91|N|From Onu.|
 r Sell junk, repair/restock.|M|45.31,74.67|QID|13925|
-C An Ounce of Prevention|QID|13925|U|46363|M|45.79,76.48|
+C An Ounce of Prevention|QID|13925|U|46363|M|45.79,76.48|N|Find a healthy Grizzled Thislte Bear, Whitetail Stag or a Moonstalker Matriarch/Sire and use the sapling on it.|
 T An Ounce of Prevention|QID|13925|M|45.19,74.70|N|To Kathrena Winterwisp.|
 A In Defense of Darkshore|QID|13885|M|45.19,74.70|N|From Kathrena Winterwisp.|
 T The Slumbering Ancients|QID|13895|M|45.67,71.72|N|To Aros.|
-C In Defense of Darkshore|QID|13885|M|44.46,75.31|N|Talk to Orseus, and choose to use a Hippogryph. Use the #1 ability on the stags, Moongrazers and bears.|
-T In Defense of Darkshore|QID|13885|M|45.20,74.69|N|To Kathrena Winterwisp.|
-A The Devourer of Darkshore|QID|13891|M|45.20,74.69|N|From Kathrena Winterwisp.|
-C The Devourer of Darkshore|QID|13891|U|46370|M|44.97,78.70|
-T The Devourer of Darkshore|QID|13891|M|45.18,74.69|N|To Kathrena Winterwisp.|
-
-L Level 21|QID|13918|LVL|21|N|You should be around level 21 by this point.|
 A Naga In Our Midst|QID|13953|M|45.63,71.70|N|From Darkscale Assassin.|
 T Naga In Our Midst|QID|13953|M|45.27,75.10|N|To Balren of the Claw.|
 A The Darkscale Warlord|QID|13899|M|45.27,75.10|N|From Balren of the Claw.|
 A The Tides Turn Against Us|QID|13898|M|45.27,75.10|N|From Felros.|
-C The Tides Turn Against Us|QID|13898|M|31.19,84.20|N|Go into the cave and kill nagas as you go.|
-T The Darkscale Warlord|QID|13899|M|32.27,85.30|N|To Warlord Wrathspine.|
-A The Offering to Azshara|QID|13900|M|32.25,85.13|N|From Warlord Wrathspine.|
-C The Offering to Azshara|QID|13900|M|32.57,84.61|N|Go out of the cave and head to on top of it.  Kill the naga surrounding the horn.|
+C In Defense of Darkshore|QID|13885|M|44.46,75.31|N|Talk to Orseus, and choose to use a Hippogryph. Use the #1 ability on the stags, Moongrazers and bears.|
+T In Defense of Darkshore|QID|13885|M|45.20,74.69|N|To Kathrena Winterwisp.|
+A The Devourer of Darkshore|QID|13891|M|45.20,74.69|N|From Kathrena Winterwisp.|
+C The Devourer of Darkshore|QID|13891|U|46370|M|44.97,78.70|N|Go to the pond and use the Lifebringer Sapling, then kill what spawns.|
+T The Devourer of Darkshore|QID|13891|M|45.18,74.69|N|To Kathrena Winterwisp.|
+
+L Level 21|QID|13918|LVL|21|N|You should be around level 21 by this point.|
+C The Tides Turn Against Us|QID|13898|M|31.19,84.20|N|Go into the cave and kill Naga Myrmidons as you go.|S|
+T The Darkscale Warlord|QID|13899|M|32.27,85.30|N|Kill Warlord Wrathspine, and turn this quest into his corpse.|
+A The Offering to Azshara|QID|13900|M|32.25,85.13|N|From the corpse of Warlord Wrathspine.|
+C The Offering to Azshara|QID|13900|M|32.57,84.61|N|Go out of the cave and head to on top of it. Kill the naga surrounding the horn.|
 T The Offering to Azshara|QID|13900|M|32.81,84.23|N|To Malfurion Stormrage.|
 A The Battle for Darkshore|QID|13897|M|32.83,84.30|N|From Malfurion Stormrage.|
+C The Tides Turn Against Us|QID|13898|M|31.19,84.20|N|Finish killing Nagas Myrmidon.|US|
 C The Battle for Darkshore|QID|13897|U|58365|M|40.12,83.91|N|Head to The Master's Glave.  Target the Avatar of Soggoth, use the horn then help kill it.|
 T The Tides Turn Against Us|QID|13898|M|45.32,75.09|N|To Felros.|
 T The Battle for Darkshore|QID|13897|M|45.32,75.09|N|To Balren of the Claw.|
 A Ashes in Ashenvale|QID|26408|M|45.32,75.09|N|From Balren of the Claw.|
-N Fly to Lor'danel or Darnassus|N|To visit your trainers, AH, etc.  Right click the box of this step to continue.|
+N Fly to Lor'danel or Darnassus|N|To visit your trainers, AH, etc. Right click the box of this step to continue.|
 ]]
 end)

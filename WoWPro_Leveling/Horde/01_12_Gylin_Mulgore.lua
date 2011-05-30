@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2011-05-28 11:06
+-- Who: Ludovicus Maior
+-- Log: Race tags needed updating.
+
+-- URL: http://wow-pro.com/node/3203/revisions/24355/view
 -- Date: 2011-04-29 18:19
 -- Who: Ludovicus Maior
 -- Log: Change O step to N step.
@@ -140,14 +145,14 @@ A Sharing the Land|QID|14438|M|47.70,59.66|Z|Mulgore|N|From Ahmo Thunderhorn. NO
 h Bloodhoof Village|QID|14438|M|46.85,60.38|Z|Mulgore|N|At Innkeeper Kauth.|
 N Sell junk|QID|14438|M|46.85,60.36|Z|Mulgore|
 B Train First Aid|QID|14438|M|46.94,60.29|Z|Mulgore|N|Train the secondary profession "First Aid" if you want to.|
-A Poison Water|QID|20440|M|48.68,59.76|Z|Mulgore|R|Tauren,BloodElf|N|From Mull Thunderhorn.|
+A Poison Water|QID|20440|M|48.68,59.76|Z|Mulgore|R|Tauren|N|From Mull Thunderhorn.|
 A Swoop Hunting|QID|761|M|48.71,58.82|Z|Mulgore|N|From Harken Windtotem.|
 A Kyle's Gone Missing!|QID|11129|M|48.34,53.18|Z|Mulgore|N|From Ahab Wheathoof.|
 C Tender Strider Meat|S|QID|11129|Z|Mulgore|N|Kill any Plainstrider you see, until you have a Tender Strider Meat.|L|33009 1|
-C Poison Water|S|QID|20440|Z|Mulgore|R|Tauren,BloodElf|N|Kill any Plainstriders and Praire Wolves you see.|
+C Poison Water|S|QID|20440|Z|Mulgore|R|Tauren|N|Kill any Plainstriders and Praire Wolves you see.|
 C Swoop Hunting|S|QID|761|Z|Mulgore|N|Kill any Swoops you see.|
 C Sharing the Land|QID|14438|M|48.40,70.71|Z|Mulgore|N|Kill Gnolls around the camp and in the cave behind it.|
-C Poison Water|US|QID|20440|Z|Mulgore|R|Tauren,BloodElf|N|Kill any Plainstriders and Praire Wolves you see.|
+C Poison Water|US|QID|20440|Z|Mulgore|R|Tauren|N|Kill any Plainstriders and Praire Wolves you see.|
 C Swoop Hunting|US|QID|761|Z|Mulgore|N|Kill any Swoops you see.|
 H Hearth to Bloodhoff Village|QID|14438|M|48.19,59.59|Z|Mulgore|N|Hearth to Bloodhoof Village, and sell any junk you might have to Innkeeper Kauth.|
 
@@ -157,18 +162,18 @@ T Sharing the Land|QID|14438|M|47.60,59.58|Z|Mulgore|N|To Ahmo Thunderhorn.|
 A The Restless Earth|QID|14491|M|47.60,59.58|Z|Mulgore|N|From Ahmo Thunderhorn.|
 A Morin Cloudstalker|QID|24459|M|47.54,59.56|Z|Mulgore|N|From Ahmo Thunderhorn.|
 A Dangers of the Windfury|QID|743|M|47.51,61.22|Z|Mulgore|N|From Ruul Eagletalon.|
-T Poison Water|QID|20440|M|48.57,59.88|Z|Mulgore|R|Tauren,BloodElf|N|To Mull Thunderhorn.|
-A Winterhoof Cleansing|QID|24440|M|48.58,59.88|Z|Mulgore|R|Tauren,BloodElf|N|From Mull Thunderhorn.|
+T Poison Water|QID|20440|M|48.57,59.88|Z|Mulgore|R|Tauren|N|To Mull Thunderhorn.|
+A Winterhoof Cleansing|QID|24440|M|48.58,59.88|Z|Mulgore|R|Tauren|N|From Mull Thunderhorn.|
 T Swoop Hunting|QID|761|M|48.76,58.89|Z|Mulgore|N|To Harken Windtotem.|
 A Mazzranache|QID|26188|M|47.24,56.75|Z|Mulgore|N|From Maur Raincaller.|
 
-C Winterhoof Cleansing|NC|QID|24440|M|53.41,65.16|Z|Mulgore|R|Tauren,BloodElf|N|
-T Winterhoof Cleansing|QID|24440|M|48.69,59.92|Z|Mulgore|R|Tauren,BloodElf|N|To Mull Thunderhorn.|
-A Thunderhorn Totem|QID|24441|M|48.69,59.92|Z|Mulgore|R|Tauren,BloodElf|N|From Mull Thunderhorn.|
+C Winterhoof Cleansing|NC|QID|24440|M|53.41,65.16|Z|Mulgore|R|Tauren|N|
+T Winterhoof Cleansing|QID|24440|M|48.69,59.92|Z|Mulgore|R|Tauren|N|To Mull Thunderhorn.|
+A Thunderhorn Totem|QID|24441|M|48.69,59.92|Z|Mulgore|R|Tauren|N|From Mull Thunderhorn.|
 
 T Morin Cloudstalker|QID|24459|M|57.12,60.48|Z|Mulgore|N|To Morin Cloudstalker.|
 A The Ravaged Caravan|QID|749|M|57.12,60.48|Z|Mulgore|N|From Morin Cloudstalker.|
-C Cougars and Stalkers|S|QID|24441|Z|Mulgore|R|Tauren,BloodElf|N|Kill any of these you see for claws.|QO|Stalker Claws: 6/6;Cougar Claws: 6/6;|
+C Cougars and Stalkers|S|QID|24441|Z|Mulgore|R|Tauren|N|Kill any of these you see for claws.|QO|Stalker Claws: 6/6;Cougar Claws: 6/6;|
 C Mazzranache|S|QID|26188|Z|Mulgore|N|Kill Flatland Cougars you see until you get a femur|QO|Flatland Cougar Femur: 1/1|
 T The Ravaged Caravan|QID|749|M|53.57,48.34|Z|Mulgore|N|At the Sealed Supply Crate.|
 A The Ravaged Caravan|QID|751|M|53.57,48.34|Z|Mulgore|N|From the Sealed Supply Crate.|
@@ -178,7 +183,7 @@ A Supervisor Fizsprocket|QID|26180|M|57.05,60.24|Z|Mulgore|N|From Morin Cloudsta
 C The Venture Co.|S|QID|26179|Z|Mulgore|N|Kill Workers as you make your way up the hill to the mine.|QO|Venture Co. Worker slain: 7/7|
 K Supervisor Fizsprocket|QID|26180|M|60.92,47.07|Z|Mulgore|N|Kill Supervisor Fizsprocket inside the mine and loot his clipboard.|T|Supervisor Fizsprocket|QO|Fizsprocket's Clipboard: 1/1|
 C The Venture Co.|US|QID|26179|Z|Mulgore|N|Kill Workers you still need as you make your way back down the hill.|QO|Venture Co. Worker slain: 7/7|
-C Cougars and Stalkers|US|QID|24441|Z|Mulgore|R|Tauren,BloodElf|N|Kill any of these you see, if you still need claws and a femur.|QO|Stalker Claws: 6/6;Cougar Claws: 6/6;|
+C Cougars and Stalkers|US|QID|24441|Z|Mulgore|R|Tauren|N|Kill any of these you see, if you still need claws and a femur.|QO|Stalker Claws: 6/6;Cougar Claws: 6/6;|
 C Mazzranache|S|QID|26188|Z|Mulgore|N|Kill Flatland Cougars you see until you get a femur|QO|Flatland Cougar Femur: 1/1|
 C Tender Strider Meat|US|QID|11129|Z|Mulgore|N|Kill any Plainstrider you see, until you have a Tender Strider Meat.|L|33009 1|
 T The Venture Co.|QID|26179|M|57.06,60.32|Z|Mulgore|N|To Morin Cloudstalker.|
@@ -186,12 +191,12 @@ T Supervisor Fizsprocket|QID|26180|M|57.06,60.32|Z|Mulgore|N|To Morin Cloudstalk
 H Hearth to Bloodhoof Village|QID|26180|M|56.11,59.37|Z|Mulgore|
 
 C Kyle's Gone Missing!|NC|S|QID|11129|Z|Mulgore|U|33009|T|Kyle the Frenzied|N|While in Bloodhoof Village turning in your quests, keep a look out for Kyle the Frenzied running around. Target him and place the Tender Strider Meat on the ground.|
-T Thunderhorn Totem|QID|24441|M|48.59,59.89|Z|Mulgore|R|Tauren,BloodElf|N|To Mull Thunderhorn.|
-A Thunderhorn Cleansing|QID|24456|M|48.59,59.89|Z|Mulgore|R|Tauren,BloodElf|N|From Mull Thunderhorn.|
+T Thunderhorn Totem|QID|24441|M|48.59,59.89|Z|Mulgore|R|Tauren|N|To Mull Thunderhorn.|
+A Thunderhorn Cleansing|QID|24456|PRE|24441|M|48.59,59.89|Z|Mulgore|R|Tauren|N|From Mull Thunderhorn.|
 T Mazzranache|QID|26188|M|47.18,56.76|Z|Mulgore|N|To Maur Raincaller.|
 C Kyle's Gone Missing!|NC|US|QID|11129|M|47.18,56.76|Z|Mulgore|U|33009|T|Kyle the Frenzied|N|Wait here until you see Kyle the Frenzied. Target him and place the Tender Strider Meat on the ground.|
 T Kyle's Gone Missing!|QID|11129|M|48.31,53.17|Z|Mulgore|N|To Ahab Wheathoof.|
-C Thunderhorn Cleansing|NC|QID|24456|M|44.98,45.25|Z|Mulgore|R|Tauren,BloodElf|N|Use the Thunderhorn Cleansing Totem at the well.|U|5415|QO|Well Cleansed|
+C Thunderhorn Cleansing|NC|QID|24456|M|44.98,45.25|Z|Mulgore|R|Tauren|N|Use the Thunderhorn Cleansing Totem at the well.|U|5415|QO|Well Cleansed|
 C The Restless Earth|QID|14491|U|49647|QO|Spirits Calmed: 6/6|M|32.76,48.97|Z|Mulgore|N|Play the Drums of the Soothed Earth to the Agitated Earth Spirits. They will charge at you and either become calmed or displeased, in which case they will attack you.|
 C Dangers of the Windfury|QID|743|M|63.43,68.61|Z|Mulgore|
 H Hearth to Bloodhoof Village|QID|26180|M|32.76,48.97|Z|Mulgore|N|Hearth to Bloodhoof Village, and sell any junk you might have to Innkeeper Kauth.|
@@ -200,13 +205,13 @@ L Level 9|QID|24456|LVL|9|N|You should be around level 9 by this point.|
 
 T Dangers of the Windfury|QID|743|M|47.51,61.22|Z|Mulgore|N|To Ruul Eagletalon.|
 T The Restless Earth|QID|14491|M|47.60,59.58|Z|Mulgore|N|To Ahmo Thunderhorn.|
-T Thunderhorn Cleansing|QID|24456|M|48.55,59.79|Z|Mulgore|R|Tauren,BloodElf|N|To Mull Thunderhorn.|
-A Rite of Vision|QID|24457|M|48.55,59.79|Z|Mulgore|R|Tauren,BloodElf|N|From Mull Thunderhorn.|
-T Rite of Vision|QID|24457|M|47.86,57.21|Z|Mulgore|R|Tauren,BloodElf|N|To Zarlman Two-Moons.|
-A Rite of Vision|QID|20441|M|47.86,57.21|Z|Mulgore|R|Tauren,BloodElf|N|From Zarlman Two-Moons.|
-C Rite of Vision|NC|QID|20441|R|Tauren,BloodElf|N|Drink the Water of Vision to become a Wolf Spirit and travel to Camp Sungraze.|U|49651|
+T Thunderhorn Cleansing|QID|24456|M|48.55,59.79|Z|Mulgore|R|Tauren|N|To Mull Thunderhorn.|
+A Rite of Vision|QID|24457|M|48.55,59.79|Z|Mulgore|R|Tauren|N|From Mull Thunderhorn.|
+T Rite of Vision|QID|24457|M|47.86,57.21|Z|Mulgore|R|Tauren|N|To Zarlman Two-Moons.|
+A Rite of Vision|QID|20441|M|47.86,57.21|Z|Mulgore|R|Tauren|N|From Zarlman Two-Moons.|
+C Rite of Vision|NC|QID|20441|R|Tauren|N|Drink the Water of Vision to become a Wolf Spirit and travel to Camp Sungraze.|U|49651|
 
-T Rite of Vision|QID|20441|M|49.37,17.49|Z|Mulgore|R|Tauren,BloodElf|N|To Una Wildmane.|
+T Rite of Vision|QID|20441|M|49.37,17.49|Z|Mulgore|R|Tauren|N|To Una Wildmane.|
 A Wildmane Totem|QID|24523|M|49.37,17.49|Z|Mulgore|R|Tauren|N|From Una Wildmane.|
 A Rite of Wisdom|QID|773|M|49.48,17.21|Z|Mulgore|N|From Lorekeeper Raintotem.|
 A A Sacred Burial|QID|833|M|49.48,17.21|Z|Mulgore|N|From Lorekeeper Raintotem.|
@@ -233,18 +238,18 @@ T Wildmane Cleansing|QID|24524|M|49.31,17.34|Z|Mulgore|R|Tauren|N|To Una Wildman
 A Journey into Thunder Bluff|QID|24550|M|49.31,17.34|R|Tauren|Z|Mulgore|N|From Una Wildmane.|
 H Hearth to Bloodhoof Village|QID|24550|
 
-A A Bundle of Hides|QID|6361|M|46.11,58.17|Z|Mulgore|R|Tauren,BloodElf|N|From Varg Windwhisper.|
-f Bloodhoof Village|QID|6361|M|47.41,58.68|Z|Mulgore|R|Tauren,BloodElf|N|At Tak.|
-T A Bundle of Hides|QID|6361|M|47.41,58.68|Z|Mulgore|R|Tauren,BloodElf|N|To Tak.|
-A Ride to Thunder Bluff|QID|6362|M|47.41,58.68|Z|Mulgore|R|Tauren,BloodElf|N|From Tak.|
-F Fly to Thunder Bluff|QID|24550|M|42.48,28.66|R|Tauren,BloodElf|
+A A Bundle of Hides|QID|6361|M|46.11,58.17|Z|Mulgore|R|Tauren|N|From Varg Windwhisper.|
+f Bloodhoof Village|QID|6361|M|47.41,58.68|Z|Mulgore|R|Tauren|N|At Tak.|
+T A Bundle of Hides|QID|6361|M|47.41,58.68|Z|Mulgore|R|Tauren|N|To Tak.|
+A Ride to Thunder Bluff|QID|6362|M|47.41,58.68|Z|Mulgore|R|Tauren|N|From Tak.|
+F Fly to Thunder Bluff|QID|24550|M|42.48,28.66|R|Tauren|
 
 N Buy a Thunder Bluff Tabard|QID|6362|M|39.73,29.46|N|If you plan on doing instances to raise your reputation with Thunder Bluff, you can buy a tabard here from Brave Tuha.|
-T Ride to Thunder Bluff|QID|6362|M|45.32,55.69|Z|Thunder Bluff|R|Tauren,BloodElf|N|To Ahanu. Go to the bottom of the ramp then outside, Ahanu is in the 1st building on the left.|
-A Tal the Wind Rider Master|QID|6363|M|45.32,55.69|Z|Thunder Bluff|R|Tauren,BloodElf|N|From Ahanu.|
+T Ride to Thunder Bluff|QID|6362|M|45.32,55.69|Z|Thunder Bluff|R|Tauren|N|To Ahanu. Go to the bottom of the ramp then outside, Ahanu is in the 1st building on the left.|
+A Tal the Wind Rider Master|QID|6363|M|45.32,55.69|Z|Thunder Bluff|R|Tauren|N|From Ahanu.|
 A Warchief's Command: Azshara!|QID|28496|M|42.75,57.29|Z|Thunder Bluff|N|From the Signboard.|
-T Tal the Wind Rider Master|QID|6363|M|46.69,49.82|Z|Thunder Bluff|R|Tauren,BloodElf|N|To Tal.|
-A Return to Varg|QID|6364|M|46.69,49.82|Z|Thunder Bluff|R|Tauren,BloodElf|N|From Tal.|
+T Tal the Wind Rider Master|QID|6363|M|46.69,49.82|Z|Thunder Bluff|R|Tauren|N|To Tal.|
+A Return to Varg|QID|6364|M|46.69,49.82|Z|Thunder Bluff|R|Tauren|N|From Tal.|
 T Journey into Thunder Bluff|QID|24550|M|59.90,51.68|Z|Thunder Bluff|R|Tauren|N|To Baine Bloodhoof. 3rd level.|
 A War Dance|QID|24540|M|59.90,51.68|Z|Thunder Bluff|R|Tauren||N|From Baine Bloodhoof.|
 A Enemies Below|QID|26866|M|59.90,51.68|Z|Thunder Bluff|N|From Baine Bloodhoof. This is a quest for Ragefire Chasm dungeon in Orgimmar.|
@@ -257,7 +262,7 @@ R War Dance|CC|QID|24540|M|38.23,14.22|R|Tauren|N|Run to Stonetalon Pass and sta
 C War Dance|QID|24540|M|37.19,13.06|Z|Mulgore|R|Tauren|
 H Hearth to Bloodhoof Village|QID|24540|M|42.52,28.66|R|Tauren|
 
-T Return to Varg|QID|6364|M|46.14,58.20|Z|Mulgore|R|Tauren,BloodElf|N|To Varg Windwhisper.|
+T Return to Varg|QID|6364|M|46.14,58.20|Z|Mulgore|R|Tauren|N|To Varg Windwhisper.|
 F Fly to Thunder Bluff|QID|24540|M|42.52,28.66|R|Tauren|
 
 T War Dance|QID|24540|M|59.88,51.62|Z|Thunder Bluff|R|Tauren|N|To Baine Bloodhoof.|

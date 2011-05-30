@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2011-05-28 11:08
+-- Who: Ludovicus Maior
+-- Log: Race tags needed updates.
+
+-- URL: http://wow-pro.com/node/3205/revisions/24316/view
 -- Date: 2011-04-29 15:20
 -- Who: Ludovicus Maior
 
@@ -59,14 +64,14 @@ A Beyond the Graves|QID|25089|M|30.65,71.40|R|Undead|N|From Caretaker Caice.|
 T Those That Couldn't Be Saved|QID|26799|M|30.10,71.30|R|Undead|N|To Undertaker Mordo.|
 T Beyond the Graves|QID|25089|M|31.74,65.66|R|Undead|N|To Deathguard Saltain.|
 
-A Recruitment|QID|26800|M|31.74,65.66|N|From Deathguard Saltain.|
+A Recruitment|QID|26800|M|31.74,65.66|R|Undead|N|From Deathguard Saltain.|
 A Scourge on our Perimeter|QID|26801|M|30.86,66.20|N|From Shadow Priest Sarvis.|
 
 C Scourge on our Perimeter|QID|26801|S|M|32.00,62.01|N|Kill zombies and skeletons.|
-C Recruitment|QID|26800|NC|M|32.57,64.19|N|Right-click on bodies to tell your companion to collect them.|
+C Recruitment|QID|26800|NC|M|32.57,64.19|R|Undead|N|Right-click on bodies to tell your companion to collect them.|
 C Scourge on our Perimeter|QID|26801|US|M|32.00,62.01|N|Kill zombies and skeletons.|
 
-T Recruitment|QID|26800|M|31.63,65.61|N|To Deathguard Saltain.|
+T Recruitment|QID|26800|M|31.63,65.61|R|Undead|N|To Deathguard Saltain.|
 T Scourge on our Perimeter|QID|26801|M|30.87,66.19|N|To Shadow Priest Sarvis.|
 
 L Level 3|QID|26801|LVL|3|N|You should be around level 3 by this point.|
@@ -125,19 +130,19 @@ L Level 4|QID|24973|LVL|4|N|You should be around level 4 by this point.|
 C Night Web's Hollow|QID|24973|M|27.86,58.61|N|Kill spiders over at the mine.|
 T Night Web's Hollow|QID|24973|M|32.97,61.09|N|To Executor Arren.|
 
-A No Better Than the Zombies|QID|24970|M|32.97,61.09|R|Undead|N|From Executor Arren.|
-T No Better Than the Zombies|QID|24970|M|35.74,62.19|R|Undead|N|To Darnell.|
+A No Better Than the Zombies|QID|24970|M|32.97,61.09|N|From Executor Arren.|
+T No Better Than the Zombies|QID|24970|M|35.74,62.19|N|To Darnell.|
 
-A Assault on the Rotbrain Encampment|QID|24971|M|35.74,62.19|R|Undead|N|From Darnell.|
-C Assault on the Rotbrain Encampment|QID|24971|M|36.63,68.78|R|Undead|N|Kill the hostile undead, and Marshal Redpath.|
-T Assault on the Rotbrain Encampment|QID|24971|M|30.88,66.20|R|Undead|N|To Shadow Priest Sarvis.|
+A Assault on the Rotbrain Encampment|QID|24971|M|35.74,62.19|N|From Darnell.|
+C Assault on the Rotbrain Encampment|QID|24971|M|36.63,68.78|N|Kill the hostile undead, and Marshal Redpath.|
+T Assault on the Rotbrain Encampment|QID|24971|M|30.88,66.20|N|To Shadow Priest Sarvis.|
 
-A Vital Intelligence|QID|24972|M|30.88,66.20|R|Undead|N|From Shadow Priest Sarvis.|
+A Vital Intelligence|QID|24972|M|30.88,66.20|N|From Shadow Priest Sarvis.|
 
 L Level 5|QID|24971|LVL|5|N|You should be around level 5 by this point.|
 
 R Calston Estate|QID|24978|M|44.70,53.60|N|Follow the road out of Deathknell.|
-T Vital Intelligence|QID|24972|M|44.70,53.60|R|Undead|N|To Deathguard Simmer.|
+T Vital Intelligence|QID|24972|M|44.70,53.60|N|To Deathguard Simmer.|
 
 A Reaping the Reapers|QID|24978|M|44.70,53.60|N|From Deathguard Simmer.|
 A Fields of Grief|QID|24975|M|44.61,53.76|N|From Apothecary Johaan.|
@@ -196,7 +201,7 @@ R Brill|QID|24982|M|58.83,51.93|N|Follow the road east.|
 
 f Brill|QID|24982|M|58.83,51.93|N|At Anette Williams.|
 
-A Supplying Brill|QID|6321|M|60.15,52.40|N|From Deathguard Morris.|
+A Supplying Brill|QID|6321|M|60.15,52.40|R|Undead|N|From Deathguard Morris.|
 T Gordo's Task|QID|25038|M|60.11,52.65|N|To Junior Apothecary Holland.|
 
 A Darkhound Pounding|QID|24990|M|60.11,52.65|N|From Junior Apothecary Holland.|
@@ -207,7 +212,7 @@ h Brill|QID|24981|M|60.87,51.55|N|At Innkeeper Renee.|
 T The New Forsaken|QID|24982|M|60.95,50.58|N|To Magistrate Sevren, upstairs at the inn.|
 
 A Forsaken Duties|QID|24983|M|60.95,50.58|N|From Magistrate Sevren.|
-T Supplying Brill|QID|6321|M|58.87,51.96|N|To Anette Williams.|
+T Supplying Brill|QID|6321|M|58.87,51.96|R|Undead|N|To Anette Williams.|
 
 A Ride to the Undercity|QID|6323|M|58.87,51.96|R|Undead,Troll|N|From Anette Williams.|
 
@@ -215,14 +220,14 @@ F Undercity|QID|6323|M|58.87,51.96|R|Undead,Troll|N|Talk to Anette Williams.|
 
 T Ride to the Undercity|QID|6323|M|61.63,41.87|Z|Undercity|R|Undead,Troll|N|To Gordon Wendham.|
 
-A Michael Garrett|QID|6322|M|61.63,41.87|Z|Undercity|R|Undead,Troll|N|From Gordon Wendham.|
-T Michael Garrett|QID|6322|M|63.21,48.30|Z|Undercity|R|Undead,Troll|N|To Michael Garrett.|
+A Michael Garrett|QID|6322|M|61.63,41.87|Z|Undercity|R|Undead|N|From Gordon Wendham.|
+T Michael Garrett|QID|6322|M|63.21,48.30|Z|Undercity|R|Undead|N|To Michael Garrett.|
 
-A Return to Morris|QID|6324|M|63.21,48.30|Z|Undercity|R|Undead,Troll|N|From Michael Garrett.|
+A Return to Morris|QID|6324|M|63.21,48.30|Z|Undercity|R|Undead|N|From Michael Garrett.|
 
-F Brill|QID|6324|M|63.21,48.30|Z|Undercity|R|Undead,Troll|N|Talk to Michael Garrett.|
+F Brill|QID|6324|M|63.21,48.30|Z|Undercity|R|Undead|N|Talk to Michael Garrett.|
 
-T Return to Morris|QID|6324|M|60.15,52.33|R|Undead,Troll|N|To Deathguard Morris.|
+T Return to Morris|QID|6324|M|60.15,52.33|R|Undead|N|To Deathguard Morris.|
 T Forsaken Duties|QID|24983|M|65.41,60.22|N|To Deathguard Linnea.|
 
 A The Chill of Death|QID|24988|M|65.29,60.39|N|From Gretchen Dedmar.|

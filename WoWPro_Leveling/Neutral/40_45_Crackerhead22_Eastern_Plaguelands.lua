@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_alliance
+-- Date: 2011-05-28 04:04
+-- Who: Crackerhead22
+-- Log: Put faction tags back in.
+
+-- URL: http://wow-pro.com/node/3251/revisions/24401/view
 -- Date: 2011-05-17 01:57
 -- Who: Ludovicus Maior
 
@@ -37,13 +42,13 @@
 WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548|LiaBad4548', 'Neutral', function()
 return [[
 
-A Hero's Call: Eastern Plaguelands!|QID|28578|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|
-F Chillwind Camp|M|71.56,71.68|Z|Stormwind City|N|Fly to Chillwind Camp.|
-A Into the Woods|QID|27683|M|42.97,83.55|Z|Western Plaguelands|N|From Argent Officer Pureheart at Chillwind Camp.|
+F The Mender's Stand|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Fly to The Mender's Stand.|FACTION|Alliance|
+F The Mender's Stand|QID|27683|M|46.6,64.6|Z|Western Plaguelands|N|Fly to The Mender's Stand.|FACTION|Horde|
+A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.|
 R Thondroril River|QID|27683|M|69.69,50.25|Z|Western Plaguelands|N|Run to Thondroril River, or fly if you have the flight point.|
 
 T Into the Woods|QID|27683|M|9.02,66.40|N|To Fiona.|
-T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.40|N|To Fiona.|
+T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.40|O|N|To Fiona.|
 A Gidwin Goldbraids|QID|27367|M|9.02,66.40|N|From Fiona.|
 A Tarenar Sunstrike|QID|27370|M|9.02,66.40|N|From Fiona.|
 f Get flightpoint.|QID|27367|M|10.02,65.70|N|At Frax Bucketdrop.|
@@ -218,13 +223,13 @@ T Like Rats|QID|27620|M|75.66,52.18|N|To Leonid Barthalomew the Revered.|
 T Gathering Some Grub(s)|QID|27456|M|73.86,51.96|N|To Rimblat Earthshatter.|
 r Sell junk, repair/restock.|QID|27458|M|75.16,53.69|
 C Smokey and the Bandage|QID|27458|L|62028 1|M|71.58,46.38|N|Kill Stephen Browman to get "Browman's Wrappings".|
-C Buried Blades|QID|27467|S|M|76.20,39.41|N| Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|
+C Buried Blades|QID|27467|S|M|76.20,39.41|N|Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|
 C Argent Call: The Noxious Glade|QID|27465|M|77.35,39.07|N|Watch out for Garginox, a level 45 elite.|
 T Smokey and the Bandage|QID|27458|M|74.94,53.36|N|To Smokey LaRue.|
 T Buried Blades|QID|27467|US|M|75.67,52.21|N|To Master Craftsman Omarion.|
 T Argent Call: The Noxious Glade|QID|27465|M|75.80,52.07|N|To Lord Maxwell Tyrosus.|
 A An Opportune Alliance|QID|27457|M|73.85,52.01|N|From Rimblat Earthshatter.|
-R Eastwall Tower|QID|27457|M|61.56,43.23|N|Run to Eastwall Tower.|
+R Eastwall Tower|QID|27457|M|62,42|N|Run to Eastwall Tower.|
 A Argent Call: Northdale|QID|27466|M|61.56,43.23|N|From Tarenar Sunstrike.|
 f Eastwall Tower|QID|27457|M|61.62,43.81|N|At Richard Trueflight.|
 T An Opportune Alliance|QID|27457|M|61.42,42.83|N|To Fiona.|
@@ -313,7 +318,9 @@ T Augustus' Receipt Book|QID|27534|M|11.40,28.73|N|To Augustus the Touched.|
 C Counter-Plague Research|QID|27531|M|25.09,34.66|N|The berries are small green bushes with red berries next to the mushrooms. The arms are glittering but can be hard to spot, so look carefully. The "Flesh Giant Foot Scrapings" is near the Corpsebeasts where the waypoint is.|
 T Counter-Plague Research|QID|27531|M|17.81,27.86|N|To Argent Apothecary Judkins.|
 T Journey's End|QID|27527|U|61379|M|73.83,52.16|N|To Fiona. Use "Gidwin's Hearthstone" to save your own.
-F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc.  Close this step when done.|
+F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc.  Close this step when done.|FACTION|Alliance|
+A Fuselight, Ho!|QID|27762|M|73.78,53.05|N|From Gek Nozzlerocket. Pick this up if you'd like to head to the Badlands next!|FACTION|Horde|
+T Fuselight, Ho!|QID|27762|O|M|73.78,53.05|N|Hop on the rocket near the quest giver. When you land, turn-in to Eddie Flofizzle.|FACTION|Horde|
 ]]
 
 end)
