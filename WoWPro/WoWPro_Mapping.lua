@@ -287,6 +287,7 @@ end
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
+	if WoWPro.InitLockdown then return end
 
 	-- Removing old map point --
 	WoWPro:RemoveMapPoint()
@@ -349,13 +350,13 @@ function WoWPro:MapPoint(row)
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
 	        zm = WoWPro.Zone2MapID[zone].mapID
-	        zf = 0
+	        zf = WoWPro.Zone2MapID[zone].floor or 0
 	    end
     end
     
     if not zm then
 	    zm = GetCurrentMapAreaID()
-	    zf = 0
+	    zf = GetCurrentMapDungeonLevel()
 	    WoWPro:Print("Zone ["..zone.."] not found. Using map id "..tostring(zm))
 	end
 	
@@ -389,8 +390,13 @@ function WoWPro:MapPoint(row)
 			if not y or y > 100 then return end
 			if TomTom or Carbonite then
 				local uid
-				
-				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = desc, callbacks = WoWProMapping_callbacks_tomtom})
+				local title
+				if numcoords > 1 then
+				    title = string.format("%s: %d/%d",desc,numcoords-j+1,numcoords)
+				else
+				    title = desc
+				end
+				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom})
 				if not uid then
 				    WoWPro:Print("Failed to set waypoint!  Please report a bug with the guide and step number.")
 				end
