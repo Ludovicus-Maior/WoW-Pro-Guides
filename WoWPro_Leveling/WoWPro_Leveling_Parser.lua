@@ -89,13 +89,6 @@ function WoWPro.Leveling:NextStep(k, skip)
 			end
 		end
 	end
-
-	-- Skipping L steps if we are already past the level
-	if WoWPro.action[k] == "L" and WoWPro.level[k] then
-	    if tonumber(WoWPro.level[k]) <= UnitLevel("player") then
-		    skip = true
-	    end
-	end
 					
 	return skip
 end
@@ -298,7 +291,7 @@ function WoWPro.Leveling:LoadGuide()
 		end
 
 		-- Checking level based completion --
-		if completion and level and tonumber(level) <= UnitLevel("player") then
+		if not completion and level and tonumber(level) <= UnitLevel("player") then
 			WoWProCharDB.Guide[GID].completion[i] = true
 		end
 		
