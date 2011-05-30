@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2011-05-28 20:21
+-- Who: Crackerhead22
+-- Log: Removed |R|Human,Worgen| tag from certain steps.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24441/view
+-- Date: 2011-05-28 17:40
+-- Who: Crackerhead22
+-- Log: Added missing notes, added sticky steps, added quests (and steps) with race tags for Worgen, Dwarves, Night Elves, Gnomes and Draenei.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24289/view
 -- Date: 2011-04-29 14:05
 -- Who: Ludovicus Maior
 -- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
@@ -45,294 +55,322 @@
 
 WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest - Human", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
 return [[
-A Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|
-A Beating Them Back!|QID|28766|C|Warrior|M|48.20,42.06|
-A Beating Them Back!|QID|28767|C|Hunter|M|48.20,42.06|
-A Beating Them Back!|QID|28763|C|Priest|M|48.20,42.06|
-A Beating Them Back!|QID|28757|C|Mage|M|48.20,42.06|
-A Beating Them Back!|QID|28764|C|Rogue|M|48.20,42.06|
-A Beating Them Back!|QID|28765|C|Warlock|M|48.20,42.06|
-C Beating Them Back!|N|Kill worgs around this location.|QID|28762|C|Paladin|M|46.89,39.09|
-C Beating Them Back!|N|Kill worgs around this location.|QID|28766|C|Warrior|M|46.89,39.09|
-C Beating Them Back!|N|Kill worgs around this location.|QID|28767|C|Hunter|M|46.89,39.09|
-C Beating Them Back!|N|Kill worgs around this location.|QID|28763|C|Priest|M|46.89,39.09|
-C Beating Them Back!|N|Kill worgs around this location.|QID|28757|C|Mage|M|46.89,39.09|
-C Beating Them Back!|N|Kill worgs around this location.|QID|28764|C|Rogue|M|46.89,39.09|
-C Beating Them Back!|N|Kill worgs around this location.|QID|28765|C|Warlock|M|46.89,39.09|
-T Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|
-T Beating Them Back!|QID|28766|C|Warrior|M|48.20,42.06|
-T Beating Them Back!|QID|28767|C|Hunter|M|48.20,42.06|
-T Beating Them Back!|QID|28763|C|Priest|M|48.20,42.06|
-T Beating Them Back!|QID|28757|C|Mage|M|48.20,42.06|
-T Beating Them Back!|QID|28764|C|Rogue|M|48.20,42.06|
-T Beating Them Back!|QID|28765|C|Warlock|M|48.20,42.06|
+A Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Beating Them Back!|QID|28766|C|Warrior|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Beating Them Back!|QID|28767|C|Hunter|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Beating Them Back!|QID|28763|C|Priest|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Beating Them Back!|QID|28757|C|Mage|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Beating Them Back!|QID|28764|C|Rogue|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Beating Them Back!|QID|28765|C|Warlock|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Beating Them Back!|QID|29078|M|48.20,42.06|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|N|From Marshal McBride.|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28762|C|Paladin|M|46.89,39.09|R|Human|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28766|C|Warrior|M|46.89,39.09|R|Human|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28767|C|Hunter|M|46.89,39.09|R|Human|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28763|C|Priest|M|46.89,39.09|R|Human|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28757|C|Mage|M|46.89,39.09|R|Human|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28764|C|Rogue|M|46.89,39.09|R|Human|
+C Beating Them Back!|N|Kill worgs around this location.|QID|28765|C|Warlock|M|46.89,39.09|R|Human|
+C Beating Them Back!|N|Kill worgs around this location.|QID|29078|M|46.89,39.09|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
+T Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Beating Them Back!|QID|28766|C|Warrior|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Beating Them Back!|QID|28767|C|Hunter|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Beating Them Back!|QID|28763|C|Priest|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Beating Them Back!|QID|28757|C|Mage|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Beating Them Back!|QID|28764|C|Rogue|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Beating Them Back!|QID|28765|C|Warlock|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Beating Them Back!|QID|29078|M|48.20,42.06|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|N|To Marshal McBride.|
 
-A Lions For Lambs|QID|28759|C|Hunter|M|48.20,42.06|
-A Lions For Lambs|QID|28771|C|Priest|M|48.20,42.06|
-A Lions For Lambs|QID|28769|C|Mage|M|48.20,42.06|
-A Lions For Lambs|QID|28772|C|Rogue|M|48.20,42.06|
-A Lions For Lambs|QID|28773|C|Warlock|M|48.20,42.06|
-A Lions For Lambs|QID|28774|C|Warrior|M|48.20,42.06|
-A Lions For Lambs|QID|28770|C|Paladin|M|48.20,42.06|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28759|C|Hunter|M|46.89,39.09|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28771|C|Priest|M|46.89,39.09|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28769|C|Mage|M|46.89,39.09|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28772|C|Rogue|M|46.89,39.09|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28773|C|Warlock|M|46.89,39.09|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28774|C|Warrior|M|46.89,39.09|
-C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28770|C|Paladin|M|46.89,39.09|
-T Lions For Lambs|QID|28759|C|Hunter|M|48.20,42.06|
-T Lions For Lambs|QID|28771|C|Priest|M|48.20,42.06|
-T Lions For Lambs|QID|28769|C|Mage|M|48.20,42.06|
-T Lions For Lambs|QID|28772|C|Rogue|M|48.20,42.06|
-T Lions For Lambs|QID|28773|C|Warlock|M|48.20,42.06|
-T Lions For Lambs|QID|28774|C|Warrior|M|48.20,42.06|
-T Lions For Lambs|QID|28770|C|Paladin|M|48.20,42.06|
+A Lions For Lambs|QID|28759|C|Hunter|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Lions For Lambs|QID|28771|C|Priest|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Lions For Lambs|QID|28769|C|Mage|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Lions For Lambs|QID|28772|C|Rogue|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Lions For Lambs|QID|28773|C|Warlock|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Lions For Lambs|QID|28774|C|Warrior|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Lions For Lambs|QID|28770|C|Paladin|M|48.20,42.06|R|Human|N|From Marshal McBride.|
+A Lions For Lambs|QID|29079|M|48.20,42.06|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|N|From Marshal McBride.|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28759|C|Hunter|M|46.89,39.09|R|Human|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28771|C|Priest|M|46.89,39.09|R|Human|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28769|C|Mage|M|46.89,39.09|R|Human|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28772|C|Rogue|M|46.89,39.09|R|Human|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28773|C|Warlock|M|46.89,39.09|R|Human|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28774|C|Warrior|M|46.89,39.09|R|Human|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|28770|C|Paladin|M|46.89,39.09|R|Human|
+C Lions For Lambs|N|Kill 8 Blackrock spies around this location.|QID|29079|M|46.89,39.09|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
+T Lions For Lambs|QID|28759|C|Hunter|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Lions For Lambs|QID|28771|C|Priest|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Lions For Lambs|QID|28769|C|Mage|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Lions For Lambs|QID|28772|C|Rogue|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Lions For Lambs|QID|28773|C|Warlock|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Lions For Lambs|QID|28774|C|Warrior|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Lions For Lambs|QID|28770|C|Paladin|M|48.20,42.06|R|Human|N|To Marshal McBride.|
+T Lions For Lambs|QID|29079|M|48.20,42.06|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|N|To Marshal McBride.|
 
-A Etched Letter|QID|26910|C|Hunter|R|Human|M|48.20,42.06|
-A Consecrated Letter|QID|3101|C|Paladin|R|Human|M|48.20,42.06|
-A Hallowed Letter|QID|3103|C|Priest|R|Human|M|48.20,42.06|
-A Glyphic Letter|QID|3104|C|Mage|R|Human|M|48.20,42.06|
-A Encrypted Letter|QID|3102|C|Rogue|R|Human|M|48.20,42.06|
-A Tainted Letter|QID|3105|C|Warlock|R|Human|M|48.20,42.06|
-A Simple Letter|QID|3100|C|Warrior|R|Human|M|48.20,42.06|
-T Etched Letter|QID|26910|C|Hunter|R|Human|M|48.55,42.56|
-T Concecrated Letter|QID|3101|C|Paladin|R|Human|M|50.43,42.12|
-T Hallowed Letter|QID|3103|C|Priest|R|Human|M|49.81,39.49|
-T Glyphic Letter|QID|3104|C|Mage|R|Human|M|49.66,39.40|
-T Encrypted Letter|QID|3102|C|Rogue|R|Human|M|50.31,39.92|
-T Tainted Letter|QID|3105|C|Warlock|R|Human|M|49.87,42.65|
-T Simple Letter|QID|3100|C|Warrior|R|Human|M|50.24,42.28|
+A Etched Letter|QID|26910|C|Hunter|R|Human|M|48.20,42.06|N|From Marshal McBride.|
+A Consecrated Letter|QID|3101|C|Paladin|R|Human|M|48.20,42.06|N|From Marshal McBride.|
+A Hallowed Letter|QID|3103|C|Priest|R|Human|M|48.20,42.06|N|From Marshal McBride.|
+A Glyphic Letter|QID|3104|C|Mage|R|Human|M|48.20,42.06|N|From Marshal McBride.|
+A Encrypted Letter|QID|3102|C|Rogue|R|Human|M|48.20,42.06|N|From Marshal McBride.|
+A Tainted Letter|QID|3105|C|Warlock|R|Human|M|48.20,42.06|N|From Marshal McBride.|
+A Simple Letter|QID|3100|C|Warrior|R|Human|M|48.20,42.06|N|From Marshal McBride.|
+T Etched Letter|QID|26910|C|Hunter|R|Human|M|48.55,42.56|N|To Ashley Blank.|
+T Concecrated Letter|QID|3101|C|Paladin|R|Human|M|50.43,42.12|N|To Brother Sammuel.|
+T Hallowed Letter|QID|3103|C|Priest|R|Human|M|49.81,39.49|N|To Priestess Anetta.|
+T Glyphic Letter|QID|3104|C|Mage|R|Human|M|49.66,39.40|N|To Khelden Bremen.|
+T Encrypted Letter|QID|3102|C|Rogue|R|Human|M|50.31,39.92|N|To Jorik Kerridan.|
+T Tainted Letter|QID|3105|C|Warlock|R|Human|M|49.87,42.65|N|To Drusilla La Salle.|
+T Simple Letter|QID|3100|C|Warrior|R|Human|M|50.24,42.28|N|To Llane Beshere.|
 
-A Charging Into Battle|QID|26913|C|Warrior|R|Human|M|50.24,42.28|
-A The Hunter's Path|QID|26917|C|Hunter|R|Human|M|48.55,42.56|
-A The Power Of The Light|QID|26918|C|Paladin|R|Human|M|50.43,42.12|
-A Mastering The Arcane|QID|26916|C|Mage|R|Human|M|49.66,39.40|
-A The Deepest Cut|QID|26915|C|Rogue|R|Human|M|50.31,39.92|
-A Healing The Wounded|QID|26919|C|Priest|R|Human|M|49.81,39.49|
-A Immolation|QID|26914|C|Warlock|R|Human|M|49.87,42.65|
-C Immolation|N|Learn Immolate then use it on the training dummies. |QID|26914|C|Warlock|R|Human|M|48.63,44.37|
+A Charging Into Battle|QID|26913|C|Warrior|R|Human|M|50.24,42.28|N|From Llane Beshere.|
+A The Hunter's Path|QID|26917|C|Hunter|R|Human|M|48.55,42.56|N|From Ashley Blank.|
+A The Power Of The Light|QID|26918|C|Paladin|R|Human|M|50.43,42.12|N|From Brother Sammuel.|
+A Mastering The Arcane|QID|26916|C|Mage|R|Human|M|49.66,39.40|N|From Khelden Bremen.|
+A The Deepest Cut|QID|26915|C|Rogue|R|Human|M|50.31,39.92|N|From Jorik Kerridan.|
+A Healing The Wounded|QID|26919|C|Priest|R|Human|M|49.81,39.49|N|From Priestess Anetta.|
+A Immolation|QID|26914|C|Warlock|R|Human|M|49.87,42.65|N|From Drusilla La Salle.|
+C Immolation|N|Learn Immolate then use it on the training dummies.|QID|26914|C|Warlock|R|Human|M|48.63,44.37|
 C The Deepest Cut|N|Learn Eviscerate and use it on the training dummies. |QID|26915|C|Rogue|R|Human|M|48.63,44.37|
 C Healing The Wounded|N|Learn Flash Heal then use it on Wounded Trainees inside the abbey.|QID|26919|C|Priest|R|Human|
 C Charging Into Battle|N|Learn Charge from the warrior trainer then use it on the training dummies.|QID|26913|C|Warrior|R|Human|M|48.63,44.37|
 C The Hunter's Path|N|Learn Steady Shot from the hunter trainer then use it on the training dummies.|QID|26917|C|Hunter|R|Human|M|48.63,44.37|
 C The Power Of The Light|N|Learn Seal of righteousness and judgement then use judgement on the training dummies.|QID|26918|C|Paladin|R|Human|M|48.63,44.37|
 C Mastering The Arcane|N|Learn Arcane Missiles then use it on the training dummies.|QID|26916|C|Mage|R|Human|M|48.63,44.37|
-T Immolation|N|Train new skills while here.|QID|26914|C|Warlock|R|Human|M|49.87,42.65|
-T The Deepest Cut|N|Train new skills while here. | |QID|26915|C|Rogue|R|Human|M|50.31,39.92|
-T Healing The Wounded|N|Train new skills while here. | |QID|26919|C|Priest|R|Human|M|49.81,39.49|
-T Charging Into Battle|N|Train new skills while here. | |QID|26913|C|Warrior|R|Human|M|50.24,42.28|
-T The Power Of The Light|N|Train new skills while here. | |QID|26918|C|Paladin|R|Human|M|50.43,42.12|
-T Mastering The Arcane|N|Train new skills while here. | |QID|26916|C|Mage|R|Human|M|49.66,39.40|
-T The Hunter's Path|N|Train new skills while here. | |QID|26917|C|Hunter|R|Human|M|48.55,42.56|
+T Immolation|N|Train new skills while here.|QID|26914|C|Warlock|R|Human|M|49.87,42.65|N|To Drusilla La Salle.|
+T The Deepest Cut|N|Train new skills while here.|QID|26915|C|Rogue|R|Human|M|50.31,39.92|N|To Jorik Kerridan.|
+T Healing The Wounded|N|Train new skills while here.|QID|26919|C|Priest|R|Human|M|49.81,39.49|N|To Priestess Anetta.|
+T Charging Into Battle|N|Train new skills while here.|QID|26913|C|Warrior|R|Human|M|50.24,42.28|N|To Llane Beshere.|
+T The Power Of The Light|N|Train new skills while here.|QID|26918|C|Paladin|R|Human|M|50.43,42.12|N|To Brother Sammuel.|
+T Mastering The Arcane|N|Train new skills while here.|QID|26916|C|Mage|R|Human|M|49.66,39.40|N|To Khelden Bremen.|
+T The Hunter's Path|N|Train new skills while here.|QID|26917|C|Hunter|R|Human|M|48.55,42.56|N|To Ashley Blank.|
 
-A Join The Battle!|QID|28788|C|Warlock|R|Human|M|49.87,42.65|
-A Join The Battle!|QID|28787|C|Rogue|R|Human|M|50.31,39.92|
-A Join The Battle!|QID|28786|C|Priest|R|Human|M|49.81,39.49|
-A Join The Battle!|QID|28789|C|Warrior|R|Human|M|50.24,42.28|
-A Join The Battle!|QID|28785|C|Paladin|R|Human|M|50.43,42.12|
-A Join The Battle!|QID|28784|C|Mage|R|Human|M|49.66,39.40|
-A Join The Battle!|QID|28780|C|Hunter|R|Human|M|48.55,42.56|
-T Join The Battle!|QID|28788|C|Warlock|R|Human|M|48.81,38.38|
-T Join The Battle!|QID|28787|C|Rogue|R|Human|M|48.81,38.38|
-T Join The Battle!|QID|28786|C|Priest|R|Human|M|48.81,38.38|
-T Join The Battle!|QID|28789|C|Warrior|R|Human|M|48.81,38.38|
-T Join The Battle!|QID|28785|C|Paladin|R|Human|M|48.81,38.38|
-T Join The Battle!|QID|28784|C|Mage|R|Human|M|48.81,38.38|
-T Join The Battle!|QID|28780|C|Hunter|R|Human|M|48.81,38.38|
+A Join The Battle!|QID|28788|C|Warlock|R|Human|M|49.87,42.65|N|From Ashley Blank.|
+A Join The Battle!|QID|28787|C|Rogue|R|Human|M|50.31,39.92|N|From Ashley Blank.|
+A Join The Battle!|QID|28786|C|Priest|R|Human|M|49.81,39.49|N|From Ashley Blank.|
+A Join The Battle!|QID|28789|C|Warrior|R|Human|M|50.24,42.28|N|From Ashley Blank.|
+A Join The Battle!|QID|28785|C|Paladin|R|Human|M|50.43,42.12|N|From Ashley Blank.|
+A Join The Battle!|QID|28784|C|Mage|R|Human|M|49.66,39.40|N|From Ashley Blank.|
+A Join The Battle!|QID|28780|C|Hunter|R|Human|M|48.55,42.56|N|From Ashley Blank.|
+A Join The Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.55,42.56|N|From Ashley Blank.|
+T Join The Battle!|QID|28788|C|Warlock|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Join The Battle!|QID|28787|C|Rogue|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Join The Battle!|QID|28786|C|Priest|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Join The Battle!|QID|28789|C|Warrior|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Join The Battle!|QID|28785|C|Paladin|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Join The Battle!|QID|28784|C|Mage|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Join The Battle!|QID|28780|C|Hunter|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Join The Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.81,38.38|N|To Sergeant Willem.|
 
-A They Sent Assassins|QID|28791|C|Hunter|R|Human|M|48.81,38.38|
-A Fear No Evil|QID|28806|C|Hunter|R|Human|M|48.49,38.16|
-A They Sent Assassins|QID|28792|C|Mage|R|Human|M|48.81,38.38|
-A Fear No Evil|QID|28808|C|Mage|R|Human|M|48.49,38.16|
-A They Sent Assassins|QID|28797|C|Warrior|R|Human|M|48.81,38.38|
-A Fear No Evil|QID|28813|C|Warrior|R|Human|M|48.49,38.16|
-A They Sent Assassins|QID|28794|C|Priest|R|Human|M|48.81,38.38|
-A Fear No Evil|QID|28810|C|Priest|R|Human|M|48.49,38.16|
-A They Sent Assassins|QID|28795|C|Rogue|R|Human|M|48.81,38.38|
-A Fear No Evil|QID|28811|C|Rogue|R|Human|M|48.49,38.16|
-A They Sent Assassins|QID|28793|C|Paladin|R|Human|M|48.81,38.38|
-A Fear No Evil|QID|28809|C|Paladin|R|Human|M|48.49,38.16|
-A They Sent Assassins|QID|28796|C|Warlock|R|Human|M|48.81,38.38|
-A Fear No Evil|QID|28812|C|Warlock|R|Human|M|48.49,38.16|
+A They Sent Assassins|QID|28791|C|Hunter|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+A Fear No Evil|QID|28806|C|Hunter|R|Human|M|48.49,38.16|N|From Brother Paxton.|
+A They Sent Assassins|QID|28792|C|Mage|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+A Fear No Evil|QID|28808|C|Mage|R|Human|M|48.49,38.16|N|From Brother Paxton.|
+A They Sent Assassins|QID|28797|C|Warrior|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+A Fear No Evil|QID|28813|C|Warrior|R|Human|M|48.49,38.16|N|From Brother Paxton.|
+A They Sent Assassins|QID|28794|C|Priest|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+A Fear No Evil|QID|28810|C|Priest|R|Human|M|48.49,38.16|N|From Brother Paxton.|
+A They Sent Assassins|QID|28795|C|Rogue|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+A Fear No Evil|QID|28811|C|Rogue|R|Human|M|48.49,38.16|N|From Brother Paxton.|
+A They Sent Assassins|QID|28793|C|Paladin|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+A Fear No Evil|QID|28809|C|Paladin|R|Human|M|48.49,38.16|N|From Brother Paxton.|
+A They Sent Assassins|QID|28796|C|Warlock|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+A Fear No Evil|QID|28812|C|Warlock|R|Human|M|48.49,38.16|N|From Brother Paxton.|
+A They Sent Assassins|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.81,38.38|N|From Sergeant Willem.|
+A Fear No Evil|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.49,38.16|N|From Brother Paxton.|
 
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28791|C|Hunter|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28806|C|Hunter|R|Human|M|48.40,35.79|
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28792|C|Mage|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28808|C|Mage|R|Human|M|48.40,35.79|
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28797|C|Warrior|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28813|C|Warrior|R|Human|M|48.40,35.79|
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28794|C|Priest|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28810|C|Priest|R|Human|M|48.40,35.79|
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28795|C|Rogue|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28811|C|Rogue|R|Human|M|48.40,35.79|
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28793|C|Paladin|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28809|C|Paladin|R|Human|M|48.40,35.79|
-C They Sent Assassins|N|kill goblin assassins while reviving injured soldiers. | |QID|28796|C|Warlock|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers. | |QID|28812|C|Warlock|R|Human|M|48.40,35.79|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28791|C|Hunter|R|Human|M|48.40,35.79|S|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28792|C|Mage|R|Human|M|48.40,35.79|S|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28797|C|Warrior|R|Human|M|48.40,35.79|S|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28794|C|Priest|R|Human|M|48.40,35.79|S|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28795|C|Rogue|R|Human|M|48.40,35.79|S|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28793|C|Paladin|R|Human|M|48.40,35.79|S|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28796|C|Warlock|R|Human|M|48.40,35.79|S|
+C They Sent Assassins|N|Kill goblin assassins.|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.40,35.79|S|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28806|C|Hunter|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28808|C|Mage|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28813|C|Warrior|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28810|C|Priest|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28811|C|Rogue|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28809|C|Paladin|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28812|C|Warlock|R|Human|M|48.40,35.79|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.40,35.79|US|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28791|C|Hunter|R|Human|M|48.40,35.79|US|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28792|C|Mage|R|Human|M|48.40,35.79|US|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28797|C|Warrior|R|Human|M|48.40,35.79|US|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28794|C|Priest|R|Human|M|48.40,35.79|US|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28795|C|Rogue|R|Human|M|48.40,35.79|US|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28793|C|Paladin|R|Human|M|48.40,35.79|US|
+C They Sent Assassins|N|Kill goblin assassins.|QID|28796|C|Warlock|R|Human|M|48.40,35.79|US|
+C They Sent Assassins|N|Kill goblin assassins.|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.40,35.79|US|
 
-T Fear No Evil|QID|28806|C|Hunter|R|Human|M|48.49,38.16|
-T They Sent Assassins|QID|28791|C|Hunter|R|Human|M|48.81,38.38|
-T Fear No Evil|QID|28808|C|Mage|R|Human|M|48.49,38.16|
-T They Sent Assassins|QID|28792|C|Mage|R|Human|M|48.81,38.38|
-T Fear No Evil|QID|28813|C|Warrior|R|Human|R|Human|M|48.49,38.16|
+T Fear No Evil|QID|28806|C|Hunter|R|Human|M|48.49,38.16|N|To Brother Paxton.|
+T They Sent Assassins|QID|28791|C|Hunter|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Fear No Evil|QID|28808|C|Mage|R|Human|M|48.49,38.16|N|To Brother Paxton.|
+T They Sent Assassins|QID|28792|C|Mage|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Fear No Evil|QID|28813|C|Warrior|R|Human|R|Human|M|48.49,38.16|N|To Brother Paxton.|
 T They Sent Assassins|QID|28797|C|Warrior|R|Human|R|Human|M|48.81,38.38|
-T Fear No Evil|QID|28810|C|Priest|R|Human|M|48.49,38.16|
-T They Sent Assassins|QID|28794|C|Priest|R|Human|M|48.81,38.38|
-T Fear No Evil|QID|28811|C|Rogue|R|Human|M|48.49,38.16|
-T They Sent Assassins|QID|28795|C|Rogue|R|Human|M|48.81,38.38|
-T Fear No Evil|QID|28809|C|Paladin|R|Human|M|48.49,38.16|
-T They Sent Assassins|QID|28793|C|Paladin|R|Human|M|48.81,38.38|
-T Fear No Evil|QID|28812|C|Warlock|R|Human|M|48.49,38.16|
-T They Sent Assassins|QID|28796|C|Warlock|R|Human|M|48.81,38.38|
+T Fear No Evil|QID|28810|C|Priest|R|Human|M|48.49,38.16|N|To Brother Paxton.|
+T They Sent Assassins|QID|28794|C|Priest|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Fear No Evil|QID|28811|C|Rogue|R|Human|M|48.49,38.16|N|To Brother Paxton.|
+T They Sent Assassins|QID|28795|C|Rogue|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Fear No Evil|QID|28809|C|Paladin|R|Human|M|48.49,38.16|N|To Brother Paxton.|
+T They Sent Assassins|QID|28793|C|Paladin|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Fear No Evil|QID|28812|C|Warlock|R|Human|M|48.49,38.16|N|To Brother Paxton.|
+T They Sent Assassins|QID|28796|C|Warlock|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
+T Fear No Evil|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.49,38.16|N|To Brother Paxton.|
+T They Sent Assassins|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.81,38.38|N|To Sergeant Willem.|
 
-A The Rear Is Clear|QID|28817|C|Hunter|R|Human|M|48.81,38.38|
-T The Rear Is Clear|QID|28817|C|Hunter|R|Human|M|48.20,42.06|
-A The Rear Is Clear|QID|28818|C|Mage|R|Human|M|48.81,38.38|
-T The Rear Is Clear|QID|28818|C|Mage|R|Human|M|48.20,42.06|
-A The Rear Is Clear|QID|28823|C|Warrior|R|Human|M|48.81,38.38|
-T The Rear Is Clear|QID|28823|C|Warrior|R|Human|M|48.20,42.06|
-A The Rear Is Clear|QID|28820|C|Priest|R|Human|M|48.81,38.38|
-T The Rear Is Clear|QID|28820|C|Priest|R|Human|M|48.20,42.06|
-A The Rear Is Clear|QID|28821|C|Rogue|R|Human|M|48.81,38.38|
-T The Rear Is Clear|QID|28821|C|Rogue|R|Human|M|48.20,42.06|
-A The Rear Is Clear|QID|28819|C|Paladin|R|Human|M|48.81,38.38|
-T The Rear Is Clear|QID|28819|C|Paladin|R|Human|M|48.20,42.06|
-A The Rear Is Clear|QID|28822|C|Warlock|R|Human|M|48.81,38.38|
-T The Rear Is Clear|QID|28822|C|Warlock|R|Human|M|48.20,42.06|
+A The Rear Is Clear|QID|28817|C|Hunter|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+T The Rear Is Clear|QID|28817|C|Hunter|R|Human|M|48.20,42.06|N|To Marshal McBride.|
+A The Rear Is Clear|QID|28818|C|Mage|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+T The Rear Is Clear|QID|28818|C|Mage|R|Human|M|48.20,42.06|N|To Marshal McBride.|
+A The Rear Is Clear|QID|28823|C|Warrior|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+T The Rear Is Clear|QID|28823|C|Warrior|R|Human|M|48.20,42.06|N|To Marshal McBride.|
+A The Rear Is Clear|QID|28820|C|Priest|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+T The Rear Is Clear|QID|28820|C|Priest|R|Human|M|48.20,42.06|N|To Marshal McBride.|
+A The Rear Is Clear|QID|28821|C|Rogue|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+T The Rear Is Clear|QID|28821|C|Rogue|R|Human|M|48.20,42.06|N|To Marshal McBride.|
+A The Rear Is Clear|QID|28819|C|Paladin|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+T The Rear Is Clear|QID|28819|C|Paladin|R|Human|M|48.20,42.06|N|To Marshal McBride.|
+A The Rear Is Clear|QID|28822|C|Warlock|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
+T The Rear Is Clear|QID|28822|C|Warlock|R|Human|M|48.20,42.06|N|To Marshal McBride.|
+A The Rear Is Clear|QID|29083|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.81,38.38|N|From Sergeant Willem.|
+T The Rear Is Clear|QID|29083|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.20,42.06|N|To Marshal McBride.|
 
-A Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|
-A Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|
-C Extinguishing Hope|N|Extinguish the fires and kill orcs around here.|U|58362||QID|26391|R|Human|M|54.02,48.52|
-C Blackrock Invasion|N|Kill Orcs until you have 8 Blackrock Weapons.|QID|26389|R|Human|M|54.02,48.52|
-T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|
-T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|
-A Ending The Invasion|QID|26390|R|Human|M|48.20,42.06|
-C Ending The Invasion|N|Kill Kurtok The Slayer.|QID|26390|R|Human|M|56.90,40.81|
-H Northshire Valley|QID|26390|R|Human|U|6948|
-T Ending The Invasion|QID|26390|R|Human|M|48.20,42.06|
-A Report To Goldshire|QID|54|R|Human|M|48.20,42.06|
+A Blackrock Invasion|QID|26389|M|48.20,42.06|N|From Marshal McBride.|
+A Extinguishing Hope|QID|26391|M|48.15,42.52|N|From Milly Osworth.|
+C Extinguishing Hope|N|Extinguish the fires.|S|U|58362|QID|26391|M|54.02,48.52|
+C Blackrock Invasion|N|Kill and loot Orcs until you have 8 Blackrock Weapons.|QID|26389|M|54.02,48.52|
+C Extinguishing Hope|N|Extinguish the fires.|US|U|58362|QID|26391|M|54.02,48.52|
+T Extinguishing Hope|QID|26391|M|48.15,42.52|To Milly Osworth.|
+T Blackrock Invasion|QID|26389|M|48.20,42.06|N|To Marshal McBride.|
+A Ending The Invasion|QID|26390|M|48.20,42.06|N|From Marshal McBride.|
+C Ending The Invasion|N|Kill Kurtok The Slayer.|QID|26390|M|56.90,40.81|
+H Northshire Valley|QID|26390|U|6948|N|Hearth or run back.|M|48.20,42.06|
+T Ending The Invasion|QID|26390|M|48.20,42.06|N|To Marshal McBride.|
+A Report To Goldshire|QID|54||48.20,42.06|N|From Marshal McBride.|
 
-A Rest And Relaxation|QID|2158|
-f Lion's Pride Inn|QID|2158|M|41.72,64.64|
-T Rest And Relaxation|QID|2158|M|43.77,65.80|
-h Lion's Pride Inn|QID|47|M|43.77,65.80|
-A Kobold Candles|QID|60|M|43.32,65.71|
-T Report To Goldshire|QID|54|R|Human|M|42.11,65.92|
-A The Fargodeep Mines|QID|62|M|42.11,65.92|
-r Sell Junk,restock,train and repair. | |QID|60|
-A Gold Dust Exchange|QID|47|M|42.14,67.25|
+A Rest And Relaxation|QID|2158|M|45.56,47.73|N|From Falkhaan Isenstrider.|
+f Goldshire|QID|2158|M|41.72,64.64|N|At Bartlett the Brave.|
+h Lion's Pride Inn|QID|2185|M|43.77,65.80|N|At Innkeeper Farley.|
+T Rest And Relaxation|QID|2158|M|43.77,65.80|N|To Innkeeper Farley.|
+A Kobold Candles|QID|60|M|43.32,65.71|N|From William Pestle.|
+T Report To Goldshire|QID|54|M|42.11,65.92|N|To Marshal Dughan.|
+A The Fargodeep Mines|QID|62|M|42.11,65.92|N|From Marshal Dughan.|
+r Sell Junk,restock,train and repair.|QID|85|
+A Gold Dust Exchange|QID|47|M|42.14,67.25|N|From Remy "Two Times".|
 
-R The Stonefield Farm|N|Kill Kobold Tunnelers on the way. | |QID|60|M|34.31,83.67|
-A Lost Necklace|QID|85|M|34.49,84.25|
-R The Maclure Vineyards|N|Kill Kobold Tunnelers on the way. | |QID|85|M|40.47,86.61|
-T Lost Necklace|QID|85|M|43.13,85.72|
-A Pie For Billie|QID|86|M|43.13,85.72|
-A Young Lovers|QID|106|M|43.15,89.63|
-C Pie For Billie|N|Kill Stonetusk Boars until you have 4 Chunks of Boar Meat. | |QID|86|M|41.74,87.48|
-R The Stonefield Farm|N|Kill Kobold Tunnelers on the way. | |QID|86|M|29.84,86.00|
-T Young Lovers|QID|106|M|29.84,86.00|
-A Speak With Gramma|QID|111|M|29.84,86.00|
-T Pie For Billie|QID|86|M|34.49,84.25|
-A Back To Billie|QID|84|M|34.49,84.25|
-T Speak With Gramma|QID|111|M|34.94,83.86|
-A Note To William|QID|107|M|34.94,83.86|
-R The Maclure Vineyards|N|Kill Kobold Tunnelers on the way. | |QID|107|M|40.47,86.61|
-T Back To Billy|QID|84|M|43.13,85.72|
-A Goldtooth|QID|87|M|43.13,85.72|
-C Goldtooth|N|Go to goldtooth's Den, Kill Goldtooth and loot Bernice's Necklace. | |T|Goldtooth|QID|87|M|40.10,80.64|
-C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest completed message, kill Kobold Tunnelers as you go. | |QID|62|M|39.04,82.51|
-C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles and 10 Gold Dust. | |QID|60|
-C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust. |QID|47|
-T Goldtooth|QID|87|M|34.49,84.25|
+R The Stonefield Farm|N|Kill Kobold Tunnelers on the way.|QID|85|M|34.31,83.67|
+A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
+R The Maclure Vineyards|N|Kill Kobold Tunnelers on the way.|QID|85|M|40.47,86.61|
+T Lost Necklace|QID|85|M|43.13,85.72|N|To Billy Maclure.|
+A Pie For Billie|QID|86|M|43.13,85.72|N|From Billy Maclure.|
+A Young Lovers|QID|106|M|43.15,89.63|N|From Maybell Maclure.|
+C Pie For Billie|N|Kill Stonetusk Boars until you have 4 Chunks of Boar Meat.|QID|86|M|41.74,87.48|
+R The Stonefield Farm|N|Kill Kobold Tunnelers on the way.|QID|86|M|29.84,86.00|
+T Young Lovers|QID|106|M|29.84,86.00|N|To Tommy Joe Stonefield.|
+A Speak With Gramma|QID|111|M|29.84,86.00|N|From Tommy Joe Stonefield.|
+T Pie For Billie|QID|86|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
+A Back To Billie|QID|84|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
+T Speak With Gramma|QID|111|M|34.94,83.86|N|To Gramma Stonefield.|
+A Note To William|QID|107|M|34.94,83.86|N|From Gramma Stonefield.|
+R The Maclure Vineyards|N|Kill Kobold Tunnelers on the way.|QID|107|M|40.47,86.61|
+T Back To Billy|QID|84|M|43.13,85.72|N|To Billy Maclure.|
+A Goldtooth|QID|87|M|43.13,85.72|N|From Billy Maclure.|
+C Goldtooth|N|Go to goldtooth's Den, Kill Goldtooth and loot Bernice's Necklace.|T|Goldtooth|QID|87|M|40.10,80.64|
+C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|S|
+C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|S|
+C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest completed message.|QID|62|M|39.04,82.51|
+C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|US|
+C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|US|
+T Goldtooth|QID|87|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
 
-T Gold Dust Exchange|QID|47|M|42.14,67.25|
-A A Fishy Peril|QID|40|M|42.14,67.25|
-T The Fargodeep Mine|QID|62|M|42.11,65.93|
-A The Jasperlode Mine|QID|76|M|42.11,65.93|
-T A Fishy Peril|QID|40|M|42.11,65.93|
-A Further Concerns|QID|35|M|42.11,65.93|
-T Kobold Candles|QID|60|M|43.32,65.70|
-T Note To William|QID|107|M|43.32,65.70|
-A Collecting Kelp|QID|112|M|43.32,65.70|
-r Sell Junk,Restock,Train and Repair. | |QID|112|
+T Gold Dust Exchange|QID|47|M|42.14,67.25|N|To Remy "Two Times".|
+A A Fishy Peril|QID|40|M|42.14,67.25|N|From Remy "Two Times".|
+T The Fargodeep Mine|QID|62|M|42.11,65.93|N|To Marshal Dughan.|
+A The Jasperlode Mine|QID|76|M|42.11,65.93|N|From Marshal Dughan.|
+T A Fishy Peril|QID|40|M|42.11,65.93|N|To Remy "Two Times".|
+A Further Concerns|QID|35|M|42.11,65.93|N|From Marshal Dughan.|
+T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|
+T Note To William|QID|107|M|43.32,65.70|N|To William Pestle.|
+A Collecting Kelp|QID|112|M|43.32,65.70|N|From William Pestle.|
+r Sell Junk,Restock,Train and Repair.|QID|112|
 
-C Collecting Kelp|N|Kill Murlocs until you have 4 Crystal Kelp Fronds. | |QID|112|M|50.93,66.47|
-R Jasperlode Mine|N|Go to the Jasperlode Mine. | |QID|76|M|60.88,59.15|
-C The Jasperlode Mine|N|Go into the mine until you get a quest completed message. | |QID|76|M|61.74,53.91|
-H Lion's Pride Inn |QID|35|U|6948|
-T Collecting Kelp|QID|112|M|43.32,65.70|
-A The Escape|QID|114|M|43.32,65.70|
-T The Jasperlode Mine|QID|76|M|42.11,65.93|
-r Sell Junk,Restock,Train and Repair. | |QID|114|
+C Collecting Kelp|N|Kill Murlocs until you have 4 Crystal Kelp Fronds.|QID|112|M|50.93,66.47|
+R Jasperlode Mine|N|Go to the Jasperlode Mine.|QID|76|M|60.88,59.15|
+C The Jasperlode Mine|N|Go into the mine until you get a quest completed message.|QID|76|M|61.74,53.91|
+H Lion's Pride Inn |QID|35|U|6948|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|M|43.77,65.80|
+T Collecting Kelp|QID|112|M|43.32,65.70|N|To William Pestle.|
+A The Escape|QID|114|M|43.32,65.70|N|From William Pestle.|
+T The Jasperlode Mine|QID|76|M|42.11,65.93|N|To Marshal Dughan.|
+r Sell Junk,Restock,Train and Repair.|QID|35|
 
-N Marshal Dughan |N|Talk to Marshal Dughan and ask for a ride with the Stormwind Charger. | |QID|114|M|42.11,65.93|
-A Bounty On Murlocs|QID|46|M|74.03,72.32|
-A Wanted:James Clark|QID|26152|M|74.03,72.32|
-T Further Concerns|QID|35|M|73.97,72.18|
-A Find The Lost Guards|QID|37|M|73.97,72.18|
-A Protect The Frontier|QID|52|M|73.97,72.18|
-C Protect The Frontier|QID|52|M|73.97,72.18|S|
-T Find The Lost Guards|N|Kill Bears and Wolves as you go. | |QID|37|M|72.66,60.33|
-A Discover Rolf's Fate|QID|45|M|72.66,60.33|
-C Bounty On Murlocs|QID|46|S|
-T Discover Rolf's Fate|QID|45|M|79.80,55.50|
-A Report To Thomas|QID|71|M|79.80,55.50|
-C Wanted:James Clark|N|Kill James clark and pickup his head and the Gold Pickup Schedule. | |T|James Clark|QID|26152|M|78.66,67.16|
-A The Collector|N|Get this from the Gold Pickup Schedule in your bags. | |U|1307|QID|123|
-A Fine Linen Goods|QID|83|M|79.46,68.71|
-A A Bundle Of Trouble|QID|5545|M|81.38,66.11|
-T Wanted:James Clark|QID|26152|M|81.86,66.04|
-T The Collector|QID|123|M|81.86,66.04|
-A Manhunt|QID|147|M|81.86,66.04|
-f Eastvale Logging Camp|QID|147|M|81.83,66.56|
-r Sell Junk and Repair. | |QID|147|
+N Marshal Dughan |N|Talk to Marshal Dughan and ask for a ride with the Stormwind Charger. Close this step to continue.|QID|35|M|42.11,65.93|
+A Bounty On Murlocs|QID|46|M|74.03,72.32|N|From the Bounty Board.|
+A Wanted: James Clark|QID|26152|M|74.03,72.32|N|From the Bounty Board.|
+T Further Concerns|QID|35|M|73.97,72.18|N|To Guard Thomas.|
+A Find The Lost Guards|QID|37|M|73.97,72.18|N|From Guard Thomas.|
+A Protect The Frontier|QID|52|M|73.97,72.18|N|From Guard Thomas.|
+C Protect The Frontier|QID|52|M|73.97,72.18|S|N|Kill the Bears and Wolves that you need.|
+T Find The Lost Guards|N|To A half-eaten body.|QID|37|M|72.66,60.33|
+A Discover Rolf's Fate|QID|45|M|72.66,60.33|N|From A half-eaten body.|
+C Bounty On Murlocs|QID|46|S|N|Kill and loot Murlocs.|
+T Discover Rolf's Fate|QID|45|M|79.80,55.50|N|To Rolf's corpse.|
+A Report To Thomas|QID|71|M|79.80,55.50|N|From Rolf's corpse.|
+C Bounty on Murlocs|N|Kill Murlocs until you have 8 Murloc Fins.|QID|46|M|79.51,56.00|US|
+C Wanted: James Clark|N|Kill James clark and pickup his head and the Gold Pickup Schedule.|T|James Clark|QID|26152|M|78.66,67.16|
+A The Collector|N|Get this from the Gold Pickup Schedule in your bags.|U|1307|QID|123|
+A Fine Linen Goods|QID|83|M|79.46,68.71|N|From Sara Timberlain.|
+A A Bundle Of Trouble|QID|5545|M|81.38,66.11|N|From Supervisor Raelen.|
+T Wanted: James Clark|QID|26152|M|81.86,66.04|N|To Marshal McCree.|
+T The Collector|QID|123|M|81.86,66.04|N|To Marshal McCree.|
+A Manhunt|QID|147|M|81.86,66.04|N|From Marshal McCree.|
+f Eastvale Logging Camp|QID|147|M|81.83,66.56|N|At Goss the Swift.|
+r Sell Junk and Repair.|QID|147|
 
-C Bounty on Murlocs|N|Gather wood while walking there.Kill Murlocs until you have 8 Murloc Fins.|QID|46|M|79.51,56.00|US|
-C A Bundle Of Trouble|N|Collect 8 Bundles Of Wood and kill Bears and Wolves as you go. | |QID|5545|M|80.75,61.33|
-T A Bundle Of Trouble|QID|5545|M|81.38,66.11|
-C Protect The Frontier|N|Kill the remaining wolves and Bears you need to finnish the quest. | |QID|52|M|87.55,67.79|US|
-R Ridgepoint Tower|N|If you want the explorer's achievement go to Ridgepoint Tower now. | |QID|147|M|83.99,78.92|
-T Protect The Frontier|QID|52|M|73.97,72.18|
-T Bounty On Murlocs|QID|46|M|73.97,72.18|
-T Report To Thomas|QID|71|M|73.97,72.18|
-A Cloth And Leather Armor|QID|59|M|73.97,72.18|
-C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps. | |QID|83|M|71.20,78.86|
-C Manhunt|N|Kill Morgan the collector and  pick up his ring. | |T|Morgan The Collector|QID|147|M|71.05,80.63|
-T Cloth And Leather Armor|QID|59|M|79.46,68.71|
-T Fine Linen Goods|QID|83|M|79.46,68.71|
-T Manhunt|QID|147|M|81.86,66.04|
-F Goldshire|QID|114|M|81.86,66.04|
-r Sell Junk, Restock, Train and Repair. | |QID|114|
+C A Bundle Of Trouble|N|Collect 8 Bundles Of Wood.|QID|5545|M|80.75,61.33|
+T A Bundle Of Trouble|QID|5545|M|81.38,66.11|N|To Supervisor Raelen.|
+C Protect The Frontier|N|Kill the remaining wolves and Bears you need to finish the quest.|QID|52|M|87.55,67.79|US|
+R Ridgepoint Tower|N|If you want the explorer's achievement go to Ridgepoint Tower now.|QID|147|M|83.99,78.92|
+T Protect The Frontier|QID|52|M|73.97,72.18|N|To Guard Thomas.|
+T Bounty On Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|
+T Report To Thomas|QID|71|M|73.97,72.18|N|To Guard Thomas.|
+A Cloth And Leather Armor|QID|59|M|73.97,72.18|N|From Guard Thomas.|
+C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps.|QID|83|M|71.20,78.86|S|
+C Manhunt|N|Kill Morgan the collector and  pick up his ring.|T|Morgan The Collector|QID|147|M|71.05,80.63|
+C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps.|QID|83|M|71.20,78.86|US|
+T Cloth And Leather Armor|QID|59|M|79.46,68.71|N|To Sara Timberlain.|
+T Fine Linen Goods|QID|83|M|79.46,68.71|N|To Sara Timberlain.|
+T Manhunt|QID|147|M|81.86,66.04|N|To Marshal McCree.|
+F Goldshire|QID|114|M|81.86,66.04|N|Fly to Goldshire.|
+r Sell Junk, Restock, Train and Repair.|QID|114|
 
-T The Escape|QID|114|M|43.15,89.63|
-R Jerod's Landing |N|If you want the exploration achievement for Elwynn Forest head to Jerod's Landing now. | |QID|114|M|46.42,86.90|
-H Lion's Pride Inn|QID|114|U|6948|
-A Elmore's task|QID|1097|M|41.71,65.55|
-A A Swift Message|QID|26393|M|41.71,65.55|
-T A Swift Message|QID|26393|M|41.72,64.64|
-A Continue To Stormwind|QID|26394|M|41.72,64.64|
-F Trade District|QID|26394|M|41.72,64.64|
-T Continue To Stormwind|QID|26394|Z|Stormwind City|M|77.17,60.98|
-A Dungar Longdrink|QID|26395|Z|Stormwind City|M|77.17,60.98|
-T Elmore's Task|QID|1097|Z|Stormwind City|M|59.72,33.78|
-T Dungar Longdrink|QID|26395|Z|Stormwind City|M|70.93,72.48|
-A Return To Argus|QID|26396|Z|Stormwind City|M|70.93,72.48|
-F Goldshire|QID|26396|Z|Stormwind city|M|70.93,72.48|
-T Return To Argus|QID|26396|M|41.71,65.55|
-A Westbrook Garrison Needs Help!|QID|239|M|42.10,65.93|
-A Hero's Call: Westfall!|QID|26378|M|42.10,65.93|
-A Princess Must Die!|QID|88|M|34.66,84.48|
-C Princess Must Die!|N|Kill Princess and pickup the Brass Collar. | |QID|88|M|33.02,85.52|
-T Princess Must Die!|QID|88|M|34.66,84.48|
-A Wanted: Hogger|QID|176|M|24.54,74.67|
-T Westbrook Garrison Needs Help!|QID|239|M|24.23,74.45|
-A Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|
+T The Escape|QID|114|M|43.15,89.63|N|To Maybell Maclure.|
+R Jerod's Landing |N|If you want the exploration achievement for Elwynn Forest head to Jerod's Landing now.|QID|114|M|46.42,86.90|
+H Lion's Pride Inn|QID|114|U|6948|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|M|43.77,65.80|
+A Elmore's task|QID|1097|M|41.71,65.55|N|From Smith Argus.|
+A A Swift Message|QID|26393|M|41.71,65.55|R|Human|N|From Smith Argus.|
+T A Swift Message|QID|26393|M|41.72,64.64|R|Human|N|To Bartlett the Brave.|
+A Continue To Stormwind|QID|26394|M|41.72,64.64|R|Human|N|From Bartlett the Brave.|
+F Trade District|QID|26394|M|41.72,64.64|N|Fly to the Trade District.|
+T Continue To Stormwind|QID|26394|Z|Stormwind City|M|77.17,60.98|R|Human|N|To Osric Strang.|
+A Dungar Longdrink|QID|26395|Z|Stormwind City|M|77.17,60.98|R|Human|N|From Osric Strang.|
+T Elmore's Task|QID|1097|Z|Stormwind City|M|59.72,33.78|N|To Grimand Elmore.|
+T Dungar Longdrink|QID|26395|Z|Stormwind City|M|70.93,72.48|R|Human|N|To Osric Strang.|
+A Return To Argus|QID|26396|Z|Stormwind City|M|70.93,72.48|R|Human|N|From Osric Strang.|
+F Goldshire|QID|26396|Z|Stormwind city|M|70.93,72.48|N|Fly back to Goldshire.|
+T Return To Argus|QID|26396|M|41.71,65.55|R|Human|N|To Smith Argus.|
+A Westbrook Garrison Needs Help!|QID|239|M|42.10,65.93|N|From Marshal Dughan.|
+A Hero's Call: Westfall!|QID|26378|M|42.10,65.93|N|From Marshal Dughan.|
+A Princess Must Die!|QID|88|M|34.66,84.48|N|From Ma Stonefield.|
+C Princess Must Die!|N|Kill Princess and pickup the Brass Collar.|QID|88|M|33.02,85.52|
+T Princess Must Die!|QID|88|M|34.66,84.48|N|To Ma Stonefield.|
+A Wanted: Hogger|QID|176|M|24.54,74.67|N|From the Wanted Poster.|
+T Westbrook Garrison Needs Help!|QID|239|M|24.23,74.45|N|To Deputy Rainer.|
+A Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|From Deputy Rainer.|
 C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|S|
 C Wanted: Hogger|N|Get Hogger down in health quickly, help will arrive and take him.|M|25.1,94.6|QID|176|
-A Furlbrow's Deed|N|It's a folded paper next to a dead man. | |QID|184|M|24.78,95.26|
+A Furlbrow's Deed|N|It's a folded paper next to a dead man.|QID|184|M|24.78,95.26|
 C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|US|
-T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|
+T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|To Deputy Rainer.|
 T Wanted: Hogger|QID|176|M|42.2,65.9|N|To Marshal Dughan.|
 ]]
 

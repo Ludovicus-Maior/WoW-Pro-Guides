@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2011-05-28 19:18
+-- Who: Crackerhead22
+-- Log: Added notes.
+
+-- URL: http://wow-pro.com/node/3213/revisions/24291/view
 -- Date: 2011-04-29 14:20
 -- Who: Ludovicus Maior
 
@@ -38,15 +43,16 @@ T Murder Was The Case That They Gave Me|QID|26209|M|60.10,19.32|N|To Lieutenant 
 A Hot On the Trail: The Riverpaw Clan|QID|26213|RANK|1|M|60.10,19.32|N|From Lieutenant Horatio Laine.|
 A Hot On the Trail: Murlocs|QID|26214|RANK|1|M|60.10,19.32|N|From Lieutenant Horatio Laine.|
 
-C Hot On the Trail: Murlocs|QID|26214|S|M|55.98,11.02|N|Kill Murlocs and Gnolls until you have their clues.|
+C Hot On the Trail: Murlocs|QID|26214|S|M|55.98,11.02|N|Kill Murlocs until you have their clue.|
+C Hot On the Trail: The Riverpaw Clan|QID|26213|M|58.28,11.45|N|Kill Gnolls until you have their clue.|S|
 A Captain Sanders' Hidden Treasure|QID|26353|RANK|1|M|55.98,11.02|N|This quest is from loot dropped by murlocs.|U|1357|
-C Hot On the Trail: The Riverpaw Clan|QID|26213|M|58.28,11.45|N|Kill Gnolls until you have their clue.|
+C Hot On the Trail: The Riverpaw Clan|QID|26213|M|58.28,11.45|N|Kill Gnolls until you have their clue.|US|
 C Hot On the Trail: Murlocs|QID|26214|US|M|55.98,11.02|N|Continue killing Murlocs until you have their clues.|
 T Hot On the Trail: The Riverpaw Clan|QID|26213|RANK|1|M|60.10,19.32|N|To Lieutenant Horatio Laine.|
 T Hot On the Trail: Murlocs|QID|26214|RANK|1|M|60.10,19.32|N|To Lieutenant Horatio Laine.|
 A Meet Two-Shoed Lou|QID|26215|PRE|26214|RANK|1|M|60.13,19.37|N|From Lieutenant Horatio Laine.|
 
-f Furlbrow's Pumpkin Farm|QID|11911|M|49.85,18.75|N|At Hoboair.|
+f Furlbrow's Pumpkin Farm|QID|26215|M|49.85,18.75|N|At Hoboair.|
 
 T Meet Two-Shoed Lou|QID|26215|M|49.71,19.41|N|To Two-Shoed Lou.|
 A Livin' the Life|QID|26228|PRE|26215|RANK|1|M|49.71,19.41|N|From Two-Shoed Lou.|
@@ -71,12 +77,12 @@ T Shakedown at the Saldean's|QID|26236|M|56.03,31.33|N|To Farmer Saldean.|
 
 A Times are Tough|QID|26237|PRE|26236|RANK|1|M|56.03,31.33|N|From Farmer Saldean.|
 A Westfall Stew|QID|26241|RANK|1|M|56.35,30.55|N|From Salma Saldean.|
-C Westfall Stew|QID|26241|S|QO|Okra: 0/6;Goretusk Flank: 0/6;Stringy Fleshripper Meat: 0/6|M|56.50,28.46|N|From now on Kill Goretusks, Fleshrippers, Harvest Watchers and collect Okra.|
+C Westfall Stew|QID|26241|S|M|56.50,28.46|N|From now on Kill Goretusks, Fleshrippers, Harvest Watchers and collect Okra.|
 
 A Heart of the Watcher|QID|26252|RANK|1|M|55.23,34.87|N|Accept this quest when you loot a Harvest Watcher Heart.|
 T Heart of the Watcher|QID|26252|M|56.15,31.40|N|To Farmer Saldean.|
 
-A It's Alive!|QID|26257|PRE|26252|RANK|1|M|56.15,31.40|N|From Farmer Saldean.|
+A It's Alive!|QID|26257|PRE|26252|RANK|1|M|56.15,31.40|N|From Farmer Saldean.|U|57935|
 C Times are Tough|QID|26237|M|55.18,36.90|N|Kill Harvest Watchers.|
 C Westfall Stew|QID|26241|US|M|59.44,33.35|N|Finish gathering and killing for your supper.|
 T Times are Tough|QID|26237|M|56.07,31.31|N|To Farmer Saldean.|
@@ -89,16 +95,16 @@ A Hope for the People|QID|26266|RANK|1|M|56.37,30.60|N|From Salma Saldean.|
 C It's Alive!|QID|26257|U|57954|M|45.91,34.32|N|Use the Harvest Watcher Heart on an Overloaded Harvest Golem. Use Action 2 to run over Energized Reapers, Action 1 for one-on-one fighting.|
 T It's Alive!|QID|26257|M|55.96,31.34|N|To Farmer Saldean.|
 
-T Captain Sanders' Hidden Treasure|QID|26353|M|25.93,47.76|
-A Captain Sanders' Hidden Treasure|QID|26354|PRE|26353|RANK|1|M|25.93,47.76|
+T Captain Sanders' Hidden Treasure|QID|26353|M|25.93,47.76|N|To the Captain's Footlocker.|
+A Captain Sanders' Hidden Treasure|QID|26354|PRE|26353|RANK|1|M|25.93,47.76|N|From the Captain's Footlocker.|
 
-T Captain Sanders' Hidden Treasure|QID|26354|M|40.58,47.79|
-A Captain Sanders' Hidden Treasure|QID|26355|PRE|26354|RANK|1|M|40.58,47.79|
+T Captain Sanders' Hidden Treasure|QID|26354|M|40.58,47.79|N|To the Broken Barrel.|
+A Captain Sanders' Hidden Treasure|QID|26355|PRE|26354|RANK|1|M|40.58,47.79|N|From the Broken Barrel.|
 
-T Captain Sanders' Hidden Treasure|QID|26355|M|40.65,17.05|
-A Captain Sanders' Hidden Treasure|QID|26356|PRE|26355|RANK|1|M|40.65,17.05|
+T Captain Sanders' Hidden Treasure|QID|26355|M|40.65,17.05|N|To the Old Jug.|
+A Captain Sanders' Hidden Treasure|QID|26356|PRE|26355|RANK|1|M|40.65,17.05|N|From the Old Jug.|
 
-T Captain Sanders' Hidden Treasure|QID|26356|M|25.95,16.96|
+T Captain Sanders' Hidden Treasure|QID|26356|M|25.95,16.96|N|Swim across the water to the small isle, and turn the quest into the Locked Chest.|
 
 f Sentinel Hill|QID|26266|NC|M|56.96,47.10|N|Get the flight path.|
 
@@ -132,13 +138,14 @@ A The Coast Isn't Clear|QID|26348|PRE|26371|RANK|1|M|30.55,85.54|N|From Captain 
 A Keeper of the Flame|QID|26347|RANK|1|M|30.55,85.54|N|From Captain Grayson.|
 A The Coastal Menace|QID|26349|RANK|1|M|30.55,85.54|N|From Captain Grayson.|
 
-C The Coastal Menace|QID|26349|M|34.27,84.81|
-C The Coast Isn't Clear|QID|26348|M|33.63,84.34|
+C The Coast Isn't Clear|QID|26348|M|33.63,84.34|S|N|Kill Murloc Tidehunters and Oracles.|
+C The Coastal Menace|QID|26349|M|34.27,84.81|N|Find, kill and loot Old Murk-Eye.|
+C The Coast Isn't Clear|QID|26348|M|33.63,84.34|US|N|Kill Murloc Tidehunters and Oracles.|
 
 T The Coast Isn't Clear|QID|26348|M|30.53,85.55|N|To Captain Grayson.|
 T The Coastal Menace|QID|26349|M|30.53,85.55|N|To Captain Grayson.|
 
-C Jango Spothide|QID|26288|M|61.79,73.76|
+C Jango Spothide|QID|26288|M|61.79,73.76|N|Kill Jango Spothide, Riverpaw Mystics and Taskmasters.|
 
 T Find Agent Kearnen|QID|26289|M|68.23,70.43|N|To Agent Kearnen.|
 A Secrets of the Tower|QID|26290|PRE|26289|RANK|1|M|68.23,70.43|N|From Agent Kearnen.|
@@ -157,14 +164,14 @@ F Moonbrook|QID|26292|NC|M|42.13,64.11|N|Fly to Moonbrook.|
 T To Moonbrook!|QID|26292|M|42.11,63.99|N|To Captain Alpert.|
 A Propaganda|QID|26295|PRE|26292|RANK|1|M|42.11,63.99|N|From Captain Alpert.|
 A Evidence Collection|QID|26296|RANK|1|M|43.69,67.90|N|Looted from a Moonbrook Thug.|U|58117|
-C Evidence Collection|QID|26296|S|M|45.53,70.95|N|Kill thugs and loot their bandanas while finding propoganda.|
-C Propaganda|QID|26295|M|41.56,66.42;42.27,69.68;42.57,69.67;43.48,66.72|N|Collect information.|
+C Evidence Collection|QID|26296|S|M|45.53,70.95|N|Kill thugs and loot their bandanas..|
+C Propaganda|QID|26295|M|41.56,66.42;42.27,69.68;42.57,69.67;43.48,66.72|N|Collect propoganda.|
 C Evidence Collection|QID|26296|US|M|45.53,70.95|N|Finish killing Thugs.|
 T Propaganda|QID|26295|M|42.16,64.15|N|To Captain Alpert.|
 
 A The Dawning of a New Day|QID|26297|PRE|26295|RANK|1|M|42.16,64.15|N|From Captain Alpert.|
 T Evidence Collection|QID|26296|M|42.16,64.15|N|To Captain Alpert.|
-C The Dawning of a New Day|QID|26297|M|43.45,69.19|
+C The Dawning of a New Day|QID|26297|M|43.45,69.19|N|Head to the waypoint and wait for quest completion.|
 T The Dawning of a New Day|QID|26297|M|42.18,64.19|N|To Captain Alpert.|
 
 A Secrets Revealed|QID|26319|PRE|26297|RANK|1|M|42.18,64.19|N|From Captain Alpert.|
@@ -174,13 +181,13 @@ R Defias Hideout|QID|26320|M|40.86,81.98|N|Run inside the building.|
 C A Vision of the Past|QID|26320|NC|U|58147|N|Follow the orphans and homeless to The Deadmines instance. Stick to the right. Once you enter the Deadmines Instance, use the incense. Then get ready to feel like a bad person if you've done the original Deadmines.|
 
 A The Foreman|QID|27756|RANK|1|M|29.78,28.11|Z|The Deadmines|N|If you wish to do the Deadmines Instance. If not, just leave and check off this step. From Lieutenant Horatio Laine.|
-C Keeper of the Flame|QID|26347|M|37.79,40.04|
+C Keeper of the Flame|QID|26347|M|37.79,40.04|N|Kill and loot Chasm Slimes until you get 5 Chasm Oozes.|
 
-H Sentinel Hill|QID|26347|NC|M|30.50,85.63|N|Hearth to Sentinel Hill.|
+H Sentinel Hill|QID|26347|NC|M|56.45,47.57|N|Hearth to Sentinel Hill.|
 
 T A Vision of the Past|QID|26320|M|56.27,47.45|N|To Marshal Gryan Stoutmantle.|
-A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|
-C Rise of the Brotherhood|QID|26322|NC|M|56.36,47.55|
+A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|From Marshal Gryan Stoutmantle.|
+C Rise of the Brotherhood|QID|26322|NC|M|56.36,47.55|N|Watch the scene.|
 T Keeper of the Flame|QID|26347|M|30.55,85.49|N|To Captain Grayson.|
 
 F Stormwind City|NC|N|Hearth to Sentinel Hill, or run to Moonbrook and fly from there.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2011-05-27 02:13
+-- Who: Crackerhead22
+-- Log: Fixed typo on step "N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor|" and fixed flight point grab for Allerian Stronghold.
+
+-- URL: http://wow-pro.com/node/3277/revisions/24306/view
 -- Date: 2011-04-29 14:51
 -- Who: Ludovicus Maior
 -- Log: Line 55 for step N has 3 M coords, Line 248 for step C has unknown tag [52.00,58.00], Line 273 for step C has unknown tag [52.00,58.00], Line 289 for step T has unknown tag [To Magistriz Fyalenn.].
@@ -103,7 +108,7 @@ A Unruly Neighbors |QID|9998|M|58.3,54.8|N|From Bertelm.|
 A Timber Worg Tails |QID|10016|M|58.3,54.8|N|From Bertelm.|
 T The Fate of Tuurem |QID|9793|M|58.5,53.6|N|To Andarl.|
 A Magical Disturbances |QID|10026|M|58.5,53.6|N|From Andarl.|
-f Tuurem|QID|10021|N|Get the flight path.|M|59.45,55.40|
+f Allerian Stronghold|QID|10021|N|Get the flight path.|M|59.45,55.40|
 
 N From now on... |QID|10016|N|From now on, kill Timber Worgs, Timber Alphas, Warp Stalkers, and look for Olemba Seeds on the ground.|
 C Thin the Flock|N|Kill mobs for this quest.|QID|10869|S|
@@ -113,7 +118,7 @@ K Ayit|QID|9986|N|Kill Ayit.|M|59.40,23.40|QO|Ayit slain: 1/1|
 N Eastern Altar|QID|10021|N|Right-click the Eastern Altar here.|M|49.20,20.30|QO|Eastern Altar: 1/1|REP|Aldor|
 K Ashkaz|QID|9986|N|Kill Ashkaz in the trees here.|M|49.00,17.00|QO|Ashkaz slain: 1/1|
 C The Eyes of Skettis|N|Loot the Eye of Veil Reskk here.|QID|10847|M|50.15,19.40|
-N Northern Altar|QID|10021|N|Right-click the northern alter here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor|
+N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor|
 C Restoring the Light|N|Right-click the Altar here to complete the quest.|QID|10021|M|48.10,14.50|REP|Aldor|
 C Thin the Flock|N|Kill mobs until you finish this quest.|QID|10869|US|
 C The Outcast's Plight|N|Kill Arakkoa to get their feathers.|QID|10917|US|

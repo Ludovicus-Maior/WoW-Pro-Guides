@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2011-05-25 18:39
+-- Who: Fluclo
+-- Log: Added note for the quest Make 'em Squeal
+
+-- URL: http://wow-pro.com/node/3235/revisions/24419/view
+-- Date: 2011-05-25 18:34
+-- Who: Fluclo
+-- Log: Missing quest 
+
+-- URL: http://wow-pro.com/node/3235/revisions/24300/view
 -- Date: 2011-04-29 14:34
 -- Who: Ludovicus Maior
 -- Log: Line 44 for step T has unknown tag [To Commander Walpole.], Line 243 for step C has unknown tag [Take out the grunts.].
@@ -139,7 +149,8 @@ A Teegan's Troubles|QID|25036|M|66.99,46.60|N|From Thomas Paxton.|
 
 A Scavenged|QID|25002|M|61.88,42.10|N|From Mangled Body.|
 
-C Scavenged|QID|25002|M|62.30,45.11|
+C Scavenged|QID|25002|M|62.30,45.11|M|61.30,44.10|N|Loot the Crates from the floor.|
+C Teegan's People|QID|25000|US|M|61.3,44.1|N|Kill and loot the various Raptors in the area|
 
 T Teegan's Troubles|QID|25036|M|56.15,42.74|N|To Corporal Teegan.|
 
@@ -149,6 +160,8 @@ A Make 'em Squeal|QID|25015|M|56.12,42.72|N|From Corporal Teegan.|
 
 A A Failure to Communicate|QID|25022|M|56.12,42.72|N|From Corporal Teegan.|
 
+T Teegan's People|QID|25000|M|56.14,42.55|N|To Goucho|
+
 A Filthy Animals|QID|25008|M|56.14,42.55|N|From Goucho (he also repairs and buys junk, i suggest doing this)|
 
 C Filthy Animals|QID|25008|S|
@@ -157,7 +170,7 @@ C Make 'em Squeal|QID|25015|S|M|56.27,45.76|
 
 C A Failure to Communicate|QID|25022|M|53.14,46.69|
 
-C Make 'em Squeal|QID|25015|US|M|53.59,46.69|
+C Make 'em Squeal|QID|25015|US|M|53.59,46.69|N|Kill the Bristlebacks, the Bramblestaff will drop from one of them.|
 
 C Filthy Animals|QID|25008|US|M|54.85,45.17|
 

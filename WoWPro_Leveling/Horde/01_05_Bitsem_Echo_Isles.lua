@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-05-28 11:12
+-- Who: Ludovicus Maior
+-- Log: Coord/Zone tweaks
+
+-- URL: http://wow-pro.com/node/3199/revisions/24435/view
+-- Date: 2011-05-28 11:04
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3199/revisions/24319/view
 -- Date: 2011-04-29 15:27
 -- Who: Ludovicus Maior
 -- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
@@ -76,7 +85,7 @@
 
 WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar - Echo Isles (Troll)', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', function()
 return [[
-
+N You silly Death Knight|QID|24764|C|DeathKnight|N|Do not bother with this zone.  There are no quests for YOU.|
 A The Rise of the Darkspear|RANK|1|QID|24764|C|Druid|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24750|C|Mage|M|62.43,84.53|N|From Jin'thala.|
 A The Rise of the Darkspear|RANK|1|QID|24770|C|Rogue|M|62.43,84.53|N|From Jin'thala.|

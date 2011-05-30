@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2011-05-28 11:03
+-- Who: Ludovicus Maior
+-- Log: PLayed the zone, fixed some text, coords and zones.
+
+-- URL: http://wow-pro.com/node/3305/revisions/24276/view
 -- Date: 2011-04-26 23:16
 -- Who: Crackerhead22
 -- Log: Fixed M tag errors for "T Eye of the Storm" "N Speak to Fathom-Lord Zin'jatar" "f Voldrin's Hold". Fixed U tag error for "U Visions of the Past: Rise From The Deep".
@@ -331,8 +336,9 @@ A Across the Great Divide|QID|25471|PRE|27708|M|63.8,59.7|Z|Kelp'thar Forest|N|F
 f Kelp'thar Forest|QID|25471|M|42.39,66.12|Z|Kelp'thar Forest|N|Grab the flight point from the Swift Seahorse.|
 
 f Shimmering Expanse|QID|25471|M|57.06,17.11|Z|Shimmering Expanse|N|Grab the flight point from Francis Greene.|
-T Across the Great Divide|QID|25471|M|56.03,13.71;60.29,19.51|Z|Shimmering Expanse|N|To Farseer Gadra. Turn in is over the mass of land. The first waypoint is the entrance to the cave.|
-A The Looming Threat|QID|25334|PRE|25471|M|56.0,13.7|Z|Shimmering Expanse|N|From Farseer Gadra.|
+N Across the Great Divide|QID|25471|M|48.31,73.28|Z|Kelp'thar Forest|N|Head to the entrance to the cave. Then click off this step.|
+T Across the Great Divide|QID|25471|M|56.02,13.68|Z|Shimmering Expanse|N|To Farseer Gadra. Head into the cave.|
+A The Looming Threat|QID|25334|PRE|25471|M|56.02,13.68|Z|Shimmering Expanse|N|From Farseer Gadra.|
 C The Looming Threat|QID|25334|M|56.0,13.7|Z|Shimmering Expanse|N|Speak to Farseer Gadra and tell him you are ready to enter the vision. after a few seconds you will be pulled into a vision. Gadra will explain the current situation in Vashj'ir.|
 T The Looming Threat|QID|25334|M|72.89,37.35|Z|Shimmering Expanse|N|When he is finished speaking, speak to him again to turn in The Looming Threat and be transported back to Damplight Chamber, which is not a peaceful as when you left.|
 A Backed Into A Corner|QID|25164|PRE|25334|M|56.0,13.7|Z|Shimmering Expanse|N|From Farseer Gadra.|
@@ -376,7 +382,7 @@ T Don't be Shellfish|QID|25219|M|49.3,42.6|Z|Shimmering Expanse|N|To Earthmender
 T Toshe's Vengeance|QID|25359|M|64.1,42.3|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
 A Vengeful Heart|QID|25439|RANK|1|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
 A Vortex|QID|25441|PRE|25359|RANK|2|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-C Vengeful Heart|QID|25439|PRE|25359|S|M|66.3,46.5|Z|Shimmering Expanse|N|Kill Zin'Jatar Ravagers. Make sure you use the Globes of Tumultuous Water after the nage will command the snakes to attack you.|
+C Vengeful Heart|QID|25439|PRE|25359|S|M|66.3,46.5|Z|Shimmering Expanse|N|Kill Zin'Jatar Ravagers. Make sure you use the Globes of Tumultuous Water after the nage command the snakes to attack you.|
 C Vortex|QID|25441|M|64.7,45.7|RANK|2|U|54785|Z|Shimmering Expanse|N|Use the Globes of Tumultuous Water to suck up the swarming serpents. |
 C Vengeful Heart|QID|25439|US|M|66.3,46.5|Z|Shimmering Expanse|N|Kill remaining Zin'Jatar Ravagers.|
 T Vortex|QID|25441|M|64.1,42.2|RANK|2|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
@@ -461,7 +467,7 @@ N Tunnel west of Quel'Dormir Gardens scouted|QID|25582|M|35.24,63.06|Z|Shimmerin
 C A Better Vantage|QID|25582|M|39.17,56.89|Z|Shimmering Expanse|N|Scout the area.|
 C Swift Approach|QID|25580|RANK|2|US|M|40.3,62.3;41.37,65.78;40.87,68.85;41.81,71.86;42.23,74.49|Z|Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
 C Caught Off-Guard|QID|25579|RANK|2|US|M|41.7,53.4;39.1,63.6;38.8,78.8;33.2,65.9;43.3,67.1;39,62|Z|Shimmering Expanse|N|Kill remaining Azsh'ir Patrollers.|
-A Piece of the Past|QID|27716|RANK|2|U|62281|N|At this time you should have looted an Ancient Elven Etching from one of the naga. Accept the quest.
+A Piece of the Past|QID|27716|RANK|2|U|62281|N|If you are VERY lucky, you have looted an Ancient Elven Etching from one of the naga (2% chance). Accept the quest.|
 T An Occupation of Time|QID|25581|RANK|2|M|46.74,57.52;49.6,57.1|Z|Shimmering Expanse|N|To Levia Dreamwalker.|
 T Piece of the Past|QID|27716|RANK|2|M|49.6,57.1|Z|Shimmering Expanse|N|To Levia Dreamwalker.|
 T Swift Approach|QID|25580|RANK|2|M|49.2,57|Z|Shimmering Expanse|N|To Captain Taylor.|
@@ -579,7 +585,7 @@ C Full Circle|QID|26219|M|69.6,75.3|Z|Vashj'ir|Z|Shimmering Expanse|N|Get on boa
 T Full Circle|QID|26219|M|54.5,72.8|Z|Abyssal Depths|N|To Captain Glovaal.|
 A Bio-Fuel|QID|26103|PRE|26219|M|55.5,72.9|Z|Abyssal Depths|N|Engineer Hexascrub.|
 f Darkbreak Cove|QID|26103|M|56.92,75.52|Z|Abyssal Depths|N|Grab the flight point at the Swift Seahorse.|
-A Claim Korthun's End|QID|26105|PRE|26103|M|19.51,71.71;54.58,75.62|Z|Abyssal Depths|N|Kill a Hellscream Seadog to automatically be offered this quest.|
+A Claim Korthun's End|QID|26105|PRE|26103|M|54.58,75.62;59.51,71.71|Z|Abyssal Depths|N|Go up from the cave to Korthun's end and kill a Hellscream Seadog to automatically be offered this quest.|
 C Claim Korthun's End|QID|26105|S|M|55.9,70.6;56.5,72.6;51.9,70.7;53,58;49.2,67.3|Z|Abyssal Depths|N|Kill Hellsong Seadogs.|
 C Bio-Fuel|QID|26103|M|56.8,44.2;53.9,49.6;54.5,62.9;49.3,74.7;56.7,74.4|U|56821|Z|Abyssal Depths|N|Oilify 4 Seabrush Terrapins, Scourgut Remora and Spinescale Hammerheads after killing them.|
 T Bio-Fuel|QID|26103|M|55.5,72.9|Z|Abyssal Depths|N|To Engineer Hexascrub.|
@@ -603,7 +609,7 @@ T Enormous Eel Egg|QID|26019|M|47.4,49.7|RANK|2|Z|Abyssal Depths|N|To Humphrey D
 A The Brothers Digsong 2: Eel-Egg-Trick Boogaloo|QID|26021|RANK|2|PRE|26019|N|From Humphrey Digsong.|Z|Abyssal Depths|
 A One Last Favor|QID|26080|PRE|26017;26018|M|47.4,49.7|Z|Abyssal Depths|N|From Humphrey Digsong.|
 C The Brothers Digsong 2: Eel-Egg-Trick Boogaloo|QID|26021|RANK|2|U|56808|M|45.23,53.33|Z|Abyssal Depths|N|Use the Device on the Eel.|
-T The Brothers Digsong 2: Eel-Egg-Trick Boogaloo|QID|26021|RANK|2|N|To Humphrey Digsong.|Z|Abyssal Depths|
+T The Brothers Digsong 2: Eel-Egg-Trick Boogaloo|QID|26021|RANK|2|N|To Humphrey Digsong.|M|47.4,49.7|Z|Abyssal Depths|
 C Claim Korthun's End|QID|26105|US|M|55.9,70.6;56.5,72.6;51.9,70.7;53,58;49.2,67.3|Z|Abyssal Depths|N|Kill the remaining Hellsong Seadogs.|
 T Claim Korthun's End|QID|26105|M|55.57,72.92|Z|Abyssal Depths|N|To Jorlan Trueblade.|
 T One Last Favor|QID|26080|M|54.5,73|Z|Abyssal Depths|N|To Captain Glovaal.|
@@ -669,7 +675,7 @@ T Prisoners|QID|26144|RANK|2|M|31.2,58.8|Z|Abyssal Depths|N|Quest ends automatic
 T Runestones of Binding|QID|26141|M|38.7,44.8|Z|Abyssal Depths|N|To L'ghorek.|
 T Ascend No More|QID|26142|M|38.7,44.8|Z|Abyssal Depths|N|To L'ghorek.|
 A Twilight Extermination|QID|26154|PRE|26141;26144|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek.|
-C Twilight Extermination|QID|26154|U|57172|M|33.83,52.78;34.4,50.3;31.3,50.5;35.4,53.0|Z|Abyssal Depths|N|Head to the temple at the center of the main chamber. Everybody will ignore you, so don't panic. Go up to one of the Ascendants of the Deep and use the Attuned Runestone of Binding on it. You will posses the Ascendant. Go fly through the groups around the temple, using the abilities on your vehicle bar to kill everything in sight. The first ability is your damage dealing ability. The second one will pull in everything around you. The third will heal you and increase your damage for a short time. Kill Twilight Devotees.|
+C Twilight Extermination|QID|26154|U|57172|M|33.83,52.78;34.4,50.3;31.3,50.5;35.4,53.0|Z|Abyssal Depths|N|Head to the temple at the center of the main chamber. Everybody will ignore you, so don't panic. Go up to one of the Bound Torrent and use the Attuned Runestone of Binding on it. You will posses the Torrent. Go fly through the groups around the temple, using the abilities on your vehicle bar to kill everything in sight. The first ability is your damage dealing ability. The second one will pull in everything around you. The third will heal you and increase your damage for a short time. Kill Twilight Devotees.|
 T Twilight Extermination|QID|26154|N|Quest ends automatic.|
 A All that Rises|QID|26143|PRE|26154|M|34.6,50.3|Z|Abyssal Depths|N|Look for Hallazeal the Ascended.|
 C All that Rises|QID|26143|U|57172|M|33.2,55.7|Z|Abyssal Depths|N|Posses an Ascendent of the Deep, if needed. The entrances to the temple are on the North and South sides. Inside you will find Hallazeal the Ascended. To kill him, keep him in front of you and spam the first ability on your bar. Ability 3 will still heal you. Ability 2 knocks enemies back now.|
@@ -678,6 +684,6 @@ A Back to Darkbreak Cove|QID|26181|PRE|26143|M|38.7,44.8|Z|Abyssal Depths|N|From
 T Back to Darkbreak Cove|QID|26181|M|39.84,48.46;19.58,72.03;55.73,72.96|Z|Abyssal Depths|N|To Erunak Stonespeaker.|
 A Defending the Rift|QID|26193|PRE|26181|M|55.73,72.96|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
 C Defending the Rift|QID|26193|N|Speak to Erunak again and tell him you are ready to enter the battle.|Z|Abyssal Depths|
-T Defineding the Rift|QID|26193|M|69.7,34.5|Z|Abyssal Depths|N|To Captain Taylor.|
+T Defending the Rift|QID|26193|M|69.7,34.5|Z|Abyssal Depths|N|To Captain Taylor.|
 ]]
 end)

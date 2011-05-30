@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2011-05-25 20:47
+-- Who: Fluclo
+-- Log: Auto complete when opening the bag
+
+-- URL: http://wow-pro.com/node/3241/revisions/24150/view
 -- Date: 2011-03-08 12:27
 -- Who: Ludovicus Maior
 -- Log: The [The Orc Report] does not come from "Swamp Eye" Jarl, but from a grave near the house he is in.
@@ -205,7 +210,7 @@ T Secondhand Diving Gear|QID|27236|M|63.73,17.03|N|To Renn McGill.|
 
 A Recover the Cargo!|QID|27237|M|63.73,17.03|N|From Renn McGill.|
 
-U Open the supplies bag.|QID|27237|U|33045|N|(Click to manually complete)|
+U Open the supplies bag.|QID|27237|U|33045|L|33040|N|(Click to manually complete)|
 
 U Put on the helmet.|QID|27237|U|33040|N|(Click to manually complete)|
 

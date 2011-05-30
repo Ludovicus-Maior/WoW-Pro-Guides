@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2011-05-28 04:21
+-- Who: Crackerhead22
+-- Log: Added in "Warchief's Command: Blasted Lands!" and "Blasted Lands: The Other Side of the World" turn-ins. Put optional tags on the turn-ins for the breadcrumb quests.
+
+-- URL: http://wow-pro.com/node/3268/revisions/24338/view
 -- Date: 2011-04-29 16:38
 -- Who: Ludovicus Maior
 -- Log: Line ** for step * has unknown tag [If you didn't
@@ -14,7 +19,9 @@
 WoWPro.Leveling:RegisterGuide('JiyBla5560', 'Blasted Lands', 'Jiyambi', '55', '60', 'JamHel6063', 'Horde', function()
 return [[
 
-T Call of the Warmatron|QID|28865|M|40.47,11.65|N|To Okrilla.|
+T Warchief's Command: Blasted Lands!|QID|28671|M|40.47,11.65|N|To Okrilla.|O|
+T Blasted Lands: The Other Side of the World|QID|28858|M|40.47,11.65|N|To Okrilla.|O|
+T Call of the Warmatron|QID|28865|M|40.47,11.65|N|To Okrilla.|O|
 A Futile Pride|QID|25674|M|40.47,11.65|N|From Okrilla.|
 C Futile Pride|QID|25674|M|42.39,15.00|N|Kill one of the ogres that frequently run into the camp.|
 T Futile Pride|QID|25674|M|40.49,11.67|N|To Okrilla.|
