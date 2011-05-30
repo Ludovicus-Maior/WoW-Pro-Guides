@@ -1,4 +1,19 @@
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2011-05-30 05:29
+-- Who: Crackerhead22
+-- Log: Correct cords for the Dark Portal and Watch Commander Relthorn Netherwane.
+
+-- URL: http://wow-pro.com/node/3271/revisions/24449/view
+-- Date: 2011-05-30 05:26
+-- Who: Crackerhead22
+-- Log: Added |Z|Blasted Lands| for the steps that were missing it, that were still in the Blasted Lands.
+
+-- URL: http://wow-pro.com/node/3271/revisions/24448/view
+-- Date: 2011-05-30 05:19
+-- Who: Crackerhead22
+-- Log: Changed step 1 so it auto-completes upon entering Blasted Lands, corrected cords for the step on buying the Nethergarde Bitter.
+
+-- URL: http://wow-pro.com/node/3271/revisions/24326/view
 -- Date: 2011-04-29 16:05
 -- Who: Ludovicus Maior
 -- Log: Line 59 for step A has unknown tag [From Sergeant Altumus.], Line * for step N has unknown tag [Q], Line 115 for step N has unknown tag [Disrupt Their Reinforcements], Line 284 for step N has unknown tag [M5].
@@ -32,11 +47,11 @@
 
 WoWPro.Leveling:RegisterGuide("JamHel6062", "Hellfire Peninsula", "Jame", "60", "62", "JamZan6264", "Alliance", function()
 return [[
-R Portal to the Blasted Lands|QID|10119|N|By the Portal Trainer |Z|Stormwind City|M|50.3,86|
-B Nethergarde Bitter |QID|10119|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. |M|63.50,17.00|Z|Blasted Lands|
+R Blasted Lands|QID|10119|N|Take the portal to the Blasted Lands. It is right when you enter the tower where the waypoint is.|Z|Stormwind City|M|50.3,86|
+B Nethergarde Bitter |QID|10119|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep, then put it someplace safe in your bags. |M|59.4,14.87|Z|Blasted Lands|
 
-A Through the Dark Portal |QID|10119|M|58.3,55.9|N|From Watch Commander Relthorn Netherwane.|
-R Hellfire Peninsula |QID|10119|N|Go through the portal.|M|58.70,59.75|
+A Through the Dark Portal |QID|10119|M|54.66,50.44|N|From Watch Commander Relthorn Netherwane.|Z|Blasted Lands|
+R Hellfire Peninsula |QID|10119|N|Go through the portal.|M|55.01,54.13|Z|Blasted Lands|
 T Through the Dark Portal |QID|10119|M|87.3,50.7|N|To Commander Duron.|
 A Arrival in Outland |QID|10288|M|87.3,50.7|N|From Commander Duron.|
 T Arrival in Outland |QID|10288|M|87.4,52.4|N|To Amish Wildhammer.|

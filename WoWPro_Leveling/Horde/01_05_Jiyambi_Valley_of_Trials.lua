@@ -1,4 +1,19 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-05-30 11:55
+-- Who: Ludovicus Maior
+-- Log: Coord tweak around [The Burning Blade]
+
+-- URL: http://wow-pro.com/node/3199/revisions/24452/view
+-- Date: 2011-05-30 11:51
+-- Who: Ludovicus Maior
+-- Log: [Thazz'ril's Pick] decoupling.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24451/view
+-- Date: 2011-05-30 11:48
+-- Who: Ludovicus Maior
+-- Log: Coord Tweak for Shamans
+
+-- URL: http://wow-pro.com/node/3199/revisions/24438/view
 -- Date: 2011-05-28 11:12
 -- Who: Ludovicus Maior
 -- Log: Coord/Zone tweaks
@@ -154,8 +169,8 @@ T Vile Familiars|QID|25131|M|43.47,67.48|N|To Zureetha Fargaze, back at the Den.
 
 A Burning Blade Medallion|QID|25132|M|43.47,67.48|N|From Zureetha Fargaze.|
 A Thazz'ril's Pick|QID|25135|M|43.47,67.48|N|From Foreman Thazz'ril.|
-C Thazz'ril's Pick|QID|25135|NC|M|43.75,53.77|S|N|Inside the cave to the north.|
-C Burning Blade Medallion|QID|25132|M|42.43,53.53|N|Kill felstalkers on the way in, then kill and loot Yarrog Baneshadow.|
+C Thazz'ril's Pick|QID|25135|NC|M|43.75,53.77|N|Inside the cave, central passage.|
+C Burning Blade Medallion|QID|25132|M|42.43,53.53|N|Kill felstalkers on the way in, then kill and loot Yarrog Baneshadow. Rightmost passage.|
 T Thazz'ril's Pick|QID|25135|M|43.51,67.49|N|To Foreman Thazz'ril.|
 T Burning Blade Medallion|QID|25132|M|43.48,67.51|N|To Zureetha Fargaze.|
 A Report to Sen'jin Village|QID|25133|M|43.48,67.51|N|From Zureetha Fargaze.|

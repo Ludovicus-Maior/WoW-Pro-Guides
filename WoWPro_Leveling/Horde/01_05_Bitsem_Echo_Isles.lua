@@ -1,4 +1,19 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-05-30 11:55
+-- Who: Ludovicus Maior
+-- Log: Coord tweak around [The Burning Blade]
+
+-- URL: http://wow-pro.com/node/3199/revisions/24452/view
+-- Date: 2011-05-30 11:51
+-- Who: Ludovicus Maior
+-- Log: [Thazz'ril's Pick] decoupling.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24451/view
+-- Date: 2011-05-30 11:48
+-- Who: Ludovicus Maior
+-- Log: Coord Tweak for Shamans
+
+-- URL: http://wow-pro.com/node/3199/revisions/24438/view
 -- Date: 2011-05-28 11:12
 -- Who: Ludovicus Maior
 -- Log: Coord/Zone tweaks
@@ -138,7 +153,7 @@ A A Rough Start|RANK|1|QID|24773|PRE|24771|C|Rogue|M|65.90,83.24|N|From Legati.|
 A A Rough Start|RANK|1|QID|24641|PRE|24639|C|Warrior|M|65.78,84.52|N|From Nortet.|
 A A Rough Start|RANK|1|QID|26275|PRE|26273|C|Warlock|M|64.92,83.26|N|From Voldreka.|
 A A Rough Start|RANK|1|QID|24785|PRE|24783|C|Priest|M|67.66,83.02|N|From Tunari.|
-A A Rough Start|RANK|1|QID|24761|PRE|24759|C|Shaman|M|64.94,84.21|N|From Nekali.|
+A A Rough Start|RANK|1|QID|24761|PRE|24759|C|Shaman|M|65.90,83.24|N|From Nekali.|
 A A Rough Start|RANK|1|QID|24779|PRE|24777|C|Hunter|M|67.09,83.30|N|From Ortezza.|
 
 C A Rough Start|RANK|1|QID|24767|C|Druid|M|65.05,80.73|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
