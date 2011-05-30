@@ -6,6 +6,7 @@ WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
 WoWPro.DebugMode = false
 WoWPro.Guides = {}
+WoWPro.InitLockdown = true  -- Set when the addon is loaded
 
 -- WoWPro keybindings name descriptions --
 _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
@@ -126,6 +127,7 @@ function WoWPro:OnEnable()
 	if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro:CreateFrames()
 		WoWPro:CreateConfig()
+		WoWPro.EventFrame=CreateFrame("Button", "WoWPro.EventFrame", UIParent)
 		WoWPro.FramesLoaded = true
 	else -- Addon was previously disabled, so no need to create frames, just turn them back on
 		WoWPro:AbleFrames()
@@ -137,14 +139,48 @@ function WoWPro:OnEnable()
 		module:Enable()
 	end
 	
+	WoWPro:CustomizeFrames()	-- Applies profile display settings
+
+	-- Keybindings Initial Setup --
+	local keys = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+	if not keys then	
+		SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
+	end
+	local keys = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
+	if not keys then	
+		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
+	end
+
 	-- Event Setup --
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_QUERY_COMPLETE",
-		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD"
+		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD"
 	})
-	WoWPro.GuideFrame:SetScript("OnEvent", function(self, event, ...)		-- Setting up event handler
-		WoWPro:dbp("Event Fired: "..event)
+	WoWPro.LockdownTimer = nil
+	WoWPro.EventFrame:SetScript("OnUpdate", function(self, elapsed)
+	    if WoWPro.LockdownTimer ~= nil then
+	        WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
+	        if WoWPro.LockdownTimer < 0 then
+	            WoWPro.LockdownTimer = nil
+	            WoWPro.InitLockdown = false
+                WoWPro:LoadGuide()			-- Loads Current Guide (if nil, loads NilGuide)
+	        end
+	    end
+	end)
+	    
+	WoWPro.EventFrame:SetScript("OnEvent", function(self, event, ...)		-- Setting up event handler
+		if WoWPro.InitLockdown then
+		    WoWPro:dbp("LockEvent Fired: "..event)
+		else
+		    WoWPro:dbp("Event Fired: "..event)
+		end
+	
+
+		-- Unlocking event processong till after things get settled --
+		if event == "PLAYER_ENTERING_WORLD" then	    
+		    WoWPro.LockdownTimer = 2.0
+		end
 		
 		-- Receiving the result of the completed quest query --
 		if event == "QUEST_QUERY_COMPLETE" then
@@ -161,7 +197,18 @@ function WoWPro:OnEnable()
 			end
 			WoWPro:dbp("New Completed QIDs: "..num)
 			collectgarbage("collect")
-			WoWPro.UpdateGuide()
+			if not WoWPro.InitLockdown then
+			    WoWPro.UpdateGuide()
+			end
+		end
+		
+		if WoWPro.InitLockdown then
+		    return
+		end
+		
+		-- Locking event processong till after things get settled --
+		if event == "PLAYER_LEAVING_WORLD" then
+		    WoWPro.InitLockdown = true
 		end
 		
 		-- Unlocking guide frame when leaving combat --
@@ -189,31 +236,20 @@ function WoWPro:OnEnable()
 		end
 	end)
 	
-	WoWPro:LoadGuide()			-- Loads Current Guide (if nil, loads NilGuide)
-	WoWPro:MapPoint()				-- Maps the active step
-	WoWPro:CustomizeFrames()	-- Applies profile display settings
-
-	-- Keybindings Initial Setup --
-	local keys = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
-	if not keys then	
-		SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
-	end
-	local keys = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
-	if not keys then	
-		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
-	end
-	
+--	WoWPro:MapPoint()				-- Maps the active step
 	-- If the base addon was disabled by the user, put it to sleep now.
 	if not WoWProCharDB.Enabled then
 	    WoWPro:Print("|cffff3333Disabled|r: Core Addon")
 	    WoWPro:Disable()
+	    return
 	end
+
 end	
 
 -- Called when the addon is disabled --
 function WoWPro:OnDisable()
 	WoWPro:AbleFrames()								-- Hides all frames
-	WoWPro.GuideFrame:UnregisterAllEvents()	-- Unregisters all events
+	WoWPro.EventFrame:UnregisterAllEvents()	-- Unregisters all events
 	WoWPro:RemoveMapPoint()							-- Removes any active map points
 end
 
@@ -234,7 +270,7 @@ function WoWPro:RegisterEvents(eventtable)
 event to the guide frame.
 ]]--
 	for _, event in ipairs(eventtable) do
-		WoWPro.GuideFrame:RegisterEvent(event)
+		WoWPro.EventFrame:RegisterEvent(event)
 	end
 end
 
@@ -244,7 +280,7 @@ function WoWPro:UnregisterEvents(eventtable)
 event from the guide frame.
 ]]--
 	for _, event in ipairs(eventtable) do
-		WoWPro.GuideFrame:UnregisterEvent(event)
+		WoWPro.EventFrame:UnregisterEvent(event)
 	end
 end
 
