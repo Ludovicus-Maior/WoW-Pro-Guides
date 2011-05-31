@@ -224,6 +224,13 @@ local function ParseQuests(...)
 				if text:find("|US|") then WoWPro.unsticky[i] = true end
 				WoWPro.use[i] = text:match("|U|([^|]*)|?")
 				WoWPro.zone[i] = text:match("|Z|([^|]*)|?")
+				if WoWPro.zone[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
+					local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,WoWProDB.char.currentguide,text)
+                    WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
+	                table.insert(WoWProDB.global.ZoneErrors, line)
+				    WoWPro:dbp("Invalid Z tag in:"..text)
+				    WoWPro.zone[i] = nil
+				end
 				_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
 				WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
 				if text:find("|O|") then 
