@@ -283,6 +283,19 @@ function WoWPro:MapPointDelta()
     end
 end
 
+function WoWPro:ValidZone(zone)
+	if zone then
+	    if tonumber(zone) then
+	        -- Using a numeric zone ID
+            return "NumericZone"
+	    elseif WoWPro.Zone2MapID[zone] then
+	        -- Zone found in DB
+	        return WoWPro.Zone2MapID[zone].mapID
+	    end
+    end    
+    return false
+end
+    
 
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
@@ -304,9 +317,8 @@ function WoWPro:MapPoint(row)
 	local zone
 	if row then
 	    zone = WoWPro.rows[row].zone
-	else 
-		zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(%-]+)"))
-	end
+	end 
+	zone = zone or WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(%-]+)"))
 	autoarrival = WoWPro.waypcomplete[i]
 	
 	
@@ -357,7 +369,7 @@ function WoWPro:MapPoint(row)
     if not zm then
 	    zm = GetCurrentMapAreaID()
 	    zf = GetCurrentMapDungeonLevel()
-	    WoWPro:Print("Zone ["..zone.."] not found. Using map id "..tostring(zm))
+	    WoWPro:Print("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
 	end
 	
 	if TomTom and TomTom.db then
