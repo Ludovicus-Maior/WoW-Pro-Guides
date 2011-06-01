@@ -59,7 +59,7 @@
 -- Date: 2010-12-03 23:21
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriUldA8384', 'Uldum', 'Hezkezl', '83', '84', 'MagTwi8485', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'MagTwi8485|LiaTwi8485', 'Neutral', function()
 return [[
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|
