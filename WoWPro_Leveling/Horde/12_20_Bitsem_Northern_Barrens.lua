@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2011-05-30 16:03
+-- Who: Ludovicus Maior
+-- Log: Whoa!  Blizzard changed alot of the quest IDs and added new ordering requirements.
+--	This edit tried to get all the new quests, shuffle things in the right order and get the right coords.  Mistakes will no doubt have been made.
+
+-- URL: http://wow-pro.com/node/3214/revisions/24322/view
 -- Date: 2011-04-29 15:35
 -- Who: Ludovicus Maior
 -- Log: Line 123 for step C has unknown tag [Collect Centaur ...], Line 128 for step C has unknown tag [Use the Fungal ...], Line 158 for step C has unknown tag [.], Line 241 for step C has unknown tag [n].
@@ -264,79 +270,112 @@ T Gazlowe's Fortune|QID|14050|M|68.36,69.09|
 A Raging River Ride|QID|26769|PRE|14050|RANK|1|M|68.36,69.09|
 C Raging River Ride|QID|26769|M|72.96,65.53|N|Hop on the riverboat for a free ride.|
 T Raging River Ride|QID|26769|M|62.55,16.86|N|To Nozzlepot.|
-A Samophlange|QID|894|M|62.23,17.40|RANK|1|N|From Sputtervalve.|
-A They Call Him Swiftdagger. He Kills Harpies.|QID|28877|RANK|1|M|62.55,16.86|
 
 f Nozzlepot's Outpost|QID|28877|M|62.35,17.18|
 h Nozzlepot's Outpost|QID|28877|M|62.52,16.65|N|At Innkeeper Kritzle.|
 
-C Samophlange|QID|901|S|M|51.06,23.54|N|The mobs here respawn VERY quickly and flee at about 30% health. Makes these easy quests a bit more difficult.|
-T Samophlange|QID|894|M|50.38,25.73|
-A Samophlange|QID|900|PRE|894|RANK|1|M|50.38,25.73|
+A Sludge Investigation|QID|29087|M|62.55,16.86|N|From Nozzlepot.|
+A Hyena Extermination|QID|29088|M|62.55,16.86|N|From Nozzlepot.|
+A Competition Schmompetition|QID|29086|M|62.23,17.40|RANK|1|N|From Sputtervalve.|
 
-C Samophlange|QID|900|M|50.13,25.63|N|Turn off all three valves.|
-T Samophlange|QID|900|M|50.22,25.78|
-A Samophlange|QID|901|PRE|900|RANK|1|M|50.22,25.78|
-
-C Samophlange|QID|901|M|51.06,23.54|N|In the tent.|
-T Samophlange|QID|901|US|M|50.33,25.75|
-
-A Samophlange|QID|902|PRE|901|RANK|1|M|50.33,25.75|
+; Venture Co. Drill Site
+C Sludge Investigation|QID|29087|M|62.55,16.86|N|Examine 5 tracks around the lake.|
+T Sludge Investigation|QID|29087|N|Popup|
+A Sludge Beast!|QID|29089|N|Popup|
+C Sludge Beast!|QID|29089|M|58.18,19.34|N|Swim to the bottom of the lake and click on the glowing mud-thing.|
+C Competition Schmompetition|QID|29086|M|62.55,16.86|RANK|1|N|Kill Drudgers, Mercenaries, or Peons.|
 A Ignition|QID|858|RANK|1|M|57.57,18.36|
-
-C Ignition|QID|858|M|56.95,20.38|N|Kill Supervisor Lugwizzle and loot the key. He patrols the ramp of the tower.|
+C Ignition|QID|858|M|56.95,20.38|N|Kill Supervisor Lugwizzle and loot the key. He is on top of the tower.|
 T Ignition|QID|858|M|57.55,18.23|
 
 A The Escape|QID|863|PRE|858|RANK|1|M|57.58,18.32|N|Escort quest from Wizzlecrank's Shredder.|
 C The Escape|QID|863|NC|M|60.97,17.71|N|Escort Wizzlecrank out of the Venture Co. drill site.|
+C Hyena Extermination|QID|29088|M|53,25|N|Kill Hyenas.
 
-T Samophlange|QID|902|M|62.29,17.43|N|To Sputtervalve.|
+T Sludge Beast!|QID|29089|M|62.55,16.86|N|To Nozzlepot.|
+T Hyena Extermination|QID|29088|M|62.55,16.86|N|To Nozzlepot.|
+T Competition Schmompetition|QID|29086|M|62.29,17.43|N|To Sputtervalve.|
 T The Escape|QID|863|M|62.29,17.43|N|To Sputtervalve.|
+A Samophlange|QID|29021|M|62.23,17.40|RANK|1|N|From Sputtervalve.|
 
-A Samophlange Repair|QID|14003|PRE|902|RANK|1|M|62.29,17.43|N|From Sputtervalve.|
+; Venture Company Research Facility
+C Samophlange|QID|29021|M|51.06,23.54|N|Get to the control console.  Be quick.|
+T Samophlange|QID|29021|M|50.38,25.73|
+A Samophlange|QID|29022|PRE|29021|RANK|1|M|50.38,25.73|
+
+C Samophlange|QID|29022|M|50.13,25.63|N|Turn off all three valves.|
+T Samophlange|QID|29022|M|50.22,25.78|
+A Samophlange|QID|29023|PRE|29022|RANK|1|M|50.22,25.78|
+
+C Samophlange|QID|29023|M|51.06,23.54|N|In the tent.|
+T Samophlange|QID|29023|M|50.33,25.75|
+
+A Samophlange|QID|29024|PRE|29023|RANK|1|M|50.33,25.75|
+T Samophlange|QID|29024|M|62.29,17.43|N|To Sputtervalve.|
+
+A Samophlange Repair|QID|14003|PRE|29024|RANK|1|M|62.29,17.43|N|From Sputtervalve.|
 T Samophlange Repair|QID|14003|M|62.62,17.00|N|To Brak Blusterpipe.|
 
-A Wenikee Boltbucket|QID|3921|RANK|1|M|62.62,17.00|N|From Brak Blusterpipe.|
-T Wenikee Boltbucket|QID|3921|M|62.62,17.00;44.37,24.94|N|Talk to Brak to teleport directly to her. To Wenikee Boltbucket.|
-A Nugget Slugs|QID|3922|PRE|3921|RANK|1|M|44.37,24.94|N|From Wenikee Boltbucket.|
-
-f The Mor'shan Rampart|QID|3922|M|42.03,15.88|N|At Gort Goreflight.|
-
-T They Call Him Swiftdagger. He Kills Harpies.|QID|28877|M|30.59,45.95|N|To Darsok Swiftdagger.|
-A Harpy Raiders|QID|867|RANK|2|M|30.59,45.95|N|From Darsok Swiftdagger.|
-
-C Harpy Raiders|QID|867|M|27.40,28.55|N|Kill Witchwing Harpies and Roguefeathers for Witchwing Talons.|
-T Harpy Raiders|QID|867|M|30.61,46.02|N|To Darsok Swiftdagger.|
-A Harpy Lieutenants|QID|875|PRE|867|RANK|2|M|30.61,46.02|N|From Darsok Swiftdagger.|
-
-C Harpy Lieutenants|QID|875|M|27.96,32.67|N|Kill Witchwing Slayers until you loot 6 Harpy Lieutenant Rings.|
-T Harpy Lieutenants|QID|875|M|30.63,45.88|N|To Darsok Swiftdagger.|
-A Serena Bloodfeather|QID|876|PRE|875|RANK|2|M|30.63,45.88|N|From Darsok Swiftdagger.|
-
-C Serena Bloodfeather|QID|876|M|26.97,26.64|N|Slay Serena Bloodfeather and loot her head.|
-T Serena Bloodfeather|QID|876|M|30.59,45.82|N|To Darsok Swiftdagger.|
-
-C Nugget Slugs|QID|3922|M|55.98,20.66|N|Collect Slugs from the Tool Buckets all around the Sludge Fen.|
-T Nugget Slugs|QID|3922|M|44.34,24.90|N|To Wenikee Boltbucket.|
+; Wenikee Quests
+A Wenikee Boltbucket|QID|29026|RANK|1|M|62.62,17.00|N|From Brak Blusterpipe.|
+T Wenikee Boltbucket|QID|29026|M|62.62,17.00;44.37,24.94|N|Talk to Brak to teleport directly to her. To Wenikee Boltbucket.|
+A Nugget Slugs|QID|29027|PRE|29026|RANK|1|M|44.37,24.94|N|From Wenikee Boltbucket.|
+A A Burning Threat|QID|29090|RANK|1|M|44.2,25.0|N|From Brogor.|
+C Nugget Slugs|QID|29027|M|42,32|N|Collect Slugs from the Tool Buckets all around the farm.|
+C A Burning Threat|QID|29090|M|42,32|N|Kill 8 members of the Burning Blade.|
+T A Burning Threat|QID|29090|RANK|1|M|44.2,25.0|N|To Brogor.|
+T Nugget Slugs|QID|29027|M|44.34,24.90|N|To Wenikee Boltbucket.|
 A Return to Samophlanger|QID|14004|RANK|1|M|44.34,24.90|N|From Wenikee Boltbucket.|
 
 H Nozzlepot's Outpost|QID|14004|M|62.52,16.65|N|At Innkeeper Kritzle.|
-
 T Return to Samophlanger|QID|14004|M|62.21,17.50|N|To Sputtervalve.|
+
+; Boulder Lode Mine Quests
 A Read the Manual|QID|14006|PRE|14004|RANK|1|M|62.21,17.50|N|From Sputtervalve.|
-A Miner's Fortune|QID|896|RANK|1|M|62.61,17.01|N|From Brak Blusterpipe.|
+A Miner's Fortune|QID|29015|RANK|1|M|62.61,17.01|N|From Brak Blusterpipe.|
 
+R To Boulder Lode Mine|NC|M|63.00,18.00;65.02,19.13;67.00,20.09;66.39,15.71|CC|N|Follow the road.|
 C Read the Manual|QID|14006|M|63.71,10.81|N|When you have 5 Pages and the Manual Cover, use the Cover and complete the book.|
-C Miner's Fortune|QID|896|M|67.51,13.78|N|Continue killing Venture Co. mobs until you loot the Cats Eye Emerald.|
+C Miner's Fortune|QID|29015|M|67.51,13.78|N|Continue killing Venture Co. mobs until you loot the Cats Eye Emerald.|
 
-H Nozzlepot's Outpost|QID|896|NC|QO|Cats Eye Emerald: 1/1|M|62.67,16.98|N|Hearth to Nozzlepot's Outpost.|
+H Nozzlepot's Outpost|QID|29015|NC|M|62.67,16.98|N|Hearth to Nozzlepot's Outpost.|
 
-T Miner's Fortune|QID|896|M|62.63,16.98|N|To Brak Blusterpipe.|
+T Miner's Fortune|QID|29015|M|62.63,16.98|N|To Brak Blusterpipe.|
 T Read the Manual|QID|14006|M|62.25,17.41|N|To Sputtervalve.|
 
-F Orgrimmar|NC|N|If you plan on going to Stranglethorn next. If you're going to Ashenvale, fly to Mor'shan Rampart.|
+; The Dreadmist Peak sequence.  All part of a quest chain, triggered by [Read the Manual]
+A They Call Him Swiftdagger. He Kills Harpies.|QID|28877|PRE|14004|RANK|1|M|62.55,16.86|
+A The Short Way Home|QID|29094|PRE|29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
+T They Call Him Swiftdagger. He Kills Harpies.|QID|28877|M|30.59,45.95|N|To Darsok Swiftdagger.|
+A The Short Way Home|QID|29094|M|30.59,45.95|N|To Darsok Swiftdagger.|
+A Harpy Raiders|QID|867|RANK|2|M|30.59,45.95|N|From Darsok Swiftdagger.|
+A Harpy Lieutenants|QID|875|PRE|867|RANK|2|M|30.61,46.02|N|From Darsok Swiftdagger.|
 
-A Northern Stranglethorn: The Fallen Empire|QID|26417|RANK|1|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
+C Harpy Raiders|QID|867|M|27.40,28.55|N|Kill Witchwing Harpies and Roguefeathers for Witchwing Talons.|
+T Harpy Raiders|QID|867|M|30.61,46.02|N|To Darsok Swiftdagger.|
+C Harpy Lieutenants|QID|875|M|27.96,32.67|N|Kill Witchwing Slayers until you loot 6 Harpy Lieutenant Rings.|
+T Harpy Lieutenants|QID|875|M|30.63,45.88|N|To Darsok Swiftdagger.|
+A Serena Bloodfeather|QID|876|PRE|875|RANK|2|M|30.63,45.88|N|From Darsok Swiftdagger.|
+C Serena Bloodfeather|QID|876|M|26.97,26.64|N|Slay Serena Bloodfeather and loot her head.|
+T Serena Bloodfeather|QID|876|M|30.59,45.82|N|To Darsok Swiftdagger.|
+A Report to Thork|QID|29095|M|30.59,45.95|N|To Darsok Swiftdagger.|
+T Report to Thork|QID|29095|M|48.68,59.60|N|To Thork.|
+A Mor'shan Caravan Pick-Up|QID|29109|M|48.68,59.60|N|From Thork.|
+C Mor'shan Caravan Pick-Up|QID|29109|M|50.33,57.20|N|Talk to Rocco Whipshank and get the ride.|
+T Mor'shan Caravan Pick-Up|QID|29109|M|47.53,39.58|N|To Nagala Whipshank.|
+A Mor'shan Caravan Rescue|QID|29110|M|47.53,39.58|N|From Nagala Whipshank.|
+R Mor'shan Caravan Rescue|QID|29110|M|47.16,38.07;45.28,36.76;43.73,37.28;41.83,37.07|CC|N|Up to Dreadmist Peak.|
+T Mor'shan Caravan Rescue|QID|29110|M|41.06,39.01|N|From Balgor Whipshank.|
+A Demon Seed|QID|29112|M|47.6,39.6|N|From Balgor Whipshank.|
+C Demon Seed|QID|29112|M|41.96,39.00|N|Get the Demon Seed in the cave.|
+T Demon Seed|QID|29112|M|47.53,39.58|N|To Nagala Whipshank.|
+A Mor'shan Caravan Delivery|QID|29111|M|47.53,39.58|N|From Nagala Whipshank.|
+C Mor'shan Caravan Delivery|QID|29111|M|47.53,39.58|N|Talk to Nagala and defend the caravan.|
+T Mor'shan Caravan Delivery|QID|29111|M|42.42,14.97|N|To Kadrak, who wanders.|
+f The Mor'shan Rampart|QID|3922|M|42.03,15.88|N|At Gort Goreflight.|
+
+F Orgrimmar|NC|O|N|If you plan on going to Stranglethorn next.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|RANK|1|O|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
 ]]
 
 end)
