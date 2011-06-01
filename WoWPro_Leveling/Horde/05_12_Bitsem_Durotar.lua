@@ -1,4 +1,19 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-05-30 11:55
+-- Who: Ludovicus Maior
+-- Log: Coord tweak around [The Burning Blade]
+
+-- URL: http://wow-pro.com/node/3199/revisions/24452/view
+-- Date: 2011-05-30 11:51
+-- Who: Ludovicus Maior
+-- Log: [Thazz'ril's Pick] decoupling.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24451/view
+-- Date: 2011-05-30 11:48
+-- Who: Ludovicus Maior
+-- Log: Coord Tweak for Shamans
+
+-- URL: http://wow-pro.com/node/3199/revisions/24438/view
 -- Date: 2011-05-28 11:12
 -- Who: Ludovicus Maior
 -- Log: Coord/Zone tweaks
@@ -151,7 +166,7 @@ A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
 T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
-C The Burning Blade|QID|25232|M|53.06,41.27;54.12,40.73;54.55,38.59;53.57,36.02;51.85,26.27||N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
+C The Burning Blade|QID|25232|M|52.82,41.53;54.13,40.73;54.55,38.59;53.57,36.02;51.85,26.27||N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar. Go straight and jump down!|
 A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 
