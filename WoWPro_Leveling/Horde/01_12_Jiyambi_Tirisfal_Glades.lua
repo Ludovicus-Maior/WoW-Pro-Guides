@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2011-06-01 00:36
+-- Who: Crackerhead22
+-- Log: Removed Z|Crusader's Outpost| as it was unneeded.
+
+-- URL: http://wow-pro.com/node/3205/revisions/24437/view
 -- Date: 2011-05-28 11:08
 -- Who: Ludovicus Maior
 -- Log: Race tags needed updates.
@@ -162,7 +167,7 @@ A Ever So Lonely|QID|24974|M|44.71,53.64|N|From Sedrick Calston, upstairs.|
 L Level 6|QID|24974|LVL|6|N|You should be around level 6 by this point.|
 
 C Marrowpetals|QID|24976|NC|QO|Marrowpetal: 4/4|M|49.18,53.28|N|Collect Marrowpetals from the lake floor.|
-C The Scarlet Palisade|QID|24980|S|M|31.92,46.00|Z|Crusader's Outpost|N|Kill members of the Scarlet Crusade.|
+C The Scarlet Palisade|QID|24980|S|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
 
 K Scarlet Crusade|QID|24979|L|52079 |M|34.91,48.45|N|Kill Scarlet Crusade at the Scarlet Palisade until you get a Scarlet Letter.|
 A A Scarlet Letter|QID|24979|PRE|52079|U|52079|M|34.91,48.45|N|Right-click the item you just got.|

@@ -1,4 +1,18 @@
 -- URL: http://wow-pro.com/wiki/source_code_uldum_alliance
+-- Date: 2011-05-24 11:23
+-- Who: Fluclo
+-- Log: Added note about collecting all Ancient Scrolls before killing the last employee, as you are sent back to quest giver on killing the 15th employee
+
+-- URL: http://wow-pro.com/node/3309/revisions/24413/view
+-- Date: 2011-05-23 15:29
+-- Who: Fluclo
+-- Log: Correct Unsticky on Curse of the Tombs
+
+-- URL: http://wow-pro.com/node/3309/revisions/24408/view
+-- Date: 2011-05-18 22:39
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3309/revisions/24363/view
 -- Date: 2011-05-03 03:06
 -- Who: Crackerhead22
 
@@ -325,7 +339,7 @@ A The Curse of the Tombs|QID|27755|M|67.27,42.82|N|From Sun Prophet Tumet.|
 
 C The Curse of the Tombs|QID|27755|M|69.58,58.50|N|Kill Crazed Diggers.|S|QO|Crazed Digger slain: 6/6|
 K Mekgineer Mixeltweed|QID|27755|M|69.58,58.50|QO|Mekgineer Mixeltweed slain: 1/1|N|Kill Mekgineer Mixeltweed.|
-C The Curse of the Tombs|QID|27755|M|69.58,58.50|N|Kill Crazed Diggers.|S|QO|Crazed Digger slain: 6/6|
+C The Curse of the Tombs|QID|27755|M|69.58,58.50|N|Kill Crazed Diggers.|US|QO|Crazed Digger slain: 6/6|
 
 l A.I.D.A. Communicator|QID|27760|L|62483|M|22.47,64.82|N|If you have not gotten this item yet keep killing and looting Crazed Diggers.|
 A Artificial Intelligence|QID|27760|U|62483|M|22.47,64.82|N|From the A.I.D.A. Communicator.|
@@ -511,8 +525,8 @@ A Missing Pieces|QID|28272|M|27.02,7.62|N|From Harrison Jones.|
 
 h Oasis of Vir'sar|QID|28272|M|26.65,7.29|N|At Yasmin.|
 
-C Missing Pieces|QID|28272|M|39.30,25.55|N|Loot Ancient Copper Scrolls, found Pillaged Loot Sacks on the ground around the Obelisk of the Moon.|S|
-C Reduced Productivity|QID|28271|M|38.86,25.83|N|Kill Schnottz Employees around the Obelisk of the Moon.|
+C Missing Pieces|QID|28272|M|39.30,25.55|N|Loot Ancient Copper Scrolls, found Pillaged Loot Sacks on the ground around the Obelisk of the Moon. Ensure you have looted all the scrolls before killing the last Schnottz Employee|S|
+C Reduced Productivity|QID|28271|M|38.86,25.83|N|Kill Schnottz Employees around the Obelisk of the Moon. On killing the 15th, you will be shown a cinematic, and then returned to Oasis of Vir'sar|
 C Missing Pieces|QID|28272|M|39.30,25.55|N|Loot Ancient Copper Scrolls, found on the ground around the Obelisk of the Moon.|US|
 
 T Missing Pieces|QID|28272|M|27.02,7.61|N|To Harrison Jones.|

@@ -1,4 +1,12 @@
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2011-05-30 17:55
+-- Who: Ludovicus Maior
+-- Log: ! Line 128 for step C has unknown tag [Kill any type Splinter Fist Ogres.]: [C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|S|Kill any type Splinter Fist Ogres.|]
+--	! Line 246 for step F has 1 M coords: [F Darkshire|QID|26793|M||N|Fly back to Darkshire.|21.03,56.63]
+--	! Line 254 for step C has 1 M coords: [C Mor'Ladim|QID|26795|M||T|Mor'Ladim|N|Find and kill Mor'Ladim, he wanders so use the targeting to find him easier. Don't forget to loot his skull.|O|]
+--	! Line 261 for step T has unknown tag [26797]: [T A Daughter's Love|26797|M|17.66,29.11|N|Turn the quest into "A Weathered Grave".|O|]
+
+-- URL: http://wow-pro.com/node/3222/revisions/24445/view
 -- Date: 2011-05-29 04:12
 -- Who: Crackerhead22
 -- Log: Bunch of note tweaks, added missing notes, added a couple of sticky steps, added in steps to finish off the Mor'Ladim quest chain.
@@ -125,7 +133,7 @@ A In A Dark Corner|QID|26669|M|72.50,46.87|N|From Clerk Daltry.|
 
 A Vlugar Vul'Gol|QID|25235|M|45.18,66.95|N|From Watcher Dodds.|
 
-C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|S|Kill any type Splinter Fist Ogres.|
+C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|S|N|Kill any type Splinter Fist Ogres.|
 C Ogre Thieves|QID|26680|M|33.45,75.27|N|Just outside the cave, pickup Abercrombie's Crate.|
 L Level 22|QID|25235|LVL|22|N|Continue Killing Ogres until level 22.|
 C Classy Glass|QID|26685|M|37.84,84.33|N|Head to the back of the cave, kill and loot Zzarc'Vul.|
@@ -243,22 +251,21 @@ T Bear In Mind|QID|26787|M|18.6,58.21|N|To Jitters.|
 T The Cries of the Dead|QID|26778|M|19.92,57.88|N|To Sister Eisington.|
 
 A Rebels Without a Clue|QID|26838|M|19.92,57.88|N|From Sister Eisington. Will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!"|
-F Darkshire|QID|26793|M||N|Fly back to Darkshire.|21.03,56.63
-
+F Darkshire|QID|26793|M|21.03,56.63|N|Fly back to Darkshire.|
 T The Weathered Grave|QID|26793|M|72.62,47.64|N|To Sirra Von'lndi.|
 A Morgan Ladimore|QID|26794|M|72.62,47.64|N|From Sirra Von'lndi.|
 
 T Morgan Ladimore|QID|26794|M|73.72,46.89|N|To Commander Althea Ebonlocke. Skip the follow-ups if you wish. As it involves killing a level 25 elite, and flying back and forth between Raven Hill and Darkshire.|
 A Mor'Ladim|QID|26795|M|73.72,46.89|N|From Commander Althea Ebonlocke.|O|
 F Raven Hill|QID|26795|M|77.5,44.3|N|Fly to Raven Hill.|O|
-C Mor'Ladim|QID|26795|M||T|Mor'Ladim|N|Find and kill Mor'Ladim, he wanders so use the targeting to find him easier. Don't forget to loot his skull.|O|
+C Mor'Ladim|QID|26795|M|17.4,29.4|T|Mor'Ladim|N|Find and kill Mor'Ladim, he wanders so use the targeting to find him easier. Don't forget to loot his skull.|O|
 F Darkshire|QID|26795|M|21.06,56.46|N|Fly to Darkshire.|O|
 T Mor'Ladim|QID|26795|M|73.72,46.89|N|To Commander Althea Ebonlocke.|O|
 A The Daughter Who Lived|QID|26796|M|73.72,46.89|N|From Commander Althea Ebonlocke.|O|
 T The Daughter Who Lived|QID|26796|M|74.95,46.88|N|To Watcher Ladimore. She wanders around a bit.|O|
 A A Daughter's Love|QID|26797|M|74.95,46.88|N|From Watcher Ladimore.|O|
 F Raven Hill|QID|26797|M|77.5,44.3|N|Fly to Raven Hill.|O|
-T A Daughter's Love|26797|M|17.66,29.11|N|Turn the quest into "A Weathered Grave".|O|
+T A Daughter's Love|QID|26797|M|17.66,29.11|N|Turn the quest into "A Weathered Grave".|O|
 
 L Level 25|QID|26686|LVL|25|N|Continue Killing until 25.|
 N Thus ends Duskwood.|N|I recommend going to Stormwind to train, visit AH, etc. Close this step when you're ready to go to Northern Stranglethorn.|

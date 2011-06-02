@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2011-06-01 00:52
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3230/revisions/24478/view
+-- Date: 2011-06-01 00:51
+-- Who: Crackerhead22
+-- Log: Removed "Z|Crypt|" as it was unneeded.
+
+-- URL: http://wow-pro.com/node/3230/revisions/23336/view
 -- Date: 2010-12-03 10:09
 -- Who: Jiyambi
 
@@ -52,7 +61,7 @@ T To Steal From Thieves|QID|26428|M|13.70,34.01|N|To Genavie Callow.|
 T Sigil of Arathor|QID|26032|M|12.98,36.05|N|To Galen Trollbane.|
 A Trol'kalar|QID|26033|PRE|26032|M|12.98,36.05|N|From Galen Trollbane.|
 C Raising Spirits|QID|26107|S|N|Kill and loot raptors.|
-C Trol'kalar|QID|26033|M|22.44,61.38|Z|Crypt|N|Back to Stromgarde. Head west to the human area of the keep, then turn right immediately to cross back over the entrance on a bridge. You'll find a small building. Head through the garden on the right and down into the crypt. There you will find Trol'Kalar.|
+C Trol'kalar|QID|26033|M|22.44,61.38|N|Back to Stromgarde. Head west to the human area of the keep, then turn right immediately to cross back over the entrance on a bridge. You'll find a small building. Head through the garden on the right and down into the crypt. There you will find Trol'Kalar.|
 T Trol'kalar|QID|26033|M|12.92,36.10|N|To Galen Trollbane, back at Galen's Fall.|
 A Alina's Reward|QID|26081|PRE|26033|M|12.92,36.10|N|From Galen Trollbane.|
 T Alina's Reward|QID|26081|M|13.26,35.94|N|To Dark Ranger Alina.|

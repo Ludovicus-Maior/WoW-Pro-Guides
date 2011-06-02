@@ -1,4 +1,8 @@
--- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_alliance
+-- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2011-05-18 22:36
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3303/revisions/24275/view
 -- Date: 2011-04-26 23:12
 -- Who: Crackerhead22
 -- Log: Fixed missing N tags for "Rage of the Wolf Ancient" and "Pressing the Advantage". Fixed missing QID tags for "l Charred Basilisk Meat" steps.
@@ -60,19 +64,26 @@
 -- Date: 2010-12-03 22:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDeeA8283', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283', 'Neutral', function()
 return [[
 
-N Mt. Hyjal|QID|25316|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|
-A A Personal Summons|QID|28825|M|71.44,72.32|Z|Stormwind City|N|Should pop up automatically when you enter Stormwind and are level 80.|
-h Trade District|QID|28825|M|60.36,75.20|Z|Stormwind City|N|At Innkeeper Allison.|
-A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board.|
-T A Personal Summons|QID|28825|M|74.58,18.94|Z|Stormwind City|N|To Naraat the Earthspeaker.|
-A Eye of the Storm|QID|28826|PRE|28825|M|74.58,18.94|Z|Stormwind City|N|From Naraat the Earthspeaker.|
-C Eye of the Storm|QID|28826|M|74.43,19.25|Z|Stormwind City|N|Right click the water bowl behind you. Enjoy your first Cataclysm cinematic!|
-T Eye of the Storm|QID|28826|M|74.56,19.18|Z|Stormwind City|N|To Naraat the Earthspeaker.|
-C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.7,28.36|Z|Stormwind City|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|
-T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|Moonglade|N|To Emissary Windsong.|
+N Mt. Hyjal|QID|25316|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|
+A A Personal Summons|QID|28825|M|71.44,72.32|Z|Stormwind City|N|Should pop up automatically when you enter Stormwind and are level 80.|FACTION|Alliance|
+h Trade District|QID|28825|M|60.36,75.20|Z|Stormwind City|N|At Innkeeper Allison.|FACTION|Alliance|
+A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board.|FACTION|Alliance|
+T A Personal Summons|QID|28825|M|74.58,18.94|Z|Stormwind City|N|To Naraat the Earthspeaker.|FACTION|Alliance|
+A Eye of the Storm|QID|28826|PRE|28825|M|74.58,18.94|Z|Stormwind City|N|From Naraat the Earthspeaker.|FACTION|Alliance|
+C Eye of the Storm|QID|28826|M|74.43,19.25|Z|Stormwind City|N|Right click the water bowl behind you. Enjoy your first Cataclysm cinematic!|FACTION|Alliance|
+T Eye of the Storm|QID|28826|M|74.56,19.18|Z|Stormwind City|N|To Naraat the Earthspeaker.|FACTION|Alliance|
+C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.7,28.36|Z|Stormwind City|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|FACTION|Alliance|
+T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|Moonglade|N|To Emissary Windsong.|FACTION|Alliance|
+
+N Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar. Close this step.|FACTION|Horde|
+R Orgrimmar|QID|27721|Z|Orgrimmar|N|Make your way to Orgrimmar.|FACTION|Horde|
+A Warchief's Command: Mount Hyjal|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board.|FACTION|Horde|
+N Cenarion Emissary Blackhoof|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|Talk to Cenarion Emissary Blackhoof in the Valley of Wisdom. Ask him to teleport you to Moonglade. Close this step.|FACTION|Horde|
+T Warchief's Command: Mount Hyjal|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|FACTION|Horde|
+
 A As Hyjal Burns|QID|25316|PRE|27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|
 F Nordrassil|QID|25316|M|46.1,45.51|Z|Moonglade|N|Jump on Aronus to fly to Nordrassil.|
 T As Hyjal Burns|QID|25316|M|62.08,24.89|N|To Ysera.|
@@ -136,20 +147,37 @@ T End of the Supply Line|QID|25233|M|35.70,19.63|N|To Jadi Falaryn.|
 A The Voice of Goldrinn|QID|25268|PRE|25233|M|35.70,19.63|N|From Jadi Falaryn.|
 T In the Rear With the Gear|QID|25234|RANK|2|M|35.70,19.63|N|To Jadi Falaryn.|
 T Harrying the Hunters|QID|25255|RANK|2|M|35.69,19.55|N|To Oomla Whitehorn.|
-T The Voice of Goldrinn|QID|25268|M|29.99,31.27|N|To Ian Duran.|
-A Goldrinn's Ferocity|QID|25271|PRE|25268|M|29.99,31.27|N|From Ian Duran.|
-C Goldrinn's Ferocity|QID|25271|M|28.62,31.47|N|Kill and loot Lycanthoth Vandals to get the Polluted Incense.|
-T Goldrinn's Ferocity|QID|25271|M|30.05,31.34|N|To Ian Duran.|
-A Lycanthoth the Corruptor|QID|25273|PRE|25271|M|30.05,31.34|N|From Ian Duran.|
-C Lycanthoth the Corruptor|QID|25273|U|52682|M|32.46,37.27|N|Head inside the cave and use the Incense, then kill Lycanthoth.|
-T Lycanthoth the Corruptor|QID|25273|M|32.46,37.30|N|To Spirit of Goldrinn.|
-A The Shrine Reclaimed|QID|25280|PRE|25273|M|29.63,29.36|N|From Spirit of Goldrinn.|
-T The Shrine Reclaimed|QID|25280|M|28.28,29.81|N|To Ian Duran.|
-A Cleaning House|QID|25278|PRE|25280|M|28.21,29.85|N|From Ian Duran.|
+
+T The Voice of Goldrinn|QID|25268|M|29.99,31.27|N|To Ian Duran.|FACTION|Alliance|
+A Goldrinn's Ferocity|QID|25271|PRE|25268|M|29.99,31.27|N|From Ian Duran.|FACTION|Alliance|
+C Goldrinn's Ferocity|QID|25271|M|28.62,31.47|N|Kill and loot Lycanthoth Vandals to get the Polluted Incense.|FACTION|Alliance|
+T Goldrinn's Ferocity|QID|25271|M|30.05,31.34|N|To Ian Duran.|FACTION|Alliance|
+A Lycanthoth the Corruptor|QID|25273|PRE|25271|M|30.05,31.34|N|From Ian Duran.|FACTION|Alliance|
+C Lycanthoth the Corruptor|QID|25273|U|52682|M|32.46,37.27|N|Head inside the cave and use the Incense, then kill Lycanthoth.|FACTION|Alliance|
+T Lycanthoth the Corruptor|QID|25273|M|32.46,37.30|N|To Spirit of Goldrinn.|FACTION|Alliance|
+A The Shrine Reclaimed|QID|25280|PRE|25273|M|29.63,29.36|N|From Spirit of Goldrinn.|FACTION|Alliance|
+T The Shrine Reclaimed|QID|25280|M|28.28,29.81|N|To Ian Duran.|FACTION|Alliance|
+A Cleaning House|QID|25278|PRE|25280|M|28.21,29.85|N|From Ian Duran.|FACTION|Alliance|
+
+A The Voice of Lo'Gosh|QID|25269|M|35.7,19.5|N|From Oomla Whitehorn.|FACTION|Horde|
+T The Voice of Lo'Gosh|QID|25269|M|30.1,31.7|N|If you don't have a flying mount. Follow the road west until it branches. Take the fork to the right, down to a valley. If you are following the road down, continue straight, past the wolf statue. In a cage at the edge of the small pond is Takrik Ragehowl.|FACTION|Horde|
+A Howling Mad|QID|25270|M|30.1,31.7|N|From Takrik Ragehowl.|FACTION|Horde|
+C Howling Mad|QID|25270|N|Kill Lycanthoth Vandals for Polluted Incense.|FACTION|Horde|
+T Howling Mad|QID|25270|M|30.1,31.7|N|Back at Takrik Ragehowl.|FACTION|Horde|
+A Lycanthoth the Corruptor|QID|25272|M|30.1,31.7|N|From Takrik Ragehowl.|FACTION|Horde|
+C Lycanthoth the Corruptor|QID|25272|U|52682|M|32.0,36.6;32.4,37.2|N|Use Lycanthoth's Incense near the altar inside the cave to summon Lycanthoth.|FACTION|Horde|
+T Lycanthoth the Corruptor|QID|25272|M|32.4,37.2|N|At Spirit of Lo'Gosh.|FACTION|Horde|
+A The Shrine Reclaimed|QID|25279|M|29.6,29.4|N|From Spirit of Lo'Gosh after you dismount.|FACTION|Horde|
+T The Shrine Reclaimed|QID|25279|M|28.4,29.9|N|At Takrik Ragehowl to the west.|FACTION|Horde|
+A Cleaning House|QID|25277|M|28.4,29.9|N|From Takrik Ragehowl.|FACTION|Horde|
+
 A From the Mouth of Madness|QID|25297|PRE|25280|RANK|2|M|28.27,29.91|N|From Rio Duran.|
 A The Eye of Twilight|QID|25300|PRE|25280|RANK|2|M|28.34,29.97|N|From Royce Duskwhisper.|
 l Bitterblossom|QID|25297|RANK|2|L|52727|M|29.4,31.6|N|Loot Bitterblossom from around the edge of the pond.|
-C Cleaning House|QID|25278|S|M|27.7,34.5|N|Kill Hovel Brutes and Shadowcasters.|
+
+C Cleaning House|QID|25278|S|M|27.7,34.5|N|Kill Hovel Brutes and Shadowcasters.|FACTION|Alliance|
+C Cleaning House|QID|25277|S|M|27.7,34.5|N|Kill Hovel Brutes.|FACTION|Horde|
+
 l Stonebloom|QID|25297|RANK|2|L|52726|M|27.5,34.1|N|Search around the base of the rock formations for Stonebloom.|
 C From the Mouth of Madness|QID|25297|RANK|2|L|52728|M|28.4,35.8|N|Collect a Darkflame Ember from the brazier.|
 T From the Mouth of Madness|QID|25297|RANK|2|M|28.4,36.4|N|A small caudlron near the brazier.|
@@ -164,22 +192,38 @@ A Elementary!|QID|25303|PRE|25301|RANK|2|M|25.81,41.56|N|From The Twilight Apocr
 C Elementary!|QID|25303|RANK|2|M|25.89,41.58|N|Activate the four orbs in the following order: Crucible of Fire, Crucible of Earth, Crucible of Air, Crucible of Water. This will summon The Manipulator. Kill him to complete the quest.|
 T Elementary!|QID|25303|RANK|2|M|25.84,41.65|N|To The Twilight Apocrypha.|
 A Return to Duskwhisper|QID|25312|PRE|25303|RANK|2|M|25.84,41.65|N|From The Twilight Apocrypha.|
-C Cleaning House|QID|25278|US|N|Kill Hovel Brutes and Shadowcasters.|M|27.7,34.5|
+
+C Cleaning House|QID|25278|US|N|Kill Hovel Brutes and Shadowcasters.|M|27.7,34.5|FACTION|Alliance|
+C Cleaning House|QID|25277|US|N|Kill Hovel Brutes.|FACTION|Horde|
+
 T Gar'gol's Gotta Go|QID|25328|M|27.24,40.74|N|To Kristoff Manheim.|
 A Get Me Outta Here!|QID|25332|M|27.24,40.74|N|From Kristoff Manheim.|
 C Get Me Outta Here!|QID|25332|M|27.19,35.79|N|Head to the cave entrance.|
 C Free Your Mind, the Rest Follows|QID|25298|RANK|2|US|N|Talk to Twilight Servitors.|
 T Get Me Outta Here!|QID|25332|M|28.33,30.00|N|To Royce Duskwhisper.|
 T Return to Duskwhisper|QID|25312|RANK|2|M|28.33,30.00|N|To Royce Duskwhisper.|
-T Cleaning House|QID|25278|M|28.23,29.80|N|To Ian Duran.|
-A Lightning in a Bottle|QID|25353|PRE|25278|M|28.23,29.80|N|From Ian Duran.|
-A Sweeping the Shelf|QID|25352|PRE|25278|RANK|2|M|28.20,29.89|N|From Ian Duran.|
+
+T Cleaning House|QID|25278|M|28.23,29.80|N|To Ian Duran.|FACTION|Alliance|
+A Lightning in a Bottle|QID|25353|PRE|25278|M|28.23,29.80|N|From Ian Duran.|FACTION|Alliance|
+A Sweeping the Shelf|QID|25352|PRE|25278|RANK|2|M|28.20,29.89|N|From Ian Duran.|FACTION|Alliance|
+
+A Sweeping the Shelf|QID|25354|M|28.4,29.9|N|From Takrik Ragehowl.|FACTION|Horde|
+A Lightning in a Bottle|QID|25355|M|28.4,29.9|N|From Takrik Ragehowl.|FACTION|Horde|
+
 T Free Your Mind, the Rest Follows|QID|25298|RANK|2|M|28.21,29.90|N|To Rio Duran.|
-C Lightning in a Bottle|QID|25353|U|52834|M|22.85,31.90|N|Use the Condenser Jar.|
-T Lightning in a Bottle|QID|25353|U|52853|M|22.85,31.93|N|Use the Totem, then turn the quest into the Spirit of Goldrinn.|
-A Into the Maw!|QID|25618|PRE|25353|M|22.87,31.93|N|From Howling Riftdweller.|
-C Sweeping the Shelf|QID|25352|RANK|2|M|26.76,40.87|N|Kill Twilight Stormcallers and Howling Riftdwellers.|
-T Into the Maw!|QID|25618|M|26.24,41.89|N|Enter the portal in the center if the Twilight Cultists camp and turn in at Jordan Olafson.|
+
+C Lightning in a Bottle|QID|25353|U|52834|M|22.85,31.90|N|Use the Condenser Jar.|FACTION|Alliance|
+T Lightning in a Bottle|QID|25353|U|52853|M|22.85,31.93|N|Use the Totem, then turn the quest into the Spirit of Goldrinn.|FACTION|Alliance|
+A Into the Maw!|QID|25618|PRE|25353|M|22.87,31.93|N|From Howling Riftdweller.|FACTION|Alliance|
+C Sweeping the Shelf|QID|25352|RANK|2|M|26.76,40.87|N|Kill Twilight Stormcallers and Howling Riftdwellers.|FACTION|Alliance|
+T Into the Maw!|QID|25618|M|26.24,41.89|N|Enter the portal in the center if the Twilight Cultists camp and turn in at Jordan Olafson.|FACTION|Alliance|
+
+l Lightning in a Bottle|QID|25355|L|52834|M|22.85,31.90|N|Loot a Charged Condenser Jar from the lightning rods scattered around the area.|FACTION|Horde|
+T Lightning in a Bottle|QID|25355|U|52854|N|Use the Totem of Lo'Gosh to summon the wolf spirit.|FACTION|Horde|
+A Into the Maw!|QID|25617|N|From the summoned Spirit of Lo'Gosh.|FACTION|Horde|
+C Sweeping the Shelf|QID|25354|M|26.5,38.1|N|Kill Twilight Stormcallers and Howling Riftdwellers.|FACTION|Horde|
+T Into the Maw!|QID|25617|M|26.1,41.1|N|Enter the portal in the center if the Twilight Cultists camp and turn in at Jordan Olafson.|FACTION|Horde|
+
 A Crushing the Cores|QID|25577|PRE|25618|M|26.24,41.89|N|From Jordan Olafson.|
 A Forged of Shadow and Flame|QID|25575|PRE|25618|M|26.27,41.93|N|From Yargra Blackscar.|
 A Rage of the Wolf Ancient|QID|25576|PRE|25618|M|26.29,41.94|N|From Yargra Blackscar.|
@@ -198,12 +242,19 @@ T Cindermaul, the Portal Master|QID|25599|M|26.30,41.87|N|To Jordan Olafson.|
 A Forgemaster Pyrendius|QID|25600|PRE|25599|M|26.33,41.88|N|From Jordan Olafson.|
 C Forgemaster Pyrendius|QID|25600|M|32.08,45.76|N|Forgemaster Pyrendius is a level 80 elite. He has 154k health, so don't try to fight him directly. He is standing in a circle of runes. To kill him, make sure you hit him at least once, then drag Pyrendius to one of those runes, click on it to activate the rune, then position Pyrendius so that he is standing on the rune. Repeat that, moving from rune to rune, until he dies.|
 T Forgemaster Pyrendius|QID|25600|M|26.26,41.89|N|To Jordan Olafson.|
-A Return from the Firelands|QID|25611|PRE|25600|M|26.26,41.89|N|From Jordan Olafson.|
-T Sweeping the Shelf|QID|25352|RANK|2|M|28.19,29.83|N|To Ian Duran.|
-T Return from the Firelands|QID|25611|M|28.19,29.83|N|To Ian Duran.|
+
+A Return from the Firelands|QID|25611|PRE|25600|M|26.26,41.89|N|From Jordan Olafson.|FACTION|Alliance|
+T Sweeping the Shelf|QID|25352|RANK|2|M|28.19,29.83|N|To Ian Duran.|FACTION|Alliance|
+T Return from the Firelands|QID|25611|M|28.19,29.83|N|To Ian Duran.|FACTION|Alliance|
+
+A Return from the Firelands|QID|25612|M|26.2,41.9|N|From Jordan Olafson.|FACTION|Horde|
+T Return from the Firelands|QID|25612|M|28.4,29.9|N|Enter the portal behind you. This will return you the Shrine of Goldrinn. Fly back to the camp to Takrik Ragehowl.|FACTION|Horde|
+T Sweeping the Shelf|QID|25354|M|28.4,29.9|N|At Takrik Ragehowl.|FACTION|Horde|
+
+A Aviana's Legacy|QID|27874|M|28.4,29.8|N|From Vision of Ysera.|
 A The Fires of Mount Hyjal|QID|25630|PRE|25611|M|28.18,29.87|N|From Rio Duran.|
 f Shrine of Aviana|QID|25630|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
-T Wings Over Mount Hyjal|QID|25985|M|44.37,46.21|N|To Choluna.|
+T Aviana's Legacy|QID|27874|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|
 A An Offering for Aviana|QID|25663|M|39,46.21|N|From Choluna.|
 A The Wormwing Problem|QID|25655|M|42.18,45.40|N|From Thisalee Crow.|
 A Scrambling for Eggs|QID|25656|M|42.18,45.40|N|From Thisalee Crow.|
@@ -489,6 +540,11 @@ T Magma Monarch|QID|25550|M|72.07,74.00|N|To Commander Jarod Shadowsong.|
 A The Firelord|QID|25551|PRE|25553;25550|M|71.95,73.96|N|From Cenarius.|
 C The Firelord|QID|25551|M|55.45,66.91|N|It's finally time to fight Ragnaros. Fly to the flamegate just past where you fought Azralon. Enter the portal and speak to Cenarius to start the battle. Malfurion Stormrage and Arch Druid Hamuul some to help out as well. Once the battle starts, Cenarius will hold threat on Ragnaros, while Hamuul and Malfurion cast spells on him that cause Ragnaros to take 2000% increased magic and physical damage. Every 30 secods or so, Ragnaros will submerge and summon a flame wave. Once the flame wave passes, Ragnaros will summon adds that attack Malfurion and Hamuul. Alternate between keeping the adds clear and DPS'ing Ragnaros until he dies.|
 T The Firelord|QID|25551|M|72.09,74.07|N|To Commander Jarod Shadowsong.|
-A The Battle Is Won, The War Goes On|QID|27398|PRE|25551|M|72.09,74.07|N|From Commander Jarod Shadowsong.|
+
+A The Battle Is Won, The War Goes On|QID|27398|PRE|25551|M|72.09,74.07|N|From Commander Jarod Shadowsong.|FACTION|Alliance|
+
+A The Battle Is Won, The War Goes On|QID|27399|M|72.05,73.89|N|From Commander Jarod Shadowsong.|FACTION|Horde|
+F Orgrimmar|QID|28790|M|71.67,75.24|N|Fly back to Orgrimmar.|FACTION|Horde|
+T The Battle Is Won, The War Goes On|QID|27399|M|50.38,38.23|Z|Orgrimmar|N|In Orgrimmar. To Farseer Krogar.|FACTION|Horde|
 ]]
 end)

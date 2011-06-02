@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2011-06-01 00:44
+-- Who: Crackerhead22
+-- Log: Removed "Z|Amani Catacombs|" as it was unneeded.
+
+-- URL: http://wow-pro.com/node/3221/revisions/24439/view
 -- Date: 2011-05-28 11:14
 -- Who: Ludovicus Maior
 -- Log: Coord tweaks and added the explorer achievement step.
@@ -156,11 +161,11 @@ A A Little Dash of Seasoning|QID|9275|M|72.68,31.55|N|From Apothecary Venustus. 
 T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna.|
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
 
-C Investigate the Amani Catacombs|QID|9193|S|NC|U|22755|QO|Mummified Troll Remains Burned: 10/10|M|62.92,32.46|Z|Amani Catacombs|N|Burn the Troll remains as you go.|
-C Investigate the Amani Catacombs|QID|9193|NC|U|22755|M|62.92,32.46|Z|Amani Catacombs|
+C Investigate the Amani Catacombs|QID|9193|S|NC|U|22755|QO|Mummified Troll Remains Burned: 10/10|M|62.92,32.46|N|Burn the Troll remains as you go.|
+C Investigate the Amani Catacombs|QID|9193|NC|U|22755|M|62.92,32.46|
 C Troll Juju|QID|9199|M|66,28|N|Kill any Troll you come across to get 8 Troll Juju.|
-A Escape from the Catacombs|QID|9212|M|62.92,32.63|Z|Amani Catacombs|N|From Ranger Lilatha.|
-C Investigate the Amani Catacombs|QID|9193|US|NC|U|22755|QO|Mummified Troll Remains Burned: 10/10|M|62.92,32.46|Z|Amani Catacombs|N|Burn the Troll remains as you go.|
+A Escape from the Catacombs|QID|9212|M|62.92,32.63|N|From Ranger Lilatha.|
+C Investigate the Amani Catacombs|QID|9193|US|NC|U|22755|QO|Mummified Troll Remains Burned: 10/10|M|62.92,32.46|N|Burn the Troll remains as you go.|
 C Escape from the Catacombs|QID|9212|NC|M|72.36,30.09|N|She is slow inside the cave.  Once outside, at one point you will be ambushed.  Kill them, and follow her to the Farstrider Enclave (she runs after the ambush).|
 T Escape from the Catacombs|QID|9212|M|72.37,29.72|N|To Captain Helios.|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|

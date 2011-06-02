@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2011-05-31 20:55
+-- Who: Ludovicus Maior
+-- Log: Corrected Invalid Z tag argument.
+
+-- URL: http://wow-pro.com/node/3220/revisions/24292/view
 -- Date: 2011-04-29 14:21
 -- Who: Ludovicus Maior
 -- Log: Line 113 for step A has unknown tag [10], Line 114 for step T has unknown tag [10].
@@ -134,7 +139,7 @@ F The Exodar |QID|9698| |N|Fly to The Exodar|M|57.7,53.9|
 T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|
 A Truth or Fiction|QID|9699|
 
-T Newfound Allies|QID|9632|O|M|24.2,54.3|Z|AzuremystIsle|
+T Newfound Allies|QID|9632|O|M|24.2,54.3|Z|Azuremyst Isle|
 N Darkshore Loop |QID|9632|N|If you are going to darkshore, we're going to start that loop now.|
 A The Way to Auberdine|QID|9633|O|PRE|9632|
 b Darkshore |QID|9633|N|Take the boat to Auberdine|O|PRE|9632|M|29.3,28.3|

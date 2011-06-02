@@ -1,4 +1,11 @@
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2011-05-31 21:06
+-- Who: Ludovicus Maior
+-- Log: Two extra "A The Zeppelin Crash|QID|27346|M|55.09,68.11|Z|".
+--	Removed Z tag from [C Challenge to the Black Flight|QID|27411|U|33095|M|56.47,71.28|].
+--	Coords should be confirmed.
+
+-- URL: http://wow-pro.com/node/3241/revisions/24421/view
 -- Date: 2011-05-25 20:47
 -- Who: Fluclo
 -- Log: Auto complete when opening the bag
@@ -374,10 +381,6 @@ A The Grimtotem Weapon|QID|27336|M|46.03,57.20|N|From Apprentice Garion.|
 
 T The Reagent Thief|QID|27339|M|46.03,57.20|N|To Apprentice Garion.|
 
-A The Zeppelin Crash|QID|27346|M|55.09,68.11|Z|
-
-A The Zeppelin Crash|QID|27346|M|55.09,68.11|Z|
-
 C The Grimtotem Weapon|QID|27336|U|33101|M|44.87,49.04|N|Anywhere in the Quagmire. Drop your totem and kill MOTTLED crocalisks. Don't let your pets get the killing blow.|
 
 C Direhorn Raiders|QID|27340|S|QO|Direhorn Grimtotems killed: 0/12|M|47.22,49.39|
@@ -470,7 +473,7 @@ T Spirits of Stonemaul Hold|QID|27410|M|41.87,73.91|N|To Brogg.|
 
 A Challenge to the Black Flight|QID|27411|M|41.87,73.91|N|From Brogg.|
 
-C Challenge to the Black Flight|QID|27411|U|33095|M|56.47,71.28|Z|Onyxia's Lair|
+C Challenge to the Black Flight|QID|27411|U|33095|M|56.47,71.28|
 
 H Theramore Isle|QID|99999|N|Hearth back now.|
 

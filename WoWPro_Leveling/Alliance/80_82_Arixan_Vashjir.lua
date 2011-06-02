@@ -1,4 +1,19 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2011-06-02 00:38
+-- Who: Fluclo
+-- Log: Clarifying info on Full Circle
+
+-- URL: http://wow-pro.com/node/3305/revisions/24488/view
+-- Date: 2011-06-02 00:12
+-- Who: Fluclo
+-- Log: Moved A Breath of Fresh Air to before the flight plans, so that it makes sense that this is on surface.
+
+-- URL: http://wow-pro.com/node/3305/revisions/24466/view
+-- Date: 2011-05-31 21:00
+-- Who: Ludovicus Maior
+-- Log: Spell Vashj'ir right!
+
+-- URL: http://wow-pro.com/node/3305/revisions/24434/view
 -- Date: 2011-05-28 11:03
 -- Who: Ludovicus Maior
 -- Log: PLayed the zone, fixed some text, coords and zones.
@@ -176,7 +191,7 @@
 -- Date: 2010-12-03 22:57
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vash'jir", 'Arixan', '80', '82', 'AriDeeA8283', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', '80', '82', 'AriDeeA8283', 'Alliance', function()
 return [[
 
 T A Personal Summons|QID|28825|M|74.5,19.2|Z|Stormwind City|N|This should be in your quest log when you enter Stormwind. Turn in at Naraat the Earthspeaker|
@@ -576,12 +591,12 @@ C Final Judgement|QID|25951|M|37.50,78.69;42.90,78.40|Z|Shimmering Expanse|N|Swi
 T Final Judgement|QID|25951|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 T Visions of the Past: Rise From The Deep|QID|25626|M|46.69,57.53;49.45,57.57|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
 A A Breath of Fresh Air|QID|26005|PRE|25626|M|49.45,57.57|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
+T A Breath of Fresh Air|QID|26005|M|69.61,75.34|Z|Vashj'ir|U|57412|N|Located on the surface. You can use the Boom Boots to get to the surface. Turn quest in to Captain Taylor.|
 f The Lightless Reaches|QID|26005|M|57.1,75.18|Z|Shimmering Expanse|N|Grab the flight point at the Swift Seahorse.|
 f Voldrin's Hold|QID|26005|M|69.4,75.2|Z|Vashj'ir|N|Grab the flight point from Salty McTavish.|
-T A Breath of Fresh Air|QID|26005|M|69.61,75.34|Z|Vashj'ir|U|57412|N|You can use the Boom Boots to get to the surface. Turn quest in to Captain Taylor.|
 
 A Full Circle|QID|26219|PRE|26005|M|69.6,75.3|Z|Vashj'ir|N|From Captain Taylor.|
-C Full Circle|QID|26219|M|69.6,75.3|Z|Vashj'ir|Z|Shimmering Expanse|N|Get on board the sub once it arrives and wait till Darkbreak Cove is secured.|
+C Full Circle|QID|26219|M|69.6,75.3|Z|Vashj'ir|Z|Shimmering Expanse|N|Get on board the sub once it arrives (can take 1-2 minutes to arrive, listen out for the Engineer's yelling indicating it's arrival).  Board the sub, and head downstairs and stand behind the Captain and Number 2.  Once Darkbreak Cove is secured and the sub docks, you will be automatically placed in next to Captain Glovaal on land.|
 T Full Circle|QID|26219|M|54.5,72.8|Z|Abyssal Depths|N|To Captain Glovaal.|
 A Bio-Fuel|QID|26103|PRE|26219|M|55.5,72.9|Z|Abyssal Depths|N|Engineer Hexascrub.|
 f Darkbreak Cove|QID|26103|M|56.92,75.52|Z|Abyssal Depths|N|Grab the flight point at the Swift Seahorse.|

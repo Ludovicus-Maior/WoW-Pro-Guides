@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_silithus_horde
+-- Date: 2011-05-30 18:05
+-- Who: Ludovicus Maior
+-- Log: ! Line 55 for step C has unknown tag [Kill Dredge Strikers.]: [C Securing the Supply Lines|QID|8280|M|47.27,38.32|S|Kill Dredge Strikers.|]
+--	! Line 128 for step T has unknown tag [s]: [T Brann Bronzebeard's Lost Letter|QID|8308|O|M|46.37,79.08|N|To Rutgar Glyphshaper.|s]
+
+-- URL: http://wow-pro.com/node/3270/revisions/24447/view
 -- Date: 2011-05-30 05:06
 -- Who: Crackerhead22
 -- Log: Note tweaks, added missing notes, changed a few steps for better quest flow, added in Alliance flight point grab, added in steps to go to Blasted Lands.
@@ -52,7 +58,7 @@ A Secret Communication|QID|8318|M|52.67,35.56|N|From Bor Wildmane.|
 A Twilight Geolords|QID|8320|M|52.76,35.63|N|From Huum Wildmane.|
 
 C Deadly Desert Venom|QID|8277|M|47.91,36.17|S|N|Kill and loot Sand Skitterers and Stonelash Scorpids.|
-C Securing the Supply Lines|QID|8280|M|47.27,38.32|S|Kill Dredge Strikers.|
+C Securing the Supply Lines|QID|8280|M|47.27,38.32|S|N|Kill Dredge Strikers.|
 C Secret Communication|QID|8318|M|43.32,38.61|S|N|Dropped by any Twilight mob. Be careful, the Prophets are elite and quite strong, but if you manage to kill one they can drop around 10 Encrypted Texts.|
 C Twilight Geolords|QID|8320|M|43.91,40.41|N|This camp should have enough Geolords. Prophets occassionally patrol through.|
 l Encrypted Twilight Text|QID|8318|M|43.91,40.41|L|20404 20|N|Keep killing and looting Twilight mobs until you have 20 texts. 10 for the quest "Secret Commumnication", plus 10 for a later quest.|
@@ -125,7 +131,7 @@ l Brann Bronzebeard's Lost Letter|QID|8308|M|33.24,53.85|N|Keep killing silithid
 A Brann Bronzebeard's Lost Letter|QID|8308|M|33.24,53.85|N|Accept this quest from the letter.|U|20461|
 
 T Glyph Chasing|QID|8309|M|46.37,79.08|N|To Rutgar Glyphshaper.|
-T Brann Bronzebeard's Lost Letter|QID|8308|O|M|46.37,79.08|N|To Rutgar Glyphshaper.|s
+T Brann Bronzebeard's Lost Letter|QID|8308|O|M|46.37,79.08|N|To Rutgar Glyphshaper.|
 T Breaking the Code|QID|8310|M|45.96,79.39|N|To Frankal Stonebridge.|
 
 A Unraveling the Mystery|QID|8314|M|45.96,79.39|N|To Frankal Stonebridge.|

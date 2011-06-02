@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2011-05-30 17:58
+-- Who: Ludovicus Maior
+-- Log: ! Line 39 for step R has 1 M coords: [R Emerald Sanctuary|QID|28100|M|51.41.79.79|N|Run to Emerald Sanctuary.|]
+
+-- URL: http://wow-pro.com/node/3257/revisions/24432/view
 -- Date: 2011-05-28 06:51
 -- Who: Crackerhead22
 -- Log: Removed static 99999 QIDs, added notes, fixed a couple notes, fixed a couple cords. Added in steps for Deadwood Headdress Feathers (1 step) and Deadwood Ritual Totem (3 steps).
@@ -36,7 +41,7 @@ N Note|QID|28100|N|This guide starts in Darnassus. If you want to skip this step
 A Hero's Call: Felwood!|QID|28543|M|45.19,50.01|Z|Darnassus|N|From the Hero's Call Board. Will not appear if your level is too high.|
 F Forrest Song|QID|28100|N|in Ashenvale. If you should happen to have Emerald Sanctuary go there instead and skip this and the next step.|
 R Felwood|QID|28100|M|54.77,98.29|N|Run into Felwood.|
-R Emerald Sanctuary|QID|28100|M|51.41.79.79|N|Run to Emerald Sanctuary.|
+R Emerald Sanctuary|QID|28100|M|51.41,79.79|N|Run to Emerald Sanctuary.|
 T Hero's Call: Felwood!|QID|28543|O|M|51.20,80.49|N|To Tenell Leafrunner.|
 A The Corruption of the Jadefire|QID|27997|M|51.20,80.49|N|From Tenell Leafrunner.|
 A Culling the Corrupted|QID|28148|M|50.92,80.21|N|From Taronn Redfeather.|

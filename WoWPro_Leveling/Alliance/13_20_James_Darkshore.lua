@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2011-05-30 17:51
+-- Who: Ludovicus Maior
+-- Log: Line 198 for step T has unknown tag [QlID]: [T Denying Manpower|QlID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|]
+
+-- URL: http://wow-pro.com/node/3218/revisions/24410/view
 -- Date: 2011-05-22 00:04
 -- Who: Crackerhead22
 
@@ -195,7 +200,7 @@ C War Supplies|QID|13509|U|44999|M|62.42,8.08|US|N|Use the Sentinel Torch to bur
 T One Bitter Wish|QID|13511|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
 T War Supplies|QID|13509|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
 T Timely Arrival|QID|13510|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
-T Denying Manpower|QlID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|
+T Denying Manpower|QID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|
 A Strategic Strikes|QID|13512|M|58.94,19.51|N|From Lieutenant Morra Starbreeze.|
 A On the Brink|QID|13513|M|58.94,19.51|N|From Balthule Shadowstrike.|
 A The Looting of Althalaxx|QID|13844|M|59.25,19.63|N|From Mathas Wildwood.|

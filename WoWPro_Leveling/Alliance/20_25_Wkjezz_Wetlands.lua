@@ -1,4 +1,29 @@
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2011-06-01 13:40
+-- Who: Fluclo
+-- Log: Gizmos and Gadgets and The Mosshide Job done together
+
+-- URL: http://wow-pro.com/node/3224/revisions/24486/view
+-- Date: 2011-06-01 13:29
+-- Who: Fluclo
+-- Log: Unsticky Claws from the Deep which was stickied earlier
+
+-- URL: http://wow-pro.com/node/3224/revisions/24485/view
+-- Date: 2011-06-01 13:23
+-- Who: Fluclo
+-- Log: When Life Gives You Crabs and A Mother's Worries can be done at same time
+
+-- URL: http://wow-pro.com/node/3224/revisions/24484/view
+-- Date: 2011-06-01 13:22
+-- Who: Fluclo
+-- Log: Typo
+
+-- URL: http://wow-pro.com/node/3224/revisions/24467/view
+-- Date: 2011-05-31 21:02
+-- Who: Ludovicus Maior
+-- Log: Two Extra [A The Battle of Thandol Span|QID|26128|M|50.75,49.97|Z|] stuck at the end!
+
+-- URL: http://wow-pro.com/node/3224/revisions/23662/view
 -- Date: 2010-12-06 23:38
 -- Who: Jiyambi
 
@@ -78,8 +103,11 @@ C The Third Fleet|QID|25815|M|10.64,61.69|N|In the cellar|
 T The Third Fleet|QID|25815|M|10.90,59.70|N|To First Mate Fitzsimmons.|
 A Cursed to Roam|QID|25816|M|10.90,59.70|N|From First Mate Fitzsimmons.|
 f Menethil Harbor|QID|99999|M|09.53,59.56|N|From Shellei Brondir|
-C When Life Gives You Crabs|QID|25800|M|19.85,59.98|N|Kill the craps and loot them.|
+
+C When Life Gives You Crabs|QID|25800|S|M|19.85,59.98|N|Kill the crabs and loot them.|
 C A Mother's Worries|QID|25820|M|19.42,58.34|N|Kill the sharks.|
+C When Life Gives You Crabs|QID|25800|US|M|19.85,59.98|N|Kill the crabs and loot them.|
+
 T A Mother's Worries|QID|25820|M|11.79,57.85|N|To Derina Rumdnul.|
 T When Life Gives You Crabs|QID|25800|M|11.18,57.85|N|To Karl Boran.|
 A Claws from the Deep|QID|25801|M|11.18,57.85|N|From Karl Boran.|
@@ -88,7 +116,7 @@ A Reclaiming Goods|QID|25802|M|11.18,57.85|N|From Karl Boran.|
 T Reclaiming Goods|QID|25802|M|13.53,41.48|
 A The Search Continues|QID|25803|M|13.53,41.48|
 T The Search Continues|QID|25803|M|13.66,38.26|N|To Baby Bluegill Murloc.|
-C Claws from the Deep|QID|25801|L|3618 |M|14.43,37.44|
+C Claws from the Deep|QID|25801|US|L|3618 |M|14.43,37.44|
 A Search More Hovels|QID|25804|M|13.66,38.26|N|From Baby Bluegill Murloc.|
 T Search More Hovels|QID|25804|M|13.93,34.90|
 A Return the Statuette|QID|25805|M|13.93,34.90|
@@ -123,8 +151,9 @@ A Hunting Horrorjaw|QID|25857|M|26.75,26.63|N|From James Halloran.|
 T I'll Call Him Bitey|QID|25854|M|26.78,25.92|N|To Fradd Swiftgear.|
 A Gizmos and Gadgets|QID|25855|M|26.78,25.92|N|From Fradd Swiftgear.|
 C Hunting Horrorjaw|QID|25857|M|31.16,22.11|
+C The Mosshide Job|QID|25865|S|M|33.73,31.21|N|Loot from gnolls.|
 C Gizmos and Gadgets|QID|25855|M|31.39,29.92|N|Look for sparkles in the ground and loot them|
-C The Mosshide Job|QID|25865|M|33.73,31.21|N|Loot from gnolls.|
+C The Mosshide Job|QID|25865|US|M|33.73,31.21|N|Loot from gnolls.|
 T Hunting Horrorjaw|QID|25857|M|26.79,26.65|N|To James Halloran.|
 T The Mosshide Job|QID|25865|M|26.90,26.16|N|To Shilah Slabchisel.|
 T Gizmos and Gadgets|QID|25855|M|26.82,25.92|N|To Fradd Swiftgear.|
@@ -178,8 +207,7 @@ A The Battle of Thandol Span|QID|26128|M|49.50,17.28|N|From Thargas Anvilmar.|
 C The Battle of Thandol Span|QID|26128|M|51.11,9.04|
 T The Battle of Thandol Span|QID|26128|M|49.53,17.25|N|To Thargas Anvilmar.|
 A In to Arathi|QID|26139|M|49.53,17.25|N|From Thargas Anvilmar.|
-A The Battle of Thandol Span|QID|26128|M|50.75,49.97|Z|
-A The Battle of Thandol Span|QID|26128|M|50.75,49.97|Z|
+
 ]]
 
 end)

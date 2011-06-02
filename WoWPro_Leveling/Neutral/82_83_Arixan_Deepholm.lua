@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_alliance
+-- Date: 2011-05-18 22:38
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3307/revisions/24399/view
 -- Date: 2011-05-17 01:21
 -- Who: Ludovicus Maior
 -- Log: Small N syntax fix
@@ -71,11 +75,15 @@
 WoWPro.Leveling:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', '82', '83', 'AriUld8384', 'Neutral', function()
 return [[
 
-N The Battle is Won, The War Goes On|QID|27398|Z|Stormwind City|N|If you don't have this quest, check it off and continue to the next.|
-A Hero's Call: Deepholm!|QID|27727|M|63,71.7|Z|Stormwind City|N|If you don't have the first quest.|
-T The Battle is Won, The War Goes On|QID|27398|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|
-T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|O|
-A The Maelstrom|QID|27203|PRE|27727|Z|The Maelstrom|M|74.5,19.3|N|From Neraat the Earthspeaker.|
+N The Battle is Won, The War Goes On|QID|27398|Z|Stormwind City|N|If you don't have this quest, check it off and continue to the next.|FACTION|Alliance|
+A Hero's Call: Deepholm!|QID|27727|M|63,71.7|Z|Stormwind City|N|If you don't have the first quest.|FACTION|Alliance|
+T The Battle is Won, The War Goes On|QID|27398|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
+T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|O|FACTION|Alliance|
+
+A Warchief's Command: Deepholm!|QID|27722|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
+T Warchief's Command: Deepholm!|QID|27722|M|50.30,38.24|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
+
+A The Maelstrom|QID|27203|PRE|27727|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
 T The Maelstrom|QID|27203|M|33.2,50.2|Z|The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
 A Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|PRE|27203|M|33.2,50.2|N|From Thrall.|
 C Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|M|33.2,50.2|N|Hop on the Wyvern behind you.|
@@ -95,11 +103,15 @@ T Gunship Down|QID|26245|M|49.6,53|N|To Maruut Stonebinder.|
 T Captain's Log|QID|26246|M|49.6,53|N|To Maruut Stonebinder.|
 T The Earth Claims All|QID|26244|M|49.7,53|N|To Seer Kormo.|
 T Elemental Energy|QID|27136|M|49.7,53|N|To Seer Kormo.|
-
 A Diplomacy First|QID|26247|PRE|26246;26244;27136|M|49.6,53|N|From Maruut Stonebinder.|
 A Where's Goldmine?|QID|26409|PRE|26876|M|49.52,53.40|N|From Earthcaller Yevaa.|
-A The Explorers|QID|27952|M|49.52,53.40|N|From Earthcaller Yevaa.|
-T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|
+
+A The Explorers|QID|27952|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Alliance|
+T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|FACTION|Alliance|
+
+A The Reliquary|QID|27953|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Horde|
+T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
+
 T Diplomacy First|QID|26247|M|62.2,47|N|Fly up to the Alliance Gunship. To Stormcaller Mylra.|
 A All Our Friends Are Dead|QID|26248|PRE|26247|M|62.2,47|N|From Stormcaller Mylra.|
 A The Admiral's Cabin|QID|26249|PRE|26247|M|62.2,47|N|From Stormcaller Mylra.|
@@ -255,12 +267,12 @@ T Reactivate the Construct|QID|26762|N|To Pyrium Lodestone.|
 T Mystic Masters|QID|26770|N|To Flint Oremantle.|
 A Down into the Chasm|QID|26834|PRE|26762;26770|M|22.6,52.1|N|From Pyrium Lodestone.|
 T Down into the Chasm|QID|26834|M|27.6,44.9|N|To Slate Quicksand.|
-A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
+A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|From Slate Quicksand.|
 A Fungal Monstrosities|QID|26792|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
 C Sprout No More|QID|26791|S|N|Obtain a War Guardian and start destroying Giant Mushrooms and Fungal Monstrosities.|
 C Fungal Monstrosities|QID|26792|M|27.5,38.3|N|Destroy Fungal Monstrosities.|
 C Sprout No More|QID|26791|M|27.6,35.6|US|N|Finish destroying Giant Shrooms.|
-T Sprout No More|QID|26791|M|27.6,44.9|N|To Slate Quicksand.|
+T Sprout No More|QID|26791|M|27.6,44.9|To Slate Quicksand.|
 T Fungal Monstrosities|QID|26792|M|27.6,44.9|N|To Slate Quicksand.|
 A A Slight Problem|QID|26835|PRE|26791;26792|M|27.6,44.9|N|From Slate Quickand.|
 T A Slight Problem|QID|26835|PRE|26791;26792|M|22.6,52.1|N|To Pyrium Lodestone.|
@@ -305,7 +317,7 @@ C Loose Stone|QID|26375|U|58254|M|59.00,42.00|US|N|Finish releasing Quartz Rockl
 T Loose Stones|QID|26375|M|56.5,41.1|N|To Quartz Stonetender.|
 T Unsolid Ground|QID|26377|M|56.50,41.20|N|To Diamant the Patient.|
 T Hatred Runs Deep|QID|26376|M|56.50,41.20|N|To Diamant the Patient.|
-A Violent Gale|QID|26426|PRE|26375;26376;26377|M|56.50,41.20|N|From Diamant the Patient.|
+A Violent Gale|QID|26426|PRE|26375;26376;26377|M|From Diamant the Patient.|
 N Felsen the Enduring|QID|26426|M|52,32|QO|Find Felsen the Enduring: 1/1|N|Find Felsen the Enduring at the waypoint.|
 C Violent Gale|QID|26426|M|58.00,25.00|N|Find the entrance to Crumbling Depths.|
 T Violent Gale|QID|26426|N|(UI Alert)|
@@ -403,7 +415,7 @@ T The Twilight Flight|QID|26831|M|64.1,36.9|N|To Terath.|
 C The Stone March|QID|26829|M|62,35.6|US|N|Finish killing Cultists.|
 T The Stone March|QID|26829|M|63.3,25.1|N|To Therazane.|
 T Therazane's Mercy|QID|26832|M|63.3,25.1|N|To Therazane.|
-A Word in Stone|QID|26833|PRE|26829;26831;26832|N|From Therazane.|
+A Word in Stone|QID|26833|PRE|26829;26831,26832|N|From Therazane.|
 T Word in Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
 A Undying Twilight|QID|26875|PRE|26833|N|From Maruut.|
 C Undying Twilight|QID|26875|M|47.68,53.09|N|Kill Twilight Invaders and Desecrated Earthrager.|
@@ -414,33 +426,61 @@ T The Binding|QID|26971|N|To Earthcaller Torunscar.|
 A The Stone Throne|QID|26709|PRE|26971|M|49.7,53.3|N|Will open up the Daily Quest hub in Deepholm.|
 A Wayward Child|QID|28824|PRE|26709|M|56.5,12.2|N|This is a Quest for Stonecore, the 5-man Dungeon in this zone. Feel free to pick up this quest so you can do it when you run the instance. However that will not be covered here.|
 T The Stone Throne|QID|26709|M|56.4,12.2|N|Back up on Therazane's Throne.|
-A The Twilight Plot|QID|27004|RANK|1|M|47.4,51.4|N|From Explorer Mowi.|
-A Fly Over|QID|27006|RANK|1|M|47.4,51.4|N|From Prospector Brewer.|
-C The Twilight Plot|QID|27004|M|41.00,69.00|N|Kill Twilight Cultist in the area untill you get the Masters' Gate Plans.|
-C Fly Over|QID|27006|M|39.10,73.90|N|Fly to the Masters' Gate.|
-T The Twilight Plot|QID|27004|M|47.4,51.4|N|To Explorer Mowi.|
-T Fly Over|QID|27006|M|47.4,51.4|N|To Prospector Brewer.|
-A Fight Fire and Water and Air With...|QID|27042|PRE|27004;27006|RANK|2|M|47.4,51.4|N|From Prospector Brewer.|
-A Decryption Made Easy|QID|27040|PRE|27004;27006|N|From Explorer Mowi.|
-C Decryption Made Easy|QID|27040|S|M|38,69.9;39.6,73.8;41.2,71.8|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|
-C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental.|
-C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|36.10,67.40|QO|Fire Ward acquired: 1/1|N|Kill the Bound Fire Elemental.|
-C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|40.50,72.40|QO|Air Ward acquired: 1/1|N|Kill the Bound Air Elemental.|
-C Decryption Made Easy|QID|27040|US|M|38,69.9;39.6,73.8;41.2,71.8|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|
-T Decryption Made Easy|QID|27040|N|(UI Alert)|
-A The Wrong Sequence|QID|27058|PRE|27040|N|Quest starts automatic.
-C The Wrong Sequence|QID|27058|M|39.15,73.75|N|Go to the Waygate, use the Waygate Contoller located directly in front of the Waygate to destroy it.|
-C Fight Fire and Water and Air With...|QID|27042|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|
-T Fight Fire and Water and Air With...|QID|27042|RANK|2|N|To Prospector Brewer.|
-T The Wrong Sequence|QID|27058|PRE|27040|M|47.4,51.4|N|To Explorer Mowi.|
-A That's No Pyramid!|QID|28292|PRE|27058|M|47.4,51.4|N|From Explorer Mowi.|
-R Stormwind City|QID|28292|M|48.53,53.84|N|Go back into the main chamber of the Temple and take the portal in the southwest alcove to return to Stormwind.|
-T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|Stormwind City|N|To Harrison Jones.|
-A Meetup with the Caravan|QID|28295|N|From Harrison Jones.|M|85.77,25.85|Z|Stormwind City|
-F Booty Bay|QID|28295|Z|Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|
-b Ratchet|QID|28295|Z|The Cape of Stranglethorn|M|39,67|N|Take the boat to Ratchet.|
-F Southmoon Ruins|QID|28295|Z|Northern Barrens|M|69.13,70.70|N|Fly to Southmoon Ruins in the southern part of Tanaris.|
-T Meetup with the Caravan|QID|28295|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|
 
+A The Twilight Plot|QID|27004|RANK|1|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
+A Fly Over|QID|27006|RANK|1|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
+C The Twilight Plot|QID|27004|M|41.00,69.00|N|Kill Twilight Cultist in the area untill you get the Masters' Gate Plans.|FACTION|Alliance|
+C Fly Over|QID|27006|M|39.10,73.90|N|Fly to the Masters' Gate.|FACTION|Alliance|
+T The Twilight Plot|QID|27004|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
+T Fly Over|QID|27006|M|47.4,51.4|N|To Prospector Brewer.|FACTION|Alliance|
+A Fight Fire and Water and Air With...|QID|27042|PRE|27004;27006|RANK|2|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
+A Decryption Made Easy|QID|27040|PRE|27004;27006|N|From Explorer Mowi.|FACTION|Alliance|
+C Decryption Made Easy|QID|27040|S|M|38,69.9;39.6,73.8;41.2,71.8|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
+C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental.|FACTION|Alliance|
+C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|36.10,67.40|QO|Fire Ward acquired: 1/1|N|Kill the Bound Fire Elemental.|FACTION|Alliance|
+C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|40.50,72.40|QO|Air Ward acquired: 1/1|N|Kill the Bound Air Elemental.|FACTION|Alliance|
+C Decryption Made Easy|QID|27040|US|M|38,69.9;39.6,73.8;41.2,71.8|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
+T Decryption Made Easy|QID|27040|N|(UI Alert)|FACTION|Alliance|
+A The Wrong Sequence|QID|27058|PRE|27040|N|Quest starts automatic.|FACTION|Alliance|
+C The Wrong Sequence|QID|27058|M|39.15,73.75|N|Go to the Waygate, use the Waygate Contoller located directly in front of the Waygate to destroy it.|FACTION|Alliance|
+C Fight Fire and Water and Air With...|QID|27042|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|FACTION|Alliance|
+T Fight Fire and Water and Air With...|QID|27042|RANK|2|N|To Prospector Brewer.|FACTION|Alliance|
+T The Wrong Sequence|QID|27058|PRE|27040|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
+A That's No Pyramid!|QID|28292|PRE|27058|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
+R Stormwind City|QID|28292|M|48.53,53.84|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Stormwind.|FACTION|Alliance|
+T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|Stormwind City|N|To Harrison Jones.|FACTION|Alliance|
+A Meetup with the Caravan|QID|28295|N|From Harrison Jones.|M|85.77,25.85|Z|Stormwind City|FACTION|Alliance|
+F Booty Bay|QID|28295|Z|Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
+b Ratchet|QID|28295|Z|The Cape of Stranglethorn|M|39,67|N|Take the boat to Ratchet.|FACTION|Alliance|
+F Southmoon Ruins|QID|Z|Northern Barrens|M|69.13,70.70|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
+T Meetup with the Caravan|QID|28295|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|Alliance|
+
+A The Twilight Plot|QID|27005|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
+A Fly Over|QID|27008|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
+C The Twilight Plot|QID|27005|M|41.00,69.00|N|Kill Twilight Cultist in the area until you get the Twilight Terrace Plans.|FACTION|Horde|
+C Fly Over|QID|27008|M|39.10,73.90|N|Fly to the Titan Waygate.|FACTION|Horde|
+T The Twilight Plot|QID|27005|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
+T Fly Over|QID|27008|M|51.20,50.10|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
+A Fight Fire and Water and Air With...|QID|27043|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
+A Decryption Made Easy|QID|27041|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
+C Decryption Made Easy|S|QID|27041|N| Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Horde|
+N Water Ward|QID|27043|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental to get the Water Ward.|FACTION|Horde|
+N Fire Ward|QID|27043|M|36.10,67.40|QO|Fire Ward acquired: 1/1|N|Kill the Bound Fire Elemental to get the Fire Ward.|FACTION|Horde|
+N Air Ward|QID|27043|M|40.50,72.40|QO|Air Ward acquired: 1/1|N|Kill the Bound Air Elemental to get the Air Ward.|FACTION|Horde|
+C Decryption Made Easy|US|QID|27041|N| Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Horde|
+T Decryption Made Easy|QID|27041|N|When you finish a Quest Complete notification will appear. Click it.|FACTION|Horde|
+A The Wrong Sequence|QID|27059|N|You will be automatically offered the follow-up.|FACTION|Horde|
+C The Wrong Sequence|QID|27059|M|39.13,73.86|N|Go to the Waygate, use the Waygate Contoller located directly in front of the Waygate to destroy it.|FACTION|Horde|
+C Fight Fire and Water and Air With...|QID|27043|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|FACTION|Horde|
+T Fight Fire and Water and Air With...|QID|27043|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
+T The Wrong Sequence|QID|27059|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
+A That's No Pyramid!|QID|28293|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
+R Orgrimmar|QID|28293|M|50.94,53.1|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Orgimmar.|FACTION|Horde|
+T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
+A Meetup with the Caravan|QID|28296|M|49.00,71.00|Z|Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
+T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|Horde|
+T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|Horde|
+
+N This ends this guide.|N|Close this step to continue to Uldum guide.|
 ]]
 end)

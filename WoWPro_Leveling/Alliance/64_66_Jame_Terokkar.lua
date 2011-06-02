@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2011-05-31 21:41
+-- Who: Crackerhead22
+-- Log: Fixed typos found by andyarnolduk.
+
+-- URL: http://wow-pro.com/node/3277/revisions/24424/view
 -- Date: 2011-05-27 02:13
 -- Who: Crackerhead22
 -- Log: Fixed typo on step "N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor|" and fixed flight point grab for Allerian Stronghold.
@@ -298,13 +303,13 @@ r Sell junk, Repair, restock, train skills|QID|10412|M|54.6,82.4|Z|Shattrath Cit
 A Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|From Magistriz Fyalenn.|REP|Scryers|
 T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|To Magistriz Fyalenn.|REP|Scryers|
 T A Cure for Zahlia|QID|10020|Z|Shattrath City|N|To Sha'nir.|M|64.37,15.55|REP|Aldor|
-T Ezekiel|QID|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|N|To Ezekial. He wanders around the Terrace of Light.|
+T Ezekiel|QID|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|N|To Ezekiel. He wanders around the Terrace of Light.|
 A What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|From Ezekiel.|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|
 C What Book? I Don't See Any Book.|Z|Shattrath City|N|Get a group for this quest, then talk to "Dirty" Larry in Lower City and then get him down in health.|QID|10231|M|43.58,29.36|
 T What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|To "Dirty" Larry.|M|43.58,29.36|
 A The Master's Grand Design? |QID|10251|Z|Shattrath City|M|43.58,29.36|N|From "Dirty" Larry.|
 
-T Letting Earthbinder Tavgren Know |QID|10005|M|44.3,26.3|N|To Earthbinder Tavgreen.|
+T Letting Earthbinder Tavgren Know |QID|10005|M|44.3,26.3|N|To Earthbinder Tavgren.|
 T Veil Lithic: Preemptive Strike |QID|10861|M|37.4,51.5|N|To Kirrik the Awakened.|
 A Veil Shalas: Signal Fires |QID|10874|M|37.4,51.5|N|From Kirrik the Awakened.|
 C Fumping|N|Go here (make sure the map says "The Bone Wastes"), use the fumper to possibly spawn a sifter. Kill and loot sifters this way until you get all the items for this quest. Do not be too close to the caravan as the level 85 guards will kill it too quick.|QID|10929|M|35.05,51.5|

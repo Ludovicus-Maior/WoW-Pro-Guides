@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2011-05-30 18:00
+-- Who: Ludovicus Maior
+-- Log: ! Line 84 for step C Bad coord 7288: [C To The Ground!|QID|25053|U|51547|M|7288,46.09|N|The last building to torch is here.|]
+
+-- URL: http://wow-pro.com/node/3259/revisions/24426/view
 -- Date: 2011-05-27 09:23
 -- Who: Crackerhead22
 -- Log: Added in "Tropical Paradise Beckons", the quest that leads you into Un'Goro Crater.
@@ -81,7 +86,7 @@ C Dead Man's Chest|QID|25052|S|M|72.61,46.39|N|Kill Southsea Pirates.|
 C Lootin' Plunder|QID|25054|S|M|71.50,46.79|N|Look inside the shacks, and collect Pirate Loot.|
 U To The Ground!|QID|25053|U|51547|QO|Northwest Shack: 1/1|M|71.67,46.75|N|The 1st building to torch is here.|
 U To The Ground!|QID|25053|U|51547|QO|Southwest Shack: 1/1|M|71.93,48|N|The second building to set on fire is here.|
-C To The Ground!|QID|25053|U|51547|M|7288,46.09|N|The last building to torch is here.|
+C To The Ground!|QID|25053|U|51547|M|72.88,46.09|N|The last building to torch is here.|
 C Lootin' Plunder|QID|25054|US|M|71.50,46.79|N|Finish collecting Pirate Loot.|
 C Dead Man's Chest|QID|25052|US|M|72.61,46.39|N|Finish killing Pirates.|
 L Level 46|QID|25052|LVL|46|N|You should be around level 46 by this point.|

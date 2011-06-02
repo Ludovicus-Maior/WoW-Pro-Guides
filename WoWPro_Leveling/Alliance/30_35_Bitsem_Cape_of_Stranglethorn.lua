@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2011-05-31 20:59
+-- Who: Ludovicus Maior
+-- Log: "The Cape of Stranglethorn" is the zone name.  The "The" matters!
+
+-- URL: http://wow-pro.com/node/3237/revisions/24298/view
 -- Date: 2011-04-29 14:31
 -- Who: Ludovicus Maior
 -- Log: Line 131 for step T has unknown tag [Turns in at a barrel near the water.]
@@ -27,7 +32,7 @@
 -- Date: 2010-12-03 11:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitCap3035', 'Cape of Stranglethorn', 'Bitsem', '30', '35', 'BitWes3540', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('BitCap3035', 'The Cape of Stranglethorn', 'Bitsem', '30', '35', 'BitWes3540', 'Alliance', function()
 return [[
 
 T Hero's Call: Cape of Stranglethorn!|QID|28702|O|M|55.16,42.48|Z|The Cape of Stranglethorn|N|To Bronwyn Hewstrike.|

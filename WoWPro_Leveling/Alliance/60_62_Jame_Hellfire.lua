@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2011-06-01 01:24
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3271/revisions/24450/view
 -- Date: 2011-05-30 05:29
 -- Who: Crackerhead22
 -- Log: Correct cords for the Dark Portal and Watch Commander Relthorn Netherwane.
@@ -47,8 +51,8 @@
 
 WoWPro.Leveling:RegisterGuide("JamHel6062", "Hellfire Peninsula", "Jame", "60", "62", "JamZan6264", "Alliance", function()
 return [[
-R Blasted Lands|QID|10119|N|Take the portal to the Blasted Lands. It is right when you enter the tower where the waypoint is.|Z|Stormwind City|M|50.3,86|
-B Nethergarde Bitter |QID|10119|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep, then put it someplace safe in your bags. |M|59.4,14.87|Z|Blasted Lands|
+R Portal to the Blasted Lands|QID|10119|N|By the Portal Trainer |Z|Stormwind City|M|50.3,86|
+B Nethergarde Bitter |QID|10119|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. |M|63.50,17.00|Z|Blasted Lands|
 
 A Through the Dark Portal |QID|10119|M|54.66,50.44|N|From Watch Commander Relthorn Netherwane.|Z|Blasted Lands|
 R Hellfire Peninsula |QID|10119|N|Go through the portal.|M|55.01,54.13|Z|Blasted Lands|
@@ -71,10 +75,10 @@ N Flying|QID|10482|N|If you are level 60, Expert Riding may be purchased for 250
 C Waste Not, Want Not|S|N|Loot Metal Cogs and Wooden Planks off the ground until you finish this quest. |QID|10055|M|60.4,52.1|
 C Fel Orc Scavengers |N|Kill Orcs until you finish this quest.|QID|10482|M|62.00,54.00|
 C Waste Not, Want Not |N|Loot Metal Cogs/Poles and Wooden Planks off the ground until you finish this quest. |QID|10055|M|60.4,52.1|US|
-T Fel Orc Scavengers |QID|10482|M|50.9,60.2|N|To Lieutenant Amadi.|
 T Waste Not, Want Not |QID|10055|M|51.2,60.0|N|To Dumphry.|
-A Ill Omens |QID|10483|M|50.9,60.2|N|From Lieutenant Amadi.|
+T Fel Orc Scavengers |QID|10482|M|50.9,60.2|N|To Lieutenant Amadi.|
 A Laying Waste to the Unwanted |QID|10078|M|51.2,60.0|N|From Dumphry.|
+A Ill Omens |QID|10483|M|50.9,60.2|N|From Lieutenant Amadi.|
 T The Legion Reborn |QID|10141|M|61.7,60.8|N|To Sergeant Altumus.|
 A The Path of Anguish |QID|10142|M|61.7,60.8|N|From Sergeant Altumus.|
 C The Path of Anguish |N|Kill the mobs needed for this quest.|QID|10142|M|65.00,58.00|
@@ -90,8 +94,8 @@ A Cruel Taskmasters |QID|9399|M|23.1,40.3|N|From Ikan.|
 A The Rock Flayer Matriarch |QID|9490|M|23.1,40.3|N|From Ikan.|
 A The Pools of Aggonar|QID|9426|M|23.4,36.5|N|From Amaan the Wise.|
 f Temple of Telhamat|QID|9390|N|Get the flight path.|M|25.20,37.20|
-T In Search of Sedai|QID|9390|M|25.20,37.20|N|To Sedai's Corpse.|
-A Return to Obadei|QID|9423|M|25.20,37.20|N|From Sedai's Corpse.|
+T In Search of Sedai|QID|9390|M|26.89,37.42|N|To Sedai's Corpse.|
+A Return to Obadei|QID|9423|M|26.89,37.42|N|From Sedai's Corpse.|
 T Return to Obadei|QID|9423|M|23.1,40.3|N|To Anchorite Obadei.|
 A Makuru's Vengeance |QID|9424|M|23.1,40.3|N|From Makuru.|
 F Honor Hold|QID|10142|N|Fly to Honor Hold.|M|25.20,37.20|
@@ -103,7 +107,7 @@ A In Case of Emergency... |QID|10161|M|49.2,74.8|N|From "Screaming" Screed Luckh
 l Ravager Egg Roundup|N|Get 12 Ravager eggs from the ground and the Ravagers.|QID|9349|M|42.00,83.00|L|23217 12|
 T Ravager Egg Roundup|QID|9349|M|49.2,74.8|N|To Legassi.|
 A Helboar, the Other White Meat |QID|9361|M|49.2,74.8|N|From Legassi.|
-C Helboar, the Other White Meat|QID|9361|N|Kill Helboars around the quest giver and loot them.  Use Purification Mixture on the Tainted Helboar Meat.|U|23268|
+C Helboar, the Other White Meat|QID|9361|M|50.58,74.27|N|Kill Helboars around the quest giver and loot them. Use Purification Mixture on the Tainted Helboar Meat.|U|23268|
 T Helboar, the Other White Meat |QID|9361|M|49.2,74.8|N|To Legassi.|
 A Smooth as Butter|QID|9356|M|49.2,74.8|N|From Legassi.|
 
@@ -153,15 +157,15 @@ C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow and begin flying, 
 T Mission: The Abyssal Shelf |QID|10163|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Go to the Front |QID|10382|M|79.3,33.9|N|From Wing Commander Gryphongar.|
 
-T Go to the Front |QID|10382|M|78.35,34.36;68.3,28.6|N|Talk to Gryphoneer Windbellow and get sent to Honor Point. Then to the quest into Field Marshal Brock.|
+T Go to the Front |QID|10382|M|78.35,34.36;68.3,28.6|N|Talk to Gryphoneer Windbellow and get sent to Honor Point. Then turn the quest into Field Marshal Brock.|
 A Disruption - Forge Camp: Mageddon|QID|10394|N|From Field Marshal Brock.|M|68.3,28.6|
 C Disruption - Forge Camp: Mageddon|N|Kill the mobs needed for this quest here.|QID|10394|M|65.00,31.00|
 T Disruption - Forge Camp: Mageddon|QID|10394|N|To Field Marshal Brock.|M|68.3,28.6|
 A Enemy of my Enemy... |QID|10396|N|From Field Marshal Brock.|M|68.3,28.6|
-C Enemy of my Enemy... |N|Kill three cannons here. | |QID|10396|M|65.00,31.00|
+C Enemy of my Enemy... |N|Kill three cannons here.|QID|10396|M|65.00,31.00|
 T Enemy of my Enemy... |QID|10396|N|To Field Marshal Brock.|M|68.3,28.6|
 A Invasion Point: Annihilator |QID|10397|N|From Field Marshal Brock.|M|68.3,28.6|
-K Warbringer Arix'Amal |QID|10397|L|29795|N|The Warbringer is at the waypoint. Kill him and loot the key|M|53.08,26.4|
+K Warbringer Arix'Amal |QID|10397|L|29795|N|The Warbringer is at the waypoint. Kill him and loot the key.|M|53.08,26.4|
 C Invasion Point: Annihilator |N|Use the key on the gate.|QID|10397|U|29795|M|53.06,27.62|
 A The Dark Missive |N|Right-click the missive to start this quest. |QID|10395|U|29588|
 T Invasion Point: Annihilator |QID|10397|N|To Field Marshal Brock.|M|68.3,28.6|
@@ -185,9 +189,9 @@ N Hellfire Ramparts (note)|QID|9575|M|56.72,66.34|N|You may do the Hellfire Ramp
 A Unyielding Souls |QID|10050|M|50.9,60.2|N|From Honor Guard Wesilow.|
 A A Job for an Intelligent Man |QID|9355|M|52.0,62.6|N|From Foreman Biggums.|
 A When This Mine's a-Rockin' |QID|10079|M|52.0,62.6|N|From Foreman Biggums.|
-C A Job for an Intelligent Man |N|Kill the sandworms needed for this quest. | |QID|9355|M|46.00,64.00|
-N Eroded Leather Case |QID|9373| |N|Kill worms until you get an Eroded Leather Case. | |L|23338 1|M|46.00,64.00|
-A Missing Missive |N|Right-click the case to accept the quest. | |QID|9373| |U|23338|M|47.8,65.8|
+C A Job for an Intelligent Man |N|Kill the sandworms needed for this quest.|QID|9355|M|46.00,64.00|
+l Eroded Leather Case |QID|9373|N|Kill worms until you get an Eroded Leather Case.|L|23338|M|46.00,64.00|
+A Missing Missive |N|Right-click the case to accept the quest. |QID|9373|U|23338|M|47.8,65.8|
 C Fel Spirits |N|Use the Anchorite Relic in your inventory when you are near some orcs.  Kill the orcs while near the relic, then kill the Fel Spirits that spawn until you finish this quest. | |QID|10909|M|46.00,74.00|
 T In Case of Emergency... |QID|10161|M|49.2,74.8|N|To "Screaming" Screed Luckheed.|
 A Voidwalkers Gone Wild |QID|9351|M|49.2,74.8|N|From "Screaming" Screed Luckheed.|
@@ -200,7 +204,7 @@ H Honor Hold |QID|10916| |N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
 T Fel Spirits |QID|10909|M|54.3,63.6|N|To Assistant Klatu.|
 T Digging for Prayer Beads|QID|10916|M|54.3,63.6|N|To Assistant Klatu.|
 A The Exorcism of Colonel Jules|QID|10935|M|54.3,63.6|N|From Assistant Klatu.|
-C The Exorcism of Colonel Jules|N|Talk to Anchorite Barada and start the ritual.  Kill the mobs that spawn.  When there are too many mobs in the room, use the Prayer Beads to kill them.  Talk to Colonel Jules afterward to finish it. | |QID|10935|M|53.90,63.55|
+C The Exorcism of Colonel Jules|N|Talk to Anchorite Barada and start the ritual. Kill the mobs that spawn. When there are too many mobs in the room, use the Prayer Beads to kill them. Talk to Colonel Jules afterwards to finish it.|QID|10935|M|53.90,63.55|
 T The Exorcism of Colonel Jules|QID|10935|M|54.3,63.6|N|To Assistant Klatu.|
 A Trollbane is Looking for You|QID|10936|M|54.3,63.6|N|From Assistant Klatu.|
 T Trollbane is Looking for You|QID|10936|M|56.6,66.7|N|To Force Commander Danath Trollbane.|
@@ -208,12 +212,12 @@ A Drill the Drillmaster |QID|10937|M|54.3,63.6|N|From Force Commander Danath Tro
 T Unyielding Souls |QID|10050|M|50.9,60.2|N|To Honor Guard Wesilow.|
 A Looking to the Leadership |QID|10057|M|50.9,60.2|N|From Honor Guard Wesilow.|
 T A Job for an Intelligent Man |QID|9355|M|52.0,62.6|N|To Foreman Biggums.|
-C When This Mine's a-Rockin' |N|Go here and kill the mobs needed for this quest.|QID|10079|M|52.00,62.00|
+C When This Mine's a-Rockin' |N|Go inside Honor Hold Mine and kill the Gan'arg Sappers needed for this quest.|QID|10079|M|52.68,62.43|
 T When This Mine's a-Rockin' |QID|10079|M|52.0,62.6|N|To Foreman Biggums.|
 A The Mastermind |QID|10099|M|52.0,62.6|N|From Foreman Biggums.|
-C The Mastermind |N|Kill Z'Kral|QID|10099|M|56.00,61.00|
+C The Mastermind |N|Kill Z'Kral, he is all the way in the back of Honor Hold Mine.|QID|10099|M|56.00,61.00|
 T The Mastermind |QID|10099|M|52.0,62.6|N|To Foreman Biggums.|
-C The Path of Glory |N|Click Skeletal Remains on the ground around here until you finish this quest. | |QID|10047|M|63.00,49.00|
+C The Path of Glory |N|Click Skeletal Remains on the ground around here until you finish this quest.|QID|10047|M|63.00,49.00|
 T The Path of Glory |QID|10047|M|56.7,66.5|N|To Warp-Scryer Kryv.|
 A The Temple of Telhamat |QID|10093|M|56.7,66.5|N|From Warp-Scryer Kryv.|
 
@@ -227,7 +231,7 @@ A Demonic Contamination |QID|9372|M|15.7,52.0|N|From Thiah Redmane.|
 A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|From Mahuram Stouthoof.|
 A Colossal Menace |QID|10132|N|From Tola'thion.|M|15.59,52.13|
 A The Cenarion Expedition |QID|9912|M|15.7,52.0|N|From Amythiel Mistwalker.|M|16.02,52.26|
-C Demonic Contamination |N|Kill Hulking Helboars until you get the samples for this quest.|QID|9372|M|30.00,40.00|
+C Demonic Contamination |N|Kill Hulking Helboars until you get the samples for this quest.|QID|9372|M|18.5,55.3|
 T The Longbeards |QID|9558|M|24.0,72.1|N|To Gremni Longbeard.|
 A The Arakkoa Threat |QID|9417|M|24.0,72.1|N|From Gremni Longbeard.|
 A Rampaging Ravagers |QID|9385|M|24.0,72.1|N|From Gremni Longbeard.|
@@ -237,7 +241,7 @@ A The Finest Down |QID|9420|M|24.0,72.1|N|From Mirren Longbeard.|
 
 C The Arakkoa Threat |N|Kill birds until you finish this quest.|QID|9417|S|M|25.6,70.3|
 C The Finest Down |N|Kill birds until you finish this quest.|QID|9420|M|25.6,70.3|S|
-N Avruu's Orb |QID|9418|N|Head to the waypoint above the small cave, then kill Avruu and take his Orb.|L|23580 1|M|25.7,75.14|
+l Avruu's Orb |QID|9418|N|Head to the waypoint above the small cave, then kill Avruu and take his Orb.|L|23580 1|M|25.7,75.14|
 A Avruu's Orb |N|Right-click the Orb to accept this quest.|QID|9418||U|23580|M|25.7,75.1|
 T Avruu's Orb |QID|9418|M|29.0,81.5|N|Click on the Haal'eshi Altar, Aeranas will spawn.  Get him down to about 50%, then turn the quest in to it.|
 C The Arakkoa Threat |N|Kill birds until you finish this quest.|QID|9417|US|M|25.6,70.3|
@@ -246,10 +250,10 @@ T The Finest Down |QID|9420|M|24.0,72.1|N|To Mirren Longbeard.|
 T The Arakkoa Threat |QID|9417|M|24.0,72.1|N|To Gremni Longbeard.|
 C Rampaging Ravagers |N|Kill the mobs needed for this quest.|QID|9385|M|22.00,67.00|
 T Rampaging Ravagers |QID|9385|M|24.0,72.1|N|To Gremni Longbeard.|
+
+N Start looking for a group... |QID|10937|N|Start looking for a group for The Rock Flayer Matriarch and Drill the Drillmaster. Kill mobs in this area while you do so.|M|34.00,63.00|
 C Deadly Predators |N|Kill the mobs needed for this quest.|QID|9398|M|32.00,61.00|
 C Hellfire Fortifications |N|Do this quest by taking over the towers.|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|O|
-
-N Start looking for a group... |QID|10937|N|Start looking for a group for The Rock Flayer Matriarch and Drill the Drillmaster.  Kill mobs in this area while you do so. |M|34.00,63.00|
 C The Rock Flayer Matriarch|N|Kill the elite in this cave.|QID|9490|M|34.00,64.00|
 C Drill the Drillmaster |N|Kill Drillmaster Zurok.|QID|10937|M|47.89,56.11|
 C An Ambitious Plan |N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal.  Click on the red Crystal that appears.|QID|9383|M|46.00,82.00|
@@ -272,8 +276,9 @@ T The Rock Flayer Matriarch |QID|9490|N|To Ikan.|M|23.13,40.26|
 
 C Makuru's Vengeance |N|Kill and loot Mag'har Grunts until you get the Beads for this quest.|QID|9424|M|35.00,35.00|
 N Start looking for a group... |QID|10400|N|Start looking for a group for Overlord.|
-C The Heart of Darkness |N|Kill Oozes and Terrorfiends until you complete these two quests.|QID|10399|M|40.34,32.72|
-C The Pools of Aggonar |N|Kill Oozes and Terrorfiends until you complete these two quests.|QID|9426|M|40.34,32.72|
+C The Heart of Darkness |N|Kill Terrorfiends.|QID|10399|M|40.34,32.72|S|
+C The Pools of Aggonar |N|Kill Oozes and Terrorfiends.|QID|9426|M|40.34,32.72|
+C The Heart of Darkness |N|Finsih killing Terrorfiends.|QID|10399|M|40.34,32.72|US|
 C Overlord |N|Kill Arazzius the Cruel (need a group).|QID|10400|M|43.3,31|
 T Makuru's Vengeance |QID|9424|M|23.1,40.3|N|To Makuru.|
 A Atonement |QID|9543|M|23.1,40.3|N|From Anchorite Obadei.|

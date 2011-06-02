@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2011-05-30 17:56
+-- Who: Ludovicus Maior
+-- Log: ! Line 243 for step R has unknown tag [211]: [R Path to the heart|QID|26472|M|77.87,73.54;77.04,74.20;75.86,73.56;75.99,74.05|CC|211]
+
+-- URL: http://wow-pro.com/node/3225/revisions/24411/view
 -- Date: 2011-05-23 01:16
 -- Who: Crackerhead22
 -- Log: Rearranged a few steps for better flow, added missing notes. Condensed code a bit.
@@ -240,7 +245,7 @@ A The Forest Heart|QID|13796|M|75.56,75.94|N|From Gaivan Shadewalker.|
 l Untainted Spirits|QID|13796|S|M|75.07,74.22|N|Make sure you kill ATLEAST 7 Severed Druids, and loot 7 Untainted Spirits as you go.|L|45571 7|
 K Taneel Darkwood|QID|26472|M|77.14,74.21|N|Get to the bottom of the Barrow Den, Straight across the first bridge is Taneel Darkwood.|QO|Taneel Darkwood slain: 1/1|
 K Uthil Mooncall|QID|26472|M|78.08,72.81|QO|Uthil Mooncall slain: 1/1|N|Follow the dots on the ground in the direction of the waypoint. Kill Uthil Mooncall.|
-R Path to the heart|QID|26472|M|77.87,73.54;77.04,74.20;75.86,73.56;75.99,74.05|CC|211
+R Path to the heart|QID|26472|M|77.87,73.54;77.04,74.20;75.86,73.56;75.99,74.05|CC|
 l Untainted Spirits|QID|13796|S|M|75.07,74.22|N|Make sure you kill ATLEAST 7 Severed Druids, and loot 7 Untainted Spirits as you go.|L|45571 7|
 C The Forest Heart|QID|13796|M|83.76,63.11|N|Right click on your 7 Untainted Spirits, then loot the forest heart.|U|45571|
 C Insane Druids|QID|26472|M|74.82,74.27|N|Kill Mavoris Cloudsbreak.|

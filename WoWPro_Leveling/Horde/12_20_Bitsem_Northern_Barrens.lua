@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2011-06-01 00:40
+-- Who: Crackerhead22
+-- Log: Removed lines "A It's Gotta be the Horn|QID|865|RANK|1|M|56.41,56.05|Z|", "
+--	A Take it up with Tony|QID|14052|RANK|1|M|56.53,56.13|Z|" as they were redundant. 
+
+-- URL: http://wow-pro.com/node/3214/revisions/24454/view
 -- Date: 2011-05-30 16:03
 -- Who: Ludovicus Maior
 -- Log: Whoa!  Blizzard changed alot of the quest IDs and added new ordering requirements.
@@ -192,7 +198,6 @@ f Ratchet|QID|895|M|69.11,70.67|N|Get the Ratchet Flight Point.|
 A Southsea Freebooters|QID|887|RANK|2|M|69.53,72.88|N|From Wharfmaster Dizzywig.|
 A Take it up with Tony|QID|14052|RANK|1|M|69.53,72.88|N|From Wharfmaster Dizzywig.|
 
-A It's Gotta be the Horn|QID|865|RANK|1|M|56.41,56.05|Z|
 C Investigate the Wreckage|QID|14066|NC|M|58.86,67.19|
 T Investigate the Wreckage|QID|14066|M|58.86,67.19|
 
@@ -214,7 +219,6 @@ H Ratchet|QID|14067|NC|M|66.87,72.78|N|Hearth to Ratchet.|
 T The Stolen Silver|QID|14067|M|66.94,72.84|N|To Gazrog.|
 T It's Gotta be the Horn|QID|865|M|67.85,71.52|N|To Mebok Mizzyrix.|
 
-A Take it up with Tony|QID|14052|RANK|1|M|56.53,56.13|Z|
 C A Captain's Vengeance|QID|891|S|QO|Lieutenant Buckland slain: 1/1;Lieutenant Pyre slain: 0/1;Theramore Medal: 4/10|M|71.51,86.54|N|From now on, kill Theramore Marines and Island Pirates. Be sure to loot the Marine's Medals.|
 T Take it up with Tony|QID|14052|M|77.28,91.34|N|To Tony Two-Tusk.|
 

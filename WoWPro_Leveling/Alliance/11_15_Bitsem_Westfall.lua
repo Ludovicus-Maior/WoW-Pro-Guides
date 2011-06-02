@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2011-05-30 17:49
+-- Who: Ludovicus Maior
+-- Log: Line 189 for step A has unknown tag [From Marshal Gryan Stoutmantle.]: [A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|From Marshal Gryan Stoutmantle.|]
+
+-- URL: http://wow-pro.com/node/3213/revisions/24442/view
 -- Date: 2011-05-28 19:18
 -- Who: Crackerhead22
 -- Log: Added notes.
@@ -186,7 +191,7 @@ C Keeper of the Flame|QID|26347|M|37.79,40.04|N|Kill and loot Chasm Slimes until
 H Sentinel Hill|QID|26347|NC|M|56.45,47.57|N|Hearth to Sentinel Hill.|
 
 T A Vision of the Past|QID|26320|M|56.27,47.45|N|To Marshal Gryan Stoutmantle.|
-A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|From Marshal Gryan Stoutmantle.|
+A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|N|From Marshal Gryan Stoutmantle.|
 C Rise of the Brotherhood|QID|26322|NC|M|56.36,47.55|N|Watch the scene.|
 T Keeper of the Flame|QID|26347|M|30.55,85.49|N|To Captain Grayson.|
 

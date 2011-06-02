@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2011-06-01 00:47
+-- Who: Crackerhead22
+-- Log: Removed "A Nothing Left for You Here|QID|26134|M|42.83,89.89|Z|" lines, as they belonged to a different zone.
+
+-- URL: http://wow-pro.com/node/3238/revisions/24331/view
 -- Date: 2011-04-29 16:24
 -- Who: Ludovicus Maior
 -- Log: Line 216 for step R has unknown tag [Nalk to Keebok ..]
@@ -29,7 +34,7 @@ A Akiris by the Bundle|QID|26487|M|34.76,29.54|N|From Sassy Hardwrench.|
 A If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.81,29.58|N|From Sassy Hardwrench.|
 A The Holy Water of Clarity|QID|26433|M|33.73,29.16|N|From Flem Gizzix.|
 h Hardwrench Hideaway|QID|26433|M|35.07,27.20|N|At Innkeeper Draxle.|
-A Nothing Left for You Here|QID|26134|M|42.84,90.16|Z|
+
 C Akiris by the Bundle|QID|26487|S|QO|Akiris Reed: 0/6|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|S|
 C The Holy Water of Clarity|QID|26433|M|43.84,49.10|N|Work your way up the winding paths of the naga hills.|
@@ -64,8 +69,7 @@ T Backdoor Dealings|QID|26550|M|34.58,28.05|N|To Chabal.|
 A Eliminate the Outcast|QID|26551|M|34.57,28.02|N|From Chabal.|
 T Zanzil's Secret|QID|26533|M|35.15,27.51|N|To Mixmaster Jasper.|
 A Let's See What You've Got, Zanzil|QID|26534|M|35.15,27.51|N|From Mixmaster Jasper.|
-A Nothing Left for You Here|QID|26134|M|42.83,89.89|Z|
-A Nothing Left for You Here|QID|26134|M|42.83,89.89|Z|
+
 C Let's See What You've Got, Zanzil|QID|26534|M|35.81,30.23|N|All of these guys are in a hut. Talk to them in turn (Do Orgus Last)|
 T Let's See What You've Got, Zanzil|QID|26534|M|35.16,27.52|N|To Mixmaster Jasper.|
 A Recipe for Disaster|QID|26535|M|35.16,27.52|N|From Mixmaster Jasper.|

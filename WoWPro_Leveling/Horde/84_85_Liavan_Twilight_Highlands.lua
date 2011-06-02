@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2011-06-01 00:16
+-- Who: Crackerhead22
+-- Log: Removed |Z|The Maw of Madness, as it was unneeded.
+
+-- URL: http://wow-pro.com/node/3312/revisions/24285/view
 -- Date: 2011-04-28 15:12
 -- Who: Chrisser000
 
@@ -306,28 +311,28 @@ A The Maw of Iso'rath|QID|27376|M|44.07,10.56|N|From Earthcaller Torunscar.|
 
 C The Maw of Iso'rath|QID|27376|M|44.41,10.72|N|Hop on a Earthen Ring Gryphon.|
 
-T The Maw of Iso'rath|QID|27376|M|48.38,14.52|Z|The Maw of Madness|N|To Earthcaller Yevaa.|
-A Devoured|QID|27377|M|48.38,14.52|Z|The Maw of Madness|N|From Earthcaller Yevaa.|
+T The Maw of Iso'rath|QID|27376|M|48.38,14.52|N|To Earthcaller Yevaa.|
+A Devoured|QID|27377|M|48.38,14.52|N|From Earthcaller Yevaa.|
 
-C Devoured|QID|27377|M|48.26,13.86|Z|The Maw of Madness|N|Don't worry if you die. You actually have to, it's part of the quest.|
+C Devoured|QID|27377|M|48.26,13.86|N|Don't worry if you die. You actually have to, it's part of the quest.|
 
 T Devoured|QID|27377|M|33.32,50.40|Z|The Maelstrom|N|To Thrall.|
 A The Worldbreaker|QID|27378|M|33.32,50.40|Z|The Maelstrom|N|From Thrall.|
 
 C The Worldbreaker|QID|27378|M|33.37,50.22|Z|The Maelstrom|
-T The Worldbreaker|QID|27378|M|48.68,16.61|Z|The Maw of Madness|N|To Earthcaller Yevaa.|
+T The Worldbreaker|QID|27378|M|48.68,16.61|N|To Earthcaller Yevaa.|
 
-A The Terrors of Iso'rath|QID|27379|M|48.68,16.61|Z|The Maw of Madness|N|From Earthcaller Yevaa.|
+A The Terrors of Iso'rath|QID|27379|M|48.68,16.61|N|From Earthcaller Yevaa.|
 
-C The Terrors of Iso'rath|QID|27379|M|49.37,15.84|Z|The Maw of Madness|QO|Save Stormcaller Jalara: 1/1|N|Free the ones from the non elites first they will help you on the elites|
-C The Terrors of Iso'rath|QID|27379|M|49.09,13.21|Z|The Maw of Madness|QO|Save Earthmender Duarn: 1/1|
-C The Terrors of Iso'rath|QID|27379|M|47.21,13.27|Z|The Maw of Madness|QO|Save Hargoth Dimblaze: 1/1|
-C The Terrors of Iso'rath|QID|27379|M|47.24,15.80|Z|The Maw of Madness|QO|Save Stormcaller Mylra:1/1|
+C The Terrors of Iso'rath|QID|27379|M|49.37,15.84|QO|Save Stormcaller Jalara: 1/1|N|Free the ones from the non elites first they will help you on the elites|
+C The Terrors of Iso'rath|QID|27379|M|49.09,13.21|QO|Save Earthmender Duarn: 1/1|
+C The Terrors of Iso'rath|QID|27379|M|47.21,13.27|QO|Save Hargoth Dimblaze: 1/1|
+C The Terrors of Iso'rath|QID|27379|M|47.24,15.80|QO|Save Stormcaller Mylra:1/1|
 
-T The Terrors of Iso'rath|QID|27379|M|48.63,16.59|Z|The Maw of Madness|N|To Earthcaller Yevaa.|
+T The Terrors of Iso'rath|QID|27379|M|48.63,16.59|N|To Earthcaller Yevaa.|
 
-A Nightmare|QID|27380|M|48.63,16.59|Z|The Maw of Madness|N|From Earthcaller Yevaa.|
-C Nightmare|QID|27380|M|48.37,15.40|Z|The Maw of Madness|N|Brain evading seemed to be a problem on the Beta logging out and back in seemed to fix it|
+A Nightmare|QID|27380|M|48.63,16.59|N|From Earthcaller Yevaa.|
+C Nightmare|QID|27380|M|48.37,15.40|N|Brain evading seemed to be a problem on the Beta logging out and back in seemed to fix it|
 
 T Nightmare|QID|27380|M|44.02,10.58|N|To Earthcaller Torunscar.|
 A Warm Welcome|QID|27486|M|44.04,10.51|N|From Golluck Rockfist.|

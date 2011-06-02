@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2011-06-01 00:50
+-- Who: Crackerhead22
+-- Log: Fixed Z tag for line "R The Zep tower.|QID|99999|CC|M|52.32,54.41|Z|Orgimmar|N|On the NE tip.|", removed line "A The Green Hills of Stranglethorn|QID|26269|M|46.43,84.64|Z|" as it was a duplicate line.
+
+-- URL: http://wow-pro.com/node/3232/revisions/24096/view
 -- Date: 2011-02-04 22:34
 -- Who: Ludovicus Maior
 -- Log: Changed WWoWPro.Leveling to WoWPro.Leveling
@@ -35,11 +40,14 @@ WoWPro.Leveling:RegisterGuide('WkjNor2530', 'Northern Stranglethorn', 'Gloves', 
 
 return [[
 
+
+
+
 A Northern Stranglethorn: The Fallen Empire|QID|26417|M|53.94,54.42|Z|Orgrimmar|N|This guide starts at Orgrimmar assuming you have trained new skills. Get this quest from Bort.|
 
 T Northern Stranglethorn: The Fallen Empire|QID|26417|M|38.41,50.52|N|To Commander Aggro'gosh.|
 
-R The Zep tower.|QID|99999|CC|M|52.32,54.41|Z|Orgimmar|N|On the NE tip.|
+R The Zep tower.|QID|99999|CC|M|52.32,54.41|Z|Orgrimmar|N|On the NE tip.|
 
 A The Defense of Grom'gol: Raptor Risk|QID|26278|M|38.41,50.52|N|From Commander Aggro'gosh.|
 
@@ -156,8 +164,6 @@ A Supply and Demand|QID|26343|M|43.69,23.48|N|From Drizzlik.|
 A Panther Hunting|QID|190|M|43.76,22.32|N|From Sir S. J. Erlgadin.|
 
 A The Green Hills of Stranglethorn|QID|26269|M|44.20,22.20|N|From Barnil Stonepot.|
-
-A The Green Hills of Stranglethorn|QID|26269|M|46.43,84.64|Z|
 
 C The Green Hills of Stranglethorn|QID|26269|S|M|41.88,20.98|
 

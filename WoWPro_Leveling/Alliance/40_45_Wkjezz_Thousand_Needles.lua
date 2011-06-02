@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2011-05-30 17:57
+-- Who: Ludovicus Maior
+-- Log: ! Line 129 for step R has 1 M coords: [R The Admiral's Den|M|25627|M|92.02,83.23|N|Head to the cave that is The Admiral's Den.|]
+
+-- URL: http://wow-pro.com/node/3253/revisions/24423/view
 -- Date: 2011-05-26 14:21
 -- Who: Crackerhead22
 -- Log: Added notes, fixed a cord or two, removed the static |QID|99999|s.
@@ -126,7 +131,7 @@ C Sunken Treasure|QID|25609|M|83.38,64.95|N|Hop into the water and search for su
 T Sunken Treasure|QID|25609|U|55121|M|91.59,78.61|N|Swim to the surface then use your steamboat and go back to Wizzle Brassbolts.|
 
 A Two-Tusk Takedown|QID|25627|M|91.59,78.61|N|From Wizzle Brassbolts.|
-R The Admiral's Den|M|25627|M|92.02,83.23|N|Head to the cave that is The Admiral's Den.|
+R The Admiral's Den|QID|25627|M|92.02,83.23|N|Head to the cave that is The Admiral's Den.|
 N Two-Tusk Takedown|QID|25627|U|55158|N|Once in the cave head left. Following this left path to the NPC. Bribe all ogres on the way. (Click this step when you are about to fight Tony).|M|94.54,79.43|
 C A Little Payback|QID|25588|M|91.61,78.01|N|Finish killing the Southsea pirates.|
 C Two-Tusk Takedown|QID|25627|M|95.17,79.56|N|After a certain point, Tony will jump into the chests. The chests all spin around and he emerges in a different one, with other mobs spawning in other chests. Just attack him, once he is dead, loot him for the key.|

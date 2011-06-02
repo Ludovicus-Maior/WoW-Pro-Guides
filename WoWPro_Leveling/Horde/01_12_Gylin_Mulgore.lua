@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2011-06-01 00:21
+-- Who: Crackerhead22
+-- Log: Correct Z tag for Orgrimmar and Ragefire.
+
+-- URL: http://wow-pro.com/node/3203/revisions/24436/view
 -- Date: 2011-05-28 11:06
 -- Who: Ludovicus Maior
 -- Log: Race tags needed updating.
@@ -273,8 +278,8 @@ R Go down on the lift|CC|QID|26397|M|51.21,63.07|
 T Walk With The Earth Mother|QID|26397|M|48.19,70.65|Z|Orgrimmar|R|Tauren|N|To Garrosh Hellscream. Inside the building.|
 R Follow the arrows across Orgrimmar|CS|QID|26397|M|51.21,63.07;49.94,50.99;55.91,51.32|Z|Orgrimmar|N|Follow the arrows, up in the lift, then down in the next lift around into the cavern to the enterance to Ragefirm Chasm.|
 R Enemies Below|CC|QID|26866|M|51.79,58.42|Z|Orgrimmar|N|Enter Ragefirm Chasm here.|
-T Enemies Below|QID|26866|M|68.24,11.34|Z|Ragefire Chasm|N|To Stone Guard Kurjack just inside Ragefire Chasm.|
-R Follow the arrows out of Orgrimmar|CS|QID|28496|M|55.96,51.21;60.23,49.95;61.94,48.56;63.39,50.55;65.56,48.80;69.26,35.24;64.87,24.49;66.00,17.31;76.06,1.77|Z|Ogrimmar|
+T Enemies Below|QID|26866|M|68.24,11.34|Z|Ragefire|N|To Stone Guard Kurjack just inside Ragefire Chasm.|
+R Follow the arrows out of Orgrimmar|CS|QID|28496|M|55.96,51.21;60.23,49.95;61.94,48.56;63.39,50.55;65.56,48.80;69.26,35.24;64.87,24.49;66.00,17.31;76.06,1.77|Z|Orgrimmar|
 T Warchief's Command: Azshara!|QID|28496|M|26.96,77.18|Z|Azshara|N|To Labor Captain Grabbit.|
 ]]
 

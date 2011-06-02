@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2011-05-31 20:57
+-- Who: Ludovicus Maior
+-- Log: Z|Stormwind City| not city
+
+-- URL: http://wow-pro.com/node/3197/revisions/24443/view
 -- Date: 2011-05-28 20:21
 -- Who: Crackerhead22
 -- Log: Removed |R|Human,Worgen| tag from certain steps.
@@ -356,7 +361,7 @@ A Dungar Longdrink|QID|26395|Z|Stormwind City|M|77.17,60.98|R|Human|N|From Osric
 T Elmore's Task|QID|1097|Z|Stormwind City|M|59.72,33.78|N|To Grimand Elmore.|
 T Dungar Longdrink|QID|26395|Z|Stormwind City|M|70.93,72.48|R|Human|N|To Osric Strang.|
 A Return To Argus|QID|26396|Z|Stormwind City|M|70.93,72.48|R|Human|N|From Osric Strang.|
-F Goldshire|QID|26396|Z|Stormwind city|M|70.93,72.48|N|Fly back to Goldshire.|
+F Goldshire|QID|26396|Z|Stormwind City|M|70.93,72.48|N|Fly back to Goldshire.|
 T Return To Argus|QID|26396|M|41.71,65.55|R|Human|N|To Smith Argus.|
 A Westbrook Garrison Needs Help!|QID|239|M|42.10,65.93|N|From Marshal Dughan.|
 A Hero's Call: Westfall!|QID|26378|M|42.10,65.93|N|From Marshal Dughan.|

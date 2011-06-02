@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2011-06-01 00:55
+-- Who: Crackerhead22
+-- Log: Removed duplicate line "A Bad News Bear-er|QID|13848|RANK|1|M|53.23,42.54|Z|". Removed "Z|Blackfathom Deeps|" as it was unneeded, and fixed cords for the "C The Essence of Aku'Mai|" step.
+
+-- URL: http://wow-pro.com/node/3228/revisions/24328/view
 -- Date: 2011-04-29 16:19
 -- Who: Ludovicus Maior
 -- Log: Line 175 for step F has unknown tag [73.21,61.54], Line 202 for step C has unknown tag [Escort quest.], Line 296 for step A has unknown tag [RANK2M]
@@ -133,7 +138,6 @@ C Rain of Destruction|QID|13798|U|45598|M|74.19,62.95|N|Leave the mine tunnel, c
 T Rain of Destruction|QID|13798|M|72.21,57.61|N|To Durak.|
 
 A All Apologies|QID|13841|RANK|1|M|73.33,62.12|N|From Splintertree Demolisher.|
-A Bad News Bear-er|QID|13848|RANK|1|M|53.23,42.54|Z|
 
 K Gorgannon|QID|26449|QO|Gorgannon Killed:1/1|M|84.08,71.07;84.24,77.20;87.41,78.98;89.57,76.78|N|Follow the waypoints to Gorgannon in Demonfall Canyon. Kill him, pick up the loot.|
 C Never Again!|QID|26449|QO|Diathorus Killed:1/1|M|82.72,77.91;81.38,78.12;81.12,79.32;80.94,80.05;79.53,80.65;78.41,81.57;78.38,83.84|N|Follow the waypoints through the Canyon and up another path to Diathorus. Kill him, pick up the loot.|
@@ -335,7 +339,7 @@ T Shadumbra's Head|QID|24|M|38.10,43.80|N|To Captain Goggath.|
 
 F Zoram'gar Outpost|QID|26809|N|Fly to Zoram'gar Outpost if you are doing the quests The Essence of Aku'Mai, Blackfathom Deeps, or Je'neu of the Earthen Ring.|
 
-C The Essence of Aku'Mai|QID|26890|RANK|2|M|44.44,35.02|Z|Blackfathom Deeps|N|This is completed outside of the instance itself. If you don't want to make the trip, just abandon it.|
+C The Essence of Aku'Mai|QID|26890|RANK|2|M|13,13|N|This is completed outside of the instance itself. If you don't want to make the trip, just abandon it.|
 T Blackfathom Deeps|QID|26894|RANK|1|M|10.00,14.00|N|To Je'nue Sancrea. He is inside of the Blackfathom Deeps instance.|
 T Je'neu of the Earthen Ring|QID|824|PRE|1918|RANK|2|M|10.00,14.00|N|To Je'neu Sancrea. He is inside of the Blackfathom Deeps instance.|
 
