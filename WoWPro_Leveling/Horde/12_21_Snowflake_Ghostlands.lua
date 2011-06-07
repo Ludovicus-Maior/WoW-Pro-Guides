@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2011-06-07 03:07
+-- Who: Ludovicus Maior
+-- Log: Added Race tags and new race specific quests, where needed for my poor Orc.
+
+-- URL: http://wow-pro.com/node/3221/revisions/24475/view
 -- Date: 2011-06-01 00:44
 -- Who: Crackerhead22
 -- Log: Removed "Z|Amani Catacombs|" as it was unneeded.
@@ -53,7 +58,7 @@ A Delivery to Tranquillien |QID|9148|N|From Courier Dawnstrider.|Z|Eversong Wood
 T Delivery to Tranquillien |QID|9148|N|Follow the road south to Tranquillien.|
 
 A The Forsaken |QID|9327|R|BloodElf|
-A The Forsaken |QID|9329|R|Orc,Troll,Tauren,Undead,Goblin|
+A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|To Vandril|
 T The Forsaken |QID|9327|R|BloodElf| |N|In the large building to your right as you enter Tranquillien from the north.|
 T The Forsaken |QID|9329|R|Orc,Troll,Tauren,Undead,Goblin|N|In the large building to your right as you enter Tranquillien from the north.|
 A The Forsaken|QID|9327|M|46.34,28.34|N|From Arcanist Vandril.|
@@ -144,13 +149,14 @@ T Trouble at the Underlight Mines|QID|9192|M|44.81,32.33|N|To Deathstalker Malte
 A Troll Juju|QID|9199|M|44.81,32.33|N|From High Executor Mavren.|
 T Retaking Windrunner Spire|QID|9173|M|44.82,32.37|N|To High Executor Mavren.|
 T The Lady's Necklace|QID|9175|M|44.82,32.37|N|To High Executor Mavren.|
-A Journey to Undercity|QID|9180|M|44.82,32.37|N|From High Executor Mavren.|
+A Journey to Undercity|QID|9180|M|44.82,32.37|R|BloodElf|N|From High Executor Mavren.|
+A Journey to Undercity|QID|9177|M|44.82,32.37|R|Orc,Troll,Undead,Tauren,Goblin|N|From High Executor Mavren.|
 A Investigate the Amani Catacombs|QID|9193|M|44.88,32.70|N|From Advisor Valwyn.|
 A Clearing the Way|QID|9281|M|46.44,56.43|N|From Apprentice Vor'el.  Kill any Ghostclaw Lynx's you see.|
 A The Farstrider Enclave|QID|9282|M|55.07,48.89|N|From Magister Kaendris.|
 
 T Underlight Ore Samples|QID|9207|M|55.00,48.61|N|To Magister Quallestis.|
-T Deliver the Plans to An'telas|QID|9166|M|60.28,35.74|N|To Magister Sylastor.|
+T Deliver the Plans to An'telas|QID|9166|M|56.53,45.39;60.28,35.74|N|To Magister Sylastor.|
 A Deactivate An'owyn|QID|9169|M|60.27,35.74|N|From Magister Sylastor.|
 C Bearers of the Plague|QID|9158|M|63.69,43.46|N|Kill any Ghostclaw Lynx you need.|
 T Bearers of the Plague|QID|9158|M|72.48,32.19|N|To Farstrider Sedina.|
@@ -237,7 +243,8 @@ K Borgoth the Bloodletter|QID|9170|US|QO|Borgoth the Bloodletter slain: 1/1|M|41
 C The Traitor's Destruction|QID|9167|M|32.81,82.45|N|Dar'Khan is a 21 elite, he has 2-4 adds in the same room as him.  He likes fear now and then.  If you have help, or if you think you can solo him, go ahead.  If not, go ahead and skip, though the rewards are nice.|
 N Thalassian Pass|QID|9167|M|31.74,65.24;31.74,65.66|N|To get your exploration Acheivement, go here.|
 T The Traitor's Destruction|QID|9167|M|54.99,48.99|N|To Magister Kaendris.|
-A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|N|From Magister Kaendris.|
+A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|R|BloodElf|N|From Magister Kaendris.|
+A Friend of the Sin'dorei|QID|9811|M|54.99,48.99|R|Orc,Troll,Tauren,Undead,Goblin|N|From Magister Kaendris.|
 T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.91,48.38|N|To Arcanist Janeda.|
 K Luzran|QID|9156|M|39.5,32;37.3,67.5|N|If you have help or can solo Luzran look for him where the waypoints are.  If not, go ahead and skip.|
@@ -248,14 +255,18 @@ R Tranquillien|QID|9328|M|46,33|N|Run to Tranquillien.|
 F Silvermoon City|QID|9328|M|46,30|N|Fly to Silvermoon City.|
 N Getting a mount|QID|9328|R|BloodElf|M|61.3,54|Z|Eversong Woods|N|You should be at least level 20 by now. Go and get a mount. It costs 4 gold for the training, and 1 gold for the mount. Find Perascamin, and get your Apprentice Riding. Then buy a mount from Winaestra. Close to continue.|
 N Training|QID|9328|N|Visit your trainers, AH, etc.  Close this step to continue.|
-T Hero of the Sin'dorei|QID|9328|M|53.98,20.42|Z|Silvermoon City|N|To Lor'themar Theron .|
-A Envoy to the Horde|QID|9621|M|53.98,20.42|Z|Silvermoon City|N|From Lor'themar Theron .|
+T Hero of the Sin'dorei|QID|9328|M|53.98,20.42|R|BloodElf||Z|Silvermoon City|N|To Lor'themar Theron .|
+T Friend of the Sin'dorei|QID|9811|M|53.98,20.42|R|Orc,Troll,Tauren,Undead,Goblin|Z|Silvermoon City|N|To Lor'themar Theron .|
+A Envoy to the Horde|QID|9621|M|53.98,20.42|R|BloodElf|Z|Silvermoon City|N|From Lor'themar Theron .|
+A Envoy to the Horde|QID|9812|M|53.98,20.42|R|Orc,Troll,Tauren,Undead,Goblin|Z|Silvermoon City|N|From Lor'themar Theron .|
 R Undercity|QID|9180|M|49.49,14.76|Z|Silvermoon City|N|Go to the room behind Lor'themar, and click on the Orb of Translocation.|
 
 A Warchief's Command: Hillsbrad Foothills!|QID|28571|M|66.03,49.64|Z|Undercity|N|From the Warchief's Command Board.|
 f Trade Quarter|QID|28571|M|63.51,48.54|Z|Undercity|N|At Michael Garrett.|
-T Envoy to the Horde|QID|9621|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|
-T Journey to Undercity|QID|9180|M|57.59,91.64|Z|Undercity|N|To Lady Sylvanas Windrunner.|
+T Envoy to the Horde|QID|9621|M|57.59,91.64|R|BloodElf|Z|Undercity|N|To Lady Sylvanas Windrunner.|
+T Envoy to the Horde|QID|9812|M|57.59,91.64|R|Orc,Troll,Tauren,Undead,Goblin|Z|Undercity|N|To Lady Sylvanas Windrunner.|
+T Journey to Undercity|QID|9180|M|57.59,91.64|R|BloodElf|Z|Undercity|N|To Lady Sylvanas Windrunner.|
+T Journey to Undercity|QID|9177|M|57.59,91.64|R|Orc,Troll,Undead,Tauren,Goblin|N|From High Executor Mavren.|
 N Next guide|QID|28571|Z|Undercity|N|The end of this guide is taking you to Hillsbrad Foothillsas well as get flightpoints.  If you don't want to do that zone, go ahead and choose which zone you want.  Right-click this step to continue.|
 
 f Brill|QID|28571|M|58.89,52.00|Z|Tirisfal Glades|N|At Anette Williams.|

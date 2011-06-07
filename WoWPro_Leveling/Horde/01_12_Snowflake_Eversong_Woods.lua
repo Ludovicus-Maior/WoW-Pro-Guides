@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2011-06-07 10:58
+-- Who: Ludovicus Maior
+-- Log: Added R|BloodElf| to steps not available to my Orc.
+
+-- URL: http://wow-pro.com/node/3207/revisions/24428/view
 -- Date: 2011-05-28 01:16
 -- Who: Ludovicus Maior
 -- Log: Update Notes, Correct some coordinates that were WAAY off.
@@ -204,21 +209,21 @@ T Fairbreeze Village |QID|9256|N|To Ranger Degolien. Up the ramp.|
 A Situation at Sunsail Anchorage |QID|8892|N|From Ranger Degolien|M|43.3,70.8|
 A Ranger Sareyn |QID|9358|N|From Marniel Amberlight. If you've already done Defending Fairbreeze Village this quest won't be available so just skip it.|M|43.7,71.2|
 h Fairbreeze Village |QID|9395|
-A Goods from Silvermoon City|QID|9130|M|43.7,71.54|N|From Sathiel|
+A Goods from Silvermoon City|QID|9130|R|BloodElf|M|43.7,71.54|N|From Sathiel|
 r Sell junk, repair/restock|QID|9130|M|43.7,71.54|N|At Sathiel.|
 T Saltheril's Haven |QID|9395|N|To Lord Saltheril|M|38.1,73.6|
 A The Party Never Ends |QID|9067|N|From Lord Saltheril|M|38.1,73.6|
 B Buy Bundle of Fireworks |QID|9067|L|22777|N|Buy a Bundle of fireworks from Halis Dawnstrider |M|44.10,70.40|
-T Goods from Silvermoon City|QID|9130|N|To Skymaster Brightdawn|M|44,70|
-A Fly to Silvermoon City|QID|9133|M|44,70|N|From Skymaster Brightdawn|
+T Goods from Silvermoon City|QID|9130|R|BloodElf|N|To Skymaster Brightdawn|M|44,70|
+A Fly to Silvermoon City|QID|9133|R|BloodElf|M|44,70|N|From Skymaster Brightdawn|
 F Silvermoon City|QID|9067|M|44,70|N|Fly to Silvermoon City.|
-T Fly to Silvermoon City|QID|9133|M|54,71|Z|Silvermoon City|N|To Sathren Azuredawn|
-A Skymistress Gloaming|QID|9134|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn|
+T Fly to Silvermoon City|QID|9133|R|BloodElf|M|54,71|Z|Silvermoon City|N|To Sathren Azuredawn|
+A Skymistress Gloaming|QID|9134|R|BloodElf|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn|
 B Suntouched Special Reserve|QID|9067|L|22775|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.  Also, visit your trainer if you need to.|M|79.70,58.40|
-T Skymistress Gloaming|QID|9134|M|54.38,50.79|N|To Skymistress Gloaming|
-A Return to Sathiel|QID|9135|M|54.38,50.79|N|From Skymistress Gloaming|
+T Skymistress Gloaming|QID|9134|R|BloodElf|M|54.38,50.79|N|To Skymistress Gloaming|
+A Return to Sathiel|QID|9135|R|BloodElf|M|54.38,50.79|N|From Skymistress Gloaming|
 F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
-T Return to Sathiel|QID|9135|M|43.69,71.51|N|To Sathiel|
+T Return to Sathiel|QID|9135|R|BloodElf|M|43.69,71.51|N|To Sathiel|
 
 T Captain Kelisendra's Lost Rutters |QID|8887|N|To Captain Kelisendra. Follow the road west until you reach Sunsail Anchorage.  Kill any Springpaw you come across.|M|36.4,66.7|
 A Grimscale Pirates! |QID|8886|N|From Captain Kelisendra|M|36.4,66.7|
@@ -252,7 +257,7 @@ T Unexpected Results |QID|8488|N|To Apprentice Mirveda. You should now be level 
 A Research Notes |QID|9255|N|From Apprentice Mirveda|M|54.3,71.0|
 T Farstrider Retreat |QID|9359|N|To Lieutenant Dawnrunner|M|60.3,62.8|
 A Amani Encroachment |QID|8476|N|From Lieutenant Dawnrunner|M|60.3,62.8|
-B Springpaw Appetizers |QID|9067|L|22776|N|Zalene Firstlight |M|60.40,62.50|
+B Springpaw Appetizers |QID|9067|L|22776|N|Zalene Firstlight |M|60.40,62.46|
 A The Spearcrafter's Hammer |QID|8477|N|From Arathel Sunforge|M|59.5,62.6|
 A The Magister's Apprentice |QID|8888|N|From Magister Duskwither. Up the right ramp.|M|60.3,61.4|
 

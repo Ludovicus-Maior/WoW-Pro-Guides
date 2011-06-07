@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-06-07 10:55
+-- Who: Ludovicus Maior
+-- Log: Add [Conscript of the Horde] and fix Z tag for [Neeru Fireblade]
+
+-- URL: http://wow-pro.com/node/3199/revisions/24453/view
 -- Date: 2011-05-30 11:55
 -- Who: Ludovicus Maior
 -- Log: Coord tweak around [The Burning Blade]

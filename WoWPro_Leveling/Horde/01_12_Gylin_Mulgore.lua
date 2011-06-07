@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2011-06-07 10:50
+-- Who: Ludovicus Maior
+-- Log: Add Tauren Only Quests
+
+-- URL: http://wow-pro.com/node/3203/revisions/24472/view
 -- Date: 2011-06-01 00:21
 -- Who: Crackerhead22
 -- Log: Correct Z tag for Orgrimmar and Ragefire.
@@ -92,44 +97,45 @@ L Level 4|QID|14461|LVL|4|N|You should be around level 4 by this point.|
 T Feed of Evil|QID|14461|M|46.20,82.70|Z|Mulgore|N|To Adana Thunderhorn.|
 A Rite of Honor|QID|14460|M|46.20,82.70|Z|Mulgore|N|From Adana Thunderhorn.|
 
-A Verdant Note|QID|3094|M|46.15,82.47|Z|Mulgore|N|From Rohaku Stonehoof.|C|Druid|
-A Etched Note|QID|3092|M|46.16,82.49|Z|Mulgore|N|From Rohaku Stonehoof.|C|Hunter|
-A Consecrated Note|QID|27015|M|82.79,17.20|Z|Mulgore|N|From Rohaku Stonehoof.|C|Paladin|
-A Hallowed Note|QID|27014|M|46.18,82.49|Z|Mulgore|N|From Rohaku Stonehoof.|C|Priest|
-A Rune-Inscribed Note|QID|3093|M|46.19,82.39|Z|Mulgore|N|From Rohaku Stonehoof.|C|Shaman|
-A Simple Note|QID|3091|M|46.18,82.41|Z|Mulgore|N|From Rohaku Stonehoof.|C|Warrior|
+A Verdant Note|QID|3094|M|46.15,82.47|Z|Mulgore|N|From Rohaku Stonehoof.|C|Druid|R|Tauren|
+A Etched Note|QID|3092|M|46.16,82.49|Z|Mulgore|N|From Rohaku Stonehoof.|C|Hunter|R|Tauren|
+A Consecrated Note|QID|27015|M|82.79,17.20|Z|Mulgore|N|From Rohaku Stonehoof.|C|Paladin|R|Tauren|
+A Hallowed Note|QID|27014|M|46.18,82.49|Z|Mulgore|N|From Rohaku Stonehoof.|C|Priest|R|Tauren|
+A Rune-Inscribed Note|QID|3093|M|46.19,82.39|Z|Mulgore|N|From Rohaku Stonehoof.|C|Shaman|R|Tauren|
+A Simple Note|QID|3091|M|46.18,82.41|Z|Mulgore|N|From Rohaku Stonehoof.|C|Warrior|R|Tauren|
 
 H Hearth to Camp Narache|QID|14460|M|45.16,75.45|U|6948|
 
-T Verdant Note|QID|3094|M|45.21,75.29|Z|Mulgore|N|To Gart Mistrunner.|C|Druid|
-A The Healer's Touch|QID|27067|M|45.21,75.29|Z|Mulgore|N|From Gart Mistrunner.|C|Druid|
-C The Healer's Touch|QID|27067|M|44.57,74.60|Z|Mulgore|C|Druid|
-T The Healer's Touch|QID|27067|M|45.15,75.15|Z|Mulgore|N|To Gart Mistrunner.|C|Druid|
+T Verdant Note|QID|3094|M|45.21,75.29|Z|Mulgore|N|To Gart Mistrunner.|C|Druid|R|Tauren|
+A The Healer's Touch|QID|27067|M|45.21,75.29|Z|Mulgore|N|From Gart Mistrunner.|C|Druid|R|Tauren|
+C The Healer's Touch|QID|27067|M|44.57,74.60|Z|Mulgore|C|Druid|R|Tauren|
+T The Healer's Touch|QID|27067|M|45.15,75.15|Z|Mulgore|N|To Gart Mistrunner.|C|Druid|R|Tauren|
 
-T Etched Note|QID|3092|M|45.21,75.46|Z|Mulgore|N|To Lanka Farshot.|C|Hunter|
-A The Hunter's Path|QID|27021|M|45.21,75.46|Z|Mulgore|N|From Lanka Farshot.|C|Hunter|
-C The Hunter's Path|QID|27021|M|45.21,75.46|Z|Mulgore|C|Hunter|
-T The Hunter's Path|QID|27021|M|45.21,75.46|Z|Mulgore|N|To Lanka Farshot.|C|Hunter|
+T Etched Note|QID|3092|M|45.21,75.46|Z|Mulgore|N|To Lanka Farshot.|C|Hunter|R|Tauren|
+A The Hunter's Path|QID|27021|M|45.21,75.46|Z|Mulgore|N|From Lanka Farshot.|C|Hunter|R|Tauren|
+C The Hunter's Path|QID|27021|M|45.21,75.46|Z|Mulgore|C|Hunter|R|Tauren|
+T The Hunter's Path|QID|27021|M|45.21,75.46|Z|Mulgore|N|To Lanka Farshot.|C|Hunter|R|Tauren|
 
-T Consecrated Note|QID|27015|M|45.01,75.40|Z|Mulgore|N|To Sunwalker Helaku.|C|Paladin|
-A The Way of the Sunwalkers|QID|27023|M|45.01,75.40|Z|Mulgore|N|From Sunwalker Helaku.|C|Paladin|
-C The Way of the Sunwalkers|QID|27023|M|45.39,75.47|Z|Mulgore|C|Paladin|
-T The Way of the Sunwalkers|QID|27023|M|45.02,75.40|Z|Mulgore|N|To Sunwalker Helaku.|C|Paladin|
+; The BloodElf/Troll adds should be verified.
+T Consecrated Note|QID|27015|M|45.01,75.40|Z|Mulgore|N|To Sunwalker Helaku.|C|Paladin|R|Tauren,BloodElf|
+A The Way of the Sunwalkers|QID|27023|M|45.01,75.40|Z|Mulgore|N|From Sunwalker Helaku.|C|Paladin|R|Tauren,BloodElf|
+C The Way of the Sunwalkers|QID|27023|M|45.39,75.47|Z|Mulgore|C|Paladin|R|Tauren,BloodElf|
+T The Way of the Sunwalkers|QID|27023|M|45.02,75.40|Z|Mulgore|N|To Sunwalker Helaku.|C|Paladin|R|Tauren,BloodElf|
 
-T Hallowed Note|QID|27014|M|45.03,75.32|Z|Mulgore|N|To Seer Ravenfeather.|C|Priest|
-A Healing in a Flash|QID|27066|M|45.03,75.32|Z|Mulgore|N|From Seer Ravenfeather.|C|Priest|
-C Healing in a Flash|QID|27066|M|44.51,74.50|Z|Mulgore|C|Priest|
-T Healing in a Flash|QID|27066|M|44.94,75.16|Z|Mulgore|N|To Seer Ravenfeather.|C|Priest|
+T Hallowed Note|QID|27014|M|45.03,75.32|Z|Mulgore|N|To Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
+A Healing in a Flash|QID|27066|M|45.03,75.32|Z|Mulgore|N|From Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
+C Healing in a Flash|QID|27066|M|44.51,74.50|Z|Mulgore|C|Priest|R|Tauren,Troll|
+T Healing in a Flash|QID|27066|M|44.94,75.16|Z|Mulgore|N|To Seer Ravenfeather.|C|Priest|R|Tauren,Troll|
 
-T Rune-Inscribed Note|QID|3093|M|45.04,75.10|Z|Mulgore|N|To Meela Dawnstrider.|C|Shaman|
-A Primal Strike|QID|27027|M|45.04,75.10|Z|Mulgore|N|From Meela Dawnstrider.|C|Shaman|
-C Primal Strike|QID|27027|M|45.44,75.48|Z|Mulgore|C|Shaman|
-T Primal Strike|QID|27027|M|45.11,75.09|Z|Mulgore|N|To Meela Dawnstrider.|C|Shaman|
+T Rune-Inscribed Note|QID|3093|M|45.04,75.10|Z|Mulgore|N|To Meela Dawnstrider.|C|Shaman|R|Tauren|
+A Primal Strike|QID|27027|M|45.04,75.10|Z|Mulgore|N|From Meela Dawnstrider.|C|Shaman|R|Tauren|
+C Primal Strike|QID|27027|M|45.44,75.48|Z|Mulgore|C|Shaman|R|Tauren|
+T Primal Strike|QID|27027|M|45.11,75.09|Z|Mulgore|N|To Meela Dawnstrider.|C|Shaman|R|Tauren|
 
-T Simple Note|QID|3091|M|45.04,75.58|Z|Mulgore|N|To Harutt Thunderhorn.|C|Warrior|
-A The First Lesson|QID|27020|M|45.04,75.58|Z|Mulgore|N|From Harutt Thunderhorn.|C|Warrior|
-C The First Lesson|QID|27020|M|45.40,75.53|Z|Mulgore|C|Warrior|
-T The First Lesson|QID|27020|M|45.06,75.52|Z|Mulgore|N|To Harutt Thunderhorn.|C|Warrior|
+T Simple Note|QID|3091|M|45.04,75.58|Z|Mulgore|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
+A The First Lesson|QID|27020|M|45.04,75.58|Z|Mulgore|N|From Harutt Thunderhorn.|C|Warrior|R|Tauren|
+C The First Lesson|QID|27020|M|45.40,75.53|Z|Mulgore|C|Warrior|R|Tauren|
+T The First Lesson|QID|27020|M|45.06,75.52|Z|Mulgore|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
 
 C Rite of Honor|QID|14460|M|41.26,81.39|Z|Mulgore|
 T Rite of Honor|QID|14460|M|45.17,75.60|Z|Mulgore|N|To Chief Hawkwind.|
@@ -193,9 +199,12 @@ C Mazzranache|S|QID|26188|Z|Mulgore|N|Kill Flatland Cougars you see until you ge
 C Tender Strider Meat|US|QID|11129|Z|Mulgore|N|Kill any Plainstrider you see, until you have a Tender Strider Meat.|L|33009 1|
 T The Venture Co.|QID|26179|M|57.06,60.32|Z|Mulgore|N|To Morin Cloudstalker.|
 T Supervisor Fizsprocket|QID|26180|M|57.06,60.32|Z|Mulgore|N|To Morin Cloudstalker.|
+C Dangers of the Windfury|QID|743|M|63.43,68.61|Z|Mulgore|
+
 H Hearth to Bloodhoof Village|QID|26180|M|56.11,59.37|Z|Mulgore|
 
 C Kyle's Gone Missing!|NC|S|QID|11129|Z|Mulgore|U|33009|T|Kyle the Frenzied|N|While in Bloodhoof Village turning in your quests, keep a look out for Kyle the Frenzied running around. Target him and place the Tender Strider Meat on the ground.|
+T Dangers of the Windfury|QID|743|M|47.51,61.22|Z|Mulgore|N|To Ruul Eagletalon.|
 T Thunderhorn Totem|QID|24441|M|48.59,59.89|Z|Mulgore|R|Tauren|N|To Mull Thunderhorn.|
 A Thunderhorn Cleansing|QID|24456|PRE|24441|M|48.59,59.89|Z|Mulgore|R|Tauren|N|From Mull Thunderhorn.|
 T Mazzranache|QID|26188|M|47.18,56.76|Z|Mulgore|N|To Maur Raincaller.|
@@ -203,12 +212,11 @@ C Kyle's Gone Missing!|NC|US|QID|11129|M|47.18,56.76|Z|Mulgore|U|33009|T|Kyle th
 T Kyle's Gone Missing!|QID|11129|M|48.31,53.17|Z|Mulgore|N|To Ahab Wheathoof.|
 C Thunderhorn Cleansing|NC|QID|24456|M|44.98,45.25|Z|Mulgore|R|Tauren|N|Use the Thunderhorn Cleansing Totem at the well.|U|5415|QO|Well Cleansed|
 C The Restless Earth|QID|14491|U|49647|QO|Spirits Calmed: 6/6|M|32.76,48.97|Z|Mulgore|N|Play the Drums of the Soothed Earth to the Agitated Earth Spirits. They will charge at you and either become calmed or displeased, in which case they will attack you.|
-C Dangers of the Windfury|QID|743|M|63.43,68.61|Z|Mulgore|
+
 H Hearth to Bloodhoof Village|QID|26180|M|32.76,48.97|Z|Mulgore|N|Hearth to Bloodhoof Village, and sell any junk you might have to Innkeeper Kauth.|
 
 L Level 9|QID|24456|LVL|9|N|You should be around level 9 by this point.|
 
-T Dangers of the Windfury|QID|743|M|47.51,61.22|Z|Mulgore|N|To Ruul Eagletalon.|
 T The Restless Earth|QID|14491|M|47.60,59.58|Z|Mulgore|N|To Ahmo Thunderhorn.|
 T Thunderhorn Cleansing|QID|24456|M|48.55,59.79|Z|Mulgore|R|Tauren|N|To Mull Thunderhorn.|
 A Rite of Vision|QID|24457|M|48.55,59.79|Z|Mulgore|R|Tauren|N|From Mull Thunderhorn.|
@@ -218,7 +226,7 @@ C Rite of Vision|NC|QID|20441|R|Tauren|N|Drink the Water of Vision to become a W
 
 T Rite of Vision|QID|20441|M|49.37,17.49|Z|Mulgore|R|Tauren|N|To Una Wildmane.|
 A Wildmane Totem|QID|24523|M|49.37,17.49|Z|Mulgore|R|Tauren|N|From Una Wildmane.|
-A Rite of Wisdom|QID|773|M|49.48,17.21|Z|Mulgore|N|From Lorekeeper Raintotem.|
+A Rite of Wisdom|QID|773|M|49.48,17.21|Z|Mulgore|R|Tauren|N|From Lorekeeper Raintotem.|
 A A Sacred Burial|QID|833|M|49.48,17.21|Z|Mulgore|N|From Lorekeeper Raintotem.|
 A The Hunter's Way|QID|861|M|49.63,17.22|Z|Mulgore|N|From Skorn Whitecloud.|
 A Preparation for Ceremony|QID|744|M|49.60,17.49|Z|Mulgore|N|From Eyahn Eagletalon.|
@@ -249,7 +257,7 @@ T A Bundle of Hides|QID|6361|M|47.41,58.68|Z|Mulgore|R|Tauren|N|To Tak.|
 A Ride to Thunder Bluff|QID|6362|M|47.41,58.68|Z|Mulgore|R|Tauren|N|From Tak.|
 F Fly to Thunder Bluff|QID|24550|M|42.48,28.66|R|Tauren|
 
-N Buy a Thunder Bluff Tabard|QID|6362|M|39.73,29.46|N|If you plan on doing instances to raise your reputation with Thunder Bluff, you can buy a tabard here from Brave Tuha.|
+N Buy a Thunder Bluff Tabard|QID|6362|M|47.03,50.28|N|If you plan on doing instances to raise your reputation with Thunder Bluff, you can buy a tabard here from Brave Tuha, next to the FlightMaster.|
 T Ride to Thunder Bluff|QID|6362|M|45.32,55.69|Z|Thunder Bluff|R|Tauren|N|To Ahanu. Go to the bottom of the ramp then outside, Ahanu is in the 1st building on the left.|
 A Tal the Wind Rider Master|QID|6363|M|45.32,55.69|Z|Thunder Bluff|R|Tauren|N|From Ahanu.|
 A Warchief's Command: Azshara!|QID|28496|M|42.75,57.29|Z|Thunder Bluff|N|From the Signboard.|
