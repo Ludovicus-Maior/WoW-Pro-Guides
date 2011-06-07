@@ -64,7 +64,7 @@
 -- Date: 2010-12-03 22:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283|AriDee8283', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283', 'Neutral', function()
 return [[
 
 N Mt. Hyjal|QID|25316|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|

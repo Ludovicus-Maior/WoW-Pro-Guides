@@ -72,7 +72,7 @@
 -- Date: 2010-12-03 23:10
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', '82', '83', 'AriUld8384|AriUld8384', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', '82', '83', 'AriUld8384', 'Neutral', function()
 return [[
 
 N The Battle is Won, The War Goes On|QID|27398|Z|Stormwind City|N|If you don't have this quest, check it off and continue to the next.|FACTION|Alliance|
