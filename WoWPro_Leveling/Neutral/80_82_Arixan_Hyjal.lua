@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2011-06-08 03:14
+-- Who: Ludovicus Maior
+-- Log: Correct follow on guide for horde.
+
+-- URL: http://wow-pro.com/node/3303/revisions/24406/view
 -- Date: 2011-05-18 22:36
 -- Who: Ludovicus Maior
 
@@ -64,7 +69,7 @@
 -- Date: 2010-12-03 22:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283|AriDee8283', 'Neutral', function()
 return [[
 
 N Mt. Hyjal|QID|25316|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|

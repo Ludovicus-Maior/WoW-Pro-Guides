@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_alliance
+-- Date: 2011-06-08 03:16
+-- Who: Ludovicus Maior
+-- Log: Correct followon Horde guide.
+
+-- URL: http://wow-pro.com/node/3307/revisions/24521/view
 -- Date: 2011-06-07 23:19
 -- Who: Ludovicus Maior
 -- Log: ! Line 270 for step A has unknown tag [From Slate Quicksand.]: [A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|From Slate Quicksand.|]
@@ -81,7 +86,7 @@
 -- Date: 2010-12-03 23:10
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', '82', '83', 'AriUld8384', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', '82', '83', 'AriUld8384|AriUld8384', 'Neutral', function()
 return [[
 
 N The Battle is Won, The War Goes On|QID|27398|Z|Stormwind City|N|If you don't have this quest, check it off and continue to the next.|FACTION|Alliance|

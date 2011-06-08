@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2011-06-08 03:23
+-- Who: Ludovicus Maior
+-- Log: Correct Successor.
+
+-- URL: http://wow-pro.com/node/3305/revisions/24489/view
 -- Date: 2011-06-02 00:38
 -- Who: Fluclo
 -- Log: Clarifying info on Full Circle
@@ -191,7 +196,7 @@
 -- Date: 2010-12-03 22:57
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', '80', '82', 'AriDeeA8283', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
 return [[
 
 T A Personal Summons|QID|28825|M|74.5,19.2|Z|Stormwind City|N|This should be in your quest log when you enter Stormwind. Turn in at Naraat the Earthspeaker|

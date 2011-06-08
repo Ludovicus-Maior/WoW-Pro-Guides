@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2011-06-08 03:19
+-- Who: Ludovicus Maior
+-- Log: Correct Successor.
+
+-- URL: http://wow-pro.com/node/3306/revisions/24349/view
 -- Date: 2011-04-29 17:11
 -- Who: Ludovicus Maior
 -- Log: Line 147 for step C has unknown tag [rUS], Line 193 for step A Bad coord r63.92, Line 299 for step C has unknown tag [Shimmering Expanse], ...
@@ -56,7 +61,7 @@
 -- Date: 2010-12-03 23:05
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriVasH8082', "Vash'jir", 'Arixan', '80', '82', 'AriDeeH8283', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('AriVasH8082', "Vash'jir", 'Arixan', '80', '82', 'AriDee8283', 'Horde', function()
 return [[
 
 A Warchief's Command: Vashj'ir!|QID|27718|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|
