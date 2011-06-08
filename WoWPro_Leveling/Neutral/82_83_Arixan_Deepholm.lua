@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_alliance
+-- Date: 2011-06-07 23:19
+-- Who: Ludovicus Maior
+-- Log: ! Line 270 for step A has unknown tag [From Slate Quicksand.]: [A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|From Slate Quicksand.|]
+--	! Line 275 for step T has unknown tag [To Slate Quicksand.]: [T Sprout No More|QID|26791|M|27.6,44.9|To Slate Quicksand.|]
+--	! Line 320 for step A has 1 M coords: [A Violent Gale|QID|26426|PRE|26375;26376;26377|M|From Diamant the Patient.|]
+--	! Line 418, for step A non-decimal PRE: [A Word in Stone|QID|26833|PRE|26829;26831,26832|N|From Therazane.|]
+--	! Line 455, for step F non-decimal QID: [F Southmoon Ruins|QID|Z|Northern Barrens|M|69.13,70.70|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|]
+
+-- URL: http://wow-pro.com/node/3307/revisions/24407/view
 -- Date: 2011-05-18 22:38
 -- Who: Ludovicus Maior
 
@@ -267,12 +276,12 @@ T Reactivate the Construct|QID|26762|N|To Pyrium Lodestone.|
 T Mystic Masters|QID|26770|N|To Flint Oremantle.|
 A Down into the Chasm|QID|26834|PRE|26762;26770|M|22.6,52.1|N|From Pyrium Lodestone.|
 T Down into the Chasm|QID|26834|M|27.6,44.9|N|To Slate Quicksand.|
-A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|From Slate Quicksand.|
+A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
 A Fungal Monstrosities|QID|26792|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
 C Sprout No More|QID|26791|S|N|Obtain a War Guardian and start destroying Giant Mushrooms and Fungal Monstrosities.|
 C Fungal Monstrosities|QID|26792|M|27.5,38.3|N|Destroy Fungal Monstrosities.|
 C Sprout No More|QID|26791|M|27.6,35.6|US|N|Finish destroying Giant Shrooms.|
-T Sprout No More|QID|26791|M|27.6,44.9|To Slate Quicksand.|
+T Sprout No More|QID|26791|M|27.6,44.9|N|To Slate Quicksand.|
 T Fungal Monstrosities|QID|26792|M|27.6,44.9|N|To Slate Quicksand.|
 A A Slight Problem|QID|26835|PRE|26791;26792|M|27.6,44.9|N|From Slate Quickand.|
 T A Slight Problem|QID|26835|PRE|26791;26792|M|22.6,52.1|N|To Pyrium Lodestone.|
@@ -317,7 +326,7 @@ C Loose Stone|QID|26375|U|58254|M|59.00,42.00|US|N|Finish releasing Quartz Rockl
 T Loose Stones|QID|26375|M|56.5,41.1|N|To Quartz Stonetender.|
 T Unsolid Ground|QID|26377|M|56.50,41.20|N|To Diamant the Patient.|
 T Hatred Runs Deep|QID|26376|M|56.50,41.20|N|To Diamant the Patient.|
-A Violent Gale|QID|26426|PRE|26375;26376;26377|M|From Diamant the Patient.|
+A Violent Gale|QID|26426|M|56.50,41.20|PRE|26375;26376;26377|N|From Diamant the Patient.|
 N Felsen the Enduring|QID|26426|M|52,32|QO|Find Felsen the Enduring: 1/1|N|Find Felsen the Enduring at the waypoint.|
 C Violent Gale|QID|26426|M|58.00,25.00|N|Find the entrance to Crumbling Depths.|
 T Violent Gale|QID|26426|N|(UI Alert)|
@@ -415,7 +424,7 @@ T The Twilight Flight|QID|26831|M|64.1,36.9|N|To Terath.|
 C The Stone March|QID|26829|M|62,35.6|US|N|Finish killing Cultists.|
 T The Stone March|QID|26829|M|63.3,25.1|N|To Therazane.|
 T Therazane's Mercy|QID|26832|M|63.3,25.1|N|To Therazane.|
-A Word in Stone|QID|26833|PRE|26829;26831,26832|N|From Therazane.|
+A Word in Stone|QID|26833|PRE|26829;26831;26832|N|From Therazane.|
 T Word in Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
 A Undying Twilight|QID|26875|PRE|26833|N|From Maruut.|
 C Undying Twilight|QID|26875|M|47.68,53.09|N|Kill Twilight Invaders and Desecrated Earthrager.|
@@ -452,7 +461,7 @@ T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|Stormwind City|N|To Harrison Jone
 A Meetup with the Caravan|QID|28295|N|From Harrison Jones.|M|85.77,25.85|Z|Stormwind City|FACTION|Alliance|
 F Booty Bay|QID|28295|Z|Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
 b Ratchet|QID|28295|Z|The Cape of Stranglethorn|M|39,67|N|Take the boat to Ratchet.|FACTION|Alliance|
-F Southmoon Ruins|QID|Z|Northern Barrens|M|69.13,70.70|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
+F Southmoon Ruins|QID|28295|Z|Northern Barrens|M|69.13,70.70|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
 T Meetup with the Caravan|QID|28295|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|Alliance|
 
 A The Twilight Plot|QID|27005|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|

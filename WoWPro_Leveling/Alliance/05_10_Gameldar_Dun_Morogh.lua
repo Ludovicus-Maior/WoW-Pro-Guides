@@ -1,4 +1,18 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-06-07 23:07
+-- Who: Ludovicus Maior
+-- Log: ! Line 128 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|Gnome,Dwarf|]
+--	! Line 129 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.47,50.97|N|You should visit your class trainer Granis Swiftaxe. Click this step to continue.|C|Warrior|Gnome,Dwarf|]
+--	! Line 130 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Maxan Anvol. Click this step to continue.|C|Priest|Gnome,Dwarf|]
+--	! Line 131 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.61,50.40|N|You should visit your class trainer Magis Sparkmantle. Click this step to continue.|C|Mage|Gnome,Dwarf|]
+--	! Line 132 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Azar Stronghammer. Click this step to continue.|C|Paladin|Gnome,Dwarf|]
+--	! Line 133 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.60,50.23|N|You should visit your class trainer Halbin Frosthammer. Click this step to continue.|C|Shaman|Gnome,Dwarf|]
+--	! Line 137 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Gimrizz Shadowcog. Click this step to continue.|C|Warlock|Gnome,Dwarf|]
+--	! Line 138 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Grif Wildheart. Click this step to continue.|C|Hunter|Gnome,Dwarf|]
+--	! Line 139 for step N has unknown tag [Gnome,Dwarf]: [N Primary Professions |QID|384|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |Gnome,Dwarf|]
+--	! Line 271 for step R has unknown tag [77.14,18.52]: [R Striking Back|QID|26094|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|]
+
+-- URL: http://wow-pro.com/node/3200/revisions/24508/view
 -- Date: 2011-06-06 21:27
 -- Who: Crackerhead22
 -- Log: Added missing R for a race tag.
@@ -125,18 +139,18 @@ B Rhapsody Malt|QID|384|M|54.47,50.81|N|From Innkeeper Belm.|L|2894|
 N Secondary Profession: First Aid |QID|384|M|54.31,50.90|N|If you want to learn First Aid, now's the time to start, Thamner Pol will start you off. Click this step to continue.|R|Gnome,Dwarf|
 N Secondary Profession: Cooking |QID|384|M|54.73,50.58|N|If you want to learn Cooking, now's the time to start, Gremlock Pilsnor will start you off. Click this step to continue.|R|Gnome,Dwarf|
 A Honor Students |QID|6387|M|54.73,50.58|N|From Gremlock.|R|Gnome,Dwarf|
-N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|Gnome,Dwarf|
-N Class Training |QID|384|M|54.47,50.97|N|You should visit your class trainer Granis Swiftaxe. Click this step to continue.|C|Warrior|Gnome,Dwarf|
-N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Maxan Anvol. Click this step to continue.|C|Priest|Gnome,Dwarf|
-N Class Training |QID|384|M|54.61,50.40|N|You should visit your class trainer Magis Sparkmantle. Click this step to continue.|C|Mage|Gnome,Dwarf|
-N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Azar Stronghammer. Click this step to continue.|C|Paladin|Gnome,Dwarf|
-N Class Training |QID|384|M|54.60,50.23|N|You should visit your class trainer Halbin Frosthammer. Click this step to continue.|C|Shaman|Gnome,Dwarf|
+N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|R|Gnome,Dwarf|
+N Class Training |QID|384|M|54.47,50.97|N|You should visit your class trainer Granis Swiftaxe. Click this step to continue.|C|Warrior|R|Gnome,Dwarf|
+N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Maxan Anvol. Click this step to continue.|C|Priest|R|Gnome,Dwarf|
+N Class Training |QID|384|M|54.61,50.40|N|You should visit your class trainer Magis Sparkmantle. Click this step to continue.|C|Mage|R|Gnome,Dwarf|
+N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Azar Stronghammer. Click this step to continue.|C|Paladin|R|Gnome,Dwarf|
+N Class Training |QID|384|M|54.60,50.23|N|You should visit your class trainer Halbin Frosthammer. Click this step to continue.|C|Shaman|R|Gnome,Dwarf|
 
 A The Perfect Stout|QID|315|M|54.12,51.21|N|From Rejold Barleybrew.|
 
-N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Gimrizz Shadowcog. Click this step to continue.|C|Warlock|Gnome,Dwarf|
-N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Grif Wildheart. Click this step to continue.|C|Hunter|Gnome,Dwarf|
-N Primary Professions |QID|384|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |Gnome,Dwarf|
+N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Gimrizz Shadowcog. Click this step to continue.|C|Warlock|R|Gnome,Dwarf|
+N Class Training |QID|384|M|54.44,52.02|N|You should visit your class trainer Grif Wildheart. Click this step to continue.|C|Hunter|R|Gnome,Dwarf|
+N Primary Professions |QID|384|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |R|Gnome,Dwarf|
 
 T On to Kharanos|QID|26373|M|53.68,52.17|N|To Captain Tharran.|R|Gnome|
 A Frostmane Aggression|QID|25724|M|53.68,52.17|N|From Captain Tharran.|
@@ -268,7 +282,7 @@ A Rallying the Defenders|QID|26085|M|78.21,20.46|N|From Commander Stonebreaker.|
 C Rallying the Defenders|QID|26085|U|56809|M|78.42,29.65|N|Place the Ironforge Banners in Loose Snow near Dun Morogh Mountaineers in combat.|
 T Rallying the Defenders|QID|26085|M|78.21,20.47|N|To Commander Stonebreaker.|
 A Striking Back|QID|26094|M|78.21,20.47|N|From Commander Stonebreaker.|
-R Striking Back|QID|26094|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|
+R Striking Back|QID|26094|M|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|
 C Striking Back|QID|26094|U|56814|M|78.25,20.50|N|Drop Bombs on the Dark Iron Attackers.|
 T Striking Back|QID|26094|M|78.20,20.45|N|To Commander Stonebreaker.|
 A Grimaxe's Demise|QID|26102|M|78.20,20.45|N|From Commander Stonebreaker.|

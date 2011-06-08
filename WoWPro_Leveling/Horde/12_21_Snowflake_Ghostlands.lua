@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2011-06-07 23:12
+-- Who: Ludovicus Maior
+-- Log: ! Line 61 for step A has unknown tag [To Vandril]: [A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|To Vandril|]
+
+-- URL: http://wow-pro.com/node/3221/revisions/24509/view
 -- Date: 2011-06-07 03:07
 -- Who: Ludovicus Maior
 -- Log: Added Race tags and new race specific quests, where needed for my poor Orc.
@@ -58,7 +63,7 @@ A Delivery to Tranquillien |QID|9148|N|From Courier Dawnstrider.|Z|Eversong Wood
 T Delivery to Tranquillien |QID|9148|N|Follow the road south to Tranquillien.|
 
 A The Forsaken |QID|9327|R|BloodElf|
-A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|To Vandril|
+A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|N|To Vandril|
 T The Forsaken |QID|9327|R|BloodElf| |N|In the large building to your right as you enter Tranquillien from the north.|
 T The Forsaken |QID|9329|R|Orc,Troll,Tauren,Undead,Goblin|N|In the large building to your right as you enter Tranquillien from the north.|
 A The Forsaken|QID|9327|M|46.34,28.34|N|From Arcanist Vandril.|
