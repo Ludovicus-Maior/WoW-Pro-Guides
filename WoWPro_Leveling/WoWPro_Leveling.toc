@@ -3,7 +3,7 @@
 ## Notes: Leveling guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 2.1.14a
+## Version: 2.1.15
 
 ## X-Category: Quest
 
