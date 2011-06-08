@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-06-07 10:55
+-- Who: Ludovicus Maior
+-- Log: Add [Conscript of the Horde] and fix Z tag for [Neeru Fireblade]
+
+-- URL: http://wow-pro.com/node/3199/revisions/24453/view
 -- Date: 2011-05-30 11:55
 -- Who: Ludovicus Maior
 -- Log: Coord tweak around [The Burning Blade]
@@ -204,6 +209,8 @@ C Lost But Not Forgotten|QID|25193|M|42.44,33.59|
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|N|To Misha Tor'kren.|
 T Watershed Patrol|QID|25188|M|49.55,40.17|N|To Thonk.|
 
+A Conscript of the Horde|QID|840|M|50.84,43.59|Z|Durotar|N|To Takrin Pathseeker.  Take this quest if you want to go to the Northern Barrens next.|
+
 A Winds in the Desert|QID|834|M|46.34,34.83;45.42,29.81;46.36,22.99|Z|Durotar|N|From Rezlak.|
 A Securing the Lines|QID|835|M|46.36,22.99|Z|Durotar|N|From Rezlak.|
 C Winds in the Desert|QID|834|S|M|50.11,25.77|Z|Durotar|N|Retrieve Sacks of Supplies and kill 12 Harpies.|
@@ -252,7 +259,7 @@ C Skull Rock|QID|25262|M|55.03,10.95;53.42,10.20|Z|Durotar|N|Gather 6 Searing Co
 T Skull Rock|QID|25262|M|56.41,20.05|Z|Durotar|N|To Margoz.|
 A Neeru Fireblade|QID|25263|PRE|25262|M|56.41,20.05|Z|Durotar|N|From Margoz.|
 
-T Neeru Fireblade|QID|25263|M|49.93,59.15|Z|The Cleft of Shadow|N|To Neeru Fireblade, in the Cleft of Shadow.|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|
+T Neeru Fireblade|QID|25263|M|49.93,59.15|Z|Cleft of Shadow|N|To Neeru Fireblade, in the Cleft of Shadow.|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|
 A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|Orgrimmar|N|If you plan on going to Northern Barrens next. From Neeru Fireblade.|
 
 h Valley of Wisdom|QID|25263|M|39.03,48.57|N|At Miwana.|N|You can choose another Inn in Org if it makes more sense.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2011-06-07 23:04
+-- Who: Ludovicus Maior
+-- Log: ! Line 247, for step l non-decimal QID: [l Moss-Twined Heart|QID||M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|]
+
+-- URL: http://wow-pro.com/node/3204/revisions/24503/view
 -- Date: 2011-06-05 17:35
 -- Who: Crackerhead22
 -- Log: Added a couple of missing notes, added missing quests. Added in Race tags for NE only quests.
@@ -244,7 +249,7 @@ A Timberling Sprouts|QID|919|M|59.89,59.79|N|From Denalan.|
 C Timberling Seeds|QID|918|S|M|59.80,60.80|N|Kill and loot Timberlings to get the seeds.|
 C Timberling Sprouts|QID|919|M|58.89,62.14|N|Pick up Timberling Sprouts. They look like a ball of vines.|S|
 A The Glowing Fruit|QID|930|M|57.48,62.80|N|From the Strange Fruited Plant.|
-l Moss-Twined Heart|QID||M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|
+l Moss-Twined Heart|QID|927|M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|
 A The Moss-Twined Heart|QID|927|U|5179|N|Accept this quest from the Moss-Twined Heart.|
 C Timberling Sprouts|QID|919|M|58.89,62.14|N|Pick up Timberling Sprouts. They look like a ball of vines.|US|
 C Timberling Seeds|QID|918|US|M|59.80,60.80|N|Kill and loot Timberlings to get the seeds.|

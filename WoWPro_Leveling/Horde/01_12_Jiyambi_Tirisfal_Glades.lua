@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2011-06-07 10:52
+-- Who: Ludovicus Maior
+-- Log: Tweak Coords on C [Assault on the Rotbrain Encampment]
+
+-- URL: http://wow-pro.com/node/3205/revisions/24473/view
 -- Date: 2011-06-01 00:36
 -- Who: Crackerhead22
 -- Log: Removed Z|Crusader's Outpost| as it was unneeded.
@@ -139,7 +144,7 @@ A No Better Than the Zombies|QID|24970|M|32.97,61.09|N|From Executor Arren.|
 T No Better Than the Zombies|QID|24970|M|35.74,62.19|N|To Darnell.|
 
 A Assault on the Rotbrain Encampment|QID|24971|M|35.74,62.19|N|From Darnell.|
-C Assault on the Rotbrain Encampment|QID|24971|M|36.63,68.78|N|Kill the hostile undead, and Marshal Redpath.|
+C Assault on the Rotbrain Encampment|QID|24971|M|36.48,68.83|N|Kill the hostile undead, and Marshal Redpath.|
 T Assault on the Rotbrain Encampment|QID|24971|M|30.88,66.20|N|To Shadow Priest Sarvis.|
 
 A Vital Intelligence|QID|24972|M|30.88,66.20|N|From Shadow Priest Sarvis.|

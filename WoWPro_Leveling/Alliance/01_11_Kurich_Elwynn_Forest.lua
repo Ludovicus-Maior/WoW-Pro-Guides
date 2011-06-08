@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2011-06-07 23:03
+-- Who: Ludovicus Maior
+-- Log: ! Line 248 for step T has unknown tag [To Milly Osworth.]: [T Extinguishing Hope|QID|26391|M|48.15,42.52|To Milly Osworth.|]
+--	! Line 254 for step A has unknown tag [48.20,42.06]: [A Report To Goldshire|QID|54||48.20,42.06|N|From Marshal McBride.|]
+
+-- URL: http://wow-pro.com/node/3197/revisions/24464/view
 -- Date: 2011-05-31 20:57
 -- Who: Ludovicus Maior
 -- Log: Z|Stormwind City| not city
@@ -245,13 +251,13 @@ A Extinguishing Hope|QID|26391|M|48.15,42.52|N|From Milly Osworth.|
 C Extinguishing Hope|N|Extinguish the fires.|S|U|58362|QID|26391|M|54.02,48.52|
 C Blackrock Invasion|N|Kill and loot Orcs until you have 8 Blackrock Weapons.|QID|26389|M|54.02,48.52|
 C Extinguishing Hope|N|Extinguish the fires.|US|U|58362|QID|26391|M|54.02,48.52|
-T Extinguishing Hope|QID|26391|M|48.15,42.52|To Milly Osworth.|
+T Extinguishing Hope|QID|26391|M|48.15,42.52|N|To Milly Osworth.|
 T Blackrock Invasion|QID|26389|M|48.20,42.06|N|To Marshal McBride.|
 A Ending The Invasion|QID|26390|M|48.20,42.06|N|From Marshal McBride.|
 C Ending The Invasion|N|Kill Kurtok The Slayer.|QID|26390|M|56.90,40.81|
 H Northshire Valley|QID|26390|U|6948|N|Hearth or run back.|M|48.20,42.06|
 T Ending The Invasion|QID|26390|M|48.20,42.06|N|To Marshal McBride.|
-A Report To Goldshire|QID|54||48.20,42.06|N|From Marshal McBride.|
+A Report To Goldshire|QID|54|M|48.20,42.06|N|From Marshal McBride.|
 
 A Rest And Relaxation|QID|2158|M|45.56,47.73|N|From Falkhaan Isenstrider.|
 f Goldshire|QID|2158|M|41.72,64.64|N|At Bartlett the Brave.|

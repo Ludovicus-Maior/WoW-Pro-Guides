@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2011-06-07 23:11
+-- Who: Ludovicus Maior
+-- Log: ! Line 72 for step C has unknown tag [Pick up Naga Icons.]: [C If They're Just Going to Leave Them Lying Around...|QID|26820|M|37.31,52.82|Pick up Naga Icons.|]
+--	! Line 155 for step C has unknown tag [Hand over the Gorilla Fang to Witch Doctor Unbagwam who will summon Mokk for you. Kill him and loot his heart.]: [C Stranglethorn Fever|QID|26597|L|2797|Hand over the Gorilla Fang to Witch Doctor Unbagwam who will summon Mokk for you. Kill him and loot his heart.|]
+
+-- URL: http://wow-pro.com/node/3237/revisions/24502/view
 -- Date: 2011-06-05 12:07
 -- Who: Crackerhead22
 
@@ -69,7 +75,7 @@ T Good-Fer-Nothin' Slither-Dogs|QID|26822|M|55.05,42.41|N|To Goris.|
 C Akiris by the Bundle|QID|26819|S|M|39.69,45.63|N|Kill Nagas for Akiris weed and gather Naga Icons while questing.|
 C If They're Just Going to Leave Them Lying Around...|QID|26820|M|37.31,52.82|N|Pick up Naga Icons.|
 C Perfectly Pure|QID|26817|M|43.88,49.00|N|Go to the top of the big hill, cross the bridge and loot Pure Water from the spring.|
-C If They're Just Going to Leave Them Lying Around...|QID|26820|M|37.31,52.82|Pick up Naga Icons.|
+C If They're Just Going to Leave Them Lying Around...|QID|26820|M|37.31,52.82|N|Pick up Naga Icons.|
 C Akiris by the Bundle|QID|26819|US|M|39.69,45.63|N|Finish killing Naga.|
 C Plush Pelts|QID|26818|M|40.04,30.65;50.88,9.12|N|Kill and loot Stranglethorn Tigresses and Elder Shadowmaw Panthers until you have all the fur needed.|
 
@@ -152,7 +158,7 @@ A An Old Sea Dog|QID|26617|U|59143|N|Accept this quest from the Weather-Beaten C
 C Scaring Shaky|QID|26593|S|M|51,53|N|From now on kill Elder Mistvale Gorillas for Giblets.|
 l Gorilla Fang|QID|26597|M|51,53|N|Kill and loot Gorillas until you get a Gorilla Fang.|L|2799|
 R Spirit Den|QID|26597|M|52.28,52.12;53.28,49.01;54.00,46.69|N|Follow the waypoints to the cave.|
-C Stranglethorn Fever|QID|26597|L|2797|Hand over the Gorilla Fang to Witch Doctor Unbagwam who will summon Mokk for you. Kill him and loot his heart.|
+C Stranglethorn Fever|QID|26597|L|2797|N|Hand over the Gorilla Fang to Witch Doctor Unbagwam who will summon Mokk for you. Kill him and loot his heart.|
 C Scaring Shaky|QID|26593|US|M|51,53|N|Finish killing Gorillas for Giblets.|
 C The Captain's Chest|QID|26599|M|52.39,64.68;55.9,63.43|N|Kill Gorlash (He wanders between the waypoints.), and loot Smotts' Chest.|
 

@@ -1,4 +1,11 @@
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2011-06-07 23:09
+-- Who: Ludovicus Maior
+-- Log: ! Line 71 for step C has unknown tag [58.3,86.28]: [C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|58.3,86.28|S|]
+--	! Line 73 for step C has unknown tag [58.3,86.28]: [C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|58.3,86.28|US|]
+--	! Line 184 for step C has 1 M coords: [C Culling the Flutterers|QID|9647|N|Go between the waypoints, and kill the last Royal Blue Flutterers that you need.|US|M|47.21;32.72;43.5,36.58|]
+
+-- URL: http://wow-pro.com/node/3220/revisions/24496/view
 -- Date: 2011-06-03 09:55
 -- Who: Crackerhead22
 -- Log: Added a bunch of notes, fixed some cords, added a bunch of cords. Removed outdated quest chain.
@@ -68,9 +75,9 @@ C A Favorite Treat|QID|9624|N|Pick up Sand Pears.|S|
 A Saving Princess Stillpine |QID|9667|M|68.2,81.2|PRE|9559|N|From Princess Stillpine.|
 K Furlblogs |QID|9667|L|24099|M|64.25,76.50|N|Head north-west to the small camp, killing furbolgs there until High Chief Bristlelimb spawns and yells 'Face the wrath of Bristlelimb!' - kill him, and loot the key.|
 C Saving Princess Stillpine |QID|9667|M|68.2,81.2|N|Open Princess Stillpine's cage.|
-C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|58.3,86.28|S|
+C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|M|58.3,86.28|S|
 C Learning from the Crystals |QID|9581|U|23875|M|58.25,83.44|N|Use your Crystal Mining Pick on the Impact Site Crystal.|
-C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|58.3,86.28|US|
+C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|M|58.3,86.28|US|
 C A Favorite Treat|QID|9624|M|59.4,88.39|N|Finish picking up the Sand Pears at the base of the trees.|US|
 T A Favorite Treat |QID|9624|M|63.43,88.78|N|To Aonar.|
 T Alien Predators |QID|9634|M|63.05,87.92|N|To Vorkhan the Elekk Herder.|
@@ -181,7 +188,7 @@ A Galaen's Fate|QID|9579|N|From Galaen's Coprse.|M|37.51,61.27|
 A Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|N|From the book on the ground next to Galaen's Coprse.|
 C Galaen's Fate|QID|9579|N|The amulet drops off of the Blood Elves outside the Cryo Core.|M|39.27,60.42|
 C The Cryo-Core|QID|9703|N|Loot Medical Supplies from the ground and from Blood Elves.|US|M|39.27,60.42|
-C Culling the Flutterers|QID|9647|N|Go between the waypoints, and kill the last Royal Blue Flutterers that you need.|US|M|47.21;32.72;43.5,36.58|
+C Culling the Flutterers|QID|9647|N|Go between the waypoints, and kill the last Royal Blue Flutterers that you need.|US|M|47.21,32.72;43.5,36.58|
 T Culling the Flutterers|QID|9647|N|To Tracker Lyceon.|M|55.83,56.93|
 T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|M|55.6,55.2|N|To Vindicator Kuros.|M|55.64,55.28|
 A Matis the Cruel|QID|9711|N|From Vindicator Kuros.|M|55.64,55.28|
