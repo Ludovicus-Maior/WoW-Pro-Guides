@@ -1,0 +1,21 @@
+= Laotseu / WoW-Pro-Guides =
+
+== What is this? ==
+This is a fork of [https://github.com/Jiyambi/WoW-Pro-Guides Jiyambi/WoW-Pro-Guides]. I like the WoWPro guides 
+but I also like to hack stuff to have work just to like I want to. I'm posting my fork here in case someone want to see/use
+my hacks.
+
+== What hacks? ==
+Here's a sumery of the main changes I made to [https://github.com/Jiyambi/WoW-Pro-Guides Jiyambi/WoW-Pro-Guides].
+* Reworked the mapping code to use TomTom more directly and deal with the way points a bit differently
+* Change the leaderboard code to always use the quest objective text (I had some issues with the objectives not being reflected properly)
+* Removed the radio button in the menus
+* Actived the tooltips on the quest items button
+* Generate two macros for the current item and target buttons so I can put them on the actoin bars
+* Made the current item and target buttons the lowers one instead of the top one from the step list (use the current over the stickies)
+* Maintain the completeQID list up to date with every turn-ins and use it to update must of the guide steps instead of reliying on event
+* In general, always try to check with was is instead of what happened for updating the guide steps
+* Multiple tweaks to the guides to make them work more like I want them to
+
+== Thanks ==
+Big thanks to Ludovicus and all the WoW-Pro team for making such a great addon and such great guides.
