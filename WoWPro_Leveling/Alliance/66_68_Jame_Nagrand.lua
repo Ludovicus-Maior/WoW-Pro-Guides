@@ -93,7 +93,7 @@ T The Tortured Earth|QID|9819|M|61.8,24.4|N|To Gordawg.|
 A Eating Damnation|QID|9821|M|61.8,24.4|N|From Gordawg.|
 N Sell junk, repair, restock, train skills|QID|10109|N|Sell junk, repair, restock, train skills |
 N Mana Tombs |QID|10109|N|You can do Mana Tombs if you want, for XP |
-F Telaar|N|Fly or run to Telaar.|N|
+F Telaar|N|Fly or run to Telaar.|N|M|54.20,75.05|
 
 N From now on...|QID|9855|N|From now on, kill the mobs you need for the mastery quests if you see them.|
 C Boulderfist Plans |QID|9917|N|Kill Boulderfist Hunters until you get the Boulderfist Plans.|L|25468|M|61.00,71.00|
