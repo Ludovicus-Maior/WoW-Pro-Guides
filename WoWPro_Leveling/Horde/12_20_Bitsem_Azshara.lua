@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2011-06-13 21:08
+-- Who: Crackerhead22
+-- Log: Put in completion step for "A Gigantic Snack" quest suggested by Skully0815.
+
+-- URL: http://wow-pro.com/node/3217/revisions/24321/view
 -- Date: 2011-04-29 15:32
 -- Who: Ludovicus Maior
 -- Log: Line 47 for step C has unknown tag [n], Line 47 for step C has unknown tag [Attack one of the ...], Line 379, for step A non-decimal PRE, Line 609 for step A has 1 M coords, Line 690 for step T has unknown tag [To Kadrak.].
@@ -270,9 +275,9 @@ A To Gut a Fish|QID|14262|M|50.70,75.23|N|From Torg Twocrush.|
 A Investigating the Sea Shrine|QID|14267|M|50.70,75.23|N|From Torg Twocrush.|
 
 L Level 17|QID|14267|LVL|17|N|You should be around level 17 by this point.|
-
+C A Gigantic Snack|QID|14371|M|46.7,72.2|N||S|
 C Mysterious Azsharite|QID|14370|M|50.55,82.10|
-
+C A Gigantic Snack|QID|14371|M|46.7,72.2|N||US|
 C To Gut a Fish|QID|14262|M|55.49,76.45|S|
 
 T Investigating the Sea Shrine|QID|14267|M|58.98,71.98|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-06-08 23:20
+-- Who: Fluclo
+-- Log: Shouldn't be a need to grind in Cataclysm, so tweaked to remove any grinding. 
+
+-- URL: http://wow-pro.com/node/3199/revisions/24512/view
 -- Date: 2011-06-07 10:55
 -- Who: Ludovicus Maior
 -- Log: Add [Conscript of the Horde] and fix Z tag for [Neeru Fireblade]
@@ -112,7 +117,17 @@ A Cutting Teeth|QID|25126|M|43.22,68.23|N|From Gornek.|
 C Cutting Teeth|QID|25126|M|44.90,65.60|N|Kill boars in the nearby boar pen.|
 T Cutting Teeth|QID|25126|M|43.26,68.22|N|To Gornek.|
 
-L Level 3|QID|25126|LVL|3|N|Kill boars until you reach level 3.|
+L Level 2|QID|25172|LVL|2|N|You should now be Level 2|
+
+A Invaders in Our Home|QID|25172|M|43.23,68.21|N|From Gornek.|
+C Invaders in Our Home|QID|25172|M|43.91,72.54|N|Kill Northwatch scouts to the south.|
+T Invaders in Our Home|QID|25172|M|43.27,68.24|N|To Gornek.|
+
+A Galgar's Cactus Apple Surprise|QID|25136|M|42.75,67.31|N|From Galgar.|
+C Galgar's Cactus Apple Surprise|QID|25136|NC|M|44.62,64.74|N|Loot cactus apples from cactuses.|
+T Galgar's Cactus Apple Surprise|QID|25136|M|42.73,67.29|N|To Galgar.|
+
+L Level 3|QID|25127|LVL|3|N|You should now be Level 3|
 
 A Rune-Inscribed Parchment|RANK|1|QID|3089|R|Orc|C|Shaman|M|43.22,68.23|N|From Gornek.|
 A Glyphic Parchment|RANK|1|QID|25138|R|Orc|C|Mage|M|43.22,68.23|N|From Gornek.|
@@ -149,18 +164,16 @@ T Steady Shot|RANK|1|QID|25139|R|Orc|C|Hunter|M|42.84,69.33|N|To Karranisha.|
 T Immolate|RANK|1|QID|25145|R|Orc|C|Warlock|M|42.39,68.07|N|To Nartok.|
 T Eviscerate|RANK|1|QID|25141|R|Orc|C|Rogue|M|42.37,68.81|N|To Rwag.|
 
-A Invaders in Our Home|QID|25172|M|43.23,68.21|N|From Gornek.|
-A Lazy Peons|QID|25134|M|43.51,67.47|N|From Foreman Thazz'ril.|
-A Galgar's Cactus Apple Surprise|QID|25136|M|42.75,67.31|N|From Galgar.|
-C Galgar's Cactus Apple Surprise|QID|25136|S|NC|M|44.62,64.74|N|Loot cactus apples from cactuses.|
-C Lazy Peons|QID|25134|S|NC|U|16114|M|40.88,60.48|N|Hit peons with the Foreman's Blackjack.|
-C Invaders in Our Home|QID|25172|M|43.91,72.54|N|Kill Northwatch scouts to the south.|
-T Invaders in Our Home|QID|25172|M|43.27,68.24|N|To Gornek.|
-T Galgar's Cactus Apple Surprise|QID|25136|M|42.73,67.29|N|To Galgar.|
-T Lazy Peons|QID|25134|M|43.54,67.48|N|To Foreman Thazz'ril.|
 A Sting of the Scorpid|QID|25127|M|43.27,68.24|N|From Gornek.|
-C Sting of the Scorpid|QID|25127|M|41.85,60.37|N|Kill and loot scorpids.|
+A Lazy Peons|QID|25134|M|43.51,67.47|N|From Foreman Thazz'ril.|
+C Lazy Peons|QID|25134|S|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
+C Sting of the Scorpid|QID|25127|M|46.50,63.00|N|Kill and loot scorpids.|
+C Lazy Peons|QID|25134|US|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
+T Lazy Peons|QID|25134|M|43.54,67.48|N|To Foreman Thazz'ril.|
 T Sting of the Scorpid|QID|25127|M|43.26,68.17|N|To Gornek.|
+
+L Level 4|QID|25127|LVL|4|N|You should now be Level 4|
+
 A Hana'zua|QID|25128|PRE|25127|M|42.40,69.16|N|From Canaga Earthcaller.|
 A Vile Familiars|QID|25131|PRE|25127|M|43.43,67.48|N|From Zureetha Fargaze.|
 C Vile Familiars|QID|25131|M|44.48,56.56|N|Kill Vile Familiars near the cave to the north.|
@@ -169,17 +182,22 @@ A Sarkoth|QID|25129|M|40.63,62.58|N|From Hana'zua.|
 C Sarkoth|QID|25129|M|40.35,66.85|N|Kill and loot Sarkoth.|
 T Sarkoth|QID|25129|M|40.59,62.63|N|To Hana'zua.|
 A Back to the Den|QID|25130|M|40.59,62.63|N|From Hana'zua.|
-T Back to the Den|QID|25130|M|40.54,66.91;42.12,67.37;43.26,68.17|N|To Gornek. Jump down near where you fought Sarkoth.|
-T Vile Familiars|QID|25131|M|43.47,67.48|N|To Zureetha Fargaze, back at the Den.  |
+T Back to the Den|QID|25130|M|40.54,66.91;42.12,67.37;43.26,68.17|N|To Gornek at the starting area.  As a short-cut, you can jump down near where you fought Sarkoth.|
+T Vile Familiars|QID|25131|M|43.47,67.48|N|To Zureetha Fargaze.|
 
 A Burning Blade Medallion|QID|25132|M|43.47,67.48|N|From Zureetha Fargaze.|
 A Thazz'ril's Pick|QID|25135|M|43.47,67.48|N|From Foreman Thazz'ril.|
+
+C Burning Blade Medallion|QID|25132|M|42.43,53.53|N|Kill felstalkers as you go through the cave.|S|QO|Felstalker slain: 7/7|
 C Thazz'ril's Pick|QID|25135|NC|M|43.75,53.77|N|Inside the cave, central passage.|
-C Burning Blade Medallion|QID|25132|M|42.43,53.53|N|Kill felstalkers on the way in, then kill and loot Yarrog Baneshadow. Rightmost passage.|
-T Thazz'ril's Pick|QID|25135|M|43.51,67.49|N|To Foreman Thazz'ril.|
+K Yarrog Baneshadow|QID|25132|M|42.43,53.53|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|L|4859|
+C Burning Blade Medallion|QID|25132|M|42.50,55.25|N|Finish killing the felstalkers as you leave the cave|US|
+L Level 5|QID|25127|LVL|5|N|You should now be Level 5|
+
+T Thazz'ril's Pick|QID|25135|M|43.51,67.49|N|To Foreman Thazz'ril at the starting area.|
 T Burning Blade Medallion|QID|25132|M|43.48,67.51|N|To Zureetha Fargaze.|
 A Report to Sen'jin Village|QID|25133|M|43.48,67.51|N|From Zureetha Fargaze.|
-R Sen'jin Village|M|55.36,73.35|N|Head east.|
+R Sen'jin Village|M|55.36,73.35|N|Follow the road to the east until you see the signpost, then head south-east along the dirt track to Sen'jin Village.|
 T Report to Sen'jin Village|QID|25133|M|55.93,74.69|N|To Master Gadrin.|
 ]]
 

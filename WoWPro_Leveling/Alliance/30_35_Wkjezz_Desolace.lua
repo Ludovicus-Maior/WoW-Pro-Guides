@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2011-06-12 19:52
+-- Who: Crackerhead22
+-- Log: Minor fixes.
+
+-- URL: http://wow-pro.com/node/3313/revisions/24415/view
 -- Date: 2011-05-23 20:55
 -- Who: Crackerhead22
 -- Log: Condensed code, rearranged a couple quests for better flow, added notes, fixed notes, added cords, fixed cords, added breadcrumb quest to Feralas.
@@ -96,7 +101,7 @@ return [[
 
 R Farwatcher's Glen|QID|25938|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
 
-A Help for Desolace|QID|25938|M|54.18,9.41|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
+A Help for Desolace|QID|25938|M|33.09,59.63|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
 R The Charred Vale|QID|25938|M|30.95,62.20;30.23,63.15;30.06,64.98|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|
 T Help for Desolace|QID|25938|M|54.18,9.41|N|To Officer Jankie.|
 A Rerouted!|QID|14384|M|54.18,9.41|N|From Officer Jankie.|
@@ -152,7 +157,7 @@ A Putting Their Heads Together|QID|14364|M|52.94,28.96|N|(UI Alert)|
 l Bleached Skulls|QID|14364|L|48953 100|N|From piles around the compound.|
 C Putting Their Heads Together|QID|14364|U|48953|M|54.96,26.68|N|Use the skulls at the center of the building, and kill Nazargen.|
 C Ears Are Burning|QID|14362|M|53.20,27.48|US|N|Kill and loot Burning Blade mobs for their ears.|
-C Fletch Me Some Plumage!|QID|14253|US|M|46.33,34.99|RANK|2|N|Finish collecting Dread Swoop Feathers.|
+C Fletch Me Some Plumage!|QID|14253|US|M|46.33,34.99;49.68,25.62|RANK|2|N|Finish collecting Dread Swoop Feathers.|
 f Ethel Rethor|QID|14365|M|39.04,27.01|N|At Korrah's Hippogryph.|
 T Ethel Rethor|QID|14365|M|38.83,26.97|N|To Cenarion Researcher Korrah.|
 
@@ -189,16 +194,20 @@ A Return and Report|QID|14301|M|29.04,8.02|N|From Lord Hydronis.|
 T Return and Report|QID|14301|M|38.82,27.02|N|To Cenarion Researcher Korrah.|
 A Official Assessment|QID|14302|M|38.82,27.02|N|From Cenarion Researcher Korrah.|
 
-H Nijel's Point|QID|14364|N|Hearth or Fly, the choice is yours.|
+F Nijel's Point|QID|14364|N|Fly back to Nijel's Point.|M|39.04,27.01|
 
 T Putting Their Heads Together|QID|14364|M|66.61,10.98|N|To Captain Pentigast.|
 T Ears Are Burning|QID|14362|M|66.61,10.98|N|To Captain Pentigast.|
 T The Karnitol Shipwreck |QID|1455|M|66.20,9.70|N|To Kreldig Ungor.|
-C Good Gold For Bad Tail|QID|14252|US|M|59.21,17.02|RANK|2|N|Finish gathering basalisk tails.|
-C New Beginnings|QID|14251|US|M|62.53,27.33|RANK|2|N|Finish gathering scorpion stingers.|
+A The Karnitol Shipwreck|QID|1456|M|66.20,9.70|N|From Kreldig Ungor.|RANK|3|
+C Good Gold For Bad Tail|QID|14252|US|M|59.21,17.02;68.54,21.45|RANK|2|N|Finish gathering basalisk tails.|
+C New Beginnings|QID|14251|US|M|62.53,27.33;68.54,21.45|RANK|2|N|Finish gathering scorpion stingers.|
 T New Beginnings|QID|14251|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Good Gold For Bad Tail|QID|14252|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Fletch Me Some Plumage!|QID|14253|M|60.95,28.92|N|To Bizby.|RANK|2|
+C The Karnital Shipwreck|QID|1456|M|30.77,10.92|N|Kill and loot Slitherblade Tidehunters and Sea Witches until the satchel drops.|U|34130|RANK|3|
+H Nijel's Point|QID|1456|N|Hearth back to Nijel's Point.|RANK|3|
+T The Karnitol Shipwreck |QID|1456|M|66.20,9.70|N|To Kreldig Ungor.|RANK|3|
 
 A Bone Collector |QID|5501|M|62.36,38.95|N|From Bibbly F'utzbuckle|RANK|3|
 A Blood Theory|QID|14304|M|58.69,46.42|N|From Thressa Amberglen.|
@@ -213,7 +222,7 @@ A Pulling Weeds|QID|14306|M|58.51,48.66|N|From Botanist Ferrah.|
 C Stubborn Winds|QID|14307|S|M|46.85,45.97|N|Destroy 5 Whirlwind Stormwalkers.|
 C A Time to Reap|QID|14305|S|M|63.35,47.27|N|Loot 10 Aloe Thistle.|
 C Pulling Weeds|QID|14306|S|N|Kill 7 Uprooted Lashers.|
-C Blood Theory|QID|14304|U|49138|M|50,36|N|Use the Bottle of Leeches on a Rejuvenated Thunder Lizard then kill it. Pick up the leech afterwards. (Be careful as AoE can kill the leeches.)|
+C Blood Theory|QID|14304|U|49138|M|50.59,46.5|N|Use the Bottle of Leeches on a Rejuvenated Thunder Lizard then kill it. Pick up the leech afterwards. (Be careful as AoE can kill the leeches.)|
 C Stubborn Winds|QID|14307|US|M|45.21,49.00|N|Finish killing Whirlwind Stormwalkers.|
 C Pulling Weeds|QID|14306|US|M|59.41,56.64|N|Finish killing Uprooted Lashers.|
 C Bone Collector |QID|5501|M|52.2,58.4|N|Kodo Bones from the graveyard, they look like smaller Kodo skulls. A Kodo Apparition can spawn when you pick one up.|RANK|3|
@@ -227,6 +236,9 @@ A Calming the Kodo|QID|14309|M|58.63,46.47|N|From Thressa Amberglen.|
 T Stubborn Winds|QID|14307|M|57.41,47.71|N|To Karnum Marshweaver.|
 C Taking Part|QID|14311|U|49150|M|62.94,57.42|N|Look for glittering piles of dirt and use the seeds to plant.|S|
 C Calming the Kodo|QID|14309|U|49144|M|62.26,57.90|N|Feed the Soothing Broth to Enraged Kodos.|
+A Kodo Roundup|QID|5561|M|60.86,61.86|N|From Smeed Scrabblescrew.|RANK|3|
+C Kodo Roundup|QID|5561|M|54.15,61.02|U|13892|N|Go into the Kodo Graveyard and use the Kodo Kombobulator on an Ancient or Aged Kodo, then bring it back to Smeed (Try not to get too far ahead of it). Click on the Kodo once back to Smeed to inspect it. Do this three times.|RANK|3|
+T Kodo Roundup|QID|5561|M|60.86,61.86|N|To Smeed Scrabblescrew.|RANK|3|
 C Taking Part|QID|14311|U|49150|M|62.94,57.42|N|Finish planting seeds.|US|
 T Taking Part|QID|14311|M|58.57,48.63|N|To Botanist Ferrah.|
 A An Introduction Is In Order|QID|14312|M|58.37,49.81|N|From Garren Darkwind.|
@@ -249,8 +261,8 @@ A Heavy Metal|QID|14254|M|69.47,21.30|N|From the Smoldering Stone.|
 C Heavy Metal|QID|14254|S|M|64.29,24.79|N|Little red gems on the ground.|
 C Early Adoption|QID|14246|US|U|49014|M|70.28,22.64|N|Find the swoop nests. Clear the area around it for mobs. Protect the egg from attacking mobs.|
 C Heavy Metal|QID|14254|US|M|66.39,19.23|N|Little red gems on the ground.|
-T Early Adoption|QID|14246|M|70.49,32.98|N|To Cenarion Embassador Thunk.|
 T Heavy Metal|QID|14254|M|61.06,28.95|N|To Bizby.|
+T Early Adoption|QID|14246|M|70.49,32.98|N|To Cenarion Embassador Thunk.|
 T Cenarion Property|QID|14316|M|58.38,49.89|N|To Garren Darkwind.|
 T Breakout!|QID|14314|M|58.30,50.02|N|To Khan Leh'Prah.|
 

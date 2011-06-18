@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2011-06-10 20:47
+-- Who: Crackerhead22
+-- Log: Removed the quest "Hero's Call: Badlands!", added a couple notes, made a sticky step.
+
+-- URL: http://wow-pro.com/node/3247/revisions/23822/view
 -- Date: 2010-12-23 18:39
 -- Who: Crackerhead22
 -- Log: Added "To the Aid of the Thorium Brotherhood", fixed several |M| tags, |N| tags, added |N| tags to several steps. Fixed a couple of steps so they auto-complete. Added a couple of sticky steps.
@@ -19,21 +24,21 @@
 WoWPro.Leveling:RegisterGuide('CraBad4548', 'Badlands', 'Crackerhead22', '45', '48', 'CraSea4850', 'Alliance', function()
 return [[
 
-A Hero's Call: Badlands!|QID|28579|M|62.93,71.53|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level (disapears if your level is too high).|
 H Light's Hope Chapel|QID|27762|N|Hearth back to Light's Hope Chapel, or fly if your hearth is on cooldown.|
 A Fuselight, Ho!|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|From Gek Nozzlerocket.|
 R Fuselight-by-the-Sea|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|Click on "The Uncrashable" behind Gek, and pray. It is some bad driving.|
 T Fuselight, Ho!|QID|27762|M|92.6,38.9|N|To Eddie Flofizzle.|
 A To Fuselight Proper|QID|27763|M|92.48,38.94|N|From Eddie Flofizzle.|
-R To Fuselight Proper|QID|27763|M|88.13,32.54|Z|Badlands|N|Run to the teleporter.|CC|
+R To Fuselight Proper|QID|27763|M|88.13,32.54|N|Run to the teleporter.|CC|
 f Fuselight|QID|27763|M|82.02,30.88;74.93,33.86;68.62,30.77;70.17,35.40;67.94,35.65;64.35,35.24|N|At Mixi Sweetride.|
 h Fuselight|QID|27763|M|65.88,35.85|N|At Sally Gearwell.|
 T To Fuselight Proper|QID|27763|M|65.12,38.25|N|To Dolph Blastus.|
 A Easily Swayed|QID|27774|M|65.12,38.25|N|From Dolph Blastus.|
 A When the Going Gets Tough, Cheat|QID|27775|M|64.38,38.05|N|From Garyanne Fleezlebop.|
 
-C When the Going Gets Tough, Cheat|QID|27775|M|61.65,27.55|N|Kill Ogre-Mage Instructors until you get an "Instructor's Rod". Kill the other ogres needed while you do this step.|
-C Easily Swayed|QID|27774|M|58.02,26.02|N|Slay 9 Dustbelcher ogres at Camp Kosh.|
+C Easily Swayed|QID|27774|M|58.02,26.02|N|Slay 9 Dustbelcher ogres at Camp Kosh.|S|
+C When the Going Gets Tough, Cheat|QID|27775|M|61.65,27.55|N|Kill Ogre-Mage Instructors until you get an "Instructor's Rod".|
+C Easily Swayed|QID|27774|M|58.02,26.02|N|Slay 9 Dustbelcher ogres at Camp Kosh.|US|
 T When the Going Gets Tough, Cheat|QID|27775|M|64.35,37.97|N|To Garyanne Fleezlebop.|
 A It's Goat Time, Baby|QID|27776|M|64.47,37.93|N|From Garyanne Fleezlebop.|
 T Easily Swayed|QID|27774|M|65.06,38.26|N|To Dolph Blastus.|
@@ -81,18 +86,18 @@ A The Sentinel's Pawn|QID|27797|M|49.16,36.82|N|From Lead Prospector Durdin.|
 C The Good Stuff|QID|27824|M|39.85,24.89|N|In the basement next to the fireplace.|
 T The Good Stuff|QID|27824|M|49.38,36.91|N|To Sigrun Ironhew.|
 T The Sentinel's Pawn|QID|27797|M|48.13,50.89|N|At the Marble Slab.|
-A The Sentinel's Game|QID|27709|M|48.13,50.89|
+A The Sentinel's Game|QID|27709|M|48.13,50.89|N|From the Marble Slab.|
 
 N The Sentinel's Game|QID|27709|N|The next few steps tell you which way to turn the statues. It may help to zoom the map in to better find the right one via the waypoint.|
-N 1st Statue|M|48.6,50.95|N|Turn statue twice. Close this step when done.|
-N 2nd Statue|M|48.05,51.28|N|Turn statue once. Close this step when done.|
-N 3rd Statue|M|48.95,51.72|N|Turn statue twice. Close this step when done.|
-N 4th Statue|M|48.34,52.28|N|Turn statue once. Close this step when done.|
-N 5th Statue|M|48.77,52.82|N|Turn statue twice. Close this step when done.|
+N 1st Statue|QID|27709|M|48.6,50.95|N|Turn statue twice. Close this step when done.|
+N 2nd Statue|QID|27709|M|48.05,51.28|N|Turn statue once. Close this step when done.|
+N 3rd Statue|QID|27709|M|48.95,51.72|N|Turn statue twice. Close this step when done.|
+N 4th Statue|QID|27709|M|48.34,52.28|N|Turn statue once. Close this step when done.|
+N 5th Statue|QID|27709|M|48.77,52.82|N|Turn statue twice. Close this step when done.|
 C The Sentinel's Game|QID|27709|M|48.04,53.1|N|6th statue: Turn statue twice.|
 T The Sentinel's Game|QID|27709|M|48.50,52.99|N|(UI Alert)|
 T The Warden's Pawn|QID|27796|M|50.21,54.35|N|At the Stone Slab.|
-A The Warden's Game|QID|27693|M|50.21,54.35|
+A The Warden's Game|QID|27693|M|50.21,54.35|N|From the Stone Slab.|
 C The Warden's Game|QID|27693|M|50.24,54.30|N|Stand in the middle of the pawns and face north. Move the top-left pawn(the one that faces NW) into the middle. Move the rest of the pawns clockwise until they all face inwards, then move the one in the middle to the bottom-right.|
 T The Warden's Game|QID|27693|M|50.24,54.30|N|(UI Alert)|
 A Ancient Protectors|QID|27793|M|50.24,54.30|N|(UI Alert)|
@@ -128,7 +133,7 @@ T The Swift, the Fierce, and the Stout|QID|27827|M|20.68,56.08|N|To Eric "The Sw
 A Eric, the Utility Dwarf|QID|27828|M|20.68,56.08|N|From Eric "The Swift".|
 A Baelog, the Glass Cannon|QID|27834|M|20.55,55.90|N|From Baelog.|
 A Olaf, the Big Fella'|QID|27835|M|20.69,56.08|N|From Olaf.|
-N Note:|N|You will now have a pet bar with all 3 of the NPCs, they have 2 abilities each.|
+N Note:|QID|27828|N|You will now have a pet bar with all 3 of the NPCs, they have 2 abilities each.|
 C Eric, the Utility Dwarf|QID|27828|M|20.17,54.87|N|Use both of his abilities in combat.|
 C Olaf, the Big Fella'|QID|27835|M|20.09,54.51|N|Use both of his abilities in combat.|
 C Baelog, the Glass Cannon|QID|27834|M|19.78,54.52|N|Use both of his abilities in combat.|
@@ -155,7 +160,7 @@ C Rheastrasza's Gift|QID|27858|M|15.89,32.95|N|Cutscene: Wait as Rhea retrieves 
 T Rheastrasza's Gift|QID|27858|M|17.47,30.64|N|(UI Alert)|
 A Devastation|QID|27930|M|17.47,30.64|N|(UI Alert)|
 T Devastation|QID|27930|M|18.77,30.16|N|Go inside the cave.|
-A The Egg Lives On|QID|27859|M|17.98,30.55|N|From Dr. Hieronymus Blam. Close this step when done.|
+A The Egg Lives On|QID|27859|M|17.98,30.55|N|From Dr. Hieronymus Blam.|
 
 H Dragon's Mouth|QID|27825|N|Hearth back to Dragon's Mouth or run if your hearth is on cooldown.|
 r Sell junk, repair/restock.|QID|27825|

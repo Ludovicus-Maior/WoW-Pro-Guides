@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2011-06-11 22:13
+-- Who: Crackerhead22
+-- Log: Removed the "Hero's Call" steps since they are not really needed.
+
+-- URL: http://wow-pro.com/node/3249/revisions/24414/view
 -- Date: 2011-05-23 18:15
 -- Who: Ludovicus Maior
 
@@ -172,11 +177,11 @@ A Remember the Light|QID|24913|M|26.94,33.74|N|From Anchorite Avuun.|
 C Remember the Light|QID|24913|M|27.01,33.80|N|Wait and watch the scene.|
 T Remember the Light|QID|24913|M|26.89,33.76|N|To Anchorite Avuun.|
 F Stormwind City|QID|27919|M|30.69,34.69|N|Fly to Stormwind to visit your trainers, the AH, sell junk and repair/restock.|
-A Hero's Call: Blasted Lands!|QID|28673|M|62.93,71.53;62.28,29.97|Z|Stormwind City|N|Pick up from the Hero's Call Board. May or may not be there depending on your level or if you have the quest "Onward to the Blasted Lands".|
+
 H The Harborage|QID|27919|N|Hearth back to The Harborage, or fly from Stormwind if your hearth isn't up.|
 R Blasted Lands|QID|28673|M|37.28,63.62;36.12,73.12|N|Run to the Blasted Lands.|
 R Nethergarde Keep|QID|28673|M|49.05,7.51;49.08,11.69;51.14,14.06;53,16;57.26,16.29|Z|Blasted Lands|N|Run to Nethergarde Keep.|
-T Hero's Call: Blasted Lands!|QID|28673|M|60.11,13.67|Z|Blasted Lands|N|Enter the building and go up one floor to Quartermaster Lungertz.|O|
+
 ]]
 
 end)

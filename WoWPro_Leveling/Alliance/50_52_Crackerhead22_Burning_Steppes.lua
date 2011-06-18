@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2011-06-11 20:38
+-- Who: Crackerhead22
+-- Log: Removed Hero's Call, fixed a couple of cords, added 1 or 2 sticky steps.
+
+-- URL: http://wow-pro.com/node/3265/revisions/24482/view
 -- Date: 2011-06-01 11:32
 -- Who: Fluclo
 -- Log: Added additional instruction notes for A Perfect Costume
@@ -33,20 +38,20 @@
 
 WoWPro.Leveling:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', '50', '52', 'CraSwa5254', 'Alliance', function()
 return [[
-A A Hero's Call: Burning Steppes|QID|28666|M|62.93,71.53;62.28,29.97|Z|Stormwind City|N|Pick up from the Hero's Call Board. If you have the quest, "Mouton Flamestar" or if your level is too high, this quest will not be there.|
-H Iron Summit|QID|28666|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|
-R Blackrock Mountain|QID|28666|M|33.49,74.91|Z|Searing Gorge|N|Run to the waypoint young padawn.|
-R Burning Steppes|QID|28666|M|19.61,24.26;17.42,29.28;19.74,34.51|N|Run through Blackrock Mountain to Burning Steppes.|
-f Flamestar Post|M|17.82,52.63|N|At Hans Oreflight.|
+
+H Iron Summit|QID|28514|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|
+R Blackrock Mountain|QID|28514|M|33.49,74.91|Z|Searing Gorge|N|Run to the waypoint.|
+R Burning Steppes|QID|28514|M|19.61,24.26;17.42,29.28;19.74,34.51|N|Run through Blackrock Mountain to Burning Steppes.|
+f Flamestar Post|M|17.82,52.63|N|At Hans Oreflight.|QID|28514|
 T Mouton Flamestar|QID|28514|M|17.12,51.32|N|To Mouton Flamestar.|
 A Done Nothing Wrong|QID|28172|M|17.12,51.32|N|From Mouton Flamestar.|
 T Hero's Call: Burning Steppes!|QID|28666|M|17.4,52.5|N|To John J. Keeshan.|O|
-A Burning Vengeance|QID|28174|M|17.31,51.98|N|From John J. Keeshan.|
+A Burning Vengeance|QID|28416;28174|M|17.31,51.98|N|From John J. Keeshan.|
 
 C Done Nothing Wrong|QID|28172|S|M|23.13,60.14|N|Free a Red, Green, Blue and Bronze Fettered Whelping.|
-C Burning Vengeance|QID|28174|M|17.00,63.80|N|Kill Blackrock Whelpers and Flamescale Broodlings.|
+C Burning Vengeance|QID|28174;28416|M|17.00,63.80|N|Kill Blackrock Whelpers and Flamescale Broodlings.|
 C Done Nothing Wrong|QID|28172|US|M|23.13,60.14|N|Free a Red, Green, Blue and Bronze Fettered Whelping.|
-T Burning Vengeance|QID|28174|M|17.34,52.18|N|To John J. Keeshan.|
+T Burning Vengeance|QID|28174;28416|M|17.34,52.18|N|To John J. Keeshan.|
 A Stocking Up|QID|28177|M|17.34,52.18|N|From John J. Keeshan.|
 A A Future Project|QID|28178|M|17.34,52.18|N|From John J. Keeshan.|
 A Mud Hunter|QID|28179|M|17.25,51.89|N|From John J. Keeshan.|
@@ -65,31 +70,31 @@ T The Sand, the Cider, and the Orb|QID|28180|M|8.29,35.91|N|To Gorzeeki Wildeyes
 
 A Warlocks Have the Neatest Stuff|QID|28181|M|8.29,35.91|N|From Gorzeeki Wildeyes.|
 A Shadow Boxing|QID|28182|M|8.29,35.91|N|From Gorzeeki Wildeyes.|
-C Shadow Boxing|QID|28182|M|8.69,30.24|N|Kill any Blackrock mob you see until this completes.|
-C Warlocks Have the Neatest Stuff|QID|28181|M|5.25,31.15|N|The Blackrock Warlocks have the orb. Kill them until one drops. The other stuff needed is by the waypoint.|
+C Warlocks Have the Neatest Stuff|QID|28181|M|5.25,31.15|N|The Blackrock Warlocks have the orb. Kill them until one drops.|S|
+C Shadow Boxing|QID|28182|M|9.85,29.74|N|Kill Ner'gosh the Shadow.|
+C Warlocks Have the Neatest Stuff|QID|28181|M|5.25,31.15|N|The Blackrock Warlocks have the orb. Kill them until one drops. The other stuff needed is by the waypoint.|US|
 T Warlocks Have the Neatest Stuff|QID|28181|M|8.37,35.77|N|To Gorzeeki Wildeyes.|
 T Shadow Boxing|QID|28182|M|8.37,35.77|N|To Gorzeeki Wildeyes.|
 A Return to Keeshan|QID|28183|M|8.33,35.89|N|From Gorzeeki Wildeyes.|
 T Return to Keeshan|QID|28183|M|17.33,51.86|N|To John J. Keeshan.|
 A Chiselgrip, the Heart of the Steppes|QID|28184|M|17.33,51.86|N|From John J. Keeshan.|
-C Chiselgrip, the Heart of the Steppes|QID|28184|M|37.35,54.33|
+C Chiselgrip, the Heart of the Steppes|QID|28184|M|37.35,54.33|N|Kill 15 Blackrock mobs.|
 T Chiselgrip, the Heart of the Steppes|QID|28184|M|46.69,44.24|N|To Stebben Oreknuckle.|
 
 A Prove Yer Allegiance|QID|28225|M|46.69,44.24|N|From Stebben Oreknuckle.|
 A Scrapped Golems|QID|28226|M|46.69,44.24|N|From Stebben Oreknuckle.|
-A A Needle in a Hellhole|QID|28254|M|46.37,45.82|N|From John J. Keeshan.|
 f Chiselgrip|QID|28254|M|46.17,41.97|N|At Grimly Singefeather.|
-A A Needle in a Hellhole|QID|28254|M|45.76,45.67|
+A A Needle in a Hellhole|QID|28254|M|46.37,45.82|N|From John J. Keeshan.|
 T A Needle in a Hellhole|QID|28254|M|45.45,46.11|N|To Thelaron Direneedle.|
 
 A A Perfect Costume|QID|28203|R|Worgen,Draenei|M|45.45,46.34|N|From Thelaron Direneedle.|N|You will need 4 hides, 1 mud and 3 thread.|
 A A Perfect Costume|QID|28205|R|Night Elf|M|45.45,46.34|N|From Thelaron Direneedle.|N|You will need 3 hides, 2 mud and 1 thread.|
 A A Perfect Costume|QID|28202|R|Human,Dwarf|M|45.45,46.34|N|From Thelaron Direneedle.|N|You will need 2 hides, 4 mud 2 thread.|
 A A Perfect Costume|QID|28204|R|Gnome|M|45.45,46.34|N|From Thelaron Direneedle.|N|You will need 1 hide, 3 mud and 4 thread.|
-C A Perfect Costume|QID|28203|R|Worgen,Draenei|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 4 hides, 1 mud and 3 thread.  Click on the Tailor's Table, then select the correct number of hides, mud then thread.  Then speak with Thelaron Direneedle to make the disguise.|
-C A Perfect Costume|QID|28205|R|Night Elf|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 3 hides, 2 mud and 1 thread.  Click on the Tailor's Table, then select the correct number of hides, mud then thread.  Then speak with Thelaron Direneedle to make the disguise.|
-C A Perfect Costume|QID|28202|R|Human,Dwarf|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 2 hides, 4 mud 2 thread.  Click on the Tailor's Table, then select the correct number of hides, mud then thread.  Then speak with Thelaron Direneedle to make the disguise.|
-C A Perfect Costume|QID|28204|R|Gnome|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 1 hide, 3 mud and 4 thread.  Click on the Tailor's Table, then select the correct number of hides, mud then thread.  Then speak with Thelaron Direneedle to make the disguise.|
+C A Perfect Costume|QID|28203|R|Worgen,Draenei|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 4 hides, 1 mud and 3 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
+C A Perfect Costume|QID|28205|R|Night Elf|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 3 hides, 2 mud and 1 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
+C A Perfect Costume|QID|28202|R|Human,Dwarf|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 2 hides, 4 mud 2 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
+C A Perfect Costume|QID|28204|R|Gnome|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 1 hide, 3 mud and 4 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
 T A Perfect Costume|QID|28203|R|Worgen,Draenei|M|46.40,46.03|N|At John H. Keeshan|
 T A Perfect Costume|QID|28205|R|Night Elf|M|46.40,46.03|N|At John H. Keeshan|
 T A Perfect Costume|QID|28202|R|Human,Dwarf|M|46.40,46.03|N|At John H. Keeshan|
@@ -118,7 +123,7 @@ C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|N|When you 
 T Prove Yer Allegiance|QID|28225|M|46.72,44.25|N|To Stebben Oreknuckle.|
 T Scrapped Golems|QID|28226|M|46.72,44.25|N|To Stebben Oreknuckle.|
 A Golem Training|QID|28227|M|46.72,44.25|N|From Stebben Oreknuckle.|
-C Golem Training|QID|28227|M|44.72,43.79;76.75,46.6|N|Go into either tower, talk to a golem. You need to defeat each one 3 times.|
+C Golem Training|QID|28227|M|44.72,43.79;46.75,46.6|N|Go into either tower, talk to a golem. You need to defeat each one 3 times.|
 T Golem Training|QID|28227|M|46.72,44.23|N|To Stebben Oreknuckle.|
 A General Thorg'izog|QID|28265|M|46.33,45.84|N|From John J. Keeshan.|
 T General Thorg'izog|QID|28265|U|63357|M|30.79,33.76;32.49,34.99;31.53,33.57|N|To General Thorg'izog. Remember to put on your disguise, he is the middle of the building.|
@@ -131,10 +136,9 @@ A Abuse of Power|QID|28279|M|30.75,33.77|N|Automatically accepted.|
 C Abuse of Power|QID|28279|S|U|63390|M|35.10,35.83|N|Spam the cudgel to kill the Blackrock Sergeants.|
 C I Am the Law and I Am the Lash|QID|28278|U|63390|M|36.34,37.49|N|I recommend putting the cudgel on the action bar. That way if you are spotting you can spam the crap out of it, to kill the mob.|
 C Abuse of Power|QID|28279|US|U|63390|M|35.10,35.83|N|Spam the cudgel to kill the Blackrock Sergeants.|
-T I Am the Law and I Am the Lash|QID|28278|M|30.78,33.76|N|To General Thorg'izog.|
 T Abuse of Power|QID|28279|M|35.13,35.86|N|(UI Alert)|
 A Enough Damage For One Day|QID|28286|M|35.13,35.86|N|(UI Alert)|
-C Abuse of Power|QID|28279|US|U|63390|M|35.10,35.83|N|Spam the cudgel to kill the Blackrock Sergeants.|
+T I Am the Law and I Am the Lash|QID|28278|M|30.78,33.76|N|To General Thorg'izog.|
 T Enough Damage For One Day|QID|28286|M|46.38,45.75|N|To Colonel Troteman.|
 A Morgan's Vigil|QID|28310|M|46.38,45.75|N|From Colonel Troteman.|
 R Morgan's Vigil|QID|28310|M|46.05,50.46;54.81,47.61;65.38,54.58;70.62,60.97;71.85,63.17|N|Run to Morgan's Vigil.|
@@ -148,10 +152,10 @@ A Blackened Ashes|QID|28311|M|73.51,67.07|N|From Colonel Troteman.|
 A Latent Demons of the Land|QID|28312|M|73.51,67.07|N|From Colonel Troteman.|
 A A Heap of Delicious Worg|QID|28313|M|73.51,67.07|
 C A Heap of Delicious Worg|QID|28313|U|63427|M|72.57,56.14|N|Kill the worgs around this spot. Loot before you use the knife or you will lose out on the loot.|
-C Blackened Ashes|QID|28311|M|62.80,39.92|N|Warning to spellcasters: the elementals have a 20% spell reflect. Kill any elemental you see on the way to the waypoint.|
-C SEVEN! YUP!|QID|28415|S|M|66.24,70.82|N|Grab these as you get the Flamekin corpses.|
+C Blackened Ashes|QID|28311|M|62.80,39.92|N|Warning to spellcasters: the elementals have a 20% spell reflect. Kill and loot any elemental you see.|
+C SEVEN! YUP!|QID|28415|S|M|66.24,70.82|N|Grab the Flameflies as you see them. They can be a little hard to grab sometimes.|
 C Latent Demons of the Land|QID|28312|M|66.24,70.82|N|Kill and loot Flamekin Imps.|
-C SEVEN! YUP!|QID|28415|US|M|66.24,70.82|N|Grab these as you get the Flamekin corpses.|
+C SEVEN! YUP!|QID|28415|US|M|66.24,70.82|N|Grab the Flameflies as you see them. They can be a little hard to grab sometimes.|
 T SEVEN! YUP!|QID|28415|M|71.97,67.99|N|To Oralius. You get a new companion pet. A "Tiny Flamefly".|
 T Blackened Ashes|QID|28311|M|73.52,67.13|N|To Colonel Troteman.|
 T Latent Demons of the Land|QID|28312|M|73.52,67.13|N|To Colonel Troteman.|
@@ -163,7 +167,7 @@ A A Deal With a Dragon|QID|28316|M|73.52,67.13|N|From John J. Keeshan.|
 C Blood Tour|QID|28314|S|M|77.82,35.84|N|Kill any Black Dragonspawn or Black Wyrmkin you see.|
 K Draconic Vanguard|QID|28315|QO|Whelptamer Akumi slain: 1/1|M|65.03,59.84|N|Kill Wheltamer Akumi here.|
 K Draconic Vanguard|QID|28315|QO|Minyoth slain: 1/1|M|79.50,51.41|N|Kill Minyoth here.|
-K Draconic Vanguard|QID|28315|QO|Tugnar Goremaw slain: 1/1|M|75.65,39.96|N|Kill Tugnar Goremaw here.|
+K Draconic Vanguard|QID|28315|QO|Tugnar Goremaw slain: 1/1|M|75.67,37.08|N|Kill Tugnar Goremaw here.|
 T A Deal With a Dragon|QID|28316|M|82.04,31.54|N|To Acride.|
 C Draconic Vanguard|QID|28315|QO|Terromath the Seared slain: 1/1|M|72.29,26.73|N|Kill Terromath.|
 C Blood Tour|QID|28314|US|M|77.82,35.84|N|Kill any Black Dragonspawn or Black Wyrmkin you have you left.|

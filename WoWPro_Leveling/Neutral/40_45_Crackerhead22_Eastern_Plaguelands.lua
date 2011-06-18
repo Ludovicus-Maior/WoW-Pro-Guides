@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_alliance
+-- Date: 2011-06-10 15:05
+-- Who: Crackerhead22
+-- Log: Some minor fixes.
+
+-- URL: http://wow-pro.com/node/3251/revisions/24429/view
 -- Date: 2011-05-28 04:04
 -- Who: Crackerhead22
 -- Log: Put faction tags back in.
@@ -42,8 +47,8 @@
 WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548|LiaBad4548', 'Neutral', function()
 return [[
 
-F The Mender's Stand|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Fly to The Mender's Stand.|FACTION|Alliance|
-F The Mender's Stand|QID|27683|M|46.6,64.6|Z|Western Plaguelands|N|Fly to The Mender's Stand.|FACTION|Horde|
+F The Menders' Stand|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Fly to The Mender's Stand.|FACTION|Alliance|
+F The Menders' Stand|QID|27683|M|46.6,64.6|Z|Western Plaguelands|N|Fly to The Mender's Stand.|FACTION|Horde|
 A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.|
 R Thondroril River|QID|27683|M|69.69,50.25|Z|Western Plaguelands|N|Run to Thondroril River, or fly if you have the flight point.|
 
@@ -105,16 +110,17 @@ l Villains of Darrowshire|QID|27387|L|12957|M|39.77,72.36|N|Pick up the "Shatter
 C Rough Roads|QID|27382|M|41.30,71.09|N|Kill any Plaguebats you need.|
 T Rough Roads|QID|27382|M|35.91,69.06|N|To Argus Highbeacon.|
 
-N Note:|QID|27448|N|New buff at the wagon. "Arugs' Journal", gives 2% more exp in Eastern Plaguelands.|
+N Note:|QID|27544|N|New buff at the wagon. "Arugs' Journal", gives 2% more exp in Eastern Plaguelands.|
 l Heroes of Darrowshire|QID|27388|L|12955|M|22.29,68.40|N|Pick up "Redpath's Shield".|
 C Heroes of Darrowshire|QID|27388|L|12954|M|22.29,68.40|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|
 T Cenarion Tenacity|QID|27544|M|30.22,56.99|N|At Rayne, she is in stealth as a cat.|
 A Postponing the Inevitable|QID|27420|M|30.22,56.99|N|From Rayne.|
 A Amidst Death, Life|QID|27421|M|30.22,56.99|N|From Rayne.|
-C Marauders of Darrowshire|QID|27389|S|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill Scourge Champions then use the crystal.|
-C Amidst Death, Life|QID|27421|U|61036|M|34.26,44.66;37.50,43.06;37.54,48.30|N|Need to be in the middle of the Necropoles.|
-C Postponing the Inevitable|QID|27420|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators.|
-C Marauders of Darrowshire|QID|27389|US|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill Scourge Champions then use the crystal.|
+C Marauders of Darrowshire|QID|27389|S|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|
+C Postponing the Inevitable|QID|27420|S|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|
+C Amidst Death, Life|QID|27421|U|61036|M|34.26,44.66;37.50,43.06;37.54,48.30|N|Head into the middle of the Necropoles and use Rayne's Seeds.|
+C Postponing the Inevitable|QID|27420|US|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|
+C Marauders of Darrowshire|QID|27389|US|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|
 T Postponing the Inevitable|QID|27420|M|30.17,56.93|N|To Rayne.|
 T Amidst Death, Life|QID|27421|M|30.17,56.93|N|To Rayne.|
 C Villains of Darrowshire|QID|27387|L|12956|M|37.32,60.24|N|Pick of the "Skull of Horgus".|
@@ -143,7 +149,7 @@ A Frederick's Fish Fancy|QID|27450|M|53.90,53.92|N|From Frederick Calston on top
 A Honor and Strength|QID|27449|M|52.73,51.47|N|From Vex'tul. Warning: Upon accepting you will be attacked by three mobs.|
 C Honor and Strength|QID|27449|M|52.73,51.46|
 T Honor and Strength|QID|27449|M|52.76,51.51|N|To Vex'tul.|
-N Note:|QID|27449|N|New buff at the caravan, "Vex'tul's Armbands". Grants chance to knock enemies back on attacks.|
+N Note:|QID|27450|N|New buff at the caravan, "Vex'tul's Armbands". Grants chance to knock enemies back on attacks.|
 
 C Frederick's Fish Fancy|QID|27450|M|49.91,62.25|N|Kill the attackable fish as they kill what you need.|
 R Corin's Crossing|QID|27452|M|52.51,64.65|N|Run to Corin's Crossing.|

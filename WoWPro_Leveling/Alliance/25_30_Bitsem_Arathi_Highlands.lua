@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2011-06-08 12:59
+-- Who: Crackerhead22
+-- Log: Removed unneeded zone tags, added missing notes, added missing cords.
+
+-- URL: http://wow-pro.com/node/3229/revisions/24296/view
 -- Date: 2011-04-29 14:29
 -- Who: Ludovicus Maior
 -- Log: Line 116 for step T has unknown tag [A Attack on the Tower]: [T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|A Attack on the Tower|QID|26038|PRE|26037|M|12.95,69.32|N|From Apprentice Kryten.|]
@@ -32,12 +37,12 @@
 WoWPro.Leveling:RegisterGuide('BitAra2025', 'Arathi Highlands', 'Bitsem', '25', '30', 'CraHin3035', 'Alliance', function()
 return [[
 
-T Into Arathi|QID|26139|O|M|39.92,48.73|Z|Arathi Highlands|N|To Captain Nials.|
-T Hero's Call: Arathi Highlands!|QID|28573|O|M|39.92,48.73|Z|Arathi Highlands|N|To Captain Nials.|
+T Into Arathi|QID|26139|O|M|39.92,48.73|N|To Captain Nials.|
+T Hero's Call: Arathi Highlands!|QID|28573|O|M|39.92,48.73|N|To Captain Nials.|
 
 A Northfold Manor|QID|26093|RANK|1|M|39.91,48.71|N|From Captain Nials.|
 A The Scarlet Monastery|QID|26982|RANK|1|M|39.91,48.71|N|From Captain Nials. If you wish to do Scarlet Monastery.|
-
+h Refuge Point|QID|26336|M|39.91,49.04|N|Set your home point at Vikki Lonsav.|
 f Refuge Point|QID|26093|NC|M|39.85,47.34|N|Get the flight point for Refuge Point from Cedrik Prose.|
 
 A Quae and Kinelory|QID|26113|RANK|1|M|39.99,48.17|N|From Commander Amaren.|
@@ -49,12 +54,12 @@ A Shakes O'Breen|QID|26336|RANK|1|M|40.34,49.03|N|From Skuerto.|
 A The Stone Shards|QID|26341|RANK|1|M|40.34,49.03|N|From Skuerto.|
 A Home Sweet Gnome|QID|26943|RANK|1|M|40.34,49.03|N|From Skuerto. If you wish to go to Gnomerigan.|
 
-A Wanted! Marez Cowl|QID|26024|RANK|1|M|40.24,49.06|N|From Skuerto.|
-A Wanted! Otto and Falconcrest|QID|26079|RANK|1|M|40.24,49.06|N|From Skuerto.|
+A Wanted! Marez Cowl|QID|26024|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
+A Wanted! Otto and Falconcrest|QID|26079|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
 
-C Northfold Manor|QID|26093|M|25.13,30.48|
-C Wanted! Otto and Falconcrest|QID|26079|M|19.64,66.62|
-C Wanted! Marez Cowl|QID|26024|M|22.41,66.05|
+C Northfold Manor|QID|26093|M|25.13,30.48|N|Kill 16 Syndicate Mercenaries. Syndicate Highwayman count as well.|
+C Wanted! Otto and Falconcrest|QID|26079|M|19.64,66.62|N|Go inside the keep and head up. Kill Otto and Lord Falconcrest, then loot their heads.|
+C Wanted! Marez Cowl|QID|26024|M|23.2,64.8;22.8,66|N|Head out of the keep and find Marez. She can be at either waypoint. Kill her and loot her head.|
 
 A Drowned Sorrows|QID|26055|M|27.75,83.17|N|From Captain Steelgut.|
 T Shakes O'Breen|QID|26336|M|26.03,83.93|N|To Shakes O'Breen.|
@@ -64,11 +69,11 @@ C Goggle Boggle|QID|26050|PRE|0|M|27.60,83.13|N|Escort him to the cave and fight
 T Goggle Boggle|QID|26050|M|27.60,83.13|N|To Doctor Draxlegauge.|
 
 A Sunken Treasure|QID|26051|PRE|26050|RANK|1|M|27.60,83.13|N|From Doctor Draxlegauge.|
-C Sunken Treasure|QID|26051|S|M|27.60,83.13|N|Equip the Goggles. Find gems while killing Daggerspine Raiders and Sorceresses.|
-C Drowned Sorrows|QID|26055|M|15.77,87.11|
-C Sunken Treasure|QID|26051|US|M|17.88,88.92|N|Finish collectihg Gems. Re-equip your other head gear.|
+C Sunken Treasure|QID|26051|S|M|27.60,83.13|N|Equip the Goggles. Find and loot gems, they will show up on your mini-map as Calcified Elven Gems.|U|4491|
+C Drowned Sorrows|QID|26055|M|15.77,87.11|N|Kill Daggerspine Raiders and Sorceress.|
+C Sunken Treasure|QID|26051|US|M|17.88,88.92|N|Finish collecting Gems.|
 
-T Drowned Sorrows|QID|26055|M|27.64,83.30|N|To Captain Steelgut.|
+T Drowned Sorrows|QID|26055|M|27.64,83.30|N|To Captain Steelgut. Re-equip your other head gear.|
 T Sunken Treasure|QID|26051|M|27.55,83.08|N|To Doctor Draxlegauge.|
 
 A Speak to Shakes|QID|26052|PRE|26051|RANK|1|M|27.55,83.08|N|From Doctor Draxlegauge.|
@@ -78,14 +83,14 @@ A Death From Below|QID|26628|RANK|1|M|26.05,83.84|N|From Shakes O'Breen.|
 C Death From Below|QID|26628|NC|M|25.75,83.16|N|Go up onto the ship and use the cannon to kill incoming naga.|
 T Death From Below|QID|26628|M|25.86,83.95|N|To Shakes O'Breen.|
 
-H Refuge Pointe|QID|26024|NC|N|Hearth or run back to Refuge Pointe.|
+H Refuge Pointe|QID|26024|NC|N|Hearth or run back to Refuge Pointe.|M|39.89,48.75|
 
+T Northfold Manor|QID|26093|M|39.89,48.75|N|To Captain Nials.|
+A Stromgarde Badges|QID|26095|PRE|26093|RANK|1|M|39.89,48.75|N|From Captain Nials.|
 T Wanted! Marez Cowl|QID|26024|M|39.89,48.75|N|To Captain Nials.|
 T Wanted! Otto and Falconcrest|QID|26079|M|39.89,48.75|N|To Captain Nials.|
-T Northfold Manor|QID|26093|M|39.89,48.75|N|To Captain Nials.|
 
-A Stromgarde Badges|QID|26095|PRE|26093|RANK|1|M|39.89,48.75|N|From Captain Nials.|
-C Stromgarde Badges|QID|26095|M|19.99,66.47|
+C Stromgarde Badges|QID|26095|M|19.99,66.47|N|Kill and loot Syndicate mobs until you have 7 Stromgarde Badges.|
 
 R Refuge Pointe|QID|26095|NC|M|39.97,48.83|N|Run or Hearth back to Refuge Pointe.|
 
@@ -113,7 +118,7 @@ T Worth Its Weight in Gold|QID|26035|M|40.27,49.05|N|To Skuerto.|
 A Wand over Fist|QID|26036|PRE|26035|RANK|1|M|40.27,49.05|N|From Skuerto.|
 T For Southshore|QID|26117|M|39.94,47.73|N|To Commander Amaren.|
 
-C Wand over Fist|QID|26036|M|47.94,79.38;49.03,83.69|N|In the back of the cave. Kill Kor'gresh.|
+C Wand over Fist|QID|26036|M|47.94,79.38;49.03,83.69|N|In the back of the cave. Kill and loot Kor'gresh.|
 T Wand over Fist|QID|26036|M|40.35,48.99|N|To Skuerto.|
 
 A Trelane's Defenses|QID|26037|PRE|26036|RANK|1|M|40.35,48.99|N|From Skuerto.|
@@ -127,31 +132,33 @@ H Refuge Pointe|QID|26038|NC|M|40.35,49.14|N|Hearth or Run to Refuge Pointe.|
 
 T Attack on the Tower|QID|26038|M|40.22,49.07|N|To Skuerto.|
 
-T The Stone Shards|QID|26341|M|57.03,34.61|
-A The Princess Trapped|QID|26039|PRE|26341|RANK|1|M|57.03,34.61|
-C The Princess Trapped|QID|26039|M|78.49,36.69|
-T The Princess Trapped|QID|26039|M|79.83,31.62|
+T The Stone Shards|QID|26341|M|57.03,34.61|N|To the Shards of Myzrael.|
+A The Princess Trapped|QID|26039|PRE|26341|RANK|1|M|57.03,34.61|N|From the Shards of Myzrael.|
+C The Princess Trapped|QID|26039|M|78.49,36.69|N|Head into the cave where the waypoint is. Kill and loot Kobolds until you have 12 Motes of Myzreal.|
+T The Princess Trapped|QID|26039|M|79.83,31.62|N|To the Iridescent Shards.|
 
-A Stones of Binding|QID|26041|PRE|26039|RANK|1|M|79.83,31.62|
-C Stones of Binding|QID|26041|M|61.73,30.38;46.56,52.11;18.93,31.00|N|Follow the arrow to activate the three stones.|
-T Stones of Binding|QID|26041|M|30.06,59.18|
+A Stones of Binding|QID|26041|PRE|26039|RANK|1|M|79.83,31.62|N|From the Iridescent Shards.|
+l Cresting Key|QID|26041|M|61.73,30.38|L|4484|N|Click on the Stone of East Binding to receive the Cresting Key.|
+l Thundering Key|QID|26041|M|46.56,52.11|L|4485|N|Click on the Stone of Outer Binding to receive the Thundering Key.|
+C Stones of Binding|QID|26041|M|18.93,31.00|N|Finally, click on the Stone of West Binding to recieve the Burning Key.||
+T Stones of Binding|QID|26041|M|30.06,59.18|N|To the Stone of Inner Binding.|
 
-A Breaking the Keystone|QID|26042|PRE|26346|RANK|1|M|30.06,59.18|
-C Breaking the Keystone|QID|26042|M|43.40,66.26|
-T Breaking the Keystone|QID|26042|M|30.11,59.74|
+A Breaking the Keystone|QID|26042|PRE|26346|RANK|1|M|30.06,59.18|N|From the Stone of Inner Binding.|
+C Breaking the Keystone|QID|26042|M|43.40,66.26|N|Kill and loot Fozruk.|
+T Breaking the Keystone|QID|26042|M|30.11,59.74|N|To the Keystone. When you turn this in, Thenan, a level 29 giant, spawns.|
 
-A Myzrael's Tale|QID|26346|PRE|26042|RANK|1|M|30.01,59.18|
+A Myzrael's Tale|QID|26346|PRE|26042|RANK|1|M|30.01,59.18|N|From the Stone of Inner Binding.|
 
-H Refuge Pointe|QID|26346|NC|N|Hearth or Run to Refuge Pointe.|
+H Refuge Pointe|QID|26346|NC|N|Hearth or Run to Refuge Pointe.|M|40.26,49.07|
 
 T Myzrael's Tale|QID|26346|M|40.26,49.07|N|To Skuerto.|
 A The Princess Unleashed|QID|26049|PRE|26049|RANK|1|M|40.26,49.07|N|From Skuerto.|
 C The Princess Unleashed|QID|26049|U|4472|M|57.56,34.99|N|Use the Scroll of Myzrael to summon her. Defeat her and loot. You may need another player to assist. She's a level 30 Elite.|
-T The Princess Unleashed|QID|26049|M|57.26,34.61|
+T The Princess Unleashed|QID|26049|M|57.26,34.61|N|To the Shard of Myzrael.|
 
 R Refuge Pointe|QID|26542|NC|M|39.97,48.83|N|Run or Hearth back to Refuge Pointe.|
 
-A Hero's Call: The Hinterlands!|QID|26542|RANK|1|M|40,48.8|N|If you're going to the Hinterlands. From Captain Nials.|
+A Hero's Call: The Hinterlands!|QID|26542|RANK|1|M|40,48.8|N|If you're going to the Hinterlands. From Captain Nials. Will not show up if your level is too high, if it, close this step.|
 ]]
 
 end)

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2011-06-12 21:34
+-- Who: Crackerhead22
+-- Log: Minor fixes.
+
+-- URL: http://wow-pro.com/node/3243/revisions/24418/view
 -- Date: 2011-05-25 02:26
 -- Who: Crackerhead22
 -- Log: Added notes, added cords, fixed cords, fixed notes, added 1 or 2 sticky steps. Added in Thousand Needles breadcrumb accept. Condensed code.
@@ -124,7 +129,7 @@ T The Darkmist Legacy|QID|25422|M|65.90,62.81|N|To Sensiria.|
 T Ancient Suffering|QID|25423|M|65.90,62.81|N|To Sensiria.|
 
 A Verinias the Twisted|QID|25368|M|65.90,62.81|N|From Sensiria.|
-C Verinias the Twisted|QID|25368|U|54456|M|64.33,56.02|N|Head to thw waypoint, use the Mournful Essence and kill Verinias the Twisted.|
+C Verinias the Twisted|QID|25368|U|54456|M|64.33,56.02|N|Head to the waypoint, use the Mournful Essence and kill Verinias the Twisted.|
 T Verinias the Twisted|QID|25368|M|65.90,62.79|N|To Sensiria.|
 A Return to Vestia|QID|26401|M|65.90,62.79|N|From the Empty Pedestal.|
 T Return to Vestia|QID|26401|M|57.19,54.90|N|To Vestia Moonspear.|
@@ -173,7 +178,7 @@ T It's Not "Ogre" Yet|QID|25432|M|77.19,56.52|N|To Adella.|
 A Sasquatch Sighting|QID|25433|M|77.19,56.52|N|From Adella.|
 A Taming The Tamers|QID|25434|M|77.19,56.52|N|From Adella.|
 R Woodpaw Den|QID|25427|M|68.11,53.70;67.22,52.02|N|Run up to Woodpaw Den.|
-C Alpha Strike|QID|25427|M|65.59,52.17|N|have fun killing Woodpaw Alphas here.|
+C Alpha Strike|QID|25427|M|65.59,52.17|N|Have fun killing Woodpaw Alphas here.|
 C Taming The Tamers|QID|25434|M|74.94,29.12|N|Kill 6 Gordunni Tamers.|S|
 C Sasquatch Sighting|QID|25433|M|74.79,28.41|N|Kill Bigfist.|
 C Taming The Tamers|QID|25434|M|74.94,29.12|N|Finish killing Gordunni Tamers.|US|
@@ -184,7 +189,7 @@ T Taming The Tamers|QID|25434|M|77.22,56.57|N|To Adella.|
 A Zukk'ash Infestation|QID|25429|M|77.22,56.57|N|From Adella.|
 A Stinglasher|QID|25431|M|77.22,56.57|N|From Adella.|
 C Zukk'ash Infestation|QID|25429|S|M|76.54,62.08|N|Kill and loot the bugs.|
-C Stinglasher|QID|25431|M|78.32,62.74;73.47,63.52|N|Kill Stinglasher. It wanders between the two hives.|
+C Stinglasher|QID|25431|M|78.32,62.74;73.47,63.52|N|Kill Stinglasher. It wanders between, and inside, the two hives. So look for the skull icon on your minimap.|T|Stinglasher|
 C Zukk'ash Infestation|QID|25429|US|M|74.68,63.05|N|Kill and loot the bugs.|
 T Stinglasher|QID|25431|M|77.18,56.50|N|To Adella.|
 T Zukk'ash Infestation|QID|25429|M|77.18,56.50|N|To Adella.|
@@ -197,7 +202,7 @@ A Ysondre's Call|QID|25437|M|77.23,56.51|N|From Adella.|
 R The Emerald Summit|QID|25437|M|80.25,42.81|N|Run to the Emerald Summit.|
 T Ysondre's Call|QID|25437|M|81.53,42.37|N|To Ysondre at the top of the Emerald Summit.|
 A Taerar's Fall|QID|25379|M|81.53,42.37|N|From Ysondre.|
-C Taerar's Fall|QID|25379|M|81.48,42.46|N|
+C Taerar's Fall|QID|25379|M|81.48,42.46|N|Help Ysondre kill Taerar.|
 T Taerar's Fall|QID|25379|M|81.50,42.47|N|To Ysondre.|
 A Ysondre's Farewell|QID|25438|M|81.50,42.47|N|From Ysondre.|
 T Ysondre's Farewell|QID|25438|M|77.19,56.54|N|To Adella.|

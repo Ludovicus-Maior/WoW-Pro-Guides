@@ -1,4 +1,24 @@
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2011-06-12 13:03
+-- Who: Crackerhead22
+-- Log: Added sticky step for "Is Your Oil Running" via a suggestion by Skully0815.
+
+-- URL: http://wow-pro.com/node/3258/revisions/24543/view
+-- Date: 2011-06-11 17:37
+-- Who: Crackerhead22
+-- Log: Added more changes suggested by Skully0815. Added note on "The Demon Prince" accept step about either logging out and back in, or re-zoning.
+
+-- URL: http://wow-pro.com/node/3258/revisions/24540/view
+-- Date: 2011-06-10 19:48
+-- Who: Crackerhead22
+-- Log: Removed [b][color=red]No guide yet written.[/color][/b] from the page.
+
+-- URL: http://wow-pro.com/node/3258/revisions/24539/view
+-- Date: 2011-06-10 19:47
+-- Who: Crackerhead22
+-- Log: Fixed issues mentioned by Skully815. Fixed order of quests so certain quests will show.
+
+-- URL: http://wow-pro.com/node/3258/revisions/23398/view
 -- Date: 2010-12-03 11:46
 -- Who: Jiyambi
 
@@ -55,42 +75,46 @@ T Fight the Power|QID|28102|M|42.03,71.83|N|To Eridan Bluewind.|
 C Open Their Eyes|QID|28288|U|63395|M|42.37,79.33|N|Use the crustal to terrify the imps. You can agro a bunch and gather them up, then use the crystal to get a lot at once. They flee and stop attacking the moment you use it.|
 T Open Their Eyes|QID|28288|M|41.92,71.98|N|To Arcanist Delaris, back at the Ruins of Constellas.|
 R Wildheart Point|QID|28116|M|44.29,61.92|N|Follow the road north.|
-T Jaedenar Awaits|QID|28152|M|44.00,61.83|N|To Greta Mosshoof.|
-A Crying Violet|QID|28116|M|44.00,61.83|N|From Greta Mosshoof.|
-f Wildheart Point|QID|28116|M|44.29,61.92|N|At Chyella Hushglade.|
-h Wildheart Point|QID|28116|M|43.97,61.95|N|At Innkeeper Teenycaugh.|
-C Crying Violet|QID|28116|M|46.01,69.50|
-T Crying Violet|QID|28116|M|44.02,61.85|N|To Greta Mosshoof, back at Wildheart Point.|
-A Purity From Corruption|QID|28119|PRE|28116|M|44.02,61.85|N|From Greta Mosshoof.|
-A The Demon Prince|QID|28129|PRE|28116|M|44.07,61.84|N|From Farlus Wildheart.|
-A Forces of Jaedenar|QID|28121|PRE|28116|M|44.06,61.95|N|From Jessir Moonbow.|
-C Forces of Jaedenar|QID|28121|S|M|35.83,60.23|N|Kill the humanoids and fel hounds in the area.|
-C Purity From Corruption|QID|28119|U|12922|M|35.93,59.29|N|Use the canteen at the corrupted moonwell.|
-T Purity From Corruption|QID|28119|N|The turn-in should pop up automatically.|
-A Dousing the Flames of Protection|QID|28126|N|The quest should pop up automatically.|
-C Forces of Jaedenar|QID|28121|US|M|35.83,60.23|N|Kill the humanoids and fel hounds in the area.|
-T Forces of Jaedenar|QID|28121|N|The turn-in should pop up automatically.|
-A The Inner Circle|QID|28128|M|36.09,60.28|N|The quest should pop up automatically.|
-C The Inner Circle|QID|28128|S|M|38.59,46.49|N|Kill humanoids and demons as you go.|
-C The Demon Prince|QID|28129|M|36.12,57.94;36.90,55.31|N|Prince Xavalis can be found in the first large chamber of Shadow Hold.|
-T The Demon Prince|QID|28129|M|36.90,55.31|N|The turn-in should pop up automatically.|
-A Twin Temptresses|QID|28131|M|36.90,55.31|N|The quest should pop up automatically.|
-C Douse the Brazier of Pain|QID|28126|NC|U|12906|QO|Extinguish the Brazier of Pain: 1/1|M|36.35,55.53|N|The first brazier is in the same room with Prince Xavalis. Right-click it to douse it.|
-C Douse the Brazier of Hatred|QID|28126|NC|U|12906|QO|Extinguish the Brazier of Hatred: 1/1|M|37.19,54.84|N|The second brazier is in the same room, up the ramp. Right-click to douse.|
-C Douse the Brazier of Suffering|QID|28126|NC|U|12906|QO|Extinguish the Brazier of Suffering: 1/1|M|37.40,53.09|N|The third brazier is a bit farther into the cave, past the room with the hole and all the candles and the room below it.|
-C Douse the Brazier of Malice|QID|28126|NC|U|12906|QO|Extinguish the Brazier of Malice: 1/1|M|38.30,52.52|N|The fourth brazier is in the same room as the third.|
-C Twin Temptresses|QID|28131|M|38.90,50.38|N|Continue through the water in this room to the next, where you'll find the two demonesses you need to kill.|
-T Twin Temptresses|QID|28131|M|39.49,46.96|N|The turn-in should pop up automatically.|
-A Shadow Lord Fel'dan|QID|28153|M|38.41,47.82|N|The quest should pop up automatically.|
-C Shadow Lord Fel'dan|QID|28153|M|38.35,46.39|N|Continue following the tunnels down to the next large room, where the Shadow Lord can be found.|
-T Shadow Lord Fel'dan|QID|28153|M|44.02,61.87|N|The turn-in should pop up automatically.|
-A Lord Banehollow|QID|28155|N|The quest should pop up automatically.|
-C Lord Banehollow|QID|28155|M|38.59,46.49|N|Keep following the tunnel and path until you reach the dreadlord.|
-C The Inner Circle|QID|28128|US|N|Kill humanoids and demons as you go.|
-R Wildheart Point|QID|28126|M|38.59,46.49|N|Take the portal back across the bridge to get back to Wildheart Point quickly.|
-T Dousing the Flames of Protection|QID|28126|N|To Greta Mosshoof.|
-T The Inner Circle|QID|28128|M|44.12,61.96|N|To Jessir Moonbow.|
-T Lord Banehollow|QID|28155|M|44.11,61.84|N|To Farlus Wildheart.|
+
+f Wildheart Point|QID|28152|M|44.29,61.89|N|At Chyella Hushglade.|
+h Wildheart Point|QID|28152|M|43.98,61.94|N|At Innkeeper Teenycaugh.|
+T Jaedenar Awaits|QID|28152|M|43.96,61.90|N|To Greta Mosshoof.|
+A Crying Violet|QID|28116|M|43.96,61.90|N|From Greta Mosshoof.|
+A Forces of Jaedenar|QID|28121|M|44.09,61.93|N|From Jessir Moonbow.|
+C Forces of Jaedenar|QID|28121|M|37,57|N|Kill Jaedenar Forces.|S|
+C Crying Violet|QID|28116|M|41.50,57.37|N|Can be hard to see, just keep your eyes open for sparkles. Herbalists, check your minimap.|
+C Forces of Jaedenar|QID|28121|M|37,57|N|Kill Jaedenar Forces.|US|
+T Crying Violet|QID|28116|M|36.35,58.25|N|To Andalar Shadevale.|
+T Forces of Jaedenar|QID|28121|M|36.35,58.25|N|To Andalar Shadevale.|
+A Purity From Corruption|QID|28119|M|36.35,58.25|N|From Andalar Shadevale.|
+C Purity From Corruption|QID|28119|M|35.93,59.52|N|Fill up at the moonwell.|
+T Purity From Corruption|QID|28119|M|36.35,58.25|N|To Andalar Shadevale.|
+
+A The Inner Circle|QID|28128|M|36.35,58.25|N|From Andalar Shadevale.|
+A The Demon Prince|QID|28129|M|36.35,58.25|N|From Andalar Shadevale. You may have to log out then back in, or leave Felwood and zone back in before this will show (Phasing Issue I believe).|
+A Dousing the Flames of Protection|QID|28126|M|36.35,58.25|N|From Andalar Shadevale.|
+C The Inner Circle|QID|28128|M|38.60,45.80|S|N|Kill Shadow Hold mobs.|
+C The Demon Prince|QID|28129|M|36.70,55.75|N|Kill Prince Xavalis.|
+T The Demon Prince|QID|28129|M|36.70,55.74|N|(UI Alert)|
+A Twin Temptresses|QID|28131|M|36.70,55.74|N|(UI Alert)|
+N Extinguish the Brazier of Pain|QID|28126|QO|Extinguish the Brazier of Pain: 1/1|M|36.96,55.89|N|First Brazier is here, click on it to put it out.|
+N Extinguish the Brazier of Hatred|QID|28126|QO|Extinguish the Brazier of Hatred: 1/1|M|37.28,54.92|N|Second Brazier is here, click on it to put it out.|
+N Extinguish the Brazier of Suffering|QID|28126|QO|Extinguish the Brazier of Suffering: 1/1|M|37.38,53.16|N|This is on the level below the 2nd brazier. Third Brazier is here, click on it to put it out.|
+C Dousing the Flames of Protection|QID|28126|M|38.21,52.54|N|Extinguish the last brazier.|
+C Twin Temptresses|QID|28131|M|38.33,50.86|N|Kill Moora and Salia.|
+T Twin Temptresses|QID|28131|M|38.63,50.57|N|(UI Alert)|
+
+A Shadow Lord Fel'dan|QID|28153|M|38.63,50.57|N|(UI Alert)|
+C Shadow Lord Fel'dan|QID|28153|M|39.96,47.12|N|Time to kill Shadow Lord Fel'dan.|
+T Shadow Lord Fel'dan|QID|28153|M|39.81,47.10|N|(UI Alert)|
+A Lord Banehollow|QID|28155|M|39.81,47.10|N|(UI Alert)|
+C Lord Banehollow|QID|28155|M|38.4,47.89|N|Head behind where you kill Fel'dan, then go up and around to Lord Banehollow and kill him.|
+C The Inner Circle|QID|28128|M|38.60,45.80|US|N|Kill Shadow Hold mobs.|
+R Wildheart Point|QID|28128|N|If finished with all quests for here you should now click the pinkish portal.|M|38.1,47.88|
+T The Inner Circle|QID|28128|M|44.11,62.00|N|To Jessir Moonbow.|
+T Dousing the Flames of Protection|QID|28126|M|43.99,61.87|N|To Greta Mosshoof.|
+T Lord Banehollow|QID|28155|M|44.09,61.82|N|To Farlus Wildheart.|
+
 A The Fate of Bloodvenom Post|QID|28305|PRE|28155|M|44.11,61.84|N|From Farlus Wildheart.|
 T The Fate of Bloodvenom Post|QID|28305|M|41.30,49.93|N|To Kelnir Leafsong. Follow the road north to reach her.|
 A A Slimy Situation|QID|28207|M|41.30,49.93|N|From Kelnir Leafsong.|
@@ -147,10 +171,11 @@ U Fill Vial|QID|28229|U|63332|M|44.05,28.42|N|Fill the empty vial in the moonwel
 C Nature and Nurture|QID|28229|U|63387|M|48.68,25.17|N|Use the moonwell water on the hill in the Irontree Woods.|
 T Nature and Nurture|QID|28229|M|48.68,25.17|N|The turn-in should pop up automatically.|
 A Seeking Soil|QID|28220|PRE|28229|M|48.68,25.17|N|The quest should pop up automatically.|
-C Seeking Soil|QID|28220|M|48.33,29.19|N|Bring the seedling to patches of soil - they can be found to the south.|
-T Seeking Soil|QID|28220|N|To the Seedling Protector.|
-A Buzzers for Baby|QID|28219|PRE|28220|N|From Seedling Protector.|
+A Buzzers for Baby|QID|28219|N|From Seedling Protector.|
+C Seeking Soil|QID|28220|M|48.33,29.19|N|Bring the seedling to patches of soil - they can be found to the south.|S|
 C Buzzers for Baby|QID|28219|M|50.51,31.50|N|Kill wasps and bring the seedling near their corpses. The wasps can be found all over the southern Irontree Woods.|
+C Seeking Soil|QID|28220|M|48.33,29.19|N|Bring the seedling to patches of soil - they can be found to the south.|US|
+T Seeking Soil|QID|28220|N|To the Seedling Protector.|
 T Buzzers for Baby|QID|28219|N|The turn-in shoud pop up automatically.|
 A Singin' in the Sun|QID|28222|PRE|28219|N|The quest shoud pop up automatically.|
 C Singin' in the Sun|QID|28222|M|51.21,20.28|N|You'll find shafts of sunlight in the northern part of Irontree Woods. Bring the sapling to them.|
@@ -200,8 +225,9 @@ T Take it to the Tree|QID|28357|M|56.31,8.19|N|To Darla Drilldozer.|
 T Wisp-napping|QID|28370|M|56.31,8.19|N|To Darla Drilldozer.|
 A Slap and Cap|QID|28336|PRE|28357;28370|M|56.31,8.19|N|From Darla Drilldozer.|
 A Is Your Oil Running?|QID|28339|PRE|28357;28370|M|56.31,8.19|N|From Darla Drilldozer.|
+C Is Your Oil Running?|QID|28339|M|51.60,17.33|N|Kill and loot the oil slimes.|S|
 C Slap and Cap|QID|28336|NC|M|53.56,14.33|N|Right-click panicking goblins to bring them to their senses.|
-C Is Your Oil Running?|QID|28339|M|51.60,17.33|N|Kill and loot the oil slimes.|
+C Is Your Oil Running?|QID|28339|M|51.60,17.33|N|Kill and loot the oil slimes.|US|
 T Slap and Cap|QID|28336|M|56.33,8.24|N|To Darla Drilldozer.|
 T Is Your Oil Running?|QID|28339|M|56.33,8.24|N|To Darla Drilldozer.|
 A Pikwik in Peril|QID|28380|PRE|28336;28339|M|56.33,8.24|N|From Darla Drilldozer.|
