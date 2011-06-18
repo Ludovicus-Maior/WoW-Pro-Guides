@@ -193,7 +193,7 @@ l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
 C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|
 C Clefthoof Mastery (part 3)|N|Make sure you have a group if needed for this quest and then kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
-K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
+K Gava'xi|T|Gava'xi|N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
 C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this area and kill the Minions until you finish this quest.|QID|9849|M|38.00,82.00|U|24501|
 T The Twin Clefts of Nagrand|QID|9922|M|54.5,72.2|N|To Mo'mor the Breaker.|
 A Diplomatic Measures |QID|10108|M|54.5,72.2|N|From Mo'mor the Breaker.|
