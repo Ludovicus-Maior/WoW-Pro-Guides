@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 import sys
-
+import pickle
 
 def Parse(line,linec,Frags):
+    global GrailQuests
     step={}
     first=Frags.pop(0)
     # First Frag should be of the form '. .*'
@@ -38,7 +39,7 @@ def Parse(line,linec,Frags):
                 return None
             step['QID']=QID
             continue
-        if(TAG == "PRE"):
+        if(TAG == "QID" or TAG == "PRE"):
             qids=Frags.pop(0).split(';')
             for qid in qids:
                 if(not qid.isdigit()):
@@ -47,7 +48,10 @@ def Parse(line,linec,Frags):
                 QID=str(int(qid))
                 if( QID != qid):
                     print "! Line %d for step %c malformed %s: [%s]" % (linec,STEP,TAG,line)
-                    return None 
+                    return None
+                if not int(qid) in GrailQuests:
+                    print "! Line %d for step %c unknown QID %d in %s: [%s]" % (linec,STEP,qid,TAG,line)
+                    return None
             step[TAG]=qids
             continue
         if(TAG == "M"):
@@ -64,7 +68,8 @@ def Parse(line,linec,Frags):
                         x = -1
                     if( x < 0 or x > 100):
                         print "! Line %d for step %c Bad coord %s: [%s]" % (linec,STEP,xx,line)
-                        return None   
+                        return None
+                   
             step['M']=coords
             continue
         if(TAG == "N" or TAG == "Z" or TAG == "C" or TAG == "QO" or TAG == "REP" or TAG == "R" or TAG == "P" or TAG == "T" or TAG == "GEN" or TAG == "FACTION" ):
@@ -123,6 +128,13 @@ def Cleanse(lua):
             
 
 if __name__ == "__main__":
+    # Load the Grail DB for cross checks
+    global GrailQuests
+    global GrailNpcs
+    file=open("Beacon.pickle","rb")
+    GrailQuests=pickle.load(file)
+    GrailNpcs=pickle.load(file)
+    file.close()
     for arg in sys.argv[1:]:
         Cleanse(arg)
 
