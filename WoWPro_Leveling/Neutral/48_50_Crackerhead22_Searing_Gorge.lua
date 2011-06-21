@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_alliance
+-- Date: 2011-06-18 17:27
+-- Who: Ludovicus Maior
+-- Log: ! Line 66, for step T non-decimal QID: [T A New Master... But Who?|QID||M|68.52,53.49|N|To Jack Rockleg.|]
+
+-- URL: http://wow-pro.com/node/3255/revisions/24555/view
 -- Date: 2011-06-14 22:14
 -- Who: Fluclo
 -- Log: Moved the Incendisaur and Bullet stickies further down as they are still collectable whilst doing on the following tower quests.
@@ -63,7 +68,7 @@ C Lunk's Task|QID|27956|M|62.98,64.43|N|Kill Tempered War Golems to get "Tempere
 C A New Master... But Who?|QID|27963|M|63.75,59.21|N|Look for Gravius Grimesilt, kill him then loot his corpse.|
 C The Fewer, the Better|QID|27960|US|M|61.90,59.92|N|Kill Dark Iron Geologists or Watchmen.|
 C Lunk's Task|QID|27956|M|62.98,64.43|N|Finish getting the rest of the "Tempered Flywheel"s that you need.|US|
-T A New Master... But Who?|QID||M|68.52,53.49|N|To Jack Rockleg.|
+T A New Master... But Who?|QID|27963|M|68.52,53.49|N|To Jack Rockleg.|
 
 A Dig-Boss Dinwhisker|QID|27964|M|68.52,53.49|N|From Jack Rockleg.|
 T The Fewer, the Better|QID|27960|M|68.52,53.49|N|To Burrian Coalpart.|

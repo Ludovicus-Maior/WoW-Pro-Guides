@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2011-06-18 17:24
+-- Who: Ludovicus Maior
+-- Log: ! Line 193 for step R has unknown tag [Talk to Jaina to be ported to Stormwind.]: [R Stormwind City|QID|27240|M|66.26,49.05|Talk to Jaina to be ported to Stormwind.|]
+--	! Line 281 for step C has unknown tag [.]: [C Bloodfen Feathers|QID|27407|S|M|34.88,67.93|N|Kill and loot raptors until you get 5 Bloodfen Feathers.|.|]
+
+-- URL: http://wow-pro.com/node/3241/revisions/24553/view
 -- Date: 2011-06-14 00:15
 -- Who: Crackerhead22
 -- Log: Added in missing quest steps for, "Proof of Treachery" as well as the steps for the follow up quest, "Return to Jaina".
@@ -190,7 +196,7 @@ A The Black Shield|QID|27285|M|64.74,50.39|N|From Caz Twosprocket.|
 C Survey Alcaz Island|QID|27239|NC|M|67.37,51.07|N|Tell Cassa Crimsonwing you are ready. Enjoy the ride and enjoy our thanks. Thanks for using Wow-Pro|
 T Survey Alcaz Island|QID|27239|M|66.26,49.04|N|To Lady Jaina Proudmoore.|
 A Proof of Treachery|QID|27240|M|66.27,49.05|N|From Lady Jaina Proudmoore. Wait a few seconds and this quest will appear.|
-R Stormwind City|QID|27240|M|66.26,49.05|Talk to Jaina to be ported to Stormwind.|
+R Stormwind City|QID|27240|M|66.26,49.05|N|Talk to Jaina to be ported to Stormwind.|
 T Proof of Treachery|QID|27240|M|85.78,31.72|Z|Stormwind City|N|To King Varian Wyrnn.|
 A Return to Jaina|QID|27241|M|85.78,31.72|Z|Stormwind City|N|To King Varian Wyrnn.|
 R Theramore Isle|QID|27241|M|50.51,87.47|Z|Stormwind City|N|Head to the Mage Quarter and talk to Archmage Malin to get back to Theramore Isle.|
@@ -278,7 +284,7 @@ A Bloodfen Feathers|QID|27407|M|41.87,73.91|N|From Brogg.|
 A WANTED: Goreclaw the Ravenous|QID|27412|M|41.75,73.04|N|From the Wanted Poster.|
 A Catch a Dragon by the Tail|QID|27413|M|41.60,72.97|N|From Gizzix Grimegurgle.|
 r Get repaired and sell some junk.|QID|27407|M|42.51,73.40|N|At Razbo Rustgear.|
-C Bloodfen Feathers|QID|27407|S|M|34.88,67.93|N|Kill and loot raptors until you get 5 Bloodfen Feathers.|.|
+C Bloodfen Feathers|QID|27407|S|M|34.88,67.93|N|Kill and loot raptors until you get 5 Bloodfen Feathers.|
 C WANTED: Goreclaw the Ravenous|QID|27412|M|32.40,65.46|N|Kill Goreclaw the Ravenous.|
 C Bloodfen Feathers|QID|27407|US|M|33.63,65.43|N|Finish gathering Bloodfen Feathers.|
 T Bloodfen Feathers|QID|27407|M|41.86,73.97|N|To Brogg.|

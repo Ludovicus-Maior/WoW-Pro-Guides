@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2011-06-20 01:35
+-- Who: Crackerhead22
+-- Log: Fixed PRE QID of !Line 41 for step A unknown QID 38713 in PRE: [A Fel Moss Corruption|QID|28714|PRE|38713|M|58.01,39.29|N|From Ilthalaine.|]
+
+-- URL: http://wow-pro.com/node/3204/revisions/24516/view
 -- Date: 2011-06-07 23:04
 -- Who: Ludovicus Maior
 -- Log: ! Line 247, for step l non-decimal QID: [l Moss-Twined Heart|QID||M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|]
@@ -48,7 +53,7 @@ C The Balance of Nature|QID|28713|M|58.23,40.16|N|Kill Young Nightsabers.|
 L Level 2|QID|28713|LVL|2|N|You should be around level 2 by this point.|
 
 T The Balance of Nature|QID|28713|M|58.01,39.29|N|To Ilthalaine.|
-A Fel Moss Corruption|QID|28714|PRE|38713|M|58.01,39.29|N|From Ilthalaine.|
+A Fel Moss Corruption|QID|28714|PRE|28713|M|58.01,39.29|N|From Ilthalaine.|
 A Demonic Thieves|QID|28715|PRE|28734|M|58.04,38.85|N|From Melithar Staghelm.|
 
 C Fel Moss Corruption|QID|28714|S|M|55.68,40.12|N|Kill and loot Grells.|

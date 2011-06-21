@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_horde
+-- Date: 2011-06-21 01:41
+-- Who: ikiboun
+-- Log: updated some coords
+
+-- URL: http://wow-pro.com/node/3284/revisions/24351/view
 -- Date: 2011-04-29 17:17
 -- Who: Ludovicus Maior
 -- Log: Line 128 for step C has unknown tag [Loot the Bn'aar Access Crystal ...]
@@ -40,7 +45,7 @@ A Manaforge B'naar|QID|10189|M|31.98,64.09|N|From Spymaster Thalodien.|REP|Scrye
 A Wanted: Annihilator Servo!|QID|10261|M|32.12,64.63|N|From the Wanted Poster.|
 A Breaking Down Netherock|QID|10701|M|32.12,64.63|N|From the Wanted Poster.|
 A Consortium Crystal Collection|QID|10265|M|32.45,64.29|N|From Nether-Stalker Khay'ji.|
-A You're Hired!|QID|10186|M|32.62,64.40|N|From Rocket-Chief Fuselage.|
+A You're Hired!|QID|10186|M|32.72,64.92|N|From Rocket-Chief Fuselage.|
 A Securing the Shaleskin Shale|QID|10342|M|32.32,63.87|N|From Boots.|
 
 A The Archmage's Staff|QID|10173|M|31.42,66.09|N|From Ravandwyr.|

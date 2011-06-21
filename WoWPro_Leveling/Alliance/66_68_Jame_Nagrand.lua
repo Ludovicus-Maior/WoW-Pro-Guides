@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2011-06-20 23:03
+-- Who: ikiboun
+-- Log: edit note and modified coord for Zorbo location
+
+-- URL: http://wow-pro.com/node/3279/revisions/24559/view
+-- Date: 2011-06-19 02:20
+-- Who: Crackerhead22
+-- Log: Cord fixed for the turn-in for "Crackin' Some Skulls" and the accept for "It's Just That Easy?"
+
+-- URL: http://wow-pro.com/node/3279/revisions/24307/view
 -- Date: 2011-04-29 14:56
 -- Who: Ludovicus Maior
 -- Log: Line 133 for step N has too short a title, Line 174 for step N has too short a title, Line 239 for step A has unknown tag [From Corki.], Line 305 for step C has 1 M coords.
@@ -227,7 +237,7 @@ T Muck Diving |QID|9815|M|60.5,22.4|N|To Ementalist Lo'ap.|
 T Murkblood Corrupters |QID|9862|M|60.5,22.4|N|To Ementalist Morgh.|
 
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest.|QID|9931|M|50.00,22.00|U|25555|S|
-C Wanted: Zorbo the Advisor|N|Kill mobs in the area.|QID|9940|M|46.00,23.00|S|QO|Warmaul Shaman Slain: 5/5;Warmaul Reaver slain: 5/5|
+C Wanted: Zorbo the Advisor|N|Kill Zorbo in this cave.|QID|9940|M|46.11,19.00|S|QO|Warmaul Shaman Slain: 5/5;Warmaul Reaver slain: 5/5|
 C Body of Evidence |N|Use the Damp Woolen Blanket here and defend the NPCs.|QID|9932|M|46.45,24.35|
 K Zorbo the Advisor|N|Kill Zorbo inside the cave.|QID|9940|M|46.22,18.83|QO|Zorbo the Advisor slain: 1/1|
 C Wanted: Zorbo the Advisor|N|Kill mobs in the area.|QID|9940|M|46.00,23.00|US|
@@ -293,8 +303,8 @@ A Crackin' Some Skulls|QID|10009|M|77.23,34.70|Z|Shattrath City|N|From Sal'salab
 l Raliq's Debt|QID|10009|QO|Raliq's Debt: 1/1|M|75.02,31.46|Z|Shattrath City|N|Talk to Raliq the Drunk, kill then loot him for his debt.|
 l Coosh'coosh's Debt|QID|10009|QO|Coosh'coosh's Debt: 1/1|M|80.89,91.22|Z|Zangarmarsh|N|Talk to Coosh'coosh, kill then loot him for his debt.|
 C Crackin' Some Skulls|QID|10009|M|27.13,57.87|Z|Terokkar Forest|N|Talk to Floon, kill then loot him for his debt.|
-T Crackin' Some Skulls|QID|10009|M|45.06,65.25|Z|Shattrath City|N|To Sal'salabim.|
-A It's Just That Easy?|QID|10010|M|45.06,65.24|Z|Shattrath City|N|From Sal'salabim.|
+T Crackin' Some Skulls|QID|10009|M|77.23,34.70|Z|Shattrath City|N|To Sal'salabim.|
+A It's Just That Easy?|QID|10010|M|77.23,34.70|Z|Shattrath City|N|From Sal'salabim.|
 T It's Just That Easy?|QID|10010|M|27.34,43.06|N|To Altruis the Sufferer.|
 A Forge Camp: Annihilated|QID|10011|M|27.34,43.06|N|From Altruis the Sufferer.|
 l Fel Cannon Activator|QID|10011|M|24.94,36.19|N|Kill, then loot Demos, Overseer of Hate to get the Fel Cannon Activator.|L|25770|

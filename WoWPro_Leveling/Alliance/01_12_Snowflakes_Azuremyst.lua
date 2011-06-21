@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2011-06-20 01:37
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3206/revisions/24562/view
+-- Date: 2011-06-20 01:36
+-- Who: Crackerhead22
+-- Log: Fixed QID for "Your First Lesson"
+
+-- URL: http://wow-pro.com/node/3206/revisions/24492/view
 -- Date: 2011-06-02 12:02
 -- Who: Crackerhead22
 -- Log: Added bunch of notes, added a couple of sticky steps, fixed some cords, added a couple cords.
@@ -88,9 +97,9 @@ N Paladin Training|QID|9287|C|Paladin|N|Get your new skills at the trainer.|R|Dr
 N Warrior Training|QID|9289|C|Warrior|N|Get your new skills at the trainer.|R|Draenei|M|79.3,49.1|
 N Mage Training|QID|9290|C|Mage|N|Get your new skills at the trainer.|R|Draenei|M|79.3,49.1|
 
-A Your First Lesson|QID|27091|M|79.61,49.42|R|Draenei|C|Warrior|N|From Kore.|
-C Your First Lesson|QID|27091|M|80.08,45.77||R|Draenei|C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
-T Your First Lesson|QID|27091|M|79.61,49.42|R|Draenei|C|Warrior|N|To Kore.|
+A Your First Lesson|QID|26958|M|79.61,49.42|R|Draenei|C|Warrior|N|From Kore.|
+C Your First Lesson|QID|26958|M|80.08,45.77||R|Draenei|C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
+T Your First Lesson|QID|26958|M|79.61,49.42|R|Draenei|C|Warrior|N|To Kore.|
 A Arcane Missiles|QID|10068|R|Draenei|M|79.6,48.8|C|Mage|N|From Valaatu.|
 C Arcane Missiles|QID|10068|R|Draenei|M|80.08,45.77|C|Mage|N|Learn Arcane Missiles from Valaatu. Find a Training Dummy on the northwest side of the Crash Site and practice using Arcane Missiles 2 times. |
 T Arcane Missiles|QID|10068|R|Draenei|M|79.6,48.8|C|Mage|N|To Valaatu.|

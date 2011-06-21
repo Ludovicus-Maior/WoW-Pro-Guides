@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2011-06-20 02:54
+-- Who: Crackerhead22
+-- Log: Removed PRE tags for "Devout Assembly", "Her Lady's Hand".
+
+-- URL: http://wow-pro.com/node/3305/revisions/24532/view
 -- Date: 2011-06-08 03:23
 -- Who: Ludovicus Maior
 -- Log: Correct Successor.
@@ -579,8 +584,8 @@ A Welcome News|QID|25911|PRE|25898|RANK|1|M|56.6,80.4|Z|Shimmering Expanse|N|Fro
 T Welcome News|QID|25911|M|46.49,57.45;49.2,57|Z|Shimmering Expanse|N|To Captain Taylor.|
 A Visions of the Past: Rise From The Deep|QID|25626|PRE|25911|M|49.43,57.53|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
 U Visions of the Past: Rise From The Deep|QID|25626|M|33.1,77.8|U|55171|Z|Shimmering Expanse|N|Swim to the Quel'Dormir Temple, on the top terrace of the Ruins of Vashj'ir. In the center of the temple, you will find the Crucible. Swim up to a ledge just behind to find the point where you can enter the vision.|
-A Devout Assembly|QID|25896|PRE|26626|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
-A Her Lady's Hand|QID|25629|PRE|26626|M|33.1,75.9|Z|Shimmering Expanse|N|From Lady Naz'jar.|
+A Devout Assembly|QID|25896|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
+A Her Lady's Hand|QID|25629|M|33.1,75.9|Z|Shimmering Expanse|N|From Lady Naz'jar.|
 C Her Lady's Hand|QID|25629|S|N|Kill any of the Kvaldir fighting the Naz'jar Honor Guards. When the guards are out of combat, you will automatically send them back to the temple.|
 C Sira'kess Tide Priestesses|QID|25896|QO|Sira'kess Tide Priestesses gathered: 6/6|M|32.48,65.76;33.67,65.85;33.53,66.44;34.74,75.69;34.64,78.72|S|N|Talk to Sira'kess Tide Priestesses to send them back to the temple.|Z|Shimmering Expanse|
 C Devout Assembly|QID|25896|QO|Fathom-Caller Azrajar gathered: 1/1|M|33.1,61.2|Z|Shimmering Expanse|N|While heading to Fathom-Caller Azrajar send Sira'kess Tide Priestesses back to the temple. Speak to Fathom-Caller Azrajar to send him back as well.|
