@@ -1,4 +1,11 @@
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2011-06-22 02:13
+-- Who: Ludovicus Maior
+-- Log: # Checking ../WoWPro_Leveling/Alliance/68_70_Jame_Blades_Edge_Mountains.lua
+--	! Line 258 for step C has unknown tag [M32.66,37.52U]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
+--	! Line 258 for step C has unknown tag [31122]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
+
+-- URL: http://wow-pro.com/node/3281/revisions/24574/view
 -- Date: 2011-06-21 20:31
 -- Who: Crackerhead22
 -- Log: Minor Fixes.
@@ -255,7 +262,7 @@ A The Truth Unorbed |N|Right-click the orb to start this quest.|QID|10825|M|40.2
 C Whelps of the Wyrmcult |N|Capture the Blackwhelps for this quest by using the Blackwhelp Net.|QID|10747|M|32.3,34.9|S|U|31129|
 l Costume Scraps |QID|10722|N|Go in the cave here and kill Wyrmcult mobs until you get 5 Costume Scraps.|L|31121 5|M|32.04,33.94|
 U Costume Scraps|QID|10722|N|Use the scraps to get an Overseer Disguise.|U|31121|M|32.00,33.00|L|31122|
-C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|
+C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M|32.66,37.52|U|31122|
 C Whelps of the Wyrmcult |N|Capture the rest of the Blackwhelps for this quest by using the Blackwhelp Net.|QID|10747|M|32.3,34.9|US|U|31129|
 
 H Evergrove |QID|10607|N|Hearth to Evergrove.|M|62.84,38.35|
