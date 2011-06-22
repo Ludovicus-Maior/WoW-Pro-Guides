@@ -1,0 +1,20 @@
+## Interface: 40100
+## Title: WoW-Pro Profession
+## Notes: Profession guides
+## Author: Twists
+## Dependencies: WoWPro
+## SavedVariablesPerCharacter: WoWPro_ProfessionDB
+## Version: 1.0.0
+
+## X-Category: Quest
+
+WoWPro_Profession.lua
+
+Professions\Guides.xml
+
+WoWPro_Profession_Parser.lua
+WoWPro_Profession_Config.lua
+WoWPro_Profession_CurrentGuide.lua
+WoWPro_Profession_GuideList.lua
+
+
