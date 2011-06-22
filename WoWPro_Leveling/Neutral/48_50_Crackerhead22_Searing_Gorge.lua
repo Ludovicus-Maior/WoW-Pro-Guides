@@ -1,4 +1,8 @@
--- URL: http://wow-pro.com/wiki/source_code_searing_gorge_alliance
+-- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2011-06-21 20:30
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3255/revisions/24558/view
 -- Date: 2011-06-18 17:27
 -- Who: Ludovicus Maior
 -- Log: ! Line 66, for step T non-decimal QID: [T A New Master... But Who?|QID||M|68.52,53.49|N|To Jack Rockleg.|]

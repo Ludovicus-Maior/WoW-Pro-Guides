@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2011-06-21 20:31
+-- Who: Crackerhead22
+-- Log: Minor Fixes.
+
+-- URL: http://wow-pro.com/node/3281/revisions/24308/view
 -- Date: 2011-04-29 14:58
 -- Who: Ludovicus Maior
 -- Log: Line 254 for step A has unknown tag [From Tree Warden Chawn.], Line 257 for step T has unknown tag [To Samia Inkling.], Line 273 for step T has unknown tag [To Tree Warden Chawn.]
@@ -80,8 +85,8 @@ A The Trappings of a Vindicator |QID|10516|M|44.0,51.9|N|From Vindicator Vuuleen
 l Vindicator Vuuleen's Blade |QID|10516|N|Go in this building and kill the two non-elite mobs.  Do not pull the elite mobs.  Kill Droggam by going close to him (without attracting any mob), and use the Bloodmaul Brutebane Keg on him.  Droggam will run towards you without attracting the elites.  Loot the blade. (39.20, 52.80)|L|30413 1|M|39.20, 52.80|
 C The Trappings of a Vindicator |N|Kill Mugdorg in this building by using the beer in the same manner as last time.  Take the shield.|QID|10516|M|42.00,57.00|
 T The Trappings of a Vindicator |QID|10516|M|44.0,51.9|N|To Vindicator Vuuleen.|
-A Gorr'Dim, Your Time Has Come... |QID|10517|M|44.0,51.9|N|From Vindicator Vuuleen.|U|30353|
-C Gorr'Dim, Your Time Has Come... |N|Kill Gorr'Dim by using the beer in the same manner as before. |QID|10517|M|40.00,49.00|
+A Gorr'Dim, Your Time Has Come... |QID|10517|M|44.0,51.9|N|From Vindicator Vuuleen.|
+C Gorr'Dim, Your Time Has Come... |U|30353|N|Kill Gorr'Dim by using the beer in the same manner as before. |QID|10517|M|40.00,49.00|
 T Gorr'Dim, Your Time Has Come... |QID|10517|M|44.0,51.9|N|To Vindicator Vuuleen.|
 A Planting the Banner|QID|10518|N|From Vindicator Vuuleen.|
 l Bladespire Clan Banner|QID|10518|N|Kill a Bladespire Champion on the second floor of this building (stairs are outside) and loot the Bladespire Clan Banner.|L|30416 1|M|39,58|
@@ -97,9 +102,8 @@ T Getting the Bladespire Tanked |QID|10512|M|37.4,64.6|N|To Borgrim Stouthammer.
 r Sell junk, repair, restock |QID|10580|N|Sell junk, repair, restock |M|37.7,64.86|
 T Where Did Those Darn Gnomes Go? |QID|10580|N|To R-3D0.|M|55.06,72.76|
 A Follow the Breadcrumbs |QID|10581|N|From R-3D0.|M|55.06,72.76|
-T Follow the Breadcrumbs |QID|10581|N|To Toshley.|M|60.5,59|
+T Follow the Breadcrumbs |QID|10581|N|To Toshley.|M|60.5,69|
 A Picking Up Some Power Converters |QID|10584|M|60.5,69.0|N|From Toshley.|
-A Parts for the Rocket-Chief |QID|11040|N|From Bossi Pentapiston.|M|60.74,69.06|
 A What Came First, the Drake or the Egg? |QID|10609|M|61.0,68.1|N|From Fizit "Doc" Clocktock.|
 h Toshley's Station |QID|10584| |N|Set your hearthstone to Toshley's Station. |M|61.00,68.10|
 A Test Flight: The Zephyrium Capacitorium |QID|10557|M|60.3,68.4|N|From Tally Zapnabber.|
@@ -109,7 +113,7 @@ f Toshley's Station |QID|10557|N|Get the flight path.|M|61.15,70.45|
 C Test Flight: The Zephyrium Capacitorium |N|Talk to Rally Zabnapper and start the flight.|QID|10557|M|60.20,68.80|
 T Test Flight: The Zephyrium Capacitorium |QID|10557|M|60.3,68.4|N|To Tally Zapnabber.|
 A Test Flight: The Singing Ridge |QID|10710|M|60.3,68.4|N|From Tally Zapnabber.|
-C Picking Up Some Power Converters |U|30656|N|Right-click the Power Converters on the ground around this location, and use the Protovoltaic Magneto Collector on the elementals.  Do this until you finish this quest.|QID|10584|M|58.00,61.00|
+C Picking Up Some Power Converters |U|30656|N|Right-click the Power Converters on the ground around this location, and use the Protovoltaic Magneto Collector on the elementals, then kill them.  Do this until you finish this quest.|QID|10584|M|58.00,61.00|
 T Picking Up Some Power Converters |QID|10584|M|60.5,69.0|N|To Toshley.|
 A Ride the Lightning |QID|10657|M|60.5,69.0|N|From Toshley.|
 A Ridgespine Menace |QID|10620|M|60.4,68.8|N|From Dizzy Dina.|
@@ -176,13 +180,14 @@ A ...and a Time for Action |QID|10713|M|62.0,39.5|N|From Tree Warden Chawn.|
 A Poaching from Poachers |QID|10717|M|62.0,39.5|N|From Samia Inkling.|
 
 l Meeting Note |QID|10719| |N|Kill Wyrmcult mobs until you get the Meeting Note.|L|31120 1|M|59.00,40.00|S|
-C ...and a Time for Action |N|Kill Wyrmcult mobs until you finish this quest.|QID|10713|M|59.00,36.00|
-C Poaching from Poachers |N|Kill Wyrmcult mobs until you finish this quest.|QID|10717|M|60.00,36.00|
+C Poaching from Poachers |N|Kill and loot Wyrmcult Poachers until you get 5 nets.|QID|10717|M|60.00,36.00|S|
+C ...and a Time for Action |N|Kill Wyrmcult Hewers until you finish this quest.|QID|10713|M|59.00,36.00|
+C Poaching from Poachers |N|Kill and loot Wyrmcult Poachers until you get 5 nets.|QID|10717|M|60.00,36.00|US|
 l Meeting Note |QID|10719| |N|Kill Wyrmcult mobs until you get the Meeting Note.|L|31120 1|M|59.00,40.00|US|
 A Did You Get The Note? |N|Right-click the note to start the quest.|QID|10719|M|59.9,37.8|U|31120|
 l Ruuan'ok Claw|QID|10567|N|Kill mobs until you get six Ruuan'ok Claws.|L|30704 6|M|65.00,35.00|
 C Creating the Pendant |N|Go here and use the claws to summon the harbinger, then kill it and loot the item.|QID|10567|M|64.47,33.11|U|30704|
-l Gorgrom's Favor|QID|10797|N|Go down the path at 62, 30 and then go to the building at the arrow, go to the second floor, kill Dorgok and loot the item.|L|31363 1|M|55.00,25.00|
+l Gorgrom's Favor|QID|10797|N|Go down the path, and then go to the building at the arrow, go to the second floor, kill Dorgok and loot the item.|L|31363 1|M|55.19,24.29|
 A Favor of the Gronn |N|Right-click Gorgrom's Favor and start this quest.|QID|10797|M|55.2,24.0|U|31363|
 C Crush the Bloodmaul Camp! |N|Kill Ogres until you finish this quest.|QID|10796|
 
@@ -207,12 +212,12 @@ C Deceive thy Enemy |N|Kill the mobs for this quest.|QID|10820|M|74.43,40.66|
 T Deceive thy Enemy |N|Put the gas mask on and turn this quest in.|QID|10820|M|73.30,40.00|U|31366|
 A You're Fired! |QID|10821|N|From Legion Communicator.|U|31366|M|73.2,40.0|
 l Camp Anger Key|QID|10821|N|Kill Anger Guards until you get 5 Camp Anger Keys|L|31536 5|M|74.43,40.66|
-C You're Fired! |N|Find the five obelisks, and activate them quickly.  Kill Doomcryer (elite mob, not immune to anything).|QID|10821|
+C You're Fired! |N|Find the five obelisks (where the waypoints are), and activate them quickly. Kill Doomcryer (elite mob, not immune to anything).|QID|10821|M|73.83,41.06;73.94,39.91;75.42,40.5;75.31,41.72;73.54,43.52|
 C Culling the Wild |N|Kill the mobs needed for this quest.|QID|10753|M|71.00,36.00|US|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|S|
 C Southern Volcanic Soil|N|Click the soil.|QID|10771|M|71.65,22.37|QO|Southern Volcanic Soil: 1/1|
 C Central Volcanic Soil|N|Click the soil.|QID|10771|M|71.6,20.32|QO|Central Volcanic Soil: 1/1|
-C From the Ashes |N|Click the soil to complete this quest.|QID|10771|M|72.00,22.00|
+C From the Ashes |N|Click the soil to complete this quest.|QID|10771|M|71.59,18.51|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|US|
 H Evergrove |QID|10753| |N|Hearth to Evergrove.|M|62.84,38.35|
 
@@ -237,7 +242,7 @@ A Slaughter at Boulder'mok |QID|10803|M|62.0,38.0|N|From Lieutenant Fairweather.
 
 T Wyrmskull Watcher |QID|10894|M|49.9,35.9|N|To Watcher Moonshade.|
 A Longtail is the Lynchpin |QID|10893|M|49.9,35.9|N|From Watcher Moonshade.|
-C Longtail is the Lynchpin |N|Go in the tunnel and kill Draaca Longtail.|QID|10893|M|45.00,31.00|
+C Longtail is the Lynchpin |N|Go in the tunnel and kill Draaca Longtail.|QID|10893|M|45.00,31.00|T|Draaca Longtail|
 T Longtail is the Lynchpin |QID|10893|M|49.9,35.9|N|To Watcher Moonshade.|
 A Meeting at the Blackwing Coven |QID|10722|M|49.9,35.9|N|From Watcher Moonshade.|
 l Orb of the Grishna |QID|10825|N|Kill Grishna mobs until you get the Orb of the Grishna.|L|31489 1|S|
@@ -248,9 +253,9 @@ C Whispers of the Raven God |N|Kill Grishna mobs if you need to get the buff aga
 l Orb of the Grishna |QID|10825|N|Kill Grishna mobs until you get the Orb of the Grishna.|L|31489 1|US|M|40.18,22.99|
 A The Truth Unorbed |N|Right-click the orb to start this quest.|QID|10825|M|40.2,23.0|U|31489|
 C Whelps of the Wyrmcult |N|Capture the Blackwhelps for this quest by using the Blackwhelp Net.|QID|10747|M|32.3,34.9|S|U|31129|
-l Costume Scraps |QID|10722|N|Go in the cave here and kill Wyrmcult mobs until you get 5 Costume Scraps.|L|31121 5|M|32.00,31.00|
+l Costume Scraps |QID|10722|N|Go in the cave here and kill Wyrmcult mobs until you get 5 Costume Scraps.|L|31121 5|M|32.04,33.94|
 U Costume Scraps|QID|10722|N|Use the scraps to get an Overseer Disguise.|U|31121|M|32.00,33.00|L|31122|
-C Meeting at the Blackwing Coven|N|Right-click the Costume Scraps in your inventory, and then use the Overseer Costume.  Talk to Korphis Darkscale.|QID|10722|M|32.00,33.00|
+C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|
 C Whelps of the Wyrmcult |N|Capture the rest of the Blackwhelps for this quest by using the Blackwhelp Net.|QID|10747|M|32.3,34.9|US|U|31129|
 
 H Evergrove |QID|10607|N|Hearth to Evergrove.|M|62.84,38.35|
@@ -265,15 +270,16 @@ r Sell junk, repair, restock |QID|10829|N|Sell junk, repair, restock.|M|61.61,38
 T Treebole Must Know |QID|10829|M|36.9,22.5|N|To Treebole.|
 A Exorcising the Trees |QID|10830|M|36.9,22.5|N|From Treebole.|
 l Grishnath Orb |QID|10830|N|Go to this area and get 5 Grishnath Orbs.|L|31495 5|M|40.00,17.00|
-l Dire Pinfeather |QID|10830|N|Kill Dire Ravens until you get the Dire Pinfeather.|L|31517 5|M|37.00,29.00|
+l Dire Pinfeather |QID|10830|N|Kill Dire Ravens until you get five Dire Pinfeathers.|L|31517 5|M|37.00,29.00|
 U Exorcism Feather |QID|10830|N|Right-click the Grishnath Orb to create an Exorcism Feather.|L|31518 5|U|31495|M|37.00,29.00|
 
 C Exorcising the Trees |N|Use exorcism feathers on Raven's Wood Leafbeards, then kill the spirit that spawns.|QID|10830|M|37.00,29.00|U|31518|
 T Exorcising the Trees |QID|10830|M|36.9,22.5|N|To Treebole.|
+C Slaughter at Boulder'mok |N|Kill ogres until you finish this quest.|QID|10803|M|30.3,24.6|S|
 l Grisly Totem |QID|10802|N|Kill ogres here until you get three Grisly Totems. |M|30.00,22.00|L|31754 3|
-C Gorgrom the Dragon-Eater |N|Use the Altar, kill Gorgrom, then drop the Grisly Totems on him.|QID|10802|M|30.00,22.00|U|31754|
-C Slaughter at Boulder'mok |N|Kill ogres until you finish this quest.|QID|10803|M|30.3,24.6|
-C Maxnar Must Die! |N|Kill Maxnar the Ashmaw.  You may use the costume scraps if you have 5 of them to save time.|QID|10748|M|34.00,36.00|
+C Gorgrom the Dragon-Eater |N|Use the Altar, then drop the Grisly Totems on Gorgrom once he is dead.|QID|10802|M|30.00,22.00|U|31754|
+C Slaughter at Boulder'mok |N|Kill ogres until you finish this quest.|QID|10803|M|30.3,24.6|US|
+C Maxnar Must Die! |N|Kill Maxnar the Ashmaw. You may use the costume scraps if you have 5 of them to save time.|QID|10748|M|34.00,36.00|
 H Evergrove |QID|10818|N|Hearth to Evergrove, or run if your hearth is not up.|M|62.84,38.35|
 T Maxnar Must Die! |QID|10748|M|62.0,39.5|N|To Tree Warden Chawn.|
 T Gorgrom the Dragon-Eater |QID|10802|M|62.0,38.0|N|To Commander Haephus Stonewall.|
@@ -284,7 +290,7 @@ r Sell junk, repair, restock |QID|10818| |N|Sell junk, repair, restock.|M|61.61,
 T Baron Sablemane Has Requested Your Presence |QID|10818|M|53.3,41.2|N|To Baron Sablemane.|
 A Massacre at Gruul's Lair |QID|10805|N|From Baron Sablemane.|M|53.3,41.2|
 N Group |QID|10805|N|Get a group for Massacre at Gruul's Lair and Showdown.|M|53.3,41.2|
-C Massacre at Gruul's Lair |N|Kill the mobs needed for this quest, then kill Fingrom at 66, 20, in the house.|QID|10805|M|60.45,21.21|
+C Massacre at Gruul's Lair |N|Kill the mobs needed for this quest. Then kill Fingrom who is at the waypoint in the house (second floor).|QID|10805|M|60.45,21.21|
 T Massacre at Gruul's Lair |QID|10805|N|To Baron Sablemane.|M|53.3,41.2|
 A Showdown |QID|10806|N|From Baron Sablemane.|M|53.3,41.2|
 C Showdown |N|Use Sablemane's Signet then let Baron Sablemane be the one to get attacked by the elite.  Kill Goc.  Sablemane cannot be healed.|QID|10806|M|64.00,18.00|U|31808|
@@ -293,11 +299,11 @@ F Toshley's Station |QID|11672|N|Fly to Toshley's Station.|M|61.61,39.64|
 
 T Death's Door|QID|10910|U|31763|M|64.64,69.96|N|Head to Death's Door area, find a safe spot then use the Druid Signal.  Wait a moment until the druid comes down then turn the quest into the Evergrove Druid.|
 A Harvesting the Fel Ammunition|QID|10904|M|64.64,69.96|N|From Evergrove Druid.|
-C Harvesting the Fel Ammunition|QID|10904|M|64.78,66.66|N|Kill Deathforge Smiths and Deathforge Over-Smiths until you get 5 Fel Cannonballs.|
+C Harvesting the Fel Ammunition|QID|10904|M|64.19,71.74|N|Kill Deathforge Smiths, Deathforge Over-Smiths and Death's Mights until you get 5 Fel Cannonballs.|
 T Harvesting the Fel Ammunition|QID|10904|U|31763|M|64.46,72.22|N|Find a safe spot, use the signal then turn the quest into the Evergrove Druid.|
 A Fire At Will!|QID|10911|M|64.46,72.22|N|From Evergrove Druid.|
-C Southern Warp-Gate|QID|10911|U|31807|QO|South Warp-Gate Destroyed: 1/1|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition.  You will have a pet bar, use the "Artillery on the Warp-Gate" ability  to attack the Warp-Gate, and then protect it.  You need to use "Artillery on the Warp-Gate"  a total of 7 times to destroy the Warp-Gate.|
-C Fire At Will!|QID|10911|U|31807|M|62.01,60.53|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition.  You will have a pet bar, use the "Artillery on the Warp-Gate" ability  to attack the Warp-Gate, and then protect it.  You need to use "Artillery on the Warp-Gate"  a total of 7 times to destroy the Warp-Gate.|
+C Southern Warp-Gate|QID|10911|U|31807|QO|South Warp-Gate Destroyed: 1/1|M|64.75,68.37|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability  to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate"  a total of 7 times to destroy the Warp-Gate.|
+C Fire At Will!|QID|10911|U|31807|M|62.01,60.53|N|Go next to the Death's Door Fel Cannon and use the Naturalized Ammunition. You will have a pet bar, use the "Artillery on the Warp-Gate" ability  to attack the Warp-Gate, and then protect it. You need to use "Artillery on the Warp-Gate"  a total of 7 times to destroy the Warp-Gate.|
 T Fire At Will!|QID|10911|U|31763|M|65.19,69.93|N|Find a safe spot, use the signal then turn the quest into the Evergrove Druid.|
 A The Hound-Master|QID|10912|M|65.16,69.93|N|From Evergrove Druid.|
 C The Hound-Master|QID|10912|U|31809|M|63.57,59.18|N|Head over to Baelmon, use the Evergrove Wand and then kill him.|
