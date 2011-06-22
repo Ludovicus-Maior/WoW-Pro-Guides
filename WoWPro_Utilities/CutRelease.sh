@@ -1,8 +1,8 @@
 #!/bin/sh
 
 
-if [ ! -d WowPro -o ! -d WoWPro_Leveling -o ! -d WoWPro_Dailies ] ; then
-    echo "# This program must be run from a directory containing WowPro, WoWPro_Leveling and WoWPro_Dailies" 
+if [ ! -d WowPro -o ! -d WoWPro_Leveling -o ! -d WoWPro_Dailies -o ! -d WowPro_Profession ] ; then
+    echo "# This program must be run from a directory containing WowPro, WoWPro_Leveling, WoWPro_Dailies and WowPro_Profession " 
     exit 1
 fi
 
@@ -15,7 +15,7 @@ echo '#' The new release number will be "[${nrelease}]".
 echo -n "# Please ^C or abort this command or hit enter to proceed:"
 read confirm
 
-for toc in WowPro/WowPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc; do
+for toc in WowPro/WowPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc WowPro_Profession/WowPro_Profession.toc ; do
   echo '#' Moving $toc to ${toc}~
   mv ${toc} ${toc}~
   echo "#" Editing  ${toc}
