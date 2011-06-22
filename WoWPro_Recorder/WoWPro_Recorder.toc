@@ -3,7 +3,7 @@
 ## Notes: Record and edit guides for use with the WoW-Pro Addon
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 2.0.6
+## Version: 2.1.16
 ## SavedVariables: WoWPro_RecorderDB
 
 ## X-Category: Quest
