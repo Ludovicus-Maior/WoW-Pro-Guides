@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2011-06-25 02:37
+-- Who: Crackerhead22
+-- Log: ! Duplicate T step for qid 11576 - Quest "Abduction" C and T steps had QID 11576 instead of 11590
+
+-- URL: http://wow-pro.com/node/3290/revisions/24368/view
 -- Date: 2011-05-06 03:12
 -- Who: TwoToad
 -- Log: Updated the Warsong Farm Outpost to use stickies. Updated location of Shadowstalker Getry (it was off a little).
@@ -479,9 +484,9 @@ A Monitoring the Rift: Sundered Chasm |QID|11582|M|45.0,33.4|
 N MI time! |QID|11582|N|You have to have a 100% speed mount for this to work, and you need to shoot off the end of the bridge. There's a little sticking out bit on the right. Of course, if you're a mage/priest/paladin, you can bubble/slowfall, and if you're really boring, there's a path going down at , which is marked by blue torches, but where's the fun in that?|M|43,35|
 
 C Monitoring the Rift: Sundered Chasm |QID|11582|U|34669|N|Swim north to , then dive down.|M|44,29|
-C Abduction |QID|11576|U|34691|N|Find a Beryl Sorcerer, beat him down to 25%, then use the Arcane Binder on him. |M|41,38|
+C Abduction |QID|11590|U|34691|N|Find a Beryl Sorcerer, beat him down to 25%, then use the Arcane Binder on him. |M|41,38|
 
-T Abduction |QID|11576|M|45.0,33.4|
+T Abduction |QID|11590|M|45.0,33.4|
 A The Borean Inquisition |QID|11646|M|45.3,33.3|
 T Monitoring the Rift: Sundered Chasm |QID|11582|M|45.0,33.4|
 A Monitoring the Rift: Winterfin Cavern |QID|12728|M|45.0,33.4|

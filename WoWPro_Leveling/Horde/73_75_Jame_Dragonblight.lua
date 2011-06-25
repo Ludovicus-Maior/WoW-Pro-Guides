@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2011-06-25 02:45
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 12205 - Removed duplicate line.
+
+-- URL: http://wow-pro.com/node/3292/revisions/24165/view
 -- Date: 2011-03-12 18:31
 -- Who: Ludovicus Maior
 -- Log: Grizz changed ID.
@@ -276,7 +281,6 @@ T Blighted Last Rites |QID|12206|M|77.0,62.9|
 A Let Them Not Rise! |QID|12211|M|77.0,62.9|
 T Emerald Dragon Tears |QID|12200|M|77.7,62.8|
 A Spread the Good Word |QID|12218|M|77.7,62.8|PRE|12200|
-A Wanted: The Scarlet Onslaught |QID|12205|M|76.9,62.8|
 
 C Materiel Plunder |QID|12209|S|M|72.6,69.7|
 C Wanted: The Scarlet Onslaught |QID|12205|S|

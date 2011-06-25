@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2011-06-25 01:02
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 26720 - Fixed
+
+-- URL: http://wow-pro.com/node/3222/revisions/24457/view
 -- Date: 2011-05-30 17:55
 -- Who: Ludovicus Maior
 -- Log: ! Line 128 for step C has unknown tag [Kill any type Splinter Fist Ogres.]: [C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|S|Kill any type Splinter Fist Ogres.|]
@@ -202,7 +207,7 @@ R Duskwood|QID|26777|M|67.08,62.91|N|Run back into Duskwood zone.|Z|Westfall|
 
 T Delivery to Master Harris|QID|26719|M|18.40,57.76|N|Deliver the message to Oliver Harris.|
 A A Curse We Cannot Lift|QID|26720|M|18.40,57.76|N|From Oliver Harris in Raven Hill.|
-A The Jitters-Bugs|QID|26720|M|18.6,58.21|N|From Jitters in Raven Hill.|
+A The Jitters-Bugs|QID|26721|M|18.6,58.21|N|From Jitters in Raven Hill.|
 A Soothing Spirits|QID|26777|M|19.92,57.88|N|From Sister Eisington in Raven Hill.|
 
 f Raven Hill|QID|26777|M|21.03,56.63|N|At John Shelby.|

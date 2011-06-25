@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2011-06-25 02:48
+-- Who: Crackerhead22
+-- Log: ! Quest 12164 has an A step and no T - Added in turn in step.
+
+-- URL: http://wow-pro.com/node/3294/revisions/24344/view
 -- Date: 2011-04-29 16:52
 -- Who: Ludovicus Maior
 -- Log: Line 285 for step C has unknown tag [NGo northwest to ...]
@@ -313,6 +318,7 @@ K Selas|QID|12164|O|QO|Selas slain: 1/1|N|Head up the path and to the right, Sel
 K Varlam|QID|12164|O|QO|Varlam slain: 1/1|N|A wolf rider, gead back to the path and further up on the left there's another camp at (85,24), Varlam is here.|M|85.1,23.4|
 K Goremaw|QID|12164|O|QO|Goremaw slain: 1/1|N|A large wolf; he's on the southern side of the tower at (86.70,27.20).|M|86.9,26.8|
 C Hour of the Worg|QID|12164|O|N|Arugal is on top of the tower. He has 4 phases. Phase one he shadowbolts for ~1500 damage. At 75% HP, he goes into P2, summoning 3 adds. Kill them to return to P1, which lasts until 50%. Then he'll MC someone, who you bring down to 35%, then he goes back to P1. At 25%, he repeats P2, except with 9 adds. Sasha helps in the final phase. If you're ranged, you can probably kill him by LoSing his shadowbolts, if you're far enough down the adds won't aggro on you, but will despawn instead. Good luck!|M|87.5,26.5|
+T Hour of the Worg|QID|12164|O|M|64.9,43.5;87.2,25.6|N|To Sasha. If she despawns before you can turn the quest in, you can find her back where you accepted the quest at.|
 
 C Drak'aguul's Mallet|QID|12120|N|Look for Drak'aguul, a big troll who patrols along the path towards Drakil'jin Ruins.|M|74,30|
 T Drak'aguul's Mallet|QID|12120|N|Back in Harkor's Camp.|M|73.9,34.2|

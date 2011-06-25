@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2011-06-25 00:36
+-- Who: Crackerhead22
+-- Log: ! Duplicate T step for qid 9452 - Fixed
+
+-- URL: http://wow-pro.com/node/3206/revisions/24563/view
 -- Date: 2011-06-20 01:37
 -- Who: Crackerhead22
 
@@ -144,14 +149,14 @@ r Sell junk and repair|QID|9452|N|At Mura.|M|79.19,50.93|R|Draenei|
 
 A Word from Azure Watch |QID|9314|M|69,54;64.5,54.0|N|From Aeun.|
 A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|From Diktynna.|
-C Red Snapper - Very Tasty!|N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an Angry Murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.| |QID|9452| |U|23654|M|62.31,55.11|
+C Red Snapper - Very Tasty!|N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an Angry Murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.|QID|9452|U|23654|M|62.31,55.11|
 T Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|To Diktynna.|
 A Find Acteon!|QID|9453|M|61.1,54.2|N|From Diktynna.|
 R Azure Watch|QID|9453|N|Follow the path to Azure Watch.|M|51.18,51.67|
 T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon.|
 A The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|From Acteon.|
-T Travel to Azure Watch|QID|9452|M|48.7,50.3|R|Draenei|N|To Technician Dyvuun.|
-T Word from Azure Watch|QID|9314|M|48.3,49.2|N|To
+T Travel to Azure Watch|QID|9313|M|48.7,50.3|R|Draenei|N|To Technician Dyvuun.|
+T Word from Azure Watch|QID|9314|M|48.3,49.2|N|To Caregiver Chellan.|
 h Azure Watch|QID|9506|N|Set your hearth to Azure Watch with Caregive Chellan.|
 A Beds, Bandages, and Beyond|QID|9603|R|Draenei|N|From Caregive Chellan.|
 A Medicinal Purpose|QID|9463|R|Draenei|M|48.4,51.8|N|From Anchorite Fateema.|

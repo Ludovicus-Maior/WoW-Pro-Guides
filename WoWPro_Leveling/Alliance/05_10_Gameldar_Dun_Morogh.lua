@@ -1,4 +1,33 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-06-25 00:43
+-- Who: Crackerhead22
+-- Log: Checking ../WoWPro_Leveling/Alliance/05_10_Gameldar_Dun_Morogh.lua
+--	! Duplicate A step for qid 6388 - Fixed
+--	! Duplicate T step for qid 6388 - Fixed
+
+-- URL: http://wow-pro.com/node/3200/revisions/24583/view
+-- Date: 2011-06-25 00:27
+-- Who: Crackerhead22
+-- Log: # Checking ../WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua
+--	! Line 157, for step A, missing Argument for tag N: [A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|N]
+--	! Line 198 for step A has unknown tag [24532]: [A Evisceratin' the Enemy QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|]
+
+-- URL: http://wow-pro.com/node/3200/revisions/24581/view
+-- Date: 2011-06-24 19:52
+-- Who: Fluclo
+-- Log: Added auto-complete to killing Vagash
+
+-- URL: http://wow-pro.com/node/3200/revisions/24580/view
+-- Date: 2011-06-24 19:43
+-- Who: Fluclo
+-- Log: |US| the The View from Down Here quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/24579/view
+-- Date: 2011-06-24 14:58
+-- Who: Fluclo
+-- Log: Corrected Zone on Ride to Ironforge quests
+
+-- URL: http://wow-pro.com/node/3200/revisions/24517/view
 -- Date: 2011-06-07 23:07
 -- Who: Ludovicus Maior
 -- Log: ! Line 128 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|Gnome,Dwarf|]
@@ -158,14 +187,15 @@ A Frostmane Aggression|QID|25724|M|53.68,52.17|N|From Captain Tharran.|
 T Honor Students |QID|6387|M|53.80,52.75|N|To Brolan Galebeard.|R|Gnome,Dwarf|
 
 A Bound for Kharanos|QID|26380|M|49.89,45.01|N|From Ciara Deepstone.|R|Dwarf,Human,Nightelf,Worgen,Draenei|
+
 A Ride to Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|There will follow three quests that sees you ride to Ironforge and back, and is worth 1,580 XP and some reputation with Ironforge and Gnomeregan.|R|Gnome,Dwarf|
 F Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|Speak with Brolan Galebeard and ask him to fly you to Ironforge|R|Gnome,Dwarf|
-T Ride to Ironforge |RANK|2|QID|6391|M|51.00,26.20|N|To Golnir Bouldertoe|R|Gnome,Dwarf|
-A Gryth Thurden |RANK|2|QID|6388|M|51.00,26.20|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf|
-T Gryth Thurden |RANK|2|QID|6388|M|55.00,48.40|N|To Gryth Thurden|PRE|6391|R|Gnome,Dwarf|
-A Return to Gremlock |RANK|2|QID|6388|M|55.00,48.40|N|From Gryth Thurden|PRE|6391|R|Gnome,Dwarf|
-F Kharanos |RANK|2|QID|6388|M|54.73,50.58|N|Either Fly back to Kharanos, or use your Hearthstone|PRE|6391|R|Gnome,Dwarf|
-T Return to Gremlock |RANK|2|QID|6388|M|54.73,50.58|N|To Gremlock Pilsnor|PRE|6391|R|Gnome,Dwarf|
+T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining & Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf|Z|Ironforge|
+A Gryth Thurden |RANK|2|QID|6388|M|51.37,26.27|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
+T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|To Gryth Thurden|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
+A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
+F Thunderbrew Distillery|RANK|2|QID|6392|M|54.73,50.58|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|PRE|6391|R|Gnome,Dwarf|
+T Return to Gremlock |RANK|2|QID|6392|M|54.73,50.81|N|To Gremlock Pilsnor|PRE|6391|R|Gnome,Dwarf|
 
 R Shimmer Ridge|QID|25724|M|49.95,43.90|N|Run to here then head up the hill.|
 C The Perfect Stout|QID|315|N|Collect Shimmerweeds  from the baskets on the ground.|S|
@@ -222,7 +252,7 @@ C Attack on Northern Frostmane Retreat|QID|25841|U|56048|QO|Attack on Northern F
 K Kill Battok the Berserker|QID|25840|T|Battok the Berserker|QO|Battok the Berserker slain: 1/1|M|63.81,55.68|N|Dancing in the middle of the camp.|
 C Strike from Above|QID|25841|U|56048|QO|Attack on Southern Frostmane Retreat: 1/1|M|63.20,57.16|N|Use the Signal Flare just in front of the buildings.|
 C Eliminate the Resistance|QID|25840|US|QO|Frostmane Warrior slain: 5/5|M|62.04,56.13|N|Kill Frostmane Warriors.|
-C The View from Down Here|QID|28868|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builders|
+C The View from Down Here|QID|28868|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builders|US|
 T The View from Down Here|QID|28868|M|62.54,53.72|N|To Snevik the Blade.|
 T Eliminate the Resistance|QID|25840|M|62.53,53.62|N|To Slamp Wobblecog.|
 T Strike from Above|QID|25841|M|62.53,53.62|N|To Slamp Wobblecog.|
@@ -234,7 +264,7 @@ C It's Raid Night Every Night|QID|25932|M|70.38,49.23|N|5 Frostmane Raiders will
 T It's Raid Night Every Night|QID|25932|M|70.43,48.99|N|To Sergeant Flinthammer.|
 A Protecting the Herd|QID|314|M|70.30,48.25|N|From Rudra Amberstill.|
 R Protecting the Herd|QID|314|CC|M|69.37,49.57|N|Follow this path up the hill.|
-K Protecting the Herd|QID|314|T|Vagash|M|69.55,47.43|N|Kill Vagash and loot the fang.|
+K Vagash|QID|314|T|Vagash|M|69.55,47.43|N|Kill Vagash and loot the fang for the quest Protecting the Herd.|L|3627|
 T Protecting the Herd|QID|314|M|70.31,48.26|N|To Rudra Amberstill.|
 A Rams on the Lam|QID|25905|M|70.58,48.77|N|From Veron Amberstill.|
 N Rams on the Lam|QID|25905|N|Type /macro to open the macro creation interface. Create this macro and place it on your actionbar. On the 1st line type /target Stolen Ram, then press enter, on the 2nd line type /whistle, then drag the macro to your actionbar.|

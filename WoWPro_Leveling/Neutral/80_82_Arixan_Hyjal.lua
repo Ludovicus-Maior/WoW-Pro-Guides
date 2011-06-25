@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2011-06-25 03:11
+-- Who: Crackerhead22
+-- Log: ! Missing A step for step T qid 29066 - Added in accept step
+
+-- URL: http://wow-pro.com/node/3303/revisions/24528/view
 -- Date: 2011-06-08 03:14
 -- Who: Ludovicus Maior
 -- Log: Correct follow on guide for horde.
@@ -315,6 +320,7 @@ C Black Heart of Flame|QID|25428|U|53464|M|12.37,44.26|N|Summon Thol'Embaar via 
 C Oh, Deer!|QID|25392|QO|Injured Fawn Escorted Home: 3/3|M|18.99,37.66|N|Click on an Injured Fawn to have it follow you, do this 3 times. Once you have 3, head back to Mylune. They can die from you fighting things.|
 T Oh, Deer!|QID|25392|M|19.24,37.81|N|To Mylune.|
 T Black Heart of Flame|QID|25428|M|22.18,44.93|N|To Tyrus Blackhorn.|
+A Good News... and Bad News|QID|29066|M|19.08,37.03|N|Auto-accepted after turning in "Black Heart of Flame".|
 T Good News... and Bad News|QID|29066|M|19.08,37.03|N|To Matoclaw.|
 A Last Stand at Whistling Grove|QID|25940|PRE|25428;25392|M|19.10,40.98|N|From Laina Nightsky.|
 T Last Stand at Whistling Grove|QID|25940|M|13.68,32.88|N|To Keeper Taldros.|

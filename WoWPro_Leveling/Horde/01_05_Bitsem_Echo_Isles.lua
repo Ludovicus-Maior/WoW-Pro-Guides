@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-06-25 01:32
+-- Who: Crackerhead22
+-- Log: ! Missing A step for step T qid 24721 - 24712 is wrong QID, fixed to 24751
+
+-- URL: http://wow-pro.com/node/3199/revisions/24536/view
 -- Date: 2011-06-08 23:20
 -- Who: Fluclo
 -- Log: Shouldn't be a need to grind in Cataclysm, so tweaked to remove any grinding. 
@@ -149,7 +154,7 @@ C The Basics: Hitting Things|RANK|1|QID|24777|C|Hunter|M|67.69,84.69||N|Destroy 
 L Level 2|QID|24765|LVL|2|N|You should be around level 2 by this point.|
 
 T The Basics: Hitting Things|RANK|1|QID|24765|C|Druid|M|67.69,84.69|N|To Zen'tabra.|
-T The Basics: Hitting Things|RANK|1|QID|24721|C|Mage|M|68.22,83.99|N|To Soratha.|
+T The Basics: Hitting Things|RANK|1|QID|24751|C|Mage|M|68.22,83.99|N|To Soratha.|
 T The Basics: Hitting Things|RANK|1|QID|24771|C|Rogue|M|65.90,83.24|N|To Legati.|
 T The Basics: Hitting Things|RANK|1|QID|24639|C|Warrior|M|65.78,84.52|N|To Nortet.|
 T The Basics: Hitting Things|RANK|1|QID|26273|C|Warlock|M|64.92,83.26|N|To Voldreka.|

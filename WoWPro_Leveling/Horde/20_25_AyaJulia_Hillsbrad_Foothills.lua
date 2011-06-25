@@ -1,4 +1,11 @@
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
+-- Date: 2011-06-25 01:44
+-- Who: Crackerhead22
+-- Log: ! Duplicate T step for qid 28325 - Removed line.
+--	! Duplicate T step for qid 28330 - Removed line.
+--	! Duplicate T step for qid 28324 - Removed line.
+
+-- URL: http://wow-pro.com/node/3223/revisions/24084/view
 -- Date: 2011-01-30 19:33
 -- Who: Ludovicus Maior
 -- Log: Corrected RegisterGuide to match GIT.
@@ -123,9 +130,7 @@ T Green Living|QID|28325|M|49.09,66.36|N|To Serge Hinott.|
 T Trail of Filth|QID|28330|M|49.09,66.36|N|To Serge Hinott.|
 T Studies in Lethality|QID|28324|M|49.09,66.36|N|To Serge Hinott.|
 T Preemptive Strike|QID|28356|M|49.15,66.34|N|To Helcular.|
-T Green Living|QID|28325|M|49.09,66.36|N|To Serge Hinott.|
-T Trail of Filth|QID|28330|M|49.09,66.36|N|To Serge Hinott.|
-T Studies in Lethality|QID|28324|M|49.09,66.36|N|To Serge Hinott.|
+
 T Helcular's Rod Giveth...|QID|28331|M|49.15,66.34|N|To Helcular.|
 T Helcular's Command|QID|28332|M|49.15,66.34|N|To Helcular.|
 A Can You Smell What the Lok'tar is Cooking?|QID|28344|M|49.15,66.34|N|From Helcular.|PRE|28331;28332|

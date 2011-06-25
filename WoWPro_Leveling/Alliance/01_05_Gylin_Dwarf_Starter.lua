@@ -1,4 +1,33 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-06-25 00:43
+-- Who: Crackerhead22
+-- Log: Checking ../WoWPro_Leveling/Alliance/05_10_Gameldar_Dun_Morogh.lua
+--	! Duplicate A step for qid 6388 - Fixed
+--	! Duplicate T step for qid 6388 - Fixed
+
+-- URL: http://wow-pro.com/node/3200/revisions/24583/view
+-- Date: 2011-06-25 00:27
+-- Who: Crackerhead22
+-- Log: # Checking ../WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua
+--	! Line 157, for step A, missing Argument for tag N: [A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|N]
+--	! Line 198 for step A has unknown tag [24532]: [A Evisceratin' the Enemy QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|]
+
+-- URL: http://wow-pro.com/node/3200/revisions/24581/view
+-- Date: 2011-06-24 19:52
+-- Who: Fluclo
+-- Log: Added auto-complete to killing Vagash
+
+-- URL: http://wow-pro.com/node/3200/revisions/24580/view
+-- Date: 2011-06-24 19:43
+-- Who: Fluclo
+-- Log: |US| the The View from Down Here quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/24579/view
+-- Date: 2011-06-24 14:58
+-- Who: Fluclo
+-- Log: Corrected Zone on Ride to Ironforge quests
+
+-- URL: http://wow-pro.com/node/3200/revisions/24517/view
 -- Date: 2011-06-07 23:07
 -- Who: Ludovicus Maior
 -- Log: ! Line 128 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|Gnome,Dwarf|]
@@ -154,7 +183,7 @@ l Cask of Stormhammer Stout|QID|24474|L|49744|M|34.85,67.45|N|Pick up the Cask o
 C First Things First: We're Gonna Need Some Beer|QID|24474|M|31.50,67.69|N|Finally get the Cask of Theramore Pale Ale.|
 C Dwarven Artifacts |US|QID|24477|M|33.13,68.08|N|Scattered on the ground, they look like little piles of snow.|
 T Dwarven Artifacts |QID|24477|M|35.70,66.27|N|To Grundel Harkin.|
-A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|N
+A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|
 T First Things First: We're Gonna Need Some Beer |QID|24474|M|35.74,66.31|N|To Jona Ironstock.|
 A All the Other Stuff |PRE|24474|QID|24475|N|From Jona Ironstock.|M|35.74,66.31|
 C All the Other Stuff |S|QID|24475|N|Kill any Boars or Wolves you see and loot them for Boar Haunches and Ragged Wolf Hides.|
@@ -195,7 +224,7 @@ A Encrypted Rune |PRE|24473|QID|3109|C|Rogue|N|From Jona Ironstock.|M|35.74,66.3
 T Encrypted Rune |QID|3109|M|35.43,65.94|N|To Solm Hargrin.|C|Rogue|R|Dwarf|
 A Evisceratin' the Enemy |PRE|3109|QID|24532|C|Rogue|M|35.43,65.94|N|From Solm Hargrin.|R|Dwarf|
 C Evisceratin' the Enemy |QID|24532|M|35.83,67.67|N|Learn Evisecerate, then use Eviscerate 3 times on the Training Dummies near the entrance to Anvilmar.|C|Rogue|R|Dwarf|
-A Evisceratin' the Enemy QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|
+T Evisceratin' the Enemy |QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|
 
 A Empowered Rune |PRE|24473|QID|24494|C|Shaman|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
 T Empowered Rune |QID|24494|M|35.76,64.63|N|To Teo Hammerstorm.|C|Shaman|R|Dwarf|

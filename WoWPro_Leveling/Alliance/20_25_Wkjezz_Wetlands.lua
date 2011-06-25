@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2011-06-25 01:04
+-- Who: Crackerhead22
+-- Log: ! Line 200 for step C has unknown tag [53.33,54.44]: [C The Angerfang Menace|QID|26189|QO|Angerfang Dragonmaw slain: 16/16M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|US|] - Fixed
+
+-- URL: http://wow-pro.com/node/3224/revisions/24522/view
 -- Date: 2011-06-08 00:29
 -- Who: Crackerhead22
 -- Log: Added missing notes, fixed some notes, added more info for some notes. Fixed a couple of stickies, added a sticky step or two.
@@ -197,7 +202,7 @@ T When Archaeology Attacks|QID|25849|M|38.89,39.47|N|To Prospector Whelgar.|
 A The Angerfang Menace|QID|26189|M|38.89,39.47|N|From Prospector Whelgar.|
 C The Angerfang Menace|QID|26189|QO|Angerfang Dragonmaw slain: 16/16|M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|S|
 K Gorfax Angerfang|QID|26189|M|53.33,54.44|QO|Gorfax Angerfang slain: 1/1|N|Kill Gorfax Angerfang.|
-C The Angerfang Menace|QID|26189|QO|Angerfang Dragonmaw slain: 16/16M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|US|
+C The Angerfang Menace|QID|26189|QO|Angerfang Dragonmaw slain: 16/16|M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|US|
 T The Angerfang Menace|QID|26189|M|38.94,39.46|N|To Prospector Whelgar.|
 
 A Who Wards The Greenwarden|QID|26195|M|38.94,39.46|N|From Prospector Whelgar.|

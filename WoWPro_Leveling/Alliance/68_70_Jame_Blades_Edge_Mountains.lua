@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2011-06-25 01:21
+-- Who: Crackerhead22
+-- Log: Fixed QID for "T Bombing Run|QID|11010|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Druid|"
+
+-- URL: http://wow-pro.com/node/3281/revisions/24575/view
 -- Date: 2011-06-22 02:13
 -- Who: Ludovicus Maior
 -- Log: # Checking ../WoWPro_Leveling/Alliance/68_70_Jame_Blades_Edge_Mountains.lua
@@ -360,7 +365,7 @@ A Bombing Run|QID|11102|M|27.63,52.84|N|From Sky Sergeant Vanderlip.|C|Druid|
 C Bombing Run|QID|11010|U|32456|M|32.18,42.46|N|Hotkey the bombs, then head to where the waypoint is.  When you get there you should be able to see the Fel Cannons, and right next to them red bobbing arrows. Where the red arrows are, is where you have to bomb.  The bomb can be used while moving, you can not stop moving due to the cannons.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
 T Bombing Run|QID|11102|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
 C Bombing Run|QID|11010|U|32456|M|32.18,42.46|N|Hotkey the bombs, then head to where the waypoint is.  When you get there you should be able to see the Fel Cannons, and right next to them red bobbing arrows. Where the red arrows are, is where you have to bomb.  The bomb can be used while moving, you can not stop moving due to the cannons.|C|Druid|
-T Bombing Run|QID|11102|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Druid|
+T Bombing Run|QID|11010|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Druid|
 A Assault on Bash'ir Landing!|QID|11119|M|27.50,52.74|N|From Sky Commander Keller.|
 T Assault on Bash'ir Landing!|QID|11119|M|27.93,52.14|N|To Aether-tech Apprentice.|
 A Wrangle Some Aether Rays!|QID|11065|M|28.02,51.59|N|From Skyguard Khatie.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_horde
+-- Date: 2011-06-25 02:52
+-- Who: Crackerhead22
+-- Log: ! Missing A step for step T qid 13099 - Fixed, accept step for " Just Checkin'" is not 13009 but 13099. 
+
+-- URL: http://wow-pro.com/node/3296/revisions/24345/view
 -- Date: 2011-04-29 16:53
 -- Who: Ludovicus Maior
 -- Log: Line 442 for step T has unknown tag [Back to Har'koa.]
@@ -316,7 +321,7 @@ T Breaking Through Jin'Alai |QID|12627| |N|Back to Zim'Torga.| |M|59.51,57.99|
 
 A To Speak With Har'koa |QID|12628| |M|59.5,58.0|
 
-A Just Checkin' |QID|13009| |M|59.9,57.9|
+A Just Checkin' |QID|13099| |M|59.9,57.9|
 A Relics of the Snow Leopard Goddess |QID|12635| |M|59.9,57.9|
 T The Leaders at Jin'Alai |QID|12622| |M|59.2,56.3|
 T To Speak With Har'koa |QID|12628| |N|Head to the Altar of Har'koa to the SE.| |M|63.73,70.44|

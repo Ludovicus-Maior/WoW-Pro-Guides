@@ -1,4 +1,15 @@
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2011-06-25 00:57
+-- Who: Crackerhead22
+-- Log: ! Missing A step for step T qid 13636 - Added in accept step.
+--	! Line 169 has missing space after step ;: [;F Thelsamar|QID|26128|N|Fly back to Thelsamar. Ignore quests at this new hub for now.|] - Removed line. 
+
+-- URL: http://wow-pro.com/node/3216/revisions/24589/view
+-- Date: 2011-06-25 00:54
+-- Who: Crackerhead22
+-- Log: ! Missing A step for step T qid 13636 - Added in accept step.
+
+-- URL: http://wow-pro.com/node/3216/revisions/24514/view
 -- Date: 2011-06-07 21:46
 -- Who: Crackerhead22
 -- Log: Removed unneeded zone tags, added in breadcrumb quest from Ironforge, added in missing quests, re-arranged certain quests to better flow for those coming from Dun Morogh. Added missing notes, missing cords. Fixed a few notes and cords. 
@@ -113,6 +124,7 @@ C Out of Gnoll-where|QID|26842|M|26.25,42.37|N|Kill and loot Mosshide Scouts and
 C Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|N|Kill and loot bears for their rumps.|US|
 C Looking for Lurkers|QID|25118|US|M|29.01,48.29|N|Kill 8 Forest Lurkers.|
 T Out of Gnoll-where|QID|26842|M|35.03,46.56|N|To Mountaineer Kadrell.|
+A Stormpike's Orders|QID|13636|M|35.09,46.41|N|From Mountaineer Kadrell.|
 T Looking for Lurkers|QID|25118|M|35.35,42.82|N|To Dakk Blunderblast.|
 T Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|N|To Vidra Hearthstove.|
 R WANTED: The Dark Iron Spy|QID|13648|M|40.69,58.07;40.35,61.45;37.31,61.99|CC|N|Take the trail up and head into the cave.|
@@ -143,7 +155,7 @@ T Filthy Paws|QID|26863|M|25.48,17.74|N|To Mountaineer Stormpike.|
 T Who's In Charge Here?|QID|26845|M|25.48,17.74|N|To Mountaineer Stormpike.|
 A The Bearer of Gnoll-edge|QID|26864|M|25.48,17.74|N|From Mountaineer Stormpike.|
 T A Nasty Exploit|QID|26846|M|25.48,17.74|N|To Scout Dorli.|
-H Thelsamar|QID|26864|M|37.17,46.40|N|Hearth b.|
+H Thelsamar|QID|26864|M|37.17,46.40|N|Hearth back to Thelsamar.|
 T The Bearer of Gnoll-edge|QID|26864|M|35.09,46.41|N|To Mountaineer Kadrell.|
 
 A Suddenly, Murlocs!|QID|26927|M|35.09,46.41|N|From Mountaineer Kadrell.|
@@ -166,7 +178,6 @@ C Axis of Awful|QID|26868|U|60503|M|50.99,55.70|N|Head to near the waypoint. Put
 C Buzz Off|QID|26932|US|M|54.39,59.98|N|Kill Loch Buzzards.|
 C A Load of Croc|QID|26929|US|M|60.21,54.19|N|Looted from the Loch Crocolisk|
 
-;F Thelsamar|QID|26128|N|Fly back to Thelsamar. Ignore quests at this new hub for now.|
 T Buzz Off|QID|26932|M|35.01,46.84|N|To Mountaineer Kadrell.|
 T Axis of Awful|QID|26868|M|34.86,49.03|N|To Cannary Caskshot.|
 T A Load of Croc|QID|26929|M|34.86,49.03|N|To Cannary Caskshot.|

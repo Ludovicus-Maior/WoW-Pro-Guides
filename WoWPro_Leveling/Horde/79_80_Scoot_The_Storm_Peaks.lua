@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
+-- Date: 2011-06-25 02:55
+-- Who: Crackerhead22
+-- Log:  T step for qid 12907 - QID for "A Certain Prisoner" was wrong.
+--	! Missing A step for step C qid 12954 - Fixed, was wrong QID for C step.
+
+-- URL: http://wow-pro.com/node/3300/revisions/24353/view
 -- Date: 2011-04-29 18:14
 -- Who: Ludovicus Maior
 -- Log: ! Line 187 for step A has unknown tag [To the left. (24.01, 61.74)]: [A Valkyrion Must Burn |QID|12953| To the left. (24.01, 61.74)|M|24.0,61.8|]
@@ -117,8 +123,8 @@ A Examples to be Made |QID|12907|M|44.4,68.9|
 C Examples to be Made |QID|12907| |N|Turn around, walk to the next room, turn right, kill Garhal .|M|45.41,69.07|
 T Examples to be Made |QID|12907|M|44.4,68.9|
 
-A A Certain Prisoner |QID|12907|M|44.4,68.9|
-T A Certain Prisoner |QID|12907|M|44.4,68.9|
+A A Certain Prisoner |QID|12908|M|44.4,68.9|
+T A Certain Prisoner |QID|12908|M|44.4,68.9|
 
 A A Change of Scenery |QID|12921|M|42.8,68.9|
 T A Change of Scenery |QID|12921| |N|Go past where you killed Garhal and out to Brunnhildar Village.  Lok'lira the Crone is on the right.|M|47.5,69.1|
@@ -435,7 +441,7 @@ A Slaves of the Stormforged |QID|12957|
 A The Dark Ore |QID|12964|
 F The Frozen Mine |QID|12957| |N|Across the plains to the south. |M|27.29,49.59|
 C The Dark Ore |QID|12964| |N|Gather the ore from the carts in the mine.|
-C Slaves of the Stormforged |QID|12954| |N|Kill Taskmasters, attempt to free Mechagnomes.|
+C Slaves of the Stormforged |QID|12957| |N|Kill Taskmasters, attempt to free Mechagnomes.|
 T The Dark Ore |QID|12964|
 T Slaves of the Stormforged |QID|12957|
 

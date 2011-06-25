@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2011-06-25 01:37
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 29094 - Fixed, error was the 2nd accept should have been a turn-in
+
+-- URL: http://wow-pro.com/node/3214/revisions/24474/view
 -- Date: 2011-06-01 00:40
 -- Who: Crackerhead22
 -- Log: Removed lines "A It's Gotta be the Horn|QID|865|RANK|1|M|56.41,56.05|Z|", "
@@ -351,7 +356,7 @@ T Read the Manual|QID|14006|M|62.25,17.41|N|To Sputtervalve.|
 A They Call Him Swiftdagger. He Kills Harpies.|QID|28877|PRE|14004|RANK|1|M|62.55,16.86|
 A The Short Way Home|QID|29094|PRE|29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
 T They Call Him Swiftdagger. He Kills Harpies.|QID|28877|M|30.59,45.95|N|To Darsok Swiftdagger.|
-A The Short Way Home|QID|29094|M|30.59,45.95|N|To Darsok Swiftdagger.|
+T The Short Way Home|QID|29094|M|30.59,45.95|N|To Darsok Swiftdagger.|
 A Harpy Raiders|QID|867|RANK|2|M|30.59,45.95|N|From Darsok Swiftdagger.|
 A Harpy Lieutenants|QID|875|PRE|867|RANK|2|M|30.61,46.02|N|From Darsok Swiftdagger.|
 

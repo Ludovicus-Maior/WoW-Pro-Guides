@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2011-06-25 00:51
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 9641 - Removed duplicate
+--	! Duplicate T step for qid 9641 - Removed duplicate
+
+-- URL: http://wow-pro.com/node/3220/revisions/24518/view
 -- Date: 2011-06-07 23:09
 -- Who: Ludovicus Maior
 -- Log: ! Line 71 for step C has unknown tag [58.3,86.28]: [C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|58.3,86.28|S|]
@@ -109,8 +115,6 @@ T Salvaging the Data|QID|9628|N|To Harbringer Mikolaas.|M|52.6,53.23|
 A The Second Sample|QID|9584|N|From Harbringer Mikolaas.|M|52.6,53.23|
 T Blood Watch|QID|9694|N|To Vindicator Boros.|M|55.42,55.25|
 A Intercepting the Message|QID|9779|N|From Vindicator Boros.|M|55.42,55.25|
-A Irradiated Crystal Shards|QID|9641|L|23984 10|O|N|If you already have 10 Irradiated Crystal Shards, then accept this quest from Vindicator Boros.|M|55.42,55.25|
-T Irradiated Crystal Shards|QID|9641|O|N|To Vindicator Boros.|M|55.42,55.25|
 A Know Thine Enemy|QID|9567|M|55.1,58.0|N|From Vindicator Aalesia.|
 
 C Victims of Corruption|QID|9574|N|Kill Corrupted Treants for the bark.|M|49,73|

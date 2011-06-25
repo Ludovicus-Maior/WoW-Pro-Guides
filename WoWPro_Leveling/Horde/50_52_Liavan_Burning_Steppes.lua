@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2011-06-25 01:53
+-- Who: Crackerhead22
+-- Log: ! Missing A step for step C qid 28233 - Fixed, C step was wrong QID.
+--	! Duplicate A step for qid 28455 - Removed line.
+
+-- URL: http://wow-pro.com/node/3266/revisions/24288/view
 -- Date: 2011-04-28 22:32
 -- Who: Chrisser000
 
@@ -77,7 +83,7 @@ A Into the Black Tooth Hovel|QID|28432|M|44.56,44.52|N|From Eitrigg.|
 T Into the Black Tooth Hovel|QID|28432|U|63357|M|45.34,51.60|N|To Quartermaster Kaoshin. Remeber to put on your Disguise.|
 A Grunt Work|QID|28433|M|45.34,51.60|N|From Quartermaster Kaoshin.|
 A Strategic Cuts|QID|28434|M|45.34,51.60|N|From Quartermaster Kaoshin.|
-C Grunt Work|QID|28233|S|U|63357|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|
+C Grunt Work|QID|28433|S|U|63357|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|
 C Strategic Cuts|QID|28434|U|63350|QO|Voodooist Timan slain: 1/1|M|45.37,52.47|N|He is at the top of the tower.|
 C Strategic Cuts|QID|28434|U|63350|QO|Worgmistress Othana slain: 1/1|M|39.17,56.14|N|She wanders around inside the stable.|
 C Strategic Cuts|QID|28434|U|63350|QO|Gorlop slain: 1/1|M|43.89,60.15;40.01,60.27|N|Gorlop wanders between these two points.|
@@ -151,7 +157,6 @@ A Assault on Dreadmaul Rock|QID|28454|M|54.62,25.22|N|From Ariok.|
 C Assault on Dreadmaul Rock|QID|28454|U|63681|M|72.48,29.93|N|Use the only Ability you have. When you finish you can use the drake to fly back toward the Turn in.|
 T Assault on Dreadmaul Rock|QID|28454|M|54.69,24.48|N|To Eitrigg.|
 A Glory Amidst Chaos|QID|28455|M|54.69,24.48|N|From Eitrigg.|
-A Glory Amidst Chaos|QID|28455|M|54.61,24.60|N|From Eitrigg.|
 C Glory Amidst Chaos|QID|28455|QO|General Thorg'izog slain: 1/1|M|65.12,46.66|
 C Glory Amidst Chaos|QID|28455|QO|Dragon-Lord Neeralak slain: 1/1|M|63.79,37.81;66.31,37.96;68.88,44.14|
 C Glory Amidst Chaos|QID|28455|QO|High Warlock Xi'lun slain: 1/1|M|70.88,38.13|

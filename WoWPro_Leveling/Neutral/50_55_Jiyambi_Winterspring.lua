@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_neutral
+-- Date: 2011-06-25 03:05
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 28460 - Wrong QID for "Winterfall Runners".
+
+-- URL: http://wow-pro.com/node/3264/revisions/24573/view
 -- Date: 2011-06-21 20:31
 -- Who: Crackerhead22
 
@@ -64,7 +69,7 @@ C Winterfall Activity|QID|28522|US|M|24.80,49.13|N|Kill and loot furbolgs in the
 T Strange Life Forces|QID|28656|M|25.18,58.53|N|To Witch Doctor Mau'ari.|
 T Threat of the Winterfall|QID|28460|M|25.11,58.51|N|To Donova Snowden.|
 T Mystery Goo|QID|28467|M|25.11,58.51|N|To Donova Snowden.|
-A Winterfall Runners|QID|28460|M|25.11,58.51|N|From Donova Snowden.|
+A Winterfall Runners|QID|28469|M|25.11,58.51|N|From Donova Snowden.|
 C Winterfall Runners|QID|28469|M|25.01,55.44|N|The runners patrol the road to the north.|
 T Winterfall Runners|QID|28469|M|25.12,58.53|N|To Donova Snowden.|
 A High Chief Winterfall|QID|28470|M|25.12,58.53|N|From Donova Snowden.|

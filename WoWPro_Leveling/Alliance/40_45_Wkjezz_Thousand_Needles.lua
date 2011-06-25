@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2011-06-25 01:14
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 25486 - Removed line.
+--	! Duplicate T step for qid 25488 - Removed line.
+--	! Duplicate A step for qid 25488 - Removed line.
+--	! Duplicate T step for qid 25488 - Removed line.
+--	! Duplicate A step for qid 25835 - Removed line.
+
+-- URL: http://wow-pro.com/node/3253/revisions/24459/view
 -- Date: 2011-05-30 17:57
 -- Who: Ludovicus Maior
 -- Log: ! Line 129 for step R has 1 M coords: [R The Admiral's Den|M|25627|M|92.02,83.23|N|Head to the cave that is The Admiral's Den.|]
@@ -80,11 +89,6 @@ C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, 
 T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|To Rendow.|
 A Two If By Boat|QID|25488|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
 T Two If By Boat|QID|25488|M|75.93,74.59|N|To Fizzle Brassbolts (at the top).|
-A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|
-C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
-T The Grimtotem are Coming|QID|25488|M|88.45,44.46|Z|Feralas|N|To Rendow.|
-A Two If By Boat|QID|25488|M|88.53,44.27|Z|Feralas|N|From Rendow.|
-T Two If By Boat|QID|25488|M|75.93,74.59|N|To Fizzle Brassbolts.|
 A Do Me a Favor?|QID|25504|M|75.93,74.59|N|From Fizzle Brassbolts.|
 T Do Me a Favor?|QID|25504|M|76.46,73.66|N|To Jinky Twizzlefixxit.|
 A Down in the Deeps|QID|25515|M|76.46,73.66|N|From Jinky Twizzlefixxit.|
@@ -196,7 +200,6 @@ T Deliver the Goods|QID|25825|M|75.97,74.65|N|To Fizzle Brassbolts.|
 A Free Freewind Post|QID|25835|M|75.97,74.65|N|From Fizzle Brassbolts.|
 T Quiet the Cannons|QID|25585|M|76.48,73.67|N|To Jinky Twizzlefixxit.|
 T A Little Payback|QID|25588|M|78.11,73.18|N|To Drag Master Miglen.|
-A Free Freewind Post|QID|25835|M|75.88,74.65|N|From Fizzle Brassbolts.|
 T Free Freewind Post|QID|25835|M|46.35,57.88|N|To Quentin.|U|55121|
 A Grimtotem in the Post|QID|25869|M|46.36,57.82|N|From Quentin.|
 A Save the Sentinel|QID|25871|M|46.81,56.11|N|From Brienna Starglow.|
