@@ -56,7 +56,7 @@ return [[
 f Amberpine Lodge |QID|12511|M|31.33,59.16|N|Grab the flightpoint at Vana Grey.|
 h Amberpine Lodge |QID|12511|M|31.97,60.22|N|Set your hearth at Amberpine Lodge with Jenniger Bell.|
 
-T The Hills Have Us |QID|12511|N|To Lieutenant Dumont in Amberpine Lodge.|M|31.89,60.15|
+T The Hills Have Us |QID|12511|N|To Lieutenant Dumont in Amberpine Lodge.|M|31.89,60.15|O|
 A Local Support |QID|12292|M|31.8,60.2|N|From Lieutenant Dumont.|
 A Replenishing the Storehouse |QID|12212|N|From Master Woodsman Anderhol.|M|32.06,59.98|
 A Them or Us! |QID|12215|N|From Master Woodsman Anderhol.|M|32.02,59.89|
