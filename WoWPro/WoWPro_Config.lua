@@ -646,15 +646,12 @@ local function createBlizzOptions()
 			    order = 5,
 			    type = "execute",
 			    name = L["Reset Current Guide"],
-			    desc = L["If your current guide is behaving oddly, this wipes the state, forgets skipped quests and restarts the current guide."],
+			    desc = L["If your current guide is behaving oddly, this wipes the state, forgets all skipped quests and resets the current guide."],
 			    image = "Interface\\Icons\\INV_Misc_EngGizmos_27",
 			    func =  function (info) if WoWProDB.char.currentguide then
 			                local GID = WoWProDB.char.currentguide
 			                WoWPro:Print("Resetting guide "..GID)
-			                WoWProCharDB.Guide[GID].completion =  {}	
-	                        WoWProCharDB.Guide[GID].skipped = {}
-	                        WoWProCharDB.Guide[GID].progress = nil
-	                        WoWProCharDB.Guide[GID].total = nil
+			                WoWProCharDB.Guide[GID] = nil
 	                        WoWProCharDB.skippedQIDs = {}
 			                WoWPro:LoadGuide()
 			              end
