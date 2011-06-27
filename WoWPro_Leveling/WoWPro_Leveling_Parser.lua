@@ -64,6 +64,16 @@ function WoWPro.Leveling:NextStep(k, skip)
 					skip = true -- If one of the prereqs is NOT complete, step is skipped.
 				end
 			end
+
+			-- If it is skipped, mark the quest as skipped
+			if WoWPro.action[k] == "A"
+			or WoWPro.action[k] == "C"
+			or WoWPro.action[k] == "T" then
+				WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+				WoWProCharDB.Guide[GID].skipped[k] = true
+			else
+				WoWProCharDB.Guide[GID].skipped[k] = true
+			end
 		end
 
 	end
