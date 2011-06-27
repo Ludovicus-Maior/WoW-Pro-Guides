@@ -45,8 +45,17 @@ function WoWPro:LoadGuide(guideID)
 	end 
 	WoWPro:dbp("Loading Guide: "..GID)
 	
+    -- If we have upgraded, wipe the old information and re-create
+	if WoWProCharDB.Guide[GID] and WoWPro.Version ~= WoWProCharDB.Guide[GID].Version then
+	    WoWPro:Print("Resetting Guide "..GID.." due to upgrade.  Forgetting skipped steps.")
+	    WoWProCharDB.Guide[GID] = nil
+    end
+	    
 	-- Creating a new entry if this guide does not have one
-	WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
+	if WoWProCharDB.Guide[GID] == nil then
+	    WoWProCharDB.Guide[GID] = {}
+	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
+	end
 	WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
 	WoWProCharDB.Guide[GID].skipped = WoWProCharDB.Guide[GID].skipped or {}
 	
