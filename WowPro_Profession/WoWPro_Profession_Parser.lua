@@ -439,7 +439,7 @@ function WoWPro.Profession:RowUpdate(offset)
 					WoWPro:SkipStepDialogCall(row.index, steplist)
 				end
 			elseif button == "RightButton" and row.check:GetChecked() then
-				WoWPro:Print("Right Click")
+--				WoWPro:Print("Right Click")
 --				WoWProCharDB.Guide[GID].completion[row.index] = true
 				completion[row.index] = true
 				WoWPro:MapPoint()
