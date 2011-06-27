@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2011-06-22 02:14
+-- Who: Ludovicus Maior
+-- Log: # Checking ../WoWPro_Leveling/Alliance/70_70_Crackerhead22_Shadowmoon.lua
+--	! Line 150 for step A has unknown tag [From Stormer Ewan Wildwing.]: [A Minions of the Shadow Council|QID|10582|M|40.43,41.36|From Stormer Ewan Wildwing.|]
+
+-- URL: http://wow-pro.com/node/3285/revisions/24565/view
 -- Date: 2011-06-20 03:10
 -- Who: Crackerhead22
 
@@ -147,7 +153,7 @@ C Asghar's Totem|QID|10777|M|40.01,29.11|N|Kill Asghar and loot his totem.|
 T Asghar's Totem|QID|10777|M|35.20,40.85|N|To Parshah.|
 A The Rod of Lianthe|QID|10778|M|35.20,40.85|N|From Parshah.|
 T The Deathforge|QID|10573|M|40.43,41.36|N|To Stormer Ewan Wildwing.|
-A Minions of the Shadow Council|QID|10582|M|40.43,41.36|From Stormer Ewan Wildwing.|
+A Minions of the Shadow Council|QID|10582|M|40.43,41.36|N|From Stormer Ewan Wildwing.|
 T Enraged Spirits of Water|QID|10480|M|42.20,45.07|N|To Earthmender Torlok.|
 A Enraged Spirits of Air|QID|10481|M|42.20,45.07|N|From Earthmender Torlok.|
 C Minions of the Shadow Council|QID|10582|M|40.3,37.97|N|The mobs you need are in and around the pit. Head inside the cave if you need more.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2011-06-25 01:24
+-- Who: Crackerhead22
+-- Log: Removed "This quest needs to be manually clicked off because there is no turnin." from the line of "A A Mission Statement |QID|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|"
+
+-- URL: http://wow-pro.com/node/3289/revisions/24364/view
 -- Date: 2011-05-04 09:35
 -- Who: Crackerhead22
 -- Log: Added |P| tag for cooking quest line.
@@ -146,7 +151,7 @@ A Call to Arms! |QID|11965|N|From Gerald Green|M|58.19,62.76|
 C Call to Arms! |QID|11965|N|Ring the bell upstairs in the town hall.|M|57.39,59.31|
 T Call to Arms! |QID|11965|N|Go back to Gerald.|M|58.16,62.75|
 R D.E.H.T.A. Encampment |QID|11864|M|57,44|
-A A Mission Statement |QID|11864|N|From Arch Druid Lathorius. This quest needs to be manually clicked off because there is no turnin.|M|57.06,44.30|
+A A Mission Statement |QID|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|
 A Ears of Our Enemies |QID|11866|N|From Arch Druid Lathorius.|M|57.06,44.30|
 A Help Those That Cannot Help Themselves |QID|11876|N|From Arch Druid Lathorius.|M|57.06,44.30|
 A Happy as a Clam |QID|11869|N|From Heirophant Cenius.|M|57.33,44.08|

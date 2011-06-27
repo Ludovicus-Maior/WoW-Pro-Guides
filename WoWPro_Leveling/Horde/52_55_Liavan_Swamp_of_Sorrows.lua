@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2011-06-25 01:55
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 27598 - Removed line.
+--	! Duplicate A step for qid 27600 - Removed line.
+
+-- URL: http://wow-pro.com/node/3250/revisions/24337/view
 -- Date: 2011-04-29 16:35
 -- Who: Ludovicus Maior
 -- Log: Line 69 for step C has 1 M coords
@@ -41,13 +47,12 @@ T Tastes Like Strider|QID|27663|M|74.22,12.41|N|To Pierre Fishflay.|
 T Crazy Larry|QID|27597|M|83.89,40.00|N|To Crazy Larry.|
 A Kill Gil|QID|27598|M|83.89,40.00|N|From Crazy Larry.|
 A Can't Take It With Them|QID|27599|M|83.89,40.00|N|From Crazy Larry.|
-A Kill Gil|QID|27598|M|88.78,27.44|
 C Kill Gil|QID|27598|U|62795|M|87.06,30.53|
 C Can't Take It With Them|QID|27599|U|62795|M|90.25,24.92|
 T Kill Gil|QID|27598|M|83.88,40.02|N|To Crazy Larry.|
 T Can't Take It With Them|QID|27599|M|83.88,40.02|N|To Crazy Larry.|
 A In With a Bang|QID|27600|M|83.88,40.02|N|From Crazy Larry.|
-A In With a Bang|QID|27600|M|83.93,40.11|N|From Crazy Larry.|
+
 C In With a Bang|QID|27600|M|83.82,37.62;98.75,26.96|N|Talk to Lil'Crazy jerry, and use the cannon to launch you to the ship.|
 T In With a Bang|QID|27600|M|84.00,40.11|N|Use the cannon on the top deck to launch you back to the shore.|
 A Baba Bogbrew|QID|27740|M|84.00,40.11|N|From Crazy Larry.|

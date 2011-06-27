@@ -45,8 +45,17 @@ function WoWPro:LoadGuide(guideID)
 	end 
 	WoWPro:dbp("Loading Guide: "..GID)
 	
+    -- If we have upgraded, wipe the old information and re-create
+	if WoWProCharDB.Guide[GID] and WoWPro.Version ~= WoWProCharDB.Guide[GID].Version then
+	    WoWPro:Print("Resetting Guide "..GID.." due to upgrade.  Forgetting skipped steps.")
+	    WoWProCharDB.Guide[GID] = nil
+    end
+	    
 	-- Creating a new entry if this guide does not have one
-	WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
+	if WoWProCharDB.Guide[GID] == nil then
+	    WoWProCharDB.Guide[GID] = {}
+	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
+	end
 	WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
 	WoWProCharDB.Guide[GID].skipped = WoWProCharDB.Guide[GID].skipped or {}
 	
@@ -150,17 +159,21 @@ function WoWPro:UpdateGuide(offset)
 	end
 end	
 
--- Next Step --
+-- Next Step --    			
 -- Determines the next active step --
 function WoWPro:NextStep(k,i)
 	local GID = WoWProDB.char.currentguide
 	if not k then k = 1 end --k is the position in the guide
 	if not i then i = 1 end --i is the position on the rows
 	local skip = true
-	while skip do 
+	-- The "repeat ... break ... until true" hack is how you do a continue in LUA!  http://lua-users.org/lists/lua-l/2006-12/msg00444.html
+	while skip do repeat
 		
-		skip = false -- The step deaults to NOT skipped
+		skip = false -- The step defaults to NOT skipped
 		
+		-- Quickly skip completed steps --
+		if WoWProCharDB.Guide[GID].completion[k] then skip = true ; break end
+
 		-- Optional Quests --
 		if WoWPro.optional[k] and WoWPro.QID[k] then 
 			skip = true --Optional steps default to skipped --
@@ -227,12 +240,17 @@ function WoWPro:NextStep(k,i)
             
 			skip = true --reputation steps skipped by default
 			
-			for factionIndex = 1, GetNumFactions() do
+			local factionIndex = 1
+			local lastName
+			local foundFaction = false
+			repeat
   				name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
     				canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfo(factionIndex)
+    			if name == lastName then break end
     			name=string.lower(name)
     			-- The guide will have "Scryers" and the faction name is "The Scryers"
 				if string.find(name,rep) then
+				    foundFaction = true
 					if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 						skip = false
 					end
@@ -242,12 +260,16 @@ function WoWPro:NextStep(k,i)
 							skip = false 
 						end
 						if (repID == standingId) and (earnedValue <= replvl) then
-                                                                                                skip = false
+                            skip = false
 						end
 					end
   				end
+  				factionIndex = factionIndex + 1
+			until factionIndex > 200
+			if not foundFaction then
+			    WoWPro:Print("Unknown faction ["..rep.."]")
 			end
-                                 end	
+        end	
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
@@ -268,9 +290,8 @@ function WoWPro:NextStep(k,i)
 		-- Skipping any unstickies until it's time for them to display --
 		if WoWPro.unsticky[k] and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then skip = true end
 		
-		-- Skipping completed steps --
-		if WoWProCharDB.Guide[GID].completion[k] then skip = true end
 		
+		until true
 		if skip then k = k+1 end
 		
 	end

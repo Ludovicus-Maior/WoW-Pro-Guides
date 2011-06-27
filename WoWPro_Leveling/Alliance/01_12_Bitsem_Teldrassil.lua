@@ -1,4 +1,16 @@
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2011-06-25 00:32
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 28724 -  Fixed, was supposed to be PRE
+--	! Missing A step for step T qid 28725 - Fixed
+--	! Duplicate A step for qid 489 - Fixed by removing duplicate line
+
+-- URL: http://wow-pro.com/node/3204/revisions/24582/view
+-- Date: 2011-06-25 00:19
+-- Who: Crackerhead22
+-- Log: Corrected QID for the turn-in of "Dolanaar Delivery".
+
+-- URL: http://wow-pro.com/node/3204/revisions/24561/view
 -- Date: 2011-06-20 01:35
 -- Who: Crackerhead22
 -- Log: Fixed PRE QID of !Line 41 for step A unknown QID 38713 in PRE: [A Fel Moss Corruption|QID|28714|PRE|38713|M|58.01,39.29|N|From Ilthalaine.|]
@@ -108,7 +120,7 @@ A Iverron's Antidote|QID|28724|PRE|28723|M|57.21,33.33|N|From Dentaria Silvergla
 C Iverron's Antidote|QID|28724|M|57.40,33.56|N|Around the pools.|R|Night Elf|
 T Iverron's Antidote|QID|28724|M|57.19,33.29|N|To Dentaria Silverglade.|R|Night Elf|
 
-A The Woodland Protector|QID|28725|QID|28724|M|56.38,27.92|N|From Tarindrella.|R|Night Elf|
+A The Woodland Protector|QID|28725|PRE|28724|M|56.38,27.92|N|From Tarindrella.|R|Night Elf|
 T The Woodland Protector|QID|28725|M|56.38,27.92|N|To Tarindrella.|R|Night Elf|
 
 A Webwood Corruption|QID|28726|PRE|28725|M|56.36,27.72|N|From Tarindrella.|R|Night Elf|
@@ -150,7 +162,7 @@ A The Emerald Dreamcatcher|QID|2438|M|55.58,50.06|N|From Tallonkai Swiftroot.|
 f Dolanaar|QID|2438|M|55.46,50.41|N|At Fidelio.|
 
 A A Troubling Breeze|QID|475|M|55.70,51.94|N|From Athridas Bearmantle.|
-T Dolanaar Delivery|QID|2438|M|55.40,52.24|N|To Innkeeper Keldamyr.|
+T Dolanaar Delivery|QID|2159|M|55.40,52.24|N|To Innkeeper Keldamyr.|
 
 h Dolanaar|QID|475|M|55.40,52.24|N|At Innkeeper Keldamyr.|
 
@@ -158,7 +170,7 @@ A Reminders of Home|QID|6344|M|56.67,53.47|N|From Nyoma.|R|Night Elf|
 T Teldrassil: Passing Awareness|QID|28731|M|55.84,53.87|N|To Corithras Moonrage.|R|Night Elf|
 
 A Teldrassil: The Refusal of the Aspects|QID|929|M|55.84,53.87|N|From Corithras Moonrage.|R|Night Elf|
-A Seek Redemption!|QID|489|M|55.75,54.06|N|From Corithras Moonrage.|
+
 C Seek Redemption!|QID|489|M|53.96,56.91|N|Collect Fel Cones from the ground. They sparkle.|
 
 T Reminders of Home|QID|6344|M|55.47,50.51|N|To Fidelio.|R|Night Elf|

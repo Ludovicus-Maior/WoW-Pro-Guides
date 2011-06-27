@@ -1,4 +1,10 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2011-06-25 03:00
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 25887 - Removed duplicate line.
+--	! Quest 26090 has an A step and no T - Turn in step was missing QID.
+
+-- URL: http://wow-pro.com/node/3306/revisions/24530/view
 -- Date: 2011-06-08 03:19
 -- Who: Ludovicus Maior
 -- Log: Correct Successor.
@@ -201,7 +207,7 @@ A Debriefing|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|From Erunak Stonespeak
 C Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|Talk to Gurrok to complete this quest.|
 T Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Wake of Destruction|QID|25887|M|63.92,59.76|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
-A Wake of Destruction|QID|25887|M|63.92,59.76|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
+
 N Wake of Destruction|QID|25887|M|58.1,69.8|Z|Kelp'thar Forest|U|56576|N|Swim out of the grotto and head just a bit west, where you will find the Famished Great Sharks. Target one of the sharks while staying far enough away that it doesn't attack you and use the Orb of Suggestion. Close this step once you're riding a shark.|
 C Wake of Destruction|QID|25887|M|57.7,66.5|Z|Kelp'thar Forest|QO|Zin'jatar Guardians Eaten Alive: 25/25|N|Swim near the Zin'Jatar Guardians and use the ability "Eat Naga". You don't actually have to target the naga, just swim near them.|
 T Wake of Destruction|QID|25887|M|63.8,59.7|Z|Kelp'thar Forest|N|Use the other shark's ability and he'll take you back to the cave. To Erunak Stonespeaker.|
@@ -566,7 +572,7 @@ l Enormous Eel Egg|QID|26090|Z|Abyssal Depths|N|Kill the Coldlight Oracles and H
 A I Brought You This Egg|QID|26090|Z|Abyssal Depths|M|44.62,60.43|U|56812|N|Accept the quest from the egg.|
 T Here Fishie Fishie|QID|26088|N|To Orako.|Z|Abyssal Depths|M|42.91,51.02|
 T Die Fishman Die|QID|26089|N|To Orako.|Z|Abyssal Depths|M|42.91,51.02|
-T I Brought You This Egg|N|To Orako.|Z|Abyssal Depths|M|42.91,51.02|
+T I Brought You This Egg|N|To Orako.|Z|Abyssal Depths|M|42.91,51.02|QID|26090|
 A Here Fishie Fishie 2: Eel-Egg-Trick Boogaloo|QID|26091|N|From Orako.|Z|Abyssal Depths|M|42.91,51.02|
 
 A Orako's Report|QID|26092|Z|Abyssal Depths|M|42.91,51.02|N|From Orako.|

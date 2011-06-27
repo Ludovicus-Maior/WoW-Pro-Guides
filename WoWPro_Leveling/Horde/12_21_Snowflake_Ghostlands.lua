@@ -1,4 +1,11 @@
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2011-06-25 01:42
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 9327 - Removed line.
+--	! Duplicate T step for qid 9327 - Removed line.
+--	! Duplicate A step for qid 9146 - Removed line.
+
+-- URL: http://wow-pro.com/node/3221/revisions/24520/view
 -- Date: 2011-06-07 23:12
 -- Who: Ludovicus Maior
 -- Log: ! Line 61 for step A has unknown tag [To Vandril]: [A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|To Vandril|]
@@ -62,13 +69,11 @@ T The Fallen Courier|QID|9147|M|49,89|N|To Apothecary Thedra|Z|Eversong Woods|M|
 A Delivery to Tranquillien |QID|9148|N|From Courier Dawnstrider.|Z|Eversong Woods|
 T Delivery to Tranquillien |QID|9148|N|Follow the road south to Tranquillien.|
 
-A The Forsaken |QID|9327|R|BloodElf|
-A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|N|To Vandril|
-T The Forsaken |QID|9327|R|BloodElf| |N|In the large building to your right as you enter Tranquillien from the north.|
-T The Forsaken |QID|9329|R|Orc,Troll,Tauren,Undead,Goblin|N|In the large building to your right as you enter Tranquillien from the north.|
-A The Forsaken|QID|9327|M|46.34,28.34|N|From Arcanist Vandril.|
+A The Forsaken |QID|9327|R|BloodElf|N|From Vandril.|M|46.35,28.39|
+A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|N|From Vandril.|
 f Tranquillien|QID|9327|M|45.47,30.54|N|At Skymaster Sunwing.|
-T The Forsaken|QID|9327|M|44.84,32.43|N|To High Executor Mavren.|
+T The Forsaken |QID|9327|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
+T The Forsaken |QID|9329|R|Orc,Troll,Tauren,Undead,Goblin|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
 A Return to Arcanist Vandril|QID|9758|M|44.84,32.43|N|From High Executor Mavren.|
 T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|M|46.33,28.45|N|From Arcanist Vandril.|
@@ -97,7 +102,6 @@ C Spirits of the Drowned|QID|9274|S|M|71.04,24.00|N|Kill any ghost you see float
 T Dealing with Zeb'Sora|QID|9143|M|69.34,15.10|N|To Ranger Valanna.|
 A Report to Captain Helios|QID|9146|M|69.34,15.10|N|From Ranger Valanna.|
 C Spirits of the Drowned|QID|9274|US|M|71.04,24.00|N|Kill any ghost you see floating around in the lake.|
-A Report to Captain Helios|QID|9146|M|57.61,22.16|
 T Spirits of the Drowned|QID|9274|M|72.30,29.72|N|To Ranger Krenn'an.|
 T Report to Captain Helios|QID|9146|M|72.34,29.69|N|To Captain Helios.|
 

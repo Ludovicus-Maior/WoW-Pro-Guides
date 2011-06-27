@@ -1,4 +1,33 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-06-25 00:43
+-- Who: Crackerhead22
+-- Log: Checking ../WoWPro_Leveling/Alliance/05_10_Gameldar_Dun_Morogh.lua
+--	! Duplicate A step for qid 6388 - Fixed
+--	! Duplicate T step for qid 6388 - Fixed
+
+-- URL: http://wow-pro.com/node/3200/revisions/24583/view
+-- Date: 2011-06-25 00:27
+-- Who: Crackerhead22
+-- Log: # Checking ../WoWPro_Leveling/Alliance/01_05_Gylin_Dwarf_Starter.lua
+--	! Line 157, for step A, missing Argument for tag N: [A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|N]
+--	! Line 198 for step A has unknown tag [24532]: [A Evisceratin' the Enemy QID|24532|C|Rogue|M|35.43,65.94|N|To Solm Hargrin.|R|Dwarf|]
+
+-- URL: http://wow-pro.com/node/3200/revisions/24581/view
+-- Date: 2011-06-24 19:52
+-- Who: Fluclo
+-- Log: Added auto-complete to killing Vagash
+
+-- URL: http://wow-pro.com/node/3200/revisions/24580/view
+-- Date: 2011-06-24 19:43
+-- Who: Fluclo
+-- Log: |US| the The View from Down Here quest
+
+-- URL: http://wow-pro.com/node/3200/revisions/24579/view
+-- Date: 2011-06-24 14:58
+-- Who: Fluclo
+-- Log: Corrected Zone on Ride to Ironforge quests
+
+-- URL: http://wow-pro.com/node/3200/revisions/24517/view
 -- Date: 2011-06-07 23:07
 -- Who: Ludovicus Maior
 -- Log: ! Line 128 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|Gnome,Dwarf|]

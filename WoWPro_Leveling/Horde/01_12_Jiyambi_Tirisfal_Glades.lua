@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2011-06-25 01:34
+-- Who: Crackerhead22
+-- Log: ! Missing A step for step T qid 309 - Fixed, QID for turn-in should be 3098
+
+-- URL: http://wow-pro.com/node/3205/revisions/24511/view
 -- Date: 2011-06-07 10:52
 -- Who: Ludovicus Maior
 -- Log: Tweak Coords on C [Assault on the Rotbrain Encampment]
@@ -96,7 +101,7 @@ A Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|30.87,66.19|N|From Shadow Priest 
 A The Truth of the Grave|QID|24961|M|30.89,66.11|N|From Novice Elreth.|
 
 T Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|31.12,66.08|N|To Dark Cleric Duesten.|
-T Glyphic Scroll|QID|309|R|Undead|C|Mage|M|30.91,66.13|N|To Isabella.|
+T Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|30.91,66.13|N|To Isabella.|
 T Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|31.47,65.59|N|To Xavier the Huntsman.|
 T Simple Scroll|QID|3095|R|Undead|C|Warrior|M|32.63,65.61|N|To Dannil Stern.|
 T Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|30.92,66.30|N|To Maximillion.|

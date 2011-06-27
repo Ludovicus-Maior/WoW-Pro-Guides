@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2011-06-25 00:39
+-- Who: Crackerhead22
+-- Log:  T qid 24472 -Added in accept step.
+
+-- URL: http://wow-pro.com/node/3211/revisions/24433/view
 -- Date: 2011-05-28 10:59
 -- Who: Ludovicus Maior
 -- Log: Coord fix for [Lor'danel]
@@ -329,6 +334,7 @@ T Exodus|QID|24438|Z|Gilneas_terrain1|M|51.86,80.52|N|To Prince Liam Greymane.|
 A Stranded at the Marsh|QID|24468|Z|Gilneas_terrain1|M|51.86,80.52|N|From Prince Liam Greymane.|
 C Stranded at the Marsh|QID|24468|Z|Gilneas_terrain1|M|53.24,71.99|N|Kill Swamp Crocolisks until you've rescued 5 Crash Survivors.|
 T Stranded at the Marsh|QID|24468|Z|Gilneas_terrain1|M|51.86,80.52|N|To Prince Liam Greymane.|
+A Introductions Are in Order|QID|24472|Z|Gilneas_terrain1|M|51.86,80.52|N|From Prince Liam Greymane.|
 C Introductions Are in Order|QID|24472|Z|Gilneas_terrain1|M|48.21,85.54;46.75,83.40|N|Go to the top of the hill and loot Koroth's Baner. Kill 4 Ogre Minions on the way.|
 T Introductions Are in Order|QID|24472|Z|Gilneas_terrain1|M|51.76,80.23|N|To Prince Liam Greymane.|
 L Level 9|QID|24483|LVL|9|N|You should be around level 9 by this point.|

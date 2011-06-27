@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2011-06-25 02:31
+-- Who: Crackerhead22
+-- Log: Fixed the ton of QID errors caused by the recorder.
+
+-- URL: http://wow-pro.com/node/3286/revisions/24387/view
 -- Date: 2011-05-15 18:15
 -- Who: Ludovicus Maior
 
@@ -36,30 +41,30 @@ A The Hand of Gul'dan|QID|10681|M|28.47,26.48|N|From Earthmender Splinthoof.|
 A A Grunt's Work...|QID|10702|M|28.47,26.48|N|From Overlord Or'barokh.|
 A The Path of Conquest|QID|10750|M|28.47,26.48|N|From Overlord Or'barokh.|
 C To Legion Hold|QID|10596|U|30638|M|23.62,36.88|N|Go next to the Legion Communication Device and use the disguise.|
-C A Grunt's Work...|QID|10660|S|M|33.35,41.95|N|Kill Felboars, Chimeras or Scorpions until you complete this quest.|
+C A Grunt's Work...|QID|10702|S|M|33.35,41.95|N|Kill Felboars, Chimeras or Scorpions until you complete this quest.|
 C A Haunted History|QID|10624|S|M|30.29,37.23|N|Loot Ever-Burning Ash from the ground. They can mostly found by the lava pool.|
-C What Strange Creatures...|QID|10624|M|31.58,38.89;36.41,38.19|N|Go around the lava pit killing and looting Felfire Diemetradons. If you run out, head to the farther waypoint.|
-C A Haunted History|QID|10760|US|M|30.29,37.23|N|Loot Ever-Burning Ash from the ground. They can mostly found by the lava pool.|
-C The Sketh'lon Wreckage|QID|10596|M|36.6,30.76|N|Kill Dark Conclave Arakkoas until you get all 3 pages.|
-T To Legion Hold|QID|10597|M|30.48,32.47|N|To Blood Guard Gulmok.|
-A Setting Up the Bomb|QID|10760|M|30.48,32.47|N|From Blood Guard Gulmok.|
-T The Sketh'lon Wreckage|QID|10761|M|30.99,29.86|N|To Sergeant Kargrul.|
-A Find the Deserter|QID|10660|M|30.99,29.86|N|From Sergeant Kargrul.|
-T What Strange Creatures...|QID|10672|M|30.06,28.37|N|To Researcher Tiorus.|
+C What Strange Creatures...|QID|10660|M|31.58,38.89;36.41,38.19|N|Go around the lava pit killing and looting Felfire Diemetradons. If you run out, head to the farther waypoint.|
+C A Haunted History|QID|10624|US|M|30.29,37.23|N|Loot Ever-Burning Ash from the ground. They can mostly found by the lava pool.|
+C The Sketh'lon Wreckage|QID|10760|M|36.6,30.76|N|Kill Dark Conclave Arakkoas until you get all 3 pages.|
+T To Legion Hold|QID|10596|M|30.48,32.47|N|To Blood Guard Gulmok.|
+A Setting Up the Bomb|QID|10597|M|30.48,32.47|N|From Blood Guard Gulmok.|
+T The Sketh'lon Wreckage|QID|10760|M|30.99,29.86|N|To Sergeant Kargrul.|
+A Find the Deserter|QID|10761|M|30.99,29.86|N|From Sergeant Kargrul.|
+T What Strange Creatures...|QID|10660|M|30.06,28.37|N|To Researcher Tiorus.|
 
-A Frankly, It Makes No Sense...|QID|10624|M|29.92,28.28|N|From Researcher Tiorus.|
-T A Haunted History|QID|10625|M|29.91,27.75|N|To Chief Apothecary Hildagard.|
+A Frankly, It Makes No Sense...|QID|10672|M|29.92,28.28|N|From Researcher Tiorus.|
+T A Haunted History|QID|10624|M|29.91,27.75|N|To Chief Apothecary Hildagard.|
 A Spectrecles|QID|10625|M|29.91,27.75|N|From Chief Apothecary Hildagard.|
 C Spectrecles|QID|10625|U|30719|M|30.34,30.64|N|Put on the Spectrecles, then run around Shadowmoon Village and kill 12 Shadowmoon Zealots.|
-T Spectrecles|QID|10633|M|29.92,27.72|N|To Chief Apothecary Hildagard.|
-A Teron Gorefiend - Lore and Legend|QID|10597|M|29.92,27.72|N|From Chief Apothecary Hildagard.|
+T Spectrecles|QID|10625|M|29.92,27.72|N|To Chief Apothecary Hildagard.|
+A Teron Gorefiend - Lore and Legend|QID|10633|M|29.92,27.72|N|From Chief Apothecary Hildagard.|
 l Fel Reaver Armor Plate|QID|10597|L|30631|M|22.18,35.53|N|Loot the Fel Reaver Armor Plate off the ground. It looks like the head of a Fel Reaver.|
-K Overseer Ripsaw|QID|10621|L|30759 |T|Overseer Ripsaw|N|Find and kill Overseer Ripsaw, then loot the item he drops.|
+K Overseer Ripsaw|QID|10623|L|30759 |T|Overseer Ripsaw|N|Find and kill Overseer Ripsaw, then loot the item he drops.|
 A Illidari-Bane Shard|QID|10623|U|30759|M|22.49,35.97|N|Accept the quest from the shard.|
 
-C Setting Up the Bomb|QID|10761|M|26.29,41.26|N|Head down into the water and loot the Fel Reaver Power Core from the bottom of the pond.|
-T Find the Deserter|QID|10777|M|35.19,40.35|N|To Parshah. He wanders up and down the path where the waypoint is.|
-A Asghar's Totem|QID|10702|M|35.19,40.35|N|From Parshah. He wanders up and down the path where the waypoint is.|
+C Setting Up the Bomb|QID|10597|M|26.29,41.26|N|Head down into the water and loot the Fel Reaver Power Core from the bottom of the pond.|
+T Find the Deserter|QID|10761|M|35.19,40.35|N|To Parshah. He wanders up and down the path where the waypoint is.|
+A Asghar's Totem|QID|10777|M|35.19,40.35|N|From Parshah. He wanders up and down the path where the waypoint is.|
 C Asghar's Totem|QID|10777|M|39.94,29.36|N|Kill and loot Ashgar to get the Sketh'lon War Totem.|
 T Setting Up the Bomb|QID|10597|M|30.45,32.44|N|To Blood Guard Gulmok.|
 A Blast the Infernals!|QID|10598|M|30.43,32.56|N|From Blood Guard Gulmok.|
@@ -349,8 +354,8 @@ T The Cipher of Damnation - The Third Fragment Recovered|QID|10579|M|53.88,23.45
 A The Cipher of Damnation|QID|10588|M|53.88,23.45|N|From Oronok Torn-heart.|
 C The Cipher of Damnation|QID|10588|U|30657|M|43.25,46.69|N|Use the Cipher of Damnation at the Altar of Damnation to summon Cyrukh the Firelord. It will take a couple of minutes for Oronok to fly down to where you are, talk to him to be able to start killing Cyrukh.|
 T The Cipher of Damnation|QID|10588|M|42.20,45.07|N|To Earthmender Torlok.|
-R Terokkar Forest|QID|10662|M|24,12|N|Fly to Terokkar Forrest.|
-T The Hermit Smith|QID|10662|M|77.51,38.73|Z|Terokkar Forest|N|To David Wayne.|
+R Terokkar Forest|QID|10663|M|24,12|N|Fly to Terokkar Forrest.|
+T The Hermit Smith|QID|10663|M|77.51,38.73|Z|Terokkar Forest|N|To David Wayne.|
 A Additional Materials|QID|10664|M|77.51,38.73|Z|Terokkar Forest|N|From David Wayne. This quest is optional.|
 R Shattrath City|QID|10664|M|34,24|Z|Terokkar Forest|N|Fly to Shattrath City.|
 B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|O|

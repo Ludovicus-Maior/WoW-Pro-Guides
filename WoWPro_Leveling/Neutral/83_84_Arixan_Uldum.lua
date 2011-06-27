@@ -1,4 +1,9 @@
--- URL: http://wow-pro.com/wiki/source_code_uldum_alliance
+-- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2011-06-25 03:14
+-- Who: Crackerhead22
+-- Log: ! Duplicate T step for qid 28134 - Removed Duplicate line.
+
+-- URL: http://wow-pro.com/node/3309/revisions/24416/view
 -- Date: 2011-05-24 11:23
 -- Who: Fluclo
 -- Log: Added note about collecting all Ancient Scrolls before killing the last employee, as you are sent back to quest giver on killing the 15th employee
@@ -206,7 +211,6 @@ T After the Fall|QID|27624|M|64.47,28.02|N|To Harrison Jones.|
 A Do the Honors|QID|27669|M|64.47,28.02|N|From Harrison Jones.|
 C Do the Honors|QID|27669|U|62054|M|64.48,31.04|N|Use the Orbs of the Stars. Watch the cinematic and be teleported outside.|
 T Do the Honors|QID|27669|M|63.90,33.90|N|To Harrison Jones.|
-T Impending Retribution|QID|28134|M|54.93,32.80|N|To King Phaoris.|
 
 A That Gleam in his Eye|QID|27899|M|54.29,35.23|N|From Adarrah.|
 T Al'Akir's Vengeance|QID|28135|M|45.23,37.92|N|To Prince Nadun.|

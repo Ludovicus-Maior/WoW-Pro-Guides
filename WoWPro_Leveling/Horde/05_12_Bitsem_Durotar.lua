@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-06-25 01:32
+-- Who: Crackerhead22
+-- Log: ! Missing A step for step T qid 24721 - 24712 is wrong QID, fixed to 24751
+
+-- URL: http://wow-pro.com/node/3199/revisions/24536/view
 -- Date: 2011-06-08 23:20
 -- Who: Fluclo
 -- Log: Shouldn't be a need to grind in Cataclysm, so tweaked to remove any grinding. 

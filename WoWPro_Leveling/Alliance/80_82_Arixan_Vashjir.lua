@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2011-06-25 01:29
+-- Who: Crackerhead22
+-- Log: ! Duplicate A step for qid 26144 - Removed line
+
+-- URL: http://wow-pro.com/node/3305/revisions/24564/view
 -- Date: 2011-06-20 02:54
 -- Who: Crackerhead22
 -- Log: Removed PRE tags for "Devout Assembly", "Her Lady's Hand".
@@ -694,7 +699,6 @@ C Prisoners|QID|26144|RANK|2|M|31.2,58.8|Z|Abyssal Depths|N|Free Prisoners.|S|O|
 C Runestones of Binding|QID|26141|S|N|Kill any Twilight Candidates you see until you get 7 Runestones of Binding.|
 C Ascend No More|QID|26142|M|28.1,57.5|Z|Abyssal Depths|N|Avoid the center of the room, as it is guarded by elites. Run along the outside wall of the main chamber, to the ridge opposite the Brain Room. Destroy Ancient Conduits.|
 C Runestones of Binding|QID|26141|US|M|30.4,58.8;28,56.3;28.8,61.9;33.1,65.9;35.6,64.6;33.5,59.8|Z|Abyssal Depths|N|Collect remaining Runestones.|
-A Prisoners|QID|26144|RANK|2|US|U|57102|N|One of the Twilight-Mobs will drop a Twilight Key. Use it to accept the quest.|
 C Prisoners|QID|26144|RANK|2|M|31.2,58.8|Z|Abyssal Depths|N|Free Prisoners.|US|O|
 T Prisoners|QID|26144|RANK|2|M|31.2,58.8|Z|Abyssal Depths|N|Quest ends automatic.|
 T Runestones of Binding|QID|26141|M|38.7,44.8|Z|Abyssal Depths|N|To L'ghorek.|
