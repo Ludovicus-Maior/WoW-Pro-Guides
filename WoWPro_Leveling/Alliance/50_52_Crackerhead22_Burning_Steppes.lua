@@ -148,10 +148,10 @@ A Blackened Ashes|QID|28311|M|73.51,67.07|N|From Colonel Troteman.|
 A Latent Demons of the Land|QID|28312|M|73.51,67.07|N|From Colonel Troteman.|
 A A Heap of Delicious Worg|QID|28313|M|73.51,67.07|
 C A Heap of Delicious Worg|QID|28313|U|63427|M|72.57,56.14|N|Kill the worgs around this spot. Loot before you use the knife or you will lose out on the loot.|
+C SEVEN! YUP!|QID|28415|S|M|66.24,70.82|T|Flamefly|N|Grab these as you get the Flamekin corpses.|
 C Blackened Ashes|QID|28311|M|62.80,39.92|N|Warning to spellcasters: the elementals have a 20% spell reflect. Kill any elemental you see on the way to the waypoint.|
-C SEVEN! YUP!|QID|28415|S|M|66.24,70.82|N|Grab these as you get the Flamekin corpses.|
 C Latent Demons of the Land|QID|28312|M|66.24,70.82|N|Kill and loot Flamekin Imps.|
-C SEVEN! YUP!|QID|28415|US|M|66.24,70.82|N|Grab these as you get the Flamekin corpses.|
+C SEVEN! YUP!|QID|28415|US|M|66.24,70.82|T|Flamefly|N|Grab these as you get the Flamekin corpses.|
 T SEVEN! YUP!|QID|28415|M|71.97,67.99|N|To Oralius. You get a new companion pet. A "Tiny Flamefly".|
 T Blackened Ashes|QID|28311|M|73.52,67.13|N|To Colonel Troteman.|
 T Latent Demons of the Land|QID|28312|M|73.52,67.13|N|To Colonel Troteman.|
@@ -176,7 +176,7 @@ A A Delivery for Thorg'izog|QID|28317|M|73.58,67.07|N|From Colonel Troteman.|
 A A Delivery for Neeralak|QID|28318|M|73.58,67.07|N|From Colonel Troteman.|
 A A Delivery for Xi'lun|QID|28319|M|73.58,67.07|N|From Colonel Troteman.|
 T A Delivery for Thorg'izog|U|63357|QID|28317|M|65.12,46.66|N|Put on your disguise, then head towards General Thorg'izog. Enter the cave at the waypoint, at the split head left.|
-T A Delivery for Xi'lun|QID|28319|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|N|To High Warlock Xi'lun Follow the path up, he is in the cave.|
+T A Delivery for Xi'lun|QID|28319|M|68.88,44.14;66.31,37.96;63.79,37.81;69.52,43.10|N|To High Warlock Xi'lun Follow the path up, he is in the cave.|
 T A Delivery for Neeralak|QID|28318|M|70.88,38.13|N|To Dragon-Lord Neeralak. Enter the cave at the waypoint, at the split head left.|
 A Locked and Loaded|QID|28327|M|69.52,43.10|N|(UI Alert)|
 T Locked and Loaded|QID|28327|M|73.53,67.08|N|To Colonel Troteman.|

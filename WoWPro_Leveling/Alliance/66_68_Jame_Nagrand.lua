@@ -42,19 +42,25 @@ R Nagrand|QID|9792|N|Go to Nagrand.|M|20.30,55.60|
 A I Must Have Them! |QID|10109|M|61.7,67.1|N|From Wazat.|
 N From now on...|QID|9861|N|From now on, kill Air Elementals until you get the Howling Wind, and kill Wild Elekks (you will need 3 Pairs of Ivory Tusks for a quest).|
 A Do My Eyes Deceive Me |QID|9917|M|55.0,70.5|N|From Huntress Bintook.|
+C Boulderfist Plans |QID|9917|N|Kill Boulderfist Hunters until you get the Boulderfist Plans.|L|25468|M|61.00,71.00|
+T Do My Eyes Deceive Me |QID|9917|M|55.0,70.5|N|To Huntress Bintook.|
+A Not On My Watch! |QID|9918|M|55.0,70.5|N|From Huntress Bintook.|
+C Not On My Watch! |N|Attack Lump until he becomes non-hostile, then talk to him.|QID|9918|M|62.00,72.00|
+N Get Kuranai reputation|QID|10476|N|Kill Ogres until you missing less then 500 reputation points to be Neutral with Kuranai. If you did the Zangarmarsh quests, you should already be OK. You need to be Neutral to get the follwing quests in the guide. Click when done.|
+T Not On My Watch! |QID|9918|M|55.0,70.5|N|To Huntress Bintook.|
 A The Nesingwary Safari |QID|10113|M|54.98,70.47|N|From "Shotgun" Jones.|
 A Fierce Enemies |QID|10476|M|54.8,71.0|N|From Warden Moi'bff Jill.|
 A Wanted: Giselda the Crone|QID|9936|M|54.65,70.80|N|From the Telaar Bulletin Board.|
 A Wanted: Zorbo the Advisor|QID|9940|M|54.65,70.80|N|From the Telaar Bulletin Board.|
-T A Message to Telaar |QID|9792|M|54.8,71.0|N|To Nahuud.|
+T A Message to Telaar |QID|9792|M|54.8,71.0|N|To Nahuud.|O|
 A The Throne of the Elements |QID|9869|M|55.5,68.8|N|From Elementalist Ioki.|
 A Solving the Problem |QID|9878|M|54.5,72.2|N|Frmo Poli'lukluk the Wiser.|
 A Stopping the Spread |QID|9874|M|54.5,72.2|N|From Otonbu the Sage.|
 A The Ravaged Caravan |QID|9956|M|54.2,70.0|N|From Huntress Kima. She wanders around the village.|
 f Telaar |QID|10251|N|Get the flight path.|M|54.20,75.05|
 
-T The Master's Grand Design? |QID|10251|N|To Nitrin the Learned.|M|51.77,56.88|
-A Vision of the Dead |QID|10252|N|From Nitrin the Learned.|M|51.77,56.88|
+T The Master's Grand Design? |QID|10251|N|To Nitrin the Learned.|M|51.77,56.88|O|
+A Vision of the Dead |QID|10252|PRE|10251|O|N|From Nitrin the Learned.|M|51.77,56.88|
 T The Nesingwary Safari|QID|10113|N|To Hemet Nesingwary.|M|71.46,40.7|
 A Talbuk Mastery (part 1)|QID|9857|M|71.6,40.5|N|From Harold Lane.|
 A Windroc Mastery (part 1)|QID|9854|M|71.6,40.5|N|From Shado 'Fitz' Farstrider.|
@@ -93,18 +99,18 @@ T The Tortured Earth|QID|9819|M|61.8,24.4|N|To Gordawg.|
 A Eating Damnation|QID|9821|M|61.8,24.4|N|From Gordawg.|
 N Sell junk, repair, restock, train skills|QID|10109|N|Sell junk, repair, restock, train skills |
 N Mana Tombs |QID|10109|N|You can do Mana Tombs if you want, for XP |
-F Telaar|N|Fly or run to Telaar.|N|
+F Telaar|N|Fly or run to Telaar.|N|M|54.20,75.05|
 
 N From now on...|QID|9855|N|From now on, kill the mobs you need for the mastery quests if you see them.|
-C Boulderfist Plans |QID|9917|N|Kill Boulderfist Hunters until you get the Boulderfist Plans.|L|25468|M|61.00,71.00|
+;C Boulderfist Plans |QID|9917|N|Kill Boulderfist Hunters until you get the Boulderfist Plans.|L|25468|M|61.00,71.00|
 T I Must Have Them! |QID|10109|M|61.7,67.1|N|To Wazat.|
 A Bring Me The Egg! |QID|10111|N|From Wazat.|M|61.7,67.1|
 C Bring Me The Egg! |N|Get a group for this quest (if needed), if you don't have a flying mount then use the Jump-O-Matic, jump up to the birds nest (if you have a flying mount, fly up there), take the egg, and kill the elite.|QID|10111|M|62.00,67.00|
 T Bring Me The Egg! |QID|10111|N|To Wazat.|M|61.7,67.1|
-T Do My Eyes Deceive Me |QID|9917|M|55.0,70.5|N|To Huntress Bintook.|
-A Not On My Watch! |QID|9918|M|55.0,70.5|N|From Huntress Bintook.|
-C Not On My Watch! |N|Attack Lump until he becomes non-hostile, then talk to him.|QID|9918|M|62.00,72.00|
-T Not On My Watch! |QID|9918|M|55.0,70.5|N|To Huntress Bintook.|
+;T Do My Eyes Deceive Me |QID|9917|M|55.0,70.5|N|To Huntress Bintook.|
+;A Not On My Watch! |QID|9918|M|55.0,70.5|N|From Huntress Bintook.|
+;C Not On My Watch! |N|Attack Lump until he becomes non-hostile, then talk to him.|QID|9918|M|62.00,72.00|
+;T Not On My Watch! |QID|9918|M|55.0,70.5|N|To Huntress Bintook.|
 A Mo'mor the Breaker |QID|9920|M|55.0,70.5|N|From Huntress Bintook.|
 T Mo'mor the Breaker |QID|9920|M|54.5,72.2|N|To M'mor the Breaker.|
 A The Ruins of Burning Blade |QID|9921|M|54.5,72.2|N|From Mo'mor the Breaker.|
@@ -193,7 +199,7 @@ l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
 C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|
 C Clefthoof Mastery (part 3)|N|Make sure you have a group if needed for this quest and then kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
-K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
+K Gava'xi|T|Gava'xi|N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
 C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this area and kill the Minions until you finish this quest.|QID|9849|M|38.00,82.00|U|24501|
 T The Twin Clefts of Nagrand|QID|9922|M|54.5,72.2|N|To Mo'mor the Breaker.|
 A Diplomatic Measures |QID|10108|M|54.5,72.2|N|From Mo'mor the Breaker.|
@@ -235,9 +241,9 @@ C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earl
 
 N Ring of Blood|N|Look for a group for Ring of Blood quests if you wish. Look for a group for the Windroc Mastery and Talbuk Mastery quests also if need be.|
 K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper (you may or may not need a group) and loot his eye.|T|Gutripper|L|24513|S|
-l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|L|28667|
+l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|L|28667|O|
 K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper (you may or may not need a group) and loot his eye. He wanders around where the waypoints are.|T|Gutripper|L|24513|US|
-l Mountain Gronn Eyeball|QID|10252|N|Kill the Mountain Gronn on this path and loot the eyeball.|L|28665|M|30.00,32.00|T|Mountain Gronn|
+l Mountain Gronn Eyeball|QID|10252|N|Kill the Mountain Gronn on this path and loot the eyeball.|L|28665|M|30.00,32.00|T|Mountain Gronn|O|
 C The Ravaged Caravan|N|Get the crates needed for this quest.|QID|9956|M|27.00,23.00|S|
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|S|
 T Corki's Ransom|QID|9954|M|27.00,23.00|N|Go in the cave here, go to the back of the cave and find Corki. Turn the quest in, be careful of the elite.|
@@ -248,14 +254,14 @@ C Gurok the Usurper|N|Use the skulls at the pulsating purple circle. Kill Gurok 
 C Cho'war the Pillager |QID|9955|M|27.00,23.00|N|Go in the cave here, go to the back of the cave and find Corki. Right click on the cage to let the moron out.|
 C The Ravaged Caravan|N|Get the rest of the crates needed for this quest while looking for a group for Cho'War the Pillager and Gurok the Usurper.|QID|9956|M|27.00,23.00|US|
 
-l Aged Clefthoof Blubber |QID|10252|N|Kill Aged Clefthoofs until you get the Blubber.|L|28668 1|M|27.00,41.00|
+l Aged Clefthoof Blubber |QID|10252|N|Kill Aged Clefthoofs until you get the Blubber.|L|28668 1|M|27.00,41.00|O|
 C Ortor My Old Friend... |N|Go here and kill Ortor.|QID|9873|M|31.00,42.00|
 T Gava'xi |QID|9900|M|30.8,58.1|N|To Zerid.|
 T Matters of Security |QID|9925|M|30.8,58.1|N|To Zerid.|
 T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|
 
-T Vision of the Dead |QID|10252|N|To Nitrin the Learned.|M|51.74,56.9|
-A Levixus the Soul Caller |QID|10253|M|51.74,56.9|N|From Nitrin the Learned. This takes you into a dungeon, so this is optional.|
+T Vision of the Dead |QID|10252|N|To Nitrin the Learned.|M|51.74,56.9|O|
+A Levixus the Soul Caller |QID|10253|PRE|10252|M|51.74,56.9|N|From Nitrin the Learned. This takes you into a dungeon, so this is optional.|
 T The Ravaged Caravan |QID|9956|M|54.2,70.0|N|To Huntress Kima, find her wandering around Telaar.|
 T Wanted: Giselda the Crone |QID|9936|M|54.8,71.0|N|To Waden Moi'bff Jill.|
 T Wanted: Zorbo the Advisor|QID|9940|M|54.8,71.0|N|To Waden Moi'bff Jill.|

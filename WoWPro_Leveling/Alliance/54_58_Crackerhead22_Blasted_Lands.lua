@@ -84,13 +84,13 @@ T Attune the Bloodstone|QID|26158|M|62.32,26.23|N|To Kasim Sharim.|
 A The First Step|QID|26159|M|62.32,26.23|N|From Kasim Sharim.|
 A A Bloodmage's Gotta Eat Too|QID|26172|M|62.32,26.23|N|From Kasim Sharim.|
 C A Bloodmage's Gotta Eat Too|QID|26172|S|M|51.64,25.98|N|Use the Bloodstone Teleporter to get out of the cave.  Kill any boar you come across.|
-C The First Step|QID|26159|M|48.47,30.66;52.38,27.17|N|The basilisks are primarily on the east side of the road, while the hyenas are on the west side of the road.|
+C The First Step|QID|26159|N|The basilisks are primarily on the east side of the road, while the hyenas are on the west side of the road.|
 C A Bloodmage's Gotta Eat Too|QID|26172|US|M|51.64,25.98|N|Kill any boar you come across.|
 A One Draenei's Junk...|QID|25771|O|U|10593|N|You may or may not get this while killing in the Blasted Lands..  If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
 T One Draenei's Junk...|QID|25771|O|M|49.01,31.81|N|To Kum'isha the Collector.|
 A Kum'isha's Endeavors|QID|25772|O|U|8244|N|You may or may not get this while killing in the Blasted Lands..  If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
 T Kum'isha's Endeavors|QID|25772|O|N|To Kum'isha the Collector.|
-T The First Step|QID|26159|M|62.64,26.19|N|To Kasim Sharim.|
+T The First Step|QID|26159|M|61.4,29.9|N|Use the Bloodstone Teleporter to get to Kasim Sharim.|
 A Blood Ritual|QID|26160|M|62.64,26.19|N|From Kasim Sharim.|
 T A Bloodmage's Gotta Eat Too|QID|26172|M|62.64,26.19|N|To Kasim Sharim.|
 C Blood Ritual|QID|26160|NC|M|62.64,26.19|N|Talk to Kasim to get it started.|
@@ -117,7 +117,7 @@ C False Idols|QID|25705|US|M|61.20,62.76|N|Smash the idols as you go.|
 T False Idols|QID|25705|M|70.99,59.90|N|To Neptool.|
 T Neptool's Revenge|QID|25706|M|70.99,59.90|N|To Neptool.|
 H Nethergarde Keep|QID|26168|N|Hearth back to Nethergarde Keep.|
-r Sell junk, repair/restock.|QID|26168|
+r Sell junk, repair/restock.|QID|26168|M|61.7,15.2|
 T The Amulet of Allistarj|QID|26167|M|61.37,29.93|N|Click on the Bloodstone Telepoter to get to Kasim Sharim.|
 T The Amulet of Sevine|QID|26168|M|62.39,26.22|N|To Kasim Sharim.|
 T The Amulet of Grol|QID|26169|M|62.39,26.22|N|To Kasim Sharim.|
@@ -132,7 +132,7 @@ C The Vile Blood of Demons|QID|26165|S|N|Kill any and all demons you see for the
 K Protecting Our Rear|QID|26173|QO|Shahandana slain: 1/1|M|57.26,50.19;60,43.4|N|Kill Shahandana.|
 K Protecting Our Rear|QID|26173|QO|Gomegaz slain: 1/1|M|51.59,42.26|N|Gomegaz's turn to die.|
 C Protecting Our Rear|QID|26173|QO|Jarroc Torn-Wing slain: 1/1|M|44,47.74|N|And finally Jarroc Torn-Wing's turn.|
-C The Vile Blood of Demons|QID|26165|N|Kill any and all demons for their blood.|
+C The Vile Blood of Demons|QID|26165|US|N|Kill any and all demons for their blood.|
 C The Charred Granite of the Dark Portal|QID|26164|US|U|56024|N|Look for the sparkling stones as you go.|
 T The Charred Granite of the Dark Portal|QID|26164|M|55.00,49.57|N|To Watcher Grimeo.|
 T The Vile Blood of Demons|QID|26165|M|55.00,49.57|N|To Watcher Grimeo.|
@@ -158,7 +158,7 @@ T The Final Ritual|QID|26170|M|62.38,26.02|N|To Loramus Thalipedes.|
 A You Are Rakh'likh, Demon|QID|26171|M|62.38,26.02|N|From Loramus Thalipedes.|
 C You Are Rakh'likh, Demon|QID|26171|U|56012|M|46.5,21.67|N|Speak with the Deathly Usher.  Kill Razelikh, and then once he enters Loramus, get him down in health then use the Stone Knife when he says too.|
 H Nethergarde Keep|QID|26171|U|56012|N|Hearth to Nethergarde Keep, or if you wish, you can jump down the mountain.|
-r Sell junk, repair/restock.|QID|26171|
+r Sell junk, repair/restock.|QID|26171|M|61.7,15.2|
 R The Dark Portal|QID|26171|M|53.7,42.85|N|Run to The Dark Portal.|
 T You Are Rakh'likh, Demon|QID|26171|M|54.98,49.59|N|To Watcher Grimeo.|
 R Surwich|QID|26175|M|53.61,41.96;62.98,40;68.22,45.45;71.95,56.88;66.28,65.47;57.46,70.17;50.16,78.33;47.17,85.47|N|Follow the waypoints to Surwich.|
@@ -168,7 +168,7 @@ A Wormthorn's Dream|QID|26184|M|46.41,87.09|N|From Mayor Charlton Connisport.|
 f Surwich|QID|26184|M|47.10,89.20|N|At Graham McAllister.|
 h Surwich|QID|26184|M|44.42,87.70|N|Set your hearth with Donna Berrymore.|
 C Wormthorn's Dream|QID|26184|S|M|38.77,70|N|Kill any Doomguard Destoryer, Dreadlord Defilier, and Corrupted Darkwood Treant you see.|
-K Wormthorn's Dream|QID|26184|QO|Felspore Bog Lord slain: 3/3|M|38.77,70|N|Go here to kill the Felspore Bog Lords.|
+K Wormthorn's Dream|QID|26184|QO|Felspore Bog Lord slain: 3/3|M|38.77,70;34.6,75.9|N|Go here to kill the Felspore Bog Lords.|
 C Wormthorn's Dream|QID|26184|US|N|Kill any Doomguard Destoryer, Dreadlord Defilier, and Corrupted Darkwood Treant you need left.|
 T Wormthorn's Dream|QID|26184|M|46.45,87.02|N|To Mayor Charlton Connisport.|
 A Advice from the Cenarion Circle|QID|26185|M|46.45,87.02|N|From Mayor Charlton Connisport.|

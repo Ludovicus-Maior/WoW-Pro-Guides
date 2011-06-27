@@ -334,7 +334,7 @@ C Cruel Taskmasters |N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M
 C Keep Thornfang Hill Clear! |N|Kill the mobs for this quest while looking for a group for Colossal Menace.|QID|10159|M|10.00,52.00|
 C Colossal Menace |N|Find a group to do this quest, then kill Giants in the northwest part of the zone.|QID|10132|M|15,45|
 l Crimson Crystal Shard|QID|10134|N|Make sure you have one of these items from the giants, unless you have already done the quest Crimson Crystal Clue.|L|29476|M|15,45|
-A Crimson Crystal Clue|N|Right-click the Shard to start the quest.|QID|10134|M|15,45|
+A Crimson Crystal Clue|N|Right-click the Shard to start the quest.|QID|10134|M|15,45|U|29476|
 
 T Colossal Menace|QID|10132|N|To Tola'thion.|M|15.62,52.12|
 T Crimson Crystal Clue|QID|10134|N|To Tola'thion.|M|15.62,52.12|

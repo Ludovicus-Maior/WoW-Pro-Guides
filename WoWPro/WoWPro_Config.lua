@@ -1,8 +1,27 @@
+local _addonname, _addon = ...
+
+-------------------------------------------------------------------------------
+-- Localized Lua globals
+-------------------------------------------------------------------------------
+local _G = getfenv(0)
+
+local ipairs = _G.ipairs
+local pairs = _G.pairs
+
+local UIParent = _G.UIParent
+
+local InterfaceOptions_AddCategory = _G.InterfaceOptions_AddCategory
+local PlaySoundFile = _G.PlaySoundFile
+
+local LibStub = _G.LibStub
+
 -----------------------------
 --      WoWPro_Config      --
 -----------------------------
 
-local L = WoWPro_Locale
+local WoWPro = _G.LibStub("AceAddon-3.0"):GetAddon("WoWPro")
+
+local L = _G.WoWPro_Locale
 local config = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
 
@@ -12,14 +31,14 @@ function WoWPro:RefreshConfig()
 end
 
 function WoWPro:SetDefaults()
-	
+
 	-- MainFrame --
 	WoWPro.MainFrame:SetHeight(300)
 	WoWPro.MainFrame:SetWidth(200)
 	WoWPro.MainFrame:SetMinResize(150,40)
 	WoWPro.MainFrame:ClearAllPoints()
 	WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
-	
+
 	WoWPro:RefreshConfig()
 end
 
@@ -32,6 +51,8 @@ local soundfiles = {
 }
 
 local function CreateDisplayConfig()
+	local WoWProDB, WoWProCharDB = WoWPro.DB, WoWPro.CharDB
+
 	local options = {
 		type = "group",
 		name = L["WoW-Pro Guides"],
@@ -46,21 +67,21 @@ local function CreateDisplayConfig()
 						order = 0,
 						type = "description",
 						name = L["On this page you can edit the way the guide frame looks."],
-					},  
+					},
 					blank = {
 						order = 1,
 						type = "description",
 						name = " ",
-					}, 
+					},
 					drag = {
 						order = 2,
 						type = "toggle",
 						name = L["Enable Drag"],
 						desc = L["Enables the guide window to be moved by clicking anywhere on it and dragging"],
 						get = function(info) return WoWProDB.profile.drag end,
-						set = function(info,val) WoWProDB.profile.drag = val 
+						set = function(info,val) WoWProDB.profile.drag = val
 							WoWPro.DragSet() end,
-					},  
+					},
 					anchorpoint = {
 						order = 3,
 						type = "select",
@@ -79,9 +100,9 @@ local function CreateDisplayConfig()
 								BOTTOMRIGHT = "Bottom Right"
 							},
 						get = function(info) return WoWProDB.profile.anchorpoint end,
-						set = function(info,val) WoWProDB.profile.anchorpoint = val 
+						set = function(info,val) WoWProDB.profile.anchorpoint = val
 							WoWPro.AnchorSet() end
-					},  
+					},
 					padding = {
 						order = 3,
 						type = "range",
@@ -89,7 +110,7 @@ local function CreateDisplayConfig()
 						desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
 						min = 0, max = 20, step = 1,
 						get = function(info) return WoWProDB.profile.pad end,
-						set = function(info,val) WoWProDB.profile.pad = val 
+						set = function(info,val) WoWProDB.profile.pad = val
 							WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
 					},
 					spacing = {
@@ -108,7 +129,7 @@ local function CreateDisplayConfig()
 						name = L["Mouseover Notes"],
 						desc = L["Show notes on mouseover instead of always displaying them."],
 						get = function(info) return WoWProDB.profile.mousenotes end,
-						set = function(info,val) WoWProDB.profile.mousenotes = val 
+						set = function(info,val) WoWProDB.profile.mousenotes = val
 							WoWPro.RowSizeSet() end
 					},
 					minimap = {
@@ -117,27 +138,27 @@ local function CreateDisplayConfig()
 						name = L["Minimap Button"],
 						desc = L["Show/hide WoW-Pro mini map button."],
 						get = function(info) return not WoWProDB.profile.minimap.hide end,
-						set = function(info,val) WoWProDB.profile.minimap.hide = not val 
+						set = function(info,val) WoWProDB.profile.minimap.hide = not val
 							 WoWPro.MinimapSet() end
-					}, 
+					},
 					track = {
 						order = 4,
 						type = "toggle",
 						name = L["Quest Tracking"],
 						desc = L["Allows tracking of quests in the guide frame"],
 						get = function(info) return WoWProDB.profile.track end,
-						set = function(info,val) WoWProDB.profile.track = val 
+						set = function(info,val) WoWProDB.profile.track = val
 							WoWPro:UpdateGuide() end
-					},    
+					},
 					showcoords = {
 						order = 4,
 						type = "toggle",
 						name = L["Show Coordinates"],
 						desc = L["Shows the coordinates in the note text."],
 						get = function(info) return WoWProDB.profile.showcoords end,
-						set = function(info,val) WoWProDB.profile.showcoords = val 
+						set = function(info,val) WoWProDB.profile.showcoords = val
 							WoWPro:UpdateGuide() end
-					},     
+					},
 					autoload = {
 						order = 4,
 						type = "toggle",
@@ -145,15 +166,15 @@ local function CreateDisplayConfig()
 						desc = L["Will automatically load the next guide when you complete one."],
 						get = function(info) return WoWProDB.profile.autoload end,
 						set = function(info,val) WoWProDB.profile.autoload = val end
-					},    
+					},
 					guidescroll = {
 						order = 4,
 						type = "toggle",
 						name = L["Scroll Mode"],
 						desc = L["Displays full, scrollable guide in guide frame, instead of need-to-know info."],
 						get = function(info) return WoWProDB.profile.guidescroll end,
-						set = function(info,val) WoWProDB.profile.guidescroll = val 
-							WoWPro:TitlebarSet() 
+						set = function(info,val) WoWProDB.profile.guidescroll = val
+							WoWPro:TitlebarSet()
 							WoWPro:UpdateGuide() end
 					},
 					checksoundfile = {
@@ -187,20 +208,20 @@ local function CreateDisplayConfig()
 						desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
 						min = 1, max = 3, step = 1,
 						get = function(info) return WoWProDB.profile.rank end,
-						set = function(info,val) WoWProDB.profile.rank = val 
+						set = function(info,val) WoWProDB.profile.rank = val
 							WoWPro.UpdateGuide() end,
 						width = "double"
-					}, 
+					},
 					blank2 = {
 						order = 7,
 						type = "description",
 						name = " ",
-					},  
+					},
 					resizeheading = {
 						order = 7,
 						type = "header",
 						name = L["Resize Settings"],
-					}, 
+					},
 					resize = {
 						order = 8,
 						type = "toggle",
@@ -217,7 +238,7 @@ local function CreateDisplayConfig()
 						name = L["Auto Resize"],
 						desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
 						get = function(info) return WoWProDB.profile.autoresize end,
-						set = function(info,val) WoWProDB.profile.autoresize = val 
+						set = function(info,val) WoWProDB.profile.autoresize = val
 							if val then WoWProDB.profile.resize = false end
 							WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
 					},
@@ -231,7 +252,7 @@ local function CreateDisplayConfig()
 						set = function(info,val) WoWProDB.profile.numsteps = val
 							WoWPro.RowSizeSet() end,
 						width = "double"
-					}, 
+					},
 					minresizeh = {
 						order = 9,
 						type = "range",
@@ -241,7 +262,7 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.hminresize end,
 						set = function(info,val) WoWProDB.profile.hminresize = val
 							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
-					}, 
+					},
 					minresizev = {
 						order = 9,
 						type = "range",
@@ -251,12 +272,12 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.vminresize end,
 						set = function(info,val) WoWProDB.profile.vminresize = val
 							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
-					}, 
+					},
 					blank3 = {
 						order = 11,
 						type = "description",
 						name = " ",
-					},  
+					},
 					titleheading = {
 						order = 11,
 						type = "header",
@@ -268,7 +289,7 @@ local function CreateDisplayConfig()
 						name = L["Enable Title Bar"],
 						desc = L["Enables/disables the title bar attached to the guide window."],
 						get = function(info) return WoWProDB.profile.titlebar end,
-						set = function(info,val) WoWProDB.profile.titlebar = val 
+						set = function(info,val) WoWProDB.profile.titlebar = val
 							WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
 					},
 					titlecolor = {
@@ -278,7 +299,7 @@ local function CreateDisplayConfig()
 						desc = L["Background color for the title bar."],
 						hasAlpha = true,
 						get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
-						set = function(info,r,g,b,a) 
+						set = function(info,r,g,b,a)
 							WoWProDB.profile.titlecolor = {r,g,b,a}
 							WoWPro.TitlebarSet() end
 					},
@@ -286,7 +307,7 @@ local function CreateDisplayConfig()
 						order = 13,
 						type = "description",
 						name = " ",
-					},  
+					},
 					bgheading = {
 						order = 13,
 						type = "header",
@@ -304,7 +325,7 @@ local function CreateDisplayConfig()
 								values[hashtable[handle]] = handle
 							end
 							return values end,
-						get = function(info) 
+						get = function(info)
 							return WoWProDB.profile.bgtexture end,
 						set = function(info,val) WoWProDB.profile.bgtexture = val
 							WoWPro.BackgroundSet() end
@@ -316,7 +337,7 @@ local function CreateDisplayConfig()
 						desc = L["Background color for the guide window"],
 						hasAlpha = true,
 						get = function(info) return WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3] ,WoWProDB.profile.bgcolor[4] end,
-						set = function(info,r,g,b,a) 
+						set = function(info,r,g,b,a)
 							WoWProDB.profile.bgcolor = {r,g,b,a}
 							WoWPro.BackgroundSet() end
 					},
@@ -332,7 +353,7 @@ local function CreateDisplayConfig()
 								values[hashtable[handle]] = handle
 							end
 							return values end,
-						get = function(info) 
+						get = function(info)
 							return WoWProDB.profile.bordertexture end,
 						set = function(info,val) WoWProDB.profile.bordertexture = val
 							WoWPro.border = true
@@ -344,7 +365,7 @@ local function CreateDisplayConfig()
 						name = L["Enable Border"],
 						desc = L["Enables/disables the border around the guide window."],
 						get = function(info) return WoWProDB.profile.border end,
-						set = function(info,val) WoWProDB.profile.border = val 
+						set = function(info,val) WoWProDB.profile.border = val
 							WoWPro.BackgroundSet() end
 					},
 					stickytexture = {
@@ -359,7 +380,7 @@ local function CreateDisplayConfig()
 								values[hashtable[handle]] = handle
 							end
 							return values end,
-						get = function(info) 
+						get = function(info)
 							return WoWProDB.profile.stickytexture end,
 						set = function(info,val) WoWProDB.profile.stickytexture = val
 							WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
@@ -371,7 +392,7 @@ local function CreateDisplayConfig()
 						desc = L["Background color for the sticky step frames."],
 						hasAlpha = true,
 						get = function(info) return WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3] ,WoWProDB.profile.stickycolor[4] end,
-						set = function(info,r,g,b,a) 
+						set = function(info,r,g,b,a)
 							WoWProDB.profile.stickycolor = {r,g,b,a}
 							WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
 					},
@@ -379,7 +400,7 @@ local function CreateDisplayConfig()
 						order = 20,
 						type = "description",
 						name = " ",
-					},  
+					},
 					textheading = {
 						order = 20,
 						type = "header",
@@ -391,14 +412,14 @@ local function CreateDisplayConfig()
 						dialogControl = 'LSM30_Font',
 						name = L["Step Font"],
 						desc = L["Font used for the main step text."],
-						values = LibStub("LibSharedMedia-3.0"):HashTable("font"), 
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"),
 						get = function(info) local values = {}
 							local list = LibStub("LibSharedMedia-3.0"):List("font")
 							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
 							for i,handle in ipairs(list) do
 								values[hashtable[handle]] = handle
 							end
-							local hash = values[WoWProDB.profile.stepfont] 
+							local hash = values[WoWProDB.profile.stepfont]
 							return hash end,
 						set = function(info,val)
 							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
@@ -423,7 +444,7 @@ local function CreateDisplayConfig()
 						desc = L["Color of the main step text."],
 						width = "full",
 						get = function(info) return WoWProDB.profile.steptextcolor[1], WoWProDB.profile.steptextcolor[2], WoWProDB.profile.steptextcolor[3] end,
-						set = function(info,r,g,b) 
+						set = function(info,r,g,b)
 							WoWProDB.profile.steptextcolor = {r,g,b}
 							WoWPro.RowFontSet() end
 					},
@@ -440,7 +461,7 @@ local function CreateDisplayConfig()
 							for i,handle in ipairs(list) do
 								values[hashtable[handle]] = handle
 							end
-							local hash = values[WoWProDB.profile.notefont] 
+							local hash = values[WoWProDB.profile.notefont]
 							return hash end,
 						set = function(info,val)
 							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
@@ -465,7 +486,7 @@ local function CreateDisplayConfig()
 						desc = L["Color of the note text."],
 						width = "full",
 						get = function(info) return WoWProDB.profile.notetextcolor[1], WoWProDB.profile.notetextcolor[2], WoWProDB.profile.notetextcolor[3] end,
-						set = function(info,r,g,b) 
+						set = function(info,r,g,b)
 							WoWProDB.profile.notetextcolor = {r,g,b}
 							WoWPro.RowFontSet() end
 					},
@@ -482,7 +503,7 @@ local function CreateDisplayConfig()
 							for i,handle in ipairs(list) do
 								values[hashtable[handle]] = handle
 							end
-							local hash = values[WoWProDB.profile.trackfont] 
+							local hash = values[WoWProDB.profile.trackfont]
 							return hash end,
 						set = function(info,val)
 							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
@@ -507,7 +528,7 @@ local function CreateDisplayConfig()
 						desc = L["Color of the tracking text."],
 						width = "full",
 						get = function(info) return WoWProDB.profile.tracktextcolor[1], WoWProDB.profile.tracktextcolor[2], WoWProDB.profile.tracktextcolor[3] end,
-						set = function(info,r,g,b) 
+						set = function(info,r,g,b)
 							WoWProDB.profile.tracktextcolor = {r,g,b}
 							WoWPro.RowFontSet() end
 					},
@@ -524,7 +545,7 @@ local function CreateDisplayConfig()
 							for i,handle in ipairs(list) do
 								values[hashtable[handle]] = handle
 							end
-							local hash = values[WoWProDB.profile.titlefont] 
+							local hash = values[WoWProDB.profile.titlefont]
 							return hash end,
 						set = function(info,val)
 							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
@@ -548,7 +569,7 @@ local function CreateDisplayConfig()
 						desc = L["Color of the title bar text."],
 						width = "full",
 						get = function(info) return WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3] end,
-						set = function(info,r,g,b) 
+						set = function(info,r,g,b)
 							WoWProDB.profile.titletextcolor = {r,g,b}
 							WoWPro:TitlebarSet() end
 					},
@@ -565,7 +586,7 @@ local function CreateDisplayConfig()
 							for i,handle in ipairs(list) do
 								values[hashtable[handle]] = handle
 							end
-							local hash = values[WoWProDB.profile.stickytitlefont] 
+							local hash = values[WoWProDB.profile.stickytitlefont]
 							return hash end,
 						set = function(info,val)
 							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
@@ -591,7 +612,7 @@ local function CreateDisplayConfig()
 						desc = L["Color of the text on the top of the sticky frame."],
 						width = "full",
 						get = function(info) return WoWProDB.profile.stickytitletextcolor[1], WoWProDB.profile.stickytitletextcolor[2], WoWProDB.profile.stickytitletextcolor[3] end,
-						set = function(info,r,g,b) 
+						set = function(info,r,g,b)
 							WoWProDB.profile.stickytitletextcolor = {r,g,b}
 							WoWPro.RowFontSet() end
 					},
@@ -605,6 +626,8 @@ local function CreateDisplayConfig()
 end
 
 local function createBlizzOptions()
+	local WoWProDB, WoWProCharDB = WoWPro.DB, WoWPro.CharDB
+
 	local options = CreateDisplayConfig()
 
 	config:RegisterOptionsTable("WoWPro-Bliz", {
@@ -625,14 +648,14 @@ local function createBlizzOptions()
 				order = 3,
 				type = "description",
 				name = " ",
-			},  
+			},
 			enable = {
 				order = 4,
 				type = "toggle",
 				name = L["Enable Addon"],
 				desc = L["Enables/Disables showing the WoW-Pro guide addons."],
 				get = function(info) return WoWProCharDB.Enabled end,
-				set = function(info,val) 
+				set = function(info,val)
 						if WoWProCharDB.Enabled then
 						    WoWProCharDB.Enabled = false
 						    WoWPro:Disable()
@@ -651,7 +674,7 @@ local function createBlizzOptions()
 			    func =  function (info) if WoWProDB.char.currentguide then
 			                local GID = WoWProDB.char.currentguide
 			                WoWPro:Print("Resetting guide "..GID)
-			                WoWProCharDB.Guide[GID].completion =  {}	
+			                WoWProCharDB.Guide[GID].completion =  {}
 	                        WoWProCharDB.Guide[GID].skipped = {}
 	                        WoWProCharDB.Guide[GID].progress = nil
 	                        WoWProCharDB.Guide[GID].total = nil
@@ -664,94 +687,95 @@ local function createBlizzOptions()
 				order = 6,
 				type = "description",
 				name = " ",
-			},    
+			},
 			aboutheader = {
 				order = 7,
 				type = "header",
 				name = "About WoW-Pro",
-			}, 
+			},
 			blank3 = {
 				order = 8,
 				type = "description",
 				name = " ",
-			},  	
+			},
 			about = {
 				order = 9,
 				type = "description",
 				fontSize = "medium",
 				name = "WoW-Pro.com is a guide website by gamers, for gamers. "
-			}, 	
+			},
 			blank5 = {
 				order = 10,
 				type = "description",
 				name = " ",
-			},  
+			},
 			about2 = {
 				order = 11,
 				type = "description",
 				fontSize = "medium",
-				name = 
+				name =
 					"The site hosts hundreds of free guides covering every facet of World of Warcraft. "
-			}, 	 	
+			},
 			blank6 = {
 				order = 12,
 				type = "description",
 				name = " ",
-			},  
+			},
 			about3 = {
 				order = 13,
 				type = "description",
 				fontSize = "medium",
-				name = 
+				name =
 					"We are most famous for our leveling guides, especially those written by the site administrator, Jame. "
-			}, 	 	
+			},
 			blank7 = {
 				order = 14,
 				type = "description",
 				name = " ",
-			},  
+			},
 			about4 = {
 				order = 15,
 				type = "description",
 				fontSize = "medium",
-				name = 
+				name =
 					"Over the years WoW-Pro has grown into a huge, active community of gamers. "
-			},  	
+			},
 			blank8 = {
 				order = 16,
 				type = "description",
 				name = " ",
-			},  	
+			},
 			about5 = {
 				order = 17,
 				type = "description",
 				fontSize = "medium",
-				name = 
+				name =
 					"The WoW-Pro addon will bring many of the guides we've built as a community into the game, "..
 					"but if you get the chance you should definitely stop by, leave a comment saying 'Hi!', and check out "..
 					"some of the guides on WoW-Pro.com!",
-			}, 		
+			},
 		},
 	})
-	
-	profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
-	
+
+	local profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
+
 	dialog:SetDefaultSize("WoWPro-Bliz", 600, 400)
 	dialog:AddToBlizOptions("WoWPro-Bliz", "WoW-Pro")
 
 	-- Display Options
 	config:RegisterOptionsTable("WoWPro-Display", options.args.display)
 	dialog:AddToBlizOptions("WoWPro-Display", options.args.display.name, "WoW-Pro")
-	
+
 	-- Profile Options
 	config:RegisterOptionsTable("WoWPro-Profile", profiles)
 	dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro")
 
-	return blizzPanel
+	--return blizzPanel
 end
 
 function WoWPro.CreateConfig()
-	blizzPanel = createBlizzOptions()
+	--blizzPanel = createBlizzOptions()
+	createBlizzOptions()
 	InterfaceOptions_AddCategory(WoWPro.GuideList)
 	InterfaceOptions_AddCategory(WoWPro.CurrentGuideFrame)
 end
