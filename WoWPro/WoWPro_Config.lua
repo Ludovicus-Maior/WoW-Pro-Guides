@@ -642,8 +642,50 @@ local function createBlizzOptions()
 						end
 					end
 			},
+			autoSelect = {
+				order = 5,
+				type = "toggle",
+				name = L["Auto Select"],
+				desc = L["Enables/Disables automatically selecting quests from NPCs"],
+				get = function(info) return WoWProCharDB.AutoSelect end,
+				set = function(info,val) 
+						if WoWProCharDB.AutoSelect == true then
+						    WoWProCharDB.AutoSelect = false
+						else
+						    WoWProCharDB.AutoSelect = true
+						end
+					end
+			},
+			autoAccept = {
+				order = 6,
+				type = "toggle",
+				name = L["Auto Accept"],
+				desc = L["Enables/Disables automatically accepting quests from NPCs"],
+				get = function(info) return WoWProCharDB.AutoAccept end,
+				set = function(info,val) 
+						if WoWProCharDB.AutoAccept == true then
+						    WoWProCharDB.AutoAccept = false
+						else
+						    WoWProCharDB.AutoAccept = true
+						end
+					end
+			},
+			autoTurnin = {
+				order = 7,
+				type = "toggle",
+				name = L["Auto Turnin"],
+				desc = L["Enables/Disables automatically turning in quests to NPCs"],
+				get = function(info) return WoWProCharDB.AutoTurnin end,
+				set = function(info,val) 
+						if WoWProCharDB.AutoTurnin == true then
+						    WoWProCharDB.AutoTurnin = false
+						else
+						    WoWProCharDB.AutoTurnin = true
+						end
+					end
+			},
 			reset = {
-			    order = 5,
+			    order = 8,
 			    type = "execute",
 			    name = L["Reset Current Guide"],
 			    desc = L["If your current guide is behaving oddly, this wipes the state, forgets all skipped quests and resets the current guide."],
@@ -658,69 +700,69 @@ local function createBlizzOptions()
 			            end
 			},
 			blank2 = {
-				order = 6,
+				order = 9,
 				type = "description",
 				name = " ",
 			},    
 			aboutheader = {
-				order = 7,
+				order = 10,
 				type = "header",
 				name = "About WoW-Pro",
 			}, 
 			blank3 = {
-				order = 8,
+				order = 11,
 				type = "description",
 				name = " ",
 			},  	
 			about = {
-				order = 9,
+				order = 12,
 				type = "description",
 				fontSize = "medium",
 				name = "WoW-Pro.com is a guide website by gamers, for gamers. "
 			}, 	
 			blank5 = {
-				order = 10,
+				order = 13,
 				type = "description",
 				name = " ",
 			},  
 			about2 = {
-				order = 11,
+				order = 14,
 				type = "description",
 				fontSize = "medium",
 				name = 
 					"The site hosts hundreds of free guides covering every facet of World of Warcraft. "
 			}, 	 	
 			blank6 = {
-				order = 12,
+				order = 15,
 				type = "description",
 				name = " ",
 			},  
 			about3 = {
-				order = 13,
+				order = 16,
 				type = "description",
 				fontSize = "medium",
 				name = 
 					"We are most famous for our leveling guides, especially those written by the site administrator, Jame. "
 			}, 	 	
 			blank7 = {
-				order = 14,
+				order = 17,
 				type = "description",
 				name = " ",
 			},  
 			about4 = {
-				order = 15,
+				order = 18,
 				type = "description",
 				fontSize = "medium",
 				name = 
 					"Over the years WoW-Pro has grown into a huge, active community of gamers. "
 			},  	
 			blank8 = {
-				order = 16,
+				order = 19,
 				type = "description",
 				name = " ",
 			},  	
 			about5 = {
-				order = 17,
+				order = 20,
 				type = "description",
 				fontSize = "medium",
 				name = 
