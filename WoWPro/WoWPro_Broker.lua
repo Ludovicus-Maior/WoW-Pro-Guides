@@ -37,11 +37,6 @@ function WoWPro:LoadGuide(guideID)
 	local guidetype = WoWPro.loadedguide["guidetype"]
 	WoWPro:dbp("Found guide info of type "..guidetype)
 	
-	-- Creating a new entry if this guide does not have one
-	WoWProDB.char.guide[GID] = WoWProDB.char.guide[GID] or {}
-	WoWProDB.char.guide[GID].completion = WoWProDB.char.guide[GID].completion or {}
-	WoWProDB.char.guide[GID].skipped = WoWProDB.char.guide[GID].skipped or {}
-		
 	-- Running Module-specific LoadGuide() --
 	if WoWPro.loadedguide["guidetype"] == "Leveling" and WoWPro_Leveling:IsEnabled() then WoWPro_Leveling:LoadGuide() end
 	
@@ -94,23 +89,24 @@ function WoWPro:UpdateGuide(offset)
 	-- Updating the guide list or current guide panels if they are shown --
 	if WoWPro_Leveling_GuideListFrame:IsShown() then WoWPro_Leveling.UpdateGuideList() end
 	if WoWPro_Leveling_CurrentGuide:IsShown() then WoWPro_Leveling.UpdateCurrentGuidePanel() end
-	
+
+	-- TODO: make next lines module specific
 	-- Updating the progress count --
 	local p = 0
 	for j = 1,WoWPro.stepcount do
-		if ( WoWProDB.char.guide[GID].completion[j] or WoWProDB.char.guide[GID].skipped[j] )
+		if ( WoWPro_LevelingDB.guide[GID].completion[j] or WoWPro_LevelingDB.guide[GID].skipped[j] )
 		and not WoWPro.sticky[j] 
 		and not WoWPro.optional[j] then 
 			p = p + 1 
 		end
 	end
-	WoWProDB.char.guide[GID].progress = p
-	WoWProDB.char.guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
+	WoWPro_LevelingDB.guide[GID].progress = p
+	WoWPro_LevelingDB.guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
 	
-	WoWPro.TitleText:SetText(WoWPro.loadedguide["zone"].."   ("..WoWProDB.char.guide[GID].progress.."/"..WoWProDB.char.guide[GID].total..")")
+	WoWPro.TitleText:SetText(WoWPro.loadedguide["zone"].."   ("..WoWPro_LevelingDB.guide[GID].progress.."/"..WoWPro_LevelingDB.guide[GID].total..")")
 	
 	-- If the guide is complete, loading the next guide --
-	if WoWProDB.char.guide[GID].progress == WoWProDB.char.guide[GID].total and not WoWPro_Recorder then
+	if WoWPro_LevelingDB.guide[GID].progress == WoWPro_LevelingDB.guide[GID].total and not WoWPro_Recorder then
 		if WoWProDB.profile.autoload then
 			WoWProDB.char.currentguide = WoWPro.loadedguide["nextGID"]
 			WoWPro:LoadGuide()
@@ -180,9 +176,10 @@ function WoWPro.CompleteStep(step)
 	if WoWProDB.profile.checksound then	
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
-	WoWProDB.char.guide[GID].completion[step] = true
+	-- TODO: make next lines module specific
+	WoWPro_LevelingDB.guide[GID].completion[step] = true
 	for i,row in ipairs(WoWPro.rows) do
-		if WoWProDB.char.guide[GID].completion[row.index] then
+		if WoWPro_LevelingDB.guide[GID].completion[row.index] then
 			row.check:SetChecked(true)
 		else
 			row.check:SetChecked(false)
