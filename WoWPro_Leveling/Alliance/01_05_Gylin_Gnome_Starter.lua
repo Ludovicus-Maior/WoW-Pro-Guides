@@ -1,4 +1,29 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-06-28 20:27
+-- Who: Fluclo
+-- Log: Added some NC tags to Non Combat quest lines
+
+-- URL: http://wow-pro.com/node/3200/revisions/24622/view
+-- Date: 2011-06-28 20:19
+-- Who: Fluclo
+-- Log: Add location note to Mathel's Flying Machine
+
+-- URL: http://wow-pro.com/node/3200/revisions/24621/view
+-- Date: 2011-06-28 20:05
+-- Who: Fluclo
+-- Log: Inverting Dealing with the Surge and Entombed in Ice turn-in
+
+-- URL: http://wow-pro.com/node/3200/revisions/24620/view
+-- Date: 2011-06-28 19:56
+-- Who: Fluclo
+-- Log: Hand in Trouble at the Lake before taking Entombed in Ice
+
+-- URL: http://wow-pro.com/node/3200/revisions/24619/view
+-- Date: 2011-06-28 19:54
+-- Who: Fluclo
+-- Log: Correcting the Sticky of Priceless Treasures
+
+-- URL: http://wow-pro.com/node/3200/revisions/24587/view
 -- Date: 2011-06-25 00:43
 -- Who: Crackerhead22
 -- Log: Checking ../WoWPro_Leveling/Alliance/05_10_Gameldar_Dun_Morogh.lua

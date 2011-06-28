@@ -1,4 +1,29 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-06-28 20:27
+-- Who: Fluclo
+-- Log: Added some NC tags to Non Combat quest lines
+
+-- URL: http://wow-pro.com/node/3200/revisions/24622/view
+-- Date: 2011-06-28 20:19
+-- Who: Fluclo
+-- Log: Add location note to Mathel's Flying Machine
+
+-- URL: http://wow-pro.com/node/3200/revisions/24621/view
+-- Date: 2011-06-28 20:05
+-- Who: Fluclo
+-- Log: Inverting Dealing with the Surge and Entombed in Ice turn-in
+
+-- URL: http://wow-pro.com/node/3200/revisions/24620/view
+-- Date: 2011-06-28 19:56
+-- Who: Fluclo
+-- Log: Hand in Trouble at the Lake before taking Entombed in Ice
+
+-- URL: http://wow-pro.com/node/3200/revisions/24619/view
+-- Date: 2011-06-28 19:54
+-- Who: Fluclo
+-- Log: Correcting the Sticky of Priceless Treasures
+
+-- URL: http://wow-pro.com/node/3200/revisions/24587/view
 -- Date: 2011-06-25 00:43
 -- Who: Crackerhead22
 -- Log: Checking ../WoWPro_Leveling/Alliance/05_10_Gameldar_Dun_Morogh.lua
@@ -268,7 +293,7 @@ K Vagash|QID|314|T|Vagash|M|69.55,47.43|N|Kill Vagash and loot the fang for the 
 T Protecting the Herd|QID|314|M|70.31,48.26|N|To Rudra Amberstill.|
 A Rams on the Lam|QID|25905|M|70.58,48.77|N|From Veron Amberstill.|
 N Rams on the Lam|QID|25905|N|Type /macro to open the macro creation interface. Create this macro and place it on your actionbar. On the 1st line type /target Stolen Ram, then press enter, on the 2nd line type /whistle, then drag the macro to your actionbar.|
-C Rams on the Lam|QID|25905|M|69.76,57.21|N|Use your macro to target and whistle at Stolen Rams. You have to get within 15 yards of them.|
+C Rams on the Lam|QID|25905|M|69.76,57.21|N|Use your macro to target and whistle at Stolen Rams. You have to get within 15 yards of them.|NC|
 T Rams on the Lam|QID|25905|M|70.63,48.92|N|To Veron Amberstill and then sell any junk you've got to him.|
 A Help for the Quarry|QID|25933|M|70.46,48.92|N|From Sergeant Flinthammer.|
 
@@ -277,24 +302,25 @@ A The Public Servant|QID|433|M|75.88,54.30|N|From Senator Mehr Stonehallow.|
 f Gol'Bolar Quarry|QID|25986|M|75.87,54.36|N|At Dominic Galebeard.|
 T Help for the Quarry|QID|25933|M|76.31,54.60|N|To Foreman Stonebrow.|
 A Those Blasted Troggs!|QID|432|M|76.31,54.60|N|From Foreman Stonebrow.|
-C Priceless Treasures|QID|25937|S|U|56226|M|78.31,53.59|N|Collect Frozen Artifacts as you make you way through the cave.|
+C Priceless Treasures|QID|25937|S|U|56226|M|78.31,53.59|N|Collect Frozen Artifacts as you make you way through the cave.|NC|
 R Gol'Bolar Quarry Mine|QID|25937||M|77.89,54.87|N|Go down into the quarry and head into the cave.|
 C The Public Servant|QID|433|S|U|56222|M|79.53,50.06|N|Free Trapped Miners as you make you way through the cave.|T|Trapped Miner|
+C Priceless Treasures|QID|25937|US|U|56226|M|78.31,53.59|N|Finish collecting Frozen Artifacts.|NC|
 C Those Blasted Troggs!|QID|432|M|77.65,55.69|N|Finish off any Troggs you still need.|
-C Priceless Treasures|QID|25937|S|U|56226|M|78.31,53.59|N|Collect Frozen Artifacts.|
 T Priceless Treasures|QID|25937|M|76.20,53.12|N|To Prospector Drugan.|
 T Those Blasted Troggs!|QID|432|M|76.30,54.60|N|To Foreman Stonebrow.|
 T The Public Servant|QID|433|M|75.84,54.34|N|To Senator Mehr Stonehallow.|
 A Trouble at the Lake|QID|25986|M|75.91,54.26|N|From Senator Mehr Stonehallow.|
 
-A Entombed in Ice|QID|25978|M|82.79,48.36|N|From Sergeant Bahrum.|
 T Trouble at the Lake|QID|25986|M|82.79,48.36|N|To Sergeant Bahrum.|
+A Entombed in Ice|QID|25978|M|82.79,48.36|N|From Sergeant Bahrum.|
 A Dealing with the Surge|QID|25979|M|82.59,48.22|N|From Khurgorn Singefeather.|
 C Dealing with the Surge|QID|25979|M|83.41,49.78|N|Kill Helm'S Bed Surfgers.|S|
 C Entombed in Ice|QID|25978|M|82.94,50.96|N|Attack the Icy Tombs to free the Frozen Mountaineers.|
 C Dealing with the Surge|QID|25979|M|83.41,49.78|N|Kill Helm'S Bed Surfgers.|US|
-T Entombed in Ice|QID|25978|M|82.90,48.38|N|To Sergeant Bahrum.|
 T Dealing with the Surge|QID|25979|M|82.69,48.32|N|To Khurgorn Singefeather.|
+T Entombed in Ice|QID|25978|M|82.90,48.38|N|To Sergeant Bahrum.|
+
 A Dark Iron Scheming|QID|25997|M|82.80,48.38|N|From Sergeant Bahrum.|
 C Dark Iron Scheming|QID|25997|S|QO|Dark Iron Spy slain: 5/5|M|85.15,60.61|N|Kill Dark Iron Spys.|
 C Dark Iron Scheming|QID|25997|T|Captain Beld|QO|Dark Iron Attack Plans: 1/1|M|85.15,60.61|N|Kill Captain Beld and loot the Dark Iron Attack Plans.|
@@ -302,14 +328,14 @@ C Dark Iron Scheming|QID|25997|US|QO|Dark Iron Spy slain: 5/5|N|Kill Dark Iron S
 
 T Dark Iron Scheming|QID|25997|M|82.76,48.31|N|To Sergeant Bahrum.|
 A Get to the Airfield|QID|25998|M|82.76,48.31|N|From Sergeant Bahrum.|
-F Ironforge Airfield|QID|25998|M|75.28,52.80|N|Use Mathel's Flying Machine to fly to Ironforge Airfield.|
+F Ironforge Airfield|QID|25998|M|75.28,52.80|N|Use Mathel's Flying Machine at Gol'Bolar Quarry to fly to Ironforge Airfield.|
 
 T Get to the Airfield|QID|25998|M|78.21,20.48|N|To Commander Stonebreaker.|
 A Extinguish the Fires|QID|26078|M|78.21,20.48|N|From Commander Stonebreaker.|
 C Extinguish the Fires|QID|26078|U|56803|M|78.37,23.96|N|Use the Firefighting Gear to put out the fires.|
 T Extinguish the Fires|QID|26078|M|78.21,20.46|N|To Commander Stonebreaker.|
 A Rallying the Defenders|QID|26085|M|78.21,20.46|N|From Commander Stonebreaker.|
-C Rallying the Defenders|QID|26085|U|56809|M|78.42,29.65|N|Place the Ironforge Banners in Loose Snow near Dun Morogh Mountaineers in combat.|
+C Rallying the Defenders|QID|26085|U|56809|M|78.42,29.65|N|Place the Ironforge Banners in Loose Snow near Dun Morogh Mountaineers in combat.|NC|
 T Rallying the Defenders|QID|26085|M|78.21,20.47|N|To Commander Stonebreaker.|
 A Striking Back|QID|26094|M|78.21,20.47|N|From Commander Stonebreaker.|
 R Striking Back|QID|26094|M|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|
