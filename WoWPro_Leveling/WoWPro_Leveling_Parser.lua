@@ -188,11 +188,11 @@ local function ParseQuests(...)
 			local class, race, gender, faction = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
 			if class then
 				-- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
-				class = strupper(strreplace(class, " ", ""))
+				class = strupper(string.gsub(class, " ", ""))
 			end
 			if race then
 				-- deleting whitespaces to compare with Blizzard's race tokens
-				race = strreplace(race, " ", "")
+				race = string.gsub(race, " ", "")
 			end
 			if gender then
 				-- deleting leading/trailing whitespace and then canonicalize the case
