@@ -1,8 +1,8 @@
 #!/bin/sh
 
 
-if [ ! -d WowPro -o ! -d WoWPro_Leveling -o ! -d WoWPro_Dailies -o ! -d WowPro_Profession ] ; then
-    echo "# This program must be run from a directory containing WowPro, WoWPro_Leveling, WoWPro_Dailies and WowPro_Profession " 
+if [ ! -d WowPro -o ! -d WoWPro_Leveling -o ! -d WoWPro_Dailies -o ! -d WowPro_Profession -o ! -d WoWPro_WorldEvents ] ; then
+    echo "# This program must be run from a directory containing WowPro, WoWPro_Leveling, WoWPro_Dailies, WowPro_Profession and WoWPro_WorldEvents" 
     exit 1
 fi
 
@@ -15,7 +15,7 @@ echo '#' The new release number will be "[${nrelease}]".
 echo -n "# Please ^C or abort this command or hit enter to proceed:"
 read confirm
 
-for toc in WowPro/WowPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc WowPro_Profession/WowPro_Profession.toc ; do
+for toc in WowPro/WowPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc WowPro_Profession/WowPro_Profession.toc WoWPro_WorldEvents/WoWPro_WorldEvents.toc ; do
   echo '#' Moving $toc to ${toc}~
   mv ${toc} ${toc}~
   echo "#" Editing  ${toc}
@@ -26,4 +26,4 @@ done
 echo "# OK, the current version numbers are:"
 fgrep -H Version: */*.toc
 
-zip -r --include *.lua *.toc *.tga *.xml @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies WowPro_Profession 
+zip -r --include '*.lua' '*.toc' '*.tga' '*.xml' @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies WowPro_Profession WoWPro_WorldEvents

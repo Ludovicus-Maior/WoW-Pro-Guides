@@ -1,4 +1,4 @@
-## Interface: 40100
+## Interface: 40200
 ## Title: WoW-Pro Recorder
 ## Notes: Record and edit guides for use with the WoW-Pro Addon
 ## Author: Jiyambi
