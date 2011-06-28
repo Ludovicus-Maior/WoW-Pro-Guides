@@ -5,7 +5,7 @@
 local L = WoWPro_Locale
 local ROWHEIGHT, GAP, EDGEGAP = 17, 8, 16
 local titlerow, rows, offset = {}, {}, 0
-local NUMROWS = 15 
+local NUMROWS = 24
 
 -- Creating a Table of Guides for the Guide List and sorting based on level --
 local guides = {}
