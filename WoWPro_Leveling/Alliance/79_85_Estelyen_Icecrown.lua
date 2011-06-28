@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2011-06-27 22:22
+-- Who: Ludovicus Maior
+-- Log: ZoneError|Vers=2.1.16|Guide=EstIce7985|Line=A The Boon of A'dal|QID|13082|N|From A'dal.|Z|Shattrath City.|
+
+-- URL: http://wow-pro.com/node/3301/revisions/24531/view
 -- Date: 2011-06-08 03:22
 -- Who: Ludovicus Maior
 -- Log: Correct Successor
@@ -120,7 +125,7 @@ A Hope Yet Remains|QID|13080|N|From Crusader Bridenbrad.|
 T Hope Yet Remains|QID|13080|N|At Highlord Tirion Fordring.|M|79.80,71.80|
 A The Will of the Naaru|QID|13081|N|From Highlord Tirion Fordring.|
 T The Will of the Naaru|QID|13081|N|If you wait about 10 seconds, Rhydian will wander over and open up a portal to Shattrath for you. Speak to A'dal.|Z|Shattrath City|M|52.20,44.40|
-A The Boon of A'dal|QID|13082|N|From A'dal.|Z|Shattrath City.|
+A The Boon of A'dal|QID|13082|N|From A'dal.|Z|Shattrath City|
 T The Boon of A'dal|QID|13082|N|Return to Crusader Bridenbrad.|M|79.80,30.80|
 A Light Within the Darkness|QID|13083|N|After the poor Crusader ascends into the Light, search his possesions.|M|79.80,30.90|
 T Light Within the Darkness|QID|13083|N|At Highlord Tirion Fordring.|M|79.80,71.80|

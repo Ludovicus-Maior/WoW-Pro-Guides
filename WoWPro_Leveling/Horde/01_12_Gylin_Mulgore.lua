@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2011-06-27 22:15
+-- Who: Ludovicus Maior
+-- Log: Removed [Enemies Below] as it is a Level 15 quest.
+
+-- URL: http://wow-pro.com/node/3203/revisions/24510/view
 -- Date: 2011-06-07 10:50
 -- Who: Ludovicus Maior
 -- Log: Add Tauren Only Quests
@@ -265,7 +270,6 @@ T Tal the Wind Rider Master|QID|6363|M|46.69,49.82|Z|Thunder Bluff|R|Tauren|N|To
 A Return to Varg|QID|6364|M|46.69,49.82|Z|Thunder Bluff|R|Tauren|N|From Tal.|
 T Journey into Thunder Bluff|QID|24550|M|59.90,51.68|Z|Thunder Bluff|R|Tauren|N|To Baine Bloodhoof. 3rd level.|
 A War Dance|QID|24540|M|59.90,51.68|Z|Thunder Bluff|R|Tauren||N|From Baine Bloodhoof.|
-A Enemies Below|QID|26866|M|59.90,51.68|Z|Thunder Bluff|N|From Baine Bloodhoof. This is a quest for Ragefire Chasm dungeon in Orgimmar.|
 N Visit your trainer|QID|6362|N|Visit your trainer and buy any new skill/spells you have available. Ask a Bluff Watcher where you trainer's are, there are some outside the buildings either side of the building Baine Bloodhoof is in.|
 R War Dance|CC|QID|24540|M|50.94,32.06|R|Tauren|N|Take a lift from here down to the ground.|
 
