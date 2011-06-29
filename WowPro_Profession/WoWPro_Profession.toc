@@ -1,4 +1,4 @@
-## Interface: 40100
+## Interface: 40200
 ## Title: WoW-Pro Profession
 ## Notes: Profession guides
 ## Author: Twists
