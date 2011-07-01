@@ -27,17 +27,17 @@ import os
 DEAFULT_ROOT=""
 if os.name == 'nt':
     if os.access("C:\\Program Files\\World of Warcraft",os.F_OK):
-        DEFAULT_ROOT="C:\\Program Files\\World of Warcraft\\Interface\\Addons\\WoWPro_Leveling"
+        DEFAULT_ROOT="C:\\Program Files\\World of Warcraft\\Interface\\Addons"
     elif os.access("C:\\Program Files (x86)\\World of Warcraft",os.F_OK):
-        DEFAULT_ROOT="C:\\Program Files (x86)\\World of Warcraft\\Interface\\Addons\\WoWPro_Leveling"
+        DEFAULT_ROOT="C:\\Program Files (x86)\\World of Warcraft\\Interface\\Addons"
     elif os.access("D:\\World of Warcraft",os.F_OK):
-        DEFAULT_ROOT="D:\\World of Warcraft\\Interface\\Addons\\WoWPro_Leveling"
+        DEFAULT_ROOT="D:\\World of Warcraft\\Interface\\Addons"
     else:
         print "! Warning, no default install of World of Warcraft detected, better use --root"
         DEFAULT_ROOT="C:\temp"
 elif os.name == 'posix':
     if os.access("/Applications/World of Warcraft",os.F_OK):
-        DEFAULT_ROOT="/Applications/World of Warcraft/Interface/Addons/WoWPro_Leveling"
+        DEFAULT_ROOT="/Applications/World of Warcraft/Interface/Addons"
     else:
         print "! Warning, no default install of World of Warcraft detected, better use --root"
         DEFAULT_ROOT="/tmp"
@@ -81,7 +81,7 @@ class FindGuides(HTMLParser):
             return
         if tag == "img" :
             for attr in attrs:
-                if attr[0] == "src" and re.search("Button",attr[1]):
+                if attr[0] == "src" and re.search("(Button)|(open.png)",attr[1]):
                     self._list.append(self._href)
                     return
                 if attr[0] == "alt" and re.search("Source",attr[1]):
@@ -350,9 +350,9 @@ def ScrapeWoWProLua(lua):
     file=open(lua,"rU")
     _guideID = ""
     for line in file:
-        mo = re.search('WoWPro.Leveling:RegisterGuide\s*\(\s*"([^"]+)"',line)
+        mo = re.search('WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*"([^"]+)"',line)
         if not mo:
-            mo = re.search("WoWPro.Leveling:RegisterGuide\s*\(\s*'([^']+)'",line)
+            mo = re.search("WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*'([^']+)'",line)
         if mo:
             _guideID = mo.group(1)
             if Guide2File.has_key(_guideID):
@@ -368,9 +368,9 @@ def ScrapeWoWProLua(lua):
     return
         
 
-def ScrapeWoWProLeveling(RootLevelingDir):
-    RootLevelingDir=os.path.abspath(RootLevelingDir)
-    luaPath = os.path.join(RootLevelingDir,"*","[0-9]*.lua")
+def ScrapeWoWProLeveling(RootDir):
+    RootLevelingDir=os.path.abspath(RootDir)
+    luaPath = os.path.join(RootDir,"WoWPro_*","[AHN]*","*.lua")
     for lua in glob.iglob(luaPath):
         ScrapeWoWProLua(lua)
 
