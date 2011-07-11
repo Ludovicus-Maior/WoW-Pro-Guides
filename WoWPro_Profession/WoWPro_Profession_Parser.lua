@@ -103,7 +103,6 @@ function WoWPro.Profession:NextStep(k, skip)
 		for p=1,6 do
 			if profs[p] then
 				local skillName, _, skillRank, maxskill = GetProfessionInfo(profs[p])
---				WoWPro:Print("Profession: "..skillName.." ")
 				if (skillName == prof) then 
 					found = true
 					if (skillRank >= proflvl) and (skillRank < profmaxlvl) and (maxskill < profmaxskill) then
@@ -273,7 +272,7 @@ local function ParseQuests(...)
 				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 				WoWPro.target[i] = text:match("|T|([^|]*)|?")
                                     WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
-				WoWPro.prof[i] = text:match("|P|([^|]*)|?")
+				WoWPro.prof[i] = text:match("|P|([^|]*)|?") or WoWPro.Guides[WoWProDB.char.currentguide].name
 				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
 
 				for _,tag in pairs(WoWPro.Tags) do 
