@@ -211,12 +211,13 @@ function WoWPro:NextStep(k,i)
 
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep[k] then
-			local rep, temprep, replvl = string.split(",",WoWPro.rep[k])
+			local rep, factionIndex, temprep, replvl = string.split(";",WoWPro.rep[k])
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repID,repmax = string.split("-",temprep)
 			if repmax== nil then repmax = repID end
 			-- Canonicalize the case
 			rep = string.lower(rep)
+			factionIndex = tonumber(factionIndex)
 			repID = string.lower(repID)
 			repmax = string.lower(repmax) 
 			replvl = tonumber(replvl) or 0
@@ -242,36 +243,21 @@ function WoWPro:NextStep(k,i)
             
 			skip = true --reputation steps skipped by default
 			
-			local factionIndex = 1
-			local lastName
-			local foundFaction = false
-			repeat
-  				name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
-    				canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfo(factionIndex)
-    			if name == lastName then break end
-    			name=string.lower(name)
-    			-- The guide will have "Scryers" and the faction name is "The Scryers"
-				if string.find(name,rep) then
-				    foundFaction = true
-					if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
-						skip = false
-					end
-					if (replvl > 0) then
-						replvl = bottomValue + replvl
-						if (repID > standingId) then 
-							skip = false 
-						end
-						if (repID == standingId) and (earnedValue <= replvl) then
-                            skip = false
-						end
-					end
-  				end
-  				factionIndex = factionIndex + 1
-			until factionIndex > 200
-			if not foundFaction then
-			    WoWPro:Print("Unknown faction ["..rep.."]")
+			name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
+			canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
+			if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
+				skip = false
 			end
-        end	
+			if (replvl > 0) then
+				replvl = bottomValue + replvl
+				if (repID > standingId) then 
+					skip = false 
+				end
+				if (repID == standingId) and (earnedValue <= replvl) then
+                            		skip = false
+				end
+			end
+        	end	
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
@@ -290,11 +276,12 @@ function WoWPro:NextStep(k,i)
 		end
 		
 		-- Skipping any unstickies until it's time for them to display --
-		if WoWPro.unsticky[k] and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then skip = true end
+		if WoWPro.unsticky[k] and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then 
+			skip = true 
+		end
 		
-		
-		until true
-		if skip then k = k+1 end
+	until true
+	if skip then k = k+1 end
 		
 	end
 	
