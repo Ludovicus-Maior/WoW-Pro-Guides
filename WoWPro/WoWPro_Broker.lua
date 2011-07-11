@@ -26,6 +26,8 @@ function WoWPro:LoadGuide(guideID)
 	if not WoWPro.Guides[GID] then
 	    local myUFG = UnitFactionGroup("player"):sub(1,1)
 	    local name,levels = GID:match("([A-Za-z]+)([0-9]+)")
+	    levels = levels or ""
+	    name = name or ""
 	    local newGID =name..myUFG..levels
 	    if WoWPro.Guides[newGID] then
 	        -- Yeah, we renamed the guide on the poor chap.
