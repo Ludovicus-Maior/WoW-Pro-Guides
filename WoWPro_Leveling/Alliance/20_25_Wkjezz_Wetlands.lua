@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2011-07-01 16:05
+-- Who: Fluclo
+-- Log: Added Rank 2 tag to quests in Dun Algaz, for those wanting to get straight into the Wetlands action!
+
+-- URL: http://wow-pro.com/node/3224/revisions/24592/view
 -- Date: 2011-06-25 01:04
 -- Who: Crackerhead22
 -- Log: ! Line 200 for step C has unknown tag [53.33,54.44]: [C The Angerfang Menace|QID|26189|QO|Angerfang Dragonmaw slain: 16/16M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|US|] - Fixed
@@ -50,18 +55,19 @@ return [[
 
 A Checking on the Boys|QID|26137|M|25.55,17.79|Z|Loch Modan|N|From Mountaineer Stormpike.|
 T Checking on the Boys|QID|26137|M|49.96,79.24|N|To Mountaineer Rharen.|
-A The Stolen Keg|QID|25395|M|49.96,79.24|N|From Mountaineer Rharen.|
-A Cleaning Hovel|QID|25211|M|49.96,79.24|N|From Mountaineer Grugelm.|
-C Cleaning Hovel|QID|25211|S|M|47.99,75.41|N|Kill 5 Dragonmaw Orcs.|
-C The Stolen Keg|QID|25395|M|47.86,74.35|N|This is in the top of the bunker.|
-C Cleaning Hovel|QID|25211|US|M|47.99,75.41|N|Kill 5 Dragonmaw Orcs.|
-T Cleaning Hovel|QID|25211|M|49.88,79.19|N|To Mountaineer Grugelm.|
-T The Stolen Keg|QID|25395|M|49.90,79.19|N|To Mountaineer Rharen.|
+A The Stolen Keg|QID|25395|M|49.96,79.24|N|From Mountaineer Rharen.|RANK|2|
+A Cleaning Hovel|QID|25211|M|49.96,79.24|N|From Mountaineer Grugelm.|RANK|2|
+C Cleaning Hovel|QID|25211|S|M|47.99,75.41|N|Kill 5 Dragonmaw Orcs.|RANK|2|
+C The Stolen Keg|QID|25395|M|47.86,74.35|N|This is in the top of the bunker.|RANK|2|
+C Cleaning Hovel|QID|25211|US|M|47.99,75.41|N|Kill 5 Dragonmaw Orcs.|RANK|2|
+T Cleaning Hovel|QID|25211|M|49.88,79.19|N|To Mountaineer Grugelm.|RANK|2|
+T The Stolen Keg|QID|25395|M|49.90,79.19|N|To Mountaineer Rharen.|RANK|2|
 
-A Keg Run|QID|25770|M|50.00,79.18|N|From Mountaineer Rharen.|
-R Wetlands|QID|25770|M|48.23,67.29;49.23,70.51;53.93,70.37|N|Follow the path until you get to Wetlands.|
+A Keg Run|QID|25770|M|50.00,79.18|N|From Mountaineer Rharen.|RANK|2|
+R Wetlands|QID|25770,25721,25722,25723|M|48.23,67.29;49.23,70.51;53.93,70.37|N|Follow the path until you get to Wetlands.|
 f Slabchisel's Survey|QID|25770|M|56.87,71.17|N|At Elgin Baelor.|
-T Keg Run|QID|25770|M|57.48,71.76|N|To Forba Slabchisel.|
+T Keg Run|QID|25770|M|57.48,71.76|N|To Forba Slabchisel.|RANK|2|
+
 A Fight the Flood|QID|25721|M|57.48,71.76|N|From Forba Slabchisel.|
 A Sedimentary, My Dear|QID|25722|M|57.57,71.54|N|From Surveyor Thurdan.|
 A Thresh Out of Luck|QID|25723|M|57.73,71.53|N|From Dunlor Marblebeard.|

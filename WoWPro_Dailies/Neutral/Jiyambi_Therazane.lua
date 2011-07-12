@@ -1,3 +1,12 @@
+-- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2011-07-11 22:39
+-- Who: Ludovicus Maior
+-- Log: Removing REP tag.
+
+-- URL: http://wow-pro.com/node/3419/revisions/24651/view
+-- Date: 2011-06-30 19:13
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("JiyDeeTher", "Deepholm", "Therazane Reputation", "Cata", "Jiyambi", "Neutral", function()
 return [[
 
@@ -8,7 +17,7 @@ R Therazane's Throne|M|49.27,50.33|N|Take the portal from your capital city to D
 A Fear of Boring|QID|27046|M|56.08,14.39|N|From Felsen the Enduring.|
 A Motes|QID|27047|M|56.08,14.39|N|From Felsen the Enduring.|
 A Beneath the Surface OR Lost in the Deeps|QID|28488;26710|M|56.08,14.39|N|From Felsen the Enduring. If neither of these are available, you'll pick up Underground Economy later on instead - right-click this step to skip it.|
-A The Restless Brood|QID|28391;28390|M|55.07,13.61|REP|Therazane,Revered|N|From Terrath the Steady, he patrols around. If he doesn't have a quest for you, you'll get Glop, Son of Glop later on instead - right-click this step to skip it. REQUIRES REVERED!|
+A The Restless Brood|QID|28391;28390|M|55.07,13.61|N|From Terrath the Steady, he patrols around. If he doesn't have a quest for you, you'll get Glop, Son of Glop later on instead - right-click this step to skip it. REQUIRES REVERED!|
 A Soft Rock|QID|27049|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
 A Fungal Fury|QID|27050|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
 A Through Persistence|QID|27051|M|59.60,14.05|N|From Ruberick.|

@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-07-05 05:42
+-- Who: Jiyambi
+-- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24658/view
+-- Date: 2011-07-05 03:10
+-- Who: Jiyambi
+-- Log: Fixed QIDs on some L steps (had QIDs for quests that were already complete, so would never show up), also added a H step after the cave section, to speed travel.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24597/view
 -- Date: 2011-06-25 01:32
 -- Who: Crackerhead22
 -- Log: ! Missing A step for step T qid 24721 - 24712 is wrong QID, fixed to 24751
@@ -197,7 +207,8 @@ C Burning Blade Medallion|QID|25132|M|42.43,53.53|N|Kill felstalkers as you go t
 C Thazz'ril's Pick|QID|25135|NC|M|43.75,53.77|N|Inside the cave, central passage.|
 K Yarrog Baneshadow|QID|25132|M|42.43,53.53|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|L|4859|
 C Burning Blade Medallion|QID|25132|M|42.50,55.25|N|Finish killing the felstalkers as you leave the cave|US|
-L Level 5|QID|25127|LVL|5|N|You should now be Level 5|
+L Level 5|QID|25133|LVL|5|N|You should now be Level 5|
+H The Den|QID|25133|N|Hearth or run back the The Den.|
 
 T Thazz'ril's Pick|QID|25135|M|43.51,67.49|N|To Foreman Thazz'ril at the starting area.|
 T Burning Blade Medallion|QID|25132|M|43.48,67.51|N|To Zureetha Fargaze.|

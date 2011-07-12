@@ -1,4 +1,17 @@
-WoWPro.WorldEvents:RegisterGuide("CraMidSum","Midsummer Fire Festival","Midsummer Fire Festival","WE", "Crackerhead22", "Alliance", function() 
+-- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2011-06-30 22:39
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3406/revisions/24631/view
+-- Date: 2011-06-30 05:42
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3406/revisions/24630/view
+-- Date: 2011-06-30 05:34
+-- Who: Crackerhead22
+-- Log: Added source code to page.
+
+WoWPro.WorldEvents:RegisterGuide("CraMidSumA","Midsummer Fire Festival (Alliance)","Midsummer Fire Festival (Alliance)","WE", "Crackerhead22", "Alliance", function()
 return [[
 
 N Wall of Text |QID|11970|N|This guide is geared toward actually completing all the achievements necessary to become a Flame Warden. Check off and skip the extra quests if you just wish to use it as a guide to getting all the bonfires.|
@@ -75,7 +88,7 @@ A Desecrate this Fire! (Durotar) |N|At the Horde Bonfire.|QID|11770|M|51.98,47.1
 
 A Stealing Orgrimmar's Flame |N|Valley of Wisdom. Loot the bonfire for an item which starts this quest.|U|23179|QID|9324|Z|Orgrimmar|M|46.65,38.51|
 R Ratchet |N|Return to the Northern Barrens, then head South to Ratchet.|QID|11832|M|66.89,70.48|
-b Booty Bay|N|Catch the boat to Booty Bay|M|70.9,72.56|Z|Northern Barrens|QID|11832|
+b Booty Bay|N|Catch the boat to Booty Bay.|M|70.9,72.56|Z|Northern Barrens|QID|11832|
 A Honor the Flame! (The Cape of Stranglethorn) |N|From the Flame Warden.|QID|11832|M|51.8,67.8|Z|The Cape of Stranglethorn|
 A Desecrate this Fire! (The Cape of Stranglethorn) |N|At the Horde Bonfire.|QID|11801|M|50.6,70.7|Z|The Cape of Stranglethorn|
 
@@ -131,6 +144,7 @@ A Honor the Flame! (Deepholm)|N|From the Flame Warden.|QID|29036|M|49.4,51.4|Z|D
 T Honor the Flame!|N|To the Bonfire.|QID|29036|M|49.4,51.4|Z|Deepholm|
 R Stormwind City|N|Take the portal back to Stormwind.|M|48.52,53.85|Z|Deepholm|QID|29031|
 R Vashj'ir|N|Take the portal to Vashj'ir.|Z|Stormwind City|M|73.28,16.8|QID|29031|
+F Silver Tide Hollow|QID|29031|M|56.9,75.51|Z|Abyssal Depths|N|Take the Seahorse to Silver Tide Hollow.|
 A Honor the Flame! (Vashj'ir)|N|From the Flame Warden.|QID|29031|M|49.3,42|Z|Shimmering Expanse|
 T Honor the Flame!|N|To the Bonfire.|QID|29031|M|62.9,22.8|Z|Shimmering Expanse|
 H Stormwind City|N|Hearth back to Stormwind.|QID|11775|
@@ -184,3 +198,267 @@ A Desecrate this Fire! (Sholazar Basin) |N|At the Horde Bonfire.|QID|13450|M|47.
 N The End |N|That's all for this year.|
 
 ]] end)
+
+Change Log
+
+6/29/2011 - Create by Crackerhead22
+
+Addon Version: v2.1.17
+Game Version: 4.2.0
+Summary: Created source file page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Website/Facebook/Myspace
+
+
+
+
+
+Occupation
+Disabled via brain tumor.
+
+
+Main Character
+
+Altaholic
+
+
+
+
+Level of Addiction
+online daily
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@Gylin Do they look likehttp://www.youtube.com/watch?v=8fArOSeap64?
+
+
+
+
+
+
+Ok, Im going to call one of the baby hedgehogs in my garden "Crash" due to the excessive amount of noise it makes!
+
+
+
+
+
+
+We are working right now on fixing a few problems with comments and site performance. Might take 1-2 days but will keep you updated.
+
+
+
+
+
+
+@Ludovicus MaiorYou never know, if we keep smacking them they might get bored of trying.....well I can hope
+
+
+
+
+
+
+Sigh.  Even if you did ban them, they just create another account.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

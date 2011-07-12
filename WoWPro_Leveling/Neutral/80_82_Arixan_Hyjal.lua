@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2011-07-07 18:47
+-- Who: Fluclo
+-- Log: Adding a Lead quest to Aviana's Legacy
+
+-- URL: http://wow-pro.com/node/3303/revisions/24656/view
+-- Date: 2011-07-02 20:08
+-- Who: Fluclo
+-- Log: Added |NC| to The Flameseer's Staff
+
+-- URL: http://wow-pro.com/node/3303/revisions/24612/view
 -- Date: 2011-06-25 03:11
 -- Who: Crackerhead22
 -- Log: ! Missing A step for step T qid 29066 - Added in accept step
@@ -113,9 +123,9 @@ T Flames from Above|QID|25574|RANK|2|M|64.05,22.50|N|To Tholo Whitehoof.|
 T Protect the World Tree|QID|25317|M|47.68,35.51|N|To Malfurion Stormrage.|
 A War on the Twilight's Hammer|QID|25319|M|47.68,35.51|N|From Malfurion Stormrage.|
 A The Flameseer's Staff|QID|25472|M|47.68,35.51|N|From Windspeaker Tamila.|
-C The Flameseer's Staff|QID|25472|M|43.41,28.80|S|N|Loot the Charred Staff Fragments off of the ground in the charred areas.|
+C The Flameseer's Staff|QID|25472|M|43.41,28.80|S|N|Loot the Charred Staff Fragments off of the ground in the charred areas.|NC|
 C War on the Twilight's Hammer|QID|25319|M|47.09,30.18|N|Kill Twilight Flamecallers and Vanquishers.|
-C The Flameseer's Staff|QID|25472|M|43.41,28.80|US|N|Loot the Charred Staff Fragments off of the ground in the charred areas.|
+C The Flameseer's Staff|QID|25472|M|43.41,28.80|US|N|Loot the Charred Staff Fragments off of the ground in the charred areas.|NC|
 T War on the Twilight's Hammer|QID|25319|M|47.74,35.43|N|To Malfurion Stormrage.|
 T The Flameseer's Staff|QID|25472|M|47.74,35.43|N|To Malfurion Stormrage.|
 A Flamebreaker|QID|25323|M|47.74,35.43|N|From Malfurion Stormrage.|
@@ -261,7 +271,7 @@ A Return from the Firelands|QID|25612|M|26.2,41.9|N|From Jordan Olafson.|FACTION
 T Return from the Firelands|QID|25612|M|28.4,29.9|N|Enter the portal behind you. This will return you the Shrine of Goldrinn. Fly back to the camp to Takrik Ragehowl.|FACTION|Horde|
 T Sweeping the Shelf|QID|25354|M|28.4,29.9|N|At Takrik Ragehowl.|FACTION|Horde|
 
-A Aviana's Legacy|QID|27874|M|28.4,29.8|N|From Vision of Ysera.|
+A Aviana's Legacy|QID|27874|M|28.4,29.8|N|From Vision of Ysera. If the quest is not offered, and you have it, get rid of the quest An Offering for Aviana.|LEAD|25663|
 A The Fires of Mount Hyjal|QID|25630|PRE|25611|M|28.18,29.87|N|From Rio Duran.|
 f Shrine of Aviana|QID|25630|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
 T Aviana's Legacy|QID|27874|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|

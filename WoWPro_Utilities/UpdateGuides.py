@@ -149,9 +149,9 @@ class FindSource(HTMLParser):
         if self._Done: return
         data = string.strip(data)
         if not self._inGuide :
-            mo = re.search('WoWPro.Leveling:RegisterGuide\s*\(\s*"([^"]+)"',data)
+            mo = re.search('WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*"([^"]+)"',data)
             if not mo:
-                mo = re.search("WoWPro.Leveling:RegisterGuide\s*\(\s*'([^']+)'",data)
+                mo = re.search("WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*'([^']+)'",data)
             if mo:
                 self._guideID = mo.group(1)
                 self._inGuide = True
@@ -370,7 +370,7 @@ def ScrapeWoWProLua(lua):
 
 def ScrapeWoWProLeveling(RootDir):
     RootLevelingDir=os.path.abspath(RootDir)
-    luaPath = os.path.join(RootDir,"WoWPro_*","[AHN]*","*.lua")
+    luaPath = os.path.join(RootDir,"WoWPro_*","[AHNP]*","*.lua")
     for lua in glob.iglob(luaPath):
         ScrapeWoWProLua(lua)
 

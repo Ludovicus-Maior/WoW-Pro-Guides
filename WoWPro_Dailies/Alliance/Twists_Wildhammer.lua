@@ -1,3 +1,12 @@
+-- URL: http://wow-pro.com/wiki/alliance_wildhammer_dalies_twilight_highlands
+-- Date: 2011-07-11 22:20
+-- Who: Ludovicus Maior
+-- Log: Add a flight point home.
+
+-- URL: http://wow-pro.com/node/3415/revisions/24647/view
+-- Date: 2011-06-30 19:01
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("TwiTwiWil", "Twilight Highlands", "Wildhammer", "Cata", "Twists", "Alliance", function()
 return [[
 
@@ -22,8 +31,7 @@ T Never Leave a Dinner Behind|QID|28862|49.76,29.23|N|To Low Shaman Blundy.|
 T Beer Run|QID|28864|M|49.07,29.80|N|To Colin Thundermar.|
 T Keeping the Dragonmaw at Bay|QID|28860|M|49.07,29.80|N|To Colin Thundermar.|
 T Warlord Halthar is Back|QID|28863|M|48.63,30.59|N|To Craw Macgraw.|
-
+F Back to the Portal|M|79.48,77.79|N|Get Back Home|CC|
 ]]
 
 end)
-	

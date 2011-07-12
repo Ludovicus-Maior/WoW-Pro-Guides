@@ -1,8 +1,12 @@
--- Original Guide by [Xicon]
--- Coded snd edited by [Jiyambi] 18/6/2009
--- Heavily modified for 2011 (post Cataclysm)
--- Last modified by [Emmaleah] 26/6/2011
-WoWPro.WorldEvents:RegisterGuide("EmmMidAch","Midsummer Fire Festival","Midsummer Fire Festival","WE", "Emmaleah", "Horde", function()
+-- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2011-06-30 06:05
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3407/revisions/24632/view
+-- Date: 2011-06-30 05:43
+-- Who: Crackerhead22
+
+WoWPro.WorldEvents:RegisterGuide("EmmMidAch","Midsummer Fire Festival (Horde)","Midsummer Fire Festival (Horde)","WE", "Emmaleah", "Horde", function()
 return [[
 
 N About this Guide|N|The original guide was written by Xicon, who gave permission for it to be coded into Tour Guide form, and was coded and modified by Jiyambi. This guide assumes you are at or near the level cap, have all the relevant flight paths, and have your hearth set to Orgrimmar. Often using your own flying mount will be more efficient, but the flighpaths are left in so you can fly afk if needed. Just check them off if you want to fly on your own. Keep in mind that about half of this holiday requires you to perform actions which flag you as PvP, so even on a PvE realm you will probably see some PvP action. You may want to leave your gear in the bank, in case you need to rez at the spirit healer.|
@@ -58,7 +62,6 @@ R Azuremyst Isle|N|Ride back to Azuremyst Isle |M|65.0,95.5|Z|Bloodmyst Isle|
 R The Exodar|N|Head into the Exodar.|M|33.8,44.6|Z|Azuremyst Isle|
 l Flame of the Exodar |181128|L|35569|M|40,25|Z|The Exodar|N|Click on Exodar's Fire to loot the flame.|
 
-
 H Orgrimmar|U|6948||N|Hearth as soon as you can.|
 A Stealing Darnassus's Flame|QID|9332|N|Accept this quest from the Flame of Darnassus.|U|23184|Z|Orgrimmar|
 A Stealing the Exodar's Flame|QID|11933|N|Accept this quest from the Flame of the Exodar.|U|35569|Z|Orgrimmar|
@@ -68,7 +71,7 @@ T Playing with Fire|QID|11915|M|47.6,38.2|Z|Orgrimmar|
 T Inform the Elder|QID|12012|M|47.6,38.2|Z|Orgrimmar|N|To the Earthen Ring Elder.|
 A Striking Back|QID|11954|N|This is a daily ... if you need more flowers.|
 
-R Mount Hyjal|N|Click the portal to Mt Hyjal.|M|50.83,38.02|Z|Orgrimmar| 
+R Mount Hyjal|N|Click the portal to Mt Hyjal.|M|50.83,38.02|Z|Orgrimmar|
 A Honor the Flame - Nordrassil|QID|29030|M|63,23|Z|Mount Hyjal|N|From the Flame Guardian.|
 T Honor the Flame - Nordrassil|QID|29030|M|63,23|Z|Mount Hyjal|N|To the Earthen Ring Bonfire.|
 F Everlook|N|Hop on the flight path to the Everlook.|M|62.2,21.6|Z|Mount Hyjal|
@@ -149,7 +152,7 @@ F Flame Crest|M|17.17,39.98|Z|Badlands|
 A Honor the Flame - Burning Steppes|QID|11844|M|51.11,29.21|Z|Burning Steppes|N|From the Flame Keeper.|
 R Morgan's Vigil - Burning Steppes|M|68.34,60.63|Z|Burning Steppes|
 A Desecrate this Fire! - Burning Steppes|QID|11739|M|68.34,60.63|Z|Burning Steppes|N|At the Alliance Bonfire.|
-R Bogpaddle|M|70.25,15.73|Z|Swamp of Sorrows| 
+R Bogpaddle|M|70.25,15.73|Z|Swamp of Sorrows|
 A Desecrate this Fire! - Swamp of Sorrows|QID|28916|M|70.25,15.73|Z|Swamp of Sorrows|N|At the Alliance Bonfire.|
 A Honor the Flame - Swamp of Sorrows|QID|11857|M|76.33,13.77|Z|Swamp of Sorrows|N|From the Flame Keeper.|
 F Dreadmaul Hold|M|72.00,12.05|Swamp of Sorrows|

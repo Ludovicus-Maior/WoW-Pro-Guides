@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2011-07-11 22:35
+-- Who: Ludovicus Maior
+-- Log: Numeric Rep Tags
+
+-- URL: http://wow-pro.com/node/3286/revisions/24604/view
 -- Date: 2011-06-25 02:31
 -- Who: Crackerhead22
 -- Log: Fixed the ton of QID errors caused by the recorder.
@@ -108,10 +113,10 @@ A Divination: Gorefiend's Cloak|QID|10635|M|58.23,70.75|N|From Ancient Shadowmoo
 A Divination: Gorefiend's Truncheon|QID|10636|M|58.23,70.75|N|From Ancient Shadowmoon Spirit.|
 A Divination: Gorefiend's Armor|QID|10634|M|58.23,70.75|N|From Ancient Shadowmoon Spirit.|
 
-f Sanctum of the Stars|QID|10687|M|56.32,57.81|N|At Alieshor.|REP|Scryers|
-A Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|From Arcanist Thelis|REP|Scryers|
-A The Ashtongue Broken|QID|10807|M|54.73,58.19|N|From Varen the Reclaimer|REP|Scryers|
-A Karabor Training Grounds|QID|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers|
+f Sanctum of the Stars|QID|10687|M|56.32,57.81|N|At Alieshor.|REP|Scryers;934|
+A Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|From Arcanist Thelis|REP|Scryers;934|
+A The Ashtongue Broken|QID|10807|M|54.73,58.19|N|From Varen the Reclaimer|REP|Scryers;934|
+A Karabor Training Grounds|QID|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934|
 
 T The Rod of Lianthe|QID|10778|M|35.41,41.73|N|To Parshah.|
 A Sketh'lon Feathers|QID|10780|M|35.41,41.73|N|From Parshah.|
@@ -132,71 +137,71 @@ A News of Victory|QID|10745|M|27.47,21.23|N|From Nakansi.|
 T News of Victory|QID|10745|M|28.48,26.46|N|To Overlord Or'barokh.|
 C Enraged Spirits of Water|QID|10480|U|30094|M|49.47,22.32|N|Use the totem and kill the Enraged Water Spirits near it.|
 
-A The Ashtongue Tribe|QID|10619|M|61.24,29.18|N|From Vindicator Aluumen.|REP|Aldor|
-A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|REP|Aldor|
-A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|REP|Aldor|
-f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|REP|Aldor|
-l Tablets of Baa'ri|QID|10568|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor|
-C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor|REP|Aldor|
-l Tablets of Baa'ri|QID|10568|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor|
+A The Ashtongue Tribe|QID|10619|M|61.24,29.18|N|From Vindicator Aluumen.|REP|Aldor;932|
+A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|REP|Aldor;932|
+A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|REP|Aldor;932|
+f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|REP|Aldor;932|
+l Tablets of Baa'ri|QID|10568|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
+C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932|REP|Aldor|
+l Tablets of Baa'ri|QID|10568|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
 
-l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers|
-C The Ashtongue Broken|QID|10807|M|56.91,36.41|N|Kill the mobs needed for this quest.|REP|Scryers|
-l Tablets of Baa'ri|QID|10683|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers|
+l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|
+C The Ashtongue Broken|QID|10807|M|56.91,36.41|N|Kill the mobs needed for this quest.|REP|Scryers;934|
+l Tablets of Baa'ri|QID|10683|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|
 
 C Frankly, It Makes No Sense...|QID|10672|M|61.97,40.17|N|Click on the Arcano Control Unit, then run around the lava river tagging Greater Felfire Diemetradon.|
 C Divination: Gorefiend's Cloak|QID|10635|U|30721|M|64.47,39.73|N|Put on the Spectrecles and kill Clerics of Karabor until the cloak drops.|
 
-C Karabor Training Grounds|QID|10587|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Aldor|
-T The Ashtongue Tribe|QID|10619|M|61.25,29.18|N|To Vindicator Aluumen.|REP|Aldor|
-A Reclaiming Holy Grounds|QID|10816|M|61.25,29.18|N|From Vindicator Aluumen.|REP|Aldor|
-T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|REP|Aldor|
-A A Necessary Distraction|QID|10637|M|61.25,29.18|N|From Exarch Onaala.|REP|Aldor|
-T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|REP|Aldor|
-A Oronu the Elder|QID|10571|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor|
-C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor|
-T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor|
-A The Ashtongue Corruptors|QID|10574|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor|
-C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor|
-l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor|
-C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Aldor|
-T A Necessary Distraction|QID|10637|M|61.25,29.23|N|To Exarch Onaala. The follow up she gives takes you back to Nagrand.|REP|Aldor|
-T Reclaiming Holy Grounds|QID|10816|M|61.24,29.18|N|To Vindicator Aluumen.|REP|Aldor|
+C Karabor Training Grounds|QID|10587|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Aldor;932|
+T The Ashtongue Tribe|QID|10619|M|61.25,29.18|N|To Vindicator Aluumen.|REP|Aldor;932|
+A Reclaiming Holy Grounds|QID|10816|M|61.25,29.18|N|From Vindicator Aluumen.|REP|Aldor;932|
+T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|REP|Aldor;932|
+A A Necessary Distraction|QID|10637|M|61.25,29.18|N|From Exarch Onaala.|REP|Aldor;932|
+T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|REP|Aldor;932|
+A Oronu the Elder|QID|10571|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor;932|
+C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor;932|
+T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor;932|
+A The Ashtongue Corruptors|QID|10574|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932|
+C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor;932|
+l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor;932|
+C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Aldor;932|
+T A Necessary Distraction|QID|10637|M|61.25,29.23|N|To Exarch Onaala. The follow up she gives takes you back to Nagrand.|REP|Aldor;932|
+T Reclaiming Holy Grounds|QID|10816|M|61.24,29.18|N|To Vindicator Aluumen.|REP|Aldor;932|
 
-C Karabor Training Grounds|QID|10687|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Scryers|
-T The Ashtongue Broken|QID|10807|M|54.73,58.19|N|To Varen the Reclaimer.|REP|Scryers|
-A The Great Retribution|QID|10817|M|54.73,58.19|N|From Varen the Reclaimer.|REP|Scryers|
-T Karabor Training Grounds|QID|10687|M|55.74,58.18|N|To Larissa Sunstrike.|REP|Scryers|
-A A Necessary Distraction|QID|10688|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers|
-T Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers|
-A Oronu the Elder|QID|10684|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers|
-C Oronu the Elder|QID|10684|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Scryers|
-T Oronu the Elder|QID|10684|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers|
-A The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers|
+C Karabor Training Grounds|QID|10687|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Scryers;934|
+T The Ashtongue Broken|QID|10807|M|54.73,58.19|N|To Varen the Reclaimer.|REP|Scryers;934|
+A The Great Retribution|QID|10817|M|54.73,58.19|N|From Varen the Reclaimer.|REP|Scryers;934|
+T Karabor Training Grounds|QID|10687|M|55.74,58.18|N|To Larissa Sunstrike.|REP|Scryers;934|
+A A Necessary Distraction|QID|10688|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934|
+T Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
+A Oronu the Elder|QID|10684|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934|
+C Oronu the Elder|QID|10684|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Scryers;934|
+T Oronu the Elder|QID|10684|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
+A The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
 C The Great Retribution|QID|10817|M|66.56,42.17|N|Make your way up Ata'mal Terrace, and kill, kill, kill! Watch out for the Elite Draknoid.|
-l Scroll of Demonic Unbanishing|QID|10688|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Scryers|
-C A Necessary Distraction|QID|10688|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Scryers|
+l Scroll of Demonic Unbanishing|QID|10688|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Scryers;934|
+C A Necessary Distraction|QID|10688|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Scryers;934|
 
-K Lakaan|QID|10685|M|49.79,23.28|QO|Lakaan's Medallion Fragment: 1/1|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Scryers|
-K Lakaan|QID|10574|M|49.79,23.28|QO|Lakaan's Medallion Fragment: 1/1|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Aldor|
-K Uylaru|QID|10574|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Aldor|
-K Uylaru|QID|10685|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Scryers|
+K Lakaan|QID|10685|M|49.79,23.28|QO|Lakaan's Medallion Fragment: 1/1|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Scryers;934|
+K Lakaan|QID|10574|M|49.79,23.28|QO|Lakaan's Medallion Fragment: 1/1|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|REP|Aldor;932|
+K Uylaru|QID|10574|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Aldor;932|
+K Uylaru|QID|10685|QO|Uylaru's Medallion Fragment: 1/1|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|REP|Scryers;934|
 
 T Enraged Spirits of Water|QID|10480|M|42.22,45.06|N|To Earthmender Torlok.|
 A Enraged Spirits of Air|QID|10481|M|42.19,45.06|N|From Earthmender Torlok.|
 
-K Eykene|QID|10574|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Aldor|
-K Eykene|QID|10685|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Scryers|
-T A Necessary Distraction|QID|10688|M|55.74,58.18|N|To Larissa Sunstrike. The follow up she gives takes you back to Nagrand.|REP|Scryers|
-T The Great Retribution|QID|10817|M|54.7,58.2|N|To Varen the Reclaimer.|REP|Scryers|
+K Eykene|QID|10574|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Aldor;932|
+K Eykene|QID|10685|QO|Eykenen's Medallion Fragment: 1/1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|REP|Scryers;934|
+T A Necessary Distraction|QID|10688|M|55.74,58.18|N|To Larissa Sunstrike. The follow up she gives takes you back to Nagrand.|REP|Scryers;934|
+T The Great Retribution|QID|10817|M|54.7,58.2|N|To Varen the Reclaimer.|REP|Scryers;934|
 
 C Enraged Spirits of Air|QID|10481|U|30094|M|59.85,69.71|N|Use the totem and kill the Enraged Air Spirit. They tend to be a bit spread out.|
 T Divination: Gorefiend's Cloak|QID|10635|M|58.30,70.82|N|To Ancient Shadowmoon Spirit.|
 
-C The Ashtongue Corruptors|QID|10574|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Aldor|
-C The Ashtongue Corruptors|QID|10685|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Scryers|
-T The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers|
-A The Warden's Cage|QID|10686|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers|
+C The Ashtongue Corruptors|QID|10574|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Aldor;932|
+C The Ashtongue Corruptors|QID|10685|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|REP|Scryers;934|
+T The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
+A The Warden's Cage|QID|10686|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934|
 
 C Sketh'lon Feathers|QID|10780|M|43.70,56.33|N|Loot 8 feathers off the ground.|
 T Sketh'lon Feathers|QID|10780|M|35.22,39.15|N|To Parshah.|
@@ -232,13 +237,13 @@ T The Cipher of Damnation - Grom'tor's Charge|QID|10522|M|44.65,23.65|N|To Grom'
 A The Cipher of Damnation - The First Fragment Recovered|QID|10523|M|44.65,23.65|N|From Grom'tor, Son of Oronok.|
 T The Cipher of Damnation - The First Fragment Recovered|QID|10523|M|53.85,23.52|N|To Oronok Torn-heart.|
 
-T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|REP|Aldor|
-A The Warden's Cage|QID|10575|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor|
+T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|REP|Aldor;932|
+A The Warden's Cage|QID|10575|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor;932|
 
 C Felspine the Greater|QID|10673|M|56,44|N|Kill and loot Felspine the Greater.|
 
-T The Warden's Cage|QID|10575|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom os the steps.|REP|Aldor|
-T The Warden's Cage|QID|10686|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Scryers|
+T The Warden's Cage|QID|10575|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom os the steps.|REP|Aldor;932|
+T The Warden's Cage|QID|10686|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Scryers;934|
 
 A Proof of Allegiance|QID|10622|M|57.33,49.64|N|From Sanoru.|
 C Proof of Allegiance|QID|10622|M|56.33,49.48|N|Head to the top of the wall and kill Zandras.|

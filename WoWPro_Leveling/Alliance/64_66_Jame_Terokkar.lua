@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2011-07-11 22:37
+-- Who: Ludovicus Maior
+-- Log: Add numeric REP tags
+
+-- URL: http://wow-pro.com/node/3277/revisions/24470/view
 -- Date: 2011-05-31 21:41
 -- Who: Crackerhead22
 -- Log: Fixed typos found by andyarnolduk.
@@ -69,16 +74,16 @@ T City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|To Kadgar.|
 N At this point you will have to choose either Aldor or Scryers.|N|Right click the box to continue.|Z|Shattrath City|
 N Allegiance to the ...|QID|10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
 
-A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|REP|Aldor|
-T Ishanah|N|You must take the elevator up to this area.|Z|Shattrath City|QID|10554|M|24.0,29.7|N|To Ishanah.|REP|Aldor|
-A Restoring the Light|Z|Shattrath City|QID|10021|M|24.0,29.7|N|From Ishanah.|REP|Aldor|
-h Shattrath City|QID|9957|Z|Shattrath City|N|Make Shattrath City (Aldor Rise) your home location.|M|28.00,49.00|REP|Aldor|
-r Sell junk, Repair, restock, train skills|QID|9957|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor|
+A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|REP|Aldor;932|
+T Ishanah|N|You must take the elevator up to this area.|Z|Shattrath City|QID|10554|M|24.0,29.7|N|To Ishanah.|REP|Aldor;932|
+A Restoring the Light|Z|Shattrath City|QID|10021|M|24.0,29.7|N|From Ishanah.|REP|Aldor;932|
+h Shattrath City|QID|9957|Z|Shattrath City|N|Make Shattrath City (Aldor Rise) your home location.|M|28.00,49.00|REP|Aldor;932|
+r Sell junk, Repair, restock, train skills|QID|9957|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor;932|
 
-A Voren'thal the Seer|Z|Shattrath City|QID|10553|M|54.8,44.3|N|From Khadgar.|REP|Scryers|
-T Voren'thal the Seer|Z|Shattrath City|N|You must take the elevator up to this area.|QID|10553|M|43.5,91.8|REP|Scryers|
-h Shattrath City|QID|9957|N|Make Shattrath City (Scryers Tier) your home location.|M|56.35,81.55|Z|Shattrath City|REP|Scryers|
-r Sell junk, Repair, restock, train skills|QID|9957|M|54.6,82.4|Z|Shattrath City|REP|Scryers|
+A Voren'thal the Seer|Z|Shattrath City|QID|10553|M|54.8,44.3|N|From Khadgar.|REP|Scryers;934|
+T Voren'thal the Seer|Z|Shattrath City|N|You must take the elevator up to this area.|QID|10553|M|43.5,91.8|REP|Scryers;934|
+h Shattrath City|QID|9957|N|Make Shattrath City (Scryers Tier) your home location.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+r Sell junk, Repair, restock, train skills|QID|9957|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 
 N Do Underbog or Slave Pens (Optional)|N|You can do the instances in Zangarmarsh for extra XP if you wish.|
 A Rather Be Fishin'|QID|10037|M|64.0,15.5|Z|Shattrath City|N|From Seth.|
@@ -120,24 +125,24 @@ C Thin the Flock|N|Kill mobs for this quest.|QID|10869|S|
 C The Outcast's Plight |N|Kill Arakkoa to get their feathers.|QID|10917|S|
 l Eye of Veil Shienor|QID|10847|N|Loot the Eye of Veil Shienor in the tree here. Enter the tree at 59.75,25.25|L|25642|M|57.90,23.15|
 K Ayit|QID|9986|N|Kill Ayit.|M|59.40,23.40|QO|Ayit slain: 1/1|
-N Eastern Altar|QID|10021|N|Right-click the Eastern Altar here.|M|49.20,20.30|QO|Eastern Altar: 1/1|REP|Aldor|
+N Eastern Altar|QID|10021|N|Right-click the Eastern Altar here.|M|49.20,20.30|QO|Eastern Altar: 1/1|REP|Aldor;932|
 K Ashkaz|QID|9986|N|Kill Ashkaz in the trees here.|M|49.00,17.00|QO|Ashkaz slain: 1/1|
 C The Eyes of Skettis|N|Loot the Eye of Veil Reskk here.|QID|10847|M|50.15,19.40|
-N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor|
-C Restoring the Light|N|Right-click the Altar here to complete the quest.|QID|10021|M|48.10,14.50|REP|Aldor|
+N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor;932|
+C Restoring the Light|N|Right-click the Altar here to complete the quest.|QID|10021|M|48.10,14.50|REP|Aldor;932|
 C Thin the Flock|N|Kill mobs until you finish this quest.|QID|10869|US|
 C The Outcast's Plight|N|Kill Arakkoa to get their feathers.|QID|10917|US|
 
-H Shattrath City|QID|10021|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor|
-r Sell junk, Repair, restock|QID|10021|M|28.11,47.65|Z|Shattrath City|REP|Aldor|
-H Shattrath City|QID|10021|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers|
-r Sell junk, Repair, restock, train skills|QID|10847|M|54.6,82.4|Z|Shattrath City|REP|Scryers|
-T Restoring the Light |QID|10021|Z|Shattrath City|M|24.0,29.7|N|To Ishanah.|REP|Aldor|
+H Shattrath City|QID|10021|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
+r Sell junk, Repair, restock|QID|10021|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
+H Shattrath City|QID|10021|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+r Sell junk, Repair, restock, train skills|QID|10847|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
+T Restoring the Light |QID|10021|Z|Shattrath City|M|24.0,29.7|N|To Ishanah.|REP|Aldor;932|
 T The Eyes of Skettis |QID|10847|Z|Shattrath City|M|52.6,21.0|N|To Rilak the Redeemed.|
 A Seek Out Kirrik|QID|10849|Z|Shattrath City|M|52.6,21.0|N|From Rilak the Redeemed.|
 T The Outcast's Plight|QID|10917|N|To Vekax. He tends to wander between the two treehouses.|M|51.1,17.64;45.1,19.9|Z|Shattrath City|
 T Rather Be Fishin'|QID|10037|Z|Shattrath City|M|64.0,15.5|N|To Seth.|
-A A Cure for Zahlia |QID|10020|Z|Shattrath City|M|64.43,15.4|N|From Sha'nir.|REP|Aldor|
+A A Cure for Zahlia |QID|10020|Z|Shattrath City|M|64.43,15.4|N|From Sha'nir.|REP|Aldor;932|
 T Wind Trader Lathrai|QID|9979|Z|Shattrath City|M|72.2,30.7|N|To Wind Trader Lathrai.|
 A A Personal Favor|QID|10112|Z|Shattrath City|M|72.2,30.7|N|From Wind Trader Lathrai.|
 R Terokkar Forest|QID|10038|Z|Shattrath City|N|Exit the city to Terokkar.|M|86.33,44.76|
@@ -171,7 +176,7 @@ A Vengeful Souls|QID|10842|N|From Hight Priest Orglum.|
 
 C Wanted: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10033|M|42,51|S|
 C Before Darkness Falls |N|Kill Orcs until you finish this quest.|QID|10878|M|40.00,56.00|
-l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor|
+l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|
 l Cabal Orders |QID|10880|N|Kill Orcs until you get the Cabal Orders.|L|31707|M|40.00,56.00|
 A Cabal Orders |N|Right-click the orders to start the quest.|QID|10880|M|32.2,52.8|U|31707|
 C The Tomb of Lights|N|Kill the Ethereal Nethermancers and Plunderers needed for this quest.|QID|10840|S|
@@ -185,12 +190,12 @@ T Cabal Orders |QID|10880|M|37.4,51.2|N|To Mekeda.|
 A The Shadow Tomb |QID|10881|M|37.4,51.2|N|From Mekeda.|
 A Recover the Bones |QID|10030|N|From Soolaveen.|M|37.06,49.62|
 
-H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor|
-r Sell junk, Repair, restock|QID|10112|M|28.11,47.65|Z|Shattrath City|REP|Aldor|
-H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers|
-r Sell junk, Repair, restock, train skills|QID|10112|M|54.6,82.4|Z|Shattrath City|REP|Scryers|
-A Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|From Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor|
-T Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|To Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor|
+H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
+r Sell junk, Repair, restock|QID|10112|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
+H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+r Sell junk, Repair, restock, train skills|QID|10112|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
+A Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|From Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor;932|
+T Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|To Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor;932|
 T A Personal Favor |QID|10112|M|72.2,30.7|N|To Wind Trader Lathrai.|Z|Shattrath City|
 A Investigate Tuurem |QID|9990|M|72.2,30.7|N|From Wind Trader Lathrai.|Z|Shattrath City|
 F Allerian Stronghold |QID|9986|N|Fly to Allerian Stronghold.|M|64.00,41.10|Z|Shattrath City|
@@ -228,10 +233,10 @@ T Investigate Tuurem |QID|9990|M|44.3,26.3|N|To Eartbinder Tavgren.|
 A What Are These Things? |QID|9994|M|44.3,26.3|N|From Earthbinder Tavgren.|
 L Level 65 or 75,000 xp|QID|9994|N|Kill mobs until you are level 65 or get 75,000 xp, whichever takes longer.|M|70.00,40.00|LVL|65|
 
-H Shattrath City|QID|9994|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor|
-r Sell junk, Repair, restock|QID|10180|M|28.11,47.65|Z|Shattrath City|REP|Aldor|
-H Shattrath City|QID|9994|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers|
-r Sell junk, Repair, restock, train skills|QID|9994|M|54.6,82.4|Z|Shattrath City|REP|Scryers|
+H Shattrath City|QID|9994|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
+r Sell junk, Repair, restock|QID|10180|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
+H Shattrath City|QID|9994|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+r Sell junk, Repair, restock, train skills|QID|9994|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 A Can't Stay Away|QID|10180|Z|Shattrath City|N|From Oloraak.|M|57.85,15.47|
 F Allerian Stronghold|QID|9994|N|Fly to Allerian Stronghold. |M|63.92,41.56|Z|Shattrath City|
 
@@ -242,19 +247,19 @@ T The Firewing Liaison|QID|10002|M|69.7,44.2|N|To Theloria Shadecloak.|
 T Thinning the Ranks|QID|10007|M|69.7,44.2|N|To Theloria Shadecloak.|
 T Report to the Allerian Post|QID|10444|M|69.7,44.2|N|To Lieutenant Meridian.|
 A Attack on Firewing Point|QID|9996|M|69.7,44.2|N|From Lieutenant Meridian.|
-l Firewing Signets|QID|10412|M|70.00,39.00|N|Kill the mobs until you get 10 Firewing Signets.|L|29426 10|REP|Scryers|S|
+l Firewing Signets|QID|10412|M|70.00,39.00|N|Kill the mobs until you get 10 Firewing Signets.|L|29426 10|REP|Scryers;934|S|
 C Attack on Firewing Point|N|Kill mobs until you finish this quest.|QID|9996|M|70.00,39.00|
 C The Elusive Ironjaw|T|Ironjaw|N|Kill Ironjaw (wandering mob) and loot his pelt.|QID|10022|M|66.3,34.7|
-N Stonegazer|QID|10020|T|Stonegazer|N|Look for Stonegazer here, if you can't solo it find someone to help you.|M|64.00,31.00|L|25815|REP|Aldor|
+N Stonegazer|QID|10020|T|Stonegazer|N|Look for Stonegazer here, if you can't solo it find someone to help you.|M|64.00,31.00|L|25815|REP|Aldor;932|
 T Attack on Firewing Point|QID|9996|M|69.7,44.2|N|To Lieutenant Meridian.|
 A The Final Code|QID|10446|M|69.7,44.2|N|From Lieutenant Meridian.|
 l The Final Code|QID|10446|N|Go to the top of the tower and kill Sharth Voldoun and loot the Final Code. If you are about to die, jump off the tower or else you will not be able to get your corpse.|L|29912|M|74.00,36.00|
 C The Final Code|N|Right-click the mana bomb in the center of town.|QID|10446|M|71.20,37.40|
 A Escape from Firewing Point!|QID|10051|M|73.9,35.2|N|From Isla Starmane.|
 C Escape from Firewing Point!|N|Do this escort quest.|QID|10051|M|73.9,35.2|
-l Firewing Signets|QID|10412|M|70.00,39.00|N|Kill the mobs until you get 10 Firewing Signets.|L|29426 10|REP|Scryers|US|
+l Firewing Signets|QID|10412|M|70.00,39.00|N|Kill the mobs until you get 10 Firewing Signets.|L|29426 10|REP|Scryers;934|US|
 T The Final Code|QID|10446|M|57.0,53.5|N|To Jenai Starwhisper.|
-C A Cure for Zahlia|N|This is your last chance to complete this quest, if you already haven't kill Stonegazer here with a partner if you need.|QID|10020|M|64.00,31.00|REP|Aldor|
+C A Cure for Zahlia|N|This is your last chance to complete this quest, if you already haven't kill Stonegazer here with a partner if you need.|QID|10020|M|64.00,31.00|REP|Aldor;932|
 A Letting Earthbinder Tavgren Know|QID|10005|M|57.0,53.5|N|From Jenai Starwhisper.|
 T The Elusive Ironjaw |QID|10022|M|58.3,54.8|N|To Bertelm.|
 T Escape from Firewing Point!|QID|10051|M|57.2,55.7|N|To Captain Auric Sunchaser.|
@@ -295,14 +300,14 @@ T Recover the Bones |QID|10030|N|To Ramdor the Mad.|
 A Helping the Lost Find Their Way|QID|10031|N|From Ramdor the Mad.|
 T Can't Stay Away |QID|10180|N|To Isfar.|
 
-H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor|
-r Sell junk, Repair, restock|QID|10020|M|28.11,47.65|Z|Shattrath City|REP|Aldor|
-H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers|
-r Sell junk, Repair, restock, train skills|QID|10412|M|54.6,82.4|Z|Shattrath City|REP|Scryers|
+H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
+r Sell junk, Repair, restock|QID|10020|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
+H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+r Sell junk, Repair, restock, train skills|QID|10412|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 
-A Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|From Magistriz Fyalenn.|REP|Scryers|
-T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|To Magistriz Fyalenn.|REP|Scryers|
-T A Cure for Zahlia|QID|10020|Z|Shattrath City|N|To Sha'nir.|M|64.37,15.55|REP|Aldor|
+A Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|From Magistriz Fyalenn.|REP|Scryers;934|
+T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|To Magistriz Fyalenn.|REP|Scryers;934|
+T A Cure for Zahlia|QID|10020|Z|Shattrath City|N|To Sha'nir.|M|64.37,15.55|REP|Aldor;932|
 T Ezekiel|QID|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|N|To Ezekiel. He wanders around the Terrace of Light.|
 A What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|From Ezekiel.|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|
 C What Book? I Don't See Any Book.|Z|Shattrath City|N|Get a group for this quest, then talk to "Dirty" Larry in Lower City and then get him down in health.|QID|10231|M|43.58,29.36|
@@ -359,14 +364,14 @@ C Evil Draws Near|QID|10923|M|48.65,67.16|N|Use the Dread Relic and the glowing 
 T Evil Draws Near|QID|10923|M|31.1,76.5|N|To Oakun.|O|
 T The Fallen Exarch|QID|10915|M|31.0,76.1|N|To Commander Ra'vaj.|
 
-H Shattrath City|QID|10889|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor|
-H Shattrath City|QID|10889|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers|
+H Shattrath City|QID|10889|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
+H Shattrath City|QID|10889|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
 T Return to Shattrath|QID|10889|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Redeemed.|
 T Skywing|QID|10898|Z|Shattrath City|N|To Rilak the Redeemed.|
 A The Skettis Offensive|QID|10879|Z|Shattrath City|M|51.76,20.78|N|From Defender Grashna.|
 C The Skettis Offensive|Z|Shattrath City|N|Kill the mobs (Two birds, Two Birds, Three Birds, One bird 10k health) until this quest is finished. You may need a group.|QID|10879|M|52.6,21.0|
 T The Skettis Offensive|QID|10879|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Redeemed.|
-r Sell junk, Repair, restock|M|28.11,47.65|Z|Shattrath City|N|Visit your trainers, etc. Close this step to continue to the next guide.|REP|Aldor|
-r Sell junk, Repair, restock.|N|Visit your trainers, etc. Close this step to continue to the next guide.|M|54.6,82.4|Z|Shattrath City|REP|Scryers|
+r Sell junk, Repair, restock|M|28.11,47.65|Z|Shattrath City|N|Visit your trainers, etc. Close this step to continue to the next guide.|REP|Aldor;932|
+r Sell junk, Repair, restock.|N|Visit your trainers, etc. Close this step to continue to the next guide.|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 ]]
 end)

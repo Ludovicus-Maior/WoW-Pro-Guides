@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2011-06-30 04:50
+-- Who: Crackerhead22
+-- Log: Fixed accept line of "Troll Season" per Bloodlusted's catch.
+
+-- URL: http://wow-pro.com/node/3293/revisions/24257/view
 -- Date: 2011-04-24 00:24
 -- Who: Crackerhead22
 -- Log: Fixed line-T Riding the Red Rocket|QID|12437|O|N|To Commander Howser.|M|M|14.8,86.6|
@@ -67,7 +72,7 @@ A Just Passing Through |QID|12226|M|32.1,60.0|N|From Master Woodsman Anderhol.|
 C Replenishing the Storehouse |QID|12212|N|North of Amberpine Lodge, kill and loot Tallhorn Stags.|M|33.3,58.0|
 T Replenishing the Storehouse |QID|12212|N|Back to Master Woodsman Anderhol.|M|32.06,59.94|
 A Take Their Rear! |QID|12216|M|32.1,60.0|N|From Master Woodsman Anderhol.|
-A Troll Season! |QID|12210|M|31.8,60.2|N|From Master Woodsman Anderhol.|
+A Troll Season! |QID|12210|M|31.8,60.2|N|From Lieutenant Dumont.|
 C Take Their Rear!|QID|12216|N|Kill Grizzly Bears along the river.|M|30.6,53.4|S|
 C Just Passing Through |QID|12226|U|188670|N|Loot the [Blackroot] northwest of Amberpine Lodge.|M|29,54|
 C Them or Us! |QID|12215|N|Go west to the grey area in the woods, kill Graymist Hunters.|M|25,56|

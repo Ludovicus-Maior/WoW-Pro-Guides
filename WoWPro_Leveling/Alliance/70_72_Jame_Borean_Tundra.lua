@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2011-07-06 14:37
+-- Who: Crackerhead22
+-- Log: Added notes in the "The Hunt is On" steps about talking to the cultists.
+
+-- URL: http://wow-pro.com/node/3289/revisions/24595/view
 -- Date: 2011-06-25 01:24
 -- Who: Crackerhead22
 -- Log: Removed "This quest needs to be manually clicked off because there is no turnin." from the line of "A A Mission Statement |QID|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|"
@@ -141,9 +146,9 @@ T The Late William Allerton |QID|11600|N|To Leryssa.|M|58.73,68.34|
 A Lost and Found |QID|11601|N|From Leryssa.|M|58.73,68.34|
 T Lost and Found |QID|11601|N|To James Deacon the inn barkeep.|M|58.29,68.05|
 A In Wine, Truth |QID|11603|N|From James Deacon the inn barkeep.|M|58.29,68.05|
-N Cultist in Kitchen |QID|11794|QO|Cultist in kitchen defeated: 1/1|U|35125|N|Use the Oculus of the Exorcist in the kitchen of the inn and kill the cultist.|M|58.62,67.10|
-N Cultist in Docks |QID|11794|QO|Cultist in docks defeated: 1/1|U|35125|N|Use the Oculus on the lower dock outside and kill the cultist.|M|59.18,68.56|
-C The Hunt is On |QID|11794|U|35125|N|Use the oculus in the jail underneath the keep and kill the cultist.|M|56.67,71.76|
+N Cultist in Kitchen |QID|11794|QO|Cultist in kitchen defeated: 1/1|U|35125|N|Use the Oculus of the Exorcist in the kitchen of the inn, then talk to and kill the cultist.|M|58.62,67.10|
+N Cultist in Docks |QID|11794|QO|Cultist in docks defeated: 1/1|U|35125|N|Use the Oculus on the lower dock outside, then talk to and kill the cultist.|M|59.18,68.56|
+C The Hunt is On |QID|11794|U|35125|N|Use the oculus in the jail underneath the keep, then talk to and kill the cultist.|M|56.67,71.76|
 T The Hunt is On |QID|11794|N|To Vindicator Yaala on the top floor of the inn.|M|58.55,67.30|
 T Weapons for Farshire |QID|11963|N|Go back to Gerald at Farshire.|M|58.16,62.75|
 

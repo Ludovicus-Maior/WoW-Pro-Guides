@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/profession_alchemy
+-- Date: 2011-06-30 06:05
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3408/revisions/24633/view
+-- Date: 2011-06-30 05:49
+-- Who: Crackerhead22
+
 WoWPro.Profession:RegisterGuide('TwiAlchemy', 'Alchemy', 'Alchemy', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[
 
@@ -541,8 +549,4 @@ N Transmute: Amberjewel: 524 of 525|QID|901710536|N|\nMATERIALS\n\n3 Whiptail (3
 
 N That completes Alchemy.
 ]]
-
-
-
 end)
-

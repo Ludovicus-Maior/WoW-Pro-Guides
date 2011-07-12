@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/profession_blacksmithing
+-- Date: 2011-06-30 06:05
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3409/revisions/24634/view
+-- Date: 2011-06-30 05:50
+-- Who: Crackerhead22
+
 WoWPro.Profession:RegisterGuide('TwiBlacksmithing', 'Blacksmithing', 'Blacksmithing', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[
 
@@ -567,8 +575,4 @@ N Bloodied Pyrium Boots: 524 of 525|QID|901640562|N|\nMATERIALS\n\n12 Elementium
 
 N That completes Blacksmithing.
 ]]
-
-
-
 end)
-

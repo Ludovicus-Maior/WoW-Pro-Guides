@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2011-07-06 11:02
+-- Who: Fluclo
+-- Log: The days of grinding to level should be behind us, so rearranged a couple of quest turnins to make sure you're the right level for training.  Unfortunate Measures also drop collars from the Cubs, the Arcane Torrent quest can be done later with the Ferals to reduce grind killing, updated view of Solanian's Journals to not be notes, added loot tag to Solanian's Journals to help the program remember the quest has been done, added couple of stickies where quests can be done simultaneously.
+
+-- URL: http://wow-pro.com/node/3207/revisions/24513/view
 -- Date: 2011-06-07 10:58
 -- Who: Ludovicus Maior
 -- Log: Added R|BloodElf| to steps not available to my Orc.
@@ -66,19 +71,25 @@ return [[
 
 A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|N|From Magistrix Erona|M|38.0,21.0|RANK|1|
 C Mana Wyrm |QID|8325|R|BloodElf|N|Go down the big stairs and you should see plenty of Mana Wyrms.|M|37.60,22.00|RANK|1|
-L Level 2|LVL|2|N|Kill mana wyrms until you ding.|QID|8326|
+; L Level 2|LVL|2|N|Kill mana wyrms until you ding.|QID|8326|
 T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|N|To Magistrix Erona|M|38.0,21.0|
-A Unfortunate Measures|QID|8326|R|BloodElf|M|38.0,21.0|N|From Magistrix Erona|
-A Solanian's Belongings|QID|8330|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian|
+A Unfortunate Measures|QID|8326|R|BloodElf|M|38.0,21.0|N|From Magistrix Erona, inside the building and up the ramp|
+A Solanian's Belongings|QID|8330|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian|S|
 A The Shrine of Dath'Remar|QID|8345|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian|
-A A Fistful of Slivers |QID|8336|R|BloodElf|N|From Arcanist Ithanas. Jump down to the left.|M|38.3,19.1|
+A Solanian's Belongings|QID|8330|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian|US|
+A A Fistful of Slivers |QID|8336|R|BloodElf|N|From Arcanist Ithanas, jump down to the left.|M|38.3,19.1|
 A Thirst Unending|QID|8346|R|BloodElf|N|From Arcanist Helion. Go through the gazeebo in front of you.|M|37.2,18.9|
-C Mana Wyrm |QID|8346|R|BloodElf|N|Find a Mana Wyrm and use Arcane Torrent close to it. |M|37.50,23.90|
-C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill Springpaw Lynxs and loot 8 Lynx collars. |M|36.00,24.00|
-C A Fistful of Slivers |QID|8336|R|BloodElf|N|Kill Mana Wyrms and loot 6 arcane silvers. |M|37.50,23.90|
-L Level 3|QID|8336|LVL|3|N|Kill mana wyrms until you ding.|
-N Solanian's Journal |QID|8330|QO|Solanian's Journal: 1/1|R|BloodElf|N|Near the big green crystal. |M|37.70,24.90|
+
+C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill Springpaw Lynxs and Cubs for the 8 Lynx collars.|M|36.00,24.00|S|
+C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent Arcane Torrent on a Mana Wyrm. |M|37.50,23.90|S|
+C Solanian's Belongings |QID|8330|QO|Solanian's Journal: 1/1|R|BloodElf|N|Get Solonaian's Journal, near the big green crystal. |M|37.70,24.90|NC|L|20472|
+C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent Arcane Torrent on a Mana Wyrm. |M|37.50,23.90|US|
+C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill Springpaw Lynxs and Cubs for the 8 Lynx collars. |M|36.00,24.00|US|
+
+T Thirst Unending |QID|8346|R|BloodElf|M|37.2,18.9|N|To Arcanist Helion||M|37.20,18.95|
+T A Fistful of Slivers |QID|8336|R|BloodElf|N|To Arcanist Ithanas|M|38.3,19.1|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|38,21|N|To Magistrix Erona|
+L Level 3|LVL|3|N|You should be a Level 3 at this point.  As you are not, you will need to kill Mana Wyrms and Springpaw until you are Level 3.|QID|8327|
 A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|38.2,20.8|N|From Magistrix Erona|
 
 A Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|From Magistrix Erona|M|38.0,21.0|
@@ -119,19 +130,21 @@ A Healing the Wounded|QID|10072|R|BloodElf|M|39,20.2|C|Priest|N|From Matron Aren
 C Healing the Wounded|QID|10072|R|BloodElf|M|39,20.2|C|Priest|N|Learn Flash Heal from Matron Arena. Practice casting Flash Heal 5 times on Wounded Outrunners.|
 T Healing the Wounded|QID|10072|R|BloodElf|M|39,20.2|C|Priest|N|To Matron Arena|
 
-T A Fistful of Slivers |QID|8336|R|BloodElf|N|To Arcanist Ithanas|M|38.3,19.1|
-T Thirst Unending |QID|8346|R|BloodElf|M|37.2,18.9|N|To Arcanist Helion|
 T Report to Lanthan Perilon |QID|8327|R|BloodElf|N|To Lanthan Perilon|M|35.4,22.5|
 A Aggression |QID|8334|R|BloodElf|N|From Lanthan Perilon|M|35.4,22.5|
+C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you kill the Feral Tenders, look the Arcane Slivers from them.|M|37.50,23.90|S|
 C Aggression |QID|8334|R|BloodElf|S|N|Kill any Tender and Feral Tender you see.|
-N Solanian's Scrying Orb |QID|8330|QO|Solanian's Scrying Orb: 1/1|R|BloodElf|N|Go south. |M|35.10,28.90|
-N Scroll of Scourge Magic |QID|8330|QO|Scroll of Scourge Magic: 1/1|R|BloodElf|N|Go northwest. |M|31.40,22.80|
-C The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|Go further north until you reach the shrine. Read the plaque.|M|29.7,19.5|
-C Aggression |QID|8334|R|BloodElf|US|
-L Level 4|QID|8334|LVL|4|N|Kill stuff until you hit level 4.|
+C Solanian's Belongings |QID|8330|QO|Solanian's Scrying Orb: 1/1|R|BloodElf|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle. |M|37.70,24.90|NC|L|20470|
+C Solanian's Belongings |QID|8330|QO|Scroll of Scourge Magic: 1/1|R|BloodElf|N|Get the Scroll of Scourge Magic, which is northwest.|M|37.70,24.90|NC|L|20471|
+C Solanian's Belongings |QID|8330|R|BloodElf|N|Get Solanian's belongings.|M|37.70,24.90;37.70,24.90;37.70,24.90|NC|L|20470;20471;20472|
+C The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|Go to the far north-west of the island until you reach the Shrine of Dath'Remar. Read the plaque.|M|29.7,19.5|NC|
+C Aggression |QID|8334|R|BloodElf|US|N|Finish killing the Feral Tenders and Tenders you need.|
+C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you head back to the Sunspire, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|M|37.50,23.90|US|
+; L Level 4|QID|8334|LVL|4|N|Kill stuff until you hit level 4.|
 
-T Solanian's Belongings |QID|8330|R|BloodElf|N|To Well Watcher Solanian. Up the ramp, inside the building.|M|38.96,20.27|
-T The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|To Well Watcher Solanian|M|38.96,20.27|
+T The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|M|38.96,20.27|S|
+T Solanian's Belongings |QID|8330|R|BloodElf|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|M|38.96,20.27|
+T The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|M|38.96,20.27|US|
 T Aggression |QID|8334|R|BloodElf|M|35.4,22.5|N|To Lanthan Perilon|
 A Felendren the Banished |QID|8335|R|BloodElf|N|From Lanthan Perilon|M|35.4,22.5|
 C Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp, kill Arcane Wraiths as you go up. At the top pull the two Tainted Arcane Wraiths (they can be pulled one by one), then kill Felendren|M|30.8,27.1;32.70,25.60|
@@ -192,7 +205,7 @@ A Soaked Pages |QID|9062|N|From Apprentice Meledor|M|44.9,61.0|
 C Soaked Pages |QID|9062|L|22414|N|Dive under the bridge just in front of you. |M|44.40,61.90|
 T Soaked Pages |QID|9062|N|To Apprentice Meledor|M|44.9,61.0|
 A Taking the Fall |QID|9064|N|From Apprentice Meledor|M|44.9,61.0|
-T Taking the Fall  |QID|9064|N|To Instructor Antheol|M|55.7,54.5|
+T Taking the Fall |QID|9064|N|To Instructor Antheol|M|55.7,54.5|
 A Swift Discipline |QID|9066|N|From Instructor Antheol|M|55.7,54.5|
 A The Dead Scar |QID|8475|N|From Ranger Jaela|M|50.3,50.8|
 C Swift Discipline |QID|9066|U|22473|N|Target Apprentice Meledor and Apprentice Ralen, use the rod that Anetheol gave you.|M|45.20,56.40;44.9,61.0|
@@ -219,13 +232,13 @@ A Fly to Silvermoon City|QID|9133|R|BloodElf|M|44,70|N|From Skymaster Brightdawn
 F Silvermoon City|QID|9067|M|44,70|N|Fly to Silvermoon City.|
 T Fly to Silvermoon City|QID|9133|R|BloodElf|M|54,71|Z|Silvermoon City|N|To Sathren Azuredawn|
 A Skymistress Gloaming|QID|9134|R|BloodElf|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn|
-B Suntouched Special Reserve|QID|9067|L|22775|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched.  Also, visit your trainer if you need to.|M|79.70,58.40|
+B Suntouched Special Reserve|QID|9067|L|22775|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|M|79.70,58.40|
 T Skymistress Gloaming|QID|9134|R|BloodElf|M|54.38,50.79|N|To Skymistress Gloaming|
 A Return to Sathiel|QID|9135|R|BloodElf|M|54.38,50.79|N|From Skymistress Gloaming|
 F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
 T Return to Sathiel|QID|9135|R|BloodElf|M|43.69,71.51|N|To Sathiel|
 
-T Captain Kelisendra's Lost Rutters |QID|8887|N|To Captain Kelisendra. Follow the road west until you reach Sunsail Anchorage.  Kill any Springpaw you come across.|M|36.4,66.7|
+T Captain Kelisendra's Lost Rutters |QID|8887|N|To Captain Kelisendra. Follow the road west until you reach Sunsail Anchorage. Kill any Springpaw you come across.|M|36.4,66.7|
 A Grimscale Pirates! |QID|8886|N|From Captain Kelisendra|M|36.4,66.7|
 A Lost Armaments |QID|8480|N|From Velendris Whitemorn|M|36.4,66.7|
 C Looting Weapon Container |QID|8480|L|22413 8|N|First stop at the big white gazeebo and run circles around it looting Weapon Containers. |M|31.0,69.0|
@@ -262,7 +275,7 @@ A The Spearcrafter's Hammer |QID|8477|N|From Arathel Sunforge|M|59.5,62.6|
 A The Magister's Apprentice |QID|8888|N|From Magister Duskwither. Up the right ramp.|M|60.3,61.4|
 
 A Fetch!|QID|9402|N|From Instructor Antheol|R|BloodElf|C|Mage|M|55.7,54.5|
-C Loot Azure Phial|QID|9402|L|23551|N|Dive into the middle of the lake.  The phial is on the bottom.|R|BloodElf|C|Mage|M|54.87,56.38|
+C Loot Azure Phial|QID|9402|L|23551|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|M|54.87,56.38|
 T Fetch!|QID|9402|N|To Instructor Antheol|R|BloodElf|C|Mage|M|55.7,54.5|
 A The Purest Water|QID|9403|N|From Instructor Antheol|R|BloodElf|C|Mage|M|55.7,54.5|
 T The Magister's Apprentice |QID|8888|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|M|67.8,56.5|Z|Eversong Woods|
@@ -278,7 +291,7 @@ C Deactivating the Spire |QID|8889|L|21783|N|Click on the Orb. On the second flo
 A Abandoned Investigations |QID|8891|N|From Magister Duskwither's Journal|M|69.2,52.1|
 T Deactivating the Spire |QID|8889|N|To Apprentice Loralthalis|M|67.8,56.5|
 A Word from the Spire |QID|8890|N|From Apprentice Loralthalis|M|67.8,56.5|
-N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City.  Right-click the box to continue.|
+N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City. Right-click the box to continue.|
 T Word from the Spire |QID|8890|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp. |M|60.3,61.4|
 T Abandoned Investigations |QID|8891|N|To Magister Duskwither|M|60.3,61.4|
 C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
@@ -300,7 +313,7 @@ T Research Notes |QID|9255|N|To Magistrix Landra Dawnstrider|M|44.0,70.8|
 T Warning Fairbreeze Village |QID|9363|N|To Ranger Degolien|M|43.3,70.8|
 T Defending Fairbreeze Village |QID|9252|N|To Ranger Sareyn|M|46.9,71.8|
 T The Party Never Ends |QID|9067|N|To Lord Saltheril|M|38.1,73.6|
-N The next few quests are optional|QID|9258|N|If you want to skip, go ahead.  Honestly I would recommend doing them, as more exp, means possibly another level, which means easier time in Ghostlands. Right-click to continue.|
+N The next few quests are optional|QID|9258|N|If you want to skip, go ahead. Honestly I would recommend doing them, as more exp, means possibly another level, which means easier time in Ghostlands. Right-click to continue.|
 A The Scorched Grove|QID|9258|N|From Ardeyn Riverwind|M|43.6,71.2|
 T The Scorched Grove|QID|9258|M|34,80|N|To Larianna Riverwind. Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
 A A Somber Task|QID|8473|N|From Larianna Riverwind|M|34,80|N|From Larianna Riverwind.|
@@ -313,6 +326,7 @@ T Whitebark's Memory|QID|10166|M|37.58,86.14|N|To Whitebark's Spirit. Use the pe
 C A Somber Task|QID|8473|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34,80|N|To Larianna Riverwind|
 N If you need to visit your trainers|QID|8473|N|Head to Silvermoon City and train, visit the AH etc. Once done, hearth or fly back to Fairbreeze, then close this step to go to the next guide.|
+
 ]]
 
 end)

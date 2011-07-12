@@ -1,4 +1,18 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-06-28 20:52
+-- Who: Fluclo
+-- Log: Minor tweaks to final couple of quests
+
+-- URL: http://wow-pro.com/node/3200/revisions/24625/view
+-- Date: 2011-06-28 20:42
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3200/revisions/24624/view
+-- Date: 2011-06-28 20:37
+-- Who: Fluclo
+-- Log: Updated Grimaxe's Demise to auto-complete
+
+-- URL: http://wow-pro.com/node/3200/revisions/24623/view
 -- Date: 2011-06-28 20:27
 -- Who: Fluclo
 -- Log: Added some NC tags to Non Combat quest lines
@@ -342,18 +356,18 @@ R Striking Back|QID|26094|M|77.14,18.52|N|Put the bombs on the action bar. Jump 
 C Striking Back|QID|26094|U|56814|M|78.25,20.50|N|Drop Bombs on the Dark Iron Attackers.|
 T Striking Back|QID|26094|M|78.20,20.45|N|To Commander Stonebreaker.|
 A Grimaxe's Demise|QID|26102|M|78.20,20.45|N|From Commander Stonebreaker.|
-K Grimaxe's Demise|QID|26102|T|Dark Iron Golem|M|78.40,34.66|N|Kill the golem he is sitting on, then kill Grimaxe.
+C Grimaxe's Demise|QID|26102|T|Dark Iron Golem|M|78.40,34.66|N|Kill the Dark Iron Golem, then Grimaxe will appear - kill him too.|
 T Grimaxe's Demise|QID|26102|M|78.23,20.49|N|To Commander Stonebreaker.|
 A Demanding Answers|QID|26112|M|78.24,20.50|N|From Commander Stonebreaker.|
-N Read this|QID|26112|N|Before you continue the guide, you need to be within 1975xp of level 12. If you are not, use Rixa's Flying Machine to return to Gol'Bolar Quarry. Then go just east of the quarry and kill mobs until you are within 1975xp of level 12.|
+L Level 12|QID|26112|N|Before you continue the guide, you need to be within 1975xp of level 12. If you are not, use Rixa's Flying Machine to return to Gol'Bolar Quarry. Then go just east of the quarry and kill mobs until you are within 1975xp of level 12.|LVL|12|
 
-H Hearth to Thunderbrew Distillery|QID|26112|U|6948|
+H Thunderbrew Distillery|QID|26112|U|6948|N|Head to Ironforge.  Your Hearthstone is probably set to Thunderbrew Distillery and will shorten your distance.|
 F Ironforge|QID|26112|M|53.78,52.72|N|Fly to Ironforge.|
-A Reinforcements for Loch Modan|QID|26131|Z|Ironforge|M|41.47,52.32|
 T Demanding Answers|QID|26112|M|39.78,57.23|Z|Ironforge|N|To Moira Thaurissan.|
 A Seize the Ambassador|QID|26118|M|39.78,57.23|Z|Ironforge|N|From Moira Thaurissan.|
-C Seize the Ambassador|QID|26118|U|56837|T|Ambassador Slaghammer|M|38.4, 45.83|Z|Ironforge|N|Use the Sturdy Manacles to arrest Ambassador Slaghammer.|
+A Reinforcements for Loch Modan|QID|26131|Z|Ironforge|M|41.47,52.32|N|From Mountaineer Barleybrew.  Accept if you plan on going to Loch Modan next.|
+C Seize the Ambassador|QID|26118|U|56837|T|Ambassador Slaghammer|M|38.4, 45.83|Z|Ironforge|N|Use the Sturdy Manacles to arrest Ambassador Slaghammer, then head back to the High Seat.|
 T Seize the Ambassador|QID|26118|M|39.78,57.23|Z|Ironforge|N|To Moira Thaurissan.|
-N Visit your trainers, AH, etc.|N|Close this step to continue to Loch Modan.
+N Visit your trainers, AH, etc.|N|Close this step to continue to Loch Modan.|
 ]]
 end)

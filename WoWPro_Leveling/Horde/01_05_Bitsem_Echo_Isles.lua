@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-07-05 05:42
+-- Who: Jiyambi
+-- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24658/view
+-- Date: 2011-07-05 03:10
+-- Who: Jiyambi
+-- Log: Fixed QIDs on some L steps (had QIDs for quests that were already complete, so would never show up), also added a H step after the cave section, to speed travel.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24597/view
 -- Date: 2011-06-25 01:32
 -- Who: Crackerhead22
 -- Log: ! Missing A step for step T qid 24721 - 24712 is wrong QID, fixed to 24751
@@ -287,7 +297,7 @@ T Mercy for the Lost|RANK|1|QID|24624|M|63.37,95.19|N|To Tegashi.|
 T Consort of the Sea Witch|RANK|1|QID|24625|M|63.37,95.19|N|To Tegashi.|
 A Young and Vicious|RANK|1|QID|24626|PRE|24625|M|63.34,95.29|N|From Kijara.|
 C Crab Fishin'|RANK|1|QID|25037|M|70.34,81.01|US|N|Collect 5 Fresh Crawler Meat from Pygmy Surf Crawlers.|
-C Young and Vicious|RANK|1|QID|24626|U|50053|M|64.34,87.45||N|Use the Bloodtalon Lasso to capture Swiftclaw.|
+C Young and Vicious|RANK|1|QID|24626|U|50053|M|64.34,87.45||N|Use the Bloodtalon Lasso to capture Swiftclaw. If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|
 T Young and Vicious|RANK|1|QID|24626|M|67.25,88.04|N|To Moraya.|
 T Crab Fishin'|RANK|1|QID|25037|M|68.52,87.62|N|To Tora'jin.|
 A Breaking the Line|RANK|1|QID|25035|PRE|24626|M|67.99,88.95|N|From Tortunga.|

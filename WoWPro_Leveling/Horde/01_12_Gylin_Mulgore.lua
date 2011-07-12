@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2011-07-05 20:19
+-- Who: Jiyambi
+
+-- URL: http://wow-pro.com/node/3203/revisions/24661/view
+-- Date: 2011-07-05 20:18
+-- Who: Jiyambi
+-- Log: Spelling error in the Stop the Thorncallers quest caused quest tracking to not work. Moved hearth and training step down for better quest flow.
+
+-- URL: http://wow-pro.com/node/3203/revisions/24617/view
 -- Date: 2011-06-27 22:15
 -- Who: Ludovicus Maior
 -- Log: Removed [Enemies Below] as it is a Level 15 quest.
@@ -84,7 +93,7 @@ T Go to Adana|QID|14458|M|46.21,82.63|Z|Mulgore|N|To Adana Thunderhorn.|
 A Rite of Courage|QID|14456|M|46.21,82.63|Z|Mulgore|N|From Adana Thunderhorn.|
 A Stop the Thorncallers|QID|14455|M|46.21,82.63|Z|Mulgore|N|From Adana Thunderhorn.|
 C Rite of Courage|S|QID|14456|M|47.40,86.15|Z|Mulgore|N|Kill Britlebark Gun Thiefs and loot the Stolen Rifles from them.|QO|Stolen Rifle: 7/7|
-C Stop the Thorncallers|QID|14455|M|46.77,87.35|Z|Mulgore|N|Kill Bristlebark Thorncallers|QO|Bristlebark Thorncaller slain 7/7|
+C Stop the Thorncallers|QID|14455|M|46.77,87.35|Z|Mulgore|N|Kill Bristleback Thorncallers|
 C Rite of Courage|US|QID|14456|M|47.40,86.15|Z|Mulgore|N|Kill Britlebark Gun Thiefs and loot any Stolen Rifles you still need.|QO|Stolen Rifle: 7/7|
 
 L Level 3|QID|14456|LVL|3|N|You should be around level 3 by this point.|
@@ -108,8 +117,9 @@ A Consecrated Note|QID|27015|M|82.79,17.20|Z|Mulgore|N|From Rohaku Stonehoof.|C|
 A Hallowed Note|QID|27014|M|46.18,82.49|Z|Mulgore|N|From Rohaku Stonehoof.|C|Priest|R|Tauren|
 A Rune-Inscribed Note|QID|3093|M|46.19,82.39|Z|Mulgore|N|From Rohaku Stonehoof.|C|Shaman|R|Tauren|
 A Simple Note|QID|3091|M|46.18,82.41|Z|Mulgore|N|From Rohaku Stonehoof.|C|Warrior|R|Tauren|
+C Rite of Honor|QID|14460|M|41.26,81.39|Z|Mulgore|
 
-H Hearth to Camp Narache|QID|14460|M|45.16,75.45|U|6948|
+H Camp Narache|QID|14460|M|45.16,75.45|U|6948|
 
 T Verdant Note|QID|3094|M|45.21,75.29|Z|Mulgore|N|To Gart Mistrunner.|C|Druid|R|Tauren|
 A The Healer's Touch|QID|27067|M|45.21,75.29|Z|Mulgore|N|From Gart Mistrunner.|C|Druid|R|Tauren|
@@ -142,7 +152,6 @@ A The First Lesson|QID|27020|M|45.04,75.58|Z|Mulgore|N|From Harutt Thunderhorn.|
 C The First Lesson|QID|27020|M|45.40,75.53|Z|Mulgore|C|Warrior|R|Tauren|
 T The First Lesson|QID|27020|M|45.06,75.52|Z|Mulgore|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
 
-C Rite of Honor|QID|14460|M|41.26,81.39|Z|Mulgore|
 T Rite of Honor|QID|14460|M|45.17,75.60|Z|Mulgore|N|To Chief Hawkwind.|
 A Last Rites, First Rites|QID|24861|M|45.17,75.60|Z|Mulgore|N|From Chief Hawkwind.|
 C Last Rites, First Rites|NC|QID|24861|M|45.17,75.60|Z|Mulgore|U|50465|

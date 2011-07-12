@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2011-07-10 11:57
+-- Who: Crackerhead22
+-- Log: Fixed a spelling mistake per Aberdeen's catch.
+
+-- URL: http://wow-pro.com/node/3311/revisions/24378/view
 -- Date: 2011-05-11 18:35
 -- Who: Crackerhead22
 -- Log: Fixed Syntax Errors.
@@ -205,7 +210,7 @@ A Firebeard Bellows|QID|27809|M|57.44,58.09|N|From Iain Firebeard.|
 T Clan Mullan|QID|27807|M|50.81,60.16|N|To Duglas Mullan.|
 
 A The Fighting Spirit|QID|27810|M|50.81,60.16|N|From Duglas Mullan.|
-C The Fighting Spirit|QID|27810|M|51.52,60.10|N|Challenge a loan fighter.|
+C The Fighting Spirit|QID|27810|M|51.52,60.10|N|Challenge a lone fighter.|
 T The Fighting Spirit|QID|27810|M|50.82,60.22|N|To Duglas Mullan.|
 
 A The Scent of Battle|QID|27811|M|50.82,60.22|N|From Edana Mullan.|

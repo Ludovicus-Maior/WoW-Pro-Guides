@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2011-07-05 05:42
+-- Who: Jiyambi
+-- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24658/view
+-- Date: 2011-07-05 03:10
+-- Who: Jiyambi
+-- Log: Fixed QIDs on some L steps (had QIDs for quests that were already complete, so would never show up), also added a H step after the cave section, to speed travel.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24597/view
 -- Date: 2011-06-25 01:32
 -- Who: Crackerhead22
 -- Log: ! Missing A step for step T qid 24721 - 24712 is wrong QID, fixed to 24751

@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2011-07-06 17:22
+-- Who: Fluclo
+-- Log: Added professions line, removed obtain flightpoint (not required, already have flightpoint for race, or from intro line)
+
+-- URL: http://wow-pro.com/node/3206/revisions/24666/view
+-- Date: 2011-07-06 17:13
+-- Who: Fluclo
+-- Log: Added some NC steps
+
+-- URL: http://wow-pro.com/node/3206/revisions/24585/view
 -- Date: 2011-06-25 00:36
 -- Who: Crackerhead22
 -- Log: ! Duplicate T step for qid 9452 - Fixed
@@ -85,11 +95,11 @@ A Rescue the Survivors!|R|Draenei|QID|9283|M|80.1,48.8|R|Draenei|N|From Zaldunn.
 r Sell junk and repair|QID|9293|N|At Mura.|M|79.19,50.93|
 A Spare Parts |QID|9305|M|79.5,51.4|R|Draenei|N|From Technician Zhanaa.|
 A Inoculation |QID|9303|M|79.5,51.4|R|Draenei|N|From Vindicator Aldar.|
-C Rescue the Survivors!|R|Draenei|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|
-C Botanical Legwork|QID|9799|M|74.39,49.97|S|N|Collect Corrupted Flowers.|R|Draenei|
+C Rescue the Survivors!|R|Draenei|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|NC|
+C Botanical Legwork|QID|9799|M|74.39,49.97|S|N|Collect Corrupted Flowers.|R|Draenei|NC|
 C What Must Be Done...|QID|9293|N|Kill Mutated Root Lashers.|M|74.9,50.4|R|Draenei|
-C Botanical Legwork|QID|9799|M|74.39,49.97|US|N|Collect Corrupted Flowers.|R|Draenei|
-C Rescue the Survivors!|R|Draenei|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|
+C Botanical Legwork|QID|9799|M|74.39,49.97|US|N|Collect Corrupted Flowers.|R|Draenei|NC|
+C Rescue the Survivors!|R|Draenei|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|NC|
 T Botanical Legwork|QID|9799|M|79.1,46.5|R|Draenei|N|To Apprentic Vishael.|
 T What Must Be Done...|QID|9293|M|79.1,46.5|R|Draenei|N|To Botanist Taerix.|
 A Healing the Lake|QID|9294|M|79.1,46.5|R|Draenei|N|From Botanist Taerix.|
@@ -122,11 +132,11 @@ C Aiding the Injured|QID|10072|R|Draenei|M|80.1,48.5|C|Priest|N|Learn Flash Heal
 T Aiding the Injured|QID|10072|R|Draenei|M|80.1,48.5|C|Priest|N|To Zalduun.|
 
 r Sell junk and repair|QID|9305|N|At Mura, close this step when done.|M|79.19,50.93|R|Draenei|
-C Healing the Lake|QID|9294|N|Head south to the giant crystal and right-click it.|M|77,59|R|Draenei|
-C Inoculation|QID|9303|R|Draenei|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|S|
+C Healing the Lake|QID|9294|N|Head south to the giant crystal and right-click it.|M|77,59|R|Draenei|NC|
+C Inoculation|QID|9303|R|Draenei|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|S|NC|
 C Spare Parts|QID|9305|R|Draenei|N|Into the hills, through the cave. The parts are spread all over the camp.|M|84.51,65.29|
-C Inoculation|QID|9303|R|Draenei|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|US|
-H Ammen Vale|QID|9305|U|6948|R|Draenei|N|Hearth back to Ammen Vale, or run back if your hearth is down.|
+C Inoculation|QID|9303|R|Draenei|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|US|NC|
+H Ammen Vale|QID|9305|U|6948|R|Draenei|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
 T Healing the Lake|QID|9294|M|79.1,46.5|R|Draenei|N|To Botanist Taerix.|
 T Inoculation|QID|9303|M|79.5,51.4|R|Draenei|N|To Vindicator Aldar.|
 A The Missing Scout|QID|9309|M|79.5,51.4|R|Draenei|N|From Vindicator Aldar.|
@@ -152,14 +162,18 @@ A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|From Diktynna.|
 C Red Snapper - Very Tasty!|N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an Angry Murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.|QID|9452|U|23654|M|62.31,55.11|
 T Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|To Diktynna.|
 A Find Acteon!|QID|9453|M|61.1,54.2|N|From Diktynna.|
-R Azure Watch|QID|9453|N|Follow the path to Azure Watch.|M|51.18,51.67|
-T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon.|
+; R Azure Watch|QID|9453|N|Follow the path to Azure Watch.|M|51.18,51.67|
+T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon at Azure Watch.  Once there, learn any new skills that you need.|C|Hunter|
+T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon at Azure Watch.|C|Shaman,Paladin,Priest,Mage,Warrior|
 A The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|From Acteon.|
 T Travel to Azure Watch|QID|9313|M|48.7,50.3|R|Draenei|N|To Technician Dyvuun.|
 T Word from Azure Watch|QID|9314|M|48.3,49.2|N|To Caregiver Chellan.|
 h Azure Watch|QID|9506|N|Set your hearth to Azure Watch with Caregive Chellan.|
 A Beds, Bandages, and Beyond|QID|9603|R|Draenei|N|From Caregive Chellan.|
 A Medicinal Purpose|QID|9463|R|Draenei|M|48.4,51.8|N|From Anchorite Fateema.|
+
+N Professions |QID|9603|R|Draenei|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
+
 N Visit class trainer|C|Shaman|M|48.05,50.42|R|Draenei|QID|9454|
 N Visit class trainer|C|Paladin|M|48.36,49.56|R|Draenei|QID|9454|
 N Visit class trainer|C|Priest|M|46.60,49.29|R|Draenei|QID|9454|
@@ -167,7 +181,7 @@ N Visit class trainer|C|Mage|M|49.87,49.96|R|Draenei|QID|9454|
 N Visit class trainer|C|Warrior|M|50.02,50.52|R|Draenei|QID|9454|
 N Visit class trainer|C|Hunter|M|49.78,51.93|R|Draenei|QID|9454|
 N Note!|QID|9616|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
-f Get flightpoint.|QID|9463|M|49.67,49.17|N|At Zaldaan.|
+; f Get flightpoint.|QID|9463|M|49.67,49.17|N|At Zaldaan.|
 T Beds, Bandages, and Beyond|QID|9603|R|Draenei|N|Go to Zaldaan.|
 A On the Wings of a Hippogryph|QID|9604|R|Draenei|N|From Zaldaan.|
 F The Exodar|QID|9604|R|Draenei|N|Fly to the Exodar.|

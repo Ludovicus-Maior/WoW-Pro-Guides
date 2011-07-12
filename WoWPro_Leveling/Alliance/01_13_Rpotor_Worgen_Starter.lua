@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2011-07-01 13:47
+-- Who: Ludovicus Maior
+-- Log: $2. shifted from Gilneas_terrain1 to Gilneas_terrain2
+
+-- URL: http://wow-pro.com/node/3211/revisions/24586/view
 -- Date: 2011-06-25 00:39
 -- Who: Crackerhead22
 -- Log:  T qid 24472 -Added in accept step.

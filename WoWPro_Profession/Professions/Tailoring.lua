@@ -102,8 +102,8 @@ N Bolt of Woolen Cloth: 95 of 100|QID|901970097|N|\nMATERIALS\n\n3 Wool Cloth (1
 N Bolt of Woolen Cloth: 96 of 100|QID|901970098|N|\nMATERIALS\n\n3 Wool Cloth (12/102 Total)|P|Tailoring;96;97|T|Bolt of Woolen Cloth;1;4|
 N Bolt of Woolen Cloth: 97 of 100|QID|901970099|N|\nMATERIALS\n\n3 Wool Cloth (9/99 Total)|P|Tailoring;97;98|T|Bolt of Woolen Cloth;1;3|
 N Bolt of Woolen Cloth: 98 of 100|QID|901970100|N|\nMATERIALS\n\n3 Wool Cloth (6/96 Total)|P|Tailoring;98;99|T|Bolt of Woolen Cloth;1;2|
-N Bolt of Woolen Cloth: 99 of 100|QID|901970101|N|\nMATERIALS\n\n3 Wool Cloth (3/93 Total)|P|Tailoring;99;100|T|Bolt of Woolen Cloth;1;1 
-N Bolt of Woolen Cloth|QID|901970102|N|Keep making these until you have 65.\n\nMATERIALS\n\n3 Wool Cloth|L|2997 55|T|Bolt of Woolen Cloth;1;1 
+N Bolt of Woolen Cloth: 99 of 100|QID|901970101|N|\nMATERIALS\n\n3 Wool Cloth (3/93 Total)|P|Tailoring;99;100|T|Bolt of Woolen Cloth;1;1
+N Bolt of Woolen Cloth|QID|901970102|N|Keep making these until you have 65.\n\nMATERIALS\n\n3 Wool Cloth|L|2997 55|T|Bolt of Woolen Cloth;1;1
 N Green Woolen Vest: 100 of 120|QID|901970103|N|\nMATERIALS\n\n2 Woolen Cloth (40/55 Total)\n2 Fine Thread (40/50 Total)\n1 Green Dye (20/-1 Total)|P|Tailoring;100;101|T|Green Woolen Vest;1;20|
 N Green Woolen Vest: 101 of 120|QID|901970104|N|\nMATERIALS\n\n2 Woolen Cloth (38/53 Total)\n2 Fine Thread (38/48 Total)\n1 Green Dye (19/-2 Total)|P|Tailoring;101;102|T|Green Woolen Vest;1;19|
 N Green Woolen Vest: 102 of 120|QID|901970105|N|\nMATERIALS\n\n2 Woolen Cloth (36/51 Total)\n2 Fine Thread (36/46 Total)\n1 Green Dye (18/-3 Total)|P|Tailoring;102;103|T|Green Woolen Vest;1;18|
@@ -551,8 +551,4 @@ N Emberfire Boots: 524 of 525|QID|901970546|N|\nMATERIALS\n\n10 Bolt of Embersil
 
 N That completes Tailoring.
 ]]
-
-
-
 end)
-

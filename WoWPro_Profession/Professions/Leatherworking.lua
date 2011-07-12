@@ -1,3 +1,11 @@
+-- URL: http://wow-pro.com/wiki/profession_leatherworking
+-- Date: 2011-06-30 06:04
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3413/revisions/24638/view
+-- Date: 2011-06-30 06:03
+-- Who: Crackerhead22
+
 WoWPro.Profession:RegisterGuide('TwiLeather', 'Leatherworking', 'Leatherworking', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[
 
@@ -535,8 +543,4 @@ N Bloodied Leather Belt: 524 of 525|QID|901640530|N|\nMATERIALS\n\n10 Heavy Sava
 
 N That completes Leatherworking.
 ]]
-
-
-
 end)
-

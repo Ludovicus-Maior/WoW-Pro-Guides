@@ -1,4 +1,18 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-06-28 20:52
+-- Who: Fluclo
+-- Log: Minor tweaks to final couple of quests
+
+-- URL: http://wow-pro.com/node/3200/revisions/24625/view
+-- Date: 2011-06-28 20:42
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3200/revisions/24624/view
+-- Date: 2011-06-28 20:37
+-- Who: Fluclo
+-- Log: Updated Grimaxe's Demise to auto-complete
+
+-- URL: http://wow-pro.com/node/3200/revisions/24623/view
 -- Date: 2011-06-28 20:27
 -- Who: Fluclo
 -- Log: Added some NC tags to Non Combat quest lines
