@@ -31,7 +31,7 @@ N Bolt of Linen Cloth: 26 of 30|QID|901970026|N|\nMATERIALS\n\n2 Linen Cloth (8/
 N Bolt of Linen Cloth: 27 of 30|QID|901970027|N|\nMATERIALS\n\n2 Linen Cloth (6/78 Total)|P|Tailoring;27;28|T|Bolt of Linen Cloth;1;3|
 N Bolt of Linen Cloth: 28 of 30|QID|901970028|N|\nMATERIALS\n\n2 Linen Cloth (4/76 Total)|P|Tailoring;28;29|T|Bolt of Linen Cloth;1;2|
 N Bolt of Linen Cloth: 29 of 30|QID|901970029|N|\nMATERIALS\n\n2 Linen Cloth (2/74 Total)|P|Tailoring;29;30|T|Bolt of Linen Cloth;1;1|
-N Bolt of Linen Cloth|QID|901970030|N|Keep making these until you have 65.\n\nMATERIALS\n\n2 Linen Cloth|L|2996 65|T|Bolt of Linen Cloth;1;1|
+N Bolt of Linen Cloth|QID|901970030|N|Keep making these until you have 65.\n\nMATERIALS\n\n2 Linen Cloth|P|Tailoring;30;75|T|Bolt of Linen Cloth;1;1|L|2996 65|S|
 N Brown Linen Vest: 30 of 45|QID|901970031|N|\nMATERIALS\n\n1 Bolt of Linen Cloth (15/65 Total)\n1 Coarse Thread (15/75 Total)|P|Tailoring;30;31|T|Brown Linen Vest;1;15|
 N Brown Linen Vest: 31 of 45|QID|901970032|N|\nMATERIALS\n\n1 Bolt of Linen Cloth (14/64 Total)\n1 Coarse Thread (14/74 Total)|P|Tailoring;31;32|T|Brown Linen Vest;1;14|
 N Brown Linen Vest: 32 of 45|QID|901970033|N|\nMATERIALS\n\n1 Bolt of Linen Cloth (13/63 Total)\n1 Coarse Thread (13/73 Total)|P|Tailoring;32;33|T|Brown Linen Vest;1;13|
@@ -103,32 +103,32 @@ N Bolt of Woolen Cloth: 96 of 100|QID|901970098|N|\nMATERIALS\n\n3 Wool Cloth (1
 N Bolt of Woolen Cloth: 97 of 100|QID|901970099|N|\nMATERIALS\n\n3 Wool Cloth (9/99 Total)|P|Tailoring;97;98|T|Bolt of Woolen Cloth;1;3|
 N Bolt of Woolen Cloth: 98 of 100|QID|901970100|N|\nMATERIALS\n\n3 Wool Cloth (6/96 Total)|P|Tailoring;98;99|T|Bolt of Woolen Cloth;1;2|
 N Bolt of Woolen Cloth: 99 of 100|QID|901970101|N|\nMATERIALS\n\n3 Wool Cloth (3/93 Total)|P|Tailoring;99;100|T|Bolt of Woolen Cloth;1;1
-N Bolt of Woolen Cloth|QID|901970102|N|Keep making these until you have 65.\n\nMATERIALS\n\n3 Wool Cloth|L|2997 55|T|Bolt of Woolen Cloth;1;1
-N Green Woolen Vest: 100 of 120|QID|901970103|N|\nMATERIALS\n\n2 Woolen Cloth (40/55 Total)\n2 Fine Thread (40/50 Total)\n1 Green Dye (20/-1 Total)|P|Tailoring;100;101|T|Green Woolen Vest;1;20|
-N Green Woolen Vest: 101 of 120|QID|901970104|N|\nMATERIALS\n\n2 Woolen Cloth (38/53 Total)\n2 Fine Thread (38/48 Total)\n1 Green Dye (19/-2 Total)|P|Tailoring;101;102|T|Green Woolen Vest;1;19|
-N Green Woolen Vest: 102 of 120|QID|901970105|N|\nMATERIALS\n\n2 Woolen Cloth (36/51 Total)\n2 Fine Thread (36/46 Total)\n1 Green Dye (18/-3 Total)|P|Tailoring;102;103|T|Green Woolen Vest;1;18|
-N Green Woolen Vest: 103 of 120|QID|901970106|N|\nMATERIALS\n\n2 Woolen Cloth (34/49 Total)\n2 Fine Thread (34/44 Total)\n1 Green Dye (17/-4 Total)|P|Tailoring;103;104|T|Green Woolen Vest;1;17|
-N Green Woolen Vest: 104 of 120|QID|901970107|N|\nMATERIALS\n\n2 Woolen Cloth (32/47 Total)\n2 Fine Thread (32/42 Total)\n1 Green Dye (16/-5 Total)|P|Tailoring;104;105|T|Green Woolen Vest;1;16|
-N Green Woolen Vest: 105 of 120|QID|901970108|N|\nMATERIALS\n\n2 Woolen Cloth (30/45 Total)\n2 Fine Thread (30/40 Total)\n1 Green Dye (15/-6 Total)|P|Tailoring;105;106|T|Green Woolen Vest;1;15|
-N Green Woolen Vest: 106 of 120|QID|901970109|N|\nMATERIALS\n\n2 Woolen Cloth (28/43 Total)\n2 Fine Thread (28/38 Total)\n1 Green Dye (14/-7 Total)|P|Tailoring;106;107|T|Green Woolen Vest;1;14|
-N Green Woolen Vest: 107 of 120|QID|901970110|N|\nMATERIALS\n\n2 Woolen Cloth (26/41 Total)\n2 Fine Thread (26/36 Total)\n1 Green Dye (13/-8 Total)|P|Tailoring;107;108|T|Green Woolen Vest;1;13|
-N Green Woolen Vest: 108 of 120|QID|901970111|N|\nMATERIALS\n\n2 Woolen Cloth (24/39 Total)\n2 Fine Thread (24/34 Total)\n1 Green Dye (12/-9 Total)|P|Tailoring;108;109|T|Green Woolen Vest;1;12|
-N Green Woolen Vest: 109 of 120|QID|901970112|N|\nMATERIALS\n\n2 Woolen Cloth (22/37 Total)\n2 Fine Thread (22/32 Total)\n1 Green Dye (11/-10 Total)|P|Tailoring;109;110|T|Green Woolen Vest;1;11|
-N Green Woolen Vest: 110 of 120|QID|901970113|N|\nMATERIALS\n\n2 Woolen Cloth (20/35 Total)\n2 Fine Thread (20/30 Total)\n1 Green Dye (10/-11 Total)|P|Tailoring;110;111|T|Green Woolen Vest;1;10|
-N Green Woolen Vest: 111 of 120|QID|901970114|N|\nMATERIALS\n\n2 Woolen Cloth (18/33 Total)\n2 Fine Thread (18/28 Total)\n1 Green Dye (9/-12 Total)|P|Tailoring;111;112|T|Green Woolen Vest;1;9|
-N Green Woolen Vest: 112 of 120|QID|901970115|N|\nMATERIALS\n\n2 Woolen Cloth (16/31 Total)\n2 Fine Thread (16/26 Total)\n1 Green Dye (8/-13 Total)|P|Tailoring;112;113|T|Green Woolen Vest;1;8|
-N Green Woolen Vest: 113 of 120|QID|901970116|N|\nMATERIALS\n\n2 Woolen Cloth (14/29 Total)\n2 Fine Thread (14/24 Total)\n1 Green Dye (7/-14 Total)|P|Tailoring;113;114|T|Green Woolen Vest;1;7|
-N Green Woolen Vest: 114 of 120|QID|901970117|N|\nMATERIALS\n\n2 Woolen Cloth (12/27 Total)\n2 Fine Thread (12/22 Total)\n1 Green Dye (6/-15 Total)|P|Tailoring;114;115|T|Green Woolen Vest;1;6|
-N Green Woolen Vest: 115 of 120|QID|901970118|N|\nMATERIALS\n\n2 Woolen Cloth (10/25 Total)\n2 Fine Thread (10/20 Total)\n1 Green Dye (5/-16 Total)|P|Tailoring;115;116|T|Green Woolen Vest;1;5|
-N Green Woolen Vest: 116 of 120|QID|901970119|N|\nMATERIALS\n\n2 Woolen Cloth (8/23 Total)\n2 Fine Thread (8/18 Total)\n1 Green Dye (4/-17 Total)|P|Tailoring;116;117|T|Green Woolen Vest;1;4|
-N Green Woolen Vest: 117 of 120|QID|901970120|N|\nMATERIALS\n\n2 Woolen Cloth (6/21 Total)\n2 Fine Thread (6/16 Total)\n1 Green Dye (3/-18 Total)|P|Tailoring;117;118|T|Green Woolen Vest;1;3|
-N Green Woolen Vest: 118 of 120|QID|901970121|N|\nMATERIALS\n\n2 Woolen Cloth (4/19 Total)\n2 Fine Thread (4/14 Total)\n1 Green Dye (2/-19 Total)|P|Tailoring;118;119|T|Green Woolen Vest;1;2|
-N Green Woolen Vest: 119 of 120|QID|901970122|N|\nMATERIALS\n\n2 Woolen Cloth (2/17 Total)\n2 Fine Thread (2/12 Total)\n1 Green Dye (1/-20 Total)|P|Tailoring;119;120|T|Green Woolen Vest;1;1|
-N Double-stiched Woolen Shoulders: 120 of 125|QID|901970123|N|\nMATERIALS\n\n3 Woolen Cloth (15/15 Total)\n2 Fine Thread (10/10 Total)|P|Tailoring;120;121|T|Double-stiched Woolen Shoulders;1;5|
-N Double-stiched Woolen Shoulders: 121 of 125|QID|901970124|N|\nMATERIALS\n\n3 Woolen Cloth (12/12 Total)\n2 Fine Thread (8/8 Total)|P|Tailoring;121;122|T|Double-stiched Woolen Shoulders;1;4|
-N Double-stiched Woolen Shoulders: 122 of 125|QID|901970125|N|\nMATERIALS\n\n3 Woolen Cloth (9/9 Total)\n2 Fine Thread (6/6 Total)|P|Tailoring;122;123|T|Double-stiched Woolen Shoulders;1;3|
-N Double-stiched Woolen Shoulders: 123 of 125|QID|901970126|N|\nMATERIALS\n\n3 Woolen Cloth (6/6 Total)\n2 Fine Thread (4/4 Total)|P|Tailoring;123;124|T|Double-stiched Woolen Shoulders;1;2|
-N Double-stiched Woolen Shoulders: 124 of 125|QID|901970127|N|\nMATERIALS\n\n3 Woolen Cloth (3/3 Total)\n2 Fine Thread (2/2 Total)|P|Tailoring;124;125|T|Double-stiched Woolen Shoulders;1;1|
+N Bolt of Woolen Cloth|QID|901970102|N|Keep making these until you have 65.\n\nMATERIALS\n\n3 Wool Cloth|P|Tailoring;100;125|T|Bolt of Woolen Cloth;1;1|L|2997 55|S|
+N Green Woolen Vest: 100 of 120|QID|901970103|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (40/55 Total)\n2 Fine Thread (40/50 Total)\n1 Green Dye (20/-1 Total)|P|Tailoring;100;101|T|Green Woolen Vest;1;20|
+N Green Woolen Vest: 101 of 120|QID|901970104|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (38/53 Total)\n2 Fine Thread (38/48 Total)\n1 Green Dye (19/-2 Total)|P|Tailoring;101;102|T|Green Woolen Vest;1;19|
+N Green Woolen Vest: 102 of 120|QID|901970105|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (36/51 Total)\n2 Fine Thread (36/46 Total)\n1 Green Dye (18/-3 Total)|P|Tailoring;102;103|T|Green Woolen Vest;1;18|
+N Green Woolen Vest: 103 of 120|QID|901970106|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (34/49 Total)\n2 Fine Thread (34/44 Total)\n1 Green Dye (17/-4 Total)|P|Tailoring;103;104|T|Green Woolen Vest;1;17|
+N Green Woolen Vest: 104 of 120|QID|901970107|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (32/47 Total)\n2 Fine Thread (32/42 Total)\n1 Green Dye (16/-5 Total)|P|Tailoring;104;105|T|Green Woolen Vest;1;16|
+N Green Woolen Vest: 105 of 120|QID|901970108|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (30/45 Total)\n2 Fine Thread (30/40 Total)\n1 Green Dye (15/-6 Total)|P|Tailoring;105;106|T|Green Woolen Vest;1;15|
+N Green Woolen Vest: 106 of 120|QID|901970109|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (28/43 Total)\n2 Fine Thread (28/38 Total)\n1 Green Dye (14/-7 Total)|P|Tailoring;106;107|T|Green Woolen Vest;1;14|
+N Green Woolen Vest: 107 of 120|QID|901970110|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (26/41 Total)\n2 Fine Thread (26/36 Total)\n1 Green Dye (13/-8 Total)|P|Tailoring;107;108|T|Green Woolen Vest;1;13|
+N Green Woolen Vest: 108 of 120|QID|901970111|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (24/39 Total)\n2 Fine Thread (24/34 Total)\n1 Green Dye (12/-9 Total)|P|Tailoring;108;109|T|Green Woolen Vest;1;12|
+N Green Woolen Vest: 109 of 120|QID|901970112|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (22/37 Total)\n2 Fine Thread (22/32 Total)\n1 Green Dye (11/-10 Total)|P|Tailoring;109;110|T|Green Woolen Vest;1;11|
+N Green Woolen Vest: 110 of 120|QID|901970113|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (20/35 Total)\n2 Fine Thread (20/30 Total)\n1 Green Dye (10/-11 Total)|P|Tailoring;110;111|T|Green Woolen Vest;1;10|
+N Green Woolen Vest: 111 of 120|QID|901970114|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (18/33 Total)\n2 Fine Thread (18/28 Total)\n1 Green Dye (9/-12 Total)|P|Tailoring;111;112|T|Green Woolen Vest;1;9|
+N Green Woolen Vest: 112 of 120|QID|901970115|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (16/31 Total)\n2 Fine Thread (16/26 Total)\n1 Green Dye (8/-13 Total)|P|Tailoring;112;113|T|Green Woolen Vest;1;8|
+N Green Woolen Vest: 113 of 120|QID|901970116|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (14/29 Total)\n2 Fine Thread (14/24 Total)\n1 Green Dye (7/-14 Total)|P|Tailoring;113;114|T|Green Woolen Vest;1;7|
+N Green Woolen Vest: 114 of 120|QID|901970117|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (12/27 Total)\n2 Fine Thread (12/22 Total)\n1 Green Dye (6/-15 Total)|P|Tailoring;114;115|T|Green Woolen Vest;1;6|
+N Green Woolen Vest: 115 of 120|QID|901970118|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (10/25 Total)\n2 Fine Thread (10/20 Total)\n1 Green Dye (5/-16 Total)|P|Tailoring;115;116|T|Green Woolen Vest;1;5|
+N Green Woolen Vest: 116 of 120|QID|901970119|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (8/23 Total)\n2 Fine Thread (8/18 Total)\n1 Green Dye (4/-17 Total)|P|Tailoring;116;117|T|Green Woolen Vest;1;4|
+N Green Woolen Vest: 117 of 120|QID|901970120|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (6/21 Total)\n2 Fine Thread (6/16 Total)\n1 Green Dye (3/-18 Total)|P|Tailoring;117;118|T|Green Woolen Vest;1;3|
+N Green Woolen Vest: 118 of 120|QID|901970121|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (4/19 Total)\n2 Fine Thread (4/14 Total)\n1 Green Dye (2/-19 Total)|P|Tailoring;118;119|T|Green Woolen Vest;1;2|
+N Green Woolen Vest: 119 of 120|QID|901970122|N|\nMATERIALS\n\n2 Bolt of Woolen Cloth (2/17 Total)\n2 Fine Thread (2/12 Total)\n1 Green Dye (1/-20 Total)|P|Tailoring;119;120|T|Green Woolen Vest;1;1|
+N Double-stiched Woolen Shoulders: 120 of 125|QID|901970123|N|\nMATERIALS\n\n3 Bolt of Woolen Cloth (15/15 Total)\n2 Fine Thread (10/10 Total)|P|Tailoring;120;121|T|Double-stiched Woolen Shoulders;1;5|
+N Double-stiched Woolen Shoulders: 121 of 125|QID|901970124|N|\nMATERIALS\n\n3 Bolt of Woolen Cloth (12/12 Total)\n2 Fine Thread (8/8 Total)|P|Tailoring;121;122|T|Double-stiched Woolen Shoulders;1;4|
+N Double-stiched Woolen Shoulders: 122 of 125|QID|901970125|N|\nMATERIALS\n\n3 Bolt of Woolen Cloth (9/9 Total)\n2 Fine Thread (6/6 Total)|P|Tailoring;122;123|T|Double-stiched Woolen Shoulders;1;3|
+N Double-stiched Woolen Shoulders: 123 of 125|QID|901970126|N|\nMATERIALS\n\n3 Bolt of Woolen Cloth (6/6 Total)\n2 Fine Thread (4/4 Total)|P|Tailoring;123;124|T|Double-stiched Woolen Shoulders;1;2|
+N Double-stiched Woolen Shoulders: 124 of 125|QID|901970127|N|\nMATERIALS\n\n3 Bolt of Woolen Cloth (3/3 Total)\n2 Fine Thread (2/2 Total)|P|Tailoring;124;125|T|Double-stiched Woolen Shoulders;1;1|
 N Train Expert Tailoring|QID|901970128|N|Visit your trainer in any major city. You must be level 20 or above.|P|Tailoring;125;;225|
 N Bolt of Silk Cloth: 125 of 145|QID|901970129|N|\nMATERIALS\n\n4 Silk Cloth (80/660 Total)|P|Tailoring;125;126|T|Bolt of Silk Cloth;1;20|
 N Bolt of Silk Cloth: 126 of 145|QID|901970130|N|\nMATERIALS\n\n4 Silk Cloth (76/656 Total)|P|Tailoring;126;127|T|Bolt of Silk Cloth;1;19|
@@ -150,7 +150,7 @@ N Bolt of Silk Cloth: 141 of 145|QID|901970145|N|\nMATERIALS\n\n4 Silk Cloth (16
 N Bolt of Silk Cloth: 142 of 145|QID|901970146|N|\nMATERIALS\n\n4 Silk Cloth (12/592 Total)|P|Tailoring;142;143|T|Bolt of Silk Cloth;1;3|
 N Bolt of Silk Cloth: 143 of 145|QID|901970147|N|\nMATERIALS\n\n4 Silk Cloth (8/588 Total)|P|Tailoring;143;144|T|Bolt of Silk Cloth;1;2|
 N Bolt of Silk Cloth: 144 of 145|QID|901970148|N|\nMATERIALS\n\n4 Silk Cloth (4/584 Total)|P|Tailoring;144;145|T|Bolt of Silk Cloth;1;1|
-N Bolt of Silk Cloth|QID|901970149|N|Keep making these until you have 165.\n\nMATERIALS\n\n4 Silk Cloth|L|4305 165|T|Bolt of Silk Cloth;1;1|
+N Bolt of Silk Cloth|QID|901970149|N|Keep making these until you have 165.\n\nMATERIALS\n\n4 Silk Cloth|P|Tailoring;135;205|T|Bolt of Silk Cloth;1;1|L|4305 165|S|
 N Azure Silk Hood: 145 of 155|QID|901970150|N|\nMATERIALS\n\n2 Bolt of Silk Cloth (20/165 Total)\n1 Fine Thread (10/50 Total)\n2 Blue Dye (20/50 Total)|P|Tailoring;135;136|T|Azure Silk Hood;1;10|
 N Azure Silk Hood: 146 of 155|QID|901970151|N|\nMATERIALS\n\n2 Bolt of Silk Cloth (18/163 Total)\n1 Fine Thread (9/49 Total)\n2 Blue Dye (18/48 Total)|P|Tailoring;136;137|T|Azure Silk Hood;1;9|
 N Azure Silk Hood: 147 of 155|QID|901970152|N|\nMATERIALS\n\n2 Bolt of Silk Cloth (16/161 Total)\n1 Fine Thread (8/48 Total)\n2 Blue Dye (16/46 Total)|P|Tailoring;137;138|T|Azure Silk Hood;1;8|
@@ -191,7 +191,7 @@ N Bolt of Mageweave: 181 of 185|QID|901970186|N|\nMATERIALS\n\n4 Mageweave (16/3
 N Bolt of Mageweave: 182 of 185|QID|901970187|N|\nMATERIALS\n\n4 Mageweave (12/372 Total)|P|Tailoring;182;183|T|Bolt of Mageweave;1;3|
 N Bolt of Mageweave: 183 of 185|QID|901970188|N|\nMATERIALS\n\n4 Mageweave (8/368 Total)|P|Tailoring;183;184|T|Bolt of Mageweave;1;2|
 N Bolt of Mageweave: 184 of 185|QID|901970189|N|\nMATERIALS\n\n4 Mageweave (4/364 Total)|P|Tailoring;184;185|T|Bolt of Mageweave;1;1|
-N Bolt of Mageweave|QID|901970190|N|Keep making these until you have 100.\n\nMATERIALS\n\n4 Mageweave|L|4338 100|T|Bolt of Mageweave;1;1|
+N Bolt of Mageweave|QID|901970190|N|Keep making these until you have 100.\n\nMATERIALS\n\n4 Mageweave|P|Tailoring;185;250|T|Bolt of Mageweave;1;1|L|4338 100
 N Crimson Silk Vest: 185 of 205|QID|901970191|N|\nMATERIALS\n\n4 Bolt of Silk Cloth (80/80 Total)\n2 Fine Thread (40/-2 Total)\n2 Red Dye (40/40 Total)|P|Tailoring;185;186|T|Crimson Silk Vest;1;20|
 N Crimson Silk Vest: 186 of 205|QID|901970192|N|\nMATERIALS\n\n4 Bolt of Silk Cloth (76/76 Total)\n2 Fine Thread (38/-2 Total)\n2 Red Dye (38/38 Total)|P|Tailoring;186;187|T|Crimson Silk Vest;1;19|
 N Crimson Silk Vest: 187 of 205|QID|901970193|N|\nMATERIALS\n\n4 Bolt of Silk Cloth (72/72 Total)\n2 Fine Thread (36/-4 Total)\n2 Red Dye (36/36 Total)|P|Tailoring;187;188|T|Crimson Silk Vest;1;18|
@@ -268,7 +268,7 @@ N Bolt of Runecloth: 256 of 260|QID|901970263|N|\nMATERIALS\n\n4 Runecloth (16/6
 N Bolt of Runecloth: 257 of 260|QID|901970264|N|\nMATERIALS\n\n4 Runecloth (12/632 Total)|P|Tailoring;257;258|T|Bolt of Runecloth;1;3|
 N Bolt of Runecloth: 258 of 260|QID|901970265|N|\nMATERIALS\n\n4 Runecloth (8/628 Total)|P|Tailoring;258;259|T|Bolt of Runecloth;1;2|
 N Bolt of Runecloth: 259 of 260|QID|901970266|N|\nMATERIALS\n\n4 Runecloth (4/624 Total)|P|Tailoring;259;260|T|Bolt of Runecloth;1;1|
-N Bolt of Runecloth|QID|901970267|N|Keep making these until you have 165.\n\nMATERIALS\n\n4 Runecloth|L|14047 165|T|Bolt of Runecloth;1;1|
+N Bolt of Runecloth|QID|901970267|N|Keep making these until you have 165.\n\nMATERIALS\n\n4 Runecloth|P|Tailoring;260;300|T|Bolt of Runecloth;1;1|L|14047 165
 N Runecloth Belt: 260 of 280|QID|901970268|N|\nMATERIALS\n\n3 Bolt of Runecloth (60/165 Total)\n1 Rune Thread (20/20 Total)|P|Tailoring;260;261|T|Runecloth Belt;1;20|
 N Runecloth Belt: 261 of 280|QID|901970269|N|\nMATERIALS\n\n3 Bolt of Runecloth (57/162 Total)\n1 Rune Thread (19/19 Total)|P|Tailoring;261;262|T|Runecloth Belt;1;19|
 N Runecloth Belt: 262 of 280|QID|901970270|N|\nMATERIALS\n\n3 Bolt of Runecloth (54/159 Total)\n1 Rune Thread (18/18 Total)|P|Tailoring;262;263|T|Runecloth Belt;1;18|
@@ -335,9 +335,9 @@ N Bolt of Netherweave: 321 of 325|QID|901970330|N|\nMATERIALS\n\n5 Netherweave C
 N Bolt of Netherweave: 322 of 325|QID|901970331|N|\nMATERIALS\n\n5 Netherweave Cloth (15/615 Total)|P|Tailoring;322;323|T|Bolt of Netherweave;1;3|
 N Bolt of Netherweave: 323 of 325|QID|901970332|N|\nMATERIALS\n\n5 Netherweave Cloth (10/610 Total)|P|Tailoring;323;324|T|Bolt of Netherweave;1;2|
 N Bolt of Netherweave: 324 of 325|QID|901970333|N|\nMATERIALS\n\n5 Netherweave Cloth (5/605 Total)|P|Tailoring;324;325|T|Bolt of Netherweave;1;1|
-N Bolt of Netherweave|QID|901970334|N|Keep making these until you have 145.\n\nMATERIALS\n\n5 Netherweave Cloth|L|21840 145|T|Bolt of Netherweave;1;1|
-B Pattern: Bolt of Imdued Netherweave|QID|901970335|N|Purchased from Eiin in Shattrath City.|M|66.2 68.8|Z|Shattrath City|L|21892|
-B Pattern: Netherweave Tunic|QID|901970336|N|Purchased from Eiin in Shattrath City.|M|66.2 68.8|Z|Shattrath City|L|21897|
+N Bolt of Netherweave|QID|901970334|N|Keep making these until you have 145.\n\nMATERIALS\n\n5 Netherweave Cloth|P|Tailoring;325;350|T|Bolt of Netherweave;1;1|L|21840 145|S|
+B Pattern: Bolt of Imdued Netherweave|QID|901970335|N|Purchased from Eiin in Shattrath City.|M|66.2 68.8|Z|Shattrath City|P|Tailoring;325;335|L|21892|
+B Pattern: Netherweave Tunic|QID|901970336|N|Purchased from Eiin in Shattrath City.|M|66.2 68.8|Z|Shattrath City|P|Tailoring;325;350|L|21897|
 N Bolt of Imdued Netherweave: 325 of 335|QID|901970337|N|\nMATERIALS\n\n3 Bolt of Netherweave (30/140 Total)\n2 Arcane Dust (20/20 Total)|P|Tailoring;325;326|T|Bolt of Imdued Netherweave;1;10|
 N Bolt of Imdued Netherweave: 326 of 335|QID|901970338|N|\nMATERIALS\n\n3 Bolt of Netherweave (27/137 Total)\n2 Arcane Dust (18/18 Total)|P|Tailoring;326;327|T|Bolt of Imdued Netherweave;1;9|
 N Bolt of Imdued Netherweave: 327 of 335|QID|901970339|N|\nMATERIALS\n\n3 Bolt of Netherweave (24/134 Total)\n2 Arcane Dust (16/16 Total)|P|Tailoring;327;328|T|Bolt of Imdued Netherweave;1;8|
@@ -389,7 +389,7 @@ N Bolt of Frostweave: 371 of 375|QID|901970384|N|\nMATERIALS\n\n5 Frostweave Clo
 N Bolt of Frostweave: 372 of 375|QID|901970385|N|\nMATERIALS\n\n5 Frostweave Cloth (15/1040 Total)|P|Tailoring;372;373|T|Bolt of Frostweave;1;3|
 N Bolt of Frostweave: 373 of 375|QID|901970386|N|\nMATERIALS\n\n5 Frostweave Cloth (10/1035 Total)|P|Tailoring;373;374|T|Bolt of Frostweave;1;2|
 N Bolt of Frostweave: 374 of 375|QID|901970387|N|\nMATERIALS\n\n5 Frostweave Cloth (5/1030 Total)|P|Tailoring;374;375|T|Bolt of Frostweave;1;1|
-N Bolt of Frostweave|QID|901970388|N|Keep making these until you have 230.\n\nMATERIALS\n\n5 Frostweave Cloth|L|41510 230|T|Bolt of Frostweave;1;1|
+N Bolt of Frostweave|QID|901970388|N|Keep making these until you have 230.\n\nMATERIALS\n\n5 Frostweave Cloth|P|Tailoring;375;425|T|Bolt of Frostweave;1;1|L|41510 230|S|
 N Frostwoven Belt: 375 of 380|QID|901970389|N|\nMATERIALS\n\n3 Bolts of Frostweave Cloth (15/230 Total)\n1 Eternimum Thread (5/-1 Total)|P|Tailoring;375;376|T|Frostwoven Belt;1;5|
 N Frostwoven Belt: 376 of 380|QID|901970390|N|\nMATERIALS\n\n3 Bolts of Frostweave Cloth (12/227 Total)\n1 Eternimum Thread (4/-2 Total)|P|Tailoring;376;377|T|Frostwoven Belt;1;4|
 N Frostwoven Belt: 377 of 380|QID|901970391|N|\nMATERIALS\n\n3 Bolts of Frostweave Cloth (9/224 Total)\n1 Eternimum Thread (3/-3 Total)|P|Tailoring;377;378|T|Frostwoven Belt;1;3|
@@ -420,7 +420,7 @@ N Bolt of Imbued Frostweave: 401 of 405|QID|901970415|N|\nMATERIALS\n\n2 Bolts o
 N Bolt of Imbued Frostweave: 402 of 405|QID|901970416|N|\nMATERIALS\n\n2 Bolts of Frostweave Cloth (6/96 Total)\n2 Infinite Dust (6/16 Total)|P|Tailoring;402;403|T|Bolt of Imbued Frostweave;1;3|
 N Bolt of Imbued Frostweave: 403 of 405|QID|901970417|N|\nMATERIALS\n\n2 Bolts of Frostweave Cloth (4/94 Total)\n2 Infinite Dust (4/14 Total)|P|Tailoring;403;404|T|Bolt of Imbued Frostweave;1;2|
 N Bolt of Imbued Frostweave: 404 of 405|QID|901970418|N|\nMATERIALS\n\n2 Bolts of Frostweave Cloth (2/92 Total)\n2 Infinite Dust (2/12 Total)|P|Tailoring;404;405|T|Bolt of Imbued Frostweave;1;1|
-N Bolt of Imbued Frostweave|QID|901970419|N|Keep making these until you have 30.\n\nMATERIALS\n\n2 Bolts of Frostweave Cloth (\n2 Infinite Dust|L|41511 10|T|Bolt of Imbued Frostweave;1;0|
+N Bolt of Imbued Frostweave|QID|901970419|N|Keep making these until you have 30.\n\nMATERIALS\n\n2 Bolts of Frostweave Cloth (\n2 Infinite Dust|P|Tailoring;405;425|T|Bolt of Imbued Frostweave;1;0|L|41511 10|S|
 N Duskweave Wristwraps: 405 of 410|QID|901970420|N|\nMATERIALS\n\n8 Bolts of Frostweave Cloth (40/85 Total)\n1 Eternimum Thread (5/10 Total)|P|Tailoring;405;406|T|Duskweave Wristwraps;1;5|
 N Duskweave Wristwraps: 406 of 410|QID|901970421|N|\nMATERIALS\n\n8 Bolts of Frostweave Cloth (32/77 Total)\n1 Eternimum Thread (4/9 Total)|P|Tailoring;406;407|T|Duskweave Wristwraps;1;4|
 N Duskweave Wristwraps: 407 of 410|QID|901970422|N|\nMATERIALS\n\n8 Bolts of Frostweave Cloth (24/69 Total)\n1 Eternimum Thread (3/8 Total)|P|Tailoring;407;408|T|Duskweave Wristwraps;1;3|
@@ -442,28 +442,28 @@ N Moonshroud: 422 of 425|QID|901970437|N|\nMATERIALS\n\n1 Bolt of Imbued Frostwe
 N Moonshroud: 423 of 425|QID|901970438|N|\nMATERIALS\n\n1 Bolt of Imbued Frostweave (2/2 Total)\n2 Eternal Life (4/4 Total)|P|Tailoring;423;424|T|Moonshroud;1;2|
 N Moonshroud: 424 of 425|QID|901970439|N|\nMATERIALS\n\n1 Bolt of Imbued Frostweave (1/1 Total)\n2 Eternal Life (2/2 Total)|P|Tailoring;424;425|T|Moonshroud;1;1|
 N Train Illustrious Grand Master Tailoring|QID|901970440|N|Visit your trainer in any major city. You must be level 75 or above.|P|Tailoring;415;;525|
-N Bolt of Embersilk Cloth: 425 of 445|QID|901970441|N|\nMATERIALS\n\n5 Embersilk Cloth (100/-5 Total)|P|Tailoring;425;426|T|Bolt of Embersilk Cloth;1;20|
-N Bolt of Embersilk Cloth: 426 of 445|QID|901970442|N|\nMATERIALS\n\n5 Embersilk Cloth (95/-10 Total)|P|Tailoring;426;427|T|Bolt of Embersilk Cloth;1;19|
-N Bolt of Embersilk Cloth: 427 of 445|QID|901970443|N|\nMATERIALS\n\n5 Embersilk Cloth (90/-15 Total)|P|Tailoring;427;428|T|Bolt of Embersilk Cloth;1;18|
-N Bolt of Embersilk Cloth: 428 of 445|QID|901970444|N|\nMATERIALS\n\n5 Embersilk Cloth (85/-20 Total)|P|Tailoring;428;429|T|Bolt of Embersilk Cloth;1;17|
-N Bolt of Embersilk Cloth: 429 of 445|QID|901970445|N|\nMATERIALS\n\n5 Embersilk Cloth (80/-25 Total)|P|Tailoring;429;430|T|Bolt of Embersilk Cloth;1;16|
-N Bolt of Embersilk Cloth: 430 of 445|QID|901970446|N|\nMATERIALS\n\n5 Embersilk Cloth (75/-30 Total)|P|Tailoring;430;431|T|Bolt of Embersilk Cloth;1;15|
-N Bolt of Embersilk Cloth: 431 of 445|QID|901970447|N|\nMATERIALS\n\n5 Embersilk Cloth (70/-35 Total)|P|Tailoring;431;432|T|Bolt of Embersilk Cloth;1;14|
-N Bolt of Embersilk Cloth: 432 of 445|QID|901970448|N|\nMATERIALS\n\n5 Embersilk Cloth (65/-40 Total)|P|Tailoring;432;433|T|Bolt of Embersilk Cloth;1;13|
-N Bolt of Embersilk Cloth: 433 of 445|QID|901970449|N|\nMATERIALS\n\n5 Embersilk Cloth (60/-45 Total)|P|Tailoring;433;434|T|Bolt of Embersilk Cloth;1;12|
-N Bolt of Embersilk Cloth: 434 of 445|QID|901970450|N|\nMATERIALS\n\n5 Embersilk Cloth (55/-50 Total)|P|Tailoring;434;435|T|Bolt of Embersilk Cloth;1;11|
-N Bolt of Embersilk Cloth: 435 of 445|QID|901970451|N|\nMATERIALS\n\n5 Embersilk Cloth (50/-55 Total)|P|Tailoring;435;436|T|Bolt of Embersilk Cloth;1;10|
-N Bolt of Embersilk Cloth: 436 of 445|QID|901970452|N|\nMATERIALS\n\n5 Embersilk Cloth (45/-60 Total)|P|Tailoring;436;437|T|Bolt of Embersilk Cloth;1;9|
-N Bolt of Embersilk Cloth: 437 of 445|QID|901970453|N|\nMATERIALS\n\n5 Embersilk Cloth (40/-65 Total)|P|Tailoring;437;438|T|Bolt of Embersilk Cloth;1;8|
-N Bolt of Embersilk Cloth: 438 of 445|QID|901970454|N|\nMATERIALS\n\n5 Embersilk Cloth (35/-70 Total)|P|Tailoring;438;439|T|Bolt of Embersilk Cloth;1;7|
-N Bolt of Embersilk Cloth: 439 of 445|QID|901970455|N|\nMATERIALS\n\n5 Embersilk Cloth (30/-75 Total)|P|Tailoring;439;440|T|Bolt of Embersilk Cloth;1;6|
-N Bolt of Embersilk Cloth: 440 of 445|QID|901970456|N|\nMATERIALS\n\n5 Embersilk Cloth (25/-80 Total)|P|Tailoring;440;441|T|Bolt of Embersilk Cloth;1;5|
-N Bolt of Embersilk Cloth: 441 of 445|QID|901970457|N|\nMATERIALS\n\n5 Embersilk Cloth (20/-85 Total)|P|Tailoring;441;442|T|Bolt of Embersilk Cloth;1;4|
-N Bolt of Embersilk Cloth: 442 of 445|QID|901970458|N|\nMATERIALS\n\n5 Embersilk Cloth (15/-90 Total)|P|Tailoring;442;443|T|Bolt of Embersilk Cloth;1;3|
-N Bolt of Embersilk Cloth: 443 of 445|QID|901970459|N|\nMATERIALS\n\n5 Embersilk Cloth (10/-95 Total)|P|Tailoring;443;444|T|Bolt of Embersilk Cloth;1;2|
-N Bolt of Embersilk Cloth: 444 of 445|QID|901970460|N|\nMATERIALS\n\n5 Embersilk Cloth (5/-100 Total)|P|Tailoring;444;445|T|Bolt of Embersilk Cloth;1;1|
-N Bolt of Embersilk Cloth|QID|901970461|N|Keep making these until you have 375.\n\nMATERIALS\n\n5 Embersilk Cloth (|L|53643 375|T|Bolt of Embersilk Cloth;1;1|
-N Deathsilk Bracers: 445 of 455|QID|901970462|N|\nMATERIALS\n\n2 Bolt of Embersilk Cloth (20/375 Total)\n2 Eternimum Thread (20/20 Total)|P|Tailoring;445;446|T|Deathsilk Bracers;1;10|
+N Bolt of Embersilk Cloth: 425 of 445|QID|901970441|N|\nMATERIALS\n\n5 Embersilk Cloth (100/1875 Total)|P|Tailoring;425;426|T|Bolt of Embersilk Cloth;1;20|
+N Bolt of Embersilk Cloth: 426 of 445|QID|901970442|N|\nMATERIALS\n\n5 Embersilk Cloth (95/1870 Total)|P|Tailoring;426;427|T|Bolt of Embersilk Cloth;1;19|
+N Bolt of Embersilk Cloth: 427 of 445|QID|901970443|N|\nMATERIALS\n\n5 Embersilk Cloth (90/1865 Total)|P|Tailoring;427;428|T|Bolt of Embersilk Cloth;1;18|
+N Bolt of Embersilk Cloth: 428 of 445|QID|901970444|N|\nMATERIALS\n\n5 Embersilk Cloth (85/1860 Total)|P|Tailoring;428;429|T|Bolt of Embersilk Cloth;1;17|
+N Bolt of Embersilk Cloth: 429 of 445|QID|901970445|N|\nMATERIALS\n\n5 Embersilk Cloth (80/1855 Total)|P|Tailoring;429;430|T|Bolt of Embersilk Cloth;1;16|
+N Bolt of Embersilk Cloth: 430 of 445|QID|901970446|N|\nMATERIALS\n\n5 Embersilk Cloth (75/1850 Total)|P|Tailoring;430;431|T|Bolt of Embersilk Cloth;1;15|
+N Bolt of Embersilk Cloth: 431 of 445|QID|901970447|N|\nMATERIALS\n\n5 Embersilk Cloth (70/1845 Total)|P|Tailoring;431;432|T|Bolt of Embersilk Cloth;1;14|
+N Bolt of Embersilk Cloth: 432 of 445|QID|901970448|N|\nMATERIALS\n\n5 Embersilk Cloth (65/1840 Total)|P|Tailoring;432;433|T|Bolt of Embersilk Cloth;1;13|
+N Bolt of Embersilk Cloth: 433 of 445|QID|901970449|N|\nMATERIALS\n\n5 Embersilk Cloth (60/1835 Total)|P|Tailoring;433;434|T|Bolt of Embersilk Cloth;1;12|
+N Bolt of Embersilk Cloth: 434 of 445|QID|901970450|N|\nMATERIALS\n\n5 Embersilk Cloth (55/1830 Total)|P|Tailoring;434;435|T|Bolt of Embersilk Cloth;1;11|
+N Bolt of Embersilk Cloth: 435 of 445|QID|901970451|N|\nMATERIALS\n\n5 Embersilk Cloth (50/1825 Total)|P|Tailoring;435;436|T|Bolt of Embersilk Cloth;1;10|
+N Bolt of Embersilk Cloth: 436 of 445|QID|901970452|N|\nMATERIALS\n\n5 Embersilk Cloth (45/1820 Total)|P|Tailoring;436;437|T|Bolt of Embersilk Cloth;1;9|
+N Bolt of Embersilk Cloth: 437 of 445|QID|901970453|N|\nMATERIALS\n\n5 Embersilk Cloth (40/1815 Total)|P|Tailoring;437;438|T|Bolt of Embersilk Cloth;1;8|
+N Bolt of Embersilk Cloth: 438 of 445|QID|901970454|N|\nMATERIALS\n\n5 Embersilk Cloth (35/1810 Total)|P|Tailoring;438;439|T|Bolt of Embersilk Cloth;1;7|
+N Bolt of Embersilk Cloth: 439 of 445|QID|901970455|N|\nMATERIALS\n\n5 Embersilk Cloth (30/1805 Total)|P|Tailoring;439;440|T|Bolt of Embersilk Cloth;1;6|
+N Bolt of Embersilk Cloth: 440 of 445|QID|901970456|N|\nMATERIALS\n\n5 Embersilk Cloth (25/1800 Total)|P|Tailoring;440;441|T|Bolt of Embersilk Cloth;1;5|
+N Bolt of Embersilk Cloth: 441 of 445|QID|901970457|N|\nMATERIALS\n\n5 Embersilk Cloth (20/1795 Total)|P|Tailoring;441;442|T|Bolt of Embersilk Cloth;1;4|
+N Bolt of Embersilk Cloth: 442 of 445|QID|901970458|N|\nMATERIALS\n\n5 Embersilk Cloth (15/1790 Total)|P|Tailoring;442;443|T|Bolt of Embersilk Cloth;1;3|
+N Bolt of Embersilk Cloth: 443 of 445|QID|901970459|N|\nMATERIALS\n\n5 Embersilk Cloth (10/1785 Total)|P|Tailoring;443;444|T|Bolt of Embersilk Cloth;1;2|
+N Bolt of Embersilk Cloth: 444 of 445|QID|901970460|N|\nMATERIALS\n\n5 Embersilk Cloth (5/1780 Total)|P|Tailoring;444;445|T|Bolt of Embersilk Cloth;1;1|
+N Bolt of Embersilk Cloth|QID|901970461|N|Keep making these until you have 375.\n\nMATERIALS\n\n5 Embersilk Cloth (|P|Tailoring;445;446|T|Bolt of Embersilk Cloth;1;1|L|53643 375|S|
+N Deathsilk Bracers: 445 of 455|QID|901970462|N|\nMATERIALS\n\n2 Bolt of Embersilk Cloth (20/375 Total)\n2 Eternimum Thread (20/20 Total)|P|Tailoring;445;525|T|Deathsilk Bracers;1;10|
 N Deathsilk Bracers: 446 of 455|QID|901970463|N|\nMATERIALS\n\n2 Bolt of Embersilk Cloth (18/373 Total)\n2 Eternimum Thread (18/18 Total)|P|Tailoring;446;447|T|Deathsilk Bracers;1;9|
 N Deathsilk Bracers: 447 of 455|QID|901970464|N|\nMATERIALS\n\n2 Bolt of Embersilk Cloth (16/371 Total)\n2 Eternimum Thread (16/16 Total)|P|Tailoring;447;448|T|Deathsilk Bracers;1;8|
 N Deathsilk Bracers: 448 of 455|QID|901970465|N|\nMATERIALS\n\n2 Bolt of Embersilk Cloth (14/369 Total)\n2 Eternimum Thread (14/14 Total)|P|Tailoring;448;449|T|Deathsilk Bracers;1;7|
@@ -518,36 +518,37 @@ N Spiritmend Robe: 496 of 500|QID|901970513|N|\nMATERIALS\n\n6 Bolt of Embersilk
 N Spiritmend Robe: 497 of 500|QID|901970514|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (18/178 Total)\n2 Eternimum Thread (6/6 Total)|P|Tailoring;497;498|T|Spiritmend Robe;1;3|
 N Spiritmend Robe: 498 of 500|QID|901970515|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (12/172 Total)\n2 Eternimum Thread (4/4 Total)|P|Tailoring;498;499|T|Spiritmend Robe;1;2|
 N Spiritmend Robe: 499 of 500|QID|901970516|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (6/166 Total)\n2 Eternimum Thread (2/2 Total)|P|Tailoring;499;500|T|Spiritmend Robe;1;1|
-N Dream of Azshara: 500 of 525|QID|901970517|N|\nMATERIALS\n\n8 Bolt of Embersilk Cloth\n30 Volatile Water (30/-30 Total)|P|Tailoring;500;525|T|Dream of Azshara;1;1|S|
-N Dream of Hyjal: 500 of 525|QID|901970518|N|\nMATERIALS\n\n8 Bolt of Embersilk Cloth\n30 Volatile Life|P|Tailoring;500;525|T|Dream of Hyjal;1;1|S|
-N Fireweave Bracers: 500 of 505|QID|901970519|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (30/160 Total)\n3 Volatile Fire (15/70 Total)\n3 Volatile Life (15/15 Total)|P|Tailoring;500;501|T|Fireweave Bracers;1;5|
-N Fireweave Bracers: 501 of 505|QID|901970520|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (24/154 Total)\n3 Volatile Fire (12/67 Total)\n3 Volatile Life (12/12 Total)|P|Tailoring;501;502|T|Fireweave Bracers;1;4|
-N Fireweave Bracers: 502 of 505|QID|901970521|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (18/148 Total)\n3 Volatile Fire (9/64 Total)\n3 Volatile Life (9/9 Total)|P|Tailoring;502;503|T|Fireweave Bracers;1;3|
-N Fireweave Bracers: 503 of 505|QID|901970522|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (12/142 Total)\n3 Volatile Fire (6/61 Total)\n3 Volatile Life (6/6 Total)|P|Tailoring;503;504|T|Fireweave Bracers;1;2|
-N Fireweave Bracers: 504 of 505|QID|901970523|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (6/136 Total)\n3 Volatile Fire (3/58 Total)\n3 Volatile Life (3/3 Total)|P|Tailoring;504;505|T|Fireweave Bracers;1;1|
-N Dream of Deepholm: 500 of 525|QID|901970524|N|\nMATERIALS\n\n8 Bolt of Embersilk Cloth\n30 Volatile Earth|P|Tailoring;505;525|T|Dream of Deepholm;1;1|S|
-N Emberfire Shoulders: 505 of 510|QID|901970525|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (30/130 Total)\n3 Volatile Fire (15/55 Total)\n3 Volatile Water (15/55 Total)|P|Tailoring;505;506|T|Emberfire Shoulders;1;5|
-N Emberfire Shoulders: 506 of 510|QID|901970526|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (24/124 Total)\n3 Volatile Fire (12/52 Total)\n3 Volatile Water (12/52 Total)|P|Tailoring;506;507|T|Emberfire Shoulders;1;4|
-N Emberfire Shoulders: 507 of 510|QID|901970527|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (18/118 Total)\n3 Volatile Fire (9/49 Total)\n3 Volatile Water (9/49 Total)|P|Tailoring;507;508|T|Emberfire Shoulders;1;3|
-N Emberfire Shoulders: 508 of 510|QID|901970528|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (12/112 Total)\n3 Volatile Fire (6/46 Total)\n3 Volatile Water (6/46 Total)|P|Tailoring;508;509|T|Emberfire Shoulders;1;2|
-N Emberfire Shoulders: 509 of 510|QID|901970529|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (6/106 Total)\n3 Volatile Fire (3/43 Total)\n3 Volatile Water (3/43 Total)|P|Tailoring;509;510|T|Emberfire Shoulders;1;1|
-N Dream of Ragnaros: 510 of 525|QID|901970530|N|\nMATERIALS\n\n8 Bolt of Embersilk Cloth\n30 Volatile Fire|P|Tailoring;510;525|T|Dream of Ragnaros;1;1|S|
-N Emberfire Belt: 510 of 511|QID|901970531|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/100 Total)\n4 Volatile Fire (4/40 Total)\n4 Volatile Water (4/40 Total)|P|Tailoring;510;511|T|Emberfire Belt;1;3|
-N Emberfire Belt: 511 of 512|QID|901970532|N|\nMATERIALS\n\n|P|Tailoring;511;512|T|Emberfire Belt;1;1|
-N Emberfire Belt: 512 of 513|QID|901970533|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/90 Total)\n4 Volatile Fire (4/36 Total)\n4 Volatile Water (4/36 Total)|P|Tailoring;512;513|T|Emberfire Belt;1;2|
-N Emberfire Belt: 513 of 514|QID|901970534|N|\nMATERIALS\n\n|P|Tailoring;513;514|T|Emberfire Belt;1;1|
-N Emberfire Belt: 514 of 515|QID|901970535|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/80 Total)\n4 Volatile Fire (4/32 Total)\n4 Volatile Water (4/32 Total)|P|Tailoring;514;515|T|Emberfire Belt;1;1|
-N Dream of Skywall: 515 of 525|QID|901970536|N|\nMATERIALS\n\n8 Bolt of Embersilk Cloth\n30 Volatile Life|P|Tailoring;515;525|T|Dream of Skywall;1;1|S|
-N Emberfire Belt: 515 of 516|QID|901970537|N|\nMATERIALS\n\n|P|Tailoring;515;516|T|Emberfire Belt;1;1|
-N Fireweave Boots: 516 of 517|QID|901970538|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/70 Total)\n4 Volatile Fire (4/28 Total)\n4 Volatile Water (4/28 Total)|P|Tailoring;516;517|T|Fireweave Boots;1;2|
-N Fireweave Boots: 517 of 518|QID|901970539|N|\nMATERIALS\n\n|P|Tailoring;517;518|T|Fireweave Boots;1;1|
-N Fireweave Boots: 518 of 519|QID|901970540|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/60 Total)\n4 Volatile Fire (4/24 Total)\n4 Volatile Water (4/24 Total)|P|Tailoring;518;519|T|Fireweave Boots;1;1|
-N Fireweave Boots: 519 of 520|QID|901970541|N|\nMATERIALS\n\n|P|Tailoring;519;520|T|Fireweave Boots;1;1|
-N Emberfire Boots: 520 of 525|QID|901970542|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (50/50 Total)\n4 Volatile Fire (20/20 Total)\n4 Volatile Water (20/20 Total)|P|Tailoring;520;521|T|Emberfire Boots;1;5|
-N Emberfire Boots: 521 of 525|QID|901970543|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (40/40 Total)\n4 Volatile Fire (16/16 Total)\n4 Volatile Water (16/16 Total)|P|Tailoring;521;522|T|Emberfire Boots;1;4|
-N Emberfire Boots: 522 of 525|QID|901970544|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (30/30 Total)\n4 Volatile Fire (12/12 Total)\n4 Volatile Water (12/12 Total)|P|Tailoring;522;523|T|Emberfire Boots;1;3|
-N Emberfire Boots: 523 of 525|QID|901970545|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (20/20 Total)\n4 Volatile Fire (8/8 Total)\n4 Volatile Water (8/8 Total)|P|Tailoring;523;524|T|Emberfire Boots;1;2|
-N Emberfire Boots: 524 of 525|QID|901970546|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/10 Total)\n4 Volatile Fire (4/4 Total)\n4 Volatile Water (4/4 Total)|P|Tailoring;524;525|T|Emberfire Boots;1;1|
+N Dream of Azshara: 500 of 525|QID|901970517|N|This can be done once per day. You will need these later so try and start on them now. This amont is not included in your total.\n\nMATERIALS\n\n 8 Bolt of Embersilk Cloth\n30 Volatile Water|P|Tailoring;500;525|T|Dream of Azshara;1;1|S|
+N Dream of Hyjal: 500 of 525|QID|901970518|N|This can be done once per day. You will need these later so try and start on them now. This amont is not included in your total.\n\nMATERIALS\n\n 8 Bolt of Embersilk Cloth\n30 Volatile Life|P|Tailoring;500;525|T|Dream of Hyjal;1;1|S|
+N Bloodthirsty Fireweave Bracers: 500 of 505|QID|901970519|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (30/160 Total)\n3 Volatile Fire (15/70 Total)\n3 Volatile Air (15/15 Total)|P|Tailoring;500;501|T|Bloodthirsty Fireweave Bracers;1;5|
+N Bloodthirsty Fireweave Bracers: 501 of 505|QID|901970520|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (24/154 Total)\n3 Volatile Fire (12/67 Total)\n3 Volatile Air (12/12 Total)|P|Tailoring;501;502|T|Bloodthirsty Fireweave Bracers;1;4|
+N Bloodthirsty Fireweave Bracers: 502 of 505|QID|901970521|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (18/148 Total)\n3 Volatile Fire (9/64 Total)\n3 Volatile Air (9/9 Total)|P|Tailoring;502;503|T|Bloodthirsty Fireweave Bracers;1;3|
+N Bloodthirsty Fireweave Bracers: 503 of 505|QID|901970522|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (12/142 Total)\n3 Volatile Fire (6/61 Total)\n3 Volatile Air (6/6 Total)|P|Tailoring;503;504|T|Bloodthirsty Fireweave Bracers;1;2|
+N Bloodthirsty Fireweave Bracers: 504 of 505|QID|901970523|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (6/136 Total)\n3 Volatile Fire (3/58 Total)\n3 Volatile Air (3/3 Total)|P|Tailoring;504;505|T|Bloodthirsty Fireweave Bracers;1;1|
+N Dream of Deepholm: 500 of 525|QID|901970524|N|This can be done once per day. You will need these later so try and start on them now. This amont is not included in your total.\n\nMATERIALS\n\n 8 Bolt of Embersilk Cloth\n30 Volatile Earth|P|Tailoring;505;525|T|Dream of Deepholm;1;1|S|
+N Bloodthirsty Emberfire Shoulders: 505 of 510|QID|901970525|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (30/130 Total)\n3 Volatile Fire (15/55 Total)\n3 Volatile Water (15/55 Total)|P|Tailoring;505;506|T|Bloodthirsty Emberfire Shoulders;1;5|
+N Bloodthirsty Emberfire Shoulders: 506 of 510|QID|901970526|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (24/124 Total)\n3 Volatile Fire (12/52 Total)\n3 Volatile Water (12/52 Total)|P|Tailoring;506;507|T|Bloodthirsty Emberfire Shoulders;1;4|
+N Bloodthirsty Emberfire Shoulders: 507 of 510|QID|901970527|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (18/118 Total)\n3 Volatile Fire (9/49 Total)\n3 Volatile Water (9/49 Total)|P|Tailoring;507;508|T|Bloodthirsty Emberfire Shoulders;1;3|
+N Bloodthirsty Emberfire Shoulders: 508 of 510|QID|901970528|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (12/112 Total)\n3 Volatile Fire (6/46 Total)\n3 Volatile Water (6/46 Total)|P|Tailoring;508;509|T|Bloodthirsty Emberfire Shoulders;1;2|
+N Bloodthirsty Emberfire Shoulders: 509 of 510|QID|901970529|N|\nMATERIALS\n\n6 Bolt of Embersilk Cloth (6/106 Total)\n3 Volatile Fire (3/43 Total)\n3 Volatile Water (3/43 Total)|P|Tailoring;509;510|T|Bloodthirsty Emberfire Shoulders;1;1|
+N Dream of Ragnaros: 510 of 525|QID|901970530|N|This can be done once per day. You will need these later so try and start on them now. This amont is not included in your total.\n\nMATERIALS\n\n 8 Bolt of Embersilk Cloth\n30 Volatile Fire|P|Tailoring;510;525|T|Dream of Ragnaros;1;1|S|
+N Bloodthirsty Embersilk Belt: 510 of 511|QID|901970531|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/100 Total)\n4 Volatile Fire (4/40 Total)\n4 Volatile Water (4/40 Total)|P|Tailoring;510;511|T|Bloodthirsty Embersilk Belt;1;3|
+N Bloodthirsty Embersilk Belt: 511 of 512|QID|901970532|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/100 Total)\n4 Volatile Fire (4/40 Total)\n4 Volatile Water (4/40 Total)|P|Tailoring;511;512|T|Bloodthirsty Embersilk Belt;1;1|
+N Bloodthirsty Embersilk Belt: 512 of 513|QID|901970533|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/90 Total)\n4 Volatile Fire (4/36 Total)\n4 Volatile Water (4/36 Total)|P|Tailoring;512;513|T|Bloodthirsty Embersilk Belt;1;2|
+N Bloodthirsty Embersilk Belt: 513 of 514|QID|901970534|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/90 Total)\n4 Volatile Fire (4/36 Total)\n4 Volatile Water (4/36 Total)|P|Tailoring;513;514|T|Bloodthirsty Embersilk Belt;1;1|
+N Bloodthirsty Embersilk Belt: 514 of 515|QID|901970535|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/80 Total)\n4 Volatile Fire (4/32 Total)\n4 Volatile Water (4/32 Total)|P|Tailoring;514;515|T|Bloodthirsty Embersilk Belt;1;1|
+N Dream of Skywall: 515 of 525|QID|901970536|N|This can be done once per day. You will need these later so try and start on them now. This amont is not included in your total.\n\nMATERIALS\n\n 8 Bolt of Embersilk Cloth\n30 Volatile Air|P|Tailoring;515;525|T|Dream of Skywall;1;1|S|
+N Bloodthirsty Fireweave Boots: 515 of 516|QID|901970537|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/70 Total)\n4 Volatile Fire (4/28 Total)\n4 Volatile Water (4/28 Total)|P|Tailoring;515;516|T|Bloodthirsty Fireweave Boots;1;1|
+N Bloodthirsty Fireweave Boots: 516 of 517|QID|901970538|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/70 Total)\n4 Volatile Fire (4/28 Total)\n4 Volatile Water (4/28 Total)|P|Tailoring;516;517|T|Bloodthirsty Fireweave Boots;1;2|
+N Bloodthirsty Fireweave Boots: 517 of 518|QID|901970539|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/70 Total)\n4 Volatile Fire (4/28 Total)\n4 Volatile Water (4/28 Total)|P|Tailoring;517;518|T|Bloodthirsty Fireweave Boots;1;1|
+N Bloodthirsty Fireweave Boots: 518 of 519|QID|901970540|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/60 Total)\n4 Volatile Fire (4/24 Total)\n4 Volatile Water (4/24 Total)|P|Tailoring;518;519|T|Bloodthirsty Fireweave Boots;1;1|
+N Bloodthirsty Fireweave Boots: 519 of 520|QID|901970541|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/60 Total)\n4 Volatile Fire (4/24 Total)\n4 Volatile Water (4/24 Total)|P|Tailoring;519;520|T|Bloodthirsty Fireweave Boots;1;1|
+N Bloodthirsty Embersilk Boots: 520 of 525|QID|901970542|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (50/50 Total)\n4 Volatile Fire (20/20 Total)\n4 Volatile Water (20/20 Total)|P|Tailoring;520;521|T|Bloodthirsty Embersilk Boots;1;5|
+N Bloodthirsty Embersilk Boots: 521 of 525|QID|901970543|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (40/40 Total)\n4 Volatile Fire (16/16 Total)\n4 Volatile Water (16/16 Total)|P|Tailoring;521;522|T|Bloodthirsty Embersilk Boots;1;4|
+N Bloodthirsty Embersilk Boots: 522 of 525|QID|901970544|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (30/30 Total)\n4 Volatile Fire (12/12 Total)\n4 Volatile Water (12/12 Total)|P|Tailoring;522;523|T|Bloodthirsty Embersilk Boots;1;3|
+N Bloodthirsty Embersilk Boots: 523 of 525|QID|901970545|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (20/20 Total)\n4 Volatile Fire (8/8 Total)\n4 Volatile Water (8/8 Total)|P|Tailoring;523;524|T|Bloodthirsty Embersilk Boots;1;2|
+N Bloodthirsty Embersilk Boots: 524 of 525|QID|901970546|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/10 Total)\n4 Volatile Fire (4/4 Total)\n4 Volatile Water (4/4 Total)|P|Tailoring;524;525|T|Bloodthirsty Embersilk Boots;1;1|
+
 
 N That completes Tailoring.
 ]]

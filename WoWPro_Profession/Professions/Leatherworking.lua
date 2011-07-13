@@ -527,19 +527,30 @@ N Darkbrand Helm: 500 of 504|QID|901640514|N|\nMATERIALS\n\n5 Heavy Savage Leath
 N Darkbrand Helm: 501 of 504|QID|901640515|N|\nMATERIALS\n\n5 Heavy Savage Leather (15/131 Total)|P|Leatherworking;501;502|T|Darkbrand Helm;1;3|
 N Darkbrand Helm: 502 of 504|QID|901640516|N|\nMATERIALS\n\n5 Heavy Savage Leather (10/126 Total)|P|Leatherworking;502;503|T|Darkbrand Helm;1;2|
 N Darkbrand Helm: 503 of 504|QID|901640517|N|\nMATERIALS\n\n5 Heavy Savage Leather (5/121 Total)|P|Leatherworking;503;504|T|Darkbrand Helm;1;1|
-N Cloak of Beast: 504 of 506|QID|901640518|N|\nMATERIALS\n\n8 Heavy Savage Leather (16/116 Total)\n2 Volatile Air (4/4 Total)\n2 Volatile Earth (4/4 Total)\n2 Volatile Fire (4/54 Total)\n2 Volatile Water (4/10 Total)|P|Leatherworking;504;505|T|Cloak of Beast;1;2|
-N Cloak of Beast: 507 of 508|QID|901640519|N|\nMATERIALS\n\n8 Heavy Savage Leather (8/108 Total)\n2 Volatile Air (2/2 Total)\n2 Volatile Earth (2/2 Total)\n2 Volatile Fire (2/52 Total)\n2 Volatile Water (2/8 Total)|P|Leatherworking;507;508|T|Cloak of Beast;1;1|
-B Pattern: Bloodied Wyrmhide Bracers|QID|901640520|N|Purchased from NPC labeled as Leatherworking Supplies in any major city. Cost is 10 Heavy Savage Leather.|L|67042|
-N Bloodied Wyrmhide Bracers: 510 of 513|QID|901640521|N|\nMATERIALS\n\n10 Heavy Savage Leather (30/100 Total)\n10 Volatile Fire (30/50 Total)|P|Leatherworking;510;511|T|Bloodied Wyrmhide Bracers;1;3|
-N Bloodied Wyrmhide Bracers: 512 of 514|QID|901640522|N|\nMATERIALS\n\n10 Heavy Savage Leather (20/90 Total)\n10 Volatile Fire (20/40 Total)|P|Leatherworking;512;513|T|Bloodied Wyrmhide Bracers;1;2|
-N Bloodied Wyrmhide Bracers: 514 of 515|QID|901640523|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/80 Total)\n10 Volatile Fire (10/30 Total)|P|Leatherworking;514;515|T|Bloodied Wyrmhide Bracers;1;1|
-B Pattern: Bloodied Leather Boots|QID|901640524|N|Purchased from NPC labeled as Leatherworking Supplies in any major city. Cost is 10 Heavy Savage Leather.|L|67060|
-N Bloodied Leather Boots: 516 of 518|QID|901640525|N|\nMATERIALS\n\n10 Heavy Savage Leather (20/60 Total)\n10 Volatile Fire (20/20 Total)|P|Leatherworking;516;517|T|Bloodied Leather Boots;1;2|
-N Bloodied Leather Boots: 518 of 519|QID|901640526|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/50 Total)\n10 Volatile Fire (10/10 Total)|P|Leatherworking;518;519|T|Bloodied Leather Boots;1;1|
-B Pattern: Bloodied Leather Belt|QID|901640527|N|Purchased from NPC labeled as Leatherworking Supplies in any major city. Cost is 10 Heavy Savage Leather.|L|67076|
-N Bloodied Leather Belt: 520 of 523|QID|901640528|N|\nMATERIALS\n\n10 Heavy Savage Leather (30/30 Total)\n2 Volatile Water (6/6 Total)|P|Leatherworking;520;521|T|Bloodied Leather Belt;1;3|
-N Bloodied Leather Belt: 522 of 524|QID|901640529|N|\nMATERIALS\n\n10 Heavy Savage Leather (20/20 Total)\n2 Volatile Water (4/4 Total)|P|Leatherworking;522;523|T|Bloodied Leather Belt;1;2|
-N Bloodied Leather Belt: 524 of 525|QID|901640530|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/10 Total)\n2 Volatile Water (2/2 Total)|P|Leatherworking;524;525|T|Bloodied Leather Belt;1;1|
+N Cloak of Beasts: 504 of 505|QID|901640518|N|\nMATERIALS\n\n8 Heavy Savage Leather (8/116 Total)\n2 Volatile Air (2/4 Total)\n2 Volatile Earth (2/4 Total)\n2 Volatile Fire (2/54 Total)\n2 Volatile Water (2/10 Total)|P|Leatherworking;504;505|T|Cloak of Beasts;1;2|
+N Cloak of Beasts: 505 of 506|QID|901640519|N|\nMATERIALS\n\n8 Heavy Savage Leather (8/116 Total)\n2 Volatile Air (2/4 Total)\n2 Volatile Earth (2/4 Total)\n2 Volatile Fire (2/54 Total)\n2 Volatile Water (2/10 Total)|P|Leatherworking;505;506|T|Cloak of Beasts;1;2|
+N Cloak of Beasts: 506 of 507|QID|901640520|N|\nMATERIALS\n\n8 Heavy Savage Leather (8/116 Total)\n2 Volatile Air (2/4 Total)\n2 Volatile Earth (2/4 Total)\n2 Volatile Fire (2/54 Total)\n2 Volatile Water (2/10 Total)|P|Leatherworking;506;507|T|Cloak of Beasts;1;2|
+N Cloak of Beasts: 507 of 508|QID|901640521|N|\nMATERIALS\n\n8 Heavy Savage Leather (8/108 Total)\n2 Volatile Air (2/2 Total)\n2 Volatile Earth (2/2 Total)\n2 Volatile Fire (2/52 Total)\n2 Volatile Water (2/8 Total)|P|Leatherworking;507;508|T|Cloak of Beasts;1;1|
+N Cloak of Beasts: 508 of 509|QID|901640522|N|\nMATERIALS\n\n8 Heavy Savage Leather (8/108 Total)\n2 Volatile Air (2/2 Total)\n2 Volatile Earth (2/2 Total)\n2 Volatile Fire (2/52 Total)\n2 Volatile Water (2/8 Total)|P|Leatherworking;508;509|T|Cloak of Beasts;1;1|
+N Cloak of Beasts: 509 of 510|QID|901640523|N|\nMATERIALS\n\n8 Heavy Savage Leather (8/108 Total)\n2 Volatile Air (2/2 Total)\n2 Volatile Earth (2/2 Total)\n2 Volatile Fire (2/52 Total)\n2 Volatile Water (2/8 Total)|P|Leatherworking;509;510|T|Cloak of Beasts;1;1|
+B Pattern: Bloodthirsty Leather Bracers|QID|901640524|N|Purchased from NPC labeled as Leatherworking Supplies in any major city. Cost is 10 Heavy Savage Leather.|L|67046|
+N Bloodthirsty Leather Bracers: 510 of 511|QID|901640525|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/100 Total)\n10 Volatile Fire (10/50 Total)|P|Leatherworking;510;511|T|Bloodthirsty Leather Bracers;1;3|
+N Bloodthirsty Leather Bracers: 511 of 512|QID|901640526|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/100 Total)\n10 Volatile Fire (10/50 Total)|P|Leatherworking;510;511|T|Bloodthirsty Leather Bracers;1;3|
+N Bloodthirsty Leather Bracers: 512 of 513|QID|901640527|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/90 Total)\n10 Volatile Fire (10/40 Total)|P|Leatherworking;512;513|T|Bloodthirsty Leather Bracers;1;2|
+N Bloodthirsty Leather Bracers: 513 of 514|QID|901640528|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/90 Total)\n10 Volatile Fire (10/40 Total)|P|Leatherworking;512;513|T|Bloodthirsty Leather Bracers;1;2|
+N Bloodthirsty Leather Bracers: 514 of 515|QID|901640529|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/80 Total)\n10 Volatile Fire (10/30 Total)|P|Leatherworking;514;515|T|Bloodthirsty Leather Bracers;1;1|
+B Pattern: Bloodthirsty Leather Boots|QID|901640530|N|Purchased from NPC labeled as Leatherworking Supplies in any major city. Cost is 10 Heavy Savage Leather.|L|67060|
+N Bloodthirsty Leather Boots: 515 of 516|QID|901640531|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/60 Total)\n10 Volatile Fire (10/20 Total)|P|Leatherworking;515;516|T|Bloodthirsty Leather Boots;1;2|
+N Bloodthirsty Leather Boots: 516 of 517|QID|901640532|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/60 Total)\n10 Volatile Fire (10/20 Total)|P|Leatherworking;517;518|T|Bloodthirsty Leather Boots;1;2|
+N Bloodthirsty Leather Boots: 518 of 519|QID|901640533|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/50 Total)\n10 Volatile Fire (10/10 Total)|P|Leatherworking;518;519|T|Bloodthirsty Leather Boots;1;1|
+N Bloodthirsty Leather Boots: 519 of 520|QID|901640534|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/50 Total)\n10 Volatile Fire (10/10 Total)|P|Leatherworking;519;520|T|Bloodthirsty Leather Boots;1;1|
+B Pattern: Bloodthirsty Leather Belt|QID|901640535|N|Purchased from NPC labeled as Leatherworking Supplies in any major city. Cost is 10 Heavy Savage Leather.|L|67076|
+N Bloodthirsty Leather Belt: 520 of 521|QID|901640536|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/30 Total)\n2 Volatile Water (2/6 Total)|P|Leatherworking;520;521|T|Bloodthirsty Leather Belt;1;3|
+N Bloodthirsty Leather Belt: 521 of 522|QID|901640537|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/30 Total)\n2 Volatile Water (2/6 Total)|P|Leatherworking;521;522|T|Bloodthirsty Leather Belt;1;3|
+N Bloodied Leather Belt: 522 of 523|QID|901640538|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/20 Total)\n2 Volatile Water (2/4 Total)|P|Leatherworking;522;523|T|Bloodied Leather Belt;1;2|
+N Bloodied Leather Belt: 523 of 524|QID|901640539|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/10 Total)\n2 Volatile Water (2/2 Total)|P|Leatherworking;523;524|T|Bloodied Leather Belt;1;2|
+N Bloodied Leather Belt: 524 of 525|QID|901640540|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/10 Total)\n2 Volatile Water (2/2 Total)|P|Leatherworking;524;525|T|Bloodied Leather Belt;1;1|
+
 
 N That completes Leatherworking.
 ]]
