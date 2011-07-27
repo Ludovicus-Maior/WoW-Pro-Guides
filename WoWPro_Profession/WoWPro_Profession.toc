@@ -4,7 +4,7 @@
 ## Author: Twists
 ## Dependencies: WoWPro
 ## SavedVariablesPerCharacter: WoWPro_ProfessionDB
-## Version: 2.1.18
+## Version: 2.1.19
 
 ## X-Category: Quest
 
