@@ -554,7 +554,4 @@ N Bloodthirsty Sapphire Necklace: 524 of 525|QID|907550549|N|188 Agility and 282
 N That completes Jewelcrafting.
 ]]
 
-
-
 end)
-

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2011-07-23 02:50
+-- Who: Crackerhead22
+-- Log: Corrected spelling for the quest "Loose Stones" (was missing the last 's' in the accept and complete steps). Found by Odysyus.
+
+-- URL: http://wow-pro.com/node/3307/revisions/24613/view
 -- Date: 2011-06-25 03:13
 -- Who: Crackerhead22
 
@@ -322,16 +327,16 @@ A Rocky Relations|QID|26328|PRE|26315|M|46.1,45.7|N|From Earthmender Norsala.|
 T Rocky Relations|QID|26328|M|56.50,41.20|N|To Diamant the Patient.|
 A Hatred Runs Deep|QID|26376|PRE|26328|M|56.50,41.20|N|From Diamant the Patient.|
 A Unsolid Ground|QID|26377|PRE|26328|M|56.50,41.20|N|From Diamant the Patient.|
-A Loose Stone|QID|26375|PRE|26328|M|56.5,41.1|N|From Quartz Stonetender.|
+A Loose Stones|QID|26375|PRE|26328|M|56.5,41.1|N|From Quartz Stonetender.|
 l Jade Crystal Clusters|QID|26377|L|58500 6|N|Loot 6 Jade Crystal Clusters from around the camp.|S|M|59.5,39.9|
-C Loose Stone|QID|26375|U|58254|M|59.00,42.00|S|N|Use Delicate Chain Smasher to free Quartz Rocklings|M|59.5,39.9|
+C Loose Stones|QID|26375|U|58254|M|59.00,42.00|S|N|Use Delicate Chain Smasher to free Quartz Rocklings|M|59.5,39.9|
 C Hatred Runs Deep|QID|26376|S|QO|Lorthuna's Gate Cultists slain: 12/12|M|59.5,39.9|N|Kill Twilight Duskwardens.|
 K Dragul Giantbutcher|QID|26376|QO|Dragul Giantbutcher slain: 1/1|M|60.20,39.50|N|Kill Dragul Giantbutcher.|
 C Hatred Runs Deep|QID|26376|US|QO|Lorthuna's Gate Cultists slain: 12/12|M|59.5,39.9|N|Kill Twilight Duskwardens.|
 l Jade Crystal Clusters|QID|26377|L|58500 6|N|Loot 6 Jade Crystal Clusters from around the camp.|US|M|59.5,39.9|
 U Jade Crystal Clusters|QID|26377|L|58783|U|58500|N|Use the Jade Crystal Clusters to get the Jade Crystal Composite.|
 C Unsolid Ground|QID|26377|U|58783|M|58.80,41.20|N|Go to an open area of the camp. Use the Jade Crystal Composite to summon an Aggitated Tunneler. Mount up as soon as you get the quest complete message. You don’t want to be nearby when the rockworm emerges.|
-C Loose Stone|QID|26375|U|58254|M|59.00,42.00|US|N|Finish releasing Quartz Rocklings with the Delicate Chain Smasher.|
+C Loose Stones|QID|26375|U|58254|M|59.00,42.00|US|N|Finish releasing Quartz Rocklings with the Delicate Chain Smasher.|
 T Loose Stones|QID|26375|M|56.5,41.1|N|To Quartz Stonetender.|
 T Unsolid Ground|QID|26377|M|56.50,41.20|N|To Diamant the Patient.|
 T Hatred Runs Deep|QID|26376|M|56.50,41.20|N|To Diamant the Patient.|

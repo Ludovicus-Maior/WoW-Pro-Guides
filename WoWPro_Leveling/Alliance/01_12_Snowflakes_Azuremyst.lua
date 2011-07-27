@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2011-07-27 01:59
+-- Who: Ludovicus Maior
+-- Log: Corrected race tags on [Replenishing the Healing Crystals] and corrected QIDs for class training quests, which were odd horde ones.  Sabotage!
+
+-- URL: http://wow-pro.com/node/3206/revisions/24689/view
+-- Date: 2011-07-23 21:10
+-- Who: Ludovicus Maior
+-- Log: Played through and tweaked.  Needs to be tested by L1-5 to finish up.
+
+-- URL: http://wow-pro.com/node/3206/revisions/24667/view
 -- Date: 2011-07-06 17:22
 -- Who: Fluclo
 -- Log: Added professions line, removed obtain flightpoint (not required, already have flightpoint for race, or from intro line)
@@ -78,84 +88,87 @@ WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle - Draenai", "Snowfla
 return [[
 R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
 f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
-A You Survived!|R|Draenei|QID|9279|M|84.2,43.0|N|From Megelon right in front of you.|
-T You Survived!|R|Draenei|QID|9279|N|To Proenitus.|M|80.4,45.9|
-A Replenishing the Healing Crystals|R|Draenei|QID|9280|M|80.4,45.9|N|From Proenitus.|
-C Replenishing the Healing Crystals|R|Draenei|QID|9280|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|
-T Replenishing the Healing Crystals|R|Draenei|QID|9280|M|80.4,45.9|N|To Proenitus.|
-A Volatile Mutations|QID|10302|M|79.1,46.5|R|Draenei|N|From Botanist Taerix.|
-C Volatile Mutations|QID|10302|M|77.85,43.37|R|Draenei|N|Kill Volatile Mutations.|
-T Volatile Mutations|QID|10302|M|79.1,46.5|R|Draenei|N|To Botanist Taerix.|
+A You Survived!|QID|9279|M|84.2,43.0|N|From Megelon right in front of you.|R|Draenei|
+T You Survived!|QID|9279|N|To Proenitus.|M|80.4,45.9|R|Draenei|
+A Replenishing the Healing Crystals|QID|9280|M|80.4,45.9|N|From Proenitus.|R|Draenei|
+A Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|From Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf|
+C Replenishing the Healing Crystals|QID|9280|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Draenei|
+C Replenishing the Healing Crystals|QID|9369|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf|
+T Replenishing the Healing Crystals|QID|9280|M|80.4,45.9|N|To Proenitus.|R|Draenei|
+T Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf
+A Volatile Mutations|QID|10302|M|79.1,46.5|N|From Botanist Taerix.|
+C Volatile Mutations|QID|10302|M|77.85,43.37|N|Kill Volatile Mutations.|
+T Volatile Mutations|QID|10302|M|79.1,46.5|N|To Botanist Taerix.|
 
-A What Must Be Done...|QID|9293|M|79.1,46.5|R|Draenei|N|From Botanist Taerix.|
-A Botanical Legwork|QID|9799|M|79.1,46.5|R|Draenei|N|From Apprentic Vishael.|
-A Urgent Delivery!|QID|9409|M|80.4,45.9|R|Draenei|N|From Proenitus.|
-T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building.|M|80.1,48.8|R|Draenei|
-A Rescue the Survivors!|R|Draenei|QID|9283|M|80.1,48.8|R|Draenei|N|From Zaldunn.|
+A What Must Be Done...|QID|9293|M|79.1,46.5|N|From Botanist Taerix.|
+A Botanical Legwork|QID|9799|M|79.1,46.5|N|From Apprentic Vishael.|
+A Urgent Delivery!|QID|9409|M|80.4,45.9|N|From Proenitus.|
+T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building.|M|80.1,48.8|
+A Rescue the Survivors!|QID|9283|M|80.1,48.8|N|From Zaldunn.|R|Draenei|
 r Sell junk and repair|QID|9293|N|At Mura.|M|79.19,50.93|
-A Spare Parts |QID|9305|M|79.5,51.4|R|Draenei|N|From Technician Zhanaa.|
-A Inoculation |QID|9303|M|79.5,51.4|R|Draenei|N|From Vindicator Aldar.|
-C Rescue the Survivors!|R|Draenei|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|NC|
-C Botanical Legwork|QID|9799|M|74.39,49.97|S|N|Collect Corrupted Flowers.|R|Draenei|NC|
-C What Must Be Done...|QID|9293|N|Kill Mutated Root Lashers.|M|74.9,50.4|R|Draenei|
-C Botanical Legwork|QID|9799|M|74.39,49.97|US|N|Collect Corrupted Flowers.|R|Draenei|NC|
-C Rescue the Survivors!|R|Draenei|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|NC|
-T Botanical Legwork|QID|9799|M|79.1,46.5|R|Draenei|N|To Apprentic Vishael.|
-T What Must Be Done...|QID|9293|M|79.1,46.5|R|Draenei|N|To Botanist Taerix.|
-A Healing the Lake|QID|9294|M|79.1,46.5|R|Draenei|N|From Botanist Taerix.|
-T Rescue the Survivors!|R|Draenei|QID|9283|M|80.1,48.8|N|To Zaldunn.|
+A Spare Parts |QID|9305|M|79.5,51.4|N|From Technician Zhanaa.|
+A Inoculation |QID|9303|M|79.5,51.4|N|From Vindicator Aldar.|
+C Rescue the Survivors!|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|NC|R|Draenei|
+C Botanical Legwork|QID|9799|M|74.39,49.97|S|N|Collect Corrupted Flowers.|NC|
+C What Must Be Done...|QID|9293|N|Kill Mutated Root Lashers.|M|74.9,50.4|
+C Botanical Legwork|QID|9799|M|74.39,49.97|US|N|Collect Corrupted Flowers.|NC|
+C Rescue the Survivors!|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|75.60,46.70|NC|R|Draenei|
+T Botanical Legwork|QID|9799|M|79.1,46.5|N|To Apprentic Vishael.|
+T What Must Be Done...|QID|9293|M|79.1,46.5|N|To Botanist Taerix.|
+A Healing the Lake|QID|9294|M|79.1,46.5|N|From Botanist Taerix.|
+T Rescue the Survivors!|QID|9283|M|80.1,48.8|N|To Zaldunn.|R|Draenei|
 
-N Shaman Training|QID|9421|C|Shaman|N|Get your new skills at the trainer.|M|79.3,49.1|R|Draenei|
-N Priest Training|QID|9291|C|Priest|N|Get your new skills at the trainer.|R|Draenei|M|79.3,49.1|
-N Hunter Training|QID|9288|C|Hunter|N|Get your new skills at the trainer.|R|Draenei|M|79.3,49.1|
-N Paladin Training|QID|9287|C|Paladin|N|Get your new skills at the trainer.|R|Draenei|M|79.3,49.1|
-N Warrior Training|QID|9289|C|Warrior|N|Get your new skills at the trainer.|R|Draenei|M|79.3,49.1|
-N Mage Training|QID|9290|C|Mage|N|Get your new skills at the trainer.|R|Draenei|M|79.3,49.1|
+N Shaman Training|QID|9421|C|Shaman|N|Get your new skills at the trainer.|M|79.3,49.1|
+N Priest Training|QID|9291|C|Priest|N|Get your new skills at the trainer.|M|79.3,49.1|
+N Hunter Training|QID|9288|C|Hunter|N|Get your new skills at the trainer.|M|79.3,49.1|
+N Paladin Training|QID|9287|C|Paladin|N|Get your new skills at the trainer.|M|79.3,49.1|
+N Warrior Training|QID|9289|C|Warrior|N|Get your new skills at the trainer.|M|79.3,49.1|
+N Mage Training|QID|9290|C|Mage|N|Get your new skills at the trainer.|M|79.3,49.1|
 
-A Your First Lesson|QID|26958|M|79.61,49.42|R|Draenei|C|Warrior|N|From Kore.|
-C Your First Lesson|QID|26958|M|80.08,45.77||R|Draenei|C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
-T Your First Lesson|QID|26958|M|79.61,49.42|R|Draenei|C|Warrior|N|To Kore.|
-A Arcane Missiles|QID|10068|R|Draenei|M|79.6,48.8|C|Mage|N|From Valaatu.|
-C Arcane Missiles|QID|10068|R|Draenei|M|80.08,45.77|C|Mage|N|Learn Arcane Missiles from Valaatu. Find a Training Dummy on the northwest side of the Crash Site and practice using Arcane Missiles 2 times. |
-T Arcane Missiles|QID|10068|R|Draenei|M|79.6,48.8|C|Mage|N|To Valaatu.|
-A Primal Strike|QID|10073|R|Draenei|M|79.9,49.1|C|Shaman|N|From Firmanvaar. |
-C Primal Strike|QID|10073|R|Draenei|M|80.08,45.77|C|Shaman|N|Learn Primal Strike from Firmanvaar. Find a Training Dummy on the northwest side of the Crash Site and practice using Primal Strike 3 times. |
-T Primal Strike|QID|10073|R|Draenei|M|79.9,49.1|C|Shaman|N|To Firmanvaar. |
-A Steadying Your Shot|QID|10070|R|Draenei|M|79.9,49.6|C|Hunter|N|From Keilnei.|
-C Steadying Your Shot|QID|10070|R|Draenei|M|80.08,45.77|C|Hunter|N|Learn Steady Shot from Keilnei. Find a Training Dummy on the northwest side of the Crash Site and practice using Steady Shot 5 times. |
-T Steadying Your Shot|QID|10070|R|Draenei|M|79.9,49.6|C|Hunter|N|To Keilnei.|
-A The Light's Power|QID|10069|R|Draenei|M|79.75,48.34|C|Paladin|N|From Aurelon.|
-C The Light's Power|QID|10069|R|Draenei|M|80.08,45.77|C|Paladin|N|Learn Seal of Righteousness and Judgement from Aurelon. Apply Seal of Righteousness, find a Training Dummy on the northwest side of the Crash Site and use Judgement. |
-T The Light's Power|QID|10069|R|Draenei|M|79.75,48.34|C|Paladin|N|To Aurelon|
-A Aiding the Injured|QID|10072|R|Draenei|M|80.1,48.5|C|Priest|N|From Zalduun.|
-C Aiding the Injured|QID|10072|R|Draenei|M|80.1,48.5|C|Priest|N|Learn Flash Heal from Zalduun. Use Flash Heal 5 times to heal the wounds of Injured Draenei at the Crash Site. |
-T Aiding the Injured|QID|10072|R|Draenei|M|80.1,48.5|C|Priest|N|To Zalduun.|
+A Your First Lesson|QID|26958|M|79.61,49.42|C|Warrior|N|From Kore.|
+C Your First Lesson|QID|26958|M|80.08,45.77||C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
+T Your First Lesson|QID|26958|M|79.61,49.42|C|Warrior|N|To Kore.|
+A Arcane Missiles|QID|26968|M|79.6,48.8|C|Mage|N|From Valaatu.|
+C Arcane Missiles|QID|26968|M|80.08,45.77|C|Mage|N|Learn Arcane Missiles from Valaatu. Find a Training Dummy on the northwest side of the Crash Site and practice using Arcane Missiles 2 times. |
+T Arcane Missiles|QID|26968|M|79.6,48.8|C|Mage|N|To Valaatu.|
+A Primal Strike|QID|26969|M|79.9,49.1|C|Shaman|N|From Firmanvaar. |
+C Primal Strike|QID|26969|M|80.08,45.77|C|Shaman|N|Learn Primal Strike from Firmanvaar. Find a Training Dummy on the northwest side of the Crash Site and practice using Primal Strike 3 times. |
+T Primal Strike|QID|26969|M|79.9,49.1|C|Shaman|N|To Firmanvaar. |
+A Steadying Your Shot|QID|10070|M|79.9,49.6|C|Hunter|N|From Keilnei.|
+C Steadying Your Shot|QID|10070|M|80.08,45.77|C|Hunter|N|Learn Steady Shot from Keilnei. Find a Training Dummy on the northwest side of the Crash Site and practice using Steady Shot 5 times. |
+T Steadying Your Shot|QID|10070|M|79.9,49.6|C|Hunter|N|To Keilnei.|
+A The Light's Power|QID|26966|M|79.75,48.34|C|Paladin|N|From Aurelon.|
+C The Light's Power|QID|26966|M|80.08,45.77|C|Paladin|N|Learn Seal of Righteousness and Judgement from Aurelon. Apply Seal of Righteousness, find a Training Dummy on the northwest side of the Crash Site and use Judgement. |
+T The Light's Power|QID|26966|M|79.75,48.34|C|Paladin|N|To Aurelon|
+A Aiding the Injured|QID|26970|M|80.1,48.5|C|Priest|N|From Zalduun.|
+C Aiding the Injured|QID|26970|M|80.1,48.5|C|Priest|N|Learn Flash Heal from Zalduun. Use Flash Heal 5 times to heal the wounds of Injured Draenei at the Crash Site. |
+T Aiding the Injured|QID|26970|M|80.1,48.5|C|Priest|N|To Zalduun.|
 
-r Sell junk and repair|QID|9305|N|At Mura, close this step when done.|M|79.19,50.93|R|Draenei|
-C Healing the Lake|QID|9294|N|Head south to the giant crystal and right-click it.|M|77,59|R|Draenei|NC|
-C Inoculation|QID|9303|R|Draenei|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|S|NC|
-C Spare Parts|QID|9305|R|Draenei|N|Into the hills, through the cave. The parts are spread all over the camp.|M|84.51,65.29|
-C Inoculation|QID|9303|R|Draenei|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|US|NC|
-H Ammen Vale|QID|9305|U|6948|R|Draenei|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
-T Healing the Lake|QID|9294|M|79.1,46.5|R|Draenei|N|To Botanist Taerix.|
-T Inoculation|QID|9303|M|79.5,51.4|R|Draenei|N|To Vindicator Aldar.|
-A The Missing Scout|QID|9309|M|79.5,51.4|R|Draenei|N|From Vindicator Aldar.|
-T Spare Parts|QID|9305|M|79.5,51.4|R|Draenei|N|To Technician Zhanaa.|
-N Visit class trainer|QID|9309|M|79.97,48.66|R|Draenei|
-T The Missing Scout|QID|9309|N|Southwest.|M|72,60|R|Draenei|N|To Tolaan.|
-A The Blood Elves|QID|10303|N|From Tolaan.|M|70.61,63.16|R|Draenei|
-C The Blood Elves|QID|10303|R|Draenei|N|Kill Blood Elf Scouts.|M|70.61,63.16|
-T The Blood Elves|QID|10303|M|72.0,60.8|R|Draenei|N|To Tolaan.|
-A Blood Elf Spy|QID|9311|M|72.0,60.8|R|Draenei|N|From Tolaan.|
-C Blood Elf Spy|QID|9311|N|Find Surveyor Candress in front of a tent at the top of the ridge.|M|69.27,65.72|R|Draenei|
-l Blood Elf Plans|QID|9798|N|Loot Surveyor Candress's body to get the attack plans.|L|24414|M|69.3,65.7|R|Draenei|
-A Blood Elf Plans|QID|9798|N|Starts from a drop from Surveyor Candress.|U|24414|M|69.3,65.7|R|Draenei|
-T Blood Elf Spy|QID|9311|N|To Vindicator Aldar.|M|79.5,51.4|R|Draenei|
-T Blood Elf Plans|QID|9798|M|79.5,51.4|R|Draenei|N|To Vindicator Aldar.|
-A The Emitter|QID|9312|M|79.5,51.4|R|Draenei|N|From Vindicator Aldar.|
-T The Emitter|QID|9312|M|79.5,51.4|R|Draenei|N|To Technician Zhanaa.|
-A Travel to Azure Watch|QID|9313|M|79.5,51.4|R|Draenei|N|From Technician Zhanaa.|
-r Sell junk and repair|QID|9452|N|At Mura.|M|79.19,50.93|R|Draenei|
+r Sell junk and repair|QID|9305|N|At Mura, close this step when done.|M|79.19,50.93|
+C Healing the Lake|QID|9294|N|Head south to the giant crystal and right-click it.|M|77,59|NC|
+C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|S|NC|
+C Spare Parts|QID|9305|N|Into the hills, through the cave. The parts are spread all over the camp.|M|84.51,65.29|
+C Inoculation|QID|9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|78,60|US|NC|
+H Ammen Vale|QID|9305|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
+T Healing the Lake|QID|9294|M|79.1,46.5|N|To Botanist Taerix.|
+T Inoculation|QID|9303|M|79.5,51.4|N|To Vindicator Aldar.|
+A The Missing Scout|QID|9309|M|79.5,51.4|N|From Vindicator Aldar.|
+T Spare Parts|QID|9305|M|79.5,51.4|N|To Technician Zhanaa.|
+N Visit class trainer|QID|9309|M|79.97,48.66|
+T The Missing Scout|QID|9309|N|Southwest.|M|72.01,60.84|N|To Tolaan.|
+A The Blood Elves|QID|10303|N|From Tolaan.|M|70.61,63.16|
+C The Blood Elves|QID|10303|N|Kill Blood Elf Scouts.|M|70.61,63.16|
+T The Blood Elves|QID|10303|M|72.01,60.84|N|To Tolaan.|
+A Blood Elf Spy|QID|9311|M|72.01,60.84|N|From Tolaan.|
+C Blood Elf Spy|QID|9311|N|Find Surveyor Candress in front of a tent at the top of the ridge.|M|69.27,65.72|
+l Blood Elf Plans|QID|9798|N|Loot Surveyor Candress's body to get the attack plans.|L|24414|M|69.3,65.7|
+A Blood Elf Plans|QID|9798|N|Starts from a drop from Surveyor Candress.|U|24414|M|69.3,65.7|
+T Blood Elf Spy|QID|9311|N|To Vindicator Aldar.|M|79.5,51.4|
+T Blood Elf Plans|QID|9798|M|79.5,51.4|N|To Vindicator Aldar.|
+A The Emitter|QID|9312|M|79.5,51.4|N|From Vindicator Aldar.|
+T The Emitter|QID|9312|M|79.5,51.4|N|To Technician Zhanaa.|
+A Travel to Azure Watch|QID|9313|M|79.5,51.4|N|From Technician Zhanaa.|
+r Sell junk and repair|QID|9452|N|At Mura.|M|79.19,50.93|
 
 A Word from Azure Watch |QID|9314|M|69,54;64.5,54.0|N|From Aeun.|
 A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|From Diktynna.|
@@ -164,37 +177,39 @@ T Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|To Diktynna.|
 A Find Acteon!|QID|9453|M|61.1,54.2|N|From Diktynna.|
 ; R Azure Watch|QID|9453|N|Follow the path to Azure Watch.|M|51.18,51.67|
 T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon at Azure Watch.  Once there, learn any new skills that you need.|C|Hunter|
-T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon at Azure Watch.|C|Shaman,Paladin,Priest,Mage,Warrior|
+T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon at Azure Watch.|C|Shaman,Paladin,Priest,Mage,Warrior,Druid|
 A The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|From Acteon.|
-T Travel to Azure Watch|QID|9313|M|48.7,50.3|R|Draenei|N|To Technician Dyvuun.|
+T Travel to Azure Watch|QID|9313|M|48.7,50.3|N|To Technician Dyvuun.|
 T Word from Azure Watch|QID|9314|M|48.3,49.2|N|To Caregiver Chellan.|
 h Azure Watch|QID|9506|N|Set your hearth to Azure Watch with Caregive Chellan.|
-A Beds, Bandages, and Beyond|QID|9603|R|Draenei|N|From Caregive Chellan.|
-A Medicinal Purpose|QID|9463|R|Draenei|M|48.4,51.8|N|From Anchorite Fateema.|
+A Beds, Bandages, and Beyond|QID|9603|N|From Caregive Chellan.|R|Draenei|
+A Medicinal Purpose|QID|9463|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
 
-N Professions |QID|9603|R|Draenei|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
+N Professions |QID|9603|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
 
-N Visit class trainer|C|Shaman|M|48.05,50.42|R|Draenei|QID|9454|
-N Visit class trainer|C|Paladin|M|48.36,49.56|R|Draenei|QID|9454|
-N Visit class trainer|C|Priest|M|46.60,49.29|R|Draenei|QID|9454|
-N Visit class trainer|C|Mage|M|49.87,49.96|R|Draenei|QID|9454|
-N Visit class trainer|C|Warrior|M|50.02,50.52|R|Draenei|QID|9454|
-N Visit class trainer|C|Hunter|M|49.78,51.93|R|Draenei|QID|9454|
+N Visit class trainer|C|Shaman|M|48.05,50.42|QID|9454|
+N Visit class trainer|C|Paladin|M|48.36,49.56|QID|9454|
+N Visit class trainer|C|Priest|M|46.60,49.29|QID|9454|
+N Visit class trainer|C|Mage|M|49.87,49.96|QID|9454|
+N Visit class trainer|C|Warrior|M|50.02,50.52|QID|9454|
+N Visit class trainer|C|Hunter|M|49.78,51.93|QID|9454|
 N Note!|QID|9616|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
 ; f Get flightpoint.|QID|9463|M|49.67,49.17|N|At Zaldaan.|
-T Beds, Bandages, and Beyond|QID|9603|R|Draenei|N|Go to Zaldaan.|
-A On the Wings of a Hippogryph|QID|9604|R|Draenei|N|From Zaldaan.|
-F The Exodar|QID|9604|R|Draenei|N|Fly to the Exodar.|
-T On the Wings of a Hippogryph|QID|9604|R|Draenei|M|57.03,50.14|Z|The Exodar|N|Go to Nurguni.|
-A Hippogryph Master Stephanos|QID|9605|R|Draenei|N|From Nurguni.|
-T Hippogryph Master Stephanos|QID|9605|R|Draenei|Z|The Exodar|N|Go to Hippogryph Master Stephanos.|
-A Return to Caregiver Chellan|QID|9606|R|Draenei|Z|The Exodar|N|From Stephanos.|
+T Beds, Bandages, and Beyond|QID|9603|N|Go to Zaldaan.|R|Draenei|
+A On the Wings of a Hippogryph|QID|9604|N|From Zaldaan.|R|Draenei|
+F The Exodar|QID|9604|N|Fly to the Exodar.|R|Draenei|
+T On the Wings of a Hippogryph|QID|9604|M|57.03,50.14|Z|The Exodar|N|Go to Nurguni.|R|Draenei|
+A Hippogryph Master Stephanos|QID|9605|N|From Nurguni.|R|Draenei|
+T Hippogryph Master Stephanos|QID|9605|Z|The Exodar|N|Go to Hippogryph Master Stephanos.|R|Draenei|
+A Return to Caregiver Chellan|QID|9606|Z|The Exodar|N|From Stephanos.|R|Draenei|
 
-F Azure Watch|QID|9606|R|Draenei|M|54.33,36.73|Z|The Exodar|N|Fly back to Azure Watch.|
-T Return to Caregiver Chellan|QID|9606|R|Draenei|M|48.39,49.25|N|To Caregiver Chellan.|
+F Azure Watch|QID|9606|M|54.33,36.73|Z|The Exodar|N|Fly back to Azure Watch.|R|Draenei|
+T Return to Caregiver Chellan|QID|9606|M|48.39,49.25|N|To Caregiver Chellan.|R|Draenei|
+A The Prophecy of Velen|QID|9505|M|48.4,51.8|N|From Daedal.|R|Draenei|
 C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags.|S|
-C Medicinal Purpose|QID|9463|R|Draenei|N|Kill loot Root Trappers.|S|
+C Medicinal Purpose|QID|9463|N|Kill loot Root Trappers.|S|R|Draenei|
 R Odesyus' Landing||QID|9454|N|Kill Moongraze Stags and Root Trappers on the way, they are found near the road in the forest.|M|46,70|
+T The Prophecy of Velen|QID|9505|M|47.0,70.2|N|To Admiral Odesyus.|R|Draenei|
 A A Small Start|QID|9506|M|47.0,70.2|N|From Admiral Odesyus.|
 A Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|From "Cookie" McWeaksauce.|
 C Cookie's Jumbo Gumbo|QID|9512|S|N|Kill crawlers for Skittering Crawler Meat.|
@@ -207,16 +222,16 @@ A Reclaiming the Ruins|QID|9513|M|47.0,70.2|N|From Priestess Kyleen Il'dinare.|
 A Precious and Fragile Things Need Special Handling|QID|9523|M|47.2,70.0|N|From Archaeologist Adamant Ironheart.|
 T Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|To "Cookie" McWeaksauce.|
 C I've Got a Plant|QID|9530|S|N|Look for piles of leaves and tree trunks.|
+C Medicinal Purpose|QID|9463|US|N|Kill and loot the needed Root Trappers.|M|48.52,55.63|R|Draenei|
 C The Great Moongraze Hunt |QID|9454|US|N|Kill and loot the needed Moongraze Stags.|M|48.52,55.63|
-C Medicinal Purpose|QID|9463|R|Draenei|US|N|Kill and loot the needed Root Trappers.|M|48.52,55.63|
 R Azure Watch|QID|9463|M|48.83,53.16|N|Run to Azure Watch.|
-T Medicinal Purpose|QID|9463|R|Draenei|M|48.4,51.8|N|To Anchorite Fateema.|
-A An Alternative Alternative|QID|9473|M|48.4,51.8|R|Draenei|N|From Daedal.|
+T Medicinal Purpose|QID|9463|M|48.4,51.8|N|To Anchorite Fateema.|R|Draenei|
+A An Alternative Alternative|QID|9473|M|48.4,51.8|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|To Acteon.|
 A The Great Moongraze Hunt|QID|10324|M|49.8,51.9|N|From Acteon.|
 r Sell junk and repair|QID|9530|N|At Kioni.|M|49.69,52.75|
 
-C An Alternative Alternative|QID|9473|R|Draenei|S|N|Look for Azure Snapdragon Bulbs.|
+C An Alternative Alternative|QID|9473|S|N|Look for Azure Snapdragon Bulbs.|R|Draenei|
 C Reclaiming the Ruins|QID|9513|N|Kill any Naga you need for this quest.|S|
 C Precious and Fragile Things Need Special Handling|QID|9523|N|Go to the Wrathscale Point and collect Ancient Relics.|M|35,75|
 C Reclaiming the Ruins|QID|9513|N|Kill any Naga you still need for this quest.|US|
@@ -227,20 +242,21 @@ A Tree's Company|QID|9531|M|47.0,70.2|N|From Admiral Odesyus.|
 T Precious and Fragile Things Need Special Handling|QID|9523|M|47.2,70.0|N|To Archaeologist Adamant Ironheart.|
 T Reclaiming the Ruins|QID|9513|M|47.0,70.2|N|To Priestess Kyleen Il'dinare.|
 T Rune Covered Tablet|QID|9514|M|47.0,70.2|N|To Priestess Kyleen Il'dinare.|
-A Warlord Sriss'tiz|QID|9515|N|Wait a moment until the dialog is finished. Then accept this quest from .|M|47.0,70.2|
-C An Alternative Alternative|QID|9473|R|Draenei|US|N|Collect the remaining Azure Snapdragon Bulbs.|M|48.72,53.81|
+A Warlord Sriss'tiz|QID|9515|N|Wait a moment until the dialog is finished. Then accept this quest from Priestess Kyleen Il'dinare.|M|47.0,70.2|
+C An Alternative Alternative|QID|9473|US|N|Collect the remaining Azure Snapdragon Bulbs.|M|48.72,53.81|R|Draenei|
 R Azure Watch|QID|9473|M|48.72,53.81|N|Run to Azure Watch.|
-T An Alternative Alternative|QID|9473|M|48.4,51.8|R|Draenei|N|To Daedal.|
+T An Alternative Alternative|QID|9473|M|48.4,51.8|N|To Daedal.|R|Draenei|
 A The Missing Fisherman|QID|10428|M|49.0,51.1|N|From Dulvi.|
+
+l Faintly Glowing Crystal.|QID|9455|L|23678|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal.|M|48.26,41.43|
+A Strange Findings|N|Start this off the Faintly Glowing Crystal.|QID|9455|U|23678|M|48.26,41.43|
+T Strange Findings|QID|9455|M|47.1,50.6|N|To Exarch Menelaous.|
+A Nightstalker Clean Up, Isle 2...|QID|9456|M|47.1,50.6|N|From Exarch Menelaous.|
+
 A Learning the Language|QID|9538|M|49.4,51.0|N|From Cryptographer Aurren.|
 C Learning the Language|N|Read the book.|QID|9538|U|23818|
 T Learning the Language|QID|9538|M|49.4,51.0|N|To the Totem of Akida.|
 A Totem of Coo|QID|9539|M|49.4,51.0|N|From the Totem of Akida.|
-l Faintly Glowing Crystal.|QID|9455|L|23678|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal.|M|48.26,41.43|
-A Strange Findings|N|Start this off the Faintly Glowing Crystal.|QID|9455|U|23678|M|48.26,41.43|
-T Strange Findings|QID|9455|M|47.1,50.6|N|To Exarch Menelaous.|
-
-A Nightstalker Clean Up, Isle 2...|QID|9456|M|47.1,50.6|N|From Exarch Menelaous.|
 T Totem of Coo|N|Turn the quest into the Totem of Coo.|QID|9539|M|55.2,41.6|
 A Totem of Tikti|QID|9540|M|55.2,41.6|N|From the Totem of Coo.|
 T Totem of Tikti|N|Jump off the cliff to the east after you recieve the "Ghost Walk" buff, then keep running east until you cross the river. Turn the quest into the Totem of Tikti.|QID|9540|M|64.47,39.79|
@@ -251,7 +267,7 @@ R Run to this waypoint.|QID|9542|M|30.94,56.87|CC|N|Wait until the furbolg casts
 C Nightstalker Clean Up, Isle 2...|N|Kill Infected Nightstalkers.|QID|9456|M|30.94,56.87|S|
 C The Great Moongraze Hunt|QID|10324|N|Kill and loot Moongraze Bucks.|M|30.94,56.87|
 C Nightstalker Clean Up, Isle 2...|N|Kill Infected Nightstalkers.|QID|9456|M|30.94,56.87|US|
-T Totem of Vark|QID|9542|M|28,62|N|To the Totem of Vark.|
+T Totem of Vark|QID|9542|M|28.11,62.44|N|To the Totem of Vark.|
 A The Prophecy of Akida|QID|9544|M|28.1,62.4|N|From the Totem of Vark.|
 C The Prophecy of Akida|N|Kill Bristlelimb Furbolgs in the camp and get the keys off them. Use them to unlock 8 cages.|QID|9544|M|28.5,66.4|
 C Warlord Sriss'tiz|QID|9515|N|Head to a cave in Wrathscale Point. Drop down the hole just inside the cave, then kill Warlord Sriss'Tiz.|M|27,77;26.34,73.90;25.12,74.19|
@@ -286,7 +302,7 @@ A Beasts of the Apocalypse!|QID|9560|M|44.8,23.9|N|From Moordo.|
 A Murlocs... Why Here? Why Now?|QID|9562|M|44.7,23.6|N|From Gurf.|
 T Stillpine Hold|QID|9559|M|46.7,20.6|N|To High Chief Stillpine.|
 C Beasts of the Apocalypse!|QID|9560|N|Kill and loot Ravagers at the Menagerie Wreckage.|M|54.24,19.36|
-T Beasts of the Apocalypse!|QID|9560|N|To Moordo.|
+T Beasts of the Apocalypse!|QID|9560|M|44.8,23.9|N|To Moordo.|
 A Search Stillpine Hold|QID|9565|M|46.7,20.6|N|From High Chief Stillpine.|
 A Chieftain Oomooroo|QID|9573|M|46.9,21.2|N|From Stillpine the Younger.|
 C Chieftain Oomooroo|QID|9573|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|M|45.39,18.06;47.43,14.18|
@@ -301,7 +317,7 @@ A The Kurken's Hide|QID|9571|M|47.0,22.3|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|N|From High Chief Stillpine.|M|46.7,20.6|
 T The Kurken's Hide|QID|9571|M|44.8,23.9|N|To Moordo.|
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|S|
-K Murgurgula|QID|9564|N|Look for the boss murloc named Murgurgula. Kill it and loot Gurf's Dignity from him.|L|23850|T|Murgurgula|
+K Murgurgula|QID|9564|N|Look for the boss murloc named Murgurgula. Kill it and loot Gurf's Dignity from him.|M|35,13;33.45,27.04|L|23850|T|Murgurgula|
 A Gurf's Dignity|QID|9564|U|23850|M|33.8,25.7|N|From Gurf's Dignity.|
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|US|
 T Murlocs... Why Here? Why Now?|QID|9562|N|To Gurf.|M|44.7,23.6|

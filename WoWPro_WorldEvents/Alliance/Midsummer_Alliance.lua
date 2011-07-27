@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2011-07-12 23:21
+-- Who: Ludovicus Maior
+-- Log: The )end must be on a line by itself.
+
+-- URL: http://wow-pro.com/node/3406/revisions/24653/view
 -- Date: 2011-06-30 22:39
 -- Who: Ludovicus Maior
 
@@ -197,5 +202,5 @@ A Desecrate this Fire! (Sholazar Basin) |N|At the Horde Bonfire.|QID|13450|M|47.
 
 N The End |N|That's all for this year.|
 
-]] 
+]]
 end)

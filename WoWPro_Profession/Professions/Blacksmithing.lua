@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/profession_blacksmithing
+-- Date: 2011-07-13 22:43
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3409/revisions/24642/view
 -- Date: 2011-06-30 06:05
 -- Who: Crackerhead22
 

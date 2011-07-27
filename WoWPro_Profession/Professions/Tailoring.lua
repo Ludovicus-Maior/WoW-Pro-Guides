@@ -1,3 +1,12 @@
+-- URL: http://wow-pro.com/wiki/profession_tailoring
+-- Date: 2011-07-13 22:48
+-- Who: Ludovicus Maior
+-- Log: Sync to GitHub
+
+-- URL: http://wow-pro.com/node/3412/revisions/24637/view
+-- Date: 2011-06-30 05:56
+-- Who: Crackerhead22
+
 WoWPro.Profession:RegisterGuide('TwiTailoring', 'Tailoring', 'Tailoring', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[
 
@@ -548,7 +557,6 @@ N Bloodthirsty Embersilk Boots: 521 of 525|QID|901970543|N|\nMATERIALS\n\n10 Bol
 N Bloodthirsty Embersilk Boots: 522 of 525|QID|901970544|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (30/30 Total)\n4 Volatile Fire (12/12 Total)\n4 Volatile Water (12/12 Total)|P|Tailoring;522;523|T|Bloodthirsty Embersilk Boots;1;3|
 N Bloodthirsty Embersilk Boots: 523 of 525|QID|901970545|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (20/20 Total)\n4 Volatile Fire (8/8 Total)\n4 Volatile Water (8/8 Total)|P|Tailoring;523;524|T|Bloodthirsty Embersilk Boots;1;2|
 N Bloodthirsty Embersilk Boots: 524 of 525|QID|901970546|N|\nMATERIALS\n\n10 Bolt of Embersilk Cloth (10/10 Total)\n4 Volatile Fire (4/4 Total)\n4 Volatile Water (4/4 Total)|P|Tailoring;524;525|T|Bloodthirsty Embersilk Boots;1;1|
-
 
 N That completes Tailoring.
 ]]
