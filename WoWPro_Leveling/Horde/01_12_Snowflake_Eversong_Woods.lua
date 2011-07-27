@@ -1,4 +1,28 @@
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2011-07-27 11:20
+-- Who: Fluclo
+-- Log: Corrected coords of Scroll of Scourge Magic
+
+-- URL: http://wow-pro.com/node/3207/revisions/24694/view
+-- Date: 2011-07-27 11:15
+-- Who: Fluclo
+-- Log: Corrected coord of Solanian's Scrying Orb
+
+-- URL: http://wow-pro.com/node/3207/revisions/24693/view
+-- Date: 2011-07-27 11:12
+-- Who: Fluclo
+-- Log: Sync'd coords on the training steps to match that of the trainers
+
+-- URL: http://wow-pro.com/node/3207/revisions/24692/view
+-- Date: 2011-07-27 11:05
+-- Who: Fluclo
+-- Log: Moved the turn-in for A Fistful of Slivers to after it's been done.
+
+-- URL: http://wow-pro.com/node/3207/revisions/24691/view
+-- Date: 2011-07-27 10:57
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3207/revisions/24664/view
 -- Date: 2011-07-06 11:02
 -- Who: Fluclo
 -- Log: The days of grinding to level should be behind us, so rearranged a couple of quest turnins to make sure you're the right level for training.  Unfortunate Measures also drop collars from the Cubs, the Arcane Torrent quest can be done later with the Ferals to reduce grind killing, updated view of Solanian's Journals to not be notes, added loot tag to Solanian's Journals to help the program remember the quest has been done, added couple of stickies where quests can be done simultaneously.
@@ -70,12 +94,12 @@ WoWPro.Leveling:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "01",
 return [[
 
 A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|N|From Magistrix Erona|M|38.0,21.0|RANK|1|
-C Mana Wyrm |QID|8325|R|BloodElf|N|Go down the big stairs and you should see plenty of Mana Wyrms.|M|37.60,22.00|RANK|1|
+C Mana Wyrm |QID|8325|R|BloodElf|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|M|37.60,22.00|RANK|1|
 ; L Level 2|LVL|2|N|Kill mana wyrms until you ding.|QID|8326|
 T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|N|To Magistrix Erona|M|38.0,21.0|
-A Unfortunate Measures|QID|8326|R|BloodElf|M|38.0,21.0|N|From Magistrix Erona, inside the building and up the ramp|
+A Unfortunate Measures|QID|8326|R|BloodElf|M|38.0,21.0|N|From Magistrix Erona|
 A Solanian's Belongings|QID|8330|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian|S|
-A The Shrine of Dath'Remar|QID|8345|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian|
+A The Shrine of Dath'Remar|QID|8345|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian, inside the building and up the ramp|
 A Solanian's Belongings|QID|8330|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian|US|
 A A Fistful of Slivers |QID|8336|R|BloodElf|N|From Arcanist Ithanas, jump down to the left.|M|38.3,19.1|
 A Thirst Unending|QID|8346|R|BloodElf|N|From Arcanist Helion. Go through the gazeebo in front of you.|M|37.2,18.9|
@@ -87,7 +111,6 @@ C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent Arcane Torrent o
 C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill Springpaw Lynxs and Cubs for the 8 Lynx collars. |M|36.00,24.00|US|
 
 T Thirst Unending |QID|8346|R|BloodElf|M|37.2,18.9|N|To Arcanist Helion||M|37.20,18.95|
-T A Fistful of Slivers |QID|8336|R|BloodElf|N|To Arcanist Ithanas|M|38.3,19.1|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|38,21|N|To Magistrix Erona|
 L Level 3|LVL|3|N|You should be a Level 3 at this point.  As you are not, you will need to kill Mana Wyrms and Springpaw until you are Level 3.|QID|8327|
 A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|38.2,20.8|N|From Magistrix Erona|
@@ -108,35 +131,35 @@ T Priest Training |QID|8564|R|BloodElf|C|Priest|N|To Matron Arena|M|39.4,20.4|
 T Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|To Pathstalker Kariel|M|38.9,20.0|
 T Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|Summoner Teli'Larien|M|38.9,21.4|
 
-A Charge!|QID|27091|M|39.23,20.16|R|BloodElf|C|Warrior|N|From Delios Silverblade.|
+A Charge!|QID|27091|M|39.3,20.1|R|BloodElf|C|Warrior|N|From Delios Silverblade.|
 C Charge!|QID|27091|M|38.33,20.64||R|BloodElf|C|Warrior|N|Learn charge from your trainer and Charge the target dummy.|
-T Charge!|QID|27091|M|39.27,20.15|R|BloodElf|C|Warrior|N|To Delios Silverblade.|
-A Arcane Missiles|QID|10068|R|BloodElf|M|39,20.2|C|Mage|N|From Julia Sunstriker.|
-C Arcane Missiles|QID|10068|R|BloodElf|M|38.33,20.64|C|Mage|N|Learn Arcane Missiles from Julia Sunstriker. Locate a Training Dummy outside the Sunspire and practice using Arcane Missiles 2 times.|
-T Arcane Missiles|QID|10068|R|BloodElf|M|39,20.2|C|Mage|N|To Julia Sunstriker.|
-A Evisceration|QID|10071|R|BloodElf|M|39,20.2|C|Rogue|N|From Pathstalker Kariel.|
-C Evisceration|QID|10071|R|BloodElf|M|38.33,20.64|C|Rogue|N|Learn Eviscerate from Pathstalker Kariel. Locate a Training Dummy outside the Sunspire and practice using Eviscerate 3 times. |
-T Evisceration|QID|10071|R|BloodElf|M|39,20.2|C|Rogue|N|To Pathstalker Kariel.|
-A Immolation|QID|10073|R|BloodElf|M|39,20.2|C|Warlock|N|From Summoner Teli'Larien|
-C Immolation|QID|10073|R|BloodElf|M|38.33,20.64|C|Warlock|N|Learn Immolate from Summoner Teli'Larien. Locate a Training Dummy outside the Sunspire and practice casting Immolate 5 times. |
-T Immolation|QID|10073|R|BloodElf|M|39,20.2|C|Warlock|N|To Summoner Teli'Larien|
-A Steady Shot|QID|10070|R|BloodElf|M|39,20.2|C|Hunter|N|From Ranger Sallina|
+T Charge!|QID|27091|M|39.3,20.1|R|BloodElf|C|Warrior|N|To Delios Silverblade.|
+A Steady Shot|QID|10070|R|BloodElf|M|39.0,20.0|C|Hunter|N|From Ranger Sallina|
 C Steady Shot|QID|10070|R|BloodElf|M|38.33,20.64|C|Hunter|N|Learn Steady Shot from Ranger Sallina. Locate a Training Dummy outside the Sunspire and practice using Steady Shot 5 times.|
-T Steady Shot|QID|10070|R|BloodElf|M|39,20.2|C|Hunter|N|To Ranger Sallina|
-A Ways of the Light|QID|10069|R|BloodElf|M|39,20.2|C|Paladin|N|From Jesthenis Sunstriker|
+T Steady Shot|QID|10070|R|BloodElf|M|39.0,20.0|C|Hunter|N|To Ranger Sallina|
+A Arcane Missiles|QID|10068|R|BloodElf|M|39.2,21.5|C|Mage|N|From Julia Sunstriker.|
+C Arcane Missiles|QID|10068|R|BloodElf|M|38.33,20.64|C|Mage|N|Learn Arcane Missiles from Julia Sunstriker. Locate a Training Dummy outside the Sunspire and practice using Arcane Missiles 2 times.|
+T Arcane Missiles|QID|10068|R|BloodElf|M|39.2,21.5|C|Mage|N|To Julia Sunstriker.|
+A Ways of the Light|QID|10069|R|BloodElf|M|39.5,20.6|C|Paladin|N|From Jesthenis Sunstriker|
 C Ways of the Light|QID|10069|R|BloodElf|M|38.33,20.64|C|Paladin|N|Learn Judgement and Seal of Righteousness from Jesthenis Sunstriker. Cast Seal of Righteousness on yourself, then locate a Training Dummy outside the Sunspire and use Judgement.|
-T Ways of the Light|QID|10069|R|BloodElf|M|39,20.2|C|Paladin|N|To Jesthenis Sunstriker|
-A Healing the Wounded|QID|10072|R|BloodElf|M|39,20.2|C|Priest|N|From Matron Arena|
+T Ways of the Light|QID|10069|R|BloodElf|M|39.5,20.6|C|Paladin|N|To Jesthenis Sunstriker|
+A Evisceration|QID|10071|R|BloodElf|M|38.9,20.0|C|Rogue|N|From Pathstalker Kariel.|
+C Evisceration|QID|10071|R|BloodElf|M|38.33,20.64|C|Rogue|N|Learn Eviscerate from Pathstalker Kariel. Locate a Training Dummy outside the Sunspire and practice using Eviscerate 3 times. |
+T Evisceration|QID|10071|R|BloodElf|M|38.9,20.0|C|Rogue|N|To Pathstalker Kariel.|
+A Healing the Wounded|QID|10072|R|BloodElf|M|39.4,20.4|C|Priest|N|From Matron Arena|
 C Healing the Wounded|QID|10072|R|BloodElf|M|39,20.2|C|Priest|N|Learn Flash Heal from Matron Arena. Practice casting Flash Heal 5 times on Wounded Outrunners.|
-T Healing the Wounded|QID|10072|R|BloodElf|M|39,20.2|C|Priest|N|To Matron Arena|
+T Healing the Wounded|QID|10072|R|BloodElf|M|39.4,20.4|C|Priest|N|To Matron Arena|
+A Immolation|QID|10073|R|BloodElf|M|38.9,21.4|C|Warlock|N|From Summoner Teli'Larien|
+C Immolation|QID|10073|R|BloodElf|M|38.33,20.64|C|Warlock|N|Learn Immolate from Summoner Teli'Larien. Locate a Training Dummy outside the Sunspire and practice casting Immolate 5 times. |
+T Immolation|QID|10073|R|BloodElf|M|38.9,21.4|C|Warlock|N|To Summoner Teli'Larien|
 
 T Report to Lanthan Perilon |QID|8327|R|BloodElf|N|To Lanthan Perilon|M|35.4,22.5|
 A Aggression |QID|8334|R|BloodElf|N|From Lanthan Perilon|M|35.4,22.5|
 C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you kill the Feral Tenders, look the Arcane Slivers from them.|M|37.50,23.90|S|
 C Aggression |QID|8334|R|BloodElf|S|N|Kill any Tender and Feral Tender you see.|
-C Solanian's Belongings |QID|8330|QO|Solanian's Scrying Orb: 1/1|R|BloodElf|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle. |M|37.70,24.90|NC|L|20470|
-C Solanian's Belongings |QID|8330|QO|Scroll of Scourge Magic: 1/1|R|BloodElf|N|Get the Scroll of Scourge Magic, which is northwest.|M|37.70,24.90|NC|L|20471|
-C Solanian's Belongings |QID|8330|R|BloodElf|N|Get Solanian's belongings.|M|37.70,24.90;37.70,24.90;37.70,24.90|NC|L|20470;20471;20472|
+C Solanian's Belongings |QID|8330|QO|Solanian's Scrying Orb: 1/1|R|BloodElf|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle. |M|35.13,28.91|NC|L|20470|
+C Solanian's Belongings |QID|8330|QO|Scroll of Scourge Magic: 1/1|R|BloodElf|N|Get the Scroll of Scourge Magic, which is northwest.|M|31.34,22.75|NC|L|20471|
+C Solanian's Belongings |QID|8330|R|BloodElf|N|Get Solanian's belongings.|M|37.70,24.90;35.13,28.91;31.34,22.75|NC|L|20470;20471;20472|
 C The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|Go to the far north-west of the island until you reach the Shrine of Dath'Remar. Read the plaque.|M|29.7,19.5|NC|
 C Aggression |QID|8334|R|BloodElf|US|N|Finish killing the Feral Tenders and Tenders you need.|
 C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you head back to the Sunspire, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|M|37.50,23.90|US|
@@ -145,6 +168,7 @@ C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you head back to the Sunspire, 
 T The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|M|38.96,20.27|S|
 T Solanian's Belongings |QID|8330|R|BloodElf|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|M|38.96,20.27|
 T The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|M|38.96,20.27|US|
+T A Fistful of Slivers |QID|8336|R|BloodElf|N|To Arcanist Ithanas|M|38.3,19.1|
 T Aggression |QID|8334|R|BloodElf|M|35.4,22.5|N|To Lanthan Perilon|
 A Felendren the Banished |QID|8335|R|BloodElf|N|From Lanthan Perilon|M|35.4,22.5|
 C Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp, kill Arcane Wraiths as you go up. At the top pull the two Tainted Arcane Wraiths (they can be pulled one by one), then kill Felendren|M|30.8,27.1;32.70,25.60|
