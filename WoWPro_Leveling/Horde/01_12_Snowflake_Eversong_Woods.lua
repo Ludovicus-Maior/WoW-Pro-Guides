@@ -1,4 +1,34 @@
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2011-07-27 21:33
+-- Who: Fluclo
+-- Log: Soaked Pages is a Non-Combat quest
+
+-- URL: http://wow-pro.com/node/3207/revisions/24702/view
+-- Date: 2011-07-27 21:25
+-- Who: Fluclo
+-- Log: Flying to "Silvermoon City" doesn't auto-complete (it lands in Eversong Woods), added couple of steps to improve auto-handling in this area.
+
+-- URL: http://wow-pro.com/node/3207/revisions/24701/view
+-- Date: 2011-07-27 21:23
+-- Who: Fluclo
+-- Log: Added note to Dwarven Spy
+
+-- URL: http://wow-pro.com/node/3207/revisions/24700/view
+-- Date: 2011-07-27 21:22
+-- Who: Fluclo
+-- Log: Couple notes to level 6 quests, and added entry for profession training
+
+-- URL: http://wow-pro.com/node/3207/revisions/24699/view
+-- Date: 2011-07-27 12:58
+-- Who: Fluclo
+-- Log: Updated so that it makes sense and works for non Blood Elf races
+
+-- URL: http://wow-pro.com/node/3207/revisions/24696/view
+-- Date: 2011-07-27 12:02
+-- Who: Fluclo
+-- Log: Better described Felendren the Banished quests
+
+-- URL: http://wow-pro.com/node/3207/revisions/24695/view
 -- Date: 2011-07-27 11:20
 -- Who: Fluclo
 -- Log: Corrected coords of Scroll of Scourge Magic
@@ -112,7 +142,7 @@ C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill Springpaw Lynxs and Cubs for 
 
 T Thirst Unending |QID|8346|R|BloodElf|M|37.2,18.9|N|To Arcanist Helion||M|37.20,18.95|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|38,21|N|To Magistrix Erona|
-L Level 3|LVL|3|N|You should be a Level 3 at this point.  As you are not, you will need to kill Mana Wyrms and Springpaw until you are Level 3.|QID|8327|
+L Level 3|LVL|3|N|You should be a Level 3 at this point. As you are not, you will need to kill Mana Wyrms and Springpaw until you are Level 3.|QID|8327|R|BloodElf|
 A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|38.2,20.8|N|From Magistrix Erona|
 
 A Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|From Magistrix Erona|M|38.0,21.0|
@@ -171,33 +201,46 @@ T The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|To Well Watcher Solanian, insi
 T A Fistful of Slivers |QID|8336|R|BloodElf|N|To Arcanist Ithanas|M|38.3,19.1|
 T Aggression |QID|8334|R|BloodElf|M|35.4,22.5|N|To Lanthan Perilon|
 A Felendren the Banished |QID|8335|R|BloodElf|N|From Lanthan Perilon|M|35.4,22.5|
-C Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp, kill Arcane Wraiths as you go up. At the top pull the two Tainted Arcane Wraiths (they can be pulled one by one), then kill Felendren|M|30.8,27.1;32.70,25.60|
-l Tainted Arcane Wraith|QID|8338|L|20483|R|BloodElf|N|Kill Tainted Arcane Wraiths till this drops.|
+
+K Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp and to the top of Falthrien Academy. At one point, there will be two paths to choose, both will merge further on, so either can be taken. Kill Arcane Wraiths as you go up. At the top pull the two Tainted Arcane Wraiths (they can be pulled one by one), then kill Felendren and loot his head.|M|31.69,26.44;30.79,26.40;30.55,27.90|L|20799|
+l Tainted Arcane Sliver|QID|8338|L|20483|R|BloodElf|N|You should already have looted the Tainted Arcane Sliver from the Tainted Arcane Wraiths. Kill and loot the Tainted Arcane Wraiths until you get the sliver.|
+A Tainted Arcane Sliver |QID|8338|R|BloodElf|U|20483|N|The Tainted Arcane Sliver starts a quest - click it and accept the quest.|
+C Felendren the Banished |QID|8335|R|BloodElf|N|Finish killing the Arcane Wraiths and Tainted Arcane Wraiths.|M|30.87,27.13|
+H Sunstrider Isle|QID|8338|U|6948|R|BloodElf|N|Either Hearthstone back to the starting point, or run back.|M|37.75,21.10|
+
 A Tainted Arcane Sliver |QID|8338|R|BloodElf|U|20483|N|From Tainted Arcane Sliver. Get quest from the loot.|
 H Sunstrider Isle|QID|8338|U|6948|R|BloodElf|
 T Tainted Arcane Sliver |QID|8338|R|BloodElf|N|To Arcanist Helion|M|37.2,18.9|
-r Repair/Restock|QID|26692|M|37.18,19|N|At Jainthess Thelryn.|
+r Repair/Restock|QID|8335|R|BloodElf|M|37.18,19|N|At Jainthess Thelryn.|
 T Felendren the Banished |QID|8335|R|BloodElf|N|To Lanthan Perilon|M|35.4,22.5|
 A Aiding the Outrunners |QID|8347|R|BloodElf|N|From Lanthan Perilon|M|35.4,22.5|
 T Aiding the Outrunners |QID|8347|R|BloodElf|N|To Outrunner Alarion|M|40.4,32.2|
-A Slain by the Wretched |QID|9704|N|From Outrunner Alarion|M|40.4,32.2|
+
+L Level 5 |QID|9704|LVL|5|N|Please note that you should be a Level 5 as you are not able to do the starting quests from Sunstrider Isle.|R|Goblin,Tauren,Orc,Troll,Forsaken|
+R Eversong Woods|QID|9704|M|56.65,49.67|N|Eversong Woods, the BloodElf starting area (for non BloodElf's). Start by heading to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|R|Goblin,Tauren,Orc,Troll,Forsaken|
+F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|
+A Slain by the Wretched |QID|9704|N|From Outrunner Alarion|M|40.4,32.2|R|BloodElf|
+A Slain by the Wretched |QID|9704|M|40.4,32.2|R|Goblin,Tauren,Orc,Troll,Forsaken|N|First quest we can get after the starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). If you want the achievement Explore Eversong Woods, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|
+
 T Slain by the Wretched |QID|9704|N|To Slain Outrunner|M|42.0,35.7|
 A Package Recovery |QID|9705|N|From Slain Outrunner|M|42.0,35.7|
 T Package Recovery |QID|9705|N|To Outrunner Alarion|M|40.4,32.2|
 A Completing the Delivery |QID|8350|N|From Outrunner Alarion|M|40.4,32.2|
-f Ruins of Silvermoon|QID|8347|M|46.26,46.80|N|At Skymaster Skyles.|
 T Completing the Delivery |QID|8350|N|To Innkeeper Delaniel|M|48.1,47.7|
-h Falconwing Square |QID|8472|
 
-A Unstable Mana Crystals |QID|8463|N|From Aeldon Sunbrand. Back outside of the inn.|M|48.2,46.0|
-A Wanted: Thaelis the Hungerer |QID|8468|N|From Wanted: Thaelis the Hungerer|M|48.2,46.3|
+h Falconwing Square |QID|8463|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel|M|48.1,47.7|
+N Professions |QID|8463|N|If you plan on learning any professions, now's the time to learn it.  Saren will teach all Primary and Secondary professions, he can be found on the first floor. You can also learn Cooking and First Aid on the first floor too.  Click this step to continue.|M|48.93,46.86|
+
+A Unstable Mana Crystals |QID|8463|N|From Aeldon Sunbrand, back outside of the inn.|M|48.2,46.0|
+A Wanted: Thaelis the Hungerer |QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|M|48.2,46.3|
 A Major Malfunction |QID|8472|N|From Magister Jaronis|M|47.3,46.3|
 C Unstable Mana Crystals |QID|8463|M|48.2,46.0|S|N|Look for light beams that come out of the boxes.|M|46,42|
-C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|S|
+C Major Malfunction |QID|8472|N|Dropped from the Arcane Patroller's.|M|45,40.5|S|
 C Wanted: Thaelis the Hungerer |QID|8468|N|Be careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
 C Major Malfunction |QID|8472|N|They patrol the roadway.|M|45,40.5|US|
 C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|M|46,42|N|Look for light beams that come out of the boxes.|
-L Level 6|QID|8472|LVL|6|N|If not level 6 yet, kill stuffs.
+
+; L Level 6|QID|8472|LVL|6|N|Target point to be Level 6.|
 T Major Malfunction |QID|8472|N|To Magister Jaronis|M|47.3,46.3|
 A Delivery to the North Sanctum |QID|8895|N|From Magister Jaronis|M|47.3,46.3|
 T Wanted: Thaelis the Hungerer |QID|8468|N|To Sergeant Kan'ren|M|47.8,46.6|
@@ -207,12 +250,17 @@ T Delivery to the North Sanctum |QID|8895|N|To Ley-Keeper Caidanis|M|44.6,53.1|
 A Malfunction at the West Sanctum |QID|9119|N|From Ley-Keeper Caidanis|M|44.6,53.1|
 T Malfunction at the West Sanctum |QID|9119|N|To Ley-Keeper Velania|M|36.7,57.4|
 A Arcane Instability |QID|8486|N|From Ley-Keeper Velania|M|36.7,57.4|
+
+C Arcane Instability |QID|8486|N|Kill the Manawraith and Mana Stalker located around the West Sanctum.|M|36,58|S|
 K Darnassian Scout |QID|9352|L|20765|N|Kill a Darnassian Scout and loot Incriminating Documents |M|34.50,60.00|
-A Incriminating Documents |QID|8482|U|20765|N|From Incriminating Documents. Click the envelope|M|33.9,58.4|
-C Arcane Instability |QID|8486|N|5 of each: Manawraith and Mana Stalker |M|36,58|
-T Arcane Instability |QID|8486|N|To Ley-Keeper Velania|M|35.1,61.3;36.7,57.4|
-T Darnassian Intrusions |QID|9352|N|To Ley-Keeper Velania. You should be level 7 now.|M|36.7,57.4|
-A Fish Heads, Fish Heads... |QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|M|30.2,58.3|
+A Incriminating Documents |QID|8482|U|20765|N|Quest starts from the Incriminating Documents. Click the envelope|M|33.9,58.4|
+C Arcane Instability |QID|8486|N|Finish killing the Manawraith and Mana Stalker located around the West Sanctum.|M|36,58|US|
+T Arcane Instability |QID|8486|N|To Ley-Keeper Velania|M|36.7,57.4|S|
+T Darnassian Intrusions |QID|9352|N|To Ley-Keeper Velania.|M|36.7,57.4|
+T Arcane Instability |QID|8486|N|To Ley-Keeper Velania|M|36.7,57.4|US|
+; L Level 7 |QID|8482|LVL|7|Target point to be Level 7.|
+
+A Fish Heads, Fish Heads... |QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|M|29.89,58.52|
 C Fish Heads, Fish Heads... |QID|8884|N|Kill murlocs for the 8 fish heads. |M|27,59.5|
 l Captain Kelisendra's Lost Rutters |QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|M|27,59.5|
 
@@ -222,11 +270,12 @@ A The Ring of Mmmrrrggglll |QID|8885|N|From Hathvelion Sungaze|
 H Falconwing Square|QID|8482|U|6948|
 T Incriminating Documents |QID|8482|N|To Aeldon Sunbrand|M|48.2,46.0|
 A The Dwarven Spy |QID|8483|N|From Aeldon Sunbrand|M|48.2,46.0|
-C The Dwarven Spy |QID|8483|L|20764|N|Be sure to be full health and buffed before you talk to Prospector Anvilward. |M|44.60,53.30|
+C The Dwarven Spy |QID|8483|L|20764|N|Speak to Prospector Anvilward.  He will walk into the North Sanctum, when he is at the top, he will attack you.  Be sure to be full health and buffed before you talk to him.  Once you kill him, loot his head.|M|44.60,53.30|
+
 A Roadside Ambush |QID|9035|N|From Apprentice Ralen|M|45.2,56.4|
 T Roadside Ambush |QID|9035|N|To Apprentice Meledor|M|44.9,61.0|
 A Soaked Pages |QID|9062|N|From Apprentice Meledor|M|44.9,61.0|
-C Soaked Pages |QID|9062|L|22414|N|Dive under the bridge just in front of you. |M|44.40,61.90|
+C Soaked Pages |QID|9062|L|22414|N|Dive under the bridge just in front of you, the Soaked Pages are in the river. |M|44.40,61.90|NC|
 T Soaked Pages |QID|9062|N|To Apprentice Meledor|M|44.9,61.0|
 A Taking the Fall |QID|9064|N|From Apprentice Meledor|M|44.9,61.0|
 T Taking the Fall |QID|9064|N|To Instructor Antheol|M|55.7,54.5|
@@ -253,8 +302,12 @@ A The Party Never Ends |QID|9067|N|From Lord Saltheril|M|38.1,73.6|
 B Buy Bundle of Fireworks |QID|9067|L|22777|N|Buy a Bundle of fireworks from Halis Dawnstrider |M|44.10,70.40|
 T Goods from Silvermoon City|QID|9130|R|BloodElf|N|To Skymaster Brightdawn|M|44,70|
 A Fly to Silvermoon City|QID|9133|R|BloodElf|M|44,70|N|From Skymaster Brightdawn|
-F Silvermoon City|QID|9067|M|44,70|N|Fly to Silvermoon City.|
-T Fly to Silvermoon City|QID|9133|R|BloodElf|M|54,71|Z|Silvermoon City|N|To Sathren Azuredawn|
+
+F Eversong Woods|QID|9133|M|44,70|N|Ask Skymaster Brightdawn to fly you to Silvermoon City.|
+R Silvermoon City|QID|9133|N|Run east to Silvermoon City|M|72.37,90.93|Z|Silvermoon City|
+
+T Fly to Silvermoon City|QID|9133|R|BloodElf|Z|Silvermoon City|N|To Sathren Azuredawn|M|69.26,77.04;68.28,74.08;66.50,73.43;54,71|
+
 A Skymistress Gloaming|QID|9134|R|BloodElf|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn|
 B Suntouched Special Reserve|QID|9067|L|22775|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|M|79.70,58.40|
 T Skymistress Gloaming|QID|9134|R|BloodElf|M|54.38,50.79|N|To Skymistress Gloaming|

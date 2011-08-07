@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2011-07-28 18:14
+-- Who: Fluclo
+-- Log: Updated note to Greasing the Wheel
+
+-- URL: http://wow-pro.com/node/3251/revisions/24568/view
 -- Date: 2011-06-20 23:34
 -- Who: Crackerhead22
 
@@ -66,7 +71,7 @@ A Just Encased|QID|27368|M|4.17,36.13|N|From Gidwin Goldbraids.|
 C Just Encased|QID|27368|M|7.52,30.82|N|Kill Crypt Walkers, Stalkers and Horrors in the Terrorweb Tunnel that is next to the quest giver.|
 T Just Encased|QID|27368|M|4.17,36.13|N|To Gidwin Goldbraids.|
 A Greasing the Wheel|QID|27369|M|4.17,36.13|N|From Gidwin Goldbraids.|
-C Greasing the Wheel|QID|27369|M|3.54,36.43|N|Loot Banshee's Bells off the ground near quest giver and along the river.|
+C Greasing the Wheel|QID|27369|M|3.54,36.43|N|Loot Banshee's Bells off the ground near quest giver and along the river. Herbalists should activate their Find Herbs tracking to have their locations show on the mini-map.|
 T Greasing the Wheel|QID|27369|M|9.02,66.40|N|To Fiona.|
 
 T Tarenar Sunstrike|QID|27370|M|18.40,75.08|N|To Tarenar Sunstrike.|

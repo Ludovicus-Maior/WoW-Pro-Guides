@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/profession_alchemy
+-- Date: 2011-07-27 12:12
+-- Who: Ludovicus Maior
+-- Log: Merge Twists Pull
+
+-- URL: http://wow-pro.com/node/3408/revisions/24641/view
 -- Date: 2011-06-30 06:05
 -- Who: Crackerhead22
 
@@ -564,7 +569,6 @@ N Transmute: Amberjewel: 521 of 525|QID|901710551|N|\nMATERIALS\n\n3 Whiptail (1
 N Transmute: Amberjewel: 522 of 525|QID|901710552|N|\nMATERIALS\n\n3 Whiptail (9/9 Total)\n3 Alicite (9/9 Total)|P|Alchemy;522;523|T|Transmute: Amberjewel;1;3|
 N Transmute: Amberjewel: 523 of 525|QID|901710553|N|\nMATERIALS\n\n3 Whiptail (6/6 Total)\n3 Alicite (6/6 Total)|P|Alchemy;523;524|T|Transmute: Amberjewel;1;2|
 N Transmute: Amberjewel: 524 of 525|QID|901710554|N|\nMATERIALS\n\n3 Whiptail (3/3 Total)\n3 Alicite (3/3 Total)|P|Alchemy;524;525|T|Transmute: Amberjewel;1;1|
-
 
 N That completes Alchemy.
 ]]

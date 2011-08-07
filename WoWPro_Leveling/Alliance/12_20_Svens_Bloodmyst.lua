@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2011-08-01 01:26
+-- Who: Ludovicus Maior
+-- Log: [Newfound Allies] needed a zone tag ...
+
+-- URL: http://wow-pro.com/node/3220/revisions/24588/view
 -- Date: 2011-06-25 00:51
 -- Who: Crackerhead22
 -- Log: ! Duplicate A step for qid 9641 - Removed duplicate
@@ -301,7 +306,7 @@ A The Unwritten Prophecy|QID|9762|N|From Prophet Velen. If Prophet Velen despawn
 A Newfound Allies|QID|9632|M|54.69,54.01|N|From Anchorite Paetheus.|
 F The Exodar|QID|9632|N|Fly to The Exodar.|M|57.68,53.89|
 A Hero's Call: Ashenvale!|QID|28492|M|55.31,47.38|N|From the Hero's Call Board. Will not show up if your level is too high.|Z|The Exodar|
-T Newfound Allies|QID|9632|M|24.18,54.33|N|To Huntress Kella Nightbow.|
+T Newfound Allies|QID|9632|M|24.18,54.33|Z|Azuremyst Isle|N|To Huntress Kella Nightbow.|
 
 N Thus ends Bloodmyst Isles.|N|Next stop Ashenvale. Take the boat or fly to Rutheran Village, then onto Ashenvale. Close this step.|
 ]]
