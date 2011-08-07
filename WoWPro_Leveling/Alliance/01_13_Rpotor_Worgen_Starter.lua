@@ -1,4 +1,45 @@
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2011-07-29 12:16
+-- Who: Fluclo
+-- Log: typo
+
+-- URL: http://wow-pro.com/node/3211/revisions/24713/view
+-- Date: 2011-07-29 12:13
+-- Who: Fluclo
+-- Log: Updated Flank the Forsaken to get it to auto-complete
+
+-- URL: http://wow-pro.com/node/3211/revisions/24712/view
+-- Date: 2011-07-29 11:57
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3211/revisions/24711/view
+-- Date: 2011-07-29 11:34
+-- Who: Fluclo
+-- Log: typo
+
+-- URL: http://wow-pro.com/node/3211/revisions/24710/view
+-- Date: 2011-07-29 11:29
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3211/revisions/24709/view
+-- Date: 2011-07-29 11:10
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3211/revisions/24708/view
+-- Date: 2011-07-29 11:01
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3211/revisions/24707/view
+-- Date: 2011-07-29 10:44
+-- Who: Fluclo
+-- Log: |NC| tag added to the Save Children quest
+
+-- URL: http://wow-pro.com/node/3211/revisions/24706/view
+-- Date: 2011-07-29 10:11
+-- Who: Fluclo
+-- Log: Sacrifices is now round up 30 worgen, not 50.
+
+-- URL: http://wow-pro.com/node/3211/revisions/24654/view
 -- Date: 2011-07-01 13:47
 -- Who: Ludovicus Maior
 -- Log: $2. shifted from Gilneas_terrain1 to Gilneas_terrain2
@@ -103,10 +144,10 @@ A Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.58,26.77|N|Go a few steps s
 N Check Your Mail |QID|14098|Z|GilneasCity|M|58.94,31.89|N|There's a mailbox a few steps south. You can pick up your Bind on Account items and pets here.|O|
 
 C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|Z|GilneasCity|M|58.8,32.7|S|
-C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|Z|GilneasCity|M|58.8,32.7|S|
-C Evacuate the Merchant Square |QID|14098|N|Click on Merchant Square Doors.|Z|GilneasCity|M|58.8,32.7|S|
+C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|Z|GilneasCity|M|58.8,32.7|S|NC|
+C Evacuate the Merchant Square |QID|14098|N|Click on Merchant Square Doors.  A Rampaging Worgen may attack you on opening the door.|Z|GilneasCity|M|58.8,32.7|S|
 C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|US|Z|GilneasCity|
-C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|US|Z|GilneasCity|
+C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|US|Z|GilneasCity|NC|
 C Evacuate the Merchant Square |QID|14098|N|Click on Merchant Square Doors.|US|Z|GilneasCity|
 
 T Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.58,26.77|N|Back to Gwen Armstead.|
@@ -212,7 +253,7 @@ T Time to Regroup |QID|14294|Z|GilneasCity|M|53.84,84.03;42.80,82.85;30.5,73.3|N
 N Training in Earnest|QID|14212|Z|GilneasCity|M|32.24,73.29|N|Find your trainer here, and train, if you have leveled.|
 A Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.6|N|From Lord Crowley.|
 
-C Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.9|N|Mount Crowley's Horse.  While on the scripted path use your mount's (1) Throw Torch ability to round up 50 worgen. If you do not get 50, ride the horse again.|
+C Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.9|N|Mount Crowley's Horse.  While on the scripted path use your mount's (1) Throw Torch ability to round up 30 worgen. If you do not get 30, ride the horse again.|
 
 T Sacrifices |QID|14212|Z|GilneasCity|M|40.3,39.5|N|To Tobias Mistmantle.|
 A By Blood and Ash |QID|14218|Z|GilneasCity|M|40.3,39.5|N|From Tobias Mistmantle|
@@ -263,9 +304,9 @@ A Unleash the Beast|QID|14369|Z|Gilneas_terrain2|M|28.90,63.91|N|From Lord Godfr
 A Two By Sea|QID|14382|Z|Gilneas_terrain2|M|28.90,63.91|N|From Lord Godfrey.|
 A Save the Children!|QID|14368|Z|Gilneas_terrain2|M|28.90,63.91|N|From Melinda Hammond.|
 
-C Talk to James|QID|14368|Z|Gilneas_terrain2|M|28.56,66.74|QO|James rescued: 1/1|N|James is northwest, next to the house. Right-click James to rescue him.|
-C Talk to Ashley|QID|14368|Z|Gilneas_terrain2|M|27.92,66.64|QO|Ashley rescued: 1/1|N|Inside the house upstairs. Right-click to rescue her.|
-C Talk to Cynthia|QID|14368|Z|Gilneas_terrain2|M|29.59,69.18|QO|Cynthia rescued: 1/1|N|Go southeast to the cornfield and find Cynthia near the shed. Right-click her to rescue her.|
+C Talk to James|QID|14368|Z|Gilneas_terrain2|M|28.56,66.74|QO|James rescued: 1/1|N|James is northwest, next to the house. Right-click James to rescue him.|NC|
+C Talk to Ashley|QID|14368|Z|Gilneas_terrain2|M|27.92,66.64|QO|Ashley rescued: 1/1|N|Inside the house upstairs. Right-click to rescue her.|NC|
+C Talk to Cynthia|QID|14368|Z|Gilneas_terrain2|M|29.59,69.18|QO|Cynthia rescued: 1/1|N|Go southeast to the cornfield and find Cynthia near the shed. Right-click her to rescue her.|NC|
 T Save the Children!|QID|14368|Z|Gilneas_terrain2|M|28.89,63.97|N|To Melinda Hammond.|
 N Sell Junk|QID|14369|Z|Gilneas_terrain2|M|28.81,63.48|N|Sell Junk.|
 
@@ -285,7 +326,7 @@ T Leader of the Pack|QID|14386|Z|Gilneas_terrain2|M|28.89,63.87|N|To Lord Godfre
 A As the Land Shatters|QID|14396|Z|Gilneas_terrain2|M|28.89,63.87|N|From Lord Godfrey.|
 T As the Land Shatters|QID|14396|Z|Gilneas_terrain2|M|29.11,65.09|N|To Prince Liam Greymane.|
 A Gasping for Breath|QID|14395|Z|Gilneas_terrain2|M|29.11,65.09|N|From Prince Liam Greymane.|
-C Gasping for Breath|QID|14395|Z|Gilneas_terrain2|M|28.77,67.39|N|Jump in the water and swim to a Drowning Watchman. Click on him and swim back to the shore. Repeat 4 times.|
+C Gasping for Breath|QID|14395|Z|Gilneas_terrain2|M|28.77,67.39|N|Jump in the water and swim to a Drowning Watchman. Click on him and swim back to the shore. Repeat 4 times.|NC|
 T Gasping for Breath|QID|14395|Z|Gilneas_terrain2|M|29.08,65.12|N|To Prince Liam Greymane.|
 A Evacuation|QID|14397|Z|Gilneas_terrain2|M|29.08,65.12|N|From Prince Liam Greymane.|
 T Evacuation|QID|14397|Z|Gilneas_terrain2|M|37.57,65.21|N|To Gwen Armstead.|
@@ -295,14 +336,14 @@ A The Crowley Orchard|QID|14406|Z|Gilneas_terrain2|M|37.57,65.21|N|From Gwen Arm
 
 T The Crowley Orchard|QID|14406|Z|Gilneas_terrain2|M|37.66,72.75|N|To Lorna Crowley.|
 A The Hungry Ettin|QID|14416|Z|Gilneas_terrain2|M|37.66,72.75|N|From Lorna Crowley.|
-C The Hungry Ettin|QID|14416|Z|Gilneas_terrain2|M|39.72,76.82|N|Hop on one of the Mountain Horses. Target a Mountain Horse and use your horse's Round Up Horse ability. Ride back to Lorna Crowley. Repeat until quest completion.|
+C The Hungry Ettin|QID|14416|Z|Gilneas_terrain2|M|39.72,76.82;37.66,72.75|N|Hop on one of the Mountain Horses. Then target another Mountain Horse and use your horse's Round Up Horse ability.  Do this on a total of 4 horses, then ride back to Lorna Crowley.|
 T The Hungry Ettin|QID|14416|Z|Gilneas_terrain2|M|37.60,72.77|N|To Lorna Crowley.|
 T Grandma Wahl|QID|14398|Z|Gilneas_terrain2|M|32.53,75.55|N|To Grandma Wahl.|
 A Grandma's Lost It Alright|QID|14399|Z|Gilneas_terrain2|M|32.53,75.55|N|From Grandma Wahl.|
-C Grandma's Lost It Alright|QID|14399|Z|Gilneas_terrain2|M|33.88,77.37|N|Loot the Linen-Wrapped Book under the red rose arbor.|
+C Grandma's Lost It Alright|QID|14399|Z|Gilneas_terrain2|M|33.88,77.37|N|Loot the Linen-Wrapped Book under the red rose arbor.|NC|
 T Grandma's Lost It Alright|QID|14399|Z|Gilneas_terrain2|M|32.51,75.52|N|To Grandma Wahl.|
 A I Can't Wear This|QID|14400|Z|Gilneas_terrain2|M|32.51,75.52|N|From Grandma Wahl.|
-C I Can't Wear This|QID|14400|Z|Gilneas_terrain2|M|32.00,75.57|N|Loot Grandma’s Good Clothes from the clothes line between the house and the sea-wall.|
+C I Can't Wear This|QID|14400|Z|Gilneas_terrain2|M|32.00,75.57|N|Loot Grandma's Good Clothes from the clothes line between the house and the sea-wall.|NC|
 T I Can't Wear This|QID|14400|Z|Gilneas_terrain2|M|32.50,75.55|N|To Grandma Wahl.|
 
 L Level 8|QID|14401|LVL|8|N|You should be around level 8 by this point.|
@@ -314,33 +355,34 @@ T The Hayward Brothers|QID|14403|Z|Gilneas_terrain2|M|36.84,84.19|N|To Sebastian
 A Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|36.84,84.19|N|From Sebastian Hayward.|
 A Washed Up|QID|14412|Z|Gilneas_terrain2|M|36.84,84.19|N|From Sebastian Hayward.|
 
-C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|37.53,85.96|QO|Coal Tar: 1/1|N|Loot the Barrel of Coal Tar.|
-C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|37.42,87.13|QO|Shipwright's Tools: 1/1|N|Loot the Shipwright's Tools, inside the house.|
-C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|36.17,86.44|N|Loot the Planks of Wood.|
-C Washed Up|QID|14412|Z|Gilneas_terrain2|M|36.83,85.06|N|Kill 6 Forsaken Castaways.|
+C Washed Up|QID|14412|Z|Gilneas_terrain2|M|36.83,85.06|N|Kill 6 Forsaken Castaways.|S|
+C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|37.53,85.96|QO|Coal Tar: 1/1|N|Loot the Barrel of Coal Tar.|NC|
+C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|37.42,87.13|QO|Shipwright's Tools: 1/1|N|Loot the Shipwright's Tools, inside the house.|NC|
+C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|36.17,86.44|N|Loot the Planks of Wood.|NC|
+C Washed Up|QID|14412|Z|Gilneas_terrain2|M|36.83,85.06|N|Kill 6 Forsaken Castaways.|US|
 T Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|36.88,84.20|N|To Sebastian Hayward.|
 T Washed Up|QID|14412|Z|Gilneas_terrain2|M|36.88,84.20|N|To Sebastian Hayward.|
 A Escape By Sea|QID|14405|Z|Gilneas_terrain2|M|36.88,84.20|N|From Sebastian Hayward.|
 
 T Escape By Sea|QID|14405|Z|Gilneas_terrain2|M|37.61,65.25|N|To Gwen Armstead.|
-A To Greymane Manor|QID|14465|Z|Gilneas_terrain2|M|37.61,65.25|N|From Gwen Armstead.|
+A To Greymane Manor|QID|14465|Z|Gilneas_terrain2|M|37.61,65.25|N|From Gwen Armstead.  On accepting this quest, you will be taken half way to Greymane Manor.|
 
 T To Greymane Manor|QID|14465|Z|Gilneas_terrain2|M|30.38,52.53;28.71,51.05;28.17,50.03|N|To Queen Mia Greymane.|
-h Greymane Manor|Z|Gilneas_terrain2|M|28.17,50.03|N|Set your hearthstone at Queen Mia Greymane.|
+h Greymane Manor |QID|14466|Z|Gilneas_terrain2|M|28.17,50.03|N|Set your hearthstone at Queen Mia Greymane.|
 A The King's Observatory|QID|14466|Z|Gilneas_terrain2|M|28.17,50.03|N|From Queen Mia Greymane.|
 T The King's Observatory|QID|14466|Z|Gilneas_terrain2|M|26.40,46.97|N|To King Genn Greymane, on top of the tower.|
 
 A Alas, Gilneas!|QID|14467|Z|Gilneas_terrain2|M|26.40,46.97|NC|N|Look through King Genn Greymane's scope.|
 
 A Exodus|QID|24438|Z|Gilneas_terrain2|M|26.40,46.97|N|From King Genn Greymane.|
-N Board a Stagecoach Carriage|QID|24438|Z|Gilneas_terrain2|M|28.84,54.18|N|Get out of the manor, go down the road and get on a Stagecoach Carriage. Click off while riding.|
+N Board a Stagecoach Carriage|QID|24438|Z|Gilneas_terrain2|M|28.84,54.18|N|Get out of the manor, go down the road and get on a Stagecoach Carriage. Click off while riding.|CC|26.40,46.97|
 
 T Exodus|QID|24438|Z|Gilneas_terrain2|M|51.86,80.52|N|To Prince Liam Greymane.|
 A Stranded at the Marsh|QID|24468|Z|Gilneas_terrain2|M|51.86,80.52|N|From Prince Liam Greymane.|
 C Stranded at the Marsh|QID|24468|Z|Gilneas_terrain2|M|53.24,71.99|N|Kill Swamp Crocolisks until you've rescued 5 Crash Survivors.|
 T Stranded at the Marsh|QID|24468|Z|Gilneas_terrain2|M|51.86,80.52|N|To Prince Liam Greymane.|
 A Introductions Are in Order|QID|24472|Z|Gilneas_terrain2|M|51.86,80.52|N|From Prince Liam Greymane.|
-C Introductions Are in Order|QID|24472|Z|Gilneas_terrain2|M|48.21,85.54;46.75,83.40|N|Go to the top of the hill and loot Koroth's Baner. Kill 4 Ogre Minions on the way.|
+C Introductions Are in Order|QID|24472|Z|Gilneas_terrain2|M|48.21,85.54;46.75,83.40|N|Go to the top of the hill and loot Koroth's Banner. Kill 4 Ogre Minions on the way.|
 T Introductions Are in Order|QID|24472|Z|Gilneas_terrain2|M|51.76,80.23|N|To Prince Liam Greymane.|
 L Level 9|QID|24483|LVL|9|N|You should be around level 9 by this point.|
 A Stormglen|QID|24483|Z|Gilneas_terrain2|M|51.81,80.17|N|From Prince Liam Greymane.|
@@ -349,7 +391,7 @@ T Stormglen|QID|24483|Z|Gilneas_terrain2|M|59.84,91.80|N|To Gwen Armstead.|
 A Pest Control|QID|24484|Z|Gilneas_terrain2|M|59.84,91.80|N|From Gwen Armstead.|
 A Pieces of the Past|QID|24495|Z|Gilneas_terrain2|M|60.23,91.75|N|From Lorna Crowley.|
 C Pest Control|QID|24484|Z|Gilneas_terrain2|M|63.74,91.01|N|Kill 6 Vilebrood Skitterrers on the way.|S|
-C Pieces of the Past|QID|24495|Z|Gilneas_terrain2|M|63.76,91.66|N|Loot 6 Old Journal Pages.|
+C Pieces of the Past|QID|24495|Z|Gilneas_terrain2|M|63.76,91.66|N|Loot 6 Old Journal Pages.|NC|
 C Pest Control|QID|24484|Z|Gilneas_terrain2|M|63.74,91.01|N|Kill 6 Vilebrood Skitterrers.|US|
 T Pest Control|QID|24484|Z|Gilneas_terrain2|M|59.84,91.70|N|To Gwen Armstead.|
 A Queen-Sized Troubles|QID|24501|Z|Gilneas_terrain2|M|59.84,91.70|N|From Gwen Armstead.|
@@ -378,7 +420,7 @@ L Level 10|QID|24628|LVL|10|N|You should be around level 10 by this point.|
 C Take Back What's Ours|QID|24646|Z|Gilneas_terrain2|M|58.96,75.25;57.55,75.64|N|Go west to the Woods'End Cabin and use the Horn of Tal'doren. While the rangers are busy fighting the worgens, run into the house and loot the Mysterious Artifact.|U|50134|
 T Take Back What's Ours|QID|24646|Z|Gilneas_terrain2|M|68.87,73.23|N|To Lord Darius Crowley.|
 A Neither Human Nor Beast|QID|24593|Z|Gilneas_terrain2|M|68.70,73.24|N|From Lord Darius Crowley.|
-C Neither Human Nor Beast|QID|24593|Z|Gilneas_terrain2|M|69.16,73.46|N|Click on the 3 wells behind Lord Darius Crowley.|
+C Neither Human Nor Beast|QID|24593|Z|Gilneas_terrain2|M|69.16,73.46|N|Click on the 3 wells behind Lord Darius Crowley.|NC|
 T Neither Human Nor Beast|QID|24593|Z|Gilneas_terrain2|M|68.77,73.28|N|To Lord Darius Crowley.|
 A Return to Stormglen|QID|24673|Z|Gilneas_terrain2|M|68.77,73.28|N|From Lord Darius Crowley.|
 T Return to Stormglen|QID|24673|Z|Gilneas_terrain2|M|59.84,91.76|N|To Gwen Armstead.|
@@ -390,12 +432,12 @@ N Betrayal at Tempest's Reach|QID|24592|Z|Gilneas_terrain2|M|79.09,72.63;82.53,6
 C Betrayal at Tempest's Reach|QID|24592|Z|Gilneas_terrain2|M|82.07,66.63;80.34,63.97;77.97,66.20|N|Drink your Krennan's Potion of Stealth again, get in the village, follow the road to the top of the hill and kill Lord Walden, preferably inside the house.|U|50218|
 T Betrayal at Tempest's Reach|QID|24592|Z|Gilneas_terrain2|M|78.27,72.01|N|To King Genn Greymane.|U|50218|
 A Flank the Forsaken|QID|24677|Z|Gilneas_terrain2|M|78.27,72.01|N|From King Genn Greymane.|
-N Flank the Forsaken|QID|24677|Z|Gilneas_terrain2|M|78.36,71.80|N|Speak to Lord Hewell to get a horse which will take you to Livery Outpost.|
+R Livery Outpost|QID|24677|Z|Gilneas_terrain2|M|78.36,71.80|N|Speak to Lord Hewell to get a horse which will take you to Livery Outpost.|
 T Flank the Forsaken|QID|24677|Z|Gilneas_terrain2|M|70.88,39.85|N|To Lorna Crowley.|
 A Last Meal|QID|24675|Z|Gilneas_terrain2|M|70.76,39.82|N|From Magda Whitewall.|
 A Slaves to No One|QID|24674|Z|Gilneas_terrain2|M|70.65,39.70|N|From Marcus.|
 A Liberation Day|QID|24575|Z|Gilneas_terrain2|M|70.88,39.85|N|From Lorna Crowley.|
-C Last Meal|QID|24675|Z|Gilneas_terrain2|M|78.11,43.57|N|Kill Brown Stags until you get 10 Slide of Stag Meats.|
+C Last Meal|QID|24675|Z|Gilneas_terrain2|M|78.11,43.57|N|Kill Brown Stags until you get 10 Side of Stag Meats.|
 C Liberation Day|QID|24575|Z|Gilneas_terrain2|M|76.86,29.47|N|Kill Forsaken Slavedrivers, loot their keys and free Enslaved Gilneans while fighting your way through the mine.|S|
 C Slaves to No One|QID|24674|Z|Gilneas_terrain2|M|76.39,31.27;80.03,25.72;80.30,32.28|N|Brothogg is at the bottom of the mine.|
 C Liberation Day|QID|24575|Z|Gilneas_terrain2|M|76.86,29.47|N|Free 5 Enslaved Gilneans.|US|
