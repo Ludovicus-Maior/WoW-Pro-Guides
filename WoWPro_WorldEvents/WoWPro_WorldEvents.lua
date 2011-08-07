@@ -34,15 +34,7 @@ function WoWPro.WorldEvents:OnEnable()
 		WoWPro.WorldEvents.FramesLoaded = true
 	end
 	
--- Creating empty user settings if none exist --
-	WoWPro_WorldEventsDB = WoWPro_WorldEventsDB or {}
-	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
-	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
-		if WoWProDB.char.lastWorldEventsguide and not WoWProDB.char.currentguide then
-		WoWPro:LoadGuide(WoWProDB.char.lastWorldEventsguide)
-	end
-	
-	WoWPro.Dailies.FirstMapCall = true
+	WoWPro.WorldEvents.FirstMapCall = true
 	
 	-- Server query for completed quests --
 	QueryQuestsCompleted()
