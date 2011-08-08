@@ -1,16 +1,3 @@
--- URL: http://wow-pro.com/wiki/profession_inscription
--- Date: 2011-07-13 22:46
--- Who: Ludovicus Maior
--- Log: Sync to GitHub
-
--- URL: http://wow-pro.com/node/3411/revisions/24644/view
--- Date: 2011-06-30 06:06
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3411/revisions/24636/view
--- Date: 2011-06-30 05:56
--- Who: Crackerhead22
-
 WoWPro.Profession:RegisterGuide('TwiInscription', 'Inscription', 'Inscription', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[
 
@@ -583,6 +570,11 @@ N Notched Jawbone: 524 of 525|QID|907730565|N|95 Strength and 143 Stamina\n\nMAT
 N Silver Inload Leaf: 524 of 525|QID|907730566|N|95 Agility and 143 Staminia.\n\nMATERIALS\n\n12 Inferno Ink (12/12 Total)\n36 Volatile Life (36/36 Total)\n12 Volatile Air\n1 Silver Charm Braclet (1/2 Total)|P|Inscription;524;525|T|Silver Inload Leaf;1;1|S|
 N Tattooed Eyeball: 524 of 525|QID|907730567|N|95 Intellect and 143 Stamina\n\nMATERIALS\n\n12 Inferno Ink (12/12 Total)\n36 Volatile Life (36/36 Total)\n12 Volatile Water\n1 Preserved Ogre Eye (1/2 Total)|P|Inscription;524;525|T|Tattooed Eyeball;1;1|
 
+ 
 N That completes Inscription.
 ]]
+
+
+
 end)
+

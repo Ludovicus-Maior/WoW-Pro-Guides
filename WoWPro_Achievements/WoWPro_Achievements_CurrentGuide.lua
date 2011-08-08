@@ -1,25 +1,25 @@
 --------------------------------------------
---      WoWPro_Profession_CurrentGuide      --
+--      WoWPro_Achievements_CurrentGuide      --
 --------------------------------------------
 
 local L = WoWPro_Locale
 local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 12, 25, 8, 16
 local offset, rows, shownrows = 0, {}, NUMROWS
-WoWPro.Profession.CreateCurrentGuideTitle = true
+WoWPro.Achievements.CreateCurrentGuideTitle = true
 local title, subtitle
 
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 frame.name = L["Current Guide"]
-frame.parent = "WoW-Pro Profession"
+frame.parent = "WoW-Pro Achievements"
 frame:Hide()
 
 -- Frame Contents --
 frame:SetScript("OnShow", function()
 
-	if WoWPro.Profession.CreateCurrentGuideTitle then
+	if WoWPro.Achievements.CreateCurrentGuideTitle then
 		title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
 		title:SetPoint("TOPLEFT", 16, -16)
-		title:SetText("WoW-Pro Profession - "..L["Current Guide"])
+		title:SetText("WoW-Pro Achievements - "..L["Current Guide"])
 
 		subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
 		subtitle:SetHeight(32)
@@ -29,7 +29,7 @@ frame:SetScript("OnShow", function()
 		subtitle:SetJustifyH("LEFT")
 		subtitle:SetJustifyV("TOP")
 		
-		WoWPro.Profession.CreateCurrentGuideTitle = false
+		WoWPro.Achievements.CreateCurrentGuideTitle = false
 	end
 	
 	if not WoWProDB.char.currentguide then 
@@ -66,7 +66,7 @@ frame:SetScript("OnShow", function()
 		rows[i] = row
 	end
 	
-	function WoWPro.Profession.UpdateCurrentGuidePanel()
+	function WoWPro.Achievements.UpdateCurrentGuidePanel()
 		if not frame:IsVisible() then return end
 		if not WoWProDB.char.currentguide then return end
 		local GID = WoWProDB.char.currentguide
@@ -103,7 +103,6 @@ frame:SetScript("OnShow", function()
 			if WoWPro.rank[index] then
 				step = step.." (rank "..WoWPro.rank[index]..")"
 			end
-			
 			-- Setting sticky texture --
 			if WoWPro.sticky[index] then 
 				step = step.." (sticky)"
@@ -123,7 +122,7 @@ frame:SetScript("OnShow", function()
 			row.step:SetText(step)
 			
 			local action = WoWPro.action[index]
-			row.action:SetTexture(WoWPro.Profession.actiontypes[action])
+			row.action:SetTexture(WoWPro.Achievements.actiontypes[action])
 			if WoWPro.noncombat[index] then
 				row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
 			end
@@ -149,7 +148,7 @@ frame:SetScript("OnShow", function()
 			row.check:SetScript("OnClick", function(self, button, down)
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 				if button == "LeftButton" and row.check:GetChecked() then
-					local steplist = WoWPro.Profession:SkipStep(row.index)
+					local steplist = WoWPro.Achievements:SkipStep(row.index)
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 					if steplist ~= "" then 
 						WoWPro:SkipStepDialogCall(row.index, steplist)
@@ -157,9 +156,9 @@ frame:SetScript("OnShow", function()
 				elseif button == "RightButton" and row.check:GetChecked() then
 					completion[row.index] = true
 				elseif not row.check:GetChecked() then
-					WoWPro.Profession:UnSkipStep(row.index)
+					WoWPro.Achievements:UnSkipStep(row.index)
 				end
-				WoWPro.Profession.UpdateCurrentGuidePanel()
+				WoWPro.Achievements.UpdateCurrentGuidePanel()
 				WoWPro:UpdateGuide()
 				WoWPro:MapPoint()
 			end)
@@ -175,22 +174,22 @@ frame:SetScript("OnShow", function()
 	local f = scrollbar:GetScript("OnValueChanged")
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		offset = math.floor(value)
-		WoWPro.Profession.UpdateCurrentGuidePanel()
+		WoWPro.Achievements.UpdateCurrentGuidePanel()
 		return f(self, value, ...)
 	end)
 
 	frame:EnableMouseWheel()
 	
-	WoWPro.Profession.UpdateCurrentGuidePanel()
+	WoWPro.Achievements.UpdateCurrentGuidePanel()
 	
 	scrollbar:SetValue(WoWPro.rows[1].index - 3)
 
 	frame:SetScript("OnShow", function() 
-		WoWPro.Profession.UpdateCurrentGuidePanel()
+		WoWPro.Achievements.UpdateCurrentGuidePanel()
 		scrollbar:SetValue(WoWPro.rows[1].index - 3) 
 	end)
 end )
 
 
 
-WoWPro_Profession_CurrentGuide = frame
+WoWPro_Achievements_CurrentGuide = frame

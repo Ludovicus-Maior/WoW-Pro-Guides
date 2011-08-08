@@ -1,70 +1,69 @@
-
 -------------------------------
---      WoWPro_WorldEvents      --
+--      WoWPro_Achievements      --
 -------------------------------
 
-WoWPro.WorldEvents = WoWPro:NewModule("WorldEvents")
+WoWPro.Achievements = WoWPro:NewModule("Achievements")
 local myUFG = UnitFactionGroup("player")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
-function WoWPro.WorldEvents:OnInitialize()
-	if WoWProCharDB.AutoHideWorldEventsInsideInstances == nil then
-	    WoWProCharDB.AutoHideWorldEventsInsideInstances = true
+function WoWPro.Achievements:OnInitialize()
+	if WoWProCharDB.AutoHideAchievementsInsideInstances == nil then
+	    WoWProCharDB.AutoHideAchievementsInsideInstances = true
 	end
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
-function WoWPro.WorldEvents:OnEnable()
-	WoWPro:dbp("|cff33ff33Enabled|r: WorldEvents Module")
+function WoWPro.Achievements:OnEnable()
+	WoWPro:dbp("|cff33ff33Enabled|r: Achievements Module")
 	
-	-- WorldEvents Tag Setup --
+	-- Achievements Tag Setup --
 	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat"})
 	
 	-- Event Registration --
-	WoWPro.WorldEvents.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
+	WoWPro.Achievements.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT"
 	}
-	WoWPro:RegisterEvents(WoWPro.WorldEvents.Events)
+	WoWPro:RegisterEvents(WoWPro.Achievements.Events)
 	
 	--Loading Frames--
-	if not WoWPro.WorldEvents.FramesLoaded then --First time the addon has been enabled since UI Load
-		WoWPro.WorldEvents:CreateConfig()
-		WoWPro.WorldEvents.CreateGuideList()
-		WoWPro.WorldEvents.FramesLoaded = true
+	if not WoWPro.Achievements.FramesLoaded then --First time the addon has been enabled since UI Load
+		WoWPro.Achievements:CreateConfig()
+		WoWPro.Achievements.CreateGuideList()
+		WoWPro.Achievements.FramesLoaded = true
 	end
 	
 -- Creating empty user settings if none exist --
-	WoWPro_WorldEventsDB = WoWPro_WorldEventsDB or {}
+	WoWPro_AchievementsDB = WoWPro_AchievementsDB or {}
 	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
-		if WoWProDB.char.lastWorldEventsguide and not WoWProDB.char.currentguide then
-		WoWPro:LoadGuide(WoWProDB.char.lastWorldEventsguide)
+		if WoWProDB.char.lastAchievementsguide and not WoWProDB.char.currentguide then
+		WoWPro:LoadGuide(WoWProDB.char.lastAchievementsguide)
 	end
 	
-	WoWPro.WorldEvents.FirstMapCall = true
+	WoWPro.Dailies.FirstMapCall = true
 	
 	-- Server query for completed quests --
 	QueryQuestsCompleted()
 end
 
 -- Called when the module is disabled --
-function WoWPro.WorldEvents:OnDisable()
-	-- Unregistering WorldEvents Module Events --
-	WoWPro:UnregisterEvents(WoWPro.WorldEvents.Events)
+function WoWPro.Achievements:OnDisable()
+	-- Unregistering Achievements Module Events --
+	WoWPro:UnregisterEvents(WoWPro.Achievements.Events)
 	
-	--[[ If the current guide is a WorldEvents guide, removes the map point, stores the guide's ID to be resumed later, 
+	--[[ If the current guide is a Achievements guide, removes the map point, stores the guide's ID to be resumed later, 
 	sets the current guide to nil, and loads the nil guide. ]]
-	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "WorldEvents" then
+	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Achievements" then
 		WoWPro:RemoveMapPoint()
-		WoWProDB.char.lastWorldEventsguide = WoWProDB.char.currentguide
+		WoWProDB.char.lastAchievementsguide = WoWProDB.char.currentguide
 		WoWProDB.char.currentguide = nil
 		WoWPro:LoadGuide()
 	end
 end
 
 -- Guide Registration Function --
-function WoWPro.WorldEvents:RegisterGuide(GIDvalue, zonename, guidename, categoryname, authorname, factionname, sequencevalue)
+function WoWPro.Achievements:RegisterGuide(GIDvalue, zonename, guidename, categoryname, subname, authorname, factionname, sequencevalue)
 	
 --[[ Purpose: 
 		Called by guides to register them to the WoWPro.Guide table. All members
@@ -75,28 +74,19 @@ function WoWPro.WorldEvents:RegisterGuide(GIDvalue, zonename, guidename, categor
 		-- If the guide is not of the correct faction, don't register it
 		
 	WoWPro:dbp("Guide Registered: "..GIDvalue)
-	if factionname == "Neutral" then
-	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
-	    local  AllianceGUID, HordeGID = string.split("|",nextGIDvalue)
-	    if myUFG == "Alliance" then
-	        nextGIDvalue = AllianceGUID
-	    else
-	        nextGIDvalue = HordeGID
-	    end
-        WoWPro:dbp("Neutral Guide "..GIDvalue.." for "..myUFG.." chose "..nextGIDvalue)
-	end
 	WoWPro.Guides[GIDvalue] = {
-		guidetype = "WorldEvents",
+		guidetype = "Achievements",
 		zone = zonename,
 		name = guidename,
 		category = categoryname,
+		sub = subname,
 		author = authorname,
 		sequence = sequencevalue,
 		faction = factionname
 	}
 end
 
-function WoWPro.WorldEvents:LoadAllGuides()
+function WoWPro.Achievements:LoadAllGuides()
     WoWPro:Print("Test Load of All Guides")
     local aCount=0
     local hCount=0
@@ -104,7 +94,7 @@ function WoWPro.WorldEvents:LoadAllGuides()
     local nextGID
     local zed
 	for guidID,guide in pairs(WoWPro.Guides) do
-	    if WoWPro.Guides[guidID].guidetype == "WorldEvents" then
+	    if WoWPro.Guides[guidID].guidetype == "Achievements" then
             WoWPro:Print("Test Loading " .. guidID)
 	        WoWPro:LoadGuide(guidID)
 	        nextGID = WoWPro.Guides[guidID].nextGID
@@ -121,5 +111,4 @@ function WoWPro.WorldEvents:LoadAllGuides()
 	    end
 	end
         WoWPro:Print(string.format("Done! %d A, %d N, %d H guides present", aCount, nCount, hCount))
-end	    
-
+end
