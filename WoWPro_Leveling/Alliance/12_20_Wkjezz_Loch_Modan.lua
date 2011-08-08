@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2011-08-07 23:49
+-- Who: Ludovicus Maior
+-- Log: Corrected coords on [Stormpike's Orders]
+
+-- URL: http://wow-pro.com/node/3216/revisions/24590/view
 -- Date: 2011-06-25 00:57
 -- Who: Crackerhead22
 -- Log: ! Missing A step for step T qid 13636 - Added in accept step.
@@ -133,8 +138,8 @@ A Explorers' League Document (1 of 6)|QID|13656|M|36.76,61.25|N|From the Stolen 
 T Explorers' League Document (1 of 6)|QID|13656|M|37.18,47.82|N|To Torren Squarejaw.|
 T WANTED: The Dark Iron Spy|QID|13648|M|34.60,44.50|N|To Magistrate Bluntnose.|
 
-R Algaz Station|QID|13636|M|35.09,46.41|N|Get on the road, then head north to Algaz Station.|
-T Stormpike's Orders|QID|13636|M|35.09,46.41|N|To Mountaineer Stormpike.|
+R Algaz Station|QID|13636|M|32.20,49.48|N|Get on the road, then head north to Algaz Station.|
+T Stormpike's Orders|QID|13636|M|25.50,17.69|N|To Mountaineer Stormpike.|
 A A Tiny, Clever Commander|QID|26843|M|25.50,17.69|N|From Mountaineer Stormpike.|
 C A Tiny, Clever Commander|QID|26843|M|25.81,31.24|N|Head into the cave and kill "Commander" Nazrim.|
 T A Tiny, Clever Commander|QID|26843|M|25.47,18.02|N|To Mountaineer Stormpike.|

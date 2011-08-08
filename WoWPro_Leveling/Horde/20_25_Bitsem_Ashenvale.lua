@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2011-08-07 23:53
+-- Who: Ludovicus Maior
+-- Log: Fixes for [Gorat's Vengeance], [Ashenvale Outrunners], [Ursangous's Paw], and [The Befouled Element].
+
+-- URL: http://wow-pro.com/node/3228/revisions/24480/view
 -- Date: 2011-06-01 00:55
 -- Who: Crackerhead22
 -- Log: Removed duplicate line "A Bad News Bear-er|QID|13848|RANK|1|M|53.23,42.54|Z|". Removed "Z|Blackfathom Deeps|" as it was unneeded, and fixed cords for the "C The Essence of Aku'Mai|" step.
@@ -58,7 +63,7 @@ T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfm
 
 A Gorat's Vengeance|QID|13621|RANK|1|M|42.43,15.75|Z|Northern Barrens|N|From Dinah Halfmoon.|
 C Gorat's Vengeance|QID|13621|U|45023|M|64.21,84.51;65.66,82.21|N|Use Gorat's Imbued Blood and follow him to kill Captain Elendilad.|
-T Gorat's Vengeance|QID|13621|M|64.47,85.12;41.79,13.12;42.74,14.91|Z|Northern Barrens|N|To Kadrak.|
+T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|Northern Barrens|N|To Kadrak.|
 
 A Got Wood?|QID|13628|RANK|1|M|42.31,15.20|Z|Northern Barrens|N|From Truun.|
 C Got Wood?|QID|13628|M|42.58,15.19;42.81,15.97|Z|Northern Barrens|N|Speak to Kadrak when you're ready to leave. Then hop on Brutusk (the huge kodo.).|
@@ -83,8 +88,8 @@ T To the Rescue!|QID|13712|M|73.64,62.22|N|To Kadrak.|N|After breaking the seige
 
 A Blood of the Weak|QID|13803|PRE|13712|RANK|1|M|73.64,62.22|N|From Kadrak.|
 A Pierce Their Heart!|QID|13805|PRE|13803|RANK|1|M|72.18,57.62|N|From Durak.|
-A Ashenvale Outrunners|QID|6503|RANK|1|M|73.55,60.92|N|From Kuray'bin.|
 A Destroy the Legion|QID|26448|RANK|1|M|73.22,60.09|N|From Valusha.|
+A Ashenvale Outrunners|QID|6503|RANK|1|M|73.55,60.92|N|From Kuray'bin.|
 
 T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.18,57.62|N|To Durak.|
 A Playing With Felfire|QID|13730|RANK|1|M|72.68,56.76;73.18,56.99;72.92,58.08;72.55,58.04;73.35,62.03|N|From Splintertree Demolisher.|
@@ -326,12 +331,12 @@ C King of the Foulweald|QID|6621|U|16972|M|56.37,63.49|N|Use Senani's Banner on 
 
 H Silverwind Refuge|QID|6621|N|Hearth to Silverwind Refuge.|
 
-T Ursangous's Paw|QID|23|M|49.8,65.2|N|To Senani Thunderheart.|
+T Ursangous's Paw|QID|23|M|50.12,67.52|N|To Captain Tarkan.|
 T King of the Foulweald|QID|6621|M|49.78,65.07|N|To Senani Thunderheart.|
 
 F Splintertree Post|QID|1918|N|Fly to Splintertree Post.|
 
-T The Befouled Element|QID|1918|M|74.15,60.77
+T The Befouled Element|QID|1918|M|74.15,60.77|N|To Mastok Wrilehiss.|
 A Je'neu of the Earthen Ring|QID|824|PRE|1918|RANK|2|M|74.15,60.77|N|From Mastok Wrilehiss. This quest is currently turned in inside of the Blackfathom Deeps instance.|
 
 F Hellscream's Watch|QID|24|N|Fly to Hellscream's Watch
