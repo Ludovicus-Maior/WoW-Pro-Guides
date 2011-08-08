@@ -1,6 +1,6 @@
 ## Interface: 40200
-## Title: WoW-Pro
-## Notes: Guides created by the WoW-Pro Community
+## Title: |cffFF9900WoW-|r|cff46921APro|r
+## Notes: Guides created by the WoW-Pro Community.  |cffFF0000You will need either TomTom or Carbonite installed for full functionality.|r
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB

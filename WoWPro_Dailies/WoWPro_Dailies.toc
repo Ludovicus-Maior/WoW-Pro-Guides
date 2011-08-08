@@ -1,5 +1,5 @@
 ## Interface: 40200
-## Title: WoW-Pro Dailies
+## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro

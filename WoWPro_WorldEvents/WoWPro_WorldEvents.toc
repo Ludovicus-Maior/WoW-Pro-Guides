@@ -1,5 +1,5 @@
 ## Interface: 40200
-## Title: WoW-Pro WorldEvents
+## Title: |cffFF9900WoW-|r|cff46921APro|r WorldEvents
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
