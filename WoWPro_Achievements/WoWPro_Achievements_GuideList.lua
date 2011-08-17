@@ -153,7 +153,7 @@ function WoWPro.Achievements.CreateGuideList()
 		
 			name:SetText(L["Name"])
 			category:SetText(L["Type"])
-			sub:SetText(L["Sub Cat"])
+			sub:SetText(L["Sub"])
 			author:SetText(L["Author"])
 			progress:SetText(L["Progress"])
 			
@@ -176,51 +176,51 @@ function WoWPro.Achievements.CreateGuideList()
 		function authorSort()
 			if sorttype == "AuthorAsc" then
 				table.sort(guides, function(a,b) return a.author > b.author end)
-				WoWPro.Leveling.UpdateGuideList()
+				WoWPro.Achievements.UpdateGuideList()
 				sorttype = "AuthorDesc"
 			else
 				table.sort(guides, function(a,b) return a.author < b.author end)
-				WoWPro.Leveling.UpdateGuideList()
+				WoWPro.Achievements.UpdateGuideList()
 				sorttype = "AuthorAsc"
 			end
 		end
 		function nameSort()
 			if sorttype == "NameAsc" then
 				table.sort(guides, function(a,b) return a.name > b.name end)
-				WoWPro.Leveling.UpdateGuideList()
+				WoWPro.Achievements.UpdateGuideList()
 				sorttype = "NameDesc"
 			else
 				table.sort(guides, function(a,b) return a.name < b.name end)
-				WoWPro.Leveling.UpdateGuideList()
+				WoWPro.Achievements.UpdateGuideList()
 				sorttype = "NameAsc"
 			end
 		end
 		function categorySort()
 			if sorttype == "CategoryAsc" then
 				table.sort(guides, function(a,b) return a.category > b.category end)
-				WoWPro.Leveling.UpdateGuideList()
+				WoWPro.Achievements.UpdateGuideList()
 				sorttype = "CategoryDesc"
 			else
 				table.sort(guides, function(a,b) return a.category < b.category end)
-				WoWPro.Leveling.UpdateGuideList()
+				WoWPro.Achievements.UpdateGuideList()
 				sorttype = "CategoryAsc"
 			end
 		end
 		function subSort()
 			if sorttype == "SubAsc" then
 				table.sort(guides, function(a,b) return a.sub > b.sub end)
-				WoWPro.Leveling.UpdateGuideList()
+				WoWPro.Achievements.UpdateGuideList()
 				sorttype = "SubDesc"
 			else
 				table.sort(guides, function(a,b) return a.sub < b.sub end)
-				WoWPro.Leveling.UpdateGuideList()
-				sorttype = "CategoryAsc"
+				WoWPro.Achievements.UpdateGuideList()
+				sorttype = "SubAsc"
 			end
 		end
 		titlerow.author:SetScript("OnClick", authorSort)
 		titlerow.name:SetScript("OnClick", nameSort)
 		titlerow.category:SetScript("OnClick", categorySort)
-		titlerow.sub:SetScript("OnClick", SubSort)
+		titlerow.sub:SetScript("OnClick", subSort)
 		
 	end
 
