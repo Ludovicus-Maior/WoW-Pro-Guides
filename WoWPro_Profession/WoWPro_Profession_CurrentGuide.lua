@@ -81,9 +81,9 @@ frame:SetScript("OnShow", function()
 		for i,row in ipairs(rows) do
 			row.index = index
 			
-			if completion[index] or WoWProCharDB.Guide[GID].skipped[index] or WoWPro_ProfessionDB.skippedQIDs[WoWPro.QID[index]] then
+			if completion[index] or WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
 				row.check:SetChecked(true)
-				if WoWProCharDB.Guide[GID].skipped[index] or WoWPro_ProfessionDB.skippedQIDs[WoWPro.QID[index]] then
+				if WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 				else
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
@@ -160,7 +160,7 @@ frame:SetScript("OnShow", function()
 					WoWPro.Profession:UnSkipStep(row.index)
 				end
 				WoWPro.Profession.UpdateCurrentGuidePanel()
---				WoWPro:UpdateGuide()
+				WoWPro:UpdateGuide()
 				WoWPro:MapPoint()
 			end)
 				

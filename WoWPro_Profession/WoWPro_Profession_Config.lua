@@ -10,7 +10,7 @@ local dialog = LibStub("AceConfigDialog-3.0")
 local function createBlizzOptions()
 
 	config:RegisterOptionsTable("WoWPro-Profession-Bliz", {
-		name = "WoW-Pro Profession",
+		name = "WoW-Pro Professions",
 		type = "group",
 		args = {
 			help = {
@@ -34,23 +34,34 @@ local function createBlizzOptions()
 						if WoWPro.Profession:IsEnabled() then WoWPro.Profession:Disable() else WoWPro.Profession:Enable() end
 					end
 			}, 
-			blank2 = {
+			hide = {
 				order = 3,
+				type = "toggle",
+				name = L["Enable Hiding"],
+				desc = L["Enables/Disables hiding the Profession module when inside an instance (Dungeon, Arena ...)."],
+				width = "full",
+				get = function(info) return WoWProCharDB.AutoHideProfessionInsideInstances ; end,
+				set = function(info,val)  
+						if WoWProCharDB.AutoHideProfessionInsideInstances == true then WoWProCharDB.AutoHideProfessionInsideInstances=false; else WoWProCharDB.AutoHideProfessionInsideInstances=true; end
+					end
+			}, 
+			blank2 = {
+				order = 4,
 				type = "description",
 				name = " ",
 			},    
 			helpheader = {
-				order = 4,
+				order = 5,
 				type = "header",
 				name = "WoW-Pro Profession Help",
 			},
 			blank3 = {
-				order = 5,
+				order = 6,
 				type = "description",
 				name = " ",
 			},  
 			accept = {
-				order = 6,
+				order = 7,
 				type = "description",
 				fontSize = "medium",
 				name = "Accept Quest",
@@ -59,7 +70,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			complete = {
-				order = 7,
+				order = 8,
 				type = "description",
 				fontSize = "medium",
 				name = "Complete Quest",
@@ -68,7 +79,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			turnin = {
-				order = 8,
+				order = 9,
 				type = "description",
 				fontSize = "medium",
 				name = "Turn In Quest",
@@ -77,7 +88,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			kill = {
-				order = 9,
+				order = 10,
 				type = "description",
 				fontSize = "medium",
 				name = "Kill",
@@ -85,17 +96,44 @@ local function createBlizzOptions()
 				imageWidth = 15,
 				imageHeight = 15
 			},   
-			fly = {
-				order = 10,
+			runto = {
+				order = 11,
 				type = "description",
 				fontSize = "medium",
-				name = "Run/Fly To",
+				name = "Run To",
+				image = "Interface\\Icons\\Ability_Tracking",
+				imageWidth = 15,
+				imageHeight = 15
+			},   
+			hearth = {
+				order = 11,
+				type = "description",
+				fontSize = "medium",
+				name = "Use Hearthstone",
+				image = "Interface\\Icons\\INV_Misc_Rune_01",
+				imageWidth = 15,
+				imageHeight = 15
+			},   
+			sethearth = {
+				order = 12,
+				type = "description",
+				fontSize = "medium",
+				name = "Set Hearthstone",
+				image = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
+				imageWidth = 15,
+				imageHeight = 15
+			},   
+			fly = {
+				order = 13,
+				type = "description",
+				fontSize = "medium",
+				name = "Fly To",
 				image = "Interface\\Icons\\Ability_Druid_FlightForm",
 				imageWidth = 15,
 				imageHeight = 15
 			},   
 			note = {
-				order = 11,
+				order = 14,
 				type = "description",
 				fontSize = "medium",
 				name = "Note",
@@ -104,7 +142,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			buy = {
-				order = 12,
+				order = 15,
 				type = "description",
 				fontSize = "medium",
 				name = "Buy",
@@ -113,7 +151,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},   
 			boat = {
-				order = 13,
+				order = 16,
 				type = "description",
 				fontSize = "medium",
 				name = "Go by Boat or Zeppelin",
@@ -122,7 +160,7 @@ local function createBlizzOptions()
 				imageHeight = 15
 			},    
 			use = {
-				order = 14,
+				order = 17,
 				type = "description",
 				fontSize = "medium",
 				name = "Use Item",
@@ -130,6 +168,15 @@ local function createBlizzOptions()
 				imageWidth = 15,
 				imageHeight = 15
 			},    
+			repair = {
+				order = 18,
+				type = "description",
+				fontSize = "medium",
+				name = "Repair/Restock",
+				image = "Interface\\Icons\\Ability_Repair",
+				imageWidth = 15,
+				imageHeight = 15
+			}, 
 			
 		},
 	})
@@ -141,5 +188,10 @@ end
 
 function WoWPro.Profession:CreateConfig()
 	blizzPanel = createBlizzOptions()
---	InterfaceOptions_AddCategory(WoWPro_Profession_CurrentGuide)
+	
+	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
+	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Profession", isTitle = true} )
+	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
+			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Profession") 
+		end} )
 end

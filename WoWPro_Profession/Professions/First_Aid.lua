@@ -1,11 +1,3 @@
--- URL: http://wow-pro.com/wiki/profession_first_aid
--- Date: 2011-06-30 06:05
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3410/revisions/24635/view
--- Date: 2011-06-30 05:56
--- Who: Crackerhead22
-
 WoWPro.Profession:RegisterGuide('TwiFirstAid', 'First Aid', 'First Aid', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[
 
@@ -543,4 +535,8 @@ N Heavy Embersilk Bandage: 524 of 525|QID|901290530|N|\nMATERIALS\n\n2 Embersilk
 
 N That completes First Aid.
 ]]
+
+
+
 end)
+

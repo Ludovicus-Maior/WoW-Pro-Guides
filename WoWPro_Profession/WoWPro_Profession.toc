@@ -1,9 +1,8 @@
 ## Interface: 40200
-## Title: |cffFF9900WoW-|r|cff46921APro|r Profession
-## Notes: Profession guides guides created by the WoW-Pro Community
+## Title: |cffFF9900WoW-|r|cff46921APro|r Professions
+## Notes: Professions guides guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## SavedVariablesPerCharacter: WoWPro_ProfessionDB
 ## Version: 2.2.20
 
 ## X-Category: Quest
@@ -14,7 +13,4 @@ Professions\Guides.xml
 
 WoWPro_Profession_Parser.lua
 WoWPro_Profession_Config.lua
-WoWPro_Profession_CurrentGuide.lua
 WoWPro_Profession_GuideList.lua
-
-
