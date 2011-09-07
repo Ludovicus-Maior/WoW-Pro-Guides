@@ -1,3 +1,16 @@
+-- URL: http://wow-pro.com/wiki/profession_leatherworking
+-- Date: 2011-07-13 22:47
+-- Who: Ludovicus Maior
+-- Log: Sync to GitHub
+
+-- URL: http://wow-pro.com/node/3413/revisions/24639/view
+-- Date: 2011-06-30 06:04
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3413/revisions/24638/view
+-- Date: 2011-06-30 06:03
+-- Who: Crackerhead22
+
 WoWPro.Profession:RegisterGuide('TwiLeather', 'Leatherworking', 'Leatherworking', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[
 
@@ -543,11 +556,6 @@ N Bloodied Leather Belt: 522 of 523|QID|901640538|N|\nMATERIALS\n\n10 Heavy Sava
 N Bloodied Leather Belt: 523 of 524|QID|901640539|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/10 Total)\n2 Volatile Water (2/2 Total)|P|Leatherworking;523;524|T|Bloodied Leather Belt;1;2|
 N Bloodied Leather Belt: 524 of 525|QID|901640540|N|\nMATERIALS\n\n10 Heavy Savage Leather (10/10 Total)\n2 Volatile Water (2/2 Total)|P|Leatherworking;524;525|T|Bloodied Leather Belt;1;1|
 
-
 N That completes Leatherworking.
 ]]
-
-
-
 end)
-

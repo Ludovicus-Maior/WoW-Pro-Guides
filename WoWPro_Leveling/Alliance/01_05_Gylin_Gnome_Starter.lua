@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-08-24 00:49
+-- Who: Jiyambi
+-- Log: Took out two location based completion steps that weren't auto-completing, rolled them into other steps.
+
+-- URL: http://wow-pro.com/node/3200/revisions/24626/view
 -- Date: 2011-06-28 20:52
 -- Who: Fluclo
 -- Log: Minor tweaks to final couple of quests

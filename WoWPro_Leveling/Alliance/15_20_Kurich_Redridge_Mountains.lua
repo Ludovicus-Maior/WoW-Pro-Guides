@@ -1,4 +1,19 @@
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2011-08-19 12:59
+-- Who: Fluclo
+-- Log: Flagging Saving Foreman Oslow as non-combat
+
+-- URL: http://wow-pro.com/node/3215/revisions/24738/view
+-- Date: 2011-08-19 12:48
+-- Who: Fluclo
+-- Log: Tagged Like a Fart in the Wind as a Non-Combat, also repositioned sticky (should collect before finishing the gnolls)
+
+-- URL: http://wow-pro.com/node/3215/revisions/24736/view
+-- Date: 2011-08-16 21:41
+-- Who: Fluclo
+-- Log: Added Level info for guide
+
+-- URL: http://wow-pro.com/node/3215/revisions/24444/view
 -- Date: 2011-05-28 21:08
 -- Who: Crackerhead22
 -- Log: Added some notes, removed unneeded zone tags, fixed one or two cords.
@@ -29,11 +44,14 @@
 WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", "TwiDus2025", "Alliance", function()
 return [[
 
-F Eastvale Logging Camp|QID|26365|M|56.16,51.64|Z|Westfall|N|Fly to Eastvale Logging Camp.|
-R Redridge Mountains|QID|26365|M|81.96,73.92;96.68,72.33|Z|Elwynn Forest|N|Follow the waypoints into Redridge Mountains.|
+L Level 14 |QID|13518|LVL|8|N|This guide requires a minimum level of 14 to do.|
+
+R Redridge Mountains|QID|26365|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are Threat to the Kingdom from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and Hero's Call: Redridge Mountains! available from both Hero's Callboards in Stormwind City, as well as from King Varian Wrynn. |
+
 A Wanted: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|
-T Hero's Call: Redridge Mountains!|QID|26365|M|15.32,64.86|N|To Watch Captain Parker.|
+T Hero's Call: Redridge Mountains!|QID|26363|M|15.32,64.86|N|To Watch Captain Parker.|O|
+T Hero's Call: Redridge Mountains!|QID|26365|M|15.32,64.86|N|To Watch Captain Parker.|O|
 A Still Assessing the Threat|QID|26503|M|15.32,64.86|N|From Watch Captain Parker.|
 C Wanted: Redridge Gnolls|QID|26504|S|M|28.21,73.94|N|Kill any Gnoll you come across.|
 C Franks and Beans|QID|26506|S|M|20.46,64.70|N|Kill any Tarantulas, Condors, and Gortusks you see, to get their respective body part.|
@@ -48,7 +66,7 @@ A Parker's Report|QID|26505|M|15.31,64.82|N|From Watch Captain Parker.|
 T Wanted: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker.|
 
 f Lakeshire|M|29.48,53.77|N|At Ariena Stormfeather.|QID|26761|
-T Threat To The Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon.|
+T Threat To The Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon.|O|
 T Parker's Report|QID|26505|M|28.78,41.15|N|To Magistrate Solomon.|
 A We Must Prepare!|QID|26510|M|28.78,41.15|N|From Magistrate Solomon.|
 A Lake Everstill Clean Up|QID|26511|M|28.61,40.99|N|From Bailiff Conacher.|
@@ -71,12 +89,12 @@ C Tuning the Gnomecorder|QID|26512|NC|M|32.36,39.53|N|Head to the Lakeshire Grav
 T Tuning the Gnomecorder|QID|26512|M|32.31,39.51|N|(UI Alert)|
 
 A Canyon Romp|QID|26514|M|32.31,39.51|N|(UI Alert)|
-C Like a Fart in the Wind|QID|26513|S|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|
+C Like a Fart in the Wind|QID|26513|S|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|NC|
 C Canyon Romp|QID|26514|M|32.14,25.18|N|Kill and loot any Gnoll you see. Be careful of the elite Etin wandering around.|S|
 l Dirt-Stained Scroll|QID|26519|L|58898|M|32.14,25.18|N|Kill and loot Gnolls until this drops.|
 A He Who Controls the Ettins|QID|26519|U|58898|M|33.92,24.55|N|Accept this quest from the Dirt-Stained Scroll.|
+C Like a Fart in the Wind|QID|26513|US|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|NC|
 C Canyon Romp|QID|26514|M|32.14,25.18|N|Kill and loot any Gnoll you see.|US|
-C Like a Fart in the Wind|QID|26513|US|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|
 T Canyon Romp|QID|26514|M|32.57,25.13|N|(UI Alert)|
 A They've Wised Up...|QID|26544|M|32.57,25.13|N|(UI Alert)|
 l They've Wised Up...|QID|26544|L|58936 |M|20.22,23.77|N|Head inside of Rethbane Caverns and look for a Blackrock Overseer. Kill him to get the Blackrock Missive.|
@@ -86,7 +104,7 @@ C He Who Controls the Ettins|QID|26519|M|18.05,18.48|N|Find and kill Ardo Dirtpa
 T He Who Controls the Ettins|QID|26519|M|17.93,18.53|N|Turn it in at the orb.|
 A Saving Foreman Oslow|QID|26520|M|17.93,18.53|N|From the Ettin Control Panel.|
 K Yowler Must Die!|QID|26545|U|58895|L|58937 |M|27.45,22.09|N|Ok, time to grab some help, go around looking for a Canyon Enttin. When you see one, use the orb and quickly get it down to around 50% health. Find Yowler, kill him and loot the plans.|
-C Saving Foreman Oslow|QID|26520|U|58895|M|31.75,44.41|N|When you get near the boulder use the orb again to get the rock off Oslow.|
+C Saving Foreman Oslow|QID|26520|U|58895|M|31.75,44.41|N|Run to the boulder at Lakeshire Bridge.  When you get near the boulder use the orb again to get the rock off Oslow.|NC|
 
 T Like a Fart in the Wind|QID|26513|M|31.80,44.76|N|To Marshal Marris.|
 T Yowler Must Die!|QID|26545|M|28.76,41.12|N|To Magistrate Solomon.|

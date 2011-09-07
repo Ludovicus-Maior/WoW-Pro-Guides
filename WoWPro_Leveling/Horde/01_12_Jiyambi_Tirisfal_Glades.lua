@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2011-08-13 21:23
+-- Who: Jiyambi
+-- Log: Adding note to Marshal Redpath quest, warning of it's difficulty.
+
+-- URL: http://wow-pro.com/node/3205/revisions/24598/view
 -- Date: 2011-06-25 01:34
 -- Who: Crackerhead22
 -- Log: ! Missing A step for step T qid 309 - Fixed, QID for turn-in should be 3098
@@ -149,7 +154,7 @@ A No Better Than the Zombies|QID|24970|M|32.97,61.09|N|From Executor Arren.|
 T No Better Than the Zombies|QID|24970|M|35.74,62.19|N|To Darnell.|
 
 A Assault on the Rotbrain Encampment|QID|24971|M|35.74,62.19|N|From Darnell.|
-C Assault on the Rotbrain Encampment|QID|24971|M|36.48,68.83|N|Kill the hostile undead, and Marshal Redpath.|
+C Assault on the Rotbrain Encampment|QID|24971|M|36.48,68.83|N|Kill the hostile undead, and Marshal Redpath. BE VERY CAUTIOUS! This quest can be pretty difficult - Marshal Redpath is quite tough to take on alone. See if you can get the NPCs to help, or team up with another player.|
 T Assault on the Rotbrain Encampment|QID|24971|M|30.88,66.20|N|To Shadow Priest Sarvis.|
 
 A Vital Intelligence|QID|24972|M|30.88,66.20|N|From Shadow Priest Sarvis.|

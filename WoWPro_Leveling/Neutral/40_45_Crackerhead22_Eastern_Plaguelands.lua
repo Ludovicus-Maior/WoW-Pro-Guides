@@ -1,4 +1,19 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2011-08-11 12:07
+-- Who: Fluclo
+-- Log: Updated Just a Drop in the Bucket quest notes
+
+-- URL: http://wow-pro.com/node/3251/revisions/24722/view
+-- Date: 2011-08-11 12:01
+-- Who: Fluclo
+-- Log: Updated Catalysm quest notes
+
+-- URL: http://wow-pro.com/node/3251/revisions/24721/view
+-- Date: 2011-08-11 11:50
+-- Who: Fluclo
+-- Log: Corrected method for collection in Frederick's Fish Fancy
+
+-- URL: http://wow-pro.com/node/3251/revisions/24705/view
 -- Date: 2011-07-28 18:14
 -- Who: Fluclo
 -- Log: Updated note to Greasing the Wheel
@@ -158,9 +173,9 @@ A Frederick's Fish Fancy|QID|27450|M|53.90,53.92|N|From Frederick Calston on top
 A Honor and Strength|QID|27449|M|52.73,51.47|N|From Vex'tul. Warning: Upon accepting you will be attacked by three mobs.|
 C Honor and Strength|QID|27449|M|52.73,51.46|
 T Honor and Strength|QID|27449|M|52.76,51.51|N|To Vex'tul.|
-N Note:|QID|27450|N|New buff at the caravan, "Vex'tul's Armbands". Grants chance to knock enemies back on attacks.|
+N New Buff|QID|27450|N|New buff at the caravan, "Vex'tul's Armbands". Grants chance to knock enemies back on attacks.|
 
-C Frederick's Fish Fancy|QID|27450|M|49.91,62.25|N|Kill the attackable fish as they kill what you need.|
+C Frederick's Fish Fancy|QID|27450|M|49.91,62.25|N|Loot the required fish from the bottom of The Infectis Scar.  The Puffer fish will give you 20 seconds of air.  The fish will not give you any fish, even after attacking one (those will come back as Half-Digested Roe).|NC|
 R Corin's Crossing|QID|27452|M|52.51,64.65|N|Run to Corin's Crossing.|
 l Living Rot|QID|27451|N|Gather 7 pieces of "Living Rot" from the undead.|L|15447 7|M|55,64|S|
 C Dark Garb|QID|27452|N|Kill the cultists to get the two pieces needed, while killing the undead.|M|55,64|
@@ -168,13 +183,13 @@ l Living Rot|QID|27451|N|Gather 7 pieces of "Living Rot" from the undead.|L|1544
 C To Kill With Purpose|QID|27451|M|55,64|N|Use the "Mortar and Pestle" once you have 7 "Living Rot".|U|15454|
 T Dark Garb|QID|27452|M|54.28,63.03|N|(UI Alert)|
 A Catalysm|QID|27453|M|54.28,63.03|N|(UI Alert)|
-C Catalysm|QID|27453|U|61284|M|58.44,75.55|N|They have to be alive when you use the flask. This is a bit of a problem for ranged classes.|
+C Catalysm|QID|27453|U|61284|M|58.44,75.55|N|Use the flask on Plague Ravager and Blighted Surge in Lake Meledar. They have to be alive, and you need to be right next to them when you use the flask. This may need some creative thinking ranged classes.|
 T Catalysm|QID|27453|M|58.48,74.34|N|(UI Alert)|
 A Just a Drop in the Bucket|QID|27454|M|58.48,74.34|N|(UI Alert)|
-C Just a Drop in the Bucket|QID|27454|NC|U|61283|M|62.16,76.14|N|Can not be in combat. Warning: using more than a drop will throw you back. or cause it to blow up.|
+C Just a Drop in the Bucket|QID|27454|NC|U|61283|M|62.16,76.14|N|Put on your Death Cultist disguise, this will turn all those around the cauldron friendly.  Then click on the cauldron and select a drop (first option).  When it says nothing's working, click the do nothing option (again, first one).  Quest will then complete.  Selecting any other option that means more than a drop goes in will throw you back or cause it to blow up.|
 T Just a Drop in the Bucket|QID|27454|M|53.14,54.67|N|To Betina Bigglezink.|
 T Frederick's Fish Fancy|QID|27450|M|53.89,53.91|N|To Frederick Calston.|
-r Sell junk, repair/restock.|QID|27455|M|53.89,53.91
+r Sell junk, repair/restock.|QID|27455|M|53.89,53.91|
 
 R Light's Hope Chapel|QID|27455|M|75.84,52.96|N|Run to Light's Hope Chapel.|
 T Boys Will Be Boys|QID|27455|M|74.25,53.37|N|To Gidwin Goldbraids.|

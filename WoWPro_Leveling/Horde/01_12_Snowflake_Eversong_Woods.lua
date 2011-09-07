@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2011-08-13 22:39
+-- Who: Jiyambi
+-- Log: Updated Flendren the Banished quest note since those mobs are no longer hostile.
+
+-- URL: http://wow-pro.com/node/3207/revisions/24703/view
 -- Date: 2011-07-27 21:33
 -- Who: Fluclo
 -- Log: Soaked Pages is a Non-Combat quest
@@ -202,7 +207,7 @@ T A Fistful of Slivers |QID|8336|R|BloodElf|N|To Arcanist Ithanas|M|38.3,19.1|
 T Aggression |QID|8334|R|BloodElf|M|35.4,22.5|N|To Lanthan Perilon|
 A Felendren the Banished |QID|8335|R|BloodElf|N|From Lanthan Perilon|M|35.4,22.5|
 
-K Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp and to the top of Falthrien Academy. At one point, there will be two paths to choose, both will merge further on, so either can be taken. Kill Arcane Wraiths as you go up. At the top pull the two Tainted Arcane Wraiths (they can be pulled one by one), then kill Felendren and loot his head.|M|31.69,26.44;30.79,26.40;30.55,27.90|L|20799|
+K Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp and to the top of Falthrien Academy. At one point, there will be two paths to choose, both will merge further on, so either can be taken. Kill Arcane Wraiths and Tainted Arcane Wraiths as you go up. At the top kill Felendren and loot his head. |M|31.69,26.44;30.79,26.40;30.55,27.90|L|20799|
 l Tainted Arcane Sliver|QID|8338|L|20483|R|BloodElf|N|You should already have looted the Tainted Arcane Sliver from the Tainted Arcane Wraiths. Kill and loot the Tainted Arcane Wraiths until you get the sliver.|
 A Tainted Arcane Sliver |QID|8338|R|BloodElf|U|20483|N|The Tainted Arcane Sliver starts a quest - click it and accept the quest.|
 C Felendren the Banished |QID|8335|R|BloodElf|N|Finish killing the Arcane Wraiths and Tainted Arcane Wraiths.|M|30.87,27.13|
