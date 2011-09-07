@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2011-08-11 21:31
+-- Who: Jiyambi
+-- Log: More |NC| additions, one level step moved, fixed error with Cool Shades step.
+
+-- URL: http://wow-pro.com/node/3212/revisions/24724/view
+-- Date: 2011-08-11 20:52
+-- Who: Jiyambi
+-- Log: Changed all N to C, added |NC| where appropriate, changed some B to C where appropriate, added a |U| for the car in some places, moved L steps a little later, fixed a coordinate, added some better explanation text to some steps.
+
+-- URL: http://wow-pro.com/node/3212/revisions/24320/view
 -- Date: 2011-04-29 15:27
 -- Who: Ludovicus Maior
 -- Log: Line 213 for step A has unknown tag [From Sassy Hardwrench.]

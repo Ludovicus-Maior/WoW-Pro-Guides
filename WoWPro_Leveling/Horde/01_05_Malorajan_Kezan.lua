@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2011-08-11 21:31
+-- Who: Jiyambi
+-- Log: More |NC| additions, one level step moved, fixed error with Cool Shades step.
+
+-- URL: http://wow-pro.com/node/3212/revisions/24724/view
+-- Date: 2011-08-11 20:52
+-- Who: Jiyambi
+-- Log: Changed all N to C, added |NC| where appropriate, changed some B to C where appropriate, added a |U| for the car in some places, moved L steps a little later, fixed a coordinate, added some better explanation text to some steps.
+
+-- URL: http://wow-pro.com/node/3212/revisions/24320/view
 -- Date: 2011-04-29 15:27
 -- Who: Ludovicus Maior
 -- Log: Line 213 for step A has unknown tag [From Sassy Hardwrench.]
@@ -60,57 +70,57 @@ A Taking Care of Business|QID|14138|M|56.52,77.00|N|From Sassy Hardwrench.|
 T Taking Care of Business|QID|14138|M|60.10,74.66|N|To Foreman Dampwick.|
 A Trouble in the Mines|QID|14075|M|60.10,74.66|N|From Foreman Dampwick.|
 A Good Help is Hard to Find|QID|14069|M|60.10,74.66|N|From Foreman Dampwick.|
-C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Zap the red trolls with your hand on your way into the mine.|S|
+C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Zap the red trolls by right-clicking them.|S|NC|
 C Trouble in the Mines|QID|14075|M|71.02,76.19;74.59,83.67;65.05,88.22|N|Go into the mines to kill worms.|
-C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Zap the red trolls with your hand on your way into the mine.|US|
-L Level 2|QID|14069|LVL|2|N|You should be around level 2 by this point.|
+C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Zap the red trolls with your hand on your way into the mine.|US|NC|
 
 T Trouble in the Mines|QID|14075|M|60.35,74.64|N|To Foreman Dampwick.|
 T Good Help is Hard to Find|QID|14069|M|60.35,74.64|N|To Foreman Dampwick.|
+L Level 2|QID|14069|LVL|2|N|You should be around level 2 by this point.|
 A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|
 T Kaja'Cola|QID|25473|M|56.53,76.97|N|To Sassy Hardwrench.|
 A Megs in Marketing|QID|28349|M|56.53,76.97|N|From Sassy Hardwrench.|
 T Megs in Marketing|QID|28349|M|58.22,76.61|N|To Megs Dreadshredder.|
 A Rolling with my Homies|QID|14071|M|58.22,76.61|N|From Megs Dreadshredder.|
-N Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|Gobber picked up: 1/1|N|Use the keys, then pick up Gobber.|
-N Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|Ace picked up: 1/1|NC|N|Pick Up Ace.|
-C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|Izzy picked up: 1/1|NC|N|Pick up Izzy.|
+C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|Gobber picked up: 1/1|N|Use the keys, then pick up Gobber.|NC|
+C Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|Ace picked up: 1/1|NC|N|Pick Up Ace.|NC|
+C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|Izzy picked up: 1/1|NC|N|Pick up Izzy.|NC|
 T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|
 A Report for Tryouts|QID|24567|M|58.24,76.01|N|From Megs Dreadshredder.|
-A Off to the Bank|QID|26712|M|56.49,76.98|N|From Candy Cane. (For Males)|GEN|MALE|
-A Off to the Bank|QID|26711|M|56.49,76.98|N|From Chip Endale. (For Females)|GEN|FEMALE|
+A Off to the Bank|QID|26712|M|56.49,76.98|N|From Candy Cane.|GEN|MALE|
+A Off to the Bank|QID|26711|M|56.49,76.98|N|From Chip Endale.|GEN|FEMALE|
 A Do it Yourself|QID|14070|M|56.49,76.98|N|From Sassy Hardwrench.|
 
-T Report for Tryouts|QID|24567|M|48.75,57.83|N|To Coach Crosscheck.|
+T Report for Tryouts|QID|24567|M|48.75,57.83|N|To Coach Crosscheck.|U|46856|
 A The Replacements|QID|24488|M|48.75,57.83|N|From Coach Crosscheck.|
 C The Replacements|QID|24488|M|43.05,62.79|N|Look in and around the field for Replacement Parts, they are crates.|
 T The Replacements|QID|24488|M|48.73,57.42|N|To Coach Crosscheck.|
 A Necessary Roughness|QID|24502|M|48.73,57.42|N|From Coach Crosscheck.|
-C Necessary Roughness|QID|24502|M|47.70,57.75|N|Hop into the shredder aim at one of the opposing shredders, and use ability #1. Rinse and repeat until finished.|
-L Level 3|QID|24502|LVL|3|N|You should be around level 3 by this point.|
+C Necessary Roughness|QID|24502|M|47.70,57.75|N|Hop into the shredder aim at one of the opposing shredders, and use ability #1. Rinse and repeat until finished.|NC|
 
 T Necessary Roughness|QID|24502|M|47.70,57.75|N|(UI Alert)|
+L Level 3|QID|24502|LVL|3|N|You should be around level 3 by this point.|
 A Fourth and Goal|QID|24503|M|47.70,57.75|N|(UI Alert)|
 C Fourth and Goal|QID|24503|M|47.70,57.75|N|Make sure the aiming line is between the smoke stacks and hit ability #1.|
 T Fourth and Goal|QID|24503|M|48.62,57.74|N|To Coach Crosscheck.|
 A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|
-N Bruno Flameretardant beaten down|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|Bruno Flameretardant beaten down: 1/1|
-N Sudsy Magee beaten down|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|Sudsy Magee beaten down: 1/1|
-N Jack the Hammer beaten down|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|Jack the Hammer beaten down: 1/1|
-C Do it Yourself|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|
-T Off to the Bank|QID|26712|M|30.09,71.67|N|To FBoK Bank Teller. (For Males)|GEN|MALE|
-T Off to the Bank|QID|26711|M|30.09,71.67|N|To FBoK Bank Teller. (For Females)|GEN|FEMALE|
+C Bruno Flameretardant beaten down|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|Bruno Flameretardant beaten down: 1/1|
+C Sudsy Magee beaten down|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|Sudsy Magee beaten down: 1/1|
+C Jack the Hammer beaten down|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|Jack the Hammer beaten down: 1/1|
+C Frankie Gearslip beaten down|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|Frankie Gearslip beaten down: 1/1|
+T Off to the Bank|QID|26712|M|30.09,71.67|N|To FBoK Bank Teller.|GEN|MALE|
+T Off to the Bank|QID|26711|M|30.09,71.67|N|To FBoK Bank Teller.|GEN|FEMALE|
 
 A The New You|QID|14109|PRE|26712|M|30.09,71.67|N|From FBoK Bank Teller. (For Males)|GEN|MALE|
-B Hip New Outfit|QID|14109|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|MALE|
-B Cool Shades|QID|14109|M|37.59,55.21|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|MALE|
-C The New You|QID|14109|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|GEN|MALE|
-T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane. (For Males)|GEN|MALE|
+C Hip New Outfit|QID|14109|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|MALE|NC|
+C Shiny Bling|QID|14109|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|MALE|NC|
+C Cool Shades|QID|14109|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|GEN|MALE|QO|Cool Shades: 1/1|NC|
+T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane.|GEN|MALE|
 A The New You|QID|14110|PRE|26711|M|30.09,71.67|N|From FBoK Bank Teller. (For Females)|GEN|FEMALE|
-B Hip New Outfit|QID|14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|FEMALE|
-B hiny Bling|QID|14110|M|37.59,55.21|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|FEMALE|
-C The New You|QID|14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|GEN|FEMALE|
-T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale. (For Females)|GEN|FEMALE|
+B Hip New Outfit|QID|14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|FEMALE|NC|
+B Shiny Bling|QID|14110|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|FEMALE|NC|
+C Cool Shades|QID|14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|QO|Cool Shades: 1/1|GEN|FEMALE|NC|
+T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale.|GEN|FEMALE|
 T Give Sassy the News|QID|24520|M|56.42,76.97|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
 
@@ -133,17 +143,17 @@ A Primal Strike|QID|14011|M|59.7,76.2|N|From Maxx Avalanche.|C|Shaman|
 C Primal Strike|QID|14011|M|60.31,77.53|N|Speak with Maxx Avalanche and train Primal Strike, then use it 2 times on a Training Dummy. |C|Shaman|
 T Primal Strike|QID|14011|M|59.9,76.2|N|To Maxx Avalanche.|C|Shaman|
 
-A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane. (For Males)|GEN|MALE|
-C Life of the Party|QID|14113|M|60.21,85.76|N|Entertain 10 Partygoers. Use a random ability on one, then use the one it wants. Some are partied out.|GEN|MALE|
+A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|
+C Life of the Party|QID|14113|M|60.21,85.76|N|Entertain 10 Partygoers. Use food on the ones with food, fireworks on the ones with fireworks, and so on.|GEN|MALE|NC|
 T Life of the Party|QID|14113|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|MALE|
-A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale. (For Females)|GEN|FEMALE|
-C Life of the Party|QID|14153|M|60.21,85.76|N|Entertain 10 Partygoers. Use a random ability on one, then use the one it wants. Some are partied out.|GEN|FEMALE|
+A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|
+C Life of the Party|QID|14153|M|60.21,85.76|N|Entertain 10 Partygoers.  Use food on the ones with food, fireworks on the ones with fireworks, and so on.|GEN|FEMALE|NC|
 T Life of the Party|QID|14153|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|FEMALE|
 
 A Pirate Party Crashers|QID|14115|M|56.52,76.95|N|From Sassy Hardwrench.|
-L Level 4|QID|14115|LVL|4|N|You should be around level 4 by this point.|
 C Pirate Party Crashers|QID|14115|M|57.39,85.03|N|Kill 12 Pirate Party Crashers.|
 T Pirate Party Crashers|QID|14115|M|56.46,76.97|N|To Sassy Hardwrench.|
+L Level 4|QID|14115|LVL|4|N|You should be around level 4 by this point.|
 A The Uninvited Guest|QID|14116|M|56.46,76.97|N|From Sassy Hardwrench.|
 T The Uninvited Guest|QID|14116|M|56.72,76.93|N|Upstairs to Trade Prince Gallywix.|
 A A Bazillion Macaroons?!|QID|14120|M|56.72,76.93|N|From Trade Prince Gallywix.|
@@ -157,20 +167,19 @@ C Liberate the Kaja'mite|QID|14124|U|48768|M|71.19,77.39|N|Use the bombs on the 
 T Liberate the Kaja'mite|QID|14124|M|62.92,77.54|N|To Foreman Dampwick.|
 C Robbing Hoods|U|46856|QID|14121|M|38.82,71.43|N|Run over the Hired Looters to get Stolen Loots.|
 C The Great Bank Heist|QID|14122|M|30.10,71.41|N|Click on one of the First Bank of Kezan Vaults, then use whichever ability it tells you to.|
-N Waltz Right In|QID|14123|M|25.23,42.03|N|There is no cap. Get out of your car and just walk right in! Watch out for the pigs.|
-C Waltz Right In|QID|14123|M|16.74,46.08|QO|Maldy's Falcon: 1/1|N|The Falcon is upstairs in the bedroom.|
-C Waltz Right In|QID|14123|M|13.0,35.2|QO|The Goblin Lisa: 1/1|N|Head into the hut and pick it off the wall.|
-C Waltz Right In|QID|14123|M|19.9,30.7|QO|The Ultimate Bomb: 1/1|N|Head into the building and pick up the bomb.|
+C Waltz Right In|QID|14123|M|16.74,46.08|QO|Maldy's Falcon: 1/1|N|Get out of your car and just walk right in! Watch out for the pigs. The Falcon is upstairs in the bedroom.|NC|
+C Waltz Right In|QID|14123|M|13.0,35.2|QO|The Goblin Lisa: 1/1|N|Head into the hut and pick it off the wall.|NC|
+C Waltz Right In|QID|14123|M|19.9,30.7|QO|The Ultimate Bomb: 1/1|N|Head into the building and pick up the bomb.|NC|
 T Waltz Right In|QID|14123|M|59.41,77.62|N|To Slinky Sharpshiv.|
-L Level 5|QID|14124|LVL|5|N|You should be around level 5 by this point.|
 T The Great Bank Heist|QID|14122|M|59.78,77.28|N|To Sassy|
 T Robbing Hoods|QID|14121|M|60.12,78.09|N|To Megs|
 A 447|QID|14125|M|59.78,77.13|N|From Sassy Hardwrench.|
-N Overload the Defective Generator|QID|14125|QO|Overload the Defective Generator: 1/1|N|Head inside and click on the generator.|M|56.13,76.6|
-N Activate the Leaky Stove|QID|14125|QO|Activate the Leaky Stove: 1/1|N|Head over to the corner and click on the stove.|M|56.05,74.7|
-N Drop a Cigar on the Flammable Bed|QID|14125|QO|Drop a Cigar on the Flammable Bed: 1/1|N|Head upstairs and click on the bed.|M|56.61,75.15|
-C 447|QID|14125|M|60.63,76.87|N|Head outside and activate the Gasbot Control Panel.|
+C Overload the Defective Generator|QID|14125|QO|Overload the Defective Generator: 1/1|N|Head inside and click on the generator.|M|56.13,76.6|NC|
+C Activate the Leaky Stove|QID|14125|QO|Activate the Leaky Stove: 1/1|N|Head over to the corner and click on the stove.|M|56.05,74.7|NC|
+C Drop a Cigar on the Flammable Bed|QID|14125|QO|Drop a Cigar on the Flammable Bed: 1/1|N|Head upstairs and click on the bed.|M|56.61,75.15|NC|
+C 447|QID|14125|M|60.63,76.87|N|Head outside and activate the Gasbot Control Panel.|NC|
 T 447|QID|14125|M|59.87,76.72|N|To Claims Adjuster.|
+L Level 5|QID|14124|LVL|5|N|You should be around level 5 by this point.|
 A Life Savings|QID|14126|M|59.75,76.90|N|From Sassy Hardwrench.|
 R Gallywix's Yacht|QID|14126|M|21.02,13.51|N|Talk to Sassy Hardwrench and choose to go to the Yacht.|
 T Life Savings|QID|14126|M|21.09,13.58|N|To Trade Prince Gallywix.|

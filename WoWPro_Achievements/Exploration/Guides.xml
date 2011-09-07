@@ -1,0 +1,24 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	
+	<Script file="Borean_Tundra.lua"/>
+
+	<Script file="Howling_Fjord.lua"/>
+
+	<Script file="Arathi_Highlands.lua"/>
+	<Script file="Badlands.lua"/>
+	<Script file="Blasted_Lands.lua"/>
+	<Script file="Burning_Steppes.lua"/>
+	<Script file="Deadwind_Pass.lua"/>
+	<Script file="Duskwood.lua"/>
+	<Script file="Eastern_Plagueland.lua"/>
+	<Script file="Elwynn_Forest.lua"/>
+	<Script file="Ghostlands.lua"/>
+	<Script file="Hillsbrad_Foothills.lua"/>
+	<Script file="Loch_Modan.lua"/>
+	<Script file="Redridge_Mountains.lua"/>
+	<Script file="Searing_Gorge.lua"/>
+	<Script file="Silverpine_Forest.lua"/>
+	<Script file="Swamp_of_Sorrows.lua"/>
+	<Script file="Cape_of_Stranglethorn.lua"/>
+	<Script file="The_Hinterlands.lua"/>
+</Ui>

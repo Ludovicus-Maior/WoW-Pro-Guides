@@ -1,5 +1,5 @@
 --------------------------------------
---      WoWPro_Profession_Config      --
+--      WoWPro_Achievements_Config      --
 --------------------------------------
 
 local L = WoWPro_Locale
@@ -9,14 +9,14 @@ local dialog = LibStub("AceConfigDialog-3.0")
 
 local function createBlizzOptions()
 
-	config:RegisterOptionsTable("WoWPro-Profession-Bliz", {
-		name = "WoW-Pro Professions",
+	config:RegisterOptionsTable("WoWPro-Achievements-Bliz", {
+		name = "WoW-Pro Achievements",
 		type = "group",
 		args = {
 			help = {
 				order = 0,
 				type = "description",
-				name = L["Settings for the WoW-Pro addon's Profession module."],
+				name = L["Settings for the WoW-Pro addon's Achievements module."],
 			},
 			blank = {
 				order = 1,
@@ -27,22 +27,22 @@ local function createBlizzOptions()
 				order = 2,
 				type = "toggle",
 				name = L["Enable Module"],
-				desc = L["Enables/Disables the Profession module of the WoW-Pro guide addon."],
+				desc = L["Enables/Disables the Achievements module of the WoW-Pro guide addon."],
 				width = "full",
-				get = function(info) return WoWPro.Profession:IsEnabled() end,
+				get = function(info) return WoWPro.Achievements:IsEnabled() end,
 				set = function(info,val)  
-						if WoWPro.Profession:IsEnabled() then WoWPro.Profession:Disable() else WoWPro.Profession:Enable() end
+						if WoWPro.Achievements:IsEnabled() then WoWPro.Achievements:Disable() else WoWPro.Achievements:Enable() end
 					end
 			}, 
 			hide = {
 				order = 3,
 				type = "toggle",
 				name = L["Enable Hiding"],
-				desc = L["Enables/Disables hiding the Profession module when inside an instance (Dungeon, Arena ...)."],
+				desc = L["Enables/Disables hiding the Achievements module when inside an instance (Dungeon, Arena ...)."],
 				width = "full",
-				get = function(info) return WoWProCharDB.AutoHideProfessionInsideInstances ; end,
+				get = function(info) return WoWProCharDB.AutoHideAchievementsInsideInstances ; end,
 				set = function(info,val)  
-						if WoWProCharDB.AutoHideProfessionInsideInstances == true then WoWProCharDB.AutoHideProfessionInsideInstances=false; else WoWProCharDB.AutoHideProfessionInsideInstances=true; end
+						if WoWProCharDB.AutoHideAchievementsInsideInstances == true then WoWProCharDB.AutoHideAchievementsInsideInstances=false; else WoWProCharDB.AutoHideAchievementsInsideInstances=true; end
 					end
 			}, 
 			blank2 = {
@@ -53,7 +53,7 @@ local function createBlizzOptions()
 			helpheader = {
 				order = 5,
 				type = "header",
-				name = "WoW-Pro Profession Help",
+				name = "WoW-Pro Achievements Help",
 			},
 			blank3 = {
 				order = 6,
@@ -180,18 +180,18 @@ local function createBlizzOptions()
 			
 		},
 	})
-	dialog:SetDefaultSize("WoWPro-Profession-Bliz", 600, 400)
-	dialog:AddToBlizOptions("WoWPro-Profession-Bliz", "WoW-Pro Profession")
+	dialog:SetDefaultSize("WoWPro-Achievements-Bliz", 600, 400)
+	dialog:AddToBlizOptions("WoWPro-Achievements-Bliz", "WoW-Pro Achievements")
 
 	return blizzPanel
 end
 
-function WoWPro.Profession:CreateConfig()
+function WoWPro.Achievements:CreateConfig()
 	blizzPanel = createBlizzOptions()
 	
 	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Profession", isTitle = true} )
+	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Achievements", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Profession") 
+			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Achievements") 
 		end} )
 end

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-08-24 00:49
+-- Who: Jiyambi
+-- Log: Took out two location based completion steps that weren't auto-completing, rolled them into other steps.
+
+-- URL: http://wow-pro.com/node/3200/revisions/24626/view
 -- Date: 2011-06-28 20:52
 -- Who: Fluclo
 -- Log: Minor tweaks to final couple of quests
@@ -302,8 +307,7 @@ T Trolling for Information |QID|24489|M|32.07,74.34|N|To Apprentice Soren.|
 T The Troll Menace |QID|182|M|32.07,74.25|N|To Grelin Whitebeard.|
 A Ice and Fire |PRE|24489|QID|218|M|32.07,74.25|N|From Grelin Whitebeard.|
 T A Refugee's Quandary |QID|3361|M|31.93,74.38|N|To Felix Whindlebolt.|
-R Ice and Fire|QID|218|CC|M|33.78,78.20|N|Run to the cave.|
-C Ice and Fire |S|QID|218|M|33.68,77.99|N|Enter the cave, keeping to the left as you go throught it, killing Grik'nir's Servants as you go.|QO|Grik'nir's Servant slain: 10/10|
+C Ice and Fire |S|QID|218|M|33.78,78.20;33.68,77.99|N|Enter the cave, keeping to the left as you go throught it, killing Grik'nir's Servants as you go.|QO|Grik'nir's Servant slain: 10/10|
 K Wayward Fire Elemental |QID|218|M|36.76,78.29|T|Wayward Fire Elemental|QO|Wayward Fire Elemental slain: 1/1|N|Kill the Wayward Fire Elemental.|
 K Grik'nir the Cold |QID|218|M|37.66,78.48|T|Grik'nir the Cold|QO|Grik'nir the Cold slain: 1/1|N|Kill Grik'nir the Cold.|
 C Ice and Fire |US|QID|218|M|33.31,77.83|N|Make your way out of the cave, killing any Grik'nir's Servants you still need.|QO|Grik'nir's Servant slain: 10/10|
@@ -312,8 +316,7 @@ L Level 5 |LVL|5|QID|218|N|You should be around level 5 by this point|
 
 T Ice and Fire |QID|218|M|32.04,74.24|N|To Grelin Whitebeard.|
 A A Trip to Ironforge |PRE|218|QID|24490|N|From Grelin Whitebeard.|M|32.04,74.24|
-H Anvilmar|QID|24490|U|6948|N|Hearth to Anvilmar.|
-T A Trip to Ironforge |QID|24490|M|40.85,70.63|N|To Hands Springsprocket at the top of the hill.|
+T A Trip to Ironforge |QID|24490|M|40.85,70.63|U|6948|N|Hearth back and hand in to Hands Springsprocket at the top of the hill.|
 A Follow that Gyro-Copter! |PRE|24490|QID|24491|N|From Hands Springsprocket.|M|40.85,70.63|
 T Follow that Gyro-Copter! |QID|24491|M|37.44,70.61|N|To Milo Geartwinge.|
 A Pack Your Bags |PRE|24491|QID|24492|N|From Milo Geartwinge.|M|37.44,70.61|

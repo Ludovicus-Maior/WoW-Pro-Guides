@@ -1,9 +1,9 @@
 --------------------------------------
---      WoWPro_Profession_Parser      --
+--      WoWPro_Achievements_Parser      --
 --------------------------------------
 	
 local L = WoWPro_Locale
-WoWPro.Profession.actiontypes = {
+WoWPro.Achievements.actiontypes = {
 	A = "Interface\\GossipFrame\\AvailableQuestIcon",
 	C = "Interface\\Icons\\Ability_DualWield",
 	T = "Interface\\GossipFrame\\ActiveQuestIcon",
@@ -19,7 +19,7 @@ WoWPro.Profession.actiontypes = {
 	l = "Interface\\Icons\\INV_Misc_Bag_08",
 	r = "Interface\\Icons\\Ability_Repair"
 }
-WoWPro.Profession.actionlabels = {
+WoWPro.Achievements.actionlabels = {
 	A = "Accept",
 	C = "Complete",
 	T = "Turn in",
@@ -36,9 +36,9 @@ WoWPro.Profession.actionlabels = {
 	r = "Repair/Restock"
 }
 
--- Determine Next Active Step (Profession Module Specific)--
+-- Determine Next Active Step (Achievements Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
-function WoWPro.Profession:NextStep(k, skip)
+function WoWPro.Achievements:NextStep(k, skip)
 	local GID = WoWProDB.char.currentguide
 
 	-- Optional Quests --
@@ -49,36 +49,21 @@ function WoWPro.Profession:NextStep(k, skip)
 			skip = false -- If the optional quest is in the quest log, it's NOT skipped --
 		end
 	end
-
-	-- Skipping profession quests (moved here from core)  --
-	if WoWPro.prof[k] then 
-		local prof, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
-		proflvl = tonumber(proflvl) or 1
-		profmaxlvl = tonumber(profmaxlvl) or 700
-		profmaxskill = tonumber(profmaxskill) or 700
-		local profs, found = {}, false
-		skip = false
-		profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
-		for p=1,6 do
-			if profs[p] then
-				local skillName, _, skillRank, maxskill = GetProfessionInfo(profs[p])
-				if (skillName == prof) then 
-					found = true
-					if (skillRank >= proflvl) and (skillRank < profmaxlvl) and (maxskill < profmaxskill) then
-						skip = false else skip = true end
-					if skip and proflvl > skillRank then skip = false end
-					if skip then WoWProCharDB.Guide[GID].skipped[k] = true end
-				end
-			end
-		end
-		if found == false and proflvl == 0 then skip = false 
-		else if found == false and profmaxlvl == 700 then skip = true end end
+	
+	-- Skipping Achievements if completed  --
+	if WoWPro.ach[k] then
+		local achnum, achitem = string.split(";",WoWPro.ach[k])
+		local count = GetAchievementNumCriteria(achnum)
+		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+		if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true
+		else skip=false end
 	end
+				
 	return skip
 end
 
 -- Skip a step --
-function WoWPro.Profession:SkipStep(index)
+function WoWPro.Achievements:SkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	
 	if not WoWPro.QID[index] then return "" end
@@ -100,7 +85,7 @@ function WoWPro.Profession:SkipStep(index)
 end
 
 -- Unskip a step --
-function WoWPro.Profession:UnSkipStep(index)
+function WoWPro.Achievements:UnSkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	WoWProCharDB.Guide[GID].completion[index] = nil
 	if WoWPro.QID[index] 
@@ -216,6 +201,14 @@ local function ParseQuests(...)
                                 WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
 				WoWPro.prof[i] = text:match("|P|([^|]*)|?")
 				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
+				WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
+
+				if WoWPro.ach[i] then
+					local achnum, achitem = string.split(";",WoWPro.ach[i])
+					local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+					if WoWPro.step[i] == "Achievement" then WoWPro.note[i] = description.." ("..quantityString..")" end
+				end
+
 
 				for _,tag in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][i] then WoWPro[tag][i] = false end
@@ -228,7 +221,7 @@ local function ParseQuests(...)
 end
 	
 -- Guide Load --
-function WoWPro.Profession:LoadGuide()
+function WoWPro.Achievements:LoadGuide()
 	local GID = WoWProDB.char.currentguide
 
 	-- Parsing quests --
@@ -281,21 +274,21 @@ function WoWPro.Profession:LoadGuide()
 	
 	-- Checking zone based completion --
 	WoWPro:UpdateGuide()
-	WoWPro.Profession:AutoCompleteZone()
+	WoWPro.Achievements:AutoCompleteZone()
 	
 	-- Scrollbar Settings --
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
 end
 
 -- Row Content Update --
-function WoWPro.Profession:RowUpdate(offset)
+function WoWPro.Achievements:RowUpdate(offset)
 	local GID = WoWProDB.char.currentguide
 	if InCombatLockdown() 
 		or not GID 
 		or not WoWPro.Guides[GID]
 		then return 
 	end
-	WoWPro:dbp("Running: WoWPro.Profession:RowUpdate()")
+	WoWPro:dbp("Running: WoWPro.Achievements:RowUpdate()")
 	WoWPro.ActiveStickyCount = 0
 	local reload = false
 	local lootcheck = true
@@ -303,7 +296,7 @@ function WoWPro.Profession:RowUpdate(offset)
 	local itemkb = false
 	local targetkb = false
 	ClearOverrideBindings(WoWPro.MainFrame)
-	WoWPro.Profession.RowDropdownMenu = {}
+	WoWPro.Achievements.RowDropdownMenu = {}
 	
 	for i=1,15 do
 		
@@ -366,16 +359,16 @@ function WoWPro.Profession:RowUpdate(offset)
 		if WoWProDB.profile.showcoords and coord and not note then note = "("..coord..")" end
 		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
 		row.note:SetText(note)
-		row.action:SetTexture(WoWPro.Profession.actiontypes[action])
+		row.action:SetTexture(WoWPro.Achievements.actiontypes[action])
 		if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
 			row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
 		end
 		
 		-- Checkbox Function --
-		function WoWPro.Profession:CheckFunction(row, button, down)
+		function WoWPro.Achievements:CheckFunction(row, button, down)
 			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 			if button == "LeftButton" and row.check:GetChecked() then
-				local steplist = WoWPro.Profession:SkipStep(row.index)
+				local steplist = WoWPro.Achievements:SkipStep(row.index)
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
 				if steplist ~= "" then 
 					WoWPro:SkipStepDialogCall(row.index, steplist)
@@ -387,12 +380,12 @@ function WoWPro.Profession:RowUpdate(offset)
 					PlaySoundFile(WoWProDB.profile.checksoundfile)
 				end
 			elseif not row.check:GetChecked() then
-				WoWPro.Profession:UnSkipStep(row.index)
+				WoWPro.Achievements:UnSkipStep(row.index)
 			end
 			WoWPro:UpdateGuide()
 		end
 		row.check:SetScript("OnClick", function(self, button, down)
-			WoWPro.Profession:CheckFunction(row, button, down)
+			WoWPro.Achievements:CheckFunction(row, button, down)
 		end)
 		
 		-- Right-Click Drop-Down --
@@ -441,7 +434,7 @@ function WoWPro.Profession:RowUpdate(offset)
 				)
 			end
 		end
-		WoWPro.Profession.RowDropdownMenu[i] = dropdown
+		WoWPro.Achievements.RowDropdownMenu[i] = dropdown
 		
 		-- Item Button --
 		if action == "H" then use = 6948 end
@@ -486,18 +479,9 @@ function WoWPro.Profession:RowUpdate(offset)
 		
 		-- Target Button --
 		if target then
-			local target, spell, amt = string.split(";",target)
-			spell = tonumber(spell) or 0
-			amt = tonumber(amt) or 1
-
 			row.targetbutton:Show() 
-			if spell == 1 then
-				local prof, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
-				row.targetbutton:SetAttribute("macrotext", "/run CloseTradeSkill()\n/Cast "..prof.."\n/run for i=1,GetNumTradeSkills() do local na,_,n,_,_,p=GetTradeSkillInfo(i)if na=='"..target.."' then DoTradeSkill(i,'"..amt.."') end end ")
-			else
-				row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
+			row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
 				.."\n/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end")
-			end
 			if use then
 				row.targetbutton:SetPoint("TOPRIGHT", row.itembutton, "TOPLEFT", -5, 0)
 			else
@@ -516,7 +500,6 @@ function WoWPro.Profession:RowUpdate(offset)
 		else
 			row.targetbutton:Hide() 
 		end
-
 		
 		-- Setting the zone for the coordinates of the step --
 		zone = zone or strsplit("-(",WoWPro.Guides[GID].zone)
@@ -534,18 +517,19 @@ function WoWPro.Profession:RowUpdate(offset)
 		end
 
 		WoWPro.rows[i] = row
+		
 		k = k + 1
 	end
 	
 	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
 	WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
-	WoWPro.Profession:UpdateQuestTracker()
+	WoWPro.Achievements:UpdateQuestTracker()
 
 	return reload
 end
 
 -- Left-Click Row Function --
-function WoWPro.Profession:RowLeftClick(i)
+function WoWPro.Achievements:RowLeftClick(i)
 	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
 		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
 	end
@@ -553,19 +537,19 @@ function WoWPro.Profession:RowLeftClick(i)
 end
 
 -- Event Response Logic --
-function WoWPro.Profession:EventHandler(self, event, ...)
-	WoWPro:dbp("Running: Profession Event Handler")
+function WoWPro.Achievements:EventHandler(self, event, ...)
+	WoWPro:dbp("Running: Achievements Event Handler")
 		
 	-- Noticing if we have entered a Dungeon!
-	if event == "ZONE_CHANGED_NEW_AREA" and WoWProCharDB.AutoHideProfessionInsideInstances == true then
+	if event == "ZONE_CHANGED_NEW_AREA" and WoWProCharDB.AutoHideAchievementsInsideInstances == true then
 		if IsInInstance() then
-			WoWPro:Print("|cff33ff33Instance Auto Hide|r: Profession Module")
+			WoWPro:Print("|cff33ff33Instance Auto Hide|r: Achievements Module")
 			WoWPro.MainFrame:Hide()
 			WoWPro.Titlebar:Hide()
 			WoWPro.Hidden = true
 			return
 		elseif WoWPro.Hidden == true then
-			WoWPro:Print("|cff33ff33Instance Exit Auto Show|r: Profession Module")
+			WoWPro:Print("|cff33ff33Instance Exit Auto Show|r: Achievements Module")
 			WoWPro.MainFrame:Show()
 			WoWPro.Titlebar:Show()
 			WoWPro.Hidden = nil
@@ -574,46 +558,41 @@ function WoWPro.Profession:EventHandler(self, event, ...)
 
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
-		WoWPro.Profession.CompletingQuest = true
-		WoWPro.Profession:AutoCompleteQuestUpdate(GetQuestID())
+		WoWPro.Achievements.CompletingQuest = true
+		WoWPro.Achievements:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	
 	-- Auto-Completion --
 	if event == "CHAT_MSG_SYSTEM" then
-		WoWPro.Profession:AutoCompleteSetHearth(...)
+		WoWPro.Achievements:AutoCompleteSetHearth(...)
 	end	
 	if event == "CHAT_MSG_LOOT" then
-		WoWPro.Profession:AutoCompleteLoot(...)
+		WoWPro.Achievements:AutoCompleteLoot(...)
 	end
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
-		WoWPro.Profession:AutoCompleteZone(...)
+		WoWPro.Achievements:AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
 		WoWPro:PopulateQuestLog(...)
-		WoWPro.Profession:AutoCompleteQuestUpdate(...)
-		WoWPro.Profession:UpdateQuestTracker()
+		WoWPro.Achievements:AutoCompleteQuestUpdate(...)
+		WoWPro.Achievements:UpdateQuestTracker()
 	end	
 	if event == "UI_INFO_MESSAGE" then
-		WoWPro.Profession:AutoCompleteGetFP(...)
+		WoWPro.Achievements:AutoCompleteGetFP(...)
 	end
 	if event == "PLAYER_LEVEL_UP" then
-		WoWPro.Profession:AutoCompleteLevel(...)
-		WoWPro.Profession.CheckAvailableSpells(...)
---		WoWPro.Profession.CheckAvailableTalents()
+		WoWPro.Achievements:AutoCompleteLevel(...)
+		WoWPro.Achievements.CheckAvailableSpells(...)
+--		WoWPro.Achievements.CheckAvailableTalents()
 	end
 	if event == "TRAINER_UPDATE" then
-		WoWPro.UpdateGuide()
---		WoWPro.Profession.CheckAvailableSpells()
-	end
-	
-	if event == "CHAT_MSG_SKILL" then
-		WoWPro.UpdateGuide()
+		WoWPro.Achievements.CheckAvailableSpells()
 	end
 
 end
 
 -- Auto-Complete: Get flight point --
-function WoWPro.Profession:AutoCompleteGetFP(...)
+function WoWPro.Achievements:AutoCompleteGetFP(...)
 	for i = 1,15 do
 		local index = WoWPro.rows[i].index
 		if ... == ERR_NEWTAXIPATH and WoWPro.action[index] == "f" 
@@ -624,7 +603,7 @@ function WoWPro.Profession:AutoCompleteGetFP(...)
 end
 
 -- Auto-Complete: Quest Update --
-function WoWPro.Profession:AutoCompleteQuestUpdate(questComplete)
+function WoWPro.Achievements:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 
@@ -641,14 +620,14 @@ function WoWPro.Profession:AutoCompleteQuestUpdate(questComplete)
 					QID = tonumber(QID)
 
 			        -- Quest Turn-Ins --
-			        if WoWPro.Profession.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
+			        if WoWPro.Achievements.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
 				        WoWPro.CompleteStep(i)
 				        WoWProCharDB.completedQIDs[QID] = true
-				        WoWPro.Profession.CompletingQuest = false
+				        WoWPro.Achievements.CompletingQuest = false
 			        end
 			
 			        -- Abandoned Quests --
-			        if not WoWPro.Profession.CompletingQuest and ( action == "A" or action == "C" ) 
+			        if not WoWPro.Achievements.CompletingQuest and ( action == "A" or action == "C" ) 
 			        and completion and WoWPro.missingQuest == QID then
 				        WoWProCharDB.Guide[GID].completion[i] = nil
 				        WoWPro:UpdateGuide()
@@ -693,9 +672,9 @@ function WoWPro.Profession:AutoCompleteQuestUpdate(questComplete)
 	end
 	
 	-- First Map Point --
-	if WoWPro.Profession.FirstMapCall then
+	if WoWPro.Achievements.FirstMapCall then
 		WoWPro:MapPoint()
-		WoWPro.Profession.FirstMapCall = false
+		WoWPro.Achievements.FirstMapCall = false
 	end
 	
 end
@@ -721,7 +700,7 @@ local function GetLootTrackingInfo(lootitem,lootqty,count)
 end
 
 -- Auto-Complete: Loot based --
-function WoWPro.Profession:AutoCompleteLoot(msg)
+function WoWPro.Achievements:AutoCompleteLoot(msg)
 	local lootqtyi
 	local _, _, itemid, name = msg:find(L["^You .*Hitem:(%d+).*(%[.+%])"])
 	local _, _, _, _, count = msg:find(L["^You .*Hitem:(%d+).*(%[.+%]).*x(%d+)."])
@@ -743,7 +722,7 @@ function WoWPro.Profession:AutoCompleteLoot(msg)
 end
 			
 -- Auto-Complete: Set hearth --
-function WoWPro.Profession:AutoCompleteSetHearth(...)
+function WoWPro.Achievements:AutoCompleteSetHearth(...)
 	local msg = ...
 	local _, _, loc = msg:find(L["(.*) is now your home."])
 	if loc then
@@ -759,7 +738,7 @@ function WoWPro.Profession:AutoCompleteSetHearth(...)
 end
 
 -- Auto-Complete: Zone based --
-function WoWPro.Profession:AutoCompleteZone()
+function WoWPro.Achievements:AutoCompleteZone()
 	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
 	local currentindex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
 	local action = WoWPro.action[currentindex]
@@ -776,7 +755,7 @@ function WoWPro.Profession:AutoCompleteZone()
 end
 
 -- Update Quest Tracker --
-function WoWPro.Profession:UpdateQuestTracker()
+function WoWPro.Achievements:UpdateQuestTracker()
 	if not WoWPro.GuideFrame:IsVisible() then return end
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end

@@ -1,4 +1,14 @@
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2011-08-26 04:46
+-- Who: Crackerhead22
+-- Log: Removed duplicate line of getting flight point for Forest Song.
+
+-- URL: http://wow-pro.com/node/3225/revisions/24735/view
+-- Date: 2011-08-16 21:04
+-- Who: Fluclo
+-- Log: Added Level info, and added breadcrumb quest info/turn-in
+
+-- URL: http://wow-pro.com/node/3225/revisions/24458/view
 -- Date: 2011-05-30 17:56
 -- Who: Ludovicus Maior
 -- Log: ! Line 243 for step R has unknown tag [211]: [R Path to the heart|QID|26472|M|77.87,73.54;77.04,74.20;75.86,73.56;75.99,74.05|CC|211]
@@ -89,9 +99,15 @@ WoWPro.Leveling:RegisterGuide('WkjAsh2025', 'Ashenvale', 'WKJezz', '20', '25', '
 
 return [[
 
-N Hi There!|NC|N|This guide will not include turn ins from quests obtained in Darkshore/Hero's Call Board. Please turn any of these lead in quests as you come across them. One more thing; Ashenvale has a weird design, so we will be making what seems some odd moves around the zone, this is to provide maximum possible XP. (Click this step to continue)|
+L Level 19 |QID|13594|LVL|19|N|This guide requires a minimum level of 19 to do.|
+
+N Ashenvale Guide |QID|13594|N|There are two breadcrumb quests to this guide, Ashes in Ashenvale from Balren of the Claw in Darkshore for those who worked through that zone, and Hero's Call: Ashenvale available from Darnassus.\n\nAshenvale has a weird design, so we will be making what seems some odd moves around the zone, this is to provide maximum possible XP. \n\n(Click this step to continue)|
 
 R Ashenvale|QID|13594|Z|Darkshore|M|46,96|N|This is one zone south of Darkshore. The nearest flight path will be "Grove of the Ancients". |
+
+T Ashes in Ashenvale |QID|26408|M|26.94,22.30|N|To Sentinel Shyela.|O|
+T Hero's Call: Ashenvale! |QID|28492|M|26.94,22.30|N|To Sentinel Shyela.|O|
+
 A Don't Forget the Horde|QID|13594|M|26.94,22.30|N|From Sentinel Shyela.|
 A Bathran's Hair|QID|26473|M|26.89,22.00|N|From Evenar Stillwhisper.|
 A Of Their Own Design|QID|13595|M|29.00,24.06|N|From Bathran.|
@@ -177,7 +193,7 @@ T Orendil's Cure|QID|26474|M|37.36,51.79|N|To Pelturas Whitemoon.|
 A Elune's Tear|QID|26475|M|37.32,51.81|N|From Pelturas Whitemoon. You will need to wait (15 seconds) after handing in Orendil's Cure before Pelturas offers the quest.|
 A A Helping Hand|QID|26453|M|35.00,49.96|N|Here is where things may seem odd in our zone flow. This will reap the most XP doing the zone this way. Mob levels are lowest on the East and West of the zone, so we need to do those first for Maximum XP gain.|
 R Forest Song|QID|26453|N| Talk to Vindicator Palanaar to ride the Elekk East to Forest Song.|M|34.98,49.92|
-f Forest Song|QID|26453|N|Get the flight point here.|M|85.1,43.5|
+
 T A Helping Hand|QID|26453|M|86.86,44.76|N|To Architect Nemos.|
 A A Shameful Waste|QID|26454|M|86.86,44.76|N|From Architect Nemos.|
 A Vile Satyr! Dryads in Danger!|QID|26467|M|86.72,42.98|N|From Illiyana.|

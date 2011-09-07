@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2011-08-23 23:28
+-- Who: Jiyambi
+-- Log: Added a few clarifications in directions.
+
+-- URL: http://wow-pro.com/node/3197/revisions/24515/view
 -- Date: 2011-06-07 23:03
 -- Who: Ludovicus Maior
 -- Log: ! Line 248 for step T has unknown tag [To Milly Osworth.]: [T Extinguishing Hope|QID|26391|M|48.15,42.52|To Milly Osworth.|]
@@ -161,14 +166,14 @@ A Join The Battle!|QID|28785|C|Paladin|R|Human|M|50.43,42.12|N|From Ashley Blank
 A Join The Battle!|QID|28784|C|Mage|R|Human|M|49.66,39.40|N|From Ashley Blank.|
 A Join The Battle!|QID|28780|C|Hunter|R|Human|M|48.55,42.56|N|From Ashley Blank.|
 A Join The Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.55,42.56|N|From Ashley Blank.|
-T Join The Battle!|QID|28788|C|Warlock|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
-T Join The Battle!|QID|28787|C|Rogue|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
-T Join The Battle!|QID|28786|C|Priest|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
-T Join The Battle!|QID|28789|C|Warrior|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
-T Join The Battle!|QID|28785|C|Paladin|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
-T Join The Battle!|QID|28784|C|Mage|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
-T Join The Battle!|QID|28780|C|Hunter|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
-T Join The Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.81,38.38|N|To Sergeant Willem.|
+T Join The Battle!|QID|28788|C|Warlock|R|Human|M|48.81,38.38|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join The Battle!|QID|28787|C|Rogue|R|Human|M|48.81,38.38|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join The Battle!|QID|28786|C|Priest|R|Human|M|48.81,38.38|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join The Battle!|QID|28789|C|Warrior|R|Human|M|48.81,38.38|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join The Battle!|QID|28785|C|Paladin|R|Human|M|48.81,38.38|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join The Battle!|QID|28784|C|Mage|R|Human|M|48.81,38.38|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join The Battle!|QID|28780|C|Hunter|R|Human|M|48.81,38.38|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join The Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.81,38.38|N|To Sergeant Willem, outside the abbey by the blue tent.|
 
 A They Sent Assassins|QID|28791|C|Hunter|R|Human|M|48.81,38.38|N|From Sergeant Willem.|
 A Fear No Evil|QID|28806|C|Hunter|R|Human|M|48.49,38.16|N|From Brother Paxton.|
@@ -254,7 +259,7 @@ C Extinguishing Hope|N|Extinguish the fires.|US|U|58362|QID|26391|M|54.02,48.52|
 T Extinguishing Hope|QID|26391|M|48.15,42.52|N|To Milly Osworth.|
 T Blackrock Invasion|QID|26389|M|48.20,42.06|N|To Marshal McBride.|
 A Ending The Invasion|QID|26390|M|48.20,42.06|N|From Marshal McBride.|
-C Ending The Invasion|N|Kill Kurtok The Slayer.|QID|26390|M|56.90,40.81|
+C Ending The Invasion|N|Kill Kurtok The Slayer (go around the abbey to get to him).|QID|26390|M|56.90,40.81|
 H Northshire Valley|QID|26390|U|6948|N|Hearth or run back.|M|48.20,42.06|
 T Ending The Invasion|QID|26390|M|48.20,42.06|N|To Marshal McBride.|
 A Report To Goldshire|QID|54|M|48.20,42.06|N|From Marshal McBride.|

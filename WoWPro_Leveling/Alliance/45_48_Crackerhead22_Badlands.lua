@@ -1,4 +1,19 @@
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2011-09-02 20:44
+-- Who: Fluclo
+-- Log: Added more detail on finding turnin for The Sentinel's Pawn, and added non-combat flag to The Good Stuff
+
+-- URL: http://wow-pro.com/node/3247/revisions/24733/view
+-- Date: 2011-08-15 21:25
+-- Who: Fluclo
+-- Log: Added some |NC| tags
+
+-- URL: http://wow-pro.com/node/3247/revisions/24728/view
+-- Date: 2011-08-12 23:45
+-- Who: Fluclo
+-- Log: Updated information on starting the guide.
+
+-- URL: http://wow-pro.com/node/3247/revisions/24541/view
 -- Date: 2011-06-10 20:47
 -- Who: Crackerhead22
 -- Log: Removed the quest "Hero's Call: Badlands!", added a couple notes, made a sticky step.
@@ -23,14 +38,19 @@
 
 WoWPro.Leveling:RegisterGuide('CraBad4548', 'Badlands', 'Crackerhead22', '45', '48', 'CraSea4850', 'Alliance', function()
 return [[
+L Level 44 |QID|27762|LVL|44|N|This guide requires a minimum level of 44 to do.|
 
-H Light's Hope Chapel|QID|27762|N|Hearth back to Light's Hope Chapel, or fly if your hearth is on cooldown.|
+R Light's Hope Chapel|QID|27762|N|The questing begins at Light's Hope Chapel in Eastern Plaguelands.  Head to there to begin this guide. \n\nYou can also grab hold the breadcrumb Hero's Quest from Ironforge or Stormwind, but this is not necessary for this guide.|Z|Eastern Kingdoms|
+T Hero's Call: Badlands! |QID|28579|N|To Gek Nozzlerocket|M|73.8,53.1|O|Z|Eastern Kingdoms|
+
 A Fuselight, Ho!|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|From Gek Nozzlerocket.|
 R Fuselight-by-the-Sea|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|Click on "The Uncrashable" behind Gek, and pray. It is some bad driving.|
 T Fuselight, Ho!|QID|27762|M|92.6,38.9|N|To Eddie Flofizzle.|
+
 A To Fuselight Proper|QID|27763|M|92.48,38.94|N|From Eddie Flofizzle.|
-R To Fuselight Proper|QID|27763|M|88.13,32.54|N|Run to the teleporter.|CC|
-f Fuselight|QID|27763|M|82.02,30.88;74.93,33.86;68.62,30.77;70.17,35.40;67.94,35.65;64.35,35.24|N|At Mixi Sweetride.|
+R Badlands|QID|27763|M|88.13,32.54|N|Head to Fuselight by going through the teleporter.|
+
+f Fuselight|QID|27763|M|82.02,30.88;74.93,33.86;68.62,30.77;70.17,35.40;67.94,35.65;64.35,35.24|N|Continue to Mixi Sweetride at Fuselight by following the glossy looking arrows.|
 h Fuselight|QID|27763|M|65.88,35.85|N|At Sally Gearwell.|
 T To Fuselight Proper|QID|27763|M|65.12,38.25|N|To Dolph Blastus.|
 A Easily Swayed|QID|27774|M|65.12,38.25|N|From Dolph Blastus.|
@@ -43,7 +63,7 @@ T When the Going Gets Tough, Cheat|QID|27775|M|64.35,37.97|N|To Garyanne Fleezle
 A It's Goat Time, Baby|QID|27776|M|64.47,37.93|N|From Garyanne Fleezlebop.|
 T Easily Swayed|QID|27774|M|65.06,38.26|N|To Dolph Blastus.|
 A A Strange Request|QID|27764|M|65.06,38.26|N|From Dolph Blastus.|
-C It's Goat Time, Baby|QID|27776|U|62397|M|61.45,36.83|N|Have fun sending 12 Billy Goats off the edge of the cliff.|
+C It's Goat Time, Baby|QID|27776|U|62397|M|61.45,36.83|N|Have fun sending 12 Billy Goats off the edge of the cliff.  There is a timed achievement requiring 12 in a minute as well.|NC|
 T It's Goat Time, Baby|QID|27776|M|64.34,38.14|N|To Garyanne Fleezlebop.|
 
 T A Strange Request|QID|27764|M|66.36,55.30|N|To Rhea.|
@@ -55,13 +75,13 @@ C First Sample: Wild Eggs|QID|27765|M|70.61,45.08|N|There at the bottom edges of
 T First Sample: Wild Eggs|QID|27765|M|66.48,55.30|N|To Rhea.|
 T Second Sample: Whelps|QID|27766|M|66.48,55.30|N|To Rhea.|
 A Lifting the Veil|QID|27770|M|66.48,55.30|N|From Rhea.|
-C Lifting the Veil|QID|27770|M|66.48,55.30|N|Witness the final piece of Rhea's studies. Basically waiting untill Nyxondra appears.|
+C Lifting the Veil|QID|27770|M|66.48,55.30|N|Witness the final piece of Rhea's studies. Basically waiting untill Nyxondra appears.|NC|
 T Lifting the Veil|QID|27770|M|66.46,55.38|N|To Rhea.|
 A Third Sample: Implanted Eggs|QID|27771|M|66.41,55.57|N|From Rhea.|
 C Third Sample: Implanted Eggs|QID|27771|M|66.08,56.81|N|You will have to beat her into submission for every egg needed(3).|
 T Third Sample: Implanted Eggs|QID|27771|M|66.46,55.39|N|To Rhea.|
 A Rhea Revealed|QID|27769|M|66.46,55.39|N|From Rhea.|
-C Rhea Revealed|QID|27769|M|66.52,55.31|N|Learn Rhea's true identity. Wait momentarily.
+C Rhea Revealed|QID|27769|M|66.52,55.31|N|Learn Rhea's true identity. Wait momentarily.|NC|
 T Rhea Revealed|QID|27769|M|66.52,55.31|N|To Rheastrasza.|
 A The Venerable Doctor Blam|QID|27772|M|66.52,55.31|N|From Rheastrasza.|
 
@@ -83,9 +103,9 @@ C All's Fair in Love, War, and Archaeology|QID|27792|M|57.09,54.10|N|Obtain a "B
 T All's Fair in Love, War, and Archaeology|QID|27792|M|49.16,36.82|N|To Lead Prospector Durdin.|
 A The Warden's Pawn|QID|27796|M|49.16,36.82|N|From Lead Prospector Durdin.|
 A The Sentinel's Pawn|QID|27797|M|49.16,36.82|N|From Lead Prospector Durdin.|
-C The Good Stuff|QID|27824|M|39.85,24.89|N|In the basement next to the fireplace.|
+C The Good Stuff|QID|27824|M|39.85,24.89|N|In the basement next to the fireplace.|NC|
 T The Good Stuff|QID|27824|M|49.38,36.91|N|To Sigrun Ironhew.|
-T The Sentinel's Pawn|QID|27797|M|48.13,50.89|N|At the Marble Slab.|
+T The Sentinel's Pawn|QID|27797|M|48.13,50.89|N|Underground in the Tomb of the Watchers, at the Marble Slab (right hand on entering tomb / the western annex)|
 A The Sentinel's Game|QID|27709|M|48.13,50.89|N|From the Marble Slab.|
 
 N The Sentinel's Game|QID|27709|N|The next few steps tell you which way to turn the statues. It may help to zoom the map in to better find the right one via the waypoint.|
