@@ -372,7 +372,7 @@ function WoWPro:MapPoint(row)
 	    WoWPro:Print("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
 	end
 	
-	if TomTom and TomTom.db then
+	if TomTom and TomTom.AddMFWaypoint then
 		TomTom.db.profile.arrow.setclosest = true
 		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 		
@@ -454,7 +454,7 @@ function WoWPro:MapPoint(row)
 		end
 		TomTom.db.profile.persistence.cleardistance = OldCleardistance
 	elseif TomTom then 
-		-- Parsing and mapping coordinates --
+		-- Legacy Parsing and mapping coordinates for Carbonite --
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
 			local jcoord = select(numcoords-j+1, string.split(";", coords))
