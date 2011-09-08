@@ -6,7 +6,7 @@ WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
 WoWPro.DebugMode = false
 WoWPro.Guides = {}
-WoWPro.InitLockdown = true  -- Set when the addon is loaded
+WoWPro.InitLockdown = false  -- Set when the addon is loaded
 
 -- WoWPro keybindings name descriptions --
 _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
@@ -105,17 +105,11 @@ function WoWPro:OnEnable()
 
 	-- Warning if the user is missing TomTom --
 	if not TomTom then
-		WoWPro:Print("It looks like you don't have |cff33ff33TomTom|r installed. "
+		WoWPro:Print("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
 			.."WoW-Pro's guides won't have their full functionality without it! "
 			.."Download it for free from www.wowinterface.com or www.curse.com .")
 	end
 	
-	if not TomTom.AddMFWaypoint then
-		WoWPro:Print("It looks like you don't have a recent |cff33ff33TomTom|r installed. "
-			.."WoW-Pro's guides won't have their full functionality without it! "
-			.."Download it for free from www.wowinterface.com or www.curse.com .")
-    end	
-
 	-- Warning if the user is missing Swatter --
 	if not Swatter then
 		WoWPro:Print("It looks like you don't have |cff33ff33Swatter|r installed. "
@@ -162,6 +156,7 @@ function WoWPro:OnEnable()
 	    if WoWPro.LockdownTimer ~= nil then
 	        WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
 	        if WoWPro.LockdownTimer < 0 then
+	            WoWPro:dbp("Lockdown Timer expired.  Return to normal")
 	            WoWPro.LockdownTimer = nil
 	            WoWPro.InitLockdown = false
                 WoWPro:LoadGuide()			-- Loads Current Guide (if nil, loads NilGuide)
@@ -178,7 +173,9 @@ function WoWPro:OnEnable()
 	
 
 		-- Unlocking event processong till after things get settled --
-		if event == "PLAYER_ENTERING_WORLD" then	    
+		if event == "PLAYER_ENTERING_WORLD" then
+		    WoWPro:dbp("Setting Timer 1")
+		    WoWPro.InitLockdown = true
 		    WoWPro.LockdownTimer = 2.0
 		end
 		
@@ -202,13 +199,14 @@ function WoWPro:OnEnable()
 			end
 		end
 		
-		if WoWPro.InitLockdown then
-		    return
-		end
-		
 		-- Locking event processong till after things get settled --
 		if event == "PLAYER_LEAVING_WORLD" then
+		    WoWPro:dbp("Locking Down 1")
 		    WoWPro.InitLockdown = true
+		end
+		
+		if WoWPro.InitLockdown then
+		    return
 		end
 		
 		-- Unlocking guide frame when leaving combat --
