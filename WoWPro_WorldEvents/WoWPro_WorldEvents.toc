@@ -3,7 +3,7 @@
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 2.2.21
+## Version: 2.1.21
 
 ## X-Category: Quest
 
