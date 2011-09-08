@@ -201,7 +201,7 @@ local function ParseQuests(...)
 					WoWPro.optional[i] = true
 					WoWPro.optionalcount = WoWPro.optionalcount + 1 
 				end
-				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
+--				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
 
 				if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
 					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
@@ -211,10 +211,10 @@ local function ParseQuests(...)
 
 				if text:find("|NC|") then WoWPro.noncombat[i] = true end
 				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
-				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
+--				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 				WoWPro.target[i] = text:match("|T|([^|]*)|?")
                                 WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
-				WoWPro.prof[i] = text:match("|P|([^|]*)|?")
+				WoWPro.prof[i] = text:match("|P|([^|]*)|?") or WoWPro.Guides[WoWProDB.char.currentguide].name
 				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
 
 				for _,tag in pairs(WoWPro.Tags) do 
