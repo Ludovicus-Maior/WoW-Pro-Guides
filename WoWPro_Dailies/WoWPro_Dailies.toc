@@ -4,7 +4,6 @@
 ## Author: Jiyambi
 ## Dependencies: WoWPro
 ## Version: 2.1.21A
-
 ## X-Category: Quest
 
 WoWPro_Dailies.lua

@@ -4,7 +4,6 @@
 ## Author: Twists
 ## Dependencies: WoWPro
 ## Version: 2.1.21A
-
 ## X-Category: Quest
 
 WoWPro_Profession.lua

@@ -4,7 +4,11 @@
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
+<<<<<<< HEAD
 ## Version: 2.1.21A
+=======
+## Version: 2.1.21
+>>>>>>> 3e41210d3fcffa8de9a2d3694eb89fd9442f07b9
 
 ## X-Category: Compilations
 
