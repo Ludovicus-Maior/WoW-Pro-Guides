@@ -237,7 +237,6 @@ function WoWPro:OnEnable()
 --	WoWPro:MapPoint()				-- Maps the active step
 	-- If the base addon was disabled by the user, put it to sleep now.
 	if not WoWProCharDB.Enabled then
-	    WoWPro:Print("|cffff3333Disabled|r: Core Addon")
 	    WoWPro:Disable()
 	    return
 	end
@@ -246,9 +245,16 @@ end
 
 -- Called when the addon is disabled --
 function WoWPro:OnDisable()
+	-- Module Disabling --
+	for name, module in WoWPro:IterateModules() do
+		WoWPro:dbp("Disabling "..name.." module...")
+		module:Disable()
+	end
+
 	WoWPro:AbleFrames()								-- Hides all frames
 	WoWPro.EventFrame:UnregisterAllEvents()	-- Unregisters all events
 	WoWPro:RemoveMapPoint()							-- Removes any active map points
+	WoWPro:Print("|cffff3333Disabled|r: Core Addon")
 end
 
 -- Tag Registration Function --
