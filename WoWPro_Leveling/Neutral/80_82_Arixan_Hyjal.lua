@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2011-09-24 21:00
+-- Who: Crackerhead22
+-- Log: Added "FACTION|Alliance|" faction tag to the quest "The Voice of Goldrinn" via STrek's find.
+
+-- URL: http://wow-pro.com/node/3303/revisions/24669/view
 -- Date: 2011-07-07 18:47
 -- Who: Fluclo
 -- Log: Adding a Lead quest to Aviana's Legacy
@@ -164,7 +169,7 @@ C Harrying the Hunters|QID|25255|RANK|2|M|33.79,26.14|N|Kill Twilight Hunters.|
 C In the Rear With the Gear|QID|25234|RANK|2|M|31.73,27.97|N|Kill Twilight Slavedrivers then pick up the Twilight Supplies the slaves drop|US|
 C End of the Supply Line|QID|25233|M|33.55,32.73|N|Kill Twilight Proveditors.|US|
 T End of the Supply Line|QID|25233|M|35.70,19.63|N|To Jadi Falaryn.|
-A The Voice of Goldrinn|QID|25268|PRE|25233|M|35.70,19.63|N|From Jadi Falaryn.|
+A The Voice of Goldrinn|QID|25268|PRE|25233|M|35.70,19.63|N|From Jadi Falaryn.|FACTION|Alliance|
 T In the Rear With the Gear|QID|25234|RANK|2|M|35.70,19.63|N|To Jadi Falaryn.|
 T Harrying the Hunters|QID|25255|RANK|2|M|35.69,19.55|N|To Oomla Whitehorn.|
 
