@@ -21,7 +21,7 @@ for guidID,guide in pairs(WoWPro.Guides) do
 		})
 	end
 end
-table.sort(guides, function(a,b) return a.startlevel < b.startlevel end)
+table.sort(guides, function(a,b) return a.name < b.name end)
 
 -- Populating Guide List --
 function WoWPro.WorldEvents.UpdateGuideList()
