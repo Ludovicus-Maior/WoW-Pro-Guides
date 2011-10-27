@@ -18,7 +18,7 @@ function WoWPro.WorldEvents:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: WorldEvents Module")
 	
 	-- WorldEvents Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat"})
+	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "prereq"})
 	
 	-- Event Registration --
 	WoWPro.WorldEvents.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
