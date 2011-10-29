@@ -1,7 +1,7 @@
 --------------------------------------
 --      WoWPro_WorldEvents_Parser      --
 --------------------------------------
-	
+
 local L = WoWPro_Locale
 WoWPro.WorldEvents.actiontypes = {
 	A = "Interface\\GossipFrame\\AvailableQuestIcon",
@@ -12,10 +12,12 @@ WoWPro.WorldEvents.actiontypes = {
 	H = "Interface\\Icons\\INV_Misc_Rune_01",
 	h = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
 	F = "Interface\\Icons\\Ability_Druid_FlightForm",
+	f = "Interface\\Icons\\Ability_Hunter_EagleEye",
 	N = "Interface\\Icons\\INV_Misc_Note_01",
 	B = "Interface\\Icons\\INV_Misc_Coin_01",
 	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	U = "Interface\\Icons\\INV_Misc_Bag_08",
+	L = "Interface\\Icons\\Spell_ChargePositive",
 	l = "Interface\\Icons\\INV_Misc_Bag_08",
 	r = "Interface\\Icons\\Ability_Repair"
 }
@@ -28,10 +30,12 @@ WoWPro.WorldEvents.actionlabels = {
 	H = "Hearth to",
 	h = "Set hearth to",
 	F = "Fly to",
+	f = "Get flight path for",
 	N = "Note:",
 	B = "Buy",
 	b = "Boat or Zeppelin",
 	U = "Use",
+	L = "Level",
 	l = "Loot",
 	r = "Repair/Restock"
 }
@@ -48,6 +52,52 @@ function WoWPro.WorldEvents:NextStep(k, skip)
 		if WoWPro.QuestLog[WoWPro.QID[k]] then 
 			skip = false -- If the optional quest is in the quest log, it's NOT skipped --
 		end
+		
+		-- Checking Prerequisites --
+		if WoWPro.prereq[k] then
+			skip = false -- defaulting to NOT skipped
+			
+			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+			for j=1,numprereqs do
+				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+				if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+					skip = true -- If one of the prereqs is NOT complete, step is skipped.
+				end
+			end
+		end
+
+	end
+	
+	-- Skipping quests with prerequisites if their prerequisite was skipped --
+	if WoWPro.prereq[k] 
+	and not WoWProCharDB.Guide[GID].skipped[k] 
+	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then 
+		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+		for j=1,numprereqs do
+			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+			if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
+				skip = true
+				-- If their prerequisite has been skipped, skipping any dependant quests --
+				if WoWPro.action[k] == "A" 
+				or WoWPro.action[k] == "C" 
+				or WoWPro.action[k] == "T" then
+					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+					WoWProCharDB.Guide[GID].skipped[k] = true
+				else
+					WoWProCharDB.Guide[GID].skipped[k] = true
+				end
+			end
+		end
+	end
+
+
+	-- Skipping Achievements if completed  --
+	if WoWPro.ach[k] then
+		local achnum, achitem = string.split(";",WoWPro.ach[k])
+		local count = GetAchievementNumCriteria(achnum)
+		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+		if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true
+		else skip=false end
 	end
 					
 	return skip
@@ -68,6 +118,26 @@ function WoWPro.WorldEvents:SkipStep(index)
 	end
 	local steplist = ""
 	
+	local function skipstep(currentstep)
+		for j = 1,WoWPro.stepcount do 
+			if WoWPro.prereq[j] then
+				local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
+				for k=1,numprereqs do
+					local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
+					if tonumber(kprereq) == WoWPro.QID[currentstep] 
+					and WoWProCharDB.skippedQIDs[WoWPro.QID[currentstep]] then
+						if WoWPro.action[j] == "A" 
+						or WoWPro.action[j] == "C" 
+						or WoWPro.action[j] == "T" then
+							WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = true
+						end
+						steplist = steplist.."- "..WoWPro.step[j].."\n"
+						skipstep(j)
+					end
+				end
+			end 
+		end
+	end
 	
 	skipstep(index)
 	
@@ -173,6 +243,7 @@ local function ParseQuests(...)
 				end
 				_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
 				WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
+
 				if text:find("|O|") then 
 					WoWPro.optional[i] = true
 					WoWPro.optionalcount = WoWPro.optionalcount + 1 
@@ -187,11 +258,19 @@ local function ParseQuests(...)
 
 				if text:find("|NC|") then WoWPro.noncombat[i] = true end
 				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
-				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
+--				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 				WoWPro.target[i] = text:match("|T|([^|]*)|?")
-                                    WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
+                                WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
 				WoWPro.prof[i] = text:match("|P|([^|]*)|?")
 				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
+				WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
+
+				if WoWPro.ach[i] then
+					local achnum, achitem = string.split(";",WoWPro.ach[i])
+					local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+					if WoWPro.step[i] == "Achievement" then WoWPro.note[i] = description.. " ("..quantityString..")" end
+				end
+
 
 				for _,tag in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][i] then WoWPro[tag][i] = false end
@@ -252,6 +331,11 @@ function WoWPro.WorldEvents:LoadGuide()
 				    WoWProCharDB.Guide[GID].completion[i] = true
 			    end
 		    end
+
+		    -- Checking level based completion --
+		    if not completion and level and tonumber(level) <= UnitLevel("player") then
+			    WoWProCharDB.Guide[GID].completion[i] = true
+		    end
 		end
 	end
 	
@@ -271,7 +355,6 @@ function WoWPro.WorldEvents:RowUpdate(offset)
 		or not WoWPro.Guides[GID]
 		then return 
 	end
-	WoWPro:dbp("Running: WoWPro.WorldEvents:RowUpdate()")
 	WoWPro.ActiveStickyCount = 0
 	local reload = false
 	local lootcheck = true
@@ -305,12 +388,20 @@ function WoWPro.WorldEvents:RowUpdate(offset)
 		local lootqty = WoWPro.lootqty[k] 
 		local questtext = WoWPro.questtext[k] 
 		local optional = WoWPro.optional[k] 
+		local prereq = WoWPro.prereq[k] 
+--		local leadin = WoWPro.leadin[k] 
 		local target = WoWPro.target[k] 
 		if WoWPro.prof[k] then
 			local prof, proflvl = string.split(" ", WoWPro.prof[k]) 
 		end
 		local completion = WoWProCharDB.Guide[GID].completion
 		
+		-- Checking off lead in steps --
+		if leadin and WoWProCharDB.completedQIDs[tonumber(leadin)] and not completion[k] then
+			completion[k] = true
+			return true --reloading
+		end
+
 		-- Unstickying stickies --
 		if unsticky and i == WoWPro.ActiveStickyCount+1 then
 			for n,row in ipairs(WoWPro.rows) do 
@@ -465,9 +556,17 @@ function WoWPro.WorldEvents:RowUpdate(offset)
 		
 		-- Target Button --
 		if target then
-			row.targetbutton:Show() 
-			row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
+			local target, spell, amt = string.split(";",target)
+			spell = tonumber(spell) or 0
+			amt = tonumber(amt) or 1
+
+			row.targetbutton:Show()
+			if spell == 2 then
+				row.targetbutton:SetAttribute("macrotext", "/"..target.." ")
+			else 
+				row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
 				.."\n/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end")
+			end
 			if use then
 				row.targetbutton:SetPoint("TOPRIGHT", row.itembutton, "TOPLEFT", -5, 0)
 			else
@@ -524,7 +623,7 @@ end
 
 -- Event Response Logic --
 function WoWPro.WorldEvents:EventHandler(self, event, ...)
-	WoWPro:dbp("Running: WorldEvents Event Handler")
+	WoWPro:dbp("Running: WorldEvents Event Handler "..event)
 		
 	-- Noticing if we have entered a Dungeon!
 	if event == "ZONE_CHANGED_NEW_AREA" and WoWProCharDB.AutoHideWorldEventsInsideInstances == true then
@@ -810,6 +909,22 @@ function WoWPro.WorldEvents:AutoCompleteZone()
 	end
 end
 
+-- Auto-Complete: Level based --
+function WoWPro.WorldEvents:AutoCompleteLevel(...)
+	local newlevel = ... or UnitLevel("player")
+	if WoWProCharDB.Guide then
+		local GID = WoWProDB.char.currentguide
+		if not WoWProCharDB.Guide[GID] then return end
+		for i=1,WoWPro.stepcount do
+			if not WoWProCharDB.Guide[GID].completion[i] 
+				and WoWPro.level[i] 
+				and tonumber(WoWPro.level[i]) <= newlevel then
+					WoWPro.CompleteStep(i)
+			end
+		end
+	end
+end
+
 -- Update Quest Tracker --
 function WoWPro.WorldEvents:UpdateQuestTracker()
 	if not WoWPro.GuideFrame:IsVisible() then return end
@@ -875,4 +990,22 @@ function WoWPro.WorldEvents:UpdateQuestTracker()
 		row.track:SetText(track)
 	end
 	if not InCombatLockdown() then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
+end
+
+-- Get Currently Available Spells --
+function WoWPro.WorldEvents.GetAvailableSpells(...)
+	local newLevel = ... or UnitLevel("player")
+	local i, j = 1, 0
+	local availableSpells = {}
+	while GetSpellBookItemName(i, "spell") do
+		local info = GetSpellBookItemInfo(i, "spell")
+		local name = GetSpellBookItemName(i, "spell")
+		if info == "FUTURESPELL" and not "Master Riding" and not "Artisan Riding"
+		and GetSpellAvailableLevel(i, "spell") <= newLevel then
+			table.insert(availableSpells,name)
+			j = j + 1
+		end
+		i = i + 1
+	end
+	return j, availableSpells
 end
