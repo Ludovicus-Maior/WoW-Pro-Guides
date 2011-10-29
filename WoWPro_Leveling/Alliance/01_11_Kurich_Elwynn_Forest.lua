@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2011-10-26 21:16
+-- Who: Fluclo
+-- Log: Added |NC| tags
+
+-- URL: http://wow-pro.com/node/3197/revisions/24740/view
 -- Date: 2011-08-23 23:28
 -- Who: Jiyambi
 -- Log: Added a few clarifications in directions.
@@ -200,14 +205,14 @@ C They Sent Assassins|N|Kill goblin assassins.|QID|28795|C|Rogue|R|Human|M|48.40
 C They Sent Assassins|N|Kill goblin assassins.|QID|28793|C|Paladin|R|Human|M|48.40,35.79|S|
 C They Sent Assassins|N|Kill goblin assassins.|QID|28796|C|Warlock|R|Human|M|48.40,35.79|S|
 C They Sent Assassins|N|Kill goblin assassins.|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.40,35.79|S|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28806|C|Hunter|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28808|C|Mage|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28813|C|Warrior|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28810|C|Priest|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28811|C|Rogue|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28809|C|Paladin|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28812|C|Warlock|R|Human|M|48.40,35.79|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.40,35.79|US|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28806|C|Hunter|R|Human|M|48.40,35.79|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28808|C|Mage|R|Human|M|48.40,35.79|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28813|C|Warrior|R|Human|M|48.40,35.79|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28810|C|Priest|R|Human|M|48.40,35.79|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28811|C|Rogue|R|Human|M|48.40,35.79|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28809|C|Paladin|R|Human|M|48.40,35.79|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28812|C|Warlock|R|Human|M|48.40,35.79|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.40,35.79|US|NC|
 C They Sent Assassins|N|Kill goblin assassins.|QID|28791|C|Hunter|R|Human|M|48.40,35.79|US|
 C They Sent Assassins|N|Kill goblin assassins.|QID|28792|C|Mage|R|Human|M|48.40,35.79|US|
 C They Sent Assassins|N|Kill goblin assassins.|QID|28797|C|Warrior|R|Human|M|48.40,35.79|US|
@@ -253,9 +258,9 @@ T The Rear Is Clear|QID|29083|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|48.20,42.
 
 A Blackrock Invasion|QID|26389|M|48.20,42.06|N|From Marshal McBride.|
 A Extinguishing Hope|QID|26391|M|48.15,42.52|N|From Milly Osworth.|
-C Extinguishing Hope|N|Extinguish the fires.|S|U|58362|QID|26391|M|54.02,48.52|
+C Extinguishing Hope|N|Extinguish the fires.|S|U|58362|QID|26391|M|54.02,48.52|NC|
 C Blackrock Invasion|N|Kill and loot Orcs until you have 8 Blackrock Weapons.|QID|26389|M|54.02,48.52|
-C Extinguishing Hope|N|Extinguish the fires.|US|U|58362|QID|26391|M|54.02,48.52|
+C Extinguishing Hope|N|Extinguish the fires.|US|U|58362|QID|26391|M|54.02,48.52|NC|
 T Extinguishing Hope|QID|26391|M|48.15,42.52|N|To Milly Osworth.|
 T Blackrock Invasion|QID|26389|M|48.20,42.06|N|To Marshal McBride.|
 A Ending The Invasion|QID|26390|M|48.20,42.06|N|From Marshal McBride.|
@@ -291,10 +296,10 @@ A Note To William|QID|107|M|34.94,83.86|N|From Gramma Stonefield.|
 R The Maclure Vineyards|N|Kill Kobold Tunnelers on the way.|QID|107|M|40.47,86.61|
 T Back To Billy|QID|84|M|43.13,85.72|N|To Billy Maclure.|
 A Goldtooth|QID|87|M|43.13,85.72|N|From Billy Maclure.|
-C Goldtooth|N|Go to goldtooth's Den, Kill Goldtooth and loot Bernice's Necklace.|T|Goldtooth|QID|87|M|40.10,80.64|
+C Goldtooth|N|Go to goldtooth's Den (which is located OUTSIDE of the mine), kill Goldtooth and loot Bernice's Necklace.|T|Goldtooth|QID|87|M|40.10,80.64|
 C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|S|
 C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|S|
-C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest completed message.|QID|62|M|39.04,82.51|
+C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest completed message.|QID|62|M|39.04,82.51|NC|
 C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|US|
 C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|US|
 T Goldtooth|QID|87|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
@@ -312,7 +317,7 @@ r Sell Junk,Restock,Train and Repair.|QID|112|
 
 C Collecting Kelp|N|Kill Murlocs until you have 4 Crystal Kelp Fronds.|QID|112|M|50.93,66.47|
 R Jasperlode Mine|N|Go to the Jasperlode Mine.|QID|76|M|60.88,59.15|
-C The Jasperlode Mine|N|Go into the mine until you get a quest completed message.|QID|76|M|61.74,53.91|
+C The Jasperlode Mine|N|Go into the mine until you get a quest completed message.|QID|76|M|61.74,53.91|NC|
 H Lion's Pride Inn |QID|35|U|6948|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|M|43.77,65.80|
 T Collecting Kelp|QID|112|M|43.32,65.70|N|To William Pestle.|
 A The Escape|QID|114|M|43.32,65.70|N|From William Pestle.|
@@ -342,7 +347,7 @@ A Manhunt|QID|147|M|81.86,66.04|N|From Marshal McCree.|
 f Eastvale Logging Camp|QID|147|M|81.83,66.56|N|At Goss the Swift.|
 r Sell Junk and Repair.|QID|147|
 
-C A Bundle Of Trouble|N|Collect 8 Bundles Of Wood.|QID|5545|M|80.75,61.33|
+C A Bundle Of Trouble|N|Collect 8 Bundles Of Wood.|QID|5545|M|80.75,61.33|NC|
 T A Bundle Of Trouble|QID|5545|M|81.38,66.11|N|To Supervisor Raelen.|
 C Protect The Frontier|N|Kill the remaining wolves and Bears you need to finish the quest.|QID|52|M|87.55,67.79|US|
 R Ridgepoint Tower|N|If you want the explorer's achievement go to Ridgepoint Tower now.|QID|147|M|83.99,78.92|

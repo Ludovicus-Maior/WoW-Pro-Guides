@@ -1,4 +1,17 @@
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2011-10-11 04:21
+-- Who: Gethe
+-- Log: Updated "Vial of Visions", uses Crystal Vials now not Imbued Vials.
+
+-- URL: http://wow-pro.com/node/3294/revisions/24760/view
+-- Date: 2011-10-10 23:55
+-- Who: Gethe
+
+-- URL: http://wow-pro.com/node/3294/revisions/24755/view
+-- Date: 2011-10-10 03:32
+-- Who: Gethe
+
+-- URL: http://wow-pro.com/node/3294/revisions/24607/view
 -- Date: 2011-06-25 02:48
 -- Who: Crackerhead22
 -- Log: ! Quest 12164 has an A step and no T - Added in turn in step.
@@ -25,7 +38,7 @@
 -- Date: 2010-12-03 22:26
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamGriH7577", "Grizzly Hills", "Jame", "75", "77", "ScoZulH7778", "Horde", function()
+WoWPro.Leveling:RegisterGuide("JamGriH7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Horde", function()
 --Original guide written/designed by Jame
 --Addon Version: Last Modified 7/14/2010
 return [[
@@ -107,7 +120,7 @@ N Dull Carving Knife|QID|11989|L|38083|N|Next to the cage you should find a Dull
 C Truce?|QID|11989|U|38083|N|Use the Carving Knife then talk to Drakuru and click on the text.|M|16.4,47.8|
 T Truce?|QID|11989|M|16.4,47.8|
 A Vial of Visions|QID|11990|M|16.4,47.8|
-B Imbued Vials|QID|11990|L|18256|N|Buy a stack of 5 Imbued Vials from Ameenah.|M|16.0,47.8|
+B Crystal Vial|QID|11990|L|3371|N|Buy a Crystal Vial from Ameenah.|M|16.0,47.8|
 
 C Vial of Visions|QID|11990|N|Go north/northwest to the lake. Dive in and loot Waterweed Frond. Look for Hazelwood Bushes on the way and loot 3 Haze Leafs.|M|15.0,39.0|
 T Vial of Visions|QID|11990|M|16.4,47.8|

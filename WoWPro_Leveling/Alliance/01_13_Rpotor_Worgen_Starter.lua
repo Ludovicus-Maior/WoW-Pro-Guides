@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2011-10-15 02:13
+-- Who: Crackerhead22
+-- Log: A couple of minor tweaks. -Crackerhead22
+
+-- URL: http://wow-pro.com/node/3211/revisions/24714/view
 -- Date: 2011-07-29 12:16
 -- Who: Fluclo
 -- Log: typo
@@ -131,6 +136,7 @@ WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "01", 
 return [[
 
 ; Zone is Ruins of Gilneas City
+N Check Your Mail |QID|14098|Z|GilneasCity|M|58.94,31.89|N|There's a mailbox a few steps south. You can pick up your Bind on Account items and pets here.|O|
 A Lockdown! |QID|14078|Z|GilneasCity|M|59.11,23.83|N|From Prince Liam Greymane right in front of you.|
 
 T Lockdown! |QID|14078|Z|GilneasCity|M|54.65,16.68|N|Go north and then west along the street to Lieutenant Walden lying on the ground.|
@@ -141,7 +147,6 @@ A All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.80,22.23|N|From Prince Lia
 A Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|
 
 A Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.58,26.77|N|Go a few steps south to Gwen Armstead.|
-N Check Your Mail |QID|14098|Z|GilneasCity|M|58.94,31.89|N|There's a mailbox a few steps south. You can pick up your Bind on Account items and pets here.|O|
 
 C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|Z|GilneasCity|M|58.8,32.7|S|
 C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|Z|GilneasCity|M|58.8,32.7|S|NC|
@@ -258,7 +263,7 @@ C Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.9|N|Mount Crowley's Horse.  Whil
 T Sacrifices |QID|14212|Z|GilneasCity|M|40.3,39.5|N|To Tobias Mistmantle.|
 A By Blood and Ash |QID|14218|Z|GilneasCity|M|40.3,39.5|N|From Tobias Mistmantle|
 
-C By Blood and Ash |QID|14218|Z|GilneasCity|M|38.7,38.6|N|Hop on a cannon and then use the Rebel Cannon ability to kill 100 Bloodfang Stalkers.|
+C By Blood and Ash |QID|14218|Z|GilneasCity|M|38.7,38.6|N|Hop on a cannon and then use the Rebel Cannon ability to kill 80 Bloodfang Stalkers.|
 
 T By Blood and Ash |QID|14218|Z|GilneasCity|M|40.3,39.5|N|To Tobias.|
 A Never Surrender, Sometimes Retreat |QID|14221|Z|GilneasCity|M|40.3,39.5|N|From Tobias Mistmantle.|
@@ -270,7 +275,7 @@ C Last Stand |QID|14222|Z|GilneasCity|M|45.3,47.4|N|Kill 8 Frenzied Stalkers.|
 
 T Last Stand |QID|14222|Z|GilneasCity|M|48.8,52.6|N|Turn in back at Crowley and enjoy the cinematic.|
 
-A Last Chance at Humanity|QID|14375|Z|Gilneas_terrain2|M|36.48,61.38|NC|N|Accept quest from King Genn Greymane, and click off this step.|
+A Last Chance at Humanity|QID|14375|Z|Gilneas_terrain2|M|36.48,61.38|NC|N|Accept quest from King Genn Greymane.|
 ; No Turn-in as this quest auto-completes
 ; Zone is now Ruins of Gilneas
 A Among Humans Again|QID|14313|Z|Gilneas_terrain2|M|36.45,62.20|N|From Lord Godfrey.|
@@ -304,17 +309,17 @@ A Unleash the Beast|QID|14369|Z|Gilneas_terrain2|M|28.90,63.91|N|From Lord Godfr
 A Two By Sea|QID|14382|Z|Gilneas_terrain2|M|28.90,63.91|N|From Lord Godfrey.|
 A Save the Children!|QID|14368|Z|Gilneas_terrain2|M|28.90,63.91|N|From Melinda Hammond.|
 
+C Unleash the Beast|QID|14369|Z|Gilneas_terrain2|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|S|
 C Talk to James|QID|14368|Z|Gilneas_terrain2|M|28.56,66.74|QO|James rescued: 1/1|N|James is northwest, next to the house. Right-click James to rescue him.|NC|
 C Talk to Ashley|QID|14368|Z|Gilneas_terrain2|M|27.92,66.64|QO|Ashley rescued: 1/1|N|Inside the house upstairs. Right-click to rescue her.|NC|
 C Talk to Cynthia|QID|14368|Z|Gilneas_terrain2|M|29.59,69.18|QO|Cynthia rescued: 1/1|N|Go southeast to the cornfield and find Cynthia near the shed. Right-click her to rescue her.|NC|
-T Save the Children!|QID|14368|Z|Gilneas_terrain2|M|28.89,63.97|N|To Melinda Hammond.|
-N Sell Junk|QID|14369|Z|Gilneas_terrain2|M|28.81,63.48|N|Sell Junk.|
 
-C Unleash the Beast|QID|14369|Z|Gilneas_terrain2|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|S|
 C Kill Captain Anson|QID|14382|Z|Gilneas_terrain2|M|25.34,72.20;23.9,75.0|QO|Captain Anson slain: 1/1|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.|
 C Kill Captain Morris|QID|14382|Z|Gilneas_terrain2|M|29.54,74.23;27.2,80.0|QO|Captain Morris slain: 1/1|N|Go to another catapult, kill the Forsaken Machinist, launch yourself onto the other ship. Go downstairs and kill Captain Morris.|
 C Unleash the Beast|QID|14369|Z|Gilneas_terrain2|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|US|
 
+N Sell Junk|QID|14369|Z|Gilneas_terrain2|M|28.81,63.48|N|Sell Junk at Marie Allen.|
+T Save the Children!|QID|14368|Z|Gilneas_terrain2|M|28.89,63.97|N|To Melinda Hammond.|
 T Unleash the Beast|QID|14369|Z|Gilneas_terrain2|M|28.89,63.97|N|To Lord Godfrey.|
 T Two By Sea|QID|14382|Z|Gilneas_terrain2|M|28.89,63.97|N|To Lord Godfrey.|
 A Leader of the Pack|QID|14386|Z|Gilneas_terrain2|M|28.89,63.97|N|From Lord Godfrey.|
@@ -356,9 +361,9 @@ A Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|36.84,84.19|N|From Sebastia
 A Washed Up|QID|14412|Z|Gilneas_terrain2|M|36.84,84.19|N|From Sebastian Hayward.|
 
 C Washed Up|QID|14412|Z|Gilneas_terrain2|M|36.83,85.06|N|Kill 6 Forsaken Castaways.|S|
-C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|37.53,85.96|QO|Coal Tar: 1/1|N|Loot the Barrel of Coal Tar.|NC|
-C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|37.42,87.13|QO|Shipwright's Tools: 1/1|N|Loot the Shipwright's Tools, inside the house.|NC|
-C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|36.17,86.44|N|Loot the Planks of Wood.|NC|
+l Coal Tar|QID|14404|Z|Gilneas_terrain2|M|37.53,85.96|L|49339|N|Loot the Barrel of Coal Tar.|
+l Shipwright's Tools|QID|14404|Z|Gilneas_terrain2|M|37.42,87.13|L|49337|N|Loot the Shipwright's Tools, inside the house.|
+C Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|36.17,86.44|N|Loot the Planks of Wood.|
 C Washed Up|QID|14412|Z|Gilneas_terrain2|M|36.83,85.06|N|Kill 6 Forsaken Castaways.|US|
 T Not Quite Shipshape|QID|14404|Z|Gilneas_terrain2|M|36.88,84.20|N|To Sebastian Hayward.|
 T Washed Up|QID|14412|Z|Gilneas_terrain2|M|36.88,84.20|N|To Sebastian Hayward.|
@@ -396,7 +401,7 @@ C Pest Control|QID|24484|Z|Gilneas_terrain2|M|63.74,91.01|N|Kill 6 Vilebrood Ski
 T Pest Control|QID|24484|Z|Gilneas_terrain2|M|59.84,91.70|N|To Gwen Armstead.|
 A Queen-Sized Troubles|QID|24501|Z|Gilneas_terrain2|M|59.84,91.70|N|From Gwen Armstead.|
 T Pieces of the Past|QID|24495|Z|Gilneas_terrain2|M|60.25,91.78|N|To Lorna Crowley.|
-C Queen-Sized Troubles|QID|24501|Z|Gilneas_terrain2|M|67.95,81.90|
+C Queen-Sized Troubles|QID|24501|Z|Gilneas_terrain2|M|67.95,81.90|N|Kill Rygna.|
 T Queen-Sized Troubles|QID|24501|Z|Gilneas_terrain2|M|59.87,91.76|N|To Gwen Armstead.|
 A The Blackwald|QID|24578|Z|Gilneas_terrain2|M|60.27,91.78|N|From Lorna Crowley.|
 
@@ -406,7 +411,6 @@ C Losing Your Tail|QID|24616|Z|Gilneas_terrain2|M|63.93,81.23|N|Walk on the free
 T Losing Your Tail|QID|24616|Z|Gilneas_terrain2|M|63.33,82.95|N|To Belrysa Starbreeze.|
 A Tal'doren, the Wild Home|QID|24617|Z|Gilneas_terrain2|M|63.33,82.95|N|From Belrysa Starbreeze.|
 
-N Sell Junk|QID|24617|Z|Gilneas_terrain2|M|68.13,74.49|N|Sell Junk.|
 T Tal'doren, the Wild Home|QID|24617|Z|Gilneas_terrain2|M|68.69,73.29|N|To Lord Darius Crowley.|
 A At Our Doorstep|QID|24627|Z|Gilneas_terrain2|M|68.85,73.28|N|From Lord Darius Crowley.|
 A Preparations|QID|24628|Z|Gilneas_terrain2|M|69.27,72.99|N|From Vassandra Stormclaw.|
@@ -425,10 +429,11 @@ T Neither Human Nor Beast|QID|24593|Z|Gilneas_terrain2|M|68.77,73.28|N|To Lord D
 A Return to Stormglen|QID|24673|Z|Gilneas_terrain2|M|68.77,73.28|N|From Lord Darius Crowley.|
 T Return to Stormglen|QID|24673|Z|Gilneas_terrain2|M|59.84,91.76|N|To Gwen Armstead.|
 A Onwards and Upwards|QID|24672|Z|Gilneas_terrain2|M|59.84,91.76|N|From Gwen Armstead.|
+N Sell Junk|QID|24617|Z|Gilneas_terrain2|M|68.13,74.49|N|Sell Junk.|
 
 T Onwards and Upwards|QID|24672|Z|Gilneas_terrain2|M|67.51,91.81;71.10,86.90;72.71,80.13|N|To Krennan Aranas.|
 A Betrayal at Tempest's Reach|QID|24592|Z|Gilneas_terrain2|M|72.71,80.13|N|From Krennan Aranas.|
-N Betrayal at Tempest's Reach|QID|24592|Z|Gilneas_terrain2|M|79.09,72.63;82.53,68.99;85.23,73.95|QO|Baron Ashbury slain: 1/1|N|Cross the bridge, drink your Krennan's Potion of Stealth. Keep going until you cross another bridge leading to a big house with a large tower. Kill Baron Ashbury, preferably near the back entrance to the house.||U|50218|
+K Baron Ashbury|QID|24592|Z|Gilneas_terrain2|M|79.09,72.63;82.53,68.99;85.23,73.95|QO|Baron Ashbury slain: 1/1|N|Cross the bridge, drink your Krennan's Potion of Stealth. Keep going until you cross another bridge leading to a big house with a large tower. Kill Baron Ashbury, preferably near the back entrance to the house. The dogs can see through the stealth, so be careful.|U|50218|
 C Betrayal at Tempest's Reach|QID|24592|Z|Gilneas_terrain2|M|82.07,66.63;80.34,63.97;77.97,66.20|N|Drink your Krennan's Potion of Stealth again, get in the village, follow the road to the top of the hill and kill Lord Walden, preferably inside the house.|U|50218|
 T Betrayal at Tempest's Reach|QID|24592|Z|Gilneas_terrain2|M|78.27,72.01|N|To King Genn Greymane.|U|50218|
 A Flank the Forsaken|QID|24677|Z|Gilneas_terrain2|M|78.27,72.01|N|From King Genn Greymane.|

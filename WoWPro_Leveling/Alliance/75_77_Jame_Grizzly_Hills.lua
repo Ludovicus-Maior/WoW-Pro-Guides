@@ -1,4 +1,12 @@
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2011-10-10 23:55
+-- Who: Gethe
+
+-- URL: http://wow-pro.com/node/3293/revisions/24754/view
+-- Date: 2011-10-10 03:31
+-- Who: Gethe
+
+-- URL: http://wow-pro.com/node/3293/revisions/24629/view
 -- Date: 2011-06-30 04:50
 -- Who: Crackerhead22
 -- Log: Fixed accept line of "Troll Season" per Bloodlusted's catch.
@@ -55,7 +63,7 @@
 -- Date: 2010-12-03 22:24
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "75", "77", "ScoZulA7778", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Alliance", function()
 return [[
 
 f Amberpine Lodge |QID|12511|M|31.33,59.16|N|Grab the flightpoint at Vana Grey.|

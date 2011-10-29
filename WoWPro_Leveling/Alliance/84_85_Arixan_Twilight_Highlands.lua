@@ -1,4 +1,19 @@
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2011-10-22 22:14
+-- Who: Fluclo
+-- Log: Added details on where Siren's Song is
+
+-- URL: http://wow-pro.com/node/3311/revisions/24767/view
+-- Date: 2011-10-22 21:54
+-- Who: Fluclo
+-- Log: Added detail to some notes
+
+-- URL: http://wow-pro.com/node/3311/revisions/24766/view
+-- Date: 2011-10-22 21:35
+-- Who: Fluclo
+-- Log: NC steps added
+
+-- URL: http://wow-pro.com/node/3311/revisions/24671/view
 -- Date: 2011-07-10 11:57
 -- Who: Crackerhead22
 -- Log: Fixed a spelling mistake per Aberdeen's catch.
@@ -51,7 +66,7 @@ A Hero's Call: Twilight Highlands!|QID|28716|M|62.90,71.78|N|From the Message bo
 T Hero's Call: Twilight Highlands!|QID|28716|M|85.62,31.93|N|To King Varian Wrynn.|Z|Stormwind City|
 
 A My Son, the Prince|QID|26960|PRE|28716|M|85.62,31.93|N|From King Varian Wrynn.|Z|Stormwind City|
-C My Son, the Prince|QID|26960|M|85.64,31.86|Z|Stormwind City|N|Talk to Anduin,|
+C My Son, the Prince|QID|26960|M|85.64,31.86|Z|Stormwind City|N|Talk to Anduin,|NC|
 T My Son, the Prince|QID|26960|M|85.62,31.93|N|To King Varian Wrynn.|Z|Stormwind City|
 
 A Rallying the Fleet|QID|26975|M|85.62,31.93|N|From King Varian Wrynn.|Z|Stormwind City|
@@ -59,70 +74,70 @@ A Twilight Investigation|QID|26977|M|85.62,31.93|N|From King Varian Wrynn.|Z|Sto
 T Twilight Investigation|QID|26977|M|85.26,31.42|N|To Major Samuelson.|Z|Stormwind City|
 
 A The Usual Suspects|QID|26997||PRE|26977|M|85.26,31.42|N|From Major Samuelson.|Z|Stormwind City|
-C The Usual Suspects|QID|26997|M|29.06,25.46|N|Interrogate dock workers in this area.|Z|Stormwind City|
+C The Usual Suspects|QID|26997|M|29.06,25.46|N|Interrogate dock workers in this area.|Z|Stormwind City|NC|
 T The Usual Suspects|QID|26997|M|29.06,25.46|N|To Anduin Wrynn.|Z|Stormwind City|
 
-C Rallying the Fleet|QID|26975|M|33.33,39.07|N|Speak to Supply Sergeant Graves.|Z|Stormwind City|
+C Rallying the Fleet|QID|26975|M|33.33,39.07|N|Speak to Supply Sergeant Graves.|Z|Stormwind City|NC|
 T Rallying the Fleet|QID|26975|M|33.33,39.07|N|To Supply Sergeant Graves.|Z|Stormwind City|
 
 A Missing Parts|QID|27038|PRE|26975|M|33.33,39.07|N|From Supply Sergeant Graves.|Z|Stormwind City|
 A Peasant Problems|QID|27044|PRE|26977|M|33.23,39.38|N|From Anduin Wrynn.|Z|Stormwind City|
 
-C Missing Parts|QID|27038|PRE|26975|M|34.09,43.89|N|Found in this area around the docks.|Z|Stormwind City|
+C Missing Parts|QID|27038|PRE|26975|M|34.09,43.89|N|Found in this area around the docks.|Z|Stormwind City|NC|
 T Missing Parts|QID|27038|PRE|26975|M|34.50,38.28|N|To Fargo Flintlocke.|Z|Stormwind City|
 
 A He's Holding Out on Us|QID|27064|PRE|26977|N|From Anduin Wrynn|Z|Stormwind City|
-C Peasant Problems|QID|27044|NC|M|52.07,6.26|N|Speak to Farmer Wallerton at the Walleton Stead.|Z|Stormwind City|
+C Peasant Problems|QID|27044|NC|M|52.07,6.26|N|Speak to Farmer Wallerton at the Walleton Stead.|Z|Stormwind City|NC|
 T Peasant Problems|QID|27044|M|52.07,6.26|N|To Farmer Wallerton.|Z|Stormwind City|
 
 A Unholy Cow|QID|27060|PRE|26977|M|51.96,5.83|N|From Farmer Wollerton.|Z|Stormwind City|
 C Unholy Cow|QID|27060|M|44.05,4.28|N|Follow the trail of parts. You will be attacked once the first part of the quest is completed. If you die, then you will need to return to the throne room to retrive the prince again.|Z|Stormwind City|
 T Unholy Cow|QID|27060|M|44.05,4.28|N|To Anduin Wrynn.|Z|Stormwind City|
 
-C He's Holding Out on Us|QID|27064|M|80.39,62.34|N|There is a small stairwell leading up to the 3rd floor.|Z|Stormwind City|
+C He's Holding Out on Us|QID|27064|M|80.39,62.34|N|Head to SI:7 in The Old Town.  There is a small stairwell leading up to the 3rd floor.|Z|Stormwind City|NC|
 
 T He's Holding Out on Us|QID|27064|M|80.39,62.34|N|To Anduin Wrynn.|Z|Stormwind City|
 A Expert Opinion|QID|28807|PRE|26977|M|80.39,62.34|N|From Anduin Wrynn|Z|Stormwind City|
 T Expert Opinion|QID|28807|M|81.28,63.32|N|To Master Mathias Shaw, same building.|
 
 A The Old Barracks|QID|27072|PRE|26977|M|81.28,63.32|N|From Master Mathias Shaw.|Z|Stormwind City|
-C The Old Barracks|QID|27072|M|37.24,56.47|N|Kill crazed cultists. Work on this building since you need to make your way down to the bottom floor to turn in this quest.|Z|Stormwind City|
+C The Old Barracks|QID|27072|M|37.24,56.47|N|Head to the Ruined Barracks. Kill crazed cultists. Work on the building at the waypoint, since you need to make your way down to the bottom floor to turn in this quest.|Z|Stormwind City|
 T The Old Barracks|QID|27072|M|37.24,56.47|N|To Jack Bauden.|
 
 A Cataclysm in the Catacombs|QID|27092|PRE|26977|M|37.24,56.47|N|From Jack Bauden.|Z|Stormwind City|
-C Cataclysm in the Catacombs|QID|27092|M|51.30,42.30|N|You must enter the catacombs found in the bottom of the Cathedral of Light. Kill the Black Bishop and then disarm the bomb.|Z|Stormwind City|
-T Cataclysm in the Catacombs|QID|27092|M|50.45,42.42|N|From the disarmed bomb.|Z|Stormwind City|
+C Cataclysm in the Catacombs|QID|27092|M|51.30,42.30|N|Head to the Cathedral of Light, then back right hand side will be the route down to the catacombs found in the bottom of the Cathedral of Light. Kill the Black Bishop and then disarm the bomb.|Z|Stormwind City|
+T Cataclysm in the Catacombs|QID|27092|M|50.45,42.42|N|To the disarmed bomb.|Z|Stormwind City|
 
 A A Villain Unmasked|QID|27106|PRE|26977|M|50.45,42.42|N|From the disarmed bomb.|Z|Stormwind City|
-C A Villain Unmasked|QID|27106|M|85.19,32.25|N|Talk to Major Samuelson|Z|Stormwind City|
+C A Villain Unmasked|QID|27106|M|85.19,32.25|N|Head to Stormwind Keep, and talk to Major Samuelson.  Once confronted, he will turn into a Level 84 elite, which the Guards will help you defeat.|Z|Stormwind City|
 T A Villain Unmasked|QID|27106|M|85.66,32.00|N|To King Varian Wrynn.|Z|Stormwind City|
 
 A Twilight Shores|QID|28238|PRE|26977|M|85.66,32.00|N|From King Varian Wrynn.|Z|Stormwind City|
-T Twilight Shores|QID|28238|M|26.19,47.29|N|To Fargo Flintlocke.|Z|Stormwind City|
+T Twilight Shores|QID|28238|M|26.19,47.29|N|To Fargo Flintlocke in Stormwind Harbour.|Z|Stormwind City|
 
 A Twilight Shores|QID|28832|PRE|26977|M|26.19,47.29|N|From Fargo Flintlocke. Then hop in his boat.|Z|Stormwind City|
-T Twilight Shores|QID|28832|M|80.99,79.43|N|To Lieutenant Fawkes.|
+T Twilight Shores|QID|28832|M|80.99,79.43|N|Hop into Flintlocke's Seaplane which will take you to The Twilight Highlands, then to Lieutenant Fawkes.|
 
 A Welcome to Highbank!|QID|28596|PRE|26977|M|80.99,79.43|N|From Lieutenant Fawkes.|
-C Welcome to Highbank!|QID|28596|M|79.04,76.01|N|Kill Horde attackers.|
+C Welcome to Highbank!|QID|28596|M|79.04,76.01|N|Kill the Axebite Infantry (avoid the Bilgewater Gunman as well as Grit's 387k and a PvP flag)|
 T Welcome to Highbank!|QID|28596|M|80.99,79.43|N|To Lieutenant Fawkes.|
 
 A Burnin' at Both Ends|QID|28597|M|81.00,79.34|N|From Fargo Flintlocke.|
-C Burnin' at Both Ends|QID|28597|M|78.74,76.27|N|Collect cannon powder around Highbank.|
+C Burnin' at Both Ends|QID|28597|M|78.74,76.27|N|Collect cannon powder around Highbank. You can stay mounted on your flying mount for this quest.|NC|
 T Burnin' at Both Ends|QID|28597|M|78.68,76.85|N|To Fargo Flintlocke.|
 
 A Aiming High|QID|28598|PRE|28597|M|78.68,76.85|N|From Fargo Flintlocke.|
-C Aiming High|QID|28598|U|64660|M|78.68,76.85|N|Wait in line to get loaded into the cannon. Once you arrive on the Skyshredder, plant the explosive.|
+C Aiming High|QID|28598|U|64660|M|78.68,76.85|N|Wait for a few seconds before you are loaded into the cannon. Once you arrive on the Skyshredder, plant the explosive, then jump off the flying boat.|NC|
 T Aiming High|QID|28598|M|78.68,76.85|N|To Fargo Flintlocke.|
 
 A Kurdran's Waitin'|QID|28599|PRE|28597|M|78.93,76.70|N|From Fargo Flintlocke.|
-T Kurdran's Waitin'|QID|28599|M|79.10,78.32|N|To Kurdran Wildhammer inside the castle.|
+T Kurdran's Waitin'|QID|28599|M|79.10,78.32|N|To Kurdran Wildhammer upstairs inside the castle.|
 
 A Our Boys on the Shore|QID|27338|PRE|28597|M|79.10,78.32|N|From Kurdran Wildhammer.|
 A Salvage Operation|QID|27177|M|79.28,78.47|N|From Simon Chandler.|
 A Naga Reinforcements|QID|27178|M|78.28,78.47|N|From Simon Chandler.|
 
-A Siren's Song|QID|27200|M|76.02,79.70|N|From Ephram Hardstone.|
+A Siren's Song|QID|27200|M|76.02,79.70|N|From Ephram Hardstone, who's on the sinking ship at the Obsidian Breakers (southwest of Highbank).|
 C Siren's Song|QID|27200|M|76.09,79.69|N|Once you're able to, attack and kill Ophelia. Make sure Ephram doesn't die.|
 T Siren's Song|QID|27200|M|76.01,79.97|N|To Ephram Hardstone.|
 
