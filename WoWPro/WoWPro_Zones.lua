@@ -896,6 +896,7 @@ WoWPro.Zone2MapID = {
 			["cont"] = "Northrend",
 			["zone"] = "Dalaran",
 			["mapName"] = "Dalaran",
+			["floor"] = 1
 		},
 		["SunwellPlateau"] = {
 			["numFloors"] = 2,
