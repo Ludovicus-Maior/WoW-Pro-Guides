@@ -7,7 +7,7 @@ local ROWHEIGHT, GAP, EDGEGAP = 17, 8, 16
 local titlerow, rows, offset = {}, {}, 0
 local NUMROWS = 15 
 
--- Creating a Table of Guides for the Guide List and sorting based on level --
+-- Creating a Table of Guides for the Guide List and sorting based on name --
 local guides = {}
 for guidID,guide in pairs(WoWPro.Guides) do
 	if guide.guidetype == "WorldEvents" then
@@ -21,7 +21,7 @@ for guidID,guide in pairs(WoWPro.Guides) do
 		})
 	end
 end
-table.sort(guides, function(a,b) return a.startlevel < b.startlevel end)
+table.sort(guides, function(a,b) return a.name < b.name end)
 
 -- Populating Guide List --
 function WoWPro.WorldEvents.UpdateGuideList()
