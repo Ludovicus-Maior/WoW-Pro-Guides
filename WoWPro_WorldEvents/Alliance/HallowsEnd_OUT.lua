@@ -1,4 +1,4 @@
-WoWPro.WorldEvents:RegisterGuide("TwiHollKAL","Hallow's End (Outland)","Hallows End (Outland)","WE", "Twists", "Alliance", function()
+WoWPro.WorldEvents:RegisterGuide("TwiHollOUT","Hallow's End (Outland)","Hallows End (Outland)","WE", "Twists", "Alliance", function()
 return [[
 
 R The Dark Portal|QID|12352|N|In the Mage Tower in Stormwind or The Temple of the Moon in Darnassus.|Z|Stormwind City|M|50.3,86|
