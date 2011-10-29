@@ -679,7 +679,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	if event == "QUEST_COMPLETE" then
         local qidx = WoWPro.rows[1].index
         local questtitle = GetTitleText();
-		if WoWProCharDB.AutoTurnin == true and WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
+		if WoWProCharDB.AutoTurnin == true and (WoWPro.action[qidx] == "T" or WoWPro.action[qidx] == "A") and questtitle == WoWPro.step[qidx] then
 		    if (GetNumQuestChoices() <= 1) then
 		        GetQuestReward(0)
 		    end
