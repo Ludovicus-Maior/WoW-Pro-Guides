@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2011-11-10 23:10
+-- Who: Fluclo
+-- Log: Added |NC| to Redpine Thievery
+
+-- URL: http://wow-pro.com/node/3244/revisions/24537/view
 -- Date: 2011-06-09 14:57
 -- Who: Crackerhead22
 -- Log: Note tweaks.
@@ -164,17 +169,19 @@ A Too Close for Comfort|QID|27013|M|48.35,31.84|N|From Kelly Dumah.|
 C Too Close for Comfort|QID|27013|M|52.55,27.06|N|Hunt down those Rabid Foxes.|
 T Too Close for Comfort|QID|27013|M|48.49,32.00|N|To Kelly Dumah.
 
-A Redpine Thievery|QID|27011|PRE|27013|M|48.49,32.00|N|From Kelly Dumah.|
+A Redpine Thievery|QID|27011|PRE|27013|M|48.49,32.00|N|From Kelly Dumah.|S|
 A A Gnoll's Resolve|QID|27012|PRE|27013|M|48.49,32.00|N|From Kelly Dumah.|
+A Redpine Thievery|QID|27011|PRE|27013|M|48.49,32.00|N|From Kelly Dumah.|US|
 
 C A Gnoll's Resolve|QID|27012|S|M|49.71,42.20|N|Kill and loot Redpine Gnolls and Shamwns until you have 6 Repine Clubs and Staves.|
-C Redpine Thievery|QID|27011|M|49.76,42.09|N|They look like stacks of three sparkling logs.|
+C Redpine Thievery|QID|27011|M|49.76,42.09|N|They look like stacks of three sparkling logs.|NC|
 C A Gnoll's Resolve|QID|27012|US|M|49.71,42.20|N|Finish killing Gnolls for the needed loot.|
 
-T Redpine Thievery|QID|27011|M|48.41,32.11|N|To Kelly Dumah.|
+T Redpine Thievery|QID|27011|M|48.41,32.11|N|To Kelly Dumah.|S|
 T A Gnoll's Resolve|QID|27012|M|48.41,32.11|N|To Kelly Dumah.|
+T Redpine Thievery|QID|27011|M|48.41,32.11|N|To Kelly Dumah.|US|
 
-C Learning the Ropes|QID|27000|M|47.67,31.80;45.33,35.73|N|Hop on a charger, run into a group of spiders and use Ability 1 to scare them away.|
+C Learning the Ropes|QID|27000|M|47.67,31.80;45.33,35.73|N|Hop on a charger, run into a group of spiders and use Ability 1 to scare them away.|NC|
 T Learning the Ropes|QID|27000|M|48.13,32.44|N|To Nathaniel Dumah.|
 
 A This Means WAR (Wild Arachnid Roundup)|QID|27001|M|48.13,32.44|N|From Nathaniel Dumah.|

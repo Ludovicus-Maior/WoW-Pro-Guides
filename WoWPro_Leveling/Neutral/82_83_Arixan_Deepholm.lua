@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2011-11-03 20:53
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3307/revisions/24687/view
 -- Date: 2011-07-23 02:50
 -- Who: Crackerhead22
 -- Log: Corrected spelling for the quest "Loose Stones" (was missing the last 's' in the accept and complete steps). Found by Odysyus.
@@ -259,8 +263,8 @@ N Inn sealed|QID|26501|U|58885|M|26.17,69.85|QO|Inn sealed: 1/1|N|Kill any trogg
 C Sealing the Way|QID|26501|U|58885|M|26.0,68.8|N|Seal the Barracks.|
 C Thunder Stones|QID|26502|US|M|25.84,68.47|N|Finish collecting Thunder Stones.|
 T Sealing the Way|QID|26501|M|24.55,62.41|N|To Gravel Longslab.|
+A Shatter Them!|QID|26537|PRE|26501|M|24.55,62.41|N|From Gravel Longslab.|
 T Thunder Stones|QID|26502|M|24.72,62.14|N|To Clay Mudaxle.|
-A Shatter Them!|QID|26537|PRE|26501;26502|M|24.55,62.41|N|From Gravel Longslab.|
 A Fixer Upper|QID|26564|PRE|26501;26502|M|24.72,62.14|N|From Clay Mudaxle.|
 A Battlefront Triage|QID|26591|PRE|26501;26502|M|24.63,62.11|N|From Earthmender Deepvein.|
 C Fixer Upper|QID|26564|S|M|21.01,57.78|N|Collect 6 Catapult Parts.|
@@ -278,18 +282,18 @@ T Rush Delivery|QID|27126|M|20.77,61.56|N|To Peak Grindstone.|
 A Close Escort|QID|26632|PRE|27126|M|20.69,61.59|N|From Peak Grindstone.|
 C Close Escort|QID|26632|N|This is a standard escort quest. Just follow the catapult as it works its way to your destination.|
 T Close Escort|QID|26632|M|22.60,52.10|N|To Pyrium Lodestone.|
-A Keep Them off the Battlefront|QID|26755|PRE|26632|N|From Pyrium Lodestone.|
-C Keep Them off the Battlefront|QID|26755|N|Hop in one of the catapults to the left of Pyrium. Kill anything that moves until the quest is complete.|
-T Keep Them off the Battlefront|QID|26755|N|To Pyrium Lodestone.|
-A Reactivate the Construct|QID|26762|PRE|26755|N|From Pyrium Lodestone.|
+A Keep Them off the Front|QID|26755|PRE|26632|N|From Pyrium Lodestone.|
+C Keep Them off the Front|QID|26755|N|Hop in one of the catapults to the left of Pyrium. Kill anything that moves until the quest is complete.|
+T Keep Them off the Front|QID|26755|N|To Pyrium Lodestone.|
+A Reactivate the Constructs|QID|26762|PRE|26755|N|From Pyrium Lodestone.|
 A Mystic Masters|QID|26770|PRE|26755|N|From Flint Oremantle.|
-C Reactivate the Construct|QID|26762|S|M|24.00,48.00|N|Reactivate Deactivated War Constructs.|
+C Reactivate the Constructs|QID|26762|S|M|24.00,48.00|N|Reactivate Deactivated War Constructs.|
 C Mystic Masters|QID|26770|M|24.00,48.00|N|Slay 5 Needlerock Mystics.|
-C Reactivate the Construct|QID|26762|US|M|24.00,48.00|N|Finish reactivate the 5 Deactivated War Constructs.|
-T Reactivate the Construct|QID|26762|N|To Pyrium Lodestone.|
+C Reactivate the Constructs|QID|26762|US|M|24.00,48.00|N|Finish reactivate the 5 Deactivated War Constructs.|
+T Reactivate the Constructs|QID|26762|N|To Pyrium Lodestone.|
 T Mystic Masters|QID|26770|N|To Flint Oremantle.|
-A Down into the Chasm|QID|26834|PRE|26762;26770|M|22.6,52.1|N|From Pyrium Lodestone.|
-T Down into the Chasm|QID|26834|M|27.6,44.9|N|To Slate Quicksand.|
+A Down Into the Chasm|QID|26834|PRE|26762;26770|M|22.6,52.1|N|From Pyrium Lodestone.|
+T Down Into the Chasm|QID|26834|M|27.6,44.9|N|To Slate Quicksand.|
 A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
 A Fungal Monstrosities|QID|26792|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
 C Sprout No More|QID|26791|S|N|Obtain a War Guardian and start destroying Giant Mushrooms and Fungal Monstrosities.|
@@ -299,11 +303,11 @@ T Sprout No More|QID|26791|M|27.6,44.9|N|To Slate Quicksand.|
 T Fungal Monstrosities|QID|26792|M|27.6,44.9|N|To Slate Quicksand.|
 A A Slight Problem|QID|26835|PRE|26791;26792|M|27.6,44.9|N|From Slate Quickand.|
 T A Slight Problem|QID|26835|PRE|26791;26792|M|22.6,52.1|N|To Pyrium Lodestone.|
-A Rescue the Stonefather...and Flint|QID|26836|PRE|26835|M|22.6,52.1|N|From Pyrium Lodestone.|
-C Rescue the Stonefather...and Flint|QID|26836|M|24.64,32.41;24.57,30.94|N|Fly to this bridge and then kill Bouldergut.|
-T Rescue the Stonefather...and Flint|QID|26836|M|22.6,52.1|N|To Pyrium Lodestone.|
-A The Hero returns|QID|27937|PRE|26836|M|22.6,52.1|N|From Pyrium Lodestone.|
-T The Hero returns|QID|27937|M|28,68.6|N|To Stonefather Oremantle.|
+A Rescue the Stonefather... and Flint|QID|26836|PRE|26835|M|22.6,52.1|N|From Pyrium Lodestone.|
+C Rescue the Stonefather... and Flint|QID|26836|M|24.64,32.41;24.57,30.94|N|Fly to this bridge and then kill Bouldergut.|
+T Rescue the Stonefather... and Flint|QID|26836|M|22.6,52.1|N|To Pyrium Lodestone.|
+A The Hero Returns|QID|27937|PRE|26836|M|22.6,52.1|N|From Pyrium Lodestone.|
+T The Hero Returns|QID|27937|M|28,68.6|N|To Stonefather Oremantle.|
 A The Middle Fragment|QID|27938|PRE|27937|M|28,68.6|N|From Stonefather Oremantle.|
 C The Middle Fragment|QID|27938|M|28,68.72|N|In The Stonefather's Safe, right behind Oremantle.|
 T The Middle Fragment|QID|27938|M|49.5,53.3|N|To Earthcaller Yevaa.|
@@ -438,15 +442,15 @@ T The Twilight Flight|QID|26831|M|64.1,36.9|N|To Terath.|
 C The Stone March|QID|26829|M|62,35.6|US|N|Finish killing Cultists.|
 T The Stone March|QID|26829|M|63.3,25.1|N|To Therazane.|
 T Therazane's Mercy|QID|26832|M|63.3,25.1|N|To Therazane.|
-A Word in Stone|QID|26833|PRE|26829;26831;26832|N|From Therazane.|
-T Word in Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
+A Word In Stone|QID|26833|PRE|26829;26831;26832|N|From Therazane.|
+T Word In Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
 A Undying Twilight|QID|26875|PRE|26833|N|From Maruut.|
-C Undying Twilight|QID|26875|M|47.68,53.09|N|Kill Twilight Invaders and Desecrated Earthrager.|
+C Undying Twilight|QID|26875|M|47.68,53.09|N|Kill Twilight Invaders and a Desecrated Earthrager.|
 T Undying Twilight|QID|26875|N|(UI Alert)|
 A The Binding|QID|26971|PRE|26875|M|49.8,52.8|N|(UI Alert)|
 C The Binding|QID|26971|N|Kill High Priestess Lorthuna.|
 T The Binding|QID|26971|N|To Earthcaller Torunscar.|
-A The Stone Throne|QID|26709|PRE|26971|M|49.7,53.3|N|Will open up the Daily Quest hub in Deepholm.|
+A The Stone Throne|QID|26709|PRE|26971|M|49.7,53.3|N|Will open up the Daily Quest hub in Deepholm, and to let the temple go back to normal.|
 A Wayward Child|QID|28824|PRE|26709|M|56.5,12.2|N|This is a Quest for Stonecore, the 5-man Dungeon in this zone. Feel free to pick up this quest so you can do it when you run the instance. However that will not be covered here.|
 T The Stone Throne|QID|26709|M|56.4,12.2|N|Back up on Therazane's Throne.|
 
@@ -456,7 +460,7 @@ C The Twilight Plot|QID|27004|M|41.00,69.00|N|Kill Twilight Cultist in the area 
 C Fly Over|QID|27006|M|39.10,73.90|N|Fly to the Masters' Gate.|FACTION|Alliance|
 T The Twilight Plot|QID|27004|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 T Fly Over|QID|27006|M|47.4,51.4|N|To Prospector Brewer.|FACTION|Alliance|
-A Fight Fire and Water and Air With...|QID|27042|PRE|27004;27006|RANK|2|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
+A Fight Fire and Water and Air with...|QID|27042|PRE|27004;27006|RANK|2|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
 A Decryption Made Easy|QID|27040|PRE|27004;27006|N|From Explorer Mowi.|FACTION|Alliance|
 C Decryption Made Easy|QID|27040|S|M|38,69.9;39.6,73.8;41.2,71.8|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
 C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental.|FACTION|Alliance|
@@ -466,8 +470,8 @@ C Decryption Made Easy|QID|27040|US|M|38,69.9;39.6,73.8;41.2,71.8|N|Look for the
 T Decryption Made Easy|QID|27040|N|(UI Alert)|FACTION|Alliance|
 A The Wrong Sequence|QID|27058|PRE|27040|N|Quest starts automatic.|FACTION|Alliance|
 C The Wrong Sequence|QID|27058|M|39.15,73.75|N|Go to the Waygate, use the Waygate Contoller located directly in front of the Waygate to destroy it.|FACTION|Alliance|
-C Fight Fire and Water and Air With...|QID|27042|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|FACTION|Alliance|
-T Fight Fire and Water and Air With...|QID|27042|RANK|2|N|To Prospector Brewer.|FACTION|Alliance|
+C Fight Fire and Water and Air with...|QID|27042|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|FACTION|Alliance|
+T Fight Fire and Water and Air with...|QID|27042|RANK|2|N|To Prospector Brewer.|FACTION|Alliance|
 T The Wrong Sequence|QID|27058|PRE|27040|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 A That's No Pyramid!|QID|28292|PRE|27058|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
 R Stormwind City|QID|28292|M|48.53,53.84|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Stormwind.|FACTION|Alliance|
@@ -505,5 +509,6 @@ T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|F
 T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|Tanaris|FACTION|Horde|
 
 N This ends this guide.|N|Close this step to continue to Uldum guide.|
+
 ]]
 end)

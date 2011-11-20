@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2011-11-09 12:43
+-- Who: Fluclo
+-- Log: Added level indicator, improved handling when Stonetalon Mountains is done without doing Ashenvale before it, added kill step for Krom'gar Incinerators, updated quest handling around Windshear Mine, changed handling of Just Ask Alice quests, added extra info and class steps for Beware of Cragjaw, added a kill step into Rumble in the Lumber, moved Hearthstone earlier in list, added daily quest that's available in the zone.  Added |NC| tags where appropriate.
+
+-- URL: http://wow-pro.com/node/3233/revisions/24412/view
 -- Date: 2011-05-23 05:41
 -- Who: Crackerhead22
 -- Log: Rearranged a few steps for better flow, removed the static |QID|99999| that was in certain steps, added notes and some cords. Changed the next guide ID to the GID of Desolace, since in the guide it states that it go there.
@@ -29,24 +34,53 @@
 WoWPro.Leveling:RegisterGuide('WkjSton2530', 'Stonetalon Mountains', 'WKjezz', '25', '30', 'WkjDes3035', 'Alliance', function()
 return [[
 
-N Before we start...|N|This guide pick up from the exact point where Ashenvale leaves off; Stardust Spire in Ashenvale. If you are starting this zone from new the quests marked optional should not apply to you. (Click the check box to continue).|
+L Level 24 |N|You need to be Level 24 to work this guide.|QID|25614|LVL|24|
 
-A The Only Way Down is in a Body Bag|QID|25614|O|M|71.80,45.67|N|From Kalen Trueshot.|
-T Do Yourself a Favor|QID|25613|O|M|71.87,39.04;71.80,45.67|N|To Kalen Trueshot.|
-C The Only Way Down is in a Body Bag|QID|25614|M|71.84,45.83|N|Shoot the windriders with the cannon, and then the parachutes.|
+R Stardust Spire |QID|13979|N|You start off Stonetalon Mountains from Stardust Spire, Ashenvale.  This is south of Astranaar.\n\nThere is a breadcrumb Hero's Call from The Exodar and Darnassus, otherwise this guide comes off the Ashenvale guide (there are four quests overlap that should be picked up by the guide).\n\nYou will be performing a few quests in Astranaar before heading to Stonetalon Mountains, this is the only way to get a lot of the Stonetalon Quests.|M|35.25,71.50|Z|Ashenvale|
+
+A The Goblin Braintrust|QID|13979|M|35.07,71.55|N|From Huntress Jalin.|S|Z|Ashenvale|
+A They Took Our Gnomes|QID|13913|M|35.13,71.69|N|From Huntress Jalin.|S|Z|Ashenvale|
+T Hero's Call: Stonetalon Mountains! |QID|28539|N|To Huntress Jalin|M|35.08,71.56|Z|Ashenvale|
+A The Goblin Braintrust|QID|13979|M|35.07,71.55|N|From Huntress Jalin.|US|Z|Ashenvale|
+A They Took Our Gnomes|QID|13913|M|35.13,71.69|N|From Huntress Jalin.|US|Z|Ashenvale|
+
+A Ze Gnomecorder|QID|25607|M|35.28,71.30|N|From Professor Xakxak Gyromate.|Z|Ashenvale|
+
+C They Took Our Gnomes|QID|13913|M|43,63.6;44.8,65.3;47.0,65.7|N|Head to The Skunkworks, then look for the (badly driven) caravan (it only runs along the road).  Kill the driver Painmaster Thundrak.|Z|Ashenvale|
+
+C Ze Gnomecorder|QID|25607|S|M|47.15,65.01|N|Kill and loot Goblin Technicians, to get the Filthy Goblin Technology.|Z|Ashenvale|
+C The Goblin Braintrust|QID|13979|M|46.18,61.58|N|Kill and loot Chief Bombgineer Sploder.|Z|Ashenvale|
+A They Set Them Up The Bomb! |QID|13981|M|46.3,61.3|N|From The Bomb|Z|Ashenvale|
+C Ze Gnomecorder|QID|25607|US|M|46.46,61.31|N|Finish killing and loot Goblin Technicians, to get the Filthy Goblin Technology.|Z|Ashenvale|
+
+T Ze Gnomecorder|QID|25607|M|35.36,71.17|N|To Professor Xakxak Gyromate.|Z|Ashenvale|
+
+T The Goblin Braintrust|QID|13979|M|35.18,71.57|N|To Huntress Jalin.|Z|Ashenvale|S|
+T They Took Our Gnomes|QID|13913|M|35.18,71.57|N|To Huntress Jalin.|Z|Ashenvale|S|
+T They Set Them Up The Bomb! |QID|13981|M|35.18,71.57|N|To Huntress Jalin.|Z|Ashenvale|
+T They Took Our Gnomes|QID|13913|M|35.18,71.57|N|To Huntress Jalin.|Z|Ashenvale|US|
+T The Goblin Braintrust|QID|13979|M|35.18,71.57|N|To Huntress Jalin.|Z|Ashenvale|US|
+
+A Do Yourself a Favor|QID|25613|M|35.25,71.25|N|From Gnombus the X-Terminator|Z|Ashenvale|
+T Do Yourself a Favor|QID|25613|M|71.87,39.04;71.80,45.67|N|To Kalen Trueshot.|
+
+A The Only Way Down is in a Body Bag|QID|25614|M|71.80,45.67|N|From Kalen Trueshot.|
+C The Only Way Down is in a Body Bag|QID|25614|M|71.84,45.83|N|Shoot the windriders with the cannon using option 1, then take out the parachute too.|
 T The Only Way Down is in a Body Bag|QID|25614|M|71.84,45.77|N|To Kalen Trueshot.|
 A Return to Stardust|QID|25615|M|71.82,45.66|N|From Kalen Trueshot.|
 T Return to Stardust|QID|25615|M|35.12,71.63|Z|Ashenvale|N|To Huntress Jalin.|
 
 A Hellscream's Legacy|QID|25616|M|35.12,71.63|Z|Ashenvale|N|From Huntress Jalin.|
 A Field Test: Gnomecorder|QID|25621|M|35.35,71.22|Z|Ashenvale|N|From Professor Xakxak Gyromate.|
-C Field Test: Gnomecorder|QID|25621|NC|M|73.10,46.74|N|Head next to the drill machine.|
+C Field Test: Gnomecorder|QID|25621|NC|M|73.35,40.65;73.10,46.74|N|Head next to the drill machine.|
 T Field Test: Gnomecorder|QID|25621|M|73.12,46.96|N|(UI Alert)|
 A Burn, Baby, Burn!|QID|25622|M|73.12,46.96|N|(UI Alert)|
-C Burn, Baby, Burn!|QID|25622|S|U|55152|QO|Warsong Stockpile Incinerated: 8/8|M|73.27,51.31|N|Loot the flame thrower from an Incinerator Mob. Then target Warsong Stockpiles and use your flame thrower near them.|
-C Hellscream's Legacy|QID|25616|S|M|73.83,47.62|N|Kill the oil can on the elite mobs backs.|
-C Hellscream's Legacy|QID|25616|US|M|73.10,49.77|N|Kill Krom'gar Incinerators. Target the Oil Canister on their backs to kill them easily.|
-C Burn, Baby, Burn!|QID|25622|US|U|55152|M|73.10,49.77|N|Finish burning Warsong Stockpiles.|
+
+K Krom'gar Incinerator |QID|25622|L|55152|N|Kill Krom'gar Incinerators until they drop a Warsong Flame Thrower.  Although they are elite, targetting and destroying the Oil Canister on their backs will instantly kill them.|
+
+C Burn, Baby, Burn!|QID|25622|U|55152|M|73.27,51.31|N|Target Warsong Stockpiles and use your flame thrower near them.|NC|S|
+C Hellscream's Legacy|QID|25616|M|73.10,49.77|N|Kill Krom'gar Incinerators. Target the Oil Canister on their backs to kill them easily.|
+C Burn, Baby, Burn!|QID|25622|U|55152|M|73.10,49.77|N|Target Warsong Stockpiles and use your flame thrower near them.|NC|US|
 T Burn, Baby, Burn!|QID|25622|M|73.10,49.77|N|(UI Alert)|
 
 A Bombs Away: Windshear Mine!|QID|25640|M|73.10,49.77|N|(UI Alert)|
@@ -54,58 +88,79 @@ T Hellscream's Legacy|QID|25616|M|72.53,61.40|N|To Sentinel Heliana.|
 T Bombs Away: Windshear Mine!|QID|25640|M|72.53,61.40|N|To Boog the "Gear Whisperer".|
 A Don't Look Them in the Eyes|QID|25642|M|72.53,61.40|N|From Boog the "Gear Whisperer".|
 A Windshear Mine Cleanup|QID|25646|M|72.53,61.40|N|From Sentinel Heliana.|
-C Windshear Mine Cleanup|QID|25646|S|N|Kill Windshear Overseers.|
-C Don't Look Them in the Eyes|QID|25642|M|71.54,62.60|N|Kill Peons that are carrying ore, then loot the ore off the ground.|
+
+C Don't Look Them in the Eyes|QID|25642|M|71.54,62.60|N|Kill Peons that are carrying ore, then loot the ore off the ground.|S|
+K Windshear Overseer |QID|25647|N|Kill Windshear Overseers until they drop the Illegible Orc Letter.|L|55181|
+
+C Windshear Mine Cleanup|QID|25646|S|N|Continue to kill Windshear Overseers.|
+A Illegible Orc Letter |QID|25647|N|Start the quest Illegible Orc Letter from the item you looted from the Windshear Overseer.|U|55181|
+T Illegible Orc Letter |QID|25647|M|72.53,61.40|N|To Boog the "Gear Whisperer".|
+A Minx'll Fix It|QID|25649|M|72.60,61.57|N|From Boog the "Gear Whisperer".|
+T Minx'll Fix It|QID|25649|N|To Minx.|M|72.21,61.52;72.00,62.73;71.26,62.77;70.80,62.96|
+A Orders from High Command|QID|25650|M|70.80,62.96|N|From Minx.|
+
 C Windshear Mine Cleanup|QID|25646|US|M|71.23,62.79|N|Finish killing Overseers.|
 C Don't Look Them in the Eyes|QID|25642|US|M|71.24,61.79|N|Finish getting ore.|
 
-A Illegible Orc Letter|QID|25647|U|55181|M|72.74,61.73|N|Accept the quest from the Letter (Drops off the Windsheer Overseers).|
 T Windshear Mine Cleanup|QID|25646|M|72.49,61.49|N|To Sentinel Heliana.|
-T Don't Look Them in the Eyes|QID|25642|M|72.49,61.49|N|To Boog the "Gear Whisperer".|
-T Illegible Orc Letter|QID|25647|M|72.55,61.50|N|To Boog the "Gear Whisperer".|
-A Minx'll Fix It|QID|25649|M|72.60,61.57|N|From Boog the "Gear Whisperer".|
-T Minx'll Fix It|QID|25649|M|70.80,62.96|N|To Minx.|
-A Orders from High Command|QID|25650|M|70.80,62.96|N|From Minx.|
-T Orders from High Command|QID|25650|M|72.49,61.46|N|To Windshear Overseer.|
+
+T Don't Look Them in the Eyes|QID|25642|M|72.49,61.49|N|To Boog the "Gear Whisperer".|S|
+T Orders from High Command|QID|25650|M|72.49,61.49|N|To Boog the "Gear Whisperer".|
+T Don't Look Them in the Eyes|QID|25642|M|72.49,61.49|N|To Boog the "Gear Whisperer".|US|
 
 A Commandeer That Balloon!|QID|25652|M|72.49,61.46|N|From Boog the "Gear Whisperer".|
-C Commandeer That Balloon!|QID|25652|M|73.26,61.10|N|Click on the ladder of the balloon. Kill the battery and any goblins that ambush you.|
-r Repair/Sell Junk|QID|25652|M|58.82,56.00|N|at Ol'Irongoat|
+C Commandeer That Balloon!|QID|25652|M|73.26,61.10|N|Click on the ladder of the balloon, then protect yourself from ambushing goblins.|
 T Commandeer That Balloon!|QID|25652|M|59.54,56.92|N|To Lord Fallowmere.|
 A Free Our Sisters|QID|25662|M|59.54,56.92|N|From Lord Fallowmere.|
+A Thinning The Horde |QID|25671|M|59.54,56.92|N|Daily Quest available from Lord Fallowmere, won't be available to you if your reputation with Darnassus is exalted, or if your level is too high.  Right click this quest if it's not available to you.|RANK|2|
+
+h Fallowmere Inn |QID|25729|M|59.0,56.4|N|From Alithina Fallowmere.|
+r Repair/Sell Junk|QID|25729|M|58.82,56.00|N|From Ol'Irongoat, just outside the inn.|
+
 A Just Ask Alice|QID|25673|M|58.53,55.25|N|From Alice.|
 
-f Windshear Hold|QID|25673|M|58.80,54.30|N|At Allana Swiftglide.|
+f Windshear Hold|QID|25729|M|58.80,54.30|N|At Allana Swiftglide.|
 
-l Mechanized Fire|QID|25673|L|55221|M|63.09,56.70|N|Loot the Mechanised Fire at the top of the large shredder.|
+C Just Ask Alice - Fire|QID|25673|L|55221|M|63.09,56.70|N|Loot the Mechanised Fire at the top of the large shredder.|QO|Mechanized Fire: 1/1|NC|
 C Free Our Sisters|QID|25662|S|M|65.92,54.00|N|Kill the orcs for their keys and free the trapped Sisters.|
-A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|Get this quest from the STAY OUT! sign.|
-l Mechanized Ice|QID|25673|L|55222 |M|66.18,50.04|N|Loot the Mechanized Ice at the top of this rig.|
-R Run to the path|QID|25729|M|68.31,45.38|N|Then once you get there follow it up and around.|CC|
-A Gerenzo the Traitor|QID|25729|M|64.64,43.77|N|(UI Alert)|
+A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|This is a Group quest from the STAY OUT! sign.\n\nThis is a little tough for a non-heal class to solo - get a group if you can, give it a try, or otherwise skip this quest.|RANK|3|C|DeathKnight,Mage,Rogue,Warrior|
+A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|This is a Group quest from the STAY OUT! sign.\n\nAlthough this is a group quest, it should be soloable for you. Skip if you don't want to try.|RANK|3|C|Hunter,Paladin,Shaman,Druid,Priest,Warlock|
+
+C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|N|Found in Cragpool Lake to the north of the sign - he has 3,200 HP.  Once killed, loot the Huge Tooth.|RANK|3|O|
+
+C Just Ask Alice - Ice|QID|25673|L|55222|M|66.18,50.04|N|Loot the Mechanized Ice at the top of the rig.|QO|Mechanized Ice: 1/1|NC|
+A Gerenzo the Traitor|QID|25729|M|69.2,48.1;69.5,46.4;68.3,45.4;64.64,43.77|N|(UI Alert)\n\nHead to the BD-816 War Apparatus (north of Cragpool Lake, follow the waypoints to get there).|
 C Gerenzo the Traitor|QID|25729|M|63.10,45.84|N|Kill Gerenzo.|
 T Gerenzo the Traitor|QID|25729|M|63.10,45.84|N|(UI Alert)|
 
-l BD-816 War Apparatus|QID|25673|L|55227 |M|63.05,45.67|N|Just behind Gerenzo. Once you have done this, mount up and take a flying leap into the water.|
-C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|N|This quest is soloable by pet/kite/healing classes. It may be tough for a non heal class to solo at level. If you need it, ask for help, or if you have to, abandon it.|
+C Just Ask Alice - BD-816 War Apparatus|QID|25673|L|55227|M|63.05,45.67|N|Just behind Gerenzo.  Once collected, feel free to jump to the south into the water to get back to Windshear Crag.|QO|BD-816 War Apparatus: 1/1|NC|
 C Free Our Sisters|QID|25662|US|M|64.91,52.13|N|Finish freeing the trapped Sisters.|
 T Free Our Sisters|QID|25662|M|66.21,54.57|N|To Huntress Illiona.|
 A Rumble in the Lumber... Mill|QID|25669|M|66.21,54.57|N|From Huntress Illiona.|
-C Rumble in the Lumber... Mill|QID|25669|M|66.20,54.61|N|Warlord Roktrog will spawn behind you. Kill and loot him, then free Huntress Illiona.|
-C Just Ask Alice|QID|25673|M|59.95,64.02|N|Loot the Mechanized Air from inside the hut.|
+K Warlord Roktrog|QID|25669|M|66.2,54.6|N|Warlord Roktrog will spawn behind you.  Kill him, then loot Huntress Illiona's Cage Key.|L|55213|
+C Rumble in the Lumber... Mill|QID|25669|M|66.21,54.57|N|Use the key on the cage to free Huntress Illiona.|NC|
+C Just Ask Alice - Air|QID|25673|M|59.95,64.02|N|Loot the Mechanized Air from inside the hut.|QO|Mechanized Air: 1/1|NC|
+C Just Ask Alice |QID|25673|M|59.95,64.02;66.18,50.04;63.09,56.70|N|Loot the Mechanized Air, Ice and Fire.|NC|
 T Rumble in the Lumber... Mill|QID|25669|M|59.56,56.88|N|To Lord Fallowmere.|
 
 A If the Horde Don't Get You...|QID|25739|M|59.49,56.95|N|From Northwatch Captain Kosak.|
 A Preparations for the Future|QID|25741|M|59.05,56.37|N|From Alithia Fallowmere.|
-h Fallowmere Inn|QID|25741|M|59.05,56.37|N|At Alithia Fallowmere.|
-T BEWARE OF CRAGJAW!|QID|25730|M|58.83,56.01|N|To Ol' Irongoat.|
-A Capturing Memories|QID|25767|M|58.73,55.98|N|From Neophyte Starcrest.|
-A Arcane Legacy|QID|25766|M|58.73,55.91|N|From Arcanist Valdurian.|
+T BEWARE OF CRAGJAW!|QID|25730|M|58.83,56.01|N|To Ol' Irongoat.|O|
 T Just Ask Alice|QID|25673|M|58.52,55.28|N|To Alice.|
 
 A Mr. P's Wild Ride|QID|25728|M|58.38,55.17|N|From Alice.|
+
+C Thinning The Horde |QID|25671|O|N|Kill any 20 Krom'gar and Goblin in Stonetalon Mountains.|S|
 C Mr. P's Wild Ride|QID|25728|M|61.12,55.71|N|Use the abilities to kill what you need for this quest.|
+C Thinning The Horde |QID|25671|O|N|You really shouldn't see this after completing Mr. P's Wild Ride.|US|
+
+T Thinning The Horde |QID|25671|O|N|To Lord Fallowmere.|S|
 T Mr. P's Wild Ride|QID|25728|M|59.57,56.90|N|To Lord Fallowmere.|
+T Thinning The Horde |QID|25671|O|N|To Lord Fallowmere.|US|
+
+A Capturing Memories|QID|25767|M|58.73,55.98|N|From Neophyte Starcrest.|
+A Arcane Legacy|QID|25766|M|58.73,55.91|N|From Arcanist Valdurian.|
+
 C Capturing Memories|QID|25767|S|M|48.41,74.55|N|Loot Eldre'thar Relics off the ground.|
 C Arcane Legacy|QID|25766|U|55972|M|46.77,74.35|N|Use the Highborne Prison on any Highborne. If an Enraged Highborne Spirit spawns kill it.|
 C Capturing Memories|QID|25767|US|M|49.06,77.99|N|Finish looting relices.|

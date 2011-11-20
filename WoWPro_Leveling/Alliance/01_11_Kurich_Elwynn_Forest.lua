@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2011-11-04 20:41
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3197/revisions/24769/view
 -- Date: 2011-10-26 21:16
 -- Who: Fluclo
 -- Log: Added |NC| tags
@@ -285,7 +289,7 @@ R The Maclure Vineyards|N|Kill Kobold Tunnelers on the way.|QID|85|M|40.47,86.61
 T Lost Necklace|QID|85|M|43.13,85.72|N|To Billy Maclure.|
 A Pie For Billie|QID|86|M|43.13,85.72|N|From Billy Maclure.|
 A Young Lovers|QID|106|M|43.15,89.63|N|From Maybell Maclure.|
-C Pie For Billie|N|Kill Stonetusk Boars until you have 4 Chunks of Boar Meat.|QID|86|M|41.74,87.48|
+C Pie For Billie|N|Kill Stonetusk Boars until you have 4 Tender Boar Meat.|QID|86|M|41.74,87.48|
 R The Stonefield Farm|N|Kill Kobold Tunnelers on the way.|QID|86|M|29.84,86.00|
 T Young Lovers|QID|106|M|29.84,86.00|N|To Tommy Joe Stonefield.|
 A Speak With Gramma|QID|111|M|29.84,86.00|N|From Tommy Joe Stonefield.|

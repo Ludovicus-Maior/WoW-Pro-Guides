@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2011-11-05 23:12
+-- Who: Fluclo
+-- Log: Maybe the 2c generates slightly less hostile transients - more research needed :)
+
+-- URL: http://wow-pro.com/node/3213/revisions/24778/view
 -- Date: 2011-10-28 21:36
 -- Who: Fluclo
 
@@ -60,7 +65,7 @@ T Hero's Call: Westfall!|QID|28562|M|60.05,19.40|N|To Lieutenant Horatio Laine.|
 T Hero's Call: Westfall!|QID|26378|M|60.05,19.40|N|To Lieutenant Horatio Laine.|O|US|
 
 A Murder Was The Case That They Gave Me|QID|26209|RANK|1|M|60.05,19.40|N|From Lieutenant Horatio Laine.|
-C Murder Was The Case That They Gave Me|QID|26209|RANK|1|M|58.26,18.50|N|Question the Drifters, Transient, and Homeless in the field. Some will fight you, some give information.  "Paying" 2 copper doesn't improve your chances of getting information from them, so select either option when you question them.|
+C Murder Was The Case That They Gave Me|QID|26209|RANK|1|M|58.26,18.50|N|Question the Drifters, Transient, and Homeless in the field. Some will fight you, some give information.|
 T Murder Was The Case That They Gave Me|QID|26209|RANK|1|M|60.10,19.32|N|To Lieutenant Horatio Laine.|
 
 A Hot On the Trail: The Riverpaw Clan|QID|26213|RANK|1|M|60.10,19.32|N|From Lieutenant Horatio Laine.|S|

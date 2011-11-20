@@ -1,4 +1,28 @@
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2011-11-06 21:32
+-- Who: Fluclo
+-- Log: Added |NC| to Oh, Deer!
+
+-- URL: http://wow-pro.com/node/3303/revisions/24798/view
+-- Date: 2011-11-06 20:30
+-- Who: Fluclo
+-- Log: Added |NC| tag to Save the Wee Animals
+
+-- URL: http://wow-pro.com/node/3303/revisions/24795/view
+-- Date: 2011-11-04 19:25
+-- Who: Fluclo
+-- Log: Added NC tag to If You're Not Against Us...
+
+-- URL: http://wow-pro.com/node/3303/revisions/24794/view
+-- Date: 2011-11-04 19:12
+-- Who: Fluclo
+-- Log: added couple |NC| tags
+
+-- URL: http://wow-pro.com/node/3303/revisions/24791/view
+-- Date: 2011-10-31 22:29
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3303/revisions/24751/view
 -- Date: 2011-09-24 21:00
 -- Who: Crackerhead22
 -- Log: Added "FACTION|Alliance|" faction tag to the quest "The Voice of Goldrinn" via STrek's find.
@@ -158,7 +182,6 @@ T Through the Dream|QID|25325|M|52.32,17.39|N|To Alysra.|
 A Return to Nordrassil|QID|25578|PRE|25325|M|52.32,17.39|N|From Alysra.|
 T Return to Nordrassil|QID|25578|M|62.04,24.87|N|To Ysera.|
 A The Return of the Ancients|QID|25584|PRE|25578|M|62.04,24.87|N|From Ysera.|
-A Wings Over Mount Hyjal|QID|25985|M|63.27,21.56|N|From Tiala Whitemane.|
 T The Return of the Ancients|QID|25584|M|35.70,19.47|N|To Oomla Whitehorn.|
 A Harrying the Hunters|QID|25255|PRE|25584|RANK|2|M|35.70,19.49|N|From Oomla Whitehorn.|
 A In the Rear With the Gear|QID|25234|PRE|25584|RANK|2|M|35.72,19.69|N|From Jadi Falaryn.|
@@ -276,19 +299,19 @@ A Return from the Firelands|QID|25612|M|26.2,41.9|N|From Jordan Olafson.|FACTION
 T Return from the Firelands|QID|25612|M|28.4,29.9|N|Enter the portal behind you. This will return you the Shrine of Goldrinn. Fly back to the camp to Takrik Ragehowl.|FACTION|Horde|
 T Sweeping the Shelf|QID|25354|M|28.4,29.9|N|At Takrik Ragehowl.|FACTION|Horde|
 
-A Aviana's Legacy|QID|27874|M|28.4,29.8|N|From Vision of Ysera. If the quest is not offered, and you have it, get rid of the quest An Offering for Aviana.|LEAD|25663|
+A Aviana's Legacy|QID|27874|M|28.4,29.8|N|From the Vision of Ysera.LEAD|25663|
 A The Fires of Mount Hyjal|QID|25630|PRE|25611|M|28.18,29.87|N|From Rio Duran.|
 f Shrine of Aviana|QID|25630|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
 T Aviana's Legacy|QID|27874|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|
 A An Offering for Aviana|QID|25663|M|39,46.21|N|From Choluna.|
 A The Wormwing Problem|QID|25655|M|42.18,45.40|N|From Thisalee Crow.|
 A Scrambling for Eggs|QID|25656|M|42.18,45.40|N|From Thisalee Crow.|
-C An Offering for Aviana|QID|25663|U|55208|M|40.38,44.31|N|Go to the small circle of stones just outside the shrine. Use the Sacred Nectar while standing near the basin in the center of the stone circle. The Spirit of Aviana will appear.|
+C An Offering for Aviana|QID|25663|U|55208|M|40.38,44.31|N|Go to the small circle of stones just outside the shrine. Use the Sacred Nectar while standing near the basin in the center of the stone circle. The Spirit of Aviana will appear.|NC|
 T An Offering for Aviana|QID|25663|M|40.38,44.31|N|To the Mysterious Winged Spirit.|
 A A Plea From Beyond|QID|25665|PRE|25663|M|40.38,44.31|N|From the Mysterious Winged Spirit.|
-C Scrambling for Eggs|QID|25656|S|M|36.58,43.42|N|Loot eggs from around the trees.|
+C Scrambling for Eggs|QID|25656|S|M|36.58,43.42|N|Loot eggs from around the trees.|NC|
 C The Wormwing Problem|QID|25655|M|39.08,41.53|N|Kill any harpy you see for this quest.|
-C Scrambling for Eggs|QID|25656|US|M|36.58,43.42|N|Finish gathering eggs.|
+C Scrambling for Eggs|QID|25656|US|M|36.58,43.42|N|Finish gathering eggs.|NC|
 T The Wormwing Problem|QID|25655|M|42.18,45.40|N|To Thisalee Crow.|
 T Scrambling for Eggs|QID|25656|M|42.18,45.40|N|To Thisalee Crow.|
 A A Bird in Hand|QID|25731|PRE|25655;25656|M|42.18,45.40|N|From Thisalee Crow.|
@@ -303,7 +326,7 @@ A Fact-Finding Mission|QID|25740|PRE|25664;25731|M|43.55,45.82|N|From Skylord Om
 A Save the Wee Animals|QID|25385|PRE|25630|M|19.25,37.96|N|Mount up and head west, past the Shrine of Goldrinn and the Twilight Cultists camp. Follow the road until you reach the Grove of Aessina. From Mylune.|
 A If You're Not Against Us...|QID|25404|PRE|25630|M|19.04,36.98|N|From Matoclaw.|
 f Grove of Aessina|QID|25404|M|19.58,36.42|N|At Elizil Wintermoth.|
-C If You're Not Against Us...|QID|25404|M|22.18,44.91|N|Talk to Tyrus Blackhorn until you get the quest completion.|
+C If You're Not Against Us...|QID|25404|M|22.18,44.91|N|Talk to Tyrus Blackhorn until you get the quest completion.|NC|
 T If You're Not Against Us...|QID|25404|M|22.18,44.91|N|To Tyrus Blackhorn.|
 A Seeds of Their Demise|QID|25408|PRE|25404|M|22.18,44.91|N|Leave the shrine and go slightly east up the road to a small tower. Find Tyrus Blackhorn at the base of the tower. From Tyrus Blackhorn.|
 C Seeds of Their Demise|QID|25408|M|21.63,43.89|N|Kill Wailing Weeds in the area directly surrounding the tower until you get 8 Bileberry. AE spells and abilities are the most effective method.|
@@ -313,7 +336,7 @@ T The Fires of Mount Hyjal|QID|25630|M|19.02,40.99|N|At Laina Nightsky just outs
 L Level 81|QID|25630|LVL|81|N|You should be around level 81 by this point.|
 A Fighting Fire With ... Anything|QID|25381|PRE|25630|RANK|2|M|19.02,40.99|N|From Laina Nightsky.|
 A Disrupting the Rituals|QID|25382|PRE|25630|RANK|2|M|19.02,40.99|N|From Laina Nightsky.|
-C Save the Wee Animals|QID|25385|S|M|13.57,39.83|N|Click on the terrified and panicked critters in the scorched area to save them.|
+C Save the Wee Animals|QID|25385|S|M|13.57,39.83|N|Click on the terrified and panicked critters in the scorched area to save them.|NC|
 C Fighting Fire With ... Anything|QID|25381|RANK|2|S|M|13.72,46.89|N|Kill any Raging Firestorm you come across.|
 C A New Master|QID|25411|U|53120|M|14.54,45.26|N|Kill a Twilight Inferno Lord and then use the Bottled Bileberry Brew on him to complete A New Master.|
 T A New Master|QID|25411|M|14.54,45.26|N|To Subjugated Inferno Lord.|
@@ -322,7 +345,7 @@ C Disrupting the Rituals|QID|25382|RANK|2|S|M|12.02,38.36|N|Kill Inferno Lords.|
 N The Name Never Spoken|QID|25412|QO|Southern Firestone Examined: 1/1|M|14.33,45.33|N|The first firestone is in the southern end of the charred zoned. Clear the mobs and right-click to examine it.|
 N The Name Never Spoken|QID|25412|QO|Central Firestone Examined: 1/1|M|11.61,41.50|N|The second firestone is just a bit north of the southern stone.|
 C The Name Never Spoken|QID|25412|M|9.63,36.45|N|The last firestone is just north of the central stone.|
-C Save the Wee Animals|QID|25385|US|M|13.57,39.83|N|Finish saving the critters.|
+C Save the Wee Animals|QID|25385|US|M|13.57,39.83|N|Finish saving the critters.|NC|
 C Disrupting the Rituals|QID|25382|RANK|2|US|M|12.02,38.36|N|Finish kill Inferno Lords.|
 C Fighting Fire With ... Anything|QID|25381|RANK|2|US|M|13.72,46.89|N|Finish killing Raging Firestorms.|
 T Fighting Fire With ... Anything|QID|25381|RANK|2|M|18.95,40.99|N|To Laina Nightsky.|
@@ -332,7 +355,7 @@ A Oh, Deer!|QID|25392|PRE|25385|M|19.25,37.95|N|From Mylune.|
 T The Name Never Spoken|QID|25412|M|22.23,44.93|N|To Tyrus Blackhorn.|
 A Black Heart of Flame|QID|25428|PRE|25412|M|22.23,44.93|N|From Tyrus Blackhorn.|
 C Black Heart of Flame|QID|25428|U|53464|M|12.37,44.26|N|Summon Thol'Embaar via the Charred Branch, then kill and loot him.|
-C Oh, Deer!|QID|25392|QO|Injured Fawn Escorted Home: 3/3|M|18.99,37.66|N|Click on an Injured Fawn to have it follow you, do this 3 times. Once you have 3, head back to Mylune. They can die from you fighting things.|
+C Oh, Deer!|QID|25392|QO|Injured Fawn Escorted Home: 3/3|M|18.99,37.66|N|Click on an Injured Fawn to have it follow you, do this 3 times. Once you have 3, head back to Mylune. They can die from you fighting things.|NC|
 T Oh, Deer!|QID|25392|M|19.24,37.81|N|To Mylune.|
 T Black Heart of Flame|QID|25428|M|22.18,44.93|N|To Tyrus Blackhorn.|
 A Good News... and Bad News|QID|29066|M|19.08,37.03|N|Auto-accepted after turning in "Black Heart of Flame".|
@@ -348,6 +371,7 @@ T Smashing Through Ashes|QID|25490|M|27.08,62.59|N|To Arch Druid Hamuul Runetote
 A Durable Seeds|QID|25491|PRE|25490|M|27.08,62.59|N|From Arch Druid Hamuul Runetotem.|
 A Fresh Bait|QID|25493|PRE|25490|M|27.08,62.59|N|From Arch Druid Hamuul Runetotem.|
 A Firebreak|QID|25492|PRE|25490|M|27.04,62.90|N|From Rayne Feathersong.|
+f Sanctuary of Malorne|QID|25491|M|27.75,63.63|N|At Ranela Featherglen.|
 N Nemesis|QID|25491|N|As you complete the next steps, watch out for Nemesis, a level 80 Elite giant turtle who patrols all over The Flamewake.|
 C Durable Seeds|QID|25491|S|M|35.49,53.51|N|Look for small piles of dirt on the ground. Click on them to get a Hyjal Seedling.|
 C Fresh Bait|QID|25493|S|M|38.92,54.30|N|Kill Core Hounds for Core Hound Entrails.|
@@ -394,12 +418,14 @@ C Breaking the Bonds|QID|25514|M|24.00,55.88|N|Go back to Tortolla. Use the gian
 T Breaking the Bonds|QID|25514|M|24.45,55.85|N|To Tortolla.|
 T Children of Tortolla|QID|25519|M|24.49,55.81|N|To Tortolla.|
 A An Ancient Awakens|QID|25520|PRE|25514;25519|M|24.49,55.81|N|From Tortolla.|
-T Return to the Shrine|QID|25795|M|44.41,46.24|N|Fly back to the Shrine of Aviana. Find Choluna in the back.|
+F Shrine of Aviana|QID|25795|M|27.75,63.63;41.74,44.74|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
+T Return to the Shrine|QID|25795|M|44.41,46.24|N|Find Choluna in the back.|
 A An Ancient Reborn|QID|25807|PRE|25795|M|44.41,46.24|N|From Choluna.|
 C An Ancient Reborn|QID|25807|U|56016|M|44.34,47.89|N|Go up the ramp to your right, into a small room where you will find Aviana's Egg. Use the Herald's Incense near the egg to resurrect Aviana.|
 T An Ancient Reborn|QID|25807|M|44.34,47.89|N|To Aviana.|
 
 A The Hatchery Must Burn|QID|25810|PRE|25807|RANK|2|M|44.09,46.01|N|From Morthis Whisperwing.|
+F Sanctuary of Malorne|QID|25520|M|41.17,42.61|N|Fly back to the Sanctuary of Malorne.|
 T An Ancient Awakens|QID|25520|M|27.10,62.57|N|To Arch Druid Hamuul Runetotem.|
 A The Last Living Lorekeeper|QID|25830|M|27.03,62.61|N|From Vision of Ysera.|
 F Firelands Hatchery|QID|25810|M|39.20,58.23|N|Fly back down into The Flamewake. Enter the large portal in the center.|
@@ -422,6 +448,9 @@ A Firefight|QID|25842|PRE|25830|M|27.49,55.50|N|From Nordu.|
 C Firefight|QID|25842|M|26.80,52.53|N|Kill 5 Firey Tormentors nearby.|
 T Firefight|QID|25842|M|27.39,55.49|N|To Nordu.|
 A Aessina's Miracle|QID|25372|PRE|25842|M|27.39,55.49|N|From Nordu.|
+F Shrine of Aviana|QID|25832|M|27.75,63.63;41.74,44.74|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
+T Return to Aviana|QID|25832|M|44.34,47.89|N|To Aviana.|
+F Grove of Aessina|QID|25372|M|41.17,42.61|N|Fly to the Grove of Aessina.|
 T Aessina's Miracle|QID|25372|M|19.51,37.83|N|To Arch Druid Hamuul Runetotem.|
 A Tortolla's Revenge|QID|25843|PRE|25372|M|19.60,37.83|N|From Arch Druid Hamuul Runetotem.|
 T Tortolla's Revenge|QID|25843|M|41.56,60.91|N|To Tortolla.|
@@ -458,7 +487,7 @@ T Finish Nemesis|QID|25923|M|64.31,53.54|N|To Garunda Mountainpeak.|
 A Tortolla's Triumph|QID|25928|PRE|25923|M|64.31,53.54|N|From Garunda Mountainpeak.|
 T Tortolla's Triumph|QID|25928|M|42.11,60.86|N|Use the portal nearby to teleport back to The Scorched Plain. Follow the road, heading west, all the way back to Tortolla.|
 A The Ancients are With Us|QID|25653|PRE|25928|M|42.05,60.88|N|From Tortolla.|
-T Return to Aviana|QID|25832|M|44.34,47.89|N|To Aviana.|
+F Nordrassil|QID|25795|M|27.75,63.63|N|Fly to Nordrassil.|
 
 T The Ancients are With Us|QID|25653|M|62.08,24.93|N|To Ysera.|
 A Commander Jarod Shadowsong|QID|25597|PRE|25653|M|62.08,24.93|N|From Ysera.|
@@ -572,5 +601,6 @@ A The Battle Is Won, The War Goes On|QID|27398|PRE|25551|M|72.09,74.07|N|From Co
 A The Battle Is Won, The War Goes On|QID|27399|M|72.05,73.89|N|From Commander Jarod Shadowsong.|FACTION|Horde|
 F Orgrimmar|QID|28790|M|71.67,75.24|N|Fly back to Orgrimmar.|FACTION|Horde|
 T The Battle Is Won, The War Goes On|QID|27399|M|50.38,38.23|Z|Orgrimmar|N|In Orgrimmar. To Farseer Krogar.|FACTION|Horde|
+
 ]]
 end)
