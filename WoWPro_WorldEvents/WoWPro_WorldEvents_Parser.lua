@@ -713,8 +713,8 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 		        GetQuestReward(0)
 		    end
         end
-		WoWPro.Leveling.CompletingQuest = true
-		WoWPro.Leveling:AutoCompleteQuestUpdate(GetQuestID())
+		WoWPro.WorldEvents.CompletingQuest = true
+		WoWPro.WorldEvents:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	
 	-- Auto-Completion --
@@ -864,10 +864,10 @@ function WoWPro.WorldEvents:AutoCompleteLoot(msg)
 		local index = WoWPro.rows[i].index
 		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
 		if WoWProDB.profile.track and WoWPro.lootitem[index] then
-			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi,count)
+			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
 			WoWPro.rows[i].track:SetText(strtrim(track))
 		end
-		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index]) + count >= lootqtyi 
+		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index])  >= lootqtyi 
 		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
 			WoWPro.CompleteStep(index)
 		end
