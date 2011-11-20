@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2011-11-18 17:27
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3251/revisions/24723/view
 -- Date: 2011-08-11 12:07
 -- Who: Fluclo
 -- Log: Updated Just a Drop in the Bucket quest notes
@@ -86,7 +90,7 @@ A Just Encased|QID|27368|M|4.17,36.13|N|From Gidwin Goldbraids.|
 C Just Encased|QID|27368|M|7.52,30.82|N|Kill Crypt Walkers, Stalkers and Horrors in the Terrorweb Tunnel that is next to the quest giver.|
 T Just Encased|QID|27368|M|4.17,36.13|N|To Gidwin Goldbraids.|
 A Greasing the Wheel|QID|27369|M|4.17,36.13|N|From Gidwin Goldbraids.|
-C Greasing the Wheel|QID|27369|M|3.54,36.43|N|Loot Banshee's Bells off the ground near quest giver and along the river. Herbalists should activate their Find Herbs tracking to have their locations show on the mini-map.|
+C Greasing the Wheel|QID|27369|M|3.54,36.43|N|Loot Banshee's Bells off the ground near quest giver and along the river. Herbalists should activate their Find Herbs tracking to have their locations show on the mini-map.|NC|
 T Greasing the Wheel|QID|27369|M|9.02,66.40|N|To Fiona.|
 
 T Tarenar Sunstrike|QID|27370|M|18.40,75.08|N|To Tarenar Sunstrike.|

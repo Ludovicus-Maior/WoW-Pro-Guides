@@ -1,4 +1,20 @@
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2011-11-17 12:28
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3311/revisions/24810/view
+-- Date: 2011-11-17 12:27
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3311/revisions/24807/view
+-- Date: 2011-11-16 18:10
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3311/revisions/24806/view
+-- Date: 2011-11-16 18:05
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3311/revisions/24768/view
 -- Date: 2011-10-22 22:14
 -- Who: Fluclo
 -- Log: Added details on where Siren's Song is
@@ -62,6 +78,10 @@
 WoWPro.Leveling:RegisterGuide('MagTwi8485', 'Twilight Highlands', 'Melliandra', '84', '85', nil, 'Alliance', function()
 return [[
 
+L Level 84 |QID|28716|LVL|84|N|You need to be Level 84 to do this guide.|
+
+R Stormwind City |QID|28716|N|The questing will begin in Stormwind City, where you have a dozen quests around Stormwind City before being whisked off to the Twilight Highlands.|
+
 A Hero's Call: Twilight Highlands!|QID|28716|M|62.90,71.78|N|From the Message boards at either end of town.|Z|Stormwind City|
 T Hero's Call: Twilight Highlands!|QID|28716|M|85.62,31.93|N|To King Varian Wrynn.|Z|Stormwind City|
 
@@ -94,7 +114,7 @@ A Unholy Cow|QID|27060|PRE|26977|M|51.96,5.83|N|From Farmer Wollerton.|Z|Stormwi
 C Unholy Cow|QID|27060|M|44.05,4.28|N|Follow the trail of parts. You will be attacked once the first part of the quest is completed. If you die, then you will need to return to the throne room to retrive the prince again.|Z|Stormwind City|
 T Unholy Cow|QID|27060|M|44.05,4.28|N|To Anduin Wrynn.|Z|Stormwind City|
 
-C He's Holding Out on Us|QID|27064|M|80.39,62.34|N|Head to SI:7 in The Old Town.  There is a small stairwell leading up to the 3rd floor.|Z|Stormwind City|NC|
+C He's Holding Out on Us|QID|27064|M|80.39,62.34|N|Head to SI:7 in The Old Town. There is a small stairwell leading up to the 3rd floor.|Z|Stormwind City|NC|
 
 T He's Holding Out on Us|QID|27064|M|80.39,62.34|N|To Anduin Wrynn.|Z|Stormwind City|
 A Expert Opinion|QID|28807|PRE|26977|M|80.39,62.34|N|From Anduin Wrynn|Z|Stormwind City|
@@ -109,7 +129,7 @@ C Cataclysm in the Catacombs|QID|27092|M|51.30,42.30|N|Head to the Cathedral of 
 T Cataclysm in the Catacombs|QID|27092|M|50.45,42.42|N|To the disarmed bomb.|Z|Stormwind City|
 
 A A Villain Unmasked|QID|27106|PRE|26977|M|50.45,42.42|N|From the disarmed bomb.|Z|Stormwind City|
-C A Villain Unmasked|QID|27106|M|85.19,32.25|N|Head to Stormwind Keep, and talk to Major Samuelson.  Once confronted, he will turn into a Level 84 elite, which the Guards will help you defeat.|Z|Stormwind City|
+C A Villain Unmasked|QID|27106|M|85.19,32.25|N|Head to Stormwind Keep, and talk to Major Samuelson. Once confronted, he will turn into a Level 84 elite, which the Guards will help you defeat.|Z|Stormwind City|
 T A Villain Unmasked|QID|27106|M|85.66,32.00|N|To King Varian Wrynn.|Z|Stormwind City|
 
 A Twilight Shores|QID|28238|PRE|26977|M|85.66,32.00|N|From King Varian Wrynn.|Z|Stormwind City|
@@ -134,24 +154,27 @@ A Kurdran's Waitin'|QID|28599|PRE|28597|M|78.93,76.70|N|From Fargo Flintlocke.|
 T Kurdran's Waitin'|QID|28599|M|79.10,78.32|N|To Kurdran Wildhammer upstairs inside the castle.|
 
 A Our Boys on the Shore|QID|27338|PRE|28597|M|79.10,78.32|N|From Kurdran Wildhammer.|
-A Salvage Operation|QID|27177|M|79.28,78.47|N|From Simon Chandler.|
+A Salvage Operation|QID|27177|M|79.28,78.47|N|From Simon Chandler.|S|
 A Naga Reinforcements|QID|27178|M|78.28,78.47|N|From Simon Chandler.|
+A Salvage Operation|QID|27177|M|79.28,78.47|N|From Simon Chandler.|US|
 
 A Siren's Song|QID|27200|M|76.02,79.70|N|From Ephram Hardstone, who's on the sinking ship at the Obsidian Breakers (southwest of Highbank).|
 C Siren's Song|QID|27200|M|76.09,79.69|N|Once you're able to, attack and kill Ophelia. Make sure Ephram doesn't die.|
 T Siren's Song|QID|27200|M|76.01,79.97|N|To Ephram Hardstone.|
 
-C Salvage Operation|QID|27177|S|M|75.41,82.83|N|Collect crates around this area.|
+C Salvage Operation|QID|27177|S|M|75.41,82.83|N|Collect crates around this area.|NC|
 C Naga Reinforcements|QID|27178|M|76.55,83.43|N|Kill Blackscale Myrmidons or Blackscale Seacallers in this area.|
-C Salvage Operation|QID|27177|US|M|75.41,82.83|N|Finish collecting crates around this area.|
+C Salvage Operation|QID|27177|US|M|75.41,82.83|N|Finish collecting crates around this area.|NC|
 
-T Salvage Operation|QID|27177|M|79.31,78.49|N|To Simon Chandler.|
+T Salvage Operation|QID|27177|M|79.31,78.49|N|To Simon Chandler.|S|
 T Naga Reinforcements|QID|27178|M|79.31,78.49|N|To Simon Chandler.|
+T Salvage Operation|QID|27177|M|79.31,78.49|N|To Simon Chandler.|US|
 
 T Our Boys on the Shore|QID|27338|M|76.80,69.95|N|To Lieutenant Emry.|
 
-A Scouting the Shore|QID|27341|M|76.80,69.95|N|From Lieutenant Emry.|
+A Scouting the Shore|QID|27341|M|76.80,69.95|N|From Lieutenant Emry.|S|
 A Landgrab|QID|27366|M|76.80,69.95|N|From Lieutenant Emry.|
+A Scouting the Shore|QID|27341|M|76.80,69.95|N|From Lieutenant Emry.|US|
 A Shredderectomy|QID|27433|M|76.94,69.92|N|From Fargo Flintlocke.|
 
 C Landgrab|QID|27366|M|75.24,63.20|N|Kill 12 Axebite Marines.|S|
@@ -159,10 +182,11 @@ C Scouting the Shore|QID|27341|NC|M|77.47,65.24|N|Look for wooden pikes and a st
 C Landgrab|QID|27366|M|75.24,63.20|N|Finish killing Axebite Marines.|US|
 C Shredderectomy|QID|27433|M|70.10,66.99|N|Kill the mechanicals for shredder parts.|
 
-T Scouting the Shore|QID|27341|M|76.84,69.83|N|To Lieutenant Emry.|
+T Scouting the Shore|QID|27341|M|76.84,69.83|N|To Lieutenant Emry.|S|
 T Landgrab|QID|27366|M|76.84,69.83|N|To Lieutenant Emry.|
-
+T Scouting the Shore|QID|27341|M|76.84,69.83|N|To Lieutenant Emry.|US|
 A Bird Down! Bird Down!|QID|27514|M|76.84,69.83|N|From Lieutenant Emry.|
+
 T Shredderectomy|QID|27433|M|76.93,69.79|N|To Fargo Flintlocke.|
 A Siege Tank Rescue|QID|27468|M|76.93,69.79|N|From Fargo Flintlocke.|
 
@@ -172,55 +196,60 @@ T Siege Tank Rescue|QID|27468|M|76.97,69.91|N|To Fargo Flintlocke.|
 T Bird Down! Bird Down!|QID|27514|M|67.68,65.86|N|To Thordun Hammerblow.|
 
 A Roots'll Do 'Er|QID|27515|M|67.68,65.86|N|From Thordun Hammerblow.|
-C Roots'll Do 'Er|QID|27515|M|71.98,66.59|N|Collect the roots in the area.|
+C Roots'll Do 'Er|QID|27515|M|71.98,66.59|N|Collect the roots in the area.|NC|
 T Roots'll Do 'Er|QID|27515|M|67.71,65.90|N|To Thordun Hammerblow.|
 
 A Wings Over Highbank|QID|27516|M|67.71,65.90|N|From Thordun Hammerblow.|
-C Wings Over Highbank|QID|27516|M|79.76,77.78|N|Speak to Thordun Hammerblow when you are ready to fly back.|
+C Wings Over Highbank|QID|27516|M|79.76,77.78|N|Speak to Thordun Hammerblow when you are ready to fly back.|NC|
 T Wings Over Highbank|QID|27516|M|79.12,78.27|N|To Kurdran Wildhammer upstairs.|
 
 A Any Portal in a Storm|QID|27537|M|79.12,78.27|N|From Kurdran Wildhammer.|
 A The Perfect Poultice|QID|27538|M|79.20,78.28|N|From Thordun Hammerblow.|
 
-C The Perfect Poultice|QID|27538|S|M|69.75,49.10|N|Collect the glittering piles of Verrall River Muck.|
-C Any Portal in a Storm|QID|27537|M|69.47,48.51|N|Kill water elementals for the cores.|
-C The Perfect Poultice|QID|27538|US|M|70.27,49.94|N|Finish collecting the Verrall River Muck.|
+C Any Portal in a Storm|QID|27537|M|69.47,48.51|N|Kill water elementals for the cores.|S|
+C The Perfect Poultice|QID|27538|M|69.75,49.10|N|Collect the glittering piles of Verrall River Muck.|NC|
+C Any Portal in a Storm|QID|27537|M|69.47,48.51|N|Kill water elementals for the cores.|US|
 
-T Any Portal in a Storm|QID|27537|M|79.50,77.62|N|To Talaa in the center courtyard.|
+T Any Portal in a Storm|QID|27537|M|79.50,77.62|N|To Talaa in the center courtyard.|S|
 T The Perfect Poultice|QID|27538|M|79.50,77.62|N|To Talaa in the center courtyard.|
+T Any Portal in a Storm|QID|27537|M|79.50,77.62|N|To Talaa in the center courtyard.|US|
 
 A The Way is Open|QID|27545|M|79.50,77.62|N|From Talaa in the center courtyard.|
 T The Way is Open|QID|27545|M|79.09,78.23|N|To Kurdran Wildhammer upstairs.|
 
 A Firebeard's Patrol|QID|27621|M|79.21,78.27|N|From Thordun Hammerblow.|
 
-r Sell junk, Repair/Restock|QID|27621|M|79.11,76.50|
+r Sell junk, Repair/Restock|QID|27621|M|79.11,76.50|N|From Brundall Chiselgut, 	Dorgan Slagfist, or Richard Maschner in the profession trainer area.  Also beef up your profession skills if needed.|
 
 T Firebeard's Patrol|QID|27621|M|60.18,57.96|N|To Keegan Firebeard.|
-A Welcome Relief|QID|27803|M|60.18,57.96|N|From Keegan Firebeard.|
+A Welcome Relief|QID|27803|M|60.18,57.96|N|From Keegan Firebeard.|S|
 A The Only Homes We Have|QID|27804|M|60.18,57.96|N|From Keegan Firebeard.|
+A Welcome Relief|QID|27803|M|60.18,57.96|N|From Keegan Firebeard.|US|
 
 f Firebeard's Patrol|QID|27804|M|0.00,0.00|N|At Farstad Stonegrip.|
 
-C The Only Homes We Have|QID|27804|PRE|27803|S|U|62508|M|59.68,56.89|N|Put out fires as you go.|
-C Welcome Relief|QID|27803|M|59.67,56.91|N|Kill subjugated firestarters.|
-C The Only Homes We Have|QID|27804|US|PRE|27803|U|62508|M|59.68,56.89|N|Finish putting out fires.|
+C Welcome Relief|QID|27803|M|59.67,56.91|N|Kill subjugated firestarters.|S|
+C The Only Homes We Have|QID|27804|PRE|27803|U|62508|M|59.68,56.89|N|Use the Water Bucket to put out fires.|
+C Welcome Relief|QID|27803|M|59.67,56.91|N|Kill subjugated firestarters.|US|
 
-T Welcome Relief|QID|27803|M|60.08,58.00|N|To Keegan Firebeard.|
+T Welcome Relief|QID|27803|M|60.08,58.00|N|To Keegan Firebeard.|S|
 T The Only Homes We Have|QID|27804|M|60.08,58.00|N|To Keegan Firebeard.|
+T Welcome Relief|QID|27803|M|60.08,58.00|N|To Keegan Firebeard.|US|
 
 A Honorable Bearing|QID|27806|PRE|27803|M|60.08,58.00|N|From Keegan Firebeard.|
 
 A Small Comforts|QID|27805|M|60.39,58.25|N|From Cailin Longfellow inside the building.|
-l Meara's Dried Roses|QID|27805|QO|Meara's Dried Roses: 1/1|M|59.85,56.20|N|Up the stone to enter the house, then left and left.|
-l Aprika's Doll|QID|27805|QO|Aprika's Doll: 1/1|M|59.46,55.88|N|Small blue bear.|
-C Small Comforts|QID|27805|QO|Parlan's Ivory Hammer: 1/1|M|59.32,56.88|N|Enter and to the left.|
+C Meara's Dried Roses|QID|27805|QO|Meara's Dried Roses: 1/1|M|59.85,56.20|N|Up the stone to enter the house, then left and left.|NC|
+C Aprika's Doll|QID|27805|QO|Aprika's Doll: 1/1|M|59.46,55.88|N|Small blue bear.|NC|
+C Small Comforts|QID|27805|QO|Parlan's Ivory Hammer: 1/1|M|59.32,56.88|N|Enter and to the left.|NC|
 T Small Comforts|QID|27805|M|60.40,58.24|N|To Cailin Longfellow inside the building.|
 
 T Honorable Bearing|QID|27806|M|57.44,58.09|N|To Iain Firebeard.|
-A Clan Mullan|QID|27807|M|57.44,58.09|N|From Iain Firebeard.|
-A Stubborn as a Doyle|QID|27808|M|57.44,58.09|N|From Iain Firebeard.|
+A Clan Mullan|QID|27807|M|57.44,58.09|N|From Iain Firebeard.|S|
+A Stubborn as a Doyle|QID|27808|M|57.44,58.09|N|From Iain Firebeard.|S|
 A Firebeard Bellows|QID|27809|M|57.44,58.09|N|From Iain Firebeard.|
+A Clan Mullan|QID|27807|M|57.44,58.09|N|From Iain Firebeard.|US|
+A Stubborn as a Doyle|QID|27808|M|57.44,58.09|N|From Iain Firebeard.|US|
 
 T Clan Mullan|QID|27807|M|50.81,60.16|N|To Duglas Mullan.|
 
@@ -229,18 +258,19 @@ C The Fighting Spirit|QID|27810|M|51.52,60.10|N|Challenge a lone fighter.|
 T The Fighting Spirit|QID|27810|M|50.82,60.22|N|To Duglas Mullan.|
 
 A The Scent of Battle|QID|27811|M|50.82,60.22|N|From Edana Mullan.|
-C The Scent of Battle|QID|27811|S|M|56.95,63.99|N|Gryphons will either need to be healed, fed, or released.|
+C The Scent of Battle|QID|27811|S|M|56.95,63.99|N|Locate the Mullan Gryphons and help them.\n\nSome will be tied down - kill the Twilight Trapper Bindings around them\nSome will appear almost dead - heal them or use first aid on them\nOthers will just be looking at you intently - select the chat option 'smell charred branch'.|NC|
 
 T Stubborn as a Doyle|QID|27808|M|61.48,67.49|N|To Keeland Doyle.|
 A The Fate of the Doyles|QID|27999|M|61.48,67.49|N|From Keeland Doyle.|
 
-C The Scent of Battle|QID|27811|US|M|56.95,63.99|N|Gryphons will either need to be healed, fed, or released.|
+C The Scent of Battle|QID|27811|US|M|56.95,63.99|N|Locate the Mullan Gryphons and help them.\n\nSome will be tied down - kill the Twilight Trapper Bindings around them\nSome will appear almost dead - heal them or use first aid on them\nOthers will just be looking at you intently - select the chat option 'smell charred branch'.|NC|
 
 T The Scent of Battle|QID|27811|M|50.88,60.30|N|To Edana Mullan.|
 A The Loyalty of Clan Mullan|QID|27812|M|50.88,60.30|N|From Duglas Mullan.|
 
-T The Fate of the Doyles|QID|27999|M|57.42,58.17|N|To Iain Firebeard.|
+T The Fate of the Doyles|QID|27999|M|57.42,58.17|N|To Iain Firebeard.|S|
 T The Loyalty of Clan Mullan|QID|27812|M|57.42,58.17|N|To Iain Firebeard.|
+T The Fate of the Doyles|QID|27999|M|57.42,58.17|N|To Iain Firebeard.|US|
 T Firebeard Bellows|QID|27809|M|62.49,48.35|N|To Mackay Firebeard.|
 
 A Death Worthy of a Dragonmaw|QID|27813|M|62.49,48.35|N|From Mackay Firebeard.|
@@ -250,10 +280,11 @@ A Anything We Can Get|QID|27814|M|62.57,48.62|N|From Brom Forgehammer.|
 T The Lost Brother|QID|28233|M|63.21,47.58|N|To Bahrum Forgehammer just over the fence.|
 A They Took Me Pants!|QID|28234|M|63.21,47.58|N|From Bahrum Forgehammer.|
 
-C Anything We Can Get|QID|27814|S|M|62.58,46.71|N|Help any orcs up then grab their weapons on the ground before it despawns.|
-C They Took Me Pants!|QID|28234|M|62.31,46.93|N|Upstairs of the building.|
-C Death Worthy of a Dragonmaw|QID|27813|M|61.97,49.53|N|While flying, help them up.  You get the credit without the fight.|
-C Anything We Can Get|QID|27814|US|M|62.58,46.71|N|Help any orcs up then grab their weapons on the ground before it despawns.|
+C Anything We Can Get|QID|27814|S|M|62.58,46.71|N|Found in various ways:\n\nHanging on the wall of the tower\nInside crates near the broken catapult\nBy finding Injured Dragonmaw Stragglers and selecting Help Up, then looting the weapon from the floor\nKilling and looting Dragonmaw Stragglers.|NC|
+C Death Worthy of a Dragonmaw|QID|27813|M|61.97,49.53|N|Either find Injured Dragonmaw Stragglers and select Help Up (credit without the fight), or take down Dragonmaw Stragglers.|S|
+C They Took Me Pants!|QID|28234|M|62.31,46.93|N|Upstairs of the building, sefeat then look Gorosh the Pant Stealer.|
+C Death Worthy of a Dragonmaw|QID|27813|M|61.97,49.53|N|Either find Injured Dragonmaw Stragglers and select Help Up (credit without the fight), or take down Dragonmaw Stragglers.|US|
+C Anything We Can Get|QID|27814|US|M|62.58,46.71|N|Found in various ways:\n\nHanging on the wall of the tower\nInside crates near the broken catapult\nBy finding Injured Dragonmaw Stragglers and selecting Help Up, then looting the weapon from the floor\nKilling and looting Dragonmaw Stragglers.|NC|
 
 T They Took Me Pants!|QID|28234|M|63.20,47.65|N|To Bahrum Forgehammer.|
 T Anything We Can Get|QID|27814|M|62.57,48.74|N|To Brom Forgehammer.|

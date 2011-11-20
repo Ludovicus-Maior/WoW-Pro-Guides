@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2011-11-09 09:21
+-- Who: Fluclo
+-- Log: Added |NC| to Astranaar's Burning!
+
+-- URL: http://wow-pro.com/node/3225/revisions/24743/view
 -- Date: 2011-08-26 04:46
 -- Who: Crackerhead22
 -- Log: Removed duplicate line of getting flight point for Forest Song.
@@ -179,7 +184,7 @@ T Astranaar Bound|QID|13646|M|34.69,48.55|N|To Sentinel Luara.|
 f Astranaar|QID|13849|NC|N|Accept the Flight Path from Daelyshia.|
 
 A Astranaar's Burning!|QID|13849|M|34.92,49.77|N|From Sentinel Thenysil.|
-C Astranaar's Burning!|QID|13849|U|46094|M|35.31,49.26|N|Use the bucket and aim for a fire.  Rinse and repeat.|
+C Astranaar's Burning!|QID|13849|U|46094|M|35.31,49.26|N|Use the bucket and aim for a fire.  Rinse and repeat.|NC|
 T Astranaar's Burning!|QID|13849|M|34.94,49.77|N|To Sentinel Thenysil.|
 A Return Fire|QID|13853|M|34.94,49.77|N|From Sentinel Thenysil.|
 C Return Fire|QID|13853|M|35.70,49.76|N|Grab a glaive thrower and get to shooting Wind Riders.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2011-11-07 22:07
+-- Who: Fluclo
+-- Log: Added Coords to opening step
+
+-- URL: http://wow-pro.com/node/3309/revisions/24737/view
 -- Date: 2011-08-18 12:07
 -- Who: Fluclo
 -- Log: Added non combat tags, fixed couple typos, synchronised cinematic wording, optional tagged the dungeon turn-in
@@ -93,8 +98,8 @@ return [[
 
 L Level 83 |QID|27003|N|You need to be level 83 or higher to be able to work through this guide.|LVL|83|
 
-R Thistleshrub Valley |QID|27003|N|Welcome to Uldum.  To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.  \n\nDepending on your location, either fly to Gunstan's Dig in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Hero's Call from any Alliance City.|FACTION|Alliance|
-R Thistleshrub Valley |QID|27003|N|Welcome to Uldum.  To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.  \n\nDepending on your location, either fly to Valley of the Watchers in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Warchief's Command from any Horde City.|FACTION|Horde|
+R Thistleshrub Valley |QID|27003|N|Welcome to Uldum.  To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.  \n\nDepending on your location, either fly to Gunstan's Dig in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Hero's Call from any Alliance City.|FACTION|Alliance|M|30.52,65.58|Z|Tanaris|
+R Thistleshrub Valley |QID|27003|N|Welcome to Uldum.  To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.  \n\nDepending on your location, either fly to Valley of the Watchers in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Warchief's Command from any Horde City.|FACTION|Horde|M|30.52,65.58|Z|Tanaris|
 
 T Hero's Call: Uldum! |QID|28558|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
 T Warchief's Command: Uldum |QID|28557|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
