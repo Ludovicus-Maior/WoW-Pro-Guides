@@ -4,7 +4,7 @@
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
-## Version: 2.1.22
+## Version: 2.1.23
 ## X-Category: Compilations
 
 Libraries\LibStub\LibStub.lua

@@ -14,9 +14,9 @@
    This verifies that all guides can be parsed.
 
 6) Look at the number of guides listed in the config pane and verify the count against
-   echo WoWPro_Leveling/Alliance/*.lua | wc -w
-   echo WoWPro_Leveling/Horde/*.lua | wc -w
-   echo WoWPro_Leveling/Neutral/*.lua | wc -w
+   echo */Alliance/*.lua | wc -w
+   echo */Horde/*.lua | wc -w
+   echo */Neutral/*.lua | wc -w
 
 7) Look at /Applications/World of Warcraft/Logs/FrameXML.log for errors
 
