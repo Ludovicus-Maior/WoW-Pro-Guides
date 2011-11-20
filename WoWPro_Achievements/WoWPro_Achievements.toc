@@ -3,7 +3,7 @@
 ## Notes: World Achievements guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## Version: 2.1.23
+## Version: 2.1.24A
 
 ## X-Category: Quest
 
