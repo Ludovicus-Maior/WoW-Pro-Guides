@@ -1,2 +1,1 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">  <Script file="Cracker_Baradin.lua"/>
-  <Script file="Ludovicus_Icecrown.lua"/>  <Script file="Twists_Wildhammer.lua"/></Ui> 
+<Ui xmlns="http://www.blizzard.com/wow/ui/">  <Script file="Cracker_Baradin.lua"/>  <Script file="Ludovicus_Icecrown.lua"/>  <Script file="Twists_Wildhammer.lua"/>  <Script file="PilgrimsBounty.lua"/></Ui> 
