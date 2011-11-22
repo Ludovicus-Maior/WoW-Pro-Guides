@@ -99,7 +99,7 @@ end
 	
 -- Guide Load --
 function WoWPro.Dailies:LoadGuide()
-	WoWPro:dbp("Running: WoWPro.Dailies:LoadGuide()")
+	WoWPro:dbp(string.format("Running: WoWPro.Dailies:LoadGuide(%s)",WoWProDB.char.currentguide))
 	local GID = WoWProDB.char.currentguide
 
 	-- Parsing quests --
@@ -526,7 +526,7 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate()
 end
 
 -- Update Item Tracking --
-local function GetLootTrackingInfo(lootitem,lootqty,count)
+local function GetLootTrackingInfo(lootitem,lootqty)
 --[[Purpose: Creates a string containing:
 	- tracked item's name
 	- how many the user has
@@ -534,15 +534,15 @@ local function GetLootTrackingInfo(lootitem,lootqty,count)
 	- a complete symbol if the ammount the user has is equal to the ammount they need 
 ]]
 	if not GetItemInfo(lootitem) then return "" end
-	local track = "" 												--If the function did have a track string, adds a newline
+	local track = "" 									--If the function did have a track string, adds a newline
 	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	numinbag = GetItemCount(lootitem)+(count or 0)		--Finds the number in the bag, and adds a count if supplied
-	track = track..numinbag										--Adds the number in bag to the string
-	track = track.."/"..lootqty								--Adds the total number needed to the string
+	numinbag = GetItemCount(lootitem)   	            	--Finds the number in the bag, and adds a count if supplied
+	track = track..numinbag								--Adds the number in bag to the string
+	track = track.."/"..lootqty							--Adds the total number needed to the string
 	if lootqty == numinbag then
-		track = track.." (C)"									--If the user has the requisite number of items, adds a complete marker
+		track = track.." (C)"							--If the user has the requisite number of items, adds a complete marker
 	end
-	return track													--Returns the track string to the calling function
+	return track											--Returns the track string to the calling function
 end
 
 -- Auto-Complete: Loot based --
@@ -555,10 +555,10 @@ function WoWPro.Dailies:AutoCompleteLoot(msg)
 		local index = WoWPro.rows[i].index
 		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
 		if WoWProDB.profile.track and WoWPro.lootitem[index] then
-			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi,count)
+			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
 			WoWPro.rows[i].track:SetText(strtrim(track))
 		end
-		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index]) + count >= lootqtyi 
+		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index])  >= lootqtyi 
 		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
 			WoWPro.CompleteStep(index)
 		end
