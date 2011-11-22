@@ -14,6 +14,7 @@ WoWPro.Dailies.actiontypes = {
 	F = "Interface\\Icons\\Ability_Druid_FlightForm",
 	N = "Interface\\Icons\\INV_Misc_Note_01",
 	B = "Interface\\Icons\\INV_Misc_Coin_01",
+	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	U = "Interface\\Icons\\INV_Misc_Bag_08",
 	l = "Interface\\Icons\\INV_Misc_Bag_08",
 	r = "Interface\\Icons\\Ability_Repair"
@@ -29,6 +30,7 @@ WoWPro.Dailies.actionlabels = {
 	F = "Fly to",
 	N = "Note:",
 	B = "Buy",
+	b = "Boat or Zeppelin",
 	U = "Use",
 	l = "Loot",
 	r = "Repair/Restock"
@@ -592,7 +594,7 @@ function WoWPro.Dailies:AutoCompleteZone()
 	local coord = WoWPro.map[currentindex]
 	local waypcomplete = WoWPro.waypcomplete[currentindex]
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
-	if action == "F" or action == "H" or (action == "R" and not waypcomplete) then
+	if action == "F" or action == "H" or action == "b" or (action == "R" and not waypcomplete) then
 		if step == zonetext or step == subzonetext 
 		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
 			WoWPro.CompleteStep(currentindex)
