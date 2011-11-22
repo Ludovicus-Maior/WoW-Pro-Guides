@@ -1,2 +1,1 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">  <Script file="Cracker_HellScream.lua"/>
-</Ui>
+<Ui xmlns="http://www.blizzard.com/wow/ui/">  <Script file="Cracker_HellScream.lua"/>  <Script file="PilgrimsBounty.lua"/></Ui>
