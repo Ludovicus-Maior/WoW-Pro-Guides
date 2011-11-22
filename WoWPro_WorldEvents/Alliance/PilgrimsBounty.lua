@@ -31,7 +31,7 @@ A Pumpkin Pie|QID|14024|M|33.8,50.8|Z|Elwynn Forest|N|From Jasper Moore, Elwynn 
 l Pumpkin Pie|QID|14024|L|44836 5|N|Cook up some pie|
 T Pumpkin Pie|QID|14024|M|59.81,34.34|Z|Dun Morogh|N|To Edward Winslow, near Ironforge gates. |
 A Cranberry Chutney|QID|14028|M|59.81,34.34|Z|Dun Morogh|N|From Edward Winslow, near Ironforge gates.|
-l Buy Tangy Wetland Cranberries|QID|14028|L|44854 5|Buy 5 Cranberries from the Pilgrim's Bounty vendor|
+B Buy Tangy Wetland Cranberries|QID|14028|L|44854 5|Buy 5 Cranberries from the Pilgrim's Bounty vendor|
 l Cranberry Chutney|QID|14028|L|44840 5|N|Cook up some Chutney|
 N Sharing a Bountiful Feast|QID|14028|M|59.90,34.98|Z|Dun Morogh|N|At the Ironforge Bountiful Table, eat 5 of the 5 foods either by moving from chair to chair or passing them along.|
 T Cranberry Chutney|QID|14028|M|33.8,50.8|Z|Elwynn Forest|N|To Jasper Moore, near Stormwind gates.|
