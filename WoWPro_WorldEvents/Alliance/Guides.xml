@@ -7,4 +7,5 @@
 	<Script file="HallowsEnd_CAT.lua"/>
 	<Script file="HallowsEnd_DAL.lua"/>
 	<Script file="PilgrimsBounty.lua"/>
+	<Script file="WinterVeil.lua"/>
 </Ui>
