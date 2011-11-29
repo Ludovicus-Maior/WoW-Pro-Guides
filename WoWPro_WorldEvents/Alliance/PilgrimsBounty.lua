@@ -57,9 +57,10 @@ b Teldrassil|QID|14035|M|22.79,55.94|Z|Stormwind City|N|Take the boat to Darnass
 T Slow-Roasted Turkey|QID|14035|M|61.4,49.2|Z|Darnassus|N|To Isaac Allerton, Darnassus, Warrior's Terrace. |
 N Get Clothes for Pilgrim's Peril|N|Do the dailies and get Pilgrim's Dress, Robe, or Attire for Pilgrim's Peril and put one on. Then ride or fly to your target.|
 N Pilgrim's Peril: Orgrimmar|M|46.2,14.2|Z|Durotar|N|Sit down at the table in Orgrimmar.|
-N Pilgrim's Peril: Thunder Bluff|M|46.8,59.0|Z|Mulgore|N|Sit down at the table in Thunder Bluff.|
+N Pilgrim's Peril: Thunder Bluff|M|30.12,68.08|Z|Thunder Bluff|N|Sit down at the table in Thunder Bluff.|
 N Pilgrim's Peril: Undercity|M|64.46,7.89|Z|Undercity|N|Sit down at the table in Undercity.|
 N Pilgrim's Peril: Silvermoon City|M|55.4,53.2|Z|Eversong Woods|N|Sit down at the table in Silvermoon City.|
+N Terokkar Turkey Time|M|41.97,65.61|Z|Terokkar Forest|N|Entrance to Sethekk Halls, Terokkar Forest.  Instance is straight ahead.|
 N Fini|N|Time to take a nap!|
 ]]
 end)
