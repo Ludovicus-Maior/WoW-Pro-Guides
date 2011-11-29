@@ -40,7 +40,7 @@ b Thunder Bluff|QID|14041|M|43.04,65.00|Z|Orgrimmar|N|Take the zepplin to Thunde
 T Cranberry Chutney|QID|14041|M|30.86,63.69|Z|Thunder Bluff|N|To Dokin Farplain, Thunder Bluff|
 A Candied Sweet Potatoes|QID|14043|M|30.86,63.69|Z|Thunder Bluff|N|From Dokin Farplain, Thunder Bluff|
 B Buy Mulgore Sweet Potato|QID|14043|M|31.02,63.33|Z|Thunder Bluff|L|46797 5|N|Buy 5 Sweet Potatoes from the Laha Farplain|
-N Sharing a Bountiful Feast|QID|14043|M|46.8,59.0|Z|Mulgore|N|Eat 5 of the 5 foods either by moving from chair to chair or passing them along.|
+N Sharing a Bountiful Feast|QID|14043|M|46.8,59.0|Z|Thunder Bluff|N|Eat 5 of the 5 foods either by moving from chair to chair or passing them along.|
 l Candied Sweet Potatoes|QID|14043|N|Cook up some yams|QO|Candied Sweet Potatoes: 5/5|
 b Orgrimmar|QID|14043|M|15.35,25.65|Z|Thunder Bluff|N|Take the zepplin to Orgrimmar|
 T Candied Sweet Potatoes|QID|14043|M|46.58,13.79|Z|Durotar|N|To Francis Eaton, Durotar|
@@ -63,6 +63,7 @@ A Pilgrim's Peril: Stormwind City|M|34.17,51.08|Z|Elwynn Forest|N|Sit down at th
 N Pilgrim's Peril: Ironforge|M|59.90,34.98|Z|Dun Morogh|N|Sit down at the table in Ironforge.|
 N Pilgrim's Peril: Darnassus|M|63.38,47.55|Z|Darnassus|N|Sit down at the table in Darnassus.|
 N Pilgrim's Peril: Exodar|M|76.54,52.03|Z|The Exodar|N|Sit down at the table in Exodar.|
+N Terokkar Turkey Time|M|41.97,65.61|Z|Terokkar Forest|N|Entrance to Sethekk Halls, Terokkar Forest.  Instance is straight ahead. Wear head and chest piece.|
 N Fini|N|Time to take a nap!|
 ]]
 end)
