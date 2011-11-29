@@ -1,5 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-	    <Script file="Midsummer_Horde.lua"/>
+        <Script file="Midsummer_Horde.lua"/>
         <Script file="HallowsEnd_EK.lua"/>
         <Script file="HallowsEnd_KAL.lua"/>
         <Script file="HallowsEnd_OUT.lua"/>
@@ -7,5 +7,6 @@
         <Script file="HallowsEnd_CAT.lua"/>
         <Script file="HallowsEnd_DAL.lua"/>
         <Script file="PilgrimsBounty.lua"/>
+        <Script file="WinterVeil.lua"/>
 </Ui>
 
