@@ -151,7 +151,7 @@ function WoWPro:UpdateGuide(offset)
 	
 	-- If the guide is complete, loading the next guide --
 	if WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total 
-	and not WoWPro.Recorder and not WoWPro.Leveling.Resetting then
+	and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
 		if WoWProDB.profile.autoload then
 			WoWProDB.char.currentguide = WoWPro.Guides[GID].nextGID
 			WoWPro:LoadGuide()
