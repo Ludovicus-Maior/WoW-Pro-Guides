@@ -438,7 +438,10 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 		WoWPro.Dailies.DailiesReset = false
 		for GID, GuideInfo in pairs(WoWPro.Guides) do
 			if GuideInfo.guidetype == "Dailies" then
-				WoWProCharDB.Guide[GID].completion = {}
+			    if WoWProCharDB.Guide[GID] == nil then
+			        WoWProCharDB.Guide[GID] = {}
+			    end
+			    WoWProCharDB.Guide[GID].completion = {}
 			end
 		end
 		WoWPro:UpdateGuide()
