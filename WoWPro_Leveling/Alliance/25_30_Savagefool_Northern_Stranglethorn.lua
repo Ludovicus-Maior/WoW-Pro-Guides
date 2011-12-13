@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2011-12-01 22:30
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3231/revisions/24500/view
 -- Date: 2011-06-04 23:45
 -- Who: Crackerhead22
 -- Log: Added the few missing notes in.
@@ -30,15 +34,19 @@
 WoWPro.Leveling:RegisterGuide('SavNorStr2530', 'Northern Stranglethorn', 'Savagefool', '25', '30', 'BitCap3035', 'Alliance', function()
 return [[
 
-F Raven Hill|QID|26838|N|Fly to Raven Hill.|
-R Northern Stranglethorn|QID|26838|N|Run to Northern Stranglethorn.|M|44.35,66.14;44.67,91.19|Z|Duskwood|
-f Rebel Camp|QID|26838|M|47.87,11.86|N|At James Stillair.|
-T Rebels Without a Clue|QID|26838|M|47.56,10.33|N|To Lieutenant Doren.|
+L Level 24 |LVL|24|QID|26740|N|You need to be level 24 to do this guide.|
+
+R Rebel Camp|QID|26740|M|47.82,11.98|N|Northern Stranglethorn is to the south of Duskwood. You can obtain one of two breadcrumbs into this zone, Rebels Without a Clue is offered by Sentinel Velene Starstrike at the Stardust Spire in Ashenvale, and from Sister Elsington in Raven Hill, Duskwood.  Alternatively, in-level players can obtain the Hero's Call from Stormwind City.\n\nOnce you have one of these two, head to the Rebel Camp.|
+f Rebel Camp|QID|26740|M|47.87,11.86|N|At James Stillair.|
+
+T Rebels Without a Clue|QID|26838|M|47.56,10.33|N|To Lieutenant Doren.|O|
+T Hero's Call: Northern Stranglethorn Vale!|QID|28699|M|47.56,10.33|N|To Lieutenant Doren.|O|
+
 A The Fate of Kurzen|QID|26735|M|47.56,10.33|N|From Lieutenant Doren.|
 A Krazek's Cookery|QID|26740|M|47.17,10.68|N|From Corporal Kaleb.|
 A Bad Medicine|QID|26732|M|47.28,11.02|N|From Brother Nimetz.|
 
-R Nesingwary's Expedition|QID|26740|M|44.16,22.61|N|Head to Nesingwary's Expedition.|
+R Nesingwary's Expedition|QID|26740|M|49.33,14.39;47.75,24.25;44.16,22.61|N|Head to Nesingwary's Expedition.|
 T Krazek's Cookery|QID|26740|M|43.72,23.04|N|To Krazek.|
 A Venture Company Mining|QID|26763|M|43.72,23.04|N|From Krazek.|
 A Supply and Demand|QID|26343|M|43.80,23.45|N|From Drizzlik.|
@@ -50,7 +58,7 @@ A Panther Hunting|QID|190|M|44.23,22.43|N|From Sir S. J. Erlgadin.|
 A The Green Hills of Stranglethorn|QID|26269|M|44.22,22.32|N|From Barnil Stonepot.|
 
 C The Green Hills of Stranglethorn|QID|26269|M|42.30,21.81|N|This can looted from any of the beast in the area.|S|
-C Supply and Demand|QID|26343|M|39.01,19.45|N|Follow the river west, killing River Crocolisk.|
+C Supply and Demand|QID|26343|M|39.01,19.45|N|Follow the river west, kill and loot the River Crocolisk.|
 C Tiger Hunting|QID|185|M|41.45,23.37|N|Kill Young Stranglethorn Tigers until complete.|
 T Tiger Hunting|QID|185|M|41.45,23.37|N|(UI Alert)|
 A Tiger Stalking|QID|186|M|41.45,23.37|N|(UI Alert)|
@@ -58,25 +66,27 @@ C The Green Hills of Stranglethorn|QID|26269|M|42.30,21.81|N|This can looted fro
 T Supply and Demand|QID|26343|M|43.56,23.40|N|To Drizzlik.|
 A Some Assembly Required|QID|26344|M|43.56,23.40|N|From Drizzlik.|
 T The Green Hills of Stranglethorn|QID|26269|M|44.22,22.32|N|To Barnil Stonepot.|
+
 C Panther Hunting|QID|190|M|53.58,24.18|N|Kill 10 Young Panthers.|
 T Panther Hunting|QID|190|M|53.58,24.18|N|(UI Alert)|
 A Panther Stalking|QID|191|M|53.58,24.18|N|(UI Alert)|
-C The Fate of Kurzen|QID|26735|M|57.65,21.21|N|These anywhere within Kurzen's Compound.|S|
-C Bad Medicine|QID|26732|M|57.85,20.58|N|Kill and loot Kurzen mobs until you have 7 Jungle Remedies.|
+C Bad Medicine|QID|26732|M|57.85,20.58|N|Kill and loot Kurzen mobs for the Jungle Remedies.|S|
+C The Fate of Kurzen|QID|26735|M|57.65,21.21|N|The Record and the Dossiers can be found lying about anywhere within Kurzen's Compound, around the campfire is normally a good place to find them.|NC|
+C Bad Medicine|QID|26732|M|57.85,20.58|N|Finish killing and looting Kurzen mobs for the Jungle Remedies.|US|
 A Just Hatched|QID|26738|M|57.85,20.58|N|Loot a Lashtail Raptor Egg Fragment (You recieve this when you get your last Jungle Remedy.). This quest automatically accepts.|
-C The Fate of Kurzen|QID|26735|M|57.65,21.21|N|These are all over the place in Kurzen's Compound.|US|
 C Tiger Stalking|QID|186|M|60.23,29.45|N|Kill 10 Stranglethorn Tigers.|
 T Tiger Stalking|QID|186|M|60.23,29.45|N|(UI Alert)|
 A Tiger Prowess|QID|187|M|60.23,29.45|N|(UI Alert)|
-C Some Assembly Required|QID|26344|M|52.32,39.56|N|Kill Snapjaw Crocolisk and loot them until you complete the quest. They are on both sides of the river by the Venture Co. Base Camp.|
+
+C Some Assembly Required|QID|26344|M|52.32,39.56|N|Kill Snapjaw Crocolisk and loot them, they are found along the river.|S|
 C Venture Company Mining|QID|26763|M|57.54,35.34|N|Kill Venture Co. employess and loot the crystals.|
-C Some Assembly Required|QID|26344|M|52.32,39.56|N|Kill Snapjaw Crocolisk and loot them until you complete the quest. They are on both sides of the river by the Venture Co. Base Camp.|
+C Some Assembly Required|QID|26344|M|52.32,39.56|N|Kill Snapjaw Crocolisk and loot them until you complete the quest. They are on both sides of the river by the Venture Co. Base Camp, feel free to cross over as you'll be returning to Nesingwary's next.\n\nDon't go under either bridge, as the crocodiles beyond are not the right ones (only Snapjaw Crocolisks drop the skins, not Elders Crocs or River Crocs)|US|
 T Some Assembly Required|QID|26344|M|43.72,23.55|N|To Drizzlik.|
 A Excelsior|QID|26345|M|43.72,23.55|N|From Drizzlik.|
 T Venture Company Mining|QID|26763|M|43.68,23.03|N|To Krazek.|
 A Return to Corporal Kaleb|QID|26765|M|43.68,23.03|N|From Krazek.|
 
-R Rebel Camp|QID|26732|M|47.56,11.49|N|Head back to the Rebel Camp.|
+R Rebel Camp|QID|26732|M|48.16,24.35;47.56,11.49|N|Head back to the Rebel Camp.|
 T Bad Medicine|QID|26732|M|47.35,11.21|N|To Brother Nimetz.|
 A Control Sample|QID|26733|M|47.35,11.21|N|From Brother Nimetz.|
 T Just Hatched|QID|26738|M|47.10,10.88|N|To Corporal Sethman.|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2011-12-08 18:02
+-- Who: Crackerhead22
+-- Log: 4.3 updates plus added in quest for zone quest achievment
+
+-- URL: http://wow-pro.com/node/3282/revisions/24341/view
 -- Date: 2011-04-29 16:46
 -- Who: Ludovicus Maior
 -- Log: Line 301, for step A non-decimal PRE
@@ -296,18 +301,17 @@ T Maxnar Must Die!|QID|10748|N|Go to the end of the wyrmcult cave and kill Maxna
 
 T Slaughter at Boulder'mok|QID|10786|N|Gor'drek in Thunderlord Stronghold |M|51.91,58.46|
 T Gorgrom the Dragon-Eater|QID|10723|N|Rexxar|M|51.85,58.44|
-N Group Quest|QID|10724|N|If you can get a group or are a Death Knight accept the follow up|
-A Prisoner of the Bladespire|QID|10724|O|
+A Prisoner of the Bladespire|QID|10724|
 
-K Ogre Elites|QID|10724|O|L|31755|N|You may need a group for this. Kill Ogre Elites until you or your group gets a Wyvern Cage Key. |M|65.71,20.28|
-C Prisoner of the Bladespire|QID|10724|O|U|31144|
+K Ogre Elites|QID|10724|L|31755|N|Kill Ogres until you get a Wyvern Cage Key. |M|65.71,20.28|
+C Prisoner of the Bladespire|QID|10724|U|31144|
 
-T Prisoner of the Bladespire|QID|10724|O|N|Rexxar |M|51.79,58.42|
-A Showdown|QID|10742|O|PRE|10724|N|Prisoner of the Bladespire|
+T Prisoner of the Bladespire|QID|10724|N|Rexxar |M|51.79,58.42|
+A Showdown|QID|10742|PRE|10724|N|Prisoner of the Bladespire|
 
-C Showdown|QID|10742|O|U|31146|N|Go to the Altar of Goc and use Rexxar's Battle Horn. |M|63.91,18.49|
+C Showdown|QID|10742|U|31146|N|Go to the Altar of Goc and use Rexxar's Battle Horn. Try and Let Rexxar tank Goc.|M|63.91,18.49|
 
-T Showdown |QID|10742|O|N|Blade's Edge Mountains, Thunderlord Stronghold |M|51.78,58.40|
+T Showdown |QID|10742|N|Blade's Edge Mountains, Thunderlord Stronghold |M|51.78,58.40|
 
 T There Can Be Only One Response|QID|10867|N|Leoroxx in Mok'Nathal Village |M|74.90,60.56|
 
@@ -330,6 +334,74 @@ C The Hound-Master|QID|10912|U|31809|N|Use the Evergrove Wand, two treants will 
 H Evergrove|QID|10912|U|6948|
 T The Hound-Master|QID|10912|N|Wildlord Antelarion |M|61.45,39.50|
 
-N Loremaster|QID|10983|N|If you wish to complete the quest achievement for this zone you need to do a lvl70 5man group quest chain, this will alow access to Ogri'la which has a bunch more quests. To start get the quest "Mog'dorg the Wizened" from Grok in Lower City, Shattrath |
+N Note:|QID|10989|M|55.44,44.92|N|The following quests are for zone quest achievement completion, you must be level 70.|
+
+A Mog'dorg the Wizened|QID|10989|M|55.43,45.32|N|From Chort.|
+T Mog'dorg the Wizened|QID|10989|M|55.44,44.92|N|To Mog'dorg the Wizened, up the tower.|
+A Grulloc Has Two Skulls|QID|10995|M|55.44,44.92|N|From Mog'dorg the Wizened.|
+A Maggoc's Treasure Chest|QID|10996|M|55.44,44.92|N|From Mog'dorg the Wizened.|
+A Even Gronn Have Standards|QID|10997|M|55.44,44.92|
+C Grulloc Has Two Skulls|QID|10995|M|61.17,47.60|N|Kill Grulloc then loot the Dragon Skull from the ground.|
+C Maggoc's Treasure Chest|QID|10996|T|Maggoc|M|67.82,58.52|N|Maggoc circles around the Death's Door area. Kill him, then loot the treasure chest from the ground.|
+R Toshley's Station|QID|10997|M|60.49,68.74|N|Head to Toshley's Station.|
+F Shattrath City|QID|10997|M|61.1,70.43|N|Fly to Shattrath City.|
+
+C Even Gronn Have Standards|QID|10997|M|20.37,18.26|Z|Terokkar Forest|N|Fly up to The Barrier Hills, enter the building. Kill Slaag, then loot his standard from the ground.|
+H Evergrove|QID|10995|M|63.83,41.26|N|Hearth back to Evergrove, or fly if your hearth is not up.|
+T Grulloc Has Two Skulls|QID|10995|M|55.41,44.93|N|To Mog'dorg the Wizened.|
+T Maggoc's Treasure Chest|QID|10996|M|55.41,44.93|N|To Mog'dorg the Wizened.|
+T Even Gronn Have Standards|QID|10997|M|55.41,44.93|N|To Mog'dorg the Wizened.|
+A Grim(oire) Business|QID|10998|M|55.41,44.93|N|From Mog'dorg the Wizened.|
+C Grim(oire) Business|QID|10998|M|77.53,31.16|N|Stand in one of the circles of fire to summon Vim'gol. Kill him them loot his Grimoire.|
+T Grim(oire) Business|QID|10998|M|55.44,44.96|N|To Mog'dorg the Wizened.|
+A Into the Soulgrinder|QID|11000|M|55.44,44.96|N|From Mog'dorg the Wizened.|
+C Into the Soulgrinder|QID|11000|U|32467|M|60.01,24.15|N|Go to the waypoint and use the Grimoire. Protect The Soulgrinder from the Ogres that spawn. After a while Skulloc will finally be attackable. Kill him then loot his soul from the ground.|
+T Into the Soulgrinder|QID|11000|M|55.42,44.94|N|To Mog'dorg the Wizened.|
+A Ogre Heaven|QID|11009|M|55.43,45.05|N|From Mog'dorg the Wizened.|
+
+T Ogre Heaven|QID|11009|M|28.83,57.37|N|To Chu'a'lor.|
+A The Crystals|QID|11025|M|28.83,57.37|N|From Chu'a'lor.|
+C The Crystals|QID|11025|M|28.46,62.44|N|Kill mobs to get the shards, you can also find clusters now and then where the Flayers are.|
+T The Crystals|QID|11025|M|28.82,57.43|N|To Chu'a'lor.|
+A An Apexis Relic|QID|11058|M|28.37,57.51|N|From Torkus.|
+A Our Boy Wants To Be A Skyguard Ranger|QID|11030|M|28.37,57.51|N|From Torkus.|
+l Apexis Shards|QID|11058|L|32569 15|M|29.43,66|N|Kill and loot mobs, as well as loot the shard clusters until you get 15 shards.|
+C An Apexis Relic|QID|11058|M|27.68,68.05|N|This works like the old Simon game. The crystal in the middle will send a bolt to a color, starting with 1 color and workings its way up. After it finishes, you will have to copy what it did. If you have trouble I would recommend the addon "Ogri'Lazy". It can be found on Curse and WoWInterface,|
+C Our Boy Wants To Be A Skyguard Ranger|QID|11030|M|29.56,81.14|N|Click on the Fel Crystalforge and choose to purchase a flask of the beast. Warning: If you fly into this area, the Fel Cannons will attack you. They can knock you around and possibly knock you off your mount. Keep moving.|
+T Our Boy Wants To Be A Skyguard Ranger|QID|11030|M|28.36,57.73|N|To Torkus.|
+A A Father's Duty|QID|11061|M|28.35,57.73|N|From Torkus.|
+T An Apexis Relic|QID|11058|M|28.67,57.40|N|To Chu'a'lor.|
+A The Skyguard Outpost|QID|11062|M|27.49,52.67|N|From Sky Commander Keller.|
+T The Skyguard Outpost|QID|11062|M|27.63,52.84|N|To Sky Sergeant Vanderlip.|
+
+A Bombing Run|QID|11010|M|27.63,52.84|N|From Sky Sergeant Vanderlip.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
+A Bombing Run|QID|11102|M|27.63,52.84|N|From Sky Sergeant Vanderlip.|C|Druid|
+C Bombing Run|QID|11010|U|32456|M|32.18,42.46|N|Hotkey the bombs, then head to where the waypoint is. When you get there you should be able to see the Fel Cannons, and right next to them, red bobbing arrows. Where the red arrows are, is where you have to bomb. The bomb can be used while moving, you can not stop moving due to the cannons.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
+T Bombing Run|QID|11102|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
+C Bombing Run|QID|11010|U|32456|M|32.18,42.46|N|Hotkey the bombs, then head to where the waypoint is. When you get there you should be able to see the Fel Cannons, and right next to them, red bobbing arrows. Where the red arrows are, is where you have to bomb. The bomb can be used while moving, you can not stop moving due to the cannons.|C|Druid|
+T Bombing Run|QID|11010|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Druid|
+A Assault on Bash'ir Landing!|QID|11119|M|27.50,52.74|N|From Sky Commander Keller.|
+T Assault on Bash'ir Landing!|QID|11119|M|27.93,52.14|N|To Aether-tech Apprentice.|
+A Wrangle Some Aether Rays!|QID|11065|M|28.02,51.59|N|From Skyguard Khatie.|
+C Wrangle Some Aether Rays!|QID|11065|U|32698|M|30.92,68.47|N|Find an Aether Ray, get it low in health then use the Wrangling Rope. Do this 5 times.|
+T Wrangle Some Aether Rays!|QID|11065|M|27.92,51.48|N|To Skyguard Khatie.|
+A To Rule The Skies|QID|11078|M|27.47,52.69|N|From Sky Commander Keller.|
+l Apexis Shards|QID|11078|L|32569 35|M|29.43,66|N|Kill and loot mobs, as well as loot the shard clusters until you get 35 shards. You can also do the dailies, "Bomb Them Again" and "Wrangle More Aether Rays" for 15 shards each.|
+C To Rule The Skies|QID|11078|M|34.10,54.66|N|Click on the egg, and choose to place the shards next to the egg. Kill and loot the dragon that comes down.|
+T To Rule The Skies|QID|11078|M|27.47,52.69|N|To Sky Commander Keller.|
+A Guardian of the Monument|QID|11059|M|28.70,57.25|N|From Chu'a'lor.|
+l Apexis Shards|QID|11059|L|32569 35|M|29.43,66|N|Kill and loot mobs, as well as loot the shard clusters until you get 35 shards. You can also do the dailies, "Bomb Them Again" and "Wrangle More Aether Rays" for 15 shards each.|
+C Guardian of the Monument|QID|11059|M|27.39,68.56|N|You do not need 4 people for this. Head to the large crystal, click it and put in the 35 shards. Once it shows you the first color, go to a different color and fail it, you will take about 7-9k dmg. The Guardian will appear about 15-20 seconds later. Kill and loot it.|
+T Guardian of the Monument|QID|11059|M|28.70,57.25|N|To Chu'a'lor.|
+l Apexis Shards|QID|11061|L|32569 10|M|54.34,10.60|N|You will need 10 shards, so kill mobs, etc. until you get 10.|
+C A Father's Duty|QID|11061|M|54.43,10.86|N|Click on the forge and turn in the 10 shards to get the flask.|
+T A Father's Duty|QID|11061|M|28.43,57.65|N|To Torkus.|
+A A Special Thank You|QID|11091|M|28.72,57.49|N|From Chu'a'lor. Requires your reputation with Ogri'la to be Friendly.|
+T A Special Thank You|QID|11091|M|28.12,58.62|N|To Jho'nass.|
+A A Fel Whip For Gahk|QID|11079|M|28.52,57.95|N|From Gahk.|
+l Apexis Shards|QID|11079|L|32569 35|N|You will need 35 shards.|
+C A Fel Whip For Gahk|QID|11079|M|26.79,83.55|N|Head to the waypoint while being careful of the Flak Cannons. Click the crystal and insert the 35 shards. Kill and loot the demon that spawns.|
+T A Fel Whip For Gahk|QID|11079|M|28.52,57.95|N|To Gahk.|
+
 ]]
 end)

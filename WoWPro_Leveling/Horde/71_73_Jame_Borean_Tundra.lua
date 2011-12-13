@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2011-12-10 15:27
+-- Who: Crackerhead22
+-- Log: 4.3 updates
+
+-- URL: http://wow-pro.com/node/3290/revisions/24605/view
 -- Date: 2011-06-25 02:37
 -- Who: Crackerhead22
 -- Log: ! Duplicate T step for qid 11576 - Quest "Abduction" C and T steps had QID 11576 instead of 11590
@@ -353,13 +358,14 @@ T Shatter the Orbs! |QID|11659| |N|Back at Taunka'le Village.|M|76.7,37.9|
 T Neutralizing the Cauldrons |QID|11647|M|76.0,37.3|
 T A Courageous Strike |QID|11641|M|76.0,37.3|
 T Words of Power |QID|11640|M|75.9,37.2|
-N Breaking Through - Group Quest|QID|11898|N|This group quest is fairly difficult to solo. All of them hit fairly hard, the Prince isn't stunnable or snarable, but the others are. The prince shadowbolts for 2k (LoSable) and melees hard. When he channels violet beams, STOP ATTACKING, or your attacks will be reflected. If you can't solo it or don't want to try, look for people who do as you go through the guide.|
-A Breaking Through |QID|11898|O|
-
-C Breaking Through |QID|11898|O|N|Go to the teleporter at . Kill Vanthryn at (85.7,25.7). Kill Luthion at (87.9,29.0). Head to the upstairs teleporter at (86.8,30.2) and jump. Head to the western exit from this room at (853,29.7), then head upstairs and kill Prince Valanar (86.3,28.6). Remember, when he channels violet beams, STOP ATTACKING, or your attacks will be reflected.|M|86.5,28.5|
+A Breaking Through |QID|11898|N|From Chieftain Wintergale.|M|75.8,37.2|
+R Go to|QID|11898|M|86.5,28.5|CC|N|the teleporter at the waypoint.
+K Kill Vanthryn|QID|11898|QO|Vanthryn the Merciless slain: 1/1|M|85.7,25.7|
+K Kill Luthion|QID|11898|QO|Luthion the Vile slain: 1/1|M|87.9,29.0|
+C Breaking Through |QID|11898|N|Head to the upstairs teleporter and jump. Head to the western exit from this room, then head upstairs and kill Prince Valanar. Remember, when he channels violet beams, STOP ATTACKING, or your attacks will be reflected.|M|86.3,28.6|
 H Taunka'le Village|QID|11929|U|6948|
 
-T Breaking Through |QID|11898|O|
+T Breaking Through |QID|11898|N|To Chieftain Wintergale.|M|75.8,37.2|
 A The Fall of Taunka'le Village |QID|11929|N|Don't turn it in.|O|
 
 N Careful about Animal Blood |QID|11866|N|If you kill an animal, you'll gain the Animal Blood debuff. If you come within range of a D.E.H.T.A NPC with this debuff, they'll come after you. Use water to wash it off or wait for the debuff to wear off.|
@@ -438,7 +444,7 @@ T The Culler Cometh |QID|11868|M|56.8,44.0|
 T Kaw the Mammoth Destroyer |QID|11879|M|57.0,44.3|
 A The Assassination of Harold Lane |QID|11892|
 
-C The Assassination of Harold Lane |QID|11892| |N|He's to the NW at . 2 things to note: (1) He drops traps that root you, then run to range and chuck bear pelts at you. If you're melee, move as soon as the trap pops, and you don't get rooted. (2) The horn you're given summons a stampede that does about 50% of his HP. However, the whole stampede must hit him, so make sure that you stay still when you use it, and aren't caught in a trap; use it after you avoid one (or get out of it). If you can't solo it, it's a push-over with 2 (2 stampedes).| |U|35293|M|50,42|
+C The Assassination of Harold Lane |QID|11892| |N|He's to the NW at . 2 things to note: (1) He drops traps that root you, then run to range and chuck bear pelts at you. If you're melee, move as soon as the trap pops, and you don't get rooted. (2) The horn you're given summons a stampede that does about 50% of his HP. However, the whole stampede must hit him, so make sure that you stay still when you use it, and aren't caught in a trap; use it after you avoid one (or get out of it).|U|35293|M|50,42|
 
 T The Assassination of Harold Lane |QID|11892|
 
@@ -480,8 +486,6 @@ T Prison Break |QID|11587|M|45.3,33.3|
 A Abduction |QID|11590|M|45.3,33.3|
 T Monitoring the Rift: Cleftcliff Anomaly |QID|11576|M|45.0,33.4|
 A Monitoring the Rift: Sundered Chasm |QID|11582|M|45.0,33.4|
-
-N MI time! |QID|11582|N|You have to have a 100% speed mount for this to work, and you need to shoot off the end of the bridge. There's a little sticking out bit on the right. Of course, if you're a mage/priest/paladin, you can bubble/slowfall, and if you're really boring, there's a path going down at , which is marked by blue torches, but where's the fun in that?|M|43,35|
 
 C Monitoring the Rift: Sundered Chasm |QID|11582|U|34669|N|Swim north to , then dive down.|M|44,29|
 C Abduction |QID|11590|U|34691|N|Find a Beryl Sorcerer, beat him down to 25%, then use the Arcane Binder on him. |M|41,38|
@@ -547,7 +551,6 @@ A Hatching a Plan |QID|11936|M|33.3,34.5|
 T Nuts for Berries |QID|11912|M|33.5,34.4|
 A Keep the Secret Safe |QID|11914|M|33.5,34.4|
 T Secrets of the Ancients |QID|11910|M|32.9,34.4|
-A Quickening |QID|11911|
 T Bait and Switch |QID|11951|U|35671|N|Use the Augmented Arcane Prison to summon the dragon, then turn it in.|
 A Saragosa's End |QID|11957|
 
@@ -568,12 +571,7 @@ T Keep the Secret Safe |QID|11914|M|33.5,34.4|
 T Hatching a Plan |QID|11936|M|33.3,34.5|
 A Drake Hunt |QID|11919|M|33.3,34.5|
 T Springing the Trap |QID|11969|M|33.3,34.5|
-A Prisoner of War |QID|11973|
 T Reading the Meters |QID|11900|M|32.9,34.4|
-A Postponing the Inevitable |QID|11905|
-
-N The Nexus |QID|11905|N|You've now got all the quests for the Nexus instance. If you wish to run it, do so, it's very quick and gives decent rewards.|
-
 C Drake Hunt |QID|11919|U|35506|N|Use the spear on a drake then just wait till it becomes friendly. The spear has a LARGE range. Drakes can be found around . Once you have one, run back to the shield (33,34)| |M|23,26|
 
 T Drake Hunt |QID|11919|M|33.3,34.5|
@@ -691,5 +689,6 @@ C Across Transborea |QID|11930| |N|Mount up and ride east along the road, don't 
 T Across Transborea |QID|11930|
 A A Tauren Among Taunka |QID|11977|
 T A Tauren Among Taunka |QID|11977| |Z|Dragonblight| |N|She's at  in Westwind Refugee Camp, which is in Dragonblight.|M|13,49|
+
 ]]
 end)

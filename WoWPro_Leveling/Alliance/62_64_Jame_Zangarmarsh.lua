@@ -1,4 +1,13 @@
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2011-12-13 20:18
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3273/revisions/24834/view
+-- Date: 2011-12-04 16:06
+-- Who: Crackerhead22
+-- Log: 4.3 updates
+
+-- URL: http://wow-pro.com/node/3273/revisions/24556/view
 -- Date: 2011-06-15 20:29
 -- Who: Crackerhead22
 -- Log: Minor tweaks.
@@ -59,7 +68,7 @@
 
 WoWPro.Leveling:RegisterGuide("JamZan6264", "Zangarmarsh", "Jame", "62","64", "JamTer6466", "Alliance", function()
 return [[
-N Suggestion to buy:|N|I would suggest buying 5 Sanguine Hibiscus from the AH if they are not too expensive, for a quest later in the guide.|
+
 R Zangarmarsh|QID|9912|N|Go to Zangarmarsh.|M|82.9,65.08|
 A The Umbrafen Tribe|QID|9747|M|80.40,64.20|N|From Ikeyen.|
 A Plants of Zangarmarsh|QID|9802|M|80.30,64.20|N|From Lauranna Thar'well.|
@@ -70,6 +79,8 @@ h Cenarion Refuge|QID|9912|N|Set your hearthstone to Cenarion Refuge.|M|78.50,63
 T The Cenarion Expedition|QID|9912|M|78.40,62.10|N|To Ysiel Windsinger.|
 A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.10|N|From Ysiel Windsinger.|
 A Warden Hamoot|QID|9778|M|78.40,62.10|N|From Ysiel Windsinger.|
+; The quest "Checking up" on the following line has wrong caps on 'Up' so it does not auto-accept since it is optional.|
+A Checking up|QID|29566|M|78.40,62.10|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
 T Warden Hamoot|QID|9778|M|79.10,65.20|N|To Warden Hamoot.|
 A A Warm Welcome|QID|9728|M|79.10,65.20|N|From Warden Hamoot.|
 r Sell junk, repair, restock|M|79.27,63.78|N|Repair at Fedryen Swiftwhisper.|QID|9901|
@@ -119,7 +130,7 @@ C Umbrafen Eel Filets|S|N|Kill Eels until you have 8 Eel Filets. You may need to
 C Disturbance at Umbrafen Lake|N|Go to this spot to automatically finish this quest. Kill any Naga you come across as well.|M|69.40, 79.7|QID|9716|
 C Too Many Mouths to Feed|N|Kill the rest of the Hydras needed for this quest in the lake.|QID|9781|US|
 C Umbrafen Eel Filets|US|N|Kill Eels until you have 8 Eel Filets. You may need to use the Potion of Water Breathing.|QID|9780|M|74.2,60.7|
-C The Dying Balance|N|Kill Boglash, he wanders so it may take a minute to find him. You may need a group for this.|M|82.00,74.0|QID|9895|T|Boglash|
+C The Dying Balance|N|Kill Boglash, he wanders so it may take a minute to find him.|M|82.00,74.0|QID|9895|T|Boglash|
 C The Umbrafen Tribe|N|Kill the mobs needed for this quest. Kataru is at the location of the waypoint, at the top of the building.|M|85.00, 90.0|QID|9747|
 A Escape from Umbrafen|QID|9752|M|83.4,85.5|N|From Kayra Longmane. If she isn't there, someone else is doing the quest, so just be patient.|
 C Escape from Umbrafen|N|Do this Escort Quest. You will get ambushed twice by 2 Umbrafen each time.|QID|9752|M|83.4,85.5|
@@ -153,16 +164,15 @@ L Level 63 or 50,000 xp|LVL|63|QID|9894|N|Kill mobs until you are level 63 or ma
 U Umbrafen Lake Controls Disabled|QID|9720|QO|Umbrafen Lake Controls Disabled: 1/1|N|Use the ironvine seeds on the control panel at|M|70.5,80.|U|24355|
 l Drain Schematics|QID|9731|N|Kill Steam Pump Overseers and loot the Schematics if he has it. Use the Ironvine Seeds on the Control Console to get more Overseers to spawn. Repeat until you get the Drain Schematics.|M|70.50, 80.3|L|24330|U|24355|
 A Drain Schematics|N|Right click the Drain Schematics to start the quest.|QID|9731|U|24330|M|62.0,40.8|
-C A Warm Welcome|S|N|Look for a group for the quest Leader of the Darkcrest while killing Nagas for this quest.|QID|9728|M|70.9,82.1|
+C A Warm Welcome|S|N|Kill and loot Nagas for this quest.|QID|9728|M|70.9,82.1|
 U Lagoon Controls Disabled|N|Go here and disable the pump with the Ironvine Seeds.|M|63.10,64.1|QID|9720|QO|Lagoon Controls Disabled: 1/1|U|24355|
-C Leader of the Darkcrest|N|Get a group to do this quest if needed. Kill Rajah Haghazed.|M|65.00,69.0|QID|9730|
+C Leader of the Darkcrest|N|Kill Rajah Haghazed.|M|65.00,69.0|QID|9730|
 C A Warm Welcome|US|N|Finish killing Nagas for their claws. You can use the seeds over and over again if you don't want to run around.|QID|9728|M|70.9,82.1;63.16,66.15|U|24355|
 C Blacksting's Bane|N|Kill Blacksting and take his Stinger.|M|50.00,59.0|QID|9896|
 C The Boha'mu Ruins|N|Go here to complete the quest.|M|44.20,68.9|QID|9786|
 C Drain Schematics|N|Go here and dive underwater a bit until you get the quest complete message.|M|50.50,41.0|QID|9731|
-C Leader of the Bloodscale|N|Get a group for this quest if needed, and Rajis Fyashe here.|M|65.00,41.0|QID|9817|S|
 U Serpent Lake Controls Disabled|QID|9720|QO|Serpent Lake Controls Disabled: 1/1|U|24355|N|Use the Ironvine Seeds here.|M|62.00,41.0|
-C Leader of the Bloodscale|N|Get a group for this quest and kill the elite here.|M|65.00,41.0|QID|9817|US|
+C Leader of the Bloodscale|N|Kill Rajis Fyashe here.|M|65.00,41.0|QID|9817|
 T Umbrafen Eel Filets|QID|9780|M|67.7,48.0|N|To Noraani.|
 T Too Many Mouths to Feed|QID|9781|M|67.7,48.0|N|To Haalrun.|
 A Diaphanous Wings|QID|9790|M|67.7,48.0|N|From Haalrun.|
@@ -184,7 +194,6 @@ T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|Z|Hellfire Peninsula|N|To Amy
 A Return to the Marsh|QID|9732|M|15.7,52.0|N|From Amythiel Mistwalker.|
 H Cenarion Refuge|QID|9732|N|Hearth to Cenarion Refuge.|U|6948|M|78.50,63.00|
 T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
-A Failed Incursion|QID|9876|N|From Amythiel Mistwalker.|M|78.4,62.0|
 r Sell junk, repair, restock, train skills|QID|9732|N|Make sure you do not sell the Bog Lord Tendrils, or any Fertile spores you have.|M|79.27, 63.78|
 
 f Orebor Harborage|QID|9776|N|Get the flight-path from Halu.|M|41.25, 29.0|
@@ -234,7 +243,6 @@ A The Count of the Marshes|N|Right-click the Mandible to start the quest.|QID|99
 C Lines of Communication|N|Kill Slicers until you finish this quest.|QID|9833|M|32.8,59.1|US|
 l Idols of the Feralfen|N|Kill mobs and loot Idols off the ground until you finish this quest.|M|49.60,59.7|QID|9787|L|24422 6|
 C Natural Armor|N|Kill Fenclaw Trashers until you get the hides needed for this quest.|M|50.00,40.0|QID|9834|
-T Failed Incursion|QID|9876|N|Head down the drain to turn this quest in to Watcher Jhang.|M|50.00,40.0|
 
 H Cenarion Refuge|QID|9787|N|Hearth to Cenarion Refuge.|U|6948|M|78.59,62.87|
 N Sell junk, repair, restock, turn in plant parts|QID|9787|N|Sell junk, repair, restock, turn in plant parts.|M|79.25, 63.7|
@@ -256,14 +264,9 @@ A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. Will disappear if you are friendly
 C Glowcap Mushrooms|N|Get the rest of the glowcaps needed for this quest.|M|40.00,36.3|QID|9808|
 T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|M|19.7,52.1|
 N Friendly with Sporeggar|QID|9708|M|19.11,63.51;15.33,61.15|N|Kill giants; turn in 10 Mature Spore Sacs (easiest to do, 2-3 turn-ins should get you friendly), or 6 Bog Lord Tendrils to Fahssn until you are friendly with Sporeggar.|
-A Bring Me A Shrubbery!|QID|9715|M|19.5,50.0|N|From Gzhun'tt.|
-T Bring Me A Shrubbery!|QID|9715|M|19.5,50.0|N|If you bought the 5 Sanguine Hibisus like I suggested, then turn the quest into Gzhun'tt.|
 A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|
 A Oh, It's On!|QID|9717|N|From T'shu. Optional dungeon quest, skip if you do not want to do it.|
-A Stalk the Stalker|QID|9719|N|From Khn'nix.Optional dungeon quest, skip if you do not want to do it.|M|19.64,49.71|
-A Fertile Spores|QID|9806|M|19.2,49.4|N|From Gshaff.|M|19.5,50.0|
 C Gathering the Reagents|N|Kill and loot Marsh Walkers, Fen Striders and Sporebats, until you finish this quest.|M|63.00,51.0|QID|9801|S|
-N The Underbog|QID|9790|N|You may do The Underbog now if you wish.|
 T Familiar Fungi|M|23.30,66.2|QID|9708|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms|QID|9709|M|23.3,66.2|N|From Watcher Leesa'oh.|
 T The Count of the Marshes|QID|9911|M|23.3,66.2|N|To Watcher Leesa'oh.|

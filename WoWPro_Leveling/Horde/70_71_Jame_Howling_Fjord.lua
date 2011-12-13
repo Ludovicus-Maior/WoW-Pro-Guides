@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2011-12-10 16:03
+-- Who: Crackerhead22
+-- Log: 4.3 update. Plus a couple corrections from aproposknight and Diven that somehow never made it in until now.  o.O
+
+-- URL: http://wow-pro.com/node/3288/revisions/24342/view
 -- Date: 2011-04-29 16:48
 -- Who: Ludovicus Maior
 -- Log: Line ** for step * has unknown tag [NOPOI], Line 367 for step C has 3 M coords, Line 552 for step T has 3 M coords.
@@ -93,7 +98,6 @@ T Landing the Killing Blow |QID|11233|M|78.63,37.03|
 A Report to Anselm |QID|11234|
 
 T Report to Anselm |QID|11234| |N|Back at Vengeance Landing.|M|78.7,31.2|
-A A Score to Settle |QID|11272|
 T Trail of Fire |QID|11241|M|78.6,29.0|
 
 N Utgarde Keep |QID|11272|N|You've now got the only quest for Utgarde that requires a chain, the other two are accepted just inside the instance. So, you can do this whenever you wish, now.|
@@ -126,14 +130,15 @@ T Adding Injury to Insult |QID|12481|M|65.9,36.8|
 
 T Help for Camp Winterhoof |QID|12566|N|Northwest.|M|48.0,10.8|
 A Hasty Preparations |QID|11271|M|48.4,11.0|
-F Camp Winterhoof |QID|11311|M|49.6,11.6|
+f Camp Winterhoof |QID|11311|M|49.6,11.6|
 A Making the Horn |QID|11275|M|49.3,12.0|
 A Suppressing the Elements |QID|11311|M|49.0,12.0|
 
 C Hasty Preparations |QID|11271|S|N|Grab any Spotted Hippogryph Down you see.|
 
+C Making the Horn |QID|11275|S|N|In the snowy hills northeast of Camp Winterhoof. The elementals tend to be higher in the hills, while the rams are lower.|
 C Suppressing the Elements |QID|11311| |N|In the snowy hills northeast of Camp Winterhoof. The elementals tend to be higher in the hills, while the rams are lower.|M|52,3|
-C Making the Horn |QID|11275| |N|In the snowy hills northeast of Camp Winterhoof. The elementals tend to be higher in the hills, while the rams are lower.|
+C Making the Horn |QID|11275|US|N|In the snowy hills northeast of Camp Winterhoof. The elementals tend to be higher in the hills, while the rams are lower.|
 
 T Suppressing the Elements |QID|11311| |N|Back at Camp Winterhoof.|M|49.0,12.0|
 T Making the Horn |QID|11275|M|49.3,12.0|
@@ -156,7 +161,7 @@ A Wild Vines |QID|11315|
 
 C The Book of Runes |QID|11350|U|33778|N|Kill the Iron Rune Stonecallers/Binders.  Once you have all three, use one of the chapters to create the book of runes.|M|68,24|
 
-C March of the Giants |QID|11365|U|33806|N|They hit hard, but can be kited and stunned. Melee will probably need help unless extremely well geared. The quest has several follow ups, so do try to finish it. When you down them, use the Pick on their corpses.|
+C March of the Giants |QID|11365|U|33806|N|Find Runed Stone Giants in the area here and kill them, then use your Pick on their remains.|
 
 T Mimicking Nature's Call |QID|11281| |N|Back at Camp Winterhoof.|M|49.3,12.0|
 T The Book of Runes |QID|11350|M|49.2,12.2|
@@ -428,13 +433,13 @@ A Feeding the Survivors |QID|11456|M|25.02,56.96|
 
 C Feeding the Survivors |QID|11456| |N|Head southeast to the green area. Kill the Island Shoveltusks. It is also a good idea to kill the Spearfang Worgs, as they kill the Shoveltusks on sight. There is a shoveltusk herd that walks up and down the snow line.|
 
-T Feeding the Survivors |QID|11456| |N|Back at Kamagua.|M|30.64,63.63|
-A Arming Kamagua |QID|11457|M|30.64,63.63|
+T Feeding the Survivors |QID|11456| |N|Back at Kamagua.|M|25.02,56.96|
+A Arming Kamagua |QID|11457|M|25.02,56.96|
 
 C Arming Kamagua |QID|11457| |N|They're in the snow hills south of the village at (27,65). If that's overcrowded, there's another spot northeast of Kamagua at (27,55).|M|27.47,65.13|
 
-T Arming Kamagua |QID|11457|M|30.64,63.63|
-A Avenge Iskaal |QID|11458|M|30.64,63.63|
+T Arming Kamagua |QID|11457|M|25.02,56.96|
+A Avenge Iskaal |QID|11458|M|25.02,56.96|
 
 T Grezzix Spindlesnap |QID|11508| |N|Swith southwest to (23,63).|M|23.08,62.67|
 A Street "Cred" |QID|11509|
@@ -480,7 +485,7 @@ C Avenge Iskaal |QID|11458|U|36777|N|Head onto the beach. Use the horn and kill 
 
 C Dead Man's Debt |QID|11467| |N|Head up to the plateau at (29,61), then go east across the bridge to the Dirt Mount (32.7,60.2). HP/Mana up, click the mound. Kill the ghosts and loot Black Conrad's Treasure.|M|32.72,60.23|
 
-T Avenge Iskaal |QID|11458| |N|Back at Kamagua.|
+T Avenge Iskaal |QID|11458| |N|Back at Kamagua.|M|25.02,56.96
 A Travel to Moa'ki Harbor |QID|12118|
 
 R Scalawag Point |QID|11473|N|Head back to Grezzix Spindlesnap at (23,63) and talk to Lou.|M|23.11,62.59|
@@ -560,5 +565,6 @@ R Go to Unu'pe |QID|11585|N|Go out onto the second pier, a turtle boat will come
 
 f Unu'pe|QID|11585|N|(78.5,51.5)|Z|Borean Tundra|M|78.53,51.54|
 R Warsong Hold |QID|11585|N|About (43,55). Go north to the road, then follow it and take a left at the D.E.H.T.A camp, then take a right in the red area, and continue west to Warsong Hold.|Z|Borean Tundra|M|41.42,53.71|
+
 ]]
 end)

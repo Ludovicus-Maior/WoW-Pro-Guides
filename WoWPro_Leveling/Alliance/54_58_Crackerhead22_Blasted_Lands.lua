@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2011-12-12 19:10
+-- Who: Crackerhead22
+-- Log: Added in missing quest.
+
+-- URL: http://wow-pro.com/node/3267/revisions/24546/view
 -- Date: 2011-06-11 23:26
 -- Who: Crackerhead22
 -- Log: Fixed a couple waypoints, clarified notes on the amulet quests. Added a couple more steps for "Demonic Vessel" quest, as well as adding a loot tag so it would auto-complete on creating the final item.
@@ -119,6 +124,9 @@ C Neptool's Revenge|QID|25706|QO|Bloodwash Gambler slain: 4/4|M|66.58,72.81|N|Ki
 C False Idols|QID|25705|S|M|61.20,62.76|N|Smash the idols as you go.|
 C Neptool's Revenge|QID|25706|QO|Bloodwash Idolater slain: 4/4|M|60.12,76.47|N|Kill the Bloodwash Idolaters here.|
 C Neptool's Revenge|QID|25706|M|61.20,62.76|N|Kill Bloodwash Zealots and Acolytes inside the cave.|
+A The Future of the Rockpool|QID|25707|M|61.54,63.02|N|From Abandoned Bloodwash Crate. Click it and choose to help the tadpoles.|
+C The Future of the Rockpool|QID|25707|M|69.23,81.26|N|Drag the crate to the beach and swim a little ways out into the water.|
+T The Future of the Rockpool|QID|25707|M|69.21,81.26|N|(UI Alert)|
 C False Idols|QID|25705|US|M|61.20,62.76|N|Smash the idols as you go.|
 T False Idols|QID|25705|M|70.99,59.90|N|To Neptool.|
 T Neptool's Revenge|QID|25706|M|70.99,59.90|N|To Neptool.|

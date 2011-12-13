@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2011-12-10 17:13
+-- Who: Crackerhead22
+-- Log: 4.3 updates
+
+-- URL: http://wow-pro.com/node/3291/revisions/24749/view
 -- Date: 2011-09-18 08:36
 -- Who: Crackerhead22
 -- Log: Added missing notes, cords. Fixed a couple of notes and cords.
@@ -79,9 +84,6 @@ A Wanted: High Shaman Bloodpaw |QID|12441|N|From the Wanted Poster inside the In
 A Wanted: Onslaught Commander Iustus |QID|12442|N|From the Wanted Poster inside the Inn. |M|77.30,51.40|
 
 h Wintergarde Keep |QID|12253|N|Make this inn your home location with Illusia Lune. |M|77.50,51.50|
-N Group mob map |QID|12151|N|Before we go on, Check the map with the locations of all the group quest mobs you have to kill in Dragonblight. Please note that at this point you don't have all the group quests, you only have the 3 wanted quests we just took. So ignore the rest for now, and check back on this map whenever you get a group for either of those group quests, you'll find your targets very quickly that way. Kreug Oathbreaker . High Shaman Bloodpaw (90.0,72.0). Commander Iustus (87.0,38.3). Dregmar Runebrand (72.0,49.0). Abbendis (71.1,77). Alystros (64.6,77.3). Grom'thar (57.0,76.0)|M|90.0,72.0;87.0,38.3;72.0,49.0;71.1,77;57.0,76.0;64.6,77.3|
-N Note: Kreug Oathbreaker |QID|12438|N|Right now, the closest target is Kreug Oathbreaker, so if you see a group going for him while you're still in the area, join them. But don't waste your time trying to find a group, keep following the guide normally and just go for those group quests when the opportunity arises.|
-
 K Vengeful Geists |QID|12258|QO|Vengeful Geist slain: 15/15|M|79.9,49.7|S|N|Kill any Vengeful Geist you see.|
 C Rescue from Town Square|QID|12253|S|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|
 C Imprints on the Past |QID|12282|N|Go back to the gate and take the path going down south. Go to the first building on your right-hand side. Go to the upper floor and find the Scrying Orb. |M|78.90,50.90|
@@ -159,11 +161,6 @@ T Kill the Cultists |QID|12167|N|To Warden Jodi Moonsong.|M|29.20,55.60|
 T The Favor of Zangus |QID|12168|M|29.2,55.6|N|To Warden Jodi Moonsong.|
 A The High Cultist |QID|12169|M|29.2,55.6|N|From Warden Jodi Moonsong.|
 
-A Death to the Traitor King |QID|13167|N|Go northwest to the Pit of Narjun. Let yourself fall down in one of the holes and go to Kilix the Unraveler. Get this quest from him.|M|26.00,51.00|
-A Don't Forget the Eggs!|QID|13182|N|From Kilix the Unraveler.|M|26.00,51.00|
-A The Faceless Ones|QID|13187|N|From Kilix the Unraveler.|M|26.00,51.00|
-
-N Instance: Azjol-Nerub and Ahn'kahet: The Old Kingdom |QID|12169|N|You have all the quests for the normal version of the instance Azjol-Nerub and The Old Kingdom. [Death to the Traitor King],[Don't Forget the Eggs!] and [The Faceless Ones] So from now on, if you feel like it, queue for either The Old Kingdom or Azjol-Nerub. If you don't feel like it, you can abandon the above quests. They can easily be picked up in the future anyway, if you change your mind.|
 K High Cultist Zangus |QID|12169|QO|High Cultist Zangus slain: 1/1|N|From Kilix the Unraveler, take the middle tunnel going east, at the end of it you'll find High Cultist Zangus. Kill him. |M|28.83,49.74|
 R Stars' Rest |QID|12169|N|Go backwards, take the spiraling way out of the pit. Ride back to Stars' Rest. |M|29.20,55.60|
 T The High Cultist |QID|12169|N|To Warden Jodi Moonsong.|M|29.20,55.60|
@@ -284,13 +281,11 @@ C Cycle of Life |QID|12454|N|Kill 5 Emerald Skytalons (look above, they're flyin
 C Seeds of the Lashers |QID|12458|N|Kill Emerald Lashers until you've looted 3 Lasher Seeds|M|63.3,71.0|US|
 T Cycle of Life |QID|12454|N|To Nishera.|M|63.00,69.00|
 A The Plume of Alystros |QID|12456|N|From Nishera.|M|63.00,69.00|
-N Optional |QID|12456|N|[The Plume of Alystros] requires you to kill Alystros the Verdant Keeper: Level 74 Elite Beast; Immune to movement impairing effects, fear, etc; HPs: 118,000; Hits for: ~2K on clothies. Most classes can't solo it. So try to find help for this quest. If you can't find help for this quest, just save it for later, it has no follow up so it doesn't matter when you do it.|
-C The Plume of Alystros |QID|12456|U|37881|N|When ready, go to the southeastern tip of the glade . Right-click Skytalon Molts and Alystros will attack you. Loot the Plume of Alystros once it's dead.|M|65.00,78.00|
+C The Plume of Alystros |QID|12456|U|37881|N|When ready, go to the southeastern tip of the glade. Right-click Skytalon Molts and Alystros will attack you. Loot the Plume of Alystros once it's dead.|M|65.00,78.00|
 T The Plume of Alystros |QID|12456|O|N|Go back to Nishera the Garden Keeper.|M|63.00,69.00|
 
 R Venomspite |QID|12458|N|This is an optional step, but will help you get the Exploration Achievement.|M|77.11,62.09|
 R New Hearthglen |QID|12458|N|This is an optional step to help you get the Exploration Achievement also.|M|72.93,68.11|
-N Optional |QID|12464|N|[My Old Enemy] is another optional elite quest nearby. This quest requires you to kill High General Abbendis: Level 72 Elite Humanoid; Immune to movement impairing effects, fear, etc; HPs: 96,000; Hits for ~3k on clothies. If you can't do this quest, just proceed with the guide and keep on looking for help. The quest have no follow up, so it doesn't matter if you do it now or later.|
 C My Old Enemy |QID|12464|N|She can be found in the big cathedral in New Hearthglen. There's a level 80 elite next to her but he doesn't add if you pull Abbendis, so don't worry about it.|M|70.00,76.00|
 
 T Seeds of the Lashers |QID|12458|N|Ask Tariolastrasz to send you to the top floor. To Lord Itharius.|M|59.60,54.50|
@@ -300,11 +295,12 @@ A Report to the Ruby Dragonshrine |QID|12460|M|60.0,55.1|N|From Lauriel Trueblad
 
 f Wyrmrest Temple|QID|12325|N|Go to the northeastern tip of the temple and you'll find Nethestrasz. Get the new flight path.|M|60.32,51.55|
 F Wintergarde Keep |QID|12325|N|Fly back to Wintergarde Keep.|
+T My Old Enemy |QID|12464|N|To Commander Eligor Dawnbringer.|M|77.00,47.00|
 F Thorson's Post|QID|12325|N|At the Gryphon Landing Site, right-click one of the Winterguard Gryphons, this will take you to Thorson's Post.|M|77.13,49.62|
 T Into Hostile Territory |QID|12325|N|To Duke August Foehammer.|M|89.7,46.4|
 A Steamtank Surprise |QID|12326|M|89.7,46.4|N|From Duke August Foehammer.|
 
-N Note: Kreug Oathbreaker |QID|12438|N|This area is very close to Kreug Oathbreaker. So if you see a group forming for him, join it.|
+C Wanted: Kreug Oathbreaker |QID|12438|N|Kill Kreug Oathbreaker. |M|90.14,52.55|
 N Now comes a fun quest. |QID|12326||N|Read the whole paragraph before you jump in a tank. You'll get in one of those steam tanks and look around for Plague Wagons. Stand close to it and use Ability #3. To defend yourself, use Ability #2 first and then Ability #1 on the frozen targets, this does tripple damage. Once you have destroyed 6 Plague Wagons, go west to the Wintergarde Mausoleum  and use Ability #4: You're ready now, get in a tank and have fun!|
 N Plague Wagons Sabotaged|QID|12326|N|Get near a Plague Wagon and use Ability #3, defend the Gnome until you get a quest update. Do this 6 times.|QO|Plague Wagon Sabotaged: 6/6|
 C Steamtank Surprise |QID|12326|N|Use Ability #4 near the entrance of the Mausoleum.|M|86.00,50.00|
@@ -335,6 +331,7 @@ A Chasing Icestorm: The 7th Legion Front |QID|12466|M|85.9,50.9|N|From Ambo Cash
 
 R Wintergarde Keep |QID|12466|M|75.6,50.2|
 N Sell junk, repair, restock. |QID|12466|N|Sell junk, repair, restock.|M|77.82,50.74|
+T Wanted: Kreug Oathbreaker |QID|12438|N|To Highlord Leoric Von Zeldig.|M|77.8.50.2|
 h Wintergarde Keep |QID|12466|N|Go to the inn and make it your home location.|M|77.42,51.63|
 
 R Bronze Dragonshrine |QID|12466|N|Exit Wintergarde Keep by the northern gate, then ride northwest to the Bronze Dragonshrine .|M|72.00,38.00|
@@ -396,13 +393,12 @@ K Bonesunder |QID|12148|QO|Emblazoned Battle Horn: 1/1|M|50.64,58.5|N|Look for B
 T One of a Kind |QID|12148|M|60.0,55.1|N|To Aurastrasza.|
 A Mighty Magnataur |QID|12149|N|From Aurastrasza.|M|60.0,55.1|
 
-K Drakegore |QID|12149|QO|Drakegore slain: 1/1|M|67.4,39;68,42.4|N|He's elite but soloable, doesn't hit too hard, can be snared, stunned, feared, rooted. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
-K Iceshatter |QID|12149|QO|Iceshatter slain: 1/1|M|67,50|N|He's more tricky to kill than the previous one. He's immune to movement impairing effects so clothies might have a little bit of trouble, however he doesn't much hit points so you can burn him down before he kills you. He periodically casts Pulsing Shards. This is very dangerous and can't be interrupted. Either run away while he channels it or use something like cloak of shadows, divine shield, ice block.|
-K Bloodfeast |QID|12149|QO|Bloodfeast slain: 1/1|M|67.4,70.2|N|That one is also tricky, immune to all forms of CC. He summons maggots which heal him up. The maggots are immune to AoE abilities, so you have to target them and kill them one by one (they have 1000HP). By the time you'd be done with that, he'd summon another round of maggots. So here is the strategy: Ignore the maggots, burn him down as fast as you can.|
+K Drakegore |QID|12149|QO|Drakegore slain: 1/1|M|67.4,39;68,42.4|N|Kill Drakegore. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
+K Iceshatter |QID|12149|QO|Iceshatter slain: 1/1|M|67,50|N|Kill Iceshatter. He periodically casts Pulsing Shards. This is very dangerous and can't be interrupted. Either run away while he channels it or use something like cloak of shadows, divine shield, ice block.|
+C Mighty Magnataur |QID|12149|M|67.4,70.2|N|Kill Bloodfeast. He summons maggots which heal him up.|
 T Mighty Magnataur |QID|12149||M|60.0,55.1|N|To Aurastrasza.|
 A Reclusive Runemaster |QID|12150|N|From Aurastrasza.|M|60.0,55.1|
 
-N Note: group quests |QID|12151|N|Now we're all set for most of the group quests of Dragonblight. These can't be soloed by most classes, so look for a group for those quests while you keep on following the guide. Here's a list of the quests: [My Old Enemy] [The Plume of Alystros] [Wanted: High Shaman Bloodpaw] [Wanted: Kreug Oathbreaker] [Wanted: Onslaught Commander Iustus] [Reclusive Runemaster]. Once you finish [Reclusive Runemaster] (Defeat Dreg'mar), get the follow up [Wanton Warlord] (Kill Grom'thar) and also look for a group for it.|
 T Report to the Ruby Dragonshrine |QID|12460|N|To Ceristrasz.|M|52.00,50.00|
 A Heated Battle |QID|12416|M|52.2,50.0|N|From Ceristrasz.|
 C Heated Battle |QID|12416|M|50.4,52.16;52.3,46.72|N|Very easy quest, you simply have to go down in the canyon and help the Alliance forces (follow Captain Iskandar)to kill what's on the list for your quest. You just have to do a little bit of damage on every mob to get the kill credit. Just stay behind the NPCs and you'll be fine.|
@@ -420,7 +416,7 @@ A The Steward of Wyrmrest Temple |QID|12768|M|52.2,50.0|N|From Ceristrasz.|
 
 K Wastes Scavengers |QID|12498|QO|Wastes Scavenger slain: 30/30|U|38302|N|Summon your Wyrmrest Vanquisher, fly north to Galakrond's Rest . Go down in the pit and use Ability #1 and #2 to kill Wastes Scavengers (you can actually use both at the same time). Whenever your drake needs mana or healing, use Ability #3 while being close to a Wastes Scavenger. Kill 30 Wastes Scavenger that way.|M|56.00,35.00|
 N Note: |QID|12498|N|Before we go kill Grand Necrolord Antiok, equip your PvP trinket if you got one with you, because he casts a 10 second fear and a 10 second Death Coil, quite annoying and it can potentially get you killed.|
-C On Ruby Wings |QID|12498|U|38302|N|Then go to the peak at the northwestern tip of Galakron's Rest , kill the big giant called Thiassi and then land next to his corpse and dismount. Get ready to fight Grand Necrolord Antiok, a level 75 warlock. After he dies, the Scythe of Antiok will appear on the floor. Loot it.|M|54.50,31.30|
+C On Ruby Wings |QID|12498|U|38302|N|Then go to the peak at the northwestern tip of Galakron's Rest, kill the big giant called Thiassi and then land next to his corpse and dismount. Get ready to fight Grand Necrolord Antiok, a level 75 warlock. After he dies, the Scythe of Antiok will appear on the floor. Loot it.|M|54.50,31.30|
 K Reanimated Frost Wyrm |QID|12459|QO|Weakened Reanimated Frost Wyrm slain: 1/1|US|U|37887|N|This is a good spot to be able to kill this mob.|M|55.2,45.7|
 
 C Nozzlerust Defense |QID|12043|S|N|Kill the needed mobs.|M|57.00,28.00|
@@ -472,12 +468,11 @@ T Apply This Twice A Day |QID|12077|M|59.0,17.8|N|To Ko'char the Unbreakable.|
 A Really Big Worm |QID|12080|N|From Ko'char the Unbreakable.|
 A Worm Wrangler |QID|12078|N|From Zort.|M|59.4,18.2|
 
-N Really Big Worm |QID|12080|N|Really Big Worm cannot be soloed by most classes. The mob you have to kill, Rattlebore, is at the very end of the Ice Heart Cave. So just add this to your list of group quests and shout for a group regularly. Rattlebore stats: 72,000 HP; Hits for 2K on clothies; Immune to all forms of cc. Don't forget to drink Zort's Protective Elixir before you fight him, it will make things easier.|
 C Worm Wrangler |QID|12078|S|U|36771|N|It's quite easy, all you have to do is get close to a Jormungar Spawn and then: Use the Sturdy Crates on it. Then just right-click the crate on the floor. Repeat this 3 times.|M|55.3,11.0|
-C Really Big Worm |QID|12080|O|N|Kill Rattlebore. Don't forget to use the Zort's Protective Elixir.|U|36770|M|50.67,17.8|
+C Really Big Worm |QID|12080|N|Kill Rattlebore. Don't forget to use the Zort's Protective Elixir.|U|36770|M|50.67,17.8|
 C Worm Wrangler |QID|12078|US|U|36771|N|Finish getting any Jormungar Spawn you need.|M|55.3,11.0|
 T Worm Wrangler |QID|12078|N|To Zort.|M|59.00,18.00|
-T Really Big Worm |QID|12080|O|N|To Ko'char the Unbreakable.|M|59.0,17.8|
+T Really Big Worm |QID|12080|N|To Ko'char the Unbreakable.|M|59.0,17.8|
 
 R Obsidian Dragonshrine |QID|12447|N|Head to the Obsidian Dragonshrine towards the cave.|M|41.20,31.80|
 T The Obsidian Dragonshrine |QID|12447|N|You'll find Serinar inside the cave called the Maw of Neltharion.|M|35.00,30.00|
@@ -512,7 +507,9 @@ A The Murkweed Elixir |QID|12290|M|87.2,57.4|N|From Orik Trueheart.|
 A The Call Of The Crusade |QID|12542|N|From Tilda Darathan.|M|87.2,57.4|
 R Eldritch Heights |QID|12290|N|Ride southeast to Eldritch Heights.|M|90.00,68.00|
 N Note: |QID|12441|N|While you're here, try to see if there's any group up for killing High Shaman Bloodpaw for the quest [Wanted: High Shaman Bloodpaw]. He's really close so might as well kill two birds with one stone. Some classes reported being able to solo it, but I wouldn't risk it, duo'ing is already much more realistic. 3+ is best.|
-C The Murkweed Elixir |QID|12290|N|Loot 5 Murkweed.|M|90.00,68.00|
+C The Murkweed Elixir |QID|12290|N|Loot 5 Murkweed.|M|90.00,68.00|S|
+C Wanted: High Shaman Bloodpaw |QID|12441|N|Kill High Shaman Bloodpaw. |M|90.6,72.6|
+C The Murkweed Elixir |QID|12290|N|Loot 5 Murkweed.|M|90.00,68.00|US|
 T The Murkweed Elixir |QID|12290|M|87.2,57.4|N|To Orik Trueheart.|
 
 A The Forgotten Tale |QID|12291|M|87.2,57.4|N|From Orik Trueheart.|
@@ -545,7 +542,8 @@ T The Cleansing Of Jintha'kalar |QID|12545|M|84.0,26.1|N|To Crusader Valus.|
 A Into the Breach! |QID|12789|M|84.0,26.1|N|From Crusader Valus.|
 
 R Onslaught Base Camp |QID|12476|N|Ride south back to Onslaught Base Camp. |M|88.00,38.00|
-C What Secrets Men Hide |QID|12475|N|This time clear to the tower in construction, on the eastern side of the camp . Inside you'll find the Onslaught Map. Loot it.|M|88.00,38.00|
+C What Secrets Men Hide |QID|12475|N|This time clear to the tower in construction, on the eastern side of the camp. Inside you'll find the Onslaught Map. Loot it.|M|88.00,38.00|
+C Wanted: Onslaught Commander Iustus |QID|12442|N|Kill Onslaught Commander Iustus at the top of the tower. |M|87.6,38.2|
 C The Path of Redemption |QID|12477|N|Kill Scarlet NPCs until you loot The Path of Redemption.|M|84.9,35.5|
 C The Return of the Crusade? |QID|12476|US|N|Finish killing Scarlet NPCs until you have 20 kills.|
 
@@ -553,7 +551,8 @@ T The Return of the Crusade? |QID|12476|M|78.6,48.2|N|To Commander Lynore Windst
 T The Path of Redemption |QID|12477|M|78.6,48.2|N|To High Commander Halford Wyrmbane.|
 T What Secrets Men Hide |QID|12475|M|79.1,47.2|N|To Zelig the Visionary.|
 A Frostmourne Cavern |QID|12478|M|79.1,47.2|N|From Zelig the Visionary.|
-
+T Wanted: High Shaman Bloodpaw |QID|12441|N|To Highlord Leoric Von Zeldig.|M|77.8.50.2|
+T Wanted: Onslaught Commander Iustus |QID|12442|N|To Highlord Leoric Von Zeldig.|M|77.8.50.2|
 R Frostmourne Cavern |QID|12478|N|Head to Frostmourne Cavern.|M|74.00,23.00|
 C Frostmourne Cavern |QID|12478|U|37933|N|At the end of the cavern you'll find the Altar of Frostmourne. Use Zelig's Scrying Orb. Enjoy the script, then you'll get a quest complete message.|M|75.1,20.2|
 T Frostmourne Cavern |QID|12478|M|79.1,47.2|N|To Zelig the Visionary.|
@@ -578,9 +577,8 @@ T Defending Wyrmrest Temple |QID|12372|N|Go back to Lord Afrasastrasz.|M|59.2,54
 F Fordragon Hold |QID|12499|N|Ask Lord Afrasastrasz to send you to the bottom floor, then fly to Fordragon Hold.|M|60.32,51.55|
 T Return To Angrathar |QID|12499|N|Go to Highlord Bolvar Fordragon. Enjoy the super cool cinematic.|M|37.8,23.4|
 
-N Group quests |QID|12151|N|Try a last time to get a group for the group quests of Dragonblight, if you don't find one, just abandon those groups quests now, we are done with Dragonblight. You can come back here at level 80 to finish those group quests.|
-
 A  The Hills Have Us |QID|12511|N|In Wintergarde Keep, go to the gryphon landing site, this will send you to Grizzly Hills.|M|77.1,50.1|
 N End |QID|12511|N|The chapter ends here, move on to my next chapter: Grizzly Hills. I hope you enjoyed this guide. If you want to return the favor, please try to contribute!|
+
 ]]
 end)

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2011-12-05 13:28
+-- Who: Crackerhead22
+-- Log: 4.3 updates
+
+-- URL: http://wow-pro.com/node/3277/revisions/24677/view
 -- Date: 2011-07-11 22:37
 -- Who: Ludovicus Maior
 -- Log: Add numeric REP tags
@@ -269,7 +274,7 @@ C Recover the Bones |N|Loot the bones needed for this quest.|QID|10030|S|M|52.00
 C The Infested Protectors|N|Kill treant mobs and then the spawned wood mites until you finish this quest.|QID|10896|M|52.00,58.00|
 l Trachela's Carcass|QID|10035|N|Kill Trachela and loot the carcass.|L|30618|M|43.00,51.00|
 T The Infested Protectors |QID|10896|M|37.9,51.7|N|To Lakotae.|
-C Veil Rhaze: Unliving Evil |N|Kill the mobs needed for this quest here. Get a group for the quest "Torgos!"|QID|10848|M|28.00,56.00|
+C Veil Rhaze: Unliving Evil |N|Kill the mobs needed for this quest here.|QID|10848|M|28.00,56.00|
 C Torgos!|N|Use Trachela's Carcass here and then kill and loot Torgos.|QID|10035|M|27.00,55.60|U|30618|
 R Shadow Tomb|QID|10887|N|Go to the Shadow Tomb.|M|32.00,53.00|
 l Gavel of K'alen |QID|10881|N|Loot the Gavel from the chest here.|L|31710|M|29.70,51.70|
@@ -310,7 +315,7 @@ T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|To Magistriz Fyale
 T A Cure for Zahlia|QID|10020|Z|Shattrath City|N|To Sha'nir.|M|64.37,15.55|REP|Aldor;932|
 T Ezekiel|QID|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|N|To Ezekiel. He wanders around the Terrace of Light.|
 A What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|From Ezekiel.|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|
-C What Book? I Don't See Any Book.|Z|Shattrath City|N|Get a group for this quest, then talk to "Dirty" Larry in Lower City and then get him down in health.|QID|10231|M|43.58,29.36|
+C What Book? I Don't See Any Book.|Z|Shattrath City|N|Talk to "Dirty" Larry in Lower City and then get him down to 1% health.|QID|10231|M|43.58,29.36|
 T What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|To "Dirty" Larry.|M|43.58,29.36|
 A The Master's Grand Design? |QID|10251|Z|Shattrath City|M|43.58,29.36|N|From "Dirty" Larry.|
 
@@ -329,13 +334,13 @@ C The Dread Relic|N|Go here and loot the relic from the chest. A bunch of weak u
 C Helping the Lost Find Their Way |N|Kill the rest of the mobs for this quest.|QID|10031|M|40.00,78.00|US|
 
 N The Big Bone Worm|N|For those used to the old way, Blizz has changed it to where, Hai'shulud will follow you into the tunnels.|
-C The Big Bone Worm |N|Kill a Decrepit Clefthoof and then use the Fumper on it. Keep trying the fumper until Hai'shulud spawns, then kill and loot it.  You may need a group.|QID|10930|M|44.00,73.00|U|31825|
+C The Big Bone Worm |N|Kill a Decrepit Clefthoof and then use the Fumper on it. Keep trying the fumper until Hai'shulud spawns, then kill and loot it.|QID|10930|M|44.00,73.00|U|31825|
 A For the Fallen |QID|10920|N|From Vindicator Haylen.|M|49.71,76.18|
 C Taken in the Night|N|Free Netherweb Victims until you finish this quest.|QID|10873|M|52.00,77.00|S|
 C For the Fallen|N|Kill spiders until you finish this quest.|QID|10920|M|52.00,77.00|
 T For the Fallen|QID|10920|N|To Vindicator Haylen.|
 A Terokkarantula|QID|10921|N|From Vindicator Haylen.|
-C Terokkarantula|N|Get a group for this quest if need be, then go here and kill Terokkarantula.|QID|10921|M|54.2,81.69|
+C Terokkarantula|N|Kill Terokkarantula.|QID|10921|M|54.2,81.69|
 C Taken in the Night|N|Free Netherweb Victims until you finish this quest.|QID|10873|M|52.00,77.00|US|
 T Terokkarantula|QID|10921|N|To Vindicator Haylen.|
 A Return to Sha'tari Base Camp |QID|10926|N|From Vindicator Haylen.|
@@ -369,7 +374,7 @@ H Shattrath City|QID|10889|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath
 T Return to Shattrath|QID|10889|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Redeemed.|
 T Skywing|QID|10898|Z|Shattrath City|N|To Rilak the Redeemed.|
 A The Skettis Offensive|QID|10879|Z|Shattrath City|M|51.76,20.78|N|From Defender Grashna.|
-C The Skettis Offensive|Z|Shattrath City|N|Kill the mobs (Two birds, Two Birds, Three Birds, One bird 10k health) until this quest is finished. You may need a group.|QID|10879|M|52.6,21.0|
+C The Skettis Offensive|Z|Shattrath City|N|Kill the mobs (Two birds, Two Birds, Three Birds, One bird 10k health) until this quest is finished.|QID|10879|M|52.6,21.0|
 T The Skettis Offensive|QID|10879|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Redeemed.|
 r Sell junk, Repair, restock|M|28.11,47.65|Z|Shattrath City|N|Visit your trainers, etc. Close this step to continue to the next guide.|REP|Aldor;932|
 r Sell junk, Repair, restock.|N|Visit your trainers, etc. Close this step to continue to the next guide.|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|

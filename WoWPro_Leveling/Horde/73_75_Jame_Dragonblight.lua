@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2011-12-10 17:12
+-- Who: Crackerhead22
+-- Log: 4.3 updates
+
+-- URL: http://wow-pro.com/node/3292/revisions/24606/view
 -- Date: 2011-06-25 02:45
 -- Who: Crackerhead22
 -- Log: ! Duplicate A step for qid 12205 - Removed duplicate line.
@@ -59,13 +64,9 @@ A The High Executor Needs You |QID|12488|
 A Black Blood of Yogg-Saron |QID|12039|M|36.6,47.2|
 A Marked for Death: High Cultist Zangus |QID|12056|M|35.8,48.4|
 A Containing the Rot |QID|12100|M|37.1,48.6|
-N Dragonblight's Group Quests |QID|12090|N|There are a bunch that will be picked up throughout the guide. When you manage to get a group for them, you can take them out. With decent gear, some of these can be soloed. You'll recieve prompts throughout the guide to let you know when you're near the group quests.|
 
 C Containing the Rot |QID|12100| |N|The mobs are in the area just east and south of Azjol-Nerub. The Rot Resistant Organ is a random drop from the Grizzlies and Elks.|M|29.0,50.7|
 A An Enemy in Arthas |QID|12040| |N|Fall down one of the holes and find Kilix the Unravaler.|M|26.2,50.8|
-A Death to the Traitor King |QID|13167|
-A Don't Forget the Eggs! |QID|13182|
-A The Faceless Ones |QID|13187|
 
 C Marked for Death: High Cultist Zangus |QID|12056| |N|Take the middle tunnel going east, he's at the end.|M|28.9,49.7|
 C Black Blood of Yogg-Saron |QID|12039|M|26.5,49.6|
@@ -73,8 +74,6 @@ C An Enemy in Arthas |QID|12040|
 
 T An Enemy in Arthas |QID|12040|M|26.2,50.8|
 A The Lost Empire |QID|12041|M|26.2,50.8|PRE|12040|
-
-N Azjol-Nerub and Ahn'kahet: The Old Kingdom |QID|12041|N|You've got all the quests for Azjol-Nerub and Ahn'kahet (normal) now. So, you can do them whenever you feel like it.|
 
 A Avenge this Atrocity! |QID|12006| |N|Ethenial Moonshadow, the quest NPC, is to the southwest in Moonrest Gardens at .|M|24,60|
 
@@ -112,12 +111,14 @@ C Scourge Armaments|QID|12048|M|26.9,43.3|
 
 C Prevent the Accord |QID|12005| |N|Head southwest to the stone building at . The Wind Trader is at the entrance, if you take the slope going left, you'll find Goramosh.|M|18,60|
 A A Strange Device |QID|12059| |U|36746|M|19.4,58.1|
-N Magister Keldonus |QID|12089|N|He's really close, so if you can, grab a group and do it now.|
-C Avenge this Atrocity! |QID|12006|
+C Avenge this Atrocity! |QID|12006|S|
+C Wanted: Magister Keldonus |QID|12089|N|Kill Magister Keldonus.|M|21,63.4|
+C Avenge this Atrocity! |QID|12006|US|
 T Avenge this Atrocity! |QID|12006| |N|He's at .|M|24,60|
 A End Arcanimus |QID|12013|M|24.2,60.1|
 
-T The Flesh-Bound Tome |QID|12057| |N|Back at Agmar's Hammer.|M|35.8,48.4|
+T Wanted: Magister Keldonus |QID|12089|N|Back at Agmar's Hammer.|M|35.8,48.4|
+T The Flesh-Bound Tome |QID|12057|
 A Koltira and the Language of Death |QID|12115|M|35.8,48.4|PRE|12057|
 T Scourge Armaments |QID|12048|M|36.6,47.2|
 T The Might of the Horde |QID|12053|M|36.6,46.6|
@@ -171,9 +172,10 @@ F Moa'ki Harbor|QID|11958|M|37.5,45.7|
 A Let Nothing Go To Waste |QID|11958|M|48.0,74.9|
 A Planning for the Future |QID|11960|N|Daily Quest|M|48.3,74.3|
 
-C Wanted: Gigantaur |QID|12090|N|Gigantaur is near where you're about to quest, so if you can get a group for him, do so.|
 C Let Nothing Go To Waste |S|QID|11958|M|45.3,63.7|N|From wolvar that you've killed.|
-C Planning for the Future |QID|11960| |N|Head north to Snowfall Glade.|M|47,65|
+C Planning for the Future |QID|11960| |N|Head north to Snowfall Glade.|M|47,65|S|
+C Wanted: Gigantaur |QID|12090|N|Kill Gigantuar. He wanders around the Snowfall Glade.|M|47,65|T|Gigantaur|
+C Planning for the Future |QID|11960| |N|Head north to Snowfall Glade.|M|47,65|US|
 C Let Nothing Go To Waste |US|QID|11958|M|45.3,63.7|N|From wolvar that you've killed.|
 
 T Planning for the Future |QID|11960|M|48.3,74.3|
@@ -212,7 +214,6 @@ A The Bait |QID|12016|M|47.7,76.6|PRE|12011|
 C The Bait |QID|12016|M|44,82|
 C Conversing With the Depths |QID|12032| |N|Head to the Briny Pinnacle to the west, then climb up to the Pearl of the Depths. Right click it, then jump into the water when you get the compulsion.|M|34,83|
 C Tua'kea's Crab Traps |US|QID|12009|M|46.6,77.5|
-
 T Tua'kea's Crab Traps |QID|12009|M|47.7,76.6|
 T The Bait |QID|12016|M|47.7,76.6|
 A Meat on the Hook |QID|12017|M|47.7,76.6|PRE|12016|
@@ -223,6 +224,7 @@ T Meat on the Hook |QID|12017|M|47.7,76.6|
 T Conversing With the Depths |QID|12032|M|49.2,75.6|
 F Agmar's Hammer|QID|12122|
 
+T Wanted: Gigantaur |QID|12090|N|To Captain Gort.|M|35.8,48.2|
 T The End of the Line |QID|12110|M|38.1,46.2|
 A Gaining an Audience |QID|12122|M|38.1,46.2|PRE|12110|
 A Imbeciles Abound! |QID|12189|M|36.1,48.8|LEAD|12188|
@@ -244,7 +246,7 @@ C Seeds of the Lashers |QID|12458|M|63.3,71.0|US|
 T Cycle of Life |QID|12454|M|63.7,71.9|
 A The Plume of Alystros |QID|12456|PRE|12454|
 
-C The Plume of Alystros |QID|12456| |N|THIS IS DIFFICULT TO SOLO. If you're going to try, head to the southeastern tip of the glade. Use the Skytalon Molts and kill the mob. Don't worry if you can't get a group, there aren't any follow-ups.| |U|37881|M|65,78|
+C The Plume of Alystros |QID|12456| |N|Head to the southeastern tip of the glade. Use the Skytalon Molts and kill Alystros.|U|37881|M|65,78|
 
 T The Plume of Alystros |QID|12456|
 
@@ -321,11 +323,11 @@ T Audience With The Dragon Queen |QID|12496| |N|Get Tariolastrasz to send you up
 A Galakrond and the Scourge |QID|12497|M|59.8,54.7|PRE|12496|
 T Galakrond and the Scourge |QID|12497|M|59.5,53.3|
 A On Ruby Wings |QID|12498|M|59.5,53.3|PRE|12497|
-N READ THIS |QID|12498|N|Time for some fun. You're about to engage the enemy from dragonback. Now, because you can use this drake for a fair part of Dragonblight, we just got a flying mount several levels early. So, don't turn in the quest "On Ruby Wings" until you're told. We're gonna make the most of this. Do fly close to the ground, though, in case you go somewhere you're not supposed to.|
+N READ THIS |QID|12498|N|Time for some fun. You're about to engage the enemy from dragonback.|
 C On Ruby Wings |QID|12498|N|Use your Beacon and fly north to Galakron's Rest. Ability 1 and 2 are damage abilities. Use ability 3 when near a Wastes Scavenger to regain mana/HP (you eat them). If you have one, equip your PvP trinket once you've killed the 30 Scavengers, the miniboss we're about to kill does a 10 second fear. Kill the giant Thiassi, at the northwestern tip of Galakron's Rest (use the dragon to make it easy), dismount, then kill Grand Necrolord Antiok, and loot the Scythe that appears.|M|56,35|
+C Wanted: Dreadtalon |QID|12091|M|45.67,43.61|N|Kill Dreadtalon.|
 
 A Pest Control |QID|12144| |N|The questgiver is to the west.|M|47,33|
-N Dreadtalon |QID|12091|N|The elite Dreadtalon is the in the area, if you can get a group, do so.|
 
 C That Which Creates Can Also Destroy |QID|12459|QO|Weakened Reanimated Frost Wyrm slain: 1/1|U|37887|N|It'll be up in the sky, use the Seeds of Nature's Wrath on it and finish it.|M|55.2,45.7|
 C Pest Control |QID|12144|M|55,41;56,52|
@@ -345,15 +347,13 @@ C One of a Kind |QID|12148| |N|Head to the canyon to the west. Bonesunder has 21
 T One of a Kind |QID|12148|N||M|60.0,55.2|
 A Mighty Magnataur |QID|12149|PRE|12148|
 
-C Mighty Magnataur: Drakegore |QID|12149|QO|Drakegore slain: 1/1|N|Drakegore is elite, but doesn't hit too hard, and can be snared/stunned/feared/rooted.|M|68,41|
-C Mighty Magnataur: Iceshatter |QID|12149|QO|Iceshatter slain: 1/1|N|Iceshatter's tougher, as he's immune to movement impairing effects, but still soloable. Run out of range of his Pulsing Shards or bubble/iceblock/CoS through it.|M|67,50|
+K Drakegore |QID|12149|QO|Drakegore slain: 1/1|M|67.4,39;68,42.4|N|Kill Drakegore. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
+K Iceshatter |QID|12149|QO|Iceshatter slain: 1/1|M|67,50|N|Kill Iceshatter. He periodically casts Pulsing Shards. This is very dangerous and can't be interrupted. Either run away while he channels it or use something like cloak of shadows, divine shield, ice block.|
 C In Service of Frost |QID|12127|U|36847|N|Ice Revenants will be on a frozen lake just south of you. Beat one down to 35% and use the Frost Gem on it.|M|66.2,52.9|
-C Mighty Magnataur: Bloodfeast |QID|12149|QO|Bloodfeast slain: 1/1|N|The hardest of the 3, Bloodfeast's completely immune to any CC and summons maggots that heal him, but are immune to AoE. So just burn him as fast as humanely possible.|M|67,70|
+C Mighty Magnataur |QID|12149|M|67.4,70.2|N|Kill Bloodfeast. He summons maggots which heal him up.|
 
 T Mighty Magnataur |QID|12149|N|Back at Wyrmrest Temple.|
 A Reclusive Runemaster |QID|12150|PRE|12149|
-
-N Dragonblight Group Quests |QID|12095|N|You've now got all of the group quests in Dragonblight, aside from To Dragon's Fall, which is a follow up to the Agmar's Hammer Wanted quests, Wanton Warlord, which is a follow-up to Reclusive Runemaster, and Do Unto Others, which you'll get after the New Hearthglen quests. So get these quests done when you can. Turn-ins won't be mentioned, so turn them in whenever you're in the area.|
 
 C Kill Deathguard Schneider |QID|12245|QO|Deathguard Schneider slain: 1/1|N|New Hearthglen. She's behind the gallows in a cage, talk to her and select the first text option; kill her.|M|71.4,72.2|
 C Grab the Barracks Orders |NC|QID|12234|QO|Scarlet Onslaught Daily Orders: Barracks: 1/1|N|Go into the Barracks to the west. As you enter, go right, then left, then left, the orders are on the table to the right.|M|69.7,71.9|
@@ -401,8 +401,8 @@ T Torture the Torturer |QID|12252|M|76.8,63.3|
 T The Rod of Compulsion |QID|12271|M|76.8,63.3|
 A The Denouncement |QID|12273|M|76.8,63.3|PRE|12271|
 T The Truth Will Out |QID|12283|M|76.8,63.3|
-A Do Unto Others |QID|12285|N|Group Quest|M|76.0,63.0|PRE|12283|
-N High General Abbendis |QID|12285|QO|The Head of the High General: 1/1|N|Another group quest. She has 96,000 HP, hits for about 3k on cloth and is immune to snares, stuns, etc. You're going to need a group, preferably one with tank and healer. 1k on plate.|M|71,76|
+A Do Unto Others |QID|12285|N|From High Executor Wroth.|M|76.0,63.0|PRE|12283|
+l The Head of the High General|QID|12285|L|37565|N|Kill and loot High General Abbendis.|M|71,76|
 
 N Blacksmith Goodman |QID|12273|QO|Blacksmith Goodman's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's at the blacksmith. |M|71,70|
 N Commander Jordan |QID|12273|QO|Commander Jordan's denouncement & death: 1/1|U|37438|N|Use the rod of compulsion, then finish him off. He's in the barracks |M|69.7,71.8|
@@ -439,6 +439,7 @@ C Through the Fields of Flame |QID|12450| |N|Kill necromancers around the tree.|
 T Through the Fields of Flame |QID|12450|M|43.0,50.9|
 A The Steward of Wyrmrest Temple |QID|12769|M|43.0,50.9|PRE|12450|
 
+T Wanted: Dreadtalon |QID|12091|N|To Captain Gort.|M|35.8,48.2|
 T In Service of Frost |QID|12127| |N|Back at Agmar's Hammer.|M|37.1,46.5|
 T In Service of the Unholy |QID|12126|M|37.1,46.5|
 A The Power to Destroy |QID|12132|M|37.1,46.5|
@@ -515,7 +516,7 @@ A Really Big Worm |QID|12080|
 A Worm Wrangler |QID|12078|M|59.4,18.2|
 
 C Worm Wrangler |QID|12078| |N|Head into the cave, use the Sturdy Crate on Jormungar Spawn. | |U|36771|M|56.2,11.9|
-C Really Big Worm |QID|12080|N|Another of those group quests. He's quite tough, hits for 2k on cloth and has 72,000 HP, immune to CC, etc. When you do it, don't forget to use the Protective Elixer on yourself.|
+C Really Big Worm |QID|12080|N|Kill Rattlebore. Don't forget to use the Zort's Protective Elixir.|
 T Really Big Worm |QID|12080|
 T Worm Wrangler |QID|12078|M|59.4,18.2|
 
@@ -559,8 +560,6 @@ A Into the Breach! |QID|12789|M|84.0,26.1|
 
 C Mystery of the Infinite |QID|12470| |N|Head to the Bronze Dragonshrine at , to the southwest. When you use the Hourglass of Eternity, you'll trigger an event in which yourself and a future version of you fight off waves of the Infinite Dragonflight. Let the NPC tank the final elite.|M|72,38|
 
-N /goodbye Dragon |QID|12498|N|On Ruby Wings is about to be turned in, so do any remaining group quests now if you can.|
-
 T The Steward of Wyrmrest Temple |QID|12769| |N|Western side of the temple at .|M|58,54|
 A Informing the Queen |QID|12124|M|57.9,54.2|PRE|12769|
 
@@ -582,19 +581,7 @@ T Defending Wyrmrest Temple |QID|12372| |N||M|59.2,54.3|
 
 T Return to Angrathar |QID|12500| |N|Get Afrasastrasz to fly you down to the bottom floor, then get the flightmaster to fly you to Korkron Vanguard, then talk to Saurfang the Younger. Enjoy the cinematic :D|M|40.7,18.1|
 
-A Darkness Stirs |QID|13242|M|38.5,19.3|PRE|12500|
+N Thus ends Dragonblight|N|Close this step to continue onto Grizzly Hills.|
 
-C Darkness Stirs |QID|13242| |N|Saurfang's armour is just at Alexstrasza's feet.|M|38.2,18.7|
-
-T Darkness Stirs |QID|13242| |N|Fly to Warsong Hold.|M|41.4,53.7|
-A Herald of War |QID|13257|M|41.4,53.7|PRE|13242|
-
-T Herald of War |QID|13257| |N|Take to portal, turn the quest in at Thrall.|M|31.8,37.8|
-A A Life Without Regret |QID|13266|M|31.8,37.8|PRE|13257|
-
-T A Life Without Regret |QID|13266|M|61.7,62.7|
-A The Battle For The Undercity |QID|13267|M|61.7,62.7|PRE|13266|
-
-T The Battle For The Undercity |QID|13267| |N|Talk to Thrall to start a countdown to the event, or just wait if someone else already has. Stick with Sylvanas and Thrall, fight your way through the Undercity, enjoy the ride. Turn it in once you're done.|M|62.0,62.7|
 ]]
 end)

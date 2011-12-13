@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2011-11-30 18:32
+-- Who: Crackerhead22
+-- Log: Some updates for patch 4.3.
+
+-- URL: http://wow-pro.com/node/3271/revisions/24808/view
 -- Date: 2011-11-16 21:04
 -- Who: Crackerhead22
 
@@ -80,11 +85,13 @@ C Waste Not, Want Not|S|N|Loot Metal Cogs and Wooden Planks off the ground until
 C Fel Orc Scavengers |N|Kill Orcs until you finish this quest.|QID|10482|M|62.00,54.00|
 C Waste Not, Want Not |N|Loot Metal Cogs/Poles and Wooden Planks off the ground until you finish this quest. |QID|10055|M|60.4,52.1|US|
 T Waste Not, Want Not |QID|10055|M|51.2,60.0|N|To Dumphry.|
-T Fel Orc Scavengers |QID|10482|M|50.9,60.2|N|To Lieutenant Amadi.|
 A Laying Waste to the Unwanted |QID|10078|M|51.2,60.0|N|From Dumphry.|
+T Fel Orc Scavengers |QID|10482|M|50.9,60.2|N|To Lieutenant Amadi.|
 A Ill Omens |QID|10483|M|50.9,60.2|N|From Lieutenant Amadi.|
 T The Legion Reborn |QID|10141|M|61.7,60.8|N|To Sergeant Altumus.|
 A The Path of Anguish |QID|10142|M|61.7,60.8|N|From Sergeant Altumus.|
+; The quest "Invading the Citadel" on the following line has wrong caps on 'The' so it does not auto-accept since it is optional.|
+A Invading The Citadel|QID|29543|M|61.7,60.8|N|From Sergeant Altumus. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|
 C The Path of Anguish |N|Kill the mobs needed for this quest.|QID|10142|M|65.00,58.00|
 N Burn Catapult 1 |QID|10078|N|Burn the first thrower here with the Flaming Torch. |QO|Eastern Thrower Burned: 1/1|U|26002|M|58.50,46.80|
 N Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Torch. |QO|Central Eastern Thrower Burned: 1/1|U|26002|M|55.85,46.75|
@@ -180,16 +187,16 @@ A The Longbeards |QID|9558|M|54.3,63.4|N|From Sid Limbardi.|
 T Return to Honor Hold |QID|10903|M|54.3,63.6|N|Upstairs to Assistant Klatu.|
 A Fel Spirits |QID|10909|M|54.3,63.6|N|From Assistant Klatu.|
 A Digging for Prayer Beads |QID|10916|M|54.3,63.6|N|From Assistant Klatu.|
-l Draenei Prayer Beads|QID|10916|M|54.16,63.32|N|Head outside the inn and turn left, follow the wall, to the waypoint.  Loot Fei Fei's Cache (glittering dirt pile).|L|31795|
+B Silken Thread|QID|10916|M|54.63,63.71|N|Head into the next room and buy a Silken Thread from Hama.|L|4291|
+B Fei Fei Doggy Treat|QID|10916|M|56.34,62.85|N|Buy a treat from Warrant Officer Tracy Proudwell.|L|31799|
+l Draenei Prayer Beads|QID|10916|M|54.16,63.32|N|Give the treat to Fei Fei, then follow the dog. Loot Fei Fei's Cache (glittering dirt pile) once she stops at the waypoint.|L|31795|
 r Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|QID|10916|
-A Hellfire Fortifications |QID|10106|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell.  This is optional as it is a PvP quest, so skip if you don't wish to do it.|
+A Hellfire Fortifications |QID|10106|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|
 T The Dark Missive |QID|10395|N|Head to Warp-Scryer Kryv.|M|56.69,66.52|
 A The Heart of Darkness |QID|10399|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A The Path of Glory |QID|10047|M|56.7,66.5|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A Overlord |QID|10400|N|From Force Commander Danath Trollbane.|M|56.64,66.69|
-A Weaken the Ramparts |QID|9575|M|56.72,66.34|N|From Lieutenant Chadwick.  This is an instance quest, so this is optional, skip if you don't want to do it.|
 
-N Hellfire Ramparts (note)|QID|9575|M|56.72,66.34|N|You may do the Hellfire Ramparts instance if you wish, for extra experience.  Head into the Dungeon Finder and queue for the Ramparts as you are questing from now on. |
 A Unyielding Souls |QID|10050|M|50.9,60.2|N|From Honor Guard Wesilow.|
 A A Job for an Intelligent Man |QID|9355|M|52.0,62.6|N|From Foreman Biggums.|
 A When This Mine's a-Rockin' |QID|10079|M|52.0,62.6|N|From Foreman Biggums.|
@@ -221,7 +228,10 @@ T When This Mine's a-Rockin' |QID|10079|M|52.0,62.6|N|To Foreman Biggums.|
 A The Mastermind |QID|10099|M|52.0,62.6|N|From Foreman Biggums.|
 C The Mastermind |N|Kill Z'Kral, he is all the way in the back of Honor Hold Mine.|QID|10099|M|56.00,61.00|
 T The Mastermind |QID|10099|M|52.0,62.6|N|To Foreman Biggums.|
-C The Path of Glory |N|Click Skeletal Remains on the ground around here until you finish this quest.|QID|10047|M|63.00,49.00|
+C The Path of Glory |S|N|Click Skeletal Remains on the ground around here until you finish this quest.|QID|10047|M|63.00,49.00|
+C Drill the Drillmaster |N|Kill Drillmaster Zurok. He is surrounded so carefully pick off the mobs around him, as he will call for help. He has double the health of the mobs around him, but doesn't hit hard.|QID|10937|M|47.89,56.11|
+C The Path of Glory |US|N|Click Skeletal Remains on the ground around here until you finish this quest.|QID|10047|M|63.00,49.00|
+T Drill the Drillmaster|QID|10937|N|To Force Commander Danath Trollbane.|M|56.61,66.64|
 T The Path of Glory |QID|10047|M|56.7,66.5|N|To Warp-Scryer Kryv.|
 A The Temple of Telhamat |QID|10093|M|56.7,66.5|N|From Warp-Scryer Kryv.|
 
@@ -235,6 +245,18 @@ A Demonic Contamination |QID|9372|M|15.7,52.0|N|From Thiah Redmane.|
 A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|From Mahuram Stouthoof.|
 A Colossal Menace |QID|10132|N|From Tola'thion.|M|15.59,52.13|
 A The Cenarion Expedition |QID|9912|M|15.7,52.0|N|From Amythiel Mistwalker.|M|16.02,52.26|
+
+C Colossal Menace |N|Kill Raging Colossui until you have all 5 kills. As they get low in health, they get smaller and Shardlings form.|QID|10132|M|15,45|
+l Crimson Crystal Shard|QID|10134|N|Make sure you have one of these items from the giants.|L|29476|M|15,45|
+A Crimson Crystal Clue|N|Right-click the Shard to start the quest.|QID|10134|M|15,45|U|29476|
+T Colossal Menace|QID|10132|N|To Tola'thion.|M|15.62,52.12|
+T Crimson Crystal Clue|QID|10134|N|To Tola'thion.|M|15.62,52.12|
+A The Earthbinder |QID|10349|N|From Tola'thion.|M|15.62,52.12|
+T The Earthbinder |QID|10349|N|To Earthbinder Galandria Nightbreeze.|M|15.89,51.59|
+A Natural Remedies |QID|10351|N|From Earthbinder Galandria Nightbreeze.|M|15.89,51.59|
+C Natural Remedies |N|Go here, stand on the green rune and use the seed, then kill Goliathon when it spawns.|QID|10351|M|13.64,39.11|
+T Natural Remedies |QID|10351|N|To Earthbind Galandria Nightbreeze.|M|15.89,51.59|
+
 C Demonic Contamination |N|Kill Hulking Helboars until you get the samples for this quest.|QID|9372|M|18.5,55.3|
 T The Longbeards |QID|9558|M|24.0,72.1|N|To Gremni Longbeard.|
 A The Arakkoa Threat |QID|9417|M|24.0,72.1|N|From Gremni Longbeard.|
@@ -243,34 +265,32 @@ A Gaining Mirren's Trust |QID|9563|M|24.0,72.1|N|From Mirren Longbeard.|
 T Gaining Mirren's Trust |QID|9563|M|24.0,72.1|N|Turn it immediatly to Mirren Longbeard.|
 A The Finest Down |QID|9420|M|24.0,72.1|N|From Mirren Longbeard.|
 
-C The Arakkoa Threat |N|Kill birds until you finish this quest.|QID|9417|S|M|25.6,70.3|
-C The Finest Down |N|Kill birds until you finish this quest.|QID|9420|M|25.6,70.3|S|
+C The Arakkoa Threat |N|Kill Haal'eshi Windwalkers and Talonguards until you finish this quest.|QID|9417|S|M|25.6,70.3|
+C The Finest Down |N|Kill and loot Kaliri birds until you finish this quest. You can click on nests to spawn another one.|QID|9420|M|25.6,70.3|S|
 l Avruu's Orb |QID|9418|N|Head to the waypoint above the small cave, then kill Avruu and take his Orb.|L|23580 1|M|25.7,75.14|
 A Avruu's Orb |N|Right-click the Orb to accept this quest.|QID|9418||U|23580|M|25.7,75.1|
-T Avruu's Orb |QID|9418|M|29.0,81.5|N|Click on the Haal'eshi Altar, Aeranas will spawn.  Get him down to about 50%, then turn the quest in to it.|
-C The Arakkoa Threat |N|Kill birds until you finish this quest.|QID|9417|US|M|25.6,70.3|
-C The Finest Down |N|Kill birds until you finish this quest.|QID|9420|M|25.6,70.3|US|
+T Avruu's Orb |QID|9418|M|29.0,81.5|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get him down to about 50%, then turn the quest in to it.|
+C The Arakkoa Threat |N|Kill Haal'eshi Windwalkers and Talonguards until you finish this quest.|QID|9417|US|M|25.6,70.3|
+C The Finest Down |N|Kill and loot Kaliri birds until you finish this quest. You can click on nests to spawn another one.|QID|9420|M|25.6,70.3|US|
 T The Finest Down |QID|9420|M|24.0,72.1|N|To Mirren Longbeard.|
 T The Arakkoa Threat |QID|9417|M|24.0,72.1|N|To Gremni Longbeard.|
-C Rampaging Ravagers |N|Kill the mobs needed for this quest.|QID|9385|M|22.00,67.00|
+C Rampaging Ravagers |N|Kill the Quillfang Ravangers (Skitterers count as well) needed for this quest.|QID|9385|M|22.00,67.00|
 T Rampaging Ravagers |QID|9385|M|24.0,72.1|N|To Gremni Longbeard.|
 
-N Start looking for a group... |QID|10937|N|Start looking for a group for The Rock Flayer Matriarch and Drill the Drillmaster. Kill mobs in this area while you do so.|M|34.00,63.00|
-C Deadly Predators |N|Kill the mobs needed for this quest.|QID|9398|M|32.00,61.00|
+C Deadly Predators |S|N|Kill the Stonescythe Alphas and Whelps needed for this quest.|QID|9398|M|32.00,61.00|
+C The Rock Flayer Matriarch|N|Kill and loot Blacktalon in this cave.|QID|9490|M|34.00,64.00|
+C Deadly Predators |US|N|Kill the Stonescythe Alphas and Whelps needed for this quest.|QID|9398|M|32.00,61.00|
 C Hellfire Fortifications |N|Do this quest by taking over the towers.|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|O|
-C The Rock Flayer Matriarch|N|Kill the elite in this cave.|QID|9490|M|34.00,64.00|
-C Drill the Drillmaster |N|Kill Drillmaster Zurok.|QID|10937|M|47.89,56.11|
 C An Ambitious Plan |N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal.  Click on the red Crystal that appears.|QID|9383|M|46.00,82.00|
 C Voidwalkers Gone Wild |N|Kill and loot Voidwalkers until you finish this quest.|QID|9351|M|46.00,82.00|
 K Arch Mage Xintor|N|Kill Arch Mage Xintor.|QID|10057|M|53.60,81.00|QO|Arch Mage Xintor slain: 1/1|
 C Looking to the Leadership|QID|10057|M|54.7,83.6|N|Kill Lieutenant Commander Thalvos.|
 C An Old Gift|N|Loot the book here.|QID|10058|M|55.00,86.80|
-T Voidwalkers Gone Wild |QID|9351|M|49.2,74.8|N|To "Screaming" Screed Luckheed.
+T Voidwalkers Gone Wild |QID|9351|M|49.2,74.8|N|To "Screaming" Screed Luckheed.|
 
-H Honor Hold |QID|10937|N|Hearth to Honor Hold. |U|6948|M|54.3,63.4|
+H Honor Hold |QID|10058|N|Hearth or run to Honor Hold. |U|6948|M|54.3,63.4|
 T An Old Gift |QID|10058|M|54.3,63.4|N|To Father Malgor Devidicus.|
 T Hellfire Fortifications|QID|10106|M|56.34,62.78|N|To Warrant Officer Tracy Proudwell.|O|
-T Drill the Drillmaster|QID|10937|N|To Force Commander Danath Trollbane.|M|56.61,66.64|
 T Looking to the Leadership |QID|10057|M|50.9,60.2|N|To Honor Guard Wesilow.|
 F Temple of Telhamat|QID|9383|N|Fly to the Temple of Telhamat |M|54.70,62.35|
 T An Ambitious Plan |QID|9383|M|23.4,36.5|N|To Elsaana.|
@@ -279,14 +299,14 @@ T Deadly Predators |QID|9398|M|23.4,39.7|N|To Scout Vanura.|
 T The Rock Flayer Matriarch |QID|9490|N|To Ikan.|M|23.13,40.26|
 
 C Makuru's Vengeance |N|Kill and loot Mag'har Grunts until you get the Beads for this quest.|QID|9424|M|35.00,35.00|
-N Start looking for a group... |QID|10400|N|Start looking for a group for Overlord.|
 C The Heart of Darkness |N|Kill Terrorfiends.|QID|10399|M|40.34,32.72|S|
-C The Pools of Aggonar |N|Kill Oozes and Terrorfiends.|QID|9426|M|40.34,32.72|
-C The Heart of Darkness |N|Finsih killing Terrorfiends.|QID|10399|M|40.34,32.72|US|
-C Overlord |N|Kill Arazzius the Cruel (need a group).|QID|10400|M|43.3,31|
+C The Pools of Aggonar |N|Kill Oozes and Terrorfiends.|QID|9426|M|40.34,32.72|S|
+C Overlord |N|Kill Arazzius the Cruel.|QID|10400|M|43.3,31|
+C The Pools of Aggonar |N|Kill Oozes and Terrorfiends.|QID|9426|M|40.34,32.72|US|
+C The Heart of Darkness |N|Finish killing Terrorfiends.|QID|10399|M|40.34,32.72|US|
 T Makuru's Vengeance |QID|9424|M|23.1,40.3|N|To Makuru.|
 A Atonement |QID|9543|M|23.1,40.3|N|From Anchorite Obadei.|
-r Sell junk, repair, restock|QID|9383|M|23.32,39.94|N|At Talaara.|
+r Sell junk, repair, restock|QID|9426|M|23.32,39.94|N|At Talaara.|
 T The Pools of Aggonar |QID|9426|M|23.4,36.5|N|To Amaan the Wise.|
 A Cleansing the Waters |QID|9427|M|23.4,36.5|N|From Amaan the Wise.|
 T Atonement |QID|9543|M|23.4,36.5|N|To Amaan the Wise.|
@@ -310,7 +330,7 @@ T Beneath Thrallmar|QID|10630|N|To Foreman Razelcraz.|M|51.31,30.5|
 H Honor Hold |QID|10400|N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
 T The Heart of Darkness |QID|10399|N|To Warp-Scryer Kryv|M|56.61,66.49|
 T Overlord|QID|10400|N|To Force Commander Danath Trollbane.|M|56.63,66.64|
-N Check for Upgrades |QID|10050| |N| Now that you should be Honored with Honor Hold you might want to check the quartermaster for upgrades.|M|56.7,62.58|
+N Check for Upgrades |QID|9427|N| Now that you should be Honored with Honor Hold you might want to check the quartermaster for upgrades.|M|56.7,62.58|
 
 F Temple of Telhamat |QID|9427|N|Fly to Temple of Telhamat.|M|54.70,62.30|
 T Cleansing the Waters |QID|9427|M|23.4,36.5|N|To Amaan the Wise.|
@@ -322,6 +342,7 @@ l Sha'naar Relics |N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,5
 C Cruel Taskmasters |N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M|15.1,55.7|S|
 A Naladu|N|From Akoru the Firecaller.|QID|10403|M|15.00,59.00|
 T Naladu|QID|10403|M|16.3,65.1|N|To Naladu.|
+
 A A Traitor Among Us |QID|10367|M|16.3,65.1|N|From Naladu.|
 C A Traitor Among Us |N|Get the key from the chest here.|QID|10367|M|14.35,63.35|
 T A Traitor Among Us |QID|10367|M|16.3,65.1|N|To Naladu.|
@@ -335,19 +356,9 @@ C Arzeth's Demise |N|Use the Staff of the Dreghood Elders on Azreth to turn him 
 T Arzeth's Demise |QID|10369|M|16.3,65.1|N|To Naladu.|
 l Sha'naar Relics |N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,55.7|US|L|23642 10|
 C Cruel Taskmasters |N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M|15.1,55.7|US|
-C Keep Thornfang Hill Clear! |N|Kill the mobs for this quest while looking for a group for Colossal Menace.|QID|10159|M|10.00,52.00|
-C Colossal Menace |N|Find a group to do this quest, then kill Giants in the northwest part of the zone.|QID|10132|M|15,45|
-l Crimson Crystal Shard|QID|10134|N|Make sure you have one of these items from the giants, unless you have already done the quest Crimson Crystal Clue.|L|29476|M|15,45|
-A Crimson Crystal Clue|N|Right-click the Shard to start the quest.|QID|10134|M|15,45|
-
-T Colossal Menace|QID|10132|N|To Tola'thion.|M|15.62,52.12|
-T Crimson Crystal Clue|QID|10134|N|To Tola'thion.|M|15.62,52.12|
-A The Earthbinder |QID|10349|N|From Tola'thion.|M|15.62,52.12|
+C Keep Thornfang Hill Clear! |N|Kill the Ravagers and Venomspitters for this quest.|QID|10159|M|10.00,52.00|
 T Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|To Mahuram Stouthoof.|
-T The Earthbinder |QID|10349|N|To Earthbinder Galandria Nightbreeze.|M|15.89,51.59|
-A Natural Remedies |QID|10351|N|From Earthbinder Galandria Nightbreeze.|M|15.89,51.59|
-C Natural Remedies |N|Make sure you have a group for this.  Go here and use the seed, then kill the elite.|QID|10351|M|13.00,39.00|
-T Natural Remedies |QID|10351|N|To Earthbind Galandria Nightbreeze.|M|15.89,51.59|
+
 T Cruel Taskmasters |QID|9399|M|23.1,40.3|N|To Ikan.|
 T Sha'naar Relics |QID|9430|M|23.4,36.5|N|To Amaan the Wise.|
 A The Seer's Relic |QID|9545|M|23.4,36.5|N|From Amaan the Wise.|

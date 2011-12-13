@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2011-12-07 18:19
+-- Who: Crackerhead22
+-- Log: 4.3 updates
+
+-- URL: http://wow-pro.com/node/3279/revisions/24567/view
 -- Date: 2011-06-20 23:03
 -- Who: ikiboun
 -- Log: edit note and modified coord for Zorbo location
@@ -109,7 +114,7 @@ N From now on...|QID|9855|N|From now on, kill the mobs you need for the mastery 
 C Boulderfist Plans |QID|9917|N|Kill Boulderfist Hunters until you get the Boulderfist Plans.|L|25468|M|61.00,71.00|
 T I Must Have Them! |QID|10109|M|61.7,67.1|N|To Wazat.|
 A Bring Me The Egg! |QID|10111|N|From Wazat.|M|61.7,67.1|
-C Bring Me The Egg! |N|Get a group for this quest (if needed), if you don't have a flying mount then use the Jump-O-Matic, jump up to the birds nest (if you have a flying mount, fly up there), take the egg, and kill the elite.|QID|10111|M|62.00,67.00|
+C Bring Me The Egg! |N|If you don't have a flying mount then use the Jump-O-Matic, jump up to the birds nest (if you have a flying mount, fly up there), take the egg, and kill the bird that appears.|QID|10111|M|62.00,67.00|
 T Bring Me The Egg! |QID|10111|N|To Wazat.|M|61.7,67.1|
 T Do My Eyes Deceive Me |QID|9917|M|55.0,70.5|N|To Huntress Bintook.|
 A Not On My Watch! |QID|9918|M|55.0,70.5|N|From Huntress Bintook.|
@@ -175,7 +180,7 @@ C The Spirit Polluted |N|Go here and kill 10 Lake Surgers and Watoosun's Pollute
 C Solving the Problem |N|Kill Murkblood Scavengers and Raiders until you finish this quest.|QID|9878|M|32,43|S|
 C Murkblood Corrupters |N|Kill Murkblood Putrifiers until you finish this quest.|QID|9862|M|32,43|S|
 A The Totem of Kar'dash |N|You need to kill the two brutes in the house before the quest can be accepted. Make sure you have full health before accepting this escort quest, as you will be attacked immediately on accepting.|QID|9879|M|33.00,42.00|
-C The Totem of Kar'dash |N|Kill the mobs that spawn and make sure you are at full health before each fight.  The escort npc is weak.  Getting a group for this may help.|QID|9879|
+C The Totem of Kar'dash |N|Kill the mobs that spawn and make sure you are at full health before each fight. The escort npc is weak. Getting a group for this may help.|QID|9879|
 C Solving the Problem |N|Kill mobs until you finish this quest.|QID|9878|M|32,43|US|
 C Murkblood Corrupters |N|Kill mobs until you finish this quest.|QID|9862|M|32,43|US|
 C Stopping the Spread |N|Use the torch on the rest of the corpses for this quest.|QID|9874|M|33.2,47.7|U|24560|US|
@@ -186,7 +191,13 @@ T He Called Himself Altruis...|QID|9982|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
 C Survey the Land |N|Make sure you are not mounted when you accept this quest (or abandon it and re-accept it).  You should fly around automatically.|QID|9991|M|27.29,43.1|
 T Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
-N Altruis Offers Too Much|QID|9859|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion.|
+A Buying Time|QID|9999|M|27.35,43.06|N|From Altruis the Sufferer.|
+C Buying Time|QID|9999|M|25.52,37.54|N|Kill the Demons that are needed for this quest.|
+T Buying Time|QID|9999|M|27.35,43.06|N|To Altruis the Sufferer.|
+A The Master Planner|QID|10001|M|27.35,43.06|N|From Altruis the Sufferer.|
+C The Master Planner|QID|10001|M|23.64,34.7;17.49,50.27|N|Find, kill and loot a Mo'arg Master Planner at either of the waypoints.|
+T The Master Planner|QID|10001|M|27.33,43.07|N|To Altruis the Sufferer.|
+N Altruis offers too much|QID|9859|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion as they take you out of the zone.|
 K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|N|Kill Bach'lor and loot his hoof. He wanders between the waypoints.|T|Bach'lor|L|24523|US|
 A Matters of Security |QID|9925|M|30.8,58.1|N|From Zerid.|
 A Gava'xi |QID|9900|M|30.8,58.1|N|From Zerid.|
@@ -195,14 +206,13 @@ A Stealing from Thieves |QID|9882|M|31.4,57.8|N|From Gezhe.|
 A A Head Full of Ivory|QID|9914|N|From Shadrek.|M|31.75,56.80|
 T A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|
 N Sell junk, repair, restock |QID|9922|N|Sell junk, repair, restock.|M|30.59,56.94|
-N Look for a group|N|Look for a group, if needed, to kill Banthar for "Clefthoof Mastery".|
 
 l Murkblood Invasion Plans |QID|9871|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24559|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|
 A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9871|U|24559|M|28.3,53.4|
 l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
 C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|
-C Clefthoof Mastery (part 3)|N|Make sure you have a group if needed for this quest and then kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
+C Clefthoof Mastery (part 3)|N|Kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
 K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
 C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this area and kill the Minions until you finish this quest.|QID|9849|M|38.00,82.00|U|24501|
 T The Twin Clefts of Nagrand|QID|9922|M|54.5,72.2|N|To Mo'mor the Breaker.|
@@ -237,26 +247,26 @@ T Muck Diving |QID|9815|M|60.5,22.4|N|To Ementalist Lo'ap.|
 T Murkblood Corrupters |QID|9862|M|60.5,22.4|N|To Ementalist Morgh.|
 
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest.|QID|9931|M|50.00,22.00|U|25555|S|
-C Wanted: Zorbo the Advisor|N|Kill Zorbo in this cave.|QID|9940|M|46.11,19.00|S|QO|Warmaul Shaman Slain: 5/5;Warmaul Reaver slain: 5/5|
+C Wanted: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|9940|M|46.11,19.00|S|
 C Body of Evidence |N|Use the Damp Woolen Blanket here and defend the NPCs.|QID|9932|M|46.45,24.35|
 K Zorbo the Advisor|N|Kill Zorbo inside the cave.|QID|9940|M|46.22,18.83|QO|Zorbo the Advisor slain: 1/1|
-C Wanted: Zorbo the Advisor|N|Kill mobs in the area.|QID|9940|M|46.00,23.00|US|
+C Wanted: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|9940|M|46.00,23.00|US|
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest. |QID|9931|M|50.00,22.00|U|25555|US|
 
-N Ring of Blood|N|Look for a group for Ring of Blood quests if you wish. Look for a group for the Windroc Mastery and Talbuk Mastery quests also if need be.|
-K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper (you may or may not need a group) and loot his eye.|T|Gutripper|L|24513|S|
+N Ring of Blood|N|Look for a group for Ring of Blood quests if you wish.|
+K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye.|T|Gutripper|L|24513|S|
 l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|L|28667|
-K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper (you may or may not need a group) and loot his eye. He wanders around where the waypoints are.|T|Gutripper|L|24513|US|
+K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye. He wanders around where the waypoints are.|T|Gutripper|L|24513|US|
 l Mountain Gronn Eyeball|QID|10252|N|Kill the Mountain Gronn on this path and loot the eyeball.|L|28665|M|30.00,32.00|T|Mountain Gronn|
 C The Ravaged Caravan|N|Get the crates needed for this quest.|QID|9956|M|27.00,23.00|S|
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|S|
 T Corki's Ransom|QID|9954|M|27.00,23.00|N|Go in the cave here, go to the back of the cave and find Corki. Turn the quest in, be careful of the elite.|
 A Cho'war the Pillager|QID|9955|M|27.00,23.00|N|From Corki.|
-K Cho'war the Pillager|N|Go through the cave and kill Cho'war (group may be needed)|QID|9955|M|27.17,18.68;27.00,11.00|L|25648|
+K Cho'war the Pillager|N|Go through the cave and kill Cho'war.|QID|9955|M|27.17,18.68;27.00,11.00|L|25648|
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|US|
-C Gurok the Usurper|N|Use the skulls at the pulsating purple circle. Kill Gurok then loot him(with a group if need be). He has a nasty knock back, so don't have your back towards the cliff.|QID|9853|M|29.00,25.00|U|24502|
+C Gurok the Usurper|N|Use the skulls at the pulsating purple circle. Kill Gurok then loot him. He has a nasty knock back, so don't have your back towards the cliff.|QID|9853|M|29.00,25.00|U|24502|
 C Cho'war the Pillager |QID|9955|M|27.00,23.00|N|Go in the cave here, go to the back of the cave and find Corki. Right click on the cage to let the moron out.|
-C The Ravaged Caravan|N|Get the rest of the crates needed for this quest while looking for a group for Cho'War the Pillager and Gurok the Usurper.|QID|9956|M|27.00,23.00|US|
+C The Ravaged Caravan|N|Get the rest of the crates needed.|QID|9956|M|27.00,23.00|US|
 
 l Aged Clefthoof Blubber |QID|10252|N|Kill Aged Clefthoofs until you get the Blubber.|L|28668 1|M|27.00,41.00|
 C Ortor My Old Friend... |N|Go here and kill Ortor.|QID|9873|M|31.00,42.00|
@@ -283,19 +293,13 @@ T Talbuk Mastery (part 3) |QID|9859|N|To Harold Lane.|M|71.4,40.63|
 A The Ultimate Bloodsport |QID|9852|N|From Hemet Nesingwary.|M|71.52,40.79|
 T Gurok the Usurper |QID|9853|N|To Gordawg.|M|61.8,24.4|
 
-C The Ultimate Bloodsport |N|Get a group for this quest if needed, and then kill Tusker.|QID|9852|M|44.28,65.6|
-C Wanted: Durn the Hungerer|N|Kill Durn the Hungerer, he wanders around Oshu'gun. You need three or four people, this is a hard one.|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|
+C The Ultimate Bloodsport |N|Kill and loot Tusker.|QID|9852|M|44.28,65.6|
+C Wanted: Durn the Hungerer|N|Kill Durn the Hungerer, he wanders around Oshu'gun.|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|T|Durn the Hungerer|
 T Wanted: Durn the Hungerer|QID|9938|N|To Waden Moi'bff Jill.|M|54.8,71.0|
 T Message to Telaar |QID|9933|M|55.5,68.8|N|To Arechron.|
 T The Ultimate Bloodsport|QID|9852|N|To Hemet Nesingwary.|M|71.52,40.79|
 
 N The following quests are the rest of the ones from Altruis.|
-A Buying Time|QID|9999|M|27.35,43.06|N|From Altruis the Sufferer.|
-C Buying Time|QID|9999|M|25.52,37.54|N|Kill the Demons that are needed for this quest.|
-T Buying Time|QID|9999|M|27.35,43.06|N|To Altruis the Sufferer.|
-A The Master Planner|QID|10001|M|27.35,43.06|N|From Altruis the Sufferer.|
-C The Master Planner|QID|10001|M|23.64,34.7;17.49,50.27|N|Find, kill and loot a Mo'arg Master Planner at either of the waypoints.|
-T The Master Planner|QID|10001|M|27.33,43.07|N|To Altruis the Sufferer.|
 A Patience and Understanding|QID|10004|M|27.33,43.07|N|From Altruis the Sufferer.|
 C Patience and Understanding|QID|10004|NC|M|77.23,34.70|Z|Shattrath City|N|Head to Shattrath, talk to Sal'salabim and get him low in health.|
 T Patience and Understanding|QID|10004|M|77.23,34.70|Z|Shattrath City|N|To Sal'salabim.|
@@ -331,6 +335,6 @@ T Illidan's Pupil|QID|10646|M|27.35,43.06|N|To Altruis the Sufferer.|
 A The Book of Fel Names|QID|10649|M|27.35,46.06|N|From Altruis the Sufferer.|
 l Book of Fel Names|QID|10649|L|30808|N|This is dropped from Blackheart the Inciter inside the Shadow Labyrinth (non-heroic or heroic) in Auchindoun.|
 T The Book of Fel Names|QID|10649|M|27.35,46.06|N|To Altruis the Sufferer.|
-N The next quest he gives takes you back to Shadowmoon, so it is up to you if you want to do it.
+N The next quest|N|he gives takes you back to Shadowmoon, so it is up to you if you want to do it.
 ]]
 end)

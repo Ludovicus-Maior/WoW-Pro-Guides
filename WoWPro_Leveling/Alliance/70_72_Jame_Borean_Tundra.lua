@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2011-12-10 15:28
+-- Who: Crackerhead22
+-- Log: 4.3 updates
+
+-- URL: http://wow-pro.com/node/3289/revisions/24665/view
 -- Date: 2011-07-06 14:37
 -- Who: Crackerhead22
 -- Log: Added notes in the "The Hunt is On" steps about talking to the cultists.
@@ -208,7 +213,7 @@ A Just a Few More Things... |QID|11650|N|From Crafty Wobblesprocket who wanders 
 C What's the Matter with the Transmatter? |QID|11710|N|Pick up Fizzcrank Spare Parts.|M|15,19.5|S|
 C Re-Cursive |QID|11712|U|34973|N|Kill Mechagnomes and use the Re-Cursive Transmatter Injection on them.|M|58.4,19.5|S|
 C Master and Servant |QID|11730|U|35116|N|Kill robots and use The Ultrasonic Screwdriver on them.|M|57.52,25.03|S|
-N Crafty's Tools |QID|11650|QO|Crafty's Tools: 1/1|N|Loot Crafty's Tools below the Fizzcrank Pumping Station.|M|64.37,23.06|
+l Crafty's Tools |QID|11650|L|34802|N|Loot Crafty's Tools below the Fizzcrank Pumping Station.|M|64.37,23.06|
 C Re-Cursive |QID|11712|U|34973|N|Kill Mechagnomes and use the Re-Cursive Transmatter Injection on them.|M|58.4,19.5|US|
 T Re-Cursive |QID|11712|N|To Jinky Wingnut outside the inn.|M|57.44,18.74|
 
@@ -383,7 +388,7 @@ T The Son of Karkut |QID|12086|N|To Corporal Venn at Death's Stand.|M|82.02,46.4
 
 A Surrounded! |QID|11944|N|From Corporal Venn.|M|82.02,46.42|
 C Surrounded! |QID|11944|N|Kill Ziggurat Defenders.|S|
-K Rocknar's Grit |QID|11650|QO|A Handful of Rocknar's Grit: 1/1| |N|Kill Rocknar and loot A Handful of Rocknar's Grit.|M|81.47,42.49|
+l Rocknar's Grit |QID|11650|L|34804|N|Kill Rocknar and loot A Handful of Rocknar's Grit.|M|81.47,42.49|
 C Surrounded! |QID|11944|N|Kill Ziggurat Defenders.|US|
 T Surrounded! |QID|11944|N|To Corporal Venn.|M|82.02,46.42|
 A Thassarian, the Death Knight |QID|12088|N|From Corporal Venn.|M|82.02,46.42|
@@ -401,7 +406,7 @@ l High Priest Andorath's Scroll |QID|11942|QO|High Priest Andorath's Scroll: 1/1
 C Words of Power |QID|11942|N|Kill the Necromancers around him, then High Priest Naferset himself for his scroll.|M|83.92,20.45|
 T Words of Power |QID|11942|N|To Thassarian inside the Ziggurat.|M|84.80,41.67|
 A Last Rites |QID|12019|N|From Thassarian.|M|84.80,41.67|
-C Last Rites |QID|12019|N|You'll have Thassarian's help, but you'll probably need to find a group. Take the portal up to Naxxanar in En'kilah, then take the portal above it to the top.|M|86.60,28.50|
+C Last Rites |QID|12019|N|You'll have Thassarian's help. Take the portal up to Naxxanar in En'kilah, then take the portal above it to the top.|M|86.60,28.50|
 T Last Rites |QID|12019|N|To Thassarian.|M|86.60,28.50;84.80,41.67|
 N Abandon The Lost Courier |QID|11701|N|If you accepted The Lost Courier and plan to continue using Jame's guide, abandon it now. There is a better quest in Howling Fjord later, and the two are mutually exclusive.|
 H Fizzcrank Airstrip |QID|11701|N|If your hearthstone isn't up yet, go back to Unu'pe and fly instead.|
@@ -458,7 +463,6 @@ T Traversing the Rift |QID|11733|N|To Archmage Berinand.|M|32.95,34.40|
 A Reading the Meters |QID|11900|N|From Archmage Berinand.|M|32.95,34.40|
 A Secrets of the Ancients |QID|11910|N|From Archmage Berinand.|M|32.95,34.40|
 A Nuts for Berries |QID|11912|N|From Librarian Serrah.|M|33.48,34.38|
-A Have They No Shame? |QID|13094|N|From Librarian Serrah.|M|33.48,34.38|
 A Basic Training |QID|11918|N|From Raelorasz.|M|33.31,34.53|
 C Basic Training |QID|11918|N|Kill Coldarra Spellweavers.|S|
 C Secrets of the Ancients |QID|11910|N|Kill Glacial Ancients and Magic-bound Ancients.|S|
@@ -487,7 +491,6 @@ A Hatching a Plan |QID|11936|N|From Raelorasz.|M|33.31,34.53|
 T Nuts for Berries |QID|11912|N|To Librarian Serrah.|M|33.48,34.38|
 A Keep the Secret Safe |QID|11914|N|From Librarian Serrah.|M|33.48,34.38|
 T Secrets of the Ancients |QID|11910|N|To Archmage Berinand.|M|32.95,34.40|
-A Quickening |QID|11911|N|From Archmage Berinand.|M|32.95,34.40|
 T Bait and Switch |QID|11951|U|35671|N|Use your Augmented Arcane Prison.|
 A Saragosa's End |QID|11957|N|From Keristrasza.|
 C Saragosa's End |QID|11957|U|35690|N|Talk to Keristrasza tell her you're prepared. Use the Arcane Power Focus to bring out Saragosa, then kill her and loot Saragosa's Corpse.|
@@ -509,10 +512,7 @@ T Hatching a Plan |QID|11936|N|To Raelorasz.|M|33.31,34.53|
 
 A Drake Hunt |QID|11919|N|From Raelorasz.|M|33.31,34.53|
 T Springing the Trap |QID|11969|N|To Raelorasz.|M|33.31,34.53|
-A Prisoner of War |QID|11973| |N|From Raelorasz.|M|33.31,34.53|
 T Reading the Meters |QID|11900|N|To Archmage Berinand.|M|32.95,34.40|
-A Postponing the Inevitable |QID|11905|N|From Archmage Berinand.|M|32.95,34.40|
-N The Nexus |QID|12117|N|You now have all four quests for "The Nexus", should you choose to run this instance. Feel free to abandon the dungeon quests if you choose not to do it.|
 C Drake Hunt |QID|11919|U|35506|N|Find a Nexus Drake Hatchling flying around to the west of the Nexus. Use Raelorasz's Spear on it and tank it until it becomes friendly (about 10 seconds). Ride back to the Transitus Shield quickly, you have 3 minutes to turn this quest in.|M|23,26|
 T Drake Hunt |QID|11919|N|To Raelorasz.|M|33.31,34.53|
 A Cracking the Code |QID|11931|N|From Raelorasz.|M|33.31,34.53|

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2011-11-25 16:50
+-- Who: Fluclo
+-- Log: Reorganised some quests as it didn't flow well for in-level players, added some level steps to indicate required level to continue guide, added Non combat tags where appropriate, optionalised the breadcrumb and group quests.
+
+-- URL: http://wow-pro.com/node/3222/revisions/24591/view
 -- Date: 2011-06-25 01:02
 -- Who: Crackerhead22
 -- Log: ! Duplicate A step for qid 26720 - Fixed
@@ -56,17 +61,20 @@ WoWPro.Leveling:RegisterGuide("TwiDus2025", "Duskwood", "Twists", "20", "25", "S
 return
 [[
 
-A Hero's Call: Duskwood!|QID|26728|M|28.59,41.02|Z|Redridge Mountains|N|From Bailiff Conacher in Lakeshire.|
-R Darkshire|QID|26728|M|74.54,41.59|N|Run to Darkshire in Duskwood. Take the left fork at Three Corners.|
+L Level 19 |QID|26618|N|You need to be Level 19 to work this guide.|LVL|19|
 
-T Hero's Call: Duskwood!|QID|26728|M|73.57,46.90|N|To Commander Althea Ebonlocke.|
+R Duskwood |QID|26618|M|74.54,41.59|N|Duskwood is found to the south-west of Redridge Mountains, east of Westfall and south of Elwynn Forest.  \n\nThe bread-crumb quest are Hero's Call: Duskwood! which is obtainable from Bailiff Conacher in Redridge Mountains, or from the Hero's Callboard in Stormwind City.|
+
+T Hero's Call: Duskwood!|QID|28564|M|73.57,46.90|N|To Commander Althea Ebonlocke.|O|
+T Hero's Call: Duskwood!|QID|26728|M|73.57,46.90|N|To Commander Althea Ebonlocke.|O|
 
 A Wolves at Our Heels|QID|26618|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
 
 h Darkshire|QID|26618|M|73.93,44.49|N|At Innkeeper Trelayne.|
 
+A Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|From Chef Grual.|S|
 A Seasoned Wolf Kabobs|QID|26620|M|73.80,43.61|N|From Chef Grual.|
-A Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|From Chef Grual.|
+A Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|From Chef Grual.|US|
 
 f Darkshire|QID|26620|M|77.53,44.32|N|At Felicia Maline.|
 
@@ -76,12 +84,14 @@ C Seasoned Wolf Kabobs|QID|26620|M|65.38,23.84|N|Kill and loot Wolves. Be carefu
 C Dusky Crab Cakes|QID|26623|N|Finish gathering Dusky Lumps from spiders.|US|
 C Wolves at Our Heels|QID|26618|N|Finish off the wolves up and down the banks.|US|
 
+T Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|To Chef Grual.|S|
 T Seasoned Wolf Kabobs|QID|26620|M|73.80,43.61|N|To Chef Grual.|
-T Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|To Chef Grual.|
+T Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|To Chef Grual.|US|
 T Wolves at Our Heels|QID|26618|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
 
+A The Night Watch|QID|26645|M|73.72,46.89|N|From Commander Althea Ebonlocke.|S|
 A The Hermit|QID|26627|M|73.72,46.89|N|From Commander Althea Ebonlocke.|
-A The Night Watch|QID|26645|M|73.72,46.89|N|From Commander Althea Ebonlocke.|
+A The Night Watch|QID|26645|M|73.72,46.89|N|From Commander Althea Ebonlocke.|US|
 A Look To The Stars|QID|26683|M|79.53,47.41|N|From Viktori Prism'Antras.|
 
 T The Hermit|QID|26627|M|87.45,35.38|N|To Abercrombie.|
@@ -92,73 +102,88 @@ A Ghost Hair Thread|QID|26652|M|75.75,45.33|N|From Madame Eva.|
 
 C The Night Watch|QID|26645|M|81.91,59.17|N|Kill Rotting Horrors.|S|
 
-T Ghost Hair Thread|QID|26652|M|81.91,59.17|N|To Blind Mary.|
-A Return the Comb|QID|26654|M|81.91,59.17|N|From Blind Mary.|
+T Ghost Hair Thread|QID|26652|M|81.91,59.17|N|To Blind Mary.|S|
 T Look To The Stars|QID|26683|M|81.91,59.17|N|To Blind Mary.|
-A The Insane Ghoul|QID|26684|M|81.91,59.17|N|From Blind Mary.|
+A The Insane Ghoul|QID|26684|M|81.91,59.17|N|From Blind Mary.|S|
+T Ghost Hair Thread|QID|26652|M|81.91,59.17|N|To Blind Mary.|US|
+A Return the Comb|QID|26654|M|81.91,59.17|N|From Blind Mary.|
+A The Insane Ghoul|QID|26684|M|81.91,59.17|N|From Blind Mary.|US|
 
-C The Night Watch|QID|26645|M|81.91,59.17|N|Kill Rotting Horrors.|US|
-C The Insane Ghoul|QID|26684|M|80.87,71.77|N|Kill and loot the Insane Ghoul inside the church. He fears.|
+C The Night Watch|QID|26645|M|81.91,59.17|N|Finish killing the Rotting Horrors.|US|
 
 T The Night Watch|QID|26645|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
 A Bones That Walk|QID|26686|M|73.72,46.89|N|From Commander Althea Ebonlocke.|
 T Return the Comb|QID|26654|M|75.75,45.33|N|To Madame Eva.|
 A Deliver the Thread|QID|26655|M|75.75,45.33|N|From Madame Eva.|
-T The Insane Ghoul|QID|26684|M|79.53,47.41|N|To Viktori Prism'Antras.|
-A Classy Glass|QID|26685|M|79.53,47.41|N|From Viktori Prism'Antras.|
 
 T Deliver the Thread|QID|26655|M|87.45,35.38|N|To Abercrombie.|
 A Zombie Juice|QID|26660|M|87.45,35.38|N|From Abercrombie.|
 
-A The Legend of Stalvan|QID|26666|M|79.04,44.23|N|From Tobias Mistmantle.|
-T The Legend of Stalvan|QID|26666|M|72.50,46.87|N|To Clerk Daltry.|
-A The Stolen Letters|QID|26667|M|72.50,46.87|N|From Clerk Daltry.|
 T Zombie Juice|QID|26660|M|73.83,44.47|N|To Tavernkeep Smitts.|
 A Gather Rot Blossoms|QID|26661|M|73.83,44.47|N|From Tavernkeep Smitts.|
-A Worgen in the Woods|QID|26688|M|75.28,47.95|N|From Calor.|
 
 C Bones That Walk|QID|26686|M|77.63,68.83|N|Kill Skeletal Warriors and Mages.|S|
-C Gather Rot Blossoms|QID|26661|M|77.40,68.54|N|Loot Rot Blossoms in the Graveyard.|
+C Gather Rot Blossoms|QID|26661|M|77.40,68.54|N|Loot Rot Blossoms in the Graveyard.|S|NC|
+C The Insane Ghoul|QID|26684|M|80.87,71.77|N|Kill and loot the Insane Ghoul inside the church at the Tranquil Gardens Cemetary. Please note, one defensive spell used is fear.|
+C Gather Rot Blossoms|QID|26661|M|77.40,68.54|N|Loot Rot Blossoms in the Graveyard.|US|NC|
 C Bones That Walk|QID|26686|M|77.63,68.83|N|Kill Skeletal Warriors and Mages.|US|
-T Bones That Walk|QID|26686|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
+
 T Gather Rot Blossoms|QID|26661|M|73.83,44.47|N|To Tavernkeep Smitts.|
 A Juice Delivery|QID|26676|M|73.83,44.47|N|From Tavernkeep Smitts.|
+T Bones That Walk|QID|26686|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
+
+T The Insane Ghoul|QID|26684|M|79.53,47.41|N|To Viktori Prism'Antras.|
+A Classy Glass|QID|26685|M|79.53,47.41|N|From Viktori Prism'Antras.|
 
 T Juice Delivery|QID|26676|M|87.45,35.38|N|To Abercrombie.|
 A Ogre Thieves|QID|26680|M|87.45,35.38|N|From Abercrombie.|
 
+L Level 21 |QID|26666|N|You need to be level 21 to continue with this guide.|LVL|21|
+
+A The Legend of Stalvan|QID|26666|M|79.04,44.23|N|From Tobias Mistmantle.|
+A Worgen in the Woods|QID|26688|M|75.28,47.95|N|From Calor.|
+T The Legend of Stalvan|QID|26666|M|72.50,46.87|N|To Clerk Daltry.|
+A The Stolen Letters|QID|26667|M|72.50,46.87|N|From Clerk Daltry.|
+
 C Worgen in the Woods|QID|26688|M|75.28,47.95|N|Kill Worgen as you go in Brightwood Grove.|S|
-C The Stolen Letters|QID|26667|M|61.24,40.39|N|Laying on the ground outside the tents.|
+C The Stolen Letters|QID|26667|M|61.24,40.39|N|Laying on the ground outside the tents.|NC|
 C Worgen in the Woods|QID|26688|M|75.28,47.95|N|Finish Killing Worgen.|US|
 
-T Worgen in the Woods|QID|26688|M|75.28,47.95|N|To Calor across.|
-A The Rotting Orchard|QID|26689|M|75.28,47.95|N|From Calor.|
 T The Stolen Letters|QID|26667|M|72.50,46.87|N|To Clerk Daltry.|
 A In A Dark Corner|QID|26669|M|72.50,46.87|N|From Clerk Daltry.|
 
-A Vlugar Vul'Gol|QID|25235|M|45.18,66.95|N|From Watcher Dodds.|
+T Worgen in the Woods|QID|26688|M|75.28,47.95|N|To Calor across.|
+A The Rotting Orchard|QID|26689|M|75.28,47.95|N|From Calor.|
+
+C The Rotting Orchard|QID|26689|N|Kill Nightbane Shadow Weavers. Beware of the hidden stalkers in this area.|S|
+C In A Dark Corner|QID|26669|M|66.5,76.5|N|Inside the barn, at the back.|NC|
+C The Rotting Orchard|QID|26689|N|Finish Killing Nightbane Shadow Weavers. Beware of the hidden stalkers in this area.|US|
+
+A Vlugar Vul'Gol|QID|25235|M|45.18,66.95|N|From Watcher Dodds, along the road to the west.|
 
 C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|S|N|Kill any type Splinter Fist Ogres.|
-C Ogre Thieves|QID|26680|M|33.45,75.27|N|Just outside the cave, pickup Abercrombie's Crate.|
-L Level 22|QID|25235|LVL|22|N|Continue Killing Ogres until level 22.|
+C Ogre Thieves|QID|26680|M|33.45,75.27|N|Just outside the cave, pickup Abercrombie's Crate.|NC|
 C Classy Glass|QID|26685|M|37.84,84.33|N|Head to the back of the cave, kill and loot Zzarc'Vul.|
 C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|US|N|Finish killing Splinter Fist Ogres.|
 
 T Vulgar Vul'Gol|QID|25235|M|45.18,66.95|N|To Watcher Dodds.|
+
+L Level 22 |QID|26707|N|You need to be level 22 to continue with this guide.|LVL|22|
+
+A The Yorgen Worgen|QID|26717|M|44.81,67.32|N|From Apprentice Fess.|S|
 A A Deadly Vine|QID|26707|M|44.81,67.32|N|From Apprentice Fess.|
-A The Yorgen Worgen|QID|26717|M|44.81,67.32|N|From Apprentice Fess.|
+A The Yorgen Worgen|QID|26717|M|44.81,67.32|N|From Apprentice Fess.|US|
 
 C A Deadly Vine|QID|26707|M|49.57,76.46|N|Kill and loot the Corpseweeds.|S|
-C The Yorgen Worgen|QID|26717|M|49.68,77.88|N|Between the two buildings, loot the Mound of Loose Dirt.|
+C The Yorgen Worgen|QID|26717|M|49.68,77.88|N|Between the two buildings, loot the Mound of Loose Dirt.  When you collect, a lurking worgen will pounce on you, knock you out, then run away.|NC|
 C A Deadly Vine|QID|26707|M|49.57,76.46|N|Kill and loot the Corpseweeds.|US|
 
+T The Yorgen Worgen|QID|26717|M|44.81,67.32|N|To Apprentice Fess.|S|
 T A Deadly Vine|QID|26707|M|44.81,67.32|N|To Apprentice Fess.|
-T The Yorgen Worgen|QID|26717|M|44.81,67.32|N|To Apprentice Fess.|
+T The Yorgen Worgen|QID|26717|M|44.81,67.32|N|To Apprentice Fess.|US|
 A Delivery to Master Harris|QID|26719|M|44.81,67.32|N|From Apprentice Fess.|
 
-C The Rotting Orchard|QID|26689|N|Kill Nightbane Shadow Weavers|S|
-C In A Dark Corner|QID|26669|M|66.5,76.5|N|Inside the barn, at the back.|
-C The Rotting Orchard|QID|26689|N|Finish Killing Nightbane Shadow Weavers.|US|
+H Scarlet Raven Tavern |QID|26669|N|Hearthstone to, or run back to Scarlet Raven Tavern in Darkshire.|
 
 T In A Dark Corner|QID|26669|M|72.50,46.87|N|To Clerk Daltry.|
 A Roland's Doom|QID|26670|M|72.50,46.87|N|From Clerk Daltry.|
@@ -167,10 +192,10 @@ T The Rotting Orchard|QID|26689|M|75.28,47.95|N|To Calor.|
 A Vile and Tainted|QID|26690|M|75.28,47.95|N|From Calor.|
 
 T Classy Glass|QID|26685|M|79.53,47.41|N|To Viktori Prism'Antras.|
-T Ogre Thieves|QID|26680|M|87.45,35.38|N|To Abercrombie outside.|
+T Ogre Thieves|QID|26680|M|87.45,35.38|N|To Abercrombie at Beggar's Haunt.|
 A Ghoulish Effigy|QID|26677|M|87.45,35.38|N|From Abercrombie.|
 
-C Ghoulish Effigy|QID|26677|M|76.83,33.72|N|Kill and loot Fetid Corpses.|
+C Ghoulish Effigy|QID|26677|M|76.83,33.72|N|Kill and loot Fetid Corpses at Manor Mistmantle.|
 
 T Ghoulish Effigy|QID|26677|M|87.45,35.38|N|To Abercrombie.|
 A Note to the Mayor|QID|26681|M|87.45,35.38|N|From Abercrombie.|
@@ -183,7 +208,7 @@ C The Embalmer's Revenge|QID|26727|M|73.84,46.62|N|Kill Stitches, he spawns in t
 T The Embalmer's Revenge|QID|26727|M|71.85,46.45|N|To Lord Ello Ebonlocke.|
 
 C Vile and Tainted|QID|26690|N|Kill Nightbane Vile Fangs and Tainted Ones.|S|
-C Roland's Doom|QID|26670|M|73.63,79.19|N|In the back of the cave, pick up the Muddy Journal Page.|
+C Roland's Doom|QID|26670|M|73.63,79.19|N|In the back of the cave, pick up the Muddy Journal Page.|NC|
 C Vile and Tainted|QID|26690|N|Finish killing Worgen.|US|
 
 T Vile and Tainted|QID|26690|M|75.28,47.95|N|To Calor.|
@@ -202,77 +227,82 @@ A Mistmangle's Revenge|QID|26674|M|75.76,45.28|N|From Madame Eva.|
 C Mistmangle's Revenge|QID|26674|M|77.39,36.32|N|Use the ring at the manor house. Then kill Stalvan Mistmangle after the talking.|U|59363|
 T Mistmangle's Revenge|QID|26674|M|78.98,44.21|N|To Tobia Mismantle.|
 
-F Sentinel Hill|QID|26719|M|77.53,44.32|N|Fly to Sentinel Hill. Its easier to reach from here.|
-R Duskwood|QID|26777|M|67.08,62.91|N|Run back into Duskwood zone.|Z|Westfall|
+F Raven Hill |QID|26719|M|77.45,44.25|N|Fly to Raven Hill.|
 
-T Delivery to Master Harris|QID|26719|M|18.40,57.76|N|Deliver the message to Oliver Harris.|
-A A Curse We Cannot Lift|QID|26720|M|18.40,57.76|N|From Oliver Harris in Raven Hill.|
-A The Jitters-Bugs|QID|26721|M|18.6,58.21|N|From Jitters in Raven Hill.|
-A Soothing Spirits|QID|26777|M|19.92,57.88|N|From Sister Eisington in Raven Hill.|
+T Delivery to Master Harris|QID|26719|M|18.40,57.76|N|Deliver the message to Oliver Harris at Raven Hill.|
+A A Curse We Cannot Lift|QID|26720|M|18.40,57.76|N|From Oliver Harris.|
+A Soothing Spirits|QID|26777|M|19.92,57.88|N|From Sister Eisington.|
 
-f Raven Hill|QID|26777|M|21.03,56.63|N|At John Shelby.|
+;f Raven Hill|QID|26777|M|21.03,56.63|N|At John Shelby.|
 
-C Soothing Spirits|QID|26777|N|Use the Holy Censer on Forlon Spirits.|U|60225|S|
-C A Curse We Cannot Lift|QID|26720|M|21,72|N|Find the Lurking Worgen in the barn and weaken him. When he stares and hesitates, use Harris's Ampule.|U|60206|
-C Soothing Spirits|QID|26777|N|Use the Holy Censer on Forlon Spirits.|U|60225|US|
+C Soothing Spirits|QID|26777|N|Use the Holy Censer on Forlon Spirits.|U|60225|S|NC|
+C A Curse We Cannot Lift|QID|26720|M|21.61,73.41|N|Go into the barn at Addle's Stead.  The Lurking Worgen will jump out and this time attack.  Bring his health down until he stares and hesitates, then use Harris's Ampule.|U|60206|
+C Soothing Spirits|QID|26777|N|Use the Holy Censer on Forlon Spirits.|U|60225|US|NC|
 
 T Soothing Spirits|QID|26777|M|19.92,57.88|N|To Sister Eisington.|
 T A Curse We Cannot Lift|QID|26720|M|18.40,57.76|N|To Oliver Harris.|
 A Cry For The Moon|QID|26760|M|18.40,57.76|N|From Oliver Harris.|
-T Cry For The Moon|QID|26760|M|18.40,57.76|N|Wait until Oliver Harris and Jitters finish, then turn the quest into Oliver Harris.|
+C Cry For The Moon|QID|26760|M|18.40,57.76|N|Just sit back and watch.|NC|
+T Cry For The Moon|QID|26760|M|18.40,57.76|N|To Oliver Harris.|
 
-A The Fate of Morbent Fel|QID|26723|M|18.40,57.94|N|From Sven Yorgen.|
-C The Fate of Morbent Fel|QID|26723|M|16.97,33.36|N|Head upstairs and click on the Bloodsoaked Hat that is on the ground.|
-A The Weathered Grave|QID|26793|M|17.66,29.11|N|From "A Weathered Grave".|
-C The Jitters-Bugs|QID|26721|M|27.72,41.06|N|Kill and loot Black Widows for their Venom Sacks.|
-
+A The Jitters-Bugs|QID|26721|M|18.6,58.21|N|From Jitters.|
+C The Jitters-Bugs|QID|26721|M|27.72,41.06|N|Kill and loot Black Widows for their Venom Sacks.  They will 'disappear' on killing them, but they will return and be lootable a few seconds later.|
 T The Jitters-Bugs|QID|26721|M|18.6,58.21|N|To Jitters.|
 A Bear In Mind|QID|26787|M|18.6,58.21|N|From Jitters.|
+
+A The Fate of Morbent Fel|QID|26723|M|18.40,57.94|N|From Sven Yorgen.|
+A The Cries of the Dead|QID|26778|M|19.92,57.88|N|From Sister Eisington.|
+
+C Bear In Mind|QID|26787|N|Kill and loot Black Bears for their brains.|S|
+C The Cries of the Dead|QID|26778|N|Kill any type of Ghoul you see.|S|
+
+C The Fate of Morbent Fel|QID|26723|M|16.97,33.36|N|Head upstairs and click on the Bloodsoaked Hat that is on the ground.|NC|
+A The Weathered Grave|QID|26793|M|17.66,29.11|N|From "A Weathered Grave".|
+C Bear In Mind|QID|26787|N|Finish killing and loot Black Bears for their brains, as you head back towards Raven Hill.  Don't worry about the ghouls, you'll get more opportunity later.|US|
 
 T The Fate of Morbent Fel|QID|26723|M|18.40,57.94|N|To Sven Yorgen.|
 A The Lurking Lich|QID|26724|M|18.40,57.94|N|From Sven Yorgen.|
 
+T Bear In Mind|QID|26787|M|18.6,58.21|N|To Jitters.|
+
 T The Lurking Lich|QID|26724|M|19.92,57.88|N|Sister Eisington.|
 A Guided By the Light|QID|26725|M|19.92,57.88|N|From Sister Eisington.|
-A The Cries of the Dead|QID|26778|M|19.92,57.88|N|From Sister Eisington.|
-
-C The Cries of the Dead|QID|26778|N|Kill any type of Ghoul you see.|S|
 
 T Guided By the Light|QID|26725|M|23.44,35.54|N|To the Lightforged Rod.|
 A The Halls of the Dead|QID|26753|M|23.44,35.54|N|From the Lightforged Rod.|
 
-T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs, then turn the quest into the Lightforged Arch.|
+T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs, turn left into the first hall, then continue to the back left.  Be careful, as the Buried Dead will spawn as you run over the graves.  Head through the catacombs, and turn the quest into the Lightforged Arch.|
 A Buried Below|QID|26722|M|20.36,27.44|N|From the Lightforged Arch.|
 
-T Buried Below|QID|26722|M|18.08,25.33|N|There is an exit in the location where you got the quest, turn this into the Lightforged Crest. You may attempt the follow up if you wish. But be warned, the mobs are level 24 and it's hard to just pull them one at a time.|
-A Morbent's Bane|QID|26754|M|18.08,25.33|N|From In the tunnel.|O|
+T Buried Below|QID|26722|M|20.10,26.60;18.08,25.33|N|There is a hidden exit behind the location where you got the quest - walk through, this follow the hidden tunnel, and turn  quest into the Lightforged Crest.|
+A Morbent's Bane|QID|26754|M|18.08,25.33|N|From In the tunnel.|
 
-C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morben Fel before taking him down.|U|60212|O|
-C The Cries of the Dead|QID|26778|N|Finish killing Ghouls.|US|
-C Bear In Mind|QID|26787|N|Kill and loot Black Bears for their brains.|
+N Hunter's Pet Alert |QID|26754|N|When you reach the room with the Clattering Coldwraith, please note your pet will not follow you into the room.  You will need to dismiss your pet, enter the room fully (pick the right hand wall), then summon your pet.\n\nClick this step to continue.|C|Hunter|
+C Morbent's Bane|QID|26754|N|Continue down the tunnel until you come to this boss. Use Morbent's Bane to weaken Morben Fel before taking him down.\n\nAll the ghouls in this room that are not already attacking you will disappear on killing the Weakened Morbent Fel.|U|60212|
+C The Cries of the Dead|QID|26778|N|Leave the catacombs by following the stairs up to the top, then head back to Raven Hill, finishing off killing the Ghouls as you go.|US|M|16,48|
 
 T Morbent's Bane|QID|26754|M|18.40,57.94|N|To Sven Yorgen.|O|
-T Bear In Mind|QID|26787|M|18.6,58.21|N|To Jitters.|
 T The Cries of the Dead|QID|26778|M|19.92,57.88|N|To Sister Eisington.|
 
-A Rebels Without a Clue|QID|26838|M|19.92,57.88|N|From Sister Eisington. Will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!"|
-F Darkshire|QID|26793|M|21.03,56.63|N|Fly back to Darkshire.|
+A Rebels Without a Clue|QID|26838|M|19.92,57.88|N|If you intend on going onto Northern Stranglethorn next, then accept this quest from Sister Eisington. This quest will not show up if you have the quest "Hero's Call: Northern Stranglethorn Vale!" or done the Hero's Call quest already.|
+
+F Darkshire|QID|26793|M|21.03,56.63|N|Fly back to, or hearthstone to Darkshire.|
+
 T The Weathered Grave|QID|26793|M|72.62,47.64|N|To Sirra Von'lndi.|
 A Morgan Ladimore|QID|26794|M|72.62,47.64|N|From Sirra Von'lndi.|
 
-T Morgan Ladimore|QID|26794|M|73.72,46.89|N|To Commander Althea Ebonlocke. Skip the follow-ups if you wish. As it involves killing a level 25 elite, and flying back and forth between Raven Hill and Darkshire.|
-A Mor'Ladim|QID|26795|M|73.72,46.89|N|From Commander Althea Ebonlocke.|O|
+T Morgan Ladimore|QID|26794|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
+A Mor'Ladim|QID|26795|M|73.72,46.89|N|From Commander Althea Ebonlocke.  Please note this quest involves flying back to Raven Hill, and taking out a level 25 elite.\n\nLeft click the check box and confirm skipping the following two quests if you want to skip this quest.|RANK|2|
 F Raven Hill|QID|26795|M|77.5,44.3|N|Fly to Raven Hill.|O|
-C Mor'Ladim|QID|26795|M|17.4,29.4|T|Mor'Ladim|N|Find and kill Mor'Ladim, he wanders so use the targeting to find him easier. Don't forget to loot his skull.|O|
+C Mor'Ladim|QID|26795|M|17.4,29.4|T|Mor'Ladim|N|Find, kill and loot Mor'Ladim, he wanders so use the targeting to find him easier. Don't forget to loot his skull.|O|
 F Darkshire|QID|26795|M|21.06,56.46|N|Fly to Darkshire.|O|
 T Mor'Ladim|QID|26795|M|73.72,46.89|N|To Commander Althea Ebonlocke.|O|
-A The Daughter Who Lived|QID|26796|M|73.72,46.89|N|From Commander Althea Ebonlocke.|O|
+
+A The Daughter Who Lived|QID|26796|M|73.72,46.89|N|From Commander Althea Ebonlocke.\n\nOnly available if you completed the Mor'Ladim Group quest.|PRE|26795|
 T The Daughter Who Lived|QID|26796|M|74.95,46.88|N|To Watcher Ladimore. She wanders around a bit.|O|
-A A Daughter's Love|QID|26797|M|74.95,46.88|N|From Watcher Ladimore.|O|
+A A Daughter's Love|QID|26797|M|74.95,46.88|N|From Watcher Ladimore.\n\nOnly available if you completed the Mor'Ladim Group quest.|PRE|26796|
 F Raven Hill|QID|26797|M|77.5,44.3|N|Fly to Raven Hill.|O|
 T A Daughter's Love|QID|26797|M|17.66,29.11|N|Turn the quest into "A Weathered Grave".|O|
 
-L Level 25|QID|26686|LVL|25|N|Continue Killing until 25.|
-N Thus ends Duskwood.|N|I recommend going to Stormwind to train, visit AH, etc. Close this step when you're ready to go to Northern Stranglethorn.|
 ]]
 end)

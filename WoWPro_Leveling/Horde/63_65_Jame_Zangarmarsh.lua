@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2011-12-04 16:07
+-- Who: Crackerhead22
+-- Log: 4.3 updates
+
+-- URL: http://wow-pro.com/node/3274/revisions/24241/view
 -- Date: 2011-04-20 18:59
 -- Who: Ludovicus Maior
 
@@ -16,6 +21,7 @@ return [[
 F Swamprat Post|QID|9775|
 
 N Things to do: Zangarmarsh |QID|9775|N|Being in melee range of sporebats when they die gives you a 5 minute +30 to all stats buff. Keep your Fertile Spores and Unidentified Plant Parts, they'll be part of a hand-in.|
+N Suggestion to buy:|QID|9775|N|I would suggest buying 5 Sanguine Hibiscus from the AH if they are not too expensive, for a quest later in the guide.|
 A Report to Shadow Hunter Denjai |QID|9775|M|85.3,54.8|
 A Thick Hydra Scales |QID|9774|M|85.3,54.8|
 A News from Zangarmarsh |QID|9796|M|85.3,54.8|
@@ -30,7 +36,7 @@ C Disturbance at Umbrafen Lake |QID|9716| |N|Head west out of Cenarion Refuge to
 C No More Mushrooms! |QID|9773| |N|Head into the lake and kill the eels. The droprate is fairly low, so this may take a while.|M|74.2,60.7|
 N Get 10 Unidentified Plant Parts |QID|9802|L|24401 10|N|They should drop off most of the mobs around here.|
 
-C The Dying Balance |QID|9895| |N|Exit Umbrafen Lake on the east side and head southeast to . Boglash is a named strider that wanders around here, he's elite but should be easy to solo. He cannot be slowed or feared, but can be stunned.|M|82,74|
+C The Dying Balance |QID|9895| |N|Exit Umbrafen Lake on the east side and head southeast. Boglash is a named strider that wanders around here. He cannot be slowed or feared, but can be stunned.|M|82,74|
 
 C The Umbrafen Tribe |QID|9747| |N|Head south and clear the two Umbrafen Villages. Then head further south, Kataru is in the big building at  on the top floor.|M|85,90|
 
@@ -96,7 +102,7 @@ C Jyoba's Report |QID|9772|N|Drops off the Withered Giants.|M|81.6,35.0|
 
 C A Job Undone |QID|9899|N|Sporewing is southwest at .|M|79,46.8|
 
-C Leader of the Bloodscale |QID|9817|N|Rajis Fyashe is west at the Bloodscale Grounds, . She's elite and difficult to solo, so find a partner if you can. If not, abandon it and move on.|M|65,41|
+C Leader of the Bloodscale |QID|9817|N|Rajis Fyashe is west at the Bloodscale Grounds.|M|65,41|
 N Disable the Serpent Lake Controls |QID|9720|QO|Serpent Lake Controls Disabled: 1/1|U|24355|N|Head west to the steam pump at the shores of Serpent Lake, it's at . Use the ironvine seeds on it.|M|62,41|
 C Menacing Marshfangs |QID|9770| |N|Finish this off. They're found in the area between the naga village and Cenarion Refuge. |M|74.9,49.8|
 
@@ -116,7 +122,7 @@ N Disable the Umbrafen Lake Controls |QID|9720|QO|Umbrafen Lake Controls Disable
 K Steam Pump Overseers |QID|9731|L|24330|U|24355|N|Keep using the Ironvine Seeds to spawn the overseers and killing them until you get Drain Schematics to drop.|
 A Drain Schematics |QID|9731|U|24330|M|62.0,40.8|
 
-C Leader of the Darkcrest |QID|9730| |N|Another group quest. Like the previous one, this one is tough to solo for most classes. Abandon it if you can't find help. He's in the Darkcrest Enclave at .|M|65,69|
+C Leader of the Darkcrest |QID|9730| |N|Kill Rajah Haghazed.|M|65,69|
 
 N Disable the Lagoon Controls |QID|9720|QO|Lagoon Controls Disabled: 1/1|U|24355|N|Head west to the steam pump at . Use the Ironvine Seeds on it.|M|63,65|
 
