@@ -14,7 +14,7 @@ F Mistvale Valley|QID|949950008|M|50.16,55.13|ACH|4995;6|
 F Ruins of Aboraz|QID|949950009|M|61.11,43.54|ACH|4995;8|
 F Crystalvein Mine|QID|949950010|M|64.05,29.64|ACH|4995;2|
  
-N Congradulations on exploring Swamp of Sorrows
+N Congratulations on exploring Swamp of Sorrows
 
 ]] 
 end)

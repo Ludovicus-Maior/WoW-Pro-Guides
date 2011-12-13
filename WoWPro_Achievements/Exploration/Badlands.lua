@@ -20,7 +20,7 @@ F Dabyrie's Farmstead|QID|907610014|M|49.64,40.59|ACH|761;14|
 F Circle of East Binding|QID|907610015|M|61.62,30.33|ACH|761;15|
 F Hammerfall|QID|907610016|M|69.06,36.18|ACH|761;16|
 
-N Congradulations on exploring Badlands 
+N Congratulations on exploring Badlands 
 
 ]] 
 end)

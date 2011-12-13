@@ -17,7 +17,7 @@ F Tranquil Gardens Cemetery|QID|907780011|M|79.54,70.61|ACH|778;10|
 F The Rotting Orchard|QID|907780012|M|64.63,68.77|ACH|778;9|
 F The Yorgen Farmstead|QID|907780013|M|49.81,75.79|ACH|778;7|
 
-N Congradulations on exploring Dun Morogh 
+N Congratulations on exploring Dun Morogh 
 
 ]] 
 end)

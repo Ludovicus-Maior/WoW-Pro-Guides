@@ -15,7 +15,7 @@ F Jerod's Landing|QID|907760009|M|48.15,87.17|ACH|776;5|
 F Fargodeep Mine|QID|907760010|M|38.64,82.32|ACH|776;4|
 F Westbrook Garrison|QID|907760011|M|24.40,74.53|ACH|776;2|
 
-N Congradulations on exploring Elwynn Forest
+N Congratulations on exploring Elwynn Forest
 
 ]] 
 end)

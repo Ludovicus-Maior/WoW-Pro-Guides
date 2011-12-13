@@ -15,7 +15,7 @@ F Ironband's Excavation Site|QID|907790009|M|69.65,62.55|ACH|779;7|
 F Stonesplinter Valley|QID|907790010|M|30.96,80.28|ACH|779;10|
 F Valley of Kings|QID|907790011|M|23.49,74.97|ACH|779;11|
 
-N Congradulations on exploring Loch Modan
+N Congratulations on exploring Loch Modan
 
 ]] 
 end)

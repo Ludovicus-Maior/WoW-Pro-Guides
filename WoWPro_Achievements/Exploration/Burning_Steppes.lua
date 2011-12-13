@@ -14,7 +14,7 @@ F Altar of Storms|QID|907750008|M|10.04,29.71|ACH|775;9|
 F Blackrock Mountain|QID|907750009|M|21.22,43.38|ACH|775;10|
 F Blackrock Stronghold|QID|907750010|M|32.66,35.10|ACH|775;7|
 
-N Congradulations on exploring Burning Steppes 
+N Congratulations on exploring Burning Steppes 
 
 ]] 
 end)
