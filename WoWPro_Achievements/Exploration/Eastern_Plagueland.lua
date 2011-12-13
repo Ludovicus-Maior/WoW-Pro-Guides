@@ -27,7 +27,7 @@ F The Noxious Glade|QID|907710021|M|77.10,37.02|ACH|771;13|
 F Northdale|QID|907710022|M|65.03,25.67|ACH|771;16|
 F Zul'Mashar|QID|907710023|M|67.39,09.17|ACH|771;17|
 
-N Congradulations on exploring Eastern Plagueland
+N Congratulations on exploring Eastern Plagueland
 
 ]] 
 end)

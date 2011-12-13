@@ -16,7 +16,7 @@ F Sorrowmurk|QID|907820010|M|84.16,39.70|ACH|782;8|
 F Marshtide Watch|QID|907820011|M|69.19,37.07|ACH|782;12|
 F Bogpaddle|QID|907820012|M|71.90,15.52|ACH|782;9|
  
-N Congradulations on exploring Swamp of Sorrows
+N Congratulations on exploring Swamp of Sorrows
 
 ]] 
 end)

@@ -12,7 +12,7 @@ F The Cauldron|QID|907740006|M|52.04,50.02|ACH|774;2|
 F Dustfire Valley|QID|907740007|M|71.45,33.11|ACH|774;6|
 F Grimesilt Dig Site|QID|907740008|M|63.52,60.47|ACH|774;5|
 
-N Congradulations on exploring Searing Gorge
+N Congratulations on exploring Searing Gorge
 
 ]] 
 end)

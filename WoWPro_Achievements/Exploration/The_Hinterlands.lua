@@ -18,7 +18,7 @@ F Quel'Danil Lodge|QID|907730012|M|31.06,48.02|ACH|773;4|
 F Plaguemist Ravine|QID|907730013|M|24.50,42.82|ACH|773;2|
 F Aerie Peak|QID|907730014|M|14.55,47.84|ACH|773;1|
  
-N Congradulations on exploring The Hinterlands
+N Congratulations on exploring The Hinterlands
 
 ]] 
 end)
