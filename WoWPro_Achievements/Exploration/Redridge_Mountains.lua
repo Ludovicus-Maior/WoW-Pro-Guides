@@ -17,7 +17,7 @@ F Three Corners|QID|907800011|M|16.96,64.59|ACH|780;3|
 F Redridge Canyons|QID|907800012|M|28.61,24.38|ACH|780;5|
 F Render's Camp|QID|907800013|M|34.28,11.17|ACH|780;9|
 
-N Congradulations on exploring Redridge Mountains
+N Congratulations on exploring Redridge Mountains
 
 ]] 
 end)

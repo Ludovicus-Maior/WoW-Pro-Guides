@@ -30,7 +30,7 @@ F Southpoint Gate|QID|907720024|M|29.91,63.81|ACH|772;21|
 F Azurelode Mine|QID|907720025|M|34.24,72.60|ACH|772;1|
 F Purgation Isle|QID|907720026|M|27.02,86.94|ACH|772;16|
 
-N Congradulations on exploring Hillsbrad Foothills
+N Congratulations on exploring Hillsbrad Foothills
 
 ]] 
 end)

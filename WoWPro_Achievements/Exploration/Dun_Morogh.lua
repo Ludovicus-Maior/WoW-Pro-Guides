@@ -20,7 +20,7 @@ F Iceflow Lake|QID|906270014|M|42.95,38.47|ACH|627;15|
 F Shimmer Ridge|QID|906270015|M|48.47,39.33|ACH|627;6|
 F Gates of Ironforge|QID|906270016|M|60.35,33.43|ACH|627;16|
 
-N Congradulations on exploring Dun Morogh 
+N Congratulations on exploring Dun Morogh 
 
 ]] 
 end)

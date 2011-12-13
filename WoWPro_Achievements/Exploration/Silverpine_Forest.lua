@@ -17,9 +17,9 @@ F Forsaken Rear Guard|QID|907690011|M|44.66,21.64|ACH|769;15|
 F Valgan's Field|QID|907690012|M|52.56,26.59|ACH|769;7|
 F The Decrepit Fields|QID|907690013|M|56.88,33.53|ACH|769;2|
 F Fenris Isle|QID|907690014|M|65.76,26.21|ACH|769;6|
-F Forsaken High Command|QID|907690015|M|57.75,90.98|ACH|769;13|
+F Forsaken High Command|QID|907690015|M|57.75,11.98|ACH|769;13|
 
-N Congradulations on exploring Silverpine Forest
+N Congratulations on exploring Silverpine Forest
 
 ]] 
 end)

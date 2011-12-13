@@ -17,7 +17,7 @@ F Steeljaw's Caravan|QID|901264011|M|49 21|ACH|1264;2|
 F Amber Ledge|QID|901264012|M|49,36|ACH|1264;9|
 F Coldarra|QID|901264012|M|27,37|ACH|1264;7|
 
-N Congradulations on exploring Borean Tundra 
+N Congratulations on exploring Borean Tundra 
 
 ]] 
 end)
