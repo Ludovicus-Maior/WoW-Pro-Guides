@@ -17,7 +17,7 @@ function WoWPro.Achievements:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Achievements Module")
 	
 	-- Achievements Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat"})
+	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach"})
 	
 	-- Event Registration --
 	WoWPro.Achievements.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
