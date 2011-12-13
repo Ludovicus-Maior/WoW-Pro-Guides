@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
+-- Date: 2011-11-20 21:44
+-- Who: Ludovicus Maior
+-- Log: Rutgar Glyphshaper. not Frankal Stonebridge for QID 8314 
+
+-- URL: http://wow-pro.com/node/3270/revisions/24572/view
 -- Date: 2011-06-21 20:30
 -- Who: Crackerhead22
 
@@ -138,7 +143,7 @@ T Glyph Chasing|QID|8309|M|46.37,79.08|N|To Rutgar Glyphshaper.|
 T Brann Bronzebeard's Lost Letter|QID|8308|O|M|46.37,79.08|N|To Rutgar Glyphshaper.|
 T Breaking the Code|QID|8310|M|45.96,79.39|N|To Frankal Stonebridge.|
 
-A Unraveling the Mystery|QID|8314|M|46.37,79.08|N|To Rutgar Glyphshaper.|
+A Unraveling the Mystery|QID|8314|M|45.96,79.39|N|To Rutgar Glyphshaper.|
 
 C Wanted - Deathclasp, Terror of the Sands|QID|8283|M|49.61,82.45|N|Path is behind the camp. Watch his kickback. You might want to position him so that your back is to the wall.|
 C Noggle's Lost Satchel|QID|8282|M|49.32,81.46|N|Up the hill on the right.|

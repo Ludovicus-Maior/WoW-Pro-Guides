@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2011-12-12 20:14
+-- Who: Crackerhead22
+-- Log: Added missing notes, added a few QO steps...?
+
+-- URL: http://wow-pro.com/node/3268/revisions/24431/view
 -- Date: 2011-05-28 04:21
 -- Who: Crackerhead22
 -- Log: Added in "Warchief's Command: Blasted Lands!" and "Blasted Lands: The Other Side of the World" turn-ins. Put optional tags on the turn-ins for the breadcrumb quests.
@@ -32,12 +37,13 @@ f Dreadmaul Hold|QID|25675|M|43.69,14.26|N|At Preda.|
 
 N Draenethist Fragments|QID|25771|N|Occassionally you will obtain draenethist fragments. When you do, you can right-click them to start a repeatable quest. The first time you get one, the guide will show you what to do with it - after that you are on your own.|
 
-T Heartstrike|QID|25676|M|54.13,12.40;59.53,3.49|N|To Rofilian Dane.|
+R Nethergarde Mines|QID|25676|M|50.47,10.26|N|Run to Nethergarde Mines.|
+T Heartstrike|QID|25676|M|59.53,3.49|N|To Rofilian Dane. He is deeper in the mine, try not to fall off the tracks.|
 A It's All Mine|QID|25677|PRE|25676|M|59.53,3.49|N|From Rofilian Dane.|
 A Pick Your Fate|QID|25678|PRE|25676|M|59.53,3.49|N|From Rofilian Dane.|
-C Pick Your Fate|QID|25678|M|58.26,3.60|S|
-C It's All Mine|QID|25677|U|55238|M|58.26,3.60|N|Right-click the Ore Piles to disolve them.|
-C Pick Your Fate|QID|25678|M|58.26,3.60|US|
+C Pick Your Fate|QID|25678|M|58.26,3.60|S|N|Kill Nethergarde Miners, Engineers and Foremen.|
+C It's All Mine|QID|25677|U|55238|M|58.26,3.60|N|Right-click the Ore Piles to dissolve them.|
+C Pick Your Fate|QID|25678|M|58.26,3.60|US|N|Finish killing Nethergarde Miners, Engineers and Foremen.|
 T It's All Mine|QID|25677|M|59.53,3.61|N|To Rofilian Dane.|
 T Pick Your Fate|QID|25678|M|59.53,3.61|N|To Rofilian Dane.|
 A Into the Mountain|QID|25679|PRE|25677;25678|M|59.53,3.61|N|From Rofilian Dane.|
@@ -56,9 +62,9 @@ H Dreadmaul Hold|QID|25682|M|40.44,11.39|N|If you didn't set your hearth there, 
 T Mission Complete|QID|25682|M|40.49,11.70|N|To Okrilla.|
 A The Dreadmaul Furnace|QID|25683|PRE|25682|M|40.49,11.70|N|From Okrilla.|
 
-C Ogre Combat|QID|25675|M|44.87,39.32|S|
+C Ogre Combat|QID|25675|M|44.87,39.32|S|N|Kill Dreadmaul Maulers and Warlocks.|
 
-T The Dreadmaul Furnace|QID|25683|M|41.26,33.27;39.20,36.26|N|To Bloodmage Lynnore at the back of the furnace.|
+T The Dreadmaul Furnace|QID|25683|M|41.26,33.27;39.20,36.26|N|To Bloodmage Lynnore at the back of the furnace. To find her, take the path to the right after you enter.|
 A Attune the Bloodstone|QID|25684|PRE|25683|M|39.20,36.26|N|From Bloodmage Lynnore.|
 C Attune the Bloodstone|QID|25684|M|39.33,35.66;41.56,31.97|N|Touch the first blood stone. You'll be teleported outside - touch the Bloodstone in front of you to teleport back in.|
 T Attune the Bloodstone|QID|25684|M|39.20,36.27|N|To Bloodmage Lynnore.|
@@ -67,7 +73,7 @@ A A Bloodmage's Gotta Eat Too|QID|25690|PRE|25684|M|39.21,36.25|N|From Bloodmage
 
 C A Bloodmage's Gotta Eat Too|QID|25690|M|54.89,37.68|N|Kill boars for their meat.|S|
 C The First Step|QID|25685|M|39.33,35.65;54.89,37.68|N|Use the bloodstone to exit the cave, then head east. Kill hyenas and basilisks for their blood.|
-A One Draenei's Junk...|O|QID|25771|M|50.88,37.62|U|10593|
+A One Draenei's Junk...|O|QID|25771|M|50.88,37.62|U|10593|N|Accept the quest from the Imperfect Draenethyst Fragment.|
 T One Draenei's Junk...|O|QID|25771|M|48.72,32.00|N|To Kum'isha the Collector.|
 C A Bloodmage's Gotta Eat Too|QID|25690|M|54.89,37.68|N|Kill boars for their meat.|US|
 
@@ -77,10 +83,12 @@ A Blood Ritual|QID|25686|PRE|25685|M|39.25,36.22|N|From Bloodmage Lynnore.|
 C Blood Ritual|NC|QID|25686|M|39.20,36.28|N|Talk to the bloodmage.|
 T Blood Ritual|QID|25686|M|39.18,36.28|N|To Bloodmage Lynnore.|
 A Not Just Any Body|QID|25687|M|39.18,36.28|N|From Bloodmage Lynnore.|
-C Not Just Any Body|NC|QID|25687|M|39.99,37.16;46.94,39.50;46.70,26.97|N|Loot the body parts from the chests.|
+l Loramus' Torso|QID|25687|M|39.99,37.16|N|Pick up Loramus' Torso.|L|55836|
+l Loramus' Head|QID|25687|M|46.72,26.95|N|Pick up Loramus' Head.|L|55829|
+C Not Just Any Body|NC|QID|25687|M|46.94,39.50|N|Finally loot his legs.|
 T Not Just Any Body|QID|25687|M|41.56,31.95;39.24,36.20|N|To Bloodmage Lynnore.|
 A The Altar of Storms|QID|25688|PRE|25687|M|39.24,36.20|N|From Bloodmage Lynnore.|
-C The Altar of Storms|QID|25688|M|40.44,35.81;36.97,28.40|
+C The Altar of Storms|QID|25688|M|40.44,35.81;36.97,28.40|N|Go up to the Altar of Storms, clear it out then click on the Altar of Blood. Protect Loramus as he is resurrected.|
 T The Altar of Storms|QID|25688|M|41.51,31.97;39.31,35.78|N|To Loramus Thalipedes. Use the bloodstone.|
 A Time is Short|QID|25689|M|39.31,35.78|N|From Loramus Thalipedes.|
 
@@ -91,7 +99,9 @@ A Protecting Our Rear|QID|25694|M|54.40,50.53|N|From Warlord Dar'toon.|
 
 C The Charred Granite of the Dark Portal|NC|QID|25691|U|56024|M|58.24,46.57|S|N|Right-click the rocks to loot granite chips.|
 C The Vile Blood of Demons|QID|25692|M|51.14,46.42|S|N|Kill and loot demons.|
-C Protecting Our Rear|QID|25694|M|59.98,43.27;52.59,41.78;43.90,47.76|
+K Shahandana|QID|25694|QO|Shahandana slain: 1/1|N|Kill Shahandana.|M|59.97,43.22|
+K Gomegaz|QID|25694|QO|Gomegaz slain: 1/1|N|Kill Gomegaz.|M|52.19,42.03|
+C Protecting Our Rear|QID|25694|M|43.90,47.76|N|To round off the trio, kill Jarroc Torn-Wing now.|
 C The Charred Granite of the Dark Portal|NC|QID|25691|U|56024|M|58.24,46.57|US|N|Right-click the rocks to loot granite chips.|
 C The Vile Blood of Demons|QID|25692|M|51.14,46.42|US|N|Kill and loot demons.|
 
@@ -121,9 +131,9 @@ T Atrocities|QID|25703|M|71.00,59.89|N|To Neptool.|
 A False Idols|QID|25705|PRE|25703|M|71.00,59.89|N|From Neptool.|
 A Neptool's Revenge|QID|25706|PRE|25703|M|71.00,59.89|N|From Neptool.|
 C False Idols|QID|25705|M|60.87,64.00|S|N|Right-click the idols to destroy them.|
-C Neptool's Revenge|QID|25706|M|66.87,72.23|QO|Bloodwash Gambler slain: 4/4|N|Gamblers can be found around the Bloodwash Fighting Pits.|
-C Neptool's Revenge|QID|25706|M|60.90,74.74|QO|Bloodwash Idolater slain: 4/4|N|Idolaters can be found around the Bloodwash Shrine.|
-C Neptool's Revenge|QID|25706|M|61.34,63.49|QO|Bloodwash Zealot Slain: 8/8;Bloodwash Acolyte slain: 8/8|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|
+K Bloodwash Gamblers|QID|25706|M|66.87,72.23|QO|Bloodwash Gambler slain: 4/4|N|Gamblers can be found around the Bloodwash Fighting Pits.|
+K Bloodwash Idolaters|QID|25706|M|60.90,74.74|QO|Bloodwash Idolater slain: 4/4|N|Idolaters can be found around the Bloodwash Shrine.|
+C Neptool's Revenge|QID|25706|M|61.34,63.49|N|Zealots and Acolytes can be found in and around Bloodwash Cavern.|
 C False Idols|QID|25705|M|60.87,64.00|US|N|Right-click the idols to destroy them.|
 A The Future of the Rockpool|QID|25707|M|61.54,63.02|N|From Abandoned Bloodwash Crate. Click it and choose to help the tadpoles.|
 C The Future of the Rockpool|QID|25707|M|69.23,81.26|N|Drag the crate to the beach and swim a little ways out into the water.|
@@ -135,24 +145,31 @@ R Sunveil Excursion|RANK|2|QID|25696|M|49.83,71.46|N|Far to the south-west.|
 T The Sunveil Excursion|RANK|2|QID|25696|M|49.83,71.46|N|To Rohan Sunveil.|
 A The Demons and the Druid|RANK|2|QID|25717|PRE|25696|M|49.83,71.46|N|From Rohan Sunveil.|
 f Sunveil Excursion|RANK|2|QID|25717|M|50.91,72.91|N|At Salena.|
-C The Demons and the Druid|RANK|2|QID|25717|M|36.31,68.27|S|
+C The Demons and the Druid|RANK|2|QID|25717|M|36.31,68.27|S|N|Kill Doomguard Destroyers, Dreadlord Defiliers and Corrupted Darkwood Treants.|
 K Bog Lords|RANK|2|QID|25717|M|33.32,77.99|QO|Felspore Bog Lord slain: 3/3|N|The bog lords can be found on the south side of the forest.|
-C The Demons and the Druid|RANK|2|QID|25717|M|36.31,68.27|US|
+C The Demons and the Druid|RANK|2|QID|25717|M|36.31,68.27|US|N|Kill Doomguard Destroyers, Dreadlord Defiliers and Corrupted Darkwood Treants.|
 T The Demons and the Druid|RANK|2|QID|25717|M|49.72,71.49|N|To Rohan Sunveil.|
 A How Best to Proceed|RANK|2|QID|25718|PRE|25717|M|49.72,71.49|N|From Rohan Sunveil.|
 T How Best to Proceed|RANK|2|QID|25718|M|47.15,69.08|N|To Elijah Dawnflight.|
 A Demoniac Vessel|RANK|2|QID|25719|PRE|25718|M|47.15,69.08|N|From Elijah Dawnflight.|
-U Screecher Brain|RANK|2|QID|25719|U|57179|L|57182 2|M|37.94,58.18|N|Kill bats to get brains, then turn them into a paste. You need two.|
-U Nightstalker Legs|RANK|2|QID|25719|U|57178|L|57181 20|M|37.94,58.18|N|Kill spiders to get legs, then turn them into a powder. You need 20.|
-U Tainted Hide|RANK|2|QID|25719|U|57177|L|57180|M|37.94,58.18|N|Kill bears to get hides. You need 4. Once you have 4, use them to create the Tainted Hide Pouch.|
+
+l Nightstalker Legs|QID|25719|S|L|57178 20|M|38.33,58.23|N|Kill spiders to get legs. You need 20.|RANK|2|
+l Tainted Hides|QID|25719|S|L|57177 4|M|38.33,58.23|N|Kill bears to get hides. You need 4.|RANK|2|
+l Screecher Brains|QID|25719|L|57179 2|M|38.33,58.23|N|Kill bats to get brains. You need two.|RANK|2|
+l Nightstalker Legs|QID|25719|US|L|57178 20|M|38.33,58.23|N|Kill spiders to get legs. You need 20.|RANK|2|
+l Tainted Hides|QID|25719|US|L|57177 4|M|38.33,58.23|N|Kill bears to get hides. You need 4.|RANK|2|
+U Screecher Brain Paste|QID|25719|U|57179|L|57182 2|M|38.33,58.23|N|Turn the Screecher Brains into a paste.|RANK|2|
+U Crushed Nightstalker Legs|QID|25719|U|57178|L|57181 20|M|38.33,58.23|N|Turn the Nightstalker Legs into a powder. You need 20.|RANK|2|
+U Tainted Hide Pouch|QID|25719|U|57177|L|57180 |M|38.33,58.23|N|Combine the Tainted Hides to create the Tainted Hide Pouch.|RANK|2|
+
 U Demoniac Commixture|RANK|2|QID|25719|U|57182|L|57183|M|37.94,58.18|N|Use the paste and powder to make the mixture.|
-C Demoniac Vessel|RANK|2|QID|25719|U|57177|M|37.94,58.18|N|Use the Tainted Hide Pouch to make the final vessel.|
+C Demoniac Vessel|RANK|2|QID|25719|U|57180|M|37.94,58.18|N|Use the Tainted Hide Pouch to make the final vessel.|
 T Demoniac Vessel|RANK|2|QID|25719|M|49.81,71.45|N|To Rohan Sunveil.|
 A The Downfall of Marl Wormthorn|RANK|2|QID|25720|PRE|25719|M|49.81,71.45|N|From Rohan Sunveil.|
 C The Downfall of Marl Wormthorn|RANK|2|QID|25720|U|57185|M|34.75,67.67|N|Take out the demons around him first, use the vessel to snap him out of his trance, then defeat him.|
 T The Downfall of Marl Wormthorn|RANK|2|QID|25720|M|49.76,71.46|N|To Rohan Sunveil. Congrats on the very nice piece of gear!|
 
-H Dreadmaul Hold|QID|25682|M|40.44,11.39|N|If you didn't set your hearth there, run back.|
+H Dreadmaul Hold|QID|25675|M|40.44,11.39|N|If you didn't set your hearth there, fly back.|
 T Ogre Combat|QID|25675|M|42.72,13.90|N|To Master Aitokk.|
 
 T The Amulet of Allistarj|QID|25697|M|41.56,31.95;39.22,36.19|N|To Bloodmage Lynnore. Use the bloodstone to get in.|
@@ -166,7 +183,7 @@ C You Are Rakh'likh, Demon|QID|25701|U|56012|M|46.53,21.88;44.90,26.85|N|Speak t
 T You Are Rakh'likh, Demon|QID|25701|M|41.57,32.04;54.29,50.00|N|To Watcher Wazzik. Congrats on the excellent ring!|
 
 A Through the Dark Portal|QID|9407|M|54.42,50.56|N|From Warlord Dar'toon. Take this quest if you are ready to head to Hellfire Peninsula.|
+N That's it for the|N|Blasted Lands. If you need to, visit your trainers now, and the AH if wish. Close this step to continue.|
 
 ]]
-
 end)

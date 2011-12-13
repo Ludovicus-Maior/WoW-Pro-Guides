@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2011-12-07 18:19
+-- Who: Crackerhead22
+-- Log: 4.3 updates plus Altruis the Sufferer quest lines
+
+-- URL: http://wow-pro.com/node/3280/revisions/24340/view
 -- Date: 2011-04-29 16:44
 -- Who: Ludovicus Maior
 -- Log: Line 26 for step A has unknown tag [71.5,40.5]
@@ -12,10 +17,6 @@
 -- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("JamNag6769", "Nagrand", "Jame", "67", "69", "JamBla6970", "Horde", function()
---> Original guides written/designed by [Jame]
--->
---> Addon written by [Black Cat] 2/14/2009
---> Last modified by [Gameldar] 7/22/2010
 return [[
 
 R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .| |Z|Terokkar Forest|M|20,56|
@@ -218,11 +219,17 @@ T He Called Himself Altruis... |QID|9983| |N|Southwest.|M|27,43|
 A Survey the Land |QID|9991| |N|You have to be dismounted for this, if not dismount, abandon it and try again.|
 T Survey the Land |QID|9991| |N|The quest doesn't work if you accept while mounted, if you were, dismount, abandon it and try again.|
 A Buying Time|QID|9999|
+C Buying Time|QID|9999|M|25.52,37.54|N|Kill the Demons that are needed for this quest.|
+T Buying Time|QID|9999|M|27.35,43.06|N|To Altruis the Sufferer.|
+A The Master Planner|QID|10001|M|27.35,43.06|N|From Altruis the Sufferer.|
+C The Master Planner|QID|10001|M|23.64,34.7;17.49,50.27|N|Find, kill and loot a Mo'arg Master Planner at either of the waypoints.|
+T The Master Planner|QID|10001|M|27.33,43.07|N|To Altruis the Sufferer.|
+N Altruis offers too much|QID|9859|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion as they take you out of the zone.|
 
-C Windroc Mastery (Part 3) |QID|9856| |N|Gutripper patrols north and west of the inverted 'T' just southeast of Warmaul Hill, between  and (34,21). He's kind of tough; he moves too fast to be kited, and can't be slowed or snared. Warlocks can solo him by going to either of the Forge Camps and enslaving a Legionnaire.|M|32,29|
-C Talbuk Mastery (Part 3) |QID|9859| |N|He patrols to the east of Forge Camp: Hate and Fear, between (30,36) and (25,53). Similar to the previous quest.|M|30,36|
+C Windroc Mastery (Part 3) |QID|9856| |N|Gutripper patrols north and west of the inverted 'T' just southeast of Warmaul Hill.|M|32,29;34,21|
+C Talbuk Mastery (Part 3) |QID|9859| |N|He patrols to the east of Forge Camp: Hate and Fear. Similar to the previous quest.|M|30,36;25,53|
 
-K Mountain Gronn |QID|10252|QO|Mountain Gronn Eyeball: 1/1|N|Head to the path going up to the Warmaul Hills. The Gronn will wander up and down. It's elite, but is possible to solo.|M|30,32|
+K Mountain Gronn |QID|10252|QO|Mountain Gronn Eyeball: 1/1|N|Head to the path going up to the Warmaul Hills. The Gronn will wander up and down.|M|30,32|
 
 K Greater Windrocs |QID|10252|QO|Flawless Greater Windroc Beak: 1/1|N|Until you get the Flawless Greater Windroc Beak.| |
 
@@ -238,12 +245,12 @@ A A Head Full of Ivory |QID|9914| |N|You may be able to turn this in straight aw
 C A Head Full of Ivory |QID|9914| |N|Keep any Pairs of Ivory Tusks you find.|L|25463 3|US|
 T A Head Full of Ivory |QID|9914|M|32.0,57.0|
 
-C Clefthoof Mastery (Part 3) |QID|9851| |N|Similar to the previous two mastery quests. Banthar patrols around the north and east half of Oshu'gun, between (32,62) and (45,70).|M|32,62|
+C Clefthoof Mastery (Part 3) |QID|9851| |N|Similar to the previous two mastery quests. Banthar patrols around the north and east half of Oshu'gun.|M|32,62;45,70|
 
 C Vision of the Dead |QID|10252|QO|Aged Clefthoof Blubber: 1/1|N|This is the last opportunity to get the drop, so kill the Aged Clefthoofs for the drop.|US|
 K Murkblood Invaders |QID|9872|L|24558|N|They patrol along the road that goes past Aeris Landing. You only need to kill and loot one to get the plans.|US|
 C Gava'xi |QID|9900| |N|He walks to the top of the nearby hill.|M|42,72|
-C Matters of Security |QID|9925|N|Kill void spawn and loot crystal parts from the ground.|US|
+C Matters of Security |QID|9925|N|Kill Void Spawn.|US|
 C Stealing from Thieves |QID|9882|N|Loot crystal parts from the ground.|M|33.5,62.5|US|
 
 C Shattering the Veil |QID|9849| |N|Head to the southwestern edge of the zone; use Gordawg's Bolder on the Shattered Rumblers and kill the Minions of Gurok.| |U|24501|
@@ -269,25 +276,59 @@ T Wanted: Zorbo the Advisor |QID|9939|M|56.0,38.0|
 T Proving Your Strength |QID|10479|M|56.0,38.0|
 A Wanted: Durn the Hungerer |QID|9937|
 
-N Group |QID|9852|N|Most of the quests are group quests from here so unless your a Death Knight or are overgeared you might want help.|
-C Gurok the Usurper |QID|9853| |N|To find him, head to the Warmaul hills, then head up the slope, take the path on your right going northwest. On the plateau, enter the cave at  on the south side. Follow it up. Careful of where you face when you fight Gurok, he does a knockback, and falling off a mountain ain't fun. You'll also need 7 skulls from the ogres on your way.|M|27,23||U|24502|
+l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|S|
+C Gurok the Usurper |QID|9853| |N|To find him, head to the Warmaul hills, then head up the slope, take the path on your right going northwest. On the plateau, enter the cave at  on the south side. Follow it up. Careful of where you face when you fight Gurok, he does a knockback, and falling off a mountain ain't fun.|M|27,23||U|24502|
 C Cho'war the Pillager |QID|9946| |N|He's in the northern cave on that plateau for the previous quest.|M|27,18|
 T Cho'war the Pillager |QID|9946|M|32.5,36.0|
-C Buying Time|QID|9999|M|26,35|
-T Buying Time|QID|9999|M|27.3,43|
-A The Master Planner|QID|10001|
-C The Master Planner|QID|10001|M|23.6,34.7|
-T The Master Planner|QID|10001|M|27.3,43|
 N Loremaster|N|If you want the quest acheivement for Nagrand get the follow up and finsh the chain, then Garrosh will start a 14 quest chain that should get you Nagrand Slam.|
 
 T Gava'xi |QID|9900|M|31.0,58.0|
 T Matters of Security |QID|9925| |N|At Aeris Landing.|M|31,58|
 T Stealing from Thieves |QID|9882|M|31.5,58.0|
-C Wanted: Durn the Hungerer |QID|9937| |N|He patrols around Oshu'gun. He's very, very large. You'll probably need at least 3.|
-C The Ultimate Bloodsport |QID|9852| |N|He's on top of a hill.|M|43,65|
+C Wanted: Durn the Hungerer |QID|9937| |N|He patrols around Oshu'gun. He's very, very large.|
+C The Ultimate Bloodsport |QID|9852| |N|She's on top of a hill.|M|43,65|
 
 T Wanted: Durn the Hungerer |QID|9937|M|55.8,37.9|
 T Gurok the Usurper |QID|9853|M|62.0,24.5|
 T The Ultimate Bloodsport |QID|9852||M|71.5,40.8|
+
+N The following quests are the rest of the ones from Altruis.|
+A Patience and Understanding|QID|10004|M|27.33,43.07|N|From Altruis the Sufferer.|
+C Patience and Understanding|QID|10004|NC|M|77.23,34.70|Z|Shattrath City|N|Head to Shattrath, talk to Sal'salabim and get him low in health.|
+T Patience and Understanding|QID|10004|M|77.23,34.70|Z|Shattrath City|N|To Sal'salabim.|
+A Crackin' Some Skulls|QID|10009|M|77.23,34.70|Z|Shattrath City|N|From Sal'salabim.|
+l Raliq's Debt|QID|10009|QO|Raliq's Debt: 1/1|M|75.02,31.46|Z|Shattrath City|N|Talk to Raliq the Drunk, kill then loot him for his debt.|
+l Coosh'coosh's Debt|QID|10009|QO|Coosh'coosh's Debt: 1/1|M|80.89,91.22|Z|Zangarmarsh|N|Talk to Coosh'coosh, kill then loot him for his debt.|
+C Crackin' Some Skulls|QID|10009|M|27.13,57.87|Z|Terokkar Forest|N|Talk to Floon, kill then loot him for his debt.|
+T Crackin' Some Skulls|QID|10009|M|77.23,34.70|Z|Shattrath City|N|To Sal'salabim.|
+A It's Just That Easy?|QID|10010|M|77.23,34.70|Z|Shattrath City|N|From Sal'salabim.|
+T It's Just That Easy?|QID|10010|M|27.34,43.06|N|To Altruis the Sufferer.|
+A Forge Camp: Annihilated|QID|10011|M|27.34,43.06|N|From Altruis the Sufferer.|
+l Fel Cannon Activator|QID|10011|M|24.94,36.19|N|Kill, then loot Demos, Overseer of Hate to get the Fel Cannon Activator.|L|25770|
+C Forge Camp: Hate Destroyed|QID|10011|QO|Forge Camp: Hate Destroyed 1/1|U|25770|N|Use the Fel Cannon Activator next to the Fel Cannon: Hate.|
+l Fel Cannon Activator|QID|10011|L|25771|M|19.54,51.17|N|Kill and loot Xirkos, Overseer of Fear to get the Fel Cannon Activator.|
+C Forge Camp: Annihilated|QID|10011|U|25771|M|19.31,50.86|N|Use the Fel Cannon Activator next to the Fel Cannon: Fear.|
+T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
+
+N The rest...|N|The following quests Altruis gives (after this note), have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
+A Against the Legion|QID|10641|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against the Illidari|QID|10668|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against All Odds|QID|10669|M|27.35,43.06|N|From Altruis the Sufferer.|
+C Against All Odds|QID|10669|M|15,41|Z|Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
+l Freshly Drawn Blood|QID|10641|Z|Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
+C Against the Legion|QID|10641|M|40,20|Z|Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
+C Against the Illidari|QID|10668|M|28.2,49.8|Z|Shadowmoon Valley|N|Now all the way down to Shadowmoon. Head to the waypoint then kill Lothros.|
+T Against the Legion|QID|10641|M|27.35,43.06|N|To Altruis the Sufferer.|
+T Against the Illidari|QID|10668|M|27.35,43.06|N|To Altruis the Sufferer.|
+T Against All Odds|QID|10669|M|27.35,43.06|N|To Altruis the Sufferer.|
+
+A Illidan's Pupil|QID|10646|M|27.35,43.06|N|From Altruis the Sufferer.|
+C Illidan's Pupil|QID|10646|M|27.35,43.06|N|Talk to Altruis until you get the quest completion.|NC|
+T Illidan's Pupil|QID|10646|M|27.35,43.06|N|To Altruis the Sufferer.|
+A The Book of Fel Names|QID|10649|M|27.35,46.06|N|From Altruis the Sufferer.|
+l Book of Fel Names|QID|10649|L|30808|N|This is dropped from Blackheart the Inciter inside the Shadow Labyrinth (non-heroic or heroic) in Auchindoun.|
+T The Book of Fel Names|QID|10649|M|27.35,46.06|N|To Altruis the Sufferer.|
+N The next quest|N|he gives takes you back to Shadowmoon, so it is up to you if you want to do it.
+
 ]]
 end)

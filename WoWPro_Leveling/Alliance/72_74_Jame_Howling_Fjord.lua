@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2011-12-10 15:57
+-- Who: Crackerhead22
+-- Log: 4.3 update
+
+-- URL: http://wow-pro.com/node/3287/revisions/24260/view
 -- Date: 2011-04-24 00:35
 -- Who: Crackerhead22
 -- Log: Fixed line-! Line 285 for step T has unknown tag [Zeh'gehn.]: [T A Carver and a Croaker |QID|11476|M|35.6,80.6|Zeh'gehn.|]
@@ -86,11 +91,9 @@ A Locating the Mechanism |QID|11426|M|60.1,62.4|N|From Guard Captain Zorek.|
 T Guided by Honor |QID|11289|M|59.8,62.4|N|To Lord Irulon Trueblade.|
 C A The Echo of Ymiron |QID|11343|U|33637|N|Use the Incense Burner inside this house and two Vrykuls will show up to have a conversation. Wait for the quest complete message, then cancel the buff. |M|60.15,50.84|
 C Locating the Mechanism |QID|11426|N|Kill a Dragonflayer Harpooner and loot the Harpoon Control Mechanism. |M|60.73,50.90|
-T Fresh Legs |QID|11251|N|To Defender Mordun. Go north along the water, then turn left.|M|59.6,48.9|
+; The quest 'Fresh Legs' has 'legs' lower-cased so it will not auto-accept, as it is optional.
+T Fresh legs |QID|11251|N|To Defender Mordun. This quest is optional as Defender Mordun is inside Utgarde Keep now.|M|57.28,46.75|
 
-A Into Utgarde! |QID|11252|N|From Defender Mordun.|
-A Disarmament |QID|13205|N|From Defender Mordun.|
-N Instance: Utgarde Keep |QID|11252|N|You now have both quests for Utgarde Keep, should you choose to do the instance while you're in Howling Fjord. If you choose not to, feel free to abandon the two dungeon quests, they can be picked up any time if you change your mind.|
 T A The Echo of Ymiron |QID|11343|M|59.8,61.5|N|To Thoralius the Wise.|
 A Anguish of Nifflevar |QID|11344|M|59.8,61.5|N|From Thoralius the Wise.|
 T Locating the Mechanism |QID|11426|M|60.1,62.4|N|To Guard Captain Zorek.|
@@ -296,7 +299,7 @@ T Meet Number Two |QID|11480|M|35.4,79.4|N|To Annie Bonn.|
 
 A The Jig is Up |QID|11471|N|From Annie Bonn.|
 C Swabbin' Soap |QID|11469|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31.33,78.68|
-C The Jig is Up |QID|11471|N|You may need a group for this quest. Beat "Mad" Jonah Sterling down to ~30%, then kill the pet he summons, Hozzer, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.60,78.18|
+C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.60,78.18|
 C The Frozen Heart of Isuldof |QID|11512|N|Loot The Frozen Heart of Isuldof from the ground here. |M|32.33,78.67|
 T The Jig is Up |QID|11471|N|To Annie Bonn.|
 C The Ancient Armor of the Kvaldir |QID|11567|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|
@@ -369,7 +372,7 @@ T Spirits of the Ice |QID|11313|M|61.5,22.8|N|To Lurielle.|
 A The Fallen Sisters |QID|11314|M|61.5,22.8|N|From Lurielle.|
 A Wild Vines |QID|11315|M|61.5,22.8|N|From Lurielle.|
 C The Book of Runes |QID|11346|U|33778|N|Kill Iron Rune Stonecallers and Binders until you get Book of Runes Chapters 1, 2, and 3. Use one of them to combine them into the Book of Runes. |M|66.86,24.45|
-C March of the Giants |QID|11355|U|33806|N|You may need a group for this quest. Find Runed Stone Giants in the area here and kill them, then use your Runeseeking Pick on their remains. |M|71.59,19.74|
+C March of the Giants |QID|11355|U|33806|N|Find Runed Stone Giants in the area here and kill them, then use your Runeseeking Pick on their remains. |M|71.59,19.74|
 l Tough Ram Meat |QID|11284|L|33352 4|N|Loot 4 Tough Ram Meat from Frosthorn Rams in the area. |M|71.57,13.76|
 U Tough Ram Meat |QID|11284|U|33352|L|33477|N|Combine the 4 Tough Ram Meat to get a Giant Yeti Meal.|M|71.57,13.76|
 T The Book of Runes |QID|11346|M|62.3,17.2|N|To Prospector Belvar.|
@@ -410,7 +413,7 @@ C Down to the Wire |QID|11269|N|Finish collecting Spotted Hippogryph Downs and T
 C Preying Upon the Weak |QID|11292|N|Finish collecting Trapped Animals. |M|51.96,20.11|US|
 K Binder Murdis |QID|11348|QO|Binder Murdis slain: 1/1|N|Kill Binder Murdis here. |M|71.85,24.56|
 C The Rune of Command |QID|11348|U|33796|N|Use the Rune of Command on a Stone Giant nearby. |M|71.96,23.16|
-C Demolishing Megalith |QID|11359|N|Mount up and find Megalith up here. Let Megalith hit you once, then sit back and let your Stone Giant get some threat. Help your pet kill Megalith in order to solo him. If you fail, try again in 5 minutes. |M|67.94,10.64|
+C Demolishing Megalith |QID|11359|N|Mount up and find Megalith up here. Kill Megalith. |M|67.94,10.64|
 T Demolishing Megalith |QID|11359|N|To Researcher Aderan.|
 T The Rune of Command |QID|11348|M|62.3,17.2|N|To Prospector Belvar.|
 T Preying Upon the Weak |QID|11292|M|62.6,16.8|N|To Trapper Jethan.|
@@ -514,7 +517,7 @@ l Awakening Rods|QID|11432|L|34083 5|S|N|Kill Necrolords until you have 5 Awaken
 l Mezhen's Writings |QID|11452|L|34090|N|Kill Necro Overlord Mezhen here and loot Mezhen's Writings.|M|38.80,13.09|
 A The Slumbering King |QID|11452|U|34090|M|38.8,13.0|N|From Mezhen's Writings.|
 C The Slumbering King |QID|11452|N|Kill Queen Angerboda here. |M|40.89,6.47|
-C The Frost Wyrm and its Master |QID|11238|U|33282|N|You may need a group for this quest. Kill Wyrmcaller Vile here last and loot the Wyrmcaller's Horn. Use it and kill Glacion when he arrives. |M|36.43,7.33|
+C The Frost Wyrm and its Master |QID|11238|U|33282|N|Kill Wyrmcaller Vile here last and loot the Wyrmcaller's Horn. Use it and kill Glacion when he arrives. |M|36.43,7.33|
 
 K Deathless Watchers|US|QID|11239|QO|Deathless Watcher slain: 10/10|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
 K Putrid Wights|US|QID|11239|QO|Putrid Wight slain: 2/2|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|

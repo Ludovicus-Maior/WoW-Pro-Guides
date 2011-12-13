@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2011-12-12 04:38
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3369/revisions/24491/view
 -- Date: 2011-06-02 05:17
 -- Who: Crackerhead22
 -- Log: Added notes, fixed a couple of cords, added in the turn-ins for the quests "Where Kings Walk" and "Warchief's Blessing." Changed Map ID to "ScarletEnclave (Death Knight)" as "ScarletEnclave - Death Knight" was giving me a map can not be found error. Added a few steps to get Death Knights to Blasted Lands.
@@ -65,7 +69,7 @@ T The Might Of The Scourge |QID|12657|N|To Highlord Darion Mograine in the Hall 
 
 A Report To Scourge Commander Thalanor |QID|12850|M|48.9,29.7|N|From Highlord Darion Mograine.|
 
-T The Power Of Blood, Frost And Unholy |QID|12849|N|From Lord Thorval in the Hall of Command directly behind Mograine.|M|47.5,26.68|
+A The Power Of Blood, Frost And Unholy |QID|12849|N|From Lord Thorval in the Hall of Command directly behind Mograine.|M|47.5,26.68|
 
 T Report To Scourge Commander Thalanor |QID|12850|N|To Scourge Commander Thalanor, who is on the balcony opposite Lord Thorval. He is on an Undead Chicken.|M|51.6,34.5|
 A The Scarlet Harvest |QID|12670|M|51.6,34.5|N|From Scourge Commander Thalanor.|
@@ -81,8 +85,9 @@ C Death's Challenge |QID|12733|N|Find Death Knight Initiates and challenge them 
 T Death's Challenge |QID|12733|M|54.6,34.2|N|To Olrun the Battlecaller.|
 
 C Tonight We Dine In Havenshire |QID|12679|N|Pick the glowing arrows.|M|56.2,49.4|S|
-C If Chaos Drives, Let Suffering Hold The Reins |QID|12678|N|Kill Scarlet Crusaders and Citizens of Havenshire.|
-T Abandoned Mail |QID|12711|N|From the Abandoned Mail.|M|55,46|
+C If Chaos Drives, Let Suffering Hold The Reins |QID|12678|N|Kill Scarlet Crusaders and Citizens of Havenshire.|S|
+A Abandoned Mail |QID|12711|N|From the Abandoned Mail.|M|55,46|
+C If Chaos Drives, Let Suffering Hold The Reins |QID|12678|N|Kill Scarlet Crusaders and Citizens of Havenshire.|US|
 C Tonight We Dine In Havenshire |QID|12679|N|Pick the glowing arrows.|M|56.2,49.4|US|
 C Grand Theft Palomino |QID|12680|N|Get a horse and ride back to town (Make sure to grab one that is not near Stable Master Kitrik.). Go to Salanar the Horseman and press 1.|M|51.70,35.82|
 
