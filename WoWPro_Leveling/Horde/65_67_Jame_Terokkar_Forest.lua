@@ -16,15 +16,8 @@
 -- Date: 2010-12-03 21:30
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamTerA6567", "Terokkar Forest - Aldor", "Jame", "65", "67", "JamNag6769", "Horde", function()
-
-
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 7/12/2009
+WoWPro.Leveling:RegisterGuide("JamTer6567", "Terokkar Forest", "Jame", "65", "67", "JamNag6769", "Horde", function()
 return [[
-
-N READ THIS!|QID|10554|N|This guide is for people who will choose Aldor as a faction in Shattrath. Aldor gives slightly better XP, so if you don't care then stay with this one. If you plan to choose Scryer, right-click this window and choose "Guides", then scroll down and find the Terokkar Scryer guide.|
 
 R Cenarion Thicket |QID|9968|N|Follow the road east out of Shattrath to .|M|44,26|
 
@@ -68,13 +61,18 @@ A A'dal |QID|10210| |N|Look for the exclamation mark on your minimap, the NPC wh
 T A'dal |QID|10210| |N|In the centre of the city.|M|54.0,44.8|
 A City of Light |QID|10211| |N|From Khadgar.|M|54.8,44.3|
 T City of Light |QID|10211| |N|Follow the spirit around. It's a long, boring walk, but you need to do it to access the banks. There are also some follow up quests.|M|54.8,44.3|
-N Pick a side |QID|10554|N|You can now pick Aldor or Scryer faction. Given Wrath of the Lich King has made the rewards obsolete, it doesn't really matter which. If you want them for another tabard/exalted reputation, remember that Blood Elves are advantaged with Scryer and disadvantaged with Aldor, and the reverse holds true. Regardless of which you pick, there will be a follow-up that takes you to the faction leader. Accept that and turn it in. This guide is for Aldor, if you choose Scryer right-click this window and choose "Guides", then scroll down and find the Terokkar Scryer guide.|
-A Ishanah |QID|10554|
-T Ishanah |QID|10554| |N|In the large building straight ahead as you take the elevator up to the Aldor rise.|
-A Restoring the Light |QID|10021|
-h Shattrath City|QID|10037|N||Z|Shattrath City|M|28.2,49.2|
+N Allegiance to the ...|QID|10553;10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
+A Ishanah |QID|10554|REP|Aldor;932|
+T Ishanah |QID|10554| |N|In the large building straight ahead as you take the elevator up to the Aldor rise.|REP|Aldor;932|
+A Restoring the Light |QID|10021|REP|Aldor;932|
+h Shattrath City|QID|10037|N|Aldor Rise|Z|Shattrath City|M|28.2,49.2|REP|Aldor;932|
+
+A Voren'thal the Seer |QID|10553|M|54.8,44.3|REP|Scryers;934|
+T Voren'thal the Seer |QID|10553| |N|In the large building straight ahead as you take the elevator up to the Scryer rise.|M|42.8,91.7|REP|Scryers;934|
+h Shattrath City|QID|10037|N|Scryer's Tier|Z|Shattrath City|M|56.2,81.6|REP|Scryers;934|
+
 A Rather Be Fishin' |QID|10037| |N|He's in the inn in the lower city, .| |Z|Shattrath City|M|64,16|
-A A Cure for Zahlia |QID|10020|
+A A Cure for Zahlia |QID|10020|REP|Aldor;932|
 A The Outcast's Plight |QID|10917| |N|It's in the northwestern part of the Lower City, which is green on the map. Vekax, the quest NPC, wanders around the northernmost treehouse.|
 T Surrender to the Horde |QID|10862| |N|Just to the south off Rilak the Redeemed.|
 A The Eyes of Skettis |QID|10847|M|52.6,21.0|
@@ -89,14 +87,14 @@ K Ayit |QID|9987|QO|Ayit slain: 1/1|N|He's down in a small hut between two trees
 
 R Veil Reskk|QID|9987|N|Head northeast to Veil Reskk at |M|49.3,20.2|
 
-N Eastern Altar|QID|10021|QO|Eastern Altar: 1/1|N|Right click the altar at |M|49.3,20.2|
+N Eastern Altar|QID|10021|QO|Eastern Altar: 1/1|N|Right click the altar at |M|49.3,20.2|REP|Aldor;932|
 K Ashkaz |QID|9987|QO|Ashkaz slain: 1/1|N|He's on the tree house that can be accessed by a wooden bridge from the ground. Careful, he can knock you off the platform. (49.1,16.9)|M|49.9,16.5|
 C The Eyes of Skettis |QID|10847| |N|Cross the bridge to the next house, the Eye is there. |M|50.1,19.4|
-N Northern Altar |QID|10021|QO|Northern Altar: 1/1|N|Right click the altar at .|M|50.7,16.6|
-N Western Altar |QID|10021|QO|Western Altar: 1/1|N|Right click the altar at .|M|48.1,14.5|
+N Northern Altar |QID|10021|QO|Northern Altar: 1/1|N|Right click the altar at .|M|50.7,16.6|REP|Aldor;932|
+N Western Altar |QID|10021|QO|Western Altar: 1/1|N|Right click the altar at .|M|48.1,14.5|REP|Aldor;932|
 C Arakkoa War Path |QID|10868|N|Kill Arakkoa until you complete the quest.|
 
-T Restoring the Light |QID|10021| |N|Back in Shattrath, on the Aldor Rise.|
+T Restoring the Light |QID|10021| |N|Back in Shattrath, on the Aldor Rise.|REP|Aldor;932|
 T The Eyes of Skettis |QID|10847| |N|Northwestern Lower City.|M|52.6,21.0|
 A Seek Out Kirrik |QID|10849|M|52.6,21.0|
 T Rather Be Fishin' |QID|10037|M|64.0,15.5|
@@ -135,8 +133,10 @@ A The Tomb of Lights |QID|10840|M|37.5,50.8|
 A Vengeful Souls |QID|10842|M|37.5,50.8|
 
 C Before Darkness Falls |QID|10878| |N|Kill fel orcs to the southeast at the Shadow Stair, .|M|40,56|
+l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|S|
 K Fel Orcs|QID|10880|L|31707|N|Until you find the Cabal Orders.| |
 A Cabal Orders |QID|10880|U|31707|M|32.2,52.8|
+l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|US|
 
 C Vengeful Souls |QID|10842|U|30527|M|47,55|N|Head east to the Tomb of Lights, kill Bonelashers on the way.
 T Vengeful Souls |QID|10842|M|37.5,50.8|
@@ -156,6 +156,8 @@ F Shattrath City |QID|9990|N|Head to Stonebreaker just to the northeast. |M|49.2
 T The Outcast's Plight |QID|10917| |N|He's up in the trees in the Lower City.| |Z|Shattrath City|
 T A Personal Favor |QID|10112| |N|He's on the east side of the Lower City at .| |Z|Shattrath City|M|72,31|
 A Investigate Tuurem |QID|9990|M|72.2,30.7|
+A Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|From Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor;932|
+T Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|To Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor;932|
 F Stonebreaker Hold|QID|10036|N||Z|Shattrath City|M|64.1,41.1|
 
 T Kill the Shadow Council! |QID|10043|M|49.0,44.6|
@@ -201,11 +203,11 @@ A Report to Stonebreaker Camp |QID|10448|M|50.0,45.9|
 
 T Report to Stonebreaker Camp |QID|10448| |N|East at .|M|63,43|
 A Attack on Firewing Point |QID|9997|M|63.3,42.4|
-
+l Firewing Signets|QID|10412|M|70.00,39.00|N|Kill the mobs until you get 10 Firewing Signets.|L|29426 10|REP|Scryers;934|S|
 C Attack on Firewing Point |QID|9997| |N|Head northeast to Firewing Point, it's around . Kill the Blood Elves.|M|70,39|
 
 C Patriarch Ironjaw |QID|10023| |N|Head to , Ironjaw roams east and west of here.|M|69,32|
-C A Cure for Zahlia |QID|10020| |N|Stonegazer patrols along the edge of Terokkar just north of you. You may or may not be able to solo him, he can't be snared, rooted, feared or blinded, but can be stunned or hibernated.|
+C A Cure for Zahlia |QID|10020| |N|Stonegazer patrols along the edge of Terokkar just north of you.|REP|Aldor;932|
 T Attack on Firewing Point |QID|9997| |N|Back at .|M|63,43|
 A The Final Code |QID|10447|M|63.3,42.4|
 
@@ -215,6 +217,7 @@ A Escape from Firewing Point! |QID|10052|N||M|73.9,35.2|
 C Escape from Firewing Point! |QID|10052|
 
 C The Final Code |QID|10447| |N|Clear to the mana bomb in the centre, and right click to set it off. You get about 10 seconds to get clear, the only thing that happens if you don't is you get knocked down. |M|71.3,37.3|
+l Firewing Signets|QID|10412|M|70.00,39.00|N|Kill the mobs until you get 10 Firewing Signets.|L|29426 10|REP|Scryers;934|US|
 
 T Escape from Firewing Point! |QID|10052| |N|Back at Stonebreaker Hold.|
 T The Final Code |QID|10447|M|50.0,45.9|
@@ -231,12 +234,12 @@ K Trachela |QID|10036|L|30618|N|She's west on top of a large pile with vultures 
 T The Infested Protectors |QID|10896| |N|West at the refugee caravan.|M|37.9,51.7|
 
 C Veil Rhaze: Unliving Evil |QID|10848| |N|Southwest at around .|M|28,56|
-C Torgos! |QID|10036| |N|This one's fairly tough, Torgos is immune to movement impairing effects and hits for ~800 on cloth. To kill Torgos, head to the scarecrow called Torgos' Bane at  and use Trachela's Carcass.| |U|30618|M|27,56|
+C Torgos! |QID|10036| |N|To kill Torgos, head to the scarecrow called Torgos' Bane, and use Trachela's Carcass.| |U|30618|M|27,56|
 R Shadow Tomb |QID|10887|N|Head northeast to the Shadow Tomb. |M|31.2,52.7|
 N Gavel of K'alen|QID|10881|QO|Gavel of K'alen: 1/1|N|Clear the western room and get the Gavel from the chest. |M|29.7,51.7|
 N Drape of Arunen|QID|10881|QO|Drape of Arunen: 1/1|N|Repeat for the eastern room to get the Drape. |M|32.1,51.2|
 N Scroll of Atalor|QID|10881|QO|Scroll of Atalor: 1/1|N|Again northern rooms for the Scorll. |M|31.2,46.7|
-A Escaping the Tomb |QID|10887|N|(30.6,49.0)
+A Escaping the Tomb |QID|10887|N||M|30.6,49.0|
 C Escaping the Tomb |QID|10887| |N|Escort quest. Make sure Akuno takes the first hit so he engages, but try not to let him tank more than one. There are 2 ambushes, and he starts running after the second.|
 
 T Veil Rhaze: Unliving Evil |QID|10848|M|37.4,51.5|
@@ -268,11 +271,11 @@ H Shattrath City|QID|10231|U|6948|
 
 T Ezekiel |QID|10228| |N|He walks around the terrace around the Terrace of Light, go anti-clockwise (he moves clockwise).|
 A What Book? I Don't See Any Book. |QID|10231|
-C What Book? I Don't See Any Book. |QID|10231| |N|Now Shattrath is deserted, this quest'll be harder to find help for. Dirty Larry is in the western Lower City at  with two adds. Talk to him to engage, you get 10 seconds to back up. You have to bring Larry down to 1% to stop them, and then you can turn it in.| |Z|Shattrath City|M|43,29|
+C What Book? I Don't See Any Book. |QID|10231| |N|Dirty Larry is in the western Lower City at  with two adds. Talk to him to engage, you get 10 seconds to back up. You have to bring Larry down to 1% to stop them, and then you can turn it in.| |Z|Shattrath City|M|43,29|
 T What Book? I Don't See Any Book. |QID|10231|
 A The Master's Grand Design? |QID|10251|
 A Can't Stay Away |QID|10180|
-T A Cure for Zahlia |QID|10020| |N|Lower City at .| |Z|Shattrath City|M|64,15|
+T A Cure for Zahlia |QID|10020| |N|Lower City at .| |Z|Shattrath City|M|64,15|REP|Aldor;932|
 
 T Letting Earthbinder Tavgren Know |QID|10006| |N|Head out the eastern gate and follow the road to .|M|44,26|
 
@@ -292,7 +295,7 @@ A A Hero Is Needed |QID|10914|M|31.0,76.1|
 T The Dread Relic |QID|10877|
 A Evil Draws Near |QID|10923|
 
-C The Big Bone Worm |QID|10930| |N|Head to Auchindon's east tunnel at . Kill a Decrepit Clefthoof near the tunnel. Use the Fumper on it's corpse, run if you get Bone Worms, kill Gnomes. Eventually, you'll get Hai'shulud. When this happens, run to the tunnel and get around the corner so you're out of LoS. What you do now is just pop back in and out, trying to do as much damage as you can from range. The worm dies automatically after about 2 minutes. You really don't need to do much damage.| |U|31825|M|44,73|
+C The Big Bone Worm |QID|10930| |N|Kill a Decrepit Clefthoofs. Use the Fumper on it's corpse, run if you get Bone Worms, kill Gnomes. Eventually, you'll get Hai'shulud, kill it.| |U|31825|M|44,73|
 
 A For the Fallen |QID|10920| |N|He's southeast at .|M|50,76|
 
@@ -302,7 +305,7 @@ C For the Fallen |QID|10920|
 T For the Fallen |QID|10920|
 A Terokkarantula |QID|10921|
 
-C Terokkarantula |QID|10921| |N|A tough elite, but possible to solo. Immune to movement impairs, but is stunnable. She's at the southeastern point of the forest at . Oh, one more thing? If you're really arachnophobic, brace yourself...|M|54.3,81.8|
+C Terokkarantula |QID|10921| |N|Immune to movement impairs, but is stunnable. She's at the southeastern point of the forest at . Oh, one more thing? If you're really arachnophobic, brace yourself...|M|54.3,81.8|
 
 T Terokkarantula |QID|10921|
 A Return to Sha'tari Base Camp |QID|10926|
@@ -327,6 +330,10 @@ T A Big Bone Worm |QID|10930|
 T Evil Draws Near |QID|10923|
 
 C The Fallen Exarch |QID|10915| |N|Head north into Auchindon via the west gate at . Go up the stairs and kill the Death-Speakers around the Auchenai Coffin. Right click the coffin and kill the Exarch that spawns.|M|35.92,65.51|
+A Evil Draws Near|QID|10923|M|31.1,76.5|N|From Oakun. This quest is optional, do it if you wish, or skip if you don't.|
+l Evil Draws Near|QID|10923|M|48.9,66.47|N|Kill Auchenai Death-Speakers and Auchenai Doomsayers to collect 20 Doom Skulls.|L|31812 20|O|
+C Evil Draws Near|QID|10923|M|48.65,67.16|N|Use the Dread Relic and the glowing purple spot and kill Teribus. He flies down from the west.|U|31811|O|
+T Evil Draws Near|QID|10923|M|31.1,76.5|N|To Oakun.|O|
 
 T The Fallen Exarch |QID|10915| |N|Back at .|M|31,76|
 
