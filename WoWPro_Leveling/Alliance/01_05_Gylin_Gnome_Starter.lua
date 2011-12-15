@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-12-14 21:36
+-- Who: Fluclo
+-- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
+
+-- URL: http://wow-pro.com/node/3200/revisions/24742/view
 -- Date: 2011-08-24 00:49
 -- Who: Jiyambi
 -- Log: Took out two location based completion steps that weren't auto-completing, rolled them into other steps.

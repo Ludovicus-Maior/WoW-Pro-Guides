@@ -1,4 +1,18 @@
--- URL: http://wow-pro.com/wiki/source_code_zul039drak_alliance
+-- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2011-12-10 03:50
+-- Who: Crackerhead22
+-- Log: Minor tweaking, plus 4.3 updates.
+
+-- URL: http://wow-pro.com/node/3295/revisions/24758/view
+-- Date: 2011-10-10 23:49
+-- Who: Gethe
+
+-- URL: http://wow-pro.com/node/3295/revisions/24757/view
+-- Date: 2011-10-10 17:34
+-- Who: Crackerhead22
+-- Log: Created neutral guide, credit to Gethe. 
+
+-- URL: http://wow-pro.com/node/3295/revisions/24750/view
 -- Date: 2011-09-21 08:37
 -- Who: Crackerhead22
 -- Log: Added sticky steps, added missing notes, added missing cords, changed a couple of notes.
@@ -419,7 +433,6 @@ C Convocation at Zol'Heb |QID|12730|N|Use the item in the circle to summon the P
 T Convocation at Zol'Heb |QID|12730|N|Back to Har'koa.|M|60.13,57.72|
 ; The quest "Unfinished business" on the following line has wrong caps on 'Business' so it does not auto-accept since it is optional.|
 A Unfinished business |QID|29833|N|From Har'koa.|
-
 
 N Amphitheater of Anguish |QID|12948|N|If you haven't gotten the achievement yet (and you know you want it), get a group up for the Amphitheater of Anguish. |
 

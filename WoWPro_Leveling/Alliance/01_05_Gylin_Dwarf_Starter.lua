@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2011-12-14 21:36
+-- Who: Fluclo
+-- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
+
+-- URL: http://wow-pro.com/node/3200/revisions/24742/view
 -- Date: 2011-08-24 00:49
 -- Who: Jiyambi
 -- Log: Took out two location based completion steps that weren't auto-completing, rolled them into other steps.
@@ -204,14 +209,17 @@ WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh (Dwarf)", "Gylin - Dwarf
 return
 [[
 
+R Coldridge Valley |QID|24469|M|36.90,70.11|R|Gnome,Draenei,Night Elf,Human,Worgen|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+
 A Hold the Line! |QID|24469|M|36.90,70.11|N|From Joren Ironstock.|
 C Hold the Line! |QID|24469|M|36.54,71.73|N|Slay 6 Rockjaw Invaders.|
 T Hold the Line! |QID|24469|M|36.84,70.14|N|To Joren Ironstock.|
+
 A Give 'em What-For |PRE|24469|QID|24470|M|36.84,70.14|N|From Joren Ironstock.|
 A Aid for the Wounded |PRE|24469|QID|24471|M|36.57,70.30|N|From Sten Stoutarm.|
-C Aid for the Wounded |S|QID|24471|M|38.43,72.37|N|Use Sten's First Aid Kit to heal the wounded mountaineers.|U|49743|
-C Give 'em What-For |QID|24470|M|37.33,73.84|N|Kill 3 Rockjaw Goons.|
-C Aid for the Wounded |US|QID|24471|M|38.43,72.37|N|Use Sten's First Aid Kit to heal the wounded mountaineers.|U|49743|
+C Give 'em What-For |QID|24470|M|37.33,73.84|N|Kill 3 Rockjaw Goons.|S|
+C Aid for the Wounded |QID|24471|M|38.43,72.37|N|Use Sten's First Aid Kit to heal the Wounded Coldridge Mountaineers.|U|49743|NC|
+C Give 'em What-For |QID|24470|M|37.33,73.84|N|Kill 3 Rockjaw Goons.|US|
 
 L Level 2 |LVL|2|QID|24471|N|You should be around level 2 by this point.|
 
@@ -219,17 +227,21 @@ T Aid for the Wounded |QID|24471|M|36.59,70.22|N|To Sten Stoutarm.|
 T Give 'em What-For |QID|24470|M|36.89,70.12|N|To Joren Ironstock.|
 A Lockdown in Anvilmar |PRE|24471|QID|24473|M|36.84,70.14|N|From Joren Ironstock.|
 T Lockdown in Anvilmar |QID|24473|M|35.67,65.82|N|To Jona Ironstock, walking around the room.|
+
 A First Things First: We're Gonna Need Some Beer|PRE|24473|QID|24474|N|From Jona Ironstock.|M|35.67,65.82|
 A Dwarven Artifacts |PRE|24473|QID|24477|M|35.70,66.27|N|From Grundel Harkin.|
-C Dwarven Artifacts |S|QID|24477|N|Scattered on the ground, they look like little piles of snow.|
+C Dwarven Artifacts |S|QID|24477|N|Scattered on the ground, they look like little piles of snow.|NC|
 l Cask of Gnomenbrau|QID|24474|L|49746|M|37.05,67.51|N|Pick up the Cask of Gnomenbrau.|
 l Cask of Stormhammer Stout|QID|24474|L|49744|M|34.85,67.45|N|Pick up the Cask of Stormhammer Stout.|
-C First Things First: We're Gonna Need Some Beer|QID|24474|M|31.50,67.69|N|Finally get the Cask of Theramore Pale Ale.|
-C Dwarven Artifacts |US|QID|24477|M|33.13,68.08|N|Scattered on the ground, they look like little piles of snow.|
+l Cask of Theramore Pale Ale|QID|24474|L|49745|M|31.50,67.69|N|Pick up the Cask of Theramore Pale Ale.|
+C First Things First: We're Gonna Need Some Beer|QID|24474|M|37.05,67.51;34.85,67.45;31.50,67.69|N|Finally get the Cask of Gnomenbrau, the Cask of Stormhammer Stout and the Cask of Theramore Pale Ale.|NC|
+C Dwarven Artifacts |US|QID|24477|M|33.13,68.08|N|Scattered on the ground, they look like little piles of snow.|NC|
+
 T Dwarven Artifacts |QID|24477|M|35.70,66.27|N|To Grundel Harkin.|
 A Make Hay While the Sun Shines |PRE|24477|QID|24486|N|From Grundel Harkin.|M|35.70,66.27|
 T First Things First: We're Gonna Need Some Beer |QID|24474|M|35.74,66.31|N|To Jona Ironstock.|
 A All the Other Stuff |PRE|24474|QID|24475|N|From Jona Ironstock.|M|35.74,66.31|
+
 C All the Other Stuff |S|QID|24475|N|Kill any Boars or Wolves you see and loot them for Boar Haunches and Ragged Wolf Hides.|
 C Make Hay While the Sun Shines |QID|24486|M|34.13,71.75|N|Attack the Rockjaws, and they will throw the artifacts at you, or kill them and loot the artifacts.|
 C All the Other Stuff |US|QID|24475|N|Kill any Boars or Wolves you still need haunches or hides from.|M|33.79,74.94|
@@ -293,12 +305,13 @@ A The Troll Menace |PRE|24487|QID|182|N|From Grelin Whitebeard.|M|32.01,74.22|
 A A Refugee's Quandary |PRE|24487|QID|3361|M|31.92,74.33|N|From Felix Whindlebolt.|
 A Trolling for Information |PRE|24487|QID|24489|M|32.12,74.34|N|From Apprentice Soren.|
 C The Troll Menace |S|QID|182|N|Kill Trolls as you go around the camps.|
-l Felix's Box|QID|3361|M|27.90,74.53|L|10438|N|Pick up Felix's Box here.|
-C Trolling for Information |QID|24489|M|27.80,75.06|N|Stand near the Soothsayer and wait for them to speak.|QO|Soothsayer Mirim'koa Scouted: 1/1|
-l Felix's Chest|QID|3361|M|29.77,78.46|L|16313|N|Loot Felix's Chest.|
-C Trolling for Information |QID|24489|M|29.66,78.63|N|Stand near the Soothsayer and wait for them to speak.|QO|Soothsayer Rikkari Scouted: 1/1|
-C A Refugee's Quandary |QID|3361|M|33.31,77.83|N|Finally grab Felix's Bucket of Bolts.|
-C Trolling for Information |QID|24489|M|33.35,77.75|N|Stand near the Soothsayer and wait for them to speak.|QO|Soothsayer Shi'kala Scouted: 1/1|
+l Felix's Box|QID|3361|M|27.90,74.53|L|10438|N|Pick up Felix's Box.|
+C Trolling for Information - Mirim'koa|QID|24489|M|27.80,75.06|N|Head into the tent, stand next to the Soothsayer, then listen to the dialogue.|QO|Soothsayer Mirim'koa Scouted: 1/1|NC|
+l Felix's Chest|QID|3361|M|29.77,78.46|L|16313|N|Pick up Felix's Chest.|
+C Trolling for Information - Rikkari |QID|24489|M|29.66,78.63|N|Head into the tent, stand next to the Soothsayer, then listen to the dialogue.|QO|Soothsayer Rikkari Scouted: 1/1|NC|
+l Felix's Bucket of Bolts|QID|3361|M|33.31,77.83|L|16314|N|Pick up Felix's Bucket of Bolts.|
+C A Refugee's Quandary |QID|3361|M|33.31,77.83|N|Pick up Felix's Chest, Bucket of Bolts and Box.|NC|
+C Trolling for Information - Soothsayer |QID|24489|M|33.35,77.75|N|Stand next to the Soothsayer, then listen to the dialogue.|QO|Soothsayer Shi'kala Scouted: 1/1|NC|
 C The Troll Menace |US|QID|182|M|33.31,77.83|N|Kill any remaining Trolls you need.|
 
 L Level 4 |LVL|4|QID|24489|N|You should be around level 4 by this point.|
@@ -308,7 +321,7 @@ T The Troll Menace |QID|182|M|32.07,74.25|N|To Grelin Whitebeard.|
 A Ice and Fire |PRE|24489|QID|218|M|32.07,74.25|N|From Grelin Whitebeard.|
 T A Refugee's Quandary |QID|3361|M|31.93,74.38|N|To Felix Whindlebolt.|
 C Ice and Fire |S|QID|218|M|33.78,78.20;33.68,77.99|N|Enter the cave, keeping to the left as you go throught it, killing Grik'nir's Servants as you go.|QO|Grik'nir's Servant slain: 10/10|
-K Wayward Fire Elemental |QID|218|M|36.76,78.29|T|Wayward Fire Elemental|QO|Wayward Fire Elemental slain: 1/1|N|Kill the Wayward Fire Elemental.|
+K Wayward Fire Elemental |QID|218|M|33.79,78.34;36.76,78.29|T|Wayward Fire Elemental|QO|Wayward Fire Elemental slain: 1/1|N|Kill the Wayward Fire Elemental.|
 K Grik'nir the Cold |QID|218|M|37.66,78.48|T|Grik'nir the Cold|QO|Grik'nir the Cold slain: 1/1|N|Kill Grik'nir the Cold.|
 C Ice and Fire |US|QID|218|M|33.31,77.83|N|Make your way out of the cave, killing any Grik'nir's Servants you still need.|QO|Grik'nir's Servant slain: 10/10|
 
@@ -316,16 +329,19 @@ L Level 5 |LVL|5|QID|218|N|You should be around level 5 by this point|
 
 T Ice and Fire |QID|218|M|32.04,74.24|N|To Grelin Whitebeard.|
 A A Trip to Ironforge |PRE|218|QID|24490|N|From Grelin Whitebeard.|M|32.04,74.24|
-T A Trip to Ironforge |QID|24490|M|40.85,70.63|U|6948|N|Hearth back and hand in to Hands Springsprocket at the top of the hill.|
-A Follow that Gyro-Copter! |PRE|24490|QID|24491|N|From Hands Springsprocket.|M|40.85,70.63|
+T A Trip to Ironforge |QID|24490|M|40.85,70.63|N|To Hands Springsprocket at the top of the hill.|
+A Follow that Gyro-Copter! |PRE|24490|QID|24491|N|From Hands Springsprocket back down the hill.|M|40.85,70.63|
 T Follow that Gyro-Copter! |QID|24491|M|37.44,70.61|N|To Milo Geartwinge.|
 A Pack Your Bags |PRE|24491|QID|24492|N|From Milo Geartwinge.|M|37.44,70.61|
 
 A Don't Forget About Us |PRE|24491|QID|24493|M|35.61,66.23|N|From Jona Ironstock.|
-l Ragged Wolf-Hide Cloak|QID|24492|M|35.81,64.55|N|In a box on the floor upstairs.|QO|Ragged Wolf-Hide Cloak: 1/1|
-l Coldridge Beer Flagon|QID|24492|M|35.50,65.13|N|In the corner to the side of the bar.|QO|Coldridge Beer Flagon: 1/1|
-C Pack Your Bags |QID|24492|M|35.41,66.00|N|The Leftover Boar Meat is on the table.|
+l Ragged Wolf-Hide Cloak|QID|24492|M|35.81,64.55|N|Pick up the Wolf-Hide Cloaks, box in the back room at the top of the stairs.|QO|Ragged Wolf-Hide Cloak: 1/1|
+l Coldridge Beer Flagon|QID|24492|M|35.50,65.13|N|Pick up the Coldridge Beer Flagon, in the corner to the side of the bar.|QO|Coldridge Beer Flagon: 1/1|
+l Leftover Boar Meat|QID|24492|M|35.41,66.00|N|Pick up the Leftover Boar Meat, back in the main room, on the table to your right.|QO|Leftover Boar Meat: 1/1|
+C Pack Your Bags |QID|24492|M|35.81,64.55;35.50,65.13;35.41,66.00|N|Pick up the Ragged Wolf-Hide Cloak, Coldridge Beer Flagon and Leftover Boar Meat from inside Anvilmar.|
 T Pack Your Bags |QID|24492|M|37.37,70.55|N|To Milo Geartwinge.|
+F Kharanos |QID|24493|N|On handing the quest Pack Your Bags, you should be whisked on a gyro-copter to Kharanos.|
 T Don't Forget About Us |QID|24493|M|53.16,49.98|N|To Tharek Blackstone.|
+
 ]]
 end)
