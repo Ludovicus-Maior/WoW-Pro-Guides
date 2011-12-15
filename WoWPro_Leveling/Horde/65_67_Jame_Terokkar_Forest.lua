@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2011-12-05 13:29
+-- Who: Crackerhead22
+-- Log: Combined Aldor and Scryers guides, 4.3 updates
+
+-- URL: http://wow-pro.com/node/3278/revisions/24143/view
 -- Date: 2011-03-05 23:50
 -- Who: Ludovicus Maior
 -- Log: Duplicated for the other faction [Vengeful Souls]
