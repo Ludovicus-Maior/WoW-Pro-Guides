@@ -3,15 +3,13 @@
 ## Notes: World Achievements guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## Version: 2.1.26A
+## Version: 2.1.26B
 
 ## X-Category: Quest
 
 WoWPro_Achievements.lua
 
 Exploration\Guides.xml
-General\Guides.xml
-Professions\Guides.xml
 Quests\Guides.xml
 
 WoWPro_Achievements_Parser.lua
