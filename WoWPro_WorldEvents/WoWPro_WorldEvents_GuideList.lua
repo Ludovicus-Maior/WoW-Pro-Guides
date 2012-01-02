@@ -28,6 +28,7 @@ function WoWPro.WorldEvents.UpdateGuideList()
 	if not WoWPro.WorldEvents.GuideList then return end
 	if not WoWPro.WorldEvents.GuideList:IsVisible() then return end
 	if not WoWPro.WorldEvents.GuideList:IsVisible() then return end
+
 	for i,row in ipairs(WoWPro.WorldEvents.GuideList.rows) do
 		row.i = i + offset
 		local iGuide = guides[row.i]
@@ -37,7 +38,6 @@ function WoWPro.WorldEvents.UpdateGuideList()
 			row.author:SetText(iGuide.author)
 			row.category:SetText(iGuide.category)
 			row.guide = GID
-			
 			if WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].total and WoWProCharDB.Guide[GID].progress then
 				row.progress:SetText(WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total)
 			else 
