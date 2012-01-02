@@ -139,7 +139,8 @@ B Fizzy Faire Drink|QID|29506|N|From Sylannia.|L|19299|O|
 C A Fizzy Fusion|QID|29506|N|Use the Cocktail Shaker.|U|72043|O|
 T A Fizzy Fusion|QID|29506|M|50.31,69.39|N|To Sylannia.|O|
 
-B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6030;1|L|74142 6|
+B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6030;1|L|74142 6|FACTION|Alliance|
+B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6031;1|L|74142 6|FACTION|Horde|
 
 A Putting Trash to Good Use|QID|29510|M|52.94,75.94|N|From Sayge.|P|Enchanting;333;75|
 A Writing the Future|QID|29515|M|52.94,75.94|N|From Sayge.|P|Inscription;773;75|
@@ -187,12 +188,19 @@ T Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|O|
 T Tan My Hide|QID|29519|M|54.84,70.66|N|From Chronos.|O|
 T Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|To Selina Dourman.|O|
 
-N Achievement|QID|960300004|N|Take the portal at the end of the dock.  Fly to Ironforge.|ACH|6030;4|U|74142|
-N Achievement|QID|960300005|N|In the Mystic Quarter, take the portal to the Blasted Lands, then fly to Shattrath City.|ACH|6030;5|U|74142|
-N Achievement|QID|960300006|N|Take the portal back to Stormwind.|ACH|6030;6|U|74142|
-N Achievement|QID|960300001|N|Take the boat to Honor Hold and fly to Dalaran.|ACH|6030;1|U|74142|
-N Achievement|QID|960300002|N|Take the boat to Darnassus.|ACH|6030;2|U|74142|
-N Achievement|QID|960300003|N|Enter the Temple of the Moon and take the portal to The Exodar.|ACH|6030;3|U|74142|
+N Achievement|QID|960300004|N|Take the portal at the end of the dock.  Fly to Ironforge.|ACH|6030;4|U|74142|FACTION|Alliance|
+N Achievement|QID|960300005|N|In the Mystic Quarter, take the portal to the Blasted Lands, then fly to Shattrath City.|ACH|6030;5|U|74142|FACTION|Alliance|
+N Achievement|QID|960300006|N|Take the portal back to Stormwind.|ACH|6030;6|U|74142|FACTION|Alliance|
+N Achievement|QID|960300001|N|Take the boat to Honor Hold and fly to Dalaran.|ACH|6030;1|U|74142|FACTION|Alliance|
+N Achievement|QID|960300002|N|Take the portal to Stormwind, then take the boat to Darnassus.|ACH|6030;2|U|74142|FACTION|Alliance|
+N Achievement|QID|960300003|N|Enter the Temple of the Moon and take the portal to The Exodar.|ACH|6030;3|U|74142|FACTION|Alliance|
+
+N Achievement|QID|960310005|N|Take the portal back to Thunder Bluff, go into the city proper to set up your fireworks.|ACH|6031;5|U|74142|FACTION|Horde|
+N Achievement|QID|960310003|N|Take the portal to the Blasted Lands, go through the Dark Portal and fly to Shattrath City.|ACH|6031;3|U|74142|FACTION|Horde|
+N Achievement|QID|960310001|N|Take the portal back to Orgrimmar and take a zepplin/fly to Dalaran.|ACH|6031;1|U|74142|FACTION|Horde|
+N Achievement|QID|960310002|N|Take the portal back to Orgrimmar|ACH|6031;2|U|74142|FACTION|Horde|
+N Achievement|QID|960310006|N|Take a zepplin to Tirisfal Glade, fly to Undercity. Make sure your mini-map says Undercity, not Ruins of Lordaeron|ACH|6031;6|U|74142|FACTION|Horde|
+N Achievement|QID|960310004|N|Take the globe thingie from the courtyard to Silvermoon City.|ACH|6031;4|U|74142|FACTION|Horde|
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
