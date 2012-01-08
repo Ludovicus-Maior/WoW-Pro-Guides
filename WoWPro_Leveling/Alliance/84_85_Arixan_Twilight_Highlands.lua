@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2011-12-21 22:24
+-- Who: Crackerhead22
+-- Log: Fix from Censored.
+
+-- URL: http://wow-pro.com/node/3311/revisions/24811/view
 -- Date: 2011-11-17 12:28
 -- Who: Fluclo
 
@@ -118,7 +123,7 @@ C He's Holding Out on Us|QID|27064|M|80.39,62.34|N|Head to SI:7 in The Old Town.
 
 T He's Holding Out on Us|QID|27064|M|80.39,62.34|N|To Anduin Wrynn.|Z|Stormwind City|
 A Expert Opinion|QID|28807|PRE|26977|M|80.39,62.34|N|From Anduin Wrynn|Z|Stormwind City|
-T Expert Opinion|QID|28807|M|81.28,63.32|N|To Master Mathias Shaw, same building.|
+T Expert Opinion|QID|28807|M|81.28,63.32|N|To Master Mathias Shaw, same building.|Z|Stormwind City|
 
 A The Old Barracks|QID|27072|PRE|26977|M|81.28,63.32|N|From Master Mathias Shaw.|Z|Stormwind City|
 C The Old Barracks|QID|27072|M|37.24,56.47|N|Head to the Ruined Barracks. Kill crazed cultists. Work on the building at the waypoint, since you need to make your way down to the bottom floor to turn in this quest.|Z|Stormwind City|

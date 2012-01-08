@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2011-12-16 20:07
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3244/revisions/24826/view
 -- Date: 2011-12-01 04:42
 -- Who: Fluclo
 
@@ -60,73 +64,76 @@
 WoWPro.Leveling:RegisterGuide('BitWes3540', 'Western Plaguelands', 'Bitsem', '35', '40', 'CraEas4045', 'Alliance', function()
 return [[
 
-L Level 34 |QID|27161|N|You need to be Level 34 to do this guide.|
+L Level 34 |QID|27161|N|You need to be Level 34 to do this guide.|LVL|34|
 
-R Andorhal |QID|27161|N|Western Plaguelands is located north of The Hinterlands.  You can take the quest The Battle for Andorhal from Booty Bay (War-Mage Erallier near the Flightmaster), Gryphon Master Talonaxe in Aerie Peak, or from Commander Ashlam Valorfist in Chillwind Camp.  Each will give you transportation to Andorhal. Alternatively, you can take the Hero's Call from Ironforge or Stormwind City.|M|41.08,70.26|
+R Andorhal |QID|27161|N|Western Plaguelands is located north of The Hinterlands.  You can take the quest The Battle for Andorhal from Booty Bay (War-Mage Erallier near the Flightmaster), Gryphon Master Talonaxe in Aerie Peak, or from Commander Ashlam Valorfist in Chillwind Camp.  Each will give you transportation to Andorhal. Alternatively, you can also take the Hero's Call from Ironforge or Stormwind City.|M|41.08,70.26|
 
 T The Battle for Andorhal|QID|27158|M|40.97,70.38|N|To Thassarian.|O|
 T The Battle for Andorhal|QID|28505|M|40.97,70.38|N|To Thassarian.|O|
 T The Battle for Andorhal|QID|28749|M|40.97,70.38|N|To Thassarian.|O|
 T Hero's Call: Western Plaguelands|QID|28576|M|40.97,70.38|N|To Thassarian.|O|
-A Scourge First... Horde Later|QID|27159|M|40.97,70.38|N|From Thassarian.|
+
+A Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|From Thassarian.|
 A War Machines|QID|27160|M|40.97,70.38|N|From Lurid.|
-A The Endless Flow|QID|27161|M|41.21,70.13|N|From Lang Loosegrip.|
+A The Endless Flow|QID|27161|M|41.27,70.06|N|From Lang Loosegrip.|
 
 f Andorhal|QID|27161|M|39.52,69.54|N|At Ginny Goodwin.|
 
-C Scourge First... Horde Later|QID|27159|M|41.89,69.69|S|N|From now on, kill scourge and Opengut Behemoths on sight.|
-C The Endless Flow|QID|27161|U|60849|M|42.44,65.55|N|Use Lang's Hand Grenades to kill skeletons and the Scourge Bone Animus in the tower.|
-C War Machines|QID|27160|M|42.50,72.01|N|Continue killing Opengut Behemoths.|
-C Scourge First... Horde Later|QID|27159|M|41.89,69.69|US|N|Finish killing the needed mobs.|
+C Scourge First... Horde Later|QID|27159|M|41.89,69.69|S|N|Kill the Desiccated Scourge.|
+C War Machines|QID|27160|M|42.50,72.01|N|Kill Opengut Behemoths.|S|
+C The Endless Flow|QID|27161|U|60849|M|42.44,65.55|N|Use Lang's Hand Grenades to kill skeletons and the Scourge Bone Animus inside the tower.|
+C War Machines|QID|27160|M|42.50,72.01|N|Finish killing Opengut Behemoths.|US|
+C Scourge First... Horde Later|QID|27159|M|41.89,69.69|US|N|Finish killing the Desiccated Scourge.|
 
-T The Endless Flow|QID|27161|M|41.28,70.19|N|To Lang Loosegrip.|
+T The Endless Flow|QID|27161|M|41.27,70.06|N|To Lang Loosegrip.|
 A Araj the Summoner|QID|27164|PRE|27161|M|41.28,70.19|N|From Lang Loosegrip.|
 
-T Scourge First... Horde Later|QID|27159|M|41.13,70.39|N|To Thassarian.|
+T Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|To Thassarian.|
 T War Machines|QID|27160|M|41.10,70.46|N|To Lurid.|
 
+A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|S|
 A Scholomancer|QID|27162|PRE|27160|M|41.10,70.46|N|From Thassarian.|
-A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|
+A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|US|
 
 C Brute Strength|QID|27163|M|43.57,69.61|N|Level 35 Elite, inside the building.|
 C Araj the Summoner|QID|27164|U|60849|M|45.20,69.32|N|Use Lang's Hand Grenades if he summons skeletons. Level 35 Elite, by the fountain. Loot Araj's Phylactery Shard.|
-C Scholomancer|QID|27162|M|45.39,72.34|N|Thassarian and Koltira Deathweaver will appear to help you during the battle.|
+C Scholomancer|QID|27162|M|45.39,72.34|N|Kill Darkmaster Gandling, a boss skull boss (HP 3660).  Thassarian and Koltira Deathweaver will appear to help you during the battle at about HP 1000.|
 
+T Araj the Summoner|QID|27164|M|41.13,70.48|N|To Thassarian.|S|
+T Brute Strength|QID|27163|M|41.13,70.48|N|To Thassarian.|S|
 T Scholomancer|QID|27162|M|41.13,70.48|N|To Thassarian.|
-T Brute Strength|QID|27163|M|41.13,70.48|N|To Thassarian.|
-T Araj the Summoner|QID|27164|M|41.13,70.48|N|To Thassarian.|
+T Brute Strength|QID|27163|M|41.13,70.48|N|To Thassarian.|US|
+T Araj the Summoner|QID|27164|M|41.13,70.48|N|To Thassarian.|US|
 
 A Victory, For Now|QID|27165|PRE|27162;27163;27164|M|41.13,70.48|N|From Thassarian.|
-
-r Repair and Restock|QID|27165|NC|M|39.53,69.55|N|Speak to Ginny Goodwin for a free flight when you're ready to go.|
-
+F Chillwind Camp |QID|27165|N|Fly to Chillwind Camp.  Ginny Goodwin will give you a free-flight if you select the relevant option from her chat menu.|
 f Chillwind Camp|QID|27165|NC|M|42.95,84.95|N|If you don't have it, from Bibilfaz Featherwhistle.|
-
+h Chillwind Camp|QID|27165|M|43.38,84.51|N|At Mother Matterly.|
+r Repair and Sell Junk |QID|27165|M|43.08,84.28|N|Sell your junk and repair at Leonard Porter.\n\nClick this step to continue.|
 T Victory, For Now|QID|27165|M|42.78,84.12|N|To Commander Ashlam Valorfist.|
 
 A Go Fletch!|QID|27166|M|42.78,84.12|N|From Commander Ashlam Valorfist.|
 A A Mighty Hunger|QID|27167|M|42.78,84.12|N|From Thurman Grant.|
 
-h Chillwind Camp|QID|27683|M|43.38,84.51|N|At Mother Matterly.|
-
 C A Mighty Hunger|QID|27167|S|M|41.93,79.46;35.18,76.18|N|From now on, kill and loot Shaggy Black Bears.|
-C Go Fletch!|QID|27166|M|41.31,79.63;35.18,76.18|N|Collect the feathers sparkling on the ground.|
+C Go Fletch!|QID|27166|M|35.56,79.50|N|Collect the feathers sparkling on the ground.|NC|
 C A Mighty Hunger|QID|27167|US|M|41.93,79.46;35.18,76.18|N|Finish killing bears for Sides of Bear Meat.|
+
 T Go Fletch!|QID|27166|M|42.73,83.98|N|To Commander Ashlam Valorfist.|
 T A Mighty Hunger|QID|27167|M|42.73,83.98|N|To Thurman Grant.|
 A Uther's Blessing|QID|27169|PRE|27167|M|42.73,83.98|N|From Commander Ashlam Valorfist.|
 A Those That Couldn't Let Go|QID|27168|PRE|27167|M|43.32,83.81|N|From High Priestess MacDonnell.|
 
-C Those That Couldn't Let Go|QID|27168|S|U|60861|M|49.84,80.79|N|From now on use the Holy Thurible on Withdrawn Souls.|
+C Those That Couldn't Let Go|QID|27168|S|U|60861|M|49.84,80.79|N|From now on use the Holy Thurible on Withdrawn Souls.  Some may turn hostile.|
 C Uther's Blessing|QID|27169|NC|U|61920|M|51.94,82.64|N|Use the Chillwind Tribute at Uther's Tomb.|
 
 T Uther's Blessing|QID|27169|M|51.95,82.71|N|To High Priest Thel'danis.|
 A The Abandoned Crypt|QID|27170|M|51.95,82.71|N|From High Priest Thel'danis.|
-T The Abandoned Crypt|QID|27170|M|53.77,80.47|N|Head into the Crypt, go all the way down. Then turn the quest into the Broken Weapons Crate.|
+T The Abandoned Crypt|QID|27170|M|54.32,79.92;53.75,80.43|N|Head into the Crypt, go all the way down. Then turn the quest into the Broken Weapons Crate.|
 A Ambushed!|QID|27171|PRE|27170|M|53.77,80.47|N|From the Broken Weapons Crate.|
 
-C Ambushed!|QID|27171|M|54.82,79.75|N|Kill Skeletons on your way out. Loot the pieces you need.|
-C Those That Couldn't Let Go|QID|27168|US|U|60861|M|49.84,80.79|N|From now on use the Holy Thurible on Withdrawn Souls.|
+C Ambushed!|QID|27171|M|54.82,79.75|N|Kill and loot the Skeletal Sorcerers, as you head out of the crypt.|
+C Those That Couldn't Let Go|QID|27168|US|U|60861|M|49.84,80.79|N|Finish off using the Holy Thurible on Withdrawn Souls as you head back to Chillwind Camp.  Remember, they can turn hostile.|
 
 T Those That Couldn't Let Go|QID|27168|M|43.44,83.76|N|To High Priestess MacDonnell.|
 A The Menders' Stead|QID|27175|M|43.02,83.61|N|From Argent Officer Pureheart.|
@@ -146,6 +153,7 @@ T The Menders' Stead|QID|27175|M|49.31,54.87|N|To Field Agent Kaartish.|
 A A New Era for the Plaguelands|QID|26999|PRE|27175|M|49.31,54.87|N|From Field Agent Kaartish.|
 A Zen'Kiki, the Druid|QID|26953|M|48.98,54.75|N|From Adrine Towhide.|
 A I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.60,54.88|N|From Selyria Groenveld.|
+
 A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.|
 
 f The Menders' Stead|QID|27197|M|50.49,52.34|N|At Marge Heffman.|

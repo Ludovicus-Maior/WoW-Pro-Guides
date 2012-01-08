@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2011-12-23 08:08
+-- Who: Fluclo
+-- Log: Added Level info to the start of the guide, added level appropriate get to area steps, changed Chromie's tasks to Rank 2 as they are not necessary for quest progression of zone.   Added Quest step auto-completion to Chromie's quests.
+
+-- URL: http://wow-pro.com/node/3251/revisions/24812/view
 -- Date: 2011-11-18 17:27
 -- Who: Fluclo
 
@@ -75,96 +80,118 @@
 WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548|LiaBad4548', 'Neutral', function()
 return [[
 
-F The Menders' Stand|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Fly to The Mender's Stand.|FACTION|Alliance|
-F The Menders' Stand|QID|27683|M|46.6,64.6|Z|Western Plaguelands|N|Fly to The Mender's Stand.|FACTION|Horde|
-A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.|
-R Thondroril River|QID|27683|M|69.69,50.25|Z|Western Plaguelands|N|Run to Thondroril River, or fly if you have the flight point.|
+L Level 39 |QID|27367|N|You need to be Level 39 to do this guide.|LVL|39|
 
-T Into the Woods|QID|27683|M|9.02,66.40|N|To Fiona.|
-T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.40|O|N|To Fiona.|
-A Gidwin Goldbraids|QID|27367|M|9.02,66.40|N|From Fiona.|
-A Tarenar Sunstrike|QID|27370|M|9.02,66.40|N|From Fiona.|
-f Get flightpoint.|QID|27367|M|10.02,65.70|N|At Frax Bucketdrop.|
+F The Menders' Stead|QID|27367|M|42.8,85|Z|Western Plaguelands|N|To start Eastern Plaguelands questing, you will first need to head to The Mender's Stead for the breadcrumb quest.|FACTION|Alliance|
+F The Menders' Stead|QID|27367|M|46.6,64.6|Z|Western Plaguelands|N|To start Eastern Plaguelands questing, you will first need to head to The Mender's Stead for the breadcrumb quest.|FACTION|Horde|
+
+A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.  This quest won't show if you have the Hero's Call: Eastern Plaguelands! in your inventory, so drop it if you have it on you.  \n\nIf you have already done the Hero's Call quest, then skip this step and head into Eastern Plaguelands.|FACTION|Alliance|
+A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.  This quest won't show if you have the Warchief's Command: Eastern Plaguelands! in your inventory, so drop it if you have it on you.\n\nIf you have already done the Warchief's Command quest, then skip this step and head into Eastern Plaguelands.|FACTION|Horde|
+
+R Thondroril River |QID|27367|M|9.02,66.52|N|Run east along the road to Thondroril River, then cross the bridge and into Eastern Plaguelands.|LVL|40|
+F Thondroril River |QID|27367|M|9.02,66.52|N|Fly to Thondroril River.|
+
+T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|
+T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.52|O|N|To Fiona.|
+T Warchief's Command: Eastern Plaguelands!|QID|28577|M|9.02,66.52|O|N|To Fiona.|
+
+A Tarenar Sunstrike|QID|27370|M|9.02,66.52|N|From Fiona.|S|
+A Gidwin Goldbraids|QID|27367|M|9.02,66.52|N|From Fiona.|
+A Tarenar Sunstrike|QID|27370|M|9.02,66.52|N|From Fiona.|US|
+
+f Get flightpoint.|QID|27367|M|10.02,65.70|N|At Frax Bucketdrop.|LVL|40|
 T Gidwin Goldbraids|QID|27367|M|4.16,36.16|N|To Gidwin Goldbraids.|
 A Just Encased|QID|27368|M|4.17,36.13|N|From Gidwin Goldbraids.|
 C Just Encased|QID|27368|M|7.52,30.82|N|Kill Crypt Walkers, Stalkers and Horrors in the Terrorweb Tunnel that is next to the quest giver.|
 T Just Encased|QID|27368|M|4.17,36.13|N|To Gidwin Goldbraids.|
 A Greasing the Wheel|QID|27369|M|4.17,36.13|N|From Gidwin Goldbraids.|
-C Greasing the Wheel|QID|27369|M|3.54,36.43|N|Loot Banshee's Bells off the ground near quest giver and along the river. Herbalists should activate their Find Herbs tracking to have their locations show on the mini-map.|NC|
-T Greasing the Wheel|QID|27369|M|9.02,66.40|N|To Fiona.|
+C Greasing the Wheel|QID|27369|M|3.54,36.43|N|Loot Banshee's Bells off the ground near quest giver and along the river as you head south back towards Fiona. \n\nHerbalists should activate their Find Herbs tracking to have their locations show on the mini-map.|NC|
+T Greasing the Wheel|QID|27369|M|9.02,66.52|N|To Fiona.|
 
 T Tarenar Sunstrike|QID|27370|M|18.40,75.08|N|To Tarenar Sunstrike.|
 A What I Do Best|QID|27371|M|18.40,75.08|N|From Tarenar Sunstrike.|
-C What I Do Best|QID|27371|M|18.35,77.66|N|Kill 5 Death's Step Miscreations.|
+C What I Do Best|QID|27371|M|18.35,77.66|N|Kill 5 Death's Step Miscreations.  Tarenar Sunstrike will assist you in this quest.|
 T What I Do Best|QID|27371|M|18.35,77.66|N|(UI Alert)|
 A A Gift For Fiona|QID|27372|M|18.35,77.66|N|(UI Alert)|
 C Plaguehounds|QID|27372|M|18.07,71.42|L|60986 10|N|Kill Plaguehounds until you get 10 blood.|
 T A Gift For Fiona|QID|27372|M|9.02,66.40|N|To Fiona.|
 A Onward, to Light's Hope Chapel|QID|27373|M|9.02,66.40|N|From Fiona.|
 
-N Optional Buffs|QID|27373|N|Click on Fiona's Caravan to pick one of three buffs. The charm gives you a chance to loot extra gold and items, the oil and the talisman gives a chance to deal extra Holy damage when you attack (oil for ranged, melee; talisman for spells).|
-C Onward, to Light's Hope Chapel|QID|27373|NC|M|9.00,66.40|N|Click on Fiona's Caravan and choose to go to the next destination.|
+N Optional Buffs|QID|27373|N|Click on Fiona's Caravan to pick one of three buffs. The charm gives you a chance to loot extra gold and items, the oil and the talisman gives a chance to deal extra Holy damage when you attack (oil for ranged, melee; talisman for spells).\n\nClick here to continue.|
+C Onward, to Light's Hope Chapel|QID|27373|NC|M|9.00,66.40|N|Click on Fiona's Caravan and choose to go to the next destination.  Sit back and relax, and watch the dialog as the caravan makes it's way to Crown Guard Tower.|
 T Onward, to Light's Hope Chapel|QID|27373|M|34.8,69.09|N|To Fiona.|
-f Crown Guard Tower|QID|27373|M|34.86,68.05|N|At Janice Myers.|
+f Crown Guard Tower|QID|27373|M|34.86,68.05|N|At Janice Myers.|LVL|40|
 A Zaeldarr the Outcast|QID|27432|M|35.00,68.20|N|From Urk Gagbaz.|
 A Traveling Companions|QID|27381|M|35.23,68.68|N|From Tarenar Sunstrike.|
 A Little Pamela|QID|27383|M|35.52,68.84|N|From Carlin Redpath.|
-r Sell Junk. Repair/restock.|QID|27432|NC|M|35.74,68.99|
-C Traveling Companions|QID|27381|M|35.72,69.16|N|Talk to Argus Highbeacon on top of the tower. Warning: VERY bright light at the top of the tower.|
+C Traveling Companions|QID|27381|M|35.72,69.16|N|Talk to Argus Highbeacon on top of the tower and ask him if he's interested in joining the caravan. \n\nWarning: VERY bright light at the top of the tower.|NC|
 A Rough Roads|QID|27382|M|35.72,69.16|N|From Argus Highbeacon.|
+r Sell Junk. Repair/restock.|QID|27381|NC|M|35.74,68.99|N|With Argus Highbeacon.\n\nClick this step to continue.|
 T Traveling Companions|QID|27381|M|35.24,68.76|N|To Tarenar Sunstrike.|
 
 R The Undercroft|QID|27432|M|24.23,78.31|N|Run to The Undercroft.|
 C Zaeldarr the Outcast|QID|27432|L|15785|M|23.82,78.79|N|He is at the bottom of the crypt.|
 T Little Pamela|QID|27383|M|32.55,83.77|N|To Pamela Redpath.|
+
+A I'm Not Supposed to Tell You This|QID|27392|M|32.55,83.77|N|From Pamela Redpath.|S|
 A Pamela's Doll|QID|27384|M|32.55,83.77|N|From Pamela Redpath.|
-A I'm Not Supposed to Tell You This|QID|27392|M|32.55,83.77|N|From Pamela Redpath.|
-C Pamela's Doll|QID|27384|U|12886|M|35.41,83.04|N|Go to the houses to get the 3 pieces needed. Ghosts may spawn when a piece is picked up, combine when you have all 3.|
-C I'm Not Supposed to Tell You This|QID|27392|M|40.14,83.75|N|Kill "The Lone Hunter".|
+A I'm Not Supposed to Tell You This|QID|27392|M|32.55,83.77|N|From Pamela Redpath.|US|
+
+C Pamela's Doll|QID|27384|U|12886|M|35.41,83.04|N|Head to the houses and look for and loot three parts of the Doll.  Ghosts of the Past will spawn when you approach the parts.\n\nOnce you have all three parts, combine the three doll parts into the doll itself.|
+C I'm Not Supposed to Tell You This|QID|27392|M|40.14,83.75|N|Kill and loot "The Lone Hunter".|
+
+T I'm Not Supposed to Tell You This|QID|27392|M|32.53,83.80|N|To Pamela Redpath.|S|
 T Pamela's Doll|QID|27384|M|32.47,83.76|N|To Pamela Redpath.|
-T I'm Not Supposed to Tell You This|QID|27392|M|32.53,83.80|N|To Pamela Redpath.|
+T I'm Not Supposed to Tell You This|QID|27392|M|32.53,83.80|N|To Pamela Redpath.|US|
 A Uncle Carlin|QID|27385|M|32.53,83.80|N|From Pamela Redpath.|
 
 T Zaeldarr the Outcast|QID|27432|M|34.92,68.28|N|To Urk Gagbaz.|
 T Uncle Carlin|QID|27385|M|35.51,68.81|N|To Carlin Redpath.|
 A A Strange Historian|QID|27386|M|35.51,68.81|N|From Carlin Redpath.|
 T A Strange Historian|QID|27386|M|35.18,68.02|N|To Chromie.|
-A Villains of Darrowshire|QID|27387|M|35.18,68.02|N|From Chromie.|
-A Heroes of Darrowshire|QID|27388|M|35.18,68.02|N|From Chromie.|
-A Marauders of Darrowshire|QID|27389|M|35.18,68.02|N|From Chromie.|
-A Cenarion Tenacity|QID|27544|M|34.93,68.32|N|From Urk Gagbaz.|
-N Heroes of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Talk to Carl Redpath inside the tower and get the "Extended Annals of Darrowshire".|
-l Villains of Darrowshire|QID|27387|L|12957|M|39.77,72.36|N|Pick up the "Shattered Sword of Marduk".|
-C Rough Roads|QID|27382|M|41.30,71.09|N|Kill any Plaguebats you need.|
-T Rough Roads|QID|27382|M|35.91,69.06|N|To Argus Highbeacon.|
 
-N Note:|QID|27544|N|New buff at the wagon. "Arugs' Journal", gives 2% more exp in Eastern Plaguelands.|
-l Heroes of Darrowshire|QID|27388|L|12955|M|22.29,68.40|N|Pick up "Redpath's Shield".|
-C Heroes of Darrowshire|QID|27388|L|12954|M|22.29,68.40|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|
-T Cenarion Tenacity|QID|27544|M|30.22,56.99|N|At Rayne, she is in stealth as a cat.|
-A Postponing the Inevitable|QID|27420|M|30.22,56.99|N|From Rayne.|
-A Amidst Death, Life|QID|27421|M|30.22,56.99|N|From Rayne.|
-C Marauders of Darrowshire|QID|27389|S|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|
-C Postponing the Inevitable|QID|27420|S|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|
-C Amidst Death, Life|QID|27421|U|61036|M|34.26,44.66;37.50,43.06;37.54,48.30|N|Head into the middle of the Necropoles and use Rayne's Seeds.|
-C Postponing the Inevitable|QID|27420|US|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|
-C Marauders of Darrowshire|QID|27389|US|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|
-T Postponing the Inevitable|QID|27420|M|30.17,56.93|N|To Rayne.|
-T Amidst Death, Life|QID|27421|M|30.17,56.93|N|To Rayne.|
-C Villains of Darrowshire|QID|27387|L|12956|M|37.32,60.24|N|Pick of the "Skull of Horgus".|
+A Heroes of Darrowshire|QID|27388|M|35.18,68.02|N|From Chromie.|S|RANK|2|
+A Marauders of Darrowshire|QID|27389|M|35.18,68.02|N|From Chromie.|S|RANK|2|
+A Villains of Darrowshire|QID|27387|M|35.18,68.02|N|From Chromie.|RANK|2|
+A Heroes of Darrowshire|QID|27388|M|35.18,68.02|N|From Chromie.|US|
+A Marauders of Darrowshire|QID|27389|M|35.18,68.02|N|From Chromie.|US|RANK|2|
 
-T Villains of Darrowshire|QID|27387|M|35.15,68.05|N|To Chromie.|
-T Heroes of Darrowshire|QID|27388|M|35.15,68.05|N|To Chromie.|
-T Marauders of Darrowshire|QID|27389|M|35.15,68.05|N|To Chromie.|
-A The Battle of Darrowshire|QID|27390|M|35.15,68.05|N|From Chromie.|
-r Sell Junk. Repair/restock.|QID|27390|NC|M|35.74,68.99|
+A Cenarion Tenacity|QID|27544|M|34.93,68.32|N|From Urk Gagbaz.|RANK|2|
+C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|Extended Annals of Darrowshire: 1/1|NC|RANK|2|
 
-R Darrowshire|QID|27390|M|34.92,83.84|N|Go to the middle of Darrowshire, near the well.|
-C The Battle of Darrowshire|QID|27390|U|15209|N|Defend Davil Lightfire and Captain Redpath (they do die at one point for event progression). Speak to Redpath when the event is done, and accept his forgiveness.|
-T The Battle of Darrowshire|QID|27390|M|32.52,83.78|N|To Pamela Redpath.|
-A Hidden Treasures|QID|27391|M|32.19,83.41|N|From Pamela Redpath.|
-T Hidden Treasures|QID|27391|M|32.19,83.41|N|Right behind the house, next to the chimney.|
-N New buff at caravan available.|QID|27463|N|After completeing "The Battle of Darrowshire", there will be a new buff available at the caravan. Pamela's Doll: Summon the spirit of Pamela Redpath to accompany you through Eastern Plaguelands.|
+C Rough Roads|QID|27382|M|41.30,71.09|N|Kill any Plaguebats you need.|S|
+C Villains of Darrowshire - Shattered Sword of Marduk|QID|27387|M|39.77,72.36|N|Pick up the "Shattered Sword of Marduk" fron the floor.|QO|Shattered Sword of Marduk: 1/1|NC|RANK|2|
+C Rough Roads|QID|27382|M|41.30,71.09|N|Finish killing any Plaguebats you need.|US|
+T Rough Roads|QID|27382|M|35.91,69.06|N|To Argus Highbeacon.  \n\nOnce you complete this quest, the wagon will give a new Zone Buff, "Argus' Journal", which gives 2% more experience whilst in the zone.|
+
+C Heroes of Darrowshire - Redpath's Shield|QID|27388|M|22.29,68.40|N|Pick up "Redpath's Shield" from the ground floor of the house in The Marris Stead.|QO|Redpath's Shield: 1/1|NC|RANK|2|
+C Heroes of Darrowshire - Davil's Libram|QID|27388|M|22.29,68.40|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|QO|Davil's Libram: 1/1|NC|RANK|2|
+
+T Cenarion Tenacity|QID|27544|M|30.22,56.99|N|At Rayne, she is in stealth as a cat.|RANK|2|
+A Postponing the Inevitable|QID|27420|M|30.22,56.99|N|From Rayne.|RANK|2|
+A Amidst Death, Life|QID|27421|M|30.22,56.99|N|From Rayne.|RANK|2|
+
+C Marauders of Darrowshire|QID|27389|S|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
+C Postponing the Inevitable|QID|27420|S|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
+C Amidst Death, Life|QID|27421|U|61036|M|34.26,44.66;37.50,43.06;37.54,48.30|N|Head into the middle of the Necropoles and use Rayne's Seeds.|RANK|2|NC|
+C Postponing the Inevitable|QID|27420|US|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
+C Marauders of Darrowshire|QID|27389|US|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
+
+T Postponing the Inevitable|QID|27420|M|30.17,56.93|N|To Rayne.|RANK|2|
+T Amidst Death, Life|QID|27421|M|30.17,56.93|N|To Rayne.|RANK|2|
+C Villains of Darrowshire - Skull of Horgus|QID|27387|M|37.32,60.24|N|Pick of the "Skull of Horgus".|QO|Skull of Horgus: 1/1|NC|RANK|2|
+
+T Villains of Darrowshire|QID|27387|M|35.15,68.05|N|To Chromie.|RANK|2|
+T Heroes of Darrowshire|QID|27388|M|35.15,68.05|N|To Chromie.|RANK|2|
+T Marauders of Darrowshire|QID|27389|M|35.15,68.05|N|To Chromie.|RANK|2|
+A The Battle of Darrowshire|QID|27390|M|35.15,68.05|N|From Chromie.|RANK|2|
+r Sell Junk. Repair/restock.|QID|27390|NC|M|35.74,68.99|RANK|2|
+
+R Darrowshire|QID|27390|M|34.92,83.84|N|Go to the middle of Darrowshire, near the well.|RANK|2|
+C The Battle of Darrowshire|QID|27390|U|15209|N|Defend Davil Lightfire and Captain Redpath (they do die at one point for event progression). Speak to Redpath when the event is done, and accept his forgiveness.|RANK|2|
+T The Battle of Darrowshire|QID|27390|M|32.52,83.78|N|To Pamela Redpath.\n\nOn completion of this quest, a new buff will be available at the caravan. Pamela's Doll: Summon the spirit of Pamela Redpath to accompany you through Eastern Plaguelands.|RANK|2|
+A Hidden Treasures|QID|27391|M|32.19,83.41|N|From Pamela Redpath.|RANK|2|
+T Hidden Treasures|QID|27391|M|32.19,83.41|N|Right behind the house, next to the chimney.|RANK|2|
 A The Trek Continues|QID|27448|M|34.84,69.27|N|From Fiona.|
 C The Trek Continues|QID|27448|M|52.67,53.73|N|Click on Fiona's Caravan and click on the option to continue the trek.|
 
@@ -355,6 +382,7 @@ T Journey's End|QID|27527|U|61379|M|73.83,52.16|N|To Fiona. Use "Gidwin's Hearth
 F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc.  Close this step when done.|FACTION|Alliance|
 A Fuselight, Ho!|QID|27762|M|73.78,53.05|N|From Gek Nozzlerocket. Pick this up if you'd like to head to the Badlands next!|FACTION|Horde|
 T Fuselight, Ho!|QID|27762|O|M|73.78,53.05|N|Hop on the rocket near the quest giver. When you land, turn-in to Eddie Flofizzle.|FACTION|Horde|
+
 ]]
 
 end)

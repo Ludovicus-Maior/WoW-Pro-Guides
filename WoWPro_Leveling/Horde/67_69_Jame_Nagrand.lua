@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2012-01-03 15:25
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3280/revisions/24839/view
 -- Date: 2011-12-07 18:19
 -- Who: Crackerhead22
 -- Log: 4.3 updates plus Altruis the Sufferer quest lines
@@ -19,278 +23,248 @@
 WoWPro.Leveling:RegisterGuide("JamNag6769", "Nagrand", "Jame", "67", "69", "JamBla6970", "Horde", function()
 return [[
 
-R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .| |Z|Terokkar Forest|M|20,56|
-N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide|
-C A Head Full of Ivory |QID|9914| |N|Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|
-N The Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|S|
+R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .|Z|Terokkar Forest|M|20,56|
+N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide.|
+C A Head Full of Ivory |QID|9914|N|Kill and loot Elekks. Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|
+l Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|S|L|24504|
+A I Must Have Them! |QID|10109|N|From Wazat. He's in Clan Watch in southern Nagrand.|M|62.1,67.2|
+l I Must Have Them!|N|Kill Air Elementals until you get 3x Air Elemental Gas.|QID|10109|M|69.4,56.9|S|L|27807 3|
 
-A I Must Have Them! |QID|10109| |N|He's in Clan Watch in southern Nagrand.|M|62.1,67.2|
-C I Must Have Them! |QID|10109|M|69.5,57.0|S|
+A Talbuk Mastery |QID|9857|M|71.6,40.5|N|From Harold Lane.|
+A Windroc Mastery |QID|9854|M|71.6,40.5|N|From Shado 'Fitz' Farstrider.|
+A Clefthoof Mastery |QID|9789|M|71.6,40.5|N|From Hemet Nesingwary.|
+N Kristen DeMeza |QID|9897|M|71.42,40.6|N|Kill mobs in this area until Kristen DeMeza shows up at the Nesingwary Safari (it may take a long time).  Kill the undead that spawns. |
+A I'm Saved! |QID|9897|N|From Kristen DeMeza. Skip if it takes too long for her to show up.|M|71.42,40.6|
+T I'm Saved! |QID|9897|N|To Harold Lane.|M|71.42,40.6|O|
+C Windroc Mastery  |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|S|
+l Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|US|L|24504|
+A The Howling Wind |QID|9861|U|24504|M|64.0,45.0|N|Accept the quest from the Howling Wind.|
 
-A Windroc Mastery (Part 1) |QID|9854|N|Shado 'Fitz' Farstider, north at the Nesingwary Safari.|M|71.6,40.5|
-A Clefthoof Mastery (Part 1) |QID|9789|N|Hemet Nesingwary |M|71.5,40.8|
-A Talbuk Mastery (Part 1) |QID|9857|N|Harold Lane|M|71.5,40.5|
-C Windroc Mastery (Part 1) |QID|9854|S|
-C Clefthoof Mastery (Part 1) |QID|9789|S|
-C Talbuk Mastery (Part 1) |QID|9857|S|
+h Garadar|QID|9888|N|M|56.7,34.2|
+A Missing Mag'hari Procession |QID|9944|N|From Matron Drakia.|M|56.7,34.2|
+A The Impotent Leader |QID|9888|N|From Jorin Deadeye.|M|55.6,37.6|
+A Proving Your Strength |QID|10479|N|From Warden Bullrok |M|55.8,37.9|
+A Wanted: Giselda the Crone |QID|9935|N|From the Garadar Bulletin Board.|M|55.8,38.0|
+A Wanted: Zorbo the Advisor |QID|9939|N|From the Garadar Bulletin Board.|M|55.8,38.0|
+A The Throne of the Elements |QID|9870|N|From Elementalist Yal'hah, this NPC wanders around town.|M|55.0,39.0|
+A Vile Idolatry |QID|9863|N|From Farseer Kurkush.|M|54.8,39.4|
+A The Missing War Party |QID|9864|N|From Farseer Corhuk.|M|54.8,39.9|
+A Murkblood Leaders... |QID|9867|N|From Farseer Margadesh.|M|54.5,40|
 
-K Dust Howlers |QID|9861|L|24504|N|Until you get a Howling Wind. Stay relatively near the Nesingwary camp, if a NPC called Kristen Dipswitch shows up, defend her from the rogue NPC that attacks her. She'll give you a quest afterwards which is basically a free 11000 XP.|
-A The Howling Wind |QID|9861|U|24504|M|64.0,45.0|US|
+T The Howling Wind |QID|9861|M|60.5,22.4|N|To Elementalist Morgh.|
+A Murkblood Corrupters |QID|9862|M|60.5,22.4|N|From Elementalist Morgh.|
+T The Throne of the Elements |QID|9869|M|60.5,22.4|N|To Elementalist Sharvak.|
+A A Rare Bean |QID|9800|M|60.5,22.4|N|From Elementalist Lo'ap.|
+A Muck Diving |QID|9815|M|60.5,22.4|N|From Elementalist Lo'ap.|
+A The Underneath |QID|9818|M|60.5,22.4|N|From Elementalist Untrag.|
+T The Underneath |QID|9818|M|61.8,24.4|N|To Gordawg. He wanders around.|
+A The Tortured Earth |QID|9819|M|61.8,24.4|N|From Gordawg.|
 
-h Garadar|QID|9888|N||M|56.7,34.2|
-A Missing Mag'hari Procession |QID|9944|N|Matron Drakia |M|56.7,34.2|
-A The Impotent Leader |QID|9888|N|Jorin Deadeye |M|55.6,37.6|
-A Proving Your Strength |QID|10479|N|Warden Bullrok |M|55.8,37.9|
-A Wanted: Giselda the Crone |QID|9935|N|Garadar Bulletin Board |M|55.8,38.0|
-A Wanted: Zorbo the Advisor |QID|9939|N|Garadar Bulletin Board |M|55.8,38.0|
-A The Throne of the Elements |QID|9870|N|Elementalist Yal'hah, this NPC wanders around town|M|55.0,39.0|
-A Vile Idolatry |QID|9863|N|Farseer Kurkush |M|54.8,39.4|
-A The Missing War Party |QID|9864|N|Farseer Corhuk |M|54.8,39.9|
-A Murkblood Leaders... |QID|9867|N|Farseer Margadesh |M|54.5,40|
+C The Tortured Earth|N|Kill the Earth Spirits needed for this quest.|QID|9819|M|67.00,36.00|
+C Windroc Mastery  |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|US|
+C Talbuk Mastery |N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|S|
+C Clefthoof Mastery |N|Kill the Clefthoofs needed for this quest.|QID|9789|M|64.00,48.00|
+C Talbuk Mastery |N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|US|
+T Clefthoof Mastery |QID|9789|M|71.6,40.5|N|To Hemet Nesingwary.|
+A Clefthoof Mastery |QID|9850|M|71.6,40.5|N|From Hemet Nesingwary.|
+T Windroc Mastery |QID|9854|M|71.6,40.5|N|To Shado 'Fitz' Farstrider.|
+A Windroc Mastery |QID|9855|M|71.6,40.5|N|From Shado 'Fritz' Farstrider.|
+T Talbuk Mastery |QID|9857|M|71.6,40.5|N|To Harold Lane.|
+A Talbuk Mastery |QID|9858|M|71.6,40.5|N|From Harold Lane.|
+T The Tortured Earth|QID|9819|M|61.8,24.4|N|To Gordawg.|
+A Eating Damnation|QID|9821|M|61.8,24.4|N|From Gordawg.|
 
-R Throne of the Elements |QID|9862|N|Northeast of Garadar.|M|61,23|
-T The Howling Wind |QID|9861|M|60.5,22.5|
-A Murkblood Corrupters |QID|9862|M|60.5,22.5|
-T The Throne of the Elements |QID|9870|M|60.5,22.5|
-A A Rare Bean |QID|9800|M|60.5,22.5|
-A Muck Diving |QID|9815|M|60.5,22.5|
-A The Underneath |QID|9818|M|60.5,22.5|
-T The Underneath |QID|9818| |N|Look for the big rock giant called Gordawg.|M|62.0,24.5|
-A The Tortured Earth |QID|9819|M|62.0,24.5|
+l I Must Have Them!|N|Kill Air Elementals until you get 3x Air Elemental Gas.|QID|10109|M|69.4,56.9|US|L|27807 3|
+T I Must Have Them! |QID|10109|M|61.7,67.1|N|To Wazat.|
+A Bring Me The Egg! |QID|10111|N|From Wazat.|M|61.7,67.1|
+C Bring Me The Egg! |N|If you don't have a flying mount then use the Jump-O-Matic, jump up to the birds nest (if you have a flying mount, fly up there), take the egg, and kill the bird that appears.|QID|10111|M|62.00,67.00|
+T Bring Me The Egg! |QID|10111|N|To Wazat.|M|61.7,67.1|
+T The Impotent Leader |QID|9888|N|To Kilrath.|Z|Terokkar Forest|M|20.0,61.0|
+A Don't Kill the Fat One |QID|9889|Z|Terokkar Forest|M|20.0,61.0|From Kilrath.|
+C Don't Kill the Fat One |QID|9889|N|Head south to the ogre camp. Kill the 10 ogres FIRST. Then, fight Unkor. Don't use DoTs or stuns, it can cause him to bug out.|Z|Terokkar Forest|M|20,63|
+T Don't Kill the Fat One |QID|9889|M|20.0,63.0|N|To Unkor the Ruthless.|
+A Success! |QID|9890|Z|Terokkar Forest|M|20.0,63.0|N|From Unkor the Ruthless.|
+T Success! |QID|9890|Z|Terokkar Forest|M|20.0,61.0|N|To Kilrath.|
+A Because Kilrath is a Coward |QID|9891|Z|Terokkar Forest|M|20.0,61.0|N|From Kilrath.|
 
-N Things to do |QID|9789|N|Stay in the area between Nesingwary's Safari, Garadar, and the Ring of Trials. Kill: windrocs (north of the road), clefthoofs (south of the road), talbuks (around Nesingwary's Safari), dust howlers (all around), and tortured earth spirits (in the rocks and mountains north of the fork in the road and south and southeast of Nesingwary's Safari)|
-C Windroc Mastery (Part 1) |QID|9854|US|
-C Clefthoof Mastery (Part 1) |QID|9789|US|
-C Talbuk Mastery (Part 1) |QID|9857|US|
-C The Tortured Earth |QID|9819|
+H Garadar|QID|9891|U|6948|N|Hearth to Garadar.|
+T Because Kilrath is a Coward |QID|9891|M|55.5,37.5|N|To Jorin Deadeye.|
+A Message in a Battle |QID|9906|M|55.5,37.5|N|From Jorin Deadeye.|
+A Standards and Practices |QID|9910|M|55.5,37.5|N|From Elkay'gan the Mystic.|
+A The Consortium Needs You! |QID|9913|M|52.0,35.0|N|From Consortium Recruiter.|
+N From now on... |QID|10251|N|If you see any Murkblood Invaders kill them until you get the Murkblood Invasion Plans. They wander the road west of Telaar.|
+T The Master's Grand Design? |QID|10251|M|51.8,56.85|N|To Nitrin the Learned.|
+A Vision of the Dead |QID|10252|N|From Nitrin the Learned.|M|51.8,56.85|
+N Vision of the Dead |QID|9800|N|From now on, kill any Aged Clefthoof and Greater Windrocs for the drops.|
+C Windroc Mastery |N|Kill the Windrocs needed for this quest.|QID|9855|M|49.00,62.00|
+C A Rare Bean |N|Collect Digested Caracoli off the ground from the dung piles, until you finish this quest.|QID|9800|M|50.00,30.00|S|
+C Talbuk Mastery  |N|Kill the mobs for this quest, they are around the trees.|QID|9858|S|M|50.00,30.00|
+C Clefthoof Mastery  |N|Kill Clefthoof Bulls (and other mobs) until you finish this quest.|QID|9850|M|50.00,30.00|
+C A Rare Bean |N|Collect Digested Caracoli off the ground from the dung piles, until you finish this quest.|QID|9800|M|50.00,30.00|US|
+C Talbuk Mastery  |N|Kill the rest of the mobs for this quest.|QID|9858|M|50.00,30.00|US|
+C Eating Damnation |N|Kill Enraged Crushers until you get the items for this quest.|QID|9821|M|52,19|
+T A Rare Bean |QID|9800|M|60.5,22.4|N|To Elementalist Lo'ap.|
+A Agitated Spirits of Skysong |QID|9804|M|60.5,22.4|N|From Elementalist Lo'ap.|
+T Eating Damnation |QID|9821|M|61.8,24.4|N|To Gordawg.|
+A Shattering the Veil |QID|9849|M|61.8,24.4|N|From Gordawg.|
 
-T Windroc Mastery (Part 1) |QID|9854|M|71.5,40.5|
-A Windroc Mastery (Part 2) |QID|9855|M|71.5,40.5|
-T Clefthoof Mastery (Part 1) |QID|9789|M|71.5,40.5|
-A Clefthoof Mastery (Part 2) |QID|9850|M|71.5,40.5|
-T Talbuk Mastery (Part 1) |QID|9857|M|71.5,40.5|
-A Talbuk Mastery (Part 2) |QID|9858|M|71.5,40.5|
-C Windroc Mastery (Part 2) |QID|9855|S|
+N Nagrand Cherry and Stuff|QID|9804|N|Keep the Nagrand Cherry unless you can cast underwater breathing. Destroy Gordawg's Imprint since you do not need it.|
+C Agitated Spirits of Skysong|N|Kill Lake Spirits in the lake until you finish this quest.|QID|9804|U|24421|
+T Agitated Spirits of Skysong|QID|9804|M|60.5,22.4|N|To Elementalist Lo'ap.|
+A Blessing of Incineratus |QID|9805|M|60.5,22.4|N|From Elementalist Lo'ap.|
+T Talbuk Mastery  |QID|9858|M|71.6,40.5|N|To Harold Lane.|
+A Talbuk Mastery  |QID|9859|M|71.6,40.5|N|From Harold Lane.|
+T Clefthoof Mastery  |QID|9850|M|71.55,40.76|N|To Hemet Nesingwary.|
+A Clefthoof Mastery  |QID|9851|M|71.55,40.76|N|From Hemet Nesingwary.|
+T Windroc Mastery  |QID|9855|M|71.55,40.54|N|To Shado 'Fitz' Farstrider.|
+A Windroc Mastery  |QID|9856|M|71.55,40.54|N|From Shado 'Fitz' Farstrider.|
+U Large Hut|QID|9805|M|72.36,50.49|U|24467|N|Go inside the hut and use the Living Fire.|QO|Large Hut Destroyed: 1/1|
+U Western Hut|QID|9805|M|70.75,51.14|U|24467|N|Go inside the hut and use the Living Fire.|QO|Western Hut Destroyed: 1/1|
+U Southern Hut|QID|9805|M|71.46,52.95|U|24467|N|Go inside the hut and use the Living Fire.|QO|Southern Hut Destroyed: 1/1|
+C Blessing of Incineratus|QID|9805|M|72.72,54.65|N|Go inside the hut and use the Living Fire.|U|24467|
 
-C Talbuk Mastery (Part 2) |QID|9858|S|
-C Clefthoof Mastery (Part 2) |QID|9850|S|
+C Proving Your Strength |QID|10479|M|73.36,69.49|S|N|Kill and loot Ogres to get Obsidian Warbeads.|
+C Message in a Battle |QID|9906|N|Kill ogres until you finish.|S|M|73.36,69.49|
+N Standards and Practices |QID|9910|QO|First Battle Standard Placed: 1/1|U|25458|M|72,69|N|Place the Standard at the First Burning Blade Pyre.|
+N Standards and Practices |QID|9910|QO|Second Battle Standard Placed: 1/1|U|25458|M|74.8,69.9|N|Place the Standard at the Second Burning Blade Pyre.|
+C Standards and Practices |QID|9910|U|25458|M|75.8,68.4|N|Place the Standard at the Third Burning Blade Pyre.|
+C Message in a Battle |QID|9906|N|Kill ogres until you finish.|US|M|73.36,69.49|
+T Message in a Battle |QID|9906|N|To Jorin Deadeye.|M|55.5,37.5|
+A An Audacious Advance |QID|9907|M|55.5,37.5|N|From Jorin Deadeye.|
+T Standards and Practices |QID|9910|M|55.5,37.5|N|To Elkay'gan the Mystic.|
+A Bleeding Hollow Supply Crates |QID|9916|M|55.5,37.5|N|From Elkay'gan the Mystic.|
+A He Called Himself Altruis... |QID|9983|M|55.2,36.2|N|From Matron Celestine.|
+T Blessing of Incineratus|QID|9805|M|60.5,22.4|N|To Elementalist Lo'ap.|
+A The Spirit Polluted |QID|9810|M|60.5,22.4|N|From Elementalist Lo'ap.|
+C Bleeding Hollow Supply Crates |QID|9916|N|Loot supply crates off the ground.|M|40.7,31.5|S|
+C An Audacious Advance |QID|9907|M|40.7,31.5|N|Kill Boulderfist Warriors and Mages.|
+C Bleeding Hollow Supply Crates |QID|9916|N|Loot supply crates off the ground.|M|40.7,31.5|US|
+C Proving Your Strength |QID|10479|M|73.36,69.49|US|N|Kill and loot Ogres to get Obsidian Warbeads.|
+C Muck Diving |N|Kill Muck mobs until you get the items for this quest.|QID|9815|M|41.00,38.00|
 
-C I Must Have Them! |QID|10109|M|69.5,57.0|US|
-T I Must Have Them! |QID|10109| |N|Head southwest.|M|62,67|
-A Bring Me The Egg! |QID|10111|
-C Bring Me The Egg! |QID|10111| |N|The mob you have to fight is a 66 elite bird, he can't be slowed, but can be snared. What you have to do is use the Jump-a-tron key and then, when you get thrown into the air, click off the slow-fall buff so you drop on to the tree. It's very tricky and can get you killed. However, if you have a 100% speed mount, you can use the Jump-a-tron, land and keep the slowfall buff, then run up to the top of the nearby cliffs and run off on your mount, landing on top of the tree. Once you're up there, you need to use the egg to call down the bird to kill.|
-T Bring Me The Egg! |QID|10111|
+T The Missing War Party |QID|9864|N|Head out of the exit in the northwestern side of the basin and go west to the Mag'hari Procession. To Saurfang the Younger.|M|32.44,36.05|
+A Once Were Warriors |QID|9865|M|32.5,36.0|N|From Saurfang the Younger.|
+T Missing Mag'hari Procession |QID|9944|M|32.5,36.0|N|To Elder Yorley.|
+A War on the Warmaul |QID|9945|M|32.5,36.0|N|From Elder Yorley.|
+A Finding the Survivors |QID|9948|M|32.5,36.0|N|From Elder Ungriz.|
+N From now on... |N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead" |QID|9991|
+K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|L|24523|S|
+K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye.|T|Gutripper|L|24513|S|
+l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|L|28667|
 
-T The Impotent Leader |QID|9888|N|Head back east toward Terokkar.|Z|Terokkar Forest|M|20.0,61.0|
-A Don't Kill the Fat One |QID|9889|Z|Terokkar Forest|M|20.0,61.0|
-
-C Don't Kill the Fat One |QID|9889| |N|Head south to the ogre camp. Kill the 10 ogres FIRST. Then, fight Unkor, he's at (20,63). Don't use DoTs or stuns, it can cause him to bug out.| |Z|Terokkar Forest|M|20,63|
-T Don't Kill the Fat One |QID|9889|M|20.0,63.0|
-A Success! |QID|9890|Z|Terokkar Forest|M|20.0,63.0|
-
-T Success! |QID|9890|Z|Terokkar Forest|M|20.0,61.0|
-A Because Kilrath is a Coward |QID|9891|Z|Terokkar Forest|M|20.0,61.0|
-
-H Garadar|QID|9906|U|6948|
-T Because Kilrath is a Coward |QID|9891|M|55.5,37.5|
-A Message in a Battle |QID|9906|M|55.5,37.5|
-A Standards and Practices |QID|9910|M|55.5,37.5|
-A The Consortium Needs You! |QID|9913| |N|Near the western gate of Garadar.|M|52.0,35.0|
-
-C A Rare Bean |QID|9800| |N|You're looking for glowing piles of shit. No, seriously. Do this and the two mastery quests in the area northwest of Garadar. Kill Talbuks and Clefthooves while you do it, but don't worry if you don't finish it.|M|52.0,25.5|
-
-T A Rare Bean |QID|9800| |N|Throne of the Elements.|M|60.5,22.5|
-A Agitated Spirits of Skysong |QID|9804|M|60.5,22.5|
-T The Tortured Earth |QID|9819|M|62.0,24.5|
-A Eating Damnation |QID|9821|M|62.0,24.5|
-C Eating Damnation |QID|9821|N|Kill any Enraged Crushers you see.|S|
-
-C Agitated Spirits of Skysong |QID|9804|U|24421|
-
-T Agitated Spirits of Skysong |QID|9804|M|60.5,22.5|
-A Blessing of Incineratus |QID|9805|M|60.5,22.5|
-
-K Murkblood Invaders |QID|9872|L|24558|N|If you see the Murkblood Invaders; three murkblood on Elekks, kill them. You only need to kill one and loot the Murkblood Invasion Plans. Right-click them to start the quest.|M|41,29|S|
-
-C Eating Damnation |QID|9821|N|Kill Enraged Crushers between the ledge at (41,29) and Garadar.|M|41,29|US|
-C Clefthoof Mastery (Part 2) |QID|9850|US|
-C Talbuk Mastery (Part 2) |QID|9858|US|
-
-T The Master's Grand Design? |QID|10251| |N|In the ruined building.|M|52,56|
-A Vision of the Dead |QID|10252|S|
-K Vision of the Dead |QID|10252|N|Kill any Aged Clefthoof and Greater Windrocs for the drop.|S|
-
-C Windroc Mastery (Part 2) |QID|9855|US|
-
-N Standards and Practices |QID|9910|QO|First Battle Standard Placed: 1/1|U|25458|M|72,69|
-N Standards and Practices |QID|9910|QO|Second Battle Standard Placed: 1/1|U|25458|M|74.8,69.9|
-N Standards and Practices |QID|9910|QO|Third Battle Standard Placed: 1/1|U|25458|M|75.8,68.4|
-C Message in a Battle |QID|9906|N|Kill ogres until you finish.|
-
-N Blessing of Incineratus |QID|9805|QO|Eastern Hut Destroyed: 1/1|U|24467|M|72.7,54.7|
-N Blessing of Incineratus |QID|9805|QO|Southern Hut Destroyed: 1/1|U|24467|M|71.2,53.2|
-N Blessing of Incineratus |QID|9805|QO|Western Hut Destroyed: 1/1|U|24467|M|70.7,51.4|
-N Blessing of Incineratus |QID|9805|QO|Large Hut Destroyed: 1/1|U|24467|M|72.4,50.6|
-
-T Clefthoof Mastery (Part 2) |QID|9850| |N|Nesingwary Safari.|M|71,40|
-A Clefthoof Mastery (Part 3) |QID|9851|
-T Talbuk Mastery (Part 2) |QID|9858|M|71.5,40.5|
-A Talbuk Mastery (Part 3) |QID|9859|
-T Windroc Mastery (Part 2) |QID|9855|M|71.5,40.5|
-A Windroc Mastery (Part 3) |QID|9856|
-
-T Eating Damnation |QID|9821| |N|Throne of the Elements|M|62.0,24.5|
-A Shattering the Veil |QID|9849|M|62.0,24.5|
-T Blessing of Incineratus |QID|9805|M|60.5,22.5|
-A The Spirit Polluted |QID|9810|M|60.5,22.5|
-
-T Message in a Battle |QID|9906|N|Back at Garadar.|M|55.5,37.5|
-A An Audacious Advance |QID|9907|M|55.5,37.5|
-T Standards and Practices |QID|9910| M|55.5,37.5|
-A Bleeding Hollow Supply Crates |QID|9916|M|55.5,37.5|
-
-C Bleeding Hollow Supply Crates |QID|9916| |N|West in the ogre cave.|M|40.7,31.5|
-C An Audacious Advance |QID|9907|
-
-C Muck Diving |QID|9815| |N|Head south to Halaani Basin.|M|41,38|
-
-T The Missing War Party |QID|9864| |N|Head out of the exit in the northwestern side of the basin and go west to the Mag'hari Procession.|M|33,36|
-A Once Were Warriors |QID|9865|M|32.5,36.0|
-T Missing Mag'hari Procession |QID|9944|M|32.5,36.0|
-A War on the Warmaul |QID|9945|M|32.5,36.0|
-A Finding the Survivors |QID|9948|M|32.5,36.0|
-
-C The Spirit Polluted |QID|9810| |N|Head south through Sunspring Post, killing Murkbloods on the way. Diving into Sunspring Lake at (35,43), pop a Nagrand Cherry, and kill stuff.| |U|24421|M|33.2,50.1|
-
-C Murkblood Leaders... |QID|9867| |N|Ortor is in the large building.|M|31,42|
-A The Totem of Kar'dash |QID|9868|N|He's in a building. Clear all around it, there are two tough ambushes, one almost immediately. Always kill Putrifiers first.|M|31.3,44.1|
-C The Totem of Kar'dash |QID|9868| |N|Always kill Putrifiers first, the Mag'har Captive can take out Scavengers on his own, but that's about it, he's fairly fragile compared to other escorts.|
-C Murkblood Corrupters |QID|9862|
-C Once Were Warriors |QID|9865|
-C Vile Idolatry |QID|9863|M|32.0,39.0|
-
-T Once Were Warriors |QID|9865| |N|Back at Sunspring Post camp.|M|33,36|
-A He Will Walk The Earth... |QID|9866|M|32.5,36.0|
-
-T Murkblood Corrupters |QID|9862| |N|At the Throne of the Elements.|M|60.5,22.5|
-T The Spirit Polluted |QID|9810|M|60.5,22.5|
-T Muck Diving |QID|9815|M|60.5,22.5|
-
-T Bleeding Hollow Supply Crates |QID|9916|M|55.5,37.5|
-T An Audacious Advance |QID|9907|M|55.5,37.5|
-A Diplomatic Measures |QID|10107|M|55.5,37.5|
-T The Totem of Kar'dash |QID|9868| |N|At Garadar.|
-T Vile Idolatry |QID|9863|M|54.5,39.5|
-T He Will Walk The Earth... |QID|9866|M|54.5,39.5|
-T Murkblood Leaders... |QID|9867|M|54.5,39.5|
-
-T Diplomatic Measures |QID|10107| |N|Lantresor of the Blade is in the northernmost point of the Burning Blade Ruins. Listen to his tale and turn the quest in.|M|74,63|
-A Armaments for Deception |QID|9928|M|74.0,62.5|
-A Ruthless Cunning |QID|9927|M|74.0,62.5|
-
-C Wanted: Giselda the Crone |QID|9935| |N|Head to Kil'sorrow Fortress, to the southwest. Giselda is in the biggest building in the southern area of the fortress. Kill orcs as you go and plant the banners in their corpses. Also gather armaments.||U|25552|M|71.2,82.4|
-C Ruthless Cunning |QID|9927| |N|Kill any orcs you still need and plant the banners in their corpses. Also gather armaments.| |U|25552|M|71.5,79.5|
-C Armaments for Deception |QID|9928||N|Gather any remaining armaments.|M|71.5,79.5|
-
-T Armaments for Deception |QID|9928|M|74.0,62.5|
-T Ruthless Cunning |QID|9927|M|74.0,62.5|
-A Returning the Favor |QID|9931|M|74.0,62.5|
-A Body of Evidence |QID|9932|M|74.0,62.5|
-
-T Wanted: Giselda the Crone |QID|9935| |N|Back at Garadar.|M|56.0,38.0|
-A He Called Himself Altruis... |QID|9983|M|55.2,36.2|
-
-C Body of Evidence |QID|9932|U|25658|N|Use the blanket at the Warmaut Pyre. Defend the ogres, use the banners on the hostile ogres' corpses.|M|46.5,24.5|
-K Zorbo the Advisor |QID|9939|QO|Zorbo the Advisor slain: 1/1|U|25555|N|He's in the northernmost cave, up in the hills.|M|46.5,18.2|
-C Returning the Favor |QID|9931|U|25555|N|Kill the ogres and use the Kil'sorrow Banner on their corpses.|M|46.5,24.5|
-C Wanted: Zorbo the Advisor |QID|9939||N|Kill any ogres you still need.|
-
-N Things to do |QID|9977|N|Time to start looking for help. You're in the right general area for the Ring of Blood questline, you will, however, need a full group of 65+ people with a good tank and healer, or high level help. The rewards, however, are very good, so call in whatever help you can.|
-
-C Finding the Survivors |QID|9948| |N|Kill the Warmaul and use the keys they drop to open the cages. |M|30,32|
-C War on the Warmaul |QID|9945|
-C Proving Your Strength |QID|10479|M|48.5,21.5|
-
-T Finding the Survivors |QID|9948| |N|At the Mag'hari Procession to the south.|M|32,36|
-T War on the Warmaul |QID|9945|M|32.5,36.0|
-A Cho'war the Pillager |QID|9946|
-
-T He Called Himself Altruis... |QID|9983| |N|Southwest.|M|27,43|
-A Survey the Land |QID|9991| |N|You have to be dismounted for this, if not dismount, abandon it and try again.|
-T Survey the Land |QID|9991| |N|The quest doesn't work if you accept while mounted, if you were, dismount, abandon it and try again.|
-A Buying Time|QID|9999|
+K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye. He wanders around where the waypoints are.|T|Gutripper|L|24513|US|
+l Mountain Gronn Eyeball|QID|10252|N|Kill the Mountain Gronn on this path and loot the eyeball.|L|28665|M|30.00,32.00|T|Mountain Gronn|
+T He Called Himself Altruis...|QID|9983|M|27.29,43.1|N|To Altruis the Sufferer.|
+A Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
+C Survey the Land |N|Make sure you are not mounted when you accept this quest (or if you are just talk to Altruis and say you're ready to survey).  You should fly around automatically.|QID|9991|M|27.29,43.1|
+T Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
+A Buying Time|QID|9999|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Buying Time|QID|9999|M|25.52,37.54|N|Kill the Demons that are needed for this quest.|
 T Buying Time|QID|9999|M|27.35,43.06|N|To Altruis the Sufferer.|
 A The Master Planner|QID|10001|M|27.35,43.06|N|From Altruis the Sufferer.|
 C The Master Planner|QID|10001|M|23.64,34.7;17.49,50.27|N|Find, kill and loot a Mo'arg Master Planner at either of the waypoints.|
 T The Master Planner|QID|10001|M|27.33,43.07|N|To Altruis the Sufferer.|
-N Altruis offers too much|QID|9859|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion as they take you out of the zone.|
+N Altruis offers too much|QID|9865|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion as they take you out of the zone.|
+K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|N|Kill Bach'lor and loot his hoof. He wanders between the waypoints.|T|Bach'lor|L|24523|US|
 
-C Windroc Mastery (Part 3) |QID|9856| |N|Gutripper patrols north and west of the inverted 'T' just southeast of Warmaul Hill.|M|32,29;34,21|
-C Talbuk Mastery (Part 3) |QID|9859| |N|He patrols to the east of Forge Camp: Hate and Fear. Similar to the previous quest.|M|30,36;25,53|
+C Once Were Warriors |QID|9865|N|Kill Murkblood Scavengers and Raiders.|S|M|32.85,44.66|
+C Murkblood Corrupters |QID|9862|N|Kill Murkblood Putrifiers.|S|M|32.85,44.66|
+C Vile Idolatry |QID|9863|M|32.0,39.0|N|Loot Murkbloods to get the Idols.|S|M|32.85,44.66|
+C Murkblood Leaders... |QID|9867|N|Ortor is in the large building.|M|31,42|M|32.85,44.66|
+C The Spirit Polluted |QID|9810|N|Head south through Sunspring Post. Dive into Sunspring Lake, pop a Nagrand Cherry, and kill what is needed.|U|24421|M|33.2,50.1|
 
-K Mountain Gronn |QID|10252|QO|Mountain Gronn Eyeball: 1/1|N|Head to the path going up to the Warmaul Hills. The Gronn will wander up and down.|M|30,32|
+A The Totem of Kar'dash |QID|9868|N|From the Mag'har Captive. He's in a building. Clear all around it, there are two tough ambushes, one almost immediately. Always kill Putrifiers first.|M|31.3,44.1|
+C The Totem of Kar'dash |QID|9868|N|Always kill Putrifiers first, the Mag'har Captive can take out Scavengers on his own, but that's about it, he's fairly fragile compared to other escorts.|
+C Murkblood Corrupters |QID|9862|N|Kill Murkblood Putrifiers.|US|M|32.85,44.66|
+C Once Were Warriors |QID|9865|N|Kill Murkblood Scavengers and Raiders.|US|M|32.85,44.66|
+C Vile Idolatry |QID|9863|M|32.0,39.0|N|Loot Murkbloods to get the Idols.|US|M|32.85,44.66|
+T Once Were Warriors |QID|9865|N|To Saurfang the Younger.|M|32.5,36.0|
+A He Will Walk The Earth... |QID|9866|M|32.5,36.0|N|From Saurfang the Younger.|
+T The Spirit Polluted |QID|9810|M|60.5,22.4|N|To Ementalist Lo'ap.|
+T Muck Diving |QID|9815|M|60.5,22.4|N|To Ementalist Lo'ap.|
+T Murkblood Corrupters |QID|9862|M|60.5,22.4|N|To Ementalist Morgh.|
 
-K Greater Windrocs |QID|10252|QO|Flawless Greater Windroc Beak: 1/1|N|Until you get the Flawless Greater Windroc Beak.| |
+T Bleeding Hollow Supply Crates |QID|9916|M|55.5,37.5|N|To Elkay'gan the Mystic.|
+T An Audacious Advance |QID|9907|M|55.5,37.5|N|To Jorin Deadeye.|
+A Diplomatic Measures |QID|10107|M|55.5,37.5|N|From Jorin Deadeye.|
+T The Totem of Kar'dash |QID|9868|N|To Garrosh.|
+T Proving Your Strength |QID|10479|M|56.0,38.0|N|To Warden Bullrok.|
+T Vile Idolatry |QID|9863|M|54.5,39.5|N|To Farseer Kukush.|
+T He Will Walk The Earth... |QID|9866|M|54.5,39.5|N|To Farseer Corhuk.|
+T Murkblood Leaders... |QID|9867|M|54.5,39.5|N|To Farseer Margadesh.|
 
-K Aged Clefthoofs |QID|10252|N|There's some near the Forge Camps. If you can't get the drop, don't worry, just move on.|
+T Diplomatic Measures |QID|10107|N|To Lantresor of the Blade is in the northernmost point of the Burning Blade Ruins. Listen to his tale and turn the quest in.|M|74,63|
+A Armaments for Deception |QID|9928|M|74.0,62.5|N|From Lantresor of the Blade.|
+A Ruthless Cunning |QID|9927|M|74.0,62.5|N|From Lantresor of the Blade.|
+C Ruthless Cunning |QID|9927|N|Kill orcs you and plant the banners in their corpses.|U|25552|M|71.5,79.5|S|
+C Armaments for Deception |QID|9928|N|Gather armaments from the ground.|M|71.5,79.5|S|
+C Wanted: Giselda the Crone |QID|9935|N|Head to Kil'sorrow Fortress, to the southwest. Giselda is in the biggest building in the southern area of the fortress. Go in and kill Giselda while killing other orcs.|M|71.2,82.4|
+C Ruthless Cunning |QID|9927|N|Kill orcs you and plant the banners in their corpses.|U|25552|M|71.5,79.5|US|
+C Armaments for Deception |QID|9928|N|Gather armaments from the ground.|M|71.5,79.5|US|
+T Vision of the Dead |QID|10252|N|To Nitrin the Learned.|M|51.74,56.9|
+A Matters of Security |QID|9925|M|30.8,58.1|N|From Zerid.|
+A Gava'xi |QID|9900|M|30.8,58.1|N|From Zerid.|
+T The Consortium Needs You! |QID|9913|M|31.4,57.8|N|To Gezhe.|
+A Stealing from Thieves |QID|9882|M|31.4,57.8|N|From Gezhe. This will not appear if you are friendly with the Consortium. If so, just skip this quest.|
+A A Head Full of Ivory|QID|9914|N|From Shadrek. This will not appear if you are friendly with the Consortium. If so, just skip this quest.|M|31.75,56.80|
+T A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|O
 
-A Gava'xi |QID|9900|N|South at Aeris Landing .|M|31,58|
-A Matters of Security |QID|9925|M|31.0,58.0|
-C Matters of Security |QID|9925|N|Kill void spawn and loot crystal parts from the ground.|S|
-T The Consortium Needs You! |QID|9913|M|31.5,58.0|
-A Stealing from Thieves |QID|9882|M|31.5,58.0|
-C Stealing from Thieves |QID|9882|N|Loot crystal parts from the ground.|M|33.5,62.5|S|
-A A Head Full of Ivory |QID|9914| |N|You may be able to turn this in straight away. Also, it is not available if you are already Friendly with the Consortium.|M|32.0,57.0|
-C A Head Full of Ivory |QID|9914| |N|Keep any Pairs of Ivory Tusks you find.|L|25463 3|US|
-T A Head Full of Ivory |QID|9914|M|32.0,57.0|
+l Murkblood Invasion Plans |QID|9871|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24558|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|
+A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9871|U|24558|M|28.3,53.4|
+l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|O|
+C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
+C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|O|
+C Clefthoof Mastery |N|Kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
+K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
+C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this area and kill the Minions until you finish this quest.|QID|9849|M|38.00,82.00|U|24501|
+T Gava'xi |QID|9900|M|30.8,58.1|N|To Zerid.|
+T Matters of Security |QID|9925|M|30.8,58.1|N|To Zerid.|
+T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|O|
 
-C Clefthoof Mastery (Part 3) |QID|9851| |N|Similar to the previous two mastery quests. Banthar patrols around the north and east half of Oshu'gun.|M|32,62;45,70|
-
-C Vision of the Dead |QID|10252|QO|Aged Clefthoof Blubber: 1/1|N|This is the last opportunity to get the drop, so kill the Aged Clefthoofs for the drop.|US|
-K Murkblood Invaders |QID|9872|L|24558|N|They patrol along the road that goes past Aeris Landing. You only need to kill and loot one to get the plans.|US|
-C Gava'xi |QID|9900| |N|He walks to the top of the nearby hill.|M|42,72|
-C Matters of Security |QID|9925|N|Kill Void Spawn.|US|
-C Stealing from Thieves |QID|9882|N|Loot crystal parts from the ground.|M|33.5,62.5|US|
-
-C Shattering the Veil |QID|9849| |N|Head to the southwestern edge of the zone; use Gordawg's Bolder on the Shattered Rumblers and kill the Minions of Gurok.| |U|24501|
-A Murkblood Invaders |QID|9872| |U|24558|
-
-T Vision of the Dead |QID|10252| |N|Northeast at the Abandoned Armory.|M|52,57|
-
-T Returning the Favor |QID|9931|N|East in the Burning Skull Ruins.|M|74,63|
-T Body of Evidence |QID|9932|M|74,63|
-A Message to Garadar |QID|9934|M|74.0,62.5|
-
-T Clefthoof Mastery (Part 3) |QID|9851|
-T Windroc Mastery (Part 3) |QID|9856|
-T Talbuk Mastery (Part 3) |QID|9859|
-A The Ultimate Bloodsport |QID|9852|
-
-T Shattering the Veil |QID|9849| |N|At the Throne of the Elements|M|62.0,24.5|
-A Gurok the Usurper |QID|9853|
-
-T Message to Garadar |QID|9934|M|55.5,37.5|
-T Murkblood Invaders |QID|9872|
-T Wanted: Zorbo the Advisor |QID|9939|M|56.0,38.0|
-T Proving Your Strength |QID|10479|M|56.0,38.0|
-A Wanted: Durn the Hungerer |QID|9937|
+T Armaments for Deception |QID|9928|M|74.0,62.5|N|To Lantresor of the Blade.|
+T Ruthless Cunning |QID|9927|M|74.0,62.5|N|To Lantresor of the Blade.|
+A Returning the Favor |QID|9931|M|74.0,62.5|N|From Lantresor of the Blade.|
+A Body of Evidence |QID|9932|M|74.0,62.5|N|From Lantresor of the Blade.|
+T Windroc Mastery  |QID|9856|N|To Shado 'Fitz' Farstrider.|M|71.57,40.53|
+T Clefthoof Mastery  |QID|9851|N|To Hemet Nesingwary.|M|71.52,40.79|
+T Talbuk Mastery  |QID|9859|N|To Harold Lane.|M|71.4,40.63|
+A The Ultimate Bloodsport |QID|9852|N|From Hemet Nesingwary.|M|71.52,40.79|
+T Wanted: Giselda the Crone |QID|9935|M|56.0,38.0|N|To Warden Bullrok.|
+T Murkblood Invaders |QID|9872|N|To Garrosh.|
+T Shattering the Veil |QID|9849|M|61.8,24.4|N|To Gordawg.|
+A Gurok the Usurper |QID|9853|N|From Gordawg.|M|61.8,24.4|
+N Things to do |QID|9948|N|Time to start looking for help. You're in the right general area for the Ring of Blood questline, you will, however, need a full group of 65+ people with a good tank and healer, or high level help. The rewards, however, are very good, so call in whatever help you can.|
+C Returning the Favor |QID|9931|U|25555|S|N|Kill the ogres and use the Kil'sorrow Banner on their corpses.|M|46.5,24.5|
+C Body of Evidence |QID|9932|U|25658|N|Use the blanket at the Warmaut Pyre. Defend the ogres, use the banners on the hostile ogres' corpses.|M|46.5,24.5|
+K Zorbo the Advisor |QID|9939|QO|Zorbo the Advisor slain: 1/1|U|25555|N|He's in the northernmost cave, up in the hills.|M|46.5,18.2|
+C Returning the Favor |QID|9931|U|25555|US|N|Kill the ogres and use the Kil'sorrow Banner on their corpses.|M|46.5,24.5|
+C Wanted: Zorbo the Advisor |QID|9939|N|Kill any ogres you still need.|
 
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|S|
-C Gurok the Usurper |QID|9853| |N|To find him, head to the Warmaul hills, then head up the slope, take the path on your right going northwest. On the plateau, enter the cave at  on the south side. Follow it up. Careful of where you face when you fight Gurok, he does a knockback, and falling off a mountain ain't fun.|M|27,23||U|24502|
-C Cho'war the Pillager |QID|9946| |N|He's in the northern cave on that plateau for the previous quest.|M|27,18|
-T Cho'war the Pillager |QID|9946|M|32.5,36.0|
-N Loremaster|N|If you want the quest acheivement for Nagrand get the follow up and finsh the chain, then Garrosh will start a 14 quest chain that should get you Nagrand Slam.|
+C Finding the Survivors |QID|9948|N|Kill the Warmaul and use the keys they drop to open the cages. |M|27.00,23.00|S|
+C War on the Warmaul |QID|9945|M|27.00,23.00|N|Kill Warmaul Brutes and Warlocks.|
+C Finding the Survivors |QID|9948|N|Kill the Warmaul and use the keys they drop to open the cages. |M|27.00,23.00|US|
+l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|US|
+C Gurok the Usurper|N|Use the skulls at the pulsating purple circle. Kill Gurok then loot him. He has a nasty knock back, so don't have your back towards the cliff.|QID|9853|M|29.00,25.00|U|24502|
+T Finding the Survivors |QID|9948|N|To Elder Ungriz.|M|32,36|
+T War on the Warmaul |QID|9945|M|32.5,36.0|N|To Elder Yorley.|
+A Cho'war the Pillager |QID|9946|N|From Elder Yorley.|
+C Cho'war the Pillager |QID|9946|N|He's in the northern cave on that plateau for the previous quest.|M|27,18|
+T Cho'war the Pillager |QID|9946|M|32.5,36.0|N|To Elder Yorley.|
+T Wanted: Zorbo the Advisor |QID|9939|M|56.0,38.0|N|To Warden Bullrok.|
+A Wanted: Durn the Hungerer |QID|9937|N|From Warden Bullrok.|
+T Gurok the Usurper |QID|9853|M|62.0,24.5|N|To Gordawg.|
 
-T Gava'xi |QID|9900|M|31.0,58.0|
-T Matters of Security |QID|9925| |N|At Aeris Landing.|M|31,58|
-T Stealing from Thieves |QID|9882|M|31.5,58.0|
-C Wanted: Durn the Hungerer |QID|9937| |N|He patrols around Oshu'gun. He's very, very large.|
-C The Ultimate Bloodsport |QID|9852| |N|She's on top of a hill.|M|43,65|
+T Body of Evidence |QID|9932|M|73.8,62.6|N|To Lantresor of the Blade.|
+T Returning the Favor |QID|9931|M|73.8,62.6|N|To Lantresor of the Blade.|
+A Message to Garadar |QID|9934|M|73.8,62.6|N|From Lantresor of the Blade.|
+C The Ultimate Bloodsport |QID|9852|N|She's on top of a hill.|M|43,65|
+C Wanted: Durn the Hungerer |QID|9937|N|He patrols around Oshu'gun. He's very, very large.|
+T Wanted: Durn the Hungerer |QID|9937|M|55.8,37.9|N|To Warden Bullrok.|
+T Message to Garadar |QID|9934|M|55.5,37.5|N|To .|
+T The Ultimate Bloodsport |QID|9852|M|71.5,40.8|N|To .|
 
-T Wanted: Durn the Hungerer |QID|9937|M|55.8,37.9|
-T Gurok the Usurper |QID|9853|M|62.0,24.5|
-T The Ultimate Bloodsport |QID|9852||M|71.5,40.8|
+N Loremaster|N|If you want the quest acheivement for Nagrand, head to Altruis.|
 
 N The following quests are the rest of the ones from Altruis.|
 A Patience and Understanding|QID|10004|M|27.33,43.07|N|From Altruis the Sufferer.|

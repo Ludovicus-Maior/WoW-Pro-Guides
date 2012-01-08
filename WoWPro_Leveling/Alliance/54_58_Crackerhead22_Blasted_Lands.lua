@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2011-12-28 22:11
+-- Who: Fluclo
+-- Log: Added Level message, target for Curtail the Darktail, and changed order/steps around Captain Metlek.
+
+-- URL: http://wow-pro.com/node/3267/revisions/24862/view
 -- Date: 2011-12-12 19:10
 -- Who: Crackerhead22
 -- Log: Added in missing quest.
@@ -47,6 +52,8 @@
 WoWPro.Leveling:RegisterGuide('CraBla5458', 'Blasted Lands', 'Crackerhead22', '54', '58', 'JamHel6062', 'Alliance', function()
 return [[
 
+L Level 54 |QID|25715|L|54|N|You need to be Level 54 to do this guide.|
+
 T Hero's Call: Blasted Lands!|QID|28673|M|60.11,13.67|Z|Blasted Lands|N|Enter the building and go up one floor to Quartermaster Lungertz.|O|
 T Blasted Lands: The Other Side of the World|QID|28857|M|60.11,13.67|N|To Quartermaster Lungertz.|O|
 R Blasted Lands|QID|28867|M|53.4,33.4|Z|Silithus|N|Click on the portal by the Nethergarde Mage to go to the Blasted Lands.|O|
@@ -67,15 +74,18 @@ T Minor Distractions|QID|25710|M|60.13,13.67|N|To Quartermaster Lungertz.|
 A Eliminate the Okril'lon|QID|25711|M|60.13,13.67|N|From Quartermaster Lungertz.|
 A Nethergarde Reigns|QID|25712|M|60.18,13.58|N|From Leyan Steelson.|
 A Remove Their Arms|QID|25713|M|60.35,13.77|N|From Buttonwillow McKittrick.|
-C Curtail the Darktail|QID|25709|S|U|57119|M|68.54,32.58|N|Use the bow on the vultures as you go along, has about 100 yard range.|
+C Curtail the Darktail|QID|25709|S|U|57119|M|68.54,32.58|N|Use the bow on the vultures as you go along, has about 100 yard range.|T|Darktail Bonepicker|
 C Our Fallen Friends|QID|25708|M|68.54,33.33|N|Kill any Drowned Gilnean you see to release them.|
-C Curtail the Darktail|QID|25709|US|U|57119|M|68.54,32.58|N|Kill any vultures you need left.|
+C Curtail the Darktail|QID|25709|US|U|57119|M|68.54,32.58|N|Kill any vultures you need left.|T|Darktail Bonepicker|
 T Our Fallen Friends|QID|25708|M|61.59,18.71|N|To Enohar Thunderbrew.|
 T Curtail the Darktail|QID|25709|M|61.59,18.71|N|To Enohar Thunderbrew.|
-C Remove Their Arms|QID|25713|S|U|57117|M|53.44,13.77|N|Throw the grenade at the sparkling boxes (has a minimum range), and kill any infantry you need to kill as you go.|
+
+C Eliminate the Okril'lon|QID|25711|M|53.06,15.91|N|Kill Okril'lon Infantry.|S|
+C Remove Their Arms|QID|25713|S|U|57117|M|53.44,13.77|N|Throw the grenade at the sparkling boxes (has a minimum range)|NC|
 C Nethergarde Reigns|QID|25712|M|51.57,12.70|N|Slay Captain Metlek at the Nethergarde Supply Camp.|
-C Eliminate the Okril'lon|QID|25711|M|53.06,15.91|N|Kill any more Okril'lon Infantry you need.|
-C Remove Their Arms|QID|25713|S|US|U|57117|M|53.44,13.77|N|Throw the grenade at the sparkling boxes (has a minimum range), and kill any infantry you need to kill as you go.|
+C Remove Their Arms|QID|25713|US|U|57117|M|53.44,13.77|N|Finish throwing grenades at the sparkling boxes.|NC|
+C Eliminate the Okril'lon|QID|25711|M|53.06,15.91|N|Finish killing the Okril'lon Infantry you need.|
+
 T Remove Their Arms|QID|25713|M|60.37,13.79|N|To Buttonwillow McKittrick.|
 T Nethergarde Reigns|QID|25712|M|60.17,13.56|N|To Leyan Steelson.|
 T Eliminate the Okril'lon|QID|25711|M|60.17,13.56|N|To Quartermaster Lungertz.|
@@ -124,9 +134,6 @@ C Neptool's Revenge|QID|25706|QO|Bloodwash Gambler slain: 4/4|M|66.58,72.81|N|Ki
 C False Idols|QID|25705|S|M|61.20,62.76|N|Smash the idols as you go.|
 C Neptool's Revenge|QID|25706|QO|Bloodwash Idolater slain: 4/4|M|60.12,76.47|N|Kill the Bloodwash Idolaters here.|
 C Neptool's Revenge|QID|25706|M|61.20,62.76|N|Kill Bloodwash Zealots and Acolytes inside the cave.|
-A The Future of the Rockpool|QID|25707|M|61.54,63.02|N|From Abandoned Bloodwash Crate. Click it and choose to help the tadpoles.|
-C The Future of the Rockpool|QID|25707|M|69.23,81.26|N|Drag the crate to the beach and swim a little ways out into the water.|
-T The Future of the Rockpool|QID|25707|M|69.21,81.26|N|(UI Alert)|
 C False Idols|QID|25705|US|M|61.20,62.76|N|Smash the idols as you go.|
 T False Idols|QID|25705|M|70.99,59.90|N|To Neptool.|
 T Neptool's Revenge|QID|25706|M|70.99,59.90|N|To Neptool.|
@@ -205,6 +212,7 @@ C The Downfall of Marl Wormthorn|QID|26187|U|57185|M|34.84,68.11|N|Kill the demo
 T The Downfall of Marl Wormthorn|QID|26187|M|46.34,87.06|N|To Mayor Charlton Connisport.|
 F Stormwind City|QID|28708|M|47.11,89.29|N|Fly to Stormwind to visit trainers, AH, sell junk and repair/restock.|
 L You should by now...|QID|28708|N|Between level 58-60 by now. If you are not level 60, I would suggest doing another zone or two to hit 60. That way you can fly in the Outlands. If you don't wish to do that, just close this step and the next guide will load.|
+
 ]]
 
 end)

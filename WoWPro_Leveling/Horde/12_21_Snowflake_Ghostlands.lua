@@ -1,4 +1,8 @@
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2011-12-21 11:50
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3221/revisions/24600/view
 -- Date: 2011-06-25 01:42
 -- Who: Crackerhead22
 -- Log: ! Duplicate A step for qid 9327 - Removed line.
@@ -55,47 +59,54 @@
 WoWPro.Leveling:RegisterGuide("SnoGho1221", "Ghostlands", "Snowflake", "12", "21", "AyaHil2025", "Horde", function()
 return [[
 
+;This step will not show if you have completed A Somber Task as part of the Eversong Woods guide
+;as you'll be closer to quest ender, and will already be carrying the two quests.
+R Fairbreeze Village |QID|9144|LEAD|8473|M|44.06,70.73|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|
+
 A Missing in the Ghostlands |QID|9144|M|44.06,70.73|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|
-A Runewarden Deryan|QID|9253|M|46.92,71.81|N|From Ranger Sareyn. You have to have done the quest Defending Fairbreeze to get this, but you'll be able to get the follow up to this regardless of whether you do it.|Z|Eversong Woods|
-T Runewarden Deryan|QID|9253|N|To Runewarden Deryan. Head south along the road to the Ghostlands, then go west when you hit the Dead Scar.|Z|Eversong Woods|M|44,85|
-A Powering our Defences |QID|8490|N|From Runewarden Deryan. If you couldn't get the "Runewarden Deryan" quest.|Z|Eversong Woods|M|44,85|
-C Powering our Defences |QID|8490|U|22693|N|Head east. Get full HP/mana. Use the infused crystal and defend it.|Z|Eversong Woods|M|55,84|
-T Powering our Defences |QID|8490|N|Back to Runewarden Deryan.|Z|Eversong Woods|M|44,85|
+A Runewarden Deryan|QID|9253|PRE|9252|M|46.92,71.81|N|From Ranger Sareyn. \n\nYou have to have done the quest Defending Fairbreeze to get this, but you'll be able to get the follow up to this regardless of whether you do it.|Z|Eversong Woods|
+T Runewarden Deryan|QID|9253|PRE|9252|M|44.20,85.46|N|To Runewarden Deryan.|Z|Eversong Woods|
+A Powering our Defences |QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|Z|Eversong Woods|
+C Powering our Defences |QID|8490|U|22693|N|Head to the Runestone Shan'dor, then use the Infused Crystal.  You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|Z|Eversong Woods|M|55,84|
+T Powering our Defences |QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|Z|Eversong Woods|
 
 T Missing in the Ghostlands |QID|9144|N|To Courier Dawnstrider.|Z|Eversong Woods|M|48,88|
 A The Fallen Courier|QID|9147|M|49,89|N|From Apothecary Thedra|Z|Eversong Woods|
-C The Fallen Courier|QID|9147|N|Head over the bridge and kill all the mobs near the bridge.|M|49.85,13.05|
+C The Fallen Courier|QID|9147|N|Head over the bridge, then kill and loot the Starving Ghostclaw and Mistbats.|M|49.85,13.05|
 T The Fallen Courier|QID|9147|M|49,89|N|To Apothecary Thedra|Z|Eversong Woods|M|49,89|
 A Delivery to Tranquillien |QID|9148|N|From Courier Dawnstrider.|Z|Eversong Woods|
 T Delivery to Tranquillien |QID|9148|N|Follow the road south to Tranquillien.|
 
 A The Forsaken |QID|9327|R|BloodElf|N|From Vandril.|M|46.35,28.39|
 A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|N|From Vandril.|
-f Tranquillien|QID|9327|M|45.47,30.54|N|At Skymaster Sunwing.|
+f Tranquillien|QID|9327|LVL|10|M|45.47,30.54|N|At Skymaster Sunwing.|
 T The Forsaken |QID|9327|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
 T The Forsaken |QID|9329|R|Orc,Troll,Tauren,Undead,Goblin|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
 A Return to Arcanist Vandril|QID|9758|M|44.84,32.43|N|From High Executor Mavren.|
 T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|M|46.33,28.45|N|From Arcanist Vandril.|
 A Tomber's Supplies|QID|9152|M|47.20,28.64|N|From Rathis Tomber.|
-A Wanted: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the wanted poster.  This is a group quest, the 2 mobs are 21 elites. If you see anyone looking for help, or offering help, take them up on it.  |
-h Tranquillien|QID|9156|M|48.87,32.38|N|At Innkeeper Kalarin.|
-r Repair/Restock|QID|9156|M|49.09,30.32|N|At Blacksmith Frances.|
+A Wanted: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the wanted poster.  This is a group quest, the 2 mobs are 21 elites. If you see anyone looking for help, or offering help, take them up on it.|RANK|3|
+h Tranquillien|QID|9157|M|48.87,32.38|N|At Innkeeper Kalarin.|
+r Training/Repair/Sell Junk|QID|9157|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
 A The Plagued Coast|QID|9149|M|47.57,34.78|N|From Apothecary Renzithen.|
 
-A Anok'suten|QID|9315|M|57.57,15.03|N|From Dying Blood Elf.|
+A Anok'suten|QID|9315|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|
 C Suncrown Village|QID|9138|S|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
-C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten wanders around the circle path.|
+C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten is a Level 11 elite with 624 HP.  He wanders counter-clockwise around the circle path.|T|Anok'suten|
 C Suncrown Village|QID|9138|US|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
 A Dealing with Zeb'Sora|QID|9143|M|69.30,15.20|N|From Ranger Valanna.|
+
 A Forgotten Rituals|QID|9157|M|72.19,18.96|N|From Geranis Whitemorn.|
-l Forgotten Rituals|QID|9157|L|22674 8|M|70.04,20.69|N|Dive into the lake and look for Glistening Mud.  You need 8 medallions.|
+C Forgotten Rituals|QID|9157|L|22674 8|M|70.04,20.69|N|Dive into the lake, locate and loot the Glistening Mud.|NC|
 T Forgotten Rituals|QID|9157|M|72.22,19.10|N|To Geranis Whitemorn.|
+
 A Vanquishing Aquantion|QID|9174|M|72.22,19.10|N|From Geranis Whitemorn.|
-C Vanquishing Aquantion|QID|9174|U|22675|M|71.38,15.03|N|Jump back into the lake, head towards the sparkling statue and click on it.  Kill him once he spawns.|
+C Vanquishing Aquantion|QID|9174|M|70.80,13.81;71.38,15.03|N|Jump back into the lake, head towards the sparkling statue and click on it.  Kill him once he spawns.|
 T Vanquishing Aquantion|QID|9174|M|72.23,18.99|N|To Geranis Whitemorn.|
 C Dealing with Zeb'Sora|QID|9143|M|77.69,12.65|N|Kill any troll you see to get their ears.|
-A Bearers of the Plague|QID|9158|M|72.51,32.18|N|From Farstrider Sedina.|
+
+A Bearers of the Plague|QID|9158|M|72.51,32.18|N|From Farstrider Sedina at the Farstrider Enclave.|
 A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.27|N|From the wanted poster.|
 A Spirits of the Drowned|QID|9274|M|72.21,29.89|N|From Ranger Krenn'an.|
 C Spirits of the Drowned|QID|9274|S|M|71.04,24.00|N|Kill any ghost you see floating around in the lake.|
@@ -110,18 +121,22 @@ T Suncrown Village|QID|9138|M|46.24,28.35|N|To Arcanist Vandril.|
 A Goldenmist Village|QID|9139|M|46.24,28.35|N|From Arcanist Vandril.|
 T Anok'suten|QID|9315|M|46.24,28.35|N|To Arcanist Vandril.|
 A Culinary Crunch|QID|9171|M|48.40,30.90|N|From Master Chef Mouldier.|
-r Repair/Restock|QID|9171|M|49.08,30.31|N|At Blacksmith Frances.|
+;r Repair/Restock|QID|9171|M|49.08,30.31|N|At Blacksmith Frances.|
 A Salvaging the Past|QID|9150|M|46.07,31.90|N|From Magister Darenis.|
 A Investigate An'daroth|QID|9160|M|44.93,32.45|N|From Dame Auriferous.|
 A Trouble at the Underlight Mines|QID|9192|M|44.83,32.26|N|From Deathstalker Maltendis.|
 A Down the Dead Scar|QID|9155|M|46.04,33.54|N|From Deathstalker Rathiel.|
 C Down the Dead Scar|QID|9155|M|39.76,32.47|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals. If you come across any Ghostclaw Lynxs, kill them as well.|
 C Salvaging the Past|QID|9150|M|33.41,32.40|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
-C Tomber's Supplies|QID|9152|M|33.56,26.81|N|It is in the wagon, you will most likely have to clear an area around it.|
-C Investigate An'daroth|QID|9160|NC|M|37.02,15.42|N|Head to the center of An'daroth to get the investigation part, then kill 12 Sentinel Spies.  Kill any spiders you see on the way.|
+C Tomber's Supplies|QID|9152|M|33.56,26.81|N|It is in the wagon.\n\nYou will most likely have to clear an area around it.|NC|
+C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders untill you have 5 Crunchy Spider Legs.|S|
+
+C Investigate An'daroth|QID|9160|M|37.02,15.42|N|Kill the Sentinel Spy around An'daroth.|QO|Sentinel Spy slain: 12/12|S|
+C Investigate An'daroth|QID|9160|NC|M|37.02,15.42|N|Head to the center of An'daroth to investigation it.|QO|Investigate An'daroth|
+C Investigate An'daroth|QID|9160|M|37.02,15.42|N|Kill the Sentinel Spy around An'daroth.|QO|Sentinel Spy slain: 12/12|US|
 C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
 C The Plagued Coast|QID|9149|M|19.02,24.06|N|Kill any murlocs you see for their spines.  You will need 6 spines.|
-C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders untill you have 5 Crunchy Spider Legs.|
+C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders untill you have 5 Crunchy Spider Legs.|US|
 
 H Tranquillien|QID|9139|N|Hearth back to Tranquillien.|
 T Culinary Crunch|QID|9171|M|48.40,31.00|N|To Master Chef Mouldier.|
@@ -147,7 +162,7 @@ C Windrunner Village|QID|9140|M|17.95,42.65|N|Jump into the water and swim into 
 C Into Occupied Territory|QID|9163|M|10.56,22.49|N|Night Elf Plans: An'daroth and An'owyn, can be in several spots on the isle.  Night Elf Plans: Scrying on Sin'dorei, is on the boat.|
 
 H Tranquillien|QID|9138|N|Hearth back to Tranquillien.|
-r Repair/Restock|QID|9175|M|49.11,30.32|N|At Blacksmith Frances.|
+r Training/Repair/Sell Junk|QID|9175|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
 A Spinal Dust|QID|9218|M|48.95,31.35|N|From Magistrix Aminel.|
 A Rotting Hearts|QID|9216|M|48.95,31.35|N|From Magistrix Aminel.|
 T Rotting Hearts|QID|9216|M|48.95,31.35|N|To Magistrix Aminel.|
@@ -257,8 +272,8 @@ A Friend of the Sin'dorei|QID|9811|M|54.99,48.99|R|Orc,Troll,Tauren,Undead,Gobli
 T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.91,48.38|N|To Arcanist Janeda.|
 K Luzran|QID|9156|M|39.5,32;37.3,67.5|N|If you have help or can solo Luzran look for him where the waypoints are.  If not, go ahead and skip.|
-C Wanted: Knucklerot and Luzran|QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|N|If you have help or can solo Knucklerot, look for him where the waypoints are.  If not, go ahead and skip.|
-T Wanted: Knucklerot and Luzran|QID|9156|N|To Deathstalker Rathiel.|
+C Wanted: Knucklerot and Luzran|QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|N|If you have help or can solo Knucklerot, look for him where the waypoints are.  If not, go ahead and skip.|RANK|3|
+T Wanted: Knucklerot and Luzran|QID|9156|N|To Deathstalker Rathiel.|RANK|3|
 R Tranquillien|QID|9328|M|46,33|N|Run to Tranquillien.|
 
 F Silvermoon City|QID|9328|M|46,30|N|Fly to Silvermoon City.|
@@ -282,6 +297,7 @@ f Brill|QID|28571|M|58.89,52.00|Z|Tirisfal Glades|N|At Anette Williams.|
 f The Sepulcher|QID|28571|M|45.41,42.49|Z|Silverpine Forest|N|At Karos Razok.|
 f The Forsaken Front|QID|28571|M|50.90,63.69|Z|Silverpine Forest|N|At Steven Stutzka.|
 f Southpoint Gate|QID|28571|M|29.11,64.38|Z|Hillsbrad Foothills|N|At Pamela Stutzka.|
+
 ]]
 
 end)

@@ -1,4 +1,9 @@
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2011-12-23 07:41
+-- Who: Fluclo
+-- Log: Added minimum level guide; At Level 44, you don't have the Flightpoint to Thousand Needles, so added info on getting there; You have the flightplan to Gadgetzan when you are in Speedbarge regardless of not previously using the route, so added this as your method of travel to avoid swimming/running.
+
+-- URL: http://wow-pro.com/node/3259/revisions/24461/view
 -- Date: 2011-05-30 18:00
 -- Who: Ludovicus Maior
 -- Log: ! Line 84 for step C Bad coord 7288: [C To The Ground!|QID|25053|U|51547|M|7288,46.09|N|The last building to torch is here.|]
@@ -52,12 +57,17 @@
 WoWPro.Leveling:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', '45', '50', 'JiyUng5055', 'Alliance', function()
 return [[
 
-N This Guide:|QID|27446|N|Starts off on the Speedbarge in Thousand Needles. If you did not complete Thousand Needles; It's OK, Just skip this step and the next one. (Click to continue)|
+L Level 44 |QID|27446|LVL|44|N|You need to be Level 44 to work this guide.|
+
+R Thousand Needles |QID|27446|LVL|45|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
+R Fizzle & Pozzik's Speedbarge |QID|27446|N|This guide starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles, so head there first.|
+
 A Tanaris is Calling|QID|27446|M|75.95,74.58|Z|Thousand Needles|N|From Fizzle Brassbolts.|
-R Tanaris|QID|27446|U|55121|M|74.38,94.85|Z|Thousand Needles|N|If you have your boat use it now and head south, if you do not, swim. Continue along the path marked by the co-ords.|
+F Gadgetzan|QID|27446|M|79.11,71.85|Z|Thousand Needles|N|Fly to Gadgetzan from Tilly Topspin.|
+r Sell Junk / Repair and Restock|QID|27446|M|52.28,29.72|N|Sell any junk, and repair at Kringle Goodsteel.\n\nGadgetzan is home to the banker, if you need to utilise this.\n\nClick here to continue.|
+A Butcherbot|QID|25112|M|52.24,28.07|N|From Driz Plunkbow.|
 h Gadgetzan|QID|27446|M|52.59,27.00|N|At Innkeeper Fizzgrimble.|
-r Sell Junk / Repair and Restock|QID|27446|M|52.28,29.72|N|You can also put items in the bank here. I would suggest doing so. (Click to continue)|
-f Gadgetzan|QID|27446|M|51.32,29.45|N|At Bera Stonehammer.|
+;f Gadgetzan|QID|27446|M|51.32,29.45|N|At Bera Stonehammer.|
 T Tanaris is Calling|QID|27446|M|51.23,29.90|N|To Kelsey Steelspark.|
 
 A Seaside Salvage|QID|25048|M|51.23,29.90|N|From Kelsey Steelspark.|
