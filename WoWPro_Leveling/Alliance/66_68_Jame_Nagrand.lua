@@ -215,7 +215,7 @@ l Murkblood Invasion Plans |QID|9871|N|Kill a Murkblood Invader (they wander the
 A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9871|U|24559|M|28.3,53.4|
 l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|O|
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
-C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|O|
+C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|
 C Clefthoof Mastery (part 3)|N|Kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
 K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
 C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this area and kill the Minions until you finish this quest.|QID|9849|M|38.00,82.00|U|24501|
@@ -257,7 +257,7 @@ K Zorbo the Advisor|N|Kill Zorbo inside the cave.|QID|9940|M|46.22,18.83|QO|Zorb
 C Wanted: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|9940|M|46.00,23.00|US|
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest. |QID|9931|M|50.00,22.00|U|25555|US|
 
-N Ring of Blood|N|Look for a group for Ring of Blood quests if you wish. Some people can solo most if not all of this depending on level/class/spec/gear. Most will probably will still need help.|
+N Ring of Blood|N|Look for a group for Ring of Blood quests if you wish.|
 K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye.|T|Gutripper|L|24513|S|
 l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|L|28667|
 K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye. He wanders around where the waypoints are.|T|Gutripper|L|24513|US|
