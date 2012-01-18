@@ -2095,6 +2095,16 @@ WoWPro.Zone2MapID = {
 			["cont"] = "Outland",
 			["zone"] = "Zangarmarsh",
 			["mapName"] = "Zangarmarsh",
+		},
+		["Firelands"] = {
+			["numFloors"] = 3,
+			["mapID"] = 800,
+			["mapName"] = "Firelands",
+		},
+		["MoltenFront"] = {
+			["numFloors"] = 0,
+			["mapID"] = 795,
+			["mapName"] = "MoltenFront",
 		}
 	}
 	
