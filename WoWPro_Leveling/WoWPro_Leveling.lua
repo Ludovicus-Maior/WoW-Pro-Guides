@@ -4,6 +4,8 @@
 
 WoWPro.Leveling = WoWPro:NewModule("Leveling")
 local myUFG = UnitFactionGroup("player")
+WoWPro:Embed(WoWPro.Leveling)
+
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Leveling:OnInitialize()
@@ -14,7 +16,7 @@ end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.Leveling:OnEnable()
-	WoWPro:dbp("|cff33ff33Enabled|r: Leveling Module")
+	WoWPro.Leveling:dbp("|cff33ff33Enabled|r")
 	
 	-- Leveling Tag Setup --
 	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep"})

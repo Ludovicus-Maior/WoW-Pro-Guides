@@ -5,6 +5,7 @@
 
 WoWPro.WorldEvents = WoWPro:NewModule("WorldEvents")
 local myUFG = UnitFactionGroup("player")
+WoWPro:Embed(WoWPro.WorldEvents)
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.WorldEvents:OnInitialize()

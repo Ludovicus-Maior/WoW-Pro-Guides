@@ -4,6 +4,8 @@
 
 WoWPro.Profession = WoWPro:NewModule("Profession")
 local myUFG = UnitFactionGroup("player")
+WoWPro:Embed(WoWPro.Profession)
+
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Profession:OnInitialize()
