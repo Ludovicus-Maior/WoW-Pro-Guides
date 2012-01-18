@@ -8,24 +8,40 @@ WoWPro.DebugMode = false
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 
+
+-- Define list of objects to be exported to Guide Addons
+WoWPro.mixins = {}
+function WoWPro:Embed(target)
+  for _,name in pairs(WoWPro.mixins) do
+    WoWPro:dbp("Creating WoWPro.%s:%s()",target.name,name)
+    target[name] = WoWPro[name]
+  end
+end
+
+function WoWPro:Export(target)
+    table.insert(WoWPro.mixins,target)
+end
+    
 -- WoWPro keybindings name descriptions --
 _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
 BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
 _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
 -- Debug print function --
-function WoWPro:dbp(message)
+function WoWPro:dbp(message,...)
 	if WoWPro.DebugMode and message ~= nil then
-		print("|cffffff00WoW-Pro Debug|r: "..message)
+		print(string.format("|cffff7f00%s|r: "..message, self.name or "Wow-Pro",...))
 	end
 end
+WoWPro:Export("dbp")
 
 -- WoWPro print function --
-function WoWPro:Print(message)
+function WoWPro:Print(message,...)
 	if message ~= nil then
-		print("|cffffff00WoW-Pro|r: "..message)
+		print(string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...))
 	end
 end
+WoWPro:Export("Print")
 
 -- Default profile options --
 local defaults = { profile = {
