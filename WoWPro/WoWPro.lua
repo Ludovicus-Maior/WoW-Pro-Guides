@@ -297,3 +297,34 @@ event from the guide frame.
 	end
 end
 
+function WoWPro:LoadAllGuides()
+    WoWPro:Print("Test Load of All Guides")
+    local aCount=0
+    local hCount=0
+    local nCount=0
+    local Count=0
+    local nextGID
+    local zed
+	for guidID,guide in pairs(WoWPro.Guides) do
+        WoWPro:Print("Test Loading " .. guidID)
+        WoWPro:LoadGuide(guidID)
+        nextGID = WoWPro.Guides[guidID].nextGID
+        if WoWPro.Guides[guidID].zone then
+            zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
+            if not WoWPro:ValidZone(zed) then
+		        WoWPro:Print("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
+		    end
+		end
+        if nextGID and WoWPro.Guides[nextGID] == nil then	    
+            WoWPro:Print("Successor to " .. guidID .. " which is " .. tostring(nextGID) .. " is invalid.")
+        end
+        if WoWPro.Guides[guidID].faction then
+            if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end
+            if WoWPro.Guides[guidID].faction == "Neutral"  then nCount = nCount + 1 end
+            if WoWPro.Guides[guidID].faction == "Horde"    then hCount = hCount + 1 end
+        end
+        Count = Count + 1
+	end
+        WoWPro:Print("%d Done! %d A, %d N, %d H guides present", Count, aCount, nCount, hCount)
+end	    
+
