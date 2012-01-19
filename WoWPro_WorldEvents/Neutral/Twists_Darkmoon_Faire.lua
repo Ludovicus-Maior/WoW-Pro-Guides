@@ -1,3 +1,22 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2012-01-19 00:11
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3459/revisions/24903/view
+-- Date: 2012-01-19 00:11
+-- Who: Ludovicus Maior
+-- Log: Correct node number
+
+-- URL: http://wow-pro.com/node/3459/revisions/24902/view
+-- Date: 2012-01-19 00:10
+-- Who: Ludovicus Maior
+-- Log: Sync to git
+
 WoWPro.WorldEvents:RegisterGuide("TwiDarkmoon","Darkmoon Island","Darkmoon Faire","WE", "Twists", "Neutral", function()
 return [[
 

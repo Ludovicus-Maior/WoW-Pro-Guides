@@ -1,3 +1,18 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2012-01-19 00:08
+-- Who: Ludovicus Maior
+-- Log: Correct node number
+
+-- URL: http://wow-pro.com/node/3458/revisions/24900/view
+-- Date: 2012-01-19 00:07
+-- Who: Ludovicus Maior
+-- Log: Sync to GIT
+
 WoWPro.WorldEvents:RegisterGuide("LudoWinterVeilA","Winter Veil (Alliance)","Winter Veil (Alliance)","WE", "Ludovicus", "Alliance", function()
 return [[
 N Eggs, Babs, Eggs!|N|You are going to need 5 Small Eggs and some Deeprock Salt.  You can either pay outrageous prices on the AH, or farm them and sell the extra for outrageous prices on the AH.  I'll give you 4 places to farm them.|
@@ -42,4 +57,3 @@ A A Gaily Wrapped Present|QID|8768|M|33.5,66.2|Z|Ironforge|N|Your fifth gift!|
 
 ]]
 end)
-

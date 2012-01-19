@@ -413,6 +413,14 @@ def UpdateGuideFile(guide):
     eol = GuideEOL[guide]
     if not isinstance(eol,basestring):
 	eol = '\n'
+
+    print >> file , ""
+    print >> file , "-- WoWPro Guides by \"The WoW-Pro Community\" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License."
+    print >> file , "-- Based on a work at github.com."
+    print >> file , "-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License."
+    print >> file , ""
+
+
     for logEntry in Web2Log[Guide2Web[guide]]:
 	print >> file , "-- URL: %s" % ("http://wow-pro.com"+logEntry['URL'])
 	print >> file , "-- Date: %s" % logEntry['Date'] 

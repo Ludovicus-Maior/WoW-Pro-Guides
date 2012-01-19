@@ -1,4 +1,14 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2012-01-18 22:09
+-- Who: Ludovicus Maior
+-- Log: For [The Skyguard Outpost], get from Chu'a'lor not Sky Commander Keller.
+
+-- URL: http://wow-pro.com/node/3281/revisions/24847/view
 -- Date: 2011-12-08 18:01
 -- Who: Crackerhead22
 -- Log: 4.3 updates
@@ -363,7 +373,7 @@ C Our Boy Wants To Be A Skyguard Ranger|QID|11030|M|29.56,81.14|N|Click on the F
 T Our Boy Wants To Be A Skyguard Ranger|QID|11030|M|28.36,57.73|N|To Torkus.|
 A A Father's Duty|QID|11061|M|28.35,57.73|N|From Torkus.|
 T An Apexis Relic|QID|11058|M|28.67,57.40|N|To Chu'a'lor.|
-A The Skyguard Outpost|QID|11062|M|27.49,52.67|N|From Sky Commander Keller.|
+A The Skyguard Outpost|QID|11062|M|28.83,57.37|N|From Chu'a'lor.|
 T The Skyguard Outpost|QID|11062|M|27.63,52.84|N|To Sky Sergeant Vanderlip.|
 
 A Bombing Run|QID|11010|M|27.63,52.84|N|From Sky Sergeant Vanderlip.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|

@@ -1,4 +1,14 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2012-01-18 22:06
+-- Who: Ludovicus Maior
+-- Log: You need to talk to Adyen, not the other guy!
+
+-- URL: http://wow-pro.com/node/3284/revisions/24674/view
 -- Date: 2011-07-11 22:30
 -- Who: Ludovicus Maior
 -- Log: Change to numeric Rep Tags.
@@ -589,7 +599,7 @@ U Voren'thal's Package|QID|10507|U|30260|QO|Voren'thal's Presence: 1/1|N|Open up
 H Area 52|QID|10409|M|32.01,64.39|N|Hearth to Area 52.|REP|Aldor;932|
 H Area 52|QID|10507|M|32.01,64.39|N|Hearth to Area 52.|REP|Scryers;934|
 R Socrethar's Seat|QID|10409|U|29796|M|36.44,18.35|N|Head to the waypoint, use the Socrthar's Teleportation Stone at the Warp Forge, then click on the portal that appears. You have to do this or the NPCs that you need will not spawn.|REP|Aldor;932|
-C Deathblow to the Legion|QID|10409|M|29.48,14.41|N|You will need help on this depending on your class/level. Talk to Exarch Orelis next to the Warp Forge on Socrethar's Seat to get the Aldor NPCs to help. The fight is 2 phased with the 1st phase being to basically subdue "Kaylaan. Phase 2 is where you fight Socrethar.|REP|Aldor;932|
+C Deathblow to the Legion|QID|10409|M|29.48,14.41|N|You will need help on this depending on your class/level. Talk to Adyen next to the Warp Forge on Socrethar's Seat to get the Aldor NPCs to help. The fight is 2 phased with the 1st phase being to basically subdue "Kaylaan. Phase 2 is where you fight Socrethar.|REP|Aldor;932|
 T Deathblow to the Legion|QID|10409|M|29.48,14.41|N|To Ishanah. She will stay at the spot for a minute, if you miss the turn-in, you can go back to her in Shattrath.|REP|Aldor;932|
 R Socrethar's Seat|QID|10507|U|29796|M|36.44,18.35|N|If you don't have flying, head to the waypoint, use the Socrthar's Teleportation Stone at the Warp Forge, then click on the portal. If you have flying, head to the floating piece of land to the NW of the waypoint.|REP|Scryers;934|
 C Turning Point|QID|10507|U|30259|N|You most likely will need help depending on your level/class. At the start use Voren'thal's Presence on Socrethar, then kill Socrethar.|REP|Scryers;934|

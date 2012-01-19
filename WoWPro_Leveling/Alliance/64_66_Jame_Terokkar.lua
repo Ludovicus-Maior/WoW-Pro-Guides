@@ -1,4 +1,14 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2012-01-18 22:02
+-- Who: Ludovicus Maior
+-- Log: Add coords for [ Taken in the Night], [Auchindoun] and [Skywing].
+
+-- URL: http://wow-pro.com/node/3277/revisions/24836/view
 -- Date: 2011-12-05 13:28
 -- Who: Crackerhead22
 -- Log: 4.3 updates
@@ -290,14 +300,14 @@ r Sell junk, Repair, restock.|QID|10922|M|37.71,51.43|
 C Veil Lithic: Preemptive Strike |N|Loot Cursed Eggs here until you finish this quest.|QID|10861|M|26.00,71.00|
 A An Improper Burial |QID|10913|M|31.0,76.1|N|From Commander Ra'vaj.|
 A The Dread Relic |QID|10877|N|From Oakun.|
-A Taken in the Night |QID|10873|N|From Scout Navrin.|
+A Taken in the Night |QID|10873|N|From Scout Navrin.|M|31.4,75.6|
 A Digging Through Bones |QID|10922|M|31.0,76.1|N|From Chief Archaelogist Letoll.|
 C Digging Through Bones |N|Do this escort quest.|QID|10922|M|31.0,76.1|
 T Digging Through Bones |QID|10922|M|31.0,76.1|N|To Dwarfowitz.|
 A Fumping |QID|10929|N|From Dwarfowitz.|
 C Recover the Bones |N|Loot the rest of the bones needed for this quest.|QID|10030|US|M|52.00,58.00|
 
-R Auchindoun |QID|10227|N|Enter Auchindoun from this location. |M|33.00,66.00|
+R Auchindoun |QID|10227|N|Enter Auchindoun from this location on the inside of the ring. |M|37.38,65.62|
 A I See Dead Draenei|QID|10227|N|From Ha'lei.|
 T I See Dead Draenei|QID|10227|N|To Ramdor the Mad.|
 A Ezekiel |QID|10228|N|From Ramdor the Mad.|
@@ -372,7 +382,7 @@ T The Fallen Exarch|QID|10915|M|31.0,76.1|N|To Commander Ra'vaj.|
 H Shattrath City|QID|10889|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City|QID|10889|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
 T Return to Shattrath|QID|10889|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Redeemed.|
-T Skywing|QID|10898|Z|Shattrath City|N|To Rilak the Redeemed.|
+T Skywing|QID|10898|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Redeemed.|
 A The Skettis Offensive|QID|10879|Z|Shattrath City|M|51.76,20.78|N|From Defender Grashna.|
 C The Skettis Offensive|Z|Shattrath City|N|Kill the mobs (Two birds, Two Birds, Three Birds, One bird 10k health) until this quest is finished.|QID|10879|M|52.6,21.0|
 T The Skettis Offensive|QID|10879|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Redeemed.|

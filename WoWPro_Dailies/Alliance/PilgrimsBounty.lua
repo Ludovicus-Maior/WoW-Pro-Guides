@@ -1,3 +1,18 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
+-- Date: 2012-01-19 00:02
+-- Who: Ludovicus Maior
+-- Log: Correct node numbers
+
+-- URL: http://wow-pro.com/node/3456/revisions/24896/view
+-- Date: 2012-01-19 00:00
+-- Who: Ludovicus Maior
+-- Log: Sync to GIT
+
 WoWPro.Dailies:RegisterGuide("LudoPilgrimDailiesA","Pilgrim's Bounty","Pilgrim's Bounty","WE", "Ludovicus", "Alliance", function()
 return [[
 N Pilgrim's Bounty Start|N|Get thee to Stormwind City Gates.|
@@ -20,7 +35,6 @@ l Spice Bread Stuffing|QID|14051|M|0.03,34.38|Z|Dun Morogh|L|44837 20|N|Cook up 
 T Don't Forget The Stuffing!|QID|14051|M|59.77,34.31|Z|Dun Morogh|N|To Caitrin Ironkettle, Ironforge Gates.|
 B Buy Tangy Wetland Cranberries|QID|14053|M|59.77,34.34|Z|Dun Morogh|L|44854 20|Buy 20 Cranberries from Elizabeth Barker.|
 B Buy Honey|QID|14053|M|59.77,34.34|Z|Dun Morogh|L|44853 20|You will need 20 Honeys.|
-
 
 b Stormwind City|QID|14053|M|73.02,50.22|Z|Ironforge|N|Take the Tram to Stormwind City to catch the boat to Darnassus.|
 b Teldrassil|QID|14053|M|22.79,55.94|Z|Stormwind City|N|Take the boat to Darnassus.|

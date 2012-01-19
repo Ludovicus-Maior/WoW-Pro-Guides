@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
 -- Date: 2011-12-28 22:11
 -- Who: Fluclo

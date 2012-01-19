@@ -1,4 +1,14 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
+-- Date: 2012-01-16 17:21
+-- Who: Crackerhead22
+-- Log: Added the QID for the "The Sentinel's Game" quest.
+
+-- URL: http://wow-pro.com/node/3248/revisions/24390/view
 -- Date: 2011-05-17 00:56
 -- Who: Ludovicus Maior
 
@@ -93,12 +103,12 @@ T The Warden's Game|QID|27885|M|50.26,54.33|N|(UI Alert)|
 T The Sentinel's Pawn|QID|27884|M|48.09,50.94|N|At the Marble Slab.|
 A The Sentinel's Game|QID|27886|M|48.09,50.94|N|From the Marble Slab.|
 
-N The Sentinel's Game|QID|27709|N|The next few steps tell you which way to turn the statues. It may help to zoom the map in to better find the right one via the waypoint.|
-N 1st Statue|M|48.6,50.95|N|Turn statue twice. Close this step when done.|
-N 2nd Statue|M|48.05,51.28|N|Turn statue once. Close this step when done.|
-N 3rd Statue|M|48.95,51.72|N|Turn statue twice. Close this step when done.|
-N 4th Statue|M|48.34,52.28|N|Turn statue once. Close this step when done.|
-N 5th Statue|M|48.77,52.82|N|Turn statue twice. Close this step when done.|
+N The Sentinel's Game|QID|27886|N|The next few steps tell you which way to turn the statues. It may help to zoom the map in to better find the right one via the waypoint.|
+N 1st Statue|QID|27886|M|48.6,50.95|N|Turn statue twice. Close this step when done.|
+N 2nd Statue|QID|27886|M|48.05,51.28|N|Turn statue once. Close this step when done.|
+N 3rd Statue|QID|27886|M|48.95,51.72|N|Turn statue twice. Close this step when done.|
+N 4th Statue|QID|27886|M|48.34,52.28|N|Turn statue once. Close this step when done.|
+N 5th Statue|QID|27886|M|48.77,52.82|N|Turn statue twice. Close this step when done.|
 C The Sentinel's Game|QID|27886|M|48.04,53.1|N|6th statue: Turn statue twice.|
 
 T The Sentinel's Game|QID|27886|M|48.64,51.55|N|(UI Alert)|

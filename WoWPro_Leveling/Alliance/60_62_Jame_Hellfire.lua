@@ -1,4 +1,14 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2012-01-18 21:55
+-- Who: Ludovicus Maior
+-- Log: Coord tweak for A Naladu|
+
+-- URL: http://wow-pro.com/node/3271/revisions/24823/view
 -- Date: 2011-11-30 18:32
 -- Who: Crackerhead22
 -- Log: Some updates for patch 4.3.
@@ -340,7 +350,7 @@ C Testing the Antidote |N|Find a Hulking Helboar and use the Antidote after gett
 T Testing the Antidote |QID|10255|M|15.7,52.0|N|To Thiah Redmane.|
 l Sha'naar Relics |N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,55.7|S|L|23642 10|
 C Cruel Taskmasters |N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M|15.1,55.7|S|
-A Naladu|N|From Akoru the Firecaller.|QID|10403|M|15.00,59.00|
+A Naladu|N|From Akoru the Firecaller.|QID|10403|M|15.61,58.76|
 T Naladu|QID|10403|M|16.3,65.1|N|To Naladu.|
 
 A A Traitor Among Us |QID|10367|M|16.3,65.1|N|From Naladu.|

@@ -1,7 +1,38 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2012-01-18 23:55
+-- Who: Ludovicus Maior
+-- Log: Sync to GIT.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24785/view
+-- Date: 2011-10-29 22:20
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3441/revisions/24782/view
+-- Date: 2011-10-29 18:19
+-- Who: Crackerhead22
+-- Log: Fixed QID errors.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24779/view
+-- Date: 2011-10-29 02:36
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/24772/view
+-- Date: 2011-10-28 08:04
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3441/revisions/24771/view
+-- Date: 2011-10-28 08:03
+-- Who: Crackerhead22
+
 WoWPro.WorldEvents:RegisterGuide("LudoHallowNOR","Hallow's End (Northrend)","Hallow's End (Northrend)","WE", "Ludovicus", "Horde", function()
 return [[
 
-N Wall of Text Part 1 of 2|QID|12366|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...". 
+N Wall of Text Part 1 of 2|QID|12366|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".
 N Wall of Text Part 2 of 2|QID|12366|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
 
 R Borean Tundra|N|Run to the Northrend Zeppelin to go to Borean Tundra.|M|44.6,62.6|Z|Orgrimmar|
@@ -51,7 +82,6 @@ A Candy Bucket|QID|13474|M|66.6,30.1|Z|Dalaran|N|Uda the Beast, Sunreaver's Sanc
 A Candy Bucket|QID|13472|M|38.26,59.5|Z|The Underbelly|U|37586||N|Head down into the Underbelly from the entrance next to the stairs of the Silver Enclave. From the Candy Bucket. (Dalaran, The Underbelly)|
 F Nessingwary Base Camp|M|72.8,45.6|QID|12950|Z|Dalaran|N|Fly to Nessingwary Base Camp, Sholazar Basin.|
 A Candy Bucket|QID|12950|M|26.7,59.2|Z|Sholazar Basin|N|Purser Boulian, Nessingwary Base Camp|
-
 
 ]]
 end)

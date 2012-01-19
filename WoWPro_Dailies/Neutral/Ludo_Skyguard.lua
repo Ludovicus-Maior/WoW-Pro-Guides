@@ -1,6 +1,20 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/skyguard_dalies
+-- Date: 2012-01-19 00:04
+-- Who: Ludovicus Maior
+-- Log: Correct node numbers.
+
+-- URL: http://wow-pro.com/node/3457/revisions/24898/view
+-- Date: 2012-01-19 00:04
+-- Who: Ludovicus Maior
+-- Log: Sync to GIT
+
 WoWPro.Dailies:RegisterGuide("LudoSkyguard", "Terokkar Forest", "Sha'tari Skyguard", "BC", "Ludovicus", "Neutral", function()
 return [[
-
 
 A Threat from Above|QID|11096|M|64,42|Z|Shattrath City|N|From Yuula in Shattrath City|
 C Threat from Above|QID|11096|M|23,10|Z|Terokkar Forest|N|Slaughter some Gordunni Ogres|
@@ -32,7 +46,6 @@ A Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|From Sky Ser
 C Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|Destroy Fel Cannonball Stacks.  Acheivement for doing it in under 2 minutes, 15 seconds while not in a group.|
 T Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|To Sky Sergeant Vanderlip|
 
-
 N End of the Dailies|N|Start of the questline.
 F Terokkar Forest|N|Get back to the Forest|
 
@@ -44,7 +57,6 @@ K Talonpriest Zellek|QID|11005|M|70.20 74.63|QO|Talonpriest Zellek slain|
 N Time-Lost Scrolls|QID|11005|N|While you have the buff, use the rest of the time to kill ghost birds and get as many Time-Lost Scrolls as you can.|
 T Secrets of the Talonpriests|QID|11005|M|64.0,66.8|N|To Sky Commander Adaris|
 U Ishaal's Almanac|QID|11005|U|32523|N|Get the quest from the Almanac and click off this step|
-
 
 T Ishaal's Almanac|QID|11021|M|64.0,66.8|N|To Sky Commander Adaris|
 A An Ally in Lower City|QID|11024|PRE|11021|M|64.0,66.8|N|From Sky Commander Adaris|

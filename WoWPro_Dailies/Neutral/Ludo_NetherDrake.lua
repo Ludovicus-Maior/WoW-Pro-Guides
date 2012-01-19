@@ -1,3 +1,17 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- Date: 2012-01-18 23:30
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3455/revisions/24893/view
+-- Date: 2012-01-18 23:29
+-- Who: Ludovicus Maior
+-- Log: Initial Version
+
 WoWPro.Dailies:RegisterGuide("LudoDrake", "Shadowmoon Valley", "Netherwing", "BC", "Ludovicus", "Neutral", function()
 return [[
 
@@ -64,7 +78,6 @@ T Commander Arcus|QID|11100|M|62.4,29.2|REP|Aldor;932|N|To Commander Arcus.|
 A The Deadliest Trap Ever Laid|QID|11101|PRE|11100|M|62.4,29.2|REP|Aldor;932|N|From Commander Arcus.|
 C The Deadliest Trap Ever Laid|QID|11101|REP|Aldor;932|N|Concentrate on protecting Commander Arcus.|
 T The Deadliest Trap Ever Laid|QID|11101|M|66.22,85.65|REP|Aldor;932|N|To Overlord Mor'ghor.|
-
 
 A Overseeing and You: Making the Right Choices|QID|11054|PRE|11053|M|REP|Netherwing;1015;friendly|66.84,86.10|From Chief Overseer Mudlump.|
 K Tyrantus|QID|11054|PRE|11053|M|46.0,7.6|Z|Netherstorm|N|In the dome.|
@@ -164,10 +177,8 @@ C Nethermine Flayer Hide|QID|11016|M|66.2,85.6|N|From Nethermine Bursters, Flaye
 C Netherdust Pollen|QID|11017|M|60.50,73.40;74.30,75.70;79.25,86.97;69.56,79.86;73.53,91.82;78.28,84.05;60.33,77.70;66.03,80.48;68.20,87.57;71.95,84.47;76.35,88.64;68.53,83.30;74.45,80.68;62.67,82.51;75.03,85.16;71.53,63.27;65.10,89.77;61.25,86.49;66.70,94.85;71.10,89.97;68.83,59.50|N|Netherdust Bushes|
 C Nethercite Ore|QID|11018|M|59.70,79.10;60.10,87.00;72.00,61.10;78.60,93.90;62.40,89.45;66.45,62.20;71.90,64.40;67.60,90.65;66.21,83.05;74.45,87.91;77.10,89.33;73.16,84.48;63.02,85.68;63.20,81.62;66.62,94.28;70.53,89.59;77.65,85.45;75.10,81.41;69.08,85.82;67.40,59.29;68.60,81.22|N|Nethercite Deposits|
 
-
 C Netherwing Crystals|QID|11015|L|32427 30|N|Kill Murkbloods, Flayers, BlackBloods, or Rays.|
 C The Great Netherwing Egg Hunt|QID|11049|M|66.0,86.47|To Yarzill the Merc.|
-
 
 T The Great Netherwing Egg Hunt|QID|11049|M|66.0,86.47|N|To Yarzill the Merc.|
 
@@ -175,7 +186,6 @@ T Netherwing Crystals|QID|11015|M|66.12,86.36|N|To Taskmaster Varkule Dragonbrea
 T Nethermine Flayer Hide|QID|11016|M|66.12,86.36|N|To Taskmaster Varkule Dragonbreath.|
 T Netherdust Pollen|QID|11017|M|66.12,86.36|N|To Taskmaster Varkule Dragonbreath.|
 T Nethercite Ore|QID|11018|M|66.12,86.36|N|To Taskmaster Varkule Dragonbreath.|
-
 
 ]]
 

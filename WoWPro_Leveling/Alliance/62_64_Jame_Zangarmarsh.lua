@@ -1,4 +1,14 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2012-01-18 21:58
+-- Who: Ludovicus Maior
+-- Log: Changed Fertile Spores from a N step to an l step.
+
+-- URL: http://wow-pro.com/node/3273/revisions/24865/view
 -- Date: 2011-12-13 20:18
 -- Who: Crackerhead22
 
@@ -97,7 +107,7 @@ A Too Many Mouths to Feed|QID|9781|M|67.7,48.0|N|From Haalrun.|
 A Menacing Marshfangs|QID|9791|M|67.7,48.0|N|From Noraani.|
 C Menacing Marshfangs|N|Kill Marshfang Rippers needed for this quest.|M|85.00,47.0|QID|9791|S|
 l Fulgor Spores|N|Loot the green mushroom looking things off the ground around Telredor, until you finish this quest.|M|67.00,50.0|QID|9777|L|24383 6|
-N Fertile Spores|N|From now on, kill then loot Sporebats, Greater Sporebats, Marsh Walkers and Fen Striders, and keep any Fertile Spores you find, you will need 6. Right click the box to close this step.|
+l Fertile Spores|L|24449 6|N|From now on, kill then loot Sporebats, Greater Sporebats, Marsh Walkers and Fen Striders, and keep any Fertile Spores you find, you will need 6.|
 
 C Unfinished Business|N|Go here, find, then kill Sporewing. It wanders between the waypoints.|M|77.00,45.0;79.52,47.75|QID|9901|T|Sporewing|
 l Withered Basidium|QID|9901|N|Kill and loot Withered Giants until you get the Withered Basidium.|L|24483|S|

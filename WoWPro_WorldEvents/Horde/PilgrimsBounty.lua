@@ -1,3 +1,32 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
+-- Date: 2011-11-20 23:37
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3444/revisions/24815/view
+-- Date: 2011-11-20 19:39
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3444/revisions/24809/view
+-- Date: 2011-11-17 00:38
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3444/revisions/24805/view
+-- Date: 2011-11-16 02:37
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3444/revisions/24789/view
+-- Date: 2011-10-30 19:10
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3444/revisions/24788/view
+-- Date: 2011-10-30 19:10
+-- Who: Crackerhead22
+
 WoWPro.WorldEvents:RegisterGuide("LudoPilBountyH","Pilgrim's Bounty (Horde)","Pilgrim's Bounty (Horde)","WE", "Ludovicus", "Horde", function()
 return [[
 N Pilgrim's Bounty|QID|14036|N|This guide starts in Orgrimmar and is designed to get you the following achievements: FOOD FIGHT!, Now We're Cookin', Pilgrim's Paunch, and Pilgrim's Peril|
