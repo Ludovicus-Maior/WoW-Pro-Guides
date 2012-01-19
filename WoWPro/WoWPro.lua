@@ -126,13 +126,6 @@ function WoWPro:OnEnable()
 			.."Download it for free from www.wowinterface.com or www.curse.com .")
 	end
 	
-	-- Warning if the user is missing Swatter --
-	if not Swatter then
-		WoWPro:Print("It looks like you don't have |cff33ff33Swatter|r installed. "
-			.."While we would love to claim our software is bug free, errors have occured. "
-			.."Download it for free from http://auctioneeraddon.com/dl/AddOns/!Swatter-5.6.4424.zip or consider installing Auctioneer from www.curse.com .")
-	end
-	
 	-- Loading Frames --
 	if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro:CreateFrames()
