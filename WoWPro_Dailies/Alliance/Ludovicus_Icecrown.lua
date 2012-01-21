@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 WoWPro.Dailies:RegisterGuide("LudoIceDaily", "Icecrown", "Valiance Expedition", "Lich", "Ludovicus", "Alliance", function()
 return [[
 A King of the Mountain|QID|13280|M|57.00,62.57|N|From Frazzle Geargrinder|

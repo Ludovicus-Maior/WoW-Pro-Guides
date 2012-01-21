@@ -90,14 +90,45 @@ function WoWPro.WorldEvents:NextStep(k, skip)
 		end
 	end
 
+	-- Skipping profession quests (moved here from core)  --
+	if WoWPro.prof[k] then
+		local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
+		proflvl = tonumber(proflvl) or 1
+		profmaxlvl = tonumber(profmaxlvl) or 700
+		profmaxskill = tonumber(profmaxskill) or 700
+		local profs, found = {}, false
+		skip = false
+		profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
+		for p=1,6 do
+			if profs[p] then
+				local skillName, _, skillRank, maxskill, _, _, skillnum = GetProfessionInfo(profs[p])
+				if (tonumber(skillnum) == tonumber(profnum)) then
+					found = true
+					if (skillRank >= proflvl) and (skillRank < profmaxlvl) and (maxskill < profmaxskill) then
+						skip = false
+					else skip = true end
+--					if skip and proflvl > skillRank then skip = false end
+					if skip then WoWProCharDB.Guide[GID].skipped[k] = true end
+				end
+			end
+		end
+		if found == false and proflvl == 0 then skip = false 
+		else if found == false and profmaxlvl == 700 then skip = true end end
+	end
 
 	-- Skipping Achievements if completed  --
 	if WoWPro.ach[k] then
 		local achnum, achitem = string.split(";",WoWPro.ach[k])
 		local count = GetAchievementNumCriteria(achnum)
-		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-		if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true
-		else skip=false end
+		if count == 0 then
+			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
+			if Completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true
+			else skip=false end
+		else
+			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+			if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true
+			else skip=false end
+		end
 	end
 					
 	return skip
@@ -267,10 +298,16 @@ local function ParseQuests(...)
 
 				if WoWPro.ach[i] then
 					local achnum, achitem = string.split(";",WoWPro.ach[i])
-					local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-					if WoWPro.step[i] == "Achievement" then WoWPro.note[i] = description.. " ("..quantityString..")" end
+					local count = GetAchievementNumCriteria(achnum)
+					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
+					if WoWPro.step[i] == "Achievement" and count == 0 then
+						WoWPro.step[i] = Name
+						WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i] end
+					if WoWPro.step[i] == "Achievement" and count > 0 then
+						WoWPro.step[i] = Name
+						local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+						WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i] end
 				end
-
 
 				for _,tag in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][i] then WoWPro[tag][i] = false end
@@ -645,7 +682,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
         local npcQuests = {GetGossipAvailableQuests()};
         local index = 0
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         for _,item in pairs(npcQuests) do
             if type(item) == "string" then
                 index = index + 1      
@@ -671,7 +708,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
     if event == "QUEST_GREETING" and WoWProCharDB.AutoSelect == true then
         local numAvailableQuests = GetNumAvailableQuests()
         local numActiveQuests = GetNumActiveQuests()
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         for i=1, numActiveQuests do
             if WoWPro.action[qidx] == "T" and GetActiveTitle(i) == WoWPro.step[qidx] then
 		        SelectActiveQuest(i)
@@ -687,7 +724,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
     end
     
     if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
 		if WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
 		    AcceptQuest()
@@ -695,7 +732,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
     end
 
     if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
 		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
 		    CompleteQuest()
@@ -705,7 +742,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
 	    WoWPro:Print("Completing Quest "..tostring(GetQuestID()))
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
         WoWPro:dbp("QC: "..WoWPro.action[qidx].."'"..questtitle.."', vs '"..WoWPro.step[qidx].."'")
 		if WoWProCharDB.AutoTurnin == true and (WoWPro.action[qidx] == "T" or WoWPro.action[qidx] == "A") and questtitle == WoWPro.step[qidx] then
@@ -743,7 +780,9 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 	if event == "TRAINER_UPDATE" then
 		WoWPro.WorldEvents.CheckAvailableSpells()
 	end
-
+	if event == "CRITERIA_UPDATE" then
+		WoWPro:UpdateGuide()
+	end
 end
 
 -- Auto-Complete: Get flight point --

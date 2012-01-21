@@ -32,8 +32,7 @@
   <Script file="55_60_Jiyambi_Blasted_Lands.lua"/>
   <Script file="60_63_Jame_Hellfire_Peninsula.lua"/>
   <Script file="63_65_Jame_Zangarmarsh.lua"/>
-  <Script file="65a_67a_Jame_Terokkar_Forest.lua"/>
-  <Script file="65s_67s_Jame_Terokkar_Forest.lua"/>
+  <Script file="65_67_Jame_Terokkar_Forest.lua"/>
   <Script file="67_69_Jame_Nagrand.lua"/>
   <Script file="69_70_Jame_Blades_Edge.lua"/>
   <Script file="70_70_Crackerhead22_Shadowmoon.lua"/>
@@ -41,7 +40,6 @@
   <Script file="71_73_Jame_Borean_Tundra.lua"/>
   <Script file="73_75_Jame_Dragonblight.lua"/>
   <Script file="75_77_Jame_Grizzly_Hills.lua"/>
-  <Script file="77_78_Scoot_ZulDrak.lua"/>
   <Script file="78_79_Scoot_Sholazar_Basin.lua"/>
   <Script file="79_80_Scoot_The_Storm_Peaks.lua"/>
   <Script file="80_80_Scoot_Icecrown.lua"/>

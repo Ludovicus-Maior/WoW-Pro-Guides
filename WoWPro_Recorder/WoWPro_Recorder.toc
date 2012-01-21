@@ -5,7 +5,7 @@
 ## Dependencies: WoWPro
 ## Version: 2.1.16
 ## SavedVariables: WoWPro_RecorderDB
-
+## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
 
 WoWPro_Recorder.lua

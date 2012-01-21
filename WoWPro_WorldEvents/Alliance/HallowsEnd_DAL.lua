@@ -1,3 +1,36 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2012-01-19 21:47
+-- Who: Ludovicus Maior
+-- Log: Delete duplicate guide
+
+-- URL: http://wow-pro.com/node/3440/revisions/24790/view
+-- Date: 2011-10-31 16:12
+-- Who: Crackerhead22
+-- Log: Moved location names around so auto-accept/turn-in will work.
+
+-- URL: http://wow-pro.com/node/3440/revisions/24784/view
+-- Date: 2011-10-29 22:16
+-- Who: Crackerhead22
+-- Log: Added in Twist's Hallows End guides.
+
+-- URL: http://wow-pro.com/node/3440/revisions/24775/view
+-- Date: 2011-10-28 09:03
+-- Who: Crackerhead22
+-- Log: Added note about candy bucket being in one of two place for Westfall due to phasing.  From tepes.
+
+-- URL: http://wow-pro.com/node/3440/revisions/24773/view
+-- Date: 2011-10-28 08:04
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3440/revisions/24770/view
+-- Date: 2011-10-28 08:00
+-- Who: Crackerhead22
+
 WoWPro.WorldEvents:RegisterGuide("TwiHollDal","Hallows End (Dailies)","Hallows End (Dailies)","WE", "Twists", "Alliance", function()
 return [[
 

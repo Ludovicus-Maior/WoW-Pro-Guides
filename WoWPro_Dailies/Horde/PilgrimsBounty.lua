@@ -1,3 +1,18 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
+-- Date: 2012-01-19 00:02
+-- Who: Ludovicus Maior
+-- Log: Correct node numbers
+
+-- URL: http://wow-pro.com/node/3456/revisions/24896/view
+-- Date: 2012-01-19 00:00
+-- Who: Ludovicus Maior
+-- Log: Sync to GIT
+
 WoWPro.Dailies:RegisterGuide("LudoPilgrimDailiesH","Pilgrim's Bounty","Pilgrim's Bounty","WE", "Ludovicus", "Horde", function()
 return [[
 N Pilgrim's Bounty Start|N|Get thee to Orgrimmar city gates..|
@@ -11,7 +26,6 @@ B Buy Honey|QID|14062|M|46.62,13.79|Z|Durotar|L|44853 20|You will need 20 Honeys
 l Spice Bread|QID|14062|M|46.44,13.87|Z|Durotar|L|30816 20|N|Cook up 20 Spice Bread.|
 l Spice Bread Stuffing|QID|14062|M|46.44,13.87|Z|Durotar|L|44837 20|N|Cook up 20 Spice Bread Stuffing.|
 T Don't Forget The Stuffing!|QID|14062|M|46.37,13.85|Z|Durotar|N|To Ondani Greatmill, near Orgrimmar city gates.|
-
 
 b Tirisfal Glades|QID|14061|M|50.77,55.92|Z|Orgrimmar|N|Take the zepplin to Undercity|
 K Wild Turkey|QID|14061|M|67.2,57.1|Z|Tirisfal Glades|L|44834 20|N|Get 20 raw turkeys, they are everywhere!|
@@ -44,4 +58,3 @@ T She Says Potato|QID|14058|M|65.24,14.22|Z|Undercity|N|To William Mullins, Unde
 N Pilgrim's Bounty|N|You are done for the day!|
 ]]
 end)
-

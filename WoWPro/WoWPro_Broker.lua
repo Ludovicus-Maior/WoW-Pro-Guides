@@ -190,27 +190,37 @@ function WoWPro:NextStep(k,i)
 		end
 	
 		-- Skipping profession quests if their requirements aren't met --
-		if WoWPro.prof[k] then
+		if WoWPro.prof[k] and not skip then
 			local prof, proflvl = string.split(";",WoWPro.prof[k])
-			proflvl = proflvl or 1
+			proflvl = tonumber(proflvl) or 1
 			
 			if prof and type(prof) == "string" and type(proflvl) == "number" then
+			    local hasProf = false
 				skip = true --Profession steps skipped by default
 				local profs = {}
 				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
 				for p=1,6 do
 					if profs[p] then
 						local skillName, _, skillRank = GetProfessionInfo(profs[p])
-						if skillName == prof and skillRank >= proflvl then
-							skip = false -- The step is NOT skipped if the skill is present at the correct level or higher
+						if skillName == prof then
+						    if skillRank >= proflvl then
+							    skip = false -- The step is NOT skipped if the skill is present at the correct level or higher
+							end
+						    hasProf = true							
 						end
 					end
 				end
+				if not hasProf then
+				    -- If they do not have the profession, mark the step as skipped
+				    WoWProCharDB.Guide[GID].skipped[k] = true
+				    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+				end
 			end
 		end
-
+        
+        
 		-- Skipping reputation quests if their requirements are met --
-		if WoWPro.rep[k] then
+		if WoWPro.rep[k] and not skip then
 			local rep, factionIndex, temprep, replvl = string.split(";",WoWPro.rep[k])
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repID,repmax = string.split("-",temprep)
@@ -254,10 +264,17 @@ function WoWPro:NextStep(k,i)
 					skip = false 
 				end
 				if (repID == standingId) and (earnedValue <= replvl) then
-                            		skip = false
+                    skip = false
 				end
 			end
-        	end	
+			-- Mark steps as skipped that we will assume will NEVER be done.
+			if standingId < 3 and repID > 3 and skip then
+			    WoWProCharDB.Guide[GID].skipped[k] = true
+			    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+			end
+        end
+        
+        
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 

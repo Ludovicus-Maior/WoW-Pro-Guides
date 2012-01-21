@@ -4,6 +4,7 @@
 
 WoWPro.Dailies = WoWPro:NewModule("Dailies")
 local myUFG = UnitFactionGroup("player")
+WoWPro:Embed(WoWPro.Dailies)
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Dailies:OnInitialize()

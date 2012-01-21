@@ -43,14 +43,43 @@ function WoWPro.Dailies:NextStep(k, skip)
 
 	-- All non-A and non-N steps are Optional Quests --
 	if WoWPro.action[k] ~= "A" and WoWPro.action[k] ~= "N" and WoWPro.QID[k] then 
-	
-		skip = true
-		
 		-- Checking Quest Log --
 		if WoWPro.QuestLog[tonumber(WoWPro.QID[k])] then 
 			skip = false -- If the quest is in the quest log, it's NOT skipped --
+		end		
+	end
+
+	-- Checking Prerequisites --
+	if WoWPro.prereq[k] and WoWPro.QID[k] then		
+		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+		for j=1,numprereqs do
+			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+			if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+				skip = true -- If one of the prereqs is NOT complete, step is skipped.
+			end
 		end
-		
+	end
+
+	-- Skipping quests with prerequisites if their prerequisite was skipped --
+	if WoWPro.prereq[k] 
+	and not WoWProCharDB.Guide[GID].skipped[k] 
+	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
+		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+		for j=1,numprereqs do
+			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+			if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
+				skip = true
+				-- If their prerequisite has been skipped, skipping any dependant quests --
+				if WoWPro.action[k] == "A" 
+				or WoWPro.action[k] == "C" 
+				or WoWPro.action[k] == "T" then
+					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+					WoWProCharDB.Guide[GID].skipped[k] = true
+				else
+					WoWProCharDB.Guide[GID].skipped[k] = true
+				end
+			end
+		end
 	end
 
 	return skip
@@ -78,7 +107,7 @@ local function ParseQuests(...)
 			WoWPro.zone[i] = text:match("|Z|([^|]*)|?")
 			_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
 			WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
-
+			WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
 			if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
 				if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
 				elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
@@ -86,6 +115,7 @@ local function ParseQuests(...)
 			end
 
 			if text:find("|NC|") then WoWPro.noncombat[i] = true end
+			WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 			WoWPro.target[i] = text:match("|T|([^|]*)|?")
 			WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
 			WoWPro.prof[i] = text:match("|P|([^|]*)|?")
@@ -201,11 +231,19 @@ function WoWPro.Dailies:RowUpdate(offset)
 		local lootitem = WoWPro.lootitem[k] 
 		local lootqty = WoWPro.lootqty[k] 
 		local questtext = WoWPro.questtext[k]
+		local prereq = WoWPro.prereq[k] 
+		local leadin = WoWPro.leadin[k] 		
 		local target = WoWPro.target[k] 
 		if WoWPro.prof[k] then
 			local prof, proflvl = string.split(" ", WoWPro.prof[k]) 
 		end
 		local completion = WoWProCharDB.Guide[GID].completion
+		
+		-- Checking off lead in steps --
+		if leadin and WoWProCharDB.completedQIDs[tonumber(leadin)] and not completion[k] then
+			completion[k] = true
+			return true --reloading
+		end
 		
 		-- Unstickying stickies --
 		if unsticky and i == WoWPro.ActiveStickyCount+1 then
@@ -416,6 +454,7 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
 		WoWPro.Dailies.CompletingQuest = true
+		WoWPro.Dailies:AutoCompleteQuestUpdate(...)
 	end
 	
 	-- Auto-Completion --
@@ -452,6 +491,7 @@ function WoWPro.Dailies:CheckDailiesReset()
 	if GetDailyQuestsCompleted() == WoWPro.Dailies.CompletedDailies then return end
 	WoWPro.Dailies.CompletedDailies = GetDailyQuestsCompleted()
 	if WoWPro.Dailies.CompletedDailies == 0 then
+	    	self:Print("Resetting Dailies")
 		WoWPro.Dailies.DailiesReset = true
 		QueryQuestsCompleted()
 	end
@@ -477,6 +517,7 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate()
 					-- Quest Turn-Ins --
 					if WoWPro.Dailies.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
 						WoWPro.CompleteStep(i)
+						WoWProCharDB.completedQIDs[QID] = true
 						WoWPro.Dailies.CompletingQuest = false
 					end
 					

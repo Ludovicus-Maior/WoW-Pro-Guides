@@ -5,6 +5,7 @@
 
 WoWPro.WorldEvents = WoWPro:NewModule("WorldEvents")
 local myUFG = UnitFactionGroup("player")
+WoWPro:Embed(WoWPro.WorldEvents)
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.WorldEvents:OnInitialize()
@@ -21,7 +22,7 @@ function WoWPro.WorldEvents:OnEnable()
 	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "prereq"})
 	
 	-- Event Registration --
-	WoWPro.WorldEvents.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
+	WoWPro.WorldEvents.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "CRITERIA_UPDATE",
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT"
 	}
@@ -67,16 +68,7 @@ function WoWPro.WorldEvents:RegisterGuide(GIDvalue, zonename, guidename, categor
 		-- If the guide is not of the correct faction, don't register it
 		
 	WoWPro:dbp("Guide Registered: "..GIDvalue)
-	if factionname == "Neutral" then
-	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
-	    local  AllianceGUID, HordeGID = string.split("|",nextGIDvalue)
-	    if myUFG == "Alliance" then
-	        nextGIDvalue = AllianceGUID
-	    else
-	        nextGIDvalue = HordeGID
-	    end
-        WoWPro:dbp("Neutral Guide "..GIDvalue.." for "..myUFG.." chose "..nextGIDvalue)
-	end
+
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = "WorldEvents",
 		zone = zonename,

@@ -1,3 +1,34 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2012-01-18 23:55
+-- Who: Ludovicus Maior
+-- Log: Sync to GIT.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24785/view
+-- Date: 2011-10-29 22:20
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3441/revisions/24782/view
+-- Date: 2011-10-29 18:19
+-- Who: Crackerhead22
+-- Log: Fixed QID errors.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24779/view
+-- Date: 2011-10-29 02:36
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/24772/view
+-- Date: 2011-10-28 08:04
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3441/revisions/24771/view
+-- Date: 2011-10-28 08:03
+-- Who: Crackerhead22
+
 WoWPro.WorldEvents:RegisterGuide("LudoHallowKAL","Hallow's End (Kalimdor)","Hallow's End (Kalimdor)","WE", "Ludovicus", "Horde", function()
 return [[
 
@@ -60,7 +91,6 @@ A Candy Bucket|QID|12401|M|55.5,36.7|Z|Silithus|N|Calandrath, Cenarion Hold|
 
 F Marshal's Stand|QID|29018|M|52.77,34.63|U|37586|Z|Silithus|N|Fly to Marshal's Stand, Un'Goro Crater.|
 A Candy Bucket|QID|29018|M|55.27,62.12|Z|Un'Goro Crater|N|Innkeeper Dreedle, Marshal's Stand|
-
 
 F Bootlegger Outpost|QID|29014|M|55.98,64.17|Z|Un'Goro Crater|U|37586|N|Fly to Bootlegger Outpost, Tanaris.|
 A Candy Bucket|QID|29014|M|55.7,60.96|Z|Tanaris|N| YYY, Bootlegger Outpost.|

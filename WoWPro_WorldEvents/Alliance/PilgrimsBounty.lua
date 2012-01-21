@@ -1,3 +1,29 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
+-- Date: 2011-11-20 23:35
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3443/revisions/24814/view
+-- Date: 2011-11-20 19:37
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3443/revisions/24804/view
+-- Date: 2011-11-16 02:02
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3443/revisions/24787/view
+-- Date: 2011-10-30 19:09
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3443/revisions/24786/view
+-- Date: 2011-10-30 19:09
+-- Who: Crackerhead22
+-- Log: Added source code page.
+
 WoWPro.WorldEvents:RegisterGuide("LudoPilBountyA","Pilgrim's Bounty (Alliance)","Pilgrim's Bounty (Alliance)","WE", "Ludovicus", "Alliance", function()
 return [[
 N Pilgrim's Bounty|QID|14022|N|This guide starts in Stormwind City and is designed to get you the following achievements: FOOD FIGHT!, Now We're Cookin', Pilgrim's Paunch, and Pilgrim's Peril.|
@@ -31,7 +57,7 @@ A Pumpkin Pie|QID|14024|M|33.8,50.8|Z|Elwynn Forest|N|From Jasper Moore, Elwynn 
 l Pumpkin Pie|QID|14024|L|44836 5|N|Cook up some pie|
 T Pumpkin Pie|QID|14024|M|59.81,34.34|Z|Dun Morogh|N|To Edward Winslow, near Ironforge gates. |
 A Cranberry Chutney|QID|14028|M|59.81,34.34|Z|Dun Morogh|N|From Edward Winslow, near Ironforge gates.|
-B Buy Tangy Wetland Cranberries|QID|14028|L|44854 5|Buy 5 Cranberries from the Pilgrim's Bounty vendor|
+l Buy Tangy Wetland Cranberries|QID|14028|L|44854 5|Buy 5 Cranberries from the Pilgrim's Bounty vendor|
 l Cranberry Chutney|QID|14028|L|44840 5|N|Cook up some Chutney|
 N Sharing a Bountiful Feast|QID|14028|M|59.90,34.98|Z|Dun Morogh|N|At the Ironforge Bountiful Table, eat 5 of the 5 foods either by moving from chair to chair or passing them along.|
 T Cranberry Chutney|QID|14028|M|33.8,50.8|Z|Elwynn Forest|N|To Jasper Moore, near Stormwind gates.|
@@ -57,10 +83,9 @@ b Teldrassil|QID|14035|M|22.79,55.94|Z|Stormwind City|N|Take the boat to Darnass
 T Slow-Roasted Turkey|QID|14035|M|61.4,49.2|Z|Darnassus|N|To Isaac Allerton, Darnassus, Warrior's Terrace. |
 N Get Clothes for Pilgrim's Peril|N|Do the dailies and get Pilgrim's Dress, Robe, or Attire for Pilgrim's Peril and put one on. Then ride or fly to your target.|
 N Pilgrim's Peril: Orgrimmar|M|46.2,14.2|Z|Durotar|N|Sit down at the table in Orgrimmar.|
-N Pilgrim's Peril: Thunder Bluff|M|30.12,68.08|Z|Thunder Bluff|N|Sit down at the table in Thunder Bluff.|
+N Pilgrim's Peril: Thunder Bluff|M|46.8,59.0|Z|Mulgore|N|Sit down at the table in Thunder Bluff.|
 N Pilgrim's Peril: Undercity|M|64.46,7.89|Z|Undercity|N|Sit down at the table in Undercity.|
 N Pilgrim's Peril: Silvermoon City|M|55.4,53.2|Z|Eversong Woods|N|Sit down at the table in Silvermoon City.|
-N Terokkar Turkey Time|M|41.97,65.61|Z|Terokkar Forest|N|Entrance to Sethekk Halls, Terokkar Forest.  Instance is straight ahead.|
 N Fini|N|Time to take a nap!|
 ]]
 end)

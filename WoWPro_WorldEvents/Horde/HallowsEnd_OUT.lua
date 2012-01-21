@@ -1,7 +1,38 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2012-01-18 23:55
+-- Who: Ludovicus Maior
+-- Log: Sync to GIT.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24785/view
+-- Date: 2011-10-29 22:20
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3441/revisions/24782/view
+-- Date: 2011-10-29 18:19
+-- Who: Crackerhead22
+-- Log: Fixed QID errors.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24779/view
+-- Date: 2011-10-29 02:36
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/24772/view
+-- Date: 2011-10-28 08:04
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3441/revisions/24771/view
+-- Date: 2011-10-28 08:03
+-- Who: Crackerhead22
+
 WoWPro.WorldEvents:RegisterGuide("LudoHallowOUT","Hallow's End (Outland)","Hallow's End (Outland)","WE", "Ludovicus", "Horde", function()
 return [[
 
-N Wall of Text Part 1 of 2|QID|12388|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...". 
+N Wall of Text Part 1 of 2|QID|12388|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".
 N Wall of Text Part 2 of 2|QID|12388|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
 
 N This guide starts|QID|12388|N|in Orgrimmar, so if you are in the Eastern Kingdoms, take the blimp and transport to Orgrimmar.|
@@ -42,7 +73,6 @@ A Candy Bucket|N|From the Candy Bucket. (Shadowmoon Valley, Altar of Sha'tar)|QI
 F Sanctum of the Stars|N|Fly to Sanctum of the Stars.|M|30.34,29.19|QID|12409|Z|Shadowmoon Valley|U|37586|REP|Scryers;934|
 A Candy Bucket|N|From the Candy Bucket. (Shadowmoon Valley, Sanctum of the Stars)|QID|12409|M|56.37,59.81|Z|Shadowmoon Valley|REP|Scryers;934|
 R Orgrimmar|M|57.17,48.28|Z|Shattrath City|QID|13468|N|Fly back to Shattrath and take the portal back to Orgrimmar or just hearth back.|U|37586|
-
 
 ]]
 end)

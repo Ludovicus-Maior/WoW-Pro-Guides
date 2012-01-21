@@ -8,24 +8,40 @@ WoWPro.DebugMode = false
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 
+
+-- Define list of objects to be exported to Guide Addons
+WoWPro.mixins = {}
+function WoWPro:Embed(target)
+  for _,name in pairs(WoWPro.mixins) do
+    WoWPro:dbp("Creating WoWPro.%s:%s()",target.name,name)
+    target[name] = WoWPro[name]
+  end
+end
+
+function WoWPro:Export(target)
+    table.insert(WoWPro.mixins,target)
+end
+    
 -- WoWPro keybindings name descriptions --
 _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
 BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
 _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
 -- Debug print function --
-function WoWPro:dbp(message)
+function WoWPro:dbp(message,...)
 	if WoWPro.DebugMode and message ~= nil then
-		print("|cffffff00WoW-Pro Debug|r: "..message)
+		print(string.format("|cffff7f00%s|r: "..message, self.name or "Wow-Pro",...))
 	end
 end
+WoWPro:Export("dbp")
 
 -- WoWPro print function --
-function WoWPro:Print(message)
+function WoWPro:Print(message,...)
 	if message ~= nil then
-		print("|cffffff00WoW-Pro|r: "..message)
+		print(string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...))
 	end
 end
+WoWPro:Export("Print")
 
 -- Default profile options --
 local defaults = { profile = {
@@ -108,13 +124,6 @@ function WoWPro:OnEnable()
 		WoWPro:Print("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
 			.."WoW-Pro's guides won't have their full functionality without it! "
 			.."Download it for free from www.wowinterface.com or www.curse.com .")
-	end
-	
-	-- Warning if the user is missing Swatter --
-	if not Swatter then
-		WoWPro:Print("It looks like you don't have |cff33ff33Swatter|r installed. "
-			.."While we would love to claim our software is bug free, errors have occured. "
-			.."Download it for free from http://auctioneeraddon.com/dl/AddOns/!Swatter-5.6.4424.zip or consider installing Auctioneer from www.curse.com .")
 	end
 	
 	-- Loading Frames --
@@ -287,4 +296,35 @@ event from the guide frame.
 		WoWPro.EventFrame:UnregisterEvent(event)
 	end
 end
+
+function WoWPro:LoadAllGuides()
+    WoWPro:Print("Test Load of All Guides")
+    local aCount=0
+    local hCount=0
+    local nCount=0
+    local Count=0
+    local nextGID
+    local zed
+	for guidID,guide in pairs(WoWPro.Guides) do
+        WoWPro:Print("Test Loading " .. guidID)
+        WoWPro:LoadGuide(guidID)
+        nextGID = WoWPro.Guides[guidID].nextGID
+        if WoWPro.Guides[guidID].zone then
+            zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
+            if not WoWPro:ValidZone(zed) then
+		        WoWPro:Print("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
+		    end
+		end
+        if nextGID and WoWPro.Guides[nextGID] == nil then	    
+            WoWPro:Print("Successor to " .. guidID .. " which is " .. tostring(nextGID) .. " is invalid.")
+        end
+        if WoWPro.Guides[guidID].faction then
+            if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end
+            if WoWPro.Guides[guidID].faction == "Neutral"  then nCount = nCount + 1 end
+            if WoWPro.Guides[guidID].faction == "Horde"    then hCount = hCount + 1 end
+        end
+        Count = Count + 1
+	end
+        WoWPro:Print("%d Done! %d A, %d N, %d H guides present", Count, aCount, nCount, hCount)
+end	    
 
