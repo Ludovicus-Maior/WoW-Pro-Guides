@@ -618,7 +618,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
         local npcQuests = {GetGossipAvailableQuests()};
         local index = 0
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         for _,item in pairs(npcQuests) do
             if type(item) == "string" then
                 index = index + 1      
@@ -644,7 +644,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
     if event == "QUEST_GREETING" and WoWProCharDB.AutoSelect == true then
         local numAvailableQuests = GetNumAvailableQuests()
         local numActiveQuests = GetNumActiveQuests()
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         for i=1, numActiveQuests do
             if WoWPro.action[qidx] == "T" and GetActiveTitle(i) == WoWPro.step[qidx] then
 		        SelectActiveQuest(i)
@@ -660,7 +660,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
     end
     
     if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
 		if WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
 		    AcceptQuest()
@@ -668,7 +668,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
     end
 
     if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
 		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
 		    CompleteQuest()
@@ -677,7 +677,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
     
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
-        local qidx = WoWPro.rows[1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
 		if WoWProCharDB.AutoTurnin == true and (WoWPro.action[qidx] == "T" or WoWPro.action[qidx] == "A") and questtitle == WoWPro.step[qidx] then
 		    if (GetNumQuestChoices() <= 1) then

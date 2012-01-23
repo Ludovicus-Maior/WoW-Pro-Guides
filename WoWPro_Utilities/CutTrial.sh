@@ -49,4 +49,4 @@ echo "# OK, the current version numbers are:"
 fgrep -H Version: */*.toc
 
 
-zip -r --include '*.lua' '*.toc' '*.tga' '*.xml' @ "WoWPro v${nrelease}.zip" ${MODULES}
+zip -r --include '*.lua' '*.toc' '*.tga' '*.xml' '*.html' @ "WoWPro v${nrelease}.zip" ${MODULES}
