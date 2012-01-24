@@ -41,17 +41,17 @@ A Riversong the Elder|N|From Riversong the Elder.|QID|8725|M|35.4,48.9|Z|Ashenva
 R Azshara|N|Fly to Forest Song via the flight point then to Azshara, or just run the whole way to Azshara.|QID|8720|M|34.4,48;98.93,56.24|Z|Ashenvale|
 A Skygleam the Elder|N|From Skygleam the Elder.|QID|8720|M|64.7,79.4|Z|Azshara|
 R Orgrimmar|N|Time to enter Orgrimmar.|QID|8677|M|52.2,59.8|Z|Azshara|
-A Darkhorn the Elder|N|From Darkhorn the Elder.|QID|8677|M|52.2,59.8|Z|Orgrimmar|T|Darkhorn the Elder|
+A Darkhorn the Elder|N|From Darkhorn the Elder.|QID|8677|M|52.2,59.8|Z|Orgrimmar|T|Elder Darkhorn|
 
 R Razor Hill|N|Run down to Razor Hill.|QID|8670|M|53.2,43.6|Z|Durotar|
-A Runetotem the Elder|N|From Runetotem the Elder.|QID|8670|M|53.2,43.6|Z|Durotar|T|Runetotem the Elder|
+A Runetotem the Elder|N|From Runetotem the Elder.|QID|8670|M|53.2,43.6|Z|Durotar|T|Elder Runetotem|
 R The Crossroads|N|Head over to The Crossroads.|QID|8717|M|48.5,59.3|Z|Northern Barrens|
-A Moonwarden the Elder|N|From Moonwarden the Elder.|QID|8717|M|48.5,59.3|Z|Northern Barrens|T|Moonwarden the Elder|
+A Moonwarden the Elder|N|From Moonwarden the Elder.|QID|8717|M|48.5,59.3|Z|Northern Barrens|T|Elder Moonwarden|
 R Thunder Bluff|N|Sneak into Thunder Bluff.|QID|8678|M|73,23.8|Z|Thunder Bluff|
-A Wheathood the Elder|N|From Wheathood the Elder.|QID|8678|M|73,23.8|Z|Thunder Bluff|T|Wheathood the Elder|
+A Wheathood the Elder|N|From Wheathood the Elder.|QID|8678|M|73,23.8|Z|Thunder Bluff|T|Elder Wheathood|
 R Bloodhoof Village|N|Gallop on over to Bloodhoof Village.|QID|8673|M|48.5,53.2|Z|Mulgore|
-A Bloodhoof the Elder|N|From Bloodhoof the Elder.|QID|8673|M|48.5,53.2|Z|Mulgore|T|Bloodhoof the Elder|
-A High Mountain the Elder|N|From High Mountain the Elder.|QID|8686|M|41.5,47.5|Z|Southern Barrens|T|High Mountain the Elder|
+A Bloodhoof the Elder|N|From Bloodhoof the Elder.|QID|8673|M|48.5,53.2|Z|Mulgore|T|Elder Bloodhoof|
+A High Mountain the Elder|N|From High Mountain the Elder.|QID|8686|M|41.5,47.5|Z|Southern Barrens|T|Elder High Mountain|
 F Thargad's Camp|N|Fly to Thargad's Camp.|QID|8635|M|38.8,10.8|Z|Southern Barrens|
 R Maraudon|QID|8635|M|29.12,62.56|N|Head over to the Maraudon.|Z|Desolace|
 R Open the Stone Door|QID|8635|N|And follow the path until you come to a mini-map change.|M|28.23,62.61;28.29,65.08;27.58,62.85;28.09,62.8|CC|Z|Desolace|
@@ -96,7 +96,7 @@ A Stormbrow the Elder|N|From Stormbrow the Elder.|QID|8649|M|39.6,63.5|Z|Elwynn 
 F Morgan's Vigil|N|Fly to Morgan's Vigil.|QID|8636|M|41.72,64.62|Z|Elwynn Forest|
 
 A Rumblerrock the Elder|N|From Rumblerrock the Elder.|QID|8636|M|70.1,45.4|Z|Burning Steppes|
-A Dawnstrider the Elder|N|From Dawnstrider the Elder.|QID|8683|M|53.2,24|Z|Burning Steppes|T|Dawnstrider the Elder|
+A Dawnstrider the Elder|N|From Dawnstrider the Elder.|QID|8683|M|53.2,24|Z|Burning Steppes|T|Elder Dawnstrider|
 R Blackrock Mountain|N|Run to Blackrock Mountain.|QID|8644|M|20.39,34.56|Z|Burning Steppes|
 R Do you have a flying mount?|N|If yes, fly up to the ledge at this waypoint. If not pass this step and follow the next steps.|QID|8644|M|23.77,26.14|Z|Burning Steppes|CC|
 R Follow the series of waypoints|N|To get into the instance.|QID|8644|CC|M|24.36,29.86;25.8,26.44;26.4,26.33|Z|Burning Steppes|
@@ -127,24 +127,24 @@ F Plaguewood Tower|N|Fly to Plaguewood Tower.|QID|8727|M|75.85,53.41|Z|Eastern P
 A Farwhisper the Elder|N|Enter Stratholme's main entrance. From Farwhisper the Elder.|QID|8727|M|78.4,21.6|Z|Crusader's Square|
 F The Mender's Stead|N|Fly to The Mender's Stead (or Andorhal if you still have that FP).|QID|8652|M|18.46,27.37|Z|Eastern Plaguelands|
 R Brill|N|Run to Brill.|QID|8652|M|61.7,53.7|Z|Tirisfal Glades|
-A Graveborn the Elder|N|From Graveborn the Elder.|QID|8652|M|61.7,53.7|Z|Tirisfal Glades|T|Graveborn the Elder|
+A Graveborn the Elder|N|From Graveborn the Elder.|QID|8652|M|61.7,53.7|Z|Tirisfal Glades|T|Elder Graveborn|
 R Undercity|N|Head towards Undercity.|QID|8648|M|66.4,37.8|Z|Tirisfal Glades|
-A Darkcore the Elder|N|From Darkcore the Elder. He is near the elevators.|QID|8648|M|66.4,37.8|Z|Undercity|T|Darkcore the Elder|
+A Darkcore the Elder|N|From Darkcore the Elder. He is near the elevators.|QID|8648|M|66.4,37.8|Z|Undercity|T|Elder Darkcore|
 R The Sepulcher|N|Run very quickly out, the head to The Sepulcher.|QID|8645|M||Z|Undercity|
-A Obsidian the Elder|N|From Obsidian the Elder.|QID|8645|M|44.8,41.1|Z|Silverpine Forest|T|Obsidian the Elder|
+A Obsidian the Elder|N|From Obsidian the Elder.|QID|8645|M|44.8,41.1|Z|Silverpine Forest|T|Elder Obsidian|
 H Stormwind City|N|Hearth back to Stormwind City.|QID|13012|
 b Borean Tundra|N|Take the boat to Borean Tundra.|QID|13012|M|18.49,25.37|Z|Stormwind City|
 
 A Sardis the Elder|N|From Sardis the Elder.|QID|13012|M|59,65.5|Z|Borean Tundra|
 A Arp the Elder|N|From Arp the Elder.|QID|13033|M|57.4,43.6|Z|Borean Tundra|
-A Pamuya the Elder|N|From Pamuya the Elder.|QID|13029|M|42.8,49.6|Z|Borean Tundra|T|Pamuya the Elder|
+A Pamuya the Elder|N|From Pamuya the Elder.|QID|13029|M|42.8,49.6|Z|Borean Tundra|T|Elder Pamuya|
 A Northal the Elder|N|From Northal the Elder.|QID|13016|M|33.6,34.2|Z|Borean Tundra|
 R The Nexus|N|Run into The Nexus.|QID|13021|M|27.5,26.09|Z|Borean Tundra|
 
 A Igasho the Elder|N|From Igasho the Elder.|QID|13021|M|55.4,64.6|Z|The Nexus|
 F Star's Rest|N|Head back outside of The Nexus and fly to Star's Rest.|QID|13014|M|33,34.4|Z|Borean Tundra|
 A Morthie the Elder|N|From Morthie the Elder.|QID|13014|M|29.6,55.8|Z|Dragonblight|
-A Skywarden the Elder|N|From Skywarden the Elder.|QID|13031|M|35,48.4|Z|Dragonblight|T|Skywarden the Elder|
+A Skywarden the Elder|N|From Skywarden the Elder.|QID|13031|M|35,48.4|Z|Dragonblight|T|Elder Skywarden|
 R Azjol-Nerub|N|Head inside of Azjol-Nerub.|QID|13022|M|25.99,50.86|Z|Dragonblight|
 A Nurgen the Elder|N|From Nurgen the Elder.|QID|13022|M|21.8,44|Z|The Brood Pit|
 R Moa'ki Harbor|N|Run back out of Azjol-Nerub and head down to Moa'ki Harbor.|QID|13019|M|48.8,78|Z|Dragonblight|
@@ -156,7 +156,7 @@ R Utgarde Pinnacle|N|Head out of Utgarde Keep, then run around north of the Keep
 
 A Chogan'gada the Elder|N|From Chogan'gada the Elder.|QID|13067|M|48.6,22.2|Z|Lower Pinnacle|
 F Amberpine Lodge|N|Fly to Amberpine Lodge.|QID|13030|M||Z|Howling Fjord|
-A Whurain the Elder|N|From Whurain the Elder.|QID|13030|M|64.2,47|Z|Grizzly Hills|T|Whurain the Elder|
+A Whurain the Elder|N|From Whurain the Elder.|QID|13030|M|64.2,47|Z|Grizzly Hills|T|Elder Whurain|
 A Lunaro the Elder|N|From Lunaro the Elder.|QID|13025|M|80.4,37|Z|Grizzly Hills|
 A Beldak the Elder|N|From Beldak the Elder.|QID|13013|M|60.4,27.6|Z|Grizzly Hills|
 R Drak'Tharon Keep|N|Head into Drak'Tharon Keep.|QID|13023|M|17.42,21.2|Z|Grizzly Hills|
@@ -166,7 +166,7 @@ A Tauros the Elder|N|From Tauros the Elder.|QID|13027|M|58.8,56|Z|Zul'Drak|
 R Gundrak|N|Head inside of Gundrak.|QID|13065|M|76.43,21.43|Z|Zul'Drak|
 A Ohanzee the Elder|N|From Ohanzee the Elder.|QID|13065|M|45.6,62|Z|Gundrak|
 R Camp Tunka'lo|N|Leave Gundrak and head over to Camp Tunka'lo.|QID|13032|M|64.6,51.2|Z|The Storm Peaks|
-A Muraco the Elder|N|From Muraco the Elder.|QID|13032|M|64.6,51.2|Z|The Storm Peaks|T|Muraco the Elder|
+A Muraco the Elder|N|From Muraco the Elder.|QID|13032|M|64.6,51.2|Z|The Storm Peaks|T|Elder Muraco|
 R Halls of Stone|N|Run into the Halls of Stone.|QID|13066|M|39.57,26.92|Z|The Storm Peaks|
 A Yurauk the Elder|N|From Yurauk the Elder.|QID|13066|M|29.4,61.6|Z|Halls of Stone|
 
