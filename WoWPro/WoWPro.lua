@@ -7,7 +7,7 @@ WoWPro.Version = GetAddOnMetadata("WoWPro", "Version")
 WoWPro.DebugMode = false
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
-
+WoWPro.Log = {}
 
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
@@ -28,9 +28,24 @@ BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
 _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
 -- Debug print function --
+WoWPro.Serial = 0
 function WoWPro:dbp(message,...)
 	if WoWPro.DebugMode and message ~= nil then
-		print(string.format("|cffff7f00%s|r: "..message, self.name or "Wow-Pro",...))
+	    local msg = string.format("|cffff7f00%s|r: "..message, self.name or "Wow-Pro",...)
+		DEFAULT_CHAT_FRAME:AddMessage( msg )
+		WoWPro.Serial = WoWPro.Serial + 1
+		if WoWPro.Serial > 999 then
+		    WoWPro.Serial = 1
+		end
+		if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
+		    if WoWPro.Log then
+		        WoWProDB.global.Log = WoWPro.Log
+		        WoWPro.Log = nil
+		    end
+		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+		else
+		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%02d",WoWPro.Serial)] = msg
+		end
 	end
 end
 WoWPro:Export("dbp")
@@ -38,7 +53,21 @@ WoWPro:Export("dbp")
 -- WoWPro print function --
 function WoWPro:Print(message,...)
 	if message ~= nil then
-		print(string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...))
+	    local msg = string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...)
+		DEFAULT_CHAT_FRAME:AddMessage( msg )
+		WoWPro.Serial = WoWPro.Serial + 1
+		if WoWPro.Serial > 999 then
+		    WoWPro.Serial = 1
+		end
+		if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
+		    if WoWPro.Log then
+		        WoWProDB.global.Log = WoWPro.Log
+		        WoWPro.Log = nil
+		    end
+		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+		else
+		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%02d",WoWPro.Serial)] = msg
+		end
 	end
 end
 WoWPro:Export("Print")
@@ -102,6 +131,7 @@ function WoWPro:OnInitialize()
 	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
 
+
 	-- Creating empty user settings if none exist --
 	WoWProCharDB = WoWProCharDB or {}
 	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
@@ -110,9 +140,9 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
-	if WoWProDB.global.Deltas == nil then
-	    WoWProDB.global.Deltas = {}
-	end
+	WoWProDB.global.Deltas = {}
+	WoWProDB.global.Log = {}
+
 end
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
