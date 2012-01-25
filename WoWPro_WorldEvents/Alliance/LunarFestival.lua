@@ -95,7 +95,7 @@ A Hammershout the Elder|N|From Hammershout the Elder.|QID|8646|M|34.4,50.4|Z|Elw
 A Stormbrow the Elder|N|From Stormbrow the Elder.|QID|8649|M|39.6,63.5|Z|Elwynn Forest|
 F Morgan's Vigil|N|Fly to Morgan's Vigil.|QID|8636|M|41.72,64.62|Z|Elwynn Forest|
 
-A Rumblerrock the Elder|N|From Rumblerrock the Elder.|QID|8636|M|70.1,45.4|Z|Burning Steppes|
+A Rumblerock the Elder|N|From Rumblerock the Elder.|QID|8636|M|70.1,45.4|Z|Burning Steppes|
 A Dawnstrider the Elder|N|From Dawnstrider the Elder.|QID|8683|M|53.2,24|Z|Burning Steppes|T|Elder Dawnstrider|
 R Blackrock Mountain|N|Run to Blackrock Mountain.|QID|8644|M|20.39,34.56|Z|Burning Steppes|
 R Do you have a flying mount?|N|If yes, fly up to the ledge at this waypoint. If not pass this step and follow the next steps.|QID|8644|M|23.77,26.14|Z|Burning Steppes|CC|
@@ -128,9 +128,9 @@ A Farwhisper the Elder|N|Enter Stratholme's main entrance. From Farwhisper the E
 F The Mender's Stead|N|Fly to The Mender's Stead (or Andorhal if you still have that FP).|QID|8652|M|18.46,27.37|Z|Eastern Plaguelands|
 R Brill|N|Run to Brill.|QID|8652|M|61.7,53.7|Z|Tirisfal Glades|
 A Graveborn the Elder|N|From Graveborn the Elder.|QID|8652|M|61.7,53.7|Z|Tirisfal Glades|T|Elder Graveborn|
-R Undercity|N|Head towards Undercity.|QID|8648|M|66.4,37.8|Z|Tirisfal Glades|
+R Undercity|N|Head towards Undercity.|QID|8648|M|61.9,65.1|Z|Tirisfal Glades|
 A Darkcore the Elder|N|From Darkcore the Elder. He is near the elevators.|QID|8648|M|66.4,37.8|Z|Undercity|T|Elder Darkcore|
-R The Sepulcher|N|Run very quickly out, the head to The Sepulcher.|QID|8645|M||Z|Undercity|
+R The Sepulcher|N|Run very quickly out, then head to The Sepulcher.|QID|8645|M|49.4,38.0|Z|Silverpine Forest|
 A Obsidian the Elder|N|From Obsidian the Elder.|QID|8645|M|44.8,41.1|Z|Silverpine Forest|T|Elder Obsidian|
 H Stormwind City|N|Hearth back to Stormwind City.|QID|13012|
 b Borean Tundra|N|Take the boat to Borean Tundra.|QID|13012|M|18.49,25.37|Z|Stormwind City|
