@@ -2177,6 +2177,18 @@ local function ScrapeMapInfo(cont, zone)
     end
 end
 
+function WoWPro:IsInstanceZone(zone)
+    local mapID = WoWPro.Zone2MapID[zone]
+    if not mapID then
+        WoWPro:Print("Zone [%s] is not in Zone2MapID.  Please report!",zone)
+        return false
+    end  
+    if mapID.cont or mapID.zone then
+        return false
+    end
+    return true
+end
+
 function WoWPro:GenerateMapCache()
     local here = GetCurrentMapAreaID()
     
