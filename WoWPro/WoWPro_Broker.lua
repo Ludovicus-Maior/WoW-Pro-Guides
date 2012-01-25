@@ -350,8 +350,8 @@ function WoWPro.CompleteStep(step)
 	    WoWPro:dbp("Step Complete: "..WoWPro.step[step])
 	end
 	
+	WoWPro:UpdateGuide()
 	WoWPro:MapPoint()
-	WoWPro:UpdateGuide() 
 end
 
 -- Populate the Quest Log table for other functions to call on --
