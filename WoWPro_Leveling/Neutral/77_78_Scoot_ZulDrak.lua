@@ -45,7 +45,7 @@
 -- Date: 2010-12-03 22:28
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoShoA7879|ScoShoH7879", "Neutral", function()
+WoWPro.Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoSho7879|ScoSho7879", "Neutral", function()
 return [[
 N READ THIS! |QID|12902|N|If you followed Jame's Dragonblight guide you have the quest Into the Breach!, which will be the first quest in the Achievement, but you will have to make your own way to Light's Breach.|
 N READ THIS 2! |QID|12902|N|Otherwise you can do the optional quest that starts at Westfall Brigade Encampment in Grizzly Hills, it will fly you there, but doesn't count toward the Achievement.|FACTION|Alliance|
