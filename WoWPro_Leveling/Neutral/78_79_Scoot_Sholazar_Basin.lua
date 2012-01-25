@@ -40,8 +40,9 @@
 -- Date: 2010-12-03 22:30
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("ScoShoA7879", "Sholazar Basin", "Scoot", "78", "79", "EstIce7985", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("ScoSho7879", "Sholazar Basin", "Scoot", "78", "79", "EstIce7985|ScoSto7980", "Neutral", function()
 return [[
+
 F Dalaran |QID|12521| |N|Head to Dalaran.|
 
 A Where in the World is Hemet Nesingwary? |QID|12521|N|From Archmage Pentarus, near the exit from Krasus' Landing.|M|68.68,42.06|
@@ -372,5 +373,6 @@ T Reclamation |QID|12546|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48
 T It Could Be Anywhere! |QID|12624|N|To Chad. I know you found it a long time ago. Turn it in now if you haven't already.|M|26.9,58.9|
 T A Hero's Burden |QID|12581|N|Artruis's Phylactery. If you have it, turn it in.|U|38624|
 N The End |N|End of Sholazar Basin. Move on to The Storm Peaks or Icecrown.|
+
 ]]
 end)
