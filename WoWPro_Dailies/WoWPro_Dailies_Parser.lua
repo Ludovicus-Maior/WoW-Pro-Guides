@@ -516,8 +516,8 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate()
 				
 					-- Quest Turn-Ins --
 					if WoWPro.Dailies.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
+					    	WoWProCharDB.completedQIDs[QID] = true
 						WoWPro.CompleteStep(i)
-						WoWProCharDB.completedQIDs[QID] = true
 						WoWPro.Dailies.CompletingQuest = false
 					end
 					
