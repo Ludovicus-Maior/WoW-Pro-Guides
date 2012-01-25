@@ -60,8 +60,6 @@ function WoWPro.Profession:OnDisable()
 	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Profession" then
 		WoWPro:RemoveMapPoint()
 		WoWProDB.char.lastProfessionguide = WoWProDB.char.currentguide
-		WoWProDB.char.currentguide = nil
-		WoWPro:LoadGuide()
 	end
 end
 

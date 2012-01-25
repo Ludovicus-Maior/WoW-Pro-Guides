@@ -56,8 +56,6 @@ function WoWPro.Dailies:OnDisable()
 	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Dailies" then
 		WoWPro:RemoveMapPoint()
 		WoWProDB.char.lastdailiesguide = WoWProDB.char.currentguide
-		WoWProDB.char.currentguide = nil
-		WoWPro:LoadGuide()
 	end
 end
 

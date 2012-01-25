@@ -82,8 +82,6 @@ function WoWPro.Leveling:OnDisable()
 	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Leveling" then
 		WoWPro:RemoveMapPoint()
 		WoWProDB.char.lastlevelingguide = WoWProDB.char.currentguide
-		WoWProDB.char.currentguide = nil
-		WoWPro:LoadGuide()
 	end
 end
 

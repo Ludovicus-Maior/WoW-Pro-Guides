@@ -58,8 +58,6 @@ function WoWPro.Achievements:OnDisable()
 	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Achievements" then
 		WoWPro:RemoveMapPoint()
 		WoWProDB.char.lastAchievementsguide = WoWProDB.char.currentguide
-		WoWProDB.char.currentguide = nil
-		WoWPro:LoadGuide()
 	end
 end
 
