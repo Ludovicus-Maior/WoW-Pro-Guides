@@ -54,9 +54,15 @@ function WoWPro.Achievements:NextStep(k, skip)
 	if WoWPro.ach[k] then
 		local achnum, achitem = string.split(";",WoWPro.ach[k])
 		local count = GetAchievementNumCriteria(achnum)
-		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-		if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true
-		else skip=false end
+		if count == 0 then 
+			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
+			if Completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true 
+			else skip=false end 
+		else 
+			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
+			if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true 
+			else skip=false end 
+		end 
 	end
 				
 	return skip
@@ -227,10 +233,16 @@ local function ParseQuests(...)
 
 				if WoWPro.ach[i] then
 					local achnum, achitem = string.split(";",WoWPro.ach[i])
-					local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-					if WoWPro.step[i] == "Achievement" then WoWPro.note[i] = description.." ("..quantityString..")" end
-				end
-
+					local count = GetAchievementNumCriteria(achnum) 
+					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
+					if WoWPro.step[i] == "Achievement" and count == 0 then 
+						WoWPro.step[i] = Name 
+						WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i] end 
+					if WoWPro.step[i] == "Achievement" and count > 0 then 
+						WoWPro.step[i] = Name 
+						local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
+						WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i] end 
+					end
 
 				for _,tag in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][i] then WoWPro[tag][i] = false end
@@ -611,6 +623,9 @@ function WoWPro.Achievements:EventHandler(self, event, ...)
 		WoWPro.Achievements.CheckAvailableSpells()
 	end
 
+	if event == "CRITERIA_UPDATE" then 
+		WoWPro:UpdateGuide() 
+	end 
 end
 
 -- Auto-Complete: Get flight point --
