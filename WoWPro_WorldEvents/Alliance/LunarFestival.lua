@@ -34,7 +34,7 @@ A Starweave the Elder|N|From Starweave the Elder.|QID|8721|M|49.5,18.9|Z|Darksho
 F Whisperwind Grove|N|Fly to Whisperwind Grove.|QID|8723|M|51.6,17.6|Z|Darkshore|
 A Nightwind the Elder|N|From Nightwind the Elder.|QID|8723|M|38.4,52.9|Z|Felwood|
 F Everlook|N|Fly to Everlook.|QID|8672|M|43.6,28.6|Z|Felwood|
-A Stonespire the Elder|N|From Stonespire the Elder.|QID|8672|M|59,49|Z|Winterspring|
+A Stonespire the Elder|N|From Stonespire the Elder.|QID|8672|M|59.97,49.94|Z|Winterspring|
 A Brightspear the Elder|N|From Brightspear the Elder.|QID|8726|M|53.2,56.6|Z|Winterspring|
 F Astranaar|N|Fly to Astranaar.|QID|8725|M|61,48.6|Z|Winterspring|
 A Riversong the Elder|N|From Riversong the Elder.|QID|8725|M|35.4,48.9|Z|Ashenvale|
@@ -48,7 +48,7 @@ A Runetotem the Elder|N|From Runetotem the Elder.|QID|8670|M|53.2,43.6|Z|Durotar
 R The Crossroads|N|Head over to The Crossroads.|QID|8717|M|48.5,59.3|Z|Northern Barrens|
 A Moonwarden the Elder|N|From Moonwarden the Elder.|QID|8717|M|48.5,59.3|Z|Northern Barrens|T|Elder Moonwarden|
 R Thunder Bluff|N|Sneak into Thunder Bluff.|QID|8678|M|73,23.8|Z|Thunder Bluff|
-A Wheathood the Elder|N|From Wheathood the Elder.|QID|8678|M|73,23.8|Z|Thunder Bluff|T|Elder Wheathood|
+A Wheathoof the Elder|N|From Wheathoof the Elder.|QID|8678|M|73,23.8|Z|Thunder Bluff|T|Elder Ezra Wheathoof|
 R Bloodhoof Village|N|Gallop on over to Bloodhoof Village.|QID|8673|M|48.5,53.2|Z|Mulgore|
 A Bloodhoof the Elder|N|From Bloodhoof the Elder.|QID|8673|M|48.5,53.2|Z|Mulgore|T|Elder Bloodhoof|
 A High Mountain the Elder|N|From High Mountain the Elder.|QID|8686|M|41.5,47.5|Z|Southern Barrens|T|Elder High Mountain|
@@ -56,7 +56,7 @@ F Thargad's Camp|N|Fly to Thargad's Camp.|QID|8635|M|38.8,10.8|Z|Southern Barren
 R Maraudon|QID|8635|M|29.12,62.56|N|Head over to the Maraudon.|Z|Desolace|
 R Open the Stone Door|QID|8635|N|And follow the path until you come to a mini-map change.|M|28.23,62.61;28.29,65.08;27.58,62.85;28.09,62.8|CC|Z|Desolace|
 R Follow the dots|QID|8635|N|Until you come to a portal.|M|29.06,62.48;29.97,59.96;29.39,60.94|Z|Desolace|CC|
-A Splitrock the Elder|N|Enter the portal. From Splitrock the Elder. May have to disable and re-enable the addon for the waypoint to appear.|QID|8635|M|51.4,93.4|Z|Zaetar's Grave|
+A Splitrock the Elder|N|Enter the portal. From Splitrock the Elder. May have to disable and re-enable the addon for the waypoint to appear.|QID|8635|M|51.47,93.72|Z|Zaetar's Grave|
 R Maraudon|QID|8685|N|Easy way out is to invite a friend, make them the leader then leave group. You will end up at the nearest graveyard, in this case right near the stone gate out. Should take about 1-2 minutes before you are booted.|
 F Tower of Estulan|N|Fly to the Tower of Estulan.|QID|8685|M|36.75,71.69|Z|Desolace|
 A Mistwalker the Elder|N|From Mistwalker the Elder.|QID|8685|M|62.5,31|Z|Feralas|
@@ -72,7 +72,7 @@ A Ragetotem the Elder|N|From Ragetotem the Elder.|QID|8671|M|37.2,79|Z|Tanaris|
 F Gadgetzan|N|Fly to Gadgetzan.|QID|8684|M|40.04,77.55|Z|Tanaris|
 A Dreamseer the Elder|N|From Dreamseer the Elder.|QID|8684|M|51.4,28.8|Z|Tanaris|
 R Zul'Farrak|N|Run into Zul'Farrak.|QID|8961|M|39.23,21.21|Z|Tanaris|
-A Wildmane the Elder|N|From Wildmane the Elder. May have to disable and re-enable the addon for the waypoint to appear.|QID|8961|M|34.4,39.6|Z|ZulFarrak|
+A Wildmane the Elder|N|From Wildmane the Elder. May have to disable and re-enable the addon for the waypoint to appear.|QID|8676|M|34.4,39.6|Z|ZulFarrak|
 F Fizzle & Pozzik's Speedbarge|N|Fly to Fizzle & Pozzik's Speedbarge.|QID|8724|M|51.36,29.48|Z|Tanaris|
 A Morningdew the Elder|N|From Morningdew the Elder.|QID|8724|M|77,75.6|Z|Thousand Needles|
 A Skyseer the Elder|N|From Skyseer the Elder.|QID|8682|M|46.3,51|Z|Thousand Needles|
