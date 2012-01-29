@@ -304,7 +304,7 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "HallsofReflection",
 			["floor"] = 1,
 		},
-		["Ulduar77"] = {
+		["Halls of Stone"] = {
 			["numFloors"] = 1,
 			["mapID"] = 526,
 			["mapName"] = "Ulduar77",
@@ -1254,7 +1254,7 @@ WoWPro.Zone2MapID = {
 			["zone"] = "Northern Barrens",
 			["mapName"] = "Northern Barrens",
 		},
-		["Lower Pinnacle"] = {
+		["Utgarde Pinnacle"] = {
 			["dungeon"] = "UtgardePinnacle",
 			["mapID"] = 524,
 			["floor"] = 1,
