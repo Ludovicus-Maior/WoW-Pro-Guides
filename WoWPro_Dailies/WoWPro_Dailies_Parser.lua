@@ -91,7 +91,7 @@ local function ParseQuests(...)
 	local i = 1
 	for j=1,select("#", ...) do
 		local text = select(j, ...)
-		if text ~= "" then
+		if text ~= "" and text:sub(1,1) ~= ";" then
 			_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
 			WoWPro.step[i] = WoWPro.step[i]:trim()
 			WoWPro.stepcount = WoWPro.stepcount + 1
