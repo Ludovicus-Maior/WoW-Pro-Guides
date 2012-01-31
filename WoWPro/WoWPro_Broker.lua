@@ -210,8 +210,8 @@ function WoWPro:NextStep(k,i)
 						end
 					end
 				end
-				if not hasProf then
-				    -- If they do not have the profession, mark the step as skipped
+				if WoWPro.action[k] == "A" and not hasProf then
+				    -- If they do not have the profession, mark the step and quest as skipped
 				    WoWProCharDB.Guide[GID].skipped[k] = true
 				    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
 				end
@@ -267,8 +267,8 @@ function WoWPro:NextStep(k,i)
                     skip = false
 				end
 			end
-			-- Mark steps as skipped that we will assume will NEVER be done.
-			if standingId < 3 and repID > 3 and skip then
+			-- Mark quests as skipped that we will assume will NEVER be done.
+			if WoWPro.action[k] == "A" and standingId < 3 and repID > 3 and skip then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
 			    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
 			end
