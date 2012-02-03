@@ -5,6 +5,7 @@
 WoWPro.Dailies = WoWPro:NewModule("Dailies")
 local myUFG = UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Dailies)
+local bucket = LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Dailies:OnInitialize()
@@ -20,10 +21,10 @@ function WoWPro.Dailies:OnEnable()
 	-- Event Registration --
 	WoWPro.Dailies.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT"
+		"CHAT_MSG_SYSTEM"
 	}
 	WoWPro:RegisterEvents(WoWPro.Dailies.Events)
-	
+	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.Dailies.AutoCompleteLoot)
 	--Loading Frames--
 	if not WoWPro.Dailies.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Dailies:CreateConfig()
@@ -43,6 +44,7 @@ function WoWPro.Dailies:OnEnable()
 	WoWPro.Dailies.FirstMapCall = true
 	
 	-- Server query for completed quests --
+	WoWPro.Dailies.DailiesReset = true
 	QueryQuestsCompleted()
 end
 

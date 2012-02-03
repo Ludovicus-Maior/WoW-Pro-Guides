@@ -36,6 +36,19 @@ WoWPro.Dailies.actionlabels = {
 	r = "Repair/Restock"
 }
 
+-- See if any of the list of QUIDs are in the indicated table.
+
+function WoWPro.Dailies:QIDsInTable(QIDs,tabla)
+    if not QIDs return false end
+    local numQIDs = select("#", string.split(";", QIDs))
+	for j=1,numQIDs do
+		local QID = select(numQIDs-j+1, string.split(";", QIDs))
+		QID = tonumber(QID)
+        if tabla[QID] then return true end
+    end
+	return false
+end
+
 -- Determine Next Active Step (Dailies Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Dailies:NextStep(k, skip)
@@ -44,7 +57,7 @@ function WoWPro.Dailies:NextStep(k, skip)
 	-- All non-A and non-N steps are Optional Quests --
 	if WoWPro.action[k] ~= "A" and WoWPro.action[k] ~= "N" and WoWPro.QID[k] then 
 		-- Checking Quest Log --
-		if not WoWPro.QuestLog[tonumber(WoWPro.QID[k])] then 
+		if not WoWPro.Dailies:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then 
 			skip = true -- If the quest is not in the quest log, the step is skipped --
 		end		
 	end
@@ -461,9 +474,6 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Dailies:AutoCompleteSetHearth(...)
 	end	
-	if event == "CHAT_MSG_LOOT" then
-		WoWPro.Dailies:AutoCompleteLoot(...)
-	end	
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
 		WoWPro.Dailies:AutoCompleteZone(...)
 	end
@@ -592,24 +602,23 @@ local function GetLootTrackingInfo(lootitem,lootqty)
 end
 
 -- Auto-Complete: Loot based --
-function WoWPro.Dailies:AutoCompleteLoot(msg)
-	local lootqtyi
-	local _, _, itemid, name = msg:find(L["^You .*Hitem:(%d+).*(%[.+%])"])
-	local _, _, _, _, count = msg:find(L["^You .*Hitem:(%d+).*(%[.+%]).*x(%d+)."])
-	if count == nil then count = 1 end
+function WoWPro.Dailies.AutoCompleteLoot(events)
+    if not WoWProDB.char.currentguide or WoWPro.Guides[WoWProDB.char.currentguide].guidetype  ~= "Dailies" then return end
+    
+    WoWPro:dbp("Running: Dailies AutoCompleteLoot()")
 	for i = 1,1+WoWPro.ActiveStickyCount do
+	    local lootqtyi
 		local index = WoWPro.rows[i].index
-		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
-		if WoWProDB.profile.track and WoWPro.lootitem[index] then
-			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
-			WoWPro.rows[i].track:SetText(strtrim(track))
+		if index and WoWPro.lootitem[index]  then
+    		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
+		    if WoWProDB.profile.track then
+			    local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
+			    WoWPro.rows[i].track:SetText(strtrim(track))
+		    end
+		    if GetItemCount(WoWPro.lootitem[index])  >= lootqtyi and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
+			    WoWPro.CompleteStep(index)
+		    end
 		end
-		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index])  >= lootqtyi 
-		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-			WoWPro.CompleteStep(index)
-		end
-	end
-	for i = 1,15 do
 	end
 end
 			
