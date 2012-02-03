@@ -39,7 +39,7 @@ WoWPro.Dailies.actionlabels = {
 -- See if any of the list of QUIDs are in the indicated table.
 
 function WoWPro.Dailies:QIDsInTable(QIDs,tabla)
-    if not QIDs return false end
+    if not QIDs then return false end
     local numQIDs = select("#", string.split(";", QIDs))
 	for j=1,numQIDs do
 		local QID = select(numQIDs-j+1, string.split(";", QIDs))
