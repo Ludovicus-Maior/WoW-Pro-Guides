@@ -5,4 +5,5 @@
   <Script file="Twists_Ramkahen.lua"/>
   <Script file="Ludo_NetherDrake.lua"/>
   <Script file="Ludo_Skyguard.lua"/>
+  <Script file="Twists_ShattSun.lua"/>
 </Ui>
