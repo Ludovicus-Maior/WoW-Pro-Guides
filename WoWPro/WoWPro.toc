@@ -12,6 +12,7 @@
 Libraries\LibStub\LibStub.lua
 Libraries\CallbackHandler-1.0\CallbackHandler-1.0.xml
 Libraries\AceAddon-3.0\AceAddon-3.0.xml
+Libraries\AceBucket-3.0\AceBucket-3.0.xml
 Libraries\AceGUI-3.0\AceGUI-3.0.xml
 Libraries\AceDB-3.0\AceDB-3.0.xml
 Libraries\AceDBOptions-3.0\AceDBOptions-3.0.xml
