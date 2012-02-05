@@ -179,6 +179,32 @@ F River's Heart|N|Fly to River's Heart.|QID|13018|M|72,31|Z|Wintergrasp|
 A Sandrene the Elder|N|From Sandrene the Elder.|QID|13018|M|49.8,63.6|Z|Sholazar Basin|
 A Wanikaya the Elder|N|From Wanikaya the Elder.|QID|13024|M|63.8,49|Z|Sholazar Basin|
 
+F Temple of Earth|QID|29735|M|73.16,19.69|N|Take the Stormwind portal to Deepholm.|Z|Stormwind City|
+A Stonebrand the Elder|QID|29735|M|49.70,54.88|Z|Deepholm|N|From Elder Stonebrand|
+A Deepforge the Elder|QID|29734|M|27.71,69.17|Z|Deepholm|N|From Elder Deepforge|
+
+
+F Nordrassil|QID|29740|N|Take the portal to Mount Hyjal.|
+A Evershade the Elder|QID|29740|M|62.54,22.82|Z|Mount Hyjal|N|From Elder Evershade|
+A Windsong the Elder|QID|29739|M|26.69,62.05|Z|Mount Hyjal|N|From Elder Windsong|
+
+
+F Darkbreak Cove|QID|29738|N|Take the portal to Vashj'ir.|
+F Voldrin's Hold|QID|29738|M|57.34,15.80|Z|Shimmering Expanse|
+A Moonlance the Elder|QID|29738|M|57.25,86.14|Z|Shimmering Expanse|N|From Elder Moonlance, Near Biel'Aran Ridge|
+
+F Thundermar|QID|29736||N|Take the portal to the Twilight Highlands.|
+A Darkfeather the Elder|QID|29736|M|51.87,33.07|Z|Twilight Highlands|N|From Elder Darkfeather|
+A Firebeard the Elder|QID|29737|M|50.91,70.45|Z|Twilight Highlands|N|From Elder Firebeard|
+
+
+F Ramkahen|QID|29742|N|Take the portal to Uldum.|Z|Uldum|
+A Menkhaf the Elder|QID|29742|M|65.52,18.68|Z|Uldum|N|From Elder Menkhaf|
+A Sekhemi the Elder|QID|29741|M|31.59,62.99|Z|Uldum|N|From Elder Sekhemi|
+
+
+
+
 N The End |N|That's all for this year.|
 
 ]]
