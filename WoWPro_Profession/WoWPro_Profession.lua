@@ -76,7 +76,6 @@ function WoWPro.Profession:RegisterGuide(GIDvalue, zonename, guidename, authorna
 	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
 		-- If the guide is not of the correct faction, don't register it
 		
-	WoWPro:dbp("Guide Registered: "..GIDvalue)
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = "Profession",
 		zone = zonename,

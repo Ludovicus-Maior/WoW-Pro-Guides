@@ -97,7 +97,6 @@ function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startleve
 	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
 		-- If the guide is not of the correct faction, don't register it
 		
-	WoWPro:dbp("Guide Registered: "..GIDvalue)
 	if factionname == "Neutral" then
 	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
 	    local  AllianceGUID, HordeGID = string.split("|",nextGIDvalue)
@@ -106,7 +105,6 @@ function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startleve
 	    else
 	        nextGIDvalue = HordeGID
 	    end
-        WoWPro:dbp("Neutral Guide "..GIDvalue.." for "..myUFG.." chose "..nextGIDvalue)
 	end
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = "Leveling",
