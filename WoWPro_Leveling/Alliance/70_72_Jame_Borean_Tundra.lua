@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2012-02-05 14:40
+-- Who: Ludovicus Maior
+-- Log: Quest name corrections
+
+-- URL: http://wow-pro.com/node/3289/revisions/24856/view
 -- Date: 2011-12-10 15:28
 -- Who: Crackerhead22
 -- Log: 4.3 updates
@@ -115,10 +120,10 @@ A Thassarian, My Brother |QID|11599|M|58.7,68.4|N|From Leryssa.|
 A Distress Call |QID|11707|N|Jump out of the inn, then accept this from Airman Skyhopper.|M|58.81,68.65|
 R Farshire|QID|11928|N|Take the north exit from town to get to Farshire.|M|58.15,62.75|
 T Farshire |QID|11928|N|To Gerald Green.|M|58.15,62.75|
-A Military? What Military? |QID|11901|M|58.2,62.8|N|From Gerald Green.|
-T Military? What Military? |QID|11901|N|Head inside the mine and turn this quest in at the sack of Plagued Grain.|M|56.82,55.67|
-A Pernicious Evidence |QID|11902|M|56.8,55.6|N|From Plagued Grain.|
-T Thassarian, My Brother |QID|11599|N|Go a little further into the mine to turn this one in at the corpse of William Allerton.|M|56.05,55.46|
+A Military? What Military?|QID|11901|M|58.2,62.8|N|From Gerald Green.|
+T Military? What Military?|QID|11901|N|Head inside the mine and turn this quest in at the sack of Plagued Grain.|M|56.82,55.67|
+A Pernicious Evidence|QID|11902|M|56.8,55.6|N|From Plagued Grain.|
+T Thassarian, My Brother|QID|11599|N|Go a little further into the mine to turn this one in at the corpse of William Allerton.|M|56.05,55.46|
 
 A The Late William Allerton |QID|11600|M|56.0,55.4|N|From the corpse of William Allerton.|
 T Pernicious Evidence |QID|11902|N|Go back to Gerald Green at Farshire.|M|58.19,62.76|
@@ -170,14 +175,14 @@ A A Mission Statement |QID|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|
 A Ears of Our Enemies |QID|11866|N|From Arch Druid Lathorius.|M|57.06,44.30|
 A Help Those That Cannot Help Themselves |QID|11876|N|From Arch Druid Lathorius.|M|57.06,44.30|
 A Happy as a Clam |QID|11869|N|From Heirophant Cenius.|M|57.33,44.08|
-A Ned, Lord of Rhinos... |QID|11884|N|From Killinger the Den Watcher, the bear that circles.|M|57.0,44.0|
+A Nedar, Lord of Rhinos... |QID|11884|N|From Killinger the Den Watcher, the bear that circles.|M|57.0,44.0|
 A Unfit for Death |QID|11865|N|From Zaza.|M|56.80,44.03|
 
 C Ears of Our Enemies |QID|11866|N|Kill Loot Crazed enemies south of D.E.H.T.A.|M|57.57,45.49|S|
 C Unfit for Death |QID|11865|U|35127|N|In the field south of the camp, find traps and use the Fake Furs on them to complete this quest.|M|57.57,45.49|
 C Help Those That Cannot Help Themselves |QID|11876|U|35228|N|Go east and use the D.E.H.T.A. Trap Smasher on Trapped Mammoth Calves.|M|53.73,39.87|S|
 C Happy as a Clam |QID|11869|N|Go west to Lake Kum'uya and kill 10 Loot Crazed Divers.|M|53.04,46.21|
-C Ned, Lord of Rhinos... |QID|11884|N|Go west of the lake and look for Nedar, Lord of Rhinos on his mount.|M|47.19,40.14|
+C Nedar, Lord of Rhinos... |QID|11884|N|Go west of the lake and look for Nedar, Lord of Rhinos on his mount.|M|47.19,40.14|
 C Help Those That Cannot Help Themselves |QID|11876|U|35228|N|Go east and use the D.E.H.T.A. Trap Smasher on Trapped Mammoth Calves.|M|53.73,39.87|US|
 C Ears of Our Enemies |QID|11866|N|Kill Loot Crazed enemies south of D.E.H.T.A.|M|57.57,45.49|US|
 T Unfit for Death |QID|11865|N|To Zaza at the D.E.H.T.A. Encampment.|M|56.80,44.03|
@@ -187,12 +192,12 @@ A Khu'nok Will Know |QID|11878|NC|N|From Arch Druid Lathorius.|M|57.06,44.30|
 T Ears of Our Enemies |QID|11866|N|To Arch Druid Lathorius.|M|57.06,44.30|
 T Happy as a Clam |QID|11869|N|To Heirophant Cenius|M|57.33,44.08|
 A The Abandoned Reach |QID|11870|N|From Heirophant Cenius|M|57.33,44.08|
-T Ned, Lord of Rhinos... |QID|11884|N|To Killinger the Den Watcher, the bear that circles|M|57.0,44.0|
+T Nedar, Lord of Rhinos... |QID|11884|N|To Killinger the Den Watcher, the bear that circles|M|57.0,44.0|
 C Khu'nok Will Know |QID|11878|N|Deliver the Orphaned Mammoth Calk here.|M|59.43,30.61|
 T Khu'nok Will Know |QID|11878|M|59.5,30.4|N|To Khu'nok.|
 
 A Kaw the Mammoth Destroyer |QID|11879|M|59.5,30.4|N|From Khu'nok.|
-C Kaw the Mammoth Destroyer |QID|11879|N|Find a Wooly Mammoth Bull and right-click it to mount up. Go northwest to find Kaw the Mammoth Destroyer and kill him with the help of your mammoth. When he's dead, loot the item off the ground.|M|53.68,24.37|
+C Kaw the Mammoth Destroyer |QID|11879|N|Find a Wooly Mammoth Bull and right-click it to mount up. Go northwest to find Kaw the Mammoth Destroyer and kill him with the help of your mammoth. When he's dead, loot the item off the ground.  You may find it easier to clear some of the mobs first before mounting the mammoth.|M|53.68,24.37|
 K Robots |QID|11729|L|34984|N|Kill robots in this area until one drops The Ultrasonic Screwdriver.|M|58.27,22.84|
 A The Ultrasonic Screwdriver |QID|11729|U|34984|N|Right-click The Ultrasonic Screwdriver and accept the quest.|M|58.5,17.6|
 R Fizzcrank Airstrip |QID|11707|M|57,20|

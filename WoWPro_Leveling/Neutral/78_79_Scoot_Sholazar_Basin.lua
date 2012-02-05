@@ -3,7 +3,12 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_alliance
+-- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2012-01-23 06:06
+-- Who: Crackerhead22
+-- Log: Converted to Neutral.
+
+-- URL: http://wow-pro.com/node/3297/revisions/24379/view
 -- Date: 2011-05-11 18:39
 -- Who: Crackerhead22
 -- Log: Syntax errors fixed.

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2012-01-25 21:01
+-- Who: Ludovicus Maior
+-- Log: Followon guide is now ScoSho7879 for both factions.
+
+-- URL: http://wow-pro.com/node/3295/revisions/24850/view
 -- Date: 2011-12-10 03:50
 -- Who: Crackerhead22
 -- Log: Minor tweaking, plus 4.3 updates.

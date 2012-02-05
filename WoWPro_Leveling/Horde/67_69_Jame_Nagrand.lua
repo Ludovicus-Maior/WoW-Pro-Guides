@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2012-01-20 21:15
+-- Who: Crackerhead22
+-- Log: Added REP tags to certain Consortium quests.
+
+-- URL: http://wow-pro.com/node/3280/revisions/24882/view
 -- Date: 2012-01-03 15:25
 -- Who: Crackerhead22
 
@@ -30,7 +35,7 @@ return [[
 
 R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .|Z|Terokkar Forest|M|20,56|
 N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide.|
-C A Head Full of Ivory |QID|9914|N|Kill and loot Elekks. Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|
+C A Head Full of Ivory |QID|9914|N|Kill and loot Elekks. Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|REP|The Consortium;933;Neutral|
 l Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|S|L|24504|
 A I Must Have Them! |QID|10109|N|From Wazat. He's in Clan Watch in southern Nagrand.|M|62.1,67.2|
 l I Must Have Them!|N|Kill Air Elementals until you get 3x Air Elemental Gas.|QID|10109|M|69.4,56.9|S|L|27807 3|
@@ -210,21 +215,21 @@ T Vision of the Dead |QID|10252|N|To Nitrin the Learned.|M|51.74,56.9|
 A Matters of Security |QID|9925|M|30.8,58.1|N|From Zerid.|
 A Gava'xi |QID|9900|M|30.8,58.1|N|From Zerid.|
 T The Consortium Needs You! |QID|9913|M|31.4,57.8|N|To Gezhe.|
-A Stealing from Thieves |QID|9882|M|31.4,57.8|N|From Gezhe. This will not appear if you are friendly with the Consortium. If so, just skip this quest.|
-A A Head Full of Ivory|QID|9914|N|From Shadrek. This will not appear if you are friendly with the Consortium. If so, just skip this quest.|M|31.75,56.80|
-T A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|O
+A Stealing from Thieves |QID|9882|M|31.4,57.8|N|From Gezhe.|REP|The Consortium;933;Neutral|
+A A Head Full of Ivory|QID|9914|N|From Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
+T A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
 
 l Murkblood Invasion Plans |QID|9871|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24558|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|
 A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9871|U|24558|M|28.3,53.4|
-l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|O|
+l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|REP|The Consortium;933;Neutral|
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
-C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|O|
+C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|REP|The Consortium;933;Neutral|
 C Clefthoof Mastery |N|Kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
 K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
 C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this area and kill the Minions until you finish this quest.|QID|9849|M|38.00,82.00|U|24501|
 T Gava'xi |QID|9900|M|30.8,58.1|N|To Zerid.|
 T Matters of Security |QID|9925|M|30.8,58.1|N|To Zerid.|
-T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|O|
+T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|REP|The Consortium;933;Neutral|
 
 T Armaments for Deception |QID|9928|M|74.0,62.5|N|To Lantresor of the Blade.|
 T Ruthless Cunning |QID|9927|M|74.0,62.5|N|To Lantresor of the Blade.|

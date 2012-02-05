@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2012-01-20 21:13
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3279/revisions/24911/view
+-- Date: 2012-01-20 21:11
+-- Who: Crackerhead22
+-- Log: Added REP tags to certain Consortium quests.
+
+-- URL: http://wow-pro.com/node/3279/revisions/24880/view
 -- Date: 2012-01-02 06:21
 -- Who: Crackerhead22
 
@@ -211,16 +220,16 @@ K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|N|Kill Bach'lor and loot his hoof. He 
 A Matters of Security |QID|9925|M|30.8,58.1|N|From Zerid.|
 A Gava'xi |QID|9900|M|30.8,58.1|N|From Zerid.|
 T The Consortium Needs You! |QID|9913|M|31.4,57.8|N|To Gezhe.|
-A Stealing from Thieves |QID|9882|M|31.4,57.8|N|From Gezhe. This will not appear if you are friendly with the Consortium. If so, just skip this quest.|
-A A Head Full of Ivory|QID|9914|N|From Shadrek. This will not appear if you are friendly with the Consortium. If so, just skip this quest.|M|31.75,56.80|
-T A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|O|
+A Stealing from Thieves |QID|9882|M|31.4,57.8|N|From Gezhe.|REP|The Consortium;933;Neutral|
+A A Head Full of Ivory|QID|9914|N|From Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
+T A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
 N Sell junk, repair, restock |QID|9922|N|Sell junk, repair, restock.|M|30.59,56.94|
 
 l Murkblood Invasion Plans |QID|9871|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24559|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|
 A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9871|U|24559|M|28.3,53.4|
-l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|O|
+l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|REP|The Consortium;933;Neutral|
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
-C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|O|
+C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|REP|The Consortium;933;Neutral|
 C Clefthoof Mastery (part 3)|N|Kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
 K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
 C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this area and kill the Minions until you finish this quest.|QID|9849|M|38.00,82.00|U|24501|
@@ -281,7 +290,7 @@ l Aged Clefthoof Blubber |QID|10252|N|Kill Aged Clefthoofs until you get the Blu
 C Ortor My Old Friend... |N|Go here and kill Ortor.|QID|9873|M|31.00,42.00|
 T Gava'xi |QID|9900|M|30.8,58.1|N|To Zerid.|
 T Matters of Security |QID|9925|M|30.8,58.1|N|To Zerid.|
-T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|
+T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|REP|The Consortium;933;Neutral|
 
 T Vision of the Dead |QID|10252|N|To Nitrin the Learned.|M|51.74,56.9|
 A Levixus the Soul Caller |QID|10253|M|51.74,56.9|N|From Nitrin the Learned. This takes you into a dungeon, so this is optional.|

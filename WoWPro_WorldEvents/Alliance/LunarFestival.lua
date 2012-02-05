@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2012-02-04 22:38
+-- Who: Ludovicus Maior
+-- Log: Elders of Cata
+
+-- URL: http://wow-pro.com/node/3451/revisions/24924/view
+-- Date: 2012-01-25 22:47
+-- Who: Ludovicus Maior
+-- Log: Two zone name errors: Z|The Nexus and Z|Halls of Stone.
+
+-- URL: http://wow-pro.com/node/3451/revisions/24922/view
+-- Date: 2012-01-25 12:28
+-- Who: Ludovicus Maior
+-- Log: Rumblerrock is Rumblerock
+
+-- URL: http://wow-pro.com/node/3451/revisions/24920/view
+-- Date: 2012-01-24 12:34
+-- Who: Ludovicus Maior
+-- Log: Hendo72's Corrections.
+
+-- URL: http://wow-pro.com/node/3451/revisions/24919/view
+-- Date: 2012-01-24 12:26
+-- Who: Ludovicus Maior
+-- Log: 1,$s/|T|\([A-Za-z ]*\) the Elder|/|T|Elder \1|/
+
+-- URL: http://wow-pro.com/node/3451/revisions/24854/view
 -- Date: 2011-12-10 04:35
 -- Who: Crackerhead22
 
@@ -34,7 +59,7 @@ A Starweave the Elder|N|From Starweave the Elder.|QID|8721|M|49.5,18.9|Z|Darksho
 F Whisperwind Grove|N|Fly to Whisperwind Grove.|QID|8723|M|51.6,17.6|Z|Darkshore|
 A Nightwind the Elder|N|From Nightwind the Elder.|QID|8723|M|38.4,52.9|Z|Felwood|
 F Everlook|N|Fly to Everlook.|QID|8672|M|43.6,28.6|Z|Felwood|
-A Stonespire the Elder|N|From Stonespire the Elder.|QID|8672|M|59.97,49.94|Z|Winterspring|
+A Stonespire the Elder|N|From Stonespire the Elder.|QID|8672|M|59,49|Z|Winterspring|
 A Brightspear the Elder|N|From Brightspear the Elder.|QID|8726|M|53.2,56.6|Z|Winterspring|
 F Astranaar|N|Fly to Astranaar.|QID|8725|M|61,48.6|Z|Winterspring|
 A Riversong the Elder|N|From Riversong the Elder.|QID|8725|M|35.4,48.9|Z|Ashenvale|
@@ -48,7 +73,7 @@ A Runetotem the Elder|N|From Runetotem the Elder.|QID|8670|M|53.2,43.6|Z|Durotar
 R The Crossroads|N|Head over to The Crossroads.|QID|8717|M|48.5,59.3|Z|Northern Barrens|
 A Moonwarden the Elder|N|From Moonwarden the Elder.|QID|8717|M|48.5,59.3|Z|Northern Barrens|T|Elder Moonwarden|
 R Thunder Bluff|N|Sneak into Thunder Bluff.|QID|8678|M|73,23.8|Z|Thunder Bluff|
-A Wheathoof the Elder|N|From Wheathoof the Elder.|QID|8678|M|73,23.8|Z|Thunder Bluff|T|Elder Ezra Wheathoof|
+A Wheathood the Elder|N|From Wheathood the Elder.|QID|8678|M|73,23.8|Z|Thunder Bluff|T|Elder Wheathood|
 R Bloodhoof Village|N|Gallop on over to Bloodhoof Village.|QID|8673|M|48.5,53.2|Z|Mulgore|
 A Bloodhoof the Elder|N|From Bloodhoof the Elder.|QID|8673|M|48.5,53.2|Z|Mulgore|T|Elder Bloodhoof|
 A High Mountain the Elder|N|From High Mountain the Elder.|QID|8686|M|41.5,47.5|Z|Southern Barrens|T|Elder High Mountain|
@@ -56,7 +81,7 @@ F Thargad's Camp|N|Fly to Thargad's Camp.|QID|8635|M|38.8,10.8|Z|Southern Barren
 R Maraudon|QID|8635|M|29.12,62.56|N|Head over to the Maraudon.|Z|Desolace|
 R Open the Stone Door|QID|8635|N|And follow the path until you come to a mini-map change.|M|28.23,62.61;28.29,65.08;27.58,62.85;28.09,62.8|CC|Z|Desolace|
 R Follow the dots|QID|8635|N|Until you come to a portal.|M|29.06,62.48;29.97,59.96;29.39,60.94|Z|Desolace|CC|
-A Splitrock the Elder|N|Enter the portal. From Splitrock the Elder. May have to disable and re-enable the addon for the waypoint to appear.|QID|8635|M|51.47,93.72|Z|Zaetar's Grave|
+A Splitrock the Elder|N|Enter the portal. From Splitrock the Elder. May have to disable and re-enable the addon for the waypoint to appear.|QID|8635|M|51.4,93.4|Z|Zaetar's Grave|
 R Maraudon|QID|8685|N|Easy way out is to invite a friend, make them the leader then leave group. You will end up at the nearest graveyard, in this case right near the stone gate out. Should take about 1-2 minutes before you are booted.|
 F Tower of Estulan|N|Fly to the Tower of Estulan.|QID|8685|M|36.75,71.69|Z|Desolace|
 A Mistwalker the Elder|N|From Mistwalker the Elder.|QID|8685|M|62.5,31|Z|Feralas|
@@ -72,7 +97,7 @@ A Ragetotem the Elder|N|From Ragetotem the Elder.|QID|8671|M|37.2,79|Z|Tanaris|
 F Gadgetzan|N|Fly to Gadgetzan.|QID|8684|M|40.04,77.55|Z|Tanaris|
 A Dreamseer the Elder|N|From Dreamseer the Elder.|QID|8684|M|51.4,28.8|Z|Tanaris|
 R Zul'Farrak|N|Run into Zul'Farrak.|QID|8961|M|39.23,21.21|Z|Tanaris|
-A Wildmane the Elder|N|From Wildmane the Elder. May have to disable and re-enable the addon for the waypoint to appear.|QID|8676|M|34.4,39.6|Z|ZulFarrak|
+A Wildmane the Elder|N|From Wildmane the Elder. May have to disable and re-enable the addon for the waypoint to appear.|QID|8961|M|34.4,39.6|Z|ZulFarrak|
 F Fizzle & Pozzik's Speedbarge|N|Fly to Fizzle & Pozzik's Speedbarge.|QID|8724|M|51.36,29.48|Z|Tanaris|
 A Morningdew the Elder|N|From Morningdew the Elder.|QID|8724|M|77,75.6|Z|Thousand Needles|
 A Skyseer the Elder|N|From Skyseer the Elder.|QID|8682|M|46.3,51|Z|Thousand Needles|
@@ -141,7 +166,7 @@ A Pamuya the Elder|N|From Pamuya the Elder.|QID|13029|M|42.8,49.6|Z|Borean Tundr
 A Northal the Elder|N|From Northal the Elder.|QID|13016|M|33.6,34.2|Z|Borean Tundra|
 R The Nexus|N|Run into The Nexus.|QID|13021|M|27.5,26.09|Z|Borean Tundra|
 
-A Igasho the Elder|N|From Igasho the Elder.|QID|13021|M|55.4,64.6|Z|The Nexus|
+A Igasho the Elder|N|From Igasho the Elder.|QID|13021|M|55.4,64.6|Z|TheNexus|
 F Star's Rest|N|Head back outside of The Nexus and fly to Star's Rest.|QID|13014|M|33,34.4|Z|Borean Tundra|
 A Morthie the Elder|N|From Morthie the Elder.|QID|13014|M|29.6,55.8|Z|Dragonblight|
 A Skywarden the Elder|N|From Skywarden the Elder.|QID|13031|M|35,48.4|Z|Dragonblight|T|Elder Skywarden|
@@ -168,7 +193,7 @@ A Ohanzee the Elder|N|From Ohanzee the Elder.|QID|13065|M|45.6,62|Z|Gundrak|
 R Camp Tunka'lo|N|Leave Gundrak and head over to Camp Tunka'lo.|QID|13032|M|64.6,51.2|Z|The Storm Peaks|
 A Muraco the Elder|N|From Muraco the Elder.|QID|13032|M|64.6,51.2|Z|The Storm Peaks|T|Elder Muraco|
 R Halls of Stone|N|Run into the Halls of Stone.|QID|13066|M|39.57,26.92|Z|The Storm Peaks|
-A Yurauk the Elder|N|From Yurauk the Elder.|QID|13066|M|29.4,61.6|Z|Halls of Stone|
+A Yurauk the Elder|N|From Yurauk the Elder.|QID|13066|M|29.4,61.6|Z|Ulduar|
 
 A Stonebeard the Elder|N|From Stonebeard the Elder.|QID|13020|M|31.2,37.6|Z|The Storm Peaks|
 A Fargal the Elder|N|From Fargal the Elder.|QID|13015|M|28.8,73.6|Z|The Storm Peaks|
@@ -179,15 +204,13 @@ F River's Heart|N|Fly to River's Heart.|QID|13018|M|72,31|Z|Wintergrasp|
 A Sandrene the Elder|N|From Sandrene the Elder.|QID|13018|M|49.8,63.6|Z|Sholazar Basin|
 A Wanikaya the Elder|N|From Wanikaya the Elder.|QID|13024|M|63.8,49|Z|Sholazar Basin|
 
-F Temple of Earth|QID|29735|M|73.16,19.69|N|Take the Stormwind portal to Deepholm.|Z|Stormwind City|
+F Temple of Earth|QID|29735|N|Take the portal to Deepholm.|
 A Stonebrand the Elder|QID|29735|M|49.70,54.88|Z|Deepholm|N|From Elder Stonebrand|
 A Deepforge the Elder|QID|29734|M|27.71,69.17|Z|Deepholm|N|From Elder Deepforge|
-
 
 F Nordrassil|QID|29740|N|Take the portal to Mount Hyjal.|
 A Evershade the Elder|QID|29740|M|62.54,22.82|Z|Mount Hyjal|N|From Elder Evershade|
 A Windsong the Elder|QID|29739|M|26.69,62.05|Z|Mount Hyjal|N|From Elder Windsong|
-
 
 F Darkbreak Cove|QID|29738|N|Take the portal to Vashj'ir.|
 F Voldrin's Hold|QID|29738|M|57.34,15.80|Z|Shimmering Expanse|
@@ -197,13 +220,9 @@ F Thundermar|QID|29736||N|Take the portal to the Twilight Highlands.|
 A Darkfeather the Elder|QID|29736|M|51.87,33.07|Z|Twilight Highlands|N|From Elder Darkfeather|
 A Firebeard the Elder|QID|29737|M|50.91,70.45|Z|Twilight Highlands|N|From Elder Firebeard|
 
-
 F Ramkahen|QID|29742|N|Take the portal to Uldum.|Z|Uldum|
 A Menkhaf the Elder|QID|29742|M|65.52,18.68|Z|Uldum|N|From Elder Menkhaf|
 A Sekhemi the Elder|QID|29741|M|31.59,62.99|Z|Uldum|N|From Elder Sekhemi|
-
-
-
 
 N The End |N|That's all for this year.|
 
