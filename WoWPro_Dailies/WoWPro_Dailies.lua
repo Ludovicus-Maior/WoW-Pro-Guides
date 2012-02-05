@@ -43,9 +43,6 @@ function WoWPro.Dailies:OnEnable()
 	
 	WoWPro.Dailies.FirstMapCall = true
 	
-	-- Server query for completed quests --
-	WoWPro.Dailies.DailiesReset = true
-	QueryQuestsCompleted()
 end
 
 -- Called when the module is disabled --
@@ -72,7 +69,6 @@ function WoWPro.Dailies:RegisterGuide(GIDvalue, zonename, guidename, categorynam
 	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
 		-- If the guide is not of the correct faction, don't register it
 		
-	WoWPro:dbp("Guide Registered: "..GIDvalue)
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = "Dailies",
 		zone = zonename,
