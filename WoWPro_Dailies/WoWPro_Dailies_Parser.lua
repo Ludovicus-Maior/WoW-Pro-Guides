@@ -102,42 +102,75 @@ end
 local function ParseQuests(...)
 	WoWPro:dbp("Parsing Guide...")
 	local i = 1
+	local myclassL, myclass = UnitClass("player")
+	local myraceL, myrace = UnitRace("player")
+	if myrace == "Scourge" then
+		myrace = "Undead"
+	end
 	for j=1,select("#", ...) do
 		local text = select(j, ...)
 		if text ~= "" and text:sub(1,1) ~= ";" then
-			_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
-			WoWPro.step[i] = WoWPro.step[i]:trim()
-			WoWPro.stepcount = WoWPro.stepcount + 1
-			WoWPro.QID[i] = text:match("|QID|([^|]*)|?")
-			WoWPro.note[i] = text:match("|N|([^|]*)|?")
-			WoWPro.map[i] = text:match("|M|([^|]*)|?")
-			if text:find("|S|") then 
-				WoWPro.sticky[i] = true; 
-				WoWPro.stickycount = WoWPro.stickycount + 1 
+			local class, race, gender, faction = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
+			if class then
+				-- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
+				class = strupper(string.gsub(class, " ", ""))
 			end
-			if text:find("|US|") then WoWPro.unsticky[i] = true end
-			WoWPro.use[i] = text:match("|U|([^|]*)|?")
-			WoWPro.zone[i] = text:match("|Z|([^|]*)|?")
-			_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
-			WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
-			WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
-			if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
-				if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
-				elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
-				else WoWPro.waypcomplete[i] = false end
+			if race then
+				-- deleting whitespaces to compare with Blizzard's race tokens
+				race = string.gsub(race, " ", "")
 			end
+			if gender then
+				-- deleting leading/trailing whitespace and then canonicalize the case
+				gender=strupper(strtrim(gender))
+				-- map the text to the gender code
+				if gender == "FEMALE" then
+					gender = 3
+				elseif gender == "MALE" then
+					gender = 2
+				else
+					gender = 1
+				end
+			end
+			if faction then
+				-- deleting leading/trailing whitespace and then canonicalize the case
+				faction=strupper(strtrim(faction))
+            end			    
 
-			if text:find("|NC|") then WoWPro.noncombat[i] = true end
-			WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
-			WoWPro.target[i] = text:match("|T|([^|]*)|?")
-			WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
-			WoWPro.prof[i] = text:match("|P|([^|]*)|?")
-
-			for _,tag in pairs(WoWPro.Tags) do 
-				if not WoWPro[tag][i] then WoWPro[tag][i] = false end
-			end
-			
-			i = i + 1
+			if class == nil or class:find(myclass) then if race == nil or race:find(myrace) then if gender == nil or gender == UnitSex("player") then if faction == nil or faction == strupper(UnitFactionGroup("player")) then
+    			_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
+    			WoWPro.step[i] = WoWPro.step[i]:trim()
+    			WoWPro.stepcount = WoWPro.stepcount + 1
+    			WoWPro.QID[i] = text:match("|QID|([^|]*)|?")
+    			WoWPro.note[i] = text:match("|N|([^|]*)|?")
+    			WoWPro.map[i] = text:match("|M|([^|]*)|?")
+    			if text:find("|S|") then 
+    				WoWPro.sticky[i] = true; 
+    				WoWPro.stickycount = WoWPro.stickycount + 1 
+    			end
+    			if text:find("|US|") then WoWPro.unsticky[i] = true end
+    			WoWPro.use[i] = text:match("|U|([^|]*)|?")
+    			WoWPro.zone[i] = text:match("|Z|([^|]*)|?")
+    			_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
+    			WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
+    			WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
+    			if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
+    				if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
+    				elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
+    				else WoWPro.waypcomplete[i] = false end
+    			end
+    
+    			if text:find("|NC|") then WoWPro.noncombat[i] = true end
+    			WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
+    			WoWPro.target[i] = text:match("|T|([^|]*)|?")
+    			WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
+    			WoWPro.prof[i] = text:match("|P|([^|]*)|?")
+    
+    			for _,tag in pairs(WoWPro.Tags) do 
+    				if not WoWPro[tag][i] then WoWPro[tag][i] = false end
+    			end
+    			
+    			i = i + 1
+    		end end end end
 		end
 	end
 end
