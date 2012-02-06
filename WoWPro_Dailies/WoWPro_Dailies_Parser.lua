@@ -502,7 +502,68 @@ end
 function WoWPro.Dailies:EventHandler(self, event, ...)
 	WoWPro:dbp("Running: Dailies Event Handler")
 		
-	-- Noting that a quest is being completed for quest log update events --
+	-- Lets see what quests the NPC has:
+    if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
+        local npcQuests = {GetGossipAvailableQuests()};
+        local index = 0
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        for _,item in pairs(npcQuests) do
+            if type(item) == "string" then
+                index = index + 1      
+		        if WoWPro.action[qidx] == "A" and item == WoWPro.step[qidx] then
+		            SelectGossipAvailableQuest(index)
+		            return
+		        end
+            end
+        end
+        npcQuests =  {GetGossipActiveQuests()};
+        index = 0 
+        for _,item in pairs(npcQuests) do
+            if type(item) == "string" then
+                index = index + 1       
+		        if WoWPro.action[qidx] == "T" and item == WoWPro.step[qidx] then
+		            SelectGossipActiveQuest(index)
+		            return
+		        end
+            end
+        end
+    end
+    
+    if event == "QUEST_GREETING" and WoWProCharDB.AutoSelect == true then
+        local numAvailableQuests = GetNumAvailableQuests()
+        local numActiveQuests = GetNumActiveQuests()
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        for i=1, numActiveQuests do
+            if WoWPro.action[qidx] == "T" and GetActiveTitle(i) == WoWPro.step[qidx] then
+		        SelectActiveQuest(i)
+		        return
+		    end
+		end
+        for i=1, numAvailableQuests do
+            if WoWPro.action[qidx] == "A" and GetAvailableTitle(i) == WoWPro.step[qidx] then
+		        SelectAvailableQuest(i)
+		        return
+		    end
+		end
+    end
+    
+    if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        local questtitle = GetTitleText();
+		if WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
+		    AcceptQuest()
+		end 
+    end
+
+    if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        local questtitle = GetTitleText();
+		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
+		    CompleteQuest()
+		end         
+    end
+
+    -- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
 		WoWPro.Dailies.CompletingQuest = true
 		WoWPro.Dailies:AutoCompleteQuestUpdate(...)
