@@ -2105,7 +2105,13 @@ WoWPro.Zone2MapID = {
 			["numFloors"] = 0,
 			["mapID"] = 795,
 			["mapName"] = "MoltenFront",
-		}
+		},
+		["Darkmoon Island"] = {
+			["numFloors"] = 0,
+			["mapID"] = 823,
+			["zone"] = "Darkmoon Faire Island",
+			["mapName"] = "DarkmoonFaireIsland",
+		},
 	}
 	
 local MapsSeen = {}
