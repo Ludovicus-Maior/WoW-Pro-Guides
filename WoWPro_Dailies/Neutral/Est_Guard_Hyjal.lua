@@ -1,6 +1,7 @@
-WoWPro.Dailies:RegisterGuide("EstEstDay", "Estes Daily Guide", "Estelyens Daily Guide", "Cata", "Estelyen", "Alliance", function()
+WoWPro.Dailies:RegisterGuide("EstGuardHyjal", "Mount Hyjal", "Guardians of Hyjal", "Cata", "Estelyen", "Neutral", function()
 return [[
 
+N Danger! Peligro! Achtung!|N|This guide is under construction.\nEnter at your own risk.|
 R Mount Hyjal|N|Enter this Portal in SW.|Z|Stormwind City|M|76.12,18.69|
 
 A Vigilance on Wings|QID|29177|N|Enter the Portal to the Firelands here and accept the quest from Farden Talonshrike.|Z|Mount Hyjal|M|39.00,58.00|

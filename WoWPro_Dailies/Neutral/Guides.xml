@@ -1,6 +1,7 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
   <Script file="Cracker_Frenzy.lua"/>
   <Script file="Cracker_Oracles.lua"/>
+  <Script file="Est_Guard_Hyjal.lua"/>
   <Script file="Jiyambi_Therazane.lua"/>
   <Script file="Twists_Ramkahen.lua"/>
   <Script file="Ludo_NetherDrake.lua"/>
