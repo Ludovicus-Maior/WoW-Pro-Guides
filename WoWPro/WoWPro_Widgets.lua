@@ -125,8 +125,8 @@ function WoWPro:CreateBG(parent)
 	}
 	local box = CreateFrame('Frame', nil, parent)
 	box:SetBackdrop(bg)
-	box:SetBackdropBorderColor(0.4, 0.4, 0.4)
-	box:SetBackdropColor(0.1, 0.1, 0.1)
+	box:SetBackdropBorderColor(0.2, 0.2, 0.2)
+	box:SetBackdropColor(0.1, 0.2, 0.1, 0.5)
 	
 	return box
 end
@@ -164,7 +164,7 @@ end
 
 -- Creates a scrollbar
 -- Parent is required, offset and step are optional
-function WoWPro:CreateScrollbar(parent, offset, step)
+function WoWPro:CreateScrollbar(parent, offset, step, where)
 
 	local bg = {
 		edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
@@ -177,8 +177,19 @@ function WoWPro:CreateScrollbar(parent, offset, step)
 	local f = CreateFrame("Slider", nil, parent)
 	f:SetWidth(16)
 
-	f:SetPoint("TOPRIGHT", 0 - (offset or 0), -16 - (offset or 0))
-	f:SetPoint("BOTTOMRIGHT", 0 - (offset or 0), 16 + (offset or 0))
+    local offsetX, offsetY = offset, offset
+    if type(offset) == "table" then
+        offsetX = offset[1]
+        offsetY = offset[2]
+    end
+
+    if not where then
+	    f:SetPoint("TOPRIGHT", 0 - (offsetX or 0), -16 - (offsetY or 0))
+	    f:SetPoint("BOTTOMRIGHT", 0 - (offsetX or 0), 16 + (offsetY or 0))
+	elseif where == "Outside" then
+	    f:SetPoint("TOPLEFT",parent,"TOPRIGHT",0 - (offsetX or 0), -16 - (offsetY or 0)) 
+	    f:SetPoint("BOTTOMLEFT", parent,"BOTTOMRIGHT",0 - (offsetX or 0), 16 + (offsetY or 0))    
+    end	
 
 	local up = CreateFrame("Button", nil, f)
 	up:SetPoint("BOTTOM", f, "TOP")

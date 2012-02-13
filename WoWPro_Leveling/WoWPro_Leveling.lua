@@ -34,7 +34,7 @@ function WoWPro.Leveling:OnEnable()
 		WoWPro.Leveling:CreateConfig()
 		WoWPro.Leveling.CreateSpellFrame()
 		WoWPro.Leveling.CreateSpellListFrame()
-		WoWPro.Leveling.CreateGuideList()
+--		WoWPro.Leveling.CreateGuideList()
 		WoWPro.Leveling.FramesLoaded = true
 	end
 	

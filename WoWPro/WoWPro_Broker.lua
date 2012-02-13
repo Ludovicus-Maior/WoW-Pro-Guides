@@ -127,10 +127,11 @@ function WoWPro:UpdateGuide(offset)
 	WoWPro:PaddingSet()
 	
 	-- Updating the guide list or current guide panels if they are shown --
-	if WoWPro[module:GetName()].GuideList 
-	and WoWPro[module:GetName()].GuideList:IsVisible() 
+	if WoWPro[module:GetName()].GuideList
+	and WoWPro[module:GetName()].GuideList.Frame
+	and WoWPro[module:GetName()].GuideList.Frame:IsVisible() 
 	and WoWPro[module:GetName()].UpdateGuideList then
-		WoWPro[module:GetName()].UpdateGuideList() 
+		WoWPro[module:GetName()]:UpdateGuideList() 
 	end
 	if WoWPro.CurrentGuideFrame:IsVisible() then WoWPro.UpdateCurrentGuidePanel() end
 	

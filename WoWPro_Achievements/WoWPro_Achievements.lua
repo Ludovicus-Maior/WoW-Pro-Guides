@@ -30,7 +30,7 @@ function WoWPro.Achievements:OnEnable()
 	--Loading Frames--
 	if not WoWPro.Achievements.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Achievements:CreateConfig()
-		WoWPro.Achievements.CreateGuideList()
+		-- WoWPro.Achievements.CreateGuideList()
 		WoWPro.Achievements.FramesLoaded = true
 	end
 	

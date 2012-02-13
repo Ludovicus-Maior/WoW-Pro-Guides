@@ -32,7 +32,6 @@ function WoWPro.Profession:OnEnable()
 	--Loading Frames--
 	if not WoWPro.Profession.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Profession:CreateConfig()
-		WoWPro.Profession.CreateGuideList()
 		WoWPro.Profession.FramesLoaded = true
 	end
 	

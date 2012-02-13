@@ -3,34 +3,36 @@
 ---------------------------------
 
 local L = WoWPro_Locale
-local GAP, EDGEGAP = 35, 16
 
-function WoWPro:CreateGuideList()
 
+function WoWPro.CreateGuideList()
+    local GAP, EDGEGAP = 35, 16
 	local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 	frame.name = L["Guide List"]
 	frame.parent = "WoW-Pro"
 	frame:Hide()
-
+	WoWPro.GuideList = frame
+	
 	local title, subtitle = WoWPro:CreateHeading(frame, L["Guide List"], L["Use the tabs to look at different guide types. "
 		.."\nSelect one and hit \"Okay\" to load. "
 		.."\nShift+click a guide to clear it."])
-
-	frame.box = WoWPro:CreateBG(frame)
-	frame.box:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP) 
-	frame.box:SetPoint("LEFT", EDGEGAP, 0)
-	frame.box:SetPoint("BOTTOMRIGHT", -EDGEGAP, EDGEGAP)
+    frame.title = title
+    frame.subtitle = subtitle
 
 	local prev = nil
 	local tabs = {}
 	local tabhashtable = {}
+	local firstTab = nil
+	local maxFormatItems = 0
+	
 	-- Create tab for each module --
 	for name, module in WoWPro:IterateModules() do
-		tabs[name] = WoWPro:CreateTab(name, frame.box)
+		tabs[name] = WoWPro:CreateTab(name, frame)
 		if prev then
 			tabs[name]:SetPoint("LEFT", prev, "RIGHT", 0, 0)
 		else
-			tabs[name]:SetPoint("BOTTOMLEFT", frame.box, "TOPLEFT", -2, -5)
+			tabs[name]:SetPoint("TOPLEFT", subtitle, "BOTTOMLEFT", -2, -5)
+			firstTab = tabs[name]
 		end
 		tabs[name].name = name
 		tabs[name]:SetScript("OnClick", function(self, button)
@@ -38,17 +40,49 @@ function WoWPro:CreateGuideList()
 		end) 
 		prev = tabs[name]
 		table.insert(tabhashtable,name)
+		if(WoWPro[name].GuideList) then
+		    maxFormatItems = max(maxFormatItems, #(WoWPro[name].GuideList.Format))
+		end
 	end
-	
-	if not tabhashtable[1] then 
-		subtitle:SetText(L["Looks like you don't have any modules loaded!"
-			.."\nLog out to the character selection screen and open your addons menu there to select some to load."])
-		frame.box:Hide()
-	end
-
-	WoWPro.GuideList = frame
 	WoWPro.GuideList.TabTable = tabs
+
+	if not tabhashtable[1] then 
+		subtitle:SetText(L["Looks like you don't have any Wow-Pro guide modules loaded!"
+			.."\nLog out to the character selection screen and open your addons menu there to select some to load."])
+		frame:Hide()
+	end
 	WoWPro.GuideList.TabHashTable = tabhashtable
+	
+    local TitleRow = WoWPro:CreateBG(frame)
+    TitleRow:SetHeight(25)
+    TitleRow:SetWidth(InterfaceOptionsFramePanelContainer:GetWidth()-44)
+    TitleRow:SetPoint("TOPLEFT", firstTab, "BOTTOMLEFT")
+    frame.TitleRow = TitleRow
+
+    local scrollBox = WoWPro:CreateBG(frame)
+    scrollBox:SetPoint("TOPLEFT", TitleRow, "BOTTOMLEFT")
+    scrollBox:SetPoint("TOPRIGHT", TitleRow, "BOTTOMRIGHT")
+    scrollBox:SetPoint("BOTTOM",frame,"BOTTOM",0,5)
+    frame.scrollBox = scrollBox
+    
+	local scrollBar,_,_,scrollBorder = WoWPro:CreateScrollbar(scrollBox,{-4,6},nil,"Outside")
+	frame.scrollBar = scrollBar  
+    
+	frame.ScrollFrame = CreateFrame("ScrollFrame",nil,scrollBox)
+	frame.ScrollFrame:SetPoint("TOPLEFT",10,-10)
+	frame.ScrollFrame:SetPoint("BOTTOMRIGHT",-10,10)
+
+	local f = scrollBar:GetScript("OnValueChanged")
+	scrollBar:SetScript("OnValueChanged", function(self, value, ...)
+		WoWPro.GuideList.ScrollFrame:SetVerticalScroll(self:GetValue())
+		return f(self, value, ...)
+	end)
+
+    frame.ScrollFrame:EnableMouseWheel()
+	frame.ScrollFrame:SetScript("OnMouseWheel", function(self, val)
+	    local minValue, maxValue = scrollBar:GetMinMaxValues()
+        scrollBar:SetValue(scrollBar:GetValue() - val*maxValue/10)
+    end)
 
 	local function OnShow(self)
 		local GID = WoWProDB.char.currentguide
@@ -56,14 +90,13 @@ function WoWPro:CreateGuideList()
 			WoWPro.ActivateTab(WoWPro.Guides[GID].guidetype)
 		end 
 	end
-	WoWPro.GuideList:SetScript("OnShow", OnShow)
-	OnShow(WoWPro.GuideList)
+	scrollBox:SetScript("OnShow", OnShow)
+--	OnShow(WoWPro.GuideList)
 	
 end
 
 function WoWPro.ActivateTab(tabname)
 	local tab
-	
 	if not tabname then
 		local GID = WoWProDB.char.currentguide
 		if GID and WoWPro.Guides[GID] and WoWPro.Guides[GID].guidetype then
@@ -93,7 +126,27 @@ function WoWPro.ActivateTab(tabname)
 		})
 	tab:SetBackdropColor(0.1, 0.1, 0.1, 1)
 	tab.border:SetAllPoints(tab)
-	if WoWPro[tab.name].GuideList then WoWPro[tab.name].GuideList:Show() end
+	if not WoWPro[tab.name].GuideList then
+	    WoWPro[tab.name].GuideList = {}
+	end
+    if not WoWPro[tab.name].GuideList.Frame then
+	    WoWPro[tab.name]:CreateGuideTabFrame()
+	else
+	    WoWPro[tab.name]:Setup_TitleRow(WoWPro[tab.name].GuideList.Frame)
+    end
+    WoWPro.GuideList.TitleRow:Show()
+
+    WoWPro[tab.name].GuideList.Frame:SetSize(WoWPro[tab.name].GuideList.Frame.frameWidth,WoWPro[tab.name].GuideList.Frame.frameHeight)
+	WoWPro.GuideList.ScrollFrame:SetScrollChild(WoWPro[tab.name].GuideList.Frame)
+	local vHeight = WoWPro[tab.name].GuideList.Frame.frameHeight-WoWPro.GuideList.ScrollFrame:GetHeight()
+	if vHeight < 0 then
+	    vHeight = WoWPro[tab.name].GuideList.Frame.frameHeight
+	end
+    WoWPro.GuideList.scrollBar:SetMinMaxValues(0,vHeight)
+    WoWPro.GuideList.scrollBar:SetValue(0)
+	WoWPro.GuideList.ScrollFrame:SetVerticalScroll(0)
+	WoWPro.GuideList.ScrollFrame:Show()
+	WoWPro[tab.name].GuideList.Frame:Show()
 
 end
 
@@ -107,5 +160,230 @@ function WoWPro.DeactivateTab(tab)
 	tab:SetBackdropColor(0.1, 0.1, 0.1, 1)
 	tab.border:SetPoint("BOTTOM", 0, 5)
 	
-	if WoWPro[tab.name].GuideList then WoWPro[tab.name].GuideList:Hide() end
+	if WoWPro[tab.name].GuideList and WoWPro[tab.name].GuideList.Frame  then WoWPro[tab.name].GuideList.Frame:Hide() end
 end
+
+
+-- Populating Guide List --
+WoWPro:Export("UpdateGuideList")
+function WoWPro:UpdateGuideList()
+	if not self.GuideList.Frame then return end
+	if not self.GuideList.Frame:IsVisible() then return end
+	
+	for i,row in ipairs(self.GuideList.Rows) do
+		row.i = i + self.GuideList.Offset
+		local iGuide = self.GuideList.Guides[row.i]
+		if iGuide then
+			local GID = iGuide.GID			
+			-- Walk over the list of fields, resetting the values
+			for _,colDesc in pairs(self.GuideList.Format) do
+			    local button = row[colDesc[1]]
+			    if type(iGuide[colDesc[1]]) == "function" then
+			        button:SetText(iGuide[colDesc[1]]())
+			    else
+			        button:SetText(iGuide[colDesc[1]])
+			    end
+			end
+			row:SetChecked(WoWProDB.char.currentguide == GID)
+		else
+			row:Hide()
+		end
+	end
+end
+
+
+WoWPro:Export("Setup_TitleRow")
+function WoWPro:Setup_TitleRow(frame)
+	-- Title Backdrop Settings --
+	local titlerowBG = {
+		bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
+		tile = true,
+		tileSize = 16,
+		insets = { left = 0, right = 0, top = 5, bottom = -5}
+	}
+	local ROWHEIGHT = 17 
+	
+	local TitleRow = WoWPro.GuideList.TitleRow 
+	
+	TitleRow.buffer = TitleRow.buffer or CreateFrame("CheckButton", self.name .. "TitleRow.buffer", TitleRow)
+	TitleRow.buffer:SetBackdrop(titlerowBG)
+	TitleRow.buffer:SetBackdropColor(0.2, 0.2, 0, 1)
+	TitleRow.buffer:SetPoint("TOPLEFT", 4, 0)
+	TitleRow.buffer:SetWidth(4)
+	TitleRow.buffer:SetHeight(ROWHEIGHT)
+--	local function OnShow(self)
+--	    WoWPro:Print("TitleRow.buffer:OnShow()")
+--	end
+--  TitleRow.buffer:SetScript("OnShow", OnShow)
+	
+	
+	-- Create a button for each field
+	for i,colDesc in pairs(self.GuideList.Format) do
+	    local button = TitleRow[i] or CreateFrame("CheckButton", self.name .. "TitleRowButtton" .. tostring(i), TitleRow)
+	    TitleRow[colDesc[1]] = button
+	    TitleRow[i] = button
+	    TitleRow[i]:SetNormalFontObject("GameFontWhite")
+	    TitleRow[i]:SetText(L[colDesc[1]])
+	    local fontString = TitleRow[i]:GetFontString()
+	    fontString:SetJustifyH("LEFT")
+	    fontString:SetJustifyV("CENTER")
+	    TitleRow[i]:Enable()
+	    button:SetBackdrop(titlerowBG)
+	    button:SetBackdropColor(0.2, 0.1, i/15.0, 0.5)
+	    button:SetHeight(ROWHEIGHT)
+	    button:Show() 
+	end
+	-- Hide unused buttons
+    for i = #self.GuideList.Format+1, #TitleRow do
+        TitleRow[i]:SetPoint("LEFT", TitleRow, "RIGHT", 0, 0)
+        TitleRow[i]:SetWidth(1)
+        TitleRow[i]:Disable()
+        TitleRow[i]:Hide()
+        TitleRow[i]:SetText("")
+    end	
+	frame.frameWidth = TitleRow:GetWidth() - 12
+	
+	local lastButton = TitleRow.buffer
+	-- Set the width of each button according to the Format
+	for _,colDesc in pairs(self.GuideList.Format) do
+	    TitleRow[colDesc[1]]:SetPoint("LEFT", lastButton, "RIGHT", 0, 0)
+	    local buttonWidth = floor(frame.frameWidth * colDesc[2])
+	    TitleRow[colDesc[1]]:SetWidth(buttonWidth)
+	    lastButton = TitleRow[colDesc[1]]
+	end
+	
+	-- Last button gets the extra pixels!
+	--lastButton:SetPoint("RIGHT", TitleRow, "RIGHT")
+	
+    -- Set the OnClick handlers for each column that has a handler
+	for _,colDesc in pairs(self.GuideList.Format) do
+        if colDesc[3] then
+            TitleRow[colDesc[1]]:SetScript("OnClick", colDesc[3])
+        end
+    end
+end
+
+WoWPro:Export("GuideTabFrame_RowOnClick")
+function WoWPro:GuideTabFrame_RowOnClick()
+	if IsShiftKeyDown() then
+		WoWProCharDB.Guide[self.GID] = nil
+		module.Resetting = true
+		WoWPro:LoadGuide(self.GID)
+		for j = 1,WoWPro.stepcount do 
+			if WoWPro.QID[j] then WoWProCharDB.completedQIDs[WoWPro.QID[j]] = nil end
+		end
+		WoWPro:LoadGuide(self.GID)
+		module.Resetting = false
+	else
+		WoWPro:LoadGuide(self.GID)
+	end
+	self.module:UpdateGuideList()
+end		
+
+
+WoWPro:Export("CreateGuideTabFrame_Rows")
+function WoWPro:CreateGuideTabFrame_Rows(frame)
+    local GAP = 8 
+    self.GuideList.Rows = {}
+    self.GuideList.Offset = 0
+    
+    local sample = frame:CreateFontString(nil, nil, "GameFontHighlightSmall")
+    sample:SetText("Something")
+    local ROWHEIGHT = floor(sample:GetStringHeight()*1.5) -- Half a space between rows
+    local frameHeight = 0
+        
+	local prevrow
+	for i,iGuide in ipairs(self.GuideList.Guides) do
+		local row = CreateFrame("CheckButton", string.format("%s_Guide_Row%d",self.name,i), frame)
+		
+        for _,colDesc in pairs(self.GuideList.Format) do
+            local fontString = row:CreateFontString(nil, nil, "GameFontHighlightSmall")
+            fontString:SetJustifyH("LEFT")          
+		    if type(iGuide[colDesc[1]]) == "function" then
+		        fontString:SetText(iGuide[colDesc[1]]())
+		    else
+		        fontString:SetText(iGuide[colDesc[1]])
+		    end
+		    row[colDesc[1]] = fontString
+        end
+		row.GID = iGuide.GID			
+		row:SetChecked(WoWProDB.char.currentguide == iGuide.GID)
+
+		-- Anchor Settings --
+
+		if i == 1 then 
+			row:SetPoint("TOPLEFT", frame)
+			row:SetPoint("TOPRIGHT", frame)
+			local prevCol
+            for j,colDesc in pairs(self.GuideList.Format) do
+                if j == 1 then
+        	        row[colDesc[1]]:SetPoint("TOPLEFT", frame, "TOPLEFT", 0, 0)
+        	        row[colDesc[1]]:SetWidth(WoWPro.GuideList.TitleRow[colDesc[1]]:GetWidth())
+        	        row[colDesc[1]]:SetHeight(ROWHEIGHT)
+        	        prevCol = row[colDesc[1]]
+        	    else
+        	        row[colDesc[1]]:SetPoint("TOPLEFT", prevCol, "TOPRIGHT", 0, 0)
+        	        row[colDesc[1]]:SetWidth(WoWPro.GuideList.TitleRow[colDesc[1]]:GetWidth())
+        	        row[colDesc[1]]:SetHeight(ROWHEIGHT)
+        	        prevCol = row[colDesc[1]]
+        	    end
+            end
+            prevrow = row
+		else 
+			row:SetPoint("TOPLEFT", prevrow, "BOTTOMLEFT", 0, 0)
+			row:SetPoint("TOPRIGHT", prevrow, "BOTTOMRIGHT", 0, 0)
+            for _,colDesc in pairs(self.GuideList.Format) do
+        	    row[colDesc[1]]:SetPoint("TOPLEFT", prevrow[colDesc[1]], "BOTTOMLEFT", 0, 0)
+        	    row[colDesc[1]]:SetPoint("TOPRIGHT", prevrow[colDesc[1]], "BOTTOMRIGHT", 0, 0)
+        	    row[colDesc[1]]:SetHeight(ROWHEIGHT)               
+            end
+            prevrow = row
+		end
+
+       				
+		row:SetPoint("LEFT", 4, 0)
+		row:SetPoint("RIGHT", -4, 0)
+		row:SetHeight(ROWHEIGHT)
+		
+		frameHeight = frameHeight + ROWHEIGHT 
+		
+		local highlight = row:CreateTexture()
+		highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
+		highlight:SetTexCoord(0, 1, 0, 0.578125)
+		highlight:SetAllPoints()
+		row:SetHighlightTexture(highlight)
+		row:SetCheckedTexture(highlight)
+		
+		row.module = self
+		row:SetScript("OnClick", self.GuideTabFrame_RowOnClick)
+
+		self.GuideList.Rows[i] = row
+		
+	end
+	frame.frameHeight = frameHeight
+end
+
+
+WoWPro:Export("CreateGuideTabFrame")
+function WoWPro:CreateGuideTabFrame()
+    local frame
+    
+    if not self.GuideList.Frame then
+	    frame = CreateFrame("Frame", self.name .. " TabFrame", WoWPro.GuideList.ScrollFrame)
+	    frame.module = self
+        self.GuideList.Frame = frame
+--      local function OnShow(self)
+--	        self.module:Print("GuideList.Frame: OnShow!")
+--	    end
+--      frame:SetScript("OnShow", OnShow)
+
+	    -- Title Row --
+	    self:Setup_TitleRow(frame)
+
+	    -- Rows --
+        self:CreateGuideTabFrame_Rows(frame)
+
+    end
+    
+end 
+

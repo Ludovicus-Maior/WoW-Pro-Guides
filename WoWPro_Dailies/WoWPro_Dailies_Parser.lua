@@ -637,6 +637,7 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate()
 					if WoWPro.Dailies.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
 					    	WoWProCharDB.completedQIDs[QID] = true
 						WoWPro.CompleteStep(i)
+						WoWProCharDB.completedQIDs[QID] = true
 						WoWPro.Dailies.CompletingQuest = false
 					end
 					
@@ -712,7 +713,9 @@ end
 
 -- Auto-Complete: Loot based --
 function WoWPro.Dailies.AutoCompleteLoot(events)
-    if not WoWProDB.char.currentguide or WoWPro.Guides[WoWProDB.char.currentguide].guidetype  ~= "Dailies" then return end
+    if not WoWProDB.char.currentguide then return end
+    if WoWPro.Guides[WoWProDB.char.currentguide].guidetype  ~= "Dailies" then return end
+
     
     WoWPro:dbp("Running: Dailies AutoCompleteLoot()")
 	for i = 1,1+WoWPro.ActiveStickyCount do
