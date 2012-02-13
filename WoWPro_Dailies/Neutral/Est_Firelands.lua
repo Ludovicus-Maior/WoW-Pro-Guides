@@ -1,4 +1,4 @@
-WoWPro.Dailies:RegisterGuide("EstGuardHyjal", "Mount Hyjal", "Guardians of Hyjal", "Cata", "Estelyen", "Neutral", function()
+WoWPro.Dailies:RegisterGuide("EstFirelands", "Mount Hyjal", "Guardians of Hyjal", "Cata", "Estelyen", "Neutral", function()
 return [[
 
 N Danger! Peligro! Achtung!|N|This guide is under construction.\nEnter at your own risk.|
