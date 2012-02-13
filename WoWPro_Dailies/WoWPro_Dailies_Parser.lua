@@ -95,6 +95,19 @@ function WoWPro.Dailies:NextStep(k, skip)
 		end
 	end
 
+	-- Skipping Achievements if completed  --
+	if WoWPro.ach[k] then
+		local achnum, achitem = string.split(";",WoWPro.ach[k])
+		local count = GetAchievementNumCriteria(achnum)
+		if count == 0 then 
+			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
+			if Completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true end
+		else 
+			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
+			if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true end
+		end 
+	end
+
 	return skip
 end
 
@@ -164,6 +177,22 @@ local function ParseQuests(...)
     			WoWPro.target[i] = text:match("|T|([^|]*)|?")
     			WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
     			WoWPro.prof[i] = text:match("|P|([^|]*)|?")
+				WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
+
+				if WoWPro.ach[i] then
+					local achnum, achitem = string.split(";",WoWPro.ach[i])
+					local count = GetAchievementNumCriteria(achnum) 
+					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
+					if WoWPro.step[i] == "Achievement" and count == 0 then 
+						WoWPro.step[i] = Name 
+						WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
+					end 
+					if WoWPro.step[i] == "Achievement" and count > 0 then 
+						WoWPro.step[i] = Name 
+						local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
+						WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
+					end 
+				end
     
     			for _,tag in pairs(WoWPro.Tags) do 
     				if not WoWPro[tag][i] then WoWPro[tag][i] = false end

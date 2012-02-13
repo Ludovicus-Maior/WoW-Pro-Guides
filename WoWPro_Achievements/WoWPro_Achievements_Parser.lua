@@ -237,12 +237,14 @@ local function ParseQuests(...)
 					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
 					if WoWPro.step[i] == "Achievement" and count == 0 then 
 						WoWPro.step[i] = Name 
-						WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i] end 
+						WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
+					end 
 					if WoWPro.step[i] == "Achievement" and count > 0 then 
 						WoWPro.step[i] = Name 
 						local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
-						WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i] end 
-					end
+						WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
+					end 
+				end
 
 				for _,tag in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][i] then WoWPro[tag][i] = false end
