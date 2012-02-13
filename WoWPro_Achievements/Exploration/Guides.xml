@@ -41,6 +41,7 @@
     <Script file="The_Hinterlands.lua"/>
     <Script file="Thousand_Needles.lua"/>
     <Script file="Tirisfal_Glades.lua"/>
+    <Script file="Uldum.lua"/>
     <Script file="UnGoro_Crater.lua"/>
     <Script file="Western_Plaguelands.lua"/>
     <Script file="Westfall.lua"/>
