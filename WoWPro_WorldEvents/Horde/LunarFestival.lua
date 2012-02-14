@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2012-02-07 03:29
+-- Who: Laotseu
+-- Log: Merge back the corrections that I had made in the previous version of the guide with the new Cata elders.
+
+-- URL: http://wow-pro.com/node/3452/revisions/24940/view
+-- Date: 2012-02-05 23:54
+-- Who: Ludovicus Maior
+-- Log: Add in LaoTseu's changes
+
+-- URL: http://wow-pro.com/node/3452/revisions/24932/view
 -- Date: 2012-02-04 22:39
 -- Who: Ludovicus Maior
 -- Log: Elders of Cata

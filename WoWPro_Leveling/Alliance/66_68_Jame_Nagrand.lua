@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2012-02-13 00:40
+-- Who: Crackerhead22
+-- Log: Fixed line for "C Agitated Spirits of Skysong|" via Hendo72's suggestions.
+
+-- URL: http://wow-pro.com/node/3279/revisions/24912/view
 -- Date: 2012-01-20 21:13
 -- Who: Crackerhead22
 
@@ -169,7 +174,7 @@ T Eating Damnation |QID|9821|M|61.8,24.4|N|To Gordawg.|
 A Shattering the Veil |QID|9849|M|61.8,24.4|N|From Gordawg.|
 
 N Nagrand Cherry and Stuff|QID|9804|N|Keep the Nagrand Cherry unless you can cast underwater breathing. Destroy Gordawg's Imprint since you do not need it.|
-C Agitated Spirits of Skysong|N|Lill Lake Spirits in the lake until you finish this quest.|QID|9804|U|24421|
+C Agitated Spirits of Skysong|N|Kill Lake Spirits in the lake until you finish this quest.|QID|9804|U|24421|M|60.5,22.4|
 T Agitated Spirits of Skysong|QID|9804|M|60.5,22.4|N|To Elementalist Lo'ap.|
 A Blessing of Incineratus |QID|9805|M|60.5,22.4|N|From Elementalist Lo'ap.|
 

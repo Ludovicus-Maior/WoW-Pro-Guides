@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2012-02-13 23:34
+-- Who: Crackerhead22
+-- Log: ?
+
+-- URL: http://wow-pro.com/node/3258/revisions/24547/view
 -- Date: 2011-06-12 13:03
 -- Who: Crackerhead22
 -- Log: Added sticky step for "Is Your Oil Running" via a suggestion by Skully0815.
@@ -36,19 +41,19 @@ return [[
 
 R Emerald Sanctuary|QID|27997|M|51.1,80.5|N|In Felwood.|
 T Warchief's Command: Felwood!|QID|28542|O|M|51.1,80.5|N|To Tenell Leafrunner.|
-f Emerald Sanctuary|QID|27997|M|51.51,80.83|N|From Gorrim.|
 A The Corruption of the Jadefire|QID|27997|M|51.12,80.51|N|From Tenell Leafrunner.|
 A Culling the Corrupted|QID|28148|M|50.93,80.20|N|From Taronn Redfeather.|
 A A Talking Totem|QID|28100|M|51.37,80.45|N|From Grazle.|
-T A Talking Totem|QID|28100|M|51.48,83.70|N|To the big grinning totem down the road.|
-A Ruumbo Demands Justice|QID|27994|PRE|28100|M|51.48,83.70|N|From the totem Ruumbo.|
-A Ruumbo Demands Honey|QID|27989|PRE|28100|M|51.48,83.70|N|From the totem Ruumbo.|
+T A Talking Totem|QID|28100|M|51.48,83.70|N|To the Totem of Ruumbo.|
+A Ruumbo Demands Justice|QID|27994|PRE|28100|M|51.48,83.70|N|From the Totem of Ruumbo.|
+A Ruumbo Demands Honey|QID|27989|PRE|28100|M|51.48,83.70|N|From the Totem of Ruumbo.|
 C Ruumbo Demands Justice|QID|27994|S|M|48.69,89.96|N|Kill furbolgs in the area.|
 C Ruumbo Demands Honey|QID|27989|NC|U|62819|M|48.29,89.78|N|Use the stick on the beehives. If the bees chase you, jump in the water to get them off!|
 C Ruumbo Demands Justice|QID|27994|US|M|48.69,89.96|N|Kill furbolgs in the area.|
-T Ruumbo Demands Justice|QID|27994|M|51.51,83.71|N|To the totem Ruumbo.|
-T Ruumbo Demands Honey|QID|27989|M|51.51,83.71|N|To the totem Ruumbo.|
-A Dance for Ruumbo!|QID|27995|PRE|27994;27989|M|51.51,83.71|N|From the totem Ruumbo.|
+T Ruumbo Demands Justice|QID|27994|M|51.51,83.71|N|To the Totem of Ruumbo.|
+T Ruumbo Demands Honey|QID|27989|M|51.51,83.71|N|To the Totem of Ruumbo.|
+
+A Dance for Ruumbo!|QID|27995|PRE|27994;27989|M|51.51,83.71|N|From the Totem of Ruumbo.|
 C Dance for Ruumbo!|QID|27995|NC|M|51.51,83.71|N|It will automatically make you dance. You'll see a short event, then the quest will be marked complete.|
 T Dance for Ruumbo!|QID|27995|M|51.39,80.49|N|To Grazle.|
 C Culling the Corrupted|QID|28148|S|M|45.68,80.08|N|Kill and loot bears and wolves.|
@@ -59,6 +64,7 @@ T Culling the Corrupted|QID|28148|M|50.91,80.19|N|To Taronn Redfeather.|
 A An Arcane Ally|QID|28150|PRE|28148|M|51.16,80.44|N|From Tenell Leafrunner.|
 R Ruins of Constellas|QID|28150|M|41.90,71.99|N|To the north-west.|
 T An Arcane Ally|QID|28150|M|41.90,71.99|N|To Arcanist Delaris.|
+
 A Do the Imp-Possible|QID|28000|PRE|28150|M|41.90,71.99|N|From Arcanist Delaris.|
 C Do the Imp-Possible|QID|28000|U|62899|M|48.19,73.12|N|Beat Impsy down, then use the sack on him.|
 T Do the Imp-Possible|QID|28000|M|41.93,71.99|N|To Arcanist Delaris.|
@@ -74,14 +80,13 @@ C Fight the Power|QID|28102|S|M|38.31,68.05|N|Kill Jadefire satyrs.|
 C Break the Unbreakable|QID|28113|U|63031|M|33.49,65.71|N|Use the Claw of Tichondrius to dissipate the fire wall guarding the path to Xavathras, then head up and kill him.|
 C Fight the Power|QID|28102|US|M|38.31,68.05|N|Kill Jadefire satyrs.|
 T Break the Unbreakable|QID|28113|M|41.94,71.93|N|To Arcanist Delaris, back at the Ruins of Constellas.|
+
 A Open Their Eyes|QID|28288|PRE|28113|M|41.93,71.98|N|From Arcanist Delaris.|
 A Jaedenar Awaits|QID|28152|PRE|28113|M|42.03,71.83|N|From Eridan Bluewind.|
 T Fight the Power|QID|28102|M|42.03,71.83|N|To Eridan Bluewind.|
 C Open Their Eyes|QID|28288|U|63395|M|42.37,79.33|N|Use the crustal to terrify the imps. You can agro a bunch and gather them up, then use the crystal to get a lot at once. They flee and stop attacking the moment you use it.|
 T Open Their Eyes|QID|28288|M|41.92,71.98|N|To Arcanist Delaris, back at the Ruins of Constellas.|
 R Wildheart Point|QID|28116|M|44.29,61.92|N|Follow the road north.|
-
-f Wildheart Point|QID|28152|M|44.29,61.89|N|At Chyella Hushglade.|
 h Wildheart Point|QID|28152|M|43.98,61.94|N|At Innkeeper Teenycaugh.|
 T Jaedenar Awaits|QID|28152|M|43.96,61.90|N|To Greta Mosshoof.|
 A Crying Violet|QID|28116|M|43.96,61.90|N|From Greta Mosshoof.|
@@ -96,7 +101,7 @@ C Purity From Corruption|QID|28119|M|35.93,59.52|N|Fill up at the moonwell.|
 T Purity From Corruption|QID|28119|M|36.35,58.25|N|To Andalar Shadevale.|
 
 A The Inner Circle|QID|28128|M|36.35,58.25|N|From Andalar Shadevale.|
-A The Demon Prince|QID|28129|M|36.35,58.25|N|From Andalar Shadevale. You may have to log out then back in, or leave Felwood and zone back in before this will show (Phasing Issue I believe).|
+A The Demon Prince|QID|28129|M|36.35,58.25|N|From Andalar Shadevale.|
 A Dousing the Flames of Protection|QID|28126|M|36.35,58.25|N|From Andalar Shadevale.|
 C The Inner Circle|QID|28128|M|38.60,45.80|S|N|Kill Shadow Hold mobs.|
 C The Demon Prince|QID|28129|M|36.70,55.75|N|Kill Prince Xavalis.|
@@ -132,6 +137,7 @@ T The Tainted Ooze|QID|28190|M|41.26,50.00|N|To Altsoba Ragetotem.|
 A Winna's Kitten|QID|28208|PRE|28207;28190|M|41.32,49.93|N|From Kelnir Leafsong.|
 C Winna's Kitten|QID|28208|M|38.65,53.83|N|Kill and loot Winna's Kitten.|
 T Winna's Kitten|QID|28208|M|41.27,49.92|N|To Kelnir Leafsong.|
+
 A Hazzard Disposal|QID|28213|PRE|28208|M|41.27,49.92|N|From Kelnir Leafsong.|
 A Cleanup at Bloodvenom Post|QID|28214|PRE|28208|M|41.27,49.92|N|From Altsoba Ragetotem.|
 C Cleanup at Bloodvenom Post|QID|28214|S|M|35.55,50.73|N|Kill the slimeslaves around Bloodvenom Post.|
@@ -142,15 +148,15 @@ T Hazzard Disposal|QID|28213|M|41.28,49.93|N|To Kelnir Leafsong.|
 A Whisperwind Grove|QID|28306|PRE|28213|M|41.28,49.93|N|From Kelnir Leafsong.|
 R Whisperwind Grove|QID|28306|M|43.29,30.44|N|Follow the road north.|
 T Whisperwind Grove|QID|28306|M|43.29,30.44|N|To Tender Puregrove.|
-A Running their Course|QID|28360|M|43.29,30.44|N|From Tender Puregrove.|
+A Running Their Course|QID|28360|M|43.29,30.44|N|From Tender Puregrove.|
 A Squirrely Clean|QID|28361|M|43.29,30.44|N|From Tender Puregrove.|
-f Whisperwind Grove|QID|28361|M|43.61,28.69|N|At Hanah Southsong.|
+
 A Collecting Corruption|QID|28341|M|43.96,27.91|N|From Elessa Starbreeze.|
 A Fel To Pieces|QID|28342|M|43.96,27.91|N|From Elessa Starbreeze.|
 A Hunting the Damned|QID|28358|M|43.96,27.91|N|From Hurak Wildhorn.|
 A The Core of Kroshius|QID|28359|M|43.96,27.91|N|From Hurak Wildhorn.|
 h Whisperwind Grove|QID|28359|M|44.75,29.05|N|At Innkeeper Wylaria.|
-C Running their Course|QID|28360|S|M|47.12,33.63|N|Kill the sickly looking deer in the area.|
+C Running Their Course|QID|28360|S|M|47.12,33.63|N|Kill the sickly looking deer in the area.|
 C Squirrely Clean|QID|28361|NC|M|45.97,35.53|N|Right-click squirrels to clean them.|
 C Running their Course|QID|28360|US|M|45.97,35.53|N|Kill the sickly looking deer in the area.|
 C Collecting Corruption|QID|28341|S|M|44.07,43.59|N|Kill and loot Entropic Horrors.|
@@ -161,8 +167,9 @@ C Collecting Corruption|QID|28341|US|M|44.07,43.59|N|Kill and loot Entropic Horr
 C Hunting the Damned|QID|28358|US|M|43.27,42.94|N|Kill infernals in the area. Make sure to loot them, since they can drop Infernal Debris.|
 C Fel To Pieces|QID|28342|US|NC|M|43.27,42.94|N|The infernal debris can be found on the ground, and also drops from infernals.|
 H Whisperwind Grove|QID|28360|M|43.30,30.44|N|If your hearth is down or you didn't set it there, run back.|
-T Running their Course|QID|28360|M|43.30,30.44|N|To Tender Puregrove.|
+T Running Their Course|QID|28360|M|43.30,30.44|N|To Tender Puregrove.|
 T Squirrely Clean|QID|28361|M|43.30,30.44|N|To Tender Puregrove.|
+
 A Weeding the Lawn|QID|28374|PRE|28361|M|43.30,30.44|N|From Tender Puregrove.|
 T Collecting Corruption|QID|28341|M|43.95,27.87|N|To Elessa Starbreeze.|
 T Fel To Pieces|QID|28342|M|43.95,27.87|N|To Elessa Starbreeze.|
@@ -172,22 +179,25 @@ C Weeding the Lawn|QID|28374|NC|M|44.88,32.70|N|Right-click the lashers to check
 T Weeding the Lawn|QID|28374|M|43.30,30.41|N|To Tender Puregrove.|
 A Nature and Nurture|QID|28229|PRE|28374|M|43.91,28.17|N|From Isural Forestsworn.|
 A Wanted: The Demon Hunter|QID|28217|PRE|28374|M|43.49,28.19|N|From Huntress Selura.|
-U Fill Vial|QID|28229|U|63332|M|44.05,28.42|N|Fill the empty vial in the moonwell water at the center of Whisperwind Grove.|
+U Fill Vial|QID|28229|U|63332|M|44.05,28.42|N|Fill the empty vial in the moonwell water at the center of Whisperwind Grove.|L|63387|
 C Nature and Nurture|QID|28229|U|63387|M|48.68,25.17|N|Use the moonwell water on the hill in the Irontree Woods.|
 T Nature and Nurture|QID|28229|M|48.68,25.17|N|The turn-in should pop up automatically.|
+
 A Seeking Soil|QID|28220|PRE|28229|M|48.68,25.17|N|The quest should pop up automatically.|
 A Buzzers for Baby|QID|28219|N|From Seedling Protector.|
 C Seeking Soil|QID|28220|M|48.33,29.19|N|Bring the seedling to patches of soil - they can be found to the south.|S|
 C Buzzers for Baby|QID|28219|M|50.51,31.50|N|Kill wasps and bring the seedling near their corpses. The wasps can be found all over the southern Irontree Woods.|
 C Seeking Soil|QID|28220|M|48.33,29.19|N|Bring the seedling to patches of soil - they can be found to the south.|US|
 T Seeking Soil|QID|28220|N|To the Seedling Protector.|
-T Buzzers for Baby|QID|28219|N|The turn-in shoud pop up automatically.|
-A Singin' in the Sun|QID|28222|PRE|28219|N|The quest shoud pop up automatically.|
-C Singin' in the Sun|QID|28222|M|51.21,20.28|N|You'll find shafts of sunlight in the northern part of Irontree Woods. Bring the sapling to them.|
-T Singin' in the Sun|QID|28222|N|To Sapling Protector.|
+T Buzzers for Baby|QID|28219|N|The turn-in should pop up automatically.|
+A Singin' in the Sun|QID|28222|PRE|28219|N|The quest should pop up automatically.|
 A These Roots Were Made For Stompin'|QID|28221|PRE|28222|N|From Sapling Protector.|
+C Singin' in the Sun|QID|28222|S|M|51.21,20.28|N|You'll find shafts of sunlight in the northern part of Irontree Woods. Bring the sapling to them.|
 C These Roots Were Made For Stompin'|QID|28221|M|51.17,25.42|N|Kill the evil treants while your sapling is nearby - they can be found all over the northern part of the Irontree Woods.|
+C Singin' in the Sun|QID|28222|US|M|51.21,20.28|N|You'll find shafts of sunlight in the northern part of Irontree Woods. Bring the sapling to them.|
+T Singin' in the Sun|QID|28222|N|To Sapling Protector.|
 T These Roots Were Made For Stompin'|QID|28221|N|To the Sapling Protector.|
+
 A The Last Protector|QID|28224|PRE|28221|N|From the Flourishing Protector.|
 C The Last Protector|QID|28224|M|53.36,24.34|N|Kill the Withered Protector while your Flourishing Protector is nearby.|
 T The Last Protector|QID|28224|N|To Flourishing Protector.|
@@ -205,22 +215,24 @@ T The Skull of Gul'dan|QID|28256|M|45.55,20.12|N|To Feronas Sindweller.|
 A The Fall of Tichondrius|QID|28257|PRE|28256|M|45.55,20.12|N|From Feronas Sindweller.|
 C The Fall of Tichondrius|QID|28257|M|45.27,19.82|N|Help Illidan kill Tichondrius.|
 T The Fall of Tichondrius|QID|28257|M|45.56,20.12|N|To Feronas Sindweller.|
+
 A Deceivers In Our Midst|QID|28261|PRE|28257|M|45.56,20.12|N|From Feronas Sindweller.|
-C Deceivers In Our Midst|QID|28261|U|63419|M|42.55,19.22|
+C Deceivers In Our Midst|QID|28261|U|63419|M|42.55,19.22|N|Put on the Blindfold and kill Jadefire Shifters.|
 T Deceivers In Our Midst|QID|28261|N|The turn-in should pop up automatically.|
 A Navarax's Gambit|QID|28264|PRE|28261|M|45.54,20.10|N|From Feronas Sindweller.|
-C Navarax's Gambit|QID|28264|M|44.87,29.25|N|Speak to the arch druid at the top of the tour and confront him, then kill him.|
+C Navarax's Gambit|QID|28264|M|44.87,29.25|N|Speak to the arch druid at the top of the tower and confront him, then kill him.|
 T Navarax's Gambit|QID|28264|M|43.48,28.20|N|To Huntress Selura.|
 A Back to Business|QID|28372|PRE|28264|M|44.20,27.98|N|From Fez Hobnob.|
-R Irontree Clearing|QID|28372|M|56.36,8.58|N|At the northern tip of the zone.|
-f Irontree Clearing|QID|28372|M|56.36,8.58|N|At Dirzak Pryocrank.|
+F Irontree Clearing|QID|28372|M|43.59,28.69|N|Talk to Hanah Southsong to get a free flight to Irontree Clearing.|
 T Back to Business|QID|28372|M|56.31,8.24|N|To Darla Drilldozer.|
 A It's Time to Oil Up|QID|28333|M|56.31,8.24|N|From Darla Drilldozer.|
 A A Flare Fight|QID|28334|M|56.31,8.24|N|From Darla Drilldozer.|
+C It's Time to Oil Up|QID|28333|S|U|63513|M|54.31,14.52|N|Use the grappling hook near floating oil balloons to get oil, then use the oil on the shredders (you may want to hot-key it). NOTE: You can do both of these things while mounted!|
 C A Flare Fight|QID|28334|U|63514|M|52.45,14.72|N|Use the flare to spot the worgen. They seem to be a lot more common north of the road.|
-C It's Time to Oil Up|QID|28333|U|63513|M|54.31,14.52|N|Use the grappling hook near floating oil balloons to get oil, then use the oil on the shredders (you may want to hot-key it). NOTE: You can do both of these things while mounted!|
+C It's Time to Oil Up|QID|28333|US|U|63513|M|54.31,14.52|N|Use the grappling hook near floating oil balloons to get oil, then use the oil on the shredders (you may want to hot-key it). NOTE: You can do both of these things while mounted!|
 T It's Time to Oil Up|QID|28333|M|56.32,8.23|N|To Darla Drilldozer.|
 T A Flare Fight|QID|28334|M|56.32,8.23|N|To Darla Drilldozer.|
+
 A Take it to the Tree|QID|28357|PRE|28333;28334|M|56.32,8.23|N|From Darla Drilldozer.|
 A Wisp-napping|QID|28370|PRE|28333;28334|M|56.32,8.23|N|From Darla Drilldozer.|
 C Wisp-napping|QID|28370|S|U|63698|M|57.93,19.80|N|Use the Wisp Magnet on wisps.|
@@ -237,11 +249,12 @@ T Slap and Cap|QID|28336|M|56.33,8.24|N|To Darla Drilldozer.|
 T Is Your Oil Running?|QID|28339|M|56.33,8.24|N|To Darla Drilldozer.|
 A Pikwik in Peril|QID|28380|PRE|28336;28339|M|56.33,8.24|N|From Darla Drilldozer.|
 T Pikwik in Peril|QID|28380|M|54.71,18.42|N|To Foreman Pikwik.|
-A Turn it Off! Turn it Off!|QID|28335|PRE|28380|M|54.71,18.42|N|From Foreman Pikwik.|
+
+A Turn It Off! Turn It Off!|QID|28335|PRE|28380|M|54.71,18.42|N|From Foreman Pikwik.|
 A A Bomb Deal|QID|28340|PRE|28380|M|54.71,18.42|N|From Foreman Pikwik.|
 C A Bomb Deal|QID|28340|S|M|59.58,21.34|N|The bombs can be found on the ground all through the cave.|
-T Turn it Off! Turn it Off!|QID|28335|M|60.41,22.33|N|To the central pump, at the back of the cave.|
-A Fire in the Hole!|QID|28368|PRE|28335|M|60.41,22.33|N|From the central pump.|
+T Turn It Off! Turn It Off!|QID|28335|M|60.41,22.33|N|To the Master Control Pump, at the back of the cave.|
+A Fire in the Hole!|QID|28368|PRE|28335|M|60.41,22.33|N|From the Master Control Pump.|
 C A Bomb Deal|QID|28340|US|M|59.58,21.34|N|The bombs can be found on the ground all through the cave.|
 T A Bomb Deal|QID|28340|M|54.73,18.38|N|To Foreman Pikwik.|
 C Fire in the Hole!|QID|28368|M|55.55,22.19|N|He should appear as you approach.|
@@ -255,6 +268,7 @@ A Stupid Drizle!|QID|28362|M|64.09,10.34|N|From Ferli.|
 C Deadwood of the North|QID|28338|S|M|62.36,11.87|N|Kill Felpaw furbolgs in the area.|
 C Disarming Bears|QID|28366|S|NC|M|62.54,12.90|N|Right-click the piles of weapons around Felpaw village.|
 T Stupid Drizle!|QID|28362|M|60.63,9.57|N|To Drizle.|
+
 A The Chieftain's Key|QID|28364|M|60.60,9.55|N|From Drizle, in Felpaw Village to the west.|
 C The Chieftain's Key|QID|28364|M|62.09,9.96|N|Kill and loot Chieftan Bloodmaw.|
 T The Chieftain's Key|QID|28364|M|60.61,9.53|N|To Drizle.|
@@ -265,6 +279,6 @@ T Deadwood of the North|QID|28338|M|63.96,10.33|N|To Nafien.|
 T Disarming Bears|QID|28366|M|63.99,10.37|N|To Nafien.|
 A Speak to Salfa|QID|28521|PRE|28338;28366|M|64.00,10.31|N|From Nafien. Pick this up if you'd like to do Winterspring next.|
 T Deadwood Ritual Totem|QID|8470|O|M|64.57,4.48|N|To Kernda, inside Timbermaw Hold.|
-]]
 
+]]
 end)
