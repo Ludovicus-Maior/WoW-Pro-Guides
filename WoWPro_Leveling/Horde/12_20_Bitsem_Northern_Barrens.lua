@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2012-02-13 01:02
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3214/revisions/24946/view
+-- Date: 2012-02-12 23:17
+-- Who: Laotseu
+-- Log: Play tested the Northern Barrens guide with a level 16-22 goblin priest. The changes I've made:
+--	- A few quests are now |S|
+--	- Change the order of some killing quests really put the completion after the gathering quests in the same area
+--	- C Samophlange|QID|29021| was commented out. The quest is a direct turnin and the extra completion quest was prevention the auto-completion from working
+--	- Added some |T| tags
+--	- Added some |NC| tags for gathering quests that require to click objects instead of killing stuff
+
+-- URL: http://wow-pro.com/node/3214/revisions/24925/view
 -- Date: 2012-01-27 07:28
 -- Who: Crackerhead22
 
@@ -58,9 +72,9 @@ A The Far Watch Offensive|QID|872|PRE|871|RANK|1|M|63.13,56.24|N|From Kargal Bat
 T Plainstrider Menace|QID|844|M|67.57,38.85|N|To Halga Bloodeye.|
 A Supplies for the Crossroads|QID|5041|RANK|1|M|67.57,38.85|N|From Halga Bloodeye.|
 
-C Supplies for the Crossroads|QID|5041|S|M|66.32,51.89;63.03,56.47|N|Kill Razormanes in cave while looting supply crates.|
+C Supplies for the Crossroads|QID|5041|NC|S|M|66.32,51.89;63.03,56.47|N|Kill Razormanes in cave while looting supply crates.|
 C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill Razormanes needed. Make sure to loot Snarlsnout when you kill him.|
-C Supplies for the Crossroads|QID|5041|US|M|63.03,56.47|N|Collect Supply Crates.|
+C Supplies for the Crossroads|QID|5041|NC|US|M|63.03,56.47|N|Collect Supply Crates.|
 
 T The Far Watch Offensive|QID|872|M|67.69,39.50|N|To Kargal Battlescar.|
 T Supplies for the Crossroads|QID|5041|M|67.46,38.79|N|To Halga Bloodeye.|
@@ -92,7 +106,7 @@ T Grol'dom's Missing Kodo|QID|13969|M|58.06,49.18|N|To Grol'dom Kodo.|
 A Animal Services|QID|13970|PRE|13969|M|58.06,49.18|N|From Grol'dom Kodo.|
 C Animal Services|QID|13970|S|M|58.36,49.90|N|Gather sacks of Stolen Grain while questing on Thorn Hill.|
 
-C The Tortusk Takedown|QID|13968|M|61.36,47.87|N|Kill the Razormane leader, Tortusk.|
+C The Tortusk Takedown|QID|13968|T|Fez|M|61.36,47.87|N|Kill the Razormane leader, Tortusk but you better kill his raptor, Fez, first.|
 C Consumed by Hatred|QID|899|US|M|58.41,49.49|N|Kill Quillboar until you collect 30 Quilboar Tusks.|
 C Animal Services|QID|13970|US|M|58.36,49.90|N|Gather 5 sacks of Stolen Grain from the Razormane camps on Thorn Hill.|
 T Animal Services|QID|13970|M|58.08,49.32|N|To Grol'dom Kodo.|
@@ -121,13 +135,14 @@ A Hunting the Huntress|QID|903|RANK|1|M|50.01,59.78|N|From Sergra Darkthorn.|
 r Train, Repair and Restock|QID|13992|
 
 C The Zhevra|QID|845|S|M|48.43,54.63|N|Kill and loot Zhevra Runners.|
-C Hunting the Huntress|QID|903|M|40.44,50.89|N|Kill Savannah Huntresses for their claws.|S|
+C Hunting the Huntress|QID|903|S|M|40.44,50.89|N|Kill Savannah Huntresses for their claws.|
+C Fungal Spores|QID|848|S|NC|M|36.49,46.65|N|Collect 5 Fungal Spores from mushrooms at the Forgotten Pools.|
 A Kolkar Leaders|QID|850|RANK|2|M|38.02,46.68|N|From Telar Highstrider.|
 A A Little Diversion|QID|13992|RANK|2|M|37.49,45.85|N|From Ta'jari.|
 
 C A Little Diversion|QID|13992|S|M|34.77,46.88|N|Kill Kolkar Centaur.|
-C Fungal Spores|QID|848|M|36.49,46.65|N|Collect 5 Fungal Spores from mushrooms at the Forgotten Pools.|
 C The Forgotten Pools|QID|870|NC|M|37.25,45.01|N|Search the bottom of the Forgotten Pools northwest of Crossroads.|
+C Fungal Spores|QID|848|US|NC|M|36.49,46.65|N|Collect 5 Fungal Spores from mushrooms at the Forgotten Pools.|
 C Kolkar Leaders|QID|850|M|33.40,46.68|N|Slay Barak Kodobane and collect his head.|
 C A Little Diversion|QID|13992|US|M|34.77,46.88|N|Kill 8 Kolkar Centaur.|
 
@@ -153,7 +168,7 @@ A Into the Raptor's Den|QID|905|PRE|881|RANK|1|M|49.98,59.82|N|From Sergra Darkt
 l Sunscale Feather|QID|905|L|5165 3|S|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|
 A Flushing Out Verog|QID|14072|RANK|1|M|55.11,78.38|N|From Shoe.|
 A King of Centaur Mountain|QID|13995|RANK|2|M|54.97,78.57|N|Escort quest. From Gorgal Angerscar.|
-C Flushing Out Verog|QID|14072|S|M|52.94,80.85|N|Collect Centaur Intelligence from centaur camps while questing.|
+C Flushing Out Verog|QID|14072|S|NC|M|52.94,80.85|N|Collect Centaur Intelligence from centaur camps while questing.|
 
 C King of Centaur Mountain|QID|13995|NC|M|54.37,78.36|N|Escort quest. Follow Gorgal and protect him. Help him kill Kurak.|
 T King of Centaur Mountain|QID|13995|M|55.15,78.43|N|To Shoe.|
@@ -166,12 +181,12 @@ A The Stagnant Oasis|QID|877|PRE|13988|RANK|1|M|60.73,85.38|N|From Jerrik Highmo
 A Altered Beings|QID|880|RANK|1|M|60.60,85.34|N|From Jerrik Highmountain.|
 
 C Altered Beings|QID|880|S|M|55.36,79.14|N|From now on kill Oasis Snapjaws for their shells.|
-C Flushing Out Verog|QID|14072|US|M|52.94,80.85;51.11,83.65;58.11,82.14;52.94,80.85|N|Finish collecting Centaur Intelligence from huts.|
+C Flushing Out Verog|QID|14072|US|NC|M|52.94,80.85;51.11,83.65;58.11,82.14;52.94,80.85|N|Finish collecting Centaur Intelligence from huts.|
 l Sunscale Feather|QID|905|L|5165 3|US|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|M|48.27,73.44|
-N Visit Blue Raptor Nest|QID|905|QO|Visit Blue Raptor Nest: 1/1|U|5165|M|48.57,74.81|N|Use the feather at the blue nest.|
-N Visit Red Raptor Nest|QID|905|QO|Visit Red Raptor Nest: 1/1|U|5165|M|49.67,75.13|N|Use the feather at the red nest.|
+N Visit Blue Raptor Nest|QID|905|NC|QO|Visit Blue Raptor Nest: 1/1|U|5165|M|48.57,74.81|N|Use the feather at the blue nest.|
+N Visit Red Raptor Nest|QID|905|NC|QO|Visit Red Raptor Nest: 1/1|U|5165|M|49.67,75.13|N|Use the feather at the red nest.|
 C Into the Raptor's Den|QID|905|U|5165|M|48.02,76.14|N|Finally use the feather at the yellow nest.|
-C The Stagnant Oasis|QID|877|U|5068|M|55.91,80.76|N|Use the Dried Seeds underwater at the fissure.|
+C The Stagnant Oasis|QID|877|NC|U|5068|M|55.91,80.76|N|Use the Dried Seeds underwater at the fissure.|
 C Altered Beings|QID|880|US|M|55.36,79.14|N|Finish killing snapjaws.|
 
 T Flushing Out Verog|QID|14072|M|55.16,78.39|N|To Shoe.|
@@ -244,7 +259,7 @@ T It's Gotta be the Horn|QID|865|M|67.85,71.52|N|To Mebok Mizzyrix.|
 l Theramore Medals|QID|891|S|M|71.51,86.54|L|5078 10|N|From now on, kill Theramore mobs. Be sure to loot the Medals from them.|
 K Lieutenant Pyre|QID|891|M|70.4,84.1|QO|Lieutenant Pyre slain: 1/1|T|Lieutenant Pyre|N|Kill Lieutenant Pyre. She stays near the archers.|
 K Lieutenant Buckland|QID|891|M|70.91,85.34|QO|Lieutenant Buckland slain: 1/1|T|Lieutenant Buckland|N|Kill Lieutenant Buckland. He wanders from around the holding pen and the boat.|
-l Theramore Medals|QID|891|US|M|71.51,86.54|L|5078 10|N|From now on, kill Theramore mobs. Be sure to loot the Medals from them.|
+l Theramore Medals|QID|891|US|M|71.51,86.54|L|5078 10|N|Finish gathering Theramore Medals.|
 
 C Southsea Freebooters|QID|887|S|M|77.61,89.48|N|Finish killing 8 Southsea Cutthroats or Privateers on Fray Island.|
 
@@ -260,7 +275,7 @@ C WANTED: Cap'n Garvey|QID|895|M|77.81,89.20|N|Kill Cap'n Garvey and loot his he
 C Guns. We Need Guns.|QID|14057|US|M|77.86,89.29|N|Inside the other cabin, up the stairs, loot the rifles.|
 C Southsea Freebooters|QID|887|US|M|77.61,89.48|N|Finish killing 8 Southsea Cutthroats or Privateers on Fray Island.|
 
-T Guns. We Need Guns.|QID|14057|US|M|77.25,91.34|N|To Tony Two-Tusk.|
+T Guns. We Need Guns.|QID|14057|M|77.25,91.34|N|To Tony Two-Tusk.|
 A Mutiny, Mon!|QID|14063|RANK|1|M|77.25,91.34|N|From Tony Two-Tusk.|
 
 C Mutiny, Mon!|QID|14063|U|46838|M|79.72,90.33|N|Use the Pirate Signal Horn once you're on the deck. Then help Two-Tusk's with the mutiny.|
@@ -274,7 +289,7 @@ T WANTED: Cap'n Garvey|QID|895|M|68.42,69.12|N|To Gazlowe.|
 
 A Club Foote|QID|14034|RANK|1|M|68.42,69.12|N|From Gazlowe.|
 A Find Baron Longshore|QID|14045|RANK|1|M|68.42,69.12|N|From Gazlowe.|
-C Club Foote|QID|14034|M|67.05,74.66|N|Go to the Inn. Find Chief Engineer Force. Club him and search his pockets.|
+C Club Foote|QID|14034|T|Chief Engineer Force|M|67.05,74.66|N|Go to the Inn. Find Chief Engineer Force. Club him and search his pockets.|
 T Club Foote|QID|14034|M|68.37,69.12|N|To Gazlowe.|
 
 A Love it or Limpet|QID|14038|PRE|14034|RANK|1|M|68.37,69.12|N|From Gazlowe.|
@@ -310,19 +325,20 @@ A Hyena Extermination|QID|29088|M|62.55,16.86|N|From Nozzlepot.|
 A Competition Schmompetition|QID|29086|M|62.23,17.40|RANK|1|N|From Sputtervalve.|
 
 ; Venture Co. Drill Site
+A Ignition|QID|858|S|RANK|1|M|57.57,18.36|N|From Wizzlecrank's Shredder.|
 C Competition Schmompetition|QID|29086|M|59.13,18.49|RANK|1|N|Kill Drudgers, Mercenaries, or Peons.|S|
 C Sludge Investigation|QID|29087|M|59.13,18.49|N|Examine 5 tracks around the lake.|
 T Sludge Investigation|QID|29087|N|(UI Alert)|
 A Sludge Beast!|QID|29089|N|(UI Alert)|
 C Sludge Beast!|QID|29089|M|58.18,19.34|N|Swim to the bottom of the lake and click on the glowing mud-thing.|
-C Competition Schmompetition|QID|29086|M|59.13,18.49|RANK|1|N|Kill Drudgers, Mercenaries, or Peons.|US|
 A Ignition|QID|858|RANK|1|M|57.57,18.36|N|From Wizzlecrank's Shredder.|
-C Ignition|QID|858|M|56.95,20.38|N|Kill Supervisor Lugwizzle and loot the key. He is on top of the tower.|
+C Ignition|QID|858|T|Supervisor Lugwizzle|M|56.95,20.38|N|Kill Supervisor Lugwizzle and loot the key. He is on top of the tower.|
 T Ignition|QID|858|M|57.55,18.23|N|To Wizzlecrank's Shredder.|
 
 A The Escape|QID|863|PRE|858|RANK|1|M|57.58,18.32|N|Escort quest from Wizzlecrank's Shredder.|
-C The Escape|QID|863|NC|M|60.97,17.71|N|Escort Wizzlecrank out of the Venture Co. drill site.|
-C Hyena Extermination|QID|29088|M|53,25|N|Kill Hyenas.
+C The Escape|QID|863|NC|M|57.55,18.23;54.7,20.7|N|Escort Wizzlecrank out of the Venture Co. drill site.|
+C Hyena Extermination|QID|29088|M|53,25|N|Kill Hyenas.|
+C Competition Schmompetition|QID|29086|M|59.13,18.49|RANK|1|N|Kill Drudgers, Mercenaries, or Peons.|US|
 
 T Sludge Beast!|QID|29089|M|62.55,16.86|N|To Nozzlepot.|
 T Hyena Extermination|QID|29088|M|62.55,16.86|N|To Nozzlepot.|
@@ -331,7 +347,7 @@ T The Escape|QID|863|M|62.29,17.43|N|To Sputtervalve.|
 A Samophlange|QID|29021|M|62.23,17.40|RANK|1|N|From Sputtervalve.|
 
 ; Venture Company Research Facility
-C Samophlange|QID|29021|M|50.29,25.68|N|Get to the control console.  Be quick.|
+; C Samophlange|QID|29021|M|50.29,25.68|N|Get to the control console. Be quick.|
 T Samophlange|QID|29021|M|50.38,25.73|N|To the Control Console.|
 A Samophlange|QID|29022|PRE|29021|RANK|1|M|50.38,25.73|N|From the Control Console.|
 
@@ -339,7 +355,7 @@ C Samophlange|QID|29022|M|50.13,25.63|N|Turn off all three valves.|
 T Samophlange|QID|29022|M|50.22,25.78|N|To the Control Console.|
 A Samophlange|QID|29023|PRE|29022|RANK|1|M|50.22,25.78|N|From the Control Console.|
 
-C Samophlange|QID|29023|M|51.06,23.54|N|In the tent.|
+C Samophlange|QID|29023|T|Tinkerer Sniggles|M|51.06,23.54|N|In the hut.|
 T Samophlange|QID|29023|M|50.33,25.75|N|To the Control Console.|
 
 A Samophlange|QID|29024|PRE|29023|RANK|1|M|50.33,25.75|N|From the Control Console.|
@@ -352,9 +368,9 @@ T Samophlange Repair|QID|14003|M|62.62,17.00|N|To Brak Blusterpipe.|
 A Wenikee Boltbucket|QID|29026|RANK|1|M|62.62,17.00|N|From Brak Blusterpipe.|
 T Wenikee Boltbucket|QID|29026|M|62.62,17.00;44.37,24.94|N|Talk to Brak to teleport directly to her. To Wenikee Boltbucket.|
 A Nugget Slugs|QID|29027|PRE|29026|RANK|1|M|44.37,24.94|N|From Wenikee Boltbucket.|
-A A Burning Threat|QID|29090|RANK|1|M|44.2,25.0|N|From Brogor.|
+A A Burning Threat|QID|29090|RANK|1|M|44.3,25.1|N|From Brogor.|
 C A Burning Threat|QID|29090|M|42,32|N|Kill 8 members of the Burning Blade.|S|
-C Nugget Slugs|QID|29027|M|42,32|N|Collect Slugs from the Tool Buckets all around the farm.|
+C Nugget Slugs|QID|29027|NC|M|42,32|N|Collect Slugs from the Tool Buckets all around the farm.|
 C A Burning Threat|QID|29090|M|42,32|N|Kill 8 members of the Burning Blade.|US|
 T A Burning Threat|QID|29090|RANK|1|M|44.2,25.0|N|To Brogor.|
 T Nugget Slugs|QID|29027|M|44.34,24.90|N|To Wenikee Boltbucket.|
@@ -368,17 +384,17 @@ A Miner's Fortune|QID|29015|RANK|1|M|62.61,17.01|N|From Brak Blusterpipe.|
 
 R Boulder Lode Mine|NC|M|63.00,18.00;65.02,19.13;67.00,20.09;66.39,15.71|N|Follow the road.|QID|29015|
 l Samophlange Manual Page|QID|14006|M|63.71,10.81|N|Kill Venture Co. mobs until you have 5 pages.|L|11148 5|S|
-C Miner's Fortune|QID|29015|M|67.51,13.78|N|Continue killing Venture Co. mobs until you loot the Cats Eye Emerald.|
 l Samophlange Manual Cover |QID|14006|M|64.69,11.87|N|Head into the mine and look for Boss Copperplug. Kill him and loot the Manual Cover from him.|L|11147|T|Boss Copperplug|
 l Samophlange Manual Page|QID|14006|M|63.71,10.81|N|Kill Venture Co. mobs until you have 5 pages.|L|11148 5|S|
 C Read the Manual|QID|14006|M|64.69,11.87|N|Use the Cover and complete the book.|U|11147|
+C Miner's Fortune|QID|29015|M|67.51,13.78|N|Kill Venture Co. mobs until you loot the Cats Eye Emerald.|
 
 H Nozzlepot's Outpost|QID|29015|NC|M|62.67,16.98|N|Hearth to Nozzlepot's Outpost.|
 
 T Miner's Fortune|QID|29015|M|62.63,16.98|N|To Brak Blusterpipe.|
 T Read the Manual|QID|14006|M|62.25,17.41|N|To Sputtervalve.|
 
-; The Dreadmist Peak sequence.  All part of a quest chain, triggered by [Read the Manual]
+; The Dreadmist Peak sequence. All part of a quest chain, triggered by [Read the Manual]
 ;A They Call Him Swiftdagger. He Kills Harpies.|QID|28877|PRE|14004|RANK|1|M|62.55,16.86| -Not in game?
 A The Short Way Home|QID|29094|PRE|29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
 ;T They Call Him Swiftdagger. He Kills Harpies.|QID|28877|M|30.59,45.95|N|To Darsok Swiftdagger.| -Not in game?
@@ -412,6 +428,6 @@ T Mor'shan Caravan Delivery|QID|29111|M|42.42,14.97|N|To Kadrak, who wanders.|
 
 F Orgrimmar|NC|O|N|If you plan on going to Stranglethorn next.|
 A Northern Stranglethorn: The Fallen Empire|QID|26417|RANK|1|O|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
-]]
 
+]]
 end)
