@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
+-- Date: 2012-02-18 06:06
+-- Who: Crackerhead22
+-- Log: Minor tweaks
+
+-- URL: http://wow-pro.com/node/3270/revisions/24816/view
 -- Date: 2011-11-20 21:44
 -- Who: Ludovicus Maior
 -- Log: Rutgar Glyphshaper. not Frankal Stonebridge for QID 8314 
@@ -52,11 +57,9 @@
 WoWPro.Leveling:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', '55', '60', 'CraBla5458|JiyBla5560', 'Neutral', function()
 return [[
 
-F Mossy Pile|QID|8318|M|55.97,64.15|N|Fly to Mossy Pile.|Z|Un'Goro Crater|
-R Silithus|QID|8318|M|29.14,22.29;30.07,10.43;27.30,10.57|N|Head along the road to the north-west, into Silithus.|Z|Un'Goro Crater|
+F Cenarion Hold|QID|8318|M|55.97,64.15|N|Fly to Cenarion Hold.|Z|Un'Goro Crater|
 
-R Cenarion Hold|QID|8280|M|54.92,35.85|N|Run to Cenarion Hold.|
-T Hero's Call: Silithus!|O||QID|28528|M|54.92,35.85|N|To Windcaller Proudhorn.|FACTION|Alliance|
+T Hero's Call: Silithus!|O|QID|28528|M|54.92,35.85|N|To Windcaller Proudhorn.|FACTION|Alliance|
 T The Dunes of Silithus|O|QID|28859|M|54.92,35.85|N|To Windcaller Proudhorn.|
 T Warchief's Command: Silithus!|O|QID|28527|M|54.92,35.85|N|To Windcaller Proudhorn.|FACTION|Horde|
 
@@ -65,9 +68,7 @@ A Wanted - Deathclasp, Terror of the Sands|QID|8283|M|55.05,35.93|N|From the Wan
 h Cenarion Hold|QID|8318|M|55.51,36.72|N|At Calandrath.|
 A Deadly Desert Venom|QID|8277|M|55.35,36.26|N|From Beetix Ficklespragg.|
 A Report to Marshal Bluewall|QID|9415|M|54.51,32.83|N|From Rifleman Torrig.|FACTION|Alliance|
-f Cenarion Hold|QID|8318|M|54.42,32.74|N|At Cloud Skydancer.|FACTION|Alliance|
 A Report to General Kirika|QID|9416|M|52.96,34.68|N|From Scout Bloodfist.|FACTION|Horde|
-f Cenarion Hold|QID|8318|M|52.75,34.66|N|From Runk Windtamer.|FACTION|Horde|
 A Secret Communication|QID|8318|M|52.67,35.56|N|From Bor Wildmane.|
 A Twilight Geolords|QID|8320|M|52.76,35.63|N|From Huum Wildmane.|
 

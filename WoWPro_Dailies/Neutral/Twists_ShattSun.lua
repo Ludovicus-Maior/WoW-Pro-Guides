@@ -3,8 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-
-
 WoWPro.Dailies:RegisterGuide("TwiShattSun", "Isle of Quel'Danas", "Shattered Sun Offensive", "BC", "Twists", "Neutral", function()
 return [[
 
@@ -41,7 +39,6 @@ A Exalted Among All Combatants|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Sh
 T Exalted Among All Combatants|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner|
 A A Magnanimous Benefactor|QID|11549|M|51.2,33.2|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|Anchorite Kairthos|
 T A Magnanimous Benefactor|QID|11549|M|51.2,33.2|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|Anchorite Kairthos|
-
 
 A Know Your Ley Lines|QID|11547|M|47.49,35.23|N|From Astromancer Darnarian.|
 A Open for Business|QID|11546|M|51.49,32.47|N|From Mar'nah.|
@@ -90,16 +87,13 @@ K Wretched Fiend|QID|11523|M|39.44,37.53|N|You are looking for mana Remnants.|L|
 C Open for Business|QID|11546|N|Found on the ground.|L|34502 5|S|
 C Further Conversions|QID|11525|M|41.96,28.40|N|Kill sentries and then use the crystal.|U|34368|US|
 
-
 C Arm the Wards!|QID|11523|M|48.87,29.22|U|34338|
 
 T Further Conversions|QID|11525|M|47.13,30.65|N|To Vindicator Xayann.|
 T Arm the Wards!|QID|11523|M|47.38,30.55|N|To Captain Theris Dawnhearth.|
 
-
 C The Air Strikes Must Continue|QID|11533|M|48.45,25.29|N|Speak to Ayren Cloudbreaker and select Speaking of Action.|U|34475|
 C Keeping the Enemy at Bay|QID|11543|M|48.45,25.29|N|Speak to Ayren Cloudbreaker and select I need to intercept. Aim for the sails.|U|34489|
-
 
 T The Air Strikes Must Continue|QID|11533|M|47.56,35.03|N|To Battlemage Arynna.|
 T Keeping the Enemy at Bay|QID|11543|M|50.54,39.03|N|To Vindicator Kaalan.|
@@ -107,12 +101,9 @@ T Keeping the Enemy at Bay|QID|11543|M|50.54,39.03|N|To Vindicator Kaalan.|
 T Open for Business|QID|11546|M|51.49,32.47|N|To Mar'nah.|
 A Rediscovering your Roots|QID|11521|M|51.49,32.47|N|From Mar'nah.|
 
-
-
 A The Missing Magistrix|QID|11526|M|47.44,30.48|Z|Isle of Quel'Danas|N|From Captain Theris Dawnhearth|
 R Portal to Hellfire|QID|11526|M|48.5,44.4|Z|Isle of Quel'Danas|U|34420|N|Use the scroll when you are close to it. Skip ahead in the guide till you get to Magistrix Seyla this one time.|
 T The Missing Magistrix|QID|11526|58.2,17.6|Z|Hellfire Peninsula|N|From Magistrix Seyla, in Hellfire Peninsula.|
-
 
 R Shattrath City|N|Use Darnarian's Scroll of Teleportation to return to Shattrath City.|Z|Shattrath City|U|35230|
 
@@ -166,12 +157,8 @@ T Ata'mal Armaments|QID|11544|M|50.56,40.69|N|From Smith Hauthaa.|
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 
-
-
 ; Magisters' Terrace
 
 ]]
 
-
 end)
-
