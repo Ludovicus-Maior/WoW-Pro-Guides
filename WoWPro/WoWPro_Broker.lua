@@ -4,6 +4,7 @@
 
 local L = WoWPro_Locale
 local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
+local GuideLoaded = false
 
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
@@ -14,6 +15,7 @@ function WoWPro:LoadGuide(guideID)
 	end
 	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
 	
+	GuideLoaded = true
 	--Checking the GID and loading the guide --
 	if guideID then WoWProDB.char.currentguide = guideID end 
 	local GID = WoWProDB.char.currentguide
@@ -72,7 +74,7 @@ end
 
 -- Guide Update --
 function WoWPro:UpdateGuide(offset)
-	if not WoWPro.GuideFrame:IsVisible() then return end
+	if not WoWPro.GuideFrame:IsVisible() or not GuideLoaded then return end
 	WoWPro:dbp("Running: UpdateGuide()")
 	local GID = WoWProDB.char.currentguide
 	
