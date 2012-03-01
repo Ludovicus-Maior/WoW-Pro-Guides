@@ -319,11 +319,19 @@ function WoWPro.Dailies:RowUpdate(offset)
 		end
 		local completion = WoWProCharDB.Guide[GID].completion
 		
-		-- Checking off lead in steps --
-		if leadin and WoWProCharDB.completedQIDs[tonumber(leadin)] and not completion[k] then
-			completion[k] = true
-			return true --reloading
-		end
+		-- Checking off leadin steps --
+		-- Perhaps this logic belongs in NextStep?  --Ludo
+		if leadin then
+		    local numQIDs = select("#", string.split(";", leadin))
+		    for j=1,numQIDs do
+			    local lQID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
+				if WoWProCharDB.completedQIDs[tonumber(lQID)] and not completion[k] then
+			        completion[k] = true
+			        return true --reloading
+		        end
+			end
+		end				
+		    
 		
 		-- Unstickying stickies --
 		if unsticky and i == WoWPro.ActiveStickyCount+1 then
