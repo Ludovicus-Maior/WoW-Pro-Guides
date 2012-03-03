@@ -324,7 +324,7 @@ function WoWPro.Dailies:RowUpdate(offset)
 		if leadin then
 		    local numQIDs = select("#", string.split(";", leadin))
 		    for j=1,numQIDs do
-			    local lQID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
+			    local lQID = select(numQIDs-j+1, string.split(";", leadin))
 				if WoWProCharDB.completedQIDs[tonumber(lQID)] and not completion[k] then
 			        completion[k] = true
 			        return true --reloading
