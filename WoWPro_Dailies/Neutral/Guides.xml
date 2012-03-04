@@ -4,6 +4,8 @@
   <Script file="Est_Firelands.lua"/>
   <Script file="Jiyambi_Therazane.lua"/>
   <Script file="Twists_Ramkahen.lua"/>
+  <Script file="Ludo_ArgCrusade.lua"/>
+  <Script file="Ludo_EbonBlade.lua"/>
   <Script file="Ludo_NetherDrake.lua"/>
   <Script file="Ludo_Skyguard.lua"/>
   <Script file="Twists_ShattSun.lua"/>
