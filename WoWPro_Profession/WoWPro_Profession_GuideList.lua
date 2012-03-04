@@ -24,6 +24,7 @@ for guidID,guide in pairs(WoWPro.Guides) do
 	end
 end
 table.sort(guides, function(a,b) return a.Name < b.Name end)
+WoWPro.Profession.GuideList.Guides = guides
 
 -- Sorting Functions --
 local sorttype = "Default"

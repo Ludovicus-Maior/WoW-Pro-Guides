@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2012-02-25 14:30
+-- Who: Estelyen
+-- Log: Just played through Icecrown again and wrote down some fixes while at it.
+
+-- URL: http://wow-pro.com/node/3301/revisions/24849/view
 -- Date: 2011-12-09 20:22
 -- Who: Crackerhead22
 
@@ -52,7 +57,7 @@ WoWPro.Leveling:RegisterGuide("EstIce7985", "Icecrown", "Estelyen", "79", "85", 
 return [[
 N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|
 A Preparations for War|QID|13418|N|From Officer Van Rossem on Krasus Landing in Dalaran.|Z|Dalaran|M|68.80,46.60|
-T Preparations for War|QID|13418|N|Talk to Officer Van Rossem again to fly to the Skybreaker.|Z|Dalaran|
+T Preparations for War|QID|13418|N|Talk to Officer Van Rossem again to fly to the Skybreaker. Turn the quest in to High Captain Justin Bartlett inside the back/rear/stern/aft part of the ship, just walk straight in from the main deck.|Z|Dalaran|
 A Judgment Day Comes!|QID|13226|N|From Absalan the Pious. He patrols around on the Deck of the Skybreaker.|
 T Judgment Day Comes!|QID|13226|N|To Highlord Tirion Fordring at the Argent Vanguard.|M|87.40,75.80|
 A Honor Above All Else|QID|13036|N|From Highlord Tirion Fordring.|
@@ -121,11 +126,11 @@ A A Hero Remains|QID|13072|N|From Crusader Bridenbrad.|
 T A Hero Remains|QID|13072|N|To Highlord Tirion Fordring.|M|79.80,71.80|
 
 A The Keeper's Favor|QID|13073|N|From Highlord Tirion Fordring.|
-R Moonglade|QID|13073|N|Talk to Arch Druid Lilliandra ask her teleport you to Moonglade. Click on the portal, you can not be mounted.|M|87.05,77.02|
+R Moonglade|QID|13073|N|Talk to Arch Druid Lilliandra. Ask her for a portal to Moonglade. Click on the portal, you can not be mounted.|M|87.05,77.02|
 T The Keeper's Favor|QID|13073|N|To Keeper Remulos.|Z|Moonglade|M|36.20,41.80|
-A Hope Within the Emerald Nightmare|QID|13074|N|From keeper Remulos.|Z|Moonglade|
+A Hope Within the Emerald Nightmare|QID|13074|N|From Keeper Remulos.|Z|Moonglade|
 C Hope Within the Emerald Nightmare|QID|13074|N|Collect Emerald Acorns in the area.|Z|Moonglade|
-T Hope Within the Emerald Nightmare|QID|13074|N|Click the buff off to return to the waking world, then turn the quest in at Keeper Remulos.|Z|Moonglade|M|36.20,41.80|
+T Hope Within the Emerald Nightmare|QID|13074|N|Click the buff off to return to the waking world, then turn the quest in to Keeper Remulos.|Z|Moonglade|M|36.20,41.80|
 A The Boon of Remulos|QID|13075|N|From Keeper Remulos.|Z|Moonglade|
 T The Boon of Remulos|QID|13075|N|There's a portal right next to Remulos. Return to Crusader Bridenbrad.|M|79.80,30.80|
 A Time Yet Remains|QID|13076|N|From Crusader Bridenbrad.|
@@ -141,7 +146,7 @@ T The Boon of Alexstrasza|QID|13079|N|Return to Crusader Bridenbrad.|M|79.80,30.
 A Hope Yet Remains|QID|13080|N|From Crusader Bridenbrad.|
 T Hope Yet Remains|QID|13080|N|To Highlord Tirion Fordring.|M|79.80,71.80|
 A The Will of the Naaru|QID|13081|N|From Highlord Tirion Fordring.|
-T The Will of the Naaru|QID|13081|N|If you wait about 10 seconds, Rhydian will wander over and open up a portal to Shattrath for you. Speak to A'dal.|Z|Shattrath City|M|52.20,44.40|
+T The Will of the Naaru|QID|13081|N|If you wait about 10 seconds, Rhydian will wander over and open up a portal to Shattrath for you. Speak to A'dal.|Z|Shattrath City|M|54.00,44.67|
 A The Boon of A'dal|QID|13082|N|From A'dal.|Z|Shattrath City|
 T The Boon of A'dal|QID|13082|N|Return to Crusader Bridenbrad.|M|79.80,30.80|
 A Light Within the Darkness|QID|13083|N|After the poor Crusader ascends into the Light, search his possesions.|M|79.80,30.90|
@@ -156,8 +161,8 @@ T Joining the Assault|QID|13341|N|To Ground Commander Koup. This quest is just i
 A Mind Tricks|QID|13308|N|Enter the Saronite Mines (the big cave in Ymirheim) and fight your way towards Darkspeaker R'khem.|M|54.60,59.20|
 N First Elite Quest|QID|13308|N|This is your first Elite-Quest, but it's intended for 3 players instead of 5. If you're having trouble soloing him with your Cataclysm-Gear you should think about getting better equipment before attempting the 5-Man Quests later in the guide.|
 C Mind Tricks|QID|13308|N|Kill Foreman Thaldrin and loot the key.|M|55.00,59.20|
-T Mind Tricks|QID|13308|N|Back at Darkspeaker R'khem.|M|54.60,59.20|
-T Get to Ymirheim!|QID|13296|N|Leave the cave again. At Frazzle Geargrinder. This quest is just intended to unlock her daily quest (which this guide doesn't cover).|M|57.00,62.40|
+T Mind Tricks|QID|13308|N|Back to Darkspeaker R'khem.|M|54.60,59.20|
+T Get to Ymirheim!|QID|13296|N|Leave the cave again and find Frazzle Geargrinder hiding in Ymirheim. This quest is just intended to unlock her daily quest (which this guide doesn't cover).|M|57.00,62.40|
 C The Broken Front|QID|13231|N|Question a Dying Soldier at the Broken Front as to what has happened. You can stay in the air on your flying mount while talking to him to avoid aggro.|M|68.48,62.24|
 A Finish Me!|QID|13232|N|From the Dying Soldiers you just interrogated. You can stay in the air on your flying mount while talking to him to avoid aggro.|M|68.80,64.40|
 C Finish Me!|QID|13232|N|Ease the passing for the Dying Soldiers. You can stay in the air on your flying mount while talking to them to avoid aggro.|M|68.48,62.24|
@@ -359,7 +364,7 @@ C Not-So-Honorable Combat|QID|13137|N|Fly up to the platform and light the fire 
 T Not-So-Honorable Combat|QID|13137|N|To the Bone Witch.|M|32.40,42.80|
 A Banshee's Revenge|QID|13142|N|Another 5-Man Quest. From the Bone Witch.|
 C Banshee's Revenge|QID|13142|N|Fly up to the top of Balargarde Fortress. Blow the Horn the summon your opponent. The Lich King will appear halfway through the fight which will resume after a little dialogue.|M|17.40,56.00|
-T To the Rise with all Due Haste!|QID|12806|N|Fly down the cliff to Death's Rise. At Lord-Commander Arete.|M|19.60,48.00|
+T To the Rise with all Due Haste!|QID|12806|N|Fly down the cliff to Death's Rise. To Lord-Commander Arete.|M|19.60,48.00|
 A The Story Thus Far...|QID|12807|N|From Lord-Commander Arete.|
 C The Story Thus Far...|QID|12807|N|Speak to Lord-Commander Arete and click through the dialogue.|M|19.60,48.00|
 T The Story Thus Far...|QID|12807|N|To Lord-Commander Arete.|M|19.60,48.00|
@@ -429,7 +434,7 @@ A Time to Hide|QID|13391|N|From Matthias Lehner.|
 C Time to Hide|QID|13391|N|Kill Faceless Lurkers in this cave and loot their blood.|M|54.80,86.29|
 T Time to Hide|QID|13391|N|To Matthias Lehner.|M|53.80,87.00|
 A Return to the Surface|QID|13392|N|From Matthias Lehner.|
-T Blackwatch|QID|13106|N|Enter the Portal behind Matthias, then turn in this quest at Darkrider Arly on a ledge overlooking the Fleshwerks.|M|35.40,66.40|
+T Blackwatch|QID|13106|N|Enter the Portal behind Matthias, then turn in this quest to Darkrider Arly on a ledge overlooking the Fleshwerks.|M|35.40,66.40|
 
 A Where Are They Coming From?|QID|13117|N|From Darkrider Arly.|
 C Where Are They Coming From?|QID|13117|N|Click on one of the Summoning Altars to the southeast.|M|36.74,70.72|
@@ -464,7 +469,7 @@ C From Whence They Came|QID|13171|N|Use Ability 6 on the Crystals.|S|
 C Honor is for the Weak|QID|13170|N|Use the Eye of Dominion again. As a shade, head southwest into the quarry. Approach Restless Lookouts from behind and use Ability 5 on them.|M|40.20,37.80|
 C From Whence They Came|QID|13171|N|Use Ability 6 on the Crystals.|M|40.20,37.80|US|
 C An Undead's Best Friend|QID|13169|N|Use Ability 4 on the Plaguehounds.|M|40.20,37.80|US|
-T An Undead's Best Friend|QID|13169|N|Leave your Vehicle, you'll be teleported back to your own body which is still at the Shadow Vault. Turn the Quest in at Keritose Bloodblade.|M|44.00,24.60|
+T An Undead's Best Friend|QID|13169|N|Leave your Vehicle, you'll be teleported back to your own body which is still at the Shadow Vault. Turn the Quest in to Keritose Bloodblade.|M|44.00,24.60|
 T From Whence They Came|QID|13171|N|To Keritose Bloodblade.|
 T Honor is for the Weak|QID|13170|N|To Keritose Bloodblade.|
 
@@ -488,7 +493,7 @@ C Do Your Worst|QID|13394|N|Use the Demolisher you just repaired to blow up tons
 T Do Your Worst|QID|13394|N|To Matthias Lehner, he has moved a little to the northwest.|M|64.40,44.00|
 A Army of the Damned|QID|13395|N|From Matthias Lehner.|
 C Army of the Damned|QID|13395|N|Use Ability 1 to kill your men, Ability 3 raises them again as ghouls. Use Ability 4 to sustain health and mana. When you leave your "vehicle" you could be attacked, be prepared.|
-T Army of the Damned|QID|13395|N|When you leave your "vehicle" you could be attacked, be prepared. Turn the quest in at Matthias Lehner.|M|64.40,44.00|
+T Army of the Damned|QID|13395|N|When you leave your "vehicle" you could be attacked, be prepared. Turn the quest in to Matthias Lehner.|M|64.40,44.00|
 A Futility|QID|13396|N|From Matthias Lehner.|
 T Futility|QID|13396|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 A Sindragosa's Fall|QID|13397|N|From Thassarian.|
@@ -536,7 +541,7 @@ T The Rider of Frost|QID|13162|N|To Vereth the Cunning.|
 T The Rider of the Unholy|QID|13161|N|To Vereth the Cunning.|
 
 A The Fate of Bloodbane|QID|13164|N|A 5-Man quest. From Vereth the Cunning.|
-T Time for Answers|QID|13399|N|To Matthias Lehner, this time he's on the Court of Bones, right in front of Icecrown Citadel.|M|49.20,73.00|
+T Time for Answers|QID|13399|N|To Matthias Lehner, this time he's in the Court of Bones, right in front of Icecrown Citadel.|M|49.20,73.00|
 A The Hunter and the Prince|QID|13400|N|From Matthias Lehner.|
 C The Hunter and the Prince|QID|13400|N|Click on a bloodstained stone somewhere around Matthias Lehner to become Arthas again. Spam Ability 1 to generate Mana. When your Mana is full, use Ability 3 to knock Illidan back, followed right away by Ability 4. Don't bother using Ability 2, it's pretty useless.|
 T The Hunter and the Prince|QID|13400|N|To Matthias Lehner.|M|49.20,73.00|

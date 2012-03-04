@@ -224,9 +224,6 @@ function WoWPro:Setup_TitleRow(frame)
 	    TitleRow[i] = button
 	    TitleRow[i]:SetNormalFontObject("GameFontWhite")
 	    TitleRow[i]:SetText(L[colDesc[1]])
-	    local fontString = TitleRow[i]:GetFontString()
-	    fontString:SetJustifyH("LEFT")
-	    fontString:SetJustifyV("CENTER")
 	    TitleRow[i]:Enable()
 	    button:SetBackdrop(titlerowBG)
 	    button:SetBackdropColor(0.2, 0.1, i/15.0, 0.5)
@@ -249,6 +246,9 @@ function WoWPro:Setup_TitleRow(frame)
 	    TitleRow[colDesc[1]]:SetPoint("LEFT", lastButton, "RIGHT", 0, 0)
 	    local buttonWidth = floor(frame.frameWidth * colDesc[2])
 	    TitleRow[colDesc[1]]:SetWidth(buttonWidth)
+	    local fontString = TitleRow[colDesc[1]]:GetFontString()
+	    fontString:SetJustifyH("LEFT")
+	    fontString:SetJustifyV("CENTER")
 	    lastButton = TitleRow[colDesc[1]]
 	end
 	
