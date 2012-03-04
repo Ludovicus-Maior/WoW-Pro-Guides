@@ -148,7 +148,7 @@ function WoWPro:UpdateGuide(offset)
 	WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
 	
 	-- TODO: make next lines module specific
-	WoWPro.TitleText:SetText(WoWPro.Guides[GID].zone.."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
+	WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
 	
 	-- If the guide is complete, loading the next guide --
 	if WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total 
