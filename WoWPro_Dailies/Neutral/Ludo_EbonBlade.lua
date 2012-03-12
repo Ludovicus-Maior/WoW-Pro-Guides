@@ -7,6 +7,7 @@ WoWPro.Dailies:RegisterGuide("LudoEbonBlade", "Icecrown", "Ebon Blade", "Lich", 
 return [[
 N Knights of the Ebon Blade|N|The Knights of the Ebon Blade Reputation Dalies.|
 
+A Reading the Bones|QID|13093|M|32.50,42.95|N|If you have 15 Vrykul Bones, give them to the The Bone Witch.|
 A From Their Corpses, Rise!|QID|12813|M|19.67,48.38|N|From Setaal Darkmender.|
 A Intelligence Gathering|QID|12838|M|19.80,47.60|N|From Aurochs Grimbane, circling on his horse.|
 A No Fly Zone|QID|12815|M|19.64,47.80|N|From Uzo Deathcaller|
