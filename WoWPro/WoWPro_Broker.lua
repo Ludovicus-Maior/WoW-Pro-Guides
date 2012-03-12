@@ -54,6 +54,12 @@ function WoWPro:LoadGuide(guideID)
 	    WoWPro:Print("Resetting Guide "..GID.." due to upgrade.  Forgetting skipped steps.")
 	    WoWProCharDB.Guide[GID] = nil
     end
+    
+    -- If we resetting guide, wipe the old information and re-create
+	if WoWPro.Resetting then
+	    WoWPro:Print("Manual reset of Guide "..GID..".")
+	    WoWProCharDB.Guide[GID] = nil
+    end
 	    
 	-- Creating a new entry if this guide does not have one
 	if WoWProCharDB.Guide[GID] == nil then

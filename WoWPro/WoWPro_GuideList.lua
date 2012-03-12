@@ -267,13 +267,13 @@ WoWPro:Export("GuideTabFrame_RowOnClick")
 function WoWPro:GuideTabFrame_RowOnClick()
 	if IsShiftKeyDown() then
 		WoWProCharDB.Guide[self.GID] = nil
-		module.Resetting = true
+		WoWPro.Resetting = true
 		WoWPro:LoadGuide(self.GID)
 		for j = 1,WoWPro.stepcount do 
 			if WoWPro.QID[j] then WoWProCharDB.completedQIDs[WoWPro.QID[j]] = nil end
 		end
+		WoWPro.Resetting = false
 		WoWPro:LoadGuide(self.GID)
-		module.Resetting = false
 	else
 		WoWPro:LoadGuide(self.GID)
 	end
