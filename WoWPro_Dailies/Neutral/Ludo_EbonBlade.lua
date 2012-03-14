@@ -3,10 +3,30 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2012-03-14 21:17
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3405/revisions/24971/view
+-- Date: 2012-03-14 21:16
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3405/revisions/24970/view
+-- Date: 2012-03-03 16:22
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3405/revisions/24969/view
+-- Date: 2012-03-03 16:21
+-- Who: Ludovicus Maior
+-- Log: Split up guides.
+
+-- URL: http://wow-pro.com/node/3405/revisions/24628/view
+-- Date: 2011-06-29 21:12
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("LudoEbonBlade", "Icecrown", "Ebon Blade", "Lich", "Ludovicus", "Neutral", function()
 return [[
 N Knights of the Ebon Blade|N|The Knights of the Ebon Blade Reputation Dalies.|
-
 A Reading the Bones|QID|13093|M|32.50,42.95|N|If you have 15 Vrykul Bones, give them to the The Bone Witch.|
 A From Their Corpses, Rise!|QID|12813|M|19.67,48.38|N|From Setaal Darkmender.|
 A Intelligence Gathering|QID|12838|M|19.80,47.60|N|From Aurochs Grimbane, circling on his horse.|
@@ -19,7 +39,6 @@ C Intelligence Gathering|QID|12838|M|12.45,44.05;7.82,43.50;5.80,44.02;8.72,36.8
 T No Fly Zone|QID|12815|M|19.64,47.80|N|To Uzo Deathcaller, you may find it safer to return on your own mount instead of the Bone Gryphon.|
 T From Their Corpses, Rise!|QID|12813|M|19.67,48.38|N|To Setaal Darkmender, circling on his horse.|
 T Intelligence Gathering|QID|12838|M|19.80,47.60|N|To Aurochs Grimbane.|
-
 
 A Leave Our Mark|QID|12995|M|42.86,25.00|N|From Baron Sliver in front of the Shadow Vault.|
 A Shoot 'Em Up|QID|13069|M|43.59,24.68|N|From The Leaper in front of the Shadow Vault.|

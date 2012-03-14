@@ -3,7 +3,28 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-WoWPro.Dailies:RegisterGuide("LudoIceDaily", "Icecrown", "Valiance Expedition", "Lich", "Ludovicus", "Alliance", function()
+-- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2012-03-14 21:17
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3405/revisions/24971/view
+-- Date: 2012-03-14 21:16
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3405/revisions/24970/view
+-- Date: 2012-03-03 16:22
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3405/revisions/24969/view
+-- Date: 2012-03-03 16:21
+-- Who: Ludovicus Maior
+-- Log: Split up guides.
+
+-- URL: http://wow-pro.com/node/3405/revisions/24628/view
+-- Date: 2011-06-29 21:12
+-- Who: Ludovicus Maior
+
+WoWPro.Dailies:RegisterGuide("LudoIceDaily", "Icecrown", "Money", "Lich", "Ludovicus", "Alliance", function()
 return [[
 N Gold and Experience|N|Quests that give no rep, but do yield gold.|
 
