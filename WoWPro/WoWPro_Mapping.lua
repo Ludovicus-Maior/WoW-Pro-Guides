@@ -408,7 +408,7 @@ function WoWPro:MapPoint(row)
 				else
 				    title = desc
 				end
-				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom})
+				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
 				if not uid then
 				    WoWPro:Print("Failed to set waypoint!  Please report a bug with the guide and step number.")
 				end
