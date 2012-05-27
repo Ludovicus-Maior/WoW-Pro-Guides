@@ -439,3 +439,49 @@ function WoWPro:PopulateQuestLog()
 	WoWPro:dbp("Quest Log populated. "..num.." quests found.")
 	
 end
+
+
+-- Experimental Interface to Grail
+function WoWPro:SkipAll()
+    WoWPro:Print("Marking All Quests as skipped")
+    local GID = WoWProDB.char.currentguide
+	for index=1, WoWPro.stepcount do
+	    if not WoWProCharDB.Guide[GID].completion[index] then
+	        WoWProCharDB.Guide[GID].skipped[index] = true
+        end
+    end
+end
+
+function WoWPro:DoQuest(qid)
+    if type(qid) == "table" then
+        for  i,p in ipairs(qid) do
+            WoWPro:Print("Marking 1:n QID %d for execution.",p)
+            WoWPro:QuestPrereq(p)
+        end
+        return
+    end
+    WoWPro:Print("Marking QID %d for execution.",qid)
+    local GID = WoWProDB.char.currentguide
+	for index=1, WoWPro.stepcount do
+	    if tonumber(WoWPro.QID[index]) == tonumber(qid) and not WoWProCharDB.Guide[GID].completion[index] then
+	        WoWProCharDB.Guide[GID].skipped[index] = nil
+        end
+    end
+end
+
+function WoWPro:QuestPrereq(qid)
+    WoWPro:DoQuest(qid)
+    local preReq = Grail:QuestPrerequisites(qid)
+    if not preReq then return end
+    for i,p in ipairs(preReq) do
+        WoWPro:QuestPrereq(p)
+    end
+end
+
+function WoWPro:Questline(qid)
+    if not Grail then return end
+    WoWPro:SkipAll()
+    WoWPro:QuestPrereq(qid)
+end
+
+-- /run WoWPro:Questline("26625")
