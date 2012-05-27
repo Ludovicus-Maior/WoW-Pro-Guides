@@ -62,15 +62,38 @@ function WoWPro.Dailies:NextStep(k, skip)
 		end		
 	end
 
+    -- Check for must be active quests
+    if WoWPro.active[k] then
+		if not WoWPro.Dailies:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
+			skip = true -- If the quest is not in the quest log, the step is skipped --
+		end		
+    end
+    
 	-- Checking Prerequisites --
-	if WoWPro.prereq[k] and WoWPro.QID[k] then		
-		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-		for j=1,numprereqs do
-			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-			if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
-				skip = true -- If one of the prereqs is NOT complete, step is skipped.
-			end
-		end
+	if WoWPro.prereq[k] and WoWPro.QID[k] then
+	    if string.find(WoWPro.prereq[k],"+") then
+	        -- Any prereq met is OK, skip only if none are met	
+    		local numprereqs = select("#", string.split("+", WoWPro.prereq[k]))
+    		local totalFailure = true
+    		for j=1,numprereqs do
+    			local jprereq = select(numprereqs-j+1, string.split("+", WoWPro.prereq[k]))
+    			if WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+    				totalFailure = false -- If one of the prereqs is complete, step is not skipped.
+    			end
+    		end
+    		if totalFailure then
+    		    skip = totalFailure
+    		end
+    	else
+ 	        -- All prereq met must be met	
+    		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+    		for j=1,numprereqs do
+    			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+    			if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+    				skip = true -- If one of the prereqs is NOT complete, step is skipped.
+    			end
+    		end
+   	    end
 	end
 
 	-- Skipping quests with prerequisites if their prerequisite was skipped --
@@ -122,6 +145,7 @@ local function ParseQuests(...)
 	end
 	for j=1,select("#", ...) do
 		local text = select(j, ...)
+		text = text:trim()
 		if text ~= "" and text:sub(1,1) ~= ";" then
 			local class, race, gender, faction = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
 			if class then
@@ -174,6 +198,7 @@ local function ParseQuests(...)
     
     			if text:find("|NC|") then WoWPro.noncombat[i] = true end
     			WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
+    			WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
     			WoWPro.target[i] = text:match("|T|([^|]*)|?")
     			WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
     			WoWPro.prof[i] = text:match("|P|([^|]*)|?")
@@ -597,7 +622,10 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
         local questtitle = GetTitleText();
 		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
 		    CompleteQuest()
-		end         
+		end
+		if WoWProDB.char.CompletedDailies < GetDailyQuestsCompleted() then
+		   WoWProDB.char.CompletedDailies = GetDailyQuestsCompleted()
+		end   
     end
 
     -- Noting that a quest is being completed for quest log update events --
@@ -609,7 +637,7 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 	-- Auto-Completion --
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Dailies:AutoCompleteSetHearth(...)
-		WoWPro.Dailies:CheckDailiesReset()
+		WoWPro.Dailies:CheckDailiesReset(false)
 	end	
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
 		WoWPro.Dailies:AutoCompleteZone(...)
@@ -642,14 +670,28 @@ function WoWPro.Dailies:Reset()
 end
 
 function WoWPro.Dailies:CheckDailiesReset(force)
+    local nowDone = GetDailyQuestsCompleted()
+    
 	if WoWProDB.char.CompletedDailies == nil or force then
-	    WoWProDB.char.CompletedDailies = GetDailyQuestsCompleted()
-	    	self:Print("Resetting Dailies")
+	    WoWProDB.char.CompletedDailies = nowDone
+        if force then
+            self:Print("Force Reset")
+        else
+            self:Print("Resetting as unknown number of dalies complete and Wow says we did %d.",nowDone)
+        end
 		WoWPro.Dailies.DailiesReset = true
 		WoWPro.Dailies:Reset()
 		QueryQuestsCompleted()
-	else
-		WoWProDB.char.CompletedDailies = GetDailyQuestsCompleted()
+	    return
+	end
+
+	if WoWProDB.char.CompletedDailies > nowDone then
+        self:Print("Reset since we last did %d and now Wow says %d are done.",WoWProDB.char.CompletedDailies,nowDone)
+        WoWProDB.char.CompletedDailies = nowDone
+		WoWPro.Dailies.DailiesReset = true
+		WoWPro.Dailies:Reset()
+		QueryQuestsCompleted()
+	    return	        
 	end
 end
 
