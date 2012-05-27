@@ -1,4 +1,19 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("LudoExpBlI","Bloodmyst Isle","Bloodmyst Isle","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
@@ -32,8 +47,7 @@ F Vindicator's Rest|QID|908610026|M|30.63,46.11|ACH|861;26|
 F Wrathscale Lair|QID|908610027|M|68.85,68.09|ACH|861;27|
 F Wyrmscar Island|QID|908610028|M|69.47,18.84|ACH|861;28|
 
-
 N Congratulations on exploring Bloodmyst Isle|
 
-]] 
+]]
 end)

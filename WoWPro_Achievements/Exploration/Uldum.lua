@@ -1,3 +1,20 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
 WoWPro.Achievements:RegisterGuide("TwiExpUld","Uldum","Uldum","Exploration", "Cataclysm", "Twists", "Neutral", function()
 return [[
 
@@ -24,17 +41,14 @@ F The Cursed Landing|QID|948650018|M|82.27,56.23|ACH|4865;18|
 F Tombs of the Precursors|QID|948650020|M|72.16,44.35|ACH|4865;20|
 F Nahom|QID|948650006|M|67.53,42.34|ACH|4865;6|
 
-
 F Akhenet Fields|QID|948650001|M|55.76,51.39|ACH|4865;1|
 F Tahret Grounds|QID|948650016|M|59.86,39.54|ACH|4865;16|
 
 F Vir'naal Dam|QID|948650022|M|55.63,43.21|ACH|4865;22|
 
-
 F Mar'at|QID|948650005|M|49.42,38.85|ACH|4865;5|
 
 F Ramkahen|QID|948650012|M|54.90,34.29|ACH|4865;12|
-
 
 F Obelisk of the Stars|QID|948650009|M|62.33,25.90|ACH|4865;9|
 
@@ -42,9 +56,7 @@ F The Gate of Unending Cycles|QID|948650019|M|61.04,22.65|ACH|4865;19|
 
 F Khartut's Tomb|QID|948650003|M|63.70,23.19|ACH|4865;3|
 
-
-
 N Congratulations on exploring Uldum
 
-]] 
+]]
 end)

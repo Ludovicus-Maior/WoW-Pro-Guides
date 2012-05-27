@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("TwiExpCOS","Cape of Stranglethorn","Cape of Stranglethorn","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[
@@ -13,8 +16,8 @@ F Jaquero Isle|QID|949950007|M|60.58,80.64|ACH|4995;5|
 F Mistvale Valley|QID|949950008|M|50.16,55.13|ACH|4995;6|
 F Ruins of Aboraz|QID|949950009|M|61.11,43.54|ACH|4995;8|
 F Crystalvein Mine|QID|949950010|M|64.05,29.64|ACH|4995;2|
- 
-N Congratulations on exploring Swamp of Sorrows
 
-]] 
+N Congratulations on exploring Cape of Stranglethorn
+
+]]
 end)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2012-05-27 18:53
+-- Who: Ludovicus Maior
+-- Log: Noted some missing quests, corrected some coords.
+
+-- URL: http://wow-pro.com/node/3291/revisions/24860/view
 -- Date: 2011-12-10 17:13
 -- Who: Crackerhead22
 -- Log: 4.3 updates
@@ -58,6 +63,14 @@
 WoWPro.Leveling:RegisterGuide("JamDra7475", "Dragonblight", "Jame", "74", "75", "JamGriA7577", "Alliance", function()
 return [[
 
+; Missing Quests:
+; The Lost Courier
+; Your Presence is Required at Stars' Rest
+; Wanton Warlord
+; A Reclusive Runemaster
+; Missing Level 80 Quest
+; Mystery of the Infinite, Redux
+
 N Note |QID|12298|N|If you followed my previous guides, you should be in Wintergarde Keep, Dragonblight and have the following quest: High Commander Halford Wyrmbane If you don't have it, just ignore this quest, it's not a big deal, you can get the follow up anyway. Let's get started!|
 f Wintergarde Keep |QID|12298|N|Get the new flight path at Rodney Wells. |M|77.0,49.8|
 N Warning! |QID|12298|N|Throughout this whole chapter, do NOT get the quest [The Hills Have Us]. If you take it, this will fly you to Grizzly Hills and will make you waste a lot of time.|
@@ -79,9 +92,9 @@ A The Demo-gnome |QID|12275|M|78.6,48.2|N|From High Commander Halfor Wyrmbane.|
 A The Fate of the Dead |QID|12258|N|From Commander Lynore Windstryke.|M|78.60,48.20|
 A Imprints on the Past |QID|12282|N|From Zelig the Visionary.|M|79.10,47.20|
 
-T The Demo-gnome |QID|12275|N|Go south to Siege Engineer Quarterflash.|M|79.1,47.2|
-A The Search for Slinkin |QID|12276|M|77.8,50.3|N|From Siege Engineer Quarterflash.|
-A The Bleeding Ore |QID|12272|M|77.8,50.3|N|From Siege Engineer Quarterflash.|
+T The Demo-gnome |QID|12275|N|Go south to Siege Engineer Quarterflash.|M|77.84,50.28|
+A The Search for Slinkin |QID|12276|M|77.84,50.28|N|From Siege Engineer Quarterflash.|
+A The Bleeding Ore |QID|12272|M|77.84,50.28|N|From Siege Engineer Quarterflash.|
 A Not In Our Mine |QID|12269|N|From Highlord Leoric Von Zeldig.|M|77.80,50.30|
 
 A Wanted: Kreug Oathbreaker |QID|12438|N|From the Wanted Poster inside the Inn. |M|77.30,51.40|
@@ -101,7 +114,7 @@ T The Fate of the Dead |QID|12258|N|To Commander Lynore Windstryke. |M|78.60,48.
 T Imprints on the Past |QID|12282|N|To Zelig the Visionary. |M|79.10,47.20|
 A Orik Trueheart and the Forgotten Shore |QID|12287|M|79.1,47.2|N|From Zelig the Visionary.|
 
-U Quarterflash's Homing Bot |QID|12272|U|37459|N|Go up to Siege Engineer Quarterflash . Use Quarterflash's Homing Bot and mount up.|M|77.80,50.30|
+U Quarterflash's Homing Bot |QID|12272|U|37459|N|Go up to Siege Engineer Quarterflash . Use Quarterflash's Homing Bot and mount up.|M|77.84,50.28|
 R Wintergarde Mine |QID|12272|N|Follow the bot, it will take you to the Wintergarde Mine. |M|80.00,45.00|
 
 C The Bleeding Ore |QID|12272|S|N|Mine the Strange Ore nodes.|M|80.4,45.1|
@@ -117,9 +130,9 @@ C The Bleeding Ore |QID|12272|US|N|Finish getting the ore you need.|M|80.4,45.1|
 l Wintergarde Miner's Cards|QID|12269|US|QO|Wintergarde Miner's Card: 10/10|N|Kill and loot Risen Wintergarde Miners to finish getting the cards.|
 H Wintergarde Keep |QID|12269|N|Hearthstone back to Wintergarde Keep (or just ride there if HS not up)|M|79.1,47.2|
 
-T The Bleeding Ore |QID|12272|N|To Siege Engineer Quarterflash.|M|79.1,47.2|
-T Leave Nothing to Chance |QID|12277|M|77.8,50.3|N|To Siege Engineer Quarterflash.|
-A Understanding the Scourge War Machine |QID|12281|M|77.8,50.3|N|From Siege Engineer Quarterflash.|
+T The Bleeding Ore |QID|12272|N|To Siege Engineer Quarterflash.|M|77.84,50.28|
+T Leave Nothing to Chance |QID|12277|M|77.84,50.28|N|To Siege Engineer Quarterflash.|
+A Understanding the Scourge War Machine |QID|12281|M|77.84,50.28|N|From Siege Engineer Quarterflash.|
 T Not In Our Mine |QID|12269|M|77.8,50.3|N|From Highlord Leoric Von Zeldig.|
 
 T Understanding the Scourge War Machine |QID|12281|N|To High Commander Halford Wyrmbane.|M|78.60,48.20|
@@ -171,7 +184,7 @@ R Stars' Rest |QID|12169|N|Go backwards, take the spiraling way out of the pit. 
 T The High Cultist |QID|12169|N|To Warden Jodi Moonsong.|M|29.20,55.60|
 
 A Avenge this Atrocity! |QID|12006|N|From Ethenial Moonshadow.|M|24.00,60.00|
-l Moonrest Gardens Plans |QID|12000|U|35783|L|35783|N|Look for Dead Mage Hunters. Dismount and loot the corpse, you'll receive a Mage Hunter's Personal Effects. Right-click them and loot the contents. Repeat this step until you find the Moonrest Gardens Plans.|
+l Moonrest Gardens Plans |QID|12000|U|35792|L|35783|N|Look for Dead Mage Hunters. Dismount and loot the corpse, you'll receive a Mage Hunter's Personal Effects. Right-click them and loot the contents. Repeat this step until you find the Moonrest Gardens Plans.|
 T Rifle the Bodies |QID|12000|N|To the Image of Archmage Modera.|M|29.00,55.50|
 A Prevent the Accord |QID|12004|N|From the Image of Archmage Modera.|M|29.00,55.50|
 K Blue Dragonflight forces |QID|12006|S|QO|Blue Dragonflight forces at Moonrest Gardens slain: 15/15|N|Kill any Blue Dragonflight Force mob you see.|M|24.00,60.00|
@@ -207,7 +220,7 @@ l Woodlands Walker |QID|12092|S|L|36786 3|N|Dismount. Look for Woodlands Walker,
 C Strengthen the Ancients |U|36786|S|QID|12092|N|Look for Lothalor Ancients (not corrupted ones). Get close to them and right-click the Bark of the Walkers.|M|32.68,65.48|
 K Lieutenant Ta'zinni |QID|12083|L|36779|N|Go further south until you find a Ley Line Focus  Kill Lieutenant Ta'zinni. He's a troll NPC and patrols around the Ley Line Focus. Loot the Ley Line Focus Control Amulet.|M|32.00,71.00|
 C Atop the Woodlands |QID|12083|U|36779|N|Right-click it while being close to the Ley Line Focus, then wait until you get the quest completion.|M|32.2,70.6|
-l Woodlands Walker |QID|12092|US|L|36786 3|N|Dismount. Look for Woodlands Walker, right-click them, click their text and they'll either attack you or give you some Bark of the Walkers. Repeat until you got 3.|M|32.68,65.48|
+C Woodlands Walker |QID|12092|US|L|36786 3|N|Dismount. Look for Woodlands Walker, right-click them, click their text and they'll either attack you or give you some Bark of the Walkers. Repeat until you got 3.|M|32.68,65.48|
 C Strengthen the Ancients |U|36786|US|QID|12092|N|Look for Lothalor Ancients (not corrupted ones). Get close to them and right-click the Bark of the Walkers.|M|32.68,65.48|
 
 T Strengthen the Ancients |QID|12092|N|To Sarendryana.|M|28.80,57.10|
@@ -402,7 +415,7 @@ K Drakegore |QID|12149|QO|Drakegore slain: 1/1|M|67.4,39;68,42.4|N|Kill Drakegor
 K Iceshatter |QID|12149|QO|Iceshatter slain: 1/1|M|67,50|N|Kill Iceshatter. He periodically casts Pulsing Shards. This is very dangerous and can't be interrupted. Either run away while he channels it or use something like cloak of shadows, divine shield, ice block.|
 C Mighty Magnataur |QID|12149|M|67.4,70.2|N|Kill Bloodfeast. He summons maggots which heal him up.|
 T Mighty Magnataur |QID|12149||M|60.0,55.1|N|To Aurastrasza.|
-A Reclusive Runemaster |QID|12150|N|From Aurastrasza.|M|60.0,55.1|
+; Need to be finished: A Reclusive Runemaster |QID|12150|N|From Aurastrasza.|M|60.0,55.1|
 
 T Report to the Ruby Dragonshrine |QID|12460|N|To Ceristrasz.|M|52.00,50.00|
 A Heated Battle |QID|12416|M|52.2,50.0|N|From Ceristrasz.|

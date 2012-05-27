@@ -1,4 +1,19 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("LudoExpFer","Feralas","Feralas","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
@@ -17,8 +32,7 @@ F Gordunni Outpost|QID|908490011|M|75.52,30.48|ACH|849;11|
 F Darkmist Ruins|QID|908490012|M|65.09,59.59|ACH|849;12|
 F Feathermoon Stronghold|QID|908490013|M|45.95,45.36|ACH|849;13|
 
-
 N Congratulations on exploring Feralas|
 
-]] 
+]]
 end)

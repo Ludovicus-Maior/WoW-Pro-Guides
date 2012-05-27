@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("LudoExpTiG","Tirisfal Glades","Tirisfal Glades","Exploration", "Eastern Kingdom", "Ludovicus", "Neutral", function()
 return [[
@@ -20,9 +23,7 @@ F Scarlet Monastery Entrance|QID|907680014|M|85.08,31.34|ACH|768;14|
 F The Bulwark|QID|907680015|M|83.29,70.46|ACH|768;15|
 F Calston Estate|QID|907680016|M|44.44,53.19|ACH|768;16|
 
-
-
 N Congratulations on exploring Tirisfal Glades|
 
-]] 
+]]
 end)

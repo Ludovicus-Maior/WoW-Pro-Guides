@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
+-- Date: 2012-05-18 20:15
+-- Who: Ludovicus Maior
+-- Log: Fixed inner links for edit and comments.
+
+-- URL: http://wow-pro.com/node/3470/revisions/24956/view
+-- Date: 2012-02-14 00:58
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("TwiShattSun", "Isle of Quel'Danas", "Shattered Sun Offensive", "BC", "Twists", "Neutral", function()
 return [[
 

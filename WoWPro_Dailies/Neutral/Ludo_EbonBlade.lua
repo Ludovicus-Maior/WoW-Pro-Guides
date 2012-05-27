@@ -4,6 +4,14 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2012-05-27 18:29
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3405/revisions/24984/view
+-- Date: 2012-05-27 18:28
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3405/revisions/24972/view
 -- Date: 2012-03-14 21:17
 -- Who: Ludovicus Maior
 

@@ -1,4 +1,16 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2012-05-27 21:10
+-- Who: Ludovicus Maior
+-- Log: Change guide nick for Exploring Howling Fjord to TwiExpHFj
+
+-- URL: http://wow-pro.com/node/3474/revisions/24980/view
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("TwiExpBT","Borean Tundra","Borean Tundra","Exploration", "Northrend", "Twists", "Neutral", function()
 return [[
@@ -17,7 +29,7 @@ F Steeljaw's Caravan|QID|901264011|M|49 21|ACH|1264;2|
 F Amber Ledge|QID|901264012|M|49,36|ACH|1264;9|
 F Coldarra|QID|901264012|M|27,37|ACH|1264;7|
 
-N Congratulations on exploring Borean Tundra 
+N Congratulations on exploring Borean Tundra
 
-]] 
+]]
 end)

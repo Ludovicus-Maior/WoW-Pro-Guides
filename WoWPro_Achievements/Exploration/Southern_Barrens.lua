@@ -1,4 +1,19 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("LudoExpSoB","Southern Barrens","Southern Barrens","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
@@ -15,8 +30,7 @@ F Ruins of Taurajo|QID|949960009|M|44.65,51.69|ACH|4996;9|
 F The Overgrowth|QID|949960010|M|45.37,35.89|ACH|4996;10|
 F Vendetta Point|QID|949960011|M|41.54,46.77|ACH|4996;11|
 
-
 N Congratulations on exploring Southern Barrens|
 
-]] 
+]]
 end)

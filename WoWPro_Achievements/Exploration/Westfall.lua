@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("LudoExpWet","Wetlands","Wetlands","Exploration", "Eastern Kingdom", "Ludovicus", "Neutral", function()
 return [[
@@ -20,8 +23,7 @@ F Dun Algaz|QID|908410014|M|48.06,74.43|ACH|841;14|
 F Slabchisel's Survey|QID|908410015|M|57.46,71.70|ACH|841;15|
 F Raptor Ridge|QID|908410016|M|69.89,38.34|ACH|841;16|
 
-
 N Congratulations on exploring Wetlands|
 
-]] 
+]]
 end)

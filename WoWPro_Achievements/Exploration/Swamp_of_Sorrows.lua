@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("TwiExpSOF","Swamp of Sorrows","Swamp of Sorrows","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[
@@ -15,8 +18,8 @@ F Pool of Tears|QID|907820009|M|83.80,52.27|ACH|782;6|
 F Sorrowmurk|QID|907820010|M|84.16,39.70|ACH|782;8|
 F Marshtide Watch|QID|907820011|M|69.19,37.07|ACH|782;12|
 F Bogpaddle|QID|907820012|M|71.90,15.52|ACH|782;9|
- 
+
 N Congratulations on exploring Swamp of Sorrows
 
-]] 
+]]
 end)

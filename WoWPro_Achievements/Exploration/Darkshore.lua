@@ -1,4 +1,19 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("LudoExpDaS","Darkshore","Darkshore","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
@@ -15,8 +30,7 @@ F Lor'danel|QID|908440009|M|50.90,18.70|ACH|844;9|
 F Nazj'vel|QID|908440010|M|32.79,84.13|ACH|844;10|
 F The Master's Glaive|QID|908440011|M|40.58,85.61|ACH|844;11|
 
-
 N Congratulations on exploring Darkshore|
 
-]] 
+]]
 end)

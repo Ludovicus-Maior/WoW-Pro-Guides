@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2012-05-27 18:57
+-- Who: Ludovicus Maior
+-- Log: Bad zone for quest turning to Jack Bauden.
+
+-- URL: http://wow-pro.com/node/3311/revisions/24973/view
+-- Date: 2012-05-03 04:23
+-- Who: Crackerhead22
+
+-- URL: http://wow-pro.com/node/3311/revisions/24872/view
 -- Date: 2011-12-21 22:24
 -- Who: Crackerhead22
 -- Log: Fix from Censored.
@@ -132,7 +141,7 @@ T Expert Opinion|QID|28807|M|81.28,63.32|N|To Master Mathias Shaw, same building
 
 A The Old Barracks|QID|27072|PRE|26977|M|81.28,63.32|N|From Master Mathias Shaw.|Z|Stormwind City|
 C The Old Barracks|QID|27072|M|37.24,56.47|N|Head to the Ruined Barracks. Kill crazed cultists. Work on the building at the waypoint, since you need to make your way down to the bottom floor to turn in this quest.|Z|Stormwind City|
-T The Old Barracks|QID|27072|M|37.24,56.47|N|To Jack Bauden.|
+T The Old Barracks|QID|27072|M|37.24,56.47|N|To Jack Bauden, bottom floor. Fly in through the broken wall.|Z|Stormwind City|
 
 A Cataclysm in the Catacombs|QID|27092|PRE|26977|M|37.24,56.47|N|From Jack Bauden.|Z|Stormwind City|
 C Cataclysm in the Catacombs|QID|27092|M|51.30,42.30|N|Head to the Cathedral of Light, then back right hand side will be the route down to the catacombs found in the bottom of the Cathedral of Light. Kill the Black Bishop and then disarm the bomb.|Z|Stormwind City|
@@ -236,7 +245,7 @@ A Welcome Relief|QID|27803|M|60.18,57.96|N|From Keegan Firebeard.|S|
 A The Only Homes We Have|QID|27804|M|60.18,57.96|N|From Keegan Firebeard.|
 A Welcome Relief|QID|27803|M|60.18,57.96|N|From Keegan Firebeard.|US|
 
-f Firebeard's Patrol|QID|27804|M|0.00,0.00|N|At Farstad Stonegrip.|
+f Firebeard's Patrol|QID|27804|M|60.39, 57.64|N|At Farstad Stonegrip.|
 
 C Welcome Relief|QID|27803|M|59.67,56.91|N|Kill subjugated firestarters.|S|
 C The Only Homes We Have|QID|27804|PRE|27803|U|62508|M|59.68,56.89|N|Use the Water Bucket to put out fires.|

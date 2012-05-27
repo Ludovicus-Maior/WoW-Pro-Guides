@@ -1,4 +1,19 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("LudoExpAsh","Ashenvale","Ashenvale","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
@@ -22,8 +37,7 @@ F Bough Shadow|QID|908450016|M|89.77,39.06|ACH|845;16|
 F Warsong Lumber Camp|QID|908450017|M|86.95,60.00|ACH|845;17|
 F Felfire Hill|QID|908450018|M|80.55,68.48|ACH|845;18|
 
-
 N Congratulations on exploring Ashenvale|
 
-]] 
+]]
 end)

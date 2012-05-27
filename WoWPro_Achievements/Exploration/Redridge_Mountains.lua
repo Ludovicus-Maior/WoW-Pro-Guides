@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("TwiExpRM","Redridge Mountains","Redridge Mountains","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[
@@ -19,5 +22,5 @@ F Render's Camp|QID|907800013|M|34.28,11.17|ACH|780;9|
 
 N Congratulations on exploring Redridge Mountains
 
-]] 
+]]
 end)

@@ -6,7 +6,6 @@
 WoWPro.Dailies:RegisterGuide("LudoKaluak", "Northrend", "The Kalu'ak", "Lich", "Ludovicus", "Neutral", function()
 return [[
 
-
 A The Way to His Heart...|QID|11472|PRE|11469|M|24.6,58.86|Z|Howling Fjord|N|From Anuniaqin in Kamagua, Howling Fjord. (L69)|
 l The Way to His Heart...|QID|11472|M|27,71|Z|Howling Fjord|N|Use the net in the pools of Tasty Reef Fish. 10 is what you need.|U|40946|L|34127 10|
 C The Way to His Heart...|QID|11472|M|31,74.8;31.6,74.4;31.6,74.6;|Z|Howling Fjord|N|Now find a reef bull and lure them torwards the shore and the cow by throwing fish at them.|U|34127|
@@ -20,8 +19,5 @@ A Preparing for the Worst|QID|11945|M|63.95,45.71|Z|Borean Tundra|N|From Utaik i
 l Preparing for the Worst|QID|11945|M|63.1,52.3;63.4,52.5;63.9,51.4;63.9,51.5;64,48.8;64.1,47;64.3,52.5;64.4,50.2;64.5,50.1;64.6,49.4;64.8,51.4;64.8,51.5;64.9,46.2;64.9,47;65,47.8;65.8,46.6;65.8,48.4;65.8,48.5;66.2,45.9;66.5,46.2;66.7,48.6;67.8,48.8;68.4,49.5;68.5,49.6;73.1,53.2;73.2,51.4;73.2,51.5;73.7,52.9|Z|Borean Tundra|N|Pick up Kaskala Supplies.|L|35711 8|
 T Preparing for the Worst|QID|11945|M|63.95,45.71|Z|Borean Tundra|N|To Utaik.|
 
-
 ]]
 end)
-
-

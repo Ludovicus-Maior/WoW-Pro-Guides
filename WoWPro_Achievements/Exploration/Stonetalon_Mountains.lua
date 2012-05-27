@@ -1,4 +1,19 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("LudoExpStM","Stonetalon Mountains","Stonetalon Mountains","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
@@ -21,8 +36,7 @@ F The Charred Vale|QID|908470015|M|34.74,68.46|ACH|847;15|
 F Mirkfallon Lake|QID|908470016|M|51.57,46.36|ACH|847;16|
 F Stonetalon Peak|QID|908470017|M|40.67,17.02|ACH|847;17|
 
-
 N Congratulations on exploring Stonetalon Mountains|
 
-]] 
+]]
 end)

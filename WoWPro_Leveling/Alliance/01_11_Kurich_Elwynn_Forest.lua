@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2012-05-08 21:57
+-- Who: Crackerhead22
+-- Log: Fixes from member 'wowmanus'
+
+-- URL: http://wow-pro.com/node/3197/revisions/24819/view
 -- Date: 2011-11-24 03:02
 -- Who: Fluclo
 
@@ -89,6 +94,7 @@
 
 WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest - Human", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
 return [[
+
 A Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|R|Human|N|From Marshal McBride.|
 A Beating Them Back!|QID|28766|C|Warrior|M|48.20,42.06|R|Human|N|From Marshal McBride.|
 A Beating Them Back!|QID|28767|C|Hunter|M|48.20,42.06|R|Human|N|From Marshal McBride.|
@@ -331,20 +337,17 @@ C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|US|
 C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|US|
 
 H Lion's Pride Inn |QID|60|N|Hearthstone to, or run back to Lion's Pride Inn in Goldshire.|M|43.75,65.75|
-T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|S|
 T Note To William|QID|107|M|43.32,65.70|N|To William Pestle.|
 A Collecting Kelp|QID|112|M|43.32,65.70|N|From William Pestle.|
-T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|US|
+T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|
 
-A A Fishy Peril|QID|40|M|42.14,67.25|N|From Remy "Two Times".|S|
 T Gold Dust Exchange|QID|47|M|42.14,67.25|N|To Remy "Two Times".|
-A A Fishy Peril|QID|40|M|42.14,67.25|N|From Remy "Two Times".|US|
+A A Fishy Peril|QID|40|M|42.14,67.25|N|From Remy "Two Times".|
 
-T A Fishy Peril|QID|40|M|42.11,65.93|N|To Marshal Dughan.|S|
+T A Fishy Peril|QID|40|M|42.11,65.93|N|To Marshal Dughan.|
+A Further Concerns|QID|35|M|42.11,65.93|N|From Marshal Dughan.|
 T The Fargodeep Mine|QID|62|M|42.11,65.93|N|To Marshal Dughan.|
 A The Jasperlode Mine|QID|76|M|42.11,65.93|N|From Marshal Dughan.|
-T A Fishy Peril|QID|40|M|42.11,65.93|N|To Marshal Dughan.|US|
-A Further Concerns|QID|35|M|42.11,65.93|N|From Marshal Dughan.|
 r Sell Junk,Restock,Train and Repair.|QID|112|M|41.84,65.68|
 
 C Collecting Kelp|N|Kill Murlocs until you have 4 Crystal Kelp Fronds.|QID|112|M|50.93,66.47|
@@ -358,18 +361,14 @@ T The Jasperlode Mine|QID|76|M|42.11,65.93|N|To Marshal Dughan.|
 
 N Marshal Dughan |N|Talk to Marshal Dughan and ask for a ride with the Stormwind Charger.\n\nClose this step to continue.|QID|35|M|42.11,65.93|
 
-A Protect The Frontier|QID|52|M|73.97,72.18|N|From Guard Thomas.|S|
+A Protect the Frontier|QID|52|M|73.97,72.18|N|From Guard Thomas.|
 T Further Concerns|QID|35|M|73.97,72.18|N|To Guard Thomas.|
-A Find The Lost Guards|QID|37|M|73.97,72.18|N|From Guard Thomas.|S|
-A Protect The Frontier|QID|52|M|73.97,72.18|N|From Guard Thomas.|US|
-A Find The Lost Guards|QID|37|M|73.97,72.18|N|From Guard Thomas.|US|
-
-A Bounty On Murlocs|QID|46|M|74.03,72.32|N|From the Bounty Board.|S|
+A Find the Lost Guards|QID|37|M|73.97,72.18|N|From Guard Thomas.|
+A Bounty on Murlocs|QID|46|M|74.03,72.32|N|From the Bounty Board.|
 A Wanted: James Clark|QID|26152|M|74.03,72.32|N|From the Bounty Board.|
-A Bounty On Murlocs|QID|46|M|74.03,72.32|N|From the Bounty Board.|US|
 
-C Protect The Frontier|QID|52|M|73.97,72.18|S|N|Kill the Bears and Wolves that you need.|
-T Find The Lost Guards|N|To A half-eaten body.|QID|37|M|72.66,60.33|
+C Protect the Frontier|QID|52|M|73.97,72.18|S|N|Kill the Bears and Wolves that you need.|
+T Find the Lost Guards|N|To A half-eaten body.|QID|37|M|72.66,60.33|
 A Discover Rolf's Fate|QID|45|M|72.66,60.33|N|From A half-eaten body.|
 
 A Fine Linen Goods|QID|83|M|79.46,68.71|N|From Sara Timberlain.|
@@ -377,11 +376,9 @@ C Wanted: James Clark|N|Kill James clark and pickup his head and the Gold Pickup
 A The Collector|N|Get this from the Gold Pickup Schedule in your bags.|U|1307|QID|123|
 
 A A Bundle Of Trouble|QID|5545|M|81.38,66.11|N|From Supervisor Raelen.|
-T Wanted: James Clark|QID|26152|M|81.86,66.04|N|To Marshal McCree.|S|
+T Wanted: James Clark|QID|26152|M|81.86,66.04|N|To Marshal McCree.|
+A Manhunt|QID|147|M|81.86,66.04|N|From Marshal McCree.|
 T The Collector|QID|123|M|81.86,66.04|N|To Marshal McCree.|
-A Manhunt|QID|147|M|81.86,66.04|N|From Marshal McCree.|S|
-T Wanted: James Clark|QID|26152|M|81.86,66.04|N|To Marshal McCree.|US|
-A Manhunt|QID|147|M|81.86,66.04|N|From Marshal McCree.|US|
 r Sell Junk and Repair.|QID|45|N|From Rallic Finn.\n\nClick this step to continue.|M|83.27,66.08|
 
 C Bounty on Murlocs|N|Kill and loot Murlocs for their fins Fins.|QID|46|M|79.51,56.00|S|
@@ -397,22 +394,19 @@ C A Bundle Of Trouble|N|Collect 8 Bundles Of Wood.|QID|5545|M|80.75,61.33|NC|US|
 r Sell Junk and Repair.|QID|5545|N|From Rallic Finn.\n\nClick this step to continue.|M|83.27,66.08|
 T A Bundle Of Trouble|QID|5545|M|81.38,66.11|N|To Supervisor Raelen.|
 R Ridgepoint Tower|N|If you want the explorer's achievement go to Ridgepoint Tower now.|QID|71|M|83.99,78.92|
-C Protect The Frontier|N|Kill the remaining wolves and Bears you need to finish the quest.|QID|52|M|87.55,67.79|US|
+C Protect the Frontier|N|Kill the remaining wolves and Bears you need to finish the quest.|QID|52|M|87.55,67.79|US|
 
-T Protect The Frontier|QID|52|M|73.97,72.18|N|To Guard Thomas.|S|
-T Bounty On Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|S|
+T Protect The Frontier|QID|52|M|73.97,72.18|N|To Guard Thomas.|
+T Bounty on Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|
 T Report To Thomas|QID|71|M|73.97,72.18|N|To Guard Thomas.|
 A Cloth And Leather Armor|QID|59|M|73.97,72.18|N|From Guard Thomas.|
-T Protect The Frontier|QID|52|M|73.97,72.18|N|To Guard Thomas.|US|
-T Bounty On Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|US|
 
 C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps.|QID|83|M|71.20,78.86|S|
 C Manhunt|N|Kill Morgan the collector and  pick up his ring.|T|Morgan The Collector|QID|147|M|71.05,80.63|
 C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps.|QID|83|M|71.20,78.86|US|
 
-T Fine Linen Goods|QID|83|M|79.46,68.71|N|To Sara Timberlain.|S|
+T Fine Linen Goods|QID|83|M|79.46,68.71|N|To Sara Timberlain.|
 T Cloth And Leather Armor|QID|59|M|79.46,68.71|N|To Sara Timberlain.|
-T Fine Linen Goods|QID|83|M|79.46,68.71|N|To Sara Timberlain.|US|
 
 T Manhunt|QID|147|M|81.86,66.04|N|To Marshal McCree.|
 F Goldshire|QID|114|M|81.86,66.04|N|Fly to Goldshire.|
@@ -422,9 +416,9 @@ R Jerod's Landing |N|If you want the exploration achievement for Elwynn Forest h
 T The Escape|QID|114|M|43.15,89.63|N|To Maybell Maclure.|
 
 H Lion's Pride Inn|QID|114|U|6948|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|M|43.77,65.80|
-A A Swift Message|QID|26393|M|41.71,65.55|R|Human|N|From Smith Argus.|S|
+
 A Elmore's task|QID|1097|M|41.71,65.55|N|From Smith Argus.|
-A A Swift Message|QID|26393|M|41.71,65.55|R|Human|N|From Smith Argus.|US|
+A A Swift Message|QID|26393|M|41.71,65.55|R|Human|N|From Smith Argus.|
 T A Swift Message|QID|26393|M|41.72,64.64|R|Human|N|To Bartlett the Brave.|
 A Continue To Stormwind|QID|26394|M|41.72,64.64|R|Human|N|From Bartlett the Brave.|
 F Stormwind City|QID|26394|M|41.72,64.64|N|Fly to Stormwind City.|

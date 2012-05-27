@@ -25,8 +25,6 @@ C Thrusting Hodir's Spear|QID|13003|M|58.95,57.80;53.60,66.60;56.23,65.67;57.35,
 K Brittle Revenants|QID|12981|M|70,60|N|Kill Brittle Revenants for their Essences of Ice.|L|42246 6|
 C Hot and Cold|QID|12981|M|74,63|N|Use the Essences of Ice on the smoldering scraps and loot then.|U|42246|L|42252 6|
 
-
-
 T Hot and Cold|QID|12981|M|63.13,62.95|N|To Fjorn's Anvil|
 
 T Thrusting Hodir's Spear|QID|13003|M|64.99,60.98|N|To Hodir's Spear|
@@ -34,8 +32,5 @@ T Polishing the Helm|QID|13006|M|64.21,59.34|N|To Hodir's Helm|
 T Spy Hunter|QID|12994|M|63.49,59.74|N|To Frostworg Denmother|
 T Feeding Arngrim|QID|13046|M|67.57,59.94|N|To Arngrim the Insatiable|
 
-
 ]]
 end)
-
-

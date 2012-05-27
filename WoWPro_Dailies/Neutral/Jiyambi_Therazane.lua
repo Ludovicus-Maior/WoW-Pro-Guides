@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2012-05-27 18:40
+-- Who: Ludovicus Maior
+-- Log: Added REP tags, a few coord fixes and redirected a quest to the right NPC.
+
+-- URL: http://wow-pro.com/node/3419/revisions/24678/view
 -- Date: 2011-07-11 22:39
 -- Who: Ludovicus Maior
 -- Log: Removing REP tag.
@@ -21,18 +26,19 @@ R Therazane's Throne|M|49.27,50.33|N|Take the portal from your capital city to D
 
 A Fear of Boring|QID|27046|M|56.08,14.39|N|From Felsen the Enduring.|
 A Motes|QID|27047|M|56.08,14.39|N|From Felsen the Enduring.|
-A Beneath the Surface OR Lost in the Deeps|QID|28488;26710|M|56.08,14.39|N|From Felsen the Enduring. If neither of these are available, you'll pick up Underground Economy later on instead - right-click this step to skip it.|
-A The Restless Brood|QID|28391;28390|M|55.07,13.61|N|From Terrath the Steady, he patrols around. If he doesn't have a quest for you, you'll get Glop, Son of Glop later on instead - right-click this step to skip it. REQUIRES REVERED!|
+A Beneath the Surface|QID|28488|M|56.08,14.39|N|From Felsen the Enduring. If he does not have it, right-click this step to skip it. Maybe you will get "Lost" or "Underground"|
+A Lost In The Deeps|QID|26710|M|55.35,14.17|N|From Pyrite Stonetender. If he does not have it, right-click this step to skip it, and you will get "Underground economy" in the Depths.|
+A The Restless Brood|QID|28391;28390|M|55.07,13.61|REP|Therazane;1171;revered|N|From Terrath the Steady, he patrols around. If he doesn't have a quest for you, you'll get Glop, Son of Glop later on instead - right-click this step to skip it.|
 A Soft Rock|QID|27049|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
 A Fungal Fury|QID|27050|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
 A Through Persistence|QID|27051|M|59.60,14.05|N|From Ruberick.|
-A Glop, Son of Glop|QID|28391;28390|M|59.60,14.05|N|From Ruberick. REQUIRES REVERED!|
+A Glop, Son of Glop|QID|28391;28390|M|59.60,14.05|REP|Therazane;1171;revered|N|From Ruberick.|
 
-C The Restless Brood|QID|28391|U|60266|M|32.83,24.78|N|Use the mallet on the crystal. Click the rocks above you to hop from rock to rock. Move to a new rock when the Broodmother breathes fire on your rock. If you see a nearby rock with a glowing bubble on it, move there. If you complete this quest in under 90 seconds, you will get an achieveemnt. The timer starts from when you hit the resonating crystal and ends when you actually turn the quest in.|
+C The Restless Brood|QID|28391|U|60266|M|32.83,24.78|N|Use the mallet on the crystal. Click the rocks above you to hop from rock to rock. Move to a new rock when the Broodmother breathes fire on your rock. If you see a nearby rock with a glowing bubble on it, move there. If you complete this quest in under 90 seconds, you will get an achievement. The timer starts from when you hit the resonating crystal and ends when you actually turn the quest in.|
 T The Restless Brood|QID|28391|M|39.98,19.37|N|To Terrath the Steady. Hurry if you are going for the achievement.|
 
 F Crumbling Depths|QID|27047|M|58.46,25.57;61.32,29.20|N|Head into the cave.|
-C Fear of Boring|QID|27046|S|M|58.35,25.56|N|Kill gyreworms in and arround the Crumbling Depths.|
+C Fear of Boring|QID|27046|S|M|58.35,25.56|N|Kill gyreworms in and around the Crumbling Depths.|
 C Motes|QID|27047|NC|S|M|66.43,20.61|N|Gather painite motes inside the Crumbling Depths.|
 A Underground Economy|QID|27048;28488;26710|M|61.38,26.16|N|From Ricket.|
 C Beneath the Surface|QID|28488|M|58.46,25.57;61.32,29.20;66.07,28.13;59.80,23.63;64.40,15.11;68.23,21.67;67.08,24.65|N|These are found in side tunnels.  Look on your minimap for a skull. When you find one, click it and kill the worm that appears, being sure to dodge it's attacks. Loot it when you are done.|
@@ -43,7 +49,7 @@ C Deep Garnet Crystal|QID|27048|NC|QO|Deep Garnet Crystal: 3/3|N|Use your bombs 
 C Motes|QID|27047|NC|US|M|66.43,20.61|N|Gather painite motes inside the Crumbling Depths.|
 C Fear of Boring|QID|27046|US|M|58.35,25.56|N|Kill gyreworms in and arround the Crumbling Depths.|
 T Underground Economy|QID|27048|M|61.38,26.13|N|To Ricket.|
-C Lost in the Deeps|QID|26710|NC|M|63.21|N|Follow the big worm to the center section, then take the second right. Follow that around and in a full circle. Reverse direction to get back out of the cave.|
+C Lost in the Deeps|QID|26710|NC|M|63.07,20.88|N|Follow the big worm to the center section, then take the second right. Follow that around and in a full circle. Reverse direction to get back out of the cave.|
 
 F Fungal Deep|QID|28390|M|68,28|N|Get out of the cave and fly up to the entrance to the Fungal Deep.|
 C Glop, Son of Glop|QID|28390|M|69.75,31.74|N|Head to the first fork in the tunnel. If the Earthmender isn't there, it means someone else is doing the event. Talk to the Earthmender to start, then chase down Glop and kill him. There is an achievement for doing this without taking damage from the exploding mushrooms.|
@@ -63,7 +69,7 @@ T Fungal Fury|QID|27050|M|58.58,13.72|N|To Gorsik the Tumultuous.|
 T Fear of Boring|QID|27046|M|56.03,14.45|N|To Felsen the Enduring.|
 T Motes|QID|27047|M|56.03,14.45|N|To Felsen the Enduring.|
 T Beneath the Surface|QID|28488|M|56.03,14.45|N|To Felsen the Enduring.|
-T Lost in the Deeps|QID|26710|M|56.03,14.45|N|To Felsen the Enduring.|
+T Lost in the Deeps|QID|26710|M|55.35,14.17|N|To Pyrite Stonetender.|
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]

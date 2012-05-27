@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2012-05-27 19:18
+-- Who: Crackerhead22
+-- Log: Fixes via wowmanus
+
+-- URL: http://wow-pro.com/node/3220/revisions/24715/view
 -- Date: 2011-08-01 01:26
 -- Who: Ludovicus Maior
 -- Log: [Newfound Allies] needed a zone tag ...
@@ -212,12 +217,10 @@ T Galaen's Fate|QID|9579|M|53.3,57.7|N|To Morae.|
 A Talk to the Hand|QID|10064|M|52.6,53.2|N|From Harbinger Mikolaas.|
 r Repair/Restock |QID|10064|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 
-A Fouled Water Spirits|QID|10067|N|Behind the tower, accept the quest from Defender Adrielle.|M|51.74,52.13|
 C Containing the Threat|QID|9569|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|M|41.6,29.8|S|
 C The Final Sample|QID|9585|U|23877|N|Use the pick on the Axxarien crystal|
 C Containing the Threat|QID|9569|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|M|41.6,29.8|US|
 T Talk to the Hand|QID|10064|N|To Scout Joril.|M|30.27,45.94|
-C Fouled Water Spirits|QID|10067|N|Kill 6 Fouled Water Spirits.|M|30,39|
 N Grind some more |QID|9569|N|Grind until you are 4,000 XP from level 18.|LVL|18|
 C Don't Drink the Water|QID|9748|N|Jump down the waterfall, and use your flask.|U|24318|M|34.37,33.56|
 H Blood Watch |QID|9569|N|Hearth back to Blood Watch.|U|6948|
@@ -233,11 +236,11 @@ C What we Don't Know...|R|Draenei|QID|9756|M|54.4,54.3|N|Talk to the prisoner.|
 T What we Don't Know...|R|Draenei|QID|9756|N|To Exarch Admetius.|M|52.66,53.23|
 A Vindicator's Rest|R|Draenei|QID|9760|N|From Exarch Admetius.|M|52.66,53.23|
 
-A Oh, the Tangled Webs They Weave|QID|10066|M|51.7,52.1|N|From Defender Adrielle.|
 A The Missing Expedition|QID|9669|M|53.3,57.0|N|From Achelus.|
 C Matis the Cruel|QID|9711|N|Use the flare gun! When you get into range, just use your flare gun, and the quest is easy. He pats along the road, you should see him somewhere near Vindicator's Rest.|U|24278|M|31.5,48|
-T Fouled Water Spirits|QID|10067|N|To Vindicator Corin.|M|30.6,46.6|
 T Vindicator's Rest|R|Draenei|QID|9760|N|To Vindicator Corin.|M|30.6,46.6|
+A Fouled Water Spirits|QID|10067|N|From Vindicator Corin.|M|30.6,46.6|
+A Oh, the Tangled Webs They Weave|QID|10066|N|From Vindicator Corin.|M|30.6,46.6|
 A Cutting a Path|QID|10065|M|30.3,45.9|N|From Scout Joril.|M|30.28,45.88|
 A Critters of the Void|QID|9741|N|From Scout Loryi.|M|30.28,45.88|
 C Cutting a Path|QID|10065|N|Kill 10 Enraged Ravagers.|M|31.25,56.68|S|
@@ -252,6 +255,8 @@ C The Missing Expedition |QID|9669|N|Kill spiders on the way, then kill Zarakh.|
 C They're Alive! Maybe...|QID|9670|US|M|22,36|N|Attack the Webbed Creatures. You may free a Researcher, or you may get a hostile mob.|
 T They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|To Researcher Cornelius.|
 T Cutting a Path|QID|10065|N|To Scout Joril.|M|30.28,45.88|
+C Fouled Water Spirits|QID|10067|N|Kill 6 Fouled Water Spirits.|M|30,39|
+T Fouled Water Spirits|QID|10067|N|To Vindicator Corin.|M|30.6,46.6|
 T Oh, the Tangled Webs they Weave|QID|10066|N|To Vindicator Corin.|M|30.6,46.6|
 H Blood Watch |QID|9711|N|Hearth back to Blood Watch.|U|6948|
 T Matis the Cruel|QID|9711|N|To Vindicator Kuros.|M|55.61,55.14|

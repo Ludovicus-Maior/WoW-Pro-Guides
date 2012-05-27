@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2012-05-27 18:58
+-- Who: Ludovicus Maior
+-- Log: Missing coord for Ha'wana.
+
+-- URL: http://wow-pro.com/node/3295/revisions/24923/view
 -- Date: 2012-01-25 21:01
 -- Who: Ludovicus Maior
 -- Log: Followon guide is now ScoSho7879 for both factions.
@@ -426,7 +431,7 @@ T The Key of Warlord Zol'Maz |QID|12712|M|60.3,57.8|N|To Har'koa.|
 A Rampage |QID|12721|M|60.3,57.8|N|From Har'koa.|
 T Hexed Caches |QID|12709|M|60.0,57.9|N|To Chronicler To'kini.|
 C Rampage |QID|12721|N|Right in front of Gundrak, you can't miss him. He's the only giant Rhino god around. Run around and unlock all of the chains, then watch him work.|M|79.03,24.32|
-A Eggs for Dubra'Jin |QID|13556|N|From Ha'wana.|
+A Eggs for Dubra'Jin |QID|13556|N|From Ha'wana.|M|70.06,20.99|
 f Dubra'Jin |QID|13556|N|Get the Flightpath. |M|70.41,23.21|
 C Eggs for Dubra'Jin |QID|13556|N|Collect the eggs on the ground in the small wooded areas. They are hard to see, so look everywhere. you can kill the Raptors if you want to, but the drop rate isn't very good.|M|73.64,21.41|
 T Eggs for Dubra'Jin |QID|13556|N|Turn in to Ha'wana.|M|70.06,20.99|

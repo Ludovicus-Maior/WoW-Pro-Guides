@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("TwiExpEF","Elwynn Forest","Elwynn Forest","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[
@@ -17,5 +20,5 @@ F Westbrook Garrison|QID|907760011|M|24.40,74.53|ACH|776;2|
 
 N Congratulations on exploring Elwynn Forest
 
-]] 
+]]
 end)

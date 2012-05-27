@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("TwiExpBL","Blasted Lands","Blasted Lands","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[
@@ -18,7 +21,7 @@ F Dreadmaul Hold|QID|907660012|M|41.75,14.25|ACH|766;1|
 F Altar of Storms|QID|907660013|M|36.95,28.29|ACH|766;6|
 F The Tainted Scar|QID|907660014|M|32.58,44.78|ACH|766;8|
 
-N Congratulations on exploring Blasted Lands 
+N Congratulations on exploring Blasted Lands
 
-]] 
+]]
 end)

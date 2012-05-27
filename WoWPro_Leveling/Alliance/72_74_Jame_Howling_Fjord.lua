@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2012-05-27 18:46
+-- Who: Ludovicus Maior
+-- Log: Added a few U and T tags, corrected quest name.
+
+-- URL: http://wow-pro.com/node/3287/revisions/24857/view
 -- Date: 2011-12-10 15:57
 -- Who: Crackerhead22
 -- Log: 4.3 update
@@ -434,10 +439,10 @@ A In Worg's Clothing |QID|11325|M|30.2,28.7|N|From Watcher Moonleaf.|
 C Scare the Guano Out of Them! |S|QID|11154|U|33129|N|Collecting Darkclaw Guano by using Feknut's Firecrackers at the bottoms of trees with Darkclaw Bats nearby. Kill the bat, then loot the Darkclaw Guano off the ground. |M|30.10,18.63|
 T In Worg's Clothing |QID|11325|U|33618|N|Use the Worg Disguise once you're near the quest turn in.|M|29.7,5.7|
 A Brother Betrayers |QID|11414|M|29.7,5.7|N|From Ulfang.|
-K Bjomolf |QID|11414|QO|Bjomolf slain: 1/1|T|Bjomolf|N|Look for Bjomolf and kill him. Use the Worg Disguise again to make searching for him easier. |M|27.11,20.31|
+K Bjomolf |QID|11414|QO|Bjomolf slain: 1/1|T|Bjomolf|N|Look for Bjomolf and kill him. Use the Worg Disguise again to make searching for him easier. |M|27.11,20.31|U|33618|
 C Scare the Guano Out of Them! |US|QID|11154|U|33129|N|Finish collecting Darkclaw Guano by using Feknut's Firecrackers at the bottoms of trees with Darkclaw Bats nearby. Kill the bat, then loot the Darkclaw Guano off the ground. |M|30.10,18.63|
 T Scare the Guano Out of Them! |QID|11154|M|30.2,28.7|N|To Engineer Feknut.|
-C Brother Betrayers |QID|11414|T|Varg|N|Look for Varg and kill him. Use the Worg Disguise again to make searching for him easier. |M|34.51,31.15|
+C Brother Betrayers |QID|11414|T|Varg|N|Look for Varg and kill him. Use the Worg Disguise again to make searching for him easier. |M|34.51,31.15|U|33618|
 T Brother Betrayers |QID|11414|U|33618|M|29.7,5.7|N|To Ulfang.|
 A Eyes of the Eagle |QID|11416|M|29.7,5.7|N|From Ulfang.|
 R Skorn |QID|11248|N|Ride to Skorn, then use your Westguard Command Insignia to summon a quest giver. |M|44.34,26.21|
@@ -492,7 +497,7 @@ T All Hail the Conqueror of Skorn! |QID|11250|M|28.8,44.1|N|To Captain Adams.|
 
 A Dealing With Gjalerbron |QID|11235|M|28.8,44.1|N|From Captain Adams.|
 A Of Traitors and Treason |QID|12297|N|From Captain Adams.|
-A Of Keys and Cage |QID|11231|M|28.9,44.0|N|From Father Levariol.|
+A Of Keys and Cages |QID|11231|M|28.9,44.0|N|From Father Levariol.|
 r Sell junk, repair, re-stock food/drink. |QID|11416|M|29.83,42.60|
 C Dealing With Gjalerbron |S|QID|11235|N|Kill the Vrykul you need for this quest. |M|34.68,15.28|
 l Gjalerbron Attack Plans |S|QID|11237|L|33289|N|Kill Vrykul here until you get Gjalerbron Attack Plans. |M|34.68,15.28|
@@ -503,7 +508,7 @@ l Gjalerbron Attack Plans |US|QID|11237|L|33289|N|Kill Vrykul here until you get
 A Gjalerbron Attack Plans |QID|11237|U|33289|M|35.1,16.0|N|From the Gjalerbron Attack Plans.|
 T Eyes of the Eagle |QID|11416|U|33618|M|29.7,5.7|N|To Ulfang.|
 A Alpha Worg |QID|11326|U|33618|M|29.7,5.7|N|From Ulfang.|
-C Alpha Worg |QID|11326|U|33618|N|Look for Garwal and kill him. Use the Worg Disguise again to make searching for him easier. |M|27.11,14.88|
+C Alpha Worg |QID|11326|U|33618|N|Look for Garwal and kill him. Use the Worg Disguise again to make searching for him easier. |M|27.11,14.88|T|Garwal|
 T Alpha Worg |QID|11326|M|30.2,28.7|N|To Watcher Moonleaf.|
 C Leader of the Deranged |QID|11240|N|Drop off the cliff above the cave here and go inside to kill Squeeg Idolhunter.|M|30.69,34.48|
 T Leader of the Deranged |QID|11240|M|29.0,41.9|N|To Sapper Steelring.|

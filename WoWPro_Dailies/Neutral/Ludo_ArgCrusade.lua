@@ -64,6 +64,5 @@ T Troll Patrol|QID|12587|M|40.3,66.6|Z|Zul'Drak|N|To Commander Kunz.|
 A Congratulations!|QID|12604|PRE|12587|M|40.3,66.6|Z|Zul'Drak|N|From Commander Kunz.|
 T Congratulations!|QID|12604|M|40.3,66.6|Z|Zul'Drak|N|To Commander Kunz.|
 
-
 ]]
 end)

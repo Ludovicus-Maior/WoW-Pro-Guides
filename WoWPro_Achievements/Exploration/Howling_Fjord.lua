@@ -1,6 +1,18 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-WoWPro.Achievements:RegisterGuide("TwiExpHF","Howling Fjord","Howling Fjord","Exploration", "Northrend", "Twists", "Neutral", function()
+-- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2012-05-27 21:10
+-- Who: Ludovicus Maior
+-- Log: Change guide nick for Exploring Howling Fjord to TwiExpHFj
+
+-- URL: http://wow-pro.com/node/3474/revisions/24980/view
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+WoWPro.Achievements:RegisterGuide("TwiExpHFj","Howling Fjord","Howling Fjord","Exploration", "Northrend", "Twists", "Neutral", function()
 return [[
 
 F Kamagua|QID|901263001|M|25.1,57.7|ACH|1263;1|
@@ -25,7 +37,7 @@ F Cauldros Isle|QID|901263002|M|57.8,36.6|ACH|1263;2|
 F The Twisted Glade|QID|901263017|M|51.6,27.2|ACH|1263;17|
 F Skorn|QID|901263016|M|45.1,35.4|ACH|1263;16|
 
-N Congratulations on exploring Howling Fjord 
+N Congratulations on exploring Howling Fjord
 
-]] 
+]]
 end)

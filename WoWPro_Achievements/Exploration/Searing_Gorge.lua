@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("TwiExpSG","Searing Gorge","Searing Gorge","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[
@@ -14,5 +17,5 @@ F Grimesilt Dig Site|QID|907740008|M|63.52,60.47|ACH|774;5|
 
 N Congratulations on exploring Searing Gorge
 
-]] 
+]]
 end)

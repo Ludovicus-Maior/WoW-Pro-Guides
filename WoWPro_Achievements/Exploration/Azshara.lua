@@ -1,4 +1,19 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("LudoExpAzs","Azshara","Azshara","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
@@ -21,8 +36,7 @@ F Lake Mennar|QID|908520015|M|35.72,73.99|ACH|852;15|
 F The Ruined Reaches|QID|908520016|M|39.83,84.67|ACH|852;16|
 F Storm Cliffs|QID|908520017|M|56.99,76.50|ACH|852;17|
 
-
 N Congratulations on exploring Azshara|
 
-]] 
+]]
 end)

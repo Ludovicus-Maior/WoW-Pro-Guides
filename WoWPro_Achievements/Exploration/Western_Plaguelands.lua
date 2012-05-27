@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("LudoExpWeP","Western Plaguelands","Western Plaguelands","Exploration", "Eastern Kingdom", "Ludovicus", "Neutral", function()
 return [[
@@ -20,5 +23,5 @@ F Thondroril River|QID|907700014|M|69.61,49.22|ACH|770;14|
 
 N Congratulations on exploring Western Plaguelands|
 
-]] 
+]]
 end)

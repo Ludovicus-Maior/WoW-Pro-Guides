@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("TwiExpGL","Ghostlands","Ghostlands","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[
@@ -22,5 +25,5 @@ F Goldenmist Village|QID|908580016|M|25.80,15.04|ACH|858;3|
 
 N Congradulations on exploring Ghostlands
 
-]] 
+]]
 end)

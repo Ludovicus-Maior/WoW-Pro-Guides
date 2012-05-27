@@ -1,4 +1,7 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 WoWPro.Achievements:RegisterGuide("TwiExpTH","The Hinterlands","The Hinterlands","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[
@@ -17,8 +20,8 @@ F Zun'watha|QID|907730011|M|23.46,58.21|ACH|773;3|
 F Quel'Danil Lodge|QID|907730012|M|31.06,48.02|ACH|773;4|
 F Plaguemist Ravine|QID|907730013|M|24.50,42.82|ACH|773;2|
 F Aerie Peak|QID|907730014|M|14.55,47.84|ACH|773;1|
- 
+
 N Congratulations on exploring The Hinterlands
 
-]] 
+]]
 end)

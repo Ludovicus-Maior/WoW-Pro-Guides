@@ -1,4 +1,19 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2012-05-27 17:49
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24979/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3473/revisions/24978/view
+-- Date: 2012-05-27 17:19
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("LdoExpAzI","Azuremyst Isle","Azuremyst Isle","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
@@ -21,8 +36,7 @@ F The Exodar|QID|908600015|M|31,40|ACH|860;15|
 F Valaar's Berth|QID|908600016|M|22.34,53.86|ACH|860;16|
 F Wrathscale Point|QID|908600017|M|31.99,77.00|ACH|860;17|
 
-
 N Congratulations on exploring Azuremyst Isle|
 
-]] 
+]]
 end)
