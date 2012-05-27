@@ -72,7 +72,7 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Orgrimmar",
 			["floor"] = 1,
 		},
-		["TheNexus"] = {
+		["The Nexus"] = {
 			["numFloors"] = 1,
 			["mapID"] = 520,
 			["mapName"] = "TheNexus",
@@ -2101,7 +2101,7 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 800,
 			["mapName"] = "Firelands",
 		},
-		["MoltenFront"] = {
+		["Molten Front"] = {
 			["numFloors"] = 0,
 			["mapID"] = 795,
 			["mapName"] = "MoltenFront",
