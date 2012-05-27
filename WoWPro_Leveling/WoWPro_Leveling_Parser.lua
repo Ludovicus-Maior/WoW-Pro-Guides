@@ -40,10 +40,17 @@ WoWPro.Leveling.actionlabels = {
 	r = "Repair/Restock"
 }
 
+
 -- Determine Next Active Step (Leveling Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Leveling:NextStep(k, skip)
 	local GID = WoWProDB.char.currentguide
+
+    if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi[WoWPro.step[k]] then
+	    WoWPro.CompleteStep(k)
+	    skip = true
+	end
+
 
 	-- Optional Quests --
 	if WoWPro.optional[k] and WoWPro.QID[k] then 
@@ -689,6 +696,9 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	end
 	
 	-- Auto-Completion --
+	if event == "TAXIMAP_OPENED" then
+		WoWPro.Leveling:RecordTaxiLocations(...)
+	end
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Leveling:AutoCompleteSetHearth(...)
 	end	
@@ -716,6 +726,22 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	end
 
 end
+
+
+
+
+-- Remeber Taxi Locations
+function WoWPro.Leveling:RecordTaxiLocations(...)
+    for i = 1, NumTaxiNodes() do
+        local nomen = TaxiNodeName(i)
+        local location,zone = string.split(",",nomen)
+        if not WoWProCharDB.Taxi[location] then
+            WoWProCharDB.Taxi[location] = true
+            WoWPro:Print("Discovered Flight Point: [%s]",location)
+        end
+    end
+end
+
 
 -- Auto-Complete: Get flight point --
 function WoWPro.Leveling:AutoCompleteGetFP(...)
