@@ -339,9 +339,6 @@ function WoWPro.Dailies:RowUpdate(offset)
 		local prereq = WoWPro.prereq[k] 
 		local leadin = WoWPro.leadin[k] 		
 		local target = WoWPro.target[k] 
-		if WoWPro.prof[k] then
-			local prof, proflvl = string.split(" ", WoWPro.prof[k]) 
-		end
 		local completion = WoWProCharDB.Guide[GID].completion
 		
 		-- Checking off leadin steps --
@@ -617,6 +614,10 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 		end 
     end
 
+    if event == "QUEST_PROGRESS" and WoWProDB.char.CompletedDailies < GetDailyQuestsCompleted() then
+ 	    WoWProDB.char.CompletedDailies = GetDailyQuestsCompleted()  
+    end
+
     if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
@@ -691,7 +692,10 @@ function WoWPro.Dailies:CheckDailiesReset(force)
 		WoWPro.Dailies.DailiesReset = true
 		WoWPro.Dailies:Reset()
 		QueryQuestsCompleted()
-	    return	        
+	    return
+	elseif WoWProDB.char.CompletedDailies < nowDone then
+	    self:dbp("Updating CompletedDailies to %d",nowDone)
+	    WoWProDB.char.CompletedDailies = nowDone
 	end
 end
 
