@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2012-06-08 14:11
+-- Who: Ludovicus Maior
+-- Log: Update P tag to include prof #.
+
+-- URL: http://wow-pro.com/node/3218/revisions/24734/view
 -- Date: 2011-08-16 20:47
 -- Who: Fluclo
 -- Log: Added bread-crumb quest turn-in, level info and some |NC| tags
@@ -113,9 +118,9 @@ T The Last Wave of Survivors|QID|13518|M|51.75,18.05|N|To Dentaria Silverglade.|
 
 A The Boon of the Seas|QID|13520|M|51.75,18.05|N|From Serendia Oakwhisper.|
 A Buzzbox 413|QID|13521|M|51.17,19.61|N|From Wizbang Cranktoggle.|
-A A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing|N|From Johnathan Staats, will lead to you fishing.|
-C A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing|N|Catch 4 Grouper from the waters by fishing.|NC|
-T A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing|N|To Johnathan Staats.|
+A A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|From Johnathan Staats, will lead to you fishing.|
+C A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|Catch 4 Grouper from the waters by fishing.|NC|
+T A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|To Johnathan Staats.|
 C The Boon of the Seas|QID|13520|M|49.56,18.48|N|Dive underwater and open Encrusted Clams.|S|NC|
 C Buzzbox 413|QID|13521|M|47.13,18.26|N|Kill Corrupted Tide Crawlers.|
 C The Boon of the Seas|QID|13520|M|49.56,18.48|N|Dive underwater and open Encrusted Clams.|US|NC|

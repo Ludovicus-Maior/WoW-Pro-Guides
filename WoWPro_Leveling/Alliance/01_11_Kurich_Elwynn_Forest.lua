@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2012-05-29 16:33
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3197/revisions/24974/view
 -- Date: 2012-05-08 21:57
 -- Who: Crackerhead22
 -- Log: Fixes from member 'wowmanus'
