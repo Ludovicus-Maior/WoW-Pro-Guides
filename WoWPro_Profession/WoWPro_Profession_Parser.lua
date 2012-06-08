@@ -50,30 +50,6 @@ function WoWPro.Profession:NextStep(k, skip)
 		end
 	end
 
-	-- Skipping profession quests (moved here from core)  --
-	if WoWPro.prof[k] then 
-		local prof, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
-		proflvl = tonumber(proflvl) or 1
-		profmaxlvl = tonumber(profmaxlvl) or 700
-		profmaxskill = tonumber(profmaxskill) or 700
-		local profs, found = {}, false
-		skip = false
-		profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
-		for p=1,6 do
-			if profs[p] then
-				local skillName, _, skillRank, maxskill = GetProfessionInfo(profs[p])
-				if (skillName == prof) then 
-					found = true
-					if (skillRank >= proflvl) and (skillRank < profmaxlvl) and (maxskill < profmaxskill) then
-						skip = false else skip = true end
-					if skip and proflvl > skillRank then skip = false end
-					if skip then WoWProCharDB.Guide[GID].skipped[k] = true end
-				end
-			end
-		end
-		if found == false and proflvl == 0 then skip = false 
-		else if found == false and profmaxlvl == 700 then skip = true end end
-	end
 	return skip
 end
 
