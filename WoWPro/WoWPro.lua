@@ -215,7 +215,7 @@ function WoWPro:OnEnable()
 		if event == "PLAYER_ENTERING_WORLD" then
 		    WoWPro:dbp("Setting Timer 1")
 		    WoWPro.InitLockdown = true
-		    WoWPro.LockdownTimer = 2.0
+		    WoWPro.LockdownTimer = 1.0
 		end
 		
 		-- Receiving the result of the completed quest query --
