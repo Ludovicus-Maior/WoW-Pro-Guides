@@ -90,32 +90,7 @@ function WoWPro.WorldEvents:NextStep(k, skip)
 		end
 	end
 
-	-- Skipping profession quests (moved here from core)  --
-	if WoWPro.prof[k] then
-		local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
-		proflvl = tonumber(proflvl) or 1
-		profmaxlvl = tonumber(profmaxlvl) or 700
-		profmaxskill = tonumber(profmaxskill) or 700
-		local profs, found = {}, false
-		skip = false
-		profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
-		for p=1,6 do
-			if profs[p] then
-				local skillName, _, skillRank, maxskill, _, _, skillnum = GetProfessionInfo(profs[p])
-				if (tonumber(skillnum) == tonumber(profnum)) then
-					found = true
-					if (skillRank >= proflvl) and (skillRank < profmaxlvl) and (maxskill < profmaxskill) then
-						skip = false
-					else skip = true end
---					if skip and proflvl > skillRank then skip = false end
-					if skip then WoWProCharDB.Guide[GID].skipped[k] = true end
-				end
-			end
-		end
-		if found == false and proflvl == 0 then skip = false 
-		else if found == false and profmaxlvl == 700 then skip = true end end
-	end
-
+	
 	-- Skipping Achievements if completed  --
 	if WoWPro.ach[k] then
 		local achnum, achitem = string.split(";",WoWPro.ach[k])
@@ -370,8 +345,11 @@ function WoWPro.WorldEvents:LoadGuide()
 		    end
 
 		    -- Checking level based completion --
-		    if not completion and level and tonumber(level) <= UnitLevel("player") then
+		    if not completion and level and action == "L" and tonumber(level) <= UnitLevel("player") then
 			    WoWProCharDB.Guide[GID].completion[i] = true
+		    end
+		    if not completion and level and action ~= "L" and tonumber(level) > UnitLevel("player") then
+			    WoWProCharDB.Guide[GID].skipped[i] = true
 		    end
 		end
 	end
@@ -428,9 +406,6 @@ function WoWPro.WorldEvents:RowUpdate(offset)
 		local prereq = WoWPro.prereq[k] 
 --		local leadin = WoWPro.leadin[k] 
 		local target = WoWPro.target[k] 
-		if WoWPro.prof[k] then
-			local prof, proflvl = string.split(" ", WoWPro.prof[k]) 
-		end
 		local completion = WoWProCharDB.Guide[GID].completion
 		
 		-- Checking off lead in steps --
@@ -780,11 +755,6 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 	end
 	if event == "PLAYER_LEVEL_UP" then
 		WoWPro.WorldEvents:AutoCompleteLevel(...)
-		WoWPro.WorldEvents.CheckAvailableSpells(...)
---		WoWPro.WorldEvents.CheckAvailableTalents()
-	end
-	if event == "TRAINER_UPDATE" then
-		WoWPro.WorldEvents.CheckAvailableSpells()
 	end
 	if event == "CRITERIA_UPDATE" then
 		WoWPro:UpdateGuide()
