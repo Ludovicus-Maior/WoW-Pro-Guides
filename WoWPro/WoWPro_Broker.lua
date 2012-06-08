@@ -200,8 +200,10 @@ function WoWPro:NextStep(k,i)
 	
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof[k] and not skip then
-			local prof, proflvl = string.split(";",WoWPro.prof[k])
+			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
 			proflvl = tonumber(proflvl) or 1
+			profmaxlvl = tonumber(profmaxlvl) or 700
+		    profmaxskill = tonumber(profmaxskill) or 700
 			
 			if prof and type(prof) == "string" and type(proflvl) == "number" then
 			    local hasProf = false
@@ -210,20 +212,25 @@ function WoWPro:NextStep(k,i)
 				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
 				for p=1,6 do
 					if profs[p] then
-						local skillName, _, skillRank = GetProfessionInfo(profs[p])
-						if skillName == prof then
-						    if skillRank >= proflvl then
+						local skillName, _, skillRank, maxskill, _, _, skillnum = GetProfessionInfo(profs[p])
+						if (tonumber(skillnum) == tonumber(profnum)) then
+						    if (skillRank >= proflvl) and (skillRank < profmaxlvl) and (maxskill < profmaxskill) then
 							    skip = false -- The step is NOT skipped if the skill is present at the correct level or higher
 							end
 						    hasProf = true							
 						end
 					end
 				end
+				-- Zero or max proflvl special skip logic
+				if hasProf == false and proflvl == 0 then skip = false end
+				if hasProf == false and proflvl == 700 then skip = true end
 				if WoWPro.action[k] == "A" and not hasProf then
 				    -- If they do not have the profession, mark the step and quest as skipped
 				    WoWProCharDB.Guide[GID].skipped[k] = true
 				    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
 				end
+			else
+			    WoWPro:Print("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
 			end
 		end
         
