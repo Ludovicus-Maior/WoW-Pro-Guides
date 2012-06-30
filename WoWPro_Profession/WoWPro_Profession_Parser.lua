@@ -168,7 +168,7 @@ local function ParseQuests(...)
 					local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,WoWProDB.char.currentguide,text)
                     WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
 	                table.insert(WoWProDB.global.ZoneErrors, line)
-				    WoWPro:dbp("Invalid Z tag in:"..text)
+				    WoWPro:Print("Invalid Z tag in:"..text)
 				    WoWPro.zone[i] = nil
 				end
 				_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
@@ -233,7 +233,6 @@ function WoWPro.Profession:LoadGuide()
 			if WoWPro.QID[i] then
 				QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(QID)
-				WoWPro:dbp("Checking for completion: "..QID.." - "..WoWPro.step[i])
 			else
 				QID = nil
 			end

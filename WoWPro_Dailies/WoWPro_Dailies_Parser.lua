@@ -262,7 +262,6 @@ function WoWPro.Dailies:LoadGuide()
 			if WoWPro.QID[i] then
 				QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(QID)
---				WoWPro:dbp("Checking for completion: "..QID.." - "..WoWPro.step[i])
 			else
 				QID = nil
 			end
@@ -663,7 +662,6 @@ function WoWPro.Dailies:Reset()
 		    if WoWProCharDB.Guide[GID] == nil then
 		        WoWProCharDB.Guide[GID] = {}
 		    end
-		    WoWPro.Dailies:Print("Clearing Daily guide %s",GID)
 		    WoWProCharDB.Guide[GID].completion = {}
 		    WoWProCharDB.Guide[GID].skipped = {}
 		end

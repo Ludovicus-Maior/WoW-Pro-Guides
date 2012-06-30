@@ -205,7 +205,7 @@ local function ParseQuests(...)
 					local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,WoWProDB.char.currentguide,text)
                     WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
 	                table.insert(WoWProDB.global.ZoneErrors, line)
-				    WoWPro:dbp("Invalid Z tag in:"..text)
+				    WoWPro:Print("Invalid Z tag in:"..text)
 				    WoWPro.zone[i] = nil
 				end
 				_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
@@ -237,12 +237,12 @@ local function ParseQuests(...)
 					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
 					if WoWPro.step[i] == "Achievement" and count == 0 then 
 						WoWPro.step[i] = Name 
-						WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
+						WoWPro.note[i] = Description.."\n\n"..(WoWPro.note[i] or "")
 					end 
 					if WoWPro.step[i] == "Achievement" and count > 0 then 
 						WoWPro.step[i] = Name 
 						local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
-						WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
+						WoWPro.note[i] = Description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..(WoWPro.note[i] or "")
 					end 
 				end
 
@@ -286,7 +286,6 @@ function WoWPro.Achievements:LoadGuide()
 			if WoWPro.QID[i] then
 				QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(QID)
-				WoWPro:dbp("Checking for completion: "..QID.." - "..WoWPro.step[i])
 			else
 				QID = nil
 			end
