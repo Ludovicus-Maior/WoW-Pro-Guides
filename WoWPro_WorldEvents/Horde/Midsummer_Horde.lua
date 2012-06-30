@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2012-06-30 21:08
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3407/revisions/24780/view
 -- Date: 2011-10-29 18:09
 -- Who: Crackerhead22
 -- Log: Moved locations from quest name to notes part for each quest step for auto-accept/complete, added QIDs to some lines.
@@ -58,7 +62,7 @@ N PLAN OF ATTACK - DARNASSUS AND EXODAR|N|Get ready, we are going to do a major 
 A Desecrate this Fire!|QID|11740|M|49,23|Z|Darkshore|N|At the Alliance Bonfire. (Darkshore)|
 R Teldrassil|QID|11753|N|The boat from Auberdine to Teldrissil is no more, so you will have to fly from Darkshor. I would recommend 280% flight speed or better, you can make it with 150% flying speed, but it may be tight.|M|49,23|Z|Darkshore|
 R Darnassus |QID|11753|N|Ride through the teleporter at or fly over and avoid this death trap.|M|56,90|Z|Teldrassil|
-l Flame of Darnassus|QID|9332|N|Click the fire to loot an item that starts the quest.|L|23184|
+l Flame of Darnassus|QID|9332|M|62.70,47.10|Z|Darnassus|N|Click the fire to loot an item that starts the quest.|L|23184|
 
 R Dolanaar|QID|11753|N|Ride through Darnassus to Dolanaar.|M|55,53.7|Z|Teldrassil|
 A Desecrate this Fire!|QID|11753|M|55,53.7|Z|Teldrassil|N|At the Alliance Bonfire. (Teldrassil)|
@@ -91,7 +95,7 @@ F Bilgewater Harbor |QID|28923|N|Flightpath to Bilgewater Harbor.|M|58.8,48.3|Z|
 A Honor the Flame|QID|28923|M|60,53|Z|Azshara|N|From the Flame Keeper. (Azhara)|
 F The Crossroads|QID|11859|N|Hop on the flight path to the Crossroads. |M|53,49.8|Z|Azshara|
 A Honor the Flame|QID|11859|M|50,55|Z|Northern Barrens|N|From the Flame Keeper. (Northern Barrens)|
-F Sun Rock Retreat|QID|11856|N|Hop on the flight path to Sun Rock Retreat. |M|48.1,58.6|Z|The Barrens|
+F Sun Rock Retreat|QID|11856|N|Hop on the flight path to Sun Rock Retreat. |M|48.1,58.6|Z|Northern Barrens|
 A Honor the Flame|QID|11856|M|53,62|Z|Stonetalon Mountains|N|From the Flame Keeper. (Stonetalon Mountains)|
 A Desecrate this Fire!|QID|28915|M|49,51|Z|Stonetalon Mountains|N|At the Alliance Bonfire. (Stonetalon Mountains)|
 

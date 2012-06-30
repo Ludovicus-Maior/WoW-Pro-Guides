@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2012-06-30 19:28
+-- Who: Ludovicus Maior
+-- Log: More zone name corrections.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25014/view
+-- Date: 2012-06-30 19:22
+-- Who: Ludovicus Maior
+-- Log: Add coords for flight Booty Bay flight point and correct zone.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25013/view
+-- Date: 2012-06-30 19:16
+-- Who: Ludovicus Maior
+-- Log: Wrong zone in Booty Bay Candy Bucket
+
+-- URL: http://wow-pro.com/node/3440/revisions/24909/view
 -- Date: 2012-01-19 21:47
 -- Who: Ludovicus Maior
 -- Log: Delete duplicate guide
@@ -44,12 +59,12 @@ A Candy Bucket |QID|13437|M|57.09,18.83|Z|Borean Tundra|N|Fizzcrank Airstrip|
 F Nessingwary Base Camp|QID|12950|M|25.36,58.24|Z|Sholazar Basin|U|68648|
 A Candy Bucket |QID|12950|M|26.65,59.19|Z|Sholazar Basin|N|Nessingwary Base Camp|
 
-F Bouldercrag's Refuge|QID|13462|M|30.62,36.38|Z|The Storm peaks|U|68648|
-A Candy Bucket |QID|13462|M|30.91,37.19|Z|The Storm peaks|N|Bouldercrag's Refuge|
-F Frosthold|QID|13448|M|29.53,74.42|Z|The Storm peaks|U|68648|
-A Candy Bucket |QID|13448|M|28.75,74.31|Z|The Storm peaks|N|Frosthold|
-F K3|QID|13461|M|40.70,84.59|Z|The Storm peaks|U|68648|
-A Candy Bucket |QID|13461|M|41.07,85.88|Z|The Storm peaks|N|K3|
+F Bouldercrag's Refuge|QID|13462|M|30.62,36.38|Z|The Storm Peaks|U|68648|
+A Candy Bucket |QID|13462|M|30.91,37.19|Z|The Storm Peaks|N|Bouldercrag's Refuge|
+F Frosthold|QID|13448|M|29.53,74.42|Z|The Storm Peaks|U|68648|
+A Candy Bucket |QID|13448|M|28.75,74.31|Z|The Storm Peaks|N|Frosthold|
+F K3|QID|13461|M|40.70,84.59|Z|The Storm Peaks|U|68648|
+A Candy Bucket |QID|13461|M|41.07,85.88|Z|The Storm Peaks|N|K3|
 F The Argent Stand|QID|12941|M|41.54,64.49|Z|Zul'Drak|U|68648|
 A Candy Bucket |QID|12941|M|40.86,65.98|Z|Zul'Drak|N|The Argent Stand|
 F Zim'Torga|QID|12940|M|60.00,56.74|Z|Zul'Drak|U|68648|
@@ -77,10 +92,10 @@ A Candy Bucket |QID|13459|M|48.14,74.67|Z|Dragonblight|N|Moa'ki Harbor|
 F Stars' Rest|QID|13438|M|29.15,55.38|Z|Dragonblight|U|68648|
 A Candy Bucket |QID|13438|M|28.97,56.16|Z|Dragonblight|N|Star's Rest|
 
-F Dalaran|QID|13472|M|72.70,45.68|Z|Ice Crown|U|68648|
-A Candy Bucket |QID|13463|M|48.32,40.86|Z|Ice Crown|N|The Legerdemain Lounge|
-A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|Z|Ice Crown|U|68648|N|Underbelly|
-A Candy Bucket |QID|13473|M|42.56,63.27|Ice Crown|U|68648|N|Hero's Rest Inn|
+F Dalaran|QID|13472|M|72.70,45.68|Z|Dalaran|U|68648|
+A Candy Bucket |QID|13463|M|48.32,40.86|Z|Dalaran|N|The Legerdemain Lounge|
+A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|Z|The Underbelly|U|68648|N|Underbelly|
+A Candy Bucket |QID|13473|M|42.56,63.27|Z|Dalaran|U|68648|N|Hero's Rest Inn|
 N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
 N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|
 

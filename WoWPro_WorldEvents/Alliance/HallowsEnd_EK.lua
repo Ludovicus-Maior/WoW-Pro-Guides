@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2012-06-30 19:28
+-- Who: Ludovicus Maior
+-- Log: More zone name corrections.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25014/view
+-- Date: 2012-06-30 19:22
+-- Who: Ludovicus Maior
+-- Log: Add coords for flight Booty Bay flight point and correct zone.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25013/view
+-- Date: 2012-06-30 19:16
+-- Who: Ludovicus Maior
+-- Log: Wrong zone in Booty Bay Candy Bucket
+
+-- URL: http://wow-pro.com/node/3440/revisions/24909/view
 -- Date: 2012-01-19 21:47
 -- Who: Ludovicus Maior
 -- Log: Delete duplicate guide
@@ -94,8 +109,8 @@ A Candy Bucket|QID|12340|M|56.8,47.33;52.90,53.65|N|Depending on where you are a
 F Fort Livingston|QID|28964|M|52.62,66.30|N|In Northern Stranglethorn.|Z|Northern Stranglethorn|U|37586|
 A Candy Bucket |QID|28964|M|53.11,66.94|Z|Northern Stranglethorn|N|Fort Livingston|
 
-F Booty Bay|QID|12397|Z|Booty Bay|U|37586|
-A Candy Bucket |QID|12397|M|40.93,73.84|Z|Booty Bay|N|Booty Bay|
+F Booty Bay|QID|12397|M|52.6,66.2|Z|Northern Stranglethorn|U|37586|
+A Candy Bucket |QID|12397|M|40.93,73.84|Z|The Cape of Stranglethorn|N|Booty Bay|
 F Surwich|QID|28961|M|47.10,89.20|N|In the Blasted Lands.|Z|Blasted Lands|U|37586|
 A Candy Bucket |QID|28961|M|44.42,87.65|Z|Blasted Lands|N|Surwich|
 F Nethergarde Keep|QID|28960|M|61.21,21.75|Z|Blasted Lands|U|37586|

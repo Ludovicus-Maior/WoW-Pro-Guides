@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2012-06-30 20:52
+-- Who: Ludovicus Maior
+-- Log: Relocate [Well Armed] and [Aid of the Ancients] for better quest flow.
+
+-- URL: http://wow-pro.com/node/3469/revisions/25004/view
 -- Date: 2012-06-08 14:22
 -- Who: Ludovicus Maior
 -- Log: Got rid of unneeded |O| tags and warnings.
@@ -94,6 +99,11 @@ C The Sanctuary Must Not Fall|QID|29198|N|You don't actually need to do anything
 T The Sanctuary Must Not Fall|QID|29198|N|At Malfurion Stormrage.|Z|Mount Hyjal|M|27.00,62.60|
 A Calling for Reinforcements|QID|29199|N|From Arch Druid Hamuul Runetotem.|Z|Mount Hyjal|M|27.00,62.60|
 C Achievement step available!|QID|29199|ACH|5870;2|N|Talk to Matoclaw and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|Mount Hyjal|M|27.00,62.60|
+
+A Well Armed|QID|29282|PRE|29281|N|After the little event, accept this quest from Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
+T Well Armed|QID|29282|N|At Ricket, she has relocated to the Molten Front. She can be at three different locations depending on what daily quest she offers today and whether you did your Druids of the Talon or Shadow Wardens dailies. First, check in the cave under the Sentinel Tree, if she isn't there, return to the main quest hub of whichever dailies you did today (Forlorn Spire or near Fireplume Peak).|Z|Molten Front|M|46.78,90.17;66.41,65.41;36.27,56.61|
+A Aid of the Ancients|QID|29284|PRE|29283|N|After the little event, accept this quest from Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
+T Aid of the Ancients|QID|29284|N|At Elderlimb, he has relocated to near the Moonwell at the Molten Front.|Z|Molten Front|M|44.00,88.60|
 
 A Random Daily Defense of Hyjal Quest|QID|29125;29147;29164;29123;29149;29127;29163;29166|N|From Matoclaw. It is possible that she offers more than one random daily. In that case, accept all the dailies she offers. This step will close when you accept the first one.|Z|Mount Hyjal|M|27.17,62.54|
 A Random Daily Quest for the treatment of Hamuul Runetotem|QID|29248;29246;29247|PRE|29202|LEAD|29203|N|From Dorda'en Nightweaver, if he offers one. Close this step if he doesn't.|Z|Mount Hyjal|M|27.53,62.51|
@@ -355,10 +365,7 @@ T Filling the Moonwell|QID|29279|PRE|29281|LEAD|29283|N|Check if you have 125 Ma
 T Additional Armaments|QID|29281|PRE|29283;29279|N|Check if you have 125 Marks of the World Tree yet, close this step if you don't. If you do, you can turn in the final unlocking quest. Additional Armaments unlocks one additional daily quest, turn it in at Matoclaw at the Sanctuary of Malorne in Hyjal.|Z|Mount Hyjal|M|27.17,62.54|
 T Calling the Ancients|QID|29283|PRE|29281;29279|N|Check if you have 125 Marks of the World Tree yet, close this step if you don't. If you do, you can turn in the final unlocking quest. Calling the Ancients unlocks one additional daily quest, turn it in at the Ancient Elderlimb at the Sanctuary of Malorne in Hyjal.|Z|Mount Hyjal|M|26.00,61.20|
 T Filling the Moonwell|QID|29279|PRE|29281;29283|N|Check if you have 125 Marks of the World Tree yet, close this step if you don't. If you do, you can turn in the final unlocking quest. Filling the Moonwell unlocks a one-time-only questline that represents the final battle of the Firelands Invasion, turn it in at Matoclaw at the Sanctuary of Malorne in Hyjal.|Z|Mount Hyjal|M|27.17,62.54|
-A Well Armed|QID|29282|PRE|29281|N|After the little event, accept this quest from Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
-T Well Armed|QID|29282|N|At Ricket, she has relocated to the Molten Front. She can be at three different locations depending on what daily quest she offers today and whether you did your Druids of the Talon or Shadow Wardens dailies. First, check in the cave under the Sentinel Tree, if she isn't there, return to the main quest hub of whichever dailies you did today (Forlorn Spire or near Fireplume Peak).|Z|Molten Front|M|46.78,90.17;66.41,65.41;36.27,56.61|
-A Aid of the Ancients|QID|29284|PRE|29283|N|After the little event, accept this quest from Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
-T Aid of the Ancients|QID|29284|N|At Elderlimb, he has relocated to near the Moonwell at the Molten Front.|Z|Molten Front|M|44.00,88.60|
+
 A Into the Depths|QID|29203|PRE|29279|N|From Malfurion Stormrage in the cave under the Sentinel Tree.|Z|Molten Front|M|47.00,91.00|
 C Into the Depths|QID|29203|N|Head into the Igneous Depths and make your way to the center of the cave. Kill Leyara. This quest has been known to bug out occasionally when someone else comletes it the same moment you enter the area. If Leyara is not attackable, abandon the quest and accept it from Malfurion again to reset it.|Z|Molten Front|M|57.70,49.50|
 T Into the Depths|QID|29203|N|Back at Malfurion under the Sentinel Tree.|Z|Molten Front|M|47.00,91.00|
