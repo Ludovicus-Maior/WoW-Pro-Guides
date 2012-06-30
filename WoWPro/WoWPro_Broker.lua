@@ -222,8 +222,7 @@ function WoWPro:NextStep(k,i)
 					end
 				end
 				-- Zero or max proflvl special skip logic
-				if hasProf == false and proflvl == 0 then skip = false end
-				if hasProf == false and proflvl == 700 then skip = true end
+				if hasProf == false and ((profmaxlvl < 700) or (profmaxskill < 700)) then skip = false end
 				if WoWPro.action[k] == "A" and not hasProf then
 				    -- If they do not have the profession, mark the step and quest as skipped
 				    WoWProCharDB.Guide[GID].skipped[k] = true
