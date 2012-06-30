@@ -353,6 +353,7 @@ function WoWPro:MapPoint(row)
 	if not coords then return end
 	
 	-- Finding the zone --
+	local zm,zf,zc,zi
 	zm = nil
 	if zone then
 	    if tonumber(zone) then
@@ -363,6 +364,8 @@ function WoWPro:MapPoint(row)
 	        -- Zone found in DB
 	        zm = WoWPro.Zone2MapID[zone].mapID
 	        zf = WoWPro.Zone2MapID[zone].floor or 0
+	        zc = WoWPro.Zone2MapID[zone].cont
+	        zi = WoWPro.Zone2MapID[zone].zonei
 	    end
     end
     
@@ -391,7 +394,7 @@ function WoWPro:MapPoint(row)
 
 		
 		-- Parsing and mapping coordinates --
-		
+--		WoWPro:Print("WoWPro:MapPoint(%s@%s/%s)",coords,tostring(zone),tostring(zm))
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
 			local waypoint = {}
