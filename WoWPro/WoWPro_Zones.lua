@@ -1355,7 +1355,7 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Northern Barrens",
 			["zonei"] = 16,
 		},
-		["Utgarde Pinnacle"] = {
+		["Lower Pinnacle"] = {
 			["dungeon"] = "UtgardePinnacle",
 			["mapID"] = 524,
 			["floor"] = 1,
