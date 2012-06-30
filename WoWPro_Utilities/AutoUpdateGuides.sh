@@ -32,13 +32,18 @@ fi
 if [ -s /tmp/AU$$.tmp ] ; then
     echo "# Ah, there was an update! Committing update"
     cat /tmp/AU$$.tmp
+    rm -f /tmp/AU$$.tmp
     if ! git commit -m "AutoSync to WoW-Pro.COM on `date`" -a ; then
         echo "! Error committing files: $?"
-        rm -f /tmp/AU$$.tmp
+	exit 5
+    fi
+    echo "# Pushing to GitHub"
+    if ! git push ; then
+        echo "! Error pushing update: $?"
 	exit 5
     fi
 else
     echo "# Nope, nothing changed"
+    rm /tmp/AU$$.tmp
 fi
-rm /tmp/AU$$.tmp
 exit 0
