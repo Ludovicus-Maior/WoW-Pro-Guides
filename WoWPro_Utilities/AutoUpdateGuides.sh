@@ -11,7 +11,7 @@ if ! git checkout -- . ; then
 fi
 
 echo "# Syncronizing to WoW-Pro.com"
-if ! git pull origin paster ; then
+if ! git pull origin master ; then
     echo "! Error synchronzing local repo: $?"
     exit 2 
 fi
