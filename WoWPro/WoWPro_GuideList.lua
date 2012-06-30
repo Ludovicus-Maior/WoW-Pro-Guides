@@ -184,6 +184,7 @@ function WoWPro:UpdateGuideList()
 			        button:SetText(iGuide[colDesc[1]])
 			    end
 			end
+			row.GID = GID
 			row:SetChecked(WoWProDB.char.currentguide == GID)
 		else
 			row:Hide()
