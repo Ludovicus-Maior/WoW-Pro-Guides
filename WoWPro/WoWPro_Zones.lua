@@ -8,17 +8,66 @@ WoWPro.Zone2MapID = {
 		["TwilightHighlands_terrain1"] = {
 			["numFloors"] = 1,
 			["mapID"] = 770,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = 0,
 			["mapName"] = "TwilightHighlands_terrain1",
 			["floor"] = 1,
 		},
+		["Eye of Eternity"] = {
+			["dungeon"] = "DragonSoul",
+			["mapID"] = 824,
+			["floor"] = 4,
+			["mapName"] = "Eye of Eternity",
+		},
+		["DragonSoul"] = {
+			["numFloors"] = 7,
+			["mapID"] = 824,
+			["mapName"] = "DragonSoul",
+		},
+		["Spine of Deathwing"] = {
+			["dungeon"] = "DragonSoul",
+			["mapID"] = 824,
+			["floor"] = 6,
+			["mapName"] = "Spine of Deathwing",
+		},
+		["Skyfire Airship"] = {
+			["dungeon"] = "DragonSoul",
+			["mapID"] = 824,
+			["floor"] = 5,
+			["mapName"] = "Skyfire Airship",
+		},
+		["Maw of Go'rath"] = {
+			["dungeon"] = "DragonSoul",
+			["mapID"] = 824,
+			["floor"] = 2,
+			["mapName"] = "Maw of Go'rath",
+		},
+		["Dragonblight in DragonSoul"] = {
+			["dungeon"] = "DragonSoul",
+			["mapID"] = 824,
+			["floor"] = 1,
+			["mapName"] = "Dragonblight",
+		},
+		["Maw of Shu'ma"] = {
+			["dungeon"] = "DragonSoul",
+			["mapID"] = 824,
+			["floor"] = 3,
+			["mapName"] = "Maw of Shu'ma",
+		},
+		["The Maelstrom in DragonSoul"] = {
+			["dungeon"] = "DragonSoul",
+			["mapID"] = 824,
+			["floor"] = 7,
+			["mapName"] = "The Maelstrom",
+		},
+		
 		["The Hinterlands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 26,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "The Hinterlands",
 			["mapName"] = "The Hinterlands",
+			["zonei"] = 30,
 		},
 		["The Plague Quarter"] = {
 			["dungeon"] = "Naxxramas",
@@ -47,16 +96,18 @@ WoWPro.Zone2MapID = {
 		["Westfall"] = {
 			["numFloors"] = 0,
 			["mapID"] = 39,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Westfall",
 			["mapName"] = "Westfall",
+			["zonei"] = 38,
 		},
 		["Abyssal Depths"] = {
 			["numFloors"] = 0,
 			["mapID"] = 614,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Abyssal Depths",
 			["mapName"] = "Abyssal Depths",
+			["zonei"] = 1,
 		},
 		["Band of Transmutation"] = {
 			["dungeon"] = "Nexus80",
@@ -67,7 +118,7 @@ WoWPro.Zone2MapID = {
 		["Orgrimmar"] = {
 			["dungeon"] = "Orgrimmar",
 			["mapID"] = 321,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Orgrimmar",
 			["mapName"] = "Orgrimmar",
 			["floor"] = 1,
@@ -93,16 +144,18 @@ WoWPro.Zone2MapID = {
 		["Zul'Drak"] = {
 			["numFloors"] = 0,
 			["mapID"] = 496,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Zul'Drak",
 			["mapName"] = "Zul'Drak",
+			["zonei"] = 12,
 		},
 		["Northern Stranglethorn"] = {
 			["numFloors"] = 0,
 			["mapID"] = 37,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Northern Stranglethorn",
 			["mapName"] = "Northern Stranglethorn",
+			["zonei"] = 18,
 		},
 		["BlackwingLair"] = {
 			["numFloors"] = 4,
@@ -118,16 +171,18 @@ WoWPro.Zone2MapID = {
 		["Darnassus"] = {
 			["numFloors"] = 0,
 			["mapID"] = 381,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Darnassus",
 			["mapName"] = "Darnassus",
+			["zonei"] = 7,
 		},
 		["Azuremyst Isle"] = {
 			["numFloors"] = 0,
 			["mapID"] = 464,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Azuremyst Isle",
 			["mapName"] = "Azuremyst Isle",
+			["zonei"] = 4,
 		},
 		["Gilneas"] = {
 			["numFloors"] = 0,
@@ -143,16 +198,18 @@ WoWPro.Zone2MapID = {
 		["Un'Goro Crater"] = {
 			["numFloors"] = 0,
 			["mapID"] = 201,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Un'Goro Crater",
 			["mapName"] = "Un'Goro Crater",
+			["zonei"] = 27,
 		},
 		["Ironforge"] = {
 			["numFloors"] = 0,
 			["mapID"] = 341,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Ironforge",
 			["mapName"] = "Ironforge",
+			["zonei"] = 14,
 		},
 		["Halls of Mourning"] = {
 			["dungeon"] = "SethekkHalls",
@@ -163,9 +220,10 @@ WoWPro.Zone2MapID = {
 		["Western Plaguelands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 22,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Western Plaguelands",
 			["mapName"] = "Western Plaguelands",
+			["zonei"] = 37,
 		},
 		["The Wall Walk"] = {
 			["dungeon"] = "ShadowfangKeep",
@@ -223,9 +281,10 @@ WoWPro.Zone2MapID = {
 		["Winterspring"] = {
 			["numFloors"] = 0,
 			["mapID"] = 281,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Winterspring",
 			["mapName"] = "Winterspring",
+			["zonei"] = 28,
 		},
 		["Lower Broken Stair"] = {
 			["dungeon"] = "Karazhan",
@@ -259,16 +318,18 @@ WoWPro.Zone2MapID = {
 		["Darkshore"] = {
 			["numFloors"] = 0,
 			["mapID"] = 42,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Darkshore",
 			["mapName"] = "Darkshore",
+			["zonei"] = 6,
 		},
 		["Blade's Edge Mountains"] = {
 			["numFloors"] = 0,
 			["mapID"] = 475,
-			["cont"] = "Outland",
+			["cont"] = 3,
 			["zone"] = "Blade's Edge Mountains",
 			["mapName"] = "Blade's Edge Mountains",
+			["zonei"] = 1,
 		},
 		["ZulGurub793"] = {
 			["numFloors"] = 0,
@@ -294,9 +355,10 @@ WoWPro.Zone2MapID = {
 		["Shattrath City"] = {
 			["numFloors"] = 0,
 			["mapID"] = 481,
-			["cont"] = "Outland",
+			["cont"] = 3,
 			["zone"] = "Shattrath City",
 			["mapName"] = "Shattrath City",
+			["zonei"] = 6,
 		},
 		["HallsofReflection"] = {
 			["numFloors"] = 1,
@@ -360,9 +422,10 @@ WoWPro.Zone2MapID = {
 		["Nagrand"] = {
 			["numFloors"] = 0,
 			["mapID"] = 477,
-			["cont"] = "Outland",
+			["cont"] = 3,
 			["zone"] = "Nagrand",
 			["mapName"] = "Nagrand",
+			["zonei"] = 3,
 		},
 		["The Gilded Gate"] = {
 			["dungeon"] = "AzjolNerub",
@@ -379,9 +442,10 @@ WoWPro.Zone2MapID = {
 		["Shimmering Expanse"] = {
 			["numFloors"] = 0,
 			["mapID"] = 615,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Shimmering Expanse",
 			["mapName"] = "Shimmering Expanse",
+			["zonei"] = 23,
 		},
 		["Tazz'Alaor"] = {
 			["dungeon"] = "BlackrockSpire",
@@ -404,16 +468,18 @@ WoWPro.Zone2MapID = {
 		["The Maelstrom737"] = {
 			["numFloors"] = 0,
 			["mapID"] = 737,
-			["cont"] = "The Maelstrom",
+			["cont"] = 5,
 			["zone"] = "The Maelstrom",
 			["mapName"] = "The Maelstrom737",
+			["zonei"] = 4,
 		},
 		["Eversong Woods"] = {
 			["numFloors"] = 0,
 			["mapID"] = 462,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Eversong Woods",
 			["mapName"] = "Eversong Woods",
+			["zonei"] = 11,
 		},
 		["CoTHillsbradFoothills"] = {
 			["numFloors"] = 0,
@@ -423,9 +489,10 @@ WoWPro.Zone2MapID = {
 		["Tanaris"] = {
 			["numFloors"] = 0,
 			["mapID"] = 161,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Tanaris",
 			["mapName"] = "Tanaris",
+			["zonei"] = 21,
 		},
 		["Stratholme"] = {
 			["numFloors"] = 2,
@@ -435,9 +502,10 @@ WoWPro.Zone2MapID = {
 		["Borean Tundra"] = {
 			["numFloors"] = 0,
 			["mapID"] = 486,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Borean Tundra",
 			["mapName"] = "Borean Tundra",
+			["zonei"] = 1,
 		},
 		["The Icy Depths"] = {
 			["dungeon"] = "TheArgentColiseum",
@@ -465,9 +533,10 @@ WoWPro.Zone2MapID = {
 		["Shadowmoon Valley"] = {
 			["numFloors"] = 0,
 			["mapID"] = 473,
-			["cont"] = "Outland",
+			["cont"] = 3,
 			["zone"] = "Shadowmoon Valley",
 			["mapName"] = "Shadowmoon Valley",
+			["zonei"] = 5,
 		},
 		["MoltenCore"] = {
 			["numFloors"] = 1,
@@ -523,9 +592,10 @@ WoWPro.Zone2MapID = {
 		["Thunder Bluff"] = {
 			["numFloors"] = 0,
 			["mapID"] = 362,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Thunder Bluff",
 			["mapName"] = "Thunder Bluff",
+			["zonei"] = 25,
 		},
 		["The Vestibules of Drak'Tharon"] = {
 			["dungeon"] = "DrakTharonKeep",
@@ -552,16 +622,18 @@ WoWPro.Zone2MapID = {
 		["Moonglade"] = {
 			["numFloors"] = 0,
 			["mapID"] = 241,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Moonglade",
 			["mapName"] = "Moonglade",
+			["zonei"] = 13,
 		},
 		["Outland"] = {
 			["numFloors"] = 0,
 			["mapID"] = 466,
 			["cont"] = "Continent",
-			["zone"] = "Outland",
+			["zone"] = 3,
 			["mapName"] = "Outland",
+			["zonei"] = 0,
 		},
 		["Prison of Immol'Thar"] = {
 			["dungeon"] = "DireMaul",
@@ -584,9 +656,10 @@ WoWPro.Zone2MapID = {
 		["Badlands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 17,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Badlands",
 			["mapName"] = "Badlands",
+			["zonei"] = 3,
 		},
 		["The Construct Quarter"] = {
 			["dungeon"] = "Naxxramas",
@@ -608,9 +681,10 @@ WoWPro.Zone2MapID = {
 		["Ruins of Gilneas"] = {
 			["numFloors"] = 0,
 			["mapID"] = 684,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Ruins of Gilneas",
 			["mapName"] = "Ruins of Gilneas",
+			["zonei"] = 20,
 		},
 		["Frostmourne"] = {
 			["dungeon"] = "IcecrownCitadel",
@@ -621,9 +695,10 @@ WoWPro.Zone2MapID = {
 		["Tirisfal Glades"] = {
 			["numFloors"] = 0,
 			["mapID"] = 20,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Tirisfal Glades",
 			["mapName"] = "Tirisfal Glades",
+			["zonei"] = 31,
 		},
 		["BlackwingDescent"] = {
 			["numFloors"] = 2,
@@ -639,9 +714,10 @@ WoWPro.Zone2MapID = {
 		["Azshara"] = {
 			["numFloors"] = 0,
 			["mapID"] = 181,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Azshara",
 			["mapName"] = "Azshara",
+			["zonei"] = 3,
 		},
 		["StrandoftheAncients"] = {
 			["numFloors"] = 0,
@@ -651,9 +727,10 @@ WoWPro.Zone2MapID = {
 		["The Lost Isles"] = {
 			["numFloors"] = 0,
 			["mapID"] = 544,
-			["cont"] = "The Maelstrom",
+			["cont"] = 5,
 			["zone"] = "The Lost Isles",
 			["mapName"] = "The Lost Isles",
+			["zonei"] = 3,
 		},
 		["The Mind's Eye"] = {
 			["dungeon"] = "Ulduar",
@@ -664,16 +741,18 @@ WoWPro.Zone2MapID = {
 		["Icecrown"] = {
 			["numFloors"] = 0,
 			["mapID"] = 492,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Icecrown",
 			["mapName"] = "Icecrown",
+			["zonei"] = 8,
 		},
 		["Netherstorm"] = {
 			["numFloors"] = 0,
 			["mapID"] = 479,
-			["cont"] = "Outland",
+			["cont"] = 3,
 			["zone"] = "Netherstorm",
 			["mapName"] = "Netherstorm",
+			["zonei"] = 4,
 		},
 		["The Steamvault"] = {
 			["dungeon"] = "TheSteamvault",
@@ -684,9 +763,10 @@ WoWPro.Zone2MapID = {
 		["Ahn'Qiraj: The Fallen Kingdom"] = {
 			["numFloors"] = 0,
 			["mapID"] = 772,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Ahn'Qiraj: The Fallen Kingdom",
 			["mapName"] = "Ahn'Qiraj: The Fallen Kingdom",
+			["zonei"] = 1,
 		},
 		["ZulFarrak"] = {
 			["numFloors"] = 0,
@@ -706,16 +786,18 @@ WoWPro.Zone2MapID = {
 		["Isle of Quel'Danas"] = {
 			["numFloors"] = 0,
 			["mapID"] = 499,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Isle of Quel'Danas",
 			["mapName"] = "Isle of Quel'Danas",
+			["zonei"] = 15,
 		},
 		["Kezan"] = {
 			["numFloors"] = 0,
 			["mapID"] = 605,
-			["cont"] = "The Maelstrom",
+			["cont"] = 5,
 			["zone"] = "Kezan",
 			["mapName"] = "Kezan",
+			["zonei"] = 2,
 		},
 		["Gilneas_terrain2"] = {
 			["numFloors"] = 0,
@@ -736,9 +818,10 @@ WoWPro.Zone2MapID = {
 		["Crystalsong Forest"] = {
 			["numFloors"] = 0,
 			["mapID"] = 510,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Crystalsong Forest",
 			["mapName"] = "Crystalsong Forest",
+			["zonei"] = 2,
 		},
 		["HallsofOrigination"] = {
 			["numFloors"] = 3,
@@ -760,21 +843,23 @@ WoWPro.Zone2MapID = {
 		["Feralas"] = {
 			["numFloors"] = 0,
 			["mapID"] = 121,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Feralas",
 			["mapName"] = "Feralas",
+			["zonei"] = 12,
 		},
 		["Dun Morogh"] = {
 			["numFloors"] = 0,
 			["mapID"] = 27,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Dun Morogh",
 			["mapName"] = "Dun Morogh",
+			["zonei"] = 7,
 		},
 		["Cleft of Shadow"] = {
 			["dungeon"] = "Orgrimmar",
 			["mapID"] = 321,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Orgrimmar",
 			["mapName"] = "Cleft of Shadow",
 			["floor"] = 2,
@@ -793,16 +878,18 @@ WoWPro.Zone2MapID = {
 		["The Cape of Stranglethorn"] = {
 			["numFloors"] = 0,
 			["mapID"] = 673,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "The Cape of Stranglethorn",
 			["mapName"] = "The Cape of Stranglethorn",
+			["zonei"] = 29,
 		},
 		["Bloodmyst Isle"] = {
 			["numFloors"] = 0,
 			["mapID"] = 476,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Bloodmyst Isle",
 			["mapName"] = "Bloodmyst Isle",
+			["zonei"] = 5,
 		},
 		["OnyxiasLair"] = {
 			["numFloors"] = 1,
@@ -813,16 +900,17 @@ WoWPro.Zone2MapID = {
 		["Hrothgar's Landing"] = {
 			["numFloors"] = 0,
 			["mapID"] = 541,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Hrothgar's Landing",
 			["mapName"] = "Hrothgar's Landing",
 		},
 		["Arathi Highlands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 16,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Arathi Highlands",
 			["mapName"] = "Arathi Highlands",
+			["zonei"] = 2,
 		},
 		["The Vault of Lights"] = {
 			["dungeon"] = "HallsofOrigination",
@@ -833,9 +921,10 @@ WoWPro.Zone2MapID = {
 		["Eastern Kingdoms"] = {
 			["numFloors"] = 0,
 			["mapID"] = 14,
-			["cont"] = "Continent",
+			["cont"] = 2,
 			["zone"] = "Eastern Kingdoms",
 			["mapName"] = "Eastern Kingdoms",
+			["zonei"] = 0,
 		},
 		["GilneasX"] = {
 			["numFloors"] = 0,
@@ -845,9 +934,10 @@ WoWPro.Zone2MapID = {
 		["Desolace"] = {
 			["numFloors"] = 0,
 			["mapID"] = 101,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Desolace",
 			["mapName"] = "Desolace",
+			["zonei"] = 8,
 		},
 		["Veil Sethekk"] = {
 			["dungeon"] = "SethekkHalls",
@@ -868,7 +958,7 @@ WoWPro.Zone2MapID = {
 		["TwilightHighlands_terrain1"] = {
 			["numFloors"] = 1,
 			["mapID"] = 770,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = 0,
 			["mapName"] = "TwilightHighlands_terrain1",
 			["floor"] = 1,
@@ -893,10 +983,11 @@ WoWPro.Zone2MapID = {
 		["Dalaran"] = {
 			["numFloors"] = 2,
 			["mapID"] = 504,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Dalaran",
 			["mapName"] = "Dalaran",
-			["floor"] = 1
+			["floor"] = 1,
+			["zonei"] = 3,
 		},
 		["SunwellPlateau"] = {
 			["numFloors"] = 2,
@@ -906,9 +997,10 @@ WoWPro.Zone2MapID = {
 		["Burning Steppes"] = {
 			["numFloors"] = 0,
 			["mapID"] = 29,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Burning Steppes",
 			["mapName"] = "Burning Steppes",
+			["zonei"] = 5,
 		},
 		["Halls of Strife"] = {
 			["dungeon"] = "BlackwingLair",
@@ -919,9 +1011,10 @@ WoWPro.Zone2MapID = {
 		["Wetlands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 40,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Wetlands",
 			["mapName"] = "Wetlands",
+			["zonei"] = 39,
 		},
 		["Upper Library"] = {
 			["dungeon"] = "Karazhan",
@@ -995,9 +1088,10 @@ WoWPro.Zone2MapID = {
 		["Ruins of Gilneas City"] = {
 			["numFloors"] = 0,
 			["mapID"] = 685,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Ruins of Gilneas City",
 			["mapName"] = "Ruins of Gilneas City",
+			["zonei"] = 21,
 		},
 		["Opera Hall Balcony"] = {
 			["dungeon"] = "Karazhan",
@@ -1068,16 +1162,18 @@ WoWPro.Zone2MapID = {
 		["Searing Gorge"] = {
 			["numFloors"] = 0,
 			["mapID"] = 28,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Searing Gorge",
 			["mapName"] = "Searing Gorge",
+			["zonei"] = 22,
 		},
 		["Silithus"] = {
 			["numFloors"] = 0,
 			["mapID"] = 261,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Silithus",
 			["mapName"] = "Silithus",
+			["zonei"] = 18,
 		},
 		["CoTMountHyjal"] = {
 			["numFloors"] = 0,
@@ -1098,9 +1194,10 @@ WoWPro.Zone2MapID = {
 		["Grizzly Hills"] = {
 			["numFloors"] = 0,
 			["mapID"] = 490,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Grizzly Hills",
 			["mapName"] = "Grizzly Hills",
+			["zonei"] = 5,
 		},
 		["The Guest Chambers"] = {
 			["dungeon"] = "Karazhan",
@@ -1180,9 +1277,10 @@ WoWPro.Zone2MapID = {
 		["Kelp'thar Forest"] = {
 			["numFloors"] = 0,
 			["mapID"] = 610,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Kelp'thar Forest",
 			["mapName"] = "Kelp'thar Forest",
+			["zonei"] = 16,
 		},
 		["Upper Observatory"] = {
 			["dungeon"] = "ShadowfangKeep",
@@ -1198,16 +1296,18 @@ WoWPro.Zone2MapID = {
 		["Ashenvale"] = {
 			["numFloors"] = 0,
 			["mapID"] = 43,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Ashenvale",
 			["mapName"] = "Ashenvale",
+			["zonei"] = 2,
 		},
 		["Wintergrasp"] = {
 			["numFloors"] = 0,
 			["mapID"] = 501,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Wintergrasp",
 			["mapName"] = "Wintergrasp",
+			["zonei"] = 11,
 		},
 		["Walk of the Makers"] = {
 			["dungeon"] = "HallsofLightning",
@@ -1242,7 +1342,7 @@ WoWPro.Zone2MapID = {
 		["Dalaran City"] = {
 			["dungeon"] = "Dalaran",
 			["mapID"] = 504,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Dalaran",
 			["mapName"] = "Dalaran City",
 			["floor"] = 1,
@@ -1250,9 +1350,10 @@ WoWPro.Zone2MapID = {
 		["Northern Barrens"] = {
 			["numFloors"] = 0,
 			["mapID"] = 11,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Northern Barrens",
 			["mapName"] = "Northern Barrens",
+			["zonei"] = 16,
 		},
 		["Utgarde Pinnacle"] = {
 			["dungeon"] = "UtgardePinnacle",
@@ -1287,16 +1388,18 @@ WoWPro.Zone2MapID = {
 		["Durotar"] = {
 			["numFloors"] = 0,
 			["mapID"] = 4,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Durotar",
 			["mapName"] = "Durotar",
+			["zonei"] = 9,
 		},
 		["Howling Fjord"] = {
 			["numFloors"] = 0,
 			["mapID"] = 491,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Howling Fjord",
 			["mapName"] = "Howling Fjord",
+			["zonei"] = 6,
 		},
 		["Tyr's Terrace"] = {
 			["dungeon"] = "UtgardeKeep",
@@ -1312,16 +1415,18 @@ WoWPro.Zone2MapID = {
 		["Loch Modan"] = {
 			["numFloors"] = 0,
 			["mapID"] = 35,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Loch Modan",
 			["mapName"] = "Loch Modan",
+			["zonei"] = 17,
 		},
 		["Dustwallow Marsh"] = {
 			["numFloors"] = 0,
 			["mapID"] = 141,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Dustwallow Marsh",
 			["mapName"] = "Dustwallow Marsh",
+			["zonei"] = 10,
 		},
 		["The Headmaster's Study"] = {
 			["dungeon"] = "Scholomance",
@@ -1334,10 +1439,11 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 753,
 			["mapName"] = "BlackrockCaverns",
 		},
+		-- This seems to have gone!
 		["Dragonblight"] = {
 			["numFloors"] = 0,
 			["mapID"] = 488,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Dragonblight",
 			["mapName"] = "Dragonblight",
 		},
@@ -1349,9 +1455,10 @@ WoWPro.Zone2MapID = {
 		["Terokkar Forest"] = {
 			["numFloors"] = 0,
 			["mapID"] = 478,
-			["cont"] = "Outland",
+			["cont"] = 3,
 			["zone"] = "Terokkar Forest",
 			["mapName"] = "Terokkar Forest",
+			["zonei"] = 7,
 		},
 		["Twilight Forge"] = {
 			["dungeon"] = "BlackrockCaverns",
@@ -1368,9 +1475,10 @@ WoWPro.Zone2MapID = {
 		["Silvermoon City"] = {
 			["numFloors"] = 0,
 			["mapID"] = 480,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Silvermoon City",
 			["mapName"] = "Silvermoon City",
+			["zonei"] = 24,
 		},
 		["Graveyard"] = {
 			["dungeon"] = "ScarletMonastery",
@@ -1387,9 +1495,10 @@ WoWPro.Zone2MapID = {
 		["Hellfire Peninsula"] = {
 			["numFloors"] = 0,
 			["mapID"] = 465,
-			["cont"] = "Outland",
+			["cont"] = 3,
 			["zone"] = "Hellfire Peninsula",
 			["mapName"] = "Hellfire Peninsula",
+			["zonei"] = 2,
 		},
 		["TempestKeep"] = {
 			["numFloors"] = 1,
@@ -1406,7 +1515,7 @@ WoWPro.Zone2MapID = {
 		["Hyjal_terrain1"] = {
 			["numFloors"] = 1,
 			["mapID"] = 683,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = 0,
 			["mapName"] = "Hyjal_terrain1",
 			["floor"] = 1,
@@ -1443,9 +1552,10 @@ WoWPro.Zone2MapID = {
 		["Stormwind City"] = {
 			["numFloors"] = 0,
 			["mapID"] = 301,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Stormwind City",
 			["mapName"] = "Stormwind City",
+			["zonei"] = 26,
 		},
 		["NetherstormArena"] = {
 			["numFloors"] = 0,
@@ -1467,9 +1577,10 @@ WoWPro.Zone2MapID = {
 		["Deepholm"] = {
 			["numFloors"] = 0,
 			["mapID"] = 640,
-			["cont"] = "The Maelstrom",
+			["cont"] = 5,
 			["zone"] = "Deepholm",
 			["mapName"] = "Deepholm",
+			["zonei"] = 1,
 		},
 		["Nexus80"] = {
 			["numFloors"] = 4,
@@ -1485,9 +1596,10 @@ WoWPro.Zone2MapID = {
 		["Swamp of Sorrows"] = {
 			["numFloors"] = 0,
 			["mapID"] = 38,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Swamp of Sorrows",
 			["mapName"] = "Swamp of Sorrows",
+			["zonei"] = 28,
 		},
 		["Grand Magister's Asylum"] = {
 			["dungeon"] = "MagistersTerrace",
@@ -1498,9 +1610,10 @@ WoWPro.Zone2MapID = {
 		["Tol Barad"] = {
 			["numFloors"] = 0,
 			["mapID"] = 708,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Tol Barad",
 			["mapName"] = "Tol Barad",
+			["zonei"] = 32,
 		},
 		["Gordok Commons"] = {
 			["dungeon"] = "DireMaul",
@@ -1511,16 +1624,18 @@ WoWPro.Zone2MapID = {
 		["Eastern Plaguelands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 23,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Eastern Plaguelands",
 			["mapName"] = "Eastern Plaguelands",
+			["zonei"] = 9,
 		},
 		["Stranglethorn Vale"] = {
 			["numFloors"] = 0,
 			["mapID"] = 689,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Stranglethorn Vale",
 			["mapName"] = "Stranglethorn Vale",
+			["zonei"] = 27,
 		},
 		["Band of Alignment"] = {
 			["dungeon"] = "Nexus80",
@@ -1537,9 +1652,10 @@ WoWPro.Zone2MapID = {
 		["Teldrassil"] = {
 			["numFloors"] = 0,
 			["mapID"] = 41,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Teldrassil",
 			["mapName"] = "Teldrassil",
+			["zonei"] = 22,
 		},
 		["TheLostIsles_terrain2"] = {
 			["numFloors"] = 0,
@@ -1549,23 +1665,26 @@ WoWPro.Zone2MapID = {
 		["Twilight Highlands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 700,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Twilight Highlands",
 			["mapName"] = "Twilight Highlands",
+			["zonei"] = 34,
 		},
 		["Blasted Lands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 19,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Blasted Lands",
 			["mapName"] = "Blasted Lands",
+			["zonei"] = 4,
 		},
 		["Elwynn Forest"] = {
 			["numFloors"] = 0,
 			["mapID"] = 30,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Elwynn Forest",
 			["mapName"] = "Elwynn Forest",
+			["zonei"] = 10,
 		},
 		["Throne of the Apocalypse"] = {
 			["dungeon"] = "TheBastionofTwilight",
@@ -1582,9 +1701,10 @@ WoWPro.Zone2MapID = {
 		["Felwood"] = {
 			["numFloors"] = 0,
 			["mapID"] = 182,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Felwood",
 			["mapName"] = "Felwood",
+			["zonei"] = 11,
 		},
 		["SethekkHalls"] = {
 			["numFloors"] = 2,
@@ -1594,9 +1714,10 @@ WoWPro.Zone2MapID = {
 		["Northrend"] = {
 			["numFloors"] = 0,
 			["mapID"] = 485,
-			["cont"] = "Continent",
+			["cont"] = 4,
 			["zone"] = "Northrend",
 			["mapName"] = "Northrend",
+			["zonei"] = 0,
 		},
 		["CoilfangReservoir"] = {
 			["numFloors"] = 1,
@@ -1624,9 +1745,10 @@ WoWPro.Zone2MapID = {
 		["The Exodar"] = {
 			["numFloors"] = 0,
 			["mapID"] = 471,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "The Exodar",
 			["mapName"] = "The Exodar",
+			["zonei"] = 23,
 		},
 		["The Cooling Pools"] = {
 			["dungeon"] = "TheSteamvault",
@@ -1637,23 +1759,26 @@ WoWPro.Zone2MapID = {
 		["Tol Barad Peninsula"] = {
 			["numFloors"] = 0,
 			["mapID"] = 709,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Tol Barad Peninsula",
 			["mapName"] = "Tol Barad Peninsula",
+			["zonei"] = 33,
 		},
 		["Mount Hyjal"] = {
 			["numFloors"] = 0,
 			["mapID"] = 606,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Mount Hyjal",
 			["mapName"] = "Mount Hyjal",
+			["zonei"] = 14,
 		},
 		["Silverpine Forest"] = {
 			["numFloors"] = 0,
 			["mapID"] = 21,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Silverpine Forest",
 			["mapName"] = "Silverpine Forest",
+			["zonei"] = 25,
 		},
 		["GrimBatol"] = {
 			["numFloors"] = 1,
@@ -1692,9 +1817,10 @@ WoWPro.Zone2MapID = {
 		["Stonetalon Mountains"] = {
 			["numFloors"] = 0,
 			["mapID"] = 81,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Stonetalon Mountains",
 			["mapName"] = "Stonetalon Mountains",
+			["zonei"] = 20,
 		},
 		["GilneasCity"] = {
 			["numFloors"] = 0,
@@ -1721,16 +1847,18 @@ WoWPro.Zone2MapID = {
 		["Uldum"] = {
 			["numFloors"] = 0,
 			["mapID"] = 720,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Uldum",
 			["mapName"] = "Uldum",
+			["zonei"] = 26,
 		},
 		["Thousand Needles"] = {
 			["numFloors"] = 0,
 			["mapID"] = 61,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Thousand Needles",
 			["mapName"] = "Thousand Needles",
+			["zonei"] = 24,
 		},
 		["Armory"] = {
 			["dungeon"] = "ScarletMonastery",
@@ -1741,7 +1869,7 @@ WoWPro.Zone2MapID = {
 		["Uldum_terrain1"] = {
 			["numFloors"] = 1,
 			["mapID"] = 748,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = 0,
 			["mapName"] = "Uldum_terrain1",
 			["floor"] = 1,
@@ -1754,9 +1882,10 @@ WoWPro.Zone2MapID = {
 		["Mulgore"] = {
 			["numFloors"] = 0,
 			["mapID"] = 9,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Mulgore",
 			["mapName"] = "Mulgore",
+			["zonei"] = 15,
 		},
 		["Calculation Chamber"] = {
 			["dungeon"] = "TheMechanar",
@@ -1847,9 +1976,10 @@ WoWPro.Zone2MapID = {
 		["Kalimdor"] = {
 			["numFloors"] = 0,
 			["mapID"] = 13,
-			["cont"] = "Continent",
+			["cont"] = 1,
 			["zone"] = "Kalimdor",
 			["mapName"] = "Kalimdor",
+			["zonei"] = 0,
 		},
 		["TheBloodFurnace"] = {
 			["numFloors"] = 1,
@@ -1860,7 +1990,7 @@ WoWPro.Zone2MapID = {
 		["Undercity"] = {
 			["numFloors"] = 0,
 			["mapID"] = 382,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Undercity",
 			["mapName"] = "Undercity",
 		},
@@ -1879,16 +2009,18 @@ WoWPro.Zone2MapID = {
 		["Deadwind Pass"] = {
 			["numFloors"] = 0,
 			["mapID"] = 32,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Deadwind Pass",
 			["mapName"] = "Deadwind Pass",
+			["zonei"] = 6,
 		},
 		["The Storm Peaks"] = {
 			["numFloors"] = 0,
 			["mapID"] = 495,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "The Storm Peaks",
 			["mapName"] = "The Storm Peaks",
+			["zonei"] = 10,
 		},
 		["The Arachnid Quarter"] = {
 			["dungeon"] = "Naxxramas",
@@ -1905,9 +2037,10 @@ WoWPro.Zone2MapID = {
 		["Vashj'ir"] = {
 			["numFloors"] = 0,
 			["mapID"] = 613,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Vashj'ir",
 			["mapName"] = "Vashj'ir",
+			["zonei"] = 36,
 		},
 		["Dragonmaw Garrison"] = {
 			["dungeon"] = "BlackwingLair",
@@ -1918,16 +2051,18 @@ WoWPro.Zone2MapID = {
 		["The Maelstrom"] = {
 			["numFloors"] = 0,
 			["mapID"] = 737,
-			["cont"] = "The Maelstrom",
+			["cont"] = 5,
 			["zone"] = "The Maelstrom",
 			["mapName"] = "The Maelstrom737",
+			["zonei"] = 0,
 		},
 		["Duskwood"] = {
 			["numFloors"] = 0,
 			["mapID"] = 34,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Duskwood",
 			["mapName"] = "Duskwood",
+			["zonei"] = 8,
 		},
 		["The Deadmines"] = {
 			["dungeon"] = "TheDeadmines",
@@ -1950,9 +2085,10 @@ WoWPro.Zone2MapID = {
 		["Ghostlands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 463,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Ghostlands",
 			["mapName"] = "Ghostlands",
+			["zonei"] = 12,
 		},
 		["AzjolNerub"] = {
 			["numFloors"] = 3,
@@ -1967,9 +2103,10 @@ WoWPro.Zone2MapID = {
 		["Southern Barrens"] = {
 			["numFloors"] = 0,
 			["mapID"] = 607,
-			["cont"] = "Kalimdor",
+			["cont"] = 1,
 			["zone"] = "Southern Barrens",
 			["mapName"] = "Southern Barrens",
+			["zonei"] = 19,
 		},
 		["Gamesman's Hall"] = {
 			["dungeon"] = "Karazhan",
@@ -2027,7 +2164,7 @@ WoWPro.Zone2MapID = {
 		["The Underbelly"] = {
 			["dungeon"] = "Dalaran",
 			["mapID"] = 504,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Dalaran",
 			["mapName"] = "The Underbelly",
 			["floor"] = 2,
@@ -2065,16 +2202,18 @@ WoWPro.Zone2MapID = {
 		["Sholazar Basin"] = {
 			["numFloors"] = 0,
 			["mapID"] = 493,
-			["cont"] = "Northrend",
+			["cont"] = 4,
 			["zone"] = "Sholazar Basin",
 			["mapName"] = "Sholazar Basin",
+			["zonei"] = 9,
 		},
 		["Redridge Mountains"] = {
 			["numFloors"] = 0,
 			["mapID"] = 36,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Redridge Mountains",
 			["mapName"] = "Redridge Mountains",
+			["zonei"] = 19,
 		},
 		["Ironclad Cove"] = {
 			["dungeon"] = "TheDeadmines",
@@ -2085,16 +2224,18 @@ WoWPro.Zone2MapID = {
 		["Hillsbrad Foothills"] = {
 			["numFloors"] = 0,
 			["mapID"] = 24,
-			["cont"] = "Eastern Kingdoms",
+			["cont"] = 2,
 			["zone"] = "Hillsbrad Foothills",
 			["mapName"] = "Hillsbrad Foothills",
+			["zonei"] = 13,
 		},
 		["Zangarmarsh"] = {
 			["numFloors"] = 0,
 			["mapID"] = 467,
-			["cont"] = "Outland",
+			["cont"] = 3,
 			["zone"] = "Zangarmarsh",
 			["mapName"] = "Zangarmarsh",
+			["zonei"] = 8,
 		},
 		["Firelands"] = {
 			["numFloors"] = 3,
@@ -2116,7 +2257,7 @@ WoWPro.Zone2MapID = {
 	
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
-local function ScrapeMapInfo(cont, zone)
+local function ScrapeMapInfo(cont, zone, zone_idx)
     local record = {}
     record.mapName = zone or GetMapInfo();
     record.mapID = GetCurrentMapAreaID();
@@ -2127,12 +2268,15 @@ local function ScrapeMapInfo(cont, zone)
     if cont then
         record.cont = cont
     elseif GetCurrentMapContinent() > -1 then
-        record.cont = contnames[GetCurrentMapContinent()] or GetCurrentMapContinent()
+        record.cont = GetCurrentMapContinent()
     end
     if zone then
         record.zone = zone
     elseif GetCurrentMapContinent() > -1 and GetCurrentMapZone() > -1 then
         record.zone = zonenames[GetCurrentMapContinent()][GetCurrentMapZone()] or GetCurrentMapZone()
+    end
+    if zone_idx then
+        record.zonei = zone_idx
     end
 
     if record.numFloors > 1 then
@@ -2204,10 +2348,10 @@ function WoWPro:GenerateMapCache()
 	    contnames[ci] = c
 	    zonenames[ci] = {GetMapZones(ci)}
 		SetMapZoom(ci,0)
-		ScrapeMapInfo("Continent",c)
+		ScrapeMapInfo(ci,contnames[ci],0)
 	    for zi,z in pairs(zonenames[ci]) do
 			SetMapZoom(ci,zi)
-			ScrapeMapInfo(c,z)
+			ScrapeMapInfo(ci,z,zi)
 		end
 	end
 
