@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2012-06-30 23:20
+-- Who: Ludovicus Maior
+-- Log: Got rid of extra spaces.
+
+-- URL: http://wow-pro.com/node/3407/revisions/25017/view
 -- Date: 2012-06-30 21:08
 -- Who: Ludovicus Maior
 
@@ -25,7 +30,7 @@ return [[
 
 N About this Guide|N|QID|11971|The original guide was written by Xicon, who gave permission for it to be coded into Tour Guide form, and was coded and modified by Jiyambi. This guide assumes you are at or near the level cap, have all the relevant flight paths, and have your hearth set to Orgrimmar. Often using your own flying mount will be more efficient, but the flighpaths are left in so you can fly afk if needed. Just check them off if you want to fly on your own. Keep in mind that about half of this holiday requires you to perform actions which flag you as PvP, so even on a PvE realm you will probably see some PvP action. You may want to leave your gear in the bank, in case you need to rez at the spirit healer.|
 
-N Before you start... |N|QID|11971|Make sure you have your hearth set to Orgrimmar, as we will be using it to quickly get from place to place. For the Kalimdor steps the fightpaths were left in, but the rest of the guide counts on you using your own mount (or finding your own flightpaths).|
+N Before you start...|N|QID|11971|Make sure you have your hearth set to Orgrimmar, as we will be using it to quickly get from place to place. For the Kalimdor steps the fightpaths were left in, but the rest of the guide counts on you using your own mount (or finding your own flightpaths).|
 
 R Orgrimmar|N|Head to Orgrimmar if you are not there already.|QID|11971|
 A The Spinner of Summer Tales|QID|11971|N|From a Commoner.|M|51.58,25.38|Z|Orgrimmar|
@@ -49,7 +54,7 @@ F Silverwind Refuge|QID|11841|N|Fly to Silverwind Refuge.|M|73.2,61.6|Z|Ashenval
 A Honor the Flame|QID|11841|M|51,66|Z|Ashenvale|N|From the Flame Keeper. (Ashenvale)|
 A Playing with Fire|QID|11915|M|51.63,66.24|Z|Ashenvale|N|From the Flame Eater.|
 
-F Zoram'gar Outpost |QID|11886|N|Flightpath to Zoram'gar Outpost.|M|49.3,65.3|Z|Ashenvale|
+F Zoram'gar Outpost|QID|11886|N|Flightpath to Zoram'gar Outpost.|M|49.3,65.3|Z|Ashenvale|
 C Unusual Activity|QID|11886|M|16,21|Z|Ashenvale||N|Kill Twilight's Hammer mobs around until a Twilight Correspondence drops.|
 T Unusual Activity|QID|11886|Z|Ashenvale|N|Use your Totemic Beacon, then turn the quest into the Earthen Ring Guide.|U|35828|
 A An Innocent Disguise|QID|11891|N|From the Earthen Ring Guide.|U|35828|
@@ -61,17 +66,17 @@ R Darkshore|N|Ride north to Darkshore.|M|28.8,13.3|Z|Ashenvale|
 N PLAN OF ATTACK - DARNASSUS AND EXODAR|N|Get ready, we are going to do a major chunk of the PvP section of the guide. We're going to get on the boat after desecrating the Auberdine fire, desecrate the Darnassus fire, and run straight through Darnassus, desecrate the Dolanaar fire, then run back to the boat. Then we're getting on the boat to Azuremyst, hitting both normal fires, grabbing the Exodar fire, and boating back to Darkshore. It's likely that you may be killed, so be prepared.|
 A Desecrate this Fire!|QID|11740|M|49,23|Z|Darkshore|N|At the Alliance Bonfire. (Darkshore)|
 R Teldrassil|QID|11753|N|The boat from Auberdine to Teldrissil is no more, so you will have to fly from Darkshor. I would recommend 280% flight speed or better, you can make it with 150% flying speed, but it may be tight.|M|49,23|Z|Darkshore|
-R Darnassus |QID|11753|N|Ride through the teleporter at or fly over and avoid this death trap.|M|56,90|Z|Teldrassil|
+R Darnassus|QID|11753|N|Ride through the teleporter at or fly over and avoid this death trap.|M|56,90|Z|Teldrassil|
 l Flame of Darnassus|QID|9332|M|62.70,47.10|Z|Darnassus|N|Click the fire to loot an item that starts the quest.|L|23184|
 
 R Dolanaar|QID|11753|N|Ride through Darnassus to Dolanaar.|M|55,53.7|Z|Teldrassil|
 A Desecrate this Fire!|QID|11753|M|55,53.7|Z|Teldrassil|N|At the Alliance Bonfire. (Teldrassil)|
 R Teldrassil|QID|11735|N|Head back to the teleporter to get back to the dock or better yet fly out.|M|31,40|Z|Darnassus|
-b Azuremyst Isle|QID|11735|N|Take the boat at the end of the dock to Azuremyst Isle. |M|52.6,89.6|Z|Teldrassil|
+b Azuremyst Isle|QID|11735|N|Take the boat at the end of the dock to Azuremyst Isle.|M|52.6,89.6|Z|Teldrassil|
 A Desecrate this Fire!|QID|11735|M|44,52|Z|Azuremyst Isle|N|At the Alliance Bonfire. (Azuremyst Isle)|
 R Bloodmyst Isle|QID|11738|N|Ride north to Bloodmyst Isle|M|41.9,0.3|Z|Azuremyst Isle|
 A Desecrate this Fire!|QID|11738|M|55,68|Z|Bloodmyst Isle|N|At the Alliance Bonfire. (Bloodmyst Isle)|
-R Azuremyst Isle|QID|9332|N|Ride back to Azuremyst Isle |M|65.0,95.5|Z|Bloodmyst Isle|
+R Azuremyst Isle|QID|9332|N|Ride back to Azuremyst Isle|M|65.0,95.5|Z|Bloodmyst Isle|
 R The Exodar|QID|9332|N|Head into the Exodar.|M|33.8,44.6|Z|Azuremyst Isle|
 l Flame of the Exodar|QID|11933|L|35569|M|40,25|Z|The Exodar|N|Click on Exodar's Fire to loot the flame.|
 
@@ -91,18 +96,18 @@ F Everlook|QID|11839|N|Hop on the flight path to the Everlook.|M|62.2,21.6|Z|Mou
 A Honor the Flame|QID|11839|M|58.1,47.5|Z|Winterspring|N|From the Flame Keeper. (Winterspring)|
 A Desecrate this Fire!|QID|11763|M|61.4,47|Z|Winterspring|N|At the Alliance Bonfire. (Winterspring)|
 
-F Bilgewater Harbor |QID|28923|N|Flightpath to Bilgewater Harbor.|M|58.8,48.3|Z|Winterspring|
+F Bilgewater Harbor|QID|28923|N|Flightpath to Bilgewater Harbor.|M|58.8,48.3|Z|Winterspring|
 A Honor the Flame|QID|28923|M|60,53|Z|Azshara|N|From the Flame Keeper. (Azhara)|
-F The Crossroads|QID|11859|N|Hop on the flight path to the Crossroads. |M|53,49.8|Z|Azshara|
+F The Crossroads|QID|11859|N|Hop on the flight path to the Crossroads.|M|53,49.8|Z|Azshara|
 A Honor the Flame|QID|11859|M|50,55|Z|Northern Barrens|N|From the Flame Keeper. (Northern Barrens)|
-F Sun Rock Retreat|QID|11856|N|Hop on the flight path to Sun Rock Retreat. |M|48.1,58.6|Z|Northern Barrens|
+F Sun Rock Retreat|QID|11856|N|Hop on the flight path to Sun Rock Retreat.|M|48.1,58.6|Z|Northern Barrens|
 A Honor the Flame|QID|11856|M|53,62|Z|Stonetalon Mountains|N|From the Flame Keeper. (Stonetalon Mountains)|
 A Desecrate this Fire!|QID|28915|M|49,51|Z|Stonetalon Mountains|N|At the Alliance Bonfire. (Stonetalon Mountains)|
 
-R Desolace |QID|11741|N|Ride south to Desolace. |M|35.5,80.5|Z|Stonetalon Mountains|
+R Desolace|QID|11741|N|Ride south to Desolace.|M|35.5,80.5|Z|Stonetalon Mountains|
 A Desecrate this Fire!|QID|11741|M|66,17|Z|Desolace|N|At the Alliance Bonfire. (Desolace)|
 A Honor the Flame|QID|11845|M|26,77|Z|Desolace|N|From the Flame Keeper. (Desolace)|
-R Feralas|QID|11746|N|Ride south to Feralas. |M|43.0,98.2|Z|Desolace|
+R Feralas|QID|11746|N|Ride south to Feralas.|M|43.0,98.2|Z|Desolace|
 A Desecrate this Fire!|QID|11746|M|47,44|Z|Feralas|N|At the Alliance Bonfire. (Feralas)|
 A Honor the Flame|QID|11849|M|72,47|Z|Feralas|N|From the Flame Keeper. (Feralas)|
 F Desolation Hold|QID|28927|N|Fly to Desolation Hold.|M|75.4,44.3|Z|Feralas|
@@ -123,7 +128,7 @@ A Desecrate this Fire!|QID|28921|M|60,63|Z|Un'Goro Crater|N|At the Alliance Bonf
 F Ramkahen|QID|28949|N|Fly to Ramkahen in Uldum.|M|56,66|Z|Un'Goro Crater|
 A Honor the Flame|QID|28949|M|53,34|Z|Uldum|N|From the Flame Keeper. (Uldum)|
 A Desecrate this Fire!|QID|28947|M|53,32|Z|Uldum|N|At the Alliance Bonfire. (Uldum)|
-F Cenarion Hold|QID|11836|N|Fly to Cenarion Hold in Silithus |M|56.3,33.6|Z|Uldum|
+F Cenarion Hold|QID|11836|N|Fly to Cenarion Hold in Silithus|M|56.3,33.6|Z|Uldum|
 A Honor the Flame|QID|11836|M|51,41|Z|Silithus|N|From the Flame Keeper. (Silithus)|
 A Desecrate this Fire!|QID|11760|M|60,33|Z|Silithus|N|At the Alliance Bonfire. (Silithus)|
 F Bloodhoof Village|QID|11852|N|Fly to Bloodhoof Village.|M|52.8,34.5|Z|Silithus|
@@ -155,7 +160,7 @@ A Desecrate this Fire!|QID|11757|M|13.46,47.07|Z|Wetlands|N|At the Alliance Bonf
 R Thelsamar - Loch Modan|QID|11749|M|32.5,40.95|Z|Loch Modan|N|Head over to Thelsamar in Loch Modan.|
 A Desecrate this Fire!|QID|11749|M|32.55,40.95|Z|Loch Modan|N|At the Alliance Bonfire. (Loch Modan)|
 R New Kargath|QID|11842|M|23.09,37.44|Z|Badlands|N|Run to New Kargath.|
-A Honor the Flame |QID|11842|M|23.09,37.44|Z|Badlands|N|From the Flame Keeper.(Badlands)|
+A Honor the Flame|QID|11842|M|23.09,37.44|Z|Badlands|N|From the Flame Keeper.(Badlands)|
 A Desecrate this Fire!|QID|28912|M|19.00,56.18|Z|Badlands|N|At the Alliance Bonfire. (Badlands)|
 
 F Flame Crest|QID|11844|M|17.17,39.98|Z|Badlands|N|Fly to Flame Crest.|
@@ -177,7 +182,7 @@ A Desecrate this Fire!|QID|11745|M|43.47,62.63|Z|Elwynn Forest|N|At the Alliance
 N PLAN OF ATTACK - STORMWIND|N|Next, we're heading to Stormwind. The flame is located near the entrance to the stockades. You can either swim the canals or run along the paths to get there. Again, this is a pretty crowded area, and you may be corpse-hopping to get there. After you grab the flame, we're heading out of the city into the forest.|
 
 l Flame of Stormwind|QID|9330|N|Fly higher than the guards and drop straight down for best chance of survival, then click on the fire to get the Flame.|M|49,72|Z|Stormwind City|L|23182|QID|9330|
-A Stealing Stormwind's Flame |N|Accept the quest from the Flame of Stormwind.|Z|Stormwind City|U|23182|QID|9330|
+A Stealing Stormwind's Flame|N|Accept the quest from the Flame of Stormwind.|Z|Stormwind City|U|23182|QID|9330|
 R Moonbrook|QID|11581|N|If you make it...otherwise just rez at the angel.|M|44.76,62.06|Z|Westfall|
 A Desecrate this Fire!|QID|11581|M|44.76,62.06|Z|Westfall|N|At the Alliance Bonfire. (Westfall)|
 R Grom'gal Base Camp|QID|28924|M|40.59,50.94|Z|Northern Stranglethorn|Head over to Grom'Gal Base Gamp.|
@@ -223,8 +228,8 @@ N Eastern Kingdoms Complete!|QID|11747|N|You should now have completed both Flam
 R Blasted Lands|35.7,69.1|Z|Orgrimmar|QID|11747|N|Click on the portal to be taken to the Blasted Lands.|
 R Hellfire Peninsula|QID|11747|N|Run through the Dark Portal to get to Hellfire Peninsula.|M|55,53.9|Z|Blasted Lands|
 A Desecrate this Fire!|QID|11747|M|62,58|Z|Hellfire Peninsula|N|At the Alliance Bonfire. (Hellfire Peninsula)|
-A Honor the Flame|QID|11851|M|57,42 |Z|Hellfire Peninsula|N|From the Flame Keeper. (Hellfire Peninsula)|
-F Shadowmoon Village |QID|11855|N|Fly south to Shadowmoon Valley.|M|56.3,36.2|Z|Hellfire Peninsula|
+A Honor the Flame|QID|11851|M|57,42|Z|Hellfire Peninsula|N|From the Flame Keeper. (Hellfire Peninsula)|
+F Shadowmoon Village|QID|11855|N|Fly south to Shadowmoon Valley.|M|56.3,36.2|Z|Hellfire Peninsula|
 A Honor the Flame|QID|11855|M|33,30|Z|Shadowmoon Valley|N|From the Flame Keeper. (Shadowmoon Valley)|
 A Desecrate this Fire!|QID|11752|M|39,54|Z|Shadowmoon Valley|N|At the Alliance Bonfire. (Shadowmoon Valley)|
 
