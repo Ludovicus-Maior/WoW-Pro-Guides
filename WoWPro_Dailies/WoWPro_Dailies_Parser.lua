@@ -425,7 +425,7 @@ function WoWPro.Dailies:RowUpdate(offset)
 				)
 			end
 			if not action == "A" and WoWPro.QuestLog[tonumber(QID)] 
-			and WoWPro.QuestLog[tonumber(QID)].index and GetNumPartyMembers() > 0 then
+			and WoWPro.QuestLog[tonumber(QID)].index and WoWPro.GetNumPartyMembers() > 0 then
 				table.insert(dropdown, 
 					{text = "Share Quest", func = function()
 						QuestLogPushQuest(WoWPro.QuestLog[tonumber(QID)].index)
