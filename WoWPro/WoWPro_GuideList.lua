@@ -27,21 +27,21 @@ function WoWPro.CreateGuideList()
 	
 	-- Create tab for each module --
 	for name, module in WoWPro:IterateModules() do
-		tabs[name] = WoWPro:CreateTab(name, frame)
-		if prev then
-			tabs[name]:SetPoint("LEFT", prev, "RIGHT", 0, 0)
-		else
-			tabs[name]:SetPoint("TOPLEFT", subtitle, "BOTTOMLEFT", -2, -5)
-			firstTab = tabs[name]
-		end
-		tabs[name].name = name
-		tabs[name]:SetScript("OnClick", function(self, button)
-			WoWPro.ActivateTab(name)
-		end) 
-		prev = tabs[name]
-		table.insert(tabhashtable,name)
-		if(WoWPro[name].GuideList) then
-		    maxFormatItems = max(maxFormatItems, #(WoWPro[name].GuideList.Format))
+	    if WoWPro[name].GuideList then
+    		tabs[name] = WoWPro:CreateTab(name, frame)
+    		if prev then
+    			tabs[name]:SetPoint("LEFT", prev, "RIGHT", 0, 0)
+    		else
+    			tabs[name]:SetPoint("TOPLEFT", subtitle, "BOTTOMLEFT", -2, -5)
+    			firstTab = tabs[name]
+    		end
+    		tabs[name].name = name
+    		tabs[name]:SetScript("OnClick", function(self, button)
+    			WoWPro.ActivateTab(name)
+    		end) 
+    		prev = tabs[name]
+    		table.insert(tabhashtable,name)
+    		maxFormatItems = max(maxFormatItems, #(WoWPro[name].GuideList.Format))
 		end
 	end
 	WoWPro.GuideList.TabTable = tabs
@@ -116,7 +116,9 @@ function WoWPro.ActivateTab(tabname)
 	
 	-- Deactivating tabs --
 	for name, module in WoWPro:IterateModules() do
-		WoWPro.DeactivateTab(WoWPro.GuideList.TabTable[name])
+	    if WoWPro.GuideList.TabTable[name] then 
+		    WoWPro.DeactivateTab(WoWPro.GuideList.TabTable[name])
+		end
 	end
 	tab:SetBackdrop({
 			bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
