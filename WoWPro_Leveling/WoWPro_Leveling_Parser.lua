@@ -470,7 +470,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 					end} 
 				)
 			end
-			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and GetNumPartyMembers() > 0 then
+			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and WoWPro.GetNumPartyMembers() > 0 then
 				table.insert(dropdown, 
 					{text = "Share Quest", func = function()
 						QuestLogPushQuest(WoWPro.QuestLog[QID].index)

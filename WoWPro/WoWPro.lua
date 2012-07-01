@@ -226,7 +226,7 @@ function WoWPro:OnEnable()
 			end
 			WoWPro:dbp("Old Completed QIDs: "..num)
 			WoWProCharDB.completedQIDs = {}
-			GetQuestsCompleted(WoWProCharDB.completedQIDs)
+			WoWPro.GetQuestsCompleted(WoWProCharDB.completedQIDs)
 			num = 0
 			for i, QID in pairs(WoWProCharDB.completedQIDs) do
 				num = num+1
@@ -356,5 +356,27 @@ function WoWPro:LoadAllGuides()
         Count = Count + 1
 	end
         WoWPro:Print("%d Done! %d A, %d N, %d H guides present", Count, aCount, nCount, hCount)
-end	    
+end
+
+
+--- MOP Function Compatability Section
+do
+	local _, _, _, interface = GetBuildInfo()
+	WoWPro.MOP = (interface >= 50000)
+end
+
+if WoWPro.MOP then
+    WoWPro.GetNumPartyMembers = GetNumGroupMembers
+    WoWPro.QueryQuestsCompleted = function () end
+    WoWPro.GetQuestsCompleted = function (x) return x; end
+else
+    WoWPro.GetNumPartyMembers = GetNumPartyMembers
+    WoWPro.QueryQuestsCompleted = QueryQuestsCompleted -- After QUEST_QUERY_COMPLETE
+    WoWPro.GetQuestsCompleted = GetQuestsCompleted
+    
+end
+
+
+
+
 

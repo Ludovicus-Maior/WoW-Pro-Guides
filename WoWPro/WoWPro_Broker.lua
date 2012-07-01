@@ -369,6 +369,7 @@ function WoWPro.CompleteStep(step)
 	WoWPro:MapPoint()
 end
 
+WoWPro.QuestLog = {}
 -- Populate the Quest Log table for other functions to call on --
 function WoWPro:PopulateQuestLog()
 	WoWPro:dbp("Populating quest log...")
@@ -402,7 +403,7 @@ function WoWPro:PopulateQuestLog()
 			local coords
 			QuestMapUpdateAllQuests()
 			QuestPOIUpdateIcons()
-			WorldMapFrame_UpdateQuests()
+--			WorldMapFrame_UpdateQuests()
 			local x, y = WoWPro:findBlizzCoords(questID)
 			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
 			WoWPro.QuestLog[questID] = {

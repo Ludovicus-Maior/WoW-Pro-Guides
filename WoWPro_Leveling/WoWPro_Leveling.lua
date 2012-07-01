@@ -71,7 +71,7 @@ function WoWPro.Leveling:OnEnable()
 	WoWProCharDB.Taxi = WoWProCharDB.Taxi or {}
 	
 	-- Server query for completed quests --
-	QueryQuestsCompleted()
+	WoWPro.QueryQuestsCompleted()
 end
 
 -- Called when the module is disabled --
