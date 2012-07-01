@@ -1156,7 +1156,8 @@ function WoWPro.Recorder:CreateRecorderFrame()
 				blank = {
 					order = 7,
 					type = "description",
-					name = "",
+					name = "Click the Okay buttons to set the values in each field.",
+					width = "full",
 				},
 				registerguide = {
 					order = 8,
@@ -1165,13 +1166,34 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					desc = "Registers the guide to be used. Current guide will be lost unless saved.",
 					width = "full",
 					func = function(info,val) 
+							if not WoWPro.Recorder.CurrentGuide.Type then
+							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.Type.")
+							end
+							if not WoWPro.Recorder.CurrentGuide.Zone then
+							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.Zone.")
+							end
+						    if not WoWPro.Recorder.CurrentGuide.StartLvl then
+							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.StartLvl.")
+							end
+						    if not WoWPro.Recorder.CurrentGuide.EndLvl then
+							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.EndLvl.")
+							end
+						    if not WoWPro.Recorder.CurrentGuide.Author then
+							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.Author")
+							end
+						    if not WoWPro.Recorder.CurrentGuide.GID then
+							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.GID .")
+							end
+							if not WoWPro.Recorder.CurrentGuide.NextGID then
+							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.NextGID.")
+							end
 							if not WoWPro.Recorder.CurrentGuide.Type or not WoWPro.Recorder.CurrentGuide.Zone 
 								or not WoWPro.Recorder.CurrentGuide.StartLvl or not WoWPro.Recorder.CurrentGuide.EndLvl
 								or not WoWPro.Recorder.CurrentGuide.Author or not WoWPro.Recorder.CurrentGuide.GID
 								or not WoWPro.Recorder.CurrentGuide.NextGID then
-									WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out all the fields.")
-									return 
+								return 
 							end
+							
 							WoWPro.Recorder:RegisterGuide(WoWPro.Recorder.CurrentGuide.Type, 
 								WoWPro.Recorder.CurrentGuide.Zone, WoWPro.Recorder.CurrentGuide.StartLvl, 
 								WoWPro.Recorder.CurrentGuide.EndLvl, WoWPro.Recorder.CurrentGuide.Author, 
