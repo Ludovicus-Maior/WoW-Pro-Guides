@@ -1,7 +1,7 @@
 --[[-----------------------------------------------------------------------------
 EditBox Widget
 -------------------------------------------------------------------------------]]
-local Type, Version = "EditBox", 23
+local Type, Version = "EditBox", 24
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -59,6 +59,11 @@ local function Control_OnLeave(frame)
 	frame.obj:Fire("OnLeave")
 end
 
+local function Frame_OnShowFocus(frame)
+	frame.obj.editbox:SetFocus()
+	frame:SetScript("OnShow", nil)
+end
+
 local function EditBox_OnEscapePressed(frame)
 	AceGUI:ClearFocus()
 end
@@ -100,6 +105,10 @@ local function EditBox_OnTextChanged(frame)
 	end
 end
 
+local function EditBox_OnFocusGained(frame)
+	AceGUI:SetFocus(frame.obj)
+end
+
 local function Button_OnClick(frame)
 	local editbox = frame.obj.editbox
 	editbox:ClearFocus()
@@ -120,7 +129,9 @@ local methods = {
 		self:SetMaxLetters(0)
 	end,
 
-	-- ["OnRelease"] = nil,
+	["OnRelease"] = function(self)
+		self:ClearFocus()
+	end,
 
 	["SetDisabled"] = function(self, disabled)
 		self.disabled = disabled
@@ -172,6 +183,18 @@ local methods = {
 
 	["SetMaxLetters"] = function (self, num)
 		self.editbox:SetMaxLetters(num or 0)
+	end,
+
+	["ClearFocus"] = function(self)
+		self.editbox:ClearFocus()
+		self.frame:SetScript("OnShow", nil)
+	end,
+
+	["SetFocus"] = function(self)
+		self.editbox:SetFocus()
+		if not self.frame:IsShown() then
+			self.frame:SetScript("OnShow", Frame_OnShowFocus)
+		end
 	end
 }
 
@@ -193,6 +216,7 @@ local function Constructor()
 	editbox:SetScript("OnTextChanged", EditBox_OnTextChanged)
 	editbox:SetScript("OnReceiveDrag", EditBox_OnReceiveDrag)
 	editbox:SetScript("OnMouseDown", EditBox_OnReceiveDrag)
+	editbox:SetScript("OnEditFocusGained", EditBox_OnFocusGained)
 	editbox:SetTextInsets(0, 0, 3, 3)
 	editbox:SetMaxLetters(256)
 	editbox:SetPoint("BOTTOMLEFT", 6, 0)
