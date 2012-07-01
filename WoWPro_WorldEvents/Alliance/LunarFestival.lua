@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2012-06-30 23:09
+-- Who: Ludovicus Maior
+-- Log: Correct Zone in TheNexus
+
+-- URL: http://wow-pro.com/node/3451/revisions/24931/view
 -- Date: 2012-02-04 22:38
 -- Who: Ludovicus Maior
 -- Log: Elders of Cata
@@ -166,7 +171,7 @@ A Pamuya the Elder|N|From Pamuya the Elder.|QID|13029|M|42.8,49.6|Z|Borean Tundr
 A Northal the Elder|N|From Northal the Elder.|QID|13016|M|33.6,34.2|Z|Borean Tundra|
 R The Nexus|N|Run into The Nexus.|QID|13021|M|27.5,26.09|Z|Borean Tundra|
 
-A Igasho the Elder|N|From Igasho the Elder.|QID|13021|M|55.4,64.6|Z|TheNexus|
+A Igasho the Elder|N|From Igasho the Elder.|QID|13021|M|55.4,64.6|Z|The Nexus|
 F Star's Rest|N|Head back outside of The Nexus and fly to Star's Rest.|QID|13014|M|33,34.4|Z|Borean Tundra|
 A Morthie the Elder|N|From Morthie the Elder.|QID|13014|M|29.6,55.8|Z|Dragonblight|
 A Skywarden the Elder|N|From Skywarden the Elder.|QID|13031|M|35,48.4|Z|Dragonblight|T|Elder Skywarden|
