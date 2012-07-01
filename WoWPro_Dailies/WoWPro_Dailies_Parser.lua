@@ -237,7 +237,7 @@ function WoWPro.Dailies:LoadGuide()
 	-- Server query for completed quests --
 	WoWPro.Dailies.DailiesReset = true
     WoWPro.Dailies:CheckDailiesReset()
- 	QueryQuestsCompleted()
+ 	WoWPro.QueryQuestsCompleted()
  	 
 	-- Parsing quests --
 	local sequence = WoWPro.Guides[GID].sequence
@@ -680,7 +680,7 @@ function WoWPro.Dailies:CheckDailiesReset(force)
         end
 		WoWPro.Dailies.DailiesReset = true
 		WoWPro.Dailies:Reset()
-		QueryQuestsCompleted()
+		WoWPro.QueryQuestsCompleted()
 	    return
 	end
 
@@ -689,7 +689,7 @@ function WoWPro.Dailies:CheckDailiesReset(force)
         WoWProDB.char.CompletedDailies = nowDone
 		WoWPro.Dailies.DailiesReset = true
 		WoWPro.Dailies:Reset()
-		QueryQuestsCompleted()
+		WoWPro.QueryQuestsCompleted()
 	    return
 	elseif WoWProDB.char.CompletedDailies < nowDone then
 	    self:dbp("Updating CompletedDailies to %d",nowDone)
