@@ -1247,8 +1247,9 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						end,
 					get = function(info) 
 							return nil end,
-					set = function(info,val) 
-							WoWPro.LoadGuide(val)
+					set = function(info,val)
+					        WoWPro:Print("Recorder loading guide %s",val)
+							WoWPro:LoadGuide(val)
 							dialog:Close("WoWPro Recorder - Open Guide")
 						end,
 				},
@@ -1363,7 +1364,7 @@ function WoWPro.Recorder:CustomizeFrames()
 	if WoWPro.MainFrame:GetWidth() < 250 then
 	
 		-- AnchorFrame --
-		WoWPro.AnchorFrame:SetWidth(250)
+--		WoWPro.AnchorFrame:SetWidth(250)
 		
 		-- MainFrame --
 		WoWPro.MainFrame:SetWidth(250)
