@@ -716,7 +716,7 @@ function WoWPro:CreateNextGuideDialog()
 	button1text:SetText("Load Next Guide")
 	button1text:SetTextColor(1, 1, 1)
 	button1:SetScript("OnClick", function(self, button)
-		WoWPro:LoadGuide(WoWPro.Guides[WoWProDB.char.currentguide].nextGID)
+		WoWPro:LoadGuide(WoWPro:NextGuide(WoWProDB.char.currentguide))
 		WoWPro.NextGuideDialog:Hide()
 	end) 
 

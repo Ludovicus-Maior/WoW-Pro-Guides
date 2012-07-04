@@ -83,29 +83,26 @@ function WoWPro.Profession:RegisterGuide(GIDvalue, zonename, guidename, authorna
 		startlevel = startlevelvalue,
 		endlevel = endlevelvalue,
 		sequence = sequencevalue,
-		nextGID = nextGIDvalue,
+		nextGID = nil,
 	}
 end
 
 function WoWPro.Profession:LoadAllGuides()
-    WoWPro:Print("Test Load of All Guides")
+    WoWPro:Print("Test Load of Profession Guides")
     local aCount=0
     local hCount=0
     local nCount=0
-    local nextGID
     local zed
 	for guidID,guide in pairs(WoWPro.Guides) do
 	    if WoWPro.Guides[guidID].guidetype == "Profession" then
             WoWPro:Print("Test Loading " .. guidID)
 	        WoWPro:LoadGuide(guidID)
-	        nextGID = WoWPro.Guides[guidID].nextGID
+
 	        zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
 	        if not WoWPro:ValidZone(zed) then
 			    WoWPro:Print("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
 			end
-	        if nextGID == nil or WoWPro.Guides[nextGID] == nil then	    
-	            WoWPro:Print("Successor to " .. guidID .. " which is " .. tostring(nextGID) .. " is invalid.")
-	        end
+
 	        if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end
 	        if WoWPro.Guides[guidID].faction == "Neutral"  then nCount = nCount + 1 end
 	        if WoWPro.Guides[guidID].faction == "Horde"    then hCount = hCount + 1 end

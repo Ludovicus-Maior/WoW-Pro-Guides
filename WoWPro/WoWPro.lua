@@ -333,20 +333,20 @@ function WoWPro:LoadAllGuides()
     local hCount=0
     local nCount=0
     local Count=0
-    local nextGID
+    local nextG
     local zed
 	for guidID,guide in pairs(WoWPro.Guides) do
         WoWPro:Print("Test Loading " .. guidID)
         WoWPro:LoadGuide(guidID)
-        nextGID = WoWPro.Guides[guidID].nextGID
+        nextG = WoWPro:NextGuide(guidID)
         if WoWPro.Guides[guidID].zone then
             zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
             if not WoWPro:ValidZone(zed) then
 		        WoWPro:Print("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
 		    end
 		end
-        if nextGID and WoWPro.Guides[nextGID] == nil then	    
-            WoWPro:Print("Successor to " .. guidID .. " which is " .. tostring(nextGID) .. " is invalid.")
+        if nextG and WoWPro.Guides[nextG] == nil then	    
+            WoWPro:Print("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
         end
         if WoWPro.Guides[guidID].faction then
             if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end

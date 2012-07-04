@@ -78,6 +78,21 @@ function WoWPro:LoadGuide(guideID)
 	WoWPro:MapPoint()
 end
 
+function WoWPro:NextGuide(GID)
+    if not WoWPro.Guides[GIDvalue].nextGID then return nil; end
+	if WoWPro.Guides[GIDvalue].faction == "Neutral" then
+	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
+	    local  AllianceGUID, HordeGID = string.split("|",WoWPro.Guides[GIDvalue].nextGID)
+	    if myUFG == "Alliance" then
+	        return AllianceGUID
+	    else
+	        return HordeGID
+	    end
+	else
+	    return WoWPro.Guides[GIDvalue].nextGID
+	end
+end
+
 -- Guide Update --
 function WoWPro:UpdateGuide(offset)
 	if not WoWPro.GuideFrame:IsVisible() or not GuideLoaded then return end
@@ -162,7 +177,7 @@ function WoWPro:UpdateGuide(offset)
 	if WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total 
 	and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
 		if WoWProDB.profile.autoload then
-			WoWProDB.char.currentguide = WoWPro.Guides[GID].nextGID
+			WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
 			WoWPro:LoadGuide()
 		else
 			WoWPro.NextGuideDialog:Show()
