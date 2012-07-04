@@ -2253,6 +2253,12 @@ WoWPro.Zone2MapID = {
 			["zone"] = "Darkmoon Faire Island",
 			["mapName"] = "DarkmoonFaireIsland",
 		},
+		["The Wandering Isle"] = {
+			["numFloors"] = 0,
+			["mapID"] = 301,
+			["zone"] = "The Wandering Isle",
+			["mapName"] = "TheWanderingIsle",
+		},
 	}
 	
 local MapsSeen = {}
