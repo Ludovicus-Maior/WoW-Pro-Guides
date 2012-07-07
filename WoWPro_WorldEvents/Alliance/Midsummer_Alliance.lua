@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2012-07-01 20:58
+-- Who: Ludovicus Maior
+-- Log: Optimize ordering for Northrend.
+
+-- URL: http://wow-pro.com/node/3406/revisions/25024/view
+-- Date: 2012-07-01 20:26
+-- Who: Ludovicus Maior
+-- Log: Corrected coords for flight to Shattrath in Netherstorm
+
+-- URL: http://wow-pro.com/node/3406/revisions/25023/view
+-- Date: 2012-07-01 20:08
+-- Who: Ludovicus Maior
+-- Log: Change R step from Vashjir to Darkbreak Cove
+
+-- URL: http://wow-pro.com/node/3406/revisions/25022/view
+-- Date: 2012-07-01 17:00
+-- Who: Ludovicus Maior
+-- Log: Remove silly comment about setting hearth to stormwind for trip to Deepholm.
+
+-- URL: http://wow-pro.com/node/3406/revisions/25021/view
+-- Date: 2012-07-01 16:58
+-- Who: Ludovicus Maior
+-- Log: Trim incorrect comment about Cata zones not counting.
+
+-- URL: http://wow-pro.com/node/3406/revisions/25009/view
 -- Date: 2012-06-26 18:36
 -- Who: Ludovicus Maior
 -- Log: Three way merge of my, Twists and Laotseu's updates.
@@ -156,7 +181,7 @@ A Desecrate this Fire!|N|At the Horde Bonfire. (Ghostlands)|QID|11774|M|47.02,25
 A Desecrate this Fire!|N|At the Horde Bonfire. (Eversong Woods)|QID|11772|M|46.36,50.39|Z|Eversong Woods|
 A Stealing Silvermoon's Flame |N|Court of the Sun. Loot the bonfire for an item which starts this quest. |M|69.57,43.20|U|35568|QID|11935|Z|Silvermoon City|
 
-F Stormwind City|QID|11935|N|Head to Zul'Aman and fly to Stormwind. This saves your hearth for the next step. Also note, the next few steps are for those who are level 80 and have the portal to Vashj'ir and Deepholm (they don't count for achievments, it's just for flowers).|
+F Stormwind City|QID|11935|N|Head to Zul'Aman and fly to Stormwind. This saves your hearth for the next step. Also note, the next few steps are for those who are level 80 and have the portal to Vashj'ir and Deepholm.|
 T Stealing Silvermoon's Flame |QID|11935|N|To the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
 T Stealing the Undercity's Flame |QID|9326|N|To the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
 T Stealing Orgrimmar's Flame |QID|9324|N|To the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
@@ -164,11 +189,11 @@ T Stealing Thunder Bluff's Flame |QID|9325|N|To the Festival Loremaster.|M|49.6,
 A A Thief's Reward |QID|9365|N|From the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
 T Inform the Elder |N|To the Earthen Ring Elder. |M|49.32,72.28|QID|12012;29092|Z|Stormwind City|
 
-R Deepholm|N|Take the portal to Deepholm. I would recommend setting your heath point to Stormwind.|M|73.2,19.71|Z|Stormwind City|QID|29036|
+R Deepholm|N|Take the portal to Deepholm.|M|73.2,19.71|Z|Stormwind City|QID|29036|
 A Honor the Flame|N|From the Flame Warden. (Deepholm)|QID|29036|M|49.4,51.4|Z|Deepholm|
 T Honor the Flame|N|To the Bonfire. (Deepholm)|QID|29036|M|49.4,51.4|Z|Deepholm|
 R Stormwind City|N|Take the portal back to Stormwind.|M|48.52,53.85|Z|Deepholm|QID|29031|
-R Vashj'ir|N|Take the portal to Vashj'ir.|Z|Stormwind City|M|73.28,16.8|QID|29031|
+R Darkbreak Cove|N|Take the portal to Vashj'ir.|Z|Stormwind City|M|73.28,16.8|QID|29031|
 F Silver Tide Hollow|QID|29031|M|56.9,75.51|Z|Abyssal Depths|N|Take the Seahorse to Silver Tide Hollow.|
 A Honor the Flame|N|From the Flame Warden. (Vashj'ir)|QID|29031|M|49.3,42|Z|Shimmering Expanse|
 T Honor the Flame|N|To the Bonfire. (Vashj'ir)|QID|29031|M|62.9,22.8|Z|Shimmering Expanse|
@@ -190,7 +215,7 @@ A Honor the Flame|N|From the Flame Warden. (Blade's Edge Mountains)|QID|11807|M|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Blade's Edge Mountains)|QID|11767|M|49.97,59.01|Z|Blade's Edge Mountains|
 A Honor the Flame|N|From the Flame Warden. (Netherstorm)|QID|11830|M|31.21,62.63|Z|Netherstorm|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Netherstorm)|QID|11799|M|32.29,68.18|Z|Netherstorm|
-R Shattrath City |N|Fly to Shattrath.|QID|13485|M|32.29,68.18|Z|Netherstorm|
+F Shattrath City |N|Fly to Shattrath.|QID|13485|M|33.74,63.99|Z|Netherstorm|
 R Stormwind City|N|Take the portal back to Stormwind.|M|57.17,48.28|Z|Shattrath City|QID|13485|
 
 N You should now have enough to buy|N|The summer garb so you can get the achievment "Burning Hot Pole Dance.|QID|990271|ACH|1038;4|
@@ -203,22 +228,22 @@ B [Juggling Torch] x20 |M|49.02,71.98|Z|Stormwind City|L|34599 20|N|Buy 20 from 
 b Borean Tundra|N|Take the boat to Borean Tundra.|M|18.49,24.82|Z|Stormwind City|QID|13485|
 A Honor the Flame|N|From the Flame Warden. (Borean Tundra)|QID|13485|M|55.10,19.95|Z|Borean Tundra|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Borean Tundra)|QID|13441|M|51.06,11.86|Z|Borean Tundra|
-A Desecrate this Fire!|N|At the Horde Bonfire. (Dragonblight)|QID|13451|M|38.51,48.25|Z|Dragonblight|
-A Honor the Flame|N|From the Flame Warden. (Dragonblight)|QID|13487|M|75.29,43.80|Z|Dragonblight|
-A Desecrate this Fire!|N|At the Horde Bonfire. (Howling Fjord)|QID|13453|M|48.45,13.34|Z|Howling Fjord|
-A Honor the Flame|N|From the Flame Warden. (Howling Fjord)|QID|13488|M|57.80,16.12|Z|Howling Fjord|
-A Honor the Flame|N|From the Flame Warden. (Grizzly Hills)|QID|13489|M|33.90,60.45|Z|Grizzly Hills|
-A Desecrate this Fire!|N|At the Horde Bonfire. (Grizzly Hills)|QID|13454|M|19.08,61.42|Z|Grizzly Hills|
-A Desecrate this Fire!|N|At the Horde Bonfire. (Zul'Drak)|QID|13458|M|43.28,71.25|Z|Zul'Drak|
-A Honor the Flame|N|From the Flame Warden. (Zul'Drak)|QID|13492|M|40.38,61.30|Z|Zul'Drak|
-A Honor the Flame|N|From the Flame Warden. (Crystalsong Forest)|QID|13491|M|78.17,74.95|Z|Crystalsong Forest|
-A Desecrate this Fire!|N|At the Horde Bonfire. (Crystalsong Forest)|QID|13457|M|80.34,52.87|Z|Crystalsong Forest|
-A Honor the Flame|N|From the Flame Warden. (The Storm Peaks)|QID|13490|M|41.44,86.69|Z|The Storm Peaks|
-A Desecrate this Fire!|N|At the Horde Bonfire. (The Storm Peaks)|QID|13455|M|40.41,85.61|Z|The Storm Peaks|
-R Dalaran |N|Run to Dalaran.|M|88.72,60.36|Z|Dalaran|ACH|1038;6|
-N Torch Juggler|QID|990272|N|To do this achievement, use the Juggling Torches that you purchased earlier. Find a quiet corner in Dalaran where you have open space and have the least amount of lag. Tip: Bind your Torches to a hotkey. Press the hotkey to get the targeting circle and aim directly beneath yourself. Throwing them at yourself this way will allow you to catch them as fast as you can throw them. There is no global cooldown on the torches so you can spam away until you complete this achievement.|ACH|1038;6|
 A Honor the Flame|N|From the Flame Warden. (Sholazar Basin)|QID|13486|M|48.09,66.37|Z|Sholazar Basin|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Sholazar Basin)|QID|13450|M|47.33,61.57|Z|Sholazar Basin|
+A Desecrate this Fire!|N|At the Horde Bonfire. (Dragonblight)|QID|13451|M|38.51,48.25|Z|Dragonblight|
+A Honor the Flame|N|From the Flame Warden. (Dragonblight)|QID|13487|M|75.29,43.80|Z|Dragonblight|
+A Desecrate this Fire!|N|At the Horde Bonfire. (Grizzly Hills)|QID|13454|M|19.08,61.42|Z|Grizzly Hills|
+A Honor the Flame|N|From the Flame Warden. (Grizzly Hills)|QID|13489|M|33.90,60.45|Z|Grizzly Hills|
+A Desecrate this Fire!|N|At the Horde Bonfire. (Howling Fjord)|QID|13453|M|48.45,13.34|Z|Howling Fjord|
+A Honor the Flame|N|From the Flame Warden. (Howling Fjord)|QID|13488|M|57.80,16.12|Z|Howling Fjord|
+A Desecrate this Fire!|N|At the Horde Bonfire. (Zul'Drak)|QID|13458|M|43.28,71.25|Z|Zul'Drak|
+A Honor the Flame|N|From the Flame Warden. (Zul'Drak)|QID|13492|M|40.38,61.30|Z|Zul'Drak|
+A Honor the Flame|N|From the Flame Warden. (The Storm Peaks)|QID|13490|M|41.44,86.69|Z|The Storm Peaks|
+A Desecrate this Fire!|N|At the Horde Bonfire. (The Storm Peaks)|QID|13455|M|40.41,85.61|Z|The Storm Peaks|
+A Honor the Flame|N|From the Flame Warden. (Crystalsong Forest)|QID|13491|M|78.17,74.95|Z|Crystalsong Forest|
+A Desecrate this Fire!|N|At the Horde Bonfire. (Crystalsong Forest)|QID|13457|M|80.34,52.87|Z|Crystalsong Forest|
+R Dalaran |N|Run to Dalaran.|M|88.72,60.36|Z|Dalaran|ACH|1038;6|
+N Torch Juggler|QID|990272|N|To do this achievement, use the Juggling Torches that you purchased earlier. Find a quiet corner in Dalaran where you have open space and have the least amount of lag. Tip: Bind your Torches to a hotkey. Press the hotkey to get the targeting circle and aim directly beneath yourself. Throwing them at yourself this way will allow you to catch them as fast as you can throw them. There is no global cooldown on the torches so you can spam away until you complete this achievement.|ACH|1038;6|
 
 N The End |N|That's all for this year.|
 
