@@ -79,17 +79,17 @@ function WoWPro:LoadGuide(guideID)
 end
 
 function WoWPro:NextGuide(GID)
-    if not WoWPro.Guides[GIDvalue].nextGID then return nil; end
-	if WoWPro.Guides[GIDvalue].faction == "Neutral" then
+    if not WoWPro.Guides[GID].nextGID then return nil; end
+	if WoWPro.Guides[GID].faction == "Neutral" then
 	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
-	    local  AllianceGUID, HordeGID = string.split("|",WoWPro.Guides[GIDvalue].nextGID)
+	    local  AllianceGUID, HordeGID = string.split("|",WoWPro.Guides[GID].nextGID)
 	    if myUFG == "Alliance" then
 	        return AllianceGUID
 	    else
 	        return HordeGID
 	    end
 	else
-	    return WoWPro.Guides[GIDvalue].nextGID
+	    return WoWPro.Guides[GID].nextGID
 	end
 end
 
