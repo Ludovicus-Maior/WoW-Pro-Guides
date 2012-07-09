@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2012-07-06 21:07
+-- Who: Ludovicus Maior
+-- Log: Corrected quest [Tropical Paradise Beckons] to Flinn and his coords as per wowmanus, with more bits of coordinate accuracy from Ludo :-).
+
+-- URL: http://wow-pro.com/node/3259/revisions/24873/view
 -- Date: 2011-12-23 07:41
 -- Who: Fluclo
 -- Log: Added minimum level guide; At Level 44, you don't have the Flightpoint to Thousand Needles, so added info on getting there; You have the flightplan to Gadgetzan when you are in Speedbarge regardless of not previously using the route, so added this as your method of travel to avoid swimming/running.
@@ -225,7 +230,7 @@ C What Lies Within|QID|25070|M|84.48,43.21|N|The Antechamber Guardian spawns beh
 T What Lies Within|QID|25070|M|84.48,43.21|N|To the Antediluvean Chest.|Z|Uldum|
 A The Grand Tablet|QID|25421|M|84.48,43.21|N|From the Antediluvean Chest.|Z|Uldum|
 T The Grand Tablet|QID|25421|M|40.14,76.90|N|To Prospector Gunstan.|
-A Tropical Paradise Beckons|QID|24911|M|33.23,76.93|N|From Sherm. Pick this up if you plan to go to Un'Goro next.|
+A Tropical Paradise Beckons|QID|24911|M|40.26,77.13|N|From Flinn. Pick this up if you plan to go to Un'Goro next.|
 
 H Gadgetzan|QID|26895|N|Your hearth SHOULD still be set at Gadgetzan, if it is not, use the flight path to go back.|
 T The Thunderdrome!|QID|26895|M|51.78,28.00|N|To Dr. Dealwell.|
