@@ -990,6 +990,8 @@ end
 
 -- Get Currently Available Spells --
 function WoWPro.Leveling.GetAvailableSpells(...)
+    -- Hack till I figure this out
+    if true then return 0,{} end
 	local newLevel = ... or UnitLevel("player")
 	local i, j = 1, 0
 	local availableSpells = {}
