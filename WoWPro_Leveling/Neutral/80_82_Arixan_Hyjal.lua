@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2012-08-21 16:44
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3303/revisions/24799/view
 -- Date: 2011-11-06 21:32
 -- Who: Fluclo
 -- Log: Added |NC| to Oh, Deer!
@@ -152,7 +156,7 @@ C The Earth Rises|QID|25460|RANK|2|M|64.61,22.62|N|Kill Scalding Rock Elementals
 T The Earth Rises|QID|25460|RANK|2|M|64.03,22.66|N|To Anren Shadowseeker.|
 T Inciting the Elements|QID|25370|RANK|2|M|64.07,22.46|N|To Tholo Whitehoof.|
 A Flames from Above|QID|25574|PRE|25370|RANK|2|M|64.06,22.51|N|From Tholo Whitehoof.|
-C Flames from Above|QID|25574|RANK|2|U|55122|M|55.80,15.33|N|Use Tholo's Horn in the middle of the Twilight encampment.|
+C Flames from Above|QID|25574|RANK|2|U|55122|M|55.80,15.33|N|Use Tholo's Horn in the middle of the Twilight encampment.|NC|
 T Flames from Above|QID|25574|RANK|2|M|64.05,22.50|N|To Tholo Whitehoof.|
 T Protect the World Tree|QID|25317|M|47.68,35.51|N|To Malfurion Stormrage.|
 A War on the Twilight's Hammer|QID|25319|M|47.68,35.51|N|From Malfurion Stormrage.|

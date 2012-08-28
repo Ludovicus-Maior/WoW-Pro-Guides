@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2012-08-13 01:54
+-- Who: Laotseu
+-- Log: Minor fixes found while play testing the guide including few quests with typos that prevented the auto-turnins from working properly.
+
+-- URL: http://wow-pro.com/node/3272/revisions/25040/view
+-- Date: 2012-08-05 03:21
+-- Who: Laotseu
+-- Log: Some fix to the guide after play testing it. Mostly quest name typos, missing coordinates and coordinate refining.
+
+-- URL: http://wow-pro.com/node/3272/revisions/24864/view
 -- Date: 2011-12-13 04:24
 -- Who: Crackerhead22
 -- Log: Added missing cords, missing notes, added missing quest, added QO steps...?
@@ -47,8 +57,7 @@ A I Work... For the Horde! |QID|10086|M|55.2,38.8|N|From Megzeg Nukklebust.|
 N Flying|QID|10809|N|Expert Riding may be purchased for 225g, you will also need 50g for a mount. Wind Rider Jahubo.|M|54.2,41.6|
 T Eradicate the Burning Legion |QID|10121|N|To Sergeant Shatterskull.|M|58.0,41.5|
 A Felspark Ravine |QID|10123|M|58.0,41.5|N|From Sergeant Shatterskull.|
-; The quest "Invading the Citadel" on the following line has wrong caps on 'The' so it does not auto-accept since it is optional.|
-A Invading The Citadel|QID|29542|M|61.7,60.8|N|From Sergeant Shatterskull. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|
+A Invading the Citadel|QID|29542|M|58.0,41.5|N|From Sergeant Shatterskull. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|
 C Felspark Ravine |QID|10123|N|Kill the needed demons.|M|65,36|
 C Bonechewer Blood |QID|10450|M|56.5,47.0|N|Kill and loot orcs for their blood.|S|
 C I Work... For the Horde! |QID|10086|N|Pick up the sparkling pieces of wood and metal.|M|60,45|
@@ -107,7 +116,7 @@ A Forge Camp: Mageddon |QID|10390|M|55.0,36.0|N|From Nazgrel.|
 A The Assassin |QID|9400|M|55.0,36.0|N|From Nazgrel.|
 T Apothecary Antonivich |QID|10835|N|To Apothecary Antonivich.|M|52,36|
 
-A Burden of Souls |QID|10864|M|52.5,36.5|N|From Apothecary Antonivich.|
+A A Burden of Souls |QID|10864|M|52.5,36.5|N|From Apothecary Antonivich.|
 C Forge Camp: Mageddon |QID|10390|N|Kill Gan'arg Servants. Also kill and loot Razorsaw.|M|64,31|
 A Vile Plans |QID|10393|U|29590|M|64.5,32.0|N|From the Burning Legion Missive you picked up.|
 T Forge Camp: Mageddon |QID|10390|M|55.0,36.0|N|To Nazgrel.|
@@ -151,13 +160,14 @@ A Ravager Egg Roundup |QID|9349|M|49.0,75.0|N|From Legassi.|
 C Ravager Egg Roundup |QID|9349|N|Get 12 Ravager eggs from the ground and the Ravagers.|M|42,83|
 T Ravager Egg Roundup |QID|9349|M|49.0,75.0|N|To Legassi.|
 A Helboar, the Other White Meat |QID|9361|M|49.0,75.0|N|From Legassi.|
+C In Case of Emergency... |QID|10161|N|Pick up Zepplin Debris.|M|58.0,71.5|S|
+K Crust Bursters|QID|9373|S|L|23338|M|49,67|N|Kill the Crust Bursters on this area until you loot an Eroded Leather Case.|
 C Helboar, the Other White Meat |QID|9361|N|Head to the NE and work your way south, you should find plenty of Deranged Helboars, kill and loot them. Use the Purification Mixture on the Tainted Helboar Meat.|U|23268|M|50.0,75.0|
-K Crust Bursters|QID|9373|L|23338|N|Kill the Crust Bursters on this area until you loot an Eroded Leather Case.|
+K Crust Bursters|QID|9373|US|L|23338|M|49,67|N|Kill the Crust Bursters on this area until you loot an Eroded Leather Case.|
 A Missing Missive |QID|9373|U|23338|M|48.0,66.0|N|From Eroded Leather Case.|
-T Helboar, the Other White Meat |QID|9361|M|49.0,75.0|N|To Legassi.|
+T Helboar, the Other White Meat |QID|9361|M|49.2,74.8|N|To Legassi.|
 
 A Smooth as Butter |QID|9356|M|49.0,75.0|N|From Legassi.|
-C In Case of Emergency... |QID|10161|N|Pick up Zepplin Debris.|M|58.0,71.5|S|
 C Make Them Listen |QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|S|
 l A Mysterious Tome |QID|10229|N|Kill Unyielding Knights at the Expedition Armory until they drop the item "A Mysterious Tome".|L|28552|M|55,76|
 C Make Them Listen |QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|US|
@@ -184,7 +194,7 @@ T Decipher the Tome |QID|10229|M|61.74,81.79|N|To Althen the Historian.|
 A The Battle Horn |QID|10230|M|61.74,81.79|N|From Althen the Historian.|
 T Make Them Listen |QID|10220|N|To Emissary Mordiba.|M|61.78,81.71|
 C The Battle Horn|QID|10230|N|Head south to the Expedition Armory. Kill and loot Lieutenant Commander Thalvos.|M|54.8,83.7|
-T Smooth as Butter |QID|9356|N|To Legassi.|M|49,75|
+T Smooth as Butter |QID|9356|N|To Legassi.|M|49.2,74.8|
 T In Case of Emergency... |QID|10161|M|49.0,75.0|N|To "Sreaming" Screed Luckheed.|
 A Voidwalkers Gone Wild |QID|9351|M|49.0,75.0|N|From "Sreaming" Screed Luckheed.|
 C Voidwalkers Gone Wild |QID|9351|N|Kill and loot Voidwalkers until you have 10 Essences.|M|49.5,82.0|S|
@@ -198,7 +208,7 @@ T The Warp Rifts |QID|10278|M|62.0,81.5|N|To Ogath the Mad.|
 A Void Ridge |QID|10294|M|62.0,81.5|N|From Ogath the Mad.|
 C Bloody Vengeance |QID|10250|U|28651|N|Head to the semi-destroyed tower. Use the Unyielding Battle Horn and kill Urtrak when he spawns.|M|63.5,77.6|
 K Bleeding Hollow Peon |QID|10792|L|31347 4|N|Kill Peons until you loot 4 Bleeding Hollow Torches.|
-N Light it up |QID|10792|U|31347|L|31346 4|N|Find the Bleeding Hollow forge, it's directly to the left after you enter the north gate. Use the torch at the forge to light all four.|
+N Light it up |QID|10792|U|31347|L|31346 4|M|69.2,69.2|N|Find the Bleeding Hollow forge, it's directly to the left after you enter the north gate. Use the torch at the forge to light all four.|
 N Burn down the Eastern Hovel |QID|10792|QO|Eastern Hovel Burned: 1/1|U|31346|N|Head to the building next to the forge, and use the torch. |M|69.7,70.3|
 N Burn down the Stables |QID|10792|QO|Stable Burned: 1/1|U|31346|N|Head to the building where you killed the Worg Master, and use the torch. |M|68.2,73.4|
 N Burn down the Eastern Hovel |QID|10792|QO|Western Hovel Burned: 1/1|U|31346|N|Head to the Western Hovel, and use the torch. |M|67.1,75.8|
@@ -213,7 +223,7 @@ T Zeth'Gor Must Burn! |QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
 R Void Ridge |QID|10294|N|Head to the Void Ridge.|M|72,67;75.5,66.5|
 C Void Ridge |QID|10294|N|Kill the voidwalkers till you get 40 Soul Shards. Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote. Vascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight, so throw something you don't normally use at them first.|M|75.5,66.5|
 H Thrallmar|QID|10238|U|6948|N|Hearth to Thrallmar.|
-T How to Serve Goblins |QID|10238|N|To Foreman Razelcraz.|M|51,31|
+T How to Serve Goblins |QID|10238|M|51.4,30.5|N|To Foreman Razelcraz.|
 A Shizz Work |QID|10629|M|51.5,30.5|N|From Foreman Razelcraz.|
 C Shizz Work |QID|10629|N|Use the Felhound Whistle. Then take your pet and kill the helboars to the west. Each time a boar dies, the Fel Puppy chows down and leaves some remains. Right click the leavings, and eventually one with contain the Shredder Key.|U|30803|M|50.0,29.5|
 T Shizz Work |QID|10629|M|51.5,30.5|N|To Foreman Razelcraz.|
@@ -228,7 +238,7 @@ C Cruel's Intentions |QID|10136|N|Kill Arazzius the Cruel.|
 C In Need of Felblood |QID|9366|N|Kill and loot Terrorfiends.|M|39.5,36.0|US|
 C The Agony and the Darkness |QID|10389|N|Kill Terrorfiends.|M|39.5,36.0|US|
 R Mag'har Post|QID|9410|U|23669|N|Go back to the Fel Orc Corpse and use the Wolf Totem and follow it.|M|33.6,43.6|
-T A Spirit Guide |QID|9410|M|32.0,28.0|N|To Gorkan Bloodfist.|
+T A Spirit Guide |QID|9410|M|32.0,28.0|N|If you can't speak to Gorkan Bloodfist, it's because you didn't follow the wolf.|
 
 A The Mag'har |QID|9406|M|32.0,28.0|N|From Gorkan Bloodfist.|
 R Thrallmar|QID|10389|N|Run back to Thrallmar.|M|55.0,36.0|
@@ -249,14 +259,14 @@ T Wanted: Blacktalon the Savage |QID|9466|N|To Ranger Captain Venn'ren.|
 
 A Report to Zurai |QID|10103|M|28.5,60.0|N|From Ranger Captain Venn'ren.|
 C Trueflight Arrows |QID|9381|N|Go between the points killing and looting Bonestripper Vultures until you have 8 tail feathers.|M|29,56;24.28,44.91|
-T Alerion's Secret |QID|10286|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health and turn the quest into him. Just to warn you, you will be put into PVP.|M|18.0,50.0|T|Magister Aledis|
+T Arelion's Secret |QID|10286|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health and turn the quest into him. Just to warn you, you will be put into PVP.|M|18.0,50.0|T|Magister Aledis|
 A The Mistress Revealed |QID|10287|M|18.0,50.0|N|From Magister Aledis.|
 T Missing Missive |QID|9373|M|15.7,52.0|N|To Thiah Redmane.|
 T Helping the Cenarion Post |QID|10442|M|15.7,52.0|N|To Thiah Redmane.|
 A Demonic Contamination |QID|9372|M|15.7,52.0|N|From Thiah Redmane.|
-A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|From Mahuram Stouthoof.|
 A Colossal Menace |QID|10132|N|From Tola'thion.|M|15.59,52.13|
-A The Cenarion Expedition |QID|9912|M|15.7,52.0|N|From Amythiel Mistwalker.|M|16.02,52.26|
+A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|From Mahuram Stouthoof.|
+A The Cenarion Expedition |QID|9912|M|16.0,52.2|N|From Amythiel Mistwalker.|M|16.02,52.26|
 C Colossal Menace |N|Kill Raging Colossui until you have all 5 kills. As they get low in health, they get smaller and Shardlings form.|QID|10132|M|15,45|
 l Crimson Crystal Shard|QID|10134|N|Make sure you have one of these items from the giants.|L|29476|M|15,45|
 
@@ -328,7 +338,7 @@ C Keep Thornfang Hill Clear! |QID|10159|N|Kill the Ravagers and Venomspitters ne
 R Cenarion Refuge |QID|9747|N|Follow the road west, you'll come to Cenarion Refuge.|Z|Zangarmarsh|M|80.5,64.0|
 
 A The Umbrafen Tribe |QID|9747|Z|Zangarmarsh|M|80.5,64.0|N|From Ikeyen.|
-A Plants of Zangarmarsh |QID|9802|Z|Zangarmarsh|M|80.5,64.0|N|From Lauranna Thar'well.|
+A Plants of Zangarmarsh |QID|9802|Z|Zangarmarsh|M|80.3,64.2|N|From Lauranna Thar'well.|
 A Leader of the Darkcrest |QID|9730|Z|Zangarmarsh|M|79.1,64.9|N|From the Wanted Poster.|
 A Leader of the Bloodscale |QID|9817|Z|Zangarmarsh|M|79.1,64.9|N|From the Wanted Poster.|
 A The Dying Balance |QID|9895|Z|Zangarmarsh|M|78.5,63.0|N|From Lethyn Moonfire.|
@@ -336,8 +346,7 @@ B Cenarion Spirits |QID|9472|L|29112|N|Available from the innkeeper.|Z|Zangarmar
 T The Cenarion Expedition |QID|9912|Z|Zangarmarsh|M|78.5,62.0|N|To Ysiel Windsinger.|
 A Disturbance at Umbrafen Lake |QID|9716|Z|Zangarmarsh|M|78.5,62.0|N|From Ysiel Windsinger.|
 A Warden Hamoot |QID|9778|Z|Zangarmarsh|M|78.4,62.1|N|From Ysiel Windsinger.|
-; The quest "Checking up" on the following line has wrong caps on 'Up' so it does not auto-accept since it is optional.|
-A Checking up|QID|29566|M|78.40,62.10|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
+A Checking Up|QID|29566|M|78.40,62.10|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
 T Warden Hamoot |QID|9778|Z|Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
 
 A A Warm Welcome |QID|9728|Z|Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|

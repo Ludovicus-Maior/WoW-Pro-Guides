@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2012-08-02 11:16
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3297/revisions/24916/view
 -- Date: 2012-01-23 06:06
 -- Who: Crackerhead22
 -- Log: Converted to Neutral.
@@ -61,16 +65,15 @@ A It Could Be Anywhere! |QID|12624|N|From Chad. He's right: it really could be a
 A Venture Co. Misadventure |QID|12524|N|From Debaar.|M|27.21,59.86|
 
 A Need an Engine, Take an Engine |QID|12522|N|From Weslex Quickwrench. Go down the path to the other side of the wrecked boat. |M|25.38,58.35|
-C Need an Engine, Take an Engine |QID|12522|N|Near where you landed when you first got here.|M|38.64,56.75|
+C Need an Engine, Take an Engine |QID|12522|N|At the crash site where you landed when you first got here.|M|38.64,56.75|NC|
 T Need an Engine, Take an Engine |QID|12522|N|To Weslex Quickwrench, at Nesingwary Base Camp.|M|25.38,58.35|
 
 A Have a Part, Give a Part |QID|12523|M|25.4,58.5|N|From Weslex Quickwrench.|
-
-C Have a Part, Give a Part |QID|12523|N|Collect the parts all over the ground.|M|32.7,46.9|S|
+C Have a Part, Give a Part |QID|12523|N|Collect the parts all over the ground.|M|32.7,46.9|S|NC|
 C Venture Co. Misadventure |QID|12524|N|Kill Ventrue Company Members.|M|37.4,46.1|S|
 A Engineering a Disaster |QID|12688|N|From Engineer Helice. On the other side of The Suntouched Pillar. It's an escort. He's on a platform next to the huge yellow crystal.|M|35.51,47.45|
 C Engineering a Disaster |QID|12688|M|35.5,47.4|N|Keep Engineer Helice safe.|
-C Have a Part, Give a Part |QID|12523|N|Collect the parts all over the ground.|M|32.7,46.9|US|
+C Have a Part, Give a Part |QID|12523|N|Collect the parts all over the ground.|M|32.7,46.9|US|NC|
 C Venture Co. Misadventure |QID|12524|N|Kill any more Ventrue Company Members you need.|M|37.4,46.1|US|
 T Engineering a Disaster |QID|12688|N|To Hemet Nesingwary, at Nesingwary Base Camp.|M|27.09,58.72|
 T Venture Co. Misadventure |QID|12524|N|From Debaar.|M|27.21,59.86|

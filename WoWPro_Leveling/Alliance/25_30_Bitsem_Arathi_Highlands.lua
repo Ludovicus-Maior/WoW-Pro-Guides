@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2012-08-08 16:27
+-- Who: Ludovicus Maior
+-- Log: Zardok points out that Quae and Kinelory|QID|26113 requires lvl 26 to accept and The Stone Shards|QID|26341 requires lvl 27
+
+-- URL: http://wow-pro.com/node/3229/revisions/24534/view
 -- Date: 2011-06-08 12:59
 -- Who: Crackerhead22
 -- Log: Removed unneeded zone tags, added missing notes, added missing cords.
@@ -50,13 +55,11 @@ A The Scarlet Monastery|QID|26982|RANK|1|M|39.91,48.71|N|From Captain Nials. If 
 h Refuge Point|QID|26336|M|39.91,49.04|N|Set your home point at Vikki Lonsav.|
 f Refuge Point|QID|26093|NC|M|39.85,47.34|N|Get the flight point for Refuge Point from Cedrik Prose.|
 
-A Quae and Kinelory|QID|26113|RANK|1|M|39.99,48.17|N|From Commander Amaren.|
 A The Battle for Arathi Basin!|QID|8105|RANK|1|M|39.96,46.93|N|From Field Marshal Oslight. This is a PvP quest.|
 A Worth Its Weight in Gold|QID|26035|RANK|1|M|40.34,49.03|N|From Skuerto.|
 
 A Shakes O'Breen|QID|26336|RANK|1|M|40.34,49.03|N|From Skuerto.|
 
-A The Stone Shards|QID|26341|RANK|1|M|40.34,49.03|N|From Skuerto.|
 A Home Sweet Gnome|QID|26943|RANK|1|M|40.34,49.03|N|From Skuerto. If you wish to go to Gnomerigan.|
 
 A Wanted! Marez Cowl|QID|26024|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
@@ -100,6 +103,8 @@ C Stromgarde Badges|QID|26095|M|19.99,66.47|N|Kill and loot Syndicate mobs until
 R Refuge Pointe|QID|26095|NC|M|39.97,48.83|N|Run or Hearth back to Refuge Pointe.|
 
 T Stromgarde Badges|QID|26095|M|39.91,48.75|N|To Captain Nials.|
+
+A Quae and Kinelory|QID|26113|RANK|1|M|39.99,48.17|N|From Commander Amaren.|
 T Quae and Kinelory|QID|26113|M|54.76,55.33|N|To Quae.|
 
 A Just Like Old Times|QID|26110|PRE|26113|RANK|1|M|54.76,55.33|N|From Quae.|
@@ -137,7 +142,9 @@ H Refuge Pointe|QID|26038|NC|M|40.35,49.14|N|Hearth or Run to Refuge Pointe.|
 
 T Attack on the Tower|QID|26038|M|40.22,49.07|N|To Skuerto.|
 
+A The Stone Shards|QID|26341|RANK|1|M|40.34,49.03|N|From Skuerto.|
 T The Stone Shards|QID|26341|M|57.03,34.61|N|To the Shards of Myzrael.|
+
 A The Princess Trapped|QID|26039|PRE|26341|RANK|1|M|57.03,34.61|N|From the Shards of Myzrael.|
 C The Princess Trapped|QID|26039|M|78.49,36.69|N|Head into the cave where the waypoint is. Kill and loot Kobolds until you have 12 Motes of Myzreal.|
 T The Princess Trapped|QID|26039|M|79.83,31.62|N|To the Iridescent Shards.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2012-08-13 00:23
+-- Who: Laotseu
+-- Log: A few corrections I found while play testing a Monk on the Beta.
+
+-- URL: http://wow-pro.com/node/3213/revisions/24820/view
 -- Date: 2011-11-24 17:46
 -- Who: Fluclo
 
@@ -187,7 +192,7 @@ T Big Trouble in Moonbrook|QID|26291|M|56.41,47.41|N|To Marshal Gryan Stoutmantl
 A To Moonbrook!|QID|26292|PRE|26291|RANK|1|M|56.41,47.41|N|From Marshal Gryan Stoutmantle.|
 T Jango Spothide|QID|26288|M|56.49,47.50|N|To Captain Danuvin.|
 
-F Moonbrook|QID|26292|M|42.13,63.39|N|Fly to Moonbrook from Thor at Sentinel Hill.  If he doesn't offer you the destination, run to Moonbrook which is south-west of Sentinel Hill.|
+F Moonbrook|QID|26292|M|56.6,49.5|N|Fly to Moonbrook from Thor at Sentinel Hill.  If he doesn't offer you the destination, run to Moonbrook which is south-west of Sentinel Hill.|
 
 T To Moonbrook!|QID|26292|M|42.11,63.99|N|To Captain Alpert.|
 A Propaganda|QID|26295|PRE|26292|RANK|1|M|42.11,63.99|N|From Captain Alpert.|
@@ -197,7 +202,7 @@ A Evidence Collection|QID|26296|RANK|2|M|43.69,67.90|N|Accept the quest from the
 
 C Evidence Collection|QID|26296|S|M|45.53,70.95|N|Kill thugs and loot their bandanas..|
 
-C Mysterious Propaganda |QID|26295|M|41.26,.50|N|The back of the first building on right on entering Moonbrook from the Flight Master.|QO|Mysterious Propaganda: 1/1|NC|
+C Mysterious Propaganda |QID|26295|M|41.26,66.50|N|The back of the first building on right on entering Moonbrook from the Flight Master.|QO|Mysterious Propaganda: 1/1|NC|
 C Informational Pamphlet |QID|26295|M|41.59,66.41|N|Behind the Mysterious Propaganda on the broken barrel.|QO|Informational Pamphlet: 1/1|NC|
 C Issue of the Moonbrook Times |QID|26295|M|43.27,69.90|N|In the main square next to the broken fountain.|QO|Issue of the Moonbrook Times: 1/1|NC|
 C Secret Journal |QID|26295|M|43.46,66.57|N|Inside the Inn, top floor, far right hand room at the back.|QO|Secret Journal: 1/1|NC|
@@ -216,9 +221,10 @@ A Secrets Revealed|QID|26319|PRE|26297|RANK|1|M|42.18,64.19|N|From Captain Alper
 T Secrets Revealed|QID|26319|M|42.86,65.08|N|To Thoralius the Wise.|
 A A Vision of the Past|QID|26320|PRE|26319|RANK|1|M|42.86,65.08|N|From Thoralius the Wise.|
 
-R Defias Hideout|QID|26371|M|40.86,81.98|N|Enter the Defias Hideout.|
+R Defias Hideout|QID|26371|M|42.5,71.5;40.86,81.98|N|Enter the Defias Hideout.|
 C A Vision of the Past|QID|26320|NC|U|58147|N|Follow the orphans and homeless to The Deadmines instance. Stick to the right. Once you enter the Deadmines Instance, use the incense. Then get ready to feel like a bad person if you've done the original Deadmines.|M|42.90,72.67;42.59,75.08;41.60,76.07;41.54,77.96;41.20,79.54;40.06,78.13;38.30,77.50|
 
+R Moonbrook|QID|26371|N|Exit the Instance|
 R Moonbrook|QID|26371|N|Head back to Moonbrook.|M|38.30,77.50;39.43,77.99;38.83,79.04;40.06,78.13;41.20,79.54;41.54,77.96;41.60,76.07;42.59,75.08;42.90,72.67|
 
 A The Coast Isn't Clear|QID|26348|PRE|26371|RANK|1|M|30.55,85.54|N|From Captain Grayson.|S|
@@ -229,7 +235,7 @@ A The Coast Isn't Clear|QID|26348|PRE|26371|RANK|1|M|30.55,85.54|N|From Captain 
 A The Coastal Menace|QID|26349|RANK|1|M|30.55,85.54|N|From Captain Grayson.|US|
 A Keeper of the Flame|QID|26347|RANK|1|M|30.55,85.54|N|From Captain Grayson.|US|
 
-C The Coast Isn't Clear|QID|26348|M|33.63,84.34|S|N|Kill Murloc Tidehunters and Oracles.|
+C The Coast Isn't Clear|QID|26348|S|M|33.63,84.34|S|N|Kill Murloc Tidehunters and Oracles.|
 C The Coastal Menace|QID|26349|M|34.27,84.81|N|Find, kill and loot Old Murk-Eye.|T|Old Murk-Eye|
 
 T Captain Sanders' Hidden Treasure - Part 1 of 4|QID|26353|RANK|2|M|25.93,47.76|N|To the Captain's Footlocker.|

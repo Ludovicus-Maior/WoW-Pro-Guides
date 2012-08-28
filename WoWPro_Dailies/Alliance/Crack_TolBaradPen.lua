@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2012-08-07 21:17
+-- Who: Ludovicus Maior
+-- Log: [Watch Out For Splinters!] with the bang!
+
+-- URL: http://wow-pro.com/node/3414/revisions/24877/view
 -- Date: 2011-12-29 02:21
 -- Who: Crackerhead22
 
@@ -49,7 +54,7 @@ C Claiming The Keep|QID|28059|M|35.5,27.3|N|Head upstairs in the keep and kill K
 C Walk A Mile In Their Shoes|QID|28065|M|35.5,27.3|N|Head into the basement. Talk to one of the Alliance Farson Prisoners, and escort them out of the keep.
 
 C WANTED: Foreman Wellson|QID|27975|M|29.9,44.2|N|Kill Foreman Wellson.|T|Foreman Wellson|
-C Watch Out For Splinters|QID|27973|M|29.9,44.2|N|Loot 15 pieces of Shipyard Lumber. You can get the Lumber from on the ground or from the ghosts floating around Wellson Shipyard.|
+C Watch Out For Splinters!|QID|27973|M|29.9,44.2|N|Loot 15 pieces of Shipyard Lumber. You can get the Lumber from on the ground or from the ghosts floating around Wellson Shipyard.|
 C Bombs Away!|QID|28275|M|22,47.1|N|Click on a cannon, use Ability #1, aim with the mouse then click to destroy the boats. You will have to aim slightly forward on the moving ones.|
 
 C Finish The Job|QID|28046|M|41.8,62.1|N|Kill 5 Restless Infantry.|
@@ -73,7 +78,7 @@ T Cannonball!|QID|27987|M|73.07,60.92|N|To Sergeant Gray.|
 T Ghostbuster|QID|27978|M|73.07,60.92|N|To Sergeant Gray.|
 T Taking the Overlook Back|QID|27991|M|73.07,60.92|N|To Sergeant Gray.|
 T WANTED: Foreman Wellson|QID|27975|M|73.07,60.92|N|To Sergeant Gray.|
-T Watch Out For Splinters|QID|27973|M|73.07,60.92|N|To Sergeant Gray.|
+T Watch Out For Splinters!|QID|27973|M|73.07,60.92|N|To Sergeant Gray.|
 
 T First Lieutenant Connor|QID|27967|M|74.7,59.56|N|To Lieutenant Farnsworth.|
 T The Forgotten|QID|27949|M|74.7,59.56|N|To Lieutenant Farnsworth.|
