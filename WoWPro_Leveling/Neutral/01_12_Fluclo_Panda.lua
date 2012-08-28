@@ -1,8 +1,45 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2012-07-06 21:42
+-- Who: Ludovicus Maior
+-- Log: Remove the faction tags at the end sequence.
+
+-- URL: http://wow-pro.com/node/3483/revisions/25031/view
+-- Date: 2012-07-06 21:10
+-- Who: Ludovicus Maior
+-- Log: Credited Fluclo with the guide, added successor zones.
+
+-- URL: http://wow-pro.com/node/3483/revisions/25029/view
+-- Date: 2012-07-03 19:06
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25028/view
+-- Date: 2012-07-03 19:03
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25027/view
+-- Date: 2012-07-03 19:00
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25026/view
+-- Date: 2012-07-02 22:10
+-- Who: Fluclo
+-- Log: Guide up to the bugged Zhao-Ren
+
+-- URL: http://wow-pro.com/node/3483/revisions/25020/view
+-- Date: 2012-07-01 14:20
+-- Who: Ludovicus Maior
+-- Log: Initial Version
+
 WoWPro.Leveling:RegisterGuide('FlucloPanda', 'The Wandering Isle', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
 return [[
 
 ; Non Pandarian can't get here.
-N Not Available |QID|99999|M|N|Sorry, but The Wandering Isle is only available to starting characters of the Pandaria race. Please select another guide.|R|Gnome,Dwarf,Draenei,Night Elf,Human,Worgen,BloodElf,Goblin,Tauren,Orc,Troll,Forsaken|
+N Not Available |QID|99999|M|N|Sorry, but The Wandering Isle is only available to starting characters of the Pandaria race.  Please select another guide.|R|Gnome,Dwarf,Draenei,Night Elf,Human,Worgen,BloodElf,Goblin,Tauren,Orc,Troll,Forsaken|
 
 ; When you start your character, the quest is automatically applied to your quest book so there is no need for an A step.
 T Much to Learn |QID|30039|M|56.66,18.17|N|To Master Shang Xi.|C|Monk|
@@ -136,7 +173,7 @@ A The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|From Aysa Cloudsinge
 C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the ground.\n\nBe careful, when you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes.|NC|S|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|S|
 C The Lesson of Dry Fur|QID|29661|N|Head to the other side of the bridge to the north, and find an exit pole (the poles on the edge of the water), jump onto one, then jump onto other poles until you reach the bell.|NC|
-C Stronger Than Reeds|QID|29662|M||N|Collect the Tearwood Reeds from the ground. When you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes.|NC|US|
+C Stronger Than Reeds|QID|29662|M||N|Collect the Tearwood Reeds from the ground.  When you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes.|NC|US|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|US|
 
 T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|
@@ -169,7 +206,7 @@ C A New Friend|QID|29679|M|79.10,38.20|N|Walk into the Water Spouts created by S
 T A New Friend|QID|29679|M|79.82,39.34|N|To Aysa Cloudsinger (now at the edge of the Pool of Reflection)|
 
 A The Source of Our Livelihood|QID|29680|M|79.82,39.34|N|From Aysa Cloudsinger|
-T The Source of Our Livelihood|QID|29680|M|79.19,45.31;68.89,65.00|N|To Ji Firepaw at Dai-Lo Farmstead. A Cart at the first coordinates will take you to him.|
+T The Source of Our Livelihood|QID|29680|M|79.19,45.31;68.89,65.00|N|To Ji Firepaw at Dai-Lo Farmstead.  A Cart at the first coordinates will take you to him.|
 
 A Rascals|QID|29769|M|68.89,65.00|N|From Ji Firepaw|
 A Still Good!|QID|29770|M|68.13,66.40|N|From Gao Summerdraft|
@@ -238,7 +275,7 @@ T Do No Evil|QID|29780|N|To Ji Firepaw|S|
 C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundle from where Ruk-Ruk was|US|
 T Do No Evil|QID|29780|N|To Ji Firepaw|US|
 T Monkey Advisory Warning|QID|29781|N|To Ji Firepaw|
-C The Direct Solution|QID|29779|M|24.44,30.62|N|Finish killing Fe-Fang Hozen. Ji Firepaw has a great AOE kick, so feel free to pull a few.|US|
+C The Direct Solution|QID|29779|M|24.44,30.62|N|Finish killing Fe-Fang Hozen.  Ji Firepaw has a great AOE kick, so feel free to pull a few.|US|
 T The Direct Solution|QID|29779|N|To Ji Firepaw|
 
 T Stronger Than Bone|QID|29782|M|29.92,39.77|N|To Jojo Ironbrow|
@@ -251,7 +288,7 @@ C Dafeng, the Spirit of Air|QID|29785|M|28.30,63.75|N|Head on south along the ro
 T Dafeng, the Spirit of Air|QID|29785|M|24.64,69.78|N|To Dafeng|
 
 A Battle for the Skies |QID|29786|M|24.77,69.77|N|From Aysa Cloudsinger|
-C Battle for the Skies |QID|29786|M|30.47,59.81|N|Follow Aysa outside, and click the Firework Launchers until Zhao-Ren is dead. Avoid the blue pools which hurt (a lot!)|
+C Battle for the Skies |QID|29786|M|30.47,59.81|N|Follow Aysa outside, and click the Firework Launchers until Zhao-Ren is dead.  Avoid the blue pools which hurt (a lot!)|
 T Battle for the Skies |QID|29786|M|30.00,60.37|N|To Master Shang Xi|
 
 A Worthy of Passing|QID|29787|M|30.00,60.37|N|From Master Shang Xi|
@@ -317,9 +354,9 @@ A Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|US|
 A From Bad to Worse|QID|29665|M|42.30,86.35|N|From Jojo Ironbrow|
 
 C From Bad to Worse|QID|29665|M|38.40,83.60|N|Kill Deepscale Tormentors|S|
-C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp. Repeat three times|NC|S|
+C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|S|
 C Medical Supplies|QID|29797|M|38.40,83.60|N|Collect the Medical Supplies lying about the crash site.|NC|
-C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp. Repeat three times|NC|US|
+C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|US|
 C From Bad to Worse|QID|29665|M|38.40,83.60|N|Finish killing Deepscale Tormentors|US|
 
 T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|S|
@@ -348,29 +385,28 @@ A A New Fate|QID|31450|M|51.46,48.33|N|From Spirit of Master Shang Xi|
 C A New Fate|QID|31450|N|Speak to Spirit of Master Shang Xi, and choose your destiny!|NC|
 T A New Fate|QID|31450|N|Straight in front of you, and welcome to the mainland.|
 
-;It may be necessary to put the next steps into a new file, as your "Faction" isn't known when you first load this guide.
+N Destiny Chosen|N|Skip the quest that does not apply to you.|
+A Joining the Horde|QID|31012|M|45.58,12.61|N|From Ji Firepaw|Z|Durotar|
+A Joining the Alliance|QID|30987|M|32.90,50.95|N|From Aysa Cloudsinger|Z|Elwynn Forest|
 
-A Joining the Horde|QID|31012|M|45.58,12.61|N|From Ji Firepaw|FACTION|HORDE|Z|Durotar|
-T Joining the Horde|QID|31012|M|48.14,70.54|N|To Garrosh Hellscream|FACTION|HORDE|Z|Orgrimmar|
+T Joining the Horde|QID|31012|M|48.14,70.54|N|To Garrosh Hellscream|Z|Orgrimmar|
+T Joining the Alliance|QID|30987|M|85.78,31.70|N|To King Varian Wrynn, in Stormwind Keep|Z|Stormwind|
 
-A The Horde Way|QID|31013|M|48.14,70.54|N|To Garrosh Hellscream|FACTION|HORDE|Z|Orgrimmar|
-C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream|FACTION|HORDE|Z|Orgrimmar|NC|
-T The Horde Way|QID|31013|M|70.61,31.47|N|To Garrosh Hellscream, who has moved to the Valley of Honor|FACTION|HORDE|Z|Orgrimmar|
+A The Horde Way|QID|31013|M|48.14,70.54|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|
+C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream|Z|Orgrimmar|NC|
+T The Horde Way|QID|31013|M|70.61,31.47|N|To Garrosh Hellscream, who has moved to the Valley of Honor|Z|Orgrimmar|
 
-A Hellscream's Gift|QID|31014|M|70.61,31.47|N|To Garrosh Hellscream|FACTION|HORDE|Z|Orgrimmar|
-C Hellscream's Gift|QID|31014|M|70.60,30.90|N|Head towards the door behind Garrosh Hellscream, and you'll get teleported to The Ring of Valor. Just fight the same target as Ji Firepaw, and run when you are told to.|FACTION|HORDE|Z|Orgrimmar|
-T Hellscream's Gift|QID|31014|M|48.14,70.54|N|To Garrosh Hellscream, who has moved back to the Valley of Strength|FACTION|HORDE|Z|Orgrimmar|
+A Hellscream's Gift|QID|31014|M|70.61,31.47|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|
+C Hellscream's Gift|QID|31014|M|70.60,30.90|N|Head towards the door behind Garrosh Hellscream, and you'll get teleported to The Ring of Valor. Just fight the same target as Ji Firepaw, and run when you are told to.|Z|Orgrimmar|
+T Hellscream's Gift|QID|31014|M|48.14,70.54|N|To Garrosh Hellscream, who has moved back to the Valley of Strength|Z|Orgrimmar|
 
-A Joining the Alliance|QID|30987|M|32.90,50.95|N|From Aysa Cloudsinger|FACTION|ALLIANCE|Z|Elwynn Forest|
-T Joining the Alliance|QID|30987|M|85.78,31.70|N|To King Varian Wrynn, in Stormwind Keep|FACTION|ALLIANCE|Z|Stormwind|
+A The Alliance Way|QID|30988|M|85.78,31.70|PRE|30987|N|From King Varian Wrynn|Z|Stormwind|
+C The Alliance Way|QID|30988|M|82.59,28.07|N|Listen to King Varian Wrynn|Z|Stormwind|
+T The Alliance Way|QID|30988|M|82.59,28.07|N|To King Varian Wrynn, who has moved out to the garden|Z|Stormwind|
 
-A The Alliance Way|QID|30988|M|85.78,31.70|N|From King Varian Wrynn|FACTION|ALLIANCE|Z|Stormwind|
-C The Alliance Way|QID|30988|M|82.59,28.07|N|Listen to King Varian Wrynn|FACTION|ALLIANCE|Z|Stormwind|
-T The Alliance Way|QID|30988|M|82.59,28.07|N|To King Varian Wrynn, who has moved out to the garden|FACTION|ALLIANCE|Z|Stormwind|
-
-A An Old Pit Fighter|QID|30989|M|82.59,28.07|N|From King Varian Wrynn|FACTION|ALLIANCE|Z|Stormwind|
-C An Old Pit Fighter|QID|30989|M|82.59,28.07|N|The King will want you to fight him, but every hit will miss/dodge, after a short while, the fight will be over.|FACTION|ALLIANCE|Z|Stormwind|
-T An Old Pit Fighter|QID|30989|M|85.78,31.70|N|To King Varian Wrynn, who has moved back into the Keep|FACTION|ALLIANCE|Z|Stormwind|
+A An Old Pit Fighter|QID|30989|M|82.59,28.07|PRE|30987|N|From King Varian Wrynn|Z|Stormwind|
+C An Old Pit Fighter|QID|30989|M|82.59,28.07|N|The King will want you to fight him, but every hit will miss/dodge, after a short while, the fight will be over.|Z|Stormwind|
+T An Old Pit Fighter|QID|30989|M|85.78,31.70|N|To King Varian Wrynn, who has moved back into the Keep|Z|Stormwind|
 
 ]]
 

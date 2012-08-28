@@ -1,4 +1,18 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2012-08-28 19:06
+-- Who: Ludovicus Maior
+-- Log: correct urls
+
+-- URL: http://wow-pro.com/node/3487/revisions/25051/view
+-- Date: 2012-08-28 19:05
+-- Who: Ludovicus Maior
+-- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+
 WoWPro.Leveling:RegisterGuide('EmmJad8586', 'The Jade Forest', 'Emmaleah', '85', '86', 'EmmVal8687', 'Horde', function()
 return [[
 

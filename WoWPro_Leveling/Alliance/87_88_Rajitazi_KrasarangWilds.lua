@@ -1,4 +1,18 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2012-08-28 19:11
+-- Who: Ludovicus Maior
+-- Log: update urls
+
+-- URL: http://wow-pro.com/node/3488/revisions/25053/view
+-- Date: 2012-08-28 19:10
+-- Who: Ludovicus Maior
+-- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+
 WoWPro.Leveling:RegisterGuide('RajKra8788', 'Krasarang Wilds', 'Rajitazi', '87', '88', 'EmmKun8889', 'Alliance', function()
 return [[
 

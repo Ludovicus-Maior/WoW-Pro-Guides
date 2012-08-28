@@ -1,5 +1,38 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2012-08-28 19:47
+-- Who: Ludovicus Maior
+-- Log: Test play by Laotseu on Sun, 2012-08-26 22:33. 
+
+-- URL: http://wow-pro.com/node/3485/revisions/25048/view
+-- Date: 2012-08-28 18:26
+-- Who: Ludovicus Maior
+-- Log: As per Emmaleah
+
+-- URL: http://wow-pro.com/node/3485/revisions/25037/view
+-- Date: 2012-07-23 09:09
+-- Who: Gethe
+
+-- URL: http://wow-pro.com/node/3485/revisions/25036/view
+-- Date: 2012-07-15 01:12
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3485/revisions/25035/view
+-- Date: 2012-07-13 17:03
+-- Who: Ludovicus Maior
+-- Log: Corrected line breaks.
+
+-- URL: http://wow-pro.com/node/3485/revisions/25034/view
+-- Date: 2012-07-13 16:43
+-- Who: Ludovicus Maior
+-- Log: Initial Version from Emmaleah
+
 WoWPro.Leveling:RegisterGuide('EmmVal8688', 'Valley of the Four Winds', 'Emmaleah', '86', '88', 'EmmKun8889', 'Alliance', function() return [[
+
 
 R Valley of the Four Winds|N|Make your way to Valley of the Four Winds.|
 A Chen and Li Li|QID|29907|M|86,22|N|From Chen Stormstout.|

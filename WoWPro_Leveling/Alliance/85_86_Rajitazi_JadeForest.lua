@@ -1,4 +1,23 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2012-08-28 19:44
+-- Who: Ludovicus Maior
+-- Log: Laotseu 6 days ago Play testing the Alliance The Jade Forest guide. 
+
+-- URL: http://wow-pro.com/node/3486/revisions/25050/view
+-- Date: 2012-08-28 19:03
+-- Who: Ludovicus Maior
+-- Log: Fix url references.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25049/view
+-- Date: 2012-08-28 19:00
+-- Who: Ludovicus Maior
+-- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+
 WoWPro.Leveling:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', '85', '86', 'EmmVal8687', 'Alliance', function()
 return [[
 
@@ -177,7 +196,7 @@ C A Perfect Match|QID|29903|NC|M|60.44,87.70|N|Speak to the Aqualytes and give t
 T A Perfect Match|QID|29903|M||58.9,81.7|N|To Admiral Taylor.|
 A Bigger Fish to Fry|QID|29904|M||58.9,81.7|N|From Admiral Taylor.|
 
-C Bigger Fish to Fry|QID|29904|M|63.18,80.12|N|Head for the Booboo Wilds and kill wildlife. A trainer will accompagny you and level every two kills. If only it was that easy for us Smiling.|
+C Bigger Fish to Fry|QID|29904|M|63.18,80.12|N|Head for the Booboo Wilds and kill wildlife. A trainer will accompagny you and level every two kills. If only it was that easy for us.|
 T Bigger Fish to Fry|QID|29904|M|58.85,81.65|N|To Admiral Taylor.|
 A Let Them Burn|QID|29905|M|58.85,81.65|N|From Admiral Taylor.|
 A Carp Diem|QID|29906|M|58.85,81.65|N|From Admiral Taylor.|

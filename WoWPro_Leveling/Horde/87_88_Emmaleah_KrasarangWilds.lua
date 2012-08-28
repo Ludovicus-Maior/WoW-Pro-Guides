@@ -1,4 +1,18 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2012-08-28 19:16
+-- Who: Ludovicus Maior
+-- Log: Correct URLS
+
+-- URL: http://wow-pro.com/node/3489/revisions/25055/view
+-- Date: 2012-08-28 19:14
+-- Who: Ludovicus Maior
+-- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+
 WoWPro.Leveling:RegisterGuide('EmmKra8788', 'Krasarang Wilds', 'Emmaleah', '87', '88', 'EmmKun8889', 'Horde', function()
 return [[
 
