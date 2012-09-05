@@ -12,6 +12,8 @@
   <Script file="80_82_Arixan_Hyjal.lua"/>
   <Script file="82_83_Arixan_Deepholm.lua"/>
   <Script file="83_84_Arixan_Uldum.lua"/>
-  <Script file="86_88_Emmaleah_Valley4Winds.lua"/>
+  <Script file="86_87_Emmaleah_Valley4Winds.lua"/>
   <Script file="88_89_Emmaleah_KunLaiSummit.lua"/>
+  <Script file="89_90_Emmaleah_TownlongSteppes.lua"/>
+  <Script file="89_90_Emmaleah_DreadWastes.lua"/>
 </Ui>
