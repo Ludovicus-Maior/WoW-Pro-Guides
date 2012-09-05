@@ -31,20 +31,19 @@
 -- Who: Ludovicus Maior
 -- Log: Initial Version from Emmaleah
 
-WoWPro.Leveling:RegisterGuide('EmmVal8688', 'Valley of the Four Winds', 'Emmaleah', '86', '88', 'EmmKun8889', 'Alliance', function() return [[
+WoWPro.Leveling:RegisterGuide('EmmVal8687', 'Valley of the Four Winds', 'Emmaleah', '86', '87', 'EmmKra8788', 'Neutral', function()
+return [[
 
-
-R Valley of the Four Winds|N|Make your way to Valley of the Four Winds.|
+R Valley of the Four Winds|N|If you aren't already there, make your way to Valley of the Four Winds.|
+T They Call Him... Stormstout|QID|32019|M|86,22|N|To Chen Stormstout.|
 A Chen and Li Li|QID|29907|M|86,22|N|From Chen Stormstout.|
-f Pang's Stead|QID|20907|M|84.1,21|N|From the flighmaster.|
+f Pengs's Stead flightpath|QID|20907|M|84.1,21|N|From Princeton.|
 T Chen and Li Li|QID|29907|M|83.7,21.0|N|To Pang Thunderfoot.|
 A A Seemingly Endless Nuisance|QID|29908|M|84,21|N|From Pang Thunderfoot.|
-A A poor grasp of the basics|QID|29877|M|82.7,21.2|N|From Muno the Farmhand.|
-
+A A Poor Grasp of the Basics|QID|29877|M|82.7,21.2|N|From Muno the Farmhand.|
 C A Seemingly Endless Nuisance|QID|29908|S|M|82,21|N|From Pang Thunderfoot.|
 C A Poor Grasp of the Basics|QID|29877|NC|M|82,21||
 C A Seemingly Endless Nuisance|QID|29908|US|M|82,21|N|From Pang Thunderfoot.|
-
 T A Poor Grasp of the Basics|QID|29877|M|82.21,21.27|;***
 T A Seemingly Endless Nuisance|QID|29908|M|84,21|N|To Pang Thunderfoot.|;***
 A Low Turnip Turnout|QID|29909|M|84,21|N|From Pang Thunderfoot.|;***
@@ -76,11 +75,11 @@ l Pick up the Extra Spicy Tofy|QID|29912|L|75256|M|84.0,22.0|
 C Ang's Giant Pink Turnip|QID|29912|NC|QO|Launch a pink turnip: 1/1|M|84.3,22|N|Have Fanny hit it average.|
 C Ang's Summer Watermelon|QID|29912|NC|QO|Launch a watermelon: 1/1|M|82.96,21.5|N|Have Fanny hit it softly.|
 C Pang's Extra-Spicy Tofu|QID|29912|NC|QO|Launch the Extra-Spicy Tofu: 1/1|M|82.96, 21.5|N|Have Fanny hit it very hard|
+C Send me flying|QID|29912|NC|QO| |M|82.96, 21.5|N|If you want to save your self the run, have her hit you as hard as she can.|
 
-T The Fabulous Miss Fanny|QID|29912|M|75.2,24.0|N|To LiangThunderfoot.|
+T The Fabulous Miss Fanny|QID|29912|M|75.2,24.0|N|To Liang Thunderfoot.|
 A The Meat They'll Eat|QID|29913|M|75.2,24.1|N|From Liang Thunderfoot.|
 A Back to the Sty|QID|29914|M|75.2,24.1|N|From Liang Thunderfoot.|
-
 C Mushan Shoulder Steak |QID|29913|S|QO|Mushan Shoulder Steak: 4/4|M|72,29|
 C Turtle Meat Scrap |QID|29913|S|QO|Turtle Meat Scrap: 80/80|M|67.6,30.1|
 C Pick up Smelly |QID|29914|NC|QO|Smelly: 1/1|M|70.5,29.5|
@@ -90,7 +89,7 @@ C Pick up Jian |QID|29914|NC|QO|Jian: 1/1|M|69.9,24.3|
 f Grassy Cline|M|70.8,24.2|N|From Kom of the Mountain Winds.|
 C The Meat They'll Eat |QID|29913|US|QO|Mushan Shoulder Steak: 4/4|M|72,29|
 
-T The Meat They'll Eat|QID|29913|M|70.6,24.3|N|To Liang Thunderfoot.|
+T The Meat They'll Eat|QID|29913|M|75.28,24.16|N|To Liang Thunderfoot.|
 T Back to the Sty|QID|29914|M|75.2,24.1|N|To Liang Thunderfoot.|
 A A Neighbor's Duty|QID|29915|M|75.2,24.1|N|From Liang Thunderfoot.|
 T A Neighbor's Duty|QID|29915|M|78.15,32.84|N|To Francis the Shepherd Boy.|
@@ -102,7 +101,7 @@ C Piercing Talons and Slavering Jaws|QID|29916|US|M|82.84,32.34|
 T Piercing Talons and Slavering Jaws|QID|29916|M|78.17,32.78|N|To Francis the Shepherd Boy.|
 T Lupello|QID|29917|M|78.17,32.78|N|To Francis the Shepherd Boy.|
 A A Lesson in Bravery|QID|29918|M|78.17,32.78|N|From Shang Thunderfoot.|
-C A Lesson in Bravery|QID|29918|T|Great White Plainshawk|U|75208|M|77.32,26.39|N|Target him then use the Rancher's Lariat to get on his back. When you get cought in a claw, you will need to press a special button that appears to get back on his back.|
+C A Lesson in Bravery|QID|29918|T|Great White Plainshawk|U|75208|M|77.32,26.39|N|Target him then use the Rancher's Lariat to get on his back. When you get cought in a claw, you will need to press the a special action button  (keybind it) that appears, to get back on his back.|
 T A Lesson in Bravery|QID|29918|M|74.30,34.51|N|To Shang Thunderfoot.|
 A Great Minds Drink Alike|QID|29919|M|75.30,35.55|N|From Chen Stormstout.|
 C Great Minds Drink Alike|QID|29919|M|68.68,43.23|
@@ -124,7 +123,7 @@ A The Warren-Mother|QID|29946|M|68.87,43.17|N|From Chen Stormstout.|
 A Thieves to the Core|QID|29948|M|68.67,43.24|N|From Mudmug.|
 C Thieves to the Core|QID|29948|S|NC|M|67.75,36.37|
 C Crouching Carrot, Hidden Turnip|QID|29947|S|U|76370|M|69.15,39.41|
-K Chufa|QID|29946|T|Chufa|M|68.09,36.93|
+K Chufa|QID|29946|T|Chufa|QO|Chufa slain: 1/1|M|68.09,36.93|
 C Crouching Carrot, Hidden Turnip|QID|29947|US|U|76370|M|69.15,39.41|
 C Thieves to the Core|QID|29948|S|NC|M|67.75,36.37|
 T Crouching Carrot, Hidden Turnip|QID|29947|M|68.83,43.37|N|To Li Li.|
@@ -133,7 +132,7 @@ T The Warren-Mother|QID|29946|M|68.82,43.08|N|To Chen Stormstout.|
 A Legacy|QID|29949|M|68.84,43.20|N|From Chen Stormstout.|
 T Legacy|QID|29949|M|68.79,43.46|N|To Li Li.|
 A Li Li's Day Off|QID|29950|M|68.79,43.46|N|From Li Li.|
-A Muddy Water|QID|29951|M|68.66,43.12|N|From Mudmug.|
+A Muddy Water|QID|29951|M|68.66,43.12|N|From Mudmug.|M|Wait a minute or two for the dialog to finish, then this quest becomes available.|
 C Li Li's Day Off|QID|29950|U|76350|QO|Bring Li Li to Huangtze Falls: 1/1|M|74.37,42.65|
 C Muddy Water|QID|29951|U|76362|M|69.97,57.89|N|Find a place with about 10 muddy water pools close together.|
 A The Moth Rebellion|QID|30059|M|63.62,58.37|N|From Journeyman Chu.|
@@ -149,29 +148,29 @@ T The Moth Rebellion|QID|30059|M|63.57,58.48|N|To Journeyman Chu.|
 A Mothran!|QID|30058|M|63.57,58.48|N|From Master Goh.|
 C Mothran!|QID|30058|M|64.4,58.0|
 T Mothran!|QID|30058|M|63.66,58.42|N|To Master Goh.|
-A The Golden Dream|QID|29581|M|59.88,27.82|N|From Zhang Yue.|
 C Li Li's Day Off|QID|29950|U|76350|M|61.41,36.02|
 T Clever Ashyo|QID|29871|M|61.29,34.09|N|To Clever Ashyo.|
 A Ashyo's Vision|QID|29577|M|61.29,34.09|N|From Clever Ashyo.|
 A Bottletoads|QID|29757|M|60.54,33.82|N|From Yan.|
 A Watery Woes|QID|30267|M|60.94,32.93|N|From Gladecaster Lang.|
-A Snap Judgment|QID|29600|M|59.85,27.84|N|From Zhang Yue.|
 C Ashyo's Vision|QID|29577|NC|M|59.28,27.62|N|Talk to Clever Ashyo.|
 T Ashyo's Vision|QID|29577|M|59.88,27.82|N|To Zhang Yue.|
+A Snap Judgment|QID|29600|M|59.85,27.84|N|From Zhang Yue.|
+A The Golden Dream|QID|29581|M|59.88,27.82|N|From Zhang Yue.|
 C Snap Judgment|QID|29600|S|M|60.9,25.7|
 C Bottletoads|QID|29757|NC|M|64.82,25.07|
 C Snap Judgment|QID|29600|US|M|60.9,25.7|
-T Snap Judgment|QID|29600|M|59.88,27.82|N|To Zhang Yue.|
 K Kill Krosh and loot|QID|29758|S|L|83767|M|65.29,26.45|N|Use Krosh's Back.|
 C The Golden Dream|QID|29581|NC|M|65.29,26.45|
 K Kill Krosh and loot|QID|29758|US|L|83767|M|65.29,26.45|N|Use Krosh's Back.|
 A Guess Whose Back|QID|29758|U|83767|M|65.29,26.45|N|From Krosh's Back.|
+T Snap Judgment|QID|29600|M|59.88,27.82|N|To Zhang Yue.|
 T Bottletoads|QID|29757|M|60.64,33.77|N|To Yan.|
 T Guess Whose Back|QID|29758|M|60.64,33.77|N|To Yan.|
 T The Golden Dream|QID|29581|M|60.64,33.77|N|To Yan.|
 
-C Watery Woes|QID|30267|S|N|Kill Cranes and Loot Fireflies as you run up to Mudmug's place.|
-R Mudmug's Place|QID|29950|M|68.87,46.3|
+C Watery Woes|QID|30267|S|N|Kill Cranes and Loot Fireflies as you run up to Mudmug's place, don't try to finish it as we will have another quest in the area.|
+R Mudmug's Place|QID|29950|M|68.87,46.3|CC|
 T Li Li's Day Off|QID|29950|M|68.74,43.28|N|To Li Li.|
 T Muddy Water|QID|29951|M|68.74,43.28|N|To Mudmug.|
 A Broken Dreams|QID|29952|M|68.83,43.36|N|From Chen Stormstout.|
@@ -185,7 +184,23 @@ A Li Li and the Grain|QID|30048|M|55.78,49.50|N|From Chen Stormstout.|
 A Doesn't Hold Water|QID|30049|M|55.78,49.50|N|From Chen Stormstout.|
 A Children of the Water |QID|32045|M|55.1,47.4|N|From Stonecarver Mac|; Halfhill
 f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga.|
-r Repair/Restock|QID|30049|M|53.69,51.17|N|At Sungshin Ironpaw.|
+
+A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it opens up the Quartermaster which gives you a place to repair.|
+C A Helping Hand|QID|30252|M|52.8,49.81|NC|
+T A Helping Hand|QID|30252|M|52.67,47.96|To Farmer Yoon.|
+A Learn and Grow II:Tilling and Planting|QID|30254|M|52.23,48,83|From Farmer Yoon.|
+C Learn and Grow II:Tilling and Planting|QID|30254|M|52.02,48.30|NC|U|80295|N|Click the untilled soil to till, then target it and use the seeds.|
+T Learn and Grow II:Tilling and Planting|QID|30254|M|52.23,48,83|To Farmer Yoon.|
+A Learn and Grow III:Tending Crops|QID|30255|M|52.23,48,83|From Farmer Yoon.|
+C Learn and Grow III:Tending Crops|QID|30255|M|52.02,48.30|NC|U|79104|N|Target the plants and use the watering can.|
+T Learn and Grow III:Tending Crops|QID|30255|M|52.23,48,83|To Farmer Yoon.|
+A Learn and Grow IV:Harvesting|QID|30256|M|52.23,48,83|From Farmer Yoon.|
+C Learn and Grow IV:Harvesting|QID|30256|M|52.02,48.30|NC|N|Pick the cabbages.|
+T Learn and Grow IV:Harvesting|QID|30256|M|52.23,48,83|To Farmer Yoon.|
+A Learn and Grow V:Halfhill Market|QID|30257|M|52.23,48,83|From Farmer Yoon.|
+C Learn and Grow V:Halfhill Market|QID|30257|M|52.75,48.07|NC|N|Pick a flower for Gina.|
+T Learn and Grow V:Halfhill Market|QID|30257|M|53.17,51.75|To Gina Mudclaw.|
+r Repair/Restock|QID30049|M| |N|Now we have the Quartermaster taling to us so we can repair.|
 
 T Doesn't Hold Water|QID|30049|M|54.19,38.65|N|To Mudmug.|
 A The Great Water Hunt|QID|30051|M|54.19,38.65|N|From Mudmug.|
@@ -196,13 +211,13 @@ K Kill Succula |QID|32045|T|Succula|QO|Succula slain: 1/1|M|51.4,26.9|; The Hear
 C The Great Water Hunt|QID|30051|US|NC|M|53.20,31.92|
 T The Great Water Hunt|QID|30051|M|53.32,32.16|N|To Mudmug.|
 A Barreling Along|QID|30172|M|53.32,32.16|N|From Mudmug.|
-C Watery Woes|QID|30267|US|N|Kill Cranes and Loot Fireflies as you run up to Mudmug's place.|
+C Watery Woes|QID|30267|US|
 T Watery Woes|QID|30267|M|60.95,33|N|To Gladecaster Lang.|
-C Speak with Gardener Fran|QID|30053|QO|Speak with Gardener Fran: 1/1|M|48.31,33.85|
+C Speak with Gardener Fran|QID|30053|NC|QO|Speak with Gardener Fran: 1/1|M|48.31,33.85|
 A Gardener Fran and the Watering Can|QID|30050|US|M|48.20,33.50|N|From Gardener Fran.|
 C Gardener Fran and the Watering Can|QID|30050|NC|U|77281|M|47.58,32.47|N|Talk to Gardener Fran to start. You can do this while mounted.|
 T Gardener Fran and the Watering Can|QID|30050|M|48.41,33.53|N|To Gardener Fran.|
-C Speak with Den Mudclaw|QID|30053|QO|Speak with Den Mudclaw: 1/1|M|44.26,34.33|
+C Speak with Den Mudclaw|QID|30053|NC|QO|Speak with Den Mudclaw: 1/1|M|44.26,34.33|
 A The Farmer's Daughter|QID|30056|M|44.35,34.19|N|From Den Mudclaw.|
 A Enough is Ookin' Enough|QID|30054|M|44.19,34.21|N|From Mung-Mung.|
 C Enough is Ookin' Enough|QID|30054|S|M|45.44,36.02|
@@ -212,10 +227,10 @@ A Seeing Orange|QID|30057|M|41.30,38.16|N|From Mina Mudclaw.|
 C Enough is Ookin' Enough|QID|30054|US|M|42,33|
 T Enough is Ookin' Enough|QID|30054|M|44.21,34.19|N|To Mung-Mung.|
 C Seeing Orange|QID|30057|M|44.35,34.52|
-T Seeing Orange|QID|30057|M|44.66,34.10|N|To Haohan Mudclaw. sometimes he is in Halfhill instead of here, he leaves a note when he leaves.|
+T Seeing Orange|QID|30057|M|44.21,34.29|N|To Den Mudclaw.|
 
-C Speak with Gai Lan|QID|30053|QO|Speak with Gai Lan: 1/1|M|38.6,51.6|
-T Hop Hunting|QID|30053|M|38.56,51.66|N|UI - turn in.|
+C Speak with Gai Lan|QID|30053|NC|QO|Speak with Gai Lan: 1/1|M|38.6,51.6|
+T Hop Hunting|QID|30053|M|38.56,51.66|N|To UI Alert.|
 A Weed War|QID|30052|M|38.56,51.66|N|From Gai Lan.|
 C Weed War|QID|30052|NC|M|38.40,51.04|N|Talk to Gai Lan to start.|
 T Weed War|QID|30052|M|38.63,51.69|N|To Gai Lan.|
@@ -225,11 +240,13 @@ C Barreling Along|QID|30172|M|54.19,38.69;55.7,49.2|N|If you have lost Mudmag, y
 
 T Barreling Along|QID|30172|M|55.99,49.51|N|To Chen Stormstout.|
 T Stormstout's Hops|QID|30055|M|55.99,49.51|N|To Chen Stormstout.|
-A The Road to Kun-Lai|QID|31254|FACTION|Alliance|M|70.1,23.5|N|From Highlord Grummle, require level 87. Skip it if you are to low level.|
-A The Road to Kun-Lai|QID|31255|FACTION|Horde|M|70.1,23.5|N|From Highlord Grummle, require level 87. Skip it if you are to low level.|
 T Children of the Water |QID|32045|M|55.1,47.4|N|To Stonecarver Mac|; Halfhill
+A The Road to Kun-Lai|QID|31254|FACTION|Alliance|M|55.42,50.1|N|From Messenger Grummle, require level 87. Skip it if you are to low level.|
+A The Road to Kun-Lai|QID|31255|FACTION|Horde|M|55.42,50.1|N|From Messenger Grummle, require level 87. Skip it if you are to low level.|
+A Temple of the White Tiger|QID|31392|FACTION|Alliance|M|55.96,51.84|N|From Hopsmaster Chang.|N|This may also have a minimum level 87.|
+A Temple of the White Tiger|QID|31393|FACTION|Horde|M|55.96,51.84|N|From Hopsmaster Chang.|N|This may also have a minimum level 87.|
 
-R Imperial Grainary|QID|30048|M|52.72,62.82|
+R The Imperial Granary|QID|30048|M|52.72,62.82|
 T Li Li and the Grain|QID|30048|M|52.62,62.79|N|To Li Li.|
 A Taste Test|QID|30031|M|52.62,62.79|N|From Li Li.|
 A Out of Sprite|QID|30030|M|52.66,62.90|N|From Grainer Pan.|
@@ -239,7 +256,7 @@ C Taste the Malted Grain|QID|30031|NC|QO|Malted Grain: 1/1|M|51,62.5|
 C Taste the Aged Grain|QID|30031|NC|QO|Aged Grain: 1/1|
 C Taste the Light Grain|QID|30031|NC|QO|Light Grain: 1/1|M|53.6,62|
 C Taste the Fresh Grain|QID|30031|NC|QO|Fresh Grain: 1/1|M|63.4,64.6|
-K Cornan|QID|30030|T|Cornan|M|51.42,64.38|N|He's up in the Grainary.|
+K Cornan|QID|30030|T|Cornan|QO|Cornan slain: 1/1|M|51.42,64.38|N|He's up in the Grainary.|
 C Wee Little Shenanigans|QID|30029|US|M|52.38,61.54|
 T Taste Test|QID|30031|M|52.67,62.99|N|To Li Li.|
 T Out of Sprite|QID|30030|M|52.67,62.99|N|To Grainer Pan.|
@@ -247,15 +264,15 @@ T Wee Little Shenanigans|QID|30029|M|52.67,62.99|N|To Grainlord Kai.|
 A The Quest for Better Barley|QID|30032|M|52.67,62.99|N|From Grainlord Kai.|
 A Grain Recovery|QID|30028|M|52.67,62.99|N|From Grainlord Kai.|
 C Grain Recovery|QID|30028|NC|M|54.62,67.84|
-C The Quest for Better Barley|QID|30032|M|51.29,77.54;53.31,75.14;48.63,26.96|CC|N|Use the rope on the ground|
+C The Quest for Better Barley|QID|30032|NC|M|51.29,77.54;53.31,75.14;48.63,26.96|CC|N|Use the rope on the ground, come back to same spot for rope up.|
 T Grain Recovery|QID|30028|M|52.76,62.91|N|To Grainlord Kai.|
 T The Quest for Better Barley|QID|30032|M|52.76,62.91|N|To Li Li.|
 A The Chen Taste Test|QID|30047|M|52.76,62.91|N|From Li Li.|
 
-R Halfhill Market|QID|30047|M|56.1,50.0|
+R Halfhill|QID|30047|M|56.1,50.0|
 T The Chen Taste Test|QID|30047|M|55.91,49.46|N|To Chen Stormstout.|
 A The Emperor|QID|30073|M|55.91,49.46|N|From Chen Stormstout.|
-C The Emperor|QID|30073|M|55.91,49.46|N|Wait for him to finsih brewing|
+C The Emperor|QID|30073|M|55.91,49.46|N|Wait for him to finish brewing|
 T The Emperor|QID|30073|M|55.91,49.46|N|To Chen Stormstout.|
 A Knocking on the Door|QID|30074|M|55.91,49.46|N|From Chen Stormstout.|
 
@@ -264,7 +281,7 @@ T Knocking on the Door|QID|30074|M|32.34,68.56|N|To Chen Stormstout.|
 A The Fanciest Water|QID|30076|M|32.32,68.27|N|From Mudmug.|
 A Barrels, Man|QID|30077|M|32.32,68.47|N|From Li Li.|
 A Clear the Way|QID|30075|M|32.17,68.30|N|From Chen Stormstout.|
-C Clear the Way|QID|30075|S|M|33.30,68.40|
+C Clear the Way|QID|30075|S|M|33.30,68.40|N|Use Special Action Button to un-trap yourself from barrels.|
 C The Fanciest Water|QID|30076|S|M|37.31,70.38|
 C Barrels, Man|QID|30077|NC|M|34.39,67.52|
 C The Fanciest Water|QID|30076|US|M|37.31,70.38|
@@ -273,7 +290,7 @@ T Clear the Way|QID|30075|M|36.11,69.08|N|To Chen Stormstout.|
 T Barrels, Man|QID|30077|M|36.11,69.08|N|To Li Li.|
 T The Fanciest Water|QID|30076|M|36.11,69.08|N|To Mudmug.|
 A Cleaning House|QID|30078|M|36.11,69.08|N|From Chen Stormstout. Talk to Chen to go inside.|
-C Cleaning House|QID|30078|M|33.98,70.13|
+C Cleaning House|QID|30078|M|33.98,70.13|N|Tell Chin (or Li Li) that you are ready for next fight.|
 T Cleaning House|QID|30078|M|35.99,69.08|N|To Chen Stormstout.|
 A Into the Brewery|QID|30085|M|36.09,68.96|N|From Chen Stormstout. This is a dungeon quest|
 A Stoneplow Thirsts|QID|30117|M|36.18,68.23|N|From Emmi.|
@@ -294,7 +311,7 @@ A Mushan Mastery: Darkhide |QID|30184|M|16.0,82.5|N|From Hemet Nesingwary|
 
 C Stag Mastery |QID|32038|S|M|24.47,68.43|
 C Fox Mastery|QID|30182|S|M|24.47,68.43|
-K Darkhide |QID|30184|T|Darkhide|M|26.7,69.6|N|Kill Darkhide and get his head.|
+K Darkhide |QID|30184|T|Darkhide|L|79058|M|26.7,69.6|N|Kill Darkhide and get his head.|
 C Fox Mastery|QID|30182|US|M|24.47,68.43|
 C Stag Mastery |QID|32038|US|M|24.47,68.43|
 
@@ -307,9 +324,9 @@ C Tortoise Mastery |QID|30185|M|20.5,74.6|
 
 T Tortoise Mastery |QID|30185|M|19.9,75.7|N|To Hemet Nesingwary Jr.|
 A Parental Mastery|QID|30186|M|19.87,75.67|
-C Parental Mastery|QID|30186|M|24.59,74.27|N|Floow the Nesingwary in the underwater cave.|
+C Parental Mastery|QID|30186|M|24.59,74.27|N|Follow the Nesingwary in the underwater cave.|
 T Parental Mastery|QID|30186|M|16.02,82.50|N|To Hemet Nesingwary.|
-r Repair/Restock|QID|29872|M|15.98,82.61|N|At Hemet Nesingwary Jr..|
+r Repair/Restock|QID|29872|M|15.98,82.61|N|only merchant, no repairs.|
 
 R Stoneplow|QID|29872|M|20.23,58.52|
 f Stoneplow|M|20.23,58.52|N|From "Dragonwing"Dan.|
@@ -350,7 +367,7 @@ T Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.05,31.07|N|To Lin T
 T They Will Be Mist|QID|29985|M|18.25,31.22|N|To Master Bruised Paw.|
 T Fog Wards|QID|29986|M|18.25,31.22|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|From Master Bruised Paw.|
-C Unyielding Fists: Trial of Wood|QID|29987|M|18.25,32.18|N|Vehicle UI|
+C Unyielding Fists: Trial of Wood|QID|29987|M|18.25,32.18|N|Talk to the Master to phase into a vehicle type UI.|
 T Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|To Master Bruised Paw.|
 A A Taste For Eggs|QID|29988|M|18.24,31.26|N|From Master Bruised Paw.|
 C A Taste For Eggs|QID|29988|S|QO|Whitefisher Crane Egg: 4/4;Emperor Tern Egg: 10/10|M|24,45|; Singing Marshes
@@ -358,13 +375,14 @@ C A Taste For Eggs|QID|29988|QO|Hornbill Strider Egg: 1/1|M|26.9,39.1|; Singing 
 C A Taste For Eggs|QID|29988|US|QO|Whitefisher Crane Egg: 4/4;Emperor Tern Egg: 10/10|M|24,45|; Singing Marshes
 T A Taste For Eggs|QID|29988|M|18.22,31.34|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Stone|QID|29989|M|18.24,31.29|N|From Master Bruised Paw.|
-C Unyielding Fists: Trial of Stone|QID|29989|M|18.16,32.15|
+C Unyielding Fists: Trial of Stone|QID|29989|M|18.16,32.15|N|Talk to the Master to phase into a vehicle type UI.|
 T Unyielding Fists: Trial of Stone|QID|29989|M|18.27,31.27|N|To Master Bruised Paw.|
 A Training and Discipline|QID|29990|M|18.03,31.03|N|From Lin Tenderpaw.|
 
 R Stoneplow|QID|29990|M|19,56|
 T Training and Discipline|QID|29990|M|19.51,56.96|N|To Loon Mai.|
-F Congratulations, you finished Valley of the Four Winds.|QID|29873|M|20.24,58.64|N|Dragonwing Dan will give you a free flight into Krasarang Wilds, if you want it |
+F Congratulations.|QID|29873|M|20.24,58.64|N|You finished Valley of the Four Winds, Dragonwing Dan will give you a free flight (if you ask with in 20 min of turning in last quest) into Krasarang Wilds(a flight point you don't have yet). Next guide assumes you chose to go see Ken-Ken.|
 ]]
+
 
 end)
