@@ -16,8 +16,7 @@
 WoWPro.Leveling:RegisterGuide('RajKra8788', 'Krasarang Wilds', 'Rajitazi', '87', '88', 'EmmKun8889', 'Alliance', function()
 return [[
 
-N Welcome to Krasarang Wilds|N|This guide assumes you are in Zouchin Village, (where Dragonwing Dan flew you at the end of Valley of the Four Winds guide.|
-A The Arcanic Oubliette|QID|30274|N|From UI ALert. If you fly in this will pop up now, if you run in you will get it when you see Kang.|
+N Welcome to Krasarang Wilds|N|This guide assumes you are in Zhu's Watch, (where Dragonwing Dan flew you at the end of Valley of the Four Winds guide).|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.24,7.13|N|From Ken-Ken.|
 C What's Eating Zhu's Watch?|QID|30079|NC|QO|Speak with Mei: 1/1|M|75.86,7.60|N|up the stairs, outside.|
@@ -62,6 +61,7 @@ A Into the Wilds|QID|30178|M|75.81,7.68|N|From Mei Barrelbottom.|
 A Crane Mastery|QID|30352|M|67.60,25.77|N|From Daggle Bombstrider.|
 A Profit Mastery|QID|30353|M|67.60,25.77|N|From Daggle Bombstrider.|
 C Into the Wilds|QID|30178|M|66.24,30.81|
+A The Arcanic Oubliette|QID|30274|N|From UI ALert.|
 T Kang Bramblestaff|QID|29874|M|66.36,32.61|N|To Kang Bramblestaff.|
 C The Arcanic Oubliette|QID|30274|M|66.61,33.75|N|Click on the 3 red crystals around the dome.|
 T The Arcanic Oubliette|QID|30274|M|67.34,32.62|N|To Lorekeeper Vaeldrin.|
@@ -69,20 +69,21 @@ A The Lost Dynasty|QID|30344|M|67.34,32.62|N|From Lorekeeper Vaeldrin.|
 A Squirmy Delight|QID|30350|M|67.34,32.67|N|From Kang Bramblestaff.|
 A Blind Them!|QID|30384|M|67.42,32.74|N|From Lyalia.|
 f The Incursion|QID|30384|M|67.78,32.52|N|At Tylen Moonfeather.|
+C Squirmy Delight|QID|30350|S|M|63.00,27.79|
+C Crane Mastery|QID|30352|S|M|63.94,29.44|
+C Profit Mastery|QID|30353|S|M|71.15,24.65|
 C Blind Them!|QID|30384|M|66.55,25.08|
-C Squirmy Delight|QID|30350|M|63.00,27.79|
-C Crane Mastery|QID|30352|M|63.94,29.44|
-C Profit Mastery|QID|30353|M|71.15,24.65|
+C Squirmy Delight|QID|30350|US|M|63.00,27.79|
+C Crane Mastery|QID|30352|US|M|63.94,29.44|
+C Profit Mastery|QID|30353|US|M|71.15,24.65|
 
 T Profit Mastery|QID|30353|M|67.60,25.77|N|To Daggle Bombstrider.|
 A Profit Mastery: Chasheen|QID|31260|M|67.60,25.77|N|From Daggle Bombstrider.|
 T Crane Mastery|QID|30352|M|67.6, 25.77|
 A Crane Mastery: Needlebeak|QID|31262|M|67.61,25.70|N|From Daggle Bombstrider.|
-C The Lost Dynasty|QID|30344|M|68.05,21.47|
+C The Lost Dynasty|QID|30344|NC|M|68.05,21.47|
 C Crane Mastery: Needlebeak|QID|31262|M|63.19,20.39|
 C Profit Mastery: Chasheen|QID|31260|M|61.66,31.78|
-T Crane Mastery: Needlebeak|QID|31262|M|67.61,25.68|N|To Daggle Bombstrider.|
-T Profit Mastery: Chasheen|QID|31260|M|67.61,25.68|N|To Daggle Bombstrider.|
 
 T Blind Them!|QID|30384|M|67.33,32.72|N|To Lyalia.|
 T Squirmy Delight|QID|30350|M|67.33,32.72|N|To Kang Bramblestaff.|
@@ -90,10 +91,14 @@ T The Lost Dynasty|QID|30344|M|67.4,32.6|N|To Lorekeeper Vaeldrin|
 A Where are the Pools|QID|30346|M|67.40,32.60|N|From Lorekeeper Vaeldrin.|
 A Threat from Dojan|QID|30349|M|67.41,32.63|N|From Lyalia.|
 A Lotus Tea|QID|30351|M|67.40,32.68|N|From Kang Bramblestaff.|
+T Crane Mastery: Needlebeak|QID|31262|M|67.61,25.68|N|To Daggle Bombstrider.|
+T Profit Mastery: Chasheen|QID|31260|M|67.61,25.68|N|To Daggle Bombstrider.|
+
+R Ruins of Dojan|QID|31346|M|57.76,36.1|
 C Lotus Tea|QID|30351|S|NC|M|55,35|
 C Threat from Dojan|QID|30349|S|M|55,35|
-C Where are the Pools|QID|30346|M|55.51,35.48|N|Kill Dojani Dominator. loot orders.|
-T Where are the Pools|QID|30346|To UI Alert. {if you miss the alert you can turn in back at the Incursion, but it means an extra run to the ruins and back).|
+K Dojani Dominator|QID|30346|M|55.51,35.48|L|78917 1|N|Kill, loot orders.|
+T Where are the Pools|QID|30346|To UI Alert. {if you miss the alert - it doesn't stay available very long -  you can turn in back at the Incursion, but it means an extra run to the ruins and back).|
 A The Pools of Youth|QID|30347|N|from UI Alert.|
 C The Pools of Youth|QID|30347|M|51.63,33.08|N|Chat with Nu Lek, kill the statues that come to life, then click on a water pool to pick it up.|
 C Threat from Dojan|QID|30349|US|M|55,35|
@@ -122,7 +127,7 @@ C Tread Lightly|QID|30694|S|U|80828|M|45.77,28.17|
 C Blinding the Riverblades|QID|30270|M|46.14,30.06|
 C Tread Lightly|QID|30694|US|U|80828|M|45.77,28.17|
 C The Murksweats|QID|30268|M|37.33,41.13|
-A The Murksweats|QID|30268|M|40.67,33.88|N|From Anduin Wrynn.|
+T The Murksweats|QID|30268|M|40.67,33.88|N|To Anduin Wrynn.|
 T Tread Lightly|QID|30694|M|40.62,33.69|N|To Koro Mistwalker.|
 T Blinding the Riverblades|QID|30270|M|40.62,33.69|N|To Koro Mistwalker.|
 T The Murksweats|QID|30268|M|40.44,34.58|N|To Anduin Wrynn.|
@@ -144,7 +149,6 @@ T In the House of the Red Crane|QID|30273|M|40.05,48.98|N|To Chi-Ji.|
 
 R Marista|QID|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.70,75.34|N|From Tony Tuna.|
-f Marista|QID|30667|M|52.43,76.53|N|At Nan-Po.|
 A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.52,76.88|N|From Jay Cloudfall.|
 C Particular Plumage|QID|30667|M|42.57,71.86|
 C Sudden, Unexpected Crocolisk Aggression|QID|30666|M|46.34,71.99|
@@ -152,6 +156,7 @@ T Particular Plumage|QID|30667|M|51.60,75.29|N|To Tony Tuna.|
 T Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.56,76.87|N|To Jay Cloudfall.|
 A Build Your Own Raft|QID|30668|M|51.56,76.87|N|From Jay Cloudfall.|
 C Build Your Own Raft|QID|30668|NC|QO|Tough Kelp: 1/1|M|52.25,77.78|
+f Marista|QID|30667|M|52.43,76.53|N|At Nan-Po.|
 C Build Your Own Raft|QID|30668|NC|QO|Spare Plank: 1/1M|52.36,76.21|
 T Build Your Own Raft|QID|30668|M|51.58,76.87|N|To Jay Cloudfall.|
 A The Lorewalker on the Lake|QID|30669|M|51.58,76.87|N|From Jay Cloudfall. Jump to increase your rafts speed.|
@@ -169,11 +174,9 @@ R Unga Ingoo|QID|99999|M|45.31,85.17|
 K Unga Fish Getter|T|60299|L|80827|M|45.31,85.17|
 A Balance Without Violence|QID|30674|M|45.31,85.17|N|From UI Alert.|
 A Buried Hozen Treasure|QID|30675|U|80827|M|43.81,85.41|N|From Confusing Treasure Map - looted off of an Unga.|
-C Balance Without Violence|QID|NC|S|30674|M|42.68,82.74|
+C Balance Without Violence|QID|30674|NC|S|M|42.68,82.74|
 C Buried Hozen Treasure|QID|30675|NC|S|M|51.10,85.27|
 C Balance|QID|30672|M|50.85,84.15|
-C Herbal Remedies|QID|30130|NC|US|M|54.59,39.74|
-C Threat from Dojan|QID|30127|NC|US|M|54.68,38.86|
 T Balance Without Violence|QID|30674|M|42.22,82.87|N|To UI Alert.|
 T Buried Hozen Treasure|QID|30675|M|51.10,85.27|N|To UI Alert.|
 R Marista|QID|30672|M|51.55,76.83|Don't forget to jump while on the raft.|
@@ -181,6 +184,7 @@ T Balance|QID|30672|M|51.55,76.83|N|To Jay Cloudfall.|
 
 R Explore|QID|99999|N|If you want, explore the islands while you are out here and have the raft(buff duration 1 hour). You need to check this step off manually.|
 f Cradle of Chi-Ji|QID|30675|M|31.19,63.25|N|At Feather Keeper Li.|
+R Fallsong Village|M|29.66,39.0|N|You can take your raft up the river (portage around the waterfall).|
 A Thieving Raiders|QID|30168|M|29.66,39.00|N|From Tired Shushen.|
 A Raid Leader Slovan|QID|30169|M|29.66,39.00|N|From Tired Shushen.|
 K Riverblade Flesh-Hunter|QID|30168|L|78958 5|S|M|29.55,45.17|N|If you still have the raft buff, you can go across the water.)
@@ -189,7 +193,7 @@ K Riverblade Flesh-Hunter|QID|30168|L|78958 5|S|M|29.55,45.17|
 T Thieving Raiders|QID|30168|M|29.65,38.99|N|To Tired Shushen.|
 T Raid Leader Slovan|QID|30169|M|29.65,38.99|N|To Tired Shushen.|
 
-R Sentinal Basecamp|QID|30363|M|24.76,34.00|
+R Sentinel Basecamp|QID|30363|M|24.76,34.00|
 T Going on the Offensive|QID|30363|M|24.76,34.00|N|To Lyalia.|
 A No Sister Left Behind|QID|30354|M|24.76,34.00|N|From Lyalia.|
 A Sever Their Supply Line|QID|30356|M|24.76,34.00|N|From Lyalia.|
@@ -201,7 +205,9 @@ C Sever Their Supply Line|QID|30356|M|23.70,42.04|
 C Re-Reclaim|QID|30355|M|NC|US|23.43,45.24|
 C No Sister Left Behind|QID|30354|NC|US|M|23.49,45.07|
 T Re-Reclaim|QID|30355|M|24.74,34.08|N|To Kang Bramblestaff.|
+T No Sister Left Behind|QID|30354|M|24.74,34.08|N|To Lyalia.|
 T Sever Their Supply Line|QID|30356|M|24.74,34.08|N|To Lyalia.|
+
 A The Mantid|QID|30361|M|24.88,34.29|N|From Ambassador Han.|
 
 C The Mantid|QID|30361|S|M|13.58,36.40|
@@ -226,7 +232,7 @@ A The Swarm Begins|QID|30622|M|17.90,56.21|Z|Valley of the Four Winds|N|From Loo
 A It Does You No Good In The Keg|QID|30624|M|18.05,55.69|Z|Valley of the Four Winds|N|From Mudmug.|
 C The Mantidote|QID|30623|S|U|80337|M|10.72,51.9|Z|Valley of the Four Winds|N|Use the mask on the elites, kill the sha that appears.|
 C It Does You No Good In The Keg|QID|30624|NC|QO|Deliver beer to Crane Wing Priests: 1/1|M|15.09,55.41|Z|Valley of the Four Winds|
-C It Does You No Good In The Keg|QID|30624|NC|QO|Deliver beer to night elf settlers: 1/1|M|15.09,55.41|Z|Valley of the Four Winds|
+C It Does You No Good In The Keg|QID|30624|NC|QO|Deliver beer to night elf settlers: 1/1|M|15.09,50.1|Z|Valley of the Four Winds|
 C It Does You No Good In The Keg|QID|30624|NC|QO|Deliver beer to the Shado-Pan: 1/1|M|10.95,55.9|Z|Valley of the Four Winds|
 C It Does You No Good In The Keg|QID|30624|NC|QO|Deliver beer to Zhu's Wardens: 1/1|M|17.01,50.46|Z|Valley of the Four Winds|
 T It Does You No Good In The Keg|QID|30624|N|To UI Alert.|
@@ -240,7 +246,6 @@ T Students No More|QID|30625|M|11.55,49.44|Z|Valley of the Four Winds|N|To Guard
 A Retreat!|QID|30626|M|11.55,49.44|Z|Valley of the Four Winds|N|From Guard Captain Oakenshield.|
 T Retreat!|QID|30626|M|17.91,56.22|Z|Valley of the Four Winds|N|To Loon Mai.|
 A The Savior of Stoneplow|QID|30627|M|17.98,55.85|Z|Valley of the Four Winds|N|From Master Bruised Paw.|
-N The Savior of Stoneplow|QID|30627|NC|M|17.99, 56.62|Z|Valley of the Four Winds|N|Dismount first, Talk to Miss Fanny|
 C The Savior of Stoneplow|QID|30627|NC|M|17.99, 56.62|Z|Valley of the Four Winds|N|Dismount first, Talk to Miss Fanny, she sends you towards the Colossus, who swallows you. Vehicle UI comes up and you strike repeatedly until he is dead.|
 T The Savior of Stoneplow|QID|30627|M|17.98,55.85|Z|Valley of the Four Winds|N|To Master Bruised Paw.|
 A The Gratitude of Stoneplow|QID|30628|M|17.91,56.25|Z|Valley of the Four Winds|N|From Loon Mei.|
