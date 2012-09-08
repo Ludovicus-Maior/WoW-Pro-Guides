@@ -31,7 +31,7 @@
 -- Who: Ludovicus Maior
 -- Log: Initial Version from Emmaleah
 
-WoWPro.Leveling:RegisterGuide('EmmVal8687', 'Valley of the Four Winds', 'Emmaleah', '86', '87', 'EmmKra8788', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('EmmVal8687', 'Valley of the Four Winds', 'Emmaleah', '86', '87', 'EmmKra8788'|'RajKra8788', 'Neutral', function()
 return [[
 
 R Valley of the Four Winds|N|If you aren't already there, make your way to Valley of the Four Winds.|
@@ -75,7 +75,7 @@ l Pick up the Extra Spicy Tofy|QID|29912|L|75256|M|84.0,22.0|
 C Ang's Giant Pink Turnip|QID|29912|NC|QO|Launch a pink turnip: 1/1|M|84.3,22|N|Have Fanny hit it average.|
 C Ang's Summer Watermelon|QID|29912|NC|QO|Launch a watermelon: 1/1|M|82.96,21.5|N|Have Fanny hit it softly.|
 C Pang's Extra-Spicy Tofu|QID|29912|NC|QO|Launch the Extra-Spicy Tofu: 1/1|M|82.96, 21.5|N|Have Fanny hit it very hard|
-C Send me flying|QID|29912|NC|QO| |M|82.96, 21.5|N|If you want to save your self the run, have her hit you as hard as she can.|
+N Send me flying|N|If you want to save your self the run, have her hit you as hard as she can.|;removing what follows (but saving it)and making an N step, as it auto checked off before you do it as a C step, QID|29912|NC|QO| |M|82.96, 21.5|
 
 T The Fabulous Miss Fanny|QID|29912|M|75.2,24.0|N|To Liang Thunderfoot.|
 A The Meat They'll Eat|QID|29913|M|75.2,24.1|N|From Liang Thunderfoot.|
@@ -131,6 +131,7 @@ T Thieves to the Core|QID|29948|M|68.68,43.18|N|To Mudmug.|
 T The Warren-Mother|QID|29946|M|68.82,43.08|N|To Chen Stormstout.|
 A Legacy|QID|29949|M|68.84,43.20|N|From Chen Stormstout.|
 T Legacy|QID|29949|M|68.79,43.46|N|To Li Li.|
+
 A Li Li's Day Off|QID|29950|M|68.79,43.46|N|From Li Li.|
 A Muddy Water|QID|29951|M|68.66,43.12|N|From Mudmug.|M|Wait a minute or two for the dialog to finish, then this quest becomes available.|
 C Li Li's Day Off|QID|29950|U|76350|QO|Bring Li Li to Huangtze Falls: 1/1|M|74.37,42.65|
@@ -148,7 +149,9 @@ T The Moth Rebellion|QID|30059|M|63.57,58.48|N|To Journeyman Chu.|
 A Mothran!|QID|30058|M|63.57,58.48|N|From Master Goh.|
 C Mothran!|QID|30058|M|64.4,58.0|
 T Mothran!|QID|30058|M|63.66,58.42|N|To Master Goh.|
-C Li Li's Day Off|QID|29950|U|76350|M|61.41,36.02|
+
+R New Cifera|QID|29871||M|61.41,36.02|
+C Li Li's Day Off|QID|29950|QO|Bring Li Li to New Cifera: 1/1|U|76350|M|61.41,36.02|
 T Clever Ashyo|QID|29871|M|61.29,34.09|N|To Clever Ashyo.|
 A Ashyo's Vision|QID|29577|M|61.29,34.09|N|From Clever Ashyo.|
 A Bottletoads|QID|29757|M|60.54,33.82|N|From Yan.|
@@ -160,16 +163,14 @@ A The Golden Dream|QID|29581|M|59.88,27.82|N|From Zhang Yue.|
 C Snap Judgment|QID|29600|S|M|60.9,25.7|
 C Bottletoads|QID|29757|NC|M|64.82,25.07|
 C Snap Judgment|QID|29600|US|M|60.9,25.7|
-K Kill Krosh and loot|QID|29758|S|L|83767|M|65.29,26.45|N|Use Krosh's Back.|
-C The Golden Dream|QID|29581|NC|M|65.29,26.45|
-K Kill Krosh and loot|QID|29758|US|L|83767|M|65.29,26.45|N|Use Krosh's Back.|
+K Kill Krosh and loot|QID|29758|L|83767 1|M|65.29,26.45|N|Use Krosh's Back.|
 A Guess Whose Back|QID|29758|U|83767|M|65.29,26.45|N|From Krosh's Back.|
+C The Golden Dream|QID|29581|NC|M|65.29,26.45|N|Pick the sparkly flowers beside Krosh.|
 T Snap Judgment|QID|29600|M|59.88,27.82|N|To Zhang Yue.|
 T Bottletoads|QID|29757|M|60.64,33.77|N|To Yan.|
 T Guess Whose Back|QID|29758|M|60.64,33.77|N|To Yan.|
 T The Golden Dream|QID|29581|M|60.64,33.77|N|To Yan.|
 
-C Watery Woes|QID|30267|S|N|Kill Cranes and Loot Fireflies as you run up to Mudmug's place, don't try to finish it as we will have another quest in the area.|
 R Mudmug's Place|QID|29950|M|68.87,46.3|CC|
 T Li Li's Day Off|QID|29950|M|68.74,43.28|N|To Li Li.|
 T Muddy Water|QID|29951|M|68.74,43.28|N|To Mudmug.|
@@ -188,8 +189,11 @@ f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga.|
 A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it opens up the Quartermaster which gives you a place to repair.|
 C A Helping Hand|QID|30252|M|52.8,49.81|NC|
 T A Helping Hand|QID|30252|M|52.67,47.96|To Farmer Yoon.|
+A Learn and Grow I:Seeds|QID|30535|M|52.23,48,83|From Farmer Yoon.|
+C Learn and Grow I:Seeds|QID|30535|M|52.91,52.11|NC|L|80295|N|Go talk to Merchant Greenfield to get the seeds.|
+T Learn and Grow I:Seeds|QID|30535|M|52.23,48,83|To Farmer Yoon.|
 A Learn and Grow II:Tilling and Planting|QID|30254|M|52.23,48,83|From Farmer Yoon.|
-C Learn and Grow II:Tilling and Planting|QID|30254|M|52.02,48.30|NC|U|80295|N|Click the untilled soil to till, then target it and use the seeds.|
+C Learn and Grow II:Tilling and Planting|QID|30254|M|52.02,48.30|NC|U|80302|N|Click the untilled soil to till, then target it and use the seeds.|
 T Learn and Grow II:Tilling and Planting|QID|30254|M|52.23,48,83|To Farmer Yoon.|
 A Learn and Grow III:Tending Crops|QID|30255|M|52.23,48,83|From Farmer Yoon.|
 C Learn and Grow III:Tending Crops|QID|30255|M|52.02,48.30|NC|U|79104|N|Target the plants and use the watering can.|
@@ -204,6 +208,7 @@ r Repair/Restock|QID30049|M| |N|Now we have the Quartermaster taling to us so we
 
 T Doesn't Hold Water|QID|30049|M|54.19,38.65|N|To Mudmug.|
 A The Great Water Hunt|QID|30051|M|54.19,38.65|N|From Mudmug.|
+C Watery Woes|QID|30267|S|
 C The Great Water Hunt|QID|30051|S|NC||M|53.20,31.92|
 K Kill Kracor |QID|32045|T|Kracor|QO|Kracor slain: 1/1|M|55.9,33.9|; Gilded Fan
 K Kill Thundergill |QID|32045|T|Thundergill|QO|Thundergill slain: 1/1|M|55.1,25.9|; Gilded Fan
@@ -213,6 +218,8 @@ T The Great Water Hunt|QID|30051|M|53.32,32.16|N|To Mudmug.|
 A Barreling Along|QID|30172|M|53.32,32.16|N|From Mudmug.|
 C Watery Woes|QID|30267|US|
 T Watery Woes|QID|30267|M|60.95,33|N|To Gladecaster Lang.|
+
+R The Heartland|M|48.31,33.85|
 C Speak with Gardener Fran|QID|30053|NC|QO|Speak with Gardener Fran: 1/1|M|48.31,33.85|
 A Gardener Fran and the Watering Can|QID|30050|US|M|48.20,33.50|N|From Gardener Fran.|
 C Gardener Fran and the Watering Can|QID|30050|NC|U|77281|M|47.58,32.47|N|Talk to Gardener Fran to start. You can do this while mounted.|
@@ -296,40 +303,40 @@ A Into the Brewery|QID|30085|M|36.09,68.96|N|From Chen Stormstout. This is a dun
 A Stoneplow Thirsts|QID|30117|M|36.18,68.23|N|From Emmi.|
 
 R Nesingwary's Safari|QID|30181|M|16,83|
-A Stalker Mastery |QID|30183|M|16.2,82.5|N|From Tani|
-A Mushan Mastery |QID|30181|M|16.1,82.6|N|From Hemet Nesingwary Jr.|
+A Stalker Mastery|QID|30183|M|16.2,82.5|N|From Tani|
+A Mushan Mastery|QID|30181|M|16.1,82.6|N|From Hemet Nesingwary Jr.|
 
 C Mushan Mastery|QID|30181|S|M|11.90,68.81|
-C Stalker Mastery |QID|30183|S|M|11.90,68.81|
+C Stalker Mastery|QID|30183|M|11.90,68.81|
 C Mushan Mastery|QID|30181|US|M|11.90,68.81|
 
-T Mushan Mastery |QID|30181|M|16.1,82.6|N|To Hemet Nesingwary Jr.|
-T Stalker Mastery |QID|30183|M|16.2,82.5|N|To Tani|
+T Mushan Mastery|QID|30181|M|16.1,82.6|N|To Hemet Nesingwary Jr.|
+T Stalker Mastery|QID|30183|M|16.2,82.5|N|To Tani|
 A Fox Mastery|QID|30182|M|16.20,82.41|N|To Tani.|
-A Stag Mastery |QID|32038|M|15.9,82.2|N|From Matt "Lucky" Gotcher|
-A Mushan Mastery: Darkhide |QID|30184|M|16.0,82.5|N|From Hemet Nesingwary|
+A Stag Mastery|QID|32038|M|15.9,82.2|N|From Matt "Lucky" Gotcher|
+A Mushan Mastery: Darkhide|QID|30184|M|16.0,82.5|N|From Hemet Nesingwary|
 
-C Stag Mastery |QID|32038|S|M|24.47,68.43|
+C Stag Mastery|QID|32038|S|M|24.47,68.43|
 C Fox Mastery|QID|30182|S|M|24.47,68.43|
-K Darkhide |QID|30184|T|Darkhide|L|79058|M|26.7,69.6|N|Kill Darkhide and get his head.|
+K Darkhide|QID|30184|T|Darkhide|L|79058|M|26.7,69.6|N|Kill Darkhide and get his head.|
 C Fox Mastery|QID|30182|US|M|24.47,68.43|
-C Stag Mastery |QID|32038|US|M|24.47,68.43|
+C Stag Mastery|QID|32038|US|M|24.47,68.43|
 
-T Mushan Mastery: Darkhide |QID|30184|M|16.0,82.5|N|To Hemet Nesingwary|
+T Mushan Mastery: Darkhide|QID|30184|M|16.0,82.5|N|To Hemet Nesingwary|
 T Fox Mastery|QID|30182|M|16.20,82.41|N|To Tani.|
-A Tortoise Mastery |QID|30185|M|16.1,82.6|N|From Hemet Nesingwary Jr.|
-T Stag Mastery |QID|32038|M|15.9,82.2|N|To Matt "Lucky" Gotcher|
+A Tortoise Mastery|QID|30185|M|16.1,82.6|N|From Hemet Nesingwary Jr.|
+T Stag Mastery|QID|32038|M|15.9,82.2|N|To Matt "Lucky" Gotcher|
 
-C Tortoise Mastery |QID|30185|M|20.5,74.6|
+C Tortoise Mastery|QID|30185|M|20.5,74.6|
 
-T Tortoise Mastery |QID|30185|M|19.9,75.7|N|To Hemet Nesingwary Jr.|
+T Tortoise Mastery|QID|30185|M|19.9,75.7|N|To Hemet Nesingwary Jr.|
 A Parental Mastery|QID|30186|M|19.87,75.67|
-C Parental Mastery|QID|30186|M|24.59,74.27|N|Follow the Nesingwary in the underwater cave.|
+C Parental Mastery|QID|30186|M|24.59,74.27|N|Follow the Nesingwary's into the underwater cave.|
 T Parental Mastery|QID|30186|M|16.02,82.50|N|To Hemet Nesingwary.|
-r Repair/Restock|QID|29872|M|15.98,82.61|N|only merchant, no repairs.|
+r Repair/Restock|QID|29872|M|16.1,82.9|N|At Steven Walker (only merchant, no repairs available).|
 
-R Stoneplow|QID|29872|M|20.23,58.52|
-f Stoneplow|M|20.23,58.52|N|From "Dragonwing"Dan.|
+R Stoneplow|QID|29872|M|19,56|
+f Stoneplow|M|20.23,58.52|N|From "Dragonwing" Dan.|
 T Lin Tenderpaw|QID|29872|M|19.83,56.94|N|To Lin Tenderpaw.|
 A Stemming the Swarm|QID|29981|M|19.83,56.94|N|From Lin Tenderpaw.|
 T Stoneplow Thirsts|QID|30117|M|19.55,56.93|N|To Loon Mai.|
@@ -349,7 +356,7 @@ A The Hidden Master|QID|29983|M|19.55,56.93|N|From Loon Mai.|
 R Paoquan Hollow|QID|29983|M|18,31|
 T The Hidden Master|QID|29983|M|18.2,31.26|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Bamboo|QID|29984|M|18.2,31.26|N|From Master Bruised Paw.|
-C Unyielding Fists: Trial of Bamboo|QID|29984|M|18.2,31.26|N|Talk to the Master to phase into a vehicle type UI.|
+C Unyielding Fists: Trial of Bamboo|QID|29984|NC|M|18.2,31.26|N|Talk to the Master to phase into a vehicle type UI.|
 T Unyielding Fists: Trial of Bamboo|QID|29984|PRE|29983|M|18.2,31.26|N|To Master Bruised Paw, Cutscene follows immediately after.|
 A They will be Mist|QID|29985|N|From Master Bruised Paw.|
 A Fog Wards|QID|29986|N|From Master Bruised Paw.|
@@ -367,7 +374,7 @@ T Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.05,31.07|N|To Lin T
 T They Will Be Mist|QID|29985|M|18.25,31.22|N|To Master Bruised Paw.|
 T Fog Wards|QID|29986|M|18.25,31.22|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|From Master Bruised Paw.|
-C Unyielding Fists: Trial of Wood|QID|29987|M|18.25,32.18|N|Talk to the Master to phase into a vehicle type UI.|
+C Unyielding Fists: Trial of Wood|QID|29987|NC|M|18.25,32.18|N|Talk to the Master to phase into a vehicle type UI.|
 T Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|To Master Bruised Paw.|
 A A Taste For Eggs|QID|29988|M|18.24,31.26|N|From Master Bruised Paw.|
 C A Taste For Eggs|QID|29988|S|QO|Whitefisher Crane Egg: 4/4;Emperor Tern Egg: 10/10|M|24,45|; Singing Marshes
@@ -375,13 +382,13 @@ C A Taste For Eggs|QID|29988|QO|Hornbill Strider Egg: 1/1|M|26.9,39.1|; Singing 
 C A Taste For Eggs|QID|29988|US|QO|Whitefisher Crane Egg: 4/4;Emperor Tern Egg: 10/10|M|24,45|; Singing Marshes
 T A Taste For Eggs|QID|29988|M|18.22,31.34|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Stone|QID|29989|M|18.24,31.29|N|From Master Bruised Paw.|
-C Unyielding Fists: Trial of Stone|QID|29989|M|18.16,32.15|N|Talk to the Master to phase into a vehicle type UI.|
+C Unyielding Fists: Trial of Stone|QID|29989|NC|M|18.16,32.15|N|Talk to the Master to phase into a vehicle type UI.|
 T Unyielding Fists: Trial of Stone|QID|29989|M|18.27,31.27|N|To Master Bruised Paw.|
 A Training and Discipline|QID|29990|M|18.03,31.03|N|From Lin Tenderpaw.|
 
 R Stoneplow|QID|29990|M|19,56|
 T Training and Discipline|QID|29990|M|19.51,56.96|N|To Loon Mai.|
-F Congratulations.|QID|29873|M|20.24,58.64|N|You finished Valley of the Four Winds, Dragonwing Dan will give you a free flight (if you ask with in 20 min of turning in last quest) into Krasarang Wilds(a flight point you don't have yet). Next guide assumes you chose to go see Ken-Ken.|
+F Congratulations|QID|29873|M|20.24,58.64|N|You finished Valley of the Four Winds, Dragonwing Dan will give you a free flight (if you ask within 20 min of turning in the last quest) into Krasarang Wilds(a flight point you don't have yet). Next guide assumes you chose to go see Ken-Ken.|
 ]]
 
 
