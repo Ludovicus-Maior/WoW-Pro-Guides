@@ -16,7 +16,7 @@
 WoWPro.Leveling:RegisterGuide('EmmKra8788', 'Krasarang Wilds', 'Emmaleah', '87', '88', 'EmmKun8889', 'Horde', function()
 return [[
 
-N Welcome to Krasarang Wilds|N|This guide assumes you are in Zouchin Village, (where Dragonwing Dan flew you at the end of Valley of the Four Winds guide.|
+N Welcome to Krasarang Wilds|N|This guide assumes you are in Zhu's Watch, (where Dragonwing Dan flew you at the end of Valley of the Four Winds guide.)|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.24,7.13|N|From Ken-Ken.|
 C What's Eating Zhu's Watch?|QID|30079|NC|QO|Speak with Mei: 1/1|M|75.86,7.60|N|up the stairs, outside.|
@@ -70,10 +70,13 @@ T Poisoned!|QID|30179|M|59.92,24.81|N|To Sunwalker Dezco.|
 A Blind Them!|QID|30124|M|59.92,24.81|N|From Kor Bloodtusk.|
 A Skitterer Stew|QID|30123|M|60.11,24.98|N|From Kang Bramblestaff.|
 f Thunder Cleft|QID|30123|M|59.23,24.55|N|At Lira Skysplitter.|
+C Skitterer Stew|QID|30123|S|M|62.46,32.89|
+C Crane Mastery|QID|30352|S|M|63.94,29.44|
+C Profit Mastery|QID|30353|S|M|71.15,24.65|
 C Blind Them!|QID|30124|M|61.56,30.64|
-C Skitterer Stew|QID|30123|M|62.46,32.89|
-C Crane Mastery|QID|30352|M|63.94,29.44|
-C Profit Mastery|QID|30353|M|71.15,24.65|
+C Skitterer Stew|QID|30123|US|M|62.46,32.89|
+C Crane Mastery|QID|30352|US|M|63.94,29.44|
+C Profit Mastery|QID|30353|US|M|71.15,24.65|
 T Profit Mastery|QID|30353|M|67.60,25.77|N|To Daggle Bombstrider.|
 A Profit Mastery: Chasheen|QID|31260|M|67.60,25.77|N|From Daggle Bombstrider.|
 T Crane Mastery|QID|30352|M|67.6, 25.77|
@@ -86,11 +89,13 @@ T Blind Them!|QID|30124|M|59.88,24.85|N|To Kor Bloodtusk.|
 A Threat from Dojan|QID|30127|M|59.88,24.85|N|From Kor Bloodtusk.|
 A Herbal Remedies|QID|30130|M|59.90,24.48|N|From Sunwalker Dezco.|
 A The Mogu Agenda|QID|30129|M|60.12,24.96|N|From Kang Bramblestaff.|
-C The Mogu Agenda|QID|30129|M|55.51,35.48|N|Kill the Dojani Subjugator, loot the Dojani Orders|
-T The Mogu Agenda|QID|30129|M|55.51,35.48|N|To Kang Bramblestaff.|
-A The Pools of Youth|QID|30128|M|55.51,35.48|N|From Kang Bramblestaff.|
+
+R Ruins of Dojan|QID|31346|M|57.76,36.1|
 C Herbal Remedies|QID|30130|NC|S|M|54.59,39.74|
 C Threat from Dojan|QID|30127|S|M|54.68,38.86|
+K Dojani Dominator|QID|30129|L|78917 1|M|55.51,35.48|N|Kill, loot the Dojani Orders|
+T The Mogu Agenda|QID|30129|M|55.51,35.48|N|To Kang Bramblestaff.|
+A The Pools of Youth|QID|30128|M|55.51,35.48|N|From Kang Bramblestaff.|
 C The Pools of Youth|QID|30128|M|51.63,33.08|N|Chat with Nu Lek, kill the statues that come to life, then click on a water pool to pick it up.|
 C Herbal Remedies|QID|30130|NC|US|M|54.59,39.74|
 C Threat from Dojan|QID|30127|US|M|54.68,38.86|
@@ -140,7 +145,6 @@ T In the House of the Red Crane|QID|30273|M|40.05,48.98|N|To Chi-Ji.|
 
 R Marista|QID|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.70,75.34|N|From Tony Tuna.|
-f Marista|QID|30667|M|52.43,76.53|N|At Nan-Po.|
 A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.52,76.88|N|From Jay Cloudfall.|
 C Particular Plumage|QID|30667|M|42.57,71.86|
 C Sudden, Unexpected Crocolisk Aggression|QID|30666|M|46.34,71.99|
@@ -148,6 +152,7 @@ T Particular Plumage|QID|30667|M|51.60,75.29|N|To Tony Tuna.|
 T Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.56,76.87|N|To Jay Cloudfall.|
 A Build Your Own Raft|QID|30668|M|51.56,76.87|N|From Jay Cloudfall.|
 C Build Your Own Raft|QID|30668|NC|QO|Tough Kelp: 1/1|M|52.25,77.78|
+f Marista|QID|30667|M|52.43,76.53|N|At Nan-Po.|
 C Build Your Own Raft|QID|30668|NC|QO|Spare Plank: 1/1|M|52.36,76.21|
 T Build Your Own Raft|QID|30668|M|51.58,76.87|N|To Jay Cloudfall.|
 A The Lorewalker on the Lake|QID|30669|M|51.58,76.87|N|From Jay Cloudfall. Jump to increase your rafts speed.|
@@ -168,8 +173,6 @@ A Buried Hozen Treasure|QID|30675|U|80827|M|43.81,85.41|N|From Confusing Treasur
 C Balance Without Violence|QID|NC|S|30674|M|42.68,82.74|
 C Buried Hozen Treasure|QID|30675|NC|S|M|51.10,85.27|
 C Balance|QID|30672|M|50.85,84.15|
-C Herbal Remedies|QID|30130|NC|US|M|54.59,39.74|
-C Threat from Dojan|QID|30127|NC|US|M|54.68,38.86|
 T Balance Without Violence|QID|30674|M|42.22,82.87|N|To UI Alert.|
 T Buried Hozen Treasure|QID|30675|M|51.10,85.27|N|To UI Alert.|
 R Marista|QID|30672|M|51.55,76.83|Don't forget to jump while on the raft.|
@@ -177,6 +180,7 @@ T Balance|QID|30672|M|51.55,76.83|N|To Jay Cloudfall.|
 
 R Explore|QID|99999|N|If you want, explore the islands while you are out here and have the raft(buff duration 1 hour). You need to check this step off manually.|
 f Cradle of Chi-Ji|QID|30675|M|31.19,63.25|N|At Feather Keeper Li.|
+R Fallsong Village|M|29.66,39.0|N|You can take your raft up the river (portage around the waterfall).|
 A Thieving Raiders|QID|30168|M|29.66,39.00|N|From Tired Shushen.|
 A Raid Leader Slovan|QID|30169|M|29.66,39.00|N|From Tired Shushen.|
 K Riverblade Flesh-Hunter|QID|30168|L|78958 5|S|M|29.55,45.17|N|If you still have the raft buff, you can go across the water.)
