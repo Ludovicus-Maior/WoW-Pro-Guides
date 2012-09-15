@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2012-08-30 01:01
+-- Who: Fluclo
+-- Log: Monk training
+
+-- URL: http://wow-pro.com/node/3207/revisions/24965/view
 -- Date: 2012-02-22 10:03
 -- Who: Crackerhead22
 -- Log: Tweaks
@@ -177,6 +182,12 @@ T Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|To Jesthenis Sunstriker.|M|3
 T Priest Training |QID|8564|R|BloodElf|C|Priest|N|To Matron Arena.|M|39.4,20.4|
 T Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|To Pathstalker Kariel.|M|38.9,20.0|
 T Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|Summoner Teli'Larien.|M|38.9,21.4|
+
+A Monk Training |QID|99999|R|BloodElf|C|Monk|N|From Magistrix Erona.|M|61.04,45.11|
+T Monk Training |QID|99999|R|BloodElf|C|Monk|N|To Pao.|M|63.44,42.61|
+A Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|From Pao.|M|63.44,42.61|
+C Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|Learn Tiger Palm from Pao. Locate a Training Dummy outside the Sunspire and practice using Tiger Palm.|M|63.44,42.61|
+T Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|To Pao.|M|63.44,42.61|
 
 A Charge!|QID|27091|M|39.3,20.1|R|BloodElf|C|Warrior|N|From Delios Silverblade.|
 C Charge!|QID|27091|M|38.33,20.64||R|BloodElf|C|Warrior|N|Learn charge from your trainer and Charge the target dummy.|

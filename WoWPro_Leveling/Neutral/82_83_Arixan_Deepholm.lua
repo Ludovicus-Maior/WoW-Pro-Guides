@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2012-09-15 20:21
+-- Who: Ludovicus Maior
+-- Log: Change some rank 2 quests to rank 1 so that you can actually finish the guide.
+
+-- URL: http://wow-pro.com/node/3307/revisions/24993/view
 -- Date: 2012-05-27 19:02
 -- Who: Ludovicus Maior
 -- Log: Relocated quest pickup of the Explorers to late in the guide.
@@ -378,28 +383,28 @@ C Clingy|QID|26440|M|30.00,46.00|N|Pebble will begin “harvesting” the crysta
 T Clingy|QID|26440|N|To Pebble.|
 A So Big, So Round...|QID|26441|PRE|26440|N|From Pebble.|
 T So Big, So Round...|QID|26441|M|34.12,34.19|N|To Kor the Immovable.|
-A Petrified Delicacies|QID|26507|PRE|26441|RANK|2|M|34.12,34.19|N|From Kor the Immovable.|
+A Petrified Delicacies|QID|26507|PRE|26441|RANK|1|M|34.12,34.19|N|From Kor the Immovable.|
 A Rock Bottom|QID|26575|PRE|26441|M|34.12,34.19|N|From Kor the Immovable.|
-C Petrified Delicacies|QID|26507|RANK|2|M|39.1,28.8|N|Head to the shelf to the northeast. Loot any Petrified Bats off the ground. The basilisks in the area can also drop them.|
-T Petrified Delicacies|QID|26507|RANK|2|N|To Pebble, who should still be following you around.|
+C Petrified Delicacies|QID|26507|RANK|1|M|39.1,28.8|N|Head to the shelf to the northeast. Loot any Petrified Bats off the ground. The basilisks in the area can also drop them.|
+T Petrified Delicacies|QID|26507|RANK|1|N|To Pebble, who should still be following you around.|
 C Rock Bottom|QID|26575|M|47.5,27.00|M|34,33|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite’s eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
 T Rock Bottom|QID|26575|M|34.12,34.19|N|Back to Kor the Immovable.|
-A Steady Hand|QID|26576|PRE|26575|RANK|2|M|34.12,34.19|N|From Kor.|
-A Rocky Upheaval|QID|26577|PRE|26575||M|34.12,34.19|N|From Kor.|
-T Steady Hand|QID|26576|RANK|2|N|To Terrath the Steady.|
-A Don't. Stop. Moving.|QID|26656|PRE|26576|RANK|2|M|39.94,19.41|N|From Terrath the Steady.|
-C Don't. Stop. Moving.|QID|26656|RANK|2|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
-T Don't. Stop. Moving.|QID|26656|RANK|2|M|39.94,19.41|N|To Terrath the Steady.|
-A Hard Falls|QID|26657|PRE|26656|RANK|2|M|39.94,19.41|N|From Terrath the Steady.|
-A Fragile Values|QID|26658|PRE|26656|RANK|2|M|39.94,19.41|N|From Terrath the Steady.|
-C Hard Falls|QID|26657|S|RANK|2|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
-C Fragile Values|QID|26658|RANK|2|U|60266|M|35.8,26.4|N|Search the area until you find two stone troggs with a basilisk in a net. Kill the two troggs and loot them to get a Stonework Mallet.|
-C Hard Falls|QID|26657|US|RANK|2|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
-T Hard Falls|QID|26657|RANK|2|M|39.94,19.41|N|To Terrath the Steady.|
-T Fragile Values|QID|26658|RANK|2|M|39.94,19.41|N|To Terrath the Steady.|
-A Resonating Blow|QID|26659|PRE|26657;26658|RANK|2|M|39.94,19.41|N|From Terrath the Steady.|
-C Resonating Blow|QID|26659|RANK|2|U|60266|M|32.60,24.30|N| Terrath will come and toss you up onto some floating rocks. Jump from rock to rock until you reach a cluster of rocks all on the same level. You will attack Aeosera from these rocks. When she targets the platform you are standing on, jump to another and continue to attack. Continue attacking and jumping from rock to rock until she surrenders.|
-T Resonating Blow|QID|26659|RANK|2|M|39.94,19.41|N|To Terrath the Steady.|
+A Steady Hand|QID|26576|PRE|26575|RANK|1|M|34.12,34.19|N|From Kor.|
+A Rocky Upheaval|QID|26577|PRE|26575|M|34.12,34.19|N|From Kor.|
+T Steady Hand|QID|26576|RANK|1|N|To Terrath the Steady.|
+A Don't. Stop. Moving.|QID|26656|PRE|26576|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
+C Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
+T Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
+A Hard Falls|QID|26657|PRE|26656|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
+A Fragile Values|QID|26658|PRE|26656|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
+C Hard Falls|QID|26657|S|RANK|1|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
+C Fragile Values|QID|26658|RANK|1|U|60266|M|35.8,26.4|N|Search the area until you find two stone troggs with a basilisk in a net. Kill the two troggs and loot them to get a Stonework Mallet.|
+C Hard Falls|QID|26657|US|RANK|1|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
+T Hard Falls|QID|26657|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
+T Fragile Values|QID|26658|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
+A Resonating Blow|QID|26659|PRE|26657;26658|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
+C Resonating Blow|QID|26659|RANK|1|U|60266|M|32.60,24.30|N| Terrath will come and toss you up onto some floating rocks. Jump from rock to rock until you reach a cluster of rocks all on the same level. You will attack Aeosera from these rocks. When she targets the platform you are standing on, jump to another and continue to attack. Continue attacking and jumping from rock to rock until she surrenders.|
+T Resonating Blow|QID|26659|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
 T Rocky Upheaval|QID|26577|M|72.30,54.10|N|To Gorsik the Tumultuous.|
 A Doomshrooms|QID|26578|PRE|26577|M|72.2,53.9|N|From Gorsik the Tumultuous.|
 A Gone Soft|QID|26579|PRE|26577|M|72.2,53.9|N|From Gorsik the Tumultuous.|
