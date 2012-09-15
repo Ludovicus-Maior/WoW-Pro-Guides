@@ -486,3 +486,26 @@ function WoWPro:RemoveMapPoint()
 		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
 	end
 end
+
+
+function WoWPro:ZoneInfo()
+     WoWPro.eBox = WoWPro.eBox or CreateFrame("EditBox", nil,UIParent,ChatFrameEditBoxTemplate)
+    local eBox = WoWPro.eBox
+    eBox:SetWidth(512)
+    eBox:SetHeight(256)
+    eBox:SetMultiLine(true)
+    eBox:SetAutoFocus(true)
+    eBox:SetFontObject(GameFontHighlight)
+    local text=""
+    for zi=0, 1000 do
+        local z=GetRealZoneText(zi)
+        local line = string.format("[%d]='%s'",zi,z)
+        if z ~= "" then
+            text = text .. line .. "\n"
+        end
+    end
+    eBox:SetText(text)
+    eBox:SetPoint("CENTER")
+    eBox:Show()
+    eBox:SetScript("OnEscapePressed", function (self) self:Hide() end)
+end
