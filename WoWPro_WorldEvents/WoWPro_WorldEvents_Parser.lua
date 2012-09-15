@@ -329,12 +329,14 @@ function WoWPro.WorldEvents:LoadGuide()
 				QID = nil
 			end
 
-		    -- Turned in quests --
-		    if WoWProCharDB.completedQIDs then
-			    if WoWProCharDB.completedQIDs[QID] then
-				    WoWProCharDB.Guide[GID].completion[i] = true
-			    end
-		    end
+		    -- Event Quest Query, always as the silly client
+		    if WoWPro:IsQuestFlaggedCompleted(QID,true) then
+			    WoWProCharDB.Guide[GID].completion[i] = true
+			    WoWProCharDB.completedQIDs[QID] = true
+			else
+			    WoWProCharDB.Guide[GID].completion[i] = false
+			    WoWProCharDB.completedQIDs[QID] = false
+			end
 	
 		    -- Quest Accepts and Completions --
 		    if not completion and WoWPro.QuestLog[QID] then 

@@ -244,7 +244,7 @@ local function ParseQuests(...)
 					WoWPro.optional[i] = true
 					WoWPro.optionalcount = WoWPro.optionalcount + 1 
 				end
-				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
+				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?") or WoWPro:GrailQuestPrereq(WoWPro.QID[i])
 
 				if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
 					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
@@ -278,7 +278,7 @@ function WoWPro.Leveling:LoadGuide()
 	local sequence = WoWPro.Guides[GID].sequence
 	ParseQuests(string.split("\n", sequence()))
 	
-	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps registered.")
+	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
 		
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
@@ -305,11 +305,9 @@ function WoWPro.Leveling:LoadGuide()
 			end
 
 		    -- Turned in quests --
-		    if WoWProCharDB.completedQIDs then
-			    if WoWProCharDB.completedQIDs[QID] then
-				    WoWProCharDB.Guide[GID].completion[i] = true
-			    end
-		    end
+			if WoWPro:IsQuestFlaggedCompleted(QID,true) then
+			    WoWProCharDB.Guide[GID].completion[i] = true
+			end
 	
 		    -- Quest Accepts and Completions --
 		    if not completion and WoWPro.QuestLog[QID] then 
@@ -665,10 +663,12 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 		end
     end
     
-    if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
+    if event == "QUEST_DETAIL" then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local questtitle = GetTitleText();
-		if WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
+        local questtitle = GetTitleText()
+        local questid = GetQuestID()
+        WoWPro:dbp("Accepted quest %d [%s]",questid,questtitle); 
+		if WoWProCharDB.AutoAccept == true and WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
 		    AcceptQuest()
 		end 
     end
@@ -993,9 +993,12 @@ function WoWPro.Leveling.GetAvailableSpells(...)
 	local newLevel = ... or UnitLevel("player")
 	local i, j = 1, 0
 	local availableSpells = {}
-	while GetSpellBookItemName(i, "spell") do
+	while pcall(GetSpellBookItemName,i, "spell") do
+	    WoWPro:Print("Probing slot %d",i)
 		local info = GetSpellBookItemInfo(i, "spell")
+		WoWPro:Print("Slot %d info %s",i,info)
 		local name = GetSpellBookItemName(i, "spell")
+		WoWPro:Print("Slot %d Nomen %s",i,name)
 		if info == "FUTURESPELL" and not "Master Riding" and not "Artisan Riding"
 		and GetSpellAvailableLevel(i, "spell") <= newLevel then
 			table.insert(availableSpells,name)

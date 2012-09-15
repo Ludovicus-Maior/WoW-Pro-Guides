@@ -308,7 +308,8 @@ function WoWPro:NextStep(k,i)
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
-				skip = true 
+			    WoWProCharDB.Guide[GID].skipped[k] = true
+			    skip = true
 			end
 		end
 		
@@ -462,6 +463,18 @@ function WoWPro:PopulateQuestLog()
 	
 end
 
+-- Cached version of function
+function WoWPro:IsQuestFlaggedCompleted(qid,force)
+    local QID = tonumber(qid)
+    if not WoWProCharDB.completedQIDs then
+        WoWProCharDB.completedQIDs = {}
+    end
+    if not force and type(WoWProCharDB.completedQIDs[QID]) ~= "nil" then
+        return WoWProCharDB.completedQIDs[QID]
+    end
+    WoWProCharDB.completedQIDs[QID] = IsQuestFlaggedCompleted(QID) or false
+    return WoWProCharDB.completedQIDs[QID]
+end
 
 -- Experimental Interface to Grail
 function WoWPro:SkipAll()
@@ -482,7 +495,8 @@ function WoWPro:DoQuest(qid)
         end
         return
     end
-    WoWPro:Print("Marking QID %d for execution.",qid)
+    WoWPro:Print("Marking QID %s for execution.",qid)
+
     local GID = WoWProDB.char.currentguide
 	for index=1, WoWPro.stepcount do
 	    if tonumber(WoWPro.QID[index]) == tonumber(qid) and not WoWProCharDB.Guide[GID].completion[index] then
@@ -496,6 +510,9 @@ function WoWPro:QuestPrereq(qid)
     local preReq = Grail:QuestPrerequisites(qid)
     if not preReq then return end
     for i,p in ipairs(preReq) do
+        if( string.sub(tostring(p),1,1) == "B" ) then
+            p = string.sub(p,2);
+        end
         WoWPro:QuestPrereq(p)
     end
 end
@@ -506,4 +523,24 @@ function WoWPro:Questline(qid)
     WoWPro:QuestPrereq(qid)
 end
 
--- /run WoWPro:Questline("26625")
+
+function WoWPro:GrailQuestPrereq(qid)
+    if not Grail then return nil end
+    local preReq = Grail:QuestPrerequisites(qid)
+    local PREstr = nil
+    if not preReq then return nil end
+    for i,p in ipairs(preReq) do
+        if( string.sub(tostring(p),1,1) == "B" ) then
+            p = string.sub(p,2);
+        end
+        if PREstr then
+            PREstr =  PREstr .. ";" .. tostring(p)
+        else
+            PREstr = tostring(p)
+        end
+    end
+    return PREstr
+end
+
+
+-- /run WoWPro:Questline("12838")

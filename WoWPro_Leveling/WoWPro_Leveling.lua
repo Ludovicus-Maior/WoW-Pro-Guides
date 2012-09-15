@@ -16,7 +16,7 @@ end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.Leveling:OnEnable()
-	WoWPro.Leveling:dbp("|cff33ff33Enabled|r")
+	WoWPro.Leveling:dbp("|cff33ff33Enabled2|r")
 	
 	-- Leveling Tag Setup --
 	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep"})
@@ -29,20 +29,23 @@ function WoWPro.Leveling:OnEnable()
 		"TAXIMAP_OPENED"
 	}
 	WoWPro:RegisterEvents(WoWPro.Leveling.Events)
-	
+	WoWPro.Leveling:dbp("Newby0")
 	--Loading Frames--
 	if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
+	    WoWPro.Leveling:dbp("Newby1")
 		WoWPro.Leveling:CreateConfig()
-		WoWPro.Leveling.CreateSpellFrame()
-		WoWPro.Leveling.CreateSpellListFrame()
+--		WoWPro.Leveling.CreateSpellFrame()
+--		WoWPro.Leveling.CreateSpellListFrame()
 --		WoWPro.Leveling.CreateGuideList()
 		WoWPro.Leveling.FramesLoaded = true
+		WoWPro.Leveling:dbp("Newby2")
 	end
 	
 	-- Loading Initial Guide --
 	local locClass, engClass = UnitClass("player")
 	local locRace, engRace = UnitRace("player")
 	-- New Level 1 Character --
+	
 	if UnitLevel("player") == 1 and UnitXP("player") == 0 then
 		local startguides = {
 			Orc = "JiyDur0105", 
@@ -58,6 +61,7 @@ function WoWPro.Leveling:OnEnable()
 			Human = "KurElw0111",
 			Worgen = "RpoGil0113",
 		}
+		WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(startguides[engRace]))
 		WoWPro:LoadGuide(startguides[engRace])
 	-- New Death Knight --
 	elseif UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then

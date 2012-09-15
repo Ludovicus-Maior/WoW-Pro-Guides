@@ -234,10 +234,6 @@ function WoWPro.Dailies:LoadGuide()
 	WoWPro:dbp(string.format("Running: WoWPro.Dailies:LoadGuide(%s)",WoWProDB.char.currentguide))
 	local GID = WoWProDB.char.currentguide
 
-	-- Server query for completed quests --
-	WoWPro.Dailies.DailiesReset = true
-    WoWPro.Dailies:CheckDailiesReset()
- 	WoWPro.QueryQuestsCompleted()
  	 
 	-- Parsing quests --
 	local sequence = WoWPro.Guides[GID].sequence
@@ -265,6 +261,16 @@ function WoWPro.Dailies:LoadGuide()
 			else
 				QID = nil
 			end
+		
+		    -- Daily Quest Query, always ask the silly client
+		    if WoWPro:IsQuestFlaggedCompleted(QID,true) then
+			    WoWProCharDB.Guide[GID].completion[i] = true
+			    WoWProCharDB.completedQIDs[QID] = true
+			else
+			    WoWProCharDB.Guide[GID].completion[i] = false
+			    WoWProCharDB.completedQIDs[QID] = false
+			end
+
 		
 			-- Quest Accepts --
 			if not completion and action == "A" then 
