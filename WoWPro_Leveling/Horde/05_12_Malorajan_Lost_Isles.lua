@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2012-09-02 19:35
+-- Who: Fluclo
+-- Log: Added NC to some quests, also the Hot Rod for all steps where you're likely to want to mount up and ride
+
+-- URL: http://wow-pro.com/node/3212/revisions/24725/view
 -- Date: 2011-08-11 21:31
 -- Who: Jiyambi
 -- Log: More |NC| additions, one level step moved, fixed error with Cool Shades step.

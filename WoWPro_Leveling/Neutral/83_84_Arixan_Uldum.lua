@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2012-09-15 19:36
+-- Who: Ludovicus Maior
+-- Log: Submitted by Forthepie on Wed, 2012-09-12 18:52.
+--	Step 314 for the quest Bad Datas, says spead to instead of speak to Harrison Jones
+
+-- URL: http://wow-pro.com/node/3309/revisions/24800/view
 -- Date: 2011-11-07 22:07
 -- Who: Fluclo
 -- Log: Added Coords to opening step
@@ -608,7 +614,7 @@ C Schnottz So Fast|QID|28402|M|30.94,15.47;34.51,18.71|N|Go inside the Chamber o
 T Schnottz So Fast|QID|28402|M|36.21,20.31|N|To Harrison Jones.|
 
 A Bad Datas|QID|28403|M|36.21,20.31|N|From Harrison Jones.|
-C Bad Datas|QID|28403|M|35.97,23.27|N|Spead to Harrison Jones and follow him.|
+C Bad Datas|QID|28403|M|35.97,23.27|N|Speak to Harrison Jones and follow him.|
 T Bad Datas|QID|28403|M|38.98,23.21|N|To Harrison Jones.|
 
 A I'll Do It By Hand|QID|28404|M|38.98,23.21|N|From Harrison Jones.|

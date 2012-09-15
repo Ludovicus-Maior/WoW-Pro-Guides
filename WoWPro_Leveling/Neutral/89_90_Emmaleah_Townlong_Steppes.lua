@@ -1,4 +1,23 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2012-09-15 20:00
+-- Who: Ludovicus Maior
+-- Log: Applied https://github.com/Laotseu/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Neutral/89_90_Emmaleah_TownlongSteppes.lua
+
+-- URL: http://wow-pro.com/node/3492/revisions/25069/view
+-- Date: 2012-09-15 19:57
+-- Who: Ludovicus Maior
+-- Log: Corrected URLs.
+
+-- URL: http://wow-pro.com/node/3492/revisions/25068/view
+-- Date: 2012-09-15 19:56
+-- Who: Ludovicus Maior
+-- Log: Original from Emmaleah
+
 WoWPro.Leveling:RegisterGuide('EmmTow8990', 'Townlong Steppes', 'Emmaleah', '89', '90', 'EmmDre8990', 'Neutral', function()
 return [[
 

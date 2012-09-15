@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2012-09-02 19:35
+-- Who: Fluclo
+-- Log: Added NC to some quests, also the Hot Rod for all steps where you're likely to want to mount up and ride
+
+-- URL: http://wow-pro.com/node/3212/revisions/24725/view
 -- Date: 2011-08-11 21:31
 -- Who: Jiyambi
 -- Log: More |NC| additions, one level step moved, fixed error with Cool Shades step.
@@ -90,7 +95,7 @@ A Rolling with my Homies|QID|14071|M|58.22,76.61|N|From Megs Dreadshredder.|
 C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|Gobber picked up: 1/1|N|Use the keys, then pick up Gobber.|NC|
 C Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|Ace picked up: 1/1|NC|N|Pick Up Ace.|NC|
 C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|Izzy picked up: 1/1|NC|N|Pick up Izzy.|NC|
-T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|
+T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|U|46856|
 A Report for Tryouts|QID|24567|M|58.24,76.01|N|From Megs Dreadshredder.|
 A Off to the Bank|QID|26712|M|56.49,76.98|N|From Candy Cane.|GEN|MALE|
 A Off to the Bank|QID|26711|M|56.49,76.98|N|From Chip Endale.|GEN|FEMALE|
@@ -98,34 +103,34 @@ A Do it Yourself|QID|14070|M|56.49,76.98|N|From Sassy Hardwrench.|
 
 T Report for Tryouts|QID|24567|M|48.75,57.83|N|To Coach Crosscheck.|U|46856|
 A The Replacements|QID|24488|M|48.75,57.83|N|From Coach Crosscheck.|
-C The Replacements|QID|24488|M|43.05,62.79|N|Look in and around the field for Replacement Parts, they are crates.|
-T The Replacements|QID|24488|M|48.73,57.42|N|To Coach Crosscheck.|
+C The Replacements|QID|24488|M|43.05,62.79|N|Look in and around the field for Replacement Parts, they are crates.|U|46856|NC|
+T The Replacements|QID|24488|M|48.73,57.42|N|To Coach Crosscheck.|U|46856|
 A Necessary Roughness|QID|24502|M|48.73,57.42|N|From Coach Crosscheck.|
 C Necessary Roughness|QID|24502|M|47.70,57.75|N|Hop into the shredder aim at one of the opposing shredders, and use ability #1. Rinse and repeat until finished.|NC|
 
 T Necessary Roughness|QID|24502|M|47.70,57.75|N|(UI Alert)|
 L Level 3|QID|24502|LVL|3|N|You should be around level 3 by this point.|
 A Fourth and Goal|QID|24503|M|47.70,57.75|N|(UI Alert)|
-C Fourth and Goal|QID|24503|M|47.70,57.75|N|Make sure the aiming line is between the smoke stacks and hit ability #1.|
+C Fourth and Goal|QID|24503|M|47.70,57.75|N|Make sure the aiming line is between the smoke stacks and hit ability #1.|NC|
 T Fourth and Goal|QID|24503|M|48.62,57.74|N|To Coach Crosscheck.|
 A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|
-C Bruno Flameretardant beaten down|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|Bruno Flameretardant beaten down: 1/1|
-C Sudsy Magee beaten down|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|Sudsy Magee beaten down: 1/1|
-C Jack the Hammer beaten down|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|Jack the Hammer beaten down: 1/1|
-C Frankie Gearslip beaten down|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|Frankie Gearslip beaten down: 1/1|
-T Off to the Bank|QID|26712|M|30.09,71.67|N|To FBoK Bank Teller.|GEN|MALE|
-T Off to the Bank|QID|26711|M|30.09,71.67|N|To FBoK Bank Teller.|GEN|FEMALE|
+C Bruno Flameretardant beaten down|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|Bruno Flameretardant beaten down: 1/1|U|46856|
+C Sudsy Magee beaten down|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|Sudsy Magee beaten down: 1/1|U|46856|
+C Jack the Hammer beaten down|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|Jack the Hammer beaten down: 1/1|U|46856|
+C Frankie Gearslip beaten down|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|Frankie Gearslip beaten down: 1/1|U|46856|
+T Off to the Bank|QID|26712|M|30.09,71.67|N|To FBoK Bank Teller.|GEN|MALE|U|46856|
+T Off to the Bank|QID|26711|M|30.09,71.67|N|To FBoK Bank Teller.|GEN|FEMALE|U|46856|
 
 A The New You|QID|14109|PRE|26712|M|30.09,71.67|N|From FBoK Bank Teller. (For Males)|GEN|MALE|
-C Hip New Outfit|QID|14109|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|MALE|NC|
-C Shiny Bling|QID|14109|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|MALE|NC|
-C Cool Shades|QID|14109|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|GEN|MALE|QO|Cool Shades: 1/1|NC|
-T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane.|GEN|MALE|
+C Hip New Outfit|QID|14109|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|MALE|NC|U|46856|
+C Shiny Bling|QID|14109|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|MALE|NC|U|46856|
+C Cool Shades|QID|14109|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|GEN|MALE|QO|Cool Shades: 1/1|NC|U|46856|
+T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane.|GEN|MALE|U|46856|
 A The New You|QID|14110|PRE|26711|M|30.09,71.67|N|From FBoK Bank Teller. (For Females)|GEN|FEMALE|
-B Hip New Outfit|QID|14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|FEMALE|NC|
-B Shiny Bling|QID|14110|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|FEMALE|NC|
-C Cool Shades|QID|14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|QO|Cool Shades: 1/1|GEN|FEMALE|NC|
-T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale.|GEN|FEMALE|
+B Hip New Outfit|QID|14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|FEMALE|NC|U|46856|
+B Shiny Bling|QID|14110|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|FEMALE|NC|U|46856|
+C Cool Shades|QID|14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|QO|Cool Shades: 1/1|GEN|FEMALE|NC|U|46856|
+T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale.|GEN|FEMALE|U|46856|
 T Give Sassy the News|QID|24520|M|56.42,76.97|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
 
@@ -149,20 +154,20 @@ C Primal Strike|QID|14011|M|60.31,77.53|N|Speak with Maxx Avalanche and train Pr
 T Primal Strike|QID|14011|M|59.9,76.2|N|To Maxx Avalanche.|C|Shaman|
 
 A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|
-C Life of the Party|QID|14113|M|60.21,85.76|N|Entertain 10 Partygoers. Use food on the ones with food, fireworks on the ones with fireworks, and so on.|GEN|MALE|NC|
-T Life of the Party|QID|14113|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|MALE|
+C Life of the Party|QID|14113|M|60.21,85.76|N|Entertain 10 Partygoers. Use food on the ones with food, fireworks on the ones with fireworks, and so on.|GEN|MALE|NC|U|46856|NC|
+T Life of the Party|QID|14113|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|MALE|U|46856|
 A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|
-C Life of the Party|QID|14153|M|60.21,85.76|N|Entertain 10 Partygoers.  Use food on the ones with food, fireworks on the ones with fireworks, and so on.|GEN|FEMALE|NC|
-T Life of the Party|QID|14153|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|FEMALE|
+C Life of the Party|QID|14153|M|60.21,85.76|N|Entertain 10 Partygoers.  Use food on the ones with food, fireworks on the ones with fireworks, and so on.|GEN|FEMALE|NC|U|46856|NC|
+T Life of the Party|QID|14153|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|FEMALE|U|46856|
 
 A Pirate Party Crashers|QID|14115|M|56.52,76.95|N|From Sassy Hardwrench.|
-C Pirate Party Crashers|QID|14115|M|57.39,85.03|N|Kill 12 Pirate Party Crashers.|
-T Pirate Party Crashers|QID|14115|M|56.46,76.97|N|To Sassy Hardwrench.|
+C Pirate Party Crashers|QID|14115|M|57.39,85.03|N|Kill 12 Pirate Party Crashers.|U|46856|
+T Pirate Party Crashers|QID|14115|M|56.46,76.97|N|To Sassy Hardwrench.|U|46856|
 L Level 4|QID|14115|LVL|4|N|You should be around level 4 by this point.|
 A The Uninvited Guest|QID|14116|M|56.46,76.97|N|From Sassy Hardwrench.|
-T The Uninvited Guest|QID|14116|M|56.72,76.93|N|Upstairs to Trade Prince Gallywix.|
+T The Uninvited Guest|QID|14116|M|56.72,76.93|N|Upstairs to Trade Prince Gallywix.|U|46856|
 A A Bazillion Macaroons?!|QID|14120|M|56.72,76.93|N|From Trade Prince Gallywix.|
-T A Bazillion Macaroons?!|QID|14120|M|59.84,77.04|N|To Sassy Hardwrench.|
+T A Bazillion Macaroons?!|QID|14120|M|59.84,77.04|N|To Sassy Hardwrench.|U|46856|
 A The Great Bank Heist|QID|14122|M|59.84,77.04|N|Automatically accepted from Sassy Hardwrench.|
 A Waltz Right In|QID|14123|M|58.60,73.70|N|From Slinky Sharpshiv.|
 A Robbing Hoods|QID|14121|M|60.10,78.00|N|From Megs Dreadshredder.|

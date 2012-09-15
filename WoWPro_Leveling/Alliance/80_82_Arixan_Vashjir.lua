@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2012-09-15 20:24
+-- Who: Ludovicus Maior
+-- Log: Tweaked some RANK2's to 1's and corrected some prerequisites so that the guide could be played at RANK1.
+
+-- URL: http://wow-pro.com/node/3305/revisions/24774/view
 -- Date: 2011-10-28 08:11
 -- Who: Crackerhead22
 -- Log: Fixed a few capitalization and punctuation errors stopping auto-accept and auto-turn in from working.
@@ -210,10 +215,6 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/23503/view
 -- Date: 2010-12-03 22:59
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3305/revisions/23502/view
--- Date: 2010-12-03 22:57
 -- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
@@ -491,11 +492,11 @@ A Bellies Await|QID|25540|PRE|25538;25539|M|49,49.2|Z|Shimmering Expanse|N|From 
 T Cold Welcome|QID|25536|M|46.63,57.46;49.2,57|Z|Shimmering Expanse|N|To Captain Taylor.|
 T Bellies Await|QID|25540|M|49.46,57.40|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
 A An Occupation of Time|QID|25581|PRE|25536;25540|RANK|2|M|49.69,57.15|Z|Shimmering Expanse|N|From Levia Dreamwalker.|
-A Swift Approach|QID|25580|RANK|2|PRE|25536;25540|M|49.20,56.99|Z|Shimmering Expanse|N|From Captain Taylor.|
+A Swift Approach|QID|25580|RANK|1|PRE|25536;25540|M|49.20,56.99|Z|Shimmering Expanse|N|From Captain Taylor.|
 A A Better Vantage|QID|25582|PRE|25536;25540|M|49.20,56.99|Z|Shimmering Expanse|N|From Admiral Dvorek.|
-A Caught Off-Guard|QID|25579|RANK|2|PRE|25536;25540|M|49.2,56.9|Z|Shimmering Expanse|N|From Admiral Dvorek.|
-C Caught Off-Guard|QID|25579|RANK|2|S|Z|Shimmering Expanse|N|Kill Azsh'ir Patrollers.|
-C Swift Approach|QID|25580|RANK|2|S|Z|Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
+A Caught Off-Guard|QID|25579|RANK|1|PRE|25536;25540|M|49.2,56.9|Z|Shimmering Expanse|N|From Admiral Dvorek.|
+C Caught Off-Guard|QID|25579|RANK|1|S|Z|Shimmering Expanse|N|Kill Azsh'ir Patrollers.|
+C Swift Approach|QID|25580|RANK|1|S|Z|Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
 N Lestharia Vashj statue|QID|25581|QO|Lestharia Vashj statue: 1/1|M|39.66,58.96|Z|Shimmering Expanse|N|Read the inscription at the Lestharia Vashj statue.|
 N Queen Azshara statue|QID|25581|QO|Queen Azshara statue: 1/1|M|38.62,58.96|Z|Shimmering Expanse|N|Read the inscription at the Queen Azshara statue.|
 N High Priestess Siralen statue|QID|25581|QO|High Priestess Siralen statue: 1/1|M|38.46,66.05|Z|Shimmering Expanse|N|Read the inscription at the High Priestess Siralen statue.|
@@ -504,28 +505,28 @@ A Upon the Scene of Battle|QID|25583|M|40.52,75.42|Z|Shimmering Expanse|N|From t
 N Structures south of Quel'Dormir Gardens scouted|QID|25582|M|40.49,74.95|Z|Shimmering Expanse|N|Head to the waypoint to scout the Structures south of Quel'Dormir Gardens.|QO|Structures south of Quel'Dormir Gardens scouted: 1/1|
 N Tunnel west of Quel'Dormir Gardens scouted|QID|25582|M|35.24,63.06|Z|Shimmering Expanse|N|Head to the waypoint to get the Tunnel west of Guel'Dormir Garderns scouted.|QO|Tunnel west of Quel'Dormir Gardens scouted: 1/1|
 C A Better Vantage|QID|25582|M|39.17,56.89|Z|Shimmering Expanse|N|Scout the area.|
-C Swift Approach|QID|25580|RANK|2|US|M|40.3,62.3;41.37,65.78;40.87,68.85;41.81,71.86;42.23,74.49|Z|Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
-C Caught Off-Guard|QID|25579|RANK|2|US|M|41.7,53.4;39.1,63.6;38.8,78.8;33.2,65.9;43.3,67.1;39,62|Z|Shimmering Expanse|N|Kill remaining Azsh'ir Patrollers.|
+C Swift Approach|QID|25580|RANK|1|US|M|40.3,62.3;41.37,65.78;40.87,68.85;41.81,71.86;42.23,74.49|Z|Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
+C Caught Off-Guard|QID|25579|RANK|1|US|M|41.7,53.4;39.1,63.6;38.8,78.8;33.2,65.9;43.3,67.1;39,62|Z|Shimmering Expanse|N|Kill remaining Azsh'ir Patrollers.|
 A Piece of the Past|QID|27716|RANK|2|U|62281|N|If you are VERY lucky, you have looted an Ancient Elven Etching from one of the naga (2% chance). Accept the quest. If not, either keep killing Naga until you do.|
 T An Occupation of Time|QID|25581|RANK|2|M|46.74,57.52;49.6,57.1|Z|Shimmering Expanse|N|To Levia Dreamwalker.|
 T Piece of the Past|QID|27716|RANK|2|M|49.6,57.1|Z|Shimmering Expanse|N|To Levia Dreamwalker.|
-T Swift Approach|QID|25580|RANK|2|M|49.2,57|Z|Shimmering Expanse|N|To Captain Taylor.|
+T Swift Approach|QID|25580|RANK|1|M|49.2,57|Z|Shimmering Expanse|N|To Captain Taylor.|
 T A Better Vantage|QID|25582|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
-T Caught Off-Guard|QID|25579|RANK|2|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
+T Caught Off-Guard|QID|25579|RANK|1|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
 T Upon the Scene of Battle|QID|25583|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
 A Visions of the Past: The Invasion of Vashj'ir|QID|25760|RANK|1|U|55171|M|49.3,57.0|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-U Visions of the Past: The Invasion of Vashj'ir|QID|25619|U|55171|M|40.50,75.58|Z|Shimmering Expanse|N|Use the Blade of the Naz'jar Battlemaiden to start the vision. Close this step.|
+U Visions of the Past: The Invasion of Vashj'ir|QID|25619|RANK|1|U|55171|M|40.50,75.58|Z|Shimmering Expanse|N|Use the Blade of the Naz'jar Battlemaiden to start the vision. Close this step.|
 A Reoccupation|QID|25619|PRE|25760|M|40.5,75.4|Z|Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
 C Reoccupation|QID|25619|M|39.32,78.26;38.27,79.35;37.61,75.62;38.89,72.13|Z|Shimmering Expanse|N|Kill Kvaldir Defenders.|
 T Reoccupation|QID|25619|M|40.5,75.4|Z|Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
 A The Revered Lady|QID|25620|PRE|25619|M|40.5,75.4|Z|Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
 T The Revered Lady|QID|25620|M|39.4,59|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 A To the Fathom-Lord's Call|QID|25637|PRE|25620|M|39.4,59|Z|Shimmering Expanse|N|From Lady Naz'jar.|
-A Built to Last|QID|25658|RANK|2|M|39,58.6|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
+A Built to Last|QID|25658|RANK|1|M|39,58.6|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
 C To the Fathom-Lord's Call|QID|25637|S|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|Shimmering Expanse|N|Kill Kvaldir.|
-C Built to Last|QID|25658|RANK|2|M|34.6,65.4;33.97,68.18;32.27,67.22;31.67,64.89;30.23,64.38;31.69,58.88|N|Activate the defenses which look like blue basins.|Z|Shimmering Expanse|
+C Built to Last|QID|25658|RANK|1|M|34.6,65.4;33.97,68.18;32.27,67.22;31.67,64.89;30.23,64.38;31.69,58.88|N|Activate the defenses which look like blue basins.|Z|Shimmering Expanse|
 C To the Fathom-Lord's Call|QID|25637|US|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|Shimmering Expanse|N|Kill the remaining Kvaldir.|
-T Built to Last|QID|25658|RANK|2|M|38.99,58.71|Z|Shimmering Expanse|N|To Sira'kess Tide Priestess.|
+T Built to Last|QID|25658|RANK|1|M|38.99,58.71|Z|Shimmering Expanse|N|To Sira'kess Tide Priestess.|
 T To the Fathom-Lord's Call|QID|25637|M|36.5,78.5|Z|Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|
 A Not Soon Forgotten|QID|25659|PRE|25637|M|36.5,78.5|Z|Shimmering Expanse|N|From Fathom-Lord Zin'jatar.|
 C Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|N|Swim up the tunnel in front of you until you find Varkul the Unrelenting. He will be surrounded by 5 Sira'kess Sea Witches and some other naga. As long as they are not being attacked, they will channel spell that causes Varkul to take increased damage. So aatack Varkul until he calls in the other kvaldir. Then let the other naga tank him while you kill off the adds.|
@@ -713,7 +714,7 @@ C Prisoners|QID|26144|RANK|2|M|31.2,58.8|Z|Abyssal Depths|N|Free Prisoners.|US|O
 T Prisoners|QID|26144|RANK|2|M|31.2,58.8|Z|Abyssal Depths|N|(UI Alert)|
 T Runestones of Binding|QID|26141|M|38.7,44.8|Z|Abyssal Depths|N|To L'ghorek.|
 T Ascend No More!|QID|26142|M|38.7,44.8|Z|Abyssal Depths|N|To L'ghorek.|
-A Twilight Extermination|QID|26154|PRE|26141;26144|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek.|
+A Twilight Extermination|QID|26154|PRE|26141;26142|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek.|
 C Twilight Extermination|QID|26154|U|57172|M|33.83,52.78;34.4,50.3;31.3,50.5;35.4,53.0|Z|Abyssal Depths|N|Head to the temple at the center of the main chamber. Everybody will ignore you, so don't panic. Go up to one of the Bound Torrent and use the Attuned Runestone of Binding on it. You will posses the Torrent. Go fly through the groups around the temple, using the abilities on your vehicle bar to kill everything in sight. The first ability is your damage dealing ability. The second one will pull in everything around you. The third will heal you and increase your damage for a short time. Kill Twilight Devotees.|
 T Twilight Extermination|QID|26154|N|Quest ends automatic.|
 A All that Rises|QID|26143|PRE|26154|M|34.6,50.3|Z|Abyssal Depths|N|Look for Hallazeal the Ascended.|
