@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r27 | funkydude | 2012-08-30 10:55:06 +0000 (Thu, 30 Aug 2012) | 1 line
+Changed paths:
+   A /tags/r27-release (from /trunk:26)
+
+Tagging as r27-release
+------------------------------------------------------------------------
+r26 | funkydude | 2012-08-30 10:53:38 +0000 (Thu, 30 Aug 2012) | 1 line
+Changed paths:
+   M /trunk/LibDBIcon-1.0.toc
+
+bump toc
+------------------------------------------------------------------------
+r25 | rabbit | 2012-03-04 00:41:11 +0000 (Sun, 04 Mar 2012) | 1 line
+Changed paths:
+   M /trunk/LibDBIcon-1.0/LibDBIcon-1.0.lua
+
+Add API methods for locking/unlocking icons. State is saved in the database and restored upon login or :Refresh.
+------------------------------------------------------------------------
