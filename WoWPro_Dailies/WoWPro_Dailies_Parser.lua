@@ -122,12 +122,14 @@ function WoWPro.Dailies:NextStep(k, skip)
 	if WoWPro.ach[k] then
 		local achnum, achitem = string.split(";",WoWPro.ach[k])
 		local count = GetAchievementNumCriteria(achnum)
-		if count == 0 then 
+		if achitem == nil then 
 			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
 			if Completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true end
-		else 
+		elseif achitem then
 			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
 			if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true end
+		else
+		    WoWPro:Print("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
 		end 
 	end
 
