@@ -13,7 +13,7 @@ WoWPro.Log = {}
 WoWPro.mixins = {}
 function WoWPro:Embed(target)
   for _,name in pairs(WoWPro.mixins) do
-    WoWPro:dbp("Creating WoWPro.%s:%s()",target.name,name)
+    -- WoWPro:dbp("Creating WoWPro.%s:%s()",target.name,name)
     target[name] = WoWPro[name]
   end
 end
