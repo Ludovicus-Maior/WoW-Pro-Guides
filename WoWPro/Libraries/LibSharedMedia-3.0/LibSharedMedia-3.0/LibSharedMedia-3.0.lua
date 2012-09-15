@@ -1,6 +1,6 @@
-﻿--[[
+--[[
 Name: LibSharedMedia-3.0
-Revision: $Revision: 62 $
+Revision: $Revision: 69 $
 Author: Elkano (elkano@gmx.de)
 Inspired By: SurfaceLib by Haste/Otravi (troeks@gmail.com)
 Website: http://www.wowace.com/projects/libsharedmedia-3-0/
@@ -9,7 +9,7 @@ Dependencies: LibStub, CallbackHandler-1.0
 License: LGPL v2.1
 ]]
 
-local MAJOR, MINOR = "LibSharedMedia-3.0", 100001 -- increase manualy on changes
+local MAJOR, MINOR = "LibSharedMedia-3.0", 4030402 -- increase manualy on changes
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not lib then return end
@@ -59,6 +59,7 @@ lib.MediaType.SOUND			= "sound"				-- sound files
 -- populate lib with default Blizzard data
 -- BACKGROUND
 if not lib.MediaTable.background then lib.MediaTable.background = {} end
+lib.MediaTable.background["None"]									= [[]]
 lib.MediaTable.background["Blizzard Dialog Background"]				= [[Interface\DialogFrame\UI-DialogBox-Background]]
 lib.MediaTable.background["Blizzard Dialog Background Dark"]		= [[Interface\DialogFrame\UI-DialogBox-Background-Dark]]
 lib.MediaTable.background["Blizzard Dialog Background Gold"]		= [[Interface\DialogFrame\UI-DialogBox-Gold-Background]]
@@ -71,16 +72,18 @@ lib.MediaTable.background["Blizzard Rock"]							= [[Interface\FrameGeneral\UI-B
 lib.MediaTable.background["Blizzard Tabard Background"]				= [[Interface\TabardFrame\TabardFrameBackground]]
 lib.MediaTable.background["Blizzard Tooltip"]						= [[Interface\Tooltips\UI-Tooltip-Background]]
 lib.MediaTable.background["Solid"]									= [[Interface\Buttons\WHITE8X8]]
+lib.DefaultMedia.background = "None"
 
 -- BORDER
 if not lib.MediaTable.border then lib.MediaTable.border = {} end
-lib.MediaTable.border["None"]								= [[Interface\None]]
+lib.MediaTable.border["None"]								= [[]]
 lib.MediaTable.border["Blizzard Achievement Wood"]			= [[Interface\AchievementFrame\UI-Achievement-WoodBorder]]
 lib.MediaTable.border["Blizzard Chat Bubble"]				= [[Interface\Tooltips\ChatBubble-Backdrop]]
 lib.MediaTable.border["Blizzard Dialog"]					= [[Interface\DialogFrame\UI-DialogBox-Border]]
 lib.MediaTable.border["Blizzard Dialog Gold"]				= [[Interface\DialogFrame\UI-DialogBox-Gold-Border]]
 lib.MediaTable.border["Blizzard Party"]						= [[Interface\CHARACTERFRAME\UI-Party-Border]]
 lib.MediaTable.border["Blizzard Tooltip"]					= [[Interface\Tooltips\UI-Tooltip-Border]]
+lib.DefaultMedia.border = "None"
 
 -- FONT
 if not lib.MediaTable.font then lib.MediaTable.font = {} end
@@ -98,9 +101,9 @@ if locale == "koKR" then
 elseif locale == "zhCN" then
 	LOCALE_MASK = lib.LOCALE_BIT_zhCN
 --
-	SML_MT_font["伤害数字"]		= [[Fonts\ZYKai_C.ttf]]
-	SML_MT_font["默认"]			= [[Fonts\ZYKai_T.ttf]]
-	SML_MT_font["聊天"]			= [[Fonts\ZYHei.ttf]]
+	SML_MT_font["伤害数字"]		= [[Fonts\ARKai_C.ttf]]
+	SML_MT_font["默认"]			= [[Fonts\ARKai_T.ttf]]
+	SML_MT_font["聊天"]			= [[Fonts\ARHei.ttf]]
 --
 	lib.DefaultMedia["font"] = "默认" -- someone from zhCN please adjust if needed
 --
@@ -186,8 +189,7 @@ function lib:Fetch(mediatype, key, noDefault)
 	local mtt = mediaTable[mediatype]
 	local overridekey = overrideMedia[mediatype]
 	local result = mtt and ((overridekey and mtt[overridekey] or mtt[key]) or (not noDefault and defaultMedia[mediatype] and mtt[defaultMedia[mediatype]])) or nil
-
-	return result
+	return result ~= "" and result or nil
 end
 
 function lib:IsValid(mediatype, key)

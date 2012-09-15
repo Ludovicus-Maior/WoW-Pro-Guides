@@ -8,8 +8,8 @@
 -- :IterateOptionsTables() (and :GetOptionsTable() if only given one argument) return a function reference that the requesting config handling addon must call with valid "uiType", "uiName".
 -- @class file
 -- @name AceConfigRegistry-3.0
--- @release $Id: AceConfigRegistry-3.0.lua 921 2010-05-09 15:49:14Z nevcairiel $
-local MAJOR, MINOR = "AceConfigRegistry-3.0", 12
+-- @release $Id: AceConfigRegistry-3.0.lua 1045 2011-12-09 17:58:40Z nevcairiel $
+local MAJOR, MINOR = "AceConfigRegistry-3.0", 14
 local AceConfigRegistry = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not AceConfigRegistry then return end
@@ -151,6 +151,7 @@ local typedkeys={
 		control=optstring,
 		dialogControl=optstring,
 		dropdownControl=optstring,
+		itemControl=optstring,
 	},
 	multiselect={
 		values=ismethodtable,
@@ -161,7 +162,7 @@ local typedkeys={
 		dropdownControl=optstring,
 	},
 	color={
-		hasAlpha=optbool,
+		hasAlpha=optmethodbool,
 	},
 	keybinding={
 		-- TODO
