@@ -2,7 +2,12 @@
 --      WoWPro_Zones.lua      --
 ----------------------------------
 
--- Map information from 4.1.14007 as of May 6th, 2011
+-- Map information from 5.0.5 (16057) 9/15
+
+WoWPro.SubZone = {
+	[30] = 864, -- "Elwynn Forest" => "Northshire"
+	}
+
 
 WoWPro.Zone2MapID = {
 		["The Hinterlands"] = {
@@ -837,7 +842,7 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 776,
 			["mapName"] = "GruulsLair",
 		},
-		["TheNexus"] = {
+		["The Nexus"] = {
 			["numFloors"] = 0,
 			["mapID"] = 520,
 			["mapName"] = "TheNexus",
