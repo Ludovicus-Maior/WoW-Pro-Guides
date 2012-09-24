@@ -10,7 +10,7 @@
    git diff
 
 5) Spin up Wow on an Alliance and a Horde toon and do:
-   /run WoWPro.Leveling:LoadAllGuides()
+   /run WoWPro:LoadAllGuides()
    This verifies that all guides can be parsed.
 
 6) Look at the number of guides listed in the config pane and verify the count against
