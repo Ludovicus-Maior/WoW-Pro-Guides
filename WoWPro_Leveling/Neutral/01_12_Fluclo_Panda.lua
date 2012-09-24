@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2012-09-24 23:46
+-- Who: Ludovicus Maior
+-- Log: It is Stormwind City, not Stormwind!
+
+-- URL: http://wow-pro.com/node/3483/revisions/25032/view
 -- Date: 2012-07-06 21:42
 -- Who: Ludovicus Maior
 -- Log: Remove the faction tags at the end sequence.
@@ -390,7 +395,7 @@ A Joining the Horde|QID|31012|M|45.58,12.61|N|From Ji Firepaw|Z|Durotar|
 A Joining the Alliance|QID|30987|M|32.90,50.95|N|From Aysa Cloudsinger|Z|Elwynn Forest|
 
 T Joining the Horde|QID|31012|M|48.14,70.54|N|To Garrosh Hellscream|Z|Orgrimmar|
-T Joining the Alliance|QID|30987|M|85.78,31.70|N|To King Varian Wrynn, in Stormwind Keep|Z|Stormwind|
+T Joining the Alliance|QID|30987|M|85.78,31.70|N|To King Varian Wrynn, in Stormwind Keep|Z|Stormwind City|
 
 A The Horde Way|QID|31013|M|48.14,70.54|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|
 C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream|Z|Orgrimmar|NC|
@@ -400,13 +405,13 @@ A Hellscream's Gift|QID|31014|M|70.61,31.47|PRE|31012|N|To Garrosh Hellscream|Z|
 C Hellscream's Gift|QID|31014|M|70.60,30.90|N|Head towards the door behind Garrosh Hellscream, and you'll get teleported to The Ring of Valor. Just fight the same target as Ji Firepaw, and run when you are told to.|Z|Orgrimmar|
 T Hellscream's Gift|QID|31014|M|48.14,70.54|N|To Garrosh Hellscream, who has moved back to the Valley of Strength|Z|Orgrimmar|
 
-A The Alliance Way|QID|30988|M|85.78,31.70|PRE|30987|N|From King Varian Wrynn|Z|Stormwind|
-C The Alliance Way|QID|30988|M|82.59,28.07|N|Listen to King Varian Wrynn|Z|Stormwind|
-T The Alliance Way|QID|30988|M|82.59,28.07|N|To King Varian Wrynn, who has moved out to the garden|Z|Stormwind|
+A The Alliance Way|QID|30988|M|85.78,31.70|PRE|30987|N|From King Varian Wrynn|Z|Stormwind City|
+C The Alliance Way|QID|30988|M|82.59,28.07|N|Listen to King Varian Wrynn|Z|Stormwind City|
+T The Alliance Way|QID|30988|M|82.59,28.07|N|To King Varian Wrynn, who has moved out to the garden|Z|Stormwind City|
 
-A An Old Pit Fighter|QID|30989|M|82.59,28.07|PRE|30987|N|From King Varian Wrynn|Z|Stormwind|
-C An Old Pit Fighter|QID|30989|M|82.59,28.07|N|The King will want you to fight him, but every hit will miss/dodge, after a short while, the fight will be over.|Z|Stormwind|
-T An Old Pit Fighter|QID|30989|M|85.78,31.70|N|To King Varian Wrynn, who has moved back into the Keep|Z|Stormwind|
+A An Old Pit Fighter|QID|30989|M|82.59,28.07|PRE|30987|N|From King Varian Wrynn|Z|Stormwind City|
+C An Old Pit Fighter|QID|30989|M|82.59,28.07|N|The King will want you to fight him, but every hit will miss/dodge, after a short while, the fight will be over.|Z|Stormwind City|
+T An Old Pit Fighter|QID|30989|M|85.78,31.70|N|To King Varian Wrynn, who has moved back into the Keep|Z|Stormwind City|
 
 ]]
 

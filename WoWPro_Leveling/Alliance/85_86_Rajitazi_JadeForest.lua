@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2012-09-24 23:54
+-- Who: Ludovicus Maior
+-- Log: Twinspire Keep is not a valid zone. Green is not spelt gree!
+
+-- URL: http://wow-pro.com/node/3486/revisions/25058/view
 -- Date: 2012-08-28 19:44
 -- Who: Ludovicus Maior
 -- Log: Laotseu 6 days ago Play testing the Alliance The Jade Forest guide. 
@@ -87,7 +92,7 @@ A Fractured Forces|QID|31742|M|46.21,84.75|N|From Rell Nightwind.|
 A Smoke Before Fire|QID|31743|M|46.21,84.75|N|From Rell Nightwind.|
 
 C Twinspire Keep|QID|31741|S|M|42.30,79.63|
-C Unfair Trade|QID|31744|S|M|40.12,81.90|N|Kill the gree demonic eyeballs to free the cubs|
+C Unfair Trade|QID|31744|S|M|40.12,81.90|N|Kill the green demonic eyeballs to free the cubs|
 C Smoke Before Fire|QID|31743|U|89602|M|43.05,81.38|
 K Dalgan slain|QID|31742|S|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
 K Bellandra Felstorm|QID|31742|S|T|Bellandra Felstorm|QO|Bellandra Felstorm slain: 1/1|M|41.7,80.2|; Twinspire Keep
@@ -97,16 +102,16 @@ C Bomb the Wild Imps|QID|31743|NC|U|89602|QO|Wild Imps bombed: 1/1|M|43.3,81.5|N
 C Bomb the Twinspire Demolishers|QID|31743|NC|U|89602|QO|Twinspire Demolishers bombed: 1/1|M|41.2,81.4|N|Use the flare to call an arial strike|; Twinspire Keep
 K Bellandra Felstorm|QID|31742|US|T|Bellandra Felstorm|QO|Bellandra Felstorm slain: 1/1|M|41.7,80.2|; Twinspire Keep
 K Dalgan slain|QID|31742|US|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
-C Unfair Trade|QID|31744|US|M|40.3,82.0|N|Kill the gree demonic eyeballs to free the cubs|; Twinspire Keep - Need better coord
+C Unfair Trade|QID|31744|US|M|40.3,82.0|N|Kill the green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coord
 C Twinspire Keep|QID|31741|US|M|41.6,81.3|; Twinspire Keep
 T Twinspire Keep|QID|31741|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Unfair Trade|QID|31744|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Fractured Forces|QID|31742|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Smoke Before Fire|QID|31743|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 A The Fall of Ga'trul|QID|30070|M|41.39,79.60|N|From Sully "The Pickle" McLeary.|
-K Ga'trul|QID|30070|T|Ga'trul|M|41.49,78.59|Z|Twinspire Keep|
-T The Fall of Ga'trul|QID|30070|M|41.43,79.06|Z|Twinspire Keep|N|To Rell Nightwind.|
-A Onward and Inward|QID|31745|M|41.43,79.06|Z|Twinspire Keep|N|From Rell Nightwind.|
+K Ga'trul|QID|30070|T|Ga'trul|M|41.49,78.59|N| In Twinspire Keep|
+T The Fall of Ga'trul|QID|30070|M|41.43,79.06|N|To Rell Nightwind.|
+A Onward and Inward|QID|31745|M|41.43,79.06|N|From Rell Nightwind.|
 C Onward and Inward|QID|31745|NC|M||41.5,79.6|N|There is a chopper just outside to take you back to the village.|
 
 T Onward and Inward|QID|31745|M|48.0,88.4|N|To Sky Admiral Rogers.|

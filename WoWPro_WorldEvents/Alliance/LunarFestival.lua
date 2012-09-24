@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2012-09-24 23:49
+-- Who: Ludovicus Maior
+-- Log: Spell Njorndir Preparation right!
+
+-- URL: http://wow-pro.com/node/3451/revisions/25018/view
 -- Date: 2012-06-30 23:09
 -- Who: Ludovicus Maior
 -- Log: Correct Zone in TheNexus
@@ -181,7 +186,7 @@ R Moa'ki Harbor|N|Run back out of Azjol-Nerub and head down to Moa'ki Harbor.|QI
 A Thoim the Elder|N|From Thoim the Elder.|QID|13019|M|48.8,78|Z|Dragonblight|
 F Valgarde|N|Fly to Valgarde.|QID|13017|M|48.4,74.4|Z|Dragonblight|
 R Utgarde Keep|N|Head inside Utgarde Keep.|QID|13067|M|57.32,46.86|Z|Howling Fjord|
-A Jarten the Elder|N|From Jarten the Elder.|QID|13017|M|47.6,70.2|Z|Norndir Preperation|
+A Jarten the Elder|N|From Jarten the Elder.|QID|13017|M|47.6,70.2|Z|Njorndir Preparation|
 R Utgarde Pinnacle|N|Head out of Utgarde Keep, then run around north of the Keep to get to Utgarde Pinnacle.|QID|13067|M|57.25,46.63|Z|Howling Fjord|
 
 A Chogan'gada the Elder|N|From Chogan'gada the Elder.|QID|13067|M|48.6,22.2|Z|Lower Pinnacle|
