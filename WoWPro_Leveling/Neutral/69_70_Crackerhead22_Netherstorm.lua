@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2012-09-25 00:58
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3284/revisions/24891/view
 -- Date: 2012-01-18 22:06
 -- Who: Ludovicus Maior
 -- Log: You need to talk to Adyen, not the other guy!
@@ -57,7 +61,7 @@
 -- Date: 2010-12-03 21:41
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraNet6970', 'Netherstorm', 'Crackerhead22', '69', '70', 'JamBor7072|JamHow7071', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('CraNet6970', 'Netherstorm', 'Crackerhead22', '69', '70', 'JamBor6872|JamHow7071', 'Neutral', function()
 return [[
 
 A Assist Exarch Orelis|QID|11038|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|

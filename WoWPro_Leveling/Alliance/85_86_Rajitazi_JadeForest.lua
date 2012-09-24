@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2012-09-25 00:55
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3486/revisions/25084/view
 -- Date: 2012-09-24 23:54
 -- Who: Ludovicus Maior
 -- Log: Twinspire Keep is not a valid zone. Green is not spelt gree!
@@ -23,7 +27,7 @@
 -- Who: Ludovicus Maior
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-WoWPro.Leveling:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', '85', '86', 'EmmVal8687', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', '85', '86', 'EmmVal8688', 'Alliance', function()
 return [[
 
 N Welcome to Pandaria|N|Don't forget to train your tradeskills before you leave Stormwind, the new trainers are not available immediately upon arriving in Pandaria.|

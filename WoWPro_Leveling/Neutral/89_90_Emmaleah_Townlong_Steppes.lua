@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2012-09-25 00:51
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3492/revisions/25081/view
 -- Date: 2012-09-24 22:46
 -- Who: Ludovicus Maior
 -- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/b143e2b68171017e6df091ec22315a977a43e4c6/WoWPro_Leveling/Neutral/89_90_Emmaleah_Townlong_Steppes.lua
@@ -23,7 +27,7 @@
 -- Who: Ludovicus Maior
 -- Log: Original from Emmaleah
 
-WoWPro.Leveling:RegisterGuide('EmmTow8990', 'Townlong Steppes', 'Emmaleah', '89', '90', 'EmmDre8990', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('EmmTow8990', 'Townlong Steppes', 'Emmaleah', '89', '90', 'EmmDre8990|EmmDre8990', 'Neutral', function()
 return [[
 
 N Welcome to Townlong Steppes|N|This guide starts in Longying Outpost, You may have two lead in qusets to turn in here, if you don't have them, check off those steps and proceed.|

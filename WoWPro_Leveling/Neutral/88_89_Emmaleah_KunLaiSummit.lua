@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-09-25 00:51
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3490/revisions/25067/view
 -- Date: 2012-09-15 19:39
 -- Who: Ludovicus Maior
 -- Log: Applied https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Neutral/88_89_Emmaleah_KunLaiSummit.lua
@@ -22,7 +26,7 @@
 -- Who: Ludovicus Maior
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-WoWPro.Leveling:RegisterGuide('EmmKun8889', 'Kun-Lai Summit', 'Emmaleah', '88', '89', 'EmmTow8990', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('EmmKun8889', 'Kun-Lai Summit', 'Emmaleah', '88', '89', 'EmmTow8990|EmmTow8990', 'Neutral', function()
 return [[
 
 N Welcome to Kun-Lai Summit.|N|This guide assumes you are starting at Grassy Cline in Valley of the Four Winds. If you don't have the quest 'Road to Kun-Lai' it is available in Halfhill.|

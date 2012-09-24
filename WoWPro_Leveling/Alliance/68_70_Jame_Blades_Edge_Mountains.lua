@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2012-09-25 00:57
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3281/revisions/24892/view
 -- Date: 2012-01-18 22:09
 -- Who: Ludovicus Maior
 -- Log: For [The Skyguard Outpost], get from Chu'a'lor not Sky Commander Keller.
@@ -48,7 +52,7 @@
 -- Date: 2010-12-03 21:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor7072", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor6872", "Alliance", function()
 return [[
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock at your repective faction.|

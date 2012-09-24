@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2012-09-25 00:53
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3285/revisions/24675/view
 -- Date: 2011-07-11 22:34
 -- Who: Ludovicus Maior
 -- Log: Cgange to Numeric REP tags
@@ -88,7 +92,7 @@
 -- Date: 2010-12-03 21:57
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraSha7070A', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', 'JamBor7072', 'Alliance', function()
+WoWPro.Leveling:RegisterGuide('CraSha7070A', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', 'JamBor6872', 'Alliance', function()
 return [[
 
 A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|
