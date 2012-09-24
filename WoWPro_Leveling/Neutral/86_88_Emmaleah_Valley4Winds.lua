@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2012-09-24 22:42
+-- Who: Ludovicus Maior
+-- Log: Merge in https://github.com/Emmaleah/WoW-Pro-Guides/commit/b285332ee04e5c4c65a8e139632fb630dbad4b0c
+
+-- URL: http://wow-pro.com/node/3485/revisions/25059/view
 -- Date: 2012-08-28 19:47
 -- Who: Ludovicus Maior
 -- Log: Test play by Laotseu on Sun, 2012-08-26 22:33. 
@@ -31,7 +36,7 @@
 -- Who: Ludovicus Maior
 -- Log: Initial Version from Emmaleah
 
-WoWPro.Leveling:RegisterGuide('EmmVal8688', 'Valley of the Four Winds', 'Emmaleah', '86', '88', 'EmmKun8889', 'Alliance', function() return [[
+WoWPro.Leveling:RegisterGuide('EmmVal8688', 'Valley of the Four Winds', 'Emmaleah', '86', '88', 'RajKra8788|EmmKra8788', 'Neutral', function() return [[
 
 
 R Valley of the Four Winds|N|Make your way to Valley of the Four Winds.|
@@ -124,7 +129,7 @@ A The Warren-Mother|QID|29946|M|68.87,43.17|N|From Chen Stormstout.|
 A Thieves to the Core|QID|29948|M|68.67,43.24|N|From Mudmug.|
 C Thieves to the Core|QID|29948|S|NC|M|67.75,36.37|
 C Crouching Carrot, Hidden Turnip|QID|29947|S|U|76370|M|69.15,39.41|
-K Chufa|QID|29946|T|Chufa|M|68.09,36.93|
+K Chufa|QID|29946|T|Chufa|QO|Chufa slain: 1/1|M|68.09,36.93|
 C Crouching Carrot, Hidden Turnip|QID|29947|US|U|76370|M|69.15,39.41|
 C Thieves to the Core|QID|29948|S|NC|M|67.75,36.37|
 T Crouching Carrot, Hidden Turnip|QID|29947|M|68.83,43.37|N|To Li Li.|
@@ -239,7 +244,7 @@ C Taste the Malted Grain|QID|30031|NC|QO|Malted Grain: 1/1|M|51,62.5|
 C Taste the Aged Grain|QID|30031|NC|QO|Aged Grain: 1/1|
 C Taste the Light Grain|QID|30031|NC|QO|Light Grain: 1/1|M|53.6,62|
 C Taste the Fresh Grain|QID|30031|NC|QO|Fresh Grain: 1/1|M|63.4,64.6|
-K Cornan|QID|30030|T|Cornan|M|51.42,64.38|N|He's up in the Grainary.|
+K Cornan|QID|30030|T|Cornan|QO|Cornan slain: 1/1|M|51.42,64.38|N|He's up in the Grainary.|
 C Wee Little Shenanigans|QID|30029|US|M|52.38,61.54|
 T Taste Test|QID|30031|M|52.67,62.99|N|To Li Li.|
 T Out of Sprite|QID|30030|M|52.67,62.99|N|To Grainer Pan.|
@@ -294,7 +299,7 @@ A Mushan Mastery: Darkhide |QID|30184|M|16.0,82.5|N|From Hemet Nesingwary|
 
 C Stag Mastery |QID|32038|S|M|24.47,68.43|
 C Fox Mastery|QID|30182|S|M|24.47,68.43|
-K Darkhide |QID|30184|T|Darkhide|M|26.7,69.6|N|Kill Darkhide and get his head.|
+K Darkhide |QID|30184|T|Darkhide|L|79058|M|26.7,69.6|N|Kill Darkhide and get his head.|
 C Fox Mastery|QID|30182|US|M|24.47,68.43|
 C Stag Mastery |QID|32038|US|M|24.47,68.43|
 
