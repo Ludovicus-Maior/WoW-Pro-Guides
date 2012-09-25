@@ -573,12 +573,9 @@ function WoWPro.Profession:EventHandler(self, event, ...)
 	end
 	if event == "PLAYER_LEVEL_UP" then
 		WoWPro.Profession:AutoCompleteLevel(...)
-		WoWPro.Profession.CheckAvailableSpells(...)
---		WoWPro.Profession.CheckAvailableTalents()
 	end
 	if event == "TRAINER_UPDATE" then
 		WoWPro.UpdateGuide()
---		WoWPro.Profession.CheckAvailableSpells()
 	end
 	
 	if event == "CHAT_MSG_SKILL" then

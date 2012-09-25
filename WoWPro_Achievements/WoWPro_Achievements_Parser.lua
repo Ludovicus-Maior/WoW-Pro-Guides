@@ -617,11 +617,6 @@ function WoWPro.Achievements:EventHandler(self, event, ...)
 	end
 	if event == "PLAYER_LEVEL_UP" then
 		WoWPro.Achievements:AutoCompleteLevel(...)
-		WoWPro.Achievements.CheckAvailableSpells(...)
---		WoWPro.Achievements.CheckAvailableTalents()
-	end
-	if event == "TRAINER_UPDATE" then
-		WoWPro.Achievements.CheckAvailableSpells()
 	end
 
 	if event == "CRITERIA_UPDATE" then 

@@ -62,8 +62,6 @@ function WoWPro.Profession.CreateSpellFrame()
 			WoWPro.Profession.SpellButton:Hide()
 		end
 	end
-	
-	WoWPro.Profession.CheckAvailableSpells()
 end
 
 function WoWPro.Profession.CreateSpellListFrame()

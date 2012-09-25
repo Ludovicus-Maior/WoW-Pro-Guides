@@ -63,7 +63,6 @@ function WoWPro.Leveling.CreateSpellFrame()
 		end
 	end
 	
-	WoWPro.Leveling.CheckAvailableSpells()
 end
 
 function WoWPro.Leveling.CreateSpellListFrame()

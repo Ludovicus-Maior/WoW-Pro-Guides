@@ -718,10 +718,6 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	if event == "PLAYER_LEVEL_UP" then
 		WoWPro.Leveling:AutoCompleteLevel(...)
 	end
-	if event == "TRAINER_UPDATE" then
-		WoWPro.Leveling.CheckAvailableSpells()
-	end
-
 end
 
 
