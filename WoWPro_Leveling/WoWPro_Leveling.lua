@@ -46,7 +46,7 @@ function WoWPro.Leveling:OnEnable()
 	local locRace, engRace = UnitRace("player")
 	-- New Level 1 Character --
 	
-	if UnitLevel("player") == 1 and UnitXP("player") == 0 then
+	if UnitLevel("player") == 1 and UnitXP("player") < 100 then
 		local startguides = {
 			Orc = "JiyDur0105", 
 			Troll = "BitDur0105", 
@@ -60,6 +60,7 @@ function WoWPro.Leveling:OnEnable()
 			Gnome = "GylGno0105",
 			Human = "KurElw0111",
 			Worgen = "RpoGil0113",
+			Pandaren = "FlucloPanda",
 		}
 		WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(startguides[engRace]))
 		WoWPro:LoadGuide(startguides[engRace])
