@@ -2,7 +2,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
+--
+-- added quest A An error of worry, ludovicous you can delete this line when you put the proper way in, im just rrying
+-- to have some version control. 9/28/12
+--
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
 -- Date: 2012-09-25 00:55
 -- Who: Ludovicus Maior
@@ -296,6 +299,7 @@ C The Threads that Stick|QID|29866|US|M|43.68,48.32|
 T The Silkwood Road|QID|29865|M|46.43,45.74|N|To Tzu the Ironbelly.|
 T The Threads that Stick|QID|29866|M|46.62,45.37|N|To Lo Wanderbrew.|
 T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur.|
+A An Air of Worry|QID|29576|M|46,46|N|From Old Man Misteye.|
 A Find the Boy|QID|29993|M|47.07,46.08|N|From Kai Wanderbrew.|
 A All We Can Spare|QID|29925|M|47.20,46.13|N|From Toya.|
 A Tian Monastery |QID|29617|N|From Apprentice Yufi|M|49.6,45.8|; Dawn's Blossom
