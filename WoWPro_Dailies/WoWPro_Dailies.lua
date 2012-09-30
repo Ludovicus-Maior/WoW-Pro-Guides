@@ -16,7 +16,7 @@ function WoWPro.Dailies:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Dailies Module")
 	
 	-- Dailies Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat","active"})
+	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat","active","ach"})
 	
 	-- Event Registration --
 	WoWPro.Dailies.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
