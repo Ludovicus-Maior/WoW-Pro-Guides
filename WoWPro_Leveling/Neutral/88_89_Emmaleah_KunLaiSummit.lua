@@ -2,6 +2,9 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+--
+-- Made various changes per comments on Wow-pro.com, including quest order and changing several |N|step, especially 
+-- not counting on the h to tell people to reset their hearthstone, but including it in the |N|9/28/12-Emmaleah
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
 -- Date: 2012-09-25 00:51
@@ -173,6 +176,7 @@ C The Ordo Warbringer|QID|30660|FACTION|Alliance|M|48.35,76.69|
 T Barrels of Fun|QID|30651|FACTION|Alliance|M|54.13,83.32|N|To Sully "The Pickle" McLeary.|
 T The Ordo Warbringer|QID|30660|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
 T Pandaren Prisoners|QID|30650|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
+A Beyond the Wall|QID|31695|FACTION|Alliance|M|54.13,83.37|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 A The Shado-Pan|QID|31455|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
 A Cho's Missive|QID|31460|FACTION|Alliance|M|53.49,83.38|N|From Mishka.|
 A Muskpaw Ranch|QID|31456|FACTION|Alliance|M|53.80,83.99|N|From Farmhand Bo.|
@@ -198,6 +202,7 @@ C The Ordo Warbringer|QID|30661|FACTION|Horde|M|48.35,76.69|
 T Barrels of Fun|QID|30656|FACTION|Horde|M|62.76,79.81|N|To Rivett Clutchpop.|
 T The Ordo Warbringer|QID|30661|FACTION|Horde|M|62.28,80.29|N|To General Nazgrim.|
 T Pandaren Prisoners|QID|30655|FACTION|Horde|M|62.28,80.29|N|To General Nazgrim.|
+A Beyond the Wall|QID|31695|FACTION|Horde|M|62.36,79.65|N|From Elder Shiao.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 A The Shado-Pan|QID|31453|FACTION|Horde|M|62.28,80.29|N|From General Nazgrim.|
 A Cho's Missive|QID|31459|FACTION|Horde|M|62.67,80.65|N|From Shademaster Kiryn.|
 A Muskpaw Ranch|QID|31457|FACTION|Horde|M|62.55,79.53|N|From Farmhand Ko.|
@@ -268,10 +273,10 @@ T Path Less Traveled|QID|30999|M|57.27,61.18|N|To Uncle Cloverleaf.|
 A Instant Courage|QID|30601|M|57.27,61.18|N|From Uncle Cloverleaf.|
 A Resupplying One Keg|QID|30618|M|57.71,61.79|N|From Big Sal.|
 A They Stole My Luck!|QID|30621|M|57.35,60.22|N|From Ji-Lu the Lucky.|
-h The Lucky Traveller|QID|30999|M|57.43,60.05|Z|One Keg|N|At Chiyo Mistpaw.|
+h The Lucky Traveller|QID|30999|M|57.43,60.05|N|Set your hearthstone at Chiyo Mistpaw.|
 f One Keg|QID|30999|M|57.77,59.78|N|At Little Cleankite.|
 
-R Howlingwind Caverns|QID|30618|M|57.77,49.30|
+R Howlingwind Caverns|QID|30618|M|57.92,58.90;57.77,49.30|CS|
 K Mischievous Snow Sprites|QID|30621|M|57.77,49.30|S|L|80316 1;80317 1;80318 1;80319 1|
 C Instant Courage|QID|30601|S|M|57.54,47.44|
 C Resupplying One Keg|QID|30618|M|56.33,50.88|
@@ -283,7 +288,7 @@ T Resupplying One Keg|QID|30618|M|57.71,61.76|N|To Big Sal.|
 T Instant Courage|QID|30601|M|57.23,61.15|N|To Uncle Cloverleaf.|
 A Comin' Round the Mountain|QID|30487|M|57.26,61.17|N|From Uncle Cloverleaf.|
 
-C Comin' Round the Mountain|QID|30487|M|48.11,48.93|N|Hop in the wagon.|
+C Comin' Round the Mountain|QID|30487|M|57.26,61.17|N|Hop in the wagon.|
 T Comin' Round the Mountain|QID|30487|M|48.12,49.00|N|To Lucky Bluestring.|
 A One Traveler's Misfortune|QID|30683|M|48.12,49.00|N|From Lucky Bluestring.|
 C One Traveler's Misfortune|QID|30683|M|50.22,49.39|
@@ -335,7 +340,7 @@ C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|
 C What's Yours Is Mine|QID|30945|M|71.17,28.66|
 T Make A Fighter Out of Me|QID|30942|M|71.17,28.66|N|To Shomi.|
 
-R Beach (need subzone name)|M|60.59,21.25|
+R Zouchin Strand|M|60.59,21.25|
 T Checking In|QID|30816|M|60.59,21.25|N|To Sage Liao.|
 A Emergency Care|QID|30794|M|60.59,21.22|N|From Sage Liao.|
 C Emergency Care|QID|30794|U|81177|NC|M|60.60,21.38|
@@ -367,10 +372,9 @@ C Revelations|QID|30946|M|62.46,28.88|NC|N|Prisoner is upstairs.|
 T Revelations|QID|30946|M|62.32,29.02|N|To Lorewalker Cho.|
 A Prophet Khar'zul|QID|31228|M|62.32,29.02|N|From Lorewalker Cho.|
 C Prophet Khar'zul|QID|31228|NC|QO|Speak with Mishi in Zouchin Village|M|63,29|
-C Prophet Khar'zul|QID|31228|M|74.20,10.61|
-
+C Prophet Khar'zul|QID|31228|M|76.4,9.2|N|Kill 12 trolls as you work your way to the waypoint, where you will find the prophet.|
 F Zouchin Village|QID|31228|M|76.17,11.38|CC|N|Talk to Mishi for a ride back to the village.|
-C A Funeral|QID|30820|NC|M|66.96,33.44|
+C A Funeral|QID|30820|NC|M|66.96,33.44|N|Click on the incense to light it.)
 T A Funeral|QID|30820|M|67.05,33.44|N|To Sage Liao.|
 T Prophet Khar'zul|QID|31228|M|62.30,29.01|N|To Lorewalker Cho.|
 H One Keg|QID|99999|N|Fly if you didnt reset your hearthstone earlier.|
@@ -381,15 +385,16 @@ T The Burlap Trail: To Burlap Waystation|QID|30592|M|51.69,67.80|N|To Brother Tr
 A The Rabbitsfoot|QID|30602|M|58.04,61.49|M|51.69,67.80|N|To Brother Trailscenter.|
 C The Rabitsfoot|QID|30602|NC|M|49.07,70.42|N|He is hanging from a tree.|
 A The Broketooth Ravage|QID|30603|M|49.07,70.42|N|From Brother Rabbitsfoot.|
+C Breaking Broketooth|QID|30604|S|M|55.44,70.84|N|Up the hill in the cave.|
 T The Rabitsfoot|QID|30602|M|51.99,67.28|N|To Brother Rabbitsfoot.|
+T Breaking Broketooth|QID|30604|M|51.94,67.24|N|To Brother Rabbitsfoot.|
 A A Monkey Idol|QID|30599|M|51.99,67.28|N|From Brother Rabbitsfoot.|
 A No Pack Left Behind|QID|30600|M|52.04,67.24|N|From Brother Rabbitsfoot.|
 A Breaking Broketooth|QID|30604|M|52.04,67.24|N|From Brother Rabbitsfoot.|
 C No Pack Left Behind|QID|30600|S|NC|M|53.35,74.45|
-C Breaking Broketooth|QID|30604|S|M|55.44,70.84|
 K Kill and loot Hateful Ko Ko|QID|30599|L|80429|T|Hateful Ko Ko|M|52.29,71.43|
 C A Monkey Idol|QID|30599|NC|QO|Destroy Ko Ko's Altar: 1/1|M|52.29,71.43|
-K Kill and loot Dak Dak|QID|30599|L|80428|T|Dak Dak|M|52.29,71.43|N|Need to manually check this off.|; i dont know why the first one will autocomplete and the other 2 wont. I have checked the item ID's in game
+K Kill and loot Dak Dak|QID|30599|L|80428|T|Dak Dak|M|52.29,71.43|N|Dak Dak is located inside the cave, he wanders around, but Blizzard has given a skull icon to help find him. Need to manually check this off.|; i dont know why the first one will autocomplete and the other 2 wont. I have checked the item ID's in game
 C A Monkey Idol|QID|30599|NC|QO|Destroy Dak Dak's Altar: 1/1|M|52.29,71.43|
 K Kill and Loot Tak Tak|QID|30599|L|80430|T|Tak Tak|M|56.78,70.97|N|Need to manually check this off.|
 C A Monkey Idol|QID|30599|NC|QO|Destroy Tak Tak's Altar: 1/1|M|56.78,70.97|
@@ -398,7 +403,6 @@ C Breaking Broketooth|QID|30599|US|M|55.44,70.84|
 T A Monkey Idol|QID|30599|M|51.94,67.24|N|To Brother Rabbitsfoot.|
 T No Pack Left Behind|QID|30600|M|51.94,67.24|N|To Brother Rabbitsfoot.|
 A Bros before Hozen|QID|30605|M|51.94,67.24|N|From Brother Rabbitsfoot.|
-T Breaking Broketooth|QID|30604|M|51.94,67.24|N|To Brother Rabbitsfoot.|
 
 R Knucklethump Hole|QID|30605|M|30.53,64.21|CC|
 C Bros before Hozen|QID|30605|M|50.53,64.21|
@@ -427,7 +431,7 @@ A The Burlap Trail: To Kota Basecamp|QID|30692|M|51.69,67.80|N|From Brother Trai
 C The Burlap Trail: To Kota Basecamp|QID|30692|M|43.77,69.04|
 T The Burlap Trail: To Kota Basecamp|QID|30692|M|42.45,68.96|N|To Brother Oilyak.|
 f Kota Basecamp|QID|30699|M|42.78,69.58|N|At Uncle Eastwind.|
-h Kota Basecamp|QID|99999|M|42.66,69.72|N|At Clover Keeper.|
+h Kota Basecamp|QID|99999|M|42.66,69.72|N|Set your hearthstone at Clover Keeper.|
 A Kota Blend|QID|30744|M|42.47,69.60|N|From Uncle Keenbean.|
 A Trouble Brewing|QID|30745|M|42.47,69.60|N|From Uncle Keenbean.|
 A Shut it Down|QID|30742|M|42.34,69.73|N|From Cousin Gootfur.|
@@ -446,17 +450,15 @@ T Shut it Down|QID|30742|M|42.48,69.45|N|To Uncle Keenbean.|
 T Trouble Brewing|QID|30745|M|42.48,69.45|N|To Uncle Keenbean.|
 T Gourmet Kafa|QID|30743|M|42.48,69.39|N|To Cousin Gootfur.|
 A The Burlap Grind|QID|30747|M|42.49,69.36|N|From Nephew Burrberry. talk to Kota Kon. vehicle UI comes up, |
-C The Burlap Grind|QID|30747|M|49.53,66.89|
+C The Burlap Grind|QID|30747|M|49.53,66.89|N|For the novelty of it, you can "ride" Kota Kon to The Gate of August Celestials, and then turn the quest in when you come back to Kota Basecamp later. If you choose to do that, check off the next two steps manually and then ride your beast to the waypoint.|
 T The Burlap Grind|QID|30747|M|42.49,69.28|N|To Nephew Burrberry.|
 
 F Eastwind Rest|QID|99999|FACTION|Horde|M|42.78,69.58|N|At Uncle Eastwind.|
-A Beyond the Wall|QID|31695|FACTION|Horde|M|62.36,79.65|N|From Elder Shiao.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 C A Witness to History|QID|31511|FACTION|Horde|M|55.58,91.24|
 R Shado-Pan Fallback|QID|31453|FACTION|Horde|CC|M|44.51,89.96|
 T The Shado-Pan|QID|31453|FACTION|Horde|M|44.51,89.96|N|To Shado-Master Chong.|
 
 F Westwind Rest|QID|99999|FACTION|Alliance|M|42.78,69.58|N|At Uncle Eastwind.|
-A Beyond the Wall|QID|31695|FACTION|Alliance|M|54.13,83.37|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 C A Witness to History|QID|31512|FACTION|Alliance|M|55.58,91.24|
 R Shado-Pan Fallback|QID|31455|FACTION|Alliance|CC|M|44.51,89.96|
 T The Shado-Pan|QID|31455|FACTION|Alliance|M|44.51,89.96|N|To Shado-Master Chong.|
@@ -478,9 +480,9 @@ T Holed Up|QID|30682|M|44.47,89.91|N|To Shado-Master Chong.|
 C Unmasking the Yaungol|QID|30690|U|81741|M|45.28,86.63|
 T Unmasking the Yaungol|QID|30690|M|44.48,89.91|N|To Shado-Master Chong.|
 A To Winter's Blossom|QID|30699|M|44.48,89.91|N|From Shado-Master Chong.|
-r Repair/Restock|QID|99999|M|44.23,90.25|N|At Fixxit Redhammer.|
-f Serpent's Spine|QID|99999|M|43.92,89.56|N|Up the stairs, at Kite Master Ni.|
-H Kota Basecamp|QID|99999|N|Fly if your hearth isn't set to Kota Basecamp.|
+r Repair/Restock|QID|30699|M|44.23,90.25|N|At Fixxit Redhammer.|
+f Serpent's Spine|QID|30699|M|43.92,89.56|N|Up the stairs, at Kite Master Ni.|
+H Kota Basecamp|QID|30699|N|Fly if your hearth isn't set to Kota Basecamp, if you took Koto Kon down to the gate, dont forget to turn in The Burlap Grind now.|
 
 R Winter's Blossom|QID|30699|M|34.97,59.36|
 T To Winter's Blossom|QID|30699|M|34.97,59.36|N|To Lin Silentstrike.|
