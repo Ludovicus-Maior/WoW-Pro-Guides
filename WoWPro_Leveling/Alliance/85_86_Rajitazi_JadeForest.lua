@@ -3,6 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- Edited based on changes from Playtesting the Horde guide 9/30/12 - Emmaleah
+
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
 -- Date: 2012-09-25 00:55
 -- Who: Ludovicus Maior
@@ -49,24 +51,19 @@ A Welcome Wagons|QID|31734|M|43.6,90.6|N|From Sully "The Pickle" McLeary.|
 C No Plan Survives Contact with the Enemy|QID|30069|S|M|42.50,93.24|
 C Welcome Wagons|QID|31734|U|89612|M|44.00,94.22|
 C No Plan Survives Contact with the Enemy|QID|30069|US|M|42.50,93.24|
-
 T No Plan Survives Contact with the Enemy|QID|30069|M|45.1,95.0|N|To Rell Nightwind.|
 T Welcome Wagons|QID|31734|M|45.1, 95.0|N|To Rell Nightwind|
 A The Right Tool For The Job|QID|31735|M|45.1,95.0|N|From Rell Nightwind.|
-
 C Destroy the first barricade |QID|31735|U|89624|QO|First Barricade Destroyed: 1/1|M|45.6,95.2|N|Use the flaregun to ignite the powder and destroy the first baricade. In the beta, this quest was sometime buged and required to relog in order to have the barricades corretly phased with you.|; Garrosh'ar Point
 C Destroy the second barricade |QID|31735|U|89624|QO|Second Barricade Destroyed: 1/1|M|45.9,95.9|N|Use the flaregun to ignite the powder and destroy the second baricade|; Garrosh'ar Point
 K Confront Ga'trul |QID|31735|QO|Ga'trul Confronted: 1/1|M|46.3,96.3|N|Attack Ga'trul until he teleport away|; Garrosh'ar Point
-
 T The Right Tool For The Job|QID|31735|M|46.5,96.3|N|To Rell Nightwind.|
 A Envoy of the Alliance|QID|31736|M|46.5,96.3|N|From Rell Nightwind.|
 A The Cost of War|QID|31737|M|46.5,96.3|N|From Rell Nightwind.|
-
 C The Cost of War|QID|31737|M|44.31,95.89|
 
-;R Paw'don Village|QID|31737|M|46.05,85.10|
+R Paw'don Village|QID|31737|M|46.05,85.10|
 C Envoy of the Alliance|QID|31736|M|45.9,85.0|
-
 f Paw'don Village|QID|31737|M|46.05,85.10|N|At Wing Kyo.|
 T The Cost of War|QID|31737|M|46.2,84.8|N|To Taran Zhu.|
 T Envoy of the Alliance|QID|31736|M|46.2,84.8|N|To Sunke Khang.|
@@ -77,7 +74,6 @@ h Paw'don Village |N|Talk to Jiayi Applebloom|M|44.9,84.4|N|Paw'don is a good pl
 C Pillaging Peons|QID|31738|S|M|42.08,87.83|
 C Critical Condition|QID|29552|S|NC|U|82829|M|42.64,87.62|N|Any bandage or healing spell will work. You need to provide your own bandages.|
 C Priorities!|QID|31739|NC|M|43.62,88.27|N|Click on the applebloom cider barels and let Teng Applebloom pick them up. It's quite impressive to see him carry them all!|
-
 T Priorities!|QID|31739|M|39.56,90.09|N|To Lin Applebloom.|
 A Koukou's Rampage|QID|31740|M|39.56,90.09|N|From Lin Applebloom.|
 
@@ -173,7 +169,7 @@ A The Elder's Instruments|QID|29887|M|58.8,81.3|N|From Pearlkeeper Fujin.|
 C Family Heirlooms|QID|29762|S|M|67.25,88.40|N|Kill the monkeys until you get all four items|
 C The Elder's Instruments|QID|29887|NC|M|67.44,87.54|N|Loot the corpses around the village|
 C Family Heirlooms|QID|29762|US|M|67.25,88.40|N|Kill the monkeys until you get all four items|
-; |U|79812|N|Optional, no other quests follow.|==I didnt get any scraps in killing the hozen==
+; |U|79812|N|Optional, no other quests follow.|==I didnt get any scraps in killing the hozen, I think quest was removed==
 ; A Trail of the White Pawn|QID|29895|
 T Family Heirlooms|QID|29762|M|58.94,81.68|N|To Bold Karasshi.|
 T The Elder's Instruments|QID|29887|M|58.72,81.22|N|To Pearlkeeper Fujin.|
@@ -270,37 +266,34 @@ C In Search of Wisdom|QID|29922|NC|M|57.93,82.48|N|Speak to Kitemaster Ut-Nam an
 
 f Dawn's Blossom|QID|29922|M|47.03,46.22|N|At Keg Runner Lee.|
 A Welcome to Dawn's Blossom|QID|31230|M|47.19,46.11|N|From Toya.|
-C Welcome to Dawn's Blossom|QID|31230|M|48.47,44.50|N|Bliz has marked the people to talk to on your minimap with chat bubbles.|
+C Welcome to Dawn's Blossom|QID|31230|M|47.04,46.02;45.77,43.67;48.47,44.50|CS|
 T In Search of Wisdom|QID|29922|M|46.85,46.16|N|To Lorewalker Cho.|
 T Welcome to Dawn's Blossom|QID|31230|M|47.16,46.15|N|To Toya.|
 A The Double Hozu Dare|QID|29716|M|46.52,45.92|N|From An Windfur.|
 A The Silkwood Road|QID|29865|M|46.48,45.85|N|From Tzu the Ironbelly.|
 A The Threads that Stick|QID|29866|M|46.59,45.32|N|From Lo Wanderbrew.|
-
 C The Threads that Stick|QID|29866|S|M|43.68,48.32|
 C The Silkwood Road|QID|29865|NC|M|S|43.26,49.23|N|Loot the egss to get Pristine Silk Strand|
-
 A Down Kitty!|QID|29717|M|39.82,48.05|N|From An Windfur.|N|The little An followed you to the Forest Heart and has a new quest for you|
 C Down Kitty!|QID|29717|S|M|37.11,47.72|
 C The Double Hozu Dare|QID|29716|M|37.31,48.19|
 T The Double Hozu Dare|QID|29716|NC|N|To An Windfur. (she should be following you)|
 A The Jade Witch|QID|29723|N|From An Windfur.|
-C The Jade Witch|QID|29723|M|39.23,46.17|N|Talk to Widow Greenpaw, she'll bring you to Shin and then kill her.|
+C The Jade Witch|QID|29723|M|39.23,46.17|N|Talk to Widow Greenpaw, she'll bring you to Shin and then become attackable, kill her.|
 C Down Kitty!|QID|29717|US|M|37.11,47.72|
-
 T Down Kitty!|QID|29717|N|To An Windfur.|
-
-C The Silkwood Road|QID|29865|NC|M|US|43.26,49.23|N|Loot the egss to get Pristine Silk Strand|
+C The Silkwood Road|QID|29865|NC|M|US|43.26,49.23|N|Loot the eggs to get Pristine Silk Strand|
 C The Threads that Stick|QID|29866|US|M|43.68,48.32|
 
 T The Silkwood Road|QID|29865|M|46.43,45.74|N|To Tzu the Ironbelly.|
 T The Threads that Stick|QID|29866|M|46.62,45.37|N|To Lo Wanderbrew.|
-T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur.|
+T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur, she wanders around the village.|
 A Find the Boy|QID|29993|M|47.07,46.08|N|From Kai Wanderbrew.|
 A All We Can Spare|QID|29925|M|47.20,46.13|N|From Toya.|
-A Tian Monastery |QID|29617|N|From Apprentice Yufi|M|49.6,45.8|; Dawn's Blossom
+A An Air of Worry|QID|29376|M|48.36,46.05|N|From Old Man Misteyes.|
+A Tian Monastery|QID|29617|M|49.63,45.80|N|From Apprentice Yufi.|
 
-R The Arboratum|QID|29993|M|54.93,45.28|
+R The Arboretum|QID|29993|M|54.93,45.28|N|The path is just down the stairs you passed to get the last quest.|
 A The Perfect Color|QID|29881|M|54.93,45.28|N|From Inkmaster Glenzu.|
 T Find the Boy|QID|29993|M|54.92,44.83|N|To Inkmaster Wei.|
 A Shrine of the Dawn|QID|29995|M|54.92,44.83|N|From Inkmaster Wei.|
@@ -330,11 +323,9 @@ A Calamity Jade|QID|29926|M|50.91,27.05|N|From Foreman Mann.|
 A Mann's Man|QID|29927|M|50.91,27.05|N|From Foreman Mann.|
 T Mann's Man|QID|29927|M|45.44,29.09|N|To Hao Mann.|
 A Trapped!|QID|29929|M|45.44,29.09|N|From Hao Mann.|
-
 C Calamity Jade|QID|29926|S|QID|29926|M|44.48,30.29|
 C Trapped!|QID|29929|NC|M|43.87,30.49|
 C Calamity Jade|QID|29926|US|QID|29926|M|44.48,30.29|
-
 T Trapped!|QID|29929|M|46.30,29.35|N|To Hao Mann.|
 A What's Mined Is Yours|QID|29930|M|46.30,29.35|N|From Hao Mann.|
 C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart.|
@@ -348,7 +339,7 @@ A The Sprites' Plight|QID|29745|M|48.64,24.91|N|From Outcast Sprite.|
 C The Sprites' Plight|QID|29745|M|49.76,19.64|
 T The Sprites' Plight|QID|29745|N|To UI Alert.|
 A Break the Cycle|QID|29747|N|From UI Alert.|
-A Simulacrumble|QID|29748|M|48.61,20.65|N|From Vacant Simulacra.|
+A Simulacrumble|QID|29748|M|48.61,20.65|N|From Shattered Destroyer.|
 C Break the Cycle|QID|29747|S|M|48.34,16.61|N|Kill the Spiritbinders and kick over the statues as you go.|
 C Simulacrumble|QID|29748|M|47.82,16.45|
 C Break the Cycle|QID|29747|US|M|48.34,16.61|
@@ -379,17 +370,15 @@ A To Bridge Earth and Sky|QID|29754|M|44.26,15.04|N|From Pei-Zhi.|
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
 A Pei-Back|QID|29755|M|43.74,12.70|From UI Alert.|
-C Pei-Back|QID|29755|M|42.52,10.99|N|When you get seperated from your body, you need to run back and click on it to rejoin it.|
+C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get seperated from your body, you need to run back and click on it to rejoin it, then try to inturupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
 
 R Tien Monestary|QID|29617|CS|M|44.48,30.77; 45.14, 28.35; 45.37,26.47;44.38,24.98|
 T Tian Monastery |QID|29617|M|45.0,25.0|N|To Lin Tenderpaw|
 A The High Elder|QID|29618|M|44.98,25.02|N|From Lin Tenderpaw.|
 T The High Elder|QID|29618|M|45.23,25.08|N|To High Elder Cloudfall, upstairs in the temple.|
-A A Courteous Guest|QID|29619|M|45.01,24.93|N|From Lin Tenderpaw.|
-
+A A Courteous Guest|QID|29619|M|45.01,24.93|N|From Lin Tenderpaw, back down the stairs.|
 C A Courteous Guest|QID|29619|M|45.81,27.50|N|From the ground or kill sprites.|
-
 T A Courteous Guest|QID|29619|M|45.01,24.99|N|To Lin Tenderpaw.|
 A The Great Banquet|QID|29620|M|45.01,24.99|N|From Lin Tenderpaw.|
 f Banquet Grounds|QID|29620|M|43.52,24.55|N|At Studious Chu.|
@@ -398,12 +387,11 @@ T The Great Banquet|QID|29620|M|42.7,23.2|N|To High Elder Cloudfall.|
 A Your Training Starts Now|QID|29622|M|43.09,23.62|N|From Xiao.|
 A Groundskeeper Wu|QID|29626|M|43.09,23.62|N|From Xiao.|
 A Becoming Battle-Ready|QID|29632|M|43.2,24.8|N|From Master Stone Fist.|
-C Becoming Battle-Ready|QID|29632|M|43.2,24.8|Fight the students in the area.|
+C Becoming Battle-Ready|QID|29632|M|43.2,24.8|N|Fight the students in the area, you can challenge more than one at a time if you want.|
 T Becoming Battle-Ready|QID|29632|M|43.2,24.8|N|To Master Stone Fist.|
 A Zhi-Zhi, the Dextrous|QID|29633|M|43.2,24.8|N|From Master Stone Fist.|
 A Husshun, the Wizened|QID|29634|M|43.2,24.8|N|From Master Stone Fist.|
-
-K Zhi-Zhi, the Dextrous|QID|29633|T|Zhi-Zhi|M|43.03,25.96|N|On top of the hill.|
+C Zhi-Zhi, the Dextrous|QID|29633|T|Zhi-Zhi|M|43.03,25.96|N|On top of the hill. Challenge him to a match.|
 
 T Groundskeeper Wu|QID|29626|M|41.6,23.7|N|To Groundskeeper Wu.|
 A A Proper Weapon|QID|29627|M|41.6,23.7|N|From Groundskeeper Wu.|
@@ -415,23 +403,19 @@ T A Proper Weapon|QID|29627|US|M|41.59,23.66|N|To Groundskeeper Wu.|
 A A Strong Back|QID|29628|M|41.59,23.66|N|From Groundskeeper Wu.|
 A A Steady Hand|QID|29629|M|41.59,23.66|N|From Groundskeeper Wu.|
 A And a Heavy Fist|QID|29630|M|41.59,23.66|N|From Groundskeeper Wu.|
-
 A Burning Bright|QID|29631|M|37.96,23.8|N|From Guard Shan Long.|
-
 C Burning Bright|QID|29631|S|M|36.09,27.57|
-C A Steady Hand|QID|29629|NC|dN|Any movement (including panning the camera angle) will end the gathering.|
+C A Steady Hand|QID|29629|NC|N|Any movement (including panning the camera angle) will end the gathering.|
 C Burning Bright|QID|29631|US|M|36.09,27.57|
-
 C And a Heavy Fist|QID|29630|S|N|Kill these as you approach the next objective|
 C Obtain the Boiling Cauldron|QID|29628|NC|QO|Boiling Cauldron obtained: 1/1|M|37.8,17.6|
 C And a Heavy Fist|QID|29630|US|
-
 T Burning Bright|QID|29631|M|37.96, 23.79|N|To Guard Shan Long.|
-
 C Bring the cauldron to Groundskeeper Wu|QID|29628|NC|M|41.59,23.66|N|Do not let the cauldron lag to much behind you, you might loose it.|
 T A Strong Back|QID|29628||M|41.59,23.66|N|To Groundskeeper Wu.|
 T A Steady Hand|QID|29629|M|41.59,23.66|N|To Groundskeeper Wu.|
 T And a Heavy Fist|QID|29630|M|41.59,23.66|N|To Groundskeeper Wu.|
+
 T Your Training Starts Now|QID|29622|M|41.59,28.35|N|To Instructor Xann.|
 A Perfection|QID|29623|M|41.59,28.35|N|From Instructor Xann.|
 C Perfection|QID|29623|M|41.34,27.52|N|You copy the instructor, when he punches one first forward, press "1", Both arms forward is "2" and both arms back is "3".|
@@ -439,52 +423,53 @@ T Perfection|QID|29623|M|41.59,28.35|N|To Instructor Xann.|
 A Attention|QID|29624|M|41.59,28.35|N|From Instructor Xann.|
 C Attention|QID|29624|M|41.11,26.98|N|Attack the right or left bag based on the yellow text in the middle of your screen.|
 T Attention|QID|29624|M|41.59,28.35|N|To Instructor Xann.|
-C Husshun, the Wizened|QID|29634|M|44.54,24.08|
+
+C Husshun, the Wizened|QID|29634|M|44.54,24.08|N|Challenge him to a match.|
 T Zhi-Zhi, the Dextrous|QID|29633|M|43.27,24.75|N|To Master Stone Fist.|
 T Husshun, the Wizened|QID|29634|M|43.27,24.75|N|To Master Stone Fist.|
 A Xiao, the Eater|QID|29635|M|43.27,24.75|N|From Master Stone Fist.|
 C Xiao, the Eater|QID|29635|M|43.12, 23.64|
 T Xiao, the Eater|QID|29635|M|43.27,24.75|N|To Master Stone Fist.|
 A A Test of Endurance|QID|29636|M|43.27,24.75|N|From Master Stone Fist.|
+
 T A Test of Endurance|QID|29636|M|38.99,24.06|N|To Instructor Myang.|
 A The Rumpus|QID|29637|M|38.99,24.06|N|From Instructor Myang.|
-C The Rumpus|QID|29637|M|38.98,23.23|N|Stay alive for 2 minutes|
+C The Rumpus|QID|29637|M|38.98,23.23|N|N|Set off your fireworks to signal that you are ready to begin and then stay alive for 2 minutes.|
 T The Rumpus|QID|29637|M|38.99,24.06|N|To Instructor Myang.|
 A Flying Colors|QID|29647|M|43.27,24.75|N|From Instructor Myang.|
 T Flying Colors|QID|29647|M|42.71,23.23|N|To High Elder Cloudfall.|
 
-F Paw'don Village|QID|29576|M|43.52,24.55|N|At Studious Chu.(or you can just ride straight to Nectarbreeze)|
-R Nectarbreeze Orchard|QID|29576|aM|43.54,75.91|CC|
+F Paw'don Village|QID|29576|M|43.52,24.55|N|At Studious Chu.(or you can just ride straight to Nectarbreeze...or...if your hearthstone is set there, hearth to Paw'don)|
+R Nectarbreeze Orchard|QID|29576|M|43.54,75.91|CC|
 T An Air of Worry |QID|29576|N|To Shao the Defiant|M|43.5,75.9|
 A Defiance|QID|29578|M|43.54,75.91|N|From Shao the Defiant.|
 A Rally the Survivors|QID|29579|M|43.54,75.91|N|From Shao the Defiant.|
 A Spitfire|QID|29585|M|43.28,75.77|N|From Gentle Mother Hanae.|
 A Orchard-Supplied Hardware|QID|29580|M|43.28,75.77|N|From Gentle Mother Hanae.|
-
 C Defiance|QID|29578|S|M|44.19,74.52|
 C Orchard-Supplied Hardware|QID|29580|S|NC|M|43.58,71.16|
 C Spitfire|QID|29585|S|NC|U|72578|M|44.48,72.49|
 C Rally the Survivors|QID|29579|NC|M|44.51,72.75|
 C Spitfire|QID|29585|US|NC|U|72578|M|44.48,72.49|
-C Orchard-Supplied Hardware|QID|29580|US|NC|wM|43.58,71.16|
+C Orchard-Supplied Hardware|QID|29580|US|NC|M|43.58,71.16|
 C Defiance|QID|29578|US|M|44.19,74.52|
-
 T Defiance|QID|29578|M|43.48,75.96|N|To Shao the Defiant.|
 T Rally the Survivors|QID|29579|M|43.48,75.96|N|To Shao the Defiant.|
 T Orchard-Supplied Hardware|QID|29580|M|43.27,75.97|N|To Gentle Mother Hanae.|
 T Spitfire|QID|29585|M|43.27,75.97|N|To Gentle Mother Hanae.|
 A The Splintered Path|QID|29586|M|43.27,75.97|N|From Traumatized Nectarbreeze Farmer.|
+
 C The Splintered Path|QID|29586|M|40.71,73.87|
 T The Splintered Path|QID|29586|M|40.96,73.97|N|To Shao the Defiant.|
 A Unbound|QID|29587|M|40.96,73.97|N|From Shao the Defiant.|
 A Maul Gormal|QID|29670|M|40.96,73.97|N|From Shao the Defiant.|
-C Unbound|QID|29587|S|NC|M|39.76,75.57|
-C Maul Gormal|QID|29670|M|37.84,75.76|
-C Unbound|QID|29587|US|NC|M|39.76,75.57|
+C Unbound|QID|29587|S|NC|M|39.76,75.57|N|Click on the nets to free the farmers.|
+K Subjugator Gormal|QID|29670|T|Subjugator Gormal|QO|Subjugator Gormal slain: 1/1|M|37.84,75.76|
+C Unbound|QID|29587|US|NC|M|39.76,75.57|N|Click on the nets to free the farmers.|
 T Unbound|QID|29587|M|41.02,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.02,73.97|N|To Shao the Defiant.|
 
-R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4|
+R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4;48.26,61.31|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|
 T The Serpent's Heart|QID|29931|M|48.26,61.31|N|To Foreman Raike.|
 A Love's Labor|QID|30495|M|48.26,61.31|N|From Foreman Raike.|
 C Delivery to Kitemaster Shoku |QID|30495|NC|QO|Delivery to Kitemaster Shoku: 1/1|M|48.2,60.0|
@@ -493,8 +478,7 @@ C Delivery to Surveyor Sawa |QID|30495|NC|QO|Delivery to Surveyor Sawa: 1/1|M|47
 C Delivery to Historian Dinh |QID|30495|NC|QO|Delivery to Historian Dinh: 1/1|M|46.4,61.8|
 T Love's Labor|QID|30495|M|48.26,61.31|N|From Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|M|48.31,61.30|N|From Foreman Raike.|
-
-C The Temple of the Jade Serpent|QID|29932|NC|M|48.2,60.0;55.8,57.1|N|Talk to Kitemaster Shoku for a ride to the Temple of the Jade Serpent and then talk to Elder Sage Wind-Yi for a cut scene.|
+F The Temple of the Jade Serpent|QID|29932|M|48.2,60.0;55.8,57.1|N|Talk to Kitemaster Shoku for a ride to the Temple of the Jade Serpent and then talk to Elder Sage Wind-Yi for a cut scene.|
 
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
@@ -502,7 +486,7 @@ A The Librarian's Quandary|QID|29998|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
 A They Call Him... Stormstout|QID|32019|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
 A The Rider's Bind|QID|29999|M|58.0,59.0|N|From Fei.|
 A Lighting Up the Sky|QID|30005|M|58.0,59.0|N|From Fei.|
-C Lighting Up the Sky|QID|30005|S|NC|N|Set of the fireworks as you go and pick up the little serpents marked by cogs on your mini map.|
+C Lighting Up the Sky|QID|30005|S|NC|N|Set of the fireworks(sparkly barrels) scattered throughout.|
 C Find the Playful Emerald Serpent |QID|29999|NC|QO|Playful Emerald Serpent found: 1/1|M|56.5,58.4|
 T The Librarian's Quandary|QID|29998|M|56.29,60.46|N|To Lorewalker Stonestep.|
 A Moth-Ridden|QID|30001|M|56.29,60.46|N|From Lorewalker Stonestep.|
@@ -515,7 +499,7 @@ C Moth-Ridden|QID|30001|US|M|56.39,60.43|
 T Moth-Ridden|QID|30001|M|56.29,60.40|N|To Lorewalker Stonestep.|
 A Everything In Its Place|QID|30004|M|56.29,60.40|N|From Lorewalker Stonestep.|
 C Find the Playful Crimson Serpent |QID|29999|NC|QO|Playful Crimson Serpent found: 1/1|M|58.2,61.4|N|Go up the stairs and follow the path.|
-C The Scryer's Dilemma|QID|29997|M|56.9,55.8|N|When you get in the Fountain of the Everseeing, kill Water Fiend until you get the staff.|
+C The Scryer's Dilemma|QID|29997|M|56.9,55.8|N|When you get in the Fountain of the Everseeing, kill Water Fiends until you get the staff.|
 T The Scryer's Dilemma|QID|29997|M|57.6,56.0|N|To Wise Mari.|
 A A New Vision|QID|30011|M|57.6,56.0|N|From Wise Mari.|
 C Find the Playful Azure Serpent|QID|29999|M|59.2,56.7|
@@ -542,7 +526,6 @@ T Helping the Cause|QID|30568|M|58.11,80.68|N|To Admiral Taylor.|
 A Last Piece of the Puzzle|QID|31362|M|58.85,81.08|N|From Lorewalker Cho.|
 
 C Last Piece of the Puzzle|QID|31362|NC|U|80071|M|58.85,81.08;44.50,66.96|N|Talk to Mishi for a ride and then use the Cho Family Heirloom at the shrine.|
-
 T Last Piece of the Puzzle|QID|31362|M|44.8,67.1|N|To Lorewalker Cho.|
 A The Seal is Broken|QID|31303|M|44.78,67.06|N|From Lorewalker Cho.|
 f Serpent's Overlook|QID|31303|M|43.13,68.48|N|At Sky Dancer Ji.|
@@ -564,7 +547,6 @@ T Emergency Response|QID|31319|1/1|M|49.32,61.50|N|To Lorewalker Cho.|
 A Moving On|QID|30648|M|49.31,61.35|N|From Fei.|
 C Moving On|QID|30648|M|49.31,61.35|N|Talk to Fei.|
 T Moving On|QID|30648|N|To UI Alert (after the ride into the Valley).|
-
 N Congratulations,|N|You finished The Jade Forest. Next zone is Valley of the Four Winds, the guide should load when you check off this step.|
 
 ]]
