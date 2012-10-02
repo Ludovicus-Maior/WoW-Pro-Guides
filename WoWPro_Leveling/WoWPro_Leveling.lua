@@ -19,7 +19,7 @@ function WoWPro.Leveling:OnEnable()
 	WoWPro.Leveling:dbp("|cff33ff33Enabled2|r")
 	
 	-- Leveling Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep"})
+	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep","faction"})
 	
 	-- Event Registration --
 	WoWPro.Leveling.Events = {"QUEST_LOG_UPDATE", 

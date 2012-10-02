@@ -45,12 +45,27 @@ WoWPro.Leveling.actionlabels = {
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Leveling:NextStep(k, skip)
 	local GID = WoWProDB.char.currentguide
+	local myFaction = strupper(UnitFactionGroup("player"))
 
     if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi[WoWPro.step[k]] then
 	    WoWPro.CompleteStep(k)
 	    skip = true
 	end
 
+	-- Skip Faction qualified steps 
+	if WoWPro.faction[k] then
+		if myFaction == "NEUTRAL" then
+			-- While Neutral, punt on permanent skipping
+			skip = true
+		else
+			if WoWPro.faction[k] ~= myFaction then
+				-- Now that we have made up our minds, skip the ones that do not match.
+				WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true -- Mark the quests NOT the steps as skipped or we get funny results on reload.
+				skip = true
+			end
+		end
+	end
+	-- 
 
 	-- Optional Quests --
 	if WoWPro.optional[k] and WoWPro.QID[k] then 
@@ -185,6 +200,7 @@ local function ParseQuests(...)
 	local i = 1
 	local myclassL, myclass = UnitClass("player")
 	local myraceL, myrace = UnitRace("player")
+	local myFaction = strupper(UnitFactionGroup("player"))
 	if myrace == "Scourge" then
 		myrace = "Undead"
 	end
@@ -217,7 +233,10 @@ local function ParseQuests(...)
 				-- deleting leading/trailing whitespace and then canonicalize the case
 				faction=strupper(strtrim(faction))
             end			    
-			if class == nil or class:find(myclass) then if race == nil or race:find(myrace) then if gender == nil or gender == UnitSex("player") then if faction == nil or faction == strupper(UnitFactionGroup("player")) then
+			if (class == nil or class:find(myclass)) and
+			   (race == nil or race:find(myrace)) and
+			   (gender == nil or gender == UnitSex("player")) and
+			   (faction == nil or myFaction == "NEUTRAL" or faction == myFaction) then
 				_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
 				WoWPro.step[i] = WoWPro.step[i]:trim()
 				WoWPro.stepcount = WoWPro.stepcount + 1
@@ -252,6 +271,9 @@ local function ParseQuests(...)
 					else WoWPro.waypcomplete[i] = false end
 				end
 
+				if faction then
+					WoWPro.faction[i] = faction
+				end
 				if text:find("|NC|") then WoWPro.noncombat[i] = true end
 				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
 				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
@@ -265,7 +287,7 @@ local function ParseQuests(...)
 				end
 				
 				i = i + 1
-			end end end end
+			end
 		end
 	end
 end
@@ -687,7 +709,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
         local questtitle = GetTitleText();
 		if WoWProCharDB.AutoTurnin == true and (WoWPro.action[qidx] == "T" or WoWPro.action[qidx] == "A") and questtitle == WoWPro.step[qidx] then
 		    if (GetNumQuestChoices() <= 1) then
-		        GetQuestReward(0)
+		        GetQuestReward(1)
 		    end
         end
 		WoWPro.Leveling.CompletingQuest = true
