@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2012-09-28 04:40
+-- Who: Laotseu
+-- Log: Fix quest and step text for auto-complete.
+--	Fix a few coordinates and move a few steps around.
+
+-- URL: http://wow-pro.com/node/3485/revisions/25080/view
 -- Date: 2012-09-24 22:42
 -- Who: Ludovicus Maior
 -- Log: Merge in https://github.com/Emmaleah/WoW-Pro-Guides/commit/b285332ee04e5c4c65a8e139632fb630dbad4b0c
@@ -44,7 +50,7 @@ A Chen and Li Li|QID|29907|M|86,22|N|From Chen Stormstout.|
 f Pang's Stead|QID|20907|M|84.1,21|N|From the flighmaster.|
 T Chen and Li Li|QID|29907|M|83.7,21.0|N|To Pang Thunderfoot.|
 A A Seemingly Endless Nuisance|QID|29908|M|84,21|N|From Pang Thunderfoot.|
-A A poor grasp of the basics|QID|29877|M|82.7,21.2|N|From Muno the Farmhand.|
+A A Poor Grasp of the Basics|QID|29877|M|82.7,21.2|N|From Muno the Farmhand.|
 
 C A Seemingly Endless Nuisance|QID|29908|S|M|82,21|N|From Pang Thunderfoot.|
 C A Poor Grasp of the Basics|QID|29877|NC|M|82,21||
@@ -62,7 +68,7 @@ A Kang Bramblestaff|QID|29874|M|84.1,21.1|FACTION|Alliance|N|From Xiao.|
 A Lin Tenderpaw|QID|29872|M|84.1,21.1|N|From Xiao.|
 
 T Low Turnip Turnout|QID|29909|M|81.4,24.9|N|To Ang Thunderfoot.|
-A Taking a crop|QID|29940|M81.4,24.9|N|From Ang Thunderfoot.|
+A Taking a Crop|QID|29940|M81.4,24.9|N|From Ang Thunderfoot.|
 A Rampaging Rodents|QID|29910|M|81.9,25.9|N|From Ana Thunderfoot, she is walking around.|
 C Rampaging Rodents|QID|29910|NC|M|81.9,25.9|N|Fill the holes and kick the marmots, it take more then one click to fill a hole.|
 T Rampaging Rodents|QID|29910|M|81.9,25.9|N|To Ana Thunderfoot, she is walking around.|
@@ -70,7 +76,7 @@ T Rampaging Rodents|QID|29910|M|81.9,25.9|N|To Ana Thunderfoot, she is walking a
 C Stolen Turnip|QID|29940|NC|QO|Stolen Turnip: 5/5|M|86.5,28.1;84.7,26.5|N|In the burrow.|
 C Stolen Watermelon|QID|29940|NC|QO|Stolen Watermelon: 5/5|M|85.3,32.2||N|In the water.|
 
-T Taking a crop|QID|29940|M|81.6,25.3|N|To Ang Thunderfoot.|
+T Taking a Crop|QID|29940|M|81.6,25.3|N|To Ang Thunderfoot.|
 A Practically Perfect Produce|QID|29911|M|81.6,25.3|N|From Ang Thunderfoot.|
 T Practically Perfect Produce|QID|29911|M|83.72,21.09|N|To Pang Thunderfoot.|
 A The Fabulous Miss Fanny|QID|29912|M|81.6,25.3|N|From Pang Thunderfoot.|
@@ -78,9 +84,9 @@ A The Fabulous Miss Fanny|QID|29912|M|81.6,25.3|N|From Pang Thunderfoot.|
 l Pick up a turnip|QID|29912|L|75259|M|84.3,21.9|
 l Pick up a watermelon|QID|29912|L|75258|M|84.1,22.0|
 l Pick up the Extra Spicy Tofy|QID|29912|L|75256|M|84.0,22.0|
-C Ang's Giant Pink Turnip|QID|29912|NC|QO|Launch a pink turnip: 1/1|M|84.3,22|N|Have Fanny hit it average.|
-C Ang's Summer Watermelon|QID|29912|NC|QO|Launch a watermelon: 1/1|M|82.96,21.5|N|Have Fanny hit it softly.|
-C Pang's Extra-Spicy Tofu|QID|29912|NC|QO|Launch the Extra-Spicy Tofu: 1/1|M|82.96, 21.5|N|Have Fanny hit it very hard|
+C Ang's Giant Pink Turnip|QID|29912|NC|QO|Launch a pink turnip: 1/1|M|83.0,21.1|N|Have Fanny hit it average.|
+C Ang's Summer Watermelon|QID|29912|NC|QO|Launch a watermelon: 1/1|M|83.0,21.1|N|Have Fanny hit it softly.|
+C Pang's Extra-Spicy Tofu|QID|29912|NC|QO|Launch the Extra-Spicy Tofu: 1/1|M|83.0,21.1|N|Have Fanny hit it very hard|
 
 T The Fabulous Miss Fanny|QID|29912|M|75.2,24.0|N|To LiangThunderfoot.|
 A The Meat They'll Eat|QID|29913|M|75.2,24.1|N|From Liang Thunderfoot.|
@@ -88,21 +94,21 @@ A Back to the Sty|QID|29914|M|75.2,24.1|N|From Liang Thunderfoot.|
 
 C Mushan Shoulder Steak |QID|29913|S|QO|Mushan Shoulder Steak: 4/4|M|72,29|
 C Turtle Meat Scrap |QID|29913|S|QO|Turtle Meat Scrap: 80/80|M|67.6,30.1|
-C Pick up Smelly |QID|29914|NC|QO|Smelly: 1/1|M|70.5,29.5|
-C Pick up Ling |QID|29914|NC|QO|Ling: 1/1|M|66.8,29.0|
+C Pick up Smelly |QID|29914|NC|T|Smelly|QO|Smelly: 1/1|M|70.5,29.5|
+C Pick up Ling |QID|29914|NC|T|Ling|QO|Ling: 1/1|M|66.8,29.0|
 C Turtle Meat Scrap |QID|29913|US|QO|Turtle Meat Scrap: 80/80|M|67.6,30.1|
-C Pick up Jian |QID|29914|NC|QO|Jian: 1/1|M|69.9,24.3|
+C Pick up Jian |QID|29914|NC|T|Jian|QO|Jian: 1/1|M|69.9,24.3|
 f Grassy Cline|M|70.8,24.2|N|From Kom of the Mountain Winds.|
-C The Meat They'll Eat |QID|29913|US|QO|Mushan Shoulder Steak: 4/4|M|72,29|
+C Mushan Shoulder Steak |QID|29913|US|QO|Mushan Shoulder Steak: 4/4|M|72,29|
 
-T The Meat They'll Eat|QID|29913|M|70.6,24.3|N|To Liang Thunderfoot.|
+T The Meat They'll Eat|QID|29913|M|72.4,24.3|N|To Liang Thunderfoot.|
 T Back to the Sty|QID|29914|M|75.2,24.1|N|To Liang Thunderfoot.|
 A A Neighbor's Duty|QID|29915|M|75.2,24.1|N|From Liang Thunderfoot.|
 T A Neighbor's Duty|QID|29915|M|78.15,32.84|N|To Francis the Shepherd Boy.|
 A Piercing Talons and Slavering Jaws|QID|29916|M|78.15,32.84|N|From Francis the Shepherd Boy.|
 A Lupello|QID|29917|M|78.15,32.84|N|From Francis the Shepherd Boy.|
 C Piercing Talons and Slavering Jaws|QID|29916|S|M|82.84,32.34|
-C Lupello|QID|29917|M|81.21,40.29|
+K Kill Lupello|QID|29917|T|Lupello|M|81.21,40.29|
 C Piercing Talons and Slavering Jaws|QID|29916|US|M|82.84,32.34|
 T Piercing Talons and Slavering Jaws|QID|29916|M|78.17,32.78|N|To Francis the Shepherd Boy.|
 T Lupello|QID|29917|M|78.17,32.78|N|To Francis the Shepherd Boy.|
@@ -115,9 +121,9 @@ T Great Minds Drink Alike|QID|29919|M|68.68,43.14|N|To Mudmug.|
 A Leaders Among Breeders|QID|29944|M|68.85,43.15|N|From Chen Stormstout.|
 A Yellow and Red Make Orange|QID|29945|M|68.86,43.26|N|From Li Li.|
 C Yellow and Red Make Orange|QID|29945|S|M|65.53,38.10|
-K Frenzyhop|QID|29944|T|Frenzyhop|QO|Frenzyhop slain: 1/1|M|64.64,40.66|
-K Jinanya the Clawblade|QID|29944|T|Jinanya the Clawblade|QO|Jinanya the Clawblade slain: 1/1|M|68.72,38.29|
-K Aiyu the Skillet|QID|29944|T|Aiyu the Skillet|QO|Aiyu the Skillet slain: 1/1|M|68.25,37.03|
+K Kill Frenzyhop|QID|29944|T|Frenzyhop|QO|Frenzyhop slain: 1/1|M|64.64,40.66|
+K Kill Jinanya the Clawblade|QID|29944|T|Jinanya the Clawblade|QO|Jinanya the Clawblade slain: 1/1|M|68.72,38.29|
+K Kill Aiyu the Skillet|QID|29944|T|Aiyu the Skillet|QO|Aiyu the Skillet slain: 1/1|M|68.25,37.03|
 C Yellow and Red Make Orange|QID|29945|US|M|65.53,38.10|
 T Yellow and Red Make Orange|QID|29945|M|68.95,43.28|N|To Li Li.|
 A Crouching Carrot, Hidden Turnip|QID|29947|M|68.95,43.28|N|From Li Li.|
@@ -129,7 +135,7 @@ A The Warren-Mother|QID|29946|M|68.87,43.17|N|From Chen Stormstout.|
 A Thieves to the Core|QID|29948|M|68.67,43.24|N|From Mudmug.|
 C Thieves to the Core|QID|29948|S|NC|M|67.75,36.37|
 C Crouching Carrot, Hidden Turnip|QID|29947|S|U|76370|M|69.15,39.41|
-K Chufa|QID|29946|T|Chufa|QO|Chufa slain: 1/1|M|68.09,36.93|
+K Kill Chufa|QID|29946|T|Chufa|M|68.09,36.93|
 C Crouching Carrot, Hidden Turnip|QID|29947|US|U|76370|M|69.15,39.41|
 C Thieves to the Core|QID|29948|S|NC|M|67.75,36.37|
 T Crouching Carrot, Hidden Turnip|QID|29947|M|68.83,43.37|N|To Li Li.|
@@ -154,7 +160,6 @@ T The Moth Rebellion|QID|30059|M|63.57,58.48|N|To Journeyman Chu.|
 A Mothran!|QID|30058|M|63.57,58.48|N|From Master Goh.|
 C Mothran!|QID|30058|M|64.4,58.0|
 T Mothran!|QID|30058|M|63.66,58.42|N|To Master Goh.|
-A The Golden Dream|QID|29581|M|59.88,27.82|N|From Zhang Yue.|
 C Li Li's Day Off|QID|29950|U|76350|M|61.41,36.02|
 T Clever Ashyo|QID|29871|M|61.29,34.09|N|To Clever Ashyo.|
 A Ashyo's Vision|QID|29577|M|61.29,34.09|N|From Clever Ashyo.|
@@ -167,9 +172,10 @@ C Snap Judgment|QID|29600|S|M|60.9,25.7|
 C Bottletoads|QID|29757|NC|M|64.82,25.07|
 C Snap Judgment|QID|29600|US|M|60.9,25.7|
 T Snap Judgment|QID|29600|M|59.88,27.82|N|To Zhang Yue.|
-K Kill Krosh and loot|QID|29758|S|L|83767|M|65.29,26.45|N|Use Krosh's Back.|
+A The Golden Dream|QID|29581|M|59.88,27.82|N|From Zhang Yue.|
+K Kill Krosh and loot|QID|29758|S|T|Krosh|L|83767|M|65.29,26.45|N|Use Krosh's Back.|
 C The Golden Dream|QID|29581|NC|M|65.29,26.45|
-K Kill Krosh and loot|QID|29758|US|L|83767|M|65.29,26.45|N|Use Krosh's Back.|
+K Kill Krosh and loot|QID|29758|US|T|Krosh|L|83767|M|65.29,26.45|N|Use Krosh's Back.|
 A Guess Whose Back|QID|29758|U|83767|M|65.29,26.45|N|From Krosh's Back.|
 T Bottletoads|QID|29757|M|60.64,33.77|N|To Yan.|
 T Guess Whose Back|QID|29758|M|60.64,33.77|N|To Yan.|
@@ -189,7 +195,7 @@ A Hop Hunting|QID|30053|M|55.78,49.50|N|From Chen Stormstout.|
 A Li Li and the Grain|QID|30048|M|55.78,49.50|N|From Chen Stormstout.|
 A Doesn't Hold Water|QID|30049|M|55.78,49.50|N|From Chen Stormstout.|
 A Children of the Water |QID|32045|M|55.1,47.4|N|From Stonecarver Mac|; Halfhill
-f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga.|
+f The Halfhill Market|QID|30049|M|53.81,50.92|N|From Wing Nga.|
 r Repair/Restock|QID|30049|M|53.69,51.17|N|At Sungshin Ironpaw.|
 
 T Doesn't Hold Water|QID|30049|M|54.19,38.65|N|To Mudmug.|
@@ -211,7 +217,7 @@ C Speak with Den Mudclaw|QID|30053|QO|Speak with Den Mudclaw: 1/1|M|44.26,34.33|
 A The Farmer's Daughter|QID|30056|M|44.35,34.19|N|From Den Mudclaw.|
 A Enough is Ookin' Enough|QID|30054|M|44.19,34.21|N|From Mung-Mung.|
 C Enough is Ookin' Enough|QID|30054|S|M|45.44,36.02|
-C The Farmer's Daughter|QID|30056|M|44.3,38.5;41.46,38.6|N|She is underground. Talk to her and bring her out.|
+;C The Farmer's Daughter|QID|30056|M|44.3,38.5;41.46,38.6|N|She is underground. Talk to her and bring her out.|
 T The Farmer's Daughter|QID|30056|M|41.30,38.16|N|To Mina Mudclaw.|
 A Seeing Orange|QID|30057|M|41.30,38.16|N|From Mina Mudclaw.|
 C Enough is Ookin' Enough|QID|30054|US|M|42,33|
@@ -234,7 +240,7 @@ A The Road to Kun-Lai|QID|31254|FACTION|Alliance|M|70.1,23.5|N|From Highlord Gru
 A The Road to Kun-Lai|QID|31255|FACTION|Horde|M|70.1,23.5|N|From Highlord Grummle, require level 87. Skip it if you are to low level.|
 T Children of the Water |QID|32045|M|55.1,47.4|N|To Stonecarver Mac|; Halfhill
 
-R Imperial Grainary|QID|30048|M|52.72,62.82|
+R The Imperial Grainary|QID|30048|M|52.72,62.82|
 T Li Li and the Grain|QID|30048|M|52.62,62.79|N|To Li Li.|
 A Taste Test|QID|30031|M|52.62,62.79|N|From Li Li.|
 A Out of Sprite|QID|30030|M|52.66,62.90|N|From Grainer Pan.|
@@ -243,8 +249,8 @@ C Wee Little Shenanigans|QID|30029|S|M|52.38,61.54|
 C Taste the Malted Grain|QID|30031|NC|QO|Malted Grain: 1/1|M|51,62.5|
 C Taste the Aged Grain|QID|30031|NC|QO|Aged Grain: 1/1|
 C Taste the Light Grain|QID|30031|NC|QO|Light Grain: 1/1|M|53.6,62|
-C Taste the Fresh Grain|QID|30031|NC|QO|Fresh Grain: 1/1|M|63.4,64.6|
-K Cornan|QID|30030|T|Cornan|QO|Cornan slain: 1/1|M|51.42,64.38|N|He's up in the Grainary.|
+C Taste the Fresh Grain|QID|30031|NC|QO|Fresh Grain: 1/1|M|53.6,64.5|
+K Kill Cornan|QID|30030|T|Cornan|M|51.42,64.38|N|He's up in the Grainary.|
 C Wee Little Shenanigans|QID|30029|US|M|52.38,61.54|
 T Taste Test|QID|30031|M|52.67,62.99|N|To Li Li.|
 T Out of Sprite|QID|30030|M|52.67,62.99|N|To Grainer Pan.|
@@ -253,11 +259,11 @@ A The Quest for Better Barley|QID|30032|M|52.67,62.99|N|From Grainlord Kai.|
 A Grain Recovery|QID|30028|M|52.67,62.99|N|From Grainlord Kai.|
 C Grain Recovery|QID|30028|NC|M|54.62,67.84|
 C The Quest for Better Barley|QID|30032|M|51.29,77.54;53.31,75.14;48.63,26.96|CC|N|Use the rope on the ground|
-T Grain Recovery|QID|30028|M|52.76,62.91|N|To Grainlord Kai.|
+T Grain Recovery|QID|30028|M|48.6,27.0;48.98,13.7|Z|Krasarang Wilds|N|Use the rope to climb back. To Grainlord Kai.|
 T The Quest for Better Barley|QID|30032|M|52.76,62.91|N|To Li Li.|
 A The Chen Taste Test|QID|30047|M|52.76,62.91|N|From Li Li.|
 
-R Halfhill Market|QID|30047|M|56.1,50.0|
+R Halfhill|QID|30047|M|56.1,50.0|
 T The Chen Taste Test|QID|30047|M|55.91,49.46|N|To Chen Stormstout.|
 A The Emperor|QID|30073|M|55.91,49.46|N|From Chen Stormstout.|
 C The Emperor|QID|30073|M|55.91,49.46|N|Wait for him to finsih brewing|
@@ -287,9 +293,9 @@ R Nesingwary's Safari|QID|30181|M|16,83|
 A Stalker Mastery |QID|30183|M|16.2,82.5|N|From Tani|
 A Mushan Mastery |QID|30181|M|16.1,82.6|N|From Hemet Nesingwary Jr.|
 
-C Mushan Mastery|QID|30181|S|M|11.90,68.81|
 C Stalker Mastery |QID|30183|S|M|11.90,68.81|
-C Mushan Mastery|QID|30181|US|M|11.90,68.81|
+C Mushan Mastery|QID|30181|M|11.90,68.81|
+C Stalker Mastery |QID|30183|US|M|11.90,68.81|
 
 T Mushan Mastery |QID|30181|M|16.1,82.6|N|To Hemet Nesingwary Jr.|
 T Stalker Mastery |QID|30183|M|16.2,82.5|N|To Tani|
@@ -299,7 +305,7 @@ A Mushan Mastery: Darkhide |QID|30184|M|16.0,82.5|N|From Hemet Nesingwary|
 
 C Stag Mastery |QID|32038|S|M|24.47,68.43|
 C Fox Mastery|QID|30182|S|M|24.47,68.43|
-K Darkhide |QID|30184|T|Darkhide|L|79058|M|26.7,69.6|N|Kill Darkhide and get his head.|
+K Kill Darkhide |QID|30184|T|Darkhide|M|26.7,69.6|N|Kill Darkhide and get his head.|
 C Fox Mastery|QID|30182|US|M|24.47,68.43|
 C Stag Mastery |QID|32038|US|M|24.47,68.43|
 
@@ -312,7 +318,7 @@ C Tortoise Mastery |QID|30185|M|20.5,74.6|
 
 T Tortoise Mastery |QID|30185|M|19.9,75.7|N|To Hemet Nesingwary Jr.|
 A Parental Mastery|QID|30186|M|19.87,75.67|
-C Parental Mastery|QID|30186|M|24.59,74.27|N|Floow the Nesingwary in the underwater cave.|
+C Parental Mastery|QID|30186|M|24.59,74.27|N|Folow the Nesingwary in the underwater cave.|
 T Parental Mastery|QID|30186|M|16.02,82.50|N|To Hemet Nesingwary.|
 r Repair/Restock|QID|29872|M|15.98,82.61|N|At Hemet Nesingwary Jr..|
 
@@ -339,20 +345,20 @@ T The Hidden Master|QID|29983|M|18.2,31.26|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Bamboo|QID|29984|M|18.2,31.26|N|From Master Bruised Paw.|
 C Unyielding Fists: Trial of Bamboo|QID|29984|M|18.2,31.26|N|Talk to the Master to phase into a vehicle type UI.|
 T Unyielding Fists: Trial of Bamboo|QID|29984|PRE|29983|M|18.2,31.26|N|To Master Bruised Paw, Cutscene follows immediately after.|
-A They will be Mist|QID|29985|N|From Master Bruised Paw.|
+A They Will be Mist|QID|29985|N|From Master Bruised Paw.|
 A Fog Wards|QID|29986|N|From Master Bruised Paw.|
 A Tenderpaw By Name, Tender Paw By Reputation|QID|29992|N|From Lin Tenderpaw|
 
-C They will be Mist|QID|29985|S|
+C They Will be Mist|QID|29985|S|
 C Tenderpaw By Name, Tender Paw By Reputation|QID|29992|S|NC|M|16.64,37.64|
 C Light the Northern Fog Ward|QID|29986|NC|QO|Northern Fog Ward lit: 1/1|M|16.04,32.15|
 C Light the Western Fog Ward|QID|29986|NC|QO|Western Fog Ward lit: 1/1|M|14.81,36.83|
 C Light the Southern Fog Ward|QID|29986|NC|QO|Southern Fog Ward lit: 1/1|M|18.17,41.49|
 C Tenderpaw By Name, Tender Paw By Reputation|QID|29992|US|NC|
-C They will be Mist|QID|29985|US|
+C They Will be Mist|QID|29985|US|
 
 T Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.05,31.07|N|To Lin Tenderpaw.|
-T They Will Be Mist|QID|29985|M|18.25,31.22|N|To Master Bruised Paw.|
+T They Will be Mist|QID|29985|M|18.25,31.22|N|To Master Bruised Paw.|
 T Fog Wards|QID|29986|M|18.25,31.22|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|From Master Bruised Paw.|
 C Unyielding Fists: Trial of Wood|QID|29987|M|18.25,32.18|N|Vehicle UI|
