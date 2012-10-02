@@ -318,7 +318,7 @@ function WoWPro:MapPoint(row)
 	if row then
 	    zone = WoWPro.rows[row].zone
 	end 
-	zone = zone or WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(%-]+)"))
+	zone = zone or WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
 	autoarrival = WoWPro.waypcomplete[i]
 	
 	
