@@ -33,14 +33,14 @@ return [[
 N Welcome to Pandaria|N|Don't forget to train your tradeskills before you leave Stormwind, the new trainers are not available immediately upon arriving in Pandaria.|
 A The King's Command|QID|29547|N|Autogiven upon entering Stormwind City.|
 C The King's Command|QID|29547|M|80.82,37.61|Z|Stormwind City|N|Run into the keep.|
-T The King's Command|QID|29547|Z|Stormwind City|M|78.86,39.83|N|To Rell Nightwind|Z|Stormwind City|
-A The Mission|QID|29548|Z|Stormwind City|M|78.86,39.83|N|From Rell Nightwind.|Z|Stormwind City|
-C The Mission|QID|29548|Z|Stormwind City|M|66.0,71.0|N|North of and above the harbor.|Z|Stormwind City|
-T The Mission|QID|29548|M|42.02,92.82|N|To Sky Admiral Rogers.|
-A Unleash Hell|QID|31732|M|42.02,92.82|N|From Sky Admiral Rogers.|
-C Unleash Hell|QID|31732|N|Go to a chopper and get on it.|
-T Unleash Hell|QID|31732|M|42.02,92.78|N|To Sky Admiral Rogers.|
-A Touching Ground|QID|31733|M|42.02,92.78|N|From Sky Admiral Rogers.|
+T The King's Command|QID|29547|M|78.70,40.08|Z|Stormwind City|N|To Rell Nightwind|
+A The Mission|QID|29548|M|78.70,40.08|Z|Stormwind City|N|From Rell Nightwind.|
+C The Mission|QID|29548|M|41.47,70.19|Z|Eastern Kingdoms|N|North of and above the harbor.|
+T The Mission|QID|29548|M|42.04,92.75|N|To Sky Admiral Rogers.|
+A Unleash Hell|QID|31732|M|42.04,92.75|N|From Sky Admiral Rogers.|
+C Unleash Hell|QID|31732|M|42.02,92.51|N|Go to the chopper in the middle and get on it.|
+T Unleash Hell|QID|31732|M|42.04,92.75|N|To Sky Admiral Rogers.|
+A Touching Ground|QID|31733|M|41.47,70.19|N|From Sky Admiral Rogers.|
 C Touching Ground|QID|31733|NC|M|42.29,92.8|N|Pick up a parachute.|
 
 T Touching Ground|QID|31733|M|43.6,90.6|N|To Sully "The Pickle" McLeary.|
@@ -84,30 +84,52 @@ A Koukou's Rampage|QID|31740|M|39.56,90.09|N|From Lin Applebloom.|
 K Koukou |QID|31740|T|Koukou|M|39.4,89.9|N|Put the poor Koukou out of his misery|
 
 T Koukou's Rampage|QID|31740|M|46.21,84.68|N|To Sunke Khang.|
-A Twinspire Keep|QID|31741|M|46.21,84.68|N|From Sunke Khang.|
 
-C Critical Condition|QID|29552|US|NC|U|82829|M|42.64,87.62|N|Any bandage or healing spell will work. You need to provide your own bandages.|
+C Critical Condition|QID|29552|US|NC|U|82829|M|42.64,87.62|N|No Bandages required!|
 C Pillaging Peons|QID|31738|US|M|42.08,87.83|
 
 T Critical Condition|QID|29552|M|42.1,89.6|N|To Mishka.|
 T Pillaging Peons|QID|31738|M|46.24,84.79|N|To Sunke Khang.|
+A Twinspire Keep|QID|31741|M|46.21,84.68|N|From Sunke Khang.|
 A Unfair Trade|QID|31744|M|46.21,84.68|N|From Sunke Khang.|
 A Fractured Forces|QID|31742|M|46.21,84.75|N|From Rell Nightwind.|
 A Smoke Before Fire|QID|31743|M|46.21,84.75|N|From Rell Nightwind.|
 
-C Twinspire Keep|QID|31741|S|M|42.30,79.63|
-C Unfair Trade|QID|31744|S|M|40.12,81.90|N|Kill the green demonic eyeballs to free the cubs|
-C Smoke Before Fire|QID|31743|U|89602|M|43.05,81.38|
-K Dalgan slain|QID|31742|S|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
+R Twinspire Keep|QID|31741|M|44.91,83.64;43.66,84.73;42.67,85.23;41.49,83.33|N|Make your way to Twinspire Keep|
+
+C Bomb the Wild Imps|QID|31743|S|U|89602|QO|Wild Imps bombed: 1/1|M|43.3,81.5|N|Use the flare to call an arial strike|; Twinspire Keep
+C Unfair Trade|QID|31744|N|Kill the green demonic eyeballs to free the cubs along the way.|
+C Twinspire Keep|QID|31741|N|Slay Horde troops in Twinspire Keep.|
+C Bomb the Wild Imps|QID|31743|US|U|89602|QO|Wild Imps bombed: 1/1|M|43.3,81.5|N|Use the flare to call an arial strike|; Twinspire Keep
+
+C Bomb the Twinspire munitions stockpile|QID|31743|S|U|89602|QO|Twinspire munitions stockpile bombed: 1/1|M|40.87,81.62|N|Use the flare to call an arial strike|; Twinspire Keep
+C Unfair Trade|QID|31744|N|Kill the green demonic eyeballs to free the cubs along the way.|
+C Twinspire Keep|QID|31741|M|42.30,79.63|N|Slay Horde troops in Twinspire Keep.|
+C Bomb the Twinspire munitions stockpile|QID|31743|US|U|89602|QO|Twinspire munitions stockpile bombed: 1/1|M|40.87,81.62|N|Use the flare to call an arial strike|; Twinspire Keep
+
+C Bomb Xhu'daggab|QID|31743|S|U|89602|QO|Xhu'daggab bombed: 1/1|M|40.3,82.0|N|Use the flare to call an arial strike|; Twinspire Keep
+C Unfair Trade|QID|31744|N|Kill the green demonic eyeballs to free the cubs along the way.|
+C Twinspire Keep|QID|31741|M|42.30,79.63|N|Slay Horde troops in Twinspire Keep.|
+C Bomb Xhu'daggab|QID|31743|US|U|89602|QO|Xhu'daggab bombed: 1/1|M|40.3,82.0|N|Use the flare to call an arial strike|; Twinspire Keep
+
+C Bomb the Twinspire Demolishers|QID|31743|S|U|89602|QO|Twinspire Demolishers bombed: 1/1|M|41.2,81.4|N|Use the flare to call an arial strike|; Twinspire Keep
+C Unfair Trade|QID|31744|N|Kill the green demonic eyeballs to free the cubs along the way.|
+C Twinspire Keep|QID|31741|N|Slay Horde troops in Twinspire Keep.|
+C Bomb the Twinspire Demolishers|QID|31743|US|U|89602|QO|Twinspire Demolishers bombed: 1/1|M|41.2,81.4|N|Use the flare to call an arial strike|; Twinspire Keep
+
 K Bellandra Felstorm|QID|31742|S|T|Bellandra Felstorm|QO|Bellandra Felstorm slain: 1/1|M|41.7,80.2|; Twinspire Keep
-C Bomb the Twinspire munitions stockpile|QID|31743|NC|U|89602|QO|Twinspire munitions stockpile bombed: 1/1|M|40.6,82.4|N|Use the flare to call an arial strike|; Twinspire Keep
-C Bomb Xhu'daggab|QID|31743|NC|U|89602|QO|Xhu'daggab bombed: 1/1|M|40.3,82.0|N|Use the flare to call an arial strike|; Twinspire Keep
-C Bomb the Wild Imps|QID|31743|NC|U|89602|QO|Wild Imps bombed: 1/1|M|43.3,81.5|N|Use the flare to call an arial strike|; Twinspire Keep
-C Bomb the Twinspire Demolishers|QID|31743|NC|U|89602|QO|Twinspire Demolishers bombed: 1/1|M|41.2,81.4|N|Use the flare to call an arial strike|; Twinspire Keep
+C Unfair Trade|QID|31744|N|Kill the green demonic eyeballs to free the cubs along the way.|
+C Twinspire Keep|QID|31741|N|Slay Horde troops in Twinspire Keep.|
 K Bellandra Felstorm|QID|31742|US|T|Bellandra Felstorm|QO|Bellandra Felstorm slain: 1/1|M|41.7,80.2|; Twinspire Keep
+
+K Dalgan slain|QID|31742|S|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
+C Unfair Trade|QID|31744|N|Kill the green demonic eyeballs to free the cubs along the way.|
+C Twinspire Keep|QID|31741|N|Slay Horde troops in Twinspire Keep.|
 K Dalgan slain|QID|31742|US|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
-C Unfair Trade|QID|31744|US|M|40.3,82.0|N|Kill the green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coord
-C Twinspire Keep|QID|31741|US|M|41.6,81.3|; Twinspire Keep
+
+C Unfair Trade|QID|31744|M|40.3,82.0|N|Kill the green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coord
+C Twinspire Keep|QID|31741|M|41.6,81.3|; Twinspire Keep
+
 T Twinspire Keep|QID|31741|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Unfair Trade|QID|31744|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Fractured Forces|QID|31742|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
@@ -205,7 +227,7 @@ C A Perfect Match|QID|29903|NC|M|60.44,87.70|N|Speak to the Aqualytes and give t
 T A Perfect Match|QID|29903|M||58.9,81.7|N|To Admiral Taylor.|
 A Bigger Fish to Fry|QID|29904|M||58.9,81.7|N|From Admiral Taylor.|
 
-C Bigger Fish to Fry|QID|29904|M|63.18,80.12|N|Head for the Booboo Wilds and kill wildlife. A trainer will accompagny you and level every two kills. If only it was that easy for us.|
+C Bigger Fish to Fry|QID|29904|M|63.18,80.12|N|Head for the Booboo Wilds and kill wildlife. A trainer will accompany you and level every two kills. If only it was that easy for us.|
 T Bigger Fish to Fry|QID|29904|M|58.85,81.65|N|To Admiral Taylor.|
 A Let Them Burn|QID|29905|M|58.85,81.65|N|From Admiral Taylor.|
 A Carp Diem|QID|29906|M|58.85,81.65|N|From Admiral Taylor.|
@@ -232,9 +254,9 @@ A Body|QID|29892|M|54.02,91.21|N|From Lorewalker Cho.|
 A Hue|QID|29893|M|54.02,91.21|N|From Lorewalker Cho.|
 
 C Body |QID|29892|S|M|56.5,88.4|; Amberfly Bog
-C Hue |QID|29893|S|U|76128|M|56.4,91.0|N|Use the |Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
+C Hue |QID|29893|U|76128|M|56.4,91.0|N|Use the Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
 C Potency |QID|29891|57.7,89.5|N|After you killed 8 Mist Creepers, the Mist Horror will appear and drop the Heart.|; Amberfly Bog
-C Hue |QID|29893|US|U|76128|M|56.4,91.0|N|Use the |Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
+C Hue |QID|29893|US|U|76128|M|56.4,91.0|N|Use the Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
 C Body |QID|29892|US|M|56.5,88.4|; Amberfly Bog
 
 T Potency|QID|29891|M|53.75,90.67|N|To Lorewalker Cho.|
@@ -278,7 +300,7 @@ A The Silkwood Road|QID|29865|M|46.48,45.85|N|From Tzu the Ironbelly.|
 A The Threads that Stick|QID|29866|M|46.59,45.32|N|From Lo Wanderbrew.|
 
 C The Threads that Stick|QID|29866|S|M|43.68,48.32|
-C The Silkwood Road|QID|29865|NC|M|S|43.26,49.23|N|Loot the egss to get Pristine Silk Strand|
+C The Silkwood Road|QID|29865|NC|M|S|43.26,49.23|N|Loot the eggs to get Pristine Silk Strand|
 
 A Down Kitty!|QID|29717|M|39.82,48.05|N|From An Windfur.|N|The little An followed you to the Forest Heart and has a new quest for you|
 C Down Kitty!|QID|29717|S|M|37.11,47.72|
@@ -290,7 +312,7 @@ C Down Kitty!|QID|29717|US|M|37.11,47.72|
 
 T Down Kitty!|QID|29717|N|To An Windfur.|
 
-C The Silkwood Road|QID|29865|NC|M|US|43.26,49.23|N|Loot the egss to get Pristine Silk Strand|
+C The Silkwood Road|QID|29865|NC|M|US|43.26,49.23|N|Loot the eggs to get Pristine Silk Strand|
 C The Threads that Stick|QID|29866|US|M|43.68,48.32|
 
 T The Silkwood Road|QID|29865|M|46.43,45.74|N|To Tzu the Ironbelly.|
