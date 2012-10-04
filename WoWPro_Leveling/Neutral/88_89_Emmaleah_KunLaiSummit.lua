@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-10-02 12:02
+-- Who: Ludovicus Maior
+-- Log: Namour of Llane, Emmaleah : Move Knucklethump Hole
+
+-- URL: http://wow-pro.com/node/3490/revisions/25098/view
 -- Date: 2012-10-02 00:52
 -- Who: Ludovicus Maior
 -- Log: Emmaleah: Made various changes per comments on Wow-pro.com, including quest order and changing several |N|step, especially not counting on the h to tell people to reset their hearthstone, but including it in the |N| 9/28
@@ -406,7 +411,7 @@ T A Monkey Idol|QID|30599|M|51.94,67.24|N|To Brother Rabbitsfoot.|
 T No Pack Left Behind|QID|30600|M|51.94,67.24|N|To Brother Rabbitsfoot.|
 A Bros before Hozen|QID|30605|M|51.94,67.24|N|From Brother Rabbitsfoot.|
 
-R Knucklethump Hole|QID|30605|M|30.53,64.21|CC|
+R Knucklethump Hole|QID|30605|M|50.53,64.21|CC|
 C Bros before Hozen|QID|30605|M|50.53,64.21|
 T Bros before Hozen|QID|30605|M|50.60,64.08|N|To Brother Yakshoe.|
 A Hozen Love Their Keys|QID|30607|M|50.60,64.08|N|From Brother Yakshoe.|

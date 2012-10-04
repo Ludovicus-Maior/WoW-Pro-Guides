@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2012-10-03 20:39
+-- Who: Ludovicus Maior
+-- Log: Change the start of the guide to add proper coords; tweak a few comments in the harbor; switch around the completions for Twinspire Towers to make it easier to complete.  Oh, and spelling errors.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25099/view
 -- Date: 2012-10-02 01:49
 -- Who: Ludovicus Maior
 -- Log: Emmaleah: added quest A An error of worry, and lots of tweaks
@@ -56,22 +61,22 @@ return [[
 
 N Welcome to Pandaria|N|Don't forget to train your tradeskills before you leave Stormwind, the new trainers are not available immediately upon arriving in Pandaria.|
 A The King's Command|QID|29547|N|Autogiven upon entering Stormwind City.|
-C The King's Command|QID|29547|M|30.7,0.6|Z|Stormwind City|N|Run into the keep.|
-T The King's Command|QID|29547|Z|Stormwind City|M|30.7,0.6|N|To Rell Nightwind|Z|Stormwind City|
-A The Mission|QID|29548|Z|Stormwind City|M|30.7,0.6|N|From Rell Nightwind.|Z|Stormwind City|
-C The Mission|QID|29548|Z|Stormwind City|M|66.0,71.0|N|North of and above the harbor.|Z|Stormwind City|
-T The Mission|QID|29548|M|42.02,92.82|N|To Sky Admiral Rogers.|
-A Unleash Hell|QID|31732|M|42.02,92.82|N|From Sky Admiral Rogers.|
-C Unleash Hell|QID|31732|N|Go to a chopper and get on it.|
-T Unleash Hell|QID|31732|M|42.02,92.78|N|To Sky Admiral Rogers.|
-A Touching Ground|QID|31733|M|42.02,92.78|N|From Sky Admiral Rogers.|
+C The King's Command|QID|29547|M|80.82,37.61|Z|Stormwind City|N|Run into the keep.|
+T The King's Command|QID|29547|M|78.70,40.08|Z|Stormwind City|N|To Rell Nightwind|
+A The Mission|QID|29548|M|78.70,40.08|Z|Stormwind City|N|From Rell Nightwind.|
+C The Mission|QID|29548|M|41.47,70.19|Z|Eastern Kingdoms|N|North of and above the harbor.|
+T The Mission|QID|29548|M|42.04,92.75|N|To Sky Admiral Rogers.|
+A Unleash Hell|QID|31732|M|42.04,92.75|N|From Sky Admiral Rogers.|
+C Unleash Hell|QID|31732|M|42.02,92.51|N|Go to the chopper in the middle and get on it. Aim by using both mouse buttons.  The #1 button only shows when there is something to hit and goes away between target areas.|
+T Unleash Hell|QID|31732|M|42.04,92.75|N|To Sky Admiral Rogers.|
+A Touching Ground|QID|31733|M|41.47,70.19|N|From Sky Admiral Rogers.|
 C Touching Ground|QID|31733|NC|M|42.29,92.8|N|Pick up a parachute.|
 
 T Touching Ground|QID|31733|M|43.6,90.6|N|To Sully "The Pickle" McLeary.|
 A No Plan Survives Contact with the Enemy|QID|30069|M|43.6,90.6|N|From Sully "The Pickle" McLeary.|
 A Welcome Wagons|QID|31734|M|43.6,90.6|N|From Sully "The Pickle" McLeary.|
 C No Plan Survives Contact with the Enemy|QID|30069|S|M|42.50,93.24|
-C Welcome Wagons|QID|31734|U|89612|M|44.00,94.22|
+C Welcome Wagons|QID|31734|U|89612|M|44.00,94.22|N|Concentrate on getting the wagons; you will find plenty of Horde to kill along the way.|
 C No Plan Survives Contact with the Enemy|QID|30069|US|M|42.50,93.24|
 
 T No Plan Survives Contact with the Enemy|QID|30069|M|45.1,95.0|N|To Rell Nightwind.|
@@ -80,13 +85,13 @@ A The Right Tool For The Job|QID|31735|M|45.1,95.0|N|From Rell Nightwind.|
 
 C Destroy the first barricade |QID|31735|U|89624|QO|First Barricade Destroyed: 1/1|M|45.6,95.2|N|Use the flaregun to ignite the powder and destroy the first baricade. In the beta, this quest was sometime buged and required to relog in order to have the barricades corretly phased with you.|; Garrosh'ar Point
 C Destroy the second barricade |QID|31735|U|89624|QO|Second Barricade Destroyed: 1/1|M|45.9,95.9|N|Use the flaregun to ignite the powder and destroy the second baricade|; Garrosh'ar Point
-K Confront Ga'trul |QID|31735|QO|Ga'trul Confronted: 1/1|M|46.3,96.3|N|Attack Ga'trul until he teleport away|; Garrosh'ar Point
+K Confront Ga'trul |QID|31735|QO|Ga'trul Confronted: 1/1|M|46.3,96.3|N|Try to attack Ga'trul until he teleports away.|; Garrosh'ar Point
 
 T The Right Tool For The Job|QID|31735|M|46.5,96.3|N|To Rell Nightwind.|
 A Envoy of the Alliance|QID|31736|M|46.5,96.3|N|From Rell Nightwind.|
 A The Cost of War|QID|31737|M|46.5,96.3|N|From Rell Nightwind.|
 
-C The Cost of War|QID|31737|M|44.31,95.89|
+C The Cost of War|QID|31737|M|44.31,95.89;44.80,92.42;44.60,88.50|N|Make your way to the gates and then to the Village, killing along the way.|
 
 R Paw'don Village|QID|31737|M|46.05,85.10|
 C Envoy of the Alliance|QID|31736|M|45.9,85.0|
@@ -97,19 +102,18 @@ T Envoy of the Alliance|QID|31736|M|46.2,84.8|N|To Sunke Khang.|
 A Pillaging Peons|QID|31738|M|46.29,84.78|N|From Sunke Khang.|
 A Priorities!|QID|31739|M|46.22,84.69|N|From Teng Applebloom.|
 A Critical Condition|QID|29552|M|46.10,84.54|N|From Mishka.|
-h Paw'don Village |N|Talk to Jiayi Applebloom|M|44.9,84.4|N|Paw'don is a good place to set your heart since profession trainners are present and there is a portal to StormWind in the village|; Paw'don Village
+h Paw'don Village|M|44.9,84.4|N|Talk to Jiayi Applebloom. Paw'don is a good place to set your hearth since profession trainners are present and there is a portal to StormWind in the village|; Paw'don Village
 C Pillaging Peons|QID|31738|S|M|42.08,87.83|
 C Critical Condition|QID|29552|S|NC|M|42.64,87.62|N|Right-click on the wounded soldiers to heal them.|
 C Priorities!|QID|31739|NC|M|43.62,88.27|N|Click on the applebloom cider barels and let Teng Applebloom pick them up. It's quite impressive to see him carry them all!|
 
 T Priorities!|QID|31739|M|39.56,90.09|N|To Lin Applebloom.|
+
 A Koukou's Rampage|QID|31740|M|39.56,90.09|N|From Lin Applebloom.|
-
-K Koukou |QID|31740|T|Koukou|M|39.4,89.9|N|Put the poor Koukou out of his misery|
-
+K Koukou |QID|31740|T|Koukou|M|39.4,89.9|N|Put the poor Koukou out of his misery.  If he is not there, wait for a respawn.|
 T Koukou's Rampage|QID|31740|M|46.21,84.68|N|To Sunke Khang.|
 
-C Critical Condition|QID|29552|US|NC|M|42.64,87.62|N|Right-click on the wounded soldiers to heal them.||
+C Critical Condition|QID|29552|US|NC|M|42.64,87.62|N|Right-click on the wounded soldiers to heal them.|
 C Pillaging Peons|QID|31738|US|M|42.08,87.83|
 
 T Critical Condition|QID|29552|M|42.1,89.6|N|To Mishka.|
@@ -119,18 +123,22 @@ A Unfair Trade|QID|31744|M|46.21,84.68|N|From Sunke Khang.|
 A Fractured Forces|QID|31742|M|46.21,84.75|N|From Rell Nightwind.|
 A Smoke Before Fire|QID|31743|M|46.21,84.75|N|From Rell Nightwind.|
 
+R Twinspire Keep|QID|31741|M|44.91,83.64;43.66,84.73;42.67,85.23;41.49,83.33|CS|N|Make your way to Twinspire Keep|
+
 C Twinspire Keep|QID|31741|S|M|42.30,79.63|
-C Unfair Trade|QID|31744|S|M|40.12,81.90|N|Kill the green demonic eyeballs to free the cubs|
-K Dalgan slain|QID|31742|S|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
-K Bellandra Felstorm|QID|31742|S|T|Bellandra Felstorm|QO|Bellandra Felstorm slain: 1/1|M|41.7,80.2|; Twinspire Keep
-C Bomb the Twinspire munitions stockpile|QID|31743|NC|U|89602|QO|Twinspire munitions stockpile bombed: 1/1|M|40.6,82.4|N|Use the flare to call an arial strike|; Twinspire Keep
-C Bomb Xhu'daggab|QID|31743|NC|U|89602|QO|Xhu'daggab bombed: 1/1|M|40.3,82.0|N|Use the flare to call an arial strike|; Twinspire Keep
-C Bomb the Wild Imps|QID|31743|NC|U|89602|QO|Wild Imps bombed: 1/1|M|43.3,81.5|N|Use the flare to call an arial strike|; Twinspire Keep
-C Bomb the Twinspire Demolishers|QID|31743|NC|U|89602|QO|Twinspire Demolishers bombed: 1/1|M|41.2,81.4|N|Use the flare to call an arial strike|; Twinspire Keep
-K Dalgan slain|QID|31742|US|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
-K Bellandra Felstorm|QID|31742|US|T|Bellandra Felstorm|QO|Bellandra Felstorm slain: 1/1|M|41.7,80.2|; Twinspire Keep
+C Unfair Trade|QID|31744|S|M|40.12,81.90|N|Kill the green demonic eyeballs to free the cubs.  There are LOTS.|
+C Bomb the Wild Imps|QID|31743|U|89602|QO|Wild Imps bombed: 1/1|M|43.3,81.5|N|Use the flare to call an arial strike|; Twinspire Keep
+C Bomb the Twinspire munitions stockpile|QID|31743|U|89602|QO|Twinspire munitions stockpile bombed: 1/1|M|40.6,82.4|N|Use the flare to call an arial strike|; Twinspire Keep
+C Bomb Xhu'daggab|QID|31743|U|89602|QO|Xhu'daggab bombed: 1/1|M|40.3,82.0|N|Use the flare to call an arial strike|; Twinspire Keep
+C Bomb the Twinspire Demolishers|QID|31743|U|89602|QO|Twinspire Demolishers bombed: 1/1|M|41.2,81.4|N|Use the flare to call an arial strike|; Twinspire Keep
+K Bellandra Felstorm|QID|31742|T|Bellandra Felstorm|QO|Bellandra Felstorm slain: 1/1|M|41.7,80.2|; Twinspire Keep
+K Dalgan slain|QID|31742|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
 C Unfair Trade|QID|31744|US|M|40.3,82.0|N|Kill the green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coord
 C Twinspire Keep|QID|31741|US|M|41.6,81.3|; Twinspire Keep
+
+C Unfair Trade|QID|31744|M|40.3,82.0|N|Kill the remaining green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coord
+C Twinspire Keep|QID|31741|M|41.6,81.3|N|You have been sneaky and avoided killing the horde.  Go down and take care of this!|; Twinspire Keep
+
 T Twinspire Keep|QID|31741|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Unfair Trade|QID|31744|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Fractured Forces|QID|31742|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
@@ -228,7 +236,7 @@ C A Perfect Match|QID|29903|NC|M|60.44,87.70|N|Speak to the Aqualytes and give t
 T A Perfect Match|QID|29903|M|58.9,81.7|N|To Admiral Taylor.|
 A Bigger Fish to Fry|QID|29904|M||58.9,81.7|N|From Admiral Taylor.|
 
-C Bigger Fish to Fry|QID|29904|M|63.18,80.12|N|Head for the Booboo Wilds and kill wildlife. A trainer will accompagny you and level every two kills. If only it was that easy for us.|
+C Bigger Fish to Fry|QID|29904|M|63.18,80.12|N|Head for the Booboo Wilds and kill wildlife. A trainer will accompany you and level every two kills. If only it was that easy for us.|
 T Bigger Fish to Fry|QID|29904|M|58.85,81.65|N|To Admiral Taylor.|
 A Let Them Burn|QID|29905|M|58.85,81.65|N|From Admiral Taylor.|
 A Carp Diem|QID|29906|M|58.85,81.65|N|From Admiral Taylor.|
@@ -255,9 +263,9 @@ A Body|QID|29892|M|54.02,91.21|N|From Lorewalker Cho.|
 A Hue|QID|29893|M|54.02,91.21|N|From Lorewalker Cho.|
 
 C Body |QID|29892|S|M|56.5,88.4|; Amberfly Bog
-C Hue |QID|29893|S|U|76128|M|56.4,91.0|N|Use the |Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
+C Hue |QID|29893|U|76128|M|56.4,91.0|N|Use the Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
 C Potency |QID|29891|57.7,89.5|N|After you killed 8 Mist Creepers, the Mist Horror will appear and drop the Heart.|; Amberfly Bog
-C Hue |QID|29893|US|U|76128|M|56.4,91.0|N|Use the |Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
+C Hue |QID|29893|US|U|76128|M|56.4,91.0|N|Use the Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
 C Body |QID|29892|US|M|56.5,88.4|; Amberfly Bog
 
 T Potency|QID|29891|M|53.75,90.67|N|To Lorewalker Cho.|
