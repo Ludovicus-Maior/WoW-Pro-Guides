@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2012-10-08 19:44
+-- Who: Ludovicus Maior
+-- Log: Get rid of - in zone
+
+-- URL: http://wow-pro.com/node/3212/revisions/25063/view
 -- Date: 2012-09-02 19:35
 -- Who: Fluclo
 -- Log: Added NC to some quests, also the Hot Rod for all steps where you're likely to want to mount up and ride
@@ -73,7 +78,7 @@
 -- Date: 2010-12-03 07:19
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('MalKez0105', 'Kezan - Goblin', 'Malorajan', '01', '05', 'MalLos0512', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('MalKez0105', 'Kezan (Goblin)', 'Malorajan', '01', '05', 'MalLos0512', 'Horde', function()
 return [[
 
 A Taking Care of Business|QID|14138|M|56.52,77.00|N|From Sassy Hardwrench.|

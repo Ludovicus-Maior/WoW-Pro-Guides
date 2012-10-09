@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2012-10-09 00:40
+-- Who: Ludovicus Maior
+-- Log: Add Monk Starter quests
+
+-- URL: http://wow-pro.com/node/3206/revisions/25125/view
+-- Date: 2012-10-08 19:42
+-- Who: Ludovicus Maior
+-- Log: Get rid of - in zone.
+
+-- URL: http://wow-pro.com/node/3206/revisions/24690/view
 -- Date: 2011-07-27 01:59
 -- Who: Ludovicus Maior
 -- Log: Corrected race tags on [Replenishing the Healing Crystals] and corrected QIDs for class training quests, which were odd horde ones.  Sabotage!
@@ -89,7 +99,7 @@
 -- Date: 2010-12-02 23:18
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle - Draenai", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
 return [[
 R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
 f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
@@ -130,8 +140,11 @@ N Paladin Training|QID|9287|C|Paladin|N|Get your new skills at the trainer.|M|79
 N Warrior Training|QID|9289|C|Warrior|N|Get your new skills at the trainer.|M|79.3,49.1|
 N Mage Training|QID|9290|C|Mage|N|Get your new skills at the trainer.|M|79.3,49.1|
 
+A The Tiger Palm|QID|31173|M|79.40,51.60|C|Monk|N|From Mojo Stormstout.|
+C The Tiger Palm|QID|31173|M|80.08,45.77|C|Monk|N|Find a Training Dummy on the northwest side of the Crash Site and practice using Tiger Palm. |
+T The Tiger Palm|QID|31173|M|79.40,51.60|C|Monk|N|From Mojo Stormstout.|
 A Your First Lesson|QID|26958|M|79.61,49.42|C|Warrior|N|From Kore.|
-C Your First Lesson|QID|26958|M|80.08,45.77||C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
+C Your First Lesson|QID|26958|M|80.08,45.77|C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
 T Your First Lesson|QID|26958|M|79.61,49.42|C|Warrior|N|To Kore.|
 A Arcane Missiles|QID|26968|M|79.6,48.8|C|Mage|N|From Valaatu.|
 C Arcane Missiles|QID|26968|M|80.08,45.77|C|Mage|N|Learn Arcane Missiles from Valaatu. Find a Training Dummy on the northwest side of the Crash Site and practice using Arcane Missiles 2 times. |

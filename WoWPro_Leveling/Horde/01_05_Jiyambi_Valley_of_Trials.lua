@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2012-10-08 19:43
+-- Who: Ludovicus Maior
+-- Log: Get rid of - in zone names.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24660/view
 -- Date: 2011-07-05 05:42
 -- Who: Jiyambi
 -- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
@@ -128,7 +133,7 @@
 -- Date: 2010-12-02 21:14
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyDur0105', 'Durotar - Valley of Trials - Orc', 'Jiyambi', '01', '05', 'BitDur0512', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('JiyDur0105', 'Durotar (Orc)', 'Jiyambi', '01', '05', 'BitDur0512', 'Horde', function()
 return [[
 
 A Your Place In The World|QID|25152|M|43.33,68.81|N|From Kaltunk.|

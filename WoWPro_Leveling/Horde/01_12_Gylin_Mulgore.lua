@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2012-10-08 22:16
+-- Who: Ludovicus Maior
+-- Log: Added Tauren Monk Quest
+
+-- URL: http://wow-pro.com/node/3203/revisions/24662/view
 -- Date: 2011-07-05 20:19
 -- Who: Jiyambi
 
@@ -122,6 +127,7 @@ A Consecrated Note|QID|27015|M|82.79,17.20|Z|Mulgore|N|From Rohaku Stonehoof.|C|
 A Hallowed Note|QID|27014|M|46.18,82.49|Z|Mulgore|N|From Rohaku Stonehoof.|C|Priest|R|Tauren|
 A Rune-Inscribed Note|QID|3093|M|46.19,82.39|Z|Mulgore|N|From Rohaku Stonehoof.|C|Shaman|R|Tauren|
 A Simple Note|QID|3091|M|46.18,82.41|Z|Mulgore|N|From Rohaku Stonehoof.|C|Warrior|R|Tauren|
+A Calligraphed Note|QID|31165|M|46.18,82.41|Z|Mulgore|N|From Rohaku Stonehoof.|C|Monk|R|Tauren|
 C Rite of Honor|QID|14460|M|41.26,81.39|Z|Mulgore|
 
 H Camp Narache|QID|14460|M|45.16,75.45|U|6948|
@@ -156,6 +162,11 @@ T Simple Note|QID|3091|M|45.04,75.58|Z|Mulgore|N|To Harutt Thunderhorn.|C|Warrio
 A The First Lesson|QID|27020|M|45.04,75.58|Z|Mulgore|N|From Harutt Thunderhorn.|C|Warrior|R|Tauren|
 C The First Lesson|QID|27020|M|45.40,75.53|Z|Mulgore|C|Warrior|R|Tauren|
 T The First Lesson|QID|27020|M|45.06,75.52|Z|Mulgore|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
+
+T Calligraphed Note|QID|31165|M|45.23,75.47|Z|Mulgore|N|From Shoyu.|C|Monk|R|Tauren|
+A Tiger Palm|QID|31166|M|45.23,75.47|Z|Mulgore|N|To Shoyu.|C|Monk|R|Tauren|
+C Tiger Palm|QID|31166|M|45.40,75.53|Z|Mulgore|C|Monk|R|Tauren|
+T Tiger Palm|QID|31166|M|45.23,75.47|Z|Mulgore|N|To Shoyu.|C|Monk|R|Tauren|
 
 T Rite of Honor|QID|14460|M|45.17,75.60|Z|Mulgore|N|To Chief Hawkwind.|
 A Last Rites, First Rites|QID|24861|M|45.17,75.60|Z|Mulgore|N|From Chief Hawkwind.|

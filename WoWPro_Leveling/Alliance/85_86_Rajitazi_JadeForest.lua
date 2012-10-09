@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2012-10-07 00:18
+-- Who: JamesL85
+-- Log: The K tag for Zhi-Zhi didn't have the QO tag for it to auto-complete.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25107/view
+-- Date: 2012-10-06 22:06
+-- Who: JamesL85
+-- Log: Added T step for Calamity Jade.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25106/view
+-- Date: 2012-10-06 21:35
+-- Who: JamesL85
+-- Log: A step of An Air of Worry was 27376.  Changed it to 27576.  The T step was correct.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25104/view
 -- Date: 2012-10-03 20:39
 -- Who: Ludovicus Maior
 -- Log: Change the start of the guide to add proper coords; tweak a few comments in the harbor; switch around the completions for Twinspire Towers to make it easier to complete.  Oh, and spelling errors.
@@ -329,7 +344,7 @@ T The Threads that Stick|QID|29866|M|46.62,45.37|N|To Lo Wanderbrew.|
 T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur, she wanders around the village.|
 A Find the Boy|QID|29993|M|47.07,46.08|N|From Kai Wanderbrew.|
 A All We Can Spare|QID|29925|M|47.20,46.13|N|From Toya.|
-A An Air of Worry|QID|29376|M|48.36,46.05|N|From Old Man Misteyes.|
+A An Air of Worry|QID|29576|M|48.36,46.05|N|From Old Man Misteyes.|
 A Tian Monastery|QID|29617|M|49.63,45.80|N|From Apprentice Yufi.|
 
 R The Arboretum|QID|29993|M|54.93,45.28|N|The path is just down the stairs you passed to get the last quest.|
@@ -372,6 +387,7 @@ A What's Mined Is Yours|QID|29930|M|46.30,29.35|N|From Hao Mann.|
 C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart.|
 T What's Mined Is Yours|QID|29930|M|50.91,27.03|N|To Foreman Mann.|
 A The Serpent's Heart|QID|29931|M|50.91,27.03|N|From Foreman Mann.|
+T Calamity Jade|QID|29926|M|50.91,27.03|N|To Foreman Mann.|
 N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailys.|
 f Sri-La Village|QID|29670|M|55.44,23.73|N|At Gingo Alebottom.|
 
@@ -437,7 +453,7 @@ T Becoming Battle-Ready|QID|29632|M|43.2,24.8|N|To Master Stone Fist.|
 A Zhi-Zhi, the Dextrous|QID|29633|M|43.2,24.8|N|From Master Stone Fist.|
 A Husshun, the Wizened|QID|29634|M|43.2,24.8|N|From Master Stone Fist.|
 
-K Zhi-Zhi, the Dextrous|QID|29633|T|Zhi-Zhi|M|43.03,25.96|N|On top of the hill. Challenge him to a match.|
+K Zhi-Zhi, the Dextrous|QID|29633|T|Zhi-Zhi|QO|Zhi-Zhi defeated: 1/1|M|43.03,25.96|N|On top of the hill. Challenge him to a match.|
 
 T Groundskeeper Wu|QID|29626|M|41.6,23.7|N|To Groundskeeper Wu.|
 A A Proper Weapon|QID|29627|M|41.6,23.7|N|From Groundskeeper Wu.|

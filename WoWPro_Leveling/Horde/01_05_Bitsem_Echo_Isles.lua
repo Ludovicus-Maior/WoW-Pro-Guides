@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2012-10-08 19:43
+-- Who: Ludovicus Maior
+-- Log: Get rid of - in zone names.
+
+-- URL: http://wow-pro.com/node/3199/revisions/24660/view
 -- Date: 2011-07-05 05:42
 -- Who: Jiyambi
 -- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
@@ -128,7 +133,7 @@
 -- Date: 2010-12-02 21:14
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar - Echo Isles (Troll)', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar (Troll)', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', function()
 return [[
 N You silly Death Knight|QID|24764|C|DeathKnight|N|Do not bother with this zone.  There are no quests for YOU.|
 A The Rise of the Darkspear|RANK|1|QID|24764|C|Druid|M|62.43,84.53|N|From Jin'thala.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2012-10-08 22:49
+-- Who: Ludovicus Maior
+-- Log: Add Dwarf Monk starter quests.
+
+-- URL: http://wow-pro.com/node/3200/revisions/24869/view
 -- Date: 2011-12-14 21:36
 -- Who: Fluclo
 -- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.

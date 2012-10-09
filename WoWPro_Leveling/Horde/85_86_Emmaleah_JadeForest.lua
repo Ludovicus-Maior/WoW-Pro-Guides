@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2012-10-08 19:49
+-- Who: Ludovicus Maior
+-- Log: As per  Emmaleah, Use Captain's Jack's head to get the quest.
+
+-- URL: http://wow-pro.com/node/3487/revisions/25100/view
 -- Date: 2012-10-02 01:55
 -- Who: Ludovicus Maior
 -- Log: Emmaleah: edited with Play test on live 9/30/12 -- many many changes
@@ -154,8 +159,8 @@ A The Bees' Knees|QID|29933|M|25.91,38.01|N|From Bo Bo.|
 A Kill Kher Shan|QID|29924|M|25.96,38.72|N|From Nibi Nibi.|
 A Wicked Wikkets|QID|31241|M|28.15,38.99|N|From Jeek Jeek.|
 C Wicked Wikkets|QID|31241|M|32.05,40.84|
-K Kill Captain Jack|T|Jack Arrow|QID|31261|L|85783|U|85783|M|32.05, 40.84|N|Loot his head to start a quest.|
-A Captain Jack's Dead|QID|31261|M|28.07,46.87|N|From Capt. Jack's Head.|
+K Kill Captain Jack|T|Jack Arrow|QID|31261|L|85783|M|32.05, 40.84|N|Loot his head to start a quest.|
+A Captain Jack's Dead|QID|31261|U|85783|M|28.07,46.87|N|From Capt. Jack's Head.|
 K Kill Kher Shan|T|Kher Shan|QID|29924|QO|Kher Shan slain: 1/1|M|33.36,41.47|
 T Kill Kher Shan|QID|29924|M|33.36,41.47|N|To UI Alert.|
 C The Bees' Knees|QID|29933|M|29.34,43.92|

@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2012-10-09 00:07
+-- Who: Ludovicus Maior
+-- Log: Added undead monk quests.
+
+-- URL: http://wow-pro.com/node/3205/revisions/25128/view
+-- Date: 2012-10-08 19:44
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3205/revisions/24730/view
 -- Date: 2011-08-13 21:23
 -- Who: Jiyambi
 -- Log: Adding note to Marshal Redpath quest, warning of it's difficulty.
@@ -64,7 +73,7 @@
 -- Date: 2010-12-02 23:15
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades - Undead', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades (Undead)', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function()
 return [[
 
 A Fresh out of the Grave|QID|24959|M|29.41,70.96|R|Undead|N|From Agatha.|
@@ -107,6 +116,7 @@ A Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|30.87,66.19|N|From Shadow Prie
 A Simple Scroll|QID|3095|R|Undead|C|Warrior|M|30.87,66.19|N|From Shadow Priest Sarvis.|
 A Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|30.87,66.19|N|From Shadow Priest Sarvis.|
 A Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|30.87,66.19|N|From Shadow Priest Sarvis.|
+A Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|30.87,66.19|N|From Shadow Priest Sarvis.|
 
 A The Truth of the Grave|QID|24961|M|30.89,66.11|N|From Novice Elreth.|
 
@@ -116,6 +126,7 @@ T Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|31.47,65.59|N|To Xavier the Hu
 T Simple Scroll|QID|3095|R|Undead|C|Warrior|M|32.63,65.61|N|To Dannil Stern.|
 T Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|30.92,66.30|N|To Maximillion.|
 T Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|30.87,66.19|N|To David Trias.|
+T Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|32.43,65.74|N|To Ting, Strong of Stomach.|
 
 A Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|31.12,66.08|N|From Dark Cleric Duesten.|
 A Magic Training|QID|24965|R|Undead|C|Mage|M|30.91,66.13|N|From Isabella.|
@@ -123,6 +134,7 @@ A The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.47,65.59|N|From Xavier
 A Charging into Battle|QID|24969|R|Undead|C|Warrior|M|32.63,65.61|N|From Dannal Stern.|
 A Dark Deeds|QID|24968|R|Undead|C|Warlock|M|30.92,66.30|N|From Maximillion.|
 A Stab!|QID|24967|R|Undead|C|Rogue|M|30.87,66.19|N|From David Trias.|
+A Tiger Palm|QID|31147|R|Undead|C|Monk|M|32.43,65.74|N|From Ting, Strong of Stomach.|
 
 C Of Light and Shadows|QID|24966|R|Undead|C|Priest|NC|M|31.12,66.08|N|Train Flash Heal. Use it on the wounded forsaken next to you.|
 C Magic Training|QID|24965|R|Undead|C|Mage|M|31.65,66.83|N|Train Arcane Missles from Isabella. Go to a Dummy, cast Fireball, then Arcane Missles when it becomes available.|
@@ -130,6 +142,7 @@ C The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.65,66.83|N|Learn Stead
 C Charging into Battle|QID|24969|R|Undead|C|Warrior|M|31.65,66.83|N|Learn Chrage from Dannal and practice it on a Dummy.|
 C Dark Deeds|QID|24968|R|Undead|C|Warlock|M|31.65,66.83|N|Learn Immolate from Maximillion and practice it 5 times on a Dummy.|
 C Stab!|QID|24967|R|Undead|C|Rogue|M|31.65,66.83|N|Learn Eviscerate from David, practice it 3 times on a Dummy.|
+C Tiger Palm|QID|31147|R|Undead|C|Monk|M|31.65,66.83|N|Use Tiger Palm on a Dummy.|
 
 T Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|31.07,66.07|N|To Dark Cleric Duesten.|
 T Magic Training|QID|24965|R|Undead|C|Mage|M|30.91,66.13|N|To Isabella.|
@@ -137,6 +150,7 @@ T The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.47,65.59|N|To Xavier t
 T Charging into Battle|QID|24969|R|Undead|C|Warrior|M|32.63,65.61|N|To Dannal Stern.|
 T Dark Deeds|QID|24968|R|Undead|C|Warlock|M|30.92,66.30|N|To Maximillion.|
 T Stab!|QID|24967|R|Undead|C|Rogue|M|30.87,66.19|N|To David Trias.|
+T Tiger Palm|QID|31147|R|Undead|C|Monk|M|32.43,65.74|N|From Ting, Strong of Stomach.|
 
 C The Truth of the Grave|QID|24961|NC|M|32.69,65.79|N|She's in the inn, though the location inside is random. Right-click the cowering woman and choose the gossip option.|
 T The Truth of the Grave|QID|24961|M|30.89,66.08|N|To Novice Elreth.|

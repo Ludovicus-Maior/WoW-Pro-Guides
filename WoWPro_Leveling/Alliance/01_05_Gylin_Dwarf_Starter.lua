@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2012-10-08 22:49
+-- Who: Ludovicus Maior
+-- Log: Add Dwarf Monk starter quests.
+
+-- URL: http://wow-pro.com/node/3200/revisions/24869/view
 -- Date: 2011-12-14 21:36
 -- Who: Fluclo
 -- Log: Cleaned up the guide to allow non-Dwarfs to do it, added Non Combat quests where appropriate, added clean up C steps for quests with loot item steps.
@@ -304,6 +309,12 @@ T Simple Rune |QID|3106|M|35.87,65.70|N|To Thran Khorman.|C|Warrior|R|Dwarf|
 A Getting Battle-Ready |PRE|3106|QID|24531|M|35.87,65.70|M|35.87,65.70|N|From Thran Khorman.|C|Warrior|R|Dwarf|
 C Getting Battle-Ready |QID|24531|M|35.83,67.67|N|Learn Charge, then use Charge on one of the Training Dummies outside the entrance to Anvilmar.|C|Warrior|R|Dwarf|
 T Getting Battle-Ready |QID|24531|M|35.80,65.70|N|To Thran Khorman.|C|Warrior|R|Dwarf|
+
+A Elegant Rune |PRE|24473|QID|31150|C|Monk|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
+T Simple Rune |QID|31150|M|36.10,66.29|N|To Lo.|C|Monk|R|Dwarf|
+A Kick, Punch, It's All in the Mind|PRE|31150|QID|31151|M|36.10,66.29|N|From Lo.|C|Monk|R|Dwarf|
+C Kick, Punch, It's All in the Mind|QID|31151|M|35.83,67.67|N|Learn Tiger Palm, then use on one of the Training Dummies outside the entrance to Anvilmar.|C|Monk|R|Dwarf|
+T Kick, Punch, It's All in the Mind|QID|31151|M|36.10,66.29|N|To Lo.|C|Monk|R|Dwarf|
 
 T Whitebeard Needs Ye |QID|24487|M|32.01,74.22|N|To Grelin Whitebeard.|
 A The Troll Menace |PRE|24487|QID|182|N|From Grelin Whitebeard.|M|32.01,74.22|
