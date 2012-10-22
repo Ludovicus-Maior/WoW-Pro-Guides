@@ -4,147 +4,152 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2012-10-08 23:44
+-- Who: 
+-- Log: Corrected QID and coords for monk starter quests.
+
+-- URL: http://wow-pro.com/node/3207/revisions/25061/view
 -- Date: 2012-08-30 01:01
--- Who: Fluclo
+-- Who: 
 -- Log: Monk training
 
 -- URL: http://wow-pro.com/node/3207/revisions/24965/view
 -- Date: 2012-02-22 10:03
--- Who: Crackerhead22
+-- Who: 
 -- Log: Tweaks
 
 -- URL: http://wow-pro.com/node/3207/revisions/24832/view
 -- Date: 2011-12-03 00:03
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3207/revisions/24831/view
 -- Date: 2011-12-02 23:53
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3207/revisions/24731/view
 -- Date: 2011-08-13 22:39
--- Who: Jiyambi
+-- Who: 
 -- Log: Updated Flendren the Banished quest note since those mobs are no longer hostile.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24703/view
 -- Date: 2011-07-27 21:33
--- Who: Fluclo
+-- Who: 
 -- Log: Soaked Pages is a Non-Combat quest
 
 -- URL: http://wow-pro.com/node/3207/revisions/24702/view
 -- Date: 2011-07-27 21:25
--- Who: Fluclo
+-- Who: 
 -- Log: Flying to "Silvermoon City" doesn't auto-complete (it lands in Eversong Woods), added couple of steps to improve auto-handling in this area.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24701/view
 -- Date: 2011-07-27 21:23
--- Who: Fluclo
+-- Who: 
 -- Log: Added note to Dwarven Spy
 
 -- URL: http://wow-pro.com/node/3207/revisions/24700/view
 -- Date: 2011-07-27 21:22
--- Who: Fluclo
+-- Who: 
 -- Log: Couple notes to level 6 quests, and added entry for profession training
 
 -- URL: http://wow-pro.com/node/3207/revisions/24699/view
 -- Date: 2011-07-27 12:58
--- Who: Fluclo
+-- Who: 
 -- Log: Updated so that it makes sense and works for non Blood Elf races
 
 -- URL: http://wow-pro.com/node/3207/revisions/24696/view
 -- Date: 2011-07-27 12:02
--- Who: Fluclo
+-- Who: 
 -- Log: Better described Felendren the Banished quests
 
 -- URL: http://wow-pro.com/node/3207/revisions/24695/view
 -- Date: 2011-07-27 11:20
--- Who: Fluclo
+-- Who: 
 -- Log: Corrected coords of Scroll of Scourge Magic
 
 -- URL: http://wow-pro.com/node/3207/revisions/24694/view
 -- Date: 2011-07-27 11:15
--- Who: Fluclo
+-- Who: 
 -- Log: Corrected coord of Solanian's Scrying Orb
 
 -- URL: http://wow-pro.com/node/3207/revisions/24693/view
 -- Date: 2011-07-27 11:12
--- Who: Fluclo
+-- Who: 
 -- Log: Sync'd coords on the training steps to match that of the trainers
 
 -- URL: http://wow-pro.com/node/3207/revisions/24692/view
 -- Date: 2011-07-27 11:05
--- Who: Fluclo
+-- Who: 
 -- Log: Moved the turn-in for A Fistful of Slivers to after it's been done.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24691/view
 -- Date: 2011-07-27 10:57
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3207/revisions/24664/view
 -- Date: 2011-07-06 11:02
--- Who: Fluclo
+-- Who: 
 -- Log: The days of grinding to level should be behind us, so rearranged a couple of quest turnins to make sure you're the right level for training.  Unfortunate Measures also drop collars from the Cubs, the Arcane Torrent quest can be done later with the Ferals to reduce grind killing, updated view of Solanian's Journals to not be notes, added loot tag to Solanian's Journals to help the program remember the quest has been done, added couple of stickies where quests can be done simultaneously.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24513/view
 -- Date: 2011-06-07 10:58
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added R|BloodElf| to steps not available to my Orc.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24428/view
 -- Date: 2011-05-28 01:16
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Update Notes, Correct some coordinates that were WAAY off.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24317/view
 -- Date: 2011-04-29 15:24
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 148 for step L has unknown tag [If not level 6 yet, kill stuffs.], Line 202 for step T has unknown tag [9130], Line 281 for step C has 1 M coords, Line 299 for step T has unknown tag [To Larianna Riverwind.]
 
 -- URL: http://wow-pro.com/node/3207/revisions/24100/view
 -- Date: 2011-02-05 14:18
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Submitted by zoefed on Thu, 2011-01-20 09:13.
 --	
 --	Bug Report: Guide: Eversong Woods Bloodelf - Step: (89/157) Turning in the quest: The Ring Of Mmmrrrggglll. The waypoint arrow shows somewhere in the sea. The  quest NPC is located at these CORRECT coordinates: 30.2,58.5.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24099/view
 -- Date: 2011-02-05 14:12
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Submitted by Grramps on Sat, 2011-02-05 05:34.
 --	
 --	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
 
 -- URL: http://wow-pro.com/node/3207/revisions/24069/view
 -- Date: 2011-01-29 17:08
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added missing QIDs to L steps.
 
 -- URL: http://wow-pro.com/node/3207/revisions/23614/view
 -- Date: 2010-12-05 21:08
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing steps/quests.
 
 -- URL: http://wow-pro.com/node/3207/revisions/23596/view
 -- Date: 2010-12-05 06:45
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing class quests.
 
 -- URL: http://wow-pro.com/node/3207/revisions/23595/view
 -- Date: 2010-12-05 05:55
--- Who: Crackerhead22
+-- Who: 
 -- Log: Changed |R|Blood Elf| to |R|BloodElf| so the Blood Elf only quests will show.
 
 -- URL: http://wow-pro.com/node/3207/revisions/23321/view
 -- Date: 2010-12-03 08:10
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3207/revisions/23289/view
 -- Date: 2010-12-03 07:13
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3207/revisions/23279/view
 -- Date: 2010-12-02 23:20
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
 return [[
@@ -175,6 +180,7 @@ A Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|From Magistrix Erona.|M|38.0
 A Priest Training |QID|8564|R|BloodElf|C|Priest|N|From Magistrix Eron.a|M|38.0,21.0|
 A Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|From Magistrix Erona.|M|38.0,21.0|
 A Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|From Magistrix Erona.|M|38.0,21.0|
+A Monk Training |QID|31170|R|BloodElf|C|Monk|N|From Magistrix Erona.|M|38,21|
 T Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|To Delios Silverblade.|M|39.29,20.10|
 T Hunter Training |QID|9393|R|BloodElf|C|Hunter|N|To Ranger Sallina.|M|39.0,20.0|
 T Mage Training |QID|8328|R|BloodElf|C|Mage|N|To Julia Sunstriker.|M|39.2,21.5|
@@ -182,13 +188,11 @@ T Paladin Training |QID|9676|R|BloodElf|C|Paladin|N|To Jesthenis Sunstriker.|M|3
 T Priest Training |QID|8564|R|BloodElf|C|Priest|N|To Matron Arena.|M|39.4,20.4|
 T Rogue Training |QID|9392|R|BloodElf|C|Rogue|N|To Pathstalker Kariel.|M|38.9,20.0|
 T Warlock Training |QID|8563|R|BloodElf|C|Warlock|N|Summoner Teli'Larien.|M|38.9,21.4|
+T Monk Training |QID|31170|R|BloodElf|C|Monk|N|To Pao.|M|38.79,20.20|
 
-A Monk Training |QID|99999|R|BloodElf|C|Monk|N|From Magistrix Erona.|M|61.04,45.11|
-T Monk Training |QID|99999|R|BloodElf|C|Monk|N|To Pao.|M|63.44,42.61|
-A Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|From Pao.|M|63.44,42.61|
-C Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|Learn Tiger Palm from Pao. Locate a Training Dummy outside the Sunspire and practice using Tiger Palm.|M|63.44,42.61|
-T Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|To Pao.|M|63.44,42.61|
-
+A Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|From Pao.|M|38.79,20.20|
+C Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|Learn Tiger Palm from Pao. Locate a Training Dummy outside the Sunspire and practice using Tiger Palm.|M|38.33,20.64|
+T Tiger Palm |QID|31171|R|BloodElf|C|Monk|N|To Pao.|M|38.79,20.20|
 A Charge!|QID|27091|M|39.3,20.1|R|BloodElf|C|Warrior|N|From Delios Silverblade.|
 C Charge!|QID|27091|M|38.33,20.64||R|BloodElf|C|Warrior|N|Learn charge from your trainer and Charge the target dummy.|
 T Charge!|QID|27091|M|39.3,20.1|R|BloodElf|C|Warrior|N|To Delios Silverblade.|

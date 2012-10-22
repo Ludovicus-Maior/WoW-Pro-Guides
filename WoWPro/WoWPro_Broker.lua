@@ -522,6 +522,7 @@ function WoWPro:Questline(qid)
     if not Grail then return end
     WoWPro:SkipAll()
     WoWPro:QuestPrereq(qid)
+    WoWPro:UpdateGuide()
 end
 
 
@@ -544,4 +545,5 @@ function WoWPro:GrailQuestPrereq(qid)
 end
 
 
--- /run WoWPro:Questline("12838")
+-- /run WoWPro:Questline("10861")
+-- /run WoWPro:Questline("10006")

@@ -5,20 +5,20 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
 -- Date: 2011-06-01 00:52
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3230/revisions/24478/view
 -- Date: 2011-06-01 00:51
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed "Z|Crypt|" as it was unneeded.
 
 -- URL: http://wow-pro.com/node/3230/revisions/23336/view
 -- Date: 2010-12-03 10:09
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3230/revisions/23335/view
 -- Date: 2010-12-03 10:08
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('JiyAra2530', 'Arathi Highlands', 'Jiyambi', '25', '30', 'JiyHin3035', 'Horde', function()
 return [[

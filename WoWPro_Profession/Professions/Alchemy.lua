@@ -5,16 +5,16 @@
 
 -- URL: http://wow-pro.com/wiki/profession_alchemy
 -- Date: 2011-07-27 12:12
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Merge Twists Pull
 
 -- URL: http://wow-pro.com/node/3408/revisions/24641/view
 -- Date: 2011-06-30 06:05
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3408/revisions/24633/view
 -- Date: 2011-06-30 05:49
--- Who: Crackerhead22
+-- Who: 
 
 WoWPro.Profession:RegisterGuide('TwiAlchemy', 'Alchemy', 'Alchemy', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[

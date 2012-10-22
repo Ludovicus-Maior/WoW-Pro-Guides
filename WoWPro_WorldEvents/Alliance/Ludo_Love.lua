@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
 -- Date: 2012-02-05 13:33
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrections after runthrough
 
 -- URL: http://wow-pro.com/node/3466/revisions/24934/view
 -- Date: 2012-02-04 23:21
--- Who: Ludovicus Maior
+-- Who: 
 
 WoWPro.WorldEvents:RegisterGuide("LudoLoveA","Love is in the Air (Alliance)","Love is in the Air (Alliance)","WE", "Ludovicus", "Alliance", function()
 return [[

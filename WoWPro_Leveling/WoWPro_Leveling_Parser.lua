@@ -586,7 +586,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 		end
 		
 		-- Setting the zone for the coordinates of the step --
-		zone = zone or strsplit("-(",WoWPro.Guides[GID].zone)
+		zone = zone or strsplit("(",WoWPro.Guides[GID].zone)
 		row.zone = strtrim(zone)
 
 		-- Checking for loot items in bags --
@@ -638,8 +638,24 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 			WoWPro.Titlebar:Show()
 			WoWPro.Hidden = nil
 		end
-	end	
-
+	end
+	
+	-- Noticing if we are doing a pet battle!
+	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) then
+		WoWPro:Print("|cff33ff33Pet Battle Auto Hide|r: Leveling Module")
+		WoWPro.MainFrame:Hide()
+		WoWPro.Titlebar:Hide()
+		WoWPro.Hidden = true
+			return
+	end
+	if event == "PET_BATTLE_CLOSE" and WoWPro.Hidden then
+		WoWPro:Print("|cff33ff33Pet Battle Exit Auto Show|r: Leveling Module")
+		WoWPro.MainFrame:Show()
+		WoWPro.Titlebar:Show()
+		WoWPro.Hidden = nil		
+	end
+		
+	
     -- Lets see what quests the NPC has:
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
         local npcQuests = {GetGossipAvailableQuests()};

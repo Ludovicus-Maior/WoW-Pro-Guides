@@ -5,26 +5,26 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
 -- Date: 2012-08-07 21:17
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: [Watch Out For Splinters!] with the bang!
 
 -- URL: http://wow-pro.com/node/3414/revisions/24877/view
 -- Date: 2011-12-29 02:21
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3414/revisions/24876/view
 -- Date: 2011-12-29 02:19
--- Who: Crackerhead22
+-- Who: 
 -- Log: Split Tol Barad Peninsula and Tol Barad into two guides.
 
 -- URL: http://wow-pro.com/node/3414/revisions/24679/view
 -- Date: 2011-07-11 22:47
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Fix  C [Cursed Shackels] and coords for turnin on Sergeant Parker.
 
 -- URL: http://wow-pro.com/node/3414/revisions/24646/view
 -- Date: 2011-06-30 18:56
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Initial Create
 
 WoWPro.Dailies:RegisterGuide("CraToBarPA", "Tol Barad Peninsula", "Tol Barad Peninsula Guide", "Cata", "Crackerhead22", "Alliance", function()

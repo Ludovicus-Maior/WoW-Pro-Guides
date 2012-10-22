@@ -5,29 +5,29 @@
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
 -- Date: 2012-01-18 23:55
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Sync to GIT.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24785/view
 -- Date: 2011-10-29 22:20
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3441/revisions/24782/view
 -- Date: 2011-10-29 18:19
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed QID errors.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24779/view
 -- Date: 2011-10-29 02:36
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3441/revisions/24772/view
 -- Date: 2011-10-28 08:04
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3441/revisions/24771/view
 -- Date: 2011-10-28 08:03
--- Who: Crackerhead22
+-- Who: 
 
 WoWPro.WorldEvents:RegisterGuide("LudoHallowNOR","Hallow's End (Northrend)","Hallow's End (Northrend)","WE", "Ludovicus", "Horde", function()
 return [[

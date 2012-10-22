@@ -5,35 +5,35 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
 -- Date: 2011-08-06 08:20
--- Who: Gethe
+-- Who: 
 -- Log: Added the quest "It's You!!" as a Goblin replacement for "Akiris by the Bundle"
 
 -- URL: http://wow-pro.com/node/3238/revisions/24476/view
 -- Date: 2011-06-01 00:47
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed "A Nothing Left for You Here|QID|26134|M|42.83,89.89|Z|" lines, as they belonged to a different zone.
 
 -- URL: http://wow-pro.com/node/3238/revisions/24331/view
 -- Date: 2011-04-29 16:24
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 216 for step R has unknown tag [Nalk to Keebok ..]
 
 -- URL: http://wow-pro.com/node/3238/revisions/24080/view
 -- Date: 2011-01-30 19:17
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3238/revisions/23580/view
 -- Date: 2010-12-04 21:02
--- Who: wkjezz
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3238/revisions/23357/view
 -- Date: 2010-12-03 11:10
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3238/revisions/23354/view
 -- Date: 2010-12-03 11:09
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('WkjCap3035', 'The Cape of Stranglethorn', 'Wkjezz', '30', '35', 'JiyWes3540', 'Horde', function()
 return [[

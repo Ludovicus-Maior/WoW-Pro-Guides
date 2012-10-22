@@ -4,67 +4,72 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2012-10-09 15:35
+-- Who: 
+-- Log: Added trial monk quests.  Coords are not correct.
+
+-- URL: http://wow-pro.com/node/3204/revisions/24688/view
 -- Date: 2011-07-23 02:55
--- Who: Crackerhead22
+-- Who: 
 -- Log: Changed "A Healer's Touch" quest to "Rejuvenating Touch", fixed the note for it. Found by G Visje.
 
 -- URL: http://wow-pro.com/node/3204/revisions/24584/view
 -- Date: 2011-06-25 00:32
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Duplicate A step for qid 28724 -  Fixed, was supposed to be PRE
 --	! Missing A step for step T qid 28725 - Fixed
 --	! Duplicate A step for qid 489 - Fixed by removing duplicate line
 
 -- URL: http://wow-pro.com/node/3204/revisions/24582/view
 -- Date: 2011-06-25 00:19
--- Who: Crackerhead22
+-- Who: 
 -- Log: Corrected QID for the turn-in of "Dolanaar Delivery".
 
 -- URL: http://wow-pro.com/node/3204/revisions/24561/view
 -- Date: 2011-06-20 01:35
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed PRE QID of !Line 41 for step A unknown QID 38713 in PRE: [A Fel Moss Corruption|QID|28714|PRE|38713|M|58.01,39.29|N|From Ilthalaine.|]
 
 -- URL: http://wow-pro.com/node/3204/revisions/24516/view
 -- Date: 2011-06-07 23:04
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: ! Line 247, for step l non-decimal QID: [l Moss-Twined Heart|QID||M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|]
 
 -- URL: http://wow-pro.com/node/3204/revisions/24503/view
 -- Date: 2011-06-05 17:35
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added a couple of missing notes, added missing quests. Added in Race tags for NE only quests.
 
 -- URL: http://wow-pro.com/node/3204/revisions/24273/view
 -- Date: 2011-04-26 22:46
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added missing N and PRE tags
 
 -- URL: http://wow-pro.com/node/3204/revisions/24220/view
 -- Date: 2011-04-05 23:33
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3204/revisions/24120/view
 -- Date: 2011-02-20 21:10
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Change starting level from '1' to '01' like the rest.
 
 -- URL: http://wow-pro.com/node/3204/revisions/24073/view
 -- Date: 2011-01-29 17:21
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Adding missing QID to Level 6 step.
 
 -- URL: http://wow-pro.com/node/3204/revisions/23274/view
 -- Date: 2010-12-02 23:14
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3204/revisions/23273/view
 -- Date: 2010-12-02 23:14
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3204/revisions/23272/view
 -- Date: 2010-12-02 23:13
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil', 'Bitsem', '01', '10', 'JamDar1320', 'Alliance', function()
 return [[
@@ -94,6 +99,7 @@ A Forbidden Sigil|QID|26841|PRE|28714|C|Mage|M|58.07,38.86|N|From Ilthalaine.|R|
 A Simple Sigil|QID|3116|PRE|28714|C|Warrior|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
 A Hallowed Sigil|QID|3119|PRE|28714|C|Priest|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
 A Encrypted Sigil|QID|3118|PRE|28714|C|Rogue|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
+A Calligraphed Sigil|QID|31168|PRE|28714|C|Monk|M|58.07,38.86|N|From Ilthalaine.|R|Night Elf|
 
 T Etched Sigil|QID|3117|M|58.82,35.86|C|Hunter|N|To Ayanna Everstride.|R|Night Elf|
 T Verdant Sigil|QID|3120|C|Druid|M|58.2,34.8|N|To Mardant Strongoak.|R|Night Elf|
@@ -101,27 +107,31 @@ T Forbidden Sigil|QID|26841|C|Mage|M|58.4,35.6|N|To Rhyanda.|R|Night Elf|
 T Simple Sigil|QID|3116|C|Warrior|M|58.8,33.8|N|To Alyissia.|R|Night Elf|
 T Hallowed Sigil|QID|3119|C|Priest|M|58.4,35.6|N|To Shanda.|R|Night Elf|
 T Encrypted Sigil|QID|3118|C|Rogue|M|58.8,33.9|N|To Frahun Shadewhisper.|R|Night Elf|
+T Calligraphed Sigil|QID|31168|C|Monk|M|58.8,33.9|N|To Laoxi.|R|Night Elf|
 
 A A Woodsman's Training|QID|26947|PRE|3117|C|Hunter|M|58.82,35.86|N|From Ayanna Everstride.|R|Night Elf|
 A Rejuvenating Touch|QID|26948|PRE|3120|C|Druid|M|58.2,34.8|N|From Mardant Strongoak.|R|Night Elf|
 A Arcane Missles|QID|26940|PRE|26841|C|Mage|M|58.4,35.6|N|From Rhyanda.|R|Night Elf|
 A Learning New Techniques|QID|26945|PRE|3116|C|Warrior|M|58.8,33.8|N|From Alyissia.|R|Night Elf|
 A Healing for the Wounded|QID|26949|PRE|3119|C|Priest|M|58.4,35.6|N|From Shanda.|R|Night Elf|
-A A Rogue's Advnatage|QID|26946|PRE|3118|C|Rogue|M|58.8,33.9|N|From Frahun Shadewhisper.|R|Night Elf|
+A A Rogue's Advantage|QID|26946|PRE|3118|C|Rogue|M|58.8,33.9|N|From Frahun Shadewhisper.|R|Night Elf|
+A The Art of the Monk|QID|31169|PRE|31168|C|Monk|M|58.8,33.9|N|From Laoxi.|R|Night Elf|
 
 C A Woodsman's Training|QID|26947|C|Hunter|M|58.83,35.82|N|Train Steady Shot and practice it 5 times on a practice dummy.|R|Night Elf|
 C Rejuvenating Touch|QID|26948|C|Druid|N|Train Rejuvenation. Use it to heal a Wounded Sentinel.|R|Night Elf|
 C Arcane Missles|QID|26940|C|Mage|M|58.83,35.82|N|Train Arcane Missles. Use it 5 times on Training Dummy.|R|Night Elf|
 C Learning New Techniques|QID|26945|C|Warrior|M|58.2,34.8|N|Train Charge. Use it 5 times on Training Dummy.|R|Night Elf|
 C Healing for the Wounded|QID|26949|C|Priest|N|From Shanda.|N|Train Flash Heal. Use it to heal 5 Wounded Sentinels.|R|Night Elf|
-C A Rogue's Advnatage|QID|26946|C|Rogue|M|58.83,35.82|N|Train Eviscerate. Use it 5 times on Training Dummy.|R|Night Elf|
+C A Rogue's Advantage|QID|26946|C|Rogue|M|58.83,35.82|N|Train Eviscerate. Use it 5 times on Training Dummy.|R|Night Elf|
+C The Art of the Monk|QID|31169|C|Monk|M|58.83,35.82|N|Use Tiger Palm on Training Dummy.|R|Night Elf|
 
 T A Woodsman's Training|QID|26947|C|Hunter|M|58.83,35.82|N|To Ayanna Everstride.|R|Night Elf|
 T Rejuvenating Touch|QID|26948|C|Druid|M|58.2,34.8|N|To Mardant Strongoak.|R|Night Elf|
 T Arcane Missles|QID|26940|C|Mage|M|58.4,35.6|N|To Rhyanda.|R|Night Elf|
 T Learning New Techniques|QID|26945|C|Warrior|M|58.8,33.8|N|To Alyissia.|R|Night Elf|
 T Healing for the Wounded|QID|26949|C|Priest|M|58.4,35.6|N|To Shanda.|R|Night Elf|
-T A Rogue's Advnatage|QID|26946|C|Rogue|M|58.8,33.9|N|To Frahun Shadewhisper.|R|Night Elf|
+T A Rogue's Advantage|QID|26946|C|Rogue|M|58.8,33.9|N|To Frahun Shadewhisper.|R|Night Elf|
+T The Art of the Monk|QID|31169|C|Monk|M|58.8,33.9|N|To Laoxi.|R|Night Elf|
 
 A Priestess of the Moon|QID|28723|M|58.85,35.75|N|From Ayanna Everstride.|R|Night Elf|
 T Priestess of the Moon|QID|28723|M|57.21,33.33|N|To Dentaria Silverglade.|R|Night Elf|

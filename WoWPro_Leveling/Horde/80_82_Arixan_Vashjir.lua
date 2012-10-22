@@ -5,72 +5,72 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
 -- Date: 2011-06-25 03:00
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Duplicate A step for qid 25887 - Removed duplicate line.
 --	! Quest 26090 has an A step and no T - Turn in step was missing QID.
 
 -- URL: http://wow-pro.com/node/3306/revisions/24530/view
 -- Date: 2011-06-08 03:19
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Correct Successor.
 
 -- URL: http://wow-pro.com/node/3306/revisions/24349/view
 -- Date: 2011-04-29 17:11
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 147 for step C has unknown tag [rUS], Line 193 for step A Bad coord r63.92, Line 299 for step C has unknown tag [Shimmering Expanse], ...
 
 -- URL: http://wow-pro.com/node/3306/revisions/24171/view
 -- Date: 2011-03-12 18:40
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Unique IDs
 
 -- URL: http://wow-pro.com/node/3306/revisions/24019/view
 -- Date: 2011-01-19 12:55
--- Who: Jame
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3306/revisions/23993/view
 -- Date: 2011-01-16 03:36
--- Who: Jiyambi
+-- Who: 
 -- Log: Rolling in changes from git
 
 -- URL: http://wow-pro.com/node/3306/revisions/23977/view
 -- Date: 2011-01-12 03:36
--- Who: kayeich
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3306/revisions/23856/view
 -- Date: 2010-12-29 14:44
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed the [b][color=red]Not yet complete![/color][/b] line.
 
 -- URL: http://wow-pro.com/node/3306/revisions/23855/view
 -- Date: 2010-12-29 14:43
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed quests no longer in game. Added missing steps, missing quests, missing cords, missing notes. Corrected cords, notes.
 
 -- URL: http://wow-pro.com/node/3306/revisions/23746/view
 -- Date: 2010-12-12 04:57
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3306/revisions/23701/view
 -- Date: 2010-12-08 07:23
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed where the quest "Orako" appears.
 
 -- URL: http://wow-pro.com/node/3306/revisions/23663/view
 -- Date: 2010-12-07 00:45
--- Who: Liavan
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3306/revisions/23508/view
 -- Date: 2010-12-03 23:11
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3306/revisions/23505/view
 -- Date: 2010-12-03 23:06
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3306/revisions/23504/view
 -- Date: 2010-12-03 23:05
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('AriVasH8082', "Vash'jir", 'Arixan', '80', '82', 'AriDee8283', 'Horde', function()
 return [[

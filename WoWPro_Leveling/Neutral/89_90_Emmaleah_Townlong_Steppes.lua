@@ -5,26 +5,26 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
 -- Date: 2012-09-25 00:51
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3492/revisions/25081/view
 -- Date: 2012-09-24 22:46
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/b143e2b68171017e6df091ec22315a977a43e4c6/WoWPro_Leveling/Neutral/89_90_Emmaleah_Townlong_Steppes.lua
 
 -- URL: http://wow-pro.com/node/3492/revisions/25070/view
 -- Date: 2012-09-15 20:00
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Applied https://github.com/Laotseu/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Neutral/89_90_Emmaleah_TownlongSteppes.lua
 
 -- URL: http://wow-pro.com/node/3492/revisions/25069/view
 -- Date: 2012-09-15 19:57
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrected URLs.
 
 -- URL: http://wow-pro.com/node/3492/revisions/25068/view
 -- Date: 2012-09-15 19:56
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Original from Emmaleah
 
 WoWPro.Leveling:RegisterGuide('EmmTow8990', 'Townlong Steppes', 'Emmaleah', '89', '90', 'EmmDre8990|EmmDre8990', 'Neutral', function()

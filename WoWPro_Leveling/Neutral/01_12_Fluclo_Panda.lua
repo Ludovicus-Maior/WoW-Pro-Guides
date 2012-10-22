@@ -4,40 +4,45 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2012-10-02 23:36
+-- Who: 
+-- Log: Add new faction specific quest ending!
+
+-- URL: http://wow-pro.com/node/3483/revisions/25082/view
 -- Date: 2012-09-24 23:46
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: It is Stormwind City, not Stormwind!
 
 -- URL: http://wow-pro.com/node/3483/revisions/25032/view
 -- Date: 2012-07-06 21:42
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Remove the faction tags at the end sequence.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25031/view
 -- Date: 2012-07-06 21:10
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Credited Fluclo with the guide, added successor zones.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25029/view
 -- Date: 2012-07-03 19:06
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3483/revisions/25028/view
 -- Date: 2012-07-03 19:03
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3483/revisions/25027/view
 -- Date: 2012-07-03 19:00
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3483/revisions/25026/view
 -- Date: 2012-07-02 22:10
--- Who: Fluclo
+-- Who: 
 -- Log: Guide up to the bugged Zhao-Ren
 
 -- URL: http://wow-pro.com/node/3483/revisions/25020/view
 -- Date: 2012-07-01 14:20
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Initial Version
 
 WoWPro.Leveling:RegisterGuide('FlucloPanda', 'The Wandering Isle', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
@@ -388,30 +393,31 @@ T New Allies|QID|29800|M|51.46,48.33|N|Up the stairs, to Spirit of Master Shang 
 
 A A New Fate|QID|31450|M|51.46,48.33|N|From Spirit of Master Shang Xi|
 C A New Fate|QID|31450|N|Speak to Spirit of Master Shang Xi, and choose your destiny!|NC|
+; The cinematic triggers a reload, which re-evaluates all the following steps in the new faction.
 T A New Fate|QID|31450|N|Straight in front of you, and welcome to the mainland.|
 
-N Destiny Chosen|N|Skip the quest that does not apply to you.|
-A Joining the Horde|QID|31012|M|45.58,12.61|N|From Ji Firepaw|Z|Durotar|
-A Joining the Alliance|QID|30987|M|32.90,50.95|N|From Aysa Cloudsinger|Z|Elwynn Forest|
+N Destiny Chosen|N|The next faction specific quest should be automatically chosen for you. If not, report the bug!|
+A Joining the Horde|QID|31012|M|45.58,12.61|N|From Ji Firepaw|Z|Durotar|FACTION|Horde|
+A Joining the Alliance|QID|30987|M|32.90,50.95|N|From Aysa Cloudsinger|Z|Elwynn Forest|FACTION|Alliance|
 
-T Joining the Horde|QID|31012|M|48.14,70.54|N|To Garrosh Hellscream|Z|Orgrimmar|
-T Joining the Alliance|QID|30987|M|85.78,31.70|N|To King Varian Wrynn, in Stormwind Keep|Z|Stormwind City|
+T Joining the Horde|QID|31012|M|48.14,70.54|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
+T Joining the Alliance|QID|30987|M|85.78,31.70|N|To King Varian Wrynn, in Stormwind Keep|Z|Stormwind City|FACTION|Alliance|
 
-A The Horde Way|QID|31013|M|48.14,70.54|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|
-C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream|Z|Orgrimmar|NC|
-T The Horde Way|QID|31013|M|70.61,31.47|N|To Garrosh Hellscream, who has moved to the Valley of Honor|Z|Orgrimmar|
+A The Horde Way|QID|31013|M|48.14,70.54|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
+C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream|Z|Orgrimmar|NC|FACTION|Horde|
+T The Horde Way|QID|31013|M|70.61,31.47|N|To Garrosh Hellscream, who has moved to the Valley of Honor|Z|Orgrimmar|FACTION|Horde|
 
-A Hellscream's Gift|QID|31014|M|70.61,31.47|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|
-C Hellscream's Gift|QID|31014|M|70.60,30.90|N|Head towards the door behind Garrosh Hellscream, and you'll get teleported to The Ring of Valor. Just fight the same target as Ji Firepaw, and run when you are told to.|Z|Orgrimmar|
-T Hellscream's Gift|QID|31014|M|48.14,70.54|N|To Garrosh Hellscream, who has moved back to the Valley of Strength|Z|Orgrimmar|
+A Hellscream's Gift|QID|31014|M|70.61,31.47|PRE|31012|N|To Garrosh Hellscream|Z|Orgrimmar|FACTION|Horde|
+C Hellscream's Gift|QID|31014|M|70.60,30.90|N|Head towards the door behind Garrosh Hellscream, and you'll get teleported to The Ring of Valor. Just fight the same target as Ji Firepaw, and run when you are told to.|Z|Orgrimmar|FACTION|Horde|
+T Hellscream's Gift|QID|31014|M|48.14,70.54|N|To Garrosh Hellscream, who has moved back to the Valley of Strength|Z|Orgrimmar|FACTION|Horde|
 
-A The Alliance Way|QID|30988|M|85.78,31.70|PRE|30987|N|From King Varian Wrynn|Z|Stormwind City|
-C The Alliance Way|QID|30988|M|82.59,28.07|N|Listen to King Varian Wrynn|Z|Stormwind City|
-T The Alliance Way|QID|30988|M|82.59,28.07|N|To King Varian Wrynn, who has moved out to the garden|Z|Stormwind City|
+A The Alliance Way|QID|30988|M|85.78,31.70|PRE|30987|N|From King Varian Wrynn|Z|Stormwind City|FACTION|Alliance|
+C The Alliance Way|QID|30988|M|82.59,28.07|N|Listen to King Varian Wrynn|Z|Stormwind City|FACTION|Alliance|
+T The Alliance Way|QID|30988|M|82.59,28.07|N|To King Varian Wrynn, who has moved out to the garden|Z|Stormwind City|FACTION|Alliance|
 
-A An Old Pit Fighter|QID|30989|M|82.59,28.07|PRE|30987|N|From King Varian Wrynn|Z|Stormwind City|
-C An Old Pit Fighter|QID|30989|M|82.59,28.07|N|The King will want you to fight him, but every hit will miss/dodge, after a short while, the fight will be over.|Z|Stormwind City|
-T An Old Pit Fighter|QID|30989|M|85.78,31.70|N|To King Varian Wrynn, who has moved back into the Keep|Z|Stormwind City|
+A An Old Pit Fighter|QID|30989|M|82.59,28.07|PRE|30987|N|From King Varian Wrynn|Z|Stormwind City|FACTION|Alliance|
+C An Old Pit Fighter|QID|30989|M|82.59,28.07|N|The King will want you to fight him, but every hit will miss/dodge, after a short while, the fight will be over.|Z|Stormwind City|FACTION|Alliance|
+T An Old Pit Fighter|QID|30989|M|85.78,31.70|N|To King Varian Wrynn, who has moved back into the Keep|Z|Stormwind City|FACTION|Alliance|
 
 ]]
 

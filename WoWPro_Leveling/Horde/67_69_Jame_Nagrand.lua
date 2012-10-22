@@ -5,30 +5,30 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
 -- Date: 2012-01-20 21:15
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added REP tags to certain Consortium quests.
 
 -- URL: http://wow-pro.com/node/3280/revisions/24882/view
 -- Date: 2012-01-03 15:25
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3280/revisions/24839/view
 -- Date: 2011-12-07 18:19
--- Who: Crackerhead22
+-- Who: 
 -- Log: 4.3 updates plus Altruis the Sufferer quest lines
 
 -- URL: http://wow-pro.com/node/3280/revisions/24340/view
 -- Date: 2011-04-29 16:44
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 26 for step A has unknown tag [71.5,40.5]
 
 -- URL: http://wow-pro.com/node/3280/revisions/23449/view
 -- Date: 2010-12-03 21:35
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3280/revisions/23448/view
 -- Date: 2010-12-03 21:35
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("JamNag6769", "Nagrand", "Jame", "67", "69", "JamBla6970", "Horde", function()
 return [[

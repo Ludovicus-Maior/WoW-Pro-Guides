@@ -5,36 +5,36 @@
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
 -- Date: 2012-02-07 03:29
--- Who: Laotseu
+-- Who: 
 -- Log: Merge back the corrections that I had made in the previous version of the guide with the new Cata elders.
 
 -- URL: http://wow-pro.com/node/3452/revisions/24940/view
 -- Date: 2012-02-05 23:54
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Add in LaoTseu's changes
 
 -- URL: http://wow-pro.com/node/3452/revisions/24932/view
 -- Date: 2012-02-04 22:39
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Elders of Cata
 
 -- URL: http://wow-pro.com/node/3452/revisions/24918/view
 -- Date: 2012-01-23 23:13
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Merge in Laotseu's update.
 
 -- URL: http://wow-pro.com/node/3452/revisions/24853/view
 -- Date: 2011-12-10 04:35
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3452/revisions/24846/view
 -- Date: 2011-12-07 18:37
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added Elders guide source code, added section for Lunar Festival achievements.
 
 -- URL: http://wow-pro.com/node/3452/revisions/24844/view
 -- Date: 2011-12-07 18:30
--- Who: Crackerhead22
+-- Who: 
 -- Log: Source page created.
 
 WoWPro.WorldEvents:RegisterGuide("CraLunFesEldH","Lunar Festival Elders Guide (Horde)","Lunar Festival Elders Guide (Horde)","WE", "Crackerhead22", "Horde", function()

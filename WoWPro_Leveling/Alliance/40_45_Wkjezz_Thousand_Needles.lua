@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
 -- Date: 2011-06-25 01:14
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Duplicate A step for qid 25486 - Removed line.
 --	! Duplicate T step for qid 25488 - Removed line.
 --	! Duplicate A step for qid 25488 - Removed line.
@@ -14,68 +14,68 @@
 
 -- URL: http://wow-pro.com/node/3253/revisions/24459/view
 -- Date: 2011-05-30 17:57
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: ! Line 129 for step R has 1 M coords: [R The Admiral's Den|M|25627|M|92.02,83.23|N|Head to the cave that is The Admiral's Den.|]
 
 -- URL: http://wow-pro.com/node/3253/revisions/24423/view
 -- Date: 2011-05-26 14:21
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added notes, fixed a cord or two, removed the static |QID|99999|s.
 
 -- URL: http://wow-pro.com/node/3253/revisions/24302/view
 -- Date: 2011-04-29 14:43
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 78 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 82 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 89 for step A has unknown tag [Heads-up Accept].
 
 -- URL: http://wow-pro.com/node/3253/revisions/24086/view
 -- Date: 2011-01-30 19:37
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrected RegisterGuide line to match GIT
 
 -- URL: http://wow-pro.com/node/3253/revisions/23974/view
 -- Date: 2011-01-10 11:35
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3253/revisions/23973/view
 -- Date: 2011-01-10 11:33
--- Who: Fluclo
+-- Who: 
 -- Log: Various updates to log to improve flow
 
 -- URL: http://wow-pro.com/node/3253/revisions/23952/view
 -- Date: 2011-01-07 23:57
--- Who: Fluclo
+-- Who: 
 -- Log: Corrected and improved In the Outhouse quest
 
 -- URL: http://wow-pro.com/node/3253/revisions/23951/view
 -- Date: 2011-01-07 23:45
--- Who: Fluclo
+-- Who: 
 -- Log: Corrected the starting note for In the Outhouse
 
 -- URL: http://wow-pro.com/node/3253/revisions/23949/view
 -- Date: 2011-01-07 23:42
--- Who: Fluclo
+-- Who: 
 -- Log: Added a seperate step to buy a bottle of grog for Bar Fight, fixed typo on note
 
 -- URL: http://wow-pro.com/node/3253/revisions/23947/view
 -- Date: 2011-01-07 23:35
--- Who: Fluclo
+-- Who: 
 -- Log: Added starting information on how to get there, the three optional breadcrumb quests, corrected turnin QID for The Grimtotem are Coming and added a note of warning for quest Two If By Boat.
 
 -- URL: http://wow-pro.com/node/3253/revisions/23603/view
 -- Date: 2010-12-05 07:59
--- Who: wkjezz
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3253/revisions/23602/view
 -- Date: 2010-12-05 07:58
--- Who: wkjezz
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3253/revisions/23387/view
 -- Date: 2010-12-03 11:37
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3253/revisions/23386/view
 -- Date: 2010-12-03 11:36
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('WkjTho4045', 'Thousand Needles', 'Wkjezz', '40', '45', 'WkjTan4550', 'Alliance', function()
 return [[

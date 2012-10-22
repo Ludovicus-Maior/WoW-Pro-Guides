@@ -5,51 +5,51 @@
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
 -- Date: 2012-09-24 23:49
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Spell Njorndir Preparation right!
 
 -- URL: http://wow-pro.com/node/3451/revisions/25018/view
 -- Date: 2012-06-30 23:09
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Correct Zone in TheNexus
 
 -- URL: http://wow-pro.com/node/3451/revisions/24931/view
 -- Date: 2012-02-04 22:38
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Elders of Cata
 
 -- URL: http://wow-pro.com/node/3451/revisions/24924/view
 -- Date: 2012-01-25 22:47
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Two zone name errors: Z|The Nexus and Z|Halls of Stone.
 
 -- URL: http://wow-pro.com/node/3451/revisions/24922/view
 -- Date: 2012-01-25 12:28
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Rumblerrock is Rumblerock
 
 -- URL: http://wow-pro.com/node/3451/revisions/24920/view
 -- Date: 2012-01-24 12:34
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Hendo72's Corrections.
 
 -- URL: http://wow-pro.com/node/3451/revisions/24919/view
 -- Date: 2012-01-24 12:26
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: 1,$s/|T|\([A-Za-z ]*\) the Elder|/|T|Elder \1|/
 
 -- URL: http://wow-pro.com/node/3451/revisions/24854/view
 -- Date: 2011-12-10 04:35
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3451/revisions/24845/view
 -- Date: 2011-12-07 18:36
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added Elders guide source code, added section for Lunar Festival achievements.
 
 -- URL: http://wow-pro.com/node/3451/revisions/24843/view
 -- Date: 2011-12-07 18:30
--- Who: Crackerhead22
+-- Who: 
 -- Log: Source page created.
 
 WoWPro.WorldEvents:RegisterGuide("CraLunFesEldA","Lunar Festival Elders Guide (Alliance)","Lunar Festival Elders Guide (Alliance)","WE", "Crackerhead22", "Alliance", function()

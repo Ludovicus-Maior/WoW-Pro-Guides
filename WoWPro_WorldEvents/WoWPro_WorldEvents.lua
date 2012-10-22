@@ -12,14 +12,14 @@ function WoWPro.WorldEvents:OnInitialize()
 	if WoWProCharDB.AutoHideWorldEventsInsideInstances == nil then
 	    WoWProCharDB.AutoHideWorldEventsInsideInstances = true
 	end
+		
+	-- WorldEvents Tag Setup --
+	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "prereq"})
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.WorldEvents:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: WorldEvents Module")
-	
-	-- WorldEvents Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "prereq"})
 	
 	-- Event Registration --
 	WoWPro.WorldEvents.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "CRITERIA_UPDATE",

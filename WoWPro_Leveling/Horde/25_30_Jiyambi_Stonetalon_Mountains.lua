@@ -5,31 +5,31 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
 -- Date: 2012-01-28 01:50
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3234/revisions/24329/view
 -- Date: 2011-04-29 16:21
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 45 for step C has 3 M coords:, Line 77 for step A has unknown tag [GRP]:
 
 -- URL: http://wow-pro.com/node/3234/revisions/23972/view
 -- Date: 2011-01-10 04:32
--- Who: Crackerhead22
+-- Who: 
 -- Log: Changed turn in name for "Warchief's Command: Southern Barrens!" to "Warchief's Command: Stonetalon Mountains!"
 
 -- URL: http://wow-pro.com/node/3234/revisions/23542/view
 -- Date: 2010-12-04 02:29
--- Who: Liavan
+-- Who: 
 -- Log: Hopefully this time i did it correct but i just added in one daily quest that was available and set it up as Rank 3.
 
 -- URL: http://wow-pro.com/node/3234/revisions/23541/view
 -- Date: 2010-12-04 02:12
--- Who: Liavan
+-- Who: 
 -- Log: .
 
 -- URL: http://wow-pro.com/node/3234/revisions/23538/view
 -- Date: 2010-12-04 01:53
--- Who: Liavan
+-- Who: 
 -- Log: Added in daily quest that was missing and set it as rank 3 also added should be lvl tags.
 --	A Seek and Destroy|QID|26009|M|66.07,63.75|RANK|3|N|From Overlord Krom'gar.|
 --	C Seek and Destroy|QID|26009|M|61.42,64.88|S|RANK|3|N|From Overlord Krom'gar.|
@@ -39,11 +39,11 @@
 
 -- URL: http://wow-pro.com/node/3234/revisions/23347/view
 -- Date: 2010-12-03 10:47
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3234/revisions/23346/view
 -- Date: 2010-12-03 10:47
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('JiySto2530', "Stonetalon Mountains", 'Jiyambi', '25', '30', 'JiySou3035', 'Horde', function()
 return [[

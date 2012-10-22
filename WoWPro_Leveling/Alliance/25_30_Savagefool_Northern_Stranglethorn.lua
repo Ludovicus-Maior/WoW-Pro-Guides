@@ -5,36 +5,36 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
 -- Date: 2011-12-01 22:30
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3231/revisions/24500/view
 -- Date: 2011-06-04 23:45
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added the few missing notes in.
 
 -- URL: http://wow-pro.com/node/3231/revisions/24297/view
 -- Date: 2011-04-29 14:30
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 55 for step C has unknown tag [These are all over the place in Kurzen's Compound.]
 
 -- URL: http://wow-pro.com/node/3231/revisions/24125/view
 -- Date: 2011-02-23 01:21
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Link this guide to BitCap3035.
 --	Small spelling corrections.
 
 -- URL: http://wow-pro.com/node/3231/revisions/24121/view
 -- Date: 2011-02-21 00:07
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Spelling error correction and added note to Leadin quest.
 
 -- URL: http://wow-pro.com/node/3231/revisions/23339/view
 -- Date: 2010-12-03 10:34
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3231/revisions/23338/view
 -- Date: 2010-12-03 10:33
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('SavNorStr2530', 'Northern Stranglethorn', 'Savagefool', '25', '30', 'BitCap3035', 'Alliance', function()
 return [[

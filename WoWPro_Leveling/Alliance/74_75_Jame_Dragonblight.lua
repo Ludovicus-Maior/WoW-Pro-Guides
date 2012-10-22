@@ -5,27 +5,27 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
 -- Date: 2012-05-27 18:53
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Noted some missing quests, corrected some coords.
 
 -- URL: http://wow-pro.com/node/3291/revisions/24860/view
 -- Date: 2011-12-10 17:13
--- Who: Crackerhead22
+-- Who: 
 -- Log: 4.3 updates
 
 -- URL: http://wow-pro.com/node/3291/revisions/24749/view
 -- Date: 2011-09-18 08:36
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing notes, cords. Fixed a couple of notes and cords.
 
 -- URL: http://wow-pro.com/node/3291/revisions/24309/view
 -- Date: 2011-04-29 15:01
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 299 for step N has 1 M coords:
 
 -- URL: http://wow-pro.com/node/3291/revisions/24261/view
 -- Date: 2011-04-24 00:42
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed line-! Line 65 for step C has unknown tag [Kill Vengeful Geists to free the Trapped Wintergarde Villagers.]: [C Rescue from Town Square|QID|12253|S|QO|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|]
 --	Fixed line-! Line 67 for step C has unknown tag [Now just go from one building to another, killing Vengeful Geists to free the Trapped Wintergarde Villagers.]: [C Rescue from Town Square|QID|12253|US|QO|N|Now just go from one building to another, killing Vengeful Geists to free the Trapped Wintergarde Villagers.|]
 --	Fixed line-! Line 79 for step C has unknown tag [Q]: [C The Bleeding Ore |QID|12272| |Q|The Bleeding Ore|S|N|Mine the Strange Ore nodes.|M|80.4,45.1|]
@@ -36,17 +36,17 @@
 
 -- URL: http://wow-pro.com/node/3291/revisions/24234/view
 -- Date: 2011-04-19 03:14
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added a lot of notes, added sticky steps.
 
 -- URL: http://wow-pro.com/node/3291/revisions/24164/view
 -- Date: 2011-03-12 18:30
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Grizz changed ID
 
 -- URL: http://wow-pro.com/node/3291/revisions/24138/view
 -- Date: 2011-02-28 20:48
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Eliminated sequence [Reborn From The Ashes], [Fate, Up Against Your Will],
 --	 [A Royal Coup], [The Killing Time], [The Battle For The Undercity].
 --	
@@ -54,11 +54,11 @@
 
 -- URL: http://wow-pro.com/node/3291/revisions/23474/view
 -- Date: 2010-12-03 22:19
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3291/revisions/23473/view
 -- Date: 2010-12-03 22:18
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("JamDra7475", "Dragonblight", "Jame", "74", "75", "JamGriA7577", "Alliance", function()
 return [[

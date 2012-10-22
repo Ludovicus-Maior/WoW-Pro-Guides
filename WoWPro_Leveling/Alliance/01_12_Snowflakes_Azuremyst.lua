@@ -4,92 +4,102 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2012-10-09 00:40
+-- Who: 
+-- Log: Add Monk Starter quests
+
+-- URL: http://wow-pro.com/node/3206/revisions/25125/view
+-- Date: 2012-10-08 19:42
+-- Who: 
+-- Log: Get rid of - in zone.
+
+-- URL: http://wow-pro.com/node/3206/revisions/24690/view
 -- Date: 2011-07-27 01:59
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrected race tags on [Replenishing the Healing Crystals] and corrected QIDs for class training quests, which were odd horde ones.  Sabotage!
 
 -- URL: http://wow-pro.com/node/3206/revisions/24689/view
 -- Date: 2011-07-23 21:10
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Played through and tweaked.  Needs to be tested by L1-5 to finish up.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24667/view
 -- Date: 2011-07-06 17:22
--- Who: Fluclo
+-- Who: 
 -- Log: Added professions line, removed obtain flightpoint (not required, already have flightpoint for race, or from intro line)
 
 -- URL: http://wow-pro.com/node/3206/revisions/24666/view
 -- Date: 2011-07-06 17:13
--- Who: Fluclo
+-- Who: 
 -- Log: Added some NC steps
 
 -- URL: http://wow-pro.com/node/3206/revisions/24585/view
 -- Date: 2011-06-25 00:36
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Duplicate T step for qid 9452 - Fixed
 
 -- URL: http://wow-pro.com/node/3206/revisions/24563/view
 -- Date: 2011-06-20 01:37
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3206/revisions/24562/view
 -- Date: 2011-06-20 01:36
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed QID for "Your First Lesson"
 
 -- URL: http://wow-pro.com/node/3206/revisions/24492/view
 -- Date: 2011-06-02 12:02
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added bunch of notes, added a couple of sticky steps, fixed some cords, added a couple cords.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24274/view
 -- Date: 2011-04-26 22:50
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added missing S tag and got rid of a rogue QID.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24123/view
 -- Date: 2011-02-22 01:59
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed a race tag issue with "Medicinal Purpose".
 
 -- URL: http://wow-pro.com/node/3206/revisions/24049/view
 -- Date: 2011-01-25 01:28
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3206/revisions/24048/view
 -- Date: 2011-01-25 01:25
--- Who: Fluclo
+-- Who: 
 -- Log: Corrected layout for An Alternative Alternative
 
 -- URL: http://wow-pro.com/node/3206/revisions/23721/view
 -- Date: 2010-12-10 05:17
--- Who: Crackerhead22
+-- Who: 
 -- Log: Changed, "Azuremyst Isle (Draenai)", to "Azuremyst Isle - Draenai".
 --	Removed the unneeded zone tags due to first change.
 
 -- URL: http://wow-pro.com/node/3206/revisions/23598/view
 -- Date: 2010-12-05 07:19
--- Who: Crackerhead22
+-- Who: 
 -- Log: Changed the NPC names for the class quests, to the correct NPCs.
 
 -- URL: http://wow-pro.com/node/3206/revisions/23597/view
 -- Date: 2010-12-05 07:15
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing class quests, added spacing for easier editing.
 
 -- URL: http://wow-pro.com/node/3206/revisions/23320/view
 -- Date: 2010-12-03 07:57
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3206/revisions/23278/view
 -- Date: 2010-12-02 23:18
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3206/revisions/23277/view
 -- Date: 2010-12-02 23:18
--- Who: Jiyambi
+-- Who: 
 
-WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle - Draenai", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
+WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
 return [[
 R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
 f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
@@ -130,8 +140,11 @@ N Paladin Training|QID|9287|C|Paladin|N|Get your new skills at the trainer.|M|79
 N Warrior Training|QID|9289|C|Warrior|N|Get your new skills at the trainer.|M|79.3,49.1|
 N Mage Training|QID|9290|C|Mage|N|Get your new skills at the trainer.|M|79.3,49.1|
 
+A The Tiger Palm|QID|31173|M|79.40,51.60|C|Monk|N|From Mojo Stormstout.|
+C The Tiger Palm|QID|31173|M|80.08,45.77|C|Monk|N|Find a Training Dummy on the northwest side of the Crash Site and practice using Tiger Palm. |
+T The Tiger Palm|QID|31173|M|79.40,51.60|C|Monk|N|From Mojo Stormstout.|
 A Your First Lesson|QID|26958|M|79.61,49.42|C|Warrior|N|From Kore.|
-C Your First Lesson|QID|26958|M|80.08,45.77||C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
+C Your First Lesson|QID|26958|M|80.08,45.77|C|Warrior|N|Learn Charge from Kore. Find a Training Dummy on the northwest side of the Crash Site and practice using Charge. |
 T Your First Lesson|QID|26958|M|79.61,49.42|C|Warrior|N|To Kore.|
 A Arcane Missiles|QID|26968|M|79.6,48.8|C|Mage|N|From Valaatu.|
 C Arcane Missiles|QID|26968|M|80.08,45.77|C|Mage|N|Learn Arcane Missiles from Valaatu. Find a Training Dummy on the northwest side of the Crash Site and practice using Arcane Missiles 2 times. |

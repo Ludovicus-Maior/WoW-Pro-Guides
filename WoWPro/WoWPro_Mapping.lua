@@ -298,20 +298,31 @@ function WoWPro:ValidZone(zone)
 end
     
     
-function WoWPro:MaybeRemap(z,f,x,y)
-	WoWPro:dbp("Remap? %d/%g,%g %s",z,x,y,tostring(WoWPro.SubZone[z]))
-	if WoWPro.SubZone[z] and AL and AL.TranslateWorldMapPosition then
-		local nx , ny = AL:TranslateWorldMapPosition(z,f,x/100,y/100,WoWPro.SubZone[z],f)
-		WoWPro:dbp("Remapping1 to %g,%g",nx,ny)
-		if nx >= 0 and nx <= 1 and ny >=0 and ny <= 1 then
-			-- Successfull translation, remap
-			WoWPro:Print("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,WoWPro.SubZone[z],nx*100,ny*100)
-			return WoWPro.SubZone[z],nx*100,ny*100
-		end
+function WoWPro:TryRemap(z,s,f,x,y)
+	local nx , ny = AL:TranslateWorldMapPosition(z,f,x/100,y/100,s,f)
+	WoWPro:dbp("Remapping1 to %d,%g,%g",s,nx,ny)
+	if nx >= 0 and nx <= 1 and ny >=0 and ny <= 1 then
+		-- Successfull translation, remap
+		WoWPro:Print("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
+		return s,nx*100,ny*100
 	end
 	return nil,nil,nil
 end
 
+function WoWPro:MaybeRemap(z,f,x,y)
+    if (not WoWPro.SubZone[z])  or (not AL) or (not AL.TranslateWorldMapPosition) then return nil,nil,nil end
+    WoWPro:dbp("Remap? %d/%g,%g %s",z,x,y,tostring(WoWPro.SubZone[z]))
+    if type(WoWPro.SubZone[z]) == "number" then
+        return WoWPro:TryRemap(z,WoWPro.SubZone[z],f,x,y)
+    end
+    if type(WoWPro.SubZone[z]) == "table" then
+        for idx, val in ipairs(WoWPro.SubZone[z]) do
+            local z,x,y = WoWPro:TryRemap(z,val,f,x,y)
+            if z then return z,x,y end
+        end
+    end
+	return nil,nil,nil
+end
 
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide

@@ -4,67 +4,76 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2012-10-09 00:07
+-- Who: 
+-- Log: Added undead monk quests.
+
+-- URL: http://wow-pro.com/node/3205/revisions/25128/view
+-- Date: 2012-10-08 19:44
+-- Who: 
+
+-- URL: http://wow-pro.com/node/3205/revisions/24730/view
 -- Date: 2011-08-13 21:23
--- Who: Jiyambi
+-- Who: 
 -- Log: Adding note to Marshal Redpath quest, warning of it's difficulty.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24598/view
 -- Date: 2011-06-25 01:34
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Missing A step for step T qid 309 - Fixed, QID for turn-in should be 3098
 
 -- URL: http://wow-pro.com/node/3205/revisions/24511/view
 -- Date: 2011-06-07 10:52
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Tweak Coords on C [Assault on the Rotbrain Encampment]
 
 -- URL: http://wow-pro.com/node/3205/revisions/24473/view
 -- Date: 2011-06-01 00:36
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed Z|Crusader's Outpost| as it was unneeded.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24437/view
 -- Date: 2011-05-28 11:08
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Race tags needed updates.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24316/view
 -- Date: 2011-04-29 15:20
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3205/revisions/24070/view
 -- Date: 2011-01-29 17:11
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added missing QID to Level 4 step.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24036/view
 -- Date: 2011-01-22 14:39
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added a bunch of |R|Undead,Troll| and |R|Undead| tags where appropriate.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23828/view
 -- Date: 2010-12-25 08:31
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing |M| tags, fixed a couple |M| cords.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23671/view
 -- Date: 2010-12-07 04:46
--- Who: Bitsem
+-- Who: 
 -- Log: Added Class quests.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23660/view
 -- Date: 2010-12-06 23:25
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3205/revisions/23276/view
 -- Date: 2010-12-02 23:16
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3205/revisions/23275/view
 -- Date: 2010-12-02 23:15
--- Who: Jiyambi
+-- Who: 
 
-WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades - Undead', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades (Undead)', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function()
 return [[
 
 A Fresh out of the Grave|QID|24959|M|29.41,70.96|R|Undead|N|From Agatha.|
@@ -107,6 +116,7 @@ A Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|30.87,66.19|N|From Shadow Prie
 A Simple Scroll|QID|3095|R|Undead|C|Warrior|M|30.87,66.19|N|From Shadow Priest Sarvis.|
 A Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|30.87,66.19|N|From Shadow Priest Sarvis.|
 A Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|30.87,66.19|N|From Shadow Priest Sarvis.|
+A Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|30.87,66.19|N|From Shadow Priest Sarvis.|
 
 A The Truth of the Grave|QID|24961|M|30.89,66.11|N|From Novice Elreth.|
 
@@ -116,6 +126,7 @@ T Trail-Worn Scroll|QID|24962|R|Undead|C|Hunter|M|31.47,65.59|N|To Xavier the Hu
 T Simple Scroll|QID|3095|R|Undead|C|Warrior|M|32.63,65.61|N|To Dannil Stern.|
 T Tainted Scroll|QID|3099|R|Undead|C|Warlock|M|30.92,66.30|N|To Maximillion.|
 T Encrypted Scroll|QID|3096|R|Undead|C|Rogue|M|30.87,66.19|N|To David Trias.|
+T Scribbled Scroll|QID|31146|R|Undead|C|Monk|M|32.43,65.74|N|To Ting, Strong of Stomach.|
 
 A Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|31.12,66.08|N|From Dark Cleric Duesten.|
 A Magic Training|QID|24965|R|Undead|C|Mage|M|30.91,66.13|N|From Isabella.|
@@ -123,6 +134,7 @@ A The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.47,65.59|N|From Xavier
 A Charging into Battle|QID|24969|R|Undead|C|Warrior|M|32.63,65.61|N|From Dannal Stern.|
 A Dark Deeds|QID|24968|R|Undead|C|Warlock|M|30.92,66.30|N|From Maximillion.|
 A Stab!|QID|24967|R|Undead|C|Rogue|M|30.87,66.19|N|From David Trias.|
+A Tiger Palm|QID|31147|R|Undead|C|Monk|M|32.43,65.74|N|From Ting, Strong of Stomach.|
 
 C Of Light and Shadows|QID|24966|R|Undead|C|Priest|NC|M|31.12,66.08|N|Train Flash Heal. Use it on the wounded forsaken next to you.|
 C Magic Training|QID|24965|R|Undead|C|Mage|M|31.65,66.83|N|Train Arcane Missles from Isabella. Go to a Dummy, cast Fireball, then Arcane Missles when it becomes available.|
@@ -130,6 +142,7 @@ C The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.65,66.83|N|Learn Stead
 C Charging into Battle|QID|24969|R|Undead|C|Warrior|M|31.65,66.83|N|Learn Chrage from Dannal and practice it on a Dummy.|
 C Dark Deeds|QID|24968|R|Undead|C|Warlock|M|31.65,66.83|N|Learn Immolate from Maximillion and practice it 5 times on a Dummy.|
 C Stab!|QID|24967|R|Undead|C|Rogue|M|31.65,66.83|N|Learn Eviscerate from David, practice it 3 times on a Dummy.|
+C Tiger Palm|QID|31147|R|Undead|C|Monk|M|31.65,66.83|N|Use Tiger Palm on a Dummy.|
 
 T Of Light and Shadows|QID|24966|R|Undead|C|Priest|M|31.07,66.07|N|To Dark Cleric Duesten.|
 T Magic Training|QID|24965|R|Undead|C|Mage|M|30.91,66.13|N|To Isabella.|
@@ -137,6 +150,7 @@ T The Thrill of the Hunt|QID|24964|R|Undead|C|Hunter|M|31.47,65.59|N|To Xavier t
 T Charging into Battle|QID|24969|R|Undead|C|Warrior|M|32.63,65.61|N|To Dannal Stern.|
 T Dark Deeds|QID|24968|R|Undead|C|Warlock|M|30.92,66.30|N|To Maximillion.|
 T Stab!|QID|24967|R|Undead|C|Rogue|M|30.87,66.19|N|To David Trias.|
+T Tiger Palm|QID|31147|R|Undead|C|Monk|M|32.43,65.74|N|From Ting, Strong of Stomach.|
 
 C The Truth of the Grave|QID|24961|NC|M|32.69,65.79|N|She's in the inn, though the location inside is random. Right-click the cowering woman and choose the gossip option.|
 T The Truth of the Grave|QID|24961|M|30.89,66.08|N|To Novice Elreth.|

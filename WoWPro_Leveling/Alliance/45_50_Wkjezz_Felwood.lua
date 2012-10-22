@@ -5,39 +5,39 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
 -- Date: 2011-05-30 17:58
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: ! Line 39 for step R has 1 M coords: [R Emerald Sanctuary|QID|28100|M|51.41.79.79|N|Run to Emerald Sanctuary.|]
 
 -- URL: http://wow-pro.com/node/3257/revisions/24432/view
 -- Date: 2011-05-28 06:51
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed static 99999 QIDs, added notes, fixed a couple notes, fixed a couple cords. Added in steps for Deadwood Headdress Feathers (1 step) and Deadwood Ritual Totem (3 steps).
 
 -- URL: http://wow-pro.com/node/3257/revisions/24391/view
 -- Date: 2011-05-17 01:02
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3257/revisions/24186/view
 -- Date: 2011-03-20 20:18
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrections around [Crying Violet] and quests shifted to "Andalar Shadevale".  Speling corrections and addition comments.
 
 -- URL: http://wow-pro.com/node/3257/revisions/24082/view
 -- Date: 2011-01-30 19:24
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrected Register guide to match GIT.
 
 -- URL: http://wow-pro.com/node/3257/revisions/23618/view
 -- Date: 2010-12-06 01:03
--- Who: wkjezz
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3257/revisions/23396/view
 -- Date: 2010-12-03 11:45
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3257/revisions/23395/view
 -- Date: 2010-12-03 11:44
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', '45', '50', 'JiyWin5055', 'Alliance', function()
 return [[

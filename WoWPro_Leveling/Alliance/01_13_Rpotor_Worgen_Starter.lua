@@ -5,102 +5,102 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
 -- Date: 2012-06-30 18:31
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Blizzard change zone names, AGAIN.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24988/view
 -- Date: 2012-05-27 18:43
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Another zone/map name shift.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24763/view
 -- Date: 2011-10-15 02:13
--- Who: Crackerhead22
+-- Who: 
 -- Log: A couple of minor tweaks. -Crackerhead22
 
 -- URL: http://wow-pro.com/node/3211/revisions/24714/view
 -- Date: 2011-07-29 12:16
--- Who: Fluclo
+-- Who: 
 -- Log: typo
 
 -- URL: http://wow-pro.com/node/3211/revisions/24713/view
 -- Date: 2011-07-29 12:13
--- Who: Fluclo
+-- Who: 
 -- Log: Updated Flank the Forsaken to get it to auto-complete
 
 -- URL: http://wow-pro.com/node/3211/revisions/24712/view
 -- Date: 2011-07-29 11:57
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3211/revisions/24711/view
 -- Date: 2011-07-29 11:34
--- Who: Fluclo
+-- Who: 
 -- Log: typo
 
 -- URL: http://wow-pro.com/node/3211/revisions/24710/view
 -- Date: 2011-07-29 11:29
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3211/revisions/24709/view
 -- Date: 2011-07-29 11:10
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3211/revisions/24708/view
 -- Date: 2011-07-29 11:01
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3211/revisions/24707/view
 -- Date: 2011-07-29 10:44
--- Who: Fluclo
+-- Who: 
 -- Log: |NC| tag added to the Save Children quest
 
 -- URL: http://wow-pro.com/node/3211/revisions/24706/view
 -- Date: 2011-07-29 10:11
--- Who: Fluclo
+-- Who: 
 -- Log: Sacrifices is now round up 30 worgen, not 50.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24654/view
 -- Date: 2011-07-01 13:47
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: $2. shifted from Gilneas_terrain1 to Gilneas_terrain2
 
 -- URL: http://wow-pro.com/node/3211/revisions/24586/view
 -- Date: 2011-06-25 00:39
--- Who: Crackerhead22
+-- Who: 
 -- Log:  T qid 24472 -Added in accept step.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24433/view
 -- Date: 2011-05-28 10:59
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Coord fix for [Lor'danel]
 
 -- URL: http://wow-pro.com/node/3211/revisions/24409/view
 -- Date: 2011-05-20 21:03
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3211/revisions/24398/view
 -- Date: 2011-05-17 01:19
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Fix Syntax errors.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24388/view
 -- Date: 2011-05-15 19:40
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Changes to accommodate new mapping system!
 
 -- URL: http://wow-pro.com/node/3211/revisions/24290/view
 -- Date: 2011-04-29 14:11
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 127 for step A has unknown tag [From Huntsman Blake.], Line 146 for step A has unknown tag [From Captain Broderick.], Line 159 for step T has unknown tag [Go southwest/west, ...], Line 187 for step T has unknown tag [To Tobias.], Line 204 for step T has unknown tag [To Crate of Mandrake Essence.], Line 239 for step C has 3 M coords, Line 408 for step f has too short a title.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24090/view
 -- Date: 2011-01-30 19:54
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrected RegisterGuide line.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24076/view
 -- Date: 2011-01-30 17:13
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added Quest giver/turnin information for many steps.
 --	Altered sequences of steps to allow you to use quest reward armor sooner.
 --	Corrected several coordinates. 
@@ -109,43 +109,43 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/24072/view
 -- Date: 2011-01-29 17:18
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added missing  QIDs to Level 7 and 9 steps.
 
 -- URL: http://wow-pro.com/node/3211/revisions/23733/view
 -- Date: 2010-12-11 05:09
--- Who: Crackerhead22
+-- Who: 
 -- Log: Made the flight to Lor'danel auto-complete.
 
 -- URL: http://wow-pro.com/node/3211/revisions/23732/view
 -- Date: 2010-12-11 04:36
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added in the quest 'Rut'theran Village'.
 
 -- URL: http://wow-pro.com/node/3211/revisions/23730/view
 -- Date: 2010-12-10 22:16
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed a QO issue with "Save the Children!" quest that was causing it to no auto-complete the steps.
 
 -- URL: http://wow-pro.com/node/3211/revisions/23699/view
 -- Date: 2010-12-08 02:21
--- Who: Shakazahn
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3211/revisions/23698/view
 -- Date: 2010-12-08 02:18
--- Who: Shakazahn
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3211/revisions/23564/view
 -- Date: 2010-12-04 16:28
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3211/revisions/23291/view
 -- Date: 2010-12-03 07:18
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3211/revisions/23290/view
 -- Date: 2010-12-03 07:17
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
 return [[

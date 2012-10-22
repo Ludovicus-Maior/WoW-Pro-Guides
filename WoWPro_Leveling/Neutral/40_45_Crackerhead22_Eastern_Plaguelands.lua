@@ -5,82 +5,82 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
 -- Date: 2011-12-23 08:08
--- Who: Fluclo
+-- Who: 
 -- Log: Added Level info to the start of the guide, added level appropriate get to area steps, changed Chromie's tasks to Rank 2 as they are not necessary for quest progression of zone.   Added Quest step auto-completion to Chromie's quests.
 
 -- URL: http://wow-pro.com/node/3251/revisions/24812/view
 -- Date: 2011-11-18 17:27
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3251/revisions/24723/view
 -- Date: 2011-08-11 12:07
--- Who: Fluclo
+-- Who: 
 -- Log: Updated Just a Drop in the Bucket quest notes
 
 -- URL: http://wow-pro.com/node/3251/revisions/24722/view
 -- Date: 2011-08-11 12:01
--- Who: Fluclo
+-- Who: 
 -- Log: Updated Catalysm quest notes
 
 -- URL: http://wow-pro.com/node/3251/revisions/24721/view
 -- Date: 2011-08-11 11:50
--- Who: Fluclo
+-- Who: 
 -- Log: Corrected method for collection in Frederick's Fish Fancy
 
 -- URL: http://wow-pro.com/node/3251/revisions/24705/view
 -- Date: 2011-07-28 18:14
--- Who: Fluclo
+-- Who: 
 -- Log: Updated note to Greasing the Wheel
 
 -- URL: http://wow-pro.com/node/3251/revisions/24568/view
 -- Date: 2011-06-20 23:34
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3251/revisions/24538/view
 -- Date: 2011-06-10 15:05
--- Who: Crackerhead22
+-- Who: 
 -- Log: Some minor fixes.
 
 -- URL: http://wow-pro.com/node/3251/revisions/24429/view
 -- Date: 2011-05-28 04:04
--- Who: Crackerhead22
+-- Who: 
 -- Log: Put faction tags back in.
 
 -- URL: http://wow-pro.com/node/3251/revisions/24401/view
 -- Date: 2011-05-17 01:57
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3251/revisions/24393/view
 -- Date: 2011-05-17 01:09
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3251/revisions/24301/view
 -- Date: 2011-04-29 14:41
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 33 for step T has unknown tag [To Fiona.], Line 169 for step A has unknown tag [From the Crusader's Flare.], Line 170 for step A has unknown tag [From the Cursader's Flare.], Line 208 for step C has 1 M coords, Line 214 for step R has unknown tag [Run to Eastwall Tower.], Line 272 for step C has unknown tag [Kill Cursed Mages and Scourge Soldiers to get their skulls.], Line 281, for step T non-decimal QID.
 
 -- URL: http://wow-pro.com/node/3251/revisions/24253/view
 -- Date: 2011-04-23 18:06
--- Who: ikiboun
+-- Who: 
 -- Log: move quest "A Argent Call: Northdale|QID|27466|M|61.56,43.23|N|From Tarenar Sunstrike" after running to East Tower. Also changed the NPC coord.
 
 -- URL: http://wow-pro.com/node/3251/revisions/23810/view
 -- Date: 2010-12-22 04:10
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed several missing |N| tags, fixed a few waypoints, fixed a few NPC and step notes, added a few Sticky steps, and fixed a couple of QIDs.
 
 -- URL: http://wow-pro.com/node/3251/revisions/23590/view
 -- Date: 2010-12-05 04:33
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed static QID.
 
 -- URL: http://wow-pro.com/node/3251/revisions/23383/view
 -- Date: 2010-12-03 11:34
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3251/revisions/23382/view
 -- Date: 2010-12-03 11:33
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548|LiaBad4548', 'Neutral', function()
 return [[

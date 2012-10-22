@@ -5,15 +5,15 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
 -- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3473/revisions/24979/view
 -- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3473/revisions/24978/view
 -- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
+-- Who: 
 
 WoWPro.Achievements:RegisterGuide("LudoExpBlI","Bloodmyst Isle","Bloodmyst Isle","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[

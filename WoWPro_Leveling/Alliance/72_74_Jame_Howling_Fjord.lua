@@ -5,36 +5,36 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
 -- Date: 2012-05-27 18:46
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added a few U and T tags, corrected quest name.
 
 -- URL: http://wow-pro.com/node/3287/revisions/24857/view
 -- Date: 2011-12-10 15:57
--- Who: Crackerhead22
+-- Who: 
 -- Log: 4.3 update
 
 -- URL: http://wow-pro.com/node/3287/revisions/24260/view
 -- Date: 2011-04-24 00:35
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed line-! Line 285 for step T has unknown tag [Zeh'gehn.]: [T A Carver and a Croaker |QID|11476|M|35.6,80.6|Zeh'gehn.|]
 
 -- URL: http://wow-pro.com/node/3287/revisions/24062/view
 -- Date: 2011-01-27 12:43
--- Who: Fluclo
+-- Who: 
 -- Log: Added coords for eggs
 
 -- URL: http://wow-pro.com/node/3287/revisions/23989/view
 -- Date: 2011-01-15 18:38
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added notes, fixed notes. Added cords, fixed cords. Added sticky steps.
 
 -- URL: http://wow-pro.com/node/3287/revisions/23465/view
 -- Date: 2010-12-03 22:08
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3287/revisions/23464/view
 -- Date: 2010-12-03 22:07
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("JamHow7274", "Howling Fjord", "Jame", "72", "74", "JamDra7475", "Alliance", function()
 return [[

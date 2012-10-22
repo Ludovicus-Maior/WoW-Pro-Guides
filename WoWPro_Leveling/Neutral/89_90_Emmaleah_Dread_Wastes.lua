@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
 -- Date: 2012-09-15 21:47
--- Who: Laotseu
+-- Who: 
 -- Log: Dread Wastes using an Alliance toon. I've added the zone Daily as |RANK|3| quests. I think we need a PRELVL tag to be able to filter steps that can only be done if the toon are at a certain level (the reverse of the LVL tag).
 
 -- URL: http://wow-pro.com/node/3493/revisions/25072/view
 -- Date: 2012-09-15 20:03
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrected URLs
 
 -- URL: http://wow-pro.com/node/3493/revisions/25071/view
 -- Date: 2012-09-15 20:02
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Initial version from Emmaleah
 
 WoWPro.Leveling:RegisterGuide('EmmDre8990', 'Dread Wastes', 'Emmaleah', '89', '90', 'nil', 'Neutral', function()
