@@ -6,6 +6,7 @@ local L = WoWPro_Locale
 local cache = {}	
 local B = LibStub("LibBabble-Zone-3.0")
 local BL = B:GetUnstrictLookupTable()
+local AL = DongleStub("Astrolabe-1.0")
 
 -- placeholder flags in case you want to implement options to disable
 -- later on TomTom tooltips and right-clicking drop-down menus
@@ -296,6 +297,33 @@ function WoWPro:ValidZone(zone)
     return false
 end
     
+    
+function WoWPro:TryRemap(z,s,f,x,y)
+	local nx , ny = AL:TranslateWorldMapPosition(z,f,x/100,y/100,s,f)
+	WoWPro:dbp("Remapping1 to %d,%g,%g",s,nx,ny)
+	if nx >= 0 and nx <= 1 and ny >=0 and ny <= 1 then
+		-- Successfull translation, remap
+		WoWPro:Print("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
+		return s,nx*100,ny*100
+	end
+	return nil,nil,nil
+end
+
+function WoWPro:MaybeRemap(z,f,x,y)
+    if (not WoWPro.SubZone[z])  or (not AL) or (not AL.TranslateWorldMapPosition) then return end
+    WoWPro:dbp("Remap? %d/%g,%g %s",z,x,y,tostring(WoWPro.SubZone[z]))
+    if type(WoWPro.SubZone[z]) == "number" then
+        return WoWPro:TryRemap(z,WoWPro.SubZone[z],f,x,y)
+    end
+    if type(WoWPro.SubZone[z]) == "table" then
+        for idx, val in ipairs(WoWPro.SubZone[z]) do
+            local z,x,y = WoWPro:TryRemap(z,val,f,x,y)
+            if z then return z,x,y end
+        end
+    end
+	return nil,nil,nil
+end
+    
 
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
@@ -394,7 +422,7 @@ function WoWPro:MapPoint(row)
 
 		
 		-- Parsing and mapping coordinates --
---		WoWPro:Print("WoWPro:MapPoint(%s@%s/%s)",coords,tostring(zone),tostring(zm))
+		-- WoWPro:Print("WoWPro:MapPoint1(%s@%s/%s)",coords,tostring(zone),tostring(zm))
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
 			local waypoint = {}
@@ -411,7 +439,13 @@ function WoWPro:MapPoint(row)
 				else
 				    title = desc
 				end
-				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
+				local mm,mx,my = WoWPro:MaybeRemap(zm,zf,x,y)
+				if mm then
+					-- Remapped coords
+					uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
+				else				
+					uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
+				end
 				if not uid then
 				    WoWPro:Print("Failed to set waypoint!  Please report a bug with the guide and step number.")
 				end
@@ -456,7 +490,8 @@ function WoWPro:MapPoint(row)
 			
 		end
 		TomTom.db.profile.persistence.cleardistance = OldCleardistance
-	elseif TomTom then 
+	elseif TomTom then
+		-- WoWPro:Print("WoWPro:MapPoint2(%s@%s/%s)",coords,tostring(zone),tostring(zm))
 		-- Legacy Parsing and mapping coordinates for Carbonite --
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
