@@ -5,73 +5,73 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
 -- Date: 2012-10-09 00:07
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added undead monk quests.
 
 -- URL: http://wow-pro.com/node/3205/revisions/25128/view
 -- Date: 2012-10-08 19:44
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3205/revisions/24730/view
 -- Date: 2011-08-13 21:23
--- Who: Jiyambi
+-- Who: 
 -- Log: Adding note to Marshal Redpath quest, warning of it's difficulty.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24598/view
 -- Date: 2011-06-25 01:34
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Missing A step for step T qid 309 - Fixed, QID for turn-in should be 3098
 
 -- URL: http://wow-pro.com/node/3205/revisions/24511/view
 -- Date: 2011-06-07 10:52
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Tweak Coords on C [Assault on the Rotbrain Encampment]
 
 -- URL: http://wow-pro.com/node/3205/revisions/24473/view
 -- Date: 2011-06-01 00:36
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed Z|Crusader's Outpost| as it was unneeded.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24437/view
 -- Date: 2011-05-28 11:08
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Race tags needed updates.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24316/view
 -- Date: 2011-04-29 15:20
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3205/revisions/24070/view
 -- Date: 2011-01-29 17:11
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added missing QID to Level 4 step.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24036/view
 -- Date: 2011-01-22 14:39
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added a bunch of |R|Undead,Troll| and |R|Undead| tags where appropriate.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23828/view
 -- Date: 2010-12-25 08:31
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing |M| tags, fixed a couple |M| cords.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23671/view
 -- Date: 2010-12-07 04:46
--- Who: Bitsem
+-- Who: 
 -- Log: Added Class quests.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23660/view
 -- Date: 2010-12-06 23:25
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3205/revisions/23276/view
 -- Date: 2010-12-02 23:16
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3205/revisions/23275/view
 -- Date: 2010-12-02 23:15
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades (Undead)', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function()
 return [[

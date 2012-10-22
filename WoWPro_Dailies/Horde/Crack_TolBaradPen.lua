@@ -5,16 +5,16 @@
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
 -- Date: 2011-12-29 02:26
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3416/revisions/24878/view
 -- Date: 2011-12-29 02:25
--- Who: Crackerhead22
+-- Who: 
 -- Log: Split Tol Barad Peninsula and Tol Barad guides.
 
 -- URL: http://wow-pro.com/node/3416/revisions/24648/view
 -- Date: 2011-06-30 19:05
--- Who: Ludovicus Maior
+-- Who: 
 
 WoWPro.Dailies:RegisterGuide("CraToBarPH", "Tol Barad Peninsula", "Tol Barad Peninsula Guide", "Cata", "Crackerhead22", "Horde", function()
 return [[

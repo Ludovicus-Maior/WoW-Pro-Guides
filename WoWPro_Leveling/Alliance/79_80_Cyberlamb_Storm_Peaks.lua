@@ -5,31 +5,31 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
 -- Date: 2011-06-30 12:43
--- Who: Crackerhead22
+-- Who: 
 -- Log: Condensed code, minor tweaks.
 
 -- URL: http://wow-pro.com/node/3299/revisions/24311/view
 -- Date: 2011-04-29 15:08
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 558, for step C non-decimal U
 
 -- URL: http://wow-pro.com/node/3299/revisions/24224/view
 -- Date: 2011-04-05 23:39
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3299/revisions/24207/view
 -- Date: 2011-04-05 00:02
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Fixed M, N, and U tag errors in guide.
 --	Improved some text hints. Does not have my precision M fixes.
 
 -- URL: http://wow-pro.com/node/3299/revisions/23490/view
 -- Date: 2010-12-03 22:32
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3299/revisions/23489/view
 -- Date: 2010-12-03 22:32
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "EstIce7985", "Alliance", function()
 return [[

@@ -5,41 +5,41 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
 -- Date: 2012-02-03 08:21
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added |LVL|31| tag to the quest 'Thinning the Horde' as it has a level cap of 30.
 
 -- URL: http://wow-pro.com/node/3233/revisions/24802/view
 -- Date: 2011-11-09 12:43
--- Who: Fluclo
+-- Who: 
 -- Log: Added level indicator, improved handling when Stonetalon Mountains is done without doing Ashenvale before it, added kill step for Krom'gar Incinerators, updated quest handling around Windshear Mine, changed handling of Just Ask Alice quests, added extra info and class steps for Beware of Cragjaw, added a kill step into Rumble in the Lumber, moved Hearthstone earlier in list, added daily quest that's available in the zone.  Added |NC| tags where appropriate.
 
 -- URL: http://wow-pro.com/node/3233/revisions/24412/view
 -- Date: 2011-05-23 05:41
--- Who: Crackerhead22
+-- Who: 
 -- Log: Rearranged a few steps for better flow, removed the static |QID|99999| that was in certain steps, added notes and some cords. Changed the next guide ID to the GID of Desolace, since in the guide it states that it go there.
 
 -- URL: http://wow-pro.com/node/3233/revisions/24087/view
 -- Date: 2011-01-30 19:39
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3233/revisions/23901/view
 -- Date: 2011-01-02 09:24
--- Who: Fluclo
+-- Who: 
 -- Log: Corrected |QO| tags on a few quests
 
 -- URL: http://wow-pro.com/node/3233/revisions/23885/view
 -- Date: 2011-01-01 21:55
--- Who: Fluclo
+-- Who: 
 -- Log: Typo on The Only Way Down is in a Body Bag
 
 -- URL: http://wow-pro.com/node/3233/revisions/23345/view
 -- Date: 2010-12-03 10:43
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3233/revisions/23344/view
 -- Date: 2010-12-03 10:43
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('WkjSton2530', 'Stonetalon Mountains', 'WKjezz', '25', '30', 'WkjDes3035', 'Alliance', function()
 return [[

@@ -5,23 +5,23 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
 -- Date: 2012-10-08 19:49
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: As per  Emmaleah, Use Captain's Jack's head to get the quest.
 
 -- URL: http://wow-pro.com/node/3487/revisions/25100/view
 -- Date: 2012-10-02 01:55
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Emmaleah: edited with Play test on live 9/30/12 -- many many changes
 --	Ludovicus: No editing on my part!  Have not yet done this on horde.
 
 -- URL: http://wow-pro.com/node/3487/revisions/25052/view
 -- Date: 2012-08-28 19:06
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: correct urls
 
 -- URL: http://wow-pro.com/node/3487/revisions/25051/view
 -- Date: 2012-08-28 19:05
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 WoWPro.Leveling:RegisterGuide('EmmJad8586', 'The Jade Forest', 'Emmaleah', '85', '86', 'EmmVal8688', 'Horde', function()

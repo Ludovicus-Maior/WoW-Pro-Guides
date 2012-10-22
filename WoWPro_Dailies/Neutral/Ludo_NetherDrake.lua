@@ -5,11 +5,11 @@
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
 -- Date: 2012-01-18 23:30
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3455/revisions/24893/view
 -- Date: 2012-01-18 23:29
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Initial Version
 
 WoWPro.Dailies:RegisterGuide("LudoDrake", "Shadowmoon Valley", "Netherwing", "BC", "Ludovicus", "Neutral", function()

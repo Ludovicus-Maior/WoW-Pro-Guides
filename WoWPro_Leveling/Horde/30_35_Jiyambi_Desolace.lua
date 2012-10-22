@@ -5,27 +5,27 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
 -- Date: 2012-02-08 14:53
--- Who: Crackerhead22
+-- Who: 
 -- Log: ?
 
 -- URL: http://wow-pro.com/node/3314/revisions/24330/view
 -- Date: 2011-04-29 16:23
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 36 for step R has 1 M coords: , Line 37 for step T has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3314/revisions/23544/view
 -- Date: 2010-12-04 02:37
--- Who: Liavan
+-- Who: 
 -- Log: Fix some U and L tags to be the appropriate horde version updated cords for Blubbergut.
 
 -- URL: http://wow-pro.com/node/3314/revisions/23543/view
 -- Date: 2010-12-04 02:33
--- Who: Liavan
+-- Who: 
 -- Log: .
 
 -- URL: http://wow-pro.com/node/3314/revisions/23540/view
 -- Date: 2010-12-04 02:05
--- Who: Liavan
+-- Who: 
 -- Log: Updated U and L tags to horde item Ids on:
 --	K Burning Blade Member|QID|14232|L|49010|N|Kill a burning blade member and loot their ear.|
 --	
@@ -38,11 +38,11 @@
 
 -- URL: http://wow-pro.com/node/3314/revisions/23525/view
 -- Date: 2010-12-04 00:11
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3314/revisions/23524/view
 -- Date: 2010-12-04 00:10
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('JiyDes3035', 'Desolace', 'Jiyambi', '30', '35', 'JiyFer3540', 'Horde', function()
 return [[

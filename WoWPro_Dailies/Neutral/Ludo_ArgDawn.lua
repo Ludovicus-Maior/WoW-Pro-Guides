@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
 -- Date: 2012-09-25 00:23
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Wrong separators in [Captain Grondel's Task]
 
 -- URL: http://wow-pro.com/node/3479/revisions/24998/view
 -- Date: 2012-05-27 22:30
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: INitial Versions
 
 WoWPro.Dailies:RegisterGuide("LudoArgDawn", "Eastern Plaguelands", "Argent Dawn", "BC", "Ludovicus", "Neutral", function()

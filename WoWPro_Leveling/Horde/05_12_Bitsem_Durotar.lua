@@ -5,80 +5,80 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
 -- Date: 2012-10-08 19:43
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Get rid of - in zone names.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24660/view
 -- Date: 2011-07-05 05:42
--- Who: Jiyambi
+-- Who: 
 -- Log: Added note to Young and Vicious which explains the bug with Swiftclaw and how to fix it.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24658/view
 -- Date: 2011-07-05 03:10
--- Who: Jiyambi
+-- Who: 
 -- Log: Fixed QIDs on some L steps (had QIDs for quests that were already complete, so would never show up), also added a H step after the cave section, to speed travel.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24597/view
 -- Date: 2011-06-25 01:32
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Missing A step for step T qid 24721 - 24712 is wrong QID, fixed to 24751
 
 -- URL: http://wow-pro.com/node/3199/revisions/24536/view
 -- Date: 2011-06-08 23:20
--- Who: Fluclo
+-- Who: 
 -- Log: Shouldn't be a need to grind in Cataclysm, so tweaked to remove any grinding. 
 
 -- URL: http://wow-pro.com/node/3199/revisions/24512/view
 -- Date: 2011-06-07 10:55
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Add [Conscript of the Horde] and fix Z tag for [Neeru Fireblade]
 
 -- URL: http://wow-pro.com/node/3199/revisions/24453/view
 -- Date: 2011-05-30 11:55
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Coord tweak around [The Burning Blade]
 
 -- URL: http://wow-pro.com/node/3199/revisions/24452/view
 -- Date: 2011-05-30 11:51
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: [Thazz'ril's Pick] decoupling.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24451/view
 -- Date: 2011-05-30 11:48
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Coord Tweak for Shamans
 
 -- URL: http://wow-pro.com/node/3199/revisions/24438/view
 -- Date: 2011-05-28 11:12
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Coord/Zone tweaks
 
 -- URL: http://wow-pro.com/node/3199/revisions/24435/view
 -- Date: 2011-05-28 11:04
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3199/revisions/24319/view
 -- Date: 2011-04-29 15:27
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
 
 -- URL: http://wow-pro.com/node/3199/revisions/24318/view
 -- Date: 2011-04-29 15:25
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3199/revisions/24315/view
 -- Date: 2011-04-29 15:19
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
 
 -- URL: http://wow-pro.com/node/3199/revisions/24148/view
 -- Date: 2011-03-08 12:18
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24043/view
 -- Date: 2011-01-24 00:46
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Optimize acquisition of a few quests: [The War of Northwatch Aggression], [A Exploiting the Situation].
 --	Do [The Wolf and The Kodo] first, in order to maximize the water breathing buff.
 --	Coordinate tweaks for [Thonk], [Raggaran's Rage], [Neeru Fireblade].
@@ -86,52 +86,52 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/24034/view
 -- Date: 2011-01-22 03:51
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Cleaned up some Race specific quests. Broke up a |N| tag on a quest into separate N steps.
 --	Relocated [A Purge the Valley] for better flow.  Touched up a few coordinates.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24030/view
 -- Date: 2011-01-21 21:51
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added |R|Orc| to the race specific quests not available to my goblin.
 --	Added a missing leading quest [Hana'zua].
 
 -- URL: http://wow-pro.com/node/3199/revisions/23669/view
 -- Date: 2010-12-07 04:06
--- Who: Estraile
+-- Who: 
 -- Log: Addon Version: v2.0.6
 --	Game Version: 4.0.3
 --	Summary: Fixed placement of level step in Valley of Trials guide
 
 -- URL: http://wow-pro.com/node/3199/revisions/23616/view
 -- Date: 2010-12-05 23:06
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3199/revisions/23594/view
 -- Date: 2010-12-05 05:01
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed note error reported by Estraile.
 
 -- URL: http://wow-pro.com/node/3199/revisions/23574/view
 -- Date: 2010-12-04 19:06
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3199/revisions/23573/view
 -- Date: 2010-12-04 19:05
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3199/revisions/23337/view
 -- Date: 2010-12-03 10:30
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3199/revisions/23259/view
 -- Date: 2010-12-02 21:30
--- Who: Bitsem
+-- Who: 
 -- Log: Added most recent Durotar 5-12 guide.
 
 -- URL: http://wow-pro.com/node/3199/revisions/23258/view
 -- Date: 2010-12-02 21:14
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('BitDur0512', 'Durotar', 'Bitsem', '05', '12', 'BitAzs1220', 'Horde', function()
 return [[

@@ -5,32 +5,32 @@
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
 -- Date: 2012-05-27 18:29
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3405/revisions/24984/view
 -- Date: 2012-05-27 18:28
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3405/revisions/24972/view
 -- Date: 2012-03-14 21:17
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3405/revisions/24971/view
 -- Date: 2012-03-14 21:16
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3405/revisions/24970/view
 -- Date: 2012-03-03 16:22
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3405/revisions/24969/view
 -- Date: 2012-03-03 16:21
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Split up guides.
 
 -- URL: http://wow-pro.com/node/3405/revisions/24628/view
 -- Date: 2011-06-29 21:12
--- Who: Ludovicus Maior
+-- Who: 
 
 WoWPro.Dailies:RegisterGuide("LudoIceDaily", "Icecrown", "Money", "Lich", "Ludovicus", "Alliance", function()
 return [[

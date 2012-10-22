@@ -5,25 +5,25 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
 -- Date: 2011-12-14 00:51
--- Who: Crackerhead22
+-- Who: 
 -- Log: ?
 
 -- URL: http://wow-pro.com/node/3274/revisions/24835/view
 -- Date: 2011-12-04 16:07
--- Who: Crackerhead22
+-- Who: 
 -- Log: 4.3 updates
 
 -- URL: http://wow-pro.com/node/3274/revisions/24241/view
 -- Date: 2011-04-20 18:59
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3274/revisions/23430/view
 -- Date: 2010-12-03 12:13
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3274/revisions/23429/view
 -- Date: 2010-12-03 12:13
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "63", "65", "JamTer6567", "Horde", function()
 return [[

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
 -- Date: 2012-02-05 13:35
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrections after runthrough.
 
 -- URL: http://wow-pro.com/node/3467/revisions/24935/view
 -- Date: 2012-02-04 23:23
--- Who: Ludovicus Maior
+-- Who: 
 
 WoWPro.WorldEvents:RegisterGuide("LudoLoveH","Love is in the Air (Horde)","Love is in the Air (Horde)","WE", "Ludovicus", "Horde", function()
 return [[

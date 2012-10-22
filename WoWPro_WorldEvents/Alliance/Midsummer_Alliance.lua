@@ -5,63 +5,63 @@
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
 -- Date: 2012-07-01 20:58
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Optimize ordering for Northrend.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25024/view
 -- Date: 2012-07-01 20:26
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Corrected coords for flight to Shattrath in Netherstorm
 
 -- URL: http://wow-pro.com/node/3406/revisions/25023/view
 -- Date: 2012-07-01 20:08
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Change R step from Vashjir to Darkbreak Cove
 
 -- URL: http://wow-pro.com/node/3406/revisions/25022/view
 -- Date: 2012-07-01 17:00
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Remove silly comment about setting hearth to stormwind for trip to Deepholm.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25021/view
 -- Date: 2012-07-01 16:58
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Trim incorrect comment about Cata zones not counting.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25009/view
 -- Date: 2012-06-26 18:36
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Three way merge of my, Twists and Laotseu's updates.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25008/view
 -- Date: 2012-06-26 11:59
--- Who: Laotseu
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3406/revisions/25007/view
 -- Date: 2012-06-26 11:55
--- Who: Laotseu
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3406/revisions/24781/view
 -- Date: 2011-10-29 18:10
--- Who: Crackerhead22
+-- Who: 
 -- Log: Moved zone names from quest name to notes for quest steps for auto-accept/complete to work.
 
 -- URL: http://wow-pro.com/node/3406/revisions/24680/view
 -- Date: 2011-07-12 23:21
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: The )end must be on a line by itself.
 
 -- URL: http://wow-pro.com/node/3406/revisions/24653/view
 -- Date: 2011-06-30 22:39
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3406/revisions/24631/view
 -- Date: 2011-06-30 05:42
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3406/revisions/24630/view
 -- Date: 2011-06-30 05:34
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added source code to page.
 
 WoWPro.WorldEvents:RegisterGuide("CraMidSumA","Midsummer Fire Festival (Alliance)","Midsummer Fire Festival (Alliance)","WE", "Crackerhead22", "Alliance", function()

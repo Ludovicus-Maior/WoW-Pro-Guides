@@ -5,11 +5,11 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
 -- Date: 2012-02-13 01:02
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3214/revisions/24946/view
 -- Date: 2012-02-12 23:17
--- Who: Laotseu
+-- Who: 
 -- Log: Play tested the Northern Barrens guide with a level 16-22 goblin priest. The changes I've made:
 --	- A few quests are now |S|
 --	- Change the order of some killing quests really put the completion after the gathering quests in the same area
@@ -19,37 +19,37 @@
 
 -- URL: http://wow-pro.com/node/3214/revisions/24925/view
 -- Date: 2012-01-27 07:28
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3214/revisions/24599/view
 -- Date: 2011-06-25 01:37
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Duplicate A step for qid 29094 - Fixed, error was the 2nd accept should have been a turn-in
 
 -- URL: http://wow-pro.com/node/3214/revisions/24474/view
 -- Date: 2011-06-01 00:40
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed lines "A It's Gotta be the Horn|QID|865|RANK|1|M|56.41,56.05|Z|", "
 --	A Take it up with Tony|QID|14052|RANK|1|M|56.53,56.13|Z|" as they were redundant. 
 
 -- URL: http://wow-pro.com/node/3214/revisions/24454/view
 -- Date: 2011-05-30 16:03
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Whoa!  Blizzard changed alot of the quest IDs and added new ordering requirements.
 --	This edit tried to get all the new quests, shuffle things in the right order and get the right coords.  Mistakes will no doubt have been made.
 
 -- URL: http://wow-pro.com/node/3214/revisions/24322/view
 -- Date: 2011-04-29 15:35
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 123 for step C has unknown tag [Collect Centaur ...], Line 128 for step C has unknown tag [Use the Fungal ...], Line 158 for step C has unknown tag [.], Line 241 for step C has unknown tag [n].
 
 -- URL: http://wow-pro.com/node/3214/revisions/23297/view
 -- Date: 2010-12-03 07:24
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3214/revisions/23296/view
 -- Date: 2010-12-03 07:24
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('BitNor1220', 'Northern Barrens', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
 return [[

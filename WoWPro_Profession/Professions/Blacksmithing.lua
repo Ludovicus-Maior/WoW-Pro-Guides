@@ -5,15 +5,15 @@
 
 -- URL: http://wow-pro.com/wiki/profession_blacksmithing
 -- Date: 2011-07-13 22:43
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3409/revisions/24642/view
 -- Date: 2011-06-30 06:05
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3409/revisions/24634/view
 -- Date: 2011-06-30 05:50
--- Who: Crackerhead22
+-- Who: 
 
 WoWPro.Profession:RegisterGuide('TwiBlacksmithing', 'Blacksmithing', 'Blacksmithing', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[

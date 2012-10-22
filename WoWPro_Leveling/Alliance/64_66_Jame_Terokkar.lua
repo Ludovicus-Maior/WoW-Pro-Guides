@@ -5,78 +5,78 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
 -- Date: 2012-01-18 22:02
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Add coords for [ Taken in the Night], [Auchindoun] and [Skywing].
 
 -- URL: http://wow-pro.com/node/3277/revisions/24836/view
 -- Date: 2011-12-05 13:28
--- Who: Crackerhead22
+-- Who: 
 -- Log: 4.3 updates
 
 -- URL: http://wow-pro.com/node/3277/revisions/24677/view
 -- Date: 2011-07-11 22:37
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Add numeric REP tags
 
 -- URL: http://wow-pro.com/node/3277/revisions/24470/view
 -- Date: 2011-05-31 21:41
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed typos found by andyarnolduk.
 
 -- URL: http://wow-pro.com/node/3277/revisions/24424/view
 -- Date: 2011-05-27 02:13
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed typo on step "N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor|" and fixed flight point grab for Allerian Stronghold.
 
 -- URL: http://wow-pro.com/node/3277/revisions/24306/view
 -- Date: 2011-04-29 14:51
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 55 for step N has 3 M coords, Line 248 for step C has unknown tag [52.00,58.00], Line 273 for step C has unknown tag [52.00,58.00], Line 289 for step T has unknown tag [To Magistriz Fyalenn.].
 
 -- URL: http://wow-pro.com/node/3277/revisions/24208/view
 -- Date: 2011-04-05 11:02
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed REP tag so it would work, fixed notes, fixed cords.  Added O tags, added couple of sticky steps.
 
 -- URL: http://wow-pro.com/node/3277/revisions/24122/view
 -- Date: 2011-02-21 00:07
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing zone tag.
 
 -- URL: http://wow-pro.com/node/3277/revisions/24119/view
 -- Date: 2011-02-20 17:24
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3277/revisions/24004/view
 -- Date: 2011-01-17 03:49
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3277/revisions/24003/view
 -- Date: 2011-01-17 03:25
--- Who: Crackerhead22
+-- Who: 
 -- Log: Updated source code for so it includes |Rep| tags.
 
 -- URL: http://wow-pro.com/node/3277/revisions/23953/view
 -- Date: 2011-01-08 10:35
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed setting hearth step not auto-completing, fixed a couple missing |Z| tag issue.
 
 -- URL: http://wow-pro.com/node/3277/revisions/23731/view
 -- Date: 2010-12-11 02:36
--- Who: Crackerhead22
+-- Who: 
 -- Log: Updated source code for Aldor and Scryers.  Added in |Z| where needed, added sticky steps, removed an outdated quest.
 
 -- URL: http://wow-pro.com/node/3277/revisions/23445/view
 -- Date: 2010-12-03 21:32
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3277/revisions/23442/view
 -- Date: 2010-12-03 21:22
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3277/revisions/23441/view
 -- Date: 2010-12-03 21:21
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("JamTer6466", "Terokkar Forest", "Jame", "64", "66", "JamNag6668", "Alliance", function()
 return [[

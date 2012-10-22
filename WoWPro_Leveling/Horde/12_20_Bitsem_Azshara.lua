@@ -5,50 +5,50 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
 -- Date: 2012-02-13 21:44
--- Who: Crackerhead22
+-- Who: 
 -- Log: ?
 
 -- URL: http://wow-pro.com/node/3217/revisions/24673/view
 -- Date: 2011-07-11 22:23
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Tweaks!
 
 -- URL: http://wow-pro.com/node/3217/revisions/24551/view
 -- Date: 2011-06-13 21:08
--- Who: Crackerhead22
+-- Who: 
 -- Log: Put in completion step for "A Gigantic Snack" quest suggested by Skully0815.
 
 -- URL: http://wow-pro.com/node/3217/revisions/24321/view
 -- Date: 2011-04-29 15:32
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 47 for step C has unknown tag [n], Line 47 for step C has unknown tag [Attack one of the ...], Line 379, for step A non-decimal PRE, Line 609 for step A has 1 M coords, Line 690 for step T has unknown tag [To Kadrak.].
 
 -- URL: http://wow-pro.com/node/3217/revisions/24068/view
 -- Date: 2011-01-29 17:01
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added QIDs to LVL 18,20 steps.
 
 -- URL: http://wow-pro.com/node/3217/revisions/24020/view
 -- Date: 2011-01-20 12:49
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Optimize quest acceptance for [Military Breakthrough].  Optimize quest ordering for [First Degree Mortar], [Hand-me-downs], and [Military Breakthrough] to minimize time in the minefield.
 
 -- URL: http://wow-pro.com/node/3217/revisions/24011/view
 -- Date: 2011-01-18 12:03
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added two leadin quests to Azshara.  One in the goblin line and another you can get from the quest boards.
 
 -- URL: http://wow-pro.com/node/3217/revisions/23324/view
 -- Date: 2010-12-03 09:00
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3217/revisions/23304/view
 -- Date: 2010-12-03 07:31
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3217/revisions/23303/view
 -- Date: 2010-12-03 07:30
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('BitAzs1220', 'Azshara', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
 return [[

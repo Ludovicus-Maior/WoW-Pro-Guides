@@ -5,27 +5,27 @@
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
 -- Date: 2011-11-20 23:37
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3444/revisions/24815/view
 -- Date: 2011-11-20 19:39
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3444/revisions/24809/view
 -- Date: 2011-11-17 00:38
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3444/revisions/24805/view
 -- Date: 2011-11-16 02:37
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3444/revisions/24789/view
 -- Date: 2011-10-30 19:10
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3444/revisions/24788/view
 -- Date: 2011-10-30 19:10
--- Who: Crackerhead22
+-- Who: 
 
 WoWPro.WorldEvents:RegisterGuide("LudoPilBountyH","Pilgrim's Bounty (Horde)","Pilgrim's Bounty (Horde)","WE", "Ludovicus", "Horde", function()
 return [[

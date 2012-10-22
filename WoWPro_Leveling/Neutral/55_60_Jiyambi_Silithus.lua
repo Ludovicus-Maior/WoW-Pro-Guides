@@ -5,54 +5,54 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
 -- Date: 2012-02-18 06:06
--- Who: Crackerhead22
+-- Who: 
 -- Log: Minor tweaks
 
 -- URL: http://wow-pro.com/node/3270/revisions/24816/view
 -- Date: 2011-11-20 21:44
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Rutgar Glyphshaper. not Frankal Stonebridge for QID 8314 
 
 -- URL: http://wow-pro.com/node/3270/revisions/24572/view
 -- Date: 2011-06-21 20:30
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3270/revisions/24462/view
 -- Date: 2011-05-30 18:05
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: ! Line 55 for step C has unknown tag [Kill Dredge Strikers.]: [C Securing the Supply Lines|QID|8280|M|47.27,38.32|S|Kill Dredge Strikers.|]
 --	! Line 128 for step T has unknown tag [s]: [T Brann Bronzebeard's Lost Letter|QID|8308|O|M|46.37,79.08|N|To Rutgar Glyphshaper.|s]
 
 -- URL: http://wow-pro.com/node/3270/revisions/24447/view
 -- Date: 2011-05-30 05:06
--- Who: Crackerhead22
+-- Who: 
 -- Log: Note tweaks, added missing notes, changed a few steps for better quest flow, added in Alliance flight point grab, added in steps to go to Blasted Lands.
 
 -- URL: http://wow-pro.com/node/3270/revisions/24422/view
 -- Date: 2011-05-25 21:01
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Submitted for Twists!
 
 -- URL: http://wow-pro.com/node/3270/revisions/24400/view
 -- Date: 2011-05-17 01:54
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3270/revisions/24397/view
 -- Date: 2011-05-17 01:11
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3270/revisions/24339/view
 -- Date: 2011-04-29 16:43
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line ** for step * has unknown tag [GRP], Line 27 for step C has unknown tag [From spiders and scorpions.]:
 
 -- URL: http://wow-pro.com/node/3270/revisions/23422/view
 -- Date: 2010-12-03 12:07
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3270/revisions/23421/view
 -- Date: 2010-12-03 12:07
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', '55', '60', 'CraBla5458|JiyBla5560', 'Neutral', function()
 return [[

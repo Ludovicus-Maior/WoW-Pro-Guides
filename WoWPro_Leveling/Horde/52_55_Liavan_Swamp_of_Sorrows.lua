@@ -5,26 +5,26 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
 -- Date: 2011-06-25 01:55
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Duplicate A step for qid 27598 - Removed line.
 --	! Duplicate A step for qid 27600 - Removed line.
 
 -- URL: http://wow-pro.com/node/3250/revisions/24337/view
 -- Date: 2011-04-29 16:35
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 69 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3250/revisions/23626/view
 -- Date: 2010-12-06 05:51
--- Who: Liavan
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3250/revisions/23381/view
 -- Date: 2010-12-03 11:32
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3250/revisions/23380/view
 -- Date: 2010-12-03 11:31
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('LiaSwa5255', 'Swamp of Sorrows', 'Liavan', '52', '55', 'JiyBla5560', 'Horde', function()
 return [[

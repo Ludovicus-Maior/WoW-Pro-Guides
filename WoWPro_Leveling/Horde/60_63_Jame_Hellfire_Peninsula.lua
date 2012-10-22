@@ -5,36 +5,36 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
 -- Date: 2012-08-13 01:54
--- Who: Laotseu
+-- Who: 
 -- Log: Minor fixes found while play testing the guide including few quests with typos that prevented the auto-turnins from working properly.
 
 -- URL: http://wow-pro.com/node/3272/revisions/25040/view
 -- Date: 2012-08-05 03:21
--- Who: Laotseu
+-- Who: 
 -- Log: Some fix to the guide after play testing it. Mostly quest name typos, missing coordinates and coordinate refining.
 
 -- URL: http://wow-pro.com/node/3272/revisions/24864/view
 -- Date: 2011-12-13 04:24
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing cords, missing notes, added missing quest, added QO steps...?
 
 -- URL: http://wow-pro.com/node/3272/revisions/24828/view
 -- Date: 2011-12-01 13:00
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added in "Checking up" quest.
 
 -- URL: http://wow-pro.com/node/3272/revisions/24824/view
 -- Date: 2011-11-30 19:39
--- Who: Crackerhead22
+-- Who: 
 -- Log: Updated for 4.3.
 
 -- URL: http://wow-pro.com/node/3272/revisions/23426/view
 -- Date: 2010-12-03 12:10
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3272/revisions/23425/view
 -- Date: 2010-12-03 12:10
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("JamHel6063", "Hellfire Peninsula", "Jame", "60", "63", "JamZan6365", "Horde", function()
 return [[

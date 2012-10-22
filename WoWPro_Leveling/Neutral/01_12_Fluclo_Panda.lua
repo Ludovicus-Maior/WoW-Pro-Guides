@@ -5,44 +5,44 @@
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
 -- Date: 2012-10-02 23:36
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Add new faction specific quest ending!
 
 -- URL: http://wow-pro.com/node/3483/revisions/25082/view
 -- Date: 2012-09-24 23:46
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: It is Stormwind City, not Stormwind!
 
 -- URL: http://wow-pro.com/node/3483/revisions/25032/view
 -- Date: 2012-07-06 21:42
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Remove the faction tags at the end sequence.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25031/view
 -- Date: 2012-07-06 21:10
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Credited Fluclo with the guide, added successor zones.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25029/view
 -- Date: 2012-07-03 19:06
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3483/revisions/25028/view
 -- Date: 2012-07-03 19:03
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3483/revisions/25027/view
 -- Date: 2012-07-03 19:00
--- Who: Fluclo
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3483/revisions/25026/view
 -- Date: 2012-07-02 22:10
--- Who: Fluclo
+-- Who: 
 -- Log: Guide up to the bugged Zhao-Ren
 
 -- URL: http://wow-pro.com/node/3483/revisions/25020/view
 -- Date: 2012-07-01 14:20
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Initial Version
 
 WoWPro.Leveling:RegisterGuide('FlucloPanda', 'The Wandering Isle', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()

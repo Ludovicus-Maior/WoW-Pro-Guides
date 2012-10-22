@@ -5,51 +5,51 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
 -- Date: 2012-08-13 01:48
--- Who: Laotseu
+-- Who: 
 -- Log: Play testing while levelling a Monk on the Beta. Mostly l steps that were converted to C with |NC|.
 
 -- URL: http://wow-pro.com/node/3215/revisions/24739/view
 -- Date: 2011-08-19 12:59
--- Who: Fluclo
+-- Who: 
 -- Log: Flagging Saving Foreman Oslow as non-combat
 
 -- URL: http://wow-pro.com/node/3215/revisions/24738/view
 -- Date: 2011-08-19 12:48
--- Who: Fluclo
+-- Who: 
 -- Log: Tagged Like a Fart in the Wind as a Non-Combat, also repositioned sticky (should collect before finishing the gnolls)
 
 -- URL: http://wow-pro.com/node/3215/revisions/24736/view
 -- Date: 2011-08-16 21:41
--- Who: Fluclo
+-- Who: 
 -- Log: Added Level info for guide
 
 -- URL: http://wow-pro.com/node/3215/revisions/24444/view
 -- Date: 2011-05-28 21:08
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added some notes, removed unneeded zone tags, fixed one or two cords.
 
 -- URL: http://wow-pro.com/node/3215/revisions/24079/view
 -- Date: 2011-01-30 19:13
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Fixed RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3215/revisions/23593/view
 -- Date: 2010-12-05 04:50
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added spaces, fixed date.
 
 -- URL: http://wow-pro.com/node/3215/revisions/23592/view
 -- Date: 2010-12-05 04:46
--- Who: Crackerhead22
+-- Who: 
 -- Log: Finished source code.
 
 -- URL: http://wow-pro.com/node/3215/revisions/23300/view
 -- Date: 2010-12-03 07:27
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3215/revisions/23299/view
 -- Date: 2010-12-03 07:27
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", "TwiDus2025", "Alliance", function()
 return [[

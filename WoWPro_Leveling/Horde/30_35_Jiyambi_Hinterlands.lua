@@ -5,11 +5,11 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
 -- Date: 2010-12-03 11:14
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3240/revisions/23360/view
 -- Date: 2010-12-03 11:13
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('JiyHin3035', 'The Hinterlands', 'Jiyambi', '30', '35', 'JiyWes3540', 'Horde', function()
 return [[

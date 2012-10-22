@@ -5,86 +5,86 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
 -- Date: 2012-07-27 19:27
--- Who: Estelyen
+-- Who: 
 -- Log: Rewrite of the guide to allow for starting Northrend at level 68
 
 -- URL: http://wow-pro.com/node/3289/revisions/25002/view
 -- Date: 2012-06-08 14:12
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Correct P tag for cooking quest note.
 
 -- URL: http://wow-pro.com/node/3289/revisions/24938/view
 -- Date: 2012-02-05 14:40
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Quest name corrections
 
 -- URL: http://wow-pro.com/node/3289/revisions/24856/view
 -- Date: 2011-12-10 15:28
--- Who: Crackerhead22
+-- Who: 
 -- Log: 4.3 updates
 
 -- URL: http://wow-pro.com/node/3289/revisions/24665/view
 -- Date: 2011-07-06 14:37
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added notes in the "The Hunt is On" steps about talking to the cultists.
 
 -- URL: http://wow-pro.com/node/3289/revisions/24595/view
 -- Date: 2011-06-25 01:24
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed "This quest needs to be manually clicked off because there is no turnin." from the line of "A A Mission Statement |QID|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|"
 
 -- URL: http://wow-pro.com/node/3289/revisions/24364/view
 -- Date: 2011-05-04 09:35
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added |P| tag for cooking quest line.
 
 -- URL: http://wow-pro.com/node/3289/revisions/24258/view
 -- Date: 2011-04-24 00:31
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed line-! Line 363 for step A has unknown tag [3]: [A Surrounded! |QID|11944|N|From Corporal Venn.|M|82.02,46.42|3]
 --	Fixed line-! Line 502 for step F Bad coord 334.14: [F Amber Ledge |QID|11704|N|Fly to Amber Ledge or take a free teleport from Librarian Tiare.|M|33.28,334.14|]
 
 -- URL: http://wow-pro.com/node/3289/revisions/24015/view
 -- Date: 2011-01-18 19:23
--- Who: Fluclo
+-- Who: 
 -- Log: Added NonCombat tag to quest Khu'nok Will Know 
 
 -- URL: http://wow-pro.com/node/3289/revisions/24014/view
 -- Date: 2011-01-18 19:04
--- Who: Fluclo
+-- Who: 
 -- Log: Added QID to Flying so that it doesn't show each time the guide is reset
 
 -- URL: http://wow-pro.com/node/3289/revisions/24013/view
 -- Date: 2011-01-18 18:58
--- Who: Fluclo
+-- Who: 
 -- Log: Changed Overcharged Capacity to Buy instead of Note
 
 -- URL: http://wow-pro.com/node/3289/revisions/24012/view
 -- Date: 2011-01-18 18:52
--- Who: Fluclo
+-- Who: 
 -- Log: Added more info for Overcharged Capacitor step
 
 -- URL: http://wow-pro.com/node/3289/revisions/23975/view
 -- Date: 2011-01-10 15:07
--- Who: Crackerhead22
+-- Who: 
 -- Log: ;
 
 -- URL: http://wow-pro.com/node/3289/revisions/23946/view
 -- Date: 2011-01-07 22:46
--- Who: Crackerhead22
+-- Who: 
 -- Log: Cleaned up(condensed) code, added quest accept and turn-in of "Hero's Call: Northrend!" and added note about purchasing Cold Weather Flying.
 
 -- URL: http://wow-pro.com/node/3289/revisions/23860/view
 -- Date: 2010-12-30 03:47
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3289/revisions/23469/view
 -- Date: 2010-12-03 22:16
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3289/revisions/23468/view
 -- Date: 2010-12-03 22:13
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("JamBor6872", "Borean Tundra", "Jame", "68", "72", "JamHow7274", "Alliance", function()
 return [[

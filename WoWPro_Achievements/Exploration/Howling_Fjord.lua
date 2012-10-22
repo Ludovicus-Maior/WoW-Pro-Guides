@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
 -- Date: 2012-05-27 21:10
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Change guide nick for Exploring Howling Fjord to TwiExpHFj
 
 -- URL: http://wow-pro.com/node/3474/revisions/24980/view
 -- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
+-- Who: 
 
 WoWPro.Achievements:RegisterGuide("TwiExpHFj","Howling Fjord","Howling Fjord","Exploration", "Northrend", "Twists", "Neutral", function()
 return [[

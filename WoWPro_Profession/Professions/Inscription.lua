@@ -5,16 +5,16 @@
 
 -- URL: http://wow-pro.com/wiki/profession_inscription
 -- Date: 2011-07-13 22:46
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Sync to GitHub
 
 -- URL: http://wow-pro.com/node/3411/revisions/24644/view
 -- Date: 2011-06-30 06:06
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3411/revisions/24636/view
 -- Date: 2011-06-30 05:56
--- Who: Crackerhead22
+-- Who: 
 
 WoWPro.Profession:RegisterGuide('TwiInscription', 'Inscription', 'Inscription', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[

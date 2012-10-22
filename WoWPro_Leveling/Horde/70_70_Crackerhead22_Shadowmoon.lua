@@ -5,30 +5,30 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
 -- Date: 2011-07-11 22:35
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Numeric Rep Tags
 
 -- URL: http://wow-pro.com/node/3286/revisions/24604/view
 -- Date: 2011-06-25 02:31
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed the ton of QID errors caused by the recorder.
 
 -- URL: http://wow-pro.com/node/3286/revisions/24387/view
 -- Date: 2011-05-15 18:15
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3286/revisions/24384/view
 -- Date: 2011-05-15 01:45
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added source code!!!!!
 
 -- URL: http://wow-pro.com/node/3286/revisions/23463/view
 -- Date: 2010-12-03 21:59
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3286/revisions/23462/view
 -- Date: 2010-12-03 21:58
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('CraSha7070H', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', 'JamBor7173', 'Horde', function()
 return [[

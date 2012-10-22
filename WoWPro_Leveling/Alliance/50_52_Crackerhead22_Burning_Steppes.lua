@@ -5,41 +5,41 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
 -- Date: 2011-06-11 20:38
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed Hero's Call, fixed a couple of cords, added 1 or 2 sticky steps.
 
 -- URL: http://wow-pro.com/node/3265/revisions/24482/view
 -- Date: 2011-06-01 11:32
--- Who: Fluclo
+-- Who: 
 -- Log: Added additional instruction notes for A Perfect Costume
 
 -- URL: http://wow-pro.com/node/3265/revisions/24304/view
 -- Date: 2011-04-29 14:48
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 121 for step C has 1 M coords, Line 123 for step C has 1 M coords, Line 127 for step C has 1 M coords, Line 179 for step K has 3 M coords.
 
 -- URL: http://wow-pro.com/node/3265/revisions/23930/view
 -- Date: 2011-01-04 20:09
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing cords.
 
 -- URL: http://wow-pro.com/node/3265/revisions/23928/view
 -- Date: 2011-01-04 20:07
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed several notes, steps, sticky steps.
 
 -- URL: http://wow-pro.com/node/3265/revisions/23591/view
 -- Date: 2010-12-05 04:41
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed spelling error which would have caused a step to not Auto-complete.
 
 -- URL: http://wow-pro.com/node/3265/revisions/23412/view
 -- Date: 2010-12-03 11:59
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3265/revisions/23411/view
 -- Date: 2010-12-03 11:58
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', '50', '52', 'CraSwa5254', 'Alliance', function()
 return [[

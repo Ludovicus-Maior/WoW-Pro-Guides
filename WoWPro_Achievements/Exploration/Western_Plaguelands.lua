@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
 -- Date: 2012-06-30 16:06
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Wrong zone name for The Cape of Stranglethorn
 
 -- URL: http://wow-pro.com/node/3475/revisions/24982/view
 -- Date: 2012-05-27 17:50
--- Who: Ludovicus Maior
+-- Who: 
 
 WoWPro.Achievements:RegisterGuide("LudoExpWeP","Western Plaguelands","Western Plaguelands","Exploration", "Eastern Kingdom", "Ludovicus", "Neutral", function()
 return [[

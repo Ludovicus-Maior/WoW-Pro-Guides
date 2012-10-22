@@ -5,104 +5,104 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
 -- Date: 2012-09-15 19:36
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Submitted by Forthepie on Wed, 2012-09-12 18:52.
 --	Step 314 for the quest Bad Datas, says spead to instead of speak to Harrison Jones
 
 -- URL: http://wow-pro.com/node/3309/revisions/24800/view
 -- Date: 2011-11-07 22:07
--- Who: Fluclo
+-- Who: 
 -- Log: Added Coords to opening step
 
 -- URL: http://wow-pro.com/node/3309/revisions/24737/view
 -- Date: 2011-08-18 12:07
--- Who: Fluclo
+-- Who: 
 -- Log: Added non combat tags, fixed couple typos, synchronised cinematic wording, optional tagged the dungeon turn-in
 
 -- URL: http://wow-pro.com/node/3309/revisions/24727/view
 -- Date: 2011-08-12 21:21
--- Who: Fluclo
+-- Who: 
 -- Log: Added some start-up information, and a Level minimum
 
 -- URL: http://wow-pro.com/node/3309/revisions/24614/view
 -- Date: 2011-06-25 03:14
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Duplicate T step for qid 28134 - Removed Duplicate line.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24416/view
 -- Date: 2011-05-24 11:23
--- Who: Fluclo
+-- Who: 
 -- Log: Added note about collecting all Ancient Scrolls before killing the last employee, as you are sent back to quest giver on killing the 15th employee
 
 -- URL: http://wow-pro.com/node/3309/revisions/24413/view
 -- Date: 2011-05-23 15:29
--- Who: Fluclo
+-- Who: 
 -- Log: Correct Unsticky on Curse of the Tombs
 
 -- URL: http://wow-pro.com/node/3309/revisions/24408/view
 -- Date: 2011-05-18 22:39
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3309/revisions/24363/view
 -- Date: 2011-05-03 03:06
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3309/revisions/24239/view
 -- Date: 2011-04-19 17:57
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Broke up [The Thrill of Discovery] and [Colossal Guardians].
 --	Enhanced notes for survival tips.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24222/view
 -- Date: 2011-04-05 23:36
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3309/revisions/24174/view
 -- Date: 2011-03-12 18:43
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Unique ID
 
 -- URL: http://wow-pro.com/node/3309/revisions/24152/view
 -- Date: 2011-03-09 01:10
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Geri's first cut at a better [Just A Fancy Cockroach] + [After the Fall] mix and coord corrections.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24147/view
 -- Date: 2011-03-08 01:14
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Tweak to sequence around [Do the World a Favor] by Geri.
 --	Spelling corrections by Ludovicus.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24146/view
 -- Date: 2011-03-08 00:51
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: U tag on [Smoke in Their Eyes] had an spurious 'l' in the middle.
 --	Found by Geri.
 
 -- URL: http://wow-pro.com/node/3309/revisions/23744/view
 -- Date: 2010-12-12 04:14
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3309/revisions/23743/view
 -- Date: 2010-12-12 04:14
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3309/revisions/23718/view
 -- Date: 2010-12-09 13:59
--- Who: MagicSN
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3309/revisions/23630/view
 -- Date: 2010-12-06 08:58
--- Who: Bitsem
+-- Who: 
 -- Log: Made requested changes. See comment.
 
 -- URL: http://wow-pro.com/node/3309/revisions/23512/view
 -- Date: 2010-12-03 23:23
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3309/revisions/23511/view
 -- Date: 2010-12-03 23:21
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'MagTwi8485|LiaTwi8485', 'Neutral', function()
 return [[

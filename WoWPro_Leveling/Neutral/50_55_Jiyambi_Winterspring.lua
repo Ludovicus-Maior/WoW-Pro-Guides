@@ -5,54 +5,54 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_neutral
 -- Date: 2012-02-16 20:15
--- Who: Crackerhead22
+-- Who: 
 -- Log: Minor tweaks.
 
 -- URL: http://wow-pro.com/node/3264/revisions/24611/view
 -- Date: 2011-06-25 03:05
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Duplicate A step for qid 28460 - Wrong QID for "Winterfall Runners".
 
 -- URL: http://wow-pro.com/node/3264/revisions/24573/view
 -- Date: 2011-06-21 20:31
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3264/revisions/24440/view
 -- Date: 2011-05-28 14:29
--- Who: Crackerhead22
+-- Who: 
 -- Log: Note tweaks, added warning about Mazthoril cave portals.
 
 -- URL: http://wow-pro.com/node/3264/revisions/24430/view
 -- Date: 2011-05-28 04:16
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added "Blasted Lands: The Other Side of the World" in for both Horde and Alliance.
 
 -- URL: http://wow-pro.com/node/3264/revisions/24404/view
 -- Date: 2011-05-17 02:00
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3264/revisions/24396/view
 -- Date: 2011-05-17 01:10
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3264/revisions/24140/view
 -- Date: 2011-02-28 23:25
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Add [Yetiphobia].
 
 -- URL: http://wow-pro.com/node/3264/revisions/24139/view
 -- Date: 2011-02-28 23:22
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Added [Perfect Horns] to the Horde Winterfall guide.
 --	The Alliance side had it.  Discovered by Josral.
 
 -- URL: http://wow-pro.com/node/3264/revisions/23410/view
 -- Date: 2010-12-03 11:56
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3264/revisions/23409/view
 -- Date: 2010-12-03 11:55
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'CraBla5458|JiyBla5560', 'Neutral', function()
 return [[

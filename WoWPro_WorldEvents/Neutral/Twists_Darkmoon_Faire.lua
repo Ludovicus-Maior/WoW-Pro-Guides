@@ -5,21 +5,21 @@
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
 -- Date: 2012-06-08 14:15
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Add LVL tweaks so it wont bother you to try to eat food you can't!
 
 -- URL: http://wow-pro.com/node/3459/revisions/24904/view
 -- Date: 2012-01-19 00:11
--- Who: Ludovicus Maior
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3459/revisions/24903/view
 -- Date: 2012-01-19 00:11
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Correct node number
 
 -- URL: http://wow-pro.com/node/3459/revisions/24902/view
 -- Date: 2012-01-19 00:10
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Sync to git
 
 WoWPro.WorldEvents:RegisterGuide("TwiDarkmoon","Darkmoon Island","Darkmoon Faire","WE", "Twists", "Neutral", function()

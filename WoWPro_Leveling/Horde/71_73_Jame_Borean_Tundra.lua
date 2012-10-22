@@ -5,45 +5,45 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
 -- Date: 2012-01-22 08:24
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added missing notes, cords.  Added QO steps, sticky steps, ?
 
 -- URL: http://wow-pro.com/node/3290/revisions/24855/view
 -- Date: 2011-12-10 15:27
--- Who: Crackerhead22
+-- Who: 
 -- Log: 4.3 updates
 
 -- URL: http://wow-pro.com/node/3290/revisions/24605/view
 -- Date: 2011-06-25 02:37
--- Who: Crackerhead22
+-- Who: 
 -- Log: ! Duplicate T step for qid 11576 - Quest "Abduction" C and T steps had QID 11576 instead of 11590
 
 -- URL: http://wow-pro.com/node/3290/revisions/24368/view
 -- Date: 2011-05-06 03:12
--- Who: TwoToad
+-- Who: 
 -- Log: Updated the Warsong Farm Outpost to use stickies. Updated location of Shadowstalker Getry (it was off a little).
 
 -- URL: http://wow-pro.com/node/3290/revisions/24365/view
 -- Date: 2011-05-05 03:10
--- Who: TwoToad
+-- Who: 
 -- Log: Updated a section to use stickies, instead of the old method.
 
 -- URL: http://wow-pro.com/node/3290/revisions/24343/view
 -- Date: 2011-04-29 16:51
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: Line 62 for step f has unknown tag [40.4,51.4], Line 340, for step A non-decimal PRE.
 
 -- URL: http://wow-pro.com/node/3290/revisions/23472/view
 -- Date: 2010-12-03 22:17
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3290/revisions/23471/view
 -- Date: 2010-12-03 22:17
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3290/revisions/23470/view
 -- Date: 2010-12-03 22:16
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide("JamBor7173", "Borean Tundra", "Jame", "71", "73", "JamDra7375", "Horde", function()
 --> Original guides written/designed by [Jame]

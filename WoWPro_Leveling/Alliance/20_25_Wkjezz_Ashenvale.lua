@@ -5,104 +5,104 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
 -- Date: 2011-11-09 09:21
--- Who: Fluclo
+-- Who: 
 -- Log: Added |NC| to Astranaar's Burning!
 
 -- URL: http://wow-pro.com/node/3225/revisions/24743/view
 -- Date: 2011-08-26 04:46
--- Who: Crackerhead22
+-- Who: 
 -- Log: Removed duplicate line of getting flight point for Forest Song.
 
 -- URL: http://wow-pro.com/node/3225/revisions/24735/view
 -- Date: 2011-08-16 21:04
--- Who: Fluclo
+-- Who: 
 -- Log: Added Level info, and added breadcrumb quest info/turn-in
 
 -- URL: http://wow-pro.com/node/3225/revisions/24458/view
 -- Date: 2011-05-30 17:56
--- Who: Ludovicus Maior
+-- Who: 
 -- Log: ! Line 243 for step R has unknown tag [211]: [R Path to the heart|QID|26472|M|77.87,73.54;77.04,74.20;75.86,73.56;75.99,74.05|CC|211]
 
 -- URL: http://wow-pro.com/node/3225/revisions/24411/view
 -- Date: 2011-05-23 01:16
--- Who: Crackerhead22
+-- Who: 
 -- Log: Rearranged a few steps for better flow, added missing notes. Condensed code a bit.
 
 -- URL: http://wow-pro.com/node/3225/revisions/24116/view
 -- Date: 2011-02-13 16:04
--- Who: Crackerhead22
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3225/revisions/23996/view
 -- Date: 2011-01-16 08:51
--- Who: Estraile
+-- Who: 
 -- Log: Combining the two seperate versions of the source into one.
 
 -- URL: http://wow-pro.com/node/3225/revisions/23971/view
 -- Date: 2011-01-09 21:01
--- Who: Crackerhead22
+-- Who: 
 -- Log: Added run to step for Forest Song to see you can get free ride there.
 
 -- URL: http://wow-pro.com/node/3225/revisions/23884/view
 -- Date: 2011-01-01 21:31
--- Who: Fluclo
+-- Who: 
 -- Log: Updated couple of tags to better handle previously done parts and also included some more details to help players new to the zone
 
 -- URL: http://wow-pro.com/node/3225/revisions/23882/view
 -- Date: 2010-12-31 19:31
--- Who: Fluclo
+-- Who: 
 -- Log: Thistlefur update
 
 -- URL: http://wow-pro.com/node/3225/revisions/23881/view
 -- Date: 2010-12-31 19:29
--- Who: Fluclo
+-- Who: 
 -- Log: Improved steps for the Corrupting Influence quest
 
 -- URL: http://wow-pro.com/node/3225/revisions/23880/view
 -- Date: 2010-12-31 17:27
--- Who: Fluclo
+-- Who: 
 -- Log: Reordered the steps at Astranaar to avoid doubling-back, and added note to Elune's Tear to advise quest takes 15 seconds to appear after handing in previous quest.
 
 -- URL: http://wow-pro.com/node/3225/revisions/23879/view
 -- Date: 2010-12-31 17:24
--- Who: Fluclo
+-- Who: 
 -- Log: Completing the three quests That Which Has Risen, Bathed in Light and The Lost Gem were not displaying correctly, therefore redone the three steps
 
 -- URL: http://wow-pro.com/node/3225/revisions/23878/view
 -- Date: 2010-12-31 17:22
--- Who: Fluclo
+-- Who: 
 -- Log: Improved steps for Respect for the Fallen and The Reason Why, also accepted Rear Guard Duty quest earlier to avoid doubling back on yourself.
 
 -- URL: http://wow-pro.com/node/3225/revisions/23877/view
 -- Date: 2010-12-31 17:17
--- Who: Fluclo
+-- Who: 
 -- Log: Ruuzel quest is not essential to progression in the zone, hence added RANK 2
 
 -- URL: http://wow-pro.com/node/3225/revisions/23876/view
 -- Date: 2010-12-31 17:14
--- Who: Fluclo
+-- Who: 
 -- Log: Updated guide around the Bottle of Wildfire to make it flow better on screen
 
 -- URL: http://wow-pro.com/node/3225/revisions/23875/view
 -- Date: 2010-12-31 17:12
--- Who: Fluclo
+-- Who: 
 -- Log: Added info on bread-crumb quests as well as improved R tag to get to starting area for zone.
 
 -- URL: http://wow-pro.com/node/3225/revisions/23797/view
 -- Date: 2010-12-19 21:54
--- Who: Crackerhead22
+-- Who: 
 -- Log: Fixed issues with steps not auto-completing, missing waypoints. Added in a few |QO|, |L| steps for more auto-completing. 
 
 -- URL: http://wow-pro.com/node/3225/revisions/23755/view
 -- Date: 2010-12-16 03:24
--- Who: Gylin
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3225/revisions/23328/view
 -- Date: 2010-12-03 09:15
--- Who: Jiyambi
+-- Who: 
 
 -- URL: http://wow-pro.com/node/3225/revisions/23327/view
 -- Date: 2010-12-03 09:14
--- Who: Jiyambi
+-- Who: 
 
 WoWPro.Leveling:RegisterGuide('WkjAsh2025', 'Ashenvale', 'WKJezz', '20', '25', 'WkjSton2530', 'Alliance', function()
 
