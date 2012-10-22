@@ -12,14 +12,13 @@ function WoWPro.Profession:OnInitialize()
 	if WoWProCharDB.AutoHideProfessionInsideInstances == nil then
 	    WoWProCharDB.AutoHideProfessionInsideInstances = true
 	end
+	-- Profession Tag Setup --
+	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach"})
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.Profession:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Profession Module")
-	
-	-- Profession Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach"})
 	
 	-- Event Registration --
 	WoWPro.Profession.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
@@ -44,9 +43,6 @@ function WoWPro.Profession:OnEnable()
 	end
 	
 	WoWPro.Profession.FirstMapCall = true
-	
-	-- Server query for completed quests --
-	WoWPro.QueryQuestsCompleted()
 end
 
 -- Called when the module is disabled --

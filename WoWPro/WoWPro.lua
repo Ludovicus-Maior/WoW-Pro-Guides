@@ -166,6 +166,11 @@ function WoWPro:OnEnable()
 		WoWPro:AbleFrames()
 	end
 	
+	--Initiallizing base tags, before we enable each module or they might see missing tags or odd events! --
+	for i,tag in pairs(WoWPro.Tags) do 
+		WoWPro[tag] = WoWPro[tag] or {}
+	end
+	
 	-- Module Enabling --
 	for name, module in WoWPro:IterateModules() do
 		WoWPro:dbp("Enabling "..name.." module...")
@@ -188,7 +193,8 @@ function WoWPro:OnEnable()
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_QUERY_COMPLETE",
-		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD"
+		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD",
+		
 	})
 	WoWPro.LockdownTimer = nil
 	WoWPro.EventFrame:SetScript("OnUpdate", function(self, elapsed)
@@ -244,7 +250,7 @@ function WoWPro:OnEnable()
 		    WoWPro.InitLockdown = true
 		end
 		
-		if WoWPro.InitLockdown then
+		if WoWPro.InitLockdown and event ~= "ZONE_CHANGED_NEW_AREA" then
 		    return
 		end
 		
@@ -361,8 +367,23 @@ end
 
 --- MOP Function Compatability Section
 do
-	local _, _, _, interface = GetBuildInfo()
-	WoWPro.MOP = (interface >= 50000)
+	local wversion, wbuild, wdata, winterface = GetBuildInfo()
+	WoWPro.MOP = (winterface >= 50000)
+	if tonumber(wbuild) >= 16057 then
+	local frame = CreateFrame("Frame")
+
+	local function OnEvent(self, event, name)
+		if event == "ADDON_LOADED" and name == "Blizzard_GlyphUI" then
+			TalentFrame_LoadUI()
+		end
+		
+	end
+	frame:SetScript("OnEvent",OnEvent)
+	frame:RegisterEvent("ADDON_LOADED")
+	WoWPro:Print('Patched Blizzard_GlyphUI to get rid of attempt to index global "PlayerTalentFrame"  (a nil value)')
+	
+end
+
 end
 
 if WoWPro.MOP then

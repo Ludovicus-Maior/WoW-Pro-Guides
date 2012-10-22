@@ -12,40 +12,34 @@ function WoWPro.Leveling:OnInitialize()
 	if WoWProCharDB.AutoHideLevelingInsideInstances == nil then
 	    WoWProCharDB.AutoHideLevelingInsideInstances = true
 	end
+		
+	-- Leveling Tag Setup --
+	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep", "action", "faction"})
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.Leveling:OnEnable()
 	WoWPro.Leveling:dbp("|cff33ff33Enabled2|r")
 	
-	-- Leveling Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep","faction"})
-	
 	-- Event Registration --
 	WoWPro.Leveling.Events = {"QUEST_LOG_UPDATE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT", "PLAYER_LEVEL_UP", "TRAINER_UPDATE",
 		"QUEST_GREETING","GOSSIP_SHOW", "QUEST_DETAIL", "QUEST_PROGRESS", "QUEST_COMPLETE",
-		"TAXIMAP_OPENED"
+		"TAXIMAP_OPENED","PET_BATTLE_OPENING_START","PET_BATTLE_CLOSE"
 	}
 	WoWPro:RegisterEvents(WoWPro.Leveling.Events)
-	WoWPro.Leveling:dbp("Newby0")
 	--Loading Frames--
 	if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
-	    WoWPro.Leveling:dbp("Newby1")
 		WoWPro.Leveling:CreateConfig()
---		WoWPro.Leveling.CreateSpellFrame()
---		WoWPro.Leveling.CreateSpellListFrame()
---		WoWPro.Leveling.CreateGuideList()
 		WoWPro.Leveling.FramesLoaded = true
-		WoWPro.Leveling:dbp("Newby2")
 	end
 	
 	-- Loading Initial Guide --
 	local locClass, engClass = UnitClass("player")
 	local locRace, engRace = UnitRace("player")
-	-- New Level 1 Character --
-	
+
+	-- New Level 1 Character --	
 	if UnitLevel("player") == 1 and UnitXP("player") < 100 then
 		local startguides = {
 			Orc = "JiyDur0105", 
@@ -74,9 +68,6 @@ function WoWPro.Leveling:OnEnable()
 	
 	WoWPro.Leveling.FirstMapCall = true
 	WoWProCharDB.Taxi = WoWProCharDB.Taxi or {}
-	
-	-- Server query for completed quests --
-	WoWPro.QueryQuestsCompleted()
 end
 
 -- Called when the module is disabled --

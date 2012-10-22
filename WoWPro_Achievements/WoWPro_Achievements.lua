@@ -11,14 +11,16 @@ function WoWPro.Achievements:OnInitialize()
 	if WoWProCharDB.AutoHideAchievementsInsideInstances == nil then
 	    WoWProCharDB.AutoHideAchievementsInsideInstances = true
 	end
+	
+	-- Achievements Tag Setup --
+	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "action"})
+
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.Achievements:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Achievements Module")
 	
-	-- Achievements Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach"})
 	
 	-- Event Registration --
 	WoWPro.Achievements.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "CRITERIA_UPDATE",
