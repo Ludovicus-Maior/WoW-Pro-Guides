@@ -4,6 +4,19 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-10-22 20:04
+-- Who: 
+-- Log: corrected the guide number (from 3487) so it linked to the correct page.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25149/view
+-- Date: 2012-10-22 20:00
+-- Who: 
+-- Log: -- Date: 23 Oct 2012
+--	-- Who: Emmaleah
+--	-- Log: added in comments about the blue "once per" items (and I think a couple of more grey ones too)
+--	I hope I did this right as its the first one I've editted directly on the site. (looks like snowflake came to visit and gave me more privledges.)
+
+-- URL: http://wow-pro.com/node/3490/revisions/25144/view
 -- Date: 2012-10-18 23:12
 -- Who: 
 -- Log: Update from https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Neutral/88_89_Emmaleah_KunLaiSummit.lua as of 10/18 5PM
@@ -50,11 +63,12 @@ C Speak with the Highroad Grummle|QID|31254|FACTION|Alliance|QO|Speak with the H
 C Speak with the Highroad Grummle|QID|31255|FACTION|Horde|QO|Speak with the Highroad Grummle: 1/1|NC|M|70.08,23.47|Z|Valley of the Four Winds|N|Run up the stairs, keep going up, and up, then follow the path to the tavern.|
 
 f Tavern in the Mists|QID|99999|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|
+C Forgotten Lockbox|QID|31867|M|54.71,71.41|Z|The Veiled Stair|NC|N|Upstairs in the inn. Another of the items one time lootable for XP and gold.|
 A Robbing Robbers of Robbers|QID|31286|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|
 A Educating Saurok|QID|31287|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|
 C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|N|Pick up the sparklis as you follow the dots.|
 C Educating Saurok|QID|31287|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|Z|The Veiled Stair|N|In the back of the cave.|
-l The Hammer of Folly|L|86473|M|74.83,76.39|Z|The Veiled Stair|N|Just east of the Black Market Action House, is an ancient grass covered stairway, called the Stairs that lead to nowhere, at the top, known as Mason's Folly, you will find this grey item that is worth ~100g and a decent amount of XP.|
+l The Hammer of Folly|QID|31428|L|86473|M|74.83,76.39|Z|The Veiled Stair|N|Just east of the Black Market Action House, is an ancient grass covered stairway, called the Stairs that lead to nowhere, at the top, known as Mason's Folly, you will find this grey item that is worth ~100g and a decent amount of XP.|
 T Robbing Robbers of Robbers|QID|31286|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|
 T Educating Saurok|QID|31287|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|
 
@@ -159,12 +173,12 @@ R Mogujia|QID|99999|CC|M|59.55,78.27|
 A Profiting off of the Past|QID|30595|M|59.59,78.26|N|From Bao Jian.|
 C Profiting off of the Past|QID|30595|S|M|58.40,74.86|N|Groundspawn as well as dropping from the mobs around here.|
 C Deanimate the Reanimated|QID|30593|S|FACTION|Alliance|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
-l Terracotta Head|L|86427|FACTION|Alliance|M|57,75|N|Another of the random items worth gold and XP to loot.|
+l Terracotta Head|QID|31422|L|86427|FACTION|Alliance|M|59.25,73|N|Another of the random items worth gold and XP to loot.|
 K Moguija Soul-Caller|QID|30619|FACTION|Alliance|T|Moguija Soul-Caller|QO|Moguija Soul-Caller slain: 1/1|M|58.23,71.21|
 C Deanimate the Reanimated|QID|30593|US|FACTION|Alliance|M|59.20,72.21|
 
 C Deanimate the Reanimated|QID|30594|S|FACTION|Horde|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
-l Terracotta Head|FACTION|Horde|L|86427|M|57,75|N|Another of the random items worth gold and XP to loot.|
+l Terracotta Head|QID|31422|FACTION|Horde|L|86427|M|59.25,73|N|Another of the random items worth gold and XP to loot.|
 K Moguija Soul-Caller|QID|30620|FACTION|Horde|T|Moguija Soul-Caller|QO|Moguija Soul-Caller slain: 1/1|M|58.23,71.21|
 C Deanimate the Reanimated|QID|30594|US|FACTION|Horde|M|59.20,72.21|
 C Profiting off of the Past|QID|30595|US|M|58.40,74.86|
@@ -232,7 +246,7 @@ T Muskpaw Ranch|QID|31456|FACTION|Alliance|M|71.50,70.04|N|To Lao Muskpaw.|
 A The Missing Muskpaw|QID|30488|M|71.50,70.04|N|From Lao Muskpaw.|
 A Fresh Needle Scent|QID|30489|M|71.50,70.04|N|From Lao Muskpaw.|
 C Fresh Needle Scent|QID|30489|S|M|71.50,70.04|
-T The Missing Muskpaw|QID|30488|M|74.96,74.52|N|To Muskpaw Jr. He is in the back of the cave.|
+T The Missing Muskpaw|QID|30488|M|74.96,74.52|N|To Muskpaw Jr. He is in the back of the cave. Sometimes,(rarely) there is a Sprite's Cloth Chest, which will contain a spec specific ilvl 434 BoP cloak. (one time per char, disappears when you loot it.)|
 A At the Yak Wash|QID|30491|M|74.96,74.52|N|From Muskpaw Jr..|N|You can ride Jr's Yak out of the cave and leave vehicle when you are out.|
 A At the Yak Wash|QID|30491|S|N|Riding Jr's Yak out counts as your first yak delivered.|
 K Burilgi Despoiler|QID|30587|L|80241 1|Kill and loot.|
@@ -257,6 +271,7 @@ T Back in Yak|QID|30492|M|64.72,61.68|N|To Lucky Eightcoins.|
 A Oil Stop|QID|30614|M|65.48,60.78|N|From Slimy Inkstain.|
 A A Grummle's Luck|QID|30808|M|64.72,61.68|N|From Lucky Eightcoins.|
 A Traffic Issues|QID|30616|M|64.89,60.47|N|From Smokey Sootassle.|
+C Sturdy Yaungol Spear|QID|31421|NC|M|71.2,62.6;70.0,63.8|N|Optional-This BoA strength polearm can be rarely found on weapons racks at Fire Camp Yongqi (and maybe the other yaungol camps).|
 
 R Fire Camp Ruqin|M|63.44,68.53|
 C Traffic Issues|QID|30616|S|M|63.53,66.80|
@@ -301,6 +316,7 @@ R Howlingwind Caverns|QID|30618|M|57.92,58.90;59.16,53.24|CC|
 K Mischievous Snow Sprites|QID|30621|S|M|57.77,49.30|S|L|80316,80317,80318,80319|
 C Instant Courage|QID|30601|S|M|57.54,47.44|N|These guys are hiding in thier baskets, tell them its safe to come out.|
 C Resupplying One Keg|QID|30618|M|56.33,50.88|N|Ground spawn sparklies.|
+l Stolen Sprite Treasure|QID|31415|M|56.8,48.9|CC|N|Its a treasure chest, loot it for XP/gold.  It may spawn at multiple spots in the cave.|
 C They Stole My Luck!|QID|30621|M|57.77,49.30|US|
 C Instant Courage|QID|30601|US|M|57.54,47.44|N|It's ok to leave the Guides to die if you want to zerg (or hearth) out.|
 H One Keg|QID|30618|N|Run if you didn't reset your hearthstone.|
@@ -313,12 +329,13 @@ C Comin' Round the Mountain|QID|30487|M|57.26,61.17|N|Hop in the wagon. He will 
 T Comin' Round the Mountain|QID|30487|M|48.12,49.00|N|To Lucky Bluestring.|
 A One Traveler's Misfortune|QID|30683|M|48.12,49.00|N|From Lucky Bluestring.|
 C One Traveler's Misfortune|QID|30683|M|50.22,49.39|N|Click on the overturned cart, then fight the statues and finally the  General.|
-l Rikktik's Tick Remover|L|86430|M|51.8,48.5;52.55,54.48|N|Another greay item worth gold and XP, this one is located in a cave just down the road.|
+l Rikktik's Tick Remover|QID|31419|L|86430|M|51.8,48.5;52.55,54.48|N|Another greay item worth gold and XP, this one is located in a cave just down the road.|
 T One Traveler's Misfortune|QID|30683|M|48.09,49.04|N|To Lucky Bluestring.|
 A Seeker's Folly|QID|30684|M|48.09,49.04|N|From Lucky Bluestring.|
 C Seeker's Folly|QID|30684|M|43.22,51.99|N|Stop (click) at each shrine as you go up the hill, avoiding the 'bad' stuff.|
 T Seeker's Folly|QID|30684|M|43.79,51.01|N|To Lorewalker Cho.|
 A The Tongue of Ba-Shon|QID|30829|M|43.79,51.01|N|From Lorewalker Cho.|
+C Tablet of Ren Yun|QID|31417|NC|M|44.7,52.4|CC|N|Optional-This BoP recipe can rarely be found beside a statue/shrine to Ren Yun at the top of Mt Neverest.|
 C The Tongue of Ba-Shon|QID|30829|M|43.51,51.38|N|Tell Cho you are ready to begin, then protect him while he does his spell.|
 T The Tongue of Ba-Shon|QID|30829|M|43.73,51.09|N|To Lorewalker Cho.|
 A Staying Connected|QID|30795|M|43.73,51.09|N|From Lorewalker Cho.|
@@ -349,7 +366,7 @@ T Chasing the Storm|QID|30802|U|81712|M|51.31,48.26|N|To Image of Lorewalker Cho
 A Fisherman's Tale|QID|30935|M|51.31,48.26|N|From Image of Lorewalker Cho.|
 
 C Fisherman's Tale|QID|30935|QO|Speak to Mishi outside of Lei Shen's Tomb: 1/1|NC|M|54.74,46.84|N|Go back up the stairs out of the tomb, Mishi is on your left.|
-l Ancient Mogu Tablet|L|86471|M|64.21,45.11|N|grey item worth gold and XP, behind the statue on your left.|
+l Ancient Mogu Tablet|QID|31420|L|86471|M|64.21,45.11|N|grey item worth gold and XP, behind the statue on your left.|
 C Fisherman's Tale|QID|30935|QO|Speak to Shin Whispercloud to access Zouchin Province: 1/1|NC|M|63.46,40.14|N|Go down the Path deeper into the mountain to find Shin.|
 f Zouchin Village|QID|30935|M|62.44,30.16|N|At Bo the Wind Claimer.|
 T Fisherman's Tale|QID|30935|M|62.33,29.03|N|To Lorewalker Cho.|
@@ -362,7 +379,7 @@ C It Takes A Village|QID|30944|M|62.43,28.30|N|The trolls fighting the defenders
 C Handle With Care|QID|30943|M|70.04,27.70|S|N|Ground spawn orange flower bushes.|
 C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|S|N|all trolls must die...|
 C What's Yours Is Mine|QID|30945|S|M|71.17,28.66|N|The blades drop from the trolls you don't need to kill with Shomi.|
-l Statue of Xuen|L|86422|M|72.03,34.00|N|Located in the middle of the pond.|
+l Statue of Xuen|QID|31416|L|86422|M|72.03,34.00|N|Located in the middle of the pond.|
 C What's Yours Is Mine|QID|30945|US|M|71.17,28.66|N|The blades drop from the trolls you don't need to kill with Shomi.|
 C Handle With Care|QID|30943|M|70.04,27.70|US|N|Ground spawn orange flower bushes.|
 C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|US|
@@ -427,6 +444,7 @@ K Kill and loot Hateful Ko Ko|QID|30599|L|80429|T|Hateful Ko Ko|M|52.29,71.43|
 C Destroy Ko Ko's Altar|QID|30599|NC|QO|Destroy Ko Ko's Altar: 1/1|M|52.29,71.43|
 K Kill and loot Dak Dak|QID|30599|L|80428|T|Dak Dak|M|52.29,71.43|N|Dak Dak is located inside the cave, he wanders around, but Blizzard has given a skull icon to help find him. Need to manually check this off.|; i dont know why the first one will autocomplete and the other 2 wont. I have checked the item ID's in game
 C Destroy Dak Dak's Altar|QID|30599|NC|QO|Destroy Dak Dak's Altar: 1/1|M|52.29,71.43|
+C Hozen Warrior Spear|QID|31413|NC|L|86394|M|51.5,74|CC|N|Optional-This BoA agility polearm can be rarely found in the room adjacent to Dak Dak's alter (in the water).|
 K Kill and Loot Tak Tak|QID|30599|L|80430|T|Tak Tak|M|56.78,70.97|N|Need to manually check this off.|
 C Destroy Tak Tak's Altar|QID|30599|NC|QO|Destroy Tak Tak's Altar: 1/1|M|56.78,70.97|
 C No Pack Left Behind|QID|30600|US|M|53.35,74.45|
@@ -436,7 +454,7 @@ T No Pack Left Behind|QID|30600|M|51.94,67.24|N|To Brother Rabbitsfoot.|
 T Breaking Broketooth|QID|30604|M|51.94,67.24|N|To Brother Rabbitsfoot.|
 A Bros before Hozen|QID|30605|M|51.94,67.24|N|From Brother Rabbitsfoot.|
 
-R Knucklethump Hole|QID|30605|M|50.53,64.21|CC|
+R Knucklethump Hole|QID|30605|M|50.53,64.21|CC|N|somewhere in this area will be a Hozen Treasure Cache, most commonly in the room with Poot Poot, but I have seen it in the little caves too.|
 C Bros before Hozen|QID|30605|M|50.53,64.21|N|Brother Yakshoe is on top of a little hill on the edge of Knucklethump Hole.|
 T Bros before Hozen|QID|30605|M|50.60,64.08|N|To Brother Yakshoe.|
 A Hozen Love Their Keys|QID|30607|M|50.60,64.08|N|From Brother Yakshoe.|
@@ -445,7 +463,7 @@ A Thumping Knucklethump|QID|30606|M|50.60,64.08|N|From Brother Yakshoe.|
 C Thumping Knucklethump|S|QID|30606|M|50.47,62.78|
 C The Snackrifice|QID|30608|M|50.58,62.54|N|Attack the rope they are hanging from.|
 C Thumping Knucklethump|US|QID|30606|M|50.47,62.78|
-K Cho Cho the Wicked|QID|30607|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key. Click on the lock to release Poot Poot. Poot Poot gives you a ride out.|
+K Cho Cho the Wicked|QID|30607|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key. Look around for a treasure chest to loot for gold and XP. Click on the lock to release Poot Poot. Poot Poot gives you a ride out.|
 T Hozen Love Their Keys|QID|30607|M|52.00,67.22|N|To Brother Yakshoe.|
 T The Snackrifice|QID|30608|M|52.00,67.22|N|To Brother Yakshoe.|
 A Grummle! Grummle! Grummle!|QID|30610|M|52.00,67.22|N|From Brother Yakshoe.|
@@ -477,7 +495,9 @@ C Kota Blend|QID|30744|U|81054|S|M|36.38,76.94|Pick up the betties from the grou
 T Kota Blend|QID|30744|N|To UI Alert.|M|36.38,76.94|
 A A Fair Trade|QID|30746|N|From UI Alert.|M|36.38,76.94|
 C Gourmet Kafa|QID|30743|US|M|36.95,76.16|N|Flag the droppings.|
+C Kafa Press|QID|31304|NC|M|37.5,78.0;35.2,76.3|N|Optional, Talk to 'Frozen Trail Packer' who can be rarely found at the back of the cave for a clicky haste item (and XP).|
 C Trouble Brewing|QID|30745|US|M|37.83,77.90|N|Yeti's are located in the caves, any of the caves will do.|
+C Lost Adventurer's Belongings|QID|31418|NC|M|36.7,79.8|N|This one time loot item worth gold and XP is located at the spawn spot of the 87 silver elite Ski'thik. If he is up, you may want to skip this one.|
 C Shut it Down|QID|30742|US|M|40.67,73.42|N|Goats are hard to miss.|
 T A Fair Trade|QID|30746|M|36.95,76.16|N|To Nephew Burrberry, wait a few seconds for a ride down the mountain.|
 T Shut it Down|QID|30742|M|42.48,69.45|N|To Cousin Gootfur.|

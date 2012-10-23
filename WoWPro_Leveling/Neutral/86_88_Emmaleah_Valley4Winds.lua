@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2012-10-23 01:50
+-- Who: 
+-- Log: Cleaned up coords. Small syntax corrections.
+
+-- URL: http://wow-pro.com/node/3485/revisions/25153/view
+-- Date: 2012-10-22 20:37
+-- Who: 
+-- Log: Get rid of odd unicode char.
+
+-- URL: http://wow-pro.com/node/3485/revisions/25147/view
 -- Date: 2012-10-22 17:43
 -- Who: 
 -- Log: Merge of my changes.  Lots of coord refinements and a few small flow changes.
@@ -162,7 +172,8 @@ A Li Li's Day Off|QID|29950|M|68.77,43.43|N|From Li Li.|
 A Muddy Water|QID|29951|M|68.71,43.12|N|From Mudmug. Wait a minute or two for the dialog to finish, then this quest becomes available.|
 C Li Li's Day Off|QID|29950|U|76350|QO|Bring Li Li to Huangtze Falls: 1/1|M|74.37,42.65|
 C Muddy Water|QID|29951|U|76362|M|69.97,57.89|N|Find a place with about 10 muddy water pools close together. Click on the pool to fill the vile, it will leak when you travel to the next set of pools, until its full, at which point it will seal.|
-R Silken Fields|M|63.62,58.37|CC|N|Go south cross country towards Silken Fields.(the road is a much farther path).|
+
+R Silken Fields|QID|29950|M|63.62,58.37|CC|N|Go south cross country towards Silken Fields.(the road is a much farther path).|
 A The Moth Rebellion|QID|30059|M|63.55,58.46|N|From Journeyman Chu. Avoid the mutated silkmoths or you could be overwhelmed!|
 C Li Li's Day Off|QID|29950|U|76350|QO|Bring Li Li to the Silken Fields: 1/1|M|62.4,59.2|N|If you lost her, summon her away from the waypoint.|
 A Where Silk Comes From|QID|30072|M|62.67,59.75|N|From Silkmaster Tsai.|
@@ -218,24 +229,24 @@ f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga.|
 
 A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it opens up the Quartermaster which gives you a place to repair. (Plus its quick and easy XP.)|
 C Remove the rocks|QID|30252|M|52.8,49.81|NC|N|Click on the unbudging rocks to dig them up.|
-T A Helping Hand|QID|30252|M|52.67,47.96|N|To Farmer Yoon.|
-A Learn and Grow I:Seeds|QID|30253|M|52.23,48.83|N|From Farmer Yoon.|
-l Get seeds from Merchant Greenfield|QID|30253|L|80295|M|32.91,52.11|NC|N|It?s a chat option, not a purchase.|
-T Learn and Grow I:Seeds|QID|30253|M|52.23,48.83|N|To Farmer Yoon.|
-A Learn and Grow II:Tilling and Planting|QID|30254|M|52.23,48,83|From Farmer Yoon.|
-C Tilling and Planting|QID|30254|M|52.02,48.30|NC|U|80295|N|Click the untilled soil to till, then target it and use the seeds.|
-T Learn and Grow II:Tilling and Planting|QID|30254|M|52.23,48,83|To Farmer Yoon.|
-A Learn and Grow III:Tending Crops|QID|30255|M|52.23,48,83|From Farmer Yoon.|
+T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|
+A Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|From Farmer Yoon, after alot of talking.|
+l Get seeds from Merchant Greenfield|QID|30535|L|80295|M|52.88,52.14|NC|N|It's a chat option, not a purchase.|
+T Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|To Farmer Yoon.|
+A Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|From Farmer Yoon.|
+C Tilling and Planting|QID|30254|M|52.02,48.30|NC|U|80302|N|Click the untilled soil to till, then target it and use the seeds.|
+T Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|To Farmer Yoon.|
+A Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|From Farmer Yoon.|
 C Watering Crops|QID|30255|M|52.02,48.30|NC|U|79104|N|Face towards the plants and use the watering can.|
-T Learn and Grow III:Tending Crops|QID|30255|M|52.23,48,83|To Farmer Yoon.|
-A Learn and Grow IV:Harvesting|QID|30256|M|52.23,48,83|From Farmer Yoon.|
+T Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|To Farmer Yoon.|
+A Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|From Farmer Yoon.|
 C Harvest the cabbage|QID|30256|M|52.02,48.30|NC|N|Click on the cabbages.|
-T Learn and Grow IV:Harvesting|QID|30256|M|52.23,48,83|To Farmer Yoon.|
-A Learn and Grow V:Halfhill Market|QID|30257|M|52.23,48,83|From Farmer Yoon.|
+T Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|To Farmer Yoon.|
+A Learn and Grow V: Halfhill Market|QID|30257|M|52.25,48.79|From Farmer Yoon.|
 C Presentation is everything!|QID|30257|M|52.75,48.07|NC|N|Pick a flower for Gina and deliver your produce to market.|
-T Learn and Grow V:Halfhill Market|QID|30257|M|53.17,51.75|To Gina Mudclaw, if you plan to continue with farming grab the follow-up, but it is not included in the guide. You can farm a limited number and type of plants pre level 90.|
+T Learn and Grow V: Halfhill Market|QID|30257|M|53.16,51.79|To Gina Mudclaw, if you plan to continue with farming grab the follow-up, but it is not included in the guide. You can farm a limited number and type of plants pre level 90.|
 
-r Repair/Restock|QID30049|M|53.14,51.79|N|Now that we have the Quartermaster talking to us, we can repair.|
+r Repair/Restock|QID|30049|M|53.14,51.79|N|Now that we have the Quartermaster talking to us, we can repair.|
 
 T Doesn't Hold Water|QID|30049|M|54.28,38.74|N|To Mudmug, on the northern exit of the ring road, pacing around his barrels.|
 A The Great Water Hunt|QID|30051|M|54.19,38.65|N|From Mudmug.|
@@ -247,7 +258,7 @@ C The Great Water Hunt|QID|30051|US|NC|M|53.20,31.92|N|Lead Mudmug to the pools 
 T The Great Water Hunt|QID|30051|M|53.32,32.16|N|To Mudmug, who is right next to you!|
 A Barreling Along|QID|30172|M|53.32,32.16|N|From Mudmug. We are just going to let him tag along until we next go the Halfhill.|
 
-R The Heartland|CC|M|48.31,33.85|
+R The Heartland|QID|30053|CC|M|48.31,33.85|
 C Speak with Gardener Fran|QID|30053|NC|QO|Speak with Gardener Fran: 1/1|M|48.31,33.48|
 A Gardener Fran and the Watering Can|QID|30050|US|M|48.20,33.50|N|From Gardener Fran.|
 C Gardener Fran and the Watering Can|QID|30050|NC|U|77281|M|48.20,33.50|N|Talk to Gardener Fran to start. Use the "Special action Button" to water the sparkly areas in the gardens she yells for. You can do this while mounted.|
@@ -277,8 +288,8 @@ T Barreling Along|QID|30172|M|55.89,49.43|N|To Chen Stormstout.|
 T Stormstout's Hops|QID|30055|M|55.89,49.43|N|To Chen Stormstout.|
 
 T Children of the Water |QID|32045|M|55.13,47.38|N|To Stonecarver Mac|; Halfhill
-A Temple of the White Tiger|QID|31392|FACTION|Alliance|M|55.96,51.84|N|From Hopsmaster Chang.|
-A Temple of the White Tiger|QID|31393|FACTION|Horde|M|55.96,51.84|N|From Hopsmaster Chang.|
+A Temple of the White Tiger|QID|31392|FACTION|Alliance|M|56.03,51.80|N|From Hopsmaster Chang.|
+A Temple of the White Tiger|QID|31393|FACTION|Horde|M|56.03,51.80|N|From Hopsmaster Chang.|
 
 R The Imperial Granary|QID|30048|M|56.22,52.96;52.72,62.82;55.22,58.54|CS|
 T Li Li and the Grain|QID|30048|M|52.69,62.83|N|To Li Li.|
@@ -332,18 +343,18 @@ A Into the Brewery|QID|30085|M|36.09,68.96|N|From Chen Stormstout. This is a dun
 A Stoneplow Thirsts|QID|30117|M|36.19,68.29|N|From Emmi.|
 
 R Nesingwary's Safari|QID|30181|M|16,83|CC|
-A Stalker Mastery |QID|30183|M|16.2,82.5|N|From Tani|
-A Mushan Mastery |QID|30181|M|16.1,82.6|N|From Hemet Nesingwary Jr.|
+A Stalker Mastery |QID|30183|M|16.19,82.53|N|From Tani|
+A Mushan Mastery |QID|30181|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
 
 C Kill Mushan|QID|30181|S|M|11.90,68.81|N|Yes, you have to turn this in before you can get the next step, even though there are mushan among the foxes and stags.|
 C Kill Tigers|QID|30183|M|11.90,68.81|
 C Kill Mushan|QID|30181|US|M|11.90,68.81|N|Yes, you have to turn this in before you can get the next step, even though there are mushan among the foxes and stags.|
 
-T Mushan Mastery |QID|30181|M|16.1,82.6|N|To Hemet Nesingwary Jr.|
-T Stalker Mastery |QID|30183|M|16.2,82.5|N|To Tani|
-A Fox Mastery|QID|30182|M|16.20,82.41|N|To Tani.|
-A Stag Mastery |QID|32038|M|15.9,82.2|N|From Matt "Lucky" Gotcher|
-A Mushan Mastery: Darkhide |QID|30184|M|16.0,82.5|N|From Hemet Nesingwary|
+T Mushan Mastery |QID|30181|M|16.07,82.61|N|To Hemet Nesingwary Jr.|
+T Stalker Mastery |QID|30183|M|16.19,82.53|N|To Tani|
+A Fox Mastery|QID|30182|M|16.19,82.53|N|To Tani.|
+A Stag Mastery |QID|32038|M|15.90,82.24|N|From Matt "Lucky" Gotcher|
+A Mushan Mastery: Darkhide |QID|30184|M|16.01,82.49|N|From Hemet Nesingwary|
 
 C Kill Stags|QID|32038|S|M|24.47,68.43|
 C Kill Foxes|QID|30182|S|M|24.47,68.43|N|The foxes move around stealthed.|
@@ -351,45 +362,45 @@ K Darkhide|QID|30184|T|Darkhide|L|79058|M|26.7,69.6|N|Kill Darkhide and loot his
 C Kill Foxes|QID|30182|US|M|24.47,68.43|
 C Kill Stags|QID|32038|US|M|24.47,68.43|
 
-T Mushan Mastery: Darkhide |QID|30184|M|16.0,82.5|N|To Hemet Nesingwary|
-T Fox Mastery|QID|30182|M|16.20,82.41|N|To Tani.|
-A Tortoise Mastery |QID|30185|M|16.1,82.6|N|From Hemet Nesingwary Jr.|
-T Stag Mastery |QID|32038|M|15.9,82.2|N|To Matt "Lucky" Gotcher|
+T Mushan Mastery: Darkhide |QID|30184|M|16.01,82.49|N|To Hemet Nesingwary|
+T Fox Mastery|QID|30182|M|16.19,82.53|N|To Tani.|
+A Tortoise Mastery |QID|30185|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
+T Stag Mastery |QID|32038|M|15.90,82.24|N|To Matt "Lucky" Gotcher|
 
 C Kill Tortoises|QID|30185|M|20.5,74.6|
 
-T Tortoise Mastery |QID|30185|M|19.9,75.7|N|To Hemet Nesingwary Jr.|
-A Parental Mastery|QID|30186|M|19.87,75.67|
+T Tortoise Mastery |QID|30185|M|19.91,75.66|N|To Hemet Nesingwary Jr, at the Torjari Pit edge.|
+A Parental Mastery|QID|30186|M|19.91,75.66|N|From Hemet Nesingwary Jr.|
 C Parental Mastery|QID|30186|M|24.59,74.27|N|Follow the Nesingwary's into the underwater cave.|
-T Parental Mastery|QID|30186|M|16.02,82.50|N|To Hemet Nesingwary back at the campsite.|
-r Restock/No Repair|QID|29872|M|16.1,82.9|N|At Steven Walker.|
+T Parental Mastery|QID|30186|M|16.01,82.49|N|To Hemet Nesingwary back at the campsite.|
+r Restock/No Repair|QID|29872|M|16.14,82.91|N|At Steven Walker.|
 
 R Stoneplow|QID|29872|M|20.23,58.52|CC|Ride cross-country towards the next green dot.|
 f Stoneplow|M|20.23,58.52|N|From "Dragonwing"Dan.|
-T Lin Tenderpaw|QID|29872|M|19.83,56.94|N|To Lin Tenderpaw.|
-A Stemming the Swarm|QID|29981|M|19.83,56.94|N|From Lin Tenderpaw.|
+T Lin Tenderpaw|QID|29872|M|19.87,56.92|N|To Lin Tenderpaw.|
+A Stemming the Swarm|QID|29981|M|19.87,56.92|N|From Lin Tenderpaw.|
 T Stoneplow Thirsts|QID|30117|M|19.55,56.93|N|To Loon Mai.|
 A Evacuation Orders|QID|29982|M|19.55,56.93|N|From Loon Mai.|
 
 C Stemming the Swarm|QID|29981|S|M|15.6,58.09|N|Kill Ik'thik Mantids in the area.|
-C Talk to the Greentills|QID|29982|NC|QO|Evacuate the Greentill family: 1/1|M|15.3,56.19|
-C Talk to the Marlfurs|QID|29982|NC|QO|Evacuate the Marlfur family: 1/1|M|15.43,54.95|
-C Talk to the Spadepaws|QID|29982|NC|QO|Evacuate the Spadepaw family: 1/1|M|12.85,55.66|
-C Talk to Blacksoils|QID|29982|NC|QO|Evacuate the Blacksoil family: 1/1|M|7.14,54.78|N|After you talk to Blacksoil the first time, an ambusher will attack. After you kill it, he will reconsider. Talk to him again to complete this step.|
+C Talk to the Greentills|QID|29982|NC|QO|Evacuate the Greentill family: 1/1|M|15.77,56.29|
+C Talk to the Marlfurs|QID|29982|NC|QO|Evacuate the Marlfur family: 1/1|M|15.45,54.84|
+C Talk to the Spadepaws|QID|29982|NC|QO|Evacuate the Spadepaw family: 1/1|M|12.88,55.92|
+C Talk to Blacksoils|QID|29982|NC|QO|Evacuate the Blacksoil family: 1/1|M|7.14,54.84|N|After you talk to Blacksoil the first time, an ambusher will attack. After you kill it, he will reconsider. Talk to him again to complete this step.|
 C Stemming the Swarm|QID|29981|US|M|15.6,58.09|N|Finish killing mantids as you return to the "safe" area.|
 
-T Evacuation Orders|QID|29982|M|19.55,56.93|N|To Loon Mai.|
-T Stemming the Swarm|QID|29981|M|19.55,56.93|N|To Loon Mai.|
-A The Hidden Master|QID|29983|M|19.55,56.93|N|From Loon Mai.|
+T Evacuation Orders|QID|29982|M|19.55,56.87|N|To Loon Mai.|
+T Stemming the Swarm|QID|29981|M|19.55,56.87|N|To Loon Mai.|
+A The Hidden Master|QID|29983|M|19.55,56.87|N|From Loon Mai.|
 
-R Paoquan Hollow|QID|29983|M|18,31|CC|
-T The Hidden Master|QID|29983|M|18.2,31.26|N|To Master Bruised Paw.|
-A Unyielding Fists: Trial of Bamboo|QID|29984|M|18.2,31.26|N|From Master Bruised Paw.|
+R Paoquan Hollow|QID|29983|M|18.15,31.60|CC|
+T The Hidden Master|QID|29983|M|18.30,31.23|N|To Master Bruised Paw.|
+A Unyielding Fists: Trial of Bamboo|QID|29984|M|18.30,31.23|N|From Master Bruised Paw.|
 C Trial of Bamboo|QID|29984|NC|M|18.2,31.26|N|Talk to the Master to accept the challenge and get put into a 'vehicle'. Press the "1" key when the circle is full and 'glowy'. Cutscene follows each of these.|
-T Unyielding Fists: Trial of Bamboo|QID|29984|PRE|29983|M|18.2,31.26|N|To Master Bruised Paw, Cutscene follows immediately after.|
-A They Will Be Mist|QID|29985|N|From Master Bruised Paw.|
-A Fog Wards|QID|29986|N|From Master Bruised Paw.|
-A Tenderpaw By Name, Tender Paw By Reputation|QID|29992|N|From Lin Tenderpaw|
+T Unyielding Fists: Trial of Bamboo|QID|29984|PRE|29983|M|18.30,31.23|N|To Master Bruised Paw, Cutscene follows immediately after.|
+A They Will Be Mist|QID|29985|M|18.30,31.23|N|From Master Bruised Paw.|
+A Fog Wards|QID|29986|M|18.30,31.23|N|From Master Bruised Paw.|
+A Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.06,31.00|N|From Lin Tenderpaw|
 
 C They Will Be Mist|QID|29985|S|M|18.17,41.49|
 C Tenderpaw By Name, Tender Paw By Reputation|QID|29992|S|NC|M|16.64,37.64|
@@ -408,14 +419,14 @@ T Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|To Master Bruised Pa
 A A Taste For Eggs|QID|29988|M|18.24,31.26|N|From Master Bruised Paw.|
 C Hornbill Strider Egg|QID|29988|QO|Hornbill Strider Egg: 1/1|M|26.9,39.1|N|Inside the cave, The momma bird will come to show her displeasure with you.|; Singing Marshes
 C A Taste For Eggs|QID|29988|M|24,45;26.9,39.1|N|Gather the rest of your eggs in the area around the markers|; Singing Marshes
-T A Taste For Eggs|QID|29988|M|18.22,31.34|N|To Master Bruised Paw.|
-A Unyielding Fists: Trial of Stone|QID|29989|M|18.24,31.29|N|From Master Bruised Paw.|
+T A Taste For Eggs|QID|29988|M|18.29,31.24|N|To Master Bruised Paw.|
+A Unyielding Fists: Trial of Stone|QID|29989|M|18.29,31.24|N|From Master Bruised Paw.|
 C Trial of Stone|QID|29989|M|18.16,32.15|N|Same routine, this time we get to break stone, while the master throws eggs at us.|
-T Unyielding Fists: Trial of Stone|QID|29989|M|18.27,31.27|N|To Master Bruised Paw.|
-A Training and Discipline|QID|29990|M|18.03,31.03|N|From Lin Tenderpaw.|
+T Unyielding Fists: Trial of Stone|QID|29989|M|18.29,31.24|N|To Master Bruised Paw.|
+A Training and Discipline|QID|29990|M|18.05,31.07|N|From Lin Tenderpaw.|
 
 R Stoneplow|QID|29990|M|19,56|CC|
-T Training and Discipline|QID|29990|M|19.51,56.96|N|To Loon Mai.|
+T Training and Discipline|QID|29990|M|19.55,56.87|N|To Loon Mai.|
 A The Road to Kun-Lai|QID|31254|FACTION|Alliance|M|70.1,23.5|N|From Highlord Grummle, requires level 87 and leads you to Kun-Lai. Skip if you do not want to quest there.|
 A The Road to Kun-Lai|QID|31255|FACTION|Horde|M|70.1,23.5|N|From Highlord Grummle, requires level 87and leads you to Kun-Lai. Skip if you do not want to quest there.|
 F Congratulations, you finished Valley of the Four Winds.|QID|29873|M|20.24,58.64|N|You finished Valley of the Four Winds, Dragonwing Dan will give you a free flight (if you ask within 20 min of turning in last quest) into Krasarang Wilds(a flight point you don't have yet). Next guide assumes you chose to go see Ken-Ken.|

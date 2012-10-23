@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2012-10-22 20:33
+-- Who: 
+-- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35. 
+
+-- URL: http://wow-pro.com/node/3440/revisions/25015/view
 -- Date: 2012-06-30 19:28
 -- Who: 
 -- Log: More zone name corrections.
@@ -158,7 +163,7 @@ F Light's Hope Chapel|QID|12402|M|75.80,53.37|Z|Eastern Plaguelands|U|37586|
 A Candy Bucket |QID|12402|M|75.56,52.40|Z|Eastern Plaguelands|N|Light's Hope Chapel|
 F Chillwind Camp|QID|28988|M|42.95,84.95|Z|Western Plaguelands|U|37586|
 A Candy Bucket |QID|28988|M|43.42,84.44|Z|Western Plaguelands|N|Chillwind Camp|
-C A Time to Lose|QID|29371|M|70.15,14.54|Z|Tirisfal Glades|U|68648|
+C A Time to Lose|QID|29371|M|70.15,14.54|Z|Undercity|U|68648|
 
 H Stormwind City|QID|99999|N|Return to Stormwind|Z|Stormwind City|
 T Hallow's End Treats for Jesper!|QID|8311|M|32.08,50.45|N|To Jespers.|Z|Elwynn Forest|

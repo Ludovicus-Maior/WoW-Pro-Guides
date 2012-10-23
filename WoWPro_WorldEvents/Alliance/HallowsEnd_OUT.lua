@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2012-10-22 20:33
+-- Who: 
+-- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35. 
+
+-- URL: http://wow-pro.com/node/3440/revisions/25015/view
 -- Date: 2012-06-30 19:28
 -- Who: 
 -- Log: More zone name corrections.
