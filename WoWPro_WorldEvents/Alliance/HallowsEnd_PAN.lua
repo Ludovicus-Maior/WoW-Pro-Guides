@@ -1,12 +1,68 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2012-10-24 03:29
+-- Who: 
+-- Log: Add MoP Hallows End.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25152/view
+-- Date: 2012-10-22 20:33
+-- Who: 
+-- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35. 
+
+-- URL: http://wow-pro.com/node/3440/revisions/25015/view
+-- Date: 2012-06-30 19:28
+-- Who: 
+-- Log: More zone name corrections.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25014/view
+-- Date: 2012-06-30 19:22
+-- Who: 
+-- Log: Add coords for flight Booty Bay flight point and correct zone.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25013/view
+-- Date: 2012-06-30 19:16
+-- Who: 
+-- Log: Wrong zone in Booty Bay Candy Bucket
+
+-- URL: http://wow-pro.com/node/3440/revisions/24909/view
+-- Date: 2012-01-19 21:47
+-- Who: 
+-- Log: Delete duplicate guide
+
+-- URL: http://wow-pro.com/node/3440/revisions/24790/view
+-- Date: 2011-10-31 16:12
+-- Who: 
+-- Log: Moved location names around so auto-accept/turn-in will work.
+
+-- URL: http://wow-pro.com/node/3440/revisions/24784/view
+-- Date: 2011-10-29 22:16
+-- Who: 
+-- Log: Added in Twist's Hallows End guides.
+
+-- URL: http://wow-pro.com/node/3440/revisions/24775/view
+-- Date: 2011-10-28 09:03
+-- Who: 
+-- Log: Added note about candy bucket being in one of two place for Westfall due to phasing.  From tepes.
+
+-- URL: http://wow-pro.com/node/3440/revisions/24773/view
+-- Date: 2011-10-28 08:04
+-- Who: 
+
+-- URL: http://wow-pro.com/node/3440/revisions/24770/view
+-- Date: 2011-10-28 08:00
+-- Who: 
+
 WoWPro.WorldEvents:RegisterGuide("LudoHallowPanA","Hallows End (Pandaria)","Hallows End (Pandaria)","WE", "Ludovicus", "Alliance", function()
 return [[
 
 N Wall of Text Part 1 of 2|QID|32049|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".|Z|The Jade Forest|
 N Wall of Text Part 2 of 2|QID|32049|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|Z|The Jade Forest|
 
-
-R The Jade Forest|QID|32049|M|68.69,17.12|Z|Stormwind City|N|Take your portal to The Jade Forest|
-
+R The Jade Forest|N|Take your portal to The Jade Forest|
 
 A Candy Bucket|QID|32049|M|44.81,84.37|Z|The Jade Forest|N|Jiayi Applebloom, Paw'Don Village.|FACTION|Alliance|
 F Pearlfin Village|QID|32033|M|46.04,85.14|Z|The Jade Forest|N|Ask Wing Kyo to go to Pearlfin Village|U|37586|
@@ -33,7 +89,7 @@ A Candy Bucket|QID|32048|M|83.64,20.14|Z|Valley of the Four Winds|N|Nan Thunderf
 F Stoneplow|QID|32046|M|84.50,21.06|Z|Valley of the Four Winds|N|Ask Princeton to go to Stoneplow|U|37586|
 
 A Candy Bucket|QID|32046|M|19.87,55.79|Z|Valley of the Four Winds|N|Nan the Mason Mug, Stoneplow (Phasing Issues?)|
-F Marista|QID|32034|M|20.31,58.67|Z|Valley of the Four Winds|N|Ask "Dragonwing Dan" to go to Marista|U|37586| 
+F Marista|QID|32034|M|20.31,58.67|Z|Valley of the Four Winds|N|Ask "Dragonwing Dan" to go to Marista|U|37586|
 
 A Candy Bucket|QID|32034|M|51.42,77.25|Z|Krasarang Wilds|N|Cranfur the Noodler, Marista|
 F Zhu's Watch|QID|32036|M|52.48,76.60|Z|Krasarang Wilds|N|Ask Nan-Po to go to Zhu's Watch|U|37586|
@@ -59,7 +115,6 @@ F Zouchin Village|QID|32051|M|57.73,59.69|Z|Kun-Lai Summit|N|Ask Little Cleankit
 
 A Candy Bucket|QID|32051|M|62.50,28.91|Z|Kun-Lai Summit|N|Liu Ze, Zouchin Village |
 F Longying Outpost|QID|32043|M|62.42,30.12|Z|Kun-Lai Summit|N|Ask Bo the Wind Claimer to go to Longying Outpost in Townlong Steppes|U|37586|
-
 
 A Candy Bucket|QID|32043|M|71.13,57.80|Z|Townlong Steppes|N|Saito the Sleeping Shadow, Longying Outpost|
 F Klaxxi'vess|QID|32024|M|71.08,57.31|Z|Townlong Steppes|N|Ask Kit Master Wong to go to Klaxxi'vess in Dread Wastes|U|37586|

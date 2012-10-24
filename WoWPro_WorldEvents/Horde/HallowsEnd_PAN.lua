@@ -1,9 +1,44 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2012-10-24 21:10
+-- Who: 
+-- Log: Add Horde Pandaria Hallows End TRIAL.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24895/view
+-- Date: 2012-01-18 23:55
+-- Who: 
+-- Log: Sync to GIT.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24785/view
+-- Date: 2011-10-29 22:20
+-- Who: 
+
+-- URL: http://wow-pro.com/node/3441/revisions/24782/view
+-- Date: 2011-10-29 18:19
+-- Who: 
+-- Log: Fixed QID errors.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24779/view
+-- Date: 2011-10-29 02:36
+-- Who: 
+
+-- URL: http://wow-pro.com/node/3441/revisions/24772/view
+-- Date: 2011-10-28 08:04
+-- Who: 
+
+-- URL: http://wow-pro.com/node/3441/revisions/24771/view
+-- Date: 2011-10-28 08:03
+-- Who: 
+
 WoWPro.WorldEvents:RegisterGuide("LudoHallowPanH","Hallows End (Pandaria)","Hallows End (Pandaria)","WE", "Ludovicus", "Horde", function()
 return [[
 
-N Wall of Text Part 1 of 2|QID|-1|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...". 
+N Wall of Text Part 1 of 2|QID|-1|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".
 N Wall of Text Part 2 of 2|QID|-1|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
-
 
 R The Jade Forest|N|Take your portal to The Jade Forest|
 
@@ -32,7 +67,7 @@ A Candy Bucket|QID|32048|M|83.64,20.14|Z|Valley of the Four Winds|N|Nan Thunderf
 F Stoneplow|QID|32046|M|84.50,21.06|Z|Valley of the Four Winds|N|Ask Princeton to go to Stoneplow|U|37586|
 
 A Candy Bucket|QID|32046|M|19.87,55.79|Z|Valley of the Four Winds|N|Nan the Mason Mug, Stoneplow (Phasing Issues?)|
-F Marista|QID|32034|M|20.31,58.67|Z|Valley of the Four Winds|N|Ask "Dragonwing Dan" to go to Marista|U|37586| 
+F Marista|QID|32034|M|20.31,58.67|Z|Valley of the Four Winds|N|Ask "Dragonwing Dan" to go to Marista|U|37586|
 
 A Candy Bucket|QID|32034|M|51.42,77.25|Z|Krasarang Wilds|N|Cranfur the Noodler, Marista|
 F Zhu's Watch|QID|32036|M|52.48,76.60|Z|Krasarang Wilds|N|Ask Nan-Po to go to Zhu's Watch|U|37586|
@@ -59,7 +94,6 @@ F Zouchin Village|QID|32051|M|57.73,59.69|Z|Kun-Lai Summit|N|Ask Little Cleankit
 A Candy Bucket|QID|32051|M|62.50,28.91|Z|Kun-Lai Summit|N|Liu Ze, Zouchin Village |
 F Longying Outpost|QID|32043|M|62.42,30.12|Z|Kun-Lai Summit|N|Ask Bo the Wind Claimer to go to Longying Outpost in Townlong Steppes|U|37586|
 
-
 A Candy Bucket|QID|32043|M|71.13,57.80|Z|Townlong Steppes|N|Saito the Sleeping Shadow, Longying Outpost|
 F Klaxxi'vess|QID|32024|M|71.08,57.31|Z|Townlong Steppes|N|Ask Kit Master Wong to go to Klaxxi'vess in Dread Wastes|U|37586|
 
@@ -75,7 +109,6 @@ F Mistfall Village|QID|-24|M|84.62,62.42|Z|Vale of Eternal Blossoms|N|Ask Sharin
 
 A Candy Bucket|QID|-24|M|35.15,77.75|Z|Vale of Eternal Blossoms|N|Anonymous, Mistfall Village, phased|
 N You made it!|N|Done with MoP|
-
 
 ]]
 end)
