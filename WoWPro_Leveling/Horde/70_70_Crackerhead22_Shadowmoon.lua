@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2012-10-23 20:25
+-- Who: 
+-- Log: Adding min Level tag, and at Level 67, you "auto-learn" location of Shadowmoon Village
+
+-- URL: http://wow-pro.com/node/3286/revisions/24676/view
 -- Date: 2011-07-11 22:35
 -- Who: 
 -- Log: Numeric Rep Tags
@@ -33,10 +38,12 @@
 WoWPro.Leveling:RegisterGuide('CraSha7070H', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', 'JamBor7173', 'Horde', function()
 return [[
 
+L Level 67 |QID|11048|N|You need to be Level 67 to work this guide.|
+
 A Kroghan's Report|QID|11048|M|55.37,37.47|Z|Nagrand|N|From Captain Kroghan in Nagrand.|
-F Stonebreaker Hold|QID|11048|M|57.19,35.28|Z|Nagrand|N|Fly to Stonebreaker Hold.|
-R Shadowmoon Valley|QID|11048|M|78,59|Z|Terokkar Forest|N|Run to Shadowmoon Valley.|
+F Shadowmoon Village|QID|11048|M|57.19,35.28|Z|Nagrand|N|Fly to Shadowmoon Village, Shadowmoon Valley.|
 T Kroghan's Report|QID|11048|M|30.39,32.42|N|To Blood Guard Gulmok.|
+
 A Besieged!|QID|10595|M|30.39,32.42|N|From Blood Guard Gulmok.|
 C Besieged!|QID|10595|M|31.03,34.36|N|Kill 10 Infernal Attackers.|
 T Besieged!|QID|10595|M|30.46,32.49|N|To Blood Guard Gulmok.|
