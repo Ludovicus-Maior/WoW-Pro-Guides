@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2012-10-24 21:10
+-- Who: 
+-- Log: Add Horde Pandaria Hallows End TRIAL.
+
+-- URL: http://wow-pro.com/node/3441/revisions/24895/view
 -- Date: 2012-01-18 23:55
 -- Who: 
 -- Log: Sync to GIT.
