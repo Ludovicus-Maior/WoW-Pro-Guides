@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-10-28 01:06
+-- Who: 
+-- Log: Inkgill Mere touchups
+
+-- URL: http://wow-pro.com/node/3490/revisions/25150/view
 -- Date: 2012-10-22 20:04
 -- Who: 
 -- Log: corrected the guide number (from 3487) so it linked to the correct page.
@@ -103,11 +108,11 @@ T General Nazgrim has Awakened|QID|30511|FACTION|Horde|M|71.62,93.12|N|To Genera
 A Eastwind Rest|QID|30513|FACTION|Horde|M|71.62,93.12|N|From General Nazgrim.|
 
 R Inkgill Mere|QID|30467|M|74.43,90.23|
-A Repossession|QID|30469|M|74.94,88.85|N|From Merchant Shi.|
-A My Son...|QID|30467|M|74.94,88.85|N|From Merchant Shi.|
-A Enraged Vengeance|QID|30468|M|74.77,88.74|N|From Swordmistress Mei.|
-A The Waterspeaker's Staff|QID|30496|M|75.07,87.97|N|From Waterspeaker Gorai.|
-A Free the Dissenters|QID|30967|M|75.07,87.97|N|From Waterspeaker Gorai.|
+A Repossession|QID|30469|M|74.96,88.86|N|From Merchant Shi.|
+A My Son...|QID|30467|M|74.96,88.86|N|From Merchant Shi.|
+A Enraged Vengeance|QID|30468|M|74.80,88.68|N|From Swordmistress Mei.|
+A The Waterspeaker's Staff|QID|30496|M|75.13,87.93|N|From Waterspeaker Gorai.|
+A Free the Dissenters|QID|30967|M|75.13,87.93|N|From Waterspeaker Gorai.|
 C Free the Dissenters|QID|30967|S|M|74.40,78.82|N|Talk to the Prisoners to free them.|
 C Repossession|QID|30469|M|73.99,77.54|S|N|Pick up the sparklies on the ground (usually against the buildings).|
 C Enraged Vengeance|QID|30468|M|73.26,77.51|S|N|Kill them as your work your way towards the merchant's son.|
@@ -117,20 +122,20 @@ A Father and Child Reunion|QID|30834|M|74.68,76.88|N|From Wu-Peng.|
 C Free the Dissenters|QID|30967|US|M|74.40,78.82|N|Talk to the Prisoners to free them.|
 C Repossession|QID|30469|M|73.99,77.54|US|N|Groundspawn, especially up against the buildings.|
 C Enraged Vengeance|QID|30468|M|73.26,77.51|US|
-T The Waterspeaker's Staff|QID|30496|M|75.17,88.21|N|To Waterspeaker Gorai.|
-T Free the Dissenters|QID|30967|M|75.17,88.21|N|To Waterspeaker Gorai.|
-T Repossession|QID|30469|M|74.95,88.86|N|To Merchant Shi.|
-T Father and Child Reunion|QID|30834|M|74.95,88.86|N|To Merchant Shi, it may take a few seconds for the quest to update and complete.|
-T Enraged Vengeance|QID|30468|M|74.79,88.70|N|To Swordmistress Mei.|
-A The Ritual|QID|30480|M|75.17,88.26|N|From Waterspeaker Gorai.|
-C The Ritual|QID|30480|M|74.92,88.52|N|Talk to the Waterspeaker to start the ritual, you will need to kill some sha during the ritual.|
-T The Ritual|QID|30480|M|74.92,88.52|N|To Waterspeaker Gorai.|
-A Cleansing the Mere|QID|30828|M|74.92,88.52|N|From Waterspeaker Gorai.|
-C Cleansing the Mere|QID|30828|M|71.74,87.39|N|Click on the waterspots, to tell him to start his ritual, a sha will come out, kill it.|
-T Cleansing the Mere|QID|30828|M|71.74,87.39|N|To Waterspeaker Gorai.|
-A The Fall of Shai Hu|QID|30855|M|71.74,87.39|N|From Waterspeaker Gorai.|
+T The Waterspeaker's Staff|QID|30496|M|75.20,88.25|N|To Waterspeaker Gorai.|
+T Free the Dissenters|QID|30967|M|75.20,88.25|N|To Waterspeaker Gorai.|
+T Repossession|QID|30469|M|74.96,88.86|N|To Merchant Shi.|
+T Father and Child Reunion|QID|30834|M|74.96,88.86|N|To Merchant Shi, it may take a few seconds for the quest to update and complete.|
+T Enraged Vengeance|QID|30468|M|74.80,88.68|N|To Swordmistress Mei.|
+A The Ritual|QID|30480|M|75.20,88.25|N|From Waterspeaker Gorai.|
+C The Ritual|QID|30480|M|74.92,88.52|N|Talk to the Waterspeaker to start the ritual, you will need to kill a sha during the ritual.|
+T The Ritual|QID|30480|M|74.91,88.58|N|To Waterspeaker Gorai.|
+A Cleansing the Mere|QID|30828|M|74.91,88.58|N|From Waterspeaker Gorai.|
+C Cleansing the Mere|QID|30828|M|71.51,86.31|N|Find and click on the sha-waterspouts in the lake, to start his ritual, a sha will come out, kill it.|
+T Cleansing the Mere|QID|30828|N|To Waterspeaker Gorai.|
+A The Fall of Shai Hu|QID|30855|N|From Waterspeaker Gorai.|
 C The Fall of Shai Hu|QID|30855|M|71.16,82.96|N|Kill the small Sha on the island, reasonably close to Shai Hu to weaken him.|
-T The Fall of Shai Hu|QID|30855|M|74.93,88.53|N|To Waterspeaker Gorai, back at Inkgill Mere.|
+T The Fall of Shai Hu|QID|30855|M|74.90,88.58|N|To Waterspeaker Gorai, back at Inkgill Mere.|
 
 C Run to see Farmhand Ko|QID|30513|FACTION|Horde|NC|QO|Speak with Farmhand Ko: 1/1|M|63.65,86.68|N|Talk to Farmhand Ko.|
 C Continue up the road to Elder Shiao|QID|30513|FACTION|Horde|NC|QO|Speak with Elder Shiao: 1/1|M|61.25,82.25|N|Talk to Elder Shiao.|
