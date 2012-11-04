@@ -200,7 +200,7 @@ Web2Log = {}
 
 class FindRevisions(HTMLParser):
 
-    def __init__(self,Page):
+    def __init__(self,Page, Test=False):
         HTMLParser.__init__(self)
         try:
 	    self._Page = Page
@@ -218,10 +218,18 @@ class FindRevisions(HTMLParser):
             self._inProfile = False
             self._inLog = False
 	    self._WebLog = []
+	    self._Test = Test
+	    self._RevisionHref = ""
+            self._RevisionDate = ""
+            self._RevisionWho = ""
+            self._RevisionLog = ""
         except IOError:
             print "! Failed to open Page URL."
             pass
 
+    def dprint(self,*args):
+	    if self._Test:
+		print args
 
     def handle_starttag(self, tag, attrs):
         if tag == "table":
@@ -244,13 +252,13 @@ class FindRevisions(HTMLParser):
             return
         if self._inRevisionTable and self._inTbody and tag == "tr":
             self._inTr = True
+            return
+        if self._inRevisionTable and self._inTr and tag == "td":
+            self._inTd = True
             self._RevisionHref = ""
             self._RevisionDate = ""
             self._RevisionWho = ""
             self._RevisionLog = ""
-            return
-        if self._inRevisionTable and self._inTr and tag == "td":
-            self._inTd = True
             return
         if self._inRevisionTable and self._inTd and tag == "a":
             for attr in attrs:
@@ -277,6 +285,7 @@ class FindRevisions(HTMLParser):
         if self._inRevisionTable and self._inTd and tag == "td" and self._RevisionHref != "":
             self._inTd = False
 	    self._WebLog.append({ 'URL': self._RevisionHref, 'Date': self._RevisionDate, 'Who': self._RevisionWho, 'Log':self._RevisionLog})
+	    self.dprint(str.format("URL: {0} Date: {1} Who: {2} Log: {3}",self._RevisionHref,self._RevisionDate,  self._RevisionWho , self._RevisionLog ))
             self._RevisionHref = ""
             self._RevisionDate = ""
             self._RevisionWho = ""
@@ -302,7 +311,10 @@ class FindRevisions(HTMLParser):
         if self._inProfile:
             self._RevisionWho = data
         if self._inLog:
-            self._RevisionLog = data      
+            self._RevisionLog = data
+        who=re.search("by (.+)",data)
+        if  self._RevisionDate != "" and self._RevisionWho == "" and who:
+            self._RevisionWho = who.group(1)
  
     def ReadGuide(self):
 #        print "## Reading URL"
@@ -450,9 +462,9 @@ if __name__ == "__main__":
     if pa.test == True:
         print "## Running short test"
         ScrapeWoWProLua("/Applications/World of Warcraft/Interface/Addons/WoWPro_Leveling/Alliance/40_45_Wkjezz_Thousand_Needles.lua")
-        fs=FindSource(" http://wow-pro.com/node/3253")
+        fs=FindSource("http://wow-pro.com/node/3253")
         src=fs.ReadGuide()
-        fs=FindRevisions(" http://wow-pro.com/node/3253")
+        fs=FindRevisions("http://wow-pro.com/node/3253",True)
         src=fs.ReadGuide()
         UpdateGuideFile("WkjTho4045")
         exit(0)
