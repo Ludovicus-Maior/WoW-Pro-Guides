@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2012-11-01 17:15
+-- Who: 
+
+-- URL: http://wow-pro.com/node/3486/revisions/25146/view
 -- Date: 2012-10-20 22:49
 -- Who: 
 -- Log: More coord tweaks, spelling corrections, more QO's and glitch warnings.
@@ -92,63 +96,75 @@ return [[
 
 N Welcome to Pandaria|N|Don't forget to train your tradeskills before you leave Stormwind, the new trainers are not available immediately upon arriving in Pandaria.|
 A The King's Command|QID|29547|N|Autogiven upon entering Stormwind City.|
-C The King's Command|QID|29547|M|80.82,37.61|Z|Stormwind City|N|Run into the keep.|
+C The King's Command|QID|29547|M|80.82,37.61|Z|Stormwind City|N|Run into the keep.|NC|
 T The King's Command|QID|29547|M|78.70,40.08|Z|Stormwind City|N|To Rell Nightwind|
-A The Mission|QID|29548|M|78.70,40.08|Z|Stormwind City|N|From Rell Nightwind.|
-C The Mission|QID|29548|M|41.47,70.19|Z|Eastern Kingdoms|N|North of and above the harbor.|
-T The Mission|QID|29548|M|42.04,92.75|N|To Sky Admiral Rogers.|
-A Unleash Hell|QID|31732|M|42.04,92.75|N|From Sky Admiral Rogers.|
-C Unleash Hell|QID|31732|M|42.02,92.51|N|Go to the chopper in the middle and get on it. Aim by using both mouse buttons.  The #1 button only shows when there is something to hit and goes away between target areas.|
-T Unleash Hell|QID|31732|M|42.04,92.75|N|To Sky Admiral Rogers.|
-A Touching Ground|QID|31733|M|41.47,70.19|N|From Sky Admiral Rogers.|
-C Touching Ground|QID|31733|NC|M|42.29,92.8|N|Pick up a parachute.|
 
-T Touching Ground|QID|31733|M|43.6,90.6|N|To Sully "The Pickle" McLeary.|
+A The Mission|QID|29548|M|78.70,40.08|Z|Stormwind City|N|From Rell Nightwind.|
+C The Mission|QID|29548|M|41.47,70.19|Z|Eastern Kingdoms|N|Fly up to the north-west of the city, above the harbor.|NC|
+T The Mission|QID|29548|M|42.04,92.75|N|To Sky Admiral Rogers.|
+
+A Unleash Hell|QID|31732|M|42.04,92.75|N|From Sky Admiral Rogers.|
+F Garrosh'ar Point|QID|31732|M|42.00,92.54|N|Board the Skyfire Gyrocopter located further along the deck.|
+C Unleash Hell|QID|31732|M|42.02,92.51|N|Your UI will shortly change to have just one option, button #1 will fire Torpedo Rocket.  Aim at the Garrosh'ar Shredder and Horde Grunts until you have killed the required number.|QO|Garrosh'ar Shredder slain: 8/8|
+C Unleash Hell|QID|31732|M|42.02,92.51|N|Continue with the Torpedo Rockets, killing the Horde Grunts unti you have killed the required number of horde.|QO|Garrosh'ar Horde slain: 60/60|
+C Unleash Hell|QID|31732|M|42.02,92.51|N|You will now be transported to the Bladefist Reaper.  Sink it with a Torpedo Rocket.|QO|Bladefist Reaper sunk: 1/1|
+C Unleash Hell|QID|31732|M|42.02,92.51|N|You will now be transported to the Stygian Scar.  Sink it with a Torpedo Rocket.|QO|Stygian Scar sunk: 1/1|
+C Unleash Hell|QID|31732|M|42.02,92.51|N|Kill the required targets with the Torpedo Rocket on your Skyfire Gyrocopter.|
+T Unleash Hell|QID|31732|M|42.04,92.75|N|Wait for the Skyfire Gyrocopter to return to the Skyfire, then to Sky Admiral Rogers.|
+
+A Touching Ground|QID|31733|M|41.47,70.19|N|From Sky Admiral Rogers.|
+C Touching Ground|QID|31733|NC|M|42.29,92.8|N|Pick up a Skyfire Parachute from the edge of the ship.|
+T Touching Ground|QID|31733|M|43.6,90.6|N|Allow yourself to parachute to Garrosh'ar Point, then to Sully "The Pickle" McLeary.|
+
 A No Plan Survives Contact with the Enemy|QID|30069|M|43.6,90.6|N|From Sully "The Pickle" McLeary.|
 A Welcome Wagons|QID|31734|M|43.6,90.6|N|From Sully "The Pickle" McLeary.|
+
 C No Plan Survives Contact with the Enemy|QID|30069|S|M|42.50,93.24|
-C Welcome Wagons|QID|31734|U|89612|M|44.00,94.22|N|Concentrate on getting the wagons; you will find plenty of Horde to kill along the way.|
-C No Plan Survives Contact with the Enemy|QID|30069|US|M|42.50,93.24|
+C Welcome Wagons|QID|31734|U|89612|M|44.00,94.22|N|Locate the Horde Wagons, and use Sully's Flaregun near them.  \n\nYou will find plenty of Horde to kill along the way, so concentrate on getting the wagons.|NC|
+C No Plan Survives Contact with the Enemy|QID|30069|US|M|42.50,93.24|N|Finish killing the required Grunts and Gear-Greasers.|
 
 T No Plan Survives Contact with the Enemy|QID|30069|M|45.1,95.0|N|To Rell Nightwind.|
 T Welcome Wagons|QID|31734|M|45.1, 95.0|N|To Rell Nightwind|
 A The Right Tool For The Job|QID|31735|M|45.1,95.0|N|From Rell Nightwind.|
 
-C Destroy the first barricade |QID|31735|U|89624|QO|First Barricade Destroyed: 1/1|M|45.6,95.2|N|Use the flaregun to ignite the powder and destroy the first baricade. In the beta, this quest was sometime buged and required to relog in order to have the barricades corretly phased with you.|; Garrosh'ar Point
-C Destroy the second barricade |QID|31735|U|89624|QO|Second Barricade Destroyed: 1/1|M|45.9,95.9|N|Use the flaregun to ignite the powder and destroy the second baricade|; Garrosh'ar Point
-K Confront Ga'trul |QID|31735|QO|Ga'trul Confronted: 1/1|M|46.3,96.3|N|Try to attack Ga'trul until he teleports away.|; Garrosh'ar Point
+C The Right Tool For The Job|QID|31735|U|89624|QO|First Barricade Destroyed: 1/1|M|45.51,95.20|N|Head to the first barricade, and use Sully's Flaregun near it.|NC|
+C The Right Tool For The Job|QID|31735|U|89624|QO|Second Barricade Destroyed: 1/1|M|45.94,95.83|N|Move along to the second barricade, and use Sully's Flaregun near it.|NC|
+C The Right Tool For The Job|QID|31735|QO|Ga'trul Confronted: 1/1|M|45.94,95.83|N|Move along to the end of the walkway, and try to attack Ga'trul (no combat).|NC|
+C The Right Tool For The Job|QID|31735|M|45.94,95.83|N|Head along the walkway, destroy the two barricades, then confront Ga'trul.|
 
-T The Right Tool For The Job|QID|31735|M|46.5,96.3|N|To Rell Nightwind.|
+T The Right Tool For The Job|QID|31735|M|46.5,96.3|N|To Rell Nightwind, who will appear at the end of the dock.|
 A Envoy of the Alliance|QID|31736|M|46.5,96.3|N|From Rell Nightwind.|
 A The Cost of War|QID|31737|M|46.5,96.3|N|From Rell Nightwind.|
 
-C The Cost of War|QID|31737|M|44.31,95.89;44.80,92.42;44.60,88.50|N|Make your way to the gates and then to the Village, killing along the way.|
-
-R Paw'don Village|QID|31737|M|46.05,85.10|
-C Envoy of the Alliance|QID|31736|M|45.9,85.0|
-
-f Paw'don Village|QID|31737|M|46.05,85.10|N|At Wing Kyo.|
-T The Cost of War|QID|31737|M|46.2,84.8|N|To Taran Zhu.|
+C The Cost of War|QID|31737|M|44.31,95.89;44.80,92.42;44.60,88.50|N|Make your way off the pier and kill the Sha Haunt and Harbringer.  Make your way northwards as you proceed.|
+C Envoy of the Alliance|QID|31736|M|45.9,85.0|N|Head to Sunke Khang at Paw'don Village to the north.|NC|
 T Envoy of the Alliance|QID|31736|M|46.2,84.8|N|To Sunke Khang.|
+T The Cost of War|QID|31737|M|46.2,84.8|N|To Taran Zhu.|
+
 A Pillaging Peons|QID|31738|M|46.13,84.58|N|From Sunke Khang.|
 A Priorities!|QID|31739|M|46.22,84.69|N|From Teng Applebloom.|
 A Critical Condition|QID|29552|M|46.10,84.54|N|From Mishka.|
-h Paw'don Village|M|44.9,84.4|N|Talk to Jiayi Applebloom. Paw'don is a good place to set your hearth since profession trainners are present and there is a portal to StormWind in the village|; Paw'don Village
-C Pillaging Peons|QID|31738|S|M|42.08,87.83|
+
+f Paw'don Village|QID|31737|M|46.05,85.10|N|Learn the Paw'don Village flight-point from Wing Kyo.|
+h Paw'don Village|M|44.9,84.4|N|Consider setting your hearthstone to Paw'don Village.  It has profession trainers present and there is a portal to Stormwind.|
+
+C Pillaging Peons|QID|31738|S|M|42.08,87.83|N|Kill the Peons.  The Taskmasters also count towards this quest.|
 C Critical Condition|QID|29552|S|NC|M|42.64,87.62|N|Right-click on the wounded soldiers to heal them.|
 C Priorities!|QID|31739|NC|M|43.62,88.27|N|Click on the applebloom cider barels and let Teng Applebloom pick them up. It's quite impressive to see him carry them all!|
 
-T Priorities!|QID|31739|M|39.56,90.09|N|To Lin Applebloom.|
-
+T Priorities!|QID|31739|M|39.56,90.09|N|To Lin Applebloom on an island to the west of the Glade.|
 A Koukou's Rampage|QID|31740|M|39.56,90.09|N|From Lin Applebloom.|
-K Koukou |QID|31740|T|Koukou|M|39.4,89.9|N|Put the poor Koukou out of his misery.  If he is not there, wait for a respawn.|
+C Koukou's Rampage|QID|31740|M|39.4,89.9|N|Kill Koukou.\n\nIf he is not there, wait for him to respawn.|
 
-C Critical Condition|QID|29552|US|NC|M|42.64,87.62|N|Right-click on the wounded soldiers to heal them.|
-C Pillaging Peons|QID|31738|US|M|42.08,87.83|
+C Critical Condition|QID|29552|US|NC|M|42.64,87.62|N|Finish healing the wounded soldiers by right-clicking them.|
+C Pillaging Peons|QID|31738|US|M|42.08,87.83|N|Finish killing the Peons.  The Taskmasters also count towards this quest.|
 
-T Koukou's Rampage|QID|31740|M|46.13,84.58|N|To Sunke Khang.|
+H Paw'don Village|QID|31740|N|Hearthstone (or run) to Paw'don Village|M|44.88,84.42|
+
 T Critical Condition|QID|29552|M|46.13,84.58|N|To Mishka.|
-T Pillaging Peons|QID|31738|M|46.24,84.79|N|To Sunke Khang.|
+T Koukou's Rampage|QID|31740|M|46.26,84.73|N|To Sunke Khang.|
+T Pillaging Peons|QID|31738|M|46.26,84.73|N|To Sunke Khang.|
+
 A Twinspire Keep|QID|31741|M|46.26,84.73|N|From Sunke Khang.|
 A Unfair Trade|QID|31744|M|46.26,84.73|N|From Sunke Khang.|
 A Fractured Forces|QID|31742|M|46.20,84.82|N|From Rell Nightwind.|
