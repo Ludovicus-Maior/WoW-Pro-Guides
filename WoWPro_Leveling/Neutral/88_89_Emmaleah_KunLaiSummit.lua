@@ -4,6 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-11-03 18:47
+-- Who: 
+-- Log: 3 Nov 2012 - Emmaleah - changed coords/note for C Do a Barrel Roll, added change log.
+--	TO DO: I notice the loot grey items worth gold/xp arent autochecking off. (when there in no item (doh!) going to try adding CC tags. will update if that works.  Anyone else have any other ideas?
+--	
+
+-- URL: http://wow-pro.com/node/3490/revisions/25177/view
+-- Date: 2012-11-02 04:12
+-- Who: 
+-- Log: Working my way through and had 2 Sticky steps for Blue Dwarf Needs Food Badly and a T step for the quest that wasn't complete.  Changed the second S step to US.  Not sure if this is correct or not.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25176/view
+-- Date: 2012-11-02 03:56
+-- Who: 
+-- Log: After the *R Mogujia* step, everything with that quest was Moguija.  I changed the spelling and hopefully it will auto-complete now.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25173/view
+-- Date: 2012-10-28 01:06
+-- Who: 
+-- Log: Inkgill Mere touchups
+
+-- URL: http://wow-pro.com/node/3490/revisions/25150/view
 -- Date: 2012-10-22 20:04
 -- Who: 
 -- Log: corrected the guide number (from 3487) so it linked to the correct page.
@@ -103,11 +125,11 @@ T General Nazgrim has Awakened|QID|30511|FACTION|Horde|M|71.62,93.12|N|To Genera
 A Eastwind Rest|QID|30513|FACTION|Horde|M|71.62,93.12|N|From General Nazgrim.|
 
 R Inkgill Mere|QID|30467|M|74.43,90.23|
-A Repossession|QID|30469|M|74.94,88.85|N|From Merchant Shi.|
-A My Son...|QID|30467|M|74.94,88.85|N|From Merchant Shi.|
-A Enraged Vengeance|QID|30468|M|74.77,88.74|N|From Swordmistress Mei.|
-A The Waterspeaker's Staff|QID|30496|M|75.07,87.97|N|From Waterspeaker Gorai.|
-A Free the Dissenters|QID|30967|M|75.07,87.97|N|From Waterspeaker Gorai.|
+A Repossession|QID|30469|M|74.96,88.86|N|From Merchant Shi.|
+A My Son...|QID|30467|M|74.96,88.86|N|From Merchant Shi.|
+A Enraged Vengeance|QID|30468|M|74.80,88.68|N|From Swordmistress Mei.|
+A The Waterspeaker's Staff|QID|30496|M|75.13,87.93|N|From Waterspeaker Gorai.|
+A Free the Dissenters|QID|30967|M|75.13,87.93|N|From Waterspeaker Gorai.|
 C Free the Dissenters|QID|30967|S|M|74.40,78.82|N|Talk to the Prisoners to free them.|
 C Repossession|QID|30469|M|73.99,77.54|S|N|Pick up the sparklies on the ground (usually against the buildings).|
 C Enraged Vengeance|QID|30468|M|73.26,77.51|S|N|Kill them as your work your way towards the merchant's son.|
@@ -117,20 +139,20 @@ A Father and Child Reunion|QID|30834|M|74.68,76.88|N|From Wu-Peng.|
 C Free the Dissenters|QID|30967|US|M|74.40,78.82|N|Talk to the Prisoners to free them.|
 C Repossession|QID|30469|M|73.99,77.54|US|N|Groundspawn, especially up against the buildings.|
 C Enraged Vengeance|QID|30468|M|73.26,77.51|US|
-T The Waterspeaker's Staff|QID|30496|M|75.17,88.21|N|To Waterspeaker Gorai.|
-T Free the Dissenters|QID|30967|M|75.17,88.21|N|To Waterspeaker Gorai.|
-T Repossession|QID|30469|M|74.95,88.86|N|To Merchant Shi.|
-T Father and Child Reunion|QID|30834|M|74.95,88.86|N|To Merchant Shi, it may take a few seconds for the quest to update and complete.|
-T Enraged Vengeance|QID|30468|M|74.79,88.70|N|To Swordmistress Mei.|
-A The Ritual|QID|30480|M|75.17,88.26|N|From Waterspeaker Gorai.|
-C The Ritual|QID|30480|M|74.92,88.52|N|Talk to the Waterspeaker to start the ritual, you will need to kill some sha during the ritual.|
-T The Ritual|QID|30480|M|74.92,88.52|N|To Waterspeaker Gorai.|
-A Cleansing the Mere|QID|30828|M|74.92,88.52|N|From Waterspeaker Gorai.|
-C Cleansing the Mere|QID|30828|M|71.74,87.39|N|Click on the waterspots, to tell him to start his ritual, a sha will come out, kill it.|
-T Cleansing the Mere|QID|30828|M|71.74,87.39|N|To Waterspeaker Gorai.|
-A The Fall of Shai Hu|QID|30855|M|71.74,87.39|N|From Waterspeaker Gorai.|
+T The Waterspeaker's Staff|QID|30496|M|75.20,88.25|N|To Waterspeaker Gorai.|
+T Free the Dissenters|QID|30967|M|75.20,88.25|N|To Waterspeaker Gorai.|
+T Repossession|QID|30469|M|74.96,88.86|N|To Merchant Shi.|
+T Father and Child Reunion|QID|30834|M|74.96,88.86|N|To Merchant Shi, it may take a few seconds for the quest to update and complete.|
+T Enraged Vengeance|QID|30468|M|74.80,88.68|N|To Swordmistress Mei.|
+A The Ritual|QID|30480|M|75.20,88.25|N|From Waterspeaker Gorai.|
+C The Ritual|QID|30480|M|74.92,88.52|N|Talk to the Waterspeaker to start the ritual, you will need to kill a sha during the ritual.|
+T The Ritual|QID|30480|M|74.91,88.58|N|To Waterspeaker Gorai.|
+A Cleansing the Mere|QID|30828|M|74.91,88.58|N|From Waterspeaker Gorai.|
+C Cleansing the Mere|QID|30828|M|71.51,86.31|N|Find and click on the sha-waterspouts in the lake, to start his ritual, a sha will come out, kill it.|
+T Cleansing the Mere|QID|30828|N|To Waterspeaker Gorai.|
+A The Fall of Shai Hu|QID|30855|N|From Waterspeaker Gorai.|
 C The Fall of Shai Hu|QID|30855|M|71.16,82.96|N|Kill the small Sha on the island, reasonably close to Shai Hu to weaken him.|
-T The Fall of Shai Hu|QID|30855|M|74.93,88.53|N|To Waterspeaker Gorai, back at Inkgill Mere.|
+T The Fall of Shai Hu|QID|30855|M|74.90,88.58|N|To Waterspeaker Gorai, back at Inkgill Mere.|
 
 C Run to see Farmhand Ko|QID|30513|FACTION|Horde|NC|QO|Speak with Farmhand Ko: 1/1|M|63.65,86.68|N|Talk to Farmhand Ko.|
 C Continue up the road to Elder Shiao|QID|30513|FACTION|Horde|NC|QO|Speak with Elder Shiao: 1/1|M|61.25,82.25|N|Talk to Elder Shiao.|
@@ -174,19 +196,19 @@ A Profiting off of the Past|QID|30595|M|59.59,78.26|N|From Bao Jian.|
 C Profiting off of the Past|QID|30595|S|M|58.40,74.86|N|Groundspawn as well as dropping from the mobs around here.|
 C Deanimate the Reanimated|QID|30593|S|FACTION|Alliance|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
 l Terracotta Head|QID|31422|L|86427|FACTION|Alliance|M|59.25,73|N|Another of the random items worth gold and XP to loot.|
-K Moguija Soul-Caller|QID|30619|FACTION|Alliance|T|Moguija Soul-Caller|QO|Moguija Soul-Caller slain: 1/1|M|58.23,71.21|
+K Mogujia Soul-Caller|QID|30619|FACTION|Alliance|T|Mogujia Soul-Caller|QO|Mogujia Soul-Caller slain: 1/1|M|58.23,71.21|
 C Deanimate the Reanimated|QID|30593|US|FACTION|Alliance|M|59.20,72.21|
 
 C Deanimate the Reanimated|QID|30594|S|FACTION|Horde|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
 l Terracotta Head|QID|31422|FACTION|Horde|L|86427|M|59.25,73|N|Another of the random items worth gold and XP to loot.|
-K Moguija Soul-Caller|QID|30620|FACTION|Horde|T|Moguija Soul-Caller|QO|Moguija Soul-Caller slain: 1/1|M|58.23,71.21|
+K Mogujia Soul-Caller|QID|30620|FACTION|Horde|T|Mogujia Soul-Caller|QO|Mogujia Soul-Caller slain: 1/1|M|58.23,71.21|
 C Deanimate the Reanimated|QID|30594|US|FACTION|Horde|M|59.20,72.21|
 C Profiting off of the Past|QID|30595|US|M|58.40,74.86|
 T Profiting off of the Past|QID|30595|M|59.58,78.27|N|To Bao Jian.|
 
 C Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|S|M|50.70,83.11|N|Birds and Mushan drop multiple meat each.|
 C Round 'Em Up|QID|30575|FACTION|Alliance|M|53.92,83.67|N|When you have 3 yaks, head back to Westwind Rest, the quest complete message comes in the encampment.|
-C Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|S|M|50.70,83.11|N|Birds and Mushan drop multiple meat each.|
+C Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|US|M|50.70,83.11|N|Birds and Mushan drop multiple meat each.|
 T Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.12,83.37|N|To Sully "The Pickle" McLeary.|
 T Round 'Em Up|QID|30575|M|FACTION|Alliance|53.81,82.77|N|To Admiral Taylor.|
 T Back to Westwind Rest|QID|31252|FACTION|Alliance|M|53.80,83.99|N|To Farmhand Bo.|
@@ -562,7 +584,7 @@ A Lao-Chin's Gambit|QID|30994|M|29.28,62.22|N|From Suna Silentstrike.|
 C Lao-Chin's Gambit|QID|30994|M|29.31,62.25|N|Talk to Suna for a ride back.|
 T Lao-Chin's Gambit|QID|30994|M|31.85,60.18|N|To Lao-Chin the Iron Belly.|
 A Do a Barrel Roll!|QID|30991|M|31.85,60.18|N|From Lao-Chin the Iron Belly.|
-C Do a Barrel Roll!|QID|30991|M|30.15,63.94|N|You can steer towards the target, then press 1 to blow up the barrel.|
+C Do a Barrel Roll!|QID|30991|M|31.95,60.43|N|Click on the barrels, to contril them, you steer towards the target (with your mouse or arrows), then press 1 to blow up the barrel.|
 T Do a Barrel Roll!|QID|30991|M|31.82,60.16|N|To Lao-Chin the Iron Belly.|
 A Finish This!|QID|30992|M|31.82,60.16|N|From Lao-Chin the Iron Belly.|
 C Finish This!|QID|30992|M|31.30,61.61|
