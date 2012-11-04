@@ -5,62 +5,62 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
 -- Date: 2011-06-21 20:30
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3255/revisions/24558/view
 -- Date: 2011-06-18 17:27
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: ! Line 66, for step T non-decimal QID: [T A New Master... But Who?|QID||M|68.52,53.49|N|To Jack Rockleg.|]
 
 -- URL: http://wow-pro.com/node/3255/revisions/24555/view
 -- Date: 2011-06-14 22:14
--- Who: 
+-- Who: Fluclo
 -- Log: Moved the Incendisaur and Bullet stickies further down as they are still collectable whilst doing on the following tower quests.
 
 -- URL: http://wow-pro.com/node/3255/revisions/24554/view
 -- Date: 2011-06-14 21:59
--- Who: 
+-- Who: Fluclo
 -- Log: Moved Heat That Just Don't Quit to after the spiders, since it can still be done around the spiders.
 
 -- URL: http://wow-pro.com/node/3255/revisions/24542/view
 -- Date: 2011-06-11 15:59
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added in faction tags, removed the notice about quests needed to be closed since the step did not autocomplete.
 
 -- URL: http://wow-pro.com/node/3255/revisions/24402/view
 -- Date: 2011-05-17 01:58
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3255/revisions/24394/view
 -- Date: 2011-05-17 01:10
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3255/revisions/24303/view
 -- Date: 2011-04-29 14:45
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 46 for step A has unknown tag [68.94,53.5], Line 111 for step R has 1 M coords, Line 167 for step C has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3255/revisions/23929/view
 -- Date: 2011-01-04 20:08
--- Who: 
+-- Who: Crackerhead22
 -- Log: Changed date on Change log to correct date.
 
 -- URL: http://wow-pro.com/node/3255/revisions/23925/view
 -- Date: 2011-01-04 17:34
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added notes, added more sticky steps, fixed notes, fixed steps not auto-completing, fixed wrong steps.
 
 -- URL: http://wow-pro.com/node/3255/revisions/23394/view
 -- Date: 2010-12-03 11:42
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3255/revisions/23391/view
 -- Date: 2010-12-03 11:41
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3255/revisions/23390/view
 -- Date: 2010-12-03 11:40
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', '48', '50', 'CraBur5052|LiaBur5052', 'Neutral', function()
 return [[

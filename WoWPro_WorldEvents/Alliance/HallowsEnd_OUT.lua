@@ -5,56 +5,56 @@
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
 -- Date: 2012-10-24 03:29
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Add MoP Hallows End.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25152/view
 -- Date: 2012-10-22 20:33
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35. 
 
 -- URL: http://wow-pro.com/node/3440/revisions/25015/view
 -- Date: 2012-06-30 19:28
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: More zone name corrections.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25014/view
 -- Date: 2012-06-30 19:22
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Add coords for flight Booty Bay flight point and correct zone.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25013/view
 -- Date: 2012-06-30 19:16
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Wrong zone in Booty Bay Candy Bucket
 
 -- URL: http://wow-pro.com/node/3440/revisions/24909/view
 -- Date: 2012-01-19 21:47
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Delete duplicate guide
 
 -- URL: http://wow-pro.com/node/3440/revisions/24790/view
 -- Date: 2011-10-31 16:12
--- Who: 
+-- Who: Crackerhead22
 -- Log: Moved location names around so auto-accept/turn-in will work.
 
 -- URL: http://wow-pro.com/node/3440/revisions/24784/view
 -- Date: 2011-10-29 22:16
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added in Twist's Hallows End guides.
 
 -- URL: http://wow-pro.com/node/3440/revisions/24775/view
 -- Date: 2011-10-28 09:03
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added note about candy bucket being in one of two place for Westfall due to phasing.  From tepes.
 
 -- URL: http://wow-pro.com/node/3440/revisions/24773/view
 -- Date: 2011-10-28 08:04
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3440/revisions/24770/view
 -- Date: 2011-10-28 08:00
--- Who: 
+-- Who: Crackerhead22
 
 WoWPro.WorldEvents:RegisterGuide("TwiHollOUT","Hallow's End (Outland)","Hallows End (Outland)","WE", "Twists", "Alliance", function()
 return [[

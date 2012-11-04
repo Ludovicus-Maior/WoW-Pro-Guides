@@ -5,66 +5,66 @@
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
 -- Date: 2012-10-23 01:50
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Cleaned up coords. Small syntax corrections.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25153/view
 -- Date: 2012-10-22 20:37
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Get rid of odd unicode char.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25147/view
 -- Date: 2012-10-22 17:43
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Merge of my changes.  Lots of coord refinements and a few small flow changes.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25140/view
 -- Date: 2012-10-12 23:37
--- Who: 
+-- Who: JamesL85
 -- Log: Had A steps for The Warren-Mother, Thieves to the Core and Crouching Carrot, Hidden Turnip twice.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25105/view
 -- Date: 2012-10-03 22:06
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: New Update from https://github.com/Emmaleah/WoW-Pro-Guides/blob/3dced306c1715d5031a9b4fed400a8bc7553f42e/WoWPro_Leveling/Neutral/86_88_Emmaleah_Valley4Winds.lua
 
 -- URL: http://wow-pro.com/node/3485/revisions/25096/view
 -- Date: 2012-09-28 04:40
--- Who: 
+-- Who: Laotseu
 -- Log: Fix quest and step text for auto-complete.
 --	Fix a few coordinates and move a few steps around.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25080/view
 -- Date: 2012-09-24 22:42
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Merge in https://github.com/Emmaleah/WoW-Pro-Guides/commit/b285332ee04e5c4c65a8e139632fb630dbad4b0c
 
 -- URL: http://wow-pro.com/node/3485/revisions/25059/view
 -- Date: 2012-08-28 19:47
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Test play by Laotseu on Sun, 2012-08-26 22:33. 
 
 -- URL: http://wow-pro.com/node/3485/revisions/25048/view
 -- Date: 2012-08-28 18:26
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: As per Emmaleah
 
 -- URL: http://wow-pro.com/node/3485/revisions/25037/view
 -- Date: 2012-07-23 09:09
--- Who: 
+-- Who: Gethe
 
 -- URL: http://wow-pro.com/node/3485/revisions/25036/view
 -- Date: 2012-07-15 01:12
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3485/revisions/25035/view
 -- Date: 2012-07-13 17:03
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Corrected line breaks.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25034/view
 -- Date: 2012-07-13 16:43
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Initial Version from Emmaleah
 
 WoWPro.Leveling:RegisterGuide('EmmVal8688', 'Valley of the Four Winds', 'Emmaleah', '86', '88', 'RajKra8788|EmmKra8788', 'Neutral', function() return [[

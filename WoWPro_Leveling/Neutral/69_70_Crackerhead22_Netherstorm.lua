@@ -5,61 +5,61 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
 -- Date: 2012-09-25 00:58
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3284/revisions/24891/view
 -- Date: 2012-01-18 22:06
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: You need to talk to Adyen, not the other guy!
 
 -- URL: http://wow-pro.com/node/3284/revisions/24674/view
 -- Date: 2011-07-11 22:30
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Change to numeric Rep Tags.
 
 -- URL: http://wow-pro.com/node/3284/revisions/24616/view
 -- Date: 2011-06-27 04:54
--- Who: 
+-- Who: Crackerhead22
 -- Log: .
 
 -- URL: http://wow-pro.com/node/3284/revisions/24615/view
 -- Date: 2011-06-27 04:30
--- Who: 
+-- Who: Gylin
 
 -- URL: http://wow-pro.com/node/3284/revisions/24578/view
 -- Date: 2011-06-23 03:22
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3284/revisions/24569/view
 -- Date: 2011-06-21 01:41
--- Who: 
+-- Who: ikiboun
 -- Log: updated some coords
 
 -- URL: http://wow-pro.com/node/3284/revisions/24351/view
 -- Date: 2011-04-29 17:17
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 128 for step C has unknown tag [Loot the Bn'aar Access Crystal ...]
 
 -- URL: http://wow-pro.com/node/3284/revisions/24154/view
 -- Date: 2011-03-09 02:37
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3284/revisions/24153/view
 -- Date: 2011-03-09 02:24
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3284/revisions/24042/view
 -- Date: 2011-01-23 01:59
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added source code.
 
 -- URL: http://wow-pro.com/node/3284/revisions/23458/view
 -- Date: 2010-12-03 21:44
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3284/revisions/23457/view
 -- Date: 2010-12-03 21:41
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('CraNet6970', 'Netherstorm', 'Crackerhead22', '69', '70', 'JamBor6872|JamHow7071', 'Neutral', function()
 return [[

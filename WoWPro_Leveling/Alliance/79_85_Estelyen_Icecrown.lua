@@ -5,53 +5,53 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
 -- Date: 2012-02-25 14:30
--- Who: 
+-- Who: Estelyen
 -- Log: Just played through Icecrown again and wrote down some fixes while at it.
 
 -- URL: http://wow-pro.com/node/3301/revisions/24849/view
 -- Date: 2011-12-09 20:22
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3301/revisions/24618/view
 -- Date: 2011-06-27 22:22
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: ZoneError|Vers=2.1.16|Guide=EstIce7985|Line=A The Boon of A'dal|QID|13082|N|From A'dal.|Z|Shattrath City.|
 
 -- URL: http://wow-pro.com/node/3301/revisions/24531/view
 -- Date: 2011-06-08 03:22
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Correct Successor
 
 -- URL: http://wow-pro.com/node/3301/revisions/24312/view
 -- Date: 2011-04-29 15:13
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 65 for step A has unknown tag [82.80,72.80], Line 238 for step C has 3 M coords, Line 273 for step A has 3 M coords, Line 276 for step T has 3 M coords, Line 296 for step C has 1 M coords, Line 479 for step C Bad coord 58.o99.
 
 -- URL: http://wow-pro.com/node/3301/revisions/24236/view
 -- Date: 2011-04-19 17:35
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Coordinate Corrections. Breakout of objectives around [The Vile Hold]
 
 -- URL: http://wow-pro.com/node/3301/revisions/24225/view
 -- Date: 2011-04-05 23:40
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3301/revisions/24106/view
 -- Date: 2011-02-08 12:49
--- Who: 
+-- Who: Estelyen
 
 -- URL: http://wow-pro.com/node/3301/revisions/24105/view
 -- Date: 2011-02-08 12:47
--- Who: 
+-- Who: Estelyen
 -- Log: The previous version of this guide was little more than a TourGuide recording, not really worthy of the title "guide"
 
 -- URL: http://wow-pro.com/node/3301/revisions/23494/view
 -- Date: 2010-12-03 22:36
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3301/revisions/23493/view
 -- Date: 2010-12-03 22:35
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("EstIce7985", "Icecrown", "Estelyen", "79", "85", "Arihyj8082", "Alliance", function()
 return [[

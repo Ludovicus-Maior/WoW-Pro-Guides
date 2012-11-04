@@ -5,48 +5,48 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
 -- Date: 2012-01-27 11:54
--- Who: 
+-- Who: Crackerhead22
 -- Log: ?
 
 -- URL: http://wow-pro.com/node/3228/revisions/24718/view
 -- Date: 2011-08-07 23:53
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Fixes for [Gorat's Vengeance], [Ashenvale Outrunners], [Ursangous's Paw], and [The Befouled Element].
 
 -- URL: http://wow-pro.com/node/3228/revisions/24480/view
 -- Date: 2011-06-01 00:55
--- Who: 
+-- Who: Crackerhead22
 -- Log: Removed duplicate line "A Bad News Bear-er|QID|13848|RANK|1|M|53.23,42.54|Z|". Removed "Z|Blackfathom Deeps|" as it was unneeded, and fixed cords for the "C The Essence of Aku'Mai|" step.
 
 -- URL: http://wow-pro.com/node/3228/revisions/24328/view
 -- Date: 2011-04-29 16:19
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 175 for step F has unknown tag [73.21,61.54], Line 202 for step C has unknown tag [Escort quest.], Line 296 for step A has unknown tag [RANK2M]
 
 -- URL: http://wow-pro.com/node/3228/revisions/23976/view
 -- Date: 2011-01-11 01:10
--- Who: 
+-- Who: Estraile
 
 -- URL: http://wow-pro.com/node/3228/revisions/23970/view
 -- Date: 2011-01-09 20:50
--- Who: 
+-- Who: Crackerhead22
 -- Log: Hopefully fixed QID issue with Hearthing.
 
 -- URL: http://wow-pro.com/node/3228/revisions/23801/view
 -- Date: 2010-12-20 16:25
--- Who: 
+-- Who: Bitsem
 
 -- URL: http://wow-pro.com/node/3228/revisions/23756/view
 -- Date: 2010-12-16 03:26
--- Who: 
+-- Who: Gylin
 
 -- URL: http://wow-pro.com/node/3228/revisions/23332/view
 -- Date: 2010-12-03 09:56
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3228/revisions/23331/view
 -- Date: 2010-12-03 09:56
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('BitAsh2025', 'Ashenvale', 'Bitsem', '20', '25', 'JiySto2530', 'Horde', function()
 return [[

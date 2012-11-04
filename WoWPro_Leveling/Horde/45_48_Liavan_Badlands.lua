@@ -5,35 +5,35 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
 -- Date: 2012-01-16 17:21
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added the QID for the "The Sentinel's Game" quest.
 
 -- URL: http://wow-pro.com/node/3248/revisions/24390/view
 -- Date: 2011-05-17 00:56
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3248/revisions/24334/view
 -- Date: 2011-04-29 16:29
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 22 for step A has 3 M coords, Line 124 for step A has unknown tag [From Gargal]
 
 -- URL: http://wow-pro.com/node/3248/revisions/24047/view
 -- Date: 2011-01-24 10:34
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added notes.
 
 -- URL: http://wow-pro.com/node/3248/revisions/23561/view
 -- Date: 2010-12-04 16:02
--- Who: 
+-- Who: Liavan
 -- Log: this is just very basic the recorder completely bugged out on me maybe i should have updated it before i tried recording but this should be a very basic of this zone.
 
 -- URL: http://wow-pro.com/node/3248/revisions/23377/view
 -- Date: 2010-12-03 11:29
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3248/revisions/23376/view
 -- Date: 2010-12-03 11:29
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('LiaBad4548', 'Badlands', 'Liavan', '45', '48', 'CraSea4850', 'Horde', function()
 return [[

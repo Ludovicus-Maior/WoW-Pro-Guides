@@ -5,101 +5,101 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
 -- Date: 2012-10-08 19:41
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Add Human Monk starter quests and get rid of - in zone name.
 
 -- URL: http://wow-pro.com/node/3197/revisions/25000/view
 -- Date: 2012-05-29 16:33
--- Who: 
+-- Who: Fluclo
 
 -- URL: http://wow-pro.com/node/3197/revisions/24974/view
 -- Date: 2012-05-08 21:57
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixes from member 'wowmanus'
 
 -- URL: http://wow-pro.com/node/3197/revisions/24819/view
 -- Date: 2011-11-24 03:02
--- Who: 
+-- Who: Fluclo
 
 -- URL: http://wow-pro.com/node/3197/revisions/24796/view
 -- Date: 2011-11-04 20:41
--- Who: 
+-- Who: Fluclo
 
 -- URL: http://wow-pro.com/node/3197/revisions/24769/view
 -- Date: 2011-10-26 21:16
--- Who: 
+-- Who: Fluclo
 -- Log: Added |NC| tags
 
 -- URL: http://wow-pro.com/node/3197/revisions/24740/view
 -- Date: 2011-08-23 23:28
--- Who: 
+-- Who: Jiyambi
 -- Log: Added a few clarifications in directions.
 
 -- URL: http://wow-pro.com/node/3197/revisions/24515/view
 -- Date: 2011-06-07 23:03
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: ! Line 248 for step T has unknown tag [To Milly Osworth.]: [T Extinguishing Hope|QID|26391|M|48.15,42.52|To Milly Osworth.|]
 --	! Line 254 for step A has unknown tag [48.20,42.06]: [A Report To Goldshire|QID|54||48.20,42.06|N|From Marshal McBride.|]
 
 -- URL: http://wow-pro.com/node/3197/revisions/24464/view
 -- Date: 2011-05-31 20:57
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Z|Stormwind City| not city
 
 -- URL: http://wow-pro.com/node/3197/revisions/24443/view
 -- Date: 2011-05-28 20:21
--- Who: 
+-- Who: Crackerhead22
 -- Log: Removed |R|Human,Worgen| tag from certain steps.
 
 -- URL: http://wow-pro.com/node/3197/revisions/24441/view
 -- Date: 2011-05-28 17:40
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added missing notes, added sticky steps, added quests (and steps) with race tags for Worgen, Dwarves, Night Elves, Gnomes and Draenei.
 
 -- URL: http://wow-pro.com/node/3197/revisions/24289/view
 -- Date: 2011-04-29 14:05
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
 
 -- URL: http://wow-pro.com/node/3197/revisions/24272/view
 -- Date: 2011-04-26 22:42
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Fixed syntax errors.
 
 -- URL: http://wow-pro.com/node/3197/revisions/24201/view
 -- Date: 2011-04-02 19:01
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Syntax error in quest [Fear No Evil] for Human Warlocks.
 
 -- URL: http://wow-pro.com/node/3197/revisions/24058/view
 -- Date: 2011-01-26 02:48
--- Who: 
+-- Who: Fluclo
 -- Log: Missing the A for Rest And Relaxation
 
 -- URL: http://wow-pro.com/node/3197/revisions/23934/view
 -- Date: 2011-01-06 15:28
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added missing turn in for "Wanted: Hogger", added in class quests and race tags noted by calmeira.
 
 -- URL: http://wow-pro.com/node/3197/revisions/23323/view
 -- Date: 2010-12-03 08:42
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3197/revisions/23254/view
 -- Date: 2010-12-02 17:31
--- Who: 
+-- Who: wkjezz
 
 -- URL: http://wow-pro.com/node/3197/revisions/23243/view
 -- Date: 2010-12-02 09:47
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3197/revisions/23242/view
 -- Date: 2010-12-02 09:46
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3197/revisions/23241/view
 -- Date: 2010-12-02 09:42
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest(Human)", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
 return [[

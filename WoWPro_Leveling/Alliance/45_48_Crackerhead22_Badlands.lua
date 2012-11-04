@@ -5,41 +5,41 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
 -- Date: 2011-09-02 20:44
--- Who: 
+-- Who: Fluclo
 -- Log: Added more detail on finding turnin for The Sentinel's Pawn, and added non-combat flag to The Good Stuff
 
 -- URL: http://wow-pro.com/node/3247/revisions/24733/view
 -- Date: 2011-08-15 21:25
--- Who: 
+-- Who: Fluclo
 -- Log: Added some |NC| tags
 
 -- URL: http://wow-pro.com/node/3247/revisions/24728/view
 -- Date: 2011-08-12 23:45
--- Who: 
+-- Who: Fluclo
 -- Log: Updated information on starting the guide.
 
 -- URL: http://wow-pro.com/node/3247/revisions/24541/view
 -- Date: 2011-06-10 20:47
--- Who: 
+-- Who: Crackerhead22
 -- Log: Removed the quest "Hero's Call: Badlands!", added a couple notes, made a sticky step.
 
 -- URL: http://wow-pro.com/node/3247/revisions/23822/view
 -- Date: 2010-12-23 18:39
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added "To the Aid of the Thorium Brotherhood", fixed several |M| tags, |N| tags, added |N| tags to several steps. Fixed a couple of steps so they auto-complete. Added a couple of sticky steps.
 
 -- URL: http://wow-pro.com/node/3247/revisions/23589/view
 -- Date: 2010-12-05 04:26
--- Who: 
+-- Who: Crackerhead22
 -- Log: Made Hearth points auto-complete, removed static QIDs, fixed "Fuselight, Ho!" quest.
 
 -- URL: http://wow-pro.com/node/3247/revisions/23375/view
 -- Date: 2010-12-03 11:28
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3247/revisions/23374/view
 -- Date: 2010-12-03 11:28
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('CraBad4548', 'Badlands', 'Crackerhead22', '45', '48', 'CraSea4850', 'Alliance', function()
 return [[

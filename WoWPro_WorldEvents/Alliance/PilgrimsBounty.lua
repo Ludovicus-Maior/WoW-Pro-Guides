@@ -5,23 +5,23 @@
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
 -- Date: 2011-11-20 23:35
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3443/revisions/24814/view
 -- Date: 2011-11-20 19:37
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3443/revisions/24804/view
 -- Date: 2011-11-16 02:02
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3443/revisions/24787/view
 -- Date: 2011-10-30 19:09
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3443/revisions/24786/view
 -- Date: 2011-10-30 19:09
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added source code page.
 
 WoWPro.WorldEvents:RegisterGuide("LudoPilBountyA","Pilgrim's Bounty (Alliance)","Pilgrim's Bounty (Alliance)","WE", "Ludovicus", "Alliance", function()

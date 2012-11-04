@@ -5,40 +5,40 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
 -- Date: 2011-06-01 00:50
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed Z tag for line "R The Zep tower.|QID|99999|CC|M|52.32,54.41|Z|Orgimmar|N|On the NE tip.|", removed line "A The Green Hills of Stranglethorn|QID|26269|M|46.43,84.64|Z|" as it was a duplicate line.
 
 -- URL: http://wow-pro.com/node/3232/revisions/24096/view
 -- Date: 2011-02-04 22:34
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Changed WWoWPro.Leveling to WoWPro.Leveling
 
 -- URL: http://wow-pro.com/node/3232/revisions/24089/view
 -- Date: 2011-01-30 19:46
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3232/revisions/24088/view
 -- Date: 2011-01-30 19:45
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Reformatted to eliminate rich text formatting.
 --	No other changes were made.
 
 -- URL: http://wow-pro.com/node/3232/revisions/23571/view
 -- Date: 2010-12-04 18:51
--- Who: 
+-- Who: wkjezz
 
 -- URL: http://wow-pro.com/node/3232/revisions/23549/view
 -- Date: 2010-12-04 06:19
--- Who: 
+-- Who: wkjezz
 
 -- URL: http://wow-pro.com/node/3232/revisions/23341/view
 -- Date: 2010-12-03 10:36
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3232/revisions/23340/view
 -- Date: 2010-12-03 10:36
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('WkjNor2530', 'Northern Stranglethorn', 'Gloves', '30', '35', 'WkjCap3035', 'Horde', function()
 

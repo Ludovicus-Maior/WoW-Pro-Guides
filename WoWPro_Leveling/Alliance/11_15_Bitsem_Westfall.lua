@@ -5,67 +5,67 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
 -- Date: 2012-08-13 00:23
--- Who: 
+-- Who: Laotseu
 -- Log: A few corrections I found while play testing a Monk on the Beta.
 
 -- URL: http://wow-pro.com/node/3213/revisions/24820/view
 -- Date: 2011-11-24 17:46
--- Who: 
+-- Who: Fluclo
 
 -- URL: http://wow-pro.com/node/3213/revisions/24797/view
 -- Date: 2011-11-05 23:12
--- Who: 
+-- Who: Fluclo
 -- Log: Maybe the 2c generates slightly less hostile transients - more research needed :)
 
 -- URL: http://wow-pro.com/node/3213/revisions/24778/view
 -- Date: 2011-10-28 21:36
--- Who: 
+-- Who: Fluclo
 
 -- URL: http://wow-pro.com/node/3213/revisions/24777/view
 -- Date: 2011-10-28 13:15
--- Who: 
+-- Who: Fluclo
 -- Log: Clarified note on Secrets of the Tower
 
 -- URL: http://wow-pro.com/node/3213/revisions/24776/view
 -- Date: 2011-10-28 12:15
--- Who: 
+-- Who: Fluclo
 -- Log: Added a training step for non-Sharman classes
 
 -- URL: http://wow-pro.com/node/3213/revisions/24455/view
 -- Date: 2011-05-30 17:49
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 189 for step A has unknown tag [From Marshal Gryan Stoutmantle.]: [A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|From Marshal Gryan Stoutmantle.|]
 
 -- URL: http://wow-pro.com/node/3213/revisions/24442/view
 -- Date: 2011-05-28 19:18
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added notes.
 
 -- URL: http://wow-pro.com/node/3213/revisions/24291/view
 -- Date: 2011-04-29 14:20
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3213/revisions/23935/view
 -- Date: 2011-01-06 15:32
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added turn in for "Furlbrow's Deed"
 
 -- URL: http://wow-pro.com/node/3213/revisions/23814/view
 -- Date: 2010-12-22 23:59
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added missing turn-ins.
 
 -- URL: http://wow-pro.com/node/3213/revisions/23322/view
 -- Date: 2010-12-03 08:42
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3213/revisions/23295/view
 -- Date: 2010-12-03 07:22
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3213/revisions/23294/view
 -- Date: 2010-12-03 07:21
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('BitWes1020', 'Westfall', 'Bitsem', '10', '15', 'KurRed1520', 'Alliance', function()
 return [[

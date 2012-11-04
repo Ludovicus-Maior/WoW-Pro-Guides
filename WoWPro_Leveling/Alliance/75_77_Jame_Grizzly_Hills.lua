@@ -5,68 +5,68 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
 -- Date: 2011-10-10 23:55
--- Who: 
+-- Who: Gethe
 
 -- URL: http://wow-pro.com/node/3293/revisions/24754/view
 -- Date: 2011-10-10 03:31
--- Who: 
+-- Who: Gethe
 
 -- URL: http://wow-pro.com/node/3293/revisions/24629/view
 -- Date: 2011-06-30 04:50
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed accept line of "Troll Season" per Bloodlusted's catch.
 
 -- URL: http://wow-pro.com/node/3293/revisions/24257/view
 -- Date: 2011-04-24 00:24
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed line-T Riding the Red Rocket|QID|12437|O|N|To Commander Howser.|M|M|14.8,86.6|
 --	Fixed line-A The Captive Prospectors |QID|12180|N|From Mountaineer Kilian.|M|77.00,48.50|
 
 -- URL: http://wow-pro.com/node/3293/revisions/24243/view
 -- Date: 2011-04-20 23:13
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3293/revisions/24240/view
 -- Date: 2011-04-19 23:49
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3293/revisions/24235/view
 -- Date: 2011-04-19 08:09
--- Who: 
+-- Who: Crackerhead22
 -- Log: A lot of note updates, and added a few sticky steps.
 
 -- URL: http://wow-pro.com/node/3293/revisions/24202/view
 -- Date: 2011-04-02 19:09
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Fixed bad U/QID tag on [Vordrassil's Sapling], corrected location text for [Hour of the Worg ] and added a tip for killing Goremaw.
 
 -- URL: http://wow-pro.com/node/3293/revisions/24162/view
 -- Date: 2011-03-12 18:29
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Make guide id unique
 
 -- URL: http://wow-pro.com/node/3293/revisions/23750/view
 -- Date: 2010-12-12 07:35
--- Who: 
+-- Who: Bitsem
 -- Log: I think I removed all the | |. If they were there for a reason, please revert it. lol.
 
 -- URL: http://wow-pro.com/node/3293/revisions/23749/view
 -- Date: 2010-12-12 07:26
--- Who: 
+-- Who: Bitsem
 -- Log: For some reason there were a bunch of | | in the latter half of this guide. Removed them. From the quest "Truce" on. Lua errors reported by fourthand1.
 
 -- URL: http://wow-pro.com/node/3293/revisions/23729/view
 -- Date: 2010-12-10 21:54
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed "C Truce?" via Silvann's suggestion.
 
 -- URL: http://wow-pro.com/node/3293/revisions/23478/view
 -- Date: 2010-12-03 22:25
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3293/revisions/23477/view
 -- Date: 2010-12-03 22:24
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Alliance", function()
 return [[

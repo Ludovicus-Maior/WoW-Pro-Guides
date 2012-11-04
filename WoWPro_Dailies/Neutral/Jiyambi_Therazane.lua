@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
 -- Date: 2012-05-27 18:40
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Added REP tags, a few coord fixes and redirected a quest to the right NPC.
 
 -- URL: http://wow-pro.com/node/3419/revisions/24678/view
 -- Date: 2011-07-11 22:39
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Removing REP tag.
 
 -- URL: http://wow-pro.com/node/3419/revisions/24651/view
 -- Date: 2011-06-30 19:13
--- Who: 
+-- Who: Ludovicus Maior
 
 WoWPro.Dailies:RegisterGuide("JiyDeeTher", "Deepholm", "Therazane Reputation", "Cata", "Jiyambi", "Neutral", function()
 return [[

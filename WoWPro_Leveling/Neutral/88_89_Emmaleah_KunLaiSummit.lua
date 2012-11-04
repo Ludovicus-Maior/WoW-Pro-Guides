@@ -5,34 +5,34 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
 -- Date: 2012-11-03 18:47
--- Who: 
+-- Who: Emmaleah
 -- Log: 3 Nov 2012 - Emmaleah - changed coords/note for C Do a Barrel Roll, added change log.
 --	TO DO: I notice the loot grey items worth gold/xp arent autochecking off. (when there in no item (doh!) going to try adding CC tags. will update if that works.  Anyone else have any other ideas?
 --	
 
 -- URL: http://wow-pro.com/node/3490/revisions/25177/view
 -- Date: 2012-11-02 04:12
--- Who: 
+-- Who: JamesL85
 -- Log: Working my way through and had 2 Sticky steps for Blue Dwarf Needs Food Badly and a T step for the quest that wasn't complete.  Changed the second S step to US.  Not sure if this is correct or not.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25176/view
 -- Date: 2012-11-02 03:56
--- Who: 
+-- Who: JamesL85
 -- Log: After the *R Mogujia* step, everything with that quest was Moguija.  I changed the spelling and hopefully it will auto-complete now.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25173/view
 -- Date: 2012-10-28 01:06
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Inkgill Mere touchups
 
 -- URL: http://wow-pro.com/node/3490/revisions/25150/view
 -- Date: 2012-10-22 20:04
--- Who: 
+-- Who: Emmaleah
 -- Log: corrected the guide number (from 3487) so it linked to the correct page.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25149/view
 -- Date: 2012-10-22 20:00
--- Who: 
+-- Who: Emmaleah
 -- Log: -- Date: 23 Oct 2012
 --	-- Who: Emmaleah
 --	-- Log: added in comments about the blue "once per" items (and I think a couple of more grey ones too)
@@ -40,40 +40,40 @@
 
 -- URL: http://wow-pro.com/node/3490/revisions/25144/view
 -- Date: 2012-10-18 23:12
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Update from https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Neutral/88_89_Emmaleah_KunLaiSummit.lua as of 10/18 5PM
 
 -- URL: http://wow-pro.com/node/3490/revisions/25102/view
 -- Date: 2012-10-02 12:02
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Namour of Llane, Emmaleah : Move Knucklethump Hole
 
 -- URL: http://wow-pro.com/node/3490/revisions/25098/view
 -- Date: 2012-10-02 00:52
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Emmaleah: Made various changes per comments on Wow-pro.com, including quest order and changing several |N|step, especially not counting on the h to tell people to reset their hearthstone, but including it in the |N| 9/28
 
 -- URL: http://wow-pro.com/node/3490/revisions/25087/view
 -- Date: 2012-09-25 00:51
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3490/revisions/25067/view
 -- Date: 2012-09-15 19:39
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Applied https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Neutral/88_89_Emmaleah_KunLaiSummit.lua
 
 -- URL: http://wow-pro.com/node/3490/revisions/25065/view
 -- Date: 2012-09-08 06:24
--- Who: 
+-- Who: Laotseu
 
 -- URL: http://wow-pro.com/node/3490/revisions/25064/view
 -- Date: 2012-09-08 05:49
--- Who: 
+-- Who: Laotseu
 -- Log: Play tested using an Alliance toon. Didn't touch the Horde only quests.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25057/view
 -- Date: 2012-08-28 19:31
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 WoWPro.Leveling:RegisterGuide('EmmKun8889', 'Kun-Lai Summit', 'Emmaleah', '88', '89', 'EmmTow8990|EmmTow8990', 'Neutral', function()

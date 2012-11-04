@@ -5,66 +5,66 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
 -- Date: 2012-02-23 01:27
--- Who: 
+-- Who: Crackerhead22
 -- Log: Tweaks
 
 -- URL: http://wow-pro.com/node/3221/revisions/24871/view
 -- Date: 2011-12-21 11:50
--- Who: 
+-- Who: Fluclo
 
 -- URL: http://wow-pro.com/node/3221/revisions/24600/view
 -- Date: 2011-06-25 01:42
--- Who: 
+-- Who: Crackerhead22
 -- Log: ! Duplicate A step for qid 9327 - Removed line.
 --	! Duplicate T step for qid 9327 - Removed line.
 --	! Duplicate A step for qid 9146 - Removed line.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24520/view
 -- Date: 2011-06-07 23:12
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: ! Line 61 for step A has unknown tag [To Vandril]: [A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|To Vandril|]
 
 -- URL: http://wow-pro.com/node/3221/revisions/24509/view
 -- Date: 2011-06-07 03:07
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Added Race tags and new race specific quests, where needed for my poor Orc.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24475/view
 -- Date: 2011-06-01 00:44
--- Who: 
+-- Who: Crackerhead22
 -- Log: Removed "Z|Amani Catacombs|" as it was unneeded.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24439/view
 -- Date: 2011-05-28 11:14
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Coord tweaks and added the explorer achievement step.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24324/view
 -- Date: 2011-04-29 15:39
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 218 for step K has 1 M coords, Line 221 for step K has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24212/view
 -- Date: 2011-04-05 23:18
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3221/revisions/24081/view
 -- Date: 2011-01-30 19:19
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3221/revisions/23624/view
 -- Date: 2010-12-06 05:09
--- Who: 
+-- Who: Crackerhead22
 -- Log: Complete update of source code from scratch.
 
 -- URL: http://wow-pro.com/node/3221/revisions/23312/view
 -- Date: 2010-12-03 07:36
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3221/revisions/23311/view
 -- Date: 2010-12-03 07:36
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("SnoGho1221", "Ghostlands", "Snowflake", "12", "21", "AyaHil2025", "Horde", function()
 return [[

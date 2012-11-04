@@ -5,26 +5,26 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
 -- Date: 2012-02-10 16:25
--- Who: 
+-- Who: Crackerhead22
 -- Log: ?
 
 -- URL: http://wow-pro.com/node/3245/revisions/23546/view
 -- Date: 2010-12-04 03:01
--- Who: 
+-- Who: Liavan
 -- Log: deleted A step as the quest giver has moved to be inside Dire Maul.
 
 -- URL: http://wow-pro.com/node/3245/revisions/23545/view
 -- Date: 2010-12-04 02:54
--- Who: 
+-- Who: Liavan
 -- Log: Updated a few U and L tags and some cords that where having zoning issues.
 
 -- URL: http://wow-pro.com/node/3245/revisions/23371/view
 -- Date: 2010-12-03 11:24
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3245/revisions/23370/view
 -- Date: 2010-12-03 11:23
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('JiyFer3540', 'Feralas', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function()
 return [[

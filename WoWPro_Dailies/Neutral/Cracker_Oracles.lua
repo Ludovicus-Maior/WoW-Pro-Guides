@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/neutral_oracles_reputation_dalies_sholazar_basin
 -- Date: 2012-05-27 18:35
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Fixed some coordinates.
 
 -- URL: http://wow-pro.com/node/3418/revisions/24650/view
 -- Date: 2011-06-30 19:10
--- Who: 
+-- Who: Ludovicus Maior
 
 WoWPro.Dailies:RegisterGuide("CraShoOra", "Sholazar Basin", "The Oracles Reputation", "WTLK", "Crackerhead22", "Neutral", function()
 return [[

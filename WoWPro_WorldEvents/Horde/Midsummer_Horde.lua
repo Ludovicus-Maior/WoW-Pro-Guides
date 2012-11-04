@@ -5,25 +5,25 @@
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
 -- Date: 2012-06-30 23:20
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Got rid of extra spaces.
 
 -- URL: http://wow-pro.com/node/3407/revisions/25017/view
 -- Date: 2012-06-30 21:08
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3407/revisions/24780/view
 -- Date: 2011-10-29 18:09
--- Who: 
+-- Who: Crackerhead22
 -- Log: Moved locations from quest name to notes part for each quest step for auto-accept/complete, added QIDs to some lines.
 
 -- URL: http://wow-pro.com/node/3407/revisions/24640/view
 -- Date: 2011-06-30 06:05
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3407/revisions/24632/view
 -- Date: 2011-06-30 05:43
--- Who: 
+-- Who: Crackerhead22
 
 WoWPro.WorldEvents:RegisterGuide("EmmMidAch","Midsummer Fire Festival (Horde)","Midsummer Fire Festival (Horde)","WE", "Emmaleah", "Horde", function()
 return [[

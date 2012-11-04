@@ -5,55 +5,55 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
 -- Date: 2011-07-01 16:05
--- Who: 
+-- Who: Fluclo
 -- Log: Added Rank 2 tag to quests in Dun Algaz, for those wanting to get straight into the Wetlands action!
 
 -- URL: http://wow-pro.com/node/3224/revisions/24592/view
 -- Date: 2011-06-25 01:04
--- Who: 
+-- Who: Crackerhead22
 -- Log: ! Line 200 for step C has unknown tag [53.33,54.44]: [C The Angerfang Menace|QID|26189|QO|Angerfang Dragonmaw slain: 16/16M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|US|] - Fixed
 
 -- URL: http://wow-pro.com/node/3224/revisions/24522/view
 -- Date: 2011-06-08 00:29
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added missing notes, fixed some notes, added more info for some notes. Fixed a couple of stickies, added a sticky step or two.
 
 -- URL: http://wow-pro.com/node/3224/revisions/24487/view
 -- Date: 2011-06-01 13:40
--- Who: 
+-- Who: Fluclo
 -- Log: Gizmos and Gadgets and The Mosshide Job done together
 
 -- URL: http://wow-pro.com/node/3224/revisions/24486/view
 -- Date: 2011-06-01 13:29
--- Who: 
+-- Who: Fluclo
 -- Log: Unsticky Claws from the Deep which was stickied earlier
 
 -- URL: http://wow-pro.com/node/3224/revisions/24485/view
 -- Date: 2011-06-01 13:23
--- Who: 
+-- Who: Fluclo
 -- Log: When Life Gives You Crabs and A Mother's Worries can be done at same time
 
 -- URL: http://wow-pro.com/node/3224/revisions/24484/view
 -- Date: 2011-06-01 13:22
--- Who: 
+-- Who: Fluclo
 -- Log: Typo
 
 -- URL: http://wow-pro.com/node/3224/revisions/24467/view
 -- Date: 2011-05-31 21:02
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Two Extra [A The Battle of Thandol Span|QID|26128|M|50.75,49.97|Z|] stuck at the end!
 
 -- URL: http://wow-pro.com/node/3224/revisions/23662/view
 -- Date: 2010-12-06 23:38
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3224/revisions/23318/view
 -- Date: 2010-12-03 07:40
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3224/revisions/23317/view
 -- Date: 2010-12-03 07:40
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('WkjWet2025', 'Wetlands', 'Wkjezz', '20', '25', 'BitAra2025', 'Alliance', function()
 return [[

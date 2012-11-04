@@ -5,34 +5,34 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
 -- Date: 2011-12-12 04:38
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3369/revisions/24491/view
 -- Date: 2011-06-02 05:17
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added notes, fixed a couple of cords, added in the turn-ins for the quests "Where Kings Walk" and "Warchief's Blessing." Changed Map ID to "ScarletEnclave (Death Knight)" as "ScarletEnclave - Death Knight" was giving me a map can not be found error. Added a few steps to get Death Knights to Blasted Lands.
 
 -- URL: http://wow-pro.com/node/3369/revisions/24469/view
 -- Date: 2011-05-31 21:09
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: ScarletEnclave is the zone name!
 
 -- URL: http://wow-pro.com/node/3369/revisions/24118/view
 -- Date: 2011-02-18 18:16
--- Who: 
+-- Who: wkjezz
 
 -- URL: http://wow-pro.com/node/3369/revisions/24104/view
 -- Date: 2011-02-08 03:05
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3369/revisions/24102/view
 -- Date: 2011-02-07 11:53
--- Who: 
+-- Who: Gylin
 -- Log: title typo fix
 
 -- URL: http://wow-pro.com/node/3369/revisions/24101/view
 -- Date: 2011-02-05 21:26
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Initial Create
 
 WoWPro.Leveling:RegisterGuide("JamScar5558", "ScarletEnclave (Death Knight)", "Jame", "55", "58", "CraBla5458|JiyBla5560", "Neutral", function()

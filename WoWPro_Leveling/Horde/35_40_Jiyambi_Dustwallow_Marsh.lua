@@ -5,36 +5,36 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
 -- Date: 2012-01-30 10:50
--- Who: 
+-- Who: Crackerhead22
 -- Log: ?
 
 -- URL: http://wow-pro.com/node/3242/revisions/24332/view
 -- Date: 2011-04-29 16:25
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 179 for step f has unknown tag [From Dyslix Silvergrub.]
 
 -- URL: http://wow-pro.com/node/3242/revisions/24192/view
 -- Date: 2011-03-20 21:58
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Import TwoToad https://github.com/Jiyambi/WoW-Pro-Guides/commit/6f679123512da96001fc6cbc2e98f2f4e41eb505
 
 -- URL: http://wow-pro.com/node/3242/revisions/24191/view
 -- Date: 2011-03-20 21:54
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Moved TwoToad's change from Git to source code page.
 
 -- URL: http://wow-pro.com/node/3242/revisions/24008/view
 -- Date: 2011-01-17 19:17
--- Who: 
+-- Who: Estraile
 -- Log: Fixed notes for Theramore Spies and Twilight of the Dawn Runner
 
 -- URL: http://wow-pro.com/node/3242/revisions/23365/view
 -- Date: 2010-12-03 11:16
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3242/revisions/23364/view
 -- Date: 2010-12-03 11:16
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('JiyDus3540', 'Dustwallow Marsh', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function()
 return [[

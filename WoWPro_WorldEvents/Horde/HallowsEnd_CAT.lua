@@ -5,34 +5,34 @@
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
 -- Date: 2012-10-24 21:10
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Add Horde Pandaria Hallows End TRIAL.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24895/view
 -- Date: 2012-01-18 23:55
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Sync to GIT.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24785/view
 -- Date: 2011-10-29 22:20
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3441/revisions/24782/view
 -- Date: 2011-10-29 18:19
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed QID errors.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24779/view
 -- Date: 2011-10-29 02:36
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3441/revisions/24772/view
 -- Date: 2011-10-28 08:04
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3441/revisions/24771/view
 -- Date: 2011-10-28 08:03
--- Who: 
+-- Who: Crackerhead22
 
 WoWPro.WorldEvents:RegisterGuide("LudoHallowCAT","Hallow's End (Cataclysm)","Hallow's End (Cataclysm)","WE", "Ludovicus", "Horde", function()
 return [[

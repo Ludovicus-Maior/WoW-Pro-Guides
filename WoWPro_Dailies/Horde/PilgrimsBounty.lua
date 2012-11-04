@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
 -- Date: 2012-01-19 00:02
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Correct node numbers
 
 -- URL: http://wow-pro.com/node/3456/revisions/24896/view
 -- Date: 2012-01-19 00:00
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Sync to GIT
 
 WoWPro.Dailies:RegisterGuide("LudoPilgrimDailiesH","Pilgrim's Bounty","Pilgrim's Bounty","WE", "Ludovicus", "Horde", function()
