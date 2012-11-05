@@ -54,7 +54,7 @@ function WoWPro.Achievements:NextStep(k, skip)
 	if WoWPro.ach[k] then
 		local achnum, achitem = string.split(";",WoWPro.ach[k])
 		local count = GetAchievementNumCriteria(achnum)
-		if achitem then 
+		if not achitem then 
 			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
 			if Completed then
 				WoWPro.CompleteStep(k)
@@ -108,9 +108,6 @@ function WoWPro.Achievements:SkipStep(index)
 		WoWProCharDB.Guide[GID].skipped[index] = true
 	end
 	local steplist = ""
-	
-	
-	skipstep(index)
 	
 	WoWPro:MapPoint()
 	return steplist
@@ -625,7 +622,13 @@ function WoWPro.Achievements:EventHandler(self, event, ...)
 		WoWPro.Achievements:AutoCompleteLevel(...)
 	end
 
-	if event == "CRITERIA_UPDATE" then 
+	if event == "CRITERIA_UPDATE" then
+		local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+		local GID = WoWProDB.char.currentguide
+		if WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
+			    WoWProCharDB.Guide[GID].completion[i] = true
+			    WoWProCharDB.completedQIDs[QID] = true
+		end			
 		WoWPro:UpdateGuide() 
 	end 
 end
