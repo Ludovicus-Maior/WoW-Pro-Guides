@@ -5,15 +5,15 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
 -- Date: 2012-05-27 17:49
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3473/revisions/24979/view
 -- Date: 2012-05-27 17:19
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3473/revisions/24978/view
 -- Date: 2012-05-27 17:19
--- Who: 
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("LudoExpNoB","Northern Barrens","Northern Barrens","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[

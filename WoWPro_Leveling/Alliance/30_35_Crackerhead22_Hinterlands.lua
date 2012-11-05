@@ -5,46 +5,46 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
 -- Date: 2011-06-08 19:59
--- Who: 
+-- Who: Crackerhead22
 -- Log: Minor tweaks, fixed certain quests not auto-completing.
 
 -- URL: http://wow-pro.com/node/3239/revisions/24299/view
 -- Date: 2011-04-29 14:33
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 169, for step F non-decimal QID
 
 -- URL: http://wow-pro.com/node/3239/revisions/24149/view
 -- Date: 2011-03-08 12:23
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Coord corrections for [Northwestern Temple].
 
 -- URL: http://wow-pro.com/node/3239/revisions/23611/view
 -- Date: 2010-12-05 18:00
--- Who: 
+-- Who: Crackerhead22
 -- Log: Changed a quest to make it run smoothly into Bit's WPL guide.
 
 -- URL: http://wow-pro.com/node/3239/revisions/23586/view
 -- Date: 2010-12-04 22:41
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added optional tag to "Rescue OOX-09/HL!" quest.
 
 -- URL: http://wow-pro.com/node/3239/revisions/23585/view
 -- Date: 2010-12-04 22:33
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed a spot so it doesn't show a smiley.
 
 -- URL: http://wow-pro.com/node/3239/revisions/23584/view
 -- Date: 2010-12-04 22:30
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added source code.
 
 -- URL: http://wow-pro.com/node/3239/revisions/23359/view
 -- Date: 2010-12-03 11:13
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3239/revisions/23358/view
 -- Date: 2010-12-03 11:12
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('CraHin3035', 'The Hinterlands', 'Crackerhead22', '30', '35', 'BitWes3540', 'Alliance', function()
 return [[

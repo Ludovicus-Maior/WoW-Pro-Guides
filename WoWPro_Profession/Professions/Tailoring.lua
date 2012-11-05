@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/profession_tailoring
 -- Date: 2011-07-13 22:48
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Sync to GitHub
 
 -- URL: http://wow-pro.com/node/3412/revisions/24637/view
 -- Date: 2011-06-30 05:56
--- Who: 
+-- Who: Crackerhead22
 
 WoWPro.Profession:RegisterGuide('TwiTailoring', 'Tailoring', 'Tailoring', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[

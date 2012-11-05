@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
 -- Date: 2012-01-19 00:08
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Correct node number
 
 -- URL: http://wow-pro.com/node/3458/revisions/24900/view
 -- Date: 2012-01-19 00:07
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Sync to GIT
 
 WoWPro.WorldEvents:RegisterGuide("LudoWinterVeilH","Winter Veil (Horde)","Winter Veil (Horde)","WE", "Ludovicus", "Horde", function()

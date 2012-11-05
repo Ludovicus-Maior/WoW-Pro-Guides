@@ -5,56 +5,56 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
 -- Date: 2011-06-01 00:16
--- Who: 
+-- Who: Crackerhead22
 -- Log: Removed |Z|The Maw of Madness, as it was unneeded.
 
 -- URL: http://wow-pro.com/node/3312/revisions/24285/view
 -- Date: 2011-04-28 15:12
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/24284/view
 -- Date: 2011-04-28 12:56
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/24283/view
 -- Date: 2011-04-27 12:44
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/24281/view
 -- Date: 2011-04-27 12:21
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/24255/view
 -- Date: 2011-04-23 21:22
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/24254/view
 -- Date: 2011-04-23 20:11
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/24247/view
 -- Date: 2011-04-22 19:48
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/24246/view
 -- Date: 2011-04-22 19:13
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/24245/view
 -- Date: 2011-04-22 18:11
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/24244/view
 -- Date: 2011-04-22 17:56
--- Who: 
+-- Who: Chrisser000
 
 -- URL: http://wow-pro.com/node/3312/revisions/23519/view
 -- Date: 2010-12-03 23:31
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3312/revisions/23518/view
 -- Date: 2010-12-03 23:30
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('LiaTwi8485', 'Twilight Highlands', 'Liavan', '84', '85', nil, 'Horde', function()
 return [[

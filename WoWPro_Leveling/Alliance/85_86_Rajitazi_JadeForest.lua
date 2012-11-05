@@ -5,58 +5,58 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
 -- Date: 2012-11-01 17:15
--- Who: 
+-- Who: Fluclo
 
 -- URL: http://wow-pro.com/node/3486/revisions/25146/view
 -- Date: 2012-10-20 22:49
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: More coord tweaks, spelling corrections, more QO's and glitch warnings.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25141/view
 -- Date: 2012-10-13 21:44
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Lots of coord edits, paths to places and a few spell/quest corrections.
 --	Added more QO tags and corrected a few syntax errors.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25139/view
 -- Date: 2012-10-12 05:50
--- Who: 
+-- Who: JamesL85
 -- Log: The F step to fly to the Temple of the Jade Serpent did not auto-complete.  The map says Temple of the Jade Serpent, not The Temple of the Jade Serpent.  I took "The" out.  Will try again on the next toon.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25108/view
 -- Date: 2012-10-07 00:18
--- Who: 
+-- Who: JamesL85
 -- Log: The K tag for Zhi-Zhi didn't have the QO tag for it to auto-complete.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25107/view
 -- Date: 2012-10-06 22:06
--- Who: 
+-- Who: JamesL85
 -- Log: Added T step for Calamity Jade.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25106/view
 -- Date: 2012-10-06 21:35
--- Who: 
+-- Who: JamesL85
 -- Log: A step of An Air of Worry was 27376.  Changed it to 27576.  The T step was correct.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25104/view
 -- Date: 2012-10-03 20:39
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Change the start of the guide to add proper coords; tweak a few comments in the harbor; switch around the completions for Twinspire Towers to make it easier to complete.  Oh, and spelling errors.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25099/view
 -- Date: 2012-10-02 01:49
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Emmaleah: added quest A An error of worry, and lots of tweaks
 --	Ludovicus: edited corrections to eliminate syntax errors and odd spellings. Manual merge.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25097/view
 -- Date: 2012-10-02 00:47
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Ennakeah: Added quest per comments.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25095/view
 -- Date: 2012-09-28 00:40
--- Who: 
+-- Who: Laotseu
 -- Log: Typos correction to make the autocompletion work.
 --	Missing T steps for Pages of History and Lighting Up the Sky.
 --	Fix some coordinated.
@@ -64,31 +64,31 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25094/view
 -- Date: 2012-09-27 10:07
--- Who: 
+-- Who: Estelyen
 -- Log: Two minor fixes, turning in Down Kitty! makes more sense after collecting the silk as the questgiver is no longer following the player. Also the step to accept An Air of Worry was missing.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25089/view
 -- Date: 2012-09-25 00:55
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3486/revisions/25084/view
 -- Date: 2012-09-24 23:54
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Twinspire Keep is not a valid zone. Green is not spelt gree!
 
 -- URL: http://wow-pro.com/node/3486/revisions/25058/view
 -- Date: 2012-08-28 19:44
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Laotseu 6 days ago Play testing the Alliance The Jade Forest guide. 
 
 -- URL: http://wow-pro.com/node/3486/revisions/25050/view
 -- Date: 2012-08-28 19:03
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Fix url references.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25049/view
 -- Date: 2012-08-28 19:00
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 WoWPro.Leveling:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', '85', '86', 'EmmVal8688', 'Alliance', function()

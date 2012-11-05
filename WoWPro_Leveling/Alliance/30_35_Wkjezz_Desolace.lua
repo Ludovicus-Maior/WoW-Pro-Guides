@@ -5,101 +5,101 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
 -- Date: 2011-06-12 19:52
--- Who: 
+-- Who: Crackerhead22
 -- Log: Minor fixes.
 
 -- URL: http://wow-pro.com/node/3313/revisions/24415/view
 -- Date: 2011-05-23 20:55
--- Who: 
+-- Who: Crackerhead22
 -- Log: Condensed code, rearranged a couple quests for better flow, added notes, fixed notes, added cords, fixed cords, added breadcrumb quest to Feralas.
 
 -- URL: http://wow-pro.com/node/3313/revisions/23921/view
 -- Date: 2011-01-02 20:42
--- Who: 
+-- Who: Fluclo
 -- Log: Added the quest Bone Collector
 
 -- URL: http://wow-pro.com/node/3313/revisions/23920/view
 -- Date: 2011-01-02 20:36
--- Who: 
+-- Who: Fluclo
 -- Log: Added correct QID to a Nijel's Point Hearthstone so that it goes away after related quests have been handed in.
 
 -- URL: http://wow-pro.com/node/3313/revisions/23919/view
 -- Date: 2011-01-02 20:35
--- Who: 
+-- Who: Fluclo
 -- Log: Added correct QID for Run to the small building so that it doesn't reappear after quest has been completed
 
 -- URL: http://wow-pro.com/node/3313/revisions/23918/view
 -- Date: 2011-01-02 20:34
--- Who: 
+-- Who: Fluclo
 -- Log: Bizby's grinding quests not required for zone progression, therefore added Rank 2 to all steps
 
 -- URL: http://wow-pro.com/node/3313/revisions/23917/view
 -- Date: 2011-01-02 20:31
--- Who: 
+-- Who: Fluclo
 -- Log: Tweaks to starting of the zone
 
 -- URL: http://wow-pro.com/node/3313/revisions/23916/view
 -- Date: 2011-01-02 20:08
--- Who: 
+-- Who: Fluclo
 -- Log: Corrected Deep Impact
 
 -- URL: http://wow-pro.com/node/3313/revisions/23915/view
 -- Date: 2011-01-02 19:43
--- Who: 
+-- Who: Fluclo
 -- Log: Clarified need to be Naga for a couple of quests
 
 -- URL: http://wow-pro.com/node/3313/revisions/23914/view
 -- Date: 2011-01-02 19:25
--- Who: 
+-- Who: Fluclo
 -- Log: Added two new quests, Karnitol Shipwreck, since player already in area for the Slitherblade quest chain
 
 -- URL: http://wow-pro.com/node/3313/revisions/23913/view
 -- Date: 2011-01-02 19:21
--- Who: 
+-- Who: Fluclo
 -- Log: Changed quest IDs on a couple of steps.
 
 -- URL: http://wow-pro.com/node/3313/revisions/23912/view
 -- Date: 2011-01-02 11:48
--- Who: 
+-- Who: Fluclo
 -- Log: Clarified step for Ears Are Burning
 
 -- URL: http://wow-pro.com/node/3313/revisions/23911/view
 -- Date: 2011-01-02 11:12
--- Who: 
+-- Who: Fluclo
 -- Log: Updated handling of Elune's Gifts to flow properly on the display.
 
 -- URL: http://wow-pro.com/node/3313/revisions/23910/view
 -- Date: 2011-01-02 10:35
--- Who: 
+-- Who: Fluclo
 -- Log: Corrected quest number for Nijel's Point to allow seamless reloading of guide
 
 -- URL: http://wow-pro.com/node/3313/revisions/23909/view
 -- Date: 2011-01-02 10:17
--- Who: 
+-- Who: Fluclo
 -- Log: Moved the set home at Nijel's Point to a more convinient place to avoid doubling back.
 
 -- URL: http://wow-pro.com/node/3313/revisions/23908/view
 -- Date: 2011-01-02 10:14
--- Who: 
+-- Who: Fluclo
 -- Log: Changed Run to Nijel's Point to mount the provided gryphon, and moved flight point to a more appropriate place.
 
 -- URL: http://wow-pro.com/node/3313/revisions/23907/view
 -- Date: 2011-01-02 10:06
--- Who: 
+-- Who: Fluclo
 -- Log: Improved entry for route from Stonetalon Mountains to Desolace
 
 -- URL: http://wow-pro.com/node/3313/revisions/23906/view
 -- Date: 2011-01-02 09:42
--- Who: 
+-- Who: Fluclo
 -- Log: Corrected some |QO| tags
 
 -- URL: http://wow-pro.com/node/3313/revisions/23523/view
 -- Date: 2010-12-03 23:47
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3313/revisions/23522/view
 -- Date: 2010-12-03 23:45
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('WkjDes3035', 'Desolace', 'Wkjezz', '30', '35', 'WkjFer3540', 'Alliance', function()
 return [[

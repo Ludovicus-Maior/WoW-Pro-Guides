@@ -5,29 +5,29 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
 -- Date: 2012-02-11 17:39
--- Who: 
+-- Who: Crackerhead22
 -- Log: ?
 
 -- URL: http://wow-pro.com/node/3254/revisions/24333/view
 -- Date: 2011-04-29 16:28
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 48 for step A has unknown tag [From Razzeric.], Line 163 for step A has 1 M coords, Line 199 for step A has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3254/revisions/23672/view
 -- Date: 2010-12-07 04:52
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3254/revisions/23431/view
 -- Date: 2010-12-03 12:14
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3254/revisions/23389/view
 -- Date: 2010-12-03 11:39
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3254/revisions/23388/view
 -- Date: 2010-12-03 11:38
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('JiyTho4045', 'Thousand Needles', 'Jiyambi', '40', '45', 'JiyTan4550', 'Horde', function()
 return [[

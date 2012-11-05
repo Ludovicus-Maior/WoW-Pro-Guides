@@ -5,54 +5,54 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
 -- Date: 2011-12-28 22:11
--- Who: 
+-- Who: Fluclo
 -- Log: Added Level message, target for Curtail the Darktail, and changed order/steps around Captain Metlek.
 
 -- URL: http://wow-pro.com/node/3267/revisions/24862/view
 -- Date: 2011-12-12 19:10
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added in missing quest.
 
 -- URL: http://wow-pro.com/node/3267/revisions/24546/view
 -- Date: 2011-06-11 23:26
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed a couple waypoints, clarified notes on the amulet quests. Added a couple more steps for "Demonic Vessel" quest, as well as adding a loot tag so it would auto-complete on creating the final item.
 
 -- URL: http://wow-pro.com/node/3267/revisions/24367/view
 -- Date: 2011-05-06 03:05
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added turn-in "Blasted Lands: The Other Side of the World" for those coming from Winterspring.
 
 -- URL: http://wow-pro.com/node/3267/revisions/24366/view
 -- Date: 2011-05-06 02:50
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added run to and turn-in for "Nethergarde Needs You!" for those coming from Silithus.
 
 -- URL: http://wow-pro.com/node/3267/revisions/24305/view
 -- Date: 2011-04-29 14:49
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 30 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3267/revisions/23791/view
 -- Date: 2010-12-19 07:48
--- Who: 
+-- Who: lunargecko
 
 -- URL: http://wow-pro.com/node/3267/revisions/23548/view
 -- Date: 2010-12-04 06:19
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3267/revisions/23547/view
 -- Date: 2010-12-04 06:18
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added source code.
 
 -- URL: http://wow-pro.com/node/3267/revisions/23416/view
 -- Date: 2010-12-03 12:01
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3267/revisions/23415/view
 -- Date: 2010-12-03 12:01
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('CraBla5458', 'Blasted Lands', 'Crackerhead22', '54', '58', 'JamHel6062', 'Alliance', function()
 return [[

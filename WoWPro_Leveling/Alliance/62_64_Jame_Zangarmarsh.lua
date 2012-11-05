@@ -5,35 +5,35 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
 -- Date: 2012-01-18 21:58
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Changed Fertile Spores from a N step to an l step.
 
 -- URL: http://wow-pro.com/node/3273/revisions/24865/view
 -- Date: 2011-12-13 20:18
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3273/revisions/24834/view
 -- Date: 2011-12-04 16:06
--- Who: 
+-- Who: Crackerhead22
 -- Log: 4.3 updates
 
 -- URL: http://wow-pro.com/node/3273/revisions/24556/view
 -- Date: 2011-06-15 20:29
--- Who: 
+-- Who: Crackerhead22
 -- Log: Minor tweaks.
 
 -- URL: http://wow-pro.com/node/3273/revisions/24223/view
 -- Date: 2011-04-05 23:37
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3273/revisions/24206/view
 -- Date: 2011-04-04 15:00
--- Who: 
+-- Who: Crackerhead22
 -- Log: Some note changes.
 
 -- URL: http://wow-pro.com/node/3273/revisions/24103/view
 -- Date: 2011-02-08 01:08
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Submitted by andyarnolduk on Mon, 2011-02-07 15:20.
 --	
 --	The waypoint for step 10 is a little off... it should be:
@@ -45,36 +45,36 @@
 
 -- URL: http://wow-pro.com/node/3273/revisions/23945/view
 -- Date: 2011-01-07 19:15
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed step sequence errors, fixed note errors, fixed missing cords, fixed missing |N| tags.
 
 -- URL: http://wow-pro.com/node/3273/revisions/23941/view
 -- Date: 2011-01-07 16:04
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added more missing |N| tags.
 
 -- URL: http://wow-pro.com/node/3273/revisions/23940/view
 -- Date: 2011-01-07 15:48
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added missing |N| tags, added sticky step.
 
 -- URL: http://wow-pro.com/node/3273/revisions/23708/view
 -- Date: 2010-12-09 00:11
--- Who: 
+-- Who: Crackerhead22
 -- Log: Updated source with NPC notes, waypoints.
 
 -- URL: http://wow-pro.com/node/3273/revisions/23686/view
 -- Date: 2010-12-07 20:48
--- Who: 
+-- Who: Crackerhead22
 -- Log: Corrected first line so it would auto-load.
 
 -- URL: http://wow-pro.com/node/3273/revisions/23428/view
 -- Date: 2010-12-03 12:12
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3273/revisions/23427/view
 -- Date: 2010-12-03 12:11
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("JamZan6264", "Zangarmarsh", "Jame", "62","64", "JamTer6466", "Alliance", function()
 return [[

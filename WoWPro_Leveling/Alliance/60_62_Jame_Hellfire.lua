@@ -5,68 +5,68 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
 -- Date: 2012-01-18 21:55
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Coord tweak for A Naladu|
 
 -- URL: http://wow-pro.com/node/3271/revisions/24823/view
 -- Date: 2011-11-30 18:32
--- Who: 
+-- Who: Crackerhead22
 -- Log: Some updates for patch 4.3.
 
 -- URL: http://wow-pro.com/node/3271/revisions/24808/view
 -- Date: 2011-11-16 21:04
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3271/revisions/24481/view
 -- Date: 2011-06-01 01:24
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3271/revisions/24450/view
 -- Date: 2011-05-30 05:29
--- Who: 
+-- Who: Crackerhead22
 -- Log: Correct cords for the Dark Portal and Watch Commander Relthorn Netherwane.
 
 -- URL: http://wow-pro.com/node/3271/revisions/24449/view
 -- Date: 2011-05-30 05:26
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added |Z|Blasted Lands| for the steps that were missing it, that were still in the Blasted Lands.
 
 -- URL: http://wow-pro.com/node/3271/revisions/24448/view
 -- Date: 2011-05-30 05:19
--- Who: 
+-- Who: Crackerhead22
 -- Log: Changed step 1 so it auto-completes upon entering Blasted Lands, corrected cords for the step on buying the Nethergarde Bitter.
 
 -- URL: http://wow-pro.com/node/3271/revisions/24326/view
 -- Date: 2011-04-29 16:05
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 59 for step A has unknown tag [From Sergeant Altumus.], Line * for step N has unknown tag [Q], Line 115 for step N has unknown tag [Disrupt Their Reinforcements], Line 284 for step N has unknown tag [M5].
 
 -- URL: http://wow-pro.com/node/3271/revisions/24205/view
 -- Date: 2011-04-03 06:01
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3271/revisions/24197/view
 -- Date: 2011-04-01 13:04
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed a misspelling, fixed cords for run to Telhamat.
 
 -- URL: http://wow-pro.com/node/3271/revisions/24160/view
 -- Date: 2011-03-09 15:53
--- Who: 
+-- Who: savagefool
 -- Log: changed a cordinate to match the quest.
 
 -- URL: http://wow-pro.com/node/3271/revisions/23685/view
 -- Date: 2010-12-07 20:46
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added waypoints, moved a couple steps around, removed redundant steps.
 
 -- URL: http://wow-pro.com/node/3271/revisions/23424/view
 -- Date: 2010-12-03 12:09
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3271/revisions/23423/view
 -- Date: 2010-12-03 12:09
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("JamHel6062", "Hellfire Peninsula", "Jame", "60", "62", "JamZan6264", "Alliance", function()
 return [[

@@ -5,26 +5,26 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
 -- Date: 2011-12-12 20:14
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added missing notes, added a few QO steps...?
 
 -- URL: http://wow-pro.com/node/3268/revisions/24431/view
 -- Date: 2011-05-28 04:21
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added in "Warchief's Command: Blasted Lands!" and "Blasted Lands: The Other Side of the World" turn-ins. Put optional tags on the turn-ins for the breadcrumb quests.
 
 -- URL: http://wow-pro.com/node/3268/revisions/24338/view
 -- Date: 2011-04-29 16:38
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line ** for step * has unknown tag [If you didn't
 
 -- URL: http://wow-pro.com/node/3268/revisions/23418/view
 -- Date: 2010-12-03 12:02
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3268/revisions/23417/view
 -- Date: 2010-12-03 12:02
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('JiyBla5560', 'Blasted Lands', 'Jiyambi', '55', '60', 'JamHel6063', 'Horde', function()
 return [[

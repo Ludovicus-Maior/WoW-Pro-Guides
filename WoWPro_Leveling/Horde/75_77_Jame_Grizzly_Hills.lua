@@ -5,48 +5,48 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
 -- Date: 2012-01-24 13:36
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added notes, cords, missing quest(s?)...?
 
 -- URL: http://wow-pro.com/node/3294/revisions/24761/view
 -- Date: 2011-10-11 04:21
--- Who: 
+-- Who: Gethe
 -- Log: Updated "Vial of Visions", uses Crystal Vials now not Imbued Vials.
 
 -- URL: http://wow-pro.com/node/3294/revisions/24760/view
 -- Date: 2011-10-10 23:55
--- Who: 
+-- Who: Gethe
 
 -- URL: http://wow-pro.com/node/3294/revisions/24755/view
 -- Date: 2011-10-10 03:32
--- Who: 
+-- Who: Gethe
 
 -- URL: http://wow-pro.com/node/3294/revisions/24607/view
 -- Date: 2011-06-25 02:48
--- Who: 
+-- Who: Crackerhead22
 -- Log: ! Quest 12164 has an A step and no T - Added in turn in step.
 
 -- URL: http://wow-pro.com/node/3294/revisions/24344/view
 -- Date: 2011-04-29 16:52
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 285 for step C has unknown tag [NGo northwest to ...]
 
 -- URL: http://wow-pro.com/node/3294/revisions/24211/view
 -- Date: 2011-04-05 23:15
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3294/revisions/24163/view
 -- Date: 2011-03-12 18:29
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Make Guide ID unique
 
 -- URL: http://wow-pro.com/node/3294/revisions/23480/view
 -- Date: 2010-12-03 22:26
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3294/revisions/23479/view
 -- Date: 2010-12-03 22:26
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("JamGriH7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Horde", function()
 --Original guide written/designed by Jame

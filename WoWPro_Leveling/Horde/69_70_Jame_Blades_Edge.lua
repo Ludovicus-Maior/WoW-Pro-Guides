@@ -5,31 +5,31 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
 -- Date: 2012-08-13 02:06
--- Who: 
+-- Who: Laotseu
 -- Log: Minor fixes, mostly N steps that were converted to C with |NC|+|QO| and a few missing |T|.
 
 -- URL: http://wow-pro.com/node/3282/revisions/24883/view
 -- Date: 2012-01-04 16:23
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added notes, cords, sticky steps.
 
 -- URL: http://wow-pro.com/node/3282/revisions/24848/view
 -- Date: 2011-12-08 18:02
--- Who: 
+-- Who: Crackerhead22
 -- Log: 4.3 updates plus added in quest for zone quest achievment
 
 -- URL: http://wow-pro.com/node/3282/revisions/24341/view
 -- Date: 2011-04-29 16:46
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 301, for step A non-decimal PRE
 
 -- URL: http://wow-pro.com/node/3282/revisions/23453/view
 -- Date: 2010-12-03 21:38
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3282/revisions/23452/view
 -- Date: 2010-12-03 21:37
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("JamBla6970", "Blade's Edge Mountains", "Jame", "65", "68", "JamHow7071", "Horde", function()
 return [[

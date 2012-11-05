@@ -4,24 +4,29 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2012-11-04 21:22
+-- Who: Emmaleah
+-- Log: changed CC in R Nectarbreeze to CS
+
+-- URL: http://wow-pro.com/node/3487/revisions/25129/view
 -- Date: 2012-10-08 19:49
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: As per  Emmaleah, Use Captain's Jack's head to get the quest.
 
 -- URL: http://wow-pro.com/node/3487/revisions/25100/view
 -- Date: 2012-10-02 01:55
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Emmaleah: edited with Play test on live 9/30/12 -- many many changes
 --	Ludovicus: No editing on my part!  Have not yet done this on horde.
 
 -- URL: http://wow-pro.com/node/3487/revisions/25052/view
 -- Date: 2012-08-28 19:06
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: correct urls
 
 -- URL: http://wow-pro.com/node/3487/revisions/25051/view
 -- Date: 2012-08-28 19:05
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 WoWPro.Leveling:RegisterGuide('EmmJad8586', 'The Jade Forest', 'Emmaleah', '85', '86', 'EmmVal8688', 'Horde', function()
@@ -394,7 +399,7 @@ A Flying Colors|QID|29647|M|43.27,24.75|N|From Instructor Myang.|
 T Flying Colors|QID|29647|M|42.71,23.23|N|To High Elder Cloudfall.|
 
 F Dawn's Blossom|QID|29931|M|43.52,24.55|N|At Studious Chu.(or you can just ride straight to Nectarbreeze)|
-R Nectarbreeze Orchard|CC|M|46.67,46.76;45.83,50.25;46.72,55.25;41.52,61.13;43.37,72.76;43.54,75.91|N|The green dots will take you via roads, which is probably safer, but certainly slower than running cross-country.|
+R Nectarbreeze Orchard|CS|M|46.67,46.76;45.83,50.25;46.72,55.25;41.52,61.13;43.37,72.76;43.54,75.91|N|The green dots will take you via roads, which is probably safer, but certainly slower than running cross-country.|
 T An Air of Worry |QID|29576|N|To Shao the Defiant|M|43.5,75.9|
 A Defiance|QID|29578|M|43.54,75.91|N|From Shao the Defiant.|
 A Rally the Survivors|QID|29579|M|43.54,75.91|N|From Shao the Defiant.|

@@ -5,55 +5,55 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
 -- Date: 2012-05-27 18:58
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Missing coord for Ha'wana.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24923/view
 -- Date: 2012-01-25 21:01
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Followon guide is now ScoSho7879 for both factions.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24850/view
 -- Date: 2011-12-10 03:50
--- Who: 
+-- Who: Crackerhead22
 -- Log: Minor tweaking, plus 4.3 updates.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24758/view
 -- Date: 2011-10-10 23:49
--- Who: 
+-- Who: Gethe
 
 -- URL: http://wow-pro.com/node/3295/revisions/24757/view
 -- Date: 2011-10-10 17:34
--- Who: 
+-- Who: Crackerhead22
 -- Log: Created neutral guide, credit to Gethe. 
 
 -- URL: http://wow-pro.com/node/3295/revisions/24750/view
 -- Date: 2011-09-21 08:37
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added sticky steps, added missing notes, added missing cords, changed a couple of notes.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24327/view
 -- Date: 2011-04-29 16:06
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 40 for step A has 3 M coords, Line 182 for step A has unknown tag [12740].
 
 -- URL: http://wow-pro.com/node/3295/revisions/24203/view
 -- Date: 2011-04-02 19:18
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: OK, this is a HUGE update. Added From/To notes to most quests.   Added [The Amphitheater of Anguish] series.  Eliminated LightSpeed advice dependencies and added some notes and QO tags.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24166/view
 -- Date: 2011-03-12 18:33
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Make guide IDs unique
 
 -- URL: http://wow-pro.com/node/3295/revisions/23482/view
 -- Date: 2010-12-03 22:28
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3295/revisions/23481/view
 -- Date: 2010-12-03 22:28
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide("ScoZul7778", "Zul'Drak", "Scoot", "77", "78", "ScoSho7879|ScoSho7879", "Neutral", function()
 return [[

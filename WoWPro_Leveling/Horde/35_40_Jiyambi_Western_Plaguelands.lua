@@ -5,24 +5,24 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
 -- Date: 2011-05-17 00:45
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3246/revisions/23832/view
 -- Date: 2010-12-27 09:04
--- Who: 
+-- Who: Crackerhead22
 -- Log: Fixed some waypoints.
 
 -- URL: http://wow-pro.com/node/3246/revisions/23551/view
 -- Date: 2010-12-04 06:34
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3246/revisions/23373/view
 -- Date: 2010-12-03 11:25
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3246/revisions/23372/view
 -- Date: 2010-12-03 11:25
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('JiyWes3540', 'Western Plaguelands', 'Jiyambi', '35', '40', 'CraEas4045', 'Horde', function()
 return [[

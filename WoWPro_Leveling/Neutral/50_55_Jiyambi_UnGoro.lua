@@ -5,38 +5,38 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_neutral
 -- Date: 2012-02-18 04:17
--- Who: 
+-- Who: Crackerhead22
 -- Log: Minor Tweaks
 
 -- URL: http://wow-pro.com/node/3262/revisions/24571/view
 -- Date: 2011-06-21 20:30
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3262/revisions/24446/view
 -- Date: 2011-05-30 00:41
--- Who: 
+-- Who: Crackerhead22
 -- Log: Added couple of missing notes, fixed spelling errors stopping steps that lead to Marshal's Stand from auto-completing, added turn-in for "Bouquets of Death" and added accept for "Aberrant Flora", added in Alliance's "Hero's Call" breadcrumb, added faction tags to the Alliance and Horde breadcrumb.
 
 -- URL: http://wow-pro.com/node/3262/revisions/24403/view
 -- Date: 2011-05-17 01:58
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3262/revisions/24395/view
 -- Date: 2011-05-17 01:10
--- Who: 
+-- Who: Ludovicus Maior
 
 -- URL: http://wow-pro.com/node/3262/revisions/24336/view
 -- Date: 2011-04-29 16:34
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Line 92 for step C has unknown tag [GRP]
 
 -- URL: http://wow-pro.com/node/3262/revisions/23406/view
 -- Date: 2010-12-03 11:53
--- Who: 
+-- Who: Jiyambi
 
 -- URL: http://wow-pro.com/node/3262/revisions/23405/view
 -- Date: 2010-12-03 11:52
--- Who: 
+-- Who: Jiyambi
 
 WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560|JiySil5560', 'Neutral', function()
 return [[

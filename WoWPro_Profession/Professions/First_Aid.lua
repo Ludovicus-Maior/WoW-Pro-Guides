@@ -5,11 +5,11 @@
 
 -- URL: http://wow-pro.com/wiki/profession_first_aid
 -- Date: 2011-06-30 06:05
--- Who: 
+-- Who: Crackerhead22
 
 -- URL: http://wow-pro.com/node/3410/revisions/24635/view
 -- Date: 2011-06-30 05:56
--- Who: 
+-- Who: Crackerhead22
 
 WoWPro.Profession:RegisterGuide('TwiFirstAid', 'First Aid', 'First Aid', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
 -- Date: 2012-06-30 16:06
--- Who: 
+-- Who: Ludovicus Maior
 -- Log: Wrong zone name for The Cape of Stranglethorn
 
 -- URL: http://wow-pro.com/node/3475/revisions/24982/view
 -- Date: 2012-05-27 17:50
--- Who: 
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide("TwiExpDM","Dun Morogh","Dun Morogh","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[
