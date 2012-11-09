@@ -626,7 +626,7 @@ function WoWPro.Achievements:EventHandler(self, event, ...)
 		local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 		local GID = WoWProDB.char.currentguide
 		if WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-			    WoWProCharDB.Guide[GID].completion[i] = true
+			    WoWProCharDB.Guide[GID].completion[qidx] = true
 			    WoWProCharDB.completedQIDs[QID] = true
 		end			
 		WoWPro:UpdateGuide() 
