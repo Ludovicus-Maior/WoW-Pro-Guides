@@ -709,7 +709,11 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
     if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
+        local questid = GetQuestID()
 		if WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
+			if questid ~= tonumber(WoWPro.QID[qidx]) then
+				WoWPro:Print("Expected QID %d, found %d instead on quest [%s]",tonumber(WoWPro.QID[qidx]),questid,questtitle)
+			end
 		    AcceptQuest()
 		end 
     end

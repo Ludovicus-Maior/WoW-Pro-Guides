@@ -705,8 +705,10 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText()
         local questid = GetQuestID()
-        WoWPro:dbp("Accepted quest %d [%s]",questid,questtitle); 
 		if WoWProCharDB.AutoAccept == true and WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
+			if questid ~= tonumber(WoWPro.QID[qidx]) then
+				WoWPro:Print("Expected QID %d, found %d instead on quest [%s]",tonumber(WoWPro.QID[qidx]),questid,questtitle)
+			end
 		    AcceptQuest()
 		end 
     end
