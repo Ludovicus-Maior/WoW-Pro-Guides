@@ -267,10 +267,8 @@ function WoWPro.Dailies:LoadGuide()
 		    -- Daily Quest Query, always ask the silly client
 		    if WoWPro:IsQuestFlaggedCompleted(QID,true) then
 			    WoWProCharDB.Guide[GID].completion[i] = true
-			    WoWProCharDB.completedQIDs[QID] = true
 			else
 			    WoWProCharDB.Guide[GID].completion[i] = false
-			    WoWProCharDB.completedQIDs[QID] = false
 			end
 
 		
@@ -386,7 +384,7 @@ function WoWPro.Dailies:RowUpdate(offset)
 		else
 			row.check:SetChecked(false)
 		end
-		if note then note = strtrim(note) note = string.gsub(note,"\\n","\n") end
+		if note then note = strtrim(note) note = string.gsub(note,"\\n","\n") ; note = string.gsub(note,"\\124","|") end
 		if WoWProDB.profile.showcoords and coord and note then note = note.." ("..coord..")" end
 		if WoWProDB.profile.showcoords and coord and not note then note = "("..coord..")" end
 		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
@@ -645,7 +643,6 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 	-- Auto-Completion --
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Dailies:AutoCompleteSetHearth(...)
-		WoWPro.Dailies:CheckDailiesReset(false)
 	end	
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
 		WoWPro.Dailies:AutoCompleteZone(...)
@@ -654,54 +651,6 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 		WoWPro:PopulateQuestLog(...)
 		WoWPro.Dailies:AutoCompleteQuestUpdate(...)
 		WoWPro.Dailies:UpdateQuestTracker()
-	end
-	if event == "QUEST_QUERY_COMPLETE" and WoWPro.Dailies.DailiesReset then
-		WoWPro.Dailies.DailiesReset = false
-	    if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Dailies" then
-            WoWPro.Dailies:Print("Reloading Daily guide %s",WoWProDB.char.currentguide)
-	        WoWPro:LoadGuide(WoWProDB.char.currentguide)
-	    end
-	end
-end
-
-function WoWPro.Dailies:Reset()
-	for GID, GuideInfo in pairs(WoWPro.Guides) do
-		if GuideInfo.guidetype == "Dailies" then
-		    if WoWProCharDB.Guide[GID] == nil then
-		        WoWProCharDB.Guide[GID] = {}
-		    end
-		    WoWProCharDB.Guide[GID].completion = {}
-		    WoWProCharDB.Guide[GID].skipped = {}
-		end
-	end
-end
-
-function WoWPro.Dailies:CheckDailiesReset(force)
-    local nowDone = GetDailyQuestsCompleted()
-    
-	if WoWProDB.char.CompletedDailies == nil or force then
-	    WoWProDB.char.CompletedDailies = nowDone
-        if force then
-            self:Print("Force Reset")
-        else
-            self:Print("Resetting as unknown number of dalies complete and Wow says we did %d.",nowDone)
-        end
-		WoWPro.Dailies.DailiesReset = true
-		WoWPro.Dailies:Reset()
-		WoWPro.QueryQuestsCompleted()
-	    return
-	end
-
-	if WoWProDB.char.CompletedDailies > nowDone then
-        self:Print("Reset since we last did %d and now Wow says %d are done.",WoWProDB.char.CompletedDailies,nowDone)
-        WoWProDB.char.CompletedDailies = nowDone
-		WoWPro.Dailies.DailiesReset = true
-		WoWPro.Dailies:Reset()
-		WoWPro.QueryQuestsCompleted()
-	    return
-	elseif WoWProDB.char.CompletedDailies < nowDone then
-	    self:dbp("Updating CompletedDailies to %d",nowDone)
-	    WoWProDB.char.CompletedDailies = nowDone
 	end
 end
 
