@@ -10,6 +10,7 @@
 WoWPro_Achievements.lua
 
 Exploration\Guides.xml
+General\Guides.xml
 Quests\Guides.xml
 
 WoWPro_Achievements_Parser.lua
