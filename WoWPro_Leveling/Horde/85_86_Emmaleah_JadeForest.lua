@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2012-11-08 20:16
+-- Who: Emmaleah
+-- Log: added coords for use boots on missed me by that much
+
+-- URL: http://wow-pro.com/node/3487/revisions/25188/view
+-- Date: 2012-11-08 18:54
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3487/revisions/25180/view
 -- Date: 2012-11-04 21:22
 -- Who: Emmaleah
 -- Log: changed CC in R Nectarbreeze to CS
@@ -33,17 +42,17 @@ WoWPro.Leveling:RegisterGuide('EmmJad8586', 'The Jade Forest', 'Emmaleah', '85',
 return [[
 
 N Welcome to Pandaria|QID|29612|N|Don't forget to train your professions before leaving Orgrimar, there are trainers in Pandaria, but some of them take a while to find.|
-A The Art of War|QID|29612|N|From UI Alert|Z|Orgrimmar|
+A The Art of War|QID|29612|N|From UI Alert|
 T The Art of War|QID|29612|M|48.56,70.62|Z|Orgrimmar|N|To General Nazgrim.|
 A All Aboard!|QID|31853|M|48.56,70.62|Z|Orgrimmar|N|From General Nazgrim.|
-T All Aboard!|QID|31853|M|61.21,44.65|Z|Bladefist Bay|N|To General Nazgrim.(up in the Sky)|
-A Into the Mists|QID|29690|M|61.21,44.65|Z|Bladefist Bay|N|From General Nazgrim.|
+T All Aboard!|QID|31853|M|65,0|Z|Durotar|N|To General Nazgrim.(up in the Sky)|
+A Into the Mists|QID|29690|M|65,0|Z|Durotar|N|From General Nazgrim.|
 T Into the Mists|QID|29690|M|30.77,10.22|N|To General Nazgrim.|
 A Paint it Red!|QID|31765|M|30.77,10.22|N|From General Nazgrim.|
 C Paint it Red!|QID|31765|M|31.55,11.13|N|Cannons are on the lower level along this side of the warship.|
 T Paint it Red!|QID|31765|M|31.00,11.04|N|To Rivett Clutchpop.|
 A Touching Ground|QID|31766|M|31.00,11.04|N|From Rivett Clutchpop.|
-C Touching Ground|QID|31766|M|31.55,11.13|Ropes are beside the cannons.|
+C Touching Ground|QID|31766|M|31.55,11.13|N|Ropes are beside the cannons.|
 
 T Touching Ground|QID|31766|M|31.71,11.49|N|To General Nazgrim.|
 A Finish Them!|QID|31767|M|31.71,11.49|N|From General Nazgrim.|
@@ -117,6 +126,7 @@ T Unreliable Allies|QID|31778|M|31.45,21.72|N|To Merchant Zin.|
 T Assault on the Airstrip|QID|31775|M|31.65,21.97|N|To General Nazgrim.|
 T Strongarm Tactics|QID|31776|M|31.65,21.97|N|To General Nazgrim.|
 A The Darkness Within|QID|31779|M|31.65,21.97|N|From General Nazgrim.|
+l Ancient Pandaren Teapot|QID|31400|L|85780|M|26.2,32.3|N|Run up and get the teapot, due to a phasing bug, it's not available after you kill Capt. Doren in the next step, worth as much XP as a quest and ~100g besides|;placing this here until Bliz fixes the phasing.
 C The Darkness Within|QID|31779|T|Captain Doren|M|27.38,25.14;26.13,24.89;25.84,23.96|CS|N|He is hiding in a cave across the bridge.|
 T The Darkness Within|QID|31779|M|27.52,24.15|
 A Nazgrim's Command|QID|31999|M|27.52,24.15|
@@ -125,9 +135,10 @@ T Nazgrim's Command|QID|31999|M|28.41,24.91|N|To General Nazgrim.|
 A Forensic Science|QID|29815|M|28.15,24.76|N|From Shademaster Kiryn.|
 A Missed Me By... That Much!|QID|29821|M|28.13,24.71|N|From Rivett Clutchpop.|
 C Forensic Science|QID|29815|S|M|26.23,30.07|
+C Missed Me By... That Much!|QID|29821|M|24.02,27.12|U|84157|N|Use the rocket boots provided to jump to the island.|
 T Missed Me By... That Much!|QID|29821|M|22.85,30.60|N|To Empty Package.|
 A They're So Thorny!|QID|31112|M|22.85,30.60|N|From Empty Package.|
-C They're So Thorny!|QID|31112|U|84157|M|25.53,27.70|N|Use the rocket boots (from the crate) to jump back to the shore.  The sprites drop the supplies.|
+C They're So Thorny!|QID|31112|U|84157|M|25.53,27.70|N|Use the rocket boots again to jump back to the shore.  The sprites drop the supplies.|
 C Forensic Science|QID|29815|US|NC|M|26.23,30.07|
 T They're So Thorny!|QID|31112|M|28.07,24.62|N|To Rivett Clutchpop.|
 T Forensic Science|QID|29815|M|28.15,24.87|N|To Shademaster Kiryn.|
@@ -138,7 +149,7 @@ A Lay of the Land|QID|29822|M|28.42,24.93|N|From General Nazgrim.|
 
 C Lay of the Land|QID|29822|NC|QO|Shrine of the Sun Visited: 1/1|M|32.01,27.96|N|There is a coin in the fountain worth ~100g, you may want to pick it up. (once per char)|
 K Dook Ookem|T|Dook Ookem|QID|29822|QO|Dook Ookem slain: 1/1|M|27.75,30.35|
-C Lay of the Land|QID|29822|NC|QO|Shrine of the Moon Visited: 1/1|M|26.16,32.32|N|There is a tea pot on the table worth ~100g, you may want to pick it up. (also worth a fair amount of xp)|
+C Lay of the Land|QID|29822|NC|QO|Shrine of the Moon Visited: 1/1|M|26.16,32.32|N|There is a tea pot on the table worth ~100g, you may want to pick it up. (also worth a fair amount of xp).  There seems to be a phasing issue and the pot id not visable/interactive from close range, after you kill Capt Doren.|
 T Lay of the Land|QID|29822|M|27.61,32.71|N|To Lorewalker Cho.|
 A Stay a While, and Listen|QID|31121|M|27.61,32.71|N|From Lorewalker Cho.|
 C Stay a While, and Listen|QID|31121|NC|M|27.55,32.57|N|Click on the table.|
@@ -201,13 +212,13 @@ C Scouting Report: Hostile Natives|QID|29730|NC|QO|Inspect a Lifelike Jade Statu
 C Scouting Report: Hostile Natives|QID|29730|NC|QO|Speak with Widow Greenpaw: 1/1|M|39.2, 46.2|
 T Scouting Report: Hostile Natives|QID|29730|M|28.62,47.43|N|To Riko.|
 A Scouting Report: On the Right Track|QID|29731|M|43.16,61.27|N|From Shademaster Kiryn.|
-C Scouting Report: On the Right Track|QID|29731|M|48.65,60.32|
+C Scouting Report: On the Right Track|QID|29731|M|48.65,60.32|NC|
 T Scouting Report: On the Right Track|QID|29731|M|28.62,47.48|N|To Shademaster Kiryn.|
 A Scouting Report: The Friend of My Enemy|QID|29823|M|49.87,69.15|N|From Riko.|
 C Scouting Report: The Friend of My Enemy|QID|29823|M|49.82,70.53|N|3 knocks back, so you can hit them at range with 4.|
 T Scouting Report: The Friend of My Enemy|QID|29823|M|28.62,47.48|N|To Riko.|
 A Scouting Report: Like Jinyu in a Barrel|QID|29824|M|62.72,81.89|N|From Shokia.|
-C Scouting Report: Like Jinyu in a Barrel|QID|29824|M|58.06,83.28|N|"4" is NOT the fire button!|
+C Scouting Report: Like Jinyu in a Barrel|QID|29824|M|58.06,83.28|N|Use your mouse to aim and then rt click to shoot.|
 T Scouting Report: Like Jinyu in a Barrel|QID|29824|M|28.62,47.48|N|To Shokia.|
 A Guerrillas in our Midst|QID|29943|M|28.62,47.48|N|From General Nazgrim.|
 A Green-ish Energy|QID|29968|M|30.78,52.22|N|From Rivett Clutchpop.|
@@ -224,17 +235,17 @@ T Boom Goes the Doonamite!|QID|29967|M|28.99,49.11|N|To Rivett Clutchpop.|
 T Burning Down the House|QID|29966|M|28.62,47.51|N|To General Nazgrim.|
 A Dawn's Blossom|QID|30015|M|28.65,47.55|N|From General Nazgrim.|
 
-f Dawn's Blossom|QID|30015|M|27.83,47.94|N|At Grookin Flapmaster.|
+F Dawn's Blossom|QID|30015|M|27.83,47.94|N|At Grookin Flapmaster.|
 T Dawn's Blossom|QID|30015|M|46.82,46.17|N|To Lorewalker Cho.|
 A Welcome to Dawn's Blossom|QID|31230|M|47.19,46.11|N|From Toya.|
-C Welcome to Dawn's Blossom|QID|31230|M|47.04,46.02;45.77,43.67;48.47,44.50|CS|
+C Welcome to Dawn's Blossom|QID|31230|NC|M|47.04,46.02;45.77,43.67;48.47,44.50|CS|
 T Welcome to Dawn's Blossom|QID|31230|M|47.16,46.15|N|To Toya.|
 A The Double Hozu Dare|QID|29716|M|46.52,45.92|N|From An Windfur.|
 A The Silkwood Road|QID|29865|M|46.48,45.85|N|From Tzu the Ironbelly.|
 A The Threads that Stick|QID|29866|M|46.59,45.32|N|From Lo Wanderbrew.|
-C The Threads that Stick|QID|29866|S|NC|M|43.68,48.32|
-C The Silkwood Road|QID|29865|M|43.26,49.23|N|Loot the eggs to get Pristine Silk.|
-C The Threads that Stick|QID|29866|US|NC|M|43.68,48.32|
+C The Threads that Stick|QID|29866|S|NC|M|43.68,48.32|N|Loot the eggs to get Pristine Silk.|
+C The Silkwood Road|QID|29865|M|43.26,49.23|
+C The Threads that Stick|QID|29866|US|NC|M|43.68,48.32|N|Loot the eggs to get Pristine Silk.|
 A Down Kitty!|QID|29717|M|39.82,48.05|N|From An Windfur.|
 C Down Kitty!|QID|29717|M|37.11,47.72|
 C The Double Hozu Dare|QID|29716|M|37.31,48.19|
@@ -247,8 +258,8 @@ T The Threads that Stick|QID|29866|M|46.62,45.37|N|To Lo Wanderbrew.|
 T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur, she wanders around the village.|
 A Find the Boy|QID|29993|M|47.07,46.08|N|From Kai Wanderbrew.|
 A All We Can Spare|QID|29925|M|47.20,46.13|N|From Toya.|
-A An Air of Worry|QID|29376|M|48.36,46.05|N|From Apprentice Yufi.|
-A Tian Monastery|QID|29617|M|49.63,45.80|N|From Old Man Misteyes.|
+A An Air of Worry|QID|29576|M|48.36,46.05|N|From Old Man Misteyes.|
+A Tian Monastery|QID|29617|M|49.63,45.80|N|From Apprentice Yufi.|
 
 R The Arboretum|QID|29993|M|54.93,45.28|N|The path is just down the stairs you passed to get the last quest.|
 A The Perfect Color|QID|29881|M|54.93,45.28|N|From Inkmaster Glenzu.|
@@ -256,7 +267,7 @@ T Find the Boy|QID|29993|M|54.92,44.83|N|To Inkmaster Wei.|
 A Shrine of the Dawn|QID|29995|M|54.92,44.83|N|From Inkmaster Wei.|
 A Quill of Stingers|QID|29882|M|55.36,45.32|N|From Inkmaster Jo Po.|
 f The Arboretum|QID|29882|M|56.96,44.22|N|At Injar'i Lakebloom.|
-C The Perfect Color|QID|29881|S|M|53.48,44.38|
+C The Perfect Color|QID|29881|NC|S|M|53.48,44.38|
 C Quill of Stingers|QID|29882|M|53.65,43.99|
 C The Perfect Color|QID|29881|US|M|53.48,44.38|
 T The Perfect Color|QID|29881|M|54.91,45.35|N|To Inkmaster Glenzu.|
@@ -285,20 +296,20 @@ C Calamity Jade|QID|29926|M|44.48,30.29|
 C Trapped!|QID|29929|NC|US|M|43.87,30.49|
 T Trapped!|QID|29929|M|46.30,29.35|N|To Hao Mann.|
 A What's Mined Is Yours|QID|29930|M|46.30,29.35|N|From Hao Mann.|
-C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart.|
+C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart, spiders will chase you, you can fight them with your normal skills/abilities while in the cart.|
 T What's Mined Is Yours|QID|29930|M|50.91,27.03|N|To Foreman Mann.|
 A The Serpent's Heart|QID|29931|M|50.91,27.03|N|From Foreman Mann.|
 N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailys.|
 f Sri-La Village|QID|29670|M|55.44,23.73|N|At Gingo Alebottom.|
 
-R Tiger's Wood|M|48.64,24.91|CC|
+R Woods of the Lost|M|48.64,24.91|CC|
 A The Sprites' Plight|QID|29745|M|48.64,24.91|N|From Outcast Sprite.|
 C The Sprites' Plight|QID|29745|M|49.76,19.64|
 T The Sprites' Plight|QID|29745|N|To UI Alert.|
 A Break the Cycle|QID|29747|N|From UI Alert.|
 A Simulacrumble|QID|29748|M|48.61,20.65|N|From Shattered Destroyer.|
 C Break the Cycle|QID|29747|S|M|48.34,16.61|N|Kill the Spiritbinders and kick over the statues as you go.|
-C Simulacrumble|QID|29748|M|47.82,16.45|
+C Simulacrumble|QID|29748|NC|M|47.82,16.45|
 C Break the Cycle|QID|29747|US|M|48.34,16.61|
 T Break the Cycle|QID|29747|M|48.34,16.61|N|To UI Alert.|
 T Simulacrumble|QID|29748|N|To UI Alert.|
@@ -399,7 +410,7 @@ A Flying Colors|QID|29647|M|43.27,24.75|N|From Instructor Myang.|
 T Flying Colors|QID|29647|M|42.71,23.23|N|To High Elder Cloudfall.|
 
 F Dawn's Blossom|QID|29931|M|43.52,24.55|N|At Studious Chu.(or you can just ride straight to Nectarbreeze)|
-R Nectarbreeze Orchard|CS|M|46.67,46.76;45.83,50.25;46.72,55.25;41.52,61.13;43.37,72.76;43.54,75.91|N|The green dots will take you via roads, which is probably safer, but certainly slower than running cross-country.|
+R Nectarbreeze Orchard|CC|M|46.67,46.76;45.83,50.25;46.72,55.25;41.52,61.13;43.37,72.76;43.54,75.91|N|The green dots will take you via roads, which is probably safer, but certainly slower than running cross-country.|
 T An Air of Worry |QID|29576|N|To Shao the Defiant|M|43.5,75.9|
 A Defiance|QID|29578|M|43.54,75.91|N|From Shao the Defiant.|
 A Rally the Survivors|QID|29579|M|43.54,75.91|N|From Shao the Defiant.|
@@ -437,12 +448,12 @@ C Delivery to Surveyor Sawa |QID|30495|NC|QO|Delivery to Surveyor Sawa: 1/1|M|47
 C Delivery to Historian Dinh |QID|30495|NC|QO|Delivery to Historian Dinh: 1/1|M|46.4,61.8|
 T Love's Labor|QID|30495|M|48.31,61.30|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|M|48.31,61.30|N|From Foreman Raike.|
-F The Temple of the Jade Serpent|QID|29932|M|48.2,60.0|N|Take the kite ride from kitehmaster Shoku.|
+F Jade Temple Grounds|QID|29932|M|48.2,60.0|N|Take the kite ride from kitehmaster Shoku.|
 
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
 A The Librarian's Quandary|QID|29998|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
-A They Call Him... Stormstout|QID|32019|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
+A They Call Him... Stormstout|QID|32019|M|58.13,58.65|N|From Elder Sage Rain-Zhu. This quest requires level 86 and is mutually exclusive with 'His name was Stormstout' offered in Dawn's Blossom.|
 A The Rider's Bind|QID|29999|M|58.05,59.00|N|From Fei.|
 A Lighting Up the Sky|QID|30005|M|58.05,59.00|N|From Fei.|
 C Lighting Up the Sky|QID|30005|S|NC|N|Set off the fireworks (sparkly barrels) scattered throughout the next few steps.|
@@ -456,10 +467,11 @@ C Moth-Ridden|QID|30001|M|56.39,60.43|
 C Pages of History|QID|30002|US|M|55.70,59.95|N|Stomp(click) on the bookworms (or just kill them the normal way).|
 T Moth-Ridden|QID|30001|M|56.29,60.40|N|To Lorewalker Stonestep.|
 A Everything In Its Place|QID|30004|M|56.29,60.40|N|From Lorewalker Stonestep.|
+T Pages of History|QID|30002M|55.70,59.95|N|To Lorewalker Stonestep.|
+C Emerald Serpent|QID|29999|NC|QO|Playful Emerald Serpent found: 1/1|M|56.51,58.44|N|Click on the cog to pick up the serpant.|
 C The Scryer's Dilemma|QID|29997|M|56.79,55.84|N|Kill the water elementals until the staff drops.|
 T The Scryer's Dilemma|QID|29997|M|57.59,55.98|N|To Wise Mari.|
 A A New Vision|QID|30011|M|57.59,55.98|N|From Wise Mari.|
-C Emerald Serpent|QID|29999|NC|QO|Playful Emerald Serpent found: 1/1|M|56.51,58.44|N|Click on the cog to pick up the serpant.|
 C Azure Serpent|QID|29999|NC|QO|Playful Azure Serpent found: 1/1|M|59.16,56.76|N|Click on the cog to pick up the serpant.|
 C Lighting Up the Sky|QID|30005|US|M|56.42,58.12|N|Set off the fireworks (sparkly barrels) scattered throughout the next few steps.|
 T A New Vision|QID|30011|M|58.16,58.64|N|To Elder Sage Rain-Zhu.|
@@ -467,11 +479,12 @@ T Everything In Its Place|QID|30004|M|58.16,58.64|N|To Elder Sage Rain-Zhu.|
 T Lighting Up the Sky|QID|30005|M|58.05,59.02|N|To Fei.|
 T The Rider's Bind|QID|29999|M|58.05,59.02|N|To Fei.|
 A The Jade Serpent|QID|30000|M|58.05,59.02|N|From Fei.|
+C The Jade Serpent|QID|30000|M|53.49,58.02|N|Cutscene and a cloadserpant ride.|
 T The Jade Serpent|QID|30000|M|55.83,57.05|N|To Elder Sage Wind-Yi.|
 
 A Get Back Here!|QID|30499|M|55.83,57.05|N|From Elder Sage Wind-Yi.|
 f Jade Temple Grounds|QID|30499|M|54.60,61.75|N|At Ginsa Arroweye.|
-F Grooken Hill|QID|30499|M|56.6,6.75|N|Take the free option from the kitemaster.|
+F Grookin Hill|QID|30499|M|56.6,6.75|N|Take the free option from the kitemaster.|
 T Get Back Here!|QID|30499|M|28.02,47.15|N|To General Nazgrim.|
 A Sufficient Motivation|QID|30466|M|28.02,47.15|N|From General Nazgrim.|
 A Gauging Our Progress|QID|30484|M|28.02,47.15|N|From General Nazgrim.|
@@ -490,9 +503,9 @@ C The Seal is Broken|QID|31303|M|47.73,58.29|N|Talk to Mishi to start the "bombi
 T The Seal is Broken|QID|31303|M|49.27,61.39|N|To Lorewalker Cho.|
 A Residual Fallout|QID|30500|M|49.27,61.39|N|From Lorewalker Cho.|
 A Jaded Heart|QID|30502|M|49.27,61.39|N|From Lorewalker Cho.|
+A Emergency Response|QID|30504|M|49.27,61.39|N|From Lorewalker Cho.|
 C Residual Fallout|QID|30500|S|M|47.38,58.63|
 C Jaded Heart|QID|30502|S|M|50.02,60.17|U|80074|N|Pick up the jade chunks, use them to make the Elite Sha Remnants into non-elite.|
-A Emergency Response|QID|30504|M|49.27,61.39|N|From Lorewalker Cho.|
 C General Nazgrim|QID|30504|U|86467|QO|General Nazgrim Rescued: 1/1|M|48.16,61.72|N|Use the signal flare to call Mishi to take him away.|
 C Rivett Clutchpop|QID|30504|U|86467|QO|Rivett Clutchpop Rescued: 1/1|M|48.63,59.11|N|Use the signal flare to call Mishi to take him away.|
 C Shademaster Kiryn|QID|30504|U|86467|QO|Shademaster Kiryn Rescued: 1/1|M|47.3,62.55|N|Use the signal flare to call Mishi to take her away.|
