@@ -2,9 +2,11 @@
   <Script file="Cracker_Frenzy.lua"/>
   <Script file="Cracker_Oracles.lua"/>
   <Script file="Est_Firelands.lua"/>
+  <Script file="Est_Lotus.lua"/>
   <Script file="Jiyambi_Therazane.lua"/>
   <Script file="Twists_Ramkahen.lua"/>
   <Script file="Ludo_ArgDawn.lua"/>
+  <Script file="Ludo_Anglers.lua"/>
   <Script file="Ludo_ArgCrusade.lua"/>
   <Script file="Ludo_DalCook.lua"/>
   <Script file="Ludo_DalFish.lua"/>
