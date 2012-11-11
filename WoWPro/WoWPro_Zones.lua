@@ -1134,7 +1134,7 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Icecrown",
 			["zonei"] = 8,
 		},
-		["DarkmoonFaireIsland"] = {
+		["Darkmoon Faire"] = {
 			["numFloors"] = 0,
 			["mapID"] = 823,
 			["mapName"] = "DarkmoonFaireIsland",
