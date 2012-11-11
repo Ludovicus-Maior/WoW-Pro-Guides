@@ -95,6 +95,7 @@ function WoWPro:NextGuide(GID)
 end
 
 -- Guide Update --
+local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 function WoWPro:UpdateGuide(offset)
 	if not WoWPro.GuideFrame:IsVisible() or not GuideLoaded then return end
 	WoWPro:dbp("Running: UpdateGuide()")
@@ -127,9 +128,8 @@ function WoWPro:UpdateGuide(offset)
 				modulename = "Recorder" 
 				WoWPro.Recorder:RowUpdate(offset)
 			else modulename = module:GetName() end
-			local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 			if WoWPro[modulename].RowLeftClick and WoWPro[modulename].RowDropdownMenu then
-				row:SetScript("OnClick", function(self, button, down)
+				row:SetScript("OnClick", function(self, button, down)			    
 					if button == "LeftButton" then
 						WoWPro[modulename]:RowLeftClick(i)
 					elseif button == "RightButton" then
