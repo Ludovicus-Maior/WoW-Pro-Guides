@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2012-11-11 00:02
+-- Who: Emmaleah
+-- Log: Emmaleah - 10 Nov 2012 - Added in the "one time" lost treasure items(I left out the 2 in alliance territory), some minor changes when comparing the affected areas between horde and alliance.
+
+-- URL: http://wow-pro.com/node/3487/revisions/25190/view
 -- Date: 2012-11-08 20:16
 -- Who: Emmaleah
 -- Log: added coords for use boots on missed me by that much
@@ -147,7 +152,7 @@ C Acid Rain|QID|29827|M|28.08,24.79|N|Hop on the chopper, bombing mission.|
 T Acid Rain|QID|29827|M|28.20,24.86|N|To Shademaster Kiryn.|
 A Lay of the Land|QID|29822|M|28.42,24.93|N|From General Nazgrim.|
 
-C Lay of the Land|QID|29822|NC|QO|Shrine of the Sun Visited: 1/1|M|32.01,27.96|N|There is a coin in the fountain worth ~100g, you may want to pick it up. (once per char)|
+C Lay of the Land|QID|29822|NC|QO|Shrine of the Sun Visited: 1/1|M|32.01,27.96|N|There is a coin in the fountain worth ~100g, you may want to pick it up. (once per char).|
 K Dook Ookem|T|Dook Ookem|QID|29822|QO|Dook Ookem slain: 1/1|M|27.75,30.35|
 C Lay of the Land|QID|29822|NC|QO|Shrine of the Moon Visited: 1/1|M|26.16,32.32|N|There is a tea pot on the table worth ~100g, you may want to pick it up. (also worth a fair amount of xp).  There seems to be a phasing issue and the pot id not visable/interactive from close range, after you kill Capt Doren.|
 T Lay of the Land|QID|29822|M|27.61,32.71|N|To Lorewalker Cho.|
@@ -201,7 +206,7 @@ A Boom Bait|QID|29939|M|27.27,50.77|N|From Rivett Clutchpop.|
 A Silly Wikket, Slickies are for Hozen|QID|29942|M|27.02,50.81|N|From Eekle Eekle.|
 T What's in a Name Name?|QID|31239|M|27.97,47.17|N|To Chief Kah Kah.|
 C Boom Bait|QID|29939|U|76262|M|26.58,55.74|
-C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|
+C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|N|While you are killing the turtles, there is a Chest of Supplies on the other side of the river @24,53.|
 T Silly Wikket, Slickies are for Hozen|QID|29942|M|27.06,50.77|N|To Eekle Eekle.|
 T Boom Bait|QID|29939|M|27.21,50.78|N|To Rivett Clutchpop.|
 A The Scouts Return|QID|29971|M|27.21,50.78|N|From Rivett Clutchpop.|
@@ -252,7 +257,7 @@ C The Double Hozu Dare|QID|29716|M|37.31,48.19|
 T The Double Hozu Dare|QID|29716|N|To An Windfur. (she should be following you)|
 A The Jade Witch|QID|29723|N|From An Windfur.|
 T Down Kitty!|QID|29717|N|To An Windfur.|
-C The Jade Witch|QID|29723|M|39.23,46.17|N|Talk to Widow Greenpaw, she'll bring you to Shin and then become attackable, kill her.|
+C The Jade Witch|QID|29723|M|39.23,46.17|N|Before you talk to the widow, look around for a 'Jade Warrior Statue' in her front yard, if it is there talk to it for a BoA treasure. Talk to Widow Greenpaw, she'll bring you to Shin and then become attackable, kill her.|
 T The Silkwood Road|QID|29865|M|46.43,45.74|N|To Tzu the Ironbelly.|
 T The Threads that Stick|QID|29866|M|46.62,45.37|N|To Lo Wanderbrew.|
 T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur, she wanders around the village.|
@@ -291,7 +296,7 @@ A Calamity Jade|QID|29926|M|50.91,27.05|N|From Foreman Mann.|
 A Mann's Man|QID|29927|M|50.91,27.05|N|From Foreman Mann.|
 T Mann's Man|QID|29927|M|45.44,29.09|N|To Hao Mann.|
 A Trapped!|QID|29929|M|45.44,29.09|N|From Hao Mann.|
-C Trapped!|QID|29929|NC|S|M|43.87,30.49|
+C Trapped!|QID|29929|NC|M|43.87,30.49|N|While doing the quests here in the mine an 'ancient pandaran mining pick' can rarely be found, keep an eye out for it.|
 C Calamity Jade|QID|29926|M|44.48,30.29|
 C Trapped!|QID|29929|NC|US|M|43.87,30.49|
 T Trapped!|QID|29929|M|46.30,29.35|N|To Hao Mann.|
@@ -299,7 +304,7 @@ A What's Mined Is Yours|QID|29930|M|46.30,29.35|N|From Hao Mann.|
 C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart, spiders will chase you, you can fight them with your normal skills/abilities while in the cart.|
 T What's Mined Is Yours|QID|29930|M|50.91,27.03|N|To Foreman Mann.|
 A The Serpent's Heart|QID|29931|M|50.91,27.03|N|From Foreman Mann.|
-N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailys.|
+N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailys. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|
 f Sri-La Village|QID|29670|M|55.44,23.73|N|At Gingo Alebottom.|
 
 R Woods of the Lost|M|48.64,24.91|CC|
@@ -314,9 +319,10 @@ C Break the Cycle|QID|29747|US|M|48.34,16.61|
 T Break the Cycle|QID|29747|M|48.34,16.61|N|To UI Alert.|
 T Simulacrumble|QID|29748|N|To UI Alert.|
 A An Urgent Plea|QID|29749|N|From UI Alert.|
-C An Urgent Plea|QID|29749|M|44.21,15.39|N|Killing the stuff drifting towards the center powers the staff, thus destroying the ritual.|
+C An Urgent Plea|QID|29749|M|44.24,14.91|N|Get the staff|QO|Staff of Pei-Zhi: 1/1|
+C An Urgent Plea|QID|29749|M|44.36,15.89|N|Kill Ancient Spirits drifting towards the center to destroy the ritual.|QO|Interrupt the Ritual of Spiritbinding: 1/1|
 T An Urgent Plea|QID|29749|M|44.22,15.01|N|To Pei-Zhi.|
-A Ritual Artifacts|QID|29751|M|44.22,15.01|N|From Pei-Zhi.|
+A Ritual Artifacts|QID|29751|M|44.22,15.01|N|From Pei-Zhi. While you are in this area doing these quests, keep an eye out for a rarely found BoA item, 'Hammer of the Ten Thunders'.|
 A Vessels of the Spirit|QID|29750|M|44.22,15.01|N|From Pei-Zhi.|
 A The Wayward Dead|QID|29752|M|44.22,15.01|N|From Pei-Zhi.|
 C Vessels of the Spirit|QID|29750|S|L|74763 8|M|40.69,14.85|
@@ -375,7 +381,9 @@ A A Steady Hand|QID|29629|M|41.59,23.66|N|From Groundskeeper Wu.|
 A And a Heavy Fist|QID|29630|M|41.59,23.66|N|From Groundskeeper Wu.|
 A Burning Bright|QID|29631|M|37.96,23.8|N|From Guard Shan Long.|
 C Burning Bright|QID|29631|S|M|36.09,27.57|
-C A Steady Hand|QID|29629|NC|L|73193 80|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
+C A Steady Hand|QID|29629|S|NC|L|73193 80|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
+R Owen's Wishing Well|QID|31397|M|39.4,7.3|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found.|
+C A Steady Hand|QID|29629|US|NC|L|73193 80|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
 C Burning Bright|QID|29631|US|M|36.09,27.57|
 C And a Heavy Fist|QID|29630|S|N|Kill sprites as you approach the next objective.|
 C Obtain the Boiling Cauldron|QID|29628|NC|QO|Boiling Cauldron obtained: 1/1|M|37.8,17.6|
@@ -439,7 +447,7 @@ C Unbound|QID|29587|NC|US|M|39.76,75.57|N|Click on the nets to free the farmers.
 T Unbound|QID|29587|M|41.02,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.02,73.97|N|To Shao the Defiant.|
 
-R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4;48.26,61.31|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|
+R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4;48.26,61.31|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart. Also, the lost BoA treasure, 'Ancient Jinyu Staff' may be occasionally located in the river beside Serpent's Heart if you want to take the time swimming to look for it.|
 T The Serpent's Heart|QID|29931|M|48.26,61.31|N|To Foreman Raike.|
 A Love's Labor|QID|30495|M|48.26,61.31|N|From Foreman Raike.|
 C Delivery to Kitemaster Shoku |QID|30495|NC|QO|Delivery to Kitemaster Shoku: 1/1|M|48.2,60.0|
@@ -489,7 +497,7 @@ T Get Back Here!|QID|30499|M|28.02,47.15|N|To General Nazgrim.|
 A Sufficient Motivation|QID|30466|M|28.02,47.15|N|From General Nazgrim.|
 A Gauging Our Progress|QID|30484|M|28.02,47.15|N|From General Nazgrim.|
 C Sufficient Motivation|QID|30466|U|79884|S|NC|QO|Bucket of Slicky Water: 1/1|M|28.14,47.33|N|Pick up a bucket of slicky water and toss it on lazy hozen as you go.|
-C Gauging Our Progress|QID|30484|M|28.41,47.75;29.15,50.87;28.41,51.92;27.03,55.00|N|The green dots show where the people you need to talk to are.|;used the dots because they show arrows when out of range, unlick bliz chat bubbles on mini map
+C Gauging Our Progress|QID|30484|M|28.41,47.75;29.15,50.87;28.41,51.92;27.03,55.00|N|The green dots show where the people you need to talk to are.|;used the dots because they show arrows when out of range, unlike bliz chat bubbles on mini map
 C Sufficient Motivation|QID|30466|U|79884|US|NC|QO|Hozen Motivated: 10/10|M|27.14,46.70|
 T Sufficient Motivation|QID|30466|M|28.07,47.15|N|To General Nazgrim.|
 T Gauging Our Progress|QID|30484|M|28.07,47.15|N|To General Nazgrim.|

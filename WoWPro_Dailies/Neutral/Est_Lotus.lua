@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2012-11-11 11:36
+-- Who: Estelyen
+-- Log: Found General Temuja, added tactics
+
+-- URL: http://wow-pro.com/node/3502/revisions/25195/view
+-- Date: 2012-11-10 14:55
+-- Who: Estelyen
+-- Log: Found a missing link-quest between two quest hubs, added
+
+-- URL: http://wow-pro.com/node/3502/revisions/25192/view
 -- Date: 2012-11-09 11:49
 -- Who: Estelyen
 -- Log: Found Gaohun the Soul-Severer today, added tactics
@@ -353,15 +363,19 @@ T Vyraxxis, the Krik'thik Swarm-Lord|QID|30251|N|To Anji Autumnlight.|M|21.48,71
 T Guo-Lai Infestation|QID|31240|N|To Anji Autumnlight.|M|33.98,38.11|
 T The Ruins of Guo-Lai|QID|31248|N|To Anji Autumnlight.|M|33.98,38.11|
 T The Ruins of Guo-Lai|QID|31294|N|To Anji Autumnlight.|M|33.98,38.11|
+T The Ruins of Guo-Lai|QID|31296|N|To Anji Autumnlight.|M|33.98,38.11|
 A Random Dailies from Anji Autumnlight|QID|30200;30226;30228|PRE|31240|N|Accept ALL the daily quests Anji Autumnlight offers. This step will close when you accept the first one. If she doesn't offer any dailies, click this step off manually instead.|M|33.98,38.11|
 A Random Dailies from Anji Autumnlight|QID|30200;30226;30228|PRE|31248|N|Accept ALL the daily quests Anji Autumnlight offers. This step will close when you accept the first one. If she doesn't offer any dailies, click this step off manually instead.|M|33.98,38.11|
 A Random Dailies from Anji Autumnlight|QID|30200;30226;30228|PRE|31294|N|Accept ALL the daily quests Anji Autumnlight offers. This step will close when you accept the first one. If she doesn't offer any dailies, click this step off manually instead.|M|33.98,38.11|
+A Random Dailies from Anji Autumnlight|QID|30200;30226;30228|PRE|31296|N|Accept ALL the daily quests Anji Autumnlight offers. This step will close when you accept the first one. If she doesn't offer any dailies, click this step off manually instead.|M|33.98,38.11|
 A Random Dailies from Kun Autumnlight|QID|30204;30304|PRE|31240|N|Accept ALL the daily quests Kun Autumnlight offers. This step will close when you accept the first one. If he doesn't offer any dailies, click this step off manually instead.|M|34.07,38.10|
 A Random Dailies from Kun Autumnlight|QID|30204;30304|PRE|31248|N|Accept ALL the daily quests Kun Autumnlight offers. This step will close when you accept the first one. If he doesn't offer any dailies, click this step off manually instead.|M|34.07,38.10|
 A Random Dailies from Kun Autumnlight|QID|30204;30304|PRE|31294|N|Accept ALL the daily quests Kun Autumnlight offers. This step will close when you accept the first one. If he doesn't offer any dailies, click this step off manually instead.|M|34.07,38.10|
+A Random Dailies from Kun Autumnlight|QID|30204;30304|PRE|31296|N|Accept ALL the daily quests Kun Autumnlight offers. This step will close when you accept the first one. If he doesn't offer any dailies, click this step off manually instead.|M|34.07,38.10|
 A Random Dailies from Sinan the Dreamer|QID|30205;30206|PRE|31240|N|Accept ALL the daily quests Sinan the Dreamer offers. This step will close when you accept the first one. If she doesn't offer any dailies, click this step off manually instead.|M|33.49,40.78|
 A Random Dailies from Sinan the Dreamer|QID|30205;30206|PRE|31248|N|Accept ALL the daily quests Sinan the Dreamer offers. This step will close when you accept the first one. If she doesn't offer any dailies, click this step off manually instead.|M|33.49,40.78|
 A Random Dailies from Sinan the Dreamer|QID|30205;30206|PRE|31294|N|Accept ALL the daily quests Sinan the Dreamer offers. This step will close when you accept the first one. If she doesn't offer any dailies, click this step off manually instead.|M|33.49,40.78|
+A Random Dailies from Sinan the Dreamer|QID|30205;30206|PRE|31296|N|Accept ALL the daily quests Sinan the Dreamer offers. This step will close when you accept the first one. If she doesn't offer any dailies, click this step off manually instead.|M|33.49,40.78|
 C Runes in the Ruins|QID|30206|N|Collect 12 Guo-Lai Runestones. They are quite hard to spot: They are tiny blueish tablets that stick on the walls of the ruins and even the sparkle that active quest objects usually have is almost invisible, keep your eyes open.|M|27.39,30.41|S|
 C Troubling the Troublemakers|QID|30228|N|Kill 8 Stonebark sprites.|M|31.26,23.96|
 C Blood on the Rise|QID|30226|N|Kill 8 Shao-Tien Mogu.|M|31.26,23.96|
@@ -385,6 +399,7 @@ T Troubling the Troublemakers|QID|30228|N|To Anji Autumnlight.|M|33.98,38.11|
 A Next Random Dailies in the line|QID|30225;30227;30277;30280|PRE|31240|N|Depending on your reputation with the Golden Lotus, Anji Autumnlight will offer either one or two random Dailies next. Accept all of them. This step will close when you accept the first one.|M|33.98,38.11|
 A Next Random Dailies in the line|QID|30225;30227;30277;30280|PRE|31248|N|Depending on your reputation with the Golden Lotus, Anji Autumnlight will offer either one or two random Dailies next. Accept all of them. This step will close when you accept the first one.|M|33.98,38.11|
 A Next Random Dailies in the line|QID|30225;30227;30277;30280|PRE|31294|N|Depending on your reputation with the Golden Lotus, Anji Autumnlight will offer either one or two random Dailies next. Accept all of them. This step will close when you accept the first one.|M|33.98,38.11|
+A Next Random Dailies in the line|QID|30225;30227;30277;30280|PRE|31296|N|Depending on your reputation with the Golden Lotus, Anji Autumnlight will offer either one or two random Dailies next. Accept all of them. This step will close when you accept the first one.|M|33.98,38.11|
 R Guo-Lai Halls|QID|30225;30227;30277;30280|N|Enter the Guo-Lai Halls, the entrance is here.|M|22.60,27.09|
 R Random Safe Floor Tile|QID|30277;30280|N|The single floor tile shown at the entrance is the one that you can safely walk over through the labyrinths of floor tiles today. The "Safe Tile" changes randomly each day, as do the labyrinth layouts. Close this step when you have memorized it.|M|21.11,19.09|
 C The Crumbling Hall|QID|30277|ACH|7324;1|QO|Deactivate First Spirit Wall: 1/1|N|Go through the western archway. In the next couple of rooms, don't stand in the shadows on the ground to avoid the rocks falling from the ceiling. Go to the waypoint and click the device. Note: If you manage to complete the quest without taking any damage at all, you'll get credit for a step in the achievement "One Step at a Time".|M|17.30,11.96|
@@ -478,8 +493,8 @@ T Rude Awakenings|QID|30292|N|To Kun Autumnlight.|M|56.51,43.64|
 T In Enemy Hands|QID|30293|N|To Kun Autumnlight.|M|56.51,43.64|
 T Burning Away the Filth|QID|30282|N|To Anji Autumnlight.|M|56.57,43.62|
 A Next Random Daily in the Line|QID|31136;31131;31242;31243;31248;31249;31250|LEAD|31131;31242;31243;31248;31249;31250|N|From Leven Dawnblade. If he doesn't offer any quests, close this step manually.|M|56.71,43.60|
-C Behind Our Lines|QID|31136|ACH|7317;3|N|Kill General Temuja. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|69.40,53.00|
-C Behind Our Lines|QID|31136|N|Kill General Temuja. You will get credit for the kill, even if another player attacked him first.|M|69.40,53.00|
+C Behind Our Lines|QID|31136|ACH|7317;3|N|Kill General Temuja. If he is surrounded by a group of Saurok, kill those first as they have very low health. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|69.40,53.00|
+C Behind Our Lines|QID|31136|N|Kill General Temuja. If he is surrounded by a group of Saurok, kill those first as they have very low health. You will get credit for the kill, even if another player attacked him first.|M|69.40,53.00|
 T Behind Our Lines|QID|31136|N|To Leven Dawnblade.|M|56.71,43.60|
 
 U End of Guide|U|90625|N|You've reached the end of the guide! All that's left to do is open your Treasures of the Vale to claim your reward. This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|

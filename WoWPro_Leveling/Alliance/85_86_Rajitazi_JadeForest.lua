@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2012-11-11 00:03
+-- Who: Emmaleah
+-- Log: 10 Nov 2012 - Emmaleah - added change log, header, rtn line, and most of the "one time" treasure items. (see comments in change log)
+--	
+
+-- URL: http://wow-pro.com/node/3486/revisions/25175/view
 -- Date: 2012-11-01 17:15
 -- Who: Fluclo
 
@@ -120,7 +126,7 @@ A No Plan Survives Contact with the Enemy|QID|30069|M|43.6,90.6|N|From Sully "Th
 A Welcome Wagons|QID|31734|M|43.6,90.6|N|From Sully "The Pickle" McLeary.|
 
 C No Plan Survives Contact with the Enemy|QID|30069|S|M|42.50,93.24|
-C Welcome Wagons|QID|31734|U|89612|M|44.00,94.22|N|Locate the Horde Wagons, and use Sully's Flaregun near them.  \n\nYou will find plenty of Horde to kill along the way, so concentrate on getting the wagons.|NC|
+C Welcome Wagons|QID|31734|U|89612|M|44.00,94.22|N|Locate the Horde Wagons, and use Sully's Flaregun near them. You will find plenty of Horde to kill along the way, so concentrate on getting the wagons.|NC|
 C No Plan Survives Contact with the Enemy|QID|30069|US|M|42.50,93.24|N|Finish killing the required Grunts and Gear-Greasers.|
 
 T No Plan Survives Contact with the Enemy|QID|30069|M|45.1,95.0|N|To Rell Nightwind.|
@@ -249,16 +255,16 @@ A Family Heirlooms|QID|29762|M|58.97,81.69|N|From Bold Karasshi.|
 A The Elder's Instruments|QID|29887|M|58.75,81.28|N|From Pearlkeeper Fujin.|
 
 R Moonwater Retreat|QID|29887|M|60.26,83.96;61.70,84.75;63.72,86.27;65.21,87.16|CS|N|Through the Bamboo Wilds and up to the hill.|
-C The Elder's Instruments|QID|29887|S|M|67.25,88.40|N|Kill the monkeys until you get all four items|
-C Family Heirlooms|QID|29762|NC|M|67.44,87.54|N|Loot the corpses around the village|
-C The Elder's Instruments|QID|29887|US|M|67.25,88.40|N|Kill the monkeys until you get all four items|
+C The Elder's Instruments|QID|29887|S|M|67.25,88.40|N|Kill the monkeys until you get all four items.|
+C Family Heirlooms|QID|29762|NC|M|67.44,87.54|N|Loot the corpses around the village.|
+C The Elder's Instruments|QID|29887|US|M|67.25,88.40|N|Kill the monkeys until you get all four items.|
 T Family Heirlooms|QID|29762|M|58.97,81.69|N|To Bold Karasshi.|
 T The Elder's Instruments|QID|29887|M|58.75,81.28|N|To Pearlkeeper Fujin.|
 A Spirits of the Water|QID|29894|M|58.75,81.28|N|From Pearlkeeper Fujin.|
 C Spirits of the Water|QID|29894|NC|M|58.58,82.89|N|Speak to Elder Lusshan and witness the waterspeaking ceremony.|
 T Spirits of the Water|QID|29894|M|58.97,81.69|N|To Bold Karasshi.|
 A SI:7 Report: Lost in the Woods|QID|29733|M|58.98,81.82|N|From Rell Nightwind. "See" his report as soon as you accept.|
-C SI:7 Report: Lost in the Woods|QID|29733|M|49.88,70.92|N|Use all three of Rell Nightwind's attack to kill the elite Hozen and then General Rik-Rik. If you keep all abilities on cooldown, it is easy.  Hint, if you are about to die, exit the vehicle and it will take you back to the start without dying.|
+C SI:7 Report: Lost in the Woods|QID|29733|M|49.88,70.92|N|Use all three of Rell Nightwind's attacks to kill the elite Hozen and then General Rik-Rik. If you keep all abilities on cooldown, it is easy.  Hint, if you are about to die, exit the vehicle and it will take you back to the start without dying.|
 T SI:7 Report: Lost in the Woods|QID|29733|M|58.98,81.82|N|To Rell Nightwind.|
 A SI:7 Report: Fire From the Sky|QID|29725|M|51.02,63.06|N|From Sully "The Pickle" McLeary, who is pacing. "See" his report as soon as you accept.|
 C Scout the southeastern shrine |QID|29725|QO|Scout the southeastern shrine: 1/1|M|50.7,62.7|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Serpent's Heart
@@ -278,7 +284,7 @@ T SI:7 Report: Take No Prisoners|QID|29727|M|58.93,81.93|N|To Amber Kearnen.|
 A A Perfect Match|QID|29903|M|58.87,81.68|N|From Admiral Taylor.|
 A Seek Out the Lorewalker|QID|29888|M|58.96,81.68|N|From Bold Karasshi.|
 
-C A Perfect Match|QID|29903|NC|M|60.44,87.70|N|Speak to the Aqualytes and give them presents. The trick is to look at what weapon they have:\nDaggers: Give a dagger\nSword: Give a shield\nRed Staff: give a healing prayer\nBlue/Green Staff: give a staff|
+C A Perfect Match|QID|29903|NC|M|60.44,87.70|N|Speak to the Aqualytes and give them presents. The trick is to look at what weapon they have:Daggers: Give a dagger; Sword: Give a shield; Red Staff: give a healing prayer; Blue/Green Staff: give a staff.|
 T A Perfect Match|QID|29903|M|58.87,81.68|N|To Admiral Taylor.|
 A Bigger Fish to Fry|QID|29904|M|58.87,81.68|N|From Admiral Taylor.|
 
@@ -319,7 +325,7 @@ T Potency|QID|29891|M|53.78,90.63|N|To Lorewalker Cho.|
 T Body|QID|29892|M|53.78,90.63|N|To Lorewalker Cho.|
 T Hue|QID|29893|M|53.78,90.63|N|To Lorewalker Cho.|
 A Finding Your Center|QID|29890|M|53.75,90.67|N|From Lorewalker Cho.|
-C Finding Your Center|QID|29890|M|54.57,91.88|N|Keep the bar from 25 to 75.  If it hits either extream, you fail.|
+C Finding Your Center|QID|29890|M|54.57,91.88|N|Keep the bar from 25 to 75.  If it hits either extreme, you fail.|
 
 R Den of Sorrow|QID|29890|M|59.23,87.96;60.19,83.42;61.88,81.98;62.21,82.64;65.18,79.27;65.90,79.29|CS|N|Run back to Pealfin Village and then take the path in your vision.|
 T Finding Your Center|QID|29890|M|65.90,79.29|N|To Anduin Wrynn.|
@@ -366,7 +372,7 @@ C Down Kitty!|QID|29717|S|M|37.11,47.72|
 C The Double Hozen Dare|QID|29716|M|37.31,48.19|
 T The Double Hozen Dare|QID|29716|NC|N|To An Windfur. (she should be following you)|
 A The Jade Witch|QID|29723|N|From An Windfur.|
-C The Jade Witch|QID|29723|M|39.23,46.17|N|Talk to Widow Greenpaw, she'll bring you to Shin and then become attackable, kill her.|
+C The Jade Witch|QID|29723|M|39.23,46.17|N|Before you talk to the widow, look around for a 'Jade Warrior Statue' in her front yard, if it is there talk to it for a BoA treasure. Talk to Widow Greenpaw, she'll bring you to Shin and then become attackable, kill her.|
 C Down Kitty!|QID|29717|US|M|37.11,47.72|
 
 T Down Kitty!|QID|29717|N|To An Windfur.|
@@ -416,7 +422,7 @@ T Mann's Man|QID|29927|M|45.44,29.09|N|To Hao Mann, inside the mine under a pile
 A Trapped!|QID|29929|M|45.44,29.09|N|From Hao Mann.|
 
 C Calamity Jade|QID|29926|S|QID|29926|M|44.48,30.29|
-C Trapped!|QID|29929|NC|M|43.87,30.49|
+C Trapped!|QID|29929|NC|M|43.87,30.49|N|While doing the quests here in the mine an 'ancient pandaran mining pick' can rarely be found, keep an eye out for it.|
 C Calamity Jade|QID|29926|US|QID|29926|M|44.48,30.29|
 
 T Trapped!|QID|29929|M|46.30,29.39|N|To Hao Mann.|
@@ -425,7 +431,7 @@ C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart.|
 T What's Mined Is Yours|QID|29930|M|50.94,27.03|N|To Foreman Mann.|
 T Calamity Jade|QID|29926|M|50.94,27.03|N|From Foreman Mann.|
 A The Serpent's Heart|QID|29931|M|50.94,27.03|N|From Foreman Mann.|
-N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailys.|
+N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailys. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|
 f Sri-La Village|QID|29670|M|55.44,23.73|N|At Gingo Alebottom.|
 
 R Wood of the Lost|QID|29745|M|48.64,24.91|CC|
@@ -443,7 +449,7 @@ A An Urgent Plea|QID|29749|N|From UI Alert.|
 C An Urgent Plea|QID|29749|M|44.24,14.91|N|Get the staff|QO|Staff of Pei-Zhi: 1/1|
 C An Urgent Plea|QID|29749|M|44.36,15.89|N|Kill Ancient Spirits drifting towards the center to destroy the ritual.|QO|Interrupt the Ritual of Spiritbinding: 1/1|
 T An Urgent Plea|QID|29749|M|44.22,15.01|N|To Pei-Zhi.|
-A Ritual Artifacts|QID|29751|M|44.22,15.01|N|From Pei-Zhi.|
+A Ritual Artifacts|QID|29751|M|44.22,15.01|N|From Pei-Zhi. While you are in this area doing these quests, keep an eye out for a rarely found BoA item, 'Hammer of the Ten Thunders'.|
 A Vessels of the Spirit|QID|29750|M|44.22,15.01|N|From Pei-Zhi.|
 A The Wayward Dead|QID|29752|M|44.22,15.01|N|From Pei-Zhi.|
 C The Wayward Dead|QID|29752|S|U|74771|M|44.22,15.01|N|Use Pei-Zhi's staff to release the Wandering Spirits, also kill Spiritclaw's.|
@@ -507,7 +513,10 @@ A And a Heavy Fist|QID|29630|M|41.59,23.66|N|From Groundskeeper Wu.|
 A Burning Bright|QID|29631|M|38.02,23.80|N|From Guard Shan Long, outside the Waxwood gate.|
 
 C Burning Bright|QID|29631|S|M|36.09,27.57|
-C A Steady Hand|QID|29629|NC|N|Any movement (including panning the camera angle) will end the gathering.|
+C A Steady Hand|QID|29629|NC|S|N|Any movement (including panning the camera angle) will end the gathering.|
+R Owen's Wishing Well|QID|31397|M|39.4,7.3|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found.|
+C A Steady Hand|QID|29629|US|NC|L|73193 80|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
+
 C Burning Bright|QID|29631|US|M|36.09,27.57|
 
 C And a Heavy Fist|QID|29630|S|N|Kill these as you approach the next objective|
@@ -573,7 +582,7 @@ C Unbound|QID|29587|US|NC|M|39.76,75.57|N|Click on the nets to free the farmers.
 T Unbound|QID|29587|M|41.02,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.02,73.97|N|To Shao the Defiant.|
 
-R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4;48.26,61.31|CS|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|
+R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4;48.26,61.31|CS|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart. Also, the lost BoA treasure, 'Ancient Jinyu Staff' may be occasionally located in the river beside Serpent's Heart if you want to take the time swimming to look for it.|
 T The Serpent's Heart|QID|29931|M|48.31,61.35|N|To Foreman Raike.|
 A Love's Labor|QID|30495|M|48.31,61.35|N|From Foreman Raike.|
 C Delivery to Kitemaster Shoku |QID|30495|NC|QO|Delivery to Kitemaster Shoku: 1/1|M|48.18,60.02|
@@ -646,7 +655,7 @@ A Emergency Response|QID|31319|M|49.27,61.39|N|From Lorewalker Cho.|
 C Residual Fallout|QID|30500|S|M|46.40,60.09|
 C Jaded Heart|QID|30502|S|NC|U|80074|N|Pick up the sparkly pieces of Jade and use them to make the elite Sha, non-elite.|
 C Recover Admiral Taylor|QID|31319|NC|U|86511|QO|Admiral Taylor Recovered: 1/1|M|47.7,62.1|
-C Revocer Mishka|QID|31319|NC|U|86511|QO|Mishka Recovered: 1/1|M|46.4,61.7|
+C Recover Mishka|QID|31319|NC|U|86511|QO|Mishka Recovered: 1/1|M|46.4,61.7|
 C Recover Sully|QID|31319|NC|U|86511|QO|Sully Recovered: 1/1|M|47.5,59.2|
 C Jaded Heart|QID|30502|US|U|80074|M|49.04,59.9|
 C Residual Fallout|QID|30500|US|M|46.40,60.09|
