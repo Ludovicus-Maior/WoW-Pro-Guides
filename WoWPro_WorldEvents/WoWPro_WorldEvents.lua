@@ -6,6 +6,7 @@
 WoWPro.WorldEvents = WoWPro:NewModule("WorldEvents")
 local myUFG = UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.WorldEvents)
+local bucket = LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.WorldEvents:OnInitialize()
@@ -22,12 +23,12 @@ function WoWPro.WorldEvents:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: WorldEvents Module")
 	
 	-- Event Registration --
-	WoWPro.WorldEvents.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "CRITERIA_UPDATE",
+	WoWPro.WorldEvents.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT"
 	}
 	WoWPro:RegisterEvents(WoWPro.WorldEvents.Events)
-	
+	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.WorldEvents.AutoCompleteCriteria)
 	--Loading Frames--
 	if not WoWPro.WorldEvents.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.WorldEvents:CreateConfig()
