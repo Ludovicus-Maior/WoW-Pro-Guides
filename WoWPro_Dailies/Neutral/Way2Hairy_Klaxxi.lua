@@ -1,3 +1,42 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2012-11-09 02:23
+-- Who: Emmaleah
+-- Log: corrected Typo
+
+-- URL: http://wow-pro.com/node/3504/revisions/25183/view
+-- Date: 2012-11-05 01:12
+-- Who: Emmaleah
+-- Log: 4 Nov 2012 - 
+--	remade the changes I made just before I put the newest copy here. (quests The Warlords Ashes, The Matriarchs Maw and Kypa'rak's Core, fixed QID for Sonic Disruption, - changed some steps (but not all) to match the convention of |M| being the last thing in the step.- Added R step to clutches of shek'zeer.- Added change log.
+
+-- URL: http://wow-pro.com/node/3504/revisions/25182/view
+-- Date: 2012-11-05 00:42
+-- Who: Emmaleah
+-- Log: changes posted by Way2Hairy on 10/18
+
+-- URL: http://wow-pro.com/node/3504/revisions/25181/view
+-- Date: 2012-11-04 23:43
+-- Who: Emmaleah
+-- Log: These changes are from analyzing the quests so I can put them in the zone guide correctly (hopefully). I used this guide to get them all sorted by questgiver/area/faction and compared the data on wowhead.
+--	corrected QID for sonic disruption to 31487
+--	Edited "The Warlord's Ashes" by 1)added |QID|31677| 2)changed to N to K step 3)added |O| to A step, 4)added note to A step 5)added T step.
+--	added |QID|31267| to R Terrace of Gurthan
+--	Edited "The Matriarch's Maw" by 1)added QID 31599 2) added |O|to A step 3) added note to A step 4) added T step.
+
+-- URL: http://wow-pro.com/node/3504/revisions/25143/view
+-- Date: 2012-10-18 23:03
+-- Who: Ludovicus Maior
+-- Log: Original from way2hairy
+
+-- URL: http://wow-pro.com/node/3504/revisions/25115/view
+-- Date: 2012-10-07 22:33
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("WayKlaxxi", "Dread Wastes", "Klaxxi", "MoP", "Way2hairy", "Neutral", function()
 
 return [[
@@ -8,7 +47,7 @@ N Work in progress!|N|Please note that this guide is not yet complete. If you fi
 
 N Klaxxi|N|You need to have opened the Dread Wastes Questline as described in the Dread Wastes leveling guide to do these quests. Also, most of the dailies will require level 90.|
 
-N Paragons|N|The amount of questgivers available is dependant on how many Paragons you have unlocked, most of which are unlocked simply by questing in Dread Wastes. This guide will show you how to unlock the last 3 as they become available via Klaxxi reputation.|
+N Paragons|N|The amount of questgivers available is dependant on how many Paragons you have unlocked, most of which are unlocked simply by questing in Dread Wastes.  This guide will show you how to unlock the last 3 as they become available via Klaxxi reputation.|
 
 
 
@@ -84,7 +123,7 @@ C Rampage Against the Machine|QID|31808|M|51.00,43.00|N|Kill Mantids all over th
 
 ; Lake of Stars
 
-R Kypari Zar|QID|31272;31268;31271;31269;31267;31024;31270|Z|Kypari Zar|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Kypari Zar. Press 1 and choose your landing spot.|CC|
+R Kypari Zar|QID|31272;31268;31271;31269;31267;31024;31270|Z|Kypari Zar|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Kypari Zar.  Press 1 and choose your landing spot.|CC|
 
 C Infection|QID|31272|N|Kill 6 infected wildlife which may include Bonedust Moths, Bluehide Mushan, and Mutating Scorpid.|S|
 
@@ -112,7 +151,7 @@ C Kunchong Treats|QID|31024|N|Drop from Chillwater Turtles.|US|M|57.20,54.00|
 
 ; Terrace of Gurthan
 
-R Terrace of Gurthan|QID|31233;31232;31231;31237;31235;31234|M|55.10,35.90|Z|Terrace of Gurthan|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to The Terrace of Gurthan. Press 1 and choose your landing spot.|CC|
+R Terrace of Gurthan|QID|31233;31232;31231;31237;31235;31234|M|55.10,35.90|Z|Terrace of Gurthan|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to The Terrace of Gurthan.  Press 1 and choose your landing spot.|CC|
 
 C Sap Tapping|QID|31233|N|Collect 6 Amber Sap. They are on trees in the area.|S|
 
@@ -120,7 +159,7 @@ C An Ancient Empire|QID|31232|N|Collect 8 Gurthani Tablets off the ground.|S|
 
 C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|S|
 
-C Debugging the Terrace|QID|31237|N|After killing any mob in the area you gain the ability to see red clouds on the ground. Step into the clouds and right click Eye's of the Empress until this step is complete.|S|
+C Debugging the Terrace|QID|31237|N|After killing any mob in the area you gain the ability to see red clouds on the ground.  Step into the clouds and right click Eye's of the Empress until this step is complete.|S|
 
 C Nope Nope Nope|QID|31235|U|82807|M|70.40,27.80|N|Destroy 20 Dreadspinner Eggs.|
 
@@ -134,7 +173,7 @@ A The Warlord's Ashes|QID|31677|O|U|88715|N|Accept the quest from the ashes.|
 
 C Putting An Eye Out|QID|31234|US|M|67.20,36.00|N|Drops from Mire Beasts.|
 
-C Debugging the Terrace|QID|31237|US|M|69.40,32.40|N|After killing any mob in the area you gain the ability to see red clouds on the ground. Step into the clouds and right click Eye's of the Empress until this step is complete.|
+C Debugging the Terrace|QID|31237|US|M|69.40,32.40|N|After killing any mob in the area you gain the ability to see red clouds on the ground.  Step into the clouds and right click Eye's of the Empress until this step is complete.|
 
 C An Ancient Empire|QID|31232|N|Collect 8 Gurthani Tablets off the ground.|US|M|69.40,32.40|
 
@@ -184,7 +223,7 @@ C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|
 
 ; Briny Muck
 
-R Zan'Vess|QID|31111;31508;31509;31506;31505;31507;31510|Z|The Briny Muck|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Zan'Vess. Press 1 and choose your landing spot.|CC|
+R Zan'Vess|QID|31111;31508;31509;31506;31505;31507;31510|Z|The Briny Muck|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Zan'Vess.  Press 1 and choose your landing spot.|CC|
 
 K Kypa'rak|QID|31111;31508;31509;31506;31505;31507;31510|M|34.20,59.80|T|Kypa'rak|L|87871 |N|Loot the Massive Kyparite Core.|
 

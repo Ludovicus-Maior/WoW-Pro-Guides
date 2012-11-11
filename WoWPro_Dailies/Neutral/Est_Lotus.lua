@@ -1,3 +1,35 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2012-11-09 11:49
+-- Who: Estelyen
+-- Log: Found Gaohun the Soul-Severer today, added tactics
+
+-- URL: http://wow-pro.com/node/3502/revisions/25185/view
+-- Date: 2012-11-07 15:04
+-- Who: Estelyen
+-- Log: Oops, forgot to remove the "Work in progress" note :P
+
+-- URL: http://wow-pro.com/node/3502/revisions/25184/view
+-- Date: 2012-11-07 14:56
+-- Who: Estelyen
+
+-- URL: http://wow-pro.com/node/3502/revisions/25142/view
+-- Date: 2012-10-17 13:41
+-- Who: Estelyen
+-- Log: Please do not yet include in the Addon, the guide is NOT completed
+
+-- URL: http://wow-pro.com/node/3502/revisions/25113/view
+-- Date: 2012-10-07 22:31
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3502/revisions/25112/view
+-- Date: 2012-10-07 22:31
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("EstGoldLotus", "Vale of Eternal Blossoms", "Golden Lotus Dailies", "MoP", "Estelyen", "Neutral", function()
 return [[
 
@@ -238,8 +270,8 @@ T Wu Kao Scouting Reports|QID|30285|N|To Sun Tenderheart.|M|35.12,75.37|
 T Backed Into a Corner|QID|30286|N|To Sun Tenderheart.|M|35.12,75.37|
 A Next Random Daily in the line|QID|30296;30297;31296;31297|PRE|31243|N|The next quest is randomly offered by either Rook Stonetoe or Sun Tenderheart.|M|35.28,74.92;35.12,75.37|
 A Next Random Daily in the line|QID|30296;30297;31296;31297|PRE|31246|N|The next quest is randomly offered by either Rook Stonetoe or Sun Tenderheart.|M|35.28,74.92;35.12,75.37|
-C Gaohun the Soul-Severer|QID|30296|ACH|7317;9|N|Kill Gaohun. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|39.00,75.00|
-C Gaohun the Soul-Severer|QID|30296|N|Kill Gaohun. You will get credit for the kill, even if another player attacked him first.|M|39.00,75.00|
+C Gaohun the Soul-Severer|QID|30296|ACH|7317;9|N|Kill Gaohun on the plateau next to the village. He casts a damaging ground effect under your feet as well as a "Spirit Cage" which will lock you in with several adds if you don't move out of it quickly enough. Just keep moving a lot and he shouldn't be too difficult. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|39.00,75.00|
+C Gaohun the Soul-Severer|QID|30296|N|Kill Gaohun on the plateau next to the village. He casts a damaging ground effect under your feet as well as a "Spirit Cage" which will lock you in with several adds if you don't move out of it quickly enough. Just keep moving a lot and he shouldn't be too difficult. You will get credit for the kill, even if another player attacked him first.|M|39.00,75.00|
 C Baolai the Immolator|QID|30297|ACH|7317;8|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|37.40,81,20|
 C Baolai the Immolator|QID|30297|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first.|M|37.40,81,20|
 T Gaohun the Soul-Severer|QID|30296|N|To Rook Stonetoe.|M|35.28,74.92|
@@ -455,4 +487,3 @@ U End of Guide|U|90625|N|You've reached the end of the guide! All that's left to
 ]]
 
 end)
-

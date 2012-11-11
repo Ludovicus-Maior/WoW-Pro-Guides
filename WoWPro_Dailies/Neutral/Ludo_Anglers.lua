@@ -3,6 +3,24 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/anglers_reputation
+-- Date: 2012-11-08 19:08
+-- Who: Ludovicus Maior
+-- Log: Coord Corrections.
+
+-- URL: http://wow-pro.com/node/3509/revisions/25187/view
+-- Date: 2012-11-08 17:44
+-- Who: Ludovicus Maior
+-- Log: OK, First complete draft.  Time to test!
+
+-- URL: http://wow-pro.com/node/3509/revisions/25186/view
+-- Date: 2012-11-08 15:42
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3509/revisions/25120/view
+-- Date: 2012-10-07 22:40
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("LudoAnglers", "Krasarang Wilds", "The Anglers Reputation", "MoP", "Ludovicus", "Neutral", function()
 return [[
 
@@ -12,7 +30,6 @@ T The Anglers|QID|31370|M|67.8,45.2|FACTION|Horde|N|To Fisherman Haito|
 A The Anglers|QID|31369|M|86.56,60.06|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Master Angler Marina, first floor.|
 T The Anglers|QID|31369|M|67.8,45.2|FACTION|Alliance|N|To Fisherman Haito|
 
-
 A Quest(s) from Angler Shen|QID|30588;30700|M|67.56,43.51|N|From Angler Shen, if he is offering|
 A Quest(s) from Elder Fisherman Rassan|QID|30585;30598|M|68.34,42.08|N|From Elder Fisherman Rassan, if he is offering|
 A Quest(s) from Fisherman Haito|QID|30586;30584|M|67.92,45.24|N|From Fisherman Haito, if he is offering|
@@ -20,7 +37,6 @@ A Quest(s) from Fiznix|QID|30678;30698|M|67.49,44.59|N|From Fiznix, if he is off
 A Quest(s) from Fo Fook|QID|30763;30701|M|67.21,41.14|N|From Fo Fook, if he is offering|
 A Quest(s) from John "Big Hook" Marsock|QID|30754;30753|M|68.34,43.49|N|From John "Big Hook" Marsock, if he is offering|
 A Quest(s) from Trawler Yotimo|QID|30613;30658|M|67.62,42.49|N|From Trawler Yotimo, if he is offering|
-
 
 C Armored Carp|QID|30613|M|68.50,46.10;71.00,49.95;67.07,50.15;69.33,51.12;69.14,48.33|N|Use the spear south of the wharf.|U|80403|L|80437 5|
 C Bright Bait|QID|30754|M|66.50,34.08;59.67,39.42;62.08,37.11;61.45,33.88;59.40,33.70;64.41,36.00;59.51,37.07;64.05,31.48|L|81116 7|N|Go north into the forest and look for them on the roots of trees. Careful with the tigers.|
@@ -38,7 +54,6 @@ C Viseclaw Soup|QID|30701|M|51.20,48.80;53.20,52.60;56.60,52.80;59.00,48.80;61.8
 C What Lurks Below|QID|30585|M|34.2,31.4|L|80262|N|Fish in the mysterious whirlpool.  When Narjon appears, re-equip your weapon and kill him.  Loot the ring.|
 C Who Knew Fish Liked Eggs?|QID|30598|M|65.47,47.90;63.48,47.97;72.83,45.19|QO|Pristine Crane Egg Gathered: 1/1|N|Get your egg from a nest.|
 C Who Knew Fish Liked Eggs?|QID|30598|M|67.58,44.48;68.47,42.05|L|80310|N|Now go fishing for a Goby!|
-
 
 T Fishing for a Bruising|QID|30588|M|67.56,43.51|N|From Angler Shen|
 T Snapclaw|QID|30700|M|67.56,43.51|N|From Angler Shen|

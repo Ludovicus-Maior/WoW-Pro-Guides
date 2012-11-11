@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2012-11-10 01:59
+-- Who: JamesL85
+-- Log: C step for The Taking of Dusklight had a 4 in front of the QID.  Also changed the T step coords.
+
+-- URL: http://wow-pro.com/node/3492/revisions/25193/view
+-- Date: 2012-11-10 01:33
+-- Who: JamesL85
+-- Log: Changed the R step for Dusklight Bridge.  They were set to the coords for the previous A step.
+
+-- URL: http://wow-pro.com/node/3492/revisions/25151/view
 -- Date: 2012-10-22 20:10
 -- Who: Ludovicus Maior
 -- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Neutral/89_90_Emmaleah_Townlong_Steppes.lua on 10/22/2012 14:09 EST.
@@ -221,14 +231,14 @@ C Taking Stock|QID|30971|US|NC|M|66.67,82.26|N|Pick up the arrows from the groun
 T Taking Stock|QID|30971|M|67.35,80.80|N|To Initiate Pao-Me.|
 T Enraged By Hatred|QID|30970|M|67.35,80.80|N|To Taoshi.|
 A Joining the Fight|QID|30972|M|67.35,80.80|N|From Initiate Pao-Me.|
-R Dusklight Bridge|QID|30972|M|67.35,80.80|
+R Dusklight Bridge|QID|30972|M|61.56,79.29|
 T Joining the Fight|QID|30972|M|61.56,79.29|N|To Lao-Chin the Iron Belly.|
 A Up In Flames|QID|30973|M|61.56,79.29|N|From Taran Zhu.|
 C Up In Flames|QID|30973|M|60.58,78.79|N|The Timberhusks have a buff, that you need to dispell by having them in the vicinity of exploding barrels. The barrels are nearly impossible to aim, so try to click the barrells close to the mobs, barrels explode when they hit something.|
 T Up In Flames|QID|30973|M|61.65,79.32|N|To Taran Zhu.|
 A The Taking of Dusklight Bridge|QID|30975|M|61.65,79.32|N|From Lao-Chin the Iron Belly.|
-C The Taking of Dusklight Bridge|QID|430975|M|60.79,80.95;58.78,89.53|N|Drink(click) the barrels for dmg increase buff, If needed, run through the green bubbles for healing.|
-T The Taking of Dusklight Bridge|QID|30975|M|61.08,83.21|N|To Taran Zhu.|
+C The Taking of Dusklight Bridge|QID|30975|M|60.79,80.95;58.78,89.53|N|Drink(click) the barrels for dmg increase buff, If needed, run through the green bubbles for healing.|
+T The Taking of Dusklight Bridge|QID|30975|M|61.10,83.05|N|To Taran Zhu.|
 A Joining the Hunt|QID|30976|M|61.08,83.21|N|From Taran Zhu.|
 
 R Rensai's Watchpost|QID|30976|M|54.28,78.97|N|Ride along with Taren Zhu.|
