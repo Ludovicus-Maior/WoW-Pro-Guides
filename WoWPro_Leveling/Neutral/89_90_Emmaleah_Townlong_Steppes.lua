@@ -80,11 +80,11 @@ T Jung Duk|QID|30776|M|70.98,56.54|N|To Ban Bearheart.|
 A In Search of Suna|QID|30777|M|70.98,56.54|N|From Ban Bearheart. Hop on the caravan for a ride to Hatred's Vice.|
 
 R Hatred's Vice|QID|30777|M|70.6,56.6|N|Take the Shado-Pan Caravan|
-T In Search of Suna|QID|30777|M|82.73,72.96|N|To Ban Bearheart.|
-A Dust to Dust|QID|30778|M|82.73,72.96|N|From Ban Bearheart.|
-A Slaying the Scavengers|QID|30779|M|82.73,72.96|N|From Ban Bearheart.|
-A Last Toll of the Yaungol|QID|30781|M|82.74,73.13|N|From Xiao Tu.|
-A Totemic Research|QID|30780|M|82.67,72.97|N|From Yalia Sagewhisper.|
+T In Search of Suna|QID|30777|M|82.68,73.02|N|To Ban Bearheart.|
+A Dust to Dust|QID|30778|M|82.68,73.02|N|From Ban Bearheart.|
+A Slaying the Scavengers|QID|30779|M|82.68,73.02|N|From Ban Bearheart.|
+A Last Toll of the Yaungol|QID|30781|M|82.70,73.16|N|From Xiao Tu.|
+A Totemic Research|QID|30780|M|82.59,73.02|N|From Yalia Sagewhisper.|
 C Slaying the Scavengers|QID|30779|S|M|84.07,72.45|
 C Totemic Research|QID|30780|S|NC|M|82.52,71.68|N|Pick up the totems scattered around the camp.|
 C Dust to Dust|QID|30778|S|NC|U|81356|M|82.63,70.03|N|Use the Shado-Pan Torch to burn the corpses.|
@@ -95,25 +95,25 @@ C Examine the Southern Smoke Trail|QID|30781|NC|QO|Southern Smoke Trail examined
 C Dust to Dust|QID|30778|US|NC|U|81356|M|82.63,70.03|N|Use the Shado-Pan Torch to burn the corpses.|
 C Totemic Research|QID|30780|US|NC|M|82.52,71.68|N|Pick up the totems scattered around the camp.|
 C Slaying the Scavengers|QID|30779|US|M|84.07,72.45|
-T Dust to Dust|QID|30778|M|82.70,73.10|N|To Ban Bearheart.|
-T Slaying the Scavengers|QID|30779|M|82.70,73.10|N|To Ban Bearheart.|
-T Last Toll of the Yaungol|QID|30781|M|82.70,73.10|N|To Ban Bearheart.|
-T Totemic Research|QID|30780|M|82.63,73.03|N|To Yalia Sagewhisper.|
-A What Lies Beneath|QID|30827|M|82.63,73.03|N|From Yalia Sagewhisper.|
-C What Lies Beneath|QID|30827|M|82.45,73.57|N|Talk to Yalia, then click on the totems.|
-T What Lies Beneath|QID|30827|M|82.53,73.12|N|To Yalia Sagewhisper.|
-A Hatred Becomes Us|QID|30783|M|82.53,73.12|N|From Yalia Sagewhisper.|
-A Spiteful Spirits|QID|30782|M|82.66,73.06|N|From Ban Bearheart.|
+T Dust to Dust|QID|30778|M|82.68,73.02|N|To Ban Bearheart.|
+T Slaying the Scavengers|QID|30779|M|82.68,73.02|N|To Ban Bearheart.|
+T Last Toll of the Yaungol|QID|30781|M|82.68,73.02|N|To Ban Bearheart.|
+T Totemic Research|QID|30780|M|82.59,73.02|N|To Yalia Sagewhisper.|
+A What Lies Beneath|QID|30827|M|82.59,73.02|N|From Yalia Sagewhisper.|
+C What Lies Beneath|QID|30827|M|82.59,73.02|N|Talk to Yalia, then click on the totems.|
+T What Lies Beneath|QID|30827|M|82.59,73.02|N|To Yalia Sagewhisper.|
+A Hatred Becomes Us|QID|30783|M|82.59,73.02|N|From Yalia Sagewhisper.|
+A Spiteful Spirits|QID|30782|M|82.68,73.02|N|From Ban Bearheart.|
 C Spiteful Spirits|QID|30782|S|U|81417|M|84.04,77.51|N|While killing the spiteful spirts (ghostly looking things), stand in the AE from your totem (use effect) to keep the bar (negative emothions) from filling up.|
 C Hatred Becomes Us|QID|30783|U|81417|M|82.65,73.90|N|Use the totem on the Shado-Pan to release their seething hatred (and on yourself to keep the bar from filling up.)|
 C Spiteful Spirits|QID|30782|US|U|81417|M|84.04,77.51|N|While killing the spiteful spirts (ghostly looking things), stand in the AE from your totem (use effect) to keep the bar (negative emothions) from filling up.|
-T Hatred Becomes Us|QID|30783|M|82.60,73.05|N|To Yalia Sagewhisper.|
-T Spiteful Spirits|QID|30782|M|82.62,73.04|N|To Ban Bearheart.|
-A The Point of No Return|QID|30784|M|82.62,73.04|N|From Ban Bearheart.|
+T Hatred Becomes Us|QID|30783|M|82.59,73.02|N|To Yalia Sagewhisper.|
+T Spiteful Spirits|QID|30782|M|82.68,73.02|N|To Ban Bearheart.|
+A The Point of No Return|QID|30784|M|82.68,73.02|N|From Ban Bearheart.|
 C The Point of No Return|QID|30784|U|81430|M|84.25,70.72|N|Use the totem on Suna.|
-T The Point of No Return|QID|30784|M|82.68,73.08|N|To Ban Bearheart.|
-A Gao-Ran Battlefront|QID|30785|M|82.68,73.08|N|From Ban Bearheart.|
-A A Delicate Balance|QID|31894|M|82.60,73.05|N|From Yalia Sagewhisper.|
+T The Point of No Return|QID|30784|M|82.68,73.02|N|To Ban Bearheart.|
+A Gao-Ran Battlefront|QID|30785|M|82.68,73.02|N|From Ban Bearheart.|
+A A Delicate Balance|QID|31894|M|82.59,73.02|N|From Yalia Sagewhisper.|
 
 ; Cannot easily get to Goa-Ran Battle without flying mount from Hatred's Vice so I'm moving the Goa-Ran quests to later.
 R Lower Sumprushes|QID|30786|M|68.02,67.58|CC|
@@ -122,7 +122,7 @@ A A Spear Through My Side, A Chain Through My Soul|QID|30786|M|68.02,67.58|N|Fro
 K Kill Dmong Naruuk|QID|30786|T|Dmong Naruuk|QO|Dmong Naruuk slain: 1/1|M|68.51,71.48|
 T A Spear Through My Side, A Chain Through My Soul|QID|30786|M|67.86,67.64|N|To Orbiss.|
 A The Torches|QID|30787|M|67.86,67.64|N|From Orbiss.|
-C The Torches|QID|30787|M|68.26,69.16|N|Kill Mist-Shamans, when they die, you can loot thier torch. Make sure the shaman didn't just kill thier victim, the torch disappears a few seconds after the victim dies (and you can't loot it).|
+C The Torches|QID|30787|M|68.26,69.16|N|Kill Mist-Shamans, when they die, you can loot their torch. Make sure the shaman didn't just kill their victim, the torch disappears a few seconds after the victim dies (and you can't loot it).|
 T The Torches|QID|30787|M|67.96,67.76|N|To Orbiss.|
 A Golgoss|QID|30788|M|67.96,67.76|N|From Orbiss.|
 A Arconiss|QID|30789|M|67.96,67.76|N|From Orbiss.|
@@ -150,16 +150,16 @@ T Mists' Opportunity|QID|30793|M|76.19,72.93|N|To Orbiss.|
 
 R Gao-Ran Battlefront|QID|30785|M|74.44,81.47|CC|
 f Gao-Ran Battlefront|QID|30887|M|74.44,81.47|N|At Kite Master Nenshi.|
-T Gao-Ran Battlefront|QID|30785|M|76.38,82.39|N|To Taran Zhu.|
-A Behind the Battlefront|QID|30884|M|76.38,82.39|N|From Taran Zhu.|
-A Treatment for the Troops|QID|30891|M|75.85,83.05|N|From Septi the Herbalist.|
+T Gao-Ran Battlefront|QID|30785|M|76.42,82.44|N|To Taran Zhu.|
+A Behind the Battlefront|QID|30884|M|76.42,82.44|N|From Taran Zhu.|
+A Treatment for the Troops|QID|30891|M|75.86,83.14|N|From Septi the Herbalist.|
 r Merchants!|QID|99999|M|75.78,81.87|N|At Ironshaper Peng, finally a place to repair and sell.|
 C Treatment for the Troops|QID|30891|S|NC|M|75.83,76.58|N|The sparkly blue-flowered bushes are what you are looking for.|
-T Behind the Battlefront|QID|30884|M|76.96,78.89|N|To Taoshi.|
-A Unwelcome Intruders|QID|30887|M|76.96,78.89|N|From Taoshi.|
+T Behind the Battlefront|QID|30884|M|76.94,78.78|N|To Taoshi.|
+A Unwelcome Intruders|QID|30887|M|76.94,78.78|N|From Taoshi.|
 C Unwelcome Intruders|QID|30887|M|77.03,78.16|
 C Treatment for the Troops|QID|30891|US|NC|M|75.83,76.58|
-T Treatment for the Troops|QID|30891|M|75.80,83.10|N|To Septi the Herbalist.|
+T Treatment for the Troops|QID|30891|M|75.86,83.14|N|To Septi the Herbalist.|
 T Unwelcome Intruders|QID|30887|M|79.43,84.37|N|To Taoshi.|
 A Breach in the Defenses|QID|30888|M|79.43,84.37|N|From Taoshi.|
 A The Restless Watch|QID|30890|M|79.43,84.37|N|From Taoshi.|
@@ -176,17 +176,17 @@ T Breach in the Defenses|QID|30888|M|79.41,84.42|N|To Taoshi.|
 T The Restless Watch|QID|30890|M|79.41,84.42|N|To Taoshi.|
 A Returning from the Pass|QID|30960|M|79.41,84.42|N|From Taoshi.|
 T Trap Setting|QID|30889|M|79.41,84.42|N|To Mao the Lookout.|
-T Returning from the Pass|QID|30960|M|76.42,82.47|N|To Taran Zhu.|
-A The Endless Swarm|QID|30893|M|76.42,82.47|N|From Taran Zhu.|
-A Back on Their Feet|QID|30892|M|75.88,83.11|N|From Septi the Herbalist.|
-A Rummaging Through the Remains|QID|30894|M|75.88,83.11|N|From Septi the Herbalist.|
+T Returning from the Pass|QID|30960|M|76.42,82.44|N|To Taran Zhu.|
+A The Endless Swarm|QID|30893|M|76.42,82.44|N|From Taran Zhu.|
+A Back on Their Feet|QID|30892|M|75.86,83.14|N|From Septi the Herbalist.|
+A Rummaging Through the Remains|QID|30894|M|75.86,83.14|N|From Septi the Herbalist.|
 C Back on Their Feet|QID|30892|S|NC|U|82787|M|74.16,89.57|N|Use the provided bandages on the injured.|
 C The Endless Swarm|QID|30893|S|M|75.56,89.88|
 C Rummaging Through the Remains|QID|30894|M|76.31,89.27|N|Kill Kril'thik and limbs will fall for you to pick up.|
 C The Endless Swarm|QID|30893|US|M|75.56,89.88|
 C Back on Their Feet|QID|30892|US|NC|U|82787|M|74.16,89.57|N|Use the provided bandages on the injured.|
-T Back on Their Feet|QID|30892|M|75.82,83.15|N|To Septi the Herbalist.|
-T Rummaging Through the Remains|QID|30894|M|75.82,83.15|N|To Septi the Herbalist.|
+T Back on Their Feet|QID|30892|M|75.86,83.14|N|To Septi the Herbalist.|
+T Rummaging Through the Remains|QID|30894|M|75.86,83.14|N|To Septi the Herbalist.|
 T The Endless Swarm|QID|30893|M|76.37,82.39|N|To Taran Zhu.|
 A Improvised Ammunition|QID|30895|M|76.37,82.39|N|From Taran Zhu.|
 
