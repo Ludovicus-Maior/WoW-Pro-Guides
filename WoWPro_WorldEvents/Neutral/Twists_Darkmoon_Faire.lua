@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2012-11-11 05:55
+-- Who: Hendo72
+-- Log: Corrected quantity of Moonberry Juice to be purchased from 1 to 5. It was missing from code.
+
+-- URL: http://wow-pro.com/node/3459/revisions/25003/view
 -- Date: 2012-06-08 14:15
 -- Who: Ludovicus Maior
 -- Log: Add LVL tweaks so it wont bother you to try to eat food you can't!
@@ -30,8 +35,8 @@ A The Darkmoon Faire|QID|7926|M|48.22,62.14|N|From Darkmoon Faire Mystic Mage wh
 R Transport to Entrance|QID|7905|M|41.87,68.17|N|Talk to her again to get ported to the entrance.You can use her for future trips as well.|Z|Elwynn Forest|FACTION|Alliance|CC|
 R Transport to Entrance|QID|7926|M|36.49,35.11|N|Talk to her again to get ported to the entrance.You can use him for future trips as well.|Z|Thunder Bluff|FACTION|Horde|CC|
 
-B Moonberry Juice|QID|29506|M|43.76,65.88|L|1645|N|From Innkeeper Farley in the Lion's Pride Inn.|P|Alchemy;171;75|Z|Elwynn Forest|FACTION|Alliance|
-B Moonberry Juice|QID|29506|M|38.89,64.67|L|1645|N|From Kuruk of Kuruk's Goods in Thunder Bluff main elevator and to your right.|P|Alchemy;171;75|Z|Thunder Bluff|FACTION|Horde|
+B Moonberry Juice|QID|29506|M|43.76,65.88|L|1645 5|N|From Innkeeper Farley in the Lion's Pride Inn.|P|Alchemy;171;75|Z|Elwynn Forest|FACTION|Alliance|
+B Moonberry Juice|QID|29506|M|38.89,64.67|L|1645 5|N|From Kuruk of Kuruk's Goods in Thunder Bluff main elevator and to your right.|P|Alchemy;171;75|Z|Thunder Bluff|FACTION|Horde|
 
 B Simple Flower|QID|29509|M|41.87,67.04|L|30817 5|N|Purchase 5 from Tharynn Borden.|P|Cooking;185;75|Z|Elwynn Forest|FACTION|Alliance|
 B Simple Flower|QID|29509|M|40.6,63.6|L|30817 5|N|Purchase 5 from Shadi Mistrunner.|P|Cooking;185;75|Z|Thunder Bluff|FACTION|Horde|

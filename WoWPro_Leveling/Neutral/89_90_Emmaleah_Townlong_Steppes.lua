@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2012-11-11 03:04
+-- Who: Ludovicus Maior
+-- Log: Hatred's Vice Cooord Corrections.
+
+-- URL: http://wow-pro.com/node/3492/revisions/25194/view
 -- Date: 2012-11-10 01:59
 -- Who: JamesL85
 -- Log: C step for The Taking of Dusklight had a 4 in front of the QID.  Also changed the T step coords.

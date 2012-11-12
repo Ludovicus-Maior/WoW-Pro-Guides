@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2012-11-11 00:52
+-- Who: Emmaleah
+-- Log: Emmaleah - 10 Nov 2012 - Added the "one time" treasure items. *and this change log*
+
+-- URL: http://wow-pro.com/node/3488/revisions/25172/view
 -- Date: 2012-10-27 20:54
 -- Who: Ludovicus Maior
 -- Log: OK, next set of coordinate corrections, text mods, et al
@@ -50,6 +55,7 @@ C Speak with Yun|QID|30079|NC|QO|Speak with Yun: 1/1|M|75.48,9.39|N|up the stair
 C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|Speak with Despondent Warden of Zhu: 1/1|M|76.69,8.85|
 C Speak with Sunni|QID|30079|NC|QO|Speak with Sunni: 1/1|M|77.47,8.54|N|up the stairs, inside in bed.|
 f Zhu's Watch|QID|30078|M|76.7,8.38|N|At Gee Hung.|
+l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;19.17,39.06|Z|Valley of the Four Winds|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 feet, and up into the house, papers are on table.|
 C Finding Yi-Mo|QID|30080|M|81.30,8.85|N|He is lying on the ground.|
 T Finding Yi-Mo|QID|30080|M|81.31,6.78|N|To Yi-Mo Longbrow.|
 A Cheer Up, Yi-Mo|QID|30082|M|81.30,6.78|N|From Yi-Mo Longbrow.|
@@ -133,6 +139,7 @@ C Threat from Dojan|QID|30349|US|M|55,35|N|Finish this before you go on to the p
 C The Pools of Youth|QID|30347|NC|M|54.6,33.1;51.9,32.4|N|When facing the platform where you killed the Dominator, go to your left, over a bridge and down some stairs to a pool area. Free Na Lek, kill the guardians and loot the 'water of youth' (groundspawn).|
 C Lotus Tea|QID|30351|US|NS|M|55,35|N|There are a few flowers down here if you aren't yet done.|
 T Lotus Tea|QID|30351|M|67.36,32.75|N|To Kang Bramblestaff. (if you dont turn it in right away, you have to wait until you are at sentinal basecamp.)|
+R While traveling|QID|31409|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
 ;R The Incursion|M|67.4,32|
 T Threat from Dojan|QID|30349|M|67.45,32.70|N|To Lyalia.|
 T The Pools of Youth|QID|30347|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
@@ -176,6 +183,7 @@ T In the House of the Red Crane|QID|30273|M|40.43,49.18|N|To Chi-Ji (back outsid
 
 R Nayeli Lagoon|QID|30667|M|39.37,45.11;30.65,45.9051.7,75.34|
 A Particular Plumage|QID|30667|M|51.67,75.30|N|From Tony Tuna.|
+l Stack of Papers|QID||31863|L|87798|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
 f Marista|QID|30667|M|52.43,76.53|N|At Nan-Po.|
 A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.53,76.85|N|From Jay Cloudfall, on the ledge of the inn.|
 C Sudden, Unexpected Crocolisk Aggression|QID|30666|S|M|46.34,71.99|
@@ -199,7 +207,7 @@ C Wisdom Has A Price|QID|30671|US|M|46.54,77.47|N|Random drop from the sharks.|
 T Wisdom Has A Price|QID|30671|M|46.01,78.96|N|To Wise Ana Wu.|
 A Balance|QID|30672|M|46.01,78.96|N|From Wise Ana Wu.|
 
-R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft.|
+R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft. In this area are two of the blue items for lost and found achievement. East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe - Bannana infused Run, and west of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
 K Unga Fish Getter|L|80827|M|45.31,85.17|N|Be sure and loot these at least until you get the item to start the quest.|
 C Balance|QID|30672|S|M|50.85,84.15|
 A Buried Hozen Treasure|QID|30675|U|80827|M|43.81,85.41|N|From Confusing Treasure Map - looted off of an Unga.|

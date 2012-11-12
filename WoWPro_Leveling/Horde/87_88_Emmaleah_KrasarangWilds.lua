@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2012-11-11 00:44
+-- Who: Emmaleah
+-- Log: missed a missing |
+
+-- URL: http://wow-pro.com/node/3489/revisions/25198/view
+-- Date: 2012-11-11 00:33
+-- Who: Emmaleah
+-- Log: Emmaleah 10 Nov 2012 - Added "one time" treasure items.
+
+-- URL: http://wow-pro.com/node/3489/revisions/25123/view
 -- Date: 2012-10-07 23:14
 -- Who: Ludovicus Maior
 -- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Horde/87_88_Emmaleah_KrasarangWilds.lua and tweaks by Ludo
@@ -30,11 +40,11 @@ C Speak with Yun|QID|30079|NC|QO|Speak with Yun: 1/1|M|75.48,9.26|N|up the stair
 C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|Speak with Despondent Warden of Zhu: 1/1|M|76.69,8.85|
 C Speak with Sunni|QID|30079|NC|QO|Speak with Sunni: 1/1|M|76.44,8.27|N|up the stairs, inside.|
 f Zhu's Watch|QID|30078|M|76.7,8.38|N|At Gee Hung.|
+l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;19.17,39.06|Z|Valley of the Four Winds|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 feet, and up into the house, papers are on table.|
 C Finding Yi-Mo|QID|30080|M|78.97,7.73|N|He is lying on the ground.|
 T Finding Yi-Mo|QID|30080|M|81.31,6.78|N|To Yi-Mo Longbrow.|
 A Cheer Up, Yi-Mo|QID|30082|M|81.31,6.78|N|From Yi-Mo Longbrow.|
 C Cheer Up, Yi-Mo|QID|30082|NC|M|76.77,7.74|N|Talk to him, then you have to roll him home. You will be attacked by large birds on the way.|
-C Cheer Up, Yi-Mo|QID|30082|M|77.02,7.70|
 T Cheer Up, Yi-Mo|QID|30082|M|75.87,7.63|N|To Mei Barrelbottom.|
 A Tears of Pandaria|QID|30091|M|75.87,7.63|N|From Mei Barrelbottom.|
 T What's Eating Zhu's Watch?|QID|30079|M|76.24,7.14|N|To Ken-Ken.|
@@ -111,7 +121,7 @@ A Life|QID|30131|M|59.93,24.82|N|From Sunwalker Dezco.|
 C Life|QID|30131|NC|M|60.37,25.23|N|Watch a cutscene of Leza and Dezco.|
 T Life|QID|30131|M|60.42,25.52|N|To Sunwalker Dezco.|
 A Going West|QID|30132|M|60.42,25.52|N|From Sunwalker Dezco.|
-
+R While traveling|QID|31409|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
 C Going West|QID|30132|M|43.83,42.85|N|The poor scout is on the ground (again).|
 T Into the Wilds|QID|30133|M|44.16,43.00|N|To Koro Mistwalker.|
 A Unsafe Passage|QID|30269|M|44.16,43.00|N|From Koro Mistwalker.|
@@ -146,6 +156,7 @@ T In the House of the Red Crane|QID|30273|M|40.05,48.98|N|To Chi-Ji (back outsid
 
 R Marista|QID|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.70,75.34|N|From Tony Tuna.|
+l Stack of Papers|QID||31863|L|87798|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
 f Marista|QID|30667|M|52.43,76.53|N|At Nan-Po.|
 A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.52,76.88|N|From Jay Cloudfall.|
 C Particular Plumage|QID|30667|S|M|42.57,71.86|
@@ -169,9 +180,9 @@ C Wisdom Has A Price|QID|30671|US|M|46.54,77.47|N|Random drop from the sharks.|
 T Wisdom Has A Price|QID|30671|M|46.01,78.96|N|To Wise Ana Wu.|
 A Balance|QID|30672|M|46.01,78.96|N|From Wise Ana Wu. You don't have to stay and watch her story.|
 
-R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft.|
+R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft. In this area are two of the blue items for lost and found achievement.  East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe - Bannana infused Run, and west of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
 K Unga Fish Getter|L|80827|M|45.31,85.17|N|Be sure and loot these at least until you get the item to start the quest.|
-A Buried Hozen Treasure|QID|30675|U|80827|M|43.81,85.41|N|From Confusing Treasure Map - looted off of an Unga.|
+A Buried Hozen Treasure|O|QID|30675|U|80827|M|43.81,85.41|N|From Confusing Treasure Map - looted off of an Unga.|
 A Balance Without Violence|QID|30674|NC|M|45.31,85.17|N|From UI Alert.|
 C Balance Without Violence|S|QID|30674|M|42.68,82.74|N|There are piles of fish, the sparkly ones are the ones you can click on to throw back into the water.|
 T Balance Without Violence|QID|30674|M|42.22,82.87|N|To UI Alert.|
@@ -248,7 +259,7 @@ A The Savior of Stoneplow|QID|30627|M|17.98,55.85|Z|Valley of the Four Winds|N|F
 C The Savior of Stoneplow|QID|30627|NC|M|17.99, 56.62|Z|Valley of the Four Winds|N|Dismount first, then talk to Miss Fanny. Fanny sends you towards the Colossus, who swallows you. Vehicle UI comes up and you strike repeatedly until he is dead.|
 T The Savior of Stoneplow|QID|30627|M|17.98,55.85|Z|Valley of the Four Winds|N|To Master Bruised Paw.|
 A The Gratitude of Stoneplow|QID|30628|M|17.91,56.25|Z|Valley of the Four Winds|N|From Loon Mei.|
-T The Gratitude of Stoneplow|QID|30628|NC|M|19.86,55.86|Z|Valley of the Four Winds|N|To Commander�s Cache, it is upstairs.|
+T The Gratitude of Stoneplow|QID|30628|NC|M|19.86,55.86|Z|Valley of the Four Winds|N|To Commander's Cache, it is upstairs.|
 F Grassy Cline|QID|31255|M|20.31, 58.62|Z|Valley of the Four Winds|N|At Dragonwing Dan.|
 N Congratulations|QID|31255|N|You have finished Krasarang Wilds. Next zone is Kun-Lai Summit.|
 ]]
