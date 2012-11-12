@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2012-11-12 23:17
+-- Who: Ludovicus Maior
+-- Log: Tweak Zhi-Zhi fight and turnin.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25197/view
 -- Date: 2012-11-11 00:03
 -- Who: Emmaleah
 -- Log: 10 Nov 2012 - Emmaleah - added change log, header, rtn line, and most of the "one time" treasure items. (see comments in change log)
@@ -497,7 +502,8 @@ T Becoming Battle-Ready|QID|29632|M|43.24,24.75|N|To Master Stone Fist.|
 A Zhi-Zhi, the Dextrous|QID|29633|M|43.24,24.75|N|From Master Stone Fist.|
 A Husshun, the Wizened|QID|29634|M|43.24,24.75|N|From Master Stone Fist.|
 
-K Zhi-Zhi, the Dextrous|QID|29633|T|Zhi-Zhi|M|43.03,25.96|N|On top of the hill. Challenge him to a match.|QO| Zhi-Zhi defeated: 1/1|
+K Zhi-Zhi, the Dextrous|QID|29633|T|Zhi-Zhi|M|43.03,25.96|N|On top of the hill. Challenge him to a match.|QO|Zhi-Zhi defeated: 1/1|
+T Zhi-Zhi, the Dextrous|QID|29633|M|43.27,24.75|N|To Master Stone Fist.|
 
 T Groundskeeper Wu|QID|29626|M|41.6,23.7|N|To Groundskeeper Wu.|
 A A Proper Weapon|QID|29627|M|41.6,23.7|N|From Groundskeeper Wu.|
@@ -538,7 +544,6 @@ C Attention|QID|29624|M|41.11,26.98|N|Attack the right or left bag based on the 
 T Attention|QID|29624|M|41.60,28.33|N|To Instructor Xann.|
 
 C Husshun, the Wizened|QID|29634|M|44.54,24.08|N|Challenge him to a match beyond the bell.|QO|Husshun defeated: 1/1|
-T Zhi-Zhi, the Dextrous|QID|29633|M|43.27,24.75|N|To Master Stone Fist.|
 T Husshun, the Wizened|QID|29634|M|43.27,24.75|N|To Master Stone Fist.|
 A Xiao, the Eater|QID|29635|M|43.27,24.75|N|From Master Stone Fist.|
 C Xiao, the Eater|QID|29635|M|43.12, 23.64|
