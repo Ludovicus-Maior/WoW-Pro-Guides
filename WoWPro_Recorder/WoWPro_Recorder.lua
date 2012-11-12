@@ -330,7 +330,7 @@ function WoWPro.Recorder:SaveGuide(window)
 	function addTag(line, tag, value)
 		line = line..tag.."\|"
 		if value then
-			line = line..value.."\|"
+			line = line..tostring(value).."\|"
 		end
 		return line
 	end
