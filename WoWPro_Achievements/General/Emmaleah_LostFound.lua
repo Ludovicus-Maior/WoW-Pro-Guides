@@ -14,7 +14,7 @@
 -- It still doesnt auto complete. tried using N, L, C tags, but when you reset the correct steps are marked as complete.
 -- Changing ranks doesn't seem to do anything but I can't seem to figure out why
 
-WoWPro.Achievements:RegisterGuide('EmmTestLost','MoP Zones','Emmaleah', '85', '90', 'nil','Neutral', function()
+WoWPro.Achievements:RegisterGuide('EmmLostAndFound','MoP Zones','Emmaleah', '85', '90', 'nil','Neutral', function()
 return [[
 
 N Wall of text 1 of 6|QID|972810001|N|This guide is for all of the lost things in Pandaria, not just the ones that give the achievement. There are actually four achiements in the chain for finding 1, 5, 10 and finaly 20 items. There are a total of 28 that can be found that qualify. Most of the items for the achievement are BOA and all are blue quality, except the two recipes(white) and the ancient woodcutter(grey).|
