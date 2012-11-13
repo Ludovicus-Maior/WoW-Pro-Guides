@@ -1,49 +1,74 @@
--- Date: 10-24-12
--- Who: Emmaleah
--- Log: Fixed typos (rec'e to received and ThundeF to Thunder).
--- Fixed the guide registration so it would show up in game.
--- Put |O|tags on the quest steps after you get the items out of your mailbox.
--- Removed |U| tags from the turn in steps of same quests.
--- Fixed zone name for Shrine of Two Moons.
--- Put in missing |N|tag on A Hozen in the Mist.
--- Points of Interest (F steps) reordered.
--- |NC| Tags for The Lorewalker/Cleaning off the Bookshelf.
--- added opening N step.
--- moved the opening Lorewalkers quests to the beginning, so that people will be sure to turn them in first (cant turn in after honored)
--- Gave Lorewalker Cho coordinates on all the T steps
--- Does anyone read this and/care
--- Discovered a wierd glith with Between a Saurok and a hard place (the item ID on mouseover, and wowhead, is not the one that lets it autocomplete. a search on the item name, found a differant item with same name, differant ID
--- corrected QID's on all F steps
--- Added QID's to opening in step and Final B step
--- To do: Fix, when it checks off the steps it is using a grey (skipstep) check instead of gold (completed step)
--- You then have to manually check it off (which still insists on being grey) before it will map the next coordinates.
 
--- based on log file provided by Sayling, (taken from Lockslap's Lorewalker addon - http://www.curse.com/addons/wow/lorewalkers
--- the waypoints.lua file specifically)
--- Lorewalkers By Lockslap (US, Bleeding Hollow) http://ba-guild.com
--- compiled to wow-pro format by Emmaleah, 9 October 2012.
--- edited by Ludovicus
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
+-- Date: 2012-10-28 05:17
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3506/revisions/25170/view
+-- Date: 2012-10-27 04:13
+-- Who: Emmaleah
+-- Log: The change I just made, somehow I didn't.  Now I am. (in other words, the log for the non-change immediately before this belongs to this.)
+
+-- URL: http://wow-pro.com/node/3506/revisions/25169/view
+-- Date: 2012-10-27 04:09
+-- Who: Emmaleah
+-- Log: -- Date: 10-26-12
+--	-- Who: Emmaleah
+--	-- Log: Points of Interest (F steps) reordered.
+--	--      |NC| Tags for The Lorewalker/Cleaning off the Bookshelf.
+--	--      added opening N step.
+--	--      moved the opening Lorewalkers quests to the beginning, so that people will be sure to turn them in first (cant turn in after honored)
+--	--      Gave Lorewalker Cho coordinates on all the T steps
+--	--      Does anyone read this and/care
+--	--      Discovered a wierd glith with Between a Saurok and a hard place (the item ID on mouseover, and wowhead, is not the one that lets it autocomplete.  a search on the item name, found a differant item with same name, differant ID
+--	--      Probably other stuff I have forgotten... yes, I'm getting jaded now.
+
+-- URL: http://wow-pro.com/node/3506/revisions/25168/view
+-- Date: 2012-10-26 05:04
+-- Who: Emmaleah
+-- Log: Inserted missed |N|tag on A Hozen in the mist
+
+-- URL: http://wow-pro.com/node/3506/revisions/25167/view
+-- Date: 2012-10-26 04:51
+-- Who: Emmaleah
+-- Log: take the rest of the U tags out, that I could swear I just took out...
+
+-- URL: http://wow-pro.com/node/3506/revisions/25166/view
+-- Date: 2012-10-26 04:33
+-- Who: Emmaleah
+-- Log: Date: 10-24-12 (2nd edit)
+--	Who: Emmaleah
+--	Log: Fixed the guide registration so it would show up in game, put |O| on the quest steps after you get the items out of your mailbox. removed |U|tags from the turn in steps of same quests. Fixed zone name for Shrine of Two Moons.
+
+-- URL: http://wow-pro.com/node/3506/revisions/25165/view
+-- Date: 2012-10-25 21:57
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3506/revisions/25164/view
+-- Date: 2012-10-25 21:57
+-- Who: Emmaleah
+-- Log: typos (rec'e to received and ThundeF to Thunder)
+
+-- URL: http://wow-pro.com/node/3506/revisions/25138/view
+-- Date: 2012-10-10 11:38
+-- Who: Ludovicus Maior
+-- Log: Added credits
+
+-- URL: http://wow-pro.com/node/3506/revisions/25137/view
+-- Date: 2012-10-10 11:36
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3506/revisions/25117/view
+-- Date: 2012-10-07 22:35
+-- Who: Ludovicus Maior
 
 WoWPro.Achievements:RegisterGuide('Lorewalkers','MoP Zones', 'Lorewalkers', 'Reputation', 'Mists of Pandaria', 'Community','Neutral', function()
 return [[
 
-N Lorewalkers|QID|31367|N|Lorewalkers faction is earned by visiting various points of interest around Pandaria. This guide assumes you start in your factions city in Vale of Eternal Blossoms and will take you to all of those places. It also assumes you are level 90 and can fly. Some steps may already be checked off. They are points of interest that you visited while leveling. The first stop in a new zone I have also included the zone name to help find the green dot.|
-
-l Find a mailbox(Vale)|QID|31055|L|83769,83770,83771,83772,83773,83774,83777,83779,83780|N|Retrieve the items Lorewalker Cho has mailed to you.|
-
-T Between a Saurok and a Hard Place|QID|31055|O|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho. After each of the next 8 turnins will be a RP scene that takes about 2 min before you can turn the next one in.|
-T Hozen in the Mist|QID|31093|M|83.2,29.6|O|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-T Fish Tales|QID|31094|M|83.2,29.6|O|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-T The Dark Heart of the Mogu|QID|31095|O|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-T What is Worth Fighting For|QID|31096|O|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-T Heart of the Mantid Swarm|QID|31097|O|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-T The Song of the Yaungol|QID|31100|O|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-T The Seven Burdens of Shaohao|QID|31102|O|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-T The Ballad of Liu Lang|QID|31103|O|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-
-B Toys!|QID|99999|M|82.2,29.4|REP|Lorewalkers;1345;exalted|Z|Vale of Eternal Blossoms|N|Visit the Quartermaster, Tan Shin Tiao, for the new toys.|
-
-
+N Lorewalkers|QID|31367|N|Lorewalkers faction is earned by visiting various points of interest around Pandaria.  This guide assumes you start in your factions city in Vale of Eternal Blossoms and will take you to all of those places. It also assumes you are level 90 and can fly.  Some steps may already be checked off.  They are points of interest that you visited while leveling. The first stop in a new zone I have also included the zone name to help find the green dot.|
 
 A The Lorewalkers|QID|31367|FACTION|Alliance|M|85.6,60.4|Z|Vale of Eternal Blossoms|N|From Scrollmaker Resshi on the ground floor.|
 C The Lorewalkers|QID|31367|FACTION|Alliance|NC|M|84.8,60.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho.|
@@ -57,12 +82,12 @@ A Your Private Collection|QID|31015|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|Fro
 C Clean off the Bookshelf|QID|31015|NC|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|When standing at the bottom of the stairs, facing Cho, the bookcase is to your left, do this before you turn in the others as it only gives faction at honored or lower|;which is why I put the accept the quest from the item steps after this
 T Your Private Collection|QID|31015|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|From Lorewalker Cho.|
 
-F The Defiant (Kun-Lai)|QID|9767160002|M|77.55, 95.33|Z|Kun-Lai Summit|ACH|6716;2|N|Between a Saurok and a Hard Place. This one is inside the Ancient Passage, in a room called 'Dark Rookery'.|
+F The Defiant (Kun-Lai)|QID|9767160002|M|77.55, 95.33|Z|Kun-Lai Summit|ACH|6716;2|N|Between a Saurok and a Hard Place.  This one is inside the Ancient Passage, in a room called 'Deep Rookery'.|
 F Role Call |QID|968460004|M|74.48, 83.55|Z|Kun-Lai Summit|ACH|6846;4|N|Fish Tales|
 F Yaungoil |QID|96847003|M|71.72, 63.02|Z|Kun-Lai Summit|ACH|6847;03|N|The Song of the Yaungol. The 'Weapons Rack' containing the lost 'Sturdy Yaungol Spear' also spawns in this camp.|
 F The Emperor's Burden - Part 6 |QID|968550006|M|67.76, 48.33|Z|Kun-Lai Summit|ACH|6855;6|N|The Seven Burdens of Shaohao.|
 F Victory in Kun-Lai |QID|968580005|M|63.04, 40.82|Z|Kun-Lai Summit|ACH|6858;5|N|What is Worth Fighting For.|
-F Valley of the Emperors|QID|967540001|M|53.06,46.44;50.60, 48.05|Z|Kun-Lai Summit|ACH|6754;1|N|The Dark Heart of the Mogu. Inside the first room in 'Tomb of the Conqurors. First set of coordubates is tomb entrance.|
+F Valley of the Emperors|QID|967540001|M|53.06,46.44;50.60, 48.05|Z|Kun-Lai Summit|ACH|6754;1|N|The Dark Heart of the Mogu.  Inside the first room in 'Tomb of the Conqurors. First set of coordubates is tomb entrance.|
 F The Emperor's Burden - Part 7 |QID|968550007|M|40.90, 42.50|Z|Kun-Lai Summit|ACH|6855;7|N|The Seven Burdens of Shaohao.|
 F The Emperor's Burden - Part 2 |QID|968550002|M|43.82, 51.19|Z|Kun-Lai Summit|ACH|6855;2|N|The Seven Burdens of Shaohao.|
 F Ren Yun the Blind |QID|972300003|M|44.70, 52.37|Z|Kun-Lai Summit|ACH|7230;3|N|Legend of the Brewfathers, there may be a lost recipe {rare spawn} leaned against the shrine.|
@@ -75,7 +100,7 @@ F Trapped in a Strange Land (Townlong)|QID|968470004|M|84.08, 72.86|Z|Townlong S
 F Dominance |QID|968470002|M|65.50, 50.10|Z|Townlong Steppes|ACH|6847;2|N|The Song of the Yaungol.|
 F The Emperor's Burden - Part 5 |QID|968550005|M|37.74, 62.91|Z|Townlong Steppes|ACH|6855;5|N|The Seven Burdens of Shaohao.|
 
-F Amber (Dread Wastes)|QID|968570003|M|53.56, 16.02;52.52, 10.06|Z|Dread Wastes|ACH|6857;3|N|Heart of the Mantid Swarm. This is located inside Amber Vault. First set of coordinates is the entrance.|
+F Amber (Dread Wastes)|QID|968570003|M|53.56, 16.02;52.52, 10.06|Z|Dread Wastes|ACH|6857;3|N|Heart of the Mantid Swarm.  This is located inside Amber Vault.  First set of coordinates is the entrance.|
 F Cycle of the Mantid|QID|968570001|M|48.38, 32.85|Z|Dread Wastes|ACH|6857;1|N|Heart of the Mantid Swarm.|
 F The Empress |QID|968570004|M|35.53,32.61|Z|Dread Wastes|ACH|6857;4|N|Heart of the Mantid Swarm.|
 F Mantid Society |QID|968570002|M|59.90, 54.70|Z|Dread Wastes|ACH|6857;2|N|Heart of the Mantid Swarm.|
@@ -100,7 +125,7 @@ F Watersmithing |QID|968460001|M|66.01, 87.56|Z|The Jade Forest|ACH|6846;1|N|Fis
 F Quan Tou Kuo the Two Fisted (Krasarang)|QID|972300001|M|81.43, 11.45|Z|Krasarang Wilds|ACH|7230;1|N|Legend of the Brewfathers.|
 F Waiting for the Turtle |QID|968560004|M|72.21, 31.01|Z|Krasarang Wilds|ACH|6856;4|N|Ballad of Liu Lang.|
 F The Emperor's Burden - Part 4 |QID|968550004|M|40.50, 56.62|Z|Krasarang Wilds|ACH|6855;4|N|The Seven Burdens of Shaohao. Inside the 'Temple of the Red Crane, up the stairs.|
-F Hozen Maturity |QID|968500002|M|52.39, 87.66|Z|Krasarang Wilds|ACH|6850;2|N|Hozen in the Mist. This is inside a small nook/cave. Directly above it, is the ship deck where the lost recipe for Banana Infused Rum spawns (in a barrel). Also, the pirate ship off the coast may contain an Equipment Locker which contains some the lost boots (spec appropriate BoP ilvl 419).|
+F Hozen Maturity |QID|968500002|M|52.39, 87.66|Z|Krasarang Wilds|ACH|6850;2|N|Hozen in the Mist. This is inside a small nook/cave.  Directly above it, is the ship deck where the lost recipe for Banana Infused Rum spawns (in a barrel). Also, the pirate ship off the coast may contain an Equipment Locker which contains some the lost boots (spec appropriate BoP ilvl 419).|
 F Origins |QID|968460003|M|30.55, 38.57|Z|Krasarang Wilds|ACH|6846;3|N|Fish Tales.|
 F The Last Stand |QID|967160004|M|32.78, 29.41|Z|Krasarang Wilds|ACH|6716;4|N|Between a Saurok and a Hard Place.|
 F The Lost Dynasty |QID|967540002|M|50.94, 31.69|Z|Krasarang Wilds|ACH|6754;2|N|The Dark Heart of the Mogu.|
@@ -110,6 +135,27 @@ F A Most Famous Bill of Sale |QID|968560002|M|55.09, 47.13|Z|Valley of the Four 
 F Waterspeakers |QID|968460002|M|61.22, 34.69|Z|Valley of the Four Winds|ACH|6846;2|N|Fish Tales.|
 F Embracing the Passions |QID|968500003|M|83.19, 21.18|Z|Valley of the Four Winds|ACH|6850;3|N|Hozen in the Mist.|
 
+l Find a mailbox(Vale)|QID|31055|L|83769,83770,83771,83772,83773,83774,83777,83779,83780|N|Retrieve the items Lorewalker Cho has mailed to you.|
+A Between a Saurok and a Hard Place|QID|31055|O|U|83769|N|From 'Between a Saurok and a Hard Place' received in the mail.|;interesting --- item ID on mouseover and wowhead is 83076, but 83769 is what lets it autocomplete (which i found after more digging on wowhead)
+A Hozen in the Mist|QID|31093|O|U|83770|N|From 'Hozen in the Mist' received in the mail.|
+A Fish Tales|QID|31094|O|U|83771|N|From 'Fish Tales' received in the mail.|
+A The Dark Heart of the Mogu|QID|31095|O|U|83772|N|From 'The Dark Heart of the Mogu' received in the mail.|
+A What is Worth Fighting For|QID|31096|O|U|83774|N|From 'What is Worth Fighting For' received in the mail.|
+A Heart of the Mantid Swarm|QID|31097|O|U|83773|N|From 'Heart of the Mantid Swarm' received in the mail.|
+A The Song of the Yaungol|QID|31100|O|U|83777|N|From 'The Song of the Yaungol' received in the mail.|
+A The Seven Burdens of Shaohao|QID|31102|O|U|83779|N|From 'The Seven Burdens of Shaohao' received in the mail.|
+A The Ballad of Liu Lang|QID|31103|O|U|83780|N|From 'The Ballad of Liu Lang' received in the mail.|
+
+T Between a Saurok and a Hard Place|QID|31055|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho. After each of the next 8 turnins will be a RP scene that takes about 2 min before you can turn the next one in.|
+T Hozen in the Mist|QID|31093|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+T Fish Tales|QID|31094|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+T The Dark Heart of the Mogu|QID|31095|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+T What is Worth Fighting For|QID|31096|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+T Heart of the Mantid Swarm|QID|31097|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+T The Song of the Yaungol|QID|31100|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+T The Seven Burdens of Shaohao|QID|31102|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+T The Ballad of Liu Lang|QID|31103|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+B Toys!|QID|99999|M|82.2,29.4|Z|Vale of Eternal Blossoms|N|You should now be exalted, visit the Quartermaster, Tan Shin Tiao, for the new toys.|
 
 ]]
 
