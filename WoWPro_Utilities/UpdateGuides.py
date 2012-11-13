@@ -382,7 +382,7 @@ def ScrapeWoWProLua(lua):
 
 def ScrapeWoWProLeveling(RootDir):
     RootLevelingDir=os.path.abspath(RootDir)
-    luaPath = os.path.join(RootDir,"WoWPro_*","[AHNPE]*","*.lua")
+    luaPath = os.path.join(RootDir,"WoWPro_*","[AHNPEG]*","*.lua")
     for lua in glob.iglob(luaPath):
         ScrapeWoWProLua(lua)
 

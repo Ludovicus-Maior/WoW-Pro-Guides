@@ -621,16 +621,22 @@ function WoWPro.Achievements:EventHandler(self, event, ...)
 	if event == "PLAYER_LEVEL_UP" then
 		WoWPro.Achievements:AutoCompleteLevel(...)
 	end
+end
 
-	if event == "CRITERIA_UPDATE" then
-		local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-		local GID = WoWProDB.char.currentguide
-		if WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-			    WoWProCharDB.Guide[GID].completion[qidx] = true
-			    WoWProCharDB.completedQIDs[QID] = true
-		end			
-		WoWPro:UpdateGuide() 
-	end 
+
+
+-- Auto-Complete: Criteria Change
+function WoWPro.Achievements.AutoCompleteCriteria()
+    if not WoWProDB.char.currentguide then return end
+    if WoWPro.Guides[WoWProDB.char.currentguide].guidetype  ~= "Achievements" then return end
+
+	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+	local GID = WoWProDB.char.currentguide
+	if WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
+		    WoWProCharDB.Guide[GID].completion[qidx] = true
+		    WoWProCharDB.completedQIDs[QID] = true
+	end			
+	WoWPro:UpdateGuide() 
 end
 
 -- Auto-Complete: Get flight point --

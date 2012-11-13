@@ -332,10 +332,10 @@ function WoWPro.WorldEvents:LoadGuide()
 		    -- Event Quest Query, always as the silly client
 		    if WoWPro:IsQuestFlaggedCompleted(QID,true) then
 			    WoWProCharDB.Guide[GID].completion[i] = true
-			    WoWProCharDB.completedQIDs[QID] = true
+			    completion = true
 			else
 			    WoWProCharDB.Guide[GID].completion[i] = false
-			    WoWProCharDB.completedQIDs[QID] = false
+			    completion = false
 			end
 	
 		    -- Quest Accepts and Completions --
@@ -762,9 +762,14 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 	if event == "PLAYER_LEVEL_UP" then
 		WoWPro.WorldEvents:AutoCompleteLevel(...)
 	end
-	if event == "CRITERIA_UPDATE" then
-		WoWPro:UpdateGuide()
-	end
+end
+
+-- Auto-Complete: Criteria Change
+function WoWPro.WorldEvents.AutoCompleteCriteria()
+    if not WoWProDB.char.currentguide then return end
+    if WoWPro.Guides[WoWProDB.char.currentguide].guidetype  ~= "WorldEvents" then return end
+
+	WoWPro:UpdateGuide() 
 end
 
 -- Auto-Complete: Get flight point --
