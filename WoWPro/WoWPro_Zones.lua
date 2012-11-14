@@ -1836,11 +1836,19 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 523,
 			["mapName"] = "UtgardeKeep",
 		},
-		["Dragonblight"] = {
+		["Dragonblight in DragonSoul"] = {
 			["dungeon"] = "DragonSoul",
 			["mapID"] = 824,
 			["floor"] = 1,
 			["mapName"] = "Dragonblight",
+		},
+		["Dragonblight"] = {
+			["mapID"] = 488,
+			["floor"] = 1,
+			["numFloors"] = 0,
+			["cont"] = 4,
+			["mapName"] = "Dragonblight",
+			["zone"] = "Dragonblight",
 		},
 		["Sanctuary of Shadows"] = {
 			["dungeon"] = "BlackTemple",

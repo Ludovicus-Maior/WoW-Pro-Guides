@@ -6,7 +6,7 @@ local L = WoWPro_Locale
 local cache = {}	
 local B = LibStub("LibBabble-Zone-3.0")
 local BL = B:GetUnstrictLookupTable()
-local AL = DongleStub("Astrolabe-1.0")
+local AL = DongleStub and DongleStub("Astrolabe-1.0")
 
 -- placeholder flags in case you want to implement options to disable
 -- later on TomTom tooltips and right-clicking drop-down menus
