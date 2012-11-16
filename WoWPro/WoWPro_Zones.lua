@@ -1844,7 +1844,6 @@ WoWPro.Zone2MapID = {
 		},
 		["Dragonblight"] = {
 			["mapID"] = 488,
-			["floor"] = 1,
 			["numFloors"] = 0,
 			["cont"] = 4,
 			["mapName"] = "Dragonblight",
