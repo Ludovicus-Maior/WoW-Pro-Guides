@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2012-11-17 21:49
+-- Who: Ludovicus Maior
+-- Log: Changed the name of the zone.
+
+-- URL: http://wow-pro.com/node/3459/revisions/25202/view
 -- Date: 2012-11-11 05:55
 -- Who: Hendo72
 -- Log: Corrected quantity of Moonberry Juice to be purchased from 1 to 5. It was missing from code.
@@ -27,7 +32,7 @@
 -- Who: Ludovicus Maior
 -- Log: Sync to git
 
-WoWPro.WorldEvents:RegisterGuide("TwiDarkmoon","Darkmoon Island","Darkmoon Faire","WE", "Twists", "Neutral", function()
+WoWPro.WorldEvents:RegisterGuide("TwiDarkmoon","Darkmoon Faire","Darkmoon Faire","WE", "Twists", "Neutral", function()
 return [[
 
 A The Darkmoon Faire|QID|7905|M|62.20,32.29;62.41,73.03|N|From Darkmoon Faire Mystic Mage who's near Dwarven District or the Trade District in Stormwind.|Z|Stormwind City|FACTION|Alliance|
