@@ -6,7 +6,7 @@ local L = WoWPro_Locale
 local cache = {}	
 local B = LibStub("LibBabble-Zone-3.0")
 local BL = B:GetUnstrictLookupTable()
-local AL = DongleStub("Astrolabe-1.0")
+local AL = DongleStub and pcall(DongleStub,"Astrolabe-1.0") and DongleStub("Astrolabe-1.0")
 
 -- placeholder flags in case you want to implement options to disable
 -- later on TomTom tooltips and right-clicking drop-down menus
@@ -403,25 +403,26 @@ function WoWPro:MapPoint(row)
 	end
 	
 	if TomTom and TomTom.AddMFWaypoint then
-		TomTom.db.profile.arrow.setclosest = true
-		OldCleardistance = TomTom.db.profile.persistence.cleardistance
-		
-		-- arrival distance, so TomTom can call our customized distance function when player
-		-- gets to the waypoints
-		local arrivaldistance
-		if (not OldCleardistance) or (OldCleardistance == 0) then
-			arrivaldistance = 10
-		else
-			arrivaldistance = OldCleardistance + 1
-		end
-		WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
-
-		-- prevents TomTom from clearing waypoints that are not final destination
-		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
-
+		if not Nx then
+		    TomTom.db.profile.arrow.setclosest = true
+    		OldCleardistance = TomTom.db.profile.persistence.cleardistance
+    		
+    		-- arrival distance, so TomTom can call our customized distance function when player
+    		-- gets to the waypoints
+    		local arrivaldistance
+    		if (not OldCleardistance) or (OldCleardistance == 0) then
+    			arrivaldistance = 10
+    		else
+    			arrivaldistance = OldCleardistance + 1
+    		end
+    		WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
+    
+    		-- prevents TomTom from clearing waypoints that are not final destination
+    		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
+        end
 		
 		-- Parsing and mapping coordinates --
-		-- WoWPro:Print("WoWPro:MapPoint1(%s@%s/%s)",coords,tostring(zone),tostring(zm))
+		WoWPro:dbp("WoWPro:MapPoint1(%s@%s/%s)",coords,tostring(zone),tostring(zm))
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
 			local waypoint = {}
@@ -430,7 +431,7 @@ function WoWPro:MapPoint(row)
 			local y = tonumber(jcoord:match(",([^|]*)"))
 			if not x or x > 100 then return end
 			if not y or y > 100 then return end
-			if TomTom or Carbonite then
+			if TomTom or Nx then
 				local uid
 				local title
 				if numcoords > 1 then
@@ -441,9 +442,17 @@ function WoWPro:MapPoint(row)
 				local mm,mx,my = WoWPro:MaybeRemap(zm,zf,x,y)
 				if mm then
 					-- Remapped coords
-					uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-				else				
-					uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
+					if Nx then
+					    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, persistent=false})
+					else
+					    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
+					end
+				else
+				    if Nx then			
+					    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, persistent=false})
+					else
+					    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
+					end
 				end
 				if not uid then
 				    WoWPro:Print("Failed to set waypoint!  Please report a bug with the guide and step number.")
@@ -459,6 +468,10 @@ function WoWPro:MapPoint(row)
 				table.insert(cache, waypoint)
 				FinalCoord = { x , y }
 			end
+		end
+		
+		if Nx then
+		    return
 		end
 		
 		if autoarrival and #cache > 0 then

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2012-11-16 12:00
+-- Who: Ludovicus Maior
+-- Log: Removed an Extra |N| in Mothran! fight.
+
+-- URL: http://wow-pro.com/node/3485/revisions/25154/view
 -- Date: 2012-10-23 01:50
 -- Who: Ludovicus Maior
 -- Log: Cleaned up coords. Small syntax corrections.
@@ -185,7 +190,7 @@ C The Moth Rebellion|QID|30059|US|M|64.70,62.43|N|The small moths roam in packs.
 T Where Silk Comes From|QID|30072|M|62.67,59.75|N|To Silkmaster Tsai.|
 T The Moth Rebellion|QID|30059|M|63.55,58.46|N|To Journeyman Chu.|
 A Mothran!|QID|30058|M|63.62,58.53|N|From Master Goh.|
-C Mothran!|QID|30058|M|64.4,58.0|N|N|Click the gear to start the fight, when Mothran goes up in the are, you need to free your npc helpers from the silk wraps.|
+C Mothran!|QID|30058|M|64.4,58.0|N|Click the gear to start the fight, when Mothran goes up in the are, you need to free your npc helpers from the silk wraps.|
 T Mothran!|QID|30058|M|63.62,58.53|N|To Master Goh.|
 C Li Li's Day Off|QID|29950|U|76350|M|61.41,36.02|N|If you lost her, summon her away from the waypoint.|
 T Clever Ashyo|QID|29871|M|61.23,34.23|N|To Clever Ashyo.|
