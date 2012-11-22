@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2012-11-20 00:09
+-- Who: Ludovicus Maior
+-- Log: Small coord tweaks, and flipping a CC to a CS.  Got rid of duplicate |N|N| tags.
+
+-- URL: http://wow-pro.com/node/3485/revisions/25208/view
 -- Date: 2012-11-16 12:00
 -- Who: Ludovicus Maior
 -- Log: Removed an Extra |N| in Mothran! fight.
@@ -75,7 +80,7 @@
 WoWPro.Leveling:RegisterGuide('EmmVal8688', 'Valley of the Four Winds', 'Emmaleah', '86', '88', 'RajKra8788|EmmKra8788', 'Neutral', function() return [[
 
 
-N Valley of the Four Winds|N|Make your way to Valley of the Four Winds. Blizzard added a new UI Element called the Special Action button. If you don?t already have a keybinding set for it, you may want to, as some quests use it. Yes, you can just click it, but I think keybindings are easier, its similar to the idea of Vehicle UI, but your regular action bars don't go away, you just get a new button.|
+N Valley of the Four Winds|QID|29907|N|Make your way to Valley of the Four Winds. Blizzard added a new UI Element called the Special Action button. If you don?t already have a keybinding set for it, you may want to, as some quests use it. Yes, you can just click it, but I think keybindings are easier, its similar to the idea of Vehicle UI, but your regular action bars don't go away, you just get a new button.|
 
 R Valley of the Four Winds|N|Make your way to Valley of the Four Winds.|
 T They Call Him... Stormstout|QID|32019|M|85.94,22.10|N|To Chen Stormstout.|O|
@@ -261,9 +266,10 @@ K Kill Thundergill |QID|32045|T|Thundergill|QO|Thundergill slain: 1/1|M|55.1,25.
 K Kill Succula |QID|32045|T|Succula|QO|Succula slain: 1/1|M|51.4,26.9|; The Heartland
 C The Great Water Hunt|QID|30051|US|NC|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|
 T The Great Water Hunt|QID|30051|M|53.32,32.16|N|To Mudmug, who is right next to you!|
-A Barreling Along|QID|30172|M|53.32,32.16|N|From Mudmug. We are just going to let him tag along until we next go the Halfhill.|
+A Barreling Along|QID|30172|M|53.32,32.16|N|From Mudmug. He will tag along until we next go the Halfhill.|
+C Barreling Along|QID|30172|M|55.7,49.2|NC|QO|Lead Mudmug back to Halfhill: 1/1|N|If the thought of Mudmug getting in the way with his barrels annoys you, drop him off at Halfhill first, otherwise, skip this step.|
 
-R The Heartland|QID|30053|CC|M|48.31,33.85|
+R The Heartland|QID|30053|CC|M|50.71,32.25|
 C Speak with Gardener Fran|QID|30053|NC|QO|Speak with Gardener Fran: 1/1|M|48.31,33.48|
 A Gardener Fran and the Watering Can|QID|30050|US|M|48.20,33.50|N|From Gardener Fran.|
 C Gardener Fran and the Watering Can|QID|30050|NC|U|77281|M|48.20,33.50|N|Talk to Gardener Fran to start. Use the "Special action Button" to water the sparkly areas in the gardens she yells for. You can do this while mounted.|
@@ -271,8 +277,8 @@ T Gardener Fran and the Watering Can|QID|30050|M|48.20,33.50|N|To Gardener Fran.
 C Speak with Den Mudclaw|QID|30053|NC|QO|Speak with Den Mudclaw: 1/1|M|44.26,34.21|
 A The Farmer's Daughter|QID|30056|M|44.26,34.21|N|From Den Mudclaw.|
 A Enough is Ookin' Enough|QID|30054|M|44.16,34.23|N|From Mung-Mung.|
-C Enough is Ookin' Enough|QID|30054|S|M|45.44,36.02|N|N|Stick to the right wall of the warren. You can easily get your trophy teeth if you methodically kill them all!|
-C The Farmer's Daughter|QID|30056|M|44.3,38.5;41.46,38.6|N|She is underground on a giant veggy. Talk to her and escort her out.|
+C Enough is Ookin' Enough|QID|30054|S|M|45.44,36.02|N|Stick to the right wall of the warren. You can easily get your trophy teeth if you methodically kill them all!|
+C The Farmer's Daughter|QID|30056|M|43.55,35.05;41.46,38.6|CS|N|She is underground on a giant veggy. Talk to her and escort her out.|
 T The Farmer's Daughter|QID|30056|M|41.30,38.16|N|To Mina Mudclaw.|
 A Seeing Orange|QID|30057|M|41.30,38.16|N|From Mina Mudclaw.|
 C Enough is Ookin' Enough|QID|30054|US|M|42,33|N|Stick to the right wall of the warren.|
@@ -314,8 +320,8 @@ T Wee Little Shenanigans|QID|30029|M|52.74,63.00|N|To Grainlord Kai.|
 A The Quest for Better Barley|QID|30032|M|52.74,63.00|N|From Grainlord Kai.|
 A Grain Recovery|QID|30028|M|52.74,63.00|N|From Grainlord Kai.|
 C Grain Recovery|QID|30028|NC|M|54.62,67.84|
-C The Quest for Better Barley|QID|30032|M|51.29,77.54;53.31,75.14;48.63,26.96|CC|N|Use the rope on the ground to get down.|
-T Grain Recovery|QID|30028|M|52.76,62.91|N|Use the rope to climb back. To Grainlord Kai.|CS|
+C The Quest for Better Barley|QID|30032|M|51.29,77.54;53.31,75.14;48.63,26.96|CS|N|Use the rope on the ground to get down.|
+T Grain Recovery|QID|30028|M|52.76,62.91|N|Use the rope to climb back. To Grainlord Kai.|
 T The Quest for Better Barley|QID|30032|M|52.69,62.83|N|To Li Li.|
 A The Chen Taste Test|QID|30047|M|52.69,62.83|N|From Li Li.|
 
