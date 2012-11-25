@@ -263,6 +263,7 @@ function WoWPro:NextStep(k,i)
 			repmax = string.lower(repmax) 
 			replvl = tonumber(replvl) or 0
 
+            -- STD Reps
 			if repID == 'hated' then repID = 1 end
 			if repID == 'hostile' then repID = 2 end
 			if repID == 'unfriendly' then repID = 3 end
@@ -271,7 +272,15 @@ function WoWPro:NextStep(k,i)
 			if repID == 'honored' then repID = 6 end
 			if repID == 'revered' then repID = 7 end
 			if repID == 'exalted' then repID = 8 end
+			-- Friendships
+			if repID == 'stranger' then repID = 0 end
+			if repID == 'acquaintance' then repID = 1 end
+			if repID == 'buddy' then repID = 2 end
+			if repID == 'friend' then repID = 3 end
+			if repID == 'good friend' then repID = 4 end
+			if repID == 'best friend' then repID = 5 end
 
+            -- STD Reps
 			if repmax == 'hated' then repmax = 1
 			elseif repmax == 'hostile' then repmax = 2
 			elseif repmax == 'unfriendly' then repmax = 3
@@ -280,12 +289,23 @@ function WoWPro:NextStep(k,i)
 			elseif repmax == 'honored' then repmax = 6
 			elseif repmax == 'revered' then repmax = 7
 			elseif repmax == 'exalted' then repmax = 8
+			-- Friendships
+			elseif repmax == 'stranger' then repmax = 0
+			elseif repmax == 'acquaintance' then repmax = 1
+			elseif repmax == 'buddy' then repmax = 2
+			elseif repmax == 'friend' then repmax = 3
+			elseif repmax == 'good friend' then repmax = 4
+			elseif repmax == 'best friend' then repmax = 5
 			else repmax = 8 end
             
 			skip = true --reputation steps skipped by default
 			
-			name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
+			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
 			canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
+			local friendID, friendRep, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh
+			if isChild == 1 then
+			    friendID, standingId, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh = GetFriendshipReputationByID(factionIndex);
+			end
 			if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
 			end
