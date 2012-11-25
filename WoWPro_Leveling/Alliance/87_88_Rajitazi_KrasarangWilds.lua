@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2012-11-24 21:41
+-- Who: Ludovicus Maior
+-- Log: Played through and tweaked all over.  One toon found the bugs, the second tested the fixes!
+
+-- URL: http://wow-pro.com/node/3488/revisions/25200/view
 -- Date: 2012-11-11 00:52
 -- Who: Emmaleah
 -- Log: Emmaleah - 10 Nov 2012 - Added the "one time" treasure items. *and this change log*
@@ -49,13 +54,13 @@ return [[
 F Zhu's Watch|QID|11111|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.22,7.06|N|From Ken-Ken.|
-C Speak with Mei|QID|30079|NC|QO|Speak with Mei: 1/1|M|75.84,7.60|N|up the stairs, outside.|
+C Speak with Mei|QID|30079|NC|QO|Speak with Mei: 1/1|M|75.84,7.60|N|Up the stairs, outside.|
 A Finding Yi-Mo|QID|30080|M|75.84,7.60|N|From Mei Barrelbottom.|
-C Speak with Yun|QID|30079|NC|QO|Speak with Yun: 1/1|M|75.48,9.39|N|up the stairs, inside.|
+C Speak with Yun|QID|30079|NC|QO|Speak with Yun: 1/1|M|75.48,9.39|N|Up the stairs, inside.|
 C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|Speak with Despondent Warden of Zhu: 1/1|M|76.69,8.85|
-C Speak with Sunni|QID|30079|NC|QO|Speak with Sunni: 1/1|M|77.47,8.54|N|up the stairs, inside in bed.|
+C Speak with Sunni|QID|30079|NC|QO|Speak with Sunni: 1/1|M|77.47,8.54|N|Up the stairs, inside in bed.|
 f Zhu's Watch|QID|30078|M|76.7,8.38|N|At Gee Hung.|
-l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;19.17,39.06|Z|Valley of the Four Winds|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 feet, and up into the house, papers are on table.|
+l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;92.17,39.06|CS|Z|Valley of the Four Winds|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 yards, and up into the house, papers are on table.|
 C Finding Yi-Mo|QID|30080|M|81.30,8.85|N|He is lying on the ground.|
 T Finding Yi-Mo|QID|30080|M|81.31,6.78|N|To Yi-Mo Longbrow.|
 A Cheer Up, Yi-Mo|QID|30082|M|81.30,6.78|N|From Yi-Mo Longbrow.|
@@ -92,15 +97,15 @@ C Zhu's Despair|QID|30090|U|79057|M|76.43,8.76|N|After you kill the little sha's
 T Zhu's Despair|QID|30090|M|76.22,7.06|N|To Ken-Ken, after a little talking.|
 A Into the Wilds|QID|30178|M|75.81,7.68|N|From Mei Barrelbottom.|
 
-A The Arcanic Oubliette|QID|30274|S|30274|N|Head down the road till you get the UI ALert.|
 A Crane Mastery|QID|30352|M|67.60,25.77|N|From Daggle Bombstrider.|
 A Profit Mastery|QID|30353|M|67.60,25.77|N|From Daggle Bombstrider.|
-C Into the Wilds|QID|30178|M|66.24,30.81|N}Check on the courier lying on the ground.|
+A The Arcanic Oubliette|QID|30274|S|30274|N|Head down the road till you get the UI ALert.|
+C Into the Wilds|QID|30178|M|66.24,30.81|N|Check on the courier lying on the ground.|
 A The Arcanic Oubliette|QID|30274|US|30274|N|From UI ALert.|
 T Kang Bramblestaff|QID|29874|M|66.36,32.61|N|To Kang Bramblestaff.|
 C Southwest Oubliette Shackle destroyed|QID|30274|NC|QO|Southwest Oubliette Shackle destroyed: 1/1|M|66.7,33.7|
 C Northwest Oubliette Shackle destroyed|QID|30274|NC|QO|Northwest Oubliette Shackle destroyed: 1/1|M|66.7,31.6|
-C Northeast Oubliette Shackle destroyed|NC|QO|Northeast Oubliette Shackle destroyed: 1/1|M|67.9,31.6|
+C Northeast Oubliette Shackle destroyed|QID|30274|NC|QO|Northeast Oubliette Shackle destroyed: 1/1|M|67.9,31.6|
 f The Incursion|QID|30384|M|67.78,32.52|N|At Tylen Moonfeather.|
 T The Arcanic Oubliette|QID|30274|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
 A The Lost Dynasty|QID|30344|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
@@ -138,11 +143,12 @@ A The Pools of Youth|QID|30347|N|from UI Alert.|
 C Threat from Dojan|QID|30349|US|M|55,35|N|Finish this before you go on to the pools, no dojani down there.|
 C The Pools of Youth|QID|30347|NC|M|54.6,33.1;51.9,32.4|N|When facing the platform where you killed the Dominator, go to your left, over a bridge and down some stairs to a pool area. Free Na Lek, kill the guardians and loot the 'water of youth' (groundspawn).|
 C Lotus Tea|QID|30351|US|NS|M|55,35|N|There are a few flowers down here if you aren't yet done.|
-T Lotus Tea|QID|30351|M|67.36,32.75|N|To Kang Bramblestaff. (if you dont turn it in right away, you have to wait until you are at sentinal basecamp.)|
+T Lotus Tea|QID|30351||N|To Kang Bramblestaff, next to you. (if you dont turn it in right away, you have to wait until you are at sentinal basecamp.)|
 R While traveling|QID|31409|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
 ;R The Incursion|M|67.4,32|
 T Threat from Dojan|QID|30349|M|67.45,32.70|N|To Lyalia.|
 T The Pools of Youth|QID|30347|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
+T Lotus Tea|QID|30351|M|67.36,32.75|N|To Kang Bramblestaff. |
 A Immortality?|QID|30348|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
 C Immortality?|QID|30348|M|67.45,32.64|N|Watch and wait.|
 T Immortality?|QID|30348|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
@@ -156,17 +162,16 @@ T Unsafe Passage|QID|30269|M|40.59,33.69|N|To Koro Mistwalker.|
 A Blinding the Riverblades|QID|30270|M|40.59,33.69|N|From Koro Mistwalker.|
 A Tread Lightly|QID|30694|M|40.59,33.69|N|From Koro Mistwalker.|
 A The Murksweats|QID|30268|M|40.48,34.66|N|From Anduin Wrynn.|
-C The Murksweats|QID|30268|S|M|37.33,41.13|N|These are swimming in the water.|
 C Tread Lightly|QID|30694|S|NC|U|80828|M|45.77,28.17|N|Target the traps and use your stick from a short distance away to set them off safely.|
 C Blinding the Riverblades|QID|30270|M|46.14,30.06|
 C Tread Lightly|QID|30694|US|NC|U|80828|M|45.77,28.17|N|Target the traps and use your stick from a short distance away to set them off safely.|
-C The Murksweats|QID|30268|US|M|37.33,41.13|N|These are swimming in the water.|
+C The Murksweats|QID|30268|M|37.33,41.13|N|These are swimming in the water.|
 T The Murksweats|QID|30268|M|40.48,34.66|N|To Anduin Wrynn.|
 T Blinding the Riverblades|QID|30270|M|40.59,33.69|N|To Koro Mistwalker.|
 T Tread Lightly|QID|30694|M|40.62,33.69|N|To Koro Mistwalker.|
 A Ahead on the Way|QID|30695|M|40.68,33.68|N|From Koro Mistwalker.|
 A Striking the Rain |QID|30272|M|40.6,33.7|N|From Koro Mistwalker|
-A Sha Can Awe|QID|30271|M|40.67,33.88|N|From Anduin Wrynn, who is now following you and who may be duplicated!j|
+A Sha Can Awe|QID|30271|M|40.67,33.88|N|From Anduin Wrynn, who is now following you and who may be duplicated!|
 
 C Sha Can Awe|QID|30271|S|M|41.9,50.1|N|Kill Hunts and Incarnations of Despair near the Hopeless Monks|
 C Striking the Rain|QID|30272|S|M|40,45|
@@ -181,10 +186,10 @@ A In the House of the Red Crane|QID|30273|M|38.01,50.89|N|From Anduin Wrynn.|
 C In the House of the Red Crane|QID|30273|M|40.46,54.65|N|Go up the center stairs then run straight back to the stairs into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
 T In the House of the Red Crane|QID|30273|M|40.43,49.18|N|To Chi-Ji (back outside).|
 
-R Nayeli Lagoon|QID|30667|M|39.37,45.11;30.65,45.9051.7,75.34|
+R Nayeli Lagoon|QID|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.67,75.30|N|From Tony Tuna.|
-l Stack of Papers|QID||31863|L|87798|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
-f Marista|QID|30667|M|52.43,76.53|N|At Nan-Po.|
+l Stack of Papers|QID||31863|L|87798|M|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
+f Marista|M|52.43,76.53|N|At Nan-Po.|
 A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.53,76.85|N|From Jay Cloudfall, on the ledge of the inn.|
 C Sudden, Unexpected Crocolisk Aggression|QID|30666|S|M|46.34,71.99|
 C Particular Plumage|QID|30667|M|42.57,71.86|
@@ -207,7 +212,9 @@ C Wisdom Has A Price|QID|30671|US|M|46.54,77.47|N|Random drop from the sharks.|
 T Wisdom Has A Price|QID|30671|M|46.01,78.96|N|To Wise Ana Wu.|
 A Balance|QID|30672|M|46.01,78.96|N|From Wise Ana Wu.|
 
-R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft. In this area are two of the blue items for lost and found achievement. East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe - Bannana infused Run, and west of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
+R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft.|
+A Banana Infused Rum|QID|31411|M|53.2,88.7|N|East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe: Banana Infused Rum. Beware of Spriggen!|
+A Booties|QID|31410|M|42.29,91.98|N|West of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
 K Unga Fish Getter|L|80827|M|45.31,85.17|N|Be sure and loot these at least until you get the item to start the quest.|
 C Balance|QID|30672|S|M|50.85,84.15|
 A Buried Hozen Treasure|QID|30675|U|80827|M|43.81,85.41|N|From Confusing Treasure Map - looted off of an Unga.|
@@ -229,7 +236,7 @@ f Cradle of Chi-Ji|QID|30675|M|31.19,63.25|N|At Feather Keeper Li.|
 R Fallsong Village|M|29.66,39.0|QID|30168|N|You can take the raft up the river to avoid combat. (portage around the waterfall).|
 A Thieving Raiders|QID|30168|M|29.67,39.06|N|From Tired Shushen.|
 A Raid Leader Slovan|QID|30169|M|29.67,39.06|N|From Tired Shushen.|
-K Riverbank Flesh-Hunter|QID|30168|US|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|N|If you still have the raft, take a shortcut across the water, unfortunantly, you lose the buff when you technically cross into Valley of the Four Winds.|
+K Riverbank Flesh-Hunter|QID|30168|S|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|N|If you still have the raft, take a shortcut across the water, unfortunantly, you lose the buff when you technically cross into Valley of the Four Winds.|
 K Raid Leader Slovan|T|Slovan|QID|30169|QO|Slovan slain: 1/1|M|31.87,29.01|Z|Valley of the Four Winds|
 K Riverbank Flesh-Hunter|QID|30168|US|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|
 T Thieving Raiders|QID|30168|M|29.67,39.06|N|To Tired Shushen.|
@@ -274,7 +281,7 @@ A It Does You No Good In The Keg|QID|30624|M|18.05,55.69|Z|Valley of the Four Wi
 C The Swarm Begins|QID|30622|S|M|12.4,53.7|Z|Valley of the Four Winds|
 C The Mantidote|QID|30623|S|U|80337|M|10.72,51.9|Z|Valley of the Four Winds|N|Use the mask on the elites, kill the sha that appears.|
 C Deliver beer to Crane Wing Priests|QID|30624|NC|QO|Deliver beer to Crane Wing Priests: 1/1|M|15.09,55.41|Z|Valley of the Four Winds|
-C Deliver beer to the Shado-Pan|QID|30624|NC|QO|Deliver beer to the Shado-Pan: 1/1|M|10.95,55.9|Z|Valley of the Four Winds|
+C Deliver beer to Shado-Pan|QID|30624|NC|QO|Deliver beer to Shado-Pan: 1/1|M|10.95,55.9|Z|Valley of the Four Winds|
 C Deliver beer to Zhu's Wardens|QID|30624|NC|QO|Deliver beer to Zhu's Wardens: 1/1|M|17.01,50.46|Z|Valley of the Four Winds|
 C Deliver beer to night elf settlers|QID|30624|NC|QO|Deliver beer to night elf settlers: 1/1|M|15.0,50.3|Z|Valley of the Four Winds|
 T It Does You No Good In The Keg|QID|30624|To UI Alert.|
