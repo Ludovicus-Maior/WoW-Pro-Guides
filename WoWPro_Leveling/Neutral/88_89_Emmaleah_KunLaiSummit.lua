@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-11-25 22:21
+-- Who: Ludovicus Maior
+-- Log: Lots of tweaks up to Zouchin Village.   Played through on two toons.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25178/view
 -- Date: 2012-11-03 18:47
 -- Who: Emmaleah
 -- Log: 3 Nov 2012 - Emmaleah - changed coords/note for C Do a Barrel Roll, added change log.
@@ -174,22 +179,23 @@ T Westwind Rest|QID|30512|FACTION|Alliance|M|56.38,84.44|N|To Elder Tsulan.|
 A Challenge Accepted|QID|30514|FACTION|Alliance|M|56.38,87.44|N|From Elder Tsulan.|
 C Challenge Accepted|QID|30514|T|Ur-Bataar|FACTION|Alliance|M|58.30,84.20|N|Click on the flag to summon Ur-Bataar.|
 T Challenge Accepted|QID|30514|FACTION|Alliance|M|54.69,84.27|N|To Elder Tsulan.|
-A Round 'Em Up|QID|30575|FACTION|Alliance|M|53.77,82.70|N|From Admiral Taylor.|
-A Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.14,83.28|N|From Sully "The Pickle" McLeary.|
-A Mogu?! Oh No-gu!|QID|30619|M|54.19,83.44|FACTION|Alliance|N|From Elder Tsulan.|
+A Round 'Em Up|QID|30575|FACTION|Alliance|M|53.77,82.67|N|From Admiral Taylor.|
+A Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pickle" McLeary.|
+A Mogu?! Oh No-gu!|QID|30619|M|54.17,83.42|FACTION|Alliance|N|From Elder Tsulan.|
 f Westwind Rest|QID|30619|M|53.97,84.27|FACTION|Alliance|N|At Tabo the Flyer.|
-A Trouble on the Farmstead|QID|30569|FACTION|Alliance|M|53.80,84.10|N|From Farmhand Bo.|
+A Trouble on the Farmstead|QID|30569|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
 A Deanimate the Reanimated|QID|30593|FACTION|Alliance|M|53.44,83.09|N|From Mishka.|
 T Trouble on the Farmstead|QID|30569|FACTION|Alliance|M|60.25,85.73|N|To Farmer Chow.|
 
-A Farmhand Freedom|QID|30571|M|60.25,85.73|N|From Farmer Chow.|
-A ... and the Pot, Too!|QID|30581|M|60.19,85.81|N|From Uyen Chow.|
-C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|N|Kill the overseers to free the slaves standing near them.|
+A Farmhand Freedom|QID|30571|M|60.24,85.79|N|From Farmer Chow.|
+A ... and the Pot, Too!|QID|30581|M|60.17,85.92|N|From Uyen Chow.|
+C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|S|N|Kill the overseers to free the slaves standing near them.|
 C ... and the Pot, Too!|QID|30581|M|60.03,88.43|N|The pot is in the house, the virmin zooming around drops multiple veggies as well as them being groundspawn.|
-T ... and the Pot, Too!|QID|30581|M|60.18,85.86|N|To Uyen Chow.|
-T Farmhand Freedom|QID|30571|M|60.23,85.82|N|To Farmer Chow.|
-A Back to Westwind Rest|QID|31252|FACTION|Alliance|M|60.23,85.82|N|From Farmer Chow.|
-A Back to Eastwind Rest|QID|31253|FACTION|Horde|M|60.22,85.77|N|From Farmer Chow.|
+C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|US|N|Kill the overseers to free the slaves standing near them.|
+T ... and the Pot, Too!|QID|30581|M|60.17,85.92|N|To Uyen Chow.|
+T Farmhand Freedom|QID|30571|M|60.24,85.79|N|To Farmer Chow.|
+A Back to Westwind Rest|QID|31252|FACTION|Alliance|M|60.24,85.79|N|From Farmer Chow.|
+A Back to Eastwind Rest|QID|31253|FACTION|Horde|M|60.24,85.79|N|From Farmer Chow.|
 
 R Mogujia|QID|99999|CC|M|59.55,78.27|
 A Profiting off of the Past|QID|30595|M|59.59,78.26|N|From Bao Jian.|
@@ -207,16 +213,16 @@ C Profiting off of the Past|QID|30595|US|M|58.40,74.86|
 T Profiting off of the Past|QID|30595|M|59.58,78.27|N|To Bao Jian.|
 
 C Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|S|M|50.70,83.11|N|Birds and Mushan drop multiple meat each.|
-C Round 'Em Up|QID|30575|FACTION|Alliance|M|53.92,83.67|N|When you have 3 yaks, head back to Westwind Rest, the quest complete message comes in the encampment.|
+C Round 'Em Up|QID|30575|FACTION|Alliance|M|54.42,83.47|N|When you have 3 yaks, head back to Westwind Rest, the quest complete message comes in the encampment.|
 C Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|US|M|50.70,83.11|N|Birds and Mushan drop multiple meat each.|
-T Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.12,83.37|N|To Sully "The Pickle" McLeary.|
-T Round 'Em Up|QID|30575|M|FACTION|Alliance|53.81,82.77|N|To Admiral Taylor.|
-T Back to Westwind Rest|QID|31252|FACTION|Alliance|M|53.80,83.99|N|To Farmhand Bo.|
-T Mogu?! Oh No-gu!|QID|30619|FACTION|Alliance|M|54.13,83.37|N|To Elder Tsulan.|
+T Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.17,83.27|N|To Sully "The Pickle" McLeary.|
+T Mogu?! Oh No-gu!|QID|30619|FACTION|Alliance|M|54.17,83.42|N|To Elder Tsulan.|
+T Back to Westwind Rest|QID|31252|FACTION|Alliance|M|53.79,84.11|N|To Farmhand Bo.|
 T Deanimate the Reanimated|QID|30593|FACTION|Alliance|M|53.49,83.38|N|To Mishka.|
+T Round 'Em Up|QID|30575|M|FACTION|Alliance|M|53.77,82.67|N|To Admiral Taylor.|
+A Pandaren Prisoners|QID|30650|M|FACTION|Alliance|54.17,83.42|N|From Elder Tsulan.|
+A Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pickle" McLeary.|
 A In Tents Channeling|QID|30652|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
-A Pandaren Prisoners|QID|30650|M|FACTION|Alliance|54.13,83.40|N|From Elder Tsulan.|
-A Barrels of Fun|QID|30651|FACTION|Alliance|M|54.13,83.32|N|From Sully "The Pickle" McLeary.|
 R Fire Camp Ordo |QID|30652|FACTION|Alliance|M|50.50,78.59|
 C Pandaren Prisoners|QID|30650|S|FACTION|Alliance|M|49.67,80.36|N|The prisoners are throughout the Fire Camp Ordo.|
 C Barrels of Fun|QID|30651|FACTION|Alliance|S|M|49.42,80.61|N|Pick up a sparkly barrell (unique - one at a time) and place it where the gears are on your minimap.|
@@ -226,13 +232,13 @@ T In Tents Channeling|QID|30652|FACTION|Alliance|N|To UI Alert.|
 A The Ordo Warbringer|QID|30660|FACTION|Alliance|N|From UI Alert.|
 C Pandaren Prisoners|QID|30650|US|FACTION|Alliance|M|49.67,80.36|N|Finish freeing the prisoners.|
 K Ordo Warbringer|QID|30660|T|Ordo Warbringer|QO|Ordo Warbringer slain: 1/1|FACTION|Alliance|M|48.35,76.69|
-T Barrels of Fun|QID|30651|FACTION|Alliance|M|54.13,83.32|N|To Sully "The Pickle" McLeary.|
+T Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|To Sully "The Pickle" McLeary.|
 T The Ordo Warbringer|QID|30660|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
 T Pandaren Prisoners|QID|30650|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
-A Beyond the Wall|QID|31695|FACTION|Alliance|M|54.13,83.37|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 A The Shado-Pan|QID|31455|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
+A Beyond the Wall|QID|31695|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 A Cho's Missive|QID|31460|FACTION|Alliance|M|53.49,83.38|N|From Mishka.|
-A Muskpaw Ranch|QID|31456|FACTION|Alliance|M|53.80,83.99|N|From Farmhand Bo.|
+A Muskpaw Ranch|QID|31456|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
 
 C Best Meals Anywhere!|QID|31251|FACTION|Horde|S|M|59.99,80.46|N|Birds and Mushan drop multiple meat each.|
 C Round 'Em Up|QID|31256|FACTION|Horde|M|59.99,80.46|N|When you have 3 yaks, head back to Eastwind Rest, the quest complete message comes in the encampment.|
@@ -262,7 +268,7 @@ A The Shado-Pan|QID|31453|FACTION|Horde|M|62.28,80.29|N|From General Nazgrim.|
 A Cho's Missive|QID|31459|FACTION|Horde|M|62.67,80.65|N|From Shademaster Kiryn.|
 A Muskpaw Ranch|QID|31457|FACTION|Horde|M|62.55,79.53|N|From Farmhand Ko.|
 
-R Lao & Son's Yakwash|QID|30488|CC|M|70.13,70.24|
+R Lao & Son's Yakwash|QID|30488|M|70.13,70.24|
 T Muskpaw Ranch|QID|31457|FACTION|Horde|M|71.50,70.04|N|To Lao Muskpaw, he walkes back and forth between the two buildings.|
 T Muskpaw Ranch|QID|31456|FACTION|Alliance|M|71.50,70.04|N|To Lao Muskpaw.|
 A The Missing Muskpaw|QID|30488|M|71.50,70.04|N|From Lao Muskpaw.|
@@ -287,12 +293,12 @@ T The Fearmaster|QID|30804|M|71.37,69.64|N|To Lao Muskpaw.|
 T At the Yak Wash|QID|30491|M|71.34,69.31|N|To Muskpaw Jr..|
 A Back in Yak|QID|30492|M|71.33,69.28|N|From Muskpaw Jr..|
 
-R The Grummle Bazaar|QID|30492|CC|M|69.47,68.93;66.49,66.62;61.6,62.03;65.51,61.26|
+R The Grummle Bazaar|QID|30492|CS|M|69.47,68.93;66.49,66.62;61.6,62.03;65.51,61.26|
 C Back in Yak|QID|30492|M|65.51,61.26|
-T Back in Yak|QID|30492|M|64.72,61.68|N|To Lucky Eightcoins.|
-A Oil Stop|QID|30614|M|65.48,60.78|N|From Slimy Inkstain.|
-A A Grummle's Luck|QID|30808|M|64.72,61.68|N|From Lucky Eightcoins.|
-A Traffic Issues|QID|30616|M|64.89,60.47|N|From Smokey Sootassle.|
+T Back in Yak|QID|30492|M|64.71,61.76|N|To Lucky Eightcoins.|
+A A Grummle's Luck|QID|30808|M|64.71,61.76|N|From Lucky Eightcoins.|
+A Oil Stop|QID|30614|M|65.49,60.82|N|From Slimy Inkstain.|
+A Traffic Issues|QID|30616|M|64.88,60.49|N|From Smokey Sootassle.|
 C Sturdy Yaungol Spear|QID|31421|NC|M|71.2,62.6;70.0,63.8|N|Optional-This BoA strength polearm can be rarely found on weapons racks at Fire Camp Yongqi (and maybe the other yaungol camps).|
 
 R Fire Camp Ruqin|M|63.44,68.53|
@@ -301,13 +307,15 @@ C A Grummle's Luck|QID|30808|S|M|62.24,66.92|N|These are groundspawn 'sparklies'
 C Oil Stop|QID|30614|U|80312|M|63.44,68.53;62.64,68.36|N|Click on the oilwell to fill your flask. These respawn pretty fast.|
 C Traffic Issues|QID|30616|US|M|63.53,66.80|
 C A Grummle's Luck|QID|30808|US|M|62.24,66.92|N|These are groundspawn 'sparklies', beside things, inside boxes, etc.|
-T A Grummle's Luck|QID|30808|M|64.67,61.70|N|To Lucky Eightcoins.|
-T Oil Stop|QID|30614|M|65.44,60.78|N|To Slimy Inkstain.|
-T Traffic Issues|QID|30616|M|64.88,60.40|N|To Smokey Sootassle.|
-A Roadside Assistance|QID|30617|M|64.88,60.40|N|From Smokey Sootassle.|
+T A Grummle's Luck|QID|30808|M|64.71,61.76|N|To Lucky Eightcoins.|
+T Oil Stop|QID|30614|M|65.49,60.82|N|To Slimy Inkstain.|
+T Traffic Issues|QID|30616|M|64.88,60.49|N|To Smokey Sootassle.|
+A Roadside Assistance|QID|30617|M|64.88,60.49|N|From Smokey Sootassle.|
 
-R Temple of the White Tiger|QID|99999|M|66.8,59.29;68.4,56.08;69.05,52.48;66.33,50.71|CC|; no good QID to use for this...since it comes just before faction based steps.
-f Temple of the White Tiger|QID|99999|M|66.33,50.71|N|At Big Greenfeather.|
+R Temple of the White Tiger|QID|31392|FACTION|Alliance|M|66.8,59.29;68.4,56.08;69.05,52.48;66.33,50.71|CS|
+R Temple of the White Tiger|QID|31393|FACTION|Horde|M|66.8,59.29;68.4,56.08;69.05,52.48;66.33,50.71|CS|
+f Temple of the White Tiger|QID|31392|FACTION|Alliance|M|66.31,50.67|N|At Big Greenfeather.|
+f Temple of the White Tiger|QID|31393|FACTION|Horde|M|66.31,50.67|N|At Big Greenfeather.|
 
 T Temple of the White Tiger|QID|31392|FACTION|Alliance|M|68.74,43.07|N|To Anduin Wrynn.|
 A A Celestial Experience|QID|31394|FACTION|Alliance|M|68.74,43.07|N|From Anduin Wrynn.|
@@ -321,54 +329,56 @@ C A Celestial Experience|QID|31395|FACTION|Horde|M|68.98,44.09|N|This takes a mi
 T A Celestial Experience|QID|31395|FACTION|Horde|M|68.76,43.14|N|To Dezco.|
 A A Witness to History|QID|31511|FACTION|Horde|M|68.76,43.14|N|From Dezco.|
 
-R The Grummle Bazaar|QID|30999|CC|M|64.24,59.45|
+R The Grummle Bazaar|QID|30999|M|64.24,59.45|
 C Roadside Assistance|QID|30617|NC|QO|Light the incense: 8/8|N|These are small sparkly sticks along the roadside.|
-T Roadside Assistance|QID|30617|M|58.13,61.46|N|To Brother Lintpocket.|
-T Cho's Missive|QID|31460|FACTION|Alliance|M|57.28,61.66|N|To Lorewalker Cho.|
-T Cho's Missive|QID|31459|FACTION|Horde|M|57.28,61.66|N|To Lorewalker Cho.|
-A Path Less Traveled|QID|30999|M|57.28,61.66|N|From Lorewalker Cho.|
-T Path Less Traveled|QID|30999|M|57.27,61.18|N|To Uncle Cloverleaf.|
-A Instant Courage|QID|30601|M|57.27,61.18|N|From Uncle Cloverleaf.|
-A Resupplying One Keg|QID|30618|M|57.71,61.79|N|From Big Sal.|
-A They Stole My Luck!|QID|30621|M|57.35,60.22|N|From Ji-Lu the Lucky.|
-h The Lucky Traveller|QID|30999|M|57.43,60.05|N|Set your hearthstone at Chiyo Mistpaw. Setting your hearthstone will save you around 10 min overall, so not essential if you aren't in a hurry.|
-f One Keg|QID|30999|M|57.77,59.78|N|At Little Cleankite.|
+T Roadside Assistance|QID|30617|M|58.09,61.46|N|To Brother Lintpocket.|
+T Cho's Missive|QID|31460|FACTION|Alliance|M|57.34,61.69|N|To Lorewalker Cho.|
+T Cho's Missive|QID|31459|FACTION|Horde|M|57.34,61.69|N|To Lorewalker Cho.|
+A Path Less Traveled|QID|30999|M|57.34,61.69|N|From Lorewalker Cho.|
+T Path Less Traveled|QID|30999|M|57.22,61.21|N|To Uncle Cloverleaf.|
+A Instant Courage|QID|30601|M|57.22,61.21|N|From Uncle Cloverleaf.|
+A Resupplying One Keg|QID|30618|M|57.72,61.76|N|From Big Sal.|
+A They Stole My Luck!|QID|30621|M|57.32,60.19|N|From Ji-Lu the Lucky.|
+h The Lucky Traveller|QID|30601|M|57.43,60.05|N|Set your hearthstone at Chiyo Mistpaw. Setting your hearthstone will save you around 10 min overall, so not essential if you aren't in a hurry.|
+f One Keg|QID|30601|M|57.72,59.68|N|At Little Cleankite.|
 
-R Howlingwind Caverns|QID|30618|M|57.92,58.90;59.16,53.24|CC|
-K Mischievous Snow Sprites|QID|30621|S|M|57.77,49.30|S|L|80316,80317,80318,80319|
-C Instant Courage|QID|30601|S|M|57.54,47.44|N|These guys are hiding in thier baskets, tell them its safe to come out.|
+R Howlingwind Caverns|QID|30618|M|57.92,58.90;59.16,53.24|CS|
+C They Stole My Luck!|QID|30621|M|57.77,49.30|S|N|Kill Mischievous Snow Sprites.|
+C Instant Courage|QID|30601|M|57.54,47.44|N|These guys are hiding in their baskets, tell them its safe to come out.|
 C Resupplying One Keg|QID|30618|M|56.33,50.88|N|Ground spawn sparklies.|
-l Stolen Sprite Treasure|QID|31415|M|56.8,48.9|CC|N|Its a treasure chest, loot it for XP/gold.  It may spawn at multiple spots in the cave.|
 C They Stole My Luck!|QID|30621|M|57.77,49.30|US|
-C Instant Courage|QID|30601|US|M|57.54,47.44|N|It's ok to leave the Guides to die if you want to zerg (or hearth) out.|
-H One Keg|QID|30618|N|Run if you didn't reset your hearthstone.|
-T They Stole My Luck!|QID|30621|M|57.30,60.19|N|To Ji-Lu the Lucky.|
-T Resupplying One Keg|QID|30618|M|57.71,61.76|N|To Big Sal.|
-T Instant Courage|QID|30601|M|57.23,61.15|N|To Uncle Cloverleaf.|
-A Comin' Round the Mountain|QID|30487|M|57.26,61.17|N|From Uncle Cloverleaf.|
+C Resupplying One Keg|QID|30618|M|56.33,50.88|N|Ground spawn sparklies.|
+l Stolen Sprite Treasure|QID|31415|M|56.82,48.99|N|Its a treasure chest, loot it for XP/gold.  It may spawn at multiple spots in the cave.|
+C Instant Courage|QID|30601|M|57.54,47.44|N|It's ok to leave the Guides to die if you want to zerg (or hearth) out.|
 
-C Comin' Round the Mountain|QID|30487|M|57.26,61.17|N|Hop in the wagon. He will take you up the hill, you get to throw stuff at the Hozen chasing you.|
-T Comin' Round the Mountain|QID|30487|M|48.12,49.00|N|To Lucky Bluestring.|
-A One Traveler's Misfortune|QID|30683|M|48.12,49.00|N|From Lucky Bluestring.|
+H One Keg|QID|30618|N|Run if you didn't reset your hearthstone.|
+T They Stole My Luck!|QID|30621|M|57.32,60.19|N|To Ji-Lu the Lucky.|
+T Resupplying One Keg|QID|30618|M|57.72,61.76|N|To Big Sal.|
+T Instant Courage|QID|30601|M|57.22,61.21|N|To Uncle Cloverleaf.|
+A Comin' Round the Mountain|QID|30487|M|57.22,61.21|N|From Uncle Cloverleaf.|
+
+C Comin' Round the Mountain|QID|30487|M|57.33,61.55|N|Hop in the wagon. He will take you up the hill, you get to throw stuff at the Hozen chasing you.|
+T Comin' Round the Mountain|QID|30487|M|48.14,49.04|N|To Lucky Bluestring.|
+A One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|From Lucky Bluestring.|
 C One Traveler's Misfortune|QID|30683|M|50.22,49.39|N|Click on the overturned cart, then fight the statues and finally the  General.|
-l Rikktik's Tick Remover|QID|31419|L|86430|M|51.8,48.5;52.55,54.48|N|Another greay item worth gold and XP, this one is located in a cave just down the road.|
-T One Traveler's Misfortune|QID|30683|M|48.09,49.04|N|To Lucky Bluestring.|
-A Seeker's Folly|QID|30684|M|48.09,49.04|N|From Lucky Bluestring.|
+l Rikktik's Tick Remover|QID|31419|L|86430|M|51.90,48.62;52.55,56.52|CS|N|Another gray item worth gold and XP, this one is located in a cave just down the road.|
+T One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|To Lucky Bluestring.|
+A Seeker's Folly|QID|30684|M|48.14,49.04|N|From Lucky Bluestring.|
 C Seeker's Folly|QID|30684|M|43.22,51.99|N|Stop (click) at each shrine as you go up the hill, avoiding the 'bad' stuff.|
-T Seeker's Folly|QID|30684|M|43.79,51.01|N|To Lorewalker Cho.|
-A The Tongue of Ba-Shon|QID|30829|M|43.79,51.01|N|From Lorewalker Cho.|
+T Seeker's Folly|QID|30684|M|43.79,51.05|N|To Lorewalker Cho.|
+A The Tongue of Ba-Shon|QID|30829|M|43.79,51.05|N|From Lorewalker Cho.|
 C Tablet of Ren Yun|QID|31417|NC|M|44.7,52.4|CC|N|Optional-This BoP recipe can rarely be found beside a statue/shrine to Ren Yun at the top of Mt Neverest.|
 C The Tongue of Ba-Shon|QID|30829|M|43.51,51.38|N|Tell Cho you are ready to begin, then protect him while he does his spell.|
-T The Tongue of Ba-Shon|QID|30829|M|43.73,51.09|N|To Lorewalker Cho.|
-A Staying Connected|QID|30795|M|43.73,51.09|N|From Lorewalker Cho.|
-C Staying Connected|QID|30795|NC|M|51.94,47.44|N|Talk to Mishi for a flight to Valley of the Emporers.|
+T The Tongue of Ba-Shon|QID|30829|M|43.79,51.05|N|To Lorewalker Cho.|
+A Staying Connected|QID|30795|M|43.79,51.05|N|From Lorewalker Cho.|
+C Staying Connected|QID|30795|NC|M|51.94,47.44|N|Talk to Mishi for a flight to Valley of the Emperors.|
 T Staying Connected|QID|30795|U|81712|M|51.94,47.44|U|81712|N|Use the item to call up/turn in to Image of Lorewalker Cho for the next several quests.|
-A An end to Everything|QID|30796|M|51.94,47.44|N|From Image of Lorewalker Cho.|
-C An end to Everything|QID|30796|M|57.34,47.17|S|
-A It Was Almost Alive|QID|30797|M|57.07,47.75|N|From Curous Text.|
+A An End to Everything|QID|30796|M|51.94,47.44|N|From Image of Lorewalker Cho.|
+C An End to Everything|QID|30796|M|57.34,47.17|S|
+A It Was Almost Alive|QID|30797|M|57.15,47.89|N|From Curous Text.|
 C Tear a page from the book|QID|30797|M|57.08,47.83|N|click the book.|
-C An end to Everything|QID|30796|M|57.34,47.17|US|
-T An end to Everything|QID|30796|M|58.03,49.02|U|81712|N|To Image of Lorewalker Cho.|
+C An End to Everything|QID|30796|M|57.34,47.17|US|
+T An End to Everything|QID|30796|M|58.03,49.02|U|81712|N|To Image of Lorewalker Cho.|
 T It Was Almost Alive|QID|30797|M|58.03,49.02|N|To Image of Lorewalker Cho.|
 A The Tomb of Shadows|QID|30799|M|58.03,49.02|N|From Image of Lorewalker Cho.|
 C The Tomb of Shadows|QID|30799|M|56.38,43.45|N|Go up the stairs to the next tomb. Click the stone tablets to take rubbings They are against the far (back) wall on the left and center, and the one on the right is in the corner closest to the hall.|
@@ -387,16 +397,16 @@ C Chasing the Storm|QID|30802|M|51.31,48.26|N|Kill (and loot) trolls until the m
 T Chasing the Storm|QID|30802|U|81712|M|51.31,48.26|N|To Image of Lorewalker Cho.|
 A Fisherman's Tale|QID|30935|M|51.31,48.26|N|From Image of Lorewalker Cho.|
 
-C Fisherman's Tale|QID|30935|QO|Speak to Mishi outside of Lei Shen's Tomb: 1/1|NC|M|54.74,46.84|N|Go back up the stairs out of the tomb, Mishi is on your left.|
+C Fisherman's Tale|QID|30935|QO|Speak to Mishi outside of Lei Shen's Tomb: 1/1|NC|M|52.98,46.36|N|Go back up the stairs out of the tomb, Mishi is on your left.|
 l Ancient Mogu Tablet|QID|31420|L|86471|M|64.21,45.11|N|grey item worth gold and XP, behind the statue on your left.|
 C Fisherman's Tale|QID|30935|QO|Speak to Shin Whispercloud to access Zouchin Province: 1/1|NC|M|63.46,40.14|N|Go down the Path deeper into the mountain to find Shin.|
-f Zouchin Village|QID|30935|M|62.44,30.16|N|At Bo the Wind Claimer.|
-T Fisherman's Tale|QID|30935|M|62.33,29.03|N|To Lorewalker Cho.|
-A It Takes A Village|QID|30944|M|62.33,29.03|N|From Lorewalker Cho.|
+f Zouchin Village|QID|30935|M|62.42,30.12|N|At Bo the Wind Claimer.|
+T Fisherman's Tale|QID|30935|M|62.33,29.06|N|To Lorewalker Cho.|
+A It Takes A Village|QID|30944|M|62.33,29.06|N|From Lorewalker Cho.|
 A Make A Fighter Out of Me|QID|30942|M|63.69,30.66|N|From Shomi.|
 A What's Yours Is Mine|QID|30945|M|63.38,30.69|N|From Steelbender Doshu.|
 A Checking In|QID|30816|M|63.14,29.40|N|From Li Hai.|
-A Handle With Care|QID|30943|M|63.48,28.65|N|From Elder Shu.|N|Be sure you finish all of the previous 5 quests before you turn in any of them.|
+A Handle With Care|QID|30943|M|63.48,28.65|N|From Elder Shu. Be sure you finish all of the previous 5 quests before you turn in any of them.|
 C It Takes A Village|QID|30944|M|62.43,28.30|N|The trolls fighting the defenders here are the ones you need to kill with Shomi. Talk to the villagers when they are not in combat to relieve them.|
 C Handle With Care|QID|30943|M|70.04,27.70|S|N|Ground spawn orange flower bushes.|
 C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|S|N|all trolls must die...|
@@ -429,26 +439,26 @@ A A Funeral|QID|30820|M|63.12,29.33|N|From Li Hai.|
 T What's Yours Is Mine|QID|30945|M|63.35,30.68|N|To Steelbender Doshu.|
 r Repair/Restock|M|63.38,30.69|N|You want to repair now, as he is bugged and won't repair in the next phase.|
 T Handle With Care|QID|30943|M|63.23,28.68|N|To Elder Shu. He is upstairs on the balcony.|
-T It Takes A Village|QID|30944|M|62.33,29.04|N|To Lorewalker Cho.|
-A Enemies At Our Door|QID|31011|M|62.33,29.04|N|From Lorewalker Cho.|
+T It Takes A Village|QID|30944|M|62.33,29.06|N|To Lorewalker Cho.|
+A Enemies At Our Door|QID|31011|M|62.33,29.06|N|From Lorewalker Cho.|
 C Enemies At Our Door|QID|31011|M|64.49,28.84|S|QO|Amani Berzerkers slain: 10/10|
 C Enemies At Our Door|QID|31011|NC|M|61.24,29.27|QO|Amani Behemoth slain: 5/5|N|Roll the barrels down the hill.|
 C Enemies At Our Door|QID|31011|M|64.49,28.84|QO|Gurubashi Bloodrider slain: 3/3|N|If you wait till the riders are at the gate, the defenders will assist.|
 C Enemies At Our Door|QID|31011|M|64.49,28.84|US|QO|Amani Berzerker slain: 10/10|
-T Enemies At Our Door|QID|31011|M|62.32,29.06|N|To Lorewalker Cho.|
-A Revelations|QID|30946|M|62.32,29.06|N|From Lorewalker Cho.|
+T Enemies At Our Door|QID|31011|M|62.33,29.06|N|To Lorewalker Cho.|
+A Revelations|QID|30946|M|62.33,29.06|N|From Lorewalker Cho.|
 C Revelations|QID|30946|M|62.46,28.88|NC|N|Prisoner is upstairs.|
-T Revelations|QID|30946|M|62.32,29.02|N|To Lorewalker Cho.|
-A Prophet Khar'zul|QID|31228|M|62.32,29.02|N|From Lorewalker Cho.|
+T Revelations|QID|30946|M|62.33,29.06|N|To Lorewalker Cho.|
+A Prophet Khar'zul|QID|31228|M|62.33,29.06|N|From Lorewalker Cho.|
 C Fly to the Prophet's Island|QID|31228|QO|Speak with Mishi in Zouchin Village|M|62.29,29.34|NC|
 C Prophet Khar'zul|QID|31228|M|76.4,9.2|N|Kill 12 trolls as you work your way to the waypoint, where you will find the prophet.|
 F Zouchin Village|QID|31228|M|76.17,11.38|CC|N|Talk to Mishi for a ride back to the village.|
 C A Funeral|QID|30820|NC|M|66.96,33.44|N|Click on the incense to light it.|
 T A Funeral|QID|30820|M|67.05,33.44|N|To Sage Liao.|
-T Prophet Khar'zul|QID|31228|M|62.30,29.01|N|To Lorewalker Cho.|
+T Prophet Khar'zul|QID|31228|M|62.33,29.06|N|To Lorewalker Cho.|
 H One Keg|QID|99999|N|Fly if you didn't reset your hearthstone earlier.|
 
-A The Burlap Trail: To Burlap Waystation|QID|30592|M|58.04,61.49|N|From Brother Lintpocket.|
+A The Burlap Trail: To Burlap Waystation|QID|30592|M|58.09,61.46|N|From Brother Lintpocket.|
 C The Burlap Trail: To Burlap Waystation|QID|30592|M|53.14,66.57|N|Escort them to burlap waystation, there are at least 3 attacks and they will die if you don't help.|
 T The Burlap Trail: To Burlap Waystation|QID|30592|M|51.69,67.80|N|To Brother Trailscenter.|
 A The Rabbitsfoot|QID|30602|M|58.04,61.49|M|51.69,67.80|N|From Brother Trailscenter.|
