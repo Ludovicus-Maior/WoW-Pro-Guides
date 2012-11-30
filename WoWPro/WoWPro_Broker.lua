@@ -52,13 +52,17 @@ function WoWPro:LoadGuide(guideID)
     -- If we have upgraded, wipe the old information and re-create
 	if WoWProCharDB.Guide[GID] and WoWPro.Version ~= WoWProCharDB.Guide[GID].Version then
 	    WoWPro:Print("Resetting Guide "..GID.." due to upgrade.  Forgetting skipped steps.")
-	    WoWProCharDB.Guide[GID] = nil
+	    WoWProCharDB.Guide[GID].completion =  {}
+	    WoWProCharDB.Guide[GID].skipped =  {}
+	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
     end
     
     -- If we resetting guide, wipe the old information and re-create
 	if WoWPro.Resetting then
 	    WoWPro:Print("Manual reset of Guide "..GID..".")
-	    WoWProCharDB.Guide[GID] = nil
+	    WoWProCharDB.Guide[GID].completion =  {}
+	    WoWProCharDB.Guide[GID].skipped =  {}
+	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
     end
 	    
 	-- Creating a new entry if this guide does not have one
@@ -304,8 +308,11 @@ function WoWPro:NextStep(k,i)
 			canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
 			local friendID, friendRep, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh
 			if isChild == 1 then
-			    friendID, standingId, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh = GetFriendshipReputationByID(factionIndex);
+			    self:Print("Rep %s: is child",name)
+			    friendID, standingId, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh = GetFriendshipReputation(factionIndex);
 			end
+			self:Print("Rep %s: repID %s <= standingId %s and repmax %s >= standingId %s and Replevel %s == 0",
+			            name,tostring(repID) , tostring(standingId), tostring(repmax) , tostring(standingId), tostring(replvl))
 			if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
 			end
@@ -464,7 +471,7 @@ function WoWPro:PopulateQuestLog()
 	for QID, questInfo in pairs(WoWPro.QuestLog) do
 		if not WoWPro.oldQuests[QID] then 
 			WoWPro.newQuest = QID 
-			WoWPro:dbp("New Quest: "..WoWPro.QuestLog[QID].title)
+			WoWPro:dbp("New Quest %d: [%s]",QID,WoWPro.QuestLog[QID].title)
 		end
 	end
 	
@@ -487,6 +494,10 @@ end
 -- Cached version of function
 function WoWPro:IsQuestFlaggedCompleted(qid,force)
     local QID = tonumber(qid)
+    if not QID then
+        self:Print("Guide %s has an empty QID!",WoWProDB.char.currentguide)
+        return false;
+    end
     if not WoWProCharDB.completedQIDs then
         WoWProCharDB.completedQIDs = {}
     end
