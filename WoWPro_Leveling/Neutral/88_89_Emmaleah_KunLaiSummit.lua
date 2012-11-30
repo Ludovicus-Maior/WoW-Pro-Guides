@@ -4,11 +4,6 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
--- Date: 2012-11-25 22:21
--- Who: Ludovicus Maior
--- Log: Lots of tweaks up to Zouchin Village.   Played through on two toons.
-
--- URL: http://wow-pro.com/node/3490/revisions/25178/view
 -- Date: 2012-11-03 18:47
 -- Who: Emmaleah
 -- Log: 3 Nov 2012 - Emmaleah - changed coords/note for C Do a Barrel Roll, added change log.
@@ -84,7 +79,7 @@
 WoWPro.Leveling:RegisterGuide('EmmKun8889', 'Kun-Lai Summit', 'Emmaleah', '88', '89', 'EmmTow8990|EmmTow8990', 'Neutral', function()
 return [[
 
-F Welcome to Kun-Lai Summit.|QID|31254,31255|N|This guide assumes you are starting at Grassy Cline in Valley of the Four Winds. If you don't have the quest 'Road to Kun-Lai' it is available in Halfhill.|
+N Welcome to Kun-Lai Summit.|QID|31254;31255|N|This guide assumes you are starting at Grassy Cline in Valley of the Four Winds. If you don't have the quest 'Road to Kun-Lai' it is available in Halfhill.|
 
 C Speak with the Highroad Grummle|QID|31254|FACTION|Alliance|QO|Speak with the Highroad Grummle: 1/1|NC|M|70.08,23.47|Z|Valley of the Four Winds|N|Run up the stairs, keep going up, and up, then follow the path to the tavern.|
 C Speak with the Highroad Grummle|QID|31255|FACTION|Horde|QO|Speak with the Highroad Grummle: 1/1|NC|M|70.08,23.47|Z|Valley of the Four Winds|N|Run up the stairs, keep going up, and up, then follow the path to the tavern.|
@@ -197,7 +192,7 @@ T Farmhand Freedom|QID|30571|M|60.24,85.79|N|To Farmer Chow.|
 A Back to Westwind Rest|QID|31252|FACTION|Alliance|M|60.24,85.79|N|From Farmer Chow.|
 A Back to Eastwind Rest|QID|31253|FACTION|Horde|M|60.24,85.79|N|From Farmer Chow.|
 
-R Mogujia|QID|99999|CC|M|59.55,78.27|
+R Mogujia|QID|30595|CC|M|59.55,78.27|
 A Profiting off of the Past|QID|30595|M|59.59,78.26|N|From Bao Jian.|
 C Profiting off of the Past|QID|30595|S|M|58.40,74.86|N|Groundspawn as well as dropping from the mobs around here.|
 C Deanimate the Reanimated|QID|30593|S|FACTION|Alliance|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
@@ -301,7 +296,7 @@ A Oil Stop|QID|30614|M|65.49,60.82|N|From Slimy Inkstain.|
 A Traffic Issues|QID|30616|M|64.88,60.49|N|From Smokey Sootassle.|
 C Sturdy Yaungol Spear|QID|31421|NC|M|71.2,62.6;70.0,63.8|N|Optional-This BoA strength polearm can be rarely found on weapons racks at Fire Camp Yongqi (and maybe the other yaungol camps).|
 
-R Fire Camp Ruqin|M|63.44,68.53|
+R Fire Camp Ruqin|QID|30614|M|63.44,68.53|
 C Traffic Issues|QID|30616|S|M|63.53,66.80|
 C A Grummle's Luck|QID|30808|S|M|62.24,66.92|N|These are groundspawn 'sparklies', beside things, inside boxes, etc.|
 C Oil Stop|QID|30614|U|80312|M|63.44,68.53;62.64,68.36|N|Click on the oilwell to fill your flask. These respawn pretty fast.|
@@ -403,9 +398,9 @@ C Fisherman's Tale|QID|30935|QO|Speak to Shin Whispercloud to access Zouchin Pro
 f Zouchin Village|QID|30935|M|62.42,30.12|N|At Bo the Wind Claimer.|
 T Fisherman's Tale|QID|30935|M|62.33,29.06|N|To Lorewalker Cho.|
 A It Takes A Village|QID|30944|M|62.33,29.06|N|From Lorewalker Cho.|
-A Make A Fighter Out of Me|QID|30942|M|63.69,30.66|N|From Shomi.|
+A Make A Fighter Out of Me|QID|30942|M|63.73,30.71|N|From Shomi.|
 A What's Yours Is Mine|QID|30945|M|63.38,30.69|N|From Steelbender Doshu.|
-A Checking In|QID|30816|M|63.14,29.40|N|From Li Hai.|
+A Checking In|QID|30816|M|63.17,29.37|N|From Li Hai.|
 A Handle With Care|QID|30943|M|63.48,28.65|N|From Elder Shu. Be sure you finish all of the previous 5 quests before you turn in any of them.|
 C It Takes A Village|QID|30944|M|62.43,28.30|N|The trolls fighting the defenders here are the ones you need to kill with Shomi. Talk to the villagers when they are not in combat to relieve them.|
 C Handle With Care|QID|30943|M|70.04,27.70|S|N|Ground spawn orange flower bushes.|
@@ -417,78 +412,78 @@ C Handle With Care|QID|30943|M|70.04,27.70|US|N|Ground spawn orange flower bushe
 C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|US|
 T Make A Fighter Out of Me|QID|30942|M|71.17,28.66|N|To Shomi.|
 
-R Zouchin Strand|M|60.59,21.25|N|You probably want to avoid the gnolls.|
-T Checking In|QID|30816|M|60.59,21.25|N|To Sage Liao.|
-A Emergency Care|QID|30794|M|60.59,21.22|N|From Sage Liao.|
+R Zouchin Strand|QID|30794|M|60.59,21.25|N|You probably want to avoid the gnolls.|
+T Checking In|QID|30816|M|60.60,21.36|N|To Sage Liao.|
+A Emergency Care|QID|30794|M|60.60,21.36|N|From Sage Liao.|
 C Emergency Care|QID|30794|U|81177|NC|M|60.60,21.38|N|If you aren't able to heal him yourself, grab the healing potion from the hut.|
-T Emergency Care|QID|30794|M|60.55,21.32|N|To Sage Liao.|
-A Justice|QID|30805|M|60.55,21.32|N|From Sage Liao.|
-A The Scent of Life|QID|30806|M|60.55,21.32|N|From Sage Liao.|
-A By the Falls, For the Fallen|QID|30807|M|60.55,21.32|N|From Sage Liao.|
+T Emergency Care|QID|30794|M|60.60,21.36|N|To Sage Liao.|
+A Justice|QID|30805|M|60.60,21.36|N|From Sage Liao.|
+A The Scent of Life|QID|30806|M|60.60,21.36|N|From Sage Liao.|
+A By the Falls, For the Fallen|QID|30807|M|60.60,21.36|N|From Sage Liao.|
 C The Scent of Life|QID|30806|S|M|59.61,22.26|N|Kill all the crabs you see, the shell is somewhat rare. The spices are dropped by the pirates and are sparkly barrels in the pirate camp.|
 C By the Falls, For the Fallen|QID|30807|NC|M|60.17,31.11|N|These are rocks in the falls catchbasin.|
 C Justice|QID|30805|M|62.14,23.99|N|Captain Ribflesh is here at the green dot, the other pirates are scattered all over the area.|
 C The Scent of Life|QID|30806|US|M|59.61,22.26|N|Kill all the crabs you see, the shell is somewhat rare. The spices are dropped by the pirates and are sparkly barrels in the pirate camp.|
-T Justice|QID|30805|M|60.59,21.38|N|To Sage Liao.|
-T The Scent of Life|QID|30806|M|60.59,21.38|N|To Sage Liao.|
-T By the Falls, For the Fallen|QID|30807|M|60.59,21.38|N|To Sage Liao.|
-A Preparing the Remains|QID|30819|M|60.59,21.38|N|From Sage Liao.|
-T Preparing the Remains|QID|30819|M|63.12,29.33|N|To Li Hai.|
-A A Funeral|QID|30820|M|63.12,29.33|N|From Li Hai.|
+T Justice|QID|30805|M|60.60,21.36|N|To Sage Liao.|
+T The Scent of Life|QID|30806|M|60.60,21.36|N|To Sage Liao.|
+T By the Falls, For the Fallen|QID|30807|M|60.60,21.36|N|To Sage Liao.|
+A Preparing the Remains|QID|30819|M|60.60,21.36|N|From Sage Liao.|
+T Preparing the Remains|QID|30819|M|63.17,29.37|N|To Li Hai.|
+A A Funeral|QID|30820|M|63.17,29.37|N|From Li Hai.|
 
 T What's Yours Is Mine|QID|30945|M|63.35,30.68|N|To Steelbender Doshu.|
-r Repair/Restock|M|63.38,30.69|N|You want to repair now, as he is bugged and won't repair in the next phase.|
+r Repair/Restock|QID|31011|M|63.38,30.69|N|You want to repair now, as he is bugged and won't repair in the next phase.|
 T Handle With Care|QID|30943|M|63.23,28.68|N|To Elder Shu. He is upstairs on the balcony.|
 T It Takes A Village|QID|30944|M|62.33,29.06|N|To Lorewalker Cho.|
 A Enemies At Our Door|QID|31011|M|62.33,29.06|N|From Lorewalker Cho.|
-C Enemies At Our Door|QID|31011|M|64.49,28.84|S|QO|Amani Berzerkers slain: 10/10|
-C Enemies At Our Door|QID|31011|NC|M|61.24,29.27|QO|Amani Behemoth slain: 5/5|N|Roll the barrels down the hill.|
+C Enemies At Our Door|QID|31011|M|64.49,28.84|S|QO|Amani Berserker slain: 10/10|N|Kill Amani Berserkers|
+C Enemies At Our Door|QID|31011|M|61.24,29.27|QO|Amani Behemoth slain: 5/5|N|Roll the barrels down the hill.|
 C Enemies At Our Door|QID|31011|M|64.49,28.84|QO|Gurubashi Bloodrider slain: 3/3|N|If you wait till the riders are at the gate, the defenders will assist.|
-C Enemies At Our Door|QID|31011|M|64.49,28.84|US|QO|Amani Berzerker slain: 10/10|
+C Enemies At Our Door|QID|31011|M|64.49,28.84|US|QO|Amani Berserker slain: 10/10|N|Kill Amani Berserkers|
 T Enemies At Our Door|QID|31011|M|62.33,29.06|N|To Lorewalker Cho.|
 A Revelations|QID|30946|M|62.33,29.06|N|From Lorewalker Cho.|
 C Revelations|QID|30946|M|62.46,28.88|NC|N|Prisoner is upstairs.|
 T Revelations|QID|30946|M|62.33,29.06|N|To Lorewalker Cho.|
 A Prophet Khar'zul|QID|31228|M|62.33,29.06|N|From Lorewalker Cho.|
-C Fly to the Prophet's Island|QID|31228|QO|Speak with Mishi in Zouchin Village|M|62.29,29.34|NC|
+C Fly to the Prophet's Island|QID|31228|QO|Speak with Mishi in Zouchin Village: 1/1|M|62.29,29.34|NC|
 C Prophet Khar'zul|QID|31228|M|76.4,9.2|N|Kill 12 trolls as you work your way to the waypoint, where you will find the prophet.|
-F Zouchin Village|QID|31228|M|76.17,11.38|CC|N|Talk to Mishi for a ride back to the village.|
+F Zouchin Village|QID|31228|M|76.17,11.38|CC|N|Talk to Mishi for a ride back to the village.  If he is not there, go back up the stairs to the top and go back down.|
 C A Funeral|QID|30820|NC|M|66.96,33.44|N|Click on the incense to light it.|
-T A Funeral|QID|30820|M|67.05,33.44|N|To Sage Liao.|
+T A Funeral|QID|30820|M|67.04,33.34|N|To Sage Liao.|
 T Prophet Khar'zul|QID|31228|M|62.33,29.06|N|To Lorewalker Cho.|
-H One Keg|QID|99999|N|Fly if you didn't reset your hearthstone earlier.|
+H One Keg|QID|30592|N|Fly if you didn't reset your hearthstone earlier from "The Lucky Traveller".|
 
 A The Burlap Trail: To Burlap Waystation|QID|30592|M|58.09,61.46|N|From Brother Lintpocket.|
 C The Burlap Trail: To Burlap Waystation|QID|30592|M|53.14,66.57|N|Escort them to burlap waystation, there are at least 3 attacks and they will die if you don't help.|
-T The Burlap Trail: To Burlap Waystation|QID|30592|M|51.69,67.80|N|To Brother Trailscenter.|
-A The Rabbitsfoot|QID|30602|M|58.04,61.49|M|51.69,67.80|N|From Brother Trailscenter.|
-C The Rabitsfoot|QID|30602|NC|M|49.07,70.42|N|He is hanging from a tree.|
+T The Burlap Trail: To Burlap Waystation|QID|30592|M|51.66,67.83|N|To Brother Trailscenter.|
+A The Rabbitsfoot|QID|30602|M|58.04,61.49|M|51.66,67.83|N|From Brother Trailscenter.|
+C The Rabbitsfoot|QID|30602|NC|M|49.07,70.42|N|He is hanging from a tree.|
 A The Broketooth Ravage|QID|30603|M|49.07,70.42|N|From Brother Rabbitsfoot.|
 K Mo Mo|QID|30603|T|Mo Mo|L|81137|M|48.2,72.8|N|Up the hill, in the cave, there is a treasure chest in the cave also, you probably want to loot it.|
-T The Rabitsfoot|QID|30602|M|51.99,67.28|N|To Brother Rabbitsfoot.|
-T The Broketooth Ravage|QID|30603|M|51.99,67.28|N|To Brother Rabbitsfoot.|
-A A Monkey Idol|QID|30599|M|51.99,67.28|N|From Brother Rabbitsfoot.|
-A No Pack Left Behind|QID|30600|M|52.04,67.24|N|From Brother Rabbitsfoot.|
-A Breaking Broketooth|QID|30604|M|52.04,67.24|N|From Brother Rabbitsfoot.|
+T The Rabbitsfoot|QID|30602|M|51.97,67.21|N|To Brother Rabbitsfoot.|
+T The Broketooth Ravage|QID|30603|M|51.97,67.21|N|To Brother Rabbitsfoot.|
+A A Monkey Idol|QID|30599|M|51.97,67.21|N|From Brother Rabbitsfoot.|
+A No Pack Left Behind|QID|30600|M|51.97,67.21|N|From Brother Rabbitsfoot.|
+A Breaking Broketooth|QID|30604|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 C Breaking Broketooth|QID|30604|S|M|55.44,70.84|
 C No Pack Left Behind|QID|30600|S|NC|M|53.35,74.45|N|These are sparkly grummle packs lying on the ground.|
 K Kill and loot Hateful Ko Ko|QID|30599|L|80429|T|Hateful Ko Ko|M|52.29,71.43|
 C Destroy Ko Ko's Altar|QID|30599|NC|QO|Destroy Ko Ko's Altar: 1/1|M|52.29,71.43|
 K Kill and loot Dak Dak|QID|30599|L|80428|T|Dak Dak|M|52.29,71.43|N|Dak Dak is located inside the cave, he wanders around, but Blizzard has given a skull icon to help find him. Need to manually check this off.|; i dont know why the first one will autocomplete and the other 2 wont. I have checked the item ID's in game
 C Destroy Dak Dak's Altar|QID|30599|NC|QO|Destroy Dak Dak's Altar: 1/1|M|52.29,71.43|
-C Hozen Warrior Spear|QID|31413|NC|L|86394|M|51.5,74|CC|N|Optional-This BoA agility polearm can be rarely found in the room adjacent to Dak Dak's alter (in the water).|
+C Hozen Warrior Spear|QID|31413|NC|L|86394|M|51.56,73.95|CC|N|Optional-This BoA agility polearm can be rarely found in the room adjacent to Dak Dak's alter (in the big rock in the water).|
 K Kill and Loot Tak Tak|QID|30599|L|80430|T|Tak Tak|M|56.78,70.97|N|Need to manually check this off.|
 C Destroy Tak Tak's Altar|QID|30599|NC|QO|Destroy Tak Tak's Altar: 1/1|M|56.78,70.97|
 C No Pack Left Behind|QID|30600|US|M|53.35,74.45|
 C Breaking Broketooth|QID|30604|US|M|55.44,70.84|
-T A Monkey Idol|QID|30599|M|51.94,67.24|N|To Brother Rabbitsfoot.|
-T No Pack Left Behind|QID|30600|M|51.94,67.24|N|To Brother Rabbitsfoot.|
-T Breaking Broketooth|QID|30604|M|51.94,67.24|N|To Brother Rabbitsfoot.|
-A Bros before Hozen|QID|30605|M|51.94,67.24|N|From Brother Rabbitsfoot.|
+T A Monkey Idol|QID|30599|M|51.97,67.21|N|To Brother Rabbitsfoot.|
+T No Pack Left Behind|QID|30600|M|51.97,67.21|N|To Brother Rabbitsfoot.|
+T Breaking Broketooth|QID|30604|M|51.97,67.21|N|To Brother Rabbitsfoot.|
+A Bros Before Hozen|QID|30605|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 
 R Knucklethump Hole|QID|30605|M|50.53,64.21|CC|N|somewhere in this area will be a Hozen Treasure Cache, most commonly in the room with Poot Poot, but I have seen it in the little caves too.|
-C Bros before Hozen|QID|30605|M|50.53,64.21|N|Brother Yakshoe is on top of a little hill on the edge of Knucklethump Hole.|
-T Bros before Hozen|QID|30605|M|50.60,64.08|N|To Brother Yakshoe.|
+C Bros Before Hozen|QID|30605|M|50.53,64.21|N|Brother Yakshoe is on top of a little hill on the edge of Knucklethump Hole.|
+T Bros Before Hozen|QID|30605|M|50.60,64.08|N|To Brother Yakshoe.|
 A Hozen Love Their Keys|QID|30607|M|50.60,64.08|N|From Brother Yakshoe.|
 A The Snackrifice|QID|30608|M|50.60,64.08|N|From Brother Yakshoe.|
 A Thumping Knucklethump|QID|30606|M|50.60,64.08|N|From Brother Yakshoe.|
@@ -496,28 +491,28 @@ C Thumping Knucklethump|S|QID|30606|M|50.47,62.78|
 C The Snackrifice|QID|30608|M|50.58,62.54|N|Attack the rope they are hanging from.|
 C Thumping Knucklethump|US|QID|30606|M|50.47,62.78|
 K Cho Cho the Wicked|QID|30607|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key. Look around for a treasure chest to loot for gold and XP. Click on the lock to release Poot Poot. Poot Poot gives you a ride out.|
-T Hozen Love Their Keys|QID|30607|M|52.00,67.22|N|To Brother Yakshoe.|
-T The Snackrifice|QID|30608|M|52.00,67.22|N|To Brother Yakshoe.|
-A Grummle! Grummle! Grummle!|QID|30610|M|52.00,67.22|N|From Brother Yakshoe.|
+T Hozen Love Their Keys|QID|30607|M|52.02,67.18|N|To Brother Yakshoe.|
+T The Snackrifice|QID|30608|M|52.02,67.18|N|To Brother Yakshoe.|
+A Grummle! Grummle! Grummle!|QID|30610|M|52.02,67.18|N|From Brother Yakshoe.|
 T Thumping Knucklethump|QID|30606|M|51.98,67.21|N|To Brother Rabbitsfoot.|
 A Unleash The Yeti!|QID|30611|M|51.98,67.21|N|From Brother Rabbitsfoot.|
 
-R Dooker Dome|QID|30611|M|46.56,62.95|
+R The Dooker Dome|QID|30611|M|46.56,62.95|
 C Unleash The Yeti!|QID|30611|M|46.56,62.95|N|Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
 C Grummle! Grummle! Grummle!|QID|30610|M|44.84,63.64|M|Click on the packs (sparkly groundspawn), to tell the Grummle's to take it away.|
-T Unleash The Yeti!|QID|30611|M|45.98,64.08|N|To Brother Rabbitsfoot.|
-T Grummle! Grummle! Grummle!|QID|30610|M|45.98,64.08|N|To Brother Yakshoe.|
-A The Leader Hozen|QID|30612|M|45.98,64.08|N|From Brother Rabbitsfoot.|
+T Grummle! Grummle! Grummle!|QID|30610|M|45.94,64.05|N|To Brother Yakshoe.|
+T Unleash The Yeti!|QID|30611|M|45.91,64.06|N|To Brother Rabbitsfoot.|
+A The Leader Hozen|QID|30612|M|45.91,64.06|N|From Brother Rabbitsfoot.|
 C The Leader Hozen|QID|30612|M|46.15,63.24|N|Lots of moving in the fight to avoid the 'bad' stuff.|
-T The Leader Hozen|QID|30612|M|52.01,67.26|N|To Brother Rabbitsfoot.|
+T The Leader Hozen|QID|30612|M|51.97,67.21|N|To Brother Rabbitsfoot.|
 
-A The Burlap Trail: To Kota Basecamp|QID|30692|M|51.69,67.80|N|From Brother Trailscenter.|
+A The Burlap Trail: To Kota Basecamp|QID|30692|M|51.66,67.83|N|From Brother Trailscenter.|
 C The Burlap Trail: To Kota Basecamp|QID|30692|M|43.77,69.04|M|Escort them to Kota Basecamp, yes, they will die if you don't help.|
-T The Burlap Trail: To Kota Basecamp|QID|30692|M|42.45,68.96|N|To Brother Oilyak.|
-f Kota Basecamp|QID|30699|M|42.78,69.58|N|At Uncle Eastwind.|
-h Kota Basecamp|QID|99999|M|42.66,69.72|N|Set your hearthstone at Clover Keeper.|
-A Kota Blend|QID|30744|M|42.47,69.60|N|From Uncle Keenbean.|
-A Trouble Brewing|QID|30745|M|42.47,69.60|N|From Uncle Keenbean.|
+f Kota Basecamp|QID|30692|M|42.81,69.63|N|At Uncle Eastwind.|
+T The Burlap Trail: To Kota Basecamp|QID|30692|M|42.45,68.91|N|To Brother Oilyak.|
+h Kota Basecamp|QID|30744|M|42.67,69.76|N|Set your hearthstone at Clover Keeper.|
+A Kota Blend|QID|30744|M|42.42,69.65|N|From Uncle Keenbean.|
+A Trouble Brewing|QID|30745|M|42.42,69.65|N|From Uncle Keenbean.|
 A Shut it Down|QID|30742|M|42.34,69.73|N|From Cousin Gootfur.|
 A Gourmet Kafa|QID|30743|M|42.34,69.73|N|From Cousin Gootfur.|
 C Gourmet Kafa|QID|30743|S|M|39.99,71.67|N|Flag the droppings.|
