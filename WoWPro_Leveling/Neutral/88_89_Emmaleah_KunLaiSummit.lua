@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-11-27 18:46
+-- Who: Emmaleah
+-- Log:  added NC) Added to check off manually on the rare "lost" items.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25215/view
+-- Date: 2012-11-25 22:21
+-- Who: Ludovicus Maior
+-- Log: Lots of tweaks up to Zouchin Village.   Played through on two toons.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25178/view
 -- Date: 2012-11-03 18:47
 -- Who: Emmaleah
 -- Log: 3 Nov 2012 - Emmaleah - changed coords/note for C Do a Barrel Roll, added change log.
@@ -196,12 +206,12 @@ R Mogujia|QID|30595|CC|M|59.55,78.27|
 A Profiting off of the Past|QID|30595|M|59.59,78.26|N|From Bao Jian.|
 C Profiting off of the Past|QID|30595|S|M|58.40,74.86|N|Groundspawn as well as dropping from the mobs around here.|
 C Deanimate the Reanimated|QID|30593|S|FACTION|Alliance|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
-l Terracotta Head|QID|31422|L|86427|FACTION|Alliance|M|59.25,73|N|Another of the random items worth gold and XP to loot.|
+C Terracotta Head|QID|31422|L|86427|FACTION|Alliance|M|59.25,73|NC|N|Another of the random items worth gold and XP to loot.|
 K Mogujia Soul-Caller|QID|30619|FACTION|Alliance|T|Mogujia Soul-Caller|QO|Mogujia Soul-Caller slain: 1/1|M|58.23,71.21|
 C Deanimate the Reanimated|QID|30593|US|FACTION|Alliance|M|59.20,72.21|
 
 C Deanimate the Reanimated|QID|30594|S|FACTION|Horde|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
-l Terracotta Head|QID|31422|FACTION|Horde|L|86427|M|59.25,73|N|Another of the random items worth gold and XP to loot.|
+C Terracotta Head|QID|31422|FACTION|Horde|L|86427|M|59.25,73|NC||N|Another of the random items worth gold and XP to loot.|
 K Mogujia Soul-Caller|QID|30620|FACTION|Horde|T|Mogujia Soul-Caller|QO|Mogujia Soul-Caller slain: 1/1|M|58.23,71.21|
 C Deanimate the Reanimated|QID|30594|US|FACTION|Horde|M|59.20,72.21|
 C Profiting off of the Past|QID|30595|US|M|58.40,74.86|
@@ -220,7 +230,7 @@ A Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pick
 A In Tents Channeling|QID|30652|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
 R Fire Camp Ordo |QID|30652|FACTION|Alliance|M|50.50,78.59|
 C Pandaren Prisoners|QID|30650|S|FACTION|Alliance|M|49.67,80.36|N|The prisoners are throughout the Fire Camp Ordo.|
-C Barrels of Fun|QID|30651|FACTION|Alliance|S|M|49.42,80.61|N|Pick up a sparkly barrell (unique - one at a time) and place it where the gears are on your minimap.|
+C Barrels of Fun|QID|30651|FACTION|Alliance|S|M|49.42,80.61|N|Pick up a sparkly barrel (unique - one at a time) and place it where the gears are on your minimap.|
 C In Tents Channeling|QID|30652|FACTION|Alliance|M|50.50,78.59|N|Blizzard has kindly marked the locations of the mobs to kill|
 C Barrels of Fun|QID|30651|FACTION|Alliance|US|M|49.42,80.61|N|Pick up a sparkly barrell (unique - one at a time) and place it where the gears are on your minimap.|
 T In Tents Channeling|QID|30652|FACTION|Alliance|N|To UI Alert.|
@@ -248,7 +258,7 @@ A In Tents Channeling|QID|30657|FACTION|Horde|M|62.92,80.22|N|From General Nazgr
 A Pandaren Prisoners|QID|30655|FACTION|Horde|M|62.36,79.64|N|From Elder Shiao.|
 R Fire Camp Ordo |QID|30657|FACTION|Horde|M|47.76,80.17|
 C Pandaren Prisoners|QID|30655|FACTION|Horde|S|M|49.58,78.89|The prisoners are throughout the Fire Camp Ordo.|
-C Barrels of Fun|QID|30656|FACTION|Horde|S|M|47.99,81.27|N|Pick up a sparkly barrell (unique - one at a time) and place it where the gears are on your minimap|
+C Barrels of Fun|QID|30656|FACTION|Horde|S|M|47.99,81.27|N|Pick up a sparkly barrel (unique - one at a time) and place it where the gears are on your minimap|
 C In Tents Channeling|QID|30657|FACTION|Horde|M|47.76,80.17|N|Blizzard has kindly marked the locations of the mobs to kill|
 C Barrels of Fun|QID|30656|FACTION|Horde|US|M|47.99,81.27|N|Pick up a sparkly barrell (unique - one at a time) and place it where the gears are on your minimap|
 T In Tents Channeling|QID|30657|FACTION|Horde|N|To UI Alert,|
@@ -294,7 +304,7 @@ T Back in Yak|QID|30492|M|64.71,61.76|N|To Lucky Eightcoins.|
 A A Grummle's Luck|QID|30808|M|64.71,61.76|N|From Lucky Eightcoins.|
 A Oil Stop|QID|30614|M|65.49,60.82|N|From Slimy Inkstain.|
 A Traffic Issues|QID|30616|M|64.88,60.49|N|From Smokey Sootassle.|
-C Sturdy Yaungol Spear|QID|31421|NC|M|71.2,62.6;70.0,63.8|N|Optional-This BoA strength polearm can be rarely found on weapons racks at Fire Camp Yongqi (and maybe the other yaungol camps).|
+C Sturdy Yaungol Spear|QID|31421|NC|M|71.2,62.6;70.0,63.8|N|Optional-This BoA strength polearm can be rarely found on weapons racks at Fire Camp Yongqi (and maybe the other yaungol camps). When you don't find it, manually check this step off.|
 
 R Fire Camp Ruqin|QID|30614|M|63.44,68.53|
 C Traffic Issues|QID|30616|S|M|63.53,66.80|
@@ -343,7 +353,7 @@ C Instant Courage|QID|30601|M|57.54,47.44|N|These guys are hiding in their baske
 C Resupplying One Keg|QID|30618|M|56.33,50.88|N|Ground spawn sparklies.|
 C They Stole My Luck!|QID|30621|M|57.77,49.30|US|
 C Resupplying One Keg|QID|30618|M|56.33,50.88|N|Ground spawn sparklies.|
-l Stolen Sprite Treasure|QID|31415|M|56.82,48.99|N|Its a treasure chest, loot it for XP/gold.  It may spawn at multiple spots in the cave.|
+C Stolen Sprite Treasure|QID|31415|NC|M|56.82,48.99|N|Its a treasure chest, loot it for XP/gold.  It is an instant respawn and can appear at multiple spots in the cave.|
 C Instant Courage|QID|30601|M|57.54,47.44|N|It's ok to leave the Guides to die if you want to zerg (or hearth) out.|
 
 H One Keg|QID|30618|N|Run if you didn't reset your hearthstone.|
@@ -356,13 +366,13 @@ C Comin' Round the Mountain|QID|30487|M|57.33,61.55|N|Hop in the wagon. He will 
 T Comin' Round the Mountain|QID|30487|M|48.14,49.04|N|To Lucky Bluestring.|
 A One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|From Lucky Bluestring.|
 C One Traveler's Misfortune|QID|30683|M|50.22,49.39|N|Click on the overturned cart, then fight the statues and finally the  General.|
-l Rikktik's Tick Remover|QID|31419|L|86430|M|51.90,48.62;52.55,56.52|CS|N|Another gray item worth gold and XP, this one is located in a cave just down the road.|
+C Rikktik's Tick Remover|QID|31419|L|86430|M|51.90,48.62;52.55,56.52|CS|NC|N|Another gray item worth gold and XP, this one is located in a cave just down the road.|
 T One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|To Lucky Bluestring.|
 A Seeker's Folly|QID|30684|M|48.14,49.04|N|From Lucky Bluestring.|
 C Seeker's Folly|QID|30684|M|43.22,51.99|N|Stop (click) at each shrine as you go up the hill, avoiding the 'bad' stuff.|
 T Seeker's Folly|QID|30684|M|43.79,51.05|N|To Lorewalker Cho.|
 A The Tongue of Ba-Shon|QID|30829|M|43.79,51.05|N|From Lorewalker Cho.|
-C Tablet of Ren Yun|QID|31417|NC|M|44.7,52.4|CC|N|Optional-This BoP recipe can rarely be found beside a statue/shrine to Ren Yun at the top of Mt Neverest.|
+C Tablet of Ren Yun|QID|31417|NC|M|44.7,52.4|N|Optional-This BoP recipe can rarely be found beside a statue/shrine to Ren Yun at the top of Mt Neverest.  Check this step off manually when you don't find it.|
 C The Tongue of Ba-Shon|QID|30829|M|43.51,51.38|N|Tell Cho you are ready to begin, then protect him while he does his spell.|
 T The Tongue of Ba-Shon|QID|30829|M|43.79,51.05|N|To Lorewalker Cho.|
 A Staying Connected|QID|30795|M|43.79,51.05|N|From Lorewalker Cho.|
@@ -393,7 +403,7 @@ T Chasing the Storm|QID|30802|U|81712|M|51.31,48.26|N|To Image of Lorewalker Cho
 A Fisherman's Tale|QID|30935|M|51.31,48.26|N|From Image of Lorewalker Cho.|
 
 C Fisherman's Tale|QID|30935|QO|Speak to Mishi outside of Lei Shen's Tomb: 1/1|NC|M|52.98,46.36|N|Go back up the stairs out of the tomb, Mishi is on your left.|
-l Ancient Mogu Tablet|QID|31420|L|86471|M|64.21,45.11|N|grey item worth gold and XP, behind the statue on your left.|
+C Ancient Mogu Tablet|QID|31420|L|86471|M|64.21,45.11|NC|N|grey item worth gold and XP, behind the statue on your left.|
 C Fisherman's Tale|QID|30935|QO|Speak to Shin Whispercloud to access Zouchin Province: 1/1|NC|M|63.46,40.14|N|Go down the Path deeper into the mountain to find Shin.|
 f Zouchin Village|QID|30935|M|62.42,30.12|N|At Bo the Wind Claimer.|
 T Fisherman's Tale|QID|30935|M|62.33,29.06|N|To Lorewalker Cho.|
@@ -406,7 +416,7 @@ C It Takes A Village|QID|30944|M|62.43,28.30|N|The trolls fighting the defenders
 C Handle With Care|QID|30943|M|70.04,27.70|S|N|Ground spawn orange flower bushes.|
 C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|S|N|all trolls must die...|
 C What's Yours Is Mine|QID|30945|S|M|71.17,28.66|N|The blades drop from the trolls you don't need to kill with Shomi.|
-l Statue of Xuen|QID|31416|L|86422|M|72.03,34.00|N|Located in the middle of the pond.|
+C Statue of Xuen|QID|31416|NC|L|86422|M|72.03,34.00|N|Located in the middle of the pond.|
 C What's Yours Is Mine|QID|30945|US|M|71.17,28.66|N|The blades drop from the trolls you don't need to kill with Shomi.|
 C Handle With Care|QID|30943|M|70.04,27.70|US|N|Ground spawn orange flower bushes.|
 C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|US|
@@ -522,7 +532,7 @@ C Kota Blend|QID|30744|U|81054|S|M|36.38,76.94|Pick up the betties from the grou
 T Kota Blend|QID|30744|N|To UI Alert.|M|36.38,76.94|
 A A Fair Trade|QID|30746|N|From UI Alert.|M|36.38,76.94|
 C Gourmet Kafa|QID|30743|US|M|36.95,76.16|N|Flag the droppings.|
-C Kafa Press|QID|31304|NC|M|37.5,78.0;35.2,76.3|N|Optional, Talk to 'Frozen Trail Packer' who can be rarely found at the back of the cave for a clicky haste item (and XP).|
+C Kafa Press|QID|31304|NC|M|37.5,78.0;35.2,76.3|N|Optional, Talk to 'Frozen Trail Packer' who can be rarely found at the back of the cave for a clicky haste item (and XP). Manually check this step off when you don't find it.|
 C Trouble Brewing|QID|30745|US|M|37.83,77.90|N|Yeti's are located in the caves, any of the caves will do.|
 C Lost Adventurer's Belongings|QID|31418|NC|M|36.7,79.8|N|This one time loot item worth gold and XP is located at the spawn spot of the 87 silver elite Ski'thik. If he is up, you may want to skip this one.|
 C Shut it Down|QID|30742|US|M|40.67,73.42|N|Goats are hard to miss.|
