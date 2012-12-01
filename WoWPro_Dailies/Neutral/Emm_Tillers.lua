@@ -189,7 +189,7 @@ A A Beautiful Brooch|QID|31329|REP|Tina Mudclaw;1280;Friend-Best Friend|N|From '
 T Lost and Lonely|QID|30526|M|42.4,50.2|N|To Lost Dog.|
 T Stalling the Ravage|QID|30335|M|52.23,48.83|N|To Farmer Yoon.|
 T The White Turnip Treatment|QID|31675|M|52.23,48.83|N|To Farmer Yoon.|
-T Red Blossom Leeks, You Make the Croc-in' World go Down|M|52.21,48.82|N|To Farmer Yoon.|
+T Red Blossom Leeks, You Make the Croc-in' World go Down|QID|31673|M|52.21,48.82|N|To Farmer Yoon.|
 T A Pumpkin-y Perfume|QID|31672|M|52.21,48.82|N|To Farmer Yoon.|
 T It's Melon Time|QID|31942|M|52.21,48.82|N|To Farmer Yoon.|
 T Squash Those Foul Odors|QID|31941|M|52.21,48.82|N|To Farmer Yoon.|
@@ -362,7 +362,7 @@ T Growing the Farm III: The Mossy Boulder|QID|30529|M|44.6,34|N|If Haohan is not
 ;BUY THE PLOW
 B The "Earth-Slasher" Master Plow|QID|31938|PRE|30529|M|53.2,51.8|L|89814|N|Much faster as you can plow 4 plots with one click.|
 U The "Earth-Slasher" Master Plow|QID|31938|M|53.2,51.8|U|89814|N|Click the item you just bought.|
-A The "Earth-Slasher" Master Plow|QID|31938|M|53.2,51.8N|From the item you just bought.|
+A The "Earth-Slasher" Master Plow|QID|31938|PRE|30529|M|53.2,51.8N|From the item you just bought.|
 T The "Earth-Slasher" Master Plow|QID|31938|M|52.20,48.86|N|To Farmer Yoon who installs it for you. This is unfortuantly an item that you will have to pick up and use from your inventory.|
 
 ;Jogu's one time chain|REP|1273
