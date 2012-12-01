@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-11-30 13:17
+-- Who: Ludovicus Maior
+-- Log: Added more QIDS to steps missing them so they do not show up again on guide reset.
+--	Coord update for Zouchin Strand, Burlap Trail, Knucklethump Hole, The Dooker Dome, and the start of the Burlap trail.  Need to add sticky steps for The Dooker Dome.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25217/view
 -- Date: 2012-11-27 18:46
 -- Who: Emmaleah
 -- Log:  added NC) Added to check off manually on the rare "lost" items.
