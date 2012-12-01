@@ -260,12 +260,14 @@ function WoWPro:NextStep(k,i)
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repID,repmax = string.split("-",temprep)
 			if repmax== nil then repmax = repID end
+			local Friendship = false;
 			-- Canonicalize the case
 			rep = string.lower(rep)
 			factionIndex = tonumber(factionIndex)
 			repID = string.lower(repID)
 			repmax = string.lower(repmax) 
 			replvl = tonumber(replvl) or 0
+
 
             -- STD Reps
 			if repID == 'hated' then repID = 1 end
@@ -277,12 +279,12 @@ function WoWPro:NextStep(k,i)
 			if repID == 'revered' then repID = 7 end
 			if repID == 'exalted' then repID = 8 end
 			-- Friendships
-			if repID == 'stranger' then repID = 0 end
-			if repID == 'acquaintance' then repID = 1 end
-			if repID == 'buddy' then repID = 2 end
-			if repID == 'friend' then repID = 3 end
-			if repID == 'good friend' then repID = 4 end
-			if repID == 'best friend' then repID = 5 end
+			if repID == 'stranger' then repID = 0 ; Friendship = true end
+			if repID == 'acquaintance' then repID = 1 ; Friendship = true  end
+			if repID == 'buddy' then repID = 2 ; Friendship = true  end
+			if repID == 'friend' then repID = 3 ; Friendship = true  end
+			if repID == 'good friend' then repID = 4 ; Friendship = true  end
+			if repID == 'best friend' then repID = 5 ; Friendship = true  end
 
             -- STD Reps
 			if repmax == 'hated' then repmax = 1
@@ -294,25 +296,25 @@ function WoWPro:NextStep(k,i)
 			elseif repmax == 'revered' then repmax = 7
 			elseif repmax == 'exalted' then repmax = 8
 			-- Friendships
-			elseif repmax == 'stranger' then repmax = 0
-			elseif repmax == 'acquaintance' then repmax = 1
-			elseif repmax == 'buddy' then repmax = 2
-			elseif repmax == 'friend' then repmax = 3
-			elseif repmax == 'good friend' then repmax = 4
-			elseif repmax == 'best friend' then repmax = 5
+			elseif repmax == 'stranger' then repmax = 0 ; Friendship = true 
+			elseif repmax == 'acquaintance' then repmax = 1 ; Friendship = true 
+			elseif repmax == 'buddy' then repmax = 2 ; Friendship = true 
+			elseif repmax == 'friend' then repmax = 3 ; Friendship = true 
+			elseif repmax == 'good friend' then repmax = 4 ; Friendship = true 
+			elseif repmax == 'best friend' then repmax = 5 ; Friendship = true 
 			else repmax = 8 end
             
 			skip = true --reputation steps skipped by default
 			
-			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
-			canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
+			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
 			local friendID, friendRep, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh
-			if isChild == 1 then
-			    self:Print("Rep %s: is child",name)
+			if Friendship then
 			    friendID, standingId, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh = GetFriendshipReputation(factionIndex);
+			else
+			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
 			end
-			self:Print("Rep %s: repID %s <= standingId %s and repmax %s >= standingId %s and Replevel %s == 0",
-			            name,tostring(repID) , tostring(standingId), tostring(repmax) , tostring(standingId), tostring(replvl))
+			self:Print("Rep %s Friendship=%s: repID %s <= standingId %s and repmax %s >= standingId %s and Replevel %s == 0",
+			            name,tostring(Friendship),tostring(repID) , tostring(standingId), tostring(repmax) , tostring(standingId), tostring(replvl))
 			if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
 			end
