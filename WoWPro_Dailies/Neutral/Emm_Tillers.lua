@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2012-12-02 09:14
+-- Who: Emmaleah
+-- Log: 1 Dec 2012 - Emmaleah - adjusted |REP| tags for quests that are offered midway thru rep levels.
+
+-- URL: http://wow-pro.com/node/3508/revisions/25222/view
 -- Date: 2012-12-01 04:30
 -- Who: Emmaleah
 -- Log: RC1 of Tillers guide  - Emmaleah 30 Nov 2012 - see To Do notes in header
@@ -160,8 +165,7 @@ K Monstrous Plainshawk|QID|30475|T|Monstrous Plainshawk|L|80232|M|41.98,41.92; 4
 C Blue Freshwater Pearl|QID|30476|M|43,28|N|This is found in any of the giant clams in the lake.|
 C Pick a Goldenfire Orchid|QID|30479|M|41.98,41.92; 45.97,78.98; 37.36,36.98|NC|N|This is a ground spawn up on this mesa area.|
 
-A Lost and Lonely|QID|30526|PRE|31949|REP|The Tillers;1272;revered|M|42.4,50.2|N|From Lost Dog. This quest is offered after 12600 Revered, you will have to manually check it off before then.|;this doesnt actually have a prereq quest, but using pre tag to keep it from showing up as early.
-C Weed War II|QID|30321|M|38.5,51.81|NC|N|This is just like the version you did leveling. You can stay mounted while you do it.|
+A Lost and Lonely|QID|30526|REP|The Tillers;1272;revered;12600|M|42.4,50.2|N|From Lost Dog.|C Weed War II|QID|30321|M|38.5,51.81|NC|N|This is just like the version you did leveling. You can stay mounted while you do it.|
 C Pest Problems|QID|30319|M|39.4,45.4|N|Click on the marmots, avoid the bug swarms as they slow you down. You can just use your own AoE abilities to make this go a lot faster.|
 C Haohan's Vote II: The Real Culprits|QID|30522|M|38,45|N|You can examine the area while still mounted.|
 A A Dish for Chee Chee|QID|30402|M|34.44,46.84|REP|Chee Chee;1277;Stranger-Good Friend|N|To Chee Chee - Valley Stir Fry - Blue Feather. Check this off manually if you have no food or treasure for him.|
@@ -281,7 +285,7 @@ T The Lesser of Two Evils|QID|30333|M|52.21,48.82|N|To Farmer Yoon.|
 T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.21,48.82|N|To Farmer Yoon.|
 T The Kunzen Hunter-Chief|QID|30336|M|52.21,48.82|N|To Farmer Yoon.|
 T Simian Sabotage|QID|30337|M|52.21,48.82|N|To Farmer Yoon.|
-A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|PRE|31945|REP|The Tillers;1272;honored|M|52.28,48.74|N|From Farmer Yoon. This will not be offored untill 5500 thru honored, before then you will have to manually check it off.|
+A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|PRE|31945|REP|The Tillers;1272;honored;5500|M|52.28,48.74|N|From Farmer Yoon.|
 
 ;CLEAR THE WEEDS - 0 Honored
 A Growing the Farm I: The Weeds|QID|30260|PRE|31945|REP|The Tillers;1272;honored|M|52.25,48.79|From Farmer Yoon.|
@@ -302,7 +306,7 @@ A Growing the Farm III: The Mossy Boulder|QID|30529|PRE|30524|REP|The Tillers;12
 T Growing the Farm III: The Mossy Boulder|QID|30529|M|44.6,34|N|If Haohan is not at the market he can be found on his farm (where the green dot is). After you talk to him, he and Thundar will help, Check in with Haohan to start a 15 minute timer (buff) for Thundar to finish breaking the rock, and then you can farm your new plots.|
 
 ;FARMER FUNG's VOTE - 4500 Revered
-A Farmer Fung's Vote I: Yak Attack|PRE|31946|QID|30517|PRE|31946|REP|The Tillers;1272;revered|M|52.20,48.86|N|From Farmer Yoon. This quest is offered after 4500 revered, you will have to manually check it off before then.|
+A Farmer Fung's Vote I: Yak Attack|PRE|31946|QID|30517|PRE|31946|REP|The Tillers;1272;revered;4500|M|52.20,48.86|N|From Farmer Yoon. This quest is offered after 4500 revered, you will have to manually check it off before then.|
 T Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.2,33.8|N|To Farmer Fung.|
 A Farmer Fung's Vote II: On the Loose|PRE|30517|QID|30518|M|48.2,33.8|N|From Farmer Fung.|
 T Farmer Fung's Vote II: On the Loose|QID|30518|M|48.2,33.8|N|To Farmer Fung.|
@@ -326,7 +330,7 @@ A Nana's Vote III: Witchberry Julep|QID|31949|PRE|31948|M|54.6,47|N|From Nana Mu
 T Nana's Vote III: Witchberry Julep|QID|31949|M|54.6,47|N|To Nana Mudclaw.|
 
 ;HAOHAN'S VOTE - 16800 Revered - only in town as its all (except the one step) done with farmer yoon (who is in town)
-A Haohan's Vote I: Bungalow Break-In|PRE|31949|QID|30521|REP|The Tillers;1272;revered|M|52.20,48.86|N|From Farmer Yoon. This quest is offered after 16800 Revered, you will have to manually check it off before then.|
+A Haohan's Vote I: Bungalow Break-In|PRE|31949|QID|30521|REP|The Tillers;1272;revered;16800|M|52.20,48.86|N|From Farmer Yoon.|
 T Haohan's Vote I: Bungalow Break-In|QID|30521|M|44.6,34|N|To Haohan Mudclaw.|
 A Haohan's Vote II: The Real Culprits|PRE|30521|QID|30522|M|44.6,34|N|Go investigate the shed, if you find something maybe he will be happier.|
 T Haohan's Vote II: The Real Culprits|QID|30522|M|52.20,48.86|N|To Farmer Yoon.|
@@ -400,7 +404,7 @@ T "Thunder King" Pest Repellers|QID|31937|M|52.20,48.86|N|To Farmer Yoon who ins
 ;BUY THE PLOW
 B The "Earth-Slasher" Master Plow|QID|31938|PRE|30529|M|53.2,51.8|L|89814|N|Much faster as you can plow 4 plots with one click.|
 U The "Earth-Slasher" Master Plow|QID|31938|M|53.2,51.8|U|89814|N|Click the item you just bought.|
-A The "Earth-Slasher" Master Plow|QID|31938|PRE|30529|M|53.2,51.8N|From the item you just bought.|
+A The "Earth-Slasher" Master Plow|QID|31938|M|53.2,51.8N|From the item you just bought.|
 T The "Earth-Slasher" Master Plow|QID|31938|M|52.20,48.86|N|To Farmer Yoon who installs it for you. This is unfortuantly an item that you will have to pick up and use from your inventory.|
 
 ;Jogu's one time chain|REP|1273
@@ -422,7 +426,7 @@ A A Second Hand|QID|30534|M|52,49|N|From Tillers Shrine.|
 C A Second Hand|QID|30534|N|The only advantage to which friend to pick is so that you don't have to walk as far to see Gina (quartermaster) or Jogu (crop predictions-which incidently are now free since you are exalted). So take you pick.|
 T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
 ;Fish's one time chain - requires exalted with tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)I don't know how to filter for requires the ach? can you put multiple REP tags in?
-K Enormous Cattail Grouper|QID|31382|REP|The Tillers;1272;exalted|T|Enormous Cattail Grouper|L|86404|M|53.07,52.21|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish.|
+K Enormous Cattail Grouper|QID|31382|REP|The Tillers;1272;exalted|T|Enormous Cattail Grouper|L|86404|M|53.07,52.21|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|
 U Old Map|QID|31382|U|86404|N|Click on the map to start a quest.|
 A The Old Map|QID|31382|REP|The Tillers;1272;exalted|N|From an 'Old Map'. You can't get this quest until after you are friends with ALL the people on the farm. (ie earned the achievement Friends on the Farm).|
 T The Old Map|QID|31382|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|

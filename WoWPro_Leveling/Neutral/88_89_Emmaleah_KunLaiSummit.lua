@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-12-02 01:48
+-- Who: Emmaleah
+-- Log: 1 Dec 2012 - Emmaleah - Moved Zouchin Strand chain (when Bliz added the ride from Mishi, it felt awkward there).  Few other changes from finishing going thru the zone again.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25220/view
 -- Date: 2012-11-30 13:17
 -- Who: Ludovicus Maior
 -- Log: Added more QIDS to steps missing them so they do not show up again on guide reset.
@@ -411,6 +416,7 @@ A Fisherman's Tale|QID|30935|M|51.31,48.26|N|From Image of Lorewalker Cho.|
 C Fisherman's Tale|QID|30935|QO|Speak to Mishi outside of Lei Shen's Tomb: 1/1|NC|M|52.98,46.36|N|Go back up the stairs out of the tomb, Mishi is on your left.|
 C Ancient Mogu Tablet|QID|31420|L|86471|M|64.21,45.11|NC|N|grey item worth gold and XP, behind the statue on your left.|
 C Fisherman's Tale|QID|30935|QO|Speak to Shin Whispercloud to access Zouchin Province: 1/1|NC|M|63.46,40.14|N|Go down the Path deeper into the mountain to find Shin.|
+
 f Zouchin Village|QID|30935|M|62.42,30.12|N|At Bo the Wind Claimer.|
 T Fisherman's Tale|QID|30935|M|62.33,29.06|N|To Lorewalker Cho.|
 A It Takes A Village|QID|30944|M|62.33,29.06|N|From Lorewalker Cho.|
@@ -418,17 +424,8 @@ A Make A Fighter Out of Me|QID|30942|M|63.73,30.71|N|From Shomi.|
 A What's Yours Is Mine|QID|30945|M|63.38,30.69|N|From Steelbender Doshu.|
 A Checking In|QID|30816|M|63.17,29.37|N|From Li Hai.|
 A Handle With Care|QID|30943|M|63.48,28.65|N|From Elder Shu. Be sure you finish all of the previous 5 quests before you turn in any of them.|
-C It Takes A Village|QID|30944|M|62.43,28.30|N|The trolls fighting the defenders here are the ones you need to kill with Shomi. Talk to the villagers when they are not in combat to relieve them.|
-C Handle With Care|QID|30943|M|70.04,27.70|S|N|Ground spawn orange flower bushes.|
-C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|S|N|all trolls must die...|
-C What's Yours Is Mine|QID|30945|S|M|71.17,28.66|N|The blades drop from the trolls you don't need to kill with Shomi.|
-C Statue of Xuen|QID|31416|NC|L|86422|M|72.03,34.00|N|Located in the middle of the pond.|
-C What's Yours Is Mine|QID|30945|US|M|71.17,28.66|N|The blades drop from the trolls you don't need to kill with Shomi.|
-C Handle With Care|QID|30943|M|70.04,27.70|US|N|Ground spawn orange flower bushes.|
-C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|US|
-T Make A Fighter Out of Me|QID|30942|M|71.17,28.66|N|To Shomi.|
 
-R Zouchin Strand|QID|30794|M|60.59,21.25|N|You probably want to avoid the gnolls.|
+R Zouchin Strand|QID|30794|M|60.59,21.25|
 T Checking In|QID|30816|M|60.60,21.36|N|To Sage Liao.|
 A Emergency Care|QID|30794|M|60.60,21.36|N|From Sage Liao.|
 C Emergency Care|QID|30794|U|81177|NC|M|60.60,21.38|N|If you aren't able to heal him yourself, grab the healing potion from the hut.|
@@ -444,8 +441,23 @@ T Justice|QID|30805|M|60.60,21.36|N|To Sage Liao.|
 T The Scent of Life|QID|30806|M|60.60,21.36|N|To Sage Liao.|
 T By the Falls, For the Fallen|QID|30807|M|60.60,21.36|N|To Sage Liao.|
 A Preparing the Remains|QID|30819|M|60.60,21.36|N|From Sage Liao.|
+
+C Make A Fighter Out of Me|QID|30942|M|62.43,28.30|S|QO|Amani Skirmishers slain: 4/4|N|Kill the trolls next to the village, with Shomi tagging along.|
+C It Takes A Village|QID|30944|M|62.43,28.30|N|The trolls fighting the defenders here are the ones you need to kill with Shomi. Talk to the villagers when they are not in combat to relieve them.|
+
 T Preparing the Remains|QID|30819|M|63.17,29.37|N|To Li Hai.|
 A A Funeral|QID|30820|M|63.17,29.37|N|From Li Hai.|
+C A Funeral|QID|30820|NC|M|66.96,33.44|N|Click on the incense to light it.|
+T A Funeral|QID|30820|M|67.04,33.34|N|To Sage Liao.|
+
+C Handle With Care|QID|30943|M|70.04,27.70|S|N|Ground spawn orange flower bushes.|
+C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|S|N|all trolls must die...|
+C What's Yours Is Mine|QID|30945|S|M|71.17,28.66|N|The blades drop from the trolls you don't need to kill with Shomi.|
+C Statue of Xuen|QID|31416|NC|L|86422|M|72.03,34.00|N|Located in the middle of the pond.|
+C What's Yours Is Mine|QID|30945|US|M|71.17,28.66|N|The blades drop from the trolls you don't need to kill with Shomi.|
+C Handle With Care|QID|30943|M|70.04,27.70|US|N|Ground spawn orange flower bushes.|
+C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|US|
+T Make A Fighter Out of Me|QID|30942|M|71.17,28.66|N|To Shomi.|
 
 T What's Yours Is Mine|QID|30945|M|63.35,30.68|N|To Steelbender Doshu.|
 r Repair/Restock|QID|31011|M|63.38,30.69|N|You want to repair now, as he is bugged and won't repair in the next phase.|
@@ -464,11 +476,9 @@ A Prophet Khar'zul|QID|31228|M|62.33,29.06|N|From Lorewalker Cho.|
 C Fly to the Prophet's Island|QID|31228|QO|Speak with Mishi in Zouchin Village: 1/1|M|62.29,29.34|NC|
 C Prophet Khar'zul|QID|31228|M|76.4,9.2|N|Kill 12 trolls as you work your way to the waypoint, where you will find the prophet.|
 F Zouchin Village|QID|31228|M|76.17,11.38|CC|N|Talk to Mishi for a ride back to the village.  If he is not there, go back up the stairs to the top and go back down.|
-C A Funeral|QID|30820|NC|M|66.96,33.44|N|Click on the incense to light it.|
-T A Funeral|QID|30820|M|67.04,33.34|N|To Sage Liao.|
 T Prophet Khar'zul|QID|31228|M|62.33,29.06|N|To Lorewalker Cho.|
-H One Keg|QID|30592|N|Fly if you didn't reset your hearthstone earlier from "The Lucky Traveller".|
 
+H One Keg|QID|30592|N|Fly if you didn't reset your hearthstone earlier from "The Lucky Traveller".|
 A The Burlap Trail: To Burlap Waystation|QID|30592|M|58.09,61.46|N|From Brother Lintpocket.|
 C The Burlap Trail: To Burlap Waystation|QID|30592|M|53.14,66.57|N|Escort them to burlap waystation, there are at least 3 attacks and they will die if you don't help.|
 T The Burlap Trail: To Burlap Waystation|QID|30592|M|51.66,67.83|N|To Brother Trailscenter.|
@@ -514,9 +524,8 @@ T Thumping Knucklethump|QID|30606|M|51.98,67.21|N|To Brother Rabbitsfoot.|
 A Unleash The Yeti!|QID|30611|M|51.98,67.21|N|From Brother Rabbitsfoot.|
 
 R The Dooker Dome|QID|30611|M|46.56,62.95|
-C Unleash The Yeti!|QID|30611|M|46.56,62.95|S|N|Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
+C Unleash The Yeti!|QID|30611|M|46.56,62.95|N|Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
 C Grummle! Grummle! Grummle!|QID|30610|M|44.84,63.64|M|Click on the packs (sparkly groundspawn), to tell the Grummle's to take it away.|
-C Unleash The Yeti!|QID|30611|M|46.56,62.95|US|N|Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
 T Grummle! Grummle! Grummle!|QID|30610|M|45.94,64.05|N|To Brother Yakshoe.|
 T Unleash The Yeti!|QID|30611|M|45.91,64.06|N|To Brother Rabbitsfoot.|
 A The Leader Hozen|QID|30612|M|45.91,64.06|N|From Brother Rabbitsfoot.|
@@ -589,7 +598,7 @@ A A Line Unbroken|QID|30715|M|35.14,59.59|N|From Ban Bearheart.|
 f Winter's Blossom|QID|30715|M|34.55,59.00|N|At Kite Master Len.|
 A Better Dead than Dread|QID|31847|M|34.55,59.00|N|From Kite Master Len. Requires level 89, gives the flightpath to Brewmistriss Yi (not all of the quests to see Brewmaster Yi give the FP, so it may be worth coming back here to get this later, if you aren't 89 yet.|
 C Honor, Even in Death|QID|30723|S|M|30.22,62.06|
-C A Line Unbroken|QID|30715|M|30.20,62.58;30.01,64.48;30.47,60.07|N|Click on each of the three heroes.|
+C A Line Unbroken|QID|30715|M|30.20,62.58;30.01,64.48;30.47,60.07|CS|NC|N|Click on each of the three heroes.|
 C Honor, Even in Death|QID|30723|US|M|30.22,62.06|
 T A Line Unbroken|QID|30715|M|35.16,59.61|N|To Ban Bearheart.|
 T Honor, Even in Death|QID|30723|M|34.98,59.23|N|To Lin Silentstrike.|
