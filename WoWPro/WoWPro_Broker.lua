@@ -313,7 +313,7 @@ function WoWPro:NextStep(k,i)
 			else
 			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
 			end
-			self:Print("Rep %s Friendship=%s: repID %s <= standingId %s and repmax %s >= standingId %s and Replevel %s == 0",
+			self:dbp("Rep %s Friendship=%s: repID %s <= standingId %s and repmax %s >= standingId %s and Replevel %s == 0",
 			            name,tostring(Friendship),tostring(repID) , tostring(standingId), tostring(repmax) , tostring(standingId), tostring(replvl))
 			if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
