@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2012-12-03 00:10
+-- Who: Ludovicus Maior
+-- Log: Added some missing M tags.
+
+-- URL: http://wow-pro.com/node/3459/revisions/25233/view
+-- Date: 2012-12-02 21:55
+-- Who: Ludovicus Maior
+-- Log: STamp
+
+-- URL: http://wow-pro.com/node/3459/revisions/25232/view
+-- Date: 2012-12-02 21:54
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3459/revisions/25209/view
 -- Date: 2012-11-17 21:49
 -- Who: Ludovicus Maior
 -- Log: Changed the name of the zone.
@@ -67,7 +81,7 @@ B Red Dye|QID|29520|M|40.28,63.41|L|2604 1|N|Purchase 1 from Shadi Mistrunner.|P
 B Blue Dye|QID|29520|M|41.87,67.04|L|6260 1|N|Purchase 1 from Tharynn Borden.|P|Tailoring;197;75|Z|Elwynn Forest|FACTION|Alliance|
 B Blue Dye|QID|29520|M|40.28,63.41|L|6260 1|N|Purchase 1 from Shadi Mistrunner.|P|Tailoring;197;75|Z|Thunder Bluff|FACTION|Horde|
 
-B Sack o'Tokens|QID|29463|M|54.59,53.33|N|From Zina Sharpworth after you enter the portal. Be sure and open them up.|L|71083|U|78909|
+B Sack o'Tokens|QID|29463|M|54.59,53.33|N|From Zina Sharpworth after you enter the portal. Open the bag in your inventory, we can't automate it yet!|L|71083|
 
 A Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|From Selina Dourman.|P|Tailoring;197;75|
 
@@ -107,23 +121,23 @@ T The Darkmoon Faire|QID|7926|M|48.10,64.88|N|To Gelvas Grimegate.|FACTION|Horde
 
 A Test Your Strength|QID|29433|M|48.06,67.05|N|From Kerri Hicks.|
 
-A Putting the Crunch in the Frog|QID|29509|M|52.60,68.01|N|From Stamp Thunderhorn.|P|Cooking;185;75|
-A Spoilin' for Salty Sea Dogs|QID|29513|N|From Stamp Thunderhorn.|P|Fishing;356;75|
+A Putting the Crunch in the Frog|QID|29509|M|52.88,67.92|N|From Stamp Thunderhorn.|P|Cooking;185;75|
+A Spoilin' for Salty Sea Dogs|QID|29513|M|52.88,67.92|N|From Stamp Thunderhorn.|P|Fishing;356;75|
 
 U Flower Base|QID|29509|L|72057|U|72056|
-C Putting the Crunch in the Frog|QID|29509|N|Throw the breaded frogs into the green flowing pot next to STamp Thunderhorn.|U|72057|
-T Putting the Crunch in the Frog|QID|29509|M|52.60,68.01|N|To Stamp Thunderhorn.|
+C Putting the Crunch in the Frog|QID|29509|N|Throw the breaded frogs into the green flowing pot next to Stamp Thunderhorn.|U|72057|
+T Putting the Crunch in the Frog|QID|29509|M|52.88,67.92|N|To Stamp Thunderhorn.|
 
-B Darkmoon Dog|QID|99602603|ACH|6026;3|N|From Stamp Thunderhorn.|L|19223|LVL|5|
-B Pickled Kodo Foot|QID|99602607|ACH|6026;7|N|From Stamp Thunderhorn.|L|19305|LVL|15|
-B Crunchy Frog|QID|960260002|ACH|6026;2|N|From Stamp Thunderhorn.|L|19306|LVL|35|
-B Funnel Cake|QID|99602606|ACH|6026;6|N|From Stamp Thunderhorn.|L|33246|LVL|55|
-B Corn-Breaded Sausage|QID|99602601|ACH|6026;1|N|From Stamp Thunderhorn.|L|44940|LVL|75|
-B Spiced Beef Jerky|QID|99602610|ACH|6026;10|N|From Stamp Thunderhorn.|L|19304|LVL|5|
-B Red Hot Wings|QID|99602608|ACH|6026;8|N|From Stamp Thunderhorn.|L|19224|LVL|25|
-B Deep Fried Candybar|QID|99602605|ACH|6026;5|N|From Stamp Thunderhorn.|L|19225|LVL|45|
-B Forest Strider Drumstick|QID|99602605|ACH|6026;5|N|From Stamp Thunderhorn.|L|33254|LVL|65|
-B Salty Sea Dog|QID|99602609|ACH|6026;9|N|From STamp Thunderhorn.|L|73260|LVL|85|LVL|85|
+B Darkmoon Dog|QID|99602603|ACH|6026;3|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19223|LVL|5|
+B Pickled Kodo Foot|QID|99602607|ACH|6026;7|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19305|LVL|15|
+B Crunchy Frog|QID|960260002|ACH|6026;2|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19306|LVL|35|
+B Funnel Cake|QID|99602606|ACH|6026;6|M|52.88,67.92|N|From Stamp Thunderhorn.|L|33246|LVL|55|
+B Corn-Breaded Sausage|QID|99602601|ACH|6026;1|M|52.88,67.92|N|From Stamp Thunderhorn.|L|44940|LVL|75|
+B Spiced Beef Jerky|QID|99602610|ACH|6026;10|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19304|LVL|5|
+B Red Hot Wings|QID|99602608|ACH|6026;8|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19224|LVL|25|
+B Deep Fried Candybar|QID|99602605|ACH|6026;5|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19225|LVL|45|
+B Forest Strider Drumstick|QID|99602605|ACH|6026;5|M|52.88,67.92|N|From Stamp Thunderhorn.|L|33254|LVL|65|
+B Salty Sea Dog|QID|99602609|ACH|6026;9|M|52.88,67.92|N|From Stamp Thunderhorn.|L|73260|LVL|85|LVL|85|
 
 N Eat Darkmoon Dog|QID|99602603|ACH|6026;3|U|19223|LVL|5|
 N Eat Pickled Kodo Foot|QID|99602607|ACH|6026;7|U|19305|LVL|15|
@@ -136,10 +150,10 @@ N Eat Forest Strider Drumstick|QID|99602605|ACH|6026;5|U|33254|LVL|65|
 N Eat Salty Sea Dog|QID|99602609|ACH|6026;9|U|73260|LVL|85|
 N Eat Spiced Beef Jerky|QID|99602610|ACH|6026;10|U|19304|LVL|5|
 
-A Putting the Carnies Back Together Again|QID|29512|M|54.84,70.66|N|From Chronos.|P|First Aid;129;75|
-A Keeping the Faire Sparkling|QID|29516|M|54.84,70.66|N|From Chronos.|P|Jewelcrafting;755;75|
-A Herbs for Healing|QID|29514|M|54.84,70.66|N|From Chronos.|P|Herbalism;182;75|
-A Tan My Hide|QID|29519|M|54.84,70.66|N|From Chronos.|P|Skinning;393;75|
+A Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|From Chronos.|P|First Aid;129;75|
+A Keeping the Faire Sparkling|QID|29516|M|55.00,70.76|N|From Chronos.|P|Jewelcrafting;755;75|
+A Herbs for Healing|QID|29514|M|55.00,70.76|N|From Chronos.|P|Herbalism;182;75|
+A Tan My Hide|QID|29519|M|55.00,70.7|N|From Chronos.|P|Skinning;393;75|
 
 N Collect 6 Darkblossom|QID|29514|L|72046 6|S|
 C Tan My Hide|QID|29519|N|Found throughout the Island.|S|
@@ -147,8 +161,8 @@ N Collect 5 Bits of Glass|QID|29516|N|Green sparkling Gems.|L|72052 5|S|
 
 C Putting the Carnies Back Together Again|QID|29512|M|54.87,70.75;47.44,74.85|N|Use the bandage on Carnies.|U|71978|
 C Herbs for Healing|QID|29514|US|
-T Putting the Carnies Back Together Again|QID|29512|M|54.84,70.66|N|To Chronos.|
-T Herbs for Healing|QID|29514|M|54.84,70.66|N|To Chronos.|
+T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
+T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 
 A A Fizzy Fusion|QID|29506|M|50.31,69.39|N|From Sylannia.|P|Alchemy;171;75|
 B Cheap Beer|QID|99602612|M|50.31,69.39|ACH|6026;12|N|From Sylannia.|L|19222|LVL|1|

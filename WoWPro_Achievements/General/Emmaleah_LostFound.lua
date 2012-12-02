@@ -1,18 +1,22 @@
+
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- Date: 3 Nov 2012
+-- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2012-12-02 01:25
 -- Who: Emmaleah
--- Log: After many iterations, I think the steps are in a reletively efficient order. (still haven't solved the other items on the to do list. posting it so hopefully someone else can.)
+-- Log: 5.1 changes - new achievements Treasures of Pandaria(1); Fortune of Pandaria(5);Bounty of Pandaria(10); Riches of Pandaria(18)  Removed note about Phasing for ancient pandaran teapot (Bliz fixxed it) Renamed  "wall of text" to more descriptive titles.
 
--- Date: 20 Oct 2012
--- Who: Emmaleah
--- Log: Initial Guide, info taken from Wowhead, and my personal observations.
+-- URL: http://wow-pro.com/node/3514/revisions/25206/view
+-- Date: 2012-11-13 02:20
+-- Who: Ludovicus Maior
+-- Log: Updated to latest from Emmaleah
 
--- To Do:
--- It still doesnt auto complete. tried using N, L, C tags, but when you reset the correct steps are marked as complete.
--- Changing ranks doesn't seem to do anything but I can't seem to figure out why
+-- URL: http://wow-pro.com/node/3514/revisions/25205/view
+-- Date: 2012-11-13 02:16
+-- Who: Ludovicus Maior
+-- Log: Close of Blog Page
 
 WoWPro.Achievements:RegisterGuide('EmmAchLost','MoP Zones', 'Lost and Found', 'Achievement', 'Mists of Pandaria', 'Emmaleah','Neutral', function()
 return [[
@@ -90,5 +94,3 @@ N Keep resetting|QID|972810001|N|until you find them all (or give up). In the en
 
 ]]
 end)
-
-
