@@ -307,9 +307,9 @@ function WoWPro:NextStep(k,i)
 			skip = true --reputation steps skipped by default
 			
 			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
-			local friendID, friendRep, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh
+			local friendID, friendRep, friendMaxRep, friendName, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold
 			if Friendship then
-			    friendID, standingId, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh = GetFriendshipReputation(factionIndex);
+			    friendID, standingId, friendMaxRep, name, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(factionIndex);
 			else
 			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
 			end
@@ -323,7 +323,7 @@ function WoWPro:NextStep(k,i)
 				if (repID > standingId) then 
 					skip = false 
 				end
-				if (repID == standingId) and (earnedValue <= replvl) then
+				if (repID == standingId) and (earnedValue >= replvl) then
                     skip = false
 				end
 			end
@@ -495,9 +495,10 @@ end
 
 -- Cached version of function
 function WoWPro:IsQuestFlaggedCompleted(qid,force)
+    if qid == "*" then return nil; end
     local QID = tonumber(qid)
     if not QID then
-        self:Print("Guide %s has an empty QID!",WoWProDB.char.currentguide)
+        self:Print("Guide %s has an bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
         return false;
     end
     if not WoWProCharDB.completedQIDs then
