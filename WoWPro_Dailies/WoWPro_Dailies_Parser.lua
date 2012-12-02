@@ -255,7 +255,7 @@ function WoWPro.Dailies:LoadGuide()
 	-- Checking to see if any steps are already complete --
 	for i=1, WoWPro.stepcount do
 		local action = WoWPro.action[i]
-		local completion = WoWProCharDB.Guide[GID].completion[i]
+		local completion -- Old completion state
 		local numQIDs
 		if WoWPro.QID[i] then
 			numQIDs = select("#", string.split(";", WoWPro.QID[i]))
@@ -266,22 +266,18 @@ function WoWPro.Dailies:LoadGuide()
 			local QID 
 			if WoWPro.QID[i] then
 				QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
-				QID = tonumber(QID)
+				if QID ~= "" then QID = tonumber(QID) end
 			else
 				QID = nil
 			end
 		
-		    -- Daily Quest Query, always ask the silly client
-		    if WoWPro:IsQuestFlaggedCompleted(QID,true) then
+		    -- Daily Quest Query, always ask the silly client and start from there
+		    if QID and WoWPro:IsQuestFlaggedCompleted(QID,true) then
 			    WoWProCharDB.Guide[GID].completion[i] = true
+			    completion = true
 			else
 			    WoWProCharDB.Guide[GID].completion[i] = false
-			end
-
-		
-			-- Quest Accepts --
-			if not completion and action == "A" then 
-				if WoWPro.QuestLog[QID] then WoWPro.CompleteStep(i) end
+			    completion = false
 			end
 			
 			-- Turned in quests --
@@ -291,9 +287,13 @@ function WoWPro.Dailies:LoadGuide()
 			
 		    -- Quest Accepts and Completions --
 		    if not completion and WoWPro.QuestLog[QID] then 
-			    if action == "A" then WoWProCharDB.Guide[GID].completion[i] = true end
+			    if action == "A" then
+			        WoWProCharDB.Guide[GID].completion[i] = true
+			        WoWPro:dbp("Completed A step %d from questlog QID %d",i,QID);
+			    end
 			    if action == "C" and WoWPro.QuestLog[QID].complete then
 				    WoWProCharDB.Guide[GID].completion[i] = true
+				    WoWPro:dbp("Completed C step %d from questlog QID %d",i,QID);
 			    end
 		    end
 		    
@@ -314,7 +314,7 @@ function WoWPro.Dailies:LoadGuide()
 		        end
 		        if complete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
 	        end
-
+	        
 		end
 		
 	end
@@ -601,11 +601,17 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
         for _,item in pairs(npcQuests) do
             if type(item) == "string" then
                 index = index + 1      
-		        if WoWPro.action[qidx] == "A" and item == WoWPro.step[qidx] then
+		        if WoWPro.action[qidx] == "A" and (item == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
+		            if  WoWPro.QID[qidx] == "*" then WoWPro:dbp("ZZZT %d: Inhale %s",qidx,item) end
 		            SelectGossipAvailableQuest(index)
 		            return
 		        end
             end
+        end
+        if WoWPro.action[qidx] == "A" and WoWPro.QID[qidx] == "*" then
+            -- Hmm, no more quests from this NPC and AutoSelect is done, finish the step
+            WoWPro:dbp("ZZZT: Suck done, finishing %d",qidx)
+            WoWPro.CompleteStep(qidx)
         end
         npcQuests =  {GetGossipActiveQuests()};
         index = 0 
@@ -641,19 +647,22 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
     if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
-		if WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
+		if WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
+		    if  WoWPro.QID[qidx] == "*" then WoWPro:dbp("ZZZT %d: Swallow %s",qidx,questtitle) end
 		    AcceptQuest()
-		end 
+		end
+		if WoWPro.QID[qidx] == "*" and WoWProCharDB.AutoSelect then
+		    -- OK, now get the next quest.
+		    WoWPro:dbp("ZZZT %d: Accepted [%s], Faking GOSSIP_SHOW",qidx,questtitle)
+		    WoWPro.Dailies:EventHandler("GOSSIP_SHOW")
+		end
     end
 
-    if event == "QUEST_PROGRESS" then
- 	    WoWProDB.char.CompletedDailies = GetDailyQuestsCompleted()  
-    end
 
     if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
-        WoWPro.Dailies:Print("Quest is [%s], matching [%s]",questtitle,WoWPro.step[qidx])
+        WoWPro.Dailies:dbp("Quest is [%s], matching [%s]",questtitle,WoWPro.step[qidx])
 		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
 		    CompleteQuest()
 		end  
@@ -669,7 +678,7 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 		    end
         end
 		WoWPro.Dailies.CompletingQuest = true
-		WoWPro.Dailies:AutoCompleteQuestUpdate(...)
+		WoWPro.Dailies:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	
 	-- Auto-Completion --
@@ -688,7 +697,7 @@ end
 
 
 -- Auto-Complete: Quest Update --
-function WoWPro.Dailies:AutoCompleteQuestUpdate()
+function WoWPro.Dailies:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] or not WoWPro.Guides[GID].guidetype=="Dailies" then return end
 	WoWPro:dbp("Running: Dailies AutoCompleteQuestUpdate")
@@ -719,7 +728,12 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate()
 						WoWPro:MapPoint()
 					end
 					
-					-- Quest Accepts --
+                    -- Quest AutoComplete --
+                    if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
+                        WoWPro.CompleteStep(i)
+                    end
+
+					-- Quest Accepts from questlog --
 					if WoWPro.newQuest == QID and action == "A" and not completion then
 						WoWPro.CompleteStep(i)
 					end
