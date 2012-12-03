@@ -190,6 +190,25 @@ function WoWPro:UpdateGuide(offset)
 	end
 end	
 
+local Rep2IdAndClass
+Rep2IdAndClass = {  ["hated"] = {1,false},
+                    ["hostile"] = {2,false},
+                    ["unfriendly"] = {3,false},
+                    ["neutral"] = {4,false},
+                    ["friendly"] = {5,false},
+                    ["honored"] = {6,false},
+                    ["revered"] = {7,false},
+                    ["exalted"] = {8,false},
+                    ["hated"] = {1,false},
+                    ["stranger"] = {0,true},
+                    ["acquaintance"] = {1,true},
+                    ["buddy"] = {2,true},
+                    ["friend"] = {3,true},
+                    ["good friend"] = {4,true},
+                    ["best friend"] = {5,true},
+}
+
+			
 -- Next Step --    			
 -- Determines the next active step --
 function WoWPro:NextStep(k,i)
@@ -269,47 +288,32 @@ function WoWPro:NextStep(k,i)
 			replvl = tonumber(replvl) or 0
 
 
-            -- STD Reps
-			if repID == 'hated' then repID = 1 end
-			if repID == 'hostile' then repID = 2 end
-			if repID == 'unfriendly' then repID = 3 end
-			if repID == 'neutral' then repID = 4 end
-			if repID == 'friendly' then repID = 5 end
-			if repID == 'honored' then repID = 6 end
-			if repID == 'revered' then repID = 7 end
-			if repID == 'exalted' then repID = 8 end
-			-- Friendships
-			if repID == 'stranger' then repID = 0 ; Friendship = true end
-			if repID == 'acquaintance' then repID = 1 ; Friendship = true  end
-			if repID == 'buddy' then repID = 2 ; Friendship = true  end
-			if repID == 'friend' then repID = 3 ; Friendship = true  end
-			if repID == 'good friend' then repID = 4 ; Friendship = true  end
-			if repID == 'best friend' then repID = 5 ; Friendship = true  end
+            -- Extract lower bound rep
+            Friendship = Rep2IdAndClass[repID][2]
+            repID = Rep2IdAndClass[repID][1]
+            if not repID then
+                self:Print("Bad lower REP value of [%s] found.  Defaulting to 1.",temprep)
+                repID = 0
+            end
 
-            -- STD Reps
-			if repmax == 'hated' then repmax = 1
-			elseif repmax == 'hostile' then repmax = 2
-			elseif repmax == 'unfriendly' then repmax = 3
-			elseif repmax == 'neutral' then repmax = 4
-			elseif repmax == 'friendly' then repmax = 5
-			elseif repmax == 'honored' then repmax = 6
-			elseif repmax == 'revered' then repmax = 7
-			elseif repmax == 'exalted' then repmax = 8
-			-- Friendships
-			elseif repmax == 'stranger' then repmax = 0 ; Friendship = true 
-			elseif repmax == 'acquaintance' then repmax = 1 ; Friendship = true 
-			elseif repmax == 'buddy' then repmax = 2 ; Friendship = true 
-			elseif repmax == 'friend' then repmax = 3 ; Friendship = true 
-			elseif repmax == 'good friend' then repmax = 4 ; Friendship = true 
-			elseif repmax == 'best friend' then repmax = 5 ; Friendship = true 
-			else repmax = 8 end
+            -- Extract upper bound rep
+            repmax = Rep2IdAndClass[repmax][1]
+            if not repmax then
+                self:Print("Bad upper REP value of [%s] found.  Defaulting to 5.",temprep)
+                repmax = 5
+            end
+
             
 			skip = true --reputation steps skipped by default
 			
 			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
 			local friendID, friendRep, friendMaxRep, friendName, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold
 			if Friendship then
-			    friendID, standingId, friendMaxRep, name, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(factionIndex);
+			    friendID, friendRep, friendMaxRep, name, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(factionIndex);
+			    friendTextLevel = string.lower(friendTextLevel)
+			    standingId = Rep2IdAndClass[friendTextLevel][1]
+			    earnedValue = friendRep - friendThreshold
+			    self:Print("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
 			else
 			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
 			end
