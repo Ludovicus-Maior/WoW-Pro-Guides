@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-12-02 15:30
+-- Who: Ludovicus Maior
+-- Log: Add S for "Unleash The Yeti!"
+
+-- URL: http://wow-pro.com/node/3490/revisions/25226/view
 -- Date: 2012-12-02 01:48
 -- Who: Emmaleah
 -- Log: 1 Dec 2012 - Emmaleah - Moved Zouchin Strand chain (when Bliz added the ride from Mishi, it felt awkward there).  Few other changes from finishing going thru the zone again.
@@ -524,8 +529,9 @@ T Thumping Knucklethump|QID|30606|M|51.98,67.21|N|To Brother Rabbitsfoot.|
 A Unleash The Yeti!|QID|30611|M|51.98,67.21|N|From Brother Rabbitsfoot.|
 
 R The Dooker Dome|QID|30611|M|46.56,62.95|
-C Unleash The Yeti!|QID|30611|M|46.56,62.95|N|Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
+C Unleash The Yeti!|QID|30611|M|46.56,62.95|S|N|Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
 C Grummle! Grummle! Grummle!|QID|30610|M|44.84,63.64|M|Click on the packs (sparkly groundspawn), to tell the Grummle's to take it away.|
+C Unleash The Yeti!|QID|30611|M|46.56,62.95|US|N|Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
 T Grummle! Grummle! Grummle!|QID|30610|M|45.94,64.05|N|To Brother Yakshoe.|
 T Unleash The Yeti!|QID|30611|M|45.91,64.06|N|To Brother Rabbitsfoot.|
 A The Leader Hozen|QID|30612|M|45.91,64.06|N|From Brother Rabbitsfoot.|

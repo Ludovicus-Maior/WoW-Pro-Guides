@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2012-12-02 19:06
+-- Who: Emmaleah
+-- Log: 2 Dec 2012 - Emmaleah - Bliz fixed the phasing bug with the pandaran teapot in 5.1 - editing guide to reflect that.
+
+-- URL: http://wow-pro.com/node/3487/revisions/25196/view
 -- Date: 2012-11-11 00:02
 -- Who: Emmaleah
 -- Log: Emmaleah - 10 Nov 2012 - Added in the "one time" lost treasure items(I left out the 2 in alliance territory), some minor changes when comparing the affected areas between horde and alliance.
@@ -131,7 +136,6 @@ T Unreliable Allies|QID|31778|M|31.45,21.72|N|To Merchant Zin.|
 T Assault on the Airstrip|QID|31775|M|31.65,21.97|N|To General Nazgrim.|
 T Strongarm Tactics|QID|31776|M|31.65,21.97|N|To General Nazgrim.|
 A The Darkness Within|QID|31779|M|31.65,21.97|N|From General Nazgrim.|
-l Ancient Pandaren Teapot|QID|31400|L|85780|M|26.2,32.3|N|Run up and get the teapot, due to a phasing bug, it's not available after you kill Capt. Doren in the next step, worth as much XP as a quest and ~100g besides|;placing this here until Bliz fixes the phasing.
 C The Darkness Within|QID|31779|T|Captain Doren|M|27.38,25.14;26.13,24.89;25.84,23.96|CS|N|He is hiding in a cave across the bridge.|
 T The Darkness Within|QID|31779|M|27.52,24.15|
 A Nazgrim's Command|QID|31999|M|27.52,24.15|
@@ -154,7 +158,7 @@ A Lay of the Land|QID|29822|M|28.42,24.93|N|From General Nazgrim.|
 
 C Lay of the Land|QID|29822|NC|QO|Shrine of the Sun Visited: 1/1|M|32.01,27.96|N|There is a coin in the fountain worth ~100g, you may want to pick it up. (once per char).|
 K Dook Ookem|T|Dook Ookem|QID|29822|QO|Dook Ookem slain: 1/1|M|27.75,30.35|
-C Lay of the Land|QID|29822|NC|QO|Shrine of the Moon Visited: 1/1|M|26.16,32.32|N|There is a tea pot on the table worth ~100g, you may want to pick it up. (also worth a fair amount of xp).  There seems to be a phasing issue and the pot id not visable/interactive from close range, after you kill Capt Doren.|
+C Lay of the Land|QID|29822|NC|QO|Shrine of the Moon Visited: 1/1|M|26.16,32.32|N|There is a tea pot on the table worth ~100g, you may want to pick it up. (also worth a fair amount of xp).|
 T Lay of the Land|QID|29822|M|27.61,32.71|N|To Lorewalker Cho.|
 A Stay a While, and Listen|QID|31121|M|27.61,32.71|N|From Lorewalker Cho.|
 C Stay a While, and Listen|QID|31121|NC|M|27.55,32.57|N|Click on the table.|

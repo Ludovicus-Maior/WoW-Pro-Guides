@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2012-12-02 15:28
+-- Who: Ludovicus Maior
+-- Log: Missing PRE tags
+
+-- URL: http://wow-pro.com/node/3508/revisions/25227/view
 -- Date: 2012-12-02 09:14
 -- Who: Emmaleah
 -- Log: 1 Dec 2012 - Emmaleah - adjusted |REP| tags for quests that are offered midway thru rep levels.
@@ -403,8 +408,8 @@ T "Thunder King" Pest Repellers|QID|31937|M|52.20,48.86|N|To Farmer Yoon who ins
 
 ;BUY THE PLOW
 B The "Earth-Slasher" Master Plow|QID|31938|PRE|30529|M|53.2,51.8|L|89814|N|Much faster as you can plow 4 plots with one click.|
-U The "Earth-Slasher" Master Plow|QID|31938|M|53.2,51.8|U|89814|N|Click the item you just bought.|
-A The "Earth-Slasher" Master Plow|QID|31938|M|53.2,51.8N|From the item you just bought.|
+U The "Earth-Slasher" Master Plow|QID|31938|PRE|30529|M|53.2,51.8|U|89814|N|Click the item you just bought.|
+A The "Earth-Slasher" Master Plow|QID|31938|PRE|30529|M|53.2,51.8N|From the item you just bought.|
 T The "Earth-Slasher" Master Plow|QID|31938|M|52.20,48.86|N|To Farmer Yoon who installs it for you. This is unfortuantly an item that you will have to pick up and use from your inventory.|
 
 ;Jogu's one time chain|REP|1273
