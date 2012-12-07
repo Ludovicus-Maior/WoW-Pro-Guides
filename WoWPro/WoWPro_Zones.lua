@@ -25,35 +25,35 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "The Hinterlands",
 			["zonei"] = 35,
 		},
-		["The Plague Quarter"] = {
-			["dungeon"] = "Naxxramas",
-			["mapID"] = 535,
-			["floor"] = 4,
-			["mapName"] = "The Plague Quarter",
+		["Dragonblight"] = {
+			["numFloors"] = 0,
+			["mapID"] = 488,
+			["cont"] = 4,
+			["zone"] = "Dragonblight",
+			["mapName"] = "Dragonblight",
+			["zonei"] = 4,
 		},
-		["The Antechamber of Ulduar"] = {
-			["dungeon"] = "Ulduar",
-			["mapID"] = 529,
-			["floor"] = 2,
-			["mapName"] = "The Antechamber of Ulduar",
+		["TheArgentColiseum"] = {
+			["numFloors"] = 0,
+			["mapID"] = 542,
+			["mapName"] = "TheArgentColiseum",
 		},
-		["762/2"] = {
-			["dungeon"] = "ScarletMonastery",
-			["mapID"] = 762,
-			["floor"] = 2,
-			["mapName"] = "762/2",
+		["Launch Bay@Gnomeregan"] = {
+			["dungeon"] = "Gnomeregan",
+			["mapID"] = 691,
+			["floor"] = 3,
+			["mapName"] = "Launch Bay",
 		},
-		["The Courtyard"] = {
+		["ThroneoftheFourWinds"] = {
+			["numFloors"] = 0,
+			["mapID"] = 773,
+			["mapName"] = "ThroneoftheFourWinds",
+		},
+		["Lord Godfrey's Chamber@ShadowfangKeep"] = {
 			["dungeon"] = "ShadowfangKeep",
 			["mapID"] = 764,
-			["floor"] = 1,
-			["mapName"] = "The Courtyard",
-		},
-		["Drak'Tharon Overlook"] = {
-			["dungeon"] = "DrakTharonKeep",
-			["mapID"] = 534,
-			["floor"] = 2,
-			["mapName"] = "Drak'Tharon Overlook",
+			["floor"] = 6,
+			["mapName"] = "Lord Godfrey's Chamber",
 		},
 		["Westfall"] = {
 			["numFloors"] = 0,
@@ -71,42 +71,36 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Abyssal Depths",
 			["zonei"] = 1,
 		},
-		["Band of Transmutation"] = {
-			["dungeon"] = "Nexus80",
-			["mapID"] = 528,
-			["floor"] = 3,
-			["mapName"] = "Band of Transmutation",
+		["Moonshrine Sanctum@BlackfathomDeeps"] = {
+			["dungeon"] = "BlackfathomDeeps",
+			["mapID"] = 688,
+			["floor"] = 2,
+			["mapName"] = "Moonshrine Sanctum",
 		},
 		["Orgrimmar"] = {
-			["dungeon"] = "Orgrimmar",
+			["numFloors"] = 2,
 			["mapID"] = 321,
 			["cont"] = 1,
 			["zone"] = "Orgrimmar",
 			["mapName"] = "Orgrimmar",
-			["floor"] = 1,
+			["zonei"] = 20,
 		},
-		["NetherstormArena"] = {
+		["TheNexus"] = {
 			["numFloors"] = 0,
-			["mapID"] = 482,
-			["mapName"] = "NetherstormArena",
+			["mapID"] = 520,
+			["mapName"] = "TheNexus",
 		},
-		["The Upper Reaches"] = {
-			["dungeon"] = "IcecrownCitadel",
-			["mapID"] = 604,
-			["floor"] = 5,
-			["mapName"] = "The Upper Reaches",
-		},
-		["The Brood Pit"] = {
-			["dungeon"] = "AzjolNerub",
-			["mapID"] = 533,
+		["Stasis Block: Trion@TheArcatraz"] = {
+			["dungeon"] = "TheArcatraz",
+			["mapID"] = 731,
 			["floor"] = 1,
-			["mapName"] = "The Brood Pit",
+			["mapName"] = "Stasis Block: Trion",
 		},
-		["Obsidian Dragonshrine"] = {
-			["dungeon"] = "EndTime",
-			["mapID"] = 820,
-			["floor"] = 4,
-			["mapName"] = "Obsidian Dragonshrine",
+		["Containment Core@TheArcatraz"] = {
+			["dungeon"] = "TheArcatraz",
+			["mapID"] = 731,
+			["floor"] = 3,
+			["mapName"] = "Containment Core",
 		},
 		["Zul'Drak"] = {
 			["numFloors"] = 0,
@@ -129,27 +123,16 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Northern Stranglethorn",
 			["zonei"] = 21,
 		},
-		["BlackwingLair"] = {
-			["numFloors"] = 4,
-			["mapID"] = 755,
-			["mapName"] = "BlackwingLair",
+		["Drak'Tharon Overlook@DrakTharonKeep"] = {
+			["dungeon"] = "DrakTharonKeep",
+			["mapID"] = 534,
+			["floor"] = 2,
+			["mapName"] = "Drak'Tharon Overlook",
 		},
 		["RazorfenKraul"] = {
 			["numFloors"] = 0,
 			["mapID"] = 761,
 			["mapName"] = "RazorfenKraul",
-		},
-		["Hour of Twilight"] = {
-			["dungeon"] = "HourofTwilight",
-			["mapID"] = 819,
-			["floor"] = 1,
-			["mapName"] = "Hour of Twilight",
-		},
-		["Vaults of Kings Past"] = {
-			["dungeon"] = "MogushanPalace",
-			["mapID"] = 885,
-			["floor"] = 2,
-			["mapName"] = "Vaults of Kings Past",
 		},
 		["Darnassus"] = {
 			["numFloors"] = 0,
@@ -172,18 +155,37 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 545,
 			["mapName"] = "Gilneas",
 		},
-		["Gundrak"] = {
-			["numFloors"] = 0,
-			["mapID"] = 530,
-			["mapName"] = "Gundrak",
+		["Dragonflayer Ascent@UtgardeKeep"] = {
+			["dungeon"] = "UtgardeKeep",
+			["mapID"] = 523,
+			["floor"] = 2,
+			["mapName"] = "Dragonflayer Ascent",
 		},
-		["Un'Goro Crater"] = {
+		["The Forgotten Pool@BlackfathomDeeps"] = {
+			["dungeon"] = "BlackfathomDeeps",
+			["mapID"] = 688,
+			["floor"] = 3,
+			["mapName"] = "The Forgotten Pool",
+		},
+		["Deathbringer's Rise@IcecrownCitadel"] = {
+			["dungeon"] = "IcecrownCitadel",
+			["mapID"] = 604,
+			["floor"] = 3,
+			["mapName"] = "Deathbringer's Rise",
+		},
+		["Obsidian Dragonshrine@EndTime"] = {
+			["dungeon"] = "EndTime",
+			["mapID"] = 820,
+			["floor"] = 4,
+			["mapName"] = "Obsidian Dragonshrine",
+		},
+		["The Maelstrom#737"] = {
 			["numFloors"] = 0,
-			["mapID"] = 201,
-			["cont"] = 1,
-			["zone"] = "Un'Goro Crater",
-			["mapName"] = "Un'Goro Crater",
-			["zonei"] = 31,
+			["mapID"] = 737,
+			["cont"] = 5,
+			["zone"] = "The Maelstrom",
+			["mapName"] = "The Maelstrom#737",
+			["zonei"] = 4,
 		},
 		["Ironforge"] = {
 			["numFloors"] = 0,
@@ -193,12 +195,6 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Ironforge",
 			["zonei"] = 16,
 		},
-		["Halls of Mourning"] = {
-			["dungeon"] = "SethekkHalls",
-			["mapID"] = 723,
-			["floor"] = 2,
-			["mapName"] = "Halls of Mourning",
-		},
 		["Western Plaguelands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 22,
@@ -207,105 +203,97 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Western Plaguelands",
 			["zonei"] = 42,
 		},
-		["903/1"] = {
-			["dungeon"] = "Shrine of Two Moons",
-			["mapID"] = 903,
-			["cont"] = 6,
-			["zone"] = "Shrine of Two Moons",
-			["mapName"] = "903/1",
+		["The Shrine of Eldretharr@DireMaul"] = {
+			["dungeon"] = "DireMaul",
+			["mapID"] = 699,
+			["floor"] = 6,
+			["mapName"] = "The Shrine of Eldretharr",
+		},
+		["Twilight Forge@BlackrockCaverns"] = {
+			["dungeon"] = "BlackrockCaverns",
+			["mapID"] = 753,
+			["floor"] = 2,
+			["mapName"] = "Twilight Forge",
+		},
+		["Hour of Twilight@HourofTwilight"] = {
+			["dungeon"] = "HourofTwilight",
+			["mapID"] = 819,
 			["floor"] = 1,
+			["mapName"] = "Hour of Twilight",
 		},
-		["The Wall Walk"] = {
-			["dungeon"] = "ShadowfangKeep",
-			["mapID"] = 764,
+		["The Jade Forest"] = {
+			["numFloors"] = 0,
+			["mapID"] = 806,
+			["cont"] = 6,
+			["zone"] = "The Jade Forest",
+			["mapName"] = "The Jade Forest",
+			["zonei"] = 6,
+		},
+		["Lower Broken Stair@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
 			["floor"] = 7,
-			["mapName"] = "The Wall Walk",
+			["mapName"] = "Lower Broken Stair",
 		},
-		["682/4"] = {
-			["dungeon"] = "TheLostIsles_terrain2",
-			["mapID"] = 682,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "682/4",
-			["floor"] = 4,
-		},
-		["AzjolNerub"] = {
-			["numFloors"] = 3,
-			["mapID"] = 533,
-			["mapName"] = "AzjolNerub",
-		},
-		["The Frost Queen's Lair"] = {
+		["The Rampart of Skulls@IcecrownCitadel"] = {
 			["dungeon"] = "IcecrownCitadel",
 			["mapID"] = 604,
-			["floor"] = 4,
-			["mapName"] = "The Frost Queen's Lair",
-		},
-		["The Upper Necropolis"] = {
-			["dungeon"] = "Naxxramas",
-			["mapID"] = 535,
-			["floor"] = 6,
-			["mapName"] = "The Upper Necropolis",
-		},
-		["Moonshrine Sanctum"] = {
-			["dungeon"] = "BlackfathomDeeps",
-			["mapID"] = 688,
 			["floor"] = 2,
-			["mapName"] = "Moonshrine Sanctum",
+			["mapName"] = "The Rampart of Skulls",
+		},
+		["TheArgentColiseum#543"] = {
+			["numFloors"] = 2,
+			["mapID"] = 543,
+			["mapName"] = "TheArgentColiseum#543",
+		},
+		["Shrine of Seven Stars"] = {
+			["numFloors"] = 2,
+			["mapID"] = 905,
+			["cont"] = 6,
+			["zone"] = "Shrine of Seven Stars",
+			["mapName"] = "Shrine of Seven Stars",
+			["zonei"] = 4,
+		},
+		["SiegeofNiuzaoTemple"] = {
+			["numFloors"] = 3,
+			["mapID"] = 887,
+			["mapName"] = "SiegeofNiuzaoTemple",
 		},
 		["TheSlavePens"] = {
 			["numFloors"] = 0,
 			["mapID"] = 728,
 			["mapName"] = "TheSlavePens",
 		},
-		["Oratorium of the Voice"] = {
-			["dungeon"] = "HeartofFear",
-			["mapID"] = 897,
-			["floor"] = 1,
-			["mapName"] = "Oratorium of the Voice",
+		["The Arachnid Quarter@Naxxramas"] = {
+			["dungeon"] = "Naxxramas",
+			["mapID"] = 535,
+			["floor"] = 2,
+			["mapName"] = "The Arachnid Quarter",
 		},
-		["Vault of C'Thun"] = {
-			["dungeon"] = "AhnQiraj",
-			["mapID"] = 766,
-			["floor"] = 3,
-			["mapName"] = "Vault of C'Thun",
-		},
-		["Blackrock Stadium"] = {
+		["Skitterweb Tunnels@BlackrockSpire"] = {
 			["dungeon"] = "BlackrockSpire",
 			["mapID"] = 721,
-			["floor"] = 7,
-			["mapName"] = "Blackrock Stadium",
+			["floor"] = 2,
+			["mapName"] = "Skitterweb Tunnels",
 		},
-		["Howling Fjord"] = {
+		["Winterspring"] = {
 			["numFloors"] = 0,
-			["mapID"] = 491,
-			["cont"] = 4,
-			["zone"] = "Howling Fjord",
-			["mapName"] = "Howling Fjord",
-			["zonei"] = 6,
+			["mapID"] = 281,
+			["cont"] = 1,
+			["zone"] = "Winterspring",
+			["mapName"] = "Winterspring",
+			["zonei"] = 33,
 		},
-		["Lower Broken Stair"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
+		["TheJadeForestScenario"] = {
+			["numFloors"] = 0,
+			["mapID"] = 880,
+			["mapName"] = "TheJadeForestScenario",
+		},
+		["Chamber of Command@BlackTemple"] = {
+			["dungeon"] = "BlackTemple",
+			["mapID"] = 796,
 			["floor"] = 7,
-			["mapName"] = "Lower Broken Stair",
-		},
-		["Stasis Block: Trion"] = {
-			["dungeon"] = "TheArcatraz",
-			["mapID"] = 731,
-			["floor"] = 1,
-			["mapName"] = "Stasis Block: Trion",
-		},
-		["The Rookery"] = {
-			["dungeon"] = "BlackrockSpire",
-			["mapID"] = 721,
-			["floor"] = 6,
-			["mapName"] = "The Rookery",
-		},
-		["The Road to Stratholme"] = {
-			["dungeon"] = "CoTStratholme",
-			["mapID"] = 521,
-			["floor"] = 1,
-			["mapName"] = "The Road to Stratholme",
+			["mapName"] = "Chamber of Command",
 		},
 		["Naxxramas"] = {
 			["numFloors"] = 6,
@@ -320,6 +308,12 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Darkshore",
 			["zonei"] = 8,
 		},
+		["Stasis Block: Maximus@TheArcatraz"] = {
+			["dungeon"] = "TheArcatraz",
+			["mapID"] = 731,
+			["floor"] = 2,
+			["mapName"] = "Stasis Block: Maximus",
+		},
 		["Blade's Edge Mountains"] = {
 			["numFloors"] = 0,
 			["mapID"] = 475,
@@ -328,21 +322,16 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Blade's Edge Mountains",
 			["zonei"] = 1,
 		},
-		["ZulGurub793"] = {
-			["numFloors"] = 0,
-			["mapID"] = 793,
-			["mapName"] = "ZulGurub793",
+		["Veil Sethekk@SethekkHalls"] = {
+			["dungeon"] = "SethekkHalls",
+			["mapID"] = 723,
+			["floor"] = 1,
+			["mapName"] = "Veil Sethekk",
 		},
 		["STVDiamondMineBG"] = {
 			["numFloors"] = 0,
 			["mapID"] = 860,
 			["mapName"] = "STVDiamondMineBG",
-		},
-		["Upper Broken Stair"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 8,
-			["mapName"] = "Upper Broken Stair",
 		},
 		["ScarletMonastery"] = {
 			["numFloors"] = 4,
@@ -357,27 +346,13 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "The Veiled Stair",
 			["zonei"] = 7,
 		},
-		["681/5"] = {
-			["dungeon"] = "TheLostIsles_terrain1",
-			["mapID"] = 681,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "681/5",
-			["floor"] = 5,
-		},
-		["681/2"] = {
-			["dungeon"] = "TheLostIsles_terrain1",
-			["mapID"] = 681,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "681/2",
-			["floor"] = 2,
-		},
-		["Eye of Eternity"] = {
-			["dungeon"] = "DragonSoul",
-			["mapID"] = 824,
-			["floor"] = 4,
-			["mapName"] = "Eye of Eternity",
+		["Shattrath City"] = {
+			["numFloors"] = 0,
+			["mapID"] = 481,
+			["cont"] = 3,
+			["zone"] = "Shattrath City",
+			["mapName"] = "Shattrath City",
+			["zonei"] = 6,
 		},
 		["HallsofReflection"] = {
 			["numFloors"] = 0,
@@ -389,134 +364,123 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 526,
 			["mapName"] = "Ulduar77",
 		},
-		["Master's Terrace"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 6,
-			["mapName"] = "Master's Terrace",
-		},
 		["VaultofArchavon"] = {
 			["numFloors"] = 0,
 			["mapID"] = 532,
 			["mapName"] = "VaultofArchavon",
 		},
-		["Dustwallow_terrain1"] = {
+		["BrawlgarArena"] = {
 			["numFloors"] = 0,
-			["mapID"] = 907,
-			["cont"] = 1,
-			["zone"] = 0,
-			["mapName"] = "Dustwallow_terrain1",
+			["mapID"] = 925,
+			["mapName"] = "BrawlgarArena",
 		},
-		["Dais of Conquerors"] = {
-			["dungeon"] = "MogushanVaults",
-			["mapID"] = 896,
+		["The Reliquary@Scholomance"] = {
+			["dungeon"] = "Scholomance",
+			["mapID"] = 898,
 			["floor"] = 1,
-			["mapName"] = "Dais of Conquerors",
+			["mapName"] = "The Reliquary",
 		},
-		["IcecrownCitadel"] = {
-			["numFloors"] = 8,
-			["mapID"] = 604,
-			["mapName"] = "IcecrownCitadel",
-		},
-		["The Prison of Yogg-Saron"] = {
-			["dungeon"] = "Ulduar",
-			["mapID"] = 529,
-			["floor"] = 4,
-			["mapName"] = "The Prison of Yogg-Saron",
+		["DalaranCity"] = {
+			["numFloors"] = 2,
+			["mapID"] = 924,
+			["mapName"] = "DalaranCity",
 		},
 		["VioletHold"] = {
 			["numFloors"] = 0,
 			["mapID"] = 536,
 			["mapName"] = "VioletHold",
 		},
-		["Crypt Depths"] = {
-			["dungeon"] = "AncientMoguCrypt",
-			["mapID"] = 900,
+		["The Underbelly@DalaranCity"] = {
+			["dungeon"] = "DalaranCity",
+			["mapID"] = 924,
 			["floor"] = 2,
-			["mapName"] = "Crypt Depths",
+			["mapName"] = "The Underbelly",
 		},
-		["Durotar"] = {
-			["numFloors"] = 0,
-			["mapID"] = 4,
-			["cont"] = 1,
-			["zone"] = "Durotar",
-			["mapName"] = "Durotar",
-			["zonei"] = 11,
+		["Dalaran City@DalaranCity"] = {
+			["dungeon"] = "DalaranCity",
+			["mapID"] = 924,
+			["floor"] = 1,
+			["mapName"] = "Dalaran City",
 		},
-		["Forge of the Endless"] = {
-			["dungeon"] = "MogushanVaults",
-			["mapID"] = 896,
-			["floor"] = 3,
-			["mapName"] = "Forge of the Endless",
+		["TheMechanar"] = {
+			["numFloors"] = 2,
+			["mapID"] = 730,
+			["mapName"] = "TheMechanar",
 		},
-		["ProvingGrounds"] = {
-			["numFloors"] = 0,
-			["mapID"] = 899,
-			["mapName"] = "ProvingGrounds",
+		["Bizmo's Brawlpub@DeeprunTram"] = {
+			["dungeon"] = "DeeprunTram",
+			["mapID"] = 922,
+			["floor"] = 2,
+			["mapName"] = "Bizmo's Brawlpub",
 		},
-		["Scholomance898"] = {
-			["numFloors"] = 4,
-			["mapID"] = 898,
-			["mapName"] = "Scholomance898",
+		["Crusader's Square@Stratholme"] = {
+			["dungeon"] = "Stratholme",
+			["mapID"] = 765,
+			["floor"] = 1,
+			["mapName"] = "Crusader's Square",
 		},
-		["Netherspace"] = {
+		["The Guest Chambers@Karazhan"] = {
 			["dungeon"] = "Karazhan",
 			["mapID"] = 799,
-			["floor"] = 17,
-			["mapName"] = "Netherspace",
+			["floor"] = 4,
+			["mapName"] = "The Guest Chambers",
 		},
-		["HeartofFear"] = {
-			["numFloors"] = 2,
+		["Deeprun Tram@DeeprunTram"] = {
+			["dungeon"] = "DeeprunTram",
+			["mapID"] = 922,
+			["floor"] = 1,
+			["mapName"] = "Deeprun Tram",
+		},
+		["Floor4@ScarletMonastery"] = {
+			["dungeon"] = "ScarletMonastery",
+			["mapID"] = 762,
+			["floor"] = 4,
+			["mapName"] = "Floor4",
+		},
+		["Heart of Fear@HeartofFear"] = {
+			["dungeon"] = "HeartofFear",
 			["mapID"] = 897,
-			["mapName"] = "HeartofFear",
+			["floor"] = 2,
+			["mapName"] = "Heart of Fear",
 		},
-		["BrewmasterScenario01"] = {
-			["numFloors"] = 0,
-			["mapID"] = 878,
-			["mapName"] = "BrewmasterScenario01",
-		},
-		["MogushanVaults"] = {
-			["numFloors"] = 3,
-			["mapID"] = 896,
-			["mapName"] = "MogushanVaults",
-		},
-		["DustwallowMarshScenarioAlliance"] = {
-			["numFloors"] = 0,
-			["mapID"] = 906,
-			["mapName"] = "DustwallowMarshScenarioAlliance",
+		["Athenaeum@ScarletHalls"] = {
+			["dungeon"] = "ScarletHalls",
+			["mapID"] = 871,
+			["floor"] = 2,
+			["mapName"] = "Athenaeum",
 		},
 		["TheForgeofSouls"] = {
 			["numFloors"] = 0,
 			["mapID"] = 601,
 			["mapName"] = "TheForgeofSouls",
 		},
-		["SiegeofNiuzaoTemple"] = {
-			["numFloors"] = 3,
-			["mapID"] = 887,
-			["mapName"] = "SiegeofNiuzaoTemple",
+		["BlackTempleScenario"] = {
+			["numFloors"] = 8,
+			["mapID"] = 919,
+			["mapName"] = "BlackTempleScenario",
 		},
-		["Stormstout Brewhall"] = {
+		["The Tasting Room@StormstoutBrewery"] = {
 			["dungeon"] = "StormstoutBrewery",
 			["mapID"] = 876,
-			["floor"] = 2,
-			["mapName"] = "Stormstout Brewhall",
+			["floor"] = 4,
+			["mapName"] = "The Tasting Room",
 		},
-		["Chamber of Summoning"] = {
-			["dungeon"] = "Scholomance",
-			["mapID"] = 898,
-			["floor"] = 2,
-			["mapName"] = "Chamber of Summoning",
+		["Chamber of Command@BlackTempleScenario"] = {
+			["dungeon"] = "BlackTempleScenario",
+			["mapID"] = 919,
+			["floor"] = 7,
+			["mapName"] = "Chamber of Command",
 		},
 		["WarsongGulch"] = {
 			["numFloors"] = 0,
 			["mapID"] = 443,
 			["mapName"] = "WarsongGulch",
 		},
-		["The Menagerie"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 9,
-			["mapName"] = "The Menagerie",
+		["Nefarian's Lair@BlackwingLair"] = {
+			["dungeon"] = "BlackwingLair",
+			["mapID"] = 755,
+			["floor"] = 4,
+			["mapName"] = "Nefarian's Lair",
 		},
 		["MagtheridonsLair"] = {
 			["numFloors"] = 0,
@@ -536,23 +500,24 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Nagrand",
 			["zonei"] = 3,
 		},
-		["Forward Assault Camp"] = {
-			["dungeon"] = "SiegeofNiuzaoTemple",
-			["mapID"] = 887,
-			["floor"] = 1,
-			["mapName"] = "Forward Assault Camp",
+		["GrimBatol"] = {
+			["numFloors"] = 0,
+			["mapID"] = 757,
+			["mapName"] = "GrimBatol",
 		},
-		["The Gilded Gate"] = {
+		["The Brood Pit@AzjolNerub"] = {
 			["dungeon"] = "AzjolNerub",
 			["mapID"] = 533,
-			["floor"] = 3,
-			["mapName"] = "The Gilded Gate",
-		},
-		["The Grand Approach "] = {
-			["dungeon"] = "Ulduar",
-			["mapID"] = 529,
 			["floor"] = 1,
-			["mapName"] = "The Grand Approach ",
+			["mapName"] = "The Brood Pit",
+		},
+		["Wintergrasp"] = {
+			["numFloors"] = 0,
+			["mapID"] = 501,
+			["cont"] = 4,
+			["zone"] = "Wintergrasp",
+			["mapName"] = "Wintergrasp",
+			["zonei"] = 11,
 		},
 		["Shimmering Expanse"] = {
 			["numFloors"] = 0,
@@ -562,48 +527,48 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Shimmering Expanse",
 			["zonei"] = 27,
 		},
-		["Hordemar City"] = {
-			["dungeon"] = "BlackrockSpire",
-			["mapID"] = 721,
-			["floor"] = 3,
-			["mapName"] = "Hordemar City",
-		},
-		["Tazz'Alaor"] = {
-			["dungeon"] = "BlackrockSpire",
-			["mapID"] = 721,
-			["floor"] = 1,
-			["mapName"] = "Tazz'Alaor",
-		},
-		["MogushanPalace"] = {
-			["numFloors"] = 3,
-			["mapID"] = 885,
-			["mapName"] = "MogushanPalace",
-		},
-		["Nefarian's Lair"] = {
-			["dungeon"] = "BlackwingLair",
+		["BlackwingLair"] = {
+			["numFloors"] = 4,
 			["mapID"] = 755,
-			["floor"] = 4,
-			["mapName"] = "Nefarian's Lair",
+			["mapName"] = "BlackwingLair",
 		},
-		["Caverns of Maraudon"] = {
-			["dungeon"] = "Maraudon",
-			["mapID"] = 750,
+		["Walk of the Makers@HallsofLightning"] = {
+			["dungeon"] = "HallsofLightning",
+			["mapID"] = 525,
+			["floor"] = 2,
+			["mapName"] = "Walk of the Makers",
+		},
+		["Gate of the Setting Sun@TheGreatWall"] = {
+			["dungeon"] = "TheGreatWall",
+			["mapID"] = 875,
 			["floor"] = 1,
-			["mapName"] = "Caverns of Maraudon",
+			["mapName"] = "Gate of the Setting Sun",
 		},
-		["The Upper Study"] = {
-			["dungeon"] = "Scholomance",
-			["mapID"] = 898,
+		["Floor2@Shrine of Seven Stars"] = {
+			["dungeon"] = "Shrine of Seven Stars",
+			["mapID"] = 905,
+			["cont"] = 6,
+			["zone"] = "Shrine of Seven Stars",
+			["mapName"] = "Floor2",
+			["floor"] = 2,
+		},
+		["Halls of Anguish@BlackTempleScenario"] = {
+			["dungeon"] = "BlackTempleScenario",
+			["mapID"] = 919,
+			["floor"] = 4,
+			["mapName"] = "Halls of Anguish",
+		},
+		["Sanctuary of Shadows@BlackTempleScenario"] = {
+			["dungeon"] = "BlackTempleScenario",
+			["mapID"] = 919,
 			["floor"] = 3,
-			["mapName"] = "The Upper Study",
+			["mapName"] = "Sanctuary of Shadows",
 		},
-		["The Maelstrom737"] = {
-			["numFloors"] = 0,
-			["mapID"] = 737,
-			["cont"] = 5,
-			["zone"] = "The Maelstrom",
-			["mapName"] = "The Maelstrom737",
-			["zonei"] = 4,
+		["The Gauntlet@Stratholme"] = {
+			["dungeon"] = "Stratholme",
+			["mapID"] = 765,
+			["floor"] = 2,
+			["mapName"] = "The Gauntlet",
 		},
 		["Eversong Woods"] = {
 			["numFloors"] = 0,
@@ -613,52 +578,50 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Eversong Woods",
 			["zonei"] = 13,
 		},
-		["Throne of Ancient Conquerors"] = {
-			["dungeon"] = "MogushanPalace",
-			["mapID"] = 885,
-			["floor"] = 3,
-			["mapName"] = "Throne of Ancient Conquerors",
+		["AuchenaiCrypts"] = {
+			["numFloors"] = 2,
+			["mapID"] = 722,
+			["mapName"] = "AuchenaiCrypts",
 		},
-		["The Crimson Assembly Hall"] = {
-			["dungeon"] = "MogushanPalace",
-			["mapID"] = 885,
+		["The Twilight Enclave@TheBastionofTwilight"] = {
+			["dungeon"] = "TheBastionofTwilight",
+			["mapID"] = 758,
 			["floor"] = 1,
-			["mapName"] = "The Crimson Assembly Hall",
+			["mapName"] = "The Twilight Enclave",
 		},
-		["KunLaiSummitScenario"] = {
+		["Illidari Training Grounds@BlackTempleScenario"] = {
+			["dungeon"] = "BlackTempleScenario",
+			["mapID"] = 919,
+			["floor"] = 1,
+			["mapName"] = "Illidari Training Grounds",
+		},
+		["VoljinScenario"] = {
 			["numFloors"] = 0,
-			["mapID"] = 879,
-			["mapName"] = "KunLaiSummitScenario",
+			["mapID"] = 914,
+			["mapName"] = "VoljinScenario",
 		},
-		["Athenaeum"] = {
-			["dungeon"] = "ScarletHalls",
-			["mapID"] = 871,
-			["floor"] = 2,
-			["mapName"] = "Athenaeum",
-		},
-		["Servant's Quarters"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 1,
-			["mapName"] = "Servant's Quarters",
+		["KrasarangPatience"] = {
+			["numFloors"] = 0,
+			["mapID"] = 912,
+			["mapName"] = "KrasarangPatience",
 		},
 		["CoTHillsbradFoothills"] = {
 			["numFloors"] = 0,
 			["mapID"] = 734,
 			["mapName"] = "CoTHillsbradFoothills",
 		},
-		["The Vacant Den"] = {
-			["dungeon"] = "ShadowfangKeep",
-			["mapID"] = 764,
-			["floor"] = 3,
-			["mapName"] = "The Vacant Den",
+		["The Temple Gates@AhnQiraj"] = {
+			["dungeon"] = "AhnQiraj",
+			["mapID"] = 766,
+			["floor"] = 2,
+			["mapName"] = "The Temple Gates",
 		},
-		["TheJadeForestScenario"] = {
+		["DustwallowMarshScenarioAlliance"] = {
 			["numFloors"] = 0,
-			["mapID"] = 880,
-			["mapName"] = "TheJadeForestScenario",
+			["mapID"] = 906,
+			["mapName"] = "DustwallowMarshScenarioAlliance",
 		},
-		["The Wandering Isle"] = {
+		["TheWanderingIsle"] = {
 			["numFloors"] = 0,
 			["mapID"] = 808,
 			["mapName"] = "TheWanderingIsle",
@@ -684,39 +647,39 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Borean Tundra",
 			["zonei"] = 1,
 		},
-		["KunLaiPassScenario"] = {
-			["numFloors"] = 0,
-			["mapID"] = 884,
-			["mapName"] = "KunLaiPassScenario",
+		["The Pool of Ask'Ar@BlackfathomDeeps"] = {
+			["dungeon"] = "BlackfathomDeeps",
+			["mapID"] = 688,
+			["floor"] = 1,
+			["mapName"] = "The Pool of Ask'Ar",
 		},
-		["The Icy Depths"] = {
-			["dungeon"] = "TheArgentColiseum",
-			["mapID"] = 543,
+		["Zaetar's Grave@Maraudon"] = {
+			["dungeon"] = "Maraudon",
+			["mapID"] = 750,
 			["floor"] = 2,
-			["mapName"] = "The Icy Depths",
+			["mapName"] = "Zaetar's Grave",
 		},
-		["Heart of Fear"] = {
-			["dungeon"] = "HeartofFear",
-			["mapID"] = 897,
+		["Crypt Depths@AncientMoguCrypt"] = {
+			["dungeon"] = "AncientMoguCrypt",
+			["mapID"] = 900,
 			["floor"] = 2,
-			["mapName"] = "Heart of Fear",
-		},
-		["The Power Station"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 16,
-			["mapName"] = "The Power Station",
+			["mapName"] = "Crypt Depths",
 		},
 		["ShadowpanHideout"] = {
 			["numFloors"] = 4,
 			["mapID"] = 877,
 			["mapName"] = "ShadowpanHideout",
 		},
-		["Sealed Chambers"] = {
-			["dungeon"] = "ShadowpanHideout",
-			["mapID"] = 877,
-			["floor"] = 4,
-			["mapName"] = "Sealed Chambers",
+		["ProvingGrounds"] = {
+			["numFloors"] = 0,
+			["mapID"] = 899,
+			["mapName"] = "ProvingGrounds",
+		},
+		["Sanctuary of Shadows@BlackTemple"] = {
+			["dungeon"] = "BlackTemple",
+			["mapID"] = 796,
+			["floor"] = 3,
+			["mapName"] = "Sanctuary of Shadows",
 		},
 		["Camp Narache"] = {
 			["numFloors"] = 0,
@@ -726,56 +689,55 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Camp Narache",
 			["zonei"] = 7,
 		},
-		["Snowdrift Dojo"] = {
-			["dungeon"] = "ShadowpanHideout",
-			["mapID"] = 877,
-			["floor"] = 3,
-			["mapName"] = "Snowdrift Dojo",
+		["The Grand Approach @Ulduar"] = {
+			["dungeon"] = "Ulduar",
+			["mapID"] = 529,
+			["floor"] = 1,
+			["mapName"] = "The Grand Approach ",
 		},
-		["Cloudstrike Dojo"] = {
-			["dungeon"] = "ShadowpanHideout",
-			["mapID"] = 877,
-			["floor"] = 2,
-			["mapName"] = "Cloudstrike Dojo",
+		["The Repository@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 11,
+			["mapName"] = "The Repository",
 		},
 		["AlteracValley"] = {
 			["numFloors"] = 0,
 			["mapID"] = 401,
 			["mapName"] = "AlteracValley",
 		},
-		["The Great Wheel"] = {
-			["dungeon"] = "StormstoutBrewery",
-			["mapID"] = 876,
-			["floor"] = 3,
-			["mapName"] = "The Great Wheel",
-		},
-		["Tomb of the Earthrager"] = {
-			["dungeon"] = "HallsofOrigination",
-			["mapID"] = 759,
-			["floor"] = 2,
-			["mapName"] = "Tomb of the Earthrager",
-		},
-		["Shado-Pan Monastery"] = {
-			["dungeon"] = "ShadowpanHideout",
-			["mapID"] = 877,
-			["floor"] = 1,
-			["mapName"] = "Shado-Pan Monastery",
-		},
-		["HellfireRamparts"] = {
-			["numFloors"] = 0,
-			["mapID"] = 797,
-			["mapName"] = "HellfireRamparts",
-		},
-		["Twilight Forge"] = {
-			["dungeon"] = "BlackrockCaverns",
-			["mapID"] = 753,
-			["floor"] = 2,
-			["mapName"] = "Twilight Forge",
-		},
-		["TheGreatWall"] = {
+		["HeartofFear"] = {
 			["numFloors"] = 2,
-			["mapID"] = 875,
-			["mapName"] = "TheGreatWall",
+			["mapID"] = 897,
+			["mapName"] = "HeartofFear",
+		},
+		["KrasarangHorde"] = {
+			["numFloors"] = 0,
+			["mapID"] = 920,
+			["mapName"] = "KrasarangHorde",
+		},
+		["Oratorium of the Voice@HeartofFear"] = {
+			["dungeon"] = "HeartofFear",
+			["mapID"] = 897,
+			["floor"] = 1,
+			["mapName"] = "Oratorium of the Voice",
+		},
+		["MogushanVaults"] = {
+			["numFloors"] = 3,
+			["mapID"] = 896,
+			["mapName"] = "MogushanVaults",
+		},
+		["Forge of the Endless@MogushanVaults"] = {
+			["dungeon"] = "MogushanVaults",
+			["mapID"] = 896,
+			["floor"] = 3,
+			["mapName"] = "Forge of the Endless",
+		},
+		["The Banquet Hall@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 3,
+			["mapName"] = "The Banquet Hall",
 		},
 		["Shadowmoon Valley"] = {
 			["numFloors"] = 0,
@@ -795,18 +757,17 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 724,
 			["mapName"] = "ShadowLabyrinth",
 		},
-		["Warpwood Quarter"] = {
-			["dungeon"] = "DireMaul",
-			["mapID"] = 699,
-			["floor"] = 5,
-			["mapName"] = "Warpwood Quarter",
+		["Throne of the Apocalypse@TheBastionofTwilight"] = {
+			["dungeon"] = "TheBastionofTwilight",
+			["mapID"] = 758,
+			["floor"] = 2,
+			["mapName"] = "Throne of the Apocalypse",
 		},
-		["TheLostIsles_terrain1"] = {
-			["numFloors"] = 7,
-			["mapID"] = 681,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "TheLostIsles_terrain1",
+		["Grand Magister's Asylum@MagistersTerrace"] = {
+			["dungeon"] = "MagistersTerrace",
+			["mapID"] = 798,
+			["floor"] = 1,
+			["mapName"] = "Grand Magister's Asylum",
 		},
 		["Deadwind Pass"] = {
 			["numFloors"] = 0,
@@ -816,59 +777,62 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Deadwind Pass",
 			["zonei"] = 7,
 		},
-		["Gate Watch Tower"] = {
-			["dungeon"] = "TheGreatWall",
-			["mapID"] = 875,
-			["floor"] = 2,
-			["mapName"] = "Gate Watch Tower",
-		},
-		["Gate of the Setting Sun"] = {
-			["dungeon"] = "TheGreatWall",
-			["mapID"] = 875,
+		["Dais of Conquerors@MogushanVaults"] = {
+			["dungeon"] = "MogushanVaults",
+			["mapID"] = 896,
 			["floor"] = 1,
-			["mapName"] = "Gate of the Setting Sun",
+			["mapName"] = "Dais of Conquerors",
 		},
-		["ScarletCathedral"] = {
-			["numFloors"] = 2,
-			["mapID"] = 874,
-			["mapName"] = "ScarletCathedral",
+		["The Vault of Lights@HallsofOrigination"] = {
+			["dungeon"] = "HallsofOrigination",
+			["mapID"] = 759,
+			["floor"] = 1,
+			["mapName"] = "The Vault of Lights",
 		},
-		["WellofEternity"] = {
+		["BrewmasterScenario01"] = {
 			["numFloors"] = 0,
-			["mapID"] = 816,
-			["mapName"] = "WellofEternity",
+			["mapID"] = 878,
+			["mapName"] = "BrewmasterScenario01",
 		},
-		["Forlorn Cloister"] = {
-			["dungeon"] = "ScarletCathedral",
-			["mapID"] = 874,
-			["floor"] = 1,
-			["mapName"] = "Forlorn Cloister",
+		["Prison of Immol'Thar@DireMaul"] = {
+			["dungeon"] = "DireMaul",
+			["mapID"] = 699,
+			["floor"] = 4,
+			["mapName"] = "Prison of Immol'Thar",
+		},
+		["The Hollowed Out Tree@SiegeofNiuzaoTemple"] = {
+			["dungeon"] = "SiegeofNiuzaoTemple",
+			["mapID"] = 887,
+			["floor"] = 2,
+			["mapName"] = "The Hollowed Out Tree",
 		},
 		["GruulsLair"] = {
 			["numFloors"] = 0,
 			["mapID"] = 776,
 			["mapName"] = "GruulsLair",
 		},
-		["The Nexus"] = {
-			["numFloors"] = 0,
-			["mapID"] = 520,
-			["mapName"] = "TheNexus",
-		},
-		["Tyrivess"] = {
-			["numFloors"] = 0,
-			["mapID"] = 883,
-			["mapName"] = "Tyrivess",
-		},
-		["PitofSaron"] = {
-			["numFloors"] = 0,
-			["mapID"] = 602,
-			["mapName"] = "PitofSaron",
-		},
-		["Training Grounds"] = {
-			["dungeon"] = "ScarletHalls",
-			["mapID"] = 871,
+		["Forward Assault Camp@SiegeofNiuzaoTemple"] = {
+			["dungeon"] = "SiegeofNiuzaoTemple",
+			["mapID"] = 887,
 			["floor"] = 1,
-			["mapName"] = "Training Grounds",
+			["mapName"] = "Forward Assault Camp",
+		},
+		["Band of Alignment@Nexus80"] = {
+			["dungeon"] = "Nexus80",
+			["mapID"] = 528,
+			["floor"] = 4,
+			["mapName"] = "Band of Alignment",
+		},
+		["Tazz'Alaor@BlackrockSpire"] = {
+			["dungeon"] = "BlackrockSpire",
+			["mapID"] = 721,
+			["floor"] = 1,
+			["mapName"] = "Tazz'Alaor",
+		},
+		["TerraceOfEndlessSpring"] = {
+			["numFloors"] = 0,
+			["mapID"] = 886,
+			["mapName"] = "TerraceOfEndlessSpring",
 		},
 		["Ammen Vale"] = {
 			["numFloors"] = 0,
@@ -878,21 +842,24 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Ammen Vale",
 			["zonei"] = 2,
 		},
-		["Dragonspire Hall"] = {
-			["dungeon"] = "BlackrockSpire",
-			["mapID"] = 721,
+		["The Spark of Imagination@Ulduar"] = {
+			["dungeon"] = "Ulduar",
+			["mapID"] = 529,
 			["floor"] = 5,
-			["mapName"] = "Dragonspire Hall",
+			["mapName"] = "The Spark of Imagination",
 		},
 		["GilneasBattleground2"] = {
 			["numFloors"] = 0,
 			["mapID"] = 736,
 			["mapName"] = "GilneasBattleground2",
 		},
-		["EastTemple"] = {
-			["numFloors"] = 2,
-			["mapID"] = 867,
-			["mapName"] = "EastTemple",
+		["Undercity"] = {
+			["numFloors"] = 0,
+			["mapID"] = 382,
+			["cont"] = 2,
+			["zone"] = "Undercity",
+			["mapName"] = "Undercity",
+			["zonei"] = 40,
 		},
 		["Thunder Bluff"] = {
 			["numFloors"] = 0,
@@ -902,41 +869,42 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Thunder Bluff",
 			["zonei"] = 29,
 		},
-		["682/6"] = {
-			["dungeon"] = "TheLostIsles_terrain2",
-			["mapID"] = 682,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "682/6",
-			["floor"] = 6,
+		["Throne of Ancient Conquerors@MogushanPalace"] = {
+			["dungeon"] = "MogushanPalace",
+			["mapID"] = 885,
+			["floor"] = 3,
+			["mapName"] = "Throne of Ancient Conquerors",
 		},
-		["The Vestibules of Drak'Tharon"] = {
-			["dungeon"] = "DrakTharonKeep",
-			["mapID"] = 534,
+		["Sunwell Plateau@SunwellPlateau"] = {
+			["dungeon"] = "SunwellPlateau",
+			["mapID"] = 789,
 			["floor"] = 1,
-			["mapName"] = "The Vestibules of Drak'Tharon",
+			["mapName"] = "Sunwell Plateau",
 		},
-		["Dining Hall"] = {
-			["dungeon"] = "ShadowfangKeep",
-			["mapID"] = 764,
+		["Vaults of Kings Past@MogushanPalace"] = {
+			["dungeon"] = "MogushanPalace",
+			["mapID"] = 885,
 			["floor"] = 2,
-			["mapName"] = "Dining Hall",
+			["mapName"] = "Vaults of Kings Past",
 		},
-		["Temple of the Jade Serpent"] = {
-			["dungeon"] = "EastTemple",
-			["mapID"] = 867,
+		["The Crimson Assembly Hall@MogushanPalace"] = {
+			["dungeon"] = "MogushanPalace",
+			["mapID"] = 885,
 			["floor"] = 1,
-			["mapName"] = "Temple of the Jade Serpent",
+			["mapName"] = "The Crimson Assembly Hall",
 		},
 		["RuinsofAhnQiraj"] = {
 			["numFloors"] = 0,
 			["mapID"] = 717,
 			["mapName"] = "RuinsofAhnQiraj",
 		},
-		["TheSteamvault"] = {
-			["numFloors"] = 2,
-			["mapID"] = 727,
-			["mapName"] = "TheSteamvault",
+		["Dalaran City@Dalaran"] = {
+			["dungeon"] = "Dalaran",
+			["mapID"] = 504,
+			["cont"] = 4,
+			["zone"] = "Dalaran",
+			["mapName"] = "Dalaran City",
+			["floor"] = 1,
 		},
 		["Moonglade"] = {
 			["numFloors"] = 0,
@@ -946,18 +914,15 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Moonglade",
 			["zonei"] = 16,
 		},
-		["TempleofKotmogu"] = {
+		["KunLaiPassScenario"] = {
 			["numFloors"] = 0,
-			["mapID"] = 856,
-			["mapName"] = "TempleofKotmogu",
+			["mapID"] = 884,
+			["mapName"] = "KunLaiPassScenario",
 		},
-		["681/6"] = {
-			["dungeon"] = "TheLostIsles_terrain1",
-			["mapID"] = 681,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "681/6",
-			["floor"] = 6,
+		["Tyrivess"] = {
+			["numFloors"] = 0,
+			["mapID"] = 883,
+			["mapName"] = "Tyrivess",
 		},
 		["Outland"] = {
 			["numFloors"] = 0,
@@ -967,39 +932,38 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Outland",
 			["zonei"] = 0,
 		},
-		["DustwallowMarshScenario"] = {
+		["NetherstormArena"] = {
 			["numFloors"] = 0,
-			["mapID"] = 851,
-			["mapName"] = "DustwallowMarshScenario",
+			["mapID"] = 482,
+			["mapName"] = "NetherstormArena",
 		},
-		["Prison of Immol'Thar"] = {
-			["dungeon"] = "DireMaul",
-			["mapID"] = 699,
-			["floor"] = 4,
-			["mapName"] = "Prison of Immol'Thar",
+		["Opera Hall Balcony@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 5,
+			["mapName"] = "Opera Hall Balcony",
 		},
-		["DragonSoul"] = {
-			["numFloors"] = 7,
-			["mapID"] = 824,
-			["mapName"] = "DragonSoul",
+		["Hordemar City@BlackrockSpire"] = {
+			["dungeon"] = "BlackrockSpire",
+			["mapID"] = 721,
+			["floor"] = 3,
+			["mapName"] = "Hordemar City",
 		},
-		["Spine of Deathwing"] = {
-			["dungeon"] = "DragonSoul",
-			["mapID"] = 824,
-			["floor"] = 6,
-			["mapName"] = "Spine of Deathwing",
+		["ValleyOfPowerScenario"] = {
+			["numFloors"] = 0,
+			["mapID"] = 881,
+			["mapName"] = "ValleyOfPowerScenario",
 		},
-		["The Shrine of Eldretharr"] = {
-			["dungeon"] = "DireMaul",
-			["mapID"] = 699,
-			["floor"] = 6,
-			["mapName"] = "The Shrine of Eldretharr",
+		["KunLaiSummitScenario"] = {
+			["numFloors"] = 0,
+			["mapID"] = 879,
+			["mapName"] = "KunLaiSummitScenario",
 		},
-		["The Mechanar"] = {
-			["dungeon"] = "TheMechanar",
-			["mapID"] = 730,
-			["floor"] = 1,
-			["mapName"] = "The Mechanar",
+		["Upper Tree Ring@SiegeofNiuzaoTemple"] = {
+			["dungeon"] = "SiegeofNiuzaoTemple",
+			["mapID"] = 887,
+			["floor"] = 3,
+			["mapName"] = "Upper Tree Ring",
 		},
 		["Badlands"] = {
 			["numFloors"] = 0,
@@ -1009,36 +973,35 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Badlands",
 			["zonei"] = 3,
 		},
-		["Skyfire Airship"] = {
-			["dungeon"] = "DragonSoul",
-			["mapID"] = 824,
-			["floor"] = 5,
-			["mapName"] = "Skyfire Airship",
-		},
-		["The Construct Quarter"] = {
-			["dungeon"] = "Naxxramas",
-			["mapID"] = 535,
+		["Gordok Commons@DireMaul"] = {
+			["dungeon"] = "DireMaul",
+			["mapID"] = 699,
 			["floor"] = 1,
-			["mapName"] = "The Construct Quarter",
+			["mapName"] = "Gordok Commons",
 		},
-		["682/5"] = {
-			["dungeon"] = "TheLostIsles_terrain2",
-			["mapID"] = 682,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "682/5",
-			["floor"] = 5,
+		["Upper Burial Chamber@AncientMoguCrypt"] = {
+			["dungeon"] = "AncientMoguCrypt",
+			["mapID"] = 900,
+			["floor"] = 1,
+			["mapName"] = "Upper Burial Chamber",
 		},
-		["ShadowfangKeep"] = {
-			["numFloors"] = 7,
-			["mapID"] = 764,
-			["mapName"] = "ShadowfangKeep",
+		["Sealed Chambers@ShadowpanHideout"] = {
+			["dungeon"] = "ShadowpanHideout",
+			["mapID"] = 877,
+			["floor"] = 4,
+			["mapName"] = "Sealed Chambers",
 		},
-		["Crimson Laboratories"] = {
-			["dungeon"] = "BlackwingLair",
-			["mapID"] = 755,
+		["Capital Gardens@DireMaul"] = {
+			["dungeon"] = "DireMaul",
+			["mapID"] = 699,
+			["floor"] = 2,
+			["mapName"] = "Capital Gardens",
+		},
+		["Snowdrift Dojo@ShadowpanHideout"] = {
+			["dungeon"] = "ShadowpanHideout",
+			["mapID"] = 877,
 			["floor"] = 3,
-			["mapName"] = "Crimson Laboratories",
+			["mapName"] = "Snowdrift Dojo",
 		},
 		["Ruins of Gilneas"] = {
 			["numFloors"] = 0,
@@ -1048,11 +1011,10 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Ruins of Gilneas",
 			["zonei"] = 24,
 		},
-		["Frostmourne"] = {
-			["dungeon"] = "IcecrownCitadel",
-			["mapID"] = 604,
-			["floor"] = 8,
-			["mapName"] = "Frostmourne",
+		["TheBastionofTwilight"] = {
+			["numFloors"] = 3,
+			["mapID"] = 758,
+			["mapName"] = "TheBastionofTwilight",
 		},
 		["Tirisfal Glades"] = {
 			["numFloors"] = 0,
@@ -1067,43 +1029,44 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 754,
 			["mapName"] = "BlackwingDescent",
 		},
-		["Sunwell Plateau"] = {
-			["dungeon"] = "SunwellPlateau",
-			["mapID"] = 789,
-			["floor"] = 1,
-			["mapName"] = "Sunwell Plateau",
-		},
-		["Kun-Lai Summit"] = {
-			["numFloors"] = 0,
-			["mapID"] = 809,
-			["cont"] = 6,
-			["zone"] = "Kun-Lai Summit",
-			["mapName"] = "Kun-Lai Summit",
-			["zonei"] = 3,
-		},
-		["ZulGurub"] = {
-			["numFloors"] = 0,
-			["mapID"] = 697,
-			["mapName"] = "ZulGurub",
-		},
-		["Maw of Go'rath"] = {
-			["dungeon"] = "DragonSoul",
-			["mapID"] = 824,
+		["Cloudstrike Dojo@ShadowpanHideout"] = {
+			["dungeon"] = "ShadowpanHideout",
+			["mapID"] = 877,
 			["floor"] = 2,
-			["mapName"] = "Maw of Go'rath",
+			["mapName"] = "Cloudstrike Dojo",
+		},
+		["Echo Isles"] = {
+			["numFloors"] = 0,
+			["mapID"] = 891,
+			["cont"] = 1,
+			["zone"] = "Echo Isles",
+			["mapName"] = "Echo Isles",
+			["zonei"] = 13,
+		},
+		["Shado-Pan Monastery@ShadowpanHideout"] = {
+			["dungeon"] = "ShadowpanHideout",
+			["mapID"] = 877,
+			["floor"] = 1,
+			["mapName"] = "Shado-Pan Monastery",
+		},
+		["Temple Summit@BlackTempleScenario"] = {
+			["dungeon"] = "BlackTempleScenario",
+			["mapID"] = 919,
+			["floor"] = 8,
+			["mapName"] = "Temple Summit",
 		},
 		["StrandoftheAncients"] = {
 			["numFloors"] = 0,
 			["mapID"] = 512,
 			["mapName"] = "StrandoftheAncients",
 		},
-		["Sholazar Basin"] = {
+		["The Lost Isles"] = {
 			["numFloors"] = 0,
-			["mapID"] = 493,
-			["cont"] = 4,
-			["zone"] = "Sholazar Basin",
-			["mapName"] = "Sholazar Basin",
-			["zonei"] = 9,
+			["mapID"] = 544,
+			["cont"] = 5,
+			["zone"] = "The Lost Isles",
+			["mapName"] = "The Lost Isles",
+			["zonei"] = 3,
 		},
 		["New Tinkertown"] = {
 			["numFloors"] = 0,
@@ -1122,7 +1085,7 @@ WoWPro.Zone2MapID = {
 			["zonei"] = 0,
 		},
 		["Firelands"] = {
-			["numFloors"] = 3,
+			["numFloors"] = 0,
 			["mapID"] = 800,
 			["mapName"] = "Firelands",
 		},
@@ -1134,10 +1097,11 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Icecrown",
 			["zonei"] = 8,
 		},
-		["Darkmoon Faire"] = {
-			["numFloors"] = 0,
-			["mapID"] = 823,
-			["mapName"] = "DarkmoonFaireIsland",
+		["Tyr's Terrace@UtgardeKeep"] = {
+			["dungeon"] = "UtgardeKeep",
+			["mapID"] = 523,
+			["floor"] = 3,
+			["mapName"] = "Tyr's Terrace",
 		},
 		["Netherstorm"] = {
 			["numFloors"] = 0,
@@ -1147,11 +1111,10 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Netherstorm",
 			["zonei"] = 4,
 		},
-		["Njorndir Preparation"] = {
-			["dungeon"] = "UtgardeKeep",
-			["mapID"] = 523,
-			["floor"] = 1,
-			["mapName"] = "Njorndir Preparation",
+		["DustwallowMarshScenario"] = {
+			["numFloors"] = 0,
+			["mapID"] = 851,
+			["mapName"] = "DustwallowMarshScenario",
 		},
 		["Ahn'Qiraj: The Fallen Kingdom"] = {
 			["numFloors"] = 0,
@@ -1161,45 +1124,50 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Ahn'Qiraj: The Fallen Kingdom",
 			["zonei"] = 1,
 		},
-		["ZulFarrak"] = {
-			["numFloors"] = 0,
-			["mapID"] = 686,
-			["mapName"] = "ZulFarrak",
+		["Cleft of Shadow@Orgrimmar"] = {
+			["dungeon"] = "Orgrimmar",
+			["mapID"] = 321,
+			["cont"] = 1,
+			["zone"] = "Orgrimmar",
+			["mapName"] = "Cleft of Shadow",
+			["floor"] = 2,
 		},
-		["EndTime"] = {
-			["numFloors"] = 6,
-			["mapID"] = 820,
-			["mapName"] = "EndTime",
+		["Frostmourne@IcecrownCitadel"] = {
+			["dungeon"] = "IcecrownCitadel",
+			["mapID"] = 604,
+			["floor"] = 8,
+			["mapName"] = "Frostmourne",
 		},
-		["Uldaman"] = {
-			["numFloors"] = 2,
-			["mapID"] = 692,
-			["mapName"] = "Uldaman",
+		["Hadronox's Lair@AzjolNerub"] = {
+			["dungeon"] = "AzjolNerub",
+			["mapID"] = 533,
+			["floor"] = 2,
+			["mapName"] = "Hadronox's Lair",
 		},
 		["ScarletEnclave"] = {
 			["numFloors"] = 0,
 			["mapID"] = 502,
 			["mapName"] = "ScarletEnclave",
 		},
-		["Isle of Quel'Danas"] = {
+		["Zangarmarsh"] = {
 			["numFloors"] = 0,
-			["mapID"] = 499,
-			["cont"] = 2,
-			["zone"] = "Isle of Quel'Danas",
-			["mapName"] = "Isle of Quel'Danas",
-			["zonei"] = 17,
+			["mapID"] = 467,
+			["cont"] = 3,
+			["zone"] = "Zangarmarsh",
+			["mapName"] = "Zangarmarsh",
+			["zonei"] = 8,
 		},
-		["Bronze Dragonshrine"] = {
-			["dungeon"] = "EndTime",
-			["mapID"] = 820,
+		["The Rookery@BlackrockSpire"] = {
+			["dungeon"] = "BlackrockSpire",
+			["mapID"] = 721,
 			["floor"] = 6,
-			["mapName"] = "Bronze Dragonshrine",
+			["mapName"] = "The Rookery",
 		},
-		["Emerald Dragonshrine"] = {
-			["dungeon"] = "EndTime",
-			["mapID"] = 820,
-			["floor"] = 5,
-			["mapName"] = "Emerald Dragonshrine",
+		["The Great Wheel@StormstoutBrewery"] = {
+			["dungeon"] = "StormstoutBrewery",
+			["mapID"] = 876,
+			["floor"] = 3,
+			["mapName"] = "The Great Wheel",
 		},
 		["Kezan"] = {
 			["numFloors"] = 0,
@@ -1209,22 +1177,23 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Kezan",
 			["zonei"] = 2,
 		},
-		["BlackrockDepths"] = {
-			["numFloors"] = 2,
-			["mapID"] = 704,
-			["mapName"] = "BlackrockDepths",
+		["The Upper Necropolis@Naxxramas"] = {
+			["dungeon"] = "Naxxramas",
+			["mapID"] = 535,
+			["floor"] = 6,
+			["mapName"] = "The Upper Necropolis",
 		},
-		["Ironclad Cove"] = {
-			["dungeon"] = "TheDeadmines",
-			["mapID"] = 756,
-			["floor"] = 2,
-			["mapName"] = "Ironclad Cove",
-		},
-		["The Lower Citadel"] = {
-			["dungeon"] = "IcecrownCitadel",
-			["mapID"] = 604,
+		["The Broken Hall@BlackwingDescent"] = {
+			["dungeon"] = "BlackwingDescent",
+			["mapID"] = 754,
 			["floor"] = 1,
-			["mapName"] = "The Lower Citadel",
+			["mapName"] = "The Broken Hall",
+		},
+		["Stormstout Brewhall@StormstoutBrewery"] = {
+			["dungeon"] = "StormstoutBrewery",
+			["mapID"] = 876,
+			["floor"] = 2,
+			["mapName"] = "Stormstout Brewhall",
 		},
 		["Gilneas_terrain2"] = {
 			["numFloors"] = 0,
@@ -1236,11 +1205,11 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 461,
 			["mapName"] = "ArathiBasin",
 		},
-		["The Lower Necropolis"] = {
-			["dungeon"] = "Naxxramas",
-			["mapID"] = 535,
-			["floor"] = 5,
-			["mapName"] = "The Lower Necropolis",
+		["Khaz'Goroth's Seat@Uldaman"] = {
+			["dungeon"] = "Uldaman",
+			["mapID"] = 692,
+			["floor"] = 2,
+			["mapName"] = "Khaz'Goroth's Seat",
 		},
 		["Crystalsong Forest"] = {
 			["numFloors"] = 0,
@@ -1255,31 +1224,26 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 759,
 			["mapName"] = "HallsofOrigination",
 		},
-		["The Twilight Enclave"] = {
-			["dungeon"] = "TheBastionofTwilight",
-			["mapID"] = 758,
-			["floor"] = 1,
-			["mapName"] = "The Twilight Enclave",
+		["EastTemple"] = {
+			["numFloors"] = 2,
+			["mapID"] = 867,
+			["mapName"] = "EastTemple",
 		},
-		["905/2"] = {
-			["dungeon"] = "Shrine of Seven Stars",
-			["mapID"] = 905,
-			["cont"] = 6,
-			["zone"] = "Shrine of Seven Stars",
-			["mapName"] = "905/2",
+		["TheGreatWall"] = {
+			["numFloors"] = 2,
+			["mapID"] = 875,
+			["mapName"] = "TheGreatWall",
+		},
+		["Gate Watch Tower@TheGreatWall"] = {
+			["dungeon"] = "TheGreatWall",
+			["mapID"] = 875,
 			["floor"] = 2,
+			["mapName"] = "Gate Watch Tower",
 		},
-		["Wyrmrest Temple"] = {
-			["dungeon"] = "HourofTwilight",
-			["mapID"] = 819,
-			["floor"] = 2,
-			["mapName"] = "Wyrmrest Temple",
-		},
-		["Halls of the Hereafter"] = {
-			["dungeon"] = "AuchenaiCrypts",
-			["mapID"] = 722,
-			["floor"] = 1,
-			["mapName"] = "Halls of the Hereafter",
+		["ScarletCathedral"] = {
+			["numFloors"] = 2,
+			["mapID"] = 874,
+			["mapName"] = "ScarletCathedral",
 		},
 		["Feralas"] = {
 			["numFloors"] = 0,
@@ -1289,29 +1253,27 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Feralas",
 			["zonei"] = 15,
 		},
-		["Crusader's Chapel"] = {
-			["dungeon"] = "ScarletCathedral",
-			["mapID"] = 874,
+		["Skywall"] = {
+			["numFloors"] = 0,
+			["mapID"] = 769,
+			["mapName"] = "Skywall",
+		},
+		["The Repository@MogushanVaults"] = {
+			["dungeon"] = "MogushanVaults",
+			["mapID"] = 896,
 			["floor"] = 2,
-			["mapName"] = "Crusader's Chapel",
+			["mapName"] = "The Repository",
 		},
-		["NetherstormArena813"] = {
-			["numFloors"] = 0,
-			["mapID"] = 813,
-			["mapName"] = "NetherstormArena813",
+		["ScarletHalls"] = {
+			["numFloors"] = 2,
+			["mapID"] = 871,
+			["mapName"] = "ScarletHalls",
 		},
-		["TheNexusLegendary"] = {
-			["numFloors"] = 0,
-			["mapID"] = 803,
-			["mapName"] = "TheNexusLegendary",
-		},
-		["681/7"] = {
-			["dungeon"] = "TheLostIsles_terrain1",
-			["mapID"] = 681,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "681/7",
-			["floor"] = 7,
+		["Court of the Highborne@DireMaul"] = {
+			["dungeon"] = "DireMaul",
+			["mapID"] = 699,
+			["floor"] = 3,
+			["mapName"] = "Court of the Highborne",
 		},
 		["Dun Morogh"] = {
 			["numFloors"] = 0,
@@ -1321,37 +1283,37 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Dun Morogh",
 			["zonei"] = 9,
 		},
-		["Cleft of Shadow"] = {
-			["dungeon"] = "Orgrimmar",
-			["mapID"] = 321,
-			["cont"] = 1,
-			["zone"] = "Orgrimmar",
-			["mapName"] = "Cleft of Shadow",
-			["floor"] = 2,
-		},
-		["Sulfuron Keep"] = {
-			["dungeon"] = "Firelands",
-			["mapID"] = 800,
-			["floor"] = 3,
-			["mapName"] = "Sulfuron Keep",
-		},
-		["The Anvil of Conflagration"] = {
-			["dungeon"] = "Firelands",
-			["mapID"] = 800,
-			["floor"] = 2,
-			["mapName"] = "The Anvil of Conflagration",
-		},
-		["The Firelands"] = {
-			["dungeon"] = "Firelands",
-			["mapID"] = 800,
+		["Training Grounds@ScarletHalls"] = {
+			["dungeon"] = "ScarletHalls",
+			["mapID"] = 871,
 			["floor"] = 1,
-			["mapName"] = "The Firelands",
+			["mapName"] = "Training Grounds",
 		},
-		["Guardian's Library"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 10,
-			["mapName"] = "Guardian's Library",
+		["Floor1@Shrine of Two Moons"] = {
+			["dungeon"] = "Shrine of Two Moons",
+			["mapID"] = 903,
+			["cont"] = 6,
+			["zone"] = "Shrine of Two Moons",
+			["mapName"] = "Floor1",
+			["floor"] = 1,
+		},
+		["Njorndir Preparation@UtgardeKeep"] = {
+			["dungeon"] = "UtgardeKeep",
+			["mapID"] = 523,
+			["floor"] = 1,
+			["mapName"] = "Njorndir Preparation",
+		},
+		["Grain Cellar@StormstoutBrewery"] = {
+			["dungeon"] = "StormstoutBrewery",
+			["mapID"] = 876,
+			["floor"] = 1,
+			["mapName"] = "Grain Cellar",
+		},
+		["The Scrollkeeper's Sanctum@EastTemple"] = {
+			["dungeon"] = "EastTemple",
+			["mapID"] = 867,
+			["floor"] = 2,
+			["mapName"] = "The Scrollkeeper's Sanctum",
 		},
 		["Northrend"] = {
 			["numFloors"] = 0,
@@ -1369,10 +1331,11 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "The Cape of Stranglethorn",
 			["zonei"] = 34,
 		},
-		["Karazhan"] = {
-			["numFloors"] = 17,
-			["mapID"] = 799,
-			["mapName"] = "Karazhan",
+		["Karabor Sewers@BlackTempleScenario"] = {
+			["dungeon"] = "BlackTempleScenario",
+			["mapID"] = 919,
+			["floor"] = 2,
+			["mapName"] = "Karabor Sewers",
 		},
 		["Bloodmyst Isle"] = {
 			["numFloors"] = 0,
@@ -1395,43 +1358,39 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Hrothgar's Landing",
 			["zonei"] = 7,
 		},
-		["Arathi Highlands"] = {
+		["The Inner Sanctum of Ulduar@Ulduar"] = {
+			["dungeon"] = "Ulduar",
+			["mapID"] = 529,
+			["floor"] = 3,
+			["mapName"] = "The Inner Sanctum of Ulduar",
+		},
+		["The Steamvault@TheSteamvault"] = {
+			["dungeon"] = "TheSteamvault",
+			["mapID"] = 727,
+			["floor"] = 1,
+			["mapName"] = "The Steamvault",
+		},
+		["TempleofKotmogu"] = {
 			["numFloors"] = 0,
-			["mapID"] = 16,
-			["cont"] = 2,
-			["zone"] = "Arathi Highlands",
-			["mapName"] = "Arathi Highlands",
-			["zonei"] = 2,
+			["mapID"] = 856,
+			["mapName"] = "TempleofKotmogu",
 		},
-		["Medivh's Chambers"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 15,
-			["mapName"] = "Medivh's Chambers",
+		["Observation Grounds@MagistersTerrace"] = {
+			["dungeon"] = "MagistersTerrace",
+			["mapID"] = 798,
+			["floor"] = 2,
+			["mapName"] = "Observation Grounds",
 		},
-		["Gamesman's Hall"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 14,
-			["mapName"] = "Gamesman's Hall",
+		["DragonSoul"] = {
+			["numFloors"] = 0,
+			["mapID"] = 824,
+			["mapName"] = "DragonSoul",
 		},
-		["The Celestial Watch"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 13,
-			["mapName"] = "The Celestial Watch",
-		},
-		["The Vault of Lights"] = {
-			["dungeon"] = "HallsofOrigination",
-			["mapID"] = 759,
-			["floor"] = 1,
-			["mapName"] = "The Vault of Lights",
-		},
-		["Band of Variance"] = {
-			["dungeon"] = "Nexus80",
-			["mapID"] = 528,
-			["floor"] = 1,
-			["mapName"] = "Band of Variance",
+		-- Hand Edit
+		["Darkmoon Faire"] = {
+			["numFloors"] = 0,
+			["mapID"] = 823,
+			["mapName"] = "DarkmoonFaireIsland",
 		},
 		["Eastern Kingdoms"] = {
 			["numFloors"] = 0,
@@ -1454,23 +1413,24 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Desolace",
 			["zonei"] = 10,
 		},
-		["Dragonmaw Garrison"] = {
-			["dungeon"] = "BlackwingLair",
-			["mapID"] = 755,
-			["floor"] = 1,
-			["mapName"] = "Dragonmaw Garrison",
+		["EndTime"] = {
+			["numFloors"] = 6,
+			["mapID"] = 820,
+			["mapName"] = "EndTime",
 		},
-		["The Hollowed Out Tree"] = {
-			["dungeon"] = "SiegeofNiuzaoTemple",
-			["mapID"] = 887,
-			["floor"] = 2,
-			["mapName"] = "The Hollowed Out Tree",
+		["Sholazar Basin"] = {
+			["numFloors"] = 0,
+			["mapID"] = 493,
+			["cont"] = 4,
+			["zone"] = "Sholazar Basin",
+			["mapName"] = "Sholazar Basin",
+			["zonei"] = 9,
 		},
-		["Opera Hall Balcony"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
+		["Emerald Dragonshrine@EndTime"] = {
+			["dungeon"] = "EndTime",
+			["mapID"] = 820,
 			["floor"] = 5,
-			["mapName"] = "Opera Hall Balcony",
+			["mapName"] = "Emerald Dragonshrine",
 		},
 		["Kalimdor"] = {
 			["numFloors"] = 0,
@@ -1485,132 +1445,125 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 626,
 			["mapName"] = "TwinPeaks",
 		},
-		["The Guest Chambers"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 4,
-			["mapName"] = "The Guest Chambers",
+		["Gorefiend's Vigil@BlackTemple"] = {
+			["dungeon"] = "BlackTemple",
+			["mapID"] = 796,
+			["floor"] = 5,
+			["mapName"] = "Gorefiend's Vigil",
 		},
-		["903/2"] = {
-			["dungeon"] = "Shrine of Two Moons",
-			["mapID"] = 903,
-			["cont"] = 6,
-			["zone"] = "Shrine of Two Moons",
-			["mapName"] = "903/2",
+		["Azure Dragonshrine@EndTime"] = {
+			["dungeon"] = "EndTime",
+			["mapID"] = 820,
 			["floor"] = 2,
+			["mapName"] = "Azure Dragonshrine",
 		},
-		["The Banquet Hall"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 3,
-			["mapName"] = "The Banquet Hall",
+		["Entryway of Time@EndTime"] = {
+			["dungeon"] = "EndTime",
+			["mapID"] = 820,
+			["floor"] = 1,
+			["mapName"] = "Entryway of Time",
 		},
-		["Upper Livery Stables"] = {
-			["dungeon"] = "Karazhan",
-			["mapID"] = 799,
-			["floor"] = 2,
-			["mapName"] = "Upper Livery Stables",
+		["ZulFarrak"] = {
+			["numFloors"] = 0,
+			["mapID"] = 686,
+			["mapName"] = "ZulFarrak",
 		},
 		["BrewmasterScenario03"] = {
 			["numFloors"] = 0,
 			["mapID"] = 882,
 			["mapName"] = "BrewmasterScenario03",
 		},
-		["MagistersTerrace"] = {
-			["numFloors"] = 2,
-			["mapID"] = 798,
-			["mapName"] = "MagistersTerrace",
+		["NetherstormArena#813"] = {
+			["numFloors"] = 0,
+			["mapID"] = 813,
+			["mapName"] = "NetherstormArena#813",
 		},
-		["Observation Grounds"] = {
-			["dungeon"] = "MagistersTerrace",
-			["mapID"] = 798,
-			["floor"] = 2,
-			["mapName"] = "Observation Grounds",
+		["Floor1@Shrine of Seven Stars"] = {
+			["dungeon"] = "Shrine of Seven Stars",
+			["mapID"] = 905,
+			["cont"] = 6,
+			["zone"] = "Shrine of Seven Stars",
+			["mapName"] = "Floor1",
+			["floor"] = 1,
 		},
 		["AhnQiraj"] = {
 			["numFloors"] = 3,
 			["mapID"] = 766,
 			["mapName"] = "AhnQiraj",
 		},
-		["TwilightHighlands_terrain1"] = {
-			["numFloors"] = 0,
-			["mapID"] = 770,
-			["cont"] = 2,
-			["zone"] = 0,
-			["mapName"] = "TwilightHighlands_terrain1",
+		["Karazhan"] = {
+			["numFloors"] = 17,
+			["mapID"] = 799,
+			["mapName"] = "Karazhan",
 		},
 		["CoTStratholme"] = {
 			["numFloors"] = 2,
 			["mapID"] = 521,
 			["mapName"] = "CoTStratholme",
 		},
-		["Grand Magister's Asylum"] = {
-			["dungeon"] = "MagistersTerrace",
-			["mapID"] = 798,
-			["floor"] = 1,
-			["mapName"] = "Grand Magister's Asylum",
+		["Netherspace@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 17,
+			["mapName"] = "Netherspace",
 		},
-		["The Tasting Room"] = {
-			["dungeon"] = "StormstoutBrewery",
-			["mapID"] = 876,
-			["floor"] = 4,
-			["mapName"] = "The Tasting Room",
-		},
-		["Shrine of Two Moons"] = {
+		["MagistersTerrace"] = {
 			["numFloors"] = 2,
-			["mapID"] = 903,
-			["cont"] = 6,
-			["zone"] = "Shrine of Two Moons",
-			["mapName"] = "Shrine of Two Moons",
-			["zonei"] = 5,
+			["mapID"] = 798,
+			["mapName"] = "MagistersTerrace",
 		},
-		["BlackTemple"] = {
-			["numFloors"] = 8,
-			["mapID"] = 796,
-			["mapName"] = "BlackTemple",
-		},
-		["The Military Quarter"] = {
+		["The Construct Quarter@Naxxramas"] = {
 			["dungeon"] = "Naxxramas",
 			["mapID"] = 535,
-			["floor"] = 3,
-			["mapName"] = "The Military Quarter",
+			["floor"] = 1,
+			["mapName"] = "The Construct Quarter",
 		},
-		["Stasis Block: Maximus"] = {
-			["dungeon"] = "TheArcatraz",
-			["mapID"] = 731,
-			["floor"] = 2,
-			["mapName"] = "Stasis Block: Maximus",
+		["Medivh's Chambers@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 15,
+			["mapName"] = "Medivh's Chambers",
 		},
-		["Karabor Sewers"] = {
-			["dungeon"] = "BlackTemple",
-			["mapID"] = 796,
-			["floor"] = 2,
-			["mapName"] = "Karabor Sewers",
+		["The Celestial Watch@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 13,
+			["mapName"] = "The Celestial Watch",
 		},
-		["Northern Barrens"] = {
-			["numFloors"] = 0,
-			["mapID"] = 11,
-			["cont"] = 1,
-			["zone"] = "Northern Barrens",
-			["mapName"] = "Northern Barrens",
-			["zonei"] = 19,
+		["Gamesman's Hall@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 14,
+			["mapName"] = "Gamesman's Hall",
 		},
-		["Gorefiend's Vigil"] = {
-			["dungeon"] = "BlackTemple",
-			["mapID"] = 796,
-			["floor"] = 5,
-			["mapName"] = "Gorefiend's Vigil",
+		["Upper Library@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 12,
+			["mapName"] = "Upper Library",
 		},
-		["Halls of Anguish"] = {
-			["dungeon"] = "BlackTemple",
-			["mapID"] = 796,
+		["Lower Observatory@ShadowfangKeep"] = {
+			["dungeon"] = "ShadowfangKeep",
+			["mapID"] = 764,
 			["floor"] = 4,
-			["mapName"] = "Halls of Anguish",
+			["mapName"] = "Lower Observatory",
 		},
-		["ValleyOfPowerScenario"] = {
-			["numFloors"] = 0,
-			["mapID"] = 881,
-			["mapName"] = "ValleyOfPowerScenario",
+		["Scholomance#898"] = {
+			["numFloors"] = 4,
+			["mapID"] = 898,
+			["mapName"] = "Scholomance#898",
+		},
+		["Guardian's Library@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 10,
+			["mapName"] = "Guardian's Library",
+		},
+		["Hall of Blackhand@BlackrockSpire"] = {
+			["dungeon"] = "BlackrockSpire",
+			["mapID"] = 721,
+			["floor"] = 4,
+			["mapName"] = "Hall of Blackhand",
 		},
 		["Dalaran"] = {
 			["numFloors"] = 2,
@@ -1620,16 +1573,17 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Dalaran",
 			["zonei"] = 3,
 		},
-		["Chamber of Command"] = {
-			["dungeon"] = "BlackTemple",
-			["mapID"] = 796,
-			["floor"] = 7,
-			["mapName"] = "Chamber of Command",
+		["Upper Observatory@ShadowfangKeep"] = {
+			["dungeon"] = "ShadowfangKeep",
+			["mapID"] = 764,
+			["floor"] = 5,
+			["mapName"] = "Upper Observatory",
 		},
-		["SunwellPlateau"] = {
-			["numFloors"] = 2,
-			["mapID"] = 789,
-			["mapName"] = "SunwellPlateau",
+		["Dragonspire Hall@BlackrockSpire"] = {
+			["dungeon"] = "BlackrockSpire",
+			["mapID"] = 721,
+			["floor"] = 5,
+			["mapName"] = "Dragonspire Hall",
 		},
 		["Burning Steppes"] = {
 			["numFloors"] = 0,
@@ -1639,22 +1593,23 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Burning Steppes",
 			["zonei"] = 5,
 		},
-		["Illidari Training Grounds"] = {
-			["dungeon"] = "BlackTemple",
-			["mapID"] = 796,
-			["floor"] = 1,
-			["mapName"] = "Illidari Training Grounds",
+		["The Menagerie@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 9,
+			["mapName"] = "The Menagerie",
 		},
-		["MoltenFront"] = {
-			["numFloors"] = 0,
-			["mapID"] = 795,
-			["mapName"] = "MoltenFront",
+		["Upper Broken Stair@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 8,
+			["mapName"] = "Upper Broken Stair",
 		},
-		["Halls of Strife"] = {
-			["dungeon"] = "BlackwingLair",
-			["mapID"] = 755,
+		["The Icy Depths@TheArgentColiseum"] = {
+			["dungeon"] = "TheArgentColiseum",
+			["mapID"] = 543,
 			["floor"] = 2,
-			["mapName"] = "Halls of Strife",
+			["mapName"] = "The Icy Depths",
 		},
 		["Wetlands"] = {
 			["numFloors"] = 0,
@@ -1664,139 +1619,137 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Wetlands",
 			["zonei"] = 44,
 		},
-		["Shrine of the Eclipse"] = {
-			["dungeon"] = "SunwellPlateau",
-			["mapID"] = 789,
-			["floor"] = 2,
-			["mapName"] = "Shrine of the Eclipse",
+		["The Frozen Throne@IcecrownCitadel"] = {
+			["dungeon"] = "IcecrownCitadel",
+			["mapID"] = 604,
+			["floor"] = 7,
+			["mapName"] = "The Frozen Throne",
 		},
-		["Upper Library"] = {
+		["The Lower Citadel@IcecrownCitadel"] = {
+			["dungeon"] = "IcecrownCitadel",
+			["mapID"] = 604,
+			["floor"] = 1,
+			["mapName"] = "The Lower Citadel",
+		},
+		["Master's Terrace@Karazhan"] = {
 			["dungeon"] = "Karazhan",
 			["mapID"] = 799,
-			["floor"] = 12,
-			["mapName"] = "Upper Library",
+			["floor"] = 6,
+			["mapName"] = "Master's Terrace",
 		},
-		["ZulAman"] = {
-			["numFloors"] = 0,
-			["mapID"] = 781,
-			["mapName"] = "ZulAman",
+		["The Military Quarter@Naxxramas"] = {
+			["dungeon"] = "Naxxramas",
+			["mapID"] = 535,
+			["floor"] = 3,
+			["mapName"] = "The Military Quarter",
 		},
-		["CoilfangReservoir"] = {
-			["numFloors"] = 0,
-			["mapID"] = 780,
-			["mapName"] = "CoilfangReservoir",
+		["Karabor Sewers@BlackTemple"] = {
+			["dungeon"] = "BlackTemple",
+			["mapID"] = 796,
+			["floor"] = 2,
+			["mapName"] = "Karabor Sewers",
 		},
-		["CoTMountHyjal"] = {
-			["numFloors"] = 0,
-			["mapID"] = 775,
-			["mapName"] = "CoTMountHyjal",
-		},
-		["ThroneoftheFourWinds"] = {
-			["numFloors"] = 0,
-			["mapID"] = 773,
-			["mapName"] = "ThroneoftheFourWinds",
+		["Floor3@ScarletMonastery"] = {
+			["dungeon"] = "ScarletMonastery",
+			["mapID"] = 762,
+			["floor"] = 3,
+			["mapName"] = "Floor3",
 		},
 		["RazorfenDowns"] = {
 			["numFloors"] = 0,
 			["mapID"] = 760,
 			["mapName"] = "RazorfenDowns",
 		},
-		["Skywall"] = {
-			["numFloors"] = 0,
-			["mapID"] = 769,
-			["mapName"] = "Skywall",
+		["The Hall of Gears@Gnomeregan"] = {
+			["dungeon"] = "Gnomeregan",
+			["mapID"] = 691,
+			["floor"] = 1,
+			["mapName"] = "The Hall of Gears",
 		},
-		["The Lost Isles"] = {
-			["numFloors"] = 0,
-			["mapID"] = 544,
-			["cont"] = 5,
-			["zone"] = "The Lost Isles",
-			["mapName"] = "The Lost Isles",
-			["zonei"] = 3,
+		["Hall of the Keepers@Uldaman"] = {
+			["dungeon"] = "Uldaman",
+			["mapID"] = 692,
+			["floor"] = 1,
+			["mapName"] = "Hall of the Keepers",
 		},
 		["Ahnkahet"] = {
 			["numFloors"] = 0,
 			["mapID"] = 522,
 			["mapName"] = "Ahnkahet",
 		},
-		["The Dormitory"] = {
-			["dungeon"] = "Gnomeregan",
-			["mapID"] = 691,
-			["floor"] = 2,
-			["mapName"] = "The Dormitory",
-		},
-		["ThroneofTides"] = {
+		["HallsofLightning"] = {
 			["numFloors"] = 2,
-			["mapID"] = 767,
-			["mapName"] = "ThroneofTides",
+			["mapID"] = 525,
+			["mapName"] = "HallsofLightning",
 		},
-		["Throne of Neptulon"] = {
-			["dungeon"] = "ThroneofTides",
-			["mapID"] = 767,
+		["Upper Livery Stables@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
 			["floor"] = 2,
-			["mapName"] = "Throne of Neptulon",
+			["mapName"] = "Upper Livery Stables",
 		},
-		["Abyssal Halls"] = {
-			["dungeon"] = "ThroneofTides",
-			["mapID"] = 767,
+		["Servant's Quarters@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
 			["floor"] = 1,
-			["mapName"] = "Abyssal Halls",
+			["mapName"] = "Servant's Quarters",
+		},
+		["The Power Station@Karazhan"] = {
+			["dungeon"] = "Karazhan",
+			["mapID"] = 799,
+			["floor"] = 16,
+			["mapName"] = "The Power Station",
 		},
 		["DireMaul"] = {
 			["numFloors"] = 6,
 			["mapID"] = 699,
 			["mapName"] = "DireMaul",
 		},
-		["Hyjal_terrain1"] = {
-			["numFloors"] = 0,
-			["mapID"] = 683,
-			["cont"] = 1,
-			["zone"] = 0,
-			["mapName"] = "Hyjal_terrain1",
+		["The Vestibules of Drak'Tharon@DrakTharonKeep"] = {
+			["dungeon"] = "DrakTharonKeep",
+			["mapID"] = 534,
+			["floor"] = 1,
+			["mapName"] = "The Vestibules of Drak'Tharon",
 		},
-		["Deathbringer's Rise"] = {
+		["Forlorn Cloister@ScarletCathedral"] = {
+			["dungeon"] = "ScarletCathedral",
+			["mapID"] = 874,
+			["floor"] = 1,
+			["mapName"] = "Forlorn Cloister",
+		},
+		["WailingCaverns"] = {
+			["numFloors"] = 0,
+			["mapID"] = 749,
+			["mapName"] = "WailingCaverns",
+		},
+		["Band of Transmutation@Nexus80"] = {
+			["dungeon"] = "Nexus80",
+			["mapID"] = 528,
+			["floor"] = 3,
+			["mapName"] = "Band of Transmutation",
+		},
+		["The Upper Reaches@IcecrownCitadel"] = {
 			["dungeon"] = "IcecrownCitadel",
 			["mapID"] = 604,
-			["floor"] = 3,
-			["mapName"] = "Deathbringer's Rise",
+			["floor"] = 5,
+			["mapName"] = "The Upper Reaches",
 		},
-		["The Temple Gates"] = {
-			["dungeon"] = "AhnQiraj",
-			["mapID"] = 766,
-			["floor"] = 2,
-			["mapName"] = "The Temple Gates",
+		["BlackTemple"] = {
+			["numFloors"] = 8,
+			["mapID"] = 796,
+			["mapName"] = "BlackTemple",
 		},
-		["The Hive Undergrounds"] = {
-			["dungeon"] = "AhnQiraj",
-			["mapID"] = 766,
-			["floor"] = 1,
-			["mapName"] = "The Hive Undergrounds",
+		["Temple Summit@BlackTemple"] = {
+			["dungeon"] = "BlackTemple",
+			["mapID"] = 796,
+			["floor"] = 8,
+			["mapName"] = "Temple Summit",
 		},
-		["The Gauntlet"] = {
-			["dungeon"] = "Stratholme",
-			["mapID"] = 765,
-			["floor"] = 2,
-			["mapName"] = "The Gauntlet",
-		},
-		["Uldum"] = {
-			["numFloors"] = 0,
-			["mapID"] = 720,
-			["cont"] = 1,
-			["zone"] = "Uldum",
-			["mapName"] = "Uldum",
-			["zonei"] = 30,
-		},
-		["Skitterweb Tunnels"] = {
-			["dungeon"] = "BlackrockSpire",
-			["mapID"] = 721,
-			["floor"] = 2,
-			["mapName"] = "Skitterweb Tunnels",
-		},
-		["Headmaster's Study"] = {
-			["dungeon"] = "Scholomance",
-			["mapID"] = 898,
-			["floor"] = 4,
-			["mapName"] = "Headmaster's Study",
+		["Den of Mortal Delights@BlackTemple"] = {
+			["dungeon"] = "BlackTemple",
+			["mapID"] = 796,
+			["floor"] = 6,
+			["mapName"] = "Den of Mortal Delights",
 		},
 		["Dustwallow Marsh"] = {
 			["numFloors"] = 0,
@@ -1806,25 +1759,22 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Dustwallow Marsh",
 			["zonei"] = 12,
 		},
-		["Lord Godfrey's Chamber"] = {
-			["dungeon"] = "ShadowfangKeep",
-			["mapID"] = 764,
-			["floor"] = 6,
-			["mapName"] = "Lord Godfrey's Chamber",
+		["Ruby Dragonshrine@EndTime"] = {
+			["dungeon"] = "EndTime",
+			["mapID"] = 820,
+			["floor"] = 3,
+			["mapName"] = "Ruby Dragonshrine",
 		},
-		["Upper Observatory"] = {
-			["dungeon"] = "ShadowfangKeep",
-			["mapID"] = 764,
-			["floor"] = 5,
-			["mapName"] = "Upper Observatory",
+		["Halls of Anguish@BlackTemple"] = {
+			["dungeon"] = "BlackTemple",
+			["mapID"] = 796,
+			["floor"] = 4,
+			["mapName"] = "Halls of Anguish",
 		},
-		["Loch Modan"] = {
-			["numFloors"] = 0,
-			["mapID"] = 35,
-			["cont"] = 2,
-			["zone"] = "Loch Modan",
-			["mapName"] = "Loch Modan",
-			["zonei"] = 19,
+		["IcecrownCitadel"] = {
+			["numFloors"] = 8,
+			["mapID"] = 604,
+			["mapName"] = "IcecrownCitadel",
 		},
 		["IsleofConquest"] = {
 			["numFloors"] = 0,
@@ -1836,45 +1786,39 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 523,
 			["mapName"] = "UtgardeKeep",
 		},
-		["Dragonblight in DragonSoul"] = {
-			["dungeon"] = "DragonSoul",
-			["mapID"] = 824,
-			["floor"] = 1,
-			["mapName"] = "Dragonblight",
-		},
-		["Dragonblight"] = {
-			["mapID"] = 488,
-			["numFloors"] = 0,
-			["cont"] = 4,
-			["mapName"] = "Dragonblight",
-			["zone"] = "Dragonblight",
-		},
-		["Sanctuary of Shadows"] = {
+		["Illidari Training Grounds@BlackTemple"] = {
 			["dungeon"] = "BlackTemple",
 			["mapID"] = 796,
-			["floor"] = 3,
-			["mapName"] = "Sanctuary of Shadows",
+			["floor"] = 1,
+			["mapName"] = "Illidari Training Grounds",
+		},
+		["MoltenFront"] = {
+			["numFloors"] = 0,
+			["mapID"] = 795,
+			["mapName"] = "MoltenFront",
 		},
 		["Gilneas_terrain1"] = {
 			["numFloors"] = 0,
 			["mapID"] = 678,
 			["mapName"] = "Gilneas_terrain1",
 		},
-		["Scholomance"] = {
-			["numFloors"] = 4,
-			["mapID"] = 763,
-			["mapName"] = "Scholomance",
+		["Howling Fjord"] = {
+			["numFloors"] = 0,
+			["mapID"] = 491,
+			["cont"] = 4,
+			["zone"] = "Howling Fjord",
+			["mapName"] = "Howling Fjord",
+			["zonei"] = 6,
 		},
 		["TheRubySanctum"] = {
 			["numFloors"] = 0,
 			["mapID"] = 609,
 			["mapName"] = "TheRubySanctum",
 		},
-		["Upper Tree Ring"] = {
-			["dungeon"] = "SiegeofNiuzaoTemple",
-			["mapID"] = 887,
-			["floor"] = 3,
-			["mapName"] = "Upper Tree Ring",
+		["SunwellPlateau"] = {
+			["numFloors"] = 2,
+			["mapID"] = 789,
+			["mapName"] = "SunwellPlateau",
 		},
 		["The Storm Peaks"] = {
 			["numFloors"] = 0,
@@ -1884,11 +1828,11 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "The Storm Peaks",
 			["zonei"] = 10,
 		},
-		["The Reliquary"] = {
-			["dungeon"] = "Scholomance",
-			["mapID"] = 898,
-			["floor"] = 1,
-			["mapName"] = "The Reliquary",
+		["The Cooling Pools@TheSteamvault"] = {
+			["dungeon"] = "TheSteamvault",
+			["mapID"] = 727,
+			["floor"] = 2,
+			["mapName"] = "The Cooling Pools",
 		},
 		["Silithus"] = {
 			["numFloors"] = 0,
@@ -1898,19 +1842,16 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Silithus",
 			["zonei"] = 22,
 		},
-		["Dread Wastes"] = {
-			["numFloors"] = 0,
-			["mapID"] = 858,
-			["cont"] = 6,
-			["zone"] = "Dread Wastes",
-			["mapName"] = "Dread Wastes",
-			["zonei"] = 1,
-		},
-		["Bridge of Souls"] = {
-			["dungeon"] = "AuchenaiCrypts",
-			["mapID"] = 722,
+		["Wyrmrest Temple@HourofTwilight"] = {
+			["dungeon"] = "HourofTwilight",
+			["mapID"] = 819,
 			["floor"] = 2,
-			["mapName"] = "Bridge of Souls",
+			["mapName"] = "Wyrmrest Temple",
+		},
+		["BaradinHold"] = {
+			["numFloors"] = 0,
+			["mapID"] = 752,
+			["mapName"] = "BaradinHold",
 		},
 		["TheDeadmines"] = {
 			["numFloors"] = 2,
@@ -1925,115 +1866,113 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Grizzly Hills",
 			["zonei"] = 5,
 		},
-		["762/3"] = {
-			["dungeon"] = "ScarletMonastery",
-			["mapID"] = 762,
-			["floor"] = 3,
-			["mapName"] = "762/3",
+		["Band of Acceleration@Nexus80"] = {
+			["dungeon"] = "Nexus80",
+			["mapID"] = 528,
+			["floor"] = 2,
+			["mapName"] = "Band of Acceleration",
 		},
 		["DrakTharonKeep"] = {
 			["numFloors"] = 2,
 			["mapID"] = 534,
 			["mapName"] = "DrakTharonKeep",
 		},
-		["762/1"] = {
+		["Floor1@ScarletMonastery"] = {
 			["dungeon"] = "ScarletMonastery",
 			["mapID"] = 762,
 			["floor"] = 1,
-			["mapName"] = "762/1",
+			["mapName"] = "Floor1",
 		},
-		["Hellfire Peninsula"] = {
+		["Den of Mortal Delights@BlackTempleScenario"] = {
+			["dungeon"] = "BlackTempleScenario",
+			["mapID"] = 919,
+			["floor"] = 6,
+			["mapName"] = "Den of Mortal Delights",
+		},
+		["BlackrockSpire"] = {
+			["numFloors"] = 7,
+			["mapID"] = 721,
+			["mapName"] = "BlackrockSpire",
+		},
+		["CoTMountHyjal"] = {
 			["numFloors"] = 0,
-			["mapID"] = 465,
-			["cont"] = 3,
-			["zone"] = "Hellfire Peninsula",
-			["mapName"] = "Hellfire Peninsula",
-			["zonei"] = 2,
+			["mapID"] = 775,
+			["mapName"] = "CoTMountHyjal",
 		},
-		["TheBastionofTwilight"] = {
-			["numFloors"] = 3,
-			["mapID"] = 758,
-			["mapName"] = "TheBastionofTwilight",
+		["The Lower Necropolis@Naxxramas"] = {
+			["dungeon"] = "Naxxramas",
+			["mapID"] = 535,
+			["floor"] = 5,
+			["mapName"] = "The Lower Necropolis",
 		},
-		["The Twilight Caverns"] = {
-			["dungeon"] = "TheBastionofTwilight",
-			["mapID"] = 758,
-			["floor"] = 3,
-			["mapName"] = "The Twilight Caverns",
+		["Crusader's Chapel@ScarletCathedral"] = {
+			["dungeon"] = "ScarletCathedral",
+			["mapID"] = 874,
+			["floor"] = 2,
+			["mapName"] = "Crusader's Chapel",
 		},
-		["WailingCaverns"] = {
-			["numFloors"] = 0,
-			["mapID"] = 749,
-			["mapName"] = "WailingCaverns",
-		},
-		["Crusader's Square"] = {
-			["dungeon"] = "Stratholme",
-			["mapID"] = 765,
+		["Halls of the Hereafter@AuchenaiCrypts"] = {
+			["dungeon"] = "AuchenaiCrypts",
+			["mapID"] = 722,
 			["floor"] = 1,
-			["mapName"] = "Crusader's Square",
+			["mapName"] = "Halls of the Hereafter",
 		},
-		["Gnomeregan"] = {
-			["numFloors"] = 4,
-			["mapID"] = 691,
-			["mapName"] = "Gnomeregan",
-		},
-		["Azure Dragonshrine"] = {
-			["dungeon"] = "EndTime",
-			["mapID"] = 820,
-			["floor"] = 2,
-			["mapName"] = "Azure Dragonshrine",
-		},
-		["The Deadmines"] = {
-			["dungeon"] = "TheDeadmines",
-			["mapID"] = 756,
-			["floor"] = 1,
-			["mapName"] = "The Deadmines",
-		},
-		["The Repository"] = {
-			["dungeon"] = "MogushanVaults",
-			["mapID"] = 896,
-			["floor"] = 2,
-			["mapName"] = "The Repository",
-		},
-		["Vault of the Shadowflame"] = {
-			["dungeon"] = "BlackwingDescent",
-			["mapID"] = 754,
-			["floor"] = 2,
-			["mapName"] = "Vault of the Shadowflame",
-		},
-		["The Scrollkeeper's Sanctum"] = {
-			["dungeon"] = "EastTemple",
-			["mapID"] = 867,
-			["floor"] = 2,
-			["mapName"] = "The Scrollkeeper's Sanctum",
-		},
-		["BlackrockCaverns"] = {
+		["ThroneofTides"] = {
 			["numFloors"] = 2,
-			["mapID"] = 753,
-			["mapName"] = "BlackrockCaverns",
+			["mapID"] = 767,
+			["mapName"] = "ThroneofTides",
 		},
-		["Grain Cellar"] = {
-			["dungeon"] = "StormstoutBrewery",
-			["mapID"] = 876,
-			["floor"] = 1,
-			["mapName"] = "Grain Cellar",
-		},
-		["Chamber of Incineration"] = {
-			["dungeon"] = "BlackrockCaverns",
-			["mapID"] = 753,
-			["floor"] = 1,
-			["mapName"] = "Chamber of Incineration",
-		},
-		["BaradinHold"] = {
+		["Coldridge Valley"] = {
 			["numFloors"] = 0,
-			["mapID"] = 752,
-			["mapName"] = "BaradinHold",
+			["mapID"] = 866,
+			["cont"] = 2,
+			["zone"] = "Coldridge Valley",
+			["mapName"] = "Coldridge Valley",
+			["zonei"] = 6,
 		},
-		["Walk of the Makers"] = {
-			["dungeon"] = "HallsofLightning",
-			["mapID"] = 525,
-			["floor"] = 2,
-			["mapName"] = "Walk of the Makers",
+		["Abyssal Halls@ThroneofTides"] = {
+			["dungeon"] = "ThroneofTides",
+			["mapID"] = 767,
+			["floor"] = 1,
+			["mapName"] = "Abyssal Halls",
+		},
+		["BlackrockDepths"] = {
+			["numFloors"] = 2,
+			["mapID"] = 704,
+			["mapName"] = "BlackrockDepths",
+		},
+		["KrasarangAlliance"] = {
+			["numFloors"] = 0,
+			["mapID"] = 911,
+			["mapName"] = "KrasarangAlliance",
+		},
+		["The Hive Undergrounds@AhnQiraj"] = {
+			["dungeon"] = "AhnQiraj",
+			["mapID"] = 766,
+			["floor"] = 1,
+			["mapName"] = "The Hive Undergrounds",
+		},
+		["ShadowfangKeep"] = {
+			["numFloors"] = 7,
+			["mapID"] = 764,
+			["mapName"] = "ShadowfangKeep",
+		},
+		["The Wall Walk@ShadowfangKeep"] = {
+			["dungeon"] = "ShadowfangKeep",
+			["mapID"] = 764,
+			["floor"] = 7,
+			["mapName"] = "The Wall Walk",
+		},
+		["Dragonmaw Garrison@BlackwingLair"] = {
+			["dungeon"] = "BlackwingLair",
+			["mapID"] = 755,
+			["floor"] = 1,
+			["mapName"] = "Dragonmaw Garrison",
+		},
+		["TheUnderbog"] = {
+			["numFloors"] = 0,
+			["mapID"] = 726,
+			["mapName"] = "TheUnderbog",
 		},
 		["Vale of Eternal Blossoms"] = {
 			["numFloors"] = 0,
@@ -2043,90 +1982,98 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Vale of Eternal Blossoms",
 			["zonei"] = 9,
 		},
-		["TerraceOfEndlessSpring"] = {
-			["numFloors"] = 0,
-			["mapID"] = 886,
-			["mapName"] = "TerraceOfEndlessSpring",
-		},
-		["Hall of Blackhand"] = {
-			["dungeon"] = "BlackrockSpire",
-			["mapID"] = 721,
-			["floor"] = 4,
-			["mapName"] = "Hall of Blackhand",
-		},
-		["Zaetar's Grave"] = {
-			["dungeon"] = "Maraudon",
-			["mapID"] = 750,
-			["floor"] = 2,
-			["mapName"] = "Zaetar's Grave",
-		},
-		["The Pool of Ask'Ar"] = {
-			["dungeon"] = "BlackfathomDeeps",
-			["mapID"] = 688,
-			["floor"] = 1,
-			["mapName"] = "The Pool of Ask'Ar",
-		},
-		["TheUnderbog"] = {
-			["numFloors"] = 0,
-			["mapID"] = 726,
-			["mapName"] = "TheUnderbog",
-		},
-		["Lower Pinnacle"] = {
-			["dungeon"] = "UtgardePinnacle",
-			["mapID"] = 524,
-			["floor"] = 1,
-			["mapName"] = "Lower Pinnacle",
-		},
-		["Unyielding Garrison"] = {
+		["Unyielding Garrison@HallsofLightning"] = {
 			["dungeon"] = "HallsofLightning",
 			["mapID"] = 525,
 			["floor"] = 1,
 			["mapName"] = "Unyielding Garrison",
 		},
-		["Royal Quarters"] = {
-			["dungeon"] = "IcecrownCitadel",
-			["mapID"] = 604,
-			["floor"] = 6,
-			["mapName"] = "Royal Quarters",
+		["Dining Hall@ShadowfangKeep"] = {
+			["dungeon"] = "ShadowfangKeep",
+			["mapID"] = 764,
+			["floor"] = 2,
+			["mapName"] = "Dining Hall",
 		},
-		["The Broken Hall"] = {
-			["dungeon"] = "BlackwingDescent",
-			["mapID"] = 754,
-			["floor"] = 1,
-			["mapName"] = "The Broken Hall",
-		},
-		["ManaTombs"] = {
+		["Loch Modan"] = {
 			["numFloors"] = 0,
-			["mapID"] = 732,
-			["mapName"] = "ManaTombs",
+			["mapID"] = 35,
+			["cont"] = 2,
+			["zone"] = "Loch Modan",
+			["mapName"] = "Loch Modan",
+			["zonei"] = 19,
+		},
+		["Scholomance"] = {
+			["numFloors"] = 4,
+			["mapID"] = 763,
+			["mapName"] = "Scholomance",
+		},
+		["The Vacant Den@ShadowfangKeep"] = {
+			["dungeon"] = "ShadowfangKeep",
+			["mapID"] = 764,
+			["floor"] = 3,
+			["mapName"] = "The Vacant Den",
 		},
 		["TheArcatraz"] = {
 			["numFloors"] = 3,
 			["mapID"] = 731,
 			["mapName"] = "TheArcatraz",
 		},
-		["Containment Core"] = {
-			["dungeon"] = "TheArcatraz",
-			["mapID"] = 731,
+		["Northern Barrens"] = {
+			["numFloors"] = 0,
+			["mapID"] = 11,
+			["cont"] = 1,
+			["zone"] = "Northern Barrens",
+			["mapName"] = "Northern Barrens",
+			["zonei"] = 19,
+		},
+		["The Upper Study@Scholomance"] = {
+			["dungeon"] = "Scholomance",
+			["mapID"] = 898,
 			["floor"] = 3,
-			["mapName"] = "Containment Core",
+			["mapName"] = "The Upper Study",
 		},
-		["Temple Summit"] = {
-			["dungeon"] = "BlackTemple",
-			["mapID"] = 796,
-			["floor"] = 8,
-			["mapName"] = "Temple Summit",
+		["Floor2@ScarletMonastery"] = {
+			["dungeon"] = "ScarletMonastery",
+			["mapID"] = 762,
+			["floor"] = 2,
+			["mapName"] = "Floor2",
 		},
-		["Tyr's Terrace"] = {
-			["dungeon"] = "UtgardeKeep",
-			["mapID"] = 523,
+		["Kelp'thar Forest"] = {
+			["numFloors"] = 0,
+			["mapID"] = 610,
+			["cont"] = 2,
+			["zone"] = "Kelp'thar Forest",
+			["mapName"] = "Kelp'thar Forest",
+			["zonei"] = 18,
+		},
+		["The Four Seats@HallsofOrigination"] = {
+			["dungeon"] = "HallsofOrigination",
+			["mapID"] = 759,
 			["floor"] = 3,
-			["mapName"] = "Tyr's Terrace",
+			["mapName"] = "The Four Seats",
 		},
-		["TheMechanar"] = {
-			["numFloors"] = 2,
-			["mapID"] = 730,
-			["mapName"] = "TheMechanar",
+		["Tomb of the Earthrager@HallsofOrigination"] = {
+			["dungeon"] = "HallsofOrigination",
+			["mapID"] = 759,
+			["floor"] = 2,
+			["mapName"] = "Tomb of the Earthrager",
+		},
+		["The Twilight Caverns@TheBastionofTwilight"] = {
+			["dungeon"] = "TheBastionofTwilight",
+			["mapID"] = 758,
+			["floor"] = 3,
+			["mapName"] = "The Twilight Caverns",
+		},
+		["ZulAman"] = {
+			["numFloors"] = 0,
+			["mapID"] = 781,
+			["mapName"] = "ZulAman",
+		},
+		["Ironclad Cove@TheDeadmines"] = {
+			["dungeon"] = "TheDeadmines",
+			["mapID"] = 756,
+			["floor"] = 2,
+			["mapName"] = "Ironclad Cove",
 		},
 		["Ruins of Gilneas City"] = {
 			["numFloors"] = 0,
@@ -2136,58 +2083,57 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Ruins of Gilneas City",
 			["zonei"] = 25,
 		},
-		["SethekkHalls"] = {
-			["numFloors"] = 2,
-			["mapID"] = 723,
-			["mapName"] = "SethekkHalls",
+		["Gorefiend's Vigil@BlackTempleScenario"] = {
+			["dungeon"] = "BlackTempleScenario",
+			["mapID"] = 919,
+			["floor"] = 5,
+			["mapName"] = "Gorefiend's Vigil",
 		},
-		["Winterspring"] = {
-			["numFloors"] = 0,
-			["mapID"] = 281,
-			["cont"] = 1,
-			["zone"] = "Winterspring",
-			["mapName"] = "Winterspring",
-			["zonei"] = 33,
+		["Crimson Laboratories@BlackwingLair"] = {
+			["dungeon"] = "BlackwingLair",
+			["mapID"] = 755,
+			["floor"] = 3,
+			["mapName"] = "Crimson Laboratories",
 		},
-		["The Steamvault"] = {
-			["dungeon"] = "TheSteamvault",
-			["mapID"] = 727,
-			["floor"] = 1,
-			["mapName"] = "The Steamvault",
+		["Halls of Strife@BlackwingLair"] = {
+			["dungeon"] = "BlackwingLair",
+			["mapID"] = 755,
+			["floor"] = 2,
+			["mapName"] = "Halls of Strife",
 		},
 		["LostCityofTolvir"] = {
 			["numFloors"] = 0,
 			["mapID"] = 747,
 			["mapName"] = "LostCityofTolvir",
 		},
-		["Terokkar Forest"] = {
-			["numFloors"] = 0,
-			["mapID"] = 478,
-			["cont"] = 3,
-			["zone"] = "Terokkar Forest",
-			["mapName"] = "Terokkar Forest",
-			["zonei"] = 7,
+		["The Prison of Yogg-Saron@Ulduar"] = {
+			["dungeon"] = "Ulduar",
+			["mapID"] = 529,
+			["floor"] = 4,
+			["mapName"] = "The Prison of Yogg-Saron",
 		},
-		["TheBloodFurnace"] = {
-			["numFloors"] = 0,
-			["mapID"] = 725,
-			["mapName"] = "TheBloodFurnace",
+		["Royal Quarters@IcecrownCitadel"] = {
+			["dungeon"] = "IcecrownCitadel",
+			["mapID"] = 604,
+			["floor"] = 6,
+			["mapName"] = "Royal Quarters",
 		},
-		["TheBotanica"] = {
-			["numFloors"] = 0,
-			["mapID"] = 729,
-			["mapName"] = "TheBotanica",
-		},
-		["Veil Sethekk"] = {
-			["dungeon"] = "SethekkHalls",
-			["mapID"] = 723,
-			["floor"] = 1,
-			["mapName"] = "Veil Sethekk",
-		},
-		["AuchenaiCrypts"] = {
-			["numFloors"] = 2,
+		["Bridge of Souls@AuchenaiCrypts"] = {
+			["dungeon"] = "AuchenaiCrypts",
 			["mapID"] = 722,
-			["mapName"] = "AuchenaiCrypts",
+			["floor"] = 2,
+			["mapName"] = "Bridge of Souls",
+		},
+		["Vault of the Shadowflame@BlackwingDescent"] = {
+			["dungeon"] = "BlackwingDescent",
+			["mapID"] = 754,
+			["floor"] = 2,
+			["mapName"] = "Vault of the Shadowflame",
+		},
+		["BlackrockCaverns"] = {
+			["numFloors"] = 2,
+			["mapID"] = 753,
+			["mapName"] = "BlackrockCaverns",
 		},
 		["Silvermoon City"] = {
 			["numFloors"] = 0,
@@ -2197,32 +2143,35 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Silvermoon City",
 			["zonei"] = 28,
 		},
-		["BlackrockSpire"] = {
-			["numFloors"] = 7,
-			["mapID"] = 721,
-			["mapName"] = "BlackrockSpire",
+		["The Courtyard@ShadowfangKeep"] = {
+			["dungeon"] = "ShadowfangKeep",
+			["mapID"] = 764,
+			["floor"] = 1,
+			["mapName"] = "The Courtyard",
 		},
 		["TempestKeep"] = {
 			["numFloors"] = 0,
 			["mapID"] = 782,
 			["mapName"] = "TempestKeep",
 		},
-		["The Inner Sanctum of Ulduar"] = {
-			["dungeon"] = "Ulduar",
-			["mapID"] = 529,
-			["floor"] = 3,
-			["mapName"] = "The Inner Sanctum of Ulduar",
+		["Caverns of Maraudon@Maraudon"] = {
+			["dungeon"] = "Maraudon",
+			["mapID"] = 750,
+			["floor"] = 1,
+			["mapName"] = "Caverns of Maraudon",
 		},
 		["AncientMoguCrypt"] = {
 			["numFloors"] = 2,
 			["mapID"] = 900,
 			["mapName"] = "AncientMoguCrypt",
 		},
-		["Lower Observatory"] = {
-			["dungeon"] = "ShadowfangKeep",
-			["mapID"] = 764,
-			["floor"] = 4,
-			["mapName"] = "Lower Observatory",
+		["Floor2@Shrine of Two Moons"] = {
+			["dungeon"] = "Shrine of Two Moons",
+			["mapID"] = 903,
+			["cont"] = 6,
+			["zone"] = "Shrine of Two Moons",
+			["mapName"] = "Floor2",
+			["floor"] = 2,
 		},
 		["Maraudon"] = {
 			["numFloors"] = 2,
@@ -2237,19 +2186,15 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Valley of Trials",
 			["zonei"] = 32,
 		},
-		["The Four Seats"] = {
-			["dungeon"] = "HallsofOrigination",
-			["mapID"] = 759,
-			["floor"] = 3,
-			["mapName"] = "The Four Seats",
-		},
-		["Undercity"] = {
+		["HellfireRamparts"] = {
 			["numFloors"] = 0,
-			["mapID"] = 382,
-			["cont"] = 2,
-			["zone"] = "Undercity",
-			["mapName"] = "Undercity",
-			["zonei"] = 40,
+			["mapID"] = 797,
+			["mapName"] = "HellfireRamparts",
+		},
+		["CoTTheBlackMorass"] = {
+			["numFloors"] = 0,
+			["mapID"] = 733,
+			["mapName"] = "CoTTheBlackMorass",
 		},
 		["Stormwind City"] = {
 			["numFloors"] = 0,
@@ -2259,44 +2204,38 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Stormwind City",
 			["zonei"] = 30,
 		},
-		["Townlong Steppes"] = {
+		["ManaTombs"] = {
 			["numFloors"] = 0,
-			["mapID"] = 810,
-			["cont"] = 6,
-			["zone"] = "Townlong Steppes",
-			["mapName"] = "Townlong Steppes",
-			["zonei"] = 8,
+			["mapID"] = 732,
+			["mapName"] = "ManaTombs",
 		},
-		["Entryway of Time"] = {
-			["dungeon"] = "EndTime",
-			["mapID"] = 820,
-			["floor"] = 1,
-			["mapName"] = "Entryway of Time",
+		["DeeprunTram"] = {
+			["numFloors"] = 2,
+			["mapID"] = 922,
+			["mapName"] = "DeeprunTram",
 		},
-		["Stratholme City"] = {
-			["dungeon"] = "CoTStratholme",
-			["mapID"] = 521,
+		["Calculation Chamber@TheMechanar"] = {
+			["dungeon"] = "TheMechanar",
+			["mapID"] = 730,
 			["floor"] = 2,
-			["mapName"] = "Stratholme City",
+			["mapName"] = "Calculation Chamber",
 		},
-		["Teldrassil"] = {
-			["numFloors"] = 0,
-			["mapID"] = 41,
-			["cont"] = 1,
-			["zone"] = "Teldrassil",
-			["mapName"] = "Teldrassil",
-			["zonei"] = 26,
+		["The Plague Quarter@Naxxramas"] = {
+			["dungeon"] = "Naxxramas",
+			["mapID"] = 535,
+			["floor"] = 4,
+			["mapName"] = "The Plague Quarter",
 		},
 		["Nexus80"] = {
 			["numFloors"] = 4,
 			["mapID"] = 528,
 			["mapName"] = "Nexus80",
 		},
-		["The Rampart of Skulls"] = {
-			["dungeon"] = "IcecrownCitadel",
-			["mapID"] = 604,
-			["floor"] = 2,
-			["mapName"] = "The Rampart of Skulls",
+		["Tinkers' Court@Gnomeregan"] = {
+			["dungeon"] = "Gnomeregan",
+			["mapID"] = 691,
+			["floor"] = 4,
+			["mapName"] = "Tinkers' Court",
 		},
 		["Swamp of Sorrows"] = {
 			["numFloors"] = 0,
@@ -2314,23 +2253,24 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Deepholm",
 			["zonei"] = 1,
 		},
-		["Ruby Dragonshrine"] = {
-			["dungeon"] = "EndTime",
-			["mapID"] = 820,
-			["floor"] = 3,
-			["mapName"] = "Ruby Dragonshrine",
+		["Headmaster's Study@Scholomance"] = {
+			["dungeon"] = "Scholomance",
+			["mapID"] = 898,
+			["floor"] = 4,
+			["mapName"] = "Headmaster's Study",
 		},
-		["Shadowforge City"] = {
-			["dungeon"] = "BlackrockDepths",
-			["mapID"] = 704,
+		["The Underbelly@Dalaran"] = {
+			["dungeon"] = "Dalaran",
+			["mapID"] = 504,
+			["cont"] = 4,
+			["zone"] = "Dalaran",
+			["mapName"] = "The Underbelly",
 			["floor"] = 2,
-			["mapName"] = "Shadowforge City",
 		},
-		["Detention Block"] = {
-			["dungeon"] = "BlackrockDepths",
-			["mapID"] = 704,
-			["floor"] = 1,
-			["mapName"] = "Detention Block",
+		["TheBotanica"] = {
+			["numFloors"] = 0,
+			["mapID"] = 729,
+			["mapName"] = "TheBotanica",
 		},
 		["Stranglethorn Vale"] = {
 			["numFloors"] = 0,
@@ -2340,11 +2280,13 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Stranglethorn Vale",
 			["zonei"] = 31,
 		},
-		["Band of Alignment"] = {
-			["dungeon"] = "Nexus80",
-			["mapID"] = 528,
-			["floor"] = 4,
-			["mapName"] = "Band of Alignment",
+		["Eastern Plaguelands"] = {
+			["numFloors"] = 0,
+			["mapID"] = 23,
+			["cont"] = 2,
+			["zone"] = "Eastern Plaguelands",
+			["mapName"] = "Eastern Plaguelands",
+			["zonei"] = 11,
 		},
 		["Sunstrider Isle"] = {
 			["numFloors"] = 0,
@@ -2354,28 +2296,27 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Sunstrider Isle",
 			["zonei"] = 32,
 		},
-		["Eastern Plaguelands"] = {
+		["Hellfire Peninsula"] = {
 			["numFloors"] = 0,
-			["mapID"] = 23,
-			["cont"] = 2,
-			["zone"] = "Eastern Plaguelands",
-			["mapName"] = "Eastern Plaguelands",
-			["zonei"] = 11,
+			["mapID"] = 465,
+			["cont"] = 3,
+			["zone"] = "Hellfire Peninsula",
+			["mapName"] = "Hellfire Peninsula",
+			["zonei"] = 2,
 		},
-		["TheLostIsles_terrain2"] = {
-			["numFloors"] = 7,
-			["mapID"] = 682,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "TheLostIsles_terrain2",
+		["The Dormitory@Gnomeregan"] = {
+			["dungeon"] = "Gnomeregan",
+			["mapID"] = 691,
+			["floor"] = 2,
+			["mapName"] = "The Dormitory",
 		},
-		["Tol Barad"] = {
+		["Arathi Highlands"] = {
 			["numFloors"] = 0,
-			["mapID"] = 708,
+			["mapID"] = 16,
 			["cont"] = 2,
-			["zone"] = "Tol Barad",
-			["mapName"] = "Tol Barad",
-			["zonei"] = 37,
+			["zone"] = "Arathi Highlands",
+			["mapName"] = "Arathi Highlands",
+			["zonei"] = 2,
 		},
 		["Twilight Highlands"] = {
 			["numFloors"] = 0,
@@ -2393,11 +2334,10 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Elwynn Forest",
 			["zonei"] = 12,
 		},
-		["Throne of the Apocalypse"] = {
-			["dungeon"] = "TheBastionofTwilight",
-			["mapID"] = 758,
-			["floor"] = 2,
-			["mapName"] = "Throne of the Apocalypse",
+		["MogushanPalace"] = {
+			["numFloors"] = 3,
+			["mapID"] = 885,
+			["mapName"] = "MogushanPalace",
 		},
 		["Mulgore"] = {
 			["numFloors"] = 0,
@@ -2407,11 +2347,13 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Mulgore",
 			["zonei"] = 18,
 		},
-		["Court of the Highborne"] = {
-			["dungeon"] = "DireMaul",
-			["mapID"] = 699,
-			["floor"] = 3,
-			["mapName"] = "Court of the Highborne",
+		["Townlong Steppes"] = {
+			["numFloors"] = 0,
+			["mapID"] = 810,
+			["cont"] = 6,
+			["zone"] = "Townlong Steppes",
+			["mapName"] = "Townlong Steppes",
+			["zonei"] = 8,
 		},
 		["Felwood"] = {
 			["numFloors"] = 0,
@@ -2421,36 +2363,35 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Felwood",
 			["zonei"] = 14,
 		},
-		["Capital Gardens"] = {
-			["dungeon"] = "DireMaul",
-			["mapID"] = 699,
-			["floor"] = 2,
-			["mapName"] = "Capital Gardens",
+		["TheSteamvault"] = {
+			["numFloors"] = 2,
+			["mapID"] = 727,
+			["mapName"] = "TheSteamvault",
 		},
-		["Gordok Commons"] = {
-			["dungeon"] = "DireMaul",
-			["mapID"] = 699,
+		["Orgrimmar@Orgrimmar"] = {
+			["dungeon"] = "Orgrimmar",
+			["mapID"] = 321,
+			["cont"] = 1,
+			["zone"] = "Orgrimmar",
+			["mapName"] = "Orgrimmar",
 			["floor"] = 1,
-			["mapName"] = "Gordok Commons",
 		},
 		["BlackfathomDeeps"] = {
 			["numFloors"] = 3,
 			["mapID"] = 688,
 			["mapName"] = "BlackfathomDeeps",
 		},
-		["Maw of Shu'ma"] = {
-			["dungeon"] = "DragonSoul",
-			["mapID"] = 824,
-			["floor"] = 3,
-			["mapName"] = "Maw of Shu'ma",
+		["The Mind's Eye@Ulduar"] = {
+			["dungeon"] = "Ulduar",
+			["mapID"] = 529,
+			["floor"] = 6,
+			["mapName"] = "The Mind's Eye",
 		},
-		["The Jade Forest"] = {
-			["numFloors"] = 0,
-			["mapID"] = 806,
-			["cont"] = 6,
-			["zone"] = "The Jade Forest",
-			["mapName"] = "The Jade Forest",
-			["zonei"] = 6,
+		["The Mechanar@TheMechanar"] = {
+			["dungeon"] = "TheMechanar",
+			["mapID"] = 730,
+			["floor"] = 1,
+			["mapName"] = "The Mechanar",
 		},
 		["The Exodar"] = {
 			["numFloors"] = 0,
@@ -2460,25 +2401,23 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "The Exodar",
 			["zonei"] = 27,
 		},
-		["The Cooling Pools"] = {
-			["dungeon"] = "TheSteamvault",
-			["mapID"] = 727,
-			["floor"] = 2,
-			["mapName"] = "The Cooling Pools",
-		},
-		["Hall of the Keepers"] = {
-			["dungeon"] = "Uldaman",
-			["mapID"] = 692,
-			["floor"] = 1,
-			["mapName"] = "Hall of the Keepers",
-		},
-		["Mount Hyjal"] = {
+		["TheBloodFurnace"] = {
 			["numFloors"] = 0,
-			["mapID"] = 606,
-			["cont"] = 1,
-			["zone"] = "Mount Hyjal",
-			["mapName"] = "Mount Hyjal",
-			["zonei"] = 17,
+			["mapID"] = 725,
+			["mapName"] = "TheBloodFurnace",
+		},
+		["SethekkHalls"] = {
+			["numFloors"] = 2,
+			["mapID"] = 723,
+			["mapName"] = "SethekkHalls",
+		},
+		["Tol Barad Peninsula"] = {
+			["numFloors"] = 0,
+			["mapID"] = 709,
+			["cont"] = 2,
+			["zone"] = "Tol Barad Peninsula",
+			["mapName"] = "Tol Barad Peninsula",
+			["zonei"] = 38,
 		},
 		["Silverpine Forest"] = {
 			["numFloors"] = 0,
@@ -2488,32 +2427,31 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Silverpine Forest",
 			["zonei"] = 29,
 		},
-		["GrimBatol"] = {
-			["numFloors"] = 0,
-			["mapID"] = 757,
-			["mapName"] = "GrimBatol",
-		},
-		["Shrine of Seven Stars"] = {
-			["numFloors"] = 2,
-			["mapID"] = 905,
-			["cont"] = 6,
-			["zone"] = "Shrine of Seven Stars",
-			["mapName"] = "Shrine of Seven Stars",
-			["zonei"] = 4,
-		},
-		["Dragonflayer Ascent"] = {
-			["dungeon"] = "UtgardeKeep",
-			["mapID"] = 523,
+		["Upper Pinnacle@UtgardePinnacle"] = {
+			["dungeon"] = "UtgardePinnacle",
+			["mapID"] = 524,
 			["floor"] = 2,
-			["mapName"] = "Dragonflayer Ascent",
+			["mapName"] = "Upper Pinnacle",
 		},
-		["681/1"] = {
-			["dungeon"] = "TheLostIsles_terrain1",
-			["mapID"] = 681,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "681/1",
+		["Halls of Mourning@SethekkHalls"] = {
+			["dungeon"] = "SethekkHalls",
+			["mapID"] = 723,
+			["floor"] = 2,
+			["mapName"] = "Halls of Mourning",
+		},
+		["Temple of the Jade Serpent@EastTemple"] = {
+			["dungeon"] = "EastTemple",
+			["mapID"] = 867,
 			["floor"] = 1,
+			["mapName"] = "Temple of the Jade Serpent",
+		},
+		["Tol Barad"] = {
+			["numFloors"] = 0,
+			["mapID"] = 708,
+			["cont"] = 2,
+			["zone"] = "Tol Barad",
+			["mapName"] = "Tol Barad",
+			["zonei"] = 37,
 		},
 		["Deathknell"] = {
 			["numFloors"] = 0,
@@ -2523,10 +2461,10 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Deathknell",
 			["zonei"] = 8,
 		},
-		["HallsofLightning"] = {
-			["numFloors"] = 2,
-			["mapID"] = 525,
-			["mapName"] = "HallsofLightning",
+		["PitofSaron"] = {
+			["numFloors"] = 0,
+			["mapID"] = 602,
+			["mapName"] = "PitofSaron",
 		},
 		["Stonetalon Mountains"] = {
 			["numFloors"] = 0,
@@ -2536,17 +2474,18 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Stonetalon Mountains",
 			["zonei"] = 24,
 		},
-		["Upper Pinnacle"] = {
-			["dungeon"] = "UtgardePinnacle",
-			["mapID"] = 524,
-			["floor"] = 2,
-			["mapName"] = "Upper Pinnacle",
+		["GilneasCity"] = {
+			["numFloors"] = 0,
+			["mapID"] = 611,
+			["mapName"] = "GilneasCity",
 		},
-		["Launch Bay"] = {
-			["dungeon"] = "Gnomeregan",
-			["mapID"] = 691,
-			["floor"] = 3,
-			["mapName"] = "Launch Bay",
+		["Shrine of Two Moons"] = {
+			["numFloors"] = 2,
+			["mapID"] = 903,
+			["cont"] = 6,
+			["zone"] = "Shrine of Two Moons",
+			["mapName"] = "Shrine of Two Moons",
+			["zonei"] = 5,
 		},
 		["TheStonecore"] = {
 			["numFloors"] = 0,
@@ -2558,11 +2497,10 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 529,
 			["mapName"] = "Ulduar",
 		},
-		["The Forgotten Pool"] = {
-			["dungeon"] = "BlackfathomDeeps",
-			["mapID"] = 688,
-			["floor"] = 3,
-			["mapName"] = "The Forgotten Pool",
+		["Gundrak"] = {
+			["numFloors"] = 0,
+			["mapID"] = 530,
+			["mapName"] = "Gundrak",
 		},
 		["Thousand Needles"] = {
 			["numFloors"] = 0,
@@ -2572,37 +2510,101 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Thousand Needles",
 			["zonei"] = 28,
 		},
-		["682/2"] = {
-			["dungeon"] = "TheLostIsles_terrain2",
-			["mapID"] = 682,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "682/2",
-			["floor"] = 2,
-		},
-		["Uldum_terrain1"] = {
+		["CoilfangReservoir"] = {
 			["numFloors"] = 0,
-			["mapID"] = 748,
+			["mapID"] = 780,
+			["mapName"] = "CoilfangReservoir",
+		},
+		["Blackrock Stadium@BlackrockSpire"] = {
+			["dungeon"] = "BlackrockSpire",
+			["mapID"] = 721,
+			["floor"] = 7,
+			["mapName"] = "Blackrock Stadium",
+		},
+		["Lower Pinnacle@UtgardePinnacle"] = {
+			["dungeon"] = "UtgardePinnacle",
+			["mapID"] = 524,
+			["floor"] = 1,
+			["mapName"] = "Lower Pinnacle",
+		},
+		["Un'Goro Crater"] = {
+			["numFloors"] = 0,
+			["mapID"] = 201,
 			["cont"] = 1,
-			["zone"] = 0,
-			["mapName"] = "Uldum_terrain1",
+			["zone"] = "Un'Goro Crater",
+			["mapName"] = "Un'Goro Crater",
+			["zonei"] = 31,
 		},
-		["TheTempleOfAtalHakkar"] = {
+		["WellofEternity"] = {
 			["numFloors"] = 0,
-			["mapID"] = 687,
-			["mapName"] = "TheTempleOfAtalHakkar",
+			["mapID"] = 816,
+			["mapName"] = "WellofEternity",
 		},
-		["Hadronox's Lair"] = {
-			["dungeon"] = "AzjolNerub",
+		["AzjolNerub"] = {
+			["numFloors"] = 3,
 			["mapID"] = 533,
-			["floor"] = 2,
-			["mapName"] = "Hadronox's Lair",
+			["mapName"] = "AzjolNerub",
 		},
-		["Calculation Chamber"] = {
-			["dungeon"] = "TheMechanar",
-			["mapID"] = 730,
+		["The Road to Stratholme@CoTStratholme"] = {
+			["dungeon"] = "CoTStratholme",
+			["mapID"] = 521,
+			["floor"] = 1,
+			["mapName"] = "The Road to Stratholme",
+		},
+		["Detention Block@BlackrockDepths"] = {
+			["dungeon"] = "BlackrockDepths",
+			["mapID"] = 704,
+			["floor"] = 1,
+			["mapName"] = "Detention Block",
+		},
+		["ZulGurub#793"] = {
+			["numFloors"] = 0,
+			["mapID"] = 793,
+			["mapName"] = "ZulGurub#793",
+		},
+		["UtgardePinnacle"] = {
+			["numFloors"] = 2,
+			["mapID"] = 524,
+			["mapName"] = "UtgardePinnacle",
+		},
+		["Uldum"] = {
+			["numFloors"] = 0,
+			["mapID"] = 720,
+			["cont"] = 1,
+			["zone"] = "Uldum",
+			["mapName"] = "Uldum",
+			["zonei"] = 30,
+		},
+		["TheNexusLegendary"] = {
+			["numFloors"] = 0,
+			["mapID"] = 803,
+			["mapName"] = "TheNexusLegendary",
+		},
+		["Vault of C'Thun@AhnQiraj"] = {
+			["dungeon"] = "AhnQiraj",
+			["mapID"] = 766,
+			["floor"] = 3,
+			["mapName"] = "Vault of C'Thun",
+		},
+		["Shadowforge City@BlackrockDepths"] = {
+			["dungeon"] = "BlackrockDepths",
+			["mapID"] = 704,
 			["floor"] = 2,
-			["mapName"] = "Calculation Chamber",
+			["mapName"] = "Shadowforge City",
+		},
+		["Redridge Mountains"] = {
+			["numFloors"] = 0,
+			["mapID"] = 36,
+			["cont"] = 2,
+			["zone"] = "Redridge Mountains",
+			["mapName"] = "Redridge Mountains",
+			["zonei"] = 23,
+		},
+		["The Deadmines@TheDeadmines"] = {
+			["dungeon"] = "TheDeadmines",
+			["mapID"] = 756,
+			["floor"] = 1,
+			["mapName"] = "The Deadmines",
 		},
 		["Searing Gorge"] = {
 			["numFloors"] = 0,
@@ -2612,82 +2614,35 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Searing Gorge",
 			["zonei"] = 26,
 		},
-		["682/7"] = {
-			["dungeon"] = "TheLostIsles_terrain2",
-			["mapID"] = 682,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "682/7",
-			["floor"] = 7,
-		},
-		["CoTTheBlackMorass"] = {
-			["numFloors"] = 0,
-			["mapID"] = 733,
-			["mapName"] = "CoTTheBlackMorass",
-		},
-		["Upper Burial Chamber"] = {
-			["dungeon"] = "AncientMoguCrypt",
-			["mapID"] = 900,
+		["Chamber of Incineration@BlackrockCaverns"] = {
+			["dungeon"] = "BlackrockCaverns",
+			["mapID"] = 753,
 			["floor"] = 1,
-			["mapName"] = "Upper Burial Chamber",
+			["mapName"] = "Chamber of Incineration",
 		},
-		["UtgardePinnacle"] = {
-			["numFloors"] = 2,
-			["mapID"] = 524,
-			["mapName"] = "UtgardePinnacle",
-		},
-		["Shattrath City"] = {
-			["numFloors"] = 0,
-			["mapID"] = 481,
-			["cont"] = 3,
-			["zone"] = "Shattrath City",
-			["mapName"] = "Shattrath City",
-			["zonei"] = 6,
-		},
-		["The Frozen Throne"] = {
-			["dungeon"] = "IcecrownCitadel",
-			["mapID"] = 604,
-			["floor"] = 7,
-			["mapName"] = "The Frozen Throne",
-		},
-		["ScarletHalls"] = {
-			["numFloors"] = 2,
-			["mapID"] = 871,
-			["mapName"] = "ScarletHalls",
-		},
-		["The Argent Coliseum"] = {
-			["dungeon"] = "TheArgentColiseum",
-			["mapID"] = 543,
-			["floor"] = 1,
-			["mapName"] = "The Argent Coliseum",
-		},
-		["The Spark of Imagination"] = {
-			["dungeon"] = "Ulduar",
-			["mapID"] = 529,
+		["Warpwood Quarter@DireMaul"] = {
+			["dungeon"] = "DireMaul",
+			["mapID"] = 699,
 			["floor"] = 5,
-			["mapName"] = "The Spark of Imagination",
+			["mapName"] = "Warpwood Quarter",
 		},
-		["Dalaran City"] = {
-			["dungeon"] = "Dalaran",
-			["mapID"] = 504,
-			["cont"] = 4,
-			["zone"] = "Dalaran",
-			["mapName"] = "Dalaran City",
-			["floor"] = 1,
+		["Durotar"] = {
+			["numFloors"] = 0,
+			["mapID"] = 4,
+			["cont"] = 1,
+			["zone"] = "Durotar",
+			["mapName"] = "Durotar",
+			["zonei"] = 11,
 		},
-		["682/3"] = {
-			["dungeon"] = "TheLostIsles_terrain2",
-			["mapID"] = 682,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "682/3",
-			["floor"] = 3,
+		["ZulGurub"] = {
+			["numFloors"] = 0,
+			["mapID"] = 697,
+			["mapName"] = "ZulGurub",
 		},
-		["The Hall of Gears"] = {
-			["dungeon"] = "Gnomeregan",
-			["mapID"] = 691,
-			["floor"] = 1,
-			["mapName"] = "The Hall of Gears",
+		["Uldaman"] = {
+			["numFloors"] = 2,
+			["mapID"] = 692,
+			["mapName"] = "Uldaman",
 		},
 		["Ashenvale"] = {
 			["numFloors"] = 0,
@@ -2697,64 +2652,36 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Ashenvale",
 			["zonei"] = 3,
 		},
-		["681/4"] = {
-			["dungeon"] = "TheLostIsles_terrain1",
-			["mapID"] = 681,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "681/4",
-			["floor"] = 4,
-		},
-		["681/3"] = {
-			["dungeon"] = "TheLostIsles_terrain1",
-			["mapID"] = 681,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "681/3",
-			["floor"] = 3,
-		},
-		["Kelp'thar Forest"] = {
-			["numFloors"] = 0,
-			["mapID"] = 610,
-			["cont"] = 2,
-			["zone"] = "Kelp'thar Forest",
-			["mapName"] = "Kelp'thar Forest",
-			["zonei"] = 18,
-		},
-		["Tinkers' Court"] = {
-			["dungeon"] = "Gnomeregan",
+		["Gnomeregan"] = {
+			["numFloors"] = 4,
 			["mapID"] = 691,
-			["floor"] = 4,
-			["mapName"] = "Tinkers' Court",
+			["mapName"] = "Gnomeregan",
 		},
-		["Ragefire"] = {
+		["Kun-Lai Summit"] = {
 			["numFloors"] = 0,
-			["mapID"] = 680,
-			["mapName"] = "Ragefire",
+			["mapID"] = 809,
+			["cont"] = 6,
+			["zone"] = "Kun-Lai Summit",
+			["mapName"] = "Kun-Lai Summit",
+			["zonei"] = 3,
 		},
-		["BattleforGilneas"] = {
-			["numFloors"] = 0,
-			["mapID"] = 677,
-			["mapName"] = "BattleforGilneas",
+		["The Argent Coliseum@TheArgentColiseum"] = {
+			["dungeon"] = "TheArgentColiseum",
+			["mapID"] = 543,
+			["floor"] = 1,
+			["mapName"] = "The Argent Coliseum",
 		},
-		["Coldridge Valley"] = {
-			["numFloors"] = 0,
-			["mapID"] = 866,
-			["cont"] = 2,
-			["zone"] = "Coldridge Valley",
-			["mapName"] = "Coldridge Valley",
-			["zonei"] = 6,
-		},
-		["The Arachnid Quarter"] = {
-			["dungeon"] = "Naxxramas",
-			["mapID"] = 535,
+		["Chamber of Summoning@Scholomance"] = {
+			["dungeon"] = "Scholomance",
+			["mapID"] = 898,
 			["floor"] = 2,
-			["mapName"] = "The Arachnid Quarter",
+			["mapName"] = "Chamber of Summoning",
 		},
-		["GilneasCity"] = {
-			["numFloors"] = 0,
-			["mapID"] = 611,
-			["mapName"] = "GilneasCity",
+		["The Gilded Gate@AzjolNerub"] = {
+			["dungeon"] = "AzjolNerub",
+			["mapID"] = 533,
+			["floor"] = 3,
+			["mapName"] = "The Gilded Gate",
 		},
 		["Vashj'ir"] = {
 			["numFloors"] = 0,
@@ -2764,17 +2691,19 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Vashj'ir",
 			["zonei"] = 41,
 		},
-		["Den of Mortal Delights"] = {
-			["dungeon"] = "BlackTemple",
-			["mapID"] = 796,
-			["floor"] = 6,
-			["mapName"] = "Den of Mortal Delights",
+		["Band of Variance@Nexus80"] = {
+			["dungeon"] = "Nexus80",
+			["mapID"] = 528,
+			["floor"] = 1,
+			["mapName"] = "Band of Variance",
 		},
-		["The Maelstrom"] = {
-			["dungeon"] = "DragonSoul",
-			["mapID"] = 824,
-			["floor"] = 7,
-			["mapName"] = "The Maelstrom",
+		["Shadowglen"] = {
+			["numFloors"] = 0,
+			["mapID"] = 888,
+			["cont"] = 1,
+			["zone"] = "Shadowglen",
+			["mapName"] = "Shadowglen",
+			["zonei"] = 21,
 		},
 		["Duskwood"] = {
 			["numFloors"] = 0,
@@ -2784,29 +2713,22 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Duskwood",
 			["zonei"] = 10,
 		},
-		["Wintergrasp"] = {
-			["numFloors"] = 0,
-			["mapID"] = 501,
-			["cont"] = 4,
-			["zone"] = "Wintergrasp",
-			["mapName"] = "Wintergrasp",
-			["zonei"] = 11,
+		["The Antechamber of Ulduar@Ulduar"] = {
+			["dungeon"] = "Ulduar",
+			["mapID"] = 529,
+			["floor"] = 2,
+			["mapName"] = "The Antechamber of Ulduar",
 		},
-		["Azshara"] = {
+		["TheTempleOfAtalHakkar"] = {
 			["numFloors"] = 0,
-			["mapID"] = 181,
-			["cont"] = 1,
-			["zone"] = "Azshara",
-			["mapName"] = "Azshara",
-			["zonei"] = 4,
+			["mapID"] = 687,
+			["mapName"] = "TheTempleOfAtalHakkar",
 		},
-		["682/1"] = {
-			["dungeon"] = "TheLostIsles_terrain2",
-			["mapID"] = 682,
-			["cont"] = 5,
-			["zone"] = 0,
-			["mapName"] = "682/1",
-			["floor"] = 1,
+		["Shrine of the Eclipse@SunwellPlateau"] = {
+			["dungeon"] = "SunwellPlateau",
+			["mapID"] = 789,
+			["floor"] = 2,
+			["mapName"] = "Shrine of the Eclipse",
 		},
 		["Ghostlands"] = {
 			["numFloors"] = 0,
@@ -2816,10 +2738,10 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Ghostlands",
 			["zonei"] = 14,
 		},
-		["TheArgentColiseum543"] = {
-			["numFloors"] = 2,
-			["mapID"] = 543,
-			["mapName"] = "TheArgentColiseum543",
+		["Ragefire"] = {
+			["numFloors"] = 0,
+			["mapID"] = 680,
+			["mapName"] = "Ragefire",
 		},
 		["TheObsidianSanctum"] = {
 			["numFloors"] = 0,
@@ -2834,36 +2756,38 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Southern Barrens",
 			["zonei"] = 23,
 		},
-		["Valley of the Four Winds"] = {
-			["numFloors"] = 0,
-			["mapID"] = 807,
-			["cont"] = 6,
-			["zone"] = "Valley of the Four Winds",
-			["mapName"] = "Valley of the Four Winds",
-			["zonei"] = 10,
-		},
-		["TheArgentColiseum"] = {
-			["numFloors"] = 0,
-			["mapID"] = 542,
-			["mapName"] = "TheArgentColiseum",
-		},
-		["Band of Acceleration"] = {
-			["dungeon"] = "Nexus80",
-			["mapID"] = 528,
+		["Throne of Neptulon@ThroneofTides"] = {
+			["dungeon"] = "ThroneofTides",
+			["mapID"] = 767,
 			["floor"] = 2,
-			["mapName"] = "Band of Acceleration",
+			["mapName"] = "Throne of Neptulon",
 		},
-		["Khaz'Goroth's Seat"] = {
-			["dungeon"] = "Uldaman",
-			["mapID"] = 692,
-			["floor"] = 2,
-			["mapName"] = "Khaz'Goroth's Seat",
+		["The Maelstrom"] = {
+			["numFloors"] = 0,
+			["mapID"] = 737,
+			["cont"] = 5,
+			["zone"] = "The Maelstrom",
+			["mapName"] = "The Maelstrom#737",
+			["zonei"] = 4,
 		},
-		["762/4"] = {
-			["dungeon"] = "ScarletMonastery",
-			["mapID"] = 762,
+		["BattleforGilneas"] = {
+			["numFloors"] = 0,
+			["mapID"] = 677,
+			["mapName"] = "BattleforGilneas",
+		},
+		["The Frost Queen's Lair@IcecrownCitadel"] = {
+			["dungeon"] = "IcecrownCitadel",
+			["mapID"] = 604,
 			["floor"] = 4,
-			["mapName"] = "762/4",
+			["mapName"] = "The Frost Queen's Lair",
+		},
+		["Terokkar Forest"] = {
+			["numFloors"] = 0,
+			["mapID"] = 478,
+			["cont"] = 3,
+			["zone"] = "Terokkar Forest",
+			["mapName"] = "Terokkar Forest",
+			["zonei"] = 7,
 		},
 		["TheStockade"] = {
 			["numFloors"] = 0,
@@ -2880,13 +2804,13 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 710,
 			["mapName"] = "TheShatteredHalls",
 		},
-		["905/1"] = {
-			["dungeon"] = "Shrine of Seven Stars",
-			["mapID"] = 905,
-			["cont"] = 6,
-			["zone"] = "Shrine of Seven Stars",
-			["mapName"] = "905/1",
-			["floor"] = 1,
+		["Mount Hyjal"] = {
+			["numFloors"] = 0,
+			["mapID"] = 606,
+			["cont"] = 1,
+			["zone"] = "Mount Hyjal",
+			["mapName"] = "Mount Hyjal",
+			["zonei"] = 17,
 		},
 		["Northshire"] = {
 			["numFloors"] = 0,
@@ -2896,27 +2820,49 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Northshire",
 			["zonei"] = 22,
 		},
-		["The Mind's Eye"] = {
-			["dungeon"] = "Ulduar",
-			["mapID"] = 529,
-			["floor"] = 6,
-			["mapName"] = "The Mind's Eye",
-		},
-		["Tol Barad Peninsula"] = {
+		["Teldrassil"] = {
 			["numFloors"] = 0,
-			["mapID"] = 709,
-			["cont"] = 2,
-			["zone"] = "Tol Barad Peninsula",
-			["mapName"] = "Tol Barad Peninsula",
-			["zonei"] = 38,
-		},
-		["Echo Isles"] = {
-			["numFloors"] = 0,
-			["mapID"] = 891,
+			["mapID"] = 41,
 			["cont"] = 1,
-			["zone"] = "Echo Isles",
-			["mapName"] = "Echo Isles",
-			["zonei"] = 13,
+			["zone"] = "Teldrassil",
+			["mapName"] = "Teldrassil",
+			["zonei"] = 26,
+		},
+		["Stratholme City@CoTStratholme"] = {
+			["dungeon"] = "CoTStratholme",
+			["mapID"] = 521,
+			["floor"] = 2,
+			["mapName"] = "Stratholme City",
+		},
+		["Valley of the Four Winds"] = {
+			["numFloors"] = 0,
+			["mapID"] = 807,
+			["cont"] = 6,
+			["zone"] = "Valley of the Four Winds",
+			["mapName"] = "Valley of the Four Winds",
+			["zonei"] = 10,
+		},
+		["Dread Wastes"] = {
+			["numFloors"] = 0,
+			["mapID"] = 858,
+			["cont"] = 6,
+			["zone"] = "Dread Wastes",
+			["mapName"] = "Dread Wastes",
+			["zonei"] = 1,
+		},
+		["Azshara"] = {
+			["numFloors"] = 0,
+			["mapID"] = 181,
+			["cont"] = 1,
+			["zone"] = "Azshara",
+			["mapName"] = "Azshara",
+			["zonei"] = 4,
+		},
+		["Bronze Dragonshrine@EndTime"] = {
+			["dungeon"] = "EndTime",
+			["mapID"] = 820,
+			["floor"] = 6,
+			["mapName"] = "Bronze Dragonshrine",
 		},
 		["Blasted Lands"] = {
 			["numFloors"] = 0,
@@ -2925,30 +2871,6 @@ WoWPro.Zone2MapID = {
 			["zone"] = "Blasted Lands",
 			["mapName"] = "Blasted Lands",
 			["zonei"] = 4,
-		},
-		["Shadowglen"] = {
-			["numFloors"] = 0,
-			["mapID"] = 888,
-			["cont"] = 1,
-			["zone"] = "Shadowglen",
-			["mapName"] = "Shadowglen",
-			["zonei"] = 21,
-		},
-		["Redridge Mountains"] = {
-			["numFloors"] = 0,
-			["mapID"] = 36,
-			["cont"] = 2,
-			["zone"] = "Redridge Mountains",
-			["mapName"] = "Redridge Mountains",
-			["zonei"] = 23,
-		},
-		["The Underbelly"] = {
-			["dungeon"] = "Dalaran",
-			["mapID"] = 504,
-			["cont"] = 4,
-			["zone"] = "Dalaran",
-			["mapName"] = "The Underbelly",
-			["floor"] = 2,
 		},
 		["Krasarang Wilds"] = {
 			["numFloors"] = 0,
@@ -2966,13 +2888,13 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Hillsbrad Foothills",
 			["zonei"] = 15,
 		},
-		["Zangarmarsh"] = {
+		["Isle of Quel'Danas"] = {
 			["numFloors"] = 0,
-			["mapID"] = 467,
-			["cont"] = 3,
-			["zone"] = "Zangarmarsh",
-			["mapName"] = "Zangarmarsh",
-			["zonei"] = 8,
+			["mapID"] = 499,
+			["cont"] = 2,
+			["zone"] = "Isle of Quel'Danas",
+			["mapName"] = "Isle of Quel'Danas",
+			["zonei"] = 17,
 		},
 	}
 	
@@ -3018,9 +2940,9 @@ local function ScrapeMapInfo(cont, zone, zone_idx)
             floorinfo.mapName = _G["DUNGEON_FLOOR_" .. strupper(record.mapName) .. (floor+offset)]
             if not floorinfo.mapName then
                 WoWPro:Print("Unable to find name for "..record.mapName.." floor "..tostring(floor))
-                floorinfo.mapName = tostring(floorinfo.mapID).."/"..tostring(floor)
+                floorinfo.mapName = "Floor"..tostring(floor)
             end
-            Zone2MapID[floorinfo.mapName.."@"..record.mapID]=floorinfo;
+            Zone2MapID[floorinfo.mapName.."@"..record.mapName]=floorinfo;
         end
     end
     
@@ -3039,7 +2961,7 @@ local function ScrapeMapInfo(cont, zone, zone_idx)
             return
         end
         WoWPro:Print("Name "..record.mapName.." is duplicated for map "..tostring(record.mapID).." and "..tostring(Zone2MapID[record.mapName].mapID))
-        record.mapName = record.mapName .. tostring(record.mapID)
+        record.mapName = record.mapName .. "#" .. tostring(record.mapID)
     end
     MapsSeen[record.mapID] = true
     Zone2MapID[record.mapName]=record;

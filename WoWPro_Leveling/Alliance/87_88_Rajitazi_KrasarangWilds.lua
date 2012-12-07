@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2012-12-03 14:25
+-- Who: Fluclo
+-- Log: Added a finish collecting fangs step for Why So Serious?
+
+-- URL: http://wow-pro.com/node/3488/revisions/25237/view
+-- Date: 2012-12-03 14:17
+-- Who: Fluclo
+-- Log: Added a bit to get to the cave, and corrected a bad symbol on Jar of Pigment
+
+-- URL: http://wow-pro.com/node/3488/revisions/25236/view
+-- Date: 2012-12-03 14:13
+-- Who: Fluclo
+-- Log: Correct coords of Memorial Flame of Po
+
+-- URL: http://wow-pro.com/node/3488/revisions/25214/view
 -- Date: 2012-11-24 21:41
 -- Who: Ludovicus Maior
 -- Log: Played through and tweaked all over.  One toon found the bugs, the second tested the fixes!
@@ -79,13 +94,15 @@ A Borderlands|QID|30084|M|75.83,7.65|N|From Mei Barrelbottom.|
 T Materia Medica|QID|30081|M|76.22,7.06|N|To Ken-Ken.|
 A Why So Serious?|QID|30088|M|76.22,7.06|N|From Ken-Ken.|
 C Why So Serious?|QID|30088|S|L|78941 18|M|72.00,16.91|N|The panthers are in the area around the Memorial Flames.|
-C Memorial Flame of Po|QID|30084|NC|U|78928|QO|Memorial Flame of Po: 1/1|M|75.20,17.20|
+C Memorial Flame of Po|QID|30084|NC|U|78928|QO|Memorial Flame of Po: 1/1|M|74.00,17.00|
 C Memorial Flame of Zhu|QID|30084|NC|U|78928|QO|Memorial Flame of Zhu: 1/1|M|72.70,18.12|
 C Memorial Flame of Rin|QID|30084|NC|U|78928|QO|Memorial Flame of Rin: 1/1|M|71.30,17.47|
+C Why So Serious?|QID|30088|US|QO|Huge Panther Fang: 18/18|M|72.00,16.91|N|Finish killing the Panthers for the Fangs|
 C Securing the Province|QID|30083|S|M|77.30,58.91|Z|Valley of the Four Winds|N|Kill the sauroks on the way in and out of the cave.|
+R Winds' Edge|QID|30083|M|77.05,57.2|N|Head to Winds' Edge and enter the cave|
 l Saurok Stone Tablet|QID|30088|L|86220|M|75.05,55.12|Z|Valley of the Four Winds|N|The tablet is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|
-l Jar of Pigment|QID|30088|US|L|78942|M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.{
-C Securing the Province|QID|30083|US|M|77.30,58.91|Z|Valley of the Four Winds|N|When you finish killing the sauroks, You can mount up in the cave and zerg out if you want.|
+l Jar of Pigment|QID|30088|US|L|78942|M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.|
+C Securing the Province|QID|30083|US|M|77.30,58.91|Z|Valley of the Four Winds|N|Finish killing the sauroks as you leave the cave.|
 T Securing the Province|QID|30083|M|75.83,7.65|N|To Mei Barrelbottom.|
 T Borderlands|QID|30084|M|75.83,7.65|N|To Mei Barrelbottom.|
 T Why So Serious?|QID|30088|M|76.22,7.06|N|To Ken-Ken.|

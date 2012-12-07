@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2012-11-30 18:53
+-- Who: Estelyen
+-- Log: Patch 5.1 had the Stillwater Crocodiles renamed to Stillwater Crocolisks (I was wondering about that while writing the guide, having never encountered a crocodile in WoW before), guide text changed accordingly
+
+-- URL: http://wow-pro.com/node/3502/revisions/25203/view
 -- Date: 2012-11-11 11:36
 -- Who: Estelyen
 -- Log: Found General Temuja, added tactics
@@ -155,7 +160,7 @@ T Whitepetal Lake|QID|31131|N|To He Softfoot.|M|43.65,46.08|
 A Random Daily from He Softfoot|QID|30313;30314;30341|PRE|31131|N|Accept the random daily that He Softfoot offers.|M|43.65,46.08|
 A Random Dailies from Ren Firetongue|QID|30265;30284;30291;30338;30342|PRE|31131|N|Accept ALL the daily quests Ren Firetongue offers. This step will close when you accept the first one.|M|42.30,46.02|
 A Random Dailies from Merchent Tantan|QID|30339;30340|PRE|31131|N|Accept ALL the daily quests Merchent Tantan offers. This step will close when you accept the first one.|M|42.22,45.94|
-C Fiery Tongue, Fragile Feet|QID|30342|N|Kill 8 Stillwater Crocodiles in and around Whitepetal Lake.|M|40.71,48.10|S|
+C Fiery Tongue, Fragile Feet|QID|30342|N|Kill 8 Stillwater Crocolisks in and around Whitepetal Lake.|M|40.71,48.10|S|
 C A Thousand Pointy Teeth|QID|30284|N|Kill 15 Knifetooth Swarmers in the lake.|M|40.71,48.10|S|
 C Stunning Display|QID|30291|N|Go into the lake and collect 12 Stunned Whitepetal Carps from its surface.|M|40.71,48.10|
 C A Weighty Task|QID|30338|N|Dive down in the lake and collect 8 of the sparkling Mogu Artifacts.|M|40.71,48.10|
@@ -169,7 +174,7 @@ C Getting your Hands Dirty|QID|30339|N|Look for sparkilng mounds of fresh dirt o
 C The Displaced Paleblade|QID|30314|N|Kill 8 Paleblade Saurok around the lake.|M|40.71,48.10|US|
 C Under Watchful Eyes|QID|30341|N|Kill 8 Shao-Tien Surveyors around the lake, they are cloaked. You can use the flare (even while mounted) to increase the range at which you can detect them, but they remain hard to spot, so keep your eyes open.|M|40.71,48.10|US|
 C The Moving Mists|QID|30313|N|Kill 8 Fog Walkers around the lake.|M|40.71,48.10|US|
-C Fiery Tongue, Fragile Feet|QID|30342|N|Kill 8 Stillwater Crocodiles in and around Whitepetal Lake.|M|40.71,48.10|US|
+C Fiery Tongue, Fragile Feet|QID|30342|N|Kill 8 Stillwater Crocolisks in and around Whitepetal Lake.|M|40.71,48.10|US|
 T The Displaced Paleblade|QID|30314|N|To He Softfoot.|M|43.65,46.08|
 T Under Watchful Eyes|QID|30341|N|To He Softfoot.|M|43.65,46.08|
 T The Moving Mists|QID|30313|N|To He Softfoot.|M|43.65,46.08|

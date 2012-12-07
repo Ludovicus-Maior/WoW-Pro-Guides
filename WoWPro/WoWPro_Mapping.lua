@@ -342,11 +342,21 @@ function WoWPro:MapPoint(row)
 	local coords; if WoWPro.map then coords = WoWPro.map[i] else coords = nil end
 	local desc = WoWPro.step[i]
 	local zone
+	local floor = 0
 	if row then
 	    zone = WoWPro.rows[row].zone
 	end 
 	zone = zone or WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
 	autoarrival = WoWPro.waypcomplete[i]
+	
+	if zone:match("/") then
+	    -- Well, they have a floor specified
+	    zone , floor = string.split("/",zone)
+	    floor = tonumber(floor)
+	    if not zone then
+	        zone = strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
+	    end
+	end
 	
 	
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
@@ -386,11 +396,11 @@ function WoWPro:MapPoint(row)
 	    if tonumber(zone) then
 	        -- Using a numeric zone ID
 	        zm = tonumber(zone)
-	        zf = 0
+	        zf = floor
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
 	        zm = WoWPro.Zone2MapID[zone].mapID
-	        zf = WoWPro.Zone2MapID[zone].floor or 0
+	        zf = WoWPro.Zone2MapID[zone].floor or floor
 	        zc = WoWPro.Zone2MapID[zone].cont
 	        zi = WoWPro.Zone2MapID[zone].zonei
 	    end

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2012-12-02 15:24
+-- Who: Ludovicus Maior
+-- Log: Ask the user to log out or reload to get the faction specific guides loaded up.
+
+-- URL: http://wow-pro.com/node/3483/revisions/25213/view
 -- Date: 2012-11-24 02:44
 -- Who: Emmaleah
 -- Log: 23 Nov 2012 - Emmaleah - playtest, add pointers to prof trainers, add some additional explanatory comments.
@@ -423,6 +428,8 @@ T The Alliance Way|QID|30988|M|82.59,28.07|N|To King Varian Wrynn, who has moved
 A An Old Pit Fighter|QID|30989|M|82.59,28.07|PRE|30987|N|From King Varian Wrynn|Z|Stormwind City|FACTION|Alliance|
 C An Old Pit Fighter|QID|30989|M|82.59,28.07|N|The King will want you to fight him, but every hit will miss/dodge, after a short while, the fight will be over.|Z|Stormwind City|FACTION|Alliance|
 T An Old Pit Fighter|QID|30989|M|85.78,31.70|N|To King Varian Wrynn, who has moved back into the Keep|Z|Stormwind City|FACTION|Alliance|
+
+N Faction Update|N|In order to load the correct guides for your new faction, we need you either log out and back in or use the "/reload" command.  Click this step when you are ready to go on!|
 
 ]]
 

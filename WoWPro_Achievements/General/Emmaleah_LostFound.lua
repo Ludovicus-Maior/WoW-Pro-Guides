@@ -1,31 +1,36 @@
+
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- Date: 3 Nov 2012
+-- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2012-12-02 01:25
 -- Who: Emmaleah
--- Log: After many iterations, I think the steps are in a reletively efficient order. (still haven't solved the other items on the to do list. posting it so hopefully someone else can.)
+-- Log: 5.1 changes - new achievements Treasures of Pandaria(1); Fortune of Pandaria(5);Bounty of Pandaria(10); Riches of Pandaria(18)  Removed note about Phasing for ancient pandaran teapot (Bliz fixxed it) Renamed  "wall of text" to more descriptive titles.
 
--- Date: 20 Oct 2012
--- Who: Emmaleah
--- Log: Initial Guide, info taken from Wowhead, and my personal observations.
+-- URL: http://wow-pro.com/node/3514/revisions/25206/view
+-- Date: 2012-11-13 02:20
+-- Who: Ludovicus Maior
+-- Log: Updated to latest from Emmaleah
 
--- To Do:
--- It still doesnt auto complete. tried using N, L, C tags, but when you reset the correct steps are marked as complete.
--- Changing ranks doesn't seem to do anything but I can't seem to figure out why
+-- URL: http://wow-pro.com/node/3514/revisions/25205/view
+-- Date: 2012-11-13 02:16
+-- Who: Ludovicus Maior
+-- Log: Close of Blog Page
 
-WoWPro.Achievements:RegisterGuide('EmmLostAndFound','MoP Zones','Emmaleah', '85', '90', 'nil','Neutral', function()
+WoWPro.Achievements:RegisterGuide('EmmAchLost','MoP Zones', 'Lost and Found', 'Achievement', 'Mists of Pandaria', 'Emmaleah','Neutral', function()
 return [[
 
-N Wall of text 1 of 6|QID|972810001|N|This guide is for all of the lost things in Pandaria, not just the ones that give the achievement. There are actually four achiements in the chain for finding 1, 5, 10 and finaly 20 items. There are a total of 28 that can be found that qualify. Most of the items for the achievement are BOA and all are blue quality, except the two recipes(white) and the ancient woodcutter(grey).|
-N Wall of text 2 of 6|QID|972810001|N|If you are only interested in the achievement set the guide to RANK 1. The non achievement items mostly sell for 100+gold, so you may want it on RANK 2(to get the gold), the ones that give less than 50g (and less XP - but you are 90 so that doesnt materr?!?) will be only be included in the quide if you set it to RANK 3.|
-N Wall of text 3 of 6|QID|972810001|N|These use hidden "flag" quests so that the items will only be available once per character. If you move while opening the container (including being attacked) you may lose the item, and so far GMs have not been replacing, Also, if your inventory is full, no item. You do get the achievement even if you don't get the item.|
-N Wall of text 4 of 6|QID|972810001|N|Some of the items require you talk to NPC's to get the item (instead of groundspanws). There are target buttons for those steps, the number beside thier name (in the note) is thier NPC code if you want to add to NPC Scan.|
-N Wall of text 5 of 6|QID|972810001|N|These all give XP If done pre-90 so the leveling guides have you look for several of them. The ones for the achievement are rare, you will need to skip several of them (since they won't be there) and come back another day. Reset the guide to unmark the skipped steps and start over.|
-N Wall of text 6 of 6|QID|972810001|N|Dispite these showing a yellow "!" in the guide steps, you do not actually accept a quest or see a "!" over the item on the ground.|
+N Lost and Found|QID|972810001|N|This guide is for all of the lost things in Pandaria, not just the ones that give this achievement. There are actually four achiements in the chain for finding 1, 5, 10 and finaly 20 items. There are a total of 28 that can be found that qualify. Most of the items for the achievement are BOA and all are blue quality, except the two recipes(white) and the ancient woodcutter(grey). These items are rare, thus not always there.|
+N Riches of Pandaria|QID|979940001|N|Patch 5.1 brought new achievements. This is a chain of achievements for finding the grey items, each woth ~100g. The achievements are called Treasures of Pandaria - finding 1; Fortune of Pandaria - finding 5; Bounty of Pandaria - finding 10; and lastly, Riches of Pandaria - finding all 18. These items are common and will always be available.  Some of them move around in the general location. others are a static spawn.|
+N Wall of text 2 of 6|QID|972810001|N|If you are only interested in the Lost and Found achievement set the guide to RANK 1. RAND 2 includes the items for Riches of Pandaria achievement as well. These items mostly sell for 100+gold.  The items that give little gold or xp, nor are part of any achievement should only be included if you set it to RANK 3.|
+N Basic "how it works"|QID|972810001|N|These use hidden "flag" quests so that the items will only be available once per character. If you move while opening the container (including being attacked) you may lose the item, and so far GMs have not been replacing, Also, if your inventory is full, no item. You do get the achievement even if you don't get the item. If you are using this addon, you do not need the scripts on Wowhead to tell you which ones you haven't yet found, as that is what this does, by checking off the steps as you find them.|
+N Some require NPC Interaction|QID|972810001|N|Some of the items require you talk to NPC's to get the item (instead of groundspanws). There are target buttons for those steps, the number beside thier name (in the note) is thier NPC code if you want to add to NPC Scan.|
+N Some may already be completed|QID|972810001|N|These all give XP If done pre-90 so the leveling guides have you look for several (most) of them. The ones for the achievement are rare, you will need to manually skip several of them (since they won't be there) and come back another day. Reset the guide to unmark the skipped steps and start over.|
+N One Last Note|QID|972810001|N|Dispite these showing a yellow "!" in the guide steps, you do not actually accept a quest or see a "!" over the item on the ground.|
 
-L Ancient Pandaren Fishing Charm|QID|31284|L|85973|RANK|1|T|Ghostly Pandaren Fisherman|M|46.8,24.6|Z|Valley of the Four Winds|N|Talk to 'Ghostly Pandaren Fisherman'[64004](possibly beside any lake}.|
-L Ancient Pandaren Woodcutter|QID|31292|L|86079|RANK|1|T|Ghostly Pandaren Craftsman|M|45.4,38.2|Z|Valley of the Four Winds|N|Talk to 'Ghostly Pandaren Craftsman'[64191]He wanders thru Halfhill and into the Heartland.|
+A Ancient Pandaren Fishing Charm|QID|31284|L|85973|RANK|1|T|Ghostly Pandaren Fisherman|M|46.8,24.6|Z|Valley of the Four Winds|N|Talk to 'Ghostly Pandaren Fisherman'[64004](possibly beside any lake}.|
+A Ancient Pandaren Woodcutter|QID|31292|L|86079|RANK|1|T|Ghostly Pandaren Craftsman|M|45.4,38.2|Z|Valley of the Four Winds|N|Talk to 'Ghostly Pandaren Craftsman'[64191]He wanders thru Halfhill and into the Heartland.|
 A Cache of Pilfered Goods|QID|31406|RANK|1|M|43.54,35.16|Z|Valley of the Four Winds|N|Virmin cave on Mudclaw Farm. Loot (ilvl 419 BoP neck) will be specific to your current spec.|
 
 A Forgotten Lockbox|QID|31867|RANK|3|M|54.71,71.41|Z|The Veiled Stair|N|2nd Floor of the Inn.|
@@ -33,8 +38,8 @@ A Hammer of Folly|QID|31428|L|86473|RANK|2|M|74.98,76.56|Z|The Veiled Stair|N|To
 
 A Chest of Supplies|QID|31864|RANK|2|M|24.65,53.29|Z|The Jade Forest|N|Between Jade Forest/Valley of the 4 winds, by overturned boat, below the Veiled Stair/Ancient Passage Waterfall.|
 A Pandaren Ritual Stone|QID|31404|L|86216|RANK|2|M|23,35|Z|The Jade Forest|N|Island in Lake Kittitata NW Camp Nooka Nooka.|
-A Ancient Pandaren Tea Pot|QID|31400|L|85780|RANK|2|M|26.2,32.3|Z|The Jade Forest|N|On table, Shrine of the Moon (currently phasing bug. Horde cannot get this once they kill Capt. Doren).|
-A Lucky Pandaren Coin|QID|31401|L|85781|RANK|2|M|31.97,27.76|Z|The Jade Forest|N|In fountain, Shrine of the Sun.|
+A Ancient Pandaren Tea Pot|QID|31400|L|85780|RANK|2|M|26.2,32.3|Z|The Jade Forest|N|On table, Shrine of the Moon.|
+A Lucky Pandaren Coin|QID|31401|L|85781|RANK|2|M|31,27|Z|The Jade Forest|N|In fountain, Shrine of the Sun.|
 A Wodin's Mantid Shanker|QID|31397|L|85776|RANK|1|M|39.4,7.3|Z|The Jade Forest|N|Owen's Wishing Well. Terrace of Ten Thunders.|
 A Hammer of Ten Thunders|QID|31403|L|86198|RANK|1|M|43,11.6;41.8,17.6|Z|The Jade Forest|N|Seat of the Spirit Walker, Terrace of Ten Thunders.|
 A Stash of Gems|QID|31866|L|RANK|3|M|62.47,27.55|Z|The Jade Forest|N|Cave in Windward Isle - Shadowfae Madcap, spawn point, I wouldn't recommend this one pre lvl 90.|
@@ -66,7 +71,7 @@ A Malik's Stalwart Spear|QID|31430|L|86520|RANK|1|M|48.7,30|Z|Dread Wastes|N|Clu
 A Lucid Amulet of the Agile Mind|QID|31431|L|86521|RANK|1|M|33,30.07|Z|Dread Wastes|N|Heart of Fear.|
 
 A Amber Encased Moth|QID|31426|L|86472|RANK|2|M|65.82,86.06|Z|Townlong Steppes|N|Ambermarsh.|
-A Fragment of Dread|QID|31423|L|86516|RANK|2|M|56.55,65.02|Z|Townlong Steppes|N|Many places in Niuzao Catacombs.|
+A Fragment of Dread|QID|31423|L|86516|RANK|2|M|32,61|Z|Townlong Steppes|N|Coordinates are to entrance, it can spawn many places in Niuzao Catacombs (and will move each time it's looted).|
 A Hardened Sap of Kri'vess|QID|31424|L|86517|RANK|2|M|57.4,56.6|Z|Townlong Steppes|N|Among roots of giant tree at Kiri'vess - many coords reported. So look all around the tree.|
 A Yaungol Fire Carrier|QID|31425|L|86518|RANK|1|M|66.3,44.7;66.8,48|Z|Townlong Steppes|N|Fire Camp Osul - on a brazier.|
 A Abandoned Crate of Goods|QID|31427|RANK|2|M|62.76,34.08|Z|Townlong Steppes|N|Inside burning tent just west of Serpent's Spine wall.|
@@ -89,5 +94,3 @@ N Keep resetting|QID|972810001|N|until you find them all (or give up). In the en
 
 ]]
 end)
-
-

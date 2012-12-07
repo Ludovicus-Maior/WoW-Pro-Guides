@@ -52,13 +52,17 @@ function WoWPro:LoadGuide(guideID)
     -- If we have upgraded, wipe the old information and re-create
 	if WoWProCharDB.Guide[GID] and WoWPro.Version ~= WoWProCharDB.Guide[GID].Version then
 	    WoWPro:Print("Resetting Guide "..GID.." due to upgrade.  Forgetting skipped steps.")
-	    WoWProCharDB.Guide[GID] = nil
+	    WoWProCharDB.Guide[GID].completion =  {}
+	    WoWProCharDB.Guide[GID].skipped =  {}
+	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
     end
     
     -- If we resetting guide, wipe the old information and re-create
 	if WoWPro.Resetting then
 	    WoWPro:Print("Manual reset of Guide "..GID..".")
-	    WoWProCharDB.Guide[GID] = nil
+	    WoWProCharDB.Guide[GID].completion =  {}
+	    WoWProCharDB.Guide[GID].skipped =  {}
+	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
     end
 	    
 	-- Creating a new entry if this guide does not have one
@@ -186,6 +190,25 @@ function WoWPro:UpdateGuide(offset)
 	end
 end	
 
+local Rep2IdAndClass
+Rep2IdAndClass = {  ["hated"] = {1,false},
+                    ["hostile"] = {2,false},
+                    ["unfriendly"] = {3,false},
+                    ["neutral"] = {4,false},
+                    ["friendly"] = {5,false},
+                    ["honored"] = {6,false},
+                    ["revered"] = {7,false},
+                    ["exalted"] = {8,false},
+                    ["hated"] = {1,false},
+                    ["stranger"] = {0,true},
+                    ["acquaintance"] = {1,true},
+                    ["buddy"] = {2,true},
+                    ["friend"] = {3,true},
+                    ["good friend"] = {4,true},
+                    ["best friend"] = {5,true},
+}
+
+			
 -- Next Step --    			
 -- Determines the next active step --
 function WoWPro:NextStep(k,i)
@@ -256,6 +279,7 @@ function WoWPro:NextStep(k,i)
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repID,repmax = string.split("-",temprep)
 			if repmax== nil then repmax = repID end
+			local Friendship = false;
 			-- Canonicalize the case
 			rep = string.lower(rep)
 			factionIndex = tonumber(factionIndex)
@@ -263,49 +287,38 @@ function WoWPro:NextStep(k,i)
 			repmax = string.lower(repmax) 
 			replvl = tonumber(replvl) or 0
 
-            -- STD Reps
-			if repID == 'hated' then repID = 1 end
-			if repID == 'hostile' then repID = 2 end
-			if repID == 'unfriendly' then repID = 3 end
-			if repID == 'neutral' then repID = 4 end
-			if repID == 'friendly' then repID = 5 end
-			if repID == 'honored' then repID = 6 end
-			if repID == 'revered' then repID = 7 end
-			if repID == 'exalted' then repID = 8 end
-			-- Friendships
-			if repID == 'stranger' then repID = 0 end
-			if repID == 'acquaintance' then repID = 1 end
-			if repID == 'buddy' then repID = 2 end
-			if repID == 'friend' then repID = 3 end
-			if repID == 'good friend' then repID = 4 end
-			if repID == 'best friend' then repID = 5 end
 
-            -- STD Reps
-			if repmax == 'hated' then repmax = 1
-			elseif repmax == 'hostile' then repmax = 2
-			elseif repmax == 'unfriendly' then repmax = 3
-			elseif repmax == 'neutral' then repmax = 4
-			elseif repmax == 'friendly' then repmax = 5
-			elseif repmax == 'honored' then repmax = 6
-			elseif repmax == 'revered' then repmax = 7
-			elseif repmax == 'exalted' then repmax = 8
-			-- Friendships
-			elseif repmax == 'stranger' then repmax = 0
-			elseif repmax == 'acquaintance' then repmax = 1
-			elseif repmax == 'buddy' then repmax = 2
-			elseif repmax == 'friend' then repmax = 3
-			elseif repmax == 'good friend' then repmax = 4
-			elseif repmax == 'best friend' then repmax = 5
-			else repmax = 8 end
+            -- Extract lower bound rep
+            Friendship = Rep2IdAndClass[repID][2]
+            repID = Rep2IdAndClass[repID][1]
+            if not repID then
+                self:Print("Bad lower REP value of [%s] found.  Defaulting to 1.",temprep)
+                repID = 0
+            end
+
+            -- Extract upper bound rep
+            repmax = Rep2IdAndClass[repmax][1]
+            if not repmax then
+                self:Print("Bad upper REP value of [%s] found.  Defaulting to 5.",temprep)
+                repmax = 5
+            end
+
             
 			skip = true --reputation steps skipped by default
 			
-			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith,
-			canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
-			local friendID, friendRep, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh
-			if isChild == 1 then
-			    friendID, standingId, friendMaxRep, friendText, friendTexture, friendTextLevel, friendThresh = GetFriendshipReputationByID(factionIndex);
+			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
+			local friendID, friendRep, friendMaxRep, friendName, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold
+			if Friendship then
+			    friendID, friendRep, friendMaxRep, name, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(factionIndex);
+			    friendTextLevel = string.lower(friendTextLevel)
+			    standingId = Rep2IdAndClass[friendTextLevel][1]
+			    earnedValue = friendRep - friendThreshold
+			    self:Print("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
+			else
+			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
 			end
+			self:dbp("Rep %s Friendship=%s: repID %s <= standingId %s and repmax %s >= standingId %s and Replevel %s == 0",
+			            name,tostring(Friendship),tostring(repID) , tostring(standingId), tostring(repmax) , tostring(standingId), tostring(replvl))
 			if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
 			end
@@ -314,7 +327,7 @@ function WoWPro:NextStep(k,i)
 				if (repID > standingId) then 
 					skip = false 
 				end
-				if (repID == standingId) and (earnedValue <= replvl) then
+				if (repID == standingId) and (earnedValue >= replvl) then
                     skip = false
 				end
 			end
@@ -464,7 +477,7 @@ function WoWPro:PopulateQuestLog()
 	for QID, questInfo in pairs(WoWPro.QuestLog) do
 		if not WoWPro.oldQuests[QID] then 
 			WoWPro.newQuest = QID 
-			WoWPro:dbp("New Quest: "..WoWPro.QuestLog[QID].title)
+			WoWPro:dbp("New Quest %d: [%s]",QID,WoWPro.QuestLog[QID].title)
 		end
 	end
 	
@@ -486,7 +499,12 @@ end
 
 -- Cached version of function
 function WoWPro:IsQuestFlaggedCompleted(qid,force)
+    if qid == "*" then return nil; end
     local QID = tonumber(qid)
+    if not QID then
+        self:Print("Guide %s has an bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
+        return false;
+    end
     if not WoWProCharDB.completedQIDs then
         WoWProCharDB.completedQIDs = {}
     end
