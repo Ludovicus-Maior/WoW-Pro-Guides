@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2012-12-07 02:30
+-- Who: Ludovicus Maior
+-- Log: Changed }N} to |N| in two places
+
+-- URL: http://wow-pro.com/node/3508/revisions/25239/view
 -- Date: 2012-12-06 11:45
 -- Who: Emmaleah
 -- Log: RC2 - many changes from my Emma. Ludo. and Tepes playing thru RC1 12/1 to 12/5 
@@ -210,9 +215,9 @@ C Fatty Goatsteak|QID|30332|M|30.12,44.69|US|N|Kill goats, don't but your back t
 
 ;do quests - hozen area
 A A Dish for Sho|QID|30408|M|29.5,30.6|REP|Sho;1278;stranger-good friend|N|To Sho - Eternal Blossom Fish - Lovely Apple, Check this off manually if you have no food or treasure for her.|
-A Mission: Culling the Vermin|QID|31529|REP|Sho;1278;Acquaintance;4200|M|29.5,30.6}N}From Sho. This is actually offered halfway thru acquaintance level, you will have to manually check it off before then.|;12600
+A Mission: Culling the Vermin|QID|31529|REP|Sho;1278;Acquaintance;4200|M|29.5,30.6|N|From Sho. This is actually offered halfway thru acquaintance level, you will have to manually check it off before then.|;12600
 A Mission: Aerial Threat|QID|31530|REP|Sho;1278;Friend;4400|M|29.5,30.6|N|From Sho. This is actually offered partway thru friend, you will have to manually check it off before then.|;friend+4400-4800?)
-A Mission: Predator of the Cliffs|QID|31531|REP|Sho;1278;Good Friend;1700|M|29.5,30.6}N}From Sho.|;good friend +1700?
+A Mission: Predator of the Cliffs|QID|31531|REP|Sho;1278;Good Friend;1700|M|29.5,30.6|N|From Sho.|;good friend +1700?
 C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|S|N|This can be a ground spawn or drop from the mobs.|
 C Authentic Valley Stir Fry|QID|30471|M|31.93,23.50|S|N|This can be a ground spawn or drop from the mobs.|
 C Yak Statuette|QID|30473|M|34,24|S|N|This can be a ground spawn or drop from the mobs.|

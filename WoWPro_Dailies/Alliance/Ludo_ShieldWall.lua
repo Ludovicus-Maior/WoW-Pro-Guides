@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2012-12-06 23:39
+-- Who: Ludovicus Maior
+-- Log: Played "The Voice of Gods" questline.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25234/view
 -- Date: 2012-12-03 00:07
 -- Who: Ludovicus Maior
 -- Log: Played Bilgewater Operations
@@ -54,19 +59,18 @@ A Stirred, Not Shaken|QID|32426|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|F
 T Stirred, Not Shaken|QID|32426|M|23.94,81.62|Z|Bizmo's Brawlpub@DeeprunTram|N|From Professor Kilt.|
 
 ; The Voice of Gods
-A He's In Deep|QID|32382|PRE|32381|M|89.67,32.79|REP|Operation: Shieldwall;1376;friendly;5780|N|From Admiral Taylor, at the end of Friendly|
-R Talk to Fennie|QID|32382|M||N|Talk to Fennie to get dropped off|
+A He's In Deep|QID|32382|PRE|32381|M|89.67,32.79|REP|Operation: Shieldwall;1376;friendly;5250|N|From Admiral Taylor, at the end of Friendly|
+R Fire Camp Bataar|QID|32382|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 U Grummle Disguise|QID|32382|U|92950|N|Put on the funny smelling disguise.|
-T He's In Deep|QID|32382|M||N|To Agent Connelly aka Cousin Goottooth|
-A Bugging Out|QID|32383|PRE|32382|M||N|From Agent Connelly aka Cousin Goottooth|
-C Bug the Big Tent|QID|32383|M||QO|Large Tent bugged: 1/1|U|92950|
-C Bug the Small Tents|QID|32383|M||QO|Small Tents bugged: 1/1|U|92950|
-C Bug the Supplies|QID|32383|M||QO|Supplies Bugged: 1/1|U|92950|
-T Bugging Out|QID|32383|PRE|32382|M||N|To Agent Connelly aka Cousin Goottooth|
-A He Won't Even Miss It|QID|32397|PRE|32383|M||N|To Agent Connelly aka Cousin Goottooth|
-C Tap on a Yak|QID|32397|M||QO|Garrosh distracted: 1/1|N|Click on a Yak and distract Garrosh.|
-C Swipe it!|QID|32397|M||L|92804|N|Go to the take and click on the book!|
-T He Won't Even Miss It|QID|32397|PRE|32383|M||N|To Agent Connelly aka Cousin Goottooth|
+T He's In Deep|QID|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka Cousin Goottooth|
+A Bugging Out|QID|32383|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|From Agent Connelly aka Cousin Goottooth|
+A He Won't Even Miss It|QID|32397|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka Cousin Goottooth|
+C Bug the Supplies|QID|32383|M|58.19,85.05|Z|Kun-Lai Summit|QO|Supplies Bugged: 1/1|U|92950|N|Sneak in and click on statue near the supplies.  Watch out for Nero and Garrosh.|
+C Bug the Small Tents|QID|32383|M|58.10,84.34;58.06,84.73|Z|Kun-Lai Summit|QO|Small Tents bugged: 1/1|U|92950|N|Look between the small tents and click on the statue outside.  Watch out for Nero and Garrosh.|
+C Bug the Big Tent|QID|32383|M|58.38,83.99|Z|Kun-Lai Summit|QO|Large Tent bugged: 1/1|U|92950|N|Go back to the other enterance and go to the big tent and click on the statue inside.  Watch out for Nero and Garrosh.|
+C Swipe it!|QID|32397|M|58.23,84.23|Z|Kun-Lai Summit|L|92804|N|Tap on a Yak(s) until the coast is clear and go to the table and click on the book!|
+T Bugging Out|QID|32383|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka Cousin Goottooth|
+T He Won't Even Miss It|QID|32397|PRE|32383|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka Cousin Goottooth|
 
 ; Jaina's Hope
 
