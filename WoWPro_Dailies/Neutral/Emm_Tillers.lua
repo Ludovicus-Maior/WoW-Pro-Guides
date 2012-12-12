@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2012-12-10 19:59
+-- Who: Emmaleah
+-- Log: Updates to final quest chain - corrected QID for The Old Map, add |NC|'s
+
+-- URL: http://wow-pro.com/node/3508/revisions/25244/view
 -- Date: 2012-12-09 01:46
 -- Who: Emmaleah
 -- Log: fix coords on legend chief/order with simian sabatage
@@ -464,19 +469,19 @@ C A Second Hand|QID|30534|N|The only advantage to which friend to pick is so tha
 T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
 
 ;Fish's one time chain - requires exalted with tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)I don't know how to filter for requires the ach? can you put multiple REP tags in?
-K Enormous Cattail Grouper|QID|31382|M|44.52, 22.76|REP|The Tillers;1272;exalted|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|T|Enormous Cattail Grouper|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
-U Old Map|QID|31382|U|86404|N|Click on the map to start a quest.|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|
-A The Old Map|QID|31382|PRE|30529|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm.|REP|The Tillers;1272;exalted|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|
-T The Old Map|QID|31382|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
-A Just A Folk Story|QID|31313|PRE|31382|M|41.6,30|N|From Fish Fellreed.|
-C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|QO|Speak to Stonecarver Mac: 1/1|
-C Talk to Old Man Whitewhiskers|QID|31313|M|54.6,47|QO|Speak to Old Man Whitewhiskers: 1/1|N|He is upstairs.|
-C Talk to Grainsorter Pei|QID|31313|M|54.2,44.4|QO|Speak to Grainsorter Pei: 1/1|
-C Talk to Mama Mn|QID|31313|M|56.2,45.2|QO|Speak to Mama Min: 1/1|
+K Enormous Cattail Grouper|QID|31312|M|44.52, 22.76|REP|The Tillers;1272;exalted|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|T|Enormous Cattail Grouper|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
+U Old Map|QID|31312|U|86404|N|Click on the map to start a quest.|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|
+A The Old Map|QID|31312|PRE|30529|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm.|REP|The Tillers;1272;exalted|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|
+T The Old Map|QID|31312|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
+A Just A Folk Story|QID|31313|PRE|31312|M|41.6,30|N|From Fish Fellreed.|
+C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|NC|QO|Speak to Stonecarver Mac: 1/1|
+C Talk to Old Man Whitewhiskers|QID|31313|M|54.6,47|NC|QO|Speak to Old Man Whitewhiskers: 1/1|N|He is upstairs.|
+C Talk to Grainsorter Pei|QID|31313|M|54.2,44.4|NC|QO|Speak to Grainsorter Pei: 1/1|
+C Talk to Mama Mn|QID|31313|M|56.2,45.2|NC|QO|Speak to Mama Min: 1/1|N|She is inside the house.|
 T Just a Folk Story|QID|31313|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
 A Old Man Thistle's Treasure|QID|31314|PRE|31313|M|41.6,30|N|From Fish Fellreed.|
-C Old Man Thistle's Treasure|QID|31314|M|34.9,19.2|QO|Find the cave entrance: 1/1|N|Click to remove the rubble, you should get discover credit.|
-C Old Man Thistle's Treasure|QID|31314|M|34.9,19.2|QO|Find Old Man Thistle's Treasure.|N|Dot is at the cave entrance,(need to get coords for the treasure.)Stealth or kill your way to the end of the cave where a bigger spider and the treasure awaits.|
+C Old Man Thistle's Treasure|QID|31314|M|34.9,19.2|NC|QO|Find the cave entrance: 1/1|N|Click to remove the rubble, you should get discover credit.|
+C Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|QO|Find Old Man Thistle's Treasure.|N|Stealth or kill your way to the end of the cave where a bigger spider and the treasure awaits.|
 T Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|N|To Hidden Treasure.|
 A The Heartland Legacy|QID|31315|PRE|31314|M|31.4,53.4|N|From Hidden Treasure. Often the exit (entrance/rockfall) is bugged, so be ready to hearth out (or die).|
 T The Heartland Legacy|QID|31315|N|To Seedkeeper Shing Sing, inside a cave in Halfhill, (who knew there was a cave here...} Her seed vault is to the left of Stonecarver Mac's house, hidden behind some bushes.|
