@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
+-- Date: 2012-12-13 06:52
+-- Who: Emmaleah
+-- Log: made a path for The Defiant, added |CS| to The Defiant, Valley of the Emperors, and Amber. Added notes to Into(Brewfathers), First Quest, (for some reason I could not get it with my hunter) and about the trapped floor in Tomb of Conquest.
+
+-- URL: http://wow-pro.com/node/3506/revisions/25174/view
 -- Date: 2012-10-28 05:17
 -- Who: Emmaleah
 
@@ -68,26 +73,26 @@
 WoWPro.Achievements:RegisterGuide('Lorewalkers','MoP Zones', 'Lorewalkers', 'Reputation', 'Mists of Pandaria', 'Community','Neutral', function()
 return [[
 
-N Lorewalkers|QID|31367|N|Lorewalkers faction is earned by visiting various points of interest around Pandaria.  This guide assumes you start in your factions city in Vale of Eternal Blossoms and will take you to all of those places. It also assumes you are level 90 and can fly.  Some steps may already be checked off.  They are points of interest that you visited while leveling. The first stop in a new zone I have also included the zone name to help find the green dot.|
-
-A The Lorewalkers|QID|31367|FACTION|Alliance|M|85.6,60.4|Z|Vale of Eternal Blossoms|N|From Scrollmaker Resshi on the ground floor.|
-C The Lorewalkers|QID|31367|FACTION|Alliance|NC|M|84.8,60.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho.|
+N Lorewalkers|QID|31367|N|Lorewalkers faction is earned by visiting various points of interest around Pandaria.  This guide assumes you start in your factions city in Vale of Eternal Blossoms and will take you to all of those places. It also assumes you are level 90 and have trained flying in Pandaria.  Some steps may already be checked off.  They are points of interest that you visited while leveling. The first stop in a new zone I have also included the zone name to help find the green dot.|
+N Brewfathers|QID|31367|N|This guide will also guide you to the spots for the Ledgend of the Brewfathers Achievement.  While it is unrelated, it is similar in that it requires flying to points of interest that are along the same route as the Lorewalker points of interest, so you may as well do it.
+A The Lorewalkers|QID|31367|LEAD|31015|FACTION|Alliance|M|85.6,60.4|Z|Vale of Eternal Blossoms|N|From Scrollmaker Resshi on the ground floor. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
+C The Lorewalkers|QID|31367|FACTION|Alliance|NC|M|84.8,60.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
 T The Lorewalkers|QID|31367|FACTION|Alliance|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
 
-A The Lorewalkers|QID|31368|FACTION|Horde|M|62.4,21.6|Z|Vale of Eternal Blossoms|N|From Lena Stonebrush.|
-C The Lorewalkers|QID|31368|FACTION|Horde|NC|M|61.8,24.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho.|
+A The Lorewalkers|QID|31368|LEAD|31015|FACTION|Horde|M|62.4,21.6|Z|Vale of Eternal Blossoms|N|From Lena Stonebrush. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
+C The Lorewalkers|QID|31368|FACTION|Horde|NC|M|61.8,24.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
 T The Lorewalkers|QID|31368|FACTION|Horde|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
 
 A Your Private Collection|QID|31015|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|From Lorewalker Cho.|
 C Clean off the Bookshelf|QID|31015|NC|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|When standing at the bottom of the stairs, facing Cho, the bookcase is to your left, do this before you turn in the others as it only gives faction at honored or lower|;which is why I put the accept the quest from the item steps after this
 T Your Private Collection|QID|31015|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|From Lorewalker Cho.|
 
-F The Defiant (Kun-Lai)|QID|9767160002|M|77.55, 95.33|Z|Kun-Lai Summit|ACH|6716;2|N|Between a Saurok and a Hard Place.  This one is inside the Ancient Passage, in a room called 'Deep Rookery'.|
-F Role Call |QID|968460004|M|74.48, 83.55|Z|Kun-Lai Summit|ACH|6846;4|N|Fish Tales|
+F The Defiant (Kun-Lai)|QID|9767160002|M|77.55, 95.33|Z|Kun-Lai Summit|ACH|6716;2|N|Between a Saurok and a Hard Place.  This one is inside the Ancient Passage, in a room called 'Deep Rookery'. Its actually easiest to get to from an area in 'The Veiled Stair' called, 'The Secret Aerie'.|
+F Role Call |QID|968460004|M|58.07,13.03;52.77,15.9;47.78,13.21;54.97,15.71|CS|Z|The Veiled Stair|ACH|6846;4|N|Fish Tales|
 F Yaungoil |QID|96847003|M|71.72, 63.02|Z|Kun-Lai Summit|ACH|6847;03|N|The Song of the Yaungol. The 'Weapons Rack' containing the lost 'Sturdy Yaungol Spear' also spawns in this camp.|
 F The Emperor's Burden - Part 6 |QID|968550006|M|67.76, 48.33|Z|Kun-Lai Summit|ACH|6855;6|N|The Seven Burdens of Shaohao.|
 F Victory in Kun-Lai |QID|968580005|M|63.04, 40.82|Z|Kun-Lai Summit|ACH|6858;5|N|What is Worth Fighting For.|
-F Valley of the Emperors|QID|967540001|M|53.06,46.44;50.60, 48.05|Z|Kun-Lai Summit|ACH|6754;1|N|The Dark Heart of the Mogu.  Inside the first room in 'Tomb of the Conqurors. First set of coordubates is tomb entrance.|
+F Valley of the Emperors|QID|967540001|M|53.06,46.44;50.60, 48.05|CS|Z|Kun-Lai Summit|ACH|6754;1|N|The Dark Heart of the Mogu.  Inside the first room in 'Tomb of the Conqurors. First set of coordubates is tomb entrance. Don't forget the floor is trapped.|
 F The Emperor's Burden - Part 7 |QID|968550007|M|40.90, 42.50|Z|Kun-Lai Summit|ACH|6855;7|N|The Seven Burdens of Shaohao.|
 F The Emperor's Burden - Part 2 |QID|968550002|M|43.82, 51.19|Z|Kun-Lai Summit|ACH|6855;2|N|The Seven Burdens of Shaohao.|
 F Ren Yun the Blind |QID|972300003|M|44.70, 52.37|Z|Kun-Lai Summit|ACH|7230;3|N|Legend of the Brewfathers, there may be a lost recipe {rare spawn} leaned against the shrine.|
@@ -100,7 +105,7 @@ F Trapped in a Strange Land (Townlong)|QID|968470004|M|84.08, 72.86|Z|Townlong S
 F Dominance |QID|968470002|M|65.50, 50.10|Z|Townlong Steppes|ACH|6847;2|N|The Song of the Yaungol.|
 F The Emperor's Burden - Part 5 |QID|968550005|M|37.74, 62.91|Z|Townlong Steppes|ACH|6855;5|N|The Seven Burdens of Shaohao.|
 
-F Amber (Dread Wastes)|QID|968570003|M|53.56, 16.02;52.52, 10.06|Z|Dread Wastes|ACH|6857;3|N|Heart of the Mantid Swarm.  This is located inside Amber Vault.  First set of coordinates is the entrance.|
+F Amber (Dread Wastes)|QID|968570003|M|53.56, 16.02;52.52, 10.06|CS|Z|Dread Wastes|ACH|6857;3|N|Heart of the Mantid Swarm.  This is located inside Amber Vault.  First set of coordinates is the entrance.|
 F Cycle of the Mantid|QID|968570001|M|48.38, 32.85|Z|Dread Wastes|ACH|6857;1|N|Heart of the Mantid Swarm.|
 F The Empress |QID|968570004|M|35.53,32.61|Z|Dread Wastes|ACH|6857;4|N|Heart of the Mantid Swarm.|
 F Mantid Society |QID|968570002|M|59.90, 54.70|Z|Dread Wastes|ACH|6857;2|N|Heart of the Mantid Swarm.|
