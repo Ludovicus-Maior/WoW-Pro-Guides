@@ -229,7 +229,7 @@ function WoWPro:NextStep(k,i)
 			skip = true --Optional steps default to skipped --
 			
 			-- Checking Use Items --
-			if WoWPro.use[k] then
+			if WoWPro.use and WoWPro.use[k] then
 				if GetItemCount(WoWPro.use[k]) >= 1 then 
 					skip = false -- If the optional quest has a use item and it's in the bag, it's NOT skipped --
 				end
@@ -238,7 +238,7 @@ function WoWPro:NextStep(k,i)
 		end
 	
 		-- Skipping profession quests if their requirements aren't met --
-		if WoWPro.prof[k] and not skip then
+		if WoWPro.prof and WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
 			proflvl = tonumber(proflvl) or 1
 			profmaxlvl = tonumber(profmaxlvl) or 700
@@ -274,7 +274,7 @@ function WoWPro:NextStep(k,i)
         
         
 		-- Skipping reputation quests if their requirements are met --
-		if WoWPro.rep[k] and not skip then
+		if WoWPro.rep and WoWPro.rep[k] and not skip then
 			local rep, factionIndex, temprep, replvl = string.split(";",WoWPro.rep[k])
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repID,repmax = string.split("-",temprep)
@@ -314,10 +314,10 @@ function WoWPro:NextStep(k,i)
 			    standingId = Rep2IdAndClass[friendTextLevel][1]
 			    earnedValue = friendRep - friendThreshold
 			    bottomValue = 0
-			    self:Print("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
+			    self:dbp("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
 			else
 			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
-                self:Print("Faction %s: standing %d, earned %d, bottomValue %d",name,standingId,earnedValue,bottomValue)
+                self:dbp("Faction %s: standing %d, earned %d, bottomValue %d",name,standingId,earnedValue,bottomValue)
                 earnedValue = earnedValue - bottomValue
 			end
 
@@ -326,11 +326,11 @@ function WoWPro:NextStep(k,i)
 			end
 			if (replvl > 0) then
 				if (repID < standingId) then
-				    self:Print("** [%s] Spec %s repID %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repID), tostring(standingId))
+				    self:dbp("** [%s] Spec %s repID %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repID), tostring(standingId))
 					skip = false 
 				end
 				if (repID == standingId) and (earnedValue >= replvl) then
-				    self:Print("** [%s] Spec %s earnedValue %d >= replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+				    self:dbp("** [%s] Spec %s earnedValue %d >= replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
                     skip = false
 				end
 			end
@@ -341,9 +341,46 @@ function WoWPro:NextStep(k,i)
 			end
         end
         
+        -- Skipping Achievements if completed  --
+    	if WoWPro.ach and WoWPro.ach[k] then
+    		local achnum, achitem, achflip = string.split(";",WoWPro.ach[k])
+    		achflip = WoWPro.toboolean(achflip) 
+    		local count = GetAchievementNumCriteria(achnum)
+    		if count == 0 or not achitem then
+    			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
+    			if achflip then Completed = not Completed end
+                if Completed then
+				    WoWPro.CompleteStep(k)
+				    skip = true
+			    end 
+    		elseif (count > 0) and achitem then
+    			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+    			if achflip then completed = not completed end
+			    if completed then
+				    WoWPro.CompleteStep(k)
+				    skip = true
+			    end
+			else
+			    WoWPro:Print("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
+    		end
+    	end
+    	
+    	-- Skipping spells if known
+    	if WoWPro.spell and WoWPro.spell[k] then
+    	    local spellNick,spellID,spellFlip = string.split(";",WoWPro.spell[k])
+    	    local spellName = GetSpellInfo(tonumber(spellID))
+    	    local spellKnown = GetSpellInfo(spellName)
+    	    spellFlip = WoWPro.toboolean(spellFlip)
+    	    if spellFlip then spellKnown = not spellKnown end
+    	    if spellKnown then
+    	        WoWPro.CompleteStep(k)
+				skip = true
+				WoWPro:dbp("Skipping because spell [%s] is known=%s",spellName, tostring(not not spellKnown))
+			end
+    	end
         
 		-- Skipping any quests with a greater completionist rank than the setting allows --
-		if WoWPro.rank[k] then
+		if WoWPro.rank and WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
 			    WoWProCharDB.Guide[GID].skipped[k] = true
 			    skip = true
