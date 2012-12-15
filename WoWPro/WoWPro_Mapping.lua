@@ -288,10 +288,13 @@ function WoWPro:ValidZone(zone)
 	if zone then
 	    if tonumber(zone) then
 	        -- Using a numeric zone ID
-            return "NumericZone"
+            return tostring(tonumber(zone))
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
 	        return WoWPro.Zone2MapID[zone].mapID
+	    elseif zone:match("/") then
+	        local nzone , floor = string.split("/",zone)
+	        return WoWPro:ValidZone(nzone)
 	    end
     end    
     return false
