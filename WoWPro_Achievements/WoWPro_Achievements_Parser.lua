@@ -49,25 +49,6 @@ function WoWPro.Achievements:NextStep(k, skip)
 			skip = false -- If the optional quest is in the quest log, it's NOT skipped --
 		end
 	end
-	
-	-- Complete Achievements step if completed  --
-	if WoWPro.ach[k] then
-		local achnum, achitem = string.split(";",WoWPro.ach[k])
-		local count = GetAchievementNumCriteria(achnum)
-		if not achitem then 
-			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
-			if Completed then
-				WoWPro.CompleteStep(k)
-				skip = true
-			end 
-		else 
-			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
-			if completed then
-				WoWPro.CompleteStep(k)
-				skip = true
-			end 
-		end 
-	end
 				
 	return skip
 end

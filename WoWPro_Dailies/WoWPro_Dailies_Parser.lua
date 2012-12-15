@@ -17,6 +17,7 @@ WoWPro.Dailies.actiontypes = {
 	B = "Interface\\Icons\\INV_Misc_Coin_01",
 	b = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	U = "Interface\\Icons\\INV_Misc_Bag_08",
+	L = "Interface\\Icons\\Spell_ChargePositive",
 	l = "Interface\\Icons\\INV_Misc_Bag_08",
 	r = "Interface\\Icons\\Ability_Repair"
 }
@@ -34,6 +35,7 @@ WoWPro.Dailies.actionlabels = {
 	B = "Buy",
 	b = "Boat or Zeppelin",
 	U = "Use",
+	L = "Level",
 	l = "Loot",
 	r = "Repair/Restock"
 }
@@ -125,21 +127,6 @@ function WoWPro.Dailies:NextStep(k, skip)
 		end
 	end
 
-	-- Skipping Achievements if completed  --
-	if WoWPro.ach[k] then
-		local achnum, achitem = string.split(";",WoWPro.ach[k])
-		local count = GetAchievementNumCriteria(achnum)
-		if achitem == nil then 
-			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
-			if Completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true end
-		elseif achitem then
-			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
-			if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true end
-		else
-		    WoWPro:Print("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
-		end 
-	end
-
 	return skip
 end
 
@@ -211,6 +198,7 @@ local function ParseQuests(...)
     			WoWPro.target[i] = text:match("|T|([^|]*)|?")
     			WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
     			WoWPro.prof[i] = text:match("|P|([^|]*)|?")
+    			WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
 				WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
 
 				if WoWPro.ach[i] then
@@ -590,28 +578,30 @@ function WoWPro.Dailies:RowLeftClick(i)
 end
 
 -- Event Response Logic --
-function WoWPro.Dailies:EventHandler(self, event, ...)
-	WoWPro:dbp("Running: Dailies Event Handler")
+function WoWPro.Dailies:EventHandler(frame, event, ...)
+	WoWPro:dbp("Running: Dailies Event Handler on %s",event)
 		
 	-- Lets see what quests the NPC has:
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
         local npcQuests = {GetGossipAvailableQuests()};
+        local npcCount = GetNumGossipAvailableQuests();
         local index = 0
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index  
         for _,item in pairs(npcQuests) do
             if type(item) == "string" then
-                index = index + 1      
+                index = index + 1
+                WoWPro:dbp("ZZZT: GOSSIP_SHOW index %d, considering [%s]",index,item)
 		        if WoWPro.action[qidx] == "A" and (item == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
 		            if  WoWPro.QID[qidx] == "*" then WoWPro:dbp("ZZZT %d: Inhale %s",qidx,item) end
 		            SelectGossipAvailableQuest(index)
+		            if npcCount == 1 and WoWPro.action[qidx] == "A" and WoWPro.QID[qidx] == "*" then
+		                -- We accepted the last quest.
+		                WoWPro:dbp("ZZZT: Suck done, finishing %d",qidx)
+                        WoWPro.CompleteStep(qidx)
+                    end
 		            return
 		        end
             end
-        end
-        if WoWPro.action[qidx] == "A" and WoWPro.QID[qidx] == "*" then
-            -- Hmm, no more quests from this NPC and AutoSelect is done, finish the step
-            WoWPro:dbp("ZZZT: Suck done, finishing %d",qidx)
-            WoWPro.CompleteStep(qidx)
         end
         npcQuests =  {GetGossipActiveQuests()};
         index = 0 
@@ -651,11 +641,6 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 		    if  WoWPro.QID[qidx] == "*" then WoWPro:dbp("ZZZT %d: Swallow %s",qidx,questtitle) end
 		    AcceptQuest()
 		end
-		if WoWPro.QID[qidx] == "*" and WoWProCharDB.AutoSelect then
-		    -- OK, now get the next quest.
-		    WoWPro:dbp("ZZZT %d: Accepted [%s], Faking GOSSIP_SHOW",qidx,questtitle)
-		    WoWPro.Dailies:EventHandler("GOSSIP_SHOW")
-		end
     end
 
 
@@ -689,9 +674,15 @@ function WoWPro.Dailies:EventHandler(self, event, ...)
 		WoWPro.Dailies:AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
+	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 		WoWPro:PopulateQuestLog(...)
 		WoWPro.Dailies:AutoCompleteQuestUpdate(...)
 		WoWPro.Dailies:UpdateQuestTracker()
+		if WoWPro.QID[qidx] == "*" and WoWProCharDB.AutoSelect then
+		    -- OK, now get the next quest.
+		    WoWPro:dbp("ZZZT %d Faking GOSSIP_SHOW",qidx)
+		    WoWPro.Dailies:EventHandler(frame,"GOSSIP_SHOW")
+		end
 	end
 end
 
@@ -860,7 +851,7 @@ function WoWPro.Dailies:UpdateQuestTracker()
 		local index = row.index
 		local questtext = WoWPro.questtext[index] 
 		local action = WoWPro.action[index] 
-		if action == "A" then return end
+
 		local lootitem = WoWPro.lootitem[index] 
 		local lootqty = WoWPro.lootqty[index] 
 					if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
@@ -868,6 +859,11 @@ function WoWPro.Dailies:UpdateQuestTracker()
 		-- Setting up quest tracker --
 		row.trackcheck = false
 		local track = ""
+		
+		if action == "A" then
+		    row.track:SetText(track)
+		    return
+		end
 		if WoWProDB.profile.track and ( action == "C" or questtext or lootitem) then
 			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard then
 				local j = WoWPro.QuestLog[QID].index
