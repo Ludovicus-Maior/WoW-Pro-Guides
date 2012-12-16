@@ -209,7 +209,7 @@ function WoWPro:OnEnable()
 	    end
 	end)
 	    
-	WoWPro.EventFrame:SetScript("OnEvent", function(self, event, ...)		-- Setting up event handler
+	WoWPro.EventFrame:SetScript("OnEvent", function(frame, event, ...)		-- Setting up event handler
 		if WoWPro.InitLockdown then
 		    WoWPro:dbp("LockEvent Fired: "..event)
 		else
@@ -275,7 +275,7 @@ function WoWPro:OnEnable()
 			and WoWProDB.char.currentguide 
 			and WoWPro.Guides[WoWProDB.char.currentguide]
 			and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == name 
-			then WoWPro[name]:EventHandler(self, event, ...) end
+			then WoWPro[name]:EventHandler(frame, event, ...) end
 		end
 	end)
 	

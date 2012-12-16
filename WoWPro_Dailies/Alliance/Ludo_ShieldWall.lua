@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2012-12-08 17:00
+-- Who: Ludovicus Maior
+-- Log: Tweak Hilda's quests.  Maps in the cave seem to have changed.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25240/view
 -- Date: 2012-12-06 23:39
 -- Who: Ludovicus Maior
 -- Log: Played "The Voice of Gods" questline.
@@ -133,8 +138,8 @@ A Don't Lose Your Head|QID|32145|PRE|32143|M||From Tinkmaster Overspark|
 T Don't Lose Your Head|QID|32145|PRE|32143|M||From Tinkmaster Overspark|
 
 ; Ruins of Ogudei quests
-T Priorities, People!|QID|32116|M|80.19,16.40|Z|Krasarang Wilds/1|N|To Hilda Hornswaggle|
-A Get Hilda's Quests|QID|32115;32119;32121;32122;32346;32347|PRE|32116|M|80.19,16.40|Z|Krasarang Wilds/1|N|From Hilda Hornswaggle|
+T Priorities, People!|QID|32116|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
+A Get Hilda's Quests|QID|*|PRE|32116|M|80.19,16.40|Z|Krasarang Wilds|N|From Hilda Hornswaggle|
 
 C The Spirit Trap|QID|32121|M|70.60,41.40;70.80,44.40;71.80,13.60;43.50,14.60;73.40,28.80|Z|Krasarang Wilds/2|N|Click and fight|
 C It Is A Mystery|QID|32119|M|64.25,26.90|Z|Krasarang Wilds/2|N|Walk around till the meter peaks at 100 and stand stil to you get credit.|
@@ -143,16 +148,16 @@ C Oi Ain't Afraid o' No Ghosts!|QID|32346|M|62.80,22.20;73.00,28.80;55.70,51.90;
 
 R Ogudei's Lieutenants|QID|32122|M|72.27,41.57;79.16,49.86;76.75,63.46|CS|Z|Krasarang Wilds/2|N|Find this crack in the wall.|
 K Gen-li, Twister of Words|QID|32122|M|67.97,73.63|Z|Krasarang Wilds/2|QO|Gen-li, Twister of Words slain: 1/1|N|Gen-li and Meng-do are together.|
-K Meng-do, Strength of Mountains|QID|32122|M|67.97,73.63|Z|Krasarang Wilds/2|QO|Meng-do, Strength of Mountains: 1/1|
+K Meng-do, Strength of Mountains|QID|32122|M|67.97,73.63|Z|Krasarang Wilds/2|QO|Meng-do, Strength of Mountains slain: 1/1|
 
 C Eviction Notice|QID|32347|M|74.10,61.60;76.50,59.30;76.30,57.30;76.15,61.65;62.80,70.75|Z|Krasarang Wilds/3|T|Reliquary Mage|QO|Reliquary slain: 10/10|
 
-T The Spirit Trap|QID|32121|M|80.19,16.40|Z|Krasarang Wilds/1|N|To Hilda Hornswaggle|
-T It Is A Mystery|QID|32119|M|80.19,16.40|Z|Krasarang Wilds/1|N|To Hilda Hornswaggle|
-T Shackles of the Past|QID|32115|M|80.19,16.40|Z|Krasarang Wilds/1|N|To Hilda Hornswaggle|
-T Eviction Notice|QID|32347|M|80.19,16.40|Z|Krasarang Wilds/1|N|To Hilda Hornswaggle|
-T Oi Ain't Afraid o' No Ghosts!|QID|32346|M|80.19,16.40|Z|Krasarang Wilds/1|N|To Hilda Hornswaggle|
-T Ogudei's Lieutenants|QID|32122|QID|32122|M|80.19,16.40|Z|Krasarang Wilds/1|N|To Hilda Hornswaggle|
+T The Spirit Trap|QID|32121|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
+T It Is A Mystery|QID|32119|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
+T Shackles of the Past|QID|32115|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
+T Eviction Notice|QID|32347|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
+T Oi Ain't Afraid o' No Ghosts!|QID|32346|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
+T Ogudei's Lieutenants|QID|32122|QID|32122|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
 
 ; Quarry Quests
 C Siege Damage|QID|32152|M|78.06,17.87|L|92493|N|Kill Bilgewater Sappers till you get the Blasting Cap.|

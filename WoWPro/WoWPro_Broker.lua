@@ -313,21 +313,24 @@ function WoWPro:NextStep(k,i)
 			    friendTextLevel = string.lower(friendTextLevel)
 			    standingId = Rep2IdAndClass[friendTextLevel][1]
 			    earnedValue = friendRep - friendThreshold
+			    bottomValue = 0
 			    self:Print("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
 			else
 			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
+                self:Print("Faction %s: standing %d, earned %d, bottomValue %d",name,standingId,earnedValue,bottomValue)
+                earnedValue = earnedValue - bottomValue
 			end
-			self:dbp("Rep %s Friendship=%s: repID %s <= standingId %s and repmax %s >= standingId %s and Replevel %s == 0",
-			            name,tostring(Friendship),tostring(repID) , tostring(standingId), tostring(repmax) , tostring(standingId), tostring(replvl))
+
 			if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
 			end
 			if (replvl > 0) then
-				replvl = bottomValue + replvl
-				if (repID > standingId) then 
+				if (repID < standingId) then
+				    self:Print("** [%s] Spec %s repID %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repID), tostring(standingId))
 					skip = false 
 				end
 				if (repID == standingId) and (earnedValue >= replvl) then
+				    self:Print("** [%s] Spec %s earnedValue %d >= replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
                     skip = false
 				end
 			end

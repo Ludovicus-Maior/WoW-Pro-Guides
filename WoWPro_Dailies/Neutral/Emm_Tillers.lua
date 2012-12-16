@@ -4,6 +4,24 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2012-12-10 19:59
+-- Who: Emmaleah
+-- Log: Updates to final quest chain - corrected QID for The Old Map, add |NC|'s
+
+-- URL: http://wow-pro.com/node/3508/revisions/25244/view
+-- Date: 2012-12-09 01:46
+-- Who: Emmaleah
+-- Log: fix coords on legend chief/order with simian sabatage
+--	note about Tina's nice necklace.
+
+-- URL: http://wow-pro.com/node/3508/revisions/25242/view
+-- Date: 2012-12-08 10:31
+-- Who: Emmaleah
+-- Log: corrected QID - Haohans Vote-mellons for felons
+--	Divided Old Man thistle's treasure into two steps, 
+--	Added Note about cooking and other minor changes to notes
+
+-- URL: http://wow-pro.com/node/3508/revisions/25241/view
 -- Date: 2012-12-07 02:30
 -- Who: Ludovicus Maior
 -- Log: Changed }N} to |N| in two places
@@ -51,8 +69,10 @@ N Favorite Treasures/food|N|Each Friend has a favorite lost treasure that you ca
 N Not so favorite Treasures|N|They will accept any of the lost treasures for about half the faction of thier favorite item.  So, unless you are maxxed out with the friends who want a particular item, its much better to give it to the friends who prefer it.|
 N Available Quests|N|Because quests are given at various factions, you can accept a quest whenever you see it, whether or not the guide tells you too... Except the daily turn in of lost items as discussed above.  (Those will be designated by a blue "?" instead of a blue "!").|
 N Non daily quests|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them.  Growing the Farm quests, you probably want to do right away to have more farming plots.|
+N Cooking|N|The favorite meals for the various friends requires cooking 525 or 550.  You can buy the food in the AH or make it yourself.  If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
 
-;Leadin from faction capital... although I imagine everyone will have done it or gone past it before they use the guide... including it to be complete.
+;Leadin from faction capital... although I imagine everyone will have done it or gone past
+it before they use the guide... including it to be complete.
 A The Tillers|QID|31374|LEAD|30252|M|60.4,22.8|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Farmhand Dooka.|
 A The Tillers|QID|31372|LEAD|30252|M|87,60.8|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Tang Ironhoe.|
 T The Tillers|QID|31374|FACTION|Horde|M|52.25,48.79|To Farmer Yoon.|
@@ -124,7 +144,7 @@ B White Turnip Seeds|QID|31675|L|80595|M|52.8,52.0|N|Don't forget to buy whateve
 B Witchberry Seeds|QID|31943|L|89326|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
 B Scallion Seeds|QID|31671|L|80591|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
 B Juicycrunch Carrot Seeds (Mung Mung)|QID|31946|L|80590 2|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
-B Green Cabbage Seeds(Farmer Fung)|QID|31947|L|78102 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
+B Green Cabbage Seeds(Farmer Fung)|QID|30527|L|78102 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
 B Witchberry Seeds(Nana)|QID|31949|L|89326 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
 B Striped Melon Seeds(Haohan)|QID|31942|L|89329 4|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
 T A Shabby New Face|QID|32189|M|53.36,51.42|N|To Barnaby Fletcher,|
@@ -215,8 +235,8 @@ C Fatty Goatsteak|QID|30332|M|30.12,44.69|US|N|Kill goats, don't but your back t
 
 ;do quests - hozen area
 A A Dish for Sho|QID|30408|M|29.5,30.6|REP|Sho;1278;stranger-good friend|N|To Sho - Eternal Blossom Fish - Lovely Apple, Check this off manually if you have no food or treasure for her.|
-A Mission: Culling the Vermin|QID|31529|REP|Sho;1278;Acquaintance;4200|M|29.5,30.6|N|From Sho. This is actually offered halfway thru acquaintance level, you will have to manually check it off before then.|;12600
-A Mission: Aerial Threat|QID|31530|REP|Sho;1278;Friend;4400|M|29.5,30.6|N|From Sho. This is actually offered partway thru friend, you will have to manually check it off before then.|;friend+4400-4800?)
+A Mission: Culling the Vermin|QID|31529|REP|Sho;1278;Acquaintance;4200|M|29.5,30.6|N|From Sho.|;12600
+A Mission: Aerial Threat|QID|31530|REP|Sho;1278;Friend;4400|M|29.5,30.6|N|From Sho.|;friend+4400-4800?)
 A Mission: Predator of the Cliffs|QID|31531|REP|Sho;1278;Good Friend;1700|M|29.5,30.6|N|From Sho.|;good friend +1700?
 C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|S|N|This can be a ground spawn or drop from the mobs.|
 C Authentic Valley Stir Fry|QID|30471|M|31.93,23.50|S|N|This can be a ground spawn or drop from the mobs.|
@@ -228,9 +248,9 @@ C Yu-Ping Soup|QID|30472|M|29.7,34.4|US|N|This is the cauldren in the middle of 
 C Stealing is Bad... Re-Stealing is OK|QID|30334|M|32.33,26.28|NC|S|N|Veggies are ground spawn near the huts and under bushes.|
 C Not in Chee-Chee's Backyard|QID|30324|S|M|31.01,28.27|
 C Simian Sabotage|QID|30337|QO|Stolen weapons exploded: 1/1|M|30.4,28.2|U|79885|NC|N|There will be a hunter's arrow above the area you want to blow up.|
-C Simian Sabotage|QID|30337|QO|Stolen beer exploded: 1/1|M|32.2,26.1|U|79885|NC|N|There will be a hunter's arrow above the area you want to blow up.|
-C The Kunzen Legend-Chief|QID|30326|M|31,28|N|The name varies, kill whoever the hozen is on this flat rock (and loot him).|
+C The Kunzen Legend-Chief|QID|30326|M|31.40,28.72|N|The name varies, kill whoever the hozen is on this flat rock (and loot him).|
 C Simian Sabotage|QID|30337|QO|Stolen tools exploded: 1/1|M|32.7,30.6|U|79885|NC|N|There will be a hunter's arrow above the area you want to blow up.|
+C Simian Sabotage|QID|30337|QO|Stolen beer exploded: 1/1|M|32.2,26.1|U|79885|NC|N|There will be a hunter's arrow above the area you want to blow up.|
 C Simian Sabotage|QID|30337|QO|Stolen grain exploded: 1/1|M|34.9,21.9|U|79885|NC|N|There will be a hunter's arrow above the area you want to blow up.|
 C Stalling the Ravage|QID|30335|M|34.01,21.88|
 C The Mile-High Grub|QID|30331|U|79895|M|32.37,23.80|NC|N|This is channelled for around 20 seconds to make all 20.|
@@ -273,8 +293,9 @@ T A Worthy Brew|QID|31538|M|31.6,58|N|To Ella in the market or if she is not the
 
 ;I have been studying other dailies guides, reading comments on here and otherwise trying to find some guidance.  If I understood correctly the O tag is deprecated and should not be used... so... how do you deal with random dropped item quests.  For the tillers there are 4 items that may drop when killing vermin or hozen.  I think it may be 100% from elites and random from the regular mobs(that you will get 1 of the 4).  I am pretty sure it has a specific quest as a prereq but I haven't looked in grail to find out (wowhead doesnt say anything on the subject.)*I have suspicians which one even*... but. what I dont know...is how to tell the user to select the one that they get the drop for (ie put the correct 'use" item up.  With the O tag it would cause only the U/A step to show for the item that you actually have dropped.
 ;here is what I think I want to do... but without the |O| working it doesn't work.  Is there a better way?
+;seems rep isnt right for this... I had Necklace drop when i was in acquaintance (6110?)Wholly doesnt list any prereq's ... need more data.
 ;accept quests from dropped items|REP|1280|
-U Nice Necklace|U|86433|QID|31325|REP|Tina Mudclaw;1280;Stranger|N|Dropped from random virmin or hozen in the kunzen area.|;0-8400
+U Nice Necklace|U|86433|QID|31325|REP|Tina Mudclaw;1280;Stranger-Acquaintance|N|Dropped from random virmin or hozen in the kunzen area.|;0-8400
 A A Very Nice Necklace|QID|31325|ACTIVE|31325|N|From 'Nice Necklace' randomly dropped.|
 U Tasteful Tiara|PRE|30323|QID|31326|U|86434|REP|Tina Mudclaw;1280;Acquaintance|N|Dropped from random virmin or hozen in the kunzen area.|
 A Tina's Tasteful Tiara|QID|31326|ACTIVE|31326|REP|Tina Mudclaw;1280;Acquaintance|N|From 'Tasteful Tiara' randomly dropped.|;8400-16800
@@ -448,18 +469,19 @@ C A Second Hand|QID|30534|N|The only advantage to which friend to pick is so tha
 T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
 
 ;Fish's one time chain - requires exalted with tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)I don't know how to filter for requires the ach? can you put multiple REP tags in?
-K Enormous Cattail Grouper|QID|31382|M|44.52, 22.76|REP|The Tillers;1272;exalted|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|T|Enormous Cattail Grouper|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|
-U Old Map|QID|31382|U|86404|N|Click on the map to start a quest.|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|
-A The Old Map|QID|31382|PRE|30529|N|From an 'Old Map'.|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|
-T The Old Map|QID|31382|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
-A Just A Folk Story|QID|31313|PRE|31382|M|41.6,30|N|From Fish Fellreed.|
-C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|QO|Speak to Stonecarver Mac: 1/1|
-C Talk to Old Man Whitewhiskers|QID|31313|M|54.6,47|QO|Speak to Old Man Whitewhiskers: 1/1|N|He is upstairs.|
-C Talk to Grainsorter Pei|QID|31313|M|54.2,44.4|QO|Speak to Grainsorter Pei: 1/1|
-C Talk to Mama Mn|QID|31313|M|56.2,45.2|QO|Speak to Mama Min: 1/1|
+K Enormous Cattail Grouper|QID|31312|M|44.52, 22.76|REP|The Tillers;1272;exalted|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|T|Enormous Cattail Grouper|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
+U Old Map|QID|31312|U|86404|N|Click on the map to start a quest.|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|
+A The Old Map|QID|31312|PRE|30529|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm.|REP|The Tillers;1272;exalted|REP|Sho;1278;Best Friend|REP|Haohan Mudclaw;1279;Best Friend|REP|Chee Chee;1277;Best Friend|REP|Jogu the Drunk;1273;Best Friend|REP|Old Hillpaw;1276;Best Friend|REP|Gina Mudclaw;1281;Best Friend|REP|Tina Mudclaw;1280;Best Friend|REP|Ella;1275;Best Friend|REP|Fish Fellreed;1282;Best Friend|REP|Farmer Fung;1283;Best Friend|
+T The Old Map|QID|31312|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
+A Just A Folk Story|QID|31313|PRE|31312|M|41.6,30|N|From Fish Fellreed.|
+C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|NC|QO|Speak to Stonecarver Mac: 1/1|
+C Talk to Old Man Whitewhiskers|QID|31313|M|54.6,47|NC|QO|Speak to Old Man Whitewhiskers: 1/1|N|He is upstairs.|
+C Talk to Grainsorter Pei|QID|31313|M|54.2,44.4|NC|QO|Speak to Grainsorter Pei: 1/1|
+C Talk to Mama Mn|QID|31313|M|56.2,45.2|NC|QO|Speak to Mama Min: 1/1|N|She is inside the house.|
 T Just a Folk Story|QID|31313|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
 A Old Man Thistle's Treasure|QID|31314|PRE|31313|M|41.6,30|N|From Fish Fellreed.|
-C Old Man Thistle's Treasure|QID|31314|M|34.9,19.2|N|Dot is at the cave entrance, click to remove the rubble, you should get discover credit, then stealth or kill your way to the end of the cave where the treasure is.|
+C Old Man Thistle's Treasure|QID|31314|M|34.9,19.2|NC|QO|Find the cave entrance: 1/1|N|Click to remove the rubble, you should get discover credit.|
+C Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|QO|Find Old Man Thistle's Treasure.|N|Stealth or kill your way to the end of the cave where a bigger spider and the treasure awaits.|
 T Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|N|To Hidden Treasure.|
 A The Heartland Legacy|QID|31315|PRE|31314|M|31.4,53.4|N|From Hidden Treasure. Often the exit (entrance/rockfall) is bugged, so be ready to hearth out (or die).|
 T The Heartland Legacy|QID|31315|N|To Seedkeeper Shing Sing, inside a cave in Halfhill, (who knew there was a cave here...} Her seed vault is to the left of Stonecarver Mac's house, hidden behind some bushes.|
