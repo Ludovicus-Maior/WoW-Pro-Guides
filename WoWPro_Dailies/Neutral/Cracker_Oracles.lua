@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_oracles_reputation_dalies_sholazar_basin
+-- Date: 2012-12-16 02:49
+-- Who: Emmaleah
+-- Log: changed WTLK to Lich so that all the guides sort together
+
+-- URL: http://wow-pro.com/node/3418/revisions/24986/view
 -- Date: 2012-05-27 18:35
 -- Who: Ludovicus Maior
 -- Log: Fixed some coordinates.
@@ -12,7 +17,7 @@
 -- Date: 2011-06-30 19:10
 -- Who: Ludovicus Maior
 
-WoWPro.Dailies:RegisterGuide("CraShoOra", "Sholazar Basin", "The Oracles Reputation", "WTLK", "Crackerhead22", "Neutral", function()
+WoWPro.Dailies:RegisterGuide("CraShoOra", "Sholazar Basin", "The Oracles Reputation", "Lich", "Crackerhead22", "Neutral", function()
 return [[
 
 R Rainspeaker Canopy|M|54.49,56.14|N|Head to Sholazar Basin and go to the Rainspeaker Canopy.|

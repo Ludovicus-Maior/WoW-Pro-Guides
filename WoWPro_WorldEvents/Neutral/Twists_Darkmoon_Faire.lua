@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2012-12-16 00:37
+-- Who: Ludovicus Maior
+-- Log: You need 5X Fizzy Faire Drink.
+
+-- URL: http://wow-pro.com/node/3459/revisions/25235/view
 -- Date: 2012-12-03 00:10
 -- Who: Ludovicus Maior
 -- Log: Added some missing M tags.
@@ -183,7 +188,7 @@ N Drink Darkmoon Special Reserve|QID|99602613|M|50.31,69.39|ACH|6026;13|U|19221|
 N Drink Fizzy Faire Drink 'Classic'|QID|99602615|M|50.31,69.39|ACH|6026;15|U|33236|LVL|60|
 N Drink Sasparilla Sinker|QID|99602618|M|50.31,69.39|ACH|6026;18|U|74822|LVL|85|
 
-B Fizzy Faire Drink|QID|29506|N|From Sylannia.|L|19299|
+B Fizzy Faire Drink|QID|29506|N|From Sylannia.|L|19299 5|
 C A Fizzy Fusion|QID|29506|N|Use the Cocktail Shaker.|U|72043|
 T A Fizzy Fusion|QID|29506|M|50.31,69.39|N|To Sylannia.|
 
