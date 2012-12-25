@@ -6,6 +6,20 @@ local L = WoWPro_Locale
 local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 local GuideLoaded = false
 
+
+-- See if any of the list of QUIDs are in the indicated table.
+function WoWPro:QIDsInTable(QIDs,tabla)
+    if not QIDs then return false end
+    local numQIDs = select("#", string.split(";", QIDs))
+	for j=1,numQIDs do
+		local QID = select(numQIDs-j+1, string.split(";", QIDs))
+		QID = tonumber(QID)
+        if tabla[QID] then return true end
+    end
+	return false
+end
+
+
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
 	
@@ -237,6 +251,13 @@ function WoWPro:NextStep(k,i)
 			
 		end
 	
+	    -- Check for must be active quests
+        if WoWPro.active and WoWPro.active[k] then
+    		if not WoWPro:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
+    			skip = true -- If the quest is not in the quest log, the step is skipped --
+    		end		
+        end
+
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof and WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
@@ -365,13 +386,16 @@ function WoWPro:NextStep(k,i)
     		end
     	end
     	
-    	-- Skipping spells if known
+    	-- Skipping spells if known.
+    	-- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
     	if WoWPro.spell and WoWPro.spell[k] then
     	    local spellNick,spellID,spellFlip = string.split(";",WoWPro.spell[k])
     	    local spellName = GetSpellInfo(tonumber(spellID))
     	    local spellKnown = GetSpellInfo(spellName)
+    	    spellKnown = spellKnown ~= nil
     	    spellFlip = WoWPro.toboolean(spellFlip)
     	    if spellFlip then spellKnown = not spellKnown end
+    	    WoWPro:dbp("Checking spell step %s [%s] for %s: Nomen %s, Known %s",WoWPro.action[k],WoWPro.step[k],WoWPro.spell[k],tostring(spellName),tostring(spellKnown))
     	    if spellKnown then
     	        WoWPro.CompleteStep(k)
 				skip = true
@@ -623,5 +647,5 @@ function WoWPro:GrailQuestPrereq(qid)
 end
 
 
--- /run WoWPro:Questline("10861")
+-- /run WoWPro:Questline("26569")
 -- /run WoWPro:Questline("10006")
