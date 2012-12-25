@@ -54,7 +54,7 @@ function WoWPro.Dailies:NextStep(k, skip)
 	-- All non-A and non-N steps are Optional Quests --
 	if WoWPro.action[k] ~= "A" and WoWPro.action[k] ~= "N" and WoWPro.QID[k] then 
 		-- Checking Quest Log --
-		if not WoWPro.Dailies:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then 
+		if not WoWPro:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then 
 			skip = true -- If the quest is not in the quest log, the step is skipped --
 		end		
 	end
