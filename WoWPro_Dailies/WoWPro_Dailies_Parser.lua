@@ -40,18 +40,6 @@ WoWPro.Dailies.actionlabels = {
 	r = "Repair/Restock"
 }
 
--- See if any of the list of QUIDs are in the indicated table.
-
-function WoWPro.Dailies:QIDsInTable(QIDs,tabla)
-    if not QIDs then return false end
-    local numQIDs = select("#", string.split(";", QIDs))
-	for j=1,numQIDs do
-		local QID = select(numQIDs-j+1, string.split(";", QIDs))
-		QID = tonumber(QID)
-        if tabla[QID] then return true end
-    end
-	return false
-end
 
 -- Determine Next Active Step (Dailies Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
@@ -71,12 +59,6 @@ function WoWPro.Dailies:NextStep(k, skip)
 		end		
 	end
 
-    -- Check for must be active quests
-    if WoWPro.active[k] then
-		if not WoWPro.Dailies:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
-			skip = true -- If the quest is not in the quest log, the step is skipped --
-		end		
-    end
     
 	-- Checking Prerequisites --
 	if WoWPro.prereq[k] and WoWPro.QID[k] then
@@ -691,12 +673,12 @@ end
 function WoWPro.Dailies:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] or not WoWPro.Guides[GID].guidetype=="Dailies" then return end
-	WoWPro:dbp("Running: Dailies AutoCompleteQuestUpdate")
 
 	if WoWProCharDB.Guide[GID] then
 		for i=1,#WoWPro.action do
 			local action = WoWPro.action[i]
 			local completion = WoWProCharDB.Guide[GID].completion[i]
+			WoWPro.Dailies:dbp("Running: AutoCompleteQuestUpdate questComplete=%s, action=%s, completion=%s",tostring(questComplete),action,tostring(completion))
 			if WoWPro.QID[i] then
 				local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
 				for j=1,numQIDs do
