@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2012-12-26 01:56
+-- Who: Ludovicus Maior
+-- Log: Add new guide start and Introduction Questline tweaks.
+
+-- URL: http://wow-pro.com/node/3502/revisions/25253/view
 -- Date: 2012-12-17 12:38
 -- Who: Estelyen
 -- Log: Some more corrections to update the guide to the changes Blizz made in patch 5.1
@@ -53,36 +58,36 @@
 WoWPro.Dailies:RegisterGuide("EstGoldLotus", "Vale of Eternal Blossoms", "Golden Lotus Dailies", "MoP", "Estelyen", "Neutral", function()
 return [[
 
-N The Golden Lotus|N|You need to be lvl 90 and have opened the Vale of Eternal Blossoms as described in the Kun-Lai Summit leveling guide to do these quests. Also, some of them seem to require the player to have the ability to use their flying mounts in Pandaria for some reason, even though none of the quests happen in an inaccessible area.|
+L Level 90|LVL|90|N|You need to be level 90 to do the Golden Lotus Dailies|
+B Wisdom of the Four Winds|SPELL|Flying in Pandaria;115913|N|You need to be able to have flying mounts in Pandaria to do this guide.|
 
 ; Introduction Questline (no daily quests, just a one-time introduction)
 A The Golden Lotus|QID|31384|LEAD|30632|FACTION|Alliance|N|From Xari the Kind in the Shrine of Seven Stars.|M|84.20,62.40|
 A The Golden Lotus|QID|31385|LEAD|30632|FACTION|Horde|N|From Weng the Merciful in the Shrine of Two Moons.|M|63.00,22.20|
-T The Golden Lotus|QID|31384|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
-T The Golden Lotus|QID|31385|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
+T The Golden Lotus|QID|31384|FACTION|Alliance|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
+T The Golden Lotus|QID|31385|FACTION|Horde|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
 A The Ruins of Guo-Lai|QID|30632|N|From Leven Dawnblade.|M|56.71,43.60|
-T The Ruins of Guo-Lai|QID|30632|N|To Anji Autumnlight.|M|34.00,38.20|
-A Out with the Scouts|QID|30633|N|From Anji Autumnlight.|M|34.00,38.20|
-A Barring Entry|QID|30634|N|From Kun Autumnlight.|M|34.00,38.20|
-C Barring Entry|QID|30634|QO|Speak to Lao Softfoot: 1/1|N|This quest will have you follow Lao Softfoot up the hill. You must remain close to him to remain cloaked, as the Mogu that come down the hill are elite! Speak to him here to begin the run.|M|33.77 22.62|
+T The Ruins of Guo-Lai|QID|30632|N|To Anji Autumnlight.|M|33.98,37.99|
+A Out with the Scouts|QID|30633|N|From Anji Autumnlight.|M|33.98,37.99|
+A Barring Entry|QID|30634|N|From Kun Autumnlight.|M|33.67,38.42|
+C Barring Entry|QID|30634|QO|Speak to Lao Softfoot: 1/1|N|This quest will have you follow Lao Softfoot up the hill. You must remain close to him to remain cloaked, as the Mogu that come down the hill are elite! Speak to him here to begin the run.|M|33.77,22.62|
 C Barring Entry|QID|30634|U|80484|N|When you reach the entrance to the cave, wait for a group of Mogu to pass, then quickly run out of the cloaking field and place the bomb in the entrance before the next group approaches.|M|27.63,15.39|
 C Out with the Scouts|QID|30633|N|Kill 8 Mogu in this area.|M|29.40,38.60|
-T Barring Entry|QID|30634|N|To Kun Autumnlight.|M|34.00,38.20|
-T Out with the Scouts|QID|30633|N|To Anji Autumnlight.|M|34.00,38.20|
-A Killing the Quilen|QID|30635|N|From Anji Autumnlight.|M|34.00,38.20|
-A Stones of Power|QID|30636|N|From Anji Autumnlight.|M|34.00,38.20|
+T Barring Entry|QID|30634|N|To Kun Autumnlight.|M|33.67,38.42|
+T Out with the Scouts|QID|30633|N|To Anji Autumnlight.|M|33.98,37.99|
+A Killing the Quilen|QID|30635|N|From Anji Autumnlight.|M|33.98,37.99|
+A Stones of Power|QID|30636|N|From Anji Autumnlight.|M|33.98,37.99|
 C Killing the Quilen|QID|30635|N|Kill 9 Quilen in the area.|M|23.40,28.90|S|
 C Stones of Power|QID|30636|N|Collect 7 of the sparkling Revelite Crystals lying around.|M|23.40,28.90|S|
 A The Guo-Lai Halls|QID|30637|N|Enter this vault here and the quest should Auto-Accept.|M|22.60,27.09|
 C The Guo-Lai Halls|QID|30637|N|Down in the vault you will find Zhao-Jin the Bloodletter. Attack him. He won't fight you himself, but send his guardian Dagou after a short dialogue. Kill his guardian.|M|21.95,15.68|
 C Stones of Power|QID|30636|N|Back on the surface, collect 7 of the sparkling Revelite Crystals in the area.|M|23.40,28.90|US|
 C Killing the Quilen|QID|30635|N|Kill 9 Quilen.|M|23.40,28.90|US|
-T The Guo-Lai Halls|QID|30637|N|To Anji Autumnlight.|M|34.00,38.20|
-T Stones of Power|QID|30636|N|To Anji Autumnlight.|M|34.00,38.20|
-T Killing the Quilen|QID|30635|N|To Anji Autumnlight.|M|34.00,38.20|
-A Leaving an Opening|QID|30638|N|From Anji Autumnlight.|M|34.00,38.20|
+T The Guo-Lai Halls|QID|30637|N|To Anji Autumnlight.|M|33.98,37.99|
+T Stones of Power|QID|30636|N|To Anji Autumnlight.|M|33.98,37.99|
+T Killing the Quilen|QID|30635|N|To Anji Autumnlight.|M|33.98,37.99|
+A Leaving an Opening|QID|30638|N|From Anji Autumnlight.|M|33.98,37.99|
 T Leaving an Opening|QID|30638|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
-
 ; One-Time Quest once Honored
 A The Secrets of Guo-Lai|QID|30639|REP|Golden Lotus;1269;honored-exalted|N|This quest will become available once you reach honored OR on the next day, depending on how many quests you already did on the day you reach honored. Accept this quest from Leven Dawnblade at the Golden Pagoda, if he isn't there or doesn't offer the quest, close this step manually and you can do it first thing tomorrow instead.|M|56.71,43.60|
 R Guo-Lai Halls|QID|30639|N|Enter the Guo-Lai Halls, the entrance is here.|M|22.60,27.09|
