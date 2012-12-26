@@ -2,6 +2,7 @@
   <Script file="Cracker_Frenzy.lua"/>
   <Script file="Cracker_Oracles.lua"/>
   <Script file="Emm_Tillers.lua"/>
+  <Script file="Emm_Cloud.lua"/>
   <Script file="Est_Firelands.lua"/>
   <Script file="Est_Lotus.lua"/>
   <Script file="Jiyambi_Therazane.lua"/>
