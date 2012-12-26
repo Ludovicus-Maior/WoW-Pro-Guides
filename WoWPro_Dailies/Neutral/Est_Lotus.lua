@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2012-12-26 01:56
+-- Who: Ludovicus Maior
+-- Log: Add new guide start and Introduction Questline tweaks.
+
+-- URL: http://wow-pro.com/node/3502/revisions/25253/view
+-- Date: 2012-12-17 12:38
+-- Who: Estelyen
+-- Log: Some more corrections to update the guide to the changes Blizz made in patch 5.1
+
+-- URL: http://wow-pro.com/node/3502/revisions/25221/view
 -- Date: 2012-11-30 18:53
 -- Who: Estelyen
 -- Log: Patch 5.1 had the Stillwater Crocodiles renamed to Stillwater Crocolisks (I was wondering about that while writing the guide, having never encountered a crocodile in WoW before), guide text changed accordingly
@@ -48,36 +58,36 @@
 WoWPro.Dailies:RegisterGuide("EstGoldLotus", "Vale of Eternal Blossoms", "Golden Lotus Dailies", "MoP", "Estelyen", "Neutral", function()
 return [[
 
-N The Golden Lotus|N|You need to be lvl 90 and have opened the Vale of Eternal Blossoms as described in the Kun-Lai Summit leveling guide to do these quests. Also, some of them seem to require the player to have the ability to use their flying mounts in Pandaria for some reason, even though none of the quests happen in an inaccessible area.|
+L Level 90|LVL|90|N|You need to be level 90 to do the Golden Lotus Dailies|
+B Wisdom of the Four Winds|SPELL|Flying in Pandaria;115913|N|You need to be able to have flying mounts in Pandaria to do this guide.|
 
 ; Introduction Questline (no daily quests, just a one-time introduction)
 A The Golden Lotus|QID|31384|LEAD|30632|FACTION|Alliance|N|From Xari the Kind in the Shrine of Seven Stars.|M|84.20,62.40|
 A The Golden Lotus|QID|31385|LEAD|30632|FACTION|Horde|N|From Weng the Merciful in the Shrine of Two Moons.|M|63.00,22.20|
-T The Golden Lotus|QID|31384|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
-T The Golden Lotus|QID|31385|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
+T The Golden Lotus|QID|31384|FACTION|Alliance|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
+T The Golden Lotus|QID|31385|FACTION|Horde|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
 A The Ruins of Guo-Lai|QID|30632|N|From Leven Dawnblade.|M|56.71,43.60|
-T The Ruins of Guo-Lai|QID|30632|N|To Anji Autumnlight.|M|34.00,38.20|
-A Out with the Scouts|QID|30633|N|From Anji Autumnlight.|M|34.00,38.20|
-A Barring Entry|QID|30634|N|From Kun Autumnlight.|M|34.00,38.20|
-C Barring Entry|QID|30634|QO|Speak to Lao Softfoot: 1/1|N|This quest will have you follow Lao Softfoot up the hill. You must remain close to him to remain cloaked, as the Mogu that come down the hill are elite! Speak to him here to begin the run.|M|33.77 22.62|
+T The Ruins of Guo-Lai|QID|30632|N|To Anji Autumnlight.|M|33.98,37.99|
+A Out with the Scouts|QID|30633|N|From Anji Autumnlight.|M|33.98,37.99|
+A Barring Entry|QID|30634|N|From Kun Autumnlight.|M|33.67,38.42|
+C Barring Entry|QID|30634|QO|Speak to Lao Softfoot: 1/1|N|This quest will have you follow Lao Softfoot up the hill. You must remain close to him to remain cloaked, as the Mogu that come down the hill are elite! Speak to him here to begin the run.|M|33.77,22.62|
 C Barring Entry|QID|30634|U|80484|N|When you reach the entrance to the cave, wait for a group of Mogu to pass, then quickly run out of the cloaking field and place the bomb in the entrance before the next group approaches.|M|27.63,15.39|
 C Out with the Scouts|QID|30633|N|Kill 8 Mogu in this area.|M|29.40,38.60|
-T Barring Entry|QID|30634|N|To Kun Autumnlight.|M|34.00,38.20|
-T Out with the Scouts|QID|30633|N|To Anji Autumnlight.|M|34.00,38.20|
-A Killing the Quilen|QID|30635|N|From Anji Autumnlight.|M|34.00,38.20|
-A Stones of Power|QID|30636|N|From Anji Autumnlight.|M|34.00,38.20|
+T Barring Entry|QID|30634|N|To Kun Autumnlight.|M|33.67,38.42|
+T Out with the Scouts|QID|30633|N|To Anji Autumnlight.|M|33.98,37.99|
+A Killing the Quilen|QID|30635|N|From Anji Autumnlight.|M|33.98,37.99|
+A Stones of Power|QID|30636|N|From Anji Autumnlight.|M|33.98,37.99|
 C Killing the Quilen|QID|30635|N|Kill 9 Quilen in the area.|M|23.40,28.90|S|
 C Stones of Power|QID|30636|N|Collect 7 of the sparkling Revelite Crystals lying around.|M|23.40,28.90|S|
 A The Guo-Lai Halls|QID|30637|N|Enter this vault here and the quest should Auto-Accept.|M|22.60,27.09|
 C The Guo-Lai Halls|QID|30637|N|Down in the vault you will find Zhao-Jin the Bloodletter. Attack him. He won't fight you himself, but send his guardian Dagou after a short dialogue. Kill his guardian.|M|21.95,15.68|
 C Stones of Power|QID|30636|N|Back on the surface, collect 7 of the sparkling Revelite Crystals in the area.|M|23.40,28.90|US|
 C Killing the Quilen|QID|30635|N|Kill 9 Quilen.|M|23.40,28.90|US|
-T The Guo-Lai Halls|QID|30637|N|To Anji Autumnlight.|M|34.00,38.20|
-T Stones of Power|QID|30636|N|To Anji Autumnlight.|M|34.00,38.20|
-T Killing the Quilen|QID|30635|N|To Anji Autumnlight.|M|34.00,38.20|
-A Leaving an Opening|QID|30638|N|From Anji Autumnlight.|M|34.00,38.20|
+T The Guo-Lai Halls|QID|30637|N|To Anji Autumnlight.|M|33.98,37.99|
+T Stones of Power|QID|30636|N|To Anji Autumnlight.|M|33.98,37.99|
+T Killing the Quilen|QID|30635|N|To Anji Autumnlight.|M|33.98,37.99|
+A Leaving an Opening|QID|30638|N|From Anji Autumnlight.|M|33.98,37.99|
 T Leaving an Opening|QID|30638|N|To Leven Dawnblade at the Golden Pagoda.|M|56.71,43.60|
-
 ; One-Time Quest once Honored
 A The Secrets of Guo-Lai|QID|30639|REP|Golden Lotus;1269;honored-exalted|N|This quest will become available once you reach honored OR on the next day, depending on how many quests you already did on the day you reach honored. Accept this quest from Leven Dawnblade at the Golden Pagoda, if he isn't there or doesn't offer the quest, close this step manually and you can do it first thing tomorrow instead.|M|56.71,43.60|
 R Guo-Lai Halls|QID|30639|N|Enter the Guo-Lai Halls, the entrance is here.|M|22.60,27.09|
@@ -121,7 +131,7 @@ A Random Golden Pagoda Sabotage-Daily|QID|31754;31756;31758|N|From Kun Autumnlig
 A Random Golden Pagoda Rescue-Daily|QID|30312;30320;31755|N|From Sun Tenderheart.|M|56.51,43.39|
 C Given a Second Chance|QID|30312|U|84242|N|Look for Wounded Defenders here and heal them, either with your own healing spells if you have any or with the bandages. Watch out for incoming fire and move out of the way!|M|53.06,28.57|
 C Crumbling Behemoth|QID|31762|N|The Behemoth you need to kill will come down the hill. If he hasn't been attacked by another player yet, don't do so first, he is very strong. Wait until he is either attacked by a large group of other players or by the Pandaren NPCs waiting for him in ambush and let them do the tanking.|M|47.27,35.97|
-C The Eternal Vigil|QID|30307|N|Kill any 12 Shao-Tien Mogu.|M|44.29,20.73|S|
+C The Eternal Vigil|QID|30307|N|Kill any 8 Shao-Tien Mogu.|M|44.29,20.73|S|
 C Set in Stone|QID|30309|N|Kill 6 Mogu Effigies.|M|44.29,20.73|S|
 C Stone Hard Quilen|QID|30308|N|Kill 8 Quilen.|M|44.29,20.73|S|
 C Unleashed Spirits|QID|31757|N|Kill 30 Unleashed Spirits, they wander around in groups.|M|44.29,20.73|S|
@@ -140,7 +150,7 @@ C Acts of Cruelty|QID|31755|N|Attack the Mogu who are torturing Golden Lotus Gua
 C Set in Stone|QID|30309|N|Kill 6 Mogu Effigies.|M|44.29,20.73|US|
 C Unleashed Spirits|QID|31757|N|Kill 30 Unleashed Spirits, they wander around in groups.|M|44.29,20.73|US|
 C Stone Hard Quilen|QID|30308|N|Kill 8 Quilen.|M|44.29,20.73|US|
-C The Eternal Vigil|QID|30307|N|Kill any 12 Shao-Tien Mogu.|M|44.29,20.73|US|
+C The Eternal Vigil|QID|30307|N|Kill any 8 Shao-Tien Mogu.|M|44.29,20.73|US|
 T Given a Second Chance|QID|30312|N|To Sun Tenderheart.|M|56.51,43.39|
 T Acts of Cruelty|QID|31755|N|To Sun Tenderheart.|M|56.51,43.39|
 T Free Spirits|QID|30320|N|To Sun Tenderheart.|M|56.51,43.39|
@@ -211,7 +221,7 @@ A Random Dailies from Merchant Benny|QID|30195|PRE|31245|N|Accept ALL the daily 
 A Random Dailies from Merchant Benny|QID|30195|PRE|31249|N|Accept ALL the daily quests Merchant Benny offers. This step will close when you accept the first one. If he doesn't offer any dailies, click this step off manually instead.|M|33.80,69.80|
 C Steer Clear of the Beer Here|QID|30191|N|Collect 10 Stolen Mistfall Kegs on the rise above the village, the Sprites shouldn't aggro if you don't provoke them.|M|37.20,78.40|
 C My Town, It's on Fire|QID|30192|N|Click on the little fires in the village to stamp them out.|M|33.28,73.68|
-C Sprite Plight|QID|30190|N|You need to kill 12 Slateskin Troublemakers for this quest. The Sprites have the nasty habit of aggroing all other sprites around them, try to lure them away so you don't aggro too many at once, especially if you're a cloth-wearer.|M|35.20,74.00|
+C Sprite Plight|QID|30190|N|You need to kill 8 Slateskin Troublemakers for this quest. The Sprites have the nasty habit of aggroing all other sprites around them, try to lure them away so you don't aggro too many at once, especially if you're a cloth-wearer.|M|35.20,74.00|
 C The Pandaren Uprising Relived|QID|30237|N|Kill 8 Ancient Mogu Spirits.|M|48.52,69.31|S|
 C Lushroom Rush|QID|30196|N|Collect 12 Lushrooms.|M|48.52,69.31|
 C Return to Rest|QID|30238|N|Click on the Pandaren Gravestones to honor the ancestors.|M|48.52,69.31|
@@ -384,7 +394,7 @@ A Random Dailies from Sinan the Dreamer|QID|30205;30206|PRE|31296|N|Accept ALL t
 C Runes in the Ruins|QID|30206|N|Collect 12 Guo-Lai Runestones. They are quite hard to spot: They are tiny blueish tablets that stick on the walls of the ruins and even the sparkle that active quest objects usually have is almost invisible, keep your eyes open.|M|27.39,30.41|S|
 C Troubling the Troublemakers|QID|30228|N|Kill 8 Stonebark sprites.|M|31.26,23.96|
 C Blood on the Rise|QID|30226|N|Kill 8 Shao-Tien Mogu.|M|31.26,23.96|
-C In Ashen Webs|QID|30200|N|Kill 10 Ashweb Spiders.|M|23.32,34.82|S|
+C In Ashen Webs|QID|30200|N|Kill 8 Ashweb Spiders.|M|23.32,34.82|S|
 C That's Not a Rock!|QID|30204|N|When you run over the small mounds that look like rocks, little spiderlings will come out. Kill 50 of them.|M|26.31,32.66|S|
 C Hard as a Rock|QID|30304|N|Click on 10 Mogu Statues to destroy them. Some of them may come to life and attack.|M|27.20,34.60|S|
 C Achievement available!|QID|30304|ACH|7323|N|If you get one of the Mogu Statues to kill another mob with their frontal cone attack, you will get the achievement "Collateral Damage".|M|27.20,34.60|S|
@@ -393,7 +403,7 @@ C Runelocked|QID|30205|N|Look for the Ancient Mogu Artifact somewhere in the rui
 C Achievement step available!|QID|30304|ACH|7323|N|If you get one of the Mogu Statues to kill another mob with their frontal cone attack, you will get the achievement "Collateral Damage".|M|27.20,34.60|US|
 C Hard as a Rock|QID|30304|N|Click on 10 Mogu Statues to destroy them. Some of them may come to life and attack.|M|27.20,34.60|US|
 C That's Not a Rock!|QID|30204|N|When you run over the small mounds that look like rocks, little spiderlings will come out. Kill 50 of them.|M|26.31,32.66|US|
-C In Ashen Webs|QID|30200|N|Kill 10 Ashweb Spiders.|M|23.32,34.82|US|
+C In Ashen Webs|QID|30200|N|Kill 8 Ashweb Spiders.|M|23.32,34.82|US|
 T Runelocked|QID|30205|N|To Sinan the Dreamer.|M|33.49,40.78|
 T Runes in the Ruins|QID|30206|N|To Sinan the Dreamer.|M|33.49,40.78|
 T That's Not a Rock!|QID|30204|N|To Kun Autumnlight.|M|34.07,38.10|

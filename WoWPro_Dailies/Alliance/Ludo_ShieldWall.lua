@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2012-12-25 00:51
+-- Who: Ludovicus Maior
+-- Log: Added skeletal: Jaina's Hope,  The Korune, Heart of the Alliance, Secrets of the Past, The Divine Bell.
+--	Corrected Domination Point dailies and a missing PRE tag.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25243/view
 -- Date: 2012-12-08 17:00
 -- Who: Ludovicus Maior
 -- Log: Tweak Hilda's quests.  Maps in the cave seem to have changed.
@@ -60,7 +66,7 @@ C Keith "The Party" Westin|QID|32381|M|64.80,22.99|Z|Bizmo's Brawlpub@DeeprunTra
 C Twix Gearspark|QID|32381|M|49.76,34.53|Z|Bizmo's Brawlpub@DeeprunTram|T|Twix Gearspark|N|Chat with Townsley and get the second clue, then talk to Twix.|QO|Rusty Dagger delivered: 1/1|
 C Tasha Windpaw|QID|32381|M|67.41,59.83|Z|Bizmo's Brawlpub@DeeprunTram|T|Chat with Townsley and get the second clue, then talk to Tasha Windpaw.|N|Mogu Melon Twist|QO|Mogu Melon Twist delivered: 1/1|
 T To Catch A Spy|QID|32381|PRE|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|From Barkeep Townsley.|
-A Stirred, Not Shaken|QID|32426|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|From Barkeep Townsley.|
+A Stirred, Not Shaken|QID|32426|PRE|32381|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|From Barkeep Townsley.|
 T Stirred, Not Shaken|QID|32426|M|23.94,81.62|Z|Bizmo's Brawlpub@DeeprunTram|N|From Professor Kilt.|
 
 ; The Voice of Gods
@@ -78,14 +84,52 @@ T Bugging Out|QID|32383|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Conn
 T He Won't Even Miss It|QID|32397|PRE|32383|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka Cousin Goottooth|
 
 ; Jaina's Hope
+A The Kirin Tor|QID|32331|PRE|32397|M|89.67,32.79|REP|Operation: Shieldwall;1376;honored;3000|N|From Admiral Taylor, at the start of Honored|
+T The Kirin Tor|QID|32331|M|25.8,39.2|Z|Dalaran|N|To Anduin Wrynn.|
+A The Fate of Dalaran|QID|32362|PRE|32331|M|25.8,39.2|Z|Dalaran|N|From Anduin Wrynn.|
+C The Fate of Dalaran|QID|32362|M|26.4,39.0|Z|Dalaran|N|Talk to Jaina|
+T The Fate of Dalaran|QID|32362|M|25.8,39.2|Z|Dalaran|N|To Anduin Wrynn.|
 
 ; The Korune
+A To Mogujia|QID|32193|PRE|32362|M|89.67,32.79|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
+R Mogujia|QID|32193|M|88.34,34.20|N|Talk to Fennie to get dropped off|
+T Mogujia|QID|32193|M||Z|Kun-Lai Summit|N|To Brann Bronzebeard|
+A The Source of Korune Power|QID|32243|PRE|32193|M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
+A Bad Blood|QID|32194|PRE|32193|M|58.2,71.0|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
+C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
+K Korune Spellweaver|QID|32243||M||Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|
+T The Source of Korune Power|QID|32243||M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
+T Bad Blood|QID|32194||M||Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
 
 ; Heart of the Alliance
+A Anduin's Plea|QID|32315|PRE|32193|M|89.67,32.79|REP|Operation: Shieldwall;1376;honored;11000|N|From Admiral Taylor, near the end of Honored|
+N Anduin's Plea|QID|32315|ACTIVE|32315|N|Careful.  This quest was bugged if you interrupted the roleplay.  Let everyone finish before running off and don't interupt anything.|
+R Shrine of Seven Stars|QID|32315|M|88.34,34.20|N|Talk to Fennie to get dropped off|
+T Anduin's Plea|QID|32315|M||Z|Vale of Eternal Blossoms|N|To Anduin Wrynn|
+A Heart Of The Alliance|QID|32316|PRE|32315|M||Z|Vale of Eternal Blossoms|N|To Anduin Wrynn|
+C Heart Of The Alliance|QID|32316|M||Z|Vale of Eternal Blossoms|QO|Sha-Touched Footman saved: 6/6|
+T Heart Of The Alliance|QID|32316|M||Z|Vale of Eternal Blossoms|N|To King Varian Wrynn|
 
 ; Secrets of the Past
+A The Kun-Lai Expedition|QID|32370|PRE|32316|M|89.67,32.79|REP|Operation: Shieldwall;1376;revered;2700|N|From Admiral Taylor, near the start of Revered|
+R Grummle Bazaar|QID|32370|M|88.34,34.20|N|Talk to Fennie to get dropped off|
+T The Kun-Lai Expedition|QID|32370|M|65,60.8|Z|Kun-Lai Summit|N|To Agent Connelly|
+A A Kor'kron In Our Midst|QID|32377|PRE|32370|M|65,60.8|Z|Kun-Lai Summit|N|From Agent Connelly|
+R A Kor'kron In Our Midst|QID|32377|M|61.6,58.5|Z|Kun-Lai Summit|CC|N|Entry to the camp is here.|
+C A Kor'kron In Our Midst|QID|32377|N|Kill Reavers, Honor Guards, and Scouts till you have all the peices. Each type of Mob may drop each peice.|U|92764|L|92766|
+T A Kor'kron In Our Midst|QID|32377|N|To Agent Connelly via UI|
+A Memory Wine|QID|32371|PRE|32377|N|To Agent Connelly via UI|
+C Get Disguised|QID|32371|QO|Use Kor'kron Disguise: 1/1|U|92766|N|Use the disguise|
+C Listen in|QID|32371|M|60.2,55.1|Z|Kun-Lai Summit|QO|Drink Memory Wine: 1/1|N|Get over to Garrosh, by the bonfire.  After he talks, the wine will appear and you need to click to drink.|
+T Memory Wine|QID|32371|M|65,60.8|Z|Kun-Lai Summit|N|From Agent Connelly|
 
 ; The Divine Bell
+A The Ruins of Korune|QID|32393|PRE|32316|M|89.67,32.79|REP|Operation: Shieldwall;1376;revered;6650|N|From Admiral Taylor, near the middle of Revered|
+R Kun-Lai Summit|QID|32315|M|88.34,34.20|N|Talk to Fennie to get dropped off|
+T The Ruins of Korune|QID|32393|M|32.6,30.6|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
+A The Divine Bell|QID|32394|PRE|32393|M|32.6,30.6|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
+K Dreadweaver Avartu|QID|32394|M|32.6,30.6|Z|Kun-Lai Summit|N|When you see the circle in front of Dreadweaver, stay inside!|
+T The Divine Bell|QID|32394|M|32.6,30.6|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
 
 ; The Purge of Dalaran
 
@@ -127,15 +171,29 @@ T Dis-Assembly Required|QID|32446|M|17.26,78.65|N|To Sully "The Pickle" McLeary|
 T Circle of Life|QID|32159|M|17.26,78.65|N|To Sully "The Pickle" McLeary|
 
 ; Domination Point
-T Send A Message|QID|32451|M||N|To Sky Admiral Rogers aboard the Skyfire.|
-A We Will Rock You|QID|32142|PRE|32451|M||From Sky Admiral Rogers|
-A Hammer to Fall|QID|32146|PRE|32451|M||From Sky Admiral Rogers|
-A A Kind of Magic|QID|32143|PRE|32451|M||From Tinkmaster Overspark|
-A Under Pressure|QID|32144|PRE|32451|M||From Mishka|
+T Send A Message|QID|32451|M|16.48,79.20|N|To Sky Admiral Rogers aboard the Skyfire.|
+A We Will Rock You|QID|32142|PRE|32451|M|16.48,79.20|N|From Sky Admiral Rogers|
+A Hammer to Fall|QID|32146|PRE|32451|M|16.48,79.20|N|From Sky Admiral Rogers|
+A A Kind of Magic|QID|32143|PRE|32451|M|16.49,79.28|N|From Tinkmaster Overspark|
+A Under Pressure|QID|32144|PRE|32451|M|16.66,78.53|N|From Mishka|
 
+C A Kind of Magic|QID|32143|M|11.65,67.99|QO|Eliminate the Beachhead Demolishers: 1/1|
+C A Kind of Magic|QID|32143|M|10.81,60.91|QO|Eliminate the Horde Wolves: 1/1|
+C A Kind of Magic|QID|32143|M|12.6,56.6|QO|Destroy the Horde Bomb Stockpile: 1/1|
 T A Kind of Magic|QID|32143|M||From Tinkmaster Overspark UI Popup????|
-A Don't Lose Your Head|QID|32145|PRE|32143|M||From Tinkmaster Overspark|
-T Don't Lose Your Head|QID|32145|PRE|32143|M||From Tinkmaster Overspark|
+A Don't Lose Your Head|QID|32145|PRE|32143|N|From Tinkmaster Overspark|
+C Don't Lose Your Head|QID|32145|M|13.4,57.9|QO|Stone Guard Ruk'Ra slain: 1/1|N|In the tent.|
+C Don't Lose Your Head|QID|32145|M|13.0,56.0|QO|Chief Bombgineer Snicklefritz slain: 1/1|N|In the eastern part of the courtyard.|
+C Don't Lose Your Head|QID|32145|M|10,57|QO|Or'Dac slain: 1/1|N|In the western part of the courtyard.|
+
+C Under Pressure|QID|32144|M|12.50,65.80;12.77,63.60;8.90,68.93;10.74,58.01;6.95,67.20;13.60,57.20;12.61,54.78;8.75,65.53;12.20,59.82|QO|Horde Supply Crates Destroyed: 8/8|
+C Hammer to Fall|QID|32146|M|14.40,65.80;13.40,61.10;10.60,56.80;12.75,63.60;10.05,59.35;12.35,59.33;11.40,65.80;10.24,62.20|QO|Heavy Mook slain: 5/5|
+C We Will Rock You|QID|32142|M|10.60,60.60;14.35,57.20;11.50,58.23;12.20,54.78; 10.60,54.60;8.80,63.40;8.25,60.85;24.35,60.08;10.95,61.25;22.38,60.92;21.68,57.95;10.96,63.69;12.09,57.14;22.01,55.19;12.54,66.53;24.24,56.97; 11.00,66.20;12.80,60.80;13.00,64.40;9.65,60.80;12.65,67.57; |QO|Domination Orc slain: 10/10|
+
+T We Will Rock You|QID|32142|M|16.48,79.20|N|To Sky Admiral Rogers|
+T Hammer to Fall|QID|32146|M|16.48,79.20|N|To Sky Admiral Rogers|
+T Don't Lose Your Head|QID|32145|M||N|From Tinkmaster Overspark|
+T Under Pressure|QID|32144|M|16.66,78.53|N|To Mishka|
 
 ; Ruins of Ogudei quests
 T Priorities, People!|QID|32116|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
@@ -165,7 +223,7 @@ C Tower Defense|QID|32151|M|78,19|L|93022 20|N|Kill goblins and loot sparkly roc
 
 ; Lions Landing
 C Resource Gathering|QID|32149|M|76.68,22.28|N|Loot Lumber in the woods, kill raiders if ya see em.|
-C Attack! Move!|QID|32148|M|78.45,25.45|QO|Domination Point Shaman or Raider slain: 12/12|N|Raiders are patrollong the forest, Shamans are behind the barricade.|
+C Attack! Move!|QID|32148|M|78.45,25.45|QO|Domination Point Shaman or Raider slain: 12/12|N|Raiders are patrolling the forest, Shamans are behind the barricade.|
 C Siege Damage|QID|32152|M|77.37,28.51|T|Domination Point Demolisher|N|Click on a Demolisher and blow it up!|
 C Hero Killer|QID|32153|M|78.75,27.33|N|Kill a Blademaster or Tauren Chieftan. Anything carrying a banner.|
 C Supply Block|QID|32150|M|77.60,32.03|
