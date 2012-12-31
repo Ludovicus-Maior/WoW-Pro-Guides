@@ -72,6 +72,29 @@ function WoWPro:Print(message,...)
 end
 WoWPro:Export("Print")
 
+function WoWPro.toboolean(v)
+    if type(v) == "string" then
+        v = strlower(v)
+        if v == "true" then
+            return true
+        end
+        if v == "false" then
+            return false
+        end
+        return nil
+    end
+    if type(v) == "number" then
+        return  v ~= 0
+    end
+    if type(v) == "boolean" then
+        return v
+    end
+    return nil
+  end
+WoWPro:Export("toboolean")
+
+
+
 -- Default profile options --
 local defaults = { profile = {
 	drag = true,

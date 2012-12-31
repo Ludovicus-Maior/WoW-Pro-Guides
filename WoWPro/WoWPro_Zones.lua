@@ -77,7 +77,7 @@ WoWPro.Zone2MapID = {
 			["floor"] = 2,
 			["mapName"] = "Moonshrine Sanctum",
 		},
-		["Orgrimmar"] = {
+		["@Orgrimmar"] = {
 			["numFloors"] = 2,
 			["mapID"] = 321,
 			["cont"] = 1,
@@ -2368,7 +2368,7 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 727,
 			["mapName"] = "TheSteamvault",
 		},
-		["Orgrimmar@Orgrimmar"] = {
+		["Orgrimmar"] = {
 			["dungeon"] = "Orgrimmar",
 			["mapID"] = 321,
 			["cont"] = 1,

@@ -89,22 +89,6 @@ function WoWPro.WorldEvents:NextStep(k, skip)
 			end
 		end
 	end
-
-	
-	-- Skipping Achievements if completed  --
-	if WoWPro.ach[k] then
-		local achnum, achitem = string.split(";",WoWPro.ach[k])
-		local count = GetAchievementNumCriteria(achnum)
-		if count == 0 then
-			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
-			if Completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true
-			else skip=false end
-		else
-			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-			if completed then skip=true WoWProCharDB.Guide[GID].skipped[k] = true
-			else skip=false end
-		end
-	end
 					
 	return skip
 end
@@ -230,7 +214,7 @@ local function ParseQuests(...)
 				_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
 				WoWPro.step[i] = WoWPro.step[i]:trim()
 				WoWPro.stepcount = WoWPro.stepcount + 1
-				WoWPro.QID[i] = tonumber(text:match("|QID|([^|]*)|?"))
+				WoWPro.QID[i] = text:match("|QID|([^|]*)|?")
 				WoWPro.note[i] = text:match("|N|([^|]*)|?")
 				WoWPro.map[i] = text:match("|M|([^|]*)|?")
 				if text:find("|S|") then 
@@ -265,10 +249,12 @@ local function ParseQuests(...)
 				if text:find("|NC|") then WoWPro.noncombat[i] = true end
 				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
 --				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
+    			WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
 				WoWPro.target[i] = text:match("|T|([^|]*)|?")
                                 WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
 				WoWPro.prof[i] = text:match("|P|([^|]*)|?")
 				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
+				WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
 				WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
 
 				if WoWPro.ach[i] then
@@ -319,6 +305,8 @@ function WoWPro.WorldEvents:LoadGuide()
 			numQIDs = 0
 		end
 
+		WoWProCharDB.Guide[GID].completion[i] = false
+		completion = false
 		for j=1,numQIDs do
 			local QID 
 			if WoWPro.QID[i] then
@@ -329,13 +317,11 @@ function WoWPro.WorldEvents:LoadGuide()
 				QID = nil
 			end
 
-		    -- Event Quest Query, always as the silly client
-		    if WoWPro:IsQuestFlaggedCompleted(QID,true) then
+		    -- Event Quest Query, always ask the silly client
+		    -- Note we mark as complete if ANY of the QIDs are complete
+		    if QID and WoWPro:IsQuestFlaggedCompleted(QID,true) then
 			    WoWProCharDB.Guide[GID].completion[i] = true
 			    completion = true
-			else
-			    WoWProCharDB.Guide[GID].completion[i] = false
-			    completion = false
 			end
 	
 		    -- Quest Accepts and Completions --
@@ -489,7 +475,7 @@ function WoWPro.WorldEvents:RowUpdate(offset)
 			QuestMapUpdateAllQuests()
 			QuestPOIUpdateIcons()
 			local _, x, y, obj
-			if QID then _, x, y, obj = QuestPOIGetIconInfo(QID) end
+			if tonumber(QID) then _, x, y, obj = QuestPOIGetIconInfo(tonumber(QID)) end
 			if coord or x then
 				table.insert(dropdown, 
 					{text = "Map Coordinates", func = function()
@@ -728,7 +714,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
     
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
-	    WoWPro:Print("Completing Quest "..tostring(GetQuestID()))
+	    WoWPro.WorldEvents:Print("Completing Quest "..tostring(GetQuestID()))
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
         WoWPro:dbp("QC: "..WoWPro.action[qidx].."'"..questtitle.."', vs '"..WoWPro.step[qidx].."'")
@@ -787,19 +773,21 @@ end
 function WoWPro.WorldEvents:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
-
+	
 	if WoWProCharDB.Guide then
 		for i=1,#WoWPro.action do
 		
 			local action = WoWPro.action[i]
 			local completion = WoWProCharDB.Guide[GID].completion[i]
-		
+			WoWPro.WorldEvents:dbp("Running: AutoCompleteQuestUpdate questComplete=%s, action=%s, completion=%s",tostring(questComplete),action,tostring(completion))
+			
 			if WoWPro.QID[i] then
 				local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
 				for j=1,numQIDs do
 					local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 					QID = tonumber(QID)
 
+					WoWPro.WorldEvents:dbp("AutoCompleteQuestUpdate: Testing QID=%s",tostring(QID))
 			        -- Quest Turn-Ins --
 			        if WoWPro.WorldEvents.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
 				        WoWPro.CompleteStep(i)

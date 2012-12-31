@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2012-12-31 06:41
+-- Who: Emmaleah
+-- Log: added exalted quest chain. corrected QO for Kovok, changed QO's for Sampling the Empires finest|QID|31496 (I hope this one will auto check off - but it may still be wrong)
+
+-- URL: http://wow-pro.com/node/3504/revisions/25263/view
+-- Date: 2012-12-22 23:52
+-- Who: Emmaleah
+-- Log: patch 5.1 changed seeds of fear to require 5 shards (down from 20)
+
+-- URL: http://wow-pro.com/node/3504/revisions/25262/view
+-- Date: 2012-12-22 23:46
+-- Who: Emmaleah
+-- Log: tweaked C Quiet Now, so it would auto check off.
+
+-- URL: http://wow-pro.com/node/3504/revisions/25261/view
+-- Date: 2012-12-22 22:33
+-- Who: Emmaleah
+-- Log: put active tags on the A steps for Kapa'ak, Matriach's Maw and Warlords Ashes.  Put coords in for Kovak.
+
+-- URL: http://wow-pro.com/node/3504/revisions/25191/view
 -- Date: 2012-11-09 02:23
 -- Who: Emmaleah
 -- Log: corrected Typo
@@ -95,7 +115,27 @@ C Beneath The Heart Of Fear|QID|31018|N|Awaken Xaril the Poisoned Mind. Click th
 
 T Beneath The Heart Of Fear|QID|31018|M|54.80,36.00|N|To Xaril the Poisoned Mind|
 
+; One-Time Quests at Exalted - also requires Ach Amber is the color of my energy (7312) and Dread Haste Makes Dread Waste (6540) which if you followed this guide and the Dread Wastes guide... you will have.
 
+A The Empress' Gambit|QID|31959|REP|The Klaxxi;1337;exalted|M|55,35.6|N|From Malik the Unscathed.|
+
+N Klaxxi Augmentation-Raining Blood|M|54.91,36.17|N|Get the Klaxxi buff Raining Blood from Xaril the Poisoned Mind, its the only one that really helps with this chain.|
+
+C The Empress' Gambit|QID|31959|M|40.40,34.56|N|Talk to Malik the Unscathed to start the dialog, watch and wait for the completion.|
+
+T The Empress' Gambit|QID|31959|N|Turn in to UI Alert.|
+
+A The Wrath of Shek'zeer|QID|31609|PRE|31959|N|From UI Alert.|
+
+C The Wrath of Shek'zeer|QID|31609|M|41.6,40.0;44.6,35.2;43.81,29.67|N|Only one of the three bosses will be up at any time, and there will be a few minutes between the death of one and the spawn of the next.  During that time, you can work on the 25 subjugates.  The Klaxxi NPC's will help you with the boss types, but not with the subjugates.|
+
+T The Wrath of Shek'zeer|QID|31609|M|55.06,35.84|N|Back to Klaxxi'vess and turn in to Kil'ruk the Wind-reaver.|
+
+A Shadow of the Empire|QID|31612|PRE|31609|M|55.06,35.84|N|From Kil'ruk the Wind-reaver.|
+
+C Shadow of the Empire|QID|31612|M|55.06,35.84|N|Talk to Kil'ruk and then follow him, listen to his dialog.|
+
+T Shadow of the Empire|QID|31612|M|55.06,35.84|N|To Kil'ruk the Wind-reaver (back up top in Klaxxi'vess).|
 
 ; Accept available dailies
 
@@ -115,7 +155,7 @@ A Kil'ruk the Wind-Reaver's Quests|M|55.10,35.90|N|Grab any and all quests from 
 
 C Dark Skies|QID|31216|M|54.80,36.00|N|Speak to Xaril the Poisoned Mind to start the bombing run.|
 
-R Locate Kovok|QID|31808|QO|Kovok Located: 1/1|N|Use Kovok to slay 200 Mantids|
+C Locate Kovok|QID|31808|QO|Locate Kovok near the Clutches of Shek'zeer: 1/1|M|50.7,41.6|N|Use Kovok to slay 200 Mantids.|
 
 C Rampage Against the Machine|QID|31808|M|51.00,43.00|N|Kill Mantids all over the area.|
 
@@ -169,7 +209,7 @@ C Putting An Eye Out|QID|31234|N|Drops from Mire Beasts.|S|
 
 K Summon and Kill Warlord Gurthan|QID|31233;31232;31231;31237;31235;31234|L|88715|M|66.20,31.80|N|Requires two players; one to /lay on Green Rune and another to /kneel on the Red Rune.|N|Loot his corpse.|
 
-A The Warlord's Ashes|QID|31677|O|U|88715|N|Accept the quest from the ashes.|
+A The Warlord's Ashes|ACTIVE|31233;31232;31231;31237;31235;31234|QID|31677|O|U|88715|N|Accept the quest from the ashes.|
 
 C Putting An Eye Out|QID|31234|US|M|67.20,36.00|N|Drops from Mire Beasts.|
 
@@ -205,17 +245,17 @@ C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|
 
 C Wing Clip|QID|31502|N|Collect 24 Needler Wings from Shek'zeer Needlers.|US|M|35.60,31.40|
 
-K Karanosh|QID|31109;31504;31504;31502;31503;31599|M|41.80,33.60|L|87878|T|Karanosh|N|Kill Karanosh and Loot the Enormous Kunchong Mandibles.|
+K Karanosh|QID|31109;31504;31502;31503;31599|M|41.80,33.60|L|87878|T|Karanosh|N|Kill Karanosh and Loot the Enormous Kunchong Mandibles.|
 
-A The Matriarch's Maw|QID|31599|U|87878|N|Accept the quest from the mandibles.|
+A The Matriarch's Maw|ACTIVE|31109;31504;31502;31503;31599|QID|31599|U|87878|N|Accept the quest from the mandibles.|
 
-C Sap Jar filled at feeder 1 of 4|QID|31496|U|87400|QO|Sap Jar filled: 1/1|M|36.00,32.00|
+C Sap Jar filled at North feeder|QID|31496|U|87400|QO|North Sap Jar filled: 1/1|M|36.00,32.00|
 
-C Sap Jar filled at feeder 2 of 4|QID|31496|U|87400|QO|Sap Jar filled: 1/1|M|37.00,28.00|
+C Sap Jar filled at Central feeder|QID|31496|U|87400|QO|Central Sap Jar filled: 1/1|M|37.00,28.00|
 
-C Sap Jar filled at feeder 3 of 4|QID|31496|U|87400|QO|Sap Jar filled: 1/1|M|38.00,31.00|
+C Sap Jar filled at East feeder|QID|31496|U|87400|QO|East Sap Jar filled: 1/1|M|38.00,31.00|
 
-C Sap Jar filled at feeder 4 of 4|QID|31496|U|87400|QO|Sap Jar filled: 1/1|M|39.00,29.00|
+C Sap Jar filled at Northeast feeder|QID|31496|U|87400|QO|Northeast Sap Jar filled: 1/1|M|39.00,29.00|
 
 C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|
 
@@ -227,7 +267,7 @@ R Zan'Vess|QID|31111;31508;31509;31506;31505;31507;31510|Z|The Briny Muck|N|Get 
 
 K Kypa'rak|QID|31111;31508;31509;31506;31505;31507;31510|M|34.20,59.80|T|Kypa'rak|L|87871 |N|Loot the Massive Kyparite Core.|
 
-A Kypa'rak's Core|QID|31598|O|U|87871|N|Accept the quest from the kyparite core.|
+A Kypa'rak's Core|ACTIVE|31111;31508;31509;31506;31505;31507;31510|QID|31598|O|U|87871|N|Accept the quest from the kyparite core.|
 
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|S|
 
@@ -241,7 +281,9 @@ K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|Vess-Guard Vik'az slain: 1/1|
 
 C Meltdown|QID|31507|M|23.00,77.60|U|87841|N|Slay 6 Zan'thik Venomstings in Zan'vess. Use Korven's Experimental Grenade to counter their armor plating.|
 
-R Quiet Now|QID|31510|M|24.20,86.20|QO| Adjunct Sek'ot slain: 1/1|N|Interact with the Zan'thik Resonating Crystal at the Whispering Stones in Zan'vess to incite Adjunct Sek'ot, then slay him.|
+R Whispering Stones|QID|31510|M|24.20,86.20|N|Interact with the Zan'thik Resonating Crystal at the Whispering Stones in Zan'vess to incite Adjunct Sek'ot|
+
+K Adjunct Sek'ot|QID|31510|M|24.20,86.20|T|Adjunct Sek'ot|QO|Adjunct Sek'ot slain: 1/1|N|After you interact with the crystal, he will appear, kill him.|
 
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|US|M|29.20,89.60|
 
@@ -259,7 +301,7 @@ T Kypa'rak's Core|QID|31598|M|55.00,35.40|N|To Ambersmith Zikk.|
 
 T The Matriarch's Maw|QID|31599|M|55.00,35.40|N|To Ambersmith Zikk.|
 
-T Seeds of Fear|M|55.00,35.40|O|L|87903 20|N|If you have 20 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|
+T Seeds of Fear|M|55.00,35.40|O|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20
 
 
 

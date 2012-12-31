@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2012-12-18 17:15
+-- Who: Ludovicus Maior
+-- Log: OK, my last cleanup of Winter's Blossom, coords tweaks, and a few QO's.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25252/view
+-- Date: 2012-12-16 19:49
+-- Who: Ludovicus Maior
+-- Log: Coordinate edits and a |S| step.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25248/view
 -- Date: 2012-12-15 21:08
 -- Who: Emmaleah
 
@@ -624,42 +634,48 @@ T Unmasking the Yaungol|QID|30690|M|44.48,89.91|N|To Shado-Master Chong.|
 A To Winter's Blossom|QID|30699|M|44.48,89.91|N|From Shado-Master Chong.|
 r Repair/Restock|QID|30699|M|44.23,90.25|N|At Fixxit Redhammer.|
 f Serpent's Spine|QID|30699|M|43.92,89.56|N|Up the stairs, at Kite Master Ni.|
-H Kota Basecamp|QID|30699|N|Fly if your hearth isn't set to Kota Basecamp, if you took Koto Kon down to the gate, dont forget to turn in The Burlap Grind now.|
 
+; Winter's Blossom
+H Kota Basecamp|QID|30699|N|Fly if your hearth isn't set to Kota Basecamp, if you took Koto Kon down to the gate, dont forget to turn in The Burlap Grind now.|
 R Winter's Blossom|QID|30699|M|34.97,59.36|
-T To Winter's Blossom|QID|30699|M|34.97,59.36|N|To Lin Silentstrike.|
-A Honor, Even in Death|QID|30723|M|34.93,59.20|N|From Lin Silentstrike.|
-A A Line Unbroken|QID|30715|M|35.14,59.59|N|From Ban Bearheart.|
-f Winter's Blossom|QID|30715|M|34.55,59.00|N|At Kite Master Len.|
-A Better Dead than Dread|QID|31847|M|34.55,59.00|N|From Kite Master Len. Requires level 89, gives the flightpath to Brewmistriss Yi (not all of the quests to see Brewmaster Yi give the FP, so it may be worth coming back here to get this later, if you aren't 89 yet.|
+T To Winter's Blossom|QID|30699|M|34.96,59.40|N|To Lin Silentstrike.|
+A Honor, Even in Death|QID|30723|M|34.96,59.40|N|From Lin Silentstrike.|
+A A Line Unbroken|QID|30715|M|35.12,59.66|N|From Ban Bearheart.|
+f Winter's Blossom|QID|30715|M|34.54,59.12|N|At Kite Master Len.|
+A Better Dead than Dread|QID|31847|M|34.54,59.12|N|From Kite Master Len. Requires level 89, gives the flightpath to Brewmistriss Yi (not all of the quests to see Brewmaster Yi give the FP, so it may be worth coming back here to get this later, if you aren't 89 yet.|
 C Honor, Even in Death|QID|30723|S|M|30.22,62.06|
-C A Line Unbroken|QID|30715|M|30.20,62.58;30.01,64.48;30.47,60.07|CS|NC|N|Click on each of the three heroes.|
+C A Line Unbroken|QID|30715|M|30.36,60.05|QO|Shado-Master Zhiyao Released From his Oath: 1/1|NC|N|Click on the hero.|
+C A Line Unbroken|QID|30715|M|30.17,62.49|QO|Liu of the Thousand Blows Released From his Oath: 1/1|NC|N|Click on the hero.|
+C A Line Unbroken|QID|30715|M|29.97,64.44|QO|Shiya Boldblade Released From her Oath: 1/1|NC|N|Click on the hero.|
 C Honor, Even in Death|QID|30723|US|M|30.22,62.06|
-T A Line Unbroken|QID|30715|M|35.16,59.61|N|To Ban Bearheart.|
-T Honor, Even in Death|QID|30723|M|34.98,59.23|N|To Lin Silentstrike.|
-A To the Wall!|QID|30724|M|35.01,59.22|N|From Lin Silentstrike.|
+T A Line Unbroken|QID|30715|M|35.12,59.66|N|To Ban Bearheart.|
+T Honor, Even in Death|QID|30723|M|34.95,59.31|N|To Lin Silentstrike.|
+A To the Wall!|QID|30724|M|34.95,59.31|N|From Lin Silentstrike.|
 C To the Wall!|QID|30724|M|34.55,59.05|N|Talk to Lin for a ride to the wall.|
-T To the Wall!|QID|30724|M|29.31,62.31|N|To Suna Silentstrike.|
-A Off the Wall!|QID|30750|M|29.30,62.32|N|From Suna Silentstrike.|
-A A Terrible Sacrifice|QID|30751|M|29.25,62.33|N|From Lao-Chin the Iron Belly.|
-C A Terrible Sacrifice|QID|30751|M|26.27,59.10|
+T To the Wall!|QID|30724|M|29.31,62.29|N|To Suna Silentstrike.|
+A Off the Wall!|QID|30750|M|29.31,62.29|N|From Suna Silentstrike.|
+A A Terrible Sacrifice|QID|30751|M|29.24,62.30|N|From Lao-Chin the Iron Belly.|
+C A Terrible Sacrifice|QID|30751|S|M|26.27,59.10|
 C Off the Wall!|QID|30750|M|26.98,59.95|N|Right Click to boot them off the wall (at low health).|
-T Off the Wall!|QID|30750|M|29.28,62.22|N|To Suna Silentstrike.|
-T A Terrible Sacrifice|QID|30751|M|29.28,62.22|N|To Lao-Chin the Iron Belly.|
-A Lao-Chin's Gambit|QID|30994|M|29.28,62.22|N|From Suna Silentstrike.|
+C A Terrible Sacrifice|QID|30751|US||26.27,59.10|
+C Off the Wall!|QID|30750|M|26.98,59.95|N|Right Click to boot them off the wall (at low health).|
+T Off the Wall!|QID|30750|M|29.31,62.29|N|To Suna Silentstrike.|
+T A Terrible Sacrifice|QID|30751|M|29.24,62.30|N|To Lao-Chin the Iron Belly.|
+A Lao-Chin's Gambit|QID|30994|M|29.31,62.29|N|From Suna Silentstrike.|
 C Lao-Chin's Gambit|QID|30994|M|29.31,62.25|N|Talk to Suna for a ride back.|
-T Lao-Chin's Gambit|QID|30994|M|31.85,60.18|N|To Lao-Chin the Iron Belly.|
-A Do a Barrel Roll!|QID|30991|M|31.85,60.18|N|From Lao-Chin the Iron Belly.|
-C Do a Barrel Roll!|QID|30991|M|31.95,60.43|N|Click on the barrels, to contril them, you steer towards the target (with your mouse or arrows), then press 1 to blow up the barrel.|
-T Do a Barrel Roll!|QID|30991|M|31.82,60.16|N|To Lao-Chin the Iron Belly.|
-A Finish This!|QID|30992|M|31.82,60.16|N|From Lao-Chin the Iron Belly.|
+T Lao-Chin's Gambit|QID|30994|M|31.82,60.10|N|To Lao-Chin the Iron Belly.|
+A Do a Barrel Roll!|QID|30991|M|31.82,60.10|N|From Lao-Chin the Iron Belly.|
+C Do a Barrel Roll!|QID|30991|M|31.95,60.43|N|Click on the barrels, to control them, you steer towards the target (with your mouse or arrows), then press 1 to blow up the barrel.|
+T Do a Barrel Roll!|QID|30991|M|31.82,60.10|N|To Lao-Chin the Iron Belly.|
+A Finish This!|QID|30992|M|31.82,60.10|N|From Lao-Chin the Iron Belly.|
 C Finish This!|QID|30992|M|31.30,61.61|
-T Finish This!|QID|30992|M|31.30,61.61|N|To Ban Bearheart.|
+T Finish This!|QID|30992|M|31.29,61.50|N|To Ban Bearheart.|
 A Where are My Reinforcements?|QID|30993|M|31.30,61.61|N|From Ban Bearheart.|
 ;A My Husband...|QID|30768|M|31.30,61.61|N|From Suna Silentstrike.|;apparently Blizzard changed this to be mutually exclusive with beyond the wall *it wasnt originally*??
-C Where are My Reinforcements?|QID|30993|M|34.08,58.62|N|Talk to Ban while down in the valley and then again beside the balloon.)
-T Where are My Reinforcements?|QID|30993|M|35.29,49.45|N|To Ban Bearheart. Follow Ban, hop in his balloon.|
-A Unbelievable!|QID|30752|M|35.29,49.45|N|From Ban Bearheart.|
+C Where are My Reinforcements?|QID|30993|M|31.30,61.61|NC|QO|Tell Ban You are Ready to Leave: 1/1|N|Talk to Ban while down in the valley|
+C Where are My Reinforcements?|QID|30993|M|33.96,58.62|NC|QO|Ride Ban's Balloon to the Shado-Pan Monastery: 1/1|N|Talk to Ban Bearheart and listen to his history lesson.|
+T Where are My Reinforcements?|QID|30993|M|35.31,49.56|N|To Ban Bearheart.|
+A Unbelievable!|QID|30752|M|35.31,49.56|N|From Ban Bearheart.|
 C Unbelievable!|QID|30752|M|36.75,47.67|N|Ask the guard at the door to let you in, fight him when he refuses.|
 T Unbelievable!|QID|30752|M|36.75,47.67|N|To Ban Bearheart.|
 A Into the Monastery|QID|31030|M|36.75,47.67|N|From Ban Bearheart. This is a dungeon quest.|

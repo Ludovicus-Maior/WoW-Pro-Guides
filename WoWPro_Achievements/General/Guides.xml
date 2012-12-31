@@ -1,4 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="Emmaleah_LostFound.lua"/>
 	<Script file="Emmaleah_Lorewalkers.lua"/>
+	<Script file="TwoToad_Caressed.lua"/>
 </Ui>
