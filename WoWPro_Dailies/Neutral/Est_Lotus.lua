@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2013-01-06 02:17
+-- Who: Emmaleah
+-- Log: Changed LEAD quests for the Whitepetal Lake attacked hub, so it will not require manually checking the hub off. 
+
+-- URL: http://wow-pro.com/node/3502/revisions/25271/view
 -- Date: 2012-12-27 11:30
 -- Who: Estelyen
 -- Log: Reversed one change from the previous rewrite as it didn't work like I hoped it would
@@ -448,10 +453,10 @@ T The Thunder Below|QID|30280|N|To Leven Dawnblade.|M|33.81,38.49|
 T The Imperion Threat|QID|30302|N|To Leven Dawnblade.|M|33.81,38.49|
 
 ; Daily Quest-hub H (Whitepetal Lake, attacked)
-A Burning Away the Filth|QID|30282|LEAD|31131;31242;31243;31248;31249;31250|N|From Anji Autumnlight.|M|56.57,43.62|
-A Random Whitepetal Lake Daily from Kun Autumnlight|QID|30292;30293|LEAD|31131;31242;31243;31248;31249;31250|N|Accept the daily quest that Kun Autumnlight offers.|M|56.51,43.64|
-A The Silent Approach|QID|30281|LEAD|31131;31242;31243;31248;31249;31250|N|From He Softfoot.|M|56.55,43.21|
-A A Smashing Impression|QID|30283|LEAD|31131;31242;31243;31248;31249;31250|N|From Ren Firetongue.|M|56.68,43.17|
+A Burning Away the Filth|QID|30282|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|From Anji Autumnlight.|M|56.57,43.62|
+A Random Whitepetal Lake Daily from Kun Autumnlight|QID|30292;30293|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|Accept the daily quest that Kun Autumnlight offers.|M|56.51,43.64|
+A The Silent Approach|QID|30281|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|From He Softfoot.|M|56.55,43.21|
+A A Smashing Impression|QID|30283|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|From Ren Firetongue.|M|56.68,43.17|
 C The Silent Approach|QID|30281|N|Kill Shao-Tien Mogu around Whitepetal Lake.|M|40.71,48.10|S|
 C In Enemy Hands|QID|30293|N|Kill the Shao-Tien Mindbenders around the lake while ignoring their mind-contolled companions to free them.|M|40.71,48.10|S|
 C Rude Awakenings|QID|30292|N|Kill Dominated Paleblade Flesheaters.|M|40.71,48.10|S|
