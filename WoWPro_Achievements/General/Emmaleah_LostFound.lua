@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2013-01-06 01:51
+-- Who: Emmaleah
+-- Log: changed guide title. Someone else will need to update wiki page title.
+
+-- URL: http://wow-pro.com/node/3514/revisions/25276/view
+-- Date: 2013-01-06 01:49
+-- Who: Emmaleah
+-- Log: changed words of 2 of 6 to Setting of Ranks (somehow I missed changing that one last month) Changed the final N step to list all 8 achievements.
+
+-- URL: http://wow-pro.com/node/3514/revisions/25225/view
 -- Date: 2012-12-02 01:25
 -- Who: Emmaleah
 -- Log: 5.1 changes - new achievements Treasures of Pandaria(1); Fortune of Pandaria(5);Bounty of Pandaria(10); Riches of Pandaria(18)  Removed note about Phasing for ancient pandaran teapot (Bliz fixxed it) Renamed  "wall of text" to more descriptive titles.
@@ -18,12 +28,12 @@
 -- Who: Ludovicus Maior
 -- Log: Close of Blog Page
 
-WoWPro.Achievements:RegisterGuide('EmmAchLost','MoP Zones', 'Lost and Found', 'Achievement', 'Mists of Pandaria', 'Emmaleah','Neutral', function()
+WoWPro.Achievements:RegisterGuide('EmmAchLost','MoP Zones', 'Lost and Found - Riches of Pandaria', 'Achievement', 'Mists of Pandaria', 'Emmaleah','Neutral', function()
 return [[
 
 N Lost and Found|QID|972810001|N|This guide is for all of the lost things in Pandaria, not just the ones that give this achievement. There are actually four achiements in the chain for finding 1, 5, 10 and finaly 20 items. There are a total of 28 that can be found that qualify. Most of the items for the achievement are BOA and all are blue quality, except the two recipes(white) and the ancient woodcutter(grey). These items are rare, thus not always there.|
 N Riches of Pandaria|QID|979940001|N|Patch 5.1 brought new achievements. This is a chain of achievements for finding the grey items, each woth ~100g. The achievements are called Treasures of Pandaria - finding 1; Fortune of Pandaria - finding 5; Bounty of Pandaria - finding 10; and lastly, Riches of Pandaria - finding all 18. These items are common and will always be available.  Some of them move around in the general location. others are a static spawn.|
-N Wall of text 2 of 6|QID|972810001|N|If you are only interested in the Lost and Found achievement set the guide to RANK 1. RAND 2 includes the items for Riches of Pandaria achievement as well. These items mostly sell for 100+gold.  The items that give little gold or xp, nor are part of any achievement should only be included if you set it to RANK 3.|
+N Setting of Ranks|QID|972810001|N|If you are only interested in the Lost and Found achievement set the guide to RANK 1. RANK 2 includes the items for Riches of Pandaria achievement as well. These items mostly sell for 100+gold.  The items that give little gold or xp, nor are part of any achievement should only be included if you set it to RANK 3.|
 N Basic "how it works"|QID|972810001|N|These use hidden "flag" quests so that the items will only be available once per character. If you move while opening the container (including being attacked) you may lose the item, and so far GMs have not been replacing, Also, if your inventory is full, no item. You do get the achievement even if you don't get the item. If you are using this addon, you do not need the scripts on Wowhead to tell you which ones you haven't yet found, as that is what this does, by checking off the steps as you find them.|
 N Some require NPC Interaction|QID|972810001|N|Some of the items require you talk to NPC's to get the item (instead of groundspanws). There are target buttons for those steps, the number beside thier name (in the note) is thier NPC code if you want to add to NPC Scan.|
 N Some may already be completed|QID|972810001|N|These all give XP If done pre-90 so the leveling guides have you look for several (most) of them. The ones for the achievement are rare, you will need to manually skip several of them (since they won't be there) and come back another day. Reset the guide to unmark the skipped steps and start over.|
@@ -90,7 +100,7 @@ A Sturdy Yaungol Spear|QID|31421|L|88723|RANK|1|M|71.2,62.6;70.0,63.8|Z|Kun-Lai 
 A Stolen Sprite Treasure|QID|31415|RANK|2|M|56.8,48.9|Z|Kun-Lai Summit|N|End of Howlingwind Cavern.|
 A Sprite's Cloth Chest|QID|31412|RANK|1|M|74.7,74.9|Z|Kun-Lai Summit|N|End of sprite cave. Loot (ilvl 434 cloak) will be specific to your current spec (and BOP).|
 
-N Keep resetting|QID|972810001|N|until you find them all (or give up). In the end you should have earned the following four achievements: Lost and Found, Finders Keepers, One Man's Trash..., Is Another Man's Treasure.|
+N Keep resetting|QID|972810001|N|until you find them all (or give up). In the end you should have earned the following eight achievements: Treasures of Pandaria; Fortune of Pandaria; Bounty of Pandaria: Riches of Pandaria; Lost and Found, Finders Keepers, One Man's Trash..., Is Another Man's Treasure.
 
 ]]
 end)
