@@ -254,7 +254,6 @@ function WoWPro.Achievements:LoadGuide()
 	for i=1, WoWPro.stepcount do
 		local action = WoWPro.action[i]
 		local completion = WoWProCharDB.Guide[GID].completion[i]
-		local level = WoWPro.level[i]
 		local numQIDs
 
 		if WoWPro.QID[i] then

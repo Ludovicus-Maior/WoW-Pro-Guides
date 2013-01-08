@@ -63,6 +63,12 @@ function WoWPro:LoadGuide(guideID)
 	end 
 	WoWPro:dbp("Loading Guide: "..GID)
 	
+	-- Creating a new entry if this guide does not have one
+	if WoWProCharDB.Guide[GID] == nil then
+	    WoWProCharDB.Guide[GID] = {}
+	    WoWProCharDB.Guide[GID].Version = WoWPro.Version
+	end
+
     -- If we have upgraded, wipe the old information and re-create
 	if WoWProCharDB.Guide[GID] and WoWPro.Version ~= WoWProCharDB.Guide[GID].Version then
 	    WoWPro:Print("Resetting Guide "..GID.." due to upgrade.  Forgetting skipped steps.")
@@ -251,6 +257,13 @@ function WoWPro:NextStep(k,i)
 			
 		end
 	
+	    -- Skip C or T steps if not in QuestLog
+	    if WoWPro.action[k] == "C" or WoWPro.action[k] == "T" then
+	        if not WoWPro:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then 
+    			skip = true -- If the quest is not in the quest log, the step is skipped --
+    		end
+    	end
+    		
 	    -- Check for must be active quests
         if WoWPro.active and WoWPro.active[k] then
     		if not WoWPro:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
@@ -258,6 +271,21 @@ function WoWPro:NextStep(k,i)
     		end		
         end
 
+        -- Checking level based completion --
+        if WoWPro.level and WoWPro.level[k] then
+            local level = tonumber(WoWPro.level[k])
+            if WoWPro.action[k] == "L" and level <= UnitLevel("player") then
+                WoWProCharDB.Guide[GID].completion[i] = true
+                skip = true
+                break
+            end
+            if WoWPro.action[k] ~= "L" and level > UnitLevel("player") then
+                skip = true
+--                WoWPro:dbp("Skip %s [%s] because its level %d is too high.",WoWPro.action[k],WoWPro.step[k],level)
+                break
+            end
+        end
+            
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof and WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
@@ -388,6 +416,7 @@ function WoWPro:NextStep(k,i)
     	
     	-- Skipping spells if known.
     	-- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
+    	-- This tests for Spells you can put on a button, essentially.
     	if WoWPro.spell and WoWPro.spell[k] then
     	    local spellNick,spellID,spellFlip = string.split(";",WoWPro.spell[k])
     	    local spellName = GetSpellInfo(tonumber(spellID))
@@ -401,6 +430,29 @@ function WoWPro:NextStep(k,i)
 				skip = true
 				WoWPro:dbp("Skipping because spell [%s] is known=%s",spellName, tostring(not not spellKnown))
 			end
+    	end
+    	-- This tests for spells that are cast on you and show up as buffs
+    	if WoWPro.buff and WoWPro.buff[k] then
+    	    local buffies = {}
+    	    local buffIdx
+    	    for buffIdx = 1, select("#",string.split(";",WoWPro.buff[k])) do
+    	        local buff = select(buffIdx,string.split(";",WoWPro.buff[k]))
+--    	        WoWPro:Print("Testing for buff #%d aka [%s]",buffIdx,tostring(buff))
+    	        buffies[buffIdx] = tonumber(buff)
+    	    end
+    	    local BuffIndex = 1
+    	    local BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+    	    while BuffName and not skip do
+    	        for buffIdx = 1, #buffies do
+    	            if BuffSpellId == buffies[buffIdx] then
+    	                skip = true
+    	                WoWPro:dbp("Skipping because [%s] is buff #%d",BuffName,BuffIndex)
+    	                break
+    	            end
+    	        end
+    	        BuffIndex = BuffIndex + 1
+    	        BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+    	    end
     	end
         
 		-- Skipping any quests with a greater completionist rank than the setting allows --
@@ -624,7 +676,7 @@ function WoWPro:Questline(qid)
     if not Grail then return end
     WoWPro:SkipAll()
     WoWPro:QuestPrereq(qid)
-    WoWPro:UpdateGuide()
+    WoWPro:LoadGuide(nil)
 end
 
 
@@ -646,6 +698,16 @@ function WoWPro:GrailQuestPrereq(qid)
     return PREstr
 end
 
+function WoWPro:GrailQuestLevel(qid)
+    if not Grail then return nil end
+    local level = Grail:QuestLevel(tonumber(qid))
+    if level then
+        return tostring(level)
+    else
+        return nil
+    end
+end
 
--- /run WoWPro:Questline("26569")
+
+-- /run WoWPro:Questline("14282")
 -- /run WoWPro:Questline("10006")

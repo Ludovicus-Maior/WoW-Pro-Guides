@@ -256,6 +256,7 @@ local function ParseQuests(...)
 				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
 				WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
 				WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
+				WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
 
 				if WoWPro.ach[i] then
 					local achnum, achitem = string.split(";",WoWPro.ach[i])
@@ -296,7 +297,6 @@ function WoWPro.WorldEvents:LoadGuide()
 	for i=1, WoWPro.stepcount do
 		local action = WoWPro.action[i]
 		local completion = WoWProCharDB.Guide[GID].completion[i]
-		local level = WoWPro.level[i]
 		local numQIDs
 
 		if WoWPro.QID[i] then
@@ -304,7 +304,7 @@ function WoWPro.WorldEvents:LoadGuide()
 		else
 			numQIDs = 0
 		end
-
+				    
 		WoWProCharDB.Guide[GID].completion[i] = false
 		completion = false
 		for j=1,numQIDs do
@@ -332,13 +332,6 @@ function WoWPro.WorldEvents:LoadGuide()
 			    end
 		    end
 
-		    -- Checking level based completion --
-		    if not completion and level and action == "L" and tonumber(level) <= UnitLevel("player") then
-			    WoWProCharDB.Guide[GID].completion[i] = true
-		    end
-		    if not completion and level and action ~= "L" and tonumber(level) > UnitLevel("player") then
-			    WoWProCharDB.Guide[GID].skipped[i] = true
-		    end
 		end
 	end
 	
@@ -745,9 +738,6 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 	if event == "UI_INFO_MESSAGE" then
 		WoWPro.WorldEvents:AutoCompleteGetFP(...)
 	end
-	if event == "PLAYER_LEVEL_UP" then
-		WoWPro.WorldEvents:AutoCompleteLevel(...)
-	end
 end
 
 -- Auto-Complete: Criteria Change
@@ -923,21 +913,6 @@ function WoWPro.WorldEvents:AutoCompleteZone()
 	end
 end
 
--- Auto-Complete: Level based --
-function WoWPro.WorldEvents:AutoCompleteLevel(...)
-	local newlevel = ... or UnitLevel("player")
-	if WoWProCharDB.Guide then
-		local GID = WoWProDB.char.currentguide
-		if not WoWProCharDB.Guide[GID] then return end
-		for i=1,WoWPro.stepcount do
-			if not WoWProCharDB.Guide[GID].completion[i] 
-				and WoWPro.level[i] 
-				and tonumber(WoWPro.level[i]) <= newlevel then
-					WoWPro.CompleteStep(i)
-			end
-		end
-	end
-end
 
 -- Update Quest Tracker --
 function WoWPro.WorldEvents:UpdateQuestTracker()
@@ -1004,22 +979,4 @@ function WoWPro.WorldEvents:UpdateQuestTracker()
 		row.track:SetText(track)
 	end
 	if not InCombatLockdown() then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
-end
-
--- Get Currently Available Spells --
-function WoWPro.WorldEvents.GetAvailableSpells(...)
-	local newLevel = ... or UnitLevel("player")
-	local i, j = 1, 0
-	local availableSpells = {}
-	while GetSpellBookItemName(i, "spell") do
-		local info = GetSpellBookItemInfo(i, "spell")
-		local name = GetSpellBookItemName(i, "spell")
-		if info == "FUTURESPELL" and not "Master Riding" and not "Artisan Riding"
-		and GetSpellAvailableLevel(i, "spell") <= newLevel then
-			table.insert(availableSpells,name)
-			j = j + 1
-		end
-		i = i + 1
-	end
-	return j, availableSpells
 end
