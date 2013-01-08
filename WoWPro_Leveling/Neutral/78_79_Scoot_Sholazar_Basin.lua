@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2012-12-27 18:46
+-- Who: Ludovicus Maior
+-- Log: Whoops, the Archmage is in Dalaran.
+
+-- URL: http://wow-pro.com/node/3297/revisions/25039/view
 -- Date: 2012-08-02 11:16
 -- Who: Fluclo
 
@@ -54,7 +59,7 @@ return [[
 
 F Dalaran |QID|12521| |N|Head to Dalaran.|
 
-A Where in the World is Hemet Nesingwary? |QID|12521|N|From Archmage Pentarus, near the exit from Krasus' Landing.|M|68.68,42.06|
+A Where in the World is Hemet Nesingwary? |QID|12521|N|From Archmage Pentarus, near the exit from Krasus' Landing.|M|68.68,42.06|Z|Dalaran|
 T Where in the World is Hemet Nesingwary? |QID|12521|N|Talk to the Archmage again to get a flight. To Monte Muzzleshot. He's hanging from a tree.|M|35.68,58.65|
 
 A Welcome to Sholazar Basin |QID|12489|M|39.7,58.7|N|From Monte Muzzleshot.|

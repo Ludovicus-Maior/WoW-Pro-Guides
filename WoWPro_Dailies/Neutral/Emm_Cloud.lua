@@ -1,9 +1,35 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-WoWPro.Dailies:RegisterGuide("EmmCloud", "The Jade Forest", "Order of the Cloud Serpant Dailies", "MoP", "Emmaleah", "Neutral", function() 
- 
+-- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
+-- Date: 2012-12-19 21:58
+-- Who: Emmaleah
+-- Log: changed * to all QID #'s for Elder Anli's quests
+
+-- URL: http://wow-pro.com/node/3505/revisions/25256/view
+-- Date: 2012-12-19 21:55
+-- Who: Emmaleah
+-- Log: Added N Step about Grand Commendation and changed comment for The Tangled Web
+
+-- URL: http://wow-pro.com/node/3505/revisions/25255/view
+-- Date: 2012-12-19 03:09
+-- Who: Emmaleah
+-- Log: RC1 - Cloud Serpant Faction Dailies
+
+-- URL: http://wow-pro.com/node/3505/revisions/25160/view
+-- Date: 2012-10-24 11:29
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3505/revisions/25116/view
+-- Date: 2012-10-07 22:34
+-- Who: Ludovicus Maior
+
+WoWPro.Dailies:RegisterGuide("EmmCloud", "The Jade Forest", "Order of the Cloud Serpant Dailies", "MoP", "Emmaleah", "Neutral", function()
+
 return [[
- 
+
 N Work in progress!|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website.|
 N Hate Dailies?|N|If you want, you can skip the quests and just fly around picking up onyx eggs after you do the opening questline. They are located mostly on the top of the rocky cliffs. More on that in a few steps.|
 N Order of the Cloud Serpant|N|This guide begins in your Faction city in the Vale of Eternal Blossoms.  If you dont want to fly over there you can skip the leadin and start at the Arboretum in The Jade Forest.|
@@ -47,17 +73,17 @@ A Flight Training: Full Speed Ahead|QID|30145|PRE|30144|M|58.6,43.6|N|From Instr
 C Flight Training: Full Speed Ahead|QID|30145|NC|M|58.6,43.6|N|Mount up (vehicle green arrow). You are leashed to Instructor Windblade, follow him to learn the course.|
 T Flight Training: Full Speed Ahead|QID|30145|M|58.6,43.6|N|You have to dismount (default NumPad5) before you can turn in the quest to Instructor Windblade.|
 A Flight Training: In Due Course|QID|30187|PRE|30145|M|58.6,43.6|N|From Instructor Windblade.|
-C Flight Training: In Due Course|QID|30187|NC|M|60.56,39|QO|Checkpoints passed: 1/10|N|Mount up (vehicle green arrow).| 
-C Flight Training: In Due Course|QID|30187|NC|M|59.69,31.43|QO|Checkpoints passed: 2/10| 
-C Flight Training: In Due Course|QID|30187|NC|M|61.32,25.10|QO|Checkpoints passed: 3/10| 
-C Flight Training: In Due Course|QID|30187|NC|M|66.31,35.99|QO|Checkpoints passed: 4/10| 
-C Flight Training: In Due Course|QID|30187|NC|M|66.09,42.55|QO|Checkpoints passed: 5/10| 
-C Flight Training: In Due Course|QID|30187|NC|M|66.75,51.57|QO|Checkpoints passed: 6/10| 
+C Flight Training: In Due Course|QID|30187|NC|M|60.56,39|QO|Checkpoints passed: 1/10|N|Mount up (vehicle green arrow).|
+C Flight Training: In Due Course|QID|30187|NC|M|59.69,31.43|QO|Checkpoints passed: 2/10|
+C Flight Training: In Due Course|QID|30187|NC|M|61.32,25.10|QO|Checkpoints passed: 3/10|
+C Flight Training: In Due Course|QID|30187|NC|M|66.31,35.99|QO|Checkpoints passed: 4/10|
+C Flight Training: In Due Course|QID|30187|NC|M|66.09,42.55|QO|Checkpoints passed: 5/10|
+C Flight Training: In Due Course|QID|30187|NC|M|66.75,51.57|QO|Checkpoints passed: 6/10|
 C Flight Training: In Due Course|QID|30187|NC|M|64.00,51.92|QO|Checkpoints passed: 7/10|
-C Flight Training: In Due Course|QID|30187|NC|M|61.75,54.62|QO|Checkpoints passed: 8/10| 
-C Flight Training: In Due Course|QID|30187|NC|M|60.42,52.85|QO|Checkpoints passed: 9/10| 
-C Flight Training: In Due Course|QID|30187|NC|M|58.69,46.66|QO|Checkpoints passed: 10/10| 
-C Flight Training: In Due Course|QID|30187|NC|M|58.33,46.29| 
+C Flight Training: In Due Course|QID|30187|NC|M|61.75,54.62|QO|Checkpoints passed: 8/10|
+C Flight Training: In Due Course|QID|30187|NC|M|60.42,52.85|QO|Checkpoints passed: 9/10|
+C Flight Training: In Due Course|QID|30187|NC|M|58.69,46.66|QO|Checkpoints passed: 10/10|
+C Flight Training: In Due Course|QID|30187|NC|M|58.33,46.29|
 T Flight Training: In Due Course|QID|30187|M|58.6,43.6|N|To Instructor Windblade.|
 
 N Onyx to Goodness|QID|31784|N|if you don't want to do dailies skip the pickup quests steps and following that is a step with all the potential egg spawns marked.  TIP: find someone on a low pop realm to invite you there to search for eggs.|
@@ -89,17 +115,17 @@ C The Trainer's Challenge: Qua-Ro Whitebrow|QID|31721|M|57.2,43.4|N|Talk to him 
 C The Trainer's Challenge: Suchi the Sweet|QID|31720|M|58.4,44.6|N|Talk to her to start the fight. She does lots of AE, easiest way is to keep running in and out of range and do dmg as you go past.|
 
 ;aky race compliments of Twists
-C The Sky Race|QID|30152|NC|M|60.56,39|QO|Checkpoints passed: 1/10|N|Talk to her again to start the race.| 
-C The Sky Race|QID|30152|NC|M|59.69,31.43|QO|Checkpoints passed: 2/10| 
-C The Sky Race|QID|30152|NC|M|61.32,25.10|QO|Checkpoints passed: 3/10| 
-C The Sky Race|QID|30152|NC|M|66.31,35.99|QO|Checkpoints passed: 4/10| 
-C The Sky Race|QID|30152|NC|M|66.09,42.55|QO|Checkpoints passed: 5/10| 
-C The Sky Race|QID|30152|NC|M|66.75,51.57|QO|Checkpoints passed: 6/10| 
-C The Sky Race|QID|30152|NC|M|64.00,50.92|QO|Checkpoints passed: 7/10| 
-C The Sky Race|QID|30152|NC|M|61.75,54.62|QO|Checkpoints passed: 8/10| 
-C The Sky Race|QID|30152|NC|M|60.42,52.85|QO|Checkpoints passed: 9/10| 
-C The Sky Race|QID|30152|NC|M|58.69,46.66|QO|Checkpoints passed: 10/10| 
-C The Sky Race|QID|30152|NC|M|58.33,46.29| 
+C The Sky Race|QID|30152|NC|M|60.56,39|QO|Checkpoints passed: 1/10|N|Talk to her again to start the race.|
+C The Sky Race|QID|30152|NC|M|59.69,31.43|QO|Checkpoints passed: 2/10|
+C The Sky Race|QID|30152|NC|M|61.32,25.10|QO|Checkpoints passed: 3/10|
+C The Sky Race|QID|30152|NC|M|66.31,35.99|QO|Checkpoints passed: 4/10|
+C The Sky Race|QID|30152|NC|M|66.09,42.55|QO|Checkpoints passed: 5/10|
+C The Sky Race|QID|30152|NC|M|66.75,51.57|QO|Checkpoints passed: 6/10|
+C The Sky Race|QID|30152|NC|M|64.00,50.92|QO|Checkpoints passed: 7/10|
+C The Sky Race|QID|30152|NC|M|61.75,54.62|QO|Checkpoints passed: 8/10|
+C The Sky Race|QID|30152|NC|M|60.42,52.85|QO|Checkpoints passed: 9/10|
+C The Sky Race|QID|30152|NC|M|58.69,46.66|QO|Checkpoints passed: 10/10|
+C The Sky Race|QID|30152|NC|M|58.33,46.29|
 
 ;sri-la village
 C The Big Brew-haha|QID|31713|M|55,26|S|N|Drops from the mobs you are killing as well as being a ground spawn in Sri-La village.|

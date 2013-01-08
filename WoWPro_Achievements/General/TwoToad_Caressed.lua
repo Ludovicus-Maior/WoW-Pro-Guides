@@ -1,3 +1,22 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2012-12-21 20:46
+-- Who: TwoToad
+-- Log: Added QID's.
+
+-- URL: http://wow-pro.com/node/3520/revisions/25259/view
+-- Date: 2012-12-20 17:25
+-- Who: TwoToad
+
+-- URL: http://wow-pro.com/node/3520/revisions/25258/view
+-- Date: 2012-12-19 22:00
+-- Who: Ludovicus Maior
+-- Log: Initial
+
 WoWPro.Achievements:RegisterGuide('TwoToadSqu','MoP Zones', 'To All the Squirrels I Once Carressed?', 'Achievement', 'Mists of Pandaria', 'TwoToad','Neutral', function()
 return [[
 
