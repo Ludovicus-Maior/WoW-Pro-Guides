@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2013-01-09 01:37
+-- Who: Ludovicus Maior
+-- Log: Added CN and CS tags.
+
+-- URL: http://wow-pro.com/node/3514/revisions/25277/view
 -- Date: 2013-01-06 01:51
 -- Who: Emmaleah
 -- Log: changed guide title. Someone else will need to update wiki page title.
@@ -53,9 +58,9 @@ A Lucky Pandaren Coin|QID|31401|L|85781|RANK|2|M|31,27|Z|The Jade Forest|N|In fo
 A Wodin's Mantid Shanker|QID|31397|L|85776|RANK|1|M|39.4,7.3|Z|The Jade Forest|N|Owen's Wishing Well. Terrace of Ten Thunders.|
 A Hammer of Ten Thunders|QID|31403|L|86198|RANK|1|M|43,11.6;41.8,17.6|Z|The Jade Forest|N|Seat of the Spirit Walker, Terrace of Ten Thunders.|
 A Stash of Gems|QID|31866|L|RANK|3|M|62.47,27.55|Z|The Jade Forest|N|Cave in Windward Isle - Shadowfae Madcap, spawn point, I wouldn't recommend this one pre lvl 90.|
-A Ancient Pandaren Mining Pick|QID|31399|L|85777|RANK|1|M|46.1,29.1;44.1,27.0;43.8,30.7|Z|The Jade Forest|N|Multiple spots in Greenstone Mine.|
+A Ancient Pandaren Mining Pick|QID|31399|L|85777|RANK|1|M|46.1,29.1;44.1,27.0;43.8,30.7|Z|The Jade Forest|CN|N|Multiple spots in Greenstone Mine.|
 A Jade Infused Blade|QID|31307|L|86199|RANK|1|T|Jade Warrior Statue|M|39.4,46.65|Z|The Jade Forest|N|Talk to 'Jade Warrior Statue'[64272] at Jade Witch's house.|
-A Ancient Jinyu Staff|QID|31402|L|86196|RANK|1|M|47.1,67.4;46.2,71.2;44.9,64.6|Z|The Jade Forest|N|Many spots, bottom of river near Grookin Hill.|
+A Ancient Jinyu Staff|QID|31402|L|86196|RANK|1|M|47.1,67.4;46.2,71.2;44.9,64.6|Z|The Jade Forest|CN|N|Many spots, bottom of river near Grookin Hill.|
 A Offering of Remembrance|QID|31865|RANK|3|M|46.3,80.7|Z|The Jade Forest|N|Money bag - on the alter. Debuff is visual effect only.|
 A Ship's Locker|QID|31396|RANK|2|M|70.13,74.5|Z|Pandaria|N|Lower deck, possibly any sunken ship.|
 
@@ -67,7 +72,7 @@ A Recipe: Banana Infused Rum|QID|31411|L|87266|RANK|1|M|52.3,88.7|Z|Krasarang Wi
 A Equipment Locker|QID|31410|RANK|1|M|42.3,92|Z|Krasarang Wilds|N|Pirate ship (non-sunken) west of Unga Ingoo, in the lowest level of the ship. Loot (ilvl 419 BoP boots) will be specific to your current spec.|
 
 A Virmen Treasure Cache|QID|31405|RANK|2|M|23.71,28.29|Z|Valley of the Four Winds|N|Must be able to fly. Hidden (from the ground) virmen in cave cliffs NE Paoquan Hollow, directly below Mistfall Village.|
-A Staff of the Hidden Master|QID|31407|L|86218|RANK|1|M|19.1,37.9;15.0, 33.7;19.0,42.5|Z|Valley of the Four Winds|N|Paoquan Hollow leaning against bamboo shoots, multiple locations, so look around.|
+A Staff of the Hidden Master|QID|31407|L|86218|RANK|1|M|19.1,37.9;15.0, 33.7;19.0,42.5|Z|Valley of the Four Winds|CN|N|Paoquan Hollow leaning against bamboo shoots, multiple locations, so look around.|
 
 A Wind-Reaver's Dagger of Quick Strikes|QID|31666|L|86519|RANK|1|M|71.8,36.1|Z|Dread Wastes|N|Near base of a piller.|;31429 may be the QID, listed as both on Wowhead.
 A Blade of the Prime|QID|31433|L|86522|RANK|1|M|66.8,63.8|Z|Dread Wastes|N|Stuck in wall, Mistblade Den (lake of the stars).|
@@ -83,10 +88,10 @@ A Lucid Amulet of the Agile Mind|QID|31431|L|86521|RANK|1|M|33,30.07|Z|Dread Was
 A Amber Encased Moth|QID|31426|L|86472|RANK|2|M|65.82,86.06|Z|Townlong Steppes|N|Ambermarsh.|
 A Fragment of Dread|QID|31423|L|86516|RANK|2|M|32,61|Z|Townlong Steppes|N|Coordinates are to entrance, it can spawn many places in Niuzao Catacombs (and will move each time it's looted).|
 A Hardened Sap of Kri'vess|QID|31424|L|86517|RANK|2|M|57.4,56.6|Z|Townlong Steppes|N|Among roots of giant tree at Kiri'vess - many coords reported. So look all around the tree.|
-A Yaungol Fire Carrier|QID|31425|L|86518|RANK|1|M|66.3,44.7;66.8,48|Z|Townlong Steppes|N|Fire Camp Osul - on a brazier.|
+A Yaungol Fire Carrier|QID|31425|L|86518|RANK|1|M|66.3,44.7;66.8,48|Z|Townlong Steppes|CN|N|Fire Camp Osul - on a brazier.|
 A Abandoned Crate of Goods|QID|31427|RANK|2|M|62.76,34.08|Z|Townlong Steppes|N|Inside burning tent just west of Serpent's Spine wall.|
 
-A Kafa Press|QID|31304|L|86125|RANK|1|M|37.5,78.0;35.2,76.3|Z|Kun-Lai Summit|N|Inside an ice block 'Frozen Trail Packer'[64227]southernmost yeti cave(first coords cave entrance).|
+A Kafa Press|QID|31304|L|86125|RANK|1|M|37.5,78.0;35.2,76.3|Z|Kun-Lai Summit|CS|N|Inside an ice block 'Frozen Trail Packer'[64227]southernmost yeti cave(first coords cave entrance).|
 A Lost Adventurer's Belongings|QID|31418|RANK|2|M|36.7,79.8|Z|Kun-Lai Summit|N|Kota Peak (at Ski'thik spawn point).|
 A Terracotta Head|QID|31422|L|86427|RANK|2|M|59.25,73|Z|Kun-Lai Summit|N|Mogujia - appears just like all the other Terracotta statue pieces.|
 A Hozen Treasure Cache|QID|31414|RANK|2|M|49.5,59.4|Z|Kun-Lai Summit|N|Knucklethump hole, at back of the big cave.|
@@ -96,7 +101,7 @@ A Tablet of Ren Yun (Recipe)|QID|31417|L|86393|RANK|1|M|44.7,52.4|Z|Kun-Lai Summ
 A Rikktik's Tick Remover|QID|31419|L|86430|RANK|2|M|52,51|Z|Kun-Lai Summit|N|Rikktik's tomb - Valley of the Emperors.|
 A Ancient Mogu Tablet|QID|31420|L|86471|RANK|2|M|64,45|Z|Kun-Lai Summit|N|Path of the conquerers (on way to zouchin village behind statue - left side of room.|
 A Statue of Xuen|QID|31416|L|86422|RANK|2|M|71,33|Z|Kun-Lai Summit|N|Zandalari area,SW of Zouchin Village, middle of pond.|
-A Sturdy Yaungol Spear|QID|31421|L|88723|RANK|1|M|71.2,62.6;70.0,63.8|Z|Kun-Lai Summit|N|located on weapons rack, Fire Camp Yongqi (any fire camp?) BoA Str polearm.|
+A Sturdy Yaungol Spear|QID|31421|L|88723|RANK|1|M|71.2,62.6;70.0,63.8|Z|Kun-Lai Summit|CN|N|located on weapons rack, Fire Camp Yongqi (any fire camp?) BoA Str polearm.|
 A Stolen Sprite Treasure|QID|31415|RANK|2|M|56.8,48.9|Z|Kun-Lai Summit|N|End of Howlingwind Cavern.|
 A Sprite's Cloth Chest|QID|31412|RANK|1|M|74.7,74.9|Z|Kun-Lai Summit|N|End of sprite cave. Loot (ilvl 434 cloak) will be specific to your current spec (and BOP).|
 

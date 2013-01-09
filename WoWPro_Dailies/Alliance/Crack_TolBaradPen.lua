@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2013-01-09 01:39
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3414/revisions/25041/view
 -- Date: 2012-08-07 21:17
 -- Who: Ludovicus Maior
 -- Log: [Watch Out For Splinters!] with the bang!

@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2013-01-09 01:41
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3476/revisions/24983/view
+-- Date: 2012-05-27 18:11
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("LudoArgTour", "Icecrown", "Argent Tournament", "Lich", "Ludovicus", "Alliance", function()
 return [[
 N The Argent Tournament|N|Quests for the The Argent Tournament, for your faction, and MAYBE for the others too!|
@@ -163,9 +172,9 @@ C The Grand Melee|QID|13761;13665;13756|M|75.28,18.42|N|Mount on your new race s
 C Among the Champions|QID|13790;13793|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and sheild break and thrust while they are low.|
 
 C What Do You Feed a Yeti, Anyway?|QID|14112|M|66.5,8.3|N|Go to the Alliance Boat and get some chum|L|47036 6|
-C What Do You Feed a Yeti, Anyway?|QID|14112|M|44.8,12.6;67.2,8.2;74.5,9.5|N|Jump into the water around these points, use the chum and get the meat.|U|47036|
+C What Do You Feed a Yeti, Anyway?|QID|14112|M|44.8,12.6;67.2,8.2;74.5,9.5|CN|N|Jump into the water around these points, use the chum and get the meat.|U|47036|
 
-C Rescue at Sea|QID|14152|M|49.8,49.6;50.10,49.20;43.20,53.70|Z|Hrothgar's Landing|N|Kill Vrykul Berserkers and Harpooners.|
+C Rescue at Sea|QID|14152|M|49.8,49.6;50.10,49.20;43.20,53.70|Z|Hrothgar's Landing|CN|N|Kill Vrykul Berserkers and Harpooners.|
 C A Leg Up|QID|14074|M|43.80,24.10;51.90,28.20;53.90,19.10;43.45,33.90;53.45,17.15;50.51,15.35;43.38,27.16;55.58,15.23;46.98,33.97;42.95,30.55;56.21,18.30;47.45,3.25;52.84,26.35;55.42,25.02;55.46,21.09;45.18,4.28;50.19,31.18|Z|Hrothgar's Landing|N|Loot tallstrider legs.|
 C Stop The Aggressors|QID|14080|M|54.20,21.60;55.20,15.20;52.40,15.55;43.45,33.75;43.42,26.98;56.20,17.80;48.59,33.11;49.45,30.43;54.60,24.93;52.75,26.20;56.70,21.73;42.92,30.90;54.88,19.59;45.53,33.48|Z|Hrothgar's Landing|N|Kill Kvaldir.|
 C The Light's Mercy|QID|14077|M|53.20,17.40;55.20,16.00;57.00,20.60;55.50,25.20;44.90,31.50;43.60,29.65;50.60,15.30;43.15,27.60;54.85,18.67;44.30,34.40;52.67,26.92;54.35,23.08;50.26,29.29;57.10,23.70;42.60,32.32;47.77,32.54|Z|Hrothgar's Landing|N|Administer last rites by using your book near slain Tualiq Villagers.|U|46870|

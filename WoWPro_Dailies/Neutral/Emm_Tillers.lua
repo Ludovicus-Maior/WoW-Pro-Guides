@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2013-01-09 01:46
+-- Who: Ludovicus Maior
+-- Log: Added CS and CN tags
+
+-- URL: http://wow-pro.com/node/3508/revisions/25272/view
 -- Date: 2012-12-27 11:48
 -- Who: Emmaleah
 -- Log: corrected more errors as I got a 3rd toon all the way through. rearranged some of the one time quests trying to make the order flow better (but I think its a lost cause) corrected coords for Old Man Thistles treasure, add N step to buy the commendation at revered.
@@ -219,13 +224,13 @@ C Talk to Spicemaster Jin Jao|QID|30322|QO|Spicemaster Jin Jao's Payment: 1/1|M|
 C Talk to Trader Jambeezi|QID|30322|QO|Trader Jambeezi's Payment: 1/1|M|55.64,49.96|NC|N|He walks back and forth between the Inn and the Spicemaster.|
 C Talk to Innkeeper Lei Lan|QID|30322|QO|Innkeeper Lei Lan's Payment: 1/1|M|55.11,50.41|NC|N|The Innkeeper wanders around inside the inn.|
 C Talk to Lolo Lio|QID|30322|QO|Lolo Lio's Payment: 1/1|M|55.52,52.07|NC|
-C Ella's Taste Test|QID|31537|M|53.6,52.6;52.6,48.0;53.0,52.0;54.6,47.0|U|87558|N|Offer the drink to each of the 4 people.|
+C Ella's Taste Test|QID|31537|M|53.6,52.6;52.6,48.0;53.0,52.0;54.6,47.0|CS|U|87558|N|Offer the drink to each of the 4 people.|
 C Talk to Gina|QID|31534|NC|L|87555|M|53,52|
 C A Worthy Brew|QID|31538|U|87763|M|54,50|NC|N|Have Chen taste it (he is inside the inn).|
 C Water, Water Everywhere|QID|30317|NC|M|56.39,50.24|N|Talk to Wing Nga (flightmaster) for a kite. You are looking for circles on the ground to drop water on with the "1" key.|
 
 A A Dish for Farmer Fung|QID|30421|M|48.3,33.8|REP|Farmer Fung;1283;Stranger-Good Friend|N|To Farmer Fung - Wildfowl Roast - Marsh Lily. Check this off manually if you have no food or treasure for him.|
-C Farmer Fung's Vote II: On the Loose|QID|30518|M|50.2,38.4;50.48,34.85|NC|N|Bring 6 yaks back to Farmer Fung's pen.|
+C Farmer Fung's Vote II: On the Loose|QID|30518|M|50.2,38.4;50.48,34.85|CN|NC|N|Bring 6 yaks back to Farmer Fung's pen.|
 C Talk to Farmer Fung|QID|31534|NC|L|87553|M|48,34|N|In the market or at his farm (where the green dot is).|
 T Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.2,33.8|N|To Farmer Fung.|
 A Farmer Fung's Vote II: On the Loose|PRE|30517|QID|30518|M|48.2,33.8|N|From Farmer Fung.|

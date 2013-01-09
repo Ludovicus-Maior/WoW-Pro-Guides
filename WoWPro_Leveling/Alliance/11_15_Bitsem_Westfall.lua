@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2013-01-09 00:24
+-- Who: Ludovicus Maior
+-- Log: Multicoord corrections.
+
+-- URL: http://wow-pro.com/node/3213/revisions/25043/view
 -- Date: 2012-08-13 00:23
 -- Who: Laotseu
 -- Log: A few corrections I found while play testing a Monk on the Beta.
@@ -206,7 +211,7 @@ C Mysterious Propaganda |QID|26295|M|41.26,66.50|N|The back of the first buildin
 C Informational Pamphlet |QID|26295|M|41.59,66.41|N|Behind the Mysterious Propaganda on the broken barrel.|QO|Informational Pamphlet: 1/1|NC|
 C Issue of the Moonbrook Times |QID|26295|M|43.27,69.90|N|In the main square next to the broken fountain.|QO|Issue of the Moonbrook Times: 1/1|NC|
 C Secret Journal |QID|26295|M|43.46,66.57|N|Inside the Inn, top floor, far right hand room at the back.|QO|Secret Journal: 1/1|NC|
-C Propaganda|QID|26295|M|41.56,66.42;42.27,69.68;42.57,69.67;43.48,66.72|N|Finish collecting the propaganda.|
+C Propaganda|QID|26295|M|41.56,66.42;42.27,69.68;42.57,69.67;43.48,66.72|CN|N|Finish collecting the propaganda.|
 C Evidence Collection|QID|26296|RANK|2|US|M|45.53,70.95|N|Finish killing and looting the Thugs.|
 
 T Evidence Collection|QID|26296|M|42.16,64.15|N|To Captain Alpert.|S|
@@ -221,11 +226,11 @@ A Secrets Revealed|QID|26319|PRE|26297|RANK|1|M|42.18,64.19|N|From Captain Alper
 T Secrets Revealed|QID|26319|M|42.86,65.08|N|To Thoralius the Wise.|
 A A Vision of the Past|QID|26320|PRE|26319|RANK|1|M|42.86,65.08|N|From Thoralius the Wise.|
 
-R Defias Hideout|QID|26371|M|42.5,71.5;40.86,81.98|N|Enter the Defias Hideout.|
-C A Vision of the Past|QID|26320|NC|U|58147|N|Follow the orphans and homeless to The Deadmines instance. Stick to the right. Once you enter the Deadmines Instance, use the incense. Then get ready to feel like a bad person if you've done the original Deadmines.|M|42.90,72.67;42.59,75.08;41.60,76.07;41.54,77.96;41.20,79.54;40.06,78.13;38.30,77.50|
+R Defias Hideout|QID|26371|M|42.58,72.08|N|Enter the Defias Hideout.|
+C A Vision of the Past|QID|26320|NC|U|58147|N|Follow the orphans and homeless to The Deadmines instance. Stick to the right. Once you enter the Deadmines Instance, use the incense. Then get ready to feel like a bad person if you've done the original Deadmines.|M|42.90,72.67;42.59,75.08;41.60,76.07;41.54,77.96;41.20,79.54;40.06,78.13;38.30,77.50|CS|
 
 R Moonbrook|QID|26371|N|Exit the Instance|
-R Moonbrook|QID|26371|N|Head back to Moonbrook.|M|38.30,77.50;39.43,77.99;38.83,79.04;40.06,78.13;41.20,79.54;41.54,77.96;41.60,76.07;42.59,75.08;42.90,72.67|
+R Moonbrook|QID|26371|N|Head back to Moonbrook.|M|38.30,77.50;39.43,77.99;38.83,79.04;40.06,78.13;41.20,79.54;41.54,77.96;41.60,76.07;42.59,75.08;42.90,72.67|CS|
 
 A The Coast Isn't Clear|QID|26348|PRE|26371|RANK|1|M|30.55,85.54|N|From Captain Grayson.|S|
 A Keeper of the Flame|QID|26347|RANK|1|M|30.55,85.54|N|From Captain Grayson.|S|

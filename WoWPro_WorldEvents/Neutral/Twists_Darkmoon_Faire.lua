@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2013-01-09 01:18
+-- Who: Ludovicus Maior
+-- Log: Attempt at a manual merger of my changes.
+
+-- URL: http://wow-pro.com/node/3459/revisions/25282/view
 -- Date: 2013-01-07 02:33
 -- Who: Emmaleah
 -- Log: changed the word flower to flour, changed all (I think) C steps to include NC, added statement about Fossil Fragments from Brann Brozebeard, added T Testing your strenth before A, since you never turn them in on the same trip to the fair, hopefully this helps)
@@ -59,6 +64,17 @@
 WoWPro.WorldEvents:RegisterGuide("TwiDarkmoon","Darkmoon Faire","Darkmoon Faire","WE", "Twists", "Neutral", function()
 return [[
 
+B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|15|
+B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|15|
+B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|15|
+B Ornate Weapon|QID|29446|N|Consider buying an "Ornate Weapon" in the AH if you don't have one.|L|71638|LVL|15|
+B A Treatise on Strategy|QID|29451|N|Consider buying an "A Treatise on Strategy" in the AH if you don't have one.|L|71715|LVL|85|
+B Soothsayer's Runes|QID|29464|N|Consider buying an "Soothsayer's Runes" in the AH if you don't have one.|L|71716|LVL|85|
+
+B Banner of the Fallen|QID|29456|Consider buying a "Banner of the Fallen" in the AH if you don't have one.|L|71951|LVL|15|
+B Captured Insignia|QID|29457|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71952|LVL|15|
+B Fallen Adventurer's Journal|QID|29458|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71953|LVL|15|
+
 A The Darkmoon Faire|QID|7905|M|62.20,32.29;62.41,73.03|N|From Darkmoon Faire Mystic Mage who's near Dwarven District or the Trade District in Stormwind.|Z|Stormwind City|FACTION|Alliance|
 A The Darkmoon Faire|QID|7926|M|48.22,62.14|N|From Darkmoon Faire Mystic Mage who's near the flying trainer in Orgrimmar.|Z|Orgrimmar|FACTION|Horde|
 R Transport to Entrance|QID|7905|M|41.87,68.17|N|Talk to her again to get ported to the entrance.You can use her for future trips as well.|Z|Elwynn Forest|FACTION|Alliance|CC|
@@ -70,17 +86,17 @@ B Moonberry Juice|QID|29506|M|38.89,64.67|L|1645 5|N|From Kuruk of Kuruk's Goods
 B Simple Flour|QID|29509|M|41.87,67.04|L|30817 5|N|Purchase 5 from Tharynn Borden.|P|Cooking;185;75|Z|Elwynn Forest|FACTION|Alliance|
 B Simple Flour|QID|29509|M|40.6,63.6|L|30817 5|N|Purchase 5 from Shadi Mistrunner.|P|Cooking;185;75|Z|Thunder Bluff|FACTION|Horde|
 
-B Light Parchment|QID|29515|M|41.87,67.04|L|30817 5|N|Purchase 5 from Tharynn Borden.|P|Inscription;773;75|Z|Elwynn Forest|FACTION|Alliance|
-B Light Parchment|QID|29515|M|40.28,63.41|L|30817 5|N|Purchase 5 from Shadi Mistrunner.|P|Inscription;773;75|Z|Thunder Bluff|FACTION|Horde|
+B Light Parchment|QID|29515|M|41.87,67.04|L|39354 5|N|Purchase 5 from Tharynn Borden.|P|Inscription;773;75|Z|Elwynn Forest|FACTION|Alliance|
+B Light Parchment|QID|29515|M|40.28,63.41|L|39354 5|N|Purchase 5 from Shadi Mistrunner.|P|Inscription;773;75|Z|Thunder Bluff|FACTION|Horde|
 
-B Coarse Thread|QID|29517|M|41.87,67.04|L|2320 5|N|Purchase 5 from Tharynn Borden.|P|Leatherworking;165;75|Z|Elwynn Forest|FACTION|Alliance|
-B Coarse Thread|QID|29517|M|40.28,63.416|L|2320 5|N|Purchase 5 from Shadi Mistrunner.|P|Leatherworking;165;75|Z|Thunder Bluff|FACTION|Horde|
+B Coarse Thread|QID|29517|M|41.87,67.04|L|2320 5|N|Purchase 5 from Tharynn Borden.  Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;75|Z|Elwynn Forest|FACTION|Alliance|
+B Coarse Thread|QID|29517|M|40.28,63.416|L|2320 5|N|Purchase 5 from Shadi Mistrunner. Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;75|Z|Thunder Bluff|FACTION|Horde|
 
 B Shiny Bauble|QID|29517|M|41.87,67.04|L|6529 10|N|Purchase 10 from Tharynn Borden.|P|Leatherworking;165;75|Z|Elwynn Forest|FACTION|Alliance|
 B Shiny Bauble|QID|29517|M|40.28,63.41|L|6529 10|N|Purchase 10 from Shadi Mistrunner.|P|Leatherworking;165;75|Z|Thunder Bluff|FACTION|Horde|
 
-B Blue Dye|QID|29517|M|41.87,67.04|L|6260 5|N|Purchase 5 from Tharynn Borden.|P|Leatherworking;165;75|Z|Elwynn Forest|FACTION|Alliance|
-B Blue Dye|QID|29517|M|40.28,63.41|L|6260 5|N|Purchase 5 from Shadi Mistrunner.|P|Leatherworking;165;75|Z|Thunder Bluff|FACTION|Horde|
+B Blue Dye|QID|29517|M|41.87,67.04|L|6260 5|N|Purchase 5 from Tharynn Borden. Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;75|Z|Elwynn Forest|FACTION|Alliance|
+B Blue Dye|QID|29517|M|40.28,63.41|L|6260 5|N|Purchase 5 from Shadi Mistrunner. Warning:  If you also have tailoring, get 6.|P|Leatherworking;165;75|Z|Thunder Bluff|FACTION|Horde|
 
 B Coarse Thread|QID|29520|M|41.87,67.04|L|2320 1|N|Purchase 1 from Tharynn Borden.|P|Tailoring;197;75|Z|Elwynn Forest|FACTION|Alliance|
 B Coarse Thread|QID|29520|M|40.28,63.41|L|2320 1|N|Purchase 1 from Shadi Mistrunner.|P|Tailoring;197;75|Z|Thunder Bluff|FACTION|Horde|
@@ -96,19 +112,25 @@ B Fossil Archeology Fragments|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Ar
 B Sack o'Tokens|QID|29463|M|54.59,53.33|N|From Zina Sharpworth after you enter the portal. Open the bag in your inventory, we can't automate it yet!|L|71083|
 
 A Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|From Selina Dourman.|P|Tailoring;197;75|
-N Create your Banner|QID|29520|N|Use your Darkmoon Banner Kit.|U|72048|L|72049|
-C Banners, Banners Everywhere!|QID|29520|S|M|50.99,86.23|U|72049|
 
 A It's Hammer Time|QID|29463|M|53.35,54.73|N|From Mola.|
 C It's Hammer Time|QID|29463|NC|N|Talk to Mola again picking Ready to whack! Go in and wack. Avoid dolls and hitting Hoggar (big brown) grants 3 points.|
 T It's Hammer Time|QID|29463|N|To Mola.|
 
 A The Humanoid Cannonball|QID|29436|M|52.67,56.09|N|From Maxima Blastenheimer.|
-N Achievement|QID|29436|ACH|6021;0|N|Talk to Teleportologist Fozlebub for a return trip.|M|57.25,89.85|S|The Humanoid Cannonball|QID|29436|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (1) right when you get past the dock.
+N Achievement|QID|29436|ACH|6021;0|N|Talk to Teleportologist Fozlebub for a return trip.|M|57.25,89.85|S|
+C The Humanoid Cannonball|QID|29436|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (1) right when you get past the dock.
 T The Humanoid Cannonball|QID|29436|N|To Maxima Blastenheimer.|
 
+T The Enemy's Insignia|QID|29457|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
+T The Captured Journal|QID|29458|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
+T A Captured Banner|QID|29456|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
+T A Curious Crystal|QID|29443|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
+T A Wondrous Weapon|QID|29446|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
+T The Master Strategist|QID|29451|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
+T Tools of Divination|QID|29464|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
 A Fun for the Little Ones|QID|29507|M|51.76,60.55|N|From Professor Thaddeus Paleo.|P|Archaeology;794;75|
-T Fun for the Little Ones|QID|29507|M|51.76,60.55|N|From Professor Thaddeus Paleo.|
+T Fun for the Little Ones|QID|29507|M|51.76,60.55|N|From Professor Thaddeus Paleo.|P|Archaeology;794;75|
 
 A He Shoots, He Scores!|QID|29438|M|49.41,60.83|N|From Rinling.|
 A Rearm, Reuse, Recycle|QID|29518|M|49.41,60.83|N|From Rinling.|P|Mining;186;75|
@@ -122,6 +144,10 @@ N Achievement|QID|29438|ACH|6022;1|N|Pick one target and fire when it lights up.
 C He Shoots, He Scores!|QID|29438|NC|N|Talk to Rinling again picking Let's shoot! Aim at a target and press 1 to fire. You can get 2 shots in per target.|
 T He Shoots, He Scores!|QID|29438|N|To Rinling.|
 
+A Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|M|47.72,62.67|N|From Jeremy Feasel.\nHe has 3 epic level 25 pets on his team: Honky-Tonk (mechanical), Fezwick (beast), and Judgement (magical). Something with Arcane Storm is good against the monkey!|
+C Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|QO|Defeat Jeremy Feasel: 1/1|
+T Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|M|47.72,62.67|N|To Jeremy Feasel|
+
 C Rearm, Reuse, Recycle|QID|29518|NC|N|Look for Tonk Scrap. Look between the tents.|S|
 C Talkin' Tonks|QID|29511|NC|N|Repair tonks.|S|
 
@@ -132,7 +158,6 @@ T Tonk Commander|QID|29434|M|50.51,64.77|N|To Finlay Coolshot.|
 T The Darkmoon Faire|QID|7905|M|48.10,64.88|N|To Gelvas Grimegate.|FACTION|Alliance|
 T The Darkmoon Faire|QID|7926|M|48.10,64.88|N|To Gelvas Grimegate.|FACTION|Horde|
 
-T Test Your Strength|QID|29433|M|48.06,67.05|N|To Kerri Hicks.|
 A Test Your Strength|QID|29433|M|48.06,67.05|N|From Kerri Hicks.|
 
 A Putting the Crunch in the Frog|QID|29509|M|52.88,67.92|N|From Stamp Thunderhorn.|P|Cooking;185;75|
@@ -142,16 +167,16 @@ U Flour Base|QID|29509|L|72057|U|72056|
 C Putting the Crunch in the Frog|QID|29509|NC|N|Throw the breaded frogs into the green flowing pot next to Stamp Thunderhorn.|U|72057|
 T Putting the Crunch in the Frog|QID|29509|M|52.88,67.92|N|To Stamp Thunderhorn.|
 
-B Darkmoon Dog|QID|99602603|ACH|6026;3|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19223|LVL|5|
-B Pickled Kodo Foot|QID|99602607|ACH|6026;7|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19305|LVL|15|
-B Crunchy Frog|QID|960260002|ACH|6026;2|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19306|LVL|35|
-B Funnel Cake|QID|99602606|ACH|6026;6|M|52.88,67.92|N|From Stamp Thunderhorn.|L|33246|LVL|55|
-B Corn-Breaded Sausage|QID|99602601|ACH|6026;1|M|52.88,67.92|N|From Stamp Thunderhorn.|L|44940|LVL|75|
-B Spiced Beef Jerky|QID|99602610|ACH|6026;10|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19304|LVL|5|
-B Red Hot Wings|QID|99602608|ACH|6026;8|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19224|LVL|25|
-B Deep Fried Candybar|QID|99602605|ACH|6026;5|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19225|LVL|45|
-B Forest Strider Drumstick|QID|99602605|ACH|6026;5|M|52.88,67.92|N|From Stamp Thunderhorn.|L|33254|LVL|65|
-B Salty Sea Dog|QID|99602609|ACH|6026;9|M|52.88,67.92|N|From Stamp Thunderhorn.|L|73260|LVL|85|
+B Darkmoon Dog|QID|99602603|ACH|6026;3|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19223|LVL|5|M|52.88,67.92|
+B Pickled Kodo Foot|QID|99602607|ACH|6026;7|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19305|LVL|15|M|52.88,67.92|
+B Crunchy Frog|QID|960260002|ACH|6026;2|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19306|LVL|35|M|52.88,67.92|
+B Funnel Cake|QID|99602606|ACH|6026;6|M|52.88,67.92|N|From Stamp Thunderhorn.|L|33246|LVL|55|M|52.88,67.92|
+B Corn-Breaded Sausage|QID|99602601|ACH|6026;1|M|52.88,67.92|N|From Stamp Thunderhorn.|L|44940|LVL|75|M|52.88,67.92|
+B Spiced Beef Jerky|QID|99602610|ACH|6026;10|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19304|LVL|5|M|52.88,67.92|
+B Red Hot Wings|QID|99602608|ACH|6026;8|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19224|LVL|25|M|52.88,67.92|
+B Deep Fried Candybar|QID|99602605|ACH|6026;4|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19225|LVL|45|M|52.88,67.92|
+B Forest Strider Drumstick|QID|99602605|ACH|6026;5|M|52.88,67.92|N|From Stamp Thunderhorn.|L|33254|LVL|65|M|52.88,67.92|
+B Salty Sea Dog|QID|99602609|ACH|6026;9|M|52.88,67.92|N|From Stamp Thunderhorn.|L|73260|LVL|85|M|52.88,67.92|
 
 N Eat Darkmoon Dog|QID|99602603|ACH|6026;3|U|19223|LVL|5|
 N Eat Pickled Kodo Foot|QID|99602607|ACH|6026;7|U|19305|LVL|15|
@@ -174,7 +199,7 @@ C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|S|
 N Collect 5 Bits of Glass|QID|29516|N|Green sparkling Gems.|L|72052 5|S|
 
 C Putting the Carnies Back Together Again|QID|29512|NC|M|54.87,70.75;47.44,74.85|N|Use the bandage on Carnies.|U|71978|
-C Herbs for Healing|QID|29514|US|NC|
+C Herbs for Healing|QID|29514|US|
 T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 
@@ -204,6 +229,7 @@ T A Fizzy Fusion|QID|29506|M|50.31,69.39|N|To Sylannia.|
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6030;1|L|74142 6|FACTION|Alliance|
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6031;1|L|74142 6|FACTION|Horde|
 
+T An Intriguing Grimoire|QID|29445|M|52.94,75.94|N|To Sayge.|
 A Putting Trash to Good Use|QID|29510|M|52.94,75.94|N|From Sayge.|P|Enchanting;333;75|
 A Writing the Future|QID|29515|M|52.94,75.94|N|From Sayge.|P|Inscription;773;75|
 
@@ -217,9 +243,13 @@ A Target: Turtle|QID|29455|M|51.45,77.77|N|Jessica Rogers.|
 C Target: Turtle|QID|29455|NC|N|Talk to Jessica Rogers and select Ready to play! Press 1, aim the middle ring of the big ring on the pole of the turtle. Once you're in position spam 1->click. If he moves wait a moment, aim and spam.|
 T Target: Turtle|QID|29455|M|51.45,77.77|N|Jessica Rogers.|
 
+T An Exotic Egg|QID|29444|M|50.87,81.80|N|To Yebb Neblegear.|
 A Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|P|Blacksmithing;164;75|
 
 N Achievement|QID|99602501|M|50.75,81.63;56.67,81.68|N|Follow the maze and hop on a horse at the end.|ACH|6025;0|
+
+N Create your Banner|QID|29520|N|Use your Darkmoon Banner Kit.|U|72048|L|72049|
+C Banners, Banners Everywhere!|QID|29520|M|50.99,86.23|U|72049|
 
 C Spoilin' for Salty Sea Dogs|QID|29513|M|51.48,91.09|N|Fish off the dock.|
 
@@ -239,7 +269,7 @@ C Talkin' Tonks|QID|29511|US|NC|
 T Rearm, Reuse, Recycle|QID|29518|M|49.41,60.83|N|From Rinling.|
 T Talkin' Tonks|QID|29511|M|49.41,60.83|N|From Rinling.|
 T Keeping the Faire Sparkling|QID|29516|M|54.84,70.66|N|From Chronos.|
-T Spoilin' for Salty Sea Dogs|QID|29513|N|To Stamp Thunderhorn.|
+T Spoilin' for Salty Sea Dogs|QID|29513|M|52.88,67.92|N|To Stamp Thunderhorn.|
 T Putting Trash to Good Use|QID|29510|M|52.94,75.94|N|To Sayge.|
 
 C Baby Needs Two Pair of Shoes|QID|29508|NC|M|50.87,81.80|N|Shoe Baby.|U|71967|
@@ -247,6 +277,16 @@ T Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|
 
 T Tan My Hide|QID|29519|M|54.84,70.66|N|From Chronos.|
 T Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|To Selina Dourman.|
+
+N Sayge's Dark Fortunes|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Sayge offers 8 different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item!|
+N Sayge's Dark Fortune of Stamina|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Confiscate the corn, Speak against your brother openly|
+N Sayge's Dark Fortune of Agility|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Hunter,Rogue,Druid,Monk|N|Confiscate the corn, Keep your brother out without letting him know|
+N Sayge's Dark Fortune of Intelligence|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Druid,Mage,Paladin,Priest,Monk,Shaman,Warlock|N|Turn him over to liege, Show not so quiet defiance|
+N Sayge's Dark Fortune of Spirit|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Priest,Druid,Monk,Shaman,Paladin|N|Confiscate the Corn, Keep your brother out without letting him know|
+N Sayge's Dark Fortune of Strength|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Warrior,Death Knight,Paladin|N|Confiscate the corn, Help your brother in|
+N Sayge's Dark Fortune of Armor|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Let your friend go|
+N Sayge's Dark Fortune of Damage|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Execute your friend painfully|
+N Sayge's Dark Fortune of Resistance|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Turn him over to liege, Remain quiet|
 
 N Achievement|QID|960300004|N|Take the portal at the end of the dock.  Fly to Ironforge.|ACH|6030;4|U|74142|FACTION|Alliance|
 N Achievement|QID|960300005|N|In the Mystic Quarter, take the portal to the Blasted Lands, then fly to Shattrath City.|ACH|6030;5|U|74142|FACTION|Alliance|
