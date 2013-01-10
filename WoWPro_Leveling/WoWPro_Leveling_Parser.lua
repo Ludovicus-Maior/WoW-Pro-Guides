@@ -272,7 +272,7 @@ local function ParseQuests(...)
 					else
 					    WoWPro.waypcomplete[i] = false
 					    if WoWPro.map[i]:find(";") then
-					        WoWPro.Leveling:Print("Step %s [%s] may be missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i])
+					        WoWPro.Leveling:Print("Step %s [%s] is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i])
 					    end
 					end
 				end
