@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2013-01-09 22:45
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3306/revisions/24610/view
 -- Date: 2011-06-25 03:00
 -- Who: Crackerhead22
 -- Log: ! Duplicate A step for qid 25887 - Removed duplicate line.
@@ -612,10 +617,10 @@ A The Wavespeaker|QID|26057|N|From Legionnaire Nazgrim.|Z|Abyssal Depths|M|42.73
 A Scalding Shrooms|QID|26096|N|From Wavespeaker Tulra.|Z|Abyssal Depths|M|42.73,37.82|
 A Into the Totem|QID|26072|N|From Erunak Stonespeaker.|Z|Abyssal Depths|M|42.73,37.82|
 
-C Into the Totem|QID|26072|S|M|45.7,30.5;38.4,39.1;46.1,35.7;40.7,36.4;52.8,32.1|Z|Abyssal Depths|U|56801|N|Use Totem to near a Faceless Defiler to attract it and kill it.|
+C Into the Totem|QID|26072|S|M|45.7,30.5;38.4,39.1;46.1,35.7;40.7,36.4;52.8,32.1|Z|Abyssal Depths|CN|U|56801|N|Use Totem to near a Faceless Defiler to attract it and kill it.|
 C Clearing the Defiled|QID|26071|S|M|42.4,33.3|Z|Abyssal Depths|N|Kill any wildlife you find.|
 C Scalding Shrooms|QID|26096|M|42,34.9|Z|Abyssal Depths|N|Collect Scalding Shrooms.|
-C Into the Totem|QID|26072|US|M|45.7,30.5;38.4,39.1;46.1,35.7;40.7,36.4;52.8,32.1|Z|Abyssal Depths|U|56801|N|Kill 5 Corrupting Faceless and use the Totem.|
+C Into the Totem|QID|26072|US|M|45.7,30.5;38.4,39.1;46.1,35.7;40.7,36.4;52.8,32.1|Z|Abyssal Depths|CN|U|56801|N|Kill 5 Corrupting Faceless and use the Totem.|
 C Clearing the Defiled|QID|26071|US|M|42.4,33.3|Z|Abyssal Depths|N|Kill any wildlife you find.|
 
 T The Wavespeaker|QID|26057|N|To Wavespeaker Valoren.|Z|Abyssal Depths|M|52.58,27.81|

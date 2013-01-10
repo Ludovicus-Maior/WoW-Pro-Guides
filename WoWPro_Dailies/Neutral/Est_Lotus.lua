@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2013-01-10 03:56
+-- Who: Emmaleah
+-- Log: Added note about Golden Water Skimmer.
+
+-- URL: http://wow-pro.com/node/3502/revisions/25278/view
 -- Date: 2013-01-06 02:17
 -- Who: Emmaleah
 -- Log: Changed LEAD quests for the Whitepetal Lake attacked hub, so it will not require manually checking the hub off. 
@@ -75,7 +80,8 @@ return [[
 
 L Level 90|LVL|90|N|You need to be level 90 to do the Golden Lotus Dailies|
 B Wisdom of the Four Winds|SPELL|Flying in Pandaria;115913|N|You need to be able to have flying mounts in Pandaria to do this guide.|
-
+N Achievement Phasing issue|ACH|6350;5|QID|963500005|N|if you have not yet done the To all the squirrels ach for Pandaria, you may want to fly over and love the Dancing Water Skimmer as it phases out in the course of doing the Golden Lotus quest line. Check off this and the next step manually if this is of no interest to you.|
+F Dancing Water Skimmer|QID|963500005|M|32,68|Z|Vale of Eternal Blossoms|ACH|6350;5|T|Dancing Water Skimmer|N|/love a Dancing Water Skimmer. Due to phasing issues, you may not be able to see these critters after starting the Golden Lotus quest line.|
 ; Introduction Questline (no daily quests, just a one-time introduction)
 A The Golden Lotus|QID|31384|LEAD|30632|FACTION|Alliance|N|From Xari the Kind in the Shrine of Seven Stars.|M|84.20,62.40|
 A The Golden Lotus|QID|31385|LEAD|30632|FACTION|Horde|N|From Weng the Merciful in the Shrine of Two Moons.|M|63.00,22.20|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2013-01-09 22:51
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3286/revisions/25155/view
 -- Date: 2012-10-23 20:25
 -- Who: Fluclo
 -- Log: Adding min Level tag, and at Level 67, you "auto-learn" location of Shadowmoon Village
@@ -341,7 +346,7 @@ T The Journal of Val'zareq: Portends of War|QID|10793|M|51.49,72.84|N|To the Dra
 A Battle of the Crimson Watch|QID|10781|M|51.49,72.84|N|About this quest, you have to survive 4 waves. First wave is a pack of Demons and Blood Elves. 2nd wave consists of 2 floating eye mobs. 3rd is 4 Fire Lords (Blood Elves). The last is the boss, he hits hard and will do Spell Reflect now and then.|
 C Battle of the Crimson Watch|QID|10781|M|51.93,72.84|N|Survive.|
 
-C Divination: Gorefiend's Truncheon|QID|10636|M|61.4,52.8;55.8,56.8;47.4,47.4;35.4,49.6;35.2,34.4;47.4,24.4;55.2,31.6;62.6,33.0;63.2,50;61.5,52.8|N|Wear your Spectrecles. Circle the roads clockwise around the Hand of Guldan to find the Ghostriders of Karabor.|
+C Divination: Gorefiend's Truncheon|QID|10636|M|61.4,52.8;55.8,56.8;47.4,47.4;35.4,49.6;35.2,34.4;47.4,24.4;55.2,31.6;62.6,33.0;63.2,50;61.5,52.8|CN|N|Wear your Spectrecles. Circle the roads clockwise around the Hand of Guldan to find the Ghostriders of Karabor.|
 
 C Divination: Gorefiend's Armor|QID|10634|M|69.78,85.85|N|Wear your Spectrecles. Vhel'kur wanders in the air. Everyone needs the Spectrecles, and has done, or is on the quest to see him.|
 T Divination: Gorefiend's Truncheon|QID|10636|M|58.28,70.92|N|To Ancient Shadowmoon Spirit.|

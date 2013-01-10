@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2013-01-09 22:41
+-- Who: Ludovicus Maior
+-- Log: Added CS and CN tag
+
+-- URL: http://wow-pro.com/node/3489/revisions/25199/view
 -- Date: 2012-11-11 00:44
 -- Who: Emmaleah
 -- Log: missed a missing |
@@ -40,7 +45,7 @@ C Speak with Yun|QID|30079|NC|QO|Speak with Yun: 1/1|M|75.48,9.26|N|up the stair
 C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|Speak with Despondent Warden of Zhu: 1/1|M|76.69,8.85|
 C Speak with Sunni|QID|30079|NC|QO|Speak with Sunni: 1/1|M|76.44,8.27|N|up the stairs, inside.|
 f Zhu's Watch|QID|30078|M|76.7,8.38|N|At Gee Hung.|
-l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;19.17,39.06|Z|Valley of the Four Winds|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 feet, and up into the house, papers are on table.|
+l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;19.17,39.06|Z|Valley of the Four Winds|CS|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 feet, and up into the house, papers are on table.|
 C Finding Yi-Mo|QID|30080|M|78.97,7.73|N|He is lying on the ground.|
 T Finding Yi-Mo|QID|30080|M|81.31,6.78|N|To Yi-Mo Longbrow.|
 A Cheer Up, Yi-Mo|QID|30082|M|81.31,6.78|N|From Yi-Mo Longbrow.|
@@ -251,7 +256,7 @@ C The Swarm Begins|QID|30622|US|M|10.14,52.00|Z|Valley of the Four Winds|
 T The Mantidote|QID|30623|Z|Valley of the Four Winds|N|To UI Alert.|
 T The Swarm Begins|QID|30622|M|11.53,49.50|Z|Valley of the Four Winds|N|To Guard Captain Oakenshield.|
 A Students No More|QID|30625|M|11.53,49.57|Z|Valley of the Four Winds|N|From Guard Captain Oakenshield.|
-C Students No More|QID|30625|M|8.9,51.7;9.7,58.3;9.4,54.2;9.6,54.0|Z|Valley of the Four Winds|N|The NPC's will call you over to join them as they roam around this area killing these 4 elites.|
+C Students No More|QID|30625|M|8.9,51.7;9.7,58.3;9.4,54.2;9.6,54.0|Z|Valley of the Four Winds|CN|N|The NPC's will call you over to join them as they roam around this area killing these 4 elites.|
 T Students No More|QID|30625|M|11.55,49.44|Z|Valley of the Four Winds|N|To Guard Captain Oakenshield.|
 A Retreat!|QID|30626|M|11.55,49.44|Z|Valley of the Four Winds|N|From Guard Captain Oakenshield.|
 T Retreat!|QID|30626|M|17.91,56.22|Z|Valley of the Four Winds|N|To Loon Mai.|

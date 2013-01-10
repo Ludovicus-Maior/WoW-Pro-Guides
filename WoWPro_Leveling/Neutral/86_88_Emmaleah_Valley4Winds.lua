@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2013-01-09 22:29
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3485/revisions/25211/view
 -- Date: 2012-11-20 00:09
 -- Who: Ludovicus Maior
 -- Log: Small coord tweaks, and flipping a CC to a CS.  Got rid of duplicate |N|N| tags.
@@ -111,7 +116,7 @@ A Rampaging Rodents|QID|29910|M|81.9,25.9|N|From Ana Thunderfoot, she is walking
 C Rampaging Rodents|QID|29910|NC|M|81.9,25.9|N|Click on the holes and the marmots. The marmots may interrupt your hole filling.|
 T Rampaging Rodents|QID|29910|M|81.9,25.9|N|To Ana Thunderfoot, she is walking around.|
 
-C Stolen Turnip|QID|29940|NC|QO|Stolen Turnip: 5/5|M|86.5,28.1;84.7,26.5|N|In the burrow. Its is kinda crowded in there. Be careful.|
+C Stolen Turnip|QID|29940|NC|QO|Stolen Turnip: 5/5|M|86.5,28.1;84.7,26.5|CS|N|In the burrow. Its is kinda crowded in there. Be careful.|
 C Stolen Watermelon|QID|29940|NC|QO|Stolen Watermelon: 5/5|M|85.68,33.02|N|In the water.|
 
 T Taking a Crop|QID|29940|M|81.6,25.3|N|To Ang Thunderfoot.|

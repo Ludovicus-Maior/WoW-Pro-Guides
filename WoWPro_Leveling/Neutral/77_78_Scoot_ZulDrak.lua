@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2013-01-09 22:37
+-- Who: Ludovicus Maior
+-- Log: Added CN and CS tags
+
+-- URL: http://wow-pro.com/node/3295/revisions/24992/view
 -- Date: 2012-05-27 18:58
 -- Who: Ludovicus Maior
 -- Log: Missing coord for Ha'wana.
@@ -150,7 +155,7 @@ A The Storm King's Vengeance |QID|12919|N|From Gymer.|
 N The Storm King's Vengeance |QID|12919|N|Do not bother to look for the scourge: they will find you.|
 N The Storm King's Vengeance |QID|12919|N|Talk to Gymer to mount him and go!|
 K Algar the Chosen |QID|12919|QO|Algar the Chosen slain: 1/1|M|29.2,46|N|He flies in circles underneath Volatrus, above the circular platform on the ground.|
-K Prince Navarius  |QID|12919|QO|Prince Navarius slain: 1/1|M|29.8,65.4;32.4,63.6|N|At one of these two spots.|
+K Prince Navarius  |QID|12919|QO|Prince Navarius slain: 1/1|M|29.8,65.4;32.4,63.6|CN|N|At one of these two spots.|
 K Thrym |QID|12919|QO|Thrym slain: 1/1|N|He will spawn after killing the Prince. Snack on clouds and wait.|
 C The Storm King's Vengeance |QID|12919|N|Finish killing scourge.|
 T The Storm King's Vengeance |QID|12919|N|Back to Crusader Forward Camp.|M|25.43,63.97|
@@ -170,7 +175,7 @@ A So Far, So Bad |QID|12669|N|From Stefan Vadu.|
 A It Rolls Downhill |QID|12673|N|From Overlord Drakuru.|M|27.12,46.10|
 C It Rolls Downhill |QID|12673|N|Port back down, target a geist, use the scepter to charm it and send it for a crystal (the button is on the pet bar, get close they're not too bright). You MUST wait until the geist ports up to get credit, so don't get in a rush to charm another one.|U|39157|M|27.2,45.1|
 T It Rolls Downhill |QID|12673|N|Back to Overlord Drakuru.|M|27.12,46.10|
-C So Far, So Bad |QID|12669|N|Port back down, use the Diluting Additive near the cauldrons. Blightguards will spawn mobs, run away to try to avoid aggro. The Cauldrons are at the waypoints.|U|39154|M|31.29,43.2;31.16,44.31;31.04,45.16;29.6,47.43;26.80,46.92|
+C So Far, So Bad |QID|12669|N|Port back down, use the Diluting Additive near the cauldrons. Blightguards will spawn mobs, run away to try to avoid aggro. The Cauldrons are at the waypoints.|U|39154|M|31.29,43.2;31.16,44.31;31.04,45.16;29.6,47.43;26.80,46.92|CS|
 T So Far, So Bad |QID|12669|N|Blow the horn...again.|U|41390|
 A Hazardous Materials |QID|12677|N|From Stefan Vadu.|
 

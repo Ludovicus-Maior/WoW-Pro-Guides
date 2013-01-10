@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2013-01-09 22:58
+-- Who: Ludovicus Maior
+-- Log: Added CS steps
+
+-- URL: http://wow-pro.com/node/3250/revisions/24603/view
 -- Date: 2011-06-25 01:55
 -- Who: Crackerhead22
 -- Log: ! Duplicate A step for qid 27598 - Removed line.
@@ -61,15 +66,15 @@ A In With a Bang|QID|27600|M|83.88,40.02|N|From Crazy Larry.|
 C In With a Bang|QID|27600|M|83.82,37.62;98.75,26.96|N|Talk to Lil'Crazy jerry, and use the cannon to launch you to the ship.|
 T In With a Bang|QID|27600|M|84.00,40.11|N|Use the cannon on the top deck to launch you back to the shore.|
 A Baba Bogbrew|QID|27740|M|84.00,40.11|N|From Crazy Larry.|
-T Baba Bogbrew|QID|27740|M|82.8,40.9;69.11,76.48|N|Talk to Lil'Crazy Daisy and have him launch you to Baba Bogbrew.|
+T Baba Bogbrew|QID|27740|M|82.8,40.9|N|Talk to Lil'Crazy Daisy and have him launch you to Baba Bogbrew.|
 A Marshfin Madness|QID|27691|M|69.11,76.48|N|From Baba Bogbrew.|
 C Marshfin Madness|QID|27691|M|85.25,78.50|
 T Marshfin Madness|QID|27691|M|69.15,76.48|N|To Baba Bogbrew.|
 A The Darkest Depths|QID|27757|M|69.15,76.48|N|From Baba Bogbrew.|
-C The Darkest Depths|QID|27757|M|66.3,74.5;64.3,80.7;64.4,85.9;63.14,85.75|N|Enter the cave and follow the waypoints.|
+C The Darkest Depths|QID|27757|M|66.3,74.5;64.3,80.7;64.4,85.9;63.14,85.75|N|Enter the cave and follow the waypoints.|CS|
 T The Darkest Depths|QID|27757|M|69.07,76.57|N|To Baba Bogbrew.|
 A Slithering Signs|QID|27818|M|69.07,76.57|N|From Baba Bogbrew.|
-C Slithering Signs|QID|27818|M|74.0,83.4;79.59,73.98|
+C Slithering Signs|QID|27818|M|74.0,83.4;79.59,73.98|CN|
 T Slithering Signs|QID|27818|M|69.10,76.44|N|To Baba Bogbrew.|
 A The Dragon and the Temple|QID|27869|M|69.10,76.44|N|From Baba Bogbrew.|
 T The Dragon and the Temple|QID|27869|M|53.99,79.65|N|To Lord Itharius.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2013-01-09 17:24
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3458/revisions/25266/view
 -- Date: 2012-12-25 20:05
 -- Who: Ludovicus Maior
 -- Log: Update winter veil to use the latest WE updates and eliminate many manual click offs!
@@ -21,10 +26,10 @@
 WoWPro.WorldEvents:RegisterGuide("LudoWinterVeilH","Winter Veil (Horde)","Winter Veil (Horde)","WE", "Ludovicus", "Horde", function()
 return [[
 N Eggs, Babs, Eggs!|QID|6962|N|You are going to need 5 Small Eggs. You can either pay outrageous prices on the AH, or farm them and sell the extra ones for outrageous prices on the AH.  I'll give you 4 places to farm them.|
-K Small Eggs: Eversong Woods|QID|6962|M|40.4,50.8;45.8,64.8;48.0,53.6|Z|Eversong Woods|L|6889 20|N|Kill Feral Dragonhawk Hatchlings within the markers.|
-K Small Eggs: Eversong Woods|QID|6962|M|54.8,61.6;62.2,59.4;70.2,59.6|Z|Eversong Woods|L|6889 20|N|Kill Crazed Dragonhawks between the markers.|
-K Small Eggs: Mulgore|QID|6962|M|48.2,50.2;52.2,35.2;57.2,48.0|Z|Mulgore|L|6889 20|N|Kill Wiry Swoops|
-K Small Eggs: Mulgore|QID|6962|M|43.4,21.8;48.8,9.6;59.0,21.4|Z|Mulgore|L|6889 20|N|Kill Taloned Swoops; Use the back lift from Thunder Bluffs.|
+K Small Eggs: Eversong Woods|QID|6962|M|40.4,50.8;45.8,64.8;48.0,53.6|Z|Eversong Woods|CN|L|6889 20|N|Kill Feral Dragonhawk Hatchlings within the markers.|
+K Small Eggs: Eversong Woods|QID|6962|M|54.8,61.6;62.2,59.4;70.2,59.6|Z|Eversong Woods|CN|L|6889 20|N|Kill Crazed Dragonhawks between the markers.|
+K Small Eggs: Mulgore|QID|6962|M|48.2,50.2;52.2,35.2;57.2,48.0|Z|Mulgore|CN|L|6889 20|N|Kill Wiry Swoops|
+K Small Eggs: Mulgore|QID|6962|M|43.4,21.8;48.8,9.6;59.0,21.4|Z|Mulgore|CN|L|6889 20|N|Kill Taloned Swoops; Use the back lift from Thunder Bluffs.|
 
 N On the first day of Winter Veil ...|QID|6961|N|Now wait till the first day ..|
 A Great-father Winter is Here!|QID|6961|M|52.54,77.03|Z|Orgrimmar|N|From Kaymard Copperpinch.|

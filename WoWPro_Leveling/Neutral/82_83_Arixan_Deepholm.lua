@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2013-01-09 22:32
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3307/revisions/25307/view
+-- Date: 2013-01-09 22:30
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3307/revisions/25073/view
 -- Date: 2012-09-15 20:21
 -- Who: Ludovicus Maior
 -- Log: Change some rank 2 quests to rank 1 so that you can actually finish the guide.
@@ -160,7 +170,7 @@ T All Our Friends Are Dead|QID|26248|M|62.2,47|N|To Stormcaller Mylra.|
 A Take No Prisoners|QID|26251|PRE|26248|M|62.2,47|N|From Stormcaller Mylra.|
 A On Second Thought, Take One Prisoner|QID|26250|PRE|26251|M|62.2,47|N|From Stormcaller Mylra.|
 C Take No Prisoners|QID|26251|M|60.8,42.3|N|Kill 6 Twilight Saboteurs.|S|
-C Without a Captain or Crew|QID|26427|RANK|2|M|63.1,39.4;63.4,44.6|N|Pick up the Coil of Rope (on top of the deck) and Bottle of Whiskey (first level below deck).|
+C Without a Captain or Crew|QID|26427|RANK|2|M|63.1,39.4;63.4,44.6|CS|N|Pick up the Coil of Rope (on top of the deck) and Bottle of Whiskey (first level below deck).|
 C On Second Thought, Take One Prisoner|QID|26250|M|60.7,41.3|N|Attack Mor'norokk the Hateful and subdue him.|
 C Take No Prisoners|QID|26251|US|M|60.8,42.3|N|Kill 6 Twilight Saboteurs.|
 T Without a Captain or Crew|QID|26427|RANK|2|M|64,46.2|N|To First Mate Moody.|
@@ -328,7 +338,7 @@ A On Even Ground|QID|26314|PRE|26326|M|46.1,45.7|N|From Earthcaller Torunscar.|
 A Core of Our Troubles|QID|26313|PRE|26326|M|46.1,45.7|N|From Earthmender Norsala.|
 C Core of Our Troubles|QID|26313|S|M|45.1,40.5|N|Kill Irestone Rumblers and loot them to get Irestone Cores.|
 C On Even Ground|QID|26314|S|U|58169|N|Use the Elementium Grapple Line to pull 3 Servants of Therazane off of their feet.|
-C Crumbling Defenses|QID|26312|M|44.4,43.9;44.6,41.3;47.4,42.9|N|Relieve Tawn, Mylra and Hargoth.|
+C Crumbling Defenses|QID|26312|M|44.4,43.9;44.6,41.3;47.4,42.9|CS|N|Relieve Tawn, Mylra and Hargoth.|
 C On Even Ground|QID|26314|US|U|58169|N|Use the Elementium Grapple Line to pull 3 Servants of Therazane off of their feet.|
 C Core of Our Troubles|QID|26313|US|M|45.1,40.5|N|Finish collecting 6 Irestone Cores.|
 T Crumbling Defenses|QID|26312|M|46.1,45.7|N|To Earthcaller Torunscar.|

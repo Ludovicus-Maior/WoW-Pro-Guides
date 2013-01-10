@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2013-01-10 04:05
+-- Who: Emmaleah
+-- Log: added additional options for getting the golden water skimmer
+
+-- URL: http://wow-pro.com/node/3520/revisions/25260/view
 -- Date: 2012-12-21 20:46
 -- Who: TwoToad
 -- Log: Added QID's.
@@ -26,7 +31,7 @@ F Leopard Tree Frog|QID|963500009|M|51,55|Z|The Jade Forest|ACH|6350;9|T|Leopard
 F Shrine Fly|QID|963500015|M|36,58|Z|The Jade Forest|ACH|6350;15|T|Shrine Fly|N|/love a Shrine Fly.|
 F Coral Adder|QID|963500004|M|64,82|Z|The Jade Forest|ACH|6350;4|T|Coral Adder|N|/love a Coral Adder.|
 
-F Dancing Water Skimmer|QID|963500005|M|32,68|Z|Vale of Eternal Blossoms|ACH|6350;5|T|Dancing Water Skimmer|N|/love a Dancing Water Skimmer. Due to phasing issues, you may not be able to see these critters anymore. The only way to find them is to queue for the battleground "Temple of Kotmogu" where you will find them in a small pond.|
+F Dancing Water Skimmer|QID|963500005|M|32,68|Z|Vale of Eternal Blossoms|ACH|6350;5|T|Dancing Water Skimmer|N|/love a Dancing Water Skimmer. Due to phasing issues, you may not be able to see these critters anymore. The alternate ways to find them is to queue for the battleground "Temple of Kotmogu" where you will find them in a small pond. Another option is that you can love the battle pet version if you want to  capture one (or already have) or you know someone with one.  The last option I'm aware of is you can get an unphased friend to lure one out with critter bites or an unphased druid with charm woodland creature (glyphed).|
 F Gilded Moth|QID|963500007|M|69,38|Z|Vale of Eternal Blossoms|ACH|6350;7|T|Gilded Moth|N|/love a Gilded Moth.|
 F Golden Civet|QID|963500008|M|69,23|Z|Vale of Eternal Blossoms|ACH|6350;8|T|Golden Civet|N|/love a Golden Civet.|
 

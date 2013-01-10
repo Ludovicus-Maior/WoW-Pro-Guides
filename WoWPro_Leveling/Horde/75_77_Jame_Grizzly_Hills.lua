@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2013-01-09 22:47
+-- Who: Ludovicus Maior
+-- Log: Added CS and CN tags
+
+-- URL: http://wow-pro.com/node/3294/revisions/24921/view
 -- Date: 2012-01-24 13:36
 -- Who: Crackerhead22
 -- Log: Added notes, cords, missing quest(s?)...?
@@ -128,7 +133,7 @@ T Delivery to Krenna|QID|12178|M|20.8,64.2|N|To Conqueror Krenna.|
 T Good Troll Hunting|QID|12208|N|To Samir.|M|16.2,47.7|
 A Filling the Cages |QID|11984|M|16.2,47.6|N|From Samir.|
 
-C Filling the Cages|QID|11984|N|Talk to Budd, the human with a troll mask sitting in one of the huts. Click on the text. Head southwest to Drak'Zin. Find a solo troll and use Budd's 4th ability.|U|35736|M|16.3,48.1;14.0,58.0|
+C Filling the Cages|QID|11984|N|Talk to Budd, the human with a troll mask sitting in one of the huts. Click on the text. Head southwest to Drak'Zin. Find a solo troll and use Budd's 4th ability.|U|35736|M|16.3,48.1;14.0,58.0|CS|
 T Filling the Cages |QID|11984|N|To Samir.|M|16.21,47.70|
 A Truce? |QID|11989|N|From Drakuru.|M|16.39,47.79|
 l Dull Carving Knife|QID|11989|L|38083|N|Next to the cage you should find a Dull Carving Knife planted in a tree stump.|M|16.5,47.8|
@@ -259,7 +264,7 @@ A The Runic Prophecies|QID|12058|M|65.2,47.8|N|From Sage Paluna.|
 T An Expedient Ally|QID|12074|N|To Kurun.|M|65.7,17.8|
 A Raining Down Destruction |QID|11982|M|65.8,17.8|N|From Kurun.|
 
-C Raining Down Destruction|QID|11982|N|Northeast of Kurun you should see Giants throwing boulders down into the trench below. Loot a boulder, go to the edge of the trench, and use it on a dwarf. Repeat.|U|35734|M|71.1,15.4;71.6,11.8|
+C Raining Down Destruction|QID|11982|N|Northeast of Kurun you should see Giants throwing boulders down into the trench below. Loot a boulder, go to the edge of the trench, and use it on a dwarf. Repeat.|U|35734|M|71.1,15.4;71.6,11.8|CN|
 T Raining Down Destruction |QID|11982|N|To Kurun.|M|65.65,17.79|
 A Rallying the Troops |QID|12070|N|From Kurun.|M|65.8,17.8|
 
@@ -346,7 +351,7 @@ K Selas|QID|12164|O|QO|Selas slain: 1/1|N|Head up the path and to the right, Sel
 K Varlam|QID|12164|O|QO|Varlam slain: 1/1|N|A wolf rider, gead back to the path and further up on the left there's another camp, Varlam is here.|M|85.1,23.4|
 K Goremaw|QID|12164|O|QO|Goremaw slain: 1/1|N|A large wolf; he's on the southern side of the tower.|M|86.9,26.8|
 C Hour of the Worg|QID|12164|O|N|Arugal is on top of the tower. He has 4 phases. Phase one he shadowbolts for ~1500 damage. At 75% HP, he goes into P2, summoning 3 adds. Kill them to return to P1, which lasts until 50%. Then he'll MC someone, who you bring down to 35%, then he goes back to P1. At 25%, he repeats P2, except with 9 adds. Sasha helps in the final phase. If you're ranged, you can probably kill him by LoSing his shadowbolts, if you're far enough down the adds won't aggro on you, but will despawn instead. Good luck!|M|87.5,26.5|
-T Hour of the Worg|QID|12164|O|M|64.9,43.5;87.2,25.6|N|To Sasha. If she despawns before you can turn the quest in, you can find her back where you accepted the quest at.|
+T Hour of the Worg|QID|12164|O|M|64.9,43.5;87.2,25.6|CS|N|To Sasha. If she despawns before you can turn the quest in, you can find her back where you accepted the quest at.|
 
 C Drak'aguul's Mallet |QID|12120|N|Find and kill Drak'aguul. He patrols on the path from near the water and up the stairs, then towards Drakil'jin Ruin.|M|74,30|T|Drak'aguul|
 T Drak'aguul's Mallet |QID|12120|N|To Kraz.|M|73.91,34.02|

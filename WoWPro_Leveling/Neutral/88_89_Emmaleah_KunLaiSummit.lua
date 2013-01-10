@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2013-01-09 22:27
+-- Who: Ludovicus Maior
+-- Log: Added CS/CN tags
+
+-- URL: http://wow-pro.com/node/3490/revisions/25254/view
 -- Date: 2012-12-18 17:15
 -- Who: Ludovicus Maior
 -- Log: OK, my last cleanup of Winter's Blossom, coords tweaks, and a few QO's.
@@ -340,7 +345,7 @@ T Back in Yak|QID|30492|M|64.71,61.76|N|To Lucky Eightcoins.|
 A A Grummle's Luck|QID|30808|M|64.71,61.76|N|From Lucky Eightcoins.|
 A Oil Stop|QID|30614|M|65.49,60.82|N|From Slimy Inkstain.|
 A Traffic Issues|QID|30616|M|64.88,60.49|N|From Smokey Sootassle.|
-C Sturdy Yaungol Spear|QID|31421|NC|M|71.2,62.6;70.0,63.8|N|Optional-This BoA strength polearm can be rarely found on weapons racks at Fire Camp Yongqi (and maybe the other yaungol camps). When you don't find it, manually check this step off.|
+C Sturdy Yaungol Spear|QID|31421|NC|M|71.2,62.6;70.0,63.8|CN|N|Optional-This BoA strength polearm can be rarely found on weapons racks at Fire Camp Yongqi (and maybe the other yaungol camps). When you don't find it, manually check this step off.|
 
 R Fire Camp Ruqin|QID|30614|M|63.44,68.53|
 C Traffic Issues|QID|30616|S|M|63.53,66.80|
@@ -574,7 +579,7 @@ C Kota Blend|QID|30744|U|81054|S|M|36.38,76.94|Pick up the betties from the grou
 T Kota Blend|QID|30744|N|To UI Alert.|M|36.38,76.94|
 A A Fair Trade|QID|30746|N|From UI Alert.|M|36.38,76.94|
 C Gourmet Kafa|QID|30743|US|M|36.95,76.16|N|Flag the droppings.|
-C Kafa Press|QID|31304|NC|M|37.5,78.0;35.2,76.3|N|Optional, Talk to 'Frozen Trail Packer' who can be rarely found at the back of the cave for a clicky haste item (and XP). Manually check this step off when you don't find it.|
+C Kafa Press|QID|31304|NC|M|37.5,78.0;35.2,76.3|CS|N|Optional, Talk to 'Frozen Trail Packer' who can be rarely found at the back of the cave for a clicky haste item (and XP). Manually check this step off when you don't find it.|
 C Trouble Brewing|QID|30745|US|M|37.83,77.90|N|Yeti's are located in the caves, any of the caves will do.|
 C Lost Adventurer's Belongings|QID|31418|NC|M|36.7,79.8|N|This one time loot item worth gold and XP is located at the spawn spot of the 87 silver elite Ski'thik. If he is up, you may want to skip this one.|
 C Shut it Down|QID|30742|US|M|40.67,73.42|N|Goats are hard to miss.|

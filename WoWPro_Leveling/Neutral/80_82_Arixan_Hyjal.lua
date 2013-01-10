@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2013-01-09 22:33
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3303/revisions/25047/view
 -- Date: 2012-08-21 16:44
 -- Who: Fluclo
 
@@ -222,7 +227,7 @@ A Howling Mad|QID|25270|M|30.1,31.7|N|From Takrik Ragehowl.|FACTION|Horde|
 C Howling Mad|QID|25270|N|Kill Lycanthoth Vandals for Polluted Incense.|FACTION|Horde|
 T Howling Mad|QID|25270|M|30.1,31.7|N|Back at Takrik Ragehowl.|FACTION|Horde|
 A Lycanthoth the Corruptor|QID|25272|M|30.1,31.7|N|From Takrik Ragehowl.|FACTION|Horde|
-C Lycanthoth the Corruptor|QID|25272|U|52682|M|32.0,36.6;32.4,37.2|N|Use Lycanthoth's Incense near the altar inside the cave to summon Lycanthoth.|FACTION|Horde|
+C Lycanthoth the Corruptor|QID|25272|U|52682|M|32.0,36.6;32.4,37.2|CS|N|Use Lycanthoth's Incense near the altar inside the cave to summon Lycanthoth.|FACTION|Horde|
 T Lycanthoth the Corruptor|QID|25272|M|32.4,37.2|N|At Spirit of Lo'Gosh.|FACTION|Horde|
 A The Shrine Reclaimed|QID|25279|M|29.6,29.4|N|From Spirit of Lo'Gosh after you dismount.|FACTION|Horde|
 T The Shrine Reclaimed|QID|25279|M|28.4,29.9|N|At Takrik Ragehowl to the west.|FACTION|Horde|
