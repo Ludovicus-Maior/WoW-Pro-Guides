@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2013-01-10 16:37
+-- Who: Ludovicus Maior
+-- Log: Rearrange eating and drinking as per  Bearzerker 
+
+-- URL: http://wow-pro.com/node/3459/revisions/25323/view
+-- Date: 2013-01-10 14:00
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3459/revisions/25303/view
 -- Date: 2013-01-09 21:57
 -- Who: Emmaleah
 -- Log: Added Spawn of JubJub quest.
@@ -137,7 +146,7 @@ T It's Hammer Time|QID|29463|N|To Mola.|
 
 A The Humanoid Cannonball|QID|29436|M|52.67,56.09|N|From Maxima Blastenheimer.|
 N Achievement|QID|29436|ACH|6021;0|N|Talk to Teleportologist Fozlebub for a return trip.|M|57.25,89.85|S|
-C The Humanoid Cannonball|QID|29436|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (1) right when you get past the dock.
+C The Humanoid Cannonball|QID|29436|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (1) right when you are about to go past the dock.|
 T The Humanoid Cannonball|QID|29436|N|To Maxima Blastenheimer.|
 
 T The Enemy's Insignia|QID|29457|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
@@ -197,15 +206,15 @@ B Deep Fried Candybar|QID|99602605|ACH|6026;4|M|52.88,67.92|N|From Stamp Thunder
 B Forest Strider Drumstick|QID|99602605|ACH|6026;5|M|52.88,67.92|N|From Stamp Thunderhorn.|L|33254|LVL|65|
 B Salty Sea Dog|QID|99602609|ACH|6026;9|M|52.88,67.92|N|From Stamp Thunderhorn.|L|73260|LVL|85|
 N Eat Darkmoon Dog|QID|99602603|ACH|6026;3|U|19223|LVL|5|
-N Eat Pickled Kodo Foot|QID|99602607|ACH|6026;7|U|19305|LVL|15|
-N Eat Crunchy Frog|QID|960260002|ACH|6026;2|U|19306|LVL|35|
-N Eat Funnel Cake|QID|99602606|ACH|6026;6|U|33246|LVL|55|
-N Eat Corn Breaded Sausage|QID|99602601|ACH|6026;1|U|44940|LVL|75|
-N Eat Red Hot Wings|QID|99602608|ACH|6026;8|U|19224|LVL|25|
-N Eat Deep Fried Candybar|QID|99602605|ACH|6026;4|U|19225|LVL|45|
-N Eat Forest Strider Drumstick|QID|99602605|ACH|6026;5|U|33254|LVL|65|
-N Eat Salty Sea Dog|QID|99602609|ACH|6026;9|U|73260|LVL|85|
 N Eat Spiced Beef Jerky|QID|99602610|ACH|6026;10|U|19304|LVL|5|
+N Eat Pickled Kodo Foot|QID|99602607|ACH|6026;7|U|19305|LVL|15|
+N Eat Red Hot Wings|QID|99602608|ACH|6026;8|U|19224|LVL|25|
+N Eat Crunchy Frog|QID|960260002|ACH|6026;2|U|19306|LVL|35|
+N Eat Deep Fried Candybar|QID|99602605|ACH|6026;4|U|19225|LVL|45|
+N Eat Funnel Cake|QID|99602606|ACH|6026;6|U|33246|LVL|55|
+N Eat Forest Strider Drumstick|QID|99602605|ACH|6026;5|U|33254|LVL|65|
+N Eat Corn Breaded Sausage|QID|99602601|ACH|6026;1|U|44940|LVL|75|
+N Eat Salty Sea Dog|QID|99602609|ACH|6026;9|U|73260|LVL|85|
 
 A Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|From Chronos.|P|First Aid;129;75|
 A Keeping the Faire Sparkling|QID|29516|M|55.00,70.76|N|From Chronos.|P|Jewelcrafting;755;75|
@@ -224,29 +233,6 @@ T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 N Jubling|M|55.8,70.6|U|11325|N|Somewhere in the forest resonably close to Morja is her lost frog JubJub. He is hooked on Dark Iron Ale.  If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured JubJub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|
 A Spawn of JubJub|QID|7946|M|55.8,70.6|
 T Spawn of JubJub|QID|7946|M|55.8,70.6|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|
-
-A A Fizzy Fusion|QID|29506|M|50.31,69.39|N|From Sylannia.|P|Alchemy;171;75|
-B Cheap Beer|QID|99602612|M|50.31,69.39|ACH|6026;12|N|From Sylannia.|L|19222|LVL|1|
-B Fizzy Faire Drink|QID|99602614|M|50.31,69.39|ACH|6026;14|N|From Sylannia.|L|19299|LVL|15|
-B Iced Berry Slush|QID|99602617|M|50.31,69.39|ACH|6026;17|N|From Sylannia.|L|33234|LVL|45|
-B Fresh-Squeezed Limeade|QID|99602616|M|50.31,69.39|ACH|6026;16|N|From Sylannia.|L|44941|LVL|70|
-B Darkmoon Special Reserve|QID|99602613|M|50.31,69.39|ACH|6026;13|N|From Sylannia.|L|19221|LVL|1|
-B Bottled Winterspring Water|QID|99602611|M|50.31,69.39|ACH|6026;11|N|From Sylannia.|L|19300|LVL|35|
-B Fizzy Faire Drink 'Classic'|QID|99602615|M|50.31,69.39|ACH|6026;15|N|From Sylannia.|L|33236|LVL|60|
-B Sasparilla Sinker|QID|99602618|M|50.31,69.39|ACH|6026;18|N|From Sylannia.|L|74822|LVL|85|
-
-N Drink Bottled Winterspring Water|QID|99602611|ACH|6026;11|U|19300|LVL|35|
-N Drink Cheap Beer|QID|99602612|ACH|6026;12|U|19222|LVL|1|
-N Drink Fizzy Faire Drink|QID|99602614|ACH|6026;14|U|19299|LVL|15|
-N Drink Iced Berry Slush|QID|99602617|ACH|6026;17|U|33234|LVL|45|
-N Drink Fresh-Squeezed Limeade|QID|99602616|ACH|6026;16|U|44941|LVL|70|
-N Drink Darkmoon Special Reserve|QID|99602613|ACH|6026;13|U|19221|LVL|1|
-N Drink Fizzy Faire Drink 'Classic'|QID|99602615|ACH|6026;15|U|33236|LVL|60|
-N Drink Sasparilla Sinker|QID|99602618|ACH|6026;18|U|74822|LVL|85|
-
-B Fizzy Faire Drink|QID|29506|M|50.31,69.39|N|From Sylannia.|L|19299 5|
-C A Fizzy Fusion|QID|29506|NC|N|Use the Cocktail Shaker.|U|72043|
-T A Fizzy Fusion|QID|29506|M|50.31,69.39|N|To Sylannia.|
 
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6030;1|L|74142 6|FACTION|Alliance|
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6031;1|L|74142 6|FACTION|Horde|
@@ -298,6 +284,29 @@ T Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|
 
 T Tan My Hide|QID|29519|M|54.84,70.66|N|From Chronos.|
 T Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|To Selina Dourman.|
+
+A A Fizzy Fusion|QID|29506|M|50.31,69.39|N|From Sylannia.|P|Alchemy;171;75|
+B Cheap Beer|QID|99602612|M|50.31,69.39|ACH|6026;12|N|From Sylannia.|L|19222|LVL|1|
+B Fizzy Faire Drink|QID|99602614|M|50.31,69.39|ACH|6026;14|N|From Sylannia.|L|19299|LVL|15|
+B Iced Berry Slush|QID|99602617|M|50.31,69.39|ACH|6026;17|N|From Sylannia.|L|33234|LVL|45|
+B Fresh-Squeezed Limeade|QID|99602616|M|50.31,69.39|ACH|6026;16|N|From Sylannia.|L|44941|LVL|70|
+B Darkmoon Special Reserve|QID|99602613|M|50.31,69.39|ACH|6026;13|N|From Sylannia.|L|19221|LVL|1|
+B Bottled Winterspring Water|QID|99602611|M|50.31,69.39|ACH|6026;11|N|From Sylannia.|L|19300|LVL|35|
+B Fizzy Faire Drink 'Classic'|QID|99602615|M|50.31,69.39|ACH|6026;15|N|From Sylannia.|L|33236|LVL|60|
+B Sasparilla Sinker|QID|99602618|M|50.31,69.39|ACH|6026;18|N|From Sylannia.|L|74822|LVL|85|
+
+N Drink Cheap Beer|QID|99602612|ACH|6026;12|U|19222|LVL|1|
+N Drink Darkmoon Special Reserve|QID|99602613|ACH|6026;13|U|19221|LVL|1|
+N Drink Fizzy Faire Drink|QID|99602614|ACH|6026;14|U|19299|LVL|15|
+N Drink Bottled Winterspring Water|QID|99602611|ACH|6026;11|U|19300|LVL|35|
+N Drink Iced Berry Slush|QID|99602617|ACH|6026;17|U|33234|LVL|45|
+N Drink Fizzy Faire Drink 'Classic'|QID|99602615|ACH|6026;15|U|33236|LVL|60|
+N Drink Fresh-Squeezed Limeade|QID|99602616|ACH|6026;16|U|44941|LVL|70|
+N Drink Sasparilla Sinker|QID|99602618|ACH|6026;18|U|74822|LVL|85|
+
+B Fizzy Faire Drink|QID|29506|M|50.31,69.39|N|From Sylannia.|L|19299 5|
+C A Fizzy Fusion|QID|29506|NC|N|Use the Cocktail Shaker.|U|72043|
+T A Fizzy Fusion|QID|29506|M|50.31,69.39|N|To Sylannia.|
 
 N Sayge's Dark Fortunes|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Sayge offers 8 different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item!|
 N Sayge's Dark Fortune of Stamina|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Confiscate the corn, Speak against your brother openly|

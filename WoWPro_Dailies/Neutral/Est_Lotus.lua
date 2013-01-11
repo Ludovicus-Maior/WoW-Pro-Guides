@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2013-01-11 11:24
+-- Who: Estelyen
+-- Log: Correction of Emmaleahs LEAD steps
+
+-- URL: http://wow-pro.com/node/3502/revisions/25321/view
 -- Date: 2013-01-10 03:56
 -- Who: Emmaleah
 -- Log: Added note about Golden Water Skimmer.
@@ -459,10 +464,10 @@ T The Thunder Below|QID|30280|N|To Leven Dawnblade.|M|33.81,38.49|
 T The Imperion Threat|QID|30302|N|To Leven Dawnblade.|M|33.81,38.49|
 
 ; Daily Quest-hub H (Whitepetal Lake, attacked)
-A Burning Away the Filth|QID|30282|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|From Anji Autumnlight.|M|56.57,43.62|
-A Random Whitepetal Lake Daily from Kun Autumnlight|QID|30292;30293|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|Accept the daily quest that Kun Autumnlight offers.|M|56.51,43.64|
-A The Silent Approach|QID|30281|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|From He Softfoot.|M|56.55,43.21|
-A A Smashing Impression|QID|30283|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|From Ren Firetongue.|M|56.68,43.17|
+A Burning Away the Filth|QID|30282|LEAD|30225;30227;30233;30234;30235;30236;30239;30248;30249;30251;30296;30297;30302|N|From Anji Autumnlight.|M|56.57,43.62|
+A Random Whitepetal Lake Daily from Kun Autumnlight|QID|30292;30293|LEAD|30225;30227;30233;30234;30235;30236;30239;30248;30249;30251;30296;30297;30302|N|Accept the daily quest that Kun Autumnlight offers.|M|56.51,43.64|
+A The Silent Approach|QID|30281|LEAD|30225;30227;30233;30234;30235;30236;30239;30248;30249;30251;30296;30297;30302|N|From He Softfoot.|M|56.55,43.21|
+A A Smashing Impression|QID|30283|LEAD|30225;30227;30233;30234;30235;30236;30239;30248;30249;30251;30296;30297;30302|N|From Ren Firetongue.|M|56.68,43.17|
 C The Silent Approach|QID|30281|N|Kill Shao-Tien Mogu around Whitepetal Lake.|M|40.71,48.10|S|
 C In Enemy Hands|QID|30293|N|Kill the Shao-Tien Mindbenders around the lake while ignoring their mind-contolled companions to free them.|M|40.71,48.10|S|
 C Rude Awakenings|QID|30292|N|Kill Dominated Paleblade Flesheaters.|M|40.71,48.10|S|
@@ -472,7 +477,7 @@ C Rude Awakenings|QID|30292|N|Kill Dominated Paleblade Flesheaters.|M|40.71,48.1
 C In Enemy Hands|QID|30293|N|Kill the Shao-Tien Mindbenders around the lake while ignoring their mind-contolled companions to free them.|M|40.71,48.10|US|
 C The Silent Approach|QID|30281|N|Kill Shao-Tien Mogu around Whitepetal Lake.|M|40.71,48.10|US|
 T The Silent Approach|QID|30281|N|Turn this quest in via your questlog, there could be a followup in the area.|
-A The Soul-Gatherer|QID|30482|LEAD|30639;31131;31242;31243;31248;31249;31250|N|If this quest is offered today, accept it from your questlog.|
+A The Soul-Gatherer|QID|30482|LEAD|30225;30227;30233;30234;30235;30236;30239;30248;30249;30251;30296;30297;30302|N|If this quest is offered today, accept it from your questlog.|
 C The Soul-Gatherer|QID|30482|ACH|7317;4|N|Kill Shadowmaster Sydow. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|40.80,47.60|
 C The Soul-Gatherer|QID|30482|N|Kill Shadowmaster Sydow. You will get credit for the kill, even if another player attacked him first.|M|40.80,47.60|
 T A Smashing Impression|QID|30283|N|To Ren Firetongue.|M|56.68,43.17|
@@ -480,7 +485,7 @@ T The Soul-Gatherer|QID|30482|N|To He Softfoot.|M|56.55,43.21|
 T Rude Awakenings|QID|30292|N|To Kun Autumnlight.|M|56.51,43.64|
 T In Enemy Hands|QID|30293|N|To Kun Autumnlight.|M|56.51,43.64|
 T Burning Away the Filth|QID|30282|N|To Anji Autumnlight.|M|56.57,43.62|
-A Next Random Daily in the Line|QID|31136;31131;31242;31243;31248;31249;31250|LEAD|31131;31242;31243;31248;31249;31250|N|From Leven Dawnblade. If he doesn't offer any quests, close this step manually.|M|56.71,43.60|
+A Next Random Daily in the Line|QID|31136;31131;31242;31243;31248;31249;31250|LEAD|30225;30227;30233;30234;30235;30236;30239;30248;30249;30251;30296;30297;30302|N|From Leven Dawnblade. If he doesn't offer any quests, close this step manually.|M|56.71,43.60|
 C Behind Our Lines|QID|31136|ACH|7317;3|N|Kill General Temuja. If he is surrounded by a group of Saurok, kill those first as they have very low health. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|69.40,53.00|
 C Behind Our Lines|QID|31136|N|Kill General Temuja. If he is surrounded by a group of Saurok, kill those first as they have very low health. You will get credit for the kill, even if another player attacked him first.|M|69.40,53.00|
 T Behind Our Lines|QID|31136|N|To Leven Dawnblade.|M|56.71,43.60|
