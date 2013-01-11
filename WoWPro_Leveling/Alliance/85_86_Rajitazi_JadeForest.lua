@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2013-01-11 20:36
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3486/revisions/25204/view
 -- Date: 2012-11-12 23:17
 -- Who: Ludovicus Maior
 -- Log: Tweak Zhi-Zhi fight and turnin.
@@ -597,7 +602,7 @@ C Delivery to Historian Dinh |QID|30495|NC|QO|Delivery to Historian Dinh: 1/1|M|
 T Love's Labor|QID|30495|M|48.31,61.35|N|From Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|M|48.31,61.35|N|From Foreman Raike.|
 
-F Temple of the Jade Serpent|QID|29932|M|48.2,60.0;55.8,57.1|N|Talk to Kitemaster Shoku for a ride to the Temple of the Jade Serpent and then talk to Elder Sage Wind-Yi for a cut scene.|
+F Temple of the Jade Serpent|QID|29932|M|48.2,60.0;55.8,57.1|CS|N|Talk to Kitemaster Shoku for a ride to the Temple of the Jade Serpent and upon landing talk to Elder Sage Wind-Yi for a cut scene.|
 
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.67|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|M|58.13,58.67|N|From Elder Sage Rain-Zhu.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2013-01-11 20:32
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3299/revisions/24645/view
 -- Date: 2011-06-30 12:43
 -- Who: Crackerhead22
 -- Log: Condensed code, minor tweaks.
@@ -248,7 +253,7 @@ T Fervor of the Frostborn|QID|12874|N|To Yorg Stormheart.|M|30.2,74.7|
 A An Experienced Guide|QID|12875|N|From Yorg Stormheart.|M|30.2,74.7|
 A Unwelcome Guests|QID|12876|N|From Fjorlin Frostbrow.|M|29.8,75.7|
 C Unwelcome Guests|QID|12876|S|N|Kill 10 Stormforged Pillager in the tunnel. Take lefts until you hit a big room with an ledge.|M|26.9,66.9|
-T An Experienced Guide|QID|12875|N|To Drom Frostgrip.|M|25.2,68.5;26.81,66.89|
+T An Experienced Guide|QID|12875|N|To Drom Frostgrip.|M|25.2,68.5;26.81,66.89|CC|
 A The Lonesome Watcher|QID|12877|N|From Drom Frostgrip.|M|25.2,68.5|
 C The Lonesome Watcher|QID|12877|N|Head towards the entrance, at one point you will be attacked by an Iron Dwarf Monitor. Kill it and loot Frostgrip's Signet Ring.|M|25.59,68.12|
 C Unwelcome Guests|QID|12876|US|N|Kill 10 Stormforged Pillager in the tunnel.|M|26.9,66.9|
@@ -286,7 +291,7 @@ A Raising Hodir's Spear|QID|13001|M|64.86,59.15|N|From Lorekeeper Randvir.|
 T A New Beginning|QID|13009|N|To Thorim.|M|33.4,58.0|
 
 A Veranus|QID|13050|N|From Thorim.|M|33.4,58.0|
-C Veranus|QID|13050|N|Loot 5 Small Proto-Drake Egg.|M|43.7,67.3;52.4,75.1|L|42784 5|
+C Veranus|QID|13050|N|Loot 5 Small Proto-Drake Egg.|M|43.7,67.3;52.4,75.1|CN|L|42784 5|
 T Veranus|QID|13050|N|To Thorim.|M|33.4,58.0|
 A Territorial Trespass|QID|13051|N|From Thorim.|M|33.4,58.0|
 C Territorial Trespass|QID|13051|N|Use the Stolen Proto-Dragon Eggs to lure Veranus so that Thorim can mount her.|M|38.75,65.5|
@@ -381,7 +386,7 @@ l Attack Specs|QID|12993|N|Loot the Colossus Attack Specs.|M|28.9,44.1 |L|42475|
 C A Colossal Threat - Defense Specs|QID|12993|N|Loot the Colossus Defense Specs.|M|29.9,45.8|
 T A Colossal Threat|QID|12993|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 A The Heart of the Storm|QID|12998|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
-C The Heart of the Storm|QID|12998|N|Through side of the mountain and click on the Heart of the Storm to try to prevent Overseer Narvir from obtaining the Heart of the Storm.|M|32.4,63.6;32.40,60.92;36.1,60.9|
+C The Heart of the Storm|QID|12998|N|Through side of the mountain and click on the Heart of the Storm to try to prevent Overseer Narvir from obtaining the Heart of the Storm.|M|32.4,63.6;32.40,60.92;36.1,60.9|CC|
 T The Heart of the Storm|QID|12998|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 A The Iron Colossus|QID|13007|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
 N The Iron Colossus|QID|13007|N|Click on a Jormunger Control orb.|M|26.30,35.72|

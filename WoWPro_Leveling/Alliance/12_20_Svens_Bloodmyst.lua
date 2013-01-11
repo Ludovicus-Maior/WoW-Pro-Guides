@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2013-01-11 19:49
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3220/revisions/24994/view
 -- Date: 2012-05-27 19:18
 -- Who: Crackerhead22
 -- Log: Fixes via wowmanus
@@ -87,7 +92,7 @@ f Blood Watch |QID|9634|M|57.69,53.92|N|Get the flight path for Blood Watch.|
 A Mac'Aree Mushroom Menagerie |QID|9648|M|56.4,56.8|N|From Jessera of Mac'Aree.|
 A WANTED: Deathclaw|QID|9646|M|55.2,59.1|N|From the Wanted Board outside the Inn.|
 h Blood Watch |QID|9634|M|55.84,59.80|N|Set hearthstone to Blood Watch with Caregiver Topher Loaal.|
-l Blood Mushroom|QID|9648|QO|Blood Mushroom: 1/1|L|24040|M|62.8,60.0;60.8,61.0;58.6,55.0;62.2,53.1;65.2,54.6;58.9,61.8;58.3,66.7;54.0,67.5|N|Obtain a Blood Mushroom, they are small and glow red.|
+l Blood Mushroom|QID|9648|QO|Blood Mushroom: 1/1|L|24040|M|62.8,60.0;60.8,61.0;58.6,55.0;62.2,53.1;65.2,54.6;58.9,61.8;58.3,66.7;54.0,67.5|CN|N|Obtain a Blood Mushroom, they are small and glow red.|
 l Aquatic Stinkhorn|QID|9648|M|63.75,62.90|QO|Aquatic Stinkhorn: 1/1|L|24041|N|Obtain an Aquatic Sinkhorn from Stinkhorn Striker in the Blood River.|
 l Ruinous Polyspore|QID|9648|M|67.86,66.53;60.6,42.1;62.0,41.9;60.8,49.6;64.1,47.2;68.6,65.1;66.5,70.1;68.7,71.7|L|24042|QO|Ruinous Polyspore: 1/1|N|Obtain a Ruinous Polyspore, they are black/grey and tan.|
 K Lord Xiz|QID|9666|QO|Lord Xiz slain: 1/1|U|24084|M|68.8,67.3|N|Kill Lord Xiz.|
@@ -106,7 +111,7 @@ T Declaration of Power |QID|9666|M|62.99,87.54|N|To Kessel.|
 
 A Report to Exarch Admetius|QID|9668|M|62.99,87.54|N|From Kessel.|
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Use the Murloc Tagger on 6 Blacksilt Scouts.|S|
-K Cruelfin |QID|9576|L|23870|M|49.5,94.8;34.6,93.1|N|Find and kill cruelfin, then loot the Red Crystal Pendant. He patrols along the south coast, spawning on the east side.|T|Cruelfin|
+K Cruelfin |QID|9576|L|23870|M|49.5,94.8;34.6,93.1|CN|N|Find and kill cruelfin, then loot the Red Crystal Pendant. He patrols along the south coast, spawning on the east side.|T|Cruelfin|
 A Cruelfin's Necklace|QID|9576|U|23870|N|Quest starts from the Red Crystal Pendant dropped from Cruelfin.|
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Continue to use the Murloc Tagger on 6 Blacksilt Scouts.|US|
 L Level 14 |LVL|14|QID|9576|N|Grind on murlocs until you are 4,800 XP from Level 14.|
@@ -176,10 +181,10 @@ T Explorers' League, Is That Something for Gnomes?|QID|10063|N|To Clopper Wizban
 A Pilfered Equipment|QID|9548|N|From Clopper Wizbang.|M|42.11,21.23|
 A Artifacts of the Blacksilt|QID|9549|N|From Clopper Wizbang.|M|42.11,21.23|
 C Artifacts of the Blacksilt|QID|9549|S|N|Kill murlocs for Idols and Knives.|M|41.38,20.11|
-C Pilfered Equipment|QID|9548|S|N|Watch for Clopper's Equipment.|M|38.4,22.4;40.4,20;44,22.4;46.4,20.4|
+C Pilfered Equipment|QID|9548|S|N|Watch for Clopper's Equipment.|M|38.4,22.4;40.4,20;44,22.4;46.4,20.4|CN|
 C WANTED: Deathclaw|QID|9646|N|Kill Deathclaw, and loot his Paw.|M|37,30|
 C Artifacts of the Blacksilt|QID|9549|US|N|Kill murlocs for Idols and Knives.|M|41.38,20.11|
-C Pilfered Equipment|QID|9548|US|N|Look for Clopper's Equipment.|M|38.4,22.4;40.4,20;44,22.4;46.4,20.4|
+C Pilfered Equipment|QID|9548|US|N|Look for Clopper's Equipment.|M|38.4,22.4;40.4,20;44,22.4;46.4,20.4|CN|
 T Artifacts of the Blacksilt|QID|9549|N|To Clopper Wizbang.|M|42.11,21.23|
 T Pilfered Equipment|QID|9548|N|To Clopper Wizbang.|M|42.11,21.23|
 A A Map to Where?|QID|9550|U|23837|N|Click the Weathered Treasure Map you just got to start the next quest.|

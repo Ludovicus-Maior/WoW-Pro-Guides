@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2013-01-11 19:38
+-- Who: Emmaleah
+-- Log: Add CS tag to T Old Divisions
+
+-- URL: http://wow-pro.com/node/3211/revisions/25012/view
 -- Date: 2012-06-30 18:31
 -- Who: Ludovicus Maior
 -- Log: Blizzard change zone names, AGAIN.
@@ -238,7 +243,7 @@ A Old Divisions |QID|14157|Z|GilneasCity|M|65.9,77.4|N|From King Genn Greymane.|
 A While You're At It |QID|24930|Z|GilneasCity|M|65.5,77.4|N|From Lord Godfrey.|
 
 C While You're At It |QID|24930|Z|GilneasCity|M|58.0,72.0|N|Kill Bloodfang Worgen on your way to the tower|S|
-T Old Divisions |QID|14157|Z|GilneasCity|M|58.0,72.0;57.9,75.3|N|Go northwest to the military district, take a left and enter the tower and see Captain Broderick.|
+T Old Divisions |QID|14157|Z|GilneasCity|M|58.0,72.0;57.9,75.3|CS|N|Go northwest to the military district, take a left and enter the tower and see Captain Broderick.|
 A The Prison Rooftop |QID|28850|Z|GilneasCity|M|57.9,75.3|N|From Captain Broderick.|
 
 T The Prison Rooftop |QID|28850|Z|GilneasCity|M|55.0,63.1|N|Go up the stairs and then follow the ledge around to Crowley.|

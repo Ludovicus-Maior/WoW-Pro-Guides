@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2013-01-11 19:50
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3215/revisions/25044/view
 -- Date: 2012-08-13 01:48
 -- Who: Laotseu
 -- Log: Play testing while levelling a Monk on the Beta. Mostly l steps that were converted to C with |NC|.
@@ -186,7 +191,7 @@ A To Win a War, You Gotta Become War|QID|26651|M|69.46,58.62|N|(UI Alert)|
 C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|Seaforium Planted at Blackrock Tower: 1/1|M|66.4,71.43|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|
 C To Win a War, You Gotta Become War|QID|26651|U|60385|M|63.86,70.34|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|
 
-R Shalewind Canyon|QID|26651|U|60385|M|72.4,64.3;77.26,65.86|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|
+R Shalewind Canyon|QID|26651|U|60385|M|72.4,64.3;77.26,65.86|CC|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|
 T To Win a War, You Gotta Become War|QID|26651|M|77.60,65.56|N|To John J. Keeshan.|
 A Detonation|QID|26668|M|77.60,65.56|N|From John J. Keeshan.|
 C Detonation|QID|26668|NC|M|77.60,65.61|N|Enjoy the brief cut scene.|
