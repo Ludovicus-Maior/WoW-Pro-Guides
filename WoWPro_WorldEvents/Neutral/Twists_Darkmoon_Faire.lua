@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2013-01-12 00:31
+-- Who: Ludovicus Maior
+-- Log: Added CS tag, QID for the jubling and made the purchase of Fossil Archeology Fragments level 90.
+
+-- URL: http://wow-pro.com/node/3459/revisions/25324/view
 -- Date: 2013-01-10 16:37
 -- Who: Ludovicus Maior
 -- Log: Rearrange eating and drinking as per  Bearzerker 
@@ -88,9 +93,9 @@
 WoWPro.WorldEvents:RegisterGuide("TwiDarkmoon","Darkmoon Faire","Darkmoon Faire","WE", "Twists", "Neutral", function()
 return [[
 
-B Fossil Archeology Fragments|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|
+B Fossil Archeology Fragments|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|90|
 
-B Dark Iron Ale|M|50.0,61.6|Z|Blackrock Depths|L|11325 10|U|37863|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths.  Grab your Direbrew remote for a quick trip there.|
+B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Blackrock Depths|L|11325 10|U|37863|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths.  Grab your Direbrew remote for a quick trip there.|
 B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|15|
 B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|15|
 B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|15|
@@ -225,12 +230,12 @@ N Collect 6 Darkblossom|QID|29514|L|72046 6|S|
 C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|S|
 N Collect 5 Bits of Glass|QID|29516|N|Green sparkling Gems.|L|72052 5|S|
 
-C Putting the Carnies Back Together Again|QID|29512|NC|M|54.87,70.75;47.44,74.85|N|Use the bandage on Carnies.|U|71978|
+C Putting the Carnies Back Together Again|QID|29512|NC|M|54.87,70.75;47.44,74.85|CN|N|Use the bandage on Carnies.|U|71978|
 C Herbs for Healing|QID|29514|US|NC|
 T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 
-N Jubling|M|55.8,70.6|U|11325|N|Somewhere in the forest resonably close to Morja is her lost frog JubJub. He is hooked on Dark Iron Ale.  If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured JubJub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|
+N Jubling|QID|7946|M|55.8,70.6|U|11325|N|Somewhere in the forest resonably close to Morja is her lost frog JubJub. He is hooked on Dark Iron Ale.  If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured JubJub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|
 A Spawn of JubJub|QID|7946|M|55.8,70.6|
 T Spawn of JubJub|QID|7946|M|55.8,70.6|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|
 
@@ -254,7 +259,7 @@ T Target: Turtle|QID|29455|M|51.45,77.77|N|Jessica Rogers.|
 T An Exotic Egg|QID|29444|M|50.87,81.80|N|To Yebb Neblegear.|
 A Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|P|Blacksmithing;164;75|
 
-N Achievement|QID|99602501|M|50.75,81.63;56.67,81.68|N|Follow the maze and hop on a horse at the end.|ACH|6025;0|
+N Achievement|QID|99602501|M|50.75,81.63;56.67,81.68|CS|N|Follow the maze and hop on a horse at the end.|ACH|6025;0|
 
 C Banners, Banners Everywhere!|QID|29520|U|72049|NC|US|N|Look for a sparkling dirt pile "base" for the banner.|
 

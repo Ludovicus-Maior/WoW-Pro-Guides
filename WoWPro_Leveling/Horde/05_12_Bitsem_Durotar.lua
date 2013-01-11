@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2013-01-11 23:26
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3199/revisions/25126/view
 -- Date: 2012-10-08 19:43
 -- Who: Ludovicus Maior
 -- Log: Get rid of - in zone names.
@@ -153,7 +158,7 @@ A Never Trust a Big Barb and a Smile|QID|25165|PRE|25170|M|55.72,75.39|N|From Bo
 A The War of Northwatch Aggression|QID|25169|M|55.46,75.04|N|From Lar Prowltusk.|
 
 C Never Trust a Big Barb and a Smile|QID|25165|U|52505|M|54.16,75.20|N|Place the Poison Extraction Totem near Clattering Scorpids until you have 6 samlpes of venom.|
-C The War of Northwatch Aggression|QID|25169|M|47.9,77.6;49.7,81.6;46.41,78.86|N|Destroy the 3 sets of Attack Plans held within Northwatch Foothold.|
+C The War of Northwatch Aggression|QID|25169|M|47.9,77.6;49.7,81.6;46.41,78.86|CS|N|Destroy the 3 sets of Attack Plans held within Northwatch Foothold.|
 C Purge the Valley|QID|25168|M|46.64,79.51|N|Defeat 12 Northwatch troops in Northwatch Foothold. |
 T The War of Northwatch Aggression|QID|25169|M|55.35,75.17|N|To Lar Prowltusk.|
 T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|

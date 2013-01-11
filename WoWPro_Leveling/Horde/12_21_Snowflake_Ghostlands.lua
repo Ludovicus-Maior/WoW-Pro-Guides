@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2013-01-11 23:28
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3221/revisions/24966/view
 -- Date: 2012-02-23 01:27
 -- Who: Crackerhead22
 -- Log: Tweaks
@@ -269,7 +274,7 @@ C Apothecary Enith|QID|9164|QO|Apothecary Enith Rescued: 1/1|M|32.1,73.9|N|Go do
 K Jurion the Deceiver|QID|9170|QO| Jurion the Deceiver slain: 1/1|M|32.1,74|N|Kill Jurion the Deciever in the crypt.|
 K Mirdoran the Fallen|QID|9170|QO|Mirdoran the Fallen slain: 1/1|M|37.1,79.1|N|Kill Mirdoran the Fallen.|
 C Apprentice Varnis|QID|9164|QO|Apprentice Varnis Rescued: 1/1|M|37.88,84.40;40.97,83.10|N|Go into the butchery and talk to Aprentive Varnis.|
-K Borgoth the Bloodletter.|QID|9170|S|M|41,83.1;32.7,89.9|N|Borgoth can be in either butchery.|QO|Borgoth the Bloodletter slain: 1/1|
+K Borgoth the Bloodletter.|QID|9170|S|M|41,83.1;32.7,89.9|CN|N|Borgoth can be in either butchery.|QO|Borgoth the Bloodletter slain: 1/1|
 C Captives at Deatholme|QID|9164|M|32.8,89.3|N|Talk to Ranger Vedoran to rescue him.|
 C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|N|Masophet can be in either ziggurat..|
 K Borgoth the Bloodletter|QID|9170|US|QO|Borgoth the Bloodletter slain: 1/1|M|41,83.1;32.7,89.9|N|Borgoth can be in either butchery.|
@@ -280,8 +285,8 @@ A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|R|BloodElf|N|From Magister Kaendr
 A Friend of the Sin'dorei|QID|9811|M|54.99,48.99|R|Orc,Troll,Tauren,Undead,Goblin|N|From Magister Kaendris.|
 T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.91,48.38|N|To Arcanist Janeda.|
-K Luzran|QID|9156|M|39.5,32;37.3,67.5|N|If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
-C Wanted: Knucklerot and Luzran|QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|N|If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|RANK|3|
+K Luzran |QID|9156|M|39.5,32;37.3,67.5|CN|N|If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
+K Knucklerot |QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|RANK|3|
 T Wanted: Knucklerot and Luzran|QID|9156|N|To Deathstalker Rathiel.|RANK|3|
 R Tranquillien|QID|9328|M|46,33|N|Run to Tranquillien.|
 
