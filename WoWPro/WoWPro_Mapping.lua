@@ -107,27 +107,37 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 	if not autoarrival then return end
 
 	local iactual
+
 	for i,waypoint in ipairs(cache) do
 		if (waypoint.uid == uid) then
 		    WoWPro:Print("Mapping: Located waypoint UID %s @ idx %d, autoarrival = %d",tostring(uid),i,autoarrival)
 			iactual = i break
 		end
 	end
+	
+	local autoComplete = false
+	local index = cache[iactual].index
+	if WoWPro.action[index] == "r" or WoWPro.action[index] == "R" or WoWPro.action[index] == "N" then
+	    autoComplete = true
+	end
+	
 
 	if autoarrival == 1 then
 		for i=iactual+1,#cache,1 do
 			TomTom:RemoveWaypoint(cache[i].uid)
 		end
 			
-		if iactual == 1 then
+		if iactual == 1 and autoComplete then
 			WoWPro.CompleteStep(cache[iactual].index)
 		end
 	
 
 	elseif autoarrival == 2 then
 		if iactual ~= #cache then return 
-		elseif iactual == 1 then 
-			WoWPro.CompleteStep(cache[iactual].index)
+		elseif iactual == 1 then
+		    if autoComplete then
+			    WoWPro.CompleteStep(cache[iactual].index)
+			end
 		else
 			TomTom:RemoveWaypoint(cache[iactual].uid)
 			TomTom:SetCrazyArrow(cache[iactual-1].uid, TomTom.db.profile.arrow.arrival, cache[iactual-1].desc)
