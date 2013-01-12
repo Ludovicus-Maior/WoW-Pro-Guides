@@ -272,7 +272,7 @@ local function ParseQuests(...)
 					else
 					    WoWPro.waypcomplete[i] = false
 					    if WoWPro.map[i]:find(";") then
-					        WoWPro.Leveling:Print("Step %s [%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],WoWProDB.char.currentguide)
+					        WoWPro.WorldEvents:Warning("Step %s [%s:%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
 					    end
 					end
 				end
@@ -318,7 +318,7 @@ function WoWPro.WorldEvents:LoadGuide()
 			if WoWPro.QID[i] then
 				QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(QID)
-				WoWPro:dbp("Checking for completion: "..QID.." - "..WoWPro.step[i])
+				WoWPro:dbp("Checking for completion: %s - %s",tostring(QID),WoWPro.step[i])
 			else
 				QID = nil
 			end

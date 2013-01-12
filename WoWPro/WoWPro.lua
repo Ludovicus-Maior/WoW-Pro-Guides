@@ -31,7 +31,7 @@ _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 WoWPro.Serial = 0
 function WoWPro:dbp(message,...)
 	if WoWPro.DebugMode and message ~= nil then
-	    local msg = string.format("|cffff7f00%s|r: "..message, self.name or "Wow-Pro",...)
+	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
 		DEFAULT_CHAT_FRAME:AddMessage( msg )
 		WoWPro.Serial = WoWPro.Serial + 1
 		if WoWPro.Serial > 999 then
@@ -44,7 +44,7 @@ function WoWPro:dbp(message,...)
 		    end
 		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
 		else
-		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%02d",WoWPro.Serial)] = msg
+		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
 		end
 	end
 end
@@ -52,6 +52,28 @@ WoWPro:Export("dbp")
 
 -- WoWPro print function --
 function WoWPro:Print(message,...)
+	if message ~= nil then
+	    local msg = string.format("|c7fffff7f%s|r: "..message, self.name or "Wow-Pro",...)
+		DEFAULT_CHAT_FRAME:AddMessage( msg )
+		WoWPro.Serial = WoWPro.Serial + 1
+		if WoWPro.Serial > 999 then
+		    WoWPro.Serial = 1
+		end
+		if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
+		    if WoWPro.Log then
+		        WoWProDB.global.Log = WoWPro.Log
+		        WoWPro.Log = nil
+		    end
+		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+		else
+		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+		end
+	end
+end
+WoWPro:Export("Print")
+
+-- WoWPro warning function --
+function WoWPro:Warning(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...)
 		DEFAULT_CHAT_FRAME:AddMessage( msg )
@@ -66,11 +88,89 @@ function WoWPro:Print(message,...)
 		    end
 		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
 		else
-		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%02d",WoWPro.Serial)] = msg
+		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
 		end
 	end
 end
-WoWPro:Export("Print")
+WoWPro:Export("Warning")
+
+-- WoWPro error function --
+function WoWPro:Error(message,...)
+	if message ~= nil then
+	    local msg = string.format("|cffff7d0a%s|r: "..message, self.name or "Wow-Pro",...)
+		DEFAULT_CHAT_FRAME:AddMessage( msg )
+		WoWPro.Serial = WoWPro.Serial + 1
+		if WoWPro.Serial > 999 then
+		    WoWPro.Serial = 1
+		end
+		if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
+		    if WoWPro.Log then
+		        WoWProDB.global.Log = WoWPro.Log
+		        WoWPro.Log = nil
+		    end
+		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+		else
+		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+		end
+	end
+end
+WoWPro:Export("Error")
+
+-- Generate an ordered Index
+local function _generateOrderedIndex(t)
+    DEFAULT_CHAT_FRAME:AddMessage(string.format("_generateOrderedIndex(%s)",tostring(t)))
+    local orderedIndex = {}
+    for key in pairs(t) do
+        table.insert( orderedIndex, key )
+    end
+    table.sort( orderedIndex )
+    return orderedIndex
+end
+
+local function orderedNext(t, state)
+    DEFAULT_CHAT_FRAME:AddMessage(string.format("orderedNext(%s,%s)",tostring(t),tostring(state)))
+    -- Equivalent of the next function, but returns the keys in the alphabetic
+    -- order. We use a temporary ordered key table that is stored in the
+    -- table being iterated.
+
+    if state == nil then
+        -- the first time, generate the index
+        t._orderedIndex = _generateOrderedIndex( t )
+        key = t._orderedIndex[1]
+        return key, t[key]
+    end
+    -- fetch the next value
+    key = nil
+    for i = 1,table.getn(t._orderedIndex) do
+        if t._orderedIndex[i] == state then
+            key = t._orderedIndex[i+1]
+        end
+    end
+
+    if key then
+        return key, t[key]
+    end
+
+    -- no more value to return, cleanup
+    t.__orderedIndex = nil
+    return
+end
+
+local function orderedPairs(t)
+    DEFAULT_CHAT_FRAME:AddMessage(string.format("orderedPairs(%s)",tostring(t)))
+    -- Equivalent of the pairs() function on tables. Allows to iterate in order
+    return orderedNext, t, nil
+end
+
+function WoWPro:LogDump()
+    if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
+    DEFAULT_CHAT_FRAME:AddMessage(string.format("WoWPro:LogDump WoWProDB.global.Log=%s",tostring(WoWProDB.global.Log)))
+    local text = ""
+    for key, val in orderedPairs(WoWProDB.global.Log) do
+        text = text .. string.format("%s ~ %s\n",key,val)
+    end
+    return text
+end
 
 function WoWPro.toboolean(v)
     if type(v) == "string" then
