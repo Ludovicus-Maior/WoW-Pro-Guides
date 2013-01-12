@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2013-01-12 18:39
+-- Who: Ludovicus Maior
+-- Log: Added a CS and CN tag
+
+-- URL: http://wow-pro.com/node/3493/revisions/25304/view
 -- Date: 2013-01-09 22:25
 -- Who: Ludovicus Maior
 -- Log: Added CS tag
@@ -117,7 +122,7 @@ A Relics of the Swarm|QID|31023|M|67.91,60.19|U|82870|N|Accept from the 'Strange
 C Relics of the Swarm|QID|31023|S|NC|M|65.65,64.13|N|These are small tablets around and in the lake.|
 C Mistblade Destruction|QID|31023|US|M|62.3,57.7|
 C Amber Is Life |QID|31019|US|QO|Mistblade Ripper slain: 7/7|M|62.3,57.7|
-K Kill Mistblade Scale-Lord|QID|31019|T|Mistblade Scale-Lord|QO|Mistblade Scale-Lord slain: 1/1|M|63.68,63.84;66.5,66.0|N|He is in the den, first coordinates are for the opening. Rarely a BoA tanking sword can be found stuck in the wall in this cave.|
+K Kill Mistblade Scale-Lord|QID|31019|T|Mistblade Scale-Lord|QO|Mistblade Scale-Lord slain: 1/1|M|63.68,63.84;66.5,66.0|CS|N|He is in the den, first coordinates are for the opening. Rarely a BoA tanking sword can be found stuck in the wall in this cave.|
 T Amber Is Life|QID|31019|M|66.82,65.35|N|To Ancient Amber Chunk.|
 A Feeding the Beast|QID|31020|M|66.82,65.35|N|From Korven the Prime.|
 A Living Amber|QID|31021|M|66.82,65.35|N|From Korven the Prime.|
@@ -395,7 +400,7 @@ A Fires and Fears of Old|QID|31085|M|38.24,17.24|N|From Lya of Ten Songs.|
 A Blood of Ancients|QID|31086|M|38.24,17.24|N|From Sapmaster Vu.|
 C Amber Encased Necklace|QID|31431|M|33,33.07|N|This rare lost item can sometimes be found on the ground among the rocks at this location. It stands out since it is orange against the dark ground. (when you don't find it, manually check this step off.)|
 C Blood of Ancients|QID|31086|NC|M|30.21,30.56|
-C Fires and Fears of Old|QID|31085|U|84771|M|29.97,30.89;33.25,33.57|N|Click on the rocks, and the sprites will move them for you.|
+C Fires and Fears of Old|QID|31085|U|84771|M|29.97,30.89;33.25,33.57|CN|N|Click on the rocks, and the sprites will move them for you.|
 R The Sunset Brewgarden|QID|31085|M|50.27,12.21|
 T Fires and Fears of Old|QID|31085|M|50.28,12.13|N|To Lya of Ten Songs.|
 A Once in a Hundred Lifetimes|QID|32030|M|50.28,12.13|N|From Lya of Ten Songs.|

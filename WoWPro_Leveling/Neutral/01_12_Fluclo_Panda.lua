@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2013-01-12 18:11
+-- Who: Ludovicus Maior
+-- Log: Get rid of extra M tag
+
+-- URL: http://wow-pro.com/node/3483/revisions/25354/view
+-- Date: 2013-01-12 18:09
+-- Who: Ludovicus Maior
+-- Log: Added CC, and CN tags.
+
+-- URL: http://wow-pro.com/node/3483/revisions/25228/view
 -- Date: 2012-12-02 15:24
 -- Who: Ludovicus Maior
 -- Log: Ask the user to log out or reload to get the faction specific guides loaded up.
@@ -59,7 +69,7 @@ WoWPro.Leveling:RegisterGuide('FlucloPanda', 'The Wandering Isle', 'Fluclo', '01
 return [[
 
 ; Non Pandarian can't get here.
-N Not Available |QID|99999|M|N|Sorry, but The Wandering Isle is only available to starting characters of the Pandaria race.  Please select another guide.|R|Gnome,Dwarf,Draenei,Night Elf,Human,Worgen,BloodElf,Goblin,Tauren,Orc,Troll,Forsaken|
+N Not Available |QID|99999|N|Sorry, but The Wandering Isle is only available to starting characters of the Pandaria race.  Please select another guide.|R|Gnome,Dwarf,Draenei,Night Elf,Human,Worgen,BloodElf,Goblin,Tauren,Orc,Troll,Forsaken|
 
 ; When you start your character, the quest is automatically applied to your quest book so there is no need for an A step.
 T Much to Learn |QID|30039|M|56.66,18.17|N|To Master Shang Xi.|C|Monk|
@@ -115,7 +125,7 @@ T The Lesson of Stifled Pride|QID|29524|M|59.70,19.17|N|To Master Shang Xi (he h
 
 A The Lesson of the Burning Scroll|QID|29408|M|59.70,19.17|N|From Master Shang Xi.|
 C The Lesson of the Burning Scroll|QID|29408|M|59.93,20.32|NC|N|Snatch the Master's Flame from Master Shang Xi|QO|Snatch the Master's Flame: 1/1|
-C The Lesson of the Burning Scroll|QID|29408|M|60.10,18.42;59.78,19.73;60.02,18.59;59.99,20.27|N|Head on up the stairs, follow around the floor to the second flight of stairs, then head to the balcony and burn the Edict of Temperance.|
+C The Lesson of the Burning Scroll|QID|29408|M|60.10,18.42;59.78,19.73;60.02,18.59;59.99,20.27|CS|N|Head on up the stairs, follow around the floor to the second flight of stairs, then head to the balcony and burn the Edict of Temperance.|
 T The Lesson of the Burning Scroll|QID|29408|M|59.73,19.08|N|To Master Shang Xi.|
 
 A The Disciple's Challenge|QID|29409|M|59.73,19.08|N|From Master Shang Xi.|
@@ -138,7 +148,7 @@ T Items of Utmost Importance|QID|29424|M|55.09,32.82|N|To Merchant Lorvo.|
 T The Missing Driver|QID|29419|M|55.09,32.82|N|To Merchant Lorvo.|US|
 
 A The Way of the Tushui|QID|29414|M|55.11,32.54|N|From Aysa Cloudsinger|
-C The Way of the Tushui|QID|29414|M|55.63,30.99;57.80,36.10|N|Head up to the Cave of Meditation, then kill the Amberleaf Troublemakers until Aysa's Meditation bar reaches 90.|
+C The Way of the Tushui|QID|29414|M|55.63,30.99;57.80,36.10|CS|N|Head up to the Cave of Meditation, then kill the Amberleaf Troublemakers until Aysa's Meditation bar reaches 90.|
 T The Way of the Tushui|QID|29414|M|57.55,34.68|N|To Master Shang Xi|
 
 A Ji of the Huojin|QID|29522|M|57.55,34.68|N|From Master Shang Xi|
@@ -161,7 +171,7 @@ T Kindling the Fire|QID|29418|M|50.24,21.26|N|To Ji Firepaw.|
 T Fanning the Flames|QID|29523|M|50.24,21.26|N|To Ji Firepaw.|US|
 
 A The Spirit's Guardian|QID|29420|M|50.28,21.45|N|From Master Shang Xi (he has moved to Wu-Song Village)|
-T The Spirit's Guardian|QID|29420|M|41.48,25.04;40.87,22.52;38.80,25.51|N|To Master Li Fei at Shrine of Inner-Light.|
+T The Spirit's Guardian|QID|29420|M|41.48,25.04;40.87,22.52;38.80,25.51|CS|N|To Master Li Fei at Shrine of Inner-Light.|
 
 A The Challenger's Fires|QID|29664|M|38.80,25.51|N|From Master Li Fei|
 C The Challenger's Fires|QID|29664|M|38.71,25.42|N|Light the torch on the Brazier of the Flickering Flame.|NC|QO|Challenger Torch lit: 1/1|
@@ -179,11 +189,11 @@ C Huo, the Spirit of Fire|QID|29422|M|39.45,29.62|N|Head up the ramp to Huo Anci
 T Huo, the Spirit of Fire|QID|29422|M|39.45,29.62|N|To Huo|
 
 A The Passion of Shen-zin Su|QID|29423|M|39.45,29.62|N|From Huo|
-C The Passion of Shen-zin Su|QID|29423|M|38.71,26.42;40.73,22.29;41.65,25.14;51.04,30.62;51.44,46.41|N|Head out of the Shrine and go to Temple of Five Dawns|NC|
+C The Passion of Shen-zin Su|QID|29423|M|38.71,26.42;40.73,22.29;41.65,25.14;51.04,30.62;51.44,46.41|CS|N|Head out of the Shrine and go to Temple of Five Dawns|NC|
 T The Passion of Shen-zin Su|QID|29423|M|51.44,46.41|N|To Master Shang Xi|
 
 A The Singing Pools|QID|29521|M|51.44,46.41|N|From Master Shang Xi|
-A Stronger Than Reeds|QID|29662|M|53.33,47.46;63.47,41.97|N|Head out of the Temple and head east to The Singing Pools to Jojo Ironbrow|
+A Stronger Than Reeds|QID|29662|M|53.33,47.46;63.47,41.97|CC|N|Head out of the Temple and head east to The Singing Pools to Jojo Ironbrow|
 
 r Profession Trainer|QID|29521|M|63.0,41.6|N|YOu can sell the extra items you have collected here, but even more importantly you can train your primary professions at Whittler Dewei. Unfortunantly secondary professions can't be trained until you reach your factions capital.|
 T The Singing Pools|QID|29521|M|65.59,42.59|N|To Aysa Cloudsinger (she has moved to The Singing Pools)|
@@ -218,7 +228,7 @@ T The Sun Pearl|QID|29677|M|78.50,42.85|N|To Old Man Liang (he's moved to the Ga
 T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|US|
 
 A Shu, the Spirit of Water|QID|29678|M|78.50,42.85|N|From Old Man Liang|
-C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|Cross to the Pool of Reflection: 1/1|
+C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|Cross to the Pool of Reflection: 1/1|
 C Shu, the Spirit of Water|QID|29678|M|79.64,38.62|N|Use the Sun Pearl to coax out Shu.|
 T Shu, the Spirit of Water|QID|29678|N|(UI Alert)|
 
@@ -227,7 +237,7 @@ C A New Friend|QID|29679|M|79.10,38.20|N|Walk into the Water Spouts created by S
 T A New Friend|QID|29679|M|79.82,39.34|N|To Aysa Cloudsinger (now at the edge of the Pool of Reflection)|
 
 A The Source of Our Livelihood|QID|29680|M|79.82,39.34|N|From Aysa Cloudsinger|
-T The Source of Our Livelihood|QID|29680|M|79.19,45.31;68.89,65.00|N|To Ji Firepaw at Dai-Lo Farmstead.  A Cart at the first coordinates will take you to him.|
+T The Source of Our Livelihood|QID|29680|M|79.19,45.31;68.89,65.00|CC|N|To Ji Firepaw at Dai-Lo Farmstead.  A Cart at the first coordinates will take you to him.|
 
 A Rascals|QID|29769|M|68.89,65.00|N|From Ji Firepaw|
 A Still Good!|QID|29770|M|68.13,66.40|N|From Gao Summerdraft|
@@ -261,11 +271,11 @@ C Not In the Face!|QID|29774|M|68.89,65.00|N|Head back to Wugou and wait for Shu
 T Not In the Face!|QID|29774|M|68.89,65.00|N|To Ji Firepaw|
 
 A The Spirit and Body of Shen-zin Su|QID|29775|M|68.89,65.00|N|From Ji Firepaw|
-R Mandori Village|QID|29775|M|67.98,67.20;51.86,58.54|N|Head to the Delivery Cart for a ride to the steps of Temple of Five Dawns
+R Mandori Village|QID|29775|M|67.98,67.20;51.86,58.54|CC|N|Head to the Delivery Cart for a ride to the steps of Temple of Five Dawns
 T The Spirit and Body of Shen-zin Su|QID|29775|M|51.58,48.32|N|Head up the stairs to Master Shang Xi|
 
 A Morning Breeze Village|QID|29776|M|51.58,48.32|N|From Master Shang Xi|
-T Morning Breeze Village|QID|29776|M|50.15,48.63;47.66,50.93;44.91,51.36;35.81,51.37;30.82,44.47;30.97,36.74|N|To Ji Firepaw in Morning Breeze Village|
+T Morning Breeze Village|QID|29776|M|50.15,48.63;47.66,50.93;44.91,51.36;35.81,51.37;30.82,44.47;30.97,36.74|CS|N|To Ji Firepaw in Morning Breeze Village|
 
 A Rewritten Wisdoms|QID|29778|M|30.97,36.74|N|From Ji Firepaw|
 A Stronger Than Stone|QID|29783|M|29.92,39.77|N|From Jojo Ironbrow|
@@ -288,7 +298,7 @@ A Do No Evil|QID|29780|M|30.97,36.74|N|From Ji Firepaw|US|
 A Monkey Advisory Warning|QID|29781|M|30.97,36.74|N|From Ji Firepaw|US|
 
 C The Direct Solution|QID|29779|N|Kill Fe-Fang Hozen|S|
-A Stronger Than Bone|QID|29782|M|28.33,38.78;26.43,33.73|N|From Jade Tiger Pillar in Fe-Feng Village|
+A Stronger Than Bone|QID|29782|M|28.33,38.78;26.43,33.73|CC|N|From Jade Tiger Pillar in Fe-Feng Village|
 C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundles as you go.  There are several where Ruk-Ruk is|S|
 C Do No Evil|QID|29780|M|20.93,34.36|N|Kill Ruk-Ruk|
 T Do No Evil|QID|29780|N|To Ji Firepaw|
@@ -398,7 +408,7 @@ C The Healing of Shen-zin Su|QID|29799|M|38.45,85.95|N|Release the healers found
 T The Healing of Shen-zin Su|QID|29799|M|39.33,86.19|N|To Ji Firepaw|
 
 A New Allies|QID|29800|M|38.81,86.32|N|After the cut-scene, from Ji Firepaw|
-R Mandori Village|QID|29800|M|41.57,85.47;51.72,58.97|N|The Delivery Cart will take you there.|
+R Mandori Village|QID|29800|M|41.57,85.47;51.72,58.97|CC|N|The Delivery Cart will take you there.|
 T New Allies|QID|29800|M|51.46,48.33|N|Up the stairs, to Spirit of Master Shang Xi|
 
 A A New Fate|QID|31450|M|51.46,48.33|N|From Spirit of Master Shang Xi|

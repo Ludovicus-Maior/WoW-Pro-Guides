@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2013-01-12 19:19
+-- Who: Ludovicus Maior
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3197/revisions/25124/view
 -- Date: 2012-10-08 19:41
 -- Who: Ludovicus Maior
 -- Log: Add Human Monk starter quests and get rid of - in zone name.
@@ -333,7 +338,7 @@ T Rest And Relaxation|QID|2158|M|43.77,65.80|N|To Innkeeper Farley.|
 A Kobold Candles|QID|60|M|43.32,65.71|N|From William Pestle.|
 T Report To Goldshire|QID|54|M|42.11,65.92|N|To Marshal Dughan.|
 A The Fargodeep Mine|QID|62|M|42.11,65.92|N|From Marshal Dughan.|
-r Sell Junk,restock,train and repair.|QID|85|N|Repair available inside the forging hut.  Lien Farner at the junction  will train you the basics of every primary professions.\n\nClick this step to continue.|M|41.84,65.68;41.95,67.17|
+r Sell Junk,restock,train and repair.|QID|85|N|Repair available inside the forging hut.  Lien Farner at the junction  will train you the basics of every primary professions.\n\nClick this step to continue.|M|41.84,65.68;41.95,67.17|CS|
 A Gold Dust Exchange|QID|47|M|42.14,67.25|N|From Remy "Two Times".|
 
 R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|34.31,83.67|
@@ -362,7 +367,7 @@ T Princess Must Die!|QID|88|M|34.66,84.48|N|To Ma Stonefield.|
 
 C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|S|
 C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|S|
-C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest completed message.|QID|62|M|38.96,82.27;39.05,81.59,39.56,80.32|NC|
+C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest completed message.|QID|62|M|38.96,82.27;39.05,81.59,39.56,80.32|NC|CS|
 C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|US|
 C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|US|
 

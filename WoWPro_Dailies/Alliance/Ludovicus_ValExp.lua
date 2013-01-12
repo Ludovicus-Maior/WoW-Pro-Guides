@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2013-01-12 21:25
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3405/revisions/25295/view
 -- Date: 2013-01-09 01:48
 -- Who: Ludovicus Maior
 -- Log: Added CN tag.

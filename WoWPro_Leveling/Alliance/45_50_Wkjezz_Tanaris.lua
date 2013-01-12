@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2013-01-12 19:08
+-- Who: Ludovicus Maior
+-- Log: Added CN and CS tags
+
+-- URL: http://wow-pro.com/node/3259/revisions/25030/view
 -- Date: 2012-07-06 21:07
 -- Who: Ludovicus Maior
 -- Log: Corrected quest [Tropical Paradise Beckons] to Flinn and his coords as per wowmanus, with more bits of coordinate accuracy from Ludo :-).
@@ -97,7 +102,7 @@ C Rocket Rescue|QID|25050|M|60.05,27.04|N|Button 1 Delivers Life Boats. Button 2
 T Rocket Rescue|QID|25050|M|51.22,29.90|N|To Kelsey Steelspark.|
 
 A Momentum|QID|25121|M|51.22,29.90|N|From Kelsey Steelspark.|
-C Scavengers Scavenged|QID|25111|U|52715|M|49.43,36.07;44.19,40.97|N|Go between the bone sites, kill Fire Rocs, then use the Butcherbot on the corpse.|
+C Scavengers Scavenged|QID|25111|U|52715|M|49.43,36.07;44.19,40.97|CN|N|Go between the bone sites, kill Fire Rocs, then use the Butcherbot on the corpse.|
 T Momentum|QID|25121|M|72.17,45.21|N|To Kelsey Steelspark.|
 A Dead Man's Chest|QID|25052|M|72.17,45.21|N|From Kelsey Steelspark.|
 A To The Ground!|QID|25053|M|72.17,45.21|N|From Kelsey Steelspark.|
@@ -135,7 +140,7 @@ T Sandsorrow Watch|QID|25091|M|42.44,24.00|N|To Trenton Lighthammer.|
 A Blood to Thrive|QID|25021|M|42.32,23.90|N|From Mazoga.|
 A I'm With Scorpid|QID|25521|M|42.46,24.32|N|From Gus Rustflutter.|
 C I'm With Scorpid|QID|25521|S|M|44.38,26.25|N|Kill all the scorpids you see on the way to the trolls. Don't worry if you don't complete the quest; you can kill more on the way back.|
-C Blood to Thrive|QID|25021|M|40.46,29.14;38.46,26.43|N|Kill and loot the trolls. If this camp has been cleared there is another to the Northwest. |
+C Blood to Thrive|QID|25021|M|40.46,29.14;38.46,26.43|CN|N|Kill and loot the trolls. If this camp has been cleared there is another to the Northwest. |
 C I'm With Scorpid|QID|25521|US|M|44.38,26.25|N|Finish gathering Stingers.|
 T I'm With Scorpid|QID|25521|M|42.46,24.25|N|To Gus Rustflutter.|
 
@@ -208,7 +213,7 @@ A You Too, Brute?|QID|25065|M|49.99,82.90|N|From Kelsey Steelspark.|
 C You Too, Brute?|QID|25065|M|53.31,89.73|N|Kill and loot Meatface.|
 T You Too, Brute?|QID|25065|M|50.00,82.90|N|To Kelsey Steelspark.|
 A Prospector Gunstan|QID|28881|M|50.00,82.90|N|From Kelsey Steelspark.|
-f Southmoon Ruins|QID|28881|M|49.10,76.00;40.01,77.50|N|At Thurda.|
+f Southmoon Ruins|QID|28881|M|49.10,76.00;40.01,77.50|CS|N|At Thurda.|
 T Prospector Gunstan|QID|28881|M|40.12,76.91|N|To Prospector Gunstan.|
 A Ancient Obstacles|QID|25420|M|40.12,76.91|N|From Prospector Gunstan.|
 A Laying Claim|QID|25559|M|40.12,76.91|N|From Prospector Gunstan.|

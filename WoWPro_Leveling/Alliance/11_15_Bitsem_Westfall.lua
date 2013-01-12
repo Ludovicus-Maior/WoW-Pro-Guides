@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2013-01-12 21:19
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3213/revisions/25283/view
 -- Date: 2013-01-09 00:24
 -- Who: Ludovicus Maior
 -- Log: Multicoord corrections.
@@ -119,7 +124,7 @@ C Feast or Famine|QID|26230|M|52.83,22.45|N|Kill Coyotes for their tails, and co
 C "I TAKE Candle!"|QID|26229|S|M|44.62,25.80|N|Kill Kobold Diggers you find outside and inside Jangalode Mine.|
 R Jangolode Mine |QID|26228|M|44.54,25.17|N|Head to the Jangolode Mine.|
 
-C Livin' the Life|QID|26228|NC|U|57761|M|44.54,24.96;46.44,19.31|N|Use Two-Shoed Lou's Old House at the back of the cave.|
+C Livin' the Life|QID|26228|NC|U|57761|M|44.54,24.96;46.44,19.31|CS|N|Use Two-Shoed Lou's Old House at the back of the cave.|
 C "I TAKE Candle!"|QID|26229|US|M|44.62,25.80|N|Finish killing Kobold on your way out.|
 
 T Feast or Famine|QID|26230|M|49.51,19.24|N|To Mama Celeste.|

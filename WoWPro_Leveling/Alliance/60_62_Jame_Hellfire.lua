@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2013-01-12 21:22
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3271/revisions/24888/view
 -- Date: 2012-01-18 21:55
 -- Who: Ludovicus Maior
 -- Log: Coord tweak for A Naladu|
@@ -108,7 +113,7 @@ N Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Tor
 N Burn Catapult 3 |QID|10078|N|Burn the third thrower here with the Flaming Torch. |QO|Central Western Thrower Burned: 1/1|U|26002|M|53.50,47.20|
 C Laying Waste to the Unwanted |N|Burn the last thrower here.|QID|10078|U|26002|M|52.80,47.20|
 
-R Temple of Telhamat|QID|9398|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|N|Run to the Temple of Telhamat.|
+R Temple of Telhamat|QID|9398|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|CC|N|Run to the Temple of Telhamat.|
 A Deadly Predators |QID|9398|M|23.4,39.7|N|From Scout Vanura.|
 A In Search of Sedai |QID|9390|M|23.1,40.3|N|From Anchorite Obadei.|
 A Cruel Taskmasters |QID|9399|M|23.1,40.3|N|From Ikan.|
@@ -178,7 +183,7 @@ C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow and begin flying, 
 T Mission: The Abyssal Shelf |QID|10163|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Go to the Front |QID|10382|M|79.3,33.9|N|From Wing Commander Gryphongar.|
 
-T Go to the Front |QID|10382|M|78.35,34.36;68.3,28.6|N|Talk to Gryphoneer Windbellow and get sent to Honor Point. Then turn the quest into Field Marshal Brock.|
+T Go to the Front |QID|10382|M|78.35,34.36;68.3,28.6|CS|N|Talk to Gryphoneer Windbellow and get sent to Honor Point. Then turn the quest into Field Marshal Brock.|
 A Disruption - Forge Camp: Mageddon|QID|10394|N|From Field Marshal Brock.|M|68.3,28.6|
 C Disruption - Forge Camp: Mageddon|N|Kill the mobs needed for this quest here.|QID|10394|M|65.00,31.00|
 T Disruption - Forge Camp: Mageddon|QID|10394|N|To Field Marshal Brock.|M|68.3,28.6|
@@ -290,7 +295,7 @@ T Rampaging Ravagers |QID|9385|M|24.0,72.1|N|To Gremni Longbeard.|
 C Deadly Predators |S|N|Kill the Stonescythe Alphas and Whelps needed for this quest.|QID|9398|M|32.00,61.00|
 C The Rock Flayer Matriarch|N|Kill and loot Blacktalon in this cave.|QID|9490|M|34.00,64.00|
 C Deadly Predators |US|N|Kill the Stonescythe Alphas and Whelps needed for this quest.|QID|9398|M|32.00,61.00|
-C Hellfire Fortifications |N|Do this quest by taking over the towers.|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|O|
+C Hellfire Fortifications |N|Do this quest by taking over the towers.|QID|10106|M|40.76,49.64;39.81,56.49;35.38,56.42|CN|
 C An Ambitious Plan |N|Get an Uncontrolled Voidwalker down to low health, then use the Sanctified Crystal.  Click on the red Crystal that appears.|QID|9383|M|46.00,82.00|
 C Voidwalkers Gone Wild |N|Kill and loot Voidwalkers until you finish this quest.|QID|9351|M|46.00,82.00|
 K Arch Mage Xintor|N|Kill Arch Mage Xintor.|QID|10057|M|53.60,81.00|QO|Arch Mage Xintor slain: 1/1|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
+-- Date: 2013-01-12 17:49
+-- Who: Ludovicus Maior
+-- Log: Update exploration of Dun_Morogh: The Grizzled Den is gone.
+
+-- URL: http://wow-pro.com/node/3475/revisions/25011/view
 -- Date: 2012-06-30 16:06
 -- Who: Ludovicus Maior
 -- Log: Wrong zone name for The Cape of Stranglethorn
@@ -23,14 +28,13 @@ F Gol'Bolar Quarry|QID|906270005|M|75.84,56.37|ACH|627;11|
 F The Tundrid Hills|QID|906270006|M|67.48,57.28|ACH|627;8|
 F Frostmane Front|QID|906270007|M|58.34,57.61|ACH|627;3|
 F Kharanos|QID|906270008|M|54.06,50.76|ACH|627;7|
-F The Grizzled Den|QID|906270009|M|49.27,52.72|ACH|627;14|
 F Coldridge Pass|QID|906270010|M|42.71,64.22|ACH|627;1|
 F Coldridge Valley|QID|906270011|M|36.80,70.03|ACH|627;2|
 F Frostmane Hold|QID|906270012|M|34.50,51.69|ACH|627;13|
 F New Tinkertown|QID|906270013|M|33.22,38.73|ACH|627;4|
-F Iceflow Lake|QID|906270014|M|42.95,38.47|ACH|627;15|
+F Iceflow Lake|QID|906270014|M|42.95,38.47|ACH|627;14|
 F Shimmer Ridge|QID|906270015|M|48.47,39.33|ACH|627;6|
-F Gates of Ironforge|QID|906270016|M|60.35,33.43|ACH|627;16|
+F Gates of Ironforge|QID|906270016|M|60.35,33.43|ACH|627;15|
 
 N Congratulations on exploring Dun Morogh
 

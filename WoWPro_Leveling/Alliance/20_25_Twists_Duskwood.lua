@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2013-01-12 20:40
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3222/revisions/24821/view
 -- Date: 2011-11-25 16:50
 -- Who: Fluclo
 -- Log: Reorganised some quests as it didn't flow well for in-level players, added some level steps to indicate required level to continue guide, added Non combat tags where appropriate, optionalised the breadcrumb and group quests.
@@ -279,7 +284,7 @@ A The Halls of the Dead|QID|26753|M|23.44,35.54|N|From the Lightforged Rod.|
 T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs, turn left into the first hall, then continue to the back left.  Be careful, as the Buried Dead will spawn as you run over the graves.  Head through the catacombs, and turn the quest into the Lightforged Arch.|
 A Buried Below|QID|26722|M|20.36,27.44|N|From the Lightforged Arch.|
 
-T Buried Below|QID|26722|M|20.10,26.60;18.08,25.33|N|There is a hidden exit behind the location where you got the quest - walk through, this follow the hidden tunnel, and turn  quest into the Lightforged Crest.|
+T Buried Below|QID|26722|M|20.10,26.60;18.08,25.33|CS|N|There is a hidden exit behind the location where you got the quest - walk through, this follow the hidden tunnel, and turn  quest into the Lightforged Crest.|
 A Morbent's Bane|QID|26754|M|18.08,25.33|N|From In the tunnel.|
 
 N Hunter's Pet Alert |QID|26754|N|When you reach the room with the Clattering Coldwraith, please note your pet will not follow you into the room.  You will need to dismiss your pet, enter the room fully (pick the right hand wall), then summon your pet.\n\nClick this step to continue.|C|Hunter|

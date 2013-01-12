@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2013-01-12 19:35
+-- Who: Ludovicus Maior
+-- Log: Added CS and CN tags
+
+-- URL: http://wow-pro.com/node/3233/revisions/25331/view
 -- Date: 2013-01-11 19:53
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -61,7 +66,7 @@ A They Took Our Gnomes|QID|13913|M|35.13,71.69|N|From Huntress Jalin.|US|Z|Ashen
 
 A Ze Gnomecorder|QID|25607|M|35.28,71.30|N|From Professor Xakxak Gyromate.|Z|Ashenvale|
 
-C They Took Our Gnomes|QID|13913|M|43,63.6;44.8,65.3;47.0,65.7|N|Head to The Skunkworks, then look for the (badly driven) caravan (it only runs along the road).  Kill the driver Painmaster Thundrak.|Z|Ashenvale|
+C They Took Our Gnomes|QID|13913|M|43,63.6;44.8,65.3;47.0,65.7|CS|N|Head to The Skunkworks, then look for the (badly driven) caravan (it only runs along the road).  Kill the driver Painmaster Thundrak.|Z|Ashenvale|
 
 C Ze Gnomecorder|QID|25607|S|M|47.15,65.01|N|Kill and loot Goblin Technicians, to get the Filthy Goblin Technology.|Z|Ashenvale|
 C The Goblin Braintrust|QID|13979|M|46.18,61.58|N|Kill and loot Chief Bombgineer Sploder.|Z|Ashenvale|
@@ -77,7 +82,7 @@ T They Took Our Gnomes|QID|13913|M|35.18,71.57|N|To Huntress Jalin.|Z|Ashenvale|
 T The Goblin Braintrust|QID|13979|M|35.18,71.57|N|To Huntress Jalin.|Z|Ashenvale|US|
 
 A Do Yourself a Favor|QID|25613|M|35.25,71.25|N|From Gnombus the X-Terminator|Z|Ashenvale|
-T Do Yourself a Favor|QID|25613|M|71.87,39.04;71.80,45.67|N|To Kalen Trueshot.|
+T Do Yourself a Favor|QID|25613|M|71.87,39.04;71.80,45.67|CS|N|To Kalen Trueshot.|
 
 A The Only Way Down is in a Body Bag|QID|25614|M|71.80,45.67|N|From Kalen Trueshot.|
 C The Only Way Down is in a Body Bag|QID|25614|M|71.84,45.83|N|Shoot the windriders with the cannon using option 1, then take out the parachute too.|
@@ -87,7 +92,7 @@ T Return to Stardust|QID|25615|M|35.12,71.63|Z|Ashenvale|N|To Huntress Jalin.|
 
 A Hellscream's Legacy|QID|25616|M|35.12,71.63|Z|Ashenvale|N|From Huntress Jalin.|
 A Field Test: Gnomecorder|QID|25621|M|35.35,71.22|Z|Ashenvale|N|From Professor Xakxak Gyromate.|
-C Field Test: Gnomecorder|QID|25621|NC|M|73.35,40.65;73.10,46.74|N|Head next to the drill machine.|
+C Field Test: Gnomecorder|QID|25621|NC|M|73.35,40.65;73.10,46.74|CS|N|Head next to the drill machine.|
 T Field Test: Gnomecorder|QID|25621|M|73.12,46.96|N|(UI Alert)|
 A Burn, Baby, Burn!|QID|25622|M|73.12,46.96|N|(UI Alert)|
 
@@ -111,7 +116,7 @@ C Windshear Mine Cleanup|QID|25646|S|N|Continue to kill Windshear Overseers.|
 A Illegible Orc Letter |QID|25647|N|Start the quest Illegible Orc Letter from the item you looted from the Windshear Overseer.|U|55181|
 T Illegible Orc Letter |QID|25647|M|72.53,61.40|N|To Boog the "Gear Whisperer".|
 A Minx'll Fix It|QID|25649|M|72.60,61.57|N|From Boog the "Gear Whisperer".|
-T Minx'll Fix It|QID|25649|N|To Minx.|M|72.21,61.52;72.00,62.73;71.26,62.77;70.80,62.96|
+T Minx'll Fix It|QID|25649|N|To Minx.|M|72.21,61.52;72.00,62.73;71.26,62.77;70.80,62.96|CS|
 A Orders from High Command|QID|25650|M|70.80,62.96|N|From Minx.|
 
 C Windshear Mine Cleanup|QID|25646|US|M|71.23,62.79|N|Finish killing Overseers.|
@@ -155,7 +160,7 @@ A Rumble in the Lumber... Mill|QID|25669|M|66.21,54.57|N|From Huntress Illiona.|
 K Warlord Roktrog|QID|25669|M|66.2,54.6|N|Warlord Roktrog will spawn behind you.  Kill him, then loot Huntress Illiona's Cage Key.|L|55213|
 C Rumble in the Lumber... Mill|QID|25669|M|66.21,54.57|N|Use the key on the cage to free Huntress Illiona.|NC|
 C Just Ask Alice - Air|QID|25673|M|59.95,64.02|N|Loot the Mechanized Air from inside the hut.|QO|Mechanized Air: 1/1|NC|
-C Just Ask Alice |QID|25673|M|59.95,64.02;66.18,50.04;63.09,56.70|N|Loot the Mechanized Air, Ice and Fire.|NC|
+C Just Ask Alice |QID|25673|M|59.95,64.02;66.18,50.04;63.09,56.70|CN|N|Loot the Mechanized Air, Ice and Fire.|NC|
 T Rumble in the Lumber... Mill|QID|25669|M|59.56,56.88|N|To Lord Fallowmere.|
 
 A If the Horde Don't Get You...|QID|25739|M|59.49,56.95|N|From Northwatch Captain Kosak.|
@@ -223,7 +228,7 @@ A Death by Proxy|QID|25834|M|71.06,79.70|N|From Force Commander Valen.|
 T Death by Proxy|QID|25834|M|70.92,79.74|N|To "Cookie" McWeaksauce.|
 A A Proper Peace Offerin'|QID|25837|M|70.92,79.74|N|From "Cookie" McWeaksauce.|
 C A Proper Peace Offerin'|QID|25837|S|M|60.13,87.08|N|Kill rams and loot nests as you go.|
-R Boulderslide Cavern|QID|25837|M|64.87,89.43;63.44,90.07;62.49,89.65|N|Follow the waypoints to get to Boulderslide Cavern.|
+R Boulderslide Cavern|QID|25837|M|64.87,89.43;63.44,90.07;62.49,89.65|CS|N|Follow the waypoints to get to Boulderslide Cavern.|
 l Boulderslide Cheese|QID|25837|L|56042 10|M|60.13,87.08|N|Kill and loot Kobolds to get the needed cheese.|
 C A Proper Peace Offerin'|QID|25837|US|M|63,80|N|Finish gathering Ram Haunches and Eagle Eggs.|
 T A Proper Peace Offerin'|QID|25837|M|70.91,79.77|N|To "Cookie" McWeaksauce.|
@@ -279,7 +284,7 @@ f Thal'darah Overlook|QID|25880|N|Get this flight path.|
 
 T Warn Master Thal'darah|QID|25880|M|39.96,33.53|N|To Master Thal'darah.|
 A Save the Children!|QID|25889|M|39.95,33.50|N|From Master Thal'darah.|
-C Save the Children!|QID|25889|U|56168|M|40.09,32.03;39.76,45.06|N|Use your whistle to begin. If you have done the quest in Dragonblight on a main you will know what to do. Fly south, land near a feared druid. Press 1. Fly back to the Overlook to the flight point, press 2. Repeat 5 times.|
+C Save the Children!|QID|25889|U|56168|M|40.09,32.03;39.76,45.06|CN|N|Use your whistle to begin. If you have done the quest in Dragonblight on a main you will know what to do. Fly south, land near a feared druid. Press 1. Fly back to the Overlook to the flight point, press 2. Repeat 5 times.|
 T Save the Children!|QID|25889|M|39.95,33.57|N|To Master Thal'darah.|
 A Last Ditch Effort|QID|25891|M|40.05,33.66|N|From Master Thal'darah.|
 C Last Ditch Effort|QID|25891|NC|M|39.83,43.59|N|Nothing to do but watch the scene.|

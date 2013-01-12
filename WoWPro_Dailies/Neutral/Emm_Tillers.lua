@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2013-01-12 17:50
+-- Who: Ludovicus Maior
+-- Log: removed accidental line break
+
+-- URL: http://wow-pro.com/node/3508/revisions/25294/view
 -- Date: 2013-01-09 01:46
 -- Who: Ludovicus Maior
 -- Log: Added CS and CN tags
@@ -81,8 +86,7 @@ N Available Quests|N|Because quests are given at various factions, you can accep
 N Non daily quests|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them.  Growing the Farm quests, you probably want to do right away to have more farming plots.|
 N Cooking|N|The favorite meals for the various friends requires cooking 525 or 550.  You can buy the food in the AH or make it yourself.  If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
 
-;Leadin from faction capital... although I imagine everyone will have done it or gone past
-it before they use the guide... including it to be complete.
+;Leadin from faction capital... although I imagine everyone will have done it or gone past it before they use the guide... including it to be complete.
 A The Tillers|QID|31374|LEAD|30252|M|60.4,22.8|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Farmhand Dooka.|
 A The Tillers|QID|31372|LEAD|30252|M|87,60.8|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Tang Ironhoe.|
 T The Tillers|QID|31374|FACTION|Horde|M|52.25,48.79|N|To Farmer Yoon.|

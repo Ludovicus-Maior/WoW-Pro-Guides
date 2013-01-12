@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2013-01-12 21:17
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3265/revisions/24544/view
 -- Date: 2011-06-11 20:38
 -- Who: Crackerhead22
 -- Log: Removed Hero's Call, fixed a couple of cords, added 1 or 2 sticky steps.
@@ -46,7 +51,7 @@ return [[
 
 H Iron Summit|QID|28514|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|
 R Blackrock Mountain|QID|28514|M|33.49,74.91|Z|Searing Gorge|N|Run to the waypoint.|
-R Burning Steppes|QID|28514|M|19.61,24.26;17.42,29.28;19.74,34.51|N|Run through Blackrock Mountain to Burning Steppes.|
+R Burning Steppes|QID|28514|M|19.61,24.26;17.42,29.28;19.74,34.51|CS|N|Run through Blackrock Mountain to Burning Steppes.|
 f Flamestar Post|M|17.82,52.63|N|At Hans Oreflight.|QID|28514|
 T Mouton Flamestar|QID|28514|M|17.12,51.32|N|To Mouton Flamestar.|
 A Done Nothing Wrong|QID|28172|M|17.12,51.32|N|From Mouton Flamestar.|
@@ -112,7 +117,7 @@ A Strategic Cuts|QID|28246|M|45.33,51.60|N|Automatically accepted.|
 C Grunt Work|QID|28245|S|U|63357|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|
 K Voodooist Timan|QID|28246|U|63350|QO|Voodooist Timan slain: 1/1|M|45.37,52.47|N|Find him at the top of the tower, and use the barb.|
 K Worgmistress Othana|QID|28246|U|63350|QO|Worgmistress Othana slain: 1/1|M|39.17,56.14|N|Find her wandering around inside the stable.|
-C Strategic Cuts|QID|28246|U|63350|QO|Gorlop slain: 1/1|M|43.89,60.15;40.01,60.27|N|Gorlop wanders between these two points, you can only use the barb when he is at a lava pool.|
+C Strategic Cuts|QID|28246|U|63350|QO|Gorlop slain: 1/1|M|43.89,60.15;40.01,60.27|CN|N|Gorlop wanders between these two points, you can only use the barb when he is at a lava pool.|
 T Strategic Cuts|QID|28246|M|40.13,59.45|N|(UI Alert)|
 C Grunt Work|QID|28245|US|U|63357|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|
 T Grunt Work|QID|28245|M|45.29,51.57|N|To Quartermaster Kaoshin.|
@@ -122,16 +127,16 @@ T The Kodocaller's Horn|QID|28252|M|42.69,61.85|N|(UI Alert)|
 A Taking the Horn For Ourselves|QID|28253|M|42.69,61.85|N|(UI Alert)|
 T Taking the Horn For Ourselves|QID|28253|M|46.33,45.79|N|To Colonel Troteman.|
 
-C Scrapped Golems|QID|28226|S|M|50.78,38.86;43.80,37.25;56.28,37.35|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
-C Prove Yer Allegiance|QID|28225|M|50.78,38.86;43.80,37.25;56.28,37.35|N|They are mainly inside and around the building ruins.|
-C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
+C Scrapped Golems|QID|28226|S|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
+C Prove Yer Allegiance|QID|28225|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|They are mainly inside and around the building ruins.|
+C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
 T Prove Yer Allegiance|QID|28225|M|46.72,44.25|N|To Stebben Oreknuckle.|
 T Scrapped Golems|QID|28226|M|46.72,44.25|N|To Stebben Oreknuckle.|
 A Golem Training|QID|28227|M|46.72,44.25|N|From Stebben Oreknuckle.|
-C Golem Training|QID|28227|M|44.72,43.79;46.75,46.6|N|Go into either tower, talk to a golem. You need to defeat each one 3 times.|
+C Golem Training|QID|28227|M|44.72,43.79;46.75,46.6|CN|N|Go into either tower, talk to a golem. You need to defeat each one 3 times.|
 T Golem Training|QID|28227|M|46.72,44.23|N|To Stebben Oreknuckle.|
 A General Thorg'izog|QID|28265|M|46.33,45.84|N|From John J. Keeshan.|
-T General Thorg'izog|QID|28265|U|63357|M|30.79,33.76;32.49,34.99;31.53,33.57|N|To General Thorg'izog. Remember to put on your disguise, he is the middle of the building.|
+T General Thorg'izog|QID|28265|U|63357|M|30.79,33.76;32.49,34.99;31.53,33.57|CS|N|To General Thorg'izog. Remember to put on your disguise, he is the middle of the building.|
 
 A Trial by Magma|QID|28266|M|30.79,33.76|N|From General Thorg'izog.|
 C Trial by Magma|QID|28266|M|30.75,33.41|N|Talk to Wyrtle Spreelthonket and choose to fight the elmental.|
@@ -146,7 +151,7 @@ A Enough Damage For One Day|QID|28286|M|35.13,35.86|N|(UI Alert)|
 T I Am the Law and I Am the Lash|QID|28278|M|30.78,33.76|N|To General Thorg'izog.|
 T Enough Damage For One Day|QID|28286|M|46.38,45.75|N|To Colonel Troteman.|
 A Morgan's Vigil|QID|28310|M|46.38,45.75|N|From Colonel Troteman.|
-R Morgan's Vigil|QID|28310|M|46.05,50.46;54.81,47.61;65.38,54.58;70.62,60.97;71.85,63.17|N|Run to Morgan's Vigil.|
+R Morgan's Vigil|QID|28310|M|46.05,50.46;54.81,47.61;65.38,54.58;70.62,60.97;71.85,63.17|CS|N|Run to Morgan's Vigil.|
 f Morgan's Vigil|QID|28310|M|72.23,65.68|N|At Borgus Stoutarm.|
 r Sell junk, repair/restock.|QID|28310|M|72.81,65.71|N|At Felder Stover. Close this step when your done.|
 
@@ -185,7 +190,7 @@ A A Delivery for Thorg'izog|QID|28317|M|73.58,67.07|N|From Colonel Troteman.|
 A A Delivery for Neeralak|QID|28318|M|73.58,67.07|N|From Colonel Troteman.|
 A A Delivery for Xi'lun|QID|28319|M|73.58,67.07|N|From Colonel Troteman.|
 T A Delivery for Thorg'izog|U|63357|QID|28317|M|65.12,46.66|N|Put on your disguise, then head towards General Thorg'izog. Enter the cave at the waypoint, at the split head left.|
-T A Delivery for Xi'lun|QID|28319|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|N|To High Warlock Xi'lun Follow the path up, he is in the cave.|
+T A Delivery for Xi'lun|QID|28319|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|CS|N|To High Warlock Xi'lun Follow the path up, he is in the cave.|
 T A Delivery for Neeralak|QID|28318|M|70.88,38.13|N|To Dragon-Lord Neeralak. Enter the cave at the waypoint, at the split head left.|
 A Locked and Loaded|QID|28327|M|69.52,43.10|N|(UI Alert)|
 T Locked and Loaded|QID|28327|M|73.53,67.08|N|To Colonel Troteman.|
@@ -195,7 +200,7 @@ T Assault on Dreadmaul Rock|QID|28320|M|73.52,67.05|N|To Colonel Troteman.|
 
 A Glory Amidst Chaos|QID|28321|M|73.52,67.05|N|From Colonel Troteman.|
 K General Thorg'izog|QID|28321|QO|General Thorg'izog slain: 1/1|M|65.12,46.66|N|General Thorg'izog needs to be killed. Enter the cave at the waypoint, at the split head left.|
-K Dragon-Lord Neeralak|QID|28321|QO|Dragon-Lord Neeralak slain: 1/1|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|N|Dragon-Lord Neeralak's turn to die. Follow the path up, he is in the cave.|
+K Dragon-Lord Neeralak|QID|28321|QO|Dragon-Lord Neeralak slain: 1/1|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|CS|N|Dragon-Lord Neeralak's turn to die. Follow the path up, he is in the cave.|
 C Glory Amidst Chaos|QID|28321|QO|High Warlock Xi'lun slain: 1/1|M|70.88,38.13|N|Time to kill High Warlock Xi'lun. Enter the cave at the waypoint, at the split head left.|
 T Glory Amidst Chaos|QID|28321|M|73.52,67.00|N|To Colonel Troteman.|
 A The Spoils of War|QID|28322|M|73.52,67.00|N|From Colonel Troteman.|
