@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2013-01-09 17:28
+-- Who: Ludovicus Maior
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3452/revisions/24941/view
 -- Date: 2012-02-07 03:29
 -- Who: Laotseu
 -- Log: Merge back the corrections that I had made in the previous version of the guide with the new Cata elders.
@@ -140,8 +145,8 @@ F Hiri'watha Research Station|N|Fly to Hiri'watha Research Station in The Hinter
 
 A Highpeak the Elder|N|From Elder Highpeak.|QID|8643|M|49.9,47.9|Z|The Hinterlands|
 F Thondroril River|N|Fly to Thondroril River in Eastern Plaguelands.|QID|8722|M|32.4,58|Z|The Hinterlands|
-A Meadowrun the Elder|N|From Elder Meadowrun, inside the cave.|QID|8722|M|65.3,38.9;63.5,36.1|Z|Western Plaguelands|
-A Moonstrike the Elder|N|From Elder Moonstrike. She is on top of Scholomance, not inside of it.|QID|8714|M|65.5,38.8;69.2,73.5|Z|Western Plaguelands|
+A Meadowrun the Elder|N|From Elder Meadowrun, inside the cave.|QID|8722|M|65.3,38.9;63.5,36.1|Z|Western Plaguelands|CS|
+A Moonstrike the Elder|N|From Elder Moonstrike. She is on top of Scholomance, not inside of it.|QID|8714|M|65.5,38.8;69.2,73.5|Z|Western Plaguelands|CS|
 R Crown Guard Tower|N|Head over to Crown Guard Tower.|QID|8688|M|35.6,68.8|Z|Eastern Plaguelands|
 A Windrun the Elder|N|From Elder Windrun.|QID|8688|M|35.6,68.8|Z|Eastern Plaguelands|
 
@@ -162,7 +167,7 @@ b Howling Fjord|N|Take the zeppelin to Howling Fjord.|QID|13067|M|58.9,59.0|Z|Ti
 
 R Utgarde Keep|N|Head inside Utgarde Keep.|QID|13067|M|58.9,48.7|Z|Howling Fjord|RANK|3|
 A Jarten the Elder|N|From Elder Jarten inside the instance. Down the stairs in Lower Pinnacle, after Dalronn the Controller.|QID|13017|M|48.7,22.9|Z|Utgrade Pinnacle|RANK|3|
-R Utgarde Pinnacle|N|Head out of Utgarde Keep, then run around north of the Keep to get to Utgarde Pinnacle.|QID|13067|M|58.0,50.1;57.25,46.63|Z|Howling Fjord|RANK|3|
+R Utgarde Pinnacle|N|Head out of Utgarde Keep, then run around north of the Keep to get to Utgarde Pinnacle.|QID|13067|M|58.0,50.1;57.25,46.63|Z|Howling Fjord|CS|RANK|3|
 A Chogan'gada the Elder|N|From Elder Chogan'gada from inside the instance.|QID|13067|M|48.6,22.2|Z|Lower Pinnacle|RANK|3|
 
 F Camp Oneqwah|N|Fly to Camp Oneqwah in Grizzly Hills.|QID|13030|M|79,29.6|Z|Howling Fjord|

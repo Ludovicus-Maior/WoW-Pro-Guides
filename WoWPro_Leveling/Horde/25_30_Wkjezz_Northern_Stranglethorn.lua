@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2013-01-09 00:26
+-- Who: Ludovicus Maior
+-- Log: Add Tethis spawn points.
+
+-- URL: http://wow-pro.com/node/3232/revisions/24477/view
 -- Date: 2011-06-01 00:50
 -- Who: Crackerhead22
 -- Log: Fixed Z tag for line "R The Zep tower.|QID|99999|CC|M|52.32,54.41|Z|Orgimmar|N|On the NE tip.|", removed line "A The Green Hills of Stranglethorn|QID|26269|M|46.43,84.64|Z|" as it was a duplicate line.
@@ -272,7 +277,7 @@ T Raptor Prowess|QID|196|M|58.08,58.67|N|UI Alert|
 
 A Raptor Mastery|QID|197|M|58.08,58.67|N|UI Alert|
 
-C Raptor Mastery|QID|197|T|Tethis|M|62.49,61.13|N|Use the button to hunt Tethis in this area.|
+C Raptor Mastery|QID|197|T|Tethis|M||59.60,62.45;62.83,61.80;64.70,58.08;59.17,59.12|CN|N|Use the button to hunt Tethis in this area.|
 
 C Panther Prowess|QID|192|M|60.25,47.97|
 

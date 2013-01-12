@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2013-01-11 23:30
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3228/revisions/24926/view
 -- Date: 2012-01-27 11:54
 -- Who: Crackerhead22
 -- Log: ?
@@ -112,7 +117,7 @@ C Dead Elves Walking|QID|13801|S|M|75.64,75.25|N|Destroy any 15 of the night elf
 A Torek's Assault|QID|6544|M|68.36,75.21||N|This is an escort quest. If you hate them, skip it. If not, clear the path and house before accepting quest. Be sure to keep Torek alive.|
 C Torek's Assault|QID|6544|M|64.71,75.40|N|Help Torek take Silverwing Outpost.|
 
-K Sharptalon|QID|2|M|78.1,65.8;73.3,70.6;71.3,75.5;73.7,78.5|T|Sharptalon|L|16305|N|Keep and eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|
+K Sharptalon|QID|2|M|78.1,65.8;73.3,70.6;71.3,75.5;73.7,78.5|T|Sharptalon|L|16305|CN|N|Keep and eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|
 A Sharptalon's Claw|QID|2|U|16305|N|From Sharptalon's Claw.|
 
 C Pierce Their Heart!|QID|13805|U|45683|M|75.91,75.36;75.54,74.12|N|Enter Barrpw Den. Follow the blood trail and use the Tainted Blood of the Kaldorei on the Heart.|
@@ -337,7 +342,7 @@ A Vortex|QID|13888|PRE|13880|RANK|2|M|52.36,56.84|N|From The Vortex.|
 C Vortex|QID|13888|M|47.05,39.08|N|Speak to Vortex when ready to go. Use his attacks to defeat Lord Magmathar.|
 T Vortex|QID|13888|M|52.06,56.46|N|To Stikwad.|
 
-K Shadumbra|QID|24|M|61.8,49.9;59.3,54.4;53.6,54.7|T|Shadumbra|L|16304|N|Keep and eye out for Shadumbra. Kill and loot the head. Use the head to start the quest.|
+K Shadumbra|QID|24|M|61.8,49.9;59.3,54.4;53.6,54.7|T|Shadumbra|L|16304|CN|N|Keep and eye out for Shadumbra. Kill and loot the head. Use the head to start the quest.|
 A Shadumbra's Head|QID|24|U|16304|N|From Shadumbra's Head.|
 T Condition Critical!|QID|13958|M|60.65,52.70|N|To Thagg.|
 A Stalemate|QID|13962|PRE|13958|RANK|2|M|60.65,52.70|N|From Thagg.|

@@ -168,11 +168,18 @@ local function ParseQuests(...)
     			_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
     			WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
     			WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
-    			if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
-    				if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
-    				elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
-    				else WoWPro.waypcomplete[i] = false end
-    			end
+    			
+				if WoWPro.map[i] then
+					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
+					elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
+					elseif text:find("|CN|") then WoWPro.waypcomplete[i] = false
+					else
+					    WoWPro.waypcomplete[i] = false
+					    if WoWPro.map[i]:find(";") then
+					        WoWPro.Leveling:Print("Step %s [%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],WoWProDB.char.currentguide)
+					    end
+					end
+				end
     
     			if text:find("|NC|") then WoWPro.noncombat[i] = true end
     			WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
@@ -210,7 +217,7 @@ end
 	
 -- Guide Load --
 function WoWPro.Dailies:LoadGuide()
-	WoWPro:dbp(string.format("Running: WoWPro.Dailies:LoadGuide(%s)",WoWProDB.char.currentguide))
+	WoWPro:dbp("Running: WoWPro.Dailies:LoadGuide(%s)",tostring(WoWProDB.char.currentguide))
 	local GID = WoWProDB.char.currentguide
 
  	 

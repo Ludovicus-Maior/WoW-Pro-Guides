@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2013-01-09 01:48
+-- Who: Ludovicus Maior
+-- Log: Added CN tag.
+
+-- URL: http://wow-pro.com/node/3405/revisions/25292/view
+-- Date: 2013-01-09 01:42
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3405/revisions/24985/view
 -- Date: 2012-05-27 18:29
 -- Who: Ludovicus Maior
 
@@ -53,7 +63,7 @@ A Shoot 'Em Up|QID|13069|M|43.59,24.68|N|From The Leaper in front of the Shadow 
 A Vile Like Fire!|QID|13071|M|43.17,25.07|N|From Vile, who patrols.|
 C Leave Our Mark|QID|12995|M|30.80,29.00|N|Kill and Impale the vrykul. Stand away from the corpse, so you do not get impaled!|U|42480|
 C Shoot 'Em Up|QID|13069|M|32, 24|N|Pick the first Turret, mount it, spam your harpoons and move on to the next turret for fast results.  Target just in front of the Drakes.|
-C Vile Like Fire!|QID|13071|M|27.2,38.4;27.2,39;27.4,40;27.8,37.6|N|Mount up on a drake and set fire to both sides of roofs of the buildings. Then dismount and flyback on your own.|
+C Vile Like Fire!|QID|13071|M|27.2,38.4;27.2,39;27.4,40;27.8,37.6|CN|N|Mount up on a drake and set fire to both sides of roofs of the buildings. Then dismount and flyback on your own.|
 T Leave Our Mark|QID|12995|M|42.86,25.00|N|To Baron Sliver in front of the Shadow Vault.|
 T Shoot 'Em Up|QID|13069|M|43.45,25.06|N|To The Leaper in front of the Shadow Vault.|
 T Vile Like Fire!|QID|13071|M|43.17,25.07|N|To Vile, who patrols.|

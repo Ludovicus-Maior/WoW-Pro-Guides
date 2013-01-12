@@ -198,10 +198,16 @@ local function ParseQuests(...)
 				end
 --				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
 
-				if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
+				if WoWPro.map[i] then
 					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
 					elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
-					else WoWPro.waypcomplete[i] = false end
+					elseif text:find("|CN|") then WoWPro.waypcomplete[i] = false
+					else
+					    WoWPro.waypcomplete[i] = false
+					    if WoWPro.map[i]:find(";") then
+					        WoWPro.Leveling:Print("Step %s [%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],WoWProDB.char.currentguide)
+					    end
+					end
 				end
 
 				if text:find("|NC|") then WoWPro.noncombat[i] = true end
@@ -254,7 +260,6 @@ function WoWPro.Achievements:LoadGuide()
 	for i=1, WoWPro.stepcount do
 		local action = WoWPro.action[i]
 		local completion = WoWProCharDB.Guide[GID].completion[i]
-		local level = WoWPro.level[i]
 		local numQIDs
 
 		if WoWPro.QID[i] then

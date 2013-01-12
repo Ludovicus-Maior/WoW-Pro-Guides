@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2013-01-11 20:29
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3293/revisions/24759/view
 -- Date: 2011-10-10 23:55
 -- Who: Gethe
 
@@ -218,7 +223,7 @@ A Shredder Repair |QID|12244|N|From Synipus.|M|39.5,43.5|
 C Pieces Parts |QID|12268|N|Loot the needed parts of the ground.|M|35,40|S|O|
 C Life or Death |QID|12296|U|37576|N|Use the [Renewing Bandage] on Wounded Westfall Infantry.|M|35,40|S|O|
 C Kick 'Em While They're Down |QID|12289|N|Kill any horde unit in Blue Sky Logging Grounds, NPC or PC.|M|35,40|S|O|
-C Shredder Repair |QID|12244|O|N|Go west to the island of Blue Sky Logging Grounds. Enter a Broken-down Shredder, then take it back to Synipus.|M|32.9,42.1;39.5,43.5|
+C Shredder Repair |QID|12244|O|N|Go west to the island of Blue Sky Logging Grounds. Enter a Broken-down Shredder, then take it back to Synipus.|M|32.9,42.1;39.5,43.5|CS|
 C Pieces Parts |QID|12268|N|Finish looting what you need.|M|35,40|US|O|
 C Life or Death |QID|12296|U|37576|N|Use the [Renewing Bandage] on Wounded Westfall Infantry.|M|35,40|US|O|
 C Kick 'Em While They're Down |QID|12289|N|Kill any horde unit in Blue Sky Logging Grounds, NPC or PC.|M|35,40|US|O|
@@ -230,7 +235,7 @@ T Life or Death |QID|12296|N|To Rheanna.|M|40.5,42.6|O|
 
 C The Failed World Tree |QID|12219|N|Kill Entropic Oozes until you've looted 6 Slime Samples|M|40.4,50.6|S|
 U Use the orb beneath the Limb |U|37173|QID|12220|QO|Orb used beneath Vordrassil's Limb: 1/1|N|Inside all the way into the back of the cave, where the black smoke is.|M|33,49|
-C A Dark Influence |QID|12220|U|37173|N|Use the [Geomancer's Orb] in the Vordrassil's Heart's cave, at the back where the black smoke is.|M|46.6,51.9;40.77,52.13|
+C A Dark Influence |QID|12220|U|37173|N|Use the [Geomancer's Orb] in the Vordrassil's Heart's cave, at the back where the black smoke is.|M|46.6,51.9;40.77,52.13|CC|
 C The Failed World Tree |QID|12219|N|Kill Entropic Oozes until you've looted 6 Slime Samples|M|40.4,50.6|US|
 
 T A Dark Influence |QID|12220|N|To Hierophant Thayreen.|M|31.22,59.49|

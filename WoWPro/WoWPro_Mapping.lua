@@ -109,6 +109,7 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 	local iactual
 	for i,waypoint in ipairs(cache) do
 		if (waypoint.uid == uid) then
+		    WoWPro:Print("Mapping: Located waypoint UID %s @ idx %d, autoarrival = %d",tostring(uid),i,autoarrival)
 			iactual = i break
 		end
 	end
@@ -432,6 +433,8 @@ function WoWPro:MapPoint(row)
     
     		-- prevents TomTom from clearing waypoints that are not final destination
     		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
+--    		WoWPro:Print("MapPoint: autoarrival = %s, TomTom..cleardistance = %d, OldCleardistance == %d",
+--    		             tostring(autoarrival),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
         end
 		
 		-- Parsing and mapping coordinates --
@@ -442,8 +445,10 @@ function WoWPro:MapPoint(row)
 			local jcoord = select(numcoords-j+1, string.split(";", coords))
 			local x = tonumber(jcoord:match("([^|]*),"))
 			local y = tonumber(jcoord:match(",([^|]*)"))
-			if not x or x > 100 then return end
-			if not y or y > 100 then return end
+			if not x or x > 100 or not y or y > 100 then
+			    WoWPro:Print("Bad coordiate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
+			    return
+			end
 			if TomTom or Nx then
 				local uid
 				local title
@@ -468,7 +473,7 @@ function WoWPro:MapPoint(row)
 					end
 				end
 				if not uid then
-				    WoWPro:Print("Failed to set waypoint!  Please report a bug with the guide and step number.")
+				    WoWPro:Print("Failed to set waypoint!  Please report a bug with the faction, guide and step description.")
 				end
 				waypoint.uid = uid
 				waypoint.index = i

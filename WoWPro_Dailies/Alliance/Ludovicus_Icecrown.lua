@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2013-01-09 01:48
+-- Who: Ludovicus Maior
+-- Log: Added CN tag.
+
+-- URL: http://wow-pro.com/node/3405/revisions/25292/view
+-- Date: 2013-01-09 01:42
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3405/revisions/24985/view
 -- Date: 2012-05-27 18:29
 -- Who: Ludovicus Maior
 

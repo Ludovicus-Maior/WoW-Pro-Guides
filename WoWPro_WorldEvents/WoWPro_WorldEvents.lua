@@ -15,7 +15,7 @@ function WoWPro.WorldEvents:OnInitialize()
 	end
 		
 	-- WorldEvents Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "prereq","spell","active"})
+	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "prereq","spell","active","buff"})
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --

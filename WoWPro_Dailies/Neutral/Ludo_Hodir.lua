@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2013-01-09 01:49
+-- Who: Ludovicus Maior
+-- Log: Added CN tags.
+
+-- URL: http://wow-pro.com/node/3478/revisions/24996/view
+-- Date: 2012-05-27 20:12
+-- Who: Ludovicus Maior
+-- Log: Initial Versions of Hodir, Kaluak and Wyrmrest Rep guides.
+
 WoWPro.Dailies:RegisterGuide("LudoHodir", "The Storm Peaks", "The Sons of Hodir", "Lich", "Ludovicus", "Neutral", function()
 return [[
 

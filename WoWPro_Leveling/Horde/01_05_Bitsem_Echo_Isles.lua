@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2013-01-11 23:26
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3199/revisions/25126/view
 -- Date: 2012-10-08 19:43
 -- Who: Ludovicus Maior
 -- Log: Get rid of - in zone names.

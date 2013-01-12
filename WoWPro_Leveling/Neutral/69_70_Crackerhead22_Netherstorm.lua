@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2013-01-09 22:38
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3284/revisions/25091/view
 -- Date: 2012-09-25 00:58
 -- Who: Ludovicus Maior
 
@@ -86,7 +91,7 @@ C Manaforge B'naar|QID|10189|M|27.57,65.41|N|Kill and loot Captain Arathyn to ge
 C Distraction at Manaforge B'naar|QID|10241|M|25.32,66.60|N|Kill the mobs needed. The Magisters tend to be around the floating red crystals.|REP|Aldor;932|
 C Wanted: Annihilator Servo!|QID|10261|US|T|Arcane Annihilator|M|21.28,69.89|N|Run around the manaforge for an Arcane Annihilator, kill and loot it. It wanders around the manaforge.|
 C Breaking Down Netherock|QID|10701|T|Netherock|M|37.02,78.03;41,77.1;30.1,80.6;25.4,81.1;21,77.9;19,73.2|N|Netherock patrols along the edge where the waypoints are. Go back and forth along them until you find him.|
-C Securing the Shaleskin Shale|QID|10342|M|35.92,73.8;30.67,68.42|N|Kill and loot Shaleskin Flayers until you have 5 Shaleskin Shales. If you don't have all 5 by the time your done killing Flayers at the 1st waypoint, head to the 2nd.|
+C Securing the Shaleskin Shale|QID|10342|M|35.92,73.8;30.67,68.42|CS|N|Kill and loot Shaleskin Flayers until you have 5 Shaleskin Shales. If you don't have all 5 by the time your done killing Flayers at the 1st waypoint, head to the 2nd.|
 C The Archmage's Staff|QID|10173|U|29207|M|40.97,72.55|N|Use the Conjuring Powder next to the brazier, then kill and loot Ekkorash.|
 C Consortium Crystal Collection|QID|10265|M|42.41,72.67|N|Kill and loot Pentatharon for the Arkion Crystal Artifact.|
 T The Archmage's Staff|QID|10173|M|31.41,66.22|N|To Ravandwyr.|

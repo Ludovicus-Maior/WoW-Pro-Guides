@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2013-01-09 17:16
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3504/revisions/25274/view
 -- Date: 2012-12-31 06:41
 -- Who: Emmaleah
 -- Log: added exalted quest chain. corrected QO for Kovok, changed QO's for Sampling the Empires finest|QID|31496 (I hope this one will auto check off - but it may still be wrong)
@@ -127,7 +132,7 @@ T The Empress' Gambit|QID|31959|N|Turn in to UI Alert.|
 
 A The Wrath of Shek'zeer|QID|31609|PRE|31959|N|From UI Alert.|
 
-C The Wrath of Shek'zeer|QID|31609|M|41.6,40.0;44.6,35.2;43.81,29.67|N|Only one of the three bosses will be up at any time, and there will be a few minutes between the death of one and the spawn of the next.  During that time, you can work on the 25 subjugates.  The Klaxxi NPC's will help you with the boss types, but not with the subjugates.|
+C The Wrath of Shek'zeer|QID|31609|M|41.6,40.0;44.6,35.2;43.81,29.67|CN|N|Only one of the three bosses will be up at any time, and there will be a few minutes between the death of one and the spawn of the next.  During that time, you can work on the 25 subjugates.  The Klaxxi NPC's will help you with the boss types, but not with the subjugates.|
 
 T The Wrath of Shek'zeer|QID|31609|M|55.06,35.84|N|Back to Klaxxi'vess and turn in to Kil'ruk the Wind-reaver.|
 

@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2013-01-11 19:10
+-- Who: Emmaleah
+-- Log: revert LEAD tag changes to version Est posted 12/27/12
+
+-- URL: http://wow-pro.com/node/3502/revisions/25325/view
+-- Date: 2013-01-11 11:24
+-- Who: Estelyen
+-- Log: Correction of Emmaleahs LEAD steps
+
+-- URL: http://wow-pro.com/node/3502/revisions/25321/view
+-- Date: 2013-01-10 03:56
+-- Who: Emmaleah
+-- Log: Added note about Golden Water Skimmer.
+
+-- URL: http://wow-pro.com/node/3502/revisions/25278/view
 -- Date: 2013-01-06 02:17
 -- Who: Emmaleah
 -- Log: Changed LEAD quests for the Whitepetal Lake attacked hub, so it will not require manually checking the hub off. 
@@ -75,7 +90,8 @@ return [[
 
 L Level 90|LVL|90|N|You need to be level 90 to do the Golden Lotus Dailies|
 B Wisdom of the Four Winds|SPELL|Flying in Pandaria;115913|N|You need to be able to have flying mounts in Pandaria to do this guide.|
-
+N Achievement Phasing issue|ACH|6350;5|QID|963500005|N|if you have not yet done the To all the squirrels ach for Pandaria, you may want to fly over and love the Dancing Water Skimmer as it phases out in the course of doing the Golden Lotus quest line. Check off this and the next step manually if this is of no interest to you.|
+F Dancing Water Skimmer|QID|963500005|M|32,68|Z|Vale of Eternal Blossoms|ACH|6350;5|T|Dancing Water Skimmer|N|/love a Dancing Water Skimmer. Due to phasing issues, you may not be able to see these critters after starting the Golden Lotus quest line.|
 ; Introduction Questline (no daily quests, just a one-time introduction)
 A The Golden Lotus|QID|31384|LEAD|30632|FACTION|Alliance|N|From Xari the Kind in the Shrine of Seven Stars.|M|84.20,62.40|
 A The Golden Lotus|QID|31385|LEAD|30632|FACTION|Horde|N|From Weng the Merciful in the Shrine of Two Moons.|M|63.00,22.20|
@@ -453,10 +469,10 @@ T The Thunder Below|QID|30280|N|To Leven Dawnblade.|M|33.81,38.49|
 T The Imperion Threat|QID|30302|N|To Leven Dawnblade.|M|33.81,38.49|
 
 ; Daily Quest-hub H (Whitepetal Lake, attacked)
-A Burning Away the Filth|QID|30282|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|From Anji Autumnlight.|M|56.57,43.62|
-A Random Whitepetal Lake Daily from Kun Autumnlight|QID|30292;30293|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|Accept the daily quest that Kun Autumnlight offers.|M|56.51,43.64|
-A The Silent Approach|QID|30281|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|From He Softfoot.|M|56.55,43.21|
-A A Smashing Impression|QID|30283|LEAD|30255;30227;30233;30234;30235;30236;30239;30248;30249;30251;30264;30277;30280;30296;30297;30302|N|From Ren Firetongue.|M|56.68,43.17|
+A Burning Away the Filth|QID|30282|LEAD|31131;31242;31243;31248;31249;31250|N|From Anji Autumnlight.|M|56.57,43.62|
+A Random Whitepetal Lake Daily from Kun Autumnlight|QID|30292;30293|LEAD|31131;31242;31243;31248;31249;31250|N|Accept the daily quest that Kun Autumnlight offers.|M|56.51,43.64|
+A The Silent Approach|QID|30281|LEAD|31131;31242;31243;31248;31249;31250|N|From He Softfoot.|M|56.55,43.21|
+A A Smashing Impression|QID|30283|LEAD|31131;31242;31243;31248;31249;31250|N|From Ren Firetongue.|M|56.68,43.17|
 C The Silent Approach|QID|30281|N|Kill Shao-Tien Mogu around Whitepetal Lake.|M|40.71,48.10|S|
 C In Enemy Hands|QID|30293|N|Kill the Shao-Tien Mindbenders around the lake while ignoring their mind-contolled companions to free them.|M|40.71,48.10|S|
 C Rude Awakenings|QID|30292|N|Kill Dominated Paleblade Flesheaters.|M|40.71,48.10|S|

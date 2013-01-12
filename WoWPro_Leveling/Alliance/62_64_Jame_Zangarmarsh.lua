@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2013-01-11 19:59
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3273/revisions/24889/view
 -- Date: 2012-01-18 21:58
 -- Who: Ludovicus Maior
 -- Log: Changed Fertile Spores from a N step to an l step.
@@ -109,10 +114,10 @@ C Menacing Marshfangs|N|Kill Marshfang Rippers needed for this quest.|M|85.00,47
 l Fulgor Spores|N|Loot the green mushroom looking things off the ground around Telredor, until you finish this quest.|M|67.00,50.0|QID|9777|L|24383 6|
 l Fertile Spores|L|24449 6|N|From now on, kill then loot Sporebats, Greater Sporebats, Marsh Walkers and Fen Striders, and keep any Fertile Spores you find, you will need 6.|
 
-C Unfinished Business|N|Go here, find, then kill Sporewing. It wanders between the waypoints.|M|77.00,45.0;79.52,47.75|QID|9901|T|Sporewing|
+C Unfinished Business|N|Go here, find, then kill Sporewing. It wanders between the waypoints.|M|77.00,45.0;79.52,47.75|CN|QID|9901|T|Sporewing|
 l Withered Basidium|QID|9901|N|Kill and loot Withered Giants until you get the Withered Basidium.|L|24483|S|
 l Bog Lord Tendrils|QID|10355|N|Kill and loot Withered Giants and Withered Bog Lords until you get 6 Bog Lord Tendrils.|L|24291 6|S|
-C The Dead Mire|N|Go to either waypoint and loot the soil that should be near it.|M|83.80,43.3;70.71,43.44|QID|9782|
+C The Dead Mire|N|Go to either waypoint and loot the soil that should be near it.|M|83.80,43.3;70.71,43.44|CN|QID|9782|
 l Withered Basidium|QID|9901|N|Kill Withered Giants until you get the Withered Basidium.|L|24483|US|
 A Withered Basidium|N|Right-click the Withered Basidium to start this quest.|QID|9827|U|24483|M|78.3,45.2|
 C Menacing Marshfangs|N|Kill the rest of the Marshfang Rippers for this quest.|M|85.00,47.0|QID|9791|US|
@@ -177,7 +182,7 @@ A Drain Schematics|N|Right click the Drain Schematics to start the quest.|QID|97
 C A Warm Welcome|S|N|Kill and loot Nagas for this quest.|QID|9728|M|70.9,82.1|
 U Lagoon Controls Disabled|N|Go here and disable the pump with the Ironvine Seeds.|M|63.10,64.1|QID|9720|QO|Lagoon Controls Disabled: 1/1|U|24355|
 C Leader of the Darkcrest|N|Kill Rajah Haghazed.|M|65.00,69.0|QID|9730|
-C A Warm Welcome|US|N|Finish killing Nagas for their claws. You can use the seeds over and over again if you don't want to run around.|QID|9728|M|70.9,82.1;63.16,66.15|U|24355|
+C A Warm Welcome|US|N|Finish killing Nagas for their claws. You can use the seeds over and over again if you don't want to run around.|QID|9728|M|70.9,82.1;63.16,66.15|CN|U|24355|
 C Blacksting's Bane|N|Kill Blacksting and take his Stinger.|M|50.00,59.0|QID|9896|
 C The Boha'mu Ruins|N|Go here to complete the quest.|M|44.20,68.9|QID|9786|
 C Drain Schematics|N|Go here and dive underwater a bit until you get the quest complete message.|M|50.50,41.0|QID|9731|

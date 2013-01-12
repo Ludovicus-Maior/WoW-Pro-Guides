@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2013-01-09 01:03
+-- Who: Ludovicus Maior
+-- Log: Two different QIDs for [The Holy Water of Clarity]
+
+-- URL: http://wow-pro.com/node/3238/revisions/24716/view
 -- Date: 2011-08-06 08:20
 -- Who: Gethe
 -- Log: Added the quest "It's You!!" as a Goblin replacement for "Akiris by the Bundle"
@@ -43,13 +48,13 @@ T Above My Pay Grade|QID|26404|M|34.79,29.49|N|To Sassy Hardwrench.|
 A It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|From Sassy Hardwrench.|
 A Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead|M|34.76,29.54|N|From Sassy Hardwrench.|
 A If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.81,29.58|N|From Sassy Hardwrench.|
-A The Holy Water of Clarity|QID|26433|M|33.73,29.16|N|From Flem Gizzix.|
+A The Holy Water of Clarity|QID|26433;26590|M|33.73,29.16|N|From Flem Gizzix.|
 h Hardwrench Hideaway|QID|26433|M|35.07,27.20|N|At Innkeeper Draxle.|
 
 C It's You!!|QID|26489|R|Goblin|S|QO|Akiris Reed: 0/6|
 C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead|S|QO|Akiris Reed: 0/6|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|S|
-C The Holy Water of Clarity|QID|26433|M|43.84,49.10|N|Work your way up the winding paths of the naga hills.|
+C The Holy Water of Clarity|QID|26433;26590|M|43.84,49.10|N|Work your way up the winding paths of the naga hills.|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|US|M|42.56,50.32|
 C It's You!!|QID|26489|R|Goblin|M|34.76,29.54|US|M|39.18,48.93|
 C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead|US|M|39.18,48.93|
@@ -57,7 +62,7 @@ T It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|To Sassy Hardwrench.|
 T Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead|M|34.65,29.48|N|To Sassy Hardwrench.|
 T If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.65,29.48|N|To Sassy Hardwrench.|
 A There's Somebody Out There Who Wants It|QID|26493|M|34.70,29.33|N|From Sassy Hardwrench.|
-T The Holy Water of Clarity|QID|26433|M|33.78,29.16|N|To Flem Gizzix.|
+T The Holy Water of Clarity|QID|26433;26590|M|33.78,29.16|N|To Flem Gizzix.|
 A Primal Reagents of Power|QID|26434|M|33.78,29.16|N|From Flem Gizzix.|
 A Diffractory Chromascope|QID|26592|M|33.78,29.16|N|From Flem Gizzix.|
 C Primal Reagents of Power|QID|26434|S|M|46.41,18.44|

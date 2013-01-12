@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2013-01-09 22:50
+-- Who: Ludovicus Maior
+-- Log: Added some CS tags
+
+-- URL: http://wow-pro.com/node/3292/revisions/24917/view
 -- Date: 2012-01-23 06:23
 -- Who: Crackerhead22
 -- Log: Added notes, cords, missing quests, etc.
@@ -278,7 +283,7 @@ T Wanted: The Scarlet Onslaught |QID|12205|M|76.8,63.3|N|To High Executor Wroth.
 T Materiel Plunder |QID|12209|M|76.0,63.3|N|To Quartermaster Bartlett.|
 A Fresh Remounts |QID|12214|M|75.9,61.9|N|From Hansel Bauer.|
 A Stealing from the Siegesmiths |QID|12230|M|77.5,62.0|N|From Deathguard Molder. He wanders around.|
-C Spread the Good Word |QID|12218|N|Hop into a Forsaken Blight Spreader at the east gate. Follow the road to the crossing. Shoot the scourge to the north, hold down the right mouse button to aim. Hop out of the vehicle when you're done.|M|77.8,61.5;86,58|
+C Spread the Good Word |QID|12218|N|Hop into a Forsaken Blight Spreader at the east gate. Follow the road to the crossing. Shoot the scourge to the north, hold down the right mouse button to aim. Hop out of the vehicle when you're done.|M|77.8,61.5;86,58|CS|
 
 A The Call Of The Crusade |QID|12542|N|From Tilda Darathan, just east.|M|87,57|
 C Stealing from the Siegesmiths |NC|QID|12230|S|M|85.0,51.1|N|Loot any bombs you see.|
@@ -330,7 +335,7 @@ T Mighty Magnataur |QID|12149||M|60.0,55.1|N|To Aurastrasza.|
 A Reclusive Runemaster |QID|12150|N|From Aurastrasza.|M|60.0,55.1|
 K Deathguard Schneider |QID|12245|QO|Deathguard Schneider slain: 1/1|N|New Hearthglen. She's behind the gallows in a cage, talk to her and select the first text option; kill her.|M|71.4,72.2|
 l Scarlet Onslaught Daily Orders: Barracks |QID|12234|L|37267|N|Go into the Barracks to the west. As you enter, go right, then left, then left, the orders are on the table to the right.|M|69.7,71.9|
-l Scarlet Onslaught Daily Orders: Abbey |QID|12234|L|37628|N|Head southeast to the abbey. The orders are in the last room in the northeast wing, ground floor.|M|72.3,73.5;73.4,72.6|
+l Scarlet Onslaught Daily Orders: Abbey |QID|12234|L|37628|N|Head southeast to the abbey. The orders are in the last room in the northeast wing, ground floor.|M|72.3,73.5;73.4,72.6|CS|
 C Kill Chancellor Amai |QID|12245|QO|Chancellor Amai slain: 1/1|N|He's just to the northeast of the Abbey exit. Again, talk to him and click the first text. |M|72.7,72.6|
 C Kill Engineer Burke |QID|12245|QO|Engineer Burke slain: 1/1|N|He's on the other side of the Abbey. Talk, select first option, kill.|M|72.7,74.4|
 C Bombard the Ballistae |QID|12232|U|37259|N|There's one just southeast of Engineer Burke. Use the Siegesmith Bombs on it. Destroy any you see from now on.|S|
@@ -360,7 +365,7 @@ C The Perfect Dissemblance |QID|12260|N|Go find a Onslaught Raven Priest, then u
 T The Perfect Dissemblance |QID|12260|M|73.6,73.5|N|To Argent Skully.|
 
 A A Fall From Grace |QID|12274|M|73.6,73.5|PRE|12260|N|From Argent Skully.|
-N Ring the Bell |QID|12274|QO|Abbey bell rung: 1/1|N|The Onslaught Knights can see through your disguise, so be careful. Head into the abbey. Go right, enter the main hall and take the spiral steps up, right-click the Abbey Bell Rope.|M|72.3,73.5;73.0,73.7;72.9,73.5|
+N Ring the Bell |QID|12274|QO|Abbey bell rung: 1/1|N|The Onslaught Knights can see through your disguise, so be careful. Head into the abbey. Go right, enter the main hall and take the spiral steps up, right-click the Abbey Bell Rope.|M|72.3,73.5;73.0,73.7;72.9,73.5|CS|
 C A Fall From Grace |QID|12274|N|Head downstairs, talk to the abbot, he's to the left at the tip of the southeastern wing. Once you're done, head outside and follow the High Abbot.|M|73,74|
 C Fire Upon the Waters |QID|12243|N|Head down to the docks, stand next to the plank. Use the Apothecary's Burning Water, shoot for the sails. You've got 2 minutes of distracted deckhands now. Head into the ship, go downstairs and take 2 rights, kill Captain Shely and loot his Rutters, then get the hell out of there.|U|37304|M|71,83|
 T A Fall From Grace |QID|12274|N|To Argent Skully.|M|73.6,73.5|

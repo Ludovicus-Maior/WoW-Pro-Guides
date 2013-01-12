@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- Date: 2013-01-09 17:14
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3455/revisions/24894/view
 -- Date: 2012-01-18 23:30
 -- Who: Ludovicus Maior
 
@@ -141,7 +146,7 @@ A The Netherwing Mines|QID|11075|PRE|11053|M|66.12,86.36|REP|Netherwing;1015;fri
 
 A The Booterang: A Cure For The Common Worthless Peon|QID|11055|PRE|11054|REP|Netherwing;1015;friendly-revered|M|66.84,86.10|From Chief Overseer Mudlump.|
 
-C A Slow Death|QID|11020|M|65.0,65.6;67.6,69.0;71.6,66.0;56.8,75.6;59.0,69.6;55.0,68.0|L|32502 12|N|Kill Netherskates and Greater Felfire Diemetradons for their Fel Glands|QO|Fel Gland: 12/12|
+C A Slow Death|QID|11020|M|65.0,65.6;67.6,69.0;71.6,66.0;56.8,75.6;59.0,69.6;55.0,68.0|CN|L|32502 12|N|Kill Netherskates and Greater Felfire Diemetradons for their Fel Glands|QO|Fel Gland: 12/12|
 C The Not-So-Friendly Skies...|QID|11035|M|71.55,75.08;74.43,75.65||L|32509 10|N|Kill Dragonmaw Transporters and loot the relics.|
 
 U A Slow Death|QID|11020|U|32503|N|Find Dragonmaw Peon Camps and drop the mutton|S|QO|Dragonmaw Peon Camp Poisoned: 12/12|
@@ -153,7 +158,7 @@ T The Not-So-Friendly Skies...|QID|11035|PRE|11019|M|66.0,86.47|N|From Yarzill t
 T The Booterang: A Cure For The Common Worthless Peon|QID|11055|M|66.84,86.10|To Chief Overseer Mudlump.|
 
 T The Netherwing Mines|QID|11075|M|63.0,87.8;65.4,90.2|N|To Mistress of the Mines.|
-A Picking Up The Pieces...|QID|11076|PRE|11075|M|63.0,87.8;65.4,90.2|REP|Netherwing;1015;friendly-revered|N|From a Mistress of the Mines.|
+A Picking Up The Pieces...|QID|11076|PRE|11075|M|63.0,87.8;65.4,90.2|CN|REP|Netherwing;1015;friendly-revered|N|From a Mistress of the Mines.|
 N Picking Up The Pieces...|QID|11076|N|When you kill oozes, ???|
 A Dragons are the Least of Our Problems|QID|11077|PRE|11075|M|65.4,89.2|REP|Netherwing;1015;friendly-revered|N|Look for the foreman in the mine.|
 A Crazed and Confused|QID|11083|M|71.57,87.62|REP|Netherwing;1015;friendly|N|From Ronag the Slave Driver.|
@@ -166,16 +171,16 @@ C Dragons are the Least of Our Problems|QID|11077|M|71.88,83.12|QO|N|Kill Nether
 C Picking Up The Pieces...|QID|11076|M||N|Recover Nethermine Cargo crates|
 
 T Dragons are the Least of Our Problems|QID|11077|PRE|11075|M|65.4,89.2|N|Look for the foreman in the mine.|
-T Picking Up The Pieces...|QID|11076|PRE|11075|M|63.0,87.8;65.4,90.2|N|To a Mistress of the Mines.|
-T The Great Murkblood Revolt|QID|11081|M|63.0,87.8;65.4,90.2|N|To a Mistress of the Mines.|
-A Seeker of Truth|QID|11082|PRE|11081|M|63.0,87.8;65.4,90.2|N|From a Mistress of the Mines.|
-C Seeker of Truth|QID|11082|M|73.45,82.45;72.85,92.42;69.95,80.33|N|Find a Murkblood Overseer and interrogate.|
-T Seeker of Truth|QID|11082|M|63.0,87.8;65.4,90.2|N|To a Mistress of the Mines.|
+T Picking Up The Pieces...|QID|11076|PRE|11075|M|63.0,87.8;65.4,90.2|CN|N|To a Mistress of the Mines.|
+T The Great Murkblood Revolt|QID|11081|M|63.0,87.8;65.4,90.2|CN|N|To a Mistress of the Mines.|
+A Seeker of Truth|QID|11082|PRE|11081|M|63.0,87.8;65.4,90.2|CN|N|From a Mistress of the Mines.|
+C Seeker of Truth|QID|11082|M|73.45,82.45;72.85,92.42;69.95,80.33|CN|N|Find a Murkblood Overseer and interrogate.|
+T Seeker of Truth|QID|11082|M|63.0,87.8;65.4,90.2|CN|N|To a Mistress of the Mines.|
 
-C The Great Netherwing Egg Hunt|QID|11049|M|59.80,78.20;60.20,87.10;62.80,74.80;77.30,95.45;62.25,89.45;65.92,81.35;79.15,87.22;68.41,86.84;68.60,79.84;68.85,59.10;73.61,89.69;76.70,92.10;71.49,87.44;70.27,82.42;64.53,84.26;69.68,62.11;75.58,85.86;66.95,94.40;74.99,82.51;65.71,89.70;78.67,81.82|Find Eggs|
+C The Great Netherwing Egg Hunt|QID|11049|M|59.80,78.20;60.20,87.10;62.80,74.80;77.30,95.45;62.25,89.45;65.92,81.35;79.15,87.22;68.41,86.84;68.60,79.84;68.85,59.10;73.61,89.69;76.70,92.10;71.49,87.44;70.27,82.42;64.53,84.26;69.68,62.11;75.58,85.86;66.95,94.40;74.99,82.51;65.71,89.70;78.67,81.82|CN|N|Find Eggs|
 C Nethermine Flayer Hide|QID|11016|M|66.2,85.6|N|From Nethermine Bursters, Flayers or Ravagers or Overmine Flayers.|
-C Netherdust Pollen|QID|11017|M|60.50,73.40;74.30,75.70;79.25,86.97;69.56,79.86;73.53,91.82;78.28,84.05;60.33,77.70;66.03,80.48;68.20,87.57;71.95,84.47;76.35,88.64;68.53,83.30;74.45,80.68;62.67,82.51;75.03,85.16;71.53,63.27;65.10,89.77;61.25,86.49;66.70,94.85;71.10,89.97;68.83,59.50|N|Netherdust Bushes|
-C Nethercite Ore|QID|11018|M|59.70,79.10;60.10,87.00;72.00,61.10;78.60,93.90;62.40,89.45;66.45,62.20;71.90,64.40;67.60,90.65;66.21,83.05;74.45,87.91;77.10,89.33;73.16,84.48;63.02,85.68;63.20,81.62;66.62,94.28;70.53,89.59;77.65,85.45;75.10,81.41;69.08,85.82;67.40,59.29;68.60,81.22|N|Nethercite Deposits|
+C Netherdust Pollen|QID|11017|M|60.50,73.40;74.30,75.70;79.25,86.97;69.56,79.86;73.53,91.82;78.28,84.05;60.33,77.70;66.03,80.48;68.20,87.57;71.95,84.47;76.35,88.64;68.53,83.30;74.45,80.68;62.67,82.51;75.03,85.16;71.53,63.27;65.10,89.77;61.25,86.49;66.70,94.85;71.10,89.97;68.83,59.50|CN|N|Netherdust Bushes|
+C Nethercite Ore|QID|11018|M|59.70,79.10;60.10,87.00;72.00,61.10;78.60,93.90;62.40,89.45;66.45,62.20;71.90,64.40;67.60,90.65;66.21,83.05;74.45,87.91;77.10,89.33;73.16,84.48;63.02,85.68;63.20,81.62;66.62,94.28;70.53,89.59;77.65,85.45;75.10,81.41;69.08,85.82;67.40,59.29;68.60,81.22|CN|N|Nethercite Deposits|
 
 C Netherwing Crystals|QID|11015|L|32427 30|N|Kill Murkbloods, Flayers, BlackBloods, or Rays.|
 C The Great Netherwing Egg Hunt|QID|11049|M|66.0,86.47|To Yarzill the Merc.|

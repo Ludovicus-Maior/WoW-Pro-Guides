@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2013-01-11 23:35
+-- Who: Ludovicus Maior
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3266/revisions/24602/view
 -- Date: 2011-06-25 01:53
 -- Who: Crackerhead22
 -- Log: ! Missing A step for step C qid 28233 - Fixed, C step was wrong QID.
@@ -143,7 +148,7 @@ A A Deal With a Dragon|QID|28448|M|54.68,24.73|N|From Ariok.|
 T Not Fireflies, Flameflies|QID|28491|M|54.95,22.55|N|To Kibler. Grats on your new pet!|
 A The Bogpaddle Bullet|QID|28570|M|54.95,22.55|N|From Kibler.|
 C Blood Tour|QID|28446|S|M|66.42,58.26|
-C Draconic Vanguard|QID|28447|M|72.3,27.4;75.7,37.0;79.7,51.0;64.96,59.68|
+C Draconic Vanguard|QID|28447|M|72.3,27.4;75.7,37.0;79.7,51.0;64.96,59.68|CN|
 C Blood Tour|QID|28446|US|M|66.42,58.26|
 T Draconic Vanguard|QID|28447|N|To Ariok.|
 T Blood Tour|QID|28446|N|To Ariok.|
@@ -153,9 +158,9 @@ T Placing the Pawns|QID|28449|M|54.63,24.58|N|To Eitrigg.|
 A A Delivery for Thorg'izog|QID|28450|M|54.63,24.58|N|From Eitrigg.|
 A A Delivery for Neeralak|QID|28451|M|54.63,24.58|N|From Eitrigg.|
 A A Delivery for Xi'lun|QID|28452|M|54.63,24.58|N|From Eitrigg.|
-T A Delivery for Thorg'izog|QID|28450|M|65.1,46.7;65.0,43.3;66.49,40.54|N|To General Thorg'izog.|
-T A Delivery for Xi'lun|QID|28452|M|64.2,37.6;68.2,44.1;69.58,43.01|N|Back out the cave, and follow the path up the hill.|
-T A Delivery for Neeralak|QID|28451|M|70.88,38.13;70.6,41.9;70.24,47.27|N|Enter the cave and follow it around to the left.|
+T A Delivery for Thorg'izog|QID|28450|M|65.1,46.7;65.0,43.3;66.49,40.54|CS|N|To General Thorg'izog.|
+T A Delivery for Xi'lun|QID|28452|M|64.2,37.6;68.2,44.1;69.58,43.01|CS|N|Back out the cave, and follow the path up the hill.|
+T A Delivery for Neeralak|QID|28451|M|70.88,38.13;70.6,41.9;70.24,47.27|CS|N|Enter the cave and follow it around to the left.|
 A Locked and Loaded|QID|28453|M|70.24,47.27|N|From Dragon-Lord Neeralak.|
 T Locked and Loaded|QID|28453|M|54.62,24.59|N|To Eitrigg.|
 A Assault on Dreadmaul Rock|QID|28454|M|54.62,25.22|N|From Ariok.|

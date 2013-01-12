@@ -240,12 +240,6 @@ local function ParseQuests(...)
 				end
 				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
 
-				if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
-					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
-					elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
-					else WoWPro.waypcomplete[i] = false end
-				end
-
 				if text:find("|NC|") then WoWPro.noncombat[i] = true end
 				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
 --				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
@@ -256,6 +250,7 @@ local function ParseQuests(...)
 				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
 				WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
 				WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
+				WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
 
 				if WoWPro.ach[i] then
 					local achnum, achitem = string.split(";",WoWPro.ach[i])
@@ -268,6 +263,18 @@ local function ParseQuests(...)
 						WoWPro.step[i] = Name
 						local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
 						WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i] end
+				end
+
+				if WoWPro.map[i] then
+					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
+					elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
+					elseif text:find("|CN|") then WoWPro.waypcomplete[i] = false
+					else
+					    WoWPro.waypcomplete[i] = false
+					    if WoWPro.map[i]:find(";") then
+					        WoWPro.Leveling:Print("Step %s [%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],WoWProDB.char.currentguide)
+					    end
+					end
 				end
 
 				for _,tag in pairs(WoWPro.Tags) do 
@@ -296,7 +303,6 @@ function WoWPro.WorldEvents:LoadGuide()
 	for i=1, WoWPro.stepcount do
 		local action = WoWPro.action[i]
 		local completion = WoWProCharDB.Guide[GID].completion[i]
-		local level = WoWPro.level[i]
 		local numQIDs
 
 		if WoWPro.QID[i] then
@@ -304,7 +310,7 @@ function WoWPro.WorldEvents:LoadGuide()
 		else
 			numQIDs = 0
 		end
-
+				    
 		WoWProCharDB.Guide[GID].completion[i] = false
 		completion = false
 		for j=1,numQIDs do
@@ -332,13 +338,6 @@ function WoWPro.WorldEvents:LoadGuide()
 			    end
 		    end
 
-		    -- Checking level based completion --
-		    if not completion and level and action == "L" and tonumber(level) <= UnitLevel("player") then
-			    WoWProCharDB.Guide[GID].completion[i] = true
-		    end
-		    if not completion and level and action ~= "L" and tonumber(level) > UnitLevel("player") then
-			    WoWProCharDB.Guide[GID].skipped[i] = true
-		    end
 		end
 	end
 	
@@ -745,9 +744,6 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 	if event == "UI_INFO_MESSAGE" then
 		WoWPro.WorldEvents:AutoCompleteGetFP(...)
 	end
-	if event == "PLAYER_LEVEL_UP" then
-		WoWPro.WorldEvents:AutoCompleteLevel(...)
-	end
 end
 
 -- Auto-Complete: Criteria Change
@@ -923,21 +919,6 @@ function WoWPro.WorldEvents:AutoCompleteZone()
 	end
 end
 
--- Auto-Complete: Level based --
-function WoWPro.WorldEvents:AutoCompleteLevel(...)
-	local newlevel = ... or UnitLevel("player")
-	if WoWProCharDB.Guide then
-		local GID = WoWProDB.char.currentguide
-		if not WoWProCharDB.Guide[GID] then return end
-		for i=1,WoWPro.stepcount do
-			if not WoWProCharDB.Guide[GID].completion[i] 
-				and WoWPro.level[i] 
-				and tonumber(WoWPro.level[i]) <= newlevel then
-					WoWPro.CompleteStep(i)
-			end
-		end
-	end
-end
 
 -- Update Quest Tracker --
 function WoWPro.WorldEvents:UpdateQuestTracker()
@@ -1004,22 +985,4 @@ function WoWPro.WorldEvents:UpdateQuestTracker()
 		row.track:SetText(track)
 	end
 	if not InCombatLockdown() then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
-end
-
--- Get Currently Available Spells --
-function WoWPro.WorldEvents.GetAvailableSpells(...)
-	local newLevel = ... or UnitLevel("player")
-	local i, j = 1, 0
-	local availableSpells = {}
-	while GetSpellBookItemName(i, "spell") do
-		local info = GetSpellBookItemInfo(i, "spell")
-		local name = GetSpellBookItemName(i, "spell")
-		if info == "FUTURESPELL" and not "Master Riding" and not "Artisan Riding"
-		and GetSpellAvailableLevel(i, "spell") <= newLevel then
-			table.insert(availableSpells,name)
-			j = j + 1
-		end
-		i = i + 1
-	end
-	return j, availableSpells
 end

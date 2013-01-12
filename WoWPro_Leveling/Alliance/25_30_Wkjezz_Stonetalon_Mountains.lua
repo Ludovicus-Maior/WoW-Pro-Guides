@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2013-01-11 19:53
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3233/revisions/24930/view
 -- Date: 2012-02-03 08:21
 -- Who: Crackerhead22
 -- Log: Added |LVL|31| tag to the quest 'Thinning the Horde' as it has a level cap of 30.
@@ -139,7 +144,7 @@ A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|This is a Group quest from the ST
 C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|N|Found in Cragpool Lake to the north of the sign - he has 3,200 HP.  Once killed, loot the Huge Tooth.|RANK|3|O|
 
 C Just Ask Alice - Ice|QID|25673|L|55222|M|66.18,50.04|N|Loot the Mechanized Ice at the top of the rig.|QO|Mechanized Ice: 1/1|NC|
-A Gerenzo the Traitor|QID|25729|M|69.2,48.1;69.5,46.4;68.3,45.4;64.64,43.77|N|(UI Alert)\n\nHead to the BD-816 War Apparatus (north of Cragpool Lake, follow the waypoints to get there).|
+A Gerenzo the Traitor|QID|25729|M|69.2,48.1;69.5,46.4;68.3,45.4;64.64,43.77|N|(UI Alert)Head to the BD-816 War Apparatus (north of Cragpool Lake, follow the waypoints to get there).|CS|
 C Gerenzo the Traitor|QID|25729|M|63.10,45.84|N|Kill Gerenzo.|
 T Gerenzo the Traitor|QID|25729|M|63.10,45.84|N|(UI Alert)|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2013-01-09 01:00
+-- Who: Ludovicus Maior
+-- Log: Multicoord
+
+-- URL: http://wow-pro.com/node/3314/revisions/24942/view
 -- Date: 2012-02-08 14:53
 -- Who: Crackerhead22
 -- Log: ?
@@ -101,7 +106,7 @@ T Slitherblade Slaughter|QID|14257|M|41.19,29.03;38.84,27.00|N|Back to Cenarion 
 A Going Deep|QID|14260|PRE|14257|M|38.85,27.01|N|From Cenarion Researcher Korrah.|
 
 C Going Deep|NC|QID|14260|U|49064|N|Use the Slitherblade Charm.|
-T Going Deep|QID|14260|M|41.23,28.98;38.64,23.06;31.00,30.92|N|You're now a naga! This means the naga will be friendly to you. You also have an increased swim speed and underwater breathing. Head out to the island and talk to Valishj.|
+T Going Deep|QID|14260|M|41.23,28.98;38.64,23.06;31.00,30.92|CS|N|You're now a naga! This means the naga will be friendly to you. You also have an increased swim speed and underwater breathing. Head out to the island and talk to Valishj.|
 A Wetter Than Wet|QID|14264|PRE|14260|M|31.01,30.99|N|From Valishj.|
 N Naga Abilities|QID|14264|N|As a naga, you now have several abilities. Ability 1 will root one of the elementals. Ability 2 deals damage to an elemental. Ability 4 we can't use just yet, and Ability 4 is a simple heal for out of combat.|
 C Wetter Than Wet|QID|14264|M|34.93,21.76|N|Kill elementals by rooting them with Ability 1, then spamming Ability 2.|
@@ -114,7 +119,7 @@ C Deep Impact|NC|QID|14268|U|49102|N|Right-click the tablet fragments to combine
 T Deep Impact|QID|14268|N|The turn-in should pop up automatically.|
 A Mystery Solved|QID|14282|PRE|14268|N|The new quest should pop up automatically.|
 
-T Mystery Solved|QID|14282|M|41.19,29.03;38.83,27.03|N|Back to Cenarion Researcher Korrah.|
+T Mystery Solved|QID|14282|M|41.19,29.03;38.83,27.03|CS|N|Back to Cenarion Researcher Korrah.|
 A The Enemy of Our Enemy|QID|14292|PRE|14282|M|38.83,27.03|N|From Cenarion Researcher Korrah.|
 T The Enemy of Our Enemy|QID|14292|M|29.07,8.15|N|To Lord Hydronis.|
 A A Revenant's Vengeance|QID|14284|PRE|14292|M|29.07,8.15|N|From Lord Hydronis.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2013-01-11 19:51
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3229/revisions/25042/view
 -- Date: 2012-08-08 16:27
 -- Who: Ludovicus Maior
 -- Log: Zardok points out that Quae and Kinelory|QID|26113 requires lvl 26 to accept and The Stone Shards|QID|26341 requires lvl 27
@@ -67,7 +72,7 @@ A Wanted! Otto and Falconcrest|QID|26079|RANK|1|M|40.24,49.06|N|From the Wanted 
 
 C Northfold Manor|QID|26093|M|25.13,30.48|N|Kill 16 Syndicate Mercenaries. Syndicate Highwayman count as well.|
 C Wanted! Otto and Falconcrest|QID|26079|M|19.64,66.62|N|Go inside the keep and head up. Kill Otto and Lord Falconcrest, then loot their heads.|
-C Wanted! Marez Cowl|QID|26024|M|23.2,64.8;22.8,66|N|Head out of the keep and find Marez. She can be at either waypoint. Kill her and loot her head.|
+C Wanted! Marez Cowl|QID|26024|M|23.2,64.8;22.8,66|CN|N|Head out of the keep and find Marez. She can be at either waypoint. Kill her and loot her head.|
 
 A Drowned Sorrows|QID|26055|M|27.75,83.17|N|From Captain Steelgut.|
 T Shakes O'Breen|QID|26336|M|26.03,83.93|N|To Shakes O'Breen.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2013-01-09 22:43
+-- Who: Ludovicus Maior
+-- Log: Added two CS tags
+
+-- URL: http://wow-pro.com/node/3487/revisions/25231/view
 -- Date: 2012-12-02 19:06
 -- Who: Emmaleah
 -- Log: 2 Dec 2012 - Emmaleah - Bliz fixed the phasing bug with the pandaran teapot in 5.1 - editing guide to reflect that.
@@ -451,12 +456,12 @@ C Unbound|QID|29587|NC|US|M|39.76,75.57|N|Click on the nets to free the farmers.
 T Unbound|QID|29587|M|41.02,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.02,73.97|N|To Shao the Defiant.|
 
-R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4;48.26,61.31|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart. Also, the lost BoA treasure, 'Ancient Jinyu Staff' may be occasionally located in the river beside Serpent's Heart if you want to take the time swimming to look for it.|
+R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4;48.26,61.31|CS|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart. Also, the lost BoA treasure, 'Ancient Jinyu Staff' may be occasionally located in the river beside Serpent's Heart if you want to take the time swimming to look for it.|
 T The Serpent's Heart|QID|29931|M|48.26,61.31|N|To Foreman Raike.|
 A Love's Labor|QID|30495|M|48.26,61.31|N|From Foreman Raike.|
 C Delivery to Kitemaster Shoku |QID|30495|NC|QO|Delivery to Kitemaster Shoku: 1/1|M|48.2,60.0|
 C Delivery to Taskmaster Emi |QID|30495|NC|QO|Delivery to Taskmaster Emi: 1/1|M|47.6,60.7|N|Ask Shoku to get a lift to the top of the statue|
-C Delivery to Surveyor Sawa |QID|30495|NC|QO|Delivery to Surveyor Sawa: 1/1|M|47.4,60.5;46.9,60.4|N|Talk to Kitemaster Inga to get a ride down|
+C Delivery to Surveyor Sawa |QID|30495|NC|QO|Delivery to Surveyor Sawa: 1/1|M|47.4,60.5;46.9,60.4|CS|N|Talk to Kitemaster Inga to get a ride down|
 C Delivery to Historian Dinh |QID|30495|NC|QO|Delivery to Historian Dinh: 1/1|M|46.4,61.8|
 T Love's Labor|QID|30495|M|48.31,61.30|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|M|48.31,61.30|N|From Foreman Raike.|

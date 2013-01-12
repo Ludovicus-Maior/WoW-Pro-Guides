@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2013-01-09 01:48
+-- Who: Ludovicus Maior
+-- Log: Added CN tag.
+
+-- URL: http://wow-pro.com/node/3405/revisions/25292/view
+-- Date: 2013-01-09 01:42
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3405/revisions/24985/view
 -- Date: 2012-05-27 18:29
 -- Who: Ludovicus Maior
 
@@ -53,7 +63,7 @@ A Shredder Repair |QID|12244|N|From Synipus.|M|39.5,43.5|Z|Grizzly Hills|
 C Pieces Parts |QID|12268|N|Loot the needed parts of the ground.|M|35,40|Z|Grizzly Hills|S|
 C Life or Death |QID|12296|U|37576|N|Use the [Renewing Bandage] on Wounded Westfall Infantry.|M|35,40|Z|Grizzly Hills|S|
 C Kick 'Em While They're Down |QID|12289|N|Kill any horde unit in Blue Sky Logging Grounds, NPC or PC.|M|35,40|Z|Grizzly Hills|S|
-C Shredder Repair |QID|12244|N|Go west to the island of Blue Sky Logging Grounds. Enter a Broken-down Shredder, then take it back to Synipus.|M|32.9,42.1;39.5,43.5|Z|Grizzly Hills|
+C Shredder Repair |QID|12244|N|Go west to the island of Blue Sky Logging Grounds. Enter a Broken-down Shredder, then take it back to Synipus.|M|32.9,42.1;39.5,43.5|Z|Grizzly Hills|CN|
 C Pieces Parts |QID|12268|N|Finish looting what you need.|M|35,40|US|
 C Life or Death |QID|12296|U|37576|N|Use the [Renewing Bandage] on Wounded Westfall Infantry.|M|35,40|Z|Grizzly Hills|US|
 C Kick 'Em While They're Down |QID|12289|N|Kill any horde unit in Blue Sky Logging Grounds, NPC or PC.|M|35,40|Z|Grizzly Hills|US|

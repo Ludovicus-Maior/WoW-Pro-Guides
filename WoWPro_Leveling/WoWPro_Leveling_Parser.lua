@@ -254,7 +254,7 @@ local function ParseQuests(...)
 					local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,WoWProDB.char.currentguide,text)
                     WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
 	                table.insert(WoWProDB.global.ZoneErrors, line)
-				    WoWPro:Print("Invalid Z tag in:"..text)
+				    WoWPro.Leveling:Print("Invalid Z tag in:"..text)
 				    WoWPro.zone[i] = nil
 				end
 				_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
@@ -265,17 +265,23 @@ local function ParseQuests(...)
 				end
 				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?") or WoWPro:GrailQuestPrereq(WoWPro.QID[i])
 
-				if (WoWPro.action[i] == "R" or WoWPro.action[i] == "r" or WoWPro.action[i] == "N") and WoWPro.map[i] then
+				if WoWPro.map[i] then
 					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
 					elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
-					else WoWPro.waypcomplete[i] = false end
+					elseif text:find("|CN|") then WoWPro.waypcomplete[i] = false
+					else
+					    WoWPro.waypcomplete[i] = false
+					    if WoWPro.map[i]:find(";") then
+					        WoWPro.Leveling:Print("Step %s [%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],WoWProDB.char.currentguide)
+					    end
+					end
 				end
 
 				if faction then
 					WoWPro.faction[i] = faction
 				end
 				if text:find("|NC|") then WoWPro.noncombat[i] = true end
-				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
+				WoWPro.level[i] = text:match("|LVL|([^|]*)|?") or WoWPro:GrailQuestLevel(WoWPro.QID[i])
 				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 				WoWPro.target[i] = text:match("|T|([^|]*)|?")
                                     WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
@@ -308,7 +314,6 @@ function WoWPro.Leveling:LoadGuide()
 	for i=1, WoWPro.stepcount do
 		local action = WoWPro.action[i]
 		local completion = WoWProCharDB.Guide[GID].completion[i]
-		local level = WoWPro.level[i]
 		local numQIDs
 
 		if WoWPro.QID[i] then
@@ -337,11 +342,6 @@ function WoWPro.Leveling:LoadGuide()
 			    if action == "C" and WoWPro.QuestLog[QID].complete then
 				    WoWProCharDB.Guide[GID].completion[i] = true
 			    end
-		    end
-
-		    -- Checking level based completion --
-		    if not completion and level and tonumber(level) <= UnitLevel("player") then
-			    WoWProCharDB.Guide[GID].completion[i] = true
 		    end
 		end
 	end
@@ -755,9 +755,6 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	if event == "UI_INFO_MESSAGE" then
 		WoWPro.Leveling:AutoCompleteGetFP(...)
 	end
-	if event == "PLAYER_LEVEL_UP" then
-		WoWPro.Leveling:AutoCompleteLevel(...)
-	end
 end
 
 
@@ -939,21 +936,6 @@ function WoWPro.Leveling:AutoCompleteZone()
 	end
 end
 
--- Auto-Complete: Level based --
-function WoWPro.Leveling:AutoCompleteLevel(...)
-	local newlevel = ... or UnitLevel("player")
-	if WoWProCharDB.Guide then
-		local GID = WoWProDB.char.currentguide
-		if not WoWProCharDB.Guide[GID] then return end
-		for i=1,WoWPro.stepcount do
-			if not WoWProCharDB.Guide[GID].completion[i] 
-				and WoWPro.level[i] 
-				and tonumber(WoWPro.level[i]) <= newlevel then
-					WoWPro.CompleteStep(i)
-			end
-		end
-	end
-end
 
 -- Update Quest Tracker --
 function WoWPro.Leveling:UpdateQuestTracker()

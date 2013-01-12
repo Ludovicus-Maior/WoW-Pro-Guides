@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2013-01-11 20:04
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3279/revisions/24947/view
 -- Date: 2012-02-13 00:40
 -- Who: Crackerhead22
 -- Log: Fixed line for "C Agitated Spirits of Skysong|" via Hendo72's suggestions.
@@ -209,7 +214,7 @@ C Murkblood Corrupters |N|Kill mobs until you finish this quest.|QID|9862|M|32,4
 C Stopping the Spread |N|Use the torch on the rest of the corpses for this quest.|QID|9874|M|33.2,47.7|U|24560|US|
 
 N From now on... |N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead" |
-K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|L|24523|S|
+K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|L|24523|S|
 T He Called Himself Altruis...|QID|9982|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
 C Survey the Land |N|Make sure you are not mounted when you accept this quest (or abandon it and re-accept it).  You should fly around automatically.|QID|9991|M|27.29,43.1|
@@ -218,10 +223,10 @@ A Buying Time|QID|9999|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Buying Time|QID|9999|M|25.52,37.54|N|Kill the Demons that are needed for this quest.|
 T Buying Time|QID|9999|M|27.35,43.06|N|To Altruis the Sufferer.|
 A The Master Planner|QID|10001|M|27.35,43.06|N|From Altruis the Sufferer.|
-C The Master Planner|QID|10001|M|23.64,34.7;17.49,50.27|N|Find, kill and loot a Mo'arg Master Planner at either of the waypoints.|
+C The Master Planner|QID|10001|M|23.64,34.7;17.49,50.27|CN|N|Find, kill and loot a Mo'arg Master Planner at either of the waypoints.|
 T The Master Planner|QID|10001|M|27.33,43.07|N|To Altruis the Sufferer.|
 N Altruis offers too much|QID|9859|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion as they take you out of the zone.|
-K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|N|Kill Bach'lor and loot his hoof. He wanders between the waypoints.|T|Bach'lor|L|24523|US|
+K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof. He wanders between the waypoints.|T|Bach'lor|L|24523|US|
 A Matters of Security |QID|9925|M|30.8,58.1|N|From Zerid.|
 A Gava'xi |QID|9900|M|30.8,58.1|N|From Zerid.|
 T The Consortium Needs You! |QID|9913|M|31.4,57.8|N|To Gezhe.|
@@ -230,7 +235,7 @@ A A Head Full of Ivory|QID|9914|N|From Shadrek.|M|31.75,56.80|REP|The Consortium
 T A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
 N Sell junk, repair, restock |QID|9922|N|Sell junk, repair, restock.|M|30.59,56.94|
 
-l Murkblood Invasion Plans |QID|9871|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24559|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|
+l Murkblood Invasion Plans |QID|9871|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24559|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|CN|
 A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9871|U|24559|M|28.3,53.4|
 l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|REP|The Consortium;933;Neutral|
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|

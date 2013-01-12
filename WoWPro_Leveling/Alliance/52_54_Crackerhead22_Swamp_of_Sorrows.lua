@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2013-01-11 19:57
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3249/revisions/24545/view
 -- Date: 2011-06-11 22:13
 -- Who: Crackerhead22
 -- Log: Removed the "Hero's Call" steps since they are not really needed.
@@ -171,7 +176,7 @@ T Secrets of the Mire|QID|27876|M|26.97,33.78|N|To Anchorite Avuun.|
 A The Purespring|QID|27902|M|26.97,33.78|N|From Anchorite Avuun.|
 A Breath of Mist|QID|27904|M|26.97,33.78|N|From Anchorite Avuun.|
 
-R Misty Valley|QID|27904|M|23.65,45.3;21.32,42.58|N|Run to Misty Valley.|
+R Misty Valley|QID|27904|M|23.65,45.3;21.32,42.58|CC|N|Run to Misty Valley.|
 C Breath of Mist|QID|27904|M|17.49,36.51|N|Kill any Grell that you see prancing about.|
 R Purespring Cavern|QID|27902|M|25.87,55.06;22.13,56.43|N|Be careful as you go by Splinterspear Junction.|
 C The Purespring|QID|27902|M|18.75,59.67|

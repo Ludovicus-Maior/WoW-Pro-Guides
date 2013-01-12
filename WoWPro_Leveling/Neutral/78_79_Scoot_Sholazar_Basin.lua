@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2013-01-09 22:35
+-- Who: Ludovicus Maior
+-- Log: Added CS and CN tags
+
+-- URL: http://wow-pro.com/node/3297/revisions/25273/view
 -- Date: 2012-12-27 18:46
 -- Who: Ludovicus Maior
 -- Log: Whoops, the Archmage is in Dalaran.
@@ -376,12 +381,12 @@ T Back Through the Waygate |QID|12797|N|To Avatar of Freya, at Rainspeaker Rapid
 
 A Reclamation |QID|12546|N|From Avatar of Freya.|
 R Reclamation |QID|12546|M|71.31,33.84|N|Go here, dismount and summon the Etymidian. Remember to heal when you get below 50%.|U|38709|
-K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|QO|Scourge Minions destroyed: 200/200|S|N|Destroy any type of Minion.|
+K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|CN|QO|Scourge Minions destroyed: 200/200|S|N|Destroy any type of Minion.|
 K Hailscorn |QID|12546|M|70.0,34.0|QO|Hailscorn slain: 1/1|N|Keep your back to the mountain and hit Cataclysm only when she spawns her troops.|U|38709|
 K Urgreth of the Thousand Tombs |QID|12546|M|70.2,37.0|QO|Urgreth of the Thousand Tombs slain: 1/1|N|Move away when he channels Dark Barrage.|
 K Hailscorn |QID|12546|M|70.0,34.0|QO|Hailscorn slain: 1/1|N|Keep your back to the mountain and hit Cataclysm only when she spawns her troops.|U|38709|
-C Reclamation|QID|12546|M|70.0,38.4;72.6,40.4;73.6,40.8|N|Find Bythius the Flesh-Shaper, use Cleave on the guy, and Cataclysm for the dogs.|U|38709|
-K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|QO|Scourge Minions destroyed: 200/200|US|N|Finish killing Minions.|
+C Reclamation|QID|12546|M|70.0,38.4;72.6,40.4;73.6,40.8|CN|N|Find Bythius the Flesh-Shaper, use Cleave on the guy, and Cataclysm for the dogs.|U|38709|
+K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|CN|QO|Scourge Minions destroyed: 200/200|US|N|Finish killing Minions.|
 T Reclamation |QID|12546|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 T It Could Be Anywhere! |QID|12624|N|To Chad. I know you found it a long time ago. Turn it in now if you haven't already.|M|26.9,58.9|
 T A Hero's Burden |QID|12581|N|Artruis's Phylactery. If you have it, turn it in.|U|38624|

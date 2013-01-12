@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2013-01-09 17:24
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3458/revisions/25266/view
 -- Date: 2012-12-25 20:05
 -- Who: Ludovicus Maior
 -- Log: Update winter veil to use the latest WE updates and eliminate many manual click offs!
@@ -21,10 +26,10 @@
 WoWPro.WorldEvents:RegisterGuide("LudoWinterVeilA","Winter Veil (Alliance)","Winter Veil (Alliance)","WE", "Ludovicus", "Alliance", function()
 return [[
 N Eggs, Babs, Eggs!|QID|7025|N|You are going to need 5 Small Eggs and some Deeprock Salt.  You can either pay outrageous prices on the AH, or farm them and sell the extra for outrageous prices on the AH.  I'll give you 4 places to farm them.|
-K Small Eggs: Darkshore|QID|7025|M|41.4,47.2;42.4,52.4;46.6,46.4|Z|Darkshore|L|6889 20|T|Moonkin|N|Kill Moonkin within the markers.|
-K Small Eggs: Azuremyst Isle|QID|7025|M|46.2,16.4;48.8,15.4,49.4,10.8|Z|Azuremyst Isle|L|6889 20|T|Crazed Wildkin|N|Kill Crazed Wildkin between the markers, north of Stillpine Hold.|
-K Small Eggs: Loch Modan|QID|7025|M|48.2,60.6;50.6,58.4;55.0,61.4|Z|Loch Modan|L|6889 20|T|Loch Buzzard|N|Kill Loch Buzzards, between the markers, south of the lake.|
-K Small Eggs: Westfall|QID|7025|M|55.8,23.4;47.6,18.0;46.6,30.4|Z|Westfall|L|6889 20|T|[nodead] Young Fleshripper|N|Kill any kind of Fleshrippers. Markers are for the young ones.|
+K Small Eggs: Darkshore|QID|7025|M|41.4,47.2;42.4,52.4;46.6,46.4|Z|Darkshore|CN|L|6889 20|T|Moonkin|N|Kill Moonkin within the markers.|
+K Small Eggs: Azuremyst Isle|QID|7025|M|46.2,16.4;48.8,15.4,49.4,10.8|Z|Azuremyst Isle|CN|L|6889 20|T|Crazed Wildkin|N|Kill Crazed Wildkin between the markers, north of Stillpine Hold.|
+K Small Eggs: Loch Modan|QID|7025|M|48.2,60.6;50.6,58.4;55.0,61.4|CN|Z|Loch Modan|L|6889 20|T|Loch Buzzard|N|Kill Loch Buzzards, between the markers, south of the lake.|
+K Small Eggs: Westfall|QID|7025|M|55.8,23.4;47.6,18.0;46.6,30.4|Z|Westfall|CN|L|6889 20|T|[nodead] Young Fleshripper|N|Kill any kind of Fleshrippers. Markers are for the young ones.|
 
 N On the first day of Winter Veil ...|QID|7022|N|Now wait till the first day ..|
 

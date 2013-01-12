@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2013-01-11 20:38
+-- Who: Emmaleah
+-- Log: fix syntax for multi coordinates
+
+-- URL: http://wow-pro.com/node/3488/revisions/25238/view
 -- Date: 2012-12-03 14:25
 -- Who: Fluclo
 -- Log: Added a finish collecting fangs step for Why So Serious?
@@ -158,7 +163,7 @@ C Where are the Pools|QID|30346|M|55.26,34.46|To UI Alert. (If you miss the aler
 T Where are the Pools|QID|30346|
 A The Pools of Youth|QID|30347|N|from UI Alert.|
 C Threat from Dojan|QID|30349|US|M|55,35|N|Finish this before you go on to the pools, no dojani down there.|
-C The Pools of Youth|QID|30347|NC|M|54.6,33.1;51.9,32.4|N|When facing the platform where you killed the Dominator, go to your left, over a bridge and down some stairs to a pool area. Free Na Lek, kill the guardians and loot the 'water of youth' (groundspawn).|
+C The Pools of Youth|QID|30347|NC|M|54.6,33.1;51.9,32.4|CS|N|When facing the platform where you killed the Dominator, go to your left, over a bridge and down some stairs to a pool area. Free Na Lek, kill the guardians and loot the 'water of youth' (groundspawn).|
 C Lotus Tea|QID|30351|US|NS|M|55,35|N|There are a few flowers down here if you aren't yet done.|
 T Lotus Tea|QID|30351||N|To Kang Bramblestaff, next to you. (if you dont turn it in right away, you have to wait until you are at sentinal basecamp.)|
 R While traveling|QID|31409|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
@@ -307,7 +312,7 @@ C The Swarm Begins|QID|30622|US|M|12.4,53.7|Z|Valley of the Four Winds|
 T The Mantidote|QID|30623|N|To UI Alert.|
 T The Swarm Begins|QID|30622|M|11.59,49.52|Z|Valley of the Four Winds|N|To Guard Captain Oakenshield.|
 A Students No More|QID|30625|M|11.59,49.52|Z|Valley of the Four Winds|N|From Guard Captain Oakenshield.|
-C Students No More|QID|30625|T|Xiao|M|8.9,51.7;9.7,58.3;9.4,54.2;9.6,54.0|Z|Valley of the Four Winds|N|The studends will call you over to join them as they roam around this area killing these 4 elites.|
+C Students No More|QID|30625|T|Xiao|M|8.9,51.7;9.7,58.3;9.4,54.2;9.6,54.0|Z|Valley of the Four Winds|CN|N|The studends will call you over to join them as they roam around this area killing these 4 elites.|
 T Students No More|QID|30625|M|11.55,49.44|Z|Valley of the Four Winds|N|To Guard Captain Oakenshield.|
 A Retreat!|QID|30626|M|11.59,49.52|Z|Valley of the Four Winds|N|From Guard Captain Oakenshield.|
 T Retreat!|QID|30626|M|17.83,56.23|Z|Valley of the Four Winds|N|To Loon Mai.|

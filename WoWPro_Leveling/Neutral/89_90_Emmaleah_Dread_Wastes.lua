@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2013-01-09 22:25
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3493/revisions/25216/view
 -- Date: 2012-11-27 00:48
 -- Who: Emmaleah
 -- Log: -- Date: 2012-11-26
@@ -126,7 +131,7 @@ A Kypari Zar|QID|31022|M|64.91,58.09|N|From Korven the Prime.|
 C Kypari Zar|QID|31022|M|59.90,59.38|N|Click on the Sonar Tower, and then defend Korven against 3 waves of mobs.|
 T Kypari Zar|QID|31022|M|60.00,59.29|N|To Korven the Prime.|
 A The Root of the Problem|QID|31026|M|60.00,59.29|N|From Korven the Prime.|
-K Kill Coldbite Matriarch|QID|31026|T|Coldbite Matriarch|M|58.7,59.6;57.45,57.79|QO|Coldbite Matriarch slain: 1/1|
+K Kill Coldbite Matriarch|QID|31026|T|Coldbite Matriarch|M|58.7,59.6;57.45,57.79|CS|QO|Coldbite Matriarch slain: 1/1|
 T The Root of the Problem|QID|31026|M|57.46,57.99|N|To Korven the Prime.|
 
 R Soggy's Gamble|QID|31265|M|56.16,70.07|CC|
