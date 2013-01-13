@@ -128,7 +128,7 @@ local function _generateOrderedIndex(t)
 end
 
 local function orderedNext(t, state)
-    DEFAULT_CHAT_FRAME:AddMessage(string.format("orderedNext(%s,%s)",tostring(t),tostring(state)))
+    -- DEFAULT_CHAT_FRAME:AddMessage(string.format("orderedNext(%s,%s)",tostring(t),tostring(state)))
     -- Equivalent of the next function, but returns the keys in the alphabetic
     -- order. We use a temporary ordered key table that is stored in the
     -- table being iterated.
@@ -157,14 +157,14 @@ local function orderedNext(t, state)
 end
 
 local function orderedPairs(t)
-    DEFAULT_CHAT_FRAME:AddMessage(string.format("orderedPairs(%s)",tostring(t)))
+    -- DEFAULT_CHAT_FRAME:AddMessage(string.format("orderedPairs(%s)",tostring(t)))
     -- Equivalent of the pairs() function on tables. Allows to iterate in order
     return orderedNext, t, nil
 end
 
 function WoWPro:LogDump()
     if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
-    DEFAULT_CHAT_FRAME:AddMessage(string.format("WoWPro:LogDump WoWProDB.global.Log=%s",tostring(WoWProDB.global.Log)))
+    -- DEFAULT_CHAT_FRAME:AddMessage(string.format("WoWPro:LogDump WoWProDB.global.Log=%s",tostring(WoWProDB.global.Log)))
     local text = ""
     for key, val in orderedPairs(WoWProDB.global.Log) do
         text = text .. string.format("%s ~ %s\n",key,val)
@@ -274,7 +274,7 @@ function WoWPro:OnEnable()
 
 	-- Warning if the user is missing TomTom --
 	if not TomTom then
-		WoWPro:Print("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
+		WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
 			.."WoW-Pro's guides won't have their full functionality without it! "
 			.."Download it for free from www.wowinterface.com or www.curse.com .")
 	end
@@ -471,11 +471,11 @@ function WoWPro:LoadAllGuides()
         if WoWPro.Guides[guidID].zone then
             zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
             if not WoWPro:ValidZone(zed) then
-		        WoWPro:Print("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
+		        WoWPro:Error("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
 		    end
 		end
         if nextG and WoWPro.Guides[nextG] == nil then	    
-            WoWPro:Print("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
+            WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
         end
         if WoWPro.Guides[guidID].faction then
             if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end

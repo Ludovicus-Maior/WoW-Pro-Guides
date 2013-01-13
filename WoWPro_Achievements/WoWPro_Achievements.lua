@@ -89,23 +89,23 @@ function WoWPro.Achievements:RegisterGuide(GIDvalue, zonename, guidename, catego
 end
 
 function WoWPro.Achievements:LoadAllGuides()
-    WoWPro:Print("Test Load of Achievements Guides")
+    self:Print("Test Load of Achievements Guides")
     local aCount=0
     local hCount=0
     local nCount=0
     local zed
 	for guidID,guide in pairs(WoWPro.Guides) do
 	    if WoWPro.Guides[guidID].guidetype == "Achievements" then
-            WoWPro:Print("Test Loading " .. guidID)
+            self:Print("Test Loading " .. guidID)
 	        WoWPro:LoadGuide(guidID)
 	        zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
 	        if not WoWPro:ValidZone(zed) then
-			    WoWPro:Print("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
+			    self:Error("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
 			end
 	        if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end
 	        if WoWPro.Guides[guidID].faction == "Neutral"  then nCount = nCount + 1 end
 	        if WoWPro.Guides[guidID].faction == "Horde"    then hCount = hCount + 1 end
 	    end
 	end
-        WoWPro:Print(string.format("Done! %d A, %d N, %d H guides present", aCount, nCount, hCount))
+        self:Print(string.format("Done! %d A, %d N, %d H guides present", aCount, nCount, hCount))
 end

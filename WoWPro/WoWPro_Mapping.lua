@@ -110,7 +110,7 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 
 	for i,waypoint in ipairs(cache) do
 		if (waypoint.uid == uid) then
-		    WoWPro:Print("Mapping: Located waypoint UID %s @ idx %d, autoarrival = %d",tostring(uid),i,autoarrival)
+		    WoWPro:dbp("Mapping: Located waypoint UID %s @ idx %d, autoarrival = %d",tostring(uid),i,autoarrival)
 			iactual = i break
 		end
 	end
@@ -317,7 +317,7 @@ function WoWPro:TryRemap(z,s,f,x,y)
 	WoWPro:dbp("Remapping1 to %d,%g,%g",s,nx,ny)
 	if nx >= 0 and nx <= 1 and ny >=0 and ny <= 1 then
 		-- Successfull translation, remap
-		WoWPro:Print("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
+		WoWPro:dbp("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
 		return s,nx*100,ny*100
 	end
 	return nil,nil,nil
@@ -423,7 +423,7 @@ function WoWPro:MapPoint(row)
     if not zm then
 	    zm = GetCurrentMapAreaID()
 	    zf = GetCurrentMapDungeonLevel()
-	    WoWPro:Print("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
+	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
 	end
 	
 	if TomTom and TomTom.AddMFWaypoint then
@@ -456,7 +456,7 @@ function WoWPro:MapPoint(row)
 			local x = tonumber(jcoord:match("([^|]*),"))
 			local y = tonumber(jcoord:match(",([^|]*)"))
 			if not x or x > 100 or not y or y > 100 then
-			    WoWPro:Print("Bad coordiate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
+			    WoWPro:Error("Bad coordiate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
 			    return
 			end
 			if TomTom or Nx then
@@ -483,7 +483,7 @@ function WoWPro:MapPoint(row)
 					end
 				end
 				if not uid then
-				    WoWPro:Print("Failed to set waypoint!  Please report a bug with the faction, guide and step description.")
+				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
 				waypoint.uid = uid
 				waypoint.index = i
@@ -520,7 +520,7 @@ function WoWPro:MapPoint(row)
 						end
 					end
 				else
-				    WoWPro:Print("No closest waypoint?")
+				    WoWPro:Error("No closest waypoint? Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
 			
 			elseif autoarrival == 2 then

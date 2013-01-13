@@ -57,5 +57,5 @@ end
 -- Describe the table to the Core Module
 WoWPro.Profession.GuideList.Format={{"Name",0.45,nameSort},{"Author",0.35,authorSort},{"Progress",0.20,nil}}
 
-WoWPro.Profession:Print("Guide Setup complete")
+WoWPro.Profession:dbp("Guide Setup complete")
 

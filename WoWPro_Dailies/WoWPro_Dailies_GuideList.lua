@@ -68,5 +68,5 @@ end
 -- Describe the table to the Core Module
 WoWPro.Dailies.GuideList.Format={{"Name",0.35,nameSort},{"Category",0.15,categorySort},{"Author",0.30,authorSort},{"Progress",0.20,nil}}
 
-WoWPro.Dailies:Print("Guide Setup complete")
+WoWPro.Dailies:dbp("Guide Setup complete")
 

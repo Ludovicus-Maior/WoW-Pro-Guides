@@ -155,11 +155,11 @@ frame:SetScript("OnShow", function()
 			row.check:SetScript("OnClick", function(self, button, down)
 				local mod = module:GetName()
 				if not WoWPro[mod] then
-					WoWPro:Print("WoWPro.UpdateCurrentGuidePanel.OnClick: Module %s does not exist!",tostring(mod))
+					WoWPro:Error("WoWPro.UpdateCurrentGuidePanel.OnClick: Module %s does not exist!",tostring(mod))
 					return
 				end
 				if not WoWPro[mod].CheckFunction then
-					WoWPro:Print("WoWPro.UpdateCurrentGuidePanel.OnClick: Module %s does not have CheckFunction()!",tostring(mod))
+					WoWPro:Error("WoWPro.UpdateCurrentGuidePanel.OnClick: Module %s does not have CheckFunction()!",tostring(mod))
 					return
 				end
 				WoWPro[mod]:CheckFunction(row, button, down)

@@ -317,7 +317,7 @@ function WoWPro:NextStep(k,i)
 				    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
 				end
 			else
-			    WoWPro:Print("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
+			    WoWPro:Error("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
 			end
 		end
         
@@ -341,14 +341,14 @@ function WoWPro:NextStep(k,i)
             Friendship = Rep2IdAndClass[repID][2]
             repID = Rep2IdAndClass[repID][1]
             if not repID then
-                self:Print("Bad lower REP value of [%s] found.  Defaulting to 1.",temprep)
+                self:Error("Bad lower REP value of [%s] found.  Defaulting to 1.",temprep)
                 repID = 0
             end
 
             -- Extract upper bound rep
             repmax = Rep2IdAndClass[repmax][1]
             if not repmax then
-                self:Print("Bad upper REP value of [%s] found.  Defaulting to 5.",temprep)
+                self:Error("Bad upper REP value of [%s] found.  Defaulting to 5.",temprep)
                 repmax = 5
             end
 
@@ -410,7 +410,7 @@ function WoWPro:NextStep(k,i)
 				    skip = true
 			    end
 			else
-			    WoWPro:Print("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
+			    WoWPro:Error("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
     		end
     	end
     	
@@ -618,7 +618,7 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
     if qid == "*" then return nil; end
     local QID = tonumber(qid)
     if not QID then
-        self:Print("Guide %s has an bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
+        self:Warning("Guide %s has an bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
         return false;
     end
     if not WoWProCharDB.completedQIDs then

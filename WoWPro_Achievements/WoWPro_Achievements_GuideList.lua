@@ -77,4 +77,4 @@ end
 -- Describe the table to the Core Module
 WoWPro.Achievements.GuideList.Format={{"Name",0.30,nameSort},{"Category",0.15,categorySort},{"Sub",0.25,subSort},{"Author",0.15,authorSort},{"Progress",0.15,nil}}
 
-WoWPro.Achievements:Print("Guide Setup complete")
+WoWPro.Achievements:dbp("Guide Setup complete")

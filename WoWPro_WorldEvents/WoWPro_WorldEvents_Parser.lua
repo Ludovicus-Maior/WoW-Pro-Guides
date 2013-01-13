@@ -697,7 +697,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
         local questid = GetQuestID()
 		if WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
 			if questid ~= tonumber(WoWPro.QID[qidx]) then
-				WoWPro:Print("Expected QID %d, found %d instead on quest [%s]",tonumber(WoWPro.QID[qidx]),questid,questtitle)
+				WoWPro:Warning("Expected QID %d, found %d instead on quest [%s]",tonumber(WoWPro.QID[qidx]),questid,questtitle)
 			end
 		    AcceptQuest()
 		end 
@@ -713,7 +713,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
     
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
-	    WoWPro.WorldEvents:Print("Completing Quest "..tostring(GetQuestID()))
+	    WoWPro.WorldEvents:dbp("Completing Quest "..tostring(GetQuestID()))
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
         WoWPro:dbp("QC: "..WoWPro.action[qidx].."'"..questtitle.."', vs '"..WoWPro.step[qidx].."'")

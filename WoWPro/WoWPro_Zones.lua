@@ -2939,7 +2939,7 @@ local function ScrapeMapInfo(cont, zone, zone_idx)
             floorinfo.dungeon = record.mapName
             floorinfo.mapName = _G["DUNGEON_FLOOR_" .. strupper(record.mapName) .. (floor+offset)]
             if not floorinfo.mapName then
-                WoWPro:Print("Unable to find name for "..record.mapName.." floor "..tostring(floor))
+                WoWPro:Error("Unable to find name for "..record.mapName.." floor "..tostring(floor))
                 floorinfo.mapName = "Floor"..tostring(floor)
             end
             Zone2MapID[floorinfo.mapName.."@"..record.mapName]=floorinfo;
@@ -2960,7 +2960,7 @@ local function ScrapeMapInfo(cont, zone, zone_idx)
             -- Already recorded that map.  Skip it.
             return
         end
-        WoWPro:Print("Name "..record.mapName.." is duplicated for map "..tostring(record.mapID).." and "..tostring(Zone2MapID[record.mapName].mapID))
+        WoWPro:Error("Name "..record.mapName.." is duplicated for map "..tostring(record.mapID).." and "..tostring(Zone2MapID[record.mapName].mapID))
         record.mapName = record.mapName .. "#" .. tostring(record.mapID)
     end
     MapsSeen[record.mapID] = true
@@ -2973,7 +2973,7 @@ end
 function WoWPro:IsInstanceZone(zone)
     local mapID = WoWPro.Zone2MapID[zone]
     if not mapID then
-        WoWPro:Print("Zone [%s] is not in Zone2MapID.  Please report!",zone)
+        WoWPro:Error("Zone [%s] is not in Zone2MapID.  Please report!",zone)
         return false
     end  
     if mapID.cont or mapID.zone then
