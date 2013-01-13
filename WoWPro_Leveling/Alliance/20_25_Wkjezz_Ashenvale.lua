@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2013-01-13 15:07
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3225/revisions/24801/view
 -- Date: 2011-11-09 09:21
 -- Who: Fluclo
 -- Log: Added |NC| to Astranaar's Burning!
@@ -298,7 +303,7 @@ C A Not-So-Charmed Life|QID|13874|M|41.77,32.92|N|Little browny yellow boxes in 
 T Too Far Gone|QID|13876|M|38.00,30.08|N|To Vear Darksnout.|
 T A Not-So-Charmed Life|QID|13874|M|36.47,49.78|N|To Hephaestus Pilgrim.|
 A Go With The Flow|QID|13877|M|36.47,49.78|N|From Hephaestus Pilgrim.|
-R Remains of Iris Lake|QID|26475|M|43.05,45.83;46.82,46.76|N|Run to the Remains of Iris Lake.|
+R Remains of Iris Lake|QID|26475|M|43.05,45.83;46.82,46.76|CC|N|Run to the Remains of Iris Lake.|
 C Elune's Tear|QID|26475|M|46.82,46.73|N|Loot an Elune's Tear off the ground.|
 T Go With The Flow|QID|13877|M|52.09,56.54|N|To Sabina Pilgrim.|
 
@@ -329,7 +334,7 @@ C Defend the Tree!|QID|13935|M|61.09,49.94|N|Speak to the Halannia and tell her 
 T Defend the Tree!|QID|13935|M|59.00,58.76|N|To Sentinel Melyria Frostshadow.|
 
 A Report from the Northern Front|QID|26456|M|59.00,58.76|N|From Sentinel Melyria Frostshadow. This quest is has no follow ups and low XP, but DOES count toward Loremaster.|RANK|3|
-R Night Run|QID|13922|M|64.8,53.13;66.42,52.57|N|Run to Night Run.|
+R Night Run|QID|13922|M|64.8,53.13;66.42,52.57|CC|N|Run to Night Run.|
 C In the Hands of the Perverse|QID|13922|M|66.46,55.86|N|Kill and loot Satyrs.|
 T In the Hands of the Perverse|QID|13922|M|59.10,59.95|N|To Avrus Illwhisper.|
 A All's Well|QID|13924|M|59.02,59.93|N|From Avrus the Redeemed.|
@@ -341,8 +346,8 @@ A Dryad Delivery|QID|26476|M|36.61,49.66|N|From Raene Wolfrunner.|
 T Dryad Delivery|QID|26476|M|59.20,59.67|N|To Shael'dryn.|
 A Search the Bole|QID|26477|M|59.20,59.67|N|From Shael'dryn.|
 l Wooden Key|QID|26477|M|55.80,33.88|N|Head towards the waypoint. Kill treants as you go, until one drops a Wooden Key.|L|5475|
-R The Howling Vale|QID|26477|M|54.34,36.40;55.8,37|N|Head towards the Howling Vale.|
-C Search the Bole|QID|26477|M|54.51,37.22;55.02,40.66|N|Head through the cave and open the Worn Chest.|
+R The Howling Vale|QID|26477|M|54.34,36.40;55.8,37|CC|N|Head towards the Howling Vale.|
+C Search the Bole|QID|26477|M|54.51,37.22;55.02,40.66|CS|N|Head through the cave and open the Worn Chest.|
 
 R Optional Step : Read Carefully|QID|26477|M|51.50,80.54|Z|Felwood|N|If you wish to do felwood later follow you arrow to the flight point. It is dangerous, but worth it. Collect the flight path once there. If you dont want to, or have the Flight Path already, skip this step by clicking the check mark.|
 
@@ -384,7 +389,7 @@ r Repair/Sell|QID|26470|M|34.71,71.31|N|From the Boyer in the tower.|
 C Retaking Mystral Lake|QID|26470|M|52.78,71.67|N|Kill elementals until you're done.|S|
 K Tidress|QID|26470|M|48.23,70.63|QO|Tideress slain: 1/1|N|Kill Tidress on the isle.|
 C Retaking Mystral Lake|QID|26470|M|52.78,71.67|N|Kill elementals until you're done.|US|
-T Dartol's Rod|QID|26480|M|53.07,71.67;54.00,73.93;50.89,75.07|N|Do not Kill Krolg, use the rod then turn the quest into Krolg.|U|46739|
+T Dartol's Rod|QID|26480|M|53.07,71.67;54.00,73.93;50.89,75.07|CS|N|Do not Kill Krolg, use the rod then turn the quest into Krolg.|U|46739|
 A King of the Foulweald|QID|13989|M|50.89,75.07|N|From Krolg.|
 T Report from the Northern Front|QID|26456|M|61.88,83.85|N|To Sentinel Farsong. This step is has no follow ups and low XP, but DOES count toward Loremaster.|RANK|3|
 C King of the Foulweald|QID|13989|U|46777|M|56.38,63.56|N|You will fight a series of Furblogs. Try to drink/eat between waves. It has been known not to spawn Chief Murgut. If this happens to you, drop the flag on the hill again.|

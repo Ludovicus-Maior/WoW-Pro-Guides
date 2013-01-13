@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2013-01-13 15:11
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3459/revisions/25347/view
 -- Date: 2013-01-12 00:31
 -- Who: Ludovicus Maior
 -- Log: Added CS tag, QID for the jubling and made the purchase of Fossil Archeology Fragments level 90.
@@ -107,7 +112,7 @@ B Banner of the Fallen|QID|29456|Consider buying a "Banner of the Fallen" in the
 B Captured Insignia|QID|29457|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71952|LVL|15|
 B Fallen Adventurer's Journal|QID|29458|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71953|LVL|15|
 
-A The Darkmoon Faire|QID|7905|M|62.20,32.29;62.41,73.03|N|From Darkmoon Faire Mystic Mage who's near Dwarven District or the Trade District in Stormwind.|Z|Stormwind City|FACTION|Alliance|
+A The Darkmoon Faire|QID|7905|M|62.20,32.29;62.41,73.03|CN|N|From Darkmoon Faire Mystic Mage who's near Dwarven District or the Trade District in Stormwind.|Z|Stormwind City|FACTION|Alliance|
 A The Darkmoon Faire|QID|7926|M|48.22,62.14|N|From Darkmoon Faire Mystic Mage who's near the flying trainer in Orgrimmar.|Z|Orgrimmar|FACTION|Horde|
 R Transport to Entrance|QID|7905|M|41.87,68.17|N|Talk to her again to get ported to the entrance.You can use her for future trips as well.|Z|Elwynn Forest|FACTION|Alliance|CC|
 R Transport to Entrance|QID|7926|M|36.49,35.11|N|Talk to her again to get ported to the entrance.You can use him for future trips as well.|Z|Thunder Bluff|FACTION|Horde|CC|

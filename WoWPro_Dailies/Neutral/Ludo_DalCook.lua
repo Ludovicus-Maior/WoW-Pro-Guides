@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dalaran_cooking_and_fishing_dalies
+-- Date: 2013-01-13 15:03
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3477/revisions/25362/view
 -- Date: 2013-01-12 18:45
 -- Who: Ludovicus Maior
 -- Log: Lots of CN tags

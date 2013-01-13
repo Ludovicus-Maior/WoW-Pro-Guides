@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2013-01-13 15:22
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3267/revisions/24875/view
 -- Date: 2011-12-28 22:11
 -- Who: Fluclo
 -- Log: Added Level message, target for Curtail the Darktail, and changed order/steps around Captain Metlek.
@@ -97,11 +102,11 @@ T Eliminate the Okril'lon|QID|25711|M|60.17,13.56|N|To Quartermaster Lungertz.|
 A Watcher Mahar Ba|QID|25714|M|60.17,13.56|N|From Quartermaster Lungertz.|
 T Watcher Mahar Ba|QID|25714|M|63.11,16.77|N|Head all the way up to the top of the Mage Tower to Watcher Mahar Ba.|
 A Cultists at our Doorstep|QID|25716|M|63.11,16.77|N|From Watcher Mahar Ba.|
-C Cultists at our Doorstep|QID|25716|M|62.47,22.09;64.35,26.33;61.17,31.53|
+C Cultists at our Doorstep|QID|25716|M|62.47,22.09;64.35,26.33;61.17,31.53|CN|
 T Cultists at our Doorstep|QID|25716|M|63.09,16.77|N|To Watcher Mahar Ba.|
 
 A Kasim Sharim|QID|26157|M|63.09,16.77|N|From Watcher Mahar Ba.|
-R Serpent's Coil|QID|26157|QO|Report to Kasim Sharim in the back of the Serpent's Coil in the Blasted Lands.|M|62.47,22.09;64.35,26.33;60.83,29.42|N|Head back to the area from the previous quest and enter the cave.|
+R Serpent's Coil|QID|26157|QO|Report to Kasim Sharim in the back of the Serpent's Coil in the Blasted Lands.|M|62.47,22.09;64.35,26.33;60.83,29.42|CS|N|Head back to the area from the previous quest and enter the cave.|
 T Kasim Sharim|QID|26157|M|62.58,26.37|N|To Kasim Sharim.|
 A Attune the Bloodstone|QID|26158|M|62.58,26.37|N|From Kasim Sharim.|
 C Attune the Bloodstone|QID|26158|NC|QO|Use internal Bloodstone Teleporter: 1/1|M|63.19,25.96|N|Click on the Bloodstone.|
@@ -110,7 +115,7 @@ T Attune the Bloodstone|QID|26158|M|62.32,26.23|N|To Kasim Sharim.|
 A The First Step|QID|26159|M|62.32,26.23|N|From Kasim Sharim.|
 A A Bloodmage's Gotta Eat Too|QID|26172|M|62.32,26.23|N|From Kasim Sharim.|
 C A Bloodmage's Gotta Eat Too|QID|26172|S|M|51.64,25.98|N|Use the Bloodstone Teleporter to get out of the cave. Kill any boar you come across.|
-C The First Step|QID|26159|M|48.47,30.66;52.38,27.17|N|The basilisks are primarily on the east side of the road, while the hyenas are on the west side of the road.|
+C The First Step|QID|26159|M|48.47,30.66;52.38,27.17|CN|N|The basilisks are primarily on the east side of the road, while the hyenas are on the west side of the road.|
 C A Bloodmage's Gotta Eat Too|QID|26172|US|M|51.64,25.98|N|Kill any boar you come across.|
 A One Draenei's Junk...|QID|25771|O|U|10593|N|You may or may not get this while killing in the Blasted Lands.. If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
 T One Draenei's Junk...|QID|25771|O|M|49.01,31.81|N|To Kum'isha the Collector.|
@@ -131,7 +136,7 @@ C The Amulet of Sevine|QID|26168|M|73.04,47.42|N|Talk to Salt-Flop and choose to
 A Home... Gone... Naga...|QID|25702|M|73.04,47.42|N|From Salt-Flop.|
 T Home... Gone... Naga...|QID|25702|M|71.01,59.91|N|To Neptool.|
 A Atrocities|QID|25703|M|71.01,59.91|N|From Neptool.|
-C Atrocities|QID|25703|M|68.89,68.32;72.27,61.27|N|Jump down and kill any Naga you come across.|
+C Atrocities|QID|25703|M|68.89,68.32;72.27,61.27|CN|N|Jump down and kill any Naga you come across.|
 T Atrocities|QID|25703|M|71.03,59.89|N|To Neptool.|
 A False Idols|QID|25705|M|71.03,59.89|N|From Neptool.|
 A Neptool's Revenge|QID|25706|M|71.03,59.89|N|From Neptool.|
@@ -155,7 +160,7 @@ A The Vile Blood of Demons|QID|26165|M|54.98,49.62|N|From Watcher Grimeo.|
 A Protecting Our Rear|QID|26173|M|54.74,50.29|N|From Watch Commander Relthorn Netherwane.|
 C The Charred Granite of the Dark Portal|QID|26164|S|U|56024|N|Look for the sparkling stones as you go.|
 C The Vile Blood of Demons|QID|26165|S|N|Kill any and all demons you see for their blood.|
-K Protecting Our Rear|QID|26173|QO|Shahandana slain: 1/1|M|57.26,50.19;60,43.4|N|Kill Shahandana.|
+K Protecting Our Rear|QID|26173|QO|Shahandana slain: 1/1|M|57.26,50.19;60,43.4|CN|N|Kill Shahandana.|
 K Protecting Our Rear|QID|26173|QO|Gomegaz slain: 1/1|M|51.59,42.26|N|Gomegaz's turn to die.|
 C Protecting Our Rear|QID|26173|M|44,47.74|N|And finally Jarroc Torn-Wing's turn.|
 C The Vile Blood of Demons|QID|26165|N|Kill any and all demons for their blood.|
@@ -171,12 +176,12 @@ T Watching Our Back|QID|26174|M|54.70,50.35|N|To Watch Commander Relthorn Nether
 A Surwich|QID|26175|M|54.70,50.35|N|From Watch Commander Relthorn Netherwane.|
 T Enhancing the Stone|QID|26166|M|61.37,29.93|N|Once again click on the Bloodstone Teleport to get to Kasim Sharim.|
 A Not Just Any Body|QID|26161|M|62.59,26.22|N|From Kasim Sharim.|
-l Loramus' Head|QID|26161|L|55829|M|45.12,30.41;46.6,26.97|N|Enter the cave and go left to get to where Loramus' Head is at.|
-l Loramus' Torso|QID|26161|L|55836|M|41.43,33.27;39.98,37.16|N|Head into the cave and hang a left to get to where Loramus' Torso is.|
+l Loramus' Head|QID|26161|L|55829|M|45.12,30.41;46.6,26.97|CS|N|Enter the cave and go left to get to where Loramus' Head is at.|
+l Loramus' Torso|QID|26161|L|55836|M|41.43,33.27;39.98,37.16|CS|N|Head into the cave and hang a left to get to where Loramus' Torso is.|
 C Not Just Any Body|QID|26161||M|46.88,39.39|N|As always go inside the cave, and you see the chest with his legs.|
 T Not Just Any Body|QID|26161|M|61.37,29.93|N|As always click on the Bloodstone Teleporter to find Kasim Sharim.|
 A The Altar of Storms|QID|26162|M|62.91,25.98|N|From Kasim Sharim.|
-C The Altar of Storms|QID|26162|M|40.34,35.72;36.98,28.16|N|Click on the Blood Altar to get things started. Demons will spawn near the small altars with candles. Kill them as quickly as possible.|
+C The Altar of Storms|QID|26162|M|40.34,35.72;36.98,28.16|CS|N|Click on the Blood Altar to get things started. Demons will spawn near the small altars with candles. Kill them as quickly as possible.|
 T The Altar of Storms|QID|26162|M|61.37,29.93|N|Click the Bloodstone then talk to Loramus Thalipedes.|
 A The Final Ritual|QID|26170|M|62.60,26.06|N|From Kasim Sharim.|
 C The Final Ritual|QID|26170|M|62.46,26.03|N|Talk to Kasim and choose to do the ritual. Wait a moment then talk to Loramus.|
@@ -187,7 +192,7 @@ H Nethergarde Keep|QID|26171|U|56012|N|Hearth to Nethergarde Keep, or if you wis
 r Sell junk, repair/restock.|QID|26171|
 R The Dark Portal|QID|26171|M|53.7,42.85|N|Run to The Dark Portal.|
 T You Are Rakh'likh, Demon|QID|26171|M|54.98,49.59|N|To Watcher Grimeo.|
-R Surwich|QID|26175|M|53.61,41.96;62.98,40;68.22,45.45;71.95,56.88;66.28,65.47;57.46,70.17;50.16,78.33;47.17,85.47|N|Follow the waypoints to Surwich.|
+R Surwich|QID|26175|M|53.61,41.96;62.98,40;68.22,45.45;71.95,56.88;66.28,65.47;57.46,70.17;50.16,78.33;47.17,85.47|CC|N|Follow the waypoints to Surwich.|
 T Surwich|QID|26175|M|46.41,87.09|N|To Mayor Charlton Connisport.|
 
 A Wormthorn's Dream|QID|26184|M|46.41,87.09|N|From Mayor Charlton Connisport.|

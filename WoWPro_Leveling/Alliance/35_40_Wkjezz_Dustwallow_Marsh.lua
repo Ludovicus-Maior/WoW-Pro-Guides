@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2013-01-13 14:54
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3241/revisions/24557/view
 -- Date: 2011-06-18 17:24
 -- Who: Ludovicus Maior
 -- Log: ! Line 193 for step R has unknown tag [Talk to Jaina to be ported to Stormwind.]: [R Stormwind City|QID|27240|M|66.26,49.05|Talk to Jaina to be ported to Stormwind.|]
@@ -163,7 +168,7 @@ R Scale the Cliffs|QID|27235||NC|CC|M|62.04,38.56|N|Run to this point and carry 
 C Mudrock Soup and Bugs|QID|1204|US|M|61.85,24.26|N|Work your way North along the shore. They are pleanty in the Sea too.|
 T Renn McGill|QID|27235|M|63.70,16.97|N|To Renn McGill.|
 A Secondhand Diving Gear|QID|27236|M|63.68,16.97|N|From Renn McGill.|
-C Secondhand Diving Gear|QID|27236|M|63.06,18.63;62.31,18.86;61.69,18.21|N|Pick up the Tool Kit and the Damaged Diving Gear, they could be at any of the waypoints.|
+C Secondhand Diving Gear|QID|27236|M|63.06,18.63;62.31,18.86;61.69,18.21|CN|N|Pick up the Tool Kit and the Damaged Diving Gear, they could be at any of the waypoints.|
 T Secondhand Diving Gear|QID|27236|M|63.73,17.03|N|To Renn McGill.|
 A Recover the Cargo!|QID|27237|M|63.73,17.03|N|From Renn McGill.|
 U Open the supplies bag.|QID|27237|U|33045|L|33040|
@@ -263,7 +268,7 @@ A The Grimtotem Weapon|QID|27336|M|46.03,57.20|N|From Apprentice Garion.|
 T The Reagent Thief|QID|27339|M|46.03,57.20|N|To Apprentice Garion.|
 C The Grimtotem Weapon|QID|27336|U|33101|M|39.28,52.52|N|Anywhere in the Quagmire. Drop your totem and kill Mottled crocolisks (Make sure it has the debuff on it first or it will not count.). Don't let your pets get the killing blow.|
 C Direhorn Raiders|QID|27340|S|M|47.22,49.39|N|Kill any combination of Direhorn Grimtotems.|
-C Raze Direhorn Post!|QID|27429|U|33072|M|46.63,46.09;47.24,46.59;47.35,47.49|N|Burn the tents where the waypoints are, you need to be either inside the tents, or just at the entrance.|
+C Raze Direhorn Post!|QID|27429|U|33072|M|46.63,46.09;47.24,46.59;47.35,47.49|CN|N|Burn the tents where the waypoints are, you need to be either inside the tents, or just at the entrance.|
 C Direhorn Raiders|QID|27340|US|M|46.66,48.93|N|Kill any combination of Direhorn Grimtotems.|
 T Direhorn Raiders|QID|27340|M|46.12,57.43|N|To Apprentice Morlann.|
 T The Grimtotem Weapon|QID|27336|M|45.98,57.16|N|To Apprentice Garion.|

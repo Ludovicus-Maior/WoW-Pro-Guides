@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2013-01-13 14:53
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3419/revisions/24987/view
 -- Date: 2012-05-27 18:40
 -- Who: Ludovicus Maior
 -- Log: Added REP tags, a few coord fixes and redirected a quest to the right NPC.
@@ -37,11 +42,11 @@ A Glop, Son of Glop|QID|28391;28390|M|59.60,14.05|REP|Therazane;1171;revered|N|F
 C The Restless Brood|QID|28391|U|60266|M|32.83,24.78|N|Use the mallet on the crystal. Click the rocks above you to hop from rock to rock. Move to a new rock when the Broodmother breathes fire on your rock. If you see a nearby rock with a glowing bubble on it, move there. If you complete this quest in under 90 seconds, you will get an achievement. The timer starts from when you hit the resonating crystal and ends when you actually turn the quest in.|
 T The Restless Brood|QID|28391|M|39.98,19.37|N|To Terrath the Steady. Hurry if you are going for the achievement.|
 
-F Crumbling Depths|QID|27047|M|58.46,25.57;61.32,29.20|N|Head into the cave.|
+F Crumbling Depths|QID|27047|M|58.46,25.57;61.32,29.20|CC|N|Head into the cave.|
 C Fear of Boring|QID|27046|S|M|58.35,25.56|N|Kill gyreworms in and around the Crumbling Depths.|
 C Motes|QID|27047|NC|S|M|66.43,20.61|N|Gather painite motes inside the Crumbling Depths.|
 A Underground Economy|QID|27048;28488;26710|M|61.38,26.16|N|From Ricket.|
-C Beneath the Surface|QID|28488|M|58.46,25.57;61.32,29.20;66.07,28.13;59.80,23.63;64.40,15.11;68.23,21.67;67.08,24.65|N|These are found in side tunnels.  Look on your minimap for a skull. When you find one, click it and kill the worm that appears, being sure to dodge it's attacks. Loot it when you are done.|
+C Beneath the Surface|QID|28488|M|58.46,25.57;61.32,29.20;66.07,28.13;59.80,23.63;64.40,15.11;68.23,21.67;67.08,24.65|CN|N|These are found in side tunnels.  Look on your minimap for a skull. When you find one, click it and kill the worm that appears, being sure to dodge it's attacks. Loot it when you are done.|
 C Deep Alabaster Crystal|QID|27048|NC|QO|Deep Alabaster Crystal: 3/3|N|Head to the center chamber. Use your bombs on the large square blocks of white stone.|M|63.43,24.83|
 C Deep Celestite Crystal|QID|27048|NC|QO|Deep Celestite Crystal: 3/3|N|Use your bombs on the large square blocks of blue stone.|M|62.16,19.63|
 C Deep Amethyst Crystal|QID|27048|NC|QO|Deep Amethyst Crystal: 3/3|N|Use your bombs on the large square blocks of purple stone|M|64.68,18.17|
@@ -57,7 +62,7 @@ C Glop, Son of Glop|QID|28390|M|69.75,31.74|N|Head to the first fork in the tunn
 F Crimson Expanse|QID|27049|M|69.42,33.14|N|Get out of the cave and fly up to the Crimson Expanse.|
 C Soft Rock|QID|27049|S|M|70.82,32.43|N|Kill the Fungal Behemoths in the area.|
 C Fungal Fury|QID|27050|NC|S|M|69.43,33.90|N|Loot mushrooms. There are four types: red, brown, blue, and purple with red spots. Avoid the last kind unless you are going for the achievement, and then make sure to do it last. The achievement requires you to loot one of each type within 2 minutes|
-C Through Persistence|QID|27051|M|70.64,29.98;74.41,32.65|N|Kill and loot troggs in the area until you find the Miracle-Grow. The can be found mostly along the edges of the area.|
+C Through Persistence|QID|27051|M|70.64,29.98;74.41,32.65|CN|N|Kill and loot troggs in the area until you find the Miracle-Grow. The can be found mostly along the edges of the area.|
 C Fungal Fury|QID|27050|US|M|69.43,33.90|N|Loot mushrooms. There are four types: red, brown, blue, and purple with red spots. Avoid the last kind unless you are going for the achievement, and then make sure to do it last. The achievement requires you to loot one of each type within 2 minutes|
 C Soft Rock|QID|27049|US|M|70.82,32.43|N|Kill the Fungal Behemoths in the area.|
 

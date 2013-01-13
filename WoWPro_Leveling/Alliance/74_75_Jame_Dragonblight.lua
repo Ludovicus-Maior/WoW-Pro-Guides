@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2013-01-13 14:37
+-- Who: Ludovicus Maior
+-- Log: Added CC tag
+
+-- URL: http://wow-pro.com/node/3291/revisions/25365/view
 -- Date: 2013-01-12 18:52
 -- Who: Ludovicus Maior
 -- Log: Added CN and CS tags
@@ -232,7 +237,7 @@ T Strengthen the Ancients |QID|12092|N|To Sarendryana.|M|28.80,57.10|
 T Atop the Woodlands |QID|12083|N|To the Image of Archmage Modera.|M|29.00,55.50|
 A Search Indu'le Village |QID|12098|M|29.0,55.5|N|To the Image of Archmage Modera.|
 
-F Moa'ki Harbor |QID|11960|N|Fly to Moa'ki Harbor. If you don't have that flight path, just ride there.|M|29.19,55.33;48.47,74.41|
+F Moa'ki Harbor |QID|11960|N|Fly to Moa'ki Harbor. If you don't have that flight path, just ride there.|M|29.19,55.33;48.47,74.41|CC|
 A Planning for the Future |QID|11960|N|From Trapper Mau'i.|M|48.30,74.30|
 h Moa'ki Harbor |QID|11960|N|Make this inn your home location.|
 A Let Nothing Go To Waste |QID|11958|N|From Elder Ko'nani.|M|48.10,74.90|

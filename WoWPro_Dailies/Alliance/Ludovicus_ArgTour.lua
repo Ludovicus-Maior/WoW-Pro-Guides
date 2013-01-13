@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2013-01-13 14:31
+-- Who: Ludovicus Maior
+-- Log: Added CC and CN tag
+
+-- URL: http://wow-pro.com/node/3476/revisions/25358/view
 -- Date: 2013-01-12 18:32
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -184,7 +189,7 @@ C A Leg Up|QID|14074|M|43.80,24.10;51.90,28.20;53.90,19.10;43.45,33.90;53.45,17.
 C Stop The Aggressors|QID|14080|M|54.20,21.60;55.20,15.20;52.40,15.55;43.45,33.75;43.42,26.98;56.20,17.80;48.59,33.11;49.45,30.43;54.60,24.93;52.75,26.20;56.70,21.73;42.92,30.90;54.88,19.59;45.53,33.48|Z|Hrothgar's Landing|CN|N|Kill Kvaldir.|
 C The Light's Mercy|QID|14077|M|53.20,17.40;55.20,16.00;57.00,20.60;55.50,25.20;44.90,31.50;43.60,29.65;50.60,15.30;43.15,27.60;54.85,18.67;44.30,34.40;52.67,26.92;54.35,23.08;50.26,29.29;57.10,23.70;42.60,32.32;47.77,32.54|Z|Hrothgar's Landing|CN|N|Administer last rites by using your book near slain Tualiq Villagers.|U|46870|
 
-C You've Really Done It This Time, Kul|QID|14096|M|64.40,21.60;61.71,21.16;60.8,23.0|N|N|Kill the cultists, loot keys and rescue silly Kul and his buddies.|
+C You've Really Done It This Time, Kul|QID|14096|M|64.40,21.60;61.71,21.16;60.8,23.0|CC|N|Kill the cultists, loot keys and rescue silly Kul and his buddies.|
 
 C Threat From Above|QID|13788;13682|M|45.58,32.23;45.22,34.30|CN|N|Defeat Chillmaw and 3 Cultist Bombardiers.|
 
@@ -195,7 +200,7 @@ C At The Enemy's Gates|QID|13855;13847;13854|M|49.00, 71.40|N|Mount up. Run over
 C Battle Before The Citadel|QID|13864;13861|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders. |
 
 C A Blade Fit For A Champion|QID|13757;13603;13752|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
-C A Worthy Weapon|QID|13758;13600;13753|M|68.75,76.38;72.62,73.12;70.56,74.71|L|45000 4|N|Pick flowers along the Ironwall Dam.|
+C A Worthy Weapon|QID|13758;13600;13753|M|68.75,76.38;72.62,73.12;70.56,74.71|L|45000 4|CN|N|Pick flowers along the Ironwall Dam.|
 C A Worthy Weapon|QID|13758;13600;13753|M|93,26|Z|Dragonblight|U|45000|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
 C The Edge Of Winter|QID|13759;13616;13754|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
 C The Edge Of Winter|QID|13759;13616;13754|M|42.19,19.66|Z|Howling Fjord|N|Find the maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|

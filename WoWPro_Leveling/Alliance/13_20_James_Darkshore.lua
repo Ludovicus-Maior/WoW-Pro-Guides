@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2013-01-13 15:33
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3218/revisions/25001/view
 -- Date: 2012-06-08 14:11
 -- Who: Ludovicus Maior
 -- Log: Update P tag to include prof #.
@@ -131,15 +136,15 @@ A No Accounting for Taste|QID|13527|M|53.23,19.58|N|From Buzzbox 413.|
 C No Accounting for Taste|QID|13527|M|55.05,20.95|N|Loot the Decomposing Thistle Bear.|NC|
 T No Accounting for Taste|QID|13527|M|51.18,19.59|N|To Wizbang Cranktoggle.|
 A Buzzbox 723|QID|13528|M|51.18,19.59|N|From Wizbang Cranktoggle.|
-C Buzzbox 723|QID|13528|M|55.64,25.15;54.89,27.76|N|Kill Corrupted Thistle Bears.|
+C Buzzbox 723|QID|13528|M|55.64,25.15;54.89,27.76|CN|N|Kill Corrupted Thistle Bears.|
 T Buzzbox 723|QID|13528|M|54.19,29.21|N|To Buzzbox 723.|
 A A Cure In The Dark|QID|13554|M|54.19,29.21|N|From Buzzbox 723.|
-A The Corruption's Source|QID|13529|M|56.23,27.35;56.81,30.04|N|From Tharnariun Treetender.|
+A The Corruption's Source|QID|13529|M|56.23,27.35;56.81,30.04|CC|N|From Tharnariun Treetender.|
 C The Corruption's Source|QID|13529|M|58.75,32.64|N|Kill Vile Grells on the way.|S|
 l Corruptor's Master Key|QID|13557|L|44927|N|Enter the waterfall, and kill Vile Corruptors until one drops the Corruptor's Master Key.|
 A Bearer of Good Fortune|QID|13557|U|44927|M|57.02,31.46|N|Right click the Corruptor's Master Key to accept the quest.|
 C Bearer of Good Fortune|QID|13557|M|57.50,32.41|N|Open the cages on the way.|S|NC|
-A A Troubling Prescription|QID|13831|M|56.78,33.47;57.37,33.80|N|From the Disgusting Workbench on lower level, first cave on left as you come down the ramp.|
+A A Troubling Prescription|QID|13831|M|56.78,33.47;57.37,33.80|CS|N|From the Disgusting Workbench on lower level, first cave on left as you come down the ramp.|
 K Zenn Foulhoof|QID|13529|M|58.75,32.64|QO|Zenn Foulhoof slain: 1/1|N|Kill Zenn Foulhoof, you can locate him easily on your minimap by tracking the skull.|
 C Bearer of Good Fortune|QID|13557|M|57.50,32.41|N|Open cages until you finish the quest.|US|NC|
 C The Corruption's Source|QID|13529|M|58.75,32.64|N|Kill Vile Grells until you finish the quest.|US|
@@ -180,7 +185,7 @@ C Unsavory Remedies|QID|13598|M|49.15,40.55|N|Loot Fuming Toadstools on the way.
 C Twice Removed|QID|13565|U|45911|M|48.60,40.81|N|Use your Petrified Root everytime you kill a Darkscale Scout.|U|45911|
 C Unsavory Remedies|QID|13598|M|49.15,40.55|N|Loot Fuming Toadstools.|US|NC|
 l Thistle Bear Fur|QID|13566|M|48.88,37.95|L|45885 3|N|Wait until a Hungry Thistle Bear catches a fish, then click on it to get the fur.|
-C Ritual Materials|QID|13566|M|42.68,40.68;41.70,39.07|N|Right-click 3 Moonstalkers.|
+C Ritual Materials|QID|13566|M|42.68,40.68;41.70,39.07|CN|N|Right-click 3 Moonstalkers.|
 T Unsavory Remedies|QID|13598|M|42.96,39.11|N|To Keeper Karithus.|
 T Ritual Materials|QID|13566|M|42.96,39.11|N|To Keeper Karithus.|
 T Twice Removed|QID|13565|M|42.88,39.01|N|To Seraphine.|
@@ -249,7 +254,7 @@ T The Looting of Althalaxx|QID|13844|M|59.25,19.59|N|To Mathas Wildwood.|
 
 R Shatterspear Vale|QID|13508|M|58.58,20|N|Talk to the Nightsaber Rider and choose to travel to Shatterspear Vale.|
 A The Ancients' Ire|QID|13514|M|69.13,19.20|N|From Kerlonian Evershade.|
-C The Ancients' Ire|QID|13514|M|69.44,19.54;70.26,20.33;71.05,17.89;70.67,17.07|N|Climb on an Vengeful Protector, follow the arrows while completing the quest.|
+C The Ancients' Ire|QID|13514|M|69.44,19.54;70.26,20.33;71.05,17.89;70.67,17.07|CS|N|Climb on an Vengeful Protector, follow the arrows while completing the quest.|
 T The Front Line|QID|13590|M|72.23,19.06|N|Leave the vehicle once you reach the location. Turn in to Huntress Sandrya Moonfall.|
 A Ending the Threat|QID|13515|M|72.23,19.06|N|From Huntress Sandrya Moonfall.|
 C Ending the Threat|QID|13515|M|72.21,19.06|N|Talk to Huntress Sandrya Moonfall and tell her you're ready, then help her kill Jor'kil the Soulripper. Loot Hellscream's Missive.|

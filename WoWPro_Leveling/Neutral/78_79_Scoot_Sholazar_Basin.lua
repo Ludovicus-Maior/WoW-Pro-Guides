@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2013-01-13 16:16
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3297/revisions/25310/view
 -- Date: 2013-01-09 22:35
 -- Who: Ludovicus Maior
 -- Log: Added CS and CN tags
@@ -210,7 +215,7 @@ T Flown the Coop! |QID|12532|N|To Elder Harkek.|M|55.5,69.7|
 A The Underground Menace |QID|12531|N|From Elder Harkek.|M|55.5,69.7|
 A Mischief in the Making |QID|12535|N|From High-Shaman Rakjak.|M|55.0,69.1|
 C Mischief in the Making |QID|12535|N|Gather crystals as you go along.|U|38621|M|56.6,84.6|S|
-C The Underground Menace |QID|12531|N|Head South to the Wintergrasp River. Look up and down it between the waypoints for the disturbed ground: that is a sign of an underground worm.|U|38621|M|49.99,85.77;58.56,84.27|
+C The Underground Menace |QID|12531|N|Head South to the Wintergrasp River. Look up and down it between the waypoints for the disturbed ground: that is a sign of an underground worm.|U|38621|M|49.99,85.77;58.56,84.27|CN|
 C Mischief in the Making |QID|12535|N|Get the rest of the crystals.|U|38621|M|56.6,84.6|US|
 T The Underground Menace |QID|12531|N|To High-Shaman Rakjak, on Frenzyheart Hill.|M|55.00,69.16|
 T Mischief in the Making |QID|12535|N|To High-Shaman Rakjak.|M|55.0,69.1|

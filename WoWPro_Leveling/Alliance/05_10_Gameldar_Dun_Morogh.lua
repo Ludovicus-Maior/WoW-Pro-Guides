@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2013-01-13 14:33
+-- Who: Ludovicus Maior
+-- Log: Added a CS tag
+
+-- URL: http://wow-pro.com/node/3200/revisions/25359/view
 -- Date: 2013-01-12 18:36
 -- Who: Ludovicus Maior
 -- Log: Added some CS and CN tags

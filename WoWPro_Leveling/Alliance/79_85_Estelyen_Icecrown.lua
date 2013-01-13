@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2013-01-13 16:23
+-- Who: Ludovicus Maior
+-- Log: corrected CN
+
+-- URL: http://wow-pro.com/node/3301/revisions/25383/view
 -- Date: 2013-01-12 20:50
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -516,7 +521,7 @@ T New Recruit|QID|13143|N|To Vereth the Cunning.|M|54.00,71.00|
 A The Vile Hold|QID|13145|N|From Vereth the Cunning.|
 R Malykriss: The Vile Hold|QID|13145|N|Use the Eye of Dominion just up the road behind Vereth the Cunning, then move the Lithe Stalker east to Malykriss.|M|55.46,73.76|
 N Altar of Sacrifice explored|QID|13145|QO|Altar of Sacrifice explored: 1/1|N|Climb up the wall at the first waypoint using 'Leap' (ability #1). Then head to the second one to examine the Altar.|M|57.64,76.01;56.3,79.1|CS|
-N Icy Lookout explored|QID|13145|QO|Icy Lookout explored: 1/1|N|Scout the Icy Lookout. Just walk down the road.|M|55.75,73.67;56.28,69.18;60.6,68.7|CS
+N Icy Lookout explored|QID|13145|QO|Icy Lookout explored: 1/1|N|Scout the Icy Lookout. Just walk down the road.|M|55.75,73.67;56.28,69.18;60.6,68.7|CS|
 N Blood Forge explored|QID|13145|QO|Blood Forge explored: 1/1|N|Scout the Blood Forge. Leap down into Malykriss then head to the waypoint. |M|58.1,70.9|
 C The Vile Hold|QID|13145|N|Scout the Runeworks.|M|59.1,74.4|
 T The Vile Hold|QID|13145|N|To Vereth the Cunning.|M|54.00,71.00|

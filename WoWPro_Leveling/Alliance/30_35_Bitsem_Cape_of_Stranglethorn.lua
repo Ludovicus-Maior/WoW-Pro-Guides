@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2013-01-13 15:43
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3237/revisions/24866/view
 -- Date: 2011-12-13 22:09
 -- Who: Fluclo
 
@@ -87,11 +92,11 @@ A Dask "The Flask" Gobfizzle|QID|26825|M|55.12,42.44|N|From Bronwyn Hewstrike.|L
 T Dask "The Flask" Gobfizzle|QID|26825|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|O|
 T Dask "The Flask" Gobfizzle|QID|26826|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|O|
 
-A Too Big For His Britches|QID|26823|PRE|26825|M|52.28,36.20;55.43,27.84;55.31,41.93|N|From Dask "The Flask" Gobfizzle.|
+A Too Big For His Britches|QID|26823|PRE|26825|M|55.31,41.93|N|From Dask "The Flask" Gobfizzle.|
 A Good-Fer-Nothin' Slither-Dogs|QID|26822|RANK|2|M|54.76,41.86|N|From Goris.|
 
 C Good-Fer-Nothin' Slither-Dogs|QID|26822|S|M|44.50,19.02|N|Kill Stranglethorn Basilisks on your way to Ironjaw Behemoth.|
-C Too Big For His Britches|QID|26823|M|52.27,36.18;54.62,27.77;66.13,27.50|N|Head inside the cave, kill and loot an Ironjaw Behemoth.|
+C Too Big For His Britches|QID|26823|M|52.27,36.18;54.62,27.77;66.13,27.50|CS|N|Head inside the cave, kill and loot an Ironjaw Behemoth.|
 C Good-Fer-Nothin' Slither-Dogs|QID|26822|US|M|60.83,28.24|N|Finish killing Basilisks.|
 
 T Too Big For His Britches|QID|26823|M|55.21,41.99|N|To Dask "The Flask" Gobfizzle.|
@@ -106,11 +111,11 @@ A If They're Just Going to Leave Them Lying Around...|QID|26820|PRE|26823|M|55.3
 T Good-Fer-Nothin' Slither-Dogs|QID|26822|M|55.05,42.41|N|To Goris.|
 
 C Akiris by the Bundle|QID|26819|S|M|39.69,45.63|N|Kill the Nagas for Akiris weed.|
-C If They're Just Going to Leave Them Lying Around...|QID|26820|M|38.73,49.91;37.31,52.82|N|Pick up Naga Icons.|NC|S|
-C Perfectly Pure|QID|26817|M|44.55,42.39;41.02,44.32;41.34,50.63;43.88,49.00|N|Go to the top of the big hill, cross the bridge and loot Pure Water from the spring.|NC|
+C If They're Just Going to Leave Them Lying Around...|QID|26820|M|38.73,49.91;37.31,52.82|CN|N|Pick up Naga Icons.|NC|S|
+C Perfectly Pure|QID|26817|M|44.55,42.39;41.02,44.32;41.34,50.63;43.88,49.00|CC|N|Go to the top of the big hill, cross the bridge and loot Pure Water from the spring.|NC|
 C If They're Just Going to Leave Them Lying Around...|QID|26820|M|37.31,52.82|N|Pick up Naga Icons.|NC|US|
 C Akiris by the Bundle|QID|26819|US|M|39.69,45.63|N|Finish killing Naga.|
-C Plush Pelts|QID|26818|M|40.04,30.65;50.88,9.12|N|Head north to get the Stranglethorn Tigresses and Elder Shadowmaw Panthers for the fur.|
+C Plush Pelts|QID|26818|M|40.04,30.65;50.88,9.12|CN|N|Head north to get the Stranglethorn Tigresses and Elder Shadowmaw Panthers for the fur.|
 
 T Perfectly Pure|QID|26817|M|55.22,41.86|N|To Dask "The Flask" Gobfizzle.|
 A Zanzil's Secret|QID|26815|PRE|26817|M|55.22,41.86|N|From Dask "The Flask" Gobfizzle (give him a couple of seconds to have quest available).|
@@ -126,10 +131,10 @@ T Maywiki|QID|26808|M|55.62,42.22|N|To Maywiki (hiding behind the crates next to
 
 A Backdoor Dealings|QID|26809|PRE|26808|M|55.68,42.14|N|From Maywiki.|
 C Zanzil's Secret|QID|26815|S|M|42.18,32.75|N|Kill Zanzil mobs.  Be careful, as they will heal if they get close to another dead Zanzil.|
-C Backdoor Dealings|QID|26809|M|52.27,36.20;52.22,32.80;54.18,31.45|N|Click on the Totem, then select Place the Incense.  You will be flown to the Ruins of Aboraz, watch the dialogue until the quest completes and you are returned to the Ruins of Jubuwal.|NC|
+C Backdoor Dealings|QID|26809|M|52.27,36.20;52.22,32.80;54.18,31.45|CS|N|Click on the Totem, then select Place the Incense.  You will be flown to the Ruins of Aboraz, watch the dialogue until the quest completes and you are returned to the Ruins of Jubuwal.|NC|
 C Zanzil's Secret|QID|26815|US|M|53.23,31.23|N|Finish killing Zanzil mobs for Zanzil's Mixtures.|
 
-T Zanzil's Secret|QID|26815|M|52.27,36.20;55.24,41.90|N|To Dask "The Flask" Gobfizzle.|
+T Zanzil's Secret|QID|26815|M|52.27,36.20;55.24,41.90|CC|N|To Dask "The Flask" Gobfizzle.|
 A Recipe for Disaster|QID|26816|PRE|26815|M|55.24,41.90|N|From Dask "The Flask" Gobfizzle.|S|
 A Results: Inconclusive|QID|26824|PRE|26815|M|55.24,41.90|N|From Dask "The Flask" Gobfizzle.|
 A Recipe for Disaster|QID|26816|PRE|26815|M|55.24,41.90|N|From Dask "The Flask" Gobfizzle.|US|
@@ -140,7 +145,7 @@ A Eliminate the Outcast|QID|26810|PRE|26809|M|55.72,42.20|N|From Maywiki.|
 
 L Level 30 |QID|26810|N|You need to be Level 30 to continue with this guide.|LVL|30|
 C Recipe for Disaster|QID|26816|S|M|62.27,41.98|N|Kill Zanzil Witchdoctors for the Formulation.|
-A Message in a Bottle|QID|26603|M|57.36,39.64;62.41,46.70|N|From the Half-Buried Bottle on the coast.|
+A Message in a Bottle|QID|26603|M|57.36,39.64;62.41,46.70|CN|N|From the Half-Buried Bottle on the coast.|
 C Recipe for Disaster|QID|26816|US|M|62.27,41.98|N|Kill Zanzil Witchdoctors for the Formulation.|
 C Eliminate the Outcast|QID|26810|U|60374|M|61.15,44.61|N|Head to right next to the green portal.|NC|
 T Eliminate the Outcast|QID|26810|M|61.15,44.61|N|(UI Alert)|
@@ -166,7 +171,7 @@ T Recipe for Disaster|QID|26816|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|
 F Booty Bay |QID|26821|N|Fly to Booty Bay.|
 h Booty Bay|QID|26821|M|40.93,73.79|N|At Innkeeper Skindle.|
 T Airwyn Bantamflax|QID|26821|M|42.49,73.15|N|To Airwyn Bantamflax.|
-T Message in a Bottle|QID|26603|M|42.38,67.76;45.00,65.96;59.43,79.24|N|To Princess Poobah on Jaguero Isle.|
+T Message in a Bottle|QID|26603|M|42.38,67.76;45.00,65.96;59.43,79.24|CC|N|To Princess Poobah on Jaguero Isle.|
 
 A Protecting Her Royal Highness Poobah|QID|26604|PRE|26603|M|59.43,79.24|N|From Princess Poobah.|
 C Protecting Her Royal Highness Poobah|QID|26604|M|58.07,84.56|N|Slay 5 Jaguero Stalkers.|
@@ -183,7 +188,7 @@ T Mukla's Demise|QID|26606|M|59.44,79.11|N|To Princess Poobah.|
 L Level 31 |QID|26609|N|You need to be Level 31 to continue with this guide.|LVL|31|
 H The Salty Sailor Tavern |QID|26609|N|Hearthstone to The Salty Sailor Tavern in Booty Bay.|
 
-A Scaring Shaky|QID|26593|M|40.97,74.32;42.05,73.46|N|From "Sea Wolf" MacKinley.|
+A Scaring Shaky|QID|26593|M|40.97,74.32;42.05,73.46|CC|N|From "Sea Wolf" MacKinley.|
 A Stranglethorn Fever|QID|26597|M|41.88,72.81|N|From Fin Fizracket.|
 A The Bloodsail Buccaneers|QID|26609|M|42.66,71.96|N|From First Mate Crazz.|
 A The Captain's Chest|QID|26599|M|40.33,67.87|N|From Captain Hecklebury Smotts.|
@@ -191,15 +196,15 @@ A The Captain's Chest|QID|26599|M|40.33,67.87|N|From Captain Hecklebury Smotts.|
 ;f Booty Bay|QID|26593|NC|M|41.64,74.47|N|Get the Booty Bay flight path.|
 
 K "Good-Boy" Bruce |QID|26617|L|59143|M|41.35,61.23|N|Kill and loot "Good-Boy" Bruce.|S|
-T The Bloodsail Buccaneers|QID|26609|M|42.33,67.89;45.06,65.75;41.35,61.16|N|To Bloodsail Correspondence on the Southern Savage Coast.|
+T The Bloodsail Buccaneers|QID|26609|M|42.33,67.89;45.06,65.75;41.35,61.16|CN|N|To Bloodsail Correspondence on the Southern Savage Coast.|
 A Bloodsail Treachery|QID|26610|PRE|26609|M|41.35,61.16|N|From Bloodsail Correspondence.|
 K "Good-Boy" Bruce |QID|26617|L|59143|M|41.35,61.23|N|Kill and loot "Good-Boy" Bruce.|US|
 A An Old Sea Dog|QID|26617|U|59143|N|Accept this quest from the Weather-Beaten Coin.|
 
-C The Captain's Chest|QID|26599|M|52.39,64.68;55.9,63.43|N|Kill Gorlash (He wanders around the two waypoints, normally in the water), and loot Smotts' Chest.|
+C The Captain's Chest|QID|26599|M|52.39,64.68;55.9,63.43|CN|N|Kill Gorlash (He wanders around the two waypoints, normally in the water), and loot Smotts' Chest.|
 C Scaring Shaky|QID|26593|S|M|51,53|N|From now on kill Elder Mistvale Gorillas for Giblets.|
 l Gorilla Fang|QID|26597|M|51,53|N|Kill and loot Gorillas until you get a Gorilla Fang.|L|2799|
-R Spirit Den|QID|26597|M|52.28,52.12;53.28,49.01;54.00,46.69|N|Follow the waypoints to the cave.|
+R Spirit Den|QID|26597|M|52.28,52.12;53.28,49.01;54.00,46.69|CS|N|Follow the waypoints to the cave.|
 C Stranglethorn Fever|QID|26597|L|2797|N|Hand over the Gorilla Fang to Witch Doctor Unbagwam.  This will then summon an Enraged Silverback Gorilla, then Konda, then Mokk the Savage.  Kill them, and loot Mokk the Savage for his heart.|
 C Scaring Shaky|QID|26593|US|M|51,53|N|Finish killing Gorillas for Giblets.|
 
@@ -225,18 +230,18 @@ T Return to MacKinley|QID|26594|M|41.99,73.47|N|To "Sea Wolf" MacKinley.|
 A Kill-Collect|QID|26595|PRE|26594|M|41.99,73.47|N|From "Sea Wolf" MacKinley.|
 B Crate of Pupellyverbos Port|QID|26600|M|41.01,73.98|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern.|L|59037|
 B Crate of Grade-E Meat|QID|26600|M|42.77,69.02|N|Buy a Crate of Grade-E Meat from Kelsey Yance at The Old Port Authority.|L|59036|
-C A Giant's Feast|QID|26600|NC|M|41.01,73.98;42.78,69.11|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern. and a Crate of Grade-E Meat from Kelsey Yance at The Old Port Authority.|
+C A Giant's Feast|QID|26600|NC|M|41.01,73.98;42.78,69.11|CN|N|Buy a Crate of Pupillyverbos Port from Whiskey Slim inside the Tavern. and a Crate of Grade-E Meat from Kelsey Yance at The Old Port Authority.|
 T A Giant's Feast|QID|26600|M|40.37,67.86|N|To Captain Hecklebury Smotts.|
 A A Dish Best Served Huge|QID|26602|PRE|26600|M|40.37,67.86|N|From Captain Hecklebury Smotts.|
 
-K Freewheelin' Juntz Fitztittle|QID|26595|L|59034|M|56.50,57.89;56.79,53.75|N|Kill Freewheelin' while he runs between these to towers. Loot his wrench.|
+K Freewheelin' Juntz Fitztittle|QID|26595|L|59034|M|56.50,57.89;56.79,53.75|CN|N|Kill Freewheelin' while he runs between these to towers. Loot his wrench.|
 K Ephram "Midriff" Moonfall|QID|26595|L|59035|M|56.12,49.73|N|Talk to "Midriff", he'll attack you. Kill him and loot his Mirror.|
 C Kill-Collect|QID|26595|L|3924|M|59.55,49.16|N|Kill Maury "Clubfoot" Wilkins. Loot his Clubbed Foot.|
 
 C Keep An Eye Out|QID|26614|M|43.16,81.72|N|Kill and loot Bloodsail mobs until this drops.|S|
 C Up to Snuff|QID|26613|M|41.17,82.64|N|Kill and loot Bloodsail mobs until you get 15 Snuff.|S|
 C A Dish Best Served Huge|QID|26602|QO|Negolash slain: 1/1|M|49.68,81.16|N|Activate the Life Boat. Put in the food. Wait for Negolash to appear. Kill him!|
-C Details of the Attack|QID|26612|M|45.09,79.59;42.08,83.04;41.12,82.55|N|The Orders and the Charts can be at any of the waypoints. Don't forget to kill the Bloodsail mobs needed.|
+C Details of the Attack|QID|26612|M|45.09,79.59;42.08,83.04;41.12,82.55|CN|N|The Orders and the Charts can be at any of the waypoints. Don't forget to kill the Bloodsail mobs needed.|
 C Keep An Eye Out|QID|26614|M|43.16,81.72|N|Kill and loot Bloodsail mobs until this drops.|US|
 C Up to Snuff|QID|26613|M|41.17,82.64|N|Kill and loot Bloodsail mobs until you get 15 Snuff.|US|
 
@@ -252,10 +257,10 @@ T A Dish Best Served Huge|QID|26602|M|40.37,67.84|N|To Captain Hecklebury Smotts
 
 A Mok'rash the Cleaver|QID|26601|PRE|26602|M|40.37,67.84|N|From Captain Hecklebury Smotts.|
 C Mok'rash the Cleaver|QID|26601|M|35.15,65.70|N|Swim West to the Island. Kill Mok'rash.|
-T Mok'rash the Cleaver|QID|26601|M|41.80,72.82;40.33,67.85|N|To Captain Hecklebury Smotts.|
+T Mok'rash the Cleaver|QID|26601|M|41.80,72.82;40.33,67.85|CC|N|To Captain Hecklebury Smotts.|
 
-T Getting In With the Bloodsail|QID|26624|M|45.81,65.48;45.45,56.16;43.84,56.46|N|Up the path to Yancey Grillsen.|
-A Seeing Where Your Loyalties Lie|QID|26629|PRE|26624|M|45.81,65.48;43.84,56.46|N|From Yancey Grillsen.|
+T Getting In With the Bloodsail|QID|26624|M|45.81,65.48;45.45,56.16;43.84,56.46|CS|N|Up the path to Yancey Grillsen.|
+A Seeing Where Your Loyalties Lie|QID|26629|PRE|26624|M|45.81,65.48;43.84,56.46|CC|N|From Yancey Grillsen.|
 A Looks Like a Tauren Pirate to Me|QID|26630|M|41.14,73.25|N|From Fleet Master Seahorn.|
 
 l Cow Head|QID|26630|L|59147|M|43.24,71.67|N|Go upstairs and talk to Bossy the Cow.|
@@ -263,10 +268,10 @@ l Oversized Pirate Hat|QID|26630|L|59148|M|42.72,69.13|N|Talk to Narkk at The Ol
 C Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|N|Take the Head and Hat to the Fleetmaster.|NC|
 T Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|N|To Fleet Master Seahorn.  It will be a few seconds from handing the Head and Hat to him before he will allow you to finish the quest.|
 
-T Seeing Where Your Loyalties Lie|QID|26629|M|42.39,67.65;45.81,5.4;43.85,56.34|N|To Yancey Grillsen.|
+T Seeing Where Your Loyalties Lie|QID|26629|M|42.39,67.65;45.81,5.4;43.85,56.34|CS|N|To Yancey Grillsen.|
 A Your First Day as a Pirate|QID|26631|PRE|26629|M|43.85,56.34|N|From Yancey Grillsen.|
 
-T Your First Day as a Pirate|QID|26631|M|50,68;45.03,93.29;44.41,91.61|N|To Captain Keelhaul, in the right-hand ship of Wild Shore.|
+T Your First Day as a Pirate|QID|26631|M|50,68;45.03,93.29;44.41,91.61|CC|N|To Captain Keelhaul, in the right-hand ship of Wild Shore.|
 A Swabbing Duty|QID|26633|PRE|26631|M|44.41,91.61|N|From Captain Keelhaul.|
 A Cannonball Swim|QID|26635|M|44.53,92.92|N|From "Pretty Boy" Duncan, back up on deck.|
 C Swabbing Duty|QID|26633|M|44.73,92.84|N|Grab a mop up on deck and activate the globs of goo as they appear. Or if you're lazy, pay Duncan a gold to do it for you.|NC|
@@ -333,7 +338,7 @@ A The Damsel's (Bad) Luck|QID|26700|PRE|26698|M|41.55,73.00|N|From Fleet Master 
 A Turning the Brashtide|QID|26699|PRE|26698|M|41.55,73.00|N|From Fleet Master Seahorn.|
 
 C Turning the Brashtide|QID|26699|S|M|42.59,72.46|N|From now on kill Brashtide Raiders on sight.|
-C The Damsel's (Bad) Luck|QID|26700|M|41.49,73.00;41.29,71.25;41.12,70.93|N|Activate the rope beside him. Kill Corsairs. Activate the rope on the deck to get back.|
+C The Damsel's (Bad) Luck|QID|26700|M|41.49,73.00;41.29,71.25;41.12,70.93|CC|N|Activate the rope beside him. Kill Corsairs. Activate the rope on the deck to get back.|
 C Prepare for Takeoff|QID|26695|M|42.62,69.09|N|Inside the Old Port Authority. Loot the Crate behind Narkk.|
 C Turning the Brashtide|QID|26699|US|M|42.59,72.46|N|Finish killing Raiders.|
 
@@ -342,11 +347,11 @@ A The Final Voyage of the Brashtide|QID|26697|PRE|26695|M|41.12,73.09|N|From Bar
 T The Damsel's (Bad) Luck|QID|26700|M|41.12,73.09|N|To Baron Revilgaz.|
 T Turning the Brashtide|QID|26699|M|41.12,73.09|N|To Baron Revilgaz.|
 
-C The Final Voyage of the Brashtide|QID|26697|M|40.47,73.38;34.06,53.27|N|Speak to Kebok for a ride. Use Action 1 to bomb the ships and rowboats. Don't forget you need to get 6 of them too. Use Action 3 to return when finished.|
+C The Final Voyage of the Brashtide|QID|26697|M|40.47,73.38;34.06,53.27|CN|N|Speak to Kebok for a ride. Use Action 1 to bomb the ships and rowboats. Don't forget you need to get 6 of them too. Use Action 3 to return when finished.|
 T The Final Voyage of the Brashtide|QID|26697|M|41.12,73.12|N|To Baron Revilgaz.|
 
 A Bloodsail's End|QID|26703|PRE|26679|M|41.12,73.12|N|From Baron Revilgaz.|
-C Bloodsail's End|QID|26703|M|40.47,73.38;36.05,66.51|N|Speak to Kebok again. Once on the ship, go down to the Captain's room and kill him and his little parrot too.|
+C Bloodsail's End|QID|26703|M|40.47,73.38;36.05,66.51|CS|N|Speak to Kebok again. Once on the ship, go down to the Captain's room and kill him and his little parrot too.|
 T Bloodsail's End|QID|26703|M|41.17,73.15|N|To Baron Revilgaz.|
 
 A The Call of Kalimdor|QID|26596|M|40.56,68.20|N|If you're going to go to Dustwallow Marsh in Kalimdor next, skip this if you wish to do Western Plaguelands. From Corporal Jeyne.|

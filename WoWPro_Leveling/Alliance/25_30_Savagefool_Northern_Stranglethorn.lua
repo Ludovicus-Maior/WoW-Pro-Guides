@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2013-01-13 15:26
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3231/revisions/24830/view
 -- Date: 2011-12-01 22:30
 -- Who: Fluclo
 
@@ -51,7 +56,7 @@ A The Fate of Kurzen|QID|26735|M|47.56,10.33|N|From Lieutenant Doren.|
 A Krazek's Cookery|QID|26740|M|47.17,10.68|N|From Corporal Kaleb.|
 A Bad Medicine|QID|26732|M|47.28,11.02|N|From Brother Nimetz.|
 
-R Nesingwary's Expedition|QID|26740|M|49.33,14.39;47.75,24.25;44.16,22.61|N|Head to Nesingwary's Expedition.|
+R Nesingwary's Expedition|QID|26740|M|49.33,14.39;47.75,24.25;44.16,22.61|CS|N|Head to Nesingwary's Expedition.|
 T Krazek's Cookery|QID|26740|M|43.72,23.04|N|To Krazek.|
 A Venture Company Mining|QID|26763|M|43.72,23.04|N|From Krazek.|
 A Supply and Demand|QID|26343|M|43.80,23.45|N|From Drizzlik.|
@@ -91,7 +96,7 @@ A Excelsior|QID|26345|M|43.72,23.55|N|From Drizzlik.|
 T Venture Company Mining|QID|26763|M|43.68,23.03|N|To Krazek.|
 A Return to Corporal Kaleb|QID|26765|M|43.68,23.03|N|From Krazek.|
 
-R Rebel Camp|QID|26732|M|48.16,24.35;47.56,11.49|N|Head back to the Rebel Camp.|
+R Rebel Camp|QID|26732|M|48.16,24.35;47.56,11.49|CC|N|Head back to the Rebel Camp.|
 T Bad Medicine|QID|26732|M|47.35,11.21|N|To Brother Nimetz.|
 A Control Sample|QID|26733|M|47.35,11.21|N|From Brother Nimetz.|
 T Just Hatched|QID|26738|M|47.10,10.88|N|To Corporal Sethman.|
@@ -149,7 +154,7 @@ R Nesingwary's Expedition|QID|188|M|44.16,22.61|N|Head over to Nesingwary's Expe
 T Tiger Mastery|QID|188|M|44.45,22.52|N|To Ajeck Rouack.|
 C A Nose for This Sort of Thing|QID|26746|U|58165|M|41.27,29.08|N|Stay close to your Lashtail Hatchling as he runs around digging up the fetishes to complete the quest.|
 C Bloodscalp Insight|QID|26742|M|33.63,36.38|N|Kill the shamans and loot the totem.|
-C Water Elementals|QID|26729|M|22.85,36.81;20.79,41.37|N|Kill the elementals on this island.|
+C Water Elementals|QID|26729|M|22.85,36.81;20.79,41.37|CN|N|Kill the elementals on this island.|
 T Water Elementals|QID|26729|U|60273|M|19.15,40.72|N|To Emerine Junis. Use the Telling-Sphere to turn-in quest.|
 A You Can Take the Murloc Out of the Ocean...|QID|26730|M|19.15,40.72|N|From Emerine Junis.|
 C You Can Take the Murloc Out of the Ocean...|QID|26730|M|42.58,40.95|N|Kill Murlocs here until the quest is completed.|
@@ -166,7 +171,7 @@ A Raptor Mastery|QID|197|M|58.27,50.05|N|(UI Alert)|
 C Panther Prowess|QID|192|US|M|62.49,48.16|N|Kill Shadowmaw Panthers until quest is complete. They are stealthed around trees along the road.|
 T Panther Prowess|QID|192|M|62.49,48.16|N|(UI Alert)|
 A Panther Mastery|QID|193|M|62.49,48.16|N|(UI Alert)|
-C Panther Mastery|QID|193|M|65.99,43.29;65.51,36.82;32.95,49.91|N|Kill Bhag'thera and loot his fang. He is somewhere between the waypoints.|T|Bhag'thera|
+C Panther Mastery|QID|193|M|65.99,43.29;65.51,36.82;32.95,49.91|CN|N|Kill Bhag'thera and loot his fang. He is somewhere between the waypoints.|T|Bhag'thera|
 C Raptor Mastery|QID|197|M|60.44,61.49|N|Kill Tethis and loot his talon. He can be anywhere in this area.|T|Tethis|
 R Fort Livingston|QID|197|M|52.66,66.18|N|Head to Fort Livingston.|
 f Fort Livingston|QID|197|M|52.66,66.18|N|At Robert Rhodes.|
@@ -206,7 +211,7 @@ A The Mind's Eye|QID|26781|M|53.28,66.79|N|From Livingston Marshal.|
 C Big Game Hunter|QID|208|M|47.79,58.84|N|Kill King Bangalash and loot his head. He is usually on top of the mound here.|
 C Mind Vision|QID|26772|M|53.54,47.21|N|Kill Jungle Stalkers here and loot their feathers until the quest is complete.|
 C The Mosh'Ogg Bounty|QID|26782|M|67.16,54.03|N|Make your way here and loot the Bounty.|
-C The Mind's Eye|QID|26781|M|66.68,49.15;70.74,48.54|N|Kill Mai'Zoth and loot the Mind's Eye. He is all the way in the back of the cave.|
+C The Mind's Eye|QID|26781|M|66.68,49.15;70.74,48.54|CS|N|Kill Mai'Zoth and loot the Mind's Eye. He is all the way in the back of the cave.|
 
 H Fort Livingston|QID|26781|U|6948|N|Hearth to Fort Livingston.|
 T The Mind's Eye|QID|26781|M|53.28,66.79|N|To Livingston Marshal.|
@@ -227,7 +232,7 @@ R Rebel Camp|QID|26779|M|47.56,11.49|N|Run back to the Rebel Camp.|
 F Fort Livingston|QID|26779|N|Fly to Fort Livingston.|M|47.86,11.87|
 C Zul'Mamwe Mambo|QID|26779|M|59.77,72.01|S|N|Kill 16 Skullsplitter Trolls.|
 C Nighttime in the Jungle|QID|26780|M|58.10,73.17|S|N|Extinguish 8 Zul'Mamwe Braziers.|
-C Mind Control|QID|26774|M|55.45,65.51;62.45,74.59|N|Use the trail here to get up to the ruins. Kill Braddok and loot his brain.|
+C Mind Control|QID|26774|M|55.45,65.51;62.45,74.59|CS|N|Use the trail here to get up to the ruins. Kill Braddok and loot his brain.|
 C Zul'Mamwe Mambo|QID|26779|M|59.77,72.01|US|N|Kill 16 Skullsplitter Trolls.|
 C Nighttime in the Jungle|QID|26780|M|58.10,73.17|US|N|Extinguish 8 Zul'Mamwe Braziers.|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2013-01-13 16:12
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3287/revisions/24989/view
 -- Date: 2012-05-27 18:46
 -- Who: Ludovicus Maior
 -- Log: Added a few U and T tags, corrected quest name.
@@ -179,7 +184,7 @@ T Lightning Infused Relics |QID|11494|N|To leave, take the left to the east outs
 T The Delicate Sound of Thunder |QID|11495|N|To Walt.|
 A News From the East |QID|11501|N|From Walt.|
 l 10 Fjord Grub |QID|11468|L|34102 10|N|Loot 10 Fjord Grub from the Loose Rock nearby. |M|74.47,64.62|
-C Falcon Versus Hawk |QID|11468|U|34121|N|Find pairs of hawks to capture, then use the Trained Rock Falcon on one and run away from the other until you lose aggro. Capture 10 of these to finish the quest.|M|74.43,65.95;74.42,59.58;71.10,63.41;68.20,63.77|
+C Falcon Versus Hawk |QID|11468|U|34121|N|Find pairs of hawks to capture, then use the Trained Rock Falcon on one and run away from the other until you lose aggro. Capture 10 of these to finish the quest.|M|74.43,65.95;74.42,59.58;71.10,63.41;68.20,63.77|CN|
 T Falcon Versus Hawk |QID|11468|M|75.3,65.0|N|To Hidalgo the Master Falconer.|
 A There Exists No Honor Among Birds |QID|11470|M|75.3,65.0|N|From Hidalgo the Master Falconer.|
 C There Exists No Honor Among Birds |QID|11470|U|34124|N|Go to the Vrykul Hawk Roost and use your Trained Rock Falcon. Use the first ability to pick up eggs, the second for a speed boost, and the third to stun Hawk Matriarchs if they attack you. Collect 8 eggs, then cancel the buff. |M|76.60,67.60|
@@ -312,7 +317,7 @@ C Swabbin' Soap |QID|11469|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31
 C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.60,78.18|
 C The Frozen Heart of Isuldof |QID|11512|N|Loot The Frozen Heart of Isuldof from the ground here. |M|32.33,78.67|
 T The Jig is Up |QID|11471|N|To Annie Bonn.|
-C The Ancient Armor of the Kvaldir |QID|11567|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|
+C The Ancient Armor of the Kvaldir |QID|11567|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|CC|
 F Scalawag Point |QID|11469|N|Fly back to Scalawag Isle using the flying machine. |M|80.91,75.13|
 T Swabbin' Soap |QID|11469|M|37.8,79.6|N|To Scuttle Frostprow.|
 T Sorlof's Booty |QID|11529|M|37.2,74.8|N|To Captain Ellis.|
@@ -469,7 +474,7 @@ T Gruesome, But Necessary |QID|11246|N|To Westguard Sergeant.|
 T Burn Skorn, Burn! |QID|11247|N|To Westguard Sergeant.|
 
 A All Hail the Conqueror of Skorn! |QID|11250|N|From Westguard Sergeant.|
-C Eyes of the Eagle |QID|11416|N|Mount up and jump off the southern cliff  into the river, then click on the egg here. Kill Talonshrike and loot his eyes.|M|44.02,38.44;41.43,37.67|
+C Eyes of the Eagle |QID|11416|N|Mount up and jump off the southern cliff  into the river, then click on the egg here. Kill Talonshrike and loot his eyes.|M|44.02,38.44;41.43,37.67|CS|
 C Send Them Packing |S|QID|11224|N|Use "/raise" with Abandoned Pack Mules targeted to send them packing. |M|33.53,38.71|
 C Danger! Explosives! |QID|11218|U|33190|N|Use Steelring's Foolproof Dynamite on Whisper Gulch Ore here and collect the fragments that the explosion produces.|M|35.71,36.53|
 C Send Them Packing |US|QID|11224|N|Finish useing "/raise" with Abandoned Pack Mules targeted to send them packing. |M|33.53,38.71|
@@ -480,7 +485,7 @@ l Scourge Device |QID|11395|L|33961|N|Kill Scourge mobs until you get a Scourge 
 A It's a Scourge Device |QID|11395|U|33961|M|22.6,28.6|N|From the Scourge Device.|
 T It's a Scourge Device |QID|11395|M|24.2,32.5|N|To Explorer Jaren.|
 A Bring Down Those Shields |QID|11396|M|24.2,32.5|N|From Explorer Jaren.|
-C Bring Down Those Shields |QID|11396|U|33960|N|Find the 3 Scourging Crystals and use the Scourging Crystal Controller on them, then kill them. Pet kills do not count.|M|22.69,31.14;21.92,28.75;21.52,24.60|
+C Bring Down Those Shields |QID|11396|U|33960|N|Find the 3 Scourging Crystals and use the Scourging Crystal Controller on them, then kill them. Pet kills do not count.|M|22.69,31.14;21.92,28.75;21.52,24.60|CN|
 A Trident of the Son |QID|11422|M|19.8,22.2|N|From Old Icefin.|
 C Trident of the Son |QID|11422|N|Find Rotgill patrolling the coast here and kill him for Rotgill's Trident. |M|24.24,35.67|
 C And You Thought Murlocs Smelled Bad! |US|QID|11394|N|Kill any remaining Scourge mobs you need for this quest. |M|22.78,31.13|

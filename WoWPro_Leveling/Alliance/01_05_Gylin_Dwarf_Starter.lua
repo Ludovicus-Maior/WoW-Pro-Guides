@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2013-01-13 14:33
+-- Who: Ludovicus Maior
+-- Log: Added a CS tag
+
+-- URL: http://wow-pro.com/node/3200/revisions/25359/view
 -- Date: 2013-01-12 18:36
 -- Who: Ludovicus Maior
 -- Log: Added some CS and CN tags
@@ -347,7 +352,7 @@ T The Troll Menace |QID|182|M|32.07,74.25|N|To Grelin Whitebeard.|
 A Ice and Fire |PRE|24489|QID|218|M|32.07,74.25|N|From Grelin Whitebeard.|
 T A Refugee's Quandary |QID|3361|M|31.93,74.38|N|To Felix Whindlebolt.|
 C Ice and Fire |S|QID|218|M|33.78,78.20;33.68,77.99|N|Enter the cave, keeping to the left as you go throught it, killing Grik'nir's Servants as you go.|CS|QO|Grik'nir's Servant slain: 10/10|
-K Wayward Fire Elemental |QID|218|M|33.79,78.34;36.76,78.29|T|Wayward Fire Elemental|QO|Wayward Fire Elemental slain: 1/1|N|Kill the Wayward Fire Elemental.|
+K Wayward Fire Elemental |QID|218|M|33.79,78.34;36.76,78.29|CS|T|Wayward Fire Elemental|QO|Wayward Fire Elemental slain: 1/1|N|Kill the Wayward Fire Elemental.|
 K Grik'nir the Cold |QID|218|M|37.66,78.48|T|Grik'nir the Cold|QO|Grik'nir the Cold slain: 1/1|N|Kill Grik'nir the Cold.|
 C Ice and Fire |US|QID|218|M|33.31,77.83|N|Make your way out of the cave, killing any Grik'nir's Servants you still need.|QO|Grik'nir's Servant slain: 10/10|
 
