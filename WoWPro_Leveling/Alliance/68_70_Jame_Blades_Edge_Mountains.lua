@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2013-01-13 01:22
+-- Who: Ludovicus Maior
+-- Log: Added a CS tag
+
+-- URL: http://wow-pro.com/node/3281/revisions/25090/view
 -- Date: 2012-09-25 00:57
 -- Who: Ludovicus Maior
 
@@ -243,7 +248,7 @@ C Deceive thy Enemy |N|Kill the mobs for this quest.|QID|10820|M|74.43,40.66|
 T Deceive thy Enemy |N|Put the gas mask on and turn this quest in.|QID|10820|M|73.30,40.00|U|31366|
 A You're Fired! |QID|10821|N|From Legion Communicator.|U|31366|M|73.2,40.0|
 l Camp Anger Key|QID|10821|N|Kill Anger Guards until you get 5 Camp Anger Keys|L|31536 5|M|74.43,40.66|
-C You're Fired! |N|Find the five obelisks (where the waypoints are), and activate them quickly. Kill Doomcryer (elite mob, not immune to anything).|QID|10821|M|73.83,41.06;73.94,39.91;75.42,40.5;75.31,41.72;73.54,43.52|
+C You're Fired! |N|Find the five obelisks (where the waypoints are), and activate them quickly. Kill Doomcryer (elite mob, not immune to anything).|QID|10821|M|73.83,41.06;73.94,39.91;75.42,40.5;75.31,41.72;73.54,43.52|CS|
 C Culling the Wild |N|Kill the mobs needed for this quest.|QID|10753|M|71.00,36.00|US|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|S|
 C Southern Volcanic Soil|N|Click the soil.|QID|10771|M|71.65,22.37|QO|Southern Volcanic Soil: 1/1|

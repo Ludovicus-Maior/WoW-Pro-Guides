@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2013-01-12 22:42
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3244/revisions/24870/view
 -- Date: 2011-12-16 20:07
 -- Who: Fluclo
 
@@ -120,9 +125,9 @@ T Victory, For Now|QID|27165|M|42.78,84.12|N|To Commander Ashlam Valorfist.|
 A Go Fletch!|QID|27166|M|42.78,84.12|N|From Commander Ashlam Valorfist.|
 A A Mighty Hunger|QID|27167|M|42.78,84.12|N|From Thurman Grant.|
 
-C A Mighty Hunger|QID|27167|S|M|41.93,79.46;35.18,76.18|N|From now on, kill and loot Shaggy Black Bears.|
+C A Mighty Hunger|QID|27167|S|M|41.93,79.46;35.18,76.18|CN|N|From now on, kill and loot Shaggy Black Bears.|
 C Go Fletch!|QID|27166|M|35.56,79.50|N|Collect the feathers sparkling on the ground.|NC|
-C A Mighty Hunger|QID|27167|US|M|41.93,79.46;35.18,76.18|N|Finish killing bears for Sides of Bear Meat.|
+C A Mighty Hunger|QID|27167|US|M|41.93,79.46;35.18,76.18|CN|N|Finish killing bears for Sides of Bear Meat.|
 
 T Go Fletch!|QID|27166|M|42.73,83.98|N|To Commander Ashlam Valorfist.|
 T A Mighty Hunger|QID|27167|M|42.73,83.98|N|To Thurman Grant.|
@@ -134,7 +139,7 @@ C Uther's Blessing|QID|27169|NC|U|61920|M|51.94,82.64|N|Use the Chillwind Tribut
 
 T Uther's Blessing|QID|27169|M|51.95,82.71|N|To High Priest Thel'danis.|
 A The Abandoned Crypt|QID|27170|M|51.95,82.71|N|From High Priest Thel'danis.|
-T The Abandoned Crypt|QID|27170|M|54.32,79.92;53.75,80.43|N|Head into the Crypt, go all the way down. Then turn the quest into the Broken Weapons Crate.|
+T The Abandoned Crypt|QID|27170|M|54.32,79.92;53.75,80.43|CS|N|Head into the Crypt, go all the way down. Then turn the quest into the Broken Weapons Crate.|
 A Ambushed!|QID|27171|PRE|27170|M|53.77,80.47|N|From the Broken Weapons Crate.|
 
 C Ambushed!|QID|27171|M|54.82,79.75|N|Kill and loot the Skeletal Sorcerers, as you head out of the crypt.|
@@ -164,7 +169,7 @@ A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.|
 f The Menders' Stead|QID|27197|M|50.49,52.34|N|At Marge Heffman.|
 r Repair and Restock|QID|26953|NC|M|50.69,52.89|N|Repair and Restock.|
 
-C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|47.41,52.91;46.33,54.45;45.19,53.4|N|Click Bad Corn, Unhealthy-Looking Pumpkins and Rotten Apples; then kill the mobs that appear.|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|47.41,52.91;46.33,54.45;45.19,53.4|CN|N|Click Bad Corn, Unhealthy-Looking Pumpkins and Rotten Apples; then kill the mobs that appear.|
 C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Kill with Zen'kiki with you. If Zen'kiki isn't with you, talk to him at Mender's Stead to get him back.|S|
 l Diseased Wolf Samples|QID|26999|M|46.98,46.34|L|60763 4|N|Kill and loot Diseased Wolves for their samples.|S|
 l Hulking Plaguebear Samples|QID|26999|M|46.98,46.34|L|60762 4|N|Kill and loot Hulking Plaguebears for their samples.|
@@ -202,7 +207,7 @@ T Redpine Thievery|QID|27011|M|48.41,32.11|N|To Kelly Dumah.|S|
 T A Gnoll's Resolve|QID|27012|M|48.41,32.11|N|To Kelly Dumah.|
 T Redpine Thievery|QID|27011|M|48.41,32.11|N|To Kelly Dumah.|US|
 
-C Learning the Ropes|QID|27000|M|47.67,31.80;45.33,35.73|N|Hop on a charger, run into a group of spiders and use Ability 1 to scare them away.|NC|
+C Learning the Ropes|QID|27000|M|47.67,31.80;45.33,35.73|CS|N|Hop on a charger, run into a group of spiders and use Ability 1 to scare them away.|NC|
 T Learning the Ropes|QID|27000|M|48.13,32.44|N|To Nathaniel Dumah.|
 
 A This Means WAR (Wild Arachnid Roundup)|QID|27001|M|48.13,32.44|N|From Nathaniel Dumah.|
@@ -211,7 +216,7 @@ T This Means WAR (Wild Arachnid Roundup)|QID|27001|M|48.11,32.47|N|To Nathaniel 
 
 A An Audience with the Highlord|QID|27002|PRE|27001|M|48.11,32.47|N|From Nathaniel Dumah.|
 
-f Hearthglen|QID|27002|M|47.67,31.80;44.67,18.58|N|Hop on a charger and follow the road to Hearthglen. At William Henderson.|
+f Hearthglen|QID|27002|M|47.67,31.80;44.67,18.58|CS|N|Hop on a charger and follow the road to Hearthglen. At William Henderson.|
 
 A It's About Time!|QID|27156|M|43.24,16.02|N|From Lieutenant Myner.|
 T An Audience with the Highlord|QID|27002|M|42.04,14.64|N|To Highlord Tirion Fordring.|
@@ -222,15 +227,15 @@ A Taelan Fordring's Legacy|QID|27151|M|42.19,14.98|N|From Daria L'Rayne.|
 C It's About Time!|QID|27156|M|43.09,16.33|N|Talk to Trainees. Challenge and beat them.|
 T It's About Time!|QID|27156|M|43.28,15.96|N|To Lieutenant Myner.|
 
-A Drudges...|QID|27157|PRE|27157|M|43.28,15.96|N|From Lieutenant Myner.|
-C Drudges...|QID|27157|M|45.86,12.31;45.37,9.73|N|Enter the mine. Kill the *ew* huge spider.|
+A Drudges...|QID|27157|M|43.28,15.96|N|From Lieutenant Myner.|
+C Drudges...|QID|27157|M|45.86,12.31;45.37,9.73|CS|N|Enter the mine. Kill the *ew* huge spider.|
 T Drudges...|QID|27157|M|43.27,15.91|N|To Lieutenant Myner.|
 
 C Taelan Fordring's Legacy|QID|27151|M|54.78,24.69|N|Kill Gnoll looters.|
 T Taelan Fordring's Legacy|QID|27151|M|54.99,24.73|
 
 A Unusual Behavior... Even For Gnolls|QID|27152|PRE|27151|M|54.99,24.73|
-C Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.07,35.56|N|Follow the arrows up the path. Kill Moldfang.|
+C Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Follow the arrows up the path. Kill Moldfang.|
 T Unusual Behavior... Even For Gnolls|QID|27152|M|57.28,35.71|N|(UI Alert)|
 
 A The Good People of Hearthglen|QID|27153|PRE|27152|M|57.28,35.71|N|(UI Alert)|
@@ -257,7 +262,7 @@ C Gahrron's Withering Cauldron|QID|27053|M|62.71,59.17|N|Kill the Cauldron Lord 
 T Gahrron's Withering Cauldron|QID|27053|M|62.58,58.62|N|At the Scourge Cauldron.|
 
 A Return to the Stead|QID|27057|PRE|27053|M|62.58,58.62|N|From the Scourge Cauldron.|
-C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43;64.88,59.32|N|The Prayer Book is upstairs. The Painting is hanging over the fireplace.|
+C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43;64.88,59.32|CS|N|The Prayer Book is upstairs. The Painting is hanging over the fireplace.|
 
 T Return to the Stead|QID|27057|M|49.32,54.76|N|To Field Agent Kaartish.|
 A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
@@ -269,7 +274,7 @@ C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill Instructor Malicia and loot the 
 T Desperate Acts|QID|27054|M|66.04,47.75|N|(UI Alert)|
 A Students of Krastinov|QID|27055|PRE|27054|M|66.04,47.75|N|(UI Alert)|
 C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|US|
-C Students of Krastinov|QID|27055|M|65.22,38.83;64.64,35.20|N|Enter the cave and kill, kill, kill.|
+C Students of Krastinov|QID|27055|M|65.22,38.83;64.64,35.20|CS|N|Enter the cave and kill, kill, kill.|
 T Students of Krastinov|QID|27055|M|49.31,54.81|N|To Field Agent Kaartish.|
 T Zen'Kiki and the Cultists|QID|26955|M|48.93,54.77|N|To Adrine Towhide.|
 

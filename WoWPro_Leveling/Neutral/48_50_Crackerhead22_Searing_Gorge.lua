@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2013-01-12 22:48
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3255/revisions/24570/view
 -- Date: 2011-06-21 20:30
 -- Who: Crackerhead22
 
@@ -66,7 +71,7 @@ WoWPro.Leveling:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', '4
 return [[
 
 H Dragon's Mouth|QID|27963|N|Hearth back to Dragon's Mouth.|FACTION|Alliance|
-R Searing Gorge|QID|27963|M|9.79,51.31;2.29,51.97|Z|Badlands|N|Follow the arrows into Searing Gorge.|
+R Searing Gorge|QID|27963|M|9.79,51.31;2.29,51.97|Z|Badlands|CS|N|Follow the arrows into Searing Gorge.|
 T To the Aid of the Thorium Brotherhood|QID|28512|M|68.54,53.59|N|To Jack Rockleg.|O|
 T Hero's Call: Searing Gorge!|QID|28582|M|68.54,53.59|N|To Jack Rockleg.|O|FACTION|Alliance|
 A A New Master... But Who?|QID|27963|M|68.54,53.59|N|From Jack Rockleg.|
@@ -98,11 +103,11 @@ T A Lumbering Relic|QID|27962|M|68.48,53.50|N|To Burrian Coalpart.|
 T A Proper Antivenom|QID|27958|M|68.59,53.44|N|To Prisanne Dustcropper.|
 
 r Sell junk, repair/restock.|QID|27964|M|68.41,53.43|N|At Burian Coalpart.|
-R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|N|Head to The Cauldron.|
+R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|CC|N|Head to The Cauldron.|
 C Dig-Boss Dinwhisker|QID|27964|M|54.93,45.64|N|Kill Dark Iron Excavators and Footmen until Dig-Boss Dinwhisker appears. After you kill him, loot the "Dark Ember" off the ground.|
 T Dig-Boss Dinwhisker|QID|27964|M|68.52,53.68|N|To Jack Rockleg.|
 A Thorium Point: The Seat of the Brotherhood|QID|27965|M|68.52,53.68|N|From Jack Rockleg.|
-R Thorium Point|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|N|Head to Thorium Point.|
+R Thorium Point|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|CC|N|Head to Thorium Point.|
 f Thorium Point|QID|27965|M|38.01,30.67|N|At Lanie Reed.|FACTION|Alliance|
 f Thorium Point|QID|27965|M|34.8,30.8|N|At Grisha.|FACTION|Horde|
 T Thorium Point: The Seat of the Brotherhood|QID|27965|M|38.21,26.83|N|To Overseer Oilfist.|
@@ -115,16 +120,16 @@ A Heat That Just Don't Quit|QID|27981|M|38.30,27.73|N|From Hansel Heavyhands.|
 A Recon Essentials|QID|27977|M|36.56,27.78|N|From Taskmaster Scrange.|
 A Lunk's Adventure: Cranky Little Dwarfs|QID|27983|M|36.63,36.89|N|Kill a Dark Iron Steamsmith to have Lunk appear. Get his quest.|
 C Curse These Fat Fingers|QID|27976|M|39.22,41.08|N|Kill Heavy War Golems.|S|
-C Heat That Just Don't Quit|S|QID|27981|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|N|Use the Furnace Flasks on the Elementals at the start of the fight.|
+C Heat That Just Don't Quit|S|QID|27981|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CN|N|Use the Furnace Flasks on the Elementals at the start of the fight.|
 C Lunk's Adventure: Cranky Little Dwarfs|QID|27983|S|M|38.72,49.87|N|Get the Dark Iron Steamsmiths down below 50% health. He will sit on the dwarves, when he gets up you will get a random item. Including the items needed for "Recon Essentials".|
-C Rasha'krak|QID|28099|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|N|Rasha'krak wanders between these waypoints. Use the "Furnace Flasks" on him at the start.|
+C Rasha'krak|QID|28099|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CN|N|Rasha'krak wanders between these waypoints. Use the "Furnace Flasks" on him at the start.|
 C Lunk's Adventure: Cranky Little Dwarfs|QID|27983|US|M|38.72,49.87|N|Finish having Lunk put the Dark Iron Steamsmiths to sleep.|
 C Recon Essentials|QID|27977|M|36.29,47.13|N|Kill Dark Iron Steamsmiths until the two items needed drop, if they did not drop during "Lunk's Adventure: Cranky Little Dwarfs".|
 T Lunk's Adventure: Cranky Little Dwarfs|QID|27983|M|38.72,49.87|N|(UI Alert).|
 
 C Curse These Fat Fingers|QID|27976|M|39.22,41.08|N|Kill however many golems you have left to kill.|US|
-C The Spiders Have to Go|QID|27980|M|30.03,57.16;28.42,44.85|N|Wander between the two waypoints to get all your spider kills.|
-C Heat That Just Don't Quit|US|QID|27981|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|N|Finish collecting the flasks.|
+C The Spiders Have to Go|QID|27980|M|30.03,57.16;28.42,44.85|CN|N|Wander between the two waypoints to get all your spider kills.|
+C Heat That Just Don't Quit|US|QID|27981|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CN|N|Finish collecting the flasks.|
 T Curse These Fat Fingers|QID|27976|M|38.32,28.04|N|To Hansel Heavyhands.|
 T Heat That Just Don't Quit|QID|27981|M|38.32,28.04|N|To Hansel Heavyhands.|
 T Rasha'krak|QID|28099|M|38.09,26.66|N|To Overseer Oilfist.|
@@ -150,7 +155,7 @@ A In the Hall of the Mountain-Lord|QID|27986|M|38.28,28.04|N|From Hansel Heavyha
 T Twilight Collars|QID|27982|M|38.48,28.65|N|To Master Smith Burninate.|
 
 r Sell junk, repair/restock.|QID|27986|M|38.48,28.65|N|At Master Smith Burninate.|
-R Iron Summit|QID|27986|M|39.59,31.28;29.51,50.22;31.78,59.97;37.68,62.88|N|Head to the Iron Summit.|
+R Iron Summit|QID|27986|M|39.59,31.28;29.51,50.22;31.78,59.97;37.68,62.88|CC|N|Head to the Iron Summit.|
 f Iron Summit|QID|27986|M|40.95,68.58|N|At Doug Deepdown.|
 T In the Hall of the Mountain-Lord|QID|27986|M|39.26,67.78|N|To Mountain-Lord Rendan.|
 A Siege!|QID|28028|M|39.26,67.78|N|From Mountain-Lord Rendan.|
@@ -206,7 +211,7 @@ T Look at the Size of It!|QID|28058|M|43.73,28.58|N|To Evonice Sootsmoker.|O|
 T Kill 'em With Sleep Deprivation|QID|28057|M|42.38,34.34|N|To Taskmaster Scrange.|
 A Twisted Twilight Ties|QID|28060|M|42.47,34.22|N|From Taskmaster Scrange.|
 C Twisted Twilight Ties|QID|28060|M|40.88,35.71|N|Speak with Hansel Heavyhands and help him assault Overseer Maltorius and Twilight-Lord Arkkus.|
-T Twisted Twilight Ties|QID|28060|M|47.69,41.96;49.96,39.28|N|To Overseer Oilfist. Drop down at the first waypoint.|
+T Twisted Twilight Ties|QID|28060|M|47.69,41.96;49.96,39.28|CS|N|To Overseer Oilfist. Drop down at the first waypoint.|
 
 A From Whence He Came|QID|28062|M|49.96,39.28|N|From Overseer Oilfist.|
 A Minions of Calcinder|QID|28061|M|50.19,38.90|N|From Overseer Oilfist.|
