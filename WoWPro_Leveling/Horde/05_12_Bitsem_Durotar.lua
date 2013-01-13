@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2013-01-13 19:07
+-- Who: Ludovicus Maior
+-- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
+
+-- URL: http://wow-pro.com/node/3199/revisions/25461/view
+-- Date: 2013-01-13 18:58
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3199/revisions/25342/view
 -- Date: 2013-01-11 23:26
 -- Who: Ludovicus Maior
 -- Log: Added CS tag
@@ -167,7 +177,7 @@ L Level 7|QID|25169|LVL|7|N|You should be around level 7 by this point.|
 
 T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.|
 A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|
-f Razor Hill|QID|25171|M|55.96,74.80;53.06,43.58|N|Train new skills, then talk to Raider Jhash for ride.|
+f Razor Hill|QID|25171|M|55.96,74.80;53.06,43.58|CC|N|Train new skills, then talk to Raider Jhash for ride.|
 T Riding On|QID|25171|M|51.92,43.48|N|To Gar'Thok.|
 
 A From Bad to Worse|QID|25173|M|51.92,43.48|N|From Gar'Thok.|
@@ -187,9 +197,9 @@ T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|
 T Meats to Orgrimmar|QID|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|To Burok.|
 A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|From Burok.|
-T Ride to Orgrimmar|QID|6384|M|50.87,62.61;53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|N|Take the lift down, the turn in to Innkeeper Gryshka.|
+T Ride to Orgrimmar|QID|6384|M|50.87,62.61;53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|CS|N|Take the lift down, the turn in to Innkeeper Gryshka.|
 A Doras the Wind Rider Master|QID|6385|PRE|6384|M|53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Innkeeper Gryshka.|
-T Doras the Wind Rider Master|QID|6385|M|50.87,62.61;49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|Back up the lift to Doras.|
+T Doras the Wind Rider Master|QID|6385|M|50.87,62.61;49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|CS|N|Back up the lift to Doras.|
 A Return to Razor Hill|QID|6386|PRE|6385|M|49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Doras.|
 
 L Level 8|QID|6386|LVL|8|N|You should be around level 8 by this point.|
@@ -206,11 +216,11 @@ A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
 T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
-C The Burning Blade|QID|25232|M|52.82,41.53;54.13,40.73;54.55,38.59;53.57,36.02;51.85,26.27||N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
+C The Burning Blade|QID|25232|M|52.82,41.53;54.13,40.73;54.55,38.59;53.57,36.02;51.85,26.27|CS|N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar. Go straight and jump down!|
 A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 
-T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|N|To Thonk on top of the guard tower.|
+T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|CS|N|To Thonk on top of the guard tower.|
 
 A Lost in the Floods|QID|25187|PRE|25227|M|49.58,40.16|N|From Thonk.|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass four times to search for survivors.|
@@ -219,7 +229,7 @@ A Watershed Patrol|QID|25188|PRE|25187|RANK|2|M|49.56,40.22|N|From Thonk.|
 
 L Level 9|QID|25188|LVL|9|N|You should be around level 9 by this point.|
 
-A Raggaran's Rage|QID|25190|RANK|2|M|45.51,44.38;42.67,49.86|N|From Raggaran. Avoid the Razormane, you need to kill them later.|
+A Raggaran's Rage|QID|25190|RANK|2|M|45.51,44.38;42.67,49.86|CC|N|From Raggaran. Avoid the Razormane, you need to kill them later.|
 C Raggaran's Rage|QID|25190|M|43.88,49.01|N|Kill 4 Razormane Quilboar and 4 Razormane Scouts.|
 T Raggaran's Rage|QID|25190|M|42.73,49.85|N|To Raggaran.|
 A Raggaran's Fury|QID|25192|PRE|25190|RANK|2|M|42.73,49.85|N|From Raggaran.|
@@ -239,14 +249,14 @@ C Spirits Be Praised|QID|25189|NC|M|42.65,49.92|N|Escort Grandmatron Tekla to Ra
 L Level 10|QID|25189|LVL|10|N|You should be around level 10 by this point.|
 
 T Spirits Be Praised|QID|25189|M|42.65,49.92|N|To Raggaran.|
-A Lost But Not Forgotten|QID|25193|RANK|2|M|41.30,39.12;43.30,30.58|N|From Misha Tor'kren. Avoid killing Alligators on the way over.  You need them later.|
+A Lost But Not Forgotten|QID|25193|RANK|2|M|41.30,39.12;43.30,30.58|CC|N|From Misha Tor'kren. Avoid killing Alligators on the way over.  You need them later.|
 C Lost But Not Forgotten|QID|25193|M|42.44,33.59|
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|N|To Misha Tor'kren.|
 T Watershed Patrol|QID|25188|M|49.55,40.17|N|To Thonk.|
 
 A Conscript of the Horde|QID|840|M|50.84,43.59|Z|Durotar|N|To Takrin Pathseeker.  Take this quest if you want to go to the Northern Barrens next.|
 
-A Winds in the Desert|QID|834|M|46.34,34.83;45.42,29.81;46.36,22.99|Z|Durotar|N|From Rezlak.|
+A Winds in the Desert|QID|834|M|46.34,34.83;45.42,29.81;46.36,22.99|Z|Durotar|CC|N|From Rezlak.|
 A Securing the Lines|QID|835|M|46.36,22.99|Z|Durotar|N|From Rezlak.|
 C Winds in the Desert|QID|834|S|M|50.11,25.77|Z|Durotar|N|Retrieve Sacks of Supplies and kill 12 Harpies.|
 C Securing the Lines|QID|835|M|54.00,27.37|Z|Durotar|N|Kill 12 Durotar Harpies. Any type of harpy will suffice.|
@@ -290,11 +300,11 @@ T Griswold Hanniston|QID|25258|M|58.77,23.12|Z|Durotar|N|To Spiketooth.|
 L Level 12|QID|25259|LVL|12|N|You should be around level 12 by this point.|
 
 T Gaur Icehorn|QID|25259|M|58.77,23.12|Z|Durotar|N|To Spiketooth.|
-C Skull Rock|QID|25262|M|55.03,10.95;53.42,10.20|Z|Durotar|N|Gather 6 Searing Collars from the cultists in Skull Rock.|
+C Skull Rock|QID|25262|M|55.03,10.95;53.42,10.20|Z|Durotar|CS|N|Gather 6 Searing Collars from the cultists in Skull Rock.|
 T Skull Rock|QID|25262|M|56.41,20.05|Z|Durotar|N|To Margoz.|
 A Neeru Fireblade|QID|25263|PRE|25262|M|56.41,20.05|Z|Durotar|N|From Margoz.|
 
-T Neeru Fireblade|QID|25263|M|49.93,59.15|Z|Cleft of Shadow|N|To Neeru Fireblade, in the Cleft of Shadow.|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|
+T Neeru Fireblade|QID|25263|M|49.93,59.15|Z|Cleft of Shadow@Orgrimmar|N|To Neeru Fireblade, in the Cleft of Shadow.|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|
 A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|Orgrimmar|N|If you plan on going to Northern Barrens next. From Neeru Fireblade.|
 
 h Valley of Wisdom|QID|25263|M|39.03,48.57|N|At Miwana.|N|You can choose another Inn in Org if it makes more sense.|

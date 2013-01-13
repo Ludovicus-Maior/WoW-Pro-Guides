@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2013-01-13 19:10
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3489/revisions/25313/view
 -- Date: 2013-01-09 22:41
 -- Who: Ludovicus Maior
 -- Log: Added CS and CN tag
@@ -55,7 +60,7 @@ A Tears of Pandaria|QID|30091|M|75.87,7.63|N|From Mei Barrelbottom.|
 T What's Eating Zhu's Watch?|QID|30079|M|76.24,7.14|N|To Ken-Ken.|
 A Materia Medica|QID|30081|M|76.23,7.12|N|From Ken-Ken.|
 C Materia Medica|QID|30081|M|S|72.19,10.68;75.41,10.87|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
-C Tears of Pandaria|QID|30091|M|72.19,10.68;75.41,10.87|
+C Tears of Pandaria|QID|30091|M|72.19,10.68;75.41,10.87|CN|
 C Materia Medica|QID|30081|M|US|72.19,10.68;75.41,10.87|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
 T Tears of Pandaria|QID|30091|M|75.83,7.65|N|To Mei Barrelbottom.|
 A Securing the Province|QID|30083|M|75.83,7.65|N|From Mei Barrelbottom.|
@@ -174,7 +179,7 @@ C Pick up kelp|QID|30668|NC|QO|Tough Kelp: 1/1|M|52.25,77.78|
 C Pick up wood|QID|30668|NC|QO|Spare Plank: 4/4|M|52.36,76.21|
 T Build Your Own Raft|QID|30668|M|51.58,76.87|N|To Jay Cloudfall.|
 A The Lorewalker on the Lake|QID|30669|M|51.58,76.87|N|From Jay Cloudfall.|
-C The Lorewalker on the Lake|QID|30669|NC|M|51.69,76.53;46.02,78.95|N|Hop on your raft and head out to see the Lorewalker. When you jump, it makes the raft go faster.|
+C The Lorewalker on the Lake|QID|30669|NC|M|51.69,76.53;46.02,78.95|CS|N|Hop on your raft and head out to see the Lorewalker. When you jump, it makes the raft go faster.|
 T The Lorewalker on the Lake|QID|30669|M|46.02,78.95|N|To Wise Ana Wu.|
 A Wisdom Has A Price|QID|30671|M|46.02,78.95|N|From Wise Ana Wu.|
 A Misery|QID|30691|M|46.02,78.95|N|From Wise Ana Wu.|

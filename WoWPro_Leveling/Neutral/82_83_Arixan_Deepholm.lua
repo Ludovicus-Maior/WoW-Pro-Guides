@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2013-01-13 18:56
+-- Who: Ludovicus Maior
+-- Log: Added CC tag
+
+-- URL: http://wow-pro.com/node/3307/revisions/25440/view
 -- Date: 2013-01-13 16:14
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -474,7 +479,7 @@ A The Explorers|QID|27952|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Allian
 T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 
 A The Reliquary|QID|27953|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Horde|
-T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
+T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|CC|N|To Examiner Rowe.|FACTION|Horde|
 
 T Word In Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
 A Undying Twilight|QID|26875|PRE|26833|N|From Maruut.|

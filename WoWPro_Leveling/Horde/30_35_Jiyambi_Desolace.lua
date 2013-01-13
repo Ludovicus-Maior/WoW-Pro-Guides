@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2013-01-13 18:00
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3314/revisions/25285/view
 -- Date: 2013-01-09 01:00
 -- Who: Ludovicus Maior
 -- Log: Multicoord
@@ -57,12 +62,12 @@ T Warchief's Command: Desolace!|O|QID|28548|M|54.7,8.8|N|To Furien at Tethris Ar
 T Nothing Left for You Here|O|QID|26134|M|54.74,8.84|N|To Furien.|
 A My Time Has Passed|QID|14184|M|54.74,8.84|N|From Furien.|
 
-T My Time Has Passed|QID|14184|M|54.81,8.65;44.63,29.52|N|Talk to the dragonhawk. When it lands, turn-in to Cerelia.|
+T My Time Has Passed|QID|14184|M|54.81,8.65;44.63,29.52|CC|N|Talk to the dragonhawk. When it lands, turn-in to Cerelia.|
 A Avenge Furien!|QID|14188|PRE|14184|M|44.63,29.52|N|From Cerelia.|
 T Avenge Furien!|QID|14188|M|44.85,29.53|N|To Sorrem.|
 A Translation|QID|14189|PRE|14188|M|44.85,29.53|N|From Sorrem.|
 
-T Translation|QID|14189|M|44.31,29.66;69.30,29.30|N|Take the dragonhawk by talking to Narimar, the flightmaster. Turn-in to the tablet.|
+T Translation|QID|14189|M|44.31,29.66;69.30,29.30|CC|N|Take the dragonhawk by talking to Narimar, the flightmaster. Turn-in to the tablet.|
 A Furien's Footsteps|QID|14191|PRE|14189|M|69.30,29.30|N|From the Ancient Tablets.|
 A To the Hilt!|QID|14219|PRE|14189|M|75.84,26.66|N|From the Elune's Handmaiden statue.|
 l Satyr Sabers|QID|14219|N|Gather Satyr Sabers from racks and Satyrs in the area.|L|48943 20|S|
@@ -95,14 +100,14 @@ T Rider on the Storm|QID|14198|M|44.65,29.50|N|When you finish the quest, use th
 A Ethel Rethor|QID|14255|PRE|14198|M|44.65,29.50|N|From Cerelia.|
 A Peace of Mind|QID|14223|PRE|14198|M|44.86,29.52|N|From Sorrem.|
 
-R Ethel Rethor|QID|14255|M|41.19,29.03;38.83,26.98|N|Head over to Ethel Rethor.|
+R Ethel Rethor|QID|14255|M|41.19,29.03;38.83,26.98|CC|N|Head over to Ethel Rethor.|
 T Ethel Rethor|QID|14255|M|38.83,26.98|N|To Cenarion Researcher Korrah.|
 A The Emerging Threat|QID|14256|PRE|14255|M|38.83,26.98|N|From Cenarion Researcher Korrah.|
 C The Emerging Threat|NC|QID|14256|M|38.82,27.03|N|Speak with Researcher Korrah to get on the hippogryph.|
 T The Emerging Threat|QID|14256|M|38.82,27.03|N|To Cenarion Researcher Korrah.|
 A Slitherblade Slaughter|QID|14257|PRE|14256|M|38.82,27.03|N|From Cenarion Researcher Korrah.|
-C Slitherblade Slaughter|QID|14257|M|41.56,26.60;40.90,24.04;39.07,22.97;35.48,31.63|N|Sliverblade Nagas drop Bones at 100% Rate. Warriors drop Fins at a low rate. Sorcerers Drop Scales at a low rate, but in multiples. Don't cross the ravine or go onto the islands - those are different types of Naga and won't drop what you need.|
-T Slitherblade Slaughter|QID|14257|M|41.19,29.03;38.84,27.00|N|Back to Cenarion Researcher Korrah.|
+C Slitherblade Slaughter|QID|14257|M|41.56,26.60;40.90,24.04;39.07,22.97;35.48,31.63|CC|N|Sliverblade Nagas drop Bones at 100% Rate. Warriors drop Fins at a low rate. Sorcerers Drop Scales at a low rate, but in multiples. Don't cross the ravine or go onto the islands - those are different types of Naga and won't drop what you need.|
+T Slitherblade Slaughter|QID|14257|M|41.19,29.03;38.84,27.00|CS|N|Back to Cenarion Researcher Korrah.|
 A Going Deep|QID|14260|PRE|14257|M|38.85,27.01|N|From Cenarion Researcher Korrah.|
 
 C Going Deep|NC|QID|14260|U|49064|N|Use the Slitherblade Charm.|
@@ -126,7 +131,7 @@ A A Revenant's Vengeance|QID|14284|PRE|14292|M|29.07,8.15|N|From Lord Hydronis.|
 C A Revenant's Vengeance|QID|14284|M|29.01,8.06|N|Talk to Hydronis to start the event. Ability 1 slows Valishj's casting, Ability 2 is a frontal cone of high damage, Ability 3 is a basic frost bolt, and Ability 5 regenerates health and mana. Use 1 to slow her cast times, then use ability 2 and 3 until you run out of mana. Then you ability 5. Rinse and repeat.|
 T A Revenant's Vengeance|QID|14284|M|29.01,8.06|N|To Lord Hydronis.|
 A Return and Report|QID|14301|PRE|14284|M|29.01,8.06|N|From Lord Hydronis.|
-T Return and Report|QID|14301|M|41.19,29.03;38.80,26.96|N|Back to Cenarion Researcher Korrah. Congrats on a very nice piece of gear!|
+T Return and Report|QID|14301|M|41.19,29.03;38.80,26.96|CC|N|Back to Cenarion Researcher Korrah. Congrats on a very nice piece of gear!|
 A Official Assessment|QID|14302|PRE|14301|M|38.80,26.96|N|From Cenarion Researcher Korrah.|
 
 C Peace of Mind|QID|14223|M|53.13,33.06|N|Kill Kohor, outside of Thunder Axe Fortress.|
@@ -180,8 +185,8 @@ A Breakout!|QID|14314|PRE|14312|M|58.32,49.97|N|From Khan Leh'Prah.|
 A Cenarion Property|QID|14316|PRE|14312|M|58.44,49.84|N|From Garren Darkwind.|
 A Ghost Walker Post|QID|14338|PRE|14311;14309;14307|M|57.45,47.71|N|From Karnum Marshweaver.|
 
-R Ghost Walker Post|QID|14338|M|57.66,56.37;56.51,56.97|N|Head up to Ghost Walker Post.|
-A Infernal Encroachment|RANK|2|QID|14342|M|56.51,56.97;56.25,59.51|N|From Felgur Twocuts.|
+R Ghost Walker Post|QID|14338|M|57.66,56.37;56.51,56.97|CC|N|Head up to Ghost Walker Post.|
+A Infernal Encroachment|RANK|2|QID|14342|M|56.51,56.97;56.25,59.51|CC|N|From Felgur Twocuts.|
 A Portals of the Legion|RANK|2|QID|5581|M|56.25,59.51|N|From Felgur Twocuts.|
 A Smeed's Harnesses|RANK|2|QID|14341|M|55.46,55.77|N|From Nataka Longhorn.|
 T Ghost Walker Post|QID|14338|M|52.22,53.51|N|To Maurin Bonesplitter.|
@@ -196,7 +201,7 @@ T Kodo Roundup|RANK|2|QID|5561|M|60.81,61.92|N|To Smeed Scrabblescrew.|
 C Delivery Device|QID|14339|M|50.42,58.07|US|N|Kill and loot Dying Kodos.|
 C Bone Collector |QID|5501|US|M|52.2,58.4|N|Kodo Bones from the graveyard, they look like smaller Kodo skulls. A Kodo Apparition can spawn when you pick one up.|RANK|3|
 
-T Delivery Device|QID|14339|M|55.29,58.22;52.23,53.48|N|To Maurin Bonesplitter.|
+T Delivery Device|QID|14339|M|55.29,58.22;52.23,53.48|CC|N|To Maurin Bonesplitter.|
 A Maurin's Concoction|QID|14343|PRE|14339|M|52.23,53.48|N|From Maurin Bonesplitter.|
 
 T Maurin's Concoction|QID|14343|M|57.41,47.72|N|To Karnum Marshweaver, back at Karnum's Glade.|
@@ -257,7 +262,7 @@ T Jugkar's Undoing|RANK|2|QID|14344|N|The turn-in should pop up automatically.|
 K Rhoho|QID|14328|M|41.78,82.51|QO|Rhoho Defeated: 1/1|N|At the Gelkis Village to the west, kill Rhoho.|
 K Sherik|QID|14328|M|35.56,81.48|QO|Sherik Defeated: 1/1|N|Kill Sherik.|
 C Three Princes|QID|14328|M|35.62,92.28|N|Now kill Jorreth.|
-T Three Princes|QID|14328|M|38.15,85.52;38.47,90.88;40.46,95.43|N|To Khan Shodo, inside the cave.|
+T Three Princes|QID|14328|M|38.15,85.52;38.47,90.88;40.46,95.43|CS|N|To Khan Shodo, inside the cave.|
 A Not So Fast!|QID|14329|M|40.46,95.43|N|From Khan Shodo.|
 
 C Not So Fast!|QID|14329|M|32.94,54.73|N|To the north, in the Valley of Spears. Make sure you loot the centaurs, one will drop a quest starting item.|
@@ -274,7 +279,7 @@ C Get Me Out of Here!|QID|6132|M|40.22,61.62|N|Follow and protect Melizza. You w
 T Get Me Out of Here!|QID|6132|M|47.85,61.80|N|To Hornizz Brimbuzzle.|
 A Ghost-o-plasm Round Up|QID|6134|M|47.85,61.73|N|From Hornizz Brimbuzzle.|RANK|3|
 
-R Shadowprey Village|RANK|2|QID|14337|M|27.14,75.81;22.71,72.02|N|Head to Shadowprey Village.|
+R Shadowprey Village|RANK|2|QID|14337|M|27.14,75.81;22.71,72.02|CS|N|Head to Shadowprey Village.|
 T Shadowprey Village|RANK|2|QID|14337|M|22.71,72.02|N|To Mai'Lahii.|
 A Blubbergut|RANK|2|QID|14334|M|22.71,72.02|N|From Mai'Lahii.|
 A Fish in a Bucket|RANK|3|QID|5421|M|22.36,73.18|N|From Jinar'Zillen.|
@@ -297,7 +302,7 @@ A Into the Fray!|QID|14393|PRE|14332|M|72.26,67.37|N|From Khan Leh'Prah.|
 C Into the Fray!|QID|14393|M|69.54,76.70|N|Talk to the Khan to start the battle. You will get to ride a centaur, and get several centaur troops to command in battle. Ability 1 is a basic attack. Ability 2 sends the troops in. Ability 3 calls the troops back to you. Ability 4 requests healing. Ability 6 calls for reinforcements if yours die.|
 T Into the Fray!|QID|14393|M|72.26,67.41|N|To Khan Leh'Prah.|
 A Death to Agogridon|QID|14394|M|72.26,67.41|N|From Khan Leh'Prah.|
-C Death to Agogridon|QID|14394|M|77.45,76.04;79.77,77.76;79.32,82.16;81.71,80.71|N|Make sure you are still on your centaur - talk to the Khan if you need to remount. Follow the arrows to the demon you need to defeat. The Khans will show up, so it's not difficult.|
+C Death to Agogridon|QID|14394|M|77.45,76.04;79.77,77.76;79.32,82.16;81.71,80.71|CS|N|Make sure you are still on your centaur - talk to the Khan if you need to remount. Follow the arrows to the demon you need to defeat. The Khans will show up, so it's not difficult.|
 T Death to Agogridon|QID|14394|M|82.30,80.85|N|To Khan Leh'Prah. Congrats on a very nice weapon!|
 A The Wilds of Feralas|QID|26589|M|73.2,73|N|From Khan Shodo.|
 C Ghost-o-plasm Round Up|QID|6134|U|15848|M|63.91,91.78|N|Clear the area then use your gizmo. Kill the ghost centaurs. (They turn aggressive when they get to the gizmo so beware.)|

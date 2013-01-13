@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2013-01-13 18:57
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3288/revisions/24914/view
 -- Date: 2012-01-21 04:12
 -- Who: Crackerhead22
 
@@ -263,7 +268,7 @@ C Brains! Brains! Brains! |QID|11301|U|33554|N|Kill the Deranged Explorers and u
 C What's in That Brew? |QID|11298|M|37.68,36.0|N|Click on the sparkling kegs and pick them up.|US|
 C And You Thought Murlocs Smelled Bad! |QID|11397|N|Kill any type of Scourge you see.|S|M|21.75,25.11|
 C Trident of the Son |QID|11422|N|Rotgill patrols between the Wrecked Ship and the murloc camp just to the north.|M|23,35|
-C Bring Down Those Shields |QID|11399|U|33960|N|Head north to the Scourging Crystal. Clear around it, then use the Scourging Crystal Controller on it, this'll lower the shield; destroy the crystal. If you have a pet, make sure it's on passive, you need to destroy it yourself to get credit. Head to the next ones to do the same.|M|22.69,31.15;21.91,28.75;21.51,24.61|
+C Bring Down Those Shields |QID|11399|U|33960|N|Head north to the Scourging Crystal. Clear around it, then use the Scourging Crystal Controller on it, this'll lower the shield; destroy the crystal. If you have a pet, make sure it's on passive, you need to destroy it yourself to get credit. Head to the next ones to do the same.|M|22.69,31.15;21.91,28.75;21.51,24.61|CS|
 T Trident of the Son |QID|11422|M|19.78,22.23|N|To Old Icefin.|
 C And You Thought Murlocs Smelled Bad! |QID|11397|N|Kill any type of Scourge you see.|US|M|21.75,25.11|
 T Brains! Brains! Brains! |QID|11301|N|To Apothecary Grick.|M|25.95,24.44|
@@ -273,7 +278,7 @@ T What's in That Brew? |QID|11298|N|To Apothecary Malthus.|M|26.43,24.5|
 T Eyes of the Eagle |QID|11417|U|33618|N|To Ulfang.|M|29.64,5.72|
 
 A Alpha Worg |QID|11324|N|From Ulfang.|M|29.64,5.72|
-C Alpha Worg |QID|11324|N|Look for Garwal. You don't have to be in the Worg disguise.|M|29.2,17;27,12.8;26.4,8.4|T|Garwal|
+C Alpha Worg |QID|11324|N|Look for Garwal. You don't have to be in the Worg disguise.|M|29.2,17;27,12.8;26.4,8.4|T|Garwal|CS|
 K Deathless Watchers|S|QID|11268|QO|Deathless Watcher slain: 10/10|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
 K Putrid Wights|S|QID|11268|QO|Putrid Wight slain: 2/2|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|
 l Awakening Rods|QID|11433|L|34083 5|S|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
@@ -425,7 +430,7 @@ C Swabbin' Soap |QID|11469|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31
 C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.60,78.18|
 C The Frozen Heart of Isuldof |QID|11512|N|Loot The Frozen Heart of Isuldof from the ground here. |M|32.33,78.67|
 T The Jig is Up |QID|11471|N|To Annie Bonn.|
-C The Ancient Armor of the Kvaldir |QID|11567|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|
+C The Ancient Armor of the Kvaldir |QID|11567|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|CC|
 F Scalawag Point |QID|11469|N|Fly back to Scalawag Isle using the flying machine. |M|80.91,75.13|
 T Swabbin' Soap |QID|11469|M|37.8,79.6|N|To Scuttle Frostprow.|
 T Sorlof's Booty |QID|11529|M|37.2,74.8|N|To Captain Ellis.|

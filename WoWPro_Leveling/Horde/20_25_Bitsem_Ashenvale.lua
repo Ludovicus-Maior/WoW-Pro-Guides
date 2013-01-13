@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2013-01-13 17:31
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3228/revisions/25344/view
 -- Date: 2013-01-11 23:30
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -61,13 +66,13 @@ A Mor'shan Defense|QID|13612|RANK|1|M|42.73,15.06|Z|Northern Barrens|N|From Kadr
 A Find Gorat!|QID|13618|RANK|1|M|42.73,15.06|Z|Northern Barrens|N|From Kadrak.|
 A Empty Quivers|QID|13615|RANK|1|M|42.23,15.22|Z|Northern Barrens|N|From Truun.|
 
-C Mor'shan Defense|QID|13612|M|67.29,86.43;42.15,13.06|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|S|
+C Mor'shan Defense|QID|13612|M|67.29,86.43;42.15,13.06|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|CN|S|
 C Empty Quivers|QID|13615|M|65.07,85.38|S|N|Collect "shiny" Arrow spots.|
 C Rescue the Fallen|QID|13613|U|45001|M|69.56,86.62|N|Apply salve to Wounded Mor'shan Defenders.|
 T Find Gorat!|QID|13618|M|64.20,84.55|N|To Gorat.|
 A Final Report|QID|13619|PRE|13618|RANK|1|M|64.20,84.55|N|From Gorat.|
 C Empty Quivers|QID|13615|US|N|Collect "shiny" Arrow spots.|
-C Mor'shan Defense|QID|13612|M|67.29,86.43;42.15,13.06|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|US|
+C Mor'shan Defense|QID|13612|M|67.29,86.43;42.15,13.06|CN|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|US|
 
 T Mor'shan Defense|QID|13612|M|42.65,15.01|Z|Northern Barrens|N|To Kadrak.|
 T Final Report|QID|13619|M|42.65,15.01|Z|Northern Barrens|N|To Kadrak.|
@@ -77,11 +82,11 @@ T Rescue the Fallen|QID|13613|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmo
 T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|Northern Barrens|N|To Dinah Halfmoon.|
 
 A Gorat's Vengeance|QID|13621|RANK|1|M|42.43,15.75|Z|Northern Barrens|N|From Dinah Halfmoon.|
-C Gorat's Vengeance|QID|13621|U|45023|M|64.21,84.51;65.66,82.21|N|Use Gorat's Imbued Blood and follow him to kill Captain Elendilad.|
+C Gorat's Vengeance|QID|13621|U|45023|M|64.21,84.51;65.66,82.21|CS|N|Use Gorat's Imbued Blood and follow him to kill Captain Elendilad.|
 T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|Northern Barrens|N|To Kadrak.|
 
 A Got Wood?|QID|13628|RANK|1|M|42.31,15.20|Z|Northern Barrens|N|From Truun.|
-C Got Wood?|QID|13628|M|42.58,15.19;42.81,15.97|Z|Northern Barrens|N|Speak to Kadrak when you're ready to leave. Then hop on Brutusk (the huge kodo.).|
+C Got Wood?|QID|13628|M|42.58,15.19;42.81,15.97|Z|Northern Barrens|CC|N|Speak to Kadrak when you're ready to leave. Then hop on Brutusk (the huge kodo.).|
 T Got Wood?|QID|13628|M|72.89,80.42|N|Ride Brutusk to Warsong Lumber Camp. To Gorka.|
 
 A Management Material|QID|13640|PRE|13628|RANK|1|M|72.86,80.42|N|From Gorka.|
@@ -98,16 +103,16 @@ T Crisis at Splintertree|QID|13653|M|42.67,15.01|Z|Northern Barrens|N|To Kadrak.
 
 A To the Rescue!|QID|13712|PRE|13653|RANK|1|M|42.67,15.01|Z|Northern Barrens|N|From Kadrak.|
 r To the Rescue!|QID|13712|Z|Northern Barrens|N|Repair and Restock if necessary. Then check off this step.|
-C To the Rescue!|QID|13712|M|42.66,14.96;73.26,64.99|N|Speak to Kadrak when you're ready to leave.|
+C To the Rescue!|QID|13712|M|42.66,14.96;73.26,64.99|CC|N|Speak to Kadrak when you're ready to leave.|
 T To the Rescue!|QID|13712|M|73.64,62.22|N|To Kadrak.|N|After breaking the seige, follow Kadrak into Splintertree Post.|
 
 A Blood of the Weak|QID|13803|PRE|13712|RANK|1|M|73.64,62.22|N|From Kadrak.|
 A Destroy the Legion|QID|26448|RANK|1|M|73.22,60.09|N|From Valusha.|
 A Ashenvale Outrunners|QID|6503|RANK|1|M|73.55,60.92|N|From Kuray'bin.|
 
-T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.18,57.62|N|To Durak.|
+T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.18,57.62|CC|N|To Durak.|
 A Pierce Their Heart!|QID|13805|PRE|13803|RANK|1|M|72.18,57.62|N|From Durak.|
-A Playing With Felfire|QID|13730|RANK|1|M|72.68,56.76;73.18,56.99;72.92,58.08;72.55,58.04;73.35,62.03|N|From Splintertree Demolisher.|
+A Playing With Felfire|QID|13730|RANK|1|M|72.68,56.76;73.18,56.99;72.92,58.08;72.55,58.04;73.35,62.03|CN|N|From Splintertree Demolisher.|
 A Dead Elves Walking|QID|13801|RANK|1|M|73.83,62.43|N|From Pixel.|
 
 h Splintertree Post|QID|6503|M|73.94,60.72|N|At Innkeeper Kaylisk.|
@@ -120,7 +125,7 @@ C Torek's Assault|QID|6544|M|64.71,75.40|N|Help Torek take Silverwing Outpost.|
 K Sharptalon|QID|2|M|78.1,65.8;73.3,70.6;71.3,75.5;73.7,78.5|T|Sharptalon|L|16305|CN|N|Keep and eye out for Sharptalon. Kill and loot the claw. Use the claw to start the quest.|
 A Sharptalon's Claw|QID|2|U|16305|N|From Sharptalon's Claw.|
 
-C Pierce Their Heart!|QID|13805|U|45683|M|75.91,75.36;75.54,74.12|N|Enter Barrpw Den. Follow the blood trail and use the Tainted Blood of the Kaldorei on the Heart.|
+C Pierce Their Heart!|QID|13805|U|45683|M|75.91,75.36;75.54,74.12|CS|N|Enter Barrow Den. Follow the blood trail and use the Tainted Blood of the Kaldorei on the Heart.|
 C Dead Elves Walking|QID|13801|US|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|
 C Ashenvale Outrunners|QID|6503|US|M|75.52,70.28|N|Finish killing Ashenvale Outrunners.|
 
@@ -157,8 +162,8 @@ T Rain of Destruction|QID|13798|M|72.21,57.61|N|To Durak.|
 
 A All Apologies|QID|13841|RANK|1|M|73.33,62.12|N|From Splintertree Demolisher.|
 
-K Gorgannon|QID|26449|L|45477|M|84.08,71.07;84.24,77.20;87.41,78.98;89.57,76.78|N|Follow the waypoints to Gorgannon in Demonfall Canyon. Kill him, pick up the loot.|
-C Never Again!|QID|26449|M|82.72,77.91;81.38,78.12;81.12,79.32;80.94,80.05;79.53,80.65;78.41,81.57;78.38,83.84|N|Follow the waypoints through the Canyon and up another path to Diathorus. Kill him, pick up the loot.|
+K Gorgannon|QID|26449|L|45477|M|84.08,71.07;84.24,77.20;87.41,78.98;89.57,76.78|CS|N|Follow the waypoints to Gorgannon in Demonfall Canyon. Kill him, pick up the loot.|
+C Never Again!|QID|26449|M|82.72,77.91;81.38,78.12;81.12,79.32;80.94,80.05;79.53,80.65;78.41,81.57;78.38,83.84|CS|N|Follow the waypoints through the Canyon and up another path to Diathorus. Kill him, pick up the loot.|
 
 H Splintertree Post|QID|26449|N|If Hearthstone isn't ready, just run back to Splintertree Post.|
 
@@ -167,7 +172,7 @@ A Demon Duty|QID|13806|RANK|1|M|73.76,61.59|N|From Locke Okarr.|
 A Satyr Horns|QID|6441|RANK|1|M|73.86,62.41|N|From Pixel.|
 
 C Satyr Horns|QID|6441|S|N|Kill Satyrs and collect horns.|
-C Demon Duty|QID|13806|M|82.08,52.74;80.64,49.04|N|Take the path Northwest to get to this area. Close portals.|
+C Demon Duty|QID|13806|M|82.08,52.74;80.64,49.04|CC|N|Take the path Northwest to get to this area. Close portals.|
 C Satyr Horns|QID|6441|US|M|81.42,51.21|N|Kill Satyrs and collect horns.|
 C Mission Improbable|QID|13808|U|45710|M|82.53,53.61|N|Use the Secret Signal Powder on the Smoldering Brazier across from Satyrnaar.|
 
@@ -176,7 +181,7 @@ A Making Stumps|QID|13815|PRE|13808|RANK|2|M|82.52,53.80|N|From Krokk.|
 A Wet Work|QID|13865|RANK|2|PRE|13808|M|82.52,53.80|N|From Krokk.|
 
 C Making Stumps|QID|13815|U|45807|S|M|86.51,54.67|N|Use the Splintertree Axe to chop the trees.|
-C Wet Work|QID|13865|M|85.36,56.16;85.75,57.76;85.45,60.45|N|Kill Scouts while defeating the three Protectors (where the waypoints are).|
+C Wet Work|QID|13865|M|85.36,56.16;85.75,57.76;85.45,60.45|CN|N|Kill Scouts while defeating the three Protectors (where the waypoints are).|
 C Making Stumps|QID|13815|U|45807|US|M|86.51,54.67|N|Finish chopping the needed trees.|
 
 T Making Stumps|QID|13815|U|45710|M|82.52,53.78|N|Use the Signal Powder again to summon Krokk. Turn in your quest.|
@@ -202,7 +207,7 @@ T Satyr Horns|QID|6441|M|73.84,62.45|N|To Pixel.|
 
 F Orgrimmar|QID|13841|M|73.21,61.54|N|Fly to Orgrimmar|
 
-T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar|N|Take the lift down, then turn in to Garrosh Hellscream.|
+T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar|CC|N|Take the lift down, then turn in to Garrosh Hellscream.|
 A Dread Head Redemption|QID|13842|PRE|13841|M|48.12,70.72|Z|Orgrimmar|N|From Garrosh Hellscream.|
 
 F Splintertree Outpost|QID|13842|M|49.6,59.17|N|Fly back to Splintertree...again. (Or hearth)|Z|Orgrimmar|
@@ -215,7 +220,7 @@ T Dread Head Redemption|QID|13842|M|48.17,70.75|Z|Orgrimmar|N|To Garrosh Hellscr
 
 F Zoram'gar Outpost|QID|13848|M|49.6,59.17|N|Fly to Zoram'gar Outpost.|Z|Orgrimmar|
 
-T Bad News Bear-er|QID|13848|M|73.21,61.54;12.03,33.88|N|Turn in to Commander Grimfang.|
+T Bad News Bear-er|QID|13848|M|73.21,61.54;12.03,33.88|CC|N|Turn in to Commander Grimfang.|
 h Zoram'gar Outpost|QID|13842|M|12.92,34.14|N|At Innkeeper Duras.|
 
 A Keep the Fires Burning|QID|13890|RANK|1|M|12.08,33.78|N|From Commander Grimfang.|
@@ -284,7 +289,7 @@ C Between a Rock and a Thistlefur|QID|216|S|M|38.22,30.61|N|Kill Thistlefur Vill
 C Troll Charm|QID|6462|M|38.45,30.6|N|Loot the Troll Chests around the cave until you have 8 Troll Charms.|
 A Freedom to Ruul|QID|6482|RANK|2|M|41.50,34.60|N|Escort Ruul Snowhoof out. Should finish killing Thistlefur while on this quest.|
 C Freedom to Ruul|QID|6482|NC|M|38.55,36.66|N|Protect Ruul.|
-C Between a Rock and a Thistlefur|QID|216|US|M|38.22,30.61;37.37,32.61|N|Finish killing Thistlefur Village Furbolgs.|
+C Between a Rock and a Thistlefur|QID|216|US|M|38.22,30.61;37.37,32.61|CN|N|Finish killing Thistlefur Village Furbolgs.|
 
 T Troll Charm|QID|6462|M|38.82,42.47|N|To Mitsuwa.|
 T Between a Rock and a Thistlefur|QID|216|M|37.84,43.41|N|To Karang Amakkar.|

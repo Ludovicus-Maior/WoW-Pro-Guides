@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2013-01-13 19:17
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3280/revisions/25319/view
 -- Date: 2013-01-09 22:55
 -- Who: Ludovicus Maior
 -- Log: Added CN and CS tags
@@ -165,7 +170,7 @@ A Finding the Survivors |QID|9948|M|32.5,36.0|N|From Elder Ungriz.|
 N From now on... |N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead" |QID|9991|
 K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|L|24523|S|
 K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|CN|N|Kill Gutripper and loot his eye.|T|Gutripper|L|24513|S|
-l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|L|28667|
+l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|CN|L|28667|
 
 K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|CN|N|Kill Gutripper and loot his eye. He wanders around where the waypoints are.|T|Gutripper|L|24513|US|
 l Mountain Gronn Eyeball|QID|10252|N|Kill the Mountain Gronn on this path and loot the eyeball.|L|28665|M|30.00,32.00|T|Mountain Gronn|

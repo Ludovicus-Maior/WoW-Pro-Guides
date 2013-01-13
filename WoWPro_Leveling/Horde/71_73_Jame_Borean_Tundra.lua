@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2013-01-13 19:54
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3290/revisions/24915/view
 -- Date: 2012-01-22 08:24
 -- Who: Crackerhead22
 -- Log: Added missing notes, cords.  Added QO steps, sticky steps, ?
@@ -147,7 +152,7 @@ A A Father's Words |QID|11620|M|47.1,75.5|N|From Karuk.|
 T A Father's Words |QID|11620|N|Go to the Shrine of Scales southwest and turn the quest into Veehja.|M|43.63,80.52|
 
 A The Trident of Naz'jan |QID|11625|M|43.6,80.5|N|From Veehja.|
-C The Trident of Naz'jan |QID|11625|N|Swim/fly southeast to Riplash Ruins. Kill Ragnar Drakkarlund and loot the Trident of Naz'jan.|M|53.13,90.70;55.04,88.52|
+C The Trident of Naz'jan |QID|11625|N|Swim/fly southeast to Riplash Ruins. Kill Ragnar Drakkarlund and loot the Trident of Naz'jan.|M|53.13,90.70;55.04,88.52|CC|
 T The Trident of Naz'jan |QID|11625|N|Back to Veehja at the Shrine of Scales.|M|43.63,80.62|
 A The Emissary |QID|11626|M|43.6,80.5|N|From Veehja.|
 C The Emissary |QID|11626|U|35850|N|Swim to the large iceberg at Riplash Ruins and dive down to find Leviroth. Use the Trident of Naz'jan on him and finish him off.|M|51.40,88.19|
@@ -224,7 +229,7 @@ C Scouting the Sinkholes |QID|11684|U|34920|N|Now mark the final sinkhole.|M|66.
 A Emergency Supplies |QID|11887|N|Head SW and look for a dead gnome.|M|64,36|
 C Emergency Supplies |QID|11887|N|You're looking for gnome bodies identical to the one we just got the quest from. They're all over the southern half of the Scaling Pools. You don't need to dismount.|M|62.9,35.8|
 C What Are They Up To? |QID|11890|N|Head to the Fizzcrank Pumping Station to inspect it.|M|64,23|
-C Load 'er Up! |QID|11881|U|35272|N|Head back to the gnome body. There should be a plane nearby. Go next to it and use the whistle. Then make your way back to Taunka'le Village, try not to aggro anything.|M|64,36;77.5,37.0|
+C Load 'er Up! |QID|11881|U|35272|N|Head back to the gnome body. There should be a plane nearby. Go next to it and use the whistle. Then make your way back to Taunka'le Village, try not to aggro anything.|M|64,36;77.5,37.0|CC|
 T Load 'er Up! |QID|11881|M|77.5,37.0|N|To Fezzix Geartwist.|
 T Emergency Supplies |QID|11887|M|77.5,37.0|N|To Fezzix Geartwist.|
 
@@ -395,7 +400,7 @@ A Leading the Ancestors Home |QID|11610|N|From Elder Atkanok|M|54.69,35.69|
 T Hampering Their Escape |QID|11617|N|To Etaruk|M|54.3,36.1|
 
 A A Visit to the Curator |QID|11623|N|From Etaruk|M|54.3,36.1|
-C Leading the Ancestors Home |QID|11610|U|34715|N|Use the Tuskarr Ritual Object at each of the Elders' stones you were previously at.|M|52.84,34.05;50.81,32.38;52.32,31.19|
+C Leading the Ancestors Home |QID|11610|U|34715|N|Use the Tuskarr Ritual Object at each of the Elders' stones you were previously at.|M|52.84,34.05;50.81,32.38;52.32,31.19|CS|
 C A Visit to the Curator |QID|11623|N|Kill Curator Insivius on the landed platform.|M|50.08,32.73|
 T A Visit to the Curator |QID|11623|N|To Etaruk.|M|54.3,36.1|
 T Leading the Ancestors Home |QID|11610|N|To Elder Atkanok.|M|54.69,35.69|
@@ -561,7 +566,7 @@ A Keymaster Urmgrgl |QID|11569|N|Get this quest from Glrglrglr.|M|37.8,23.2|
 C Keymaster Urmgrgl |QID|11569|N|Go downstairs and kill Urmgrgl for his key.|M|38.75,22.71|
 T Keymaster Urmgrgl |QID|11569|N|To Glrglrglr.|M|37.8,23.2|
 A Escape from the Winterfin Caverns |QID|11570|N|From Lurgglbr.|M|37.8,23.0|
-C Escape from the Winterfin Caverns |QID|11570|N|Escort Lurgglbr outside.|M|38.27,21.94;39.72,21.51;39.50,18.46;40.11,16.70;40.90,16.89;41.36,16.33|
+C Escape from the Winterfin Caverns |QID|11570|N|Escort Lurgglbr outside.|M|38.27,21.94;39.72,21.51;39.50,18.46;40.11,16.70;40.90,16.89;41.36,16.33|CS|
 C Oh Noes, the Tadpoles! |QID|11560|N|Free Murloc Tadpoles by clicking on the cages.|M|40.6,17.5|US|
 C Them! |QID|11561|N|Kill Winterfin murlocs.|US|
 T Oh Noes, the Tadpoles! |QID|11560|N|To King Mrgl-Mrgl.|M|43.50,13.97|

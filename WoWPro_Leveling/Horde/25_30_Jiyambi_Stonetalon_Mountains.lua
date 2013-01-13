@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2013-01-13 19:33
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3234/revisions/24927/view
 -- Date: 2012-01-28 01:50
 -- Who: Crackerhead22
 
@@ -88,7 +93,7 @@ l Mechanized Air|RANK|2|QID|26026|M|59.94,64.21|L|55223|N|Inside the goblin hut.
 l Mechanized Fire|RANK|2|QID|26026|M|63.09,56.72|L|55221|N|On top of the huge logging machine.|
 l Mechanized Ice|RANK|2|QID|26026|M|66.18,50.05|L|55222|N|On top of the tower.|
 A BEWARE OF CRAGJAW!|RANK|2|QID|26043|M|65.01,49.37|N|From the STAY OUT! poster.|
-C Dream of a Better Tomorrow|RANK|2|NC|QID|26026|M|68.42,45.70;67.09,43.60;63.05,45.70|N|At the end of the stretch of deck, guarded by Gerenzo Wrenchwhistle.|
+C Dream of a Better Tomorrow|RANK|2|NC|QID|26026|M|68.42,45.70;67.09,43.60;63.05,45.70|CN|N|At the end of the stretch of deck, guarded by Gerenzo Wrenchwhistle.|
 C BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.21,47.19|N|Jump off if you'd like to try to take on Cragjaw. He's at the center of the lake. Feel free to skip this quest if it's too hard and you can't find someone to help you.|
 
 H Krom'gar Fortress|QID|26011|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
@@ -104,21 +109,21 @@ T Dream of a Better Tomorrow|RANK|2|QID|26026|M|66.12,64.26|N|To Clarissa.|
 A Mr. D's Wild Ride|RANK|2|QID|26028|PRE|26026|M|66.12,64.26|N|From Clarissa.|
 
 C Mr. D's Wild Ride|RANK|2|QID|26028|M|67.21,57.87|N|Drive the Large Daddy down the cliff and kill gnomes and mechs below. Just look for the biggest groups of them - the Large Daddy's abilities destroy everything in front of him very effectively.|
-T Where Are the Parts?|QID|26044|M|66.39,60.84;67.13,64.48|N|Ditch the Large Daddy and head to the cave underneath Krom'gar Fortress. Turn-in to Sergeant Dontrag.|
+T Where Are the Parts?|QID|26044|M|66.39,60.84;67.13,64.48|CS|N|Ditch the Large Daddy and head to the cave underneath Krom'gar Fortress. Turn-in to Sergeant Dontrag.|
 A I Got Your Parts Right Here...|QID|26045|PRE|26044|M|67.13,64.48|N|From Sergeant Dontrag.|
 A Between a Rock and a Hard Place|RANK|2|QID|26046|PRE|26044|M|67.13,64.50|N|From Scout Utvoch.|
 A And That's Why They Call Them Peons...|RANK|2|QID|26047|PRE|26044|M|67.14,64.48|N|From Blastgineer Igore.|
-C And That's Why They Call Them Peons...|RANK|2|NC|QID|26047|M|67.44,65.58;66.90,71.66;67.06,73.53|S|N|Right-click peons to rescue them.|
-C Between a Rock and a Hard Place|RANK|2|QID|26046|M|67.44,65.58;66.90,71.66;67.06,73.53|S|N|Kill the elementals that populate the cave.|
-C I Got Your Parts Right Here...|NC|QID|26045|M|67.44,65.58;66.90,71.66;67.06,73.53|N|Loot the spare parts lying around the cave.|
-C And That's Why They Call Them Peons...|RANK|2|NC|QID|26047|M|67.44,65.58;66.90,71.66;67.06,73.53|US|N|Right-click peons to rescue them.|
-C Between a Rock and a Hard Place|RANK|2|QID|26046|M|67.44,65.58;66.90,71.66;67.06,73.53|US|N|Kill the elementals that populate the cave.|
+C And That's Why They Call Them Peons...|RANK|2|NC|QID|26047|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|S|N|Right-click peons to rescue them.|
+C Between a Rock and a Hard Place|RANK|2|QID|26046|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|S|N|Kill the elementals that populate the cave.|
+C I Got Your Parts Right Here...|NC|QID|26045|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|N|Loot the spare parts lying around the cave.|
+C And That's Why They Call Them Peons...|RANK|2|NC|QID|26047|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|US|N|Right-click peons to rescue them.|
+C Between a Rock and a Hard Place|RANK|2|QID|26046|M|67.44,65.58;66.90,71.66;67.06,73.53|CN|US|N|Kill the elementals that populate the cave.|
 T Between a Rock and a Hard Place|RANK|2|QID|26046|M|67.08,64.50|N|Back to Scout Utvoch.|
 T And That's Why They Call Them Peons...|RANK|2|QID|26047|M|67.15,64.49|N|To Blastgineer Igore.|
 T I Got Your Parts Right Here...|QID|26045|M|67.15,64.49|N|To Sergeant Dontrag.|
 A Spare Parts Up In Here!|QID|26048|PRE|26045|M|67.15,64.49|N|From Sergeant Dontrag.|
 
-T Spare Parts Up In Here!|QID|26048|M|66.46,60.48;66.25,62.94|N|To Chief Blastgineer Bombgutz, back on top of the hill at Krom'gar Fortress.|
+T Spare Parts Up In Here!|QID|26048|M|66.46,60.48;66.25,62.94|CC|N|To Chief Blastgineer Bombgutz, back on top of the hill at Krom'gar Fortress.|
 A In Defense of Krom'gar Fortress|QID|26058|M|66.25,62.94|N|From Chief Blastgineer Bombgutz.|
 C In Defense of Krom'gar Fortress|QID|26058|M|66.09,63.01|N|Right-click one of the guns to get in. Shoot down the flying machines and make sure to shoot the pilots after you destroy the machine. When you are done, you need to exit the gun manually.|
 T Mr. D's Wild Ride|RANK|2|QID|26028|M|66.13,63.69|N|When you are done, you need to exit the gun manually. Turn-in to Overlord Krom'gar.|
@@ -149,7 +154,7 @@ A Reinforcements...|RANK|2|QID|26066|PRE|26060;26061|M|71.15,91.15|N|From Subjug
 T Fight On Their Stomachs|RANK|2|QID|26064|M|71.98,91.27|N|To Denni'ka.|
 
 C Da Voodoo: Resonite Crystal|NC|QID|26062|M|59.78,88.81|N|Loot crystals by right-clicking them.|S|
-C Reinforcements...|RANK|2|QID|26066|U|56794|M|65.11,88.33;62.07,89.29;60.17,87.05|N|Use the whip on kobolds. If it doesn't work the first time, you can keep using it until the kobold becomes under your control.|
+C Reinforcements...|RANK|2|QID|26066|U|56794|M|65.11,88.33;62.07,89.29;60.17,87.05|CN|N|Use the whip on kobolds. If it doesn't work the first time, you can keep using it until the kobold becomes under your control.|
 C Da Voodoo: Resonite Crystal|NC|QID|26062|M|59.78,88.81|N|Loot crystals by right-clicking them.|US|
 
 T Reinforcements...|RANK|2|QID|26066|M|71.12,91.15|N|To Subjugator Devo.|
@@ -157,9 +162,9 @@ A Kobold Fury!|RANK|2|QID|26068|PRE|26066|M|71.12,91.15|N|From Subjugator Devo.|
 T Da Voodoo: Resonite Crystal|QID|26062|M|71.12,91.15|N|To Witch Doctor Jin'Zil.|
 A Jin'Zil's Blessing|QID|26067|PRE|26062|M|71.12,91.15|N|From Witch Doctor Jin'Zil.|
 
-C Jin'Zil's Blessing|NC|QID|26067|U|56798|M|79.67,83.49|S|N|Use the voodoo stick on the grunts.|
-C Kobold Fury!|RANK|2|NC|QID|26068|NC|U|56799|M|79.22,81.38;79.09,78.25;73.90,78.40|N|Use the horn at the horde banner in the Unearthed Grounds.|
-C Jin'Zil's Blessing|NC|QID|26067|U|56798|M|79.67,83.49|US|N|Use the voodoo stick on the grunts.|
+C Jin'Zil's Blessing|NC|QID|26067|U|56798|M|79.67,83.49|S|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauders|
+C Kobold Fury!|RANK|2|NC|QID|26068|NC|U|56799|M|79.22,81.38;79.09,78.25;73.90,78.40|CS|N|Use the horn at the horde banner in the Unearthed Grounds.|
+C Jin'Zil's Blessing|NC|QID|26067|U|56798|M|79.67,83.49|US|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauders|
 
 T Kobold Fury!|RANK|2|QID|26068|M|71.18,91.08|N|To Subjugator Devo, back in Malaka'jin.|
 T Jin'Zil's Blessing|QID|26067|M|71.11,91.19|N|To Witch Doctor Jin'Zil.|
@@ -173,7 +178,7 @@ B Quartermaster|QID|26074|M|65.85,64.12|N|You've gone up a rank in the Krom'gar 
 C Beginning of the End|NC|QID|26074|M|66.65,63.62|N|Hop on the balloon and ride it to the Sludgeworks.|
 T Beginning of the End|QID|26074|M|52.93,39.18|N|To Jibbly Rakit.|
 A The Turd Problem|QID|26075|M|52.93,39.18|N|From Jibbly Rakit.|
-C The Turd Problem|QID|26075|M|55.65,45.93;56.04,44.01|N|Kill wyverns.|
+C The Turd Problem|QID|26075|M|55.65,45.93;56.04,44.01|CS|N|Kill wyverns.|
 T The Turd Problem|QID|26075|M|52.93,39.15|N|To Jibbly Rakit.|
 A Spy Infestation|QID|26076|M|52.93,39.15|N|From Jibbly Rakit.|
 C Spy Infestation|QID|26076|U|56800|M|52.57,44.01|N|When you see a sparkle, use the gas bomb on it. Then kill the spy.|
@@ -183,7 +188,7 @@ A Final Delivery|QID|26077|M|52.93,39.18|N|From Jibbly Rakit.|
 C Final Delivery|QID|26077|M|51.20,45.51|N|Hop on the balloon and ride it to Cliffwalker Post.|
 T Final Delivery|QID|26077|M|45.11,32.75|N|To General Grebo.|
 A To Battlescar!|QID|26082|M|45.11,32.75|N|From General Grebo.|
-C To Battlescar!|QID|26082|M|46.04,36.01;41.23,38.49|N|Take the lift down, then get into a demolisher. Ability 1 is ranged, Ability 2 melee. Kill alliance units and glaive throwers (ballista-like seige machines).|
+C To Battlescar!|QID|26082|M|46.04,36.01;41.23,38.49|CC|N|Take the lift down, then get into a demolisher. Ability 1 is ranged, Ability 2 melee. Kill alliance units and glaive throwers (ballista-like seige machines).|
 T To Battlescar!|QID|26082|M|45.11,32.82|N|To General Grebo, back up on Cliffwalker Post.|
 A Proof of Lies|QID|26097|PRE|26082|M|45.00,32.82|N|From High Chieftain Cliffwalker.|
 T Proof of Lies|QID|26097|M|39.71,46.38|N|Take the lift down and head to the tree. At the top, turn-in to Orthus Cliffwalker.|

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2013-01-13 19:07
+-- Who: Ludovicus Maior
+-- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
+
+-- URL: http://wow-pro.com/node/3199/revisions/25461/view
+-- Date: 2013-01-13 18:58
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3199/revisions/25342/view
 -- Date: 2013-01-11 23:26
 -- Who: Ludovicus Maior
 -- Log: Added CS tag

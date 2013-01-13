@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2013-01-13 19:07
+-- Who: Ludovicus Maior
+-- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
+
+-- URL: http://wow-pro.com/node/3199/revisions/25461/view
+-- Date: 2013-01-13 18:58
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3199/revisions/25342/view
 -- Date: 2013-01-11 23:26
 -- Who: Ludovicus Maior
 -- Log: Added CS tag
@@ -212,7 +222,7 @@ A Sarkoth|QID|25129|M|40.63,62.58|N|From Hana'zua.|
 C Sarkoth|QID|25129|M|40.35,66.85|N|Kill and loot Sarkoth.|
 T Sarkoth|QID|25129|M|40.59,62.63|N|To Hana'zua.|
 A Back to the Den|QID|25130|M|40.59,62.63|N|From Hana'zua.|
-T Back to the Den|QID|25130|M|40.54,66.91;42.12,67.37;43.26,68.17|N|To Gornek at the starting area.  As a short-cut, you can jump down near where you fought Sarkoth.|
+T Back to the Den|QID|25130|M|40.54,66.91;42.12,67.37;43.26,68.17|CS|N|To Gornek at the starting area.  As a short-cut, you can jump down near where you fought Sarkoth.|
 T Vile Familiars|QID|25131|M|43.47,67.48|N|To Zureetha Fargaze.|
 
 A Burning Blade Medallion|QID|25132|M|43.47,67.48|N|From Zureetha Fargaze.|

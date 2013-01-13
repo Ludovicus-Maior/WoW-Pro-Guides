@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2013-01-13 17:44
+-- Who: Ludovicus Maior
+-- Log: Added CC and CS tags
+
+-- URL: http://wow-pro.com/node/3230/revisions/24479/view
 -- Date: 2011-06-01 00:52
 -- Who: Crackerhead22
 
@@ -72,7 +77,7 @@ A Alina's Reward|QID|26081|PRE|26033|M|12.92,36.10|N|From Galen Trollbane.|
 T Alina's Reward|QID|26081|M|13.26,35.94|N|To Dark Ranger Alina.|
 A Hammerfall|QID|26084|PRE|26081|M|13.26,35.94|N|From Dark Ranger Alina.|
 A Hello Lolo|QID|26083|RANK|2|PRE|26081|M|12.90,34.19|N|From Goutgut.|
-R Faldir's Cove|QID|26083|RANK|2|M|24.36,69.50;25.52,85.13|N|The entrance to the cove is outside the south-eastern wall of Stromgarde.|
+R Faldir's Cove|QID|26083|RANK|2|M|24.36,69.50;25.52,85.13|CC|N|The entrance to the cove is outside the south-eastern wall of Stromgarde.|
 T Hello Lolo|QID|26083|RANK|2|M|25.52,85.13|N|To Lolo the Lookout.|
 A Goggle Boggle|QID|26050|RANK|2|M|27.52,83.12|N|From Professor Phizzlethorpe.|
 C Goggle Boggle|QID|26050|RANK|2|N|Follow the professor to the nearby cave, then defend him from the small attack.|
@@ -98,7 +103,7 @@ A The Stone Shards|QID|26909|M|69.61,36.47|N|From Zaruk.|
 A Crush the Witherbark|QID|26429|M|68.99,34.73|N|From Drum Fel.|
 T The Stone Shards|QID|26909|M|57.24,34.67|N|To the Shards of Myzrael, in the circle of stones to the west.|
 A The Princess Trapped|QID|26039|PRE|26909|M|57.24,34.67|N|From the Shards of Myzrael.|
-C The Princess Trapped|QID|26039|M|73.75,38.93;79.82,31.62|N|Kill and loot kobolds in Drywhisker Gorge to the east.|
+C The Princess Trapped|QID|26039|M|73.75,38.93;79.82,31.62|CS|N|Kill and loot kobolds in Drywhisker Gorge to the east.|
 T The Princess Trapped|QID|26039|M|79.82,31.62|N|To the Iridescent Shards, inside Drywhisker Gorge on a cliff inside the cave.|
 A Stones of Binding|QID|26041|PRE|26039|M|79.82,31.62|N|From the Iridescent Shards.|
 C Cresting Key|QID|26041|NC|QO|Cresting Key: 1/1|M|61.54,30.42|N|At the Circle of East Binding, just west of Hammerfall.|

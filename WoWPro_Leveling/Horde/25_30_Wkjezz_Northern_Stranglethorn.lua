@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2013-01-13 19:41
+-- Who: Ludovicus Maior
+-- Log: Added CC tag
+
+-- URL: http://wow-pro.com/node/3232/revisions/25284/view
 -- Date: 2013-01-09 00:26
 -- Who: Ludovicus Maior
 -- Log: Add Tethis spawn points.
@@ -335,7 +340,7 @@ C Mind Vision|QID|26351|M|56.16,50.15|
 
 R Cave entrance|QID|99999|CC|M|66.45,49.00|N|Welcome to Orgeville|
 
-R The Mind's Eye|QID|26303|M|67.54,48.27;67.61,47.12;70.07,48.84|N|Follow this path|
+R The Mind's Eye|QID|26303|M|67.54,48.27;67.61,47.12;70.07,48.84|CC|N|Follow this path|
 
 C The Mind's Eye|QID|26303|M|70.38,48.98|
 

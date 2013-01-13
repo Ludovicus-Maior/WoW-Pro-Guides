@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2013-01-13 19:09
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3278/revisions/24881/view
 -- Date: 2012-01-03 10:40
 -- Who: Crackerhead22
 -- Log: Added missing notes, cords.  Added a couple sticky steps.
@@ -55,7 +60,7 @@ h Shattrath City|QID|9957|N|Make Shattrath City (Scryers Tier) your home locatio
 r Sell junk, Repair, restock, train skills|QID|9957|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 
 A Rather Be Fishin'|QID|10037|M|64.0,15.5|Z|Shattrath City|N|From Seth.|
-A The Outcast's Plight|QID|10917|M|51.1,17.64;45.1,19.9|Z|Shattrath City|N|From Vekax. He tends to wander between the two treehouses.|
+A The Outcast's Plight|QID|10917|M|51.1,17.64;45.1,19.9|Z|Shattrath City|CN|N|From Vekax. He tends to wander between the two treehouses.|
 A The Eyes of Skettis|QID|10847|M|52.6,21.0|Z|Shattrath City|N|From Rilak the Redeemed.|
 
 R Terokkar Forest|QID|9957|N|Go out of Shattrath City.|M|39.5,9.9|
@@ -108,7 +113,7 @@ r Sell junk, Repair, restock, train skills|QID|10847|M|54.6,82.4|Z|Shattrath Cit
 T Restoring the Light |QID|10021|Z|Shattrath City|M|24.0,29.7|N|To Ishanah.|REP|Aldor;932|
 T The Eyes of Skettis |QID|10847|Z|Shattrath City|M|52.6,21.0|N|To Rilak the Redeemed.|
 A Seek Out Kirrik|QID|10849|Z|Shattrath City|M|52.6,21.0|N|From Rilak the Redeemed.|
-T The Outcast's Plight|QID|10917|N|To Vekax. He tends to wander between the two treehouses.|M|51.1,17.64;45.1,19.9|Z|Shattrath City|
+T The Outcast's Plight|QID|10917|N|To Vekax. He tends to wander between the two treehouses.|M|51.1,17.64;45.1,19.9|Z|Shattrath City|CN|
 T Rather Be Fishin'|QID|10037|Z|Shattrath City|M|64.0,15.5|N|To Seth.|
 A A Cure for Zahlia |QID|10020|Z|Shattrath City|M|64.43,15.4|N|From Sha'nir.|REP|Aldor;932|
 T Wind Trader Lathrai|QID|9979|Z|Shattrath City|M|72.2,30.7|N|To Wind Trader Lathrai.|
@@ -276,8 +281,8 @@ r Sell junk, Repair, restock, train skills|QID|10228|M|54.6,82.4|Z|Shattrath Cit
 A Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|From Magistriz Fyalenn.|REP|Scryers;934|
 T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|To Magistriz Fyalenn.|REP|Scryers;934|
 T A Cure for Zahlia|QID|10020|Z|Shattrath City|N|To Sha'nir.|M|64.37,15.55|REP|Aldor;932|
-T Ezekiel|QID|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|N|To Ezekiel. He wanders around the Terrace of Light.|
-A What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|From Ezekiel.|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|
+T Ezekiel|QID|10228|Z|Shattrath City|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|N|To Ezekiel. He wanders around the Terrace of Light.|
+A What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|From Ezekiel.|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|
 C What Book? I Don't See Any Book.|Z|Shattrath City|N|Talk to "Dirty" Larry in Lower City and then get him down to 1% health.|QID|10231|M|43.58,29.36|
 T What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|To "Dirty" Larry.|M|43.58,29.36|
 A The Master's Grand Design? |QID|10251|Z|Shattrath City|M|43.58,29.36|N|From "Dirty" Larry.|

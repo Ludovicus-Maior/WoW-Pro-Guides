@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2013-01-13 19:48
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3258/revisions/24955/view
 -- Date: 2012-02-13 23:34
 -- Who: Crackerhead22
 -- Log: ?
@@ -57,7 +62,7 @@ A Dance for Ruumbo!|QID|27995|PRE|27994;27989|M|51.51,83.71|N|From the Totem of 
 C Dance for Ruumbo!|QID|27995|NC|M|51.51,83.71|N|It will automatically make you dance. You'll see a short event, then the quest will be marked complete.|
 T Dance for Ruumbo!|QID|27995|M|51.39,80.49|N|To Grazle.|
 C Culling the Corrupted|QID|28148|S|M|45.68,80.08|N|Kill and loot bears and wolves.|
-C The Corruption of the Jadefire|QID|27997|M|43.89,82.80;42.01,83.74|N|Kill satyrs in the Jadefire Glen.|
+C The Corruption of the Jadefire|QID|27997|M|43.89,82.80;42.01,83.74|CN|N|Kill satyrs in the Jadefire Glen.|
 C Culling the Corrupted|QID|28148|US|M|45.68,80.08|N|Kill and loot bears and wolves.|
 T The Corruption of the Jadefire|QID|27997|M|51.13,80.52|N|To Tenell Leafrunner, back at the Emerald Sanctuary.|
 T Culling the Corrupted|QID|28148|M|50.91,80.19|N|To Taronn Redfeather.|
@@ -72,7 +77,7 @@ A See the Invisible|QID|28049|PRE|28000|M|41.93,71.94|N|From Impsy.|
 C See the Invisible|QID|28049|M|42.95,75.32|N|Kill and loot slimes around the river and pools nearby.|
 T See the Invisible|QID|28049|M|41.95,71.94|N|To Impsy, back at the Ruins of Constellas.|
 A Touch the Untouchable|QID|28044|PRE|28049|M|41.95,71.94|N|From Impsy.|
-C Touch the Untouchable|QID|28044|U|62920|M|40.96,75.74;42.23,79.89|N|Use the phaseblood potion at the Mark of Tichondrious. Once you are in the other plane, follow the arrow to the voidwalker you need to kill.|
+C Touch the Untouchable|QID|28044|U|62920|M|40.96,75.74;42.23,79.89|CS|N|Use the phaseblood potion at the Mark of Tichondrious. Once you are in the other plane, follow the arrow to the voidwalker you need to kill.|
 T Touch the Untouchable|QID|28044|M|41.95,71.95|N|The turn-in will pop up automatically, and turning it in will pull you back to the Ruins of Constellas.|
 A Break the Unbreakable|QID|28113|PRE|28044|M|41.92,72.00|N|From Arcanist Delaris.|
 A Fight the Power|QID|28102|PRE|28044|M|42.03,71.84|N|From Eridan Bluewind.|

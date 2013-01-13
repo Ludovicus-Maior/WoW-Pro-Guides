@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2013-01-13 19:46
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3221/revisions/25343/view
 -- Date: 2013-01-11 23:28
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -163,7 +168,7 @@ T Investigate An'daroth|QID|9160|M|44.94,32.44|N|To Dame Auriferous.|
 A Into Occupied Territory|QID|9163|M|44.94,32.44|N|From Dame Auriferous.|
 A Retaking Windrunner Spire|QID|9173|M|44.83,32.39|N|From High Executor Mavren.|
 T The Plagued Coast|QID|9149|M|47.59,34.74|N|To Apothecary Renzithen.|
-l Rotting Hearts|QID|9140|L|22641 10|N|Kill any Risen Hungerers or Risen Stalkers farther south. Be careful of Luzran.\nRisen Stalkers are higher level but seem to have higher drop rate.|M|38.94,36.68;38.06,56.25|
+l Rotting Hearts|QID|9140|L|22641 10|N|Kill any Risen Hungerers or Risen Stalkers farther south. Be careful of Luzran.\nRisen Stalkers are higher level but seem to have higher drop rate.|M|38.94,36.68;38.06,56.25|CN|
 A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
 C Trouble at the Underlight Mines|QID|9192|M|29.25,47.93|N|Head down the slope and kill any gnoll you need.|
 C Underlight Ore Samples|QID|9207|M|29.25,47.93|N|You should have all the ore you need by the time you get done the previous step. If not, keep killing gnolls till you do.|
@@ -193,7 +198,7 @@ A Clearing the Way|QID|9281|M|46.44,56.43|N|From Apprentice Vor'el. Kill any Gho
 A The Farstrider Enclave|QID|9282|M|55.07,48.89|N|From Magister Kaendris.|
 
 T Underlight Ore Samples|QID|9207|M|55.00,48.61|N|To Magister Quallestis.|
-T Deliver the Plans to An'telas|QID|9166|M|56.53,45.39;60.28,35.74|N|To Magister Sylastor.|
+T Deliver the Plans to An'telas|QID|9166|M|56.53,45.39;60.28,35.74|CC|N|To Magister Sylastor.|
 A Deactivate An'owyn|QID|9169|M|60.27,35.74|N|From Magister Sylastor.|
 C Bearers of the Plague|QID|9158|M|63.69,43.46|N|Kill any Ghostclaw Lynx you need.|
 T Bearers of the Plague|QID|9158|M|72.48,32.19|N|To Farstrider Sedina.|
@@ -217,11 +222,11 @@ A Hints of the Past|QID|9162|M|79.63,17.72|N|From the book.|
 T Hints of the Past|QID|9162|M|71.89,32.63|N|To Ranger Vynna.|
 A Report to Magister Kaendris|QID|9172|M|71.89,32.63|N|From Ranger Vynna.|
 K Vampiric Mistbats|QID|9159|QO|Vampiric Mistbat slain: 10/10|M|73.16,37.71|N|Kill 10 Vamperic Mistbats.|
-l Shadowpine Weaponry|QID|9214|L|23167 3|M|80,38;75,45|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|S|
-l Headhunter Axes|QID|9214|L|23165 3|M|80,38;75,45|N|Kill Headhunters until you get 3 Headhunter Axes.|S|
-C Attack on Zeb'Tela|QID|9276|M|80,38;75,45|N|Kill 8 Shadowcasters and 8 Headhunters between the two points.|
-l Shadowpine Weaponry|QID|9214|L|23167 3|M|80,38;75,45|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|US|
-l Headhunter Axes|QID|9214|L|23165 3|M|80,38;75,45|N|Kill Headhunters until you get 3 Headhunter Axes.|US|
+l Shadowpine Weaponry|QID|9214|L|23167 3|M|80,38;75,45|CN|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|S|
+l Headhunter Axes|QID|9214|L|23165 3|M|80,38;75,45|CN|N|Kill Headhunters until you get 3 Headhunter Axes.|S|
+C Attack on Zeb'Tela|QID|9276|M|80,38;75,45|CN|N|Kill 8 Shadowcasters and 8 Headhunters between the two points.|
+l Shadowpine Weaponry|QID|9214|L|23167 3|M|80,38;75,45|CN|N|Kill Shadowcasters until you get 3 Shadowcaster Maces.|US|
+l Headhunter Axes|QID|9214|L|23165 3|M|80,38;75,45|CN|N|Kill Headhunters until you get 3 Headhunter Axes.|US|
 T Attack on Zeb'Tela|QID|9276|M|72.34,31.33|N|To Farstrider Solanna.|
 A Assault on Zeb'Nowa|QID|9277|M|72.34,31.33|N|From Farstrider Solanna.|
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|S|
@@ -241,7 +246,7 @@ r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
 F Hatchet Hills|QID|9169|M|45.5,30.55|N|Fly to Hatchet Hills (Zul'Aman).|
 l Crystal Controlling Orb|QID|9169|L|23191 |M|58.20,64.72|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
 C Deactivate An'owyn|QID|9169|M|58.20,64.72|N|Click on the Night Elf Moon Crystal to deactivate it.|
-C Clearing the Way|QID|9281|M|47.33,63.85;53.96,61.66|N|Go between the two waypoints until you have killed 10 Greater Spindlewebs and 10 Ghostclaw Ravager.|
+C Clearing the Way|QID|9281|M|47.33,63.85;53.96,61.66|CN|N|Go between the two waypoints until you have killed 10 Greater Spindlewebs and 10 Ghostclaw Ravager.|
 T Clearing the Way|QID|9281|M|46.44,56.52|N|To Apprentice Vor'el.|
 T Report to Magister Kaendris|QID|9172|M|55.01,48.93|N|To Magister Kaendris.|
 A The Twin Ziggurats|QID|9176|M|55.02,48.93|N|From Magister Kaendris.|
@@ -251,7 +256,7 @@ A War on Deatholme|QID|9220|M|54.92,48.43|N|From Magister Idonis.|
 l Stone of Flame|QID|9176|M|40.35,49.85|N|Go inside the Howling Ziggurat and loot the Stone of Flame.|L|22599|
 C The Twin Ziggurats|QID|9176|M|34.30,47.60|N|Go inside the Bleeding Ziggurat and loot the Stone of Light.|
 C Curbing the Plague|QID|9159|M|25.25,44.36|N|Kill the 8 Spindleweb Lurkers you need.|
-C Spinal Dust|QID|9218|M|38,51;37,69|N|Kill Dread Sentinels and Deathcage Sorcerers betwee the waypoints until you get 10 Spinal Dust.|
+C Spinal Dust|QID|9218|M|38,51;37,69|CN|N|Kill Dread Sentinels and Deathcage Sorcerers between the waypoints until you get 10 Spinal Dust.|
 C War on Deatholme|QID|9220|M|32.12,76.13|N|Slay 5 Eyes of Dar'khan, 6 Nerubis Centurions and 6 Wailers in Deatholme.|
 T The Twin Ziggurats|QID|9176|M|55.00,48.95|N|To Magister Kaendris.|
 A The Traitor's Destruction|QID|9167|M|55.00,48.95|N|From Magister Kaendris.|
@@ -273,13 +278,13 @@ A Captives at Deatholme|QID|9164|M|47.54,34.80|N|From Apothecary Renzithen.|
 C Apothecary Enith|QID|9164|QO|Apothecary Enith Rescued: 1/1|M|32.1,73.9|N|Go down into the crypt and Talk to Apothecary Enith.|
 K Jurion the Deceiver|QID|9170|QO| Jurion the Deceiver slain: 1/1|M|32.1,74|N|Kill Jurion the Deciever in the crypt.|
 K Mirdoran the Fallen|QID|9170|QO|Mirdoran the Fallen slain: 1/1|M|37.1,79.1|N|Kill Mirdoran the Fallen.|
-C Apprentice Varnis|QID|9164|QO|Apprentice Varnis Rescued: 1/1|M|37.88,84.40;40.97,83.10|N|Go into the butchery and talk to Aprentive Varnis.|
+C Apprentice Varnis|QID|9164|QO|Apprentice Varnis Rescued: 1/1|M|37.88,84.40;40.97,83.10|CS|N|Go into the butchery and talk to Aprentive Varnis.|
 K Borgoth the Bloodletter.|QID|9170|S|M|41,83.1;32.7,89.9|CN|N|Borgoth can be in either butchery.|QO|Borgoth the Bloodletter slain: 1/1|
 C Captives at Deatholme|QID|9164|M|32.8,89.3|N|Talk to Ranger Vedoran to rescue him.|
-C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|N|Masophet can be in either ziggurat..|
-K Borgoth the Bloodletter|QID|9170|US|QO|Borgoth the Bloodletter slain: 1/1|M|41,83.1;32.7,89.9|N|Borgoth can be in either butchery.|
+C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|CN|N|Masophet can be in either ziggurat..|
+K Borgoth the Bloodletter|QID|9170|US|QO|Borgoth the Bloodletter slain: 1/1|M|41,83.1;32.7,89.9|CN|N|Borgoth can be in either butchery.|
 C The Traitor's Destruction|QID|9167|M|32.81,82.45|N|Dar'Khan is a 21 elite, he has 2-4 adds in the same room as him. He likes fear now and then. If you have help, or if you think you can solo him, go ahead. If not, go ahead and skip, though the rewards are nice.|
-N Thalassian Pass|QID|9167|M|31.74,65.24;31.74,65.66|N|To get your exploration Acheivement, go here.|
+N Thalassian Pass|QID|9167|M|31.74,65.24;31.74,65.66|CS|N|To get your exploration Achievement, go here.|
 T The Traitor's Destruction|QID|9167|M|54.99,48.99|N|To Magister Kaendris.|
 A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|R|BloodElf|N|From Magister Kaendris.|
 A Friend of the Sin'dorei|QID|9811|M|54.99,48.99|R|Orc,Troll,Tauren,Undead,Goblin|N|From Magister Kaendris.|

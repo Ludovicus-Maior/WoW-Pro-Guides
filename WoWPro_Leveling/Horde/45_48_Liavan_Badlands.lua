@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
+-- Date: 2013-01-13 19:35
+-- Who: Ludovicus Maior
+-- Log: Added CC tag
+
+-- URL: http://wow-pro.com/node/3248/revisions/25345/view
 -- Date: 2013-01-11 23:32
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -45,7 +50,7 @@ return [[
 
 A To Fuselight Proper|QID|27763|M|92.77,38.90|N|From Eddie Flofizzle.|
 
-T To Fuselight Proper|QID|27763|M|88.37,32.67;65.11,38.29|N|To Dolph Blastus.|
+T To Fuselight Proper|QID|27763|M|88.37,32.67;65.11,38.29|CC|N|To Dolph Blastus.|
 A Easily Swayed|QID|27774|M|65.11,38.29|N|From Dolph Blastus.|
 A When the Going Gets Tough, Cheat|QID|27775|M|64.38,38.00|N|From Garyanne Fleezlebop.|
 f Fuselight|QID|27775|M|64.26,35.13|N|At Mixi Sweetride.|

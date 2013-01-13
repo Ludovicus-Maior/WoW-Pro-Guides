@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
+-- Date: 2013-01-13 17:43
+-- Who: Ludovicus Maior
+-- Log: Copied [A Great Idea] sequence from Alliance guide.
+
+-- URL: http://wow-pro.com/node/3260/revisions/24945/view
 -- Date: 2012-02-11 19:47
 -- Who: Crackerhead22
 -- Log: ?
@@ -44,8 +49,8 @@ A Scavengers Scavenged|QID|25111|RANK|2|PRE|25112|M|52.23,28.09|N|From Driz Plun
 C Rocket Rescue|QID|24910|M|53.34,27.44|N|Hop into the balloon just out of town. Use ability 1 to deliver rockets to the goblins, and use ability 2 on the pirates. When you complete the quest, use the last ability to return to Gadgetzan.|
 T Rocket Rescue|QID|24910|M|51.26,29.91|N|To Megs Dreadshredder.|
 A Momentum|QID|24947|PRE|24910|M|51.26,29.91|N|From Megs Dreadshredder.|
-C Scavengers Scavenged|QID|25111|RANK|2|M|49.43,36.07;44.19,40.97|N|On the way to Megs, stop at the skeletons just outside of town and kill and use the butcherbot on Fire Rocs.|
-T Momentum|QID|24947|M|67.89,41.85;71.84,45.39|N|To Megs Dreadshredder.|
+C Scavengers Scavenged|QID|25111|RANK|2|M|49.43,36.07;44.19,40.97|CN|N|On the way to Megs, stop at the skeletons just outside of town and kill and use the butcherbot on Fire Rocs.|
+T Momentum|QID|24947|M|67.89,41.85;71.84,45.39|CC|N|To Megs Dreadshredder.|
 
 A Dead Man's Chest|QID|24927|PRE|24910|M|71.84,45.39|N|From Megs Dreadshredder.|
 A To The Ground!|QID|24928|PRE|24910|M|71.84,45.39|N|From Megs Dreadshredder.|
@@ -88,16 +93,18 @@ C Gazer Tag|QID|24931|RANK|2|US|M|52.51,54.90|N|From the basilisks spread out to
 T Gazer Tag|QID|24931|RANK|2|M|55.28,60.25|N|To Narain Soothfancy.|
 T Chicken of the Desert|QID|24933|M|55.63,60.79|N|To Zeke Bootscuff.|
 
-A A Great Idea|QID|24951|PRE|24933|M|55.63,60.79|N|From Zeke Bootscuff.|
+A A Great Idea|QID|24951|M|55.60,60.80|N|From Zeke Bootscuff.|
+T Gazer Tag|QID|24931|M|55.27,60.19|N|To Narain Soothfancy.|
+C A Great Idea|QID|24951|U|52031|M|54.48,64.19|N|Look for the big fat beetle, they are usually accompanied by a tiny little one. Throw the bait and WALK back. Do not mount, this will de-spawn your bug.|
+T A Great Idea|QID|24951|M|55.65,60.79|N|To Zeke Bootscuff.|
+
+A Just Trying to Kill Some Bugs|QID|24953|M|55.65,60.79|N|From Zeke Bootscuff.|
 R Talk to Narain Soothfancy.|QID|24953|CC|M|55.25,60.26|N|All that meat grinding was worth it, now you get to pilot a silithid!|
 R Go here|QID|24953|CC|M|54.66,69.60|N|Go to the hole here; it's the first one you see on the way down the ramp and you will be heading south west as you enter.|
 R Then here...|QID|24593|CC|M|54.19,70.07|N|Go to the cave mouth here, and take the left fork.|
 R Then finally here...|QID|24593|CC|M|54.02,71.85|N|Into the circle room. Get in there center, and hit button 2.|
 C Just Trying to Kill Some Bugs|QID|24953|M|54.54,72.01|N|Explode!|
-T A Great Idea|QID|24951|M|55.64,60.84|N|To Zeke Bootscuff.|
-A Just Trying to Kill Some Bugs|QID|24953|M|55.64,60.84|N|From Zeke Bootscuff.|
-C Just Trying to Kill Some Bugs|QID|24953|NC|M|55.25,60.26;54.52,72.05|N|Speak with Narian Soothfancy to start. Use ability 1 to find your way to the hive and to the correct tunnel. Use ability 2 once you get to the end of the trail.|
-T Just Trying to Kill Some Bugs|QID|24953|M|55.64,60.82|N|To Zeke Bootscuff.|
+T Just Trying to Kill Some Bugs|QID|24953|M|55.65,60.83|N|To Zeke Bootscuff.|
 
 A Returning a Favor|QID|24905|PRE|24953|M|55.64,60.82|N|From Zeke Bootscuff.|
 A Find OOX-17/TN!|QID|351|O|U|8623|N|By now you should be high enough level to handle the Beacon quest. This is why I have pathed this guide like this up until now, giving you more chance to loot the Beacon. If you have not had the beacon drop please skip this step.|

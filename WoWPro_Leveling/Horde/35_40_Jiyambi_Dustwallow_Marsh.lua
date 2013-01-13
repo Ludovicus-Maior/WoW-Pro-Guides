@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2013-01-13 19:37
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3242/revisions/24929/view
 -- Date: 2012-01-30 10:50
 -- Who: Crackerhead22
 -- Log: ?
@@ -131,7 +136,7 @@ T Return to Krog|RANK|2|QID|27292|M|36.44,31.80|N|To Krog.|
 A More than Coincidence|RANK|2|QID|27294|PRE|27292|M|36.44,31.80|N|From Krog.|
 A The Grimtotem Plot|RANK|2|QID|27293|PRE|27292|M|36.45,31.84|N|From Krog.|
 C More than Coincidence|RANK|2|QID|27294|NC|M|41.68,13.16|S|N|Right-click the weapons racks to gather armaments.|
-l Grimtotem Notes|QID|27293|M|41.01,10.59;40.79,12.22;42.39,11.55;42.05,11.01|L|33050 4|N|Gather notes from Grimtotem Elders.|
+l Grimtotem Notes|QID|27293|M|41.01,10.59;40.79,12.22;42.39,11.55;42.05,11.01|CN|L|33050 4|N|Gather notes from Grimtotem Elders.|
 C The Grimtotem Plot|RANK|2|QID|27293|U|33050|N|Use the notes to create the Battle Plan.|
 C More than Coincidence|RANK|2|QID|27294|NC|M|41.68,13.16|US|N|Right-click the weapons racks to gather armaments.|
 
@@ -166,7 +171,7 @@ A Delivery for Drazzit|RANK|2|QID|11208|PRE|27348|M|53.53,56.88|N|From Moxie Ste
 T Corrosion Prevention|RANK|2|QID|27347|M|53.53,56.88|N|To Moxie Steelgrille.|
 
 C Direhorn Raiders|RANK|1|QID|27340|M|45.81,45.05|S|N|Kill Direhorn Grimtotems.|
-C Raze Direhorn Post!|RANK|2|QID|27296|U|33072|M|47.33,47.46;47.18,46.67;46.65,46.15|N|At the village to the north. Use the torch on each tent.|
+C Raze Direhorn Post!|RANK|2|QID|27296|U|33072|M|47.33,47.46;47.18,46.67;46.65,46.15|CS|N|At the village to the north. Use the torch on each tent.|
 C Direhorn Raiders|RANK|1|QID|27340|M|45.81,45.05|US|N|Kill Direhorn Grimtotems.|
 C The Reagent Thief|RANK|1|QID|27339|M|43.59,54.22|S|N|From spiders and dragonhawks throughout the swamp.|
 C The Grimtotem Weapon|RANK|1|QID|27336|U|33101|M|41.83,55.75|N|Use the totem near a Mottled crocolisk, and kill it - make sure the lightning from the totem is going to the crocolisk or you won't get credit. Need to be in The Quagmire.|
@@ -202,7 +207,7 @@ C Army of the Black Dragon|RANK|1|QID|1168|M|45.64,65.91|S|N|Firemane Scalebane'
 C The Essence of Enmity|RANK|1|QID|27409|U|33088|M|39.98,65.31|S|N|Use the totem on the dragonkin you kill.|
 l Mok'Morokk's Snuff|RANK|1|QID|27424|M|44.49,66.05|L|5834|N|Pick up Mok'Morokk's Snuff.|
 l Mok'Morokk's Grog|RANK|1|QID|27424|M|38.63,65.63|QO|Mok'Morokk's Grog: 1/1|N|Pick up Mok'Morokk's Grog.|
-C Overlord Mok'Morokk's Concern|RANK|1|QID|27424|NC|M|38.55,65.89;36.59,69.52|N|Inside the cave.|
+C Overlord Mok'Morokk's Concern|RANK|1|QID|27424|NC|M|38.55,65.89;36.59,69.52|CS|N|Inside the cave.|
 C Banner of the Stonemaul|RANK|1|QID|27408|NC|M|38.12,69.40|N|Also inside the cave.|
 C Army of the Black Dragon|RANK|1|QID|1168|M|45.64,65.91|US|N|Firemane Scalebane's are in the cave, the others patrol outside the cave and in the ruins.|
 C The Essence of Enmity|RANK|1|QID|27409|U|33088|M|39.98,65.31|US|N|Use the totem on the dragonkin you kill.|
@@ -234,7 +239,7 @@ F Brackenwall Village|RANK|1|QID|27415|M|42.82,72.45|N|Fly to Brackenwall Villag
 
 T The Brood of Onyxia|RANK|1|QID|27415|M|37.14,33.04|N|To Draz'Zilb. Congradulations on a nice reward!|
 A Challenge Overlord Mok'Morokk|RANK|1|QID|27418|PRE|27415|M|36.35,31.50|N|From Overlord Mok'Morokk.|
-C Challenge Overlord Mok'Morokk|RANK|1|QID|27418|M|36.35,31.50;56.61,75.35|N|Attack Overlord Mok'Morokk until he runs.|
+C Challenge Overlord Mok'Morokk|RANK|1|QID|27418|M|36.35,31.50;56.61,75.35|CS|N|Attack Overlord Mok'Morokk until he runs.|
 T Challenge Overlord Mok'Morokk|RANK|1|QID|27418|M|37.09,32.99|N|To Draz'Zilb. Congradulations on a nice reward!|
 
 F Mudsprocket|RANK|1|QID|25478|M|35.57,31.86|N|If you'd like to do Thousand Needles, head down to Mudsprocket.|

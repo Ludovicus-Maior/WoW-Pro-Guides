@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2013-01-13 19:17
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3254/revisions/24944/view
 -- Date: 2012-02-11 17:39
 -- Who: Crackerhead22
 -- Log: ?
@@ -116,17 +121,17 @@ C That Smart One's Gotta Go|RANK|2|QID|28048|M|63.85,86.26|N|At the back of the 
 T Freezing the Pipes|RANK|2|QID|28047|M|69.87,85.09|N|To Brivelthwerp, back on the surface.|
 T That Smart One's Gotta Go|RANK|2|QID|28048|M|69.87,85.09|N|To Brivelthwerp.|
 
-C Carcass Collection|RANK|2|QID|25672|NC|M|83.37,82.65;83.93,73.67|N|Finish up this quest on your way back - the five turtles should have respawned by now.|
+C Carcass Collection|RANK|2|QID|25672|NC|M|83.37,82.65;83.93,73.67|CN|N|Finish up this quest on your way back - the five turtles should have respawned by now.|
 T Carcass Collection|RANK|2|QID|25672|NC|M|96.80,72.40|N|To Ajamon Ghostcaller.|
 A The Mad Magus|RANK|2|QID|25704|PRE|25672|M|96.80,72.40|N|From Ajamon Ghostcaller.|
-C The Mad Magus|RANK|2|QID|25704|U|55230|M|97.20,72.14;85.19,91.72|N|Click on her portal to teleport over to where the magus is, then kill him and use the stick on him.|
-T The Mad Magus|RANK|2|QID|25704|M|86.24,92.11;96.81,72.42|N|Click on the portal to get back to Holdfast. Turn in to Ajamon Ghostcaller.|
+C The Mad Magus|RANK|2|QID|25704|U|55230|M|97.20,72.14;85.19,91.72|CS|N|Click on her portal to teleport over to where the magus is, then kill him and use the stick on him.|
+T The Mad Magus|RANK|2|QID|25704|M|86.24,92.11;96.81,72.42|CS|N|Click on the portal to get back to Holdfast. Turn in to Ajamon Ghostcaller.|
 
 C A Little Payback|RANK|2|QID|25589|M|90.64,79.30|US|N|Finish killing Southsea Pirates.|
 C Quiet the Cannons|RANK|2|QID|25586|M|90.48,80.38|US|N|Right-click the cannons to destroy them.|
 
 C Fool's Gold|QID|25775|M|44.03,37.31|S|NC|N|Pick up Pyrite Chunks.|
-C The Ancient Brazier|QID|25762|U|55986|M|44.03,37.31;42.02,31.54|N|Get on your boat and head out. The cave entrance is at the lake floor level. Use the torch on the brazier at the back of the cave, then kill the elemental and loot the flame from him.|
+C The Ancient Brazier|QID|25762|U|55986|M|44.03,37.31;42.02,31.54|CS|N|Get on your boat and head out. The cave entrance is at the lake floor level. Use the torch on the brazier at the back of the cave, then kill the elemental and loot the flame from him.|
 C Fool's Gold|QID|25775|M|44.03,37.31|US|NC|N|Finish gathering pyrite, it can be found all around this area.|
 
 T Fool's Gold|QID|25775|M|88.60,54.93|N|To Riznek, back at Splithoof Heights.|
@@ -220,7 +225,7 @@ C Release Heartrazor|QID|28088|M|17.93,41.00|N|Kill the Twilight's Hammer NPCs a
 T Release Heartrazor|QID|28088|M|12.76,33.98|N|To Pao'ka Swiftmountain.|
 A The Twilight Skymaster|QID|28098|M|12.76,33.98|N|From Pao'ka Swiftmountain.|
 C The Twilight Skymaster|QID|28098|M|19.40,48.68|N|RIght-click Heartrazor to get a ride up to whre the skymaster is. Fight him - when he reaches zero hit points, you'll get to see an especially cute brand of justice!|
-T The Twilight Skymaster|QID|28098|M|16.02,45.71;12.81,34.03|N|Ride Heartrazor back down to Pao'ka Swiftmountain.|
+T The Twilight Skymaster|QID|28098|M|16.02,45.71;12.81,34.03|CC|N|Ride Heartrazor back down to Pao'ka Swiftmountain.|
 A On to the Bulwark|QID|28124|M|12.81,34.03|N|From Pao'ka Swiftmountain.|
 
 T On to the Bulwark|QID|28124|M|30.44,49.21|N|Get on your boat and head to the Twilight Bulwark. Turn in your quest to Lakota Windsong.|
