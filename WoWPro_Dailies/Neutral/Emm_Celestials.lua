@@ -1,14 +1,46 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2013-01-13 07:10
+-- Who: Emmaleah
+-- Log: Change incorrect QID in A/C steps too...
+
+-- URL: http://wow-pro.com/node/3503/revisions/25408/view
+-- Date: 2013-01-13 04:43
+-- Who: Emmaleah
+-- Log: jade serpant temple updates--updating coords, fix 2 bad QID's, add S/US steps
+
+-- URL: http://wow-pro.com/node/3503/revisions/25349/view
+-- Date: 2013-01-12 04:28
+-- Who: Emmaleah
+-- Log: Draft #2, Temple of the White Tiger works great. I havent had a 2nd trip to any other temple to make sure my changes worked. That being said, test away :)
+
+-- URL: http://wow-pro.com/node/3503/revisions/25281/view
+-- Date: 2013-01-06 11:27
+-- Who: Emmaleah
+-- Log: Initial release.  Let me know what needs more work.  Comments in headers are what I know needs more work.
+
+-- URL: http://wow-pro.com/node/3503/revisions/25159/view
+-- Date: 2012-10-24 11:28
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3503/revisions/25114/view
+-- Date: 2012-10-07 22:32
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("EmmAugCel", "Vale of Eternal Blossoms", "August Celestials Dailies", "MoP", "Emmaleah", "Neutral", function()
 return [[
 
-N Work In Process Disclaimer|N|This guide is a work-in-process. Please report any errors or missing quests on the WowPro Website.|
+N Work In Process Disclaimer|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|
 N Golden Lotus first|N|You need to be revered with the Golden Lotus before you can start the August Celestials Dailies.|
-N Regular Leveling Quests|N|If you haven't done the questlines in Temple of the Jade Serpant (Jade Forest), Temple of Red Crane (Krasarang Wildes) Temple of the White Tiger(Kun-Lai Summit) and Niuzeo's temple (Townlong Steppes) you probably want to, since those quest chains each offor August Celestials rep. It is not required to have done them before doing the dailies.|
+N Regular Leveling Quests|N|If you haven't done the questlines in Temple of the Jade Serpant (Jade Forest), Temple of Red Crane (Krasarang Wildes) Temple of the White Tiger(Kun-Lai Summit) and Niuzeo's temple (Townlong Steppes) you probably want to, since those quest chains each offor August Celestials rep.  It is not required to have done them before doing the dailies.|
 
 ;intro quest - one time - not necesary - may be deprecated in 5.1?
-T A Celestial Task!|QID|32011|FACTION|Alliance|M|84.6,63.6|N|To Sage Whiteheart. If you don't have this quest, it probably isn't available for pick up. It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
-T A Celestial Task!|QID|32010|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom. If you don't have this quest, it probably isn't available for pick up. It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
+T A Celestial Task!|QID|32011|FACTION|Alliance|M|84.6,63.6|N|To Sage Whiteheart. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
+T A Celestial Task!|QID|32010|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
 
 ;pointer quests - alliance
 A Random August Celestal Temple Quest|QID|31376;31378;31380;31382|FACTION|Alliance|M|84.6,63.6|N|From Sage Whiteheart.|
@@ -144,23 +176,23 @@ A Round 4: Naster Windfur|QID|30902|PRE|30885|M|67,56.4|Z|Kun-Lai Summit|N|From 
 C Round 4: Naster Windfur|QID|30902|68.8,43.8|Z|Kun-Lai Summit|N|Challenge Windfur to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 C Round 4: Naster Windfur|QID|30902|M|66.4,46.4|Z|Kun-Lai Summit|N|To Xuen.|
 
-;angry yak temple Sticking out tongue
+;angry yak temple
 A Random daily from Ogo the Elder|QID|30952;30956|PRE|31382+31383|M|39.2,62.2|Z|Townlong Steppes|N|From Ogo the Elder.|
-A Three other random dailies|QID|30953;30954;30955;30957;30958;30959|PRE|31382+31383|M|39.2,62|Z|Townlong Steppes|N|From other NPCs on the Temple Steps. This step will close when you pick up the first quest.|
-N Achievement Opportunity - Yak Attack|ACH|7288|ACTIVE|30956|N|While you can technically do this any time you are at the Yak's temple, it is easiest when you are on the quest The Siege Swells, since in that phase, Niuzao is running around killing everything and there are more attackers available to be killed. What you need to do is tag 15 mobs and kill them in 5 seconds. Unless you are in a full group or really well geared, this is best accomplished by tagging them and positioning them in front of a charging Niuzao.|
+A Three other random dailies|QID|30953;30954;30955;30957;30958;30959|PRE|31382+31383|M|39.2,62|Z|Townlong Steppes|N|From other NPCs on the Temple Steps.  This step will close when you pick up the first quest.|
+N Achievement Opportunity - Yak Attack|ACH|7288|ACTIVE|30956|N|While you can technically do this any time you are at the Yak's temple, it is easiest when you are on the quest The Siege Swells, since in that phase, Niuzao is running around killing everything and there are more attackers available to be killed.  What you need to do is tag 15 mobs and kill them in 5 seconds.  Unless you are in a full group or really well geared, this is best accomplished by tagging them and positioning them in front of a charging Niuzao.|
 C The Unending Siege|QID|30952|M|41,60|Z|Townlong Steppes|S|N|These are the non-elite mantid in the area.|
 C The Siege Swells|QID|30956|M|42,62|Z|Townlong Steppes|S|N|These are the non-elite mantid in the area.|
-C Fallen Sentinels|QID|30953|U|82381|M|42,62|Z|Townlong Steppes|S|N|You can use your own healing spells too. If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
+C Fallen Sentinels|QID|30953|U|82381|M|42,62|Z|Townlong Steppes|S|N|You can use your own healing spells too.  If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
 C The Overwhelming Swarm|QID|30957|M|42,62|Z|Townlong Steppes|S|N|Niuzao should be rampaging around, fight the kunchong in front of him, and he assist your greatly. If he isn't, and you need help, you can pull them to the sentinals for assistance.|
-C A Blade is a Blade|QID|30954|NC|M|42,62|Z|Townlong Steppes|S|N|The mantid mobs drop these on the ground when they die. Be nice and don't take the ones beside where someone else is fighting.|
+C A Blade is a Blade|QID|30954|NC|M|42,62|Z|Townlong Steppes|S|N|The mantid mobs drop these on the ground when they die.  Be nice and don't take the ones beside where someone else is fighting.|
 C Paying Tribute|QID|30955|NC|M|42,62|Z|Townlong Steepes|S|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
 C In Battle's Shadow|QID|30958|NC|M|42,62|Z|Townlong Steepes|S|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
-C The Big Guns|QID|30959|U|82346|M|42,62|Z|Townlong Steepes|N|If you stand at extreme range, the bugs inside are less likely to agro. You can use the pots on the kunchong too if you happen to have "! The Overwhelming Swarm" also.|
+C The Big Guns|QID|30959|U|82346|M|42,62|Z|Townlong Steepes|N|If you stand at extreme range, the bugs inside are less likely to agro. You can use the pots on the kunchong too if you happen to have  "! The Overwhelming Swarm" also.|
 C The Unending Siege|QID|30952|M|41,60|Z|Townlong Steppes|US|N|These are the non-elite mantid in the area.|
 C The Siege Swells|QID|30956|M|42,62|Z|Townlong Steppes|US|N|These are the non-elite mantid in the area.|
-C Fallen Sentinels|QID|30953|U|82381|M|42,62|Z|Townlong Steppes|US|N|You can use your own healing spells too. If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
+C Fallen Sentinels|QID|30953|U|82381|M|42,62|Z|Townlong Steppes|US|N|You can use your own healing spells too.  If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
 C The Overwhelming Swarm|QID|30957|M|42,62|Z|Townlong Steppes|US|N|Niuzao should be rampaging around, fight the kunchong in front of him, and he assist your greatly. If he isn't, and you need help, you can pull them to the sentinals for assistance.|
-C A Blade is a Blade|QID|30954|NC|M|42,62|Z|Townlong Steppes|US|N|The mantid mobs drop these on the ground when they die. Be nice and don't take the ones beside where someone else is fighting.|
+C A Blade is a Blade|QID|30954|NC|M|42,62|Z|Townlong Steppes|US|N|The mantid mobs drop these on the ground when they die.  Be nice and don't take the ones beside where someone else is fighting.|
 C Paying Tribute|QID|30955|NC|M|42,62|Z|Townlong Steepes|US|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
 C In Battle's Shadow|QID|30958|NC|M|42,62|Z|Townlong Steepes|US|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
 T The Unending Siege|QID|30952|M|39.2,62.2|Z|Townlong Steppes|N|To Ogo the Elder.|
