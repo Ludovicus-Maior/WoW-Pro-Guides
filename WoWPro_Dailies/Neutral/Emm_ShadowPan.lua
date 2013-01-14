@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2013-01-13 23:41
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3501/revisions/25407/view
 -- Date: 2013-01-13 04:21
 -- Who: Emmaleah
 -- Log: update 2 more coords. notes at beginning
@@ -87,10 +92,10 @@ C Dark Arts|QID|31043|M|29.8,22.8|NC|N|These are a ground spawn in the area with
 C Illusions Of The Past|QID|31045|M|25,16|N|The illusionists are located in the middle of the island.|
 C Bronze Claws|QID|31044|M|29.8,22.8|US|N|Bronze Quillen in the SE part of the island drop the items needed.|
 C Onyx Hearts|QID|31042|M|24,10|N|If you agro these while flying, you can drag them away from thier Serpentbinder and then only have to kill the Stormclaws.|
-C Egg Rescue!|QID|31041|M|20,18;33,24|S|NC|N|Pick up the eggs scattered around edges of the island.|
+C Egg Rescue!|QID|31041|M|20,18;33,24|CN|S|NC|N|Pick up the eggs scattered around edges of the island.|
 C Little Hatchlings|QID|31046|26,7;33,24|S|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
 C Born Free|QID|31047|M|35,22|S|NC|N|Free the wild cloud serpents located on the SE side of the island by clicking on their ball and chain.|
-C Egg Rescue!|QID|31041|M|20,18;33,24|US|NC|N|Pick up the eggs scattered around edges of the island.|
+C Egg Rescue!|QID|31041|M|20,18;33,24|CN|US|NC|N|Pick up the eggs scattered around edges of the island.|
 C Little Hatchlings|QID|31046|26,7;33,24|US|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
 C Born Free|QID|31047|M|35,22|US|NC|N|Free the wild cloud serpents located on the SE side of the island by clicking on their ball and chain.|
 C Through the Portal|QID|31110|ACTIVE|31039|US|25,12|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|

@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/glop_and_pebble_achievements
+-- Date: 2013-01-13 23:40
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3527/revisions/25485/view
+-- Date: 2013-01-13 21:06
+-- Who: Ludovicus Maior
+-- Log: Uploading existing files to website
+
 WoWPro.Achievements:RegisterGuide("TwiGlop","Deepholm","The Glop Family Line","Quests", "Cataclysm", "Twists", "Neutral", function()
 return [[
 
