@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2013-01-12 18:46
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3469/revisions/25016/view
 -- Date: 2012-06-30 20:52
 -- Who: Ludovicus Maior
 -- Log: Relocate [Well Armed] and [Aid of the Ancients] for better quest flow.
@@ -101,7 +106,7 @@ A Calling for Reinforcements|QID|29199|N|From Arch Druid Hamuul Runetotem.|Z|Mou
 C Achievement step available!|QID|29199|ACH|5870;2|N|Talk to Matoclaw and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|Mount Hyjal|M|27.00,62.60|
 
 A Well Armed|QID|29282|PRE|29281|N|After the little event, accept this quest from Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
-T Well Armed|QID|29282|N|At Ricket, she has relocated to the Molten Front. She can be at three different locations depending on what daily quest she offers today and whether you did your Druids of the Talon or Shadow Wardens dailies. First, check in the cave under the Sentinel Tree, if she isn't there, return to the main quest hub of whichever dailies you did today (Forlorn Spire or near Fireplume Peak).|Z|Molten Front|M|46.78,90.17;66.41,65.41;36.27,56.61|
+T Well Armed|QID|29282|N|At Ricket, she has relocated to the Molten Front. She can be at three different locations depending on what daily quest she offers today and whether you did your Druids of the Talon or Shadow Wardens dailies. First, check in the cave under the Sentinel Tree, if she isn't there, return to the main quest hub of whichever dailies you did today (Forlorn Spire or near Fireplume Peak).|Z|Molten Front|M|46.78,90.17;66.41,65.41;36.27,56.61|CN|
 A Aid of the Ancients|QID|29284|PRE|29283|N|After the little event, accept this quest from Matoclaw.|Z|Mount Hyjal|M|27.17,62.54|
 T Aid of the Ancients|QID|29284|N|At Elderlimb, he has relocated to near the Moonwell at the Molten Front.|Z|Molten Front|M|44.00,88.60|
 
@@ -323,7 +328,7 @@ T Singed Wings|QID|29293|N|At Arthorn Windsong.|Z|Molten Front|M|34.28,56.43|
 T Starting Young|QID|29288|N|At Morthis Whisperwing.|Z|Molten Front|M|34.52,56.20|
 T Peaked Interest|QID|29287|N|At Morthis Whisperwing.|Z|Molten Front|M|34.52,56.20|
 T Mother's Malice|QID|29289|N|At Morthis Whisperwing.|Z|Molten Front|M|34.52,56.20|
-A Strike at the Heart|QID|29305|PRE|29206;29283|N|From Choluna near Fireplume Peak. Also acceptable from Skylord Omnuron near the Sentinel Tree.|Z|Molten Front|M|36.29,56.35;43.04,80.62|
+A Strike at the Heart|QID|29305|PRE|29206;29283|N|From Choluna near Fireplume Peak. Also acceptable from Skylord Omnuron near the Sentinel Tree.|Z|Molten Front|M|36.29,56.35;43.04,80.62|CN|
 C Strike at the Heart|QID|29305|ACH|5873|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Druid of the Talon Thisalee Crow to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day. When you defeat the Lieutenant without getting hit by their special attacks, you will get credit for a step in the achievement 'Ready for Raiding II'.|Z|Molten Front|M|49.00,30.00|
 C Strike at the Heart|QID|29305|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Druid of the Talon Thisalee Crow to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day.|Z|Molten Front|M|49.00,30.00|
 

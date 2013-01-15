@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-01-13 23:44
+-- Who: Ludovicus Maior
+-- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 
+
+-- URL: http://wow-pro.com/node/3440/revisions/25434/view
+-- Date: 2013-01-13 15:23
+-- Who: Ludovicus Maior
+-- Log: Added a CS tag
+
+-- URL: http://wow-pro.com/node/3440/revisions/25156/view
 -- Date: 2012-10-24 03:29
 -- Who: Ludovicus Maior
 -- Log: Add MoP Hallows End.
@@ -104,7 +114,7 @@ A Candy Bucket |QID|13438|M|28.97,56.16|Z|Dragonblight|N|Star's Rest|
 
 F Dalaran|QID|13472|M|72.70,45.68|Z|Dalaran|U|68648|
 A Candy Bucket |QID|13463|M|48.32,40.86|Z|Dalaran|N|The Legerdemain Lounge|
-A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|Z|The Underbelly|U|68648|N|Underbelly|
+A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|Z|The Underbelly|U|68648|CS|N|Underbelly|
 A Candy Bucket |QID|13473|M|42.56,63.27|Z|Dalaran|U|68648|N|Hero's Rest Inn|
 N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
 N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2013-01-13 14:56
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3235/revisions/24550/view
 -- Date: 2011-06-13 19:01
 -- Who: Crackerhead22
 -- Log: Condensed code, added missing notes, added a couple of sticky steps, fixed a few cords, fixed a few notes, added missing quest accept and turn-ins for 1 or 2 quests.
@@ -179,7 +184,7 @@ A A Line in the Dirt|QID|25045|M|49.98,49.53|N|From General Hawthorne.|
 A Lion's Pride|QID|25041|M|49.78,50.46|N|From Sam Trawley.|
 C Lion's Pride|QID|25041|S|M|33.84,39.36|N|Kill 5 of any type of Lion you see.|
 C Fields of Blood|QID|25043|US|M|46.35,47.19|N|Kill  10 Desolation Grunts.|S|
-C A Line in the Dirt|QID|25045|M|46.32,47.23;49.43,54.03|N|Capture the Hill then defend it. Don't reclick the hill if you lose control of it, or the number of mobs will multiply. If you lose control, fall back and try again later, or try another hill|
+C A Line in the Dirt|QID|25045|M|46.32,47.23;49.43,54.03|CN|N|Capture the Hill then defend it. Don't reclick the hill if you lose control of it, or the number of mobs will multiply. If you lose control, fall back and try again later, or try another hill|
 C Diplomacy By Another Means|QID|25044|U|49782|M|43.05,41.87|N|Blow the horn in the pit, then kill Sabersnout.|
 C Fields of Blood|QID|25043|S|M|31.87,30.50|N|Take out the grunts.|
 C Fields of Blood|QID|25043|US|M|46.35,47.19|N|Kill  10 Desolation Grunts.|US|
@@ -207,7 +212,7 @@ A Claim the Battlescar|QID|25081|M|49.08,67.02|N|From Commander Roberts.|
 f Fort Triumph|QID|25081|M|49.20,67.78|N|At Steve Stevenson.|
 A Working the Bugs Out|QID|25082|M|49.26,67.74|N|From Logan Talonstrike.|
 A Pick-a-Part|QID|25075|M|49.43,67.52|N|From Mizzy Pistonhammer.|
-C Working the Bugs Out|QID|25082|U|50128|M|47.79,67.48;48.25,68.45|N|Stand next to the mounds and use the Bucket of Burning Pitch, then kill the Swarmers that appear.|
+C Working the Bugs Out|QID|25082|U|50128|M|47.79,67.48;48.25,68.45|CN|N|Stand next to the mounds and use the Bucket of Burning Pitch, then kill the Swarmers that appear.|
 C Pick-a-Part|QID|25075|S|M|44.01,71.36|N|Pick up Siege Engine Scraps off the ground.|
 C Claim the Battlescar|QID|25081|NC|M|45.3,69.79|N|Kill Battlescar Raiders. Head to the waypoint and get near the flag, you can claim it if the Horde controls it. But it will put you into PvP.|
 C Pick-a-Part|QID|25075|US|M|45.39,70.17|N|Pick up Siege Engine Scraps off the ground.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2013-01-13 01:10
+-- Who: Ludovicus Maior
+-- Log: A few CS,CC and CN tags
+
+-- URL: http://wow-pro.com/node/3313/revisions/24548/view
 -- Date: 2011-06-12 19:52
 -- Who: Crackerhead22
 -- Log: Minor fixes.
@@ -107,7 +112,7 @@ return [[
 R Farwatcher's Glen|QID|25938|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
 
 A Help for Desolace|QID|25938|M|33.09,59.63|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
-R The Charred Vale|QID|25938|M|30.95,62.20;30.23,63.15;30.06,64.98|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|
+R The Charred Vale|QID|25938|M|30.95,62.20;30.23,63.15;30.06,64.98|CS|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|
 T Help for Desolace|QID|25938|M|54.18,9.41|N|To Officer Jankie.|
 A Rerouted!|QID|14384|M|54.18,9.41|N|From Officer Jankie.|
 R Nijel's Point|QID|14384|M|54.18,9.41|N|Mount Jankie's Mount for a ride to Nijel's Point.|
@@ -162,7 +167,7 @@ A Putting Their Heads Together|QID|14364|M|52.94,28.96|N|(UI Alert)|
 l Bleached Skulls|QID|14364|L|48953 100|N|From piles around the compound.|
 C Putting Their Heads Together|QID|14364|U|48953|M|54.96,26.68|N|Use the skulls at the center of the building, and kill Nazargen.|
 C Ears Are Burning|QID|14362|M|53.20,27.48|US|N|Kill and loot Burning Blade mobs for their ears.|
-C Fletch Me Some Plumage!|QID|14253|US|M|46.33,34.99;49.68,25.62|RANK|2|N|Finish collecting Dread Swoop Feathers.|
+C Fletch Me Some Plumage!|QID|14253|US|M|46.33,34.99;49.68,25.62|CN|RANK|2|N|Finish collecting Dread Swoop Feathers.|
 f Ethel Rethor|QID|14365|M|39.04,27.01|N|At Korrah's Hippogryph.|
 T Ethel Rethor|QID|14365|M|38.83,26.97|N|To Cenarion Researcher Korrah.|
 
@@ -205,8 +210,8 @@ T Putting Their Heads Together|QID|14364|M|66.61,10.98|N|To Captain Pentigast.|
 T Ears Are Burning|QID|14362|M|66.61,10.98|N|To Captain Pentigast.|
 T The Karnitol Shipwreck |QID|1455|M|66.20,9.70|N|To Kreldig Ungor.|
 A The Karnitol Shipwreck|QID|1456|M|66.20,9.70|N|From Kreldig Ungor.|RANK|3|
-C Good Gold For Bad Tail|QID|14252|US|M|59.21,17.02;68.54,21.45|RANK|2|N|Finish gathering basalisk tails.|
-C New Beginnings|QID|14251|US|M|62.53,27.33;68.54,21.45|RANK|2|N|Finish gathering scorpion stingers.|
+C Good Gold For Bad Tail|QID|14252|US|M|59.21,17.02;68.54,21.45|CN|RANK|2|N|Finish gathering basalisk tails.|
+C New Beginnings|QID|14251|US|M|62.53,27.33;68.54,21.45|CN|RANK|2|N|Finish gathering scorpion stingers.|
 T New Beginnings|QID|14251|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Good Gold For Bad Tail|QID|14252|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Fletch Me Some Plumage!|QID|14253|M|60.95,28.92|N|To Bizby.|RANK|2|
@@ -295,7 +300,7 @@ R Bolgan's Hole|QID|14328|M|38.51,91.04|N|Go down into the crevice, then around 
 T Three Princes|QID|14328|M|40.42,95.50|N|To Khan Shodo.|
 A Not So Fast!|QID|14329|M|40.42,95.50|N|From Khan Shodo.|
 H Karnum's Glade|QID|14329|N|If you don't want to hearth, Run back to Thargad's Camp. (Manually check this step off if you do not hearth.)|
-F Thargad's Camp|QID|14329|N|Fly here. Run if you did not Hearth.|M|57.72,49.75;36.76,71.68|
+F Thargad's Camp|QID|14329|N|Fly here. Run if you did not Hearth.|M|57.72,49.75;36.76,71.68|CC|
 C Not So Fast!|QID|14329|M|33.86,50.58|N|Kill 10 Maraudine Maulers. Loot the centaurs, they will drop a quest item.|
 T Not So Fast!|QID|14329|M|33.86,50.58|N|(UI Alert)|
 A Behind Closed Doors|QID|14330|U|38567|M|25.88,77.06|N|From the Maraudine Prisoner Manifest.|
@@ -332,9 +337,9 @@ T Infernal Encroachment|QID|14373|M|36.65,71.29|N|To Thargad.|
 T Portals of the Legion|QID|14374|M|36.65,71.29|N|To Thargad.|
 A Hunting Brendol|QID|14378|M|36.65,71.29|N|From Thargad.|
 A Rock Lobstrock!|QID|14379|M|36.52,71.36|N|From Dumti.|
-C Rock Lobstrock!|QID|14379|M|22,75;28,78|S|N|Low drop rate, you may need to kill in the ocean too. Be aware of the Horde camp also.|
+C Rock Lobstrock!|QID|14379|M|22,75;28,78|CN|S|N|Low drop rate, you may need to kill in the ocean too. Be aware of the Horde camp also.|
 C Hunting Brendol|QID|14378|M|29.2,83.6|N|Find, kill and loot Brendol. He is in stealth and roams around so he may be a little hard to find.|T|Brendol|
-C Rock Lobstrock!|QID|14379|M|22,75;28,78|US|N|Low drop rate, you may need to kill in the ocean too. Be aware of the Horde camp also.|
+C Rock Lobstrock!|QID|14379|M|22,75;28,78|CN|US|N|Low drop rate, you may need to kill in the ocean too. Be aware of the Horde camp also.|
 T Hunting Brendol|QID|14378|M|36.66,71.34|N|To Thargad.|
 A An Impactful Discovery|QID|14380|M|36.69,71.31|N|From Thargad.|
 T Rock Lobstrock!|QID|14379|M|36.45,71.20|N|To Dumti.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
+-- Date: 2013-01-12 22:43
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3479/revisions/25085/view
 -- Date: 2012-09-25 00:23
 -- Who: Ludovicus Maior
 -- Log: Wrong separators in [Captain Grondel's Task]
@@ -51,8 +56,8 @@ T Troll Patrol: Something for the Pain|QID|12564|M|48.8,78.8|Z|Zul'Drak|N|To Cap
 A Captain Rupert's Task|QID|12568;12509;12591|M|58.0,72.4|Z|Zul'Drak|N|From Captain Rupert.|
 
 C Troll Patrol: Done to Death|QID|12568|M|52,72|Z|Zul'Drak|N|Use the Incinerating Oil on Defeated Argent Footmen.|U|38556|
-C Troll Patrol: Intestinal Fortitude|QID|12509|M|53.80,66.00;50.20,79.50;48.20,73.90;55.12,77.10;48.80,76.60;53.60,70.60;51.70,72.29;53.35,79.95;50.95,75.12;54.20,74.35;55.15,68.65;52.05,77.40|Z|Zul'Drak|N|Talk to the cowering Crusade Recruits.|
-C Troll Patrol: Throwing Down|QID|12591|M|51,67;55,71;54.7,70.0|Z|Zul'Drak|N|Use High Impact Grenades near 5 Nethurbian Craters.|U|38574|
+C Troll Patrol: Intestinal Fortitude|QID|12509|M|53.80,66.00;50.20,79.50;48.20,73.90;55.12,77.10;48.80,76.60;53.60,70.60;51.70,72.29;53.35,79.95;50.95,75.12;54.20,74.35;55.15,68.65;52.05,77.40|Z|Zul'Drak|CN|N|Talk to the cowering Crusade Recruits.|
+C Troll Patrol: Throwing Down|QID|12591|M|51,67;55,71;54.7,70.0|Z|Zul'Drak|CN|N|Use High Impact Grenades near 5 Nethurbian Craters.|U|38574|
 
 T Troll Patrol: Done to Death|QID|12568|M|58.0,72.4|Z|Zul'Drak|N|To Captain Rupert.|
 T Troll Patrol: Intestinal Fortitude|QID|12509|M|58.0,72.4|Z|Zul'Drak|N|To Captain Rupert.|
@@ -61,8 +66,8 @@ T Troll Patrol: Throwing Down|QID|12591|M|58.0,72.4|Z|Zul'Drak|N|From To Rupert.
 ; Captain Grondel's Task
 A Captain Grondel's Task|QID|12594;12585;12519|M|48.0,63.8|Z|Zul'Drak|N|From Captain Grondel.|
 
-C Troll Patrol: Couldn't Care Less|QID|12594|M|45.20,61.00;49.50,64.55;44.40,63.45;42.55,58.10;43.25,65.38;47.10,65.30;41.80,62.55;44.60,68.30;43.03,60.95;44.01,56.49|Z|Zul'Drak|N|Kill Mossy Rampagers in Drak'Agal.|
-C Troll Patrol: Creature Comforts|QID|12585|M|44.40,71.00;46.10,69.40;44.96,59.54;47.12,61.76;43.39,65.09;44.08,68.12;42.10,59.36;43.92,56.68;43.56,62.16;45.64,64.74;41.83,55.80|Z|Zul'Drak|N|Collect Dead Thornwood.|
+C Troll Patrol: Couldn't Care Less|QID|12594|M|45.20,61.00;49.50,64.55;44.40,63.45;42.55,58.10;43.25,65.38;47.10,65.30;41.80,62.55;44.60,68.30;43.03,60.95;44.01,56.49|Z|Zul'Drak|CN|N|Kill Mossy Rampagers in Drak'Agal.|
+C Troll Patrol: Creature Comforts|QID|12585|M|44.40,71.00;46.10,69.40;44.96,59.54;47.12,61.76;43.39,65.09;44.08,68.12;42.10,59.36;43.92,56.68;43.56,62.16;45.64,64.74;41.83,55.80|Z|Zul'Drak|CN|N|Collect Dead Thornwood.|
 C Troll Patrol: Whatdya Want, a Medal?|QID|12519|M|43,59|Z|Zul'Drak|N|Loot Drakkari Medallions from the nearby Drakkari Corpses.|T|Drakkari Corpse|
 
 T Troll Patrol: Couldn't Care Less|QID|12594|M|48.0,63.8|Z|Zul'Drak|N|To Captain Grondel.|

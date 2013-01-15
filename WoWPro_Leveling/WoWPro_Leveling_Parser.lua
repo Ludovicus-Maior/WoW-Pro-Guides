@@ -254,7 +254,7 @@ local function ParseQuests(...)
 					local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,WoWProDB.char.currentguide,text)
                     WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
 	                table.insert(WoWProDB.global.ZoneErrors, line)
-				    WoWPro.Leveling:Print("Invalid Z tag in:"..text)
+				    WoWPro.Leveling:Error("Invalid Z tag in:"..text)
 				    WoWPro.zone[i] = nil
 				end
 				_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
@@ -272,7 +272,7 @@ local function ParseQuests(...)
 					else
 					    WoWPro.waypcomplete[i] = false
 					    if WoWPro.map[i]:find(";") then
-					        WoWPro.Leveling:Print("Step %s [%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],WoWProDB.char.currentguide)
+					        WoWPro.Leveling:Warning("Step %s [%s:%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
 					    end
 					end
 				end
@@ -707,7 +707,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
         local questid = GetQuestID()
 		if WoWProCharDB.AutoAccept == true and WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
 			if questid ~= tonumber(WoWPro.QID[qidx]) then
-				WoWPro:Print("Expected QID %d, found %d instead on quest [%s]",tonumber(WoWPro.QID[qidx]),questid,questtitle)
+				WoWPro:Warning("Expected QID %d, found %d instead on quest [%s]",tonumber(WoWPro.QID[qidx]),questid,questtitle)
 			end
 		    AcceptQuest()
 		end 

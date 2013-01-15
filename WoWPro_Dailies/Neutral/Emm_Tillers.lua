@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2013-01-13 14:36
+-- Who: Ludovicus Maior
+-- Log: Lots of CN tags
+
+-- URL: http://wow-pro.com/node/3508/revisions/25353/view
+-- Date: 2013-01-12 17:50
+-- Who: Ludovicus Maior
+-- Log: removed accidental line break
+
+-- URL: http://wow-pro.com/node/3508/revisions/25294/view
 -- Date: 2013-01-09 01:46
 -- Who: Ludovicus Maior
 -- Log: Added CS and CN tags
@@ -81,8 +91,7 @@ N Available Quests|N|Because quests are given at various factions, you can accep
 N Non daily quests|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them.  Growing the Farm quests, you probably want to do right away to have more farming plots.|
 N Cooking|N|The favorite meals for the various friends requires cooking 525 or 550.  You can buy the food in the AH or make it yourself.  If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
 
-;Leadin from faction capital... although I imagine everyone will have done it or gone past
-it before they use the guide... including it to be complete.
+;Leadin from faction capital... although I imagine everyone will have done it or gone past it before they use the guide... including it to be complete.
 A The Tillers|QID|31374|LEAD|30252|M|60.4,22.8|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Farmhand Dooka.|
 A The Tillers|QID|31372|LEAD|30252|M|87,60.8|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Tang Ironhoe.|
 T The Tillers|QID|31374|FACTION|Horde|M|52.25,48.79|N|To Farmer Yoon.|
@@ -251,9 +260,9 @@ T Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.17,34.21|N|This ca
 A A Dish for Fish|QID|30427|M|41.7,30.0|REP|Fish Fellreed;1282;Stranger-Good Friend|N|To Fish Fellreed - Twin Fish Platter - Jade Cat. Check this off manually if you have no food or treasure for her.|
 C Talk to Fish|QID|31534|NC|L|87556|M|41.30|In the market or on the dock (where the green dot is).|
 K Enormous Cattail Grouper|QID|30477|T|Enormous Cattail Grouper|L|80228|M|44.52, 22.76|N|Kill and loot the very big fish.|
-K Monstrous Plainshawk|QID|30475|T|Monstrous Plainshawk|L|80232|M|41.98,41.92; 45.97,78.98; 37.36,36.98|N|Kill and loot a 'Bloody Plainshawk Leg'. They are all over the place, the green dots are at spots you can pull them if you don't have a way to do long ranged damage.|
+K Monstrous Plainshawk|QID|30475|T|Monstrous Plainshawk|L|80232|M|41.98,41.92; 45.97,78.98; 37.36,36.98|CN|N|Kill and loot a 'Bloody Plainshawk Leg'. They are all over the place, the green dots are at spots you can pull them if you don't have a way to do long ranged damage.|
 C Blue Freshwater Pearl|QID|30476|M|43,28|N|This is found in any of the giant clams in the lake.|
-C Pick a Goldenfire Orchid|QID|30479|M|41.98,41.92; 45.97,78.98; 37.36,36.98|NC|N|This is a ground spawn up on this mesa area.|
+C Pick a Goldenfire Orchid|QID|30479|M|41.98,41.92; 45.97,78.98; 37.36,36.98|NC|CN|N|This is a ground spawn up on this mesa area.|
 
 A Lost and Lonely|QID|30526|REP|The Tillers;1272;revered;12600|M|42.4,50.2|N|From Lost Dog.|
 C Weed War II|QID|30321|M|38.5,51.81|NC|N|This is just like the version you did leveling. You can stay mounted while you do it.|
@@ -311,20 +320,20 @@ C Yak Statuette|QID|30473|M|34,24|US|N|This can be a ground spawn or drop from t
 C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|US|N|This can be a ground spawn or drop from the mobs.|
 
 ;do quests - virmin area
-C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|S|N|Random drops while killing the other mobs for your other quests.|
-C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|NC|S|N|This is a smallish rock in any of the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|
-C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|S|NC|N|Pick up the jars located in the 3 virmen caves.|;Yan Ironpaw.|
-C Mission: Culling the Vermin|QID|31529|M|39,20;44,22;47,21|S|N|Do this while you are doing the other quests in the virmin area.|
+C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|S|N|Random drops while killing the other mobs for your other quests.|
+C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|CN|NC|S|N|This is a smallish rock in any of the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|
+C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|CN|S|NC|N|Pick up the jars located in the 3 virmen caves.|;Yan Ironpaw.|
+C Mission: Culling the Vermin|QID|31529|M|39,20;44,22;47,21|CN|S|N|Do this while you are doing the other quests in the virmin area.|
 C Haohan's Vote III: Pure Poison|QID|30525|S|QO|Violet Lichen: 1/1|M|44.4,22|N|Found in the grassy areas near the cave entrances.|
 C Haohan's Vote III: Pure Poison|QID|30525|QO|Bloodbloom: 1/1|M|44.2,21.3|N|Found inside vermin caves.|
 C Haohan's Vote III: Pure Poison|QID|30525|QO|Cave Lily: 1/1|M|48.4,18.4|N|Found inside vermin caves.|
 C Haohan's Vote III: Pure Poison|QID|30525|QO|Ghostcap: 1/1|M|39.2,19.2|N|Found inside vermin caves.|
 K Springtail Warren-Mother|T|Springtail Warren Mother|QID|30333|QO|Springtail Warren-Mother slain: 1/1|M|48.6,18.8|N|She is in the last of the 3 burrows.|
 C Haohan's Vote III: Pure Poison|QID|30525|US|QO|Violet Lichen: 1/1|M|44.4,22|N|Found in the grassy areas near the cave entrances.|
-C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|NC|US|N|This is a smallish rock in the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|
-C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|US|NC|N|Pick up the jars located in the 3 virmen caves.|;Yan Ironpaw.|
-C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|US|N|Random drops while killing the other mobs for your other quests.|
-C Mission: Culling the Vermin|QID|31529|M|39,20;44,22;47,21|US|N|Do this while you are doing the other quests in the virmin area.|
+C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|NC|CN|US|N|This is a smallish rock in the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|
+C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|CN|US|NC|N|Pick up the jars located in the 3 virmen caves.|;Yan Ironpaw.|
+C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|US|N|Random drops while killing the other mobs for your other quests.|
+C Mission: Culling the Vermin|QID|31529|M|39,20;44,22;47,21|CN|US|N|Do this while you are doing the other quests in the virmin area.|
 C Mission: Aerial Threat|QID|31531|M|45,16|N|These are the birds that are yellow (non agro).|
 C Mission: Predator of the Cliffs|QID|31532|M|46.4,16.4|N|This bird is in a nest near the virmin caves.|
 C Nana's Vote II: The Sacred Springs|QID|31948|U|89902|M|56,21|N|If you are careful (and land far enough away), you don't have to kill the guardian, Fill your pitcher. If you die here, you have to rez at the angel and try again.|

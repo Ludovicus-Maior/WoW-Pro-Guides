@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2013-01-12 18:42
+-- Who: Ludovicus Maior
+-- Log: Added CS and CN tags
+
+-- URL: http://wow-pro.com/node/3251/revisions/24874/view
 -- Date: 2011-12-23 08:08
 -- Who: Fluclo
 -- Log: Added Level info to the start of the guide, added level appropriate get to area steps, changed Chromie's tasks to Rank 2 as they are not necessary for quest progression of zone.   Added Quest step auto-completion to Chromie's quests.
@@ -178,7 +183,7 @@ A Amidst Death, Life|QID|27421|M|30.22,56.99|N|From Rayne.|RANK|2|
 
 C Marauders of Darrowshire|QID|27389|S|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
 C Postponing the Inevitable|QID|27420|S|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
-C Amidst Death, Life|QID|27421|U|61036|M|34.26,44.66;37.50,43.06;37.54,48.30|N|Head into the middle of the Necropoles and use Rayne's Seeds.|RANK|2|NC|
+C Amidst Death, Life|QID|27421|U|61036|M|34.26,44.66;37.50,43.06;37.54,48.30|CS|N|Head into the middle of the Necropolis and use Rayne's Seeds.|RANK|2|NC|
 C Postponing the Inevitable|QID|27420|US|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
 C Marauders of Darrowshire|QID|27389|US|QO|Resonating Skull: 5/5|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
 
@@ -275,7 +280,7 @@ T Argent Upheaval|QID|27618|M|76.02,75.35|N|To Archmage Angela Dosantos.|
 T To Take the Abbey|QID|27461|M|76.70,73.26|N|To Crusade Commander Eligor Dawnbringer.|
 A Victory From Within|QID|27612|M|76.70,73.26|N|From Crusade Commander Eligor Dawnbringer.|
 A The Assassin|QID|27613|M|76.71,73.30|N|From Crusade Commander Eligor Dawnbringer.|
-C Victory From Within|QID|27612|M|78.48,72.92;77.84,70.99|N|Click on the portals.|
+C Victory From Within|QID|27612|M|78.48,72.92;77.84,70.99|CS|N|Click on the portals.|
 C The Assassin|QID|27613|M|77.85,72.71|N|Go all the way up. He is in stealth.|
 T Victory From Within|QID|27612|M|76.69,73.19|N|To Crusade Commander Eligor Dawnbringer.|
 T The Assassin|QID|27613|M|76.69,73.19|N|To Crusade Commander Eligor Dawnbringer.|
@@ -346,7 +351,7 @@ A Guardians of Stratholme|QID|27525|M|27.58,21.14|N|From Tarenar Sunstrike.|
 A Scourged Mass|QID|27528|M|27.70,21.02|N|From Crusader Kevin Frost.|
 A Defenders of Darrowshire|QID|27529|M|27.70,21.02|N|From Crusader Kevin Frost.|
 A Add 'em to the Pile|QID|27539|M|27.70,21.02|N|From Crusader Kevin Frost.|
-C Guardians of Stratholme|QID|27525|M|24.94,20.41;29.37,20.00|N|Kill Omasum Blighthoof and Karthis Darkrune.|
+C Guardians of Stratholme|QID|27525|M|24.94,20.41;29.37,20.00|CS|N|Kill Omasum Blighthoof and Karthis Darkrune.|
 A The Baroness' Missive|QID|27551|U|61378|N|Omasum Blighthoof or Karthis Darkrune should drop this. If not kill them again until they do.|
 T The Baroness' Missive|QID|27551|M|27.48,21.27|N|To Tarenar Sunstrike.|
 A Gidwin's Fate Revealed|QID|27526|M|27.48,21.27|N|From Tarenar Sunstrike.|

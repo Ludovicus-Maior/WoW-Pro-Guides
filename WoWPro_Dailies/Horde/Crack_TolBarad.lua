@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2013-01-13 19:56
+-- Who: Ludovicus Maior
+-- Log: Spell Orgrimmar right again.
+
+-- URL: http://wow-pro.com/node/3416/revisions/25452/view
+-- Date: 2013-01-13 17:49
+-- Who: Ludovicus Maior
+-- Log: Spell Orgrimmar right and use ,'s to separate coords instead of ;'s!
+
+-- URL: http://wow-pro.com/node/3416/revisions/25451/view
+-- Date: 2013-01-13 17:48
+-- Who: Ludovicus Maior
+-- Log: Malformed coords!
+
+-- URL: http://wow-pro.com/node/3416/revisions/25293/view
 -- Date: 2013-01-09 01:43
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -24,7 +39,7 @@
 WoWPro.Dailies:RegisterGuide("CraToBarH", "Tol Barad", "Tol Barad Guide", "Cata", "Crackerhead22", "Horde", function()
 return [[
 
-R Tol Barad Peninsula|M|47.41,39.3|Z|Orgimmar|N|Click on the Portal to Tol Barad in Orgimmar.|
+R Tol Barad Peninsula|M|47.41,39.3|Z|Orgrimmar|N|Click on the Portal to Tol Barad in Orgrimmar.|
 R Tol Barad|M||N|Head over to Tol Barad.|
 N The quests in the PvP battle area|N|will not flag you as PvP. They can only be done when your faction controls Tol Barad. Also there is a quest giver next to Commander Zanoth, that will appear randomly each time your faction wins Tol Barad. The NPC will either be Private Garnoth, Drillmaster Razgoth, or Staff Sergeant Lazgar.|
 

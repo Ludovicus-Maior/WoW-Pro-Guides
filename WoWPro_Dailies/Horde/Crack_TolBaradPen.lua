@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2013-01-13 19:56
+-- Who: Ludovicus Maior
+-- Log: Spell Orgrimmar right again.
+
+-- URL: http://wow-pro.com/node/3416/revisions/25452/view
+-- Date: 2013-01-13 17:49
+-- Who: Ludovicus Maior
+-- Log: Spell Orgrimmar right and use ,'s to separate coords instead of ;'s!
+
+-- URL: http://wow-pro.com/node/3416/revisions/25451/view
+-- Date: 2013-01-13 17:48
+-- Who: Ludovicus Maior
+-- Log: Malformed coords!
+
+-- URL: http://wow-pro.com/node/3416/revisions/25293/view
 -- Date: 2013-01-09 01:43
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -24,12 +39,12 @@
 WoWPro.Dailies:RegisterGuide("CraToBarPH", "Tol Barad Peninsula", "Tol Barad Peninsula Guide", "Cata", "Crackerhead22", "Horde", function()
 return [[
 
-R Tol Barad Peninsula|M|47.41,39.3|Z|Orgimmar|N|Click on the Portal to Tol Barad in Orgimmar.|
+R Tol Barad Peninsula|M|47.41,39.3|Z|Orgrimmar|N|Click on the Portal to Tol Barad in Orgrimmar.|
 
 A Commander Larmash's Quests|M|53.6,80.6|N|Grab any and all quests from Commander Larmash. This step will close when you pick up the first quest.|QID|28696;28698;28697;28700;28695;28694|
 A Captain Prug's Quests|M|55,79.2|N|Grab any and all quests from Captain Prug. This step will close when you pick up the first quest.|QID|28682;28685;28686;28687;28721|
 A Prvate Sarlosk's Quests|M|55.6,78.6|N|Grab any and all quests from Prvate Sarlosk. This step will close when you pick up the first quest.|QID|28684;28680;28678;28679;28681;28683|
-A 3rd Officer Kronkar's Quests|M|55.2;81|N|Grab any and all quests from 3rd Officer Kronkar. This step will close when you pick up the first quest.|QID|28693;28691;28692;28690;28689|
+A 3rd Officer Kronkar's Quests|M|55.2,81|N|Grab any and all quests from 3rd Officer Kronkar. This step will close when you pick up the first quest.|QID|28693;28691;28692;28690;28689|
 
 C Salvaging the Remains|QID|28690|M|36.2,79.4|N|Kill and loot Ghouls at Forgotten Hill until you have 9 Cursed Femurs.|
 C The Forgotten|QID|28689|M|36.2,79.4|N|Click on the sparkling gravestones. When you click on one, an Angry Spirit will appear.|
@@ -80,12 +95,12 @@ T Salvaging the Remains|QID|28690|M|55,79.2|N|To Captain Prug.|
 T Magnets, How Do They Work?|QID|28692|M|55,79.2|N|To Captain Prug.|
 T Finish The Job|QID|28693|M|55,79.2|N|To Captain Prug.|
 
-T A Sticky Task|QID|28684|M|55.2;81|N|To 3rd Officer Kronkar.|
-T Thinning the Brood|QID|28683|M|55.2;81|N|To 3rd Officer Kronkar.|
-T Captain P. Harris|QID|28678|M|55.2;81|N|To 3rd Officer Kronkar.|
-T Shark Tank|QID|28681|M|55.2;81|N|To 3rd Officer Kronkar.|
-T Boosting Morale|QID|28680|M|55.2;81|N|To 3rd Officer Kronkar.|
-T Rattling Their Cages|QID|28679|M|55.2;81|N|To 3rd Officer Kronkar.|
+T A Sticky Task|QID|28684|M|55.2,81|N|To 3rd Officer Kronkar.|
+T Thinning the Brood|QID|28683|M|55.2,81|N|To 3rd Officer Kronkar.|
+T Captain P. Harris|QID|28678|M|55.2,81|N|To 3rd Officer Kronkar.|
+T Shark Tank|QID|28681|M|55.2,81|N|To 3rd Officer Kronkar.|
+T Boosting Morale|QID|28680|M|55.2,81|N|To 3rd Officer Kronkar.|
+T Rattling Their Cages|QID|28679|M|55.2,81|N|To 3rd Officer Kronkar.|
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 

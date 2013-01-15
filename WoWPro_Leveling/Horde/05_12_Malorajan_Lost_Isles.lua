@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2013-01-13 19:49
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3212/revisions/25450/view
+-- Date: 2013-01-13 17:46
+-- Who: Ludovicus Maior
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3212/revisions/25127/view
 -- Date: 2012-10-08 19:44
 -- Who: Ludovicus Maior
 -- Log: Get rid of - in zone
@@ -118,7 +128,7 @@ T Capturing the Unknown|QID|14031|M|27.86,75.55|N|To Sassy Hardwrench.|
 T Orcs Can Write?|QID|14233|M|27.86,75.55|N|To Sassy Hardwrench.|
 
 A The Enemy of My Enemy|QID|14234|M|27.86,75.55|N|From Sassy Hardwrench.|
-R Horde Base Camp|QID|14234|M|31.09,80.61;34.36,80.86;37.60,78.00|N|Head south following the beach, then follow the path to the Horde Base Camp.|
+R Horde Base Camp|QID|14234|M|31.09,80.61;34.36,80.86;37.60,78.00|CS|N|Head south following the beach, then follow the path to the Horde Base Camp.|
 T The Enemy of My Enemy|QID|14234|M|37.60,78.00|N|To Aggra.|
 A The Vicious Vale|QID|14235|M|37.60,78.00|N|From Aggra.|
 T The Vicious Vale|QID|14235|M|35.45,75.75|N|To Kilag Gorefang.|
@@ -206,7 +216,7 @@ A Free the Captives|QID|24925|M|56.55,71.90|N|From Izzy.|
 A Send a Message|QID|24929|M|56.54,71.85|N|From Izzy.|
 L Level 9|QID|24929|LVL|9|N|You should be around level 9 by this point.|
 C Free the Captives|QID|24925|M|60.00,70.20|S|N|Kill Oomlet Shamans that are channeling next to the Goblin Captives.|
-C Send a Message|QID|24929|M|59.11,70.29;59.36,67.46;62.90,69.19|N|Follow the waypoints to Yngwie and kill him.|
+C Send a Message|QID|24929|M|59.11,70.29;59.36,67.46;62.90,69.19|CS|N|Follow the waypoints to Yngwie and kill him.|
 C Free the Captives|QID|24925|M|60.00,70.20|US|N|Kill Oomlet Shamans that are channeling next to the Goblin Captives.|
 T Free the Captives|QID|24925|M|56.55,71.94|N|To Izzy.|
 T Send a Message|QID|24929|M|56.55,71.94|N|To Izzy.|
@@ -339,7 +349,7 @@ A Message for Garrosh|QID|25267|M|57.67,9.6|Z|Durotar|N|From Korkron Loyalist.|
 T Message for Garrosh|QID|25267|M|48.2,70.72|Z|Orgrimmar|N|To Garrosh Hellscream.|
 A Report to the Labor Captain|QID|25275|M|48.2,70.72|Z|Orgrimmar|N|From Garrosh Hellscream.|
 N Visit your trainers, AH, etc.|N|Close this step when ready to continue.|
-R Azshara|QID|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|N|Run to Azshara.|Z|Orgrimmar|
+R Azshara|QID|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|CS|N|Run to Azshara.|Z|Orgrimmar|
 T Report to the Labor Captain|QID|25275|M|26.98,77.11|Z|Azshara|N|To Labor Captain Grabbit.|
 
 ]]

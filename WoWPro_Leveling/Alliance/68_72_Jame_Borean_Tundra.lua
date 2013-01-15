@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2013-01-12 18:59
+-- Who: Ludovicus Maior
+-- Log: Added CN and CC tags
+
+-- URL: http://wow-pro.com/node/3289/revisions/25038/view
 -- Date: 2012-07-27 19:27
 -- Who: Estelyen
 -- Log: Rewrite of the guide to allow for starting Northrend at level 68
@@ -267,12 +272,12 @@ A The Mechagnomes |QID|11708|N|From Fizzcrank Fullthrottle|M|57.03,18.71|
 C The Mechagnomes |QID|11708|N|Listen to Fizzcrank Fullthrottle until the quest completes.|M|57.03,18.71|
 T The Mechagnomes |QID|11708|N|To Jinky Wingnut outside the inn.|M|57.44,18.74|
 A Re-Cursive |QID|11712|N|From Jinky Wingnut|M|57.44,18.74|
-T The Ultrasonic Screwdriver |QID|11729|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
+T The Ultrasonic Screwdriver |QID|11729|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 
 L Level 69|QID|11712|LVL|69|N|You should be level 69 by now. If you aren't, it shouldn't be long, so kill a few mobs until you are, as the next couple of quests require level 69 to accept.|
 
-A Master and Servant |QID|11730|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
-A Dirty, Stinkin' Snobolds! |QID|11645|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
+A Master and Servant |QID|11730|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
+A Dirty, Stinkin' Snobolds! |QID|11645|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A What's the Matter with the Transmatter? |QID|11710|N|From Mordle Cogspinner.|M|57.51,18.61|
 A King Mrgl-Mrgl |QID|11704|N|From Mordle Cogspinner|M|57.51,18.61|
 C Crafty's Stuff |QID|11645|M|58,15|S|N|Loot crates that you see.|
@@ -280,8 +285,8 @@ A Get Me Outa Here! |QID|11673|N|Jump down the hole here and try to land in the 
 C Get Me Outa Here! |QID|11673|N|Continue collecting Crafty's Stuff as needed while escorting the Gnome out.|M|55.6,12.6|
 C Crafty's Stuff |QID|11645|M|58,15|US|N|Finishing getting any crates that you need.|
 T Get Me Outa Here!|QID|11673|N|To Fizzcrank Fullthrottle in the inn on the second floor at Fizzcrank Airstrip.|M|57.03,18.71|
-T Dirty, Stinkin' Snobolds! |QID|11645|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
-A Just a Few More Things... |QID|11650|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
+T Dirty, Stinkin' Snobolds! |QID|11645|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
+A Just a Few More Things... |QID|11650|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 C Master and Servant |QID|11730|U|35116|N|Kill robots and use The Ultrasonic Screwdriver on them.|M|57.52,25.03|S|
 C What's the Matter with the Transmatter? |QID|11710|N|Pick up Fizzcrank Spare Parts.|M|62.15,19.5|S|
 C Re-Cursive |QID|11712|U|34973|N|Kill Mechagnomes and use the Re-Cursive Transmatter Injection on them.|M|58.4,19.5|S|
@@ -323,7 +328,7 @@ C Words of Power |QID|11942|N|Kill the Necromancers around him, then High Priest
 T Words of Power |QID|11942|N|To Thassarian inside the Ziggurat.|M|84.80,41.67|
 A Last Rites |QID|12019|N|From Thassarian.|M|84.80,41.67|
 C Last Rites |QID|12019|N|You'll have Thassarian's help. Take the portal up to Naxxanar in En'kilah, then take the portal above it to the top. Speak to Thassarian to start the event.|M|86.60,28.50|
-T Last Rites |QID|12019|N|To Thassarian.|M|86.60,28.50;84.80,41.67|
+T Last Rites |QID|12019|N|To Thassarian.|M|86.60,28.50;84.80,41.67|CN|
 T A Little Bit of Spice |QID|11726|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 
 A Lupus Pupus |QID|11728|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
@@ -345,8 +350,8 @@ A The Gearmaster |QID|11798|N|From Jinky Wingnut.|M|57.45,18.74|
 T What's the Matter with the Transmatter? |QID|11710|M|57.37,18.82|N|To Mordle Cogspinner.|
 A Check in With Bixie |QID|11692|M|57.4,18.7|N|From Mordle Cogspinner.|
 T Master and Servant |QID|11730|M|57.84,18.70|N|To Crafty Wobblesprocket|
-T Just a Few More Things... |QID|11650|N|To Crafty Wobblesprocket|M|57.58,18.71;58.18,18.34|
-A Hah... You're Not So Big Now! |QID|11653|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
+T Just a Few More Things... |QID|11650|N|To Crafty Wobblesprocket|M|57.58,18.71;58.18,18.34|CN|
+A Hah... You're Not So Big Now! |QID|11653|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 r Sell junk, repair and re-stock food/drink. |QID|11701|M|57.07,19.85|
 T Give Fizzcrank the News |QID|11873|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 h Fizzcrank Airstrip |QID|11713|N|Set your hearthstone here with "Charlie" Northrop in the building on the ground floor.|M|57.12,18.72|
@@ -356,8 +361,8 @@ C Hah... You're Not So Big Now! |QID|11653|U|34812|N|Use Crafty's Ultra-Advanced
 N Northwest Sinkhole |U|34920|QID|11713|QO|Mark Location of Northwest Sinkhole: 1/1|N|Use the Map of the Geyser Fields at the Northwest Sinkhole.|M|66.23,32.15|
 N Northeast Sinkhole |U|34920|QID|11713|QO|Mark Location of Northeast Sinkhole: 1/1|N|Use the Map of the Geyser Fields at the Northeast Sinkhole.|M|69.68,32.59|
 C Scouting the Sinkholes |QID|11713|U|34920|N|Use the Map of the Geyser Fields at the South Sinkhole to complete the quest.|M|70.23,36.34|
-T Hah... You're Not So Big Now! |QID|11653|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
-A Plan B |QID|11658|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
+T Hah... You're Not So Big Now! |QID|11653|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
+A Plan B |QID|11658|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 T Scouting the Sinkholes |QID|11713|N|To Abner Fizzletorque.|M|57.06,20.12|
 A Fueling the Project |QID|11715|N|From Abner Fizzletorque.|M|57.06,20.12|
 C Fueling the Project |QID|11715|U|34975|N|Use the Portable Oil Collector on Oil Slicks in the pools southeast of town until you complete this quest. Don't stand right on top of the oil slicks or you might be trapped inside the Collector.|M|57.52,25.03|
@@ -368,8 +373,8 @@ C Plan B |QID|11658|N|Grab the Warsong Banner here and loot 10 Warsong Outfits f
 
 T A Bot in Mammoth's Clothing |QID|11718|N|To Abner Fizzletorque.|M|57.06,20.12|
 A Deploy the Shake-n-Quake! |QID|11723|N|From Abner Fizzletorque.|M|57.06,20.12|
-T Plan B |QID|11658|N|To Crafty Wobblesprocket who wanders a bit at the Fizzcrank Airstrip.|M|57.58,18.71;58.18,18.34|
-A It Was The Orcs, Honest! |QID|11670|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
+T Plan B |QID|11658|N|To Crafty Wobblesprocket who wanders a bit at the Fizzcrank Airstrip.|M|57.58,18.71;58.18,18.34|CN|
+A It Was The Orcs, Honest! |QID|11670|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 U Use Crafty's Sack |QID|11670|L|34869|N|Loot the items from Crafty's Sack.|U|34871|
 C It Was The Orcs, Honest! |QID|11670|U|34869|N|Go north to the cave we jumped into earlier. Use the Orc Disguise, then jump down and try to land in the water. Kill Magmothregar and plant the Warsong Banner in his corpse.|M|55.29,12.11|
 H Fizzcrank Airstrip |QID|11713|N|Hearthstone to Fizzcrank Airstrip.|
@@ -402,7 +407,7 @@ C Deploy the Shake-n-Quake! |QID|11723|U|34981|N|Head down to the south sinkhole
 T Back to the Airstrip |QID|11701|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 T The Gearmaster |QID|11798|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 T Deploy the Shake-n-Quake! |QID|11723|N|To Abner Fizzletorque.|M|57.06,20.12|
-T It Was The Orcs, Honest! |QID|11670|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|
+T It Was The Orcs, Honest! |QID|11670|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 
 L Level 70|QID|11704|LVL|70|N|You should be level 70 by now. If you aren't, it shouldn't be long, so kill a few mobs until you are, as the next couple of quests require level 70 to accept.|
 
@@ -568,7 +573,7 @@ A Keymaster Urmgrgl |QID|11569|N|Get this quest from Glrglrglr.|M|37.8,23.2|
 C Keymaster Urmgrgl |QID|11569|N|Go downstairs and kill Urmgrgl for his key.|M|38.75,22.71|
 T Keymaster Urmgrgl |QID|11569|N|To Glrglrglr.|M|37.8,23.2|
 A Escape from the Winterfin Caverns |QID|11570|N|From Lurgglbr.|M|37.8,23.0|
-C Escape from the Winterfin Caverns |QID|11570|N|Escort Lurgglbr outside.|M|38.27,21.94;39.72,21.51;39.50,18.46;40.11,16.70;40.90,16.89;41.36,16.33|
+C Escape from the Winterfin Caverns |QID|11570|N|Escort Lurgglbr outside.|M|38.27,21.94;39.72,21.51;39.50,18.46;40.11,16.70;40.90,16.89;41.36,16.33|CS|
 C Oh Noes, the Tadpoles! |QID|11560|N|Free Murloc Tadpoles by clicking on the cages.|M|40.6,17.5|US|
 C Them! |QID|11561|N|Kill Winterfin murlocs.|US|
 T Oh Noes, the Tadpoles! |QID|11560|N|To King Mrgl-Mrgl.|M|43.50,13.97|
@@ -595,7 +600,7 @@ F Unu'pe |QID|12117|N|Fly to Unu'pe.|M|45.26,34.42|
 b Moa'ki Harbor |QID|12117|N|Take the turtle to Moa'ki Harbor in Dragonblight.|M|78.91,53.67|
 T Travel to Moa'ki Harbor |QID|12117|N|To Ko'nani|Z|Dragonblight|M|48.01,74.88|
 b Kamagua |QID|11228|N|Use the pier on your left-hand side to travel to Kamagua.|Z|Dragonblight|M|49.63,78.42|
-R Valgarde |QID|11228|N|Take the Ancient Lift, then follow the waypoint arrows.|Z|Howling Fjord|M|24.70,62.27;44.3,59.1;46,50;51,44.67;52.3,47.8;59.6,61.0|
+R Valgarde |QID|11228|N|Take the Ancient Lift, then follow the waypoint arrows.|Z|Howling Fjord|M|24.70,62.27;44.3,59.1;46,50;51,44.67;52.3,47.8;59.6,61.0|CC|
 
 ]]
 end)

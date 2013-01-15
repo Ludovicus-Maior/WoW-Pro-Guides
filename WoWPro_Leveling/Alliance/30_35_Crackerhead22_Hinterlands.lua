@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2013-01-13 14:43
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3239/revisions/24535/view
 -- Date: 2011-06-08 19:59
 -- Who: Crackerhead22
 -- Log: Minor tweaks, fixed certain quests not auto-completing.
@@ -49,16 +54,16 @@
 WoWPro.Leveling:RegisterGuide('CraHin3035', 'The Hinterlands', 'Crackerhead22', '30', '35', 'BitWes3540', 'Alliance', function()
 return [[
 
-R The Hinterlands|QID|26546|M|43.36,45.18;36.71,31.15;38.45,22.89;39.32,19.03|Z|Arathi Highlands|N|Follow the waypoints to The Hinterlands.|
-R Aerie Peak|QID|26546|M|26.29,69.07;26.21,55.04;20.13,53.66;14.17,48.03|N|Follow the waypoints to Aerie Peak.|
+R The Hinterlands|QID|26546|M|43.36,45.18;36.71,31.15;38.45,22.89;39.32,19.03|Z|Arathi Highlands|CC|N|Follow the waypoints to The Hinterlands.|
+R Aerie Peak|QID|26546|M|26.29,69.07;26.21,55.04;20.13,53.66;14.17,48.03|CS|N|Follow the waypoints to Aerie Peak.|
 f Aerie Peak|M|11.17,46.06|N|At Guthrum Thunderfist.|QID|26546|
 T Hero's Call: The Hinterlands!|QID|26542|M|9.96,44.31|N|To Gryphon Master Talonaxe.|O|
 A Razorbeak Friends|QID|26546|M|9.96,44.31|N|From Gryphon Master Talonaxe.|
 A A Mangy Threat|QID|26547|M|9.96,44.31|N|From Gryphon Master Talonaxe.|
 h Wildhammer Keep|QID|26547|M|14.14,44.78|N|Set your hearth to Wildhammer Keep at Innkeeprer Thulfram.|
-C Razorbeak Friends|QID|26546|S|U|58935|M|15.43,52.23;23.26,54.02|N|Throw the meat at the hippogryphs. They tend to be a bit spread out.|
+C Razorbeak Friends|QID|26546|S|U|58935|M|15.43,52.23;23.26,54.02|CN|N|Throw the meat at the hippogryphs. They tend to be a bit spread out.|
 C A Mangy Threat|QID|26547|M|21.00,53.91|N|Kill any wolf you see.|
-C Razorbeak Friends|QID|26546|US|U|58935|M|15.43,52.23;23.26,54.02|N|Throw the meat at the hippogryphs. They tend to be a bit spread out.|
+C Razorbeak Friends|QID|26546|US|U|58935|M|15.43,52.23;23.26,54.02|CN|N|Throw the meat at the hippogryphs. They tend to be a bit spread out.|
 T Razorbeak Friends|QID|26546|M|9.97,44.27|N|To Gryphon Master Talonaxe.|
 T A Mangy Threat|QID|26547|M|9.97,44.27|N|To Gryphon Master Talonaxe.|
 A Out to the Front|QID|26548|M|9.97,44.27|N|From Gryphon Master Talonaxe.|
@@ -73,10 +78,10 @@ A 99 Bottles of Booze on the Beach|QID|26486|M|66.27,44.32|N|From Dron Blastbrew
 C The Wicked Revantusk|QID|26462|S|M|71.98,50.71|N|Kill any troll you see.|
 C Gan'dranda|QID|26483|M|73.23,53.72|N|Head to the waypoint and kill Gan'dranda to get his head.|
 C The Wicked Revantusk|QID|26462|US|M|71.98,50.71|N|Kill any troll you see.|
-C 99 Bottles of Booze on the Beach|QID|26486|S|M|77.34,70.34;81.51,48.74|N|Look for little, sparkling blue bottles on the ground.|
-C Snapjaws, Lad!|QID|26485|M|80.55,46.41;77.34,70.34|N|Head to the top of the waterfall and then jump into the water below. Kill any turtle you come across for their gizzard.|
-C 99 Bottles of Booze on the Beach|QID|26486|US|M|77.34,70.34;81.51,48.74|N|Look for little, sparkling blue bottles on the ground.|
-R Stormfeather Outpost|QID|26485|M|76.56,60.89;72.46,66.43;66.28,45.13|N|Follow the waypoints to get back to Stormfeather Outpost.|
+C 99 Bottles of Booze on the Beach|QID|26486|S|M|77.34,70.34;81.51,48.74|CN|N|Look for little, sparkling blue bottles on the ground.|
+C Snapjaws, Lad!|QID|26485|M|80.55,46.41;77.34,70.34|CS|N|Head to the top of the waterfall and then jump into the water below. Kill any turtle you come across for their gizzard.|
+C 99 Bottles of Booze on the Beach|QID|26486|US|M|77.34,70.34;81.51,48.74|CN|N|Look for little, sparkling blue bottles on the ground.|
+R Stormfeather Outpost|QID|26485|M|76.56,60.89;72.46,66.43;66.28,45.13|CC|N|Follow the waypoints to get back to Stormfeather Outpost.|
 T The Wicked Revantusk|QID|26462|M|66.30,44.36|N|To Kerr Ironsight.|
 T Gan'dranda|QID|26483|M|66.30,44.36|N|To Kerr Ironsight.|
 A Skulk Rock Clean-Up|QID|26491|M|66.30,44.36|N|From Kerr Ironsight.|
@@ -87,7 +92,7 @@ A Prime Slime|QID|26490|M|66.27,44.36|N|From Dron Blastbrew.|
 
 C Skulk Rock Supplies|QID|26492|M|57.80,41.44|N|Look around inside the cave to find the Ooze-Coated Supply Crates.|S|
 C Skulk Rock Clean-Up|QID|26491|M|58.29,40.76|N|Killing any Jade Oozes you see.|S|
-C Prime Slime|QID|26490|M|57.42,38.67;57.49,41.20|N|Head into the cave then kill and loot Direglob.|
+C Prime Slime|QID|26490|M|57.42,38.67;57.49,41.20|CS|N|Head into the cave then kill and loot Direglob.|
 C Skulk Rock Supplies|QID|26492|M|57.80,41.44|N|Look around inside the cave to find the Ooze-Coated Supply Crates.|US|
 C Skulk Rock Clean-Up|QID|26491|M|58.29,40.76|N|Head back outside to finish killing any Jade Oozes you need.|US|
 T Skulk Rock Clean-Up|QID|26491|M|66.31,44.39|N|To Kerr Ironsight.|
@@ -127,20 +132,20 @@ A Summit of Fate|QID|26517|M|63.83,59.97|N|From Fraggar Thundermantle.|
 C It's Ours Now|QID|26516|S|M|67.22,80.36|N|Kill any Soul Eater and Blood Drinker you come across.|
 C Summit of Fate|QID|26517|M|59.20,76.98|N|Talk to Doran and choose to ride Sharpbeak. Loot any Sacrificed Vilebranch you see to get the Spider Idols, you will need 8.|
 C It's Ours Now|QID|26516|US|M|67.22,80.36|N|Kill any Soul Eater and Blood Drinker you come across.|
-T Summit of Fate|QID|26517|M|53.25,66.25;63.75,60.04|N|Head back to Sharpbeak and ride him back down to Fraggar Thundermantle, and then turn the quest in.|
+T Summit of Fate|QID|26517|M|53.25,66.25;63.75,60.04|CS|N|Head back to Sharpbeak and ride him back down to Fraggar Thundermantle, and then turn the quest in.|
 
 A Hunt the Keeper|QID|26526|M|63.76,60.03|N|From Fraggar Thundermantle.|
 A Venomous Secrets|QID|26525|M|63.76,60.03|N|From Fraggar Thundermantle.|
 T It's Ours Now|QID|26516|M|63.85,59.92|N|To Doran Steelwing.|
 C Venomous Secrets|QID|26525|S|M|56.40,83.59|N|Kill 8 Spawn of Shadra.|
-C Hunt the Keeper|QID|26526|M|59.69,77.83;59.05,78.69;57.8,81.55;56.91,83.42;54.59,83.59|N|Head back up on Sharpbeak. Go into the cave, take the middle path at the split. Then take a right and follow the path back to Morta'gya. Kill her and loot the tablet from her.|
+C Hunt the Keeper|QID|26526|M|59.69,77.83;59.05,78.69;57.8,81.55;56.91,83.42;54.59,83.59|CS|N|Head back up on Sharpbeak. Go into the cave, take the middle path at the split. Then take a right and follow the path back to Morta'gya. Kill her and loot the tablet from her.|
 C Venomous Secrets|QID|26525|US|N|Kill 8 Spawn of Shadra.|
 T Hunt the Keeper|QID|26526|M|53.25,66.25|N|Head back to Sharpbeak, then ride him back to Fraggar Thundermantle, to turn the quest in.|
 T Venomous Secrets|QID|26525|M|63.76,60.04|N|To Fraggar Thundermantle.|
 A Quel'Danil Lodge|QID|27725|M|63.99,59.85|N|From Tracker Yoro.|
 H Wildhammer Keep|QID|27725|N|Hearth back to Wildhamer Keep or run if your hearth is on cooldown.|M|13,46|
 r Sell junk, repair/restock.|QID|27725|
-R Quel'Danil Lodge|QID|27725|M|26.37,55;31.9,49.77|N|Run to Quel'Danil Lodge.|
+R Quel'Danil Lodge|QID|27725|M|26.37,55;31.9,49.77|CC|N|Run to Quel'Danil Lodge.|
 T Quel'Danil Lodge|QID|27725|M|32.20,42.63|N|To Anchorite Traska.|
 A In Defense of Quel'Danil|QID|27625|M|32.20,42.63|N|From Anchorite Traska.|
 A The Highvale Documents|QID|27626|M|32.20,42.63|N|From Anchorite Traska.|

@@ -168,7 +168,7 @@ local function ParseQuests(...)
 					local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,WoWProDB.char.currentguide,text)
                     WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
 	                table.insert(WoWProDB.global.ZoneErrors, line)
-				    WoWPro:Print("Invalid Z tag in:"..text)
+				    WoWPro:Error("Invalid Z tag in:"..text)
 				    WoWPro.zone[i] = nil
 				end
 				_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
@@ -186,7 +186,7 @@ local function ParseQuests(...)
 					else
 					    WoWPro.waypcomplete[i] = false
 					    if WoWPro.map[i]:find(";") then
-					        WoWPro.Leveling:Print("Step %s [%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],WoWProDB.char.currentguide)
+					        WoWPro.Profession:Warning("Step %s [%s:%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
 					    end
 					end
 				end

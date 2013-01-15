@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2013-01-13 15:00
+-- Who: Ludovicus Maior
+-- Log: Lost of CN tags
+
+-- URL: http://wow-pro.com/node/3284/revisions/25312/view
 -- Date: 2013-01-09 22:38
 -- Who: Ludovicus Maior
 -- Log: Added CS tag
@@ -90,7 +95,7 @@ C Wanted: Annihilator Servo!|QID|10261|S|T|Arcane Annihilator|M|21.28,69.89|N|Ke
 C Manaforge B'naar|QID|10189|M|27.57,65.41|N|Kill and loot Captain Arathyn to get the B'naar Personnel Roster.|REP|Scryers;934|
 C Distraction at Manaforge B'naar|QID|10241|M|25.32,66.60|N|Kill the mobs needed. The Magisters tend to be around the floating red crystals.|REP|Aldor;932|
 C Wanted: Annihilator Servo!|QID|10261|US|T|Arcane Annihilator|M|21.28,69.89|N|Run around the manaforge for an Arcane Annihilator, kill and loot it. It wanders around the manaforge.|
-C Breaking Down Netherock|QID|10701|T|Netherock|M|37.02,78.03;41,77.1;30.1,80.6;25.4,81.1;21,77.9;19,73.2|N|Netherock patrols along the edge where the waypoints are. Go back and forth along them until you find him.|
+C Breaking Down Netherock|QID|10701|T|Netherock|M|37.02,78.03;41,77.1;30.1,80.6;25.4,81.1;21,77.9;19,73.2|CN|N|Netherock patrols along the edge where the waypoints are. Go back and forth along them until you find him.|
 C Securing the Shaleskin Shale|QID|10342|M|35.92,73.8;30.67,68.42|CS|N|Kill and loot Shaleskin Flayers until you have 5 Shaleskin Shales. If you don't have all 5 by the time your done killing Flayers at the 1st waypoint, head to the 2nd.|
 C The Archmage's Staff|QID|10173|U|29207|M|40.97,72.55|N|Use the Conjuring Powder next to the brazier, then kill and loot Ekkorash.|
 C Consortium Crystal Collection|QID|10265|M|42.41,72.67|N|Kill and loot Pentatharon for the Arkion Crystal Artifact.|
@@ -122,7 +127,7 @@ C Mark V is Alive!|QID|10191|NC|M|31.49,56.50|N|Follow the robot and protect him
 C Rebuilding the Staff|QID|10300|US|M|33.40,54.95|N|Kill and loot the Disembodied Protectors, Vindicators and Exarchs until you have 4 Flawless Crystal Shards.|
 C You're Hired!|QID|10186|US|M|32.31,55.40|N|Loot the red glowing crystals off of the ground.|
 T Mark V is Alive!|QID|10191|M|31.50,56.52|N|To Bot-Specialist Alley.|
-C Recharging the Batteries|QID|10190|S|U|28369|M|35.1,49.43;28.74,51.27|N|Weaken the Phase Hunters (along the edge of Netherstorm) then use the Battery Recharging Blaster. Kill the Drained Phase Hunter.|
+C Recharging the Batteries|QID|10190|S|U|28369|M|35.1,49.43;28.74,51.27|CN|N|Weaken the Phase Hunters (along the edge of Netherstorm) then use the Battery Recharging Blaster. Kill the Drained Phase Hunter.|
 N Northern Pipeline|QID|10313|U|29324|QO|Northern Pipeline Measured: 1/1|M|25.76,59.9|N|Use the Warp-Attuned Orb to measure the Northern Pipeline.|REP|Aldor;932|
 N Western Pipeline|QID|10313|U|29324|QO|Western Pipeline Measured: 1/1|M|20.83,66.85|N|Use the Warp-Attuned Orb to measure the Western Pipeline.|REP|Aldor;932|
 T Naaru Technology|QID|10243|M|23.18,68.13|N|Head inside the Manaforge B'naar and turn the quest in at the B'naar Control Console.|REP|Aldor;932|
@@ -133,8 +138,8 @@ C Bloodgem Crystals|QID|10204|NC|M|26.20,68.56|N|Go near one the smaller floatin
 K Sunfury Warp-Masters|QID|10193|S|QO|Sunfury Warp-Master: 2/2|M|24.28,72.93|N|Kill 2 Sunfury Warp-Masters walking around the Sunfury Geologists.|REP|Scryers;934|
 K Sunfury Geologists|QID|10193|QO|Sunfury Geologist slain: 8/8|M|24.31,72.82|N|Best place to find the Sunfury Geologists.|REP|Scryers;934|
 K Sunfury Warp-Masters|QID|10193|US|QO|Sunfury Warp-Master: 2/2|M|24.28,72.93|N|Kill 2 Sunfury Warp-Masters walking around the Sunfury Geologists.|REP|Scryers;934|
-C High Value Targets|QID|10193|M|22.52,72.37;20.33,70.88|N|Kill Sunfury Warp-Engineers between the two waypoints until you complete the quest.|REP|Scryers;934|
-C Recharging the Batteries|QID|10190|US|U|28369|M|35.1,49.43;28.74,51.27|N|Weaken the Phase Hunters then use the Battery Recharging Blaster. Kill the Drained Phase Hunter.|
+C High Value Targets|QID|10193|M|22.52,72.37;20.33,70.88|CN|N|Kill Sunfury Warp-Engineers between the two waypoints until you complete the quest.|REP|Scryers;934|
+C Recharging the Batteries|QID|10190|US|U|28369|M|35.1,49.43;28.74,51.27|CN|N|Weaken the Phase Hunters then use the Battery Recharging Blaster. Kill the Drained Phase Hunter.|
 C A Heap of Ethereals|QID|10262|S|M|29.92,77.37|N|Kill and loot Zaxxis Ethereals until you get 10 Insignias.|
 C Pick Your Part|QID|10206|S|M|30.48,76.57|N|Loot Ethereal Technology off the ground.|
 
@@ -166,7 +171,7 @@ A Help Mama Wheeler|QID|10333|M|32.95,64.69|N|From Papa Wheeler.|
 T Report to Engineering|QID|10225|M|32.41,66.64|N|To Chief Engineer Trep.|
 A Essence for the Engines|QID|10224|M|32.41,66.64|N|From Chief Engineer Trep.|
 r Repair/Restock|QID|10224|M|32.42,64.44|N|At Blazzle.|
-C Essence for the Engines|QID|10224|M|36.57,59.05;32.41,58.4|N|Go between the waypoints killing and looting Mana Wraiths to get their essence.|
+C Essence for the Engines|QID|10224|M|36.57,59.05;32.41,58.4|CN|N|Go between the waypoints killing and looting Mana Wraiths to get their essence.|
 T Recharging the Batteries|QID|10190|M|31.53,56.66|N|To Bot-Specialist Alley.|
 T Essence for the Engines|QID|10224|M|32.43,66.67|N|To Chief Engineer Trep.|
 
@@ -225,7 +230,7 @@ N Shutting Down Manaforge Coruu|QID|10321|M|49.01,81.52|N|Even though the quest 
 C Attack on Manaforge Coruu|QID|10246|US|QO|Sunfury Researcher slain: 5/5|M|49.01,81.52|N|Kill 5 Sunfury Researchers inside the Manaforge to finish this quest.|REP|Aldor;932|
 T Behind Enemy Lines|QID|10652|M|48.24,86.65|N|To Caledis Brightdawn.|REP|Scryers;934|
 A A Convincing Disguise|QID|10197|M|48.24,86.62|N|From Caledis Brightdawn.|REP|Scryers;934|
-l Sunfury Arcanist Robes|QID|10197|L|28635 |M|47.7,85.28;46.5,81.48;51.57,81.88|N|Kill and loot Sunfury Arcanists between the waypoints until you get the robes.|REP|Scryers;934|
+l Sunfury Arcanist Robes|QID|10197|L|28635 |M|47.7,85.28;46.5,81.48;51.57,81.88|CN|N|Kill and loot Sunfury Arcanists between the waypoints until you get the robes.|REP|Scryers;934|
 l Sunfury Guardsman Medallion|QID|10197|L|28637 |M|50.93,83.46|N|Kill and loot Sunfury Guardsmen until the Medallion drops. There is a good amount of Guardsmen at the waypoint.|REP|Scryers;934|
 C A Convincing Disguise|QID|10197|M|48.20,81.60|N|Head inside the Manaforge and kill Sunfury Researchers until the Gloves drop.|REP|Scryers;934|
 T A Convincing Disguise|QID|10197|M|48.20,86.66|N|To Caledis Brightdawn.|REP|Scryers;934|
@@ -362,7 +367,7 @@ N Shutting Down Manaforge Duro|QID|10322|M|59.11,66.77|N|Even though the quest c
 N Shutting Down Manaforge Duro|QID|10338|M|59.11,66.77|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Duro Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
 C Kick Them While They're Down|QID|10341|US|M|56.31,66.34|N|Sunfury Conjurers and Bowmen can be found outside around the Manaforge. The Centurions are inside the Manaforge.|REP|Scryers;934|
 C Sunfury Briefings|QID|10328|US|M|59.76,67.11|N|Kill magic using mobs to get the Sunfury Arcane Briefing, and kill melee-type mobs to get the Sunfury Military Briefing.|REP|Aldor;932|
-C Summoner Kanthin's Prize|QID|10209|T|Summoner Kanthin|M|59.42,63.03;57.52,63.71;57.14,66.48|N|Summoner Kanthin wander between the locations of the large red floating gems.|
+C Summoner Kanthin's Prize|QID|10209|T|Summoner Kanthin|M|59.42,63.03;57.52,63.71;57.14,66.48|CN|N|Summoner Kanthin wander between the locations of the large red floating gems.|
 T Summoner Kanthin's Prize|QID|10209|U|28455|M|59.38,63.14|N|To Image of Archmage Vargoth.|
 
 A Ar'kelos the Guardian|QID|10176|U|28455|M|59.38,63.14|N|From Image of Archmage Vargoth.|
@@ -434,7 +439,7 @@ l Condensed Nether Gas|QID|10855|L|31653 5|M|37.54,26.85|N|Loot 5 Condensed Neth
 C Fel Reavers, No Thanks!|QID|10855|M|37.63,26.55|N|Click on an Inactive Fel Reaver and hit continue to put in the Condensed Nether Gas.|
 
 A Flora of the Eco-Domes|QID|10426|M|42.22,32.56|N|From Aurine Moonblaze.|
-C Flora of the Eco-Domes|QID|10426|U|29818|M|43.07,29.68;40.44,33.4|N|Go between the waypoints and use the Energy Field Modulator on Farahlon Lashers.|
+C Flora of the Eco-Domes|QID|10426|U|29818|M|43.07,29.68;40.44,33.4|CN|N|Go between the waypoints and use the Energy Field Modulator on Farahlon Lashers.|
 T Flora of the Eco-Domes|QID|10426|M|42.23,32.56|N|To Aurine Moonblaze.|
 A Creatures of the Eco-Domes|QID|10427|M|42.23,32.56|N|From Aurine Moonblaze.|
 C Creatures of the Eco-Domes|QID|10427|U|29817|M|40.21,35.06|N|Get Talbuk Sires or Does below 20% health then tag them. You can re-tag the same ones after they wake up.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2013-01-13 18:54
+-- Who: Ludovicus Maior
+-- Log: Added CC tag
+
+-- URL: http://wow-pro.com/node/3207/revisions/25132/view
 -- Date: 2012-10-08 23:44
 -- Who: Ludovicus Maior
 -- Log: Corrected QID and coords for monk starter quests.
@@ -284,7 +289,7 @@ C Arcane Instability |QID|8486|N|Finish killing the Manawraith and Mana Stalker 
 T Darnassian Intrusions |QID|9352|N|To Ley-Keeper Velania.|M|36.7,57.4|
 T Arcane Instability |QID|8486|N|To Ley-Keeper Velania.|M|36.7,57.4|
 ; L Level 7 |QID|8482|LVL|7|Target point to be Level 7.|
-A Fish Heads, Fish Heads... |QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|M|31.49,53.78;29.89,58.52|
+A Fish Heads, Fish Heads... |QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|M|31.49,53.78;29.89,58.52|CC|
 C Fish Heads, Fish Heads... |QID|8884|N|Kill murlocs for the 8 fish heads. |M|27,59.5|
 l Captain Kelisendra's Lost Rutters |QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|M|27,59.5|
 A Captain Kelisendra's Lost Rutters |QID|8887|U|21776|N|From Captain Kelisendra's Lost Rutters.|M|27.3,57.2|
@@ -437,7 +442,7 @@ T Whitebark's Memory|QID|10166|M|37.58,86.14|N|To Whitebark's Spirit. Use the pe
 C A Somber Task|QID|8473|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34,80|N|To Larianna Riverwind.|
 
-N End of Eversong Woods Guide |QID|9144|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods quest if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|M|43,86;55,84|
+N End of Eversong Woods Guide |QID|9144|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods quest if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|M|43,86;55,84|CC|
 
 ]]
 end)

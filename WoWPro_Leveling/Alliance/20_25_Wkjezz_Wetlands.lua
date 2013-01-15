@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2013-01-13 14:50
+-- Who: Ludovicus Maior
+-- Log: Added CC and CS tags
+
+-- URL: http://wow-pro.com/node/3224/revisions/24655/view
 -- Date: 2011-07-01 16:05
 -- Who: Fluclo
 -- Log: Added Rank 2 tag to quests in Dun Algaz, for those wanting to get straight into the Wetlands action!
@@ -69,7 +74,7 @@ T Cleaning Hovel|QID|25211|M|49.88,79.19|N|To Mountaineer Grugelm.|RANK|2|
 T The Stolen Keg|QID|25395|M|49.90,79.19|N|To Mountaineer Rharen.|RANK|2|
 
 A Keg Run|QID|25770|M|50.00,79.18|N|From Mountaineer Rharen.|RANK|2|
-R Wetlands|QID|25770,25721,25722,25723|M|48.23,67.29;49.23,70.51;53.93,70.37|N|Follow the path until you get to Wetlands.|
+R Wetlands|QID|25770;25721;25722;25723|M|48.23,67.29;49.23,70.51;53.93,70.37|CS|N|Follow the path until you get to Wetlands.|
 f Slabchisel's Survey|QID|25770|M|56.87,71.17|N|At Elgin Baelor.|
 T Keg Run|QID|25770|M|57.48,71.76|N|To Forba Slabchisel.|RANK|2|
 
@@ -115,7 +120,7 @@ T Incendicite Ore|QID|25735|M|57.83,71.63|N|To Dunlor Marblebeard.|
 
 A Onwards to Menethil|QID|25777|M|57.47,71.79|N|From Forba Slabchisel.|
 r Repair/Restock|QID|25777|M|57.69,71.35|N|At Darvish Quickhammer.|
-R Menethil Harbor|QID|25777|M|57.07,71.67;10.53,55.66|N|Click on Brisket, the Ram you see, to get a free ride to Menethil Harbor.|
+R Menethil Harbor|QID|25777|M|57.07,71.67;10.53,55.66|CC|N|Click on Brisket, the Ram you see, to get a free ride to Menethil Harbor.|
 T Onwards to Menethil|QID|25777|M|10.53,55.66|N|To Captain Stoutfist.|
 A Assault on Menethil Keep|QID|25780|M|10.53,55.66|N|From Captain Stoutfist.|
 C Assault on Menethil Keep|QID|25780|M|9.91,57.60|N|Work your way to the upper room of the keep, then kill Horghast Flarecrazed.|

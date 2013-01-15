@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2013-01-13 16:23
+-- Who: Ludovicus Maior
+-- Log: corrected CN
+
+-- URL: http://wow-pro.com/node/3301/revisions/25383/view
+-- Date: 2013-01-12 20:50
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3301/revisions/24967/view
 -- Date: 2012-02-25 14:30
 -- Who: Estelyen
 -- Log: Just played through Icecrown again and wrote down some fixes while at it.
@@ -77,7 +87,7 @@ T Scourge Tactics|QID|13008|N|To Crusade Commander Entari.|M|87.00,75.80|
 A If There Are Survivors...|QID|13044|N|From Crusade Commander Entari.|
 T If There Are Survivors...|QID|13044|N|To Penumbrius.|M|87.00,79.00|
 A Into The Wild Green Yonder|QID|13045|N|From Penumbrius.|
-C Into The Wild Green Yonder|QID|13045|N|Get on one of the Argent Skytalons next to the Questgiver, fly west to Scourgeholme and use Ability #1 next to a Captured Crusader. Fly him back to the Vanguard and drop him off near the bonfire using your Ability #2.|M|78.00,66.00;86.00,76.00|
+C Into The Wild Green Yonder|QID|13045|N|Get on one of the Argent Skytalons next to the Questgiver, fly west to Scourgeholme and use Ability #1 next to a Captured Crusader. Fly him back to the Vanguard and drop him off near the bonfire using your Ability #2.|M|78.00,66.00;86.00,76.00|CN|
 T Into The Wild Green Yonder|QID|13045|N|To Highlord Tirion Fordring.|M|87.40,75.80|
 A A Cold Front Approaches|QID|13070|N|From Highlord Tirion Fordring.|
 T A Cold Front Approaches|QID|13070|N|To Siegemaster Fezzik.|M|85.60,76.00|
@@ -227,7 +237,7 @@ A Retest Now|QID|13321|N|From Chief Engineer Boltwrench.|
 U Diluted Cult Tonic|QID|13321|U|44307|N|Use the tonic once you're here, you'll need it to cause the quest items to drop from the cultists.|M|49.60,34.60|
 K Cultists around the cauldrons|QID|13321|L|44301 10|N|You need to collect 10 Tainted Essences.|M|49.60,34.60|
 N Make a Writing Mass|QID|13321|U|44301|L|44304|N|Combine the Essences into a Writhing Mass.|
-C Retest Now|QID|13321|U|44304|N|Use the Writhing Mass near one of the cauldrons.|M|49.66,34.35;49.08,34.19;48.95,33.21|
+C Retest Now|QID|13321|U|44304|N|Use the Writhing Mass near one of the cauldrons.|M|49.66,34.35;49.08,34.19;48.95,33.21|CN|
 N Need More Info|QID|13345|L|44459|N|Enter the building and loot the three Pages off the researchers.|M|52.00,32.00|
 N Need More Info|QID|13345|L|44460|N|Enter the building and loot the three Pages off the researchers.|M|52.00,32.00|
 N Need More Info|QID|13345|L|44461|N|Enter the building and loot the three Pages off the researchers.|M|52.00,32.00|
@@ -394,7 +404,7 @@ K Archbishop Landgren slain|QID|12847|QO|Archbishop Landgren slain: 1/1|N|Enter 
 C Second Chances|QID|12847|U|40730|N|Use the item near the corpse of the Archbishop.|
 T Second Chances|QID|12847|N|To Lord-Commander Arete. If you wait for his dialogue with the Archbishop to finish, you can turn it in right here and don't have to fly back to Death's Rise.|M|09.50,47.10|
 A The Admiral Revealed|QID|12852|N|Another 5-Man quest from Lord-Commander Arete.|
-C The Admiral Revealed|QID|12852|N|Enter The Hidden Hollow and find the Admiral deep within it. Kill him, use the Nullifier when he uses his Protection Sphere.|M|09.00,49.00;09.00,46.10|
+C The Admiral Revealed|QID|12852|N|Enter The Hidden Hollow and find the Admiral deep within it. Kill him, use the Nullifier when he uses his Protection Sphere.|M|09.00,49.00;09.00,46.10|CS|
 T The Admiral Revealed|QID|12852|N|To Lord-Commander Arete.|M|19.60,48.00|
 T Banshee's Revenge|QID|13142|N|To the Bone Witch.|M|32.40,42.80|
 
@@ -443,7 +453,7 @@ A Destroying the Altars|QID|13119|N|From Darkrider Arly.|
 A Death's Gaze|QID|13120|N|From Darkrider Arly.|
 K Master Summoner Zarod|QID|13119|L|43159|N|Kill the Master Summoner and loot his Staff.|M|36.5,71.2|
 C Destroying the Altars|QID|13119|U|43159|N|Use the Staff near each of the four Summoning Altars.|M|36.74,70.72|
-C Death's Gaze|QID|13120|U|43229|N|Use the orb near the pedastals at these 3 locations.|M|32.57,70.62;34.60,69.62;30.54,65.11|
+C Death's Gaze|QID|13120|U|43229|N|Use the orb near the pedastals at these 3 locations.|M|32.57,70.62;34.60,69.62;30.54,65.11|CN|
 T Death's Gaze|QID|13120|N|To Darkrider Arly.|M|35.40,66.40|
 T Destroying the Altars|QID|13119|N|To Darkrider Arly.|
 A Spill Their Blood|QID|13134|N|From Darkrider Arly.|
@@ -510,8 +520,8 @@ C New Recruit|QID|13143|N|Fly up to the ledge above and beat down a Lithe Stalke
 T New Recruit|QID|13143|N|To Vereth the Cunning.|M|54.00,71.00|
 A The Vile Hold|QID|13145|N|From Vereth the Cunning.|
 R Malykriss: The Vile Hold|QID|13145|N|Use the Eye of Dominion just up the road behind Vereth the Cunning, then move the Lithe Stalker east to Malykriss.|M|55.46,73.76|
-N Altar of Sacrifice explored|QID|13145|QO|Altar of Sacrifice explored: 1/1|N|Climb up the wall at the first waypoint using 'Leap' (ability #1). Then head to the second one to examine the Altar.|M|57.64,76.01;56.3,79.1|
-N Icy Lookout explored|QID|13145|QO|Icy Lookout explored: 1/1|N|Scout the Icy Lookout. Just walk down the road.|M|55.75,73.67;56.28,69.18;60.6,68.7|
+N Altar of Sacrifice explored|QID|13145|QO|Altar of Sacrifice explored: 1/1|N|Climb up the wall at the first waypoint using 'Leap' (ability #1). Then head to the second one to examine the Altar.|M|57.64,76.01;56.3,79.1|CS|
+N Icy Lookout explored|QID|13145|QO|Icy Lookout explored: 1/1|N|Scout the Icy Lookout. Just walk down the road.|M|55.75,73.67;56.28,69.18;60.6,68.7|CS|
 N Blood Forge explored|QID|13145|QO|Blood Forge explored: 1/1|N|Scout the Blood Forge. Leap down into Malykriss then head to the waypoint. |M|58.1,70.9|
 C The Vile Hold|QID|13145|N|Scout the Runeworks.|M|59.1,74.4|
 T The Vile Hold|QID|13145|N|To Vereth the Cunning.|M|54.00,71.00|
@@ -557,14 +567,14 @@ C By Fire Be Purged|QID|13211|U|43524|N|Burn Festering Corpses.|US|
 T By Fire Be Purged|QID|13211|N|To Crusader Olakin Sainrith.|M|35.40,66.40|
 T A Visit to the Doctor|QID|13152|N|To Darkrider Arly.|M|35.40,66.40|
 A Killing Two Scourge With One Skeleton|QID|13144|N|From Darkrider Arly.|
-C Killing Two Scourge With One Skeleton|QID|13144|N|Click on one of the Green Glowing Grasping Arms sticking out of the ground and lead your new pet to the Chained Abominations so they can be burned. Rinse and Repeat.|M|35.24,71.04;32.60,70.60|
+C Killing Two Scourge With One Skeleton|QID|13144|N|Click on one of the Green Glowing Grasping Arms sticking out of the ground and lead your new pet to the Chained Abominations so they can be burned. Rinse and Repeat.|M|35.24,71.04;32.60,70.60|CN|
 T Killing Two Scourge With One Skeleton|QID|13144|N|To Darkrider Arly.|M|35.40,66.40|
 
 A He's Gone to Pieces|QID|13212|N|From Darkrider Arly after Olakin has been abducted.|
 C He's Gone to Pieces|QID|13212|N|Kill Corpulent Horrors below until you have all the body parts you need.|M|33.40,66.00|
 T He's Gone to Pieces|QID|13212|N|To Darkrider Arly.|M|35.40,66.40|
 A Putting Olakin Back Together Again|QID|13220|N|From Darkrider Arly.|
-N Find The Doctor's Cleaver|QID|13220|L|43568|N|At the far end of the cave below. Jump down to the right once you're inside to get there quicker.|M|36.60,67.50;36.66,66.97|
+N Find The Doctor's Cleaver|QID|13220|L|43568|N|At the far end of the cave below. Jump down to the right once you're inside to get there quicker.|M|36.60,67.50;36.66,66.97|CS|
 N Find a Spool of Thread|QID|13220|L|43567|N|Find the thread in the room opposite of where you jumped down.|M|34.70,66.00|
 C Putting Olakin Back Together Again|QID|13220|U|43564|N|Use Olakin's Remains at the Sanctum of Reanimation Slab, thats the table-looking thing with skulls and bones on it where you jumped down.|M|35.6,66.75|
 T Putting Olakin Back Together Again|QID|13220|N|To Darkrider Arly.|M|35.40,66.40|

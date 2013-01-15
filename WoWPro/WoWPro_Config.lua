@@ -627,7 +627,7 @@ local function createBlizzOptions()
 				name = " ",
 			},  
 			enable = {
-				order = 4,
+				order = 10,
 				type = "toggle",
 				name = L["Enable Addon"],
 				desc = L["Enables/Disables showing the WoW-Pro guide addons."],
@@ -643,7 +643,7 @@ local function createBlizzOptions()
 					end
 			},
 			autoSelect = {
-				order = 5,
+				order = 11,
 				type = "toggle",
 				name = L["Auto Select"],
 				desc = L["Enables/Disables automatically selecting quests from NPCs"],
@@ -657,7 +657,7 @@ local function createBlizzOptions()
 					end
 			},
 			autoAccept = {
-				order = 6,
+				order = 12,
 				type = "toggle",
 				name = L["Auto Accept"],
 				desc = L["Enables/Disables automatically accepting quests from NPCs"],
@@ -671,7 +671,7 @@ local function createBlizzOptions()
 					end
 			},
 			autoTurnin = {
-				order = 7,
+				order = 13,
 				type = "toggle",
 				name = L["Auto Turnin"],
 				desc = L["Enables/Disables automatically turning in quests to NPCs"],
@@ -684,8 +684,22 @@ local function createBlizzOptions()
 						end
 					end
 			},
-			reset = {
-			    order = 8,
+			enableDebug = {
+				order = 20,
+				type = "toggle",
+				name = L["Enable Debug"],
+				desc = L["Enables/Disables ddebug logging"],
+				get = function(info) return WoWPro.DebugMode end,
+				set = function(info,val) 
+						if WoWPro.DebugMode == true then
+						    WoWPro.DebugMode = false
+						else
+						    WoWPro.DebugMode = true
+						end
+					end
+			},
+			resetGuide = {
+			    order = 21,
 			    type = "execute",
 			    name = L["Reset Current Guide"],
 			    desc = L["If your current guide is behaving oddly, this wipes the state, forgets all skipped quests and resets the current guide."],
@@ -699,70 +713,110 @@ local function createBlizzOptions()
 			              end
 			            end
 			},
+			resetLog = {
+			    order = 30,
+			    type = "execute",
+			    name = L["Clear the log"],
+			    desc = L["Wow-Pro's Secret Debug Log"],
+			    image = "Interface\\RaidFrame\\ReadyCheck-NotReady",
+			    func =  function (info) WoWProDB.global.Log = {}; WoWPro.Serial = 1 ; WoWPro:Print("Log Reset from UI"); end
+			},
+			showLog = {
+			    order = 31,
+			    type = "execute",
+			    name = L["Show the log"],
+			    desc = L["Wow-Pro's Secret Debug Log"],
+			    image = "Interface\\RaidFrame\\ReadyCheck-Ready",
+			    func =  function (info)
+    			            WoWPro.LogBox = WoWPro.LogBox or CreateFrame("EditBox", "WowLog",UIParent)
+    			            local LogBox = WoWPro.LogBox
+    			            LogBox:SetWidth(512)
+                            LogBox:SetHeight(512)
+                            LogBox:SetMultiLine(true)
+                            LogBox:SetAutoFocus(true)
+                            LogBox:SetFontObject(GameFontHighlight)
+                            LogBox:SetText(WoWPro:LogDump())
+                            LogBox:SetPoint("CENTER")
+                            WoWPro:CreateBG(LogBox)
+    			            WoWPro:CreateHeading(LogBox,"Debug Log","Hit escape to dismiss")
+                            LogBox:Show()
+                            LogBox:SetScript("OnEscapePressed", function (self) self:Hide() end)
+                        end
+			},
+			checkGuides = {
+			    order = 32,
+			    type = "execute",
+			    name = L["Run the Guide Checker"],
+			    desc = L["Load every availible guide and check for errors."],
+			    image = "Interface\\RaidFrame\\ReadyCheck-Waiting",
+			    func =  function (info)
+    			            WoWPro:LoadAllGuides()
+                        end
+			},				
 			blank2 = {
-				order = 9,
+				order = 90,
 				type = "description",
 				name = " ",
 			},    
 			aboutheader = {
-				order = 10,
+				order = 91,
 				type = "header",
 				name = "About WoW-Pro",
 			}, 
 			blank3 = {
-				order = 11,
+				order = 92,
 				type = "description",
 				name = " ",
 			},  	
 			about = {
-				order = 12,
+				order = 93,
 				type = "description",
 				fontSize = "medium",
 				name = "WoW-Pro.com is a guide website by gamers, for gamers. "
 			}, 	
 			blank5 = {
-				order = 13,
+				order = 94,
 				type = "description",
 				name = " ",
 			},  
 			about2 = {
-				order = 14,
+				order = 95,
 				type = "description",
 				fontSize = "medium",
 				name = 
 					"The site hosts hundreds of free guides covering every facet of World of Warcraft. "
 			}, 	 	
 			blank6 = {
-				order = 15,
+				order = 96,
 				type = "description",
 				name = " ",
 			},  
 			about3 = {
-				order = 16,
+				order = 97,
 				type = "description",
 				fontSize = "medium",
 				name = 
-					"We are most famous for our leveling guides, especially those written by the site administrator, Jame. "
+					"We are most famous for our leveling guides, especially those written by the site founder, Jame. "
 			}, 	 	
 			blank7 = {
-				order = 17,
+				order = 98,
 				type = "description",
 				name = " ",
 			},  
 			about4 = {
-				order = 18,
+				order = 99,
 				type = "description",
 				fontSize = "medium",
 				name = 
 					"Over the years WoW-Pro has grown into a huge, active community of gamers. "
 			},  	
 			blank8 = {
-				order = 19,
+				order = 100,
 				type = "description",
 				name = " ",
 			},  	
 			about5 = {
-				order = 20,
+				order = 101,
 				type = "description",
 				fontSize = "medium",
 				name = 

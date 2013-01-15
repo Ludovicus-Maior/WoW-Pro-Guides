@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2013-01-13 17:55
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3266/revisions/25346/view
 -- Date: 2013-01-11 23:35
 -- Who: Ludovicus Maior
 -- Log: Added CS tags
@@ -46,7 +51,7 @@ A Done Nothing Wrong|QID|28417|M|17.21,51.39|N|From Mouton Flamestar.|
 A Burning Vengeance|QID|28418|M|17.43,51.65|N|From Ariok.|
 f Flamestar Post|QID|28418|M|17.69,52.81|N|At Hans Oreflight.|
 C Burning Vengeance|QID|28418|S|M|17.00,63.80|N|Kill Blackrock Whelpers and Flamescale Broodlings.|
-C Done Nothing Wrong|QID|28417|M|17.60,60.44;17.36,67.83|N|Kill Blackrock Whelpers and Flamescale Broodlings as you go.|
+C Done Nothing Wrong|QID|28417|M|17.60,60.44;17.36,67.83|CN|N|Kill Blackrock Whelpers and Flamescale Broodlings as you go.|
 C Burning Vengeance|QID|28418|US|M|17.00,63.80|N|Kill Blackrock Whelpers and Flamescale Broodlings.|
 T Burning Vengeance|QID|28418|M|17.34,52.18|N|To Ariok.|
 A Stocking Up|QID|28419|M|17.33,51.59|N|From Ariok.|
@@ -96,7 +101,7 @@ A Strategic Cuts|QID|28434|M|45.34,51.60|N|From Quartermaster Kaoshin.|
 C Grunt Work|QID|28433|S|U|63357|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|
 C Strategic Cuts|QID|28434|U|63350|QO|Voodooist Timan slain: 1/1|M|45.37,52.47|N|He is at the top of the tower.|
 C Strategic Cuts|QID|28434|U|63350|QO|Worgmistress Othana slain: 1/1|M|39.17,56.14|N|She wanders around inside the stable.|
-C Strategic Cuts|QID|28434|U|63350|QO|Gorlop slain: 1/1|M|43.89,60.15;40.01,60.27|N|Gorlop wanders between these two points.|
+C Strategic Cuts|QID|28434|U|63350|QO|Gorlop slain: 1/1|M|43.89,60.15;40.01,60.27|CN|N|Gorlop wanders between these two points.|
 T Strategic Cuts|QID|28434|M|40.13,59.45|
 C Grunt Work|QID|28433|US|U|63357|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|
 T Grunt Work|QID|28433|M|45.29,51.57|N|To Quartermaster Kaoshin.|
@@ -106,16 +111,16 @@ T The Kodocaller's Horn|QID|28435|M|46.66,63.30|N|To Blackrock War Kodo.|
 A Taking the Horn For Ourselves|QID|28436|M|46.66,63.30|N|From Blackrock War Kodo.|
 T Taking the Horn For Ourselves|QID|28436|M|44.58,44.49|N|To Eitrigg.|
 
-C Scrapped Golems|QID|28226|S|M|50.78,38.86;43.80,37.25;56.28,37.35|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
-C Prove Yer Allegiance|QID|28225|M|50.78,38.86;43.80,37.25;56.28,37.35|N|They are mainly inside and around the building ruins.|
-C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
+C Scrapped Golems|QID|28226|S|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
+C Prove Yer Allegiance|QID|28225|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|They are mainly inside and around the building ruins.|
+C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
 T Prove Yer Allegiance|QID|28225|M|46.72,44.25|N|To Stebben Oreknuckle.|
 T Scrapped Golems|QID|28226|M|46.72,44.25|N|To Stebben Oreknuckle.|
 A Golem Training|QID|28227|M|46.72,44.25|N|From Stebben Oreknuckle.|
-C Golem Training|QID|28227|M|44.72,43.79;76.75,46.6|N|Go into either tower. Be warned, do not try more than 1 at a time, and they will do knockback.|
+C Golem Training|QID|28227|M|44.72,43.79;76.75,46.6|CN|N|Go into either tower. Be warned, do not try more than 1 at a time, and they will do knockback.|
 T Golem Training|QID|28227|M|46.72,44.23|N|To Stebben Oreknuckle.|
 A General Thorg'izog|QID|28437|M|44.59,44.45|N|From Eitrigg.|
-T General Thorg'izog|QID|28437|U|63357|M|30.79,33.76;32.49,34.99;31.53,33.57|N|To General Thorg'izog. Remember to put on your disguise, he is the middle of the building.|
+T General Thorg'izog|QID|28437|U|63357|M|30.79,33.76;32.49,34.99;31.53,33.57|CC|N|To General Thorg'izog. Remember to put on your disguise, he is the middle of the building.|
 A Trial by Magma|QID|28438|M|30.69,33.76|N|From General Thorg'izog.|
 C Trial by Magma|QID|28438|M|31.02,33.95|N|Talk to Wyrtle Spreelthonket and choose to fight the elmental.|
 T Trial by Magma|QID|28438|M|30.75,33.74|N|To General Thorg'izog.|
@@ -168,7 +173,7 @@ C Assault on Dreadmaul Rock|QID|28454|U|63681|M|72.48,29.93|N|Use the only Abili
 T Assault on Dreadmaul Rock|QID|28454|M|54.69,24.48|N|To Eitrigg.|
 A Glory Amidst Chaos|QID|28455|M|54.69,24.48|N|From Eitrigg.|
 C Glory Amidst Chaos|QID|28455|QO|General Thorg'izog slain: 1/1|M|65.12,46.66|
-C Glory Amidst Chaos|QID|28455|QO|Dragon-Lord Neeralak slain: 1/1|M|63.79,37.81;66.31,37.96;68.88,44.14|
+C Glory Amidst Chaos|QID|28455|QO|Dragon-Lord Neeralak slain: 1/1|M|63.79,37.81;66.31,37.96;68.88,44.14|CS|
 C Glory Amidst Chaos|QID|28455|QO|High Warlock Xi'lun slain: 1/1|M|70.88,38.13|
 T Glory Amidst Chaos|QID|28455|M|54.61,24.61|N|To Eitrigg.|
 A The Spoils of War|QID|28456|M|54.61,24.61|N|From Eitrigg.|

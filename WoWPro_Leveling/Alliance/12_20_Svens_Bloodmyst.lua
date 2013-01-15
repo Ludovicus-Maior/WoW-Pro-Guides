@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2013-01-13 15:15
+-- Who: Ludovicus Maior
+-- Log: Added lots of CN tags
+
+-- URL: http://wow-pro.com/node/3220/revisions/25328/view
 -- Date: 2013-01-11 19:49
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -94,7 +99,7 @@ A WANTED: Deathclaw|QID|9646|M|55.2,59.1|N|From the Wanted Board outside the Inn
 h Blood Watch |QID|9634|M|55.84,59.80|N|Set hearthstone to Blood Watch with Caregiver Topher Loaal.|
 l Blood Mushroom|QID|9648|QO|Blood Mushroom: 1/1|L|24040|M|62.8,60.0;60.8,61.0;58.6,55.0;62.2,53.1;65.2,54.6;58.9,61.8;58.3,66.7;54.0,67.5|CN|N|Obtain a Blood Mushroom, they are small and glow red.|
 l Aquatic Stinkhorn|QID|9648|M|63.75,62.90|QO|Aquatic Stinkhorn: 1/1|L|24041|N|Obtain an Aquatic Sinkhorn from Stinkhorn Striker in the Blood River.|
-l Ruinous Polyspore|QID|9648|M|67.86,66.53;60.6,42.1;62.0,41.9;60.8,49.6;64.1,47.2;68.6,65.1;66.5,70.1;68.7,71.7|L|24042|QO|Ruinous Polyspore: 1/1|N|Obtain a Ruinous Polyspore, they are black/grey and tan.|
+l Ruinous Polyspore|QID|9648|M|67.86,66.53;60.6,42.1;62.0,41.9;60.8,49.6;64.1,47.2;68.6,65.1;66.5,70.1;68.7,71.7|CN|L|24042|QO|Ruinous Polyspore: 1/1|N|Obtain a Ruinous Polyspore, they are black/grey and tan.|
 K Lord Xiz|QID|9666|QO|Lord Xiz slain: 1/1|U|24084|M|68.8,67.3|N|Kill Lord Xiz.|
 C Declaration of Power |QID|9666|U|24084|M|8.8,67.3|N|Plant the banner at the corpse of Lord Xiz.|
 C A Favorite Treat|QID|9624|N|Pick up Sand Pears.|S|
@@ -115,7 +120,7 @@ K Cruelfin |QID|9576|L|23870|M|49.5,94.8;34.6,93.1|CN|N|Find and kill cruelfin, 
 A Cruelfin's Necklace|QID|9576|U|23870|N|Quest starts from the Red Crystal Pendant dropped from Cruelfin.|
 C Catch and Release|QID|9629|U|23995|M|43.8,93.3|N|Continue to use the Murloc Tagger on 6 Blacksilt Scouts.|US|
 L Level 14 |LVL|14|QID|9576|N|Grind on murlocs until you are 4,800 XP from Level 14.|
-C Mac'Aree Mushroom Menagerie |QID|9648|M|44,78;35,79|N|Obtain a Fel Cone Fungus. They're kind of grey brown in comparison to the rest of the mushrooms they're with.|
+C Mac'Aree Mushroom Menagerie |QID|9648|M|44,78;35,79|CN|N|Obtain a Fel Cone Fungus. They're kind of grey brown in comparison to the rest of the mushrooms they're with.|
 H Blood Watch |QID|9576|N|Hearth back to Blood Watch.|M|55.84,59.80|
 T Cruelfin's Necklace|QID|9576|M|53.25,57.75|N|To Morae.|
 T Catch and Release |QID|9629|M|53.25,57.75|N|To Morae.|
@@ -190,7 +195,7 @@ T Pilfered Equipment|QID|9548|N|To Clopper Wizbang.|M|42.11,21.23|
 A A Map to Where?|QID|9550|U|23837|N|Click the Weathered Treasure Map you just got to start the next quest.|
 C I Shoot Magic Into the Darkness|QID|9700|N|Kill Void Anomalies, and approach the entrance to the Warp Piston to get the complete message|M|51.81,21.77|
 C Constrictor Vines|QID|9643|N|Kill Mutated Constrictors for 6 Thorny Constrictor Vines. |M|45.9,33.9|US|
-C The Bear Necessities|QID|9580|N|Finish killing Elder Brown Bears until you have 8 flanks. |US|M|46.15,34.62;48.77,24.08|
+C The Bear Necessities|QID|9580|N|Finish killing Elder Brown Bears until you have 8 flanks. |US|M|46.15,34.62;48.77,24.08|CN|
 T A Map to Where?|QID|9550|N|There's a book you have to click in order to complete.|M|61.19,41.78|
 A Deciphering the Book|QID|9557|N|From the Battered Ancient Book.|M|61.19,41.78|
 H Blood Watch |QID|9643|N|Hearth back to Blood Watch.|U|6948|
@@ -212,7 +217,7 @@ A Galaen's Fate|QID|9579|N|From Galaen's Coprse.|M|37.51,61.27|
 A Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|N|From the book on the ground next to Galaen's Coprse.|
 C Galaen's Fate|QID|9579|N|The amulet drops off of the Blood Elves outside the Cryo Core.|M|39.27,60.42|
 C The Cryo-Core|QID|9703|N|Loot Medical Supplies from the ground and from Blood Elves.|US|M|39.27,60.42|
-C Culling the Flutterers|QID|9647|N|Go between the waypoints, and kill the last Royal Blue Flutterers that you need.|US|M|47.21,32.72;43.5,36.58|
+C Culling the Flutterers|QID|9647|N|Go between the waypoints, and kill the last Royal Blue Flutterers that you need.|US|M|47.21,32.72;43.5,36.58|CN|
 T Culling the Flutterers|QID|9647|N|To Tracker Lyceon.|M|55.83,56.93|
 T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|M|55.6,55.2|N|To Vindicator Kuros.|M|55.64,55.28|
 A Matis the Cruel|QID|9711|N|From Vindicator Kuros.|M|55.64,55.28|
@@ -256,7 +261,7 @@ C Critters of the Void|QID|9741|M|19,62|N|Kill 12 Void Critters. They are small 
 C Limits of Physical Exhaustion|QID|9746|M|26,53|US|N|Finish killing Sunhawk Pyromancers and Defenders.|
 A They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|From Researcher Cornelius.|
 C They're Alive! Maybe...|QID|9670|S|M|22,36|N|Attack the Webbed Creatures. You may free a Researcher, or you may get a hostile mob.|
-C The Missing Expedition |QID|9669|N|Kill spiders on the way, then kill Zarakh.|M|22,36;18,37|
+C The Missing Expedition |QID|9669|N|Kill spiders on the way, then kill Zarakh.|M|22,36;18,37|CC|
 C They're Alive! Maybe...|QID|9670|US|M|22,36|N|Attack the Webbed Creatures. You may free a Researcher, or you may get a hostile mob.|
 T They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|To Researcher Cornelius.|
 T Cutting a Path|QID|10065|N|To Scout Joril.|M|30.28,45.88|
@@ -282,10 +287,10 @@ A The Bloodcursed Naga|QID|9674|N|From Captain Edward Hanes.|M|79.14,22.66|
 C The Bloodcursed Naga|QID|9674|N|Head into the water and kill Naga.|M|81.33,21.06|
 T The Bloodcursed Naga|QID|9674|N|To Captain Edward Hanes.|M|79.14,22.66|
 A The Hopeless Ones...|QID|9682|N|From Captain Edward Hanes.|M|79.14,22.66|
-C The Hopeless Ones...|QID|9682|N|Kill and loot Bloodcursed Voyagers in and around the submerged ships, until you have 4 Bloodcursed Souls.|M|83,22;87.2,18.5|
+C The Hopeless Ones...|QID|9682|N|Kill and loot Bloodcursed Voyagers in and around the submerged ships, until you have 4 Bloodcursed Souls.|M|83,22;87.2,18.5|CN|
 N The Captain's Kiss Buff|QID|9682|N|The swim speed and water breathing buff is really useful for another quest. Go back to Captain Edward Hanes, but don't turn in the quest. Ask him to renew the buff on you.|M|79,22|
 C Ysera's Tears|QID|9649|N|Loot the green glowing mushrooms from the ground.|S|M|74.55,13.69|
-C Restoring Sanctity|QID|9687|N|Loot the bones. They are around where the small Wildkin camps are.|M|60.05,35.47;58.09,29.47|
+C Restoring Sanctity|QID|9687|N|Loot the bones. They are around where the small Wildkin camps are.|M|60.05,35.47;58.09,29.47|CN|
 T Restoring Sanctity|QID|9687|M|73.7,33.7|N|To Prince Toreth.|
 A Into the Dream|QID|9688|N|From Prince Toreth.|M|73.7,33.7|
 C Into the Dream|QID|9688|N|Kill Veridian Whelps and Broodlings. They are all over the island.|M|72.6,27.78|

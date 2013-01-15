@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
+-- Date: 2013-01-13 19:40
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3240/revisions/23361/view
 -- Date: 2010-12-03 11:14
 -- Who: Jiyambi
 
@@ -29,12 +34,12 @@ h Revantusk Village|QID|26212|M|78.20,81.27|N|At Lard.|
 T Revantusk Village|QID|26430|O|M|78.16,81.37|N|To Elder Torntusk, upstairs in the inn.|
 A The Savage Dwarves|QID|26238|M|78.16,81.37|N|From Elder Torntusk.|
 A Thornar Thunderclash|QID|26263|M|78.16,81.37|N|From Elder Torntusk.|
-C Stalking the Stalkers|QID|26223|M|72.43,66.27;70.01,55.83|N|Climb up the cliffs and kill the wolves at the top.|
+C Stalking the Stalkers|QID|26223|M|72.43,66.27;70.01,55.83|CS|N|Climb up the cliffs and kill the wolves at the top.|
 C The Savage Dwarves|QID|26238|S|M|71.03,50.04|N|Kill Wildhammer Dwarves.|
 C Stomp To My Beat|QID|26240|NC|U|57920|M|71.48,50.40|N|Use the drums on Revantusk warriors (not the casters!)|
 C The Savage Dwarves|QID|26238|US|M|71.03,50.04|N|Kill Wildhammer Dwarves.|
 C Thornar Thunderclash|QID|26263|M|70.97,48.47|N|He's located inside a small fortified area.|
-C Lard Lost His Lunch|QID|26212|M|81.15,46.29;84.03,40.82|N|Time for some fun! Head towards the waterfall and jump down, but make sure to aim so you hit the water! Swim out to the island just to the north. Right-click the picnic basket on the island. Then kill and loot the trolls that show up.|
+C Lard Lost His Lunch|QID|26212|M|81.15,46.29;84.03,40.82|CS|N|Time for some fun! Head towards the waterfall and jump down, but make sure to aim so you hit the water! Swim out to the island just to the north. Right-click the picnic basket on the island. Then kill and loot the trolls that show up.|
 C Snapjaws, Mon!|QID|26211|S|M|78.21,66.51|N|Kill the turtles found up and down the coast.|
 C Pupellyverbos Port|QID|26225|S|NC|M|79.43,70.17|N|Loot the bottles of wine found up and down the coast.|
 C Gammerita, Mon!|QID|26210|M|77.85,70.96|N|Kill and loot Gammerita, the huge turtle that patrols the area.|
@@ -52,10 +57,10 @@ T Stalking the Stalkers|QID|26223|M|79.12,79.51|N|To Huntsman Markhor.|
 A Hunt the Savages|QID|26224|PRE|26223|M|79.12,79.51|N|From Huntsman Markhor.|
 T Gammerita, Mon!|QID|26210|M|80.31,81.48|N|To Katoom the Angler.|
 T Snapjaws, Mon!|QID|26211|M|80.31,81.48|N|To Katoom the Angler.|
-C Hunt the Savages|QID|26224|M|76.33,76.38;72.78,68.80;62.91,48.73|N|Head up the ramp and towards the center of the zone. Kill owlbeasts.|
+C Hunt the Savages|QID|26224|M|76.33,76.38;72.78,68.80;62.91,48.73|CC|N|Head up the ramp and towards the center of the zone. Kill owlbeasts.|
 C Skulk Rock Clean-Up|QID|26267|S|M|57.55,39.35|N|Kill oozes in and around Skull Rock.|
 C Skulk Rock Supplies|QID|26268|S|NC|M|55.95,44.96|N|Loot the crates in and around Skull Rock. They are quite small, so look carefully!|
-C Prime Slime|QID|26283|M|57.47,38.85;57.46,41.54|N|The entrance to the cave is on the north side of Skull Rock. Head inside and jump down - the Direglob should be there. Kill and loot it.|
+C Prime Slime|QID|26283|M|57.47,38.85;57.46,41.54|CS|N|The entrance to the cave is on the north side of Skull Rock. Head inside and jump down - the Direglob should be there. Kill and loot it.|
 C Skulk Rock Supplies|QID|26268|US|NC|M|55.95,44.96|N|Loot the crates in and around Skull Rock. They are quite small, so look carefully!|
 C Skulk Rock Clean-Up|QID|26267|US|M|57.55,39.35|N|Kill oozes in and around Skull Rock.|
 H Revantusk Village|QID|26267|M|78.16,81.40|N|If you can't hearth there, ride back.|
@@ -65,7 +70,7 @@ A The Fall of Jintha'Alor|QID|26432|PRE|26268|M|78.16,81.40|N|From Elder Torntus
 T Hunt the Savages|QID|26224|M|79.07,79.60|N|To Huntsman Markhor.|
 T Prime Slime|QID|26283|M|78.13,78.24|N|To Malcom Fendelson.|
 A Moving Things Along|QID|26988|M|78.78,78.44|N|From Mystic Yayo'jin. Pick this up if you are interested in doing Scarlet Monastery.|
-R Jintha'Alor|QID|26432|M|76.01,76.02;72.77,68.68;67.79,66.38|N|Head back up the cliff and to the camp near the entrance to Jintha'Alor.|
+R Jintha'Alor|QID|26432|M|76.01,76.02;72.77,68.68;67.79,66.38|CS|N|Head back up the cliff and to the camp near the entrance to Jintha'Alor.|
 T The Fall of Jintha'Alor|QID|26432|M|67.79,66.38|N|To Primal Torntusk.|
 A Start Taking Back|QID|26306|PRE|26432|M|67.79,66.38|N|From Primal Torntusk.|
 A Heads Up|QID|26366|M|67.79,66.38|N|From Primal Torntusk.|
@@ -127,7 +132,7 @@ C The Shell of Shadra|QID|26418|M|48.44,67.75|N|Kill and loot Qiaga the Keeper.|
 H Hiri'watha Research Station|QID|26418|M|31.85,58.29|N|If you can't hearth there, ride back.|
 T The Shell of Shadra|QID|26418|M|31.85,58.29|N|To Darkcleric Marnal.|
 A Summoning Shadra|QID|26558|M|31.85,58.29|N|From Darkcleric Marnal.|
-C Summoning Shadra|QID|26558|U|58784|M|36.99,71.53;32.52,75.90;32.17,67.29|N|Use the idol at each altar.|
+C Summoning Shadra|QID|26558|U|58784|M|36.99,71.53;32.52,75.90;32.17,67.29|CS|N|Use the idol at each altar.|
 T Summoning Shadra|QID|26558|M|35.54,68.46|N|To Deathstalker Lookout.|
 A Shadra the Venom Queen|QID|26419|M|35.54,68.46|N|From Deathstalker Lookout.|
 C Shadra the Venom Queen|QID|26419|M|34.59,69.70|N|Let the forsaken tank for you, and defeat the venom queen!|

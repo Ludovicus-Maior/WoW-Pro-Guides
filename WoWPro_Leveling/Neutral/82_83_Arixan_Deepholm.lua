@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2013-01-13 18:56
+-- Who: Ludovicus Maior
+-- Log: Added CC tag
+
+-- URL: http://wow-pro.com/node/3307/revisions/25440/view
+-- Date: 2013-01-13 16:14
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3307/revisions/25308/view
 -- Date: 2013-01-09 22:32
 -- Who: Ludovicus Maior
 -- Log: Added CS tag
@@ -210,7 +220,7 @@ T Twilight Research|QID|27100|RANK|2|M|74.05,60.90|N|(UI Alert)|
 A Maziel's Revelation|QID|27101|PRE|27100|RANK|2|M|74.05,60.90|N|(UI Alert)|
 T Maziel's Revelation|QID|27101|RANK|2|M|67.18,70.17|N|Fly to Lower Silvermarsh. Find Maziel's Journal.|
 A Maziel's Ascendancy|QID|27102|PRE|27101|RANK|2|M|67.18,70.17|N|From Maziel's Journal.|
-C Maziel's Ascendancy|QID|27102|RANK|2|M|69.37,68.20;72.79,61.98|N|Maziel is inside the cave just east of where the journal was located. Enter the cave and take the left fork when the path spits. Maziel is located on an island in the middle of a small pond.|
+C Maziel's Ascendancy|QID|27102|RANK|2|M|69.37,68.20;72.79,61.98|CS|N|Maziel is inside the cave just east of where the journal was located. Enter the cave and take the left fork when the path spits. Maziel is located on an island in the middle of a small pond.|
 T Maziel's Ascendancy|QID|27102|RANK|2|M|72.26,62.22|N|(UI Alert)|
 T The Twilight Overlook|QID|27061|M|64.47,82.23|N|To Stormcaller Mylra.|
 
@@ -324,7 +334,7 @@ T Fungal Monstrosities|QID|26792|M|27.6,44.9|N|To Slate Quicksand.|
 A A Slight Problem|QID|26835|PRE|26791;26792|M|27.6,44.9|N|From Slate Quickand.|
 T A Slight Problem|QID|26835|PRE|26791;26792|M|22.6,52.1|N|To Pyrium Lodestone.|
 A Rescue the Stonefather... and Flint|QID|26836|PRE|26835|M|22.6,52.1|N|From Pyrium Lodestone.|
-C Rescue the Stonefather... and Flint|QID|26836|M|24.64,32.41;24.57,30.94|N|Fly to this bridge and then kill Bouldergut.|
+C Rescue the Stonefather... and Flint|QID|26836|M|24.64,32.41;24.57,30.94|CC|N|Fly to this bridge and then kill Bouldergut.|
 T Rescue the Stonefather... and Flint|QID|26836|M|22.6,52.1|N|To Pyrium Lodestone.|
 A The Hero Returns|QID|27937|PRE|26836|M|22.6,52.1|N|From Pyrium Lodestone.|
 T The Hero Returns|QID|27937|M|28,68.6|N|To Stonefather Oremantle.|
@@ -403,7 +413,7 @@ A Steady Hand|QID|26576|PRE|26575|RANK|1|M|34.12,34.19|N|From Kor.|
 A Rocky Upheaval|QID|26577|PRE|26575|M|34.12,34.19|N|From Kor.|
 T Steady Hand|QID|26576|RANK|1|N|To Terrath the Steady.|
 A Don't. Stop. Moving.|QID|26656|PRE|26576|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
-C Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
+C Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|CS|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
 T Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
 A Hard Falls|QID|26657|PRE|26656|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
 A Fragile Values|QID|26658|PRE|26656|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
@@ -469,7 +479,7 @@ A The Explorers|QID|27952|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Allian
 T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 
 A The Reliquary|QID|27953|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Horde|
-T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
+T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|CC|N|To Examiner Rowe.|FACTION|Horde|
 
 T Word In Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
 A Undying Twilight|QID|26875|PRE|26833|N|From Maruut.|
@@ -490,11 +500,11 @@ T The Twilight Plot|QID|27004|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 T Fly Over|QID|27006|M|47.4,51.4|N|To Prospector Brewer.|FACTION|Alliance|
 A Fight Fire and Water and Air with...|QID|27042|PRE|27004;27006|RANK|2|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
 A Decryption Made Easy|QID|27040|PRE|27004;27006|N|From Explorer Mowi.|FACTION|Alliance|
-C Decryption Made Easy|QID|27040|S|M|38,69.9;39.6,73.8;41.2,71.8|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
+C Decryption Made Easy|QID|27040|S|M|38,69.9;39.6,73.8;41.2,71.8|CN|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
 C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental.|FACTION|Alliance|
 C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|36.10,67.40|QO|Fire Ward acquired: 1/1|N|Kill the Bound Fire Elemental.|FACTION|Alliance|
 C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|40.50,72.40|QO|Air Ward acquired: 1/1|N|Kill the Bound Air Elemental.|FACTION|Alliance|
-C Decryption Made Easy|QID|27040|US|M|38,69.9;39.6,73.8;41.2,71.8|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
+C Decryption Made Easy|QID|27040|US|M|38,69.9;39.6,73.8;41.2,71.8|CN|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
 T Decryption Made Easy|QID|27040|N|(UI Alert)|FACTION|Alliance|
 A The Wrong Sequence|QID|27058|PRE|27040|N|Quest starts automatic.|FACTION|Alliance|
 C The Wrong Sequence|QID|27058|M|39.15,73.75|N|Go to the Waygate, use the Waygate Contoller located directly in front of the Waygate to destroy it.|FACTION|Alliance|

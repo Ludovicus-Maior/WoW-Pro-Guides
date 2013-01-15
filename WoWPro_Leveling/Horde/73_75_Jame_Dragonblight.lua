@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2013-01-13 19:19
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3292/revisions/25317/view
 -- Date: 2013-01-09 22:50
 -- Who: Ludovicus Maior
 -- Log: Added some CS tags
@@ -108,7 +113,7 @@ A Chains of the Anub'ar |QID|12064|M|22.61,41.71|PRE|12063|N|From Banthok Icemis
 l Flesh-Bound Tome |QID|12057|L|36744|N|Until you get a Flesh-Bound Tome.|S|
 l Anok'ra's Key Fragment |QID|12064|L|36752|N|Kill and loot Anok'ra (ground floor) to get his key fragment.|M|25,45|
 l Sinok's Key Fragment |QID|12064|N|Kill and loot Sinok to get his key fragment.|L|36754|M|26,44|
-C Chains of the Anub'ar |QID|12064|N|Look for Tivax, who can be at either waypoint, get his key fragment.|M|26,39;23,39|
+C Chains of the Anub'ar |QID|12064|N|Look for Tivax, who can be at either waypoint, get his key fragment.|M|26,39;23,39|CN|
 l Flesh-Bound Tome |QID|12057|L|36744|N|Until you get a Flesh-Bound Tome. Also drops off the three named mobs we just killed.|US|
 A The Flesh-Bound Tome |QID|12057|U|36744|M|26.9,43.3|N|From the Flesh-Bound Tome.|
 T Chains of the Anub'ar |QID|12064|N|To Banthok Icemist.|M|22.61,41.71|
@@ -313,7 +318,7 @@ C That Which Creates Can Also Destroy |QID|12459|S|QO|Weakened Reanimated Frost 
 C Wanted: Dreadtalon |QID|12091|M|45.67,43.61|N|Kill Dreadtalon.|
 
 A Pest Control |QID|12144|N|From Kontokanis.|M|46.69,33.49|
-C Pest Control |QID|12144|M|55,41;56,52|N|Kill the Snobolds and Magnataur needed.|
+C Pest Control |QID|12144|M|55,41;56,52|CN|N|Kill the Snobolds and Magnataur needed.|
 T Pest Control |QID|12144|M|46.7,33.5|N|To Kontokanis.|
 A Canyon Chase |QID|12145|M|46.7,33.5|PRE|12144|N|From Kontokanis.|
 C Canyon Chase |QID|12145|N|Follow the snobolds, they'll lead you to a Magnatur named Icefist.|M|42,40|
@@ -327,7 +332,7 @@ K Bonesunder |QID|12148|QO|Emblazoned Battle Horn: 1/1|M|50.64,58.5|N|Look for B
 T One of a Kind |QID|12148|M|60.0,55.1|N|To Aurastrasza.|
 
 A Mighty Magnataur |QID|12149|N|From Aurastrasza.|M|60.0,55.1|
-K Drakegore |QID|12149|QO|Drakegore slain: 1/1|M|67.4,39;68,42.4|N|Kill Drakegore. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
+K Drakegore |QID|12149|QO|Drakegore slain: 1/1|M|67.4,39;68,42.4|CN|N|Kill Drakegore. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
 K Iceshatter |QID|12149|QO|Iceshatter slain: 1/1|M|67,50|N|Kill Iceshatter. He periodically casts Pulsing Shards. This is very dangerous and can't be interrupted. Either run away while he channels it or use something like cloak of shadows, divine shield, ice block.|
 C In Service of Frost |QID|12127|U|36847|N|Ice Revenants will be on a frozen lake just south of you. Beat one down to 35% and use the Frost Gem on it.|M|66.2,52.9|
 C Mighty Magnataur |QID|12149|M|67.4,70.2|N|Kill Bloodfeast. He summons maggots which heal him up.|
@@ -433,7 +438,7 @@ A Stocking Up |QID|12044|M|55.0,23.4|N|From Xink.|
 A Shaved Ice |QID|12045|M|54.7,23.2|N|From Zivlix.|
 A Nozzlerust Defense |QID|12043|M|54.5,23.6|N|From Narf.|
 C Nozzlerust Defense |QID|12043|S|N|Kill the needed mobs.|M|57.00,28.00|
-C Stocking Up |QID|12044|N|Go between the sites where the waypoints are until you get all the ore needed.|M|56.28,27.46;59.13,31.24;51.68,31.27|
+C Stocking Up |QID|12044|N|Go between the sites where the waypoints are until you get all the ore needed.|M|56.28,27.46;59.13,31.24;51.68,31.27|CN|
 C Nozzlerust Defense |QID|12043|US|N|Finishing killing the needed mobs.|M|57.00,28.00|
 T To Dragon's Fall|QID|12095|N|To Rokhan.|M|47.19,33.03|
 

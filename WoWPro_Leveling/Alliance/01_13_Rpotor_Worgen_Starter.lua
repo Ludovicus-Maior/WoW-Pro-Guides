@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2013-01-12 19:17
+-- Who: Ludovicus Maior
+-- Log: Added CS and CN tags
+
+-- URL: http://wow-pro.com/node/3211/revisions/25327/view
 -- Date: 2013-01-11 19:38
 -- Who: Emmaleah
 -- Log: Add CS tag to T Old Divisions
@@ -181,7 +186,7 @@ T All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.80,22.23|N|Back to Greyman
 T Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.80,22.23|N|Back to Greymane.|
 A Royal Orders |QID|14099|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|
 
-T Royal Orders |QID|14099|Z|GilneasCity|M|61.53,41.52;69.09,45.32;70.76,55.03|N|Southeast through the Merchant Square, down some steps and across a bridge.|
+T Royal Orders |QID|14099|Z|GilneasCity|M|61.53,41.52;69.09,45.32;70.76,55.03|CC|N|Southeast through the Merchant Square, down some steps and across a bridge.|
 A Your Instructor |QID|14265|Z|GilneasCity|M|70.7,54.7|C|Warrior|N|From Gwen Armstead.|
 A Someone's Looking for You |QID|14269|Z|GilneasCity|M|70.7,54.7|C|Rogue|N|From Gwen Armstead.|
 A Shady Associates |QID|14273|Z|GilneasCity|M|70.7,54.7|C|Warlock|N|From Gwen Armstead.|
@@ -257,7 +262,7 @@ T While You're At It |QID|24930|Z|GilneasCity|M|65.5,77.4|N|Leave the balcony al
 T Brothers In Arms |QID|26129|Z|GilneasCity|M|65.9,77.4|N|To King Genn Greymane.|
 A The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|65.9,77.4|N|From King Genn Greymane.|
 
-T The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|61.94,82.13;55.61,81.55|N|Go southwest/west, take a right around the house and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
+T The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|61.94,82.13;55.61,81.55|CS|N|Go southwest/west, take a right around the house and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
 
 A From the Shadows |QID|14204|Z|GilneasCity|M|56.9,81.7|N|Turn around and get this quest from Lorna Crowley.|
 
@@ -274,7 +279,7 @@ C Save Krennan Aranas |QID|14293|Z|GilneasCity|M|66.0,62.2|N|Your horse is scrip
 T Save Krennan Aranas |QID|14293|Z|GilneasCity|M|55.8,80.2|N|Turn in to Lord Godfrey.|
 A Time to Regroup |QID|14294|Z|GilneasCity|M|55.8,80.2|N|From Lord Godfrey.|
 
-T Time to Regroup |QID|14294|Z|GilneasCity|M|53.84,84.03;42.80,82.85;30.5,73.3|N|Go west, then south along the streets then through a bridge west into the Greymane Court district. Continue northwest along the street to King Greymane.|
+T Time to Regroup |QID|14294|Z|GilneasCity|M|53.84,84.03;42.80,82.85;30.5,73.3|CS|N|Go west, then south along the streets then through a bridge west into the Greymane Court district. Continue northwest along the street to King Greymane.|
 N Training in Earnest|QID|14212|Z|GilneasCity|M|32.24,73.29|N|Find your trainer here, and train, if you have leveled.|
 A Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.6|N|From Lord Crowley.|
 
@@ -324,7 +329,7 @@ T Holding Steady|QID|14366|Z|Gilneas|M|37.36,63.29|N|To Gwen Armstead.|
 
 A The Allens' Storm Cellar|QID|14367|Z|Gilneas|M|37.36,63.29|N|From Gwen Armstead.|
 
-T The Allens' Storm Cellar|QID|14367|Z|Gilneas|M|30.13,63.82;28.97,63.93|N|To Lord Godfrey.|
+T The Allens' Storm Cellar|QID|14367|Z|Gilneas|M|30.13,63.82;28.97,63.93|CC|N|To Lord Godfrey.|
 A Unleash the Beast|QID|14369|Z|Gilneas|M|28.90,63.91|N|From Lord Godfrey.|
 A Two By Sea|QID|14382|Z|Gilneas|M|28.90,63.91|N|From Lord Godfrey.|
 A Save the Children!|QID|14368|Z|Gilneas|M|28.90,63.91|N|From Melinda Hammond.|
@@ -334,8 +339,8 @@ C Talk to James|QID|14368|Z|Gilneas|M|28.56,66.74|QO|James rescued: 1/1|N|James 
 C Talk to Ashley|QID|14368|Z|Gilneas|M|27.92,66.64|QO|Ashley rescued: 1/1|N|Inside the house upstairs. Right-click to rescue her.|NC|
 C Talk to Cynthia|QID|14368|Z|Gilneas|M|29.59,69.18|QO|Cynthia rescued: 1/1|N|Go southeast to the cornfield and find Cynthia near the shed. Right-click her to rescue her.|NC|
 
-C Kill Captain Anson|QID|14382|Z|Gilneas|M|25.34,72.20;23.9,75.0|QO|Captain Anson slain: 1/1|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.|
-C Kill Captain Morris|QID|14382|Z|Gilneas|M|29.54,74.23;27.2,80.0|QO|Captain Morris slain: 1/1|N|Go to another catapult, kill the Forsaken Machinist, launch yourself onto the other ship. Go downstairs and kill Captain Morris.|
+C Kill Captain Anson|QID|14382|Z|Gilneas|M|25.34,72.20;23.9,75.0|QO|Captain Anson slain: 1/1|CC|N|Go to one of the catapults and kill the Forsaken Machinist operating it. Get into the catapult and aim it on the deck of the ship closer to you to the south. use the catapult's Launch ability to launch yourself onto the ship. Go down the stairs and kill Captain Anson.|
+C Kill Captain Morris|QID|14382|Z|Gilneas|M|29.54,74.23;27.2,80.0|QO|Captain Morris slain: 1/1|CC|N|Go to another catapult, kill the Forsaken Machinist, launch yourself onto the other ship. Go downstairs and kill Captain Morris.|
 C Unleash the Beast|QID|14369|Z|Gilneas|M|27.90,80.70|N|Kill Forsaken Footsoldiers on the way.|US|
 
 N Sell Junk|QID|14369|Z|Gilneas|M|28.81,63.48|N|Sell Junk at Marie Allen.|
@@ -361,7 +366,7 @@ A The Crowley Orchard|QID|14406|Z|Gilneas|M|37.57,65.21|N|From Gwen Armstead.|
 
 T The Crowley Orchard|QID|14406|Z|Gilneas|M|37.66,72.75|N|To Lorna Crowley.|
 A The Hungry Ettin|QID|14416|Z|Gilneas|M|37.66,72.75|N|From Lorna Crowley.|
-C The Hungry Ettin|QID|14416|Z|Gilneas|M|39.72,76.82;37.66,72.75|N|Hop on one of the Mountain Horses. Then target another Mountain Horse and use your horse's Round Up Horse ability.  Do this on a total of 4 horses, then ride back to Lorna Crowley.|
+C The Hungry Ettin|QID|14416|Z|Gilneas|M|39.72,76.82;37.66,72.75|CN|N|Hop on one of the Mountain Horses. Then target another Mountain Horse and use your horse's Round Up Horse ability.  Do this on a total of 4 horses, then ride back to Lorna Crowley.|
 T The Hungry Ettin|QID|14416|Z|Gilneas|M|37.60,72.77|N|To Lorna Crowley.|
 T Grandma Wahl|QID|14398|Z|Gilneas|M|32.53,75.55|N|To Grandma Wahl.|
 A Grandma's Lost It Alright|QID|14399|Z|Gilneas|M|32.53,75.55|N|From Grandma Wahl.|
@@ -392,7 +397,7 @@ A Escape By Sea|QID|14405|Z|Gilneas|M|36.88,84.20|N|From Sebastian Hayward.|
 T Escape By Sea|QID|14405|Z|Gilneas|M|37.61,65.25|N|To Gwen Armstead.|
 A To Greymane Manor|QID|14465|Z|Gilneas|M|37.61,65.25|N|From Gwen Armstead.  On accepting this quest, you will be taken half way to Greymane Manor.|
 
-T To Greymane Manor|QID|14465|Z|Gilneas|M|30.38,52.53;28.71,51.05;28.17,50.03|N|To Queen Mia Greymane.|
+T To Greymane Manor|QID|14465|Z|Gilneas|M|30.38,52.53;28.71,51.05;28.17,50.03|CC|N|To Queen Mia Greymane.|
 h Greymane Manor |QID|14466|Z|Gilneas|M|28.17,50.03|N|Set your hearthstone at Queen Mia Greymane.|
 A The King's Observatory|QID|14466|Z|Gilneas|M|28.17,50.03|N|From Queen Mia Greymane.|
 T The King's Observatory|QID|14466|Z|Gilneas|M|26.40,46.97|N|To King Genn Greymane, on top of the tower.|
@@ -407,7 +412,7 @@ A Stranded at the Marsh|QID|24468|Z|Gilneas|M|51.86,80.52|N|From Prince Liam Gre
 C Stranded at the Marsh|QID|24468|Z|Gilneas|M|53.24,71.99|N|Kill Swamp Crocolisks until you've rescued 5 Crash Survivors.|
 T Stranded at the Marsh|QID|24468|Z|Gilneas|M|51.86,80.52|N|To Prince Liam Greymane.|
 A Introductions Are in Order|QID|24472|Z|Gilneas|M|51.86,80.52|N|From Prince Liam Greymane.|
-C Introductions Are in Order|QID|24472|Z|Gilneas|M|48.21,85.54;46.75,83.40|N|Go to the top of the hill and loot Koroth's Banner. Kill 4 Ogre Minions on the way.|
+C Introductions Are in Order|QID|24472|Z|Gilneas|M|48.21,85.54;46.75,83.40|CC|N|Go to the top of the hill and loot Koroth's Banner. Kill 4 Ogre Minions on the way.|
 T Introductions Are in Order|QID|24472|Z|Gilneas|M|51.76,80.23|N|To Prince Liam Greymane.|
 L Level 9|QID|24483|LVL|9|N|You should be around level 9 by this point.|
 A Stormglen|QID|24483|Z|Gilneas|M|51.81,80.17|N|From Prince Liam Greymane.|
@@ -441,7 +446,7 @@ T At Our Doorstep|QID|24627|Z|Gilneas|M|68.72,73.28|N|To Lord Darius Crowley.|
 A Take Back What's Ours|QID|24646|Z|Gilneas|M|68.87,73.23|N|From Lord Darius Crowley.|
 T Preparations|QID|24628|Z|Gilneas|M|69.25,72.99|N|To Vassandra Stormclaw.|
 L Level 10|QID|24628|LVL|10|N|You should be around level 10 by this point.|
-C Take Back What's Ours|QID|24646|Z|Gilneas|M|58.96,75.25;57.55,75.64|N|Go west to the Woods'End Cabin and use the Horn of Tal'doren. While the rangers are busy fighting the worgens, run into the house and loot the Mysterious Artifact.|U|50134|
+C Take Back What's Ours|QID|24646|Z|Gilneas|M|58.96,75.25;57.55,75.64|CS|N|Go west to the Woods'End Cabin and use the Horn of Tal'doren. While the rangers are busy fighting the worgens, run into the house and loot the Mysterious Artifact.|U|50134|
 T Take Back What's Ours|QID|24646|Z|Gilneas|M|68.87,73.23|N|To Lord Darius Crowley.|
 A Neither Human Nor Beast|QID|24593|Z|Gilneas|M|68.70,73.24|N|From Lord Darius Crowley.|
 C Neither Human Nor Beast|QID|24593|Z|Gilneas|M|69.16,73.46|N|Click on the 3 wells behind Lord Darius Crowley.|NC|
@@ -451,10 +456,10 @@ T Return to Stormglen|QID|24673|Z|Gilneas|M|59.84,91.76|N|To Gwen Armstead.|
 A Onwards and Upwards|QID|24672|Z|Gilneas|M|59.84,91.76|N|From Gwen Armstead.|
 N Sell Junk|QID|24617|Z|Gilneas|M|68.13,74.49|N|Sell Junk.|
 
-T Onwards and Upwards|QID|24672|Z|Gilneas|M|67.51,91.81;71.10,86.90;72.71,80.13|N|To Krennan Aranas.|
+T Onwards and Upwards|QID|24672|Z|Gilneas|M|67.51,91.81;71.10,86.90;72.71,80.13|CC|N|To Krennan Aranas.|
 A Betrayal at Tempest's Reach|QID|24592|Z|Gilneas|M|72.71,80.13|N|From Krennan Aranas.|
-K Baron Ashbury|QID|24592|Z|Gilneas|M|79.09,72.63;82.53,68.99;85.23,73.95|QO|Baron Ashbury slain: 1/1|N|Cross the bridge, drink your Krennan's Potion of Stealth. Keep going until you cross another bridge leading to a big house with a large tower. Kill Baron Ashbury, preferably near the back entrance to the house. The dogs can see through the stealth, so be careful.|U|50218|
-C Betrayal at Tempest's Reach|QID|24592|Z|Gilneas|M|82.07,66.63;80.34,63.97;77.97,66.20|N|Drink your Krennan's Potion of Stealth again, get in the village, follow the road to the top of the hill and kill Lord Walden, preferably inside the house.|U|50218|
+K Baron Ashbury|QID|24592|Z|Gilneas|M|79.09,72.63;82.53,68.99;85.23,73.95|CS|QO|Baron Ashbury slain: 1/1|N|Cross the bridge, drink your Krennan's Potion of Stealth. Keep going until you cross another bridge leading to a big house with a large tower. Kill Baron Ashbury, preferably near the back entrance to the house. The dogs can see through the stealth, so be careful.|U|50218|
+C Betrayal at Tempest's Reach|QID|24592|Z|Gilneas|M|82.07,66.63;80.34,63.97;77.97,66.20|CS|N|Drink your Krennan's Potion of Stealth again, get in the village, follow the road to the top of the hill and kill Lord Walden, preferably inside the house.|U|50218|
 T Betrayal at Tempest's Reach|QID|24592|Z|Gilneas|M|78.27,72.01|N|To King Genn Greymane.|U|50218|
 A Flank the Forsaken|QID|24677|Z|Gilneas|M|78.27,72.01|N|From King Genn Greymane.|
 R Livery Outpost|QID|24677|Z|Gilneas|M|78.36,71.80|N|Speak to Lord Hewell to get a horse which will take you to Livery Outpost.|
@@ -464,7 +469,7 @@ A Slaves to No One|QID|24674|Z|Gilneas|M|70.65,39.70|N|From Marcus.|
 A Liberation Day|QID|24575|Z|Gilneas|M|70.88,39.85|N|From Lorna Crowley.|
 C Last Meal|QID|24675|Z|Gilneas|M|78.11,43.57|N|Kill Brown Stags until you get 10 Side of Stag Meats.|
 C Liberation Day|QID|24575|Z|Gilneas|M|76.86,29.47|N|Kill Forsaken Slavedrivers, loot their keys and free Enslaved Gilneans while fighting your way through the mine.|S|
-C Slaves to No One|QID|24674|Z|Gilneas|M|76.39,31.27;80.03,25.72;80.30,32.28|N|Brothogg is at the bottom of the mine.|
+C Slaves to No One|QID|24674|Z|Gilneas|M|76.39,31.27;80.03,25.72;80.30,32.28|CS|N|Brothogg is at the bottom of the mine.|
 C Liberation Day|QID|24575|Z|Gilneas|M|76.86,29.47|N|Free 5 Enslaved Gilneans.|US|
 L Level 11|QID|24575|LVL|11|N|You should be around level 11 by this point.|
 T Slaves to No One|QID|24674|Z|Gilneas|M|71.06,39.77|N|To Marcus.|
@@ -506,7 +511,7 @@ T Endgame|QID|26706|Z|Gilneas|M|41.62,36.52|N|To Lorna Crowley.|
 L Level 13|QID|26706|LVL|13|N|You should be around level 13 by this point.|
 A Rut'theran Village|QID|14434|Z|Gilneas|M|42.59,35.93|N|Talk to Admiral Nightwind, take this quest.  You will be in Rut'theran Village. This is a accept/complete all-in-one type quest, so right-click the box to continue.|
 A The Howling Oak|QID|28517|M|55.22,89.15|Z|Teldrassil|N|From Krennan Aranas.|
-T The Howling Oak|QID|28517|M|41.88,48.25;46.04,34.73;47.97,14.16|Z|Darnassus|N|Take the teleporter, then go to the Howling Oak and turn in to Genn Greymane.|
+T The Howling Oak|QID|28517|M|41.88,48.25;46.04,34.73;47.97,14.16|Z|Darnassus|CS|N|Take the teleporter, then go to the Howling Oak and turn in to Genn Greymane.|
 A Breaking Waves of Change|QID|26385|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
 f Get the Darnassus Flight Point|QID|26385|M|36.67,47.91|Z|Darnassus|N|At Leora.|
 F Lor'danel|QID|26385|M|55.41,88.40|Z|Darnassus|N|Take the teleport out of Darnassus, then get a Hyppogryph ride to Lor'danel.|

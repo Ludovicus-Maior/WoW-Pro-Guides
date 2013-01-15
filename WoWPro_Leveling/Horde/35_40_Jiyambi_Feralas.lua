@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2013-01-13 18:03
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3245/revisions/24943/view
 -- Date: 2012-02-10 16:25
 -- Who: Crackerhead22
 -- Log: ?
@@ -91,7 +96,7 @@ C Improved Quality|QID|25453|US|RANK|2|M|52.29,58.39|N|Kill and loot yetis at th
 A Rescue OOX-22/FE!|QID|25476|RANK|3|M|53.37,55.71|N|From Homing Robot OOX-22/FE. This is optional as the turn-in is over in Booty Bay.|
 C Rescue OOX-22/FE!|QID|25476|RANK|3|M|55.62,51.34|N|Follow the chicken. There will be one ambush of yetis when you get close to the road, so be ready.|
 C Even More Fuel for the Zapping|QID|25466|RANK|3|M|45.39,65.85|N|Kill and loot water elementals on the coast|S|
-C Still With The Zapped Giants|QID|25465|RANK|3|U|18904|M|53.69,51.96;50.27,51.41;45.39,65.85|N|Use the zapper on the elite giants along the coastline  - they will shrink. Kill and loot them.|
+C Still With The Zapped Giants|QID|25465|RANK|3|U|18904|M|53.69,51.96;50.27,51.41;45.39,65.85|CN|N|Use the zapper on the elite giants along the coastline  - they will shrink. Kill and loot them.|
 C Even More Fuel for the Zapping|QID|25466|RANK|3|M|45.39,65.85|N|Kill and loot water elementals on the coast|US|
 H Stonemaul Hold|QID|25465|RANK|3|M|51.91,48.01|N|If your hearth is down or you didn't set it there, run back.|
 T Still With The Zapped Giants|QID|25465|RANK|3|M|48.66,44.85|N|To Zorbin Fandazzle.|
@@ -113,7 +118,7 @@ C Rulers of Dire Maul|QID|25252|M|58.61,44.47|N|Kill ogres near Dire Maul.|US|
 T Rulers of Dire Maul|QID|25252|M|51.91,48.03|N|To Orhan Ogreblade.|
 T Ogre Abduction|QID|25344|M|51.91,46.62|N|To Swar'jan.|
 A Might of the Stonemaul|QID|25329|PRE|25344|M|51.91,48.04|N|From Orhan Ogreblade.|
-C Might of the Stonemaul|QID|25329|M|59.32,39.37;61.02,34.99;62.51,30.94|N|Head inside Dire Maul. Leap down into the arena. Watch the event as it progresses, don't worry, you'll get help from some NPCs.|
+C Might of the Stonemaul|QID|25329|M|59.32,39.37;61.02,34.99;62.51,30.94|CS|N|Head inside Dire Maul. Leap down into the arena. Watch the event as it progresses, don't worry, you'll get help from some NPCs.|
 H Stonemaul Hold|QID|25329|M|51.90,48.02|N|If your hearth is up and set there, hearth back. Otherwise, ride back.|
 T Might of the Stonemaul|QID|25329|M|51.90,48.02|N|To Orhan Ogreblade.|
 
@@ -160,7 +165,7 @@ T Ysondre's Farewell|QID|25383|M|74.59,42.88|N|To Chief Spirithorn. Congrats on 
 T Taming The Tamers|QID|25375|M|74.59,42.88|N|To Chief Spirithorn.|
 T Woodpaw Investigation|QID|25365|M|71.65,55.91|N|To the attack plans on the box in a gnoll camp south-west of Camp Mojache|
 A The Battle Plans|QID|25366|PRE|25365|M|71.64,55.92|N|From the gnoll plans.|
-T The Darkmist Ruins|QID|25643|M|67.83,60.14;66.76,59.59;65.92,62.83|N|Nearby you will find the entrance to the Darkmist Ruins. Head there and turn-in to glowing bowl of light.|
+T The Darkmist Ruins|QID|25643|M|67.83,60.14;66.76,59.59;65.92,62.83|CS|N|Nearby you will find the entrance to the Darkmist Ruins. Head there and turn-in to glowing bowl of light.|
 A The Darkmist Legacy|QID|25422|PRE|25643|M|65.92,62.83|N|From Sensiria, who will appear next to you.|
 A Ancient Suffering|QID|25423|PRE|25643|M|65.92,62.83|N|From Sensiria.|
 C Ancient Suffering|QID|25423|S|M|64.77,62.72|N|Kill the spirits in the area.|
@@ -191,7 +196,7 @@ C A Grim Discovery|QID|25362|RANK|2|M|69.01,38.55|N|There is a camp north of Moj
 T A Grim Discovery|QID|25362|RANK|2|M|74.94,43.13|N|To Krueg Skullsplitter.|
 C Mountain Giant Muisek|QID|25346|U|9621|M|70.31,61.99|N|Kill mountain giants and use the vessel on their corpses.|
 C Zukk'ash Infestation|QID|25367|S|M|75.29,59.54|N|Kill and loot silithid.|
-C Stinglasher|QID|25369|M|76.87,61.51;77.41,62.06;78.46,62.50|N|Kill and loot Stinglasher. It wanders between, and inside, the two hives. So look for the skull icon on your minimap.|
+C Stinglasher|QID|25369|M|76.87,61.51;77.41,62.06;78.46,62.50|CN|N|Kill and loot Stinglasher. It wanders between, and inside, the two hives. So look for the skull icon on your minimap.|
 C Zukk'ash Infestation|QID|25367|US|M|75.29,59.54|N|Kill and loot silithid.|
 H Camp Mojache|QID|25369|M|74.91,42.53|N|If your hearth is down or you didn't set it there, run back.|
 T Mountain Giant Muisek|QID|25346|M|74.43,43.43|N|To Witch Doctor Uzer'i.|

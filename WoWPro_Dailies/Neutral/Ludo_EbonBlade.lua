@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2013-01-12 21:25
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3405/revisions/25295/view
 -- Date: 2013-01-09 01:48
 -- Who: Ludovicus Maior
 -- Log: Added CN tag.
@@ -49,10 +54,10 @@ A Reading the Bones|QID|13093|M|32.50,42.95|N|If you have 15 Vrykul Bones, give 
 A From Their Corpses, Rise!|QID|12813|M|19.67,48.38|N|From Setaal Darkmender.|
 A Intelligence Gathering|QID|12838|M|19.80,47.60|N|From Aurochs Grimbane, circling on his horse.|
 A No Fly Zone|QID|12815|M|19.64,47.80|N|From Uzo Deathcaller|
-C Intelligence Gathering|QID|12838|M|12.45,44.05;7.82,43.50;5.80,44.02;8.72,36.81;6.32,41.35;10.07,43.51;6.10,38.45;9.23,46.33;10.75,40.03|N|Kill Scarlets to find keys, use them to open the small boxes lying around.|S|
+C Intelligence Gathering|QID|12838|M|12.45,44.05;7.82,43.50;5.80,44.02;8.72,36.81;6.32,41.35;10.07,43.51;6.10,38.45;9.23,46.33;10.75,40.03|CN|N|Kill Scarlets to find keys, use them to open the small boxes lying around.|S|
 C From Their Corpses, Rise!|QID|12813|U|40587|S|N|Use potion on corpses.|
 C No Fly Zone|QID|12815|M|30, 28|N|Kill Gryphon Riders.  You can use the Gryphon or tank them yourself. Keep up Bone Armor (#3), open with Plague Strike (#2) and spam Frost breath (#1).|U|40600|S|
-C Intelligence Gathering|QID|12838|M|12.45,44.05;7.82,43.50;5.80,44.02;8.72,36.81;6.32,41.35;10.07,43.51;6.10,38.45;9.23,46.33;10.75,40.03|N|Kill Scarlets to find keys, use them to open the small boxes lying around.|US|
+C Intelligence Gathering|QID|12838|M|12.45,44.05;7.82,43.50;5.80,44.02;8.72,36.81;6.32,41.35;10.07,43.51;6.10,38.45;9.23,46.33;10.75,40.03|CN|N|Kill Scarlets to find keys, use them to open the small boxes lying around.|US|
 
 T No Fly Zone|QID|12815|M|19.64,47.80|N|To Uzo Deathcaller, you may find it safer to return on your own mount instead of the Bone Gryphon.|
 T From Their Corpses, Rise!|QID|12813|M|19.67,48.38|N|To Setaal Darkmender, circling on his horse.|

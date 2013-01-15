@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2013-01-13 15:28
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3514/revisions/25289/view
 -- Date: 2013-01-09 01:37
 -- Who: Ludovicus Maior
 -- Log: Added CN and CS tags.
@@ -56,7 +61,7 @@ A Pandaren Ritual Stone|QID|31404|L|86216|RANK|2|M|23,35|Z|The Jade Forest|N|Isl
 A Ancient Pandaren Tea Pot|QID|31400|L|85780|RANK|2|M|26.2,32.3|Z|The Jade Forest|N|On table, Shrine of the Moon.|
 A Lucky Pandaren Coin|QID|31401|L|85781|RANK|2|M|31,27|Z|The Jade Forest|N|In fountain, Shrine of the Sun.|
 A Wodin's Mantid Shanker|QID|31397|L|85776|RANK|1|M|39.4,7.3|Z|The Jade Forest|N|Owen's Wishing Well. Terrace of Ten Thunders.|
-A Hammer of Ten Thunders|QID|31403|L|86198|RANK|1|M|43,11.6;41.8,17.6|Z|The Jade Forest|N|Seat of the Spirit Walker, Terrace of Ten Thunders.|
+A Hammer of Ten Thunders|QID|31403|L|86198|RANK|1|M|43,11.6;41.8,17.6|Z|The Jade Forest|CN|N|Seat of the Spirit Walker, Terrace of Ten Thunders.|
 A Stash of Gems|QID|31866|L|RANK|3|M|62.47,27.55|Z|The Jade Forest|N|Cave in Windward Isle - Shadowfae Madcap, spawn point, I wouldn't recommend this one pre lvl 90.|
 A Ancient Pandaren Mining Pick|QID|31399|L|85777|RANK|1|M|46.1,29.1;44.1,27.0;43.8,30.7|Z|The Jade Forest|CN|N|Multiple spots in Greenstone Mine.|
 A Jade Infused Blade|QID|31307|L|86199|RANK|1|T|Jade Warrior Statue|M|39.4,46.65|Z|The Jade Forest|N|Talk to 'Jade Warrior Statue'[64272] at Jade Witch's house.|
@@ -64,7 +69,7 @@ A Ancient Jinyu Staff|QID|31402|L|86196|RANK|1|M|47.1,67.4;46.2,71.2;44.9,64.6|Z
 A Offering of Remembrance|QID|31865|RANK|3|M|46.3,80.7|Z|The Jade Forest|N|Money bag - on the alter. Debuff is visual effect only.|
 A Ship's Locker|QID|31396|RANK|2|M|70.13,74.5|Z|Pandaria|N|Lower deck, possibly any sunken ship.|
 
-A Boat-Building Instructions|QID|31869|L|87524|RANK|3|M|79.79,4.45;88.53,50.6|Z|Valley of the Four Winds|N|in Hut along shore, just down from finding Yi mo (Krasarang).|
+A Boat-Building Instructions|QID|31869|L|87524|RANK|3|M|79.79,4.45;88.53,50.6|CC|Z|Valley of the Four Winds|N|in Hut along shore, just down from finding Yi mo (Krasarang).|
 A Saurok Stone Tablet|QID|31408|L|86220|RANK|2|M|75,55|Z|Valley of the Four Winds|N|2nd room of Saurok cave.|
 A Pandaren Fishing Spear|QID|31409|L|86124|RANK|1|M|50.8,49.4|Z|Krasarang Wilds|N|Almost underneath Uncle Deming.|
 A Stack of Papers|QID|31863|L|87798|RANK|3|M|52.2,73.4|Z|Krasarang Wilds|N|Path up hill is back side of Marista Island, papers are next to gnome skeletons and hatch.|
@@ -80,7 +85,7 @@ A Swarming Cleaver of Ka'roz|QID|31434|L|86523|RANK|1|M|56.8,77.6|Z|Dread Wastes
 A Swarmkeeper's Medallion|QID|31437|L|86526|RANK|1|M|54.2,56.4|Z|Dread Wastes|N|Slightly north of Kyparizar.|
 A Manipulator's Talisman|QID|31432|L|86529|RANK|1|T|Glinting Rapana Whelk|M|42,62.2|Z|Dread Wastes|N|Briny Muck - Talk to 'Glinting Rapana Whelk'[65552].|
 A Dissector's Staff of Mutation|QID|31435|L|86524|RANK|1|M|30.2,90.8|Z|Dread Wastes|N|Amber Quarry/Zan'vess Island.|
-A Bloodsoaked Chitin Fragment|QID|31436|L|86525|RANK|1|M|25.5,54.25;25.9,50.3|Z|Dread Wastes|N|Inside Murkscale Grotto,(underwater cave). First coord is entrance.|
+A Bloodsoaked Chitin Fragment|QID|31436|L|86525|RANK|1|M|25.5,54.25;25.9,50.3|Z|Dread Wastes|CS|N|Inside Murkscale Grotto,(underwater cave). First coord is entrance.|
 A Blade of the Poisoned Mind|QID|31438|L|86527|RANK|1|M|28.88,41.99|Z|Dread Wastes|N|Outside a cave, hidden inside the smaller of two bushes.|
 A Malik's Stalwart Spear|QID|31430|L|86520|RANK|1|M|48.7,30|Z|Dread Wastes|N|Clutches of Shek'zerr.|
 A Lucid Amulet of the Agile Mind|QID|31431|L|86521|RANK|1|M|33,30.07|Z|Dread Wastes|N|Heart of Fear.|

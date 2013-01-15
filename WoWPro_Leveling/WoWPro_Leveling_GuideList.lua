@@ -66,4 +66,4 @@ sorttype = "Default"    -- and reset to Default
 -- Describe the table to the Core Module
 WoWPro.Leveling.GuideList.Format={{"Zone",0.35,zoneSort},{"Range",0.15,rangeSort},{"Author",0.30,authorSort},{"Progress",0.20,nil}}
 
-WoWPro.Leveling:Print("Guide Setup complete")
+WoWPro.Leveling:dbp("Guide Setup complete")

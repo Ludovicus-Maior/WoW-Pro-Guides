@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2013-01-13 18:52
+-- Who: Ludovicus Maior
+-- Log: Add C* tags
+
+-- URL: http://wow-pro.com/node/3306/revisions/25315/view
 -- Date: 2013-01-09 22:45
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -211,7 +216,7 @@ A Undersea Sanctuary|QID|25794|M|46.32,47.03|Z|Kelp'thar Forest|N|From Erunak St
 C Undersea Sanctuary|QID|25794|U|56020|M|46.43,46.27|Z|Kelp'thar Forest|N|Use Erunak's Scrying Orb to view Deepmist Grotto.|
 T Undersea Sanctuary|QID|25794|M|46.33,46.75|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Spelunking|QID|26000|M|46.33,46.75|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
-T Spelunking|QID|26000|M|61.07,64.06;63.92,59.89|Z|Kelp'thar Forest|N|To Gurrok.|
+T Spelunking|QID|26000|M|61.07,64.06;63.92,59.89|Z|Kelp'thar Forest|CC|N|To Gurrok.|
 h Deepmist Grotto|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|At Erunak Stonespeaker.|
 A Debriefing|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 C Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|Talk to Gurrok to complete this quest.|
@@ -254,7 +259,7 @@ C Backed Into A Corner|QID|25164|M|56.0,13.8|Z|Shimmering Expanse|N|You will nee
 T Backed Into A Corner|QID|25164|M|56.0,13.8|Z|Shimmering Expanse|N|To Farseer Gadra.|
 
 A Rundown|QID|25221|RANK|1|M|55.6,12.6|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-C Rundown|QID|25221|U|54466|M|53.69,11.89;52,20|Z|Shimmering Expanse|N|Get on on your searhorse and go through the opposite tunnel. When you come out of the tunnel, you will see naga swimming off to your left. Use Toshe's Hunting Spears to kill 20 naga.|
+C Rundown|QID|25221|U|54466|M|53.69,11.89;52,20|Z|Shimmering Expanse|CS|N|Get on on your searhorse and go through the opposite tunnel. When you come out of the tunnel, you will see naga swimming off to your left. Use Toshe's Hunting Spears to kill 20 naga.|
 T Rundown|QID|25221|M|53.28,33.03|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
 
 A Silver Tide Hollow|QID|25222|PRE|25221|RANK|1|M|53.28,33.03|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
@@ -267,7 +272,7 @@ A Slippery Threat|QID|25220|RANK|1|M|49.2,42|Z|Shimmering Expanse|N|From Caretak
 
 h Silver Tide Hollow|QID|25215|M|49.2,42|Z|Shimmering Expanse|N|At Caretaker Movra.|
 
-C A Distracting Scent|QID|25215|M|49.2,42;46,44|Z|Shimmering Expanse|N|Swim out of Silver Tide Hollow and mount up. Near the cave entracne, swim close to a naga corpse and right-click it to start dragging the body. Swim south to Glimmerdeep Gorge. You will drop the naga you are dragging, once you are over the gorge . Drag 3 bodies into the gorge to complete Distracting Scent.|
+C A Distracting Scent|QID|25215|M|49.2,42;46,44|Z|Shimmering Expanse|CN|N|Swim out of Silver Tide Hollow and mount up. Near the cave entrance, swim close to a naga corpse and right-click it to start dragging the body. Swim south to Glimmerdeep Gorge. You will drop the naga you are dragging, once you are over the gorge . Drag 3 bodies into the gorge to complete Distracting Scent.|
 C Slippery Threat|QID|25220|S|M|49.2,35.8|Z|Shimmering Expanse|N|Kill Spiketooth Eels.|
 C Don't be Shellfish|QID|25219|M|49.2,35.8|Z|Shimmering Expanse|N|Collect Coilshell Sifters. At the bottom of the trench.|
 C Slippery Threat|QID|25220|US|M|49.2,35.8|Z|Shimmering Expanse|N|Kill the remaining Spiketooth Eels.|
@@ -353,8 +358,8 @@ T Hopelessly Gearless|QID|25992|Z|Shimmering Expanse|N|To Captian Vilethorn.|M|6
 T Still Valuable|QID|25994|Z|Shimmering Expanse|N|To Wavespeaker Tulra.|M|60.2,63.69|
 
 A Overseer Idra'kess|QID|25995|RANK|1|Z|Shimmering Expanse|N|From Legionnaire Nazgrim.|M|60.2,63.69|
-C Overseer Idra'kess|QID|25995|M|62.91,56.63;61.89,53.36;57.6,57.3|Z|Shimmering Expanse|N|Follow the arrows until you find Overseer Idra'kess. Take down the two casters first then focus on Overseer Idra'kess. Once you get the message "Nespirah is waking up!" just pull him over the red slime things. They explode and should kill him. The casters may spawn again at one point to reshield him.|
-T Overseer Idra'kess|QID|25995|Z|Shimmering Expanse|N|To Earthmender Duarn.|M|60.14,52.87;61.89,53.36;62.91,56.63;51.7,52.1|
+C Overseer Idra'kess|QID|25995|M|62.91,56.63;61.89,53.36;57.6,57.3|Z|Shimmering Expanse|CS|N|Follow the arrows until you find Overseer Idra'kess. Take down the two casters first then focus on Overseer Idra'kess. Once you get the message "Nespirah is waking up!" just pull him over the red slime things. They explode and should kill him. The casters may spawn again at one point to reshield him.|
+T Overseer Idra'kess|QID|25995|Z|Shimmering Expanse|N|To Earthmender Duarn.|M|60.14,52.87;61.89,53.36;62.91,56.63;51.7,52.1|CC|
 
 A Waking The Beast|QID|25996|PRE|25995|RANK|1|Z|Shimmering Expanse|N|From Earthmender Duarn.|M|51.7,52.1|
 C Waking The Beast|QID|25996|M|51.7,52.1|Z|Shimmering Expanse|QO|Listen as Duarn speaks to Nespirah: 1/1|N|Listen as Duarn speaks to Nespirah|
@@ -376,7 +381,7 @@ C Deep Attraction|QID|25592|M|55.71,71.84|Z|Shimmering Expanse|US|N|Kill any Red
 C Something Edible|QID|25595|M|50.52,66.64|Z|Shimmering Expanse|US|N|Kill any Snapjaw Groupers you see.|
 C Crafty Crabs|QID|25594|US|M|50.52,66.64|Z|Shimmering Expanse|N|Collect Spare Parts off the sea floor in the area. You can also get them rarely by killing the Sandskin Pincers.|
 
-T Deep Attraction|QID|25592|Z|Shimmering Expanse|N|To Legionnaire Nazgrim.|M|49.45,64.75;51.21,63|
+T Deep Attraction|QID|25592|Z|Shimmering Expanse|N|To Legionnaire Nazgrim.|M|49.45,64.75;51.21,63|CC|
 T Shelled Salvation|QID|25593|Z|Shimmering Expanse|N|To Captian Vilethorn.|M|51.23,62.91|
 T Something Edible|QID|25595|Z|Shimmering Expanse|N|To Wavespeaker Tulra.|M|51.59,62.72|
 T Crafty Crabs|QID|25594|Z|Shimmering Expanse|N|To Fiasco Sizzlegrin.|M|51.71,62.52|
@@ -518,7 +523,7 @@ C Honor and Privilege|QID|25972|Z|Shimmering Expanse|U|56188|N|Use the Rescue Fl
 T Honor and Privilege|QID|25972|Z|Shimmering Expanse|N|To Bloodguard Toldrek.|M|50.35,79|
 
 A Welcome News|QID|25973|PRE|25972|RANK|1|Z|Shimmering Expanse|N|From Bloodguard Toldrek.|M|50.35,79|
-T Welcome News|QID|25973|Z|Shimmering Expanse|N|To Legionnaire Nazgrim.|M|48.38,66.27;51.59,62.99|
+T Welcome News|QID|25973|Z|Shimmering Expanse|N|To Legionnaire Nazgrim.|M|48.38,66.27;51.59,62.99|CC|
 
 A Visions of the Past: Rise From The Deep|QID|26135|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|M|51.6,62.74|
 R Quel'Dormir Temple|QID|26135|M|33.11,76.11|Z|Shimmering Expanse|N|Swim to the Quel'Dormir Temple, on the top terrace of the Ruins of Vashj'ir.|
@@ -559,7 +564,7 @@ C Environmental Awareness|QID|26122|U|56821|Z|Abyssal Depths|S|N|Kill Seabrush T
 A Secure Seabrush|QID|26124|Z|Abyssal Depths|M|56.75,43.52|N|Get out of the cave, swim up and go northwest to the area called Seabrush. Find and kill an Alliance Sea-scout, the quest will pop-up, accept it.|
 C Secure Seabrush|QID|26124|Z|Abyssal Depths|M|52.18,48.27|N|Kill a total of 7 Alliance Sea-scouts.|
 C Environmental Awareness|QID|26122|U|56821|Z|Abyssal Depths|US|N|Kill Seabrush Terrapins, Scourgut Remoras and Spinescale Hammerheads. Loot them and then use the pump on their corpses.|
-T Secure Seabrush|QID|26124|N|Back to Tenebrous Cavern. To Bloodguard Toldrek.|M|59.37,56.46;51.60,60.74|
+T Secure Seabrush|QID|26124|N|Back to Tenebrous Cavern. To Bloodguard Toldrek.|M|59.37,56.46;51.60,60.74|CC|
 T Environmental Awareness|QID|26122|N|To Fiasco Sizzlegrin.|Z|Abyssal Depths|M|51.47,60.82|
 
 A The Perfect Fuel|QID|26126|N|from Fiasco Sizzlegrin|Z|Abyssal Depths|M|51.47,60.82|
@@ -589,7 +594,7 @@ A Orako's Report|QID|26092|Z|Abyssal Depths|M|42.91,51.02|N|From Orako.|
 C Here Fishie Fishie 2: Eel-Egg-Trick Boogaloo|QID|26091|Z|Abyssal Depths|U|56815|N|Find a Devious Great-Eel, then drop the egg right next to it as it goes by. Might take a couple tries to get it right. Once it's weakened it is easily killable.|
 T Here Fishie Fishie 2: Eel-Egg-Trick Boogaloo|QID|26091|N|To Orako.|Z|Abyssal Depths|M|42.91,51.02|
 
-T Orako's Report|QID|26092|Z|Abyssal Depths|N|Back to the Tenebrous Cavern. To Captain Jewels Verne.|M|59.37,56.46;51.60,60.74|
+T Orako's Report|QID|26092|Z|Abyssal Depths|N|Back to the Tenebrous Cavern. To Captain Jewels Verne.|M|59.37,56.46;51.60,60.74|CS|
 A Those Aren't Masks|QID|25982|N|From Fiasco Sizzlegrin.|Z|Abyssal Depths|M|51.47,60.82|
 A Sira'kess Slaying|QID|25974|N|From Sergeant Gertrude.|Z|Abyssal Depths|M|51.5,60.8|
 A A Standard Day for Azrajar|QID|25980|N|From Seargeant Gertrude.|Z|Abyssal Depths|M|51.5,60.8|
@@ -602,7 +607,7 @@ C Treasure Reclamation|QID|25976|M|40.4,17|L|56235 6|Z|Abyssal Depths|N|Kill Dee
 C Those Aren't Masks|QID|25982|US|M|39,26.7|Z|Abyssal Depths|N|Kill Merciless Ones. They will either be accompanying naga or carrying a gilblin. Any naga you kill will also count toward Sira'kess Slaying but the ones with the gilblin are less dangerous.|
 C Sira'kess Slaying|QID|25974|US|M|51.1,17.3|Z|Abyssal Depths|N|Kill the remaining Naga.|
 
-T Those Aren't Masks|QID|25982|N|Back to Tenebrous Cavern. To Fiasco Sizzlegrin.|Z|Abyssal Depths|M|59.37,56.46;51.60,60.74|
+T Those Aren't Masks|QID|25982|N|Back to Tenebrous Cavern. To Fiasco Sizzlegrin.|Z|Abyssal Depths|M|59.37,56.46;51.60,60.74|CS|
 T Sira'kess Slaying|QID|25974|N|To Sergeant Gertrude.|Z|Abyssal Depths|M|51.5,60.8|
 T A Standard Day for Azrajar|QID|25980|N|To Seargeant Gretrude.|Z|Abyssal Depths|M|51.5,60.8|
 T Treasure Reclamation|QID|25976|N|To Bloodguard Toldrek.|Z|Abyssal Depths|M|51.5,60.8|
@@ -625,7 +630,7 @@ C Clearing the Defiled|QID|26071|US|M|42.4,33.3|Z|Abyssal Depths|N|Kill any wild
 
 T The Wavespeaker|QID|26057|N|To Wavespeaker Valoren.|Z|Abyssal Depths|M|52.58,27.81|
 A Free Wil'hai|QID|26065|N|From Wavespeaker Valoren.|Z|Abyssal Depths|M|52.58,27.81|
-C Free Wil'hai|QID|26065|M|54.5,27.81;56.38,29.8;57.23,25.35|U|57409|Z|Abyssal Depths|N|Swim to one of the Tentacle Horrors and use Valoren's Shrinkage Totem near it. It will shrink into a Shrunken Tentacle, which you need to kill. Do this for all three tentacles to complete the quest.|
+C Free Wil'hai|QID|26065|M|54.5,27.81;56.38,29.8;57.23,25.35|U|57409|Z|Abyssal Depths|CN|N|Swim to one of the Tentacle Horrors and use Valoren's Shrinkage Totem near it. It will shrink into a Shrunken Tentacle, which you need to kill. Do this for all three tentacles to complete the quest.|
 T Free Wil'hai|QID|26065|N|To Wavespeaker Valoren.|Z|Abyssal Depths|M|52.58,27.81|
 
 T Into the Totem|QID|26072|N|To Erunak Stonespeaker.|Z|Abyssal Depths|M|42.73,37.82|
@@ -679,7 +684,7 @@ C All that Rises|QID|26143|M|33.2,55.7|Z|Abyssal Depths|N|The entrances to the t
 T All that Rises|QID|26143|M|38.7,44.8|Z|Abyssal Depths|N|To L'ghorek.|
 
 A Back to Tenebrous Cavern|QID|26182|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek.|
-T Back to Tenebrous Cavern|QID|26182|M|59.37,56.46;51.60,60.74|Z|Abyssal Depths|N|To Erunak Stonespeaker.|
+T Back to Tenebrous Cavern|QID|26182|M|59.37,56.46;51.60,60.74|Z|Abyssal Depths|CS|N|To Erunak Stonespeaker.|
 
 A Defending the Rift|QID|26194|RANK|1|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
 C Defending the Rift|QID|26194|QO|Fight in the Battle for the Abyssal Breach: 1/1|Z|Abyssal Depths|N|Speak to Erunak again and tell him you are ready to enter the battle.|

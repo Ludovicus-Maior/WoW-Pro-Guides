@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2013-01-13 01:24
+-- Who: Ludovicus Maior
+-- Log: Add a CN tag
+
+-- URL: http://wow-pro.com/node/3478/revisions/25357/view
+-- Date: 2013-01-12 18:28
+-- Who: Ludovicus Maior
+-- Log: WoWPro_Dailies: Step C [The Way to His Heart...:11472] in LudoKaluak is missing a CS|CC|CN tag.
+
+-- URL: http://wow-pro.com/node/3478/revisions/25296/view
 -- Date: 2013-01-09 01:49
 -- Who: Ludovicus Maior
 -- Log: Added CN tags.
@@ -30,7 +40,7 @@ C Feeding Arngrim|QID|13046|M|57, 64|N|Use the tooth on the worms and knock them
 C Spy Hunter|QID|12994|M|57.23,64.04|N|Use the fang on the Corpse of the Fallen Worg. Follow him and then kill the infiltrators when you hear the howl. Repeat.|U|42479|
 C Polishing the Helm|QID|13006|M|55.91,64.29|N|Enter the cave at the coordinates and harvest Viscous Oils|L|42640 5|
 
-C Thrusting Hodir's Spear|QID|13003|M|58.95,57.80;53.60,66.60;56.23,65.67;57.35,62.65;59.45,60.74|N|Find a Wild Wyrm and use the spear.\nPart 1: Spam 1 till grip is 95+. Spam 3+4 till grip around 55 and restart spam on 1. Use 2 when not on cooldown.\nPart 2: Spam 1 to Prize Jaws Open (about 16 stacks), then spam 3. If your Fatal Strike Fails, pry again.|U|42769|
+C Thrusting Hodir's Spear|QID|13003|M|58.95,57.80;53.60,66.60;56.23,65.67;57.35,62.65;59.45,60.74|CN|N|Find a Wild Wyrm and use the spear.\nPart 1: Spam 1 till grip is 95+. Spam 3+4 till grip around 55 and restart spam on 1. Use 2 when not on cooldown.\nPart 2: Spam 1 to Pry Jaws Open (about 16 stacks), then spam 3. If your Fatal Strike Fails, Pry again.|U|42769|
 
 K Brittle Revenants|QID|12981|M|70,60|N|Kill Brittle Revenants for their Essences of Ice.|L|42246 6|
 C Hot and Cold|QID|12981|M|74,63|N|Use the Essences of Ice on the smoldering scraps and loot then.|U|42246|L|42252 6|

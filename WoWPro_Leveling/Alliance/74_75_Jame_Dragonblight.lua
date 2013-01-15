@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2013-01-13 14:37
+-- Who: Ludovicus Maior
+-- Log: Added CC tag
+
+-- URL: http://wow-pro.com/node/3291/revisions/25365/view
+-- Date: 2013-01-12 18:52
+-- Who: Ludovicus Maior
+-- Log: Added CN and CS tags
+
+-- URL: http://wow-pro.com/node/3291/revisions/24990/view
 -- Date: 2012-05-27 18:53
 -- Who: Ludovicus Maior
 -- Log: Noted some missing quests, corrected some coords.
@@ -81,7 +91,7 @@ T Naxxramas and the Fall of Wintergarde |QID|12235|N|Go back towards the gryphon
 A Flight of the Wintergarde Defender |QID|12237|M|77.1,50.1|N|From Gryphon Commander Urik.|
 
 N Instructions for next quest |QID|12237|N|Use the Wintergarde Gryphon Whistle. Fly southeast to the Carrion Fields . While on the Gryphon, use Ability #3 whenever it's up for extra speed. Look for a Helpless Wintergarde Villager (Must have a fear icon overhead). Land close to a villager and use Ability #1. You must stand still while you use it. If you succeed, you'll carry the villager on your gryphon. Ride northwest back to the gryphon master and use Ability #2. |
-C Flight of the Wintergarde Defender |QID|12237|QO|Helpless Villager Rescued: 10/10|U|37287|N|Carry a villager on your gryphon back to near Gryphon Commander Urik, 10 times.|M|77.10,50.10;85.00,50.00|
+C Flight of the Wintergarde Defender |QID|12237|QO|Helpless Villager Rescued: 10/10|U|37287|N|Carry a villager on your gryphon back to near Gryphon Commander Urik, 10 times.|M|77.10,50.10;85.00,50.00|CN|
 
 T Flight of the Wintergarde Defender |QID|12237|N|Click the Leave Vehicle button, then turn the quest into Gryphon Commander Urik.. |M|77.1,50.1|
 A Return to the High Commander |QID|12251|M|77.1,50.1|N|Fom Gryphon Commander Urik.|
@@ -227,7 +237,7 @@ T Strengthen the Ancients |QID|12092|N|To Sarendryana.|M|28.80,57.10|
 T Atop the Woodlands |QID|12083|N|To the Image of Archmage Modera.|M|29.00,55.50|
 A Search Indu'le Village |QID|12098|M|29.0,55.5|N|To the Image of Archmage Modera.|
 
-F Moa'ki Harbor |QID|11960|N|Fly to Moa'ki Harbor. If you don't have that flight path, just ride there.|M|29.19,55.33;48.47,74.41|
+F Moa'ki Harbor |QID|11960|N|Fly to Moa'ki Harbor. If you don't have that flight path, just ride there.|M|29.19,55.33;48.47,74.41|CC|
 A Planning for the Future |QID|11960|N|From Trapper Mau'i.|M|48.30,74.30|
 h Moa'ki Harbor |QID|11960|N|Make this inn your home location.|
 A Let Nothing Go To Waste |QID|11958|N|From Elder Ko'nani.|M|48.10,74.90|
@@ -364,11 +374,11 @@ N Note: |QID|12467|N|Now we're going to kill Icestorm, a level 73 elite wyrm. Re
 K Icestorm |QID|12467|QO|Thel'zan's Phylactery: 1/1|N|You should be ready now, talk to "Wyrmbait", tell him to go fetch Icestorm. After you kill Icestorm Thel'zan's Phylactery should appear on the ground, loot it. You can also loot it if you if someone else killed Icestorm.|M|64.60,27.50|
 
 K Reanimated Frost Wyrm |QID|12459|QO|Weakened Reanimated Frost Wyrm slain: 1/1|S|U|37887|N|Look in the skies for a Reanimated Frost Wyrm. Target it and use the Seeds of Nature Wrath, then kill it.|M|55.2,45.7|
-C Pest Control|QID|12142|N|Go southeast to the Snobold camps. Kill all the Snobolds you can find here, as well as the Magnataur you need.|M|70.14,32.76;64.82,43.06;65.35,49.54|
+C Pest Control|QID|12142|N|Go southeast to the Snobold camps. Kill all the Snobolds you can find here, as well as the Magnataur you need.|M|70.14,32.76;64.82,43.06;65.35,49.54|CN|
 T Pest Control |QID|12142|N|To Duane.|M|64.4,26.9|
 A Canyon Chase |QID|12143|M|64.4,26.9|N|From Duane.|
 
-C Canyon Chase |QID|12143|N|Go north to the canyon entrance. Follow those running snobolds east and they'll lead you to their boss, Chilltusk. Kill him and loot the Emblazoned Battle Horn.|M|67.00,24.00;72.00,28.00|
+C Canyon Chase |QID|12143|N|Go north to the canyon entrance. Follow those running snobolds east and they'll lead you to their boss, Chilltusk. Kill him and loot the Emblazoned Battle Horn.|M|67.00,24.00;72.00,28.00|CN|
 A Disturbing Implications |QID|12146|U|36855|N|Right-click the Emblazoned Battle Horn to start Disturbing Implications.|M|72.5,29.2|
 
 H Wintergarde Keep |QID|12467|M|77.31,51.18|N|Hearthstone to Wintergarde Keep. If your stone is not up, just go to the other end of the canyon and then ride south/southeast back to Wintergarde Keep.|
@@ -411,7 +421,7 @@ K Bonesunder |QID|12148|QO|Emblazoned Battle Horn: 1/1|M|50.64,58.5|N|Look for B
 T One of a Kind |QID|12148|M|60.0,55.1|N|To Aurastrasza.|
 A Mighty Magnataur |QID|12149|N|From Aurastrasza.|M|60.0,55.1|
 
-K Drakegore |QID|12149|QO|Drakegore slain: 1/1|M|67.4,39;68,42.4|N|Kill Drakegore. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
+K Drakegore |QID|12149|QO|Drakegore slain: 1/1|M|67.4,39;68,42.4|CS|N|Kill Drakegore. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
 K Iceshatter |QID|12149|QO|Iceshatter slain: 1/1|M|67,50|N|Kill Iceshatter. He periodically casts Pulsing Shards. This is very dangerous and can't be interrupted. Either run away while he channels it or use something like cloak of shadows, divine shield, ice block.|
 C Mighty Magnataur |QID|12149|M|67.4,70.2|N|Kill Bloodfeast. He summons maggots which heal him up.|
 T Mighty Magnataur |QID|12149||M|60.0,55.1|N|To Aurastrasza.|
@@ -419,7 +429,7 @@ T Mighty Magnataur |QID|12149||M|60.0,55.1|N|To Aurastrasza.|
 
 T Report to the Ruby Dragonshrine |QID|12460|N|To Ceristrasz.|M|52.00,50.00|
 A Heated Battle |QID|12416|M|52.2,50.0|N|From Ceristrasz.|
-C Heated Battle |QID|12416|M|50.4,52.16;52.3,46.72|N|Very easy quest, you simply have to go down in the canyon and help the Alliance forces (follow Captain Iskandar)to kill what's on the list for your quest. You just have to do a little bit of damage on every mob to get the kill credit. Just stay behind the NPCs and you'll be fine.|
+C Heated Battle |QID|12416|M|50.4,52.16;52.3,46.72|CS|N|Very easy quest, you simply have to go down in the canyon and help the Alliance forces (follow Captain Iskandar)to kill what's on the list for your quest. You just have to do a little bit of damage on every mob to get the kill credit. Just stay behind the NPCs and you'll be fine.|
 T Heated Battle |QID|12416|N|Go back to Ceristrasz.|M|52.00,50.00|
 A Return to the Earth |QID|12417|M|52.2,50.0|N|From Ceristrasz.|
 C Return to the Earth |QID|12417|U|37727|N|Fly to the southern canyon. Look for a Ruby Acorn. Loot it. Look for a Ruby Keeper (those dead dragons in flames). Target it and right-click the Ruby Acorn. Repeat this step 6 times.|M|47.00,53.00|
@@ -438,7 +448,7 @@ C On Ruby Wings |QID|12498|U|38302|N|Then go to the peak at the northwestern tip
 K Reanimated Frost Wyrm |QID|12459|QO|Weakened Reanimated Frost Wyrm slain: 1/1|US|U|37887|N|This is a good spot to be able to kill this mob.|M|55.2,45.7|
 
 C Nozzlerust Defense |QID|12043|S|N|Kill the needed mobs.|M|57.00,28.00|
-C Stocking Up |QID|12044|N|Go between the sites where the waypoints are until you get all the ore needed.|M|56.28,27.46;59.13,31.24;51.68,31.27|
+C Stocking Up |QID|12044|N|Go between the sites where the waypoints are until you get all the ore needed.|M|56.28,27.46;59.13,31.24;51.68,31.27|CN|
 C Nozzlerust Defense |QID|12043|US|N|Finishing killing the needed mobs.|M|57.00,28.00|
 C Shaved Ice |QID|12045|N|Kill Crystalline Ice Elementals until you've looted 4 Ice shard Cluster. |M|54.00,20.00|
 

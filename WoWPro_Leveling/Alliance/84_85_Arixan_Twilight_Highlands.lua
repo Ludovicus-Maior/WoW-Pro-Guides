@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2013-01-12 19:11
+-- Who: Ludovicus Maior
+-- Log: Added CN and CS tags
+
+-- URL: http://wow-pro.com/node/3311/revisions/24991/view
 -- Date: 2012-05-27 18:57
 -- Who: Ludovicus Maior
 -- Log: Bad zone for quest turning to Jack Bauden.
@@ -332,11 +337,11 @@ A Sifting Through The Wreckage|QID|27642|M|45.96,65.53|N|From Flynn Dunwald.|
 C Sifting Through The Wreckage|QID|27642|S|M|51.94,70.32|N|On the ground and in the buildings.|
 C While Meeting The Family|QID|27641|M|49.80,71.20|N|Kill any Twilight "guest" you see.|S|
 
-T Cayden Dunwald|QID|27645|M|45.72,71.63;47.95,74.65|N|To Cayden Dunwald. He could be at either end of the pass.|
+T Cayden Dunwald|QID|27645|M|45.72,71.63;47.95,74.65|CN|N|To Cayden Dunwald. He could be at either end of the pass.|
 
-A Once More Into The Fire|QID|27648|M|45.72,71.63;47.95,74.65|N|From Cayden Dunwald.|
-C Once More Into The Fire|QID|27648|M|45.72,71.63;47.95,74.65|N|Escort quest. Talk to him to get it started.|
-T Once More Into The Fire|QID|27648|M|45.72,71.63;47.95,74.65|N|To Cayden Dunwald.|
+A Once More Into The Fire|QID|27648|M|45.72,71.63;47.95,74.65|CN|N|From Cayden Dunwald.|
+C Once More Into The Fire|QID|27648|M|45.72,71.63;47.95,74.65|CN|N|Escort quest. Talk to him to get it started.|
+T Once More Into The Fire|QID|27648|M|45.72,71.63;47.95,74.65|CN|N|To Cayden Dunwald.|
 
 T Eoin Dunwald|QID|27644|M|52.93,74.36|N|To Eoin Dunwald.|
 A Anything But Water|QID|27647|PRE|27644|M|52.93,74.36|N|From Eoin Dunwald.|
@@ -661,7 +666,7 @@ C Signal the Attack|QID|27498|U|61511|M|40.41,62.38|N|Get to the top of the Gate
 T Signal the Attack|QID|27498|M|40.41,62.38|N|(UI Alert)|
 
 A Four Heads are Better than None|QID|27500|M|40.41,62.38|N|(UI Alert)|
-C Beeble's and Phod|QID|27500|QO|Beeble's Head: 1/1|M|39.77,71.35;38.87,70.94|N|Enter the cave and head to the right. Kill and loot Beeble'phod for his two heads. Don't forget your towel.|
+C Beeble's and Phod|QID|27500|QO|Beeble's Head: 1/1|M|39.77,71.35;38.87,70.94|CS|N|Enter the cave and head to the right. Kill and loot Beeble'phod for his two heads. Don't forget your towel.|
 C Four Heads are Better than None|QID|27500|M|37.93,71.35|N|Head to the other side and kill then loot Za'brox for his heads.|
 T Four Heads are Better than None|QID|27500|M|43.43,57.42|N|To Cassius the White.|
 

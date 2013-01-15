@@ -68,5 +68,5 @@ end
 -- Describe the table to the Core Module
 WoWPro.WorldEvents.GuideList.Format={{"Name",0.35,nameSort},{"Category",0.20,categorySort},{"Author",0.20,authorSort},{"Progress",0.15,nil}}
   
-WoWPro.WorldEvents:Print("Guide Setup complete")
+WoWPro.WorldEvents:dbp("Guide Setup complete")
   

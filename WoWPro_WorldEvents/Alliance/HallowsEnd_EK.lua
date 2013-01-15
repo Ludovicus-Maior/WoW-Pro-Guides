@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-01-13 23:44
+-- Who: Ludovicus Maior
+-- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 
+
+-- URL: http://wow-pro.com/node/3440/revisions/25434/view
+-- Date: 2013-01-13 15:23
+-- Who: Ludovicus Maior
+-- Log: Added a CS tag
+
+-- URL: http://wow-pro.com/node/3440/revisions/25156/view
 -- Date: 2012-10-24 03:29
 -- Who: Ludovicus Maior
 -- Log: Add MoP Hallows End.
@@ -98,7 +108,7 @@ C Taking Precautions|QID|29402|M|62.8,74.8|N|Purchase From Keldric Boucher at th
 T Taking Precautions|QID|29402|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
 
 A The Collector's Agent|QID|29403|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
-C The Collector's Agent|QID|29403|M|51.23,44.63;53.16,42.52;55.26,43.54|N|In the catacmbs in the Cathedral of Light.|Z|Stormwind City|
+C The Collector's Agent|QID|29403|M|51.23,44.63;53.16,42.52;55.26,43.54|N|In the catacombs in the Cathedral of Light.|Z|Stormwind City|CS|
 T The Collector's Agent|QID|29403|M|55.26,43.54|Z|Stormwind City|
 A What Now?|QID|29411|M|55.26,43.54|N|From the crate.|Z|Stormwind City|
 A Flexing for Nougat|QID|8356|M|60.14,75.09|N|From Innkeeper Allison.|Z|Stormwind City|
@@ -115,7 +125,7 @@ A Stop the Fires!|QID|11131|M|42.60,64.46|N|From Costumed Orphan Matron. Go ahea
 F Darkshire|QID|12344|M|77.53,44.32|Z|Duskwood|U|37586|
 A Candy Bucket |QID|12344|M|73.80,43.61|Z|Duskwood|N|Darkshire|
 F Sentinel Hill|QID|12340|M|56.63,49.35|N|In Westfall.|Z|Westfall|U|37586|
-A Candy Bucket|QID|12340|M|56.8,47.33;52.90,53.65|N|Depending on where you are at in the quest lines for Westfall, the bucket will be in the Inn or the tower next to the flight point.|Z|Westfall|
+A Candy Bucket|QID|12340|M|56.8,47.33;52.90,53.65|N|Depending on where you are at in the quest lines for Westfall, the bucket will be in the Inn or the tower next to the flight point.|Z|Westfall|CN|
 F Fort Livingston|QID|28964|M|52.62,66.30|N|In Northern Stranglethorn.|Z|Northern Stranglethorn|U|37586|
 A Candy Bucket |QID|28964|M|53.11,66.94|Z|Northern Stranglethorn|N|Fort Livingston|
 
@@ -129,7 +139,7 @@ F Bogpaddle|QID|28967|M|72.05,12.12|Z|Swamp of Sorrows|U|37586|
 A Candy Bucket |QID|28967|M|71.69,14.23|Z|Swamp of Sorrows|N|Bogpaddle|
 F The Harborage|QID|28968|M|30.78,34.74|Z|Swamp of Sorrows|U|37586|
 A Candy Bucket |QID|28968|M|28.97,32.56|Z|Swamp of Sorrows|N|The Harborage|
-F Lakeshire|QID|12342|M|29.48,53.77;26.38,41.57|Z|Redridge Mountains|U|37586|
+F Lakeshire|QID|12342|M|29.48,53.77|Z|Swamp of Sorrows|U|37586|
 A Candy Bucket |QID|12342|M|26.38,41.57|Z|Redridge Mountains|N|Lakeshire|
 
 F Iron Summit|QID|28965|M|40.95,68.78|N|In Searing Gorge.|Z|Searing Gorge|U|37586|

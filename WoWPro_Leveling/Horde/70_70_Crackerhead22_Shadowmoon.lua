@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2013-01-13 19:12
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3286/revisions/25318/view
 -- Date: 2013-01-09 22:51
 -- Who: Ludovicus Maior
 -- Log: Added CN tag
@@ -65,7 +70,7 @@ A The Path of Conquest|QID|10750|M|28.47,26.48|N|From Overlord Or'barokh.|
 C To Legion Hold|QID|10596|U|30638|M|23.62,36.88|N|Go next to the Legion Communication Device and use the disguise.|
 C A Grunt's Work...|QID|10702|S|M|33.35,41.95|N|Kill Felboars, Chimeras or Scorpions until you complete this quest.|
 C A Haunted History|QID|10624|S|M|30.29,37.23|N|Loot Ever-Burning Ash from the ground. They can mostly found by the lava pool.|
-C What Strange Creatures...|QID|10660|M|31.58,38.89;36.41,38.19|N|Go around the lava pit killing and looting Felfire Diemetradons. If you run out, head to the farther waypoint.|
+C What Strange Creatures...|QID|10660|M|31.58,38.89;36.41,38.19|CN|N|Go around the lava pit killing and looting Felfire Diemetradons. If you run out, head to the farther waypoint.|
 C A Haunted History|QID|10624|US|M|30.29,37.23|N|Loot Ever-Burning Ash from the ground. They can mostly found by the lava pool.|
 C The Sketh'lon Wreckage|QID|10760|M|36.6,30.76|N|Kill Dark Conclave Arakkoas until you get all 3 pages.|
 T To Legion Hold|QID|10596|M|30.48,32.47|N|To Blood Guard Gulmok.|
@@ -97,7 +102,7 @@ T Asghar's Totem|QID|10777|M|35.24,41.27|N|To Parshah. He wanders up and down th
 A The Rod of Lianthe|QID|10778|M|35.24,41.27|N|From Parshah. He wanders up and down the path where the waypoint is.|
 T The Hand of Gul'dan|QID|10681|M|42.22,45.03|N|To Earthmender Torlok.|
 A Enraged Spirits of Fire and Earth|QID|10458|M|42.22,45.03|N|From Earthmender Torlok.|
-K Enraged Earth Spirit|QID|10458|U|30094|QO|Earthen Soul Captured: 8/8|M|42.73,47.86;46.59,52.15|N|Use the totem and kill Enraged Earth Spirits between these points.|
+K Enraged Earth Spirit|QID|10458|U|30094|QO|Earthen Soul Captured: 8/8|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|
 C Enraged Spirits of Fire and Earth|QID|10458|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits. Warning: Yes, the green stuff is lava and yes, it  will hurt you.|
 T Enraged Spirits of Fire and Earth|QID|10458|M|42.18,45.05|N|To Earthmender Torlok.|
 A Enraged Spirits of Water|QID|10480|M|42.18,45.05|N|From Earthmender Torlok.|
@@ -112,7 +117,7 @@ C Minions of the Shadow Council|QID|10600|M|40.55,37.7|N|Kill the mobs needed.|
 T Minions of the Shadow Council|QID|10600|M|38.59,38.18|N|To Scout Zagran.|
 A The Fate of Kagrosh|QID|10601|M|38.59,38.18|N|From Scout Zagran.|
 A The Summoning Chamber|QID|10602|M|38.59,38.18|N|From Scout Zagran.|
-l The Summoning Chamber|QID|10602|L|30672|M|40.16,38.18;37.44,41.64|N|Head inside and kill, then loot Deathforge Smiths and Tinkerers until and Elemental Displacer.|
+l The Summoning Chamber|QID|10602|L|30672|M|40.16,38.18;37.44,41.64|CS|N|Head inside and kill, then loot Deathforge Smiths and Tinkerers until and Elemental Displacer.|
 C The Fate of Kagrosh|QID|10601|M|35.19,40.16|N|Head further inside, the loot the pack off Kargrosh's corpse.|
 C The Summoning Chamber|QID|10602|U|30672|M|37.81,38.79|N|As you head back out, drop off the side of the North side of the bridge. Use the Elemental Displacer.|
 T The Fate of Kagrosh|QID|10601|M|38.62,38.18|N|To Scout Zagran.|
@@ -247,7 +252,7 @@ A Borak, Son of Oronok|QID|10546|M|53.93,23.48|N|From Oronok Torn-heart.|
 
 T Grom'tor, Son of Oronok|QID|10521|M|44.59,23.68|N|To Grom'tor, Son of Oronok.|
 A The Cipher of Damnation - Grom'tor's Charge|QID|10522|M|44.59,23.68|N|From Grom'tor, Son of Oronok.|
-C The Cipher of Damnation - Grom'tor's Charge|QID|10522|M|53.03,25.53;52.18,18.62|N|Head inside the cave, kill Nagas to get their keys, and open chests as you go.|
+C The Cipher of Damnation - Grom'tor's Charge|QID|10522|M|53.03,25.53;52.18,18.62|CS|N|Head inside the cave, kill Nagas to get their keys, and open chests as you go.|
 A Escape from Coilskar Cistern|QID|10451|M|52.07,18.74|N|Kill the Keeper of the Cistern. Then get this quest from Earthmender Wilda.|
 C Escape from Coilskar Cistern|QID|10451|NC|M|53.10,25.35|N|Just follow her and kill things. She is fairly strong.|
 T The Cipher of Damnation - Grom'tor's Charge|QID|10522|M|44.65,23.65|N|To Grom'tor, Son of Oronok.|

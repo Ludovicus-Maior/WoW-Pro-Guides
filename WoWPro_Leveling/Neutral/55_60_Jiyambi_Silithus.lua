@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
+-- Date: 2013-01-13 01:14
+-- Who: Ludovicus Maior
+-- Log: A few CN and CS tags
+
+-- URL: http://wow-pro.com/node/3270/revisions/24964/view
 -- Date: 2012-02-18 06:06
 -- Who: Crackerhead22
 -- Log: Minor tweaks
@@ -78,8 +83,8 @@ C Secret Communication|QID|8318|M|43.32,38.61|S|N|Dropped by any Twilight mob. B
 C Twilight Geolords|QID|8320|M|43.91,40.41|N|This camp should have enough Geolords. Prophets occassionally patrol through.|
 l Encrypted Twilight Text|QID|8318|M|43.91,40.41|L|20404 20|N|Keep killing and looting Twilight mobs until you have 20 texts. 10 for the quest "Secret Commumnication", plus 10 for a later quest.|
 C Secret Communication|QID|8318|M|43.32,38.61|US|N|Dropped by any Twilight mob. Be careful, the Prophets are elite and quite strong, but if you manage to kill one they can drop around 10 Encrypted Texts..|
-C Deadly Desert Venom|QID|8277|M|47.91,36.17;40.8,22.5|US|N|Kill and loot Sand Skitterers and Stonelash Scorpids between the waypoints.|
-C Securing the Supply Lines|QID|8280|M|47.27,38.32;40.8,22.5|US|N|Finish killing Dredge Strikers.|
+C Deadly Desert Venom|QID|8277|M|47.91,36.17;40.8,22.5|CN|US|N|Kill and loot Sand Skitterers and Stonelash Scorpids between the waypoints.|
+C Securing the Supply Lines|QID|8280|M|47.27,38.32;40.8,22.5|CN|US|N|Finish killing Dredge Strikers.|
 
 T Secret Communication|QID|8318|M|52.67,35.62|N|To Bor Wildmane, do not do the "Encrytped Twilight Texts" quest unless you want to farm 10 more Texts.|
 T Twilight Geolords|QID|8320|M|52.67,35.62|N|To Huum Wildmane.|
@@ -93,12 +98,12 @@ A Noggle's Last Hope|QID|8278|PRE|8277|M|55.34,36.31|N|From Beetix Ficklespragg.
 C Stepping Up Security|QID|8281|M|43.69,52.01|N|Kill 20 Dredge Crushers.|S|
 l Stonelash Pincer Stingers|QID|8278|M|46.01,50.69|L|20374 3|N|Kill and loot Stonelash Pincers.|
 C Noggle's Last Hope|QID|8278|M|49.51,75.66|N|Kill and loot Stonelash Flayers and Rock Stalkers. (Note: they may share spawn spots)|
-C Stepping Up Security|QID|8281|M|60,55;43.69,52.01;34,36|N|Go between the waypoints and finish killing 20 Dredge Crushers.|US|
+C Stepping Up Security|QID|8281|M|60,55;43.69,52.01;34,36|CN|N|Go between the waypoints and finish killing 20 Dredge Crushers.|US|
 T Stepping Up Security|QID|8281|M|54.88,35.95|N|To Windcaller Proudhorn.|
 T Noggle's Last Hope|QID|8278|M|55.39,36.28|N|To Beetix Ficklespragg.|
 A Noggle's Lost Satchel|QID|8282|PRE|8278|M|55.37,36.24|N|From Noggle Ficklespragg.|
 R Twilight's Run|QID|8321|M|70.31,16.02|N|Head to the cave, Twilight's Run.|
-C Vyral the Vile|QID|8321|M|69.90,16.36;73.19,16.48|N|Head to the back of the cave, kill and loot Vyral.|
+C Vyral the Vile|QID|8321|M|69.90,16.36;73.19,16.48|CS|N|Head to the back of the cave, kill and loot Vyral.|
 
 H Cenarion Hold|QID|8321|M|55.51,36.72|N|Hearth or run back.|
 r Repair|QID|8321|M|54.90,36.55|
@@ -138,7 +143,7 @@ A Glyph Chasing|QID|8309|M|46.35,79.20|N|From Rutgar Glyphshaper.|
 A Breaking the Code|QID|8310|M|46.11,79.44|N|From Frankal Stonebridge.|
 
 C Breaking the Code|S|QID|8310|M|55.51,90.60|N|Kill and loot silithid.|
-C Into The Maw of Madness|QID|8306|M|58.40,78.38;55.51,90.60|N|Kill Natalia. Clean the section out first, because she fears.|
+C Into The Maw of Madness|QID|8306|M|58.40,78.38;55.51,90.60|CS|N|Kill Natalia. Clean the section out first, because she fears.|
 C Glyph Chasing|QID|8309|M|55.51,90.60|N|Right-click the white stone.|
 C Breaking the Code|US|QID|8310|M|55.51,90.60|N|Kill and loot silithid until you get it.|
 

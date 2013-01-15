@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2013-01-13 19:22
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3303/revisions/25309/view
 -- Date: 2013-01-09 22:33
 -- Who: Ludovicus Maior
 -- Log: Added CS tag
@@ -432,7 +437,7 @@ C Breaking the Bonds|QID|25514|M|24.00,55.88|N|Go back to Tortolla. Use the gian
 T Breaking the Bonds|QID|25514|M|24.45,55.85|N|To Tortolla.|
 T Children of Tortolla|QID|25519|M|24.49,55.81|N|To Tortolla.|
 A An Ancient Awakens|QID|25520|PRE|25514;25519|M|24.49,55.81|N|From Tortolla.|
-F Shrine of Aviana|QID|25795|M|27.75,63.63;41.74,44.74|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
+F Shrine of Aviana|QID|25795|M|27.75,63.63;41.74,44.74|CC|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
 T Return to the Shrine|QID|25795|M|44.41,46.24|N|Find Choluna in the back.|
 A An Ancient Reborn|QID|25807|PRE|25795|M|44.41,46.24|N|From Choluna.|
 C An Ancient Reborn|QID|25807|U|56016|M|44.34,47.89|N|Go up the ramp to your right, into a small room where you will find Aviana's Egg. Use the Herald's Incense near the egg to resurrect Aviana.|
@@ -462,7 +467,7 @@ A Firefight|QID|25842|PRE|25830|M|27.49,55.50|N|From Nordu.|
 C Firefight|QID|25842|M|26.80,52.53|N|Kill 5 Firey Tormentors nearby.|
 T Firefight|QID|25842|M|27.39,55.49|N|To Nordu.|
 A Aessina's Miracle|QID|25372|PRE|25842|M|27.39,55.49|N|From Nordu.|
-F Shrine of Aviana|QID|25832|M|27.75,63.63;41.74,44.74|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
+F Shrine of Aviana|QID|25832|M|27.75,63.63;41.74,44.74|CC|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
 T Return to Aviana|QID|25832|M|44.34,47.89|N|To Aviana.|
 F Grove of Aessina|QID|25372|M|41.17,42.61|N|Fly to the Grove of Aessina.|
 T Aessina's Miracle|QID|25372|M|19.51,37.83|N|To Arch Druid Hamuul Runetotem.|
@@ -478,7 +483,7 @@ T Lost Wardens|QID|25881|RANK|2|M|57.15,55.94|N|Continue to follow the road east
 A Pressing the Advantage|QID|25886|PRE|25881|RANK|2|M|57.15,55.94|N|From Captain Irontree.|
 T Breakthrough|QID|25899|RANK|2|M|57.15,55.94|N|To Captain Irontree.|
 A Hyjal Recycling Program|QID|25901|PRE|25843|RANK|2|M|56.87,56.01|N|From Logram.|
-C Hyjal Recycling Program|QID|25901|RANK|2|S|M|56.80,52.80;58.66,54.29|N|Collect Arrows.|
+C Hyjal Recycling Program|QID|25901|RANK|2|S|M|56.80,52.80;58.66,54.29|CN|N|Collect Arrows.|
 C Pressing the Advantage|QID|25886|RANK|2|M|54.16,54.28|N|Kill Twilight Field Captains.|
 C The Hammer and the Key|QID|25904|M|60.42,58.91|N|Continue killing Twilight Field Captains until the Glyph of Opening drops.|
 C Hyjal Recycling Program|QID|25901|RANK|2|US|M|56.80,52.80|N|Collect Arrows.|
@@ -516,7 +521,7 @@ A Trial By Fire|QID|25223|PRE|25276|M|76.97,62.20|N|From Condenna the Pitiless.|
 A Waste of Flesh|QID|25330|PRE|25276|M|76.99,62.16|N|From Instructor Cargall.|
 C Waste of Flesh|QID|25330|S|U|52819|M|78.95,63.18|N|Use the Frostgale Crystal on them to put out Immolated Supplicants.|
 C Trial By Fire|QID|25223|M|81.81,64.04|N|Kill Fiery Instructors.|S|
-C In Bloom|QID|25224|M|81.02,63.88;78.75,62.28|L|52537 5|N|Collect Flame Blossoms.|
+C In Bloom|QID|25224|M|81.02,63.88;78.75,62.28|CN|L|52537 5|N|Collect Flame Blossoms.|
 C Trial By Fire|QID|25223|M|81.81,64.04|N|Kill Fiery Instructors.|US|
 C Waste of Flesh|QID|25330|US|U|52819|M|78.95,63.18|N|Find an Immolated Supplicant that are running around covered in fire. Use the Frostgale Crystal on them to put out the flames.|
 T Waste of Flesh|QID|25330|M|77.09,62.23|N|To Instructor Cargall.|

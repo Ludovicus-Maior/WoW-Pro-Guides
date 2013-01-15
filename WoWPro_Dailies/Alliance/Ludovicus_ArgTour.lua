@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2013-01-13 14:31
+-- Who: Ludovicus Maior
+-- Log: Added CC and CN tag
+
+-- URL: http://wow-pro.com/node/3476/revisions/25358/view
+-- Date: 2013-01-12 18:32
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3476/revisions/25291/view
 -- Date: 2013-01-09 01:41
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -45,7 +55,7 @@ C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|Lorien Sunblaze's death i
 C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|Conall Irongrip's death investigated: 1/1|NC|N|Conall Irongrip|
 T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|Crusader Rhydalla|
 A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|Crusader Rhydalla|
-C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|N|Kill Skeletal Woodcutters until you get a Large Femur.|L|45080|
+C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|N|Kill Skeletal Woodcutters until you get a Large Femur.|L|45080|
 C There's Something About the Squire|QID|13654|M|38.3,59.4|Z|Crystalsong Forest|N|Sneak behind Maloric and use the Large Femur to bonk him. His bag will be looted automatically.  Run away!|U|45080|
 T There's Something About the Squire|QID|13654|M|69.43,23.02|N|Crusader Rhydalla|
 A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|Crusader Rhydalla.|
@@ -72,7 +82,7 @@ A Training In The Field|QID|13671|LEAD|13679|M|76.44,19.35|N|From Avareth Swifts
 C Learning The Reins|QID|13625|M||N|Mount up and go practice on the fields.|U|46069|
 C Training In The Field|QID|13671|M|70, 62|N|Equil your regular weapon and go kill any Scourge|
 C A Blade Fit For A Champion|QID|13666|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
-C A Worthy Weapon|QID|13669|M|68.75,76.38;72.62,73.12;70.56,74.71|L|194213 4|N|Pick flowers along the Ironwall Dam.|
+C A Worthy Weapon|QID|13669|M|68.75,76.38;72.62,73.12;70.56,74.71|L|194213 4|CN|N|Pick flowers along the Ironwall Dam.|
 C A Worthy Weapon|QID|13669|M|93,26|Z|Dragonblight|U|194213|N|Use the stack of flowers within the circle outlined with the purple floating boys. Loot the sword.|L|44978|
 C The Edge Of Winter|QID|13670|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
 C The Edge Of Winter|QID|13670|M|42.19,19.66|Z|Howling Fjord|N|Find the maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
@@ -175,28 +185,28 @@ C What Do You Feed a Yeti, Anyway?|QID|14112|M|66.5,8.3|N|Go to the Alliance Boa
 C What Do You Feed a Yeti, Anyway?|QID|14112|M|44.8,12.6;67.2,8.2;74.5,9.5|CN|N|Jump into the water around these points, use the chum and get the meat.|U|47036|
 
 C Rescue at Sea|QID|14152|M|49.8,49.6;50.10,49.20;43.20,53.70|Z|Hrothgar's Landing|CN|N|Kill Vrykul Berserkers and Harpooners.|
-C A Leg Up|QID|14074|M|43.80,24.10;51.90,28.20;53.90,19.10;43.45,33.90;53.45,17.15;50.51,15.35;43.38,27.16;55.58,15.23;46.98,33.97;42.95,30.55;56.21,18.30;47.45,3.25;52.84,26.35;55.42,25.02;55.46,21.09;45.18,4.28;50.19,31.18|Z|Hrothgar's Landing|N|Loot tallstrider legs.|
-C Stop The Aggressors|QID|14080|M|54.20,21.60;55.20,15.20;52.40,15.55;43.45,33.75;43.42,26.98;56.20,17.80;48.59,33.11;49.45,30.43;54.60,24.93;52.75,26.20;56.70,21.73;42.92,30.90;54.88,19.59;45.53,33.48|Z|Hrothgar's Landing|N|Kill Kvaldir.|
-C The Light's Mercy|QID|14077|M|53.20,17.40;55.20,16.00;57.00,20.60;55.50,25.20;44.90,31.50;43.60,29.65;50.60,15.30;43.15,27.60;54.85,18.67;44.30,34.40;52.67,26.92;54.35,23.08;50.26,29.29;57.10,23.70;42.60,32.32;47.77,32.54|Z|Hrothgar's Landing|N|Administer last rites by using your book near slain Tualiq Villagers.|U|46870|
+C A Leg Up|QID|14074|M|43.80,24.10;51.90,28.20;53.90,19.10;43.45,33.90;53.45,17.15;50.51,15.35;43.38,27.16;55.58,15.23;46.98,33.97;42.95,30.55;56.21,18.30;47.45,3.25;52.84,26.35;55.42,25.02;55.46,21.09;45.18,4.28;50.19,31.18|Z|Hrothgar's Landing|CN|N|Loot tallstrider legs.|
+C Stop The Aggressors|QID|14080|M|54.20,21.60;55.20,15.20;52.40,15.55;43.45,33.75;43.42,26.98;56.20,17.80;48.59,33.11;49.45,30.43;54.60,24.93;52.75,26.20;56.70,21.73;42.92,30.90;54.88,19.59;45.53,33.48|Z|Hrothgar's Landing|CN|N|Kill Kvaldir.|
+C The Light's Mercy|QID|14077|M|53.20,17.40;55.20,16.00;57.00,20.60;55.50,25.20;44.90,31.50;43.60,29.65;50.60,15.30;43.15,27.60;54.85,18.67;44.30,34.40;52.67,26.92;54.35,23.08;50.26,29.29;57.10,23.70;42.60,32.32;47.77,32.54|Z|Hrothgar's Landing|CN|N|Administer last rites by using your book near slain Tualiq Villagers.|U|46870|
 
-C You've Really Done It This Time, Kul|QID|14096|M|64.40,21.60;61.71,21.16;60.8,23.0|N|Kill the cultists, loot keys and rescue silly Kul and his buddies.|
+C You've Really Done It This Time, Kul|QID|14096|M|64.40,21.60;61.71,21.16;60.8,23.0|CC|N|Kill the cultists, loot keys and rescue silly Kul and his buddies.|
 
-C Threat From Above|QID|13788;13682|M|45.58,32.23;45.22,34.30|N|Defeat Chillmaw and 3 Cultist Bombardiers.|
+C Threat From Above|QID|13788;13682|M|45.58,32.23;45.22,34.30|CN|N|Defeat Chillmaw and 3 Cultist Bombardiers.|
 
-C A Valiant's Field Training|QID|13760;13592;13755|M|39.60,58.20;39.50,52.40;42.20,57.50;47.00,53.50;42.90,54.20;39.98,55.08;46.34,49.91;44.41,52.20;42.17,49.54;44.95,56.00;42.15,45.80|N|Kill Converted Heroes.|
-C Taking Battle To The Enemy|QID|13789;13791|M|79.40,23.20;54.50,27.90;72.47,36.65;68.55,63.40;54.70,33.00;61.15,22.75;54.97,45.89;69.47,65.62;62.66,21.02;71.22,38.78;53.30,8.70;67.35,65.10;67.60,37.35;64.68,21.91;54.23,30.30;69.56,36.90;71.85,44.10;52.67,46.15;68.89,39.36;60.70,20.48;56.46,29.15;73.12,41.49;52.07,30.27;52.32,33.79;70.65,40.80;42.90,25.27;75.01,44.00;49.37,32.95|N|Kill members of the Cult of the Damned.|
+C A Valiant's Field Training|QID|13760;13592;13755|M|39.60,58.20;39.50,52.40;42.20,57.50;47.00,53.50;42.90,54.20;39.98,55.08;46.34,49.91;44.41,52.20;42.17,49.54;44.95,56.00;42.15,45.80|CN|N|Kill Converted Heroes.|
+C Taking Battle To The Enemy|QID|13789;13791|M|79.40,23.20;54.50,27.90;72.47,36.65;68.55,63.40;54.70,33.00;61.15,22.75;54.97,45.89;69.47,65.62;62.66,21.02;71.22,38.78;53.30,8.70;67.35,65.10;67.60,37.35;64.68,21.91;54.23,30.30;69.56,36.90;71.85,44.10;52.67,46.15;68.89,39.36;60.70,20.48;56.46,29.15;73.12,41.49;52.07,30.27;52.32,33.79;70.65,40.80;42.90,25.27;75.01,44.00;49.37,32.95|CN|N|Kill members of the Cult of the Damned.|
 
 C At The Enemy's Gates|QID|13855;13847;13854|M|49.00, 71.40|N|Mount up. Run over the footmen, lieutenants have red floating shields. Stay away from the commanders in green shields!|U|46069|
 C Battle Before The Citadel|QID|13864;13861|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders. |
 
 C A Blade Fit For A Champion|QID|13757;13603;13752|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
-C A Worthy Weapon|QID|13758;13600;13753|M|68.75,76.38;72.62,73.12;70.56,74.71|L|45000 4|N|Pick flowers along the Ironwall Dam.|
+C A Worthy Weapon|QID|13758;13600;13753|M|68.75,76.38;72.62,73.12;70.56,74.71|L|45000 4|CN|N|Pick flowers along the Ironwall Dam.|
 C A Worthy Weapon|QID|13758;13600;13753|M|93,26|Z|Dragonblight|U|45000|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
 C The Edge Of Winter|QID|13759;13616;13754|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
 C The Edge Of Winter|QID|13759;13616;13754|M|42.19,19.66|Z|Howling Fjord|N|Find the maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
 
 C Gormok Wants His Snobolds|QID|14090|M|44.05,81.68|Z|The Storm Peaks|T|Snowblind Follower|U|46855|N|Snag em!|
-C Breakfast Of Champions|QID|14076|M|42.70,54.40;43.40,56.75;46.20,61.80;40.67,52.56;43.16,60.16;38.58,61.11;38.12,55.58|Z|The Storm Peaks|T|Deep Jormungar|U|46893|N|Find snow mounts and use the drums to get the Jormungar out. Kill and get the eggs.|
+C Breakfast Of Champions|QID|14076|M|42.70,54.40;43.40,56.75;46.20,61.80;40.67,52.56;43.16,60.16;38.58,61.11;38.12,55.58|Z|The Storm Peaks|T|Deep Jormungar|U|46893|CN|N|Find snow mounts and use the drums to get the Jormungar out. Kill and get the eggs.|
 
 ; NightElf/Worgen Valiant Turnins
 T A Valiant's Field Training|QID|13760|M|76.30,18.99|N|From Illestria Bladesinger.|

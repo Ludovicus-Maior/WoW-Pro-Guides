@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2013-01-12 20:55
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3247/revisions/25332/view
 -- Date: 2013-01-11 19:54
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -60,7 +65,7 @@ T Fuselight, Ho!|QID|27762|M|92.6,38.9|N|To Eddie Flofizzle.|
 A To Fuselight Proper|QID|27763|M|92.48,38.94|N|From Eddie Flofizzle.|
 R Badlands|QID|27763|M|88.13,32.54|N|Head to Fuselight by going through the teleporter.|
 
-f Fuselight|QID|27763|M|82.02,30.88;74.93,33.86;68.62,30.77;70.17,35.40;67.94,35.65;64.35,35.24|N|Continue to Mixi Sweetride at Fuselight by following the glossy looking arrows.|
+f Fuselight|QID|27763|M|82.02,30.88;74.93,33.86;68.62,30.77;70.17,35.40;67.94,35.65;64.35,35.24|CS|N|Continue to Mixi Sweetride at Fuselight by following the glossy looking arrows.|
 h Fuselight|QID|27763|M|65.88,35.85|N|At Sally Gearwell.|
 T To Fuselight Proper|QID|27763|M|65.12,38.25|N|To Dolph Blastus.|
 A Easily Swayed|QID|27774|M|65.12,38.25|N|From Dolph Blastus.|

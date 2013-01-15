@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2013-01-13 19:34
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3203/revisions/25130/view
 -- Date: 2012-10-08 22:16
 -- Who: Ludovicus Maior
 -- Log: Added Tauren Monk Quest
@@ -112,7 +117,7 @@ T Rite of Courage|QID|14456|M|46.21,82.76|Z|Mulgore|N|To Adana Thunderhorn.|
 T Stop the Thorncallers|QID|14455|M|46.21,82.76|Z|Mulgore|N|To Adana Thunderhorn.|
 A The Battleboars|QID|14459|M|46.21,82.76|Z|Mulgore|N|From Adana Thunderhorn.|
 A Feed of Evil|QID|14461|M|46.21,82.76|Z|Mulgore|N|From Adana Thunderhorn.|
-C Feed of Evil|NC|QID|14461|M|44.77,87.73;44.27,88.58;45.31,89.19|Z|Mulgore|N|Use Adona's Torch on the Troughs|U|49539|
+C Feed of Evil|NC|QID|14461|M|44.77,87.73;44.27,88.58;45.31,89.19|Z|Mulgore|CS|N|Use Adona's Torch on the Troughs|U|49539|
 C The Battleboars|QID|14459|M|44.81,88.44|Z|Mulgore|N|Kill any Battleboars you still need|
 T The Battleboars|QID|14459|M|46.20,82.70|Z|Mulgore|N|To Adana Thunderhorn.|
 

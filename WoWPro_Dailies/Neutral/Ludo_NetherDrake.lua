@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- Date: 2013-01-13 15:01
+-- Who: Ludovicus Maior
+-- Log: Added CN and CS tags
+
+-- URL: http://wow-pro.com/node/3455/revisions/25299/view
 -- Date: 2013-01-09 17:14
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -147,7 +152,7 @@ A The Netherwing Mines|QID|11075|PRE|11053|M|66.12,86.36|REP|Netherwing;1015;fri
 A The Booterang: A Cure For The Common Worthless Peon|QID|11055|PRE|11054|REP|Netherwing;1015;friendly-revered|M|66.84,86.10|From Chief Overseer Mudlump.|
 
 C A Slow Death|QID|11020|M|65.0,65.6;67.6,69.0;71.6,66.0;56.8,75.6;59.0,69.6;55.0,68.0|CN|L|32502 12|N|Kill Netherskates and Greater Felfire Diemetradons for their Fel Glands|QO|Fel Gland: 12/12|
-C The Not-So-Friendly Skies...|QID|11035|M|71.55,75.08;74.43,75.65||L|32509 10|N|Kill Dragonmaw Transporters and loot the relics.|
+C The Not-So-Friendly Skies...|QID|11035|M|71.55,75.08;74.43,75.65|CN|L|32509 10|N|Kill Dragonmaw Transporters and loot the relics.|
 
 U A Slow Death|QID|11020|U|32503|N|Find Dragonmaw Peon Camps and drop the mutton|S|QO|Dragonmaw Peon Camp Poisoned: 12/12|
 U The Booterang: A Cure For The Common Worthless Peon|QID|11055|U|32680|N|Look for 20 lazy Dragonmaw Peons|S|QO|Dragonmaw Peon Disciplined: 20/20|
@@ -157,13 +162,13 @@ T A Slow Death|QID|11020|M|66.0,86.47|N|To Yarzill the Merc.|
 T The Not-So-Friendly Skies...|QID|11035|PRE|11019|M|66.0,86.47|N|From Yarzill the Merc.|
 T The Booterang: A Cure For The Common Worthless Peon|QID|11055|M|66.84,86.10|To Chief Overseer Mudlump.|
 
-T The Netherwing Mines|QID|11075|M|63.0,87.8;65.4,90.2|N|To Mistress of the Mines.|
+T The Netherwing Mines|QID|11075|M|63.0,87.8;65.4,90.2|CN|N|To Mistress of the Mines.|
 A Picking Up The Pieces...|QID|11076|PRE|11075|M|63.0,87.8;65.4,90.2|CN|REP|Netherwing;1015;friendly-revered|N|From a Mistress of the Mines.|
 N Picking Up The Pieces...|QID|11076|N|When you kill oozes, ???|
 A Dragons are the Least of Our Problems|QID|11077|PRE|11075|M|65.4,89.2|REP|Netherwing;1015;friendly-revered|N|Look for the foreman in the mine.|
 A Crazed and Confused|QID|11083|M|71.57,87.62|REP|Netherwing;1015;friendly|N|From Ronag the Slave Driver.|
 
-R Crazed and Confused|QID|11083|M|68.58,85.66;69.60,85.45;73.82,87.90|REP|Netherwing;1015;friendly|N|Go here to get to the second floor.|
+R Crazed and Confused|QID|11083|M|68.58,85.66;69.60,85.45;73.82,87.90|CS|REP|Netherwing;1015;friendly|N|Go here to get to the second floor.|
 C Crazed and Confused|QID|11083|M|71.57,87.62|N|Slay the Crazed Murkblood Foreman and Crazed Murkblood Miners.|
 T Crazed and Confused|QID|11083|M|71.57,87.62|N|From Ronag the Slave Driver.|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2013-01-12 20:54
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3485/revisions/25306/view
 -- Date: 2013-01-09 22:29
 -- Who: Ludovicus Maior
 -- Log: Added CS tag
@@ -163,11 +168,11 @@ C Great Minds Drink Alike|QID|29919|M|68.68,43.23|N|You don't have to stay right
 T Great Minds Drink Alike|QID|29919|M|68.71,43.12|N|To Mudmug.|
 A Leaders Among Breeders|QID|29944|M|68.88,43.15|N|From Chen Stormstout.|
 A Yellow and Red Make Orange|QID|29945|M|68.89,43.31|N|From Li Li.|
-C Yellow and Red Make Orange|QID|29945|S|M|67.57,39.75; 69.39.47.08; 70.04,48.88|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
+C Yellow and Red Make Orange|QID|29945|S|M|67.57,39.75; 69.39.47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
 K Kill Frenzyhop|QID|29944|T|Frenzyhop|QO|Frenzyhop slain: 1/1|M|64.64,40.66|
 K Kill Jinanya the Clawblade|QID|29944|T|Jinanya the Clawblade|QO|Jinanya the Clawblade slain: 1/1|M|68.72,38.29|
 K Kill Aiyu the Skillet|QID|29944|T|Aiyu the Skillet|QO|Aiyu the Skillet slain: 1/1|M|68.25,37.03|
-C Yellow and Red Make Orange|QID|29945|US|M|67.57,39.75; 69.39.47.08; 70.04,48.88|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
+C Yellow and Red Make Orange|QID|29945|US|M|67.57,39.75; 69.39.47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
 T Yellow and Red Make Orange|QID|29945|M|68.89,43.31|N|To Li Li.|
 T Leaders Among Breeders|QID|29944|M|68.88,43.15|N|To Chen Stormstout.|
 A Crouching Carrot, Hidden Turnip|QID|29947|M|68.89,43.31|N|From Li Li.|
@@ -298,7 +303,7 @@ C Weed War|QID|30052|NC|M|38.40,51.04|N|Talk to Gai Lan to start. The "instructi
 T Weed War|QID|30052|M|38.63,51.69|N|To Gai Lan.|
 A Stormstout's Hops|QID|30055|M|38.78,51.54|N|From UI Alert.|
 
-C Barreling Along|QID|30172|M|54.19,38.69;55.7,49.2|N|If you have lost Mudmug, you can get him at the place you started this quest.|
+C Barreling Along|QID|30172|M|54.19,38.69;55.7,49.2|CN|N|If you have lost Mudmug, you can get him at the place you started this quest.|
 
 T Barreling Along|QID|30172|M|55.89,49.43|N|To Chen Stormstout.|
 T Stormstout's Hops|QID|30055|M|55.89,49.43|N|To Chen Stormstout.|
@@ -434,7 +439,7 @@ C Trial of Wood|QID|29987|M|18.25,32.18|N|Same routine, but we are breaking boar
 T Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|To Master Bruised Paw.|
 A A Taste For Eggs|QID|29988|M|18.24,31.26|N|From Master Bruised Paw.|
 C Hornbill Strider Egg|QID|29988|QO|Hornbill Strider Egg: 1/1|M|26.9,39.1|N|Inside the cave, The momma bird will come to show her displeasure with you.|; Singing Marshes
-C A Taste For Eggs|QID|29988|M|24,45;26.9,39.1|N|Gather the rest of your eggs in the area around the markers|; Singing Marshes
+C A Taste For Eggs|QID|29988|M|24,45;26.9,39.1|CN|N|Gather the rest of your eggs in the area around the markers|; Singing Marshes
 T A Taste For Eggs|QID|29988|M|18.29,31.24|N|To Master Bruised Paw.|
 A Unyielding Fists: Trial of Stone|QID|29989|M|18.29,31.24|N|From Master Bruised Paw.|
 C Trial of Stone|QID|29989|M|18.16,32.15|N|Same routine, this time we get to break stone, while the master throws eggs at us.|

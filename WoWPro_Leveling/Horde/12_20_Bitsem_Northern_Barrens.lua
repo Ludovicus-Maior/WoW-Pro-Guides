@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2013-01-13 19:02
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3214/revisions/24949/view
 -- Date: 2012-02-13 01:02
 -- Who: Crackerhead22
 
@@ -61,9 +66,9 @@ A In Defense of Far Watch|QID|871|RANK|1|N|From Kargal Battlescar.|
 T Ak'Zeloth|QID|25264|M|67.81,40.53|O|N|To Ak'Zeloth.|
 C Plainstrider Menace|QID|844|M|67.41,38.77|S|N|Kill and loot Plainstriders.|
 C In Defense of Far Watch|QID|871|S|N|Kill 8 Razormane Plunderer and 3 Razormane Hunter.|
-A Through Fire and Flames|QID|13878|RANK|1|N|From Dorak. He runs between the points.|M|67.10,45.52;66.49,45.45|
+A Through Fire and Flames|QID|13878|RANK|1|N|From Dorak. He runs between the points.|M|67.10,45.52;66.49,45.45|CN|
 C Through Fire and Flame|QID|13878|N|Free wolves in the stable by clicking on the chain bases. They look like large horns stuck in the ground.|M|66.73,47.45|
-T Through Fire and Flame|QID|13878|N|To Dorak.|M|67.10,45.52;66.49,45.45|
+T Through Fire and Flame|QID|13878|N|To Dorak.|M|67.10,45.52;66.49,45.45|CN|
 C In Defense of Far Watch|QID|871|US|N|Finish slay 8 Razormane Plunderer and 3 Razormane Hunter.|M|67.75,51.21|
 C Plainstrider Menace|QID|844|M|67.57,35.5|US|N|Kill and loot Plainstriders.|
 
@@ -72,9 +77,9 @@ A The Far Watch Offensive|QID|872|PRE|871|RANK|1|M|63.13,56.24|N|From Kargal Bat
 T Plainstrider Menace|QID|844|M|67.57,38.85|N|To Halga Bloodeye.|
 A Supplies for the Crossroads|QID|5041|RANK|1|M|67.57,38.85|N|From Halga Bloodeye.|
 
-C Supplies for the Crossroads|QID|5041|NC|S|M|66.32,51.89;63.03,56.47|N|Kill Razormanes in cave while looting supply crates.|
+C Supplies for the Crossroads|QID|5041|NC|S|M|66.32,51.89;63.03,56.47|CN|N|Kill Razormanes in cave while looting supply crates.|
 C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill Razormanes needed. Make sure to loot Snarlsnout when you kill him.|
-C Supplies for the Crossroads|QID|5041|NC|US|M|63.03,56.47|N|Collect Supply Crates.|
+C Supplies for the Crossroads|QID|5041|NC|US|M|63.03,56.47|CN|N|Collect Supply Crates.|
 
 T The Far Watch Offensive|QID|872|M|67.69,39.50|N|To Kargal Battlescar.|
 T Supplies for the Crossroads|QID|5041|M|67.46,38.79|N|To Halga Bloodeye.|
@@ -119,7 +124,7 @@ T The Tortusk Takedown|QID|13968|M|56.66,40.25|N|To Togrik.|
 T The Kodo's Return|QID|13971|M|56.78,40.28|N|To Kranal Fiss.|
 T Consumed by Hatred|QID|899|M|55.18,41.03|N|To Mankrik.|
 
-C Crossroads Caravan Delivery|QID|13975|NC|M|54.67,41.55;49.55,59.46|N|Talk to Rocco Whipshank and hop on kodo. Use first ability on wolf riders, second ability if they jump you.|
+C Crossroads Caravan Delivery|QID|13975|NC|M|54.67,41.55;49.55,59.46|CC|N|Talk to Rocco Whipshank and hop on kodo. Use first ability on wolf riders, second ability if they jump you.|
 T Crossroads Caravan Delivery|QID|13975|M|48.74,59.58|N|To Thork.|
 ;A To the Mor'shan Rampart|QID|28876|RANK|1|M|48.74,59.58|N|If you plan on going to Ashenvale next. From Thork.| -Not in game?
 
@@ -174,14 +179,14 @@ C King of Centaur Mountain|QID|13995|NC|M|54.37,78.36|N|Escort quest. Follow Gor
 T King of Centaur Mountain|QID|13995|M|55.15,78.43|N|To Shoe.|
 
 C In Fungus We Trust|QID|13998|NC|U|46789|M|54.94,80.12|N|Use the Fungal Cultures near the Stagnant Oasis.|
-C A Growing Problem|QID|13988|U|46782|M|58.77,81.07;60.73,85.38|N|Use Tonga's Totem if you do not already have a bird following you, then head up the mountain.|
+C A Growing Problem|QID|13988|U|46782|M|58.77,81.07;60.73,85.38|CS|N|Use Tonga's Totem if you do not already have a bird following you, then head up the mountain.|
 T A Growing Problem|QID|13988|M|60.73,85.38|N|To Jerrik Highmountain.|
 
 A The Stagnant Oasis|QID|877|PRE|13988|RANK|1|M|60.73,85.38|N|From Jerrik Highmountain.|
 A Altered Beings|QID|880|RANK|1|M|60.60,85.34|N|From Jerrik Highmountain.|
 
 C Altered Beings|QID|880|S|M|55.36,79.14|N|From now on kill Oasis Snapjaws for their shells.|
-C Flushing Out Verog|QID|14072|US|NC|M|52.94,80.85;51.11,83.65;58.11,82.14;52.94,80.85|N|Finish collecting Centaur Intelligence from huts.|
+C Flushing Out Verog|QID|14072|US|NC|M|52.94,80.85;51.11,83.65;58.11,82.14;52.94,80.85|CN|N|Finish collecting Centaur Intelligence from huts.|
 l Sunscale Feather|QID|905|L|5165 3|US|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|M|48.27,73.44|
 N Visit Blue Raptor Nest|QID|905|NC|QO|Visit Blue Raptor Nest: 1/1|U|5165|M|48.57,74.81|N|Use the feather at the blue nest.|
 N Visit Red Raptor Nest|QID|905|NC|QO|Visit Red Raptor Nest: 1/1|U|5165|M|49.67,75.13|N|Use the feather at the red nest.|
@@ -311,7 +316,7 @@ T Ammo Kerblammo|QID|14042|M|68.42,69.11|N|To Gazlowe.|
 T A Most Unusual Map|QID|14049|M|68.42,69.11|N|To Gazlowe.|
 
 A Gazlowe's Fortune|QID|14050|RANK|1|M|68.42,69.11|N|From Gazlowe.|
-C Gazlowe's Fortune|QID|14050|M|63.45,73.88;61.97,75.80;63.53,77.44;66.20,77.70|N|Follow the waypoint trail, then click on the Curious Pirate Landmark. The Baron will make an appearance.|
+C Gazlowe's Fortune|QID|14050|M|63.45,73.88;61.97,75.80;63.53,77.44;66.20,77.70|CS|N|Follow the waypoint trail, then click on the Curious Pirate Landmark. The Baron will make an appearance.|
 T Gazlowe's Fortune|QID|14050|M|68.36,69.09|N|To Gazlowe.|
 
 A Raging River Ride|QID|26769|PRE|14050|RANK|1|M|68.36,69.09|N|From Gazlowe.|
@@ -336,7 +341,7 @@ C Ignition|QID|858|T|Supervisor Lugwizzle|M|56.95,20.38|N|Kill Supervisor Lugwiz
 T Ignition|QID|858|M|57.55,18.23|N|To Wizzlecrank's Shredder.|
 
 A The Escape|QID|863|PRE|858|RANK|1|M|57.58,18.32|N|Escort quest from Wizzlecrank's Shredder.|
-C The Escape|QID|863|NC|M|57.55,18.23;54.7,20.7|N|Escort Wizzlecrank out of the Venture Co. drill site.|
+C The Escape|QID|863|NC|M|57.55,18.23;54.7,20.7|CS|N|Escort Wizzlecrank out of the Venture Co. drill site.|
 C Hyena Extermination|QID|29088|M|53,25|N|Kill Hyenas.|
 C Competition Schmompetition|QID|29086|M|59.13,18.49|RANK|1|N|Kill Drudgers, Mercenaries, or Peons.|US|
 
@@ -366,7 +371,7 @@ T Samophlange Repair|QID|14003|M|62.62,17.00|N|To Brak Blusterpipe.|
 
 ; Wenikee Quests
 A Wenikee Boltbucket|QID|29026|RANK|1|M|62.62,17.00|N|From Brak Blusterpipe.|
-T Wenikee Boltbucket|QID|29026|M|62.62,17.00;44.37,24.94|N|Talk to Brak to teleport directly to her. To Wenikee Boltbucket.|
+T Wenikee Boltbucket|QID|29026|M|62.62,17.00;44.37,24.94|CC|N|Talk to Brak to teleport directly to her. To Wenikee Boltbucket.|
 A Nugget Slugs|QID|29027|PRE|29026|RANK|1|M|44.37,24.94|N|From Wenikee Boltbucket.|
 A A Burning Threat|QID|29090|RANK|1|M|44.3,25.1|N|From Brogor.|
 C A Burning Threat|QID|29090|M|42,32|N|Kill 8 members of the Burning Blade.|S|
@@ -382,7 +387,7 @@ T Return to Samophlanger|QID|14004|M|62.21,17.50|N|Talk to Wenikee and have her 
 A Read the Manual|QID|14006|PRE|14004|RANK|1|M|62.21,17.50|N|From Sputtervalve.|
 A Miner's Fortune|QID|29015|RANK|1|M|62.61,17.01|N|From Brak Blusterpipe.|
 
-R Boulder Lode Mine|NC|M|63.00,18.00;65.02,19.13;67.00,20.09;66.39,15.71|N|Follow the road.|QID|29015|
+R Boulder Lode Mine|NC|M|63.00,18.00;65.02,19.13;67.00,20.09;66.39,15.71|CC|N|Follow the road.|QID|29015|
 l Samophlange Manual Page|QID|14006|M|63.71,10.81|N|Kill Venture Co. mobs until you have 5 pages.|L|11148 5|S|
 l Samophlange Manual Cover |QID|14006|M|64.69,11.87|N|Head into the mine and look for Boss Copperplug. Kill him and loot the Manual Cover from him.|L|11147|T|Boss Copperplug|
 l Samophlange Manual Page|QID|14006|M|63.71,10.81|N|Kill Venture Co. mobs until you have 5 pages.|L|11148 5|S|
@@ -417,7 +422,7 @@ A Mor'shan Caravan Pick-Up|QID|29109|M|48.68,59.60|N|From Thork.|
 C Mor'shan Caravan Pick-Up|QID|29109|M|50.33,57.20|N|Talk to Rocco Whipshank and get the ride.|
 T Mor'shan Caravan Pick-Up|QID|29109|M|47.53,39.58|N|To Nagala Whipshank.|
 A Mor'shan Caravan Rescue|QID|29110|M|47.53,39.58|N|From Nagala Whipshank.|
-R Dreadmist Peak|QID|29110|M|47.16,38.07;45.28,36.76;43.73,37.28;41.83,37.07|N|Up to Dreadmist Peak.|
+R Dreadmist Peak|QID|29110|M|47.16,38.07;45.28,36.76;43.73,37.28;41.83,37.07|CS|N|Up to Dreadmist Peak.|
 T Mor'shan Caravan Rescue|QID|29110|M|41.06,39.01|N|From Balgor Whipshank.|
 A Demon Seed|QID|29112|M|47.6,39.6|N|From Balgor Whipshank.|
 C Demon Seed|QID|29112|M|41.96,39.00|N|Get the Demon Seed in the cave.|

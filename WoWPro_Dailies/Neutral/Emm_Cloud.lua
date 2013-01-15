@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
+-- Date: 2013-01-12 22:51
+-- Who: Ludovicus Maior
+-- Log: Added 2 CN tags
+
+-- URL: http://wow-pro.com/node/3505/revisions/25257/view
 -- Date: 2012-12-19 21:58
 -- Who: Emmaleah
 -- Log: changed * to all QID #'s for Elder Anli's quests
@@ -133,7 +138,7 @@ C A Tangled Web|QID|31707|M|58,32|S|N|Attack the 'widow's web', sometimes they w
 C Serpent's Scale|QID|31708|M|58,32|S|NC|N|These are mushrooms found in the cave.|
 C Tiny Treats|QID|31710|M|58.19,31.96|S|N|Drops from the tiny spiders in the cave.|
 C Weeping Widows|QID|31706|M|58.19,31.96|S|N|The weeping widow's hanging from the ceiling DON'T count for some reason.|
-C Lingering Doubt|QID|31709|M|62,24;35,32;61,72|U|88966|N|These are spinning cloads of sha essence found inside the cave.|
+C Lingering Doubt|QID|31709|M|62,24;35,32;61,72|U|88966|CN|N|These are spinning clouds of sha essence found inside the cave.|
 C The Seed of Doubt|QID|31711|T|Seed of Doubt|M|55.6,32.8|N|He is in the room with water in the back of the cave.|
 C The Big Brew-haha|QID|31713|M|55,26|US|N|Drops from the mobs you are killing as well as being a ground spawn in Sri-La village.|
 C A Tangled Web|QID|31707|M|58,32|US|N|Attack the 'widow's web', sometimes they will be villagers, other victims you will need to kill.|
@@ -149,7 +154,7 @@ C Monkey Mischief|QID|31712|M|57,27|US|
 C Saving the Serpents|QID|31714|M|57,27|US|
 
 ;on windward isle
-C Onyx to Goodness|S|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|N|You can click on this and choose map coordinates when ever you want to see the dots.  Close this step manually when you are done searching.|
+C Onyx to Goodness|S|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|CN|N|You can click on this and choose map coordinates when ever you want to see the dots.  Close this step manually when you are done searching.|
 ;tigers
 C The Easiest Way To A Serpent's Heart|QID|30154|M|61,44|S|N|The boss type tigers have a 100%drop if you are having a challenge getting enough meat.|
 C Thinning The Pack|QID|31698|M|61.44,22.30|S|
@@ -178,7 +183,7 @@ C Restoring the Balance|QID|30155|US|69,29|
 C Disarming the Enemy|QID|30158|M|69,29|NC|US|N|On weapon racks around where the slitherscales are.|
 C Preservation|QID|30159|M|67,29|NC|US|N|Pick up the eggs from the ground. They can also drop from the slitherscale mobs you run into.|
 
-C Onyx to Goodness|US|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|N|Close this step manually when you are done searching.|
+C Onyx to Goodness|US|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|CN|N|Close this step manually when you are done searching.|
 
 ;turn ins
 T A Tangled Web|QID|31707|M|57.73,44.74|N|To Elder Anli.|

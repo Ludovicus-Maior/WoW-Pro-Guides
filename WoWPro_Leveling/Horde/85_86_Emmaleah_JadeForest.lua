@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2013-01-13 23:50
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3487/revisions/25314/view
 -- Date: 2013-01-09 22:43
 -- Who: Ludovicus Maior
 -- Log: Added two CS tags
@@ -506,7 +511,7 @@ T Get Back Here!|QID|30499|M|28.02,47.15|N|To General Nazgrim.|
 A Sufficient Motivation|QID|30466|M|28.02,47.15|N|From General Nazgrim.|
 A Gauging Our Progress|QID|30484|M|28.02,47.15|N|From General Nazgrim.|
 C Sufficient Motivation|QID|30466|U|79884|S|NC|QO|Bucket of Slicky Water: 1/1|M|28.14,47.33|N|Pick up a bucket of slicky water and toss it on lazy hozen as you go.|
-C Gauging Our Progress|QID|30484|M|28.41,47.75;29.15,50.87;28.41,51.92;27.03,55.00|N|The green dots show where the people you need to talk to are.|;used the dots because they show arrows when out of range, unlike bliz chat bubbles on mini map
+C Gauging Our Progress|QID|30484|M|28.41,47.75;29.15,50.87;28.41,51.92;27.03,55.00|N|The green dots show where the people you need to talk to are.|CS|
 C Sufficient Motivation|QID|30466|U|79884|US|NC|QO|Hozen Motivated: 10/10|M|27.14,46.70|
 T Sufficient Motivation|QID|30466|M|28.07,47.15|N|To General Nazgrim.|
 T Gauging Our Progress|QID|30484|M|28.07,47.15|N|To General Nazgrim.|

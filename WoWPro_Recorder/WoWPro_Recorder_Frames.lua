@@ -531,15 +531,15 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					width = "full",
 					func = function(info,val) 
 						if not WoWPro.Recorder.stepInfo.action then
-								WoWPro:Print("Looks like your step is missing an action type! We can't register it without one. Please fill that out and try again.")
+								WoWPro:Error("Looks like your step is missing an action type! We can't register it without one. Please fill that out and try again.")
 								return 
 						end
 						if not WoWPro.Recorder.stepInfo.step then
-								WoWPro:Print("Looks like your step is missing step text! We can't register it without it. Please fill that out and try again.")
+								WoWPro:Error("Looks like your step is missing step text! We can't register it without it. Please fill that out and try again.")
 								return 
 						end
 						if not WoWPro.Recorder.stepInfo.QID then
-								WoWPro:Print("Looks like your step is missing a QID! We can't register it without one. Please fill that out and try again.")
+								WoWPro:Error("Looks like your step is missing a QID! We can't register it without one. Please fill that out and try again.")
 								return 
 						end
 						WoWPro.Recorder:AddStep(WoWPro.Recorder.stepInfo)
@@ -1167,25 +1167,25 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					width = "full",
 					func = function(info,val) 
 							if not WoWPro.Recorder.CurrentGuide.Type then
-							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.Type.")
+							    WoWPro:Error("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.Type.")
 							end
 							if not WoWPro.Recorder.CurrentGuide.Zone then
-							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.Zone.")
+							    WoWPro:Error("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.Zone.")
 							end
 						    if not WoWPro.Recorder.CurrentGuide.StartLvl then
-							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.StartLvl.")
+							    WoWPro:Error("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.StartLvl.")
 							end
 						    if not WoWPro.Recorder.CurrentGuide.EndLvl then
-							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.EndLvl.")
+							    WoWPro:Error("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.EndLvl.")
 							end
 						    if not WoWPro.Recorder.CurrentGuide.Author then
-							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.Author")
+							    WoWPro:Error("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.Author")
 							end
 						    if not WoWPro.Recorder.CurrentGuide.GID then
-							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.GID .")
+							    WoWPro:Error("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.GID .")
 							end
 							if not WoWPro.Recorder.CurrentGuide.NextGID then
-							    WoWPro:Print("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.NextGID.")
+							    WoWPro:Error("Oops! Looks like the recorder thinks you didn't fill out CurrentGuide.NextGID.")
 							end
 							if not WoWPro.Recorder.CurrentGuide.Type or not WoWPro.Recorder.CurrentGuide.Zone 
 								or not WoWPro.Recorder.CurrentGuide.StartLvl or not WoWPro.Recorder.CurrentGuide.EndLvl

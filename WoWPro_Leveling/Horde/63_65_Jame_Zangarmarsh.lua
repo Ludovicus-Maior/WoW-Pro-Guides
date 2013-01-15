@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2013-01-13 19:14
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3274/revisions/24867/view
 -- Date: 2011-12-14 00:51
 -- Who: Crackerhead22
 -- Log: ?
@@ -64,7 +69,7 @@ C As the Crow Flies |QID|9718|N|Use the amulet, and enjoy the ride (or go get a 
 T As the Crow Flies |QID|9718|M|78.4,62.0|N|To Ysiel Windsinger.|
 
 A Balance Must Be Preserved |QID|9720|M|78.4,62.0|N|From Ysiel Windsinger.|
-C Menacing Marshfangs |QID|9770|N|Finish this off. They're found Swamprat Post (Go between the two waypoint until you have all your kills).|M|82.46,58.43;85.66,48.88|
+C Menacing Marshfangs |QID|9770|N|Finish this off. They're around Swamprat Post (Go between the two waypoint until you have all your kills).|M|82.46,58.43;85.66,48.88|CN|
 T No More Mushrooms! |QID|9773|M|84.4,54.3|N|To Magasha.|
 A A Job Undone |QID|9899|M|84.4,54.3|N|From Magasha.|
 T Menacing Marshfangs |QID|9770|M|85.0,54.0|N|To Reavij.|

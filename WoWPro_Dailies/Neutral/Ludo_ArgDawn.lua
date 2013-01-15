@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
+-- Date: 2013-01-12 22:43
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3479/revisions/25085/view
 -- Date: 2012-09-25 00:23
 -- Who: Ludovicus Maior
 -- Log: Wrong separators in [Captain Grondel's Task]

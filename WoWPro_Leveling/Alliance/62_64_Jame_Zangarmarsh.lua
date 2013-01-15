@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2013-01-13 15:05
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3273/revisions/25334/view
 -- Date: 2013-01-11 19:59
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -278,7 +283,7 @@ T Sporeggar|QID|9919|M|19.7,52.1|N|To Msshi'fn.|
 A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. Will disappear if you are friendly with Sporeggar.|M|19.7,52.1|
 C Glowcap Mushrooms|N|Get the rest of the glowcaps needed for this quest.|M|40.00,36.3|QID|9808|
 T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|M|19.7,52.1|
-N Friendly with Sporeggar|QID|9708|M|19.11,63.51;15.33,61.15|N|Kill giants; turn in 10 Mature Spore Sacs (easiest to do, 2-3 turn-ins should get you friendly), or 6 Bog Lord Tendrils to Fahssn until you are friendly with Sporeggar.|
+N Friendly with Sporeggar|QID|9708|M|19.11,63.51;15.33,61.15|CN|N|Kill giants; turn in 10 Mature Spore Sacs (easiest to do, 2-3 turn-ins should get you friendly), or 6 Bog Lord Tendrils to Fahssn until you are friendly with Sporeggar.|
 A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|
 A Oh, It's On!|QID|9717|N|From T'shu. Optional dungeon quest, skip if you do not want to do it.|
 C Gathering the Reagents|N|Kill and loot Marsh Walkers, Fen Striders and Sporebats, until you finish this quest.|M|63.00,51.0|QID|9801|S|

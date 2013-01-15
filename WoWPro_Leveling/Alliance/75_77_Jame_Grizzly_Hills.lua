@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2013-01-13 15:18
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3293/revisions/25337/view
 -- Date: 2013-01-11 20:29
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -253,7 +258,7 @@ A Smoke 'Em Out |QID|12323|N|From Sergeant Downey.|M|22.0,80.8|
 A Down With Captain Zorna! |QID|12314|N|From Baron Freeman.|M|22.2,81.2|
 
 C Keep Them at Bay! |QID|12316|N|Kill 10 Horde in Venture Bay, PC or NPC.|S|O|M|15.68,78.76|
-C Smoke 'Em Out |QID|12323|U|37621|O|N|In the buildings. Get all the Venture Co. Stragglers together and use the [Smoke Bomb].|M|18.09,79.63;16.43,76.62;14.56,76.38|
+C Smoke 'Em Out |QID|12323|U|37621|O|N|In the buildings. Get all the Venture Co. Stragglers together and use the [Smoke Bomb].|M|18.09,79.63;16.43,76.62;14.56,76.38|CN|
 C Down With Captain Zorna! |QID|12314|O|N|She stands under a canopy, on the docks next to the westernmost ship.|M|13.5,80.2|
 C Keep Them at Bay! |QID|12316|O|N|Kill 10 Horde in Venture Bay, PC or NPC.|US|M|15.68,78.76|
 C Seeking Solvent |QID|12443|O|N|Clear the way. Really. Then get the Element 115 in the middle ship.|M|16.5,80.3|

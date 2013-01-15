@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-01-13 23:44
+-- Who: Ludovicus Maior
+-- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 
+
+-- URL: http://wow-pro.com/node/3440/revisions/25434/view
+-- Date: 2013-01-13 15:23
+-- Who: Ludovicus Maior
+-- Log: Added a CS tag
+
+-- URL: http://wow-pro.com/node/3440/revisions/25156/view
 -- Date: 2012-10-24 03:29
 -- Who: Ludovicus Maior
 -- Log: Add MoP Hallows End.

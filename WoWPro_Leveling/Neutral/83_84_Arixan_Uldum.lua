@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2013-01-12 19:07
+-- Who: Ludovicus Maior
+-- Log: Added CN and CS tags
+
+-- URL: http://wow-pro.com/node/3309/revisions/25066/view
 -- Date: 2012-09-15 19:36
 -- Who: Ludovicus Maior
 -- Log: Submitted by Forthepie on Wed, 2012-09-12 18:52.
@@ -194,7 +199,7 @@ C Do the World a Favor|QID|27187|N|Kill Mangy Hyenas.|S|
 C Field Work|QID|27179|N|Kill Sand Pygmies and loot Ornate Tablet Fragments. You can also find them lying around in this area.|S|
 C Just the Tip|QID|27176|M|68.08,31.51|M|67.91,31.44|U|60859|N|Kill Sultan Oogah and loot the Sultan's Staff, then click it. If you do not find the Sultan, check for Skarf, he might be riding it.|
 C Field Work|QID|27179|M|63.50,31.33|N|Get the remaining Ornate Tablet Fragments.|US|
-C Do the World a Favor|QID|27187|M|66.78,26.76;63.34,26.99|N|Kill Mangy Hyenas.|US|
+C Do the World a Favor|QID|27187|M|66.78,26.76;63.34,26.99|CN|N|Kill Mangy Hyenas.|US|
 
 T Do the World a Favor|QID|27187|M|64.60,28.65|N|(UI Alert)|
 T Field Work|QID|27179|M|64.60,28.65|N|To Harrison Jones.|S|
@@ -212,11 +217,11 @@ C The Thrill of Discovery|QID|27511|M|65.60,34.00|N|Head towards the Southern Hi
 T The Thrill of Discovery|QID|27511|M|64.54,28.51|N|(UI Alert)|
 
 A Be Prepared|QID|27517|M|65.16,33.71|N|From the Decrpit Skeleton.|
-C Be Prepared|QID|27517|S|M|61.81,30.15;67.46,30.05|N|Kill Tormented Tomb-Robbers, they spawn when you walk over the skeletons on the floor. Loot 6 Pieces of Rope.|
+C Be Prepared|QID|27517|S|M|61.81,30.15;67.46,30.05|CN|N|Kill Tormented Tomb-Robbers, they spawn when you walk over the skeletons on the floor. Loot 6 Pieces of Rope.|
 A Lessons From the Past|QID|27541|M|63.46,32.61|N|From the corpse of Schnottz Scout.|
 
 C Lessons From the Past|QID|27541|M|63.46,32.55|N|Right-click Schottz Scout and select Take the scout's spectacles. You don't need the journal, it's just for a fun read.|NC|
-C Be Prepared|QID|27517|US|M|61.81,30.15;67.46,30.05|N|Kill Tormented Tomb-Robbers, they spawn when you walk over the skeletons on the floor. Loot 6 Pieces of Rope.|
+C Be Prepared|QID|27517|US|M|61.81,30.15;67.46,30.05|CN|N|Kill Tormented Tomb-Robbers, they spawn when you walk over the skeletons on the floor. Loot 6 Pieces of Rope.|
 
 T Lessons From the Past|QID|27541|M|64.45,28.00|N|To Harrison Jones.|S|
 T Be Prepared|QID|27517|M|64.45,28.00|N|To Harrison Jones.|
@@ -298,28 +303,28 @@ A The High Commander's Vote|QID|27631|M|54.97,34.01|N|From Prince Nadun, outside
 A The High Priest's Vote|QID|27630|M|54.97,34.01|N|From Prince Nadun, outside the throne room.|US|
 A The Vizier's Vote|QID|27629|M|54.97,34.01|N|From Prince Nadun, outside the throne room.|US|
 
-T The High Priest's Vote|QID|27630|M|52.81,45.59;54.18,41.83|N|To High Priest Amet. He's inside the dam.|
+T The High Priest's Vote|QID|27630|M|52.81,45.59;54.18,41.83|CS|N|To High Priest Amet. He's inside the dam.|
 
 A Stopping the Spread|QID|27836|M|54.18,41.83|N|From High Priest Amet.|S|
 A Trespassers in the Water|QID|27837|M|54.18,41.83|N|From High Priest Amet.|
 A Stopping the Spread|QID|27836|M|54.18,41.83|N|From High Priest Amet.|US|
 
-C Trespassers in the Water|QID|27837|M|52.81,45.59;56.36,40.16|N|Kill Stillwater Slitherers, they're underwater near the dam.|S|
-C Stopping the Spread|QID|27836|M|52.81,45.59;52.58,43.34|N|Destroy Slitherer Eggs, they're underwater near the dam.|NC|
-C Trespassers in the Water|QID|27837|M|56.36,40.16|N|Kill Stillwater Slitherers, they're underwater near the dam.|US|
+C Trespassers in the Water|QID|27837|M|52.81,45.59;56.36,40.16|CN|N|Kill Stillwater Slitherers, they're underwater near the dam.|S|
+C Stopping the Spread|QID|27836|M|52.81,45.59;52.58,43.34|CN|N|Destroy Slitherer Eggs, they're underwater near the dam.|NC|
+C Trespassers in the Water|QID|27837|M|56.36,40.16|CN|N|Kill Stillwater Slitherers, they're underwater near the dam.|US|
 
-T Trespassers in the Water|QID|27837|M|52.81,45.59;54.18,41.83|N|To High Priest Amet.|S|
-T Stopping the Spread|QID|27836|M|54.18,41.83|N|To High Priest Amet.|
-T Trespassers in the Water|QID|27837|M|52.81,45.59;54.18,41.83|N|To High Priest Amet.|US|
+T Trespassers in the Water|QID|27837|M|52.81,45.59;54.18,41.83|CS|N|To High Priest Amet.|S|
+T Stopping the Spread|QID|27836|M|54.18,41.83|CS|N|To High Priest Amet.|
+T Trespassers in the Water|QID|27837|M|52.81,45.59;54.18,41.83|CS|N|To High Priest Amet.|US|
 
 A The Defilers' Ritual|QID|28611|M|54.16,41.93|N|From High Priest Amet.|
-C The Defilers' Ritual|QID|28611|M|52.81,45.59;52.18,40.18;49.89,40.11|N|At the 2nd arrow, dive underwater, swim to the Murkdeep Cavern and kill Dark Ritualist Zakahn. Pull his assistants first.|
-T The Defilers' Ritual|QID|28611|M|52.81,45.59;54.18,41.83|N|To High Priest Amet.|
+C The Defilers' Ritual|QID|28611|M|52.81,45.59;52.18,40.18;49.89,40.11|CS|N|At the 2nd arrow, dive underwater, swim to the Murkdeep Cavern and kill Dark Ritualist Zakahn. Pull his assistants first.|
+T The Defilers' Ritual|QID|28611|M|52.81,45.59;54.18,41.83|CS|N|To High Priest Amet.|
 
 A The Root of the Corruption|QID|27838|M|54.20,42.00|N|From High Priest Amet.|
 C The Root of the Corruption|QID|27838|M|58.92,14.13|N|Head to the waypoint and kill Scalemother Hevna.|
-T The Root of the Corruption|QID|27838|M|57.87,42.52;54.16,41.93|N|To High Priest Amet.|
-T The High Commander's Vote|QID|27631|M|57.87,42.52;58.84,46.14|N|To High Commander Kamses.|
+T The Root of the Corruption|QID|27838|M|57.87,42.52;54.16,41.93|CS|N|To High Priest Amet.|
+T The High Commander's Vote|QID|27631|M|57.87,42.52;58.84,46.14|CS|N|To High Commander Kamses.|
 
 A The Weakest Link|QID|28198|M|58.84,46.14|N|From High Commander Kamses.|S|
 A Ploughshares to Swords|QID|28201|M|58.84,46.14|N|From High Commander Kamses.|
@@ -338,7 +343,7 @@ C Tanotep's Son|QID|27632|M|58.11,59.81|N|Kill Neferset Guards until one drops t
 T Tanotep's Son|QID|27632|M|58.63,59.88|N|Complete the quest and get the follow up: Neferset Prison.|
 
 A Neferset Prison|QID|27707|M|58.63,59.88|N|From pop-up quest box.|
-C The Element of Supplies|QID|28200|US|M|58,52.3;54.53,46.47|N|Kill Riverbed Crocolisks until you finish this quest.|
+C The Element of Supplies|QID|28200|US|M|58,52.3;54.53,46.47|CN|N|Kill Riverbed Crocolisks until you finish this quest.|
 C Shaping Up|QID|28210|M|53.23,56.50|N|Salhet shows up while you attack Hyenas.|
 T Shaping Up|QID|28210|M|53.23,56.50|N|To Salhet.|
 
@@ -419,7 +424,7 @@ C Hacking the Wibson|QID|27778|M|76.94,62.96|N|Fly to the top of the M.A.C Diver
 T Hacking the Wibson|QID|27778|M|77.24,63.23|N|To the Fusion Core.|
 
 A Gnomebliteration|QID|27779|M|77.25,63.22|N|From the Fusion Core.|
-C Gnomebliteration|QID|27779|M|77.26,63.25;77.45,59.12;81.84,58.71;82.15,54.50;83.28,53.05;84.44,49.44;79.21,52.16;75.91,52.51;76.70,61.41|N|Once you become that ball of fire, simply follow the trail north/northeast of the M.A.C Diver, all the way to the docks, then go through the steps of fate and back to M.A.C Diver. Keep doing this circuit until you're done. Don't go to the area with the Bomb Clusters we just disarmed, or you'll be ejected from the ball. |
+C Gnomebliteration|QID|27779|M|77.26,63.25;77.45,59.12;81.84,58.71;82.15,54.50;83.28,53.05;84.44,49.44;79.21,52.16;75.91,52.51;76.70,61.41|N|Once you become that ball of fire, simply follow the trail north/northeast of the M.A.C Diver, all the way to the docks, then go through the steps of fate and back to M.A.C Diver. Keep doing this circuit until you're done. Don't go to the area with the Bomb Clusters we just disarmed, or you'll be ejected from the ball. |CN|
 T Gnomebliteration|QID|27779|M|77.24,63.32|N|To Fusion Core.|
 T The Curse of the Tombs|QID|27755|M|67.32,42.79|N|To Sun Prophet Tumet.|
 
@@ -478,7 +483,7 @@ A Eastern Hospitality|QID|27926|M|24.43,64.46|N|From Belloc Brightblade.|
 
 ; f Schnottz's Landing|QID|27926|M|22.33,64.82|N|At Evax Oilspark.|
 
-C Eastern Hospitality|QID|27926|M|22.53,64.58;22.57,64.65;21.95,63.98;22.44,63.21|N|Follow the arrows to mingle with the guests.|
+C Eastern Hospitality|QID|27926|M|22.53,64.58;22.57,64.65;21.95,63.98;22.44,63.21|N|Follow the arrows to mingle with the guests.|CS|
 T Eastern Hospitality|QID|27926|M|24.42,64.53|N|To Belloc Brightblade.|
 
 A A Favor for the Furrier|QID|27928|M|24.42,64.53|N|From Belloc Brightblade.|
@@ -518,11 +523,11 @@ C Gobbles!|QID|27950|M|24.43,64.15|N|Speak with Commander Schnottz and just watc
 T Gobbles!|QID|27950|M|24.43,64.15|N|(UI Alert)|
 
 A Make Yourself Useful|QID|27969|M|24.42,64.09|N|From Commander Schnottz.|
-C Make Yourself Useful|QID|27969|U|62813|M|22.78,60.27;20.89,59.30;20.94,61.78;20.01,60.86;18.66,62.78|N|Put on the Uniform, then visit the various Schnottz camps, look for Slacking Laborers and talk to them. Sometimes they'll attack you, just fly away when they do that, no point in killing them.|
+C Make Yourself Useful|QID|27969|U|62813|M|22.78,60.27;20.89,59.30;20.94,61.78;20.01,60.86;18.66,62.78|N|Put on the Uniform, then visit the various Schnottz camps, look for Slacking Laborers and talk to them. Sometimes they'll attack you, just fly away when they do that, no point in killing them.|CS|
 T Make Yourself Useful|QID|27969|M|24.44,64.23|N|To Commander Schnottz.|
 
 A Crisis Management|QID|28002|M|24.39,64.50|N|From Belloc Brightblade.|
-C Crisis Management|QID|28002|M|22.39,63.85;22.28,63.88;22.30,64.00;21.94,64.25|N|Follow the arrows to the guests.|
+C Crisis Management|QID|28002|M|22.39,63.85;22.28,63.88;22.30,64.00;21.94,64.25|N|Follow the arrows to the guests.|CS|
 T Crisis Management|QID|28002|M|24.40,64.51|N|To Belloc Brightblade.|
 
 A Battlezone|QID|27990|M|24.44,64.11|N|From Commander Schnottz.|
@@ -551,7 +556,7 @@ T The Great Escape|QID|28194|M|21.87,64.05|N|To the Prolific Writer.|
 T Sending a Message|QID|28195|M|22.48,63.21|N|To Commander Schnottz.|
 
 A Firing Squad|QID|28267|M|22.48,63.21|N|From Commander Schnottz.|
-C Firing Squad|QID|28267|M|22.48,63.15;23.52,60.25|N|Speak with Commander Schnottz.|
+C Firing Squad|QID|28267|M|22.48,63.15;23.52,60.25|N|Speak with Commander Schnottz.|CC|
 T Firing Squad|QID|28267|M|23.52,60.25|N|To Harrison Jones.|
 
 A Meet Me In Vir'sar|QID|28269|M|23.52,60.25|N|From Harrison Jones.|
@@ -610,7 +615,7 @@ C Shroud of the Makers|QID|28367|U|63699|M|40.57,24.16|N|This time, use the Shro
 T Shroud of the Makers|QID|28367|M|27.04,7.64|N|To Harrison Jones.|
 
 A Schnottz So Fast|QID|28402|M|27.04,7.64|N|From Harrison Jones.|
-C Schnottz So Fast|QID|28402|M|30.94,15.47;34.51,18.71|N|Go inside the Chamber of the Moon, to the bottom of it and kill 10 Schnottz Elite Troopers.|
+C Schnottz So Fast|QID|28402|M|30.94,15.47;34.51,18.71|CS|N|Go inside the Chamber of the Moon, to the bottom of it and kill 10 Schnottz Elite Troopers.|
 T Schnottz So Fast|QID|28402|M|36.21,20.31|N|To Harrison Jones.|
 
 A Bad Datas|QID|28403|M|36.21,20.31|N|From Harrison Jones.|
@@ -643,7 +648,7 @@ A Put That Baby in the Cradle!|QID|28621|M|32.54,30.89|N|From Brann Bronzebeard.
 T Put That Baby in the Cradle!|QID|28621|M|32.56,30.67|N|To Harrison Jones.|
 
 A Three if by Air|QID|28622|M|32.56,30.67|N|From Harrison Jones.|
-C Three if by Air|QID|28622|U|64668|M|32.04,31.66;31.38,30.82;32.01,29.88|N|Click on the Signal Flare Postions.|
+C Three if by Air|QID|28622|U|64668|M|32.04,31.66;31.38,30.82;32.01,29.88|CS|N|Click on the Signal Flare Postions.|
 T Three if by Air|QID|28622|M|44.86,67.39|N|To Brann Bronzebeard.|
 
 A The Coffer of Promise|QID|28633|M|44.86,67.39|N|From Brann Bronzebeard.|

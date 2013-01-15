@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2013-01-13 19:49
+-- Who: Ludovicus Maior
+-- Log: Added CS tag
+
+-- URL: http://wow-pro.com/node/3212/revisions/25450/view
+-- Date: 2013-01-13 17:46
+-- Who: Ludovicus Maior
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3212/revisions/25127/view
 -- Date: 2012-10-08 19:44
 -- Who: Ludovicus Maior
 -- Log: Get rid of - in zone
@@ -86,7 +96,7 @@ T Taking Care of Business|QID|14138|M|60.10,74.66|N|To Foreman Dampwick.|
 A Trouble in the Mines|QID|14075|M|60.10,74.66|N|From Foreman Dampwick.|
 A Good Help is Hard to Find|QID|14069|M|60.10,74.66|N|From Foreman Dampwick.|
 C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Zap the red trolls by right-clicking them.|S|NC|
-C Trouble in the Mines|QID|14075|M|71.02,76.19;74.59,83.67;65.05,88.22|N|Go into the mines to kill worms.|
+C Trouble in the Mines|QID|14075|M|71.02,76.19;74.59,83.67;65.05,88.22|CS|N|Go into the mines to kill worms.|
 C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Zap the red trolls with your hand on your way into the mine.|US|NC|
 
 T Trouble in the Mines|QID|14075|M|60.35,74.64|N|To Foreman Dampwick.|

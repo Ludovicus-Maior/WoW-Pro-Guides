@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2013-01-13 17:52
+-- Who: Ludovicus Maior
+-- Log: Added CN and CS tags
+
+-- URL: http://wow-pro.com/node/3282/revisions/25046/view
 -- Date: 2012-08-13 02:06
 -- Who: Laotseu
 -- Log: Minor fixes, mostly N steps that were converted to C with |NC|+|QO| and a few missing |T|.
@@ -34,7 +39,7 @@
 WoWPro.Leveling:RegisterGuide("JamBla6970", "Blade's Edge Mountains", "Jame", "65", "68", "JamHow7071", "Horde", function()
 return [[
 
-F Zabra'jin|QID|10928|N|Fly to Zabra'jin.|Z|
+F Zabra'jin|QID|10928|N|Fly to Zabra'jin.|
 A The Ogre Threat|QID|9795|N|From Shadow Hunter Denjai. He is on the second floor of the inn.|Z|Zangarmarsh|M|30.74,50.88|
 F Swamprat Post|QID|10928|N|Fly to Swamprat Post.|Z|Zangarmarsh|M|33.06,51.08|
 A Killing the Crawlers|QID|10928|N|From Grunt Grahk.|M|53.0,96.2|
@@ -134,7 +139,7 @@ A Ruuan Weald|QID|10615|M|75.1,62.1|N|From Dertrok.|
 T Understanding the Mok'Nathal|QID|10846|N|To Leoroxx.|M|75.33,60.94|
 A Since Time Forgotten...|QID|10843|M|75.3,60.9|N|From Leoroxx.|
 A The Totems of My Enemy|QID|10851|N|From Spiritcaller Dohgar.|M|74.92,60.51|
-C Mok'Nathal Treat|QID|10860|N|Kill and loot Scalewing Serpents until you have 3 Serpent Flesh. You can also get the Raptor Ribs if you did not have 3.|M|62.26,71.35;66.64,57.75|
+C Mok'Nathal Treat|QID|10860|N|Kill and loot Scalewing Serpents until you have 3 Serpent Flesh. You can also get the Raptor Ribs if you did not have 3.|M|62.26,71.35;66.64,57.75|CN|
 C The Totems of My Enemy|QID|10851|N|Kill ogres until you have 5 Bladespire Totems.|M|59.3,56.0|S|
 C Since Time Forgotten...|QID|10843|N|Kill ogres on your way to the northwestern corner of Bladespire Outpost, there you will find Gnosh Brognat.|M|57.26,54.90|
 C The Totems of My Enemy|QID|10851|N|Kill ogres until you have 5 Bladespire Totems.|M|59.3,56.0|US|
@@ -236,7 +241,7 @@ C Deceive thy Enemy |N|Kill the mobs for this quest. Try not to kill the Anger G
 T Deceive thy Enemy |N|Put the gas mask on and turn this quest in.|QID|10820|M|73.30,40.00|U|31366|
 A You're Fired! |QID|10821|N|From Legion Communicator.|U|31366|M|73.2,40.0|
 l Camp Anger Key|QID|10821|N|Kill Anger Guards until you get 5 Camp Anger Keys|L|31536 5|M|74.43,40.66|
-C You're Fired! |N|Find the five obelisks (where the waypoints are), and activate them quickly. Kill Doomcryer.|QID|10821|M|73.83,41.06;73.94,39.91;75.42,40.5;75.31,41.72;73.54,43.52|
+C You're Fired! |N|Find the five obelisks (where the waypoints are), and activate them quickly. Kill Doomcryer.|QID|10821|M|73.83,41.06;73.94,39.91;75.42,40.5;75.31,41.72;73.54,43.52|CS|
 C There Can Be Only One Response|QID|10867|N|Kill all Razaani agents in this area until Nexus-Prince Razaan comes through the stargate, then kill him. He spawns where the waypoint is. The box of souls appears above his corpse.|M|66.59,43.69|
 C Culling the Wild |N|Kill the mobs needed for this quest.|QID|10753|M|71.00,36.00|US|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|S|

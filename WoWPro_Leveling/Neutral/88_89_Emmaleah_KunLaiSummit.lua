@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2013-01-13 19:50
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3490/revisions/25305/view
 -- Date: 2013-01-09 22:27
 -- Who: Ludovicus Maior
 -- Log: Added CS/CN tags
@@ -235,9 +240,9 @@ T Trouble on the Farmstead|QID|30569|FACTION|Alliance|M|60.25,85.73|N|To Farmer 
 
 A Farmhand Freedom|QID|30571|M|60.24,85.79|N|From Farmer Chow.|
 A ... and the Pot, Too!|QID|30581|M|60.17,85.92|N|From Uyen Chow.|
-C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|S|N|Kill the overseers to free the slaves standing near them.|
+C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|CN|S|N|Kill the overseers to free the slaves standing near them.|
 C ... and the Pot, Too!|QID|30581|M|60.03,88.43|N|The pot is in the house, the virmin zooming around drops multiple veggies as well as them being groundspawn.|
-C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|US|N|Kill the overseers to free the slaves standing near them.|
+C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|CN|US|N|Kill the overseers to free the slaves standing near them.|
 T ... and the Pot, Too!|QID|30581|M|60.17,85.92|N|To Uyen Chow.|
 T Farmhand Freedom|QID|30571|M|60.24,85.79|N|To Farmer Chow.|
 A Back to Westwind Rest|QID|31252|FACTION|Alliance|M|60.24,85.79|N|From Farmer Chow.|
@@ -350,7 +355,7 @@ C Sturdy Yaungol Spear|QID|31421|NC|M|71.2,62.6;70.0,63.8|CN|N|Optional-This BoA
 R Fire Camp Ruqin|QID|30614|M|63.44,68.53|
 C Traffic Issues|QID|30616|S|M|63.53,66.80|
 C A Grummle's Luck|QID|30808|S|M|62.24,66.92|N|These are groundspawn 'sparklies', beside things, inside boxes, etc.|
-C Oil Stop|QID|30614|U|80312|M|63.44,68.53;62.64,68.36|N|Click on the oilwell to fill your flask. These respawn pretty fast.|
+C Oil Stop|QID|30614|U|80312|M|63.44,68.53;62.64,68.36|CN|N|Click on the oilwell to fill your flask. These respawn pretty fast.|
 C Traffic Issues|QID|30616|US|M|63.53,66.80|
 C A Grummle's Luck|QID|30808|US|M|62.24,66.92|N|These are groundspawn 'sparklies', beside things, inside boxes, etc.|
 T A Grummle's Luck|QID|30808|M|64.71,61.76|N|To Lucky Eightcoins.|
@@ -574,7 +579,7 @@ A Shut it Down|QID|30742|M|42.34,69.73|N|From Cousin Gootfur.|
 A Gourmet Kafa|QID|30743|M|42.34,69.73|N|From Cousin Gootfur.|
 C Gourmet Kafa|QID|30743|S|M|39.99,71.67|N|Flag the droppings.|
 C Shut it Down|QID|30742|S|M|40.67,73.42|N|Goats are hard to miss.|
-C Trouble Brewing|QID|30745|S|M|37.83,77.90;39.39,75.23;37.16,68.20|N|Yeti's are located in the caves, any of the caves will do.|
+C Trouble Brewing|QID|30745|S|M|37.83,77.90;39.39,75.23;37.16,68.20|CN|N|Yeti's are located in the caves, any of the caves will do.|
 C Kota Blend|QID|30744|U|81054|S|M|36.38,76.94|Pick up the betties from the ground. very plentiful in the caves.|
 T Kota Blend|QID|30744|N|To UI Alert.|M|36.38,76.94|
 A A Fair Trade|QID|30746|N|From UI Alert.|M|36.38,76.94|

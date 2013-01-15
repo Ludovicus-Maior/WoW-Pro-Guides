@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2013-01-13 15:16
+-- Who: Ludovicus Maior
+-- Log: Added CS and CC tag
+
+-- URL: http://wow-pro.com/node/3451/revisions/25083/view
 -- Date: 2012-09-24 23:49
 -- Who: Ludovicus Maior
 -- Log: Spell Njorndir Preparation right!
@@ -73,7 +78,7 @@ A Stonespire the Elder|N|From Stonespire the Elder.|QID|8672|M|59,49|Z|Winterspr
 A Brightspear the Elder|N|From Brightspear the Elder.|QID|8726|M|53.2,56.6|Z|Winterspring|
 F Astranaar|N|Fly to Astranaar.|QID|8725|M|61,48.6|Z|Winterspring|
 A Riversong the Elder|N|From Riversong the Elder.|QID|8725|M|35.4,48.9|Z|Ashenvale|
-R Azshara|N|Fly to Forest Song via the flight point then to Azshara, or just run the whole way to Azshara.|QID|8720|M|34.4,48;98.93,56.24|Z|Ashenvale|
+R Azshara|N|Fly to Forest Song via the flight point then to Azshara, or just run the whole way to Azshara.|QID|8720|M|34.4,48;98.93,56.24|Z|Ashenvale|CC|
 A Skygleam the Elder|N|From Skygleam the Elder.|QID|8720|M|64.7,79.4|Z|Azshara|
 R Orgrimmar|N|Time to enter Orgrimmar.|QID|8677|M|52.2,59.8|Z|Azshara|
 A Darkhorn the Elder|N|From Darkhorn the Elder.|QID|8677|M|52.2,59.8|Z|Orgrimmar|T|Elder Darkhorn|
@@ -153,7 +158,7 @@ F Stormfeather Outpost|N|Fly to Stormfeather Outpost.|QID|8643|M|55.55,47.74|Z|I
 A Highpeak the Elder|N|From Highpeak the Elder.|QID|8643|M|49.9,47.9|Z|The Hinterlands|
 F Thondroril River|N|Fly to Thondroril River.|QID|8722|M|65.77,44.87|Z|The Hinterlands|
 A Meadowrun the Elder|N|From Meadowrun the Elder.|QID|8722|M|63.5,36.1|Z|Western Plaguelands|
-A Moonstrike the Elder|N|From Moonstrike the Elder. She is ontop of Scholomance, not inside of it.|QID|8714|M|50.8 36.5;69,73|Z|Western Plaguelands|
+A Moonstrike the Elder|N|From Moonstrike the Elder. She is on top of Scholomance, not inside of it.|QID|8714|M|50.8,36.5;69,73|Z|Western Plaguelands|CC|
 R Crown Guard Tower|N|Head over to Crown Guard Tower.|QID|8688|M|35.6,68.8|Z|Eastern Plaguelands|
 A Windrun the Elder|N|From Windrun the Elder.|QID|8688|M|35.6,68.8|Z|Eastern Plaguelands|
 F Light's Hope Chapel|N|Fly to Light's Hope Chapel.|QID|8650|M|34.9,67.9|Z|Eastern Plaguelands|

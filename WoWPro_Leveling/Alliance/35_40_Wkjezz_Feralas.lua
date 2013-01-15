@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2013-01-13 15:10
+-- Who: Ludovicus Maior
+-- Log: Added CS and CN tags
+
+-- URL: http://wow-pro.com/node/3243/revisions/24549/view
 -- Date: 2011-06-12 21:34
 -- Who: Crackerhead22
 -- Log: Minor fixes.
@@ -182,7 +187,7 @@ A Alpha Strike|QID|25427|M|77.19,56.52|N|From Adella.|
 T It's Not "Ogre" Yet|QID|25432|M|77.19,56.52|N|To Adella.|
 A Sasquatch Sighting|QID|25433|M|77.19,56.52|N|From Adella.|
 A Taming The Tamers|QID|25434|M|77.19,56.52|N|From Adella.|
-R Woodpaw Den|QID|25427|M|68.11,53.70;67.22,52.02|N|Run up to Woodpaw Den.|
+R Woodpaw Den|QID|25427|M|68.11,53.70;67.22,52.02|CC|N|Run up to Woodpaw Den.|
 C Alpha Strike|QID|25427|M|65.59,52.17|N|Have fun killing Woodpaw Alphas here.|
 C Taming The Tamers|QID|25434|M|74.94,29.12|N|Kill 6 Gordunni Tamers.|S|
 C Sasquatch Sighting|QID|25433|M|74.79,28.41|N|Kill Bigfist.|
@@ -194,7 +199,7 @@ T Taming The Tamers|QID|25434|M|77.22,56.57|N|To Adella.|
 A Zukk'ash Infestation|QID|25429|M|77.22,56.57|N|From Adella.|
 A Stinglasher|QID|25431|M|77.22,56.57|N|From Adella.|
 C Zukk'ash Infestation|QID|25429|S|M|76.54,62.08|N|Kill and loot the bugs.|
-C Stinglasher|QID|25431|M|78.32,62.74;73.47,63.52|N|Kill Stinglasher. It wanders between, and inside, the two hives. So look for the skull icon on your minimap.|T|Stinglasher|
+C Stinglasher|QID|25431|M|78.32,62.74;73.47,63.52|CN|N|Kill Stinglasher. It wanders between, and inside, the two hives. So look for the skull icon on your minimap.|T|Stinglasher|
 C Zukk'ash Infestation|QID|25429|US|M|74.68,63.05|N|Kill and loot the bugs.|
 T Stinglasher|QID|25431|M|77.18,56.50|N|To Adella.|
 T Zukk'ash Infestation|QID|25429|M|77.18,56.50|N|To Adella.|

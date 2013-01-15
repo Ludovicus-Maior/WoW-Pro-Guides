@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2013-01-12 22:38
+-- Who: Ludovicus Maior
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3486/revisions/25339/view
 -- Date: 2013-01-11 20:36
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -152,7 +157,7 @@ T The Right Tool For The Job|QID|31735|M|46.5,96.3|N|To Rell Nightwind, who will
 A Envoy of the Alliance|QID|31736|M|46.5,96.3|N|From Rell Nightwind.|
 A The Cost of War|QID|31737|M|46.5,96.3|N|From Rell Nightwind.|
 
-C The Cost of War|QID|31737|M|44.31,95.89;44.80,92.42;44.60,88.50|N|Make your way off the pier and kill the Sha Haunt and Harbringer.  Make your way northwards as you proceed.|
+C The Cost of War|QID|31737|M|44.31,95.89;44.80,92.42;44.60,88.50|CS|N|Make your way off the pier and kill the Sha Haunt and Harbringer.  Make your way northwards as you proceed.|
 C Envoy of the Alliance|QID|31736|M|45.9,85.0|N|Head to Sunke Khang at Paw'don Village to the north.|NC|
 T Envoy of the Alliance|QID|31736|M|46.2,84.8|N|To Sunke Khang.|
 T The Cost of War|QID|31737|M|46.2,84.8|N|To Taran Zhu.|
@@ -401,7 +406,7 @@ A Tian Monastery|QID|29617|M|49.65,45.83|N|From Apprentice Yufi.|
 R The Arboretum|QID|29993|M|49.02,46.27;49.14,47.32;50.43,46.41|CS|N|The path is just down the stairs you passed to get the last quest.|
 A The Perfect Color|QID|29881|M|54.89,45.31|N|From Inkmaster Glenzu.|
 T Find the Boy|QID|29993|M|54.92,44.83|N|To Inkmaster Wei.|
-A Shrine of the Dawn|QID|29995|M|54.92,45.11;54.67,44.11|N|From Inkmaster Wei, who walks around between these two chairs.|
+A Shrine of the Dawn|QID|29995|M|54.92,45.11;54.67,44.11|CN|N|From Inkmaster Wei, who walks around between these two chairs.|
 A Quill of Stingers|QID|29882|M|55.40,45.29|N|From Inkmaster Jo Po, who wanders a bit.|
 f The Arboretum|QID|29882|M|56.96,44.22|N|At Injar'i Lakebloom.|
 C The Perfect Color|QID|29881|S|M|53.48,44.38|
@@ -597,7 +602,7 @@ T The Serpent's Heart|QID|29931|M|48.31,61.35|N|To Foreman Raike.|
 A Love's Labor|QID|30495|M|48.31,61.35|N|From Foreman Raike.|
 C Delivery to Kitemaster Shoku |QID|30495|NC|QO|Delivery to Kitemaster Shoku: 1/1|M|48.18,60.02|
 C Delivery to Taskmaster Emi |QID|30495|NC|QO|Delivery to Taskmaster Emi: 1/1|M|47.6,60.7|N|Ask Shoku to get a lift to the top of the statue|
-C Delivery to Surveyor Sawa |QID|30495|NC|QO|Delivery to Surveyor Sawa: 1/1|M|47.45,60.51;46.94,60.35|N|Talk to Kitemaster Inga to get a ride down|
+C Delivery to Surveyor Sawa |QID|30495|NC|QO|Delivery to Surveyor Sawa: 1/1|M|47.45,60.51;46.94,60.35|CS|N|Talk to Kitemaster Inga to get a ride down|
 C Delivery to Historian Dinh |QID|30495|NC|QO|Delivery to Historian Dinh: 1/1|M|46.36,61.80|
 T Love's Labor|QID|30495|M|48.31,61.35|N|From Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|M|48.31,61.35|N|From Foreman Raike.|
@@ -652,7 +657,7 @@ T An Unexpected Advantage|QID|30565|M|58.55,82.30|N|To Sully "The Pickle" McLear
 T Helping the Cause|QID|30568|M|58.07,80.65|N|To Admiral Taylor.|
 A Last Piece of the Puzzle|QID|31362|M|58.85,81.11|N|From Lorewalker Cho.|
 
-C Last Piece of the Puzzle|QID|31362|NC|U|80071|M|58.85,81.08;44.50,66.96|N|Talk to Mishi for a ride and then use the Cho Family Heirloom at the shrine.|
+C Last Piece of the Puzzle|QID|31362|NC|U|80071|M|58.85,81.08;44.50,66.96|CS|N|Talk to Mishi for a ride and then use the Cho Family Heirloom at the shrine.|
 
 T Last Piece of the Puzzle|QID|31362|M|44.8,67.1|N|To Lorewalker Cho.|
 A The Seal is Broken|QID|31303|M|44.78,67.06|N|From Lorewalker Cho.|

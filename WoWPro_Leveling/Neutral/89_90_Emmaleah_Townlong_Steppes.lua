@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2013-01-13 01:26
+-- Who: Ludovicus Maior
+-- Log: Added a CS tag
+
+-- URL: http://wow-pro.com/node/3492/revisions/25201/view
 -- Date: 2012-11-11 03:04
 -- Who: Ludovicus Maior
 -- Log: Hatred's Vice Cooord Corrections.
@@ -242,7 +247,7 @@ A Up In Flames|QID|30973|M|61.56,79.29|N|From Taran Zhu.|
 C Up In Flames|QID|30973|M|60.58,78.79|N|The Timberhusks have a buff, that you need to dispell by having them in the vicinity of exploding barrels. The barrels are nearly impossible to aim, so try to click the barrells close to the mobs, barrels explode when they hit something.|
 T Up In Flames|QID|30973|M|61.65,79.32|N|To Taran Zhu.|
 A The Taking of Dusklight Bridge|QID|30975|M|61.65,79.32|N|From Lao-Chin the Iron Belly.|
-C The Taking of Dusklight Bridge|QID|30975|M|60.79,80.95;58.78,89.53|N|Drink(click) the barrels for dmg increase buff, If needed, run through the green bubbles for healing.|
+C The Taking of Dusklight Bridge|QID|30975|M|60.79,80.95;58.78,89.53|CS|N|Drink(click) the barrels for dmg increase buff, If needed, run through the green bubbles for healing.|
 T The Taking of Dusklight Bridge|QID|30975|M|61.10,83.05|N|To Taran Zhu.|
 A Joining the Hunt|QID|30976|M|61.08,83.21|N|From Taran Zhu.|
 

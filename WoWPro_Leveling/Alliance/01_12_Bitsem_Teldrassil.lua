@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2013-01-12 19:31
+-- Who: Ludovicus Maior
+-- Log: Added a CN tag
+
+-- URL: http://wow-pro.com/node/3204/revisions/25135/view
 -- Date: 2012-10-09 15:35
 -- Who: Ludovicus Maior
 -- Log: Added trial monk quests.  Coords are not correct.
@@ -233,7 +238,7 @@ T Ferocitas the Dream Eater|QID|2459|M|55.57,50.05|N|To Tallonkai Swiftroot.|
 
 L Level 7|QID|932|LVL|7|N|You should be around level 7 by this point.|
 
-C Nature's Reprisal|QID|13946|S|U|46716|M|53.67,47.05;54.46,46.11;53.31,45.31|N|Use the Ironroot Seeds to kill Grellkin.|
+C Nature's Reprisal|QID|13946|S|U|46716|M|53.67,47.05;54.46,46.11;53.31,45.31|CN|N|Use the Ironroot Seeds to kill Grellkin.|
 R Fel Rock|QID|932|M|54.54,45.86|N|Head into the Fel Rock cave.|
 C Twisted Hatred|QID|932|M|52.95,43.95|N|At the first intersection, head to the right tunnel, then a left at the next intersection. Melenas should be there or right below the ledge. Kill him and loot his head.|
 C Nature's Reprisal|QID|13946|US|U|46716|M|54.46,46.11|N|Finish using the Ironroot Seeds to kill Grellkin.|

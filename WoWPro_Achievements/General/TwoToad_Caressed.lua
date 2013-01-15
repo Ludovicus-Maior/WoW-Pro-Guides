@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2013-01-12 18:26
+-- Who: Ludovicus Maior
+-- Log: Capitalization error on "Valley of the Four Winds"
+
+-- URL: http://wow-pro.com/node/3520/revisions/25322/view
 -- Date: 2013-01-10 04:05
 -- Who: Emmaleah
 -- Log: added additional options for getting the golden water skimmer
@@ -35,10 +40,10 @@ F Dancing Water Skimmer|QID|963500005|M|32,68|Z|Vale of Eternal Blossoms|ACH|635
 F Gilded Moth|QID|963500007|M|69,38|Z|Vale of Eternal Blossoms|ACH|6350;7|T|Gilded Moth|N|/love a Gilded Moth.|
 F Golden Civet|QID|963500008|M|69,23|Z|Vale of Eternal Blossoms|ACH|6350;8|T|Golden Civet|N|/love a Golden Civet.|
 
-F Malayan Quillrat|QID|963500011|M|34,62|Z|Valley of The Four Winds|ACH|6350;11|T|Malayan Quillrat|N|/love a Malayan Quillrat.|
-F Bandicoon|QID|963500002|M|32,53|Z|Valley of The Four Winds|ACH|6350;2|T|Bandicoon|N|/love a Bandicoon.|
-F Marsh Fiddler|QID|963500012|M|41,35|Z|Valley of The Four Winds|ACH|6350;12|T|Marsh Fiddler|N|/love a Marsh Fiddler.|
-F Sifang Otter|QID|963500016|M|64,65|Z|Valley of The Four Winds|ACH|6350;16|T|Sifang Otter|N|/love a Sifang Otter.|
+F Malayan Quillrat|QID|963500011|M|34,62|Z|Valley of the Four Winds|ACH|6350;11|T|Malayan Quillrat|N|/love a Malayan Quillrat.|
+F Bandicoon|QID|963500002|M|32,53|Z|Valley of the Four Winds|ACH|6350;2|T|Bandicoon|N|/love a Bandicoon.|
+F Marsh Fiddler|QID|963500012|M|41,35|Z|Valley of the Four Winds|ACH|6350;12|T|Marsh Fiddler|N|/love a Marsh Fiddler.|
+F Sifang Otter|QID|963500016|M|64,65|Z|Valley of the Four Winds|ACH|6350;16|T|Sifang Otter|N|/love a Sifang Otter.|
 
 F Amethyst Spiderling|QID|963500001|M|81,19|Z|Krasarang Wilds|ACH|6350;1|T|Amethyst Spiderling|N|/love a Amethyst Spiderling.|
 F Luyu Moth|QID|963500010|M|75,7|Z|Krasarang Wilds|ACH|6350;10|T|Luyu Moth|N|/love a Luyu Moth.|

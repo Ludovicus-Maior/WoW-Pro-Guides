@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2013-01-12 20:04
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3217/revisions/24954/view
 -- Date: 2012-02-13 21:44
 -- Who: Crackerhead22
 -- Log: ?
@@ -143,7 +148,7 @@ T A Thousand Stories in the Sand|QID|14201|M|29.64,66.86|N|To Malynea Skyreaver.
 
 A Memories of the Dead|QID|14215|PRE|14201|M|29.64,66.86|N|From Malynea Skyreaver.|
 T Survey the Lakeshore|QID|14202|M|29.71,67.11|N|To Custer Clubnik.|
-C Memories of the Dead|QID|14215|M|36.57,72.50;37.52,74.53|N|Talk to the Spirit of Kalytha then follow the arrow to Archmage Selwyn.|
+C Memories of the Dead|QID|14215|M|36.57,72.50;37.52,74.53|CS|N|Talk to the Spirit of Kalytha then follow the arrow to Archmage Selwyn.|
 T Memories of the Dead|QID|14215|M|37.52,74.53|N|(UI Alert)|
 A Mystery of the Sarcen Stone|QID|14216|PRE|14201|M|37.52,74.53|N|(UI Alert)|
 C Mystery of the Sarcen Stone|QID|14216|M|35.52,75.28|N|Open the Ancient Stone Cask at the bottom of the Lake.|
@@ -155,7 +160,7 @@ A Dozercism|QID|14423|PRE|14209|M|29.73,67.15|N|From Custer Clubnik.|
 C Dozercism|QID|14423|U|49350|M|28.94,66.54|N|Use the Blessed Flaregun by Clubnik's Dozer. Be sure you have the Dozer targeted when the priest appears, or it is hard to target it afterwards.|
 T Dozercism|QID|14423|M|29.62,67.07|N|To Custer Clubnik.|
 
-A Need More Science|QID|14424|M|29.62,67.07;29.39,66.63|N|From Custer Clubnik. Ride the lift to the top of the tower and talk to the goblin for a rocket ride to the Southern Rocketway Terminus.|
+A Need More Science|QID|14424|M|29.62,67.07;29.39,66.63|CS|N|From Custer Clubnik. Ride the lift to the top of the tower and talk to the goblin for a rocket ride to the Southern Rocketway Terminus.|
 F Southern Rocketway Terminus|QID|14424|M|29.47,66.22|N|Go to the top of the tower, talk to the Bilgewater Rocket-jockey and ride the rocket to Southern Rocketway Terminus.|
 T Need More Science|QID|14424|M|50.38,74.25|N|To Assistant Greely.|
 A When Science Attacks|QID|14308|PRE|14424|M|50.38,74.25|N|From Assistant Greely.|
@@ -209,17 +214,17 @@ T Befriending Giants|QID|14377|M|50.39,74.30|N|To Assistant Greely.|
 
 A Azsharite Experiment Number One|QID|14385|PRE|14377|M|50.39,74.30|N|From Assistant Greely.|
 A The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.50,74.75|N|From Hobart Grapplehammer.|
-C The Terrible Tinkers of the Ruined Reaches|QID|14383|S|M|43.49,83.00;40.07,84.43|N|Follow the lit path West, kill gnomes on your way to Bingham Gadgetspring inside the house. Kill him.|
-l Giant-Sized Laxative|QID|14385|PRE|14377|M|43.49,83.00;40.07,84.43|L|49230|N|The Laxative is upstairs in Bingham's house.|
+C The Terrible Tinkers of the Ruined Reaches|QID|14383|S|M|43.49,83.00;40.07,84.43|CS|N|Follow the lit path West, kill gnomes on your way to Bingham Gadgetspring inside the house. Kill him.|
+l Giant-Sized Laxative|QID|14385|PRE|14377|M|43.49,83.00;40.07,84.43|CS|L|49230|N|The Laxative is upstairs in Bingham's house.|
 C Azsharite Experiment Number One|QID|14385|PRE|14377|M|47.8,75.5|N|Attempt to give the laxative to Gormungan.|
-C The Terrible Tinkers of the Ruined Reaches|QID|14383|US|M|43.49,83.00;40.07,84.43|N|Kill the rest of the gnomes needed to finish the quest.|
+C The Terrible Tinkers of the Ruined Reaches|QID|14383|US|M|43.49,83.00;40.07,84.43|CN|N|Kill the rest of the gnomes needed to finish the quest.|
 T Azsharite Experiment Number One|QID|14385|M|50.38,74.29|N|To Assistant Greely.|
 A Azsharite Experiment Number Two|QID|14388|PRE|14385|M|50.38,74.29|N|From Assistant Greely.|
 T The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.51,74.74|N|To Hobart Grapplehammer.|
-C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan.|
+C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan.|
 T Azsharite Experiment Number Two|QID|14388|M|50.39,74.29|N|To Assistant Greely.|
 
-A A Hello to Arms|QID|24458|M|50.53,74.77;51.48,74.32|N|From Hobart Grapplehammer.|
+A A Hello to Arms|QID|24458|M|50.53,74.77;51.48,74.32|CS|N|From Hobart Grapplehammer.|
 F Bilgewater Harbor|QID|24458|M|51.48,74.3|N|Speak with Friz Groundspin for a free airlift.|
 A Operation Fishgut|QID|14478|M|56.99,50.13|N|From the Wrenchmen Recruitment Poster.|
 h Bilgewater Harbor|QID|24458|M|57.02,50.29|N|At Grimy Greasefingers.|
@@ -255,7 +260,7 @@ A Ticker Required|QID|14485|PRE|14487|M|34.44,44.77|N|From Sergeant Zelks.|
 A Handling the Goods|QID|14486|PRE|14487|M|34.52,44.71|N|From Tora Halotrix.|
 C Handling the Goods|QID|14486|U|49629|S|M|35.11,49.95|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|
 C Extermination|QID|14480|U|49629|S|M|33.49,48.16|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|
-C Ticker Required|QID|14485|U|49629|M|34.30,48.21;34.06,51.64|N|Bring Ticker into the ruins and cover him as he sets up bombs at 3 of the Spitelash Runestones. The first one should be respawned by the time you've blown the second one up.|
+C Ticker Required|QID|14485|U|49629|M|34.30,48.21;34.06,51.64|CN|N|Bring Ticker into the ruins and cover him as he sets up bombs at 3 of the Spitelash Runestones. The first one should be respawned by the time you've blown the second one up.|
 C Head of the Snake|QID|14484|U|49649|M|34.44,44.77|N|Kill Lord Kassarus. Pick up the Impaling Spines he throws and throw them back during the fight.|
 C Still Beating Heart|QID|14487|U|49629|M|31.92,50.20|N|Recover the Heart of Arkkoroc from the center of the Ruins of Eldarath.|
 C Handling the Goods|QID|14486|U|49629|US|M|35.11,49.95|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|
@@ -266,7 +271,7 @@ T Ticker Required|QID|14485|M|34.44,44.77|N|To Sergeant Zelks.|
 T Extermination|QID|14480|M|34.44,44.77|N|From Sergeant Zelks.|
 T Handling the Goods|QID|14486|M|34.52,44.71|N|To Tora Halotrix.|
 
-A Shore Leave|QID|24449|PRE|14485|M|34.33,44.88;34.48,44.59|N|From Captain Tork.
+A Shore Leave|QID|24449|PRE|14485|M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.
 T Shore Leave|QID|24449|M|60.59,50.57|N|To Uncle Bedlam. Hop on the Military Gyrocopter when ready to leave.|
 T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec.|
 A Friends Come In All Colors|QID|14130|PRE|14407|M|55.47,52.16|N|From Kalec.|
@@ -302,10 +307,10 @@ C A Pale Brew|QID|14432|US|M|30.27,39.35|N|Gather up 10 samples of Briaroot Brew
 T A Pale Brew|QID|14432|M|42.43,23.61|N|To Haggrum Bloodfist.|
 T Diplomacy by Another Means|QID|14433|M|42.43,23.61|N|To Haggrum Bloodfist.|
 A The Blackmaw Doublecross|QID|14435|M|42.43,23.61|N|From Haggrum Bloodfist.|
-C The Blackmaw Doublecross|QID|14435|U|49368|M|42.65,23.71;32.13,30.41|N|Use Ambassador Disguise, talk to Andorel when you're ready. Speak with Ungarl to wreck the negotiations, then kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out. |
+C The Blackmaw Doublecross|QID|14435|U|49368|M|42.65,23.71;32.13,30.41|CS|N|Use Ambassador Disguise, talk to Andorel when you're ready. Speak with Ungarl to wreck the negotiations, then kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out. |
 T The Blackmaw Doublecross|QID|14435|M|42.39,23.62|N|To Haggrum Bloodfist.|
 A Amberwind's Journal|QID|14428|M|42.59,23.72|N|From Andorel Sunsworn.|
-C Dressed to Impress|QID|14340|NC|U|49201|M|47.76,18.35;47.22,20.83|N|Follow the path up the hill.\nPut on your new wizard hat and then speak to the Image of Archmage Xylem.|
+C Dressed to Impress|QID|14340|NC|U|49201|M|47.76,18.35;47.22,20.83|CS|N|Follow the path up the hill.\nPut on your new wizard hat and then speak to the Image of Archmage Xylem.|
 T Dressed to Impress|QID|14340|M|47.22,20.83|N|To the Image of Archmage Xylem.|
 
 A Renewable Resource|QID|14250|M|47.30,21.16|N|From Tharkul Ironskull.|
@@ -351,7 +356,7 @@ C The Trial of Frost|QID|24478|M|61.98,21.02|N|Go through the Waning Sanity Port
 T The Trial of Frost|QID|24478|M|62.16,21.16|N|Go through the Waning Sanity Portal. To the Image of Archmage Xylem.|
 
 A Xylem's Asylum|QID|14299|M|55.92,12.17|N|From the Image of Archmage Xylem.|
-T Xylem's Asylum|QID|14299|M|56.17,12.11;25.54,38.01|N|To Joanna. Take the portal.|
+T Xylem's Asylum|QID|14299|M|56.17,12.11;25.54,38.01|CS|N|To Joanna. Take the portal.|
 A Wasn't It Obvious?|QID|14389|PRE|14299|M|25.54,38.01|N|From Joanna.|
 C Wasn't It Obvious?|QID|14389|NC|M|27.75,40.81|N|Take the portal behind her. Don't panic.|
 T Wasn't It Obvious?|QID|14389|M|27.79,40.62|N|(UI Alert)|
@@ -393,7 +398,7 @@ A Lightning Strike Assassination|QID|14464|PRE|14462|M|12.55,67.45|N|From Slinky
 C Lightning Strike Assassination|QID|14464|M|11.83,68.25|N|Talk to Slinky Sharpshiv to ascend the tower and assassinate Captain Grunwald. Collect Captain Grunwald's head.|
 T Grounded!|QID|14475|M|14.51,75.56|N|Find Bombardier Captain Smooks at the southernmost night elf tower at Talrendis Point.|
 A Rigged to Blow|QID|14476|PRE|14475|M|14.51,75.56|N|From Bombardier Captain Smooks.|
-C Rigged to Blow|QID|14476|M|14.99,74.22;15.42,73.60;15.63,74.38|N|Arm the three Explosive Charges located around the base of the southern-most tower at Talrendis Point. |
+C Rigged to Blow|QID|14476|M|14.99,74.22;15.42,73.60;15.63,74.38|CS|N|Arm the three Explosive Charges located around the base of the southern-most tower at Talrendis Point. |
 T Rigged to Blow|QID|14476|M|14.55,75.54|N|To Bombardier Captain Smooks.|
 A Push the Button!|QID|14477|PRE|14476|M|14.39,75.63|N|From Bombardier Captain Smooks.|
 C Push the Button!|QID|14477|NC|M|14.39,75.63|N|You get to push THE BUTTON and detonate the explosives!|

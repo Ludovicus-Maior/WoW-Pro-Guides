@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2013-01-12 22:36
+-- Who: Ludovicus Maior
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3229/revisions/25330/view
 -- Date: 2013-01-11 19:51
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -133,7 +138,7 @@ T Worth Its Weight in Gold|QID|26035|M|40.27,49.05|N|To Skuerto.|
 A Wand over Fist|QID|26036|PRE|26035|RANK|1|M|40.27,49.05|N|From Skuerto.|
 T For Southshore|QID|26117|M|39.94,47.73|N|To Commander Amaren.|
 
-C Wand over Fist|QID|26036|M|47.94,79.38;49.03,83.69|N|In the back of the cave. Kill and loot Kor'gresh.|
+C Wand over Fist|QID|26036|M|47.94,79.38;49.03,83.69|CS|N|In the back of the cave. Kill and loot Kor'gresh.|
 T Wand over Fist|QID|26036|M|40.35,48.99|N|To Skuerto.|
 
 A Trelane's Defenses|QID|26037|PRE|26036|RANK|1|M|40.35,48.99|N|From Skuerto.|
@@ -141,7 +146,7 @@ C Trelane's Defenses|QID|26037|M|11.08,71.08|N|Kill Boulderfist Shaman until you
 T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|
 
 A Attack on the Tower|QID|26038|PRE|26037|RANK|1|M|12.95,69.32|N|From Apprentice Kryten.|
-C Attack on the Tower|QID|26038|M|11.32,70.28;11.18,70.02;11.29,71.08|N|Follow the arrow, up the tower and to the chests. Loot them. Kill the ogres that attack you.|
+C Attack on the Tower|QID|26038|M|11.32,70.28;11.18,70.02;11.29,71.08|CS|N|Follow the arrow, up the tower and to the chests. Loot them. Kill the ogres that attack you.|
 
 H Refuge Pointe|QID|26038|NC|M|40.35,49.14|N|Hearth or Run to Refuge Pointe.|
 

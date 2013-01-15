@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2013-01-13 01:24
+-- Who: Ludovicus Maior
+-- Log: Add a CN tag
+
+-- URL: http://wow-pro.com/node/3478/revisions/25357/view
+-- Date: 2013-01-12 18:28
+-- Who: Ludovicus Maior
+-- Log: WoWPro_Dailies: Step C [The Way to His Heart...:11472] in LudoKaluak is missing a CS|CC|CN tag.
+
+-- URL: http://wow-pro.com/node/3478/revisions/25296/view
 -- Date: 2013-01-09 01:49
 -- Who: Ludovicus Maior
 -- Log: Added CN tags.
@@ -18,7 +28,7 @@ return [[
 
 A The Way to His Heart...|QID|11472|PRE|11469|M|24.6,58.86|Z|Howling Fjord|N|From Anuniaqin in Kamagua, Howling Fjord. (L69)|
 l The Way to His Heart...|QID|11472|M|27,71|Z|Howling Fjord|N|Use the net in the pools of Tasty Reef Fish. 10 is what you need.|U|40946|L|34127 10|
-C The Way to His Heart...|QID|11472|M|31,74.8;31.6,74.4;31.6,74.6;|Z|Howling Fjord|N|Now find a reef bull and lure them torwards the shore and the cow by throwing fish at them.|U|34127|
+C The Way to His Heart...|QID|11472|M|31,74.8;31.6,74.4;31.6,74.6|Z|Howling Fjord|CN|N|Now find a reef bull and lure them torwards the shore and the cow by throwing fish at them.|U|34127|
 T The Way to His Heart...|QID|11472|M|24.6,58.86|Z|Howling Fjord|N|To Anuniaq.|
 
 A Planning for the Future|QID|11960|M|48.26,74.35|Z|Dragonblight|N|From Trapper Mau'i, in Moa'ki Harbor, Dragonblight. (L72)|

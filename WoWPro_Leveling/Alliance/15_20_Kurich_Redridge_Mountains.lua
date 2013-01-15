@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2013-01-12 18:47
+-- Who: Ludovicus Maior
+-- Log: WoWPro_Leveling: Step C [Nida's Necklace:26508] in KurRed1520 is missing a CS|CC|CN tag.
+
+-- URL: http://wow-pro.com/node/3215/revisions/25329/view
 -- Date: 2013-01-11 19:50
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -91,7 +96,7 @@ C An Unwelcome Guest|QID|26509|M|17.59,44.80|N|Find and kill Bellygrub. Loot his
 T An Unwelcome Guest|QID|26509|M|21.89,42.82|N|To Martie Jainrose.|
 r Sell junk, Repair/Restock|QID|26509|M|29.57,42.98|N|At Dorin Songblade.|
 A Nida's Necklace|QID|26508|M|28.35,48.72|N|From Shawn.|
-C Nida's Necklace|QID|26508|NC|M|20.43,47.21;35.6,49.6|N|Jump in the water and look for Glinting Mud. It can be anywhere within the 2 waypoints.  Head to the west first, if not there then head east.|
+C Nida's Necklace|QID|26508|NC|M|20.43,47.21;35.6,49.6|CN|N|Jump in the water and look for Glinting Mud. It can be anywhere within the 2 waypoints.  Head to the west first, if not there then head east.|
 C Lake Everstill Clean Up|QID|26511|S|M|37.46,43.48|N|Kill any murloc you see.|
 C We Must Prepare!|QID|26510|NC|M|37.82,42.14|N|Pick up the Gnomecorder on the small isle.|
 C Lake Everstill Clean Up|QID|26511|US|M|37.46,43.48|N|Kill any murloc you see.|

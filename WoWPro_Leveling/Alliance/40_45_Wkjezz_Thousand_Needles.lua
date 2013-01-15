@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2013-01-13 15:09
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3253/revisions/24593/view
 -- Date: 2011-06-25 01:14
 -- Who: Crackerhead22
 -- Log: ! Duplicate A step for qid 25486 - Removed line.
@@ -153,11 +158,11 @@ C With a Little Help...|QID|25661|L|55197|M|88.09,73.92|N|Kill Seadog Fajardo on
 C With a Little Help...|QID|25661|L|55199|M|88.46,77.03|N|Kill Lilly Landlubber on the southern most ship at the wheel (top) and loot her Liver, again using the Rope Ladder to get onto the ship.|
 T With a Little Help...|QID|25661|M|96.84,72.41|N|Climb up the mountains and head to Ajamon Ghostcaller.|
 A Carcass Collection|QID|25672|M|96.84,72.41|N|From Ajamon Ghostcaller.|
-C Carcass Collection|QID|25672|M|84.44,66.41;83.29,82.80;85.50,65.56;72.18,66.28|N|These are from already dead turtles and lizzards. Keep your eyes peeled bot at the surface of the water and on the floor. If you are lucky there is a ring of 5 dead turtles between the Pirates and Speedbarge hub.|
+C Carcass Collection|QID|25672|M|84.44,66.41;83.29,82.80;85.50,65.56;72.18,66.28|CN|N|These are from already dead turtles and lizards. Keep your eyes peeled bot at the surface of the water and on the floor. If you are lucky there is a ring of 5 dead turtles between the Pirates and Speedbarge hub.|
 T Carcass Collection|QID|25672|M|96.81,72.36|N|To Ajamon Ghostcaller.|
 A The Mad Magus|QID|25704|M|96.81,72.36|N|From Ajamon Ghostcaller.|
 C The Mad Magus|QID|25704|U|55230|M|85.01,91.28|N|Click on the big swirling portal. Then kill Mad Magus Tirth and use the Soul Stick on his corpse.|
-T The Mad Magus|QID|25704|M|86.28,92.10;96.80,72.34|N|To Ajamon Ghostcaller, remember to use the portal to get back.|
+T The Mad Magus|QID|25704|M|86.28,92.10;96.80,72.34|CC|N|To Ajamon Ghostcaller, remember to use the portal to get back.|
 C Fool's Gold|QID|25774|S|M|48.05,42.85|N|Very, very big gold ore nodes. Head into the cave and collect 8 (under water).|
 C The Ancient Brazier|QID|25762|U|55986|M|43.93,37.52|N|This quest is tricky. This is actually in an UNDERWATER cave. Once you enter the cave follow the left path all the way around until you find the brazier. (The co-ords point to the cave mouth).|
 C Fool's Gold|QID|25774|US|M|48.05,42.85|N|Very, very big gold ore nodes. Head into the cave and collect 8 (under water).|
@@ -267,12 +272,12 @@ T Free the Pridelings|QID|28086|M|12.83,34.05|N|To Pao'ka Swiftmountain.|
 T Death to all Trappers!|QID|28087|M|12.83,34.05|N|To Pao'ka Swiftmountain.|
 
 A Release Heartrazor|QID|28088|M|12.83,34.05|N|From Pao'ka Swiftmountain.|
-C Release Heartrazor|QID|28088|M|17.65,41.08;13.17,39.29|N|Head up the narrow path. Kill the 4 subduers surrounding Heartrazor.|
+C Release Heartrazor|QID|28088|M|17.65,41.08;13.17,39.29|CC|N|Head up the narrow path. Kill the 4 subduers surrounding Heartrazor.|
 T Release Heartrazor|QID|28088|M|12.87,33.97|N|To Pao'ka Swiftmountain.|
 A The Twilight Skymaster|QID|28098|M|12.87,33.97|N|From Pao'ka Swiftmountain.|
 C The Twilight Skymaster|NC|QID|28098|M|12.87,33.97|N|Board Heartrazor|QO|Get a flight from Heartrazor: 1/1|
 C The Twilight Skymaster|QID|28098|M|19.00,48.02|N|Kill Twilight Skymaster Richtofen|
-T The Twilight Skymaster|QID|28098|M|16.02,45.76;12.83,34.00|N|Head back to Heartrazer for a lift back to Pao'ka Swiftmountain.|
+T The Twilight Skymaster|QID|28098|M|16.02,45.76;12.83,34.00|CC|N|Head back to Heartrazer for a lift back to Pao'ka Swiftmountain.|
 A On to the Bulwark|QID|28124|M|12.83,34.00|N|From Pao'ka Swiftmountain.|
 T On to the Bulwark|QID|28124|M|30.38,49.27|N|To Lakota Windsong.|U|55121|
 

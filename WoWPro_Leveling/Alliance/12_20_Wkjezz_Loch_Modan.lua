@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2013-01-12 19:26
+-- Who: Ludovicus Maior
+-- Log: Added CS tags
+
+-- URL: http://wow-pro.com/node/3216/revisions/24717/view
 -- Date: 2011-08-07 23:49
 -- Who: Ludovicus Maior
 -- Log: Corrected coords on [Stormpike's Orders]
@@ -114,7 +119,7 @@ T In Defense of the King's Lands|QID|26146|M|23.41,75.00|N|To Captain Rugelfuss.
 A A Decisive Strike|QID|26148|M|23.37,75.01|N|From Captain Rugelfuss.|
 A Bigger and Uglier|QID|26147|M|23.40,75.02|N|From Mountaineer Wallbang.|
 C Bigger and Uglier|QID|26147|M|35.04,59.37|S|N|Kill Stonesplinter Shamans and Bonesnappers.|
-C A Decisive Strike|QID|26148|M|33.08,70.65;35.36,65.18;35.64,62.25;33.86,62.19;35.60,61.10|N|Kill Grawmug, who is in the rear of the cave.|
+C A Decisive Strike|QID|26148|M|33.08,70.65;35.36,65.18;35.64,62.25;33.86,62.19;35.60,61.10|CS|N|Kill Grawmug, who is in the rear of the cave.|
 C Bigger and Uglier|QID|26147|M|35.04,59.37|US|N|Finish killing the Stonesplinters needed.|
 T A Decisive Strike|QID|26148|M|23.40,75.01|N|To Captain Rugelfuss.|
 A Onward to Thelsamar|QID|26176|M|23.37,75.01|N|From Captain Rugelfuss.|
@@ -273,7 +278,7 @@ C Servants of Cho'gall|QID|27075|M|70.91,23.24|US|N|Kill 7 Mo'Grosh Ogres.|
 T Servants of Cho'gall|QID|27075|M|64.05,26.83|N|To Ashlan Stonesmirk.|
 T Clutching at Chaos|QID|27077|M|64.05,26.83|N|To Ashlan Stonesmirk.|
 A Gor'kresh|QID|27078|M|64.05,26.83|N|From Ashlan Stonesmirk.|
-C Gor'kresh|QID|27078|M|74.82,19.81;79.80,14.90|N|Head to the back of the cave, and kill Gor'kresh.|
+C Gor'kresh|QID|27078|M|74.82,19.81;79.80,14.90|CS|N|Head to the back of the cave, and kill Gor'kresh.|
 T Gor'kresh|QID|27078|M|64.17,26.83|N|To Ashlan Stonesmirk.|
 A Ando's Call|QID|27115|M|64.17,26.83|N|From Ashlan Stonesmirk.|
 T Ando's Call|QID|27115|M|58.57,29.07|N|To Ando Blastenheimer.|

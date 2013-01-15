@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2013-01-12 20:37
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3206/revisions/25134/view
 -- Date: 2012-10-09 00:40
 -- Who: Ludovicus Maior
 -- Log: Add Monk Starter quests
@@ -188,7 +193,7 @@ T The Emitter|QID|9312|M|79.5,51.4|N|To Technician Zhanaa.|
 A Travel to Azure Watch|QID|9313|M|79.5,51.4|N|From Technician Zhanaa.|
 r Sell junk and repair|QID|9452|N|At Mura.|M|79.19,50.93|
 
-A Word from Azure Watch |QID|9314|M|69,54;64.5,54.0|N|From Aeun.|
+A Word from Azure Watch |QID|9314|M|69,54;64.5,54.0|CC|N|From Aeun.|
 A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|From Diktynna.|
 C Red Snapper - Very Tasty!|N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an Angry Murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.|QID|9452|U|23654|M|62.31,55.11|
 T Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|To Diktynna.|
@@ -288,7 +293,7 @@ C Nightstalker Clean Up, Isle 2...|N|Kill Infected Nightstalkers.|QID|9456|M|30.
 T Totem of Vark|QID|9542|M|28.11,62.44|N|To the Totem of Vark.|
 A The Prophecy of Akida|QID|9544|M|28.1,62.4|N|From the Totem of Vark.|
 C The Prophecy of Akida|N|Kill Bristlelimb Furbolgs in the camp and get the keys off them. Use them to unlock 8 cages.|QID|9544|M|28.5,66.4|
-C Warlord Sriss'tiz|QID|9515|N|Head to a cave in Wrathscale Point. Drop down the hole just inside the cave, then kill Warlord Sriss'Tiz.|M|27,77;26.34,73.90;25.12,74.19|
+C Warlord Sriss'tiz|QID|9515|N|Head to a cave in Wrathscale Point. Drop down the hole just inside the cave, then kill Warlord Sriss'Tiz.|M|27,77;26.34,73.90;25.12,74.19|CS|
 
 C Tree's Company|N|Fight your way out of the cavern then go far southwest to a Naga Flag. Use your Tree Disguise Kit and wait for the complete message.|QID|9531|U|23792|M|18.48,84.33|
 A A Cry For Help|N|On the northern side of the island, behind a fallen tree. From Magwin.|QID|9528|M|13.61,73.26|
@@ -323,7 +328,7 @@ C Beasts of the Apocalypse!|QID|9560|N|Kill and loot Ravagers at the Menagerie W
 T Beasts of the Apocalypse!|QID|9560|M|44.8,23.9|N|To Moordo.|
 A Search Stillpine Hold|QID|9565|M|46.7,20.6|N|From High Chief Stillpine.|
 A Chieftain Oomooroo|QID|9573|M|46.9,21.2|N|From Stillpine the Younger.|
-C Chieftain Oomooroo|QID|9573|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|M|45.39,18.06;47.43,14.18|
+C Chieftain Oomooroo|QID|9573|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|M|45.39,18.06;47.43,14.18|CS|
 T Chieftain Oomooroo|QID|9573|M|46.9,21.2|N|To Stillpine the Younger.|
 A The Kurken is Lurkin'|QID|9570|M|47.0,22.3|N|From Kurz the Revelator.|
 C The Kurken is Lurkin'|QID|9570|N|Go back into Stillpine Hold, this time to the left. Kill the Kurken and loot its hide.|M|49.78,12.95|
@@ -335,7 +340,7 @@ A The Kurken's Hide|QID|9571|M|47.0,22.3|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|N|From High Chief Stillpine.|M|46.7,20.6|
 T The Kurken's Hide|QID|9571|M|44.8,23.9|N|To Moordo.|
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|S|
-K Murgurgula|QID|9564|N|Look for the boss murloc named Murgurgula. Kill it and loot Gurf's Dignity from him.|M|35,13;33.45,27.04|L|23850|T|Murgurgula|
+K Murgurgula|QID|9564|N|Look for the boss murloc named Murgurgula. Kill it and loot Gurf's Dignity from him.|M|35,13;33.45,27.04|CN|L|23850|T|Murgurgula|
 A Gurf's Dignity|QID|9564|U|23850|M|33.8,25.7|N|From Gurf's Dignity.|
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|US|
 T Murlocs... Why Here? Why Now?|QID|9562|N|To Gurf.|M|44.7,23.6|

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2013-01-13 14:33
+-- Who: Ludovicus Maior
+-- Log: Added a CS tag
+
+-- URL: http://wow-pro.com/node/3200/revisions/25359/view
+-- Date: 2013-01-12 18:36
+-- Who: Ludovicus Maior
+-- Log: Added some CS and CN tags
+
+-- URL: http://wow-pro.com/node/3200/revisions/25136/view
 -- Date: 2012-10-09 23:22
 -- Who: Ludovicus Maior
 -- Log: Added Monk quests and got rid of extra spaces and spell corrections.
@@ -249,7 +259,7 @@ C Dwarven Artifacts |S|QID|24477|N|Scattered on the ground, they look like littl
 l Cask of Gnomenbrau|QID|24474|L|49746|M|37.05,67.51|N|Pick up the Cask of Gnomenbrau.|
 l Cask of Stormhammer Stout|QID|24474|L|49744|M|34.85,67.45|N|Pick up the Cask of Stormhammer Stout.|
 l Cask of Theramore Pale Ale|QID|24474|L|49745|M|31.50,67.69|N|Pick up the Cask of Theramore Pale Ale.|
-C First Things First: We're Gonna Need Some Beer|QID|24474|M|37.05,67.51;34.85,67.45;31.50,67.69|N|Finally get the Cask of Gnomenbrau, the Cask of Stormhammer Stout and the Cask of Theramore Pale Ale.|NC|
+C First Things First: We're Gonna Need Some Beer|QID|24474|M|37.05,67.51;34.85,67.45;31.50,67.69|CN|N|Finally get the Cask of Gnomenbrau, the Cask of Stormhammer Stout and the Cask of Theramore Pale Ale.|NC|
 C Dwarven Artifacts |US|QID|24477|M|33.13,68.08|N|Scattered on the ground, they look like little piles of snow.|NC|
 
 T Dwarven Artifacts |QID|24477|M|35.70,66.27|N|To Grundel Harkin.|
@@ -341,8 +351,8 @@ T Trolling for Information |QID|24489|M|32.07,74.34|N|To Apprentice Soren.|
 T The Troll Menace |QID|182|M|32.07,74.25|N|To Grelin Whitebeard.|
 A Ice and Fire |PRE|24489|QID|218|M|32.07,74.25|N|From Grelin Whitebeard.|
 T A Refugee's Quandary |QID|3361|M|31.93,74.38|N|To Felix Whindlebolt.|
-C Ice and Fire |S|QID|218|M|33.78,78.20;33.68,77.99|N|Enter the cave, keeping to the left as you go throught it, killing Grik'nir's Servants as you go.|QO|Grik'nir's Servant slain: 10/10|
-K Wayward Fire Elemental |QID|218|M|33.79,78.34;36.76,78.29|T|Wayward Fire Elemental|QO|Wayward Fire Elemental slain: 1/1|N|Kill the Wayward Fire Elemental.|
+C Ice and Fire |S|QID|218|M|33.78,78.20;33.68,77.99|N|Enter the cave, keeping to the left as you go throught it, killing Grik'nir's Servants as you go.|CS|QO|Grik'nir's Servant slain: 10/10|
+K Wayward Fire Elemental |QID|218|M|33.79,78.34;36.76,78.29|CS|T|Wayward Fire Elemental|QO|Wayward Fire Elemental slain: 1/1|N|Kill the Wayward Fire Elemental.|
 K Grik'nir the Cold |QID|218|M|37.66,78.48|T|Grik'nir the Cold|QO|Grik'nir the Cold slain: 1/1|N|Kill Grik'nir the Cold.|
 C Ice and Fire |US|QID|218|M|33.31,77.83|N|Make your way out of the cave, killing any Grik'nir's Servants you still need.|QO|Grik'nir's Servant slain: 10/10|
 
@@ -359,7 +369,7 @@ A Don't Forget About Us |PRE|24491|QID|24493|M|35.61,66.23|N|From Jona Ironstock
 l Ragged Wolf-Hide Cloak|QID|24492|M|35.81,64.55|N|Pick up the Wolf-Hide Cloaks, box in the back room at the top of the stairs.|QO|Ragged Wolf-Hide Cloak: 1/1|
 l Coldridge Beer Flagon|QID|24492|M|35.50,65.13|N|Pick up the Coldridge Beer Flagon, in the corner to the side of the bar.|QO|Coldridge Beer Flagon: 1/1|
 l Leftover Boar Meat|QID|24492|M|35.41,66.00|N|Pick up the Leftover Boar Meat, back in the main room, on the table to your right.|QO|Leftover Boar Meat: 1/1|
-C Pack Your Bags |QID|24492|M|35.81,64.55;35.50,65.13;35.41,66.00|N|Pick up the Ragged Wolf-Hide Cloak, Coldridge Beer Flagon and Leftover Boar Meat from inside Anvilmar.|
+C Pack Your Bags |QID|24492|M|35.81,64.55;35.50,65.13;35.41,66.00|CN|N|Pick up the Ragged Wolf-Hide Cloak, Coldridge Beer Flagon and Leftover Boar Meat from inside Anvilmar.|
 T Pack Your Bags |QID|24492|M|37.37,70.55|N|To Milo Geartwinge.|
 F Kharanos |QID|24493|N|On handing the quest Pack Your Bags, you should be whisked on a gyro-copter to Kharanos.|
 T Don't Forget About Us |QID|24493|M|53.16,49.98|N|To Tharek Blackstone.|

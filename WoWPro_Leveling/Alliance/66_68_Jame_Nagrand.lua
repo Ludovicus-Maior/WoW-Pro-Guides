@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2013-01-13 01:20
+-- Who: Ludovicus Maior
+-- Log: Lots of CN tags and a CS tag
+
+-- URL: http://wow-pro.com/node/3279/revisions/25335/view
 -- Date: 2013-01-11 20:04
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -282,15 +287,15 @@ C Wanted: Zorbo the Advisor|N|Kill Warmaul Shamans and Reavers in the area.|QID|
 C Returning the Favor|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest. |QID|9931|M|50.00,22.00|U|25555|US|
 
 N Ring of Blood|N|Look for a group for Ring of Blood quests if you wish. Some people can solo most if not all of this depending on level/class/spec/gear. Most will probably will still need help.|
-K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye.|T|Gutripper|L|24513|S|
-l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|L|28667|
-K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|N|Kill Gutripper and loot his eye. He wanders around where the waypoints are.|T|Gutripper|L|24513|US|
+K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|CN|N|Kill Gutripper and loot his eye.|T|Gutripper|L|24513|S|
+l Flawless Greater Windroc Beak|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|CN|L|28667|
+K Gutripper|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|CN|N|Kill Gutripper and loot his eye. He wanders around where the waypoints are.|T|Gutripper|L|24513|US|
 l Mountain Gronn Eyeball|QID|10252|N|Kill the Mountain Gronn on this path and loot the eyeball.|L|28665|M|30.00,32.00|T|Mountain Gronn|
 C The Ravaged Caravan|N|Get the crates needed for this quest.|QID|9956|M|27.00,23.00|S|
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|S|
 T Corki's Ransom|QID|9954|M|27.00,23.00|N|Go in the cave here, go to the back of the cave and find Corki. Turn the quest in, be careful of the elite.|
 A Cho'war the Pillager|QID|9955|M|27.00,23.00|N|From Corki.|
-K Cho'war the Pillager|N|Go through the cave and kill Cho'war.|QID|9955|M|27.17,18.68;27.00,11.00|L|25648|
+K Cho'war the Pillager|N|Go through the cave and kill Cho'war.|QID|9955|M|27.17,18.68;27.00,11.00|CS|L|25648|
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|US|
 C Gurok the Usurper|N|Use the skulls at the pulsating purple circle. Kill Gurok then loot him. He has a nasty knock back, so don't have your back towards the cliff.|QID|9853|M|29.00,25.00|U|24502|
 C Cho'war the Pillager |QID|9955|M|27.00,23.00|N|Go in the cave here, go to the back of the cave and find Corki. Right click on the cage to let the moron out.|
@@ -322,7 +327,7 @@ A The Ultimate Bloodsport |QID|9852|N|From Hemet Nesingwary.|M|71.52,40.79|
 T Gurok the Usurper |QID|9853|N|To Gordawg.|M|61.8,24.4|
 
 C The Ultimate Bloodsport |N|Kill and loot Tusker.|QID|9852|M|44.28,65.6|
-C Wanted: Durn the Hungerer|N|Kill Durn the Hungerer, he wanders around Oshu'gun.|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|T|Durn the Hungerer|
+C Wanted: Durn the Hungerer|N|Kill Durn the Hungerer, he wanders around Oshu'gun.|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|CN|T|Durn the Hungerer|
 T Wanted: Durn the Hungerer|QID|9938|N|To Waden Moi'bff Jill.|M|54.8,71.0|
 T Message to Telaar |QID|9933|M|55.5,68.8|N|To Arechron.|
 T The Ultimate Bloodsport|QID|9852|N|To Hemet Nesingwary.|M|71.52,40.79|

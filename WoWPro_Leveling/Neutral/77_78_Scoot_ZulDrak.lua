@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2013-01-13 16:24
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3295/revisions/25381/view
+-- Date: 2013-01-12 20:43
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates
+
+-- URL: http://wow-pro.com/node/3295/revisions/25311/view
 -- Date: 2013-01-09 22:37
 -- Who: Ludovicus Maior
 -- Log: Added CN and CS tags
@@ -392,9 +402,9 @@ C Foundation for Revenge |QID|12668|N|The Soul Fonts look like big dragon heads.
 T Foundation for Revenge |QID|12668|M|75.4,58.6|N|To Quetz'lun's Spirit.|
 
 A Hell Hath a Fury |QID|12674|M|75.4,58.6|N|From Quetz'lun's Spirit.|
-C Hell Hath a Fury |QID|12674|QO|High Priest Mu'funu hexed at death: 1/1|U|39158|N|Use the hex stick on the priests, then give them a beat down. Mu'funu is down the stairs to the right|M|74.55,57.37|
+C Hell Hath a Fury |QID|12674|QO|High Priest Mu'funu hexed at death: 1/1|U|39158|N|Use the hex stick on the priests, then give them a beat down. Mu'funu is down the stairs to the right|M|74.55,57.37|CS|
 C Hell Hath a Fury |QID|12674|QO|High Priestess Tua-Tua hexed at death: 1/1|U|39158|N|Tua-Tua is to the South.|M|73.94,60.16|
-C Hell Hath a Fury |QID|12674|U|39158|N|Hawinni patrols the North side of the same tier. He's a big, hulking SOB.|M|75,54;78,54|
+C Hell Hath a Fury |QID|12674|U|39158|N|Hawinni patrols the North side of the same tier. He's a big, hulking SOB.|M|75,54;78,54|CN|
 T Hell Hath a Fury |QID|12674|M|75.4,58.6|N|To Quetz'lun's Spirit.|
 A One Last Thing |QID|12675|M|75.4,58.6|N|From Quetz'lun's Spirit.|
 T One Last Thing |QID|12675|N|Back to Har'koa|M|63.73,70.44|N|To Har'koa.|

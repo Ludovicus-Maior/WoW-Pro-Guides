@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2013-01-13 14:47
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3249/revisions/25333/view
 -- Date: 2013-01-11 19:57
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -51,9 +56,9 @@ A Maliciously Delicious|QID|27587|M|73.07,14.74|N|From Trade Baron Silversnap.|
 f Bogpaddle|QID|27587|M|72.09,12.05|N|At Skeezie.|
 h Bogpaddle|QID|27587|M|71.75,13.98|N|At Cap'n Geech.|
 A Drinks on the Rocks|QID|27592|M|73.58,9.36|N|From Brono Goodgroove.|
-C Drinks on the Rocks|QID|27592|M|86.32,14.40;73.08,4.86|N|Kill and loot Silt Crawlers.|S|
-C Maliciously Delicious|QID|27587|U|62795|M|86.32,14.40;73.08,4.86|N|Should find the makuras you need to kill and loot between these two points.|
-C Drinks on the Rocks|QID|27592|M|86.32,14.40;73.08,4.86|N|Kill and loot Silt Crawlers.|US|
+C Drinks on the Rocks|QID|27592|M|86.32,14.40;73.08,4.86|CN|N|Kill and loot Silt Crawlers.|S|
+C Maliciously Delicious|QID|27587|U|62795|M|86.32,14.40;73.08,4.86|CN|N|Should find the makuras you need to kill and loot between these two points.|
+C Drinks on the Rocks|QID|27592|M|86.32,14.40;73.08,4.86|CN|N|Kill and loot Silt Crawlers.|US|
 T Drinks on the Rocks|QID|27592|M|73.75,9.03|N|To Brono Goodgroove.|
 T Maliciously Delicious|QID|27587|M|73.08,14.64|N|To Trade Baron Silversnap. After turning in this quest, you can grab more swim tonics from Trade Baron Silversnap.|
 
@@ -70,7 +75,7 @@ T Mostly Harmless|QID|27536|M|73.02,14.67|N|To Trade Baron Silversnap.|
 T Croc-Out|QID|27656|M|73.02,14.67|N|To Trade Baron Silversnap.|
 A Crazy Larry|QID|27597|M|73.02,14.67|N|From Trade Baron Silversnap.|
 
-R Sorrowmurk|QID|27597|M|72.02,19.39;76.69,31.8;82.99,39.25|N|Grab some more "Silversnap Swim Potions" from Trade Baron Silversnap, then run to Sorrowmurk.|
+R Sorrowmurk|QID|27597|M|72.02,19.39;76.69,31.8;82.99,39.25|CC|N|Grab some more "Silversnap Swim Potions" from Trade Baron Silversnap, then run to Sorrowmurk.|
 T Crazy Larry|QID|27597|M|83.86,39.98|N|To Crazy Larry.|
 A Kill Gil|QID|27598|M|83.86,39.98|N|From Crazy Larry.|
 A Can't Take It With Them|QID|27599|M|83.86,39.98|
@@ -89,11 +94,11 @@ A Marshfin Madness|QID|27691|M|69.12,76.20|N|From Baba Bogbrew.|
 C Marshfin Madness|QID|27691|M|81.57,88.82|N|Kill any Murloc you see.|
 T Marshfin Madness|QID|27691|M|69.18,76.35|N|To Baba Bogbrew.|
 A The Darkest Depths|QID|27757|M|69.18,76.35|N|From Baba Bogbrew.|
-C The Darkest Depths|QID|27757|M|66.61,74.55;65.69,79.38;64.34,80.39;63.45,83.23;64.55,88.19;63.26,85.56|N|Follow the waypoints to Hr'ngith.|
+C The Darkest Depths|QID|27757|M|66.61,74.55;65.69,79.38;64.34,80.39;63.45,83.23;64.55,88.19;63.26,85.56|CS|N|Follow the waypoints to Hr'ngith.|
 T The Darkest Depths|QID|27757|M|69.08,76.43|N|To Baba Bogbrew.|
 
 A Slithering Signs|QID|27818|M|69.08,76.43|N|From Baba Bogbrew.|
-C Slithering Signs|QID|27818|M|74.08,83.40;79.34,61.87|N|Head south from the camp to kill the serpents you need. If you don't get all the hearts you need there, head north to that waypoint.|
+C Slithering Signs|QID|27818|M|74.08,83.40;79.34,61.87|CN|N|Head south from the camp to kill the serpents you need. If you don't get all the hearts you need there, head north to that waypoint.|
 T Slithering Signs|QID|27818|M|69.13,76.35|N|To Baba Bogbrew.|
 A The Dragon and the Temple|QID|27869|M|69.13,76.35|N|From Baba Bogbrew.|
 T The Dragon and the Temple|QID|27869|M|69.45,54.67|N|To Lord Itharius.|
@@ -105,21 +110,21 @@ A Legends of the Sunken Temple|QID|27704|M|53.99,79.65|N|From Lord Itharius.|
 C Legends of the Sunken Temple|QID|27704|NC|M|73.97,44.38|N|Just keep going the only way you can. You will eventually end up in the Hall of Masks.|
 T Legends of the Sunken Temple|QID|27704|M|73.97,44.38|N|(UI Alert)|
 A Step One: The Priestess|QID|27705|M|73.97,44.38|N|(UI Alert)|
-C Step One: The Priestess|QID|27705|M|74.86,47.09;72.65,48.43;73.04,46.29|N|Follow the waypoints to find the room where Priestess Udum'bra is.|
+C Step One: The Priestess|QID|27705|M|74.86,47.09;72.65,48.43;73.04,46.29|CS|N|Follow the waypoints to find the room where Priestess Udum'bra is.|
 T Step One: The Priestess|QID|27705|M|74.73,49.25|N|(UI Alert)|
 A Step Two: The Bloodletter|QID|27768|M|74.73,49.25|N|(UI Alert)|
-C Step Two: The Bloodletter|QID|27768|M|73.04,46.29;74.85,46.99;77.19,47.94;77.53,46.17|N|Follow the waypoints to find the room where Gomora the Bloodletter is.|
+C Step Two: The Bloodletter|QID|27768|M|73.04,46.29;74.85,46.99;77.19,47.94;77.53,46.17|CS|N|Follow the waypoints to find the room where Gomora the Bloodletter is.|
 T Step Two: The Bloodletter|QID|27768|M|77.53,46.17|N|(UI Alert)|
 A Step Three: Prophet|QID|27773|M|77.53,46.17|N|(UI Alert)|
 
-R Hall of Bones|QID|27773|M|77.2,47.87;76.43,49.45;79.02,50.48;80.12,43.91;77.68,42.98|N|Follow the waypoints to the Hall of Bones.|
+R Hall of Bones|QID|27773|M|77.2,47.87;76.43,49.45;79.02,50.48;80.12,43.91;77.68,42.98|CS|N|Follow the waypoints to the Hall of Bones.|
 C Step Three: Prophet|QID|27773|M|76.64,41.61|N|Jump down one level at a time to get to Jammal'an.|
 T Step Three: Prophet|QID|27773|M|76.64,41.61|N|(UI Alert)|
 A Blessing of the Green Dragonflight|QID|27914|M|76.64,41.61|N|(UI Alert)|
 T Blessing of the Green Dragonflight|QID|27914|M|69.45,54.67|N|To Lord Itharius.|
 A The Heart of the Temple|QID|27915|O|M|69.45,54.67|N|This quest takes you into the instance of the Sunken Temple. Do it if you wish, if not just skip it.|
 A To Marshtide Watch|QID|27870|M|69.45,54.67|N|From Lord Itharius.|
-R Marshtide Watch|QID|27870|M|66.02,44.06;65.91,39.3|N|Run to Marshtide Watch.|
+R Marshtide Watch|QID|27870|M|66.02,44.06;65.91,39.3|CC|N|Run to Marshtide Watch.|
 T To Marshtide Watch|QID|27870|M|68.04,36.39|N|To Joanna Blueheart.|
 A Orcs and Humans|QID|27821|M|68.04,36.39|N|From Joanna Blueheart.|
 A Lumbering Oafs|QID|27822|M|68.04,36.39|N|From Joanna Blueheart.|
@@ -178,7 +183,7 @@ A Breath of Mist|QID|27904|M|26.97,33.78|N|From Anchorite Avuun.|
 
 R Misty Valley|QID|27904|M|23.65,45.3;21.32,42.58|CC|N|Run to Misty Valley.|
 C Breath of Mist|QID|27904|M|17.49,36.51|N|Kill any Grell that you see prancing about.|
-R Purespring Cavern|QID|27902|M|25.87,55.06;22.13,56.43|N|Be careful as you go by Splinterspear Junction.|
+R Purespring Cavern|QID|27902|M|25.87,55.06;22.13,56.43|CS|N|Be careful as you go by Splinterspear Junction.|
 C The Purespring|QID|27902|M|18.75,59.67|
 H The Harborage|QID|27902|N|Hearth to The Harborage or run if your hearth is down.|
 T The Purespring|QID|27902|M|27.00,33.74|N|To Anchorite Avuun.|
@@ -189,8 +194,8 @@ T Remember the Light|QID|24913|M|26.89,33.76|N|To Anchorite Avuun.|
 F Stormwind City|QID|27919|M|30.69,34.69|N|Fly to Stormwind to visit your trainers, the AH, sell junk and repair/restock.|
 
 H The Harborage|QID|27919|N|Hearth back to The Harborage, or fly from Stormwind if your hearth isn't up.|
-R Blasted Lands|QID|28673|M|37.28,63.62;36.12,73.12|N|Run to the Blasted Lands.|
-R Nethergarde Keep|QID|28673|M|49.05,7.51;49.08,11.69;51.14,14.06;53,16;57.26,16.29|Z|Blasted Lands|N|Run to Nethergarde Keep.|
+R Blasted Lands|QID|28673|M|37.28,63.62;36.12,73.12|CC|N|Run to the Blasted Lands.|
+R Nethergarde Keep|QID|28673|M|49.05,7.51;49.08,11.69;51.14,14.06;53,16;57.26,16.29|Z|Blasted Lands|CC|N|Run to Nethergarde Keep.|
 
 ]]
 

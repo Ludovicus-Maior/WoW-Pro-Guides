@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2013-01-12 21:01
+-- Who: Emmaleah
+-- Log: fixes for multi coordinates - also changed Z Tag for underbelly to 4395 (it's map number) need to see if that fixes invalid Z tag error
+
+-- URL: http://wow-pro.com/node/3299/revisions/25338/view
 -- Date: 2013-01-11 20:32
 -- Who: Emmaleah
 -- Log: fix syntax for multi coordinates
@@ -41,7 +46,7 @@ return [[
 
 N READ THIS!|QID|12818|N|This guide picks up only non-group, non-instance quests.|
 
-A Luxurious Getaway!|QID|12853|N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips & Crows" down in the sewers.|Z|The Underbelly|M|31.23,49.63|
+A Luxurious Getaway!|QID|12853|N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips & Crows" down in the sewers.|Z|4395|M|31.23,49.63|
 R The Storm Peaks|QID|12818|N|Head on over to Storm Peaks.|M|40.5,85.6|
 T Luxurious Getaway!|QID|12853|N|To Jeer Sparksocket.|M|41.0,86.4|
 A Clean Up|QID|12818|N|From Jeer Sparksockt.|M|41.0,86.4|
@@ -366,7 +371,7 @@ T Facing the Storm|QID|12978|N|To Bruor Ironbane.|M|31.2,38.1|
 T Armor of Darkness|QID|12979|N|To Bruor Ironbane.|M|31.2,38.1|
 A The Armor's Secrets|QID|12980|N|From Bruor Ironbane.|M|31.2,38.1|
 T The Gifts of Loken|QID|12965|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
-C The Armor's Secrets|QID|12980|N|Fly out and around to Mimir's Workshop. Tock is inside.  Talk to him.|M|33.78,39.34;32.03,40.73|
+C The Armor's Secrets|QID|12980|N|Fly out and around to Mimir's Workshop. Tock is inside.  Talk to him.|M|33.78,39.34;32.03,40.73|CS|
 T The Armor's Secrets|QID|12980|N|To Bruor Ironbane.|M|31.2,38.1|
 A Valduran the Stormborn|QID|12984|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
 C Valduran the Stormborn|QID|12984|N|Enter the building and use Bouldercrag's War Horn and then help defeat Valduran the Stormborn.|M|24.2,52.1|U|42419|

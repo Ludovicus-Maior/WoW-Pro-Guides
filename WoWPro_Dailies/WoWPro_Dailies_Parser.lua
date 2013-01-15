@@ -153,6 +153,10 @@ local function ParseQuests(...)
 
 			if class == nil or class:find(myclass) then if race == nil or race:find(myrace) then if gender == nil or gender == UnitSex("player") then if faction == nil or faction == strupper(UnitFactionGroup("player")) then
     			_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
+    			if (not WoWPro.action[i]) or (not WoWPro.step[i]) then
+    			    WoWPro.Dailies:Error("Line %d in guide %s is badly formatted: \"%s\"\nParsing Halted.",i,WoWProDB.char.currentguide,text)
+    			    return
+    			end
     			WoWPro.step[i] = WoWPro.step[i]:trim()
     			WoWPro.stepcount = WoWPro.stepcount + 1
     			WoWPro.QID[i] = text:match("|QID|([^|]*)|?")
@@ -176,7 +180,7 @@ local function ParseQuests(...)
 					else
 					    WoWPro.waypcomplete[i] = false
 					    if WoWPro.map[i]:find(";") then
-					        WoWPro.Leveling:Print("Step %s [%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],WoWProDB.char.currentguide)
+					        WoWPro.Dailies:Warning("Step %s [%s:%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
 					    end
 					end
 				end

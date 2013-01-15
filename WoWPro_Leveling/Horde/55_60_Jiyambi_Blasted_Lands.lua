@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2013-01-13 23:52
+-- Who: Ludovicus Maior
+-- Log: Added CC tag
+
+-- URL: http://wow-pro.com/node/3268/revisions/25472/view
+-- Date: 2013-01-13 19:27
+-- Who: Ludovicus Maior
+-- Log: Added C* tags
+
+-- URL: http://wow-pro.com/node/3268/revisions/24863/view
 -- Date: 2011-12-12 20:14
 -- Who: Crackerhead22
 -- Log: Added missing notes, added a few QO steps...?
@@ -58,7 +68,7 @@ A That's Not Us|QID|25680|PRE|25679|M|62.17,1.43|N|From Tak'arili.|
 C That's Not Us|QID|25680|M|65.23,8.90|N|Head down the tunnel. The terrified miners won't attack you, so you can walk right past them! Kill the demon at the end.|
 T That's Not Us|QID|25680|M|62.21,1.48|N|To Tak'arili.|
 A Some People Just Need Killing|QID|25681|PRE|25680|M|62.21,1.48|N|From Tak'arili.|
-C Some People Just Need Killing|QID|25681|M|61.94,1.22;52.20,2.67|N|Right-click the box to get in it. You should be able to walk right past the guards to the end of the tunnel where Hondo is. Abandon your box and kill him.|
+C Some People Just Need Killing|QID|25681|M|61.94,1.22;52.20,2.67|CS|N|Right-click the box to get in it. You should be able to walk right past the guards to the end of the tunnel where Hondo is. Abandon your box and kill him.|
 
 T Some People Just Need Killing|QID|25681|M|62.19,1.41|N|To Tak'arili. You can use another box to get back to him, they are all over.|
 A Mission Complete|QID|25682|PRE|25681|M|62.19,1.41|N|From Tak'arili.|
@@ -69,20 +79,20 @@ A The Dreadmaul Furnace|QID|25683|PRE|25682|M|40.49,11.70|N|From Okrilla.|
 
 C Ogre Combat|QID|25675|M|44.87,39.32|S|N|Kill Dreadmaul Maulers and Warlocks.|
 
-T The Dreadmaul Furnace|QID|25683|M|41.26,33.27;39.20,36.26|N|To Bloodmage Lynnore at the back of the furnace. To find her, take the path to the right after you enter.|
+T The Dreadmaul Furnace|QID|25683|M|41.26,33.27;39.20,36.26|CS|N|To Bloodmage Lynnore at the back of the furnace. To find her, take the path to the right after you enter.|
 A Attune the Bloodstone|QID|25684|PRE|25683|M|39.20,36.26|N|From Bloodmage Lynnore.|
-C Attune the Bloodstone|QID|25684|M|39.33,35.66;41.56,31.97|N|Touch the first blood stone. You'll be teleported outside - touch the Bloodstone in front of you to teleport back in.|
+C Attune the Bloodstone|QID|25684|M|39.33,35.66;41.56,31.97|CS|N|Touch the first blood stone. You'll be teleported outside - touch the Bloodstone in front of you to teleport back in.|
 T Attune the Bloodstone|QID|25684|M|39.20,36.27|N|To Bloodmage Lynnore.|
 A The First Step|QID|25685|PRE|25684|M|39.20,36.27|N|From Bloodmage Lynnore.|
 A A Bloodmage's Gotta Eat Too|QID|25690|PRE|25684|M|39.21,36.25|N|From Bloodmage Drazial.|
 
 C A Bloodmage's Gotta Eat Too|QID|25690|M|54.89,37.68|N|Kill boars for their meat.|S|
-C The First Step|QID|25685|M|39.33,35.65;54.89,37.68|N|Use the bloodstone to exit the cave, then head east. Kill hyenas and basilisks for their blood.|
+C The First Step|QID|25685|M|39.33,35.65;54.89,37.68|CC|N|Use the bloodstone to exit the cave, then head east. Kill hyenas and basilisks for their blood.|
 A One Draenei's Junk...|O|QID|25771|M|50.88,37.62|U|10593|N|Accept the quest from the Imperfect Draenethyst Fragment.|
 T One Draenei's Junk...|O|QID|25771|M|48.72,32.00|N|To Kum'isha the Collector.|
 C A Bloodmage's Gotta Eat Too|QID|25690|M|54.89,37.68|N|Kill boars for their meat.|US|
 
-T A Bloodmage's Gotta Eat Too|QID|25690|M|41.52,31.91;39.28,36.18|N|To Bloodmage Drazial. Remember to use the blood stone to get to them easily.|
+T A Bloodmage's Gotta Eat Too|QID|25690|M|41.52,31.91;39.28,36.18|CS|N|To Bloodmage Drazial. Remember to use the blood stone to get to them easily.|
 T The First Step|QID|25685|M|39.25,36.22|N|To Bloodmage Lynnore.|
 A Blood Ritual|QID|25686|PRE|25685|M|39.25,36.22|N|From Bloodmage Lynnore.|
 C Blood Ritual|NC|QID|25686|M|39.20,36.28|N|Talk to the bloodmage.|
@@ -91,10 +101,10 @@ A Not Just Any Body|QID|25687|M|39.18,36.28|N|From Bloodmage Lynnore.|
 l Loramus' Torso|QID|25687|M|39.99,37.16|N|Pick up Loramus' Torso.|L|55836|
 l Loramus' Head|QID|25687|M|46.72,26.95|N|Pick up Loramus' Head.|L|55829|
 C Not Just Any Body|NC|QID|25687|M|46.94,39.50|N|Finally loot his legs.|
-T Not Just Any Body|QID|25687|M|41.56,31.95;39.24,36.20|N|To Bloodmage Lynnore.|
+T Not Just Any Body|QID|25687|M|41.56,31.95;39.24,36.20|CS|N|To Bloodmage Lynnore.|
 A The Altar of Storms|QID|25688|PRE|25687|M|39.24,36.20|N|From Bloodmage Lynnore.|
-C The Altar of Storms|QID|25688|M|40.44,35.81;36.97,28.40|N|Go up to the Altar of Storms, clear it out then click on the Altar of Blood. Protect Loramus as he is resurrected.|
-T The Altar of Storms|QID|25688|M|41.51,31.97;39.31,35.78|N|To Loramus Thalipedes. Use the bloodstone.|
+C The Altar of Storms|QID|25688|M|40.44,35.81;36.97,28.40|CS|N|Go up to the Altar of Storms, clear it out then click on the Altar of Blood. Protect Loramus as he is resurrected.|
+T The Altar of Storms|QID|25688|M|41.51,31.97;39.31,35.78|CS|N|To Loramus Thalipedes. Use the bloodstone.|
 A Time is Short|QID|25689|M|39.31,35.78|N|From Loramus Thalipedes.|
 
 T Time is Short|QID|25689|M|54.30,50.03|N|To Watcher Wazzik at the Dark Portal.|
@@ -119,13 +129,13 @@ C Watching Our Back|NC|QID|25695|M|55.59,50.23|N|Right-click the plans when the 
 T Watching Our Back|QID|25695|M|54.44,50.48|N|To Warlord Dar'toon.|
 A The Sunveil Excursion|RANK|2|QID|25696|PRE|25695|M|54.44,50.48|N|From Warlord Dar'toon.|
 
-T Enhancing the Stone|QID|25693|M|41.56,31.95;39.32,35.76|N|To Loramus Thalipedes. Remember to use the blood stone.|
+T Enhancing the Stone|QID|25693|M|41.56,31.95;39.32,35.76|CS|N|To Loramus Thalipedes. Remember to use the blood stone.|
 A The Amulet of Allistarj|QID|25697|M|39.32,35.76|N|From Loramus Thalipedes.|
 A The Amulet of Sevine|QID|25698|M|39.32,35.76|N|From Loramus Thalipedes.|
 A The Amulet of Grol|QID|25699|M|39.32,35.76|N|From Loramus Thalipedes.|
 C Ogre Combat|QID|25675|M|44.87,39.32|US|N|Finish killing any ogres you still need.|
 
-C The Amulet of Allistarj|NC|QID|25697|M|60.92,29.30;61.61,26.85|N|Enter the cave, the amulet is in a chest not too far in.|
+C The Amulet of Allistarj|NC|QID|25697|M|60.92,29.30;61.61,26.85|CS|N|Enter the cave, the amulet is in a chest not too far in.|
 C The Amulet of Grol|QID|25699|M|71.11,35.38|N|Loot the pile of skulls. Grol's spirit will attack - defeat him and loot the amulet.|
 C The Amulet of Sevine|NC|QID|25698|M|73.16,47.51|N|Talk to Salt-Flop and ask him for the amulet.|
 A Home... Gone... Naga...|QID|25702|M|73.16,47.51|N|From Salt-Flop.|
@@ -177,17 +187,17 @@ T The Downfall of Marl Wormthorn|RANK|2|QID|25720|M|49.76,71.46|N|To Rohan Sunve
 H Dreadmaul Hold|QID|25675|M|40.44,11.39|N|If you didn't set your hearth there, fly back.|
 T Ogre Combat|QID|25675|M|42.72,13.90|N|To Master Aitokk.|
 
-T The Amulet of Allistarj|QID|25697|M|41.56,31.95;39.22,36.19|N|To Bloodmage Lynnore. Use the bloodstone to get in.|
+T The Amulet of Allistarj|QID|25697|M|41.56,31.95;39.22,36.19|CS|N|To Bloodmage Lynnore. Use the bloodstone to get in.|
 T The Amulet of Sevine|QID|25698|M|39.22,36.19|N|To Bloodmage Lynnore.|
 T The Amulet of Grol|QID|25699|M|39.22,36.19|N|To Bloodmage Lynnore.|
 A Loramus Thalipedes Awaits|QID|25700|M|39.22,36.19|N|From Bloodmage Lynnore.|
 C Loramus Thalipedes Awaits|NC|QID|25700|NC|M|39.20,36.24|N|Speak to the bloodmage.|
 T Loramus Thalipedes Awaits|QID|25700|M|39.33,35.81|N|To Loramus Thalipedes.|
 A You Are Rakh'likh, Demon|QID|25701|M|39.33,35.81|N|From Loramus Thalipedes.|
-C You Are Rakh'likh, Demon|QID|25701|U|56012|M|46.53,21.88;44.90,26.85|N|Speak to the ghost to have him teleport you up to the mountain. Wait until Loramus summons the demon. Help him kill it (let him tank). When Loramus is possessed, defeat him, then use the knige.|
-T You Are Rakh'likh, Demon|QID|25701|M|41.57,32.04;54.29,50.00|N|To Watcher Wazzik. Congrats on the excellent ring!|
+C You Are Rakh'likh, Demon|QID|25701|U|56012|M|46.53,21.88;44.90,26.85|CS|N|Speak to the ghost to have him teleport you up to the mountain. Wait until Loramus summons the demon. Help him kill it (let him tank). When Loramus is possessed, defeat him, then use the knife.|
+T You Are Rakh'likh, Demon|QID|25701|M|41.57,32.04;54.29,50.00|CC|N|To Watcher Wazzik. Congrats on the excellent ring!|
 
-A Through the Dark Portal|QID|9407|M|54.42,50.56|N|From Warlord Dar'toon. Take this quest if you are ready to head to Hellfire Peninsula.|
+A Through the Dark Portal|QID|9407|M|54.42,50.56|N|From Warlord Dar'toon. Take this quest to be ready to head to Hellfire Peninsula.|
 N That's it for the|N|Blasted Lands. If you need to, visit your trainers now, and the AH if wish. Close this step to continue.|
 
 ]]

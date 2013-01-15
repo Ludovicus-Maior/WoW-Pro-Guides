@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
+-- Date: 2013-01-12 17:49
+-- Who: Ludovicus Maior
+-- Log: Update exploration of Dun_Morogh: The Grizzled Den is gone.
+
+-- URL: http://wow-pro.com/node/3475/revisions/25011/view
 -- Date: 2012-06-30 16:06
 -- Who: Ludovicus Maior
 -- Log: Wrong zone name for The Cape of Stranglethorn

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-01-12 19:25
+-- Who: Ludovicus Maior
+-- Log: Lots of CN tags
+
+-- URL: http://wow-pro.com/node/3519/revisions/25264/view
 -- Date: 2012-12-25 00:51
 -- Who: Ludovicus Maior
 -- Log: Added skeletal: Jaina's Hope,  The Korune, Heart of the Alliance, Secrets of the Past, The Divine Bell.
@@ -59,7 +64,7 @@ f Lion's Landing|M|88.33,34.69|N|At Daggin Windbeard|
 ; The Man With a Thousand Faces
 A The Best Around|QID|32380|PRE|32109|M|89.67,32.79|REP|Operation: Shieldwall;1376;friendly;950|N|From Admiral Taylor, a little after hitting Friendly|
 R Deeprun Tram|QID|32380|N|Head to Deeprun Tram in Stormwind.|
-R Bizmo's Brawlpub|QID|32380|M|52.50,33.01;52.25,51.25;70.50|Z|Deeprun Tram@DeeprunTram|N|Look for the flashing red light in the tracks and head down the stairs.|
+R Bizmo's Brawlpub|QID|32380|M|52.50,33.01;52.25,51.25;70.50|Z|Deeprun Tram@DeeprunTram|CS|N|Look for the flashing red light in the tracks and head down the stairs.|
 T The Best Around|QID|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|Find Barkeep Townsley, in Deeprun Tram in Stormwind.|
 A To Catch A Spy|QID|32381|PRE|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|From Barkeep Townsley.|
 C Keith "The Party" Westin|QID|32381|M|64.80,22.99|Z|Bizmo's Brawlpub@DeeprunTram|T|Keith "The Party" Westin|N|Chat with Townsley and get the first clue, then talk to Keith.|QO|Pink Marmot delivered: 1/1|
@@ -77,7 +82,7 @@ T He's In Deep|QID|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka 
 A Bugging Out|QID|32383|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|From Agent Connelly aka Cousin Goottooth|
 A He Won't Even Miss It|QID|32397|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka Cousin Goottooth|
 C Bug the Supplies|QID|32383|M|58.19,85.05|Z|Kun-Lai Summit|QO|Supplies Bugged: 1/1|U|92950|N|Sneak in and click on statue near the supplies.  Watch out for Nero and Garrosh.|
-C Bug the Small Tents|QID|32383|M|58.10,84.34;58.06,84.73|Z|Kun-Lai Summit|QO|Small Tents bugged: 1/1|U|92950|N|Look between the small tents and click on the statue outside.  Watch out for Nero and Garrosh.|
+C Bug the Small Tents|QID|32383|M|58.10,84.34;58.06,84.73|Z|Kun-Lai Summit|QO|Small Tents bugged: 1/1|U|92950|CS|N|Look between the small tents and click on the statue outside.  Watch out for Nero and Garrosh.|
 C Bug the Big Tent|QID|32383|M|58.38,83.99|Z|Kun-Lai Summit|QO|Large Tent bugged: 1/1|U|92950|N|Go back to the other enterance and go to the big tent and click on the statue inside.  Watch out for Nero and Garrosh.|
 C Swipe it!|QID|32397|M|58.23,84.23|Z|Kun-Lai Summit|L|92804|N|Tap on a Yak(s) until the coast is clear and go to the table and click on the book!|
 T Bugging Out|QID|32383|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka Cousin Goottooth|
@@ -96,7 +101,7 @@ R Mogujia|QID|32193|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 T Mogujia|QID|32193|M||Z|Kun-Lai Summit|N|To Brann Bronzebeard|
 A The Source of Korune Power|QID|32243|PRE|32193|M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
 A Bad Blood|QID|32194|PRE|32193|M|58.2,71.0|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
-C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
+C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
 K Korune Spellweaver|QID|32243||M||Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|
 T The Source of Korune Power|QID|32243||M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
 T Bad Blood|QID|32194||M||Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
@@ -156,7 +161,7 @@ C Dis-Assembly Required|QID|32446|M|21.48,53.67|U|93180|T|Jungle Shredder|N|Use 
 C It's Only Right|QID|32156|T|Fallen Shieldwall Soldier|N|Click on the corpses to get the tags.|QO|Shieldwall Soldier Dog Tag: 7/7|
 C Burn Out!|QID|32154|M|23.87,54.61|QO|Northern Fuel Tank destroyed: 1/1|N|Click on the explosive when you are near the cogwheels.|U|93187|
 C Burn Out!|QID|32154|M|25.47,59.44|QO|Northeastern Fuel Tank destroyed: 1/1|N|Click on the explosive when you are near the cogwheels.|U|93187|
-C The Only Good Goblin...|QID|32157|M|22.00,58.40;24.20,58.20;22.50,55.45;20.00,63.00;19.90,59.60|QO|Bilgewater Goblins slain: 10/10|N|Nice clumps around the coords to kill.|
+C The Only Good Goblin...|QID|32157|M|22.00,58.40;24.20,58.20;22.50,55.45;20.00,63.00;19.90,59.60|QO|Bilgewater Goblins slain: 10/10|CN|N|Nice clumps around the coords to kill.|
 K Grezik Oregrind|QID|32433|M||T|Grezik Oregrind|QO|Grezik Oregrind slain: 1/1|N|Spawns near here.  Watch for the skull on the minimap.|
 C Burn Out!|QID|32154|M|15.28,58.99|QO|Northwestern Fuel Tank destroyed: 1/1|N|Click on the explosive when you are near the cogwheels.|U|93187|
 K Shredmaster Packle|QID|32158|M|19.55,62.44|QO|Shredmaster Packle slain: 1/1|N|Spawns near here.  Watch for the skull on the minimap.|
@@ -186,9 +191,9 @@ C Don't Lose Your Head|QID|32145|M|13.4,57.9|QO|Stone Guard Ruk'Ra slain: 1/1|N|
 C Don't Lose Your Head|QID|32145|M|13.0,56.0|QO|Chief Bombgineer Snicklefritz slain: 1/1|N|In the eastern part of the courtyard.|
 C Don't Lose Your Head|QID|32145|M|10,57|QO|Or'Dac slain: 1/1|N|In the western part of the courtyard.|
 
-C Under Pressure|QID|32144|M|12.50,65.80;12.77,63.60;8.90,68.93;10.74,58.01;6.95,67.20;13.60,57.20;12.61,54.78;8.75,65.53;12.20,59.82|QO|Horde Supply Crates Destroyed: 8/8|
-C Hammer to Fall|QID|32146|M|14.40,65.80;13.40,61.10;10.60,56.80;12.75,63.60;10.05,59.35;12.35,59.33;11.40,65.80;10.24,62.20|QO|Heavy Mook slain: 5/5|
-C We Will Rock You|QID|32142|M|10.60,60.60;14.35,57.20;11.50,58.23;12.20,54.78; 10.60,54.60;8.80,63.40;8.25,60.85;24.35,60.08;10.95,61.25;22.38,60.92;21.68,57.95;10.96,63.69;12.09,57.14;22.01,55.19;12.54,66.53;24.24,56.97; 11.00,66.20;12.80,60.80;13.00,64.40;9.65,60.80;12.65,67.57; |QO|Domination Orc slain: 10/10|
+C Under Pressure|QID|32144|M|12.50,65.80;12.77,63.60;8.90,68.93;10.74,58.01;6.95,67.20;13.60,57.20;12.61,54.78;8.75,65.53;12.20,59.82|CN|QO|Horde Supply Crates Destroyed: 8/8|
+C Hammer to Fall|QID|32146|M|14.40,65.80;13.40,61.10;10.60,56.80;12.75,63.60;10.05,59.35;12.35,59.33;11.40,65.80;10.24,62.20|CN|QO|Heavy Mook slain: 5/5|
+C We Will Rock You|QID|32142|M|10.60,60.60;14.35,57.20;11.50,58.23;12.20,54.78; 10.60,54.60;8.80,63.40;8.25,60.85;24.35,60.08;10.95,61.25;22.38,60.92;21.68,57.95;10.96,63.69;12.09,57.14;22.01,55.19;12.54,66.53;24.24,56.97; 11.00,66.20;12.80,60.80;13.00,64.40;9.65,60.80;12.65,67.57|CN|QO|Domination Orc slain: 10/10|
 
 T We Will Rock You|QID|32142|M|16.48,79.20|N|To Sky Admiral Rogers|
 T Hammer to Fall|QID|32146|M|16.48,79.20|N|To Sky Admiral Rogers|
@@ -199,16 +204,16 @@ T Under Pressure|QID|32144|M|16.66,78.53|N|To Mishka|
 T Priorities, People!|QID|32116|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
 A Get Hilda's Quests|QID|*|PRE|32116|M|80.19,16.40|Z|Krasarang Wilds|N|From Hilda Hornswaggle|
 
-C The Spirit Trap|QID|32121|M|70.60,41.40;70.80,44.40;71.80,13.60;43.50,14.60;73.40,28.80|Z|Krasarang Wilds/2|N|Click and fight|
+C The Spirit Trap|QID|32121|M|70.60,41.40;70.80,44.40;71.80,13.60;43.50,14.60;73.40,28.80|Z|Krasarang Wilds/2|CN|N|Click and fight|
 C It Is A Mystery|QID|32119|M|64.25,26.90|Z|Krasarang Wilds/2|N|Walk around till the meter peaks at 100 and stand stil to you get credit.|
-C Shackles of the Past|QID|32115|M|49.00,37.60;59.80,47.60;67.00,27.80;70.40,38.20;73.60,23.40;70.90,44.70;68.00,55.70|Z|Krasarang Wilds/2|T|Troubled Slave Spirit|QO|Troubled Slave Spirits released: 14/14|
-C Oi Ain't Afraid o' No Ghosts!|QID|32346|M|62.80,22.20;73.00,28.80;55.70,51.90;70.90,35.70;58.10,47.40;51.30,41.80;66.90,59.20;49.20,37.60;50.10,20.00;71.25,32.90;51.60,22.50;58.35,50.45|Z|Krasarang Wilds/2|T|Spiritbound|QO|Spiritbound Mogu slain: 12/12|
+C Shackles of the Past|QID|32115|M|49.00,37.60;59.80,47.60;67.00,27.80;70.40,38.20;73.60,23.40;70.90,44.70;68.00,55.70|Z|Krasarang Wilds/2|CN|T|Troubled Slave Spirit|QO|Troubled Slave Spirits released: 14/14|
+C Oi Ain't Afraid o' No Ghosts!|QID|32346|M|62.80,22.20;73.00,28.80;55.70,51.90;70.90,35.70;58.10,47.40;51.30,41.80;66.90,59.20;49.20,37.60;50.10,20.00;71.25,32.90;51.60,22.50;58.35,50.45|Z|Krasarang Wilds/2|CN|T|Spiritbound|QO|Spiritbound Mogu slain: 12/12|
 
 R Ogudei's Lieutenants|QID|32122|M|72.27,41.57;79.16,49.86;76.75,63.46|CS|Z|Krasarang Wilds/2|N|Find this crack in the wall.|
 K Gen-li, Twister of Words|QID|32122|M|67.97,73.63|Z|Krasarang Wilds/2|QO|Gen-li, Twister of Words slain: 1/1|N|Gen-li and Meng-do are together.|
 K Meng-do, Strength of Mountains|QID|32122|M|67.97,73.63|Z|Krasarang Wilds/2|QO|Meng-do, Strength of Mountains slain: 1/1|
 
-C Eviction Notice|QID|32347|M|74.10,61.60;76.50,59.30;76.30,57.30;76.15,61.65;62.80,70.75|Z|Krasarang Wilds/3|T|Reliquary Mage|QO|Reliquary slain: 10/10|
+C Eviction Notice|QID|32347|M|74.10,61.60;76.50,59.30;76.30,57.30;76.15,61.65;62.80,70.75|Z|Krasarang Wilds/3|CN|T|Reliquary Mage|QO|Reliquary slain: 10/10|
 
 T The Spirit Trap|QID|32121|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
 T It Is A Mystery|QID|32119|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
