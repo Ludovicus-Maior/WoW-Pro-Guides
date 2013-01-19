@@ -1,15 +1,56 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2013-01-13 23:41
+-- Who: Ludovicus Maior
+-- Log: Added CN tags
+
+-- URL: http://wow-pro.com/node/3501/revisions/25407/view
+-- Date: 2013-01-13 04:21
+-- Who: Emmaleah
+-- Log: update 2 more coords. notes at beginning
+
+-- URL: http://wow-pro.com/node/3501/revisions/25350/view
+-- Date: 2013-01-12 11:25
+-- Who: Emmaleah
+-- Log: few more adj from todays questing to blackguard defenders. (I could swear I got Uruk before killing the spirits before?)
+
+-- URL: http://wow-pro.com/node/3501/revisions/25348/view
+-- Date: 2013-01-12 04:25
+-- Who: Emmaleah
+-- Log: Draft #2, I have had all the areas at least once, but not all the quests yet, I think its clean enough to be released, but its still got a couple of rough spots I'm sure.
+
+-- URL: http://wow-pro.com/node/3501/revisions/25279/view
+-- Date: 2013-01-06 11:10
+-- Who: Emmaleah
+-- Log: Shado Pan dailies - initial release. See to do in header. There are still known errors, but I thought I would put it here so others could test it too if they are intersted. It is not ready to be included in the next version release yet.
+
+-- URL: http://wow-pro.com/node/3501/revisions/25158/view
+-- Date: 2012-10-24 11:27
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3501/revisions/25111/view
+-- Date: 2012-10-07 22:30
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3501/revisions/25110/view
+-- Date: 2012-10-07 22:29
+-- Who: Ludovicus Maior
+
 WoWPro.Dailies:RegisterGuide("EmmShadoPan", "Townlong Steppes", "Shado-Pan Dailies", "MoP", "Emmaleah", "Neutral", function()
 return [[
 
-N Work In Process Disclaimer|N|This guide is a work-in-process. Please report any errors or missing quests on the WowPro Website.|
+N Work In Process Disclaimer|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|
 N Golden Lotus first|N|You need to be revered with the Golden Lotus before you can start the Shado-Pan Dailies.|
 N Finish Townlong Steppes|N|Unless you truely enjoy dailies, it is worth finishing the regular quests in Kun-Lai and on into Townlong. They will get you partway thru friendly with Shado-Pan.|
 N No Intro quest|N|Unlike other factions there is no specific intro questline for the shado-pan dailies (or you could say all of townlong is, but it is not required for or invalidated by the dailies).|
 
 R Shado-Pan Garrison|M|49.25,71|CC|N|Either Master Snowdrift, Ban Bearheart or Ling of the Six Pools will be waiting to give you quests.|
-T Understanding The Shado-Pan|QID|31389|M|49.02,70.45|FACTION|Horde|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
-T Understanding The Shado-Pan|QID|31387|M|49.02,70.45|FACTION|Alliance|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
+T Understanding The Shado-Pan|QID|31389|M|49.02,70.45|FACTION|Horde|N|To Ban Bearheart.  If you don't have this quest, don't worry about it, its just to help you find your way here the first time.  It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
+T Understanding The Shado-Pan|QID|31387|M|49.02,70.45|FACTION|Alliance|N|To Ban Bearheart.  If you don't have this quest, don't worry about it, its just to help you find your way here the first time.  It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
 
 ;Blackguard Defenders
 A Random Dailies from Master Snowdrift|QID|31113;31114;31116;31118;31119|M|49.5,70.5|N|Master Snowdrift should offer you 4 quests. Check this off manually if he is not the quest giver for the day.|
@@ -26,7 +67,7 @@ A Cheng Bo!|QID|31120|PRE|31113;31119|M|49.5,70.5|N|From Master Snowdrift (or UI
 C Cheng Bo!|QID|31120|T|Cheng Bo|M|60.8,42|N|You will get credit for the kill, even if another player attacked him first.|
 C Assault Deadtalker's Plateau|QID|31114|M|51,53|S|
 K Defiled Spirits|T|Defiled Spirit|QID|31116|L|84727 32|N|Kill defiled spirits and loot the spirit dust from them, you will need a total of 32 dusts(if solo). You will need to manually check this step off if you free the spirits before all the essenses are collected.|
-C The Deadtalker Cipher|QID|31118|N|This should drop while you are killing the Deadtalkers for Assult Deadtaker's Plateau. Keep killing those mobs until it drops. Also drops off the silver elite Uruk.|
+C The Deadtalker Cipher|QID|31118|N|This should drop while you are killing the Deadtalkers for Assult Deadtaker's Plateau. Keep killing those mobs until it drops.  Also drops off the silver elite Uruk.|
 C Assault Deadtalker's Plateau|QID|31114|M|51,53|US|
 C Spirit Dust|QID|31116|M|51,53|U|84727|NC|N|Use the spirit dusts on the bones scattered around the area. You can do this part while mounted.|
 T Assault Deadtalker's Plateau|QID|31114|M|49.5,70.5|N|You can turn this in at a Shado-pan companion or to Master Snowdrift.|
@@ -51,10 +92,10 @@ C Dark Arts|QID|31043|M|29.8,22.8|NC|N|These are a ground spawn in the area with
 C Illusions Of The Past|QID|31045|M|25,16|N|The illusionists are located in the middle of the island.|
 C Bronze Claws|QID|31044|M|29.8,22.8|US|N|Bronze Quillen in the SE part of the island drop the items needed.|
 C Onyx Hearts|QID|31042|M|24,10|N|If you agro these while flying, you can drag them away from thier Serpentbinder and then only have to kill the Stormclaws.|
-C Egg Rescue!|QID|31041|M|20,18;33,24|S|NC|N|Pick up the eggs scattered around edges of the island.|
+C Egg Rescue!|QID|31041|M|20,18;33,24|CN|S|NC|N|Pick up the eggs scattered around edges of the island.|
 C Little Hatchlings|QID|31046|26,7;33,24|S|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
 C Born Free|QID|31047|M|35,22|S|NC|N|Free the wild cloud serpents located on the SE side of the island by clicking on their ball and chain.|
-C Egg Rescue!|QID|31041|M|20,18;33,24|US|NC|N|Pick up the eggs scattered around edges of the island.|
+C Egg Rescue!|QID|31041|M|20,18;33,24|CN|US|NC|N|Pick up the eggs scattered around edges of the island.|
 C Little Hatchlings|QID|31046|26,7;33,24|US|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
 C Born Free|QID|31047|M|35,22|US|NC|N|Free the wild cloud serpents located on the SE side of the island by clicking on their ball and chain.|
 C Through the Portal|QID|31110|ACTIVE|31039|US|25,12|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|
@@ -81,7 +122,7 @@ T Riding the Storm|QID|31061|M|49.02,70.45|N|To Ban Bearheart.|
 ;Wu Kao Assassins - items smoke bombs 90006 - coins 86534 - darts 86536 - took them out of steps since steps werent autocompleting, thought maybe because didnt use the items? (altho its more likely I have the QO wrong - forgot to check that, it was late)
 A Random Dailies from Ling of the Six Pools|QID|31196;31197;31198;31199;31200;31201|LEAD|31113+31039|M|49.01,71.34|N|From Ling of the Six Pools. When anyone accept her quests, a message will show on the middle of your screen saying to pick up your Wu Koa supplies, they are on the ground beside her. You may want open the bag and hotkey them, they are useful for avoiding extra work. I would ignore the use items in the guide panel (except the gas bombs-must use them) and use your own hotkeys instead, since it is impossible to predict which tool you will want in which situation.|
 N Achievement Opportunity|ACH|7299;2|ACTIVE|31197|N|To earn the Achievement Loner and a Rebel, you need to do each set of dailies with out a Shado-pan companion (i.e. you have the 'debuff' "Choose a Shado-Pan Companion". you will lose the debuff if you leave the zone, so turn all the quests in before you queue for a dungeon or otherwise leave the area. Manually check this off once you read it.|
-N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent Assassin, you need to do the Wu Kao set of dailies without killing any extra mobs. It is recomended you do this with-out a Shado-pan companion, since they don't seen to understand the concept of avoiding enemies. You are given a bag of supplies to assist, it includes smoke bombs and items to CC. Tou probably want to do the Noncombat objectives first, so any accidental kills are less likely to put you over the allowed totals. If you chose to take a companion, you can turn in your quests to them, also run out of range and let them despawn if they are killing extra mobs. Manually check this off once you read it.|
+N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent Assassin, you need to do the Wu Kao set of dailies without killing any extra mobs.  It is recomended you do this with-out a Shado-pan companion, since they don't seen to understand the concept of avoiding enemies. You are given a bag of supplies to assist, it includes smoke bombs and items to CC. Tou probably want to do the Noncombat objectives first, so any accidental kills are less likely to put you over the allowed totals. If you chose to take a companion, you can turn in your quests to them, also run out of range and let them despawn if they are killing extra mobs. Manually check this off once you read it.|
 C The Bigger They Come…|QID|31197|M|18,48|U|86536|S|N|These are located all over the Island. The Elite Kunchong in the feeding pits do NOT count, nor do the Swarmlords. Only the Sra'thik Will-Breakers, Sra'thik Deathmixers, Sra'thik Swarm-Leaders and Sra'thik Vessguards count.|
 C Sra’vess Wetwork|QID|31196|M|18,48|U|90006|S|N|Any non elite counts. These are located all over the Island.|
 C A Morale Victory|QID|31198|M|27.83,41.93;21.50,49.24;23.52,55.64;16.19,46.04|CN|N|You may want to hotkey the items from the bag of Wu Kao Supplies, especially if you are going for the Silent Assassin Achievement.|
@@ -151,7 +192,7 @@ C Surprise Attack|QID|31277|
 T Surprise Attack|QID|31277|M|49.5,70.5|N|To Ban Bearheart.|
 
 ;overall achievements
-N Achievement Opportunity|ACH|7298|N|To earn the Achievement Getting Around with the Shado-Pan, you need to do 15 dailies with each of the 9 companions. If you invite them to help you, This should happen in the course of grinding the rep, but due to randomness, you may have to make a couple of extra trips, especially if you benefted from a grand commendation.|
+N Achievement Opportunity|ACH|7298|N|To earn the Achievement Getting Around with the Shado-Pan, you need to do 15 dailies with each of the 9 companions.  If you invite them to help you, This should happen in the course of grinding the rep, but due to randomness, you may have to make a couple of extra trips, especially if you benefted from a grand commendation.|
 N Achievement Opportunity|ACH|7297|REP|Shado-Pan;1270;Revered|N|To earn the Achievement Proven Strength, you need to unlock all of the Shado-Pan NPCs by doing the Challenger's Ring (one time) Quests. The first 3 become available at honored, and 3 more are added when you become Revered. The quest available any given day is based on which dailies are available.|
 N Meta Achievement - The Shado-Master|ACH|7479;2|REP|Shado-Pan;1270;Exalted|N|The culmination of the faction grind, In addition to all the achievements and quests listed in this guide, it also requires earning gold on a challenge mode run of Shado-Pan Monestery.|
 

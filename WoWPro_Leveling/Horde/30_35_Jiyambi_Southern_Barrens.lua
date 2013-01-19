@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
+-- Date: 2013-01-13 23:48
+-- Who: Ludovicus Maior
+-- Log: Added CN tag
+
+-- URL: http://wow-pro.com/node/3236/revisions/24928/view
 -- Date: 2012-01-29 10:38
 -- Who: Crackerhead22
 -- Log: ?
@@ -50,7 +55,7 @@ A Signals in the Sky|QID|24515|M|39.44,20.33|N|From Onatay.|
 h Hunter's Hill|QID|24517|M|39.30,20.05|N|If you'd like, set your hearth at Innkeeper Hurnahet.|
 C Put the Fear in Them|QID|24517|S|M|41.08,22.15|N|Kill 8 Honor's Stand Footman and 1 Officer.|
 C Raptor Scraps|QID|24514|M|40.11,23.96|N|From the raptors all around below Hunter's Hill.|
-C Put the Fear in Them|QID|24517|US|M|41.08,22.15;39.58,15.13|N|Kill 8 Honor's Stand Footman and 1 Officer.|
+C Put the Fear in Them|QID|24517|US|M|41.08,22.15;39.58,15.13|N|Kill 8 Honor's Stand Footman and 1 Officer.|CN|
 l Roadway Plans|QID|24518|M|41.08,22.15|N|Kill an officer and loot it for the Roadway Plans.|L|49776|
 A The Low Road|QID|24518|N|From the Roadway Plans.|U|49776|
 T Put the Fear in Them|QID|24517|M|39.64,19.98|N|To Kilrok Gorehammer.|

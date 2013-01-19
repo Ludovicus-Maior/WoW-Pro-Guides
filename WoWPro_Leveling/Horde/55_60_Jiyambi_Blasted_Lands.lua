@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2013-01-13 23:52
+-- Who: Ludovicus Maior
+-- Log: Added CC tag
+
+-- URL: http://wow-pro.com/node/3268/revisions/25472/view
 -- Date: 2013-01-13 19:27
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -190,7 +195,7 @@ C Loramus Thalipedes Awaits|NC|QID|25700|NC|M|39.20,36.24|N|Speak to the bloodma
 T Loramus Thalipedes Awaits|QID|25700|M|39.33,35.81|N|To Loramus Thalipedes.|
 A You Are Rakh'likh, Demon|QID|25701|M|39.33,35.81|N|From Loramus Thalipedes.|
 C You Are Rakh'likh, Demon|QID|25701|U|56012|M|46.53,21.88;44.90,26.85|CS|N|Speak to the ghost to have him teleport you up to the mountain. Wait until Loramus summons the demon. Help him kill it (let him tank). When Loramus is possessed, defeat him, then use the knife.|
-T You Are Rakh'likh, Demon|QID|25701|M|41.57,32.04;54.29,50.00|N|To Watcher Wazzik. Congrats on the excellent ring!|
+T You Are Rakh'likh, Demon|QID|25701|M|41.57,32.04;54.29,50.00|CC|N|To Watcher Wazzik. Congrats on the excellent ring!|
 
 A Through the Dark Portal|QID|9407|M|54.42,50.56|N|From Warlord Dar'toon. Take this quest to be ready to head to Hellfire Peninsula.|
 N That's it for the|N|Blasted Lands. If you need to, visit your trainers now, and the AH if wish. Close this step to continue.|
