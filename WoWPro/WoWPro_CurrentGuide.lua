@@ -110,6 +110,19 @@ frame:SetScript("OnShow", function()
 				step = step.." (rank "..WoWPro.rank[index]..")"
 			end
 			
+			if WoWPro.level and WoWPro.level[index] then
+			    step = step.." (level "..tostring(WoWPro.level[index])..")"
+			    local level = tonumber(WoWPro.level[index])
+                row.step:SetTextColor(1.0,1.0,1.0,1.0)
+                if WoWPro.action[index] == "L" and level > UnitLevel("player") then
+                    row.step:SetTextColor(0.75,0,0,1.0)                    
+                end
+                if WoWPro.action[index] ~= "L" and level > UnitLevel("player") then
+                    row.step:SetTextColor(0.75,0.3,0.3,1.0)
+                end
+
+			end
+			
 			-- Setting sticky texture --
 			if WoWPro.sticky[index] then 
 				step = step.." (sticky)"
@@ -130,6 +143,7 @@ frame:SetScript("OnShow", function()
 			
 			local action = WoWPro.action[index]
 			row.action:SetTexture(WoWPro[module:GetName()].actiontypes[action])
+			
 			if WoWPro.noncombat[index] then
 				row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
 			end
