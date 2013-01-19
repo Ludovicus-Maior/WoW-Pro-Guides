@@ -281,7 +281,7 @@ function WoWPro:NextStep(k,i)
             end
             if WoWPro.action[k] ~= "L" and level > UnitLevel("player") then
                 skip = true
---                WoWPro:dbp("Skip %s [%s] because its level %d is too high.",WoWPro.action[k],WoWPro.step[k],level)
+--                WoWPro:Print("Skip %s [%s] because its level %d is too high.",WoWPro.action[k],WoWPro.step[k],level)
                 break
             end
         end
@@ -679,6 +679,21 @@ function WoWPro:Questline(qid)
     WoWPro:LoadGuide(nil)
 end
 
+StaticPopupDialogs["WOWPRO_PICKQUEST"] = {
+    text = "Please enter the quest ID to select and then click GO!",
+    button1 = "Go!",
+    button2 = "Never Mind",
+    OnAccept = function(self,data,data2) local qid = self.editBox:GetText() ; WoWPro:Questline(tonumber(qid)) end,
+    hideOnEscape = true,
+    preferredIndex = 3,
+    hasEditBox = true,
+    OnShow = function (self, data) self.editBox:SetText("quest id #") end
+}
+
+
+function WoWPro.PickQuestline()
+    StaticPopup_Show("WOWPRO_PICKQUEST")
+end
 
 function WoWPro:GrailQuestPrereq(qid)
     if not Grail then return nil end
@@ -698,9 +713,11 @@ function WoWPro:GrailQuestPrereq(qid)
     return PREstr
 end
 
+
+
 function WoWPro:GrailQuestLevel(qid)
     if not Grail then return nil end
-    local level = Grail:QuestLevel(tonumber(qid))
+    local _,_,level = Grail:MeetsRequirementLevel(qid,nil)
     if level then
         return tostring(level)
     else
