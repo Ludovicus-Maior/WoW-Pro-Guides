@@ -118,7 +118,7 @@ WoWPro:Export("Error")
 
 -- Generate an ordered Index
 local function _generateOrderedIndex(t)
-    DEFAULT_CHAT_FRAME:AddMessage(string.format("_generateOrderedIndex(%s)",tostring(t)))
+    -- DEFAULT_CHAT_FRAME:AddMessage(string.format("_generateOrderedIndex(%s)",tostring(t)))
     local orderedIndex = {}
     for key in pairs(t) do
         table.insert( orderedIndex, key )

@@ -382,6 +382,16 @@ function WoWPro:MapPoint(row)
 		if x and y then coords = tostring(x)..","..tostring(y) end
 	end
 	
+	-- Set working objective based on QID
+	if WoWPro.QID and WoWPro.QID[i] then
+	    local qid = tonumber(WoWPro.QID[i])
+	    if qid then
+	        WORLDMAP_SETTINGS.selectedQuestId = qid
+	        QuestPOI_SelectButtonByQuestId("WatchFrameLines", qid, true);
+	        SetSuperTrackedQuestID(qid);
+	    end
+	end
+	
 	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
 	if LightHeaded and WoWPro.QID and WoWPro.QID[i] and not coords then
 		if type(WoWPro.QID[i]) ~= "number" then return end

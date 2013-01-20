@@ -212,4 +212,7 @@ function WoWPro.Leveling:CreateConfig()
 	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
 			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
 		end} )
+	if Grail then
+	    table.insert(WoWPro.DropdownMenu, {text = "Quest Picker", func = WoWPro.PickQuestline } )
+	end	
 end

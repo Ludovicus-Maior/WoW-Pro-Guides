@@ -733,12 +733,16 @@ local function createBlizzOptions()
     			            LogBox:SetWidth(512)
                             LogBox:SetHeight(512)
                             LogBox:SetMultiLine(true)
-                            LogBox:SetAutoFocus(true)
+                            LogBox:SetAutoFocus(false)
+
                             LogBox:SetFontObject(GameFontHighlight)
                             LogBox:SetText(WoWPro:LogDump())
                             LogBox:SetPoint("CENTER")
                             WoWPro:CreateBG(LogBox)
-    			            WoWPro:CreateHeading(LogBox,"Debug Log","Hit escape to dismiss")
+    			            local title, subtitle = WoWPro:CreateHeading(LogBox,"Debug Log","Hit escape to dismiss")
+    			            LogBox.title = title
+    			            LogBox.subtitle = subtitle
+    			            
                             LogBox:Show()
                             LogBox:SetScript("OnEscapePressed", function (self) self:Hide() end)
                         end
