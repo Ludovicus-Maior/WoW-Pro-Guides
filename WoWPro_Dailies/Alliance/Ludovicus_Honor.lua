@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/grizzly_hills_honor_points_dailies
+-- Date: 2013-01-14 00:32
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3528/revisions/25486/view
+-- Date: 2013-01-13 23:37
+-- Who: Ludovicus Maior
+-- Log: Init version with CS correction.
+
 WoWPro.Dailies:RegisterGuide("LudoHonorPoints", "Grizzly Hills", "Honor Points", "Lich", "Ludovicus", "Alliance", function()
 return [[
 N Honor Points|N|Grizzly Hills PvP Dailies. 204 per day.|
@@ -15,9 +24,8 @@ A Down With Captain Zorna!|QID|12314|N|From Baron Freeman.|M|22.2,81.2|
 A Keep Them at Bay!|QID|12316|N|From Lieutenant Stuart.|M|22.1,81.2|
 A Smoke 'Em Out|QID|12323|N|From Sergeant Downey.|M|22.0,80.8|
 
-
 C Keep Them at Bay!|QID|12316|N|Kill 10 Horde in Venture Bay, PC or NPC.|S|M|15.68,78.76|
-C Smoke 'Em Out|QID|12323|U|37621|N|In the buildings. Get all the Venture Co. Stragglers together and use the [Smoke Bomb].|M|18.09,79.63;16.43,76.62;14.56,76.38|
+C Smoke 'Em Out|QID|12323|U|37621|N|In the buildings. Get all the Venture Co. Stragglers together and use the [Smoke Bomb].|M|18.09,79.63;16.43,76.62;14.56,76.38|CS|
 C Down With Captain Zorna!|QID|12314|N|She stands under a canopy, on the docks next to the westernmost ship.|M|13.5,80.2|
 C Keep Them at Bay!|QID|12316|N|Kill 10 Horde in Venture Bay, PC or NPC.|US|M|15.68,78.76|
 C Seeking Solvent|QID|12443|N|Clear the way. Really. Then get the Element 115 in the middle ship.|M|16.5,80.3|
