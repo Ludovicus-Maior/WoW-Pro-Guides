@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2013-01-19 20:05
+-- Who: Emmaleah
+-- Log: no change. just a comment on the previous comment.. that word was precise.  (precess?!?_
+
+-- URL: http://wow-pro.com/node/3503/revisions/25494/view
+-- Date: 2013-01-19 20:02
+-- Who: Emmaleah
+-- Log: moved accept 1st random challeng (white tiger temple) added more precess coordinates for all of niuzeo's temple.
+
+-- URL: http://wow-pro.com/node/3503/revisions/25410/view
 -- Date: 2013-01-13 07:10
 -- Who: Emmaleah
 -- Log: Change incorrect QID in A/C steps too...
@@ -146,13 +156,13 @@ T Champion of Chi-Ji|QID|30740|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius. Con
 
 ;white tigar temple
 N Achievement Opportunity - Finish Them!|ACH|7286|PRE|31381+31380|N|This one will take a minimum of two trips to the Temple of the White Tiger. It requires you to face all the champions. It is random which set of champions you face. You do not have to get the Tag credit for these, only the kill credit.|
-A Contending with Bullies|QID|31517|PRE|31380+31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen, if he isn't here, check this off manually and then find Lin Tenderpaw (next line of guide).|
+A Contending with Bullies|QID|31517|PRE|31380+31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen, if he isn't here, check this off manually and then find Lin Tenderpaw after accepting the challenge quest.(next line of guide).|
+A Random Round 1|QID|30879;30880|PRE|31380+31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen who wanders a bit and may be in a diferant spot in the temple.|
 A The Torch of Strength|QID|31492|PRE|31380+31381|LEAD|31517|M|68.4,56.4|Z|Kun-Lai Summit|N|From Lin Tenderpaw.|
 C Contending with Bullies|QID|31517|M|71,55.8|Z|Kun-Lai Summit|N|Shonuf is located in the village of Yinying to the SE. Clear the area around him or the other mobs will assist.|
 C The Torch of Strength|QID|31492|N|If a whirlwind gets close, your torch goes out, if you still have the debuff, you can relight your torch by standing next to another player with a lit torch for a second or so, or go talk to the quest giver to get a new torch. Remember there is no time limit on this quest.|
-T Contending with Bullies|QID|31517|M|67.25,55.89|Z|Kun-Lai Summit|N|To Xuen.|
 T The Torch of Strength|QID|31492|M|68.4,56.4|Z|Kun-Lai Summit|N|To Lin Tenderpaw.|
-A Random Round 1|QID|30879;30880|PRE|31380+31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen who wanders a bit and may be in a diferant spot in the temple.|
+T Contending with Bullies|QID|31517|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
 C Round 1: Brewmaster Chani|QID|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|Challenge Chani to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 1: Brewmaster Chani|QID|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
 A Round 2: Clever Ashyo & Ken-Ken|QID|30881|PRE|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|From Xuen.|
@@ -180,21 +190,21 @@ C Round 4: Naster Windfur|QID|30902|M|66.4,46.4|Z|Kun-Lai Summit|N|To Xuen.|
 A Random daily from Ogo the Elder|QID|30952;30956|PRE|31382+31383|M|39.2,62.2|Z|Townlong Steppes|N|From Ogo the Elder.|
 A Three other random dailies|QID|30953;30954;30955;30957;30958;30959|PRE|31382+31383|M|39.2,62|Z|Townlong Steppes|N|From other NPCs on the Temple Steps.  This step will close when you pick up the first quest.|
 N Achievement Opportunity - Yak Attack|ACH|7288|ACTIVE|30956|N|While you can technically do this any time you are at the Yak's temple, it is easiest when you are on the quest The Siege Swells, since in that phase, Niuzao is running around killing everything and there are more attackers available to be killed.  What you need to do is tag 15 mobs and kill them in 5 seconds.  Unless you are in a full group or really well geared, this is best accomplished by tagging them and positioning them in front of a charging Niuzao.|
-C The Unending Siege|QID|30952|M|41,60|Z|Townlong Steppes|S|N|These are the non-elite mantid in the area.|
+C The Unending Siege|QID|30952|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|N|These are the non-elite mantid in the area.|
 C The Siege Swells|QID|30956|M|42,62|Z|Townlong Steppes|S|N|These are the non-elite mantid in the area.|
-C Fallen Sentinels|QID|30953|U|82381|M|42,62|Z|Townlong Steppes|S|N|You can use your own healing spells too.  If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
-C The Overwhelming Swarm|QID|30957|M|42,62|Z|Townlong Steppes|S|N|Niuzao should be rampaging around, fight the kunchong in front of him, and he assist your greatly. If he isn't, and you need help, you can pull them to the sentinals for assistance.|
-C A Blade is a Blade|QID|30954|NC|M|42,62|Z|Townlong Steppes|S|N|The mantid mobs drop these on the ground when they die.  Be nice and don't take the ones beside where someone else is fighting.|
-C Paying Tribute|QID|30955|NC|M|42,62|Z|Townlong Steepes|S|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
-C In Battle's Shadow|QID|30958|NC|M|42,62|Z|Townlong Steepes|S|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
-C The Big Guns|QID|30959|U|82346|M|42,62|Z|Townlong Steepes|N|If you stand at extreme range, the bugs inside are less likely to agro. You can use the pots on the kunchong too if you happen to have  "! The Overwhelming Swarm" also.|
-C The Unending Siege|QID|30952|M|41,60|Z|Townlong Steppes|US|N|These are the non-elite mantid in the area.|
-C The Siege Swells|QID|30956|M|42,62|Z|Townlong Steppes|US|N|These are the non-elite mantid in the area.|
-C Fallen Sentinels|QID|30953|U|82381|M|42,62|Z|Townlong Steppes|US|N|You can use your own healing spells too.  If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
-C The Overwhelming Swarm|QID|30957|M|42,62|Z|Townlong Steppes|US|N|Niuzao should be rampaging around, fight the kunchong in front of him, and he assist your greatly. If he isn't, and you need help, you can pull them to the sentinals for assistance.|
-C A Blade is a Blade|QID|30954|NC|M|42,62|Z|Townlong Steppes|US|N|The mantid mobs drop these on the ground when they die.  Be nice and don't take the ones beside where someone else is fighting.|
-C Paying Tribute|QID|30955|NC|M|42,62|Z|Townlong Steepes|US|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
-C In Battle's Shadow|QID|30958|NC|M|42,62|Z|Townlong Steepes|US|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
+C Fallen Sentinels|QID|30953|U|82381|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|N|You can use your own healing spells too.  If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
+C The Overwhelming Swarm|QID|30957|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|N|Niuzao should be rampaging around, fight the kunchong in front of him, and he assist your greatly. If he isn't, and you need help, you can pull them to the sentinals for assistance.|
+C A Blade is a Blade|QID|30954|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|N|The mantid mobs drop these on the ground when they die.  Be nice and don't take the ones beside where someone else is fighting.|
+C Paying Tribute|QID|30955|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|S|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
+C In Battle's Shadow|QID|30958|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|S|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
+C The Big Guns|QID|30959|U|82346|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|N|If you stand at extreme range, the bugs inside are less likely to agro. You can use the pots on the kunchong too if you happen to have  "! The Overwhelming Swarm" also.|
+C The Unending Siege|QID|30952|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|These are the non-elite mantid in the area.|
+C The Siege Swells|QID|30956|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|These are the non-elite mantid in the area.|
+C Fallen Sentinels|QID|30953|U|82381|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|You can use your own healing spells too.  If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
+C The Overwhelming Swarm|QID|30957|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|Niuzao should be rampaging around, fight the kunchong in front of him, and he assist your greatly. If he isn't, and you need help, you can pull them to the sentinals for assistance.|
+C A Blade is a Blade|QID|30954|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|The mantid mobs drop these on the ground when they die.  Be nice and don't take the ones beside where someone else is fighting.|
+C Paying Tribute|QID|30955|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|US|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
+C In Battle's Shadow|QID|30958|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|US|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
 T The Unending Siege|QID|30952|M|39.2,62.2|Z|Townlong Steppes|N|To Ogo the Elder.|
 T The Siege Swells|QID|30956|M|39.2,62.2|Z|Townlong Steppes|N|To Ogo the Elder.|
 T Fallen Sentinels|QID|30953|M|39.2,62|Z|Townlong Steppes|N|To Yak-Keeper Kyana.|
