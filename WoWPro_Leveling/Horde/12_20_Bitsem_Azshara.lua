@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2013-01-22 17:55
+-- Who: Ludovicus Maior
+-- Log: Coord Teaks
+
+-- URL: http://wow-pro.com/node/3217/revisions/25378/view
 -- Date: 2013-01-12 20:04
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -119,23 +124,23 @@ T Refleshification|QID|14194|M|29.16,66.33|N|To Horzak Zignibble.|
 A Another Warm Body|QID|14468|M|29.44,66.76|RANK|2|N|From Private Worcester.|
 T Another Warm Body|QID|14468|M|29.43,57.68|N|To Commander Molotov.|
 A Hand-me-downs|QID|14469|RANK|2|M|29.43,57.68|N|From Commander Molotov.|
-A Military Breakthrough|QID|14470|RANK|2|M|29.43,57.68|N|From Glix Grindlock.|
-A First Degree Mortar|QID|14471|RANK|2|M|29.13,57.90|N|From Xiz "The Eye" Salvoblast.|
+A Military Breakthrough|QID|14470|RANK|2|M|29.38,57.61|N|From Glix Grindlock.|
+A First Degree Mortar|QID|14471|RANK|2|M|29.10,57.94|N|From Xiz "The Eye" Salvoblast.|
 C Hand-me-downs|QID|14469|S|M|27.75,54.06|N|Retrieve 12 Military Supply Packs from the central minefield.|
 C Military Breakthrough|QID|14470|M|27.63,51.91|N|Kill Warlord Krellen and recover the SFG.|
 C Hand-me-downs|QID|14469|US|M|27.75,54.06|N|Retrieve 12 Military Supply Packs from the central minefield.|
 C First Degree Mortar|QID|14471|M|31.10,57.63|N|Use a Goblin Mortar to slaughter 60 Spitelash Attackers.|
-T First Degree Mortar|QID|14471|M|29.20,57.91|N|To Xiz "The Eye" Salvoblast.|
-T Military Breakthrough|QID|14470|M|29.32,57.71|N|To Glix Grindlock.|
-T Hand-me-downs|QID|14469|M|29.41,57.68|N|To Commander Molotov.|
+T First Degree Mortar|QID|14471|M|29.10,57.94|N|To Xiz "The Eye" Salvoblast.|
+T Military Breakthrough|QID|14470|M|29.38,57.61|N|To Glix Grindlock.|
+T Hand-me-downs|QID|14469|M|29.46,57.67|N|To Commander Molotov.|
 
-A In The Face!|QID|14472|RANK|2|M|29.41,57.68|N|From Glix Grindlock.|
+A In The Face!|QID|14472|RANK|2|M|29.38,57.61|N|From Glix Grindlock.|
 C In The Face!|QID|14472|M|31.44,60.75|N|Use an SFG to kill an Enslaved Son of Arkkoroc in the southern minefield.|
-T In The Face!|QID|14472|M|29.38,57.71|N|To Glix Grindlock.|
-A Profitability Scouting|QID|24452|RANK|2|M|29.38,57.71|N|From Commander Molotov.|
+T In The Face!|QID|14472|M|29.38,57.61|N|To Glix Grindlock.|
+A Profitability Scouting|QID|24452|RANK|2|M|29.46,57.67|N|From Commander Molotov.|
 C Profitability Scouting|QID|24452|NC|U|49701|M|31.31,49.92|N|Use the stealth field generator to infiltrate the Ruins of Eldarath and identify the Heart of Arkkoroc.|
-T Profitability Scouting|QID|24452|M|29.47,57.78|N|To Commander Molotov.|
-A Private Chat|QID|24453|PRE|24452|RANK|2|M|29.47,57.78|N|From Commander Molotov.|
+T Profitability Scouting|QID|24452|M|29.46,57.67|N|To Commander Molotov.|
+A Private Chat|QID|24453|PRE|24452|RANK|2|M|29.46,57.67|N|From Commander Molotov.|
 T Private Chat|QID|24453|M|29.55,66.73|N|Back to the Orgrimmar Rocketway Exchange, to Private Worcester.|
 A A Thousand Stories in the Sand|QID|14201|M|29.7,66.9|N|From Malynea Skyreaver.|
 A Survey the Lakeshore|QID|14202|M|29.71,67.11|N|From Custer Clubnik.|N|Protect the goblin that you call with the beacon, while they survey the West, North and East Markers.|
@@ -261,7 +266,7 @@ A Handling the Goods|QID|14486|PRE|14487|M|34.52,44.71|N|From Tora Halotrix.|
 C Handling the Goods|QID|14486|U|49629|S|M|35.11,49.95|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|
 C Extermination|QID|14480|U|49629|S|M|33.49,48.16|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|
 C Ticker Required|QID|14485|U|49629|M|34.30,48.21;34.06,51.64|CN|N|Bring Ticker into the ruins and cover him as he sets up bombs at 3 of the Spitelash Runestones. The first one should be respawned by the time you've blown the second one up.|
-C Head of the Snake|QID|14484|U|49649|M|34.44,44.77|N|Kill Lord Kassarus. Pick up the Impaling Spines he throws and throw them back during the fight.|
+C Head of the Snake|QID|14484|U|49649|M|36.01,49.87|N|Kill Lord Kassarus. Pick up the Impaling Spines he throws and throw them back during the fight.|
 C Still Beating Heart|QID|14487|U|49629|M|31.92,50.20|N|Recover the Heart of Arkkoroc from the center of the Ruins of Eldarath.|
 C Handling the Goods|QID|14486|U|49629|US|M|35.11,49.95|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|
 C Extermination|QID|14480|U|49629|US|M|33.49,48.16|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|
