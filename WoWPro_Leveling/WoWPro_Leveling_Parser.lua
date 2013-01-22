@@ -563,9 +563,15 @@ function WoWPro.Leveling:RowUpdate(offset)
 		
 		-- Target Button --
 		if target then
-			row.targetbutton:Show() 
-			row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
-				.."\n/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end")
+		    local mtext 
+			row.targetbutton:Show()
+			if string.sub(target,1,1) == "/" then
+			    mtext = string.gsub(target,"\\n","\n")
+			else
+			    mtext = "/cleartarget\n/targetexact "..target.."\n"
+			    mtext = mtext .. "/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
+			end
+			row.targetbutton:SetAttribute("macrotext", mtext)
 			if use then
 				row.targetbutton:SetPoint("TOPRIGHT", row.itembutton, "TOPLEFT", -5, 0)
 			else
