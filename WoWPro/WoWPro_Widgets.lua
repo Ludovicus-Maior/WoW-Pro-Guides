@@ -250,3 +250,68 @@ function WoWPro:CreateScrollbar(parent, offset, step, where)
 
 	return f, up, down, border
 end
+
+local ErrorLog = nil
+-- Creates a Scrolling Text Window for Error Logs
+-- Parent is required, offset and step are optional
+function WoWPro:CreateErrorLog(title)
+    if ErrorLog then return ErrorLog end
+    
+    ErrorLog = CreateFrame("Frame", "WoWProErrorLog", UIParent)
+    ErrorLog:Hide()
+    ErrorLog:SetPoint("CENTER", "UIParent", "CENTER")
+    ErrorLog:SetFrameStrata("TOOLTIP")
+    ErrorLog:SetHeight(512)
+    ErrorLog:SetWidth(768)
+    ErrorLog:SetBackdrop({
+    	bgFile = "Interface/Tooltips/ChatBubble-Background",
+    	edgeFile = "Interface/Tooltips/ChatBubble-BackDrop",
+    	tile = true, tileSize = 32, edgeSize = 32,
+    	insets = { left = 32, right = 32, top = 32, bottom = 32 }
+    })
+    ErrorLog:SetBackdropColor(0,0,0, 1)
+    ErrorLog:SetMovable(true)
+    ErrorLog:SetClampedToScreen(true)
+
+    ErrorLog.Drag = CreateFrame("Button", nil, ErrorLog)
+    ErrorLog.Drag:SetPoint("TOPLEFT", ErrorLog, "TOPLEFT", 10,-5)
+    ErrorLog.Drag:SetPoint("TOPRIGHT", ErrorLog, "TOPRIGHT", -10,-5)
+    ErrorLog.Drag:SetHeight(8)
+    ErrorLog.Drag:SetHighlightTexture("Interface\\FriendsFrame\\UI-FriendsFrame-HighlightBar")
+    
+    ErrorLog.Drag:SetScript("OnMouseDown", function() ErrorLog:StartMoving() end)
+    ErrorLog.Drag:SetScript("OnMouseUp", function() ErrorLog:StopMovingOrSizing() end)
+    
+    ErrorLog.Mesg = ErrorLog:CreateFontString("", "OVERLAY", "GameFontNormalSmall")
+    ErrorLog.Mesg:SetJustifyH("CENTER")
+    ErrorLog.Mesg:SetPoint("BOTTOMLEFT",ErrorLog, "BOTTOMLEFT", -10, 0)
+    ErrorLog.Mesg:SetPoint("RIGHT", ErrorLog, "RIGHT", 15, 0)
+    ErrorLog.Mesg:SetHeight(20)
+    ErrorLog.Mesg:SetText("Select All and Copy the above error message to report this log. Hit ESC to close.")
+    
+    ErrorLog.Title = ErrorLog:CreateFontString("", "OVERLAY", "GameFontNormal")
+    ErrorLog.Title:SetJustifyH("CENTER")
+    ErrorLog.Title:SetPoint("TOPRIGHT",ErrorLog, "TOPRIGHT", -5, -5)
+    ErrorLog.Title:SetPoint("TOPLEFT", ErrorLog, "RIGHT", 5, -5)
+    ErrorLog.Title:SetHeight(20)
+    ErrorLog.Title:SetText(title)
+    
+    ErrorLog.Scroll = CreateFrame("ScrollFrame", "WoWProErrorLogScroll", ErrorLog, "UIPanelScrollFrameTemplate")
+    ErrorLog.Scroll:SetPoint("TOPLEFT", ErrorLog, "TOPLEFT", 20, -20)
+    ErrorLog.Scroll:SetPoint("RIGHT", ErrorLog, "RIGHT", -30, 0)
+    ErrorLog.Scroll:SetPoint("BOTTOM", ErrorLog, "BOTTOM", 0, 20)
+    
+    ErrorLog.Box = CreateFrame("EditBox", "WoWProErrorLogEditBox", ErrorLog.Scroll)
+    ErrorLog.Box:SetHeight(512)
+    ErrorLog.Box:SetWidth(768)
+    ErrorLog.Box:SetMultiLine(true)
+    ErrorLog.Box:SetFontObject(GameFontHighlight)
+    ErrorLog.Box:SetScript("OnEscapePressed", function () ErrorLog:Hide() end)
+    ErrorLog.Box:SetScript("OnEditFocusGained", function () ErrorLog.Box:HighlightText() end)
+    
+    ErrorLog.Scroll:SetScrollChild(ErrorLog.Box)
+    
+    return ErrorLog
+end
+
+
