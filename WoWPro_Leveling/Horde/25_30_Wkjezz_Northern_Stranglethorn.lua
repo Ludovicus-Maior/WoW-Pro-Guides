@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2013-01-22 18:09
+-- Who: Ludovicus Maior
+-- Log: Cleaned up guide start to account for Ashenvale.
+--	Corrected flight point names.
+--	Coord Tweaks.
+
+-- URL: http://wow-pro.com/node/3232/revisions/25478/view
 -- Date: 2013-01-13 19:41
 -- Who: Ludovicus Maior
 -- Log: Added CC tag
@@ -50,29 +57,32 @@
 -- Date: 2010-12-03 10:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjNor2530', 'Northern Stranglethorn', 'Gloves', '30', '35', 'WkjCap3035', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('WkjNor2530', 'Northern Stranglethorn', 'Gloves', '25', '30', 'WkjCap3035', 'Horde', function()
 
 
 return [[
 
+A Well, Come to the Jungle|QID|26416|M|50.6,67|Z|Ashenvale|N|This guide starts in Ashenvale. Start with Cromula, who wanders up and down the hall.|
 
+F Orgrimmar|QID|26416|M|49.49,65.24|Z|Ashenvale|N|Wind Tamer Shosok|
 
+T Well, Come to the Jungle|QID|26416|M|53.94,54.42|Z|Orgrimmar|N|To Bort.|
 
-A Northern Stranglethorn: The Fallen Empire|QID|26417|M|53.94,54.42|Z|Orgrimmar|N|This guide starts at Orgrimmar assuming you have trained new skills. Get this quest from Bort.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|M|53.94,54.42|Z|Orgrimmar|N|From Bort.|
+
+N Before you fly off|QID|26416|N|Now is a good time to train up, repair and get supplies.|
+
+R The Zep tower.|QID|99999|CC|M|52.52,53.18|Z|Orgrimmar|N|On the NE tip.|
 
 T Northern Stranglethorn: The Fallen Empire|QID|26417|M|38.41,50.52|N|To Commander Aggro'gosh.|
 
-R The Zep tower.|QID|99999|CC|M|52.32,54.41|Z|Orgrimmar|N|On the NE tip.|
-
 A The Defense of Grom'gol: Raptor Risk|QID|26278|M|38.41,50.52|N|From Commander Aggro'gosh.|
-
-F Northern Stranglethorn: The Fallen Empire|QID|26417|M|38.46,50.46|N|Ride the zep.|
 
 C The Defense of Grom'gol: Raptor Risk|QID|26278|M|36.34,43.04|
 
 h Grom'gol Base Camp|QID|26417|M|37.36,51.83|N|At Innkeeper Thulbek. Repair/Restock here also.|
 
-f Grom'gol Base Camp|QID|26350|M|38.96,51.14|N|At Thysta.|
+f Grom'gol|QID|26350|M|38.96,51.14|N|At Thysta.|
 
 A A Lashtail Hatchling|QID|26317|M|36.34,43.04|N|From Lashtail Raptor.|
 
@@ -86,7 +96,7 @@ A The Defense of Grom'gol: Ogre Oppression|QID|26279|M|38.36,50.71|N|From Comman
 
 A The Defense of Grom'gol: Murloc Menace|QID|26280|M|38.37,50.65|N|From Commander Aggro'gosh.|
 
-A Mosh'Ogg Handiwork|QID|26407|U|58492|M|42.82,51.89|
+A Mosh'Ogg Handiwork|QID|26407|U|58491|M|42.82,51.89|From the hand...|
 
 C The Defense of Grom'gol: Ogre Oppression|QID|26279|M|45.46,51.62|
 
@@ -132,7 +142,7 @@ T Bloodscalp Insight|QID|9436|M|38.08,50.15|N|To Nemeth Hawkeye.|
 
 A An Unusual Patron|QID|9457|M|38.08,50.15|N|From Nemeth Hawkeye.|
 
-C A Nose for This Sort of Thing|QID|26325|U|58165|M|19.03,25.78|N|Your new best friend will complete this qest for you as you are killing trolls.  Make sure you have empty bag slots though.|
+C A Nose for This Sort of Thing|QID|26325|U|58165|M|19.03,25.78|N|Your new best friend will complete this quest for you as you are killing trolls.  Make sure you have empty bag slots though.|
 
 C Headhunting|QID|26299|M|18.57,25.06|
 
@@ -158,9 +168,9 @@ C Population Con-Troll|QID|26338|S|M|27.16,23.35|
 
 R Population Con-Troll|QID|26338|CC|M|21.56,21.76|N|Enter the troll complex here.|
 
-C Nezzliok Will Know|QID|26300|M|26.58,21.21|
+C Nezzliok Will Know|QID|26300|M|26.75,19.50|
 
-C Who's a Big Troll?|QID|26330|U|58165|M|25.04,19.94|
+C Who's a Big Troll?|QID|26330|U|58165|M|24.87,18.19|
 
 C Population Con-Troll|QID|26338|US|M|26.97,23.13|
 
