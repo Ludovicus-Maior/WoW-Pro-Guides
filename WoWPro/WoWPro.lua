@@ -445,6 +445,20 @@ event from the guide frame.
 	end
 end
 
+function WoWPro:TargetNpcId()
+    local guid = UnitGUID("target");
+    local B = tonumber(guid:sub(5,5), 16);
+    local maskedB = B % 8; -- x % 8 has the same effect as x & 0x7 on numbers <= 0xf
+    local knownTypes = {[0]="player", [3]="NPC", [4]="pet", [5]="vehicle"};
+    local npcid = tonumber(guid:sub(7,10), 16);
+    WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!"));
+    if maskedB == 3 then
+        return npcid
+    else
+        return nil
+    end
+end
+
 function WoWPro:LoadAllGuides()
     WoWPro:Print("Test Load of All Guides")
     local aCount=0
