@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2013-01-22 18:03
+-- Who: Ludovicus Maior
+-- Log: Coord tweaks, a new CS tag, and moved up turnins for Suncrown.
+
+-- URL: http://wow-pro.com/node/3221/revisions/25479/view
 -- Date: 2013-01-13 19:46
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -99,21 +104,27 @@ T Delivery to Tranquillien |QID|9148|N|Follow the road south to Tranquillien. To
 
 A The Forsaken |QID|9327|R|BloodElf|N|From Vandril.|M|46.35,28.39|
 A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|N|From Vandril.|
-T The Forsaken |QID|9327|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
-T The Forsaken |QID|9329|R|Orc,Troll,Tauren,Undead,Goblin|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
+T The Forsaken |QID|9327|M|44.84,32.43|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
+T The Forsaken |QID|9329|M|44.84,32.43|R|Orc,Troll,Tauren,Undead,Goblin|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
 A Return to Arcanist Vandril|QID|9758|M|44.84,32.43|N|From High Executor Mavren.|
 T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|M|46.33,28.45|N|From Arcanist Vandril.|
-A Tomber's Supplies|QID|9152|M|47.20,28.64|N|From Rathis Tomber.|
+
 A Wanted: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the Wanted Poster. This is a group quest, the 2 mobs are 21 elites. If you see anyone looking for help, or offering help, take them up on it.|RANK|3|
 h Tranquillien|QID|9157|M|48.87,32.38|N|At Innkeeper Kalarin.|
 r Training/Repair/Sell Junk|QID|9157|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
-A The Plagued Coast|QID|9149|M|47.57,34.78|N|From Apothecary Renzithen.|
 
 A Anok'suten|QID|9315|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|
 C Suncrown Village|QID|9138|S|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
 C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten is a Level 11 elite with 624 HP. He wanders counter-clockwise around the circle path.|T|Anok'suten|
 C Suncrown Village|QID|9138|US|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
+
+H Tranquillien|QID|9138|N|Hearth back to Tranquillien.|
+T Suncrown Village|QID|9138|M|46.24,28.35|N|To Arcanist Vandril.|
+T Anok'suten|QID|9315|M|46.24,28.35|N|To Arcanist Vandril.|
+
+A Help Ranger Valanna!|QID|9145|M|45.48,32.45|N|From Ranger Lethvalin.|
+T Help Ranger Valanna!|QID|9145|M|69.30,15.20|N|From Ranger Valanna.|
 A Dealing with Zeb'Sora|QID|9143|M|69.30,15.20|N|From Ranger Valanna.|
 
 A Forgotten Rituals|QID|9157|M|72.19,18.96|N|From Geranis Whitemorn.|
@@ -125,50 +136,50 @@ C Vanquishing Aquantion|QID|9174|M|71.32,14.93|N|Jump back into the lake, head t
 T Vanquishing Aquantion|QID|9174|M|72.23,18.99|N|To Geranis Whitemorn.|
 C Dealing with Zeb'Sora|QID|9143|M|77.69,12.65|N|Kill any troll you see to get their ears.|
 
-A Bearers of the Plague|QID|9158|M|72.51,32.18|N|From Farstrider Sedina at the Farstrider Enclave.|
-A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.27|N|From the Wanted Poster.|
-A Spirits of the Drowned|QID|9274|M|72.21,29.89|N|From Ranger Krenn'an.|
+A Bearers of the Plague|QID|9158|M|72.49,32.14|N|From Farstrider Sedina at the Farstrider Enclave.|
+A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.18|N|From the Wanted Poster.|
+A Spirits of the Drowned|QID|9274|M|72.21,29.76|N|From Ranger Krenn'an.|
 C Spirits of the Drowned|QID|9274|S|M|71.04,24.00|N|Kill any ghost you see floating around in the lake.|
 T Dealing with Zeb'Sora|QID|9143|M|69.34,15.10|N|To Ranger Valanna.|
 A Report to Captain Helios|QID|9146|M|69.34,15.10|N|From Ranger Valanna.|
 C Spirits of the Drowned|QID|9274|US|M|71.04,24.00|N|Kill any ghost you see floating around in the lake.|
-T Spirits of the Drowned|QID|9274|M|72.30,29.72|N|To Ranger Krenn'an.|
-T Report to Captain Helios|QID|9146|M|72.34,29.69|N|To Captain Helios.|
+T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
+T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
 
-H Tranquillien|QID|9138|N|Hearth back to Tranquillien.|
-T Suncrown Village|QID|9138|M|46.24,28.35|N|To Arcanist Vandril.|
+H Tranquillien|QID|9158|N|Hearth back to Tranquillien.|
+A The Plagued Coast|QID|9149|M|47.66,34.86|N|From Apothecary Renzithen.|
+A Tomber's Supplies|QID|9152|M|47.01,28.38|N|From Rathis Tomber.|
 A Goldenmist Village|QID|9139|M|46.24,28.35|N|From Arcanist Vandril.|
-T Anok'suten|QID|9315|M|46.24,28.35|N|To Arcanist Vandril.|
-A Culinary Crunch|QID|9171|M|48.40,30.90|N|From Master Chef Mouldier.|
+A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
 ;r Repair/Restock|QID|9171|M|49.08,30.31|N|At Blacksmith Frances.|
-A Salvaging the Past|QID|9150|M|46.07,31.90|N|From Magister Darenis.|
-A Investigate An'daroth|QID|9160|M|44.93,32.45|N|From Dame Auriferous.|
-A Trouble at the Underlight Mines|QID|9192|M|44.83,32.26|N|From Deathstalker Maltendis.|
-A Down the Dead Scar|QID|9155|M|46.04,33.54|N|From Deathstalker Rathiel.|
+A Salvaging the Past|QID|9150|M|46.01,31.95|N|From Magister Darenis.|
+A Investigate An'daroth|QID|9160|M|44.88,32.51|N|From Dame Auriferous.|
+A Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|From Deathstalker Maltendis.|
+A Down the Dead Scar|QID|9155|M|46.02,33.56|N|From Deathstalker Rathiel.|
 C Down the Dead Scar|QID|9155|M|39.76,32.47|N|Head down into the Dead Scar and kill Risen Hungerers and Gangled Cannibals. If you come across any Ghostclaw Lynxs, kill them as well.|
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders untill you have 5 Crunchy Spider Legs.|S|
 C Salvaging the Past|QID|9150|M|33.41,32.40|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
 C Tomber's Supplies|QID|9152|M|33.56,26.81|N|It is in the wagon.\n\nYou will most likely have to clear an area around it.|NC|
 
-C Investigate An'daroth|QID|9160|M|37.02,15.42|N|Kill the Sentinel Spies around An'daroth.\nHead into the center of the area to the monument to get the investigation part.|
+C Investigate An'daroth|QID|9160|M|37.22,23.98;38.06,18.77;37.04,15.90|CS|N|Kill the Sentinel Spies around An'daroth.\nHead into the center of the area to the monument to get the investigation part.|
 ;The QO step for 'Investigate An'daroth' removed since there was no way of really making it a QO step without it completing before getting there, or just not working.
 C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
 C The Plagued Coast|QID|9149|M|19.02,24.06|N|Kill any murlocs you see for their spines. You will need 6 spines.|
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders untill you have 5 Crunchy Spider Legs.|US|
 
 H Tranquillien|QID|9139|N|Hearth back to Tranquillien.|
-T Culinary Crunch|QID|9171|M|48.40,31.00|N|To Master Chef Mouldier.|
+T Culinary Crunch|QID|9171|M|48.43,30.93|N|To Master Chef Mouldier.|
 r Repair/Restock|QID|9155|M|49.07,30.33|N|At Blacksmith Frances. Do not sell any Rotting Hearts you may have.|
-T Tomber's Supplies|QID|9152|M|47.15,28.71|N|To Rathis Tomber.|
+T Tomber's Supplies|QID|9152|M|47.01,28.38|N|To Rathis Tomber.|
 T Goldenmist Village|QID|9139|M|46.30,28.37|N|To Arcanist Vandril.|
 A Windrunner Village|QID|9140|M|46.30,28.37|N|From Arcanist Vandril.|
-T Salvaging the Past|QID|9150|M|46.07,31.92|N|To Magister Darenis.|
-T Down the Dead Scar|QID|9155|M|46.06,33.47|N|To Deathstalker Rathiel.|
-T Investigate An'daroth|QID|9160|M|44.94,32.44|N|To Dame Auriferous.|
-A Into Occupied Territory|QID|9163|M|44.94,32.44|N|From Dame Auriferous.|
+T Salvaging the Past|QID|9150|M|46.01,31.95|N|To Magister Darenis.|
+T Down the Dead Scar|QID|9155|M|46.02,33.56|N|To Deathstalker Rathiel.|
+T Investigate An'daroth|QID|9160|M|44.88,32.51|N|To Dame Auriferous.|
+A Into Occupied Territory|QID|9163|M|44.88,32.51|N|From Dame Auriferous.|
 A Retaking Windrunner Spire|QID|9173|M|44.83,32.39|N|From High Executor Mavren.|
-T The Plagued Coast|QID|9149|M|47.59,34.74|N|To Apothecary Renzithen.|
-l Rotting Hearts|QID|9140|L|22641 10|N|Kill any Risen Hungerers or Risen Stalkers farther south. Be careful of Luzran.\nRisen Stalkers are higher level but seem to have higher drop rate.|M|38.94,36.68;38.06,56.25|CN|
+T The Plagued Coast|QID|9149|M|47.66,34.86|N|To Apothecary Renzithen.|
+l Rotting Hearts|QID|9216|L|22641 10|N|Kill any Risen Hungerers or Risen Stalkers farther south. Be careful of Luzran.\nRisen Stalkers are higher level but seem to have higher drop rate.|M|38.94,36.68;38.06,56.25|CN|
 A Underlight Ore Samples|QID|9207|M|31.42,48.31|N|From Apprentice Shatharia.|
 C Trouble at the Underlight Mines|QID|9192|M|29.25,47.93|N|Head down the slope and kill any gnoll you need.|
 C Underlight Ore Samples|QID|9207|M|29.25,47.93|N|You should have all the ore you need by the time you get done the previous step. If not, keep killing gnolls till you do.|
@@ -185,9 +196,9 @@ A Spinal Dust|QID|9218|M|48.95,31.35|N|From Magistrix Aminel.|
 A Rotting Hearts|QID|9216|M|48.95,31.35|N|From Magistrix Aminel.|
 T Rotting Hearts|QID|9216|M|48.95,31.35|N|To Magistrix Aminel.|
 T Windrunner Village|QID|9140|M|46.39,28.44|N|To Arcanist Vandril.|
-T Into Occupied Territory|QID|9163|M|44.94,32.48|N|To Dame Auriferous.|
-A Deliver the Plans to An'telas|QID|9166|M|44.94,32.48|N|From Dame Auriferous.|
-T Trouble at the Underlight Mines|QID|9192|M|44.81,32.33|N|To Deathstalker Maltendis.|
+T Into Occupied Territory|QID|9163|M|44.88,32.51|N|To Dame Auriferous.|
+A Deliver the Plans to An'telas|QID|9166|M|44.88,32.51|N|From Dame Auriferous.|
+T Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|To Deathstalker Maltendis.|
 A Troll Juju|QID|9199|M|44.81,32.33|N|From High Executor Mavren.|
 T Retaking Windrunner Spire|QID|9173|M|44.82,32.37|N|To High Executor Mavren.|
 T The Lady's Necklace|QID|9175|M|44.82,32.37|N|To High Executor Mavren.|
@@ -239,8 +250,8 @@ C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexx
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|US|N|Kill Catlords and Hexxers till you get 3 Hexxer Staves and 3 Catlord Claws.|
 
 H Tranquillien|QID|9193|U|6948|N|Hearth back to Tranquillien or fly there if you want to save your hearth.|
-A The Sanctum of the Sun|QID|9151|M|46.04,31.97|N|From Magister Darenis.|
-T Troll Juju|QID|9199|M|44.84,32.32|N|To Deathstalker Maltendis.|
+A The Sanctum of the Sun|QID|9151|M|46.01,31.95|N|From Magister Darenis.|
+T Troll Juju|QID|9199|M|44.74,32.29|N|To Deathstalker Maltendis.|
 T Investigate the Amani Catacombs|QID|9193|M|44.85,32.65|N|To Advisor Valwyn.|
 r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
 F Hatchet Hills|QID|9169|M|45.5,30.55|N|Fly to Hatchet Hills (Zul'Aman).|
@@ -273,8 +284,8 @@ T A Little Dash of Seasoning|QID|9275|M|72.68,31.54|N|To Apothecary Venustus.|
 H Tranquillien|QID|9218|N|Hearth back to Tranquillien.|
 T Spinal Dust|QID|9218|M|48.97,31.44|N|To Magistrix Aminel.|
 r Repair/Restock|QID|9877|M|49.05,30.32|N|At Blacksmith Frances.|
-T A Restorative Draught|QID|9877|M|47.54,34.80|N|To Apothecary Renzithen.|
-A Captives at Deatholme|QID|9164|M|47.54,34.80|N|From Apothecary Renzithen.|
+T A Restorative Draught|QID|9877|M|47.66,34.86|N|To Apothecary Renzithen.|
+A Captives at Deatholme|QID|9164|M|47.66,34.86|N|From Apothecary Renzithen.|
 C Apothecary Enith|QID|9164|QO|Apothecary Enith Rescued: 1/1|M|32.1,73.9|N|Go down into the crypt and Talk to Apothecary Enith.|
 K Jurion the Deceiver|QID|9170|QO| Jurion the Deceiver slain: 1/1|M|32.1,74|N|Kill Jurion the Deciever in the crypt.|
 K Mirdoran the Fallen|QID|9170|QO|Mirdoran the Fallen slain: 1/1|M|37.1,79.1|N|Kill Mirdoran the Fallen.|
@@ -292,7 +303,7 @@ T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.91,48.38|N|To Arcanist Janeda.|
 K Luzran |QID|9156|M|39.5,32;37.3,67.5|CN|N|If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
 K Knucklerot |QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|RANK|3|
-T Wanted: Knucklerot and Luzran|QID|9156|N|To Deathstalker Rathiel.|RANK|3|
+T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|RANK|3|
 R Tranquillien|QID|9328|M|46,33|N|Run to Tranquillien.|
 
 F Eversong Woods|QID|9328|M|46,30|N|Fly to Silvermoon City flight hub.|

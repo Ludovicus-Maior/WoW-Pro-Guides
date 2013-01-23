@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2013-01-22 18:06
+-- Who: Ludovicus Maior
+-- Log: "Orders from Base Camp" may be gone.   Corrected CN tag to CS tag.  Coord Tweaks.
+
+-- URL: http://wow-pro.com/node/3234/revisions/25473/view
 -- Date: 2013-01-13 19:33
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -53,7 +58,7 @@
 WoWPro.Leveling:RegisterGuide('JiySto2530', "Stonetalon Mountains", 'Jiyambi', '25', '30', 'JiySou3035', 'Horde', function()
 return [[
 
-R Silverwind Refuge|QID|25945|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|
+R Silverwind Refuge|QID|25945;28532|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|
 T Warchief's Command: Stonetalon Mountains!|QID|28532|O|M|49.90,65.74|Z|Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.90,65.74|Z|Ashenvale|N|From Blood Guard Aldo Rockrain.|
 R The Fold|QID|25945|NC|M|48.58,66.46|Z|Ashenvale|N|Hop on the wagon and enjoy the ride.|
@@ -86,14 +91,14 @@ A Enemy of the Horde: Marshal Paltrow|QID|26011|PRE|26004|M|65.77,63.33|N|From S
 C Seek and Destroy|QID|26009|M|61.42,64.88|S|RANK|3|N|Kill Alliance soldiers.|LVL|31|
 C Ashes to Ashes|QID|26010|U|56473|M|61.42,64.88|S|N|Use the flamethrower on the tents.|
 C Enemy of the Horde: Marshal Paltrow|QID|26011|M|62.1,68.02|N|Kill Marshal Paltrow.|
-A Orders from Base Camp|QID|26016|M|62.04,67.88|N|The orders drop from Marshal Paltrow. Right-click them to accept the quest.|U|56474|
+; A Orders from Base Camp|QID|26016|M|62.04,67.88|N|The orders drop from Marshal Paltrow. Right-click them to accept the quest.|U|56474|
 C Ashes to Ashes|NC|QID|26010|U|56473|M|61.42,64.88|US|N|Use the flamethrower on the tents.|
 C Seek and Destroy|QID|26009|M|61.42,64.88|US|RANK|3|N|Kill Alliance soldiers.|LVL|31|
 l Mechanized Air|RANK|2|QID|26026|M|59.94,64.21|L|55223|N|Inside the goblin hut.|
 l Mechanized Fire|RANK|2|QID|26026|M|63.09,56.72|L|55221|N|On top of the huge logging machine.|
 l Mechanized Ice|RANK|2|QID|26026|M|66.18,50.05|L|55222|N|On top of the tower.|
 A BEWARE OF CRAGJAW!|RANK|2|QID|26043|M|65.01,49.37|N|From the STAY OUT! poster.|
-C Dream of a Better Tomorrow|RANK|2|NC|QID|26026|M|68.42,45.70;67.09,43.60;63.05,45.70|CN|N|At the end of the stretch of deck, guarded by Gerenzo Wrenchwhistle.|
+C Dream of a Better Tomorrow|RANK|2|NC|QID|26026|M|68.42,45.70;67.09,43.60;63.05,45.65|CS|N|At the end of the stretch of deck, guarded by Gerenzo Wrenchwhistle.|
 C BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.21,47.19|N|Jump off if you'd like to try to take on Cragjaw. He's at the center of the lake. Feel free to skip this quest if it's too hard and you can't find someone to help you.|
 
 H Krom'gar Fortress|QID|26011|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
@@ -102,7 +107,7 @@ T BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.77,63.31|N|To Spy-Mistress Anara.|
 T Seek and Destroy|QID|26009|M|66.09,63.75|RANK|3|N|To Overlord Krom'gar.|LVL|31|
 T Ashes to Ashes|QID|26010|M|66.09,63.75|N|To Overlord Krom'gar.|
 A Report to Bombgutz|QID|26020|PRE|26010|M|66.09,63.75|N|From Overlord Krom'gar.|
-T Orders from Base Camp|QID|26016|M|66.09,63.75|N|To Overlord Krom'gar.|
+; T Orders from Base Camp|QID|26016|M|66.09,63.75|N|To Overlord Krom'gar.|
 T Report to Bombgutz|QID|26020|M|66.27,62.92|N|To Chief Blastgineer Bombgutz.|
 A Where Are the Parts?|QID|26044|PRE|26020|M|66.27,62.92|N|From Chief Blastgineer Bombgutz.|
 T Dream of a Better Tomorrow|RANK|2|QID|26026|M|66.12,64.26|N|To Clarissa.|

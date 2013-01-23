@@ -27,25 +27,29 @@ _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
 BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
 _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
--- Debug print function --
 WoWPro.Serial = 0
+-- Add message to internal debug log
+function WoWPro:Add2Log(msg)
+	WoWPro.Serial = WoWPro.Serial + 1
+	if WoWPro.Serial > 999 then
+	    WoWPro.Serial = 0
+	end
+	if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
+	    if WoWPro.Log then
+	        WoWProDB.global.Log = WoWPro.Log
+	        WoWPro.Log = nil
+	    end
+	    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+	else
+	    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+	end
+end
+-- Debug print function --
+
 function WoWPro:dbp(message,...)
 	if WoWPro.DebugMode and message ~= nil then
 	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
-		DEFAULT_CHAT_FRAME:AddMessage( msg )
-		WoWPro.Serial = WoWPro.Serial + 1
-		if WoWPro.Serial > 999 then
-		    WoWPro.Serial = 1
-		end
-		if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
-		    if WoWPro.Log then
-		        WoWProDB.global.Log = WoWPro.Log
-		        WoWPro.Log = nil
-		    end
-		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
-		else
-		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
-		end
+	    WoWPro:Add2Log(msg)
 	end
 end
 WoWPro:Export("dbp")
@@ -55,19 +59,7 @@ function WoWPro:Print(message,...)
 	if message ~= nil then
 	    local msg = string.format("|c7fffff7f%s|r: "..message, self.name or "Wow-Pro",...)
 		DEFAULT_CHAT_FRAME:AddMessage( msg )
-		WoWPro.Serial = WoWPro.Serial + 1
-		if WoWPro.Serial > 999 then
-		    WoWPro.Serial = 1
-		end
-		if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
-		    if WoWPro.Log then
-		        WoWProDB.global.Log = WoWPro.Log
-		        WoWPro.Log = nil
-		    end
-		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
-		else
-		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
-		end
+        WoWPro:Add2Log(msg)
 	end
 end
 WoWPro:Export("Print")
@@ -77,19 +69,7 @@ function WoWPro:Warning(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...)
 		DEFAULT_CHAT_FRAME:AddMessage( msg )
-		WoWPro.Serial = WoWPro.Serial + 1
-		if WoWPro.Serial > 999 then
-		    WoWPro.Serial = 1
-		end
-		if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
-		    if WoWPro.Log then
-		        WoWProDB.global.Log = WoWPro.Log
-		        WoWPro.Log = nil
-		    end
-		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
-		else
-		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
-		end
+        WoWPro:Add2Log(msg)
 	end
 end
 WoWPro:Export("Warning")
@@ -99,22 +79,30 @@ function WoWPro:Error(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffff7d0a%s|r: "..message, self.name or "Wow-Pro",...)
 		DEFAULT_CHAT_FRAME:AddMessage( msg )
-		WoWPro.Serial = WoWPro.Serial + 1
-		if WoWPro.Serial > 999 then
-		    WoWPro.Serial = 1
-		end
-		if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
-		    if WoWPro.Log then
-		        WoWProDB.global.Log = WoWPro.Log
-		        WoWPro.Log = nil
-		    end
-		    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
-		else
-		    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
-		end
+        WoWPro:Add2Log(msg)
 	end
 end
 WoWPro:Export("Error")
+
+-- WoWPro error function --
+function WoWPro:LogEvent(event,...)
+    local msg = string.format("|cffff7d0a%s|r: %s(", self.name or "Wow-Pro",event)
+    local arg = {...}
+    local argn = table.getn(arg)
+    for i=1,argn do
+        if type(arg[i]) == "string" then
+            msg = msg .. '"' .. arg[i] .. '"'
+        else
+            msg = msg .. tostring(arg[i])
+        end
+        if i < argn then
+            msg = msg .. ", "
+        end
+    end
+    msg = msg .. ")"
+    WoWPro:Add2Log(msg)
+end
+
 
 -- Generate an ordered Index
 local function _generateOrderedIndex(t)
@@ -152,7 +140,7 @@ local function orderedNext(t, state)
     end
 
     -- no more value to return, cleanup
-    t.__orderedIndex = nil
+    t._orderedIndex = nil
     return
 end
 
@@ -333,6 +321,7 @@ function WoWPro:OnEnable()
 	end)
 	    
 	WoWPro.EventFrame:SetScript("OnEvent", function(frame, event, ...)		-- Setting up event handler
+	    WoWPro:LogEvent(event,...)
 		if WoWPro.InitLockdown then
 		    WoWPro:dbp("LockEvent Fired: "..event)
 		else
@@ -454,6 +443,20 @@ event from the guide frame.
 	for _, event in ipairs(eventtable) do
 		WoWPro.EventFrame:UnregisterEvent(event)
 	end
+end
+
+function WoWPro:TargetNpcId()
+    local guid = UnitGUID("target");
+    local B = tonumber(guid:sub(5,5), 16);
+    local maskedB = B % 8; -- x % 8 has the same effect as x & 0x7 on numbers <= 0xf
+    local knownTypes = {[0]="player", [3]="NPC", [4]="pet", [5]="vehicle"};
+    local npcid = tonumber(guid:sub(7,10), 16);
+    WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!"));
+    if maskedB == 3 then
+        return npcid
+    else
+        return nil
+    end
 end
 
 function WoWPro:LoadAllGuides()

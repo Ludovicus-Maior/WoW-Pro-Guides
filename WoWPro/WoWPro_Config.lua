@@ -728,23 +728,11 @@ local function createBlizzOptions()
 			    desc = L["Wow-Pro's Secret Debug Log"],
 			    image = "Interface\\RaidFrame\\ReadyCheck-Ready",
 			    func =  function (info)
-    			            WoWPro.LogBox = WoWPro.LogBox or CreateFrame("EditBox", "WowLog",UIParent)
+    			            WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
     			            local LogBox = WoWPro.LogBox
-    			            LogBox:SetWidth(512)
-                            LogBox:SetHeight(512)
-                            LogBox:SetMultiLine(true)
-                            LogBox:SetAutoFocus(false)
-
-                            LogBox:SetFontObject(GameFontHighlight)
-                            LogBox:SetText(WoWPro:LogDump())
-                            LogBox:SetPoint("CENTER")
-                            WoWPro:CreateBG(LogBox)
-    			            local title, subtitle = WoWPro:CreateHeading(LogBox,"Debug Log","Hit escape to dismiss")
-    			            LogBox.title = title
-    			            LogBox.subtitle = subtitle
-    			            
+                            LogBox.Box:SetText(WoWPro:LogDump())
+                            LogBox.Scroll:UpdateScrollChildRect()
                             LogBox:Show()
-                            LogBox:SetScript("OnEscapePressed", function (self) self:Hide() end)
                         end
 			},
 			checkGuides = {

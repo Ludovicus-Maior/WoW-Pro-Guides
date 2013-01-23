@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2013-01-22 17:57
+-- Who: Ludovicus Maior
+-- Log: Coord Tweaks
+
+-- URL: http://wow-pro.com/node/3214/revisions/25462/view
 -- Date: 2013-01-13 19:02
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -171,12 +176,12 @@ C Echeyakee|QID|881|U|10327|M|44.86,47.71|N|Use the Horn of Echeyakee at his lai
 T Echeyakee|QID|881|M|49.98,59.82|N|To Sergra Darkthorn.|
 A Into the Raptor's Den|QID|905|PRE|881|RANK|1|M|49.98,59.82|N|From Sergra Darkthorn.|
 l Sunscale Feather|QID|905|L|5165 3|S|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|
-A Flushing Out Verog|QID|14072|RANK|1|M|55.11,78.38|N|From Shoe.|
+A Flushing Out Verog|QID|14072|RANK|1|M|55.20,78.40|N|From Shoe.|
 A King of Centaur Mountain|QID|13995|RANK|2|M|54.97,78.57|N|Escort quest. From Gorgal Angerscar.|
 C Flushing Out Verog|QID|14072|S|NC|M|52.94,80.85|N|Collect Centaur Intelligence from centaur camps while questing.|
 
 C King of Centaur Mountain|QID|13995|NC|M|54.37,78.36|N|Escort quest. Follow Gorgal and protect him. Help him kill Kurak.|
-T King of Centaur Mountain|QID|13995|M|55.15,78.43|N|To Shoe.|
+T King of Centaur Mountain|QID|13995|M|55.20,78.40|N|To Shoe.|
 
 C In Fungus We Trust|QID|13998|NC|U|46789|M|54.94,80.12|N|Use the Fungal Cultures near the Stagnant Oasis.|
 C A Growing Problem|QID|13988|U|46782|M|58.77,81.07;60.73,85.38|CS|N|Use Tonga's Totem if you do not already have a bird following you, then head up the mountain.|
@@ -186,7 +191,7 @@ A The Stagnant Oasis|QID|877|PRE|13988|RANK|1|M|60.73,85.38|N|From Jerrik Highmo
 A Altered Beings|QID|880|RANK|1|M|60.60,85.34|N|From Jerrik Highmountain.|
 
 C Altered Beings|QID|880|S|M|55.36,79.14|N|From now on kill Oasis Snapjaws for their shells.|
-C Flushing Out Verog|QID|14072|US|NC|M|52.94,80.85;51.11,83.65;58.11,82.14;52.94,80.85|CN|N|Finish collecting Centaur Intelligence from huts.|
+C Flushing Out Verog|QID|14072|US|NC|M|52.94,80.85;51.02,83.40;58.26,82.22;52.94,80.85|CN|N|Finish collecting Centaur Intelligence from huts.|
 l Sunscale Feather|QID|905|L|5165 3|US|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|M|48.27,73.44|
 N Visit Blue Raptor Nest|QID|905|NC|QO|Visit Blue Raptor Nest: 1/1|U|5165|M|48.57,74.81|N|Use the feather at the blue nest.|
 N Visit Red Raptor Nest|QID|905|NC|QO|Visit Red Raptor Nest: 1/1|U|5165|M|49.67,75.13|N|Use the feather at the red nest.|
@@ -194,11 +199,11 @@ C Into the Raptor's Den|QID|905|U|5165|M|48.02,76.14|N|Finally use the feather a
 C The Stagnant Oasis|QID|877|NC|U|5068|M|55.91,80.76|N|Use the Dried Seeds underwater at the fissure.|
 C Altered Beings|QID|880|US|M|55.36,79.14|N|Finish killing snapjaws.|
 
-T Flushing Out Verog|QID|14072|M|55.16,78.39|N|To Shoe.|
-A Verog the Dervish|QID|851|PRE|14072|RANK|1|M|55.16,78.39|N|From Shoe.|
+T Flushing Out Verog|QID|14072|M|55.20,78.40|N|To Shoe.|
+A Verog the Dervish|QID|851|PRE|14072|RANK|1|M|55.20,78.40|N|From Shoe.|
 C Verog the Dervish|QID|851|M|51.31,78.79|N|Kill Wyneth to lure Verog out. Kill him.|
 
-T Verog the Dervish|QID|851|M|55.24,78.32|N|To Shoe.|
+T Verog the Dervish|QID|851|M|55.20,78.40|N|To Shoe.|
 T Into the Raptor's Den|QID|905|M|49.95,59.94|N|To Sergra Darkthorn.|
 A The Purloined Payroll|QID|13991|PRE|905|RANK|1|M|49.95,59.94|N|From Sergra Darkthorn.|
 
@@ -209,8 +214,8 @@ A Who's Shroomin' Who?|QID|13999|PRE|13998|RANK|1|M|48.65,58.38|N|From Apothecar
 A Deathgate's Reinforcements|QID|14073|RANK|1|M|48.68,59.54|N|From Thork.|
 
 T Deathgate's Reinforcements|QID|14073|M|37.79,55.33|N|To Regthar Deathgate.|
-A Hezrul Bloodmark|QID|852|PRE|14073|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 A Centaur Bracers|QID|855|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
+A Hezrul Bloodmark|QID|852|PRE|14073|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 
 C Centaur Bracers|QID|855|S|M|39.71,70.36|N|Kill Kolkar Marauders and Stormseers and loot their Bracers.|
 C Hezrul Bloodmark|QID|852|M|40.14,72.17|N|Slay Hezrul Bloodmark and collect his head. He has two minions with him.|T|Hezrul Bloodmark|

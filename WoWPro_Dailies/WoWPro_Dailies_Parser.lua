@@ -583,17 +583,23 @@ function WoWPro.Dailies:EventHandler(frame, event, ...)
         for _,item in pairs(npcQuests) do
             if type(item) == "string" then
                 index = index + 1
-                WoWPro:dbp("ZZZT: GOSSIP_SHOW index %d, considering [%s]",index,item)
-		        if WoWPro.action[qidx] == "A" and (item == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
-		            if  WoWPro.QID[qidx] == "*" then WoWPro:dbp("ZZZT %d: Inhale %s",qidx,item) end
-		            SelectGossipAvailableQuest(index)
-		            if npcCount == 1 and WoWPro.action[qidx] == "A" and WoWPro.QID[qidx] == "*" then
-		                -- We accepted the last quest.
-		                WoWPro:dbp("ZZZT: Suck done, finishing %d",qidx)
-                        WoWPro.CompleteStep(qidx)
-                    end
-		            return
-		        end
+                WoWPro.Dailies:dbp("ZZZT: GOSSIP_SHOW index %d/%d, considering [%s]",index,npcCount,item)
+                if WoWPro.action[qidx] == "A" then
+    		        if WoWPro.QID[qidx] == "*" then
+    	                if WoWPro.qcount[qidx] then
+    	                    WoWPro.Dailies:dbp("ZZZT %d: Inhale %s, prev qcount was %d, new is %d",qidx,item, WoWPro.qcount[qidx], npcCount)
+    	                    WoWPro.qcount[qidx] = npcCount
+    	                end
+    	                WoWPro.qcount[qidx] = npcCount
+    		            SelectGossipAvailableQuest(index)
+    		            return
+    		        end
+    		        if WoWPro.action[qidx] == "A" and item == WoWPro.step[qidx] then
+    		            WoWPro.Dailies:dbp("ZZZT %d: Name matches [%s], selecting and completing.",item)
+    		            SelectGossipAvailableQuest(index)
+    		            WoWPro.CompleteStep(qidx)
+    		        end
+    		    end
             end
         end
         npcQuests =  {GetGossipActiveQuests()};
@@ -631,8 +637,21 @@ function WoWPro.Dailies:EventHandler(frame, event, ...)
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
 		if WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
-		    if  WoWPro.QID[qidx] == "*" then WoWPro:dbp("ZZZT %d: Swallow %s",qidx,questtitle) end
+		    if  WoWPro.QID[qidx] == "*" then WoWPro:dbp("ZZZT %d: Auto Accept wildcard [%s]",qidx,questtitle) end
 		    AcceptQuest()
+		    if WoWPro.QID[qidx] == "*" and WoWProCharDB.AutoSelect then
+		    -- OK, now get the next quest.
+		    if WoWPro.qcount[qidx] then
+		        if  WoWPro.qcount[qidx] > 1 then
+    		        WoWPro.Dailies:dbp("ZZZT %d Faking GOSSIP_SHOW, qcount is %d",qidx, WoWPro.qcount[qidx])
+    		        WoWPro.Dailies:EventHandler(frame,"GOSSIP_SHOW")
+    		    else
+                    -- We accepted the last quest.
+                    WoWPro.Dailies:dbp("ZZZT: Suck done, finishing %d",qidx)
+                    WoWPro.CompleteStep(qidx)
+                end
+            end
+		end
 		end
     end
 
@@ -671,11 +690,7 @@ function WoWPro.Dailies:EventHandler(frame, event, ...)
 		WoWPro:PopulateQuestLog(...)
 		WoWPro.Dailies:AutoCompleteQuestUpdate(...)
 		WoWPro.Dailies:UpdateQuestTracker()
-		if WoWPro.QID[qidx] == "*" and WoWProCharDB.AutoSelect then
-		    -- OK, now get the next quest.
-		    WoWPro:dbp("ZZZT %d Faking GOSSIP_SHOW",qidx)
-		    WoWPro.Dailies:EventHandler(frame,"GOSSIP_SHOW")
-		end
+
 	end
 end
 
@@ -689,7 +704,7 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate(questComplete)
 		for i=1,#WoWPro.action do
 			local action = WoWPro.action[i]
 			local completion = WoWProCharDB.Guide[GID].completion[i]
-			WoWPro.Dailies:dbp("Running: AutoCompleteQuestUpdate questComplete=%s, action=%s, completion=%s",tostring(questComplete),action,tostring(completion))
+			-- WoWPro.Dailies:dbp("Running: AutoCompleteQuestUpdate questComplete=%s, action=%s, completion=%s",tostring(questComplete),action,tostring(completion))
 			if WoWPro.QID[i] then
 				local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
 				for j=1,numQIDs do

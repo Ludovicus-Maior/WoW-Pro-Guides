@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2013-01-22 17:53
+-- Who: Ludovicus Maior
+-- Log: Changed "Lambs on the Lam" to use special target macro!
+
+-- URL: http://wow-pro.com/node/3200/revisions/25412/view
 -- Date: 2013-01-13 14:33
 -- Who: Ludovicus Maior
 -- Log: Added a CS tag
@@ -341,8 +346,7 @@ R Protecting the Herd|QID|314|CC|M|69.37,49.57|N|Follow this path up the hill.|
 K Vagash|QID|314|T|Vagash|M|69.55,47.43|N|Kill Vagash and loot the fang for the quest Protecting the Herd.|L|3627|
 T Protecting the Herd|QID|314|M|70.31,48.26|N|To Rudra Amberstill.|
 A Rams on the Lam|QID|25905|M|70.58,48.77|N|From Veron Amberstill.|
-N Rams on the Lam|QID|25905|N|Type /macro to open the macro creation interface. Create this macro and place it on your actionbar. On the 1st line type /target Stolen Ram, then press enter, on the 2nd line type /whistle, then drag the macro to your actionbar.|
-C Rams on the Lam|QID|25905|M|69.76,57.21|N|Use your macro to target and whistle at Stolen Rams. You have to get within 15 yards of them.|NC|
+C Rams on the Lam|QID|25905|M|69.76,57.21|N|Get within 15 yards of them.|NC|T|/cleartarget\n/targetexact Stolen Ram\n/whistle\n|
 T Rams on the Lam|QID|25905|M|70.63,48.92|N|To Veron Amberstill and then sell any junk you've got to him.|
 A Help for the Quarry|QID|25933|M|70.46,48.92|N|From Sergeant Flinthammer.|
 

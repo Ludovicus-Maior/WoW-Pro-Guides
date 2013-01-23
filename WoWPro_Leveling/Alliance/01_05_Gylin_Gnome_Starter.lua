@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2013-01-22 17:53
+-- Who: Ludovicus Maior
+-- Log: Changed "Lambs on the Lam" to use special target macro!
+
+-- URL: http://wow-pro.com/node/3200/revisions/25412/view
 -- Date: 2013-01-13 14:33
 -- Who: Ludovicus Maior
 -- Log: Added a CS tag
