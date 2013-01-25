@@ -620,7 +620,7 @@ function WoWPro.Achievements.AutoCompleteCriteria()
 	local GID = WoWProDB.char.currentguide
 	if WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 		    WoWProCharDB.Guide[GID].completion[qidx] = true
-		    WoWProCharDB.completedQIDs[QID] = true
+		    WoWProCharDB.completedQIDs[WoWPro.QID[qidx]] = true
 	end			
 	WoWPro:UpdateGuide() 
 end
