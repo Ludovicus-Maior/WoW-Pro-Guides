@@ -503,9 +503,14 @@ function WoWPro.Achievements:RowUpdate(offset)
 		
 		-- Target Button --
 		if target then
+			local target, emote = string.split(",",target)
 			row.targetbutton:Show() 
-			row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
+			if emote == nil then 
+				row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
 				.."\n/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end")
+			else
+				row.targetbutton:SetAttribute("macrotext", "/tar "..target.."\n/"..emote)
+			end
 			if use then
 				row.targetbutton:SetPoint("TOPRIGHT", row.itembutton, "TOPLEFT", -5, 0)
 			else
