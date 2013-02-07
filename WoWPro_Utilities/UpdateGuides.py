@@ -23,6 +23,7 @@ import optparse
 import os.path
 import glob
 import os
+import urllib.parse
 
 DEAFULT_ROOT=""
 if os.name == 'nt':
@@ -66,7 +67,7 @@ class FindGuides(HTMLParser):
             self._rootHandle =urllib.urlopen(Root)
             print "# Opened Root URL ",Root
         except IOError:
-            print "!! Failed to open Root URL."
+            print "!! Failed to open Root URL:",Root
             pass
 
 
@@ -105,7 +106,7 @@ class FindSource(HTMLParser):
 
     def __init__(self,Page):
         HTMLParser.__init__(self)
-        self._page = Page
+        self._page = urljoin('http://www.wow-pro.com/',Page)
         self._inP = False
         self._inGuide = False
         self._guideID = ""
@@ -113,10 +114,10 @@ class FindSource(HTMLParser):
         self._Done = False
         self._data = None
         try:
-            self._rootHandle =urllib.urlopen(Page)
-            print "# Opened Page URL ",Page
+            self._rootHandle =urllib.urlopen(_page)
+            print "# Opened Page URL ",_page
         except IOError:
-            print "! Failed to open Page URL."
+            print "! Failed to open Page URL:",_page
             pass
 
 
@@ -224,7 +225,7 @@ class FindRevisions(HTMLParser):
             self._RevisionWho = ""
             self._RevisionLog = ""
         except IOError:
-            print "! Failed to open Page URL."
+            print "! Failed to open Page URL:",Page 
             pass
 
     def dprint(self,*args):
@@ -331,6 +332,8 @@ def ScrapeGuideFromWoWPro(RootSourceNode):
     print "# Found ",len(guides),"guides"
     for guide in guides:
       fs=FindSource(guide)
+      if not fs:
+        continue
       src=fs.ReadGuide()
       if len(src) < 1:
         print "!! No guide found in page.  Bad link, I think."
