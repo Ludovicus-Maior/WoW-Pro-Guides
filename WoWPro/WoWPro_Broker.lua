@@ -257,6 +257,39 @@ function WoWPro:NextStep(k,i)
 			
 		end
 	
+		-- Checking Prerequisites --
+		if WoWPro.prereq[k] then
+			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+			for j=1,numprereqs do
+				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+				if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+					skip = true -- If one of the prereqs is NOT complete, step is skipped.
+				end
+			end
+		end
+
+    	-- Skipping quests with prerequisites if their prerequisite was skipped --
+    	if WoWPro.prereq[k] 
+    	and not WoWProCharDB.Guide[GID].skipped[k] 
+    	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then 
+    		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+    		for j=1,numprereqs do
+    			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+    			if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
+    				skip = true
+    				-- If their prerequisite has been skipped, skipping any dependant quests --
+    				if WoWPro.action[k] == "A" 
+    				or WoWPro.action[k] == "C" 
+    				or WoWPro.action[k] == "T" then
+    					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+    					WoWProCharDB.Guide[GID].skipped[k] = true
+    				else
+    					WoWProCharDB.Guide[GID].skipped[k] = true
+    				end
+    			end
+    		end
+    	end
+
 	    -- Skip C or T steps if not in QuestLog
 	    if WoWPro.action[k] == "C" or WoWPro.action[k] == "T" then
 	        if not WoWPro:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then 
