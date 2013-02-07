@@ -23,7 +23,7 @@ import optparse
 import os.path
 import glob
 import os
-import urllib.parse
+import urlparse 
 
 DEAFULT_ROOT=""
 if os.name == 'nt':
