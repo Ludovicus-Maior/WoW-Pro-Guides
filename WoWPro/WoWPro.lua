@@ -301,12 +301,14 @@ function WoWPro:OnEnable()
 	end
 
 	-- Event Setup --
+	local bucket = LibStub("AceBucket-3.0")
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_QUERY_COMPLETE",
 		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD",
 		
 	})
+	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
 	WoWPro.LockdownTimer = nil
 	WoWPro.EventFrame:SetScript("OnUpdate", function(self, elapsed)
 	    if WoWPro.LockdownTimer ~= nil then
