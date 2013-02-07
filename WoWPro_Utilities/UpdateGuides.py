@@ -83,10 +83,10 @@ class FindGuides(HTMLParser):
         if tag == "img" :
             for attr in attrs:
                 if attr[0] == "src" and re.search("(Button)|(open.png)",attr[1]):
-                    self._list.append(urlparse.urljoin(self._root',self._href))
+                    self._list.append(urlparse.urljoin(self._root',self._href)
                     return
                 if attr[0] == "alt" and re.search("Source",attr[1]):
-                    self._list.append(urlparse.urljoin(self._root,self._href))
+                    self._list.append(urlparse.urljoin(self._root,self._href)
                     return    
 
  
