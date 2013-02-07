@@ -106,7 +106,7 @@ class FindSource(HTMLParser):
 
     def __init__(self,Page):
         HTMLParser.__init__(self)
-        self._page = urljoin('http://www.wow-pro.com/',Page)
+        self._page = urlparse.urljoin('http://www.wow-pro.com/',Page)
         self._inP = False
         self._inGuide = False
         self._guideID = ""
@@ -114,10 +114,10 @@ class FindSource(HTMLParser):
         self._Done = False
         self._data = None
         try:
-            self._rootHandle =urllib.urlopen(_page)
-            print "# Opened Page URL ",_page
+            self._rootHandle =urllib.urlopen(self._page)
+            print "# Opened Page URL ",self._page
         except IOError:
-            print "! Failed to open Page URL:",_page
+            print "! Failed to open Page URL:",self._page
             pass
 
 
