@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2013-01-28 12:41
+-- Who: Crackerhead22
+-- Log: Minor edits for normal Durotar area.
+
+-- URL: http://wow-pro.com/node/3199/revisions/25504/view
+-- Date: 2013-01-23 14:49
+-- Who: Crackerhead22
+-- Log: Added in Monk steps for Echo Isles.
+
+-- URL: http://wow-pro.com/node/3199/revisions/25463/view
 -- Date: 2013-01-13 19:07
 -- Who: Ludovicus Maior
 -- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"

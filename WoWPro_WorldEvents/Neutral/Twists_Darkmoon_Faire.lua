@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2013-02-06 20:25
+-- Who: Ludovicus Maior
+-- Log: Darkmoon tweaks
+
+-- URL: http://wow-pro.com/node/3459/revisions/25429/view
 -- Date: 2013-01-13 15:11
 -- Who: Ludovicus Maior
 -- Log: Added CN tag
@@ -100,7 +105,7 @@ return [[
 
 B Fossil Archeology Fragments|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|90|
 
-B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Blackrock Depths|L|11325 10|U|37863|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths.  Grab your Direbrew remote for a quick trip there.|
+B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Blackrock Depths|L|11325 10|U|37863|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there.|
 B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|15|
 B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|15|
 B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|15|
@@ -148,7 +153,7 @@ B Sack o'Tokens|QID|29463|M|54.59,53.33|N|From Zina Sharpworth after you enter t
 
 A Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|From Selina Dourman.|P|Tailoring;197;75|
 N Create your Banner|QID|29520|N|Use your Darkmoon Banner Kit.|U|72048|L|72049|
-C Banners, Banners Everywhere!|QID|29520|M|50.99,86.23|U|72049|NC|S|N|Look for a sparkling dirt pile "base" for the banner.|
+C Banners, Banners Everywhere!|QID|29520|M|50.99,86.23|U|72049|NC|N|Look for a sparkling dirt pile "base" for the banner.|
 
 A It's Hammer Time|QID|29463|M|53.35,54.73|N|From Mola.|
 C It's Hammer Time|QID|29463|NC|N|Talk to Mola again picking Ready to whack! Go in and wack. Avoid dolls and hitting Hoggar (big brown) grants 3 points.|
@@ -181,7 +186,7 @@ N Achievement|QID|29438|ACH|6022;1|N|Pick one target and fire when it lights up.
 C He Shoots, He Scores!|QID|29438|NC|N|Talk to Rinling again picking Let's shoot! Aim at a target and press 1 to fire. You can get 2 shots in per target.|
 T He Shoots, He Scores!|QID|29438|N|To Rinling.|
 
-A Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|M|47.72,62.67|N|From Jeremy Feasel.\nHe has 3 epic level 25 pets on his team: Honky-Tonk (mechanical), Fezwick (beast), and Judgement (magical). Something with Arcane Storm is good against the monkey!|
+A Darkmoon Pet Battle!|QID|32175|PRE|31951|SPELL|Battle Pet Training;119467;true|M|47.72,62.67|N|From Jeremy Feasel.\nHe has 3 epic level 25 pets on his team: Honky-Tonk (mechanical), Fezwick (beast), and Judgement (magical). Something with Arcane Storm is good against the monkey!|
 C Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|QO|Defeat Jeremy Feasel: 1/1|
 T Darkmoon Pet Battle!|QID|32175|SPELL|Battle Pet Training;119467;true|M|47.72,62.67|N|To Jeremy Feasel|
 
@@ -240,7 +245,7 @@ C Herbs for Healing|QID|29514|US|NC|
 T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 
-N Jubling|QID|7946|M|55.8,70.6|U|11325|N|Somewhere in the forest resonably close to Morja is her lost frog JubJub. He is hooked on Dark Iron Ale.  If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured JubJub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|
+N Jubling|QID|7946|M|55.8,70.6|U|11325|N|Somewhere in the forest resonably close to Morja is her lost frog JubJub. He is hooked on Dark Iron Ale. If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured JubJub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|
 A Spawn of JubJub|QID|7946|M|55.8,70.6|
 T Spawn of JubJub|QID|7946|M|55.8,70.6|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|
 
@@ -264,7 +269,7 @@ T Target: Turtle|QID|29455|M|51.45,77.77|N|Jessica Rogers.|
 T An Exotic Egg|QID|29444|M|50.87,81.80|N|To Yebb Neblegear.|
 A Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|P|Blacksmithing;164;75|
 
-N Achievement|QID|99602501|M|50.75,81.63;56.67,81.68|CS|N|Follow the maze and hop on a horse at the end.|ACH|6025;0|
+N Achievement|QID|99602501|M|50.75,81.63;56.67,81.68|CS|N|Follow the maze and hop on a horse at the end.|ACH|6025|
 
 C Banners, Banners Everywhere!|QID|29520|U|72049|NC|US|N|Look for a sparkling dirt pile "base" for the banner.|
 

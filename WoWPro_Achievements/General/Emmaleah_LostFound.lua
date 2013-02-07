@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2013-01-24 20:07
+-- Who: Emmaleah
+-- Log: more precise coords for lucky panderan coin
+
+-- URL: http://wow-pro.com/node/3514/revisions/25436/view
 -- Date: 2013-01-13 15:28
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -59,7 +64,7 @@ A Hammer of Folly|QID|31428|L|86473|RANK|2|M|74.98,76.56|Z|The Veiled Stair|N|To
 A Chest of Supplies|QID|31864|RANK|2|M|24.65,53.29|Z|The Jade Forest|N|Between Jade Forest/Valley of the 4 winds, by overturned boat, below the Veiled Stair/Ancient Passage Waterfall.|
 A Pandaren Ritual Stone|QID|31404|L|86216|RANK|2|M|23,35|Z|The Jade Forest|N|Island in Lake Kittitata NW Camp Nooka Nooka.|
 A Ancient Pandaren Tea Pot|QID|31400|L|85780|RANK|2|M|26.2,32.3|Z|The Jade Forest|N|On table, Shrine of the Moon.|
-A Lucky Pandaren Coin|QID|31401|L|85781|RANK|2|M|31,27|Z|The Jade Forest|N|In fountain, Shrine of the Sun.|
+A Lucky Pandaren Coin|QID|31401|L|85781|RANK|2|M|31.96,27.76|Z|The Jade Forest|N|In fountain, Shrine of the Sun.|
 A Wodin's Mantid Shanker|QID|31397|L|85776|RANK|1|M|39.4,7.3|Z|The Jade Forest|N|Owen's Wishing Well. Terrace of Ten Thunders.|
 A Hammer of Ten Thunders|QID|31403|L|86198|RANK|1|M|43,11.6;41.8,17.6|Z|The Jade Forest|CN|N|Seat of the Spirit Walker, Terrace of Ten Thunders.|
 A Stash of Gems|QID|31866|L|RANK|3|M|62.47,27.55|Z|The Jade Forest|N|Cave in Windward Isle - Shadowfae Madcap, spawn point, I wouldn't recommend this one pre lvl 90.|
