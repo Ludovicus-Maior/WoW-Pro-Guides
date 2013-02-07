@@ -115,9 +115,9 @@ class FindSource(HTMLParser):
         self._data = None
         try:
             self._rootHandle =urllib.urlopen(self._page)
-            print "# Opened Page URL ",self._page
+            print "# Opened Source URL ",self._page
         except IOError:
-            print "! Failed to open Page URL:",self._page
+            print "! Failed to open Source URL:",self._page
             pass
 
 
@@ -206,6 +206,7 @@ class FindRevisions(HTMLParser):
         try:
 	    self._Page = Page
             Page = Page + "/revisions"
+            Page = urlparse.urljoin('http://www.wow-pro.com/',Page)
             self._rootHandle =urllib.urlopen(Page)
             print "# Opened Revision URL ",Page
             self._inTable = False
@@ -225,7 +226,7 @@ class FindRevisions(HTMLParser):
             self._RevisionWho = ""
             self._RevisionLog = ""
         except IOError:
-            print "! Failed to open Page URL:",Page 
+            print "! Failed to open Revision URL:",Page 
             pass
 
     def dprint(self,*args):
