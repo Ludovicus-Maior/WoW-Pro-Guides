@@ -110,10 +110,10 @@ frame:SetScript("OnShow", function()
 				step = step.." (rank "..WoWPro.rank[index]..")"
 			end
 			
+			row.step:SetTextColor(1.0,1.0,1.0,1.0)
 			if WoWPro.level and WoWPro.level[index] then
 			    step = step.." (level "..tostring(WoWPro.level[index])..")"
-			    local level = tonumber(WoWPro.level[index])
-                row.step:SetTextColor(1.0,1.0,1.0,1.0)
+			    local level = tonumber(WoWPro.level[index])         
                 if WoWPro.action[index] == "L" and level > UnitLevel("player") then
                     row.step:SetTextColor(0.75,0,0,1.0)                    
                 end
