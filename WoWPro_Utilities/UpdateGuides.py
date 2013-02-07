@@ -83,10 +83,10 @@ class FindGuides(HTMLParser):
         if tag == "img" :
             for attr in attrs:
                 if attr[0] == "src" and re.search("(Button)|(open.png)",attr[1]):
-                    self._list.append(self._href)
+                    self._list.append(urlparse.urljoin(self._root',self._href))
                     return
                 if attr[0] == "alt" and re.search("Source",attr[1]):
-                    self._list.append(self._href)
+                    self._list.append(urlparse.urljoin(self._root,self._href))
                     return    
 
  
@@ -106,7 +106,7 @@ class FindSource(HTMLParser):
 
     def __init__(self,Page):
         HTMLParser.__init__(self)
-        self._page = urlparse.urljoin('http://www.wow-pro.com/',Page)
+        self._page = Page
         self._inP = False
         self._inGuide = False
         self._guideID = ""
@@ -206,7 +206,6 @@ class FindRevisions(HTMLParser):
         try:
 	    self._Page = Page
             Page = Page + "/revisions"
-            Page = urlparse.urljoin('http://www.wow-pro.com/',Page)
             self._rootHandle =urllib.urlopen(Page)
             print "# Opened Revision URL ",Page
             self._inTable = False
