@@ -26,7 +26,7 @@ function WoWPro.Achievements:OnEnable()
 	-- Event Registration --
 	WoWPro.Achievements.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE",
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "CHAT_MSG_LOOT"
+		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM"
 	}
 	WoWPro:RegisterEvents(WoWPro.Achievements.Events)
 	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.Achievements.AutoCompleteCriteria)

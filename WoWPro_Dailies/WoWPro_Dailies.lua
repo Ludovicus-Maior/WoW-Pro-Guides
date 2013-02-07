@@ -24,7 +24,6 @@ function WoWPro.Dailies:OnEnable()
 		"CHAT_MSG_SYSTEM"
 	}
 	WoWPro:RegisterEvents(WoWPro.Dailies.Events)
-	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.Dailies.AutoCompleteLoot)
 	--Loading Frames--
 	if not WoWPro.Dailies.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Dailies:CreateConfig()
