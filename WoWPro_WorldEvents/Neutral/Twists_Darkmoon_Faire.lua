@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2013-02-08 22:31
+-- Who: Emmaleah
+-- Log: moved sayge's fortune to beside inscription quest, so if you happen to be an inscriptionist you dont have to run back a 2nd time.  Added comment about jubling not being tradeable. (so don't get multiples to sell on AH)
+
+-- URL: http://wow-pro.com/node/3459/revisions/25525/view
+-- Date: 2013-02-08 02:53
+-- Who: Ludovicus Maior
+-- Log: Bearzerker's suggestions, according to me :-)
+
+-- URL: http://wow-pro.com/node/3459/revisions/25522/view
 -- Date: 2013-02-06 20:25
 -- Who: Ludovicus Maior
 -- Log: Darkmoon tweaks
@@ -105,7 +115,7 @@ return [[
 
 B Fossil Archeology Fragments|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|90|
 
-B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Blackrock Depths|L|11325 10|U|37863|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there.|
+B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Blackrock Depths|L|11325 10|U|37863|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|
 B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|15|
 B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|15|
 B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|15|
@@ -154,6 +164,7 @@ B Sack o'Tokens|QID|29463|M|54.59,53.33|N|From Zina Sharpworth after you enter t
 A Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|From Selina Dourman.|P|Tailoring;197;75|
 N Create your Banner|QID|29520|N|Use your Darkmoon Banner Kit.|U|72048|L|72049|
 C Banners, Banners Everywhere!|QID|29520|M|50.99,86.23|U|72049|NC|N|Look for a sparkling dirt pile "base" for the banner.|
+T Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|To Selina Dourman.|
 
 A It's Hammer Time|QID|29463|M|53.35,54.73|N|From Mola.|
 C It's Hammer Time|QID|29463|NC|N|Talk to Mola again picking Ready to whack! Go in and wack. Avoid dolls and hitting Hoggar (big brown) grants 3 points.|
@@ -260,6 +271,16 @@ N Create 5 Prophetic Ink|QID|29515|N|Use the Bundle of Exotic Herbs.|L|71972|U|7
 C Writing the Future|QID|29515|NC|N|Use the Prophetic Ink. Repeat until completed.|U|71972|
 T Writing the Future|QID|29515|M|52.94,75.94|N|To Sayge.|
 
+N Sayge's Dark Fortunes|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Sayge offers different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item! We pre-select based on your class.|
+N Sayge's Dark Fortune of Stamina|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Confiscate the corn, Speak against your brother openly|
+N Sayge's Dark Fortune of Agility|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Hunter,Rogue,Druid,Shaman,Monk|N|Confiscate the corn, Keep your brother out without letting him know|
+N Sayge's Dark Fortune of Intelligence|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Druid,Mage,Paladin,Priest,Monk,Shaman,Warlock|N|Turn him over to liege, Show not so quiet defiance|
+N Sayge's Dark Fortune of Spirit|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Priest,Druid,Monk,Shaman,Paladin|N|Give corn to the man, Take credit and Share the gold|
+N Sayge's Dark Fortune of Strength|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Warrior,Death Knight,Paladin|N|Confiscate the corn, Help your brother in|
+N Sayge's Dark Fortune of Armor|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Let your friend go|
+N Sayge's Dark Fortune of Damage|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Execute your friend painfully|
+N Sayge's Dark Fortune of Resistance|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Turn him over to liege, Remain quiet|
+
 N Collect 6 Discarded Weapon|QID|29510|N|Around the faire|L|72018 6|S|
 
 A Target: Turtle|QID|29455|M|51.45,77.77|N|Jessica Rogers.|
@@ -271,8 +292,6 @@ A Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|P|
 
 N Achievement|QID|99602501|M|50.75,81.63;56.67,81.68|CS|N|Follow the maze and hop on a horse at the end.|ACH|6025|
 
-C Banners, Banners Everywhere!|QID|29520|U|72049|NC|US|N|Look for a sparkling dirt pile "base" for the banner.|
-
 C Spoilin' for Salty Sea Dogs|QID|29513|M|51.48,91.09|N|Fish off the dock.|
 
 N Make 4 horseshoes at the Anvil|QID|29508|M|47.54,66.31|L|71967 4|U|71964|N|Don't forget to click 4 times.|
@@ -281,7 +300,6 @@ N Collect 6 Discarded Weapon|QID|29510|N|Around the faire|L|72018 6|US|
 C Putting Trash to Good Use|QID|29510|NC|U|72018|
 
 C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|US|
-C Banners, Banners Everywhere!|QID|29520|NC|S|M|50.99,86.23|U|72049|
 N Collect 5 Bits of Glass|QID|29516|N|Green sparkling Gems.|L|72052 5|US|
 C Keeping the Faire Sparkling|QID|29516|NC|N|Convert to Sparkling 'Gemstone'|U|72052|
 
@@ -298,7 +316,6 @@ C Baby Needs Two Pair of Shoes|QID|29508|NC|M|50.87,81.80|N|Shoe Baby.|U|71967|
 T Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|
 
 T Tan My Hide|QID|29519|M|54.84,70.66|N|From Chronos.|
-T Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|To Selina Dourman.|
 
 A A Fizzy Fusion|QID|29506|M|50.31,69.39|N|From Sylannia.|P|Alchemy;171;75|
 B Cheap Beer|QID|99602612|M|50.31,69.39|ACH|6026;12|N|From Sylannia.|L|19222|LVL|1|
@@ -322,16 +339,6 @@ N Drink Sasparilla Sinker|QID|99602618|ACH|6026;18|U|74822|LVL|85|
 B Fizzy Faire Drink|QID|29506|M|50.31,69.39|N|From Sylannia.|L|19299 5|
 C A Fizzy Fusion|QID|29506|NC|N|Use the Cocktail Shaker.|U|72043|
 T A Fizzy Fusion|QID|29506|M|50.31,69.39|N|To Sylannia.|
-
-N Sayge's Dark Fortunes|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Sayge offers 8 different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item!|
-N Sayge's Dark Fortune of Stamina|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Confiscate the corn, Speak against your brother openly|
-N Sayge's Dark Fortune of Agility|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Hunter,Rogue,Druid,Monk|N|Confiscate the corn, Keep your brother out without letting him know|
-N Sayge's Dark Fortune of Intelligence|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Druid,Mage,Paladin,Priest,Monk,Shaman,Warlock|N|Turn him over to liege, Show not so quiet defiance|
-N Sayge's Dark Fortune of Spirit|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Priest,Druid,Monk,Shaman,Paladin|N|Confiscate the Corn, Keep your brother out without letting him know|
-N Sayge's Dark Fortune of Strength|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Warrior,Death Knight,Paladin|N|Confiscate the corn, Help your brother in|
-N Sayge's Dark Fortune of Armor|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Let your friend go|
-N Sayge's Dark Fortune of Damage|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Execute your friend painfully|
-N Sayge's Dark Fortune of Resistance|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Turn him over to liege, Remain quiet|
 
 N Achievement|QID|960300004|N|Take the portal at the end of the dock.  Fly to Ironforge.|ACH|6030;4|U|74142|FACTION|Alliance|
 N Achievement|QID|960300005|N|In the Mystic Quarter, take the portal to the Blasted Lands, then fly to Shattrath City.|ACH|6030;5|U|74142|FACTION|Alliance|
