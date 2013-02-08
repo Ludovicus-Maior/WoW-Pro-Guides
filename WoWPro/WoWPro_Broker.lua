@@ -580,12 +580,21 @@ function WoWPro:PopulateQuestLog()
 	WoWPro.QuestLog = {} -- Reinitiallizing the Quest Log table
 	local i, currentHeader = 1, "None"
 	local entries = GetNumQuestLogEntries()
+	local lastCollapsed = nil
 	for i=1,tonumber(entries) do
 		local questTitle, level, questTag, suggestedGroup, isHeader, 
 			isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
 		local leaderBoard
 		if isHeader then
 			currentHeader = questTitle
+			if lastCollapsed then
+			    CollapseQuestHeader(lastCollapsed)
+			    lastCollapsed = nil
+			end
+			if isCollapsed then
+			    lastCollapsed = i
+			    ExpandQuestHeader(i)
+			end	    
 		else
 			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
 				leaderBoard = {} 
@@ -619,6 +628,10 @@ function WoWPro:PopulateQuestLog()
 				index = i
 			}
 		end
+	end
+	if lastCollapsed then
+	    CollapseQuestHeader(lastCollapsed)
+	    lastCollapsed = nil
 	end
 	if WoWPro.oldQuests == {} then return end
 
