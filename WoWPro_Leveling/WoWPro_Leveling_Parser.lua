@@ -196,7 +196,7 @@ end
 
 -- Quest parsing function --
 local function ParseQuests(...)
-	WoWPro:dbp("Parsing Guide...")
+	WoWPro.Leveling:dbp("Parsing Guide...")
 	local i = 1
 	local myclassL, myclass = UnitClass("player")
 	local myraceL, myrace = UnitRace("player")
@@ -306,7 +306,7 @@ function WoWPro.Leveling:LoadGuide()
 	local sequence = WoWPro.Guides[GID].sequence
 	ParseQuests(string.split("\n", sequence()))
 	
-	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
+	WoWPro.Leveling:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
 		
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
@@ -628,7 +628,7 @@ end
 
 -- Event Response Logic --
 function WoWPro.Leveling:EventHandler(self, event, ...)
-	WoWPro:dbp("Running: Leveling Event Handler "..event)
+	WoWPro.Leveling:dbp("Running: Leveling Event Handler "..event)
 		
 	-- Noticing if we have entered a Dungeon!
 	if event == "ZONE_CHANGED_NEW_AREA" and WoWProCharDB.AutoHideLevelingInsideInstances == true then
@@ -648,14 +648,14 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	
 	-- Noticing if we are doing a pet battle!
 	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) then
-		WoWPro:Print("|cff33ff33Pet Battle Auto Hide|r: Leveling Module")
+		WoWPro.Leveling:Print("|cff33ff33Pet Battle Auto Hide|r: Leveling Module")
 		WoWPro.MainFrame:Hide()
 		WoWPro.Titlebar:Hide()
 		WoWPro.Hidden = true
 			return
 	end
 	if event == "PET_BATTLE_CLOSE" and WoWPro.Hidden then
-		WoWPro:Print("|cff33ff33Pet Battle Exit Auto Show|r: Leveling Module")
+		WoWPro.Leveling:Print("|cff33ff33Pet Battle Exit Auto Show|r: Leveling Module")
 		WoWPro.MainFrame:Show()
 		WoWPro.Titlebar:Show()
 		WoWPro.Hidden = nil		
@@ -713,7 +713,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
         local questid = GetQuestID()
 		if WoWProCharDB.AutoAccept == true and WoWPro.action[qidx] == "A" and questtitle == WoWPro.step[qidx] then
 			if questid ~= tonumber(WoWPro.QID[qidx]) then
-				WoWPro:Warning("Expected QID %d, found %d instead on quest [%s]",tonumber(WoWPro.QID[qidx]),questid,questtitle)
+				WoWPro.Leveling:Warning("Expected QID %d, found %d instead on quest [%s]",tonumber(WoWPro.QID[qidx]),questid,questtitle)
 			end
 		    AcceptQuest()
 		end 
@@ -723,6 +723,7 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
 		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
+		    WoWPro.Leveling:dbp("Completing %s [%s] no choices",WoWPro.action[qidx],questtitle)
 		    CompleteQuest()
 		end         
     end
@@ -731,8 +732,17 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	if event == "QUEST_COMPLETE" then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
-		if WoWProCharDB.AutoTurnin == true and (WoWPro.action[qidx] == "T" or WoWPro.action[qidx] == "A") and questtitle == WoWPro.step[qidx] then
-		    if (GetNumQuestChoices() <= 1) then
+        local choices = GetNumQuestChoices()
+        local questid = GetQuestID()
+        WoWPro.Leveling:dbp("Completing %s [%s] %s choices, AutoTurnin",WoWPro.action[qidx],questtitle,tostring(choices),tostring(WoWProCharDB.AutoTurnin))
+        if questtitle ~= WoWPro.step[qidx] then
+            WoWPro.Leveling:Warning("The guide title [%s] and the quest title [%s] do not match.",WoWPro.step[qidx],questtitle)
+        end
+        if questid ~= tonumber(WoWPro.QID[qidx]) then
+            WoWPro.Leveling:Warning("The npc qid [%d] and the quest quid [%s] do not match. ",questid,WoWPro.QID[qidx])
+        end
+		if WoWProCharDB.AutoTurnin == true and (WoWPro.action[qidx] == "T" or WoWPro.action[qidx] == "A") and questtitle == WoWPro.step[qidx] then    
+		    if (choices <= 1) then
 		        GetQuestReward(1)
 		    end
         end
@@ -747,9 +757,6 @@ function WoWPro.Leveling:EventHandler(self, event, ...)
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Leveling:AutoCompleteSetHearth(...)
 	end	
-	if event == "CHAT_MSG_LOOT" then
-		WoWPro.Leveling:AutoCompleteLoot(...)
-	end
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
 		WoWPro.Leveling:AutoCompleteZone(...)
 	end
@@ -773,7 +780,7 @@ function WoWPro.Leveling:RecordTaxiLocations(...)
         local location,zone = string.split(",",nomen)
         if not WoWProCharDB.Taxi[location] then
             WoWProCharDB.Taxi[location] = true
-            WoWPro:Print("Discovered Flight Point: [%s]",location)
+            WoWPro.Leveling:Print("Discovered Flight Point: [%s]",location)
         end
     end
 end
@@ -867,47 +874,6 @@ function WoWPro.Leveling:AutoCompleteQuestUpdate(questComplete)
 	
 end
 
--- Update Item Tracking --
-local function GetLootTrackingInfo(lootitem,lootqty,count)
---[[Purpose: Creates a string containing:
-	- tracked item's name
-	- how many the user has
-	- how many the user needs
-	- a complete symbol if the ammount the user has is equal to the ammount they need 
-]]
-	if not GetItemInfo(lootitem) then return "" end
-	local track = "" 												--If the function did have a track string, adds a newline
-	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	numinbag = GetItemCount(lootitem)+(count or 0)		--Finds the number in the bag, and adds a count if supplied
-	track = track..numinbag										--Adds the number in bag to the string
-	track = track.."/"..lootqty								--Adds the total number needed to the string
-	if lootqty == numinbag then
-		track = track.." (C)"									--If the user has the requisite number of items, adds a complete marker
-	end
-	return track													--Returns the track string to the calling function
-end
-
--- Auto-Complete: Loot based --
-function WoWPro.Leveling:AutoCompleteLoot(msg)
-	local lootqtyi
-	local _, _, itemid, name = msg:find(L["^You .*Hitem:(%d+).*(%[.+%])"])
-	local _, _, _, _, count = msg:find(L["^You .*Hitem:(%d+).*(%[.+%]).*x(%d+)."])
-	if count == nil then count = 1 end
-	for i = 1,1+WoWPro.ActiveStickyCount do
-		local index = WoWPro.rows[i].index
-		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
-		if WoWProDB.profile.track and WoWPro.lootitem[index] then
-			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi,count)
-			WoWPro.rows[i].track:SetText(strtrim(track))
-		end
-		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index]) + count >= lootqtyi 
-		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-			WoWPro.CompleteStep(index)
-		end
-	end
-	for i = 1,15 do
-	end
-end
 			
 -- Auto-Complete: Set hearth --
 function WoWPro.Leveling:AutoCompleteSetHearth(...)
@@ -1002,7 +968,7 @@ function WoWPro.Leveling:UpdateQuestTracker()
 			if lootitem then
 				row.trackcheck = true
 				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-				track = GetLootTrackingInfo(lootitem,lootqty)
+				track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 			end
 		end
 		row.track:SetText(track)

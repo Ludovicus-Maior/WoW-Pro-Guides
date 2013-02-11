@@ -4,11 +4,6 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
--- Date: 2013-01-24 20:29
--- Who: Emmaleah
--- Log: update coords for Challenger Ring: Tenwe and Mogu Incursions. CN tags in little hatchlings
-
--- URL: http://wow-pro.com/node/3501/revisions/25488/view
 -- Date: 2013-01-13 23:41
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -98,10 +93,10 @@ C Illusions Of The Past|QID|31045|M|25,16|N|The illusionists are located in the 
 C Bronze Claws|QID|31044|M|29.8,22.8|US|N|Bronze Quillen in the SE part of the island drop the items needed.|
 C Onyx Hearts|QID|31042|M|24,10|N|If you agro these while flying, you can drag them away from thier Serpentbinder and then only have to kill the Stormclaws.|
 C Egg Rescue!|QID|31041|M|20,18;33,24|CN|S|NC|N|Pick up the eggs scattered around edges of the island.|
-C Little Hatchlings|QID|31046|26,7;33,24|CN|S|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
+C Little Hatchlings|QID|31046|26,7;33,24|S|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
 C Born Free|QID|31047|M|35,22|S|NC|N|Free the wild cloud serpents located on the SE side of the island by clicking on their ball and chain.|
 C Egg Rescue!|QID|31041|M|20,18;33,24|CN|US|NC|N|Pick up the eggs scattered around edges of the island.|
-C Little Hatchlings|QID|31046|26,7;33,24|CN|US|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
+C Little Hatchlings|QID|31046|26,7;33,24|US|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
 C Born Free|QID|31047|M|35,22|US|NC|N|Free the wild cloud serpents located on the SE side of the island by clicking on their ball and chain.|
 C Through the Portal|QID|31110|ACTIVE|31039|US|25,12|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|
 T Through the Portal|QID|31110|ACTIVE|31039|28.85,22.59|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|
@@ -125,7 +120,7 @@ T When The Dead Speak|QID|31062|M|49.02,70.45|N|To Ban Bearheart.|
 T Riding the Storm|QID|31061|M|49.02,70.45|N|To Ban Bearheart.|
 
 ;Wu Kao Assassins - items smoke bombs 90006 - coins 86534 - darts 86536 - took them out of steps since steps werent autocompleting, thought maybe because didnt use the items? (altho its more likely I have the QO wrong - forgot to check that, it was late)
-A Random Dailies from Ling of the Six Pools|QID|31196;31197;31198;31199;31200;31201|LEAD|31113+31039|M|49.01,71.34|N|From Ling of the Six Pools. When you accept her quest, a message will show on the middle of your screen saying to pick up your Wu Koa supplies, they are on the ground beside her. You may want open the bag and hotkey them, they are useful for avoiding extra work. I would ignore the use items in the guide panel (except the gas bombs-must use them) and use your own hotkeys instead, since it is impossible to predict which tool you will want in which situation.|
+A Random Dailies from Ling of the Six Pools|QID|31196;31197;31198;31199;31200;31201|LEAD|31113+31039|M|49.01,71.34|N|From Ling of the Six Pools. When anyone accept her quests, a message will show on the middle of your screen saying to pick up your Wu Koa supplies, they are on the ground beside her. You may want open the bag and hotkey them, they are useful for avoiding extra work. I would ignore the use items in the guide panel (except the gas bombs-must use them) and use your own hotkeys instead, since it is impossible to predict which tool you will want in which situation.|
 N Achievement Opportunity|ACH|7299;2|ACTIVE|31197|N|To earn the Achievement Loner and a Rebel, you need to do each set of dailies with out a Shado-pan companion (i.e. you have the 'debuff' "Choose a Shado-Pan Companion". you will lose the debuff if you leave the zone, so turn all the quests in before you queue for a dungeon or otherwise leave the area. Manually check this off once you read it.|
 N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent Assassin, you need to do the Wu Kao set of dailies without killing any extra mobs.  It is recomended you do this with-out a Shado-pan companion, since they don't seen to understand the concept of avoiding enemies. You are given a bag of supplies to assist, it includes smoke bombs and items to CC. Tou probably want to do the Noncombat objectives first, so any accidental kills are less likely to put you over the allowed totals. If you chose to take a companion, you can turn in your quests to them, also run out of range and let them despawn if they are killing extra mobs. Manually check this off once you read it.|
 C The Bigger They Come…|QID|31197|M|18,48|U|86536|S|N|These are located all over the Island. The Elite Kunchong in the feeding pits do NOT count, nor do the Swarmlords. Only the Sra'thik Will-Breakers, Sra'thik Deathmixers, Sra'thik Swarm-Leaders and Sra'thik Vessguards count.|
@@ -177,7 +172,7 @@ C The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|48.86,70.02;50.35,67.74|C
 T The Challenger's Ring: Yalia Sagewhisper|QID|31104|M|49.02,70.45|N|To Ban Bearheart.|
 
 A The Challenger’s Ring: Tenwu of the Red Smoke|QID|31221|PRE|31197|M|49.01,71.36|REP|Shado-Pan;1270;Revered-Exalted|N|This is a one time challenge at Revered also from Ling of the Six Pools.|
-C The Challenger’s Ring: Tenwu of the Red Smoke|QID|31221|M|50.4,67.85;50.62,68.5|CS|N|
+C The Challenger’s Ring: Tenwu of the Red Smoke|QID|31221|M|50.4,67.8|N|
 T The Challenger’s Ring: Tenwu of the Red Smoke|QID|31221|M|49.01,71.36|N|To Ling of the Six Pools.|
 
 ;Sha of Anger
@@ -190,7 +185,7 @@ B Grand Commendation|M|48.8,70.6|REP|Shado-Pan;1270;Revered|U|93220|N|Unless you
 
 ;one time small chain at exalted.
 A Mogu Incursions|QID|31266|REP|Shado-Pan;1270;Exalted|M|49.5,70.5|N|From Master Snowdrift. Completing these two quests will also give you the Achievement Defender of the Gods.|
-C Mogu Incursions|QID|31266|M|48.85,58.54;42.62,63.92;41.01,60.48|CS|;I think this first coord is unnecessary, maybe its where I got the quest, my notes left me confused.
+C Mogu Incursions|QID|31266|
 T Mogu Incursions|QID|31266|M|49.5,70.5|N|To Master Snowdrift.|
 A Surprise Attack|QID|31277|PRE|31266|M|49.5,70.5|N|From Master Snowdrift.|
 C Surprise Attack|QID|31277|

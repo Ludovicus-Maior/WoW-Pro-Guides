@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
+-- Date: 2013-01-26 03:06
+-- Who: wowmanus
+-- Log: The Last Stand - making it easier to find :-)
+
+-- URL: http://wow-pro.com/node/3506/revisions/25246/view
 -- Date: 2012-12-13 06:52
 -- Who: Emmaleah
 -- Log: made a path for The Defiant, added |CS| to The Defiant, Valley of the Emperors, and Amber. Added notes to Into(Brewfathers), First Quest, (for some reason I could not get it with my hunter) and about the trapped floor in Tomb of Conquest.
@@ -132,7 +137,7 @@ F Waiting for the Turtle |QID|968560004|M|72.21, 31.01|Z|Krasarang Wilds|ACH|685
 F The Emperor's Burden - Part 4 |QID|968550004|M|40.50, 56.62|Z|Krasarang Wilds|ACH|6855;4|N|The Seven Burdens of Shaohao. Inside the 'Temple of the Red Crane, up the stairs.|
 F Hozen Maturity |QID|968500002|M|52.39, 87.66|Z|Krasarang Wilds|ACH|6850;2|N|Hozen in the Mist. This is inside a small nook/cave.  Directly above it, is the ship deck where the lost recipe for Banana Infused Rum spawns (in a barrel). Also, the pirate ship off the coast may contain an Equipment Locker which contains some the lost boots (spec appropriate BoP ilvl 419).|
 F Origins |QID|968460003|M|30.55, 38.57|Z|Krasarang Wilds|ACH|6846;3|N|Fish Tales.|
-F The Last Stand |QID|967160004|M|32.78, 29.41|Z|Krasarang Wilds|ACH|6716;4|N|Between a Saurok and a Hard Place.|
+F The Last Stand |QID|967160004|M|32.78, 29.41|Z|Krasarang Wilds|ACH|6716;4|N|Between a Saurok and a Hard Place.(In the cave on the lakeside: the scroll is resting in a pile of bones against a rock.)|
 F The Lost Dynasty |QID|967540002|M|50.94, 31.69|Z|Krasarang Wilds|ACH|6754;2|N|The Dark Heart of the Mogu.|
 
 F The Wandering Widow (Valley)|QID|968560003|M|34.57, 63.87|Z|Valley of the Four Winds|ACH|6856;3|N|Ballad of Liu Lang.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2013-02-06 20:13
+-- Who: Ludovicus Maior
+-- Log: Jorgensen tweak
+
+-- URL: http://wow-pro.com/node/3215/revisions/25364/view
 -- Date: 2013-01-12 18:47
 -- Who: Ludovicus Maior
 -- Log: WoWPro_Leveling: Step C [Nida's Necklace:26508] in KurRed1520 is missing a CS|CC|CN tag.
@@ -147,7 +152,7 @@ C Breaking Out is Hard to Do|QID|26587|NC|M|49.06,37.83|N|Be careful not to be s
 T Breaking Out is Hard to Do|QID|26587|M|47.57,41.81|N|To Messner.|
 A Jorgensen|QID|26560|M|47.60,41.83|N|From Messner.|
 C Surveying Equipment|QID|26569|M|32.46,9.82|N|Kill and loot Blackrock Trackers.|S|
-C Jorgensen|QID|26560|L|58969 |M|43.56,11.03|N|Kill Utroka the Keymistress to get Jorgensen's Cage Key.|
+C Jorgensen|QID|26560|L|58969|M|43.56,11.03|N|Kill Utroka the Keymistress to get Jorgensen's Cage Key.|
 T Jorgensen|QID|26560|M|33.62,11.75|N|To Jorgensen.|
 A Krakauer|QID|26561|M|33.63,11.37|N|From Jorgensen.|
 C His Heart Must Be In It|QID|26573|M|26.67,10.65|N|Enter the cave, and then at the split turn right, loot the Blackrock Coffer.|

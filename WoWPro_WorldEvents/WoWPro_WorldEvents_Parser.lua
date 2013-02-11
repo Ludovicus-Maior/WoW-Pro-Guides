@@ -47,49 +47,12 @@ function WoWPro.WorldEvents:NextStep(k, skip)
 
 	-- Optional Quests --
 	if WoWPro.optional[k] and WoWPro.QID[k] then 
-		
 		-- Checking Quest Log --
 		if WoWPro.QuestLog[WoWPro.QID[k]] then 
 			skip = false -- If the optional quest is in the quest log, it's NOT skipped --
 		end
-		
-		-- Checking Prerequisites --
-		if WoWPro.prereq[k] then
-			skip = false -- defaulting to NOT skipped
-			
-			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-			for j=1,numprereqs do
-				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-				if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
-					skip = true -- If one of the prereqs is NOT complete, step is skipped.
-				end
-			end
-		end
-
 	end
-	
-	-- Skipping quests with prerequisites if their prerequisite was skipped --
-	if WoWPro.prereq[k] 
-	and not WoWProCharDB.Guide[GID].skipped[k] 
-	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then 
-		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-		for j=1,numprereqs do
-			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-			if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
-				skip = true
-				-- If their prerequisite has been skipped, skipping any dependant quests --
-				if WoWPro.action[k] == "A" 
-				or WoWPro.action[k] == "C" 
-				or WoWPro.action[k] == "T" then
-					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
-					WoWProCharDB.Guide[GID].skipped[k] = true
-				else
-					WoWProCharDB.Guide[GID].skipped[k] = true
-				end
-			end
-		end
-	end
-					
+						
 	return skip
 end
 
@@ -160,7 +123,6 @@ function WoWPro.WorldEvents:UnSkipStep(index)
 					or WoWPro.action[j] == "T" then
 						WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = nil
 					end
-					WoWProCharDB.Guide[GID].skipped = {}
 					unskipstep(j)
 				end
 			end
@@ -242,7 +204,7 @@ local function ParseQuests(...)
 
 				if text:find("|NC|") then WoWPro.noncombat[i] = true end
 				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
---				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
+				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
     			WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
 				WoWPro.target[i] = text:match("|T|([^|]*)|?")
                                 WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
@@ -391,7 +353,7 @@ function WoWPro.WorldEvents:RowUpdate(offset)
 		local questtext = WoWPro.questtext[k] 
 		local optional = WoWPro.optional[k] 
 		local prereq = WoWPro.prereq[k] 
---		local leadin = WoWPro.leadin[k] 
+		local leadin = WoWPro.leadin[k] 
 		local target = WoWPro.target[k] 
 		local completion = WoWProCharDB.Guide[GID].completion
 		
@@ -627,7 +589,7 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 	-- Noticing if we have entered a Dungeon!
 	if event == "ZONE_CHANGED_NEW_AREA" and WoWProCharDB.AutoHideWorldEventsInsideInstances == true then
 	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-	    if WoWPro.zone[qidx] and not WoWPro:IsInstanceZone(WoWPro.zone[qidx]) and IsInInstance() then
+	    if WoWPro.zone[qidx] and WoWPro:IsInstanceZone(WoWPro.zone[qidx]) and IsInInstance() then
 	        WoWPro:Print("|cff33ff33 Suppressing Instance Auto Hide, turn it on after you are done with this guide.|r")
 	        WoWProCharDB.AutoHideWorldEventsInsideInstances = false
 	        return
@@ -730,9 +692,6 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.WorldEvents:AutoCompleteSetHearth(...)
 	end	
-	if event == "CHAT_MSG_LOOT" then
-		WoWPro.WorldEvents:AutoCompleteLoot(...)
-	end
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
 		WoWPro.WorldEvents:AutoCompleteZone(...)
 	end
@@ -844,47 +803,6 @@ function WoWPro.WorldEvents:AutoCompleteQuestUpdate(questComplete)
 	
 end
 
--- Update Item Tracking --
-local function GetLootTrackingInfo(lootitem,lootqty,count)
---[[Purpose: Creates a string containing:
-	- tracked item's name
-	- how many the user has
-	- how many the user needs
-	- a complete symbol if the ammount the user has is equal to the ammount they need 
-]]
-	if not GetItemInfo(lootitem) then return "" end
-	local track = "" 												--If the function did have a track string, adds a newline
-	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	numinbag = GetItemCount(lootitem)+(count or 0)		--Finds the number in the bag, and adds a count if supplied
-	track = track..numinbag										--Adds the number in bag to the string
-	track = track.."/"..lootqty								--Adds the total number needed to the string
-	if lootqty == numinbag then
-		track = track.." (C)"									--If the user has the requisite number of items, adds a complete marker
-	end
-	return track													--Returns the track string to the calling function
-end
-
--- Auto-Complete: Loot based --
-function WoWPro.WorldEvents:AutoCompleteLoot(msg)
-	local lootqtyi
-	local _, _, itemid, name = msg:find(L["^You .*Hitem:(%d+).*(%[.+%])"])
-	local _, _, _, _, count = msg:find(L["^You .*Hitem:(%d+).*(%[.+%]).*x(%d+)."])
-	if count == nil then count = 1 end
-	for i = 1,1+WoWPro.ActiveStickyCount do
-		local index = WoWPro.rows[i].index
-		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
-		if WoWProDB.profile.track and WoWPro.lootitem[index] then
-			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
-			WoWPro.rows[i].track:SetText(strtrim(track))
-		end
-		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index])  >= lootqtyi 
-		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-			WoWPro.CompleteStep(index)
-		end
-	end
-	for i = 1,15 do
-	end
-end
 			
 -- Auto-Complete: Set hearth --
 function WoWPro.WorldEvents:AutoCompleteSetHearth(...)
@@ -979,7 +897,7 @@ function WoWPro.WorldEvents:UpdateQuestTracker()
 			if lootitem then
 				row.trackcheck = true
 				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-				track = GetLootTrackingInfo(lootitem,lootqty)
+				track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 			end
 		end
 		row.track:SetText(track)

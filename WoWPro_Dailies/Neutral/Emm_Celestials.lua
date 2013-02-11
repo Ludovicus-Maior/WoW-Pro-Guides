@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2013-01-24 20:13
+-- Who: Emmaleah
+-- Log: correct misspelling of steppes x5 (was steepes?!?)
+
+-- URL: http://wow-pro.com/node/3503/revisions/25495/view
 -- Date: 2013-01-19 20:05
 -- Who: Emmaleah
 -- Log: no change. just a comment on the previous comment.. that word was precise.  (precess?!?_
@@ -195,16 +200,16 @@ C The Siege Swells|QID|30956|M|42,62|Z|Townlong Steppes|S|N|These are the non-el
 C Fallen Sentinels|QID|30953|U|82381|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|N|You can use your own healing spells too.  If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
 C The Overwhelming Swarm|QID|30957|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|N|Niuzao should be rampaging around, fight the kunchong in front of him, and he assist your greatly. If he isn't, and you need help, you can pull them to the sentinals for assistance.|
 C A Blade is a Blade|QID|30954|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|N|The mantid mobs drop these on the ground when they die.  Be nice and don't take the ones beside where someone else is fighting.|
-C Paying Tribute|QID|30955|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|S|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
-C In Battle's Shadow|QID|30958|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|S|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
-C The Big Guns|QID|30959|U|82346|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|N|If you stand at extreme range, the bugs inside are less likely to agro. You can use the pots on the kunchong too if you happen to have  "! The Overwhelming Swarm" also.|
+C Paying Tribute|QID|30955|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
+C In Battle's Shadow|QID|30958|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
+C The Big Guns|QID|30959|U|82346|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|N|If you stand at extreme range, the bugs inside are less likely to agro. You can use the pots on the kunchong too if you happen to have  "! The Overwhelming Swarm" also.|
 C The Unending Siege|QID|30952|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|These are the non-elite mantid in the area.|
 C The Siege Swells|QID|30956|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|These are the non-elite mantid in the area.|
 C Fallen Sentinels|QID|30953|U|82381|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|You can use your own healing spells too.  If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|
 C The Overwhelming Swarm|QID|30957|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|Niuzao should be rampaging around, fight the kunchong in front of him, and he assist your greatly. If he isn't, and you need help, you can pull them to the sentinals for assistance.|
 C A Blade is a Blade|QID|30954|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|N|The mantid mobs drop these on the ground when they die.  Be nice and don't take the ones beside where someone else is fighting.|
-C Paying Tribute|QID|30955|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|US|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
-C In Battle's Shadow|QID|30958|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steepes|US|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
+C Paying Tribute|QID|30955|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|NC|N|The food is stashed around the edges of the buildings, the stairs, and the round sones just outside the pit.|
+C In Battle's Shadow|QID|30958|NC|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|US|NC|N|Click on the sparkly silverish bricks are on the ground around the walls that the stonemasons are rebuilding.|
 T The Unending Siege|QID|30952|M|39.2,62.2|Z|Townlong Steppes|N|To Ogo the Elder.|
 T The Siege Swells|QID|30956|M|39.2,62.2|Z|Townlong Steppes|N|To Ogo the Elder.|
 T Fallen Sentinels|QID|30953|M|39.2,62|Z|Townlong Steppes|N|To Yak-Keeper Kyana.|

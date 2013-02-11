@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-02-06 20:19
+-- Who: Ludovicus Maior
+-- Log: Added Jaina's Hope sequence.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25516/view
+-- Date: 2013-01-28 21:01
+-- Who: Ludovicus Maior
+-- Log: Andy pointed out Troteman's name was not spelt right!
+
+-- URL: http://wow-pro.com/node/3519/revisions/25373/view
 -- Date: 2013-01-12 19:25
 -- Who: Ludovicus Maior
 -- Log: Lots of CN tags
@@ -90,10 +100,12 @@ T He Won't Even Miss It|QID|32397|PRE|32383|M|59.19,84.26|Z|Kun-Lai Summit|N|To 
 
 ; Jaina's Hope
 A The Kirin Tor|QID|32331|PRE|32397|M|89.67,32.79|REP|Operation: Shieldwall;1376;honored;3000|N|From Admiral Taylor, at the start of Honored|
-T The Kirin Tor|QID|32331|M|25.8,39.2|Z|Dalaran|N|To Anduin Wrynn.|
-A The Fate of Dalaran|QID|32362|PRE|32331|M|25.8,39.2|Z|Dalaran|N|From Anduin Wrynn.|
-C The Fate of Dalaran|QID|32362|M|26.4,39.0|Z|Dalaran|N|Talk to Jaina|
-T The Fate of Dalaran|QID|32362|M|25.8,39.2|Z|Dalaran|N|To Anduin Wrynn.|
+R The Purple Parlor|QID|32331|M|89.19,33.57|N|Go the the portal and click your way to the parlor.|
+N The Kirin Tor|QID|32331|M|22.67,39.64|Z|Dalaran City@DalaranCity|N|Note that there is a portal behind you back to Lion's Landing after you are done.|
+T The Kirin Tor|QID|32331|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To Anduin Wrynn.|
+A The Fate of Dalaran|QID|32362|PRE|32331|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|From Anduin Wrynn.|
+C The Fate of Dalaran|QID|32362|M|26.76,39.26|Z|Dalaran City@DalaranCity|N|Talk to Jaina|
+T The Fate of Dalaran|QID|32362|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To Anduin Wrynn.|
 
 ; The Korune
 A To Mogujia|QID|32193|PRE|32362|M|89.67,32.79|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
@@ -146,7 +158,7 @@ T The Divine Bell|QID|32394|M|32.6,30.6|Z|Kun-Lai Summit|N|To Sarannha Skyglaive
 
 ; Now start the Dailies!
 A Get Mishka's Quests|QID|*|M|89.67,32.79|N|From Mishka.|
-A Get Toteman's Quests|QID|*|M|89.69,33.08|N|From Marshall Troteman.|
+A Get Troteman's Quests|QID|*|M|89.69,33.08|N|From Marshall Troteman.|
 
 A Amber Kearnen's Quests|QID|32452|M|89.79,32.43|N|If Amber Kearnen offers this quest, off to the Skyfire or you go! Skip otherwise|
 

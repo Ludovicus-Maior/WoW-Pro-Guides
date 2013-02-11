@@ -562,9 +562,6 @@ function WoWPro.Profession:EventHandler(self, event, ...)
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Profession:AutoCompleteSetHearth(...)
 	end	
-	if event == "CHAT_MSG_LOOT" then
-		WoWPro.Profession:AutoCompleteLoot(...)
-	end
 	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
 		WoWPro.Profession:AutoCompleteZone(...)
 	end
@@ -677,47 +674,6 @@ function WoWPro.Profession:AutoCompleteQuestUpdate(questComplete)
 	
 end
 
--- Update Item Tracking --
-local function GetLootTrackingInfo(lootitem,lootqty,count)
---[[Purpose: Creates a string containing:
-	- tracked item's name
-	- how many the user has
-	- how many the user needs
-	- a complete symbol if the ammount the user has is equal to the ammount they need 
-]]
-	if not GetItemInfo(lootitem) then return "" end
-	local track = "" 												--If the function did have a track string, adds a newline
-	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	numinbag = GetItemCount(lootitem)+(count or 0)		--Finds the number in the bag, and adds a count if supplied
-	track = track..numinbag										--Adds the number in bag to the string
-	track = track.."/"..lootqty								--Adds the total number needed to the string
-	if lootqty == numinbag then
-		track = track.." (C)"									--If the user has the requisite number of items, adds a complete marker
-	end
-	return track													--Returns the track string to the calling function
-end
-
--- Auto-Complete: Loot based --
-function WoWPro.Profession:AutoCompleteLoot(msg)
-	local lootqtyi
-	local _, _, itemid, name = msg:find(L["^You .*Hitem:(%d+).*(%[.+%])"])
-	local _, _, _, _, count = msg:find(L["^You .*Hitem:(%d+).*(%[.+%]).*x(%d+)."])
-	if count == nil then count = 1 end
-	for i = 1,1+WoWPro.ActiveStickyCount do
-		local index = WoWPro.rows[i].index
-		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
-		if WoWProDB.profile.track and WoWPro.lootitem[index] then
-			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi,count)
-			WoWPro.rows[i].track:SetText(strtrim(track))
-		end
-		if WoWPro.lootitem[index] and WoWPro.lootitem[index] == itemid and GetItemCount(WoWPro.lootitem[index]) + count >= lootqtyi 
-		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-			WoWPro.CompleteStep(index)
-		end
-	end
-	for i = 1,15 do
-	end
-end
 			
 -- Auto-Complete: Set hearth --
 function WoWPro.Profession:AutoCompleteSetHearth(...)
@@ -811,7 +767,7 @@ function WoWPro.Profession:UpdateQuestTracker()
 			if lootitem then
 				row.trackcheck = true
 				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-				track = GetLootTrackingInfo(lootitem,lootqty)
+				track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 			end
 		end
 		row.track:SetText(track)

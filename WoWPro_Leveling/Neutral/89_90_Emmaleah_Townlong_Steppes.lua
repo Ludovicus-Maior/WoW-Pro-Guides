@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2013-02-06 20:15
+-- Who: Ludovicus Maior
+-- Log: Coord fixes through  Rensai's Watchpost.
+
+-- URL: http://wow-pro.com/node/3492/revisions/25406/view
 -- Date: 2013-01-13 01:26
 -- Who: Ludovicus Maior
 -- Log: Added a CS tag
@@ -73,15 +78,15 @@ C Perfect Pitch|QID|30771|S|NC|M|67.7,52.97|N|Pick up the sparkly little baskets
 C Running Rampant|QID|30770|NC|M|67.70,52.97|N|Click on the yaks and mushan to free them.|
 C Perfect Pitch|QID|30771|US|NC|M|67.7,52.97|N|Pick up the sparkly little baskets of pitch.|
 C First Assault|QID|30769|US|M|67.7,52.97|
-T Running Rampant|QID|30770|M|67.27,52.32|N|To Ban Bearheart.|
-T Perfect Pitch|QID|30771|M|67.27,52.32|N|To Ban Bearheart.|
-T First Assault|QID|30769|M|67.27,52.32|N|To Suna Silentstrike.|
-A Seeing Red|QID|30772|M|67.27,52.32|N|From Suna Silentstrike.|
-A Ranger Rescue|QID|30774|M|67.27,52.32|N|From Suna Silentstrike.|
-A Pitching In|QID|30773|M|67.27,52.32|N|From Ban Bearheart.|
+T Running Rampant|QID|30770|M|67.21,52.27|N|To Ban Bearheart.|
+T Perfect Pitch|QID|30771|M|67.21,52.27|N|To Ban Bearheart.|
+T First Assault|QID|30769|M|67.25,52.22|N|To Suna Silentstrike.|
+A Seeing Red|QID|30772|M|67.25,52.22|N|From Suna Silentstrike.|
+A Ranger Rescue|QID|30774|M|67.25,52.22|N|From Suna Silentstrike.|
+A Pitching In|QID|30773|M|67.21,52.27|N|From Ban Bearheart.|
 C Seeing Red|QID|30772|S|M|67.61,47.50|
 C Pitching In|QID|30773|S|NC|U|81193|M|66.61,45.86|N|Use the item, aim with your mouse from range.|
-C Rescue Longying Rangers|QID|30774|S|QO|Longying Ranger rescued: 4/4|M|68.06,49.62N|Kill Osul Marauders to get the stone keys needed to unlock the cages.|
+C Rescue Longying Rangers|QID|30774|S|QO|Longying Ranger rescued: 4/4|M|68.06,49.62|N|Kill Osul Marauders to get the stone keys needed to unlock the cages.|
 A The Exile|QID|30775|M|67.08,51.43|N|From Katak the Defeated.|
 K Kill Battat|QID|30775|T|Battat|QO|Battat slain: 1/1|M|65.7,51.7|
 K Kill Urang|QID|30775|T|Urang|QO|Urang slain: 1/1|M|64.8,50.2|
@@ -91,13 +96,13 @@ C Rescue Longying Rangers|QID|30774|US|QO|Longying Ranger rescued: 4/4|M|68.06,4
 C Pitching In|QID|30773|US|NC|U|81193|M|66.61,45.86|N|Use the item, aim with your mouse from range.|
 C Seeing Red|QID|30772|US|M|67.61,47.50|
 T The Exile|QID|30775|M|67.01,51.39|N|To Katak the Defeated.|
-T Seeing Red|QID|30772|M|67.23,52.22|N|To Ban Bearheart.|
-T Ranger Rescue|QID|30774|M|67.23,52.22|N|To Ban Bearheart.|
-T Pitching In|QID|30773|M|67.23,52.22|N|To Ban Bearheart.|
-A Jung Duk|QID|30776|M|67.20,52.28|N|From Suna Silentstrike.|
+T Seeing Red|QID|30772|M|67.21,52.27|N|To Ban Bearheart.|
+T Ranger Rescue|QID|30774|M|67.21,52.27|N|To Ban Bearheart.|
+T Pitching In|QID|30773|M|67.21,52.27|N|To Ban Bearheart.|
+A Jung Duk|QID|30776|M|67.25,52.22|N|From Suna Silentstrike.|
 K Jung Duk|QID|30776|QO|Jung Duk slain: 1/1|M|66.61,50.98|N|Plant the banner and fight him.|
-T Jung Duk|QID|30776|M|70.98,56.54|N|To Ban Bearheart.|
-A In Search of Suna|QID|30777|M|70.98,56.54|N|From Ban Bearheart. Hop on the caravan for a ride to Hatred's Vice.|
+T Jung Duk|QID|30776|M|70.98,56.56|N|To Ban Bearheart.|
+A In Search of Suna|QID|30777|M|70.98,56.56|N|From Ban Bearheart. Hop on the caravan for a ride to Hatred's Vice.|
 
 R Hatred's Vice|QID|30777|M|70.6,56.6|N|Take the Shado-Pan Caravan|
 T In Search of Suna|QID|30777|M|82.68,73.02|N|To Ban Bearheart.|
@@ -147,7 +152,7 @@ T The Torches|QID|30787|M|67.96,67.76|N|To Orbiss.|
 A Golgoss|QID|30788|M|67.96,67.76|N|From Orbiss.|
 A Arconiss|QID|30789|M|67.96,67.76|N|From Orbiss.|
 C Golgoss|QID|30788|M|70.62,69.63|N|Click on the dirt pile, wait, kill the mobs that attack while Golgoss wakes up.|
-C Arconiss|QID|30789|M|71.41,72.86|N|Click on the dirt pile, wait, kill the mobs that attack while Arconiss wakes up.|
+C Arconiss|QID|30789|M|71.49,72.29|N|Click on the dirt pile, wait, kill the mobs that attack while Arconiss wakes up.|
 T Golgoss|QID|30788|M|67.93,67.71|N|To Orbiss.|
 T Arconiss|QID|30789|M|67.93,67.71|N|To Orbiss.|
 A The Death of Me|QID|30815|M|67.93,67.71|N|From Orbiss.|
@@ -180,10 +185,10 @@ A Unwelcome Intruders|QID|30887|M|76.94,78.78|N|From Taoshi.|
 C Unwelcome Intruders|QID|30887|M|77.03,78.16|
 C Treatment for the Troops|QID|30891|US|NC|M|75.83,76.58|
 T Treatment for the Troops|QID|30891|M|75.86,83.14|N|To Septi the Herbalist.|
-T Unwelcome Intruders|QID|30887|M|79.43,84.37|N|To Taoshi.|
-A Breach in the Defenses|QID|30888|M|79.43,84.37|N|From Taoshi.|
-A The Restless Watch|QID|30890|M|79.43,84.37|N|From Taoshi.|
-A Trap Setting|QID|30889|M|79.43,84.37|N|From Mao the Lookout.|
+T Unwelcome Intruders|QID|30887|M|79.47,84.46|N|To Taoshi.|
+A Breach in the Defenses|QID|30888|M|79.47,84.46|N|From Taoshi.|
+A The Restless Watch|QID|30890|M|79.47,84.46|N|From Taoshi.|
+A Trap Setting|QID|30889|M|79.38,84.45|N|From Mao the Lookout.|
 C Trap Setting|QID|30889|S|NC|M|81.81,84.36|N|Click on the traps to reset them.|
 C Breach in the Defenses|QID|30888|S|U|81925|M|80.71,86.18|N|The mobs are stealthed at the front of the orange dustclouds moving along the ground, use the flare to make them visable.|
 C Deliver Orders to Scout Wei-chin|QID|30890|NC|QO|Deliver Orders to Scout Wei-chin: 1/1|M|82.24,84.07|
@@ -192,10 +197,10 @@ C Deliver Orders to Scout Jai-gan|QID|30890|NC|QO|Deliver Orders to Scout Jai-ga
 C Deliver Orders to Scout Ying|QID|30890|NC|QO|Deliver Orders to Scout Ying: 1/1|M|82.53,89.5|
 C Breach in the Defenses|QID|30888|US|U|81925|M|80.71,86.18|N|The mobs are stealthed at the front of the orange dustclouds moving along the ground, use the flare to make them visable.|
 C Trap Setting|QID|30889|US|NC|M|81.81,84.36|N|Click on the traps to reset them.|
-T Breach in the Defenses|QID|30888|M|79.41,84.42|N|To Taoshi.|
-T The Restless Watch|QID|30890|M|79.41,84.42|N|To Taoshi.|
-A Returning from the Pass|QID|30960|M|79.41,84.42|N|From Taoshi.|
-T Trap Setting|QID|30889|M|79.41,84.42|N|To Mao the Lookout.|
+T Breach in the Defenses|QID|30888|M|79.47,84.46|N|To Taoshi.|
+T The Restless Watch|QID|30890|M|79.47,84.46|N|To Taoshi.|
+A Returning from the Pass|QID|30960|M|79.47,84.46|N|From Taoshi.|
+T Trap Setting|QID|30889|M|79.38,84.45|N|To Mao the Lookout.|
 T Returning from the Pass|QID|30960|M|76.42,82.44|N|To Taran Zhu.|
 A The Endless Swarm|QID|30893|M|76.42,82.44|N|From Taran Zhu.|
 A Back on Their Feet|QID|30892|M|75.86,83.14|N|From Septi the Herbalist.|
@@ -211,16 +216,16 @@ T The Endless Swarm|QID|30893|M|76.37,82.39|N|To Taran Zhu.|
 A Improvised Ammunition|QID|30895|M|76.37,82.39|N|From Taran Zhu.|
 
 R Ambermarsh|QID|30896|M|70.53,86.40|
-A Thieves and Troublemakers|QID|30896|M|70.53,86.40|N|From Initiate Feng.|
-A In the Wrong Hands|QID|30897|M|70.37,86.56|N|From Initiate Chao.|
+A Thieves and Troublemakers|QID|30896|M|70.45,86.37|N|From Initiate Feng.|
+A In the Wrong Hands|QID|30897|M|70.34,86.67|N|From Initiate Chao.|
 C Improvised Ammunition|QID|30895|S|M|67.70,87.52|N|These are on the ground as well as dropping from the mobs you kill.|
 C Thieves and Troublemakers|QID|30896|S|M|68.05,86.72|
 l Amber Encased Moth|QID|31426|M|65.82,86.06|L|86472|N|This is another one of those items to loot for gold and XP.|
 K Kill Needlebottom|QID|30897|T|Needlebottom|L|82783|M|62.64,87.23|N|Kill Needlebottom to get Chao's Sword.|
 C Thieves and Troublemakers|QID|30896|US|M|68.05,86.72|
 C Improvised Ammunition|QID|30895|US|M|67.70,87.52|N|These are on the ground as well as dropping from the mobs you kill.|
-T Thieves and Troublemakers|QID|30896|M|70.50,86.40|N|To Initiate Feng.|
-T In the Wrong Hands|QID|30897|M|70.38,86.66|N|To Initiate Chao.|
+T Thieves and Troublemakers|QID|30896|M|70.45,86.37|N|To Initiate Feng.|
+T In the Wrong Hands|QID|30897|M|70.34,86.67|N|To Initiate Chao.|
 R Gao-Ran Battlefront|QID|30895|M|76.38,82.40|CC|
 T Improvised Ammunition|QID|30895|M|76.38,82.40|N|To Taran Zhu.|
 A Cutting the Swarm|QID|30898|M|76.38,82.40|N|From Taran Zhu.|
@@ -232,28 +237,28 @@ T Terror of the Dread Wastes|QID|30900|M|76.45,82.41|N|To Taran Zhu.|
 A Along the Southern Front|QID|30901|M|76.45,82.41|N|From Taran Zhu.|
 
 R Dusklight Hollow|QID|30901|M|61.56,79.43|N|Ride with Taren Zhu and Taoshi.|
-T Along the Southern Front|QID|30901|M|67.26,80.78|N|To Taoshi.|
-A Enraged By Hatred|QID|30970|M|67.26,80.78|N|From Taoshi.|
-A Taking Stock|QID|30971|M|67.30,80.69|N|From Initiate Pao-Me.|
+T Along the Southern Front|QID|30901|M|67.32,80.85|N|To Taoshi.|
+A Enraged By Hatred|QID|30970|M|67.32,80.85|N|From Taoshi.|
+A Taking Stock|QID|30971|M|67.37,80.67|N|From Initiate Pao-Me.|
 C Taking Stock|QID|30971|S|NC|M|66.67,82.26|N|Pick up the arrows from the ground, lots by the burrow entrance.|
 C Enraged By Hatred|QID|30970|M|66.8,83.6|N|More in the burrow, if you are running short.|
 C Taking Stock|QID|30971|US|NC|M|66.67,82.26|N|Pick up the arrows from the ground, lots by the burrow entrance.|
-T Taking Stock|QID|30971|M|67.35,80.80|N|To Initiate Pao-Me.|
-T Enraged By Hatred|QID|30970|M|67.35,80.80|N|To Taoshi.|
-A Joining the Fight|QID|30972|M|67.35,80.80|N|From Initiate Pao-Me.|
+T Taking Stock|QID|30971|M|67.37,80.67|N|To Initiate Pao-Me.|
+T Enraged By Hatred|QID|30970|M|67.32,80.85|N|To Taoshi.|
+A Joining the Fight|QID|30972|M|67.37,80.67|N|From Initiate Pao-Me.|
 R Dusklight Bridge|QID|30972|M|61.56,79.29|
-T Joining the Fight|QID|30972|M|61.56,79.29|N|To Lao-Chin the Iron Belly.|
-A Up In Flames|QID|30973|M|61.56,79.29|N|From Taran Zhu.|
+T Joining the Fight|QID|30972|M|61.59,79.34|N|To Lao-Chin the Iron Belly.|
+A Up In Flames|QID|30973|M|61.63,79.32|N|From Taran Zhu.|
 C Up In Flames|QID|30973|M|60.58,78.79|N|The Timberhusks have a buff, that you need to dispell by having them in the vicinity of exploding barrels. The barrels are nearly impossible to aim, so try to click the barrells close to the mobs, barrels explode when they hit something.|
-T Up In Flames|QID|30973|M|61.65,79.32|N|To Taran Zhu.|
-A The Taking of Dusklight Bridge|QID|30975|M|61.65,79.32|N|From Lao-Chin the Iron Belly.|
-C The Taking of Dusklight Bridge|QID|30975|M|60.79,80.95;58.78,89.53|CS|N|Drink(click) the barrels for dmg increase buff, If needed, run through the green bubbles for healing.|
+T Up In Flames|QID|30973|M|61.63,79.32|N|To Taran Zhu.|
+A The Taking of Dusklight Bridge|QID|30975|M|61.59,79.34|N|From Lao-Chin the Iron Belly.|
+C The Taking of Dusklight Bridge|QID|30975|M|44.86,9.78||N|Drink(click) the barrels for dmg increase buff, If needed, run through the green bubbles for healing.|
 T The Taking of Dusklight Bridge|QID|30975|M|61.10,83.05|N|To Taran Zhu.|
 A Joining the Hunt|QID|30976|M|61.08,83.21|N|From Taran Zhu.|
 
 R Rensai's Watchpost|QID|30976|M|54.28,78.97|N|Ride along with Taren Zhu.|
-f Rensai's Watchpost|QID|30976|M|54.28,78.97|N|At Kite Master Li-Sen.|
-r Merchants|QID|30976|M|54.24,77.67|N|If your bags are full... at Supplier Qiao.|
+f Rensai's Watchpost|QID|30976|M|54.29,79.05|N|At Kite Master Li-Sen.|
+r Merchants|QID|30976|M|54.19,77.60|N|If your bags are full... at Supplier Qiao.|
 T Joining the Hunt|QID|30976|M|54.07,78.09|N|To Taran Zhu.|
 A In Skilled Hands|QID|30899|M|54.07,78.09|N|From Taran Zhu.|
 A Grounded Welcome|QID|30977|M|53.98,78.11|N|From Rensai Oakhide.|

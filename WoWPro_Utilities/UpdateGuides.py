@@ -23,6 +23,7 @@ import optparse
 import os.path
 import glob
 import os
+import urlparse 
 
 DEAFULT_ROOT=""
 if os.name == 'nt':
@@ -66,7 +67,7 @@ class FindGuides(HTMLParser):
             self._rootHandle =urllib.urlopen(Root)
             print "# Opened Root URL ",Root
         except IOError:
-            print "!! Failed to open Root URL."
+            print "!! Failed to open Root URL:",Root
             pass
 
 
@@ -82,10 +83,10 @@ class FindGuides(HTMLParser):
         if tag == "img" :
             for attr in attrs:
                 if attr[0] == "src" and re.search("(Button)|(open.png)",attr[1]):
-                    self._list.append(self._href)
+                    self._list.append(urlparse.urljoin(self._root,self._href))
                     return
                 if attr[0] == "alt" and re.search("Source",attr[1]):
-                    self._list.append(self._href)
+                    self._list.append(urlparse.urljoin(self._root,self._href))
                     return    
 
  
@@ -113,10 +114,10 @@ class FindSource(HTMLParser):
         self._Done = False
         self._data = None
         try:
-            self._rootHandle =urllib.urlopen(Page)
-            print "# Opened Page URL ",Page
+            self._rootHandle =urllib.urlopen(self._page)
+            print "# Opened Source URL ",self._page
         except IOError:
-            print "! Failed to open Page URL."
+            print "! Failed to open Source URL:",self._page
             pass
 
 
@@ -224,7 +225,7 @@ class FindRevisions(HTMLParser):
             self._RevisionWho = ""
             self._RevisionLog = ""
         except IOError:
-            print "! Failed to open Page URL."
+            print "! Failed to open Revision URL:",Page 
             pass
 
     def dprint(self,*args):
@@ -331,6 +332,8 @@ def ScrapeGuideFromWoWPro(RootSourceNode):
     print "# Found ",len(guides),"guides"
     for guide in guides:
       fs=FindSource(guide)
+      if not fs:
+        continue
       src=fs.ReadGuide()
       if len(src) < 1:
         print "!! No guide found in page.  Bad link, I think."

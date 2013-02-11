@@ -359,7 +359,7 @@ WoWPro.Zone2MapID = {
 			["mapID"] = 603,
 			["mapName"] = "HallsofReflection",
 		},
-		["Ulduar77"] = {
+		["Ulduar"] = { -- Renamed
 			["numFloors"] = 0,
 			["mapID"] = 526,
 			["mapName"] = "Ulduar77",
@@ -2500,6 +2500,7 @@ WoWPro.Zone2MapID = {
 		["Gundrak"] = {
 			["numFloors"] = 0,
 			["mapID"] = 530,
+			["floor"] = 1, -- Needs to be 1!
 			["mapName"] = "Gundrak",
 		},
 		["Thousand Needles"] = {

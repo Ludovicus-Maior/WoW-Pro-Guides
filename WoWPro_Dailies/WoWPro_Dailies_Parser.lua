@@ -114,7 +114,7 @@ end
 
 -- Quest parsing function --
 local function ParseQuests(...)
-	WoWPro:dbp("Parsing Guide...")
+	WoWPro.Dailies:dbp("Parsing Guide...")
 	local i = 1
 	local myclassL, myclass = UnitClass("player")
 	local myraceL, myrace = UnitRace("player")
@@ -221,7 +221,7 @@ end
 	
 -- Guide Load --
 function WoWPro.Dailies:LoadGuide()
-	WoWPro:dbp("Running: WoWPro.Dailies:LoadGuide(%s)",tostring(WoWProDB.char.currentguide))
+	WoWPro.Dailies:dbp("LoadGuide(%s)",tostring(WoWProDB.char.currentguide))
 	local GID = WoWProDB.char.currentguide
 
  	 
@@ -229,7 +229,7 @@ function WoWPro.Dailies:LoadGuide()
 	local sequence = WoWPro.Guides[GID].sequence
 	ParseQuests(string.split("\n", sequence()))
 	
-	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps registered.")
+	WoWPro.Dailies:dbp("Guide Parsed. "..WoWPro.stepcount.." steps registered.")
 		
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
@@ -270,11 +270,11 @@ function WoWPro.Dailies:LoadGuide()
 		    if not completion and WoWPro.QuestLog[QID] then 
 			    if action == "A" then
 			        WoWProCharDB.Guide[GID].completion[i] = true
-			        WoWPro:dbp("Completed A step %d from questlog QID %d",i,QID);
+			        WoWPro.Dailies:dbp("Completed A step %d from questlog QID %d",i,QID);
 			    end
 			    if action == "C" and WoWPro.QuestLog[QID].complete then
 				    WoWProCharDB.Guide[GID].completion[i] = true
-				    WoWPro:dbp("Completed C step %d from questlog QID %d",i,QID);
+				    WoWPro.Dailies:dbp("Completed C step %d from questlog QID %d",i,QID);
 			    end
 		    end
 		    
@@ -316,7 +316,7 @@ function WoWPro.Dailies:RowUpdate(offset)
 		or not WoWPro.Guides[GID]
 		then return 
 	end
-	WoWPro:dbp("Running: WoWPro.Dailies:RowUpdate()")
+	WoWPro.Dailies:dbp("Running: WoWPro.Dailies:RowUpdate()")
 	WoWPro.ActiveStickyCount = 0
 	local reload = false
 	local lootcheck = true
@@ -572,7 +572,7 @@ end
 
 -- Event Response Logic --
 function WoWPro.Dailies:EventHandler(frame, event, ...)
-	WoWPro:dbp("Running: Dailies Event Handler on %s",event)
+	WoWPro.Dailies:dbp("Running: Dailies Event Handler on %s",event)
 		
 	-- Lets see what quests the NPC has:
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
@@ -619,6 +619,7 @@ function WoWPro.Dailies:EventHandler(frame, event, ...)
         local numAvailableQuests = GetNumAvailableQuests()
         local numActiveQuests = GetNumActiveQuests()
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        WoWPro:TargetNpcId()
         for i=1, numActiveQuests do
             if WoWPro.action[qidx] == "T" and GetActiveTitle(i) == WoWPro.step[qidx] then
 		        SelectActiveQuest(i)
@@ -636,8 +637,14 @@ function WoWPro.Dailies:EventHandler(frame, event, ...)
     if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
+        local npcCount = GetNumGossipAvailableQuests();
+        WoWPro:TargetNpcId()
+        WoWPro.Dailies:dbp("ZZZT %d: Quest Detail [%s], %d avail, QID %s",qidx,questtitle,npcCount,tostring(WoWPro.QID[qidx]))
 		if WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
-		    if  WoWPro.QID[qidx] == "*" then WoWPro:dbp("ZZZT %d: Auto Accept wildcard [%s]",qidx,questtitle) end
+		    if  WoWPro.QID[qidx] == "*" then
+		        WoWPro.Dailies:dbp("ZZZT %d: Auto Accept wildcard [%s], %d avail",qidx,questtitle,npcCount)
+		        WoWPro.qcount[qidx] = WoWPro.qcount[qidx] or npcCount
+		    end
 		    AcceptQuest()
 		    if WoWPro.QID[qidx] == "*" and WoWProCharDB.AutoSelect then
 		    -- OK, now get the next quest.
@@ -745,7 +752,7 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate(questComplete)
 					-- Partial Completion --
 					if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
 					and not WoWProCharDB.Guide[GID].completion[i] then 
-						WoWPro:dbp("Checking for QO completion: "..QID.." - "..WoWPro.step[i].." - "..WoWPro.questtext[i])
+						WoWPro.Dailies:dbp("Checking for QO completion: "..QID.." - "..WoWPro.step[i].." - "..WoWPro.questtext[i])
 						local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
 						local complete = true
 						for l=1,numquesttext do
@@ -774,48 +781,6 @@ function WoWPro.Dailies:AutoCompleteQuestUpdate(questComplete)
 	
 end
 
--- Update Item Tracking --
-local function GetLootTrackingInfo(lootitem,lootqty)
---[[Purpose: Creates a string containing:
-	- tracked item's name
-	- how many the user has
-	- how many the user needs
-	- a complete symbol if the ammount the user has is equal to the ammount they need 
-]]
-	if not GetItemInfo(lootitem) then return "" end
-	local track = "" 									--If the function did have a track string, adds a newline
-	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	numinbag = GetItemCount(lootitem)   	            	--Finds the number in the bag, and adds a count if supplied
-	track = track..numinbag								--Adds the number in bag to the string
-	track = track.."/"..lootqty							--Adds the total number needed to the string
-	if lootqty == numinbag then
-		track = track.." (C)"							--If the user has the requisite number of items, adds a complete marker
-	end
-	return track											--Returns the track string to the calling function
-end
-
--- Auto-Complete: Loot based --
-function WoWPro.Dailies.AutoCompleteLoot(events)
-    if not WoWProDB.char.currentguide then return end
-    if WoWPro.Guides[WoWProDB.char.currentguide].guidetype  ~= "Dailies" then return end
-
-    
-    WoWPro:dbp("Running: Dailies AutoCompleteLoot()")
-	for i = 1,1+WoWPro.ActiveStickyCount do
-	    local lootqtyi
-		local index = WoWPro.rows[i].index
-		if index and WoWPro.lootitem[index]  then
-    		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
-		    if WoWProDB.profile.track then
-			    local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
-			    WoWPro.rows[i].track:SetText(strtrim(track))
-		    end
-		    if GetItemCount(WoWPro.lootitem[index])  >= lootqtyi and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-			    WoWPro.CompleteStep(index)
-		    end
-		end
-	end
-end
 			
 -- Auto-Complete: Set hearth --
 function WoWPro.Dailies:AutoCompleteSetHearth(...)
@@ -914,7 +879,7 @@ function WoWPro.Dailies:UpdateQuestTracker()
 			if lootitem then
 				row.trackcheck = true
 				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-				track = GetLootTrackingInfo(lootitem,lootqty)
+				track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 			end
 		end
 		row.track:SetText(track)
