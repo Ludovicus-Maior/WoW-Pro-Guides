@@ -130,7 +130,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 end
 
 -- Update Item Tracking --
-local function GetLootTrackingInfo(lootitem,lootqty)
+function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 --[[Purpose: Creates a string containing:
 	- tracked item's name
 	- how many the user has
@@ -157,7 +157,7 @@ function WoWPro.AutoCompleteLoot()
 		if WoWPro.lootitem[index] then
     		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
     		if WoWProDB.profile.track then
-    			local track = GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
+    			local track = WoWPro.GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
     			WoWPro.rows[i].track:SetText(strtrim(track))
     			WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s",track)
     		end
@@ -280,7 +280,7 @@ function WoWPro:UpdateQuestTracker()
 			if lootitem then
 				row.trackcheck = true
 				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-				track = GetLootTrackingInfo(lootitem,lootqty)
+				track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 			end
 		end
 		row.track:SetText(track)

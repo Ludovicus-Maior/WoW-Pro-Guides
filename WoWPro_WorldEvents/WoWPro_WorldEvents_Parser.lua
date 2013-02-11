@@ -123,7 +123,6 @@ function WoWPro.WorldEvents:UnSkipStep(index)
 					or WoWPro.action[j] == "T" then
 						WoWProCharDB.skippedQIDs[WoWPro.QID[j]] = nil
 					end
-					WoWProCharDB.Guide[GID].skipped = {}
 					unskipstep(j)
 				end
 			end
@@ -205,7 +204,7 @@ local function ParseQuests(...)
 
 				if text:find("|NC|") then WoWPro.noncombat[i] = true end
 				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
---				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
+				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
     			WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
 				WoWPro.target[i] = text:match("|T|([^|]*)|?")
                                 WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
@@ -354,7 +353,7 @@ function WoWPro.WorldEvents:RowUpdate(offset)
 		local questtext = WoWPro.questtext[k] 
 		local optional = WoWPro.optional[k] 
 		local prereq = WoWPro.prereq[k] 
---		local leadin = WoWPro.leadin[k] 
+		local leadin = WoWPro.leadin[k] 
 		local target = WoWPro.target[k] 
 		local completion = WoWProCharDB.Guide[GID].completion
 		
@@ -898,7 +897,7 @@ function WoWPro.WorldEvents:UpdateQuestTracker()
 			if lootitem then
 				row.trackcheck = true
 				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-				track = GetLootTrackingInfo(lootitem,lootqty)
+				track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 			end
 		end
 		row.track:SetText(track)

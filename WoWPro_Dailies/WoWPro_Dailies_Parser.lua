@@ -879,7 +879,7 @@ function WoWPro.Dailies:UpdateQuestTracker()
 			if lootitem then
 				row.trackcheck = true
 				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-				track = GetLootTrackingInfo(lootitem,lootqty)
+				track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 			end
 		end
 		row.track:SetText(track)
