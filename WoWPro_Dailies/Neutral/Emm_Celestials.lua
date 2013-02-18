@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2013-02-18 06:25
+-- Who: Emmaleah
+-- Log: Fixed type "Naster" x3
+
+-- URL: http://wow-pro.com/node/3503/revisions/25507/view
 -- Date: 2013-01-24 20:13
 -- Who: Emmaleah
 -- Log: correct misspelling of steppes x5 (was steepes?!?)
@@ -187,9 +192,9 @@ T Round 2: Kang Bramblestaff|QID|30882|M|71.6,45.0|Z|Kun-Lai Summit|N|To Xuen.|
 A Round 3: Master Boom Boom|QID|30885|PRE|30882|M|71.6,45.0|Z|Kun-Lai Summit|N|From Xuen.|
 C Round 3: Master Boom Boom|QID|30885|M|66.6,46.4|Z|Kun-Lai Summit|N|Challenge Boom Boom to a fight. When he sets out his dynamite, you can run over the fuses to extinguish them. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 3: Master Boom Boom|QID|30885|M|66.6,46.4.4|Z|Kun-Lai Summit|N|To Xuen.|
-A Round 4: Naster Windfur|QID|30902|PRE|30885|M|67,56.4|Z|Kun-Lai Summit|N|From Xuen.|
-C Round 4: Naster Windfur|QID|30902|68.8,43.8|Z|Kun-Lai Summit|N|Challenge Windfur to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
-C Round 4: Naster Windfur|QID|30902|M|66.4,46.4|Z|Kun-Lai Summit|N|To Xuen.|
+A Round 4: Master Windfur|QID|30902|PRE|30885|M|67,56.4|Z|Kun-Lai Summit|N|From Xuen.|
+C Round 4: Master Windfur|QID|30902|68.8,43.8|Z|Kun-Lai Summit|N|Challenge Windfur to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
+C Round 4: Master Windfur|QID|30902|M|66.4,46.4|Z|Kun-Lai Summit|N|To Xuen.|
 
 ;angry yak temple
 A Random daily from Ogo the Elder|QID|30952;30956|PRE|31382+31383|M|39.2,62.2|Z|Townlong Steppes|N|From Ogo the Elder.|

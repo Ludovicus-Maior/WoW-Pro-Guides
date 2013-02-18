@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-02-17 20:20
+-- Who: Ludovicus Maior
+-- Log: Refined [Heart of the Alliance] sequence after playing through.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25531/view
+-- Date: 2013-02-17 20:18
+-- Who: Ludovicus Maior
+-- Log: Refined Korune series after playing through
+
+-- URL: http://wow-pro.com/node/3519/revisions/25521/view
 -- Date: 2013-02-06 20:19
 -- Who: Ludovicus Maior
 -- Log: Added Jaina's Hope sequence.
@@ -108,24 +118,24 @@ C The Fate of Dalaran|QID|32362|M|26.76,39.26|Z|Dalaran City@DalaranCity|N|Talk 
 T The Fate of Dalaran|QID|32362|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To Anduin Wrynn.|
 
 ; The Korune
-A To Mogujia|QID|32193|PRE|32362|M|89.67,32.79|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
+A To Mogujia|QID|32193|PRE|32362|M|89.55,32.59|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
 R Mogujia|QID|32193|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-T Mogujia|QID|32193|M||Z|Kun-Lai Summit|N|To Brann Bronzebeard|
-A The Source of Korune Power|QID|32243|PRE|32193|M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
-A Bad Blood|QID|32194|PRE|32193|M|58.2,71.0|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
-C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
-K Korune Spellweaver|QID|32243||M||Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|
-T The Source of Korune Power|QID|32243||M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
-T Bad Blood|QID|32194||M||Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
+T Mogujia|QID|32193|M|59.83,75.96|Z|Kun-Lai Summit|N|To Brann Bronzebeard|
+A The Source of Korune Power|QID|32243|PRE|32193|M|59.81,76.04|Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
+A Bad Blood|QID|32194|PRE|32193|M|59.97,75.33|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
+C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|Z|Kun-Lai Summit|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
+K Korune Spellweaver|QID|32243|M|58.31,71.17|Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|N|Loot the claw|
+T The Source of Korune Power|QID|32243|M|59.81,76.04|Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
+T Bad Blood|QID|32194|M|59.97,75.33|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
 
 ; Heart of the Alliance
 A Anduin's Plea|QID|32315|PRE|32193|M|89.67,32.79|REP|Operation: Shieldwall;1376;honored;11000|N|From Admiral Taylor, near the end of Honored|
-N Anduin's Plea|QID|32315|ACTIVE|32315|N|Careful.  This quest was bugged if you interrupted the roleplay.  Let everyone finish before running off and don't interupt anything.|
+N Anduin's Plea|QID|32315|ACTIVE|32315|N|Do not leave the shrine, or you will lose the special phasing.|
 R Shrine of Seven Stars|QID|32315|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-T Anduin's Plea|QID|32315|M||Z|Vale of Eternal Blossoms|N|To Anduin Wrynn|
-A Heart Of The Alliance|QID|32316|PRE|32315|M||Z|Vale of Eternal Blossoms|N|To Anduin Wrynn|
-C Heart Of The Alliance|QID|32316|M||Z|Vale of Eternal Blossoms|QO|Sha-Touched Footman saved: 6/6|
-T Heart Of The Alliance|QID|32316|M||Z|Vale of Eternal Blossoms|N|To King Varian Wrynn|
+T Anduin's Plea|QID|32315|M|66.15,33.15|Z|Vale of Eternal Blossoms/4|N|To Anduin Wrynn, upstairs, to the left in the portal room.|
+A Heart Of The Alliance|QID|32316|PRE|32315|M|66.15,33.15|Z|Vale of Eternal Blossoms/4|N|From Anduin Wrynn|
+C Heart Of The Alliance|QID|32316|QO|Sha-Touched Footman saved: 6/6|T|Sha-Touched Footman|N|Click on the footmen and then beat the up once the manifest their anger.|
+T Heart Of The Alliance|QID|32316|M|67.43,43.32|Z|Vale of Eternal Blossoms/4|N|To King Varian Wrynn|
 
 ; Secrets of the Past
 A The Kun-Lai Expedition|QID|32370|PRE|32316|M|89.67,32.79|REP|Operation: Shieldwall;1376;revered;2700|N|From Admiral Taylor, near the start of Revered|
