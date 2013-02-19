@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-02-18 23:02
+-- Who: Ludovicus Maior
+-- Log: Sketches of [The Purge of Dalaran], [An Ancient Ally], [In Search of Harmony] and [Breath of Darkest Shadow]
+
+-- URL: http://wow-pro.com/node/3519/revisions/25532/view
+-- Date: 2013-02-17 20:20
+-- Who: Ludovicus Maior
+-- Log: Refined [Heart of the Alliance] sequence after playing through.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25531/view
+-- Date: 2013-02-17 20:18
+-- Who: Ludovicus Maior
+-- Log: Refined Korune series after playing through
+
+-- URL: http://wow-pro.com/node/3519/revisions/25521/view
 -- Date: 2013-02-06 20:19
 -- Who: Ludovicus Maior
 -- Log: Added Jaina's Hope sequence.
@@ -108,24 +123,24 @@ C The Fate of Dalaran|QID|32362|M|26.76,39.26|Z|Dalaran City@DalaranCity|N|Talk 
 T The Fate of Dalaran|QID|32362|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To Anduin Wrynn.|
 
 ; The Korune
-A To Mogujia|QID|32193|PRE|32362|M|89.67,32.79|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
+A To Mogujia|QID|32193|PRE|32362|M|89.55,32.59|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
 R Mogujia|QID|32193|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-T Mogujia|QID|32193|M||Z|Kun-Lai Summit|N|To Brann Bronzebeard|
-A The Source of Korune Power|QID|32243|PRE|32193|M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
-A Bad Blood|QID|32194|PRE|32193|M|58.2,71.0|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
-C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
-K Korune Spellweaver|QID|32243||M||Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|
-T The Source of Korune Power|QID|32243||M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
-T Bad Blood|QID|32194||M||Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
+T Mogujia|QID|32193|M|59.83,75.96|Z|Kun-Lai Summit|N|To Brann Bronzebeard|
+A The Source of Korune Power|QID|32243|PRE|32193|M|59.81,76.04|Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
+A Bad Blood|QID|32194|PRE|32193|M|59.97,75.33|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
+C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|Z|Kun-Lai Summit|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
+K Korune Spellweaver|QID|32243|M|58.31,71.17|Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|N|Loot the claw|
+T The Source of Korune Power|QID|32243|M|59.81,76.04|Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
+T Bad Blood|QID|32194|M|59.97,75.33|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
 
 ; Heart of the Alliance
 A Anduin's Plea|QID|32315|PRE|32193|M|89.67,32.79|REP|Operation: Shieldwall;1376;honored;11000|N|From Admiral Taylor, near the end of Honored|
-N Anduin's Plea|QID|32315|ACTIVE|32315|N|Careful.  This quest was bugged if you interrupted the roleplay.  Let everyone finish before running off and don't interupt anything.|
+N Anduin's Plea|QID|32315|ACTIVE|32315|N|Do not leave the shrine, or you will lose the special phasing.|
 R Shrine of Seven Stars|QID|32315|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-T Anduin's Plea|QID|32315|M||Z|Vale of Eternal Blossoms|N|To Anduin Wrynn|
-A Heart Of The Alliance|QID|32316|PRE|32315|M||Z|Vale of Eternal Blossoms|N|To Anduin Wrynn|
-C Heart Of The Alliance|QID|32316|M||Z|Vale of Eternal Blossoms|QO|Sha-Touched Footman saved: 6/6|
-T Heart Of The Alliance|QID|32316|M||Z|Vale of Eternal Blossoms|N|To King Varian Wrynn|
+T Anduin's Plea|QID|32315|M|66.15,33.15|Z|Vale of Eternal Blossoms/4|N|To Anduin Wrynn, upstairs, to the left in the portal room.|
+A Heart Of The Alliance|QID|32316|PRE|32315|M|66.15,33.15|Z|Vale of Eternal Blossoms/4|N|From Anduin Wrynn|
+C Heart Of The Alliance|QID|32316|QO|Sha-Touched Footman saved: 6/6|T|Sha-Touched Footman|N|Click on the footmen and then beat the up once the manifest their anger.|
+T Heart Of The Alliance|QID|32316|M|67.43,43.32|Z|Vale of Eternal Blossoms/4|N|To King Varian Wrynn|
 
 ; Secrets of the Past
 A The Kun-Lai Expedition|QID|32370|PRE|32316|M|89.67,32.79|REP|Operation: Shieldwall;1376;revered;2700|N|From Admiral Taylor, near the start of Revered|
@@ -149,12 +164,83 @@ K Dreadweaver Avartu|QID|32394|M|32.6,30.6|Z|Kun-Lai Summit|N|When you see the c
 T The Divine Bell|QID|32394|M|32.6,30.6|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
 
 ; The Purge of Dalaran
+A Darnassus Attacked?|QID|32414|PRE|32394|M|89.67,32.79|REP|Operation: Shieldwall;1376;revered;8700|N|From Admiral Taylor, near the middle of Revered|
+R Darnassus|QID|32414|M|89.0,33.6|N|Talk to Seamus Goldenkicks for a portal to Darnassus|
+T Darnassus Attacked?|QID|32414|M|39.05,32.72|Z|Darnassus|N|To Lady Jaina Proudmoore at the Cenarion Enclave.|
+A Tracking the Thieves|QID|32460|PRE|32414|M|39.05,32.72|Z|Darnassus|N|From Lady Jaina Proudmoore.|
+C Tracking the Thieves|QID|32460|M|40,50.5|Z|Teldrassil|N|Follow the blue spheres till you get to the portal.|
+T Tracking the Thieves|QID|32460|M|39.05,32.72|Z|Darnassus|N|To Lady Jaina Proudmoore.|
+A Jaina's Resolution|QID|32416|PRE|32460|M|39.05,32.72|Z|Darnassus|N|From Lady Jaina Proudmoore.|
+R Dalaran|QID|32416|M|39.05,32.72|Z|Darnassus|N|Use the portal Jaina provides.  If you get an error message, file a ticket.  Lots of bug reports on this one.  The sequence can be restarted by talking to Seamus back ay the base.|
+T Jaina's Resolution|QID|32416|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
+
+A Sewer Cleaning|QID|32417|PRE|32416|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
+A Unfair Trade|QID|32418|PRE|32416|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
+A Nowhere to Hide|QID|32419|PRE|32416|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
+A Cashing Out|QID|32420|PRE|32416|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
+A Nowhere to Run|QID|32421|PRE|32416|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
+
+C Nowhere to Run|QID|32421|M|62.00,41.80;76.00,48.40;75.90,43.50;71.10,52.80;75.70,40.40;64.00,45.50;66.35,45.65;71.91,47.09;68.05,40.55;69.75,45.75;64.74,43.10;73.59,43.10;67.17,47.48;70.85,44.00;67.21,42.55;71.31,50.21;69.54,48.44;71.17,40.81;75.97,46.24;73.89,49.04|Z|Dalaran City@DalaranCity|CN|N|Knock out the Sunreaver Dragonhawks.|U|93159|
+
+C Nowhere to Hide|QID|32419|M|56.20,25.40;63.60,26.80;63.80,64.60;47.60,50.90;59.85,18.40;48.72,49.22;62.85,37.30;59.70,16.35;58.55,30.40;59.80,32.05;60.62,22.09;61.00,30.07;57.78,32.58;56.17,36.91;59.80,26.00;56.85,34.88;61.88,27.83;61.53,24.45;59.09,28.41;71.90,32.30;54.44,38.62;57.09,27.27;65.07,38.22;61.20,14.59;57.11,41.24;47.12,44.10;67.39,30.14;71.67,34.90;66.47,32.89;63.90,34.67;58.35,58.65;58.54,24.06;51.00,44.73;71.44,29.10;62.29,32.45;58.60,21.18;52.17,50.33;70.03,39.00;69.40,32.85;61.95,17.71;68.62,35.99|Z|Dalaran City@DalaranCity|CN|N|Kill Sunreavers in the Sanctuary|
+
+C Sewer Cleaning|QID|32417|M|38.40,27.80;42.20,31.20;47.40,48.40;48.00,55.80;52.00,54.20;64.20,16.80;54.50,28.20;53.60,35.40;43.75,66.30;31.70,49.30;40.10,46.50;57.40,33.55;54.40,58.00;55.45,34.10;56.05,60.15;47.20,58.90;49.30,37.10;36.60,58.50;43.90,33.80;43.75,40.30;40.90,61.75;44.48,55.92;38.90,41.05;53.90,49.05;41.77,58.00;55.20,62.88;33.12,54.92;58.90,58.70;51.88,50.48;45.80,46.85;57.83,35.88;54.33,46.30;48.00,52.30;35.05,53.14;47.75,45.90;38.20,60.83;55.14,53.38;46.95,33.85;37.42,29.60;46.17,57.02;46.48,39.24;63.15,11.85;53.60,55.95;45.45,44.65;44.80,26.25;58.33,41.48;38.26,52.69;32.95,42.05;42.21,36.71;43.85,53.50;52.06,33.69;35.23,44.05;45.95,28.77;56.10,48.30;54.70,31.86;41.45,39.11;55.48,26.10;41.75,41.40;37.75,45.89;47.98,30.09;60.40,53.85;45.05,35.74;35.85,55.93;39.98,43.97;44.60,37.95;42.25,43.85;52.75,44.90;52.07,47.96;57.62,52.46;49.30,31.90;43.80,64.22;32.58,51.97;50.60,39.10;45.71,41.91;39.62,58.72;41.62,51.20;60.07,44.12;56.42,38.64;36.80,33.23;39.21,49.66;51.50,42.45;52.97,52.21;41.75,28.10;49.32,49.02;54.20,37.35;49.17,61.55;37.77,55.38;56.35,50.33;49.76,45.24;53.00,63.50;60.70,15.93;41.04,33.49;50.89,27.32;39.12,37.19;57.22,22.85;30.15,53.50;57.83,55.50;59.04,19.36;52.43,30.62;48.12,41.74;60.88,12.38|Z|The Underbelly@DalaranCity|CN|N|Kill Sunreavers in the sewer.|
+
+K Inkmaster Aelon|QID|32418|M|42.05,36.95|Z|Dalaran City@DalaranCity|QO|Inkmaster Aelon slain: 1/1|T|Inkmaster Aelon|
+K Gearmage Astalon|QID|32418|M|39.20,25.50|Z|Dalaran City@DalaranCity|QO|Gearmage Astalon slain: 1/1|T|Gearmage Astalon|
+K Tolyria|QID|32418|M|42.00,52.20;43.50,30.50;51.70,21.90;47.20,34.40;44.80,32.75;42.17,26.44;41.37,29.71;50.35,35.90|Z|Dalaran City@DalaranCity|CN|QO|Tolyria slain: 1/1|T|Tolyria|N|Tolyria wanders a bit.|
+K Sintharia Cinderweave|QID|32418|M|36.12,33.12|Z|Dalaran City@DalaranCity|QO|Sintharia Cinderweave slain: 1/1|T|Sintharia Cinderweave|
+
+C Magister Brasael|QID|32420|M|53.2,16.8|Z|Dalaran City@DalaranCity|N|Kill Magister Brasael at the bank.|
+
+T Sewer Cleaning|QID|32417|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
+T Unfair Trade|QID|32418|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
+T Nowhere to Hide|QID|32419|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
+T Cashing Out|QID|32420|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
+T Nowhere to Run|QID|32421|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
+A What Had To Be Done|QID|32423|PRE|32417;32418;32419;32420;32421|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
+R Lion's Landing|QID|32423|M|34.0,48.8|Z|Dalaran City@DalaranCity|N|Ask Vereesa to send you back.|
+T What Had To Be Done|QID|32423|M|87.8,33|N|To King Varian Wrynn.|
 
 ; An Ancient Ally
+A The Harmonic Mallet|QID|32355|PRE|32423|M|89.67,32.79|REP|Operation: Shieldwall;1376;revered;14600|N|From Admiral Taylor, near the upper middle of Revered|
+R Kun-Lai Summit|QID|32315|M|88.34,34.20|N|Talk to Fennie to get dropped off|
+T The Harmonic Mallet|QID|32355|M|53.0,46.4|Z|Kun-Lai Summit|N|To Anduin Wrynn|
+A The Monkey King|QID|32321|PRE|32355|M|53.0,46.4|Z|Kun-Lai Summit|N|From Anduin Wrynn|
+C The Monkey King|QID|32321|M|48.8,50.1|Z|Kun-Lai Summit|N|Follow Anduin around, and beat the Jade Warlord after Anduin tells you about him.|
+T The Monkey King|QID|32321|M|48.8,50.1|Z|Kun-Lai Summit|N|To The Monkey King|
+A The First Riddle: Mercy|QID|32332|PRE|32321|M|48.8,50.1|Z|Kun-Lai Summit|N|From The Monkey King|
+A The Second Riddle: Fellowship|QID|32333|PRE|32321|M|48.8,50.1|Z|Kun-Lai Summit|N|From The Monkey King|
+A The Third Riddle: Strength|QID|32334|PRE|32321|M|48.8,50.1|Z|Kun-Lai Summit|N|From The Monkey King|
+
+C The First Riddle: Mercy|QID|32332|M|65.7,71.65|Z|Dread Wastes|N|N|Click on the Untamed Amber, kill the scorpion and loot the Amber.|
+C The Third Riddle: Strength|QID|32334|M|70.15,45.62|Z|Kun-Lai Summit|N|Kill The Monkey at the Tiger Temple|
+C The Second Riddle: Fellowship|QID|32333|M|33,34|Z|Jade Forest|N|Click on the bell, defeat Sam and get the brew|
+
+T The First Riddle: Mercy|QID|32332|M|88.8,31.87|N|To The Monkey King, at Lion's Landing|
+T The Second Riddle: Fellowship|QID|32333|M|88.8,31.87|N|To The Monkey King, at Lion's Landing|
+T The Third Riddle: Strength|QID|32334|M|88.8,31.87|N|To The Monkey King, at Lion's Landing|
+A The Greatest Prank|QID|32335|PRE|32332;32333;32334|M|88.8,31.87|N|From The Monkey King, at Lion's Landing|
+C The Greatest Prank|QID|32335|N|Listen to the story now...|
+T The Greatest Prank|QID|32335|M|89.0,31.8|N|To Anduin Wrynn|
 
 ; In Search of Harmony
+A The Handle|QID|32336|PRE|32335|M|88.8,31.87|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
+A The Head|QID|32337|PRE|32335|M|88.8,31.87|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
+A The Harmonic Ointment|QID|32338|PRE|32335|M|88.8,31.87|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
+
+T The Handle|QID|32336|M|88.8,31.87|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
+T The Head|QID|32337|M|88.8,31.87|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
+T The Harmonic Ointment|QID|32338|M|88.8,31.87|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
 
 ; Breath of Darkest Shadow
+A The Bell Speaks|QID|32400|PRE|32336;323367;32338|M|89.67,32.79|REP|Operation: Shieldwall;1376;exalted|N|From Admiral Taylor, at exalted|
+R Kun-Lai Summit|QID|32400|M|88.34,34.20|N|Talk to Fennie to get dropped off|
+T The Bell Speaks|QID|32400|M|56.4,34.2|Z|Kun-Lai Summit|N|To Anduin Wrynn|
+A Breath of Darkest Shadow|QID|32401|PRE|32400|M|56.4,34.2|Z|Kun-Lai Summit|N|To Anduin Wrynn|
+T Breath of Darkest Shadow|QID|32401|M|56.4,34.2|Z|Kun-Lai Summit|N|To Anduin Wrynn|
+A The Silence|QID|32455|PRE|32401|M|56.4,34.2|Z|Kun-Lai Summit|N|To Anduin Wrynn|
+T The Silence|QID|32455|M|M|89.67,32.79|N|From Admiral Taylor, at exalted|
 
 ; Now start the Dailies!
 A Get Mishka's Quests|QID|*|M|89.67,32.79|N|From Mishka.|
