@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-02-23 18:06
+-- Who: Ludovicus Maior
+-- Log: Update [Secrets of the Past] and [The Divine Bell] segments after play through.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25536/view
 -- Date: 2013-02-18 23:02
 -- Who: Ludovicus Maior
 -- Log: Sketches of [The Purge of Dalaran], [An Ancient Ally], [In Search of Harmony] and [Breath of Darkest Shadow]
@@ -143,25 +148,26 @@ C Heart Of The Alliance|QID|32316|QO|Sha-Touched Footman saved: 6/6|T|Sha-Touche
 T Heart Of The Alliance|QID|32316|M|67.43,43.32|Z|Vale of Eternal Blossoms/4|N|To King Varian Wrynn|
 
 ; Secrets of the Past
-A The Kun-Lai Expedition|QID|32370|PRE|32316|M|89.67,32.79|REP|Operation: Shieldwall;1376;revered;2700|N|From Admiral Taylor, near the start of Revered|
-R Grummle Bazaar|QID|32370|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-T The Kun-Lai Expedition|QID|32370|M|65,60.8|Z|Kun-Lai Summit|N|To Agent Connelly|
+A The Kun-Lai Expedition|QID|32370|PRE|32316|M|89.55,32.58|REP|Operation: Shieldwall;1376;revered;2700|N|From Admiral Taylor, near the start of Revered|
+R The Grummle Bazaar|QID|32370|M|88.34,34.20|N|Talk to Fennie to get dropped off|
+T The Kun-Lai Expedition|QID|32370|M|65.11,60.78|Z|Kun-Lai Summit|N|To Agent Connelly|
 A A Kor'kron In Our Midst|QID|32377|PRE|32370|M|65,60.8|Z|Kun-Lai Summit|N|From Agent Connelly|
 R A Kor'kron In Our Midst|QID|32377|M|61.6,58.5|Z|Kun-Lai Summit|CC|N|Entry to the camp is here.|
 C A Kor'kron In Our Midst|QID|32377|N|Kill Reavers, Honor Guards, and Scouts till you have all the peices. Each type of Mob may drop each peice.|U|92764|L|92766|
 T A Kor'kron In Our Midst|QID|32377|N|To Agent Connelly via UI|
 A Memory Wine|QID|32371|PRE|32377|N|To Agent Connelly via UI|
 C Get Disguised|QID|32371|QO|Use Kor'kron Disguise: 1/1|U|92766|N|Use the disguise|
-C Listen in|QID|32371|M|60.2,55.1|Z|Kun-Lai Summit|QO|Drink Memory Wine: 1/1|N|Get over to Garrosh, by the bonfire.  After he talks, the wine will appear and you need to click to drink.|
-T Memory Wine|QID|32371|M|65,60.8|Z|Kun-Lai Summit|N|From Agent Connelly|
+C Listen in|QID|32371|M|60.38,55.27|Z|Kun-Lai Summit|QO|Drink Memory Wine: 1/1|N|Get over to Garrosh, by the bonfire.  After he talks, the wine will appear and you need to click to drink.|
+T Memory Wine|QID|32371|M|65.11,60.78|Z|Kun-Lai Summit|N|From Agent Connelly|
 
 ; The Divine Bell
-A The Ruins of Korune|QID|32393|PRE|32316|M|89.67,32.79|REP|Operation: Shieldwall;1376;revered;6650|N|From Admiral Taylor, near the middle of Revered|
-R Kun-Lai Summit|QID|32315|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-T The Ruins of Korune|QID|32393|M|32.6,30.6|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
-A The Divine Bell|QID|32394|PRE|32393|M|32.6,30.6|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
-K Dreadweaver Avartu|QID|32394|M|32.6,30.6|Z|Kun-Lai Summit|N|When you see the circle in front of Dreadweaver, stay inside!|
-T The Divine Bell|QID|32394|M|32.6,30.6|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
+A The Ruins of Korune|QID|32393|PRE|32371|M|89.55,32.58|REP|Operation: Shieldwall;1376;revered;6650|N|From Admiral Taylor, near the lower middle of Revered|
+R Kun-Lai Summit|QID|32393|M|88.34,34.20|N|Talk to Fennie to get dropped off|
+T The Ruins of Korune|QID|32393|M|32.88,26.26|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
+A The Divine Bell|QID|32394|PRE|32393|M|32.88,26.26|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
+K Dreadweaver Avartu|QID|32394|M|59.22,25.55|Z|Kun-Lai Summit/21|N|Make your way to the back of the crypt and then go down stairs to the mini-boss.\nWhen he casts a whirling circle, get inside. Sarannha will tag along.|QO|Dreadweaver Avartu slain: 1/1|
+N Recover the bell.|QID|32394|M|60.86,22.56|QO|Recover the Divine Bell: 1/1|N|Click on the bell to finish up!|
+T The Divine Bell|QID|32394|M|61.95,25.76|Z|Kun-Lai Summit/21|N|To Sarannha Skyglaive, right next to you.|
 
 ; The Purge of Dalaran
 A Darnassus Attacked?|QID|32414|PRE|32394|M|89.67,32.79|REP|Operation: Shieldwall;1376;revered;8700|N|From Admiral Taylor, near the middle of Revered|
