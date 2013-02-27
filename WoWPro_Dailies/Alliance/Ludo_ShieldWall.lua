@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-02-26 13:17
+-- Who: Ludovicus Maior
+-- Log: Played through [In Search of Harmony]
+
+-- URL: http://wow-pro.com/node/3519/revisions/25541/view
 -- Date: 2013-02-24 21:03
 -- Who: Ludovicus Maior
 -- Log: Tweaked coords and updated [The Purge of Dalaran] and [An Ancient Ally] after play.  Filled in [In Search of Harmony].  Added new NPC tag required for QID|*| usages.
@@ -135,7 +140,7 @@ T The Fate of Dalaran|QID|32362|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To An
 ; The Korune
 A To Mogujia|QID|32193|PRE|32362|M|89.55,32.58|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
 R Mogujia|QID|32193|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-T Mogujia|QID|32193|M||Z|Kun-Lai Summit|N|To Brann Bronzebeard|
+T To Mogujia|QID|32193|M||Z|Kun-Lai Summit|N|To Brann Bronzebeard|
 A The Source of Korune Power|QID|32243|PRE|32193|M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
 A Bad Blood|QID|32194|PRE|32193|M|58.2,71.0|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
 C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
@@ -245,12 +250,12 @@ A The Handle|QID|32336|PRE|32335|M|88.89,31.75|REP|Operation: Shieldwall;1376;re
 A The Head|QID|32337|PRE|32335|M|88.89,31.75|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
 A The Harmonic Ointment|QID|32338|PRE|32335|M|88.89,31.75|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
 
-C The Harmonic Ointment|QID|32338|M|62.7,34.1|Z|Townlong Steppes|N|Kill the Blade and loot the ointment.  There might be a chest in the tent with some gold too.|
+C The Harmonic Ointment|QID|32338|M|62.7,34.1|Z|Townlong Steppes|N|Get thee to Townlong Steppes, not far from Winter's Blossom in the Summit. Kill the Blade and loot the ointment.  There might be a chest in the tent with some gold too.|
 
-C The Head|QID|32337|M|23.20,30.75;24.8,28.2|Z|Valley of the Four Winds|CS|N|Fly to the first coordinate and then go into the cave to loot it.  Look for a little alcove to the left as your enter the cave. You might find a Virmen Treasure Cache!|
+C The Head|QID|32337|M|23.09,30.65;24.98,28.06|Z|Valley of the Four Winds|CS|N|Fly to the first coordinate, chat with the finder and then go into the cave to loot it.  Look for a little alcove to the left as your enter the cave. You might find a Virmen Treasure Cache!|
 
-C The Handle|QID|32336|M|43.55,86.07|N|Speak Chief Ingoo Ingoo XVII and fight him for the handle.|
-T The Handle|QID|32336|M|43.4,86.4|N|To The Monkey King, right next to ya!|
+C The Handle|QID|32336|M|43.57,86.06|N|Speak to Chief Ingoo Ingoo XVII and fight him for the handle.|
+T The Handle|QID|32336|M|43.45,86.54|N|To The Monkey King, right next to ya!|
 
 T The Head|QID|32337|M|88.8,31.87|N|To The Monkey King, near the end of Revered|
 T The Harmonic Ointment|QID|32338|M|88.8,31.87|N|To The Monkey King, near the end of Revered|
@@ -266,8 +271,8 @@ T The Silence|QID|32455|M|M|89.67,32.79|N|From Admiral Taylor, at exalted|
 
 ; Now start the Dailies!
 A Amber Kearnen's Quests|QID|*|M|89.79,32.43|NPC|68908|N|If Amber Kearnen offers a quest, off to the Skyfire or you go! Skip otherwise|
-A Get Troteman's Quests|QID|*|M|89.69,33.08|NPC|67631|ACTIVE|-32451;-32452|N|From Marshall Troteman.|
-A Get Mishka's Quests|QID|*|M|89.67,32.79|NPC|67630|ACTIVE|-32451;-32452;-32116|N|From Mishka.|
+A Get Troteman's Quests|QID|*|M|89.69,33.08|NPC|67631|ACTIVE|-32451;-32452;-32157;-32142|N|From Marshall Troteman.|
+A Get Mishka's Quests|QID|*|M|89.67,32.79|NPC|67630|ACTIVE|-32451;-32452;-32116;-32157;-32142|N|From Mishka.|
 
 ; Bilgewater Operations
 T And Then There Were Goblins|QID|32452|M|16.48,79.20|N|To Sky Admiral Rogers aboard the Skyfire.|
