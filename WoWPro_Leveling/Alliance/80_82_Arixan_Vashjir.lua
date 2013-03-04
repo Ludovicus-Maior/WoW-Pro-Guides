@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2013-02-21 04:53
+-- Who: Emmaleah
+-- Log: correct capitalization on All or Nothing
+
+-- URL: http://wow-pro.com/node/3305/revisions/25442/view
 -- Date: 2013-01-13 16:18
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -216,10 +221,6 @@
 -- Date: 2010-12-08 18:38
 -- Who: MagicSN
 
--- URL: http://wow-pro.com/node/3305/revisions/23705/view
--- Date: 2010-12-08 16:36
--- Who: MagicSN
-
 WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
 return [[
 
@@ -266,9 +267,9 @@ T To Arms!|QID|25545|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 T Stormwind Elite Aquatic and Land Forces|QID|25564|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 A On Our Own Terms|QID|25547|PRE|25545;25564|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
 T On Our Own Terms|QID|25547|M|45,23.5|Z|Kelp'thar Forest|N|To Captain Taylor.|
-A All Or Nothing|QID|25558|PRE|25547|M|45,23.5|Z|Kelp'thar Forest|N|From Captain Taylor.|
-C All Or Nothing|QID|25558|M|45,23.5|Z|Kelp'thar Forest|N|As soon as you accept the quest, a small battle event starts outside the ship.Do your best to stay alive. Erunak will eventually finish off the first wave, then after a short pause the second wave comes. The soldiers will get carried off one by one, and eventually you will get captured as well. Erunak rescues you and leads you to the next quest hub.|
-T All Or Nothing|QID|25558|M|46.3,46.9|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
+A All or Nothing|QID|25558|PRE|25547|M|45,23.5|Z|Kelp'thar Forest|N|From Captain Taylor.|
+C All or Nothing|QID|25558|M|45,23.5|Z|Kelp'thar Forest|N|As soon as you accept the quest, a small battle event starts outside the ship.Do your best to stay alive. Erunak will eventually finish off the first wave, then after a short pause the second wave comes. The soldiers will get carried off one by one, and eventually you will get captured as well. Erunak rescues you and leads you to the next quest hub.|
+T All or Nothing|QID|25558|M|46.3,46.9|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Better Late Than Dead|QID|25477|PRE|25558|M|46.0,46.8|Z|Kelp'thar Forest|N|From Moanah Stormhoof.|
 C Better Late Than Dead|QID|25477|U|54462|M|49.5,40.9;54.8,54.3|U|54462|Z|Kelp'thar Forest|CN|N|Enter the Kelp Forest and look for a Sea Turtle. When you find one, use Moanah's Baitstick. Once you are riding the turtle, swim back toward Shallow's End. You are going to get...dismounted. There is no way to avoid it so don't feel bad. Swim the rest of the way back to Shallow's End.|
 T Better Late Than Dead|QID|25477|M|46.0,46.8|Z|Kelp'thar Forest|N|To Moanah Stormhoof.|
