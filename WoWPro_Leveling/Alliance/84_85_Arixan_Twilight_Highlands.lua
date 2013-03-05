@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2013-02-18 06:32
+-- Who: Emmaleah
+-- Log: corrected Coords for C Wings over Highbank.
+
+-- URL: http://wow-pro.com/node/3311/revisions/25369/view
 -- Date: 2013-01-12 19:11
 -- Who: Ludovicus Maior
 -- Log: Added CN and CS tags
@@ -224,7 +229,7 @@ C Roots'll Do 'Er|QID|27515|M|71.98,66.59|N|Collect the roots in the area.|NC|
 T Roots'll Do 'Er|QID|27515|M|67.71,65.90|N|To Thordun Hammerblow.|
 
 A Wings Over Highbank|QID|27516|M|67.71,65.90|N|From Thordun Hammerblow.|
-C Wings Over Highbank|QID|27516|M|79.76,77.78|N|Speak to Thordun Hammerblow when you are ready to fly back.|NC|
+C Wings Over Highbank|QID|27516|M|67.66,65.95|N|Speak to Thordun Hammerblow when you are ready to fly back.|NC|
 T Wings Over Highbank|QID|27516|M|79.12,78.27|N|To Kurdran Wildhammer upstairs.|
 
 A Any Portal in a Storm|QID|27537|M|79.12,78.27|N|From Kurdran Wildhammer.|

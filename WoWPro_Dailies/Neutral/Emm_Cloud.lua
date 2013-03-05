@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
+-- Date: 2013-02-18 06:20
+-- Who: Emmaleah
+-- Log: correct misspelled "serpent" x2.
+
+-- URL: http://wow-pro.com/node/3505/revisions/25398/view
 -- Date: 2013-01-12 22:51
 -- Who: Ludovicus Maior
 -- Log: Added 2 CN tags
@@ -31,13 +36,13 @@
 -- Date: 2012-10-07 22:34
 -- Who: Ludovicus Maior
 
-WoWPro.Dailies:RegisterGuide("EmmCloud", "The Jade Forest", "Order of the Cloud Serpant Dailies", "MoP", "Emmaleah", "Neutral", function()
+WoWPro.Dailies:RegisterGuide("EmmCloud", "The Jade Forest", "Order of the Cloud Serpent Dailies", "MoP", "Emmaleah", "Neutral", function()
 
 return [[
 
 N Work in progress!|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website.|
 N Hate Dailies?|N|If you want, you can skip the quests and just fly around picking up onyx eggs after you do the opening questline. They are located mostly on the top of the rocky cliffs. More on that in a few steps.|
-N Order of the Cloud Serpant|N|This guide begins in your Faction city in the Vale of Eternal Blossoms.  If you dont want to fly over there you can skip the leadin and start at the Arboretum in The Jade Forest.|
+N Order of the Cloud Serpent|N|This guide begins in your Faction city in the Vale of Eternal Blossoms.  If you dont want to fly over there you can skip the leadin and start at the Arboretum in The Jade Forest.|
 
 ;intro questline
 A The Order of the Cloud Serpent|LEAD|30134|QID|31373|M|85.8,62.2|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Instructor Windspear (under the overhanging balcony).|
