@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-03-05 23:12
+-- Who: Ludovicus Maior
+-- Log: Did [Breath of Darkest Shadow]
+
+-- URL: http://wow-pro.com/node/3519/revisions/25542/view
 -- Date: 2013-02-26 13:17
 -- Who: Ludovicus Maior
 -- Log: Played through [In Search of Harmony]
@@ -261,13 +266,16 @@ T The Head|QID|32337|M|88.8,31.87|N|To The Monkey King, near the end of Revered|
 T The Harmonic Ointment|QID|32338|M|88.8,31.87|N|To The Monkey King, near the end of Revered|
 
 ; Breath of Darkest Shadow
-A The Bell Speaks|QID|32400|PRE|32336;323367;32338|M|89.55,32.58|REP|Operation: Shieldwall;1376;exalted|N|From Admiral Taylor, at exalted|
+A The Bell Speaks|QID|32400|PRE|32336;32337;32338|M|89.55,32.58|REP|Operation: Shieldwall;1376;exalted|N|From Admiral Taylor, at exalted|
 R Kun-Lai Summit|QID|32400|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-T The Bell Speaks|QID|32400|M|56.4,34.2|Z|Kun-Lai Summit|N|To Anduin Wrynn|
+T The Bell Speaks|QID|32400|M|56.38,34.30|Z|Kun-Lai Summit|N|To Anduin Wrynn, behind the pillar.|
 A Breath of Darkest Shadow|QID|32401|PRE|32400|M|56.4,34.2|Z|Kun-Lai Summit|N|To Anduin Wrynn|
-T Breath of Darkest Shadow|QID|32401|M|56.4,34.2|Z|Kun-Lai Summit|N|To Anduin Wrynn|
-A The Silence|QID|32455|PRE|32401|M|56.4,34.2|Z|Kun-Lai Summit|N|To Anduin Wrynn|
-T The Silence|QID|32455|M|M|89.67,32.79|N|From Admiral Taylor, at exalted|
+K Kill Ishi|QID|32401|M|55.8,32.0|QO|Ishi slain: 1/1|N|Once you enter the platform, there will be some talk.  Kill the adds until Ishi transforms and is attackable.\nRun through Anduin's orbs to get a buff to protect you from Ishi's attacks.|
+C Destroy the Divine Bell|QID|32401|N|This is Anduin's job.|
+T Breath of Darkest Shadow|QID|32401|M|55.96,31.85|Z|Kun-Lai Summit|N|To Anduin Wrynn, under the bell.|
+A The Silence|QID|32455|PRE|32401|M|55.96,31.85|Z|Kun-Lai Summit|N|From Anduin Wrynn, under the bell.|
+U Call for help|QID|32455|U|93362|QO|Use the Alliance Flare Gun: 1/1|N|Use the flare gun. Then get back to Lion's Landing on your own.|
+T The Silence|QID|32455|M|87.72,33.08|N|From Admiral Taylor, in the garrison.|
 
 ; Now start the Dailies!
 A Amber Kearnen's Quests|QID|*|M|89.79,32.43|NPC|68908|N|If Amber Kearnen offers a quest, off to the Skyfire or you go! Skip otherwise|
