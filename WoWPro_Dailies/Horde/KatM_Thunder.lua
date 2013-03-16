@@ -1,3 +1,17 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/isle_thunder_horde
+-- Date: 2013-03-16 18:23
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3540/revisions/25549/view
+-- Date: 2013-03-16 18:22
+-- Who: Ludovicus Maior
+-- Log: Initial version with some edits by Ludo from KatM
+
 WoWPro.Dailies:RegisterGuide("KatMThunderKing", "Isle of Thunder", "Thunder King","MoP", "KatM", "Horde", function()
 return [[
 

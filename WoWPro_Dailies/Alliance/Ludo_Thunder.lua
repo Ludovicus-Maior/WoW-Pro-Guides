@@ -3,17 +3,18 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-
-
--- URL: http://wow-pro.com/node/3519/revisions/25219/view
--- Date: 2012-11-29 18:03
+-- URL: http://wow-pro.com/wiki/isle_thunder_alliance
+-- Date: 2013-03-07 23:31
 -- Who: Ludovicus Maior
--- Log: Initial cut.
+-- Log: First cut for first phase!
+
+-- URL: http://wow-pro.com/node/3537/revisions/25545/view
+-- Date: 2013-03-06 22:26
+-- Who: Ludovicus Maior
+-- Log: Initial Notes for guide
 
 WoWPro.Dailies:RegisterGuide("LudoThunderKing", "Isle of Thunder", "Thunder King", "MoP", "Ludovicus", "Alliance", function()
 return [[
-
-
 
 ; Stage 1!
 
@@ -23,9 +24,7 @@ A The Storm Gathers|QID|32681|PRE|32679|M|49.93,69.04|Z|Townlong Steppes|N|From 
 C The Storm Gathers|QID|32681|M|49.93,69.04|Z|Townlong Steppes|QO|Speak with Vereesa: 1/1|N|Speak with Vereesa and get going!|
 T The Storm Gathers|QID|32681|M|63.2,72.2|N|To Lady Jaina Proudmoore|
 
-
 A Allies in the Shadows|QID|32706|PRE|32681|M|63.2,72.2|N|From Lady Jaina Proudmoore|
-
 
 ; Let the dailies begin!
 A Ihgaluk Crag|QID|32732|M|34.55,89.46|N|From Captain Elleane Wavecrest|
@@ -105,7 +104,6 @@ T The Bloodletter|QID|32530|M|40.1,59.1|N|To Vylene Amaranth|
 T The Call of Thunder|QID|32529|M|40.1,59.1|N|To Vylene Amaranth|
 T The Conquest of Stone|QID|32531|M|40.1,59.1|N|To Vylene Amaranth|
 
-
 ; Dailies - Ihgaluk Crag
 
 T Ihgaluk Crag|QID|32732|M|63,74|N|To Archmage Modera|
@@ -115,7 +113,6 @@ A Skin of the Saurok|QID|32549|PRE|32732|M||N|From Image of Archmage Vargoth|
 A Modera's Quests|QID|*|NPC||PRE|32732|M|63,74|N|From Archmage Modera|
 A Stephen's Quests|QID|*|NPC||PRE|32732|M||N|From Sanitation Sorcerer Stephen Litmatch|
 A The Residents of Ihgaluk|QID|32545|PRE|32732|M||N|From Lyalia|
-
 
 ; Do this quest first!!!!
 C Skin of the Saurok|QID|32549|M|44.20,83.20;44.60,74.40;45.00,84.00;45.80,75.00;49.00,85.80;50.00,76.40;50.80,73.40;52.20,75.60;52.60,91.40;54.20,80.00;54.20,87.00;54.60,78.40;54.80,74.60;55.40,86.20;46.60,72.50;54.50,76.10;49.40,78.50;46.10,71.30;44.50,81.80;47.60,82.40;46.40,70.00|CN|N|Kill any Saurok.|
@@ -142,7 +139,7 @@ C Skumblade Seadragon|QID|32545|M|47.80,87.20;48.00,88.20;49.00,87.60;49.40,89.8
 C Skumblade Saur-Priest|QID|32545|M|49.80,76.00;50.20,74.80;50.60,70.80;51.00,74.00|CN|QO|Skumblade Saur-Priest slain: 1/1|
 C Skumblade Brute|QID|32545|M|44.00,82.00;45.20,82.40;46.20,80.80;48.60,75.20;45.40,73.60;51.30,79.30;45.40,75.30;45.90,77.80|CN|QO|Skumblade Brute slain: 1/1|
 ;
-C Saurok slain|QID|32535|N|Saurok are all over like roaches... take your pick.|QO|Skumblade saurok slain: 10/10| 
+C Saurok slain|QID|32535|N|Saurok are all over like roaches... take your pick.|QO|Skumblade saurok slain: 10/10|
 ;
 C Use Mogu Weapons|QID|32606|M|63,74|N|Stab the Skumblade corpses.|U|123|
 
@@ -164,7 +161,7 @@ T Competing Magic|QID|32576|M|34.6,89.5|N|To Lady Jaina Proudmoore|
 K Nurkala|QID|32580|M|45.2,35.8|QO|Nurkala slain: 1/1|T|Zandalari Prophet|N|Target the prophet first as he heals the pack of trolls.  Then stay out of the AOEs as you burn down Nurkula.|
 T Encroaching Force|QID|32580|M|34.6,89.5|N|To Lady Jaina Proudmoore|
 
-K Horgak the Enslaver|QID|32581|M|45.4,59.4|N|When Horgak casts expanding or contracting circles, get 30 yards away before they blow.  Interrupt "Thermal Strike".  
+K Horgak the Enslaver|QID|32581|M|45.4,59.4|N|When Horgak casts expanding or contracting circles, get 30 yards away before they blow.  Interrupt "Thermal Strike".
 T Imposing Threat|QID|32581|M|34.6,89.5|N|To Lady Jaina Proudmoore|
 
 ; Quest line of some sort
@@ -173,7 +170,6 @@ T Allies in the Shadows|QID|32706|M|51.4,46|N|To Taran Zhu|
 A Secrets in the Isle of Thunder|QID|32707|M|51.4,46|N|From Taran Zhu|
 C Shan'ze Ritual Stones|QID|32707|M|58.0,39.6;44.1,56.2;59.3,56.8;47.4,72.4;52.9,77.2;47.9,82.1;43.5,78.6|CN|L|94221 3|N|Go Get the from the treasure chests.|
 T Secrets in the Isle of Thunder|QID|32707|M|51.4,46|N|To Taran Zhu|
-
 
 N Done for the Day|N|Come back tomorrow!| ; This note will "Catch" questlines that might become availible above
 
