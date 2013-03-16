@@ -28,6 +28,39 @@ function WoWPro:AutoCompleteGetFP(...)
 	end
 end
 
+function WoWPro:CheckPlayerForBuffs(buffs)
+	local buffies = {}
+    local buffIdx
+    for buffIdx = 1, select("#",string.split(";",buffs)) do
+        local buff = select(buffIdx,string.split(";",buffs))
+        buffies[buffIdx] = tonumber(buff)
+    end
+    local BuffIndex = 1
+    local BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+    while BuffName and not skip do
+        for buffIdx = 1, #buffies do
+            if BuffSpellId == buffies[buffIdx] then
+                return BuffSpellId
+            end
+        end
+        BuffIndex = BuffIndex + 1
+        BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+    end
+    return nil
+end
+
+-- Auto-Complete: Do we have a buff? --
+function WoWPro:AutoCompleteBuff(unit,...)
+    if unit ~= "player" then return end
+	for i = 1,15 do
+		local index = WoWPro.rows[i].index
+		if WoWPro.buff and WoWPro.buff[index] and  WoWPro:CheckPlayerForBuffs(WoWPro.buff[index]) then
+		    WoWPro.CompleteStep(index)
+		end
+	end
+end
+
+
 -- Update Item Tracking --
 function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 --[[Purpose: Creates a string containing:
@@ -189,7 +222,7 @@ function WoWPro.AutoCompleteCriteria()
 
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	local GID = WoWProDB.char.currentguide
-	if WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
+	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 		    WoWProCharDB.Guide[GID].completion[qidx] = true
 		    WoWProCharDB.completedQIDs[WoWPro.QID[qidx]] = true
 	end			
@@ -381,7 +414,11 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:UpdateGuide() 
 	end
 
-
+    -- Did we get a buff?
+    if event == "UNIT_AURA" and not InCombatLockdown() then
+        WoWPro:AutoCompleteBuff(...)
+    end
+        
 	-- Lets see what quests the NPC has:
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
         local npcQuests = {GetGossipAvailableQuests()};
@@ -461,7 +498,7 @@ function WoWPro.EventHandler(frame, event, ...)
     		    if WoWPro.qcount[qidx] then
     		        if  WoWPro.qcount[qidx] > 1 then
         		        WoWPro:dbp("ZZZT %d Faking GOSSIP_SHOW, qcount is %d",qidx, WoWPro.qcount[qidx])
-        		        WoWPro:EventHandler(frame,"GOSSIP_SHOW")
+        		        WoWPro.EventHandler(frame,"GOSSIP_SHOW")
         		    else
                         -- We accepted the last quest.
                         WoWPro:dbp("ZZZT: Suck done, finishing %d",qidx)
@@ -492,6 +529,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		    end
         end
 		WoWPro.CompletingQuest = true
+		WoWProCharDB.completedQIDs[GetQuestID()] = true
 		WoWPro:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	

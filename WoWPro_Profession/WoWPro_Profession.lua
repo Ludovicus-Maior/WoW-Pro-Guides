@@ -9,9 +9,9 @@ WoWPro:Embed(WoWPro.Profession)
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Profession:OnInitialize()
-	if WoWProCharDB.AutoHideProfessionInsideInstances == nil then
-	    WoWProCharDB.AutoHideProfessionInsideInstances = true
-	end
+    -- Destroy legacy var
+	WoWProCharDB.AutoHideProfessionInsideInstances = nil
+	
 	-- Profession Tag Setup --
 	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach"})
 end
@@ -42,7 +42,7 @@ function WoWPro.Profession:OnEnable()
 		WoWPro:LoadGuide(WoWProDB.char.lastProfessionguide)
 	end
 	
-	WoWPro.Profession.FirstMapCall = true
+	WoWPro.FirstMapCall = true
 end
 
 -- Called when the module is disabled --

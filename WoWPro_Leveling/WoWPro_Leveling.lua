@@ -9,9 +9,8 @@ WoWPro:Embed(WoWPro.Leveling)
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Leveling:OnInitialize()
-	if WoWProCharDB.AutoHideLevelingInsideInstances == nil then
-	    WoWProCharDB.AutoHideLevelingInsideInstances = true
-	end
+    -- Legacy, destroy!
+	WoWProCharDB.AutoHideLevelingInsideInstances = nil
 		
 	-- Leveling Tag Setup --
 	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep", "action", "faction"})
@@ -66,7 +65,7 @@ function WoWPro.Leveling:OnEnable()
 		WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
 	end
 	
-	WoWPro.Leveling.FirstMapCall = true
+	WoWPro.FirstMapCall = true
 	WoWProCharDB.Taxi = WoWProCharDB.Taxi or {}
 end
 

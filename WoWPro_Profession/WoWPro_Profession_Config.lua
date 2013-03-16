@@ -34,17 +34,6 @@ local function createBlizzOptions()
 						if WoWPro.Profession:IsEnabled() then WoWPro.Profession:Disable() else WoWPro.Profession:Enable() end
 					end
 			}, 
-			hide = {
-				order = 3,
-				type = "toggle",
-				name = L["Enable Hiding"],
-				desc = L["Enables/Disables hiding the Profession module when inside an instance (Dungeon, Arena ...)."],
-				width = "full",
-				get = function(info) return WoWProCharDB.AutoHideProfessionInsideInstances ; end,
-				set = function(info,val)  
-						if WoWProCharDB.AutoHideProfessionInsideInstances == true then WoWProCharDB.AutoHideProfessionInsideInstances=false; else WoWProCharDB.AutoHideProfessionInsideInstances=true; end
-					end
-			}, 
 			blank2 = {
 				order = 4,
 				type = "description",

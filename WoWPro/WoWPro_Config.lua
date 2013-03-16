@@ -102,6 +102,17 @@ local function CreateDisplayConfig()
 						set = function(info,val) WoWProDB.profile.space = val
 							WoWPro.RowSizeSet() end
 					},
+					hide = {
+        				order = 4,
+        				type = "toggle",
+        				name = L["Enable Hiding"],
+        				desc = L["Enables/Disables hiding the active module when inside an instance (Dungeon, Arena ...), unless the guide wants you there!"],
+        				width = "full",
+        				get = function(info) return WoWProCharDB.AutoHideInsideInstances ; end,
+        				set = function(info,val)  
+        						if WoWProCharDB.AutoHideInsideInstances == true then WoWProCharDB.AutoHideInsideInstances=false; else WoWProCharDB.AutoHideInsideInstances=true; end
+        					end
+        			}, 
 					noteshow = {
 						order = 4,
 						type = "toggle",
@@ -688,7 +699,7 @@ local function createBlizzOptions()
 				order = 20,
 				type = "toggle",
 				name = L["Enable Debug"],
-				desc = L["Enables/Disables ddebug logging"],
+				desc = L["Enables/Disables debug logging"],
 				get = function(info) return WoWPro.DebugMode end,
 				set = function(info,val) 
 						if WoWPro.DebugMode == true then
@@ -696,28 +707,27 @@ local function createBlizzOptions()
 						else
 						    WoWPro.DebugMode = true
 						end
+						WoWProCharDB.DebugMode = WoWPro.DebugMode
 					end
 			},
 			resetGuide = {
 			    order = 21,
 			    type = "execute",
-			    name = L["Reset Current Guide"],
-			    desc = L["If your current guide is behaving oddly, this wipes the state, forgets all skipped quests and resets the current guide."],
+			    name = L["Reset WoWPro Addons"],
+			    desc = L["If an addon is behaving oddly, this wipes all saved state. Log out and back in again to complete the reset."],
 			    image = "Interface\\Icons\\INV_Misc_EngGizmos_27",
-			    func =  function (info) if WoWProDB.char.currentguide then
-			                local GID = WoWProDB.char.currentguide
-			                WoWPro:Print("Resetting guide "..GID)
-			                WoWProCharDB.Guide[GID] = nil
-	                        WoWProCharDB.skippedQIDs = {}
-			                WoWPro:LoadGuide()
-			              end
+			    func =  function (info)
+			                WoWProDB = nil
+			                WoWProCharDB = nil
+			                WoWPro:OnInitialize()
+			                PlaySoundFile([[Sound\Interface\Lfg_Denied.Ogg]])
 			            end
 			},
 			resetLog = {
 			    order = 30,
 			    type = "execute",
 			    name = L["Clear the log"],
-			    desc = L["Wow-Pro's Secret Debug Log"],
+			    desc = L["Wow-Pro's Debug Log"],
 			    image = "Interface\\RaidFrame\\ReadyCheck-NotReady",
 			    func =  function (info) WoWProDB.global.Log = {}; WoWPro.Serial = 1 ; WoWPro:Print("Log Reset from UI"); end
 			},

@@ -9,9 +9,8 @@ local bucket = LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Achievements:OnInitialize()
-	if WoWProCharDB.AutoHideAchievementsInsideInstances == nil then
-	    WoWProCharDB.AutoHideAchievementsInsideInstances = true
-	end
+    -- Destroy legacy var
+	WoWProCharDB.AutoHideAchievementsInsideInstances = nil 
 	
 	-- Achievements Tag Setup --
 	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "action"})
@@ -29,7 +28,6 @@ function WoWPro.Achievements:OnEnable()
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM"
 	}
 	WoWPro:RegisterEvents(WoWPro.Achievements.Events)
-	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.Achievements.AutoCompleteCriteria)
 	
 	--Loading Frames--
 	if not WoWPro.Achievements.FramesLoaded then --First time the addon has been enabled since UI Load
@@ -46,7 +44,7 @@ function WoWPro.Achievements:OnEnable()
 		WoWPro:LoadGuide(WoWProDB.char.lastAchievementsguide)
 	end
 	
-	WoWPro.Achievements.FirstMapCall = true
+	WoWPro.FirstMapCall = true
 	
 	-- Server query for completed quests --
 	WoWPro.QueryQuestsCompleted()

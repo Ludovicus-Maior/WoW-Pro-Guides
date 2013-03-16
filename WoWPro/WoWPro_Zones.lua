@@ -17,6 +17,14 @@ WoWPro.SubZone = {
 
 
 WoWPro.Zone2MapID = {
+		["Isle of Thunder"] = {
+			["numFloors"] = 0,
+			["mapID"] = 928,
+			["cont"] = 6,
+			["zone"] = "Isle of Thunder",
+			["mapName"] = "Isle of Thunder",
+			["zonei"] = 3,
+		},
 		["The Hinterlands"] = {
 			["numFloors"] = 0,
 			["mapID"] = 26,
