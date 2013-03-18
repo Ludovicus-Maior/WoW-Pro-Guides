@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2013-03-16 19:19
+-- Who: Ludovicus Maior
+-- Log: zone updates and spelling correction for Jubjub.
+
+-- URL: http://wow-pro.com/node/3459/revisions/25526/view
 -- Date: 2013-02-08 22:31
 -- Who: Emmaleah
 -- Log: moved sayge's fortune to beside inscription quest, so if you happen to be an inscriptionist you dont have to run back a 2nd time.  Added comment about jubling not being tradeable. (so don't get multiples to sell on AH)
@@ -115,7 +120,7 @@ return [[
 
 B Fossil Archeology Fragments|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|90|
 
-B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Blackrock Depths|L|11325 10|U|37863|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|
+B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Shadowforge City@BlackrockDepths|L|11325 10|U|37863|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|
 B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|15|
 B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|15|
 B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|15|
@@ -256,9 +261,9 @@ C Herbs for Healing|QID|29514|US|NC|
 T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 
-N Jubling|QID|7946|M|55.8,70.6|U|11325|N|Somewhere in the forest resonably close to Morja is her lost frog JubJub. He is hooked on Dark Iron Ale. If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured JubJub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|
-A Spawn of JubJub|QID|7946|M|55.8,70.6|
-T Spawn of JubJub|QID|7946|M|55.8,70.6|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|
+N Jubling|QID|7946|M|55.8,70.6|U|11325|N|Somewhere in the forest resonably close to Morja is her lost frog Jubjub. He is hooked on Dark Iron Ale. If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured Jubjub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|
+A Spawn of Jubjub|QID|7946|M|55.8,70.6|
+T Spawn of Jubjub|QID|7946|M|55.8,70.6|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|
 
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6030;1|L|74142 6|FACTION|Alliance|
 B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6031;1|L|74142 6|FACTION|Horde|

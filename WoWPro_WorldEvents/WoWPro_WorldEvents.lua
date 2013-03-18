@@ -10,9 +10,8 @@ local bucket = LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.WorldEvents:OnInitialize()
-	if WoWProCharDB.AutoHideWorldEventsInsideInstances == nil then
-	    WoWProCharDB.AutoHideWorldEventsInsideInstances = true
-	end
+    -- Legacy option.  Destroy!
+	WoWProCharDB.AutoHideWorldEventsInsideInstances = nil
 		
 	-- WorldEvents Tag Setup --
 	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "prereq","spell","active","buff"})
@@ -28,14 +27,14 @@ function WoWPro.WorldEvents:OnEnable()
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM"
 	}
 	WoWPro:RegisterEvents(WoWPro.WorldEvents.Events)
-	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.WorldEvents.AutoCompleteCriteria)
+	
 	--Loading Frames--
 	if not WoWPro.WorldEvents.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.WorldEvents:CreateConfig()
 		WoWPro.WorldEvents.FramesLoaded = true
 	end
 	
-	WoWPro.WorldEvents.FirstMapCall = true
+	WoWPro.FirstMapCall = true
 	
 	-- Server query for completed quests --
 	WoWPro.QueryQuestsCompleted()

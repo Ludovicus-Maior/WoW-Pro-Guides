@@ -12,7 +12,8 @@ local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 frame.name = L["Current Guide"]
 frame.parent = "WoW-Pro"
 frame:Hide()
-
+WoWPro.CurrentGuideFrame = frame
+ 
 -- Frame Contents --
 frame:SetScript("OnShow", function()
 
@@ -49,8 +50,33 @@ frame:SetScript("OnShow", function()
 	
 	local scrollbar = WoWPro:CreateScrollbar(box, 6)
 
+	local tooltip = CreateFrame("Frame", "tooltip", frame)
+	tooltip:SetBackdrop( {
+		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+		edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
+		tile = true, tileSize = 16, edgeSize = 16,
+		insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+	})
+	tooltip:SetBackdropColor(1, 1, 1, 1)
+	tooltip:SetHeight(125)
+	tooltip:SetWidth(250)
+	tooltip:SetFrameStrata("TOOLTIP")
+	tooltip:Hide()
+	frame.tooltip = tooltip
+	
+	local tooltiptext = tooltip:CreateFontString(nil, nil, "GameFontNormal")
+	tooltiptext:SetPoint("TOPLEFT", 10, -10)
+	tooltiptext:SetPoint("RIGHT", -10, 0)
+	tooltiptext:SetJustifyH("LEFT")
+	tooltiptext:SetJustifyV("TOP")
+	tooltiptext:SetWidth(200-20)
+	tooltiptext:SetAlpha(1)
+	tooltiptext:SetText("")
+	frame.tooltip.tooltiptext = tooltiptext
+
 	for i=1,NUMROWS do
 		local row = CreateFrame("Frame", nil, box)
+		local GID = WoWProDB.char.currentguide
 		
 		if i == 1 then 
 			row:SetPoint("TOP", 0, -12)
@@ -63,6 +89,20 @@ frame:SetScript("OnShow", function()
 
 		row.check = WoWPro:CreateCheck(row)
 		row.action = WoWPro:CreateAction(row, row.check)
+		row.action.frame:SetScript("OnEnter", function()
+		    if row.index and WoWPro.why and WoWPro.why[row.index] then
+		        tooltip:SetPoint("TOPLEFT", row, "BOTTOMLEFT", -10, 10)
+		        tooltiptext:SetHeight(125)
+		        tooltiptext:SetText(WoWPro.why[row.index])
+		        tooltiptext:SetHeight(tooltiptext:GetStringHeight())
+		        tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
+		        tooltip:Show()
+		    end
+		end)
+		row.action.frame:SetScript("OnLeave", function()
+		    tooltip:Hide()
+		end)
+		
 		row.step = WoWPro:CreateStep(row, row.action)
 		row.note = WoWPro:CreateNote(row, row.action)
 	
@@ -208,4 +248,3 @@ end )
 
 
 
-WoWPro.CurrentGuideFrame = frame

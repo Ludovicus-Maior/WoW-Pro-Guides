@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2013-03-16 18:28
+-- Who: Ludovicus Maior
+-- Log: Conditionalize  the steps with the water skimmer so that if you have done some Golden lotus quests, you do not see them until the end.  Better coords for [Steer Clear of the Beer Here]
+
+-- URL: http://wow-pro.com/node/3502/revisions/25417/view
 -- Date: 2013-01-13 14:48
 -- Who: Ludovicus Maior
 -- Log: Added a CN tag
@@ -95,8 +100,8 @@ return [[
 
 L Level 90|LVL|90|N|You need to be level 90 to do the Golden Lotus Dailies|
 B Wisdom of the Four Winds|SPELL|Flying in Pandaria;115913|N|You need to be able to have flying mounts in Pandaria to do this guide.|
-N Achievement Phasing issue|ACH|6350;5|QID|963500005|N|if you have not yet done the To all the squirrels ach for Pandaria, you may want to fly over and love the Dancing Water Skimmer as it phases out in the course of doing the Golden Lotus quest line. Check off this and the next step manually if this is of no interest to you.|
-F Dancing Water Skimmer|QID|963500005|M|32,68|Z|Vale of Eternal Blossoms|ACH|6350;5|T|Dancing Water Skimmer|N|/love a Dancing Water Skimmer. Due to phasing issues, you may not be able to see these critters after starting the Golden Lotus quest line.|
+N Achievement Phasing issue|QID|30632|ACH|6350;5|QID|963500005|N|if you have not yet done the To all the squirrels ach for Pandaria, you may want to fly over and love the Dancing Water Skimmer as it phases out in the course of doing the Golden Lotus quest line. Check off this and the next step manually if this is of no interest to you.|
+F Dancing Water Skimmer|QID|30632|M|32,68|Z|Vale of Eternal Blossoms|ACH|6350;5|T|Dancing Water Skimmer|N|/love a Dancing Water Skimmer. Due to phasing issues, you may not be able to see these critters after starting the Golden Lotus quest line.|
 ; Introduction Questline (no daily quests, just a one-time introduction)
 A The Golden Lotus|QID|31384|LEAD|30632|FACTION|Alliance|N|From Xari the Kind in the Shrine of Seven Stars.|M|84.20,62.40|
 A The Golden Lotus|QID|31385|LEAD|30632|FACTION|Horde|N|From Weng the Merciful in the Shrine of Two Moons.|M|63.00,22.20|
@@ -248,7 +253,7 @@ A Random Dailies from Che Wildwalker|QID|30194;30232;30237;30238;30263|PRE|31242
 A Random Dailies from Mayor Shiyo|QID|30191;30192;30190|PRE|31242+31245+31249|N|Accept ALL the daily quests Mayor Shiyo offers. This step will close when you accept the first one. If she doesn't offer any dailies, click this step off manually instead.|M|35.20,74.00|
 A Random Dailies from Cook Tope|QID|30193;30196;30231|PRE|31242+31245+31249|N|Accept ALL the daily quests Cook Tope offers. This step will close when you accept the first one. If he doesn't offer any dailies, click this step off manually instead.|M|33.85,70.44|
 A Random Dailies from Merchant Benny|QID|30195|PRE|31242+31245+31249|N|Accept ALL the daily quests Merchant Benny offers. This step will close when you accept the first one. If he doesn't offer any dailies, click this step off manually instead.|M|33.80,69.80|
-C Steer Clear of the Beer Here|QID|30191|N|Collect Stolen Mistfall Kegs on the rise above the village, the Sprites shouldn't aggro if you don't provoke them.|M|37.20,78.40|
+C Steer Clear of the Beer Here|QID|30191|N|Collect Stolen Mistfall Kegs on the rise above the village, the Sprites shouldn't aggro if you don't provoke them.|M|38.81,79.39|
 C My Town, It's on Fire|QID|30192|N|Click on the little fires in the village to stamp them out.|M|33.28,73.68|
 C Sprite Plight|QID|30190|N|You need to kill Slateskin Troublemakers for this quest. The Sprites have the nasty habit of aggroing all other sprites around them, try to lure them away so you don't aggro too many at once, especially if you're a cloth-wearer.|M|35.20,74.00|
 C The Pandaren Uprising Relived|QID|30237|N|Kill Ancient Mogu Spirits.|M|48.52,69.31|S|

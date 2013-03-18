@@ -19,10 +19,14 @@ function WoWPro:CreateCheck(parent)
 end
 
 function WoWPro:CreateAction(parent, anchor)
-	local action = parent:CreateTexture()
-	action:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
-	action:SetWidth(15)
-	action:SetHeight(15)
+    local frame = CreateFrame("Frame", nil, parent)
+    frame:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
+	frame:SetWidth(15)
+	frame:SetHeight(15)
+
+	local action = frame:CreateTexture()
+	action.frame = frame
+	action:SetAllPoints()
 	
 	return action
 end

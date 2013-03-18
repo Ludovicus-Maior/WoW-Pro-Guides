@@ -34,17 +34,6 @@ local function createBlizzOptions()
 						if WoWPro.WorldEvents:IsEnabled() then WoWPro.WorldEvents:Disable() else WoWPro.WorldEvents:Enable() end
 					end
 			}, 
-			hide = {
-				order = 3,
-				type = "toggle",
-				name = L["Enable Hiding"],
-				desc = L["Enables/Disables hiding the WorldEvents module when inside an instance (Dungeon, Arena ...)."],
-				width = "full",
-				get = function(info) return WoWProCharDB.AutoHideWorldEventsInsideInstances ; end,
-				set = function(info,val)  
-						if WoWProCharDB.AutoHideWorldEventsInsideInstances == true then WoWProCharDB.AutoHideWorldEventsInsideInstances=false; else WoWProCharDB.AutoHideWorldEventsInsideInstances=true; end
-					end
-			}, 
 			blank2 = {
 				order = 4,
 				type = "description",

@@ -4,7 +4,7 @@
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
-## Version: 2.5.0
+## Version: 2.6.0alpha1
 ## X-Category: Compilations
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 
@@ -28,6 +28,7 @@ Libraries\LibBabble-Zone-3.0\lib.xml
 WoWPro.lua
 WoWPro_Widgets.lua
 WoWPro_Localization.lua
+WoWPro_Events.lua
 WoWPro_CurrentGuide.lua
 WoWPro_GuideList.lua
 WoWPro_Frames.lua

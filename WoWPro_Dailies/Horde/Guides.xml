@@ -1,1 +1,1 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">  <Script file="Crack_TolBarad.lua"/>  <Script file="Crack_TolBaradPen.lua"/>  <Script file="PilgrimsBounty.lua"/></Ui>
+<Ui xmlns="http://www.blizzard.com/wow/ui/">  <Script file="Crack_TolBarad.lua"/>  <Script file="Crack_TolBaradPen.lua"/>  <Script file="KatM_Thunder.lua"/>  <Script file="PilgrimsBounty.lua"/></Ui>

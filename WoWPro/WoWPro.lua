@@ -2,7 +2,7 @@
 --      WoWPro.lua      --
 --------------------------
 
-WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro")
+WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
 WoWPro.DebugMode = false
 WoWPro.Guides = {}
@@ -86,7 +86,7 @@ WoWPro:Export("Error")
 
 -- WoWPro error function --
 function WoWPro:LogEvent(event,...)
-    local msg = string.format("|cffff7d0a%s|r: %s(", self.name or "Wow-Pro",event)
+    local msg = string.format("|cffff7d0a%s|r: %s(", self.name or "Wow-Pro",tostring(event))
     local arg = {...}
     local argn = table.getn(arg)
     for i=1,argn do
@@ -231,7 +231,7 @@ local defaults = { profile = {
 -- Core Tag Setup --
 WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", 
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
-	"level", "target", "prof", "waypcomplete", "rank"  
+	"level", "target", "prof", "waypcomplete", "rank","why"  
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -253,8 +253,12 @@ function WoWPro:OnInitialize()
 	end
 	WoWProDB.global.Deltas = {}
 	WoWProDB.global.Log = {}
+	WoWProCharDB.DebugMode = WoWProCharDB.DebugMode or WoWPro.DebugMode
 
 end
+
+-- Setting up event handler
+
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
@@ -305,10 +309,12 @@ function WoWPro:OnEnable()
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_QUERY_COMPLETE",
-		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD",
+		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA"
 		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
+	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+	bucket:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
 	WoWPro.LockdownTimer = nil
 	WoWPro.EventFrame:SetScript("OnUpdate", function(self, elapsed)
 	    if WoWPro.LockdownTimer ~= nil then
@@ -322,76 +328,7 @@ function WoWPro:OnEnable()
 	    end
 	end)
 	    
-	WoWPro.EventFrame:SetScript("OnEvent", function(frame, event, ...)		-- Setting up event handler
-	    WoWPro:LogEvent(event,...)
-		if WoWPro.InitLockdown then
-		    WoWPro:dbp("LockEvent Fired: "..event)
-		else
-		    WoWPro:dbp("Event Fired: "..event)
-		end
-	
-
-		-- Unlocking event processong till after things get settled --
-		if event == "PLAYER_ENTERING_WORLD" then
-		    WoWPro:dbp("Setting Timer 1")
-		    WoWPro.InitLockdown = true
-		    WoWPro.LockdownTimer = 1.0
-		end
-		
-		-- Receiving the result of the completed quest query --
-		if event == "QUEST_QUERY_COMPLETE" then
-			local num = 0
-			for i, QID in pairs(WoWProCharDB.completedQIDs) do
-				num = num+1
-			end
-			WoWPro:dbp("Old Completed QIDs: "..num)
-			WoWProCharDB.completedQIDs = {}
-			WoWPro.GetQuestsCompleted(WoWProCharDB.completedQIDs)
-			num = 0
-			for i, QID in pairs(WoWProCharDB.completedQIDs) do
-				num = num+1
-			end
-			WoWPro:dbp("New Completed QIDs: "..num)
-			collectgarbage("collect")
-			if not WoWPro.InitLockdown then
-			    WoWPro.UpdateGuide()
-			end
-		end
-		
-		-- Locking event processong till after things get settled --
-		if event == "PLAYER_LEAVING_WORLD" then
-		    WoWPro:dbp("Locking Down 1")
-		    WoWPro.InitLockdown = true
-		end
-		
-		if WoWPro.InitLockdown and event ~= "ZONE_CHANGED_NEW_AREA" then
-		    return
-		end
-		
-		-- Unlocking guide frame when leaving combat --
-		if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_ENTERING_WORLD" then
-			WoWPro:UpdateGuide() 
-		end
-		
-		-- Updating party-dependant options --
-		if event == "PARTY_MEMBERS_CHANGED" and not InCombatLockdown() then
-			WoWPro:UpdateGuide() 
-		end
-
-		-- Updating WoWPro keybindings --
-		if event == "UPDATE_BINDINGS" and not InCombatLockdown() then
-			WoWPro:UpdateGuide() 
-		end
-
-		-- Module Event Handlers --
-		for name, module in WoWPro:IterateModules() do
-			if WoWPro[name].EventHandler 
-			and WoWProDB.char.currentguide 
-			and WoWPro.Guides[WoWProDB.char.currentguide]
-			and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == name 
-			then WoWPro[name]:EventHandler(frame, event, ...) end
-		end
-	end)
+	WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 	
 --	WoWPro:MapPoint()				-- Maps the active step
 	-- If the base addon was disabled by the user, put it to sleep now.
@@ -449,14 +386,20 @@ end
 
 function WoWPro:TargetNpcId()
     local guid = UnitGUID("target");
+    if not guid then
+        WoWPro:dbp("No target");
+        return nil
+    end      
     local B = tonumber(guid:sub(5,5), 16);
     local maskedB = B % 8; -- x % 8 has the same effect as x & 0x7 on numbers <= 0xf
     local knownTypes = {[0]="player", [3]="NPC", [4]="pet", [5]="vehicle"};
-    local npcid = tonumber(guid:sub(7,10), 16);
-    WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!"));
+    local npcid = tonumber(guid:sub(6,10), 16);
+    
     if maskedB == 3 then
+        WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!") .. " ID %d",npcid);
         return npcid
     else
+        WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!"));
         return nil
     end
 end

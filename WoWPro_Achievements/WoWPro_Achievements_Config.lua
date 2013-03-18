@@ -34,17 +34,6 @@ local function createBlizzOptions()
 						if WoWPro.Achievements:IsEnabled() then WoWPro.Achievements:Disable() else WoWPro.Achievements:Enable() end
 					end
 			}, 
-			hide = {
-				order = 3,
-				type = "toggle",
-				name = L["Enable Hiding"],
-				desc = L["Enables/Disables hiding the Achievements module when inside an instance (Dungeon, Arena ...)."],
-				width = "full",
-				get = function(info) return WoWProCharDB.AutoHideAchievementsInsideInstances ; end,
-				set = function(info,val)  
-						if WoWProCharDB.AutoHideAchievementsInsideInstances == true then WoWProCharDB.AutoHideAchievementsInsideInstances=false; else WoWProCharDB.AutoHideAchievementsInsideInstances=true; end
-					end
-			}, 
 			blank2 = {
 				order = 4,
 				type = "description",

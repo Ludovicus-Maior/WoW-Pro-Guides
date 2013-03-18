@@ -36,7 +36,7 @@ def MeldPair(XYs, minDelta):
     return XYs,delta
         
 
-def Coalesce(coords):
+def Coalesce(minDelta,coords):
     # First split along the semi-colons
     CoordSet= coords.split(';')
     print "Found %d Coordinates" % ( len(CoordSet))
@@ -69,7 +69,6 @@ def Coalesce(coords):
         
         XYs.append(xy)
     
-    minDelta=2.0
     actualDelta = 0
     while actualDelta <= minDelta:
         XYs,actualDelta = MeldPair(XYs,minDelta)
@@ -87,8 +86,13 @@ def Coalesce(coords):
             
 
 if __name__ == "__main__":
+    minDelta = 2.0
     for arg in sys.argv[1:]:
-        Coalesce(arg)
+        if string.find(arg,",") >= 0:
+            Coalesce(minDelta,arg)
+        else:
+            minDelta = float(arg)
+        
 
 
 

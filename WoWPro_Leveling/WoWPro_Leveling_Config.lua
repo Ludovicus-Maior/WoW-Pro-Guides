@@ -34,17 +34,6 @@ local function createBlizzOptions()
 						if WoWPro.Leveling:IsEnabled() then WoWPro.Leveling:Disable() else WoWPro.Leveling:Enable() end
 					end
 			}, 
-			hide = {
-				order = 3,
-				type = "toggle",
-				name = L["Enable Hiding"],
-				desc = L["Enables/Disables hiding the leveling module when inside an instance (Dungeon, Arena ...)."],
-				width = "full",
-				get = function(info) return WoWProCharDB.AutoHideLevelingInsideInstances ; end,
-				set = function(info,val)  
-						if WoWProCharDB.AutoHideLevelingInsideInstances == true then WoWProCharDB.AutoHideLevelingInsideInstances=false; else WoWProCharDB.AutoHideLevelingInsideInstances=true; end
-					end
-			}, 
 			blank2 = {
 				order = 4,
 				type = "description",

@@ -134,128 +134,14 @@ function WoWPro.WorldEvents:UnSkipStep(index)
 	WoWPro:MapPoint()
 end
 
--- Quest parsing function --
-local function ParseQuests(...)
-	WoWPro:dbp("Parsing Guide...")
-	local i = 1
-	local myclassL, myclass = UnitClass("player")
-	local myraceL, myrace = UnitRace("player")
-	if myrace == "Scourge" then
-		myrace = "Undead"
-	end
-	for j=1,select("#", ...) do
-		local text = select(j, ...)
-		text = text:trim()
-		if text ~= "" and text:sub(1,1) ~= ";" then
-			local class, race, gender, faction = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
-			if class then
-				-- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
-				class = strupper(string.gsub(class, " ", ""))
-			end
-			if race then
-				-- deleting whitespaces to compare with Blizzard's race tokens
-				race = string.gsub(race, " ", "")
-			end
-			if gender then
-				-- deleting leading/trailing whitespace and then canonicalize the case
-				gender=strupper(strtrim(gender))
-				-- map the text to the gender code
-				if gender == "FEMALE" then
-					gender = 3
-				elseif gender == "MALE" then
-					gender = 2
-				else
-					gender = 1
-				end
-			end
-			if faction then
-				-- deleting leading/trailing whitespace and then canonicalize the case
-				faction=strupper(strtrim(faction))
-            end			    
-			if class == nil or class:find(myclass) then if race == nil or race:find(myrace) then if gender == nil or gender == UnitSex("player") then if faction == nil or faction == strupper(UnitFactionGroup("player")) then
-				_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
-				WoWPro.step[i] = WoWPro.step[i]:trim()
-				WoWPro.stepcount = WoWPro.stepcount + 1
-				WoWPro.QID[i] = text:match("|QID|([^|]*)|?")
-				WoWPro.note[i] = text:match("|N|([^|]*)|?")
-				WoWPro.map[i] = text:match("|M|([^|]*)|?")
-				if text:find("|S|") then 
-					WoWPro.sticky[i] = true; 
-					WoWPro.stickycount = WoWPro.stickycount + 1 
-				end
-				if text:find("|US|") then WoWPro.unsticky[i] = true end
-				WoWPro.use[i] = text:match("|U|([^|]*)|?")
-				WoWPro.zone[i] = text:match("|Z|([^|]*)|?")
-				if WoWPro.zone[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
-					local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,WoWProDB.char.currentguide,text)
-                    WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
-	                table.insert(WoWProDB.global.ZoneErrors, line)
-				    WoWPro:dbp("Invalid Z tag in:"..text)
-				    WoWPro.zone[i] = nil
-				end
-				_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
-				WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
 
-				if text:find("|O|") then 
-					WoWPro.optional[i] = true
-					WoWPro.optionalcount = WoWPro.optionalcount + 1 
-				end
-				WoWPro.prereq[i] = text:match("|PRE|([^|]*)|?")
-
-				if text:find("|NC|") then WoWPro.noncombat[i] = true end
-				WoWPro.level[i] = text:match("|LVL|([^|]*)|?")
-				WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
-    			WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
-				WoWPro.target[i] = text:match("|T|([^|]*)|?")
-                                WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
-				WoWPro.prof[i] = text:match("|P|([^|]*)|?")
-				WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
-				WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
-				WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
-				WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
-
-				if WoWPro.ach[i] then
-					local achnum, achitem = string.split(";",WoWPro.ach[i])
-					local count = GetAchievementNumCriteria(achnum)
-					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
-					if WoWPro.step[i] == "Achievement" and count == 0 then
-						WoWPro.step[i] = Name
-						WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i] end
-					if WoWPro.step[i] == "Achievement" and count > 0 then
-						WoWPro.step[i] = Name
-						local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-						WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i] end
-				end
-
-				if WoWPro.map[i] then
-					if text:find("|CC|") then WoWPro.waypcomplete[i] = 1
-					elseif text:find("|CS|") then WoWPro.waypcomplete[i] = 2
-					elseif text:find("|CN|") then WoWPro.waypcomplete[i] = false
-					else
-					    WoWPro.waypcomplete[i] = false
-					    if WoWPro.map[i]:find(";") then
-					        WoWPro.WorldEvents:Warning("Step %s [%s:%s] in %s is missing a CS|CC|CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
-					    end
-					end
-				end
-
-				for _,tag in pairs(WoWPro.Tags) do 
-					if not WoWPro[tag][i] then WoWPro[tag][i] = false end
-				end
-				
-				i = i + 1
-			end end end end
-		end
-	end
-end
-	
 -- Guide Load --
 function WoWPro.WorldEvents:LoadGuide()
 	local GID = WoWProDB.char.currentguide
 
 	-- Parsing quests --
 	local sequence = WoWPro.Guides[GID].sequence
-	ParseQuests(string.split("\n", sequence()))
+	WoWPro:ParseQuests(string.split("\n", sequence()))
 	
 	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps registered.")
 		
@@ -305,7 +191,7 @@ function WoWPro.WorldEvents:LoadGuide()
 	
 	-- Checking zone based completion --
 	WoWPro:UpdateGuide()
-	WoWPro.WorldEvents:AutoCompleteZone()
+	WoWPro:AutoCompleteZone()
 	
 	-- Scrollbar Settings --
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
@@ -569,7 +455,7 @@ function WoWPro.WorldEvents:RowUpdate(offset)
 	
 	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
 	WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
-	WoWPro.WorldEvents:UpdateQuestTracker()
+	WoWPro:UpdateQuestTracker()
 
 	return reload
 end
@@ -586,28 +472,6 @@ end
 function WoWPro.WorldEvents:EventHandler(self, event, ...)
 	WoWPro:dbp("Running: WorldEvents Event Handler "..event)
 		
-	-- Noticing if we have entered a Dungeon!
-	if event == "ZONE_CHANGED_NEW_AREA" and WoWProCharDB.AutoHideWorldEventsInsideInstances == true then
-	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-	    if WoWPro.zone[qidx] and WoWPro:IsInstanceZone(WoWPro.zone[qidx]) and IsInInstance() then
-	        WoWPro:Print("|cff33ff33 Suppressing Instance Auto Hide, turn it on after you are done with this guide.|r")
-	        WoWProCharDB.AutoHideWorldEventsInsideInstances = false
-	        return
-	    end
-		if IsInInstance() then
-			WoWPro:Print("|cff33ff33Instance Auto Hide|r: WorldEvents Module")
-			WoWPro.MainFrame:Hide()
-			WoWPro.Titlebar:Hide()
-			WoWPro.Hidden = true
-			return
-		elseif WoWPro.Hidden == true then
-			WoWPro:Print("|cff33ff33Instance Exit Auto Show|r: WorldEvents Module")
-			WoWPro.MainFrame:Show()
-			WoWPro.Titlebar:Show()
-			WoWPro.Hidden = nil
-		end
-	end	
-
     -- Lets see what quests the NPC has:
     if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
         local npcQuests = {GetGossipAvailableQuests()};
@@ -685,222 +549,9 @@ function WoWPro.WorldEvents:EventHandler(self, event, ...)
 		    end
         end
 		WoWPro.WorldEvents.CompletingQuest = true
-		WoWPro.WorldEvents:AutoCompleteQuestUpdate(GetQuestID())
-	end
-	
-	-- Auto-Completion --
-	if event == "CHAT_MSG_SYSTEM" then
-		WoWPro.WorldEvents:AutoCompleteSetHearth(...)
-	end	
-	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
-		WoWPro.WorldEvents:AutoCompleteZone(...)
-	end
-	if event == "QUEST_LOG_UPDATE" then
-		WoWPro:PopulateQuestLog(...)
-		WoWPro.WorldEvents:AutoCompleteQuestUpdate(...)
-		WoWPro.WorldEvents:UpdateQuestTracker()
-	end	
-	if event == "UI_INFO_MESSAGE" then
-		WoWPro.WorldEvents:AutoCompleteGetFP(...)
-	end
-end
-
--- Auto-Complete: Criteria Change
-function WoWPro.WorldEvents.AutoCompleteCriteria()
-    if not WoWProDB.char.currentguide then return end
-    if WoWPro.Guides[WoWProDB.char.currentguide].guidetype  ~= "WorldEvents" then return end
-
-	WoWPro:UpdateGuide() 
-end
-
--- Auto-Complete: Get flight point --
-function WoWPro.WorldEvents:AutoCompleteGetFP(...)
-	for i = 1,15 do
-		local index = WoWPro.rows[i].index
-		if ... == ERR_NEWTAXIPATH and WoWPro.action[index] == "f" 
-		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-			WoWPro.CompleteStep(index)
-		end
-	end
-end
-
--- Auto-Complete: Quest Update --
-function WoWPro.WorldEvents:AutoCompleteQuestUpdate(questComplete)
-	local GID = WoWProDB.char.currentguide
-	if not GID or not WoWPro.Guides[GID] then return end
-	
-	if WoWProCharDB.Guide then
-		for i=1,#WoWPro.action do
-		
-			local action = WoWPro.action[i]
-			local completion = WoWProCharDB.Guide[GID].completion[i]
-			WoWPro.WorldEvents:dbp("Running: AutoCompleteQuestUpdate questComplete=%s, action=%s, completion=%s",tostring(questComplete),action,tostring(completion))
-			
-			if WoWPro.QID[i] then
-				local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
-				for j=1,numQIDs do
-					local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
-					QID = tonumber(QID)
-
-					WoWPro.WorldEvents:dbp("AutoCompleteQuestUpdate: Testing QID=%s",tostring(QID))
-			        -- Quest Turn-Ins --
-			        if WoWPro.WorldEvents.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
-				        WoWPro.CompleteStep(i)
-				        WoWProCharDB.completedQIDs[QID] = true
-				        WoWPro.WorldEvents.CompletingQuest = false
-			        end
-			
-			        -- Abandoned Quests --
-			        if not WoWPro.WorldEvents.CompletingQuest and ( action == "A" or action == "C" ) 
-			        and completion and WoWPro.missingQuest == QID then
-				        WoWProCharDB.Guide[GID].completion[i] = nil
-				        WoWPro:UpdateGuide()
-				        WoWPro:MapPoint()
-			        end
-			
-                    -- Quest AutoComplete --
-                    if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
-                        WoWPro.CompleteStep(i)
-                    end
-			        -- Quest Accepts --
-			        if WoWPro.newQuest == QID and action == "A" and not completion then
-				        WoWPro.CompleteStep(i)
-			        end
-			
-			        -- Quest Completion --
-			        if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
-				        WoWPro.CompleteStep(i)
-			        end
-			
-			        -- Partial Completion --
-			        if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
-			        and not WoWProCharDB.Guide[GID].completion[i] then 
-				        local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
-				        local complete = true
-				        for l=1,numquesttext do
-					        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
-					        local lcomplete = false
-					        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
-						        if lquesttext == objective then --if the objective matches the step's criteria, mark true
-							        lcomplete = true
-						        end
-					        end
-					        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
-				        end
-				        if complete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
-			        end
-			    end
-			end		
-		end
-	
-	end
-	
-	-- First Map Point --
-	if WoWPro.WorldEvents.FirstMapCall then
-		WoWPro:MapPoint()
-		WoWPro.WorldEvents.FirstMapCall = false
+		WoWPro:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	
 end
 
-			
--- Auto-Complete: Set hearth --
-function WoWPro.WorldEvents:AutoCompleteSetHearth(...)
-	local msg = ...
-	local _, _, loc = msg:find(L["(.*) is now your home."])
-	if loc then
-		WoWProCharDB.Guide.hearth = loc
-		for i = 1,15 do
-			local index = WoWPro.rows[i].index
-			if WoWPro.action[index] == "h" and WoWPro.step[index] == loc 
-			and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-				WoWPro.CompleteStep(index)
-			end
-		end
-	end	
-end
 
--- Auto-Complete: Zone based --
-function WoWPro.WorldEvents:AutoCompleteZone()
-	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
-	local currentindex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
-	local action = WoWPro.action[currentindex]
-	local step = WoWPro.step[currentindex]
-	local coord = WoWPro.map[currentindex]
-	local waypcomplete = WoWPro.waypcomplete[currentindex]
-	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
-	if action == "F" or action == "H" or action == "b" or (action == "R" and not waypcomplete) then
-		if step == zonetext or step == subzonetext 
-		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
-			WoWPro.CompleteStep(currentindex)
-		end
-	end
-end
-
-
--- Update Quest Tracker --
-function WoWPro.WorldEvents:UpdateQuestTracker()
-	if not WoWPro.GuideFrame:IsVisible() then return end
-	local GID = WoWProDB.char.currentguide
-	if not GID or not WoWPro.Guides[GID] then return end
-	
-	for i,row in ipairs(WoWPro.rows) do
-		local index = row.index
-		local questtext = WoWPro.questtext[index] 
-		local action = WoWPro.action[index] 
-		local lootitem = WoWPro.lootitem[index] 
-		local lootqty = WoWPro.lootqty[index] 
-					if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-		local QID = WoWPro.QID[index]
-		-- Setting up quest tracker --
-		row.trackcheck = false
-		local track = ""
-		if WoWProDB.profile.track and ( action == "C" or questtext or lootitem) then
-			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard then
-				local j = WoWPro.QuestLog[QID].index
-				row.trackcheck = true
-				if not questtext and action == "C" then
-					if WoWPro.QuestLog[QID].leaderBoard[1] then
-						track = "- "..WoWPro.QuestLog[QID].leaderBoard[1]
-						if select(3,GetQuestLogLeaderBoard(1, j)) then
-							track =  track.." (C)"
-						end
-					end
-					for l=1,#WoWPro.QuestLog[QID].leaderBoard do 
-						if l > 1 then
-							if WoWPro.QuestLog[QID].leaderBoard[l] then
-								track = track.."\n- "..WoWPro.QuestLog[QID].leaderBoard[l]
-								if select(3,GetQuestLogLeaderBoard(l, j)) then
-									track =  track.." (C)"
-								end
-							end
-						end
-					end
-				elseif questtext then --Partial completion steps only track pertinent objective.
-					local numquesttext = select("#", string.split(";", questtext))
-					for l=1,numquesttext do
-						local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
-						for m=1,GetNumQuestLeaderBoards(j) do 
-							if GetQuestLogLeaderBoard(m, j) then
-								local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(m, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
-								if itemName and string.find(lquesttext,itemName) then
-									track = "- "..GetQuestLogLeaderBoard(m, j)
-									if select(3,GetQuestLogLeaderBoard(m, j)) then
-										track =  track.." (C)"
-									end
-								end
-							end
-						end
-					end
-				end
-			end
-			if lootitem then
-				row.trackcheck = true
-				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-				track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
-			end
-		end
-		row.track:SetText(track)
-	end
-	if not InCombatLockdown() then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
-end
