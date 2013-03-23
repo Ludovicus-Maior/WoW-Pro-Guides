@@ -106,7 +106,10 @@ end
 
 function WoWPro:NextGuide(GID)
 	local myUFG = UnitFactionGroup("player")
-    if not WoWPro.Guides[GID].nextGID then return nil; end
+    if not WoWPro.Guides[GID].nextGID then
+        -- If there is no next guide defined, STAY.
+        return GID
+    end
 	if WoWPro.Guides[GID].faction == "Neutral" then
 	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
 	    local  AllianceGUID, HordeGID = string.split("|",WoWPro.Guides[GID].nextGID)
