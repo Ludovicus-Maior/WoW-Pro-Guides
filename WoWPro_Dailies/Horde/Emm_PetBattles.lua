@@ -1,11 +1,16 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 WoWPro.Dailies:RegisterGuide("EmmPetBattles", "Vale of Eternal Blossoms", "Pet Battle Dailies", "MoP", "Emmaleah", "Horde", function()
 return [[
 
-N Work In Process Disclaimer|QID|31909|N|This guide is a work-in-process. Please report any errors or missing quests on the WowPro Website.|
-N Dailies Unlocked|QID|32428|N|This guide assumes you have all the dailies unlocked. It is not listed in the order they unlock, but rather in an order to minimize travel time.|
-N Hearth Stone|QID|31909|N|This guide assumes you have your hearth stone set to Shrine of the Two Moons or Orgrimar. If that isn't the case, you may not want to hearth when the guide tells you to.|
-N Achievements|QID|31909|N|There are many achievements listed for Battle Pets. None of them are discussed in this guide.|
-N Battle Pet Recommendations|QID|31909|N|The listed recomended pet is based on guides listed on Wowhead. If you out level the content you can probably ignore it. If not, I would recomend using at least one of the listed types of opponents. The order of the opponents you will face is random. Starting with the final Outland battle(Bloodknight Antari), all the opponsnfz are rare quality (thus much harder).|
+N Work In Process Disclaimer|QID|31909|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|
+N Dailies Unlocked|QID|32428|N|This guide assumes you have all the dailies unlocked.  It is not listed in the order they unlock, but rather in an order to minimize travel time.|
+N Hearth Stone|QID|31909|N|This guide assumes you have your hearth stone set to Shrine of the Two Moons or Orgrimar.  If that isn't the case, you may not want to hearth when the guide tells you to.|
+N Achievements|QID|31909|N|There are many achievements listed for Battle Pets.  None of them are discussed in this guide.|
+N Battle Pet Recommendations|QID|31909|N|The listed recomended pet is based on guides listed on Wowhead.  If you out level the content you can probably ignore it.  If not, I would recomend using at least one of the listed types of opponents.  The order of the opponents you will face is random. Starting with the final Outland battle(Bloodknight Antari), all the opponsnfz are rare quality (thus much harder).|
 N Alliance vs. Horde|QID|31909|N|You can do all of the Kalimdor/Eastern Kingdom quests (except Trixxy and Lydia) on both an alliance and a horde toon each day if you should want to. (if you are trying to train up pets quickly).|
 N Sack of Pet Supplies|QID|31909|N|Set to Rank 1 if you only want to do the quests that reward Sack of Pet Supplies. Rank 2 adds the level 20 and higher pets and Rank 3 is ALL of the trainers.|
 
@@ -60,7 +65,7 @@ C Dagra the Fierce|QID|31819|M|58.61,53.04|Z|Northern Barrens|N|Opponents are le
 T Dagra the Fierce|QID|31819|M|58.61,53.04|Z|Northern Barrens|N|To Dagra the Fierce.|RANK|3|
 R Durotar|QID|31818|M|43.85,28.86|Z|Durotar|RANK|3|
 A Zunta|QID|31818|M|43.85,28.86|Z|Durotar|N|From Zunta.|RANK|3|
-C Zunta|QID|31818|M|43.85,28.86|Z|Durotar|N|Opponents are level 2 Critter and Beast. This means your best choices are Beast and Mechanical.|
+C Zunta|QID|31818|M|43.85,28.86|Z|Durotar|N|Opponents are level 2 Critter and Beast. This means your best choices are  Beast and Mechanical.|
 T Zunta|QID|31818|M|43.85,28.8644,28|Z|Durotar|N|To Zunta.|RANK|3|
 
 R Orgrimmar|QID|31916|M|52.74,52.9|Z|Orgrimmar|RANK|1|N|If you skipped Durotar and N Barrens, it might be faster to take the boat from Ratchet to Booty Bay.|
@@ -151,8 +156,7 @@ R Kun-Lai Summit|QID|31956|M|35.84,74.23|Z|Kun-Lai Summit|RANK|1|N|If you land o
 A Grand Master Yon|QID|31956|M|35.8,73.6|Z|Kun-Lai Summit|N|From Courageous Yon.|RANK|1|
 C Grand Master Yon|QID|31956|M|35.8,73.6|Z|Kun-Lai Summit|N|Opponents are level 25 Epic Beast, Critter and Flying. This means your best choices are Mechanical, Beast and Magic.|RANK|1|
 T Grand Master Yon|QID|31956|M|35.8,73.6|Z|Kun-Lai Summit|N|To Courageous Yon.|RANK|1|
-R need subzone name|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|RANK|1|
-A Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|From Thundering Pandaren Spirit.|RANK|1|
+R need subzone name|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|RANK|1|A Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|From Thundering Pandaren Spirit.|RANK|1|
 C Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|Opponents are level 25 Legendary Beast, Elemental and Critter. This means your best choices are Mechanical, Aquatic and Beast.|RANK|1|
 T Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|To Thundering Pandaren Spirit.|RANK|1|
 R Townlong Steppes|QID|31991|M|36.2,52.2|Z|Townlong Steppes|RANK|1|
