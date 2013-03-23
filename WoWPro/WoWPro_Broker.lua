@@ -280,17 +280,33 @@ function WoWPro:NextStep(k,i)
 	
 	
 		-- Checking Prerequisites --
-		if WoWPro.prereq[k] then
-			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-			for j=1,numprereqs do
-				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-				if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
-					skip = true -- If one of the prereqs is NOT complete, step is skipped.
-					WoWPro:dbp("MissingPrereq(%d) of %s",k,jprereq)
-					WoWPro.why[k] = "NextStep(): Skipping step with uncomplete prerequisite."
-				end
-			end
-		end
+    	if WoWPro.prereq[k] and WoWPro.QID[k] then
+    	    if string.find(WoWPro.prereq[k],"+") then
+    	        -- Any prereq met is OK, skip only if none are met	
+        		local numprereqs = select("#", string.split("+", WoWPro.prereq[k]))
+        		local totalFailure = true
+        		for j=1,numprereqs do
+        			local jprereq = select(numprereqs-j+1, string.split("+", WoWPro.prereq[k]))
+        			if WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+        				totalFailure = false -- If one of the prereqs is complete, step is not skipped.
+        			end
+        		end
+        		if totalFailure then
+        		    skip = true
+        		    WoWPro.why[k] = "NextStep(): None of possible prereqs was met."
+        		end
+        	else
+     	        -- All prereq met must be met	
+        		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+        		for j=1,numprereqs do
+        			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+        			if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+        				skip = true -- If one of the prereqs is NOT complete, step is skipped.
+        				WoWPro.why[k] = "NextStep(): Not all of the prereqs was met."
+        			end
+        		end
+       	    end
+    	end
 
     	-- Skipping quests with prerequisites if their prerequisite was skipped --
     	if WoWPro.prereq[k] 
@@ -766,10 +782,12 @@ function WoWPro:GrailQuestPrereq(qid)
         if( string.sub(tostring(p),1,1) == "B" ) then
             p = string.sub(p,2);
         end
-        if PREstr then
-            PREstr =  PREstr .. ";" .. tostring(p)
-        else
-            PREstr = tostring(p)
+        if tonumber(p) then
+            if PREstr then
+                PREstr =  PREstr .. ";" .. tostring(p)
+            else
+                PREstr = tostring(p)
+            end
         end
     end
     return PREstr
