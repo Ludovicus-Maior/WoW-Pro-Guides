@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2013-03-23 18:24
+-- Who: Ludovicus Maior
+-- Log: quest 31069's name [Bound with Shade] does not match Grail's database [Bound With Shade].
+
+-- URL: http://wow-pro.com/node/3493/revisions/25360/view
 -- Date: 2013-01-12 18:39
 -- Who: Ludovicus Maior
 -- Log: Added a CS and CN tag
@@ -357,7 +362,7 @@ T Rending Daggers|QID|31072|M|50.71,11.78|N|To Lya of Ten Songs.|
 A Wood and Shade|QID|31074|M|50.71,11.78|N|From Lya of Ten Songs.|
 T I Bring Us Great Shame|QID|31071|M|51.09,11.12|N|To Thirsty Missho|
 T Daggers of the Great Ones|QID|31070|M|51.09,11.12|N|To Olon.|
-T Bound with Shade|QID|31069|M|51.17,11.39|N|To Sapmaster Vu.|
+T Bound With Shade|QID|31069|M|51.17,11.39|N|To Sapmaster Vu.|
 A Bound With Wood|QID|31073|M|51.17,11.39|N|From Sapmaster Vu.|
 A Kor'thik Aggression|QID|31133|M|50.17,12.44|N|From Defender Azzo.|
 C Evie Stormstout|QID|31077|M|50.11,10.27|

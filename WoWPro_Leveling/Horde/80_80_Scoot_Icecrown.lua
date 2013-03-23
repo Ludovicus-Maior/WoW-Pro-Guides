@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2013-03-23 18:53
+-- Who: Ludovicus Maior
+-- Log: Many quest name corrections, a 2 QID corrections.
+
+-- URL: http://wow-pro.com/node/3302/revisions/24347/view
 -- Date: 2011-04-29 17:06
 -- Who: Ludovicus Maior
 -- Log: Line 103 for step C Bad coord , Line 315 for step T has 3 M coords, Line 412 for step C Bad coord 1 at a ti, Line 519 for step C Bad coord  .....
@@ -168,10 +173,10 @@ T From Their Corpses, Rise! |QID|12813|
 T Intelligence Gathering |QID|12838|
 T The Grand (Admiral's) Plan |QID|12839|
 
-A In Scrict Confindence |QID|12840|
+A In Strict Confidence |QID|12840|
 N Captain Welsington |QID|12840|QO|Captain Welsington beaten for information and killed: 1/1| |N|On the boat farthest away in the Harbor, by the wheel.|M|5.7,41.9|
 N Captain Hartford |QID|12840|QO|Captain Hartford beaten for information and killed: 1/1| |N|By the wheel on the other boat. |M|7.0,41.9|
-T In Scrict Confindence |QID|12840|
+T In Strict Confidence |QID|12840|
 N Group Quests |QID|12852| |N|The last 2 quests here are group quests. Look for groups while you quest.|
 
 A Second Chances |QID|12847| |O|
@@ -231,10 +236,10 @@ T Putting Olakin Back Together Again |QID|13220| |N|Darkrider Arly .|M|35.46,66.
 A The Flesh Giant Champion |QID|13235|
 C The Flesh Giant Champion |QID|13235| |N|Margrave Dhakar is at . Talk to him to start. Hopefully they will tank him, if not you might be on your own.|M|29.78,61.22|
 
-A Let's Get Out of Here |QID|13481| |N|Father Kamaros is at .|M|31.72,64.81|
-C Let's Get Out of Here |QID|13481| |N|Easy escort. Most of the mobs will be fighting someone else.|
+A Let's Get Out of Here! |QID|13481| |N|Father Kamaros is at .|M|31.72,64.81|
+C Let's Get Out of Here! |QID|13481| |N|Easy escort. Most of the mobs will be fighting someone else.|
 T The Flesh Giant Champion |QID|13235| |N|Darkrider Arly .|M|35.46,66.49|
-T Let's Get Out of Here |QID|13481| |N|Back to Orgrim's Hammer. Brother Keltan patrols around the upper and lower decks.|
+T Let's Get Out of Here! |QID|13481| |N|Back to Orgrim's Hammer. Brother Keltan patrols around the upper and lower decks.|
 
 A Judgment Day Comes! |QID|13227| |N|Brother Keltan patrols around the upper and lower decks.|
 F The Argent Vanguard |QID|13227| |N|.|M|86,76|
@@ -245,32 +250,32 @@ T Honor Above All Else |QID|13036| |N|Just below at |M|87.06,75.87|
 
 A Scourge Tactics |QID|13008|
 
-A Curing the Incurable |QID|13040| |N|Father Gustav patrols the infirmary .|M|86.7,76.6|
+A Curing The Incurable |QID|13040| |N|Father Gustav patrols the infirmary .|M|86.7,76.6|
 f Argent Vanguard |QID|13008| |N|Get the Flight Path in the SE corner .|M|87.76,78.02|
 
-A Defending the Vanguard |QID|13039| |N|Near North front gate. Crusader Lord Dalfors |M|86.08,75.77|
+A Defending The Vanguard |QID|13039| |N|Near North front gate. Crusader Lord Dalfors |M|86.08,75.77|
 N Skinning |QID|13070| |N|If you are a Skinner, this is a great place to farm Nerubian Leather, but the Spiders will phase out in a few quests.|
-C Curing the Incurable |QID|13040| |N|Go to the Valley of Echoes . Kill spiders to get the Venom Sacs. Free guys from the webs while you're there.|M|84,75|
-C Defending the Vanguard |QID|13039| |N|Kill any more you need.|
+C Curing The Incurable |QID|13040| |N|Go to the Valley of Echoes . Kill spiders to get the Venom Sacs. Free guys from the webs while you're there.|M|84,75|
+C Defending The Vanguard |QID|13039| |N|Kill any more you need.|
 C Scourge Tactics |QID|13008| |N|Keep opening the webs until you're done.|
-T Defending the Vanguard |QID|13039| |N|Crusader Lord Dalfors |M|86.08,75.77|
-T Curing the Incurable |QID|13040| |N|Father Gustav .|M|86.7,76.6|
+T Defending The Vanguard |QID|13039| |N|Crusader Lord Dalfors |M|86.08,75.77|
+T Curing The Incurable |QID|13040| |N|Father Gustav .|M|86.7,76.6|
 T Scourge Tactics |QID|13008| |N|Highlord Tirion Fordring |M|87.48,75.86|
 
-A If There Are Survivors |QID|13044|
-T If There Are Survivors |QID|13044| |N|At the dragon stables.|
+A If There Are Survivors... |QID|13044|
+T If There Are Survivors... |QID|13044| |N|At the dragon stables.|
 
 A Into The Wild Green Yonder |QID|13045|
 C Into The Wild Green Yonder |QID|13045| |N|Mount one of the drakes, fly to Scougeholme  and rescue a captive. Fly back to the bonfire in the infirmary and release him. Repeat 2 more times.|M|78,66|
 T Into The Wild Green Yonder |QID|13045| |N|Highlord Tirion Fordring |M|87.48,75.86|
 
 A A Cold Front Approaches |QID|13070|
-N Skinning |QID|13070| |N|When you turn in this quest the area will be in a battle. This is your last chance for easy Nerubian Leather. Turning in the next quest (The Last Line of Defense) phases out the spiders.|
+N Skinning |QID|13070| |N|When you turn in this quest the area will be in a battle. This is your last chance for easy Nerubian Leather. Turning in the next quest (The Last Line Of Defense) phases out the spiders.|
 T A Cold Front Approaches |QID|13070| |N|He's in the building to the left of the gate.|
 
-A The Last Line of Defense |QID|13086|
-C The Last Line of Defense |QID|13086| |N|Fly up to the top of the towers and use the cannons to kill spiders. When you get the message, use the big bomb to kill the dragons.|
-T The Last Line of Defense |QID|13086|
+A The Last Line Of Defense |QID|13086|
+C The Last Line Of Defense |QID|13086| |N|Fly up to the top of the towers and use the cannons to kill spiders. When you get the message, use the big bomb to kill the dragons.|
+T The Last Line Of Defense |QID|13086|
 
 A Once More Unto The Breach, Hero |QID|13105|
 T Once More Unto The Breach, Hero |QID|13105| |N|He's just outside The Breach on the left. |M|83.06,72.91|
@@ -371,25 +376,25 @@ A Slaves to Saronite |QID|13302| |N|Brother Keltan patrols around the upper and 
 A Get to Ymirheim! |QID|13293| |N|Chief Engineer Copperclaw is in the bowels of the ship. Where else would the Engine Room be?|
 T Joining the Assault |QID|13340| |N|Ground Commander Xutjja is at the base of Ymirheim .|M|58.31,46.05|
 
-A Assault by Air |QID|13301|
+A Assault by Air |QID|13310|
 
-A Assault by Ground |QID|13310| |N|He's close by.|
-C Assault by Ground |QID|13310| |N|Follow the squad up the mountain. There are 4 ambushes before you get to the gate, 4 guys need to survive to get credit.|
-N Assault by Air |QID|13301| |N|Fly back down to  near where you got the quests and mount the plane. When you get to Ymirheim, target the harpoon guns and smoke them out, the infiltrators will jump off on their own. If you don't complete this quest in one run, don't worry you will get another chance later. Click off this step when you've landed.|M|59.52,46.03|
+A Assault by Ground |QID|13301| |N|He's close by.|
+C Assault by Ground |QID|13301| |N|Follow the squad up the mountain. There are 4 ambushes before you get to the gate, 4 guys need to survive to get credit.|
+N Assault by Air |QID|13310| |N|Fly back down to  near where you got the quests and mount the plane. When you get to Ymirheim, target the harpoon guns and smoke them out, the infiltrators will jump off on their own. If you don't complete this quest in one run, don't worry you will get another chance later. Click off this step when you've landed.|M|59.52,46.03|
 C Slaves to Saronite |QID|13302| |N|Make your way to the Saronite Mine  killing any Vrykul on the way (keep the bones for the Bone Witch). Enter the mine and try to rescue the slaves. They will fight, run away or be rescued.|M|56.56,57.52|
 
 A Mind Tricks |QID|13308| |N|From Darkspeaker R'khem inside the mine .|M|54.52,59.12|
 C Mind Tricks |QID|13308| |N|Clear the area, then kill the foreman. He's an 80 Elite, but soloable. Burn him down toe to toe or kite.|
 T Mind Tricks |QID|13308| |N|Darkspeaker R'khem .|M|54.52,59.12|
-T A Get to Ymirheim! |QID|13293| |N|Make your way to Blast Thunderbomb at . Keep killing Vrykuls on the way.|M|51.95,57.54|
+T Get to Ymirheim! |QID|13293| |N|Make your way to Blast Thunderbomb at the waypoint. Keep killing Vrykuls on the way.|M|51.95,57.54|
 
 A King of the Mountain |QID|13283|
 C King of the Mountain |QID|13283| |N|Get in the robot and make your way up the mountain using the Jump Jets. When you get to the top , plant the banner. You can leave the robot and use your flying mount to get back down.|M|54.84,60.17|
 T King of the Mountain |QID|13283| |N|Blast Thunderbomb .|M|51.95,57.54|
 C Blood of the Chosen |QID|13330| |N|Kill any more Vrykul you need.|
-C Assault by Air |QID|13301| |N|Fly back down to the plane and complete this if you didn't the first time. You can dismount as soon as you get the complete message.|
-T Assault by Air |QID|13301| |N|Fly back to Ground Commander Xutjja .|M|58.31,46.05|
-T Assault by Ground |QID|13310|
+C Assault by Air |QID|13310| |N|Fly back down to the plane and complete this if you didn't the first time. You can dismount as soon as you get the complete message.|
+T Assault by Air |QID|13310| |N|Fly back to Ground Commander Xutjja .|M|58.31,46.05|
+T Assault by Ground |QID|13301|
 C The Broken Front |QID|13228| |N|Head to the Broken Front . Find a Dying Berserker and talk to him.|M|69,66|
 
 A Avenge Me! |QID|13230|
@@ -469,12 +474,12 @@ T Retest Now |QID|13356| |N|Chief Engineer Copperclaw|
 C Raise the Barricades |QID|13306| |N|Fly to the Valley of Fallen Heroes . Look for the Ebon Blade Markers, they are black whispy things that fade in and out. Create baricades.| |U|44127|M|51,40|
 T Raise the Barricades |QID|13306| |N|Back to Orgrim's Hammer. Koltira Deathweaver|
 
-A Bloodspatterd Banners |QID|13307|
+A Bloodspattered Banners |QID|13307|
 
 A Blinding the Eyes in the Sky |QID|13313| |N|Sky-Reaver Korm Blackscar.|
 C Blinding the Eyes in the Sky |QID|13313| |N|Try around . Use the rocket launcher to shoot down the planes.| |U|44212|M|47.13,43.00|
 N Scourge Converters |N|Converters are around .| |QID|13307|QO|Scourge Converters slain: 5/5|M|48,40|
-C Bloodspatterd Banners |QID|13307| |N|Around . The groups of Converted Heroes can be pulled one at a time, if you work from the end of a line from range. Pulling more than 3 at a time is not recomended.|M|45,53|
+C Bloodspattered Banners |QID|13307| |N|Around . The groups of Converted Heroes can be pulled one at a time, if you work from the end of a line from range. Pulling more than 3 at a time is not recomended.|M|45,53|
 T Opportunity |QID|13258| |N|Sergeant Kregga . There is a gap in the wall. He's just on the other side.|M|54.95,84.22|
 
 A Establishing Superiority |QID|13259|
@@ -498,7 +503,7 @@ A Return to the Surface |QID|13282|
 T Return to the Surface |QID|13282| |N|Take the portal. Fly back to Orgrim's Hammer. Koltira Deathweaver|
 
 A Field Repairs |QID|13304|
-T Bloodspatterd Banners |QID|13307|
+T Bloodspattered Banners |QID|13307|
 T Blinding the Eyes in the Sky |QID|13313| |N|Sky-Reaver Korm Blackscar.|
 C Field Repairs |QID|13304| |N|Kill the Geists around .|M|66.41,53.92|
 T Field Repairs |QID|13304| |N|Turn in at .|M|67.99,51.86|
@@ -627,8 +632,8 @@ T The Rider of the Unholy |QID|13161| |O|
 T The Rider of Frost |QID|13162| |O|
 T The Rider of Blood |QID|13163| |O|
 
-A The Fate Of Bloodbane |QID|13164| |PRE|13163| |O|
-C The Fate Of Bloodbane |QID|13164| |N|| |O|M|54,85|
-T The Fate Of Bloodbane |QID|13164| |O|
+A The Fate of Bloodbane |QID|13164| |PRE|13163| |O|
+C The Fate of Bloodbane |QID|13164| |N|| |O|M|54,85|
+T The Fate of Bloodbane |QID|13164| |O|
 ]]
 end)

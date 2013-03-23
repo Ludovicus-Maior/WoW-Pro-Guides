@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2013-03-23 20:45
+-- Who: Ludovicus Maior
+-- Log: Quest name cleanups
+
+-- URL: http://wow-pro.com/node/3213/revisions/25388/view
 -- Date: 2013-01-12 21:19
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -248,13 +253,13 @@ A Keeper of the Flame|QID|26347|RANK|1|M|30.55,85.54|N|From Captain Grayson.|US|
 C The Coast Isn't Clear|QID|26348|S|M|33.63,84.34|S|N|Kill Murloc Tidehunters and Oracles.|
 C The Coastal Menace|QID|26349|M|34.27,84.81|N|Find, kill and loot Old Murk-Eye.|T|Old Murk-Eye|
 
-T Captain Sanders' Hidden Treasure - Part 1 of 4|QID|26353|RANK|2|M|25.93,47.76|N|To the Captain's Footlocker.|
-A Captain Sanders' Hidden Treasure - Part 2 of 4|QID|26354|RANK|2|PRE|26353|M|25.93,47.76|N|From the Captain's Footlocker.|
+T Captain Sanders' Hidden Treasure|QID|26353|RANK|2|M|25.93,47.76|N|To the Captain's Footlocker.|
+A Captain Sanders' Hidden Treasure|QID|26354|RANK|2|PRE|26353|M|25.93,47.76|N|From the Captain's Footlocker.|
 
 C Keeper of the Flame|QID|26347|M|37.79,40.04|N|Kill and loot Chasm Slimes until you get 5 Chasm Oozes.|
 
-T Captain Sanders' Hidden Treasure - Part 2 of 4|QID|26354|RANK|2|M|40.58,47.79|N|To the Broken Barrel.|
-A Captain Sanders' Hidden Treasure - Part 3 of 4|QID|26355|RANK|2|PRE|26354|M|40.58,47.79|N|From the Broken Barrel.|
+T Captain Sanders' Hidden Treasure|QID|26354|RANK|2|M|40.58,47.79|N|To the Broken Barrel.|
+A Captain Sanders' Hidden Treasure|QID|26355|RANK|2|PRE|26354|M|40.58,47.79|N|From the Broken Barrel.|
 
 C The Coast Isn't Clear|QID|26348|M|33.63,84.34|US|N|Head back to the lighthouse, and finish killing Murloc Tidehunters and Oracles.|
 
@@ -264,10 +269,10 @@ T The Coastal Menace|QID|26349|M|30.53,85.55|N|To Captain Grayson.|
 T Keeper of the Flame|QID|26347|M|30.55,85.49|N|To Captain Grayson.|US|
 T The Coast Isn't Clear|QID|26348|M|30.53,85.55|N|To Captain Grayson.|US|
 
-T Captain Sanders' Hidden Treasure - Part 3 of 4|QID|26355|RANK|2|M|40.65,17.05|N|To the Old Jug.  You may want to run to Moonbrook then fly to Furlbrow's Pumpkin Farm.  The next two steps will take you way out into the sea at the north-west of Westfall, so you're best holding off using your Hearthstone at this point.|
-A Captain Sanders' Hidden Treasure - Part 4 of 4|QID|26356|RANK|2|PRE|26355|M|40.65,17.05|N|From the Old Jug.|
+T Captain Sanders' Hidden Treasure|QID|26355|RANK|2|M|40.65,17.05|N|To the Old Jug.  You may want to run to Moonbrook then fly to Furlbrow's Pumpkin Farm.  The next two steps will take you way out into the sea at the north-west of Westfall, so you're best holding off using your Hearthstone at this point.|
+A Captain Sanders' Hidden Treasure|QID|26356|RANK|2|PRE|26355|M|40.65,17.05|N|From the Old Jug.|
 
-T Captain Sanders' Hidden Treasure - Part 4 of 4|QID|26356|RANK|2|M|25.95,16.96|N|Swim across the water to the small isle, and turn the quest into the Locked Chest.|
+T Captain Sanders' Hidden Treasure|QID|26356|RANK|2|M|25.95,16.96|N|Swim across the water to the small isle, and turn the quest into the Locked Chest.|
 
 H Sentinel Hill|QID|26320|NC|M|56.45,47.57|N|Hearth to, or otherwise head back to Sentinel Hill.|
 

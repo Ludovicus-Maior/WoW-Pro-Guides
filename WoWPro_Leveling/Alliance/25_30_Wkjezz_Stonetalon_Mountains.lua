@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2013-03-23 20:19
+-- Who: Ludovicus Maior
+-- Log: name cleanups
+
+-- URL: http://wow-pro.com/node/3233/revisions/25377/view
 -- Date: 2013-01-12 19:35
 -- Who: Ludovicus Maior
 -- Log: Added CS and CN tags
@@ -132,7 +137,7 @@ A Commandeer That Balloon!|QID|25652|M|72.49,61.46|N|From Boog the "Gear Whisper
 C Commandeer That Balloon!|QID|25652|M|73.26,61.10|N|Click on the ladder of the balloon, then protect yourself from ambushing goblins.|
 T Commandeer That Balloon!|QID|25652|M|59.54,56.92|N|To Lord Fallowmere.|
 A Free Our Sisters|QID|25662|M|59.54,56.92|N|From Lord Fallowmere.|
-A Thinning The Horde |QID|25671|M|59.54,56.92|N|Daily Quest available from Lord Fallowmere, won't be available to you if your reputation with Darnassus is exalted, or apparently at certain times of the day.  Right click this quest if it's not available to you.|RANK|2|LVL|31|
+A Thinning the Horde |QID|25671|M|59.54,56.92|N|Daily Quest available from Lord Fallowmere, won't be available to you if your reputation with Darnassus is exalted, or apparently at certain times of the day.  Right click this quest if it's not available to you.|RANK|2|LVL|31|
 
 h Fallowmere Inn |QID|25729|M|59.0,56.4|N|From Alithina Fallowmere.|
 r Repair/Sell Junk|QID|25729|M|58.82,56.00|N|From Ol'Irongoat, just outside the inn.|
@@ -170,11 +175,11 @@ T Just Ask Alice|QID|25673|M|58.52,55.28|N|To Alice.|
 
 A Mr. P's Wild Ride|QID|25728|M|58.38,55.17|N|From Alice.|
 
-C Thinning The Horde |QID|25671|O|N|Kill any 20 Krom'gar and Goblin in Stonetalon Mountains.|S|LVL|31|
+C Thinning the Horde |QID|25671|O|N|Kill any 20 Krom'gar and Goblin in Stonetalon Mountains.|S|LVL|31|
 C Mr. P's Wild Ride|QID|25728|M|61.12,55.71|N|Use the abilities to kill what you need for this quest.|
-C Thinning The Horde |QID|25671|O|N|You really shouldn't see this after completing Mr. P's Wild Ride.|US|LVL|31|
+C Thinning the Horde |QID|25671|O|N|You really shouldn't see this after completing Mr. P's Wild Ride.|US|LVL|31|
 
-T Thinning The Horde |QID|25671|O|N|To Lord Fallowmere.|LVL|31|
+T Thinning the Horde |QID|25671|O|N|To Lord Fallowmere.|LVL|31|
 T Mr. P's Wild Ride|QID|25728|M|59.57,56.90|N|To Lord Fallowmere.|
 
 A Capturing Memories|QID|25767|M|58.73,55.98|N|From Neophyte Starcrest.|

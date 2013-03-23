@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2013-03-23 19:06
+-- Who: Ludovicus Maior
+-- Log: QID correction on [Warchief's Command: Dustwallow Marsh!] 
+
+-- URL: http://wow-pro.com/node/3242/revisions/25476/view
 -- Date: 2013-01-13 19:37
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -52,7 +57,7 @@ A SMASH BROODQUEEN|RANK|1|QID|27229|M|37.52,31.62|N|From the wanted poster.|
 T Next of Kin|RANK|1|QID|25292|O|M|35.52,30.15|N|To Alto Stonespire.|
 A Theramore Spies|RANK|2|QID|1201|M|35.29,30.63|N|From Nazeer Bloodpike.|
 A Twilight of the Dawn Runner|RANK|1|QID|9437|M|35.86,31.71|N|From Balandar Brightstar.|
-T Warchief's Command: Dustwallow Marsh!|RANK|1|QID|28549|O|M|31.42,13.32|N|To Krog.|
+T Warchief's Command: Dustwallow Marsh!|RANK|1|QID|28554|O|M|31.42,13.32|N|To Krog.|
 T Suspicious Hoofprints|RANK|1|QID|27259|M|36.39,31.82|N|To Krog.|
 T Lieutenant Paval Reethe|RANK|1|QID|27260|M|36.39,31.82|N|To Krog.|
 T The Black Shield|RANK|1|QID|27254|M|36.39,31.82|N|To Krog.|

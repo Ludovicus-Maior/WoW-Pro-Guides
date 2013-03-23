@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
+-- Date: 2013-03-23 19:04
+-- Who: Ludovicus Maior
+-- Log: quest name tweak
+
+-- URL: http://wow-pro.com/node/3300/revisions/24609/view
 -- Date: 2011-06-25 02:55
 -- Who: Crackerhead22
 -- Log:  T step for qid 12907 - QID for "A Certain Prisoner" was wrong.
@@ -229,7 +234,7 @@ T The Refiner's Fire |QID|12922| |N|At the Anvil|M|77.2,62.9|
 A A Spark of Hope |QID|12956|M|77.2,62.9|
 F Temple of Storms |QID|12956| |N||M|33,58|
 T Mending Fences |QID|12915|M|33.4,58.0|
-T Spark of Hope |QID|12956|M|33.4,58.0|
+T A Spark of Hope |QID|12956|M|33.4,58.0|
 
 A Forging an Alliance |QID|12924|M|33.4,58.0|
 F Dun Niffelem |QID|12966| |N|Don't worry you're Neutral with them now. |M|62,61|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2013-03-23 20:28
+-- Who: Ludovicus Maior
+-- Log: quest name correction
+
+-- URL: http://wow-pro.com/node/3224/revisions/25418/view
 -- Date: 2013-01-13 14:50
 -- Who: Ludovicus Maior
 -- Log: Added CC and CS tags
@@ -250,7 +255,7 @@ T The Twilight's Hammer Revealed|QID|26127|M|49.39,17.23|N|To Thargas Anvilmar.|
 A The Battle of Thandol Span|QID|26128|M|49.50,17.28|N|From Thargas Anvilmar.|
 C The Battle of Thandol Span|QID|26128|M|51.11,9.04|N|Go onto the bridge, but not past the waypoint. Watch the little scene (pun intended), then kill Calamoth Ashbeard.|
 T The Battle of Thandol Span|QID|26128|M|49.53,17.25|N|(UI Alert) Or you can go and turn the quest into Thargas Anvilmar.|
-A In to Arathi|QID|26139|M|49.53,17.25|N|(UI Alert) Or you can get this quest from Thargas Anvilmar.|
+A Into Arathi|QID|26139|M|49.53,17.25|N|(UI Alert) Or you can get this quest from Thargas Anvilmar.|
 
 ]]
 

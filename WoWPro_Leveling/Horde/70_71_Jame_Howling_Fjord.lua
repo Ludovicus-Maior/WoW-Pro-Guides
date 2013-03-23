@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2013-03-23 18:44
+-- Who: Ludovicus Maior
+-- Log: Correct quest name [The Offensive Begins]
+
+-- URL: http://wow-pro.com/node/3288/revisions/25460/view
 -- Date: 2013-01-13 18:57
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -101,7 +106,7 @@ T Landing the Killing Blow |QID|11233|M|78.63,37.03|N|To Dark Ranger Lyana.|
 A Report to Anselm |QID|11234|N|From Dark Ranger Lyana.|
 T Report to Anselm |QID|11234|N|To High Executor Anselm.|M|78.7,31.2|
 T Trail of Fire |QID|11241|M|78.6,29.0|N|To Apothecary Lysander.|
-T The Offensive Beings |QID|11295|N|Head southwest to the Vengeance Lift, take it up and ride further southwest. To Sergeant Gorth.|M|71.1,39.1|
+T The Offensive Begins |QID|11295|N|Head southwest to the Vengeance Lift, take it up and ride further southwest. To Sergeant Gorth.|M|71.1,39.1|
 A A Lesson in Fear |QID|11282|N|From Sergeant Gorth.|M|71.1,39.1|
 A Help for Camp Winterhoof |QID|12566|M|71.5,39.2|N|From Longrunner Nanik.|
 C A Lesson in Fear |QID|11282|U|33563|N|Head just southwest, kill the Winterskorn Defenders until their respective bosses spawn, Oric the Baelful spawns near the house in rubbles to the north; Ulf the Bloodletter spawns in the middle; Gunnar Thorvardsson spawns next to the tower. Kill them and plant the Forsaken Banner on their corspes. You don't actually have to tag them, just plant the banner.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2013-03-23 18:45
+-- Who: Ludovicus Maior
+-- Log: qust name correction on [Through Fire and Flames]
+
+-- URL: http://wow-pro.com/node/3214/revisions/25498/view
 -- Date: 2013-01-22 17:57
 -- Who: Ludovicus Maior
 -- Log: Coord Tweaks
@@ -72,8 +77,8 @@ T Ak'Zeloth|QID|25264|M|67.81,40.53|O|N|To Ak'Zeloth.|
 C Plainstrider Menace|QID|844|M|67.41,38.77|S|N|Kill and loot Plainstriders.|
 C In Defense of Far Watch|QID|871|S|N|Kill 8 Razormane Plunderer and 3 Razormane Hunter.|
 A Through Fire and Flames|QID|13878|RANK|1|N|From Dorak. He runs between the points.|M|67.10,45.52;66.49,45.45|CN|
-C Through Fire and Flame|QID|13878|N|Free wolves in the stable by clicking on the chain bases. They look like large horns stuck in the ground.|M|66.73,47.45|
-T Through Fire and Flame|QID|13878|N|To Dorak.|M|67.10,45.52;66.49,45.45|CN|
+C Through Fire and Flames|QID|13878|N|Free wolves in the stable by clicking on the chain bases. They look like large horns stuck in the ground.|M|66.73,47.45|
+T Through Fire and Flames|QID|13878|N|To Dorak.|M|67.10,45.52;66.49,45.45|CN|
 C In Defense of Far Watch|QID|871|US|N|Finish slay 8 Razormane Plunderer and 3 Razormane Hunter.|M|67.75,51.21|
 C Plainstrider Menace|QID|844|M|67.57,35.5|US|N|Kill and loot Plainstriders.|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2013-03-23 20:27
+-- Who: Ludovicus Maior
+-- Log: Quest name cleanups
+
+-- URL: http://wow-pro.com/node/3279/revisions/25403/view
 -- Date: 2013-01-13 01:20
 -- Who: Ludovicus Maior
 -- Log: Lots of CN tags and a CS tag
@@ -104,13 +109,13 @@ f Telaar |QID|10251|N|Get the flight path.|M|54.20,75.05|
 T The Master's Grand Design? |QID|10251|N|To Nitrin the Learned.|M|51.77,56.88|
 A Vision of the Dead |QID|10252|N|From Nitrin the Learned.|M|51.77,56.88|
 T The Nesingwary Safari|QID|10113|N|To Hemet Nesingwary.|M|71.46,40.7|
-A Talbuk Mastery (part 1)|QID|9857|M|71.6,40.5|N|From Harold Lane.|
-A Windroc Mastery (part 1)|QID|9854|M|71.6,40.5|N|From Shado 'Fitz' Farstrider.|
-A Clefthoof Mastery (part 1)|QID|9789|M|71.6,40.5|N|From Hemet Nesingwary.|
+A Talbuk Mastery|QID|9857|M|71.6,40.5|N|From Harold Lane.|
+A Windroc Mastery|QID|9854|M|71.6,40.5|N|From Shado 'Fitz' Farstrider.|
+A Clefthoof Mastery|QID|9789|M|71.6,40.5|N|From Hemet Nesingwary.|
 N Kristen DeMeza |QID|9897|M|71.42,40.6|N|Kill mobs in this area until Kristen DeMeza shows up at the Nesingwary Safari (it may take a long time).  Kill the undead that spawns. |
 A I'm Saved! |QID|9897|N|From Kristen DeMeza. Skip if it takes too long for her to show up.|M|71.42,40.6|
 T I'm Saved! |QID|9897|N|To Harold Lane.|M|71.42,40.6|
-C Windroc Mastery (part 1) |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|S|
+C Windroc Mastery |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|S|
 l Howling Wind |QID|9861|N|Kill mobs until you get the Howling Wind.|L|24504|M|64.0,45.1|
 A The Howling Wind |QID|9861|M|64.0,45.1|N|Accept the quest from the item.|U|24504|
 T The Howling Wind |QID|9861|M|60.5,22.4|N|To Elementalist Morgh.|
@@ -124,18 +129,18 @@ A The Tortured Earth |QID|9819|M|61.8,24.4|N|From Gordawg.|
 
 l I Must Have Them!|N|Kill Air Elementals and other mobs until you get 3x Air Elemental Gas.|QID|10109|M|67.4,56.9|S|L|27807 3|
 C The Tortured Earth|N|Kill the Earth Spirits needed for this quest.|QID|9819|M|67.00,36.00|
-C Windroc Mastery (part 1) |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|US|
-C Talbuk Mastery (part 1)|N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|S|
-C Clefthoof Mastery (part 1)|N|Kill the Clefthoofs needed for this quest.|QID|9789|M|64.00,48.00|
-C Talbuk Mastery (part 1)|N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|US|
+C Windroc Mastery |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|US|
+C Talbuk Mastery|N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|S|
+C Clefthoof Mastery|N|Kill the Clefthoofs needed for this quest.|QID|9789|M|64.00,48.00|
+C Talbuk Mastery|N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|US|
 l I Must Have Them!|N|Kill Air Elementals until you get 3x Air Elemental Gas.|QID|10109|M|69.4,56.9|US|L|27807 3|
 L Level 66 or 75,000 xp |QID|9789| |N|Kill mobs until you are level 66 or get 75,000 xp, whichever takes longer. |LVL|66|
-T Clefthoof Mastery (part 1)|QID|9789|M|71.6,40.5|N|To Hemet Nesingwary.|
-A Clefthoof Mastery (part 2)|QID|9850|M|71.6,40.5|N|From Hemet Nesingwary.|
-T Windroc Mastery (part 1)|QID|9854|M|71.6,40.5|N|To Shado 'Fitz' Farstrider.|
-A Windroc Mastery (part 2)|QID|9855|M|71.6,40.5|N|From Shado 'Fritz' Farstrider.|
-T Talbuk Mastery (part 1)|QID|9857|M|71.6,40.5|N|To Harold Lane.|
-A Talbuk Mastery (part 2)|QID|9858|M|71.6,40.5|N|From Harold Lane.|
+T Clefthoof Mastery|QID|9789|M|71.6,40.5|N|To Hemet Nesingwary.|
+A Clefthoof Mastery|QID|9850|M|71.6,40.5|N|From Hemet Nesingwary.|
+T Windroc Mastery|QID|9854|M|71.6,40.5|N|To Shado 'Fitz' Farstrider.|
+A Windroc Mastery|QID|9855|M|71.6,40.5|N|From Shado 'Fritz' Farstrider.|
+T Talbuk Mastery|QID|9857|M|71.6,40.5|N|To Harold Lane.|
+A Talbuk Mastery|QID|9858|M|71.6,40.5|N|From Harold Lane.|
 
 T The Tortured Earth|QID|9819|M|61.8,24.4|N|To Gordawg.|
 A Eating Damnation|QID|9821|M|61.8,24.4|N|From Gordawg.|
@@ -171,12 +176,12 @@ A He Called Himself Altruis...|QID|9982|N|From Huntress Kima.  She wanders aroun
 N Sell junk, repair, restock |QID|9800|N|Do not sell Ogre Warbeads or Ivory Tusks. Sell junk, repair, restock.|M|53.25,70|
 A The Consortium Needs You! |QID|9913|M|51.8,34.8|N|From Consortium Recruiter.|M|51.18,69.83|
 N From now on... |QID|9871|N|If you see any Murkblood Invaders kill them until you get the Murkblood Invasion Plans. They wander the road west of Telaar.|
-C Windroc Mastery (part 2)|N|Kill the Windrocs needed for this quest.|QID|9855|M|49.00,62.00|
+C Windroc Mastery|N|Kill the Windrocs needed for this quest.|QID|9855|M|49.00,62.00|
 C A Rare Bean |N|Collect Digested Caracoli off the ground from the dung piles, until you finish this quest.|QID|9800|M|50.00,30.00|S|
-C Talbuk Mastery (part 2) |N|Kill the mobs for this quest, they are around the trees.|QID|9858|S|M|50.00,30.00|
-C Clefthoof Mastery (part 2) |N|Kill Clefthoof Bulls (and other mobs) until you finish this quest.|QID|9850|M|50.00,30.00|
+C Talbuk Mastery |N|Kill the mobs for this quest, they are around the trees.|QID|9858|S|M|50.00,30.00|
+C Clefthoof Mastery |N|Kill Clefthoof Bulls (and other mobs) until you finish this quest.|QID|9850|M|50.00,30.00|
 C A Rare Bean |N|Collect Digested Caracoli off the ground from the dung piles, until you finish this quest.|QID|9800|M|50.00,30.00|US|
-C Talbuk Mastery (part 2) |N|Kill the rest of the mobs for this quest.|QID|9858|M|50.00,30.00|US|
+C Talbuk Mastery |N|Kill the rest of the mobs for this quest.|QID|9858|M|50.00,30.00|US|
 C Eating Damnation |N|Kill Enraged Crushers until you get the items for this quest.|QID|9821|M|52,19|
 T A Rare Bean |QID|9800|M|60.5,22.4|N|To Elementalist Lo'ap.|
 A Agitated Spirits of Skysong |QID|9804|M|60.5,22.4|N|From Elementalist Lo'ap.|
@@ -188,12 +193,12 @@ C Agitated Spirits of Skysong|N|Kill Lake Spirits in the lake until you finish t
 T Agitated Spirits of Skysong|QID|9804|M|60.5,22.4|N|To Elementalist Lo'ap.|
 A Blessing of Incineratus |QID|9805|M|60.5,22.4|N|From Elementalist Lo'ap.|
 
-T Talbuk Mastery (part 2) |QID|9858|M|71.6,40.5|N|To Harold Lane.|
-A Talbuk Mastery (part 3) |QID|9859|M|71.6,40.5|N|From Harold Lane.|
-T Clefthoof Mastery (part 2) |QID|9850|M|71.55,40.76|N|To Hemet Nesingwary.|
-A Clefthoof Mastery (part 3) |QID|9851|M|71.55,40.76|N|From Hemet Nesingwary.|
-T Windroc Mastery (part 2) |QID|9855|M|71.55,40.54|N|To Shado 'Fitz' Farstrider.|
-A Windroc Mastery (part 3) |QID|9856|M|71.55,40.54|N|From Shado 'Fitz' Farstrider.|
+T Talbuk Mastery |QID|9858|M|71.6,40.5|N|To Harold Lane.|
+A Talbuk Mastery |QID|9859|M|71.6,40.5|N|From Harold Lane.|
+T Clefthoof Mastery |QID|9850|M|71.55,40.76|N|To Hemet Nesingwary.|
+A Clefthoof Mastery |QID|9851|M|71.55,40.76|N|From Hemet Nesingwary.|
+T Windroc Mastery |QID|9855|M|71.55,40.54|N|To Shado 'Fitz' Farstrider.|
+A Windroc Mastery |QID|9856|M|71.55,40.54|N|From Shado 'Fitz' Farstrider.|
 U Large Hut|QID|9805|M|72.36,50.49|U|24467|N|Go inside the hut and use the Living Fire.|QO|Large Hut Destroyed: 1/1|
 U Western Hut|QID|9805|M|70.75,51.14|U|24467|N|Go inside the hut and use the Living Fire.|QO|Western Hut Destroyed: 1/1|
 U Southern Hut|QID|9805|M|71.46,52.95|U|24467|N|Go inside the hut and use the Living Fire.|QO|Southern Hut Destroyed: 1/1|
@@ -245,7 +250,7 @@ A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9871|U|245
 l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|REP|The Consortium;933;Neutral|
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
 C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|REP|The Consortium;933;Neutral|
-C Clefthoof Mastery (part 3)|N|Kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
+C Clefthoof Mastery|N|Kill Banthar (wandering).|QID|9851|M|39.00,59.00|T|Banthar|
 K Gava'xi |N|Kill Gava'xi. He wanders from atop the hill down to where the Vir'aani are.|QID|9900|M|42.05,72.46|QO|Gava'xi slain: 1/1|
 C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this area and kill the Minions until you finish this quest.|QID|9849|M|38.00,82.00|U|24501|
 T The Twin Clefts of Nagrand|QID|9922|M|54.5,72.2|N|To Mo'mor the Breaker.|
@@ -320,9 +325,9 @@ A Visions of Destruction|QID|11044|M|55.36,68.74|N|From Seer Jovar. This quest t
 T Body of Evidence |QID|9932|M|73.8,62.6|N|To Lantresor of the Blade.|
 T Returning the Favor |QID|9931|M|73.8,62.6|N|To Lantresor of the Blade.|
 A Message to Telaar |QID|9933|M|73.8,62.6|N|From Lantresor of the Blade.|
-T Windroc Mastery (part 3) |QID|9856|N|To Shado 'Fitz' Farstrider.|M|71.57,40.53|
-T Clefthoof Mastery (part 3) |QID|9851|N|To Hemet Nesingwary.|M|71.52,40.79|
-T Talbuk Mastery (part 3) |QID|9859|N|To Harold Lane.|M|71.4,40.63|
+T Windroc Mastery |QID|9856|N|To Shado 'Fitz' Farstrider.|M|71.57,40.53|
+T Clefthoof Mastery |QID|9851|N|To Hemet Nesingwary.|M|71.52,40.79|
+T Talbuk Mastery |QID|9859|N|To Harold Lane.|M|71.4,40.63|
 A The Ultimate Bloodsport |QID|9852|N|From Hemet Nesingwary.|M|71.52,40.79|
 T Gurok the Usurper |QID|9853|N|To Gordawg.|M|61.8,24.4|
 

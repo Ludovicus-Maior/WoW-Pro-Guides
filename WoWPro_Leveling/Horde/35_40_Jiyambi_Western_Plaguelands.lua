@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2013-03-23 18:27
+-- Who: Ludovicus Maior
+-- Log: quest 27157's name [Drudges...] does not match Grail's database [Drudges... ].
+
+-- URL: http://wow-pro.com/node/3246/revisions/25446/view
 -- Date: 2013-01-13 17:33
 -- Who: Ludovicus Maior
 -- Log: Added CS tags
@@ -134,10 +139,10 @@ T An Audience with the Highlord|QID|27002|M|42.03,14.75|N|To Highlord Tirion For
 A Taelan Fordring's Legacy|QID|27151|PRE|27002|M|42.17,14.98|N|From Daria L'Rayne.|
 C It's About Time!|QID|27156|M|42.81,16.35|N|Talk to trainies outside the keep, and challenge them to duels.|
 T It's About Time!|QID|27156|M|43.19,15.95|N|To Lieutenant Myner.|
-A Drudges... |QID|27157|M|43.19,15.95|N|From Lieutenant Myner.|
+A Drudges...|QID|27157|M|43.19,15.95|N|From Lieutenant Myner.|
 r Repair/Restock|QID|27157|M|44.85,12.51|N|At Outfitter Mendelev.|
-C Drudges... |QID|27157|M|45.83,11.89;45.47,9.36|CS|N|Head into the cave and kill the spider.|
-T Drudges... |QID|27157|M|43.25,15.93|N|To Lieutenant Myner.|
+C Drudges...|QID|27157|M|45.83,11.89;45.47,9.36|CS|N|Head into the cave and kill the spider.|
+T Drudges...|QID|27157|M|43.25,15.93|N|To Lieutenant Myner.|
 C Taelan Fordring's Legacy|QID|27151|M|54.63,23.60|N|Kill gnolls south of Hearthglen.|
 T Taelan Fordring's Legacy|QID|27151|M|54.48,23.87|N|The turn-in should pop up automatically.|
 A Unusual Behavior... Even For Gnolls|QID|27152|M|54.48,23.87|N|The quest should pop up automatically.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2013-03-23 20:31
+-- Who: Ludovicus Maior
+-- Log: Quest name tweak
+
+-- URL: http://wow-pro.com/node/3253/revisions/25427/view
 -- Date: 2013-01-13 15:09
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -91,7 +96,7 @@ H Feathermoon Stronghold|QID|25481|U|6948|N|Hearth back to Feathermoon Stronghol
 F Shadebough|QID|25481|N|Fly to Shadebough.|M|46.78,45.34|Z|Feralas|O|
 C To New Thalanaar|QID|25481|N|Talk to Seyala Nightwisp and ask for the hippogryph to New Thalanaar.|Z|Feralas|O|
 
-T Hero's Call: Thousand Needles |QID|28503|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
+T Hero's Call: Thousand Needles! |QID|28503|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 T To New Thalanaar |QID|25479|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 T To New Thalanaar |QID|25481|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|

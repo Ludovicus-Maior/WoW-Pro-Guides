@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2013-03-23 18:58
+-- Who: Ludovicus Maior
+-- Log: quest name tweaks
+
+-- URL: http://wow-pro.com/node/3303/revisions/25471/view
 -- Date: 2013-01-13 19:22
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -148,9 +153,9 @@ T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|Moonglade|N|To Emissary Wind
 
 N Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar. Close this step.|FACTION|Horde|
 R Orgrimmar|QID|27721|Z|Orgrimmar|N|Make your way to Orgrimmar.|FACTION|Horde|
-A Warchief's Command: Mount Hyjal|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board.|FACTION|Horde|
+A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board.|FACTION|Horde|
 N Cenarion Emissary Blackhoof|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|Talk to Cenarion Emissary Blackhoof in the Valley of Wisdom. Ask him to teleport you to Moonglade. Close this step.|FACTION|Horde|
-T Warchief's Command: Mount Hyjal|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|FACTION|Horde|
+T Warchief's Command: Mount Hyjal!|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|FACTION|Horde|
 
 A As Hyjal Burns|QID|25316|PRE|27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|
 F Nordrassil|QID|25316|M|46.1,45.51|Z|Moonglade|N|Jump on Aronus to fly to Nordrassil.|

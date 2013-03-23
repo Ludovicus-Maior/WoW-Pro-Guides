@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2013-03-23 20:17
+-- Who: Ludovicus Maior
+-- Log: Name tweak on [The Moss-Twined Heart]
+
+-- URL: http://wow-pro.com/node/3204/revisions/25587/view
+-- Date: 2013-03-23 20:17
+-- Who: Ludovicus Maior
+-- Log: Wrong QID in F step, bad zone name too.
+
+-- URL: http://wow-pro.com/node/3204/revisions/25586/view
+-- Date: 2013-03-23 20:14
+-- Who: Ludovicus Maior
+-- Log: Tweaked [Learning the Word]
+
+-- URL: http://wow-pro.com/node/3204/revisions/25376/view
 -- Date: 2013-01-12 19:31
 -- Who: Ludovicus Maior
 -- Log: Added a CN tag
@@ -118,7 +133,7 @@ A A Woodsman's Training|QID|26947|PRE|3117|C|Hunter|M|58.82,35.86|N|From Ayanna 
 A Rejuvenating Touch|QID|26948|PRE|3120|C|Druid|M|58.2,34.8|N|From Mardant Strongoak.|R|Night Elf|
 A Arcane Missles|QID|26940|PRE|26841|C|Mage|M|58.4,35.6|N|From Rhyanda.|R|Night Elf|
 A Learning New Techniques|QID|26945|PRE|3116|C|Warrior|M|58.8,33.8|N|From Alyissia.|R|Night Elf|
-A Healing for the Wounded|QID|26949|PRE|3119|C|Priest|M|58.4,35.6|N|From Shanda.|R|Night Elf|
+A Learning the Word|QID|26949|PRE|3119|C|Priest|M|58.4,35.6|N|From Shanda.|R|Night Elf|
 A A Rogue's Advantage|QID|26946|PRE|3118|C|Rogue|M|58.8,33.9|N|From Frahun Shadewhisper.|R|Night Elf|
 A The Art of the Monk|QID|31169|PRE|31168|C|Monk|M|58.8,33.9|N|From Laoxi.|R|Night Elf|
 
@@ -126,7 +141,7 @@ C A Woodsman's Training|QID|26947|C|Hunter|M|58.83,35.82|N|Train Steady Shot and
 C Rejuvenating Touch|QID|26948|C|Druid|N|Train Rejuvenation. Use it to heal a Wounded Sentinel.|R|Night Elf|
 C Arcane Missles|QID|26940|C|Mage|M|58.83,35.82|N|Train Arcane Missles. Use it 5 times on Training Dummy.|R|Night Elf|
 C Learning New Techniques|QID|26945|C|Warrior|M|58.2,34.8|N|Train Charge. Use it 5 times on Training Dummy.|R|Night Elf|
-C Healing for the Wounded|QID|26949|C|Priest|N|From Shanda.|N|Train Flash Heal. Use it to heal 5 Wounded Sentinels.|R|Night Elf|
+C Learning the Word|QID|26949|C|Priest|N|From Shanda.|N|Train Shadow Word: Pain. Use it 5 times on Training Dummy.|R|Night Elf|
 C A Rogue's Advantage|QID|26946|C|Rogue|M|58.83,35.82|N|Train Eviscerate. Use it 5 times on Training Dummy.|R|Night Elf|
 C The Art of the Monk|QID|31169|C|Monk|M|58.83,35.82|N|Use Tiger Palm on Training Dummy.|R|Night Elf|
 
@@ -134,7 +149,7 @@ T A Woodsman's Training|QID|26947|C|Hunter|M|58.83,35.82|N|To Ayanna Everstride.
 T Rejuvenating Touch|QID|26948|C|Druid|M|58.2,34.8|N|To Mardant Strongoak.|R|Night Elf|
 T Arcane Missles|QID|26940|C|Mage|M|58.4,35.6|N|To Rhyanda.|R|Night Elf|
 T Learning New Techniques|QID|26945|C|Warrior|M|58.8,33.8|N|To Alyissia.|R|Night Elf|
-T Healing for the Wounded|QID|26949|C|Priest|M|58.4,35.6|N|To Shanda.|R|Night Elf|
+T Learning the Word|QID|26949|C|Priest|M|58.4,35.6|N|To Shanda.|R|Night Elf|
 T A Rogue's Advantage|QID|26946|C|Rogue|M|58.8,33.9|N|To Frahun Shadewhisper.|R|Night Elf|
 T The Art of the Monk|QID|31169|C|Monk|M|58.8,33.9|N|To Laoxi.|R|Night Elf|
 
@@ -167,7 +182,7 @@ C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|59.15,29.09|N|Use the Phial at
 T Teldrassil: Crown of Azeroth|QID|28729|M|57.22,33.15|N|To Dentaria Silverglade.|R|Night Elf|
 
 A Precious Waters|QID|28730|PRE|28729|M|57.22,33.15|N|From Dentaria Silverglade.|R|Night Elf|
-T Precious Waters|QID|28730|M|57.00,36.49;58.39,34.54|N|Up the ramp to Tenaron Stormgrip.|R|Night Elf|
+T Precious Waters|QID|28730|M|57.00,36.49;58.39,34.54|CS|N|Up the ramp to Tenaron Stormgrip.|R|Night Elf|
 
 L Level 5|QID|28730|LVL|5|N|You should be around level 5 by this point.|
 
@@ -207,7 +222,7 @@ A An Unexpected Gift|QID|6342|PRE|6341|M|36.14,53.27|Z|Darnassus|N|From Sister A
 T An Unexpected Gift|QID|6342|M|36.70,47.95|Z|Darnassus|N|To Leora.|R|Night Elf|
 
 A Return to Nyoma|QID|6343|PRE|6342|M|36.70,47.95|Z|Darnassus|N|From Leora.|R|Night Elf|
-F Dolanaar|M|36.4,48|QID|6342|N|Fly back to Dolanaar.|R|Night Elf|Z|Darnassus.|
+F Dolanaar|M|36.4,48|QID|6343|N|Fly back to Dolanaar.|R|Night Elf|Z|Darnassus|
 T Return to Nyoma|QID|6343|M|56.71,53.50|N|To Nyoma.|R|Night Elf|
 
 L Level 6|QID|489|LVL|6|N|You should be around level 6 by this point.|
@@ -292,7 +307,7 @@ C Timberling Seeds|QID|918|S|M|59.80,60.80|N|Kill and loot Timberlings to get th
 C Timberling Sprouts|QID|919|M|58.89,62.14|N|Pick up Timberling Sprouts. They look like a ball of vines.|S|
 A The Glowing Fruit|QID|930|M|57.48,62.80|N|From the Strange Fruited Plant.|
 l Moss-Twined Heart|QID|927|M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|
-A The Moss-Twined Heart|QID|927|U|5179|N|Accept this quest from the Moss-Twined Heart.|
+A The Moss-twined Heart|QID|927|U|5179|N|Accept this quest from the Moss-Twined Heart.|
 C Timberling Sprouts|QID|919|M|58.89,62.14|N|Pick up Timberling Sprouts. They look like a ball of vines.|US|
 C Timberling Seeds|QID|918|US|M|59.80,60.80|N|Kill and loot Timberlings to get the seeds.|
 T Timberling Seeds|QID|918|M|59.89,59.72|N|To Denalan.|
@@ -300,7 +315,7 @@ A Rellian Greenspyre|QID|922|PRE|918|M|59.89,59.72|N|From Denalan.|
 L Level 10|QID|922|LVL|10|N|You should be around level 10 by this point.|
 T Timberling Sprouts|QID|919|M|59.89,59.72|N|To Denalan.|
 T The Glowing Fruit|QID|930|M|59.89,59.72|N|To Denalan.|
-T The Moss-Twined Heart|QID|927|M|59.89,59.72|N|To Denalan.|
+T The Moss-twined Heart|QID|927|M|59.89,59.72|N|To Denalan.|
 A Planting the Heart|QID|941|M|59.89,59.72|N|From Denalan.|
 T Planting the Heart|QID|941|M|59.89,59.72|N|To Denalan's Planter.|
 
