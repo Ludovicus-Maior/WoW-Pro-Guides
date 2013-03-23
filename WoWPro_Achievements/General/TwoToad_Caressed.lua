@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2013-03-23 15:40
+-- Who: Ludovicus Maior
+-- Log: Added Twists [To All the Squirrels Who Cared for Me]
+
+-- URL: http://wow-pro.com/node/3520/revisions/25356/view
 -- Date: 2013-01-12 18:26
 -- Who: Ludovicus Maior
 -- Log: Capitalization error on "Valley of the Four Winds"
