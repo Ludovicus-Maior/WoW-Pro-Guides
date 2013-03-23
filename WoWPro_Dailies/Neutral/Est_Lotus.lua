@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2013-03-23 16:59
+-- Who: Ludovicus Maior
+-- Log: Added Some T tags.
+
+-- URL: http://wow-pro.com/node/3502/revisions/25551/view
 -- Date: 2013-03-16 18:28
 -- Who: Ludovicus Maior
 -- Log: Conditionalize  the steps with the water skimmer so that if you have done some Golden lotus quests, you do not see them until the end.  Better coords for [Steer Clear of the Beer Here]
@@ -100,8 +105,6 @@ return [[
 
 L Level 90|LVL|90|N|You need to be level 90 to do the Golden Lotus Dailies|
 B Wisdom of the Four Winds|SPELL|Flying in Pandaria;115913|N|You need to be able to have flying mounts in Pandaria to do this guide.|
-N Achievement Phasing issue|QID|30632|ACH|6350;5|QID|963500005|N|if you have not yet done the To all the squirrels ach for Pandaria, you may want to fly over and love the Dancing Water Skimmer as it phases out in the course of doing the Golden Lotus quest line. Check off this and the next step manually if this is of no interest to you.|
-F Dancing Water Skimmer|QID|30632|M|32,68|Z|Vale of Eternal Blossoms|ACH|6350;5|T|Dancing Water Skimmer|N|/love a Dancing Water Skimmer. Due to phasing issues, you may not be able to see these critters after starting the Golden Lotus quest line.|
 ; Introduction Questline (no daily quests, just a one-time introduction)
 A The Golden Lotus|QID|31384|LEAD|30632|FACTION|Alliance|N|From Xari the Kind in the Shrine of Seven Stars.|M|84.20,62.40|
 A The Golden Lotus|QID|31385|LEAD|30632|FACTION|Horde|N|From Weng the Merciful in the Shrine of Two Moons.|M|63.00,22.20|
@@ -178,7 +181,7 @@ C Set in Stone|QID|30309|N|Kill Mogu Effigies.|M|44.29,20.73|S|
 C Stone Hard Quilen|QID|30308|N|Kill Granite Quilen.|M|44.29,20.73|S|
 C Unleashed Spirits|QID|31757|N|Kill Unleashed Spirits, they wander around in groups.|M|44.29,20.73|S|
 C Acts of Cruelty|QID|31755|N|Attack the Mogu who are torturing Golden Lotus Guards or Mistfall Villagers to free them.|M|44.29,20.73|S|
-C Thundering Skies|QID|30310|N|Kill Subjugated Serpents. You will get credit for it even if another player has tagged the Serpent first, so feel free to help others who are already doing this quest.|M|47.35,27.83|S|
+C Thundering Skies|QID|30310|N|Kill Subjugated Serpents. You will get credit for it even if another player has tagged the Serpent first, so feel free to help others who are already doing this quest.|M|47.35,27.83|S|T|Subjugated Serpents|
 C Cannonfire|QID|31754|N|Place the Bomb near Shao-Tien Cannons. You can do this while stealthed or while on your mount; even while flying, in which case the bomb is planted right underneath your flying mount.|M|49.91,25.48|
 C Laosy Scouting|QID|31758|T|Lao Softfoot|N|Lao Softfoot is in one of the cages on the Golden Stair, his exact location varies. Free him to complete the quest. It might take a while to find him, since he despawns for a while after a player freed him and you have to wait before he reappears in another cage.|M|44.29,20.73|
 C High Chance of Rain|QID|31756|QO|Western Stormcaller destroyed: 1/1|N|Right-click the Western Stormcaller (the lightning rod staff) to destroy it.|M|36.83,18.22|
@@ -187,7 +190,7 @@ C High Chance of Rain|QID|31756|QO|Southern Stormcaller destroyed: 1/1|N|Right-c
 C Striking First|QID|31760|N|Kill the Shao-Tien Soul-Renders performing the ritual.|M|44.11,15.40|
 C High Chance of Rain|QID|31756|QO|Northern Stormcaller destroyed: 1/1|N|Right-click the Northern Stormcaller to destroy it.|M|47.82,19.00|
 C High Chance of Rain|QID|31756|N|Right-click the Eastern Stormcaller to destroy it.|M|50.94,22.26|
-C Thundering Skies|QID|30310|N|Kill Subjugated Serpents. You will get credit for it even if another player has tagged the Serpent first, so feel free to help others who are already doing this quest.|M|47.35,27.83|US|
+C Thundering Skies|QID|30310|N|Kill Subjugated Serpents. You will get credit for it even if another player has tagged the Serpent first, so feel free to help others who are already doing this quest.|M|47.35,27.83|US|T|Subjugated Serpents|
 C Acts of Cruelty|QID|31755|N|Attack the Mogu who are torturing Golden Lotus Guards or Mistfall Villagers to free them.|M|44.29,20.73|US|
 C Set in Stone|QID|30309|N|Kill Mogu Effigies.|M|44.29,20.73|US|
 C Unleashed Spirits|QID|31757|N|Kill Unleashed Spirits, they wander around in groups.|M|44.29,20.73|US|
@@ -267,11 +270,11 @@ A Lao-Fe the Slavebinder|QID|30239|PRE|30237;30282|N|Accept this follow-up from 
 C Lao-Fe the Slavebinder|QID|30239|ACH|7317;7|N|Enter this cave and kill Lao-Fe the Slavebinder. The Spirits of the Pandaren Monks will aid you: Every time Lao-Fe kills one of them, he gains a stacking debuff that increases his damage taken. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|47.50,67.92|
 C Lao-Fe the Slavebinder|QID|30239|N|Enter this cave and kill Lao-Fe the Slavebinder. The Spirits of the Pandaren Monks will aid you: Every time Lao-Fe kills one of them, he gains a stacking debuff that increases his damage taken. You will get credit for the kill, even if another player attacked him first.|M|47.50,67.92|
 C Clearing in the Forest|QID|30263|N|Kill Shao-Tien Mogu.|M|29.81,57.86|S|
-C Ruffling Some Feathers|QID|30232|N|Silkfeather Hawks are hiding in the trees or on top of rocks. Kill them and collect their feathers. Try not to go after Druids in flight form doing the same quest, they won't like that.|M|29.81,57.86|S|
+C Ruffling Some Feathers|QID|30232|N|Silkfeather Hawks are hiding in the trees or on top of rocks. Kill them and collect their feathers. Try not to go after Druids in flight form doing the same quest, they won't like that.|M|29.81,57.86|S|T|Silkfeather Hawk|
 C Meating Expectations|QID|30193|N|Kill some Fairlands Gazelles and collect their meat.|M|29.81,57.86|S|
 C Pomfruit Pickup|QID|30231|N|Look for the apple-like Pomfruits hanging from the tree branches. Use your firework underneath and collect the fallen fruits.|M|29.81,57.86|
 C Meating Expectations|QID|30193|N|Kill some Fairlands Gazelles and collect their meat.|M|29.81,57.86|US|
-C Ruffling Some Feathers|QID|30232|N|Silkfeather Hawks are hiding in the trees or on top of rocks. Kill them and collect their feathers. Try not to go after Druids in flight form doing the same quest, they won't like that.|M|29.81,57.86|US|
+C Ruffling Some Feathers|QID|30232|N|Silkfeather Hawks are hiding in the trees or on top of rocks. Kill them and collect their feathers. Try not to go after Druids in flight form doing the same quest, they won't like that.|M|29.81,57.86|US|T|Silkfeather Hawk|
 C Clearing in the Forest|QID|30263|N|Kill Shao-Tien Mogu.|M|29.81,57.86|US|
 C Encroaching Storm|QID|30194|N|Kill Thundermaw Wolves.|M|27.00,73.40|S|
 C Blooming Blossoms|QID|30195|N|Collect Eternal Blossoms from the shores of the river.|M|33.80,69.80|
