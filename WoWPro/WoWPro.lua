@@ -254,6 +254,10 @@ function WoWPro:OnInitialize()
 	WoWProDB.global.Deltas = {}
 	WoWProDB.global.Log = {}
 	WoWProCharDB.DebugMode = WoWProCharDB.DebugMode or WoWPro.DebugMode
+	if WoWProCharDB.AutoHideInsideInstances == nil then
+	    WoWProCharDB.AutoHideInsideInstances = true
+	end
+	WoWPro.DebugMode = WoWProCharDB.DebugMode
 
 end
 
