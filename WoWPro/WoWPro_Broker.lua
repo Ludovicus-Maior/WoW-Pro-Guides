@@ -283,7 +283,7 @@ function WoWPro:NextStep(k,i)
 	
 	
 		-- Checking Prerequisites --
-    	if WoWPro.prereq[k] and WoWPro.QID[k] then
+    	if WoWPro.prereq[k] then
     	    if string.find(WoWPro.prereq[k],"+") then
     	        -- Any prereq met is OK, skip only if none are met	
         		local numprereqs = select("#", string.split("+", WoWPro.prereq[k]))
@@ -483,18 +483,23 @@ function WoWPro:NextStep(k,i)
     		local achnum, achitem, achflip = string.split(";",WoWPro.ach[k])
     		achflip = WoWPro.toboolean(achflip) 
     		local count = GetAchievementNumCriteria(achnum)
+    		if achitem == "" then achitem = nil end
     		if count == 0 or not achitem then
     			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
     			if achflip then Completed = not Completed end
                 if Completed then
-				    WoWPro.CompleteStep(k)
+                    if not achflip then
+				        WoWPro.CompleteStep(k)
+				    end
 				    skip = true
 			    end 
     		elseif (count > 0) and achitem then
     			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
     			if achflip then completed = not completed end
 			    if completed then
-				    WoWPro.CompleteStep(k)
+			        if not achflip then
+				        WoWPro.CompleteStep(k)
+				    end
 				    skip = true
 			    end
 			else
@@ -541,6 +546,23 @@ function WoWPro:NextStep(k,i)
 		skip = WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k, skip)
 		
 
+        -- Do we have enough loot in bags?
+		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
+		    if GetItemCount(WoWPro.lootitem[k]) >= WoWPro.lootqty[k] then
+			    WoWPro.why[k] = "NextStep(): completed cause you have enough loot in bags."
+			    WoWPro.CompleteStep(k)
+			    skip = true
+			end
+		else		
+    		-- Special for Buy steps where the step name is the item to buy and no |L| specified
+    		if WoWPro.action[k] == "B" then
+    		    if GetItemCount(WoWPro.step[k]) > 0 then
+    			    WoWPro.why[k] = "NextStep(): completed cause you bought enough named loot."
+    			    WoWPro.CompleteStep(k)
+    			    skip = true
+    			end
+    		end		    
+        end
 		
 		-- Skipping any unstickies until it's time for them to display --
 		if WoWPro.unsticky[k] and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then 
