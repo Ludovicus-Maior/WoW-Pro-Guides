@@ -3,6 +3,15 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2013-03-24 00:47
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3544/revisions/25559/view
+-- Date: 2013-03-23 16:38
+-- Who: Ludovicus Maior
+-- Log: Initial clone from http://wow-pro.com/node/3542
+
 WoWPro.Dailies:RegisterGuide("RajiPetBattles", "Vale of Eternal Blossoms", "Pet Battle Dailies", "MoP", "Rajitazi", "Alliance", function()
 return [[
 
@@ -14,7 +23,7 @@ N Battle Pet Recommendations|QID|31909|N|The listed recomended pet is based on g
 N Alliance vs. Horde|QID|31909|N|You can do all of the Kalimdor/Eastern Kingdom quests (except Trixxy and Lydia) on both an alliance and a horde toon each day if you should want to. (if you are trying to train up pets quickly).|
 N Sack of Pet Supplies|QID|31909|N|Set to Rank 1 if you only want to do the quests that reward Sack of Pet Supplies. Rank 2 adds the level 20 and higher pets and Rank 3 is ALL of the trainers.|
 
-R Stormwind|QID|31909|M|76.16,18.69|Z|Stormwind|RANK|1|N|Take the Portal to Mt Hyjal.|
+R Stormwind|QID|31909|M|76.16,18.69|Z|Stormwind City|RANK|1|N|Take the Portal to Mt Hyjal.|
 R Mount Hyjal|QID|31972|M|61.4,32.8|Z|Mount Hyjal|RANK|2|N|If you don't have the portal available to you, the next closest is to fly from Teldrasil, but if you plan to do this often you may as well do the quests to open the portal.|
 A Brok|QID|31972|M|61.4,33|Z|Mount Hyjal|RANK|2|N|From Brok.|
 C Brok|QID|31972|M|61.4,33|Z|Mount Hyjal|RANK|2|N|Opponents are level 25 Beast, Critter and Magic. This means your best choices are Mechanical, Beast and Dragonkin.|
