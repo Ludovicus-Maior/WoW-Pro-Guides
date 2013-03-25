@@ -15,7 +15,11 @@ function WoWPro:QIDsInTable(QIDs,tabla)
 	for j=1,numQIDs do
 		local QID = select(numQIDs-j+1, string.split(";", QIDs))
 		QID = tonumber(QID)
-		if QID > 0 then
+		if not QID then
+		    WoWPro:Error("Malformed QID [%s] in Guide %s",QIDs,WoWProDB.char.currentguide)
+		    QID=0
+		end
+		if QID >= 0 then
             if tabla[QID] then return true end
             default = false
         else
