@@ -388,7 +388,7 @@ function WoWPro:LoadGuideSteps()
 		end
 
         
-        if (not WoWProCharDB.Guide[GID].skipped[i]) then
+        if (not WoWProCharDB.Guide[GID].skipped[i]) and numQIDs > 0 then
             WoWProCharDB.Guide[GID].completion[i] = false
             WoWPro.why[i] = "UnCompleted by WoWPro:LoadGuideSteps() because quest was not skipped."
         end
