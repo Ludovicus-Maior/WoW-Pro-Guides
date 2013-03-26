@@ -135,10 +135,12 @@ end
 
 -- Guide Update --
 local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
+WoWPro.GuideOffset = nil
 function WoWPro.UpdateGuideReal(From)
 	if not WoWPro.GuideFrame:IsVisible() or not GuideLoaded then return end
 	WoWPro:dbp("Running: UpdateGuideReal()")
 	local GID = WoWProDB.char.currentguide
+	local offset = WoWPro.GuideOffset
 	
 	-- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
 	if InCombatLockdown() then
@@ -158,11 +160,12 @@ function WoWPro.UpdateGuideReal(From)
 	-- Finding the active step in the guide --
 	WoWPro.ActiveStep = WoWPro:NextStep(1)
 	if WoWPro.Recorder then WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep end
+	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount))
 	
 	-- Calling on the guide's module to populate the guide window's rows --
 	local function rowContentUpdate()
-		local reload = WoWPro[module:GetName()]:RowUpdate()
+		local reload = WoWPro[module:GetName()]:RowUpdate(offset)
 		for i, row in pairs(WoWPro.rows) do
 			local modulename
 			-- Hijack the click and menu functions for the Recorder if it's enabled --
