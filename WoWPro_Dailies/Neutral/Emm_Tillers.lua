@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2013-03-25 23:05
+-- Who: Ludovicus Maior
+-- Log: Magic Pixie Dust:  |ACH|6552;;true|
+
+-- URL: http://wow-pro.com/node/3508/revisions/25602/view
 -- Date: 2013-03-24 00:11
 -- Who: Ludovicus Maior
 -- Log: OK, more quest name and qid corrections.
@@ -88,13 +93,13 @@ WoWPro.Dailies:RegisterGuide("EmmTillers", "Valley of the Four Winds", "Tillers"
 
 return [[
 
-N Work in progress!|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website. Also, if you find that you are offered a quest before it is listed in the guide, please note your faction with the tillers and with the friend it is from and post that in the comments for this guide.|
-N Pick up any Dark Soil you find|N|When you are flying about doing your dailies (not just these dailies) keep an eye out for Dark Soil. It contains a lost treasure to turn in for rep with the various friends around the farm.|
-N Favorite Treasures/food|N|Each Friend has a favorite lost treasure that you can give them as many as you can find daily and food that you can give them once per day.  If you can't remember which food they like, you can mouseover the friend rep bar (in the gossip pane) to be reminded. I have also tried to note which lost item they prefer for most interactions with the friends.|
-N Not so favorite Treasures|N|They will accept any of the lost treasures for about half the faction of thier favorite item.  So, unless you are maxxed out with the friends who want a particular item, its much better to give it to the friends who prefer it.|
-N Available Quests|N|Because quests are given at various factions, you can accept a quest whenever you see it, whether or not the guide tells you too... Except the daily turn in of lost items as discussed above.  (Those will be designated by a blue "?" instead of a blue "!").|
-N Non daily quests|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them.  Growing the Farm quests, you probably want to do right away to have more farming plots.|
-N Cooking|N|The favorite meals for the various friends requires cooking 525 or 550.  You can buy the food in the AH or make it yourself.  If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
+N Work in progress!|QID|31945|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website. Also, if you find that you are offered a quest before it is listed in the guide, please note your faction with the tillers and with the friend it is from and post that in the comments for this guide.|
+N Pick up any Dark Soil you find|QID|31945|N|When you are flying about doing your dailies (not just these dailies) keep an eye out for Dark Soil. It contains a lost treasure to turn in for rep with the various friends around the farm.|
+N Favorite Treasures/food|QID|31945|N|Each Friend has a favorite lost treasure that you can give them as many as you can find daily and food that you can give them once per day.  If you can't remember which food they like, you can mouseover the friend rep bar (in the gossip pane) to be reminded. I have also tried to note which lost item they prefer for most interactions with the friends.|
+N Not so favorite Treasures|QID|31945|N|They will accept any of the lost treasures for about half the faction of thier favorite item.  So, unless you are maxxed out with the friends who want a particular item, its much better to give it to the friends who prefer it.|
+N Available Quests|QID|31945|N|Because quests are given at various factions, you can accept a quest whenever you see it, whether or not the guide tells you too... Except the daily turn in of lost items as discussed above.  (Those will be designated by a blue "?" instead of a blue "!").|
+N Non daily quests|QID|31945|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them.  Growing the Farm quests, you probably want to do right away to have more farming plots.|
+N Cooking|QID|31945|N|The favorite meals for the various friends requires cooking 525 or 550.  You can buy the food in the AH or make it yourself.  If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
 
 ;Leadin from faction capital... although I imagine everyone will have done it or gone past it before they use the guide... including it to be complete.
 A The Tillers|QID|31374|LEAD|30252|M|60.4,22.8|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Farmhand Dooka.|
@@ -489,9 +494,9 @@ C A Second Hand|QID|30534|N|The only advantage to which friend to pick is so tha
 T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
 
 ;Fish's one time chain - requires exalted with tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)I don't know how to filter for requires the ach? can you put multiple REP tags in?
-K Enormous Cattail Grouper|M|44.52, 22.76|T|Enormous Cattail Grouper|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
-U Old Map|QID|31312|U|86404|N|Click on the map to start a quest.|
-A The Old Map|QID|31312|PRE|30529|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm.|
+K Enormous Cattail Grouper|M|44.52, 22.76|T|Enormous Cattail Grouper|ACH|6552;;true|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
+U Old Map|QID|31312|ACH|6552;;true|U|86404|N|Click on the map to start a quest.|
+A The Old Map|QID|31312|PRE|30529|ACH|6552;;true|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm.|
 T The Old Map|QID|31312|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
 A Just A Folk Story|QID|31313|PRE|31312|M|41.6,30|N|From Fish Fellreed.|
 C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|NC|QO|Speak to Stonecarver Mac: 1/1|
