@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2013-03-26 03:09
+-- Who: Emmaleah
+-- Log: change stormwind to stormwind city (one more spot)
+
+-- URL: http://wow-pro.com/node/3544/revisions/25603/view
 -- Date: 2013-03-24 00:47
 -- Who: Ludovicus Maior
 
@@ -120,7 +125,7 @@ C Grand Master Payne|QID|31935|M|77.4,20|Z|Icecrown|RANK|1|N|Opponents are level
 T Grand Master Payne|QID|31935|M|77.4,20|Z|Icecrown|RANK|1|N|To Grand Master Payne.|
 
 R Dalaran|QID|31974|M|40.23,62.83|Z|Dalaran|RANK|1|N|Use the portal in Dalaran to Stormwind (if you dont have the Uldam portal, the Dalaran portal it Caverns of Time is a good 2nd choice).|
-R Cataclysm Portals|QID|31974|M|76,18|Z|Stormwind|RANK|1|N|Use the portals or take a long flight.|
+R Cataclysm Portals|QID|31974|M|76,18|Z|Stormwind City|RANK|1|N|Use the portals or take a long flight.|
 R Uldum|QID|31971|M|56.6,42|Z|Uldum|RANK|1|
 A Grand Master Obalis|QID|31971|M|56.6,42|Z|Uldum|RANK|1|N|From Grand Master Obalis.|
 C Grand Master Obalis|QID|31971|M|56.6,42|Z|Uldum|RANK|1|N|Opponents are level 25 Epic Critter, Beast and Flying. This means your best choices are Beast, Mechanical and Magic.|
