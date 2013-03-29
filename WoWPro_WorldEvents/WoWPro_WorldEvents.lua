@@ -12,9 +12,6 @@ local bucket = LibStub("AceBucket-3.0")
 function WoWPro.WorldEvents:OnInitialize()
     -- Legacy option.  Destroy!
 	WoWProCharDB.AutoHideWorldEventsInsideInstances = nil
-		
-	-- WorldEvents Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "prereq","spell","active","buff"})
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
