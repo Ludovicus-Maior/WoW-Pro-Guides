@@ -141,6 +141,7 @@ function WoWPro.UpdateGuideReal(From)
 	WoWPro:dbp("Running: UpdateGuideReal()")
 	local GID = WoWProDB.char.currentguide
 	local offset = WoWPro.GuideOffset
+	WoWPro.GuideOffset = nil
 	
 	-- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
 	if InCombatLockdown() then
