@@ -216,7 +216,6 @@ function WoWPro.Dailies:RowUpdate(offset)
 	WoWPro.Dailies:dbp("Running: WoWPro.Dailies:RowUpdate()")
 	WoWPro.ActiveStickyCount = 0
 	local reload = false
-	local lootcheck = true
 	local k = offset or WoWPro.ActiveStep
 	local itemkb = false
 	local targetkb = false
@@ -243,8 +242,7 @@ function WoWPro.Dailies:RowUpdate(offset)
 		local unsticky = WoWPro.unsticky[k] 
 		local use = WoWPro.use[k] 
 		local zone = WoWPro.zone[k] 
-		local lootitem = WoWPro.lootitem[k] 
-		local lootqty = WoWPro.lootqty[k] 
+
 		local questtext = WoWPro.questtext[k]
 		local prereq = WoWPro.prereq[k] 
 		local leadin = WoWPro.leadin[k] 		
@@ -434,17 +432,6 @@ function WoWPro.Dailies:RowUpdate(offset)
 		-- Setting the zone for the coordinates of the step --
 		zone = zone or strsplit("-(",WoWPro.Guides[GID].zone)
 		row.zone = strtrim(zone)
-
-		-- Checking for loot items in bags --
-		local lootqtyi
-		if lootcheck and ( lootitem or action == "B" ) then
-			if not WoWPro.sticky[index] then lootcheck = false end
-			if not lootitem then
-				if GetItemCount(step) > 0 and not completion[k] then WoWPro.CompleteStep(k) end
-			end
-			if tonumber(lootqty) ~= nil then lootqtyi = tonumber(lootqty) else lootqtyi = 1 end
-			if GetItemCount(lootitem) >= lootqtyi and not completion[k] then WoWPro.CompleteStep(k) end
-		end
 
 		WoWPro.rows[i] = row
 		
