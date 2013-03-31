@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2013-03-25 23:05
+-- Who: Ludovicus Maior
+-- Log: Magic Pixie Dust:  |ACH|6552;;true|
+
+-- URL: http://wow-pro.com/node/3508/revisions/25602/view
+-- Date: 2013-03-24 00:11
+-- Who: Ludovicus Maior
+-- Log: OK, more quest name and qid corrections.
+
+-- URL: http://wow-pro.com/node/3508/revisions/25413/view
 -- Date: 2013-01-13 14:36
 -- Who: Ludovicus Maior
 -- Log: Lots of CN tags
@@ -83,13 +93,13 @@ WoWPro.Dailies:RegisterGuide("EmmTillers", "Valley of the Four Winds", "Tillers"
 
 return [[
 
-N Work in progress!|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website. Also, if you find that you are offered a quest before it is listed in the guide, please note your faction with the tillers and with the friend it is from and post that in the comments for this guide.|
-N Pick up any Dark Soil you find|N|When you are flying about doing your dailies (not just these dailies) keep an eye out for Dark Soil. It contains a lost treasure to turn in for rep with the various friends around the farm.|
-N Favorite Treasures/food|N|Each Friend has a favorite lost treasure that you can give them as many as you can find daily and food that you can give them once per day.  If you can't remember which food they like, you can mouseover the friend rep bar (in the gossip pane) to be reminded. I have also tried to note which lost item they prefer for most interactions with the friends.|
-N Not so favorite Treasures|N|They will accept any of the lost treasures for about half the faction of thier favorite item.  So, unless you are maxxed out with the friends who want a particular item, its much better to give it to the friends who prefer it.|
-N Available Quests|N|Because quests are given at various factions, you can accept a quest whenever you see it, whether or not the guide tells you too... Except the daily turn in of lost items as discussed above.  (Those will be designated by a blue "?" instead of a blue "!").|
-N Non daily quests|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them.  Growing the Farm quests, you probably want to do right away to have more farming plots.|
-N Cooking|N|The favorite meals for the various friends requires cooking 525 or 550.  You can buy the food in the AH or make it yourself.  If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
+N Work in progress!|QID|31945|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website. Also, if you find that you are offered a quest before it is listed in the guide, please note your faction with the tillers and with the friend it is from and post that in the comments for this guide.|
+N Pick up any Dark Soil you find|QID|31945|N|When you are flying about doing your dailies (not just these dailies) keep an eye out for Dark Soil. It contains a lost treasure to turn in for rep with the various friends around the farm.|
+N Favorite Treasures/food|QID|31945|N|Each Friend has a favorite lost treasure that you can give them as many as you can find daily and food that you can give them once per day.  If you can't remember which food they like, you can mouseover the friend rep bar (in the gossip pane) to be reminded. I have also tried to note which lost item they prefer for most interactions with the friends.|
+N Not so favorite Treasures|QID|31945|N|They will accept any of the lost treasures for about half the faction of thier favorite item.  So, unless you are maxxed out with the friends who want a particular item, its much better to give it to the friends who prefer it.|
+N Available Quests|QID|31945|N|Because quests are given at various factions, you can accept a quest whenever you see it, whether or not the guide tells you too... Except the daily turn in of lost items as discussed above.  (Those will be designated by a blue "?" instead of a blue "!").|
+N Non daily quests|QID|31945|N|Most of the friends also offer various one time quests based on your faction with them. Unless you are turning in lots of treasures (from dark soil) there is no need to finish the one time quests the day you get them.  Growing the Farm quests, you probably want to do right away to have more farming plots.|
+N Cooking|QID|31945|N|The favorite meals for the various friends requires cooking 525 or 550.  You can buy the food in the AH or make it yourself.  If you choose to make it, by the time you are done you will have gotten to 575 cooking in all the ways.This guide doesn't discuss how to skill up in cooking.|
 
 ;Leadin from faction capital... although I imagine everyone will have done it or gone past it before they use the guide... including it to be complete.
 A The Tillers|QID|31374|LEAD|30252|M|60.4,22.8|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Farmhand Dooka.|
@@ -207,18 +217,18 @@ B Green Cabbage Seeds(Farmer Fung)|QID|31947|L|79102 3|M|52.8,52.0|N|Buy seeds f
 B Witchberry Seeds(Nana)|QID|31949|L|89326 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
 B Striped Melon Seeds(Haohan)|QID|30527|L|89329 4|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
 T A Shabby New Face|QID|32189|M|53.36,51.42|N|To Barnaby Fletcher,|
-A One Magical, Flying Kingdoms' Trash...|QID|32198|M|53.36,51.42|N|From Barnaby Fletcher. (Instant Accept/Turn In quest, you now have a shard to plant that will grow into a random portal shard.) After completing this quest, anytime Barnaby is at the market, you can buy more portal shards from him.|
+A One Magical, Flying Kingdom's Trash...|QID|32198|M|53.36,51.42|N|From Barnaby Fletcher. (Instant Accept/Turn In quest, you now have a shard to plant that will grow into a random portal shard.) After completing this quest, anytime Barnaby is at the market, you can buy more portal shards from him.|
 
 ;plant for farmer yoon
 C A Pumpkin-y Perfume|QID|31672|M|51.98,48.31|U|80592|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
 C It's Melon Time|QID|31942|M|51.98,48.31|U|89329|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
-C Red Blossom Leeks, You Make the Croc-in' World go Down|QID|31673|M|51.98,48.31|U|80593|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
+C Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|51.98,48.31|U|80593|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
 C Squash Those Foul Odors|QID|31941|M|51.98,48.31|U|89328|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
 C That Dangling Carrot|QID|31670|M|51.98,48.31|U|80590|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
 C The Cabbage Test|QID|31669|M|51.98,48.31|U|79102|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
 C The Pink Turnip Challenge|QID|31674|M|51.98,48.31|U|80594|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
 C The White Turnip Treatment|QID|31675|M|51.98,48.31|U|80595|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
-C Which Berries? Witchberries|QID|31943|M|51.98,48.31|U|89326|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
+C Which Berries? Witchberries.|QID|31943|M|51.98,48.31|U|89326|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
 C Why Not Scallions?|QID|31671|M|51.98,48.31|U|80591|NC|N|Plant what Farmer Yoon wants, you can dig it up and plant what you want afterwards.|
 C Nana's Vote III: Witchberry Julep|QID|31949|M|52.03,48.32|U|89326|NC|N|Check this off manually after you plant. The next day you can harvest and deliver them to Nana.|
 C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|U|79102|M|52.03,48.32|NC|N|Check this off manually after you plant. The next day you can harvest and deliver them to Farmer Fung.|
@@ -246,7 +256,7 @@ A Farmer Fung's Vote II: On the Loose|PRE|30517|QID|30518|M|48.2,33.8|N|From Far
 T Farmer Fung's Vote II: On the Loose|QID|30518|M|48.2,33.8|N|To Farmer Fung.|
 A Farmer Fung's Vote III: Crazy For Cabbage|PRE|30518|QID|31947|M|48.2,33.8|N|From Farmer Fung.|
 T Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.2,33.8|N|If Farmer Fung is not at the market he is on his farm, (where the green dot is).|
-C Lost Sheepie...Again|QID|31339|M|47,37|NC|N|Pick up the sheep and take it home.|
+C Lost Sheepie... Again|QID|31339|M|47,37|NC|N|Pick up the sheep and take it home.|
 A A Dish for Tina|QID|30433|M|45.1,33.8|REP|Tina Mudclaw;1280;Stranger-Good Friend|N|To Tina Mudclaw - Fire Spirit Salmon - Ruby Shard. Check this off manually if you have no food or treasure for her.|
 A A Dish for Haohan|QID|30414|M|44.6,34.1|REP|Haohan Mudclaw;1279;Stranger-Good Friend|N|To Haohan Mudclaw - Charbroiled Tiger Steak - Ruby Shard. Check this off manually if you have no food or treasure for him.|
 C Talk to Haohan|QID|31534|NC|L|87554|M|45,34|N|In the market or at his farm (where the green dot is).|
@@ -270,8 +280,8 @@ C Pest Problems|QID|30319|M|39.4,45.4|N|Click on the marmots, avoid the bug swar
 C Haohan's Vote II: The Real Culprits|QID|30522|M|38,45|N|You can examine the area while still mounted.|
 A A Dish for Chee Chee|QID|30402|M|34.44,46.84|REP|Chee Chee;1277;Stranger-Good Friend|N|To Chee Chee - Valley Stir Fry - Blue Feather. Check this off manually if you have no food or treasure for him.|
 A Lost Sheepie|QID|31338|REP|Chee Chee;1277;Buddy|M|53,52|N|From Chee Chee|;16800
-A Lost Sheepie...Again|QID|31339|REP|Chee Chee;1277;Friend|M|53,52|N|From Chee Chee|;25200
-A Oh Sheepie|QID|31340|REP|Chee Chee;1277;Good Friend|M|53,52|N|From Chee Chee|;33600
+A Lost Sheepie... Again|QID|31339|REP|Chee Chee;1277;Friend|M|53,52|N|From Chee Chee|;25200
+A Oh Sheepie...|QID|31340|REP|Chee Chee;1277;Good Friend|M|53,52|N|From Chee Chee|;33600
 A A Dish for Old Hillpaw|QID|30396|M|30.9,53.1|REP|Old Hillpaw;1276;Stranger-Good Friend|N|To Old Hillpaw - Braised Turtle - Blue Feather. Check this off manually if you have no food or treasure for him.|
 C Chasing the Chicken|QID|30318|M|31,54|NC|N|Pick up a chicken, follow directions on screen, eventually you will find the prize-winning favorite.|
 A A Dish for Ella|QID|30386|M|31.5,58.1|REP|Ella;1275;Stranger-Good Friend|N|To Ella - Shrimp Dumplings - Jade Cat. Check this off manually if you have no food or treasure for her.|
@@ -281,9 +291,9 @@ A A Worthy Brew|QID|31538|REP|Ella;1275;Good Friend|M|53,51.6|N|From Ella.|;3360
 C Lost Sheepie|QID|31338|M|34,38|NC|N|Pick up the sheep and take it home.|
 
 ;do quests - skyrange area
-C Oh Sheepie|QID|31340|NC|M|30.2,43.6|N|Pick up whats left of Sheepie and take it home.|
+C Oh Sheepie...|QID|31340|NC|M|30.2,43.6|N|Pick up whats left of Sheepie and take it home.|
 C The Kunzen Hunter-Chief|QID|30336|M|31,48|N|The name varies, kill whoever the hozen is on this tier of the mountain.|
-C A Wolf in Sheep's Clothing|QID|31341|U|86465|M|30,32|N|Use the sheepskin (in a cleared area) to summon the wolf, Kill him.|
+C A Wolf In Sheep's Clothing|QID|31341|U|86465|M|30,32|N|Use the sheepskin (in a cleared area) to summon the wolf, Kill him.|
 C You Have to Burn the Ropes|QID|30327|S|NC|M|30.67,44.43|NC|N|Coils of rope on the ground.|
 C Fatty Goatsteak|QID|30332|M|30.12,44.69|S|N|Kill goats, don't put your back to the drop off, they knock back, loot them. Good quest to group for since the meat will drop for everyone in the group and it reduces competition for the somewhat slow spawn.|
 K Skyrange Mushan|T|Skyrange Mushan|L|80144 20|QID|30526|S|M|27.4,35.2|N|Kill and loot the mushan until you have enough meat for your dog.|
@@ -294,9 +304,9 @@ C Fatty Goatsteak|QID|30332|M|30.12,44.69|US|N|Kill goats, don't but your back t
 
 ;do quests - hozen area
 A A Dish for Sho|QID|30408|M|29.5,30.6|REP|Sho;1278;stranger-good friend|N|To Sho - Eternal Blossom Fish - Lovely Apple, Check this off manually if you have no food or treasure for her.|
-A Mission: Culling the Vermin|QID|31529|REP|Sho;1278;Acquaintance;4200|M|29.5,30.6|N|From Sho.|;12600
-A Mission: Aerial Threat|PRE|31529|QID|31530|REP|Sho;1278;Friend;4400|M|29.5,30.6|N|From Sho.|;friend+4400-4800?)
-A Mission: Predator of the Cliffs|PRE|31530|QID|31531|REP|Sho;1278;Good Friend;1700|M|29.5,30.6|N|From Sho.|;good friend +1700?
+A Mission: Culling The Vermin|QID|31529|REP|Sho;1278;Acquaintance;4200|M|29.5,30.6|N|From Sho.|;12600
+A Mission: Aerial Threat|PRE|31529|QID|31531|REP|Sho;1278;Friend;4400|M|29.5,30.6|N|From Sho.|;friend+4400-4800?)
+A Mission: Predator of the Cliffs|PRE|31530|QID|31532|REP|Sho;1278;Good Friend;1700|M|29.5,30.6|N|From Sho.|;good friend +1700?
 C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|S|N|This can be a ground spawn or drop from the mobs.|
 C Authentic Valley Stir Fry|QID|30471|M|31.93,23.50|S|N|This can be a ground spawn or drop from the mobs.|
 C Yak Statuette|QID|30473|M|34,24|S|N|This can be a ground spawn or drop from the mobs.|
@@ -323,7 +333,7 @@ C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|US|N|This can be a ground spawn or 
 C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|S|N|Random drops while killing the other mobs for your other quests.|
 C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|CN|NC|S|N|This is a smallish rock in any of the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|
 C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|CN|S|NC|N|Pick up the jars located in the 3 virmen caves.|;Yan Ironpaw.|
-C Mission: Culling the Vermin|QID|31529|M|39,20;44,22;47,21|CN|S|N|Do this while you are doing the other quests in the virmin area.|
+C Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|S|N|Do this while you are doing the other quests in the virmin area.|
 C Haohan's Vote III: Pure Poison|QID|30525|S|QO|Violet Lichen: 1/1|M|44.4,22|N|Found in the grassy areas near the cave entrances.|
 C Haohan's Vote III: Pure Poison|QID|30525|QO|Bloodbloom: 1/1|M|44.2,21.3|N|Found inside vermin caves.|
 C Haohan's Vote III: Pure Poison|QID|30525|QO|Cave Lily: 1/1|M|48.4,18.4|N|Found inside vermin caves.|
@@ -333,13 +343,13 @@ C Haohan's Vote III: Pure Poison|QID|30525|US|QO|Violet Lichen: 1/1|M|44.4,22|N|
 C Uncut Chrysoberyl|QID|30470|M|39,20;44,22;47,21|NC|CN|US|N|This is a smallish rock in the 3 virmen caves (and just outside them.) It can appear in several colors. It respawns at a new spot everytime someone loots it.|
 C The Thousand-Year Dumpling|QID|30328|M|39,20;44,22;47,21|CN|US|NC|N|Pick up the jars located in the 3 virmen caves.|;Yan Ironpaw.|
 C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|US|N|Random drops while killing the other mobs for your other quests.|
-C Mission: Culling the Vermin|QID|31529|M|39,20;44,22;47,21|CN|US|N|Do this while you are doing the other quests in the virmin area.|
+C Mission: Culling The Vermin|QID|31529|M|39,20;44,22;47,21|CN|US|N|Do this while you are doing the other quests in the virmin area.|
 C Mission: Aerial Threat|QID|31531|M|45,16|N|These are the birds that are yellow (non agro).|
 C Mission: Predator of the Cliffs|QID|31532|M|46.4,16.4|N|This bird is in a nest near the virmin caves.|
 C Nana's Vote II: The Sacred Springs|QID|31948|U|89902|M|56,21|N|If you are careful (and land far enough away), you don't have to kill the guardian, Fill your pitcher. If you die here, you have to rez at the angel and try again.|
 
 ;Sho's one time quests|REP|1278
-T Mission: Culling the Vermin|QID|31529|M|29.5,30.6}N|To Sho, if she is not at the market, she will be where the green dot is.|
+T Mission: Culling The Vermin|QID|31529|M|29.5,30.6}N|To Sho, if she is not at the market, she will be where the green dot is.|
 T Mission: Aerial Threat|QID|31531|M|29.5,30.6N|To Sho, if she is not at the market, she will be where the green dot is.|
 T Mission: Predator of the Cliffs|QID|31532|M|29.5,30.6N|To Sho, if she is not at the market, she will be where the green dot is.|
 
@@ -365,14 +375,14 @@ T Lost and Lonely|QID|30526|M|42.4,50.2|N|To Lost Dog.|
 
 T Stalling the Ravage|QID|30335|M|52.23,48.83|N|To Farmer Yoon.|
 T The White Turnip Treatment|QID|31675|M|52.23,48.83|N|To Farmer Yoon.|
-T Red Blossom Leeks, You Make the Croc-in' World go Down|QID|31673|M|52.21,48.82|N|To Farmer Yoon.|
+T Red Blossom Leeks, You Make the Croc-in' World Go Down|QID|31673|M|52.21,48.82|N|To Farmer Yoon.|
 T A Pumpkin-y Perfume|QID|31672|M|52.21,48.82|N|To Farmer Yoon.|
 T It's Melon Time|QID|31942|M|52.21,48.82|N|To Farmer Yoon.|
 T Squash Those Foul Odors|QID|31941|M|52.21,48.82|N|To Farmer Yoon.|
 T That Dangling Carrot|QID|31670|M|52.21,48.82|N|To Farmer Yoon.|
 T The Cabbage Test|QID|31669|M|52.21,48.82|N|To Farmer Yoon.|
 T The Pink Turnip Challenge|QID|31674|M|52.21,48.82|N|To Farmer Yoon.|
-T Which Berries? Witchberries|QID|31943|M|52.21,48.82|N|To Farmer Yoon.|
+T Which Berries? Witchberries.|QID|31943|M|52.21,48.82|N|To Farmer Yoon.|
 T Why Not Scallions?|QID|31671|M|52.21,48.82|N|To Farmer Yoon.|
 T The Lesser of Two Evils|QID|30333|M|52.21,48.82|N|To Farmer Yoon.|
 T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.21,48.82|N|To Farmer Yoon.|
@@ -392,8 +402,8 @@ B Grand Commendation|PRE|30516|REP|The Tillers;1272;revered|M|53.2,51.8|L|93226|
 U Grand Commendation|PRE|30516|REP|The Tillers;1272;revered|U|93226|N|Click on it, it does no good until you use it.|
 
 ;REMOVE THE CART - 0 Revered
-A Growing the Farm II: The Broken Wagen|QID|30523|PRE|30516|REP|The Tillers;1272;revered|M|52.20,48.86|N|From Farmer Yoon.|
-T Growing the Farm II: The Broken Wagen|QID|30523|M|41.6,30|N|To Fish Fellreed.|
+A Growing the Farm II: The Broken Wagon|QID|30523|PRE|30516|REP|The Tillers;1272;revered|M|52.20,48.86|N|From Farmer Yoon.|
+T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed.|
 A Growing the Farm II: Knock on Wood|QID|30524|PRE|30523|M|41.6,30|N|From Fish Fellreed.|
 C Growing the Farm II: Knock on Wood|QID|30524|M|43,29|N|The planks of wood are in the water surrounded by agro crabs. Be careful.|
 T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed. Check in with Fish to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|
@@ -428,9 +438,9 @@ T Not in Chee-Chee's Backyard|QID|30324|M|53.13,51.93|N|To Chee Chee also he pre
 T A Gift For Chee Chee|QID|30471|M|53.13,51.93|N|To Chee Chee.|
 
 T Lost Sheepie|QID|31338|M|34.4,46.8|N|To Chee Chee, if you don't find him in the market he is at the green dot.|
-T Lost Sheepie...Again|QID|31339|M|34.4,46.8|N|To Chee Chee, if you don't find him in the market he is at the green dot.|
-T Oh Sheepie|QID|31340|M|34.4,46.8|N|To Chee Chee, if you don't find him in the market he is at the green dot.|
-A A Wolf in Sheep's Clothing|QID|31341|PRE|31340|M|53,52|N|From Chee Chee|;33600
+T Lost Sheepie... Again|QID|31339|M|34.4,46.8|N|To Chee Chee, if you don't find him in the market he is at the green dot.|
+T Oh Sheepie...|QID|31340|M|34.4,46.8|N|To Chee Chee, if you don't find him in the market he is at the green dot.|
+A A Wolf In Sheep's Clothing|QID|31341|PRE|31340|M|53,52|N|From Chee Chee|;33600
 
 T The Kunzen Legend-Chief|QID|30326|M|41.7,30.0|N|To Fish Fellreed, also she prefers the Jade Cat.|
 T A Gift For Fish|QID|30473|M|41.7,30.0|N|To Fish Fellreed.|
@@ -439,7 +449,7 @@ T You Have to Burn the Ropes|QID|30327|M|31.5,58.1|N|To Ella, also she prefers t
 T A Gift For Ella|QID|30474|M|31.5,58.1|N|To Ella.|
 
 T Chasing the Chicken|QID|30318|M|30.9,53.1|N|To Old Hillpaw, also he prefers the Blue Feather.|
-T A GIft For Old Hillpaw|QID|30476|M|30.9,53.1|N|To Old Hillpaw.|
+T A Gift For Old Hillpaw|QID|30476|M|30.9,53.1|N|To Old Hillpaw.|
 
 T Pest Problems|QID|30319|M|44.6,34.1|N|To Haohan Mudclaw, also he prefers Ruby Shards.|
 T A Gift For Haohan|QID|30477|44.6,34.1|N|To Haohan Mudclaw.|
@@ -447,7 +457,7 @@ T A Gift For Haohan|QID|30477|44.6,34.1|N|To Haohan Mudclaw.|
 T Money Matters|QID|30322|M|53.2,51.8|N|To Gina Mudclaw, also she prefers the Marsh Lily.|
 T A Gift For Gina|QID|30479|M|53.2,51.8|N|To Gina Mudclaw.|
 
-T Mile High Grub|QID|30331|M|52.54,51.65|N|To Mei Mei Ironpaw.|
+T The Mile-High Grub|QID|30331|M|52.54,51.65|N|To Mei Mei Ironpaw.|
 
 ;WATERING SYSTEM - requires clear the weeds
 B The "Jinyu Princess" Irrigation System|LEAD|31936|PRE|30516|M|53.2,51.8|L|89812|N|Buy from Gina Mudclaw. Even if you like using inventory space for the watering can, its still 250 rep for 90g. Not available until after the weeds are removed (so, in 15 minutes, if Gao Lan just started.)|
@@ -474,7 +484,7 @@ T Buy A Fish A Round?|QID|31321|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Keg?|QID|31322|REP|Jogu;1273;Friend|M|53.6,52.4|N|From Jogu the Drunk.|;25200 rep
 B Buy or Make Jade Witch Brew|ACTIVE|31322|QID|31322|L|75037 10|N|Make with cooking or buy from another player.|
 T Buy A Fish A Keg?|QID|31322|M|53.6,52.4|N|To Jogu the Drunk.|
-A Buy A Fish a Brewery?|QID|31323|REP|Jogu;1273;Good Friend|M|53.6,52.4|N|From Jogu the Drunk.|;33600 rep
+A Buy A Fish A Brewery?|QID|31323|REP|Jogu;1273;Good Friend|M|53.6,52.4|N|From Jogu the Drunk.|;33600 rep
 B Buy or Make Mad Brewer's Breakfast|ACTiVE|31323|QID|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|
 T Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|To Jogu the Drunk.|
 
@@ -484,16 +494,16 @@ C A Second Hand|QID|30534|N|The only advantage to which friend to pick is so tha
 T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
 
 ;Fish's one time chain - requires exalted with tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)I don't know how to filter for requires the ach? can you put multiple REP tags in?
-K Enormous Cattail Grouper|M|44.52, 22.76|T|Enormous Cattail Grouper|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
-U Old Map|QID|31312|U|86404|N|Click on the map to start a quest.|
-A The Old Map|QID|31312|PRE|30529|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm.|
+K Enormous Cattail Grouper|M|44.52, 22.76|T|Enormous Cattail Grouper|ACH|6552;;true|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
+U Old Map|QID|31312|ACH|6552;;true|U|86404|N|Click on the map to start a quest.|
+A The Old Map|QID|31312|PRE|30529|ACH|6552;;true|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm.|
 T The Old Map|QID|31312|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
 A Just A Folk Story|QID|31313|PRE|31312|M|41.6,30|N|From Fish Fellreed.|
 C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|NC|QO|Speak to Stonecarver Mac: 1/1|
 C Talk to Old Man Whitewhiskers|QID|31313|M|54.6,47|NC|QO|Speak to Old Man Whitewhiskers: 1/1|N|He is upstairs.|
 C Talk to Grainsorter Pei|QID|31313|M|54.2,44.4|NC|QO|Speak to Grainsorter Pei: 1/1|
 C Talk to Mama Mn|QID|31313|M|56.2,45.2|NC|QO|Speak to Mama Min: 1/1|N|Inside the house.|
-T Just a Folk Story|QID|31313|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
+T Just A Folk Story|QID|31313|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
 A Old Man Thistle's Treasure|QID|31314|PRE|31313|M|41.6,30|N|From Fish Fellreed. The exit from the cave often bugs out, if your hearthstone is down, you may want to wait a few minutes to do this quest.|
 C Old Man Thistle's Treasure|QID|31314|M|37.23,23.84|NC|QO|Find the cave entrance: 1/1|N|Click to remove the rubble, you should get discover credit.|
 C Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|QO|Find Old Man Thistle's Treasure.|N|Stealth or kill your way to the end of the cave where a bigger spider and the treasure awaits.|

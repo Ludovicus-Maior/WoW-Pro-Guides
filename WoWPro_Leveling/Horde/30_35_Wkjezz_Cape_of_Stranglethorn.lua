@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2013-03-23 19:03
+-- Who: Ludovicus Maior
+-- Log: Cleaned up [The Holy Water of Clarity]
+
+-- URL: http://wow-pro.com/node/3238/revisions/25286/view
 -- Date: 2013-01-09 01:03
 -- Who: Ludovicus Maior
 -- Log: Two different QIDs for [The Holy Water of Clarity]
@@ -62,7 +67,8 @@ T It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|To Sassy Hardwrench.|
 T Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead|M|34.65,29.48|N|To Sassy Hardwrench.|
 T If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.65,29.48|N|To Sassy Hardwrench.|
 A There's Somebody Out There Who Wants It|QID|26493|M|34.70,29.33|N|From Sassy Hardwrench.|
-T The Holy Water of Clarity|QID|26433;26590|M|33.78,29.16|N|To Flem Gizzix.|
+T The Holy Water of Clarity|QID|26433|M|33.78,29.16|N|To Flem Gizzix.|
+T The Holy Water of Clarity|QID|26590|M|33.78,29.16|N|To Flem Gizzix.|
 A Primal Reagents of Power|QID|26434|M|33.78,29.16|N|From Flem Gizzix.|
 A Diffractory Chromascope|QID|26592|M|33.78,29.16|N|From Flem Gizzix.|
 C Primal Reagents of Power|QID|26434|S|M|46.41,18.44|

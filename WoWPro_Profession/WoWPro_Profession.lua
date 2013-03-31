@@ -11,9 +11,6 @@ WoWPro:Embed(WoWPro.Profession)
 function WoWPro.Profession:OnInitialize()
     -- Destroy legacy var
 	WoWProCharDB.AutoHideProfessionInsideInstances = nil
-	
-	-- Profession Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach"})
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --

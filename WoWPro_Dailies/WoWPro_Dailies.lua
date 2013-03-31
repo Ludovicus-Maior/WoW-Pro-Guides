@@ -9,8 +9,7 @@ local bucket = LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Dailies:OnInitialize()
-	-- Dailies Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat","active","ach","spell","qcount","NPC"})
+    -- Nothing for now
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2013-03-23 18:42
+-- Who: Ludovicus Maior
+-- Log: Quest name correction [Fight Fire and Water and Air with...]
+
+-- URL: http://wow-pro.com/node/3307/revisions/25459/view
 -- Date: 2013-01-13 18:56
 -- Who: Ludovicus Maior
 -- Log: Added CC tag
@@ -501,9 +506,9 @@ T Fly Over|QID|27006|M|47.4,51.4|N|To Prospector Brewer.|FACTION|Alliance|
 A Fight Fire and Water and Air with...|QID|27042|PRE|27004;27006|RANK|2|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
 A Decryption Made Easy|QID|27040|PRE|27004;27006|N|From Explorer Mowi.|FACTION|Alliance|
 C Decryption Made Easy|QID|27040|S|M|38,69.9;39.6,73.8;41.2,71.8|CN|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
-C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental.|FACTION|Alliance|
-C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|36.10,67.40|QO|Fire Ward acquired: 1/1|N|Kill the Bound Fire Elemental.|FACTION|Alliance|
-C Fight Fire and Water and Air With...|QID|27042|RANK|2|M|40.50,72.40|QO|Air Ward acquired: 1/1|N|Kill the Bound Air Elemental.|FACTION|Alliance|
+C Fight Fire and Water and Air with...|QID|27042|RANK|2|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental.|FACTION|Alliance|
+C Fight Fire and Water and Air with...|QID|27042|RANK|2|M|36.10,67.40|QO|Fire Ward acquired: 1/1|N|Kill the Bound Fire Elemental.|FACTION|Alliance|
+C Fight Fire and Water and Air with...|QID|27042|RANK|2|M|40.50,72.40|QO|Air Ward acquired: 1/1|N|Kill the Bound Air Elemental.|FACTION|Alliance|
 C Decryption Made Easy|QID|27040|US|M|38,69.9;39.6,73.8;41.2,71.8|CN|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
 T Decryption Made Easy|QID|27040|N|(UI Alert)|FACTION|Alliance|
 A The Wrong Sequence|QID|27058|PRE|27040|N|Quest starts automatic.|FACTION|Alliance|
@@ -526,7 +531,7 @@ C The Twilight Plot|QID|27005|M|41.00,69.00|N|Kill Twilight Cultist in the area 
 C Fly Over|QID|27008|M|39.10,73.90|N|Fly to the Titan Waygate.|FACTION|Horde|
 T The Twilight Plot|QID|27005|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
 T Fly Over|QID|27008|M|51.20,50.10|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
-A Fight Fire and Water and Air With...|QID|27043|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
+A Fight Fire and Water and Air with...|QID|27043|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
 A Decryption Made Easy|QID|27041|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 C Decryption Made Easy|S|QID|27041|N| Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Horde|
 N Water Ward|QID|27043|M|40.80,66.30|QO|Water Ward acquired: 1/1|N|Kill the Bound Water Elemental to get the Water Ward.|FACTION|Horde|
@@ -536,8 +541,8 @@ C Decryption Made Easy|US|QID|27041|N| Look for the One-Time Decryption Engines.
 T Decryption Made Easy|QID|27041|N|When you finish a Quest Complete notification will appear. Click it.|FACTION|Horde|
 A The Wrong Sequence|QID|27059|N|You will be automatically offered the follow-up.|FACTION|Horde|
 C The Wrong Sequence|QID|27059|M|39.13,73.86|N|Go to the Waygate, use the Waygate Contoller located directly in front of the Waygate to destroy it.|FACTION|Horde|
-C Fight Fire and Water and Air With...|QID|27043|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|FACTION|Horde|
-T Fight Fire and Water and Air With...|QID|27043|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
+C Fight Fire and Water and Air with...|QID|27043|M|40.00,62.20|QO|Haethen Kaul slain: 1/1|N|Floating platform above the Twilight Terrace.|FACTION|Horde|
+T Fight Fire and Water and Air with...|QID|27043|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
 T The Wrong Sequence|QID|27059|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
 A That's No Pyramid!|QID|28293|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 R Orgrimmar|QID|28293|M|50.94,53.1|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Orgimmar.|FACTION|Horde|

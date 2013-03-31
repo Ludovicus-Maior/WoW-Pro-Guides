@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2013-03-23 20:40
+-- Who: Ludovicus Maior
+-- Log: quest name tweaks
+
+-- URL: http://wow-pro.com/node/3287/revisions/25439/view
 -- Date: 2013-01-13 16:12
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -104,12 +109,12 @@ A To Westguard Keep! |QID|11291|M|60.5,61.1|N|From Vice Admiral Keller.|
 T The Path to Payback |QID|11420|M|60.1,62.4|N|To Guard Captain Zorek.|
 A Locating the Mechanism |QID|11426|M|60.1,62.4|N|From Guard Captain Zorek.|
 T Guided by Honor |QID|11289|M|59.8,62.4|N|To Lord Irulon Trueblade.|
-C A The Echo of Ymiron |QID|11343|U|33637|N|Use the Incense Burner inside this house and two Vrykuls will show up to have a conversation. Wait for the quest complete message, then cancel the buff. |M|60.15,50.84|
+C The Echo of Ymiron |QID|11343|U|33637|N|Use the Incense Burner inside this house and two Vrykuls will show up to have a conversation. Wait for the quest complete message, then cancel the buff. |M|60.15,50.84|
 C Locating the Mechanism |QID|11426|N|Kill a Dragonflayer Harpooner and loot the Harpoon Control Mechanism. |M|60.73,50.90|
 ; The quest 'Fresh Legs' has 'legs' lower-cased so it will not auto-accept, as it is optional.
-T Fresh legs |QID|11251|N|To Defender Mordun. This quest is optional as Defender Mordun is inside Utgarde Keep now.|M|57.28,46.75|
+T Fresh Legs |QID|11251|N|To Defender Mordun. This quest is optional as Defender Mordun is inside Utgarde Keep now.|M|57.28,46.75|
 
-T A The Echo of Ymiron |QID|11343|M|59.8,61.5|N|To Thoralius the Wise.|
+T The Echo of Ymiron |QID|11343|M|59.8,61.5|N|To Thoralius the Wise.|
 A Anguish of Nifflevar |QID|11344|M|59.8,61.5|N|From Thoralius the Wise.|
 T Locating the Mechanism |QID|11426|M|60.1,62.4|N|To Guard Captain Zorek.|
 A Meet Lieutenant Icehammer... |QID|11427|M|60.1,62.4|N|From Guard Captain Zorek.|
@@ -506,7 +511,7 @@ A Of Keys and Cages |QID|11231|M|28.9,44.0|N|From Father Levariol.|
 r Sell junk, repair, re-stock food/drink. |QID|11416|M|29.83,42.60|
 C Dealing With Gjalerbron |S|QID|11235|N|Kill the Vrykul you need for this quest. |M|34.68,15.28|
 l Gjalerbron Attack Plans |S|QID|11237|L|33289|N|Kill Vrykul here until you get Gjalerbron Attack Plans. |M|34.68,15.28|
-C Of Keys and Cage |QID|11231|N|Kill Vrykul mobs in this area and use their keys to open cages nearby. Free prisoners here until you complete the quest. |M|34.68,15.28|
+C Of Keys and Cages |QID|11231|N|Kill Vrykul mobs in this area and use their keys to open cages nearby. Free prisoners here until you complete the quest. |M|34.68,15.28|
 C Dealing With Gjalerbron |US|QID|11235|N|Kill the remaining Vrykul you need for this quest. |M|34.68,15.28|
 l Gjalerbron Attack Plans |US|QID|11237|L|33289|N|Kill Vrykul here until you get Gjalerbron Attack Plans. |M|34.68,15.28|
 
@@ -517,7 +522,7 @@ C Alpha Worg |QID|11326|U|33618|N|Look for Garwal and kill him. Use the Worg Dis
 T Alpha Worg |QID|11326|M|30.2,28.7|N|To Watcher Moonleaf.|
 C Leader of the Deranged |QID|11240|N|Drop off the cliff above the cave here and go inside to kill Squeeg Idolhunter.|M|30.69,34.48|
 T Leader of the Deranged |QID|11240|M|29.0,41.9|N|To Sapper Steelring.|
-T Of Keys and Cage |QID|11231|M|28.9,44.0|N|To Father Levariol.|
+T Of Keys and Cages |QID|11231|M|28.9,44.0|N|To Father Levariol.|
 
 A In Service to the Light |QID|11239|M|28.9,44.0|N|From Father Levariol.|
 T Dealing With Gjalerbron |QID|11235|M|28.8,44.1|N|To Captain Adams.|

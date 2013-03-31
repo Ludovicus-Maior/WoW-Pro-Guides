@@ -207,7 +207,7 @@ function WoWPro:UnSkipStepX(index)
 end
 
 
-function WoWPro:ParseQuestLine(faction,i,text)
+function WoWPro.ParseQuestLine(faction,i,text)
 	local GID = WoWProDB.char.currentguide
 	
 	_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
@@ -238,6 +238,13 @@ function WoWPro:ParseQuestLine(faction,i,text)
 	    WoWPro.zone[i] = nil
 	end
 	_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
+	if WoWPro.lootitem[i] then
+    	if tonumber(WoWPro.lootqty[i]) ~= nil then
+    	    WoWPro.lootqty[i] = tonumber(WoWPro.lootqty[i])
+    	else
+    	    WoWPro.lootqty[i] = 1
+    	end
+    end
 	WoWPro.questtext[i] = text:match("|QO|([^|]*)|?")
 	if text:find("|O|") then 
 		WoWPro.optional[i] = true
@@ -276,6 +283,9 @@ function WoWPro:ParseQuestLine(faction,i,text)
 
     -- If the step is "Achievement" use the name and description from the server ...
     if WoWPro.ach[i] then
+        if not WoWPro.note[i] then
+            WoWPro.note[i] = ""
+        end
     	local achnum, achitem = string.split(";",WoWPro.ach[i])
     	local count = GetAchievementNumCriteria(achnum) 
     	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
@@ -345,8 +355,9 @@ function WoWPro:ParseQuests(...)
 			   (race == nil or race:find(myrace)) and
 			   (gender == nil or gender == UnitSex("player")) and
 			   (faction == nil or myFaction == "NEUTRAL" or faction == myFaction) then
-
-				WoWPro:ParseQuestLine(faction,i,text)
+                WoWPro.ParsingQuestLine = text
+				WoWPro.ParseQuestLine(faction,i,text)
+				WoWPro.ParsingQuestLine = nil
 				i = i + 1
 			end
 		end
@@ -377,7 +388,7 @@ function WoWPro:LoadGuideSteps()
 		end
 
         
-        if not WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].completion[i] then
+        if (not WoWProCharDB.Guide[GID].skipped[i]) and numQIDs > 0 then
             WoWProCharDB.Guide[GID].completion[i] = false
             WoWPro.why[i] = "UnCompleted by WoWPro:LoadGuideSteps() because quest was not skipped."
         end

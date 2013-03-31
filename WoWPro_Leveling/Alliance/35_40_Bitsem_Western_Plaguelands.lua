@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2013-03-23 20:22
+-- Who: Ludovicus Maior
+-- Log: name tweaks
+
+-- URL: http://wow-pro.com/node/3244/revisions/25395/view
 -- Date: 2013-01-12 22:42
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -81,7 +86,7 @@ R Andorhal |QID|27161|N|Western Plaguelands is located north of The Hinterlands.
 T The Battle for Andorhal|QID|27158|M|40.97,70.38|N|To Thassarian.|O|
 T The Battle for Andorhal|QID|28505|M|40.97,70.38|N|To Thassarian.|O|
 T The Battle for Andorhal|QID|28749|M|40.97,70.38|N|To Thassarian.|O|
-T Hero's Call: Western Plaguelands|QID|28576|M|40.97,70.38|N|To Thassarian.|O|
+T Hero's Call: Western Plaguelands!|QID|28576|M|40.97,70.38|N|To Thassarian.|O|
 
 A Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|From Thassarian.|
 A War Machines|QID|27160|M|40.97,70.38|N|From Lurid.|

@@ -11,9 +11,6 @@ WoWPro:Embed(WoWPro.Leveling)
 function WoWPro.Leveling:OnInitialize()
     -- Legacy, destroy!
 	WoWProCharDB.AutoHideLevelingInsideInstances = nil
-		
-	-- Leveling Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "prereq", "noncombat", "leadin", "rep", "action", "faction"})
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --

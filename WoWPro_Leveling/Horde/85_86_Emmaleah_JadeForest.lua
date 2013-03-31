@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2013-03-23 19:01
+-- Who: Ludovicus Maior
+-- Log: Quest name corrections and a missing | char.
+
+-- URL: http://wow-pro.com/node/3487/revisions/25575/view
+-- Date: 2013-03-23 18:59
+-- Who: Ludovicus Maior
+-- Log: quest name tweak
+
+-- URL: http://wow-pro.com/node/3487/revisions/25491/view
 -- Date: 2013-01-13 23:50
 -- Who: Ludovicus Maior
 -- Log: Added CS tag
@@ -113,7 +123,7 @@ T Priorities!|QID|31978|M|29.37,13.57|N|To Ellie Honeypaw.|
 h Honeydew Village|QID|31774|M|28.53,13.33|N|Talk to Brewmother Kiki if you want to make Pandaria you new home. This as a good place to set your heartstone, as there is a portal to Orgrimar right outside the door.|
 f Honeydew Village|QID|31774|M|28.1,15.57|N|At Wing Hya.|
 
-T Seeking Zin'Jun|QID|31774|M|31.17,17.52|N|To Zin'Jun.|
+T Seeking Zin'jun|QID|31774|M|31.17,17.52|N|To Zin'Jun.|
 A Cryin' My Eyes Out|QID|29765|M|31.17,17.52|N|From Zin'Jun.|
 A Monstrosity|QID|29743|M|30.90,17.49|N|From base of statue.|
 C Cryin' My Eyes Out|QID|29765|S|M|29.15,17.91|N|Kill the hozen to recover Zin'Jun's stuff.|
@@ -259,7 +269,7 @@ T Dawn's Blossom|QID|30015|M|46.82,46.17|N|To Lorewalker Cho.|
 A Welcome to Dawn's Blossom|QID|31230|M|47.19,46.11|N|From Toya.|
 C Welcome to Dawn's Blossom|QID|31230|NC|M|47.04,46.02;45.77,43.67;48.47,44.50|CS|
 T Welcome to Dawn's Blossom|QID|31230|M|47.16,46.15|N|To Toya.|
-A The Double Hozu Dare|QID|29716|M|46.52,45.92|N|From An Windfur.|
+A The Double Hozen Dare|QID|29716|M|46.52,45.92|N|From An Windfur.|
 A The Silkwood Road|QID|29865|M|46.48,45.85|N|From Tzu the Ironbelly.|
 A The Threads that Stick|QID|29866|M|46.59,45.32|N|From Lo Wanderbrew.|
 C The Threads that Stick|QID|29866|S|NC|M|43.68,48.32|N|Loot the eggs to get Pristine Silk.|
@@ -267,8 +277,8 @@ C The Silkwood Road|QID|29865|M|43.26,49.23|
 C The Threads that Stick|QID|29866|US|NC|M|43.68,48.32|N|Loot the eggs to get Pristine Silk.|
 A Down Kitty!|QID|29717|M|39.82,48.05|N|From An Windfur.|
 C Down Kitty!|QID|29717|M|37.11,47.72|
-C The Double Hozu Dare|QID|29716|M|37.31,48.19|
-T The Double Hozu Dare|QID|29716|N|To An Windfur. (she should be following you)|
+C The Double Hozen Dare|QID|29716|M|37.31,48.19|
+T The Double Hozen Dare|QID|29716|N|To An Windfur. (she should be following you)|
 A The Jade Witch|QID|29723|N|From An Windfur.|
 T Down Kitty!|QID|29717|N|To An Windfur.|
 C The Jade Witch|QID|29723|M|39.23,46.17|N|Before you talk to the widow, look around for a 'Jade Warrior Statue' in her front yard, if it is there talk to it for a BoA treasure. Talk to Widow Greenpaw, she'll bring you to Shin and then become attackable, kill her.|
@@ -489,7 +499,7 @@ C Moth-Ridden|QID|30001|M|56.39,60.43|
 C Pages of History|QID|30002|US|M|55.70,59.95|N|Stomp(click) on the bookworms (or just kill them the normal way).|
 T Moth-Ridden|QID|30001|M|56.29,60.40|N|To Lorewalker Stonestep.|
 A Everything In Its Place|QID|30004|M|56.29,60.40|N|From Lorewalker Stonestep.|
-T Pages of History|QID|30002M|55.70,59.95|N|To Lorewalker Stonestep.|
+T Pages of History|QID|30002|M|55.70,59.95|N|To Lorewalker Stonestep.|
 C Emerald Serpent|QID|29999|NC|QO|Playful Emerald Serpent found: 1/1|M|56.51,58.44|N|Click on the cog to pick up the serpant.|
 C The Scryer's Dilemma|QID|29997|M|56.79,55.84|N|Kill the water elementals until the staff drops.|
 T The Scryer's Dilemma|QID|29997|M|57.59,55.98|N|To Wise Mari.|

@@ -15,7 +15,11 @@ function WoWPro:QIDsInTable(QIDs,tabla)
 	for j=1,numQIDs do
 		local QID = select(numQIDs-j+1, string.split(";", QIDs))
 		QID = tonumber(QID)
-		if QID > 0 then
+		if not QID then
+		    WoWPro:Error("Malformed QID [%s] in Guide %s",QIDs,WoWProDB.char.currentguide)
+		    QID=0
+		end
+		if QID >= 0 then
             if tabla[QID] then return true end
             default = false
         else
@@ -106,7 +110,10 @@ end
 
 function WoWPro:NextGuide(GID)
 	local myUFG = UnitFactionGroup("player")
-    if not WoWPro.Guides[GID].nextGID then return nil; end
+    if not WoWPro.Guides[GID].nextGID then
+        -- If there is no next guide defined, STAY.
+        return GID
+    end
 	if WoWPro.Guides[GID].faction == "Neutral" then
 	    -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
 	    local  AllianceGUID, HordeGID = string.split("|",WoWPro.Guides[GID].nextGID)
@@ -128,10 +135,13 @@ end
 
 -- Guide Update --
 local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
+WoWPro.GuideOffset = nil
 function WoWPro.UpdateGuideReal(From)
 	if not WoWPro.GuideFrame:IsVisible() or not GuideLoaded then return end
 	WoWPro:dbp("Running: UpdateGuideReal()")
 	local GID = WoWProDB.char.currentguide
+	local offset = WoWPro.GuideOffset
+	WoWPro.GuideOffset = nil
 	
 	-- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
 	if InCombatLockdown() then
@@ -151,11 +161,12 @@ function WoWPro.UpdateGuideReal(From)
 	-- Finding the active step in the guide --
 	WoWPro.ActiveStep = WoWPro:NextStep(1)
 	if WoWPro.Recorder then WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep end
+	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount))
 	
 	-- Calling on the guide's module to populate the guide window's rows --
 	local function rowContentUpdate()
-		local reload = WoWPro[module:GetName()]:RowUpdate()
+		local reload = WoWPro[module:GetName()]:RowUpdate(offset)
 		for i, row in pairs(WoWPro.rows) do
 			local modulename
 			-- Hijack the click and menu functions for the Recorder if it's enabled --
@@ -280,17 +291,33 @@ function WoWPro:NextStep(k,i)
 	
 	
 		-- Checking Prerequisites --
-		if WoWPro.prereq[k] then
-			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-			for j=1,numprereqs do
-				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-				if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
-					skip = true -- If one of the prereqs is NOT complete, step is skipped.
-					WoWPro:dbp("MissingPrereq(%d) of %s",k,jprereq)
-					WoWPro.why[k] = "NextStep(): Skipping step with uncomplete prerequisite."
-				end
-			end
-		end
+    	if WoWPro.prereq[k] then
+    	    if string.find(WoWPro.prereq[k],"+") then
+    	        -- Any prereq met is OK, skip only if none are met	
+        		local numprereqs = select("#", string.split("+", WoWPro.prereq[k]))
+        		local totalFailure = true
+        		for j=1,numprereqs do
+        			local jprereq = select(numprereqs-j+1, string.split("+", WoWPro.prereq[k]))
+        			if WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+        				totalFailure = false -- If one of the prereqs is complete, step is not skipped.
+        			end
+        		end
+        		if totalFailure then
+        		    skip = true
+        		    WoWPro.why[k] = "NextStep(): None of possible prereqs was met."
+        		end
+        	else
+     	        -- All prereq met must be met	
+        		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+        		for j=1,numprereqs do
+        			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+        			if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
+        				skip = true -- If one of the prereqs is NOT complete, step is skipped.
+        				WoWPro.why[k] = "NextStep(): Not all of the prereqs was met."
+        			end
+        		end
+       	    end
+    	end
 
     	-- Skipping quests with prerequisites if their prerequisite was skipped --
     	if WoWPro.prereq[k] 
@@ -464,18 +491,23 @@ function WoWPro:NextStep(k,i)
     		local achnum, achitem, achflip = string.split(";",WoWPro.ach[k])
     		achflip = WoWPro.toboolean(achflip) 
     		local count = GetAchievementNumCriteria(achnum)
+    		if achitem == "" then achitem = nil end
     		if count == 0 or not achitem then
     			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
     			if achflip then Completed = not Completed end
                 if Completed then
-				    WoWPro.CompleteStep(k)
+                    if not achflip then
+				        WoWPro.CompleteStep(k)
+				    end
 				    skip = true
 			    end 
     		elseif (count > 0) and achitem then
     			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
     			if achflip then completed = not completed end
 			    if completed then
-				    WoWPro.CompleteStep(k)
+			        if not achflip then
+				        WoWPro.CompleteStep(k)
+				    end
 				    skip = true
 			    end
 			else
@@ -522,6 +554,23 @@ function WoWPro:NextStep(k,i)
 		skip = WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k, skip)
 		
 
+        -- Do we have enough loot in bags?
+		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
+		    if GetItemCount(WoWPro.lootitem[k]) >= WoWPro.lootqty[k] then
+			    WoWPro.why[k] = "NextStep(): completed cause you have enough loot in bags."
+			    WoWPro.CompleteStep(k)
+			    skip = true
+			end
+		else		
+    		-- Special for Buy steps where the step name is the item to buy and no |L| specified
+    		if WoWPro.action[k] == "B" then
+    		    if GetItemCount(WoWPro.step[k]) > 0 then
+    			    WoWPro.why[k] = "NextStep(): completed cause you bought enough named loot."
+    			    WoWPro.CompleteStep(k)
+    			    skip = true
+    			end
+    		end		    
+        end
 		
 		-- Skipping any unstickies until it's time for them to display --
 		if WoWPro.unsticky[k] and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then 
@@ -766,10 +815,12 @@ function WoWPro:GrailQuestPrereq(qid)
         if( string.sub(tostring(p),1,1) == "B" ) then
             p = string.sub(p,2);
         end
-        if PREstr then
-            PREstr =  PREstr .. ";" .. tostring(p)
-        else
-            PREstr = tostring(p)
+        if tonumber(p) then
+            if PREstr then
+                PREstr =  PREstr .. ";" .. tostring(p)
+            else
+                PREstr = tostring(p)
+            end
         end
     end
     return PREstr

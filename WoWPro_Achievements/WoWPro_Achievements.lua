@@ -11,10 +11,6 @@ local bucket = LibStub("AceBucket-3.0")
 function WoWPro.Achievements:OnInitialize()
     -- Destroy legacy var
 	WoWProCharDB.AutoHideAchievementsInsideInstances = nil 
-	
-	-- Achievements Tag Setup --
-	WoWPro:RegisterTags({"QID", "questtext", "rep", "noncombat", "ach", "action"})
-
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --

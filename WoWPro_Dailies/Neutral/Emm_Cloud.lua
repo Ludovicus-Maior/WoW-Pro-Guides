@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
+-- Date: 2013-03-25 23:00
+-- Who: Ludovicus Maior
+-- Log: Removed the now gone leadin quests, fixed some names, and a few other tweaks.
+
+-- URL: http://wow-pro.com/node/3505/revisions/25533/view
 -- Date: 2013-02-18 06:20
 -- Who: Emmaleah
 -- Log: correct misspelled "serpent" x2.
@@ -38,18 +43,15 @@
 
 WoWPro.Dailies:RegisterGuide("EmmCloud", "The Jade Forest", "Order of the Cloud Serpent Dailies", "MoP", "Emmaleah", "Neutral", function()
 
+
 return [[
 
 N Work in progress!|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website.|
 N Hate Dailies?|N|If you want, you can skip the quests and just fly around picking up onyx eggs after you do the opening questline. They are located mostly on the top of the rocky cliffs. More on that in a few steps.|
-N Order of the Cloud Serpent|N|This guide begins in your Faction city in the Vale of Eternal Blossoms.  If you dont want to fly over there you can skip the leadin and start at the Arboretum in The Jade Forest.|
+N Order of the Cloud Serpent|N|This guide begins at the Arboretum in The Jade Forest.|
 
 ;intro questline
-A The Order of the Cloud Serpent|LEAD|30134|QID|31373|M|85.8,62.2|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Instructor Windspear (under the overhanging balcony).|
-A The Order of the Cloud Serpent|LEAD|30134|QID|31375|M|60.6,21.8|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Wei Lakebreeze (under the overhanging balcony).|
-R The Arboretum|LEAD|30134|QID|31373;31375|M|57.56,45.07|N|Take a flight path or your own mount (which is undoubtedly faster). You have to have trained Wisdom of the Four Winds (flying in pandaria -- which I'm sure you have, but thought I'd mention it just in case.)|
-T The Order of the Cloud Serpent|QID|31373|M|57.56,45.07|FACTOPM|Alliance|N|To Instructor Skythorn.|
-T The Order of the Cloud Serpent|QID|31375|M|57.56,45.07|FACTION|Horde|N|To Instructor Skythorn.|
+R The Arboretum|QID|30134|M|57.56,45.07|N|Take a flight path or your own mount (which is undoubtedly faster). You have to have trained Wisdom of the Four Winds (flying in pandaria -- which I'm sure you have, but thought I'd mention it just in case.)|
 
 A Wild Things|QID|30134|M|57.60,44.94|N|From Elder Anli.|
 T Wild Things|QID|30134|M|65.2,31.6|N|To Instructor Tong.|
@@ -96,13 +98,13 @@ C Flight Training: In Due Course|QID|30187|NC|M|58.69,46.66|QO|Checkpoints passe
 C Flight Training: In Due Course|QID|30187|NC|M|58.33,46.29|
 T Flight Training: In Due Course|QID|30187|M|58.6,43.6|N|To Instructor Windblade.|
 
-N Onyx to Goodness|QID|31784|N|if you don't want to do dailies skip the pickup quests steps and following that is a step with all the potential egg spawns marked.  TIP: find someone on a low pop realm to invite you there to search for eggs.|
+N Onyx To Goodness|QID|31784|N|if you don't want to do dailies skip the pickup quests steps and following that is a step with all the potential egg spawns marked.  TIP: find someone on a low pop realm to invite you there to search for eggs.|
 A Jenova Longeye's Quests|QID|30146;30147;30148;30149|M|57.31,45.34|N|Grab any and all quests from from Jenova Longeye (except perhaps Fragments of the Past, if your archy isn't high enough to dig in Pandaria...she offers it anyway). She has the quests which use your secondary professions. This step will close when you pick up the first quest.|
-A Elder Anli's Quests|QID|31699,31700,31713,31701,31702,31703,31705,31711,31717,31718,31719,31720,31721|M|57.60,44.94|N|Grab any and all quests from from Elder Anli. This step will close when you pick up the first quest.|
+A Elder Anli's Quests|QID|31699;31700;31713;31701;31702;31703;31705;31711;31717;31718;31719;31720;31721|M|57.60,44.94|N|Grab any and all quests from from Elder Anli. This step will close when you pick up the first quest.|
 A Two other quests somewhere|QID|30157;30152;30159;31709;31714;31055;30158;31698;31706;31707;31712;30151;30151;30154;31716;31704;31708;31710;30156|M|57.56,45.07|N|Grab any and all quests from the other NPCs. This step will close when you pick up the first quest. (There will be 3 on the days you get the sky race).|
 
 ;these could be sticky...but too many sticky steps clutter the window (and to quote Thomas the Tank, add 'confusion and delay'.
-C Dig - Fragments of the Past|QID|30147|M|44.93,73.36|NC|N|Find a digsite, dig. If you have a patient archeologist friend, you can do this even if your acheology isn't high enough, friend digs, and you kill the mobs in the imediate area can drop these too(particularly those that spawn upon picking up an artifact), you can abandon the quest or manually check this step off if you aren't going to do it.|
+C Dig - Fragments of the Past|QID|30147|P|Archaeology;794;525|M|44.93,73.36|NC|N|Find a digsite, dig. If you have a patient archeologist friend, you can do this even if your acheology isn't high enough, friend digs, and you kill the mobs in the imediate area can drop these too(particularly those that spawn upon picking up an artifact), you can abandon the quest or manually check this step off if you aren't going to do it.|
 C Fish - Snack Time|QID|30146|NC|N|Any fish caught will also catch a sugar minnow while on this quest.|
 C Cook - A feast for the Senses|NC|QID|30149|N|Cook 5 fish cakes - requires 10 golden carp (or get them from someone else).|
 C First Aid - Just a Flesh Wound|NC|QID|30148|L|72985 8|N|Make 8 windwool bandages, if you prefer to use heavy windwool check this step off manually.|
@@ -117,7 +119,7 @@ C Needle Me Not|QID|31705|M|57,41.4|T|Orchard Needler|U|89113|N|Use the honey to
 C Pooped|QID|31704|M|55,46|US|N|Drops from silkworms and as a sparkly groundspawn.|
 C Pooped|QID|31716|M|55,46|US|N|Drops from the giant silkworms and as a sparkly groundspawn.|
 C Sweet as Honey|QID|30150|M|55,46|US|N|Kill the honeykeepers to loot the honeycomb, easily AE'd. If the silkworms are causeing your problems, you can finish and go turn in the "Pooped" quest to make them nonagro.|
-C Trainer's Challenge|QID|31717,31718,31719,31721,31720|N|All the trainer challenges you have to beat a 60 sec timer.  If there are other people doing it, by all means help them. If you are grouped you all get credit, once you have beaten the challenge you can no longer help (except healing). Also the return from GY is a pain... so don't die, but if you do. go to 60,50 to find a path up the cliff.|
+C Trainer's Challenge|QID|31717;31718;31719;31721;31720|N|All the trainer challenges you have to beat a 60 sec timer.  If there are other people doing it, by all means help them. If you are grouped you all get credit, once you have beaten the challenge you can no longer help (except healing). Also the return from GY is a pain... so don't die, but if you do. go to 60,50 to find a path up the cliff.|
 C The Trainer's Challenge: Ace Longpaw|QID|31717|M|58,43.8|Talk to him to start the fight. Avoid the pools of fire, don't stop moving.|
 C The Trainer's Challenge: Big Bao|QID|31718|M|54.4,44|N|Talk to him to start the fight. This one is about stuns and interrupts. Use your CDs not an easy solo fight for a fresh 90.|
 C The Trainer's Challenge: Ningna Darkwheel|QID|31719|M|58.2,45|N|Talk to her to start the fight. Pop CD's DPS her down fast, avoid the red spheres, they hurt (a lot!)|
@@ -159,7 +161,7 @@ C Monkey Mischief|QID|31712|M|57,27|US|
 C Saving the Serpents|QID|31714|M|57,27|US|
 
 ;on windward isle
-C Onyx to Goodness|S|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|CN|N|You can click on this and choose map coordinates when ever you want to see the dots.  Close this step manually when you are done searching.|
+C Onyx To Goodness|S|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|CN|N|You can click on this and choose map coordinates when ever you want to see the dots.  Close this step manually when you are done searching.|
 ;tigers
 C The Easiest Way To A Serpent's Heart|QID|30154|M|61,44|S|N|The boss type tigers have a 100%drop if you are having a challenge getting enough meat.|
 C Thinning The Pack|QID|31698|M|61.44,22.30|S|
@@ -188,7 +190,7 @@ C Restoring the Balance|QID|30155|US|69,29|
 C Disarming the Enemy|QID|30158|M|69,29|NC|US|N|On weapon racks around where the slitherscales are.|
 C Preservation|QID|30159|M|67,29|NC|US|N|Pick up the eggs from the ground. They can also drop from the slitherscale mobs you run into.|
 
-C Onyx to Goodness|US|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|CN|N|Close this step manually when you are done searching.|
+C Onyx To Goodness|US|M|64.18, 23.92;63.39, 21.62;62.98, 21.95;62.37, 32.84;62.17, 31.75;62.19, 31.21;67.02, 32.68;62.46, 28.77;62.21, 29.29;62.00, 29.54;63.73, 21.90;62.30, 28.12;62.71, 29.78;66.43, 29.55;65.08, 26.20;66.64, 28.69;67.12, 24.94;65.18, 24.77;67.05, 33.81;66.61, 31.58;66.54, 32.20;63.09, 29.31;69.65, 31.64;70.53, 28.99;61.89, 30.20;66.18, 33.43;62.40, 32.36;65.63, 25.07;65.18, 24.77;65.24, 23.91;70.33, 28.63;67.06, 30.25|CN|N|Close this step manually when you are done searching.|
 
 ;turn ins
 T A Tangled Web|QID|31707|M|57.73,44.74|N|To Elder Anli.|
@@ -202,7 +204,7 @@ T Madcap Mayhem|QID|31703|M|57.73,44.74|N|To Elder Anli.|
 T Monkey Mischief|QID|31712|M|57.73,44.74|N|To Elder Anli.|
 T Needle Me Not|QID|31705|M|57.73,44.74|N|To Elder Anli.|
 T On The Prowl|QID|31702|M|57.73,44.74|N|To Elder Anli.|
-A Onyx to Goodness|QID|31784|M|57.73,44.74|N|To Elder Anli.|
+T Onyx To Goodness|QID|31784|M|57.73,44.74|N|To Elder Anli.|
 T Preservation|QID|30159|M|57.73,44.74|N|To Elder Anli.|
 T Restoring the Balance|QID|30155|M|57.73,44.74|N|To Elder Anli.|
 T Saving the Serpents|QID|31714|M|57.73,44.74|N|To Elder Anli.|
@@ -224,7 +226,7 @@ T Weeping Widows|QID|31706|M|57.73,44.74|N|To Elder Anli.|
 T Snack Time|QID|30146|M|57.30,45.28|N|To Jenova Longeye.|
 T Just a Flesh Wound|QID|30148|M|57.30,45.28|N|To Jenova Longeye.|
 T A Feast for the Senses|QID|30149|M|57.30,45.28|N|To Jenova Longeye.|
-T Fragments of the Past|QID|30147|M|57.31,45.34|N|To Jenova Longeye.|
+T Fragments of the Past|QID|30147|P|Archaeology;794;525|M|57.31,45.34|N|To Jenova Longeye.|
 
 T Pooped|QID|31704|M|57.4,45.2|N|To Your Hatchling.|
 T Pooped|QID|31716|M|57.4,45.2|N|To Your Hatchling.|

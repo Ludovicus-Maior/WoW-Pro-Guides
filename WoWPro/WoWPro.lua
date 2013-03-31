@@ -231,7 +231,9 @@ local defaults = { profile = {
 -- Core Tag Setup --
 WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", 
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
-	"level", "target", "prof", "waypcomplete", "rank","why"  
+	"level", "QID","target", "prof", "rank", "rep","waypcomplete", "why",
+	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
+	 "buff"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -254,6 +256,10 @@ function WoWPro:OnInitialize()
 	WoWProDB.global.Deltas = {}
 	WoWProDB.global.Log = {}
 	WoWProCharDB.DebugMode = WoWProCharDB.DebugMode or WoWPro.DebugMode
+	if WoWProCharDB.AutoHideInsideInstances == nil then
+	    WoWProCharDB.AutoHideInsideInstances = true
+	end
+	WoWPro.DebugMode = WoWProCharDB.DebugMode
 
 end
 

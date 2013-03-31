@@ -523,7 +523,8 @@ function WoWPro:CreateGuideWindowScrollbar()
 		if not WoWProDB.profile.guidescroll then return end
 		if offset ~= oldOffset then
 			oldOffset = offset
-			WoWPro:UpdateGuide(offset)
+			WoWPro.GuideOffset = offset
+			WoWPro:UpdateGuide("ScrollBar")
 		end
 		return f(self, value, ...)
 	end)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2013-03-20 00:36
+-- Who: Ludovicus Maior
+-- Log: Corrected quest names from  Blanckaert's report.
+
+-- URL: http://wow-pro.com/node/3504/revisions/25300/view
 -- Date: 2013-01-09 17:16
 -- Who: Ludovicus Maior
 -- Log: Added CN tag
@@ -64,9 +69,8 @@
 
 WoWPro.Dailies:RegisterGuide("WayKlaxxi", "Dread Wastes", "Klaxxi", "MoP", "Way2hairy", "Neutral", function()
 
+
 return [[
-
-
 
 N Work in progress!|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website.|
 
@@ -74,27 +78,23 @@ N Klaxxi|N|You need to have opened the Dread Wastes Questline as described in th
 
 N Paragons|N|The amount of questgivers available is dependant on how many Paragons you have unlocked, most of which are unlocked simply by questing in Dread Wastes.  This guide will show you how to unlock the last 3 as they become available via Klaxxi reputation.|
 
-
-
 ; One-Time Quest at Honored
 
-A Skeer The Bloodseeker|QID|31175|REP|The Klaxxi;1337;honored|N|This is a one time quest available at honored. Accept this quest from Kil'ruk the Wind-Reaver.|M|55.00,35.80|
+A Skeer the Bloodseeker|QID|31175|REP|The Klaxxi;1337;honored|N|This is a one time quest available at honored. Accept this quest from Kil'ruk the Wind-Reaver.|M|55.00,35.80|
 
 R Underwater cave entrance|QID|31175|M|26.00,54.00|Z|Dread Wastes|CC|
 
-C Skeer The Bloodseeker|QID|31175|M|25.60,50.40|N|Awaken Skeer|
+C Skeer the Bloodseeker|QID|31175|M|25.60,50.40|N|Awaken Skeer|
 
 ;R Exit the cave|QID|31175|M|26.00,54.00|Z|Dread Wastes|CC|
 
-T Skeer The Bloodseeker|QID|31175|M|54.40,36.20|N|To Skeer The Bloodseeker|
-
-
+T Skeer the Bloodseeker|QID|31175|M|54.40,36.20|N|To Skeer the Bloodseeker|
 
 ; One-Time Quests at Revered
 
 A Dropping Our Signal|QID|31439|REP|The Klaxxi;1337;revered|N|This and the next quest are one-time quests available at revered. Accept this quest from Kor'ik.|M|54.80,34.00|
 
-A Beneath The Heart Of Fear|QID|31018|REP|The Klaxxi;1337;revered|N|From Kil'ruk the Wind-Reaver.|M|55.00,35.80|
+A Beneath the Heart of Fear|QID|31018|REP|The Klaxxi;1337;revered|N|From Kil'ruk the Wind-Reaver.|M|55.00,35.80|
 
 C Dropping Our Signal|QID|31439|U|89123|M|56.00,58.20|N|Awaken Hisek the Swarmkeeper|
 
@@ -106,7 +106,7 @@ C Corruption Runs Deep|QID|31441|N|Wait for the traitor and defeat him|M|56.20,5
 
 T Corruption Runs Deep|QID|31441|N|To Hisek the Swarmkeeper|M|56.20,58.20|
 
-R Beneath The Heart Of Fear|QID|31018|M|29.00,42.40|N|Entrance|Z|Dread Wastes|CC|
+R Beneath the Heart of Fear|QID|31018|M|29.00,42.40|N|Entrance|Z|Dread Wastes|CC|
 
 C Adjunct Tzikzi slain|QID|31018|QO|Adjunct Tzikzi slain: 1/1|M|30.80,44.20|
 
@@ -116,9 +116,9 @@ C Adjunct Ikkess slain|QID|31018|QO|Adjunct Ikkess slain: 1/1|M|33.20,40.40|
 
 C Adjunct Ek'vem slain|QID|31018|QO|Adjunct Ek'vem slain: 1/1|M|30.80,40.40|
 
-C Beneath The Heart Of Fear|QID|31018|N|Awaken Xaril the Poisoned Mind. Click the cog floating above the rock.|M|32.00,42.30|
+C Beneath the Heart of Fear|QID|31018|N|Awaken Xaril the Poisoned Mind. Click the cog floating above the rock.|M|32.00,42.30|
 
-T Beneath The Heart Of Fear|QID|31018|M|54.80,36.00|N|To Xaril the Poisoned Mind|
+T Beneath the Heart of Fear|QID|31018|M|54.80,36.00|N|To Xaril the Poisoned Mind|
 
 ; One-Time Quests at Exalted - also requires Ach Amber is the color of my energy (7312) and Dread Haste Makes Dread Waste (6540) which if you followed this guide and the Dread Wastes guide... you will have.
 
@@ -154,8 +154,6 @@ A Hisek the Swarmkeeper or Xaril the Poisoned Mind's Quests|M|54.80,36.00|REP|Th
 
 A Kil'ruk the Wind-Reaver's Quests|M|55.10,35.90|N|Grab any and all quests from Kil'ruk the Wind-Reaver. This step will close when you pick up the first quest.|QID|31109;31231;31111;31267;31235;31505|PRE|31004|
 
-
-
 ; Bombing runs
 
 C Dark Skies|QID|31216|M|54.80,36.00|N|Speak to Xaril the Poisoned Mind to start the bombing run.|
@@ -164,11 +162,9 @@ C Locate Kovok|QID|31808|QO|Locate Kovok near the Clutches of Shek'zeer: 1/1|M|5
 
 C Rampage Against the Machine|QID|31808|M|51.00,43.00|N|Kill Mantids all over the area.|
 
-
-
 ; Lake of Stars
 
-R Kypari Zar|QID|31272;31268;31271;31269;31267;31024;31270|Z|Kypari Zar|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Kypari Zar.  Press 1 and choose your landing spot.|CC|
+R Kypari Zar|QID|31272;31268;31271;31269;31267;31024;31270|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Kypari Zar.  Press 1 and choose your landing spot.|CC|
 
 C Infection|QID|31272|N|Kill 6 infected wildlife which may include Bonedust Moths, Bluehide Mushan, and Mutating Scorpid.|S|
 
@@ -178,7 +174,7 @@ C Bad Genes|QID|31271|M|59.00,71.00|N|Kill 3 Ik'thik Genemancers and 6 Ik'thik E
 
 C A Little Brain Work|QID|31268|U|85884|N|Collect 3 Amber-Encrusted Brains from Ik'thik Amberstingers.|US|M|61.00,71.00|
 
-R The Scale-Lord|QID|31269|Z|Mistblade Den|N|Cave Entrance|CC|M|66.73,63.61|
+R Mistblade Den|QID|31269|N|Cave Entrance|CC|M|66.73,63.61|
 
 C The Scale-Lord|QID|31269|M|66.40,65.80|N|Kill the Mistblade Scale-Lord.|
 
@@ -192,11 +188,9 @@ C The Fight Against Fear|QID|31270|M|59.40,53.00|N|Kill Horrorscale Scorpids.|
 
 C Kunchong Treats|QID|31024|N|Drop from Chillwater Turtles.|US|M|57.20,54.00|
 
-
-
 ; Terrace of Gurthan
 
-R Terrace of Gurthan|QID|31233;31232;31231;31237;31235;31234|M|55.10,35.90|Z|Terrace of Gurthan|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to The Terrace of Gurthan.  Press 1 and choose your landing spot.|CC|
+R Terrace of Gurthan|QID|31233;31232;31231;31237;31235;31234|M|55.10,35.90|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to The Terrace of Gurthan.  Press 1 and choose your landing spot.|CC|
 
 C Sap Tapping|QID|31233|N|Collect 6 Amber Sap. They are on trees in the area.|S|
 
@@ -225,8 +219,6 @@ C An Ancient Empire|QID|31232|N|Collect 8 Gurthani Tablets off the ground.|US|M|
 C Sap Tapping|QID|31233|US|M|69.40,32.40|N|Collect 6 Amber Sap. They are on trees in the area.|
 
 C Brain Food|QID|31238|M|60.00,23.00|N|They drop off Greatback Mushan.|
-
-
 
 ; Clutches of Shek'zeer
 
@@ -264,11 +256,9 @@ C Sap Jar filled at Northeast feeder|QID|31496|U|87400|QO|Northeast Sap Jar fill
 
 C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|
 
-
-
 ; Briny Muck
 
-R Zan'Vess|QID|31111;31508;31509;31506;31505;31507;31510|Z|The Briny Muck|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Zan'Vess.  Press 1 and choose your landing spot.|CC|
+R The Briny Muck|QID|31111;31508;31509;31506;31505;31507;31510|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Zan'Vess.  Press 1 and choose your landing spot.|CC|
 
 K Kypa'rak|QID|31111;31508;31509;31506;31505;31507;31510|M|34.20,59.80|T|Kypa'rak|L|87871 |N|Loot the Massive Kyparite Core.|
 
@@ -298,8 +288,6 @@ C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik M
 
 C Fear Takes Root|QID|31509|N|Destroy 15 Dreadspore Bulbs in Zan'vess and The Briny Muck. You can do this while mounted.|US|M|35.00,67.60|
 
-
-
 ; Turn in Quests
 
 T Kypa'rak's Core|QID|31598|M|55.00,35.40|N|To Ambersmith Zikk.|
@@ -307,8 +295,6 @@ T Kypa'rak's Core|QID|31598|M|55.00,35.40|N|To Ambersmith Zikk.|
 T The Matriarch's Maw|QID|31599|M|55.00,35.40|N|To Ambersmith Zikk.|
 
 T Seeds of Fear|M|55.00,35.40|O|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20
-
-
 
 T Culling the Swarm|QID|31109|M|55.10,35.90|N|To Kil'ruk the Wind-Reaver.|
 
@@ -324,8 +310,6 @@ T Vess-Guard Duty|QID|31505|M|55.10,35.90|N|To Kil'ruk the Wind-Reaver.|
 
 T The Warlord's Ashes|QID|31677|M|55.10,35.90|N|To Kil'ruk the Wind-Reaver.|
 
-
-
 T Debugging the Terrace|QID|31237|M|54.80,36.00|N|To Hisek the Swarmkeeper.|
 
 T Infection|QID|31272|M|54.80,36.00|N|To Hisek the Swarmkeeper.|
@@ -334,11 +318,7 @@ T Ordnance Disposal|QID|31504|M|54.80,36.00|N|To Hisek the Swarmkeeper.|
 
 T Quiet Now|QID|31510|M|54.80,36.00|N|To Hisek the Swarmkeeper.|
 
-
-
 T Dark Skies|QID|31216|M|54.80,36.00|N|To Xaril the Poisoned Mind.|
-
-
 
 T A Little Brain Work|QID|31268|M|54.30,35.70|N|To Kaz'tik the Manipulator.|
 
@@ -354,8 +334,6 @@ T Shackles of Manipulation|QID|31506|M|54.30,35.70|N|To Kaz'tik the Manipulator.
 
 T Sonic Disruption|QID|31487|M|54.30,35.70|N|To Kaz'tik the Manipulator.|
 
-
-
 T Bad Genes|QID|31271|M|54.40,35.80|N|To Rik'kal the Dissector.|
 
 T Fear Takes Root|QID|31509|M|54.40,35.80|N|To Rik'kal the Dissector.|
@@ -367,8 +345,6 @@ T Shortcut to Ruin|QID|31503|M|54.40,35.80|N|To Rik'kal the Dissector.|
 T Specimen Request|QID|31508|M|54.40,35.80|N|To Rik'kal the Dissector.|
 
 T Wing Clip|QID|31502|M|54.40,35.80|N|To Rik'kal the Dissector.|
-
-
 
 T An Ancient Empire|QID|31232|M|54.30,36.10|N|To Korven the Prime.|
 
@@ -382,13 +358,7 @@ T The Fight Against Fear|QID|31270|M|54.30,36.10|N|To Korven the Prime.|
 
 T The Scale-Lord|QID|31269|M|54.30,36.10|N|To Korven the Prime.|
 
-
-
-
-
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
-
-
 
 ]]
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2013-03-23 20:11
+-- Who: Ludovicus Maior
+-- Log: Many quest name updates
+
+-- URL: http://wow-pro.com/node/3197/revisions/25517/view
 -- Date: 2013-02-06 20:10
 -- Who: Ludovicus Maior
 -- Log: Correct quest names for autocomplete to work right!
@@ -330,10 +335,10 @@ C Blackrock Invasion|N|Kill and loot Orcs until you have 8 Blackrock Weapons.|QI
 C Extinguishing Hope|N|Extinguish the fires.|US|U|58362|QID|26391|M|54.02,48.52|NC|
 T Extinguishing Hope|QID|26391|M|48.15,42.52|N|To Milly Osworth.|
 T Blackrock Invasion|QID|26389|M|48.20,42.06|N|To Marshal McBride.|
-A Ending the Invasion|QID|26390|M|48.20,42.06|N|From Marshal McBride.|
-C Ending the Invasion|N|Kill Kurtok The Slayer (go around the abbey to get to him).|QID|26390|M|56.90,40.81|
+A Ending the Invasion!|QID|26390|M|48.20,42.06|N|From Marshal McBride.|
+C Ending the Invasion!|N|Kill Kurtok The Slayer (go around the abbey to get to him).|QID|26390|M|56.90,40.81|
 H Northshire Valley|QID|26390|U|6948|N|Hearth or run back.|M|48.20,42.06|
-T Ending the Invasion|QID|26390|M|48.20,42.06|N|To Marshal McBride.|
+T Ending the Invasion!|QID|26390|M|48.20,42.06|N|To Marshal McBride.|
 A Report to Goldshire|QID|54|M|48.20,42.06|N|From Marshal McBride.|
 
 A Rest and Relaxation|QID|2158|M|45.56,47.73|N|From Falkhaan Isenstrider.|
@@ -350,15 +355,15 @@ R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust
 A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
 R The Maclure Vineyards|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|85|M|40.47,86.61|
 T Lost Necklace|QID|85|M|43.13,85.72|N|To Billy Maclure.|
-A Pie for Billie|QID|86|M|43.13,85.72|N|From Billy Maclure.|
-C Pie for Billie|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|QID|86|M|41.74,87.48|S|
+A Pie for Billy|QID|86|M|43.13,85.72|N|From Billy Maclure.|
+C Pie for Billy|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|QID|86|M|41.74,87.48|S|
 A Young Lovers|QID|106|M|43.15,89.63|N|From Maybell Maclure.|
-C Pie for Billie|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|QID|86|M|41.74,87.48|US|
+C Pie for Billy|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|QID|86|M|41.74,87.48|US|
 R The Stonefield Farm|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|86|M|29.84,86.00|
 T Young Lovers|QID|106|M|29.84,86.00|N|To Tommy Joe Stonefield.|
 A Speak with Gramma|QID|111|M|29.84,86.00|N|From Tommy Joe Stonefield.|
-T Pie for Billie|QID|86|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
-A Back to Billie|QID|84|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
+T Pie for Billy|QID|86|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
+A Back to Billy|QID|84|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
 T Speak with Gramma|QID|111|M|34.94,83.86|N|To Gramma Stonefield, inside the hut.|
 A Note to William|QID|107|M|34.94,83.86|N|From Gramma Stonefield.|
 R The Maclure Vineyards|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|QID|84|M|40.47,86.61|
@@ -415,38 +420,38 @@ A Fine Linen Goods|QID|83|M|79.46,68.71|N|From Sara Timberlain.|
 C Wanted: James Clark|N|Kill James clark and pickup his head and the Gold Pickup Schedule.|T|James Clark|QID|26152|M|78.66,67.16|
 A The Collector|N|Get this from the Gold Pickup Schedule in your bags.|U|1307|QID|123|
 
-A A Bundle Of Trouble|QID|5545|M|81.38,66.11|N|From Supervisor Raelen.|
+A A Bundle of Trouble|QID|5545|M|81.38,66.11|N|From Supervisor Raelen.|
 T Wanted: James Clark|QID|26152|M|81.86,66.04|N|To Marshal McCree.|
 A Manhunt|QID|147|M|81.86,66.04|N|From Marshal McCree.|
 T The Collector|QID|123|M|81.86,66.04|N|To Marshal McCree.|
 r Sell Junk and Repair.|QID|45|N|From Rallic Finn.\n\nClick this step to continue.|M|83.27,66.08|
 
 C Bounty on Murlocs|N|Kill and loot Murlocs for their fins Fins.|QID|46|M|79.51,56.00|S|
-C A Bundle Of Trouble|N|Collect 8 Bundles Of Wood.|QID|5545|M|80.75,61.33|NC|S|
+C A Bundle of Trouble|N|Collect 8 Bundles Of Wood.|QID|5545|M|80.75,61.33|NC|S|
 T Discover Rolf's Fate|QID|45|M|79.80,55.50|N|To Rolf's corpse.|
-A Report To Thomas|QID|71|M|79.80,55.50|N|From Rolf's corpse.|
+A Report to Thomas|QID|71|M|79.80,55.50|N|From Rolf's corpse.|
 C Bounty on Murlocs|N|Kill Murlocs until you have 8 Murloc Fins.|QID|46|M|79.51,56.00|US|
 C Bounty on Murlocs|N|Kill and loot Murlocs for their fins Fins.|QID|46|M|79.51,56.00|US|
 
 ;f Eastvale Logging Camp|QID|147|M|81.83,66.56|N|At Goss the Swift.|
 
-C A Bundle Of Trouble|N|Collect 8 Bundles Of Wood.|QID|5545|M|80.75,61.33|NC|US|
+C A Bundle of Trouble|N|Collect 8 Bundles Of Wood.|QID|5545|M|80.75,61.33|NC|US|
 r Sell Junk and Repair.|QID|5545|N|From Rallic Finn.\n\nClick this step to continue.|M|83.27,66.08|
-T A Bundle Of Trouble|QID|5545|M|81.38,66.11|N|To Supervisor Raelen.|
+T A Bundle of Trouble|QID|5545|M|81.38,66.11|N|To Supervisor Raelen.|
 R Ridgepoint Tower|N|If you want the explorer's achievement go to Ridgepoint Tower now.|QID|71|M|83.99,78.92|
 C Protect the Frontier|N|Kill the remaining wolves and Bears you need to finish the quest.|QID|52|M|87.55,67.79|US|
 
-T Protect The Frontier|QID|52|M|73.97,72.18|N|To Guard Thomas.|
+T Protect the Frontier|QID|52|M|73.97,72.18|N|To Guard Thomas.|
 T Bounty on Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|
-T Report To Thomas|QID|71|M|73.97,72.18|N|To Guard Thomas.|
-A Cloth And Leather Armor|QID|59|M|73.97,72.18|N|From Guard Thomas.|
+T Report to Thomas|QID|71|M|73.97,72.18|N|To Guard Thomas.|
+A Cloth and Leather Armor|QID|59|M|73.97,72.18|N|From Guard Thomas.|
 
 C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps.|QID|83|M|71.20,78.86|S|
 C Manhunt|N|Kill Morgan the collector and  pick up his ring.|T|Morgan The Collector|QID|147|M|71.05,80.63|
 C Fine Linen Goods|N|Kill Bandits until you have 6 Linen Scraps.|QID|83|M|71.20,78.86|US|
 
 T Fine Linen Goods|QID|83|M|79.46,68.71|N|To Sara Timberlain.|
-T Cloth And Leather Armor|QID|59|M|79.46,68.71|N|To Sara Timberlain.|
+T Cloth and Leather Armor|QID|59|M|79.46,68.71|N|To Sara Timberlain.|
 
 T Manhunt|QID|147|M|81.86,66.04|N|To Marshal McCree.|
 F Goldshire|QID|114|M|81.86,66.04|N|Fly to Goldshire.|
@@ -457,7 +462,7 @@ T The Escape|QID|114|M|43.15,89.63|N|To Maybell Maclure.|
 
 H Lion's Pride Inn|QID|114|U|6948|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|M|43.77,65.80|
 
-A Elmore's task|QID|1097|M|41.71,65.55|N|From Smith Argus.|
+A Elmore's Task|QID|1097|M|41.71,65.55|N|From Smith Argus.|
 A A Swift Message|QID|26393|M|41.71,65.55|R|Human|N|From Smith Argus.|
 T A Swift Message|QID|26393|M|41.72,64.64|R|Human|N|To Bartlett the Brave.|
 A Continue To Stormwind|QID|26394|M|41.72,64.64|R|Human|N|From Bartlett the Brave.|
@@ -473,14 +478,14 @@ A Westbrook Garrison Needs Help!|QID|239|M|42.10,65.93|N|From Marshal Dughan.|
 
 T Westbrook Garrison Needs Help!|QID|239|M|24.23,74.45|N|To Deputy Rainer.|
 A Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|From Deputy Rainer.|
-A Wanted: Hogger|QID|176|M|24.54,74.67|N|From the Wanted Poster.|
+A Wanted:  "Hogger"|QID|176|M|24.54,74.67|N|From the Wanted Poster.|
 C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|S|
-C Wanted: Hogger|N|Get Hogger down in health quickly, help will arrive and take him.|M|25.1,94.6|QID|176|
+C Wanted:  "Hogger"|N|Get Hogger down in health quickly, help will arrive and take him.|M|25.1,94.6|QID|176|
 A Furlbrow's Deed|N|If you're going to Westfall next, then grab this quest.  It's a folded paper next to a dead man.|QID|184|M|24.78,95.26|
 C Riverpaw Gnoll Bounty|N|Kill Gnolls and loot their Painted Gnoll Armbands.|QID|11|M|25.94,89.52|US|
 T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|N|To Deputy Rainer.|
-T Wanted: Hogger|QID|176|M|42.2,65.9|N|To Marshal Dughan.|
-A Hero's Call: Westfall|QID|26378|M|42.2,65.9|N|If you're going to Westfall next, then grab this quest.  From Marshal Dughan.|
+T Wanted:  "Hogger"|QID|176|M|42.2,65.9|N|To Marshal Dughan.|
+A Hero's Call: Westfall!|QID|26378|M|42.2,65.9|N|If you're going to Westfall next, then grab this quest.  From Marshal Dughan.|
 
 ]]
 

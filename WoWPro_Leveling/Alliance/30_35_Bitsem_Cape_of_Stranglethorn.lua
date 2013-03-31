@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2013-03-23 20:37
+-- Who: Ludovicus Maior
+-- Log: quest name corrections.
+
+-- URL: http://wow-pro.com/node/3237/revisions/25438/view
 -- Date: 2013-01-13 15:43
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -83,8 +88,8 @@ A To the Cape! |QID|26805|M|53.37,66.32|N|From Wilfred Harrys in Fort Livingston
 F Explorers' League Digsite |QID|26805|N|Speak to Robert Rhodes in Fort Livingston, and tell him you have had a prepaid ticket to the Explorers' League Digsite.|M|52.64,66.10|Z|Northern Stranglethorn|
 f Explorers' League Digsite|QID|26805|M|55.74,41.22|N|At Colin Swifthammer.|
 
-T To the Cape|QID|26805|M|55.25,42.48|N|To Bronwyn Hewstrike.|S|
-T Hero's Call: Cape of Stranglethorn!|QID|28702|O|M|55.25,42.48|N|To Bronwyn Hewstrike.|
+T To the Cape!|QID|26805|M|55.25,42.48|N|To Bronwyn Hewstrike.|S|
+T Hero's Call: The Cape of Stranglethorn!|QID|28702|O|M|55.25,42.48|N|To Bronwyn Hewstrike.|
 T To the Cape|QID|26805|M|55.25,42.48|N|To Bronwyn Hewstrike.|US|
 
 ;The next quest has two IDs, 26825 and 26826, 26825 if the player found the ogre artifact, and 26826 if they player did not.

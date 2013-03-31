@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2013-03-23 19:14
+-- Who: Ludovicus Maior
+-- Log: quest name tweaks
+
+-- URL: http://wow-pro.com/node/3290/revisions/25483/view
 -- Date: 2013-01-13 19:54
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -92,7 +97,7 @@ T Cutting Off the Source |QID|11602|M|43.2,55.0|N|To Overlord Razgor.|
 A Wind Master To'bor |QID|11634|M|43.2,55.0|N|From Overlord Razgor.|
 T Nerub'ar Secrets |QID|11615|M|43.2,55.0|N|To Shadowstalker Barthus.|
 A Message to Hellscream |QID|11616|M|43.2,55.0|N|From Shadowstalker Barthus.|
-T What the Cold Wind Brings |QID|11632|O|N|To Overlord Saurfang.|
+T What the Cold Wind Brings... |QID|11632|O|N|To Overlord Saurfang.|
 T Message to Hellscream |QID|11616|M|41.3,53.6|N|To Garrosh Hellscream.|
 A Reinforcements Incoming... |QID|11618|M|41.3,53.6|N|From Garrosh Hellscream.|
 A Ride to Taunka'le Village |QID|11888|M|41.7,54.7|N|From Ambassador Talonga.|
@@ -221,7 +226,7 @@ T Ride to Taunka'le Village |QID|11888|M|77.3,38.5|N|To Sage Earth and Sky.|
 A What Are They Up To? |QID|11890|M|77.3,38.5|N|From Sage Earth and Sky.|
 A Scouting the Sinkholes |QID|11684|M|77.1,37.8|N|From Greatfather Mahan.|
 T Hellscream's Champion |QID|11916|M|75.9,37.2|N|To Chieftain Wintergale.|
-A Lead 'er Up! |QID|11881|M|77.5,37.0|N|From Fezzix Geartwist.|
+A Load'er Up! |QID|11881|M|77.5,37.0|N|From Fezzix Geartwist.|
 A Sage Highmesa is Missing |QID|11674|M|77.3,36.9|N|From Greatmother Taiga.|
 N Mark Location of South Sinkhole|QID|11684|U|34920|QO|Mark Location of South Sinkhole: 1/1|N|Go to the first sinkhole.|M|70.36,36.67|
 N Mark Location of Northeast Sinkhole|QID|11684|U|34920|QO|Mark Location of Northeast Sinkhole: 1/1|N|Now the second one.|M|69.66,32.54|
@@ -229,8 +234,8 @@ C Scouting the Sinkholes |QID|11684|U|34920|N|Now mark the final sinkhole.|M|66.
 A Emergency Supplies |QID|11887|N|Head SW and look for a dead gnome.|M|64,36|
 C Emergency Supplies |QID|11887|N|You're looking for gnome bodies identical to the one we just got the quest from. They're all over the southern half of the Scaling Pools. You don't need to dismount.|M|62.9,35.8|
 C What Are They Up To? |QID|11890|N|Head to the Fizzcrank Pumping Station to inspect it.|M|64,23|
-C Load 'er Up! |QID|11881|U|35272|N|Head back to the gnome body. There should be a plane nearby. Go next to it and use the whistle. Then make your way back to Taunka'le Village, try not to aggro anything.|M|64,36;77.5,37.0|CC|
-T Load 'er Up! |QID|11881|M|77.5,37.0|N|To Fezzix Geartwist.|
+C Load'er Up! |QID|11881|U|35272|N|Head back to the gnome body. There should be a plane nearby. Go next to it and use the whistle. Then make your way back to Taunka'le Village, try not to aggro anything.|M|64,36;77.5,37.0|CC|
+T Load'er Up! |QID|11881|M|77.5,37.0|N|To Fezzix Geartwist.|
 T Emergency Supplies |QID|11887|M|77.5,37.0|N|To Fezzix Geartwist.|
 
 A The Power of the Elements |QID|11893|M|77.6,36.9|N|From Dorain Frosthoof.|
@@ -301,10 +306,10 @@ C Fallen Necropolis |QID|11683|N|Kill any undead you still need.|US|M|68.2,17.0|
 T Fallen Necropolis |QID|11683|N|To Sage Highmesa.|M|75,23|
 T The Doctor and the Lich-Lord |QID|11687|M|74.7,23.7|N|To Sage Highmesa.|
 A Return with the Bad News |QID|11689|M|74.7,23.7|N|From Sage Highmesa.|
-T The Collaspe |QID|11706|M|75.6,35.8|N|To Wind Tamer Barah.|
+T The Collapse |QID|11706|M|75.6,35.8|N|To Wind Tamer Barah.|
 T Shrouds of the Scourge |QID|11628|M|75.9,37.2|N|To Chieftain Wintergale.|
 A The Bad Earth |QID|11630|M|75.9,37.2|N|From Chieftain Wintergale.|
-T The Sub-Chieftans |QID|11907|M|77.3,38.5|N|To Sage Earth and Sky.|
+T The Sub-Chieftains |QID|11907|M|77.3,38.5|N|To Sage Earth and Sky.|
 T Return with the Bad News |QID|11689|M|77.3,36.9|N|To Greatmother Taiga.|
 T Defeat the Gearmaster |QID|11909|M|77.3,36.9|N|To Greatmother Taiga.|
 C The Bad Earth |QID|11630|N|Ride NE, the earth can be found in the area west and south of the Temple City of En'kilah (that's north, NE, and east of Taunka'le Village). You're looking for little patches of soil on the ground.|M|76.1,28.0|

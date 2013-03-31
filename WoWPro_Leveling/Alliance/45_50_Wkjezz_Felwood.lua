@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2013-03-23 20:00
+-- Who: Ludovicus Maior
+-- Log: quest name tweak
+
+-- URL: http://wow-pro.com/node/3257/revisions/24460/view
 -- Date: 2011-05-30 17:58
 -- Who: Ludovicus Maior
 -- Log: ! Line 39 for step R has 1 M coords: [R Emerald Sanctuary|QID|28100|M|51.41.79.79|N|Run to Emerald Sanctuary.|]
@@ -159,7 +164,7 @@ T Cleanup at Bloodvenom Post|QID|28214|M|41.27,49.98|N|To Altsoba Ragetotem.|
 T Hazzard Disposal|QID|28213|M|41.28,49.89|N|To Kelnir Leafsong.|
 A Whisperwind Grove|QID|28306|M|41.28,49.89|N|From Kelnir Leafsong.|
 T Whisperwind Grove|QID|28306|M|43.29,30.43|N|Follow the path north to Tender Puregrove.|
-A Running their Course|QID|28360|M|43.29,30.43|N|From Tender Puregrove.|
+A Running Their Course|QID|28360|M|43.29,30.43|N|From Tender Puregrove.|
 A Squirrely Clean|QID|28361|M|43.31,30.36|N|From Tender Puregrove.|
 f Whisperwind Grove|QID|28361|M|43.61,28.74|N|At Hanah Southsong.|
 r Repair/Restock|M|43.13,28.59|N|At Ciana.|QID|28358|
@@ -169,9 +174,9 @@ A Collecting Corruption|QID|28341|M|43.93,27.88|N|From Elessa Starbreeze.|
 A Fel To Pieces|QID|28342|M|43.94,27.88|N|From Elessa Starbreeze.|
 
 h Whisperwind Grove|QID|28342|M|44.75,29.17|N|At Innkeeper Wylaria.|
-C Running their Course|QID|28360|S|M|44.04,34.65|N|Kill Felrot Coursers.|
+C Running Their Course|QID|28360|S|M|44.04,34.65|N|Kill Felrot Coursers.|
 C Squirrely Clean|QID|28361|M|45.54,34.17|N|Right click on them as you see them, they are friendly.|
-C Running their Course|QID|28360|US|M|44.04,34.65|N|Kill Felrot Coursers.|
+C Running Their Course|QID|28360|US|M|44.04,34.65|N|Kill Felrot Coursers.|
 C Fel To Pieces|QID|28342|S|M|44.35,41.77|N|Collect rubble off of the ground, can be looted off of the Infernals as well.|
 C Collecting Corruption|QID|28341|S|M|44.32,43.12|N|Kill Entropic Horrors and loot their Essence.|
 C Hunting the Damned|QID|28358|S|M|43.78,43.11|N|Kill infernals as you go.|
@@ -181,7 +186,7 @@ C Hunting the Damned|QID|28358|US|M|43.78,43.11|N|Finish this up.|
 C Collecting Corruption|QID|28341|M|44.32,43.12|N|Finish this up.|
 
 H Whisperwind Grove|QID|28360|N|Hearth. If you didn't set your hearth here (like I suggested), run back.|
-T Running their Course|QID|28360|M|43.33,30.34|N|To Tender Puregrove.|
+T Running Their Course|QID|28360|M|43.33,30.34|N|To Tender Puregrove.|
 T Squirrely Clean|QID|28361|M|43.33,30.34|N|To Tender Puregrove.|
 A Weeding the Lawn|QID|28374|M|43.33,30.34|N|From Tender Puregrove.|
 T Collecting Corruption|QID|28341|M|43.96,27.91|N|To Elessa Starbreeze.|

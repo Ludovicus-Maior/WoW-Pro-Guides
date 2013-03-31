@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2013-03-23 18:41
+-- Who: Ludovicus Maior
+-- Log: Quest [Ursangous' Paw] name correction
+
+-- URL: http://wow-pro.com/node/3228/revisions/25445/view
 -- Date: 2013-01-13 17:31
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -325,7 +330,7 @@ A Building Your Own Coffin|QID|13983|RANK|2|M|46.12,63.25|N|From Foreman Jinx.|
 C Building Your Own Coffin|QID|13983|M|37.38,71.32|N|Finish gathering parts.|S|
 C They're Out There!|QID|13980|S|U|46776|M|41.25,68.99|N|Kill Assassins. Use Jinx's Goggles to be able to see them.|
 K Ursangous|QID|23|M|41.8,65.2|T|Ursangous|L|16303|N|Keep and eye out for Ursangous. Kill and loot the paw. Use the paw to start the quest.|
-A Ursangous's Paw|QID|23|U|16303|N|From Ursangous's Paw.|
+A Ursangous' Paw|QID|23|U|16303|N|From Ursangous' Paw.|
 C Building Your Own Coffin|QID|13983|M|37.38,71.32|N|Finish gathering parts.|US|
 C They're Out There!|QID|13980|US|U|46776|M|41.25,68.99|N|Finish killing Assassins. Use Jinx's Goggles to be able to see them.|
 
@@ -358,7 +363,7 @@ C King of the Foulweald|QID|6621|U|16972|M|56.37,63.49|N|Use Senani's Banner on 
 
 H Silverwind Refuge|QID|23|N|Hearth to Silverwind Refuge.|
 
-T Ursangous's Paw|QID|23|M|50.12,67.52|N|To Captain Tarkan.|
+T Ursangous' Paw|QID|23|M|50.12,67.52|N|To Captain Tarkan.|
 T King of the Foulweald|QID|6621|M|49.78,65.07|N|To Senani Thunderheart.|
 
 F Splintertree Post|QID|1918|N|Fly to Splintertree Post.|M|49.29,65.25|

@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2013-03-23 18:33
+-- Who: Ludovicus Maior
+-- Log: In guide ScoSho7879, quest 12699's name [An Embarassing Incident] does not match Grail's database [An Embarrassing Incident].
+--	In guide ScoSho7879, quest 12559's name [Powering the Waygate - The Maker's Perch] does not match Grail's database [Powering the Waygate - The Makers' Perch].
+--	In guide ScoSho7879, quest 12613's name [Powering the Waygate - The Maker's Overlook] does not match Grail's database [Powering the Waygate - The Makers' Overlook].
+
+-- URL: http://wow-pro.com/node/3297/revisions/25441/view
 -- Date: 2013-01-13 16:16
 -- Who: Ludovicus Maior
 -- Log: Added CN tag
@@ -178,11 +185,11 @@ A The Part-time Hunter |QID|12654|N|From Tamara Wobblesprocket.|M|50.5,62.1|
 f Lakeside Landing |QID|12671|N|At Marvin Wobblesprocket.|M|50.12,61.39|
 T Aerial Surveillance |QID|12696|N|To Pilot Vic.|M|50.0,61.5|
 
-A An Embarassing Incident |QID|12699|N|From Pilot Vic.|M|50.0,61.5|
+A An Embarrassing Incident |QID|12699|N|From Pilot Vic.|M|50.0,61.5|
 A Force of Nature |QID|12803|N|From Pilot Vic.|M|50.0,61.5|
-C An Embarassing Incident |QID|12699|N|Look in the piles of Raised Mud at the bottom of the lake. If you need an air tank, then you've got it.|U|40390|M|48.6,64.0|
+C An Embarrassing Incident |QID|12699|N|Look in the piles of Raised Mud at the bottom of the lake. If you need an air tank, then you've got it.|U|40390|M|48.6,64.0|
 C Crocolisk Mastery: The Ambush |QID|12569|N|Use the disguise while standing on the fallen log on the East side of the lake.|U|38564|M|46.50,63.48|
-T An Embarassing Incident |QID|12699|N|To Pilot Vic.|M|50.0,61.5|
+T An Embarrassing Incident |QID|12699|N|To Pilot Vic.|M|50.0,61.5|
 
 A Reconnaissance Flight |QID|12671|N|From Pilot Vic.|M|50.0,61.5|
 C Reconnaissance Flight |QID|12671|N|While on the flight, you will get attacked. Fight back with your missiles (spam the ability as it targets a random mob even if you have one targetd). You will get a message to fly back: do that as quickly as you can. Use ability 2 to land when you get back.|M|50.0,61.5|
@@ -360,18 +367,18 @@ A Freya's Pact |QID|12621|N|From Avatar of Freya.|M|64.5,48.7|
 C Freya's Pact |QID|12621|N|Listen to the story.|M|64.5,48.7|
 T Freya's Pact |QID|12621|M|64.5,48.7|N|To Avatar of Freya.|
 
-A Powering the Waygate - The Maker's Perch |QID|12559|N|From Avatar of Freya.|M|64.5,48.7|
-C Powering the Waygate - The Maker's Perch |QID|12559|N|Go to the West side of the Basin at the Makers' Perch.|M|26.23,35.49|
-T Powering the Waygate - The Maker's Perch |QID|12559|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
+A Powering the Waygate - The Makers' Perch |QID|12559|N|From Avatar of Freya.|M|64.5,48.7|
+C Powering the Waygate - The Makers' Perch |QID|12559|N|Go to the West side of the Basin at the Makers' Perch.|M|26.23,35.49|
+T Powering the Waygate - The Makers' Perch |QID|12559|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 
-A Powering the Waygate - The Maker's Overlook |QID|12613|N|From Avatar of Freya.|M|64.5,48.7|
+A Powering the Waygate - The Makers' Overlook |QID|12613|N|From Avatar of Freya.|M|64.5,48.7|
 
 A A Timeworn Coffer |QID|12691|N|From Timeworn Coffer. Go to the East side of the Basin at the Makers' Overlook. The coffer is outside, on the right.|M|80.36,55.84|
 C A Timeworn Coffer |QID|12691|N|Kill Guardians until the key drops.|M|80.3,54.9|S|
-C Powering the Waygate - The Maker's Overlook |QID|12613|N|You can sneak past the elite in the the middle. He only patrols in a circle.|M|89.1,52.9|
+C Powering the Waygate - The Makers' Overlook |QID|12613|N|You can sneak past the elite in the the middle. He only patrols in a circle.|M|89.1,52.9|
 C A Timeworn Coffer |QID|12691|N|Kill Guardians until the key drops.|M|80.3,54.9|US|
 T A Timeworn Coffer |QID|12691|N|To Timeworn Coffer, back outside.|M|80.37,55.81|
-T Powering the Waygate - The Maker's Overlook |QID|12613|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
+T Powering the Waygate - The Makers' Overlook |QID|12613|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 
 A The Etymidian |QID|12548|N|From Avatar of Freya.|M|64.5,48.7|
 R Un'Goro Crater |QID|12548|N|The Waygate is near the Mosslight Pillar. Go through it to get to Un'Guro Crater.|M|40.45,82.99|

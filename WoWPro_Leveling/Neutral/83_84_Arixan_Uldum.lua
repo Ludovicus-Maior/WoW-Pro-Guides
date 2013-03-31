@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2013-03-23 18:30
+-- Who: Ludovicus Maior
+-- Log: In guide AriUld8384, quest 28557's name [Warchief's Command: Uldum] does not match Grail's database [Warchief's Command: Uldum!].
+--	In guide AriUld8384, quest 27627's name [Just A Fancy Cockroach] does not match Grail's database [Just a Fancy Cockroach].
+--	In guide AriUld8384, quest 27627's name [Just A Fancy Cockroach] does not match Grail's database [Just a Fancy Cockroach].
+
+-- URL: http://wow-pro.com/node/3309/revisions/25367/view
 -- Date: 2013-01-12 19:07
 -- Who: Ludovicus Maior
 -- Log: Added CN and CS tags
@@ -118,7 +125,7 @@ R Thistleshrub Valley |QID|27003|N|Welcome to Uldum.  To start this guide, you n
 R Thistleshrub Valley |QID|27003|N|Welcome to Uldum.  To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.  \n\nDepending on your location, either fly to Valley of the Watchers in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Warchief's Command from any Horde City.|FACTION|Horde|M|30.52,65.58|Z|Tanaris|
 
 T Hero's Call: Uldum! |QID|28558|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
-T Warchief's Command: Uldum |QID|28557|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
+T Warchief's Command: Uldum! |QID|28557|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
 T Meetup with the Caravan |QID|28296|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
 T Meetup with the Caravan |QID|28295|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
 
@@ -236,25 +243,25 @@ C Tipping the Balance|QID|27431|M|64.41,27.32|N|Talk to Harrison and click 'Ask 
 T Tipping the Balance|QID|27431|M|64.50,27.99|N|To Harrison Jones.|
 
 A After the Fall|QID|27624|M|64.50,27.99|N|From Harrison Jones.|
-A Just A Fancy Cockroach|QID|27627|RANK|2|M|63.77,27.26|N|Kill a Scarab to get this quest.|
+A Just a Fancy Cockroach|QID|27627|RANK|2|M|63.77,27.26|N|Kill a Scarab to get this quest.|
 
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill Amethyst Scarabs.|S|
+C Just a Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill Amethyst Scarabs.|S|
 C After the Fall|QID|27624|M|63.96,26.68|QO|Orb of the Morning Star: 1/1|N|Collect the Orb of the Morning Star from the head of the statue.|NC|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill the remaining Amethyst Scarabs.|US|
+C Just a Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill the remaining Amethyst Scarabs.|US|
 
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill Turquoise Scarabs.|S|
+C Just a Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill Turquoise Scarabs.|S|
 C After the Fall|QID|27624|M|62.64,31.97|QO|Orb of the North Star: 1/1|N|Collect the Orb of the North Star from the head of the statue.|NC|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill the remaining Turquoise Scarabs.|US|
+C Just a Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill the remaining Turquoise Scarabs.|US|
 
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill Emerald Scarabs.|S|
+C Just a Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill Emerald Scarabs.|S|
 C After the Fall|QID|27624|M|65.26,32.56|QO|Orb of the Shooting Star: 1/1|N|Collect the Orb of the Shooting Star from the head of the statue.|NC|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill the remaining Emerald Scarabs.|US|
+C Just a Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill the remaining Emerald Scarabs.|US|
 
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|N|Kill Sapphire Scarabs.|S|
+C Just a Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|N|Kill Sapphire Scarabs.|S|
 C After the Fall|QID|27624|M|66.78,28.01|QO|Orb of the Evening Star: 1/1|N|Collect the Orb of the Evening Star from the head of the statue.|NC|
-C Just A Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|N|Kill the remaining Sapphire Scarabs.|US|
+C Just a Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|N|Kill the remaining Sapphire Scarabs.|US|
 
-T Just A Fancy Cockroach|QID|27627|RANK|2|M|63.2,33.1|N|(UI Alert)|
+T Just a Fancy Cockroach|QID|27627|RANK|2|M|63.2,33.1|N|(UI Alert)|
 T After the Fall|QID|27624|M|64.47,28.02|N|To Harrison Jones.|
 
 A Do the Honors|QID|27669|M|64.47,28.02|N|From Harrison Jones.|

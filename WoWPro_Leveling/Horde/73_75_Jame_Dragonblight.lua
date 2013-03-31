@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2013-03-23 18:56
+-- Who: Ludovicus Maior
+-- Log: A freq quest name corrections.
+
+-- URL: http://wow-pro.com/node/3292/revisions/25470/view
 -- Date: 2013-01-13 19:19
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -136,8 +141,8 @@ T The Flesh-Bound Tome |QID|12057|N|To Captain Gort.|
 A Koltira and the Language of Death |QID|12115|M|35.8,48.4|PRE|12057|N|From Captain Gort.|
 T Scourge Armaments |QID|12048|M|36.6,47.2|N|To Borus Ironbender.|
 T The Might of the Horde |QID|12053|M|36.6,46.6|N|To Senior Sergeant Juktok.|
-A Attack By Air! |QID|12071|M|36.6,46.6|PRE|12053|N|From Senior Sergeant Juktok.|
-T Attack By Air! |QID|12071|M|37.2,45.7|N|To Valnok Windrager.|
+A Attack by Air! |QID|12071|M|36.6,46.6|PRE|12053|N|From Senior Sergeant Juktok.|
+T Attack by Air! |QID|12071|M|37.2,45.7|N|To Valnok Windrager.|
 A Blightbeasts be Damned! |QID|12072|M|37.2,45.7|PRE|12071|N|From Valnok Windrager.|
 T Prevent the Accord |QID|12005|M|38.1,46.2|N|To the Image of Archmage Aethas Sunreaver.|
 T A Strange Device |QID|12059|M|38.1,46.2|N|To the Image of Archmage Aethas Sunreaver.|
@@ -411,8 +416,8 @@ K Dahlia Suntouch |QID|12419|L|37833|N|Head west towards the huge tree in the mi
 
 A The Fate of the Ruby Dragonshrine |QID|12419|U|37833|N|Right-click the Ruby Brooch|M|47.6,49.0|
 C In Search of the Ruby Lilac |QID|12102|N|It's in the same cave.|M|47.7,49.1|
-C Through the Fields of Flame |QID|12450|N|Kill necromancers around the tree.|M|47.7,49.1|
-T Through the Fields of Flame |QID|12450|M|43.0,50.9|N|To Vargastrasz.|
+C Through Fields of Flame |QID|12450|N|Kill necromancers around the tree.|M|47.7,49.1|
+T Through Fields of Flame |QID|12450|M|43.0,50.9|N|To Vargastrasz.|
 A The Steward of Wyrmrest Temple |QID|12769|M|43.0,50.9|PRE|12450|N|From Vargastrasz.|
 T Wanted: Dreadtalon |QID|12091|N|To Captain Gort.|M|35.8,48.2|
 A To Dragon's Fall|QID|12095|N|From Captain Gort.|M|35.8,48.2|
@@ -554,7 +559,7 @@ T Defending Wyrmrest Temple |QID|12372|N|Go back to Lord Afrasastrasz.|M|59.2,54
 H Agmar's Hammer|QID|12097|N|Hearth to Agmar's Hammer.|
 T Sarathstra, Scourge of the North|QID|12097|N|To Captain Gort.|M|35.81,48.38|
 F Kor'kron Vanguard|QID|12500|N|Fly to Kor'kron Vanguard.|M|37.5,45.8|
-T Return to Angrathar |QID|12500|N|To Saurfang the Younger. Enjoy the cinematic. :D|M|40.7,18.1|
+T Return To Angrathar |QID|12500|N|To Saurfang the Younger. Enjoy the cinematic. :D|M|40.7,18.1|
 
 N Thus ends Dragonblight|N|Close this step to continue onto Grizzly Hills.|
 

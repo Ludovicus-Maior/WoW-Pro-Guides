@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2013-03-23 18:57
+-- Who: Ludovicus Maior
+-- Log: Corrected name of [Keep Thornfang Hill Clear!]
+
+-- URL: http://wow-pro.com/node/3274/revisions/25467/view
 -- Date: 2013-01-13 19:14
 -- Who: Ludovicus Maior
 -- Log: Added CN tag
@@ -153,7 +158,7 @@ A Blessings of the Ancients |QID|9785|N|From Windcaller Blackhoof.|M|80.4,64.7|
 C Blessings of the Ancients |QID|9785|N|Go talk to the two big trees.|M|78.1,63.8|
 T Blessings of the Ancients |QID|9785|M|80.4,64.7|N|To Windcaller Blackhoof.|
 R Cenarion Post |QID|9732|N|Run to the east into Hellfire Peninsulam then continue on to the Cenarion Post.|Z|Hellfire Peninsula|M|16,52|
-T Keep Thornfang Hill Clear|QID|10159|O|N|If you forgot to turn this quest in while you were doing Hellfire, do so now. To Mahuram Stouthoof.|Z|Hellfire Peninsula|M|15.77,52.23|
+T Keep Thornfang Hill Clear!|QID|10159|O|N|If you forgot to turn this quest in while you were doing Hellfire, do so now. To Mahuram Stouthoof.|Z|Hellfire Peninsula|M|15.77,52.23|
 T Warning the Cenarion Circle |QID|9724|M|15.7,52.0|N|To Amythiel Mistwalker.|Z|Hellfire Peninsula|
 
 A Return to the Marsh |QID|9732|M|15.7,52.0|N|From Amythiel Mistwalker.|Z|Hellfire Peninsula|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2013-03-23 20:42
+-- Who: Ludovicus Maior
+-- Log: Redid [Learning the Word]
+
+-- URL: http://wow-pro.com/node/3206/revisions/25379/view
 -- Date: 2013-01-12 20:37
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -163,9 +168,9 @@ T Steadying Your Shot|QID|10070|M|79.9,49.6|C|Hunter|N|To Keilnei.|
 A The Light's Power|QID|26966|M|79.75,48.34|C|Paladin|N|From Aurelon.|
 C The Light's Power|QID|26966|M|80.08,45.77|C|Paladin|N|Learn Seal of Righteousness and Judgement from Aurelon. Apply Seal of Righteousness, find a Training Dummy on the northwest side of the Crash Site and use Judgement. |
 T The Light's Power|QID|26966|M|79.75,48.34|C|Paladin|N|To Aurelon|
-A Aiding the Injured|QID|26970|M|80.1,48.5|C|Priest|N|From Zalduun.|
-C Aiding the Injured|QID|26970|M|80.1,48.5|C|Priest|N|Learn Flash Heal from Zalduun. Use Flash Heal 5 times to heal the wounds of Injured Draenei at the Crash Site. |
-T Aiding the Injured|QID|26970|M|80.1,48.5|C|Priest|N|To Zalduun.|
+A Learning the Word|QID|26970|M|80.1,48.5|C|Priest|N|From Zalduun.|
+C Learning the Word|QID|26970|M|80.1,48.5|C|Priest|N|Learn Shadow Word:Pain from Zalduun.  Find a Training Dummy on the northwest side of the Crash Site and use Shadow Word. |
+T Learning the Word|QID|26970|M|80.1,48.5|C|Priest|N|To Zalduun.|
 
 r Sell junk and repair|QID|9305|N|At Mura, close this step when done.|M|79.19,50.93|
 C Healing the Lake|QID|9294|N|Head south to the giant crystal and right-click it.|M|77,59|NC|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2013-03-23 20:23
+-- Who: Ludovicus Maior
+-- Log: Name tweaks
+
+-- URL: http://wow-pro.com/node/3200/revisions/25496/view
 -- Date: 2013-01-22 17:53
 -- Who: Ludovicus Maior
 -- Log: Changed "Lambs on the Lam" to use special target macro!
@@ -300,7 +305,7 @@ H Thunderbrew Distillery|QID|25668|U|6948|N|Hearth to Thunderbrew Distillery.|
 
 T Pilfered Supplies|QID|25668|M|53.67,52.11|N|To Quartermaster Glynna.|
 T Culling the Wendigos|QID|25667|M|53.68,52.17|N|To Captain Tharran.|
-T Forced to watch from afar|QID|313|M|53.68,52.17|N|To Captain Tharran.|
+T Forced to Watch from Afar|QID|313|M|53.68,52.17|N|To Captain Tharran.|
 A Pushing Forward|QID|25792|M|53.68,52.17|N|From Captain Tharran.|
 A Operation Recombobulation|QID|412|M|53.32,51.98|N|From Razzle Sprysprocket.|
 f Kharanos|M|53.77,52.71|N|At Brolan Galebeard.|QID|412|R|Human,NightElf,Draenei,Worgen|
@@ -329,12 +334,12 @@ C Eliminate the Resistance|QID|25840|S|QO|Frostmane Warrior slain: 5/5|M|62.04,5
 C The View from Down Here|QID|28868|S|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builders|
 C Attack on Northern Frostmane Retreat|QID|25841|U|56048|QO|Attack on Northern Frostmane Retreat: 1/1|M|64.47,54.37|N|Use the Signal Flare in the circle of stones on the ground.|
 K Kill Battok the Berserker|QID|25840|T|Battok the Berserker|QO|Battok the Berserker slain: 1/1|M|63.81,55.68|N|Dancing in the middle of the camp.|
-C Strike from Above|QID|25841|U|56048|QO|Attack on Southern Frostmane Retreat: 1/1|M|63.20,57.16|N|Use the Signal Flare just in front of the buildings.|
+C Strike From Above|QID|25841|U|56048|QO|Attack on Southern Frostmane Retreat: 1/1|M|63.20,57.16|N|Use the Signal Flare just in front of the buildings.|
 C Eliminate the Resistance|QID|25840|US|QO|Frostmane Warrior slain: 5/5|M|62.04,56.13|N|Kill Frostmane Warriors.|
 C The View from Down Here|QID|28868|U|67249|N|Use the Viewpoint Equalizer on Frostmane Builders.|T|Frostmane Builders|US|
 T The View from Down Here|QID|28868|M|62.54,53.72|N|To Snevik the Blade.|
 T Eliminate the Resistance|QID|25840|M|62.53,53.62|N|To Slamp Wobblecog.|
-T Strike from Above|QID|25841|M|62.53,53.62|N|To Slamp Wobblecog.|
+T Strike From Above|QID|25841|M|62.53,53.62|N|To Slamp Wobblecog.|
 A A Hand at the Ranch|QID|25882|M|62.55,53.73|N|From Slamp Wobblecog.|
 
 T A Hand at the Ranch|QID|25882|M|70.42,49.00|N|To Sergeant Flinthammer.|

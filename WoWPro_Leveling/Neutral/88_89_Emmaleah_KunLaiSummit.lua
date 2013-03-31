@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2013-03-23 20:35
+-- Who: Ludovicus Maior
+-- Log: Bad quest name
+
+-- URL: http://wow-pro.com/node/3490/revisions/25482/view
 -- Date: 2013-01-13 19:50
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -620,7 +625,7 @@ f Shrine of Seven Stars|QID|30631|M|84.62,62.41|Z|Vale of Eternal Blossoms|N|Get
 C Speak to Kuru the Light-Hearted|QID|30631|FACTION|Alliance|M|85.82,60.89|Z|Vale of Eternal Blossoms|QO|Speak to Kuru the Light-Hearted: 1/1|NC|N|Also on the Terrace.|
 C Speak to Matron Vi Vinh|QID|30631|FACTION|Alliance|M|36.41,66.80|Z|Vale of Eternal Blossoms/3|QO|Speak to Matron Vi Vinh: 1/1|NC|N|On the second floor inn, to the right.|
 C Speak to Elder Lin|QID|30631|FACTION|Alliance|M|85.21,62.87|Z|Vale of Eternal Blossoms|QO|Speak to Elder Lin: 1/1|NC|N|On the first floor.|
-T The Shrine of Two Moons|QID|30631|FACTION|Alliance|M|56.74,42.63|Z|Vale of Eternal Blossoms|N|To Sun Tenderheart.|
+T The Shrine of Seven Stars|QID|30631|FACTION|Alliance|M|56.74,42.63|Z|Vale of Eternal Blossoms|N|To Sun Tenderheart.|
 ; Time to head back
 R Shado-Pan Fallback|QID|31455|FACTION|Alliance|CS|M|55.58,91.24;44.51,89.96|
 T The Shado-Pan|QID|31455|FACTION|Alliance|M|44.51,89.96|N|To Shado-Master Chong.|

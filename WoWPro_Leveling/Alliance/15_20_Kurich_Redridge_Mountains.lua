@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2013-03-23 20:03
+-- Who: Ludovicus Maior
+-- Log: QID correction and quest name tweak
+
+-- URL: http://wow-pro.com/node/3215/revisions/25518/view
 -- Date: 2013-02-06 20:13
 -- Who: Ludovicus Maior
 -- Log: Jorgensen tweak
@@ -75,7 +80,7 @@ R Redridge Mountains|QID|26365|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge 
 
 A Wanted: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|
-T Hero's Call: Redridge Mountains!|QID|26363|M|15.32,64.86|N|To Watch Captain Parker.|O|
+T Hero's Call: Redridge Mountains!|QID|28563|M|15.32,64.86|N|To Watch Captain Parker.|O|
 T Hero's Call: Redridge Mountains!|QID|26365|M|15.32,64.86|N|To Watch Captain Parker.|O|
 A Still Assessing the Threat|QID|26503|M|15.32,64.86|N|From Watch Captain Parker.|
 C Wanted: Redridge Gnolls|QID|26504|S|M|28.21,73.94|N|Kill any Gnoll you come across.|
@@ -91,7 +96,7 @@ A Parker's Report|QID|26505|M|15.31,64.82|N|From Watch Captain Parker.|
 T Wanted: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker.|
 
 ; f Lakeshire|M|29.48,53.77|N|At Ariena Stormfeather.|QID|26761|
-T Threat To The Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon.|O|
+T Threat to the Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon.|O|
 T Parker's Report|QID|26505|M|28.78,41.15|N|To Magistrate Solomon.|
 A We Must Prepare!|QID|26510|M|28.78,41.15|N|From Magistrate Solomon.|
 A Lake Everstill Clean Up|QID|26511|M|28.61,40.99|N|From Bailiff Conacher.|

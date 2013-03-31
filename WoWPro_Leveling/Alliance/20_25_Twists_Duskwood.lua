@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2013-03-23 20:48
+-- Who: Ludovicus Maior
+-- Log: quest name cleanups
+
+-- URL: http://wow-pro.com/node/3222/revisions/25380/view
 -- Date: 2013-01-12 20:40
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -169,7 +174,7 @@ C The Rotting Orchard|QID|26689|N|Kill Nightbane Shadow Weavers. Beware of the h
 C In A Dark Corner|QID|26669|M|66.5,76.5|N|Inside the barn, at the back.|NC|
 C The Rotting Orchard|QID|26689|N|Finish Killing Nightbane Shadow Weavers. Beware of the hidden stalkers in this area.|US|
 
-A Vlugar Vul'Gol|QID|25235|M|45.18,66.95|N|From Watcher Dodds, along the road to the west.|
+A Vulgar Vul'Gol|QID|25235|M|45.18,66.95|N|From Watcher Dodds, along the road to the west.|
 
 C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|S|N|Kill any type Splinter Fist Ogres.|
 C Ogre Thieves|QID|26680|M|33.45,75.27|N|Just outside the cave, pickup Abercrombie's Crate.|NC|
@@ -232,10 +237,10 @@ T The Fate of Stalvan Mistmantle|QID|26671|M|78.95,44.25|N|To Tobias Mistmantle.
 A Clawing at the Truth|QID|26672|M|78.95,44.25|N|From Tobias Mistmantle.|
 
 T Clawing at the Truth|QID|26672|M|75.76,45.28|N|To Madame Eva.|
-A Mistmangle's Revenge|QID|26674|M|75.76,45.28|N|From Madame Eva.|
+A Mistmantle's Revenge|QID|26674|M|75.76,45.28|N|From Madame Eva.|
 
-C Mistmangle's Revenge|QID|26674|M|77.39,36.32|N|Use the ring at the manor house. Then kill Stalvan Mistmangle after the talking.|U|59363|
-T Mistmangle's Revenge|QID|26674|M|78.98,44.21|N|To Tobia Mismantle.|
+C Mistmantle's Revenge|QID|26674|M|77.39,36.32|N|Use the ring at the manor house. Then kill Stalvan Mistmantle after the talking.|U|59363|
+T Mistmantle's Revenge|QID|26674|M|78.98,44.21|N|To Tobia Mismantle.|
 
 F Raven Hill |QID|26719|M|77.45,44.25|N|Fly to Raven Hill.|
 
@@ -276,9 +281,9 @@ A The Lurking Lich|QID|26724|M|18.40,57.94|N|From Sven Yorgen.|
 T Bear In Mind|QID|26787|M|18.6,58.21|N|To Jitters.|
 
 T The Lurking Lich|QID|26724|M|19.92,57.88|N|Sister Eisington.|
-A Guided By the Light|QID|26725|M|19.92,57.88|N|From Sister Eisington.|
+A Guided by the Light|QID|26725|M|19.92,57.88|N|From Sister Eisington.|
 
-T Guided By the Light|QID|26725|M|23.44,35.54|N|To the Lightforged Rod.|
+T Guided by the Light|QID|26725|M|23.44,35.54|N|To the Lightforged Rod.|
 A The Halls of the Dead|QID|26753|M|23.44,35.54|N|From the Lightforged Rod.|
 
 T The Halls of the Dead|QID|26753|M|20.36,27.44|N|Enter the Dawning Wood Catacombs, turn left into the first hall, then continue to the back left.  Be careful, as the Buried Dead will spawn as you run over the graves.  Head through the catacombs, and turn the quest into the Lightforged Arch.|
