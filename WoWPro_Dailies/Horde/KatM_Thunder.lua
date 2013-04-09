@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_horde
+-- Date: 2013-04-08 18:43
+-- Who: Emmaleah
+-- Log: corrected some lines that had  where they shouldn't, added some spaces, deleted a duplicate line. Still needs some work as it did not flow well, when I ran thru for the first time, but perhaps it is because I waited till almost all the phases are open before I ran thru it the first time?!?
+
+-- URL: http://wow-pro.com/node/3540/revisions/25550/view
 -- Date: 2013-03-16 18:23
 -- Who: Ludovicus Maior
 
@@ -17,9 +22,7 @@ return [[
 
 ; Stage 1!
 
-A Thunder Calls|QID|32678|M|64.16,58.75|Z|Vale of Eternal Blossoms|N|UI Popup when
-
-flying near Shrine of Two Moons:  Fly to Shadow Pan Garrison|
+A Thunder Calls|QID|32678|M|64.16,58.75|Z|Vale of Eternal Blossoms|N|UI Popup when flying near Shrine of Two Moons:  Fly to Shadow Pan Garrison|
 T Thunder Calls|QID|32678|M|50.8,73.2|Z|Townlong Steppes|N|To Scout Captain Elsia, at the Shado-Pan Garrison in Townlong Steppes.|
 A The Storm Gathers|QID|32680|PRE|32678|M|50,73|Z|Townlong Steppes|N|From Scout Captain Elsia|
 C The Storm Gathers|QID|32680|M|50.8,73.2|Z|Townlong Steppes|QO|Speak with Elsia: 1/1|N|Speak with Elsia to start.|
@@ -40,9 +43,7 @@ A Elina's Quest|QID|*|NPC|69418|PRE|32729|M|36.6,64.8|N|From Elina Zaralae|
 
 C Dangers of Za'Tual|QID|32200|S|
 ;
-C Dark Offerings|QID|32217|M|33.00,73.60;33.80,68.00;34.40,76.00;35.00,67.40;35.40,77.40;39.20,65.20;35.80,75.50;36
-
-.40,67.60;40.60,74.50;47.35,56.45|CN|N|Near the Spiritbinders.|
+C Dark Offerings|QID|32217|M|33.00,73.60;33.80,68.00;34.40,76.00;35.00,67.40;35.40,77.40;39.20,65.20;35.80,75.50;36.40,67.60;40.60,74.50;47.35,56.45|CN|N|Near the Spiritbinders.|
 ;
 C Harbingers of the Loa|QID|32252|M|33.0,73.6;33.7,71.4;36.4,70.1;38.9,76.5|CN|N|Kill the trolls inside the lightning tents.|
 ;
@@ -56,9 +57,8 @@ C Pterrible Ptorment|QID|32216|M|41,70|N|Find the Arcweavers torturing the Torme
 ;
 C Zandalari Spiritbinder|QID|32275|CN|M|33.85,76.1;39.75,65.2;38.6,78.65|QO|Zandalari Spiritbinder slain: 3/3|
 C Zandalari Beastcaller|QID|32275|CN|M|31.6,78.6;35.2,81.6|QO|Zandalari Beastcaller slain: 3/3|
-C Zandalari Jaguar Warrior|QID|32275|CN|M|31.00,65.20;35.80,67.00;36.20,73.20;37.60,77.60;38.00,66.80;55.80,56.40;39.60,71.80;52.90,54.40;46.20,58.40;50.60,53.80;46.85,56.38;33.10,81.95;48.50,54.90;40.10,69.45;34.80,79.80;41.92,71.75;35.33,75.67;48.45,50.90;32.60,69.95|QO|Zandalari Jaguar Warriorslain: 3/3|
+C Zandalari Jaguar Warrior|QID|32275|CN|M|31.00,65.20;35.80,67.00;36.20,73.20;37.60,77.60;38.00,66.80;55.80,56.40;39.60,71.80;52.90,54.40;46.20,58.40;50.60,53.80;46.85,56.38;33.10,81.95;48.50,54.90;40.10,69.45;34.80,79.80;41.92,71.75;35.33,75.67;48.45,50.90;32.60,69.95|QO|Zandalari Jaguar Warrior slain: 3/3|
 C Troll Killin'|QID|32200|US|
-C Troll Killin'|QID|32200|
 
 ;
 T Dangers of Za'Tual|QID|32200|M|38.6,64.8|N|To Halduron Brightwing.|
@@ -119,12 +119,12 @@ A The Residents of Ihgaluk|QID|32274|PRE|32730|M||N|From Sunwalker Dezco|
 
 ; Do this quest first!!!!
 C Skin of the Saurok|QID|32507|M|44.20,83.20;44.60,74.40;45.00,84.00;45.80,75.00;49.00,85.80;50.00,76.40;50.80,73.40;52.20,75.60;52.60,91.40;54.20,80.00;54.20,87.00;54.60,78.40;54.80,74.60;55.40,86.20;46.60,72.50;54.50,76.10;49.40,78.50;46.10,71.30;44.50,81.80;47.60,82.40;46.40,70.00|CN|N|Kill any Saurok.|
-T Skin of the Saurok|QID|32507||N|From ??? via UI|
+T Skin of the Saurok|QID|32507|N|via UI|
 
 ;
 C Creeping Carpet-Roach Crush|QID|32489|QO|Ihgaluk Roach crushed: 150/150|N|Just walk or run over them.|
 ;
-C De-Constructed -Disabled Construct|QID|32255|M|44.1,81.7|N|The Disabled Construct is here.|QO|Recover Disabled Construct: 1/1|
+C De-Constructed-Disabled Construct|QID|32255|M|44.1,81.7|N|The Disabled Construct is here.|QO|Recover Disabled Construct: 1/1|
 C Buried Construct|QID|32255|M|53.6,91.3|N|The Buried Construct up to its neck at the beach.|QO|Recover Buried Construct: 1/1|
 C Malfunctioning Construct|QID|32255|M|46.6,72.0|N|The Malfunctioning Construct is here.|QO|Recover Malfunctioning Construct: 1/1|
 C Distressed Construct|QID|32255|M|49.20,82.00;49.80,83.00;49.80,84.40;53.60,77.60;49.20,87.40|CN|N|The Distressed Construct is running around.|QO|Recover Distressed Construct: 1/1|
