@@ -9,9 +9,11 @@
     <Script file="Borean_Tundra.lua"/>
     <Script file="Burning_Steppes.lua"/>
     <Script file="Cape_of_Stranglethorn.lua"/>
+	<Script file="Crystalsong_Forest.lua"/>
     <Script file="Darkshore.lua"/>
     <Script file="Deadwind_Pass.lua"/>
     <Script file="Desolace.lua"/>
+	<Script file="Dragonblight.lua"/>
     <Script file="Dun_Morogh.lua"/>
     <Script file="Durotar.lua"/>
     <Script file="Duskwood.lua"/>
@@ -22,8 +24,10 @@
     <Script file="Felwood.lua"/>
     <Script file="Feralas.lua"/>
     <Script file="Ghostlands.lua"/>
+	<Script file="Grizzly_Hills.lua"/>
     <Script file="Hillsbrad_Foothills.lua"/>
     <Script file="Howling_Fjord.lua"/>
+	<Script file="Icecrown.lua"/>
     <Script file="Loch_Modan.lua"/>
     <Script file="Moonglade.lua"/>
     <Script file="Mulgore.lua"/>
@@ -33,6 +37,7 @@
     <Script file="Searing_Gorge.lua"/>
     <Script file="Silithus.lua"/>
     <Script file="Silverpine_Forest.lua"/>
+	<Script file="Sholazar_Basin.lua"/>
     <Script file="Southern_Barrens.lua"/>
     <Script file="Stonetalon_Mountains.lua"/>
 	<Script file="Storm_Peaks.lua"/>
@@ -47,4 +52,5 @@
     <Script file="Western_Plaguelands.lua"/>
     <Script file="Westfall.lua"/>
     <Script file="Winterspring.lua"/>
+	<Script file="ZulDrak.lua"/>
 </Ui>
