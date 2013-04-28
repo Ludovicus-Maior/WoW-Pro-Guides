@@ -35,6 +35,7 @@
     <Script file="Silverpine_Forest.lua"/>
     <Script file="Southern_Barrens.lua"/>
     <Script file="Stonetalon_Mountains.lua"/>
+	<Script file="Storm_Peaks.lua"/>
     <Script file="Swamp_of_Sorrows.lua"/>
     <Script file="Tanaris.lua"/>
     <Script file="Teldrassil.lua"/>
