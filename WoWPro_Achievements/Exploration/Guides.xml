@@ -29,6 +29,7 @@
     <Script file="Hillsbrad_Foothills.lua"/>
 	<Script file="Hellfire_Peninsula.lua"/>
     <Script file="Howling_Fjord.lua"/>
+	<Script file="Hyjal.lua"/>
 	<Script file="Icecrown.lua"/>
     <Script file="Loch_Modan.lua"/>
     <Script file="Moonglade.lua"/>
