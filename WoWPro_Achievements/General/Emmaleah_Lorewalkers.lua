@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
 -- Date: 2013-01-26 03:06
--- Who: wowmanus
+-- Who: Kaboca
 -- Log: The Last Stand - making it easier to find :-)
 
 -- URL: http://wow-pro.com/node/3506/revisions/25246/view
