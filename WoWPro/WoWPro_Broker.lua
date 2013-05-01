@@ -286,7 +286,11 @@ function WoWPro:NextStep(k,i)
 					WoWPro.why[k] = "NextStep(): Optional steps with an item to use that is present is not skipped."
 				end
 			end
-			
+			-- Are we on the quest?
+			if WoWPro:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then
+				skip = false -- The optional quest is not skipped if we are on it!
+				WoWPro.why[k] = "NextStep(): Optional not skipped if on the quest!"			    
+			end
 		end
 	
 	
@@ -313,7 +317,7 @@ function WoWPro:NextStep(k,i)
         			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
         			if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
         				skip = true -- If one of the prereqs is NOT complete, step is skipped.
-        				WoWPro.why[k] = "NextStep(): Not all of the prereqs was met."
+        				WoWPro.why[k] = "NextStep(): Not all of the prereqs was met: " .. WoWPro.prereq[k]
         			end
         		end
        	    end
@@ -557,9 +561,20 @@ function WoWPro:NextStep(k,i)
         -- Do we have enough loot in bags?
 		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
 		    if GetItemCount(WoWPro.lootitem[k]) >= WoWPro.lootqty[k] then
-			    WoWPro.why[k] = "NextStep(): completed cause you have enough loot in bags."
-			    WoWPro.CompleteStep(k)
-			    skip = true
+		        if WoWPro.action[k] == "T" then
+		            -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
+		            WoWPro.why[k] = "NextStep(): enough loot to turn in quest."
+		        else
+			        WoWPro.why[k] = "NextStep(): completed cause you have enough loot in bags."
+			        WoWPro.CompleteStep(k)
+			        skip = true
+			    end
+			else
+		        if WoWPro.action[k] == "T" then
+		            -- Special for T steps, do skip.  Like Darkmoon [Test Your Strength]
+		            WoWPro.why[k] = "NextStep(): not enough loot to turn in quest."
+			        skip = true
+			    end
 			end
 		else		
     		-- Special for Buy steps where the step name is the item to buy and no |L| specified
@@ -724,13 +739,34 @@ function WoWPro:PopulateQuestLog()
 	
 end
 
+   		
+
+
 -- Cached version of function
 function WoWPro:IsQuestFlaggedCompleted(qid,force)
     if qid == "*" then return nil; end
     local QID = tonumber(qid)
     if not QID then
-        self:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
-        return false;
+        -- is it a QID list?
+        local quids = select("#", string.split(";", qid))
+        if (not quids) or quids == 1 then 
+            self:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
+            return false;
+        else
+            -- Yup, return true if any are complete
+    		for j=1,quids do
+    			local jquid = select(quids-j+1, string.split(";", qid))
+                jquid = tonumber(jquid)
+                if not jquid then
+                    self:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
+                    return false;
+                end
+                if WoWPro:IsQuestFlaggedCompleted(jquid,force) then
+                    return true
+                end
+     		end
+            return false
+        end
     end
     if not WoWProCharDB.completedQIDs then
         WoWProCharDB.completedQIDs = {}
@@ -774,6 +810,7 @@ end
 function WoWPro:QuestPrereq(qid)
     WoWPro:DoQuest(qid)
     local preReq = Grail:QuestPrerequisites(qid)
+    WoWPro:Print("QID %s prereqs are: %s",tostring(qid),tostring(preReq))
     if not preReq then return end
     for i,p in ipairs(preReq) do
         if( string.sub(tostring(p),1,1) == "B" ) then
@@ -781,6 +818,8 @@ function WoWPro:QuestPrereq(qid)
         end
         WoWPro:QuestPrereq(p)
     end
+    local preReq = Grail:QuestBreadcrumbs(qid)
+    
 end
 
 function WoWPro:Questline(qid)
