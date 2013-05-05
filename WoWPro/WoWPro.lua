@@ -231,7 +231,7 @@ local defaults = { profile = {
 -- Core Tag Setup --
 WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky", 
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
-	"level", "QID","target", "prof", "rank", "rep","waypcomplete", "why",
+	"level", "QID","target", "prof", "mat", "rank", "rep","waypcomplete", "why",
 	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
 	 "buff"
 }

@@ -156,6 +156,7 @@ local function ParseQuests(...)
 				WoWPro.stepcount = WoWPro.stepcount + 1
 				WoWPro.QID[i] = tonumber(text:match("|QID|([^|]*)|?"))
 				WoWPro.note[i] = text:match("|N|([^|]*)|?")
+				WoWPro.mat[i] = text:match("|N|([^|]*)|?")
 				WoWPro.map[i] = text:match("|M|([^|]*)|?")
 				if text:find("|S|") then 
 					WoWPro.sticky[i] = true; 
@@ -298,7 +299,8 @@ function WoWPro.Profession:RowUpdate(offset)
 		row.num = i
 		local step = WoWPro.step[k]
 		local action = WoWPro.action[k] 
-		local note = WoWPro.note[k]
+		local note = ' '
+		local mat = WoWPro.mat[k]
 		local QID = WoWPro.QID[k] 
 		local coord = WoWPro.map[k] 
 		local sticky = WoWPro.sticky[k] 
@@ -309,9 +311,51 @@ function WoWPro.Profession:RowUpdate(offset)
 		local lootqty = WoWPro.lootqty[k] 
 		local questtext = WoWPro.questtext[k] 
 		local optional = WoWPro.optional[k] 
-		local target = WoWPro.target[k] 
+		local target = WoWPro.target[k]
+		local prof = WoWPro.prof[k]
 		local completion = WoWProCharDB.Guide[GID].completion
-		
+
+		-- Break down the current step and re-create
+		if prof then
+			local profname, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",prof)
+			if (k == WoWPro.rows[WoWPro.ActiveStickyCount+1].index) and (tonumber(profmaxlvl) > 0) then
+				local profs = {}
+				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
+				for p=1,6 do
+					if profs[p] then
+						local skillName, skillLoc, skillRank, maxskill, _, _, skillnum = GetProfessionInfo(profs[p])
+						if (tonumber(skillnum) == tonumber(profnum)) then
+							local craft, skill = string.split(":",step)
+							row.targeticon:SetTexture(skillLoc)
+							local numMATs = select("#", string.split(":", mat))
+							local m = {}
+							m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = string.split(":",mat)
+							for j=1,tonumber(numMATs) do
+								local numItem = select("#", string.split(";", m[j]))
+								if numItem > 1 then
+									Qty, Item, Mats, Tot = string.split(";",m[j])
+									local skillpoints = (profmaxlvl - proflvl)/(Mats/Qty)
+									Mats = (((profmaxlvl - skillRank)/skillpoints) * Qty)
+									Tot = Tot - (((skillRank - proflvl)/skillpoints) * Qty)
+									if j == 1 then
+										note = craft..'\n'
+										WoWPro.note[k] = craft..'('..(profmaxlvl - skillRank)..')'
+										step = 'Craft these from '.. skillRank .. ' to '.. profmaxlvl
+										target = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)
+									end
+									note = note..'\n'..Qty..' '..Item..' ('..Mats..'/'..Tot..')'
+									WoWPro.note[k] = WoWPro.note[k]..':'..Qty..' '..Item..' ('..Mats..'/'..Tot..')'									
+								else
+									note = note..'\n'..m[j]
+									WoWPro.note[k] = WoWPro.note[k]..':'..m[j]
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+
 		-- Unstickying stickies --
 		if unsticky and i == WoWPro.ActiveStickyCount+1 then
 			for n,row in ipairs(WoWPro.rows) do 
