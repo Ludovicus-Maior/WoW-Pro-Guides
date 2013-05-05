@@ -407,7 +407,7 @@ function WoWPro:NextStep(k,i)
 					skip = false 
 				end
 			else
-			    WoWPro:Print("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
+			    WoWPro:Error("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
 			end
 			if (WoWPro.action[k] == "A" and not hasProf) or (skip == true) then
 			    -- If they do not have the profession or the step is below their level, mark the step and quest as skipped
