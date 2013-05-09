@@ -402,14 +402,15 @@ function WoWPro:NextStep(k,i)
         end
             
 		-- Skipping profession quests if their requirements aren't met --
-		if WoWPro.prof and WoWPro.prof[k] and not skip then
+		if WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
+			if proflvl == '*' then proflvl = 600 end -- Set to the maximum level obtainable in the expansion plus 1
 			proflvl = tonumber(proflvl) or 1
-			profmaxlvl = tonumber(profmaxlvl) or 700
-		    profmaxskill = tonumber(profmaxskill) or 700
-			
-			if prof and type(prof) == "string" and type(proflvl) == "number" then
-			    local hasProf = false
+			profmaxlvl = tonumber(profmaxlvl) or 0
+			profmaxskill = tonumber(profmaxskill) or 0
+
+			if type(prof) == "string" and type(proflvl) == "number" then
+				local hasProf = false
 				skip = true --Profession steps skipped by default
 				local profs = {}
 				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
@@ -417,17 +418,17 @@ function WoWPro:NextStep(k,i)
 					if profs[p] then
 						local skillName, _, skillRank, maxskill, _, _, skillnum = GetProfessionInfo(profs[p])
 						if (tonumber(skillnum) == tonumber(profnum)) then
-						    WoWPro.why[k] = "NextStep(): Skipping step because player does not have needed profession skill level"
-						    if (skillRank >= proflvl) and (skillRank < profmaxlvl) and (maxskill < profmaxskill) then
-							    skip = false -- The step is NOT skipped if the skill is present at the correct level or higher
-							    WoWPro.why[k] = "NextStep(): Activating step because player does have needed profession skill level"
-							end
-						    hasProf = true							
+							hasProf = true
+							if (profmaxlvl == 0) and (skillRank >= proflvl) then skip = false end
+							if (profmaxlvl > 0) and (skillRank < profmaxlvl) then skip = false end
+							if (profmaxskill > 0) and (profmaxskill > maxskill) then skip = false end
 						end
 					end
 				end
 				-- Zero or max proflvl special skip logic
-				if hasProf == false and ((profmaxlvl < 700) or (profmaxskill < 700)) then skip = false end
+				if (hasProf == false) and ((tonumber(profmaxlvl)>0) or (tonumber(profmaxskill)) > 0) then
+				    skip = false
+				end
 				if WoWPro.action[k] == "A" and not hasProf then
 				    -- If they do not have the profession, mark the step and quest as skipped
 				    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
@@ -437,6 +438,13 @@ function WoWPro:NextStep(k,i)
 			else
 			    WoWPro:Error("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
 			end
+			if (WoWPro.action[k] == "A" and not hasProf) or (skip == true) then
+			    -- If they do not have the profession or the step is below their level, mark the step and quest as skipped
+			    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
+			    WoWProCharDB.Guide[GID].skipped[k] = true
+			    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+			end
+
 		end
         
         
