@@ -261,7 +261,7 @@ function WoWPro:NextStep(k,i)
 	local skip = true
 	-- The "repeat ... break ... until true" hack is how you do a continue in LUA!  http://lua-users.org/lists/lua-l/2006-12/msg00444.html
 	while skip do repeat
-		
+		local QID=WoWPro.QID[k]
 		skip = false -- The step defaults to NOT skipped
 		
 		-- Quickly skip completed steps --
@@ -270,13 +270,13 @@ function WoWPro:NextStep(k,i)
 		-- Quickly skip any manually skipped quests --
 		if WoWProCharDB.Guide[GID].skipped[k] then
 			WoWPro:dbp("SkippedStep(%d)",k); skip = true ;  break
-		elseif WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
+		elseif WoWProCharDB.skippedQIDs[QID] then
 			WoWProCharDB.Guide[GID].skipped[k] = true
 			WoWPro:dbp("SkippedQUID(%d)",k);skip = true ; break
 		end
 		
 		-- Optional Quests --
-		if WoWPro.optional[k] and WoWPro.QID[k] then 
+		if WoWPro.optional[k] and QID then 
 			skip = true --Optional steps default to skipped --
 			WoWPro.why[k] = "NextStep(): Optional steps default to skipped."
 			-- Checking Use Items --
@@ -287,7 +287,7 @@ function WoWPro:NextStep(k,i)
 				end
 			end
 			-- Are we on the quest?
-			if WoWPro:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then
+			if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
 				skip = false -- The optional quest is not skipped if we are on it!
 				WoWPro.why[k] = "NextStep(): Optional not skipped if on the quest!"			    
 			end
@@ -326,7 +326,7 @@ function WoWPro:NextStep(k,i)
     	-- Skipping quests with prerequisites if their prerequisite was skipped --
     	if WoWPro.prereq[k] 
     	and not WoWProCharDB.Guide[GID].skipped[k] 
-    	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then 
+    	and not WoWProCharDB.skippedQIDs[QID] then 
     		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
     		for j=1,numprereqs do
     			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
@@ -338,7 +338,7 @@ function WoWPro:NextStep(k,i)
     				if WoWPro.action[k] == "A" 
     				or WoWPro.action[k] == "C" 
     				or WoWPro.action[k] == "T" then
-    					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+    					WoWProCharDB.skippedQIDs[QID] = true
     					WoWProCharDB.Guide[GID].skipped[k] = true
     				else
     					WoWProCharDB.Guide[GID].skipped[k] = true
@@ -347,9 +347,27 @@ function WoWPro:NextStep(k,i)
     		end
     	end
 
+        -- Partial Completion --
+        if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[k] 
+        and not WoWProCharDB.Guide[GID].completion[k] then 
+	        local numquesttext = select("#", string.split(";", WoWPro.questtext[k]))
+	        local complete = true
+	        for l=1,numquesttext do
+		        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[k]))
+		        local lcomplete = false
+		        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
+			        if lquesttext == objective then --if the objective matches the step's criteria, mark true
+				        lcomplete = true
+			        end
+		        end
+		        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
+	        end
+	        if complete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
+        end
+
 	    -- Skip C or T steps if not in QuestLog
 	    if WoWPro.action[k] == "C" or WoWPro.action[k] == "T" then
-	        if not WoWPro:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then 
+	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then 
     			skip = true -- If the quest is not in the quest log, the step is skipped --
     			WoWPro:dbp("Step %s [%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],WoWPro.active[k])
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
@@ -414,7 +432,7 @@ function WoWPro:NextStep(k,i)
 				    -- If they do not have the profession, mark the step and quest as skipped
 				    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
 				    WoWProCharDB.Guide[GID].skipped[k] = true
-				    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+				    WoWProCharDB.skippedQIDs[QID] = true
 				end
 			else
 			    WoWPro:Error("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
@@ -486,7 +504,7 @@ function WoWPro:NextStep(k,i)
 			-- Mark quests as skipped that we will assume will NEVER be done.
 			if WoWPro.action[k] == "A" and standingId < 3 and repID > 3 and skip then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
-			    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+			    WoWProCharDB.skippedQIDs[QID] = true
 			end
         end
         
