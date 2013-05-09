@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2013-05-09 22:24
+-- Who: Ludovicus Maior
+-- Log: Tweaks and added the final "Bought the farm" questline.
+--	Need to think about the new dailies and quest flow around the vote quests for the next toon.
+
+-- URL: http://wow-pro.com/node/3508/revisions/25605/view
 -- Date: 2013-03-25 23:05
 -- Who: Ludovicus Maior
 -- Log: Magic Pixie Dust:  |ACH|6552;;true|
@@ -253,8 +259,10 @@ C Farmer Fung's Vote II: On the Loose|QID|30518|M|50.2,38.4;50.48,34.85|CN|NC|N|
 C Talk to Farmer Fung|QID|31534|NC|L|87553|M|48,34|N|In the market or at his farm (where the green dot is).|
 T Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.2,33.8|N|To Farmer Fung.|
 A Farmer Fung's Vote II: On the Loose|PRE|30517|QID|30518|M|48.2,33.8|N|From Farmer Fung.|
+C Farmer Fung's Vote II: On the Loose|QID|30518|M|51.6,38.4|N|Gather the Escaped Shagskin Yaks to the pen.|
 T Farmer Fung's Vote II: On the Loose|QID|30518|M|48.2,33.8|N|To Farmer Fung.|
 A Farmer Fung's Vote III: Crazy For Cabbage|PRE|30518|QID|31947|M|48.2,33.8|N|From Farmer Fung.|
+C Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|N|Plant and harvest Green Cabbages, this will take till tomorrow. Plant them and skip this step for later.|
 T Farmer Fung's Vote III: Crazy For Cabbage|QID|31947|M|48.2,33.8|N|If Farmer Fung is not at the market he is on his farm, (where the green dot is).|
 C Lost Sheepie... Again|QID|31339|M|47,37|NC|N|Pick up the sheep and take it home.|
 A A Dish for Tina|QID|30433|M|45.1,33.8|REP|Tina Mudclaw;1280;Stranger-Good Friend|N|To Tina Mudclaw - Fire Spirit Salmon - Ruby Shard. Check this off manually if you have no food or treasure for her.|
@@ -268,13 +276,13 @@ A Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|PRE|30259|M|44.14,34.27
 T Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.17,34.21|N|This can't be completed  or turned in until the next day. If Mung-Mung is not at the market he will be back at the Mudclaw Farm, (where the green dot is.)|
 
 A A Dish for Fish|QID|30427|M|41.7,30.0|REP|Fish Fellreed;1282;Stranger-Good Friend|N|To Fish Fellreed - Twin Fish Platter - Jade Cat. Check this off manually if you have no food or treasure for her.|
-C Talk to Fish|QID|31534|NC|L|87556|M|41.30|In the market or on the dock (where the green dot is).|
+C Talk to Fish|QID|31534|NC|L|87556|M|41.7,30.0|In the market or on the dock (where the green dot is).|
 K Enormous Cattail Grouper|QID|30477|T|Enormous Cattail Grouper|L|80228|M|44.52, 22.76|N|Kill and loot the very big fish.|
 K Monstrous Plainshawk|QID|30475|T|Monstrous Plainshawk|L|80232|M|41.98,41.92; 45.97,78.98; 37.36,36.98|CN|N|Kill and loot a 'Bloody Plainshawk Leg'. They are all over the place, the green dots are at spots you can pull them if you don't have a way to do long ranged damage.|
 C Blue Freshwater Pearl|QID|30476|M|43,28|N|This is found in any of the giant clams in the lake.|
 C Pick a Goldenfire Orchid|QID|30479|M|41.98,41.92; 45.97,78.98; 37.36,36.98|NC|CN|N|This is a ground spawn up on this mesa area.|
 
-A Lost and Lonely|QID|30526|REP|The Tillers;1272;revered;12600|M|42.4,50.2|N|From Lost Dog.|
+A Lost and Lonely|QID|30526|REP|The Tillers;1272;revered;12600|M|42.39,49.98|N|From Lost Dog.|
 C Weed War II|QID|30321|M|38.5,51.81|NC|N|This is just like the version you did leveling. You can stay mounted while you do it.|
 C Pest Problems|QID|30319|M|39.4,45.4|N|Click on the marmots, avoid the bug swarms as they slow you down. You can just use your own AoE abilities to make this go a lot faster.|
 C Haohan's Vote II: The Real Culprits|QID|30522|M|38,45|N|You can examine the area while still mounted.|
@@ -349,9 +357,9 @@ C Mission: Predator of the Cliffs|QID|31532|M|46.4,16.4|N|This bird is in a nest
 C Nana's Vote II: The Sacred Springs|QID|31948|U|89902|M|56,21|N|If you are careful (and land far enough away), you don't have to kill the guardian, Fill your pitcher. If you die here, you have to rez at the angel and try again.|
 
 ;Sho's one time quests|REP|1278
-T Mission: Culling The Vermin|QID|31529|M|29.5,30.6}N|To Sho, if she is not at the market, she will be where the green dot is.|
-T Mission: Aerial Threat|QID|31531|M|29.5,30.6N|To Sho, if she is not at the market, she will be where the green dot is.|
-T Mission: Predator of the Cliffs|QID|31532|M|29.5,30.6N|To Sho, if she is not at the market, she will be where the green dot is.|
+T Mission: Culling The Vermin|QID|31529|M|29.5,30.6|N|To Sho, if she is not at the market, she will be where the green dot is.|
+T Mission: Aerial Threat|QID|31531|M|29.5,30.6|N|To Sho, if she is not at the market, she will be where the green dot is.|
+T Mission: Predator of the Cliffs|QID|31532|M|29.5,30.6|N|To Sho, if she is not at the market, she will be where the green dot is.|
 
 ;Chee chee's one time quests|REP|1277|
 
@@ -371,7 +379,7 @@ T An Exquisite Earring|QID|31328|M|45.1,33.8|N|If she is not at the market, Tina
 T A Beautiful Brooch|QID|31329|M|45.1,33.8|N|If she is not at the market, Tina can be found on her family's farm.|
 
 ;turn in quests
-T Lost and Lonely|QID|30526|M|42.4,50.2|N|To Lost Dog.|
+T Lost and Lonely|QID|30526|M|42.39,49.98|N|To Lost Dog.|
 
 T Stalling the Ravage|QID|30335|M|52.23,48.83|N|To Farmer Yoon.|
 T The White Turnip Treatment|QID|31675|M|52.23,48.83|N|To Farmer Yoon.|
@@ -440,6 +448,7 @@ T A Gift For Chee Chee|QID|30471|M|53.13,51.93|N|To Chee Chee.|
 T Lost Sheepie|QID|31338|M|34.4,46.8|N|To Chee Chee, if you don't find him in the market he is at the green dot.|
 T Lost Sheepie... Again|QID|31339|M|34.4,46.8|N|To Chee Chee, if you don't find him in the market he is at the green dot.|
 T Oh Sheepie...|QID|31340|M|34.4,46.8|N|To Chee Chee, if you don't find him in the market he is at the green dot.|
+T A Wolf In Sheep's Clothing|QID|31341|PRE|31340|M|53,52|N|From Chee Chee|;33600
 A A Wolf In Sheep's Clothing|QID|31341|PRE|31340|M|53,52|N|From Chee Chee|;33600
 
 T The Kunzen Legend-Chief|QID|30326|M|41.7,30.0|N|To Fish Fellreed, also she prefers the Jade Cat.|
@@ -479,7 +488,7 @@ A Buy A Fish A Drink?|QID|31320|REP|Jogu;1273;Acquaintance|M|53.6,52.4|N|From Jo
 B Buy Four Winds Soju|QID|31320|L|81407|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
 T Buy A Fish A Drink?|QID|31320|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Round?|QID|31321|REP|Jogu;1273;Buddy|M|53.6,52.4|N|From Jogu the Drunk.|;16800 rep
-B Buy Plum Wine|ACTOVE|31321|QID|31321|L|81415 5|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
+B Buy Plum Wine|ACTIVE|31321|QID|31321|L|81415 5|M|54.96,50.47|N|Buy from Den Den the bartender in the The Lazy Turnip Inn|
 T Buy A Fish A Round?|QID|31321|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Keg?|QID|31322|REP|Jogu;1273;Friend|M|53.6,52.4|N|From Jogu the Drunk.|;25200 rep
 B Buy or Make Jade Witch Brew|ACTIVE|31322|QID|31322|L|75037 10|N|Make with cooking or buy from another player.|
@@ -493,16 +502,16 @@ A A Second Hand|QID|30534|PRE|30529|M|52,49|N|From Tillers Shrine.|
 C A Second Hand|QID|30534|N|The only advantage to which friend to pick is so that you don't have to walk as far to see Gina (quartermaster) or Jogu (crop predictions-which incidently are now free since you are exalted). So take you pick.|
 T A Second Hand|QID|30534|M|52,49|N|To Tillers Shrine.|
 
-;Fish's one time chain - requires exalted with tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)I don't know how to filter for requires the ach? can you put multiple REP tags in?
-K Enormous Cattail Grouper|M|44.52, 22.76|T|Enormous Cattail Grouper|ACH|6552;;true|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
-U Old Map|QID|31312|ACH|6552;;true|U|86404|N|Click on the map to start a quest.|
-A The Old Map|QID|31312|PRE|30529|ACH|6552;;true|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm.|
+;Fish's one time chain - requires exalted with tillers and best friend status with all the farmers (ie ach 6552 Friends on the Farm)
+K Enormous Cattail Grouper|M|44.52, 22.76|T|Enormous Cattail Grouper|ACH|6552;;true|REP|The Tillers;1272;exalted|L|86404|N|Kill and loot 'old map'. This is the final chain which rewards one of each rare gem at the end.  If you are in no hurry, you can leave this to next time Haohan gives the quest to kill the same fish. Not available until you earn the achievement Friends on the Farm.|;what QID to use?
+U Old Map|QID|31312|ACH|6552;;true|REP|The Tillers;1272;exalted|U|86404|N|Click on the map to start a quest.|
+A The Old Map|QID|31312|PRE|30529|ACH|6552;;true|REP|The Tillers;1272;exalted|N|From an 'Old Map'. Not available until you earn the achievement Friends on the Farm and are exalted with the Tillers.|
 T The Old Map|QID|31312|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
 A Just A Folk Story|QID|31313|PRE|31312|M|41.6,30|N|From Fish Fellreed.|
 C Talk to Stonecarver Mac|QID|31313|M|55.2,47.4|NC|QO|Speak to Stonecarver Mac: 1/1|
 C Talk to Old Man Whitewhiskers|QID|31313|M|54.6,47|NC|QO|Speak to Old Man Whitewhiskers: 1/1|N|He is upstairs.|
 C Talk to Grainsorter Pei|QID|31313|M|54.2,44.4|NC|QO|Speak to Grainsorter Pei: 1/1|
-C Talk to Mama Mn|QID|31313|M|56.2,45.2|NC|QO|Speak to Mama Min: 1/1|N|Inside the house.|
+C Talk to Mama Min|QID|31313|M|56.2,45.2|NC|QO|Speak to Mama Min: 1/1|N|Inside the house.|
 T Just A Folk Story|QID|31313|M|41.6,30|N|To Fish Fellreed in the market or where the green dot is.|
 A Old Man Thistle's Treasure|QID|31314|PRE|31313|M|41.6,30|N|From Fish Fellreed. The exit from the cave often bugs out, if your hearthstone is down, you may want to wait a few minutes to do this quest.|
 C Old Man Thistle's Treasure|QID|31314|M|37.23,23.84|NC|QO|Find the cave entrance: 1/1|N|Click to remove the rubble, you should get discover credit.|
@@ -510,6 +519,11 @@ C Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|QO|Find Old Man Thistle's Tre
 T Old Man Thistle's Treasure|QID|31314|M|31.4,53.4|N|To Hidden Treasure.|
 A The Heartland Legacy|QID|31315|PRE|31314|M|31.4,53.4|N|From Hidden Treasure. Often the exit (entrance/rockfall) is bugged, so be ready to hearth out (or die).|
 T The Heartland Legacy|QID|31315|N|To Seedkeeper Shing Sing, inside a cave in Halfhill, (who knew there was a cave here...} Her seed vault is to the left of Stonecarver Mac's house, hidden behind some bushes.|
+
+; He sold the farm
+A Inherit the Earth|QID|32682|PRE|30529|REP|The Tillers;1272;exalted|M|54.67,47.04|N|From Nana Mudclaw.  This will give you access to Farmer Yoon's new dailies.|
+C Inherit the Earth|QID|32682|M|52.25,48.79|NC|N|To Farmer Yoon, Ask him to join the council.|
+T Inherit the Earth|QID|32682|M|54.67,47.04|N|To Nana Mudclaw. New dailies are from a post where he used to be, and now Yoon is in the Marketplace.|
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 

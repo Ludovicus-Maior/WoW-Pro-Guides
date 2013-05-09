@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
+-- Date: 2013-05-09 22:31
+-- Who: Ludovicus Maior
+-- Log: Added [Riding the Skies].
+
+-- URL: http://wow-pro.com/node/3505/revisions/25604/view
 -- Date: 2013-03-25 23:00
 -- Who: Ludovicus Maior
 -- Log: Removed the now gone leadin quests, fixed some names, and a few other tweaks.
@@ -77,6 +82,7 @@ C It's A...|QID|30142|M|57.56,45.07|N|To Instructor Skythorn.|
 ;one time chain at revered
 B Grand Commendation|M|56.6,44.4|REP|Order of the Cloud Serpent;1271;revered|L|93229|N|If this is your first character to revered, dont forget to buy the Grand Commendation so that the rest of the rep grind will go faster. It is sold by San Redscale.|
 A They Grow Like Weeds|QID|30143|M|57.60,44.94|PRE|30142|REP|Order of the Cloud Serpent;1271;revered|N|From Elder Anli.|
+C They Grow Like Weeds|QID|30143|M|58.6,43.6|N|Talk to Instructor Windblade and watch the cinematic.|QO|Speak to Instructor Windblade: 1/1|
 T They Grow Like Weeds|QID|30143|M|58.6,43.6|N|To Instructor Windblade.|
 A Flight Training: Ring Round-Up|QID|30144|PRE|30143|M|58.6,43.6|N|From Instructor Windblade.|
 C Flight Training: Ring Round-Up|QID|30144|NC|M|58.6,43.6|N|Hop on your hatchling and fly thru six cloud rings.|
@@ -98,6 +104,10 @@ C Flight Training: In Due Course|QID|30187|NC|M|58.69,46.66|QO|Checkpoints passe
 C Flight Training: In Due Course|QID|30187|NC|M|58.33,46.29|
 T Flight Training: In Due Course|QID|30187|M|58.6,43.6|N|To Instructor Windblade.|
 
+;Congrats!
+A Riding the Skies|QID|31810;31811;30188|M|57.60,44.94|PRE|30142|REP|Order of the Cloud Serpent;1271;exalted|N|From Elder Anli.|
+T Riding the Skies|QID|31810;31811;30188|M|57.60,44.94|PRE|30142|REP|Order of the Cloud Serpent;1271;exalted|N|To Elder Anli.|
+
 N Onyx To Goodness|QID|31784|N|if you don't want to do dailies skip the pickup quests steps and following that is a step with all the potential egg spawns marked.  TIP: find someone on a low pop realm to invite you there to search for eggs.|
 A Jenova Longeye's Quests|QID|30146;30147;30148;30149|M|57.31,45.34|N|Grab any and all quests from from Jenova Longeye (except perhaps Fragments of the Past, if your archy isn't high enough to dig in Pandaria...she offers it anyway). She has the quests which use your secondary professions. This step will close when you pick up the first quest.|
 A Elder Anli's Quests|QID|31699;31700;31713;31701;31702;31703;31705;31711;31717;31718;31719;31720;31721|M|57.60,44.94|N|Grab any and all quests from from Elder Anli. This step will close when you pick up the first quest.|
@@ -105,7 +115,7 @@ A Two other quests somewhere|QID|30157;30152;30159;31709;31714;31055;30158;31698
 
 ;these could be sticky...but too many sticky steps clutter the window (and to quote Thomas the Tank, add 'confusion and delay'.
 C Dig - Fragments of the Past|QID|30147|P|Archaeology;794;525|M|44.93,73.36|NC|N|Find a digsite, dig. If you have a patient archeologist friend, you can do this even if your acheology isn't high enough, friend digs, and you kill the mobs in the imediate area can drop these too(particularly those that spawn upon picking up an artifact), you can abandon the quest or manually check this step off if you aren't going to do it.|
-C Fish - Snack Time|QID|30146|NC|N|Any fish caught will also catch a sugar minnow while on this quest.|
+C Fish - Snack Time|QID|30146|NC|N|Any fish caught may catch a sugar minnow while on this quest.|
 C Cook - A feast for the Senses|NC|QID|30149|N|Cook 5 fish cakes - requires 10 golden carp (or get them from someone else).|
 C First Aid - Just a Flesh Wound|NC|QID|30148|L|72985 8|N|Make 8 windwool bandages, if you prefer to use heavy windwool check this step off manually.|
 C First Aid - Just a Flesh Wound|NC|QID|30148|L|72986 8|N|Make 8 heavy windwool bandages, if you prefer to use regular windwool check this step off manually.|;autocomplete is based on you having the bandages in your inventory.
@@ -140,7 +150,7 @@ C The Sky Race|QID|30152|NC|M|58.69,46.66|QO|Checkpoints passed: 10/10|
 C The Sky Race|QID|30152|NC|M|58.33,46.29|
 
 ;sri-la village
-C The Big Brew-haha|QID|31713|M|55,26|S|N|Drops from the mobs you are killing as well as being a ground spawn in Sri-La village.|
+C The Big Brew-haha|QID|31713|M|57.94,27.48|S|N|Drops from the mobs you are killing as well as being a ground spawn in Sri-La village.|
 C A Tangled Web|QID|31707|M|58,32|S|N|Attack the 'widow's web', sometimes they will be villagers, other victims you will need to kill.|
 C Serpent's Scale|QID|31708|M|58,32|S|NC|N|These are mushrooms found in the cave.|
 C Tiny Treats|QID|31710|M|58.19,31.96|S|N|Drops from the tiny spiders in the cave.|

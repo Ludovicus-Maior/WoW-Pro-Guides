@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
+-- Date: 2013-05-09 22:16
+-- Who: Ludovicus Maior
+-- Log: Fixed [*Gurgle* HELP! *Gurgle*]
+
+-- URL: http://wow-pro.com/node/3223/revisions/24601/view
 -- Date: 2011-06-25 01:44
 -- Who: Crackerhead22
 -- Log: ! Duplicate T step for qid 28325 - Removed line.
@@ -138,9 +143,9 @@ T Preemptive Strike|QID|28356|M|49.15,66.34|N|To Helcular.|
 
 T Helcular's Rod Giveth...|QID|28331|M|49.15,66.34|N|To Helcular.|
 T Helcular's Command|QID|28332|M|49.15,66.34|N|To Helcular.|
-A Can You Smell What the Lok'tar is Cooking?|QID|28344|M|49.15,66.34|N|From Helcular.|PRE|28331;28332|
+A Can You Smell What the Lok'tar is Cooking?|QID|28344|M|49.15,66.34|N|From Helcular.|PRE|28331;28332;28096|
 T Can You Smell What the Lok'tar is Cooking?|QID|28344|M|49.56,74.37|N|To Kingslayer Orkus.|
-A *Gurgle* HELP! *Gurgle*|QID|28345|M|49.56,74.37|N|From Kingslayer Orkus.|PRE|28344|
+A *Gurgle* HELP! *Gurgle*|QID|28345|M|49.56,74.37|N|From Kingslayer Orkus.|PRE|28096|
 C *Gurgle* HELP! *Gurgle*|QID|28345|M|49.56,74.37|N|Speak to Orkus to complete the quest.|
 T *Gurgle* HELP! *Gurgle*|QID|28345|M|49.99,74.38|N|To Kingslayer Orkus.|
 A Stormpike Rendezvous|QID|28348|M|49.99,74.38|N|From Kingslayer Orkus.|PRE|28345|

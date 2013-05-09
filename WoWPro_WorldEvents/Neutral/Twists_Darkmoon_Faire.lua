@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2013-05-09 22:10
+-- Who: Ludovicus Maior
+-- Log: Minor tweaks.
+
+-- URL: http://wow-pro.com/node/3459/revisions/25552/view
 -- Date: 2013-03-16 19:19
 -- Who: Ludovicus Maior
 -- Log: zone updates and spelling correction for Jubjub.
@@ -216,7 +221,7 @@ T Tonk Commander|QID|29434|M|50.51,64.77|N|To Finlay Coolshot.|
 T The Darkmoon Faire|QID|7905|M|48.10,64.88|N|To Gelvas Grimegate.|FACTION|Alliance|
 T The Darkmoon Faire|QID|7926|M|48.10,64.88|N|To Gelvas Grimegate.|FACTION|Horde|
 
-T Test Your Strength|QID|29433|M|48.06,67.05|N|To Kerri Hicks.|;yes the T is before the A on purpose, since you will never be turning it in on the same trip to the faire.
+T Test Your Strength|QID|29433|M|48.06,67.05|N|To Kerri Hicks.|L|71096 250|
 A Test Your Strength|QID|29433|M|48.06,67.05|N|From Kerri Hicks.|
 
 A Putting the Crunch in the Frog|QID|29509|M|52.88,67.92|N|From Stamp Thunderhorn.|P|Cooking;185;75|
@@ -256,7 +261,7 @@ N Collect 6 Darkblossom|QID|29514|L|72046 6|S|
 C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|S|
 N Collect 5 Bits of Glass|QID|29516|N|Green sparkling Gems.|L|72052 5|S|
 
-C Putting the Carnies Back Together Again|QID|29512|NC|M|54.87,70.75;47.44,74.85|CN|N|Use the bandage on Carnies.|U|71978|
+C Putting the Carnies Back Together Again|QID|29512|NC|M|54.87,70.75;47.44,74.85|CN|N|Use the bandage on Carnies.|U|71978|T|Injured Carnie|
 C Herbs for Healing|QID|29514|US|NC|
 T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
