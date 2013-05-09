@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2013-05-01 19:01
+-- Who: Twists
+
+-- URL: http://wow-pro.com/node/3279/revisions/25592/view
 -- Date: 2013-03-23 20:27
 -- Who: Ludovicus Maior
 -- Log: Quest name cleanups
@@ -101,7 +105,7 @@ A Wanted: Giselda the Crone|QID|9936|M|54.65,70.80|N|From the Telaar Bulletin Bo
 A Wanted: Zorbo the Advisor|QID|9940|M|54.65,70.80|N|From the Telaar Bulletin Board.|
 T A Message to Telaar |QID|9792|M|54.8,71.0|N|To Nahuud.|
 A The Throne of the Elements |QID|9869|M|55.5,68.8|N|From Elementalist Ioki.|
-A Solving the Problem |QID|9878|M|54.5,72.2|N|Frmo Poli'lukluk the Wiser.|
+A Solving the Problem |QID|9878|M|54.5,72.2|N|From Poli'lukluk the Wiser.|
 A Stopping the Spread |QID|9874|M|54.5,72.2|N|From Otonbu the Sage.|
 A The Ravaged Caravan |QID|9956|M|54.2,70.0|N|From Huntress Kima. She wanders around the village.|
 f Telaar |QID|10251|N|Get the flight path.|M|54.20,75.05|
