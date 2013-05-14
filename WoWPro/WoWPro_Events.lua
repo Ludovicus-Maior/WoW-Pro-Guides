@@ -513,7 +513,7 @@ function WoWPro.EventHandler(frame, event, ...)
     if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
-        WoWPro:dbp("Quest is [%s], matching [%s]",questtitle,WoWPro.step[qidx])
+        WoWPro:dbp("Quest is [%s], matching [%s]",tostring(questtitle),tostring(WoWPro.step[qidx]))
 		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
 		    CompleteQuest()
 		end  
