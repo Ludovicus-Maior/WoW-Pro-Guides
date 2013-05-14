@@ -434,19 +434,12 @@ function WoWPro:NextStep(k,i)
 				    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
 				    WoWProCharDB.Guide[GID].skipped[k] = true
 				    WoWProCharDB.skippedQIDs[QID] = true
+				    WoWPro:dbp("Prof permaskip qid %s for no %s",WoWPro.QID[k],prof)
 				end
 			else
 			    WoWPro:Error("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
 			end
-			if (WoWPro.action[k] == "A" and not hasProf) or (skip == true) then
-			    -- If they do not have the profession or the step is below their level, mark the step and quest as skipped
-			    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
-			    WoWProCharDB.Guide[GID].skipped[k] = true
-			    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
-			end
-
 		end
-        
         
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep and WoWPro.rep[k] and not skip then
@@ -459,8 +452,21 @@ function WoWPro:NextStep(k,i)
 			rep = string.lower(rep)
 			factionIndex = tonumber(factionIndex)
 			repID = string.lower(repID)
-			repmax = string.lower(repmax) 
-			replvl = tonumber(replvl) or 0
+			repmax = string.lower(repmax)
+			if replvl and (not tonumber(replvl)) then
+			    replvl =  string.lower(replvl)
+			    if replvl == "bonus" then
+			        replvl = true
+			    elseif replvl == "nobonus" then
+			        replvl = false
+			    else
+			        self:Error("Bad [%s] replvl [%s] found.  Defaulting to 0",rep,replvl)
+			        replvl = 0
+			    end
+			    self:dbp("Special replvl converted to %s",tostring(replvl))
+			else
+			    replvl = tonumber(replvl) or 0
+			end
 
 
             -- Extract lower bound rep
@@ -481,7 +487,7 @@ function WoWPro:NextStep(k,i)
             
 			skip = true --reputation steps skipped by default
 			
-			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
+			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, hasBonusRepGain
 			local friendID, friendRep, friendMaxRep, friendName, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold
 			if Friendship then
 			    friendID, friendRep, friendMaxRep, name, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(factionIndex);
@@ -491,15 +497,22 @@ function WoWPro:NextStep(k,i)
 			    bottomValue = 0
 			    self:dbp("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
 			else
-			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
-                self:dbp("Faction %s: standing %d, earned %d, bottomValue %d",name,standingId,earnedValue,bottomValue)
+			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild , _, hasBonusRepGain = GetFactionInfoByID(factionIndex)
+                self:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s",name,standingId,earnedValue,bottomValue,tostring(hasBonusRepGain))
                 earnedValue = earnedValue - bottomValue
 			end
 
-			if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
+            if type(replvl) == "boolean" then
+                if not(replvl) == not(hasBonusRepGain) then
+                    skip = false
+                end
+                self:dbp("Special replvl %s vs hasBonusRepGain %s, skip is %s",tostring(replvl),tostring(hasBonusRepGain),tostring(skip))
+            end 
+
+			if type(replvl) == "number" and (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
 			end
-			if (replvl > 0) then
+			if type(replvl) == "number" and (replvl > 0) then
 				if (repID < standingId) then
 				    self:dbp("** [%s] Spec %s repID %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repID), tostring(standingId))
 					skip = false 
@@ -876,6 +889,10 @@ function WoWPro:GrailQuestPrereq(qid)
     local preReq = Grail:QuestPrerequisites(qid)
     local PREstr = nil
     if not preReq then return nil end
+    if type(preReq) == "string" then
+        WoWPro:Warning("Why did Grail:QuestPrerequisites(%s) return '%s'?",tostring(qid),preReq)
+        return nil
+    end
     for i,p in ipairs(preReq) do
         if( string.sub(tostring(p),1,1) == "B" ) then
             p = string.sub(p,2);
