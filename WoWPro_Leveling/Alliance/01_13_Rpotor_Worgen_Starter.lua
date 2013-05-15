@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2013-05-14 15:43
+-- Who: Ludovicus Maior
+-- Log: Changed name from [Arcane Missiles] to [Frost Nova]
+
+-- URL: http://wow-pro.com/node/3211/revisions/25584/view
 -- Date: 2013-03-23 20:07
 -- Who: Ludovicus Maior
 -- Log: Quest name correction [Learning the Word]
@@ -213,7 +218,7 @@ A Eviscerate |QID|14272|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|From Loren the Fence
 A Immolate |QID|14274|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|
 A Steady Shot |QID|14276|Z|GilneasCity|M|71.3,61.4|C|Hunter|N|From Huntsman Blake.|
 A Learning the Word |QID|14279|Z|GilneasCity|M|68.2,64.8|C|Priest|N|From Sister Almyra.|
-A Arcane Missles |QID|14281|Z|GilneasCity|M|70.5,65.2|C|Mage|N|From Myriam Spellwaker.|
+A Frost Nova |QID|14281|Z|GilneasCity|M|70.5,65.2|C|Mage|N|From Myriam Spellwaker.|
 A Healing Touch |QID|14283|Z|GilneasCity|M|70.2,65.7|C|Druid|N|From Celestine of the Harvest.|
 
 C Charge |QID|14266|Z|GilneasCity|M|66.9,64.2|C|Warrior|N|Train Charge from your trainer and then practice it on a Bloodfang Worgen.|
@@ -221,7 +226,7 @@ C Eviscerate |QID|14272|Z|GilneasCity|M|66.9,64.2|C|Rogue|N|Train Eviscerate fro
 C Immolate |QID|14274|Z|GilneasCity|M|66.9,64.2|C|Warlock|N|Train Immolate from your trainer and then practice it on a Bloodfang Worgen.|
 C Steady Shot |QID|14276|Z|GilneasCity|M|66.9,64.2|C|Hunter|N|Train Steady Shot from your trainer and then practice it on a Bloodfang Worgen.|
 C Learning the Word |QID|14279|Z|GilneasCity|M|68.2,64.8|C|Priest|N|Train Flash Heal from your trainer and then practice it on a Wounded Guard.|
-C Arcane Missles |QID|14281|Z|GilneasCity|M|66.9,64.2|C|Mage|N|Train Arcane Missles from your trainer and then practice it on a Bloodfang Worgen.|
+C Frost Nova |QID|14281|Z|GilneasCity|M|66.9,64.2|C|Mage|N|Train Frost Nova from your trainer and then practice it on a Bloodfang Worgen.|
 C Healing Touch |QID|14283|Z|GilneasCity|M|70.2,65.7|C|Druid|N|Train Healing Touch from your trainer and then practice it a Wounded Guard.|
 
 T Charge |QID|14266|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|To Sergeant Cleese.|
@@ -229,7 +234,7 @@ T Eviscerate |QID|14272|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|To Loren the Fence.|
 T Immolate |QID|14274|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|To Vitus Darkwalker.|
 T Steady Shot |QID|14276|Z|GilneasCity|M|71.3,61.4|C|Hunter|N|To Huntsman Blake.|
 T Learning the Word |QID|14279|Z|GilneasCity|M|70.5,65.2|C|Priest|N|To Sister Almyra.|
-T Arcane Missles |QID|14281|Z|GilneasCity|M|68.2,64.8|C|Mage|N|To Myriam Spellwaker.|
+T Frost Nova |QID|14281|Z|GilneasCity|M|68.2,64.8|C|Mage|N|To Myriam Spellwaker.|
 T Healing Touch |QID|14283|Z|GilneasCity|M|70.2,65.7|C|Druid|N|To Celestine of the Harvest.|
 
 A Safety in Numbers |QID|14286|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|

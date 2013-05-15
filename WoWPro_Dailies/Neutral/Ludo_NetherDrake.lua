@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- Date: 2013-05-14 18:59
+-- Who: Ludovicus Maior
+-- Log: Bad quest names and coords
+
+-- URL: http://wow-pro.com/node/3455/revisions/25423/view
 -- Date: 2013-01-13 15:01
 -- Who: Ludovicus Maior
 -- Log: Added CN and CS tags
@@ -89,7 +94,7 @@ A The Deadliest Trap Ever Laid|QID|11101|PRE|11100|M|62.4,29.2|REP|Aldor;932|N|F
 C The Deadliest Trap Ever Laid|QID|11101|REP|Aldor;932|N|Concentrate on protecting Commander Arcus.|
 T The Deadliest Trap Ever Laid|QID|11101|M|66.22,85.65|REP|Aldor;932|N|To Overlord Mor'ghor.|
 
-A Overseeing and You: Making the Right Choices|QID|11054|PRE|11053|M|REP|Netherwing;1015;friendly|66.84,86.10|From Chief Overseer Mudlump.|
+A Overseeing and You: Making the Right Choices|QID|11054|PRE|11053|REP|Netherwing;1015;friendly|M|66.84,86.10|From Chief Overseer Mudlump.|
 K Tyrantus|QID|11054|PRE|11053|M|46.0,7.6|Z|Netherstorm|N|In the dome.|
 B Knothide Leather|QID|11054|PRE|11053|L21887 10|Z|Netherstorm|N|In the dome.|
 T Overseeing and You: Making the Right Choices|QID|11054|PRE|11053|M|66.84,86.10|To Chief Overseer Mudlump.|
@@ -122,12 +127,12 @@ B Adamantite Frame|QID|11089|L|23784|N|Buy a Frame on the AH.|
 B Khorium Power Core|QID|11089|L|23786|N|Buy a Power Core at the AH.|
 R Sar'This|QID|11089|M|44.82,42.48|Z|Terokkar Forest|N|Talk to Sar'this and then follow him around killing everything.|
 K Flawless Arcane Elemental|QID|11089|M|44.15,40.84|Z|Terokkar Forest|N|Kill the elemental and loot the Flawless Arcane Essence|
-T The Soul Cannon of Reth'hedron|QID|11089|M|66.2,85.6|Z|Shadowmoon|REP|Netherwing;1015;honored|N|To Illidari Lord Balthas.|
-A Subdue the Subduer|QID|11089|PRE|11089|M|66.2,85.6|REP|Netherwing;1015;honored|N|From Illidari Lord Balthas.|
+T The Soul Cannon of Reth'hedron|QID|11089|M|66.2,85.6|REP|Netherwing;1015;honored|N|To Illidari Lord Balthas.|
+A Subdue the Subduer|QID|11090|PRE|11089|M|66.2,85.6|REP|Netherwing;1015;honored|N|From Illidari Lord Balthas.|
 A Disrupting the Twilight Portal|QID|11086|M|66.22,85.65|REP|Netherwing;1015;honored-revered|N|From Overlord Mor'ghor.|
-K Reth'hedron the Subduer|QID|11089|M|10.8,39.0|Z|Nagrand|N|Use the soul cannon on him early and keep flying around. Behind the right pillar is rumored to be a good spot to hide|
+K Reth'hedron the Subduer|QID|11090|M|10.8,39.0|Z|Nagrand|N|Use the soul cannon on him early and keep flying around. Behind the right pillar is rumored to be a good spot to hide|
 C Disrupting the Twilight Portal|QID|11086|M|12.44,37.91|Z|Nagrand|N|Fly to Nagrand|
-T Subdue the Subduer|QID|11089|M|66.2,85.6|REP|Netherwing;1015;honored|N|From Illidari Lord Balthas.|
+T Subdue the Subduer|QID|11090|M|66.2,85.6|REP|Netherwing;1015;honored|N|From Illidari Lord Balthas.|
 T Disrupting the Twilight Portal|QID|11086|M|66.22,85.65|REP|Netherwing;1015;honored-revered|N|To Overlord Mor'ghor.|
 
 N A Job Unfinished...|LEAD|11041|REP|Netherwing;1015;neutral|N|This quest may be hard for you to solo, a buddy might help|
@@ -136,8 +141,8 @@ A A Job Unfinished...|QID|11041|U|32621|REP|Netherwing;1015;neutral|N|Click on t
 C A Job Unfinished...|QID|11041|M|70.6,84.6|N|Work your way to the den mother, clearing out 10 Overmine Flayers|
 T A Job Unfinished...|QID|11041|M|66.2,85.6|N|From Overlord Mor'ghor.|
 
-A Your Friend on the Inside|QID|11019|M|66.0,86.47|N|From Yarzill the Merc.|
-T Your Friend on the Inside|QID|11019|M|66.0,86.47|N|To Yarzill the Merc.|
+A Your Friend On The Inside|QID|11019|M|66.0,86.47|N|From Yarzill the Merc.|
+T Your Friend On The Inside|QID|11019|M|66.0,86.47|N|To Yarzill the Merc.|
 
 A A Slow Death|QID|11020|PRE|11019|M|66.0,86.47|REP|Netherwing;1015;neutral-revered|N|From Yarzill the Merc.|
 A The Not-So-Friendly Skies...|QID|11035|PRE|11019|M|66.0,86.47|REP|Netherwing;1015;neutral-revered|N|From Yarzill the Merc.|
@@ -164,7 +169,6 @@ T The Booterang: A Cure For The Common Worthless Peon|QID|11055|M|66.84,86.10|To
 
 T The Netherwing Mines|QID|11075|M|63.0,87.8;65.4,90.2|CN|N|To Mistress of the Mines.|
 A Picking Up The Pieces...|QID|11076|PRE|11075|M|63.0,87.8;65.4,90.2|CN|REP|Netherwing;1015;friendly-revered|N|From a Mistress of the Mines.|
-N Picking Up The Pieces...|QID|11076|N|When you kill oozes, ???|
 A Dragons are the Least of Our Problems|QID|11077|PRE|11075|M|65.4,89.2|REP|Netherwing;1015;friendly-revered|N|Look for the foreman in the mine.|
 A Crazed and Confused|QID|11083|M|71.57,87.62|REP|Netherwing;1015;friendly|N|From Ronag the Slave Driver.|
 
@@ -173,7 +177,7 @@ C Crazed and Confused|QID|11083|M|71.57,87.62|N|Slay the Crazed Murkblood Forema
 T Crazed and Confused|QID|11083|M|71.57,87.62|N|From Ronag the Slave Driver.|
 
 C Dragons are the Least of Our Problems|QID|11077|M|71.88,83.12|QO|N|Kill Nethermine Flayers and Nethermine Ravagers.|
-C Picking Up The Pieces...|QID|11076|M||N|Recover Nethermine Cargo crates|
+C Picking Up The Pieces...|QID|11076|N|Recover Nethermine Cargo crates|
 
 T Dragons are the Least of Our Problems|QID|11077|PRE|11075|M|65.4,89.2|N|Look for the foreman in the mine.|
 T Picking Up The Pieces...|QID|11076|PRE|11075|M|63.0,87.8;65.4,90.2|CN|N|To a Mistress of the Mines.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2013-05-14 15:39
+-- Who: Ludovicus Maior
+-- Log: Bad M coords!
+
+-- URL: http://wow-pro.com/node/3291/revisions/25414/view
 -- Date: 2013-01-13 14:37
 -- Who: Ludovicus Maior
 -- Log: Added CC tag
@@ -359,7 +364,7 @@ A Chasing Icestorm: The 7th Legion Front |QID|12466|M|85.9,50.9|N|From Ambo Cash
 
 R Wintergarde Keep |QID|12466|M|75.6,50.2|
 N Sell junk, repair, restock. |QID|12466|N|Sell junk, repair, restock.|M|77.82,50.74|
-T Wanted: Kreug Oathbreaker |QID|12438|N|To Highlord Leoric Von Zeldig.|M|77.8.50.2|
+T Wanted: Kreug Oathbreaker |QID|12438|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
 h Wintergarde Keep |QID|12466|N|Go to the inn and make it your home location.|M|77.42,51.63|
 
 R Bronze Dragonshrine |QID|12466|N|Exit Wintergarde Keep by the northern gate, then ride northwest to the Bronze Dragonshrine .|M|72.00,38.00|
@@ -579,8 +584,8 @@ T The Return of the Crusade? |QID|12476|M|78.6,48.2|N|To Commander Lynore Windst
 T The Path of Redemption |QID|12477|M|78.6,48.2|N|To High Commander Halford Wyrmbane.|
 T What Secrets Men Hide |QID|12475|M|79.1,47.2|N|To Zelig the Visionary.|
 A Frostmourne Cavern |QID|12478|M|79.1,47.2|N|From Zelig the Visionary.|
-T Wanted: High Shaman Bloodpaw |QID|12441|N|To Highlord Leoric Von Zeldig.|M|77.8.50.2|
-T Wanted: Onslaught Commander Iustus |QID|12442|N|To Highlord Leoric Von Zeldig.|M|77.8.50.2|
+T Wanted: High Shaman Bloodpaw |QID|12441|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
+T Wanted: Onslaught Commander Iustus |QID|12442|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
 R Frostmourne Cavern |QID|12478|N|Head to Frostmourne Cavern.|M|74.00,23.00|
 C Frostmourne Cavern |QID|12478|U|37933|N|At the end of the cavern you'll find the Altar of Frostmourne. Use Zelig's Scrying Orb. Enjoy the script, then you'll get a quest complete message.|M|75.1,20.2|
 T Frostmourne Cavern |QID|12478|M|79.1,47.2|N|To Zelig the Visionary.|

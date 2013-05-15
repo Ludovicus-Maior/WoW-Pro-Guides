@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2013-05-14 19:32
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3503/revisions/25534/view
 -- Date: 2013-02-18 06:25
 -- Who: Emmaleah
 -- Log: Fixed type "Naster" x3
@@ -59,7 +63,7 @@ N Golden Lotus first|N|You need to be revered with the Golden Lotus before you c
 N Regular Leveling Quests|N|If you haven't done the questlines in Temple of the Jade Serpant (Jade Forest), Temple of Red Crane (Krasarang Wildes) Temple of the White Tiger(Kun-Lai Summit) and Niuzeo's temple (Townlong Steppes) you probably want to, since those quest chains each offor August Celestials rep.  It is not required to have done them before doing the dailies.|
 
 ;intro quest - one time - not necesary - may be deprecated in 5.1?
-T A Celestial Task!|QID|32011|FACTION|Alliance|M|84.6,63.6|N|To Sage Whiteheart. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
+T A Celestial Task|QID|32011|FACTION|Alliance|M|84.6,63.6|N|To Sage Whiteheart. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
 T A Celestial Task!|QID|32010|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
 
 ;pointer quests - alliance

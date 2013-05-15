@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2013-05-14 15:48
+-- Who: Ludovicus Maior
+-- Log: Corrected coords for C [The Fargodeep Mine]
+
+-- URL: http://wow-pro.com/node/3197/revisions/25585/view
 -- Date: 2013-03-23 20:11
 -- Who: Ludovicus Maior
 -- Log: Many quest name updates
@@ -377,7 +382,7 @@ T Princess Must Die!|QID|88|M|34.66,84.48|N|To Ma Stonefield.|
 
 C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|S|
 C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|S|
-C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest completed message.|QID|62|M|38.96,82.27;39.05,81.59,39.56,80.32|NC|CS|
+C The Fargodeep Mine|N|Enter the mine and follow the way until you get a quest completed message.|QID|62|M|38.96,82.27;39.05,81.59;39.56,80.32|NC|CS|
 C Kobold Candles|N|Kill Kobolds until you have 8 Kobold Candles.|QID|60|US|
 C Gold Dust Exchange|N|Kill Kobolds until you have 10 Gold Dust.|QID|47|US|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2013-05-14 15:19
+-- Who: Ludovicus Maior
+-- Log: Removed extra M tag
+
+-- URL: http://wow-pro.com/node/3476/revisions/25411/view
 -- Date: 2013-01-13 14:31
 -- Who: Ludovicus Maior
 -- Log: Added CC and CN tag
@@ -79,7 +84,7 @@ A One of Three|QID|13666;13669;13670|LEAD|13679|M|76.47,19.40|N|From Arcanist Ta
 A Learning The Reins|QID|13625|LEAD|13679|M|76.47,19.46|N|From Scout Shalyndria.|
 A Training In The Field|QID|13671|LEAD|13679|M|76.44,19.35|N|From Avareth Swiftstrike.|
 
-C Learning The Reins|QID|13625|M||N|Mount up and go practice on the fields.|U|46069|
+C Learning The Reins|QID|13625|N|Mount up and go practice on the fields.|U|46069|
 C Training In The Field|QID|13671|M|70, 62|N|Equil your regular weapon and go kill any Scourge|
 C A Blade Fit For A Champion|QID|13666|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
 C A Worthy Weapon|QID|13669|M|68.75,76.38;72.62,73.12;70.56,74.71|L|194213 4|CN|N|Pick flowers along the Ironwall Dam.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2013-05-14 15:40
+-- Who: Ludovicus Maior
+-- Log: Corrected name of [Military?  What Military?]
+
+-- URL: http://wow-pro.com/node/3289/revisions/25366/view
 -- Date: 2013-01-12 18:59
 -- Who: Ludovicus Maior
 -- Log: Added CN and CC tags
@@ -133,8 +138,8 @@ A Thassarian, My Brother |QID|11599|M|58.7,68.4|N|From Leryssa.|
 A Distress Call |QID|11707|N|Jump out of the inn, then accept this from Airman Skyhopper.|M|58.81,68.65|
 R Farshire|QID|11928|N|Take the north exit from town to get to Farshire.|M|58.15,62.75|
 T Farshire |QID|11928|N|To Gerald Green.|M|58.15,62.75|
-A Military? What Military?|QID|11901|M|58.2,62.8|N|From Gerald Green.|
-T Military? What Military?|QID|11901|N|Head inside the mine and turn this quest in at the sack of Plagued Grain.|M|56.82,55.67|
+A Military?  What Military?|QID|11901|M|58.2,62.8|N|From Gerald Green.|
+T Military?  What Military?|QID|11901|N|Head inside the mine and turn this quest in at the sack of Plagued Grain.|M|56.82,55.67|
 A Pernicious Evidence|QID|11902|M|56.8,55.6|N|From Plagued Grain.|
 T Thassarian, My Brother|QID|11599|N|Go a little further into the mine to turn this one in at the corpse of William Allerton.|M|56.05,55.46|
 

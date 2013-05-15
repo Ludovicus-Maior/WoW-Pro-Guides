@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
+-- Date: 2013-05-14 19:16
+-- Who: Ludovicus Maior
+-- Log: Extra M tag
+
+-- URL: http://wow-pro.com/node/3479/revisions/25396/view
 -- Date: 2013-01-12 22:43
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -33,7 +38,7 @@ T Annals of the Silver Hand|QID|28755|M|76,51|N|To Lord Raymond George.|
 N Aberrations of Bone|N|This quest can also be repeated, you need to reset the instance.|
 A Aberrations of Bone|QID|28756|M|76,51|N|From Lord Raymond George. 1000 rep. Level 40 Dungeon.|
 F Scholomance|QID|28756|M|70.7,71.0|Z|Western Plaguelands|N|Fly to Scholomance|
-N Aberrations of Bone|QID|28756|M||Z|Scholomance|N|Jup off the bridge to the right side to skip the first set of mobs.|
+N Aberrations of Bone|QID|28756|Z|Scholomance|N|Jump off the bridge to the right side to skip the first set of mobs.|
 C Aberrations of Bone|QID|28756|M|30,65|Z|Scholomance|N|Kill Rattlegore.|
 T Aberrations of Bone|QID|28756|M|76,51|N|From Lord Raymond George.|
 

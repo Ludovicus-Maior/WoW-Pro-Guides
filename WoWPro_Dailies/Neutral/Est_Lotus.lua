@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2013-05-14 18:48
+-- Who: Ludovicus Maior
+-- Log: Bad coord for Baolai the Immolator
+
+-- URL: http://wow-pro.com/node/3502/revisions/25615/view
 -- Date: 2013-05-09 22:20
 -- Who: Ludovicus Maior
 -- Log: Fixes around [Battle XXX of the Thunder King] quests.
@@ -333,8 +338,8 @@ T Backed Into a Corner|QID|30286|N|To Sun Tenderheart.|M|35.12,75.37|
 A Next Random Daily in the line|QID|30296;30297;31296;31297|PRE|31243+31246|N|The next quest is randomly offered by either Rook Stonetoe or Sun Tenderheart.|M|35.28,74.92;35.12,75.37|CN|
 C Gaohun the Soul-Severer|QID|30296|ACH|7317;9|N|Kill Gaohun on the plateau next to the village. He casts a damaging ground effect under your feet as well as a "Spirit Cage" which will lock you in with several adds if you don't move out of it quickly enough. Just keep moving a lot and he shouldn't be too difficult. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|39.00,75.00|
 C Gaohun the Soul-Severer|QID|30296|N|Kill Gaohun on the plateau next to the village. He casts a damaging ground effect under your feet as well as a "Spirit Cage" which will lock you in with several adds if you don't move out of it quickly enough. Just keep moving a lot and he shouldn't be too difficult. You will get credit for the kill, even if another player attacked him first.|M|39.00,75.00|
-C Baolai the Immolator|QID|30297|ACH|7317;8|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|37.40,81,20|
-C Baolai the Immolator|QID|30297|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first.|M|37.40,81,20|
+C Baolai the Immolator|QID|30297|ACH|7317;8|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|37.40,81.20|
+C Baolai the Immolator|QID|30297|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first.|M|37.40,81.20|
 T Gaohun the Soul-Severer|QID|30296|N|To Rook Stonetoe.|M|35.28,74.92|
 T Baolai the Immolator|QID|30297|N|To Rook Stonetoe.|M|35.28,74.92|
 
