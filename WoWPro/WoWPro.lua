@@ -474,7 +474,28 @@ else
     
 end
 
+-- Carbonite - TomTom profile hack Section
+do
+	if TomTom and Nx then
+		local tom = TomTom
+		
+		if not tom["db"] then
+			tom["db"] = {
+				profile = {
+					arrow = {
+						arrival = 10,
+						setclosest = false,
+					},
+					persistence = {
+						cleardistance = 0,
+					},
+				},
+			}
 
+			WoWPro:Print('Patched Carbonite\'s fake TomTom profile')
+		end
+	end
+end
 
 
 
