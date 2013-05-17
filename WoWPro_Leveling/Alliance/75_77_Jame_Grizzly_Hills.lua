@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2013-05-16 21:03
+-- Who: Fluclo
+-- Log: Wolfsbane Root is to destroy not collect.
+
+-- URL: http://wow-pro.com/node/3293/revisions/25665/view
+-- Date: 2013-05-16 21:00
+-- Who: Fluclo
+-- Log: With a collection and killing quest, the killing should be stickied since you will likely kill when collecting.  Swapped Northern Hospitality to Sticky and Wolfsbane Root to main quest, and also added |NC| to the collect part of quest.
+
+-- URL: http://wow-pro.com/node/3293/revisions/25649/view
 -- Date: 2013-05-14 19:26
 -- Who: Ludovicus Maior
 -- Log: MIssing QID on T Fate and Coincidence 
@@ -189,9 +199,9 @@ T An Exercise in Diplomacy|QID|12295|N|To Envoy Ducal.|M|26.43,35.75|
 A Northern Hospitality|QID|12299|N|From Sergi.|M|26.39,35.78|
 A Wolfsbane Root|QID|12307|N|From Katja. Katja might be dead, since she is killed by the Horde for a quest. Wait for respawn if needed.|M|25.62,33.36|
 
-C Wolfsbane Root|QID|12307|N|Gather 8 Wolfsbane Roots around Silverbook.|M|28.6,35.1|S|
-C Northern Hospitality|QID|12299|N|Conquest Hold Marauders can be found in the area west of Silverbrook.|
-C Wolfsbane Root|QID|12307|N|Finish gathering 8 Wolfsbane Roots from around Silverbook.|M|28.6,35.1|US|
+C Northern Hospitality|QID|12299|N|Conquest Hold Marauders can be found in the area west of Silverbrook.|S|
+C Wolfsbane Root|QID|12307|N|Destroy 8 Wolfsbane Roots around Silverbook by clicking them.|M|28.6,35.1|NC|
+C Northern Hospitality|QID|12299|N|Finish taking out the Conquest Hold Marauders |US|
 T Wolfsbane Root|QID|12307|N|To Katja.|M|25.64,33.40|
 T Northern Hospitality|QID|12299|N|To Sergi.|M|26.39,35.78|
 A Test of Mettle|QID|12300|M|26.5,35.8|N|From Sergi.|
