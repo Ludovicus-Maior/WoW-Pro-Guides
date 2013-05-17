@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2013-05-17 19:17
+-- Who: Ludovicus Maior
+-- Log: Removed empty M tag
+
+-- URL: http://wow-pro.com/node/3414/revisions/25630/view
 -- Date: 2013-05-14 15:51
 -- Who: Ludovicus Maior
 -- Log:  Shackles
@@ -41,7 +46,7 @@ WoWPro.Dailies:RegisterGuide("CraToBarA", "Tol Barad", "Tol Barad Guide", "Cata"
 return [[
 
 R Tol Barad Peninsula|M|73.21,18.37|Z|Stormwind City|N|Click on the Portal to Tol Barad in Stormwind.|
-R Tol Barad|M||N|Head over to Tol Barad.|
+R Tol Barad|N|Head over to Tol Barad.|
 N The quests in the PvP battle area|N|will not flag you as PvP. They can only be done when your faction controls Tol Barad. Also there is a quest giver next to Commander Zanoth, that will appear randomly each time your faction wins Tol Barad. The NPC will either be Private Garnoth, Drillmaster Razgoth, or Staff Sergeant Lazgar.|
 
 A A Huge Problem|QID|28122|M|51,49.4|N|From Sergeant Parker.|

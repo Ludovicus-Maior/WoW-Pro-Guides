@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2013-05-17 19:23
+-- Who: Ludovicus Maior
+-- Log: Bad coord on [Yellow and Red Make Orange]
+
+-- URL: http://wow-pro.com/node/3485/revisions/25384/view
 -- Date: 2013-01-12 20:54
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -168,11 +173,11 @@ C Great Minds Drink Alike|QID|29919|M|68.68,43.23|N|You don't have to stay right
 T Great Minds Drink Alike|QID|29919|M|68.71,43.12|N|To Mudmug.|
 A Leaders Among Breeders|QID|29944|M|68.88,43.15|N|From Chen Stormstout.|
 A Yellow and Red Make Orange|QID|29945|M|68.89,43.31|N|From Li Li.|
-C Yellow and Red Make Orange|QID|29945|S|M|67.57,39.75; 69.39.47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
+C Yellow and Red Make Orange|QID|29945|S|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
 K Kill Frenzyhop|QID|29944|T|Frenzyhop|QO|Frenzyhop slain: 1/1|M|64.64,40.66|
 K Kill Jinanya the Clawblade|QID|29944|T|Jinanya the Clawblade|QO|Jinanya the Clawblade slain: 1/1|M|68.72,38.29|
 K Kill Aiyu the Skillet|QID|29944|T|Aiyu the Skillet|QO|Aiyu the Skillet slain: 1/1|M|68.25,37.03|
-C Yellow and Red Make Orange|QID|29945|US|M|67.57,39.75; 69.39.47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
+C Yellow and Red Make Orange|QID|29945|US|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
 T Yellow and Red Make Orange|QID|29945|M|68.89,43.31|N|To Li Li.|
 T Leaders Among Breeders|QID|29944|M|68.88,43.15|N|To Chen Stormstout.|
 A Crouching Carrot, Hidden Turnip|QID|29947|M|68.89,43.31|N|From Li Li.|

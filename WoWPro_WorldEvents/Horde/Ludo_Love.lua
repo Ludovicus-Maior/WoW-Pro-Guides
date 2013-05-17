@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2013-05-17 20:45
+-- Who: Ludovicus Maior
+-- Log: Corrections
+
+-- URL: http://wow-pro.com/node/3467/revisions/25530/view
 -- Date: 2013-02-11 11:48
 -- Who: Ludovicus Maior
 -- Log: Better coords for Uldum and Crystalsong
@@ -61,7 +66,7 @@ C Crushing the Crown|QID|24638|M|40.30,13.45|Z|Durotar|N|Kill Crown Lackeys near
 C Crushing the Crown|QID|24645|M|55.28,61.60|Z|Silverpine Forest|N|Kill Crown Thugs near The Forsaken Front and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24647|M|34.69,58.22|Z|Hillsbrad Foothills|N|Kill Crown Dusters near Southpoint Gate and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24648|M|60.84,38.12 |Z|Dustwallow Marsh|N|Kill Crown Hoodlum near Theramore and blow up a a wagon.|U|50130|
-C Crushing the Crown|QID|24649|M|23.45,53.67|Z|Hinterlands|N|Kill Crown Agents near Hiiri'Watha Research Station and blow up a a wagon.|U|50130|
+C Crushing the Crown|QID|24649|M|23.45,53.67|Z|The Hinterlands|N|Kill Crown Agents near Hiiri'Watha Research Station and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24650|M|63.53,49.29|Z|Winterspring|N|Kill Crown Sprinklers near Everlook and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24651|M|41.48,22.46|Z|Terokkar Forest|N|Kill Crown Underlings near Shattrath City and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24652|M|46,40|Z|Crystalsong Forest|N|Kill Crown Sprayers near Dalaran and blow up a a wagon.|U|50130|
@@ -69,18 +74,18 @@ C Crushing the Crown|QID|28935|M|66.58,19.65|Z|Uldum|N|Kill Crown Technician nea
 
 T Crushing the Crown|QID|24638;24645;24647;24648;24649;24650;24651;24652;24638;28935|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-A Crown Chemical Company Daily|QID|24635|M|53.05,77.15|Z|Orgrimmar|N|From Public Relations Agent|
+A Cloudlet of Classy Cologne|QID|24635|M|53.05,77.15|Z|Orgrimmar|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49669|
 C A Perfect Puff of Perfume|QID|24629|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49668|
-C Bonbon Blitz|QID|24636|QID|24636|Z|Orgrimmar|N|FDorce feed candy to everyone and any NPC in sight.|U|49670|
-T A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|N|From Public Relations Agent|
-T A Perfect Puff of Perfume|QID|24629|Z|Orgrimmar|N|From Public Relations Agent|
-T Bonbon Blitz|QID|24636|QID|24636|M||Z|Orgrimmar|N|From Public Relations Agent|
+C Bonbon Blitz|QID|24636|QID|24636|Z|Orgrimmar|N|Force feed candy to everyone and any NPC in sight.|U|49670|
+T A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|M|53.05,77.15|N|To Public Relations Agent|
+T A Perfect Puff of Perfume|QID|24629|Z|Orgrimmar|M|53.05,77.15|N|To Public Relations Agent|
+T Bonbon Blitz|QID|24636|QID|24636|M|53.05,77.15|Z|Orgrimmar|N|To Public Relations Agent|
 
 N Shadowfang Keep and Hummel|QID|24793|N|In order for you to queue for this, you may need to be level 84.  However, a group can get the quests at 78/75.|
 A Man on the Inside|QID|24793|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|LVL|78|
-T Man on the Inside|QID|24793|M|50.79,75.29|Z|Shadowfang Keep|N|To Investigator Fezzen Brasstacks|LVL|78|
-A You've Been Served|QID|14488|M||Z|Shadowfang Keep|N|To Investigator Fezzen Brasstacks|LVL|75|
+T Man on the Inside|QID|24793|M|50.79,75.29|Z|ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|78|
+A You've Been Served|QID|14488|M||Z|ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|75|
 
 N All done for the day|
 ]]

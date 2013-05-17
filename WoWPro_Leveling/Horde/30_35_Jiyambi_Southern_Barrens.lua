@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
+-- Date: 2013-05-17 20:48
+-- Who: Ludovicus Maior
+-- Log: Bad coord for [Stalling the Survey]
+
+-- URL: http://wow-pro.com/node/3236/revisions/25490/view
 -- Date: 2013-01-13 23:48
 -- Who: Ludovicus Maior
 -- Log: Added CN tag
@@ -62,7 +67,7 @@ T Put the Fear in Them|QID|24517|M|39.64,19.98|N|To Kilrok Gorehammer.|
 T The Low Road|QID|24518|M|39.64,19.98|N|To Kilrok Gorehammer.|
 A Stalling the Survey|QID|24519|PRE|24518|M|39.61,19.93|N|From Kilrok Gorehammer.|
 T Raptor Scraps|QID|24514|M|39.47,20.39|N|To Onatay.|
-C Stalling the Survey|QID|24519|M|42.87,25.7742.7,26.2|N|Kill Henry Zykes, he wanders between the waypoints. Careful, he has two other humans with him.|
+C Stalling the Survey|QID|24519|M|42.87,25.77;42.7,26.2|N|Kill Henry Zykes, he wanders between the waypoints. Careful, he has two other humans with him.|
 T Stalling the Survey|QID|24519|M|39.61,19.93|N|To Kilrok Gorehammer.|
 T Signals in the Sky|QID|24515|M|44.17,33.71|N|To Makaba Flathoof.|
 

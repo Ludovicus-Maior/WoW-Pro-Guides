@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2013-05-17 20:46
+-- Who: Ludovicus Maior
+-- Log: Watch Out For Splinters!
+
+-- URL: http://wow-pro.com/node/3416/revisions/25484/view
 -- Date: 2013-01-13 19:56
 -- Who: Ludovicus Maior
 -- Log: Spell Orgrimmar right again.
