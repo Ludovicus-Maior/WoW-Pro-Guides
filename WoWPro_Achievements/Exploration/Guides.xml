@@ -56,6 +56,7 @@
     <Script file="Tirisfal_Glades.lua"/>
     <Script file="Uldum.lua"/>
     <Script file="UnGoro_Crater.lua"/>
+	<Script file="Vashjir.lua"/>
     <Script file="Western_Plaguelands.lua"/>
     <Script file="Westfall.lua"/>
     <Script file="Winterspring.lua"/>
