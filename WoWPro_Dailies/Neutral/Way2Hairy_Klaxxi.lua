@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2013-05-17 19:13
+-- Who: Ludovicus Maior
+-- Log: Added the missing CN tags
+
+-- URL: http://wow-pro.com/node/3504/revisions/25652/view
 -- Date: 2013-05-15 23:05
 -- Who: Ludovicus Maior
 -- Log: Added missing quests at revered.  General cleanups.  Still missing some CN/CS/CC tags and T tags.
@@ -141,17 +146,17 @@ A Dark Wings, Dark Things|QID|31209|PRE|31018|N|From Xaril the Poisoned Mind|M|2
 
 A A Shade of Dread|QID|31210|PRE|31018|N|From Xaril the Poisoned Mind|M|22.64,42.14|
 
-C A Shade of Dread|QID|31210|N|Collect flowers.|M|25.60,38.45;27.76,38.88;25.12,41.15;28.27,45.17;26.24,43.17;26.49,36.01;26.15,32.84;27.97,41.07;27.16,50.67;30.20,50.10;26.11,47.64|S|
+C A Shade of Dread|QID|31210|N|Collect flowers.|M|25.60,38.45;27.76,38.88;25.12,41.15;28.27,45.17;26.24,43.17;26.49,36.01;26.15,32.84;27.97,41.07;27.16,50.67;30.20,50.10;26.11,47.64|S|CN|
 
-C Venomous Intent|QID|31208|N|Kill scorpions.|M|26.00,31.80;28.40,27.80;28.30,47.50;25.90,48.40;29.50,49.25;27.62,50.80;26.70,38.98;26.15,35.50;25.15,28.38;26.99,43.49;31.24,50.88|S|
+C Venomous Intent|QID|31208|N|Kill scorpions.|M|26.00,31.80;28.40,27.80;28.30,47.50;25.90,48.40;29.50,49.25;27.62,50.80;26.70,38.98;26.15,35.50;25.15,28.38;26.99,43.49;31.24,50.88|S|CN|
 
-C Dark Wings, Dark Things|QID|31209|N|Kill Scarabs.|M|26.00,47.40;31.60,51.40;25.30,27.50;26.58,45.47;26.80,50.30;28.40,41.05;25.69,42.10;26.72,39.11;28.30,47.60;28.35,43.90;26.23,34.88|S|
+C Dark Wings, Dark Things|QID|31209|N|Kill Scarabs.|M|26.00,47.40;31.60,51.40;25.30,27.50;26.58,45.47;26.80,50.30;28.40,41.05;25.69,42.10;26.72,39.11;28.30,47.60;28.35,43.90;26.23,34.88|S|CN|
 
-C A Shade of Dread|QID|31210|N|Collect flowers.|M|25.60,38.45;27.76,38.88;25.12,41.15;28.27,45.17;26.24,43.17;26.49,36.01;26.15,32.84;27.97,41.07;27.16,50.67;30.20,50.10;26.11,47.64|US|
+C A Shade of Dread|QID|31210|N|Collect flowers.|M|25.60,38.45;27.76,38.88;25.12,41.15;28.27,45.17;26.24,43.17;26.49,36.01;26.15,32.84;27.97,41.07;27.16,50.67;30.20,50.10;26.11,47.64|US|CN|
 
-C Venomous Intent|QID|31208|N|Kill scorpions.|M|26.00,31.80;28.40,27.80;28.30,47.50;25.90,48.40;29.50,49.25;27.62,50.80;26.70,38.98;26.15,35.50;25.15,28.38;26.99,43.49;31.24,50.88|S|
+C Venomous Intent|QID|31208|N|Kill scorpions.|M|26.00,31.80;28.40,27.80;28.30,47.50;25.90,48.40;29.50,49.25;27.62,50.80;26.70,38.98;26.15,35.50;25.15,28.38;26.99,43.49;31.24,50.88|S|CN|
 
-C Dark Wings, Dark Things|QID|31209|N|Kill Scarabs.|M|26.00,47.40;31.60,51.40;25.30,27.50;26.58,45.47;26.80,50.30;28.40,41.05;25.69,42.10;26.72,39.11;28.30,47.60;28.35,43.90;26.23,34.88|S|
+C Dark Wings, Dark Things|QID|31209|N|Kill Scarabs.|M|26.00,47.40;31.60,51.40;25.30,27.50;26.58,45.47;26.80,50.30;28.40,41.05;25.69,42.10;26.72,39.11;28.30,47.60;28.35,43.90;26.23,34.88|S|CN|
 
 T Venomous Intent|QID|31208|N|To Xaril the Poisoned Mind|M|22.64,42.14|
 
@@ -287,7 +292,7 @@ C Ordnance Disposal|QID|31504|US|M|43.00,34.40|N|Disable 8 Pheromone Mines aroun
 
 C Wing Clip|QID|31502|N|Collect 24 Needler Wings from Shek'zeer Needlers.|S|
 
-C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|
+C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|T|Vess-Guard Na'kal|
 
 C Wing Clip|QID|31502|N|Collect 24 Needler Wings from Shek'zeer Needlers.|US|M|35.60,31.40|
 
@@ -321,7 +326,7 @@ C Fear Takes Root|QID|31509|N|Destroy 15 Dreadspore Bulbs in Zan'vess and The Br
 
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|S|
 
-K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|Vess-Guard Vik'az slain: 1/1|
+K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|Vess-Guard Vik'az slain: 1/1|T|Vess-Guard Vik'az|
 
 C Meltdown|QID|31507|M|23.00,77.60|U|87841|N|Slay 6 Zan'thik Venomstings in Zan'vess. Use Korven's Experimental Grenade to counter their armor plating.|
 
@@ -343,7 +348,7 @@ T Kypa'rak's Core|QID|31598|M|55.00,35.40|N|To Ambersmith Zikk.|
 
 T The Matriarch's Maw|QID|31599|M|55.00,35.40|N|To Ambersmith Zikk.|
 
-T Seeds of Fear|M|55.00,35.40|O|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20
+T Seeds of Fear|M|55.00,35.40|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20
 
 T Culling the Swarm|QID|31109|M|55.10,35.90|N|To Kil'ruk the Wind-Reaver.|
 

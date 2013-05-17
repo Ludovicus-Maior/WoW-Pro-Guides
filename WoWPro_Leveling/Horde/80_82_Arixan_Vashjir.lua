@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2013-05-17 20:47
+-- Who: Ludovicus Maior
+-- Log: Built to Last
+
+-- URL: http://wow-pro.com/node/3306/revisions/25566/view
 -- Date: 2013-03-23 18:39
 -- Who: Ludovicus Maior
 -- Log: Lots of quest name corrections!
@@ -435,10 +440,10 @@ A To the Fathom-Lord's Call|QID|25637|PRE|25620|RANK|1|Z|Shimmering Expanse|N|Fr
 A Built to Last|QID|25658|RANK|1|M|39,58.6|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
 
 C To the Fathom-Lord's Call|QID|25637|S|QO|Kvaldir invaders on the terrace slain: 16/16|M|31.7,72.6|Z|Shimmering Expanse|N|Kill Kvaldir.|
-C Build To Last|QID|25658|M|38.41,56.39|Z|Shimmering Expanse|N|Swimp way up to the Nar'shola Terrace. Activate the wards, they look like blue basins.|
+C Built to Last|QID|25658|M|38.41,56.39|Z|Shimmering Expanse|N|Swimp way up to the Nar'shola Terrace. Activate the wards, they look like blue basins.|
 C To the Fathom-Lord's Call|QID|25637|US|QO|Kvaldir invaders on the terrace slain: 16/16|M|31.7,72.6|Z|Shimmering Expanse|N|Kill the remaining Kvaldir.|
 
-T Build To Last|QID|25658|Z|Shimmering Expanse|M|37.19,77.63|N|To Sira'kess Tide Priestess.|
+T Built to Last|QID|25658|Z|Shimmering Expanse|M|37.19,77.63|N|To Sira'kess Tide Priestess.|
 T To the Fathom-Lord's Call|QID|25637|Z|Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|
 
 A Not Soon Forgotten|QID|25659|PRE|25637|RANK|1|M|36.5,78.5|Z|Shimmering Expanse|N|From Fathom-Lord Zin'jatar.|

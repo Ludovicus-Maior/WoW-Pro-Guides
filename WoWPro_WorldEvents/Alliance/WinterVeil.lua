@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2013-05-17 20:52
+-- Who: Ludovicus Maior
+-- Log:  [A Smokywood Pastures' Thank You!]
+
+-- URL: http://wow-pro.com/node/3458/revisions/25642/view
 -- Date: 2013-05-14 19:07
 -- Who: Ludovicus Maior
 -- Log: Coord and quest corrections

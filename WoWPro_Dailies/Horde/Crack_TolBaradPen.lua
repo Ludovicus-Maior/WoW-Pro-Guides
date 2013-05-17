@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2013-05-17 20:46
+-- Who: Ludovicus Maior
+-- Log: Watch Out For Splinters!
+
+-- URL: http://wow-pro.com/node/3416/revisions/25484/view
 -- Date: 2013-01-13 19:56
 -- Who: Ludovicus Maior
 -- Log: Spell Orgrimmar right again.
@@ -54,7 +59,7 @@ C Finish The Job|QID|28693|M|41.8,62.1|N|Kill 5 Restless Soldiers.|
 C Magnets, How Do They Work?|QID|28692|M|41.8,62.1|N|Use the Magnetized Scrap Collector, then pick up the Siege Engine Scrap that shows up on the ground.|U|62829|
 
 C WANTED: Foreman Wellson|QID|28695|M|29.9,44.2|N|Kill Foreman Wellson.|T|Foreman Wellson|
-C Watch Out For Splinters|QID|28694|M|29.9,44.2|N|Loot 15 pieces of Shipyard Lumber. You can get the Lumber from on the ground or from the ghosts floating around Wellson Shipyard.|
+C Watch Out For Splinters!|QID|28694|M|29.9,44.2|N|Loot 15 pieces of Shipyard Lumber. You can get the Lumber from on the ground or from the ghosts floating around Wellson Shipyard.|
 C Bombs Away!|QID|28696|M|22,47.1|N|Click on a cannon, use Ability #1, aim with the mouse then click to destroy the boats. You will have to aim slightly forward on the moving ones.|
 
 C Leave No Weapon Behind|QID|28685|M|39.6,34.3|N|Loot 12 Rusty Rifles from the Racks of Rifles.|
@@ -87,7 +92,7 @@ T Cannonball!|QID|28698|M|55.6,78.6|N|To Prvate Sarlosk.|
 T Ghostbuster|QID|28697|M|55.6,78.6|N|To Prvate Sarlosk.|
 T Taking the Overlook Back|QID|28700|M|55.6,78.6|N|To Prvate Sarlosk.|
 T WANTED: Foreman Wellson|QID|28695|M|55.6,78.6|N|To Prvate Sarlosk.|
-T Watch Out For Splinters|QID|28694|M|55.6,78.6|N|To Prvate Sarlosk.|
+T Watch Out For Splinters!|QID|28694|M|55.6,78.6|N|To Prvate Sarlosk.|
 
 T First Lieutenant Connor|QID|28691|M|55,79.2|N|To Captain Prug.|
 T The Forgotten|QID|28689|M|55,79.2|N|To Captain Prug.|

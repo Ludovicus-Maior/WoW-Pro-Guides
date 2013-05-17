@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2013-05-17 19:16
+-- Who: Ludovicus Maior
+-- Log:  [The Bigger They Are]
+
+-- URL: http://wow-pro.com/node/3469/revisions/25624/view
 -- Date: 2013-05-14 15:37
 -- Who: Ludovicus Maior
 
@@ -222,7 +227,7 @@ C Hostile Elements|QID|29179|N|Kill Fire Elementals.|Z|MoltenFront|M|49.03,68.79
 C Steal Magmolias|QID|29257|N|Collect the small flowers swimming in the lava lakes. Each time you collect one, a Lava Burster may spawn instead. Kill it, it will drop the flower. If you look closely, you can see that it is in fact growing on top of its head xD.|S|
 C Achievement step available!|QID|29257;29278;29263;29299|ACH|5867|N|Try to kill a Molten Behemoth (they wander around the lava lakes north of the fighting) without taking any damage for the achievement 'Flawless Victory'. Sounds hard, but the Behemoths are very slow, just fire away any ranged skills you have and dodge the boulders it lobs back at you. You mustn't be in a group and no one else is allowed to damage the Behemoth or you won't get credit!|Z|MoltenFront|M|47.80,52.40|
 C Living Obsidium|QID|29278|N|Right-click the Magnetic Stones near the lava lakes north of the fighting. A shower of Obsidium Meteorites will come down. Observe the shadows on the ground and dodge them, then start to collect.|Z|MoltenFront|M|47.80,52.40|
-C A bitter Pill|QID|29263|U|69759|N|Look for bubbles in the lava pools north of the fighting, click them. Attack the worm that appears until it says that he's about to bite. Then use the bomb. Boom.|Z|MoltenFront|M|47.80,52.40|
+C A Bitter Pill|QID|29263|U|69759|N|Look for bubbles in the lava pools north of the fighting, click them. Attack the worm that appears until it says that he's about to bite. Then use the bomb. Boom.|Z|MoltenFront|M|47.80,52.40|
 C Steal Magmolias|QID|29257|N|Find the small flowers swimming in the lava lakes north of the fighting. Each time you collect one, a Lava Burster may spawn instead. Kill it, it will drop the flower. If you look closely, you can see that it is in fact growing on top of its head xD.|Z|MoltenFront|M|47.80,52.40|US|
 C Some Like It Hot|QID|29299|N|Kill Emberspit Scorpions (non-hostile mobs) until your lashling has drunk its fill. They are mostly found near the lava lakes north of the fighting.|Z|MoltenFront|M|47.80,52.40|
 C Breach in the Defenses|QID|29137|N|On your way back to Malfurions Breach, look for Lava Bursters poking out of the ground and kill them.|Z|MoltenFront|M|49.03,68.79|
@@ -233,7 +238,7 @@ T Steal Magmolias|QID|29257|N|At Avrilla.|Z|MoltenFront|M|50.63,87.19|
 T Some Like It Hot|QID|29299|N|At Avrilla.|Z|MoltenFront|M|50.63,87.19|
 T Aggressive Growth|QID|29139|N|At Rayne Feathersong.|Z|MoltenFront|M|48.48,86.25|
 T Wisp Away|QID|29143|N|At Rayne Feathersong.|Z|MoltenFront|M|48.48,86.25|
-T A bitter Pill|QID|29263|N|At Damek Bloombeard in the small cave under the tree.|Z|MoltenFront|M|46.90,89.95|
+T A Bitter Pill|QID|29263|N|At Damek Bloombeard in the small cave under the tree.|Z|MoltenFront|M|46.90,89.95|
 T Living Obsidium|QID|29278|N|At Damek Bloombeard in the small cave under the tree.|Z|MoltenFront|M|46.90,89.95|
 T Burn Victims|QID|29138|N|At Captain Irontree.|Z|MoltenFront|M|45.64,86.19|
 T Hostile Elements|QID|29179|N|At General Taldris Moonfall.|Z|MoltenFront|M|45.58,85.80|
@@ -308,7 +313,7 @@ T Flamewakers of the Molten Flow|QID|29264|N|At Thisalee Crow back at the entran
 R The Furnace|QID|29265|PRE|29206|N|Get out of the cave by using the Thermal Vent at the place you came in.|Z|MoltenFront|M|34.20,65.90|
 A How Hot|QID|29273|PRE|29206;29272|N|Back on the surface, accept this quest from Tholo Whitehoof. If he isn't here, close this step, you were offered Hounds of Shannox instead.|Z|MoltenFront|M|36.00,59.01|
 T Fire Flowers|QID|29265|N|At Choluna.|Z|MoltenFront|M|36.29,56.35|
-A The bigger they are|QID|29295|PRE|29206;29281|N|From Ricket next to Choluna near Fireplume Peak. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|36.27,56.61|
+A The Bigger They Are|QID|29295|PRE|29206;29281|N|From Ricket next to Choluna near Fireplume Peak. If you did Rickets Random Daily at the Sentinel Tree, you won't be offered this one.|Z|MoltenFront|M|36.27,56.61|
 A Random Daily Fire Hawk Quest|QID|29290;29288;29287;29289|PRE|29206|N|From Morthis Whisperwing.|Z|MoltenFront|M|34.52,56.20|
 A Random Daily Fireplume Peak Quest|QID|29296;29293|PRE|29206|N|From Arthorn Windsong.|Z|MoltenFront|M|34.28,56.43|
 C Achievement step available!|QID|29296;29293|ACH|5870;6|N|Talk to Arthorn Windsong and select the speech bubble option for a step in the achievement 'Fireside Chat'.|Z|MoltenFront|M|34.28,56.43|
@@ -319,7 +324,7 @@ T Fire in the Skies|QID|29290|N|At Morthis Whisperwing.|Z|MoltenFront|M|34.52,56
 R Fireplume Peak|QID|29288;29287;29289;29296;29293;29273|PRE|29206|N|Hop over the floating rocks to Fireplume Peak. Don't worry, you won't die if you fall, but if you successfully get across, you'll get a nice buff for your effort that makes the following quest(s) a lot easier.|Z|MoltenFront|M|29.06,52.35|
 C Territorial Birds|QID|29296|N|Kill Fire Hawks.|S|
 C Singed Wings|QID|29293|N|Search for Injured Druids of the Talon and click on them to heal them.|S|
-C The bigger they are|QID|29295|N|Kill Obsidium Punishers and collect the sparkling rocks that spawn around them when they die.|S|
+C The Bigger They Are|QID|29295|N|Kill Obsidium Punishers and collect the sparkling rocks that spawn around them when they die.|S|
 C Starting Young|QID|29288|N|Look for Fire hawk Hatchlings lying on the ground near lava lakes, it's almost impossible to collect those up in the air.|S|
 C How Hot|QID|29273|QO|Northeastern Lava Pool sampled: 1/1|U|69806|N|Go to the Northeastern Lava Pool and use the thermometer.|Z|MoltenFront|M|29.88,30.58|
 C How Hot|QID|29273|QO|Northwestern Lava Pool sampled: 1/1|U|69806|N|Go to the Northwestern Lava Pool and use the thermometer.|Z|MoltenFront|M|20.24,30.05|
@@ -327,7 +332,7 @@ C How Hot|QID|29273|U|69806|N|Climb to the top of the volcano and use the thermo
 C Mother's Malice|QID|29289|N|You need to kill the Firehawk Matriarch at the top of the volcano for this quest. The author of this guide never got this quest however and is not sure whether it is still in the game at all, so it would be nice if you dropped a comment on wowpro.com about how to do this quest if you get it.|Z|MoltenFront|M|23.09,40.58|
 C Peaked Interest|QID|29287|N|At the top of the volcano, steal one of the eggs. The Matriarch will aggro, you can fight her if you want, or simply run away.|Z|MoltenFront|M|23.09,40.58|
 C Starting Young|QID|29288|N|Look for Fire hawk Hatchlings lying on the ground near lava lakes, it's almost impossible to collect those up in the air. There might be a flock of them at the top of the volcano if you're lucky, but they spawn in other places on Fireplume Peak as well.|Z|MoltenFront|M|23.09,40.58|US|
-C The bigger they are|QID|29295|N|Kill Obsidium Punishers and collect the sparkling rocks that spawn around them when they die. The amount of rocks that appear depends on how many stacks of the 'Rage' buff the elementals have upon death.|Z|MoltenFront|M|23.09,40.58|US|
+C The Bigger They Are|QID|29295|N|Kill Obsidium Punishers and collect the sparkling rocks that spawn around them when they die. The amount of rocks that appear depends on how many stacks of the 'Rage' buff the elementals have upon death.|Z|MoltenFront|M|23.09,40.58|US|
 C Singed Wings|QID|29293|N|Search for Injured Druids of the Talon and click on them to heal them.|US|
 C Territorial Birds|QID|29296|N|Kill Fire Hawks.|US|
 
@@ -343,7 +348,7 @@ C Strike at the Heart|QID|29305|N|Head north to Ragnaros' Reach and help the Anc
 
 T Strike at the Heart|QID|29305|N|At Skylord Omnuron near the Sentinel Tree.|Z|MoltenFront|M|43.04,80.62|
 T Bye Bye Burdy|QID|29297|N|At Damek Bloombeard in the small cave under the Sentinel Tree.|Z|MoltenFront|M|46.90,89.95|
-T The bigger they are|QID|29295|N|At Damek Bloombeard in the small cave under the Sentinel Tree.|Z|MoltenFront|M|46.90,89.95|
+T The Bigger They Are|QID|29295|N|At Damek Bloombeard in the small cave under the Sentinel Tree.|Z|MoltenFront|M|46.90,89.95|
 T Strike at the Heart|QID|29243|N|At Captain Saynna Stormrunner in the small cave under the Seintinel Tree.|Z|MoltenFront|M|47.57,90.56|
 T How Hot|QID|29273|N|At Anren Shadowseeker near the portal back to Hyjal.|Z|MoltenFront|M|51.22,85.90|
 T The Flame Spider Queen|QID|29276|N|At Anren Shadowseeker near the portal back to Hyjal.|Z|MoltenFront|M|51.22,85.90|
