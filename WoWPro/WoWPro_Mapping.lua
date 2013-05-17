@@ -451,7 +451,6 @@ function WoWPro:MapPoint(row)
 	end
 	
 	if TomTom and TomTom.AddMFWaypoint then
-		if not Nx then
 		    TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
     		
@@ -469,7 +468,6 @@ function WoWPro:MapPoint(row)
     		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
 --    		WoWPro:Print("MapPoint: autoarrival = %s, TomTom..cleardistance = %d, OldCleardistance == %d",
 --    		             tostring(autoarrival),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
-        end
 		
 		-- Parsing and mapping coordinates --
 		WoWPro:dbp("WoWPro:MapPoint1(%s@%s/%s)",coords,tostring(zone),tostring(zm))
@@ -494,17 +492,9 @@ function WoWPro:MapPoint(row)
 				local mm,mx,my = WoWPro:MaybeRemap(zm,zf,x,y)
 				if mm then
 					-- Remapped coords
-					if Nx then
-					    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, persistent=false})
-					else
-					    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-					end
+				    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
 				else
-				    if Nx then			
-					    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, persistent=false})
-					else
-					    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-					end
+				    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
 				end
 				if not uid then
 				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
