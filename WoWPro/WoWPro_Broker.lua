@@ -889,9 +889,8 @@ function WoWPro:GrailQuestPrereq(qid)
     local preReq = Grail:QuestPrerequisites(qid)
     local PREstr = nil
     if not preReq then return nil end
-    if type(preReq) == "string" then
-        WoWPro:Warning("Why did Grail:QuestPrerequisites(%s) return '%s'?",tostring(qid),preReq)
-        return nil
+    if type(preReq) ~= "table" then
+        preReq = Grail:_FromPattern(preReq)
     end
     for i,p in ipairs(preReq) do
         if( string.sub(tostring(p),1,1) == "B" ) then
@@ -916,12 +915,20 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
         return false
     end
     local numQIDs = select("#", string.split(";", QID))
+    myname = myname:trim()
     if numQIDs > 1 then return QID end
     for j=1,numQIDs do
         local qid = select(numQIDs-j+1, string.split(";", QID))
         local gName = Grail:QuestName(qid)
-        if gName and gName ~= myname then
-            WoWPro:Warning("In guide %s, quest %s's name [%s] does not match Grail's database [%s].",guide,tostring(qid),myname,gName)
+
+        if gName then
+            gName = gName:trim()
+            if gName:find("FLAG %- ") then
+                _, _ , gName = gName:find("FLAG %- (.*)")
+            end
+            if   gName ~=  myname then      
+                WoWPro:Warning("In guide %s, quest %s's name [%s] does not match Grail's database [%s].",guide,tostring(qid),myname,gName)
+            end
         end
     end
 end
