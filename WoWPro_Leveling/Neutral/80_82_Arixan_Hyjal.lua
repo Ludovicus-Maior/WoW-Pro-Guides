@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2013-05-18 14:55
+-- Who: Fluclo
+-- Log: Adding Level 80 |LVL| step
+
+-- URL: http://wow-pro.com/node/3303/revisions/25574/view
 -- Date: 2013-03-23 18:58
 -- Who: Ludovicus Maior
 -- Log: quest name tweaks
@@ -140,7 +145,10 @@
 WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283|AriDee8283', 'Neutral', function()
 return [[
 
-N Mt. Hyjal|QID|25316|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|
+L Level 80 |QID|28825|N|You need to be Level 80 to do this guide.|LVL|80|FACTION|Alliance|
+
+N Flying Mount|QID|28825|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|
+
 A A Personal Summons|QID|28825|M|71.44,72.32|Z|Stormwind City|N|Should pop up automatically when you enter Stormwind and are level 80.|FACTION|Alliance|
 h Trade District|QID|28825|M|60.36,75.20|Z|Stormwind City|N|At Innkeeper Allison.|FACTION|Alliance|
 A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board.|FACTION|Alliance|
@@ -151,7 +159,10 @@ T Eye of the Storm|QID|28826|M|74.56,19.18|Z|Stormwind City|N|To Naraat the Eart
 C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.7,28.36|Z|Stormwind City|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|FACTION|Alliance|
 T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|Moonglade|N|To Emissary Windsong.|FACTION|Alliance|
 
-N Mt. Hyjal|QID|25316|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar. Close this step.|FACTION|Horde|
+L Level 80 |QID|27721|N|You need to be Level 80 to do this guide.|LVL|80|FACTION|Horde|
+
+N Flying Mount|QID|27721|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar. Close this step.|FACTION|Horde|
+
 R Orgrimmar|QID|27721|Z|Orgrimmar|N|Make your way to Orgrimmar.|FACTION|Horde|
 A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board.|FACTION|Horde|
 N Cenarion Emissary Blackhoof|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|Talk to Cenarion Emissary Blackhoof in the Valley of Wisdom. Ask him to teleport you to Moonglade. Close this step.|FACTION|Horde|
