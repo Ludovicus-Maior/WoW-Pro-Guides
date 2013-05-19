@@ -13,6 +13,7 @@
 	<Script file="Crystalsong_Forest.lua"/>
     <Script file="Darkshore.lua"/>
     <Script file="Deadwind_Pass.lua"/>
+	<Script file="Deepholm.lua"/>
     <Script file="Desolace.lua"/>
 	<Script file="Dragonblight.lua"/>
     <Script file="Dun_Morogh.lua"/>
