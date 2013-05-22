@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2013-05-18 19:17
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3299/revisions/25386/view
 -- Date: 2013-01-12 21:01
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates - also changed Z Tag for underbelly to 4395 (it's map number) need to see if that fixes invalid Z tag error
@@ -44,53 +48,64 @@
 WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "EstIce7985", "Alliance", function()
 return [[
 
-N READ THIS!|QID|12818|N|This guide picks up only non-group, non-instance quests.|
+L Level 77 |QID|12818|N|You need to be Level 77 to do this guide.|LVL|77|
 
-A Luxurious Getaway!|QID|12853|N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips & Crows" down in the sewers.|Z|4395|M|31.23,49.63|
-R The Storm Peaks|QID|12818|N|Head on over to Storm Peaks.|M|40.5,85.6|
+N READ THIS!|QID|12818|N|This guide picks up only non-group, non-instance quests.|
+A Luxurious Getaway!|QID|12853|N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips & Crows" down in the sewers.|Z|4395|M|31.23,49.63|T|Rin Duoctane|
+R The Storm Peaks|QID|12818|N|Head on over to The Storm Peaks.|M|40.5,85.6|
 T Luxurious Getaway!|QID|12853|N|To Jeer Sparksocket.|M|41.0,86.4|
-A Clean Up|QID|12818|N|From Jeer Sparksockt.|M|41.0,86.4|
+A Clean Up|QID|12818|N|From Jeer Sparksocket.|M|41.0,86.4|
 A Expression of Gratitude|QID|12836|N|From Ricket.|M|40.9,85.3|
 A Reclaimed Rations|QID|12827|N|From Ricket.|M|40.9,85.3|
 A Equipment Recovery|QID|12844|N|From Gretchen Fizzlespark.|M|41.1,86.1|
 A They Took Our Men!|QID|12843|N|From Gretchen Fizzlespark.|M|41.1,86.1|
 f K3|QID|12819|N|At Skizzle Slickside.|M|40.7,84.5|
-C Gather Rations|QID|12827|N|Click on boxes and loot from gnolls in this area and collect 16 Dried Gnoll Rations.|L|40645 16|S|
-C Clean Up|QID|12818|N|Collect 10 Charred Wreckage.|M|39,86|L|40603 10|
-C Kill Gnarlhide|QID|12836|N|Find Gnarlhide and kill him.|M|30.4,85.6|
-C Gather Rations|QID|12827|N|Click on boxes and loot from gnolls in this area and collect 16 Dried Gnoll Rations.|L|40645 16|US|
+
+C Reclaimed Rations|QID|12827|N|Either click on the crates in the camps, or loot from gnolls in this area.|L|40645 16|S|NC|
+C Clean Up|QID|12818|N|Loot the Charred Wreckage from the ground in and around the smoldering crash site.|M|39,86|NC|
+C Expression of Gratitude|QID|12836|N|Kill Gnarlhide.|M|30.4,85.6|T|Gnarlhide|
+C Reclaimed Rations|QID|12827|N|Finish collecting the Dried Gnoll Rations from either the crates in the camps or by killing the gnolls.|US|L|40645 16|M|30.4,85.8;31.7,85.5;34.9,83.7;34.9,82.6|CN|
+
+F Sifreldar Village |QID|12844|N|Fly up to Sifreldar Village.|M|40.1,75.1|
+
 C Equipment Recovery|QID|12844|N|Click on the boxes in this area and loot 8 K3 Equipment.|L|40726 8|S|
 C They Took Our Men!|QID|12843|N|Kill Sifreldar mobs, loot cage keys and release 5 Goblin Prisoners.|M|40.7,72.6|
 C Equipment Recovery|QID|12844|N|Click on the boxes in this area and loot 8 K3 Equipment.|L|40726 8|US|
-T Clean Up|QID|12818|N|To Jeer Sparksockt.|M|41.0,86.4|
+T Clean Up|QID|12818|N|To Jeer Sparksocket.|M|41.0,86.4|
 
-A Just Around the Corner|QID|12819|N|From Jeer Sparksockt.|M|41.0,86.4|
+A Just Around the Corner|QID|12819|N|From Jeer Sparksocket.|M|41.0,86.4|
 T Expression of Gratitude|QID|12836|N|To Ricket.|M|40.9,85.3|
 T Reclaimed Rations|QID|12827|N|To Ricket.|M|40.9,85.3|
 A Ample Inspiration|QID|12828|N|From Ricket.|M|40.9,85.3|
 T Equipment Recovery|QID|12844|N|To Gretchen Fizzlespark.|M|41.1,86.1|
 T They Took Our Men!|QID|12843|N|To Gretchen Fizzlespark.|M|41.1,86.1|
 A Leave No Goblin Behind|QID|12846|N|From Gretchen Fizzlespark.|M|41.1,86.1|
-C Just Around the Corner|QID|12819|N|Enter the minefield and work your way to the center to collect Sparksocket's Tools.|M|34.3,86.7|L|40642|
+
+C Just Around the Corner|QID|12819|N|Enter the minefield and work your way to the center to collect Sparksocket's Tools.\n\nNote:- Do not fly into the minefield, you will be knocked off your mount.|M|34.3,86.7|L|40642|NC|
+
 A Moving In|QID|12829|N|From Tore Rumblewrench.|M|41.6,80|
 A Ore Repossession|QID|12830|N|From Tore Rumblewrench.|M|41.6,80|
-l Grab a U.D.E.D.|QID|12828|N|Use the U.D.E.D. Dispenser and get a bomb, then do the next step quickly...|M|41.6,80|L|40686|
-C Ample Inspiration|QID|12828|N|Target a mammoth, throw the bomb at it and loot 8 Hearty Mammoth Meat.|M|43.7,78.8|U|40686|L|40728 8|
-T Just Around the Corner|QID|12819|N|To Jeer Sparksockt.|M|41.0,86.4|
-A Slightly Unstable|QID|12826|N|From Jeer Sparksockt.|M|41.0,86.4|
+l Grab a U.D.E.D.|QID|12828|N|Use the U.D.E.D. Dispenser and get a bomb.\n\nOn collecting the bomb you will have 48 seconds to complete the next step.|M|41.6,80|L|40686|
+C Ample Inspiration|QID|12828|N|Target an Ice Mammoth and throw the bomb at it. Note you will have just 48 seconds from collecting the bomb to use the bomb.\n\nWait a few seconds after blowing up the mammoth for the meat to appear on the ground. Once they appear, loot them until you have 8 Hearty Mammoth Meat. The "big piece" in the middle will give you multiple quantities.|M|43.7,78.8|U|40686|L|40728 8|NC|
+T Just Around the Corner|QID|12819|N|To Jeer Sparksocket.|M|41.0,86.4|
+A Slightly Unstable|QID|12826|N|From Jeer Sparksocket.|M|41.0,86.4|
 T Slightly Unstable|QID|12826|N|To Ricket.|M|40.9,85.3|
 
 A A Delicate Touch|QID|12820|N|From Ricket.|M|40.9,85.3|
 T Ample Inspiration|QID|12828|N|To Ricket.|M|40.9,85.3|
-C A Delicate Touch|QID|12820|N|Lay down land mines and kill 12 Snowblind Followers.|M|42,81|U|40676|
+C A Delicate Touch|QID|12820|N|Lay down land mines to kill 12 Snowblind Followers. They will need to walk over two bombs to die. They will not agro if you walk into them.|M|42,81|U|40676|NC|
+
+R Crystalweb Cavern|QID|12829|N|Head into the Crystalweb Cavern|M|40.75,78.80|
+
+C Moving In|QID|12829|N|Kill 12 Crystalweb Spitters as you progress through the cave.|S|
+C Ore Repossession|QID|12830|N|Kill and loot the Snowblind Diggers for their Impure Saronite Ore.|M|43.9,75.5|L|40744 5|S|
 A Only Partly Forgotten|QID|12831|N|Enter the cave and find an Injured Goblin Miner to get this quest.|M|40.43,78.04|
-C Moving In|QID|12829|N|Kill 12 Crystalweb Spitters in this cave.|S|
-C Ore Repossession|QID|12830|N|Kill Snowblind Diggers in the cave and loot 5 Impure Saronite Ore.|M|43.9,75.5|L|40744 5|
 C Only Partly Forgotten|QID|12831|N|Go further into the cave and kill Icetip Crawlers until you loot an Icetip Venom Sac.|M|47.0,72.0|
+C Ore Repossession|QID|12830|N|Finish killing and looting the Snowblind Diggers.|M|43.9,75.5|L|40744 5|US|
 T Only Partly Forgotten|QID|12831|N|Return to the Injured Goblin Miner.|M|43.48,75.25|
 A Bitter Departure|QID|12832|N|Injured Goblin Miner.|M|43.48,75.25|
 C Bitter Departure|QID|12832|N|Escort the Injured Goblin Miner out of the cave.|M|40.43,78.04|
-C Moving In|QID|12829|N|Kill 12 Crystalweb Spitters in this cave.|US|
+C Moving In|QID|12829|N|Still need the Crystalweb Spiders?  Go back into the cave and finish them off.|US|
 T Ore Repossession|QID|12830|N|To Tore Rumblewrench.|M|41.6,80|
 T Moving In|QID|12829|N|To Tore Rumblewrench.|M|41.6,80|
 T A Delicate Touch|QID|12820|N|To Ricket.|M|40.9,85.3|
@@ -98,7 +113,7 @@ T Bitter Departure|QID|12832|N|To Ricket.|M|40.9,85.3|
 
 A Opening the Backdoor|QID|12821|N|From Ricket.|M|40.9,85.3|
 l Transporter Power Cell|QID|12821|N|Click on the Transporter Power Cell.|M|45.1,82.3|L|40731|
-C Opening the Backdoor|QID|12821|N|Enter the teleportation pad and use the Transporter Power Cell.|M|50.7,81.9|U|40731|
+C Opening the Backdoor|QID|12821|N|Enter the teleportation pad and use the Transporter Power Cell.|M|50.7,81.9|U|40731|NC|
 T Opening the Backdoor|QID|12821|N|To Ricket.|M|40.9,85.3|
 A Know No Fear|QID|12822|N|From Ricket.|M|40.9,85.3|
 A A Flawless Plan|QID|12823|N|Step on the teleport pad next to Ricket. Then get this quest from Gino.|M|50,82|
