@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2013-05-17 19:21
+-- Who: Ludovicus Maior
+-- Log: Misplaced |M| on Materia Medica.
+
+-- URL: http://wow-pro.com/node/3488/revisions/25391/view
 -- Date: 2013-01-12 21:27
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -97,7 +102,7 @@ T What's Eating Zhu's Watch?|QID|30079|M|76.22,7.06|N|To Ken-Ken.|
 A Materia Medica|QID|30081|M|76.22,7.06|N|From Ken-Ken.|
 C Materia Medica|QID|30081|S|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
 C Tears of Pandaria|QID|30091|M|71.99,11.45;75.41,10.87|CN|
-C Materia Medica|QID|30081|M|US|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
+C Materia Medica|QID|30081|US|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
 T Tears of Pandaria|QID|30091|M|75.83,7.65|N|To Mei Barrelbottom.|
 A Securing the Province|QID|30083|M|75.83,7.65|N|From Mei Barrelbottom.|
 A Borderlands|QID|30084|M|75.83,7.65|N|From Mei Barrelbottom.|

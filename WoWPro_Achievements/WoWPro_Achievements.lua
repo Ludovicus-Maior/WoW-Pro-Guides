@@ -42,8 +42,6 @@ function WoWPro.Achievements:OnEnable()
 	
 	WoWPro.FirstMapCall = true
 	
-	-- Server query for completed quests --
-	WoWPro.QueryQuestsCompleted()
 end
 
 -- Called when the module is disabled --

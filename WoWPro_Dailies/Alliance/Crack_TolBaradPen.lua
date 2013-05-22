@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2013-05-17 19:17
+-- Who: Ludovicus Maior
+-- Log: Removed empty M tag
+
+-- URL: http://wow-pro.com/node/3414/revisions/25630/view
+-- Date: 2013-05-14 15:51
+-- Who: Ludovicus Maior
+-- Log:  Shackles
+
+-- URL: http://wow-pro.com/node/3414/revisions/25290/view
 -- Date: 2013-01-09 01:39
 -- Who: Ludovicus Maior
 -- Log: Added CN tags

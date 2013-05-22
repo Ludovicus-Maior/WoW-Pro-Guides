@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2013-05-09 22:14
+-- Who: Ludovicus Maior
+-- Log: Played through and corrected things!
+
+-- URL: http://wow-pro.com/node/3493/revisions/25562/view
 -- Date: 2013-03-23 18:24
 -- Who: Ludovicus Maior
 -- Log: quest 31069's name [Bound with Shade] does not match Grail's database [Bound With Shade].
@@ -127,7 +132,7 @@ A Relics of the Swarm|QID|31023|M|67.91,60.19|U|82870|N|Accept from the 'Strange
 C Relics of the Swarm|QID|31023|S|NC|M|65.65,64.13|N|These are small tablets around and in the lake.|
 C Mistblade Destruction|QID|31023|US|M|62.3,57.7|
 C Amber Is Life |QID|31019|US|QO|Mistblade Ripper slain: 7/7|M|62.3,57.7|
-K Kill Mistblade Scale-Lord|QID|31019|T|Mistblade Scale-Lord|QO|Mistblade Scale-Lord slain: 1/1|M|63.68,63.84;66.5,66.0|CS|N|He is in the den, first coordinates are for the opening. Rarely a BoA tanking sword can be found stuck in the wall in this cave.|
+K Kill Mistblade Scale-Lord|QID|31019|T|Mistblade Scale-Lord|QO|Mistblade Scale-Lord slain: 1/1|M|66.74,63.89;66.5,66.0|CS|N|He is in the den, first coordinates are for the opening. Rarely a BoA tanking sword can be found stuck in the wall in this cave.|
 T Amber Is Life|QID|31019|M|66.82,65.35|N|To Ancient Amber Chunk.|
 A Feeding the Beast|QID|31020|M|66.82,65.35|N|From Korven the Prime.|
 A Living Amber|QID|31021|M|66.82,65.35|N|From Korven the Prime.|
@@ -183,8 +188,8 @@ A Reeltime Strategy|QID|31189|M|54.76,72.22|N|From Deck Boss Arie.|
 C Reeltime Strategy|QID|31189|NC|M|53.65,75.84|N|Grab a fishing pole and give him a hand.|
 T Reeltime Strategy|QID|31189|M|54.73,72.24|N|To Deck Boss Arie.|
 A The Mariner's Revenge|QID|31190|M|54.78,72.18|N|From Captain "Soggy" Su-Dao.|
-C The Mariner's Revenge|QID|31190|M|56.19, 76.28|N|Hop on the boat (Vehicle UI)|
-T The Mariner's Revenge|QID|31190|M|56.57.75.85|N|To Captain "Soggy" Su-Dao.|
+C The Mariner's Revenge|QID|31190|M|56.19,76.28|N|Hop on the boat (Vehicle UI)|
+T The Mariner's Revenge|QID|31190|M|56.57,75.85|N|To Captain "Soggy" Su-Dao.|
 A Mazu's Bounty|QID|31354|M|56.57,75.85|N|From Deck Boss Arie.|
 T Mazu's Bounty|QID|31354|M|54.93,72.9|N|To Master Angler Ju Lien|
 
@@ -251,19 +256,19 @@ C Sonic Disruption|QID|31487|U|87394|S|N|Kill 4 Dread Kunchong and 6 Shek'zeer M
 C Free From Her Clutches|QID|31494|M|49.20,34.00|N|Open Kunchong Cages to release 8 Kunchong Hatchlings.|; Heart of Fear
 C Sonic Disruption|QID|31487|U|87394|US|M|45,35|N|Kill 4 Dread Kunchong and 6 Shek'zeer Manipulators in the Clutches of Shek'zeer. The Sonic Disruption Fork will weaken and confuse the kunchong.|; Heart of Fear
 C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|; Heart of Fear
-K Karanosh|QID|31599|M|41.80,33.60|ACTIVE|31109;31487;31494;31487;31502;31503;31496|L|87878|N|Loot the Enormous Kunchong Mandibles.|; Heart of Fear
+K Karanosh|QID|31599|M|48.90,34.40;44.00,35.30;48.35,32.24;48.11,36.46;39.44,30.88;43.09,37.48;41.22,34.93;44.04,32.81;46.47,29.84;41.72,30.77|CN|ACTIVE|31109;31487;31494;31487;31502;31503;31496|L|87878|T|Karanosh|N|Loot the Enormous Kunchong Mandibles.|; Heart of Fear
 A The Matriarch's Maw|QID|31599|U|87878|ACTIVE|31109;31487;31494;31487;31502;31503;31496|N|From Enormous Kunchong Mandibles.|; Heart of Fear
-C Sap Jar filled at north feeder|QID|31496|U|87400|QO|Sap Jar filled: 1/1|M|36.2,32.2|; north -Heart of Fear -Are these QOs right?
-C Sap Jar filled at central feeder|QID|31496|U|87400|QO|Sap Jar filled: 1/1|M|37.00,28.00|; central -Heart of Fear - maybe better one line, 4 green dots?
-C Sap Jar filled at east feeder|QID|31496|U|87400|QO|Sap Jar filled: 1/1|M|38.3,31.9|;east - Heart of Fear
-C Sap Jar filled at northeast feeder|QID|31496|U|87400|QO|Sap Jar filled: 1/1|M|39.3,29.20|;Northeast - Heart of Fear
+C Sap Jar filled at north feeder|QID|31496|U|87400|QO|North Feeder: 1/1|M|36.2,32.2|; north -Heart of Fear -Are these QOs right?
+C Sap Jar filled at central feeder|QID|31496|U|87400|QO|Central Feeder: 1/1|M|37.00,28.00|; central -Heart of Fear - maybe better one line, 4 green dots?
+C Sap Jar filled at east feeder|QID|31496|U|87400|QO|East Feeder: 1/1|M|38.3,31.9|;east - Heart of Fear
+C Sap Jar filled at northeast feeder|QID|31496|U|87400|QO|Northeast Feeder: 1/1|M|39.3,29.20|;Northeast - Heart of Fear
 C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|; Heart of Fear
 ; Briny Muck - 7 - Specimen Request|QID|31508| and Fear Takes Root|QID|31509| - not yet available as we haven't awakened the questgiver yet
 K Kypa'rak|M|34.20,59.80|L|87871|ACTIVE|31111;31508;31509;31506;31505;31507|N|Loot the Massive Kyparite Core. This wasn't available to me the first time I had dailies in the area, maybe faction?|; Briny Muck
 A Kypa'rak's Core|QID|31598|ACTIVE|31111;31508;31509;31506;31505;31507|U|87871|N|From Kyparite core.|; Briny Muck
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|O|; Briny Muck
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|S|; Briny Muck
-K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|Vess-Guard Vik'az slain: 1/1|; Briny Muck
+K Vess-Guard Vik'az|QID|31505|ACTIVE|31505|M|29.00,75.60|QO|Vess-Guard Vik'az slain: 1/1|; Briny Muck
 C Meltdown|QID|31507|M|23.00,77.60|U|87841|N|Slay 6 Zan'thik Venomstings in Zan'vess. Use Korven's Experimental Grenade to counter their armor plating.|; Briny Muck
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|US|M|29.20,89.60|; Briny Muck
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|US|M|34.00,71.80|; Briny Muck
@@ -334,17 +339,17 @@ T The Matriarch's Maw|QID|31599|M|55.00,35.40|N|To Ambersmith Zikk.|
 
 R The Sunset Brewgarden|QID|31730|M|50.27,12.21|
 f The Sunset Brewgarden|QID|99999|M|50.27,12.21|N|At Jin the Flying Keg.|
-T A Not So Friendly Request|QID|31730|M|51.17,11.51|N|To Sapmaster Vu.|
-A The Heavens Hum With War|QID|31067|M|51.17,11.51|N|From Sapmaster Vu.|
+T A Not So Friendly Request|QID|31730|M|51.21,11.39|N|To Sapmaster Vu.|
+A The Heavens Hum With War|QID|31067|M|51.21,11.39|N|From Sapmaster Vu.|
 C Blade of the Poisoned Mind|QID|31438|M|28.88,41.99|N|This rare lost item can sometimes be found in the smaller of the two purplish bushes by the entrance to this set of rooms under the tree. (when you don't find it, manually check this step off.)|
 A Sacred Recipe|QID|31068|M|53.8,16.5;53.07,12.40|CC|N|Go around the tree and into the tree. From Scroll of Auspice.|
 K Kill Azzi K'tai|QID|31067|T|Kill Azzi K'tai|QO|Azzi K'tai slain: 1/1|M|53.20,10.14|
-T Sacred Recipe|QID|31068|M|50.74,11.80|N|To Lya of Ten Songs.|
-T The Heavens Hum With War|QID|31067|M|51.19,11.44|N|To Sapmaster Vu.|
-A Bound With Shade|QID|31069|M|51.14,11.31|N|From Sapmaster Vu.|
-A Daggers of the Great Ones|QID|31070|M|51.14,11.31|N|From Olon.|
-A I Bring Us Great Shame|QID|31071|M|51.06,11.15|N|From Thirsty Missho.|
-A Rending Daggers|QID|31072|M|50.76,11.76|N|From Lya of Ten Songs.|
+T Sacred Recipe|QID|31068|M|50.73,11.70|N|To Lya of Ten Songs.|
+T The Heavens Hum With War|QID|31067|M|51.21,11.39|N|To Sapmaster Vu.|
+A Bound With Shade|QID|31069|M|51.21,11.39|N|From Sapmaster Vu.|
+A Daggers of the Great Ones|QID|31070|M|51.17,11.21|N|From Olon.|
+A I Bring Us Great Shame|QID|31071|M|51.14,11.11|N|From Thirsty Missho.|
+A Rending Daggers|QID|31072|M|50.73,11.70|N|From Lya of Ten Songs.|
 A Fate of the Stormstouts|QID|31129|M|50.47,11.99|N|From Chen Stormstout.|
 C Fate of the Stormstouts|QID|31129|M|50.96,11.48|NC|N|The people you need to talk to are here in the brewgarden.|
 T Fate of the Stormstouts|QID|31129|M|50.43,11.95|N|To Chen Stormstout.|
@@ -358,14 +363,14 @@ K Kill Ilikkax|QID|31072|T|Ilikkax|L|84112|M|50.8,20.6|N|He stays inside the str
 C Get the Lost Mugs|QID|31071|NC|L|83782|M|51.67,19.03|N|Many sparkly mugs on top of a largish rock.|;removed the sticky as it made no sense when i played thru - it is one item, ya, you can get it before as easy as after...I think I had too many stickies and it was just a jumbled mess.
 C Bound With Shade|QID|31069|US|M|57.56,15.98|N|You are after the little packs of Dreadlings.|
 C Daggers of the Great Ones|QID|31070|US|M|49.69,17.64|N|The mushan nearer the brewgarden are the ones you seek.|
-T Rending Daggers|QID|31072|M|50.71,11.78|N|To Lya of Ten Songs.|
-A Wood and Shade|QID|31074|M|50.71,11.78|N|From Lya of Ten Songs.|
-T I Bring Us Great Shame|QID|31071|M|51.09,11.12|N|To Thirsty Missho|
-T Daggers of the Great Ones|QID|31070|M|51.09,11.12|N|To Olon.|
-T Bound With Shade|QID|31069|M|51.17,11.39|N|To Sapmaster Vu.|
-A Bound With Wood|QID|31073|M|51.17,11.39|N|From Sapmaster Vu.|
-A Kor'thik Aggression|QID|31133|M|50.17,12.44|N|From Defender Azzo.|
-C Evie Stormstout|QID|31077|M|50.11,10.27|
+T Rending Daggers|QID|31072|M|50.73,11.70|N|To Lya of Ten Songs.|
+A Wood and Shade|QID|31074|M|50.73,11.70|N|From Lya of Ten Songs.|
+T I Bring Us Great Shame|QID|31071|M|51.14,11.11|N|To Thirsty Missho|
+T Daggers of the Great Ones|QID|31070|M|51.17,11.21|N|To Olon.|
+T Bound With Shade|QID|31069|M|51.21,11.39|N|To Sapmaster Vu.|
+A Bound With Wood|QID|31073|M|51.21,11.39|N|From Sapmaster Vu.|
+A Kor'thik Aggression|QID|31133|M|50.18,12.44|N|From Defender Azzo.|
+C Evie Stormstout|QID|31077|M|50.19,10.20|
 T Evie Stormstout|QID|31077|M|50.11,10.27|N|To Chen Stormstout.|
 A Han Stormstout|QID|31078|M|50.11,10.27|N|From Chen Stormstout.|
 C Kor'thik Aggression|QID|31133|S|M|44.62,16.96|
@@ -376,17 +381,17 @@ C Find the Heartroot of Kypari Kor|QID|31074|NC|QO|Find the Heartroot of Kypari 
 C Find the Mark of the Empress|QID|31074|NC|QO|Find the Mark of the Empress: 1/1|M|44.53,16.80|
 C Bound With Wood|QID|31073|US|M|45.9,11.7|NC|
 C Kor'thik Aggression|QID|31133|US|M|44.62,16.96|
-T Kor'thik Aggression|QID|31133|M|50.23,12.43|N|To Defender Azzo.|
-T Wood and Shade|QID|31074|M|50.72,11.76|N|To Lya of Ten Songs.|
-T Bound With Wood|QID|31073|M|51.13,11.39|N|To Sapmaster Vu.|
-A Sunset Kings|QID|31075|M|51.13,11.39|N|From Sapmaster Vu.|
+T Kor'thik Aggression|QID|31133|M|50.18,12.44|N|To Defender Azzo.|
+T Wood and Shade|QID|31074|M|50.73,11.70|N|To Lya of Ten Songs.|
+T Bound With Wood|QID|31073|M|51.21,11.39|N|To Sapmaster Vu.|
+A Sunset Kings|QID|31075|M|51.21,11.39|N|From Sapmaster Vu.|
 
 R Rikkitun Village|QID|31075|M|38.21,17.28|
-T Sunset Kings|QID|31075|M|38.21,17.28|N|To Sapmaster Vu.|
-A Fiery Wings|QID|31080|M|38.18,17.23|N|From Olon.|
-A The Horror Comes A-Rising|QID|31079|M|38.19,17.36|N|From Boggeo.|
-A Incantations Fae and Primal|QID|31081|M|38.27,17.19|N|From Lya of Ten Songs.|
-A Great Vessel of Salvation|QID|31082|M|38.65,17.31|N|From Chief Rikkitun.|
+T Sunset Kings|QID|31075|M|38.18,17.17|N|To Sapmaster Vu.|
+A Fiery Wings|QID|31080|M|38.19,17.12|N|From Olon.|
+A The Horror Comes A-Rising|QID|31079|M|38.16,17.33|N|From Boggeo.|
+A Incantations Fae and Primal|QID|31081|M|38.31,17.14|N|From Lya of Ten Songs.|
+A Great Vessel of Salvation|QID|31082|M|38.65,17.24|N|From Chief Rikkitun.|
 C Fiery Wings|QID|31080|NC|S|M|37.29,23.96|N|Slap the butterflies (click on them) and follow them while the fairy (fiery) dust lands on you. |
 C The Horror Comes A-Rising|QID|31079|S|M|34.63,20.29|N|Kyparites erupt from the ground, so stand in a dust cloud to find them. |
 C Great Vessel of Salvation|QID|31082|NC|U|84267|M|36.62,17.05|N|Use the bell to summon sprites who will carry the motherseed until you lead them to the pit.|
@@ -394,22 +399,22 @@ K Kill Mygoness|QID|31081|T|Mygoness|QO|Mygoness slain: 1/1|M|32.9,18.9|
 C Incantations Fae and Primal|QID|31081|M|32.1,17.4|
 C The Horror Comes A-Rising|QID|31079|US|M|34.63,20.29|N|Kyparites erupt from the ground, so stand in a dust cloud to find them. |
 C Fiery Wings|QID|31080|NC|US|M|37.29,23.96|N|Slap the butterflies (click on them) and follow them while the fairy (fiery) dust lands on you. |
-T Great Vessel of Salvation|QID|31082|M|38.58,17.28|N|To Chief Rikkitun.|
-T Incantations Fae and Primal|QID|31081|M|38.24,17.21|N|To Lya of Ten Songs.|
-T Fiery Wings|QID|31080|M|38.24,17.21|N|To Olon.|
-T The Horror Comes A-Rising|QID|31079|M|38.24,17.21|N|To Boggeo.|
-A Bind the Glamour|QID|31084|M|38.64,17.35|N|From Chief Rikkitun.|
+T Great Vessel of Salvation|QID|31082|M|38.65,17.24|N|To Chief Rikkitun.|
+T Incantations Fae and Primal|QID|31081|M|38.31,17.14|N|To Lya of Ten Songs.|
+T Fiery Wings|QID|31080|M|38.19,17.12|N|To Olon.|
+T The Horror Comes A-Rising|QID|31079|M|38.16,17.33|N|To Boggeo.|
+A Bind the Glamour|QID|31084|M|38.65,17.24|N|From Chief Rikkitun.|
 C Bind the Glamour|QID|31084|NC|M|39.55,22.88|N|Follow Chief Rikkitun and watch him.|
-T Bind the Glamour|QID|31084|M|38.56,17.21|N|To Chief Rikkitun.|
-A Fires and Fears of Old|QID|31085|M|38.24,17.24|N|From Lya of Ten Songs.|
-A Blood of Ancients|QID|31086|M|38.24,17.24|N|From Sapmaster Vu.|
+T Bind the Glamour|QID|31084|M|38.65,17.24|N|To Chief Rikkitun.|
+A Fires and Fears of Old|QID|31085|M|38.31,17.14|N|From Lya of Ten Songs.|
+A Blood of Ancients|QID|31086|M|38.18,17.17|N|From Sapmaster Vu.|
 C Amber Encased Necklace|QID|31431|M|33,33.07|N|This rare lost item can sometimes be found on the ground among the rocks at this location. It stands out since it is orange against the dark ground. (when you don't find it, manually check this step off.)|
 C Blood of Ancients|QID|31086|NC|M|30.21,30.56|
-C Fires and Fears of Old|QID|31085|U|84771|M|29.97,30.89;33.25,33.57|CN|N|Click on the rocks, and the sprites will move them for you.|
+C Fires and Fears of Old|QID|31085|U|84771|M|29.97,30.89;33.25,33.57|CS|N|Click on the rocks, and the sprites will move them for you.|
 R The Sunset Brewgarden|QID|31085|M|50.27,12.21|
-T Fires and Fears of Old|QID|31085|M|50.28,12.13|N|To Lya of Ten Songs.|
-A Once in a Hundred Lifetimes|QID|32030|M|50.28,12.13|N|From Lya of Ten Songs.|
-T Blood of Ancients|QID|31086|M|50.22,12.09|N|To Sapmaster Vu.|
+T Fires and Fears of Old|QID|31085|M|50.28,12.06|N|To Lya of Ten Songs.|
+A Once in a Hundred Lifetimes|QID|32030|M|50.28,12.06|N|From Lya of Ten Songs.|
+T Blood of Ancients|QID|31086|M|50.21,12.11|N|To Sapmaster Vu.|
 
 H Klaxxi'vess|QID|32030|M|55.82,34.83|
 T Once in a Hundred Lifetimes|QID|32030|M|54.69,34.89|N|To Klaxxi'va Ik.|

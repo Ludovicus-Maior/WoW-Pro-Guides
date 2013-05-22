@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-05-14 19:21
+-- Who: Ludovicus Maior
+-- Log: The Underbelly@Dalaran
+
+-- URL: http://wow-pro.com/node/3440/revisions/25646/view
+-- Date: 2013-05-14 19:19
+-- Who: Ludovicus Maior
+-- Log: Corrected quest name [A Time to Lose]
+
+-- URL: http://wow-pro.com/node/3440/revisions/25489/view
 -- Date: 2013-01-13 23:44
 -- Who: Ludovicus Maior
 -- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 
@@ -182,7 +192,7 @@ C A Time to Lose|QID|29371|M|70.15,14.54|Z|Undercity|U|68648|
 
 H Stormwind City|QID|99999|N|Return to Stormwind|Z|Stormwind City|
 T Hallow's End Treats for Jesper!|QID|8311|M|32.08,50.45|N|To Jespers.|Z|Elwynn Forest|
-T Time to Lose|QID|29371|M|32.10,50.55|N|To Kelra.|Z|Elwynn Forest|
+T A Time to Lose|QID|29371|M|32.10,50.55|N|To Kelra.|Z|Elwynn Forest|
 N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
 N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|
 b Teldrassil|QID|12337|M|22.06,56.06|N|Take the boat to Teldrassil.|Z|Stormwind City|

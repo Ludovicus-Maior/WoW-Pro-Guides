@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2013-05-14 18:48
+-- Who: Ludovicus Maior
+-- Log: Bad coord for Baolai the Immolator
+
+-- URL: http://wow-pro.com/node/3502/revisions/25615/view
+-- Date: 2013-05-09 22:20
+-- Who: Ludovicus Maior
+-- Log: Fixes around [Battle XXX of the Thunder King] quests.
+
+-- URL: http://wow-pro.com/node/3502/revisions/25561/view
 -- Date: 2013-03-23 16:59
 -- Who: Ludovicus Maior
 -- Log: Added Some T tags.
@@ -142,16 +152,16 @@ R Achievement step available|QID|30639|ACH|7318|N|Look in your bags whether you 
 T The Secrets of Guo-Lai|QID|30639|N|To Leven Dawnblade.|M|56.71,43.60|
 
 ; One-Time Questline once Revered
-A Battle Spear of the Thunder King|QID|30640|REP|Golden Lotus;1269;revered-exalted|N|This quest will become available once you reach revered OR on the next day, depending on how many quests you already did on the day you reach revered. Accept this quest from Zhi the Harmonious at the Golden Pagoda, if he isn't there or doesn't offer the quest, close this step manually and you can do it first thing tomorrow instead.|M|57.25,43,02|
+A Battle Spear of the Thunder King|QID|30640|REP|Golden Lotus;1269;revered-exalted|N|This quest will become available once you reach revered OR on the next day, depending on how many quests you already did on the day you reach revered. Accept this quest from Zhi the Harmonious at the Golden Pagoda, if he isn't there or doesn't offer the quest, close this step manually and you can do it first thing tomorrow instead.|M|57.25,43.02|
 C Battle Spear of the Thunder King|QID|30640|N|Loot the Spear from inside the lake here (not in the Guo-Lai Halls, the lake is on the rise above them). A Quilen will appear and attack you, kill it.|M|21.40,19.80|
-T Battle Spear of the Thunder King|QID|30640|N|To Zhi the Harmonious.|M|57.25,43,02|
-A Battle Helm of the Thunder King|QID|30641|PRE|30640|N|From Zhi the Harmonious.|M|57.25,43,02|
+T Battle Spear of the Thunder King|QID|30640|N|To Zhi the Harmonious.|M|57.25,43.02|
+A Battle Helm of the Thunder King|QID|30641|PRE|30640|N|From Zhi the Harmonious.|M|57.25,43.02|
 R Guo-Lai Halls|QID|30641|N|Enter the Guo-Lai Halls, the entrance is here.|M|22.60,27.09|
 C Battle Helm of the Thunder King|QID|30641|QO|Enter the Hall of Tiles: 1/1|N|The doorway on the opposite side of the entrance should now be open, you'll find Ren Firetongue inside who will give you a useful warning about the floor tiles. Talking to him will start an event: Follow him through the next rooms, give the Mogu Statues a wide berth. Attack Zhao-Jin the Bloodletter at the end. He can be annoying when you are a caster, all of his attacks do knockback and should be dodged by moving out of the way. At roughly 20%, he leaves and you have to battle the statues behind him instead. After they have been defeated, you can take the Battle Helm. Talk to Ren Firetongue to begin the event.|M|22.73,14.06|
 C Battle Helm of the Thunder King|QID|30641|N|Follow Ren Firetongue. Take the Battle Helm of the Thunder King once all enemies are defeated.|M|21.73,16.58|
 R Achievement step available|QID|30641|ACH|7318|N|Look in your bags whether you found a Guo-Lai Vault Key while you were here. If that is the case, scout through the Halls a little more and see if you can find an Ancient Guo-Lai cache (a big golden treasure chest). You can open it with the key, granting some extra reputation and awarding the achievement "A taste of history". If you don't have a key, close this step manually. Better luck next time!|
-T Battle Helm of the Thunder King|QID|30641|N|To Zhi the Harmonious.|M|57.25,43,02|
-A Battle Axe of the Thunder King|QID|30642|PRE|30641|N|From Zhi the Harmonious.|M|57.25,43,02|
+T Battle Helm of the Thunder King|QID|30641|N|To Zhi the Harmonious.|M|57.25,43.02|
+A Battle Axe of the Thunder King|QID|30642|PRE|30641|N|From Zhi the Harmonious.|M|57.25,43.02|
 R Silent Sanctuary|QID|30642|N|Enter the Silent Sanctuary, the entrance is here.|M|40.28,77.16|
 C Battle Axe of the Thunder King|QID|30642|QO|Passed Trial of the Constructs: 1/1|N|If there is someone already doing this quest, you'll have to fight through some Quilen and wait behind bars until they are finished. Enter the main room and Jade Constructs will start to attack you. There are three circles on the ground, the middle one will grant you a short damage increasing buff while the other two will heal you. These circles recharge over time, you can use them again when an orb appears over them. Stay out of the acid pools that appear when you defeat a Jade Construct and survive the attack.|M|44.14,76.45|
 C Battle Axe of the Thunder King|QID|30642|N|Loot the Battle Axe of the Thunder King.|M|45.45,76.19|
@@ -328,8 +338,8 @@ T Backed Into a Corner|QID|30286|N|To Sun Tenderheart.|M|35.12,75.37|
 A Next Random Daily in the line|QID|30296;30297;31296;31297|PRE|31243+31246|N|The next quest is randomly offered by either Rook Stonetoe or Sun Tenderheart.|M|35.28,74.92;35.12,75.37|CN|
 C Gaohun the Soul-Severer|QID|30296|ACH|7317;9|N|Kill Gaohun on the plateau next to the village. He casts a damaging ground effect under your feet as well as a "Spirit Cage" which will lock you in with several adds if you don't move out of it quickly enough. Just keep moving a lot and he shouldn't be too difficult. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|39.00,75.00|
 C Gaohun the Soul-Severer|QID|30296|N|Kill Gaohun on the plateau next to the village. He casts a damaging ground effect under your feet as well as a "Spirit Cage" which will lock you in with several adds if you don't move out of it quickly enough. Just keep moving a lot and he shouldn't be too difficult. You will get credit for the kill, even if another player attacked him first.|M|39.00,75.00|
-C Baolai the Immolator|QID|30297|ACH|7317;8|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|37.40,81,20|
-C Baolai the Immolator|QID|30297|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first.|M|37.40,81,20|
+C Baolai the Immolator|QID|30297|ACH|7317;8|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first, but if you attack him first and kill him, you'll get credit for a step in the achievement "One Many Army".|M|37.40,81.20|
+C Baolai the Immolator|QID|30297|N|Kill Baolai. You will get credit for the kill, even if another player attacked him first.|M|37.40,81.20|
 T Gaohun the Soul-Severer|QID|30296|N|To Rook Stonetoe.|M|35.28,74.92|
 T Baolai the Immolator|QID|30297|N|To Rook Stonetoe.|M|35.28,74.92|
 

@@ -4,6 +4,30 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2013-05-16 21:03
+-- Who: Fluclo
+-- Log: Wolfsbane Root is to destroy not collect.
+
+-- URL: http://wow-pro.com/node/3293/revisions/25665/view
+-- Date: 2013-05-16 21:00
+-- Who: Fluclo
+-- Log: With a collection and killing quest, the killing should be stickied since you will likely kill when collecting.  Swapped Northern Hospitality to Sticky and Wolfsbane Root to main quest, and also added |NC| to the collect part of quest.
+
+-- URL: http://wow-pro.com/node/3293/revisions/25649/view
+-- Date: 2013-05-14 19:26
+-- Who: Ludovicus Maior
+-- Log: MIssing QID on T Fate and Coincidence 
+
+-- URL: http://wow-pro.com/node/3293/revisions/25620/view
+-- Date: 2013-05-14 11:45
+-- Who: Fluclo
+-- Log: -Added |NC| to Just Passing Through, Local Support, Doing Your Duty, Truce
+--	-Added additional notes to Taking Their Rear, Just Passing Through, Local Support, Closing the Deal, Secrets of the Flamebinders, Talk to Budd, Filling the Cages, Seared Scourge.
+--	-Added extra note and |NC| to Scourgekabob
+--	-Added an extra loot step to Truce
+--	-Added |QO| steps, updated titles, added |NC| for the Vial of Visions quest
+
+-- URL: http://wow-pro.com/node/3293/revisions/25432/view
 -- Date: 2013-01-13 15:18
 -- Who: Ludovicus Maior
 -- Log: Added CN tag
@@ -96,10 +120,10 @@ C Replenishing the Storehouse |QID|12212|N|North of Amberpine Lodge, kill and lo
 T Replenishing the Storehouse |QID|12212|N|Back to Master Woodsman Anderhol.|M|32.06,59.94|
 A Take Their Rear! |QID|12216|M|32.1,60.0|N|From Master Woodsman Anderhol.|
 A Troll Season! |QID|12210|M|31.8,60.2|N|From Lieutenant Dumont.|
-C Take Their Rear!|QID|12216|N|Kill Grizzly Bears along the river.|M|30.6,53.4|S|
-C Just Passing Through |QID|12226|U|188670|N|Loot the [Blackroot] northwest of Amberpine Lodge.|M|29,54|
+C Take Their Rear!|QID|12216|N|Kill and loot Grizzly Bears along the river.|M|30.6,53.4|S|
+C Just Passing Through |QID|12226|U|188670|N|Loot the Blackroot from the riverside northwest of Amberpine Lodge.|M|29,54|NC|
 C Them or Us! |QID|12215|N|Go west to the grey area in the woods, kill Graymist Hunters.|M|25,56|
-C Local Support |QID|12292|N|In Evergreen Trading Post, go inside the tower and loot the Cedar Chest.|M|16,65|
+C Local Support |QID|12292|N|Loot the Cedar Chest from inside the Evergreen Trading Post|M|16,65|NC|
 
 H Amberpine Lodge |QID|12292|N|Hearth to Amberpine Lodge, or run back if your hearth is not up.|M|31.97,60.22|
 
@@ -109,44 +133,48 @@ T Them or Us! |QID|12215|N|To Master Woodsman Anderhol.|M|32.06,59.94|
 A Eagle Eyes |QID|12217|M|32.1,60.0|N|From Master Woodsman Anderhol.|
 T Just Passing Through |QID|12226|M|32.1,60.0|N|To Master Woodsman Anderhol.|
 A Doing Your Duty |QID|12227|M|32.1,60.0|N|From Master Woodsman Anderhol.|
-C Doing Your Duty |QID|12227|N|Click on the Amberpine Outhouse.|M|32.23,58.93|
+C Doing Your Duty |QID|12227|N|Click on the Amberpine Outhouse.|M|32.23,58.93|NC|
 T Doing Your Duty |QID|12227|M|32.05,59.98|N|To Master Woodsman Anderhol.|
 C Eagle Eyes |QID|12217|N|Kill 5 Imperial Eagles.|M|36,59|S|
-T Close the Deal |QID|12293|N|To Ivan.|M|34.77,55.56|
+T Close the Deal |QID|12293|N|To Ivan at Aspen Grove Post.|M|34.77,55.56|
 A A Tentative Pact |QID|12294|M|34.8,55.6|N|From Ivan.|
 
 C Eagle Eyes |QID|12217|N|Kill 5 Imperial Eagles.|M|36,59|US|
 T Eagle Eyes |QID|12217|N|To Master Woodsman Anderhol.|M|32.07,60.01|
 T A Tentative Pact |QID|12294|M|31.8,60.2|N|To Lieutenant Dumont.|
 A An Exercise in Diplomacy |QID|12295|M|31.8,60.2|N|From Lieutenant Dumont.|
-A Secrets of the Flamebinders |QID|12222|N|From Woodsman Drake.|M|32.45,59.97|
+A Secrets of the Flamebinders |QID|12222|N|From Woodsman Drake, outside the Lodge.|M|32.45,59.97|
 A Thinning the Ranks |QID|12223|M|32.4,59.9|N|From Woodsman Drake.|
 C Take Their Rear!|QID|12216|N|Go along the river killing and looting Grizzly Bears until you have all the flanks.|M|30.6,53.4|US|
 
 T Troll Season! |QID|12210|N|To Samir.|M|16.23,47.70|
 A Filling the Cages |QID|11984|M|16.2,47.6|N|From Samir.|
-N Talk to Budd |QID|11984|N|Guy with the troll mask.|M|16.3,48.1|
-C Filling the Cages |QID|11984|U|35736|N|Use Budd's Sap ability on a solo troll and then use the [Bounty Hunter's Cage].|M|14,58|
+
+;Spell 47014 - Budd's Attention Span
+N Talk to Budd |QID|11984|N|Guy with the troll mask.\n\nYou will need to manually check off this step.|M|16.3,48.1|
+C Filling the Cages |QID|11984|U|35736|N|Locate a solo Drakkari Troll (Shaman, Warrior etc) then use Budd's Sap ability.  This ability is on your pet bar.\n\nOnce Budd has sapped the Troll, use the Bounty Hunter's Cage on him.\n\nIf Budd doesn't sap the target and he disappears, you will need to return to Granite Springs and call him again.|M|14,58|NC|
 
 T Filling the Cages |QID|11984|N|To Samir.|M|16.21,47.70|
 A Truce? |QID|11989|N|From Drakuru.|M|16.39,47.79|
-C Truce? |QID|11989|U|38083|N|Loot the knife next to Drakuru and use it, then talk to Drakuru to seal the pact.|M|16.5,47.8|
+C Truce? |QID|11989|N|Loot the knife from the tree stump next to Drakuru|M|16.5,47.8|L|38083|NC|
+;Spell 50001 - Blood Oath
+C Truce? |QID|11989|U|38083|N|Use the Dull Carving Knife, then speak with Drakuru to shake his hand.|M|16.5,47.8|NC|
 T Truce? |QID|11989|N|To Drakuru.|M|16.44,47.83|
 A Vial of Visions |QID|11990|M|16.4,47.8|N|From Drakuru.|
 
-B Buy a Crystal Vial|QID|11990|L|3371|N|From Ameenah.|M|16.0,47.8|
-C Vial of Visions|QID|11990|N|Pick-up Haze Leaf from the Hazewood Bushes.|M|14.6,45.3|S|
-l Waterweed|QID|11990|L|35795|N|Dive and get the [Waterweed Frond].|M|15.13,40.55|
-C Vial of Visions|QID|11990|N|Pick-up the missing [Haze Leaf].|M|14.6,45.3|US|
+B Vial of Visions - Crystal Vial|QID|11990|N|Buy a Crystal Vial from Ameenah.|M|16.0,47.8|L|3371|
+C Vial of Visions - Haze Leaf|QID|11990|N|Pick-up Haze Leaf from the Hazewood Bushes.|QO|Haze Leaf: 3/3|M|14.6,45.3|S|NC|
+l Vial of Visions - Waterweed Frond|QID|11990|N|Dive into the lake and get the Waterweed Frond.|QO|Waterweed Frond: 1/1|M|15.13,40.55|NC|
+C Vial of Visions - Haze Leaf|QID|11990|N|Pick-up the remaining Haze Leafs.|QO|Haze Leaf: 3/3|M|14.6,45.3|US|NC|
 
 T Vial of Visions|QID|11990|N|To Drakuru.|M|16.45,47.85|
 A Subject to Interpretation|QID|11991|M|16.4,47.8|N|From Drakuru.|
 A Scourgekabob|QID|12484|N|From Prigmon.|M|15.77,46.76|
 l Scoured Troll Mummy|QID|12484|N|Pick up a Scoured Troll Mummy that is right next to the quest giver.|L|38149|
-C Scourgekabob|QID|12484|U|38149|N|Burn the [Scourged Troll Mummy].|M|16.83,48.26|
+C Scourgekabob|QID|12484|U|38149|N|Head over to Mac Fearson, then 'use' the Scourged Troll Mummy.|M|16.83,48.26|NC|
 
 T Scourgekabob|QID|12484|N|To Mack Fearson.|M|15.77,46.76|
-A Seared Scourge|QID|12029|M|16.7,48.3|N|From Mack Fearson.|
+A Seared Scourge|QID|12029|M|16.7,48.3|N|From Mack Fearson.\n\nThis will take a few seconds after completing the previous quest to appear.|
 A Shimmercap Stew|QID|12483|M|15.7,46.7|N|From Prigmon.|
 
 l Ice Serpent Eyes|QID|12483|L|35798 5|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|S|
@@ -171,9 +199,9 @@ T An Exercise in Diplomacy|QID|12295|N|To Envoy Ducal.|M|26.43,35.75|
 A Northern Hospitality|QID|12299|N|From Sergi.|M|26.39,35.78|
 A Wolfsbane Root|QID|12307|N|From Katja. Katja might be dead, since she is killed by the Horde for a quest. Wait for respawn if needed.|M|25.62,33.36|
 
-C Wolfsbane Root|QID|12307|N|Gather 8 Wolfsbane Roots around Silverbook.|M|28.6,35.1|S|
-C Northern Hospitality|QID|12299|N|Conquest Hold Marauders can be found in the area west of Silverbrook.|
-C Wolfsbane Root|QID|12307|N|Finish gathering 8 Wolfsbane Roots from around Silverbook.|M|28.6,35.1|US|
+C Northern Hospitality|QID|12299|N|Conquest Hold Marauders can be found in the area west of Silverbrook.|S|
+C Wolfsbane Root|QID|12307|N|Destroy 8 Wolfsbane Roots around Silverbook by clicking them.|M|28.6,35.1|NC|
+C Northern Hospitality|QID|12299|N|Finish taking out the Conquest Hold Marauders |US|
 T Wolfsbane Root|QID|12307|N|To Katja.|M|25.64,33.40|
 T Northern Hospitality|QID|12299|N|To Sergi.|M|26.39,35.78|
 A Test of Mettle|QID|12300|M|26.5,35.8|N|From Sergi.|
@@ -381,7 +409,7 @@ C Vordrassil's Seeds |QID|12250|N|Loot Vordrassil's Seeds that are in and around
 C Vordrassil's Sapling |QID|12248|U|37306|N|Use the [Verdant Torch] on the tree  and get the [Vordrassil's Ashes]|M|50.63,42.73|
 C Vordrassil's Seeds |QID|12250|N|Loot Vordrassil's Seeds that are in and around the large, dead tree trunk.|M|51.5,47.1|US|
 
-T Fate and Coincidence |N|To Sasha.|M|57.52,41.27|
+T Fate and Coincidence |QID|12329|N|To Sasha.|M|57.52,41.27|
 A Sasha's Hunt |QID|12134|M|57.5,41.3|N|From Sasha.|
 A Anatoly Will Talk |QID|12330|M|57.5,41.3|N|From Sasha.|
 

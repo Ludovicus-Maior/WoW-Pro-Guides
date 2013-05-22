@@ -33,8 +33,6 @@ function WoWPro.WorldEvents:OnEnable()
 	
 	WoWPro.FirstMapCall = true
 	
-	-- Server query for completed quests --
-	WoWPro.QueryQuestsCompleted()
 end
 
 -- Called when the module is disabled --

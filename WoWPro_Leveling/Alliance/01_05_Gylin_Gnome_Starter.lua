@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2013-05-14 18:52
+-- Who: Ludovicus Maior
+-- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
+
+-- URL: http://wow-pro.com/node/3200/revisions/25591/view
 -- Date: 2013-03-23 20:23
 -- Who: Ludovicus Maior
 -- Log: Name tweaks
@@ -296,8 +301,8 @@ T Meet the High Tinker|QID|31137|M|33.71,36.48|N|To High Tinker Mekkatorque.|C|M
 A The Fight Continues|QID|26208|M|33.71,36.48|N|From High Tinker Mekkatorque.|R|Gnome|
 C The Fight Continues|QID|26208|N|Watch the scene on the Holo-table|R|Gnome|
 T The Fight Continues|QID|26208|M|33.71,36.48|N|To High Tinker Mekkatorque.|R|Gnome|
-A Triumph of Gnomish Ingenuity|PRE|26208|QID|26566|M|33.71,36.48|N|From High Tinker Mekkatorque.|R|Gnome|
-T Triumph of Gnomish Ingenuity|QID|26566|M|34.32,34.70|N|To Engineer Grindspark.|R|Gnome|
+A A Triumph of Gnomish Ingenuity|PRE|26208|QID|26566|M|33.71,36.48|N|From High Tinker Mekkatorque.|R|Gnome|
+T A Triumph of Gnomish Ingenuity|QID|26566|M|34.32,34.70|N|To Engineer Grindspark.|R|Gnome|
 A Scrounging for Parts|PRE|26566|QID|26222|M|34.32,34.70|N|From Engineer Grindspark.|R|Gnome|
 C Scrounging for Parts|QID|26222|N|Collect Spare Parts scattered on the ground around the area.|M|33.5,35.6|R|Gnome|
 T Scrounging for Parts|QID|26222|M|34.32,34.70|N|To Engineer Grindspark.|R|Gnome|

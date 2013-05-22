@@ -443,35 +443,13 @@ end
 
 
 --- MOP Function Compatability Section
-do
-	local wversion, wbuild, wdata, winterface = GetBuildInfo()
-	WoWPro.MOP = (winterface >= 50000)
-	if tonumber(wbuild) >= 16057 then
-	local frame = CreateFrame("Frame")
-
-	local function OnEvent(self, event, name)
-		if event == "ADDON_LOADED" and name == "Blizzard_GlyphUI" then
-			TalentFrame_LoadUI()
-		end
-		
-	end
-	frame:SetScript("OnEvent",OnEvent)
-	frame:RegisterEvent("ADDON_LOADED")
-	WoWPro:Print('Patched Blizzard_GlyphUI to get rid of attempt to index global "PlayerTalentFrame"  (a nil value)')
-	
-end
-
-end
+local wversion, wbuild, wdata, winterface = GetBuildInfo()
+WoWPro.MOP = (winterface >= 50000)
 
 if WoWPro.MOP then
     WoWPro.GetNumPartyMembers = GetNumGroupMembers
-    WoWPro.QueryQuestsCompleted = function () end
-    WoWPro.GetQuestsCompleted = function (x) return x; end
 else
     WoWPro.GetNumPartyMembers = GetNumPartyMembers
-    WoWPro.QueryQuestsCompleted = QueryQuestsCompleted -- After QUEST_QUERY_COMPLETE
-    WoWPro.GetQuestsCompleted = GetQuestsCompleted
-    
 end
 
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2013-05-14 19:14
+-- Who: Ludovicus Maior
+-- Log: Z tags for dungeon zone corrections
+
+-- URL: http://wow-pro.com/node/3451/revisions/25523/view
 -- Date: 2013-02-06 20:27
 -- Who: Ludovicus Maior
 -- Log: Checked every coords, qid, and added ranks like the horde guide.
@@ -154,7 +159,7 @@ R Follow the series of waypoints|N|To get into the instance. Part 2|QID|8644|CS|
 A Stonefort the Elder|N|Head in the instance. From Stonefort the Elder.|QID|8644|M|61.82,40.08|Z|Hordemar City@BlackrockSpire|RANK|2|
 R Head back out of the instance|N|Run to this waypoint at the bottom near the lava.|CS|QID|8619|M|18.59,25.03|Z|Burning Steppes|RANK|2|
 R Follow the waypoints|N|To get into Blackrock Depths instance.|CS|QID|8619|M|18.75,24.89;16.72,20.63;14.29,15.88;14.47,9.25|Z|Burning Steppes|RANK|2|
-A Morndeep the Elder|N|From Morndeep the Elder at the ring of the law.|QID|8619|M|50.55,62.90|Z|Detention Block|RANK|2|
+A Morndeep the Elder|N|From Morndeep the Elder at the ring of the law.|QID|8619|M|50.55,62.90|Z|Detention Block@BlackrockDepths|RANK|2|
 R Searing Gorge|N|Head out of the instance, and run North to Searing Gorge.|QID|8651|M|34.56,83.46|Z|Searing Gorge|RANK|2|
 A Ironband the Elder|N|From Ironband the Elder.|QID|8651|M|21.29,79.11|Z|Searing Gorge|
 F Thelsamar|N|Fly to Thelsamar.|QID|8642|M|41.04,68.78|Z|Burning Steppes|
@@ -194,7 +199,7 @@ A Pamuya the Elder|N|From Pamuya the Elder.|QID|13029|M|42.8,49.6|Z|Borean Tundr
 A Northal the Elder|N|From Northal the Elder.|QID|13016|M|33.80,34.36|Z|Borean Tundra|
 
 R The Nexus|N|Run into The Nexus. You want the bottom instance of the three.|QID|13021|M|27.5,26.09|Z|Borean Tundra|RANK|2|
-A Igasho the Elder|N|From Igasho the Elder, at the end of the Singing Grove.|QID|13021|M|55.19,64.72|Z|The Nexus|RANK|2|
+A Igasho the Elder|N|From Igasho the Elder, at the end of the Singing Grove.|QID|13021|M|55.19,64.72|Z|TheNexus|RANK|2|
 
 F Stars' Rest|N|Head back outside of The Nexus and fly to Stars' Rest in Dragonblight.|QID|13014|M|33,34.4|Z|Borean Tundra|
 A Morthie the Elder|N|From Morthie the Elder.|QID|13014|M|29.75,55.90|Z|Dragonblight|

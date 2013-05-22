@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2013-05-14 19:11
+-- Who: Ludovicus Maior
+-- Log: Z tag corrections
+
+-- URL: http://wow-pro.com/node/3466/revisions/25528/view
 -- Date: 2013-02-11 11:21
 -- Who: Ludovicus Maior
 -- Log: Added [Crushing the Crown] and some of the dalies.
@@ -56,7 +61,7 @@ C Crushing the Crown|QID|24658|M|29,65|Z|Elwynn Forest|N|Kill Crown Lackeys near
 C Crushing the Crown|QID|24659|M|42.4,79.4|Z|Darkshore|N|Kill Crown Thugs near Grove of the Ancients and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24660|M|76,53|Z|Duskwood|N|Kill Crown Dusters near Darkshire and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24662|M|60.84,38.12|Z|Dustwallow Marsh|N|Kill Crown Hoodlums near Theramore and blow up a a wagon.|U|50130|
-C Crushing the Crown|QID|24663|M|23.45,53.67|Z|Hinterlands|N|Kill Crown Agents near Aerie Peak and blow up a a wagon.|U|50130|
+C Crushing the Crown|QID|24663|M|23.45,53.67|Z|The Hinterlands|N|Kill Crown Agents near Aerie Peak and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24664|M|63.53,49.29|Z|Winterspring|N|Kill Crown Sprinklers near Everlook and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24665|M|41.48,22.46|Z|Terokkar Forest|N|Kill Crown Underlings near Shattrath City and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24666|M|46,40|Z|Crystalsong Forest|N|Kill Crown Sprayers near Dalaran and blow up a a wagon.|U|50130|
@@ -74,9 +79,9 @@ T Bonbon Blitz|QID|24636|QID|24636|M|62.40,75.36|Z|Stormwind City|N|From Public 
 
 N Shadowfang Keep and Hummel|QID|24792|N|In order for you to queue for this, you may need to be level 84.  However, a group can get the quests at 78/75.|LVL|75|
 A Man on the Inside|QID|24792|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|LVL|78|
-T Man on the Inside|QID|24793|M|50.79,75.29|Z|Shadowfang Keep|N|To Investigator Fezzen Brasstacks|LVL|78|
-A You've Been Served|QID|14488|M||Z|Shadowfang Keep|N|From Investigator Fezzen Brasstacks|LVL|75|
-T You've Been Served|QID|14488|M||Z|Shadowfang Keep|N|To Investigator Fezzen Brasstacks|LVL|75|
+T Man on the Inside|QID|24793|M|50.79,75.29|Z|ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|78|
+A You've Been Served|QID|14488|M||Z|The Courtyard@ShadowfangKeep|N|From Investigator Fezzen Brasstacks|LVL|75|
+T You've Been Served|QID|14488|M||Z|The Courtyard@ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|75|
 
 N All done for the day|
 

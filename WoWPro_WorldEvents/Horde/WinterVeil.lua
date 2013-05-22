@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2013-05-17 20:52
+-- Who: Ludovicus Maior
+-- Log:  [A Smokywood Pastures' Thank You!]
+
+-- URL: http://wow-pro.com/node/3458/revisions/25642/view
+-- Date: 2013-05-14 19:07
+-- Who: Ludovicus Maior
+-- Log: Coord and quest corrections
+
+-- URL: http://wow-pro.com/node/3458/revisions/25301/view
 -- Date: 2013-01-09 17:24
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -53,8 +63,8 @@ A You're a Mean One...|QID|6983|LVL|80|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard 
 K The Abominable Greench|QID|6983|LVL|80|M|45.26,40.32|Z|Hillsbrad Foothills|N|Go to Growless Cave in the Foothills. Loot the Treats from the bags (fast) and talk to Metzen (fast) to complete if you were not around for the kill.  Yes, if you get there at the right time, you can complete the quest!|
 N Snowballs near Greench|ACTIVE|6983|LVL|80|N|BTW, pick up some snowballs from the mounds around the cave.|
 T You're a Mean One...|QID|6983|LVL|80|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard Copperpinch.|
-A Smokywood Pastures' Thank You!|QID|6984|PRE|6983|LVL|80|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard Copperpinch.|
-T Smokywood Pastures' Thank You!|QID|6984|LVL|80|M|49.61,77.98|Z|Orgrimmar|N|To Great-father Winter.|
+A A Smokywood Pastures' Thank You!|QID|6984|PRE|6983|LVL|80|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard Copperpinch.|
+T A Smokywood Pastures' Thank You!|QID|6984|LVL|80|M|49.61,77.98|Z|Orgrimmar|N|To Great-father Winter.|
 
 N Time to wait|QID|8828|N|Wait till Dec 25th!|
 b Orgrimmar|QID|8744|N|Go see Great-father Winter in Orgrimmar|

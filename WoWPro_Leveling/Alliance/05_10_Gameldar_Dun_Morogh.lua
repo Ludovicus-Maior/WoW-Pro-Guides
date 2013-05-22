@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2013-05-14 18:52
+-- Who: Ludovicus Maior
+-- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
+
+-- URL: http://wow-pro.com/node/3200/revisions/25591/view
 -- Date: 2013-03-23 20:23
 -- Who: Ludovicus Maior
 -- Log: Name tweaks

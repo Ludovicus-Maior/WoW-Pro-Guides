@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dalaran_cooking_and_fishing_dalies
+-- Date: 2013-05-14 19:03
+-- Who: Ludovicus Maior
+-- Log: Bad coord
+
+-- URL: http://wow-pro.com/node/3477/revisions/25640/view
+-- Date: 2013-05-14 19:01
+-- Who: Ludovicus Maior
+-- Log: More @DalaranCity
+
+-- URL: http://wow-pro.com/node/3477/revisions/25622/view
+-- Date: 2013-05-14 15:23
+-- Who: Ludovicus Maior
+-- Log: Updated to The Underbelly@DalaranCity
+
+-- URL: http://wow-pro.com/node/3477/revisions/25424/view
 -- Date: 2013-01-13 15:03
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -23,7 +38,7 @@ return [[
 
 A One of Five|QID|13832;13833;13834;13836|M|52.6,64.8|N|From Marcia Chase|
 
-C Jewel Of The Sewers|QID|13832|M|40.60,57.10;43.80,67.80;61.10,12.40;37.40,51.70;36.95,47.60;32.85,47.30;44.44,65.18|Z|The Underbelly|CN|N|Go to the sewers and fish away.|L|45903|
+C Jewel Of The Sewers|QID|13832|M|40.60,57.10;43.80,67.80;61.10,12.40;37.40,51.70;36.95,47.60;32.85,47.30;44.44,65.18|Z|The Underbelly@DalaranCity|CN|N|Go to the sewers and fish away.|L|45903|
 T Jewel Of The Sewers|QID|13832|M|52.6,64.8|N|To Marcia Chase|
 
 K Kill a Mammoth|QID|13833|M|54.6,41.0|Z|Borean Tundra|N|Kill any mammoth to get bloody.|
@@ -40,7 +55,7 @@ T Disarmed!|QID|13836|M|36.8,37.0|N|To Olisarra the Kind|
 
 C Phantom Ghostfish|QID|13830|M|46.75,63.25;47.62,61.35;49.65,62.56;48.65,65.47|Z|Sholazar Basin|CN|N|Go to Roaring Heart in Sholazar and fish for the Ghostfish, pools preferred. Be prepared to eat it!|L|45902|
 C Discover the Ghostfish mystery|QID|13830|U|45902|N|Eat me!|
-T The Ghostfish|QID|13830|M||52.6,64.8|N|To Marcia Chase|
+T The Ghostfish|QID|13830|M|52.6,64.8|N|To Marcia Chase|
 
 ]]
 end)

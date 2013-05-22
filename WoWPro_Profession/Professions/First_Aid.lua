@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_first_aid
+-- Date: 2013-05-16 00:54
+-- Who: Twists
+-- Log: Update to handle the new parser.
+
+-- URL: http://wow-pro.com/node/3410/revisions/24643/view
 -- Date: 2011-06-30 06:05
 -- Who: Crackerhead22
 

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-05-14 19:21
+-- Who: Ludovicus Maior
+-- Log: The Underbelly@Dalaran
+
+-- URL: http://wow-pro.com/node/3440/revisions/25646/view
+-- Date: 2013-05-14 19:19
+-- Who: Ludovicus Maior
+-- Log: Corrected quest name [A Time to Lose]
+
+-- URL: http://wow-pro.com/node/3440/revisions/25489/view
 -- Date: 2013-01-13 23:44
 -- Who: Ludovicus Maior
 -- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 
@@ -83,7 +93,7 @@ C A Time to Lose|QID|29371|M|70.15,14.54|Z|Tirisfal Glades|U|68648|
 
 H Stormwind City|QID|99999|N|Return to Stormwind|Z|Stormwind City|
 C Clean Up in Stormwind|QID|29144|M|49.12,50.83|N|Look for Orange clouds.|U|69191|Z|Stormwind City|
-T Time to Lose|QID|29371|M|32.10,50.55|N|To Kelra.|Z|Elwynn Forest|
+T A Time to Lose|QID|29371|M|32.10,50.55|N|To Kelra.|Z|Elwynn Forest|
 T Clean Up in Stormwind|QID|29144|M|32.36,50.79|N|To Gretchen Fenlow.|Z|Elwynn Forest|
 T Stink Bombs Away!|QID|29054|M|32.36,50.79|N|To Gretchen Fenlow.|Z|Elwynn Forest|
 C Stop the Fires!|QID|11131;12135|Z|Elwynn Forest|

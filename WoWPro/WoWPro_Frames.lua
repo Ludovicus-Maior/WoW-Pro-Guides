@@ -150,6 +150,9 @@ function WoWPro.RowFontSet()
 	WoWPro.StickyTitle:SetFont(WoWProDB.profile.stickytitlefont, WoWProDB.profile.stickytitletextsize)
 	WoWPro.StickyTitle:SetTextColor(WoWProDB.profile.stickytitletextcolor[1], WoWProDB.profile.stickytitletextcolor[2], WoWProDB.profile.stickytitletextcolor[3], 1);
 end
+
+WoWPro.ShownRows = 0
+
 function WoWPro.RowSizeSet()
 -- Row-Specific Customization --
 	local space = WoWProDB.profile.space

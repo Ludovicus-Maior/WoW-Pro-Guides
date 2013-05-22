@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
+-- Date: 2013-05-14 17:01
+-- Who: Ludovicus Maior
+-- Log:  roasted
+
+-- URL: http://wow-pro.com/node/3443/revisions/24817/view
 -- Date: 2011-11-20 23:35
 -- Who: Ludovicus Maior
 
@@ -39,7 +44,7 @@ U Recipe: Spice Bread Stuffing|QID|14022||U|44860|N|Learn to cook Stuffing, then
 U Recipe: Pumpkin Pie|QID|14022|U|44862|N|Learn to cook Pie, then click to complete.|
 U Recipe: Cranberry Chutney|QID|14022|U|44858|N|Lean to cook Chutney, then click to complete.|
 U Recipe: Candied Sweet Potato|QID|14022|U|44859|N|Learn to cook Yams, then click to complete.|
-U Recipe: Slow-Roasted Turkey|QID|14022|U|44861|N|Learn to cook Turkey, then click to complete.|
+U Recipe: Slow-roasted Turkey|QID|14022|U|44861|N|Learn to cook Turkey, then click to complete.|
 B Buy Autumnal Herbs|QID|14022|L|44835 20|N|You need 20 Herbs from Wilmina Holbeck, then click to complete.|
 B Buy Simple Flour|QID|14022|L|30817 10|N|You need 10 Flour|
 B Buy Mild Spices|QID|14022|L|2678 10|N|You need 10 Simple Spices|
@@ -80,7 +85,7 @@ A Slow-roasted Turkey|QID|14035|M|34.10,51.44|Z|Elwynn Forest|N|From Gregory Tab
 K Wild Turkey|QID|14035|M|47.55,59.55|Z|Elwynn Forest|L|44834 5|N|Get the raw turkeys, anywhere in Elwynn Forest|
 l Slow-roasted Turkey|QID|14035|L|44838 5|N|Cook up the turkeys|
 b Teldrassil|QID|14035|M|22.79,55.94|Z|Stormwind City|N|Take the boat to Darnassus.|
-T Slow-Roasted Turkey|QID|14035|M|61.4,49.2|Z|Darnassus|N|To Isaac Allerton, Darnassus, Warrior's Terrace. |
+T Slow-roasted Turkey|QID|14035|M|61.4,49.2|Z|Darnassus|N|To Isaac Allerton, Darnassus, Warrior's Terrace. |
 N Get Clothes for Pilgrim's Peril|N|Do the dailies and get Pilgrim's Dress, Robe, or Attire for Pilgrim's Peril and put one on. Then ride or fly to your target.|
 N Pilgrim's Peril: Orgrimmar|M|46.2,14.2|Z|Durotar|N|Sit down at the table in Orgrimmar.|
 N Pilgrim's Peril: Thunder Bluff|M|46.8,59.0|Z|Mulgore|N|Sit down at the table in Thunder Bluff.|

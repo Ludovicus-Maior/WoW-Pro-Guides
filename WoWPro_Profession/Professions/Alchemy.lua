@@ -1,9 +1,14 @@
 
--- WoWPro Guides by The WoW-Pro Community are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_alchemy
+-- Date: 2013-05-16 00:44
+-- Who: Twists
+-- Log: Upgrade to the new parser.
+
+-- URL: http://wow-pro.com/node/3408/revisions/24697/view
 -- Date: 2011-07-27 12:12
 -- Who: Ludovicus Maior
 -- Log: Merge Twists Pull

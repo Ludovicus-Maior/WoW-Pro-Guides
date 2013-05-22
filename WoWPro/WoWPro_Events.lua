@@ -334,7 +334,12 @@ end
 
 
 function WoWPro.EventHandler(frame, event, ...)
-    local guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype	
+    local guidetype
+    if WoWPro.Guides[WoWProDB.char.currentguide] then
+        guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+    else
+        guidetype = WoWProDB.char.currentguide
+    end
     WoWPro:LogEvent(event,...)
 	if WoWPro.InitLockdown then
 	    WoWPro:dbp("LockEvent Fired: "..event)
@@ -513,7 +518,7 @@ function WoWPro.EventHandler(frame, event, ...)
     if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
         local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
         local questtitle = GetTitleText();
-        WoWPro:dbp("Quest is [%s], matching [%s]",questtitle,WoWPro.step[qidx])
+        WoWPro:dbp("Quest is [%s], matching [%s]",tostring(questtitle),tostring(WoWPro.step[qidx]))
 		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
 		    CompleteQuest()
 		end  

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2013-05-14 19:23
+-- Who: Ludovicus Maior
+-- Log: Corrected quest named [Oh, the Tangled Webs They Weave]
+
+-- URL: http://wow-pro.com/node/3220/revisions/25430/view
 -- Date: 2013-01-13 15:15
 -- Who: Ludovicus Maior
 -- Log: Added lots of CN tags
@@ -254,7 +259,7 @@ A Oh, the Tangled Webs They Weave|QID|10066|N|From Vindicator Corin.|M|30.6,46.6
 A Cutting a Path|QID|10065|M|30.3,45.9|N|From Scout Joril.|M|30.28,45.88|
 A Critters of the Void|QID|9741|N|From Scout Loryi.|M|30.28,45.88|
 C Cutting a Path|QID|10065|N|Kill 10 Enraged Ravagers.|M|31.25,56.68|S|
-C Oh, the Tangled Webs they Weave|QID|10066|N|Kill 8 Mutated Tanglers.|M|31.25,56.68|
+C Oh, the Tangled Webs They Weave|QID|10066|N|Kill 8 Mutated Tanglers.|M|31.25,56.68|
 C Cutting a Path|QID|10065|N|Kill 10 Enraged Ravagers.|M|31.25,56.68|US|
 C Limits of Physical Exhaustion|QID|9746|M|26,53|S|N|Kill Sunhawk Pyromancers and Defenders.|
 C Critters of the Void|QID|9741|M|19,62|N|Kill 12 Void Critters. They are small and can be hard to target sometimes.|
@@ -267,7 +272,7 @@ T They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|To Researcher Cornelius.|
 T Cutting a Path|QID|10065|N|To Scout Joril.|M|30.28,45.88|
 C Fouled Water Spirits|QID|10067|N|Kill 6 Fouled Water Spirits.|M|30,39|
 T Fouled Water Spirits|QID|10067|N|To Vindicator Corin.|M|30.6,46.6|
-T Oh, the Tangled Webs they Weave|QID|10066|N|To Vindicator Corin.|M|30.6,46.6|
+T Oh, the Tangled Webs They Weave|QID|10066|N|To Vindicator Corin.|M|30.6,46.6|
 H Blood Watch |QID|9711|N|Hearth back to Blood Watch.|U|6948|
 T Matis the Cruel|QID|9711|N|To Vindicator Kuros.|M|55.61,55.14|
 T Limits of Physical Exhaustion|QID|9746|N|To Vindicator Aesom.|M|55.56,55.37|

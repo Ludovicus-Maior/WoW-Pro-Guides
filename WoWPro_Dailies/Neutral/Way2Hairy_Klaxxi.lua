@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2013-05-17 19:13
+-- Who: Ludovicus Maior
+-- Log: Added the missing CN tags
+
+-- URL: http://wow-pro.com/node/3504/revisions/25652/view
+-- Date: 2013-05-15 23:05
+-- Who: Ludovicus Maior
+-- Log: Added missing quests at revered.  General cleanups.  Still missing some CN/CS/CC tags and T tags.
+
+-- URL: http://wow-pro.com/node/3504/revisions/25553/view
 -- Date: 2013-03-20 00:36
 -- Who: Ludovicus Maior
 -- Log: Corrected quest names from  Blanckaert's report.
@@ -74,9 +84,7 @@ return [[
 
 N Work in progress!|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website.|
 
-N Klaxxi|N|You need to have opened the Dread Wastes Questline as described in the Dread Wastes leveling guide to do these quests. Also, most of the dailies will require level 90.|
-
-N Paragons|N|The amount of questgivers available is dependant on how many Paragons you have unlocked, most of which are unlocked simply by questing in Dread Wastes.  This guide will show you how to unlock the last 3 as they become available via Klaxxi reputation.|
+N Klaxxi|QID|31782|N|You need to have opened the Dread Wastes Questline as described in the Dread Wastes leveling guide to do these quests. Also, most of the dailies will require level 90.|
 
 ; One-Time Quest at Honored
 
@@ -92,39 +100,85 @@ T Skeer the Bloodseeker|QID|31175|M|54.40,36.20|N|To Skeer the Bloodseeker|
 
 ; One-Time Quests at Revered
 
-A Dropping Our Signal|QID|31439|REP|The Klaxxi;1337;revered|N|This and the next quest are one-time quests available at revered. Accept this quest from Kor'ik.|M|54.80,34.00|
+; BUY COMMENDATION
+B Grand Commendation|REP|The Klaxxi;1337;revered;nobonus|M|55.01,35.55|L|92522|N|Buy the commendation from Ambersmith Zikk and click on it to use. The commendation (once used) doubles your faction gains with The Klaxxi for all characters on the account.|
+U Grand Commendation|REP|The Klaxxi;1337;revered;nobonus|U|92522|N|Click on it, it does no good until you use it.|
 
-A Beneath the Heart of Fear|QID|31018|REP|The Klaxxi;1337;revered|N|From Kil'ruk the Wind-Reaver.|M|55.00,35.80|
+A Dropping Our Signal|QID|31439|REP|The Klaxxi;1337;revered|N|This and the next quest are one-time quests available at revered. Accept this quest from Kor'ik.|M|54.77,34.06|
 
-C Dropping Our Signal|QID|31439|U|89123|M|56.00,58.20|N|Awaken Hisek the Swarmkeeper|
+A Beneath the Heart of Fear|QID|31018|REP|The Klaxxi;1337;revered|N|From Kil'ruk the Wind-Reaver.|M|55.06,35.85|
 
-T Dropping Our Signal|QID|31439|N|To Hisek the Swarmkeeper|M|56.20,58.20|
+C Dropping Our Signal|QID|31439|M|56.00,58.20|N|Awaken Hisek the Swarmkeeper|
 
-A Corruption Runs Deep|QID|31441|REP|The Klaxxi;1337;revered|N|From Hisek the Swarmkeeper|M|56.20,58.20|
+T Dropping Our Signal|QID|31439|N|To Hisek the Swarmkeeper|M|56.25,58.25|
+
+A Corruption Runs Deep|QID|31441|PRE|31439|REP|The Klaxxi;1337;revered|N|From Hisek the Swarmkeeper|M|56.25,58.25|
 
 C Corruption Runs Deep|QID|31441|N|Wait for the traitor and defeat him|M|56.20,57.76|
 
 T Corruption Runs Deep|QID|31441|N|To Hisek the Swarmkeeper|M|56.20,58.20|
 
+A Damage Control|QID|31458|PRE|31441|N|From Hisek the Swarmkeeper|M|56.25,58.25|
+
+A Extracting Answers|QID|31465|PRE|31441|N|From Hisek the Swarmkeeper|M|56.25,58.25|
+
+C Damage Control|QID|31458|N|From Hisek the Swarmkeeper|M|55.64,46.77|N|Kill Ik'thik Whisperer around the beacon and then click on it.|
+
+C Extracting Answers|QID|31465|N|Collect Mandibles from the Ik'thik Swarmborn|QO|Venom-Coated Mandible: 6/6|M|51.20,49.80;51.40,46.20;51.65,51.75;51.40,44.00;54.33,45.19;54.40,51.05;56.59,46.55|CN|
+
 R Beneath the Heart of Fear|QID|31018|M|29.00,42.40|N|Entrance|Z|Dread Wastes|CC|
 
-C Adjunct Tzikzi slain|QID|31018|QO|Adjunct Tzikzi slain: 1/1|M|30.80,44.20|
+C Adjunct Tzikzi slain|QID|31018|QO|Adjunct Tzikzi slain: 1/1|M|30.80,44.20|N|Try to stay in the hall of the chamber, or he might reset.|
 
-C Adjunct Suruz slain|QID|31018|QO|Adjunct Suruz slain: 1/1|M|33.20,44.20|
+C Adjunct Suruz slain|QID|31018|QO|Adjunct Suruz slain: 1/1|M|33.20,44.20|N|Try to stay in the hall of the chamber, or he might reset.|
 
-C Adjunct Ikkess slain|QID|31018|QO|Adjunct Ikkess slain: 1/1|M|33.20,40.40|
+C Adjunct Ikkess slain|QID|31018|QO|Adjunct Ikkess slain: 1/1|M|33.20,40.40|N|Try to stay in the hall of the chamber, or he might reset.|
 
-C Adjunct Ek'vem slain|QID|31018|QO|Adjunct Ek'vem slain: 1/1|M|30.80,40.40|
+C Adjunct Ek'vem slain|QID|31018|QO|Adjunct Ek'vem slain: 1/1|M|30.80,40.40|N|Try to stay in the hall of the chamber, or he might reset.|
 
 C Beneath the Heart of Fear|QID|31018|N|Awaken Xaril the Poisoned Mind. Click the cog floating above the rock.|M|32.00,42.30|
 
 T Beneath the Heart of Fear|QID|31018|M|54.80,36.00|N|To Xaril the Poisoned Mind|
 
+A Venomous Intent|QID|31208|PRE|31018|N|From Xaril the Poisoned Mind|M|22.64,42.14|
+
+A Dark Wings, Dark Things|QID|31209|PRE|31018|N|From Xaril the Poisoned Mind|M|22.64,42.14|
+
+A A Shade of Dread|QID|31210|PRE|31018|N|From Xaril the Poisoned Mind|M|22.64,42.14|
+
+C A Shade of Dread|QID|31210|N|Collect flowers.|M|25.60,38.45;27.76,38.88;25.12,41.15;28.27,45.17;26.24,43.17;26.49,36.01;26.15,32.84;27.97,41.07;27.16,50.67;30.20,50.10;26.11,47.64|S|CN|
+
+C Venomous Intent|QID|31208|N|Kill scorpions.|M|26.00,31.80;28.40,27.80;28.30,47.50;25.90,48.40;29.50,49.25;27.62,50.80;26.70,38.98;26.15,35.50;25.15,28.38;26.99,43.49;31.24,50.88|S|CN|
+
+C Dark Wings, Dark Things|QID|31209|N|Kill Scarabs.|M|26.00,47.40;31.60,51.40;25.30,27.50;26.58,45.47;26.80,50.30;28.40,41.05;25.69,42.10;26.72,39.11;28.30,47.60;28.35,43.90;26.23,34.88|S|CN|
+
+C A Shade of Dread|QID|31210|N|Collect flowers.|M|25.60,38.45;27.76,38.88;25.12,41.15;28.27,45.17;26.24,43.17;26.49,36.01;26.15,32.84;27.97,41.07;27.16,50.67;30.20,50.10;26.11,47.64|US|CN|
+
+C Venomous Intent|QID|31208|N|Kill scorpions.|M|26.00,31.80;28.40,27.80;28.30,47.50;25.90,48.40;29.50,49.25;27.62,50.80;26.70,38.98;26.15,35.50;25.15,28.38;26.99,43.49;31.24,50.88|S|CN|
+
+C Dark Wings, Dark Things|QID|31209|N|Kill Scarabs.|M|26.00,47.40;31.60,51.40;25.30,27.50;26.58,45.47;26.80,50.30;28.40,41.05;25.69,42.10;26.72,39.11;28.30,47.60;28.35,43.90;26.23,34.88|S|CN|
+
+T Venomous Intent|QID|31208|N|To Xaril the Poisoned Mind|M|22.64,42.14|
+
+T Dark Wings, Dark Things|QID|31209|N|To Xaril the Poisoned Mind|M|22.64,42.14|
+
+T A Shade of Dread|QID|31210|N|To Xaril the Poisoned Mind|M|22.64,42.14|
+
+A The Poisoned Mind|QID|31211|PRE|31208;31209;31210|N|From Xaril the Poisoned Mind|M|22.64,42.14|
+
+C The Poisoned Mind|QID|31211|N|Talk to Xaril and ride. Paralyze then poison the same mobs for fast kills.|
+
+T The Poisoned Mind|QID|31211|N|To Xaril the Poisoned Mind|M|54.8,36.0|
+
+T Damage Control|QID|31458|N|To Hisek the Swarmkeeper|M|54.8,36.0|
+
+T Extracting Answers|QID|31465|N|To Hisek the Swarmkeeper|M|54.8,36.0|
+
 ; One-Time Quests at Exalted - also requires Ach Amber is the color of my energy (7312) and Dread Haste Makes Dread Waste (6540) which if you followed this guide and the Dread Wastes guide... you will have.
 
 A The Empress' Gambit|QID|31959|REP|The Klaxxi;1337;exalted|M|55,35.6|N|From Malik the Unscathed.|
 
-N Klaxxi Augmentation-Raining Blood|M|54.91,36.17|N|Get the Klaxxi buff Raining Blood from Xaril the Poisoned Mind, its the only one that really helps with this chain.|
+N Klaxxi Augmentation-Raining Blood|QID|31959|ACTIVE|31959|M|54.91,36.17|N|Get the Klaxxi buff Raining Blood from Xaril the Poisoned Mind, its the only one that really helps with this chain.|
 
 C The Empress' Gambit|QID|31959|M|40.40,34.56|N|Talk to Malik the Unscathed to start the dialog, watch and wait for the completion.|
 
@@ -144,15 +198,15 @@ T Shadow of the Empire|QID|31612|M|55.06,35.84|N|To Kil'ruk the Wind-reaver (bac
 
 ; Accept available dailies
 
-A Korven the Prime's Quests|M|54.30,36.10|N|Grab any and all quests from Korven the Prime. This step will close when you pick up the first quest.|QID|31232;31507;31496;31233;31270;31269|PRE|31019|
+A Korven the Prime's Quests|M|54.31,36.08|N|Grab any and all quests from Korven the Prime. This step will close when you pick up the first quest.|QID|31232;31507;31496;31233;31270;31269|PRE|31019|
 
-A Rik'kal the Dissector's Quests|M|54.40,35.80|N|Grab any and all quests from Rik'kal the Dissector. This step will close when you pick up the first quest.|QID|31271;31509;31234;31503;31508;31502|PRE|31606|
+A Rik'kal the Dissector's Quests|M|54.37,35.93|N|Grab any and all quests from Rik'kal the Dissector. This step will close when you pick up the first quest.|QID|31271;31509;31234;31503;31508;31502|PRE|31606|
 
-A Kaz'tik the Manipulator's Quests|M|54.30,35.80|N|Grab any and all quests from Kaz'tik the Manipulator. This step will close when you pick up the first quest.|QID|31268;31238;31494;31024;31808;31506;31487|PRE|31091|
+A Kaz'tik the Manipulator's Quests|M|54.26,35.78|N|Grab any and all quests from Kaz'tik the Manipulator. This step will close when you pick up the first quest.|QID|31268;31238;31494;31024;31808;31506;31487|PRE|31091|
 
-A Hisek the Swarmkeeper or Xaril the Poisoned Mind's Quests|M|54.80,36.00|REP|The Klaxxi;1337;revered|N|Grab a quest from either Hisek the Swarmkeeper or Xaril the Poisoned Mind.|QID|31237;31272;31504;31510;31216|PRE|31441;31018|
+A Hisek the Swarmkeeper or Xaril the Poisoned Mind's Quests|M|54.82,36.21;54.92,36.17|CN|REP|The Klaxxi;1337;revered|N|Grab a quest from either Hisek the Swarmkeeper or Xaril the Poisoned Mind.|QID|31237;31272;31504;31510;31216|PRE|31441;31018|
 
-A Kil'ruk the Wind-Reaver's Quests|M|55.10,35.90|N|Grab any and all quests from Kil'ruk the Wind-Reaver. This step will close when you pick up the first quest.|QID|31109;31231;31111;31267;31235;31505|PRE|31004|
+A Kil'ruk the Wind-Reaver's Quests|M|55.06,35.86|N|Any and all quests from Kil'ruk the Wind-Reaver. This step will close when you pick up the first quest.|QID|31109;31231;31111;31267;31235;31505|PRE|31004|
 
 ; Bombing runs
 
@@ -238,7 +292,7 @@ C Ordnance Disposal|QID|31504|US|M|43.00,34.40|N|Disable 8 Pheromone Mines aroun
 
 C Wing Clip|QID|31502|N|Collect 24 Needler Wings from Shek'zeer Needlers.|S|
 
-C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|
+C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|T|Vess-Guard Na'kal|
 
 C Wing Clip|QID|31502|N|Collect 24 Needler Wings from Shek'zeer Needlers.|US|M|35.60,31.40|
 
@@ -246,13 +300,13 @@ K Karanosh|QID|31109;31504;31502;31503;31599|M|41.80,33.60|L|87878|T|Karanosh|N|
 
 A The Matriarch's Maw|ACTIVE|31109;31504;31502;31503;31599|QID|31599|U|87878|N|Accept the quest from the mandibles.|
 
-C Sap Jar filled at North feeder|QID|31496|U|87400|QO|North Sap Jar filled: 1/1|M|36.00,32.00|
+C Sap Jar filled at North feeder|QID|31496|U|87400|QO|North Feeder: 1/1|M|36.00,32.00|
 
-C Sap Jar filled at Central feeder|QID|31496|U|87400|QO|Central Sap Jar filled: 1/1|M|37.00,28.00|
+C Sap Jar filled at Central feeder|QID|31496|U|87400|QO|Central Feeder: 1/1|M|37.00,28.00|
 
-C Sap Jar filled at East feeder|QID|31496|U|87400|QO|East Sap Jar filled: 1/1|M|38.00,31.00|
+C Sap Jar filled at East feeder|QID|31496|U|87400|QO|East Feeder: 1/1|M|38.00,31.00|
 
-C Sap Jar filled at Northeast feeder|QID|31496|U|87400|QO|Northeast Sap Jar filled: 1/1|M|39.00,29.00|
+C Sap Jar filled at Northeast feeder|QID|31496|U|87400|QO|Northeast Feeder: 1/1|M|39.00,29.00|
 
 C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|
 
@@ -272,7 +326,7 @@ C Fear Takes Root|QID|31509|N|Destroy 15 Dreadspore Bulbs in Zan'vess and The Br
 
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|S|
 
-K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|Vess-Guard Vik'az slain: 1/1|
+K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|Vess-Guard Vik'az slain: 1/1|T|Vess-Guard Vik'az|
 
 C Meltdown|QID|31507|M|23.00,77.60|U|87841|N|Slay 6 Zan'thik Venomstings in Zan'vess. Use Korven's Experimental Grenade to counter their armor plating.|
 
@@ -294,7 +348,7 @@ T Kypa'rak's Core|QID|31598|M|55.00,35.40|N|To Ambersmith Zikk.|
 
 T The Matriarch's Maw|QID|31599|M|55.00,35.40|N|To Ambersmith Zikk.|
 
-T Seeds of Fear|M|55.00,35.40|O|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20
+T Seeds of Fear|M|55.00,35.40|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20
 
 T Culling the Swarm|QID|31109|M|55.10,35.90|N|To Kil'ruk the Wind-Reaver.|
 

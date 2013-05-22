@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-05-14 19:21
+-- Who: Ludovicus Maior
+-- Log: The Underbelly@Dalaran
+
+-- URL: http://wow-pro.com/node/3440/revisions/25646/view
+-- Date: 2013-05-14 19:19
+-- Who: Ludovicus Maior
+-- Log: Corrected quest name [A Time to Lose]
+
+-- URL: http://wow-pro.com/node/3440/revisions/25489/view
 -- Date: 2013-01-13 23:44
 -- Who: Ludovicus Maior
 -- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2013-05-14 17:03
+-- Who: Ludovicus Maior
+-- Log: The [Wanted! XXX] quests are really [Wanted!  XXX]
+
+-- URL: http://wow-pro.com/node/3229/revisions/25393/view
 -- Date: 2013-01-12 22:36
 -- Who: Ludovicus Maior
 -- Log: Added CS tags
@@ -72,12 +77,12 @@ A Shakes O'Breen|QID|26336|RANK|1|M|40.34,49.03|N|From Skuerto.|
 
 A Home Sweet Gnome|QID|26943|RANK|1|M|40.34,49.03|N|From Skuerto. If you wish to go to Gnomerigan.|
 
-A Wanted! Marez Cowl|QID|26024|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
-A Wanted! Otto and Falconcrest|QID|26079|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
+A Wanted!  Marez Cowl|QID|26024|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
+A Wanted!  Otto and Falconcrest|QID|26079|RANK|1|M|40.24,49.06|N|From the Wanted Poster.|
 
 C Northfold Manor|QID|26093|M|25.13,30.48|N|Kill 16 Syndicate Mercenaries. Syndicate Highwayman count as well.|
-C Wanted! Otto and Falconcrest|QID|26079|M|19.64,66.62|N|Go inside the keep and head up. Kill Otto and Lord Falconcrest, then loot their heads.|
-C Wanted! Marez Cowl|QID|26024|M|23.2,64.8;22.8,66|CN|N|Head out of the keep and find Marez. She can be at either waypoint. Kill her and loot her head.|
+C Wanted!  Otto and Falconcrest|QID|26079|M|19.64,66.62|N|Go inside the keep and head up. Kill Otto and Lord Falconcrest, then loot their heads.|
+C Wanted!  Marez Cowl|QID|26024|M|23.2,64.8;22.8,66|CN|N|Head out of the keep and find Marez. She can be at either waypoint. Kill her and loot her head.|
 
 A Drowned Sorrows|QID|26055|M|27.75,83.17|N|From Captain Steelgut.|
 T Shakes O'Breen|QID|26336|M|26.03,83.93|N|To Shakes O'Breen.|
@@ -105,8 +110,8 @@ H Refuge Pointe|QID|26024|NC|N|Hearth or run back to Refuge Pointe.|M|39.89,48.7
 
 T Northfold Manor|QID|26093|M|39.89,48.75|N|To Captain Nials.|
 A Stromgarde Badges|QID|26095|PRE|26093|RANK|1|M|39.89,48.75|N|From Captain Nials.|
-T Wanted! Marez Cowl|QID|26024|M|39.89,48.75|N|To Captain Nials.|
-T Wanted! Otto and Falconcrest|QID|26079|M|39.89,48.75|N|To Captain Nials.|
+T Wanted!  Marez Cowl|QID|26024|M|39.89,48.75|N|To Captain Nials.|
+T Wanted!  Otto and Falconcrest|QID|26079|M|39.89,48.75|N|To Captain Nials.|
 
 C Stromgarde Badges|QID|26095|M|19.99,66.47|N|Kill and loot Syndicate mobs until you have 7 Stromgarde Badges.|
 

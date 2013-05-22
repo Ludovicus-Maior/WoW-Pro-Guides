@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2013-05-17 19:26
+-- Who: Ludovicus Maior
+-- Log: Various errors!
+
+-- URL: http://wow-pro.com/node/3503/revisions/25651/view
+-- Date: 2013-05-14 19:32
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3503/revisions/25534/view
 -- Date: 2013-02-18 06:25
 -- Who: Emmaleah
 -- Log: Fixed type "Naster" x3
@@ -59,7 +68,7 @@ N Golden Lotus first|N|You need to be revered with the Golden Lotus before you c
 N Regular Leveling Quests|N|If you haven't done the questlines in Temple of the Jade Serpant (Jade Forest), Temple of Red Crane (Krasarang Wildes) Temple of the White Tiger(Kun-Lai Summit) and Niuzeo's temple (Townlong Steppes) you probably want to, since those quest chains each offor August Celestials rep.  It is not required to have done them before doing the dailies.|
 
 ;intro quest - one time - not necesary - may be deprecated in 5.1?
-T A Celestial Task!|QID|32011|FACTION|Alliance|M|84.6,63.6|N|To Sage Whiteheart. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
+T A Celestial Task|QID|32011|FACTION|Alliance|M|84.6,63.6|N|To Sage Whiteheart. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
 T A Celestial Task!|QID|32010|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
 
 ;pointer quests - alliance
@@ -141,8 +150,8 @@ C Ellia Ravenmane: Revenge|QID|30732|34.4,83.2|Z|Krasarang Wilds|
 T Ellia Ravenmane: Revenge|QID|30732|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
 A Tukka-Tuk|QID|30733|PRE|30732|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
 C Tukka-Tuk|QID|30733|34,75|Z|Krasarang Wilds|
-T Tukka-Tuk|QID|30733|M|31.2,63.4|Z|Krasarang Wilds.|N|To Thelonius.|
-A Huck Wheelbarrow|QID|30734|PRE|30733|M|31.2,63.4|Z|Krasarang Wilds.|N|From Thelonius.|
+T Tukka-Tuk|QID|30733|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
+A Huck Wheelbarrow|QID|30734|PRE|30733|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
 C Huck Wheelbarrow|QID|30734|27.8,70.2|Z|Krasarang Wilds|
 T Huck Wheelbarrow|QID|30734|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
 A Mindel Sunspeaker|QID|30735|PRE|30734|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
@@ -166,13 +175,13 @@ T Champion of Chi-Ji|QID|30740|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius. Con
 
 ;white tigar temple
 N Achievement Opportunity - Finish Them!|ACH|7286|PRE|31381+31380|N|This one will take a minimum of two trips to the Temple of the White Tiger. It requires you to face all the champions. It is random which set of champions you face. You do not have to get the Tag credit for these, only the kill credit.|
-A Contending with Bullies|QID|31517|PRE|31380+31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen, if he isn't here, check this off manually and then find Lin Tenderpaw after accepting the challenge quest.(next line of guide).|
+A Contending With Bullies|QID|31517|PRE|31380+31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen, if he isn't here, check this off manually and then find Lin Tenderpaw after accepting the challenge quest.(next line of guide).|
 A Random Round 1|QID|30879;30880|PRE|31380+31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen who wanders a bit and may be in a diferant spot in the temple.|
 A The Torch of Strength|QID|31492|PRE|31380+31381|LEAD|31517|M|68.4,56.4|Z|Kun-Lai Summit|N|From Lin Tenderpaw.|
-C Contending with Bullies|QID|31517|M|71,55.8|Z|Kun-Lai Summit|N|Shonuf is located in the village of Yinying to the SE. Clear the area around him or the other mobs will assist.|
+C Contending With Bullies|QID|31517|M|71,55.8|Z|Kun-Lai Summit|N|Shonuf is located in the village of Yinying to the SE. Clear the area around him or the other mobs will assist.|
 C The Torch of Strength|QID|31492|N|If a whirlwind gets close, your torch goes out, if you still have the debuff, you can relight your torch by standing next to another player with a lit torch for a second or so, or go talk to the quest giver to get a new torch. Remember there is no time limit on this quest.|
 T The Torch of Strength|QID|31492|M|68.4,56.4|Z|Kun-Lai Summit|N|To Lin Tenderpaw.|
-T Contending with Bullies|QID|31517|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
+T Contending With Bullies|QID|31517|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
 C Round 1: Brewmaster Chani|QID|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|Challenge Chani to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 1: Brewmaster Chani|QID|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
 A Round 2: Clever Ashyo & Ken-Ken|QID|30881|PRE|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|From Xuen.|
@@ -185,13 +194,13 @@ A Round 4: The P.U.G.|QID|30907|PRE|30883|M|67,56.4|Z|Kun-Lai Summit|N|From Xuen
 C Round 4: The P.U.G.|QID|30907|M|69,43.8|Z|Kun-Lai Summit|N|Challenge one of them to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 4: The P.U.G.|QID|30907|M|66.4,46.4|Z|Kun-Lai Summit|N|To Xuen.|
 C Round 1: The Streatfighter|QID|30880|M|70.8,51.8|Z|Kun-Lai Summit|N|Challenge Lun-Chi to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
-T Round 1: The Streatfighter|QID|30880|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
+T Round 1: The Streetfighter|QID|30880|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
 A Round 2: Kang Bramblestaff|QID|30882|PRE|30880|M|70.8,51.8|Z|Kun-Lai Summit|N|From Xuen.|
 C Round 2: Kang Bramblestaff|QID|30882|M|71.6,45.2|Z|Kun-Lai Summit|N|Challenge Kang to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 2: Kang Bramblestaff|QID|30882|M|71.6,45.0|Z|Kun-Lai Summit|N|To Xuen.|
 A Round 3: Master Boom Boom|QID|30885|PRE|30882|M|71.6,45.0|Z|Kun-Lai Summit|N|From Xuen.|
 C Round 3: Master Boom Boom|QID|30885|M|66.6,46.4|Z|Kun-Lai Summit|N|Challenge Boom Boom to a fight. When he sets out his dynamite, you can run over the fuses to extinguish them. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
-T Round 3: Master Boom Boom|QID|30885|M|66.6,46.4.4|Z|Kun-Lai Summit|N|To Xuen.|
+T Round 3: Master Boom Boom|QID|30885|M|66.6,46.4|Z|Kun-Lai Summit|N|To Xuen.|
 A Round 4: Master Windfur|QID|30902|PRE|30885|M|67,56.4|Z|Kun-Lai Summit|N|From Xuen.|
 C Round 4: Master Windfur|QID|30902|68.8,43.8|Z|Kun-Lai Summit|N|Challenge Windfur to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 C Round 4: Master Windfur|QID|30902|M|66.4,46.4|Z|Kun-Lai Summit|N|To Xuen.|

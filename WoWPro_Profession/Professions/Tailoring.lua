@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_tailoring
+-- Date: 2013-05-16 00:56
+-- Who: Twists
+-- Log: Update to the new parser.
+
+-- URL: http://wow-pro.com/node/3412/revisions/24685/view
 -- Date: 2011-07-13 22:48
 -- Who: Ludovicus Maior
 -- Log: Sync to GitHub

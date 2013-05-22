@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2013-05-17 19:20
+-- Who: Ludovicus Maior
+-- Log: Bad coord for T CLUCK!.
+
+-- URL: http://wow-pro.com/node/3213/revisions/25600/view
 -- Date: 2013-03-23 20:45
 -- Who: Ludovicus Maior
 -- Log: Quest name cleanups
@@ -168,7 +173,7 @@ T You Have Our Thanks|QID|26270|M|56.37,30.60|N|To Salma Saldean.|
 A Hope for the People|QID|26266|RANK|1|M|56.37,30.60|N|From Salma Saldean.|
 
 A CLUCK!|QID|3861|RANK|3|M|56.02,31.28|N|To get this quest, buy one unit of Special Chicken Feed from Farmer Saldean, find a chicken, and repeatedly type /chicken at it until eventually it turns friendly, and offer the quest.|
-T CLUCK!|QID|3861|RANK|3|M|56.02,3128|N|To Chicken - enjoy your new pet!|
+T CLUCK!|QID|3861|RANK|3|M|56.02,31.28|N|To Chicken - enjoy your new pet!|
 
 T Hope for the People|QID|26266|M|56.88,47.13|N|To Hope Saldean at Sentinel Hill.|
 A Feeding the Hungry and the Hopeless|QID|26271|RANK|1|M|56.88,47.13|N|From Hope Saldean.|

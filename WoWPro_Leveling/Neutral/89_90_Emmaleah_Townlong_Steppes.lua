@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2013-05-09 22:11
+-- Who: Ludovicus Maior
+-- Log: Corrected T|Kill Voress'thalik|
+
+-- URL: http://wow-pro.com/node/3492/revisions/25519/view
 -- Date: 2013-02-06 20:15
 -- Who: Ludovicus Maior
 -- Log: Coord fixes through  Rensai's Watchpost.
@@ -271,7 +276,7 @@ A Hostile Skies|QID|30978|M|51.58,87.21|N|From Hawkmaster Nurong.|
 C Hostile Skies|QID|30978|M|51.67,87.32|N|Use Nurong's rocket launcher(vehicle UI) to shoot the flying mantids.|
 T Hostile Skies|QID|30978|M|51.67,87.32|N|To Hawkmaster Nurong.|
 A Devastation Below|QID|30979|M|51.67,87.32|N|From Hawkmaster Nurong.|
-K Kill Voress'thalik|QID|30979|T|Kill Voress'thalik|QO|Voress'thalik slain: 1/1|M|54.13,86.94|N|Jump down to get to Voress'thalik. Don't worry, you have a slow fall debuff.|
+K Kill Voress'thalik|QID|30979|T|Voress'thalik|QO|Voress'thalik slain: 1/1|M|54.13,86.94|N|Jump down to get to Voress'thalik. Don't worry, you have a slow fall debuff.|
 T Devastation Below|QID|30979|M|53.94,86.92|N|To Hawkmaster Nurong.|
 A Heroes of the Shado-Pan|QID|30980|M|53.94,86.92|N|From Hawkmaster Nurong.|
 C Choking the Skies|QID|31032|US|NC|U|83768|M|51.25,83.72|N|After you kill the bugs, burn them with the torch.|

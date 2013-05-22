@@ -486,7 +486,7 @@ function WoWPro.Leveling:RowUpdate(offset)
 			QuestMapUpdateAllQuests()
 			QuestPOIUpdateIcons()
 			local _, x, y, obj
-			if QID then _, x, y, obj = QuestPOIGetIconInfo(QID) end
+			if tonumber(QID) then _, x, y, obj = QuestPOIGetIconInfo(QID) end
 			if coord or x then
 				table.insert(dropdown, 
 					{text = "Map Coordinates", func = function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2013-05-17 20:51
+-- Who: Ludovicus Maior
+-- Log: QID 11761 had an extra ')'
+
+-- URL: http://wow-pro.com/node/3407/revisions/25019/view
 -- Date: 2012-06-30 23:20
 -- Who: Ludovicus Maior
 -- Log: Got rid of extra spaces.
@@ -191,7 +196,7 @@ A Honor the Flame|QID|28924|M|40.59,50.94|Z|Northern Stranglethorn|N|From the Fl
 A Desecrate this Fire!|QID|28910|M|52.05,63.55|Z|Northern Stranglethorn|N|At the Alliance Bonfire. (Northern Stranglethorn)|
 R Wild Shore|QID|11837|M|50.40,70.38|Z|The Cape of Stranglethorn|N|Head down to the Wild Shore in The Cape of Stranglethorn.|
 A Honor the Flame|QID|11837|M|40.40,70.38|Z|The Cape of Stranglethorn|N|From the Flame Keeper. (The Cape of Stranglethorn)|
-A Desecrate this Fire!)|QID|11761|M|51.96,67.65|Z|The Cape of Stranglethorn|N|At the Alliance Bonfire. (The Cape of Stranglethorn)|
+A Desecrate this Fire!|QID|11761|M|51.96,67.65|Z|The Cape of Stranglethorn|N|At the Alliance Bonfire. (The Cape of Stranglethorn)|
 H Orgrimmar|U|6948|N|Hearth back to Orgrimmar.|QID|28946|
 R Twilight Highlands|N|Click the portal to go to the Twilight Highlands.|M|50.6,37|Z|Orgrimmar|QID|28946|
 A Honor the Flame|QID|28946|M|53.13,46.18|Z|Twilight Highlands|N|From the Flame Keeper. (Twilight Highlands)|

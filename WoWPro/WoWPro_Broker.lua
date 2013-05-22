@@ -261,7 +261,7 @@ function WoWPro:NextStep(k,i)
 	local skip = true
 	-- The "repeat ... break ... until true" hack is how you do a continue in LUA!  http://lua-users.org/lists/lua-l/2006-12/msg00444.html
 	while skip do repeat
-		
+		local QID=WoWPro.QID[k]
 		skip = false -- The step defaults to NOT skipped
 		
 		-- Quickly skip completed steps --
@@ -270,13 +270,13 @@ function WoWPro:NextStep(k,i)
 		-- Quickly skip any manually skipped quests --
 		if WoWProCharDB.Guide[GID].skipped[k] then
 			WoWPro:dbp("SkippedStep(%d)",k); skip = true ;  break
-		elseif WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
+		elseif WoWProCharDB.skippedQIDs[QID] then
 			WoWProCharDB.Guide[GID].skipped[k] = true
 			WoWPro:dbp("SkippedQUID(%d)",k);skip = true ; break
 		end
 		
 		-- Optional Quests --
-		if WoWPro.optional[k] and WoWPro.QID[k] then 
+		if WoWPro.optional[k] and QID then 
 			skip = true --Optional steps default to skipped --
 			WoWPro.why[k] = "NextStep(): Optional steps default to skipped."
 			-- Checking Use Items --
@@ -286,7 +286,11 @@ function WoWPro:NextStep(k,i)
 					WoWPro.why[k] = "NextStep(): Optional steps with an item to use that is present is not skipped."
 				end
 			end
-			
+			-- Are we on the quest?
+			if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
+				skip = false -- The optional quest is not skipped if we are on it!
+				WoWPro.why[k] = "NextStep(): Optional not skipped if on the quest!"			    
+			end
 		end
 	
 	
@@ -313,7 +317,7 @@ function WoWPro:NextStep(k,i)
         			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
         			if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
         				skip = true -- If one of the prereqs is NOT complete, step is skipped.
-        				WoWPro.why[k] = "NextStep(): Not all of the prereqs was met."
+        				WoWPro.why[k] = "NextStep(): Not all of the prereqs was met: " .. WoWPro.prereq[k]
         			end
         		end
        	    end
@@ -322,7 +326,7 @@ function WoWPro:NextStep(k,i)
     	-- Skipping quests with prerequisites if their prerequisite was skipped --
     	if WoWPro.prereq[k] 
     	and not WoWProCharDB.Guide[GID].skipped[k] 
-    	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then 
+    	and not WoWProCharDB.skippedQIDs[QID] then 
     		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
     		for j=1,numprereqs do
     			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
@@ -334,7 +338,7 @@ function WoWPro:NextStep(k,i)
     				if WoWPro.action[k] == "A" 
     				or WoWPro.action[k] == "C" 
     				or WoWPro.action[k] == "T" then
-    					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+    					WoWProCharDB.skippedQIDs[QID] = true
     					WoWProCharDB.Guide[GID].skipped[k] = true
     				else
     					WoWProCharDB.Guide[GID].skipped[k] = true
@@ -343,9 +347,27 @@ function WoWPro:NextStep(k,i)
     		end
     	end
 
+        -- Partial Completion --
+        if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[k] 
+        and not WoWProCharDB.Guide[GID].completion[k] then 
+	        local numquesttext = select("#", string.split(";", WoWPro.questtext[k]))
+	        local complete = true
+	        for l=1,numquesttext do
+		        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[k]))
+		        local lcomplete = false
+		        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
+			        if lquesttext == objective then --if the objective matches the step's criteria, mark true
+				        lcomplete = true
+			        end
+		        end
+		        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
+	        end
+	        if complete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
+        end
+
 	    -- Skip C or T steps if not in QuestLog
 	    if WoWPro.action[k] == "C" or WoWPro.action[k] == "T" then
-	        if not WoWPro:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then 
+	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then 
     			skip = true -- If the quest is not in the quest log, the step is skipped --
     			WoWPro:dbp("Step %s [%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],WoWPro.active[k])
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
@@ -403,21 +425,21 @@ function WoWPro:NextStep(k,i)
 						end
 					end
 				end
-				if (hasProf == false) and ((tonumber(profmaxlvl)>0) or (tonumber(profmaxskill)) > 0) then 
-					skip = false 
+				-- Zero or max proflvl special skip logic
+				if (hasProf == false) and ((tonumber(profmaxlvl)>0) or (tonumber(profmaxskill)) > 0) then
+				    skip = false
+				end
+				if WoWPro.action[k] == "A" and not hasProf then
+				    -- If they do not have the profession, mark the step and quest as skipped
+				    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
+				    WoWProCharDB.Guide[GID].skipped[k] = true
+				    WoWProCharDB.skippedQIDs[QID] = true
+				    WoWPro:dbp("Prof permaskip qid %s for no %s",WoWPro.QID[k],prof)
 				end
 			else
 			    WoWPro:Error("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
 			end
-			if (WoWPro.action[k] == "A" and not hasProf) or (skip == true) then
-			    -- If they do not have the profession or the step is below their level, mark the step and quest as skipped
-			    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
-			    WoWProCharDB.Guide[GID].skipped[k] = true
-			    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
-			end
-
 		end
-        
         
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep and WoWPro.rep[k] and not skip then
@@ -430,8 +452,21 @@ function WoWPro:NextStep(k,i)
 			rep = string.lower(rep)
 			factionIndex = tonumber(factionIndex)
 			repID = string.lower(repID)
-			repmax = string.lower(repmax) 
-			replvl = tonumber(replvl) or 0
+			repmax = string.lower(repmax)
+			if replvl and (not tonumber(replvl)) then
+			    replvl =  string.lower(replvl)
+			    if replvl == "bonus" then
+			        replvl = true
+			    elseif replvl == "nobonus" then
+			        replvl = false
+			    else
+			        self:Error("Bad [%s] replvl [%s] found.  Defaulting to 0",rep,replvl)
+			        replvl = 0
+			    end
+			    self:dbp("Special replvl converted to %s",tostring(replvl))
+			else
+			    replvl = tonumber(replvl) or 0
+			end
 
 
             -- Extract lower bound rep
@@ -452,7 +487,7 @@ function WoWPro:NextStep(k,i)
             
 			skip = true --reputation steps skipped by default
 			
-			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
+			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, hasBonusRepGain
 			local friendID, friendRep, friendMaxRep, friendName, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold
 			if Friendship then
 			    friendID, friendRep, friendMaxRep, name, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(factionIndex);
@@ -462,15 +497,22 @@ function WoWPro:NextStep(k,i)
 			    bottomValue = 0
 			    self:dbp("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
 			else
-			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(factionIndex)
-                self:dbp("Faction %s: standing %d, earned %d, bottomValue %d",name,standingId,earnedValue,bottomValue)
+			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild , _, hasBonusRepGain = GetFactionInfoByID(factionIndex)
+                self:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s",name,standingId,earnedValue,bottomValue,tostring(hasBonusRepGain))
                 earnedValue = earnedValue - bottomValue
 			end
 
-			if (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
+            if type(replvl) == "boolean" then
+                if not(replvl) == not(hasBonusRepGain) then
+                    skip = false
+                end
+                self:dbp("Special replvl %s vs hasBonusRepGain %s, skip is %s",tostring(replvl),tostring(hasBonusRepGain),tostring(skip))
+            end 
+
+			if type(replvl) == "number" and (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
 			end
-			if (replvl > 0) then
+			if type(replvl) == "number" and (replvl > 0) then
 				if (repID < standingId) then
 				    self:dbp("** [%s] Spec %s repID %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repID), tostring(standingId))
 					skip = false 
@@ -483,7 +525,7 @@ function WoWPro:NextStep(k,i)
 			-- Mark quests as skipped that we will assume will NEVER be done.
 			if WoWPro.action[k] == "A" and standingId < 3 and repID > 3 and skip then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
-			    WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
+			    WoWProCharDB.skippedQIDs[QID] = true
 			end
         end
         
@@ -558,9 +600,20 @@ function WoWPro:NextStep(k,i)
         -- Do we have enough loot in bags?
 		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
 		    if GetItemCount(WoWPro.lootitem[k]) >= WoWPro.lootqty[k] then
-			    WoWPro.why[k] = "NextStep(): completed cause you have enough loot in bags."
-			    WoWPro.CompleteStep(k)
-			    skip = true
+		        if WoWPro.action[k] == "T" then
+		            -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
+		            WoWPro.why[k] = "NextStep(): enough loot to turn in quest."
+		        else
+			        WoWPro.why[k] = "NextStep(): completed cause you have enough loot in bags."
+			        WoWPro.CompleteStep(k)
+			        skip = true
+			    end
+			else
+		        if WoWPro.action[k] == "T" then
+		            -- Special for T steps, do skip.  Like Darkmoon [Test Your Strength]
+		            WoWPro.why[k] = "NextStep(): not enough loot to turn in quest."
+			        skip = true
+			    end
 			end
 		else		
     		-- Special for Buy steps where the step name is the item to buy and no |L| specified
@@ -725,13 +778,34 @@ function WoWPro:PopulateQuestLog()
 	
 end
 
+   		
+
+
 -- Cached version of function
 function WoWPro:IsQuestFlaggedCompleted(qid,force)
     if qid == "*" then return nil; end
     local QID = tonumber(qid)
     if not QID then
-        self:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
-        return false;
+        -- is it a QID list?
+        local quids = select("#", string.split(";", qid))
+        if (not quids) or quids == 1 then 
+            self:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
+            return false;
+        else
+            -- Yup, return true if any are complete
+    		for j=1,quids do
+    			local jquid = select(quids-j+1, string.split(";", qid))
+                jquid = tonumber(jquid)
+                if not jquid then
+                    self:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
+                    return false;
+                end
+                if WoWPro:IsQuestFlaggedCompleted(jquid,force) then
+                    return true
+                end
+     		end
+            return false
+        end
     end
     if not WoWProCharDB.completedQIDs then
         WoWProCharDB.completedQIDs = {}
@@ -775,6 +849,7 @@ end
 function WoWPro:QuestPrereq(qid)
     WoWPro:DoQuest(qid)
     local preReq = Grail:QuestPrerequisites(qid)
+    WoWPro:Print("QID %s prereqs are: %s",tostring(qid),tostring(preReq))
     if not preReq then return end
     for i,p in ipairs(preReq) do
         if( string.sub(tostring(p),1,1) == "B" ) then
@@ -782,6 +857,8 @@ function WoWPro:QuestPrereq(qid)
         end
         WoWPro:QuestPrereq(p)
     end
+    local preReq = Grail:QuestBreadcrumbs(qid)
+    
 end
 
 function WoWPro:Questline(qid)
@@ -812,6 +889,9 @@ function WoWPro:GrailQuestPrereq(qid)
     local preReq = Grail:QuestPrerequisites(qid)
     local PREstr = nil
     if not preReq then return nil end
+    if type(preReq) ~= "table" then
+        preReq = Grail:_FromPattern(preReq)
+    end
     for i,p in ipairs(preReq) do
         if( string.sub(tostring(p),1,1) == "B" ) then
             p = string.sub(p,2);
@@ -835,12 +915,20 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
         return false
     end
     local numQIDs = select("#", string.split(";", QID))
+    myname = myname:trim()
     if numQIDs > 1 then return QID end
     for j=1,numQIDs do
         local qid = select(numQIDs-j+1, string.split(";", QID))
         local gName = Grail:QuestName(qid)
-        if gName and gName ~= myname then
-            WoWPro:Warning("In guide %s, quest %s's name [%s] does not match Grail's database [%s].",guide,tostring(qid),myname,gName)
+
+        if gName then
+            gName = gName:trim()
+            if gName:find("FLAG %- ") then
+                _, _ , gName = gName:find("FLAG %- (.*)")
+            end
+            if   gName ~=  myname then      
+                WoWPro:Warning("In guide %s, quest %s's name [%s] does not match Grail's database [%s].",guide,tostring(qid),myname,gName)
+            end
         end
     end
 end

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2013-05-14 19:29
+-- Who: Ludovicus Maior
+-- Log: Got rid of stray M tags
+
+-- URL: http://wow-pro.com/node/3490/revisions/25595/view
 -- Date: 2013-03-23 20:35
 -- Who: Ludovicus Maior
 -- Log: Bad quest name
@@ -275,8 +280,8 @@ T Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.17,83.27|N|To Sull
 T Mogu?! Oh No-gu!|QID|30619|FACTION|Alliance|M|54.17,83.42|N|To Elder Tsulan.|
 T Back to Westwind Rest|QID|31252|FACTION|Alliance|M|53.79,84.11|N|To Farmhand Bo.|
 T Deanimate the Reanimated|QID|30593|FACTION|Alliance|M|53.49,83.38|N|To Mishka.|
-T Round 'Em Up|QID|30575|M|FACTION|Alliance|M|53.77,82.67|N|To Admiral Taylor.|
-A Pandaren Prisoners|QID|30650|M|FACTION|Alliance|54.17,83.42|N|From Elder Tsulan.|
+T Round 'Em Up|QID|30575|FACTION|Alliance|M|53.77,82.67|N|To Admiral Taylor.|
+A Pandaren Prisoners|QID|30650|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|
 A Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pickle" McLeary.|
 A In Tents Channeling|QID|30652|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
 R Fire Camp Ordo |QID|30652|FACTION|Alliance|M|50.50,78.59|

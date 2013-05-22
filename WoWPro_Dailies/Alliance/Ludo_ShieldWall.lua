@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-05-14 16:52
+-- Who: Ludovicus Maior
+-- Log: Many bad coords
+
+-- URL: http://wow-pro.com/node/3519/revisions/25631/view
+-- Date: 2013-05-14 15:53
+-- Who: Ludovicus Maior
+-- Log: Removed extra partial coord for Bizmo's Brawlpub
+
+-- URL: http://wow-pro.com/node/3519/revisions/25543/view
 -- Date: 2013-03-05 23:12
 -- Who: Ludovicus Maior
 -- Log: Did [Breath of Darkest Shadow]
@@ -109,7 +119,7 @@ f Lion's Landing|QID|32248|M|88.33,34.69|N|At Daggin Windbeard|
 ; The Man With a Thousand Faces
 A The Best Around|QID|32380|PRE|32109|M|89.55,32.58|REP|Operation: Shieldwall;1376;friendly;950|N|From Admiral Taylor, a little after hitting Friendly|
 R Deeprun Tram|QID|32380|N|Head to Deeprun Tram in Stormwind.|
-R Bizmo's Brawlpub|QID|32380|M|52.50,33.01;52.25,51.25;70.50|Z|Deeprun Tram@DeeprunTram|CS|N|Look for the flashing red light in the tracks and head down the stairs.|
+R Bizmo's Brawlpub|QID|32380|M|52.50,33.01;52.25,51.25|Z|Deeprun Tram@DeeprunTram|CS|N|Look for the flashing red light in the tracks and head down the stairs.|
 T The Best Around|QID|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|Find Barkeep Townsley, in Deeprun Tram in Stormwind.|
 A To Catch A Spy|QID|32381|PRE|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|From Barkeep Townsley.|
 C Keith "The Party" Westin|QID|32381|M|64.80,22.99|Z|Bizmo's Brawlpub@DeeprunTram|T|Keith "The Party" Westin|N|Chat with Townsley and get the first clue, then talk to Keith.|QO|Pink Marmot delivered: 1/1|
@@ -145,13 +155,13 @@ T The Fate of Dalaran|QID|32362|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To An
 ; The Korune
 A To Mogujia|QID|32193|PRE|32362|M|89.55,32.58|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
 R Mogujia|QID|32193|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-T To Mogujia|QID|32193|M||Z|Kun-Lai Summit|N|To Brann Bronzebeard|
-A The Source of Korune Power|QID|32243|PRE|32193|M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
+T To Mogujia|QID|32193|M|59.8,76|Z|Kun-Lai Summit|N|To Brann Bronzebeard|
+A The Source of Korune Power|QID|32243|PRE|32193|M|58.2,71.0|Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
 A Bad Blood|QID|32194|PRE|32193|M|58.2,71.0|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
 C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
-K Korune Spellweaver|QID|32243||M||Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|
-T The Source of Korune Power|QID|32243||M||Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
-T Bad Blood|QID|32194||M||Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
+K Korune Spellweaver|QID|32243|M|58.2,71.0|Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|
+T The Source of Korune Power|QID|32243|M|58.2,71.0|Z|Kun-Lai Summit|N|To Hilda Hornswaggle|
+T Bad Blood|QID|32194|M|58.2,71.0|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
 
 ; Heart of the Alliance
 A Anduin's Plea|QID|32315|PRE|32193|M|89.55,32.58|REP|Operation: Shieldwall;1376;honored;11000|N|From Admiral Taylor, near the end of Honored|
@@ -294,7 +304,7 @@ C It's Only Right|QID|32156|T|Fallen Shieldwall Soldier|N|Click on the corpses t
 C Burn Out!|QID|32154|M|23.87,54.61|QO|Northern Fuel Tank destroyed: 1/1|N|Click on the explosive when you are near the cogwheels.|U|93187|
 C Burn Out!|QID|32154|M|25.47,59.44|QO|Northeastern Fuel Tank destroyed: 1/1|N|Click on the explosive when you are near the cogwheels.|U|93187|
 C The Only Good Goblin...|QID|32157|M|22.00,58.40;24.20,58.20;22.50,55.45;20.00,63.00;19.90,59.60|QO|Bilgewater Goblins slain: 10/10|CN|N|Nice clumps around the coords to kill.|
-K Grezik Oregrind|QID|32433|M||T|Grezik Oregrind|QO|Grezik Oregrind slain: 1/1|N|Spawns near here.  Watch for the skull on the minimap.|
+K Grezik Oregrind|QID|32433|M|22.0,61.6|T|Grezik Oregrind|QO|Grezik Oregrind slain: 1/1|N|Spawns near here.  Watch for the skull on the minimap.|
 C Burn Out!|QID|32154|M|15.28,58.99|QO|Northwestern Fuel Tank destroyed: 1/1|N|Click on the explosive when you are near the cogwheels.|U|93187|
 K Shredmaster Packle|QID|32158|M|19.55,62.44|QO|Shredmaster Packle slain: 1/1|N|Spawns near here.  Watch for the skull on the minimap.|
 
@@ -317,7 +327,7 @@ A Under Pressure|QID|32144|PRE|32451|M|16.66,78.53|N|From Mishka|
 C A Kind of Magic|QID|32143|M|11.65,67.99|QO|Eliminate the Beachhead Demolishers: 1/1|
 C A Kind of Magic|QID|32143|M|10.81,60.91|QO|Eliminate the Horde Wolves: 1/1|
 C A Kind of Magic|QID|32143|M|12.6,56.6|QO|Destroy the Horde Bomb Stockpile: 1/1|
-T A Kind of Magic|QID|32143|M||From Tinkmaster Overspark UI Popup????|
+T A Kind of Magic|QID|32143|From Tinkmaster Overspark (UI Popup)|
 A Don't Lose Your Head|QID|32145|PRE|32143|N|From Tinkmaster Overspark|
 C Don't Lose Your Head|QID|32145|M|13.4,57.9|QO|Stone Guard Ruk'Ra slain: 1/1|N|In the tent.|
 C Don't Lose Your Head|QID|32145|M|13.0,56.0|QO|Chief Bombgineer Snicklefritz slain: 1/1|N|In the eastern part of the courtyard.|
@@ -329,7 +339,7 @@ C We Will Rock You|QID|32142|M|10.60,60.60;14.35,57.20;11.50,58.23;12.20,54.78; 
 
 T We Will Rock You|QID|32142|M|16.48,79.20|N|To Sky Admiral Rogers|
 T Hammer to Fall|QID|32146|M|16.48,79.20|N|To Sky Admiral Rogers|
-T Don't Lose Your Head|QID|32145|M||N|From Tinkmaster Overspark|
+T Don't Lose Your Head|QID|32145|M|16.49,79.28|N|From Tinkmaster Overspark|
 T Under Pressure|QID|32144|M|16.66,78.53|N|To Mishka|
 
 ; Ruins of Ogudei quests
