@@ -314,37 +314,10 @@ function WoWPro:OnEnable()
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
 	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
 	bucket:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
+	
 	WoWPro.LockdownTimer = nil
-	WoWPro.LockdownCounter = 5
-	WoWPro.EventFrame:SetScript("OnUpdate", function(self, elapsed)
-	    if WoWPro.LockdownTimer ~= nil then
-	        WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
-	        if WoWPro.LockdownTimer < 0 then
-				if TomTom then
-					WoWPro:CarboniteProfileHack()
-				else 
-					WoWPro:Warning("Waiting for tomTom or Carbonite to init...")
-					if WoWPro.LockdownCounter > 0 then
-						WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
-						WoWPro.LockdownTimer = 1.0
-					else
-						-- Warning if the user is missing TomTom --
-						WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
-							.."WoW-Pro's guides won't have their full functionality without it! "
-							.."Download it for free from www.wowinterface.com or www.curse.com .")
-					end
-				end
-
-				if WoWPro.LockdownTimer < 0 then
-					WoWPro:dbp("Lockdown Timer expired.  Return to normal")
-					WoWPro.LockdownCounter = nil
-					WoWPro.LockdownTimer = nil
-					WoWPro.InitLockdown = false
-					WoWPro:LoadGuide()			-- Loads Current Guide (if nil, loads NilGuide)
-				end
-	        end
-	    end
-	end)
+	WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+	WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
 	    
 	WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 	
@@ -484,29 +457,6 @@ else
     WoWPro.QueryQuestsCompleted = QueryQuestsCompleted -- After QUEST_QUERY_COMPLETE
     WoWPro.GetQuestsCompleted = GetQuestsCompleted
     
-end
-
--- Carbonite - TomTom profile hack Section
-function WoWPro:CarboniteProfileHack()
-	if TomTom and Nx then
-		local tom = TomTom
-		
-		if not tom["db"] then
-			tom["db"] = {
-				profile = {
-					arrow = {
-						arrival = 10,
-						setclosest = false,
-					},
-					persistence = {
-						cleardistance = 0,
-					},
-				},
-			}
-
-			WoWPro:Print('Patched Carbonite\'s fake TomTom profile')
-		end
-	end
 end
 
 
