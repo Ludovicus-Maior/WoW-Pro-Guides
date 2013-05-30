@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2013-05-28 12:16
+-- Who: Ludovicus Maior
+-- Log: Removed extra CC that was preventing "R Soggy's Gamble|" from autocompleting.
+
+-- URL: http://wow-pro.com/node/3493/revisions/25613/view
 -- Date: 2013-05-09 22:14
 -- Who: Ludovicus Maior
 -- Log: Played through and corrected things!
@@ -149,7 +154,7 @@ A The Root of the Problem|QID|31026|M|60.00,59.29|N|From Korven the Prime.|
 K Kill Coldbite Matriarch|QID|31026|T|Coldbite Matriarch|M|58.7,59.6;57.45,57.79|CS|QO|Coldbite Matriarch slain: 1/1|
 T The Root of the Problem|QID|31026|M|57.46,57.99|N|To Korven the Prime.|
 
-R Soggy's Gamble|QID|31265|M|56.16,70.07|CC|
+R Soggy's Gamble|QID|31265|M|56.16,70.07|
 f Soggy's Gamble|QID|99999|M|56.16,70.07|N|At Min the Breeze Rider.|
 A Mazu's Breath|QID|31265|M|54.67,72.23|N|From Deck Boss Arie.|
 C Mazu's Breath|QID|31265|M|54.67,72.23|NC|U|85869|

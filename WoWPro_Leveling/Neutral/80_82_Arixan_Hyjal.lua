@@ -4,6 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2013-05-28 16:12
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3303/revisions/25691/view
+-- Date: 2013-05-28 16:04
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3303/revisions/25690/view
+-- Date: 2013-05-28 16:01
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3303/revisions/25681/view
 -- Date: 2013-05-18 14:55
 -- Who: Fluclo
 -- Log: Adding Level 80 |LVL| step
@@ -334,26 +346,28 @@ A Return from the Firelands|QID|25612|M|26.2,41.9|N|From Jordan Olafson.|FACTION
 T Return from the Firelands|QID|25612|M|28.4,29.9|N|Enter the portal behind you. This will return you the Shrine of Goldrinn. Fly back to the camp to Takrik Ragehowl.|FACTION|Horde|
 T Sweeping the Shelf|QID|25354|M|28.4,29.9|N|At Takrik Ragehowl.|FACTION|Horde|
 
-A Aviana's Legacy|QID|27874|M|28.4,29.8|N|From the Vision of Ysera.LEAD|25663|
+A Aviana's Legacy|QID|27874|M|28.4,29.8|N|From the Vision of Ysera.\n\nIf this quest is not offered, DROP the quest Wings Over Mount Hyjal then try again.|LEAD|25663|
 A The Fires of Mount Hyjal|QID|25630|PRE|25611|M|28.18,29.87|N|From Rio Duran.|
 f Shrine of Aviana|QID|25630|M|41.14,42.70|N|Fly to the Shrine of Aviana and get the flight point from Dinorae Swiftfeather.|
-T Aviana's Legacy|QID|27874|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|
+T Aviana's Legacy|QID|27874|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|O|
+T Wings Over Mount Hyjal|QID|25985|M|44.39,46.21|N|Enter the first floor of the building at the base of the tree. Head all the way to the back of the shrine to find Choluna.|O|
 A An Offering for Aviana|QID|25663|M|39,46.21|N|From Choluna.|
 A The Wormwing Problem|QID|25655|M|42.18,45.40|N|From Thisalee Crow.|
 A Scrambling for Eggs|QID|25656|M|42.18,45.40|N|From Thisalee Crow.|
 C An Offering for Aviana|QID|25663|U|55208|M|40.38,44.31|N|Go to the small circle of stones just outside the shrine. Use the Sacred Nectar while standing near the basin in the center of the stone circle. The Spirit of Aviana will appear.|NC|
 T An Offering for Aviana|QID|25663|M|40.38,44.31|N|To the Mysterious Winged Spirit.|
 A A Plea From Beyond|QID|25665|PRE|25663|M|40.38,44.31|N|From the Mysterious Winged Spirit.|
-C Scrambling for Eggs|QID|25656|S|M|36.58,43.42|N|Loot eggs from around the trees.|NC|
-C The Wormwing Problem|QID|25655|M|39.08,41.53|N|Kill any harpy you see for this quest.|
-C Scrambling for Eggs|QID|25656|US|M|36.58,43.42|N|Finish gathering eggs.|NC|
+
+C The Wormwing Problem|QID|25655|S|M|39.08,41.53|N|Kill any harpy you see for this quest.|
+C Scrambling for Eggs|QID|25656|M|36.58,43.42|N|Loot eggs from around the trees.|NC|
+C The Wormwing Problem|QID|25655|US|M|39.08,41.53|N|Finish killing any harpy.|
+
 T The Wormwing Problem|QID|25655|M|42.18,45.40|N|To Thisalee Crow.|
 T Scrambling for Eggs|QID|25656|M|42.18,45.40|N|To Thisalee Crow.|
 A A Bird in Hand|QID|25731|PRE|25655;25656|M|42.18,45.40|N|From Thisalee Crow.|
 T A Plea From Beyond|QID|25665|M|44.38,46.20|N|To Choluna.|
 A A Prayer and a Wing|QID|25664|PRE|25665|M|44.38,46.20|N|From Choluna.|
-N A Bird in Hand|QID|25731|M|38.50,44.04|N|Find the signal fire just west of the shrine. Use it to summon Marion Wormwing. Fight her until Thisalee Crow sneaks up behind her and captures her.|
-C A Bird in Hand|QID|25731|M|38.50,44.04|N|Once she is captured, talk to Marion Wormwing. Go through the dialogue options until you get the quest complete message for A Bird in Hand.|
+C A Bird in Hand|QID|25731|M|38.50,44.04|N|Find the signal fire just west of the shrine. Use it to summon Marion Wormwing. Fight her until Thisalee Crow sneaks up behind her and captures her. Once she is captured, talk to Marion Wormwing. Go through the dialogue options until you get the quest complete message for A Bird in Hand (you can choose to kill or let her go, they will both finish the quest.|
 C A Prayer and a Wing|QID|25664|U|55211|M|35.67,42.30|N|Get on your flying mount and fly up to the top of the ridge to the north. You will see several nests. Land in one and use the Enormous Bird Call to summon Blaithe.|
 T A Bird in Hand|QID|25731|M|42.20,45.37|N|To Thisalee Crow.|
 T A Prayer and a Wing|QID|25664|M|44.38,46.21|N|To Choluna.|
