@@ -13,6 +13,7 @@
 	<Script file="Crystalsong_Forest.lua"/>
     <Script file="Darkshore.lua"/>
     <Script file="Deadwind_Pass.lua"/>
+	<Script file="Deepholm.lua"/>
     <Script file="Desolace.lua"/>
 	<Script file="Dragonblight.lua"/>
     <Script file="Dun_Morogh.lua"/>
@@ -54,8 +55,10 @@
     <Script file="The_Hinterlands.lua"/>
     <Script file="Thousand_Needles.lua"/>
     <Script file="Tirisfal_Glades.lua"/>
+	<Script file="Twilight_Highlands.lua"/>
     <Script file="Uldum.lua"/>
     <Script file="UnGoro_Crater.lua"/>
+	<Script file="Vashjir.lua"/>
     <Script file="Western_Plaguelands.lua"/>
     <Script file="Westfall.lua"/>
     <Script file="Winterspring.lua"/>
