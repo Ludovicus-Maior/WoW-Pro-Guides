@@ -225,6 +225,7 @@ function WoWPro.UpdateGuideReal(From)
 	and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
 		if WoWProDB.profile.autoload then
 			WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
+			WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
 			WoWPro:LoadGuide()
 		else
 			WoWPro.NextGuideDialog:Show()
