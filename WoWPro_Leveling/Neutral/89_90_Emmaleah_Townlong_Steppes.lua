@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2013-05-28 12:19
+-- Who: Ludovicus Maior
+-- Log: Corrected coords, quids, and some extra CC's that were preventing R step completion.
+
+-- URL: http://wow-pro.com/node/3492/revisions/25612/view
 -- Date: 2013-05-09 22:11
 -- Who: Ludovicus Maior
 -- Log: Corrected T|Kill Voress'thalik|
@@ -65,9 +70,9 @@
 WoWPro.Leveling:RegisterGuide('EmmTow8990', 'Townlong Steppes', 'Emmaleah', '89', '90', 'EmmDre8990|EmmDre8990', 'Neutral', function()
 return [[
 
-N Welcome to Townlong Steppes|QID|99999|N|This guide starts in Longying Outpost, You may have two lead in qusets to turn in here, if you don't have them, check off those steps and proceed.|
+N Welcome to Townlong Steppes|QID|30814|N|This guide starts in Longying Outpost, You may have two lead in qusets to turn in here, if you don't have them, check off those steps and proceed.|
 N Abandoned Crate of Goods|QID|31427|M|62.76,34.08|CC|N|This is guarded by at least one elite lvl 89-90, if you follow close to the wall you can avoid the others. It is inside a burning tent. skip it if you don't think you are up to it.  It gave me and my groupmate each 823K xp.|
-R Longying Outpost|QID|30768|CC|M|71.14, 56.47|
+R Longying Outpost|QID|30814|CC|M|71.14, 56.47|
 T My Husband...|QID|30768|O|M|71.14, 56.47|N|To Suna Silentstrike.|
 T Beyond the Wall|QID|31695|M|71.15,56.61|N|To Taran Zhu.|
 A A Foot in the Door|QID|30814|M|71.15,56.61|N|From Taran Zhu.|
@@ -77,7 +82,7 @@ A First Assault|QID|30769|M|71.14,56.77|N|From Taran Zhu.|
 A Running Rampant|QID|30770|M|71.14,56.77|N|From Taran Zhu.|
 A Perfect Pitch|QID|30771|M|71.14,56.77|N|From Taran Zhu.|
 f Longying Outpost|QID|30771|M|71.12,57.41|N|At Kite Master Wong.|
-N Yaungol Fire Carrier|QID|31425|CC|M|66.5,44.7|N|This rare spawn, a BOA mace for the lost and found achievement is found at various spots in Fire Camp Osul, if spawned, it will be appear as a wand on a brazier. (this step checks off when you get to the coordinates, since it may or may not be there --- or anywhere else in Fire Camp Osul).|
+N Yaungol Fire Carrier|QID|31425;30776|CC|M|66.5,44.7|N|This rare spawn, a BOA mace for the lost and found achievement is found at various spots in Fire Camp Osul, if spawned, it will be appear as a wand on a brazier. (this step checks off when you get to the coordinates, since it may or may not be there --- or anywhere else in Fire Camp Osul).|
 C First Assault|QID|30769|S|M|67.7,52.97|
 C Perfect Pitch|QID|30771|S|NC|M|67.7,52.97|N|Pick up the sparkly little baskets of pitch.|
 C Running Rampant|QID|30770|NC|M|67.70,52.97|N|Click on the yaks and mushan to free them.|
@@ -146,7 +151,7 @@ A Gao-Ran Battlefront|QID|30785|M|82.68,73.02|N|From Ban Bearheart.|
 A A Delicate Balance|QID|31894|M|82.59,73.02|N|From Yalia Sagewhisper.|
 
 ; Cannot easily get to Goa-Ran Battle without flying mount from Hatred's Vice so I'm moving the Goa-Ran quests to later.
-R Lower Sumprushes|QID|30786|M|68.02,67.58|CC|
+R Lower Sumprushes|QID|30786|M|68.02,67.58|
 T A Delicate Balance|QID|31894|M|68.02,67.58|N|To Orbiss.|
 A A Spear Through My Side, A Chain Through My Soul|QID|30786|M|68.02,67.58|N|From Orbiss.|
 K Kill Dmong Naruuk|QID|30786|T|Dmong Naruuk|QO|Dmong Naruuk slain: 1/1|M|68.51,71.48|
@@ -178,12 +183,12 @@ A Mists' Opportunity|QID|30793|M|67.90,67.76|N|From Orbiss.|
 K Kill Jahesh of Osul|QID|30793|T|Jahesh of Osul|QO|Jahesh of Osul slain: 1/1|M|76.47,72.71|
 T Mists' Opportunity|QID|30793|M|76.19,72.93|N|To Orbiss.|
 
-R Gao-Ran Battlefront|QID|30785|M|74.44,81.47|CC|
+R Gao-Ran Battlefront|QID|30785|M|74.44,81.47|
 f Gao-Ran Battlefront|QID|30887|M|74.44,81.47|N|At Kite Master Nenshi.|
 T Gao-Ran Battlefront|QID|30785|M|76.42,82.44|N|To Taran Zhu.|
 A Behind the Battlefront|QID|30884|M|76.42,82.44|N|From Taran Zhu.|
 A Treatment for the Troops|QID|30891|M|75.86,83.14|N|From Septi the Herbalist.|
-r Merchants!|QID|99999|M|75.78,81.87|N|At Ironshaper Peng, finally a place to repair and sell.|
+r Merchants!|QID|30884|M|75.78,81.87|N|At Ironshaper Peng, finally a place to repair and sell.|
 C Treatment for the Troops|QID|30891|S|NC|M|75.83,76.58|N|The sparkly blue-flowered bushes are what you are looking for.|
 T Behind the Battlefront|QID|30884|M|76.94,78.78|N|To Taoshi.|
 A Unwelcome Intruders|QID|30887|M|76.94,78.78|N|From Taoshi.|
@@ -231,7 +236,7 @@ C Thieves and Troublemakers|QID|30896|US|M|68.05,86.72|
 C Improvised Ammunition|QID|30895|US|M|67.70,87.52|N|These are on the ground as well as dropping from the mobs you kill.|
 T Thieves and Troublemakers|QID|30896|M|70.45,86.37|N|To Initiate Feng.|
 T In the Wrong Hands|QID|30897|M|70.34,86.67|N|To Initiate Chao.|
-R Gao-Ran Battlefront|QID|30895|M|76.38,82.40|CC|
+R Gao-Ran Battlefront|QID|30895|M|76.38,82.40|
 T Improvised Ammunition|QID|30895|M|76.38,82.40|N|To Taran Zhu.|
 A Cutting the Swarm|QID|30898|M|76.38,82.40|N|From Taran Zhu.|
 C Cutting the Swarm|QID|30898|M|73.95,84.06|N|Use the fireworks/rocket launcher (vehicle UI) to rain destruction on your enemies.|
@@ -257,7 +262,7 @@ A Up In Flames|QID|30973|M|61.63,79.32|N|From Taran Zhu.|
 C Up In Flames|QID|30973|M|60.58,78.79|N|The Timberhusks have a buff, that you need to dispell by having them in the vicinity of exploding barrels. The barrels are nearly impossible to aim, so try to click the barrells close to the mobs, barrels explode when they hit something.|
 T Up In Flames|QID|30973|M|61.63,79.32|N|To Taran Zhu.|
 A The Taking of Dusklight Bridge|QID|30975|M|61.59,79.34|N|From Lao-Chin the Iron Belly.|
-C The Taking of Dusklight Bridge|QID|30975|M|44.86,9.78||N|Drink(click) the barrels for dmg increase buff, If needed, run through the green bubbles for healing.|
+C The Taking of Dusklight Bridge|QID|30975|M|44.86,9.78|Z|Dread Wastes|N|Drink(click) the barrels for dmg increase buff, If needed, run through the green bubbles for healing.|
 T The Taking of Dusklight Bridge|QID|30975|M|61.10,83.05|N|To Taran Zhu.|
 A Joining the Hunt|QID|30976|M|61.08,83.21|N|From Taran Zhu.|
 
@@ -306,7 +311,6 @@ T Nurong and Rothek|QID|31064|M|47.55,78.86|N|To Taran Zhu.|
 A The Sha of Hatred|QID|30968|M|47.55,78.86|N|From Taran Zhu.|
 C The Sha of Hatred|QID|30968|M|46.16,82.28|N|Be sure to stay in the AOE healing.|
 T The Sha of Hatred|QID|30968|M|46.15,82.37|N|To Taoshi.|
-A The Threat in the South|QID|31656|M|46.15,82.37|LEAD|31847|N|From Taoshi. Unless you are lvl 90 or pretty close, you dont want this breadcrumb, as all the other versions of it give the flightpath, but this one doesn't. (others available at Winter's Blossom and your city in Vale of Eternal Blossoms, as well as other less convenient places. (this step won't auto complete if you don't accept the quest, so check it off manually).|
 T Thinning the Sik'thik|QID|31687|M|53.96,78.18|N|To Rensai Oakhide.|
 T The Search for Restless Leng|QID|31688|M|53.96,78.18|N|To Rensai Oakhide.|
 
@@ -315,9 +319,9 @@ f Shado-Pan Garrison|QID|99999|M|50.05,71.96|N|At Kite Master Yao-Li.|
 A Stranger in a Strange Land|QID|31488|O|RANK|3|M|49.15,71.42|N|From Lorewalker Pao. - legendary quest - must be lvl 90, assuming you plan to persue the quest, you may as well pick it up, but nothing more is done with it in the guides.|
 A The Motives of the Mantid|QID|30921|M|49.1,71.2|N|From Tai Ho.|
 A Set the Mantid Back|QID|30923|M|49.1,71.2|N|From Tai Ho.|
-A Natural Antiseptic|QID|30922|M|49.1,71.3|N|From Provisioner Bamfu.|
-A The Field Armorer|QID|30963|M|49.1,71.3|N|From Provisioner Bamfu.|
-A A Proper Poultice|QID|30964|M|49.1,71.3|N|From Provisioner Bamfu.|
+A Natural Antiseptic|QID|30922|M|49.14,71.32|N|From Provisioner Bamfu.|
+A The Field Armorer|QID|30963|M|49.14,71.32|N|From Provisioner Bamfu.|
+A A Proper Poultice|QID|30964|M|49.14,71.32|N|From Provisioner Bamfu.|
 C A Proper Poultice|QID|30964|S|NC|N|These are scattered through out the area.|
 C The Field Armorer|QID|30963|S|M|59.21,57.52|N|Kill turtles, lots of turtles.|
 C Natural Antiseptic|QID|30922|S|M|59.20,54.06|N|Kill Mushan till you have 5 full bladders (too bad thier isn't more water around.)|
@@ -333,9 +337,9 @@ l Hardened Sap of Kiri'vess|QID|31424|US|M|57.4,56.6|N|Another item to loot for 
 T The Motives of the Mantid|QID|30921|M|49.14,71.15|N|To Tai Ho.|
 T Set the Mantid Back|QID|30923|M|49.14,71.15|N|To Tai Ho.|
 A The Wisdom of Niuzao|QID|30924|M|49.14,71.15|N|From Tai Ho.|
-T Natural Antiseptic|QID|30922|M|49.20,70.78|N|To Provisioner Bamfu.|
-T The Field Armorer|QID|30963|M|49.20,70.78|N|To Provisioner Bamfu.|
-T A Proper Poultice|QID|30964|M|49.20,70.78|N|To Provisioner Bamfu.|
+T Natural Antiseptic|QID|30922|M|49.14,71.32|N|To Provisioner Bamfu.|
+T The Field Armorer|QID|30963|M|49.14,71.32|N|To Provisioner Bamfu.|
+T A Proper Poultice|QID|30964|M|49.14,71.32|N|To Provisioner Bamfu.|
 
 R Niuzao Temple|QID|30931|M|43.83,65.79|
 A My Father's Crossbow|QID|30931|M|43.83,65.79|N|From Ku-Mo.|
@@ -344,8 +348,8 @@ A Niuzao's Price|QID|30925|M|39.30,62.13|N|From Ogo the Younger.|
 A Bad Yak|QID|30929|M|39.21,62.05|N|From Bluesaddle.|
 C Bad Yak|QID|30929|M|39.28,61.91|N|Dismount, then click on the yak, 4 times.|
 T Bad Yak|QID|30929|M|39.22,61.99|N|To Bluesaddle.|
-A Pick a Yak|QID|30930|M|35.45,56.62|N|From Bluesaddle.|
 C My Father's Crossbow|QID|30931|M|38.62,65.47|N|He respawns pretty fast, so its best to kill him a little ways away from his spawn point, so you can recover afterwards in relative safety.|
+A Pick a Yak|QID|30930|M|35.45,56.62|N|From Bluesaddle.|
 C Pick a Yak|QID|30930|U|82468|M|38.36,51.38|N|You will have to fight several unsuitable yaks to about 20% health, eventually, you will catch one that immediately turns friendly and walks back with you to Bluesaddle.|
 T Pick a Yak|QID|30930|M|35.38,56.66|N|To Bluesaddle.|
 C Niuzao's Price|QID|30925|M|42.72,47.40|N|Kill Mantid until all the statuettes peices are found.|
@@ -359,7 +363,7 @@ C Father's Footsteps|QID|30932|NC|QO|Find Sentinel Yalo: 1/1|M|39.13, 61.39|
 C Father's Footsteps|QID|30932|NC|QO|Find Father's Shield: 1/1|M|37.54, 61.45|
 C Father's Footsteps|QID|30932|NC|QO|Find Father's Bedroll: 1/1|M|37.41,60.90|
 C Father's Footsteps|QID|30932|NC|QO|Find Ha-Cha: 1/1|M|37.62, 64.01|
-R Niuzao Catacombs|QID|30927|M|32.71,61.17|CC|N|The trail to the catacombs is behind the temple. There are flags on each side of the trail marking the start.|
+R Niuzao Catacombs|QID|30927|M|32.71,61.17|N|The trail to the catacombs is behind the temple. There are flags on each side of the trail marking the start.|
 C A Trail of Fear|QID|30928|S|M|28.88,73.48|N|Fighting Dreadlings will cause various "special" effects, enjoy!|
 C Give Them Peace|QID|30927|S|NC|M|32.43, 61.12|N|The hand turns gold at a greater range that it actually works, you have to practically stand on the sentinals to give them peace.|
 l Fragment of Dread|QID|31423|L|86516|S|M|36.55,57|N|Another item to loot for gold and XP. It should always be up somewhere in the cave, I have found it in the room with Dread Shadow, the room above with Huggalon the Heart Watcher, and in the hall, when one person loots it, it respawns instantly somewhere else.|
