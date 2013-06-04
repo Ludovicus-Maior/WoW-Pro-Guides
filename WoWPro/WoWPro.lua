@@ -270,13 +270,6 @@ end
 function WoWPro:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Core Addon")
 
-	-- Warning if the user is missing TomTom --
-	if not TomTom then
-		WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
-			.."WoW-Pro's guides won't have their full functionality without it! "
-			.."Download it for free from www.wowinterface.com or www.curse.com .")
-	end
-	
 	-- Loading Frames --
 	if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro:CreateFrames()
@@ -321,18 +314,10 @@ function WoWPro:OnEnable()
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
 	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
 	bucket:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
+	
 	WoWPro.LockdownTimer = nil
-	WoWPro.EventFrame:SetScript("OnUpdate", function(self, elapsed)
-	    if WoWPro.LockdownTimer ~= nil then
-	        WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
-	        if WoWPro.LockdownTimer < 0 then
-	            WoWPro:dbp("Lockdown Timer expired.  Return to normal")
-	            WoWPro.LockdownTimer = nil
-	            WoWPro.InitLockdown = false
-                WoWPro:LoadGuide()			-- Loads Current Guide (if nil, loads NilGuide)
-	        end
-	    end
-	end)
+	WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+	WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
 	    
 	WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 	
@@ -451,8 +436,6 @@ if WoWPro.MOP then
 else
     WoWPro.GetNumPartyMembers = GetNumPartyMembers
 end
-
-
 
 
 
