@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2013-06-04 23:44
+-- Who: Ludovicus Maior
+-- Log: Cleanup around [A Morale Victory]
+
+-- URL: http://wow-pro.com/node/3501/revisions/25693/view
 -- Date: 2013-05-30 20:26
 -- Who: Fluclo
 -- Log: Added |RANK|3| to Achievement steps since not everyone doing dailies wants to see achievement info every day (otherwise they're there everytime the user runs the guide since the achievements will never get crossed off). Removed the extra notes at the beginning.  Changed the faction requirements to the |REP| tag.  Quest Cheng Bo! not provided at the indicated point of the guide in my runs, left The Deadtalker Cipher there, this never appears to me in the guide (wowhead suggests something needs to drop)
@@ -156,7 +161,11 @@ N Achievement Opportunity|ACH|7299;2|ACTIVE|31197|N|To earn the Achievement Lone
 N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent Assassin, you need to do the Wu Kao set of dailies without killing any extra mobs.  It is recomended you do this with-out a Shado-pan companion, since they don't seen to understand the concept of avoiding enemies. You are given a bag of supplies to assist, it includes smoke bombs and items to CC. Tou probably want to do the Noncombat objectives first, so any accidental kills are less likely to put you over the allowed totals. If you chose to take a companion, you can turn in your quests to them, also run out of range and let them despawn if they are killing extra mobs. Manually check this off once you read it.|
 C The Bigger They Come...|QID|31197|M|18,48|U|86536|S|N|These are located all over the Island. The Elite Kunchong in the feeding pits do NOT count, nor do the Swarmlords. Only the Sra'thik Will-Breakers, Sra'thik Deathmixers, Sra'thik Swarm-Leaders and Sra'thik Vessguards count.|
 C Sra'vess Wetwork|QID|31196|M|18,48|U|90006|S|N|Any non elite counts. These are located all over the Island.|
-C A Morale Victory|QID|31198|M|27.83,41.93;21.50,49.24;23.52,55.64;16.19,46.04|CN|N|You may want to hotkey the items from the bag of Wu Kao Supplies, especially if you are going for the Silent Assassin Achievement.|
+N A Morale Victory|QID|31198|N|You may want to hotkey the items from the bag of Wu Kao Supplies, especially if you are going for the Silent Assassin Achievement.|
+C A Morale Victory|QID|31198|M|27.83,41.93|QO|Eastern idol: 1/1|
+C A Morale Victory|QID|31198|M|21.50,49.24|QO|Central idol: 1/1|
+C A Morale Victory|QID|31198|M|23.52,55.64|QO|Southern idol: 1/1|
+C A Morale Victory|QID|31198|M|16.19,46.04|QO|Western idol: 1/1|
 C Fumigation|QID|31200|M|20.70,45.93|QO|Amber Vault bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
 C Fumigation|QID|31200|M|23.8,47.3|QO|Nutriment Cell bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
 C Fumigation|QID|31200|M|23.6,44.7|QO|Egg Chamber bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
@@ -207,7 +216,7 @@ C The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|50.4,67.85;50.62,68.
 T The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|49.01,71.36|N|To Ling of the Six Pools.|
 
 ;Sha of Anger
-K Sha of Anger|ACH|6480|L|89317|N|Join a raid for Sha of Anger and be sure to loot it. (one time quest, you have to actually loot the item.)Check this off manually until then.|
+K Sha of Anger|ACH|6480|L|89317|N|Join a raid for Sha of Anger and be *sure* to loot it. Check this off manually until then.|
 A Remnants of Anger|QID|31809|U|89317|N|Accepted from the claw, looted from the Sha of Anger.|
 T Remnants of Anger|QID|31809|M|49.5,70.5|N|To Ban Bearheart.|
 

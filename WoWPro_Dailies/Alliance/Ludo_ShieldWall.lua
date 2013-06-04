@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-06-04 23:28
+-- Who: Ludovicus Maior
+-- Log: Some ACTIVE tags to make starting the guide correct!
+
+-- URL: http://wow-pro.com/node/3519/revisions/25632/view
 -- Date: 2013-05-14 16:52
 -- Who: Ludovicus Maior
 -- Log: Many bad coords
@@ -146,7 +151,7 @@ T He Won't Even Miss It|QID|32397|PRE|32383|M|59.19,84.26|Z|Kun-Lai Summit|N|To 
 ; Jaina's Hope
 A The Kirin Tor|QID|32331|PRE|32397|M|89.55,32.58|REP|Operation: Shieldwall;1376;honored;3000|N|From Admiral Taylor, at the start of Honored|
 R The Purple Parlor|QID|32331|M|89.19,33.57|N|Go the the portal and click your way to the parlor.|
-N The Kirin Tor|QID|32331|M|22.67,39.64|Z|Dalaran City@DalaranCity|N|Note that there is a portal behind you back to Lion's Landing after you are done.|
+N The Kirin Tor|QID|32331|ACTIVE|32331|M|22.67,39.64|Z|Dalaran City@DalaranCity|N|Note that there is a portal behind you back to Lion's Landing after you are done.|
 T The Kirin Tor|QID|32331|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To Anduin Wrynn.|
 A The Fate of Dalaran|QID|32362|PRE|32331|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|From Anduin Wrynn.|
 C The Fate of Dalaran|QID|32362|M|26.76,39.26|Z|Dalaran City@DalaranCity|N|Talk to Jaina|
@@ -191,7 +196,7 @@ R Kun-Lai Summit|QID|32393|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 T The Ruins of Korune|QID|32393|M|32.88,26.26|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
 A The Divine Bell|QID|32394|PRE|32393|M|32.88,26.26|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
 K Dreadweaver Avartu|QID|32394|M|59.22,25.55|Z|Kun-Lai Summit/21|N|Make your way to the back of the crypt and then go down stairs to the mini-boss.\nWhen he casts a whirling circle, get inside. Sarannha will tag along.|QO|Dreadweaver Avartu slain: 1/1|
-N Recover the bell.|QID|32394|M|60.86,22.56|QO|Recover the Divine Bell: 1/1|N|Click on the bell to finish up!|
+C Recover the bell.|QID|32394|M|60.86,22.56|QO|Recover the Divine Bell: 1/1|N|Click on the bell to finish up!|
 T The Divine Bell|QID|32394|M|61.95,25.76|Z|Kun-Lai Summit/21|N|To Sarannha Skyglaive, right next to you.|
 
 ; The Purge of Dalaran
