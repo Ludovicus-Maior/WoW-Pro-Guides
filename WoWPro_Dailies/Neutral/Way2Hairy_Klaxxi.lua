@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2013-06-04 23:34
+-- Who: Ludovicus Maior
+-- Log: Added QUIDs to the notes at the start so it stops asking ya questions if you don't need it anymore.
+
+-- URL: http://wow-pro.com/node/3504/revisions/25667/view
 -- Date: 2013-05-17 19:13
 -- Who: Ludovicus Maior
 -- Log: Added the missing CN tags
@@ -82,9 +87,9 @@ WoWPro.Dailies:RegisterGuide("WayKlaxxi", "Dread Wastes", "Klaxxi", "MoP", "Way2
 
 return [[
 
-N Work in progress!|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website.|
+N Work in progress!|QID|31175|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website.|
 
-N Klaxxi|QID|31782|N|You need to have opened the Dread Wastes Questline as described in the Dread Wastes leveling guide to do these quests. Also, most of the dailies will require level 90.|
+N Klaxxi|QID|31175|N|You need to have opened the Dread Wastes Questline as described in the Dread Wastes leveling guide to do these quests. Also, most of the dailies will require level 90.|
 
 ; One-Time Quest at Honored
 
