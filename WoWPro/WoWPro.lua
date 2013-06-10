@@ -4,7 +4,7 @@
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
-WoWPro.DebugMode = false
+WoWPro.DebugLevel = 9
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {}
@@ -29,7 +29,10 @@ _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
 WoWPro.Serial = 0
 -- Add message to internal debug log
-function WoWPro:Add2Log(msg)
+function WoWPro:Add2Log(level,msg)
+    if WoWPro.DebugLevel >= level then
+        DEFAULT_CHAT_FRAME:AddMessage( msg )
+    end
 	WoWPro.Serial = WoWPro.Serial + 1
 	if WoWPro.Serial > 999 then
 	    WoWPro.Serial = 0
@@ -47,9 +50,9 @@ end
 -- Debug print function --
 
 function WoWPro:dbp(message,...)
-	if WoWPro.DebugMode and message ~= nil then
+	if WoWPro.DebugLevel > 0 and message ~= nil then
 	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
-	    WoWPro:Add2Log(msg)
+	    WoWPro:Add2Log(3,msg)
 	end
 end
 WoWPro:Export("dbp")
@@ -58,8 +61,7 @@ WoWPro:Export("dbp")
 function WoWPro:Print(message,...)
 	if message ~= nil then
 	    local msg = string.format("|c7fffff7f%s|r: "..message, self.name or "Wow-Pro",...)
-		DEFAULT_CHAT_FRAME:AddMessage( msg )
-        WoWPro:Add2Log(msg)
+        WoWPro:Add2Log(1,msg)
 	end
 end
 WoWPro:Export("Print")
@@ -68,8 +70,7 @@ WoWPro:Export("Print")
 function WoWPro:Warning(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...)
-		DEFAULT_CHAT_FRAME:AddMessage( msg )
-        WoWPro:Add2Log(msg)
+        WoWPro:Add2Log(1,msg)
 	end
 end
 WoWPro:Export("Warning")
@@ -78,8 +79,7 @@ WoWPro:Export("Warning")
 function WoWPro:Error(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffff7d0a%s|r: "..message, self.name or "Wow-Pro",...)
-		DEFAULT_CHAT_FRAME:AddMessage( msg )
-        WoWPro:Add2Log(msg)
+        WoWPro:Add2Log(1,msg)
 	end
 end
 WoWPro:Export("Error")
@@ -100,7 +100,7 @@ function WoWPro:LogEvent(event,...)
         end
     end
     msg = msg .. ")"
-    WoWPro:Add2Log(msg)
+    WoWPro:Add2Log(2,msg)
 end
 
 
@@ -255,11 +255,11 @@ function WoWPro:OnInitialize()
 	end
 	WoWProDB.global.Deltas = {}
 	WoWProDB.global.Log = {}
-	WoWProCharDB.DebugMode = WoWProCharDB.DebugMode or WoWPro.DebugMode
+	WoWProCharDB.DebugLevel = WoWProCharDB.DebugLevel or WoWPro.DebugLevel
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
-	WoWPro.DebugMode = WoWProCharDB.DebugMode
+	WoWPro.DebugLevel = WoWProCharDB.DebugLevel
 
 end
 
