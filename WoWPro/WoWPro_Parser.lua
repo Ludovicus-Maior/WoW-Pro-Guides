@@ -224,8 +224,8 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.note[i] = text:match("|N|([^|]*)|?")
 	WoWPro.mat[i] = text:match("|N|([^|]*)|?")
 	WoWPro.map[i] = text:match("|M|([^|]*)|?")
-	if WoWPro.map[i] and false then
-	    WoWPro:ValidateMapCoords(GID,text,WoWPro.map[i])
+	if WoWPro.map[i] then
+	    WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
 	end    
 	if text:find("|S|") then 
 		WoWPro.sticky[i] = true; 

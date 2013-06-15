@@ -338,15 +338,22 @@ function WoWPro:MaybeRemap(z,f,x,y)
 	return nil,nil,nil
 end
 
-function WoWPro:ValidateMapCoords(guide,line,coords)
+function WoWPro:ValidateMapCoords(guide,action,step,coords)
 	local numcoords = select("#", string.split(";", coords))
 	for j=1,numcoords do
-		local waypoint = {}
 		local jcoord = select(numcoords-j+1, string.split(";", coords))
+		if not jcoord or jcoord == "" then
+		    WoWPro:Error("Missing coordinate, %d/%d in guide %s, line [%s %s].",numcoords-j+1,numcoords,guide,action,step)
+		    return
+		end
 		local x = tonumber(jcoord:match("([^|]*),"))
+		if not x or x > 100  then
+		    WoWPro:Error("Bad X coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
+		    return
+		end
 		local y = tonumber(jcoord:match(",([^|]*)"))
-		if not x or x > 100 or not y or y > 100 then
-		    WoWPro:Error("Bad coordiate %s, %d out of %d. In guide %s, line [%s].",jcoord,numcoords-j+1,numcoords,guide,line)
+		if not y or y > 100 then
+		    WoWPro:Error("Bad Y coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
 		    return
 		end
 	end
