@@ -700,7 +700,7 @@ local function createBlizzOptions()
 				type = "toggle",
 				name = L["Enable Debug"],
 				desc = L["Enables/Disables debug logging"],
-				get = function(info) return WoWPro.DebugLevel end,
+				get = function(info) return WoWPro.DebugLevel > 0 end,
 				set = function(info,val) 
 						if WoWPro.DebugLevel > 0 then
 						    WoWPro.DebugLevel = 0

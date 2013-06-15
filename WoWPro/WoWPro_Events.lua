@@ -346,7 +346,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	if event == "PLAYER_ENTERING_WORLD" then
 	    WoWPro:dbp("Setting Timer 1")
 	    WoWPro.InitLockdown = true
-	    WoWPro.LockdownTimer = 1.0
+	    WoWPro.LockdownTimer = 1.5
 	end
 		
 	-- Locking event processong till after things get settled --
@@ -360,6 +360,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 	
 	if not WoWProDB.char.currentguide then return end
+	if not WoWPro.Guides[WoWProDB.char.currentguide] then return end
     local guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype or "None"	
 	-- Common event Handling across addons
 	
@@ -557,7 +558,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:PopulateQuestLog(...)
 		WoWPro:AutoCompleteQuestUpdate(...)
 		WoWPro:UpdateQuestTracker()
-		WoWPro:UpdateGuide()
+		WoWPro:UpdateGuide(event)
 	end	
 	if event == "UI_INFO_MESSAGE" then
 		WoWPro:AutoCompleteGetFP(...)

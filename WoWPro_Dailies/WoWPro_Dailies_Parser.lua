@@ -47,68 +47,13 @@ function WoWPro.Dailies:NextStep(k, SKIP)
     local skip = SKIP
 	local GID = WoWProDB.char.currentguide
     
-    
-    if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi[WoWPro.step[k]] then
-	    WoWPro.CompleteStep(k)
-	    skip = true
-	end
 
-	-- All non-A and non-N steps are Optional Quests --
-	if WoWPro.action[k] ~= "A" and WoWPro.action[k] ~= "N" and WoWPro.QID[k] then 
+	-- All non-A and non-N and non-B steps are Optional Quests --
+	if WoWPro.action[k] ~= "A" and WoWPro.action[k] ~= "N" and WoWPro.action[k] ~= "B" and WoWPro.QID[k] then 
 		-- Checking Quest Log --
 		if not WoWPro:QIDsInTable(WoWPro.QID[k],WoWPro.QuestLog) then 
 			skip = true -- If the quest is not in the quest log, the step is skipped --
 		end		
-	end
-
-    
-	-- Checking Prerequisites --
-	if WoWPro.prereq[k] and WoWPro.QID[k] then
-	    if string.find(WoWPro.prereq[k],"+") then
-	        -- Any prereq met is OK, skip only if none are met	
-    		local numprereqs = select("#", string.split("+", WoWPro.prereq[k]))
-    		local totalFailure = true
-    		for j=1,numprereqs do
-    			local jprereq = select(numprereqs-j+1, string.split("+", WoWPro.prereq[k]))
-    			if WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
-    				totalFailure = false -- If one of the prereqs is complete, step is not skipped.
-    			end
-    		end
-    		if totalFailure then
-    		    skip = totalFailure
-    		end
-    	else
- 	        -- All prereq met must be met	
-    		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-    		for j=1,numprereqs do
-    			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-    			if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
-    				skip = true -- If one of the prereqs is NOT complete, step is skipped.
-    			end
-    		end
-   	    end
-	end
-
-	-- Skipping quests with prerequisites if their prerequisite was skipped --
-	if WoWPro.prereq[k] 
-	and not WoWProCharDB.Guide[GID].skipped[k] 
-	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
-		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-		for j=1,numprereqs do
-			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-			if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
-				skip = true
-				-- If their prerequisite has been skipped, skipping any dependant quests --
-				if WoWPro.action[k] == "A" 
-				or WoWPro.action[k] == "C" 
-				or WoWPro.action[k] == "T" then
-					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
-					WoWProCharDB.Guide[GID].skipped[k] = true
-				else
-					WoWProCharDB.Guide[GID].skipped[k] = true
-				end
-			end
-		end
 	end
 
     WoWPro.Dailies:dbp("%s=NextStep(%d, %s)",tostring(skip),k,tostring(SKIP))

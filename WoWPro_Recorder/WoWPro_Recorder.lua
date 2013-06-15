@@ -83,7 +83,7 @@ return [[
 end
 
 function WoWPro.Recorder:RegisterEvents()
-	WoWPro.Recorder.events = {"QUEST_LOG_UPDATE", "UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP"}
+	WoWPro.Recorder.events = {"UNIT_QUEST_LOG_CHANGED", "UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP"}
 	
 	for _, event in pairs(WoWPro.Recorder.events) do
 		WoWPro.RecorderFrame:RegisterEvent(event)
@@ -155,8 +155,8 @@ function WoWPro.Recorder:RegisterEvents()
 			end
 			WoWPro.Leveling:AutoCompleteGetFP(...)
 			
-		elseif event == "QUEST_LOG_UPDATE" then
-			WoWPro:dbp("QUEST_LOG_UPDATE detected.")
+		elseif event == "UNIT_QUEST_LOG_CHANGED" then
+			WoWPro:dbp("UNIT_QUEST_LOG_CHANGED detected.")
 			
 			if WoWPro.newQuest then
 				local questInfo = WoWPro.QuestLog[WoWPro.newQuest]

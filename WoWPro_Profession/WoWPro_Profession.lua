@@ -18,7 +18,7 @@ function WoWPro.Profession:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Profession Module")
 	
 	-- Event Registration --
-	WoWPro.Profession.Events = {"QUEST_LOG_UPDATE", "QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
+	WoWPro.Profession.Events = {"QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "TRAINER_UPDATE",
 		"CHAT_MSG_SKILL"

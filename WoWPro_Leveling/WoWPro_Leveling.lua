@@ -18,7 +18,7 @@ function WoWPro.Leveling:OnEnable()
 	WoWPro.Leveling:dbp("|cff33ff33Enabled2|r")
 	
 	-- Event Registration --
-	WoWPro.Leveling.Events = {"QUEST_LOG_UPDATE", 
+	WoWPro.Leveling.Events = { 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "TRAINER_UPDATE",
 		"QUEST_GREETING","GOSSIP_SHOW", "QUEST_DETAIL", "QUEST_PROGRESS", "QUEST_COMPLETE",
@@ -53,6 +53,7 @@ function WoWPro.Leveling:OnEnable()
 			Pandaren = "FlucloPanda",
 		}
 		WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(startguides[engRace]))
+		WoWProDB.char.currentguide = startguides[engRace]
 		WoWPro:LoadGuide(startguides[engRace])
 	-- New Death Knight --
 	elseif UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
