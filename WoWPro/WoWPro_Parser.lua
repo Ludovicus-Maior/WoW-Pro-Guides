@@ -225,7 +225,7 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.mat[i] = text:match("|N|([^|]*)|?")
 	WoWPro.map[i] = text:match("|M|([^|]*)|?")
 	if WoWPro.map[i] then
-	    WoWPro:ValidateMapCoords(GID,text,WoWPro.map[i])
+	    WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
 	end    
 	if text:find("|S|") then 
 		WoWPro.sticky[i] = true; 
@@ -234,7 +234,7 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	if text:find("|US|") then WoWPro.unsticky[i] = true end
 	WoWPro.use[i] = text:match("|U|([^|]*)|?")
 	WoWPro.zone[i] = text:match("|Z|([^|]*)|?")
-	if WoWPro.zone[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
+	if WoWPro.zone[i] and not WoWPro:ValidZone(WoWPro.zone[i]) and false then
 		local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,GID,text)
         WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
         table.insert(WoWProDB.global.ZoneErrors, line)
@@ -276,17 +276,17 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 	WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
 	WoWPro.target[i] = text:match("|T|([^|]*)|?")
-    	WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
+    WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
 	WoWPro.prof[i] = text:match("|P|([^|]*)|?")
 	WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
 	WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
 	WoWPro.NPC[i] = text:match("|NPC|([^|]*)|?")
 	WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
 	WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
-    	WoWPro.why[i] = "I dunno."
+    WoWPro.why[i] = "I dunno."
 
     -- If the step is "Achievement" use the name and description from the server ...
-    if WoWPro.ach[i] then
+    if WoWPro.ach[i] and false then
         if not WoWPro.note[i] then
             WoWPro.note[i] = ""
         end
@@ -303,7 +303,7 @@ function WoWPro.ParseQuestLine(faction,i,text)
     		WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
     	end 
     end
-				
+		
 	-- Module ParseQuestLine Handlers --
 	for name, module in WoWPro:IterateModules() do
 		if WoWPro[name].ParseQuestLine 
@@ -316,8 +316,8 @@ function WoWPro.ParseQuestLine(faction,i,text)
 end
 
 -- Quest parsing function --
-function WoWPro:ParseQuests(...)
-	WoWPro:dbp("Parsing Guide...")
+function WoWPro:ParseSteps(steps)
+	WoWPro:dbp("Parsing Guide, %d steps",#steps)
 	local GID = WoWProDB.char.currentguide
 	local i = 1
 	local myclassL, myclass = UnitClass("player")
@@ -326,8 +326,8 @@ function WoWPro:ParseQuests(...)
 	if myrace == "Scourge" then
 		myrace = "Undead"
 	end
-	for j=1,select("#", ...) do
-		local text = select(j, ...)
+	for j=1,#steps do
+		local text = steps[j]
 		text = text:trim()
 		if text ~= "" and text:sub(1,1) ~= ";" then
 			local class, race, gender, faction = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
@@ -370,14 +370,32 @@ end
 	
 -- Guide Load --
 function WoWPro:LoadGuideSteps()
-	local GID = WoWProDB.char.currentguide
+    WoWPro:dbp("Signaled for LoadGuideSteps for %s",tostring(WoWProDB.char.currentguide))
+    WoWPro:SendMessage("WoWPro_LoadGuideSteps")
+end
 
+function WoWPro.LoadGuideStepsReal()
+	local GID = WoWProDB.char.currentguide
+    WoWPro:dbp("LoadGuideSteps(%s)",GID);
+    
 	-- Parsing quests --
 	local sequence = WoWPro.Guides[GID].sequence
-	WoWPro:ParseQuests(string.split("\n", sequence()))
+	local steps = { string.split("\n", sequence()) }
+
+	WoWPro:ParseSteps(steps)
 	
 	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
-		
+	WoWPro:GuideSetup()
+end
+
+-- Guide Setup --
+function WoWPro:GuideSetup()
+    WoWPro:dbp("Signaled for GuideSetup for %s",tostring(WoWProDB.char.currentguide))
+    WoWPro:SendMessage("WoWPro_GuideSetup")
+end
+
+function WoWPro.SetupGuideReal()
+    local GID = WoWProDB.char.currentguide
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
 	-- Checking to see if any steps are already complete --
@@ -423,12 +441,12 @@ function WoWPro:LoadGuideSteps()
 		end
 	end
 	
-	-- Checking zone based completion --
-	WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
-	WoWPro:AutoCompleteZone()
-	
 	-- Scrollbar Settings --
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
+	
+	WoWPro.GuideLoaded = true
+	
+	WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
 end
 
 -- Row Content Update --

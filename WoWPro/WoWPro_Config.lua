@@ -700,14 +700,14 @@ local function createBlizzOptions()
 				type = "toggle",
 				name = L["Enable Debug"],
 				desc = L["Enables/Disables debug logging"],
-				get = function(info) return WoWPro.DebugMode end,
+				get = function(info) return WoWPro.DebugLevel > 0 end,
 				set = function(info,val) 
-						if WoWPro.DebugMode == true then
-						    WoWPro.DebugMode = false
+						if WoWPro.DebugLevel > 0 then
+						    WoWPro.DebugLevel = 0
 						else
-						    WoWPro.DebugMode = true
+						    WoWPro.DebugLevel = 1
 						end
-						WoWProCharDB.DebugMode = WoWPro.DebugMode
+						WoWProCharDB.DebugLevel = WoWPro.DebugLevel
 					end
 			},
 			resetGuide = {

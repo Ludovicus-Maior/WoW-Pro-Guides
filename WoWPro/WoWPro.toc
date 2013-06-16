@@ -4,7 +4,8 @@
 ## Author: Jiyambi
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
-## Version: 2.6.0a
+## OptionalDeps: Carbonite, TomTom
+## Version: 2.6.1
 ## X-Category: Compilations
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 

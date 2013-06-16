@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2013-06-13 18:41
+-- Who: Fluclo
+-- Log: Added |NC| to Gobbles!
+
+-- URL: http://wow-pro.com/node/3309/revisions/25702/view
+-- Date: 2013-06-13 18:36
+-- Who: Fluclo
+-- Log: Fashionism and Idolatry had |NC| tag attached
+
+-- URL: http://wow-pro.com/node/3309/revisions/25701/view
+-- Date: 2013-06-13 16:58
+-- Who: Fluclo
+-- Log: Adding Non Combat flag to A Disarming Distraction and Unstable Bomb Bot deactivated
+
+-- URL: http://wow-pro.com/node/3309/revisions/25700/view
+-- Date: 2013-06-13 16:35
+-- Who: Fluclo
+-- Log: Added info about using Horn of Ramkahen in Ancient Weapons
+
+-- URL: http://wow-pro.com/node/3309/revisions/25564/view
 -- Date: 2013-03-23 18:30
 -- Who: Ludovicus Maior
 -- Log: In guide AriUld8384, quest 28557's name [Warchief's Command: Uldum] does not match Grail's database [Warchief's Command: Uldum!].
@@ -376,7 +396,7 @@ T Return to Camp|QID|28291|M|58.94,46.10|N|To High Commander Kamses.|
 T The Pit of Scales|QID|27738|M|56.70,54.65|N|To Vizier Tanotep.|
 
 A The High Council's Decision|QID|28533|M|56.70,54.65|N|From Vizier Tanotep.|
-C Ancient Weapons|QID|27839|U|62534|M|60.43,58.56|N|Right-click one of the white chests and loot an Ancient Tol'Vir Armaments.|NC|
+C Ancient Weapons|QID|27839|U|62534|M|60.43,58.56|N|Use the Horn of Ramkahen to call some laborors to join you.  These laborers will charge into the smugglers and distract them.  Whilst the smugglers are distracted by the laborers, run in and right-click one of the white chests to loot the Ancient Tol'vir Armaments.|NC|
 T Ancient Weapons|QID|27839|M|58.86,46.16|N|To High Commander Kamses.|
 T The High Council's Decision|QID|28533|M|55.03,32.76|N|To King Phaoris.|
 
@@ -416,11 +436,11 @@ A A Disarming Distraction|QID|27761|M|74.11,64.44|N|From the A.I.D.A. Terminal.|
 A Core Access Codes|QID|27777|M|74.11,64.44|N|From the A.I.D.A. Terminal.|
 
 C Core Access Codes|QID|27777|U|62542|M|73.33,72.69|N|Use the Mech Control Scrambler on Twizzleflux the Insane everytime it's ready, this will completely stun him for about 6 seconds each time. Kill Twizzleflux and loot the Core Access Codes.|
-C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|Unstable Bomb Bot deactivated: 4/4|M|79.01,64.05|N|Don't try to fight the cursed engineers. Use the Holographic Projector to distract them repeatedly. Right-click on the Unstable Bomb Bots to defuse them.|S|
+C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|Unstable Bomb Bot deactivated: 4/4|M|79.01,64.05|N|Don't try to fight the cursed engineers. Use the Holographic Projector to distract them repeatedly. Right-click on the Unstable Bomb Bots to defuse them.|S|NC|
 N Third Bomb Cluster|QID|27761|U|62398|M|78.85,65.06|N|Use the Holographic Projector then right-click on the Third Bomb Cluster to disarm it.|QO|Third Bomb Cluster disarmed: 1/1|
 N Second Bomb Cluster|QID|27761|U|62398|M|79.01,64.05|N|Use the Holographic Projector then right-click on the Second Bomb Cluster to disarm it.|QO|Second Bomb Cluster disarmed: 1/1|
-C A Disarming Distraction|QID|27761|U|62398|M|78.81,61.82|N|Use the Holographic Projector then right-click on the First Bomb Cluster to disarm it.|QO|First Bomb Cluster disarmed: 1/1|
-C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|Unstable Bomb Bot deactivated: 4/4|M|79.01,64.05|N|Don't try to fight the cursed engineers. Use the Holographic Projector to distract them repeatedly. Right-click on the Unstable Bomb Bots to defuse them.|US|
+C A Disarming Distraction|QID|27761|U|62398|M|78.81,61.82|N|Use the Holographic Projector then right-click on the First Bomb Cluster to disarm it.|QO|First Bomb Cluster disarmed: 1/1|NC|
+C Unstable Bomb Bot deactivated|QID|27761|U|62398|QO|Unstable Bomb Bot deactivated: 4/4|M|79.01,64.05|N|Don't try to fight the cursed engineers. Use the Holographic Projector to distract them repeatedly. Right-click on the Unstable Bomb Bots to defuse them.|US|NC|
 
 T A Disarming Distraction|QID|27761|M|74.08,64.44|N|To the A.I.D.A. Terminal.|S|
 T Core Access Codes|QID|27777|M|74.08,64.44|N|To the A.I.D.A. Terminal.|
@@ -513,11 +533,11 @@ A Idolatry|QID|27942|M|24.47,64.28|N|From Commander Schnottz.|S|
 A Angered Spirits|QID|27943|M|24.47,64.28|N|From Commander Schnottz.|
 A Idolatry|QID|27942|M|24.47,64.28|N|From Commander Schnottz.|US|
 
-C Fashionism|QID|27941|M|34.47,66.97|N|Look for Dead Troopers in the area, right-click them and loot their uniforms.|S|
-C Idolatry|QID|27942|M|32.98,60.99|N|Loot Well-Preserved Idols. Contained in small sphynx statues on the ground.|S|
+C Fashionism|QID|27941|M|34.47,66.97|N|Look for Dead Troopers in the area, right-click them and loot their uniforms.|S|NC|
+C Idolatry|QID|27942|M|32.98,60.99|N|Loot Well-Preserved Idols. Contained in small sphynx statues on the ground.|S|NC|
 C Angered Spirits|QID|27943|U|62794|M|32.77,65.27|N|Bring down Furious Specters below 50% HP, then use the Licensed Proton Accelerator Cannon.|
-C Fashionism|QID|27941|M|34.47,66.97|N|Look for Dead Troopers in the area, right-click them and loot their uniforms.|US|
-C Idolatry|QID|27942|M|32.98,60.99|N|Loot Well-Preserved Idols. Contained in small sphynx statues on the ground.|US|
+C Fashionism|QID|27941|M|34.47,66.97|N|Look for Dead Troopers in the area, right-click them and loot their uniforms.|US|NC|
+C Idolatry|QID|27942|M|32.98,60.99|N|Loot Well-Preserved Idols. Contained in small sphynx statues on the ground.|US|NC|
 
 T Fashionism|QID|27941|M|24.43,64.56|N|To Belloc Brightblade.|
 
@@ -526,7 +546,7 @@ T Angered Spirits|QID|27943|M|24.45,64.11|N|From Commander Schnottz.|
 T Idolatry|QID|27942|M|24.45,64.11|N|To Commander Schnottz.|US|
 
 A Gobbles!|QID|27950|M|24.45,64.11|N|From Commander Schnottz.|
-C Gobbles!|QID|27950|M|24.43,64.15|N|Speak with Commander Schnottz and just watch the ritual.|
+C Gobbles!|QID|27950|M|24.43,64.15|N|Speak with Commander Schnottz and just watch the ritual.|NC|
 T Gobbles!|QID|27950|M|24.43,64.15|N|(UI Alert)|
 
 A Make Yourself Useful|QID|27969|M|24.42,64.09|N|From Commander Schnottz.|

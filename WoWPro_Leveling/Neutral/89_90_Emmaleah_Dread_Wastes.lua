@@ -4,6 +4,17 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2013-06-04 23:37
+-- Who: Ludovicus Maior
+-- Log: Added redirects to the dalies at REP thresholds for special quests.
+--	Conditionalized special item steps, so you don't see them once you go past them.  Added |T| tags and jiggered the flow and coords as I played through.
+
+-- URL: http://wow-pro.com/node/3493/revisions/25688/view
+-- Date: 2013-05-28 12:16
+-- Who: Ludovicus Maior
+-- Log: Removed extra CC that was preventing "R Soggy's Gamble|" from autocompleting.
+
+-- URL: http://wow-pro.com/node/3493/revisions/25613/view
 -- Date: 2013-05-09 22:14
 -- Who: Ludovicus Maior
 -- Log: Played through and corrected things!
@@ -45,11 +56,14 @@
 -- Who: Ludovicus Maior
 -- Log: Initial version from Emmaleah
 
-WoWPro.Leveling:RegisterGuide('EmmDre8990', 'Dread Wastes', 'Emmaleah', '89', '90', 'nil', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('EmmDre8990', 'Dread Wastes', 'Emmaleah', '89', '90', 'WayKlaxxi', 'Neutral', function()
 return [[
 
 N Dread Wastes|QID|31847;31895;31000;31886;31390;31391;31656|N|There are many lead in quests, when you pick any of them up (except The Threat in the South) it also gives you the flightpath to Serpent's Spine in Vale of Eternal Blossoms (where Bowmistress Li is). This guide starts there.|
-N The Klaxxi Dailies/Rep|QID|31847;31895;31000;31886;31390;31391;31656|N|This zone is focused on the Klaxxi with thier quartermaster located at Klaxxi'vess who sells BS patters and VP gear.  By the time you get there you will probably be lvl 90 and so the dailies have been included in the guide.  Since it is random which ones you recieve, the guide doesn't tell you to pick them up, but if you do, the details and turn in will show for the ones you accept.|
+N The Klaxxi Dailies/Rep|QID|31847;31895;31000;31886;31390;31391;31656|N|This zone is focused on the Klaxxi with thier quartermaster located at Klaxxi'vess who sells BS patters and VP gear.  By the time you get there you will probably be lvl 90 and so some of the dailies have been included in the guide.  Since it is random which ones you recieve, the guide doesn't tell you to pick them up, but if you do, the details and turn in will show for the ones you accept.|
+N The Klaxxi Reputation - Honored|QID|31175|REP|The Klaxxi;1337;honored|N|If you have reached honored while doing this guide, please switch to the dailies guide and do all the dalies to unlock things|
+N The Klaxxi Reputation - Revered|QID|31439|REP|The Klaxxi;1337;revered|N|If you have reached revered while doing this guide, please switch to the dailies guide and do all the dalies to unlock things|
+
 F Serpent's Spine|QID|31847;31895;31000;31886;31390;31391;31656|N|From whatever flightmaster you are near, fly to Serpent's Spine in Vale of Eternal Blossoms.|
 T Whichever Lead In Quest|QID|31847;31895;31000;31886;31390;31391;31656|M|13.99,76.95|Z|Vale of Eternal Blossoms|N|To Bowmistress Li.|
 
@@ -149,14 +163,14 @@ A The Root of the Problem|QID|31026|M|60.00,59.29|N|From Korven the Prime.|
 K Kill Coldbite Matriarch|QID|31026|T|Coldbite Matriarch|M|58.7,59.6;57.45,57.79|CS|QO|Coldbite Matriarch slain: 1/1|
 T The Root of the Problem|QID|31026|M|57.46,57.99|N|To Korven the Prime.|
 
-R Soggy's Gamble|QID|31265|M|56.16,70.07|CC|
+R Soggy's Gamble|QID|31265|M|56.16,70.07|
 f Soggy's Gamble|QID|99999|M|56.16,70.07|N|At Min the Breeze Rider.|
 A Mazu's Breath|QID|31265|M|54.67,72.23|N|From Deck Boss Arie.|
 C Mazu's Breath|QID|31265|M|54.67,72.23|NC|U|85869|
 T Mazu's Breath|QID|31265|M|54.76,72.24|N|To Deck Boss Arie.|
 A Fresh Pots|QID|31181|M|54.76,72.24|N|From Deck Boss Arie.|
 A You Otter Know|QID|31182|M|54.76,72.24|N|From Deck Boss Arie.|
-l Swarming Cleaver of Ka'roz|QID|31434|L|86523|M|56.8,77.6|CC|N|This BoA 2H Sword can be rarely found underwater partially hidden in seawead.|
+l Swarming Cleaver of Ka'roz|QID|31434|ACTIVE|31182|L|86523|M|56.8,77.6|CC|N|This BoA 2H Sword can be rarely found underwater partially hidden in seawead.|
 C Fresh Pots|QID|31181|S|U|85230|M|58.93,82.22|N|Kill the fish (sea monarchs) to collect meat to bait the traps.|
 C You Otter Know|QID|31182|NC|U|85231|M|59.31,80.58|
 C Fresh Pots|QID|31181|US|U|85230|M|58.93,82.22|N|Kill the fish to collect meat to bait the traps.|
@@ -212,7 +226,7 @@ T Reunited|QID|31091|M|41.8,72.0|N|To Kaz'tik the Manipulator.|
 A The Kunchong Whisperer|QID|31359|M|41.69,71.94|N|From Kaz'tik the Manipulator.|
 A Feed or Be Eaten|QID|31092|M|41.69,71.94|N|From Kaz'tik the Manipulator.|
 C Feed or Be Eaten|QID|31092|S|U|86489|M|45.23,63.31|N|Kill the Brineshell snapper to get the Succulent Turtle Filet and feed it to Kovok.|
-l Manipulator's Talisman|QID|31432|L|86529|M|42,62.2|CC|T|Glinting Rapana Whelk|N|Talk to the rarely found Glinting Rapana Whelk to be given this trinket (ilvl 450 BoP).|
+l Manipulator's Talisman|QID|31432|ACTIVE|31092|L|86529|M|42,62.2|CC|T|Glinting Rapana Whelk|N|Talk to the rarely found Glinting Rapana Whelk to be given this trinket (ilvl 450 BoP).|
 C The Kunchong Whisperer|QID|31359|S|M|40.86,64.90|
 A Falling to Pieces|QID|31398|S|M|41.87,63.81|N|From Glowing Amber.|
 K Kill Oracle Hiss'ir|QID|31359|T|Oracle Hiss'ir|QO|Oracle Hiss'ir slain: 1/1|M|41.9,63.5|
@@ -343,7 +357,7 @@ T A Not So Friendly Request|QID|31730|M|51.21,11.39|N|To Sapmaster Vu.|
 A The Heavens Hum With War|QID|31067|M|51.21,11.39|N|From Sapmaster Vu.|
 C Blade of the Poisoned Mind|QID|31438|M|28.88,41.99|N|This rare lost item can sometimes be found in the smaller of the two purplish bushes by the entrance to this set of rooms under the tree. (when you don't find it, manually check this step off.)|
 A Sacred Recipe|QID|31068|M|53.8,16.5;53.07,12.40|CC|N|Go around the tree and into the tree. From Scroll of Auspice.|
-K Kill Azzi K'tai|QID|31067|T|Kill Azzi K'tai|QO|Azzi K'tai slain: 1/1|M|53.20,10.14|
+K Kill Azzix K'tai|QID|31067|T|Azzix K'tai|QO|Azzix K'tai slain: 1/1|M|53.69,16.08;53.20,10.14|CS|N|Go to the entrance of the barrow and slay inside!|
 T Sacred Recipe|QID|31068|M|50.73,11.70|N|To Lya of Ten Songs.|
 T The Heavens Hum With War|QID|31067|M|51.21,11.39|N|To Sapmaster Vu.|
 A Bound With Shade|QID|31069|M|51.21,11.39|N|From Sapmaster Vu.|
@@ -359,8 +373,8 @@ A Evie Stormstout|QID|31077|M|54.08,20.52|N|From Chen Stormstout.|
 C Get the Lost Keg|QID|31071|NC|L|83781|M|54.5,20.3|N|Sparkly barrel under a tree branch, a bit hard to see in the dark area.|
 K Kill Kz'Kzik|QID|31072|T|Kz'Kzik|L|84111|M|53.2,20.2|N|He wanders around in front of the place where you found Evie and the lost keg.|
 C Get the Lost Picnic Supplies|QID|31071|NC|L|83783|M|56.00,19.56|N|Who picnics here...It's a smallish blanket with a picnic for two laid out.|
-K Kill Ilikkax|QID|31072|T|Ilikkax|L|84112|M|50.8,20.6|N|He stays inside the structure he is at.|;thats an odd discription, but I dont know how to describe it, all that black and white swirly sha stuff and looks vaguely like the silithid arches.
-C Get the Lost Mugs|QID|31071|NC|L|83782|M|51.67,19.03|N|Many sparkly mugs on top of a largish rock.|;removed the sticky as it made no sense when i played thru - it is one item, ya, you can get it before as easy as after...I think I had too many stickies and it was just a jumbled mess.
+K Kill Ilikkax|QID|31072|T|Ilikkax|L|84112|M|50.8,20.6|N|He stays inside the structure he is at.|
+C Get the Lost Mugs|QID|31071|NC|L|83782|M|51.67,19.03|N|Many sparkly mugs on top of a largish rock.|
 C Bound With Shade|QID|31069|US|M|57.56,15.98|N|You are after the little packs of Dreadlings.|
 C Daggers of the Great Ones|QID|31070|US|M|49.69,17.64|N|The mushan nearer the brewgarden are the ones you seek.|
 T Rending Daggers|QID|31072|M|50.73,11.70|N|To Lya of Ten Songs.|
@@ -409,8 +423,8 @@ T Bind the Glamour|QID|31084|M|38.65,17.24|N|To Chief Rikkitun.|
 A Fires and Fears of Old|QID|31085|M|38.31,17.14|N|From Lya of Ten Songs.|
 A Blood of Ancients|QID|31086|M|38.18,17.17|N|From Sapmaster Vu.|
 C Amber Encased Necklace|QID|31431|M|33,33.07|N|This rare lost item can sometimes be found on the ground among the rocks at this location. It stands out since it is orange against the dark ground. (when you don't find it, manually check this step off.)|
-C Blood of Ancients|QID|31086|NC|M|30.21,30.56|
-C Fires and Fears of Old|QID|31085|U|84771|M|29.97,30.89;33.25,33.57|CS|N|Click on the rocks, and the sprites will move them for you.|
+C Blood of Ancients|QID|31086|NC|M|30.22,30.58|
+C Fires and Fears of Old|QID|31085|U|84771|M|30.23,31.71;33.68,33.86|CS|N|Click on the rocks, and the sprites will move them for you.|
 R The Sunset Brewgarden|QID|31085|M|50.27,12.21|
 T Fires and Fears of Old|QID|31085|M|50.28,12.06|N|To Lya of Ten Songs.|
 A Once in a Hundred Lifetimes|QID|32030|M|50.28,12.06|N|From Lya of Ten Songs.|

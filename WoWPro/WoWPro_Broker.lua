@@ -4,7 +4,6 @@
 
 local L = WoWPro_Locale
 local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
-local GuideLoaded = false
 
 
 -- See if any of the list of QUIDs are in the indicated table.
@@ -33,22 +32,38 @@ end
 
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
-	
+    WoWPro:dbp("Signaled for LoadGuide %s",tostring(guideID))
+    if guideID then
+        WoWProDB.char.currentguide = guideID
+    end
+    WoWPro:SendMessage("WoWPro_LoadGuide")
+end
+
+function WoWPro.LoadGuideReal()
+    local GID = WoWProDB.char.currentguide
+    -- If currently in startup lockdown, punt
+    if WoWPro.LockdownTimer ~= nil then
+        WoWPro:dbp("Suppresssed guide load:  In lockdown.")
+        WoWPro:SendMessage("WoWPro_LoadGuide")
+        return
+    end
+    
+    WoWPro:dbp("starting guide cleanup:  %s",tostring(GID))
+    WoWPro.GuideLoaded = false
 	--Re-initiallizing tags and counts--
 	for i,tag in pairs(WoWPro.Tags) do 
 		WoWPro[tag] = {}
 	end
 	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
 	
-	GuideLoaded = true
 	--Checking the GID and loading the guide --
-	if guideID then WoWProDB.char.currentguide = guideID end 
-	local GID = WoWProDB.char.currentguide
 	if not GID then 
 		WoWPro:LoadNilGuide() 
 		WoWPro:dbp("No guide specified, loading NilGuide.")
+		-- LFO: something else here
 		return 
 	end
+	
 	-- If the current guide can not be found, see if it was renamed.
 	if not WoWPro.Guides[GID] then
 	    local myUFG = UnitFactionGroup("player"):sub(1,1)
@@ -103,9 +118,6 @@ function WoWPro:LoadGuide(guideID)
 	end
 	
     WoWPro:LoadGuideSteps()
-	
-	WoWPro:UpdateGuide("WoWPro:LoadGuide")
-	WoWPro:MapPoint()
 end
 
 function WoWPro:NextGuide(GID)
@@ -137,7 +149,7 @@ end
 local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 WoWPro.GuideOffset = nil
 function WoWPro.UpdateGuideReal(From)
-	if not WoWPro.GuideFrame:IsVisible() or not GuideLoaded then return end
+	if not WoWPro.GuideFrame:IsVisible() or not WoWPro.GuideLoaded then return end
 	WoWPro:dbp("Running: UpdateGuideReal()")
 	local GID = WoWProDB.char.currentguide
 	local offset = WoWPro.GuideOffset
@@ -150,10 +162,14 @@ function WoWPro.UpdateGuideReal(From)
 	    return
 	end
 	if  not GID or not WoWPro.Guides[GID] then
-	    WoWPro:dbp("Suppresssed guide update.  No guide.")
+	    WoWPro:dbp("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
         return 
 	end
-	
+	if  not WoWPro.GuideLoaded then
+	    WoWPro:dbp("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
+        return 
+	end
+		
 	-- If the module that handles this guide is not present and enabled, then end --
 	local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
 	if not module or not module:IsEnabled() then return end
@@ -225,11 +241,13 @@ function WoWPro.UpdateGuideReal(From)
 	and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
 		if WoWProDB.profile.autoload then
 			WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
+			WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
 			WoWPro:LoadGuide()
 		else
 			WoWPro.NextGuideDialog:Show()
 		end
 	end
+	WoWPro:MapPoint()
 end	
 
 local Rep2IdAndClass
@@ -269,10 +287,10 @@ function WoWPro:NextStep(k,i)
 
 		-- Quickly skip any manually skipped quests --
 		if WoWProCharDB.Guide[GID].skipped[k] then
-			WoWPro:dbp("SkippedStep(%d)",k); skip = true ;  break
+			WoWPro:dbp("SkippedStep(%d,%s [%s])",k,WoWPro.action[k],WoWPro.step[k]); skip = true ;  break
 		elseif WoWProCharDB.skippedQIDs[QID] then
 			WoWProCharDB.Guide[GID].skipped[k] = true
-			WoWPro:dbp("SkippedQUID(%d)",k);skip = true ; break
+			WoWPro:dbp("SkippedQUID(%d, qid=%s, %s [%s])",k,QID,WoWPro.action[k],WoWPro.step[k]); skip = true ; break
 		end
 		
 		-- Optional Quests --
@@ -373,7 +391,12 @@ function WoWPro:NextStep(k,i)
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
     		end
     	end
-    		
+    	
+    	-- Complete "f" steps if we know the flight point already
+    	if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi[WoWPro.step[k]] then
+	        WoWPro.CompleteStep(k)
+	        skip = true
+	    end	
 	    -- Check for must be active quests
         if WoWPro.active and WoWPro.active[k] then
     		if not WoWPro:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
@@ -444,6 +467,7 @@ function WoWPro:NextStep(k,i)
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep and WoWPro.rep[k] and not skip then
 			local rep, factionIndex, temprep, replvl = string.split(";",WoWPro.rep[k])
+			WoWPro:dbp("ConsiderRep(%d, %s [%s] %s)",k,WoWPro.action[k],WoWPro.step[k],WoWPro.rep[k]);
 			if temprep == nil then temprep = "neutral-exalted" end
 			local repID,repmax = string.split("-",temprep)
 			if repmax== nil then repmax = repID end
@@ -470,10 +494,14 @@ function WoWPro:NextStep(k,i)
 
 
             -- Extract lower bound rep
+            if not Rep2IdAndClass[repID] then
+                self:Error("Bad lower REP value of [%s] found in [%s].  Defaulting to 1.",temprep,WoWPro.rep[k])
+                repID = 0
+            end                
             Friendship = Rep2IdAndClass[repID][2]
             repID = Rep2IdAndClass[repID][1]
             if not repID then
-                self:Error("Bad lower REP value of [%s] found.  Defaulting to 1.",temprep)
+                self:Error("Bad lower REP value of [%s] found in [%s].  Defaulting to 1.",temprep,WoWPro.rep[k])
                 repID = 0
             end
 
@@ -486,7 +514,7 @@ function WoWPro:NextStep(k,i)
 
             
 			skip = true --reputation steps skipped by default
-			
+			WoWPro.why[k] = "NextStep(): Reputation steps skipped by default"
 			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, hasBonusRepGain
 			local friendID, friendRep, friendMaxRep, friendName, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold
 			if Friendship then
@@ -505,20 +533,24 @@ function WoWPro:NextStep(k,i)
             if type(replvl) == "boolean" then
                 if not(replvl) == not(hasBonusRepGain) then
                     skip = false
+                    WoWPro.why[k] = "NextStep(): RepStep no skip on bonus"
                 end
                 self:dbp("Special replvl %s vs hasBonusRepGain %s, skip is %s",tostring(replvl),tostring(hasBonusRepGain),tostring(skip))
             end 
 
 			if type(replvl) == "number" and (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
+				WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
 			end
 			if type(replvl) == "number" and (replvl > 0) then
 				if (repID < standingId) then
 				    self:dbp("** [%s] Spec %s repID %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repID), tostring(standingId))
+				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
 					skip = false 
 				end
 				if (repID == standingId) and (earnedValue >= replvl) then
 				    self:dbp("** [%s] Spec %s earnedValue %d >= replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
                     skip = false
 				end
 			end
@@ -946,3 +978,64 @@ end
 
 -- /run WoWPro:Questline("14282")
 -- /run WoWPro:Questline("10006")
+
+
+function WoWPro.LockdownHandler(self, elapsed)
+	if WoWPro.LockdownTimer ~= nil then
+		WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
+		if WoWPro.LockdownTimer < 0 then
+			if TomTom and TomTom.AddMFWaypoint then
+				WoWPro:CarboniteProfileHack()
+			else 
+				WoWPro:Warning("Waiting for TomTom or Carbonite to init...")
+				if WoWPro.LockdownCounter > 0 then
+					WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
+					WoWPro.LockdownTimer = 1.0
+				else
+					-- Warning if the user is missing TomTom --
+					WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
+						.."WoW-Pro's guides won't have their full functionality without it! "
+						.."Download it for free from www.wowinterface.com or www.curse.com .")
+
+					if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
+						TomTom = nil
+						WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, "
+							.."do not forget to enable Carbonite\'s TomTom emulation! (Tracking HUD section)")
+					end
+				end
+			end
+
+			if WoWPro.LockdownTimer < 0 then
+				WoWPro:dbp("Lockdown Timer expired.  Return to normal")
+				WoWPro.LockdownCounter = nil
+				WoWPro.LockdownTimer = nil
+				WoWPro.InitLockdown = false
+				WoWPro:LoadGuide()			-- Loads Current Guide (if nil, loads NilGuide)
+			end
+		end
+	end
+end
+
+-- Carbonite - TomTom profile hack Section
+function WoWPro:CarboniteProfileHack()
+	if TomTom and Nx then
+		local tom = TomTom
+		
+		if not tom["db"] then
+			tom["db"] = {
+				profile = {
+					arrow = {
+						arrival = 10,
+						setclosest = false,
+					},
+					persistence = {
+						cleardistance = 0,
+					},
+				},
+			}
+
+			WoWPro:Print('Patched Carbonite\'s fake TomTom profile')
+		end
+	end
+end
+

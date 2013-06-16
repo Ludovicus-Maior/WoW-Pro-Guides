@@ -338,15 +338,22 @@ function WoWPro:MaybeRemap(z,f,x,y)
 	return nil,nil,nil
 end
 
-function WoWPro:ValidateMapCoords(guide,line,coords)
+function WoWPro:ValidateMapCoords(guide,action,step,coords)
 	local numcoords = select("#", string.split(";", coords))
 	for j=1,numcoords do
-		local waypoint = {}
 		local jcoord = select(numcoords-j+1, string.split(";", coords))
+		if not jcoord or jcoord == "" then
+		    WoWPro:Error("Missing coordinate, %d/%d in guide %s, line [%s %s].",numcoords-j+1,numcoords,guide,action,step)
+		    return
+		end
 		local x = tonumber(jcoord:match("([^|]*),"))
+		if not x or x > 100  then
+		    WoWPro:Error("Bad X coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
+		    return
+		end
 		local y = tonumber(jcoord:match(",([^|]*)"))
-		if not x or x > 100 or not y or y > 100 then
-		    WoWPro:Error("Bad coordiate %s, %d out of %d. In guide %s, line [%s].",jcoord,numcoords-j+1,numcoords,guide,line)
+		if not y or y > 100 then
+		    WoWPro:Error("Bad Y coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
 		    return
 		end
 	end
@@ -451,7 +458,6 @@ function WoWPro:MapPoint(row)
 	end
 	
 	if TomTom and TomTom.AddMFWaypoint then
-		if not Nx then
 		    TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
     		
@@ -469,7 +475,6 @@ function WoWPro:MapPoint(row)
     		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
 --    		WoWPro:Print("MapPoint: autoarrival = %s, TomTom..cleardistance = %d, OldCleardistance == %d",
 --    		             tostring(autoarrival),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
-        end
 		
 		-- Parsing and mapping coordinates --
 		WoWPro:dbp("WoWPro:MapPoint1(%s@%s/%s)",coords,tostring(zone),tostring(zm))
@@ -494,17 +499,9 @@ function WoWPro:MapPoint(row)
 				local mm,mx,my = WoWPro:MaybeRemap(zm,zf,x,y)
 				if mm then
 					-- Remapped coords
-					if Nx then
-					    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, persistent=false})
-					else
-					    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-					end
+				    uid = TomTom:AddMFWaypoint(mm, zf, mx/100, my/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
 				else
-				    if Nx then			
-					    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, persistent=false})
-					else
-					    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-					end
+				    uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
 				end
 				if not uid then
 				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])

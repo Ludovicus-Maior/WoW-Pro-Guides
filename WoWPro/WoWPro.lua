@@ -4,10 +4,11 @@
 
 WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0")
 WoWPro.Version = GetAddOnMetadata("WoWPro", "Version") 
-WoWPro.DebugMode = false
+WoWPro.DebugLevel = 0
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {}
+WoWPro.GuideLoaded = false
 
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
@@ -29,7 +30,10 @@ _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
 WoWPro.Serial = 0
 -- Add message to internal debug log
-function WoWPro:Add2Log(msg)
+function WoWPro:Add2Log(level,msg)
+    if WoWPro.DebugLevel >= level then
+        DEFAULT_CHAT_FRAME:AddMessage( msg )
+    end
 	WoWPro.Serial = WoWPro.Serial + 1
 	if WoWPro.Serial > 999 then
 	    WoWPro.Serial = 0
@@ -47,9 +51,9 @@ end
 -- Debug print function --
 
 function WoWPro:dbp(message,...)
-	if WoWPro.DebugMode and message ~= nil then
+	if WoWPro.DebugLevel > 0 and message ~= nil then
 	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
-	    WoWPro:Add2Log(msg)
+	    WoWPro:Add2Log(2,msg)
 	end
 end
 WoWPro:Export("dbp")
@@ -58,8 +62,7 @@ WoWPro:Export("dbp")
 function WoWPro:Print(message,...)
 	if message ~= nil then
 	    local msg = string.format("|c7fffff7f%s|r: "..message, self.name or "Wow-Pro",...)
-		DEFAULT_CHAT_FRAME:AddMessage( msg )
-        WoWPro:Add2Log(msg)
+        WoWPro:Add2Log(0,msg)
 	end
 end
 WoWPro:Export("Print")
@@ -68,8 +71,7 @@ WoWPro:Export("Print")
 function WoWPro:Warning(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...)
-		DEFAULT_CHAT_FRAME:AddMessage( msg )
-        WoWPro:Add2Log(msg)
+        WoWPro:Add2Log(0,msg)
 	end
 end
 WoWPro:Export("Warning")
@@ -78,8 +80,7 @@ WoWPro:Export("Warning")
 function WoWPro:Error(message,...)
 	if message ~= nil then
 	    local msg = string.format("|cffff7d0a%s|r: "..message, self.name or "Wow-Pro",...)
-		DEFAULT_CHAT_FRAME:AddMessage( msg )
-        WoWPro:Add2Log(msg)
+        WoWPro:Add2Log(0,msg)
 	end
 end
 WoWPro:Export("Error")
@@ -100,7 +101,7 @@ function WoWPro:LogEvent(event,...)
         end
     end
     msg = msg .. ")"
-    WoWPro:Add2Log(msg)
+    WoWPro:Add2Log(3,msg)
 end
 
 
@@ -255,11 +256,11 @@ function WoWPro:OnInitialize()
 	end
 	WoWProDB.global.Deltas = {}
 	WoWProDB.global.Log = {}
-	WoWProCharDB.DebugMode = WoWProCharDB.DebugMode or WoWPro.DebugMode
+	WoWProCharDB.DebugLevel = WoWProCharDB.DebugLevel or WoWPro.DebugLevel
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
-	WoWPro.DebugMode = WoWProCharDB.DebugMode
+	WoWPro.DebugLevel = WoWProCharDB.DebugLevel
 
 end
 
@@ -270,13 +271,6 @@ end
 function WoWPro:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Core Addon")
 
-	-- Warning if the user is missing TomTom --
-	if not TomTom then
-		WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
-			.."WoW-Pro's guides won't have their full functionality without it! "
-			.."Download it for free from www.wowinterface.com or www.curse.com .")
-	end
-	
 	-- Loading Frames --
 	if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro:CreateFrames()
@@ -314,25 +308,20 @@ function WoWPro:OnEnable()
 	local bucket = LibStub("AceBucket-3.0")
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
-		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_QUERY_COMPLETE",
+		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
 		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA"
 		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
 	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+	bucket:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
+	bucket:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
+	bucket:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)
 	bucket:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
+	
 	WoWPro.LockdownTimer = nil
-	WoWPro.EventFrame:SetScript("OnUpdate", function(self, elapsed)
-	    if WoWPro.LockdownTimer ~= nil then
-	        WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
-	        if WoWPro.LockdownTimer < 0 then
-	            WoWPro:dbp("Lockdown Timer expired.  Return to normal")
-	            WoWPro.LockdownTimer = nil
-	            WoWPro.InitLockdown = false
-                WoWPro:LoadGuide()			-- Loads Current Guide (if nil, loads NilGuide)
-	        end
-	    end
-	end)
+	WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+	WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
 	    
 	WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 	
@@ -420,7 +409,7 @@ function WoWPro:LoadAllGuides()
     local zed
 	for guidID,guide in pairs(WoWPro.Guides) do
         WoWPro:Print("Test Loading " .. guidID)
-        WoWPro:LoadGuide(guidID)
+        WoWPro:LoadGuideReal(guidID)
         nextG = WoWPro:NextGuide(guidID)
         if WoWPro.Guides[guidID].zone then
             zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
@@ -451,8 +440,6 @@ if WoWPro.MOP then
 else
     WoWPro.GetNumPartyMembers = GetNumPartyMembers
 end
-
-
 
 
 

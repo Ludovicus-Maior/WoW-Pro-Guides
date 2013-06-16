@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2013-06-04 23:44
+-- Who: Ludovicus Maior
+-- Log: Cleanup around [A Morale Victory]
+
+-- URL: http://wow-pro.com/node/3501/revisions/25693/view
+-- Date: 2013-05-30 20:26
+-- Who: Fluclo
+-- Log: Added |RANK|3| to Achievement steps since not everyone doing dailies wants to see achievement info every day (otherwise they're there everytime the user runs the guide since the achievements will never get crossed off). Removed the extra notes at the beginning.  Changed the faction requirements to the |REP| tag.  Quest Cheng Bo! not provided at the indicated point of the guide in my runs, left The Deadtalker Cipher there, this never appears to me in the guide (wowhead suggests something needs to drop)
+
+-- URL: http://wow-pro.com/node/3501/revisions/25617/view
 -- Date: 2013-05-09 22:29
 -- Who: Ludovicus Maior
 -- Log: Some horrid editors change ... into a proper ellipses (sp?) character and change ' into a proper quote.  
@@ -53,37 +63,53 @@
 WoWPro.Dailies:RegisterGuide("EmmShadoPan", "Townlong Steppes", "Shado-Pan Dailies", "MoP", "Emmaleah", "Neutral", function()
 return [[
 
-N Work In Process Disclaimer|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|
-N Golden Lotus first|N|You need to be revered with the Golden Lotus before you can start the Shado-Pan Dailies.|
-N Finish Townlong Steppes|N|Unless you truely enjoy dailies, it is worth finishing the regular quests in Kun-Lai and on into Townlong. They will get you partway thru friendly with Shado-Pan.|
-N No Intro quest|N|Unlike other factions there is no specific intro questline for the shado-pan dailies (or you could say all of townlong is, but it is not required for or invalidated by the dailies).|
+N Insufficient Reputation |REP|Golden Lotus;1269;revered|N|I'm sorry but you do not have sufficient reputation to do this daily guide./n/nMinimum Reputation Required: Golden Lotus (Revered)|
+
+N Work In Process Disclaimer|N|This guide is a work-in-process. Please report any errors or missing quests on the WowPro Website.\n\nPlease set your Difficulty/Completeness to 3 if you want the Achievement steps to be included. Setting it to 1 or 2 will NOT display the Achievement steps.\n\nCheck off this step to continue.|
+;N Finish Townlong Steppes|N|Unless you truely enjoy dailies, it is worth finishing the regular quests in Kun-Lai and on into Townlong. They will get you partway thru friendly with Shado-Pan.|
+;N No Intro quest|N|Unlike other factions there is no specific intro questline for the shado-pan dailies (or you could say all of townlong is, but it is not required for or invalidated by the dailies).|
 
 R Shado-Pan Garrison|M|49.25,71|CC|N|Either Master Snowdrift, Ban Bearheart or Ling of the Six Pools will be waiting to give you quests.|
-T Understanding The Shado-Pan|QID|31389|M|49.02,70.45|FACTION|Horde|N|To Ban Bearheart.  If you don't have this quest, don't worry about it, its just to help you find your way here the first time.  It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
-T Understanding The Shado-Pan|QID|31387|M|49.02,70.45|FACTION|Alliance|N|To Ban Bearheart.  If you don't have this quest, don't worry about it, its just to help you find your way here the first time.  It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
+T Understanding The Shado-Pan|QID|31389|M|49.02,70.45|FACTION|Horde|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|O|
+T Understanding The Shado-Pan|QID|31387|M|49.02,70.45|FACTION|Alliance|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|O|
 
 ;Blackguard Defenders
 A Random Dailies from Master Snowdrift|QID|31113;31114;31116;31118;31119|M|49.5,70.5|N|Master Snowdrift should offer you 4 quests. Check this off manually if he is not the quest giver for the day.|
-N Achievement Opportunity|ACTIVE|31113|ACH|7308|N|The goal is to take no damage while doing the dailies, easiest to accomplish if you get Protector Yi(NPC) or a friend to tank for you. Each quest is a seperate component of the achievement, so you don't have to get it all in one day. Manually check this off once you read it.|
-N Achievement Opportunity|ACTIVE|31113|ACH|7299;3|N|To earn the Achievement Loner and a Rebel, you need to do each set of dailies with out a Shado-pan companion (i.e. you have the 'debuff' "Choose a Shado-Pan Companion". you will lose the debuff if you leave the zone, so turn all the quests in before you queue for a dungeon or otherwise leave the area. Manually check this off once you read it.|
+N Achievement Opportunity|ACTIVE|31113|ACH|7308|N|The goal is to take no damage while doing the dailies, easiest to accomplish if you get Protector Yi(NPC) or a friend to tank for you. Each quest is a seperate component of the achievement, so you don't have to get it all in one day. Manually check this off once you read it.|RANK|3|
+N Achievement Opportunity|ACTIVE|31113|ACH|7299;3|N|To earn the Achievement Loner and a Rebel, you need to do each set of dailies with out a Shado-pan companion (i.e. you have the 'debuff' "Choose a Shado-Pan Companion". you will lose the debuff if you leave the zone, so turn all the quests in before you queue for a dungeon or otherwise leave the area. Manually check this off once you read it.|RANK|3|
+
+N Choose a Shado-Pan Companion|N|Choose your Shado-Pan Companion from those with a chat bubble over their head.\n\nCheck off this step to continue.|
+
 C Assault Fire Camp Gai-Cho|QID|31113|M|61,41|S|N|Kill yaungol in this area.|
 C Pick up 10 Barrels of Oil|QID|31119|M|63,43.4|L|84762 10|NC|N|Be sure and grab ten barrels (max amt you can carry) of highly explosive yaungol oil, you will need them for another quest.|
-C Assault Fire Camp Gai-Cho|QID|31113|M|61,41|US|N|Kill yaungol in this area.|
-C Achievement Opportunity|ACH|7309|QID|31119|M|58,50|U|84762|N|The Enemy of My Enemy...Is Still My Enemy! If you choose a spot where more than 15 mantid/yaungal converge, you can drop a barrel on them and immediately drop a 2nd barrel, the first barrel will take them to low health and the 2nd barrel will kill them, granting the Achievement, Fire in the Yaung-hole! You should do this while flying/hovering above the area.|
-C The Enemy of My Enemy...Is Still My Enemy!|QID|31119|M|58,50|U|84762|N|You should do this while flying/hovering above the area.|
-T Assault Fire Camp Gai-Cho|QID|31113|M|49.5,70.5|N|You can turn this in at a Shado-pan companion or to Master Snowdrift.|
-T The Enemy of My Enemy... Is Still My Enemy!|QID|31119|M|49.5,70.5|N|You can turn this in at a Shado-pan companion or to Master Snowdrift.|
-A Cheng Bo!|QID|31120|PRE|31113;31119|M|49.5,70.5|N|From Master Snowdrift (or UI alert if you turned the previous quests in at a companion).|
-C Cheng Bo!|QID|31120|T|Cheng Bo|M|60.8,42|N|You will get credit for the kill, even if another player attacked him first.|
-C Assault Deadtalker's Plateau|QID|31114|M|51,53|S|
-K Defiled Spirits|T|Defiled Spirit|QID|31116|L|84727 32|N|Kill defiled spirits and loot the spirit dust from them, you will need a total of 32 dusts(if solo). You will need to manually check this step off if you free the spirits before all the essenses are collected.|
-C The Deadtalker Cipher|QID|31118|N|This should drop while you are killing the Deadtalkers for Assult Deadtaker's Plateau. Keep killing those mobs until it drops.  Also drops off the silver elite Uruk.|
-C Assault Deadtalker's Plateau|QID|31114|M|51,53|US|
+C Assault Fire Camp Gai-Cho|QID|31113|M|61,41|US|N|Finish killing the yaungol in this area.|
+T Assault Fire Camp Gai-Cho|QID|31113|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|S|
+
+C Achievement Opportunity|ACH|7309|QID|31119|M|58,50|U|84762|N|The Enemy of My Enemy...Is Still My Enemy! If you choose a spot where more than 15 mantid/yaungal converge, you can drop a barrel on them and immediately drop a 2nd barrel, the first barrel will take them to low health and the 2nd barrel will kill them, granting the Achievement, Fire in the Yaung-hole! You should do this while flying/hovering above the area.|RANK|3|
+C The Enemy of My Enemy...Is Still My Enemy!|QID|31119|M|58,50|U|84762|N|Whilst Flying/hovering above the area, use the Highly Explosive Yaungol Oil on the Yaungols and Mantid.|
+
+T The Enemy of My Enemy... Is Still My Enemy!|QID|31119|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|S|
+
+;I was NOT offered this quest at this point, even though I had both 31113 and 31119 completed
+;A Cheng Bo!|QID|31120|PRE|31113;31119|M|49.5,70.5|N|From Master Snowdrift (or UI alert if you turned the previous quests in at a companion).|
+;C Cheng Bo!|QID|31120|T|Cheng Bo|M|60.8,42|N|You will get credit for the kill, even if another player attacked him first.|
+
+C Assault Deadtalker's Plateau|QID|31114|M|51,53|S|N|You'll need to kill just one of the elite Crushers and eight of the Corpsedefiler whilst working on the Defiled Spirits.|
+
+K Defiled Spirits|T|Defiled Spirit|QID|31116|L|84727 4|N|Kill and loot defiled spirits for their Ancient Spirit Dust.|M|51.9,50.4|
+C Spirit Dust|QID|31116|N|Continue killing and looting defiled spirits for their Ancient Spirit Dust, and use the dust on the Defiled Yaungol Remains. Each Defiled Yaungol Remains need 4 spirit dust.|
+
+;This doesn't appear when you follow the guide, probably because nothing dropped for me.
+C The Deadtalker Cipher|QID|31118|N|This should drop while you are killing the Deadtalkers for Assult Deadtaker's Plateau. Keep killing those mobs until it drops. Also drops off the silver elite Uruk.|
+T The Deadtalker Cipher|QID|31118|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.
+
+C Assault Deadtalker's Plateau|QID|31114|M|51,53|US|N|Finish killing the Deadtalkers.|
+T Assault Deadtalker's Plateau|QID|31114|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|
+
 C Spirit Dust|QID|31116|M|51,53|U|84727|NC|N|Use the spirit dusts on the bones scattered around the area. You can do this part while mounted.|
-T Assault Deadtalker's Plateau|QID|31114|M|49.5,70.5|N|You can turn this in at a Shado-pan companion or to Master Snowdrift.|
-T The Deadtalker Cipher|QID|31118|M|49.5,70.5|N|You can turn this in at a Shado-pan companion or to Master Snowdrift.|
-T Spirit Dust|QID|31116|M|49.5,70.5|N|You can turn this in at a Shado-pan companion or to Master Snowdrift.|
-A Uruk!|QID|31117|PRE|31114|M|49.5,70.5|N|From a Shado-Pan companion or Master Snowdrift.|
+T Spirit Dust|QID|31116|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|
+
+A Uruk!|QID|31117|PRE|31114|M|49.5,70.5|N|From UI Alert, your Shado-Pan companion or Master Snowdrift.|
 C Uruk!|QID|31117|T|Uruk|M|50.4,49|N|He is floating up above the ground in front of a large totem. You will get credit for the kill, even if another player attacked him first.|
 T Uruk!|QID|31117|M|49.5,70.5|N|To Master Snowdrift.|
 T Cheng Bo!|QID|31120|M|49.5,70.5|N|To Master Snowdrift.|
@@ -135,7 +161,11 @@ N Achievement Opportunity|ACH|7299;2|ACTIVE|31197|N|To earn the Achievement Lone
 N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent Assassin, you need to do the Wu Kao set of dailies without killing any extra mobs.  It is recomended you do this with-out a Shado-pan companion, since they don't seen to understand the concept of avoiding enemies. You are given a bag of supplies to assist, it includes smoke bombs and items to CC. Tou probably want to do the Noncombat objectives first, so any accidental kills are less likely to put you over the allowed totals. If you chose to take a companion, you can turn in your quests to them, also run out of range and let them despawn if they are killing extra mobs. Manually check this off once you read it.|
 C The Bigger They Come...|QID|31197|M|18,48|U|86536|S|N|These are located all over the Island. The Elite Kunchong in the feeding pits do NOT count, nor do the Swarmlords. Only the Sra'thik Will-Breakers, Sra'thik Deathmixers, Sra'thik Swarm-Leaders and Sra'thik Vessguards count.|
 C Sra'vess Wetwork|QID|31196|M|18,48|U|90006|S|N|Any non elite counts. These are located all over the Island.|
-C A Morale Victory|QID|31198|M|27.83,41.93;21.50,49.24;23.52,55.64;16.19,46.04|CN|N|You may want to hotkey the items from the bag of Wu Kao Supplies, especially if you are going for the Silent Assassin Achievement.|
+N A Morale Victory|QID|31198|N|You may want to hotkey the items from the bag of Wu Kao Supplies, especially if you are going for the Silent Assassin Achievement.|
+C A Morale Victory|QID|31198|M|27.83,41.93|QO|Eastern idol: 1/1|
+C A Morale Victory|QID|31198|M|21.50,49.24|QO|Central idol: 1/1|
+C A Morale Victory|QID|31198|M|23.52,55.64|QO|Southern idol: 1/1|
+C A Morale Victory|QID|31198|M|16.19,46.04|QO|Western idol: 1/1|
 C Fumigation|QID|31200|M|20.70,45.93|QO|Amber Vault bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
 C Fumigation|QID|31200|M|23.8,47.3|QO|Nutriment Cell bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
 C Fumigation|QID|31200|M|23.6,44.7|QO|Egg Chamber bombed: 1/1|U|86532|N|There is a hunter's mark showing the location to place the bombs.|
@@ -186,7 +216,7 @@ C The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|50.4,67.85;50.62,68.
 T The Challenger's Ring: Tenwu of the Red Smoke|QID|31221|M|49.01,71.36|N|To Ling of the Six Pools.|
 
 ;Sha of Anger
-K Sha of Anger|ACH|6480|L|89317|N|Join a raid for Sha of Anger and be sure to loot it. (one time quest, you have to actually loot the item.)Check this off manually until then.|
+K Sha of Anger|ACH|6480|L|89317|N|Join a raid for Sha of Anger and be *sure* to loot it. Check this off manually until then.|
 A Remnants of Anger|QID|31809|U|89317|N|Accepted from the claw, looted from the Sha of Anger.|
 T Remnants of Anger|QID|31809|M|49.5,70.5|N|To Ban Bearheart.|
 
