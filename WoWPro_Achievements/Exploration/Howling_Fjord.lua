@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2013-06-18 00:41
+-- Who: Ludovicus Maior
+-- Log: Bad X coordinate 49 21, 1/1 in guide TwiExpBT, line [F Steeljaw's Caravan].
+
+-- URL: http://wow-pro.com/node/3474/revisions/24997/view
 -- Date: 2012-05-27 21:10
 -- Who: Ludovicus Maior
 -- Log: Change guide nick for Exploring Howling Fjord to TwiExpHFj

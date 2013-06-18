@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2013-06-18 08:35
+-- Who: Emmaleah
+-- Log: added missing |Z| in first line of guide
+
+-- URL: http://wow-pro.com/node/3294/revisions/25316/view
 -- Date: 2013-01-09 22:47
 -- Who: Ludovicus Maior
 -- Log: Added CS and CN tags
@@ -58,7 +63,7 @@ WoWPro.Leveling:RegisterGuide("JamGriH7577", "Grizzly Hills", "Jame", "75", "77"
 --Addon Version: Last Modified 7/14/2010
 return [[
 
-F Conquest Hold|QID|12487|N|Fly to Conquest Hold.|M|43.85,16.93|Dragonblight|
+F Conquest Hold|QID|12487|N|Fly to Conquest Hold.|M|43.85,16.93|Z|Dragonblight|
 T To Conquest Hold, But Be Careful!|QID|12487|M|20.8,64.2|N|To Conqueror Krenna.|
 A The Conqueror's Task|QID|12468|M|20.8,64.2|N|From Conqueror Krenna.|
 h Conquest Hold|QID|12468|M|20.8,64.5|N|At Barracks Master Rhekku.|

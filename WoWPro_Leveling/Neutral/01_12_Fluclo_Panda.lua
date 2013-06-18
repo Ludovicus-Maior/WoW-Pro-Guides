@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2013-06-18 00:45
+-- Who: Ludovicus Maior
+-- Log: Missing coordinate, 1/1 in guide FlucloPanda, line [C Stronger Than Reeds].
+
+-- URL: http://wow-pro.com/node/3483/revisions/25355/view
 -- Date: 2013-01-12 18:11
 -- Who: Ludovicus Maior
 -- Log: Get rid of extra M tag
@@ -65,7 +70,7 @@
 -- Who: Ludovicus Maior
 -- Log: Initial Version
 
-WoWPro.Leveling:RegisterGuide('FlucloPanda', 'The Wandering Isle', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('FlucloPanda', 'TheWanderingIsle', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
 return [[
 
 ; Non Pandarian can't get here.
@@ -201,10 +206,10 @@ T The Singing Pools|QID|29521|M|65.59,42.59|N|To Aysa Cloudsinger (she has moved
 A The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|From Aysa Cloudsinger|
 A The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|From Aysa Cloudsinger|
 
-C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the ground.\n\nBe careful, when you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes.|NC|S|
+C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Collect the Tearwood Reeds from the ground.\n\nBe careful, when you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes.|NC|S|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|S|
 C The Lesson of Dry Fur|QID|29661|N|Head to the other side of the bridge to the north, and find an exit pole (the poles on the edge of the water), jump onto one, then jump onto other poles until you reach the bell.|NC|
-C Stronger Than Reeds|QID|29662|M||N|Collect the Tearwood Reeds from the ground.  When you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes.|NC|US|
+C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Collect the Tearwood Reeds from the ground.  When you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes.|NC|US|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|US|
 
 T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|

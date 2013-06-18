@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2013-06-18 00:38
+-- Who: Ludovicus Maior
+-- Log: quest 26710's name [Lost In the Deeps] does not match Grail's database [Lost In The Deeps]
+
+-- URL: http://wow-pro.com/node/3419/revisions/25637/view
 -- Date: 2013-05-14 18:50
 -- Who: Ludovicus Maior
 -- Log: [Lost In The Deeps] not [Lost in The Deeps]
@@ -59,7 +64,7 @@ C Deep Garnet Crystal|QID|27048|NC|QO|Deep Garnet Crystal: 3/3|N|Use your bombs 
 C Motes|QID|27047|NC|US|M|66.43,20.61|N|Gather painite motes inside the Crumbling Depths.|
 C Fear of Boring|QID|27046|US|M|58.35,25.56|N|Kill gyreworms in and arround the Crumbling Depths.|
 T Underground Economy|QID|27048|M|61.38,26.13|N|To Ricket.|
-C Lost In the Deeps|QID|26710|NC|M|63.07,20.88|N|Follow the big worm to the center section, then take the second right. Follow that around and in a full circle. Reverse direction to get back out of the cave.|
+C Lost In The Deeps|QID|26710|NC|M|63.07,20.88|N|Follow the big worm to the center section, then take the second right. Follow that around and in a full circle. Reverse direction to get back out of the cave.|
 
 F Fungal Deep|QID|28390|M|68,28|N|Get out of the cave and fly up to the entrance to the Fungal Deep.|
 C Glop, Son of Glop|QID|28390|M|69.75,31.74|N|Head to the first fork in the tunnel. If the Earthmender isn't there, it means someone else is doing the event. Talk to the Earthmender to start, then chase down Glop and kill him. There is an achievement for doing this without taking damage from the exploding mushrooms.|
@@ -79,7 +84,7 @@ T Fungal Fury|QID|27050|M|58.58,13.72|N|To Gorsik the Tumultuous.|
 T Fear of Boring|QID|27046|M|56.03,14.45|N|To Felsen the Enduring.|
 T Motes|QID|27047|M|56.03,14.45|N|To Felsen the Enduring.|
 T Beneath the Surface|QID|28488|M|56.03,14.45|N|To Felsen the Enduring.|
-T Lost In the Deeps|QID|26710|M|55.35,14.17|N|To Pyrite Stonetender.|
+T Lost In The Deeps|QID|26710|M|55.35,14.17|N|To Pyrite Stonetender.|
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]

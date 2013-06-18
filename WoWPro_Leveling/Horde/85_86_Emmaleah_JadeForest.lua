@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2013-06-18 00:46
+-- Who: Ludovicus Maior
+-- Log: Bad Y coordinate 31.95,13.21., 1/1 in guide EmmJad8586, line [C Regroup!].
+
+-- URL: http://wow-pro.com/node/3487/revisions/25576/view
 -- Date: 2013-03-23 19:01
 -- Who: Ludovicus Maior
 -- Log: Quest name corrections and a missing | char.
@@ -103,7 +108,7 @@ A Regroup!|QID|29694|M|33.67,10.56|N|From General Nazgrim.|
 A Face to Face With Consequence|QID|31771|M|33.67,10.56|N|From Taran Zhu.|
 
 C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Kill these guys as you run out of the building|
-C Regroup!|QID|29694|M|31.95,13.21.|NC|QO|Shademaster Kiryn Rescued: 1/1|
+C Regroup!|QID|29694|M|31.95,13.21|NC|QO|Shademaster Kiryn Rescued: 1/1|
 A Priorities!|QID|31978|M|31.97,13.30|N|From Gi-Oh.|
 A Prowler Problems|QID|31773|M|32.06,13.32|N|From Kai-Lin Honeydew.|
 C Prowler Problems|QID|31773|S|M|30.61,11.78|

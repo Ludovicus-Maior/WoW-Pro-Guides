@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2013-06-18 00:31
+-- Who: Ludovicus Maior
+-- Log: Guide errors
+
+-- URL: http://wow-pro.com/node/3467/revisions/25674/view
 -- Date: 2013-05-17 20:45
 -- Who: Ludovicus Maior
 -- Log: Corrections
@@ -74,7 +79,7 @@ C Crushing the Crown|QID|28935|M|66.58,19.65|Z|Uldum|N|Kill Crown Technician nea
 
 T Crushing the Crown|QID|24638;24645;24647;24648;24649;24650;24651;24652;24638;28935|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
-A Cloudlet of Classy Cologne|QID|24635|M|53.05,77.15|Z|Orgrimmar|N|From Public Relations Agent|
+A A Cloudlet of Classy Cologne|QID|24635|M|53.05,77.15|Z|Orgrimmar|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49669|
 C A Perfect Puff of Perfume|QID|24629|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49668|
 C Bonbon Blitz|QID|24636|QID|24636|Z|Orgrimmar|N|Force feed candy to everyone and any NPC in sight.|U|49670|
@@ -85,7 +90,7 @@ T Bonbon Blitz|QID|24636|QID|24636|M|53.05,77.15|Z|Orgrimmar|N|To Public Relatio
 N Shadowfang Keep and Hummel|QID|24793|N|In order for you to queue for this, you may need to be level 84.  However, a group can get the quests at 78/75.|
 A Man on the Inside|QID|24793|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|LVL|78|
 T Man on the Inside|QID|24793|M|50.79,75.29|Z|ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|78|
-A You've Been Served|QID|14488|M||Z|ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|75|
+A You've Been Served|QID|14488|Z|ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|75|
 
 N All done for the day|
 ]]

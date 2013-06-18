@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2013-06-18 00:48
+-- Who: Ludovicus Maior
+-- Log: quest 32010's name [A Celestial Task!] does not match Grail's database [A Celestial Task].
+
+-- URL: http://wow-pro.com/node/3503/revisions/25695/view
 -- Date: 2013-06-04 23:31
 -- Who: Ludovicus Maior
 -- Log: Spelling errors, corrds, and misc fixes as I play through.
@@ -74,7 +79,7 @@ N Regular Leveling Quests|N|If you haven't done the questlines in Temple of the 
 
 ;intro quest - one time - not necesary - may be deprecated in 5.1?
 T A Celestial Task|QID|32011|FACTION|Alliance|M|84.6,63.6|N|To Sage Whiteheart. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
-T A Celestial Task!|QID|32010|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
+T A Celestial Task|QID|32010|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
 
 ;pointer quests - alliance
 A Random August Celestal Temple Quest|QID|31376;31378;31380;31382|FACTION|Alliance|M|84.6,63.6|N|From Sage Whiteheart.|
