@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2013-06-20 13:25
+-- Who: Kaboca
+-- Log: +Added some lorewalkers exploration/reputation related lines. Also corrected coordinates for Elder Lusshan, he is on the hill.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25394/view
 -- Date: 2013-01-12 22:38
 -- Who: Ludovicus Maior
 -- Log: Added CS tags
@@ -270,6 +275,7 @@ A Family Heirlooms|QID|29762|M|58.97,81.69|N|From Bold Karasshi.|
 A The Elder's Instruments|QID|29887|M|58.75,81.28|N|From Pearlkeeper Fujin.|
 
 R Moonwater Retreat|QID|29887|M|60.26,83.96;61.70,84.75;63.72,86.27;65.21,87.16|CS|N|Through the Bamboo Wilds and up to the hill.|
+R Watersmithing|QID|968460001|M|66.01, 87.56|ACH|6846;1|N|Exploration>Fish Tales.|
 C The Elder's Instruments|QID|29887|S|M|67.25,88.40|N|Kill the monkeys until you get all four items.|
 C Family Heirlooms|QID|29762|NC|M|67.44,87.54|N|Loot the corpses around the village.|
 C The Elder's Instruments|QID|29887|US|M|67.25,88.40|N|Kill the monkeys until you get all four items.|
@@ -364,12 +370,13 @@ T An Ancient Legend|QID|29900|M|65.94,79.22|N|To Ren Whitepaw.|
 A Anduin's Decision|QID|29901|M|65.94,79.22|N|From Ren Whitepaw.|
 C Anduin's Decision|QID|29901|NC|M|65.91,79.24|N|Talk to Anduin and learn of his decision in case you didn't guess it already.|
 T Anduin's Decision|QID|29901|M|58.87,81.68|N|To Admiral Taylor, back in *Perlfin Villiage*.|
-A In Search of Wisdom|QID|29922|M|58.89,81.48|N|From Elder Lusshan.|
+A In Search of Wisdom|QID|29922|M|58.1,80.6|N|From Elder Lusshan.|
 
 C In Search of Wisdom|QID|29922|NC|M|57.95,82.52|N|Speak to Kitemaster Ut-Nam and have him send you to Dawn's Blossom|
 
 f Dawn's Blossom|QID|29922|M|47.05,46.24|N|At Keg Runner Lee.|
 T In Search of Wisdom|QID|29922|M|46.81,46.14|N|To Lorewalker Cho.|
+R The Emperor's Burden - Part 1|QID|968550001|M|47.08, 45.14|ACH|6855;1|N|Exploration>The Seven Burdens of Shaohao.|
 A Welcome to Dawn's Blossom|QID|31230|M|47.16,46.17|N|From Toya.|
 C Welcome to Dawn's Blossom|QID|31230|M|47.04,46.02|N|Wanderbrew wanders about near here.|QO|Speak with Kai Wanderbrew: 1/1|
 C Welcome to Dawn's Blossom|QID|31230|M|45.77,43.67|QO|Speak with Peiji Goldendraft: 1/1|
@@ -471,6 +478,7 @@ C The Wayward Dead|QID|29752|S|U|74771|M|44.22,15.01|N|Use Pei-Zhi's staff to re
 C Vessels of the Spirit|QID|29750|S|M|40.69,14.85|
 C Ritual Artifacts|QID|29751|NC|QO|Chipped Ritual Bowl: 1/1|M|41.62,14.27|
 C Ritual Artifacts|QID|29751|NC|QO|Jade Cong: 1/1|M|42.63,15.74|
+R Spirit Binders |QID|967540003|M|42.26, 17.47|ACH|6754;3|N|Exploration>The Dark Heart of the Mogu. |
 C Ritual Artifacts|QID|29751|NC|QO|Pungent Ritual Candle: 1/1|M|42.3,17.09|
 C Vessels of the Spirit|QID|29750|US|M|40.69,14.85|
 C The Wayward Dead|QID|29752|US|U|74771|M|40.38,14.76|
@@ -566,6 +574,10 @@ T The Rumpus|QID|29637|M|38.96,24.04|N|To Instructor Myang.|
 A Flying Colors|QID|29647|M|43.27,24.75|N|From Instructor Myang.|
 T Flying Colors|QID|29647|M|42.74,23.17|N|To High Elder Cloudfall.|
 
+R The First Monks|QID|968580003|M|38.1,35.7;39.6,33.6;35.74, 30.46|CS|ACH|6858;3|N|Exploration>What is Worth Fighting For.|
+
+R Xin Wo Yin the Broken Hearted|QID|972300002|M|37.30, 30.12|ACH|7230;2|N|Exploration>Legend of the Brewfathers.|
+
 F Paw'don Village|QID|29576|M|43.52,24.55|N|At Studious Chu.(or you can just ride straight to Nectarbreeze...or...if your hearthstone is set there, hearth to Paw'don)|
 R Nectarbreeze Orchard|QID|29576|M|43.54,75.91|CC|
 T An Air of Worry |QID|29576|N|To Shao the Defiant|M|43.5,75.9|
@@ -641,6 +653,7 @@ T The Rider's Bind|QID|29999|M|58.03,59.02|N|To Fei.|
 T Lighting Up the Sky|QID|30005|M|58.03,59.02|N|To Fei.|
 A The Jade Serpent|QID|30000|M|58.03,59.02|N|From Fei.|
 C The Jade Serpent|QID|30000|M|53.49,58.02|
+R The Emperor's Burden - Part 3|QID|968550003|M|55.88, 56.85|ACH|6855;3|N|Exploration>The Seven Burdens of Shaohao.|
 T The Jade Serpent|QID|30000|M|55.85,57.08|N|To Elder Sage Wind-Yi.|
 
 A Get Back Here!|QID|30498|M|55.84,57.07|N|From UI Alert.|
