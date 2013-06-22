@@ -39,12 +39,6 @@
 WoWPro.Dailies:RegisterGuide("LudoAnglers", "Krasarang Wilds", "The Anglers Reputation", "MoP", "Ludovicus", "Neutral", function()
 return [[
 
-; Leadin quests, 'cause I'm OCD
-A The Anglers|QID|31370|M|60.8,23.4|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Master Angler Karu. (may have been removed as of 5.1)|
-T The Anglers|QID|31370|M|67.8,45.2|FACTION|Horde|N|To Fisherman Haito|
-A The Anglers|QID|31369|M|86.56,60.06|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Master Angler Marina, first floor. (may have been removed as of 5.1)|
-T The Anglers|QID|31369|M|67.8,45.2|FACTION|Alliance|N|To Fisherman Haito|
-
 A Quest(s) from John "Big Hook" Marsock|QID|30754;30753|M|68.34,43.49|N|From John "Big Hook" Marsock, if he is offering|
 A Quest(s) from Fisherman Haito|QID|30586;30584|M|67.92,45.24|N|From Fisherman Haito, if he is offering|
 A Quest(s) from Fiznix|QID|30678;30698|M|67.49,44.59|N|From Fiznix, if he is offering|
