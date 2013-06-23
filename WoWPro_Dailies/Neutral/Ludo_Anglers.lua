@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/anglers_reputation
+-- Date: 2013-06-23 01:17
+-- Who: Ludovicus Maior
+-- Log: Removed absent leadin quests.
+
+-- URL: http://wow-pro.com/node/3509/revisions/25520/view
 -- Date: 2013-02-06 20:17
 -- Who: Ludovicus Maior
 -- Log: Move [What Lurks Below] for better flow.
