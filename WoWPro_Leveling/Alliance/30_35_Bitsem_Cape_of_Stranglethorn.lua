@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2013-06-18 01:07
+-- Who: Ludovicus Maior
+-- Log: quest 26805's name [To the Cape] does not match Grail's database [To the Cape!].
+
+-- URL: http://wow-pro.com/node/3237/revisions/25596/view
 -- Date: 2013-03-23 20:37
 -- Who: Ludovicus Maior
 -- Log: quest name corrections.
@@ -90,7 +95,7 @@ f Explorers' League Digsite|QID|26805|M|55.74,41.22|N|At Colin Swifthammer.|
 
 T To the Cape!|QID|26805|M|55.25,42.48|N|To Bronwyn Hewstrike.|S|
 T Hero's Call: The Cape of Stranglethorn!|QID|28702|O|M|55.25,42.48|N|To Bronwyn Hewstrike.|
-T To the Cape|QID|26805|M|55.25,42.48|N|To Bronwyn Hewstrike.|US|
+T To the Cape!|QID|26805|M|55.25,42.48|N|To Bronwyn Hewstrike.|US|
 
 ;The next quest has two IDs, 26825 and 26826, 26825 if the player found the ogre artifact, and 26826 if they player did not.
 A Dask "The Flask" Gobfizzle|QID|26825|M|55.12,42.44|N|From Bronwyn Hewstrike.|L|58490|

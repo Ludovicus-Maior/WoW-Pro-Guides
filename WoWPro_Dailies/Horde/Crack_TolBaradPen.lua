@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2013-06-18 00:57
+-- Who: Ludovicus Maior
+-- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
+
+-- URL: http://wow-pro.com/node/3416/revisions/25675/view
 -- Date: 2013-05-17 20:46
 -- Who: Ludovicus Maior
 -- Log: Watch Out For Splinters!

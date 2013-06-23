@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2013-06-18 01:01
+-- Who: Ludovicus Maior
+-- Log: quest 27398's name [The Battle is Won, The War Goes On] does not match Grail's database [The Battle Is Won, The War Goes On].
+
+-- URL: http://wow-pro.com/node/3307/revisions/25568/view
 -- Date: 2013-03-23 18:42
 -- Who: Ludovicus Maior
 -- Log: Quest name correction [Fight Fire and Water and Air with...]
@@ -143,9 +148,9 @@
 WoWPro.Leveling:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', '82', '83', 'AriUld8384|AriUld8384', 'Neutral', function()
 return [[
 
-N The Battle is Won, The War Goes On|QID|27398|Z|Stormwind City|N|If you don't have this quest, check it off and continue to the next.|FACTION|Alliance|
+N The Battle Is Won, The War Goes On|QID|27398|Z|Stormwind City|N|If you don't have this quest, check it off and continue to the next.|FACTION|Alliance|
 A Hero's Call: Deepholm!|QID|27727|M|63,71.7|Z|Stormwind City|N|If you don't have the first quest.|FACTION|Alliance|
-T The Battle is Won, The War Goes On|QID|27398|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
+T The Battle Is Won, The War Goes On|QID|27398|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
 T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|O|FACTION|Alliance|
 
 A Warchief's Command: Deepholm!|QID|27722|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|

@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_tailoring
+-- Date: 2013-06-18 00:36
+-- Who: Ludovicus Maior
+-- Log: Bad X coordinate 66.268.8, 1/1 in guide TwiTailoring, line [B Pattern: Bolt of Imdued Netherweave]
+--	Bad X coordinate 66.268.8, 1/1 in guide TwiTailoring, line [B Pattern: Netherweave Robe].
+
+-- URL: http://wow-pro.com/node/3412/revisions/25656/view
 -- Date: 2013-05-16 00:56
 -- Who: Twists
 -- Log: Update to the new parser.
@@ -54,8 +60,8 @@ N Runecloth Headband|QID|901970030|P|Tailoring;197;295;300;|N|6;Bolt of Runeclot
 N Learn Master Tailoring|QID|901970031|P|Tailoring;197;*;0;375|N|Visit your trainer in any major city. You must be level 50 or above.|
 N Bolt of Netherweave|QID|901970032|P|Tailoring;197;300;325;|N|5;Netherweave Cloth;400;400|
 N Bolt of Netherweave|QID|901970033|P|Tailoring;197;325;326;|N|Keep making these until you have what you need. Keep what you make.:\n5 Netherweave Cloth|L|21840 80|S|
-B Pattern: Bolt of Imdued Netherweave|QID|901970034|P|Tailoring|N|Purchased from Eiin in Shattrath City.|M|66.268.8|Z|Shattrath City|
-B Pattern: Netherweave Robe|QID|901970035|P|Tailoring|N|Purchased from Eiin in Shattrath City.|M|66.268.8|Z|Shattrath City|
+B Pattern: Bolt of Imdued Netherweave|QID|901970034|P|Tailoring|N|Purchased from Eiin in Shattrath City.|M|66.2,68.8|Z|Shattrath City|
+B Pattern: Netherweave Robe|QID|901970035|P|Tailoring|N|Purchased from Eiin in Shattrath City.|M|66.2,68.8|Z|Shattrath City|
 N Bolt of Imdued Netherweave|QID|901970036|P|Tailoring;197;325;335;|N|3;Bolt of Netherweave;45;45:2;Arcane Dust;30;30|
 N Netherweave Robe|QID|901970037|P|Tailoring;197;340;350;|N|8;Bolt of Netherweave;80;80:2;Rune Thread;20;20|
 N Learn Grand Master Tailoring|QID|901970038|P|Tailoring;197;*;0;425|N|Visit your trainer in any major city. You must be level 65 or above.|

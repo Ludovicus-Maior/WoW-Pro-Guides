@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2013-06-18 00:50
+-- Who: Ludovicus Maior
+-- Log: Missing coordinate, 1/1 in guide WkjNor2530, line [C Raptor Mastery].
+
+-- URL: http://wow-pro.com/node/3232/revisions/25502/view
 -- Date: 2013-01-22 18:09
 -- Who: Ludovicus Maior
 -- Log: Cleaned up guide start to account for Ashenvale.
@@ -292,7 +297,7 @@ T Raptor Prowess|QID|196|M|58.08,58.67|N|UI Alert|
 
 A Raptor Mastery|QID|197|M|58.08,58.67|N|UI Alert|
 
-C Raptor Mastery|QID|197|T|Tethis|M||59.60,62.45;62.83,61.80;64.70,58.08;59.17,59.12|CN|N|Use the button to hunt Tethis in this area.|
+C Raptor Mastery|QID|197|T|Tethis|M|59.60,62.45;62.83,61.80;64.70,58.08;59.17,59.12|CN|N|Use the button to hunt Tethis in this area.|
 
 C Panther Prowess|QID|192|M|60.25,47.97|
 

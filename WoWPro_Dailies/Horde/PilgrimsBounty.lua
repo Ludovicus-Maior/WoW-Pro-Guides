@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
+-- Date: 2013-06-18 00:35
+-- Who: Ludovicus Maior
+-- Log: Got rid of stuttered M tag
+
+-- URL: http://wow-pro.com/node/3456/revisions/24897/view
 -- Date: 2012-01-19 00:02
 -- Who: Ludovicus Maior
 -- Log: Correct node numbers
@@ -33,7 +38,7 @@ A We're Out of Cranberry Chutney Again?|QID|14059|M|63.20,8.94|Z|Undercity|N|Fro
 l Cranberry Chutney|QID|14059|M|63.29,8.40|Z|Undercity|L|44840 20|N|Cook up 20 Chutneys|
 T We're Out of Cranberry Chutney Again?|QID|14059|M|63.20,8.94|Z|Undercity|N|To Roberta Carter, outside of Undercity.|
 B Buy Ripe Tirisfal Pumpkin|QID|14061|M|63.86,11.18|Z|Undercity|L|46796 20|N|You need 20 Pumpkins from Rose Standish, Undercity.|
-B Buy Honey|QID|14061|M|M|63.86,11.18|Z|Undercity|L|44853 20|You will need 20 Honeys.|
+B Buy Honey|QID|14061|M|63.86,11.18|Z|Undercity|L|44853 20|You will need 20 Honeys.|
 A She Says Potato|QID|14058|M|65.24,14.22|Z|Undercity|N|To William Mullins, Undercity.|
 b Orgrimmar|QID|14058|M|60.71,58.74|Z|Tirisfal Glades|N|Take the zepplin to Orgrimmar, then to Thunder Bluff.|
 

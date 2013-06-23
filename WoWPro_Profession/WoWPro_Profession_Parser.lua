@@ -268,304 +268,98 @@ function WoWPro.Profession:LoadGuide()
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
 end
 
--- Row Content Update --
-function WoWPro.Profession:RowUpdate(offset)
-	local GID = WoWProDB.char.currentguide
-	if InCombatLockdown() 
-		or not GID 
-		or not WoWPro.Guides[GID]
-		then return 
-	end
-	WoWPro:dbp("Running: WoWPro.Profession:RowUpdate()")
-	WoWPro.ActiveStickyCount = 0
-	local reload = false
-	local lootcheck = true
-	local k = offset or WoWPro.ActiveStep
-	local itemkb = false
-	local targetkb = false
-	ClearOverrideBindings(WoWPro.MainFrame)
-	WoWPro.Profession.RowDropdownMenu = {}
-	
-	for i=1,15 do
-		
-		-- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
-		if not WoWProDB.profile.guidescroll then
-			k = WoWPro:NextStep(k, i)
-		end
-		
-		--Loading Variables --
-		local row = WoWPro.rows[i]
-		row.index = k
-		row.num = i
-		local step = WoWPro.step[k]
-		local action = WoWPro.action[k] 
-		local note = ' '
-		local mat = WoWPro.mat[k]
-		local QID = WoWPro.QID[k] 
-		local coord = WoWPro.map[k] 
-		local sticky = WoWPro.sticky[k] 
-		local unsticky = WoWPro.unsticky[k] 
-		local use = WoWPro.use[k] 
-		local zone = WoWPro.zone[k] 
-		local lootitem = WoWPro.lootitem[k] 
-		local lootqty = WoWPro.lootqty[k] 
-		local questtext = WoWPro.questtext[k] 
-		local optional = WoWPro.optional[k] 
-		local target = WoWPro.target[k]
-		local prof = WoWPro.prof[k]
-		local completion = WoWProCharDB.Guide[GID].completion
 
-		-- Break down the current step and re-create
-		if prof then
-			local profname, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",prof)
-			if (k == WoWPro.rows[WoWPro.ActiveStickyCount+1].index) and (tonumber(profmaxlvl) > 0) then
-				local profs = {}
-				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
-				for p=1,6 do
-					if profs[p] then
-						local skillName, skillLoc, skillRank, maxskill, _, _, skillnum = GetProfessionInfo(profs[p])
-						if (tonumber(skillnum) == tonumber(profnum)) then
-							local craft, skill = string.split(":",step)
-							row.targeticon:SetTexture(skillLoc)
-							local numMATs = select("#", string.split(":", mat))
-							local m = {}
-							m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = string.split(":",mat)
-							for j=1,tonumber(numMATs) do
-								local numItem = select("#", string.split(";", m[j]))
-								if numItem > 1 then
-									Qty, Item, Mats, Tot = string.split(";",m[j])
-									local skillpoints = (profmaxlvl - proflvl)/(Mats/Qty)
-									Mats = (((profmaxlvl - skillRank)/skillpoints) * Qty)
-									Tot = Tot - (((skillRank - proflvl)/skillpoints) * Qty)
-									if j == 1 then
-										note = craft..'\n'
-										WoWPro.note[k] = craft..'('..(profmaxlvl - skillRank)..')'
-										step = 'Craft these from '.. skillRank .. ' to '.. profmaxlvl
-										target = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)
-									end
-									note = note..'\n'..Qty..' '..Item..' ('..Mats..'/'..Tot..')'
-									WoWPro.note[k] = WoWPro.note[k]..':'..Qty..' '..Item..' ('..Mats..'/'..Tot..')'									
-								else
-									note = note..'\n'..m[j]
-									WoWPro.note[k] = WoWPro.note[k]..':'..m[j]
+function WoWPro.Profession:ParseQuestLine(text,k)
+    if not WoWPro.note[k] then
+        return
+    end
+    WoWPro.mat[k] = WoWPro.note[k]
+    -- Verify the mat line
+    local numMATs = select("#", string.split(":", WoWPro.mat[k]))
+    local m = {}
+    m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = string.split(":",WoWPro.mat[k])
+    for j=1,tonumber(numMATs) do
+        local numItem = select("#", string.split(";", m[j]))
+		if numItem > 1 then
+			local Qty, Item, Mats, Tot = string.split(";",m[j])
+			if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
+			    WoWPro.Profession:Error("Line [%s] tag N malformed at [%s]",text,m[j]) 
+			end									
+		end        
+    end
+end
+
+function WoWPro.Profession:PreRowUpdate(row)
+    local k = row.index
+
+	local step = WoWPro.step[k]
+	local mat = WoWPro.mat[k]
+	local target = WoWPro.target[k]
+	local prof = WoWPro.prof[k]
+
+
+	-- Break down the current step and re-create
+	if prof then
+		local profname, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",prof)
+		if (k == WoWPro.rows[WoWPro.ActiveStickyCount+1].index) and (tonumber(profmaxlvl) > 0) then
+			local profs = {}
+			profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
+			for p=1,6 do
+				if profs[p] then
+					local skillName, skillLoc, skillRank, maxskill, _, _, skillnum = GetProfessionInfo(profs[p])
+					if (tonumber(skillnum) == tonumber(profnum)) then
+						local craft, skill = string.split(":",step)
+						row.targeticon:SetTexture(skillLoc)
+						local numMATs = select("#", string.split(":", mat))
+						local m = {}
+						m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = string.split(":",mat)
+						WoWPro.note[k] = 'Materials: '
+						for j=1,tonumber(numMATs) do
+							local numItem = select("#", string.split(";", m[j]))
+							if numItem > 1 then
+								local Qty, Item, Mats, Tot = string.split(";",m[j])
+								if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
+								    WoWPro.Profession:Error("N step %s tag N for [%s] malformed at [%s]",step, mat,m[j]) 
 								end
+								WoWPro.Profession:dbp("Qty %s, k=%d",tostring(Qty),k)
+								local skillpoints = (profmaxlvl - proflvl)/(Mats/Qty)
+								Mats = (((profmaxlvl - skillRank)/skillpoints) * Qty)
+								Tot = Tot - (((skillRank - proflvl)/skillpoints) * Qty)
+								if j == 1 then
+									WoWPro.step[k] = craft..': Craft these from '.. skillRank .. ' to '.. profmaxlvl
+									WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)
+								end
+								WoWPro.note[k] = WoWPro.note[k]..Qty..' '..Item..' ('..Mats..'/'..Tot..')'									
+							else
+								WoWPro.note[k] = WoWPro.note[k]..m[j]
 							end
 						end
 					end
 				end
 			end
 		end
-
-		-- Unstickying stickies --
-		if unsticky and i == WoWPro.ActiveStickyCount+1 then
-			for n,row in ipairs(WoWPro.rows) do 
-				if step == row.step:GetText() and WoWPro.sticky[row.index] and not completion[row.index] then 
-					completion[row.index] = true
-					return true --reloading
-				end
-			end
-		end
-		
-		-- Counting stickies that are currently active (at the top) --
-		if sticky and i == WoWPro.ActiveStickyCount+1 and not completion[k] then
-			WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount+1
-		end
-		
-		-- Getting the image and text for the step --
-		row.step:SetText(step)
-		if step then row.check:Show() else row.check:Hide() end
-		if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
-			row.check:SetChecked(true)
-			if WoWProCharDB.Guide[GID].skipped[k] or WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
-				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
-			else
-				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
-			end
-		else
-			row.check:SetChecked(false)
-			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
-		end
-		if note then note = strtrim(note) note = string.gsub(note,"\\n","\n") end
-		if WoWProDB.profile.showcoords and coord and note then note = note.." ("..coord..")" end
-		if WoWProDB.profile.showcoords and coord and not note then note = "("..coord..")" end
-		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
-		row.note:SetText(note)
-		row.action:SetTexture(WoWPro.Profession.actiontypes[action])
-		if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
-			row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
-		end
-		
-		-- Checkbox Function --
-		function WoWPro.Profession:CheckFunction(row, button, down)
-			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
-			if button == "LeftButton" and row.check:GetChecked() then
-				local steplist = WoWPro.Profession:SkipStep(row.index)
-				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
-				if steplist ~= "" then 
-					WoWPro:SkipStepDialogCall(row.index, steplist)
-				end
-			elseif button == "RightButton" and row.check:GetChecked() then
-				completion[row.index] = true
-				WoWPro:MapPoint()
-				if WoWProDB.profile.checksound then	
-					PlaySoundFile(WoWProDB.profile.checksoundfile)
-				end
-			elseif not row.check:GetChecked() then
-				WoWPro.Profession:UnSkipStep(row.index)
-			end
-			WoWPro:UpdateGuide()
-		end
-		row.check:SetScript("OnClick", function(self, button, down)
-			WoWPro.Profession:CheckFunction(row, button, down)
-		end)
-		
-		-- Right-Click Drop-Down --
-		local dropdown = {
-		}
-		if step then
-			table.insert(dropdown, 
-				{text = step.." Options", isTitle = true}
-			)
-			QuestMapUpdateAllQuests()
-			QuestPOIUpdateIcons()
-			local _, x, y, obj
-			if QID then _, x, y, obj = QuestPOIGetIconInfo(QID) end
-			if coord or x then
-				table.insert(dropdown, 
-					{text = "Map Coordinates", func = function()
-						WoWPro:MapPoint(row.num)
-					end} 
-				)
-			end
-			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and WoWPro.GetNumPartyMembers() > 0 then
-				table.insert(dropdown, 
-					{text = "Share Quest", func = function()
-						QuestLogPushQuest(WoWPro.QuestLog[QID].index)
-					end} 
-				)
-			end
-			if sticky then
-				table.insert(dropdown, 
-					{text = "Un-Sticky", func = function() 
-						WoWPro.sticky[row.index] = false
-						WoWPro.UpdateGuide()
-						WoWPro.UpdateGuide()
-						WoWPro.MapPoint()
-					end} 
-				)
-			else
-				table.insert(dropdown, 
-					{text = "Make Sticky", func = function() 
-						WoWPro.sticky[row.index] = true
-						WoWPro.unsticky[row.index] = false
-						WoWPro.UpdateGuide()
-						WoWPro.UpdateGuide()
-						WoWPro.MapPoint()
-					end} 
-				)
-			end
-		end
-		WoWPro.Profession.RowDropdownMenu[i] = dropdown
-		
-		-- Item Button --
-		if action == "H" then use = 6948 end
-		if ( not use ) and action == "C" and WoWPro.QuestLog[QID] then
-			local link, icon, charges = GetQuestLogSpecialItemInfo(WoWPro.QuestLog[QID].index)
-			if link then
-				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
-				use = Id
-				WoWPro.use[k] = use
-			end
-		end
-		
-		if use and GetItemInfo(use) then
-			row.itembutton:Show() 
-			row.itemicon:SetTexture(GetItemIcon(use))
-			row.itembutton:SetAttribute("type1", "item")
-			row.itembutton:SetAttribute("item1", "item:"..use)
-			row.cooldown:RegisterEvent("ACTIONBAR_UPDATE_COOLDOWN")
-			row.cooldown:SetScript("OnEvent", function() 
-					local start, duration, enabled = GetItemCooldown(use)
-					if enabled then
-						row.cooldown:Show()
-						row.cooldown:SetCooldown(start, duration)
-					else row.cooldown:Hide() end
-				end)
-			local start, duration, enabled = GetItemCooldown(use)
-			if enabled then
-				row.cooldown:Show()
-				row.cooldown:SetCooldown(start, duration)
-			else row.cooldown:Hide() end
-			if not itemkb and row.itembutton:IsVisible() then
-				local key1, key2 = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
-				if key1 then
-					SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembutton"..i..":LeftButton")
-				end
-				if key2 then
-					SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembutton"..i..":LeftButton")
-				end
-				itemkb = true
-			end
-		else row.itembutton:Hide() end
-		
-		-- Target Button --
-		if target then
-			local target, spell, amt = string.split(";",target)
-			spell = tonumber(spell) or 0
-			amt = tonumber(amt) or 1
-
-			row.targetbutton:Show() 
-			if spell == 1 then
-				local prof, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
-				row.targetbutton:SetAttribute("macrotext", "/run CloseTradeSkill()\n/Cast "..prof.."\n/run for i=1,GetNumTradeSkills() do local na,_,n,_,_,p=GetTradeSkillInfo(i)if na=='"..target.."' then DoTradeSkill(i,'"..amt.."') end end ")
-			else
-				row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
-				.."\n/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end")
-			end
-			if use then
-				row.targetbutton:SetPoint("TOPRIGHT", row.itembutton, "TOPLEFT", -5, 0)
-			else
-				row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
-			end 
-			if not targetkb and row.targetbutton:IsVisible() then
-				local key1, key2 = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
-				if key1 then
-					SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbutton"..i..":LeftButton")
-				end
-				if key2 then
-					SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_targetbutton"..i..":LeftButton")
-				end
-				targetkb = true
-			end
-		else
-			row.targetbutton:Hide() 
-		end
-
-		
-		-- Setting the zone for the coordinates of the step --
-		zone = zone or strsplit("-(",WoWPro.Guides[GID].zone)
-		row.zone = strtrim(zone)
-
-		-- Checking for loot items in bags --
-		local lootqtyi
-		if lootcheck and ( lootitem or action == "B" ) then
-			if not WoWPro.sticky[index] then lootcheck = false end
-			if not lootitem then
-				if GetItemCount(step) > 0 and not completion[k] then WoWPro.CompleteStep(k) end
-			end
-			if tonumber(lootqty) ~= nil then lootqtyi = tonumber(lootqty) else lootqtyi = 1 end
-			if GetItemCount(lootitem) >= lootqtyi and not completion[k] then WoWPro.CompleteStep(k) end
-		end
-
-		WoWPro.rows[i] = row
-		k = k + 1
 	end
-	
-	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
-	WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
-	WoWPro:UpdateQuestTracker()
+end
 
-	return reload
+function WoWPro.Profession:RowUpdateTarget(row)
+    local k = row.index
+	local step = WoWPro.step[k]
+	local note = ' '
+	local mat = WoWPro.mat[k]
+	local target = WoWPro.target[k]
+	
+	local target, spell, amt = string.split(";",target)
+	spell = tonumber(spell) or 0
+	amt = tonumber(amt) or 1
+
+	row.targetbutton:Show() 
+	if spell == 1 then
+		local prof, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
+		row.targetbutton:SetAttribute("macrotext", "/run CloseTradeSkill()\n/Cast "..prof.."\n/run for i=1,GetNumTradeSkills() do local na,_,n,_,_,p=GetTradeSkillInfo(i)if na=='"..target.."' then DoTradeSkill(i,'"..amt.."') end end ")
+	else
+		row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
+		.."\n/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end")
+	end
 end
 
 -- Left-Click Row Function --
@@ -593,5 +387,8 @@ function WoWPro.Profession:EventHandler(self, event, ...)
 	if event == "CHAT_MSG_SKILL" then
 		WoWPro.UpdateGuide()
 	end
-
+	
+	if event == "TRADE_SKILL_SHOW" then
+	    WoWPro.Profession:ScanTrade()
+    end
 end

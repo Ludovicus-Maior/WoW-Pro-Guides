@@ -234,7 +234,7 @@ WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky",
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
 	"level", "QID","target", "prof", "mat", "rank", "rep","waypcomplete", "why",
 	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
-	 "buff"
+	 "buff", "chat"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -409,7 +409,8 @@ function WoWPro:LoadAllGuides()
     local zed
 	for guidID,guide in pairs(WoWPro.Guides) do
         WoWPro:Print("Test Loading " .. guidID)
-        WoWPro:LoadGuideReal(guidID)
+        WoWProDB.char.currentguide = guidID
+        WoWPro:LoadGuideStepsReal()
         nextG = WoWPro:NextGuide(guidID)
         if WoWPro.Guides[guidID].zone then
             zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))

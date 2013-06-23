@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
+-- Date: 2013-06-18 00:53
+-- Who: Ludovicus Maior
+-- Log: quest 11556's name [Exalted Among All Combatants] does not match Grail's database [Revered in the Field of Battle].
+--	Bad X coordinate 42.23,36.07,44.53,40.67, 1/8 in guide TwiShattSun, line [C Crush the Dawnblade].
+--	quest 11521's name [Rediscovering your Roots] does not match Grail's database [Rediscovering Your Roots].
+
+-- URL: http://wow-pro.com/node/3470/revisions/25375/view
 -- Date: 2013-01-12 19:30
 -- Who: Ludovicus Maior
 -- Log: Added CN tags
@@ -49,8 +56,8 @@ A Revered in the Field of Battle|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|
 T Revered in the Field of Battle|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Revered|N|From Eldara Dawnrunner|
 
 ; Exalted
-A Exalted Among All Combatants|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner|
-T Exalted Among All Combatants|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner|
+A Exalted Among All Combatants|QID|11557|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner|
+T Exalted Among All Combatants|QID|11557|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner|
 A A Magnanimous Benefactor|QID|11549|M|51.2,33.2|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|Anchorite Kairthos|
 T A Magnanimous Benefactor|QID|11549|M|51.2,33.2|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|Anchorite Kairthos|
 
@@ -83,7 +90,7 @@ C The Battle Must Go On|QID|11537|N|Plant the banner after Killing the large one
 C Know Your Ley Lines|QID|11547|M|48.53,44.47|QO|Portal Reading Taken: 1/1|U|34533|
 C The Battle Must Go On|QID|11537|N|Plant the banner after Killing the large one, Emissary of Hate.|U|34414|US|
 
-C Crush the Dawnblade|QID|11540|M|42.23,36.07,44.53,40.67;45.50,38.08;41.87,42.46;42.69,35.97;43.02,38.13;40.56,40.19;40.59,37.04;41.99,33.95|Z|Isle of Quel'Danas|CN|N|Slay!|
+C Crush the Dawnblade|QID|11540|M|42.23,36.07;44.53,40.67;45.50,38.08;41.87,42.46;42.69,35.97;43.02,38.13;40.56,40.19;40.59,37.04;41.99,33.95|Z|Isle of Quel'Danas|CN|N|Slay!|
 C Know Your Ley Lines|QID|11547|M|42.23,36.07|U|34533|
 
 T Crush the Dawnblade|QID|11540|M|49.4,40.2|Z|Isle of Quel'Danas|N|From Magister Ilastar|
@@ -113,7 +120,7 @@ T The Air Strikes Must Continue|QID|11533|M|47.56,35.03|N|To Battlemage Arynna.|
 T Keeping the Enemy at Bay|QID|11543|M|50.54,39.03|N|To Vindicator Kaalan.|
 
 T Open for Business|QID|11546|M|51.49,32.47|N|To Mar'nah.|
-A Rediscovering your Roots|QID|11521|M|51.49,32.47|N|From Mar'nah.|
+A Rediscovering Your Roots|QID|11521|M|51.49,32.47|N|From Mar'nah.|
 
 A The Missing Magistrix|QID|11526|M|47.44,30.48|Z|Isle of Quel'Danas|N|From Captain Theris Dawnhearth|
 R Portal to Hellfire|QID|11526|M|48.5,44.4|Z|Isle of Quel'Danas|U|34420|N|Use the scroll when you are close to it. Skip ahead in the guide till you get to Magistrix Seyla this one time.|
@@ -157,7 +164,7 @@ T Blast the Gateway|QID|11516|M|58.11,17.69|N|To Magistrix Seyla.|Z|Hellfire Pen
 
 K Shadowmoon Valley Orcs|QID|11544|M|66.60,42.40|N|Watch for the elite.|L|34500 5|Z|Shadowmoon Valley|
 K Razorthorn Flayers|QID|11521|M|58.76,12.93|N|Looking for Razorthorn Flayer Gland.|Z|Terokkar Forest|L|34255|
-C Rediscovering your Roots|QID|11521|N|Use the Gland on a Ravager. Then use the pet ability expose Razorthorn root next to a dirt mount to recover the roots.|Z|Terokkar Forest|U|34255|
+C Rediscovering Your Roots|QID|11521|N|Use the Gland on a Ravager. Then use the pet ability expose Razorthorn root next to a dirt mount to recover the roots.|Z|Terokkar Forest|U|34255|
 
 T Sunfury Attack Plans|QID|11877|M|62.70,35.97|N|From Lord Torvos.|Z|Shattrath City|
 T The Multiphase Survey|QID|11880|M|61.61,51.97|N|From Harbinger Haronem.|Z|Shattrath City|
@@ -165,7 +172,7 @@ T Maintaining the Sunwell Portal|QID|11514|M|49.24,42.57|N|To Exarch Nasuun.|Z|S
 
 R Isle of Quel'Danas|M|48.85,42.07|N|Take the portal in Shatt.|Z|Shattrath City|
 
-T Rediscovering your Roots|QID|11521|M|51.49,32.47|N|To Mar'nah.|
+T Rediscovering Your Roots|QID|11521|M|51.49,32.47|N|To Mar'nah.|
 C Ata'mal Armaments|QID|11544|M|50.56,40.69|N|Cleanse the ore at the forge.|U|34500|
 T Ata'mal Armaments|QID|11544|M|50.56,40.69|N|From Smith Hauthaa.|
 

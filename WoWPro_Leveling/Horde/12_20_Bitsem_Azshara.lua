@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2013-06-18 08:53
+-- Who: Emmaleah
+-- Log: switch coordinates for Lady Silisthra and Lady Vesthra - per comments / and confirmed cords on wowhead
+
+-- URL: http://wow-pro.com/node/3217/revisions/25497/view
 -- Date: 2013-01-22 17:55
 -- Who: Ludovicus Maior
 -- Log: Coord Teaks
@@ -211,8 +216,8 @@ A Sisters of the Sea|QID|14295|PRE|14271|RANK|3|M|50.69,75.20|N|From Torg Twocru
 T Mysterious Azsharite|QID|14370|M|50.45,74.37|N|To Assistant Greely.|
 T A Gigantic Snack|QID|14371|M|50.45,74.37|N|To Assistant Greely.|
 A Befriending Giants|QID|14377|M|50.45,74.37|N|From Assistant Greely.|
-K Lady Silisthra|QID|14295|M|63.13,79.38|QO|Lady Silisthra slain: 1/1|N|Kill Lady Silisthra, disable the Power Stone behind her to make it easier to kill her.|
-C Sisters of the Sea|QID|14295|M|62.81,76.32|N|Kill Lady Vesthra, disable the Power Stone behind her to make it easier to kill her.|
+K Lady Silisthra|QID|14295|M|62.81,76.32|QO|Lady Silisthra slain: 1/1|N|Kill Lady Silisthra, disable the Power Stone behind her to make it easier to kill her.|
+C Sisters of the Sea|QID|14295|M|63.13,79.38|N|Kill Lady Vesthra, disable the Power Stone behind her to make it easier to kill her.|
 T Sisters of the Sea|QID|14295|M|50.70,75.21|N|To Torg Twocrush.|
 C Befriending Giants|QID|14377|M|47.78,75.47|N|Talk to Gormungan.|
 T Befriending Giants|QID|14377|M|50.39,74.30|N|To Assistant Greely.|

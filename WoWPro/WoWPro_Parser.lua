@@ -115,13 +115,11 @@ function WoWPro:NextStepX(k, skip)
 	end
 			
 	-- Module NextStep Handlers --
-	for name, module in WoWPro:IterateModules() do
-		if WoWPro[name].NextStep 
-		and WoWProDB.char.currentguide 
-		and WoWPro.Guides[WoWProDB.char.currentguide]
-		and guidetype == name 
-		then
-		skip = WoWPro[name]:NextStep(k,skip) end
+	if WoWProDB.char.currentguide and
+	   WoWPro.Guides[WoWProDB.char.currentguide] and
+	   WoWPro.Guides[WoWProDB.char.currentguide].guidetype and
+	   WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype].NextStep then
+	    skip = WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype]:NextStep(k,skip)
 	end
 					
 	return skip
@@ -272,6 +270,7 @@ function WoWPro.ParseQuestLine(faction,i,text)
 		WoWPro.faction[i] = faction
 	end
 	if text:find("|NC|") then WoWPro.noncombat[i] = true end
+	if text:find("|CHAT|") then WoWPro.chat[i] = true end
 	WoWPro.level[i] = text:match("|LVL|([^|]*)|?") or WoWPro:GrailQuestLevel(WoWPro.QID[i])
 	WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 	WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
@@ -305,13 +304,11 @@ function WoWPro.ParseQuestLine(faction,i,text)
     end
 		
 	-- Module ParseQuestLine Handlers --
-	for name, module in WoWPro:IterateModules() do
-		if WoWPro[name].ParseQuestLine 
-		and WoWProDB.char.currentguide 
-		and WoWPro.Guides[WoWProDB.char.currentguide]
-		and guidetype == name 
-		then
-		    WoWPro[name]:ParseQuestLine(faction,text) end
+	if WoWProDB.char.currentguide and
+	   WoWPro.Guides[WoWProDB.char.currentguide] and
+	   WoWPro.Guides[WoWProDB.char.currentguide].guidetype and
+	   WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype].ParseQuestLine then
+	    WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype]:ParseQuestLine(text,i)
 	end
 end
 
@@ -450,19 +447,20 @@ function WoWPro.SetupGuideReal()
 end
 
 -- Row Content Update --
-function WoWPro:RowUpdateX(offset)
+function WoWPro:RowUpdate(offset)
 	local GID = WoWProDB.char.currentguide
 	if InCombatLockdown() 
 		or not GID 
 		or not WoWPro.Guides[GID]
 		then return 
 	end
+	WoWPro:dbp("Running: WoWPro:RowUpdate()")
 	WoWPro.ActiveStickyCount = 0
 	local reload = false
-	local lootcheck = true
 	local k = offset or WoWPro.ActiveStep
 	local itemkb = false
 	local targetkb = false
+	local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
 	ClearOverrideBindings(WoWPro.MainFrame)
 	WoWPro.RowDropdownMenu = {}
 	
@@ -472,11 +470,19 @@ function WoWPro:RowUpdateX(offset)
 		if not WoWProDB.profile.guidescroll then
 			k = WoWPro:NextStep(k, i)
 		end
-		
-		--Loading Variables --
+
+				
+		--Setup row--
 		local row = WoWPro.rows[i]
 		row.index = k
 		row.num = i
+
+		-- Run Module specific PreRowUpdate()
+		if WoWPro[module:GetName()].PreRowUpdate then
+		    WoWPro[module:GetName()]:PreRowUpdate(row)
+		end
+		
+		--Loading Variables --
 		local step = WoWPro.step[k]
 		local action = WoWPro.action[k] 
 		local note = WoWPro.note[k]
@@ -486,8 +492,7 @@ function WoWPro:RowUpdateX(offset)
 		local unsticky = WoWPro.unsticky[k] 
 		local use = WoWPro.use[k] 
 		local zone = WoWPro.zone[k] 
-		local lootitem = WoWPro.lootitem[k] 
-		local lootqty = WoWPro.lootqty[k] 
+
 		local questtext = WoWPro.questtext[k] 
 		local optional = WoWPro.optional[k] 
 		local prereq = WoWPro.prereq[k] 
@@ -498,11 +503,18 @@ function WoWPro:RowUpdateX(offset)
 		end
 		local completion = WoWProCharDB.Guide[GID].completion
 		
-		-- Checking off lead in steps --
-		if leadin and WoWProCharDB.completedQIDs[tonumber(leadin)] and not completion[k] then
-			completion[k] = true
-			return true --reloading
-		end
+		-- Checking off leadin steps --
+		-- Perhaps this logic belongs in NextStep?  --Ludo
+		if leadin then
+		    local numQIDs = select("#", string.split(";", leadin))
+		    for j=1,numQIDs do
+			    local lQID = select(numQIDs-j+1, string.split(";", leadin))
+				if WoWProCharDB.completedQIDs[tonumber(lQID)] and not completion[k] then
+			        completion[k] = true
+			        return true --reloading
+		        end
+			end
+		end		
 		
 		-- Unstickying stickies --
 		if unsticky and i == WoWPro.ActiveStickyCount+1 then
@@ -541,6 +553,8 @@ function WoWPro:RowUpdateX(offset)
 		row.action:SetTexture(WoWPro.actiontypes[action])
 		if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
 			row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
+		elseif WoWPro.chat[k] then
+		    row.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon") 
 		end
 		
 		-- Checkbox Function --
@@ -577,7 +591,7 @@ function WoWPro:RowUpdateX(offset)
 			QuestMapUpdateAllQuests()
 			QuestPOIUpdateIcons()
 			local _, x, y, obj
-			if QID then _, x, y, obj = QuestPOIGetIconInfo(QID) end
+			if QID and tonumber(QID) then _, x, y, obj = QuestPOIGetIconInfo(tonumber(QID)) end
 			if coord or x then
 				table.insert(dropdown, 
 					{text = "Map Coordinates", func = function()
@@ -585,7 +599,7 @@ function WoWPro:RowUpdateX(offset)
 					end} 
 				)
 			end
-			if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and WoWPro.GetNumPartyMembers() > 0 then
+			if tonumber(QID) and WoWPro.QuestLog[tonumber(QID)] and WoWPro.QuestLog[tonumber(QID)].index and WoWPro.GetNumPartyMembers() > 0 then
 				table.insert(dropdown, 
 					{text = "Share Quest", func = function()
 						QuestLogPushQuest(WoWPro.QuestLog[QID].index)
@@ -617,8 +631,8 @@ function WoWPro:RowUpdateX(offset)
 		
 		-- Item Button --
 		if action == "H" then use = 6948 end
-		if ( not use ) and action == "C" and WoWPro.QuestLog[QID] then
-			local link, icon, charges = GetQuestLogSpecialItemInfo(WoWPro.QuestLog[QID].index)
+		if ( not use ) and action == "C" and WoWPro.QuestLog[tonumber(QID)] then
+			local link, icon, charges = GetQuestLogSpecialItemInfo(WoWPro.QuestLog[tonumber(QID)].index)
 			if link then
 				local _, _, Color, Ltype, Id, Enchant, Gem1, Gem2, Gem3, Gem4, Suffix, Unique, LinkLvl, Name = string.find(link, "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
 				use = Id
@@ -658,15 +672,22 @@ function WoWPro:RowUpdateX(offset)
 		
 		-- Target Button --
 		if target then
-		    local mtext 
+		    local mtext
+		    local target, emote = string.split(",",target)
 			row.targetbutton:Show()
 			if string.sub(target,1,1) == "/" then
 			    mtext = string.gsub(target,"\\n","\n")
+			elseif emote then
+			    mtext = "/tar "..target.."\n/"..emote
 			else
 			    mtext = "/cleartarget\n/targetexact "..target.."\n"
 			    mtext = mtext .. "/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
 			end
 			row.targetbutton:SetAttribute("macrotext", mtext)
+			-- Run Module specific RowUpdateTarget() to override macrotext
+    		if WoWPro[module:GetName()].RowUpdateTarget then
+    		    WoWPro[module:GetName()]:RowUpdateTarget(row)
+    		end
 			if use then
 				row.targetbutton:SetPoint("TOPRIGHT", row.itembutton, "TOPLEFT", -5, 0)
 			else
@@ -687,19 +708,8 @@ function WoWPro:RowUpdateX(offset)
 		end
 		
 		-- Setting the zone for the coordinates of the step --
-		zone = zone or strsplit("(",WoWPro.Guides[GID].zone)
+		zone = zone or strsplit("-(",WoWPro.Guides[GID].zone)
 		row.zone = strtrim(zone)
-
-		-- Checking for loot items in bags --
-		local lootqtyi
-		if lootcheck and ( lootitem or action == "B" ) then
-			if not WoWPro.sticky[index] then lootcheck = false end
-			if not lootitem then
-				if GetItemCount(step) > 0 and not completion[k] then WoWPro.CompleteStep(k) end
-			end
-			if tonumber(lootqty) ~= nil then lootqtyi = tonumber(lootqty) else lootqtyi = 1 end
-			if GetItemCount(lootitem) >= lootqtyi and not completion[k] then WoWPro.CompleteStep(k) end
-		end
 
 		WoWPro.rows[i] = row
 		

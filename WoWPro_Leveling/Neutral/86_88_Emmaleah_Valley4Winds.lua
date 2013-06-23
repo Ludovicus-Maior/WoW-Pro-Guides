@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2013-06-18 00:54
+-- Who: Ludovicus Maior
+-- Log: quest 30058's name [Mothran!] does not match Grail's database [Mothallus!]
+
+-- URL: http://wow-pro.com/node/3485/revisions/25672/view
 -- Date: 2013-05-17 19:23
 -- Who: Ludovicus Maior
 -- Log: Bad coord on [Yellow and Red Make Orange]
@@ -209,9 +214,9 @@ C Where Silk Comes From|QID|30072|NC|M|62.37,62.48|N|Inside the building.|
 C The Moth Rebellion|QID|30059|US|M|64.70,62.43|N|The small moths roam in packs. The larger ones tend to be scarcer, so treat as a target of opportunity.|
 T Where Silk Comes From|QID|30072|M|62.67,59.75|N|To Silkmaster Tsai.|
 T The Moth Rebellion|QID|30059|M|63.55,58.46|N|To Journeyman Chu.|
-A Mothran!|QID|30058|M|63.62,58.53|N|From Master Goh.|
-C Mothran!|QID|30058|M|64.4,58.0|N|Click the gear to start the fight, when Mothran goes up in the are, you need to free your npc helpers from the silk wraps.|
-T Mothran!|QID|30058|M|63.62,58.53|N|To Master Goh.|
+A Mothallus!|QID|30058|M|63.62,58.53|N|From Master Goh.|
+C Mothallus!|QID|30058|M|64.4,58.0|N|Click the gear to start the fight, when Mothran goes up in the are, you need to free your npc helpers from the silk wraps.|
+T Mothallus!|QID|30058|M|63.62,58.53|N|To Master Goh.|
 C Li Li's Day Off|QID|29950|U|76350|M|61.41,36.02|N|If you lost her, summon her away from the waypoint.|
 T Clever Ashyo|QID|29871|M|61.23,34.23|N|To Clever Ashyo.|
 A Ashyo's Vision|QID|29577|M|61.23,34.23|N|From Clever Ashyo.|

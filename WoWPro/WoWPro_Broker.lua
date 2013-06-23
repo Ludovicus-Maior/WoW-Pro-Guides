@@ -182,7 +182,7 @@ function WoWPro.UpdateGuideReal(From)
 	
 	-- Calling on the guide's module to populate the guide window's rows --
 	local function rowContentUpdate()
-		local reload = WoWPro[module:GetName()]:RowUpdate(offset)
+		local reload = WoWPro:RowUpdate(offset)
 		for i, row in pairs(WoWPro.rows) do
 			local modulename
 			-- Hijack the click and menu functions for the Recorder if it's enabled --

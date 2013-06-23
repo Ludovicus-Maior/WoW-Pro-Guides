@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
+-- Date: 2013-06-18 00:35
+-- Who: Ludovicus Maior
+-- Log: Got rid of stuttered M tag
+
+-- URL: http://wow-pro.com/node/3456/revisions/24897/view
 -- Date: 2012-01-19 00:02
 -- Who: Ludovicus Maior
 -- Log: Correct node numbers

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/anglers_reputation
+-- Date: 2013-06-23 01:17
+-- Who: Ludovicus Maior
+-- Log: Removed absent leadin quests.
+
+-- URL: http://wow-pro.com/node/3509/revisions/25520/view
 -- Date: 2013-02-06 20:17
 -- Who: Ludovicus Maior
 -- Log: Move [What Lurks Below] for better flow.
@@ -38,12 +43,6 @@
 
 WoWPro.Dailies:RegisterGuide("LudoAnglers", "Krasarang Wilds", "The Anglers Reputation", "MoP", "Ludovicus", "Neutral", function()
 return [[
-
-; Leadin quests, 'cause I'm OCD
-A The Anglers|QID|31370|M|60.8,23.4|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Master Angler Karu. (may have been removed as of 5.1)|
-T The Anglers|QID|31370|M|67.8,45.2|FACTION|Horde|N|To Fisherman Haito|
-A The Anglers|QID|31369|M|86.56,60.06|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Master Angler Marina, first floor. (may have been removed as of 5.1)|
-T The Anglers|QID|31369|M|67.8,45.2|FACTION|Alliance|N|To Fisherman Haito|
 
 A Quest(s) from John "Big Hook" Marsock|QID|30754;30753|M|68.34,43.49|N|From John "Big Hook" Marsock, if he is offering|
 A Quest(s) from Fisherman Haito|QID|30586;30584|M|67.92,45.24|N|From Fisherman Haito, if he is offering|

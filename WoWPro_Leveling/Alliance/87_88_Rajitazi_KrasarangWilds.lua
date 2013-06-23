@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2013-06-18 01:08
+-- Who: Ludovicus Maior
+-- Log: quest 31410's name [Booties] does not match Grail's database [Equipment Locker].
+
+-- URL: http://wow-pro.com/node/3488/revisions/25671/view
 -- Date: 2013-05-17 19:21
 -- Who: Ludovicus Maior
 -- Log: Misplaced |M| on Materia Medica.
@@ -246,7 +251,7 @@ A Balance|QID|30672|M|46.01,78.96|N|From Wise Ana Wu.|
 
 R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft.|
 A Banana Infused Rum|QID|31411|M|53.2,88.7|N|East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe: Banana Infused Rum. Beware of Spriggen!|
-A Booties|QID|31410|M|42.29,91.98|N|West of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
+A Equipment Locker|QID|31410|M|42.29,91.98|N|West of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
 K Unga Fish Getter|L|80827|M|45.31,85.17|N|Be sure and loot these at least until you get the item to start the quest.|
 C Balance|QID|30672|S|M|50.85,84.15|
 A Buried Hozen Treasure|QID|30675|U|80827|M|43.81,85.41|N|From Confusing Treasure Map - looted off of an Unga.|

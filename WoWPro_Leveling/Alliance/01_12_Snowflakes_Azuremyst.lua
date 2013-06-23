@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2013-06-18 01:09
+-- Who: Ludovicus Maior
+-- Log: quest 9616's name [Bandits] does not match Grail's database [Bandits!].
+
+-- URL: http://wow-pro.com/node/3206/revisions/25598/view
 -- Date: 2013-03-23 20:42
 -- Who: Ludovicus Maior
 -- Log: Redid [Learning the Word]
@@ -351,7 +356,7 @@ C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 
 T Murlocs... Why Here? Why Now?|QID|9562|N|To Gurf.|M|44.7,23.6|
 T Gurf's Dignity|QID|9564|M|44.7,23.6|N|To Gurf.|
 T Warn Your People|QID|9622|M|47.13,50.61|N|To Exarch Menelaous.|
-T Bandits|QID|9616|M|47.13,50.61|N|To Exarch Menelaous.|O|
+T Bandits!|QID|9616|M|47.13,50.61|N|To Exarch Menelaous.|O|
 r Sell junk and repair|QID|10366|N|At Kioni.|M|49.69,52.75|
 F The Exodar|QID|9623|N|Fly to The Exodar. I would suggest visiting the AH and bank while you are there.|M|49.7,49.12|
 A Hero's Call: Bloodmyst Isle!|QID|28559|M|55.31,47.34|Z|The Exodar|N|Picked up from the Hero's Call Board. Will not be there if your level is too high.|

@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2013-06-18 00:40
+-- Who: Ludovicus Maior
+-- Log: Bad X coordinate S, 1/1 in guide EmmKra8788, line [C Materia Medica].
+--	Bad X coordinate US, 1/1 in guide EmmKra8788, line [C Materia Medica].
+
+-- URL: http://wow-pro.com/node/3489/revisions/25465/view
 -- Date: 2013-01-13 19:10
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -59,9 +65,9 @@ T Cheer Up, Yi-Mo|QID|30082|M|75.87,7.63|N|To Mei Barrelbottom.|
 A Tears of Pandaria|QID|30091|M|75.87,7.63|N|From Mei Barrelbottom.|
 T What's Eating Zhu's Watch?|QID|30079|M|76.24,7.14|N|To Ken-Ken.|
 A Materia Medica|QID|30081|M|76.23,7.12|N|From Ken-Ken.|
-C Materia Medica|QID|30081|M|S|72.19,10.68;75.41,10.87|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
+C Materia Medica|QID|30081|S|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
 C Tears of Pandaria|QID|30091|M|72.19,10.68;75.41,10.87|CN|
-C Materia Medica|QID|30081|M|US|72.19,10.68;75.41,10.87|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
+C Materia Medica|QID|30081|US|M|72.19,10.68;75.41,10.87|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
 T Tears of Pandaria|QID|30091|M|75.83,7.65|N|To Mei Barrelbottom.|
 A Securing the Province|QID|30083|M|75.83,7.65|N|From Mei Barrelbottom.|
 A Borderlands|QID|30084|M|75.83,7.65|N|From Mei Barrelbottom.|

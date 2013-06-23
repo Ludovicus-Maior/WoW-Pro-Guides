@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2013-06-18 00:59
+-- Who: Ludovicus Maior
+-- Log: Missing coordinate, 1/1 in guide LudoLoveA, line [A/T You've Been Served].
+
+-- URL: http://wow-pro.com/node/3466/revisions/25643/view
 -- Date: 2013-05-14 19:11
 -- Who: Ludovicus Maior
 -- Log: Z tag corrections
@@ -80,8 +85,8 @@ T Bonbon Blitz|QID|24636|QID|24636|M|62.40,75.36|Z|Stormwind City|N|From Public 
 N Shadowfang Keep and Hummel|QID|24792|N|In order for you to queue for this, you may need to be level 84.  However, a group can get the quests at 78/75.|LVL|75|
 A Man on the Inside|QID|24792|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|LVL|78|
 T Man on the Inside|QID|24793|M|50.79,75.29|Z|ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|78|
-A You've Been Served|QID|14488|M||Z|The Courtyard@ShadowfangKeep|N|From Investigator Fezzen Brasstacks|LVL|75|
-T You've Been Served|QID|14488|M||Z|The Courtyard@ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|75|
+A You've Been Served|QID|14488|Z|The Courtyard@ShadowfangKeep|N|From Investigator Fezzen Brasstacks|LVL|75|
+T You've Been Served|QID|14488|Z|The Courtyard@ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|75|
 
 N All done for the day|
 
