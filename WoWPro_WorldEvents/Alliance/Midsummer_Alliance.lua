@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2013-06-23 21:47
+-- Who: Kaboca
+-- Log: The missing Un'Goro Crater entries added to the guide.
+
+-- URL: http://wow-pro.com/node/3406/revisions/25025/view
 -- Date: 2012-07-01 20:58
 -- Who: Ludovicus Maior
 -- Log: Optimize ordering for Northrend.
@@ -121,6 +126,8 @@ A Honor the Flame|N|From the Flame Warden. (Feralas)|QID|11817|M|46.82,43.68|Z|F
 A Desecrate this Fire!|N|At the Horde Bonfire. (Feralas)|QID|11773|M|72.42,47.55|Z|Feralas|
 A Honor the Flame|N|From the Flame Warden. (Silithus)|QID|11831|M|60.31,33.52|Z|Silithus|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Silithus)|QID|11800|M|50.86,41.69|Z|Silithus|
+A Honor the Flame|N|From the Flame Warden (Un'Goro Crater)|QID|28932|M|59.86,63.24|Z|Un'Goro Crater|
+A Desecrate this Fire!|N|At the Horde Bonfire. (Un'Goro Crater)|QID|28920|M|56.50,65.85|Z|Un'Goro Crater|
 A Honor the Flame|N|From the Flame Warden (Uldum)|QID|28950|M|53.6,31.8|Z|Uldum|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Uldum)|QID|28948|M|53,34.5|Z|Uldum|
 A Honor the Flame|N|From the Flame Warden. (Tanaris)|QID|11833|M|52.64,30.28|Z|Tanaris|

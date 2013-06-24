@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2013-06-23 11:16
+-- Who: Emmaleah
+-- Log: 6/22/13 by Emmaleah - added changes for new CHAT tag, changed some N steps to C steps with NC tag, few other minor adjustments.
+
+-- URL: http://wow-pro.com/node/3272/revisions/25288/view
 -- Date: 2013-01-09 01:23
 -- Who: Ludovicus Maior
 -- Log: Touchups as I run my DK through.
@@ -50,7 +55,7 @@ T Through the Dark Portal |QID|9407|M|87.3,49.8|N|To Lieutenant General Orion.|
 A Arrival in Outland |QID|10120|M|87.3,49.8|N|From Lieutenant General Orion.|
 T Arrival in Outland |QID|10120|M|87.3,48.1|N|To Vlagga Freyfeather.|
 A Journey to Thrallmar |QID|10289|M|87.3,48.1|N|From Vlagga Freyfeather.|
-F Thrallmar|QID|10289|N|Talk to Vlagga Freyfeather and have her send you to Thrallmar.|M|87.3,48.1|
+C Thrallmar|QID|10289|CHAT|N|Talk to Vlagga Freyfeather and have her send you to Thrallmar.|M|87.3,48.1|
 h Thrallmar|QID|10121|M|56.7,37.5|N|At Floyd Pinkus.|
 T Journey to Thrallmar |QID|10289|M|56.0,37.0|N|To General Krakork.|
 A Report to Nazgrel|QID|10291|M|56.0,37.0|N|From General Krakork.|
@@ -81,18 +86,18 @@ T Apothecary Zelana |QID|10449|M|66.2,42.0|N|To Apothecary Zelana.|
 A Spinebreaker Post |QID|10242|M|66.2,42.0|N|From Apothecary Zelana.|
 
 l Demonic Rune Stones|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|70.91,45.28|
-N Disrupt Port Xilus|QID|10208|QO|Disrupt Port Xilus: 1/1|N|Step inside the gates and right-click to disable Port Xilus.|M|70,45|
+C Disrupt Port Xilus|NC|QID|10208|QO|Disrupt Port Xilus: 1/1|N|Step inside the gates and right-click to disable Port Xilus.|M|70,45|
 l Demonic Rune Stones|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|73.98,39.11|
-C Disrupt Their Reinforcements|QID|10208|N|Step inside the gates and right-click to disable Port Kruul.|M|74.0,38.7|
+C Disrupt Their Reinforcements|NC|QID|10208|N|Step inside the gates and right-click to disable Port Kruul.|M|74.0,38.7|
 T Disrupt Their Reinforcements |QID|10208|N|To Forward Commander To'arch.|M|66,44|
 A Mission: Gateways Murketh and Shaadraz |QID|10129|M|66.0,43.5|N|From Forward Commander To'arch.|
-C Mission: Gateways Murketh and Shaadraz |QID|10129|U|28038|N|Talk to Wing Commander Brack, tell him your on a bombing mission and you'll go on a controlled flight. Your job is to throw bombs at the Gateways, which look like larger versions of the portals we just destroyed.|M|66.0,43.5|
+C Mission: Gateways Murketh and Shaadraz |QID|10129|U|28038|CHAT|N|Talk to Wing Commander Brack, tell him your on a bombing mission and you'll go on a controlled flight. Your job is to throw bombs at the Gateways, which look like larger versions of the portals we just destroyed.|M|66.0,43.5|
 T Mission: Gateways Murketh and Shaadraz |QID|10129|M|66.0,43.5|N|To Forward Commander To'arch.|
 A Mission: The Abyssal Shelf |QID|10162|M|66.0,43.5|N|From Forward Commander To'arch.|
 A Return to Thrallmar |QID|10388|M|66.0,43.5|N|From Forward Commander To'arch.|
 C Mission: The Abyssal Shelf |QID|10162|U|28132|N|Pretty much the same as the last quest (this tell tell Brack to send you to the Abyssal Shelf), except you're killing mobs this time. It doesn't matter if you don't get them all the first time, you can do it again. It's a bit easier if you hot-key the bombs.|M|66.0,43.5|
 T Mission: The Abyssal Shelf |QID|10162|M|66.0,43.5|N|To Forward Commander To'arch.|
-F Spinebreaker Post |QID|10242|N|Talk to Wing Commander Brack and ask him to send you to Spinebreaker Post.|
+C Spinebreaker Post |QID|10242|CHAT|N|Talk to Wing Commander Brack and ask him to send you to Spinebreaker Post.|
 T Spinebreaker Post |QID|10242|M|61.15,81.78|N|To Apothecary Albreck.|
 
 A Boiling Blood |QID|10538|M|61.15,81.78|N|From Apothecary Albreck.|
@@ -139,9 +144,9 @@ A Missing Missive |QID|9373|O|U|23338|M|48.0,66.0|N|From the Eroded Leather Case
 T Outland Sucks! |QID|10236|M|51,30|N|To Foreman Razelcraz.|
 A How to Serve Goblins |QID|10238|M|51.5,30.5|N|From Foreman Razelcraz.|
 C A Burden of Souls |QID|10864|N|Kill any Shattered Hand Orc you come across.|M|46.91,45.59|S|
-N Save Manni|QID|10238|QO|Manni Saved: 1/1|N|Manni, the first goblin is to the SW.|M|45.1,41.1|
-N Save Moh|QID|10238|QO|Moh Saved: 1/1|N|Moh is south of Manni.|M|46.4,45.2|
-C How to Serve Goblins|QID|10238|N|Jakk is again south of Moh. |M|47.5,46.7|
+C Save Manni|QID|10238|NC|QO|Manni Saved: 1/1|N|Manni, the first goblin is to the SW.|M|45.1,41.1|
+C Save Moh|QID|10238|NC|QO|Moh Saved: 1/1|N|Moh is south of Manni.|M|46.4,45.2|
+C How to Serve Goblins|QID|10238|NC|N|Jakk is again south of Moh. |M|47.5,46.7|
 C A Burden of Souls |QID|10864|N|Kill any Shattered Hand Orc you come across.|M|46.91,45.59|US|
 T The Assassin |QID|9400|N|Follow the road west through the ramparts, till you see wooden spikes beside the roads. At them, take a sharp right. To the Fel Orc Corpse.|M|34,44|
 A A Strange Weapon |QID|9401|M|33.5,43.5|N|From the Fel Orc Corpse.|
@@ -213,11 +218,11 @@ T The Warp Rifts |QID|10278|M|61.87,81.53|N|To Ogath the Mad.|
 A Void Ridge |QID|10294|M|61.87,81.53|N|From Ogath the Mad.|
 C Bloody Vengeance |QID|10250|U|28651|N|Head to the semi-destroyed tower. Use the Unyielding Battle Horn and kill Urtrak when he spawns.|M|63.5,77.6|
 K Bleeding Hollow Peon |QID|10792|L|31347 4|N|Kill Peons until you loot 4 Bleeding Hollow Torches.|
-N Light it up |QID|10792|U|31347|L|31346 4|M|69.2,69.2|N|Find the Bleeding Hollow forge, it's directly to the left after you enter the north gate. Use the torch at the forge to light all four.|
-N Burn down the Eastern Hovel |QID|10792|QO|Eastern Hovel Burned: 1/1|U|31346|N|Head to the building next to the forge, and use the torch. |M|69.7,70.3|
-N Burn down the Stables |QID|10792|QO|Stable Burned: 1/1|U|31346|N|Head to the building where you killed the Worg Master, and use the torch. |M|68.2,73.4|
-N Burn down the Eastern Hovel |QID|10792|QO|Western Hovel Burned: 1/1|U|31346|N|Head to the Western Hovel, and use the torch. |M|67.1,75.8|
-C Zeth'Gor Must Burn! |QID|10792|U|31346|N|Head to the Barracks, and use the torch. |M|69,75.9|
+C Light it up|NC|QID|10792|U|31347|L|31346 4|M|69.2,69.2|N|Find the Bleeding Hollow forge, it's directly to the left after you enter the north gate. Use the torch at the forge to light all four.|
+C Burn down the Eastern Hovel|NC|QID|10792|QO|Eastern Hovel Burned: 1/1|U|31346|N|Head to the building next to the forge, and use the torch. |M|69.7,70.3|
+C Burn down the Stables|NC|QID|10792|QO|Stable Burned: 1/1|U|31346|N|Head to the building where you killed the Worg Master, and use the torch. |M|68.2,73.4|
+C Burn down the Eastern Hovel|NC|QID|10792|QO|Western Hovel Burned: 1/1|U|31346|N|Head to the Western Hovel, and use the torch. |M|67.1,75.8|
+C Zeth'Gor Must Burn!|NC|QID|10792|U|31346|N|Head to the Barracks, and use the torch. |M|69,75.9|
 C The Eyes of Grillok |QID|10813|N|Find an Eye of Grillok, and use Zezzak's Shard on it. Then get the hell out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|U|31463|
 T The Eyes of Grillok |QID|10813|M|61.66,81.86|N|To Zezzak.|
 
@@ -264,7 +269,8 @@ T Wanted: Blacktalon the Savage |QID|9466|M|28.49,60.24|N|To Ranger Captain Venn
 
 A Report to Zurai |QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
 C Trueflight Arrows |QID|9381|N|Go between the points killing and looting Bonestripper Vultures until you have 8 tail feathers.|M|29,56;24.28,44.91|CN|
-T Arelion's Secret |QID|10286|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health and turn the quest into him. Just to warn you, you will be put into PVP.|M|18.0,50.0|T|Magister Aledis|
+C Arelion's Secret|QID|10286|CHAT|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health. Just to warn you, you will be put into PVP.|M|18.0,50.0|T|Magister Aledis|
+T Arelion's Secret|QID|10286|M|18.0,50.0|N|To Magister Aledis.|
 A The Mistress Revealed |QID|10287|M|18.0,50.0|N|From Magister Aledis.|
 T Missing Missive |QID|9373|M|15.70,52.09|N|To Thiah Redmane.|
 T Helping the Cenarion Post |QID|10442|M|15.70,52.09|N|To Thiah Redmane.|
@@ -291,9 +297,9 @@ T Trueflight Arrows |QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
 C The Cleansing Must Be Stopped |QID|9370|N|Clear around the Altar of Aggonar. HP/Mana up, then use the Signaling Gem. Of the 3 mobs that come at you, you only have to kill the Draenei Anchorite.|U|23358|M|39,40|
 H Falcon Watch|QID|9370|U|6948|N|Hearth to Falcon Watch.|
 T The Cleansing Must Be Stopped |QID|9370|M|26.99,59.54|N|To Ryathen the Somber.|
-N Western Beacon |QID|9391|QO|Western Beacon: 1/1|N|Light the Western Beacon. Mobs in the area aggro when you light the beacon, so kill them first.|M|30,61|
-N Central Beacon |QID|9391|QO|Central Beacon: 1/1|N|Light the Western Beacon. Same deal as before with the mobs.|M|34,60|
-C Marking the Path |QID|9391|N|Light the final beacon, the Southern one.|M|36.14,65.38|
+C Western Beacon|NC|QID|9391|QO|Western Beacon: 1/1|N|Light the Western Beacon. Mobs in the area aggro when you light the beacon, so kill them first.|M|30,61|
+C Central Beacon|NC|QID|9391|QO|Central Beacon: 1/1|N|Light the Western Beacon. Same deal as before with the mobs.|M|34,60|
+C Marking the Path|NC|QID|9391|N|Light the final beacon, the Southern one.|M|36.14,65.38|
 T Honor the Fallen |QID|10258|N|To Commander Hogarth.|M|57,77|
 T Void Ridge |QID|10294|M|61.87,81.53|N|To Ogath the Mad.|
 
@@ -331,16 +337,16 @@ A A Traitor Among Us |QID|10367|M|16.3,65.1|N|From Naladu.|
 C A Traitor Among Us |N|Get the key from the chest here.|QID|10367|M|14.35,63.35|
 T A Traitor Among Us |QID|10367|M|16.3,65.1|N|To Naladu.|
 A The Dreghood Elders |QID|10368|M|16.3,65.1|N|From Naladu.|
-N Free Morod |N|Free Morod here.|QID|10368|QO|Morod Freed: 1/1|M|13.10,61.00|
-N Free Aylaan |N|Free Aylaan here.|QID|10368|QO|Aylaan Freed: 1/1|M|13.00,58.40|
-C The Dreghood Elders |N|Free Akoru here.|QID|10368|M|15.50,58.75|
+C Free Morod|CHAT|N|Free Morod here.|QID|10368|QO|Morod Freed: 1/1|M|13.10,61.00|
+C Free Aylaan|CHAT|N|Free Aylaan here.|QID|10368|QO|Aylaan Freed: 1/1|M|13.00,58.40|
+C The Dreghood Elders|CHAT|N|Free Akoru here.|QID|10368|M|15.50,58.75|
 T The Dreghood Elders |QID|10368|M|16.3,65.1|N|To Naladu.|
 A Arzeth's Demise |QID|10369|M|16.3,65.1|N|From Naladu.|
-C Arzeth's Demise |N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|QID|10369|M|14.25,61.50|
+C Arzeth's Demise |N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|QID|10369|M|14.25,61.50|T|Arzeth the Merciless|U|29513|
 T Arzeth's Demise |QID|10369|M|16.3,65.1|N|To Naladu.|
 C Source of the Corruption |QID|9387|N|Kill the Taskmasters until you have enough essence. The Brutes will run once you kill the Taskmaster.|M|15.0,55.5|US|
 C Keep Thornfang Hill Clear! |QID|10159|N|Kill the Ravagers and Venomspitters needed for this quest.|M|12,50|
-R Cenarion Refuge |QID|9747|N|Follow the road west, you'll come to Cenarion Refuge.|Z|Zangarmarsh|M|80.5,64.0|
+R Cenarion Refuge |QID|9747|N|Follow the road west, you'll come to Cenarion Refuge.  While you are here, this guide has you pick up quests so you can fly back next time instead of running.|Z|Zangarmarsh|M|80.5,64.0|
 
 A The Umbrafen Tribe |QID|9747|Z|Zangarmarsh|M|80.5,64.0|N|From Ikeyen.|
 A Plants of Zangarmarsh |QID|9802|Z|Zangarmarsh|M|80.3,64.2|N|From Lauranna Thar'well.|
@@ -351,20 +357,20 @@ B Cenarion Spirits |QID|9472|L|29112|N|Available from the innkeeper.|Z|Zangarmar
 T The Cenarion Expedition |QID|9912|Z|Zangarmarsh|M|78.5,62.0|N|To Ysiel Windsinger.|
 A Disturbance at Umbrafen Lake |QID|9716|Z|Zangarmarsh|M|78.5,62.0|N|From Ysiel Windsinger.|
 A Warden Hamoot |QID|9778|Z|Zangarmarsh|M|78.4,62.1|N|From Ysiel Windsinger.|
-A Checking Up|QID|29566|M|78.40,62.10|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
+A Checking Up|QID|29566|M|78.40,62.10|Z|Zangarmarsh|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
 T Warden Hamoot |QID|9778|Z|Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
 
 A A Warm Welcome |QID|9728|Z|Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|
 R Swamprat Post |QID|10103|N|To Swamprat Post in the northeast.|Z|Zangarmarsh|M|85,55|
 T Report to Zurai |QID|10103|Z|Zangarmarsh|M|85.5,55.0|N|To Zurai.|
-F Falcon Watch |QID|9387|N|Fly to Falcon Watch.|M|84.77,55.11|
+f Falcon Watch |QID|9387|N|Grab the flight path, so you can fly here next time.|M|84.77,55.11|
+H Falcon Watch|QID|9387|N|Hearth to Falcon Watch.|
 T Source of the Corruption |QID|9387|M|27.0,59.5|N|To Apothecary Azethen.|
 T A Pilgrim's Plight |QID|9376|M|27.0,62.0|N|To Taleris Dawngazer.|
 C Arelion's Mistress |QID|9472|N|Go find Viera Sunwhisper, she has a blue '?' on her head. Accept her 'quest', follow her, and when she says something about trying wine, use the scroll on her.|U|23693|M|27.0,62.0|
 T Arelion's Mistress |QID|9472|M|26.37,60.32|N|To Magistrix Carinda.|
 C The Demoniac Scryer |QID|10838|N|Time for a challenge! Head over to Hellfire Basin. Find yourself a clear spot, and HP/mana up. When you use the item, you'll have to defend the crystal from waves of very weak imps, and occasional orc spawns, which should be taken down immediately. The crystal can take some beating, though. Once smoke starts shooting upwards, talk to the crystal to finish the quest.|U|31606|M|44.9,49.2|
-H Falcon Watch |QID|10838|U|6948|N|Hearth to Falcon Watch. Or just run to Thrallmar.|
-F Thrallmar |QID|10838|N|Fly to Thrallmar.|M|27.8,60|
+R Thrallmar|QID|10838|N|Run to Thrallmar.|M|27.8,60|
 T The Demoniac Scryer |QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|
 
 A Report to Nazgrel|QID|10875|M|52.28,36.46|N|From Apothecary Antonivich.|
