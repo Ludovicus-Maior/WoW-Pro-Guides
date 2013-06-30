@@ -126,7 +126,7 @@ function WoWPro:NextStepX(k, skip)
 end
 
 -- Skip a step --
-function WoWPro:SkipStepX(index)
+function WoWPro:SkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	
 	if not WoWPro.QID[index] then return "" end
@@ -168,7 +168,7 @@ function WoWPro:SkipStepX(index)
 end
 
 -- Unskip a step --
-function WoWPro:UnSkipStepX(index)
+function WoWPro:UnSkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	WoWProCharDB.Guide[GID].completion[index] = nil
 	if WoWPro.QID[index] 
