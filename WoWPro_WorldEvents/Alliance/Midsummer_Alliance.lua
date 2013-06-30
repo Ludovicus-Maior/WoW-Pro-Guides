@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2013-06-29 23:42
+-- Who: Twists
+-- Log: Add Pandarian Fires
+
+-- URL: http://wow-pro.com/node/3406/revisions/25730/view
+-- Date: 2013-06-23 21:47
+-- Who: Kaboca
+-- Log: The missing Un'Goro Crater entries added to the guide.
+
+-- URL: http://wow-pro.com/node/3406/revisions/25025/view
 -- Date: 2012-07-01 20:58
 -- Who: Ludovicus Maior
 -- Log: Optimize ordering for Northrend.
@@ -121,6 +131,8 @@ A Honor the Flame|N|From the Flame Warden. (Feralas)|QID|11817|M|46.82,43.68|Z|F
 A Desecrate this Fire!|N|At the Horde Bonfire. (Feralas)|QID|11773|M|72.42,47.55|Z|Feralas|
 A Honor the Flame|N|From the Flame Warden. (Silithus)|QID|11831|M|60.31,33.52|Z|Silithus|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Silithus)|QID|11800|M|50.86,41.69|Z|Silithus|
+A Honor the Flame|N|From the Flame Warden (Un'Goro Crater)|QID|28932|M|59.86,63.24|Z|Un'Goro Crater|
+A Desecrate this Fire!|N|At the Horde Bonfire. (Un'Goro Crater)|QID|28920|M|56.50,65.85|Z|Un'Goro Crater|
 A Honor the Flame|N|From the Flame Warden (Uldum)|QID|28950|M|53.6,31.8|Z|Uldum|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Uldum)|QID|28948|M|53,34.5|Z|Uldum|
 A Honor the Flame|N|From the Flame Warden. (Tanaris)|QID|11833|M|52.64,30.28|Z|Tanaris|
@@ -242,8 +254,32 @@ A Honor the Flame|N|From the Flame Warden. (The Storm Peaks)|QID|13490|M|41.44,8
 A Desecrate this Fire!|N|At the Horde Bonfire. (The Storm Peaks)|QID|13455|M|40.41,85.61|Z|The Storm Peaks|
 A Honor the Flame|N|From the Flame Warden. (Crystalsong Forest)|QID|13491|M|78.17,74.95|Z|Crystalsong Forest|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Crystalsong Forest)|QID|13457|M|80.34,52.87|Z|Crystalsong Forest|
-R Dalaran |N|Run to Dalaran.|M|88.72,60.36|Z|Dalaran|ACH|1038;6|
+R Dalaran |N|Run to Dalaran.|M|88.72,60.36|Z|Dalaran|
 N Torch Juggler|QID|990272|N|To do this achievement, use the Juggling Torches that you purchased earlier. Find a quiet corner in Dalaran where you have open space and have the least amount of lag. Tip: Bind your Torches to a hotkey. Press the hotkey to get the targeting circle and aim directly beneath yourself. Throwing them at yourself this way will allow you to catch them as fast as you can throw them. There is no global cooldown on the torches so you can spam away until you complete this achievement.|ACH|1038;6|
+
+R Stormwind City|N|Take the portal back to Stormwind.|M|39.57,62.38|Z|Dalaran|
+R Paw'Don Village|N|Take the portal to Paw'Don Village.|M|68.73,17.33|Z|Stormwind City|
+F Dawn's Blossom|N|Fly to Dawn's Blossom in the Jade Forrest.|QID|32498|M|46.04,85.07|Z|The Jade Forest|
+A Honor the Flame|N|From the Flame Warden. (Dawn's Blossom)|QID|32498|M|47.2,47.2|Z|The Jade Forest|
+T Honor the Flame|QID|32498|M|47.2,47.2|Z|The Jade Forest|
+F Zhu's Watch|N|Fly to Zhu's Watch in Krasarang Wilds.|M|47.03,46.21|Z|The Jade Forest|
+A Honor the Flame|N|From the Flame Warden. (Zhu's Watch)|QID|32499|M|74.0,9.49|Z|Krasarang Wilds|
+T Honor the Flame|QID|32499|M|74.0,9.49|Z|Krasarang Wilds|
+F Halfhill|N|Fly to Halfhill Market.|QID|32502|M|76.66,8.41|Z|Krasarang Wilds|
+A Honor the Flame|N|From the Flame Warden. (HalfHill)|QID|32502|M|51.8,51.4|Z|Valley of the Four Winds|
+T Honor the Flame|QID|32502|M|51.8,51.4|Z|Valley of the Four Winds|
+F Soggy's Gamble|N|Fly to Soggy's Gamble in the Dread Waste.|QID|32497|M|56.42,50.34|Z|Valley of the Four Winds|
+A Honor the Flame|N|From the Flame Warden. (Soggy's Gamble)|QID|32497|M|56.1,69.5|Z|Dread Wastes|
+T Honor the Flame|QID|32497|M|56.1,69.5|Z|Dread Wastes|
+F Longying Outpost|N|Fly to Longying Outpost in Townlong Steppes.|QID|32501|M|56.12,70.13|
+A Honor the Flame|N|From the Flame Warden. (Longying Outpost)|QID|32501|M|71.5,56.3|Z|Townlong Steppes|
+T Honor the Flame|QID|32501|M|71.5,56.3|Z|Townlong Steppes|
+F Binan Village|N|Fly to Binan Village in Kun-Lai Summit.|QID|32500|M|71.12,57.33|Z|Townlong Steppes|
+A Honor the Flame|N|From the Flame Warden. (Binan Village)|QID|32500|M|71.1,90.9|Z|Kun-Lai Summit|
+T Honor the Flame|QID|32500|M|71.1,90.9|Z|Kun-Lai Summit|
+F Shrine of Seven Stars|N|Shrine of Seven Stars in Vale of Eternal Blossoms.|M|72.47,94.15|Z|Kun-Lai Summit|
+A Desecrate this Fire!|N|At the Horde Bonfire. (Mogu'shan Palace)|QID|32496|M|77.7,33.7|Z|Vale of Eternal Blossoms|
+A Honor the Flame|N|From the Flame Warden. (Mogu'shan Palace)|QID|32510|M|77.8,33.9|Z|Vale of Eternal Blossoms|
 
 N The End |N|That's all for this year.|
 
