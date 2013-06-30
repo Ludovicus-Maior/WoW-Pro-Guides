@@ -21,10 +21,10 @@ function WoWPro.Profession:OnEnable()
 	WoWPro.Profession.Events = {"QUEST_COMPLETE", "QUEST_QUERY_COMPLETE", 
 		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
 		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "TRAINER_UPDATE",
-		"CHAT_MSG_SKILL"
+		"CHAT_MSG_SKILL", "TRADE_SKILL_SHOW"
 	}
 	WoWPro:RegisterEvents(WoWPro.Profession.Events)
-	
+	WoWPro:RegisterTags({"mat","recipe"})
 	--Loading Frames--
 	if not WoWPro.Profession.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Profession:CreateConfig()
@@ -35,6 +35,7 @@ function WoWPro.Profession:OnEnable()
 	WoWPro_ProfessionDB = WoWPro_ProfessionDB or {}
 	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
+	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	if WoWProDB.char.lastProfessionguide and not WoWProDB.char.currentguide then
 		WoWPro:LoadGuide(WoWProDB.char.lastProfessionguide)
 	end
