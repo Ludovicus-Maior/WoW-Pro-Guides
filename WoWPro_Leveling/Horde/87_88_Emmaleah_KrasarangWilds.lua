@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2013-06-24 18:47
+-- Who: Twists
+-- Log: Update coordinates
+
+-- URL: http://wow-pro.com/node/3489/revisions/25731/view
+-- Date: 2013-06-24 18:46
+-- Who: Twists
+-- Log: Fixed { in mapping and || for a QID
+
+-- URL: http://wow-pro.com/node/3489/revisions/25709/view
 -- Date: 2013-06-18 00:40
 -- Who: Ludovicus Maior
 -- Log: Bad X coordinate S, 1/1 in guide EmmKra8788, line [C Materia Medica].
@@ -78,8 +88,8 @@ C Memorial Flame of Po|QID|30084|NC|U|78928|QO|Memorial Flame of Po: 1/1|M|75.20
 C Memorial Flame of Zhu|QID|30084|NC|U|78928|QO|Memorial Flame of Zhu: 1/1|M|71.21,17.55|
 C Memorial Flame of Rin|QID|30084|NC|U|78928|QO|Memorial Flame of Rin: 1/1|M|71.21,17.55|
 C Securing the Province|QID|30083|S|M|77.30,58.91|Z|Valley of the Four Winds|N|Kill the sauroks on the way in and out of the cave.|
-l Saurok Stone Tablet|QID|30088|L|86220|M{75.05,55.12|Z|Valley of the Four Winds|N|The tablet is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|
-l Jar of Pigment|QID|30088|US|L|78942|M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.{
+l Saurok Stone Tablet|QID|30088|L|86220|M|75.05,55.12|Z|Valley of the Four Winds|N|The tablet is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|
+l Jar of Pigment|QID|30088|US|L|78942|M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.|
 C Securing the Province|QID|30083|US|M|77.30,58.91|Z|Valley of the Four Winds|N|When you finish killing the sauroks, You can mount up in the cave and zerg out if you want.|
 T Securing the Province|QID|30083|M|75.83,7.65|N|To Mei Barrelbottom.|
 T Borderlands|QID|30084|M|75.83,7.65|N|To Mei Barrelbottom.|
@@ -97,7 +107,7 @@ C Poisoned!|QID|30179|M|67.62,21.08|N|The blades are a random drop from the mogu
 A Crane Mastery|QID|30352|M|67.60,25.77|N|From Daggle Bombstrider.|
 A Profit Mastery|QID|30353|M|67.60,25.77|N|From Daggle Bombstrider.|
 C Into the Wilds|QID|30133|M|62.55,25.35|N}Check on the courier lying on the ground.|
-T Kang Bramblestaff|QID|29875|M|60.05,25.07||N|To Kang Bramblestaff.|
+T Kang Bramblestaff|QID|29875|M|60.05,25.07|N|To Kang Bramblestaff.|
 T Poisoned!|QID|30179|M|59.92,24.81|N|To Sunwalker Dezco.|
 A Blind Them!|QID|30124|M|59.92,24.81|N|From Kor Bloodtusk.|
 A Skitterer Stew|QID|30123|M|60.11,24.98|N|From Kang Bramblestaff.|
@@ -172,7 +182,7 @@ T In the House of the Red Crane|QID|30273|M|40.05,48.98|N|To Chi-Ji (back outsid
 
 R Marista|QID|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.70,75.34|N|From Tony Tuna.|
-l Stack of Papers|QID||31863|L|87798|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
+l Stack of Papers|QID|31863|L|87798|52.16,73.42|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
 f Marista|QID|30667|M|52.43,76.53|N|At Nan-Po.|
 A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.52,76.88|N|From Jay Cloudfall.|
 C Particular Plumage|QID|30667|S|M|42.57,71.86|

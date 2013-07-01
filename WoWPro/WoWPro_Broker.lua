@@ -849,6 +849,52 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
     return WoWProCharDB.completedQIDs[QID]
 end
 
+-- Quest Ordering by distance to travel
+
+function WoWPro:SwapSteps(i,j)
+    for idx,tag in pairs(WoWPro.Tags) do
+        WoWPro[tag][j] ,  WoWPro[tag][i] =  WoWPro[tag][i] ,  WoWPro[tag][j]
+    end
+end
+
+
+function WoWPro:FindClosestStep(offset)
+    if not offset then offset = 1 end
+    local distance, closest
+    for index=offset, WoWPro.stepcount do
+        local d = WoWPro:DistanceToStep(index)
+        WoWPro:Print("Step %d is at distance %g",index,d)
+        if (not distance) or (d < distance) then
+            distance = d
+            closest = index
+        end
+    end
+    return closest, distance
+end
+
+
+function WoWPro:OrderSteps()
+    -- Put the first step closest to us
+    local sidx,d = WoWPro:FindClosestStep(1)
+    WoWPro:Print("selected step %d as the closest at a distance of %g",sidx,d)
+    WoWPro:SwapSteps(1,sidx)
+    -- Now achor at each step and find the following step that is closer
+    for anchor=1, WoWPro.stepcount - 1 do
+        local distance, closest 
+        for index=anchor+1 , WoWPro.stepcount do
+            local d = WoWPro:DistanceBetweenSteps(anchor,index)
+            if (not distance) or (d < distance) then
+                distance = d
+                closest = index
+            end
+        end
+        WoWPro:Print("selected step %d as the next closest at a distance of %g",closest,d)
+        WoWPro:SwapSteps(anchor+1,closest)
+    end
+    WoWPro:UpdateGuide("WoWPro:OrderSteps")
+end
+
+
 -- Experimental Interface to Grail
 function WoWPro:SkipAll()
     WoWPro:Print("Marking All Quests as skipped")

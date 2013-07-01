@@ -295,6 +295,46 @@ function WoWPro:MapPointDelta()
     end
 end
 
+
+function WoWPro:DistanceBetweenSteps(i,j)
+    if not WoWPro.map[i] then return 1e197 end
+    if not WoWPro.map[j] then return 1e196 end
+    local icoord = select(1, string.split(";", WoWPro.map[i]))
+    local jcoord = select(1, string.split(";", WoWPro.map[j]))
+    local ix = tonumber(icoord:match("([^|]*),"))/100
+    local iy = tonumber(icoord:match(",([^|]*)"))/100
+    local jx = tonumber(jcoord:match("([^|]*),"))/100
+    local jy = tonumber(jcoord:match(",([^|]*)"))/100
+    local im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
+    local jm = WoWPro.Zone2MapID[WoWPro.zone[j]].mapID
+    local ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
+    local jfl = WoWPro.Zone2MapID[WoWPro.zone[j]].floor or 0
+--    WoWPro:Print("Distance between (%2.2f,%2.2f,%d) and (%2.2f,%2.2f,%d)",ix*100,iy*100,im, jx*100,jy*100,jm)
+    local distance = AL:ComputeDistance(im,ifl,ix,iy, jm,jfl,jx,jy)
+    return (distance or 1e198)
+end
+
+function WoWPro:DistanceToStep(i)
+    if not WoWPro.map[i] then return 1e200 end
+    local icoord = select(1, string.split(";", WoWPro.map[i]))
+--    WoWPro:Print("Step %d is at %s/%s",i,tostring(icoord),tostring(WoWPro.zone[i]))
+    local ix = tonumber(icoord:match("([^|]*),"))/100
+    local iy = tonumber(icoord:match(",([^|]*)"))/100
+    local im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
+    local ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
+--    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
+    local x, y = GetPlayerMapPosition("player");
+    local m = GetCurrentMapAreaID()
+    local f = GetCurrentMapDungeonLevel()
+--    WoWPro:Print("Computing distance between (%2.2f,%2.2f,%d) and (%2.2f,%2.2f,%d)",x*100,y*100,m, ix*100,iy*100,im)
+    local distance = AL:ComputeDistance(m,f,x,y, im,ifl,ix,iy)
+
+    return (distance or 1e199)
+end    
+    
+
+    
+    
 function WoWPro:ValidZone(zone)
 	if zone then
 	    if tonumber(zone) then

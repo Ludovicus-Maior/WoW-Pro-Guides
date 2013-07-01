@@ -49,6 +49,16 @@ function WoWPro.Profession:NextStep(k, skip)
 			skip = false -- If the optional quest is in the quest log, it's NOT skipped --
 		end
 	end
+	
+	-- Skip if
+	if (not skip) and WoWPro.recipe and WoWPro.recipe[k] then
+	    if WoWProCharDB.Trades and WoWProCharDB.Trades[WoWPro.recipe[k]] then
+    	    WoWPro.why[k] = "Recipe is known already"
+    	    WoWPro.CompleteStep(k)
+    		skip = true
+    	end
+    	WoWPro:dbp("recipe #%d %s/%d is known: %s",k,WoWPro.step[k],WoWPro.recipe[k],tostring(WoWProCharDB.Trades[WoWPro.recipe[k]]))
+    end
 
 	return skip
 end
@@ -287,6 +297,11 @@ function WoWPro.Profession:ParseQuestLine(text,k)
 			end									
 		end        
     end
+    
+    WoWPro.recipe[k] = text:match("|RECIPE|([^|]*)|?")
+    if WoWPro.recipe[k] then
+        WoWPro.recipe[k] = tonumber(WoWPro.recipe[k])
+    end
 end
 
 function WoWPro.Profession:PreRowUpdate(row)
@@ -301,6 +316,10 @@ function WoWPro.Profession:PreRowUpdate(row)
 	-- Break down the current step and re-create
 	if prof then
 		local profname, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",prof)
+		if proflvl == '*' then proflvl = 600 end -- Set to the maximum level obtainable in the expansion plus 1
+		proflvl = tonumber(proflvl) or 1
+		profmaxlvl = tonumber(profmaxlvl) or 0
+		profmaxskill = tonumber(profmaxskill) or 0
 		if (k == WoWPro.rows[WoWPro.ActiveStickyCount+1].index) and (tonumber(profmaxlvl) > 0) then
 			local profs = {}
 			profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
