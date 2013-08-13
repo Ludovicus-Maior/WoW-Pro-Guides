@@ -359,9 +359,30 @@ function WoWPro.EventHandler(frame, event, ...)
 	    return
 	end
 	
+	-- Noticing if we are doing a pet battle!
+	local guidetype = "WoWPro"
+	if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype then
+	    guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+	end
+	
+	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) then
+		WoWPro:Print("|cff33ff33Pet Battle Auto Hide|r: %s Module",guidetype)
+		WoWPro.MainFrame:Hide()
+		WoWPro.Titlebar:Hide()
+		WoWPro.Hidden = true
+			return
+	end
+	if event == "PET_BATTLE_CLOSE" and WoWPro.Hidden then
+		WoWPro:Print("|cff33ff33Pet Battle Exit Auto Show|r: %s Module",guidetype)
+		WoWPro.MainFrame:Show()
+		WoWPro.Titlebar:Show()
+		WoWPro.Hidden = nil		
+	end
+	
+	-- Stop processing if no guide is active or something is odd!
 	if not WoWProDB.char.currentguide then return end
 	if not WoWPro.Guides[WoWProDB.char.currentguide] then return end
-    local guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype or "None"	
+
 	-- Common event Handling across addons
 	
 	-- Noticing if we have entered a Dungeon!
@@ -385,21 +406,6 @@ function WoWPro.EventHandler(frame, event, ...)
 			WoWPro.Hidden = nil
 		end
 	end	
-	
-	-- Noticing if we are doing a pet battle!
-	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) then
-		WoWPro:Print("|cff33ff33Pet Battle Auto Hide|r: %s Module",guidetype)
-		WoWPro.MainFrame:Hide()
-		WoWPro.Titlebar:Hide()
-		WoWPro.Hidden = true
-			return
-	end
-	if event == "PET_BATTLE_CLOSE" and WoWPro.Hidden then
-		WoWPro:Print("|cff33ff33Pet Battle Exit Auto Show|r: %s Module",guidetype)
-		WoWPro.MainFrame:Show()
-		WoWPro.Titlebar:Show()
-		WoWPro.Hidden = nil		
-	end
 
 	-- Unlocking guide frame when leaving combat --
 	if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_ENTERING_WORLD" then
