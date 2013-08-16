@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2013-08-06 02:42
+-- Who: Emmaleah
+-- Log: Emmaleah - 8/5/13 correct minor typos; add explantions
+
+-- URL: http://wow-pro.com/node/3203/revisions/25474/view
 -- Date: 2013-01-13 19:34
 -- Who: Ludovicus Maior
 -- Log: Added CS tag
@@ -94,22 +99,22 @@ return [[
 A The First Step|QID|14449|M|45.14,75.56|Z|Mulgore|N|From Chief Hawkwind.|
 T The First Step|QID|14449|M|48.89,78.33|Z|Mulgore|N|To Grull Hawkwind.|
 A Rite of Strength|QID|14452|M|48.89,78.33|Z|Mulgore|N|From Grull Hawkwind.|
-C Rite of Strength|QID|14452|M|49.34,78.68|
+C Rite of Strength|QID|14452|M|49.34,78.68|Z|Mulgore|N|Kill the Quilboars fighting with the defenders.|
 T Rite of Strength|QID|14452|M|48.92,78.30|Z|Mulgore|N|To Grull Hawkwind.|
 
-L Level 2|QID|24852|LVL|2|N|You should be around level 3 by this point.|
+L Level 2|QID|24852|LVL|2|N|You should be around level 2 by this point.|
 
 A Our Tribe, Imprisoned|QID|24852|M|48.92,78.30|Z|Mulgore|N|From Grull Hawkwind.|
-C Our Tribe, Imprisoned|NC|QID|24852|M|51.43,80.26|Z|Mulgore|N|Free the captured braves from the cages in this area.|QO|Braves Freed: 4/4|
+C Our Tribe, Imprisoned|NC|QID|24852|M|51.43,80.26|Z|Mulgore|N|Free the captured braves from the cages in this area.|
 T Our Tribe, Imprisoned|QID|24852|M|48.95,78.31|Z|Mulgore|N|To Grull Hawkwind.|
 A Go to Adana|QID|14458|M|48.95,78.31|Z|Mulgore|N|From Grull Hawkwind.|
 
 T Go to Adana|QID|14458|M|46.21,82.63|Z|Mulgore|N|To Adana Thunderhorn.|
 A Rite of Courage|QID|14456|M|46.21,82.63|Z|Mulgore|N|From Adana Thunderhorn.|
 A Stop the Thorncallers|QID|14455|M|46.21,82.63|Z|Mulgore|N|From Adana Thunderhorn.|
-C Rite of Courage|S|QID|14456|M|47.40,86.15|Z|Mulgore|N|Kill Britlebark Gun Thiefs and loot the Stolen Rifles from them.|QO|Stolen Rifle: 7/7|
+C Rite of Courage|S|QID|14456|M|47.40,86.15|Z|Mulgore|N|Kill Britlebark Gun Thiefs and loot the Stolen Rifles from them.|
 C Stop the Thorncallers|QID|14455|M|46.77,87.35|Z|Mulgore|N|Kill Bristleback Thorncallers|
-C Rite of Courage|US|QID|14456|M|47.40,86.15|Z|Mulgore|N|Kill Britlebark Gun Thiefs and loot any Stolen Rifles you still need.|QO|Stolen Rifle: 7/7|
+C Rite of Courage|US|QID|14456|M|47.40,86.15|Z|Mulgore|N|Kill Britlebark Gun Thiefs and loot any Stolen Rifles you still need.|
 
 L Level 3|QID|14456|LVL|3|N|You should be around level 3 by this point.|
 
@@ -133,7 +138,7 @@ A Hallowed Note|QID|27014|M|46.18,82.49|Z|Mulgore|N|From Rohaku Stonehoof.|C|Pri
 A Rune-Inscribed Note|QID|3093|M|46.19,82.39|Z|Mulgore|N|From Rohaku Stonehoof.|C|Shaman|R|Tauren|
 A Simple Note|QID|3091|M|46.18,82.41|Z|Mulgore|N|From Rohaku Stonehoof.|C|Warrior|R|Tauren|
 A Calligraphed Note|QID|31165|M|46.18,82.41|Z|Mulgore|N|From Rohaku Stonehoof.|C|Monk|R|Tauren|
-C Rite of Honor|QID|14460|M|41.26,81.39|Z|Mulgore|
+C Rite of Honor|QID|14460|M|41.26,81.39|Z|Mulgore|N|Kill and loot Thornmantle, who is hanging out in this small cave.|
 
 H Camp Narache|QID|14460|M|45.16,75.45|U|6948|
 
@@ -200,7 +205,7 @@ C Swoop Hunting|S|QID|761|Z|Mulgore|N|Kill any Swoops you see.|
 C Sharing the Land|QID|14438|M|48.40,70.71|Z|Mulgore|N|Kill Gnolls around the camp and in the cave behind it.|
 C Poison Water|US|QID|20440|Z|Mulgore|R|Tauren|N|Kill any Plainstriders and Praire Wolves you see.|
 C Swoop Hunting|US|QID|761|Z|Mulgore|N|Kill any Swoops you see.|
-H Hearth to Bloodhoff Village|QID|14438|M|48.19,59.59|Z|Mulgore|N|Hearth to Bloodhoof Village, and sell any junk you might have to Innkeeper Kauth.|
+H Hearth to Bloodhoof Village|QID|14438|M|48.19,59.59|Z|Mulgore|N|Hearth to Bloodhoof Village, and sell any junk you might have to Innkeeper Kauth.|
 
 L Level 6|QID|14438|LVL|6|N|You should be around level 6 by this point.|
 
