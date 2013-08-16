@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2013-08-16 19:48
+-- Who: Ludovicus Maior
+-- Log: Corrected the quests that Tor'chunk Twoclaws gives.  Added a few coords.
+
+-- URL: http://wow-pro.com/node/3282/revisions/25453/view
 -- Date: 2013-01-13 17:52
 -- Who: Ludovicus Maior
 -- Log: Added CN and CS tags
@@ -186,7 +191,7 @@ A Baron Sablemane's Poison|QID|10749|M|53.3,41.2|N|From Baron Sablemane.|
 T Baron Sablemane's Poison|QID|10749|N|To Rexxar.|M|51.83,58.31|
 
 A The Smallest Creatures|QID|10720|M|51.9,58.4|N|From Rexxar.|
-A Crush the Bloodmaul Camp|QID|10784|N|From Gor'drek.|M|51.87,58.41|
+A Crush the Bloodmaul Camp|QID|10784|N|From Tor'chunk Twoclaws.|M|51.87,58.41|
 U [Kodohide Drum]|QID|10720|U|31141|N|Go down the ravine again and ride north/northeast until you find a marmot's den.|M|56.43,29.41|
 C Keg of Ripe Moonshine|QID|10720|NC|U|31141|QO|Poison the keg of Ripe Moonshine: 1/1|NC|N|Inside the Bloodmaul Camp stand next to the keg and use the marmot's Poison Keg ability.|M|55.34,28.23|
 C Green Spot Grog Keg|QID|10720|NC|U|31141|QO|Poison the keg of Green Spot Grog: 1/1|N|A little northwest of here you should find the Green Spot Grog Keg, behind a bonfire.|M|55.26,25.97|
@@ -195,7 +200,7 @@ C Crush the Bloodmaul Camp|QID|10784|N|Kill 10 Bloodmaul Maulers and 5 Bloodmaul
 T The Smallest Creatures|QID|10720|N|To Rexxar.|M|51.76,58.45|
 
 A A Boaring Time for Grulloc|QID|10721|M|51.9,58.4|N|From Rexxar.|
-T Crush the Bloodmaul Camp|QID|10784|N|To Gor'drek.|M|51.87,58.42|
+T Crush the Bloodmaul Camp|QID|10784|N|To Tor'chunk Twoclaws.|M|51.87,58.42|
 C A Boaring Time for Grulloc|QID|10721|U|31350|N|Go back down in the ravine and go east until you see a big gronn called Grulloc.|M|60.85,47.73|
 T A Boaring Time for Grulloc|QID|10721|N|To Baron Sablemane.|M|53.25,41.16|
 A It's a Trap!|QID|10785|M|53.23,41.14|N|From Baron Sablemane.|
@@ -290,7 +295,7 @@ U Exorcism Feather |QID|10830|N|Right-click the Grishnath Orb to create an Exorc
 C Exorcising the Trees |N|Use exorcism feathers on Raven's Wood Leafbeards, then kill the spirit that spawns.|QID|10830|M|37.00,29.00|U|31518|
 T Exorcising the Trees |QID|10830|M|36.9,22.5|N|To Treebole.|
 C Slaughter at Boulder'mok|QID|10786|N|Kill ogres until you finish.|M|30.64,22.41|S|
-l Grisly Totems|QID|10723|L|31754 3|N|Keep killing ogres until you have 3 Grisly Totems.|
+l Grisly Totems|QID|10723|L|31754 3|N|Keep killing ogres until you have 3 Grisly Totems.|M|30.64,22.4|
 C Gorgrom the Dragon-Eater|QID|10723|U|31754|N|Right-click Gorgrom's Altar, when Gorgrom is dead, go next to his corpse and drop the 3 Grisly Totems.|M|30.56,22.38|
 C Slaughter at Boulder'mok|QID|10786|N|Kill ogres until you finish.|M|30.64,22.41|US|
 C Maxnar Must Die!|QID|10748|N|Go to the end of the wyrmcult cave and kill Maxnar the Ashmaw. Use a costume if you have enough scraps to help you get through most of the cavern.|M|33.79,35.76|
