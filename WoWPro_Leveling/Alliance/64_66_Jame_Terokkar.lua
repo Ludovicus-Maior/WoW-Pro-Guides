@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2013-08-15 23:23
+-- Who: Ludovicus Maior
+-- Log: Add missing coords around [Terokkarantula] quests.
+
+-- URL: http://wow-pro.com/node/3277/revisions/25400/view
 -- Date: 2013-01-13 01:12
 -- Who: Ludovicus Maior
 -- Log: Some CN tags
@@ -353,12 +358,12 @@ C The Big Bone Worm |N|Kill a Decrepit Clefthoof and then use the Fumper on it. 
 A For the Fallen |QID|10920|N|From Vindicator Haylen.|M|49.71,76.18|
 C Taken in the Night|N|Free Netherweb Victims until you finish this quest.|QID|10873|M|52.00,77.00|S|
 C For the Fallen|N|Kill spiders until you finish this quest.|QID|10920|M|52.00,77.00|
-T For the Fallen|QID|10920|N|To Vindicator Haylen.|
-A Terokkarantula|QID|10921|N|From Vindicator Haylen.|
+T For the Fallen|QID|10920|N|To Vindicator Haylen.|M|49.71,76.18|
+A Terokkarantula|QID|10921|N|From Vindicator Haylen.|M|49.71,76.18|
 C Terokkarantula|N|Kill Terokkarantula.|QID|10921|M|54.2,81.69|
 C Taken in the Night|N|Free Netherweb Victims until you finish this quest.|QID|10873|M|52.00,77.00|US|
-T Terokkarantula|QID|10921|N|To Vindicator Haylen.|
-A Return to Sha'tari Base Camp |QID|10926|N|From Vindicator Haylen.|
+T Terokkarantula|QID|10921|N|To Vindicator Haylen.|M|49.71,76.18|
+A Return to Sha'tari Base Camp |QID|10926|N|From Vindicator Haylen.|M|49.71,76.18|
 A Skywing|QID|10898|M|54.00,72.00|N|From Skywing.|
 C Skywing|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge. Turn off the fires when you get near them for the other quest.|QID|10898|S|
 N Bloodstone Signel Fire|QID|10874|M|56.12,72.49|QO|Bloodstone Fire Extinguished: 1/1|N|Keep following Skywing, click on the Bloodstone Signel Fire to extinguish it.|

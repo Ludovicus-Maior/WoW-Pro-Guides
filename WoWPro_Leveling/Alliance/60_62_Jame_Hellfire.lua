@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2013-08-15 23:21
+-- Who: Ludovicus Maior
+-- Log: Use a better quest for the run to Temple of Telhamat.
+
+-- URL: http://wow-pro.com/node/3271/revisions/25389/view
 -- Date: 2013-01-12 21:22
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -113,7 +118,7 @@ N Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Tor
 N Burn Catapult 3 |QID|10078|N|Burn the third thrower here with the Flaming Torch. |QO|Central Western Thrower Burned: 1/1|U|26002|M|53.50,47.20|
 C Laying Waste to the Unwanted |N|Burn the last thrower here.|QID|10078|U|26002|M|52.80,47.20|
 
-R Temple of Telhamat|QID|9398|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|CC|N|Run to the Temple of Telhamat.|
+R Temple of Telhamat|QID|9390|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|CC|N|Run to the Temple of Telhamat.|
 A Deadly Predators |QID|9398|M|23.4,39.7|N|From Scout Vanura.|
 A In Search of Sedai |QID|9390|M|23.1,40.3|N|From Anchorite Obadei.|
 A Cruel Taskmasters |QID|9399|M|23.1,40.3|N|From Ikan.|

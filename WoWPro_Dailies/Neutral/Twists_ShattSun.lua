@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
+-- Date: 2013-08-15 23:14
+-- Who: Ludovicus Maior
+-- Log: Added missing QIDs, made safe for non-miners,non-skinners,non-herbalists.
+
+-- URL: http://wow-pro.com/node/3470/revisions/25715/view
 -- Date: 2013-06-18 00:53
 -- Who: Ludovicus Maior
 -- Log: quest 11556's name [Exalted Among All Combatants] does not match Grail's database [Revered in the Field of Battle].
@@ -27,13 +32,13 @@
 WoWPro.Dailies:RegisterGuide("TwiShattSun", "Isle of Quel'Danas", "Shattered Sun Offensive", "BC", "Twists", "Neutral", function()
 return [[
 
-N State of the Realm|N|This guide assumes that all of the Shattered Sun Offensive are in the final phase.  If you are on a new server, this guide will not do.|
+N State of the Realm|QID|11554|N|This guide assumes that all of the Shattered Sun Offensive are in the final phase.  If you are on a new server, this guide will not do.|
 
 A Enter, the Deceiver...|QID|11550|LEAD|11526|M|53.60,43.67|Z|Shattrath City|O|N|From General Tiras'alan|
 A Crisis at the Sunwell|QID|11481|LEAD|11526|M|30.74,34.63|Z|Shattrath City|O|REP|Aldor;932|N|Adyen the Lightwarden|
 A Duty Calls|QID|11482|LEAD|11526|M|54.4,80.6|Z|Shattrath City|REP|Scryers;934|O|N|From Dathris Sunstriker|
 
-R Isle of Quel'Danas|M|48.85,42.07|N|Take the portal in Shatt.|Z|Shattrath City|
+R Isle of Quel'Danas|M|48.85,42.07|QID|11547|N|Take the portal in Shatt.|Z|Shattrath City|
 
 T Enter, the Deceiver...|QID|11550|M|50.2,28.6|N|From General Tiras'alan|
 T Duty Calls|QID|11482|M|47.2,30.6|N|To Exarch Larethor|
@@ -44,19 +49,19 @@ A Your Continued Support|QID|11548|M|48.27,37.71|N|From Anchorite Ayuri.|
 T Your Continued Support|QID|11548|M|48.27,37.71|N|From Anchorite Ayuri.|
 
 ; Friendly
-A A Friend in the Frontlines|QID|11554|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Friendly|N|From Eldara Dawnrunner|
+A A Friend in the Frontlines|QID|11554|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Friendly|N|From Eldara Dawnrunner, now that you are Friendly.|
 T A Friend in the Frontlines|QID|11554|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Friendly|N|From Eldara Dawnrunner|
 
 ; Honored
-A Honored by Your Allies|QID|11555|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Honored|N|From Eldara Dawnrunner|
+A Honored by Your Allies|QID|11555|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Honored|N|From Eldara Dawnrunner, now that you are Honored.|
 T Honored by Your Allies|QID|11555|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Honored|N|From Eldara Dawnrunner|
 
 ; Revered
-A Revered in the Field of Battle|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Revered|N|From Eldara Dawnrunner|
+A Revered in the Field of Battle|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Revered|N|From Eldara Dawnrunner, now that you are Revered.|
 T Revered in the Field of Battle|QID|11556|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Revered|N|From Eldara Dawnrunner|
 
 ; Exalted
-A Exalted Among All Combatants|QID|11557|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner|
+A Exalted Among All Combatants|QID|11557|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner, now that you are Exalted.|
 T Exalted Among All Combatants|QID|11557|M|47.2,30.6|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|From Eldara Dawnrunner|
 A A Magnanimous Benefactor|QID|11549|M|51.2,33.2|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|Anchorite Kairthos|
 T A Magnanimous Benefactor|QID|11549|M|51.2,33.2|Z|Isle of Quel'Danas|REP|Shattered Sun Offensive;1077;Exalted|N|Anchorite Kairthos|
@@ -126,9 +131,11 @@ A The Missing Magistrix|QID|11526|M|47.44,30.48|Z|Isle of Quel'Danas|N|From Capt
 R Portal to Hellfire|QID|11526|M|48.5,44.4|Z|Isle of Quel'Danas|U|34420|N|Use the scroll when you are close to it. Skip ahead in the guide till you get to Magistrix Seyla this one time.|
 T The Missing Magistrix|QID|11526|58.2,17.6|Z|Hellfire Peninsula|N|From Magistrix Seyla, in Hellfire Peninsula.|
 
-R Shattrath City|N|Use Darnarian's Scroll of Teleportation to return to Shattrath City.|Z|Shattrath City|U|35230|
+R Shattrath City|QID|11877|N|Use Darnarian's Scroll of Teleportation to return to Shattrath City from Hellfire Peninsula.|Z|Shattrath City|U|35230|
 
-A Gaining the Advantage|QID|11875|M|62.82,35.58|Z|Shattrath City|N|From Emissary Mordin|
+A Gaining the Advantage|QID|11875|M|62.82,35.58|Z|Shattrath City|N|From Emissary Mordin|P|Herbalism|
+A Gaining the Advantage|QID|11875|M|62.82,35.58|Z|Shattrath City|N|From Emissary Mordin|P|Mining|
+A Gaining the Advantage|QID|11875|M|62.82,35.58|Z|Shattrath City|N|From Emissary Mordin|P|Skinning|
 l Gaining the Advantage|QID|11875|M|65.70,79.20;68.70,85.70;69.30,74.60;27.05,10.45;20.77,14.82;73.05,82.50;22.52,10.65;61.85,74.80;23.05,7.38;73.55,87.95|Z|Terokkar Forest|CN|P|Herbalism|L|35229 8|N|Go picking Mana Thistles|
 l Gaining the Advantage|QID|11875|M|24.40,33.50;38.30,22.80;43.00,33.00;46.70,77.80;51.90,39.20;52.50,20.30;60.80,71.00;62.30,76.50;65.80,40.30;68.60,65.60;71.30,59.70;7.10,42.90;17.70,31.70;20.40,54.70;24.30,71.20;25.20,61.10;28.30,71.70;29.20,54.10;31.80,28.70;31.90,81.90;32.20,60.30;34.10,44.30;42.00,36.60;42.40,50.90;44.90,47.60;50.30,77.10;53.50,82.30;55.60,27.70;60.50,56.90;63.00,73.10;66.10,32.30;57.40,78.25;64.90,35.75;18.20,39.25;43.00,62.25;44.70,54.25;56.70,64.05;59.75,62.00;47.70,81.45;69.80,72.45;35.55,47.30;38.80,36.95;59.30,47.65;66.10,51.95;70.00,52.15;27.45,32.10;42.45,23.20;45.45,43.90;48.00,57.45;57.00,24.45;71.70,56.45;36.55,62.27;38.45,83.28;39.45,44.18;62.32,54.45;43.42,73.65;27.83,76.36;44.45,65.95;59.45,27.40;43.45,78.40;69.10,48.50;24.23,48.40;74.20,61.08;28.25,12.92;58.50,51.90;51.80,67.35;30.10,22.17;25.86,14.75;56.15,58.41;9.88,44.48;32.83,49.65;47.55,51.45;18.70,35.62;46.10,19.85;33.02,52.73;27.57,19.79;30.65,45.20;75.40,68.80;77.13,60.20;50.95,53.15;27.96,24.75;12.62,37.83;40.85,47.35;72.75,65.90;57.08,55.21;68.29,36.34;70.99,78.94;51.78,56.84;68.85,82.78;40.95,20.24;42.60,40.70;59.09,31.16;41.45,83.20;39.77,29.76;49.50,25.55;24.41,28.62;71.65,44.01;8.40,39.17|Z|Nagrand|CN|P|Mining|L|35229 8|N|Go mining in Nagrand for Adamantite||
 l Gaining the Advantage|QID|11875|M|38.85,13.50;37.24,6.11;37.30,10.03;42.45,12.15|Z|Terokkar Forest|P|Skinning|L|35229 8|CN|N|Go Skinning Dampscale Basilisks|
@@ -138,7 +145,7 @@ A Sunfury Attack Plans|QID|11877|M|62.70,35.97|N|From Lord Torvos.|Z|Shattrath C
 A The Multiphase Survey|QID|11880|M|61.61,51.97|N|From Harbinger Haronem.|Z|Shattrath City|
 A Maintaining the Sunwell Portal|QID|11514|M|49.24,42.57|N|From Exarch Nasuun.|Z|Shattrath City|
 
-F Oshu'gun|N|Get to Oshu'gun in Nagrand.  You know to get there.|
+F Oshu'gun|QID|11880|N|Get to Oshu'gun in Nagrand.  You know to get there.|
 C The Multiphase Survey|QID|11880|M|44.66,70.40|U|35233|N|Equip these once you arrive.\n\nLook for orange balls.|Z|Nagrand|
 N Time to take off your goggles ...|QID|11880|Find your head gear and put it back on.  Click when done.|
 
