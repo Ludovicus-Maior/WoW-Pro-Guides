@@ -1,1 +1,1 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">	<Script file="CookingRecipies.lua"/></Ui>
+<Ui xmlns="http://www.blizzard.com/wow/ui/">	<Script file="CookingRecipies.lua"/>	<Script file="LeatherPattterns.lua"/></Ui>
