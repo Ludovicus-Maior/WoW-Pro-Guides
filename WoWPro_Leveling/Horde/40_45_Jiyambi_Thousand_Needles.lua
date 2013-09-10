@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2013-08-16 19:46
+-- Who: Ludovicus Maior
+-- Log: Minor QID fixes.
+
+-- URL: http://wow-pro.com/node/3254/revisions/25468/view
 -- Date: 2013-01-13 19:17
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -37,10 +42,10 @@
 WoWPro.Leveling:RegisterGuide('JiyTho4045', 'Thousand Needles', 'Jiyambi', '40', '45', 'JiyTan4550', 'Horde', function()
 return [[
 
-T Warchief's Command: Thousand Needles!|O|QID|28504|M|41.86,73.85|Z|Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
-A To the Summit|O|QID|25478|PRE|28504|M|41.86,73.85|Z|Dustwallow Marsh|N|From Nyse.|
-C To the Summit|O|QID|25478|M|42.82,72.42|N|Talk to Dyslix Silvergrub and have him send you to Westreach Summit.|
-T To the Summit|O|QID|25478|M|11.12,11.33|N|To Kanati Greycloud.|
+T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
+A To the Summit|QID|25478|M|41.86,73.85|Z|Dustwallow Marsh|N|From Nyse in Dustwallow Marsh.|
+C To the Summit|QID|25478|M|42.82,72.42|N|Talk to Dyslix Silvergrub and have him send you to Westreach Summit.|
+T To the Summit|QID|25478|M|11.12,11.33|N|To Kanati Greycloud.|
 A The Grimtotem are Coming|QID|25487|M|11.12,11.33|N|From Kanati Greycloud.|
 A Looming Threat|RANK|3|QID|27062|M|11.15,11.21|N|From Kanati Greycloud. Take this if you'd like to do the Razorfen Downs instance.|
 C The Grimtotem are Coming|QID|25487|PRE|27062|M|10.56,8.51|N|Make your way down to the beach below, killing Grimtotem as you go.|
@@ -52,7 +57,7 @@ A Do Me a Favor?|QID|25505|PRE|25489|M|75.94,74.68|N|From Pozzik.|
 T Do Me a Favor?|QID|25505|M|77.16,74.47|N|To Razzeric.|
 A Down in the Deeps|PRE|25505|QID|25516|M|77.16,74.47|N|From Razzeric.|
 A Bar Fight!|RANK|2|QID|25518|PRE|25489|M|78.06,73.71|N|From Zamek.|
-B Bottle of Grog|RANK|2|QID|25518|M|76.55,74.58|N|Go inside and buy a Bottle of Grog from the bartender.|L|54747|
+B Bottle of Grog|RANK|2|QID|25518|ACTIVE|25518|M|76.55,74.58|N|Go inside and buy a Bottle of Grog from the bartender.|L|54747|
 C Bar Fight!|RANK|2|QID|25518|M|76.55,74.58|N|Use the Bottle of Grog on a gnome in the bar to start the fight.|U|54747|
 T Bar Fight!|RANK|2|QID|25518|M|78.04,73.66|N|To Zamek.|
 

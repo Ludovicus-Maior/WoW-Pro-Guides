@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_tailoring
+-- Date: 2013-08-16 20:40
+-- Who: Ludovicus Maior
+-- Log: Hopefully I corrected some errors right.
+
+-- URL: http://wow-pro.com/node/3412/revisions/25707/view
 -- Date: 2013-06-18 00:36
 -- Who: Ludovicus Maior
 -- Log: Bad X coordinate 66.268.8, 1/1 in guide TwiTailoring, line [B Pattern: Bolt of Imdued Netherweave]
@@ -36,19 +41,19 @@ N Learn Journeyman Tailoring|QID|901970006|P|Tailoring;197;*;0;150|N|Visit your 
 N Bolt of Woolen Cloth|QID|901970007|P|Tailoring;197;75;100;|N|3;Wool Cloth;165;165|
 N Bolt of Woolen Cloth|QID|901970008|P|Tailoring;197;100;125;|N|Keep making these until you have what you need. Keep what you make.:\n3 Wool Cloth|L|2997 55|S|
 N Woolen Cape|QID|901970009|P|Tailoring;197;100;105;|N|1;Bolt of Woolen Cloth;5;55:1;Fine Thread;5;125|
-N Green Woolen Vest|QID|901970010|P|Tailoring;197;105;115;|N|2;Bolt of Woolen Cloth;20;50:1;Fine Thread;20;120:Green Dye;10;10|
+N Green Woolen Vest|QID|901970010|P|Tailoring;197;105;115;|N|2;Bolt of Woolen Cloth;20;50:1;Fine Thread;20;120:1;Green Dye;10;10|
 N Double-stitched Woolen Shoulders|QID|901970011|P|Tailoring;197;115;125;|N|3;Bolt of Woolen Cloth;30;30:1;Fine Thread;20;100|
 N Learn Expert Tailoring|QID|901970012|P|Tailoring;197;*;0;225|N|Visit your trainer in any major city. You must be level 20 or above.|
 N Bolt of Silk Cloth|QID|901970013|P|Tailoring;197;125;145;|N|4;Silk Cloth;520;520|
 N Bolt of Silk Cloth|QID|901970014|P|Tailoring;197;145;215;|N|4 Silk Cloth|S|
-N Azure Silk Hood|QID|901970015|P|Tailoring;197;145;160;|N|2;Bolt of Silk Cloth;30;130:1;Fine Thread;15;80:Blue Dye;30;30|
+N Azure Silk Hood|QID|901970015|P|Tailoring;197;145;160;|N|2;Bolt of Silk Cloth;30;130:1;Fine Thread;15;80:1;Blue Dye;30;30|
 N Silk Headband|QID|901970016|P|Tailoring;197;160;170;|N|3;Bolt of Silk Cloth;30;100:2;Fine Thread;20;65|
-N Formal White Shirt|QID|901970017|P|Tailoring;197;170;175;|N|3;Bolt of Silk Cloth;15;70:1;Fine Thread;5;45:Bleach;10;10|
+N Formal White Shirt|QID|901970017|P|Tailoring;197;170;175;|N|3;Bolt of Silk Cloth;15;70:1;Fine Thread;5;45:1;Bleach;10;10|
 N Bolt of Mageweave|QID|901970018|P|Tailoring;197;175;185;|N|4;Mageweave;396;396|
 N Bolt of Mageweave|QID|901970019|P|Tailoring;197;185;255;|N|Keep making these until you have what you need. Keep what you make.:\n4 Mageweave|L|4338 85|S|
-N Crimson Silk Vest|QID|901970020|P|Tailoring;197;185;205;|N|4;Bolt of Silk Cloth;15;55:2;Fine Thread;40;40:1Red Dye;40;|
+N Crimson Silk Vest|QID|901970020|P|Tailoring;197;185;205;|N|4;Bolt of Silk Cloth;15;55:2;Fine Thread;40;40:1;Red Dye;40;40|
 N Learn Artisan Tailoring|QID|901970021|P|Tailoring;197;*;0;300|N|Visit your trainer in any major city. You must be level 35 or above.|
-N Crimson Silk Pantaloons|QID|901970022|P|Tailoring;197;205;215;|N|4;Bolt of Silk Cloth;40;40:2;Silken Thread;20;100:2Red Dye;20;20|
+N Crimson Silk Pantaloons|QID|901970022|P|Tailoring;197;205;215;|N|4;Bolt of Silk Cloth;40;40:2;Silken Thread;20;100:2;Red Dye;20;20|
 N Black Mageweave Leggings|QID|901970023|P|Tailoring;197;215;225;|N|2;Bolt of Mageweave;20;85:3;Silken Thread;30;80|
 N Black Mageweave Gloves|QID|901970024|P|Tailoring;197;225;235;|N|2;Bolt of Mageweave;20;65:2;Silken Thread;20;50|
 N Black Mageweave Headband|QID|901970025|P|Tailoring;197;235;250;|N|3;Bolt of Mageweave;45;45:2;Silken Thread;30;30|

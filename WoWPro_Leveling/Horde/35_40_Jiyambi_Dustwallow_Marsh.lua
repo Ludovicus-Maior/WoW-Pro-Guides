@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2013-08-16 19:42
+-- Who: Ludovicus Maior
+-- Log: Added the new nest of eggs for [The Brood of Onyxia]
+
+-- URL: http://wow-pro.com/node/3242/revisions/25579/view
 -- Date: 2013-03-23 19:06
 -- Who: Ludovicus Maior
 -- Log: QID correction on [Warchief's Command: Dustwallow Marsh!] 
@@ -239,7 +244,7 @@ T The Brood of Onyxia|RANK|1|QID|27417|M|37.11,33.00|N|To Draz'Zilb.|
 A The Brood of Onyxia|RANK|1|QID|27415|PRE|27417|M|37.11,33.00|N|From Draz'Zilb. This quest means an extra trip between here and Mudsprocket, but the rewards at the end of the chain are very nice.|
 
 F Mudsprocket|RANK|1|QID|27415|M|35.57,31.86|N|Fly to Mudsprocket.|
-C The Brood of Onyxia|RANK|1|QID|27415|NC|M|53.53,72.58|N|Click on the eggs to destroy them.|
+C The Brood of Onyxia|RANK|1|QID|27415|NC|M|53.53,72.58;52.28,83.92|CN|N|Click on the eggs to destroy them. There are two nests.|
 F Brackenwall Village|RANK|1|QID|27415|M|42.82,72.45|N|Fly to Brackenwall Village.|
 
 T The Brood of Onyxia|RANK|1|QID|27415|M|37.14,33.04|N|To Draz'Zilb. Congradulations on a nice reward!|
