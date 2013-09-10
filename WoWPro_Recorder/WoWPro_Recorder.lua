@@ -172,7 +172,7 @@ function WoWPro.Recorder:RegisterEvents()
 				WoWPro.Recorder.lastStep = WoWPro.newQuest
 				WoWPro:dbp("Adding new quest "..WoWPro.newQuest)
 				WoWPro.Recorder:AddStep(stepInfo)
-				WoWPro.Leveling:AutoCompleteQuestUpdate()
+				WoWPro:AutoCompleteQuestUpdate()
 				
 			elseif WoWPro.missingQuest and WoWPro.Leveling.CompletingQuest then
 				local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
@@ -187,7 +187,7 @@ function WoWPro.Recorder:RegisterEvents()
 				if GetUnitName("target") then stepInfo.note = "To "..GetUnitName("target").."." end
 				WoWPro:dbp("Turning in quest "..stepInfo.QID)
 				WoWPro.Recorder:AddStep(stepInfo)
-				WoWPro.Leveling:AutoCompleteQuestUpdate()
+				WoWPro:AutoCompleteQuestUpdate()
 				
 			else
 				for QID, questInfo in pairs(WoWPro.QuestLog) do
@@ -212,7 +212,7 @@ function WoWPro.Recorder:RegisterEvents()
 								class = checkClassQuest(QID,WoWPro.QuestLog)
 							}
 							WoWPro.Recorder:AddStep(stepInfo)
-							WoWPro.Leveling:AutoCompleteQuestUpdate()
+							WoWPro:AutoCompleteQuestUpdate()
 						end
 					end
 				end
