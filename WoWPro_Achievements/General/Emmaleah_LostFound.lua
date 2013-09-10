@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2013-09-10 23:53
+-- Who: Ludovicus Maior
+-- Log: Coord tweaks and spelling fixes.
+
+-- URL: http://wow-pro.com/node/3514/revisions/25506/view
 -- Date: 2013-01-24 20:07
 -- Who: Emmaleah
 -- Log: more precise coords for lucky panderan coin
@@ -78,13 +83,13 @@ A Boat-Building Instructions|QID|31869|L|87524|RANK|3|M|79.79,4.45;88.53,50.6|CC
 A Saurok Stone Tablet|QID|31408|L|86220|RANK|2|M|75,55|Z|Valley of the Four Winds|N|2nd room of Saurok cave.|
 A Pandaren Fishing Spear|QID|31409|L|86124|RANK|1|M|50.8,49.4|Z|Krasarang Wilds|N|Almost underneath Uncle Deming.|
 A Stack of Papers|QID|31863|L|87798|RANK|3|M|52.2,73.4|Z|Krasarang Wilds|N|Path up hill is back side of Marista Island, papers are next to gnome skeletons and hatch.|
-A Recipe: Banana Infused Rum|QID|31411|L|87266|RANK|1|M|52.3,88.7|Z|Krasarang Wilds|N|Top of hill, barrel on deck of boat/platform coming out of hill..|
+A Recipe: Banana Infused Rum|QID|31411|L|87266|RANK|1|M|52.36,88.64|Z|Krasarang Wilds|N|Top of hill, barrel on deck of boat/platform coming out of hill.|
 A Equipment Locker|QID|31410|RANK|1|M|42.3,92|Z|Krasarang Wilds|N|Pirate ship (non-sunken) west of Unga Ingoo, in the lowest level of the ship. Loot (ilvl 419 BoP boots) will be specific to your current spec.|
 
 A Virmen Treasure Cache|QID|31405|RANK|2|M|23.71,28.29|Z|Valley of the Four Winds|N|Must be able to fly. Hidden (from the ground) virmen in cave cliffs NE Paoquan Hollow, directly below Mistfall Village.|
 A Staff of the Hidden Master|QID|31407|L|86218|RANK|1|M|19.1,37.9;15.0, 33.7;19.0,42.5|Z|Valley of the Four Winds|CN|N|Paoquan Hollow leaning against bamboo shoots, multiple locations, so look around.|
 
-A Wind-Reaver's Dagger of Quick Strikes|QID|31666|L|86519|RANK|1|M|71.8,36.1|Z|Dread Wastes|N|Near base of a piller.|;31429 may be the QID, listed as both on Wowhead.
+A Wind-Reaver's Dagger of Quick Strikes|QID|31666|L|86519|RANK|1|M|71.8,36.1|Z|Dread Wastes|N|Near base of a pillar.|;31429 may be the QID, listed as both on Wowhead.
 A Blade of the Prime|QID|31433|L|86522|RANK|1|M|66.8,63.8|Z|Dread Wastes|N|Stuck in wall, Mistblade Den (lake of the stars).|
 A Swarming Cleaver of Ka'roz|QID|31434|L|86523|RANK|1|M|56.8,77.6|Z|Dread Wastes|N|Underwater, near Soggy's Gamble.|
 A Swarmkeeper's Medallion|QID|31437|L|86526|RANK|1|M|54.2,56.4|Z|Dread Wastes|N|Slightly north of Kyparizar.|
@@ -105,13 +110,13 @@ A Kafa Press|QID|31304|L|86125|RANK|1|M|37.5,78.0;35.2,76.3|Z|Kun-Lai Summit|CS|
 A Lost Adventurer's Belongings|QID|31418|RANK|2|M|36.7,79.8|Z|Kun-Lai Summit|N|Kota Peak (at Ski'thik spawn point).|
 A Terracotta Head|QID|31422|L|86427|RANK|2|M|59.25,73|Z|Kun-Lai Summit|N|Mogujia - appears just like all the other Terracotta statue pieces.|
 A Hozen Treasure Cache|QID|31414|RANK|2|M|49.5,59.4|Z|Kun-Lai Summit|N|Knucklethump hole, at back of the big cave.|
-A Hozen Warrior Spear|QID|31413|L|86394|RANK|1|M|51.5,74|Z|Kun-Lai Summit|N|Middle of underground pool in cave "The Deeper" (room adjacent Dak Dak's alter) BoA Agi Polearm.|
+A Hozen Warrior Spear|QID|31413|L|86394|RANK|1|M|52.9,71.1;51.5,74|Z|Kun-Lai Summit|N|Middle of underground pool in cave "The Deeper" (room adjacent Dak Dak's alter) BoA Agi Polearm.|
 A Mo-Mo's Treasure Chest|QID|31868|RANK|3|M|47,73|Z|Kun-Lai Summit|N|In Mo Mo's cave.|
 A Tablet of Ren Yun (Recipe)|QID|31417|L|86393|RANK|1|M|44.7,52.4|Z|Kun-Lai Summit|N|Beside Ren Yun's statue (Panda Shrine} - top of Mt Neverest.|
 A Rikktik's Tick Remover|QID|31419|L|86430|RANK|2|M|52,51|Z|Kun-Lai Summit|N|Rikktik's tomb - Valley of the Emperors.|
 A Ancient Mogu Tablet|QID|31420|L|86471|RANK|2|M|64,45|Z|Kun-Lai Summit|N|Path of the conquerers (on way to zouchin village behind statue - left side of room.|
 A Statue of Xuen|QID|31416|L|86422|RANK|2|M|71,33|Z|Kun-Lai Summit|N|Zandalari area,SW of Zouchin Village, middle of pond.|
-A Sturdy Yaungol Spear|QID|31421|L|88723|RANK|1|M|71.2,62.6;70.0,63.8|Z|Kun-Lai Summit|CN|N|located on weapons rack, Fire Camp Yongqi (any fire camp?) BoA Str polearm.|
+A Sturdy Yaungol Spear|QID|31421|L|88723|RANK|1|M|71.2,62.6;70.06,63.88|Z|Kun-Lai Summit|CN|N|located on weapons rack, Fire Camp Yongqi (any fire camp?) BoA Str polearm.|
 A Stolen Sprite Treasure|QID|31415|RANK|2|M|56.8,48.9|Z|Kun-Lai Summit|N|End of Howlingwind Cavern.|
 A Sprite's Cloth Chest|QID|31412|RANK|1|M|74.7,74.9|Z|Kun-Lai Summit|N|End of sprite cave. Loot (ilvl 434 cloak) will be specific to your current spec (and BOP).|
 

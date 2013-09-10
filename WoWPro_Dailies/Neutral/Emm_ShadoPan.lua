@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2013-09-10 23:47
+-- Who: Ludovicus Maior
+-- Log: Add a QID for finishing Townlong Steppes.
+
+-- URL: http://wow-pro.com/node/3501/revisions/25698/view
 -- Date: 2013-06-04 23:44
 -- Who: Ludovicus Maior
 -- Log: Cleanup around [A Morale Victory]
@@ -63,11 +68,8 @@
 WoWPro.Dailies:RegisterGuide("EmmShadoPan", "Townlong Steppes", "Shado-Pan Dailies", "MoP", "Emmaleah", "Neutral", function()
 return [[
 
-N Insufficient Reputation |REP|Golden Lotus;1269;revered|N|I'm sorry but you do not have sufficient reputation to do this daily guide./n/nMinimum Reputation Required: Golden Lotus (Revered)|
-
 N Work In Process Disclaimer|N|This guide is a work-in-process. Please report any errors or missing quests on the WowPro Website.\n\nPlease set your Difficulty/Completeness to 3 if you want the Achievement steps to be included. Setting it to 1 or 2 will NOT display the Achievement steps.\n\nCheck off this step to continue.|
-;N Finish Townlong Steppes|N|Unless you truely enjoy dailies, it is worth finishing the regular quests in Kun-Lai and on into Townlong. They will get you partway thru friendly with Shado-Pan.|
-;N No Intro quest|N|Unlike other factions there is no specific intro questline for the shado-pan dailies (or you could say all of townlong is, but it is not required for or invalidated by the dailies).|
+N Finish Townlong Steppes|QID|30928|N|Unless you truly enjoy dailies, it is worth finishing the regular quests in Kun-Lai and on into Townlong. They will get you partway thru friendly with Shado-Pan.|
 
 R Shado-Pan Garrison|M|49.25,71|CC|N|Either Master Snowdrift, Ban Bearheart or Ling of the Six Pools will be waiting to give you quests.|
 T Understanding The Shado-Pan|QID|31389|M|49.02,70.45|FACTION|Horde|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|O|

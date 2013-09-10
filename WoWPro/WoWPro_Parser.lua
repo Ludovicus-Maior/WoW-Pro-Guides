@@ -146,7 +146,7 @@ function WoWPro:SkipStep(index)
 				local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
 				for k=1,numprereqs do
 					local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
-					if tonumber(kprereq) == WoWPro.QID[currentstep] 
+					if tonumber(kprereq) == tonumber(WoWPro.QID[currentstep]) 
 					and WoWProCharDB.skippedQIDs[WoWPro.QID[currentstep]] then
 						if WoWPro.action[j] == "A" 
 						or WoWPro.action[j] == "C" 
@@ -446,6 +446,30 @@ function WoWPro.SetupGuideReal()
 	WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
 end
 
+
+-- Checkbox Function --
+function WoWPro:CheckFunction(row, button, down)
+    local GID = WoWProDB.char.currentguide
+	if button == "LeftButton" and row.check:GetChecked() then
+		local steplist = WoWPro:SkipStep(row.index)
+		row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
+		if steplist ~= "" then 
+			WoWPro:SkipStepDialogCall(row.index, steplist)
+		end
+	elseif button == "RightButton" and row.check:GetChecked() then
+	    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+		WoWProCharDB.Guide[GID].completion[row.index] = true
+		WoWPro:MapPoint()
+		if WoWProDB.profile.checksound then	
+			PlaySoundFile(WoWProDB.profile.checksoundfile)
+		end
+	elseif not row.check:GetChecked() then
+		WoWPro:UnSkipStep(row.index)
+	end
+	WoWPro:UpdateGuide()
+end
+
+
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
 	local GID = WoWProDB.char.currentguide
@@ -557,26 +581,6 @@ function WoWPro:RowUpdate(offset)
 		    row.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon") 
 		end
 		
-		-- Checkbox Function --
-		function WoWPro:CheckFunction(row, button, down)
-			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
-			if button == "LeftButton" and row.check:GetChecked() then
-				local steplist = WoWPro:SkipStep(row.index)
-				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
-				if steplist ~= "" then 
-					WoWPro:SkipStepDialogCall(row.index, steplist)
-				end
-			elseif button == "RightButton" and row.check:GetChecked() then
-				completion[row.index] = true
-				WoWPro:MapPoint()
-				if WoWProDB.profile.checksound then	
-					PlaySoundFile(WoWProDB.profile.checksoundfile)
-				end
-			elseif not row.check:GetChecked() then
-				WoWPro:UnSkipStep(row.index)
-			end
-			WoWPro:UpdateGuide()
-		end
 		row.check:SetScript("OnClick", function(self, button, down)
 			WoWPro:CheckFunction(row, button, down)
 		end)

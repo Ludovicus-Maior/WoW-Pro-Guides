@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2013-07-07 00:08
+-- Who: Emmaleah
+-- Log: correct QID on Zul'drak Honor the flame
+
+-- URL: http://wow-pro.com/node/3407/revisions/25733/view
 -- Date: 2013-06-28 06:32
 -- Who: Emmaleah
 -- Log: Emmaleah 6/27/13 Many coordinate updates, added in all levels of !Striking Back, added in Pandaria Fires. Set Pandaria at Rank 1, and the alliance cities at rank 3.
@@ -310,7 +315,7 @@ A Honor the Flame|RANK|2|QID|13499|M|80.3,53|Z|Crystalsong Forest|N|From the Fla
 A Desecrate this Fire!|RANK|2|QID|13447|M|78.2,74.9|Z|Crystalsong Forest|N|At the Alliance Bonfire. (Crystalsong Forest)|
 A Honor the Flame|RANK|2|QID|13495|M|38.6,48.4|Z|Dragonblight|N|From the Flame Keeper. (Dragonblight)|
 A Desecrate this Fire!|RANK|2|QID|13443|M|75.2,43.8|Z|Dragonblight|N|At the Alliance Bonfire. (Dragonblight)|
-A Honor the Flame|RANK|2|QID|13499|M|43.2,71.4|Z|Zul'Drak|N|From the Flame Keeper. (Zul'Drak)|
+A Honor the Flame|RANK|2|QID|13500|M|43.2,71.4|Z|Zul'Drak|N|From the Flame Keeper. (Zul'Drak)|
 A Desecrate this Fire!|RANK|2|QID|13449|M|40.4,61.4|Z|Zul'Drak|N|At the Alliance Bonfire. (Zul'Drak)|
 A Honor the Flame|RANK|2|QID|13497|M|19,61.4|Z|Grizzly Hills|N|From the Flame Keeper. (Grizzly Hills)|
 A Desecrate this Fire!|RANK|2|QID|13445|M|33.9,60.6|Z|Grizzly Hills|N|At the Alliance Bonfire. (Grizzly Hills)|

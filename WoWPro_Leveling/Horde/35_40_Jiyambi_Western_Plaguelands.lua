@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2013-08-16 19:44
+-- Who: Ludovicus Maior
+-- Log: Cleaned up some QUIDs and added a hint for [Ace in the Hole].
+
+-- URL: http://wow-pro.com/node/3246/revisions/25563/view
 -- Date: 2013-03-23 18:27
 -- Who: Ludovicus Maior
 -- Log: quest 27157's name [Drudges...] does not match Grail's database [Drudges... ].
@@ -37,9 +42,9 @@
 WoWPro.Leveling:RegisterGuide('JiyWes3540', 'Western Plaguelands', 'Jiyambi', '35', '40', 'CraEas4045', 'Horde', function()
 return [[
 
-R Andorhal|M|46.56,64.71|N|At the center of the Western Plaguelands.|
-f Andorhal|M|46.56,64.71|N|At Rhonda Molver.|
-T The Battle for Andorhal|QID|28508|O|M|47.78,65.18|N|To Koltira Deathweaver.|
+R Andorhal|QID|26921|M|46.56,64.71|N|At the center of the Western Plaguelands.|
+f Andorhal|QID|26921|M|46.56,64.71|N|At Rhonda Molver.|
+T The Battle for Andorhal|QID|28508|LEAD|26921|M|47.78,65.18|N|To Koltira Deathweaver.|
 A Scourge First... Alliance Later|QID|26921|M|47.78,65.18|N|From Koltira Deathweaver.|
 A The Endless Flow|QID|26922|M|47.33,64.47|N|From Jearl Donald.|
 A War Machines|QID|26923|M|47.59,65.54|N|From Lindsay Ravensun.|
@@ -157,7 +162,7 @@ T A Gnoll's Resolve|QID|27012|M|48.30,31.93|N|To Kelly Dumah.|
 C The Good People of Hearthglen|QID|27153|M|43.71,17.27;42.15,18.23;44.82,12.47;44.40,13.54|CS|N|Talk to each of the NPCs around Hearthglen.|
 T The Good People of Hearthglen|QID|27153|N|The turn-in should pop up automatically.|
 A Bagging Bisp|QID|27154|N|The quest should pop up automatically.|
-C Bagging Bisp|QID|27154|N|Talk to the mage at the top of the tower.|
+C Bagging Bisp|QID|27154|M|45.89,18.44|N|Talk to the mage at the top of the tower.|
 T Bagging Bisp|QID|27154|M|45.82,18.44|N|The turn-in should pop up automatically.|
 A Turning Yourself In|QID|27155|M|45.82,18.44|N|The quest should pop up automatically.|
 T Turning Yourself In|QID|27155|M|41.91,14.96|N|To Highlord Tirion Fordring, back at the second floor of the keep. You CAN safely jump off the tower.|
@@ -197,7 +202,7 @@ T Supporting the Troops|QID|27085|M|46.87,63.56|N|To Jearl Donald.|
 A Lindsay Ravensun, Revealed|QID|27087|M|46.96,63.76|N|From Koltira Deathweaver.|
 T Lindsay Ravensun, Revealed|QID|27087|M|49.01,63.70|N|To Lindsay Ravensun, inside the building.|
 A Ace in the Hole|QID|27089|M|49.04,63.76|N|From Lady Sylvanas Windrunner.|
-C Ace in the Hole|QID|27089|M|40.09,70.53|N|Kill farmers near the valkyr to gather 5 undead warriors, then head over to the Alliance side of Andorhal. Fight your way through to the corpse of Lurid.|
+C Ace in the Hole|QID|27089|M|46.07,62.36;43.44,62.32;42.67,62.30;40.66,65.30;40.11,68.11;40.09,70.53|CS|N|Kill farmers near the valkyr to gather 5 undead warriors, then head over to the Alliance side of Andorhal. Go around everyone to the corpse of Lurid.|
 T Ace in the Hole|QID|27089|M|39.41,70.58|N|To Lurid.|
 A Andorhal, Once and For All|QID|27090|M|39.41,70.58|N|From Lurid.|
 T Andorhal, Once and For All|QID|27090|M|49.03,63.76|N|To Lady Sylvanas Windrunner, back at the Horde camp.|

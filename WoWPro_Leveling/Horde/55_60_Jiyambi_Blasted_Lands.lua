@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2013-08-03 07:56
+-- Who: Emmaleah
+-- Log: Change QID 25685 The First Step to CS (from CC)
+
+-- URL: http://wow-pro.com/node/3268/revisions/25492/view
 -- Date: 2013-01-13 23:52
 -- Who: Ludovicus Maior
 -- Log: Added CC tag
@@ -87,7 +92,7 @@ A The First Step|QID|25685|PRE|25684|M|39.20,36.27|N|From Bloodmage Lynnore.|
 A A Bloodmage's Gotta Eat Too|QID|25690|PRE|25684|M|39.21,36.25|N|From Bloodmage Drazial.|
 
 C A Bloodmage's Gotta Eat Too|QID|25690|M|54.89,37.68|N|Kill boars for their meat.|S|
-C The First Step|QID|25685|M|39.33,35.65;54.89,37.68|CC|N|Use the bloodstone to exit the cave, then head east. Kill hyenas and basilisks for their blood.|
+C The First Step|QID|25685|M|39.33,35.65;54.89,37.68|CS|N|Use the bloodstone to exit the cave, then head east. Kill hyenas and basilisks for their blood.|
 A One Draenei's Junk...|O|QID|25771|M|50.88,37.62|U|10593|N|Accept the quest from the Imperfect Draenethyst Fragment.|
 T One Draenei's Junk...|O|QID|25771|M|48.72,32.00|N|To Kum'isha the Collector.|
 C A Bloodmage's Gotta Eat Too|QID|25690|M|54.89,37.68|N|Kill boars for their meat.|US|
