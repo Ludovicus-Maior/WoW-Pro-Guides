@@ -316,10 +316,5 @@ end
 -- Event Response Logic --
 function WoWPro.Achievements:EventHandler(self, event, ...)
 	WoWPro:dbp("Running: Achievements Event Handler")
-		
-	-- Noting that a quest is being completed for quest log update events --
-	if event == "QUEST_COMPLETE" then
-		WoWPro.Achievements.CompletingQuest = true
-		WoWPro.Achievements:AutoCompleteQuestUpdate(GetQuestID())
-	end
+	
 end
