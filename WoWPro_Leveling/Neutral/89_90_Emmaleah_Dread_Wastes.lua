@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2013-09-10 23:27
+-- Who: Ludovicus Maior
+-- Log: Moved T [Relics of the Swarm] and corrected C to A for [Skeer the Bloodseeker].
+
+-- URL: http://wow-pro.com/node/3493/revisions/25697/view
 -- Date: 2013-06-04 23:37
 -- Who: Ludovicus Maior
 -- Log: Added redirects to the dalies at REP thresholds for special quests.
@@ -162,6 +167,7 @@ T Kypari Zar|QID|31022|M|60.00,59.29|N|To Korven the Prime.|
 A The Root of the Problem|QID|31026|M|60.00,59.29|N|From Korven the Prime.|
 K Kill Coldbite Matriarch|QID|31026|T|Coldbite Matriarch|M|58.7,59.6;57.45,57.79|CS|QO|Coldbite Matriarch slain: 1/1|
 T The Root of the Problem|QID|31026|M|57.46,57.99|N|To Korven the Prime.|
+T Relics of the Swarm|QID|31023|M|55.0,35.6|N|To Ambersmith Zikk.|
 
 R Soggy's Gamble|QID|31265|M|56.16,70.07|
 f Soggy's Gamble|QID|99999|M|56.16,70.07|N|At Min the Breeze Rider.|
@@ -238,7 +244,7 @@ H Klaxxi'vess|QID|31092|;Kil'ruk, Korven and Kaz'tik's dailies available
 T Feed or Be Eaten|QID|31092|M|54.24,35.75|N|To Kaz'tik the Manipulator.|
 T The Kunchong Whisperer|QID|31359|M|54.24,35.75|N|To Kaz'tik the Manipulator.|
 T Falling to Pieces|QID|31398|M|54.24,35.75|N|To Kaz'tik the Manipulator.|
-T Relics of the Swarm|QID|31023|M|55.0,35.6|N|To Ambersmith Zikk.|
+
 T Mistblade Destruction|QID|31267|M|55.1,35.9|N|To Kil'ruk the Wind-Reaver|
 A Skeer the Bloodseeker|QID|31175|REP|The Klaxxi;1337;Honored-Exalted|M|55.04,35.86|N|From Kil'ruk the Wind-Reaver.|
 A A Not So Friendly Request|QID|31730|M|55.04,35.86|N|From Kil'ruk the Wind-Reaver.|
@@ -303,7 +309,7 @@ C Specimen Request|QID|31508|N|Collect 6 Kyparite Shards from Kypari Crawler.|M|
 C Fear Takes Root|QID|31509|N|Destroy 15 Dreadspore Bulbs in Zan'vess and The Briny Muck. You can do this while mounted.|M|35.00,67.60|; Briny Muck
 
 ;requires honored-which you should have
-C Skeer the Bloodseeker|QID|31175|M|25.65,53.93;25.6,50.5|CS|N|Cave is underwater. Bloodsoaked Chitin Fragment can occasionally be found here. (ilvl 450 BoP agility/mastry trinket).|
+A Skeer the Bloodseeker|QID|31175|M|25.65,53.93;25.6,50.5|CS|N|Cave is underwater. Bloodsoaked Chitin Fragment can occasionally be found here. (ilvl 450 BoP agility/mastry trinket).|
 T Skeer the Bloodseeker|QID|31175|M|25.66,50.36|O|N|To Skeer the Bloodseeker.|
 A A Strange Appetite|QID|31176|PRE|31175|M|25.66,50.36|N|From Skeer the Bloodseeker.|
 A Fine Dining|QID|31177|PRE|31175|M|25.66,50.36|N|From Skeer the Bloodseeker.|

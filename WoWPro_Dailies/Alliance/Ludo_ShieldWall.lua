@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2013-09-10 23:50
+-- Who: Ludovicus Maior
+-- Log: Fixed coords for "Mogujia" section.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25694/view
 -- Date: 2013-06-04 23:28
 -- Who: Ludovicus Maior
 -- Log: Some ACTIVE tags to make starting the guide correct!
@@ -161,12 +166,12 @@ T The Fate of Dalaran|QID|32362|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To An
 A To Mogujia|QID|32193|PRE|32362|M|89.55,32.58|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
 R Mogujia|QID|32193|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 T To Mogujia|QID|32193|M|59.8,76|Z|Kun-Lai Summit|N|To Brann Bronzebeard|
-A The Source of Korune Power|QID|32243|PRE|32193|M|58.2,71.0|Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
-A Bad Blood|QID|32194|PRE|32193|M|58.2,71.0|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
-C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
+A The Source of Korune Power|QID|32243|PRE|32193|M|59.81,76.04|Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
+A Bad Blood|QID|32194|PRE|32193|M|59.98,75.34|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
+C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|Z|Kun-Lai Summit|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
 K Korune Spellweaver|QID|32243|M|58.2,71.0|Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|
-T The Source of Korune Power|QID|32243|M|58.2,71.0|Z|Kun-Lai Summit|N|To Hilda Hornswaggle|
-T Bad Blood|QID|32194|M|58.2,71.0|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
+T The Source of Korune Power|QID|32243|M|59.81,76.04|Z|Kun-Lai Summit|N|To Hilda Hornswaggle|
+T Bad Blood|QID|32194|M|59.98,75.34|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
 
 ; Heart of the Alliance
 A Anduin's Plea|QID|32315|PRE|32193|M|89.55,32.58|REP|Operation: Shieldwall;1376;honored;11000|N|From Admiral Taylor, near the end of Honored|

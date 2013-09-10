@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2013-09-10 23:33
+-- Who: Ludovicus Maior
+-- Log: Coordinate corrections for "Xaril the Poisoned Mind".
+
+-- URL: http://wow-pro.com/node/3504/revisions/25696/view
 -- Date: 2013-06-04 23:34
 -- Who: Ludovicus Maior
 -- Log: Added QUIDs to the notes at the start so it stops asking ya questions if you don't need it anymore.
@@ -143,13 +148,13 @@ C Adjunct Ek'vem slain|QID|31018|QO|Adjunct Ek'vem slain: 1/1|M|30.80,40.40|N|Tr
 
 C Beneath the Heart of Fear|QID|31018|N|Awaken Xaril the Poisoned Mind. Click the cog floating above the rock.|M|32.00,42.30|
 
-T Beneath the Heart of Fear|QID|31018|M|54.80,36.00|N|To Xaril the Poisoned Mind|
+T Beneath the Heart of Fear|QID|31018|M|28.67,42.14|N|To Xaril the Poisoned Mind|
 
-A Venomous Intent|QID|31208|PRE|31018|N|From Xaril the Poisoned Mind|M|22.64,42.14|
+A Venomous Intent|QID|31208|PRE|31018|N|From Xaril the Poisoned Mind|M|28.67,42.14|
 
-A Dark Wings, Dark Things|QID|31209|PRE|31018|N|From Xaril the Poisoned Mind|M|22.64,42.14|
+A Dark Wings, Dark Things|QID|31209|PRE|31018|N|From Xaril the Poisoned Mind|M|28.67,42.14|
 
-A A Shade of Dread|QID|31210|PRE|31018|N|From Xaril the Poisoned Mind|M|22.64,42.14|
+A A Shade of Dread|QID|31210|PRE|31018|N|From Xaril the Poisoned Mind|M|28.67,42.14|
 
 C A Shade of Dread|QID|31210|N|Collect flowers.|M|25.60,38.45;27.76,38.88;25.12,41.15;28.27,45.17;26.24,43.17;26.49,36.01;26.15,32.84;27.97,41.07;27.16,50.67;30.20,50.10;26.11,47.64|S|CN|
 
@@ -163,13 +168,13 @@ C Venomous Intent|QID|31208|N|Kill scorpions.|M|26.00,31.80;28.40,27.80;28.30,47
 
 C Dark Wings, Dark Things|QID|31209|N|Kill Scarabs.|M|26.00,47.40;31.60,51.40;25.30,27.50;26.58,45.47;26.80,50.30;28.40,41.05;25.69,42.10;26.72,39.11;28.30,47.60;28.35,43.90;26.23,34.88|S|CN|
 
-T Venomous Intent|QID|31208|N|To Xaril the Poisoned Mind|M|22.64,42.14|
+T Venomous Intent|QID|31208|N|To Xaril the Poisoned Mind|M|28.67,42.14|
 
-T Dark Wings, Dark Things|QID|31209|N|To Xaril the Poisoned Mind|M|22.64,42.14|
+T Dark Wings, Dark Things|QID|31209|N|To Xaril the Poisoned Mind|M|28.67,42.14|
 
-T A Shade of Dread|QID|31210|N|To Xaril the Poisoned Mind|M|22.64,42.14|
+T A Shade of Dread|QID|31210|N|To Xaril the Poisoned Mind|M|28.67,42.14|
 
-A The Poisoned Mind|QID|31211|PRE|31208;31209;31210|N|From Xaril the Poisoned Mind|M|22.64,42.14|
+A The Poisoned Mind|QID|31211|PRE|31208;31209;31210|N|From Xaril the Poisoned Mind|M|28.67,42.14|
 
 C The Poisoned Mind|QID|31211|N|Talk to Xaril and ride. Paralyze then poison the same mobs for fast kills.|
 
