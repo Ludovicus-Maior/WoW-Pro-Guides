@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2013-09-25 01:50
+-- Who: Fluclo
+-- Log: Fixed error generating tags; added new steps to many quests; added level intro; merged similar quests for different faction; added Ranks to some steps
+
+-- URL: http://wow-pro.com/node/3490/revisions/25650/view
 -- Date: 2013-05-14 19:29
 -- Who: Ludovicus Maior
 -- Log: Got rid of stray M tags
@@ -145,120 +150,143 @@
 WoWPro.Leveling:RegisterGuide('EmmKun8889', 'Kun-Lai Summit', 'Emmaleah', '88', '89', 'EmmTow8990|EmmTow8990', 'Neutral', function()
 return [[
 
-N Welcome to Kun-Lai Summit.|QID|31254;31255|N|This guide assumes you are starting at Grassy Cline in Valley of the Four Winds. If you don't have the quest 'Road to Kun-Lai' it is available in Halfhill.|
+L Level 87 |QID|31254;31255|N|You need to be level 87 or higher to be able to work through this guide.|LVL|87|
 
-C Speak with the Highroad Grummle|QID|31254|FACTION|Alliance|QO|Speak with the Highroad Grummle: 1/1|NC|M|70.08,23.47|Z|Valley of the Four Winds|N|Run up the stairs, keep going up, and up, then follow the path to the tavern.|
-C Speak with the Highroad Grummle|QID|31255|FACTION|Horde|QO|Speak with the Highroad Grummle: 1/1|NC|M|70.08,23.47|Z|Valley of the Four Winds|N|Run up the stairs, keep going up, and up, then follow the path to the tavern.|
+A The Road to Kun-Lai |QID|31254;31255|N|From Messenger Grummle at the foot of The Veiled Stair in Grassy Cline, Valley of the Four Winds.\n(Also available from other NPCs in Krasarang Wilds and Valley of the Four Winds)|M|70,23.57|Z|Valley of the Four Winds|RANK|2|
 
-f Tavern in the Mists|QID|99999|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|
-C Forgotten Lockbox|QID|31867|M|54.71,71.41|Z|The Veiled Stair|NC|N|Upstairs in the inn. Another of the items one time lootable for XP and gold.|
-A Robbing Robbers of Robbers|QID|31286|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|
-A Educating Saurok|QID|31287|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|
-C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|N|Pick up the sparklis as you follow the dots.|
-C Educating Saurok|QID|31287|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|Z|The Veiled Stair|N|In the back of the cave.|
-l The Hammer of Folly|QID|31428|L|86473|M|74.83,76.39|Z|The Veiled Stair|N|Just east of the Black Market Action House, is an ancient grass covered stairway, called the Stairs that lead to nowhere, at the top, known as Mason's Folly, you will find this grey item that is worth ~100g and a decent amount of XP.|
-T Robbing Robbers of Robbers|QID|31286|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|
-T Educating Saurok|QID|31287|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|
+C Speak with the Highroad Grummle|QID|31254;31255|QO|Speak with the Highroad Grummle: 1/1|NC|M|70.08,23.47|Z|Valley of the Four Winds|N|Speak with the Highroad Grummle|RANK|2|CHAT|
 
-C Speak with Brewmaster Boof|QID|31254|FACTION|Alliance|QO|Speak with Brewmaster Boof: 1/1|NC|M|51.98,43.69|Z|The Veiled Stair|N|Continue up the path to the waters edge.|
-C Speak with Brewmaster Boof|QID|31255|FACTION|Horde|QO|Speak with Brewmaster Boof: 1/1|NC|M|51.98,43.69|Z|The Veiled Stair|N|Continue up the path to the waters edge.|
-A The Spring Drifter|QID|31285|M|51.98,43.69|Z|The Veiled Stair|N|From Brewmaster Boof.|
-C Hop in the Spring Drifter|QID|31285|NC|M|51.98,43.69|Z|The Veiled Stair|N|Get on the boat and enjoy the ride.|
-T The Spring Drifter|QID|31285|M|72.64,93.00|N|To Brewmaster Boof.|
+R Path of a Hundred Steps |QID|31286|N|Head on up the stairs to the Tavern in the Mists via the Path of a Hundred Steps.|M|53.79,87.25|RANK|2|
+R Tavern in the Mists |QID|31286|N|Keep heading up the stairs and path to the Tavern in the Mists|M|56.75,75.82|RANK|2|
 
-f Binan Village|QID|99999|CC|M|72.52,94.18|N|At Jo the Wind Watcher.|
+f Tavern in the Mists|QID|31286|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|RANK|2|
+l The Hammer of Folly|QID|31286|L|86473|M|68.53,79.00;74.83,76.39|Z|The Veiled Stair|N|*High Value Rare Loot*\nJust east of the Black Market Action House is an ancient grass covered stairway called the Stairs that lead to nowhere. At the top, known as Mason's Folly, you may find The Hammer of Folly.\nWorth 100 gold when sold to a vendor and around 350,000 XP when looted.|RANK|3|CS|
+l Forgotten Lockbox|QID|31286|M|54.71,71.41|Z|The Veiled Stair|NC|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and around 24,000 XP.|Rank|3|
+
+R The Spring Road|QID|31286|M|53.52,65.78|N|Head up to The Spring Road, north of the Tavern.|
+
+A Robbing Robbers of Robbers|QID|31286|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|RANK|2|
+A Educating Saurok|QID|31287|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|RANK|2|
+C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|N|Pick up any Black Maket Merchandise you see lying on the ground.|RANK|2|S|
+R Hatescale Burrow|QID|31287|M|55.46,56.62|N|Head to the Hatescale Burrow, and enter the cave.|
+C Educating Saurok|QID|31287|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|Z|The Veiled Stair|N|Kill Leechfingers, who can be found at the back of the cave (head to the right at both the first and second forks of the tunnel).|RANK|2|
+C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|55.38,55.40|CS|N|Finish picking up the Black Maket Merchandise you see lying on the ground as you head out of the cave.|RANK|2|US|
+T Robbing Robbers of Robbers|QID|31286|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|RANK|2|
+T Educating Saurok|QID|31287|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|RANK|2|
+
+C Speak with Brewmaster Boof|QID|31254;31255|QO|Speak with Brewmaster Boof: 1/1|NC|M|51.98,43.69|Z|The Veiled Stair|N|Continue up The Spring Road to the waters edge, then speak to Brewmaster Boof.|RANK|2|CHAT|
+
+A The Spring Drifter|QID|31285|M|51.98,43.69|Z|The Veiled Stair|N|From Brewmaster Boof.|RANK|2|
+C The Spring Drifter|QID|31285|NC|M|51.98,43.69|Z|The Veiled Stair|N|Hop in the Spring Drifter and enjoy the ride.|RANK|2|
+T The Spring Drifter|QID|31285|M|72.64,93.00|N|To Brewmaster Boof.|RANK|2|
+
+f Binan Village|QID|30457|CC|M|72.52,94.18|N|At Jo the Wind Watcher.|
 A Hit Medicine|QID|30460|M|71.62,92.82|N|From Apothecary Cheng.|
-r Repair/Restock|QID|30457|M|71.42,92.22|N|At The Metal Paw, he also sells ilvl 393 gear if you want stuff for your offspec or something.|
-T The Road to Kun-Lai|QID|31254|FACTION|Alliance|M|72.25,91.86|N|To Mayor Bramblestaff.|
-T The Road to Kun-Lai|QID|31255|FACTION|Horde|M|72.25,91.86|N|To Mayor Bramblestaff.|
+r Repair/Restock|QID|31254;31255|M|71.42,92.22|N|At The Metal Paw, he also sells ilvl 393 gear if you want stuff for your offspec or something.|RANK|3|
+T The Road to Kun-Lai|QID|31254;31255|M|72.25,91.86|N|To Mayor Bramblestaff.|
+
 A Call Out Their Leader|QID|30457|M|72.25,91.86|N|From Mayor Bramblestaff.|
-A All of the Arrows|QID|30459|M|70.47,90.05|N|From Commander Hsieh.|
-C Hit Medicine|QID|30460|S|U|79819|M|68.03,87.57|N|Use the medicine on the injured Binan warriors,|
-C All of the Arrows|QID|30459|S|M|68.79,86.46|N|The arrows are a groundspawn in this area.|
-C Call Out Their Leader|QID|30457|M|68.89,88.51|N|The boss wanders up and down the road.|
-C Hit Medicine|QID|30460|U|79819|US|M|68.03,87.57|
-C All of the Arrows|QID|30459|US|M|68.79,86.46|
-T All of the Arrows|QID|30459|M|71.01,90.45|N|To Commander Hsieh.|
+A All of the Arrows|QID|30459|M|70.75,90.37|N|From Commander Hsieh.|
+
+C Bataari Fire-Warrior|QID|30457|S|M|68.89,88.51|N|Kill the Bataari Fire-Warrior. He spawns when you kill the ten Bataari Tribe Members. He will yell a message to your chat pane when he spawns, and shows as a Skull on the Mini-Map.|QO|Bataari Fire-Warrior: 1/1|
+C Call Out Their Leader|QID|30457|S|M|68.89,88.51|N|Kill the Bataari Tribe Members, the Yaungol and Flamecaller count, the Battleyack does not.|QO|Bataari Tribe Members slain: 10/10|
+C Hit Medicine|QID|30460|S|U|79819|M|68.03,87.57|N|Use the medicine on the injured Binan warriors.|NC|
+C All of the Arrows|QID|30459|M|68.79,86.46|N|Pick up the Arrows which are sparkling on the ground in the area.|NC|
+C Hit Medicine|QID|30460|US|U|79819|M|68.03,87.57|N|Finish using the medicine on the injured Binan warriors.|NC|
+C Call Out Their Leader|QID|30457|US|M|68.89,88.51|N|Finish killing the Bataari Tribe Members, the Yaungol and Flamecaller count, the Battleyack does not.|QO|Bataari Tribe Members slain: 10/10|
+C Bataari Fire-Warrior|QID|30457|US|M|68.89,88.51|N|Kill the Bataari Fire-Warrior. He spawns when you kill ten Bataari Tribe Members. He will yell a message to your chat pane when he spawns, and shows as a Skull on the Mini-Map.|QO|Bataari Fire-Warrior: 1/1|
+
+T All of the Arrows|QID|30459|M|70.75,90.37|N|To Commander Hsieh.|
 T Call Out Their Leader|QID|30457|M|72.27,91.85|N|To Mayor Bramblestaff.|
 T Hit Medicine|QID|30460|M|71.59,92.83|N|To Apothecary Cheng.|
 
-A Admiral Taylor has Awakened|QID|30508|FACTION|Alliance|M|71.59,92.83|N|From Apothecary Cheng.|
-T Admiral Taylor has Awakened|QID|30508|FACTION|Alliance|M|71.53,93.06|N|To Admiral Taylor, upstairs.|
+A Admiral Taylor has Awakened|QID|30506;30507;30508|FACTION|Alliance|M|71.59,92.83|N|From Apothecary Cheng/Mayor Bramblestaff/Commander Hsieh depending on your quest turn-in order.|
+T Admiral Taylor has Awakened|QID|30506;30507;30508|FACTION|Alliance|M|71.53,93.06|N|To Admiral Taylor, upstairs in the First Aid Hut.|
 A Westwind Rest|QID|30512|M|71.53,93.06|FACTION|Alliance|N|From Admiral Taylor.|
 
-A General Nazgrim has Awakened|QID|30511|FACTION|Horde|M|71.58,92.78|N|From Apothecary Cheng.|
-T General Nazgrim has Awakened|QID|30511|FACTION|Horde|M|71.62,93.12|N|To General Nazgrim, upstairs.|
+A General Nazgrim has Awakened|QID|30509;30510;30511|FACTION|Horde|M|71.58,92.78|N|From Apothecary Cheng/Mayor Bramblestaff/Commander Hsieh depending on your quest turn-in order.|
+T General Nazgrim has Awakened|QID|30509;30510;30511|FACTION|Horde|M|71.62,93.12|N|To General Nazgrim, upstairs in the First Aid Hut.|
 A Eastwind Rest|QID|30513|FACTION|Horde|M|71.62,93.12|N|From General Nazgrim.|
 
-R Inkgill Mere|QID|30467|M|74.43,90.23|
+R Inkgill Mere|QID|30467|M|74.43,90.23|N|Head to Inkgill Mere by crossing the lake at the bridge then turning left.|
+
 A Repossession|QID|30469|M|74.96,88.86|N|From Merchant Shi.|
 A My Son...|QID|30467|M|74.96,88.86|N|From Merchant Shi.|
 A Enraged Vengeance|QID|30468|M|74.80,88.68|N|From Swordmistress Mei.|
 A The Waterspeaker's Staff|QID|30496|M|75.13,87.93|N|From Waterspeaker Gorai.|
 A Free the Dissenters|QID|30967|M|75.13,87.93|N|From Waterspeaker Gorai.|
-C Free the Dissenters|QID|30967|S|M|74.40,78.82|N|Talk to the Prisoners to free them.|
-C Repossession|QID|30469|M|73.99,77.54|S|N|Pick up the sparklies on the ground (usually against the buildings).|
-C Enraged Vengeance|QID|30468|M|73.26,77.51|S|N|Kill them as your work your way towards the merchant's son.|
-K Orachi|QID|30496|T|Orachi|L|81385|M|74.39,77.69|N|He wanders around in this area.|
-T My Son...|QID|30467|M|74.68,76.88|N|To Wu-Peng.|N|He is back behind some scenery.|
+
+C Free the Dissenters|QID|30967|S|M|74.40,78.82|N|Talk to the Prisoners to free them.|NC|CHAT|
+C Repossession|QID|30469|M|73.99,77.54|S|N|Pick up the sparklies on the ground (usually against the buildings).|NC|
+C Enraged Vengeance|QID|30468|M|73.26,77.51|S|N|Kill them as your work your way through the other quests in this area.|
+K Orachi|QID|30496|T|Orachi|L|81385|M|74.39,77.69|N|He's located on the main land beyond the two islands. You have the Blessing of the Inkfill so you can run on the water throughout this area.|
+T My Son...|QID|30467|M|74.68,76.88|N|To Wu-Peng. He is hiding behind the shell-shaped fence.|
 A Father and Child Reunion|QID|30834|M|74.68,76.88|N|From Wu-Peng.|
-C Free the Dissenters|QID|30967|US|M|74.40,78.82|N|Talk to the Prisoners to free them.|
-C Repossession|QID|30469|M|73.99,77.54|US|N|Groundspawn, especially up against the buildings.|
-C Enraged Vengeance|QID|30468|M|73.26,77.51|US|
+C Free the Dissenters|QID|30967|US|M|74.40,78.82|N|Finish releasing the prisoners by talking to them.|NC|CHAT|
+C Repossession|QID|30469|M|73.99,77.54|US|N|Finish collecting the stolen supplies, Groundspawn, especially up against the buildings.|NC|
+C Enraged Vengeance|QID|30468|M|73.26,77.51|US|N|Finish killing the Enrated Jinyu.|
+
 T The Waterspeaker's Staff|QID|30496|M|75.20,88.25|N|To Waterspeaker Gorai.|
 T Free the Dissenters|QID|30967|M|75.20,88.25|N|To Waterspeaker Gorai.|
 T Repossession|QID|30469|M|74.96,88.86|N|To Merchant Shi.|
-T Father and Child Reunion|QID|30834|M|74.96,88.86|N|To Merchant Shi, it may take a few seconds for the quest to update and complete.|
+T Father and Child Reunion|QID|30834|M|74.96,88.86|N|To Merchant Shi, it will take a few seconds for the quest turn-in to show.|
 T Enraged Vengeance|QID|30468|M|74.80,88.68|N|To Swordmistress Mei.|
+
 A The Ritual|QID|30480|M|75.20,88.25|N|From Waterspeaker Gorai.|
-C The Ritual|QID|30480|M|74.92,88.52|N|Talk to the Waterspeaker to start the ritual, you will need to kill a sha during the ritual.|
-T The Ritual|QID|30480|M|74.91,88.58|N|To Waterspeaker Gorai.|
+C The Ritual|QID|30480|QO|Speak to Waterspeaker Gorai to Begin the Ritual: 1/1|M|74.92,88.52|N|Talk to Waterspeaker Gorai and tell him you are ready to start the ritual.|NC|CHAT|
+C The Ritual|QID|30480|QO|Dead Inkgill Laid to Rest: 1/1|M|74.92,88.52|N|Wait for Waterspeaker to lay Inkgill to rest. Once complete, a Sha will spawn. Kill it.|
+C The Ritual|QID|30480|QO|Ritual Complete: 1/1|M|74.92,88.52|N|Kill the Sha that spawns.|
+T The Ritual|QID|30480|M|74.91,88.58|N|To Waterspeaker Gorai, it will take a few seconds for the quest turn-in to show.|
+
 A Cleansing the Mere|QID|30828|M|74.91,88.58|N|From Waterspeaker Gorai.|
-C Cleansing the Mere|QID|30828|M|71.51,86.31|N|Find and click on the sha-waterspouts in the lake, to start his ritual, a sha will come out, kill it.|
+C Cleansing the Mere|QID|30828|M|71.51,86.31|N|Find and click on the sha-waterspouts in the lake. A few seconds after clicking them, a Boiling Rage will appear, these need to be killed to cleanse the corruption.|
 T Cleansing the Mere|QID|30828|N|To Waterspeaker Gorai.|
+
 A The Fall of Shai Hu|QID|30855|N|From Waterspeaker Gorai.|
-C The Fall of Shai Hu|QID|30855|M|71.16,82.96|N|Kill the small Sha on the island, reasonably close to Shai Hu to weaken him.|
+C The Fall of Shai Hu|QID|30855|M|71.16,82.96|N|Kill the small Sha on the island, reasonably close to Shai Hu to weaken him. You must attack Shai Hu at least once with a hit for the quest kill to register.|
 T The Fall of Shai Hu|QID|30855|M|74.90,88.58|N|To Waterspeaker Gorai, back at Inkgill Mere.|
 
-C Run to see Farmhand Ko|QID|30513|FACTION|Horde|NC|QO|Speak with Farmhand Ko: 1/1|M|63.65,86.68|N|Talk to Farmhand Ko.|
-C Continue up the road to Elder Shiao|QID|30513|FACTION|Horde|NC|QO|Speak with Elder Shiao: 1/1|M|61.25,82.25|N|Talk to Elder Shiao.|
+C Eastwind Rest - Farmhand Ko|QID|30513|FACTION|Horde|NC|QO|Speak with Farmhand Ko: 1/1|M|63.65,86.68|N|Head to The Yaungo Advance, find Farmhand Ko and talk to him.|
+C Westwind Rest - Farmhand Bo|QID|30512|FACTION|Alliance|NC|QO|Speak with Farmhand Bo: 1/1|M|58.89,80.47|N|Head to The Yaungo Advance, find Farmhand Bo and talk to him|
+C Eastwind Rest - Elder Shiao|QID|30513|FACTION|Horde|NC|QO|Speak with Elder Shiao: 1/1|M|61.25,82.25|N|Continue down the road, then talk to Elder Shiao.|
+C Westwind Rest - Elder Tsulan|QID|30512|FACTION|Alliance|NC|QO|Speak with Elder Tsulan: 1/1|M|56.38,84.44|N|Continue down the road, then talk to Elder Tsulan.|
+
 T Eastwind Rest|QID|30513|FACTION|Horde|M|61.25,82.25|N|To Elder Shiao.|
-A Challenge Accepted|QID|30515|FACTION|Horde|M|61.25,82.25|N|From Elder Shiao.|
-C Challenge Accepted|QID|30515|T|Ur-Bataar|M|58.28,84.30|FACTION|Horde|N|Click on the flag to summon Ur-Bataar.|
-T Challenge Accepted|QID|30515|M|61.55,80.22|FACTION|Horde|N|To Elder Shiao.|
-A Round 'Em Up|QID|31256|M|62.99,80.22|FACTION|Horde|N|From General Nazgrim.|
-A Best Meals Anywhere!|QID|31251|M|62.73,79.83|FACTION|Horde|N|From Rivett Clutchpop.|
-A Trouble on the Farmstead|QID|30570|FACTION|Horde|M|62.52,79.55|N|From Farmhand Ko.|
-A Mogu?! Oh No-gu!|QID|30620|FACTION|Horde|M|62.33,79.69|N|From Elder Shiao.|
-f Eastwind Rest|QID|30620|FACTION|Horde|M|62.46,80.69|N|At Soaring Paw.|
-A Deanimate the Reanimated|QID|30594|FACTION|Horde|M|62.69,80.67|N|From Shademaster Kiryn.|
-T Trouble on the Farmstead|QID|30570|FACTION|Horde|M|60.29,85.72|N|To Farmer Chow.|
-
-C Run to see Farmhand Bo|QID|30512|FACTION|Alliance|NC|QO|Speak with Farmhand Bo: 1/1|M|58.89,80.47|
-C Continue up the road to Elder Tsulan|QID|30512|FACTION|Alliance|NC|QO|Speak with Elder Tsulan: 1/1|M|56.38,84.44|
 T Westwind Rest|QID|30512|FACTION|Alliance|M|56.38,84.44|N|To Elder Tsulan.|
+A Challenge Accepted|QID|30515|FACTION|Horde|M|61.25,82.25|N|From Elder Shiao.|
 A Challenge Accepted|QID|30514|FACTION|Alliance|M|56.38,87.44|N|From Elder Tsulan.|
-C Challenge Accepted|QID|30514|T|Ur-Bataar|FACTION|Alliance|M|58.30,84.20|N|Click on the flag to summon Ur-Bataar.|
-T Challenge Accepted|QID|30514|FACTION|Alliance|M|54.69,84.27|N|To Elder Tsulan.|
-A Round 'Em Up|QID|30575|FACTION|Alliance|M|53.77,82.67|N|From Admiral Taylor.|
-A Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pickle" McLeary.|
-A Mogu?! Oh No-gu!|QID|30619|M|54.17,83.42|FACTION|Alliance|N|From Elder Tsulan.|
-f Westwind Rest|QID|30619|M|53.97,84.27|FACTION|Alliance|N|At Tabo the Flyer.|
-A Trouble on the Farmstead|QID|30569|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
-A Deanimate the Reanimated|QID|30593|FACTION|Alliance|M|53.44,83.09|N|From Mishka.|
-T Trouble on the Farmstead|QID|30569|FACTION|Alliance|M|60.25,85.73|N|To Farmer Chow.|
+C Challenge Accepted|QID|30514;30515|T|Ur-Bataar|M|58.28,84.30|N|Click on the flag to summon Ur-Bataar, then kill him.|
+T Challenge Accepted|QID|30515|M|61.55,80.22|FACTION|Horde|N|To Elder Shiao, who has now moved to just outside Eastwind Rest.|
+T Challenge Accepted|QID|30514|FACTION|Alliance|M|54.69,84.27|N|To Elder Tsulan, who has now moved to just outside Westwind Rest.|
 
+A Round 'Em Up|QID|31256|FACTION|Horde|M|62.99,80.22|N|From General Nazgrim.|
+A Round 'Em Up|QID|30575|FACTION|Alliance|M|53.77,82.67|N|From Admiral Taylor.|
+A Best Meals Anywhere!|QID|31251|M|62.73,79.83|FACTION|Horde|N|From Rivett Clutchpop.|
+A Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pickle" McLeary.|
+A Mogu?! Oh No-gu!|QID|30620|FACTION|Horde|M|62.33,79.69|N|From Elder Shiao.|
+A Mogu?! Oh No-gu!|QID|30619|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|
+A Deanimate the Reanimated|QID|30594|FACTION|Horde|M|62.69,80.67|N|From Shademaster Kiryn.|
+A Deanimate the Reanimated|QID|30593|FACTION|Alliance|M|53.44,83.09|N|From Mishka.|
+A Trouble on the Farmstead|QID|30570|FACTION|Horde|M|62.52,79.55|N|From Farmhand Ko.|
+A Trouble on the Farmstead|QID|30569|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
+f Eastwind Rest|QID|30570|FACTION|Horde|M|62.46,80.69|N|At Soaring Paw.|
+f Westwind Rest|QID|30569|FACTION|Alliance|M|53.97,84.27|N|At Tabo the Flyer.|
+
+T Trouble on the Farmstead|QID|30569;30570|M|60.29,85.72|N|To Farmer Chow.|
 A Farmhand Freedom|QID|30571|M|60.24,85.79|N|From Farmer Chow.|
 A ... and the Pot, Too!|QID|30581|M|60.17,85.92|N|From Uyen Chow.|
 C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|CN|S|N|Kill the overseers to free the slaves standing near them.|
-C ... and the Pot, Too!|QID|30581|M|60.03,88.43|N|The pot is in the house, the virmin zooming around drops multiple veggies as well as them being groundspawn.|
-C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|CN|US|N|Kill the overseers to free the slaves standing near them.|
+C Root Vegetables|QID|30581|S|M|60.03,88.43|N|The root vegetables can be looted from the ground. The Wascally Wirmen zooming around under the plots can also be killed and looted for several vegetables.|QO|Root Vegetable: 12/12|NC|
+C ... and the Pot, Too!|QID|30581|M|60.03,88.43|N|The Cast Iron Pot is inside the hut|QO|Cast Iron Pot: 1/1|NC|
+C Root Vegetables|QID|30581|US|M|60.03,88.43|N|The vegetables can be looted from the ground. The Wascally Wirmen zooming around under the plots can also be killed and looted for several vegetables.|QO|Root Vegetable: 12/12|NC|
+C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|CN|US|N|Kill the Orco Overseers near the slaves to free them.|
 T ... and the Pot, Too!|QID|30581|M|60.17,85.92|N|To Uyen Chow.|
 T Farmhand Freedom|QID|30571|M|60.24,85.79|N|To Farmer Chow.|
 A Back to Westwind Rest|QID|31252|FACTION|Alliance|M|60.24,85.79|N|From Farmer Chow.|
 A Back to Eastwind Rest|QID|31253|FACTION|Horde|M|60.24,85.79|N|From Farmer Chow.|
 
-R Mogujia|QID|30595|CC|M|59.55,78.27|
+R Mogujia|QID|30595|M|59.55,78.27|N|Head to Mogujia, which is north of Chow Farmstead.|
+
 A Profiting off of the Past|QID|30595|M|59.59,78.26|N|From Bao Jian.|
 C Profiting off of the Past|QID|30595|S|M|58.40,74.86|N|Groundspawn as well as dropping from the mobs around here.|
 C Deanimate the Reanimated|QID|30593|S|FACTION|Alliance|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
