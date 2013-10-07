@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2013-10-07 00:13
+-- Who: Fluclo
+-- Log: Corrected the Edit link on page; Added NC to appropriate steps, changed valuable rare loots to Rank 3 steps, syncronised similar quests for each faction; made the steps for Fire Camp Ordo individual to help guide user to each spot needed; fixed faulty steps around At the Yak Wash; 
+
+-- URL: http://wow-pro.com/node/3490/revisions/25766/view
 -- Date: 2013-09-25 01:50
 -- Who: Fluclo
 -- Log: Fixed error generating tags; added new steps to many quests; added level intro; merged similar quests for different faction; added Ranks to some steps
@@ -288,50 +293,29 @@ A Back to Eastwind Rest|QID|31253|FACTION|Horde|M|60.24,85.79|N|From Farmer Chow
 R Mogujia|QID|30595|M|59.55,78.27|N|Head to Mogujia, which is north of Chow Farmstead.|
 
 A Profiting off of the Past|QID|30595|M|59.59,78.26|N|From Bao Jian.|
-C Profiting off of the Past|QID|30595|S|M|58.40,74.86|N|Groundspawn as well as dropping from the mobs around here.|
-C Deanimate the Reanimated|QID|30593|S|FACTION|Alliance|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
-C Terracotta Head|QID|31422|L|86427|FACTION|Alliance|M|59.25,73|NC|N|Another of the random items worth gold and XP to loot.|
-K Mogujia Soul-Caller|QID|30619|FACTION|Alliance|T|Mogujia Soul-Caller|QO|Mogujia Soul-Caller slain: 1/1|M|58.23,71.21|
-C Deanimate the Reanimated|QID|30593|US|FACTION|Alliance|M|59.20,72.21|
-
-C Deanimate the Reanimated|QID|30594|S|FACTION|Horde|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
-C Terracotta Head|QID|31422|FACTION|Horde|L|86427|M|59.25,73|NC||N|Another of the random items worth gold and XP to loot.|
-K Mogujia Soul-Caller|QID|30620|FACTION|Horde|T|Mogujia Soul-Caller|QO|Mogujia Soul-Caller slain: 1/1|M|58.23,71.21|
-C Deanimate the Reanimated|QID|30594|US|FACTION|Horde|M|59.20,72.21|
-C Profiting off of the Past|QID|30595|US|M|58.40,74.86|
+C Profiting off of the Past|QID|30595|NC|S|M|58.40,74.86|N|Groundspawn as well as dropping from the mobs around here.|
+C Deanimate the Reanimated|QID|30593;30594|S|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
+l Terracotta Head|QID|31422|M|59.2,73.0;57.0,75.5;57.8,76.3;59.2,74.5;58.4,73.5|N|*High Value Rare Loot*\nLocated somewhere in the ruins of Moguija.\nWorth 100 gold when sold to a vendor and around a half million XP when looted.|RANK|3|CC|
+K Mogujia Soul-Caller|QID|30619;30620|T|Mogujia Soul-Caller|QO|Mogujia Soul-Caller slain: 1/1|M|58.23,71.21|
+C Deanimate the Reanimated|QID|30593;30594|US|M|59.20,72.21|
+C Profiting off of the Past|QID|30595|NC|US|M|58.40,74.86|
 T Profiting off of the Past|QID|30595|M|59.58,78.27|N|To Bao Jian.|
 
-C Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|S|M|50.70,83.11|N|Birds and Mushan drop multiple meat each.|
-C Round 'Em Up|QID|30575|FACTION|Alliance|M|54.42,83.47|N|When you have 3 yaks, head back to Westwind Rest, the quest complete message comes in the encampment.|
-C Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|US|M|50.70,83.11|N|Birds and Mushan drop multiple meat each.|
+C Round 'Em Up|QID|30575;31256|S|NC|M|54.42,83.47|N|Locate and click on three Wild Plains Yaks. |
+C Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|50.70,83.11|N|Birds and Mushan drop multiple meat each.|
+C Best Meals Anywhere!|QID|31251|FACTION|Horde|M|59.99,80.46|N|Birds and Mushan drop multiple meat each.|
+C Round 'Em Up|QID|30575|FACTION|Alliance|US|NC|M|54.42,83.47|N|Locate and click on three Wild Plains Yaks. When you have 3 yaks, head back to Westwind Rest, the quest complete message comes in the encampment.|
+C Round 'Em Up|QID|31256|FACTION|Horde|US|NC|M|59.99,80.46|N|Locate and click on three Wild Plains Yaks. When you have 3 yaks, head back to Eastwind Rest, the quest complete message comes in the encampment.|
+
 T Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.17,83.27|N|To Sully "The Pickle" McLeary.|
 T Mogu?! Oh No-gu!|QID|30619|FACTION|Alliance|M|54.17,83.42|N|To Elder Tsulan.|
+A Pandaren Prisoners|QID|30650|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|
+A Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pickle" McLeary.|
 T Back to Westwind Rest|QID|31252|FACTION|Alliance|M|53.79,84.11|N|To Farmhand Bo.|
 T Deanimate the Reanimated|QID|30593|FACTION|Alliance|M|53.49,83.38|N|To Mishka.|
 T Round 'Em Up|QID|30575|FACTION|Alliance|M|53.77,82.67|N|To Admiral Taylor.|
-A Pandaren Prisoners|QID|30650|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|
-A Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pickle" McLeary.|
 A In Tents Channeling|QID|30652|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
-R Fire Camp Ordo |QID|30652|FACTION|Alliance|M|50.50,78.59|
-C Pandaren Prisoners|QID|30650|S|FACTION|Alliance|M|49.67,80.36|N|The prisoners are throughout the Fire Camp Ordo.|
-C Barrels of Fun|QID|30651|FACTION|Alliance|S|M|49.42,80.61|N|Pick up a sparkly barrel (unique - one at a time) and place it where the gears are on your minimap.|
-C In Tents Channeling|QID|30652|FACTION|Alliance|M|50.50,78.59|N|Blizzard has kindly marked the locations of the mobs to kill|
-C Barrels of Fun|QID|30651|FACTION|Alliance|US|M|49.42,80.61|N|Pick up a sparkly barrell (unique - one at a time) and place it where the gears are on your minimap.|
-T In Tents Channeling|QID|30652|FACTION|Alliance|N|To UI Alert.|
-A The Ordo Warbringer|QID|30660|FACTION|Alliance|N|From UI Alert.|
-C Pandaren Prisoners|QID|30650|US|FACTION|Alliance|M|49.67,80.36|N|Finish freeing the prisoners.|
-K Ordo Warbringer|QID|30660|T|Ordo Warbringer|QO|Ordo Warbringer slain: 1/1|FACTION|Alliance|M|48.35,76.69|
-T Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|To Sully "The Pickle" McLeary.|
-T The Ordo Warbringer|QID|30660|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
-T Pandaren Prisoners|QID|30650|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
-A The Shado-Pan|QID|31455|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
-A Beyond the Wall|QID|31695|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
-A Cho's Missive|QID|31460|FACTION|Alliance|M|53.49,83.38|N|From Mishka.|
-A Muskpaw Ranch|QID|31456|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
 
-C Best Meals Anywhere!|QID|31251|FACTION|Horde|S|M|59.99,80.46|N|Birds and Mushan drop multiple meat each.|
-C Round 'Em Up|QID|31256|FACTION|Horde|M|59.99,80.46|N|When you have 3 yaks, head back to Eastwind Rest, the quest complete message comes in the encampment.|
-C Best Meals Anywhere!|QID|31251|FACTION|Horde|US|M|59.99,80.46|N|Birds and Mushan drop multiple meat each.|
 T Mogu?! Oh No-gu!|QID|30620|FACTION|Horde|M|62.32,79.69|N|To Elder Shiao.|
 T Back to Eastwind Rest|QID|31253|FACTION|Horde|M|62.54,79.50|N|To Farmhand Ko.|
 T Best Meals Anywhere!|QID|31251|FACTION|Horde|M|62.76,79.85|N|To Rivett Clutchpop.|
@@ -340,15 +324,33 @@ T Deanimate the Reanimated|QID|30594|FACTION|Horde|M|62.69,80.63|N|To Shademaste
 T Round 'Em Up|QID|31256|FACTION|Horde|M|62.92,80.22|N|To General Nazgrim.|
 A In Tents Channeling|QID|30657|FACTION|Horde|M|62.92,80.22|N|From General Nazgrim.|
 A Pandaren Prisoners|QID|30655|FACTION|Horde|M|62.36,79.64|N|From Elder Shiao.|
-R Fire Camp Ordo |QID|30657|FACTION|Horde|M|47.76,80.17|
-C Pandaren Prisoners|QID|30655|FACTION|Horde|S|M|49.58,78.89|The prisoners are throughout the Fire Camp Ordo.|
-C Barrels of Fun|QID|30656|FACTION|Horde|S|M|47.99,81.27|N|Pick up a sparkly barrel (unique - one at a time) and place it where the gears are on your minimap|
-C In Tents Channeling|QID|30657|FACTION|Horde|M|47.76,80.17|N|Blizzard has kindly marked the locations of the mobs to kill|
-C Barrels of Fun|QID|30656|FACTION|Horde|US|M|47.99,81.27|N|Pick up a sparkly barrell (unique - one at a time) and place it where the gears are on your minimap|
-T In Tents Channeling|QID|30657|FACTION|Horde|N|To UI Alert,|
-A The Ordo Warbringer|QID|30661|FACTION|Horde|N|From UI Alert.|
-C Pandaren Prisoners|QID|30655|FACTION|Horde|US|M|49.58,78.89|N|Finish freeing the prisoners.|
-K Ordo Warbringer|QID|30661|T|Ordo Warbringer|QO|Ordo Warbringer slain: 1/1|FACTION|Horde|M|48.35,76.69|
+
+R Fire Camp Ordo |QID|30657;30652|M|50.50,78.59|
+C Pandaren Prisoners|QID|30655;30650|NC|S|M|49.67,80.36|N|Free the Pandaren Prisoners, they are located throughout Fire Camp Ordo.|
+C Barrels of Fun - Eastern Oil Rig|QID|30656;30651|NC|U|80528|M|51.0,79.4|N|Locate and click on a Explosives Barrel, head to the Eastern Oil Rig and use the Explosives.|QO|Eastern Oil Rig destroyed: 1/1|
+C Barrels of Fun - Southern Oil Rig|QID|30656;30651|S|NC|U|80528|M|49.62,80.99|N|Locate another Explosives Barrel.|QO|Southern Oil Rig destroyed: 1/1|
+C In Tents Channeling - Musaan the Blazecaster|QID|30657;30652|M|50.42,78.64|N|Kill Musaan the Blazecaster|QO|Musaan the Blazecaster slain: 1/1|T|Musaan the Blazecaster|
+C In Tents Channeling - Harala the Firespeaker|QID|30657;30652|M|49.44,78.5|N|Kill Harala the Firespeaker|QO|Harala the Firespeaker slain: 1/1|T|Harala the Firespeaker|
+C Barrels of Fun - Southern Oil Rig|QID|30656;30651|US|NC|U|80528|M|49.62,80.99|N|Locate and click another Explosives Barrel, head to the Southern Oil Rig and use the Explosives.|QO|Southern Oil Rig destroyed: 1/1|
+C Barrels of Fun - Western Oil Rig|QID|30656;30651|S|NC|U|80528|M|49.42,80.61|N|Locate one more Explosives Barrel.|QO|Western Oil Rig destroyed: 1/1|
+C In Tents Channeling - Pao-kun the Pyromancer|QID|30657;30652|M|49.17,80.36|N|Kill Pao-kun the Pyromancer|QO|Pao-kun the Pyromancer slain: 1/1|T|Pao-kun the Pyromancer|
+C In Tents Channeling - Akonu the Embercaller|QID|30657;30652|M|47.71,79.97|N|Kill Akonu the Embercaller|QO|Akonu the Embercaller slain: 1/1|T|Akonu the Embercaller|
+T In Tents Channeling|QID|30657;30652|N|To UI Alert.|
+A The Ordo Warbringer|QID|30660;30661|N|From UI Alert.|
+C Barrels of Fun - Western Oil Rig|QID|30656;30651|US|NC|U|80528|M|47.87,81.42|N|Locate and click one more Explosives Barrel, head to the Western Oil Rig and use the Explosives.|QO|Western Oil Rig destroyed: 1/1|
+K Ordo Warbringer|QID|30661;30660|T|Ordo Warbringer|QO|Ordo Warbringer slain: 1/1|M|48.35,76.69|N|Head to the back of Fire Camp Ordo, and kill Ordo Warbringer, who's at the back of the short cave.|
+C Pandaren Prisoners|QID|30655;30650|US|FACTION|Alliance|M|49.67,80.36|N|Finish freeing the prisoners.|
+
+R Westwind Rest|QID|30651|FACTION|Alliance|M|54.17,83.27|N|Head back to Westwind Rest. Careful riding past the Ordo's, they can stun you off your mount.|
+T Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|To Sully "The Pickle" McLeary.|
+T The Ordo Warbringer|QID|30660|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
+T Pandaren Prisoners|QID|30650|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
+A The Shado-Pan|QID|31455|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
+A Beyond the Wall|QID|31695|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
+A Cho's Missive|QID|31460|FACTION|Alliance|M|53.49,83.38|N|From Mishka.|
+A Muskpaw Ranch|QID|31456|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
+
+R Eastwind Rest|QID|30656|FACTION|Horde|M|62.76,79.8|N|Head back to Eastwind Rest. Careful riding past the Ordo's, they can stun you off your mount.|
 T Barrels of Fun|QID|30656|FACTION|Horde|M|62.76,79.81|N|To Rivett Clutchpop.|
 T The Ordo Warbringer|QID|30661|FACTION|Horde|M|62.28,80.29|N|To General Nazgrim.|
 T Pandaren Prisoners|QID|30655|FACTION|Horde|M|62.28,80.29|N|To General Nazgrim.|
@@ -357,26 +359,30 @@ A The Shado-Pan|QID|31453|FACTION|Horde|M|62.28,80.29|N|From General Nazgrim.|
 A Cho's Missive|QID|31459|FACTION|Horde|M|62.67,80.65|N|From Shademaster Kiryn.|
 A Muskpaw Ranch|QID|31457|FACTION|Horde|M|62.55,79.53|N|From Farmhand Ko.|
 
-R Lao & Son's Yakwash|QID|30488|M|70.13,70.24|
-T Muskpaw Ranch|QID|31457|FACTION|Horde|M|71.50,70.04|N|To Lao Muskpaw, he walkes back and forth between the two buildings.|
-T Muskpaw Ranch|QID|31456|FACTION|Alliance|M|71.50,70.04|N|To Lao Muskpaw.|
+R Lao & Son's Yakwash|QID|31456;31457|M|70.13,70.24|N|Head to Lao & Son's Yakwash, located north-east.|
+T Muskpaw Ranch|QID|31456;31457|M|71.50,70.04|N|To Lao Muskpaw, he walkes back and forth between the two buildings.|
 A The Missing Muskpaw|QID|30488|M|71.50,70.04|N|From Lao Muskpaw.|
 A Fresh Needle Scent|QID|30489|M|71.50,70.04|N|From Lao Muskpaw.|
-C Fresh Needle Scent|QID|30489|S|M|71.50,70.04|
-T The Missing Muskpaw|QID|30488|M|74.96,74.52|N|To Muskpaw Jr. He is in the back of the cave. Sometimes,(rarely) there is a Sprite's Cloth Chest, which will contain a spec specific ilvl 434 BoP cloak. (one time per char, disappears when you loot it.)|
+C Fresh Needle Scent|QID|30489|S|M|71.50,70.04|N|Kill and loot the Needle Sprite's|
+R Pranksters' Hollow|QID|30488|M|73.0,73.45|N|Head to Pranksters' Hollow then run to the back of the cave.|
+l Sprite's Cloth Chest|QID|31412|M|74.7,74.9|N|*High Value Rare Loot*\nLocated at the back of the cave.\nContains an i434 BoP cloak worth just over 15g and over half a million XP when looted.|RANK|3|
+T The Missing Muskpaw|QID|30488|M|74.96,74.52|N|To Muskpaw Jr. He is in the back of the cave. If he has sprites on him, you need to kill them before he will accept the quest from you.|
 A At the Yak Wash|QID|30491|M|74.96,74.52|N|From Muskpaw Jr..|N|You can ride Jr's Yak out of the cave and leave vehicle when you are out.|
-A At the Yak Wash|QID|30491|S|N|Riding Jr's Yak out counts as your first yak delivered.|
-K Burilgi Despoiler|QID|30587|L|80241 1|Kill and loot.|
-A Yakity Yak|QID|30587|M|71.67,73.56|N|From UI Alert. (from killing Burilgi Despoiler)|
-A The Late Mrs. Muskpaw|QID|30582|U|80241|N|Click the bracelet.|
+C Fresh Needle Scent|QID|30489|US|M|71.50,70.04|N|Finish killing and looting the Needle Sprite's|
+
+R Lao & Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao & Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
+C At the Yak Wash|QID|30491|S|N|Locate an Escaped Yak, jump on, then ride it to Lao & Son's Yakwash. Repeat until all six are done.|
+K Burilgi Despoiler|QID|30587|N|Kill and loot a Burilgi Despoiler to obtain a quest.|
+A Yakity Yak|QID|30587|M|71.67,73.56|N|This quest is auto-accepted|
+A The Late Mrs. Muskpaw|QID|30582|U|80241|N|Click the bracelet to obtain this quest.|
 T The Late Mrs. Muskpaw|QID|30582|M|71.30,69.68|N|To Lao Muskpaw. Turn this in when you are delivering a yak, so you can get the next quest, before you finish up 'Yakity Yak'.|
 A The Fearmaster|QID|30804|M|71.30,69.68|N|From Lao Muskpaw.|
-C Yakity Yak|QID|30587|S|M|69.94,72.81|
-K The Fearmaster|T|The Fearmaster|QO|The Fearmaster slain: 1/1|QID|30804|M|68.20,74.70|
-C At the Yak Wash|QID|30491|US|M|71.39,69.05|
-C Yakity Yak|QID|30587|US|M|69.94,72.81|
-C Fresh Needle Scent|QID|30489|US|M|71.67,73.59|
 T Fresh Needle Scent|QID|30489|M|71.42,69.75|N|To Lao Muskpaw.|
+C Yakity Yak|QID|30587|S|M|69.94,72.81|N|Kill the Burilgi Despoiler's|
+K The Fearmaster|T|The Fearmaster|QO|The Fearmaster slain: 1/1|QID|30804|M|68.20,74.70|N|Kill The Fearmaster|
+C At the Yak Wash|QID|30491|US|M|71.39,69.05|N|Finish bringing the Escaped Yak to Lao & Son's Yakwash.|
+C Yakity Yak|QID|30587|US|M|69.94,72.81|N|Finish killing the Burilgi Despoiler's|
+
 T Yakity Yak|QID|30587|M|71.42,69.75|N|To Lao Muskpaw.|
 T The Fearmaster|QID|30804|M|71.37,69.64|N|To Lao Muskpaw.|
 T At the Yak Wash|QID|30491|M|71.34,69.31|N|To Muskpaw Jr..|
@@ -408,13 +414,13 @@ f Temple of the White Tiger|QID|31393|FACTION|Horde|M|66.31,50.67|N|At Big Green
 
 T Temple of the White Tiger|QID|31392|FACTION|Alliance|M|68.74,43.07|N|To Anduin Wrynn.|
 A A Celestial Experience|QID|31394|FACTION|Alliance|M|68.74,43.07|N|From Anduin Wrynn.|
-C A Celestial Experience|QID|31394|FACTION|Alliance|M|68.98,44.09|N|This takes a minute or so to start (after you talk to Xuen). You will fight a sha, with a nameplate portrait of you, for first and 2nd test.  3rd test (against a sha of Dezco) has an AE.  If you run outside of the circle to avoid it, you will fail. (you will undoubtedly have agro on anyone else's sha's also, try to avoid tagging thiers)|
+C A Celestial Experience|QID|31394|FACTION|Alliance|M|68.98,44.09|N|This takes a minute or so to start (after you talk to Xuen). You will fight a sha, with a nameplate portrait of you, for first and 2nd test. 3rd test (against a sha of Dezco) has an AE. If you run outside of the circle to avoid it, you will fail. (you will undoubtedly have agro on anyone else's sha's also, try to avoid tagging thiers)|
 T A Celestial Experience|QID|31394|FACTION|Alliance|M|68.76,43.14|N|To Anduin Wrynn.|
 A A Witness to History|QID|31512|FACTION|Alliance|M|68.76,43.14|N|From Anduin Wrynn.|
 
 T Temple of the White Tiger|QID|31393|FACTION|Horde|M|68.74,43.07|N|To Dezco.|
 A A Celestial Experience|QID|31395|FACTION|Horde|M|68.74,43.07|N|From Dezco.|
-C A Celestial Experience|QID|31395|FACTION|Horde|M|68.98,44.09|N|This takes a minute or so to start (after you talk to Xuen). You will fight a sha, with a nameplate portrait of you, for first and 2nd test.  3rd test (against a sha of Anduin) has an AE.  If you run outside of the circle to avoid it, you will fail. (you will undoubtedly have agro on anyone else's sha's also, try to avoid tagging thiers)|
+C A Celestial Experience|QID|31395|FACTION|Horde|M|68.98,44.09|N|This takes a minute or so to start (after you talk to Xuen). You will fight a sha, with a nameplate portrait of you, for first and 2nd test. 3rd test (against a sha of Anduin) has an AE. If you run outside of the circle to avoid it, you will fail. (you will undoubtedly have agro on anyone else's sha's also, try to avoid tagging thiers)|
 T A Celestial Experience|QID|31395|FACTION|Horde|M|68.76,43.14|N|To Dezco.|
 A A Witness to History|QID|31511|FACTION|Horde|M|68.76,43.14|N|From Dezco.|
 
@@ -437,7 +443,7 @@ C Instant Courage|QID|30601|M|57.54,47.44|N|These guys are hiding in their baske
 C Resupplying One Keg|QID|30618|M|56.33,50.88|N|Ground spawn sparklies.|
 C They Stole My Luck!|QID|30621|M|57.77,49.30|US|
 C Resupplying One Keg|QID|30618|M|56.33,50.88|N|Ground spawn sparklies.|
-C Stolen Sprite Treasure|QID|31415|NC|M|56.82,48.99|N|Its a treasure chest, loot it for XP/gold.  It is an instant respawn and can appear at multiple spots in the cave.|
+C Stolen Sprite Treasure|QID|31415|NC|M|56.82,48.99|N|Its a treasure chest, loot it for XP/gold. It is an instant respawn and can appear at multiple spots in the cave.|
 C Instant Courage|QID|30601|M|57.54,47.44|N|It's ok to leave the Guides to die if you want to zerg (or hearth) out.|
 
 H One Keg|QID|30618|N|Run if you didn't reset your hearthstone.|
@@ -449,14 +455,14 @@ A Comin' Round the Mountain|QID|30487|M|57.22,61.21|N|From Uncle Cloverleaf.|
 C Comin' Round the Mountain|QID|30487|M|57.33,61.55|N|Hop in the wagon. He will take you up the hill, you get to throw stuff at the Hozen chasing you.|
 T Comin' Round the Mountain|QID|30487|M|48.14,49.04|N|To Lucky Bluestring.|
 A One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|From Lucky Bluestring.|
-C One Traveler's Misfortune|QID|30683|M|50.22,49.39|N|Click on the overturned cart, then fight the statues and finally the  General.|
+C One Traveler's Misfortune|QID|30683|M|50.22,49.39|N|Click on the overturned cart, then fight the statues and finally the General.|
 C Rikktik's Tick Remover|QID|31419|L|86430|M|51.90,48.62;52.55,56.52|CS|NC|N|Another gray item worth gold and XP, this one is located in a cave just down the road.|
 T One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|To Lucky Bluestring.|
 A Seeker's Folly|QID|30684|M|48.14,49.04|N|From Lucky Bluestring.|
 C Seeker's Folly|QID|30684|M|43.22,51.99|N|Stop (click) at each shrine as you go up the hill, avoiding the 'bad' stuff.|
 T Seeker's Folly|QID|30684|M|43.79,51.05|N|To Lorewalker Cho.|
 A The Tongue of Ba-Shon|QID|30829|M|43.79,51.05|N|From Lorewalker Cho.|
-C Tablet of Ren Yun|QID|31417|NC|M|44.7,52.4|N|Optional-This BoP recipe can rarely be found beside a statue/shrine to Ren Yun at the top of Mt Neverest.  Check this step off manually when you don't find it.|
+C Tablet of Ren Yun|QID|31417|NC|M|44.7,52.4|N|Optional-This BoP recipe can rarely be found beside a statue/shrine to Ren Yun at the top of Mt Neverest. Check this step off manually when you don't find it.|
 C The Tongue of Ba-Shon|QID|30829|M|43.51,51.38|N|Tell Cho you are ready to begin, then protect him while he does his spell.|
 T The Tongue of Ba-Shon|QID|30829|M|43.79,51.05|N|To Lorewalker Cho.|
 A Staying Connected|QID|30795|M|43.79,51.05|N|From Lorewalker Cho.|
@@ -476,7 +482,7 @@ A Breaking the Emperor's Shield|QID|30798|M|55.14,46.47|N|From Image of Lorewalk
 C Breaking the Emperor's Shield|QID|30798|M|53.02,51.35|N|Go up the stairs from Tomb of Shadows to Tomb of Secrets.|
 T Breaking the Emperor's Shield|QID|30798|U|81712|M|52.94,50.85|N|To Image of Lorewalker Cho.|
 A Stealing Their Thunder King|QID|30800|M|52.94,50.85|N|From Image of Lorewalker Cho.|
-C Stealing Their Thunder King|QID|30800|M|53.55,4.48;53.35,48.65;54.74,46.84;48.79,47.36|CC|N|Instead of following the path (green dots) you can just jump over the edge and its almost immediately below where you exited the last tomb.  When you get inside, watch your step, the colored tiles are trapped. Click on the chest by the table to loot the bottom half of the tablet.  Then move into the next room and click on the tablet on the wall to complete the quest.|
+C Stealing Their Thunder King|QID|30800|M|53.55,4.48;53.35,48.65;54.74,46.84;48.79,47.36|CC|N|Instead of following the path (green dots) you can just jump over the edge and its almost immediately below where you exited the last tomb. When you get inside, watch your step, the colored tiles are trapped. Click on the chest by the table to loot the bottom half of the tablet. Then move into the next room and click on the tablet on the wall to complete the quest.|
 T Stealing Their Thunder King|QID|30800|U|81712|M|49.13,47.46|N|To Image of Lorewalker Cho.|
 A Lessons from History|QID|30801|M|49.13,47.46|N|From Image of Lorewalker Cho.|
 C Lessons from History|QID|30801|M|48.84,47.33|N|Click on the tablet on the wall, cutscene follows.|
@@ -548,7 +554,7 @@ T Revelations|QID|30946|M|62.33,29.06|N|To Lorewalker Cho.|
 A Prophet Khar'zul|QID|31228|M|62.33,29.06|N|From Lorewalker Cho.|
 C Fly to the Prophet's Island|QID|31228|QO|Speak with Mishi in Zouchin Village: 1/1|M|62.29,29.34|NC|
 C Prophet Khar'zul|QID|31228|M|76.4,9.2|N|Kill 12 trolls as you work your way to the waypoint, where you will find the prophet.|
-F Zouchin Village|QID|31228|M|76.17,11.38|CC|N|Talk to Mishi for a ride back to the village.  If he is not there, go back up the stairs to the top and go back down.|
+F Zouchin Village|QID|31228|M|76.17,11.38|CC|N|Talk to Mishi for a ride back to the village. If he is not there, go back up the stairs to the top and go back down.|
 T Prophet Khar'zul|QID|31228|M|62.33,29.06|N|To Lorewalker Cho.|
 
 H One Keg|QID|30592|N|Fly if you didn't reset your hearthstone earlier from "The Lucky Traveller".|
@@ -677,7 +683,7 @@ T Turnabout|QID|30670|M|44.47,89.91|N|To Shado-Master Chong.|
 A Unmasking the Yaungol|QID|30690|M|44.47,89.91|N|From Shado-Master Chong.|
 T The Defense of Shado-Pan Fallback|QID|30665|M|44.47,89.91|N|To Shado-Master Chong.|
 T Holed Up|QID|30682|M|44.47,89.91|N|To Shado-Master Chong.|
-C Unmasking the Yaungol|QID|30690|U|81741|M|45.28,86.63|N|Set up you trap and pull him into it.  When he is trapped, use your 'extra action' button.|
+C Unmasking the Yaungol|QID|30690|U|81741|M|45.28,86.63|N|Set up you trap and pull him into it. When he is trapped, use your 'extra action' button.|
 T Unmasking the Yaungol|QID|30690|M|44.48,89.91|N|To Shado-Master Chong.|
 A To Winter's Blossom|QID|30699|M|44.48,89.91|N|From Shado-Master Chong.|
 r Repair/Restock|QID|30699|M|44.23,90.25|N|At Fixxit Redhammer.|
