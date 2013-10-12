@@ -251,6 +251,7 @@ function WoWPro:OnInitialize()
 	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
 	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
+	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
@@ -261,7 +262,7 @@ function WoWPro:OnInitialize()
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
 	WoWPro.DebugLevel = WoWProCharDB.DebugLevel
-
+    
 end
 
 -- Setting up event handler
