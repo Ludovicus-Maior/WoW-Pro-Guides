@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2013-10-02 12:42
+-- Who: Ludovicus Maior
+-- Log: Removed glassfin village as per Blanckaert. 
+
+-- URL: http://wow-pro.com/node/3486/revisions/25726/view
 -- Date: 2013-06-20 13:25
 -- Who: Kaboca
 -- Log: +Added some lorewalkers exploration/reputation related lines. Also corrected coordinates for Elder Lusshan, he is on the hill.
@@ -658,7 +663,7 @@ T The Jade Serpent|QID|30000|M|55.85,57.08|N|To Elder Sage Wind-Yi.|
 
 A Get Back Here!|QID|30498|M|55.84,57.07|N|From UI Alert.|
 f Jade Temple Grounds|QID|30498|M|54.58,61.75|N|At Ginsa Arroweye.|
-F Pearlfin Village|QID|30498|M|54.58,61.35|N|The flightmaster has an option for a direct flight. (currently misnamed glassfin village).|
+F Pearlfin Village|QID|30498|M|54.58,61.35|N|The flightmaster has an option for a direct flight.|
 A An Unexpected Advantage|QID|30565|M|58.55,82.30|N|From Sully "The Pickle" McLeary.|
 T Get Back Here!|QID|30498|M|58.07,80.65|N|To Admiral Taylor.|
 A Helping the Cause|QID|30568|M|58.08,80.67|N|From Admiral Taylor.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2013-09-16 21:11
+-- Who: Fluclo
+-- Log: Corrected quest As Hyjal Burns so that it works for Horde as well
+
+-- URL: http://wow-pro.com/node/3303/revisions/25720/view
 -- Date: 2013-06-18 01:02
 -- Who: Ludovicus Maior
 -- Log: quest 28826's name [Eye of the Storm] does not match Grail's database [The Eye of the Storm].
@@ -163,8 +168,10 @@ WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82',
 return [[
 
 L Level 80 |QID|28825|N|You need to be Level 80 to do this guide.|LVL|80|FACTION|Alliance|
+L Level 80 |QID|27721|N|You need to be Level 80 to do this guide.|LVL|80|FACTION|Horde|
 
-N Flying Mount|QID|28825|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|
+F Flying Mount|QID|28825|BUFF|90267|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|
+F Flying Mount|QID|27721|BUFF|90267|Z|Orgrimmar|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|FACTION|Horde|
 
 A A Personal Summons|QID|28825|M|71.44,72.32|Z|Stormwind City|N|Should pop up automatically when you enter Stormwind and are level 80.|FACTION|Alliance|
 h Trade District|QID|28825|M|60.36,75.20|Z|Stormwind City|N|At Innkeeper Allison.|FACTION|Alliance|
@@ -176,16 +183,13 @@ T The Eye of the Storm|QID|28826|M|74.56,19.18|Z|Stormwind City|N|To Naraat the 
 C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.7,28.36|Z|Stormwind City|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|FACTION|Alliance|
 T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|Moonglade|N|To Emissary Windsong.|FACTION|Alliance|
 
-L Level 80 |QID|27721|N|You need to be Level 80 to do this guide.|LVL|80|FACTION|Horde|
-
-N Flying Mount|QID|27721|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar. Close this step.|FACTION|Horde|
-
-R Orgrimmar|QID|27721|Z|Orgrimmar|N|Make your way to Orgrimmar.|FACTION|Horde|
-A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board.|FACTION|Horde|
-N Cenarion Emissary Blackhoof|QID|27721|M|40.0,50.5|Z|Orgrimmar|N|Talk to Cenarion Emissary Blackhoof in the Valley of Wisdom. Ask him to teleport you to Moonglade. Close this step.|FACTION|Horde|
+A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board from Orgrimmar.|FACTION|Horde|
+C Warchief's Command: Mount Hyjal!|QID|27721|M|40.0,50.5|CHAT|Z|Orgrimmar|N|Speak to Cenarion Emissary Blackhoof in the Valley of Wisdom and ask "Could you please send me to Moonglade Emissary?".|FACTION|Horde|
 T Warchief's Command: Mount Hyjal!|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|FACTION|Horde|
 
-A As Hyjal Burns|QID|25316|PRE|27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|
+A As Hyjal Burns|QID|25316|PRE|27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|FACTION|Alliance|
+A As Hyjal Burns|QID|25316|PRE|27721|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|FACTION|Horde|
+
 F Nordrassil|QID|25316|M|46.1,45.51|Z|Moonglade|N|Jump on Aronus to fly to Nordrassil.|
 T As Hyjal Burns|QID|25316|M|62.08,24.89|N|To Ysera.|
 A Protect the World Tree|QID|25317|PRE|25316|M|62.08,24.89|N|From Ysera.|
@@ -194,7 +198,7 @@ A The Earth Rises|QID|25460|PRE|25316|RANK|2|M|64.05,22.58|N|From Anren Shadowse
 A Inciting the Elements|QID|25370|PRE|25316|RANK|2|M|64.05,22.58|N|From Tholo Whitehoof.|
 C The Earth Rises|QID|25460|RANK|2|M|64.61,22.62|N|Kill Scalding Rock Elementals.|S|
 l Juniper Berries|QID|25370|RANK|2|L|53009 4|M|67.11,22.08|N|Loot 4 Juniper Berries.|
-C Inciting the Elements|QID|25370|RANK|2|U|53009|M|64.8,22.5|N|Use the Berries on Faerie Dragons and kill the Twilight Inciter.|
+C Inciting the Elements|QID|25370|RANK|2|U|53009|M|64.8,22.5|N|Use the Berries on Faerie Dragons. They will then reveal a hidden Twilight Inciter.  Kill the Twilight Inciter.|
 C The Earth Rises|QID|25460|RANK|2|M|64.61,22.62|N|Kill Scalding Rock Elementals.|US|
 T The Earth Rises|QID|25460|RANK|2|M|64.03,22.66|N|To Anren Shadowseeker.|
 T Inciting the Elements|QID|25370|RANK|2|M|64.07,22.46|N|To Tholo Whitehoof.|
@@ -202,13 +206,15 @@ A Flames from Above|QID|25574|PRE|25370|RANK|2|M|64.06,22.51|N|From Tholo Whiteh
 C Flames from Above|QID|25574|RANK|2|U|55122|M|55.80,15.33|N|Use Tholo's Horn in the middle of the Twilight encampment.|NC|
 T Flames from Above|QID|25574|RANK|2|M|64.05,22.50|N|To Tholo Whitehoof.|
 T Protect the World Tree|QID|25317|M|47.68,35.51|N|To Malfurion Stormrage.|
+
 A War on the Twilight's Hammer|QID|25319|M|47.68,35.51|N|From Malfurion Stormrage.|
 A The Flameseer's Staff|QID|25472|M|47.68,35.51|N|From Windspeaker Tamila.|
-C The Flameseer's Staff|QID|25472|M|43.41,28.80|S|N|Loot the Charred Staff Fragments off of the ground in the charred areas.|NC|
-C War on the Twilight's Hammer|QID|25319|M|47.09,30.18|N|Kill Twilight Flamecallers and Vanquishers.|
-C The Flameseer's Staff|QID|25472|M|43.41,28.80|US|N|Loot the Charred Staff Fragments off of the ground in the charred areas.|NC|
+C War on the Twilight's Hammer|QID|25319|S|M|47.09,30.18|N|Kill Twilight Flamecallers and Vanquishers.|
+C The Flameseer's Staff|QID|25472|M|43.41,28.80;48.27,29.47|CC|N|Loot the Charred Staff Fragments off of the ground in the charred areas.|NC|
+C War on the Twilight's Hammer|QID|25319|US|M|47.09,30.18|N|Finish killing the Twilight Flamecallers and Vanquishers.|
 T War on the Twilight's Hammer|QID|25319|M|47.74,35.43|N|To Malfurion Stormrage.|
 T The Flameseer's Staff|QID|25472|M|47.74,35.43|N|To Malfurion Stormrage.|
+
 A Flamebreaker|QID|25323|M|47.74,35.43|N|From Malfurion Stormrage.|
 C Flamebreaker|QID|25323|U|53107|M|43.99,33.22|N|Use the Flameseer's Staff on the Blazebound Elementals in the charred areas around The Verdant Thicket. This will break up the elementals into 8-10 smaller elementals. Kill these Unbound Flame Spirits.|
 T Flamebreaker|QID|25323|M|47.67,35.47|N|To Malfurion Stormrage.|

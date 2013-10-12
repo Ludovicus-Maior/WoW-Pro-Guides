@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2013-09-10 23:36
+-- Who: Ludovicus Maior
+-- Log: Relocated Haohan's Vote quest T steps for better flow.
+--	A prototype for other changes for the other ones.
+
+-- URL: http://wow-pro.com/node/3508/revisions/25616/view
 -- Date: 2013-05-09 22:24
 -- Who: Ludovicus Maior
 -- Log: Tweaks and added the final "Bought the farm" questline.
@@ -163,16 +169,11 @@ T Nana's Vote III: Witchberry Julep|QID|31949|M|54.6,47|N|To Nana Mudclaw.|
 
 ;HAOHAN'S VOTE - 16800 Revered - only in town as its all (except the one step) done with farmer yoon (who is in town)
 A Haohan's Vote I: Bungalow Break-In|PRE|31949|QID|30521|REP|The Tillers;1272;revered;16800|M|52.20,48.86|N|From Farmer Yoon.|
-T Haohan's Vote I: Bungalow Break-In|QID|30521|M|44.6,34|N|To Haohan Mudclaw.|
 A Haohan's Vote II: The Real Culprits|PRE|30521|QID|30522|M|44.6,34|N|Go investigate the shed, if you find something maybe he will be happier.|
-T Haohan's Vote II: The Real Culprits|QID|30522|M|52.20,48.86|N|To Farmer Yoon.|
 A Haohan's Vote III: Pure Poison|QID|30525|PRE|30522|M|52.20,48.86|N|From Farmer Yoon.|
-T Haohan's Vote III: Pure Poison|QID|30525|M|52.20,48.86|N|To Farmer Yoon.|32.4,20.4|N|
 A Haohan's Vote IV: Melons For Felons|QID|30527|PRE|30525|M|52.20,48.86|N|From Farmer Yoon.|
-T Haohan's Vote IV: Melons For Felons|QID|30527|M|52.20,48.86|N|To Farmer Yoon.|
 A Haohan's Vote V: Chief Yip-Yip|QID|30528|PRE|30527|M|52.20,48.86|N|From Farmer Yoon. you may have to leave the farm area and come back for this to show up.|;REP 20,000 Revered
 K Chief Yip-Yip|T|Chief Yip-Yip|QO|Chief Yip-Yip slain: 1/1|QID|30528|M|32.4,20.4|N|Head to the cave, use your 'extra action' button whenever its available (not grey) to temporarily weaken him, kill him while he is weak.|
-T Haohan's Vote V: Chief Yip-Yip|QID|30528||M|52.20,48.86|N|To Farmer Yoon. A dialog follows which includes a place where you you place your vote in the bowl on the shrine to actually join The Tillers Union.|
 
 ;pick up quests
 A Farmer Yoon - Get all available quests|QID|31672;31942;31673;31941;31670;31669;31674;31675;31943;31671|M|52.19,48.802|N|Only the ones that you turn in food and lost treasures (from Dark Soil) are mentioned by name, get all the quests, not just their's.|
@@ -397,6 +398,12 @@ T Stealing is Bad... Re-Stealing is OK|QID|30334|M|52.21,48.82|N|To Farmer Yoon.
 T The Kunzen Hunter-Chief|QID|30336|M|52.21,48.82|N|To Farmer Yoon.|
 T Simian Sabotage|QID|30337|M|52.21,48.82|N|To Farmer Yoon.|
 A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|PRE|31945|REP|The Tillers;1272;honored;5500|M|52.28,48.74|N|From Farmer Yoon.|
+
+T Haohan's Vote I: Bungalow Break-In|QID|30521|M|44.6,34|N|To Haohan Mudclaw.|
+T Haohan's Vote II: The Real Culprits|QID|30522|M|52.20,48.86|N|To Farmer Yoon.|
+T Haohan's Vote III: Pure Poison|QID|30525|M|52.20,48.86|N|To Farmer Yoon.|32.4,20.4|N|
+T Haohan's Vote IV: Melons For Felons|QID|30527|M|52.20,48.86|N|To Farmer Yoon.|
+T Haohan's Vote V: Chief Yip-Yip|QID|30528||M|52.20,48.86|N|To Farmer Yoon. A dialog follows which includes a place where you you place your vote in the bowl on the shrine to actually join The Tillers Union.|
 
 ;CLEAR THE WEEDS - 0 Honored
 A Growing the Farm I: The Weeds|QID|30260|PRE|31945|REP|The Tillers;1272;honored|M|52.25,48.79|From Farmer Yoon.|

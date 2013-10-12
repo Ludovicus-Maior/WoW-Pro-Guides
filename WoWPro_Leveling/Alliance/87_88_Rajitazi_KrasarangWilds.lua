@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2013-09-17 14:18
+-- Who: Fluclo
+-- Log: Fix QID on initial step, and added Level step at beginning of guide.
+
+-- URL: http://wow-pro.com/node/3488/revisions/25722/view
 -- Date: 2013-06-18 01:08
 -- Who: Ludovicus Maior
 -- Log: quest 31410's name [Booties] does not match Grail's database [Equipment Locker].
@@ -86,7 +91,8 @@
 WoWPro.Leveling:RegisterGuide('RajKra8788', 'Krasarang Wilds', 'Rajitazi', '87', '88', 'EmmKun8889', 'Alliance', function()
 return [[
 
-F Zhu's Watch|QID|11111|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
+L Level 86 |QID|30080|LVL|86|N|You need to be Level 86 to do this guide.|
+F Zhu's Watch|QID|30080|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.22,7.06|N|From Ken-Ken.|
 C Speak with Mei|QID|30079|NC|QO|Speak with Mei: 1/1|M|75.84,7.60|N|Up the stairs, outside.|

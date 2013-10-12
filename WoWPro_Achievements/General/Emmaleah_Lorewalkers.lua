@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
+-- Date: 2013-09-10 23:57
+-- Who: Ludovicus Maior
+-- Log: Interleave the last turnins to avoid client crash if you turn in more than one quest before "Storytime" starts.   You could pile up X copies of Lorewalker Cho telling stories at the same time and then BOOOM!
+
+-- URL: http://wow-pro.com/node/3506/revisions/25512/view
 -- Date: 2013-01-26 03:06
 -- Who: Kaboca
 -- Log: The Last Stand - making it easier to find :-)
@@ -93,7 +98,7 @@ C Clean off the Bookshelf|QID|31015|NC|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|
 T Your Private Collection|QID|31015|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|From Lorewalker Cho.|
 
 F The Defiant (Kun-Lai)|QID|9767160002|M|77.55, 95.33|Z|Kun-Lai Summit|ACH|6716;2|N|Between a Saurok and a Hard Place.  This one is inside the Ancient Passage, in a room called 'Deep Rookery'. Its actually easiest to get to from an area in 'The Veiled Stair' called, 'The Secret Aerie'.|
-F Role Call |QID|968460004|M|58.07,13.03;52.77,15.9;47.78,13.21;54.97,15.71|CS|Z|The Veiled Stair|ACH|6846;4|N|Fish Tales|
+F Role Call |QID|968460004|M|74.48,83.55|CS|Z|Kun-Lai Summit|ACH|6846;4|N|Fish Tales|
 F Yaungoil |QID|96847003|M|71.72, 63.02|Z|Kun-Lai Summit|ACH|6847;03|N|The Song of the Yaungol. The 'Weapons Rack' containing the lost 'Sturdy Yaungol Spear' also spawns in this camp.|
 F The Emperor's Burden - Part 6 |QID|968550006|M|67.76, 48.33|Z|Kun-Lai Summit|ACH|6855;6|N|The Seven Burdens of Shaohao.|
 F Victory in Kun-Lai |QID|968580005|M|63.04, 40.82|Z|Kun-Lai Summit|ACH|6858;5|N|What is Worth Fighting For.|
@@ -147,25 +152,25 @@ F Embracing the Passions |QID|968500003|M|83.19, 21.18|Z|Valley of the Four Wind
 
 l Find a mailbox(Vale)|QID|31055|L|83769,83770,83771,83772,83773,83774,83777,83779,83780|N|Retrieve the items Lorewalker Cho has mailed to you.|
 A Between a Saurok and a Hard Place|QID|31055|O|U|83769|N|From 'Between a Saurok and a Hard Place' received in the mail.|;interesting --- item ID on mouseover and wowhead is 83076, but 83769 is what lets it autocomplete (which i found after more digging on wowhead)
-A Hozen in the Mist|QID|31093|O|U|83770|N|From 'Hozen in the Mist' received in the mail.|
-A Fish Tales|QID|31094|O|U|83771|N|From 'Fish Tales' received in the mail.|
-A The Dark Heart of the Mogu|QID|31095|O|U|83772|N|From 'The Dark Heart of the Mogu' received in the mail.|
-A What is Worth Fighting For|QID|31096|O|U|83774|N|From 'What is Worth Fighting For' received in the mail.|
-A Heart of the Mantid Swarm|QID|31097|O|U|83773|N|From 'Heart of the Mantid Swarm' received in the mail.|
-A The Song of the Yaungol|QID|31100|O|U|83777|N|From 'The Song of the Yaungol' received in the mail.|
-A The Seven Burdens of Shaohao|QID|31102|O|U|83779|N|From 'The Seven Burdens of Shaohao' received in the mail.|
-A The Ballad of Liu Lang|QID|31103|O|U|83780|N|From 'The Ballad of Liu Lang' received in the mail.|
-
 T Between a Saurok and a Hard Place|QID|31055|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho. After each of the next 8 turnins will be a RP scene that takes about 2 min before you can turn the next one in.|
+A Hozen in the Mist|QID|31093|O|U|83770|N|From 'Hozen in the Mist' received in the mail.|
 T Hozen in the Mist|QID|31093|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+A Fish Tales|QID|31094|O|U|83771|N|From 'Fish Tales' received in the mail.|
 T Fish Tales|QID|31094|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+A The Dark Heart of the Mogu|QID|31095|O|U|83772|N|From 'The Dark Heart of the Mogu' received in the mail.|
 T The Dark Heart of the Mogu|QID|31095|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+A What is Worth Fighting For|QID|31096|O|U|83774|N|From 'What is Worth Fighting For' received in the mail.|
 T What is Worth Fighting For|QID|31096|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+A Heart of the Mantid Swarm|QID|31097|O|U|83773|N|From 'Heart of the Mantid Swarm' received in the mail.|
 T Heart of the Mantid Swarm|QID|31097|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+A The Song of the Yaungol|QID|31100|O|U|83777|N|From 'The Song of the Yaungol' received in the mail.|
 T The Song of the Yaungol|QID|31100|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+A The Seven Burdens of Shaohao|QID|31102|O|U|83779|N|From 'The Seven Burdens of Shaohao' received in the mail.|
 T The Seven Burdens of Shaohao|QID|31102|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+A The Ballad of Liu Lang|QID|31103|O|U|83780|N|From 'The Ballad of Liu Lang' received in the mail.|
 T The Ballad of Liu Lang|QID|31103|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-B Toys!|QID|99999|M|82.2,29.4|Z|Vale of Eternal Blossoms|N|You should now be exalted, visit the Quartermaster, Tan Shin Tiao, for the new toys.|
+
+B Toys!|M|82.2,29.4|Z|Vale of Eternal Blossoms|N|You should now be exalted, visit the Quartermaster, Tan Shin Tiao, for the new toys.|
 
 ]]
 
