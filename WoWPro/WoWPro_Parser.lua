@@ -382,7 +382,21 @@ function WoWPro.LoadGuideStepsReal()
 	WoWPro:ParseSteps(steps)
 	
 	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
+	WoWPro:PushCurrentGuide(GID)
 	WoWPro:GuideSetup()
+end
+
+-- Push the guide on to the list of active guides, one per module
+function WoWPro:PushCurrentGuide(GID)
+    local guideType = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+    if not  WoWProDB.char[guideType] then
+        WoWProDB.char[guideType] = {}
+    end
+    if not WoWProDB.char[guideType].GuideStack then
+        WoWProDB.char[guideType].GuideStack = {}
+    end
+    WoWProDB.char[guideType].GuideStack[GID] = time()
+    WoWPro[guideType]:dbp("Recorded load for guide %s at %d",GID,WoWProDB.char[guideType].GuideStack[GID])
 end
 
 -- Guide Setup --
@@ -393,6 +407,10 @@ end
 
 function WoWPro.SetupGuideReal()
     local GID = WoWProDB.char.currentguide
+    local guideType = WoWPro.Guides[GID].guidetype
+    local guideClass = WoWPro[guideType]
+    local recordQIDs = guideClass.RecordQIDs
+    
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
 	-- Checking to see if any steps are already complete --
@@ -418,7 +436,9 @@ function WoWPro.SetupGuideReal()
 				qid = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(qid)
 			end
-
+            if recordQIDs then
+                WoWProDB.global.QID2Guide[QID] = GID
+            end
             if QID then
     		    -- Turned in quests --
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
