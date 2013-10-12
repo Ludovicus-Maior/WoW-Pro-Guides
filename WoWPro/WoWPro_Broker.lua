@@ -243,6 +243,7 @@ function WoWPro.UpdateGuideReal(From)
 			WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
 			WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
 			WoWPro:LoadGuide()
+			return
 		else
 			WoWPro.NextGuideDialog:Show()
 		end
@@ -907,18 +908,11 @@ function WoWPro:SkipAll()
 end
 
 function WoWPro:DoQuest(qid)
-    if type(qid) == "table" then
-        for  i,p in ipairs(qid) do
-            WoWPro:Print("Marking 1:n QID %d for execution.",p)
-            WoWPro:QuestPrereq(p)
-        end
-        return
-    end
     WoWPro:Print("Marking QID %s for execution.",qid)
-
     local GID = WoWProDB.char.currentguide
+    qid = tonumber(qid)
 	for index=1, WoWPro.stepcount do
-	    if tonumber(WoWPro.QID[index]) == tonumber(qid) and not WoWProCharDB.Guide[GID].completion[index] then
+	    if tonumber(WoWPro.QID[index]) == qid and not WoWProCharDB.Guide[GID].completion[index] then
 	        WoWProCharDB.Guide[GID].skipped[index] = nil
         end
     end
@@ -926,17 +920,15 @@ end
 
 function WoWPro:QuestPrereq(qid)
     WoWPro:DoQuest(qid)
-    local preReq = Grail:QuestPrerequisites(qid)
-    WoWPro:Print("QID %s prereqs are: %s",tostring(qid),tostring(preReq))
-    if not preReq then return end
-    for i,p in ipairs(preReq) do
-        if( string.sub(tostring(p),1,1) == "B" ) then
-            p = string.sub(p,2);
-        end
-        WoWPro:QuestPrereq(p)
-    end
-    local preReq = Grail:QuestBreadcrumbs(qid)
+    local firstQuestsInPrerequisiteChain = {}
+    local allQuestsInPrerequisiteChain = {}
+
+    Grail:_PreparePrerequisiteInfo(Grail:QuestPrerequisites(qid, true), firstQuestsInPrerequisiteChain,
+                                   allQuestsInPrerequisiteChain, 0, true)
     
+    for i,q in ipairs(allQuestsInPrerequisiteChain) do
+        WoWPro:DoQuest(q)
+    end
 end
 
 function WoWPro:Questline(qid)
