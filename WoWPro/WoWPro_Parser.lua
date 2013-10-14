@@ -702,9 +702,9 @@ function WoWPro:RowUpdate(offset)
 			if string.sub(target,1,1) == "/" then
 			    mtext = string.gsub(target,"\\n","\n")
 			elseif emote then
-			    mtext = "/tar "..target.."\n/"..emote
+			    mtext = "/target "..target.."\n/"..emote
 			else
-			    mtext = "/cleartarget\n/targetexact "..target.."\n"
+			    mtext = "/cleartarget\n/target "..target.."\n"
 			    mtext = mtext .. "/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
 			end
 			row.targetbutton:SetAttribute("macrotext", mtext)
@@ -712,6 +712,9 @@ function WoWPro:RowUpdate(offset)
     		if WoWPro[module:GetName()].RowUpdateTarget then
     		    WoWPro[module:GetName()]:RowUpdateTarget(row)
     		end
+    		
+    		-- WoWPro:dbp("Target text set to: %s",row.targetbutton:GetAttribute("macrotext"))
+    		
 			if use then
 				row.targetbutton:SetPoint("TOPRIGHT", row.itembutton, "TOPLEFT", -5, 0)
 			else
