@@ -4,6 +4,17 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2013-10-14 19:15
+-- Who: Ludovicus Maior
+-- Log: Breakup the questlines warning at the top, add the ;nobonus tag to the REP argument to stop prompting me to buy the silly thing when I have it.
+
+-- URL: http://wow-pro.com/node/3503/revisions/25772/view
+-- Date: 2013-10-14 17:02
+-- Who: Ludovicus Maior
+-- Log: Added some missing M tags and trimmed one warning.
+--	Need to add magic REP tags.
+
+-- URL: http://wow-pro.com/node/3503/revisions/25713/view
 -- Date: 2013-06-18 00:48
 -- Who: Ludovicus Maior
 -- Log: quest 32010's name [A Celestial Task!] does not match Grail's database [A Celestial Task].
@@ -73,19 +84,20 @@
 WoWPro.Dailies:RegisterGuide("EmmAugCel", "Vale of Eternal Blossoms", "August Celestials Dailies", "MoP", "Emmaleah", "Neutral", function()
 return [[
 
-N Work In Process Disclaimer|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|
-N Golden Lotus first|N|You need to be revered with the Golden Lotus before you can start the August Celestials Dailies.|
-N Regular Leveling Quests|N|If you haven't done the questlines in Temple of the Jade Serpant (Jade Forest), Temple of Red Crane (Krasarang Wildes) Temple of the White Tiger(Kun-Lai Summit) and Niuzeo's temple (Townlong Steppes) you probably want to, since those quest chains each offor August Celestials rep.  It is not required to have done them before doing the dailies.|
+N Temple of the Jade Serpent Quests|QID|30000|N|If you haven't done the questlines in Temple of the Jade Serpent (Jade Forest), you probably want to, since those quest chains each offer August Celestials rep.  It is not required to have done them before doing the dailies.|
 
-;intro quest - one time - not necesary - may be deprecated in 5.1?
-T A Celestial Task|QID|32011|FACTION|Alliance|M|84.6,63.6|N|To Sage Whiteheart. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
-T A Celestial Task|QID|32010|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom. If you don't have this quest, it probably isn't available for pick up.  It seems to become unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|
+N Temple of Red Crane Quests|QID|30273|N|If you haven't done the questlines in Temple of Red Crane (Krasarang Wilds), you probably want to, since those quest chains each offer August Celestials rep.  It is not required to have done them before doing the dailies.|
+
+N Temple of the White Tiger|QID|31394|FACTION|Alliance|N|If you haven't done the questlines in Temple of the White Tiger(Kun-Lai Summit) you probably want to, since those quest chains each offer August Celestials rep.  It is not required to have done them before doing the dailies.|
+N Temple of the White Tiger|QID|31395|FACTION|Horde|N|If you haven't done the questlines in Temple of the White Tiger(Kun-Lai Summit) you probably want to, since those quest chains each offer August Celestials rep.  It is not required to have done them before doing the dailies.|
+
+N Niuzao's Temple Quests|QID|30925|N|If you haven't done the questlines in Niuzao's Temple (Townlong Steppes) you probably want to, since those quest chains each offer August Celestials rep.  It is not required to have done them before doing the dailies.|
 
 ;pointer quests - alliance
-A Random August Celestal Temple Quest|QID|31376;31378;31380;31382|FACTION|Alliance|M|84.6,63.6|N|From Sage Whiteheart.|
+A Random August Celestial Temple Quest|QID|31376;31378;31380;31382|FACTION|Alliance|M|84.6,63.6|N|From Sage Whiteheart.|
 
 ;pointer quests - horde
-A Random August Celestal Temple Quest|QID|31377;31379;31381;31383|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom.|
+A Random August Celestial Temple Quest|QID|31377;31379;31381;31383|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom.|
 
 ;jade serpent temple
 T Attack At The Temple of the Jade Serpent|QID|31376|M|53.91,61.94|Z|The Jade Forest|FACTION|Alliance|N|To Elder Sage Tai-Feng.|
@@ -130,37 +142,37 @@ T Gifts of the Great Crane|QID|30717|M|31.4,63.6|Z|Krasarang Wilds|N|From Yan Qu
 T Students of Chi-Ji|QID|30718|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
 ; The Match list
 A The Champion of Chi-Ji Quest|QID|30725;30726;30727;30728;30729;30730;30731;30732;30733;30734;30735|PRE|30718;30736;30737;30737;30738;30739;30740|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
-C Ellia Ravenmane|QID|30725|M|31.8,71|Z|Krasarang Wilds|
+C Ellia Ravenmane|QID|30725|M|31.8,71.0|Z|Krasarang Wilds|
 T Ellia Ravenmane|QID|30725|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Minh Do-Tan|QID|30726|M|32,76.4|Z|Krasarang Wilds|
+C Minh Do-Tan|QID|30726|M|32.0,76.4|Z|Krasarang Wilds|
 T Minh Do-Tan|QID|30726|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Ellia Ravenmane: Rematch|QID|30727|M|35,75|Z|Krasarang Wilds|
+C Ellia Ravenmane: Rematch|QID|30727|M|35.0,75.0|Z|Krasarang Wilds|
 T Ellia Ravenmane: Rematch|QID|30727|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Fat Long-Fat|QID|30728|31.8,71|Z|Krasarang Wilds|
+C Fat Long-Fat|QID|30728|M|31.8,70.4|Z|Krasarang Wilds|
 T Fat Long-Fat|QID|30728|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
 C Julia Bates|QID|30729|M|28.8,75.4|Z|Krasarang Wilds|
 T Julia Bates|QID|30729|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Dextrous Izissha|QID|30730|31.6,80.2|Z|Krasarang Wilds|
+C Dextrous Izissha|QID|30730|M|31.6,80.2|Z|Krasarang Wilds|
 T Dextrous Izissha|QID|30730|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Kuo-Na Quillpaw|QID|30731|36.4,74.8|Z|Krasarang Wilds|
+C Kuo-Na Quillpaw|QID|30731|M|36.4,74.8|Z|Krasarang Wilds|
 T Kuo-Na Quillpaw|QID|30731|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Ellia Ravenmane: Revenge|QID|30732|34.4,83.2|Z|Krasarang Wilds|
+C Ellia Ravenmane: Revenge|QID|30732|M|34.4,83.2|Z|Krasarang Wilds|
 T Ellia Ravenmane: Revenge|QID|30732|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Tukka-Tuk|QID|30733|34,75|Z|Krasarang Wilds|
+C Tukka-Tuk|QID|30733|M|34.0,75.0|Z|Krasarang Wilds|
 T Tukka-Tuk|QID|30733|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Huck Wheelbarrow|QID|30734|27.8,70.2|Z|Krasarang Wilds|
+C Huck Wheelbarrow|QID|30734|M|27.8,70.2|Z|Krasarang Wilds|
 T Huck Wheelbarrow|QID|30734|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Mindel Sunspeaker|QID|30735|30,70|Z|Krasarang Wilds|
+C Mindel Sunspeaker|QID|30735|M|30.0,70.0|Z|Krasarang Wilds|
 T Mindel Sunspeaker|QID|30735|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Yan Quillpaw|QID|30736|36.4,76|Z|Krasarang Wilds|
+C Yan Quillpaw|QID|30736|M|36.4,76.0|Z|Krasarang Wilds|
 T Yan Quillpaw|QID|30736|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Fat Long-Fat: Rematch|QID|30737|34.6,82.4|Z|Krasarang Wilds|
+C Fat Long-Fat: Rematch|QID|30737|M|34.6,82.4|Z|Krasarang Wilds|
 T Fat Long-Fat: Rematch|QID|30737|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Thelonius|QID|30738|28.8,72.4|Z|Krasarang Wilds|
+C Thelonius|QID|30738|M|28.8,72.4|Z|Krasarang Wilds|
 T Thelonius|QID|30738|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Ellia Ravenmane: Redemption|QID|30739|36.2,75.4|Z|Krasarang Wilds|N|She is at the top of the Pedestal of Hope this time.|
+C Ellia Ravenmane: Redemption|QID|30739|M|36.2,75.4|Z|Krasarang Wilds|N|She is at the top of the Pedestal of Hope this time.|
 T Ellia Ravenmane: Redemption|QID|30739|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
-C Champion of Chi-Ji|QID|30740|34.4,81.8|Z|Krasarang Wilds|
+C Champion of Chi-Ji|QID|30740|M|34.4,81.8|Z|Krasarang Wilds|
 T Champion of Chi-Ji|QID|30740|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius. Congratulations, you have finished the August Celestials story line.|
 
 ;white tiger temple
@@ -230,8 +242,8 @@ T In Battle's Shadow|QID|30958|M|39.15,62.07|Z|Townlong Steppes|N|To Yak-Keeper 
 T Paying Tribute|QID|30955|M|38.91,62.75|Z|Townlong Steppes|N|From High Adept Paosha, who paces.|
 
 ;buy grand commendation
-B Grand Commendation|FACTION|Alliance|M|84.6,63.6|REP|The August Celestials;1341;Revered|U|93224|N|Unless you love pain (err... dailies) buy this, when you reach revered, from Sage Whiteheart. You will need to manually check this step off.|
-B Grand Commendation|FACTION|Horde|M|62.6,23.2|REP|The August Celestials;1341;Revered|U|93224|N|Unless you love pain (err... dailies) buy this, when you reach revered, from Sage Lotusbloom. You will need to manually check this step off.|
+B Grand Commendation|FACTION|Alliance|M|84.6,63.6|REP|The August Celestials;1341;Revered;nobonus|U|93224|N|Unless you love pain (err... dailies) buy this, when you reach revered, from Sage Whiteheart. You will need to manually check this step off.|
+B Grand Commendation|FACTION|Horde|M|62.6,23.2|REP|The August Celestials;1341;Revered;nobonus|U|93224|N|Unless you love pain (err... dailies) buy this, when you reach revered, from Sage Lotusbloom. You will need to manually check this step off.|
 
 N Exalted! Congratulations!|REP|The August Celestials;1341;Exalted|N|There is no overall achievement or questline for becoming exalted with August Celestials. There are some new items that you can now purchase from the quartermaster in your faction city.|
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
