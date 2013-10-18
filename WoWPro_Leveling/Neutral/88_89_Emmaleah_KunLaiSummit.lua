@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2013-10-17 18:15
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3490/revisions/25774/view
 -- Date: 2013-10-15 16:29
 -- Who: Fluclo
 -- Log: Removed NC on lines with CHAT, fixed typo, added Notes to some steps to clarify what's needed, added extra steps and second quest ID for A Celestial Experience, commented out a C step on Instant Courage (wasn't showing in guide as it's complete at this point anyway), added extra steps to Seeker's Folly, guide was missing an A step for Temple of the White Tiger, clarified on Tongue of Ba-Shon on all steps that could need it, fixed direction for rare treasure, repositioned Hozen Treasure Cache step as you ended up doubling back for a quest later in the guide.
@@ -170,8 +174,8 @@ R Path of a Hundred Steps |QID|31286|N|Head on up the stairs to the Tavern in th
 R Tavern in the Mists |QID|31286|N|Keep heading up the stairs and path to the Tavern in the Mists|M|56.75,75.82|RANK|2|
 
 f Tavern in the Mists|QID|31286|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|RANK|2|
-l The Hammer of Folly|QID|31286|L|86473|M|68.53,79.00;74.83,76.39|CS|Z|The Veiled Stair|N|*High Value Rare Loot*\nJust east of the Black Market Action House is an ancient grass covered stairway called the Stairs that lead to nowhere. At the top, known as Mason's Folly, you may find The Hammer of Folly.\nWorth 100 gold when sold to a vendor and lots of XP when looted.|RANK|3|
-l Forgotten Lockbox|QID|31286|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and lots of XP.|Rank|3|
+l The Hammer of Folly|QID|31286|L|86473|M|68.53,79.00;74.83,76.39|CS|Z|The Veiled Stair|N|*High Value Rare Loot*\nJust east of the Black Market Action House is an ancient grass covered stairway called the Stairs that lead to nowhere. At the top, known as Mason's Folly, you may find The Hammer of Folly.\nWorth 100 gold when sold to a vendor and a lot of XP when looted.|RANK|3|
+l Forgotten Lockbox|QID|31286|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and a lot of XP when looted.|Rank|3|
 
 R The Spring Road|QID|31286|M|53.52,65.78|N|Head up to The Spring Road, north of the Tavern.|
 
@@ -468,7 +472,7 @@ T Comin' Round the Mountain|QID|30487|M|48.14,49.04|N|To Lucky Bluestring.|
 A One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|From Lucky Bluestring.|
 C One Traveler's Misfortune|QID|30683|M|50.22,49.39|NC|N|Head back down the hill, then examine the Abandoned Wreckage.|QO|Search the Abandoned Wreckage for supplies: 1/1|
 C One Traveler's Misfortune|QID|30683|M|50.22,49.39|N|Wait a few moments for dialog from General Sho Lien, who will then summon four Stone Guardians. Kill the guardians, then kill General Sho Lien.|QO|General Sho Lien slain: 1/1|
-l Rikktik's Tick Remover|QID|31419|M|51.90,48.62;52.55,56.52|CS|N|*High Value Rare Loot*\nLocated in a cave just down the road, loot Rikktik's Tiny Chest.\nWorth over 50 gold when looted, provides a trash item that sells for 105 gold, and a lot of XP on looting the tiny chest.|Rank|3|
+l Rikktik's Tick Remover|QID|31419|M|51.90,48.62;52.55,56.52|CS|N|*High Value Rare Loot*\nLocated in a cave just down the road, loot Rikktik's Tiny Chest.\nWorth over 50 gold when looted, provides a trash item that sells for 105 gold, and lots of XP on looting the tiny chest.|Rank|3|
 T One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|To Lucky Bluestring.|
 
 A Seeker's Folly|QID|30684;31306|M|48.14,49.04|N|From Lucky Bluestring.|
@@ -624,17 +628,19 @@ T No Pack Left Behind|QID|30600|M|51.97,67.21|N|To Brother Rabbitsfoot.|
 
 A Bros Before Hozen|QID|30605|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 T Breaking Broketooth|QID|30604|M|51.97,67.21|N|To Brother Rabbitsfoot.|
-C Bros Before Hozen|QID|30605|M|50.53,64.21|N|Brother Yakshoe is on top of a little hill on the edge of Knucklethump Hole.|
+C Bros Before Hozen|QID|30605|NC|M|50.53,64.21|N|Brother Yakshoe is on top of a little hill on the edge of Knucklethump Hole.Path up the hill can be found to the east.|
 T Bros Before Hozen|QID|30605|M|50.60,64.08|N|To Brother Yakshoe.|
 
 A Hozen Love Their Keys|QID|30607|M|50.60,64.08|N|From Brother Yakshoe.|
 A The Snackrifice|QID|30608|M|50.60,64.08|N|From Brother Yakshoe.|
 A Thumping Knucklethump|QID|30606|M|50.60,64.08|N|From Brother Yakshoe.|
-C Thumping Knucklethump|S|QID|30606|M|50.47,62.78|
-C The Snackrifice|QID|30608|M|50.58,62.54|N|Attack the rope they are hanging from.|
-C Thumping Knucklethump|US|QID|30606|M|50.47,62.78|
+C Thumping Knucklethump|S|QID|30606|M|50.47,62.78|N|Kill the Silverback Hozen around the Knucklethump Hole.|
+C The Snackrifice|QID|30608|M|50.58,62.54|NC|N|Either click the cages on the ground, or attack the rope from those behind hung up to dry as you make your way to cave at the back.|
+C Thumping Knucklethump|US|QID|30606|M|50.47,62.78|N|Finish killing the Silverback Hozen as you enter and traverse the cave.|
+K Cho Cho the Wicked|QID|30607|S|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key.|
 l Hozen Treasure Cache|QID|31414|M|49.5,59.4|N|*High Value Rare Loot*\nFound at the back of the cave at Knucklethump Hole.\nGives over 99 gold and a lot of XP on looting.|Rank|3|
-K Cho Cho the Wicked|QID|30607|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key. Click on the lock to release Poot Poot. Poot Poot gives you a ride out.|
+K Cho Cho the Wicked|QID|30607|US|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key. Click on the lock to release Poot Poot. Poot Poot gives you a ride out.|
+C Hozen Love Their Keys|QID|30607|M|49.00,59.28|NC|N|Click on the lock to release Poot Poot. Poot Poot will give you a ride back to The Burlap Waystation.|QO|Release Old Poot Poot: 1/1|
 T Hozen Love Their Keys|QID|30607|M|52.02,67.18|N|To Brother Yakshoe.|
 T The Snackrifice|QID|30608|M|52.02,67.18|N|To Brother Yakshoe.|
 A Grummle! Grummle! Grummle!|QID|30610|M|52.02,67.18|N|From Brother Yakshoe.|
@@ -642,17 +648,18 @@ T Thumping Knucklethump|QID|30606|M|51.98,67.21|N|To Brother Rabbitsfoot.|
 A Unleash The Yeti!|QID|30611|M|51.98,67.21|N|From Brother Rabbitsfoot.|
 
 R The Dooker Dome|QID|30611|M|46.56,62.95|
-C Unleash The Yeti!|QID|30611|M|46.56,62.95|S|N|Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
-C Grummle! Grummle! Grummle!|QID|30610|M|44.84,63.64|M|Click on the packs (sparkly groundspawn), to tell the Grummle's to take it away.|
-C Unleash The Yeti!|QID|30611|M|46.56,62.95|US|N|Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
-T Grummle! Grummle! Grummle!|QID|30610|M|45.94,64.05|N|To Brother Yakshoe.|
-T Unleash The Yeti!|QID|30611|M|45.91,64.06|N|To Brother Rabbitsfoot.|
+C Unleash The Yeti!|QID|30611|M|46.56,62.95|S|N|Kill the Cagemasters. Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
+C Grummle! Grummle! Grummle!|QID|30610|M|44.84,63.64|NC|N|Click on the Grummle Gear crates (sparkly groundspawn) to tell the Grummle's to take it away.|
+C Unleash The Yeti!|QID|30611|M|46.56,62.95|US|N|Finish killing the Cagemasters. Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
+T Grummle! Grummle! Grummle!|QID|30610|M|45.94,64.05|N|To Brother Yakshoe, who is now at The Dooker Dome..|
+T Unleash The Yeti!|QID|30611|M|45.91,64.06|N|To Brother Rabbitsfoot, who is now at The Dooker Dome.|
 A The Leader Hozen|QID|30612|M|45.91,64.06|N|From Brother Rabbitsfoot.|
-C The Leader Hozen|QID|30612|M|46.15,63.24|N|Lots of moving in the fight to avoid the 'bad' stuff.|
-T The Leader Hozen|QID|30612|M|51.97,67.21|N|To Brother Rabbitsfoot.|
+C The Leader Hozen|QID|30612|M|46.15,63.24|N|Enter into the ring, and engage Chomp Chomp.|QO|Enrage Chomp Chomp: 1/1|
+C The Leader Hozen|QID|30612|M|46.15,63.24|N|Kill The Ook of Dook. Watch for the lightning bolts. |
+T The Leader Hozen|QID|30612|M|51.97,67.21|N|To Brother Rabbitsfoot, who has moved back to the Burlap Waystation.|
 
 A The Burlap Trail: To Kota Basecamp|QID|30692|M|51.66,67.83|N|From Brother Trailscenter.|
-C The Burlap Trail: To Kota Basecamp|QID|30692|M|43.77,69.04|M|Escort them to Kota Basecamp, yes, they will die if you don't help.|
+C The Burlap Trail: To Kota Basecamp|QID|30692|M|43.77,69.04|M|As before, press M on your map to determine the current location of the Trail Packers, head to that location, then escort them to the Kota Basecamp, there will be many attacks, and the Packers will die if you don't help them. Only the guide will fend off the attacks, and can die. You need to get only one Packer alive to the Kota Basecamp to successfully complete the quest.|
 f Kota Basecamp|QID|30692|M|42.81,69.63|N|At Uncle Eastwind.|
 T The Burlap Trail: To Kota Basecamp|QID|30692|M|42.45,68.91|N|To Brother Oilyak.|
 h Kota Basecamp|QID|30744|M|42.67,69.76|N|Set your hearthstone at Clover Keeper.|
@@ -660,18 +667,21 @@ A Kota Blend|QID|30744|M|42.42,69.65|N|From Uncle Keenbean.|
 A Trouble Brewing|QID|30745|M|42.42,69.65|N|From Uncle Keenbean.|
 A Shut it Down|QID|30742|M|42.34,69.73|N|From Cousin Gootfur.|
 A Gourmet Kafa|QID|30743|M|42.34,69.73|N|From Cousin Gootfur.|
-C Gourmet Kafa|QID|30743|S|M|39.99,71.67|N|Flag the droppings.|
-C Shut it Down|QID|30742|S|M|40.67,73.42|N|Goats are hard to miss.|
+
+C Gourmet Kafa|QID|30743|S|M|39.99,71.67|NC|N|Click the Kafa'good Deposits found on the mountainside.|
+C Shut it Down|QID|30742|S|M|40.67,73.42|N|Kill the Kafa-Crazed Mountain Goats found on the mountainside.|
 C Trouble Brewing|QID|30745|S|M|37.83,77.90;39.39,75.23;37.16,68.20|CN|N|Yeti's are located in the caves, any of the caves will do.|
-C Kota Blend|QID|30744|U|81054|S|M|36.38,76.94|Pick up the betties from the ground. very plentiful in the caves.|
+C Kota Blend|QID|30744|S|U|81054|NC|M|36.38,76.94|N|Follow the flags up the mountain and head to the cave, picking the berries from the ground. Don't take any unnecessary risks on the mountains, they are plentiful when you reach the caves.|
+l Kafa Press|QID|31304|M|37.5,78.0;35.2,76.3|CS|N|*High Value Rare Loot*\nTalk to 'Frozen Trail Packer' who can be rarely found at the back of the cave.\nGives an item and a lot of XP on looting.|Rank|3|
+C Kota Blend|QID|30744|US|U|81054|NC|M|36.38,76.94|N|Follow the flags up the mountain and head to the cave, picking the berries from the ground. Don't take any unnecessary risks on the mountains, they are plentiful when you reach the caves.|
 T Kota Blend|QID|30744|N|To UI Alert.|M|36.38,76.94|
 A A Fair Trade|QID|30746|N|From UI Alert.|M|36.38,76.94|
-C Gourmet Kafa|QID|30743|US|M|36.95,76.16|N|Flag the droppings.|
-C Kafa Press|QID|31304|NC|M|37.5,78.0;35.2,76.3|CS|N|Optional, Talk to 'Frozen Trail Packer' who can be rarely found at the back of the cave for a clicky haste item (and XP). Manually check this step off when you don't find it.|
-C Trouble Brewing|QID|30745|US|M|37.83,77.90|N|Yeti's are located in the caves, any of the caves will do.|
-C Lost Adventurer's Belongings|QID|31418|NC|M|36.7,79.8|N|This one time loot item worth gold and XP is located at the spawn spot of the 87 silver elite Ski'thik. If he is up, you may want to skip this one.|
-C Shut it Down|QID|30742|US|M|40.67,73.42|N|Goats are hard to miss.|
+C Trouble Brewing|QID|30745|US|M|37.83,77.90|N|Finish killing the Yeti's inside the caves.|
+C Gourmet Kafa|QID|30743|US|M|36.95,76.16|NC|N|Finish flagging the Kafa'good Deposits found on the mountainside.|
+C Shut it Down|QID|30742|US|M|40.67,73.42|N|Finish killing the Kafa-Crazed Mountain Goats found on the mountainside.|
+
 T A Fair Trade|QID|30746|M|36.95,76.16|N|To Nephew Burrberry, wait a few seconds for a ride down the mountain.|
+R Kota Basecamp|QID|30742|N|Wait a few moments, and you will have Kota Kon take you down the mountain back to Kota Basecamp.|
 T Shut it Down|QID|30742|M|42.48,69.45|N|To Cousin Gootfur.|
 T Trouble Brewing|QID|30745|M|42.48,69.45|N|To Uncle Keenbean.|
 T Gourmet Kafa|QID|30743|M|42.34,69.73|N|To Cousin Gootfur.|
