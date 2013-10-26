@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2013-10-27 01:06
+-- Who: Ludovicus Maior
+-- Log: Some coord fixes for Northrend
+
+-- URL: http://wow-pro.com/node/3441/revisions/25784/view
+-- Date: 2013-10-26 22:48
+-- Who: Ludovicus Maior
+-- Log: Add the missing U|37586| to Northrend
+
+-- URL: http://wow-pro.com/node/3441/revisions/25783/view
+-- Date: 2013-10-26 22:27
+-- Who: Ludovicus Maior
+-- Log: Blade's Edge Mountains not Netherstorm.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25782/view
 -- Date: 2013-10-26 02:26
 -- Who: Ludovicus Maior
 -- Log: Cleft of Shadow@Orgrimmar
@@ -83,7 +98,7 @@ F The Stormspire|M|33.75,64.00|QID|12408|Z|Netherstorm|U|37586|N|Fly to The Stor
 A Candy Bucket|QID|12408|M|43.32,36.10|Z|Netherstorm|N|Eyonix, Stormspire|
 F Evergrove|M|45.31,34.87|QID|12406|Z|Netherstorm|U|37586|N|Fly to Evergrove, Blade's Edge Mountains.|
 A Candy Bucket|QID|12406|M|62.90,38.33|Z|Blade's Edge Mountains|N| Inkeeper Aelerya, Evergrove|
-F Thunderlord Stronghold|M|61.68,39.62|QID|12393|Z|Netherstorm|U|37586|N|Fly to Thunderlord Stronghold, Blade's Edge Mountains.|
+F Thunderlord Stronghold|M|61.68,39.62|QID|12393|Z|Blade's Edge Mountains|U|37586|N|Fly to Thunderlord Stronghold, Blade's Edge Mountains.|
 A Candy Bucket|QID|12393|M|53.43,55.54|Z|Blade's Edge Mountains|N|Gholah, Thunderlord Stronghold|
 F Zabra'jin|M|52.06,54.12|QID|12390|Z|Blade's Edge Mountains|U|37586|N|Fly to Zabra'jin, Zangarmarsh.|
 A Candy Bucket|QID|12390|M|30.63,50.87|Z|Zangarmarsh|N|Merajit, Zabra'jin|

@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2013-10-27 01:06
+-- Who: Ludovicus Maior
+-- Log: Some coord fixes for Northrend
+
+-- URL: http://wow-pro.com/node/3441/revisions/25784/view
+-- Date: 2013-10-26 22:48
+-- Who: Ludovicus Maior
+-- Log: Add the missing U|37586| to Northrend
+
+-- URL: http://wow-pro.com/node/3441/revisions/25783/view
+-- Date: 2013-10-26 22:27
+-- Who: Ludovicus Maior
+-- Log: Blade's Edge Mountains not Netherstorm.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25782/view
 -- Date: 2013-10-26 02:26
 -- Who: Ludovicus Maior
 -- Log: Cleft of Shadow@Orgrimmar
