@@ -4,6 +4,29 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2013-10-26 02:26
+-- Who: Ludovicus Maior
+-- Log: Cleft of Shadow@Orgrimmar
+
+-- URL: http://wow-pro.com/node/3441/revisions/25781/view
+-- Date: 2013-10-26 02:00
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/25780/view
+-- Date: 2013-10-26 01:43
+-- Who: Ludovicus Maior
+-- Log: Forest was misspelled
+
+-- URL: http://wow-pro.com/node/3441/revisions/25779/view
+-- Date: 2013-10-26 01:21
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/25778/view
+-- Date: 2013-10-25 22:50
+-- Who: Ludovicus Maior
+-- Log:  Ibanozzle
+
+-- URL: http://wow-pro.com/node/3441/revisions/25162/view
 -- Date: 2012-10-24 21:10
 -- Who: Ludovicus Maior
 -- Log: Add Horde Pandaria Hallows End TRIAL.

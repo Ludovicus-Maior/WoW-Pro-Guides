@@ -4,6 +4,29 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2013-10-26 02:26
+-- Who: Ludovicus Maior
+-- Log: Cleft of Shadow@Orgrimmar
+
+-- URL: http://wow-pro.com/node/3441/revisions/25781/view
+-- Date: 2013-10-26 02:00
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/25780/view
+-- Date: 2013-10-26 01:43
+-- Who: Ludovicus Maior
+-- Log: Forest was misspelled
+
+-- URL: http://wow-pro.com/node/3441/revisions/25779/view
+-- Date: 2013-10-26 01:21
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/25778/view
+-- Date: 2013-10-25 22:50
+-- Who: Ludovicus Maior
+-- Log:  Ibanozzle
+
+-- URL: http://wow-pro.com/node/3441/revisions/25162/view
 -- Date: 2012-10-24 21:10
 -- Who: Ludovicus Maior
 -- Log: Add Horde Pandaria Hallows End TRIAL.
@@ -42,7 +65,7 @@ N Wall of Text Part 2 of 2|QID|12388|N|Also to note, you can get multiples of th
 
 N This guide starts|QID|12388|N|in Orgrimmar, so if you are in the Eastern Kingdoms, take the blimp and transport to Orgrimmar.|
 
-R Blasted Lands|M|44.73,68.01|Z|Cleft of Shadow|N|Take the portal to the Blasted Lands in the Cleft of Shadow|
+R Blasted Lands|M|44.73,68.01|Z|Cleft of Shadow@Orgrimmar|N|Take the portal to the Blasted Lands in the Cleft of Shadow|
 R Hellfire Peninsula|N|Run thru the Dark Portal|M|54.95,54.02|Z|Blasted Lands|
 F Thrallmar|M|87.34,48.13|QID|12388|Z|Hellfire Peninsula|N|Fly to Thrallmar, Hellfire Peninsula.|
 A Candy Bucket|QID|12388|M|56.80,37.45|Z|Hellfire Peninsula|N|Floyd Pinkus, Thrallmar|
