@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-10-28 19:40
+-- Who: Ludovicus Maior
+-- Log: do emotes using new syntax
+
+-- URL: http://wow-pro.com/node/3440/revisions/25787/view
 -- Date: 2013-10-28 02:06
 -- Who: Ludovicus Maior
 -- Log: Use Dalaran City@Dalaran instead of just Dalaran.

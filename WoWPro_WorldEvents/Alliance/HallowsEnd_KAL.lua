@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-10-28 19:40
+-- Who: Ludovicus Maior
+-- Log: do emotes using new syntax
+
+-- URL: http://wow-pro.com/node/3440/revisions/25787/view
 -- Date: 2013-10-28 02:06
 -- Who: Ludovicus Maior
 -- Log: Use Dalaran City@Dalaran instead of just Dalaran.
@@ -98,7 +103,7 @@ F Teldrassil|QID|28951|M|55.40,88.50|N|Return to Teldrassil.|Z|Teldrassil|U|3758
 R Enter Darnassus|QID|12334|M|55.10,88.52|Z|Teldrassil|
 A Candy Bucket |QID|12334|M|62.16,33.01|Z|Darnassus|N|Darnassus|
 A Dancing for Marzipan|QID|8357|M|62.31,32.92|Z|Darnassus|
-C Dancing for Marzipan|QID|8357|T|dance;2|N|click the button to dance.|Z|Stormwind City|
+C Dancing for Marzipan|QID|8357|T|/dance|N|click the button to dance.|Z|Stormwind City|
 
 A Candy Bucket |QID|12331|M|55.41,52.25|Z|Teldrassil|N|Dolanaar|
 F Lor'danel|QID|28951|M|51.72,17.70|N|In Darkshore.|Z|Darkshore|U|37586|

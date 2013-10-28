@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-10-28 19:40
+-- Who: Ludovicus Maior
+-- Log: do emotes using new syntax
+
+-- URL: http://wow-pro.com/node/3440/revisions/25787/view
 -- Date: 2013-10-28 02:06
 -- Who: Ludovicus Maior
 -- Log: Use Dalaran City@Dalaran instead of just Dalaran.
@@ -91,7 +96,7 @@ return [[
 
 F Stormwind City|QID|29074|N|Start in Stormwind|Z|Stormwind City|
 A A Season for Celebration|QID|29074|M|61.91,73.90|N|From Human Commoner.|Z|Stormwind City|
-A Candy Bucket|QID|12336|M|60.60,75.02|Z|Stormwind City|N|Stormwind City|
+A Candy Bucket|QID|12336|M|60.52,75.33|Z|Stormwind City|N|Stormwind City|
 A Missing Heirlooms|QID|29392|M|60.14,75.09|N|From Anson Hastings.|Z|Stormwind City|U|37586|
 T A Season for Celebration|QID|29074|M|32.08,50.45|N|To Celestine of the Harvest.|Z|Elwynn Forest|
 A A Time to Gain|QID|29075|M|32.08,50.45|N|From Celestine of the Harvest.|Z|Elwynn Forest|
@@ -108,15 +113,15 @@ C Clean Up in Stormwind|QID|29144|M|49.12,50.83|N|Look for Orange clouds.|U|6919
 C Missing Heirlooms|QID|29392|M|23.99,44.60|N|Head to harbor and search the ship.|Z|Stormwind City|
 T Missing Heirlooms|QID|29392|M|23.99,44.60|N|To Hired Courier.|Z|Stormwind City|
 A Fencing the Goods|QID|29398|M|23.99,44.60|N|To Hired Courier.|Z|Stormwind City|
-b Teldrassil|QID|8357|M|22.06,56.06|N|Take the boat to Teldrassil and enter the portal to Darnassu.|Z|Stormwind City|
-A Candy Bucket |QID|12334|M|62.16,33.01|Z|Darnassus|N|Darnassus|
+b Teldrassil|QID|8357|M|22.06,56.06|N|Take the boat to Teldrassil and enter the portal to Darnassus.|Z|Stormwind City|
+A Candy Bucket |QID|12334|M|62.25,33.17|Z|Darnassus|N|Darnassus|
 A Dancing for Marzipan|QID|8357|M|62.31,32.92|Z|Darnassus|U|37586|
-C Dancing for Marzipan|QID|8357|T|dance;2|N|click the button to dance.|Z|Darnassus|
+C Dancing for Marzipan|QID|8357|T|/dance|N|click the button to dance.|Z|Darnassus|
 T Dancing for Marzipan|QID|8357|M|62.31,32.92|Z|Darnassus|
 
-A Candy Bucket |QID|12331|M|55.41,52.25|Z|Teldrassil|N|Dolanaar|
-R Portal to Teldrassil|QID|8311|M|17.32,50.47|N|Head back to the portal.|Z|Darnassus|CC|U|37586|
-b Stormwind|QID|8311|M||N|Return to Stormwind.|Z|Teldrassil|
+A Candy Bucket |QID|12331|M|55.36,52.28|Z|Teldrassil|N|Dolanaar|
+R Portal to Teldrassil|QID|8311|M|36.99,50.38|N|Head back to the portal.|Z|Darnassus|CC|U|37586|
+b Stormwind|QID|8311|M|55.02,93.68|N|Return to Stormwind.|Z|Teldrassil|
 C Fencing the Goods|QID|29398|M|61.19,70.84|N|Talk to Acutioneer Finch.|Z|Stormwind City|
 T Fencing the Goods|QID|29398|M|61.19,70.84|N|To Acutioneer Finch.|Z|Stormwind City|
 A Shopping Around|QID|29399|M|61.19,70.84|N|From Acutioneer Finch.|Z|Stormwind City|
@@ -132,7 +137,7 @@ C The Collector's Agent|QID|29403|M|51.23,44.63;53.16,42.52;55.26,43.54|N|In the
 T The Collector's Agent|QID|29403|M|55.26,43.54|Z|Stormwind City|
 A What Now?|QID|29411|M|55.26,43.54|N|From the crate.|Z|Stormwind City|
 A Flexing for Nougat|QID|8356|M|60.14,75.09|N|From Innkeeper Allison.|Z|Stormwind City|
-C Flexing for Nougat|QID|8356|T|flex;2|N|click the button to flex.|Z|Stormwind City|
+C Flexing for Nougat|QID|8356|T|/flex|N|click the button to flex.|Z|Stormwind City|
 T Flexing for Nougat|QID|8356|M|60.14,75.09|N|To Innkeeper Allison.|Z|Stormwind City|
 T What Now?|QID|29411|M|60.14,75.09|N|To Anson Hastings.|Z|Stormwind City|
 A The Creepy Crate|QID|29413|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
@@ -177,11 +182,11 @@ A Candy Bucket |QID|12332|M|54.5,50.8|N|In Dun Morogh. Kharanos|Z|Dun Morogh|
 
 F Ironforge|QID|12335|M|56.13,47.99|Z|Ironforge|U|37586|
 A Incoming Gumdrop|QID|8355|M|36.21,4.03|N|From Talvash del Kissel.|Z|Ironforge|
-C Incoming Gumdrop|QID|8355|T|train;2|N|click the button for the train.|Z|Ironforge|
+C Incoming Gumdrop|QID|8355|T|/train|N|click the button for the train.|Z|Ironforge|
 T Incoming Gumdrop|QID|8355|M|36.21,4.03|N|To Talvash del Kissel.|Z|Ironforge|
 A Candy Bucket |QID|12335|M|18.5,50.9|Z|Ironforge|U|37586|N|Ironforge|
 A Chicken Clucking for a Mint|QID|8353|M|18.77,51.27|N|From Innkeeper Firebrew.|Z|Ironforge|U|37586|
-C Chicken Clucking for a Mint|QID|8353|T|chicken;2|N|click the button to cluck.|Z|Ironforge|
+C Chicken Clucking for a Mint|QID|8353|T|/chicken|N|click the button to cluck.|Z|Ironforge|
 T Chicken Clucking for a Mint|QID|8353|M|18.77,51.27|N|To Innkeeper Firebrew.|Z|Ironforge|
 F Menethil Harbor|QID|12343|M|9.39,59.50|Z|Wetlands|U|37586|
 A Candy Bucket |QID|12343|M|10.79,60.94|Z|Wetlands|N|Menethil Harbor|
