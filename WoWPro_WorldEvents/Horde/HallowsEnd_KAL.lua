@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2013-10-28 02:08
+-- Who: Ludovicus Maior
+-- Log: Use Dalaran City@Dalaran instead of Dalaran
+
+-- URL: http://wow-pro.com/node/3441/revisions/25786/view
+-- Date: 2013-10-27 22:17
+-- Who: Ludovicus Maior
+-- Log: Next set of corrections.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25785/view
 -- Date: 2013-10-27 01:06
 -- Who: Ludovicus Maior
 -- Log: Some coord fixes for Northrend

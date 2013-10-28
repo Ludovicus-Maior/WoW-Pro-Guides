@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-10-28 02:06
+-- Who: Ludovicus Maior
+-- Log: Use Dalaran City@Dalaran instead of just Dalaran.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25777/view
 -- Date: 2013-10-25 10:00
 -- Who: Hendo72
 -- Log: In the Kalimdor, Cataclysm, Outland and Northrend modules in this guide, an incorrect item ID is being used. Instead of "Handful of Treats" (37586), "Dousing Agent" (68648) is used.
@@ -127,10 +132,10 @@ A Candy Bucket |QID|13459|M|48.14,74.67|Z|Dragonblight|N|Moa'ki Harbor|
 F Stars' Rest|QID|13438|M|29.15,55.38|Z|Dragonblight|U|37586|
 A Candy Bucket |QID|13438|M|28.97,56.16|Z|Dragonblight|N|Star's Rest|
 
-F Dalaran|QID|13472|M|72.70,45.68|Z|Dalaran|U|37586|
-A Candy Bucket |QID|13463|M|48.32,40.86|Z|Dalaran|N|The Legerdemain Lounge|
+F Dalaran|QID|13472|M|72.70,45.68|Z|Dalaran City@Dalaran|U|37586|
+A Candy Bucket |QID|13463|M|48.32,40.86|Z|Dalaran City@Dalaran|N|The Legerdemain Lounge|
 A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|Z|The Underbelly|U|37586|CS|N|The Underbelly@Dalaran|
-A Candy Bucket |QID|13473|M|42.56,63.27|Z|Dalaran|U|37586|N|Hero's Rest Inn|
+A Candy Bucket |QID|13473|M|42.56,63.27|Z|Dalaran City@Dalaran|U|37586|N|Hero's Rest Inn|
 N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
 N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|
 

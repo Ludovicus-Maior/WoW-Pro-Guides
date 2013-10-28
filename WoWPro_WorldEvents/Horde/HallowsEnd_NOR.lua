@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2013-10-28 02:08
+-- Who: Ludovicus Maior
+-- Log: Use Dalaran City@Dalaran instead of Dalaran
+
+-- URL: http://wow-pro.com/node/3441/revisions/25786/view
+-- Date: 2013-10-27 22:17
+-- Who: Ludovicus Maior
+-- Log: Next set of corrections.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25785/view
 -- Date: 2013-10-27 01:06
 -- Who: Ludovicus Maior
 -- Log: Some coord fixes for Northrend
@@ -112,19 +122,19 @@ A Candy Bucket|QID|12941|M|40.86,66.04|Z|Zul'Drak|N|Marissa Everwatch, The Argen
 F Zim'Torga|M|41.55,64.43|QID|12940|Z|Zul'Drak|N|Fly to Zim'Torga, Zul'Drak.|U|37586|
 A Candy Bucket|QID|12940|M|59.33,57.20|Z|Zul'Drak|N|Pan'ya, Zim'Torga|
 F K3|M|60.04,56.71|QID|13461|Z|Zul'Drak|N|Fly to K3, The Storm Peaks.|U|37586|
-A Candy Bucket|QID|13461|M|4107,85.85|Z|The Storm Peaks|N|Smilin' Slirk Brassknob, K3|
+A Candy Bucket|QID|13461|M|41.07,85.85|Z|The Storm Peaks|N|Smilin' Slirk Brassknob, K3|
 F Camp Tunka'lo|M|40.75,84.55|QID|13471|Z|The Storm Peaks|N|Fly to Camp Tunka'lo, The Storm Peaks.|U|37586|
 A Candy Bucket|QID|13471|M|67.65,50.68|Z|The Storm Peaks|N|Wabada Whiteflower, Camp Tunka'lo|
 F Grom'arsh Crash-Site|M|65.41,50.61|QID|13548|Z|The Storm Peaks|N|Fly to Grom'arsh Crash-Site, The Storm Peaks.|U|37586|
-A Candy Bucket|QID|13548|M|37.1,49.6|Z|The Storm Peaks|N|Peon Gakra, Grom'arsh Crash-Site|
-F Bouldercrag's Refuge|M|36.2,49.2|QID|13462|Z|The Storm Peaks|U|37586|N|Fly to Bouldercrag's Refuge.|
+A Candy Bucket|QID|13548|M|37.08,49.51|Z|The Storm Peaks|N|Peon Gakra, Grom'arsh Crash-Site|
+F Bouldercrag's Refuge|M|36.19,49.39|QID|13462|Z|The Storm Peaks|U|37586|N|Fly to Bouldercrag's Refuge.|
 A Candy Bucket|QID|13462|M|30.93,37.15|Z|The Storm Peaks|N|From the Candy Bucket. (The Storm Peaks, Bouldercrag's Refuge)|
 F Dalaran|M|30.6,36.4|QID|13463|Z|The Storm Peaks|N|Fly to Dalaran.|U|37586|
-A Candy Bucket|QID|13463|M|48.19,41.25|Z|Dalaran|N|Amisi Azuregaze, The Legerdemain Lounge)|
-A Candy Bucket|QID|13474|M|66.6,30.1|Z|Dalaran|N|Uda the Beast, Sunreaver's Sanctuary|
-A Candy Bucket|QID|13472|M|38.26,59.5|Z|The Underbelly|U|37586||N|Head down into the Underbelly from the entrance next to the stairs of the Silver Enclave. From the Candy Bucket. (Dalaran, The Underbelly)|
+A Candy Bucket|QID|13463|M|48.16,41.25|Z|Dalaran City@Dalaran|N|Amisi Azuregaze, The Legerdemain Lounge)|
+A Candy Bucket|QID|13474|M|66.85,29.58|Z|Dalaran City@Dalaran|N|Uda the Beast, Sunreaver's Sanctuary|
+A Candy Bucket|QID|13472|M|38.24,59.61|Z|The Underbelly@Dalaran|U|37586||N|Head down into the Underbelly from the entrance next to the stairs of the Silver Enclave. From the Candy Bucket. (Dalaran, The Underbelly)|
 F Nessingwary Base Camp|M|72.8,45.6|QID|12950|Z|Dalaran|N|Fly to Nessingwary Base Camp, Sholazar Basin.|U|37586|
-A Candy Bucket|QID|12950|M|26.7,59.2|Z|Sholazar Basin|N|Purser Boulian, Nessingwary Base Camp|
+A Candy Bucket|QID|12950|M|26.61,59.20|Z|Sholazar Basin|N|Purser Boulian, Nessingwary Base Camp|
 
 ]]
 end)
