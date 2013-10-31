@@ -4,6 +4,54 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2013-10-28 02:08
+-- Who: Ludovicus Maior
+-- Log: Use Dalaran City@Dalaran instead of Dalaran
+
+-- URL: http://wow-pro.com/node/3441/revisions/25786/view
+-- Date: 2013-10-27 22:17
+-- Who: Ludovicus Maior
+-- Log: Next set of corrections.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25785/view
+-- Date: 2013-10-27 01:06
+-- Who: Ludovicus Maior
+-- Log: Some coord fixes for Northrend
+
+-- URL: http://wow-pro.com/node/3441/revisions/25784/view
+-- Date: 2013-10-26 22:48
+-- Who: Ludovicus Maior
+-- Log: Add the missing U|37586| to Northrend
+
+-- URL: http://wow-pro.com/node/3441/revisions/25783/view
+-- Date: 2013-10-26 22:27
+-- Who: Ludovicus Maior
+-- Log: Blade's Edge Mountains not Netherstorm.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25782/view
+-- Date: 2013-10-26 02:26
+-- Who: Ludovicus Maior
+-- Log: Cleft of Shadow@Orgrimmar
+
+-- URL: http://wow-pro.com/node/3441/revisions/25781/view
+-- Date: 2013-10-26 02:00
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/25780/view
+-- Date: 2013-10-26 01:43
+-- Who: Ludovicus Maior
+-- Log: Forest was misspelled
+
+-- URL: http://wow-pro.com/node/3441/revisions/25779/view
+-- Date: 2013-10-26 01:21
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/25778/view
+-- Date: 2013-10-25 22:50
+-- Who: Ludovicus Maior
+-- Log:  Ibanozzle
+
+-- URL: http://wow-pro.com/node/3441/revisions/25162/view
 -- Date: 2012-10-24 21:10
 -- Who: Ludovicus Maior
 -- Log: Add Horde Pandaria Hallows End TRIAL.
@@ -42,7 +90,7 @@ N Wall of Text Part 2 of 2|QID|12388|N|Also to note, you can get multiples of th
 
 N This guide starts|QID|12388|N|in Orgrimmar, so if you are in the Eastern Kingdoms, take the blimp and transport to Orgrimmar.|
 
-R Blasted Lands|M|44.73,68.01|Z|Cleft of Shadow|N|Take the portal to the Blasted Lands in the Cleft of Shadow|
+R Blasted Lands|M|44.73,68.01|Z|Cleft of Shadow@Orgrimmar|N|Take the portal to the Blasted Lands in the Cleft of Shadow|
 R Hellfire Peninsula|N|Run thru the Dark Portal|M|54.95,54.02|Z|Blasted Lands|
 F Thrallmar|M|87.34,48.13|QID|12388|Z|Hellfire Peninsula|N|Fly to Thrallmar, Hellfire Peninsula.|
 A Candy Bucket|QID|12388|M|56.80,37.45|Z|Hellfire Peninsula|N|Floyd Pinkus, Thrallmar|
@@ -60,7 +108,7 @@ F The Stormspire|M|33.75,64.00|QID|12408|Z|Netherstorm|U|37586|N|Fly to The Stor
 A Candy Bucket|QID|12408|M|43.32,36.10|Z|Netherstorm|N|Eyonix, Stormspire|
 F Evergrove|M|45.31,34.87|QID|12406|Z|Netherstorm|U|37586|N|Fly to Evergrove, Blade's Edge Mountains.|
 A Candy Bucket|QID|12406|M|62.90,38.33|Z|Blade's Edge Mountains|N| Inkeeper Aelerya, Evergrove|
-F Thunderlord Stronghold|M|61.68,39.62|QID|12393|Z|Netherstorm|U|37586|N|Fly to Thunderlord Stronghold, Blade's Edge Mountains.|
+F Thunderlord Stronghold|M|61.68,39.62|QID|12393|Z|Blade's Edge Mountains|U|37586|N|Fly to Thunderlord Stronghold, Blade's Edge Mountains.|
 A Candy Bucket|QID|12393|M|53.43,55.54|Z|Blade's Edge Mountains|N|Gholah, Thunderlord Stronghold|
 F Zabra'jin|M|52.06,54.12|QID|12390|Z|Blade's Edge Mountains|U|37586|N|Fly to Zabra'jin, Zangarmarsh.|
 A Candy Bucket|QID|12390|M|30.63,50.87|Z|Zangarmarsh|N|Merajit, Zabra'jin|

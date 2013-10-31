@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2013-09-17 14:18
+-- Who: Fluclo
+-- Log: Fix QID on initial step, and added Level step at beginning of guide.
+
+-- URL: http://wow-pro.com/node/3489/revisions/25732/view
 -- Date: 2013-06-24 18:47
 -- Who: Twists
 -- Log: Update coordinates
@@ -57,7 +62,8 @@
 WoWPro.Leveling:RegisterGuide('EmmKra8788', 'Krasarang Wilds', 'Emmaleah', '87', '88', 'EmmKun8889', 'Horde', function()
 return [[
 
-F Zhu's Watch|QID|11111|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
+L Level 86 |QID|30080|LVL|86|N|You need to be Level 86 to do this guide.|
+F Zhu's Watch|QID|30080|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.24,7.13|N|From Ken-Ken.|
 C Speak with Mei|QID|30079|NC|QO|Speak with Mei: 1/1|M|75.86,7.60|N|up the stairs, outside.|

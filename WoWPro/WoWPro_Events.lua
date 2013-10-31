@@ -16,6 +16,20 @@ function WoWPro:RecordTaxiLocations(...)
     end
 end
 
+-- Auto-Complete: Use flight point --
+function WoWPro:TakeTaxi(index,destination)
+    for i = 1, NumTaxiNodes() do
+        local nomen = TaxiNodeName(i)
+        local location,zone = string.split(",",nomen)
+        if location == destination then
+            WoWPro:Print("Taking flight to: [%s]",location)
+            TakeTaxiNode(i)
+            WoWPro.CompleteStep(index)
+            return
+        end
+    end
+    WoWPro:Warning("Unable to find flight point to: [%s]",destination)
+end
 
 -- Auto-Complete: Get flight point --
 function WoWPro:AutoCompleteGetFP(...)
@@ -553,6 +567,10 @@ function WoWPro.EventHandler(frame, event, ...)
 		-- Auto-Completion --
 	if event == "TAXIMAP_OPENED" then
 		WoWPro:RecordTaxiLocations(...)
+		local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+		if WoWPro.action[qidx] == "F" and WoWProCharDB.AutoAccept == true then
+		    WoWPro:TakeTaxi(qidx,WoWPro.step[qidx])   
+		end
 	end
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro:AutoCompleteSetHearth(...)

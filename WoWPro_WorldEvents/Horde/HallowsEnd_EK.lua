@@ -4,6 +4,54 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2013-10-28 02:08
+-- Who: Ludovicus Maior
+-- Log: Use Dalaran City@Dalaran instead of Dalaran
+
+-- URL: http://wow-pro.com/node/3441/revisions/25786/view
+-- Date: 2013-10-27 22:17
+-- Who: Ludovicus Maior
+-- Log: Next set of corrections.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25785/view
+-- Date: 2013-10-27 01:06
+-- Who: Ludovicus Maior
+-- Log: Some coord fixes for Northrend
+
+-- URL: http://wow-pro.com/node/3441/revisions/25784/view
+-- Date: 2013-10-26 22:48
+-- Who: Ludovicus Maior
+-- Log: Add the missing U|37586| to Northrend
+
+-- URL: http://wow-pro.com/node/3441/revisions/25783/view
+-- Date: 2013-10-26 22:27
+-- Who: Ludovicus Maior
+-- Log: Blade's Edge Mountains not Netherstorm.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25782/view
+-- Date: 2013-10-26 02:26
+-- Who: Ludovicus Maior
+-- Log: Cleft of Shadow@Orgrimmar
+
+-- URL: http://wow-pro.com/node/3441/revisions/25781/view
+-- Date: 2013-10-26 02:00
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/25780/view
+-- Date: 2013-10-26 01:43
+-- Who: Ludovicus Maior
+-- Log: Forest was misspelled
+
+-- URL: http://wow-pro.com/node/3441/revisions/25779/view
+-- Date: 2013-10-26 01:21
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3441/revisions/25778/view
+-- Date: 2013-10-25 22:50
+-- Who: Ludovicus Maior
+-- Log:  Ibanozzle
+
+-- URL: http://wow-pro.com/node/3441/revisions/25162/view
 -- Date: 2012-10-24 21:10
 -- Who: Ludovicus Maior
 -- Log: Add Horde Pandaria Hallows End TRIAL.
@@ -47,9 +95,9 @@ A Candy Bucket|QID|12370|M|67.55,72.90|Z|Silvermoon City|N|Innkeeper Jovia, The 
 
 F Falconwing Square|M|54.37,50.72|QID|12364|Z|Eversong Woods|U|37586|N|Fly to Falconwing Square, Eversong Woods.|
 A Candy Bucket|QID|12364|M|48.19,47.88|Z|Eversong Woods|N|Innkeeper Delaniel, Ruins of Silvermoon|
-F Fairbreeze Village|M|46.25,46.79|QID|12365|Z|Fairbreeze Village|U|37586|N|Fly to Fairbreeze Village, Eversong Woods.|
+F Fairbreeze Village|M|46.25,46.79|QID|12365|Z|Eversong Woods|U|37586|N|Fly to Fairbreeze Village, Eversong Woods.|
 A Candy Bucket|QID|12365|M|43.71,71.02|Z|Eversong Woods|N|Marniel Amberlight, Fairbreeze Village|
-F Tranquillien|M|43.94,69.98|QID|12373|Z|Fairbreeze Village|U|37586|N|Fly to Tranquillien, Ghostlands.|
+F Tranquillien|M|43.94,69.98|QID|12373|Z|Eversong Woods|U|37586|N|Fly to Tranquillien, Ghostlands.|
 
 A Candy Bucket|QID|12373|M|48.66,31.91|Z|Ghostlands|N|Innkeeper Kalarin, Tranquillien|
 F Light's Hope Chapel|M|45.42,30.54|QID|12402|Z|Ghostlands|U|37586|N|Fly to Light's Hope Chapel, Eastern Plaguelands.|
@@ -67,7 +115,7 @@ A Candy Bucket|QID|12368|M|67.77,37.41|Z|Undercity|N|Innkeeper Norman, The Trade
 F Forsaken Rear Guard|M|63.27,48.57|QID|28966|Z|Undercity|U|37586|N|Fly to Forsaken Rear Guard, Silverpine Forest.|
 A Candy Bucket|QID|28966|M|44.30,20.30|Z|Silverpine Forest|N|Commander Hickley, Forsaken Rear Guard|
 F The Sepulcher|M|45.93,21.88|QID|12371|Z|Silverpine Forest|U|37586|N|Fly to The Sepulcher, Silverpine Forest.|
-A Candy Bucket|QID|12371|M|46.45,42.90|Z|Silverpine Forrest|N|Innkeeper Bates, The Sepulcher|
+A Candy Bucket|QID|12371|M|46.45,42.90|Z|Silverpine Forest|N|Innkeeper Bates, The Sepulcher|
 F Tarren Mill|M|45.41,42.49|QID|12376|Z|Silverpine Forest|U|37586|N|Fly to Tarren Mill, Hillsbrad Foothills.|
 
 A Candy Bucket|QID|12376|M|57.85,47.28|Z|Hillsbrad Foothills|N|Innkeeper Shay, Tarren Mill|
@@ -87,7 +135,7 @@ A Candy Bucket|QID|28957|M|18.36,42.73|Z|Badlands|N|Innkeeper Shul'kar, New Karg
 F Fuselight|M|17.19,40.01|QID|28955|Z|Badlands|U|37586|N|Fly to Fuselight, Badlands.|
 A Candy Bucket|QID|28955|M|65.86,35.66|Z|Badlands|N|Sally Gearwell, Fuselight|
 
-F Iron Summit|M|63.34,35.02|QID|28965|Z|Badlands|U|37586|N|Fly to Iron Summit, Searing Gorge.|
+F Iron Summit|M|63.34,35.03|QID|28965|Z|Badlands|U|37586|N|Fly to Iron Summit, Searing Gorge.|
 A Candy Bucket|QID|28965|M|39.48,66.06|Z|Searing Gorge|N|Velma Rockslide, Iron Summit|
 F Bogpaddle|M|41.06,68.79|QID|28967|Z|Searing Gorge|U|37586|N|Fly to Bogpaddle, Swamp of Sorrows.|
 

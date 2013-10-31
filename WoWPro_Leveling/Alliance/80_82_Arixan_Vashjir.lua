@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2013-10-17 19:36
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3305/revisions/25599/view
 -- Date: 2013-03-23 20:43
 -- Who: Ludovicus Maior
 -- Log: Quest name tweaks
@@ -218,54 +222,63 @@
 -- Date: 2010-12-11 15:49
 -- Who: Gylin
 
--- URL: http://wow-pro.com/node/3305/revisions/23736/view
--- Date: 2010-12-11 15:47
--- Who: Gylin
-
 WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
 return [[
 
-T A Personal Summons|QID|28825|M|74.5,19.2|Z|Stormwind City|N|This should be in your quest log when you enter Stormwind. Turn in at Naraat the Earthspeaker|
+L Level 80 |QID|28825|N|You need to be level 80 or higher to be able to work through this guide.|LVL|80|
+
+R Stormwind City|QID|28825|M|74.5,19.2|Z|Stormwind City|N|Head to Stormwind City by any means possible.|
+T A Personal Summons|QID|28825|M|74.5,19.2|Z|Stormwind City|N|This quest was auto-accepted for you when you entered Stormwind. Head to Naraat the Earthspeaker who's on an island to the north-east of the city.|
+
 A The Eye of the Storm|QID|28826|M|74.5,19.2|Z|Stormwind City|N|From Naraat the Earthspeaker.|
-C The Eye of the Storm|QID|28826|M|74.4,19.6|Z|Stormwind City|N|Right click the water bowl behind you. Enjoy your first Cataclysm cinematic!|
+C The Eye of the Storm|QID|28826|NC|M|74.4,19.6|Z|Stormwind City|N|Right click the water bowl behind you, then watch the cinematic!|
 T The Eye of the Storm|QID|28826|M|74.5,19.2|Z|Stormwind City|N|To Naraat the Earthspeaker.|
-A To the Depths|QID|28827|M|74.5,19.2|Z|Stormwind City|N|From Naraat the Earthspeaker.|
-T To the Depths|QID|28827|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|
+
+A To the Depths|QID|28827|PRE|14481;27724|M|74.5,19.2|Z|Stormwind City|N|From Naraat the Earthspeaker. Not available if you have in your log Into The Abyss or Hero's Call: Vashj'ir!|
+T Hero's Call: Vashj'ir!|QID|27724|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|O|
+T Into The Abyss|QID|14481|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|O|
+T To the Depths|QID|28827|PRE|14481;27724|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|
+
 A Call of Duty|QID|14482|M|27.39,24.16|Z|Stormwind City|N|From Recruiter Burns.|
-C Call of Duty|QID|14482|M|18.5,25.5|Z|Stormwind City|N|Head to the northernmost dock. A small event will happen with soldiers talking about recent events. Just wait around for the mercenary ship to arrive.|
+C Call of Duty|QID|14482|M|18.5,25.5|Z|Stormwind City|NC|N|Head to the end of the northern-most dock and board the ship. It will take 5 minutes for the ship to arrive, during which a small event will happen on the docks with soldiers talking about recent events. Once you board the ship, just sit back and watch the on-ship entertainment courtesy of Budd and Captain Taylor.|
+R The Briny Cutter|QID|14482|M|45.2,23.4|Z|Kelp'thar Forest|N|Just a little longer while the ship is attacked and you lose consiousness in the water. Patiently wait until you wake up in The Briny Cutter.|
 T Call of Duty|QID|14482|M|45.2,23.4|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
+
 A Sea Legs|QID|24432|PRE|14482|M|45.2,23.4|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 h The Briny Cutter|QID|24432|M|45.2,23.4|Z|Kelp'thar Forest|N|At Erunak Stonespeaker.|
-C Sea Legs|QID|24432|L|54828 3|M|45.5,22.6;46.2,25.4|Z|Kelp'thar Forest|CN|N|Collect 3 Saltwater Starfish.|S|
-C Sea Legs|QID|24432|L|52504|M|45.2,26.7|Z|Kelp'thar Forest|N|Collect a Conch Shell.|
-C Sea Legs|QID|24432|L|54828 3|M|45.5,22.6;46.2,25.4|Z|Kelp'thar Forest|CN|N|Collect 3 Saltwater Starfish.|US|
+C Sea Legs|QID|24432|M|45.5,22.6;46.2,25.4|CN|Z|Kelp'thar Forest|N|Collect 3 Saltwater Starfish.|S|QO|Saltwater Starfish: 3/3|NC|
+C Sea Legs|QID|24432|M|45.2,26.7|Z|Kelp'thar Forest|N|Collect a Conch Shell.|QO|Conch Shell: 1/1|NC|
+C Sea Legs|QID|24432|M|45.5,22.6;46.2,25.4|CN|Z|Kelp'thar Forest|N|Collect 3 Saltwater Starfish.|US|QO|Saltwater Starfish: 3/3|NC|
 T Sea Legs|QID|24432|M|45.2,23.4|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
+
 A Pay It Forward|QID|25281|PRE|24432|M|45.2,23.4|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
-C Pay It Forward|QID|25281|U|52710|M|46.6,23.9|Z|Kelp'thar Forest|N|Use the Enchanted Conch Shell to rescue 6 Drowning Soldiers.
+C Pay It Forward|QID|25281|U|52710|M|46.6,23.9|Z|Kelp'thar Forest|N|Click on Drowning Soldiers and use the Enchanted Conch Shell to rescue them.|NC|T|Drowning Soldier|
 T Pay It Forward|QID|25281|M|45.2,23.4|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
+
 A Rest For the Weary|QID|25405|PRE|25281|M|45.2,23.4|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 T Rest For the Weary|QID|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 A Buy Us Some Time|QID|25357|PRE|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
-A Traveling on Our Stomachs|QID|25546|PRE|25357|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
-C Traveling on Our Stomachs|QID|25546|S|M|42,31.9;48.3,25.8;45.6,28.9|CN|L|54845 8|Z|Kelp'thar Forest|N|Kill Splitclaw Skitterers until you get 8 Succulent Crab Meat.|
-C Buy Us Some Time|QID|25357|M|45.3,28.1;48,21.9;40.86,34.14|Z|Kelp'thar Forest|CN|N|Zin'Jatari Raiders in the area above and around the ship.|
-C Traveling on Our Stomachs|QID|25546|US|M|42,31.9;48.3,25.8;45.6,28.9|CN|L|54845 8|Z|Kelp'thar Forest|N|Kill Splitclaw Skitterers until you get 8 Succulent Crab Meat.|
+A Traveling on Our Stomachs|QID|25546|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
+C Traveling on Our Stomachs|QID|25546|S|M|42,31.9;48.3,25.8;45.6,28.9|CN|L|54845 8|Z|Kelp'thar Forest|N|Kill and loot Splitclaw Skitterers for their Succulent Crab Meat. They are found on the ground.|
+C Buy Us Some Time|QID|25357|M|45.3,28.1;48,21.9;40.86,34.14|Z|Kelp'thar Forest|CN|N|Kill Zin'Jatari Raiders. They are found swimming around and above The Briny Cutter.|
+C Traveling on Our Stomachs|QID|25546|US|M|42,31.9;48.3,25.8;45.6,28.9|CN|L|54845 8|Z|Kelp'thar Forest|N|Kill and loot Splitclaw Skitterers for their Succulent Crab Meat. They are found on the ground.|
 T Buy Us Some Time|QID|25357|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 T Traveling on Our Stomachs|QID|25546|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
+
 A To Arms!|QID|25545|PRE|25357;25546|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
 A Stormwind Elite Aquatic and Land Forces|QID|25564|PRE|25357;25546|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
-C Stormwind Elite Aquatic and Land Forces|QID|25564|S|M|51.1,20.8;50.4,27.7|L|54957 6|Z|Kelp'thar Forest|CN|N|The SEAL equipment is found in large chests inside and around the sunken ships.|
+C Stormwind Elite Aquatic and Land Forces|QID|25564|S|M|51.1,20.8;50.4,27.7|L|54957 6|Z|Kelp'thar Forest|CN|N|The SEAL equipment is found in large chests inside and around the sunken ships.|NC|
+C To Arms!|QID|25545|M|50.8,22.5|Z|Kelp'thar Forest|S|N|Loot the armaments from the ground. They can also drop from some Goblin Scavengers - check the tooltip for which part(s) they could drop.|
+
 A Once More, With Eeling|QID|27729|M|48,21|N|Find a Slitherfin Eel and kill it to get this quest (UI Alert).|Z|Kelp'thar Forest|
 C Once More, With Eeling|QID|27729|M|48,21|N|Kill 8 more eels.|S|Z|Kelp'thar Forest|
-C To Arms!|QID|25545|M|50.8,22.5;45.3,17.7;52.7,26.8;49,30|L|54844 4|Z|Kelp'thar Forest|CN|N|Either loot from Seafloor or kill Gilblin Scavengers.|
-C To Arms!|QID|25545|M|50.8,22.5;45.3,17.7;52.7,26.8;49,30|L|54842 4|Z|Kelp'thar Forest|CN|N|Either loot from Seafloor or kill Gilblin Scavengers.|
-C To Arms!|QID|25545|M|50.8,22.5;45.3,17.7;52.7,26.8;49,30|L|54958 4|Z|Kelp'thar Forest|CN|N|Either loot from Seafloor or kill Gilblin Scavengers.|
-C To Arms!|QID|25545|M|50.8,22.5;45.3,17.7;52.7,26.8;49,30|L|54843 4|Z|Kelp'thar Forest|CN|N|Either loot from Seafloor or kill Gilblin Scavengers.|
-C Stormwind Elite Aquatic and Land Forces|QID|25564|US|M|51.1,20.8;50.4,27.7|L|54957 6|Z|Kelp'thar Forest|CN|N|The SEAL equipment is found in large chests inside and around the sunken ships.|
+C To Arms!|QID|25545|M|50.8,22.5|Z|Kelp'thar Forest|US|N|Loot the armaments from the ground. They can also drop from some Goblin Scavengers - check the tooltip for which part(s) they could drop.|
+C Stormwind Elite Aquatic and Land Forces|QID|25564|US|M|51.1,20.8;50.4,27.7|L|54957 6|Z|Kelp'thar Forest|CN|N|The SEAL equipment is found in large chests inside and around the sunken ships.|NC|
 C Once More, With Eeling|QID|27729|M|48,21|N|Finish killing eels.|US|Z|Kelp'thar Forest|
 T Once More, With Eeling|QID|27729|M|48,21|N|An UI Alert will pop-up, turn it in that way.|Z|Kelp'thar Forest|
 T To Arms!|QID|25545|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 T Stormwind Elite Aquatic and Land Forces|QID|25564|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
+
 A On Our Own Terms|QID|25547|PRE|25545;25564|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
 T On Our Own Terms|QID|25547|M|45,23.5|Z|Kelp'thar Forest|N|To Captain Taylor.|
 A All or Nothing|QID|25558|PRE|25547|M|45,23.5|Z|Kelp'thar Forest|N|From Captain Taylor.|

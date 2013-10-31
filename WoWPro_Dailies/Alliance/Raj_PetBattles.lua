@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2013-09-21 02:02
+-- Who: Emmaleah
+-- Log: update Aki's location for 5.4
+
+-- URL: http://wow-pro.com/node/3544/revisions/25687/view
 -- Date: 2013-05-27 05:03
 -- Who: Emmaleah
 -- Log: updated for 5.3 (beasts of fable split in 3 quests), rearranged order of Northrend, added Beasts of Fable, added U tags to open bags.  NOTE: you must manually click off the C steps for Beasts of Fable as the guide doesn't recognize the QO tags on these quests.
@@ -225,11 +230,11 @@ C Lucky Yi|QID|32868|M|40.54,43.67|Z|Valley of the Four Winds|N|Lucky Yi  is a c
 A Grand Master Nishi|QID|31955|M|46,43.6|Z|Valley of the Four Winds|N|From Farmer Nishi.|RANK|1|
 C Grand Master Nishi|QID|31955|M|46,43.6|Z|Valley of the Four Winds|N|Opponents are level 25 Epic Beast, Elemental and Elemental. This means your best choices are Mechanical, Aquatic and Aquatic.|RANK|1|
 T Grand Master Nishi|QID|31955|M|46,43.6|Z|Valley of the Four Winds|N|To Farmer Nishi.|RANK|1|
-R Vale of Eternal Blossoms|QID|31958|M|67.6,40.8|Z|Vale of Eternal Blossoms|RANK|1|U|89125|N|You can open your treasure bag while you are flying to the next spot.|
-R The Summer Fields|QID|31958|M|67.6,40.8|Z|Vale of Eternal Blossoms|RANK|1|
-A Grand Master Aki|QID|31958|M|67.6,40.8|Z|Vale of Eternal Blossoms|N|From Aki the Chosen.|RANK|1|
-C Grand Master Aki|QID|31958|M|67.6,40.8|Z|Vale of Eternal Blossoms|N|Opponents are level 25 Legendary Critter, Dragonkin and Aquatic. This means your best choices are Beast, Humanoid and Flying.|RANK|1|
-T Grand Master Aki|QID|31958|M|67.6,40.8|Z|Vale of Eternal Blossoms|N|To Aki the Chosen.|RANK|1|
+R Vale of Eternal Blossoms|QID|31958|M|31.26,74.11|Z|Vale of Eternal Blossoms|RANK|1|U|89125|N|Open your treasure bag while you are flying.|
+R Mistfall Village|QID|31958|M|31.26,74.11|Z|Vale of Eternal Blossoms|RANK|1|
+A Grand Master Aki|QID|31958|M|31.26,74.11|Z|Vale of Eternal Blossoms|N|From Aki the Chosen.|RANK|1|
+C Grand Master Aki|QID|31958|M|31.26,74.11|Z|Vale of Eternal Blossoms|N|Opponents are level 25 Legendary Critter, Dragonkin and Aquatic. This means your best choices are Beast, Humanoid and Flying.|RANK|1|
+T Grand Master Aki|QID|31958|M|31.26,74.11|Z|Vale of Eternal Blossoms|N|To Aki the Chosen.|RANK|1|
 N Open your treasure|U|89125|N|Open all your treasure bags then click off this step manually.|
 T Beasts of Fable Book I|QID|32604|M|86.4,60|Z|Vale of Eternal Blossoms|N|To Sara Finkleswitch. Don't forget to open all your reward bags.|
 T Beasts of Fable Book II|QID|32868|M|86.4,60|Z|Vale of Eternal Blossoms|N|To Sara Finkleswitch.|

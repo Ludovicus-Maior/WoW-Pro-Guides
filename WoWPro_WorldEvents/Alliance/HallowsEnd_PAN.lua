@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2013-10-28 19:40
+-- Who: Ludovicus Maior
+-- Log: do emotes using new syntax
+
+-- URL: http://wow-pro.com/node/3440/revisions/25787/view
+-- Date: 2013-10-28 02:06
+-- Who: Ludovicus Maior
+-- Log: Use Dalaran City@Dalaran instead of just Dalaran.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25777/view
+-- Date: 2013-10-25 10:00
+-- Who: Hendo72
+-- Log: In the Kalimdor, Cataclysm, Outland and Northrend modules in this guide, an incorrect item ID is being used. Instead of "Handful of Treats" (37586), "Dousing Agent" (68648) is used.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25647/view
 -- Date: 2013-05-14 19:21
 -- Who: Ludovicus Maior
 -- Log: The Underbelly@Dalaran

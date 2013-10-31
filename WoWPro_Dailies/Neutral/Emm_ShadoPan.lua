@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2013-10-01 20:30
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3501/revisions/25768/view
+-- Date: 2013-10-01 20:26
+-- Who: Fluclo
+-- Log: Guide was missing an unsticky step for The Mogu Menace
+
+-- URL: http://wow-pro.com/node/3501/revisions/25756/view
 -- Date: 2013-09-10 23:47
 -- Who: Ludovicus Maior
 -- Log: Add a QID for finishing Townlong Steppes.
@@ -138,6 +147,7 @@ C Little Hatchlings|QID|31046|26,7;33,24|CN|US|NC|N|Release the hatchlings from 
 C Born Free|QID|31047|M|35,22|US|NC|N|Free the wild cloud serpents located on the SE side of the island by clicking on their ball and chain.|
 C Through the Portal|QID|31110|ACTIVE|31039|US|25,12|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|
 T Through the Portal|QID|31110|ACTIVE|31039|28.85,22.59|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|
+C The Mogu Menace|QID|31039|M|25,12|US|N|These are all over the island.|
 T The Mogu Menace|QID|31039|M|49.5,70.5|N|You can turn this in at a Shado-pan companion or to Ban Bearheart.|
 T Spiteful Sprites|QID|31040|M|49.02,70.45|N|You can turn this in at a Shado-pan companion or to Ban Bearheart.|
 T Bronze Claws|QID|31044|M|49.02,70.45|N|You can turn this in at a Shado-pan companion or to Ban Bearheart.|
@@ -152,7 +162,7 @@ A Random mini-boss quest|QID|31049;31062;31061|PRE|31039|N|From UI Alert(upon tu
 C In Sprite Of Everything|QID|31049|M|20.3,15.78|T|Darkwoods Faerie|N|Located underground in what appears to be a virmin hole. You will get credit for the kill, even if another player attacked him first.|
 C When The Dead Speak|QID|31062|M|32.2,9.4|T|Shan'ze Deathspeaker|N|Located in a clearing on a mountain with some quillin. You will get credit for the kill, even if another player attacked him first.|
 C Riding the Storm|QID|31061|M|33,15|T|Shan'ze Cloudrunner|U|83134|N|Use the claws to go from cloudserpent to cloudserpent as you "beat some sense" into them. You will get credit for the kill, even if another player attacked him first.|
-N Portal|PRE|31110|ACTIVE|31049;31061;31062|M|29.01,22.13|N|If you finished the portal quest, you can use the portal to go back to Shado Pan Garrison.|
+R Shado-Pan Garrison|PRE|31110|ACTIVE|31049;31061;31062|M|29.01,22.13|N|Return to Shado-Pan Garrison. If you finished the portal quest, you can use the portal to get back there.|
 T In Sprite Of Everything|QID|31049|M|49.02,70.45|N|To Ban Bearheart.|
 T When The Dead Speak|QID|31062|M|49.02,70.45|N|To Ban Bearheart.|
 T Riding the Storm|QID|31061|M|49.02,70.45|N|To Ban Bearheart.|

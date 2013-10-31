@@ -33,6 +33,7 @@ function WoWPro.Dailies:OnEnable()
 	WoWPro_DailiesDB = WoWPro_DailiesDB or {}
 	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
+	WoWPro.Dailies.RecordQIDs = true
 	
 	if WoWProDB.char.lastdailiesguide and not WoWProDB.char.currentguide then
 		WoWPro:LoadGuide(WoWProDB.char.lastdailiesguide)
