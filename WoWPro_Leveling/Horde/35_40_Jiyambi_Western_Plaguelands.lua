@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2013-11-05 22:36
+-- Who: Emmaleah
+-- Log: fix based on user submission (in aug... why did we miss this?!?)
+
+-- URL: http://wow-pro.com/node/3246/revisions/25747/view
 -- Date: 2013-08-16 19:44
 -- Who: Ludovicus Maior
 -- Log: Cleaned up some QUIDs and added a hint for [Ace in the Hole].
@@ -91,7 +96,7 @@ C Leave Drum near Grain Silos|QID|26978|U|60753|QO|Leave Drum near Grain Silos: 
 C Foes Before Hoes|QID|26933|US|M|36.79,57.70|N|Kill laborers around the Felstone Field.|
 T Foes Before Hoes|QID|26933|M|83.41,69.96|Z|Tirisfal Glades|N|To Shadow Priestess Vandis, back at the Bulwark.|
 T Who Needs Cauldrons?|QID|26978|M|83.21,69.30|Z|Tirisfal Glades|N|To Apothecary Dithers.|
-A Lower the Boom|QID|26936|PRE|26978|M|83.19,69.01|N|From High Executor Derrington. Check off this step manually, as it will not auto-complete.|
+A Lower the Boom|QID|26936|PRE|26978|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington. If this step does not auto-complete, check it off manually.|
 A Strange New Faces|QID|26979|PRE|26936|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington.|
 A The Menders' Stead|QID|26952|PRE|26978|M|83.19,68.62|Z|Tirisfal Glades|N|From Argent Officer Garush.|
 R Charred Outpost|QID|26979|M|40.66,52.08|N|Northeast of Felstone Field.|
