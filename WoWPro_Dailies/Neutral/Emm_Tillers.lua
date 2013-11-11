@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2013-10-31 17:08
+-- Who: Twists
+-- Log: Add ACTIVE for seeds
+
+-- URL: http://wow-pro.com/node/3508/revisions/25755/view
 -- Date: 2013-09-10 23:36
 -- Who: Ludovicus Maior
 -- Log: Relocated Haohan's Vote quest T steps for better flow.
@@ -209,16 +214,16 @@ A Farmer Fung|QID|30421;30420;30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, t
 
 ;buy seeds for farmer yoon's preferred crop
 A A Shabby New Face|QID|32189|M|52.8,52.0|N|New for 5.1 From Merchant Greenfield.|
-B Mogu Pumpkin Seeds|QID|31672|L|80592|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Striped Melon Seeds|QID|31942|L|89329|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Mogu Pumpkin Seeds|QID|31672|ACTIVE|31672|L|80592|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Striped Melon Seeds|QID|31942|ACTIVE|31942|L|89329|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
 B Red Blossom Leek Seeds|QID|31673|ACTIVE|31673|L|80593|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Jade Squash Seeds|QID|31941|L|89328|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Juicycrunch Carrot Seeds|QID|31670|L|80590|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Green Cabbage Seeds|QID|31669|L|79102|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Pink Turnip Seeds|QID|31674|L|80594|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B White Turnip Seeds|QID|31675|L|80595|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Witchberry Seeds|QID|31943|L|89326|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
-B Scallion Seeds|QID|31671|L|80591|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Jade Squash Seeds|QID|31941|ACTIVE|31941|L|89328|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Juicycrunch Carrot Seeds|QID|31670|ACTIVE|31670|L|80590|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Green Cabbage Seeds|QID|31669|ACTIVE|31669|L|79102|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Pink Turnip Seeds|QID|31674|ACTIVE|31674|L|80594|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B White Turnip Seeds|QID|31675|ACTIVE|31675|L|80595|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Witchberry Seeds|QID|31943|ACTIVE|31943|L|89326|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
+B Scallion Seeds|QID|31671|ACTIVE|31671|L|80591|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
 B Juicycrunch Carrot Seeds (Mung Mung)|QID|31946|L|80590 2|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
 B Green Cabbage Seeds(Farmer Fung)|QID|31947|L|79102 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
 B Witchberry Seeds(Nana)|QID|31949|L|89326 3|M|52.8,52.0|N|Buy seeds from Merchant Greenfield.|
