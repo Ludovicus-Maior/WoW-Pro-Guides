@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2013-11-11 04:17
+-- Who: Fluclo
+-- Log: Moved The Last Living Lorekeeper to avoid doubling back, added extra step for the Rod of Subjugation, moved The Hammer and the Key to avoid doubling back, added CHAT icon, fixed typo
+
+-- URL: http://wow-pro.com/node/3303/revisions/25795/view
+-- Date: 2013-11-11 03:02
+-- Who: Fluclo
+-- Log: Fixing the guide for the quest "Into the Maw" which has four QID numbers hence PRE needed fixing and also better handling depending on which quest ID was taken
+
+-- URL: http://wow-pro.com/node/3303/revisions/25761/view
 -- Date: 2013-09-16 21:11
 -- Who: Fluclo
 -- Log: Corrected quest As Hyjal Burns so that it works for Horde as well
@@ -198,7 +208,7 @@ A The Earth Rises|QID|25460|PRE|25316|RANK|2|M|64.05,22.58|N|From Anren Shadowse
 A Inciting the Elements|QID|25370|PRE|25316|RANK|2|M|64.05,22.58|N|From Tholo Whitehoof.|
 C The Earth Rises|QID|25460|RANK|2|M|64.61,22.62|N|Kill Scalding Rock Elementals.|S|
 l Juniper Berries|QID|25370|RANK|2|L|53009 4|M|67.11,22.08|N|Loot 4 Juniper Berries.|
-C Inciting the Elements|QID|25370|RANK|2|U|53009|M|64.8,22.5|N|Use the Berries on Faerie Dragons. They will then reveal a hidden Twilight Inciter.  Kill the Twilight Inciter.|
+C Inciting the Elements|QID|25370|RANK|2|U|53009|M|64.8,22.5|N|Use the Berries on Faerie Dragons. They will then reveal a hidden Twilight Inciter. Kill the Twilight Inciter.|
 C The Earth Rises|QID|25460|RANK|2|M|64.61,22.62|N|Kill Scalding Rock Elementals.|US|
 T The Earth Rises|QID|25460|RANK|2|M|64.03,22.66|N|To Anren Shadowseeker.|
 T Inciting the Elements|QID|25370|RANK|2|M|64.07,22.46|N|To Tholo Whitehoof.|
@@ -320,19 +330,21 @@ T Free Your Mind, the Rest Follows|QID|25298|RANK|2|M|28.21,29.90|N|To Rio Duran
 
 C Lightning in a Bottle|QID|25353|U|52834|M|22.85,31.90|N|Use the Condenser Jar.|FACTION|Alliance|
 T Lightning in a Bottle|QID|25353|U|52853|M|22.85,31.93|N|Use the Totem, then turn the quest into the Spirit of Goldrinn.|FACTION|Alliance|
-A Into the Maw!|QID|25618|PRE|25353|M|22.87,31.93|N|From Howling Riftdweller.|FACTION|Alliance|
-C Sweeping the Shelf|QID|25352|RANK|2|M|26.76,40.87|N|Kill Twilight Stormcallers and Howling Riftdwellers.|FACTION|Alliance|
-T Into the Maw!|QID|25618|M|26.24,41.89|N|Enter the portal in the center if the Twilight Cultists camp and turn in at Jordan Olafson.|FACTION|Alliance|
+A Into the Maw!|QID|25618|LEAD|25623|PRE|25353|M|22.87,31.93|N|From the summoned Spirit of Goldrinn.|FACTION|Alliance|
+A Into the Maw!|QID|25623|LEAD|25618|PRE|25353|M|28.2,29.8|N|From Ian Duran.|FACTION|Alliance|
 
 l Lightning in a Bottle|QID|25355|L|52834|M|22.85,31.90|N|Loot a Charged Condenser Jar from the lightning rods scattered around the area.|FACTION|Horde|
 T Lightning in a Bottle|QID|25355|U|52854|N|Use the Totem of Lo'Gosh to summon the wolf spirit.|FACTION|Horde|
-A Into the Maw!|QID|25617|N|From the summoned Spirit of Lo'Gosh.|FACTION|Horde|
-C Sweeping the Shelf|QID|25354|M|26.5,38.1|N|Kill Twilight Stormcallers and Howling Riftdwellers.|FACTION|Horde|
-T Into the Maw!|QID|25617|M|26.1,41.1|N|Enter the portal in the center if the Twilight Cultists camp and turn in at Jordan Olafson.|FACTION|Horde|
+A Into the Maw!|QID|25617|LEAD|25624|PRE|52854|N|From the summoned Spirit of Lo'Gosh.|FACTION|Horde|
+A Into the Maw!|QID|25624|LEAD|25617|M|28.4,29.8|N|From Takrik Ragehowl.|FACTION|Horde|
 
-A Crushing the Cores|QID|25577|PRE|25618|M|26.24,41.89|N|From Jordan Olafson.|
-A Forged of Shadow and Flame|QID|25575|PRE|25618|M|26.27,41.93|N|From Yargra Blackscar.|
-A Rage of the Wolf Ancient|QID|25576|PRE|25618|M|26.29,41.94|N|From Yargra Blackscar.|
+C Sweeping the Shelf|QID|25352;25354|M|26.76,40.87|N|Kill Twilight Stormcallers and Howling Riftdwellers.|
+T Into the Maw!|QID|25618;25623;25617;25617|M|26.1,41.1|N|Enter the portal in the center of the Twilight Cultists camp, and turn in at Jordan Olafson.|
+
+;There are four possible PRE quests, two Horde, two Alliance, depending on where it is picked up from.
+A Crushing the Cores|QID|25577|PRE|25618+25623+25617+25617|M|26.24,41.89|N|From Jordan Olafson.|
+A Forged of Shadow and Flame|QID|25575|PRE|25618+25623+25617+25617|M|26.27,41.93|N|From Yargra Blackscar.|
+A Rage of the Wolf Ancient|QID|25576|PRE|25618+25623+25617+25617|M|26.29,41.94|N|From Yargra Blackscar.|
 C Forged of Shadow and Flame|QID|25575|S|M|30.11,39.21|N|Destroy Twilight Arms Crates as you come across them.|
 l Crushing the Cores|QID|25577|S|L|55123 8|N|Kill Searing Guardians and loot Smoldering Cores.|
 C Rage of the Wolf Ancient|QID|25576|M|28.51,40.57|N|Kill Dark Iron Laborers.|
@@ -457,12 +469,14 @@ T Sethria's Brood|QID|25746|M|32.80,70.79|N|To Thisalee Crow.|
 T A Gap in Their Armor|QID|25758|M|32.80,70.79|N|To Thisalee Crow.|
 A Disassembly|QID|25761|PRE|25758|M|32.80,70.79|N|From Thisalee Crow.|
 T The Codex of Shadows|QID|25763|M|32.80,70.79|N|To Thisalee Crow.|
+
 A Egg Hunt|QID|25764|PRE|25763|M|32.80,70.79|N|From Thisalee Crow.|
 C Disassembly|QID|25761|U|55883|S|M|30.70,80.05|N|Find a Twilight Juggernaut. Use Thisalee's Shiv on him to break his armor, then kill him. You can use the Shiv multiple times to further decrease his armor.|
-C Egg Hunt|QID|25764|M|29.80,76.97|N|Find one of the Shadow Cloak Generators. Click on it to deactivate it. Keep doing this until you find Aviana's egg. Once you find the egg, you must defend it until the druids come to collect it.|
+C Egg Hunt|QID|25764|M|29.80,76.97|N|Click on a Shadow Cloak Generator to deactivate it. Either a Sethria's Hatchling will spawn, or you will find the Egg. When you find the egg, you must defend it until the druids come to collect it.|
 C Disassembly|QID|25761|U|55883|US|M|30.70,80.05|N|Find a Twilight Juggernaut. Use Thisalee's Shiv on him to break his armor, then kill him. You can use the Shiv multiple times to further decrease his armor.|
 T Disassembly|QID|25761|M|32.78,70.74|N|To Thisalee Crow.|
 T Egg Hunt|QID|25764|M|32.78,70.74|N|To Thisalee Crow.|
+
 A Sethria's Demise|QID|25776|PRE|25761;25764|M|32.78,70.74|N|From Thisalee Crow.|
 C Sethria's Demise|QID|25776|U|56003|M|35.46,97.83|N|Attack her until she changes into her dragon form. When she does, use Thisalee's Signal Rocket to summon the Druids of the Talon to help you defeat her. She will occasionally place a shadow fissure on the ground around. Move out of it as soon as you see it to avoid massive damage.|
 T Sethria's Demise|QID|25776|M|32.78,70.77|N|To Thisalee Crow.|
@@ -471,24 +485,27 @@ T Hell's Shells|QID|25507|M|27.16,62.59|N|To Arch Druid Hamuul Runetotem.|
 A Tortolla Speaks|QID|25510|PRE|25507|M|27.14,62.75|N|From Arch Druid Hamuul Runetotem.|
 T Prepping the Soil|QID|25502|M|27.08,62.99|N|To Rayne Feathersong.|
 T Tortolla Speaks|QID|25510|M|24.84,55.82|N|Fly to Torolla, who is chained on the far side of the lake.|
-A Children of Tortolla|QID|25519|PRE|25510|M|24.84,55.82|N|From Tortolla.|
+
 A Breaking the Bonds|QID|25514|PRE|25510|M|25.01,55.53|N|From Tortolla.|
+A Children of Tortolla|QID|25519|PRE|25510|M|24.84,55.82|N|From Tortolla.|
 C Children of Tortolla|QID|25519|M|22.66,56.87|N|Jump into the lake and swim down. Kill the Deep Corruptors to rescue the eggs they are near.|
-C Breaking the Bonds|QID|25514|M|24.00,55.88|N|Go back to Tortolla. Use the giant rod to your left to break the chain holding Tortola and summon a Twilight Dominator. Kill him, then repeat on the other rod to the right.|
-T Breaking the Bonds|QID|25514|M|24.45,55.85|N|To Tortolla.|
+C First Rod of Subjugation|QID|25514|M|24.00,59.93|N|Head to the Rod of Subjugation to the left of Tortola, and click it. Clicking it will spawn a Twilight Dominator.|QO|First Rod of Subjugation Disabled: 1/1|
+C Second Rod of Subjugation|QID|25514|M|24.00,59.93|N|There is another Rod of Subjugation on the other side of Tortola, click it. Again, a Twilight Dominator will spawn.|QO|Second Rod of Subjugation Disabled: 1/1|
 T Children of Tortolla|QID|25519|M|24.49,55.81|N|To Tortolla.|
-A An Ancient Awakens|QID|25520|PRE|25514;25519|M|24.49,55.81|N|From Tortolla.|
-F Shrine of Aviana|QID|25795|M|27.75,63.63;41.74,44.74|CC|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
-T Return to the Shrine|QID|25795|M|44.41,46.24|N|Find Choluna in the back.|
+T Breaking the Bonds|QID|25514|M|24.45,55.85|N|To Tortolla.|
+
+A An Ancient Awakens|QID|25520|PRE|25514+25519|M|24.49,55.81|N|From Tortolla.|
+T An Ancient Awakens|QID|25520|M|27.10,62.57|N|To Arch Druid Hamuul Runetotem.|
+
+F Shrine of Aviana|QID|25795|M|41.74,44.74|CC|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
+T Return to the Shrine|QID|25795|M|44.41,46.24|N|Find Choluna at the back on the ground floor.|
 A An Ancient Reborn|QID|25807|PRE|25795|M|44.41,46.24|N|From Choluna.|
-C An Ancient Reborn|QID|25807|U|56016|M|44.34,47.89|N|Go up the ramp to your right, into a small room where you will find Aviana's Egg. Use the Herald's Incense near the egg to resurrect Aviana.|
+C An Ancient Reborn|QID|25807|NC|U|56016|M|44.34,47.89|N|Go up the ramp to your right, into a small room where you will find Aviana's Egg. Use the Herald's Incense near the egg to resurrect Aviana.|
 T An Ancient Reborn|QID|25807|M|44.34,47.89|N|To Aviana.|
 
 A The Hatchery Must Burn|QID|25810|PRE|25807|RANK|2|M|44.09,46.01|N|From Morthis Whisperwing.|
-F Sanctuary of Malorne|QID|25520|M|41.17,42.61|N|Fly back to the Sanctuary of Malorne.|
-T An Ancient Awakens|QID|25520|M|27.10,62.57|N|To Arch Druid Hamuul Runetotem.|
-A The Last Living Lorekeeper|QID|25830|M|27.03,62.61|N|From Vision of Ysera.|
-F Firelands Hatchery|QID|25810|M|39.20,58.23|N|Fly back down into The Flamewake. Enter the large portal in the center.|
+A The Last Living Lorekeeper|QID|25830|M|43.80,45.95|N|From Vision of Ysera.|
+F Firelands Hatchery|QID|25810|M|39.20,58.23|N|Fly down to The Flamewake. Enter the large portal in the center.|
 T The Hatchery Must Burn|QID|25810|RANK|2|M|37.23,56.22|N|To Farden Talonshrike.|
 A Flight in the Firelands|QID|25523|PRE|25810|RANK|2|M|37.23,56.22|N|From Farden Talonshrike.|
 C Flight in the Firelands|QID|25523|RANK|2|M|36.51,53.32|U|52716|N|Loot a Twilight Firelance from one of the weapon ranks behind Farden. Equip it and jump on one of the Aviana's Guardians nearby. Flight does not work the normal way on these mounts. You must use the Flap ability to make them move forward AND stay in the air. You will move forward and gain altitude the more you use the ability. Fly to one of the flags on any the ledges in the cavern, then fly back to complete the quest.|
@@ -503,41 +520,46 @@ A Egg Wave|QID|25560|PRE|25544|RANK|2|M|37.26,56.23|N|From Farden Talonshrike.|
 C Egg Wave|QID|25560|U|52716|RANK|2|M|33.29,58.5|N|This quest is much easier. Still using the same controls, fly over to the ledges around the room and run over the eggs that are on them.|
 T Egg Wave|QID|25560|RANK|2|M|37.26,56.21|N|To Farden Talonshrike.|
 A Return to Aviana|QID|25832|PRE|25560|RANK|2|M|37.26,56.21|N|From Farden Talonshrike.|
+F Shrine of Aviana|QID|25832|M|41.45,42.55|N|Leave by the portal, then fly back to the Shrine of Aviana.|
+T Return to Aviana|QID|25832|M|44.34,47.89|N|To Aviana.|
+
 T The Last Living Lorekeeper|QID|25830|PRE|25807|M|27.62,55.67|N|To Nordu.|
 A Firefight|QID|25842|PRE|25830|M|27.49,55.50|N|From Nordu.|
 C Firefight|QID|25842|M|26.80,52.53|N|Kill 5 Firey Tormentors nearby.|
 T Firefight|QID|25842|M|27.39,55.49|N|To Nordu.|
+
 A Aessina's Miracle|QID|25372|PRE|25842|M|27.39,55.49|N|From Nordu.|
-F Shrine of Aviana|QID|25832|M|27.75,63.63;41.74,44.74|CC|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
-T Return to Aviana|QID|25832|M|44.34,47.89|N|To Aviana.|
-F Grove of Aessina|QID|25372|M|41.17,42.61|N|Fly to the Grove of Aessina.|
+F Grove of Aessina|QID|25372|M|19.30,37.85|N|Fly to the Grove of Aessina.|
 T Aessina's Miracle|QID|25372|M|19.51,37.83|N|To Arch Druid Hamuul Runetotem.|
+
 A Tortolla's Revenge|QID|25843|PRE|25372|M|19.60,37.83|N|From Arch Druid Hamuul Runetotem.|
-T Tortolla's Revenge|QID|25843|M|41.56,60.91|N|To Tortolla.|
+T Tortolla's Revenge|QID|25843|M|41.56,60.91|N|To Tortolla, who has now moved to The Regrowth.|
 A The Hammer and the Key|QID|25904|PRE|25843|M|41.56,60.91|N|From Tortolla.|
-A Lost Wardens|QID|25881|PRE|25843|RANK|2|M|42.20,60.62|N|From Niden.|
-A Breakthrough|QID|25899|PRE|25843|RANK|2|M|42.20,60.62|N|From Niden.|
-C Lost Wardens|QID|25881|RANK|2|S|M|48.98,51.70|N|Talk to the Lost Wardens to rescue them.|
-C Breakthrough|QID|25899|RANK|2|M|49.47,51.54|N|Kill 10 Twilight Scorchlords.|
-C Lost Wardens|QID|25881|RANK|2|US|M|48.98,51.70|N|Finish rescueing Lost Wardens.|
-T Lost Wardens|QID|25881|RANK|2|M|57.15,55.94|N|Continue to follow the road east until you reach a building with nightelves fighting around it. Go inside to find Captain Irontree.|
-A Pressing the Advantage|QID|25886|PRE|25881|RANK|2|M|57.15,55.94|N|From Captain Irontree.|
-T Breakthrough|QID|25899|RANK|2|M|57.15,55.94|N|To Captain Irontree.|
-A Hyjal Recycling Program|QID|25901|PRE|25843|RANK|2|M|56.87,56.01|N|From Logram.|
-C Hyjal Recycling Program|QID|25901|RANK|2|S|M|56.80,52.80;58.66,54.29|CN|N|Collect Arrows.|
-C Pressing the Advantage|QID|25886|RANK|2|M|54.16,54.28|N|Kill Twilight Field Captains.|
-C The Hammer and the Key|QID|25904|M|60.42,58.91|N|Continue killing Twilight Field Captains until the Glyph of Opening drops.|
-C Hyjal Recycling Program|QID|25901|RANK|2|US|M|56.80,52.80|N|Collect Arrows.|
+A Lost Wardens|QID|25881|RANK|2|M|42.20,60.62|N|From Niden.|
+A Breakthrough|QID|25899|RANK|2|M|42.20,60.62|N|From Niden.|
+C Breakthrough|QID|25899|RANK|2|S|M|49.47,51.54|N|Kill 10 Twilight Scorchlords.|
+C Lost Wardens|QID|25881|RANK|2|S|M|48.98,51.70|N|Talk to the Lost Wardens to rescue them.|CHAT|
+C The Hammer and the Key|QID|25904|M|60.42,58.91|N|Kill and loot the Twilight Field Captains until the Glyph of Opening drops.|T|Twilight Field Captain|
 T The Hammer and the Key|QID|25904|M|42.25,60.80|N|To Tortolla.|
 A The Third Flamegate|QID|25906|PRE|25904|M|42.25,60.80|N|From Tortolla.|
+C Lost Wardens|QID|25881|RANK|2|US|M|48.98,51.70|N|Talk to the Lost Wardens to rescue them.|CHAT|
+T Lost Wardens|QID|25881|RANK|2|M|57.15,55.94|N|Continue to follow the road east until you reach a building with nightelves fighting around it. Go inside to find Captain Irontree.|
+A Pressing the Advantage|QID|25886|PRE|25881|RANK|2|M|57.15,55.94|N|From Captain Irontree.|
+A Hyjal Recycling Program|QID|25901|PRE|25843|RANK|2|M|56.87,56.01|N|From Logram.|
+C Pressing the Advantage|QID|25886|S|RANK|2|M|54.16,54.28|N|Kill and loot the Twilight Field Captains.|T|Twilight Field Captain|
+C Hyjal Recycling Program|QID|25901|NC|RANK|2|M|56.80,52.80|N|Collect Arrows.|
+C Pressing the Advantage|QID|25886|US|RANK|2|M|54.16,54.28|N|Finish killing and looting the Twilight Field Captains.|T|Twilight Field Captain|
+C Breakthrough|QID|25899|RANK|2|US|M|49.47,51.54|N|Finish killing 10 Twilight Scorchlords.|
+T Breakthrough|QID|25899|RANK|2|M|57.15,55.94|N|To Captain Irontree.|
 T Pressing the Advantage|QID|25886|RANK|2|M|57.14,55.96|N|To Captain Irontree.|
 T Hyjal Recycling Program|QID|25901|RANK|2|M|56.86,56.05|N|To Logram.|
+
 T The Third Flamegate|QID|25906|M|64.30,53.54|N|Go farther down the road, to the east, until you reach another flamegate. Enter it to be teleported to The Crucible of Flame. Speak to Garunda Mountainpeak.|
 A The Time for Mercy has Passed|QID|25910|PRE|25906|RANK|2|M|64.30,53.54|N|From Garunda Mountainpeak.|
-N The Strength of Tortolla|QID|25915|N|If you are a pet class before you accept this quest, ensure that your pet is dismissed, else it can potentially bug out.|
-A The Strength of Tortolla|QID|25915|PRE|25906|M|64.30,53.54|N|From Garunda Mountainpeak.|
+A The Strength of Tortolla|QID|25915|PRE|25906|M|64.30,53.54|N|From Garunda Mountainpeak.\nEnsure your pet is dismissed before accepting the quest to ensure the Child of Tortolla companion works correctly.|C|Warlock,Hunter,DeathKnight,Mage|
+A The Strength of Tortolla|QID|25915|PRE|25906|M|64.30,53.54|N|From Garunda Mountainpeak.|C|Druid,Monk,Paladin,Priest,Rogue,Shaman,Warrior|
 C The Time for Mercy has Passed|QID|25910|RANK|2|S|M|61.17,56.87|N|Kill Molten Tormentors and Shadowflame Masters.|
-C The Strength of Tortolla|QID|25915|M|65.95,58.11|Z|Mount Hyjal|N|Make your way through the cavern until you find a Nemesis Crystal. Move the Cild of Tortolla following you close to the crystal and he will automatically examine it.|
+C The Strength of Tortolla|QID|25915|M|65.95,58.11|NC|Z|Mount Hyjal|N|Make your way through the cavern until you find a Nemesis Crystal. Move the Child of Tortolla following you close to the crystal and he will automatically examine it.|
 C The Time for Mercy has Passed|QID|25910|RANK|2|US|M|61.17,56.87|N|Finish killing Molten Tormentors and Shadowflame Masters.|
 T The Time for Mercy has Passed|QID|25910|RANK|2|M|64.34,53.55|N|To Garunda Mountainpeak.|
 T The Strength of Tortolla|QID|25915|M|64.34,53.55|N|To Garunda Mountainpeak.|
