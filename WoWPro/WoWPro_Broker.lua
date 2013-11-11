@@ -994,9 +994,10 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
         if gName then
             gName = gName:trim()
             if gName:find("FLAG %- ") then
-                _, _ , gName = gName:find("FLAG %- (.*)")
+                -- just punt
+                gName = gName
             end
-            if   gName ~=  myname then      
+            if   gName ~=  gName then      
                 WoWPro:Warning("In guide %s, quest %s's name [%s] does not match Grail's database [%s].",guide,tostring(qid),myname,gName)
             end
         end
