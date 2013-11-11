@@ -376,8 +376,13 @@ function WoWPro.LoadGuideStepsReal()
     WoWPro:dbp("LoadGuideSteps(%s)",GID);
     
 	-- Parsing quests --
-	local sequence = WoWPro.Guides[GID].sequence
-	local steps = { string.split("\n", sequence()) }
+	local sequencef = WoWPro.Guides[GID].sequence
+	local sequence = sequencef()
+	if not sequence then
+	    WoWPro:Error("Guide %s sequence function returned nothing!",GID,sequence)
+	    return
+	end
+	local steps = { string.split("\n", sequence ) }
 
 	WoWPro:ParseSteps(steps)
 	
@@ -411,6 +416,8 @@ function WoWPro.SetupGuideReal()
     local guideClass = WoWPro[guideType]
     local recordQIDs = guideClass.RecordQIDs
     
+    WoWPro:dbp("SetupGuideReal(%s): Type: %s, recordQIDs:",GID,guideType,tostring(recordQIDs))
+    
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
 	-- Checking to see if any steps are already complete --
@@ -436,10 +443,11 @@ function WoWPro.SetupGuideReal()
 				qid = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(qid)
 			end
-            if recordQIDs then
-                WoWProDB.global.QID2Guide[QID] = GID
-            end
+
             if QID then
+                if recordQIDs then
+                    WoWProDB.global.QID2Guide[QID] = GID
+                end
     		    -- Turned in quests --
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
     			    WoWProCharDB.Guide[GID].completion[i] = true
