@@ -759,7 +759,7 @@ function WoWPro:RowUpdate(offset)
 end
 
 -- Left-Click Row Function --
-function WoWPro:RowLeftClickX(i)
+function WoWPro:RowLeftClick(i)
 	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
 		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
 	end

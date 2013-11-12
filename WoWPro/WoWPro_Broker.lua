@@ -184,20 +184,14 @@ function WoWPro.UpdateGuideReal(From)
 	local function rowContentUpdate()
 		local reload = WoWPro:RowUpdate(offset)
 		for i, row in pairs(WoWPro.rows) do
-			local modulename
-			-- Hijack the click and menu functions for the Recorder if it's enabled --
-			if WoWPro.Recorder then 
-				modulename = "Recorder" 
-				WoWPro.Recorder:RowUpdate(offset)
-			else modulename = module:GetName() end
-			if WoWPro[modulename].RowLeftClick and WoWPro[modulename].RowDropdownMenu then
+			if WoWPro.RowDropdownMenu[i] then
 				row:SetScript("OnClick", function(self, button, down)			    
 					if button == "LeftButton" then
-						WoWPro[modulename]:RowLeftClick(i)
+						WoWPro:RowLeftClick(i)
 					elseif button == "RightButton" then
 						WoWPro.rows[i]:SetChecked(nil)
-						if WoWPro.Recorder then WoWPro[modulename]:RowLeftClick(i) end
-						EasyMenu(WoWPro[modulename].RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						if WoWPro.Recorder then WoWPro:RowLeftClick(i) end
+						EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
 					end
 				end)
 			end
