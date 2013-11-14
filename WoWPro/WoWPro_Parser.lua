@@ -760,8 +760,9 @@ end
 
 -- Left-Click Row Function --
 function WoWPro:RowLeftClick(i)
-	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
-		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
+    local QID = tonumber(WoWPro.QID[WoWPro.rows[i].index])
+	if  QID and WoWPro.QuestLog[QID] then
+		QuestLog_OpenToQuest(WoWPro.QuestLog[QID].index)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
 end
