@@ -762,6 +762,7 @@ end
 function WoWPro:RowLeftClick(i)
     local QID = tonumber(WoWPro.QID[WoWPro.rows[i].index])
 	if  QID and WoWPro.QuestLog[QID] then
+	    ShowUIPanel(QuestLogFrame)
 		QuestLog_OpenToQuest(WoWPro.QuestLog[QID].index)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
