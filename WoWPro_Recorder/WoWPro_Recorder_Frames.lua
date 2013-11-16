@@ -1198,6 +1198,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 								WoWPro.Recorder.CurrentGuide.Zone, WoWPro.Recorder.CurrentGuide.StartLvl, 
 								WoWPro.Recorder.CurrentGuide.EndLvl, WoWPro.Recorder.CurrentGuide.Author, 
 								WoWPro.Recorder.CurrentGuide.GID, WoWPro.Recorder.CurrentGuide.NextGID);
+							WoWPro.Recorder.LoadingGuide = true	
 							WoWPro:LoadGuide(WoWPro.Recorder.CurrentGuide.GID);
 							dialog:Close("WoWPro Recorder - New Guide - Leveling");
 						end,
