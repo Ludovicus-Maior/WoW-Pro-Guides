@@ -802,7 +802,9 @@ function WoWPro:PopulateQuestLog()
 		num = num+1
 	end
 	WoWPro:dbp("Quest Log populated. "..num.." quests found.")
-	
+	if WoWPro.Recorder then
+	    WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
+	end
 end
 
    		
