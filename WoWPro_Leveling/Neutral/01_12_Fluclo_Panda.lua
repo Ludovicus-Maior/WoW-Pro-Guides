@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2013-11-18 21:00
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25711/view
 -- Date: 2013-06-18 00:45
 -- Who: Ludovicus Maior
 -- Log: Missing coordinate, 1/1 in guide FlucloPanda, line [C Stronger Than Reeds].
@@ -73,11 +77,6 @@
 WoWPro.Leveling:RegisterGuide('FlucloPanda', 'TheWanderingIsle', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
 return [[
 
-; Non Pandarian can't get here.
-N Not Available |QID|99999|N|Sorry, but The Wandering Isle is only available to starting characters of the Pandaria race.  Please select another guide.|R|Gnome,Dwarf,Draenei,Night Elf,Human,Worgen,BloodElf,Goblin,Tauren,Orc,Troll,Forsaken|
-
-; When you start your character, the quest is automatically applied to your quest book so there is no need for an A step.
-T Much to Learn |QID|30039|M|56.66,18.17|N|To Master Shang Xi.|C|Monk|
 T Much to Learn |QID|30040|M|56.66,18.17|N|To Master Shang Xi.|C|Mage|
 T Much to Learn |QID|30041|M|56.66,18.17|N|To Master Shang Xi.|C|Hunter|
 T Much to Learn |QID|30042|M|56.66,18.17|N|To Master Shang Xi.|C|Priest|
@@ -130,7 +129,7 @@ T The Lesson of Stifled Pride|QID|29524|M|59.70,19.17|N|To Master Shang Xi (he h
 
 A The Lesson of the Burning Scroll|QID|29408|M|59.70,19.17|N|From Master Shang Xi.|
 C The Lesson of the Burning Scroll|QID|29408|M|59.93,20.32|NC|N|Snatch the Master's Flame from Master Shang Xi|QO|Snatch the Master's Flame: 1/1|
-C The Lesson of the Burning Scroll|QID|29408|M|60.10,18.42;59.78,19.73;60.02,18.59;59.99,20.27|CS|N|Head on up the stairs, follow around the floor to the second flight of stairs, then head to the balcony and burn the Edict of Temperance.|
+C The Lesson of the Burning Scroll|QID|29408|M|60.10,18.42;59.78,19.73;60.02,18.59;59.99,20.27|CS|N|Head on up the stairs, follow around the floor to the second flight of stairs, then head to the balcony and burn the Edict of Temperance.|NC|
 T The Lesson of the Burning Scroll|QID|29408|M|59.73,19.08|N|To Master Shang Xi.|
 
 A The Disciple's Challenge|QID|29409|M|59.73,19.08|N|From Master Shang Xi.|
@@ -154,22 +153,22 @@ T The Missing Driver|QID|29419|M|55.09,32.82|N|To Merchant Lorvo.|US|
 
 A The Way of the Tushui|QID|29414|M|55.11,32.54|N|From Aysa Cloudsinger|
 C The Way of the Tushui|QID|29414|M|55.63,30.99;57.80,36.10|CS|N|Head up to the Cave of Meditation, then kill the Amberleaf Troublemakers until Aysa's Meditation bar reaches 90.|
-T The Way of the Tushui|QID|29414|M|57.55,34.68|N|To Master Shang Xi|
+T The Way of the Tushui|QID|29414|M|57.55,34.68|N|To Master Shang Xi (he has moved to outside the Cave of Meditation)|
 
 A Ji of the Huojin|QID|29522|M|57.55,34.68|N|From Master Shang Xi|
 T Ji of the Huojin|QID|29522|M|50.24,21.26|N|To Ji Firepaw at Wu-Song Village.|
 
 A The Way of the Huojin|QID|29417|M|50.24,21.26|N|From Ji Firepaw.|
-C The Way of the Huojin|QID|29417|M|49.56,20.74|N|Kill the Fe-Feng Hozen and Brewthief|
+C The Way of the Huojin|QID|29417|M|49.56,20.74|N|Kill the Fe-Feng around Wu-Song Village.|
 T The Way of the Huojin|QID|29417|M|50.24,21.26|N|To Ji Firepaw.|
 
-A Fanning the Flames|QID|29523|M|50.24,21.26|N|From Ji Firepaw.|S|
-A Kindling the Fire|QID|29418|M|50.24,21.26|N|From Ji Firepaw.|
-A Fanning the Flames|QID|29523|M|50.24,21.26|N|From Ji Firepaw.|US|
+A Kindling the Fire|QID|29418|M|50.24,21.26|N|From Ji Firepaw.|S|
+A Fanning the Flames|QID|29523|M|50.24,21.26|N|From Ji Firepaw.|
+A Kindling the Fire|QID|29418|M|50.24,21.26|N|From Ji Firepaw.|US|
 
-C Kindling the Fire|QID|29418|M|50.24,21.26|M|48.33,29.60|N|Loot the Loose Dogwood Root found lying around the trees.|NC|S|
+C Kindling the Fire|QID|29418|M|48.33,29.60|N|Loot the Loose Dogwood Root found lying around the trees.|NC|S|
 C Fanning the Flames|QID|29523|M|47.30,31.31|N|Head to the Wind Stone then summon a Living Air, kill the Living Air, and loot the Fluttering Breeze.|U|72109|
-C Kindling the Fire|QID|29418|M|50.24,21.26|M|48.33,29.60|N|Finish looting the Loose Dogwood Root.|NC|US|
+C Kindling the Fire|QID|29418|M|48.33,29.60|N|Finish looting the Loose Dogwood Root.|NC|US|
 
 T Fanning the Flames|QID|29523|M|50.24,21.26|N|To Ji Firepaw.|S|
 T Kindling the Fire|QID|29418|M|50.24,21.26|N|To Ji Firepaw.|
@@ -200,16 +199,16 @@ T The Passion of Shen-zin Su|QID|29423|M|51.44,46.41|N|To Master Shang Xi|
 A The Singing Pools|QID|29521|M|51.44,46.41|N|From Master Shang Xi|
 A Stronger Than Reeds|QID|29662|M|53.33,47.46;63.47,41.97|CC|N|Head out of the Temple and head east to The Singing Pools to Jojo Ironbrow|
 
-r Profession Trainer|QID|29521|M|63.0,41.6|N|YOu can sell the extra items you have collected here, but even more importantly you can train your primary professions at Whittler Dewei. Unfortunantly secondary professions can't be trained until you reach your factions capital.|
+r Profession Trainer|QID|29521|M|63.0,41.6|N|You can sell the extra items you have collected here, but even more importantly, you can train your primary professions at Whittler Dewei. Unfortunantly secondary professions can't be trained until you reach your factions capital.\n\nCheck off this step to continue.|
 T The Singing Pools|QID|29521|M|65.59,42.59|N|To Aysa Cloudsinger (she has moved to The Singing Pools)|
 
 A The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|From Aysa Cloudsinger|
 A The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|From Aysa Cloudsinger|
 
-C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Collect the Tearwood Reeds from the ground.\n\nBe careful, when you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes.|NC|S|
+C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Collect the Tearwood Reeds from the ground.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|S|
 C The Lesson of Dry Fur|QID|29661|N|Head to the other side of the bridge to the north, and find an exit pole (the poles on the edge of the water), jump onto one, then jump onto other poles until you reach the bell.|NC|
-C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Collect the Tearwood Reeds from the ground.  When you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes.|NC|US|
+C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Finish collecting the Tearwood Reeds from the ground.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|US|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|US|
 
 T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|
@@ -248,8 +247,8 @@ A Rascals|QID|29769|M|68.89,65.00|N|From Ji Firepaw|
 A Still Good!|QID|29770|M|68.13,66.40|N|From Gao Summerdraft|
 
 C Rascals|QID|29769|M|72.62,74.17|N|Kill Plump Virmen|S|
-C Still Good!|QID|29770|M|74.71,71.56|N|Head into the Teaming Burrow and collect 3 Stolen Carrots either from the ground or from the Plump Virmen.|NC|QO|Stolen Carrot: 3/3|
-C Still Good!|QID|29770|M|77.19,71.06|N|Head to the Virmen Grotto and collect 3 Pilfered Pumpkins from the ground|NC|QO|Pilfered Pumpkin: 3/3|
+C Still Good!|QID|29770|M|71.66,70.54|N|Head into the Teaming Burrow and collect 3 Stolen Carrots either from the ground or from the Plump Virmen.|NC|QO|Stolen Carrot: 3/3|
+C Still Good!|QID|29770|M|77.19,71.06|N|Head out of the cave, to the Virmen Grotto and collect 3 Pilfered Pumpkins from the ground|NC|QO|Pilfered Pumpkin: 3/3|
 C Still Good!|QID|29770|M|70.74,78.82|N|Collect 3 Uprooted Turnips from the ground|NC|QO|Uprooted Turnip: 3/3|
 C Rascals|QID|29769|M|68.40,72.10|N|Finish Killing Plump Virmen|US|
 
@@ -260,7 +259,7 @@ A Missing Mallet|QID|29768|M|68.89,65.00|N|From Ji Firepaw|
 A Stronger Than Wood|QID|29771|M|69.13,66.62|N|From Jojo Ironbrow|
 
 C Stronger Than Wood|QID|29771|M|69.13,66.62|N|Collect the Discarded Wood Planks from the floor.|S|NC|
-C Missing Mallet|QID|29768|M|62.53,76.68|N|Loot the Mallet from next to Raggis.  You can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|
+C Missing Mallet|QID|29768|M|62.53,76.68|N|Loot the Mallet from next to Raggis.  You can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|NC|
 C Stronger Than Wood|QID|29771|M|63.07,76.77|N|Finish collecting the Discarded Wood Planks from the floor.|US|NC|
 
 T Stronger Than Wood|QID|29771|M|69.13,66.62|N|To Jojo Ironbrow|
@@ -271,7 +270,7 @@ C Raucous Rousing|QID|29772|N|Ring the gong next to Ji Firepaw.|NC|
 T Raucous Rousing|QID|29772|M|68.89,65.00|N|To Ji Firepaw|
 
 A Not In the Face!|QID|29774|M|68.89,65.00|N|From Ji Firepaw|
-C Not In the Face!|QID|29774|M|69.00,62.95|N|Head to Shu, and ask him for help|NC|QO|Ask Shu for help: 1/1|
+C Not In the Face!|QID|29774|M|69.00,62.95|N|Head to Shu, and ask him for help|CHAT|QO|Ask Shu for help: 1/1|
 C Not In the Face!|QID|29774|M|68.89,65.00|N|Head back to Wugou and wait for Shu to wake him.|NC|
 T Not In the Face!|QID|29774|M|68.89,65.00|N|To Ji Firepaw|
 
@@ -318,7 +317,8 @@ A Balanced Perspective|QID|29784|M|30.97,36.74|N|From Ji Firepaw|
 T Balanced Perspective|QID|29784|M|32.94,35.60|N|Cross the ropes, to Aysa Cloudsinger|
 
 A Dafeng, the Spirit of Air|QID|29785|M|32.94,35.60|N|From Aysa Cloudsinger|
-C Dafeng, the Spirit of Air|QID|29785|M|28.30,63.75|N|Head on south along the road to the Chamber of Whispers|
+R Chamber of Whispers|QID|29785|M|28.09,64.23|N|Head to the Chamber of Whispers|
+C Dafeng, the Spirit of Air|QID|29785|M|28.30,63.75|N|Wait for the winds to settle, then run through the hallway to Dafeng. Stick with Aysa if you can't time it yourself.|NC|
 T Dafeng, the Spirit of Air|QID|29785|M|24.64,69.78|N|To Dafeng|
 
 A Battle for the Skies |QID|29786|M|24.77,69.77|N|From Aysa Cloudsinger|
@@ -391,8 +391,8 @@ A From Bad to Worse|QID|29665|M|42.30,86.35|N|From Jojo Ironbrow|
 C From Bad to Worse|QID|29665|M|38.40,83.60|N|Kill Deepscale Tormentors|S|
 C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|S|
 C Medical Supplies|QID|29797|M|38.40,83.60|N|Collect the Medical Supplies lying about the crash site.|NC|
-C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|US|
 C From Bad to Worse|QID|29665|M|38.40,83.60|N|Finish killing Deepscale Tormentors|US|
+C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|US|
 
 T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|S|
 T None Left Behind|QID|29794|M|42.20,86.55|N|From Delora Lionheart|

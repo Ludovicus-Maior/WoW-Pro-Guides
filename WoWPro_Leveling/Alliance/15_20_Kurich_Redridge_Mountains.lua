@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2013-11-18 21:47
+-- Who: Fluclo
+-- Log: Correcting LVL and QID for Level and zone directions
+
+-- URL: http://wow-pro.com/node/3215/revisions/25583/view
 -- Date: 2013-03-23 20:03
 -- Who: Ludovicus Maior
 -- Log: QID correction and quest name tweak
@@ -74,9 +79,9 @@
 WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", "TwiDus2025", "Alliance", function()
 return [[
 
-L Level 14 |QID|13518|LVL|8|N|This guide requires a minimum level of 14 to do.|
+L Level 14 |QID|26506|LVL|14|N|This guide requires a minimum level of 14 to do.|
 
-R Redridge Mountains|QID|26365|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are Threat to the Kingdom from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and Hero's Call: Redridge Mountains! available from both Hero's Callboards in Stormwind City, as well as from King Varian Wrynn. |
+R Redridge Mountains|QID|26506|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are Threat to the Kingdom from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and Hero's Call: Redridge Mountains! available from both Hero's Callboards in Stormwind City, as well as from King Varian Wrynn. |
 
 A Wanted: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|

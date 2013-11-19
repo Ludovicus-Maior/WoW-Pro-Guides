@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2013-11-18 20:37
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3255/revisions/25802/view
+-- Date: 2013-11-18 20:33
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3255/revisions/25801/view
+-- Date: 2013-11-18 20:32
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3255/revisions/25800/view
+-- Date: 2013-11-18 20:30
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3255/revisions/25798/view
+-- Date: 2013-11-18 20:27
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3255/revisions/25397/view
 -- Date: 2013-01-12 22:48
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -69,6 +89,8 @@
 
 WoWPro.Leveling:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', '48', '50', 'CraBur5052|LiaBur5052', 'Neutral', function()
 return [[
+
+L Level 46|QID|27963|N|You need to be Level 46 to do this guide.|LVL|46|
 
 H Dragon's Mouth|QID|27963|N|Hearth back to Dragon's Mouth.|FACTION|Alliance|
 R Searing Gorge|QID|27963|M|9.79,51.31;2.29,51.97|Z|Badlands|CS|N|Follow the arrows into Searing Gorge.|
