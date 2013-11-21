@@ -4,6 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2013-11-21 01:29
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25810/view
+-- Date: 2013-11-21 01:02
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25809/view
+-- Date: 2013-11-21 00:59
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25804/view
 -- Date: 2013-11-18 21:00
 -- Who: Fluclo
 
@@ -193,7 +205,7 @@ C Huo, the Spirit of Fire|QID|29422|M|39.45,29.62|N|Head up the ramp to Huo Anci
 T Huo, the Spirit of Fire|QID|29422|M|39.45,29.62|N|To Huo|
 
 A The Passion of Shen-zin Su|QID|29423|M|39.45,29.62|N|From Huo|
-C The Passion of Shen-zin Su|QID|29423|M|38.71,26.42;40.73,22.29;41.65,25.14;51.04,30.62;51.44,46.41|CS|N|Head out of the Shrine and go to Temple of Five Dawns|NC|
+C The Passion of Shen-zin Su|QID|29423|M|38.71,26.42;40.73,22.29;41.65,25.14;51.04,30.62;51.44,46.41|CS|N|Head out of the Shrine and go to Temple of Five Dawns. Follow Huo for a 50% speed bonus.|NC|
 T The Passion of Shen-zin Su|QID|29423|M|51.44,46.41|N|To Master Shang Xi|
 
 A The Singing Pools|QID|29521|M|51.44,46.41|N|From Master Shang Xi|
@@ -232,8 +244,8 @@ T The Sun Pearl|QID|29677|M|78.50,42.85|N|To Old Man Liang (he's moved to the Ga
 T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|US|
 
 A Shu, the Spirit of Water|QID|29678|M|78.50,42.85|N|From Old Man Liang|
-C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|Cross to the Pool of Reflection: 1/1|
-C Shu, the Spirit of Water|QID|29678|M|79.64,38.62|N|Use the Sun Pearl to coax out Shu.|
+C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|Cross to the Pool of Reflection: 1/1|NC|
+C Shu, the Spirit of Water|QID|29678|M|79.64,38.62|N|Use the Sun Pearl to coax out Shu.|NC|
 T Shu, the Spirit of Water|QID|29678|N|(UI Alert)|
 
 A A New Friend|QID|29679|N|(UI Alert)|
@@ -303,16 +315,18 @@ A Monkey Advisory Warning|QID|29781|M|30.97,36.74|N|From Ji Firepaw|US|
 
 C The Direct Solution|QID|29779|N|Kill Fe-Fang Hozen|S|
 A Stronger Than Bone|QID|29782|M|28.33,38.78;26.43,33.73|CC|N|From Jade Tiger Pillar in Fe-Feng Village|
-C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundles as you go.  There are several where Ruk-Ruk is|S|
+C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundles as you go.  There are several where Ruk-Ruk is|S|NC|
 C Do No Evil|QID|29780|M|20.93,34.36|N|Kill Ruk-Ruk|
 T Do No Evil|QID|29780|N|To Ji Firepaw|
-C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundle from where Ruk-Ruk was, or elsewhere in the village|US|
+C Monkey Advisory Warning|QID|29781|M|20.93,34.36|N|Collect the Stolen Firework Bundle from where Ruk-Ruk was, or elsewhere in the village|US|NC|
 T Monkey Advisory Warning|QID|29781|N|To Ji Firepaw|
 C The Direct Solution|QID|29779|M|24.44,30.62|N|Finish killing Fe-Fang Hozen.  Ji Firepaw has a great AOE kick, so feel free to pull a few.|US|
-T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you are out of the monkey village to turn this in as Ji stops helping you and runs off when you turn in the last quest|
+
+T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you see Ji Firepaw at the water's edge as Ji stops helping you and runs off to the water's edge when you turn in the quest.|
 
 T Stronger Than Bone|QID|29782|M|29.92,39.77|N|To Jojo Ironbrow|
 
+T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you are out of the monkey village to turn this in as Ji stops helping you and runs off when you turn in the last quest|US|
 A Balanced Perspective|QID|29784|M|30.97,36.74|N|From Ji Firepaw|
 T Balanced Perspective|QID|29784|M|32.94,35.60|N|Cross the ropes, to Aysa Cloudsinger|
 
