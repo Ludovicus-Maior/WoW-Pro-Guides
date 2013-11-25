@@ -598,8 +598,21 @@ function WoWPro:RowUpdate(offset)
 			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 		end
 		if note then note = strtrim(note) note = string.gsub(note,"\\n","\n") end
-		if WoWProDB.profile.showcoords and coord and note then note = note.." ("..coord..")" end
-		if WoWProDB.profile.showcoords and coord and not note then note = "("..coord..")" end
+		
+		
+		if WoWProDB.profile.showcoords and coord then
+		    note = note or ""
+		    if WoWPro.waypcomplete[k] == 1 then
+		        note = note.." ("..string.gsub(coord,";",">")..")"
+		    elseif WoWPro.waypcomplete[k] == 2 then
+		        note = note.." ("..string.gsub(coord,";","}")..")"
+		    elseif WoWPro.waypcomplete[k] == false then
+		        note = note.." ("..string.gsub(coord,";"," ")..")"
+		    else
+		        note = note.." ("..coord..")"
+		    end
+		end
+		
 		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
 		row.note:SetText(note)
 		row.action:SetTexture(WoWPro.actiontypes[action])
