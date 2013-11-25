@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2013-11-21 17:52
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3216/revisions/25813/view
+-- Date: 2013-11-21 17:51
+-- Who: Fluclo
+-- Log: Added minimum levels, added as Rank 3 the lead-in quest from Elwynn Forest, added as Rank 2 the lead-in quest from Ironforge, added PRE steps where quests require a previous quest to be done, moved the quests Stormpike's Orders and Wing Nut so they work in tandum with minimum level step.
+
+-- URL: http://wow-pro.com/node/3216/revisions/25374/view
 -- Date: 2013-01-12 19:26
 -- Who: Ludovicus Maior
 -- Log: Added CS tags
@@ -96,41 +105,56 @@
 WoWPro.Leveling:RegisterGuide('WkjLoc1220', 'Loch Modan', 'Wkjezz', '12', '20', 'WkjWet2025', 'Alliance', function()
 return [[
 
-F South Gate Outpost|QID|26131|Z|Ironforge|M|55.49,47.78|N|Talk to Gryth Thurden, and ask him to fly you to Loch Modan.|
-T Reinforcements for Loch Modan|QID|26131|M|14,56.49|N|To Pilot Hammerfoot.|
+L Level 10 |QID|26854|LVL|10|N|This guide requires a minimum level of 10 to do.|
+
+A Elmore's Task|QID|1097|M|41.6,65.6|Z|Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|LEAD|26118|RANK|3|
+T Elmore's Task|QID|1097|M|59.6,34.0|Z|Stormwind City|N|To Grimand Elmore in the Dwarven District of Stormwind City.|LEAD|26118|RANK|3|
+A Stormpike's Delivery|QID|353|M|59.6,34.0|Z|Stormwind City|N|From Grimand Elmore.|LEAD|26118|RANK|3|
+F Ironforge|QID|26131|M|41.8,52.2|Z|Ironforge|N|Head to Ironforge either by the Stormwind Tram, or by flying from your nearest flight master.|LEAD|26118|RANK|3|
+
+A Reinforcements for Loch Modan|QID|26131|M|41.8,52.2|Z|Ironforge|N|From Mountaineer Barleybrew in Ironforge.\nIf quest doesn't show, drop the quest Hero's Call: Loch Modan!|LEAD|28567|RANK|2|
+F South Gate Outpost|QID|26131|Z|Ironforge|M|55.49,47.78|N|Talk to Gryth Thurden, and ask him to fly you to Loch Modan.|RANK|2|
+T Reinforcements for Loch Modan|QID|26131|M|14,56.49|N|To Pilot Hammerfoot.|RANK|2|
+T Hero's Call: Loch Modan!|QID|28567|M|14,56.49|N|To Pilot Hammerfoot.|O|
+
 A The Lost Pilot|QID|26854|M|14,56.49|N|From Pilot Hammerfoot.|
 T The Lost Pilot|QID|26854|M|87.63,50.14|Z|Dun Morogh|N|To A Dwarven Corpse.|
 A A Pilot's Revenge|QID|26855|M|87.63,50.14|Z|Dun Morogh|N|From A Dwarven Corpse.|
 C A Pilot's Revenge|QID|26855|M|87.46,50.02|Z|Dun Morogh|N|Kill and Mangeclaw. He appears after you accept the quest.|
 T A Pilot's Revenge|QID|26855|M|14,56.49|N|To Pilot Hammerfoot.|
-A South Gate Status Report|QID|13635|M|14,56.49|N|From Pilot Hammerfoot.|
+
+A South Gate Status Report|QID|13635|M|14,56.49|N|From Pilot Hammerfoot.|PRE|26855|
 T South Gate Status Report|QID|13635|M|23.4,75|N|To Captain Rugelfuss.|
 
 A In Defense of the King's Lands|QID|26146|M|23.48,75.03|N|From Captain Rugelfuss.|
 A The Trogg Threat|QID|26145|M|23.44,74.94|N|From Mountaineer Cobbleflint.|
-R Up the Trail|QID|26145|CC|M|23.21,76.52;22.58,77.34;26.66,77.34;23.48,79.83;24.85,78.01;27.51,76.46;30.31,78.37|N|Go up this mountain trail and kill Troggs around the valley.|
+R Stonesplinter Valley|QID|26145|M|22.58,77.34|N|Go up the mountain trail to Stonesplinter Valley.|
 
 C The Trogg Threat|QID|26145|S|M|31.63,69.62|N|Collect the Trogg Stone Tooth that drops from the Troggs.|
 C In Defense of the King's Lands|QID|26146|M|35.78,80.53|N|Kill 12 Stoneslinter Troggs.|
 C The Trogg Threat|QID|26145|US|M|31.63,69.62|N|Finish off collecting the Trogg Stone Tooth that drops from the Troggs.|
 
+R Valley of Kings|QID|26145|M|30.07,78.19|N|Head back to Mountaineer Cobbleflint and Captain Rugelfuss via the Trail.|
 T The Trogg Threat|QID|26145|M|23.45,74.98|N|To Mountaineer Cobbleflint.|
 T In Defense of the King's Lands|QID|26146|M|23.41,75.00|N|To Captain Rugelfuss.|
-A A Decisive Strike|QID|26148|M|23.37,75.01|N|From Captain Rugelfuss.|
-A Bigger and Uglier|QID|26147|M|23.40,75.02|N|From Mountaineer Wallbang.|
+A A Decisive Strike|QID|26148|M|23.37,75.01|N|From Captain Rugelfuss.|PRE|26145+26146|
+A Bigger and Uglier|QID|26147|M|23.40,75.02|N|From Mountaineer Wallbang.|PRE|26145+26146|
 C Bigger and Uglier|QID|26147|M|35.04,59.37|S|N|Kill Stonesplinter Shamans and Bonesnappers.|
 C A Decisive Strike|QID|26148|M|33.08,70.65;35.36,65.18;35.64,62.25;33.86,62.19;35.60,61.10|CS|N|Kill Grawmug, who is in the rear of the cave.|
 C Bigger and Uglier|QID|26147|M|35.04,59.37|US|N|Finish killing the Stonesplinters needed.|
 T A Decisive Strike|QID|26148|M|23.40,75.01|N|To Captain Rugelfuss.|
-A Onward to Thelsamar|QID|26176|M|23.37,75.01|N|From Captain Rugelfuss.|
+
+A Onward to Thelsamar|QID|26176|M|23.37,75.01|N|From Captain Rugelfuss.\nIf quest doesn't show, drop the quest Out of Gnoll-where.|LEAD|26842|PRE|26148|
 T Bigger and Uglier|QID|26147|M|23.34,75.01|N|To Mountaineer Wallbang.|
-R Thelsamar|QID|26176|M|35,46.6|N|Follow the road north to Thelsamar.|
+R Thelsamar|QID|26176|M|35,46.6|N|Follow the road north-east to Thelsamar.|
 f Thelsamar|QID|26176|M|33.93,50.95|N|At Thorgum Borrelson.|
 T Onward to Thelsamar|QID|26176|M|35,46.6|N|To Mountaineer Kadrell.|
 
 A Out of Gnoll-where|QID|26842|M|35.09,46.41|N|From Mountaineer Kadrell.|
 h Stoutlager Inn|QID|26860|M|35.48,48.44|N|At Innkeeper Hearthstove.|
 A Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|N|From Vidra Hearthstove.|
+
+L Level 11 |QID|26842|LVL|11|N|You need to be Level 11 to be able to continue this guide.|
 A Looking for Lurkers|QID|25118|M|35.37,42.86|N|From Dakk Blunderblast.|
 A WANTED: The Dark Iron Spy|QID|13648|M|37.26,46.44|N|From "Wanted" sign.|
 C Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|N|Kill and loot bears for their rumps.|S|
@@ -139,7 +163,7 @@ C Out of Gnoll-where|QID|26842|M|26.25,42.37|N|Kill and loot Mosshide Scouts and
 C Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|N|Kill and loot bears for their rumps.|US|
 C Looking for Lurkers|QID|25118|US|M|29.01,48.29|N|Kill 8 Forest Lurkers.|
 T Out of Gnoll-where|QID|26842|M|35.03,46.56|N|To Mountaineer Kadrell.|
-A Stormpike's Orders|QID|13636|M|35.09,46.41|N|From Mountaineer Kadrell.|
+
 T Looking for Lurkers|QID|25118|M|35.35,42.82|N|To Dakk Blunderblast.|
 T Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|N|To Vidra Hearthstove.|
 R WANTED: The Dark Iron Spy|QID|13648|M|40.69,58.07;40.35,61.45;37.31,61.99|CC|N|Take the trail up and head into the cave.|
@@ -148,19 +172,22 @@ A Explorers' League Document (1 of 6)|QID|13656|M|36.76,61.25|N|From the Stolen 
 T Explorers' League Document (1 of 6)|QID|13656|M|37.18,47.82|N|To Torren Squarejaw.|
 T WANTED: The Dark Iron Spy|QID|13648|M|34.60,44.50|N|To Magistrate Bluntnose.|
 
+L Level 12 |QID|13636|LVL|12|N|You need to be Level 12 to be able to continue this guide.|
+A Stormpike's Orders|QID|13636|M|35.09,46.41|N|From Mountaineer Kadrell.|
 R Algaz Station|QID|13636|M|32.20,49.48|N|Get on the road, then head north to Algaz Station.|
+T Stormpike's Delivery|QID|353|M|25.50,17.69|N|To Mountaineer Stormpike.|O|
 T Stormpike's Orders|QID|13636|M|25.50,17.69|N|To Mountaineer Stormpike.|
 A A Tiny, Clever Commander|QID|26843|M|25.50,17.69|N|From Mountaineer Stormpike.|
 C A Tiny, Clever Commander|QID|26843|M|25.81,31.24|N|Head into the cave and kill "Commander" Nazrim.|
 T A Tiny, Clever Commander|QID|26843|M|25.47,18.02|N|To Mountaineer Stormpike.|
-A Kobold and Kobolder|QID|26844|M|25.47,18.02|N|From Mountaineer Stormpike.|
+A Kobold and Kobolder|QID|26844|M|25.47,18.02|N|From Mountaineer Stormpike.|PRE|26843|
 C Kobold and Kobolder|QID|26844|M|34.37,17.29|N|Kill Tunnel Rat Surveyors and Rat Foragers. They are not in the cave.|
 T Kobold and Kobolder|QID|26844|M|25.41,17.90|N|To Mountaineer Stormpike.|
-A Who's In Charge Here?|QID|26845|M|25.41,17.90|N|From Mountaineer Stormpike.|
-A Filthy Paws|QID|26863|M|25.41,17.90|N|From Mountaineer Stormpike.|
-A A Nasty Exploit|QID|26846|M|25.41,17.90|N|From Scout Dorli.|
+A Who's In Charge Here?|QID|26845|M|25.41,17.90|N|From Mountaineer Stormpike.|PRE|26844|
+A Filthy Paws|QID|26863|M|25.41,17.90|N|From Mountaineer Stormpike.|PRE|26844|
+A A Nasty Exploit|QID|26846|M|25.41,17.90|N|From Scout Dorli.|PRE|26844|
 
-R Filthy Paws|QID|26863|CC|M|35.29,17.93|N|Run here.|
+R Filthy Paws|QID|26863|CC|M|35.29,17.93|N|Run here.|PRE|26844|
 C A Nasty Exploit|QID|26846|M|36.23,23.45|S|N|Kill Tunnel Rat Geomancers.|
 C Filthy Paws|QID|26863|M|35.09,24.63|S|N|Loot Miners' League Crates. They sparkle.|
 C Who's In Charge Here?|QID|26845|M|34.75,26.85|N|Head to the end of the cave. Kill and loot Foreman Sharpsneer.|
@@ -168,19 +195,20 @@ C A Nasty Exploit|QID|26846|M|36.23,23.45|US|N|Kill Tunnel Rat Geomancers.|
 C Filthy Paws|QID|26863|M|35.09,24.63|US|N|Loot Miners' League Crates. They sparkle.|
 T Filthy Paws|QID|26863|M|25.48,17.74|N|To Mountaineer Stormpike.|
 T Who's In Charge Here?|QID|26845|M|25.48,17.74|N|To Mountaineer Stormpike.|
-A The Bearer of Gnoll-edge|QID|26864|M|25.48,17.74|N|From Mountaineer Stormpike.|
+A The Bearer of Gnoll-edge|QID|26864|M|25.48,17.74|N|From Mountaineer Stormpike.|PRE|26845|
 T A Nasty Exploit|QID|26846|M|25.48,17.74|N|To Scout Dorli.|
 H Thelsamar|QID|26864|M|37.17,46.40|N|Hearth back to Thelsamar.|
 T The Bearer of Gnoll-edge|QID|26864|M|35.09,46.41|N|To Mountaineer Kadrell.|
 
-A Suddenly, Murlocs!|QID|26927|M|35.09,46.41|N|From Mountaineer Kadrell.|
+A Suddenly, Murlocs!|QID|26927|M|35.09,46.41|N|From Mountaineer Kadrell.|PRE|26864|
 T Suddenly, Murlocs!|QID|26927|M|34.81,49.06|N|To Cannary Caskshot.|
-A Smells Like A Plan|QID|26928|M|34.81,49.06|N|From Cannary Caskshot.|
+A Smells Like A Plan|QID|26928|M|34.81,49.06|N|From Cannary Caskshot.|PRE|26927|
 C Smells Like A Plan|QID|26928|S|M|42.92,47.90|N|Kill and loot Murlocs until you get 7 glands.|
 A Explorers' League Document (2 of 6)|QID|13655|M|41.35,39.00|N|From the Stolen Explorers' League Documents. It is hard to see, it is just under the south side of the bridge.|
 C Smells Like A Plan|QID|26928|US|M|42.92,47.90|N|Kill and loot Murlocs until you get 7 glands.|
-
 T Explorers' League Document (2 of 6)|QID|13655|M|37.18,47.82|N|To Torren Squarejaw.|
+
+L Level 13 |QID|26932|LVL|13|N|You need to be Level 13 to be able to continue this guide.|
 A Buzz Off|QID|26932|M|35.01,46.42|N|From Mountaineer Kadrell.|
 T Smells Like A Plan|QID|26928|M|34.85,49.07|N|To Cannary Caskshot.|
 A Axis of Awful|QID|26868|M|34.85,49.07|N|From Cannary Caskshot.|
@@ -196,6 +224,8 @@ C A Load of Croc|QID|26929|US|M|60.21,54.19|N|Looted from the Loch Crocolisk|
 T Buzz Off|QID|26932|M|35.01,46.84|N|To Mountaineer Kadrell.|
 T Axis of Awful|QID|26868|M|34.86,49.03|N|To Cannary Caskshot.|
 T A Load of Croc|QID|26929|M|34.86,49.03|N|To Cannary Caskshot.|
+
+L Level 14 |QID|13639|LVL|14|N|You need to be Level 14 to be able to continue this guide.|
 A Resupplying the Excavation|QID|13639|M|37.26,47.60|N|From Jern Hornhelm.|
 C Resupplying the Excavation|QID|13639|NC|M|56.39,65.97|N|Head to the waypoint to find Huldar, Miran and Saean.|
 T Resupplying the Excavation|QID|13639|M|56.39,65.97|N|To Huldar.|
@@ -219,11 +249,13 @@ A Joining the Hunt|QID|13647|M|64.93,66.60|N|From Magmar Fellhew.|
 A Thistle While You Work|QID|27025|M|82.79,63.42|N|From Safety Warden Pipsy.|
 A The Joy of Boar Hunting|QID|27016|M|83.35,65.01|N|From Daryl the Youngling.|
 f Farstrider Lodge|QID|13647|M|81.96,64.10|N|At Eeryven Grayer. |
-A Wing Nut|QID|27031|M|81.70,64.59|N|From Bingles Blastenheimer.|
+
 A Hornet Hunting|QID|27028|M|81.82,61.74|N|From Marek Ironheart.|
 A Foxtails By The Handful|QID|27030|M|81.87,61.88|N|From Marek Ironheart.|
 T Joining the Hunt|QID|13647|M|81.82,61.74|N|To Marek Ironheart.|
 
+L Level 15 |QID|27031|LVL|15|N|You need to be Level 15 to be able to continue this guide.|
+A Wing Nut|QID|27031|M|81.70,64.59|N|From Bingles Blastenheimer.|
 C Wing Nut|QID|27031|M|75.15,73.70|N|Kill and loot Golden Eagles for their feathers.|
 C Foxtails By The Handful|QID|27030|M|68.77,42.89|S|N|Kill and loot foxes until you get 7 Fluffy Fox Tails.|
 C Thistle While You Work|QID|27025|M|68.39,39.97|NC|N|Collect the Seeds from the ground.|S|
