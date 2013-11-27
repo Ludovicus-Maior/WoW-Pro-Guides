@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/glop_and_pebble_achievements
+-- Date: 2013-11-27 20:46
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3527/revisions/25635/view
 -- Date: 2013-05-14 18:46
 -- Who: Ludovicus Maior
 -- Log: In not in

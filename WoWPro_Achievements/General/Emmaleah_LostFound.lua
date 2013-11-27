@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2013-11-27 21:01
+-- Who: Ludovicus Maior
+-- Log: Added a CS tag to A [Hozen Warrior Spear:31413]
+
+-- URL: http://wow-pro.com/node/3514/revisions/25758/view
 -- Date: 2013-09-10 23:53
 -- Who: Ludovicus Maior
 -- Log: Coord tweaks and spelling fixes.
@@ -110,7 +115,7 @@ A Kafa Press|QID|31304|L|86125|RANK|1|M|37.5,78.0;35.2,76.3|Z|Kun-Lai Summit|CS|
 A Lost Adventurer's Belongings|QID|31418|RANK|2|M|36.7,79.8|Z|Kun-Lai Summit|N|Kota Peak (at Ski'thik spawn point).|
 A Terracotta Head|QID|31422|L|86427|RANK|2|M|59.25,73|Z|Kun-Lai Summit|N|Mogujia - appears just like all the other Terracotta statue pieces.|
 A Hozen Treasure Cache|QID|31414|RANK|2|M|49.5,59.4|Z|Kun-Lai Summit|N|Knucklethump hole, at back of the big cave.|
-A Hozen Warrior Spear|QID|31413|L|86394|RANK|1|M|52.9,71.1;51.5,74|Z|Kun-Lai Summit|N|Middle of underground pool in cave "The Deeper" (room adjacent Dak Dak's alter) BoA Agi Polearm.|
+A Hozen Warrior Spear|QID|31413|L|86394|RANK|1|M|52.9,71.1;51.5,74|Z|Kun-Lai Summit|CS|N|Middle of underground pool in cave "The Deeper" (room adjacent Dak Dak's alter) BoA Agi Polearm.|
 A Mo-Mo's Treasure Chest|QID|31868|RANK|3|M|47,73|Z|Kun-Lai Summit|N|In Mo Mo's cave.|
 A Tablet of Ren Yun (Recipe)|QID|31417|L|86393|RANK|1|M|44.7,52.4|Z|Kun-Lai Summit|N|Beside Ren Yun's statue (Panda Shrine} - top of Mt Neverest.|
 A Rikktik's Tick Remover|QID|31419|L|86430|RANK|2|M|52,51|Z|Kun-Lai Summit|N|Rikktik's tomb - Valley of the Emperors.|
