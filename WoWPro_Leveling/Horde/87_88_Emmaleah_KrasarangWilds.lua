@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2013-11-27 17:22
+-- Who: Ludovicus Maior
+-- Log: Added the missing end) and got rid of the extra Change Log section.
+
+-- URL: http://wow-pro.com/node/3489/revisions/25812/view
 -- Date: 2013-11-21 03:42
 -- Who: Emmaleah
 -- Log: removed coord from F Zhu's watch.  We don't particularly care where you are flying from afterall.
@@ -312,80 +317,4 @@ F Grassy Cline|QID|31255|M|20.31, 58.62|Z|Valley of the Four Winds|N|At Dragonwi
 N Congratulations|QID|31255|N|You have finished Krasarang Wilds. Next zone is Kun-Lai Summit.|
 ]]
 
-Change Log
-Emmaleah - 10 Nov 2012 - Added the "one time" treasure items. *and this change log*
-
-Emmaleah - 20 Nov 2013 - Added |CHAT| tags, corrected a few typos, clarified some instructions (|N|)
-
-[Back to List of Guides]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+end)
