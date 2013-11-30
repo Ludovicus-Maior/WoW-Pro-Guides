@@ -67,21 +67,16 @@ end,
 	end
 end
 
-function WoWPro.Recorder:RegisterGuide(module, zonename, startlevelvalue, endlevelvalue, authorname, GIDvalue, nextGIDvalue)
+function WoWPro.Recorder:InitGuide(GIDvalue,guidetype,kvp)
 	WoWPro.Guides[GIDvalue] = {
-		guidetype = gsub(module,"WoWPro ",""),
-		zone = zonename,
-		author = authorname,
-		startlevel = startlevelvalue,
-		endlevel = endlevelvalue,
+	    guidetype = guidetype,
 		sequence = function() 
 return [[
-
-
 ]] end,
-		nextGID = nextGIDvalue,
 	}
-	
+	for key,value in pairs(kvp) do
+	    WoWPro.Guides[GIDvalue][key] = value
+	end
 end
 
 
