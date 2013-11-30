@@ -501,7 +501,7 @@ end
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
 	local GID = WoWProDB.char.currentguide
-	if InCombatLockdown() 
+	if MaybeCombatLockdown() 
 		or not GID 
 		or not WoWPro.Guides[GID]
 		then return 

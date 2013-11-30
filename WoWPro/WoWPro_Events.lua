@@ -343,7 +343,7 @@ function WoWPro:UpdateQuestTracker()
 		end
 		row.track:SetText(track)
 	end
-	if not InCombatLockdown() then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
+	if not MaybeCombatLockdown() then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
 end
 
 
@@ -427,17 +427,17 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 	
 	-- Updating party-dependant options --
-	if event == "PARTY_MEMBERS_CHANGED" and not InCombatLockdown() then
+	if event == "PARTY_MEMBERS_CHANGED" and not MaybeCombatLockdown() then
 		WoWPro:UpdateGuide() 
 	end
 
 	-- Updating WoWPro keybindings --
-	if event == "UPDATE_BINDINGS" and not InCombatLockdown() then
+	if event == "UPDATE_BINDINGS" and not MaybeCombatLockdown() then
 		WoWPro:UpdateGuide() 
 	end
 
     -- Did we get a buff?
-    if event == "UNIT_AURA" and not InCombatLockdown() then
+    if event == "UNIT_AURA" and not MaybeCombatLockdown() then
         WoWPro:AutoCompleteBuff(...)
     end
         
