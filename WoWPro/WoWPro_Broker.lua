@@ -156,7 +156,7 @@ function WoWPro.UpdateGuideReal(From)
 	WoWPro.GuideOffset = nil
 	
 	-- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
-	if InCombatLockdown() then
+	if MaybeCombatLockdown() then
 	    WoWPro:dbp("Suppresssed guide update.  In Combat.")
 	    WoWPro:SendMessage("WoWPro_UpdateGuide","InCombat")
 	    return
@@ -563,22 +563,30 @@ function WoWPro:NextStep(k,i)
     		local count = GetAchievementNumCriteria(achnum)
     		if achitem == "" then achitem = nil end
     		if count == 0 or not achitem then
-    			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
-    			if achflip then Completed = not Completed end
-                if Completed then
+    			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(achnum)
+    			self:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
+    			if achflip then wasEarnedByMe = not wasEarnedByMe end
+                if wasEarnedByMe then
                     if not achflip then
 				        WoWPro.CompleteStep(k)
+				        WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] Complete."
 				    end
 				    skip = true
+				else
+				    WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] not complete."
 			    end 
     		elseif (count > 0) and achitem then
     			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+    			self:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
     			if achflip then completed = not completed end
 			    if completed then
 			        if not achflip then
 				        WoWPro.CompleteStep(k)
+				        WoWPro.why[k] = "NextStep(): Criteria ["..description.."] Complete."
 				    end
 				    skip = true
+				else
+				    WoWPro.why[k] = "NextStep(): Criteria ["..description.."] not complete."
 			    end
 			else
 			    WoWPro:Error("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
