@@ -252,6 +252,7 @@ function WoWPro:OnInitialize()
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
 	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
+	WoWProDB.global.RecklessCombat = WoWProDB.global.RecklessCombat or false
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
@@ -265,13 +266,20 @@ function WoWPro:OnInitialize()
     
 end
 
+
+function MaybeCombatLockdown()
+    return InCombatLockdown() and (not WoWProDB.global.RecklessCombat)
+end
+
 -- Setting up event handler
 
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
 	WoWPro:dbp("|cff33ff33Enabled|r: Core Addon")
-
+    if  WoWProDB.global.RecklessCombat then
+        WoWPro:Warning("Achtung!  Beware! Peligro!  Reckless Combat mode enabled.  InCombat interlocks disabled!")
+    end
 	-- Loading Frames --
 	if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro:CreateFrames()
