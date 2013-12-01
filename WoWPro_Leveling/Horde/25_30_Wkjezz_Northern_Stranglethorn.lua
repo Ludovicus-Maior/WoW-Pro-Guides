@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2013-12-01 00:10
+-- Who: Ludovicus Maior
+-- Log: Just a few tweaks
+
+-- URL: http://wow-pro.com/node/3232/revisions/25714/view
 -- Date: 2013-06-18 00:50
 -- Who: Ludovicus Maior
 -- Log: Missing coordinate, 1/1 in guide WkjNor2530, line [C Raptor Mastery].
@@ -73,21 +78,21 @@ F Orgrimmar|QID|26416|M|49.49,65.24|Z|Ashenvale|N|Wind Tamer Shosok|
 
 T Well, Come to the Jungle|QID|26416|M|53.94,54.42|Z|Orgrimmar|N|To Bort.|
 
-A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|M|53.94,54.42|Z|Orgrimmar|N|From Bort.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|LEAD|26278|M|53.94,54.42|Z|Orgrimmar|N|From Bort.|
 
-N Before you fly off|QID|26416|N|Now is a good time to train up, repair and get supplies.|
+N Before you fly off|QID|26278|N|Now is a good time to train up, repair and get supplies.|
 
-R The Zep tower.|QID|99999|CC|M|52.52,53.18|Z|Orgrimmar|N|On the NE tip.|
+R The Zep tower.|QID|26278|CC|M|52.52,53.18|Z|Orgrimmar|N|On the NE tip.|
 
 T Northern Stranglethorn: The Fallen Empire|QID|26417|M|38.41,50.52|N|To Commander Aggro'gosh.|
 
 A The Defense of Grom'gol: Raptor Risk|QID|26278|M|38.41,50.52|N|From Commander Aggro'gosh.|
 
+h Grom'gol Base Camp|QID|26278|M|37.36,51.83|N|At Innkeeper Thulbek. Repair/Restock here also.|
+
 C The Defense of Grom'gol: Raptor Risk|QID|26278|M|36.34,43.04|
 
-h Grom'gol Base Camp|QID|26417|M|37.36,51.83|N|At Innkeeper Thulbek. Repair/Restock here also.|
-
-f Grom'gol|QID|26350|M|38.96,51.14|N|At Thysta.|
+f Grom'gol|QID|26278|M|38.96,51.14|N|At Thysta.|
 
 A A Lashtail Hatchling|QID|26317|M|36.34,43.04|N|From Lashtail Raptor.|
 
@@ -101,9 +106,9 @@ A The Defense of Grom'gol: Ogre Oppression|QID|26279|M|38.36,50.71|N|From Comman
 
 A The Defense of Grom'gol: Murloc Menace|QID|26280|M|38.37,50.65|N|From Commander Aggro'gosh.|
 
-A Mosh'Ogg Handiwork|QID|26407|U|58491|M|42.82,51.89|From the hand...|
+C The Defense of Grom'gol: Ogre Oppression|QID|26279|M|45.46,51.62|N|Keep killing Ogres till you loot a hand.|
 
-C The Defense of Grom'gol: Ogre Oppression|QID|26279|M|45.46,51.62|
+A Mosh'Ogg Handiwork|QID|26407|U|58491|M|42.82,51.89|N|From the hand...|
 
 C I Think She's Hungry|QID|26321|U|58165|M|41.02,37.68|
 
