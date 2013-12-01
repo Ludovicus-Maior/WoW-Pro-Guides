@@ -275,14 +275,15 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 	WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
 	WoWPro.target[i] = text:match("|T|([^|]*)|?")
-    WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
+	WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
 	WoWPro.prof[i] = text:match("|P|([^|]*)|?")
 	WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
 	WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
 	WoWPro.NPC[i] = text:match("|NPC|([^|]*)|?")
 	WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
 	WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
-    WoWPro.why[i] = "I dunno."
+	WoWPro.recipe[i] = text:match("|RECIPE|([^|]*)|?")
+	WoWPro.why[i] = "I dunno."
 
     -- If the step is "Achievement" use the name and description from the server ...
     if WoWPro.ach[i] and false then
