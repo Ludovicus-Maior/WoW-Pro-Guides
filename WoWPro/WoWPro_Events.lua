@@ -555,6 +555,10 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	
+	if event == "TRADE_SKILL_SHOW" then
+	    WoWPro:ScanTrade()
+    end
+
 	-- Module Event Handlers --
 	for name, module in WoWPro:IterateModules() do
 		if WoWPro[name].EventHandler 
@@ -579,13 +583,16 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteZone(...)
 	end
 	if event == "QUEST_LOG_UPDATE" then
-		WoWPro:PopulateQuestLog(...)
-		WoWPro:AutoCompleteQuestUpdate(...)
+		WoWPro:PopulateQuestLog()
+		WoWPro:AutoCompleteQuestUpdate(nil)
 		WoWPro:UpdateQuestTracker()
 		WoWPro:UpdateGuide(event)
 	end	
 	if event == "UI_INFO_MESSAGE" then
 		WoWPro:AutoCompleteGetFP(...)
 	end
+end
 
+function WoWPro.PuntedQLU()
+    WoWPro.EventHandler(nil, "QUEST_LOG_UPDATE")
 end
