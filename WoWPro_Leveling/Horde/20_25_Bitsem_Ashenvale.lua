@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2013-12-01 00:06
+-- Who: Ludovicus Maior
+-- Log:  CS
+
+-- URL: http://wow-pro.com/node/3228/revisions/25567/view
 -- Date: 2013-03-23 18:41
 -- Who: Ludovicus Maior
 -- Log: Quest [Ursangous' Paw] name correction
@@ -117,7 +122,7 @@ A Ashenvale Outrunners|QID|6503|RANK|1|M|73.55,60.92|N|From Kuray'bin.|
 
 T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.18,57.62|CC|N|To Durak.|
 A Pierce Their Heart!|QID|13805|PRE|13803|RANK|1|M|72.18,57.62|N|From Durak.|
-A Playing With Felfire|QID|13730|RANK|1|M|72.68,56.76;73.18,56.99;72.92,58.08;72.55,58.04;73.35,62.03|CN|N|From Splintertree Demolisher.|
+A Playing With Felfire|QID|13730|RANK|1|M|72.68,56.76;73.18,56.99;72.92,58.08;72.55,58.04;73.35,62.03|CS|N|From Splintertree Demolisher.|
 A Dead Elves Walking|QID|13801|RANK|1|M|73.83,62.43|N|From Pixel.|
 
 h Splintertree Post|QID|6503|M|73.94,60.72|N|At Innkeeper Kaylisk.|
