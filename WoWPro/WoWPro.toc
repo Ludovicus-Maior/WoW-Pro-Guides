@@ -38,3 +38,4 @@ WoWPro_Mapping.lua
 WoWPro_Broker.lua
 WoWPro_NilGuide.lua
 WoWPro_Parser.lua
+WoWPro_Trade.lua
