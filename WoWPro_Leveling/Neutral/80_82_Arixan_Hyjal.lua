@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2013-12-03 17:12
+-- Who: Fluclo
+-- Log: Added step for Graduation Speech to indicate which options to pick, and added couple extra notes to other quests. Also added |PRE| to Gates of Southann Flightpath, as it only appears once the quest has been done.
+
+-- URL: http://wow-pro.com/node/3303/revisions/25830/view
 -- Date: 2013-12-02 22:12
 -- Who: Fluclo
 -- Log: Added |NC| tags as appropriate, and tagged the disguise on Seeds of Discord to auto-complete
@@ -645,25 +650,27 @@ C Twilight Territory|QID|25311|M|67.00,67.06|N|Finish killing Horrorguards.|US|
 T The Greater of Two Evils|QID|25310|M|89.56,59.04|N|To Instructor Mylva.|
 T Twilight Territory|QID|25311|M|89.56,59.04|N|To Instructor Mylva.|
 A Speech Writing for Dummies|QID|25314|PRE|25311;25310;25496;25308|M|88.31,58.53|N|From the Outhouse Hideout.|
-C Speech Writing for Dummies|QID|25314|M|78.87,56.40|N|Search around the roads leading to the Seat of the Chosen until you find Okrog.|
+C Speech Writing for Dummies|QID|25314|M|78.87,56.40|N|Kill Okrog, he can be found wandering along a small stretch of road in Darkwhisper Gorge.|T|Okrog|
 T Speech Writing for Dummies|QID|25314|M|88.23,58.48|N|To the Outhouse Hideout.|
 A Head of the Class|QID|25601|PRE|25314|M|88.23,58.48|N|From the Outhouse Hideout.|
 T Head of the Class|QID|25601|M|89.53,59.05|N|To Instructor Mylva.|
 A Graduation Speech|QID|25315|PRE|25601|M|89.53,59.05|N|From Instructor Mylva.|
-C Graduation Speech|QID|25315|M|95.22,51.33|N|Fly over to Doom's Vigil. You will find a podium all the way at the back of the camp. Click on it to start the event. During this event, you will have to use 3 abilities depending on the crowd's mood. These abilities are: Inspire, Incite, and Pander. The members of the crowd will say different things depending on their mood. Wait until a random crowd member says something, then use the abilities. Once you have made the correct choice 10 times, the crowd will riot, allowing you to rescue Jarod Shadowsong.|
+C Graduation Speech|QID|25315|M|95.22,51.33|N|Fly over to Doom's Vigil and activate the Initiation Podium.|BUFF|74948|NC|
+C Graduation Speech|QID|25315|M|95.22,51.33|N|Listen to the crowd and select a speech line in line with their mood.\n\nUse 1. Inspire if the crowd yells "Meh.", "Yea... I don't know about this", "I'm not quite convinced" or "*yawn*".\nUse 2. Incite when the crowd yells Raaahhh, Blood, Kill, Kill them all, Crush or Death.\nUse 3 Pander when the crowd yells "It's like... It's like the void just touched my mind", "The end is nigh!", "Immalanath" or "I hear the voices". |CHAT|
 T Graduation Speech|QID|25315|M|95.31,51.34|N|To Commander Jarod Shadowsong.|
-A Twilight Riot|QID|25531|PRE|25315|M|95.31,51.34|
-T Twilight Riot|QID|25531|M|72.21,74.69|N|To Commander Jarod Shadowsong.|
+A Twilight Riot|QID|25531|PRE|25315|M|95.31,51.34|N|From Commander Jarod Shadowsong.|
+T Twilight Riot|QID|25531|M|72.21,74.69|N|To Commander Jarod Shadowsong, who has now moved to the Gates of Sothann.|
 A Slash and Burn|QID|25608|PRE|25531|M|72.21,74.69|N|From Commander Jarod Shadowsong.|
 C Slash and Burn|QID|25608|M|80.25,65.47|N|Get on one of the Emerald Drakes nearby. Fly east back into Darkwhisper Gorge. Use the Acid Blast ability on any ground units you see until you have killed 40 Twilight's Hammer units, and the Aerial Swipe ability on 5 of the Twilight Stormwakers, the twilight dragons flying around.|
 T Slash and Burn|QID|25608|M|72.15,74.03|N|To Commander Jarod Shadowsong.|
+
 A Might of the Firelord|QID|25548|PRE|25608|M|71.97,73.97|N|From Commander Jarod Shadowsong.|
 A Secrets of the Flame|QID|25554|PRE|25608|M|71.96,74.01|N|From Cenarius.|
-f Gates of Sothann|QID|25554|M|71.57,75.24|N|At Althera.|
+f Gates of Sothann|QID|25554|M|71.57,75.24|N|At Althera.|PRE|25608|;Flight Path only shows once Slash and Burn complete.
 C Might of the Firelord|QID|25548|S|M|58.49,82.53|N|Kill Flame Ascendants and Twilight Subjugators.|
 l Secrets of the Flame|QID|25554|M|59.66,80.81|L|54906|N|Get the The Burning Litanies.|
 l Secrets of the Flame|QID|25554|M|58.13,78.90|L|54905|N|Get the Tome of Flame.|
-C Secrets of the Flame|QID|25554|M|56.84,83.85|N|Get the Ascendant's Codex.|
+C Secrets of the Flame|QID|25554|M|56.84,83.85|N|Get the Ascendant's Codex.|NC|QO|Ascendant's Codex: 1/1|
 A The Twilight Egg|QID|25644|PRE|25608|M|59.07,83.85|N|From Twilight Subjugator.|
 C Might of the Firelord|QID|25548|US|M|58.49,82.53|N|Finish killing the needed mobs.|
 T Might of the Firelord|QID|25548|M|72.08,74.05|N|To Commander Jarod Shadowsong.|
