@@ -2,7 +2,7 @@
 --      WoWPro_Profession_Trade     --
 --------------------------------------
 
-function WoWPro.Profession:ScanTrade()
+function WoWPro:ScanTrade()
     local tradeskillName, rank, maxLevel = GetTradeSkillLine()
     
     WoWPro:Print("Opened %s window",tradeskillName)
@@ -53,7 +53,7 @@ function WoWPro.Profession:ScanTrade()
                 spellId = tonumber(spellId)
                 if not Trade[spellId] then
                     Trade[spellId] = true
-                    WoWPro:Print("%s:%s",skillName,spellId)
+                    WoWPro:Print("Learned %s:%s",skillName,spellId)
                 end
 			end
 		end

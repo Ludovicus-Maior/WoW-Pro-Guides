@@ -8,6 +8,7 @@
         <Script file="HallowsEnd_PAN.lua"/>
         <Script file="LunarFestival.lua"/>
         <Script file="Ludo_Love.lua"/>
+        <Script file="PilgrimsBounty.lua"/>
         <Script file="WinterVeil.lua"/>
 </Ui>
 

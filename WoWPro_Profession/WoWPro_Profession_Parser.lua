@@ -49,16 +49,6 @@ function WoWPro.Profession:NextStep(k, skip)
 			skip = false -- If the optional quest is in the quest log, it's NOT skipped --
 		end
 	end
-	
-	-- Skip if
-	if (not skip) and WoWPro.recipe and WoWPro.recipe[k] then
-	    if WoWProCharDB.Trades and WoWProCharDB.Trades[WoWPro.recipe[k]] then
-    	    WoWPro.why[k] = "Recipe is known already"
-    	    WoWPro.CompleteStep(k)
-    		skip = true
-    	end
-    	WoWPro:dbp("recipe #%d %s/%d is known: %s",k,WoWPro.step[k],WoWPro.recipe[k],tostring(WoWProCharDB.Trades[WoWPro.recipe[k]]))
-    end
 
 	return skip
 end
@@ -297,11 +287,6 @@ function WoWPro.Profession:ParseQuestLine(text,k)
 			end									
 		end        
     end
-    
-    WoWPro.recipe[k] = text:match("|RECIPE|([^|]*)|?")
-    if WoWPro.recipe[k] then
-        WoWPro.recipe[k] = tonumber(WoWPro.recipe[k])
-    end
 end
 
 function WoWPro.Profession:PreRowUpdate(row)
@@ -405,9 +390,5 @@ function WoWPro.Profession:EventHandler(self, event, ...)
 	
 	if event == "CHAT_MSG_SKILL" then
 		WoWPro.UpdateGuide()
-	end
-	
-	if event == "TRADE_SKILL_SHOW" then
-	    WoWPro.Profession:ScanTrade()
-    end
+	end	
 end

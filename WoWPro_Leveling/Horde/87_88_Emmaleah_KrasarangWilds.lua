@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2013-11-27 21:00
+-- Who: Ludovicus Maior
+-- Log: Added missing CN tag
+
+-- URL: http://wow-pro.com/node/3489/revisions/25819/view
+-- Date: 2013-11-27 17:22
+-- Who: Ludovicus Maior
+-- Log: Added the missing end) and got rid of the extra Change Log section.
+
+-- URL: http://wow-pro.com/node/3489/revisions/25812/view
+-- Date: 2013-11-21 03:42
+-- Who: Emmaleah
+-- Log: removed coord from F Zhu's watch.  We don't particularly care where you are flying from afterall.
+
+-- URL: http://wow-pro.com/node/3489/revisions/25808/view
+-- Date: 2013-11-21 00:10
+-- Who: Emmaleah
+-- Log: I lost my internet connection, so most of my edits vanished,  and the last save only had the last few.  Hopefully I redid them all correctly.
+
+-- URL: http://wow-pro.com/node/3489/revisions/25807/view
+-- Date: 2013-11-20 23:21
+-- Who: Emmaleah
+-- Log: Added |CHAT| tags, corrected a few typos, clarified some instructions (|N|)
+
+-- URL: http://wow-pro.com/node/3489/revisions/25762/view
 -- Date: 2013-09-17 14:18
 -- Who: Fluclo
 -- Log: Fix QID on initial step, and added Level step at beginning of guide.
@@ -62,28 +87,28 @@
 WoWPro.Leveling:RegisterGuide('EmmKra8788', 'Krasarang Wilds', 'Emmaleah', '87', '88', 'EmmKun8889', 'Horde', function()
 return [[
 
-L Level 86 |QID|30080|LVL|86|N|You need to be Level 86 to do this guide.|
-F Zhu's Watch|QID|30080|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
+L Level 86 |QID|30079|LVL|86|N|You need to be Level 86 to do this guide.|
+F Zhu's Watch|QID|30079|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.24,7.13|N|From Ken-Ken.|
-C Speak with Mei|QID|30079|NC|QO|Speak with Mei: 1/1|M|75.86,7.60|N|up the stairs, outside.|
+C Speak with Mei|QID|30079|CHAT|QO|Speak with Mei: 1/1|M|75.86,7.60|N|up the stairs, outside.|
 A Finding Yi-Mo|QID|30080|M|75.86,7.60|N|From Mei Barrelbottom.|
-C Speak with Yun|QID|30079|NC|QO|Speak with Yun: 1/1|M|75.48,9.26|N|up the stairs, inside.|
-C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|Speak with Despondent Warden of Zhu: 1/1|M|76.69,8.85|
-C Speak with Sunni|QID|30079|NC|QO|Speak with Sunni: 1/1|M|76.44,8.27|N|up the stairs, inside.|
-f Zhu's Watch|QID|30078|M|76.7,8.38|N|At Gee Hung.|
+C Speak with Yun|QID|30079|CHAT|QO|Speak with Yun: 1/1|M|75.48,9.26|N|up the stairs, inside.|
+C Speak with Despondent Warden of Zhu|QID|30079|CHAT|QO|Speak with Despondent Warden of Zhu: 1/1|M|76.69,8.85|
+C Speak with Sunni|QID|30079|CHAT|QO|Speak with Sunni: 1/1|M|76.44,8.27|N|up the stairs, inside.|
+f Zhu's Watch|QID|30080|M|76.7,8.38|N|At Gee Hung.|
 l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;19.17,39.06|Z|Valley of the Four Winds|CS|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 feet, and up into the house, papers are on table.|
-C Finding Yi-Mo|QID|30080|M|78.97,7.73|N|He is lying on the ground.|
+C Finding Yi-Mo|QID|30080|CHAT|M|78.97,7.73|N|He is lying on the ground.|
 T Finding Yi-Mo|QID|30080|M|81.31,6.78|N|To Yi-Mo Longbrow.|
 A Cheer Up, Yi-Mo|QID|30082|M|81.31,6.78|N|From Yi-Mo Longbrow.|
-C Cheer Up, Yi-Mo|QID|30082|NC|M|76.77,7.74|N|Talk to him, then you have to roll him home. You will be attacked by large birds on the way.|
+C Cheer Up, Yi-Mo|QID|30082|CHAT|M|76.77,7.74|N|Talk to him, then you have to roll him home. You will be attacked by large birds on the way.|
 T Cheer Up, Yi-Mo|QID|30082|M|75.87,7.63|N|To Mei Barrelbottom.|
 A Tears of Pandaria|QID|30091|M|75.87,7.63|N|From Mei Barrelbottom.|
 T What's Eating Zhu's Watch?|QID|30079|M|76.24,7.14|N|To Ken-Ken.|
 A Materia Medica|QID|30081|M|76.23,7.12|N|From Ken-Ken.|
 C Materia Medica|QID|30081|S|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
 C Tears of Pandaria|QID|30091|M|72.19,10.68;75.41,10.87|CN|
-C Materia Medica|QID|30081|US|M|72.19,10.68;75.41,10.87|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
+C Materia Medica|QID|30081|US|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
 T Tears of Pandaria|QID|30091|M|75.83,7.65|N|To Mei Barrelbottom.|
 A Securing the Province|QID|30083|M|75.83,7.65|N|From Mei Barrelbottom.|
 A Borderlands|QID|30084|M|75.83,7.65|N|From Mei Barrelbottom.|
@@ -91,10 +116,10 @@ T Materia Medica|QID|30081|M|76.24,7.14|N|To Ken-Ken.|
 A Why So Serious?|QID|30088|M|76.24,7.14|N|From Ken-Ken.|
 C Why So Serious?|QID|30088|S|L|78941 18|M|72.00,16.91|N|The panthers are in the area around the Memorial Flames.|
 C Memorial Flame of Po|QID|30084|NC|U|78928|QO|Memorial Flame of Po: 1/1|M|75.20,17.20|
-C Memorial Flame of Zhu|QID|30084|NC|U|78928|QO|Memorial Flame of Zhu: 1/1|M|71.21,17.55|
+C Memorial Flame of Zhu|QID|30084|NC|U|78928|QO|Memorial Flame of Zhu: 1/1|M|72.71,18.11|
 C Memorial Flame of Rin|QID|30084|NC|U|78928|QO|Memorial Flame of Rin: 1/1|M|71.21,17.55|
-C Securing the Province|QID|30083|S|M|77.30,58.91|Z|Valley of the Four Winds|N|Kill the sauroks on the way in and out of the cave.|
-l Saurok Stone Tablet|QID|30088|L|86220|M|75.05,55.12|Z|Valley of the Four Winds|N|The tablet is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|
+C Securing the Province|QID|30083|S|M|77.30,58.91|Z|Valley of the Four Winds|N|Kill the sauroks on the way in and out of the cave.|;the tomtom arrow doesn't show up for the next few steps (located outside of Krasarang Wilds).
+l Saurok Stone Tablet|QID|30088|L|86220|M|75.05,55.12|Z|Valley of the Four Winds|N|The tablet, located in the second "room" of the cave, is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|
 l Jar of Pigment|QID|30088|US|L|78942|M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.|
 C Securing the Province|QID|30083|US|M|77.30,58.91|Z|Valley of the Four Winds|N|When you finish killing the sauroks, You can mount up in the cave and zerg out if you want.|
 T Securing the Province|QID|30083|M|75.83,7.65|N|To Mei Barrelbottom.|
@@ -112,7 +137,7 @@ A Poisoned!|QID|30179|M|68.81,22.27|N|From Chezin Dawnchaser.|
 C Poisoned!|QID|30179|M|67.62,21.08|N|The blades are a random drop from the mogu in the area.|
 A Crane Mastery|QID|30352|M|67.60,25.77|N|From Daggle Bombstrider.|
 A Profit Mastery|QID|30353|M|67.60,25.77|N|From Daggle Bombstrider.|
-C Into the Wilds|QID|30133|M|62.55,25.35|N}Check on the courier lying on the ground.|
+C Into the Wilds|QID|30133|M|62.55,25.35|CHAT|N|Check on the courier lying on the ground.|
 T Kang Bramblestaff|QID|29875|M|60.05,25.07|N|To Kang Bramblestaff.|
 T Poisoned!|QID|30179|M|59.92,24.81|N|To Sunwalker Dezco.|
 A Blind Them!|QID|30124|M|59.92,24.81|N|From Kor Bloodtusk.|
@@ -141,30 +166,31 @@ C Threat from Dojan|QID|30127|S|M|54.68,38.86|N|Kill these guys as you go up the
 K Dojani Dominator|QID|30129|T|Dojani Dominator|L|78917|M|55.51,35.48|N|Kill him and loot the Dojani Orders.|
 T The Mogu Agenda|QID|30129|M|55.51,35.48|N|To Kang Bramblestaff.|
 A The Pools of Youth|QID|30128|M|55.51,35.48|N|From Kang Bramblestaff.|
-C Threat from Dojan|QID|30127|US|M|54.68,38.86|N|Finish these guys before you go to the pools.|
-C The Pools of Youth|QID|30128|M|51.63,33.08|N|When facing the platform where you killed the Dominator, go to your left, over a bridge and down some stairs to a pool area. Free Na Lek, kill the guardians and loot 'the water of youth' (groundspawn).|
-C Herbal Remedies|QID|30130|M|54.59,39.74|N|Finish up the flowers.|
+C Threat from Dojan|QID|30127|US|M|54.68,38.86|N|Finish these guys before you go to the pools so you don't have to return this way.|
+C Herbal Remedies|QID|30130|M|54.59,39.74|N|If you haven't finished up the flowers, there is a couple of spots by the path down to Na Lek.|
+C The Pools of Youth|QID|30128|CHAT|M|51.63,33.08|N|When facing the platform where you killed the Dominator, go to your left, over a bridge and down some stairs to a pool area. Free Na Lek, kill the guardians and loot 'the water of youth' (groundspawn).|
 T Crane Mastery: Needlebeak|QID|31262|M|67.61,25.68|N|To Daggle Bombstrider.|
 T Profit Mastery: Chasheen|QID|31260|M|67.61,25.68|N|To Daggle Bombstrider.|
 T Threat from Dojan|QID|30127|M|59.93,24.82|N|To Kor Bloodtusk.|
 T Herbal Remedies|QID|30130|M|59.93,24.82|N|To Sunwalker Dezco.|
 T The Pools of Youth|QID|30128|M|59.93,24.82|N|To Sunwalker Dezco.|
 A Life|QID|30131|M|59.93,24.82|N|From Sunwalker Dezco.|
-C Life|QID|30131|NC|M|60.37,25.23|N|Watch a cutscene of Leza and Dezco.|
+C Life|QID|30131|CHAT|M|60.37,25.23|N|Watch a cutscene of Leza and Dezco.|
 T Life|QID|30131|M|60.42,25.52|N|To Sunwalker Dezco.|
 A Going West|QID|30132|M|60.42,25.52|N|From Sunwalker Dezco.|
-R While traveling|QID|31409|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
-C Going West|QID|30132|M|43.83,42.85|N|The poor scout is on the ground (again).|
+R While traveling|QID|30133|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
+C Going West|QID|30132|NC|M|43.83,42.85|N|The poor scout is on the ground (again).|
 T Into the Wilds|QID|30133|M|44.16,43.00|N|To Koro Mistwalker.|
 A Unsafe Passage|QID|30269|M|44.16,43.00|N|From Koro Mistwalker.|
-C Unsafe Passage|QID|30269|M|43.72,36.01|N|Walk with the refugees, 2 encounters along the way.|
+C Unsafe Passage|QID|30269|CHAT|M|43.72,36.01|N|Walk with the refugees, 2 encounters along the way.|
+r Repair and Sell|QID|30269|M|40.88,34.41|N|If your bags are full, we have found Supplier An open for business. Check this step off manually.|
 T Unsafe Passage|QID|30269|M|40.67,33.72|N|To Koro Mistwalker.|
 A Blinding the Riverblades|QID|30270|M|40.67,33.72|N|From Koro Mistwalker.|
 A Tread Lightly|QID|30694|M|40.67,33.72|N|From Koro Mistwalker.|
 A The Murksweats|QID|30268|M|40.47,34.64|N|From Anduin Wrynn.|
-C Tread Lightly|QID|30694|S|U|80828|M|45.77,28.17|N|Target the traps and use your stick from a short distance away to set them off safely.|
+C Tread Lightly|QID|30694|NC|S|U|80828|M|45.77,28.17|N|Target the traps and use your stick from a short distance away to set them off safely.|
 C Blinding the Riverblades|QID|30270|M|46.14,30.06|
-C Tread Lightly|QID|30694|US|U|80828|M|45.77,28.17|
+C Tread Lightly|QID|30694|NC|US|U|80828|M|45.77,28.17|
 C The Murksweats|QID|30268|M|37.33,41.13|N|These are swimming in the water.|
 T Tread Lightly|QID|30694|M|40.62,33.69|N|To Koro Mistwalker.|
 T Blinding the Riverblades|QID|30270|M|40.62,33.69|N|To Koro Mistwalker.|
@@ -173,22 +199,22 @@ A Sha Can Awe|QID|30271|M|40.67,33.88|N|From Anduin Wrynn.|
 A Ahead on the Way|QID|30695|M|40.68,33.68|N|From Koro Mistwalker.|
 A Striking the Rain|QID|30272|M|40.68,33.68|N|From Koro Mistwalker.|
 
-C Striking the Rain|QID|30272|S|M|40,45|N|Kill them near the Hopeless Monks to get credit for Sha Can Awe also.|
-C Sha Can Awe|QID|30271|S|M|37.14,49.70|N|Kill Hunts and Incarnations of Despair near the Hopeless Monks|
-C West Pagoda Cleansed|QID|30695|QO|West Pagoda Cleansed: 1/1|M|37.82,54.26|
-C East Pagoda Cleansed|QID|30695|QO|East Pagoda Cleansed: 1/1|M|42.83,54.35|
+C Striking the Rain|QID|30272|S|M|40,45|N|Kill them near the Hopeless Monks to get credit for Sha Can Awe also.|;something I can't figure out, the sticky shading is staying for the next several steps, reset didn't change anything, reloadUI made the shading "stay where it belonged", but the vertical spacing remained off until I logged off upon arriving at Marista.
+C Sha Can Awe|QID|30271|S|M|40,45|N|Kill Haunts and Incarnations of Despair near the Hopeless Monks to inspire them.|
+C West Pagoda Cleansed|QID|30695|QO|West Pagoda Cleansed: 1/1|M|37.82,54.26|N|When ever you kill a sha, Anduin will heal you, so if you need heals, be sure and take out the adds, they are low hp's.|
+C East Pagoda Cleansed|QID|30695|QO|East Pagoda Cleansed: 1/1|M|42.83,54.35|N|Same routine, other side of the building.|
 C Striking the Rain|QID|30272|US|M|40,45|N|Kill them near the Hopeless Monks to get credit for Sha Can Awe also.|
-C Sha Can Awe|QID|30271|US|M|37.14,49.70|N|Kill Hunts and Incarnations of Despair near the Hopeless Monks|
-T Ahead on the Way|QID|30695|M|43.00,53.11|N|To Anduin Wrynn.|
+C Sha Can Awe|QID|30271|US|M|40,45|N|Kill Haunts and Incarnations of Despair near the Hopeless Monks to inspire them.|
+T Ahead on the Way|QID|30695|M|43.00,53.11|N|To Anduin Wrynn. (who is following you around)|
 T Striking the Rain|QID|30272|M|38.01,50.89|N|To Anduin Wrynn.|
 T Sha Can Awe|QID|30271|M|38.01,50.89|N|To Anduin Wrynn.|
 A In the House of the Red Crane|QID|30273|M|38.01,50.89|N|From Anduin Wrynn.|
-C In the House of the Red Crane|QID|30273|M|40.46,54.65|N|Go up the center stairs then run straight back to the stairs into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
+C In the House of the Red Crane|QID|30273|M|40.46,54.65|CHAT|N|Go up the center stairs then run straight back to the other stairs down into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
 T In the House of the Red Crane|QID|30273|M|40.05,48.98|N|To Chi-Ji (back outside).|
 
 R Marista|QID|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.70,75.34|N|From Tony Tuna.|
-l Stack of Papers|QID|31863|L|87798|52.16,73.42|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
+l Stack of Papers|QID|31863|L|87798|M|52.16,73.42|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
 f Marista|QID|30667|M|52.43,76.53|N|At Nan-Po.|
 A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.52,76.88|N|From Jay Cloudfall.|
 C Particular Plumage|QID|30667|S|M|42.57,71.86|
@@ -233,7 +259,7 @@ f Cradle of Chi-Ji|QID|30675|M|31.19,63.25|N|At Feather Keeper Li.|
 R Fallsong Village|M|29.66,39.0|QID|30168|N|You can take the raft up the river to avoid combat. (portage around the waterfall).|
 A Thieving Raiders|QID|30168|M|29.66,39.00|N|From Tired Shushen.|
 A Raid Leader Slovan|QID|30169|M|29.66,39.00|N|From Tired Shushen.|
-K Riverbank Flesh-Hunter|QID|30168|US|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|N|If you still have the raft, take a shortcut across the water, unfortunantly, you lose the buff when you technically cross into Valley of the Four Winds.|
+K Riverbank Flesh-Hunter|QID|30168|S|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|N|If you still have the raft, take a shortcut across the water, unfortunantly, you lose the buff when you technically cross into Valley of the Four Winds.|
 K Raid Leader Slovan|T|Slovan|QID|30169|QO|Slovan slain: 1/1|M|31.87,29.01|Z|Valley of the Four Winds|
 K Riverbank Flesh-Hunter|QID|30168|US|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|
 T Thieving Raiders|QID|30168|M|29.65,38.99|N|To Tired Shushen.|
@@ -257,7 +283,7 @@ A The Mantid|QID|30175|M|29.03,51.16|N|From Ambassador Han.|
 
 C The Mantid|QID|30175|S|M|13.58,36.40|
 A The Stoneplow Convoy|QID|30164|M|15.95,39.84|N|From Sunwalker Dezco.|
-C The Stoneplow Convoy|QID|30164|U|79163|M|15.38,35.55|N|Use the poultices to heal the envoys.|
+C The Stoneplow Convoy|QID|30164|NC|U|79163|M|15.38,35.55|N|Use the poultices to heal the envoys.|
 C The Mantid|QID|30175|US|M|13.58,36.40|
 T The Mantid|QID|30175|M|15.71,39.69|N|To Ik'thik Precursor.|
 T The Stoneplow Convoy|QID|30164|M|15.92,39.80|N|To Sunwalker Dezco.|
@@ -266,7 +292,7 @@ K Kill Groundbreaker Brojai|QID|30174|T|Groundbreaker Brojai|QO|Groundbreaker Br
 T For Family|QID|30174|M|28.92,50.75|N|To Sunwalker Dezco.|
 A Warn Stoneplow|QID|30241|M|28.92,50.75|N|From Sunwalker Dezco.|
 
-F Stoneplow|QID|30241|M|28.92,50.38|At Munch Windhoof.|
+F Stoneplow|QID|30241|M|28.92,50.38|N|At Munch Windhoof.|
 T Warn Stoneplow|QID|30241|M|19.53,56.95|Z|Valley of the Four Winds|N|To Loon Mai.|
 A The Mantidote|QID|30623|M|17.97,56.34|Z|Valley of the Four Winds|N|From Mei Barrelbottom.|
 A The Swarm Begins|QID|30622|M|17.90,56.21|Z|Valley of the Four Winds|N|From Loon Mai.|
@@ -288,7 +314,7 @@ T Students No More|QID|30625|M|11.55,49.44|Z|Valley of the Four Winds|N|To Guard
 A Retreat!|QID|30626|M|11.55,49.44|Z|Valley of the Four Winds|N|From Guard Captain Oakenshield.|
 T Retreat!|QID|30626|M|17.91,56.22|Z|Valley of the Four Winds|N|To Loon Mai.|
 A The Savior of Stoneplow|QID|30627|M|17.98,55.85|Z|Valley of the Four Winds|N|From Master Bruised Paw.|
-C The Savior of Stoneplow|QID|30627|NC|M|17.99, 56.62|Z|Valley of the Four Winds|N|Dismount first, then talk to Miss Fanny. Fanny sends you towards the Colossus, who swallows you. Vehicle UI comes up and you strike repeatedly until he is dead.|
+C The Savior of Stoneplow|QID|30627|CHAT|M|17.99, 56.62|Z|Valley of the Four Winds|N|Dismount first, then talk to Miss Fanny. Fanny sends you towards the Colossus, who swallows you. Vehicle UI comes up and you strike repeatedly until he is dead.|
 T The Savior of Stoneplow|QID|30627|M|17.98,55.85|Z|Valley of the Four Winds|N|To Master Bruised Paw.|
 A The Gratitude of Stoneplow|QID|30628|M|17.91,56.25|Z|Valley of the Four Winds|N|From Loon Mei.|
 T The Gratitude of Stoneplow|QID|30628|NC|M|19.86,55.86|Z|Valley of the Four Winds|N|To Commander's Cache, it is upstairs.|

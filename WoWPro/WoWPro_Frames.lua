@@ -278,7 +278,7 @@ function WoWPro.AnchorSet()
 		end
 	end
 	WoWPro.MainFrame:SetScript("OnUpdate", function()
-		if not InCombatLockdown() then
+		if not MaybeCombatLockdown() then
 			local top = WoWPro.MainFrame:GetTop()
 			local bottom = WoWPro.MainFrame:GetBottom()
 			local vcenter = ( top + bottom ) / 2

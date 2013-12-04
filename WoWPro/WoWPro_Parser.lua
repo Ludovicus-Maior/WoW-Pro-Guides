@@ -275,14 +275,15 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 	WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
 	WoWPro.target[i] = text:match("|T|([^|]*)|?")
-    WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
+	WoWPro.rep[i] = text:match("|REP|([^|]*)|?")
 	WoWPro.prof[i] = text:match("|P|([^|]*)|?")
 	WoWPro.rank[i] = text:match("|RANK|([^|]*)|?")
 	WoWPro.spell[i] = text:match("|SPELL|([^|]*)|?")
 	WoWPro.NPC[i] = text:match("|NPC|([^|]*)|?")
 	WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
 	WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
-    WoWPro.why[i] = "I dunno."
+	WoWPro.recipe[i] = text:match("|RECIPE|([^|]*)|?")
+	WoWPro.why[i] = "I dunno."
 
     -- If the step is "Achievement" use the name and description from the server ...
     if WoWPro.ach[i] and false then
@@ -376,8 +377,13 @@ function WoWPro.LoadGuideStepsReal()
     WoWPro:dbp("LoadGuideSteps(%s)",GID);
     
 	-- Parsing quests --
-	local sequence = WoWPro.Guides[GID].sequence
-	local steps = { string.split("\n", sequence()) }
+	local sequencef = WoWPro.Guides[GID].sequence
+	local sequence = sequencef()
+	if not sequence then
+	    WoWPro:Error("Guide %s sequence function returned nothing!",GID,sequence)
+	    return
+	end
+	local steps = { string.split("\n", sequence ) }
 
 	WoWPro:ParseSteps(steps)
 	
@@ -411,6 +417,8 @@ function WoWPro.SetupGuideReal()
     local guideClass = WoWPro[guideType]
     local recordQIDs = guideClass.RecordQIDs
     
+    WoWPro:dbp("SetupGuideReal(%s): Type: %s, recordQIDs:",GID,guideType,tostring(recordQIDs))
+    
 	WoWPro:PopulateQuestLog() --Calling this will populate our quest log table for use here
 	
 	-- Checking to see if any steps are already complete --
@@ -436,10 +444,11 @@ function WoWPro.SetupGuideReal()
 				qid = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(qid)
 			end
-            if recordQIDs then
-                WoWProDB.global.QID2Guide[QID] = GID
-            end
+
             if QID then
+                if recordQIDs then
+                    WoWProDB.global.QID2Guide[QID] = GID
+                end
     		    -- Turned in quests --
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
     			    WoWProCharDB.Guide[GID].completion[i] = true
@@ -493,7 +502,7 @@ end
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
 	local GID = WoWProDB.char.currentguide
-	if InCombatLockdown() 
+	if MaybeCombatLockdown() 
 		or not GID 
 		or not WoWPro.Guides[GID]
 		then return 
@@ -590,8 +599,21 @@ function WoWPro:RowUpdate(offset)
 			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 		end
 		if note then note = strtrim(note) note = string.gsub(note,"\\n","\n") end
-		if WoWProDB.profile.showcoords and coord and note then note = note.." ("..coord..")" end
-		if WoWProDB.profile.showcoords and coord and not note then note = "("..coord..")" end
+		
+		
+		if WoWProDB.profile.showcoords and coord then
+		    note = note or ""
+		    if WoWPro.waypcomplete[k] == 1 then
+		        note = note.." ("..string.gsub(coord,";",">")..")"
+		    elseif WoWPro.waypcomplete[k] == 2 then
+		        note = note.." ("..string.gsub(coord,";","}")..")"
+		    elseif WoWPro.waypcomplete[k] == false then
+		        note = note.." ("..string.gsub(coord,";"," ")..")"
+		    else
+		        note = note.." ("..coord..")"
+		    end
+		end
+		
 		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
 		row.note:SetText(note)
 		row.action:SetTexture(WoWPro.actiontypes[action])
@@ -751,9 +773,11 @@ function WoWPro:RowUpdate(offset)
 end
 
 -- Left-Click Row Function --
-function WoWPro:RowLeftClickX(i)
-	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
-		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
+function WoWPro:RowLeftClick(i)
+    local QID = tonumber(WoWPro.QID[WoWPro.rows[i].index])
+	if  QID and WoWPro.QuestLog[QID] then
+	    ShowUIPanel(QuestLogFrame)
+		QuestLog_OpenToQuest(WoWPro.QuestLog[QID].index)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
 end

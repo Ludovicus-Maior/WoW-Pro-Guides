@@ -102,41 +102,57 @@ local OldCleardistance	-- saves TomTom's option to restore it
 -- Function to handle the distance callback in TomTom, when player gets to the final destination
 local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 
-	if UnitOnTaxi("player") then return end
+	if UnitOnTaxi("player") then
+	    return
+	end
 
-	if not autoarrival then return end
+   
+	if not autoarrival then
+--	     WoWPro:dbp("WoWProMapping_distance: no autoarrival")
+	    return
+	end
 
 	local iactual
-
+    WoWPro:dbp("WoWProMapping_distance: autoarrival for uid %s at range %g",tostring(uid),range)
+    
 	for i,waypoint in ipairs(cache) do
 		if (waypoint.uid == uid) then
 		    WoWPro:dbp("Mapping: Located waypoint UID %s @ idx %d, autoarrival = %d",tostring(uid),i,autoarrival)
-			iactual = i break
+			iactual = i
+			break
 		end
+	end
+	
+	if not iactual then
+	    WoWPro:Warning("Mapping: Unable to locate UID %s in cache.",tostring(uid))
+	    return
 	end
 	
 	local autoComplete = false
 	local index = cache[iactual].index
+
 	if WoWPro.action[index] == "r" or WoWPro.action[index] == "R" or WoWPro.action[index] == "N" then
 	    autoComplete = true
 	end
-	
-
+	   
 	if autoarrival == 1 then
-		for i=iactual+1,#cache,1 do
-			TomTom:RemoveWaypoint(cache[i].uid)
+		for i=iactual,#cache do
+		    if cache[i] then
+			    TomTom:RemoveWaypoint(cache[i].uid)
+			    table.remove(cache,i)
+			end
 		end
 			
 		if iactual == 1 and autoComplete then
-			WoWPro.CompleteStep(cache[iactual].index)
+			WoWPro.CompleteStep(index)
 		end
 	
-
 	elseif autoarrival == 2 then
-		if iactual ~= #cache then return 
+		if iactual ~= #cache then
+		    return 
 		elseif iactual == 1 then
 		    if autoComplete then
-			    WoWPro.CompleteStep(cache[iactual].index)
+			    WoWPro.CompleteStep(index)
 			end
 		else
 			TomTom:RemoveWaypoint(cache[iactual].uid)
@@ -513,8 +529,8 @@ function WoWPro:MapPoint(row)
     
     		-- prevents TomTom from clearing waypoints that are not final destination
     		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
---    		WoWPro:Print("MapPoint: autoarrival = %s, TomTom..cleardistance = %d, OldCleardistance == %d",
---    		             tostring(autoarrival),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
+    		WoWPro:dbp("MapPoint: autoarrival = %s, arrivaldistance=%s, TomTom..cleardistance = %d, OldCleardistance == %d",
+    		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
 		
 		-- Parsing and mapping coordinates --
 		WoWPro:dbp("WoWPro:MapPoint1(%s@%s/%s)",coords,tostring(zone),tostring(zm))

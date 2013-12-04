@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2013-11-10 19:49
+-- Who: Emmaleah
+-- Log: Changed NC tags to CHAT tags as needed, added a two new C steps with CHAT. (Last Piece of the Puzzle and Jade Temple Grounds); modified or added a few explanations (amazing what not looking at this for a year lets me see) and a few typo corrections.  
+
+-- URL: http://wow-pro.com/node/3487/revisions/25712/view
 -- Date: 2013-06-18 00:46
 -- Who: Ludovicus Maior
 -- Log: Bad Y coordinate 31.95,13.21., 1/1 in guide EmmJad8586, line [C Regroup!].
@@ -108,17 +113,17 @@ A Regroup!|QID|29694|M|33.67,10.56|N|From General Nazgrim.|
 A Face to Face With Consequence|QID|31771|M|33.67,10.56|N|From Taran Zhu.|
 
 C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Kill these guys as you run out of the building|
-C Regroup!|QID|29694|M|31.95,13.21|NC|QO|Shademaster Kiryn Rescued: 1/1|
+C Regroup!|QID|29694|M|31.95,13.21|CHAT|QO|Shademaster Kiryn Rescued: 1/1|
 A Priorities!|QID|31978|M|31.97,13.30|N|From Gi-Oh.|
 A Prowler Problems|QID|31773|M|32.06,13.32|N|From Kai-Lin Honeydew.|
 C Prowler Problems|QID|31773|S|M|30.61,11.78|
-C Priorities!|QID|31978|S|M|29.39,13.58|
-C Regroup!|QID|29694|M|30.81,11.32|NC|QO|Sergeant Gorrok Rescued: 1/1|
-C Regroup!|QID|29694|M|30.4,7.2|NC|QO|Rivett Clutchpop Rescued: 1/1|
-C Regroup!|QID|29694|M|29.41,8.45|NC|QO|Shokia Rescued: 1/1|
+C Priorities!|QID|31978|S|NC|M|29.39,13.58|
+C Regroup!|QID|29694|M|30.81,11.32|CHAT|QO|Sergeant Gorrok Rescued: 1/1|
+C Regroup!|QID|29694|M|30.4,7.2|CHAT|QO|Rivett Clutchpop Rescued: 1/1|
+C Regroup!|QID|29694|M|29.41,8.45|CHAT|QO|Shokia Rescued: 1/1|
 C Prowler Problems|QID|31773|US|M|30.61,11.78|
-C Priorities!|QID|31978|US|M|29.39,13.58|
-C You're Either With Us Or...|QID|31770|M|29.27,13.33|N|Talk to Mayor Honeydew.|
+C Priorities!|QID|31978|US|NC|M|29.39,13.58|
+C You're Either With Us Or...|QID|31770|CHAT|M|29.27,13.33|N|Talk to Mayor Honeydew.|
 T You're Either With Us Or...|QID|31770|M|29.15,13.74|N|To Mayor Honeydew.|
 T Face to Face With Consequence|QID|31771|M|29.15,13.82|N|To Taran Zhu.|
 T Prowler Problems|QID|31773|M|29.15, 13.82|N|To Taran Zhu.|
@@ -134,8 +139,8 @@ A Monstrosity|QID|29743|M|30.90,17.49|N|From base of statue.|
 C Cryin' My Eyes Out|QID|29765|S|M|29.15,17.91|N|Kill the hozen to recover Zin'Jun's stuff.|
 C Monstrosity|QID|29743|QO|Statue Torso Sketched: 1/1|NC|M|29.34,18.92|
 C Monstrosity|QID|29743|QO|Statue Arm Sketched: 1/1|NC|M|30.01,21.21|
-C Cryin' My Eyes Out|QID|29765|US|M|29.15,17.91|
-T Cryin' My Eyes Out|QID|29765|M|29.42,18.00|N|To Zin'Jun.|
+C Cryin' My Eyes Out|QID|29765|US|M|31,21|N|Kill the monkeys to find Zin'Jun's missing things.|
+T Cryin' My Eyes Out|QID|29765|M|31,21|N|To Zin'Jun.|
 A Seein' Red|QID|29804|M|29.42,18.00|N|From Zin'Jun.|
 K Konk|QID|29804|T|Konk|QO|Konk Slain: 1/1|M|31.61,21.91|
 T Seein' Red|QID|29804|M|31.61,21.91|N|To General Nazgrim.|
@@ -144,40 +149,40 @@ A Strongarm Tactics|QID|31776|M|31.61,21.91|N|From General Nazgrim.|
 A Unreliable Allies|QID|31778|M|31.42,21.71|N|From Merchant Zin.|
 A Choppertunity|QID|31777|M|31.15,21.56|N|From Rivett Clutchpop.|
 
-C Unreliable Allies|QID|31778|S|M|29.63,23.15|
+C Unreliable Allies|QID|31778|S|CHAT|M|29.63,23.15|
 C Choppertunity|S|QID|31777|U|89163|M|27.92,24.14|N|Pick up the sparkly Rocket Launchers, you will need at least 6, target choppers and use (they have a very long range.|
 C Assault on the Airstrip|S|QID|31775|M|27.96,24.73|
 K Master Engineer Cogswing and Gyro-Mechanic Lavenderp|T|Master Engineer Cogswing|QO|Master Engineer Cogswing and Gyro-Mechanic Lavenderp slain: 1/1|QID|31776|M|30.3,24.28|N|These guys move between campsites in this area.|
 K Morgus Grimhatchet|T|Morgus Grimhatchet|QO|Morgus Grimhatchet slain: 1/1|QID|31776|M|29.66,23.23|N|These guys move between campsites in this area.|
 K Corporal Jackson Silver|T|Corporal Jackson Silver|QO|Corporal Jackson Silver slain: 1/1|QID|31776|M|27.84,23.1|
-C Unreliable Allies|QID|31778|US|M|29.63,23.15|
+C Unreliable Allies|QID|31778|US|CHAT|M|29.63,23.15|
 C Choppertunity|QID|31777|U|89163|US|M|27.92,24.14|N|Use rocket launchers on choppers.|
 C Assault on the Airstrip|US|QID|31775|M|27.96,24.73|
 C Monstrosity|QID|29743|QO|Statue Head Sketched: 1/1|NC|M|29.87, 22.39|
 C Monstrosity|QID|29743|QO|Statue Shoulder Sketched: 1/1|NC|M|28.33,22.31|
-T Monstrosity|QID|29743|M|28.33,22.31|To UI Alert.|
+T Monstrosity|QID|29743|M|28.33,22.31|N|To UI Alert.|
 T Choppertunity|QID|31777|M|31.12,21.68|N|To Rivett Clutchpop.|
 T Unreliable Allies|QID|31778|M|31.45,21.72|N|To Merchant Zin.|
 T Assault on the Airstrip|QID|31775|M|31.65,21.97|N|To General Nazgrim.|
 T Strongarm Tactics|QID|31776|M|31.65,21.97|N|To General Nazgrim.|
 A The Darkness Within|QID|31779|M|31.65,21.97|N|From General Nazgrim.|
 C The Darkness Within|QID|31779|T|Captain Doren|M|27.38,25.14;26.13,24.89;25.84,23.96|CS|N|He is hiding in a cave across the bridge.|
-T The Darkness Within|QID|31779|M|27.52,24.15|
+T The Darkness Within|QID|31779|M|27.52,24.15|N|To the flagpole.|
 A Nazgrim's Command|QID|31999|M|27.52,24.15|
 T Nazgrim's Command|QID|31999|M|28.41,24.91|N|To General Nazgrim.|
 
 A Forensic Science|QID|29815|M|28.15,24.76|N|From Shademaster Kiryn.|
 A Missed Me By... That Much!|QID|29821|M|28.13,24.71|N|From Rivett Clutchpop.|
-C Forensic Science|QID|29815|S|M|26.23,30.07|
+C Forensic Science|QID|29815|S|M|26.23,30.07|NC|
 C Missed Me By... That Much!|QID|29821|M|24.02,27.12|U|84157|N|Use the rocket boots provided to jump to the island.|
 T Missed Me By... That Much!|QID|29821|M|22.85,30.60|N|To Empty Package.|
 A They're So Thorny!|QID|31112|M|22.85,30.60|N|From Empty Package.|
 C They're So Thorny!|QID|31112|U|84157|M|25.53,27.70|N|Use the rocket boots again to jump back to the shore.  The sprites drop the supplies.|
-C Forensic Science|QID|29815|US|NC|M|26.23,30.07|
+C Forensic Science|QID|29815|US|NC|M|26.23,30.07|NC|
 T They're So Thorny!|QID|31112|M|28.07,24.62|N|To Rivett Clutchpop.|
 T Forensic Science|QID|29815|M|28.15,24.87|N|To Shademaster Kiryn.|
 A Acid Rain|QID|29827|M|28.21,24.91|N|From Shademaster Kiryn.|
-C Acid Rain|QID|29827|M|28.08,24.79|N|Hop on the chopper, bombing mission.|
+C Acid Rain|QID|29827|M|28.08,24.79|NC|N|Hop on the chopper, bombing mission.|
 T Acid Rain|QID|29827|M|28.20,24.86|N|To Shademaster Kiryn.|
 A Lay of the Land|QID|29822|M|28.42,24.93|N|From General Nazgrim.|
 
@@ -194,13 +199,13 @@ A If These Stones Could Speak|QID|31134|M|30.88,34.02|N|From Lorewalker Cho.|
 C If These Stones Could Speak|QID|31134|M|30.59,34.21|NC|N|Click on each of the standing stones, starting with the one with the hole in it, mobs may come attack you.|
 T If These Stones Could Speak|QID|31134|M|30.83,34.12|N|To Lorewalker Cho.|
 A Peering Into the Past|QID|31152|M|30.83,34.12|N|From Lorewalker Cho.|
-C Peering Into the Past|QID|31152|NC|M|28.97,32.46|N|Talk to Cho.|
+C Peering Into the Past|QID|31152|CHAT|M|28.97,32.46|N|Talk to Cho.|
 T Peering Into the Past|QID|31152|M|28.84,32.64|N|To Lorewalker Cho.|
 A Family Tree|QID|31167|M|28.84,32.64|N|From Lorewalker Cho.|
 C Family Tree|QID|31167|NC|M|28.80,32.48|
 T Family Tree|QID|31167|M|28.86,32.60|N|To Lorewalker Cho.|
 A Swallowed Whole|QID|29879|M|28.86,32.60|N|From Lorewalker Cho.|
-C Swallowed Whole|QID|29879|M|23.43,36.65|
+C Swallowed Whole|QID|29879|M|23.43,36.65|N|Click on the speckled trout to catch them.|
 l Pandaren Ritual Stone|L|86216|NC|M|23.49,35|N|Pick it up, its worth 105gold and more xp than a quest.|
 
 T Swallowed Whole|QID|29879|M|26.26,37.33|N|To Tooki Tooki.|
@@ -223,7 +228,7 @@ C Instant Messaging|QID|29936|NC|U|76305|M|27.96,44.47|
 T Instant Messaging|QID|29936|M|28.28,47.75|N|To General Nazgrim.|
 A Beyond the Horizon|QID|29941|M|28.28,47.75|N|From General Nazgrim.|
 f Grookin Hill|QID|29941|M|27.83,47.94|N|At Grookin Flapmaster.|
-C Beyond the Horizon|QID|29941|NC|M|27.77,50.35|N|Blizzard has conveniently placed chat bubbles over thier heads (and on the minimap) to help you find them.|
+C Beyond the Horizon|QID|29941|CHAT|M|27.77,50.35|N|Blizzard has conveniently placed chat bubbles over thier heads (and on the minimap) to help you find them.|
 T Beyond the Horizon|QID|29941|M|28.25,47.76|N|To General Nazgrim.|
 A Furious Fowl|QID|29937|M|28.25,47.76|N|From Rivett Clutchpop.|
 A What's in a Name Name?|QID|31239|M|28.01,47.15|N|From Chief Kah Kah.|
@@ -264,15 +269,16 @@ C Burning Down the House|QID|29966|U|76336|M|29.49,54.08|
 C Green-ish Energy|QID|29968|US|NC|M|29.25,51.73|
 T Green-ish Energy|QID|29968|M|27.23,50.74|N|To Rivett Clutchpop.|
 A Boom Goes the Doonamite!|QID|29967|M|27.23,50.74|N|From Rivett Clutchpop.|
-C Boom Goes the Doonamite!|QID|29967|M|28.91,49.18|
+C Boom Goes the Doonamite!|QID|29967|M|28.91,49.18|CHAT|N|Talk to Rivett, then throw the "bombs". If the alliance get too close, you exit, don't worry you can restart without loosing progress by talking to Rivett again.|
 T Boom Goes the Doonamite!|QID|29967|M|28.99,49.11|N|To Rivett Clutchpop.|
 T Burning Down the House|QID|29966|M|28.62,47.51|N|To General Nazgrim.|
 A Dawn's Blossom|QID|30015|M|28.65,47.55|N|From General Nazgrim.|
 
 F Dawn's Blossom|QID|30015|M|27.83,47.94|N|At Grookin Flapmaster.|
+f Dawn's Blossom|QID|30015|M|47.64,46.24|N|From Keg Runner Lee.|
 T Dawn's Blossom|QID|30015|M|46.82,46.17|N|To Lorewalker Cho.|
 A Welcome to Dawn's Blossom|QID|31230|M|47.19,46.11|N|From Toya.|
-C Welcome to Dawn's Blossom|QID|31230|NC|M|47.04,46.02;45.77,43.67;48.47,44.50|CS|
+C Welcome to Dawn's Blossom|QID|31230|CHAT|M|47.04,46.02;45.77,43.67;48.47,44.50|CS|
 T Welcome to Dawn's Blossom|QID|31230|M|47.16,46.15|N|To Toya.|
 A The Double Hozen Dare|QID|29716|M|46.52,45.92|N|From An Windfur.|
 A The Silkwood Road|QID|29865|M|46.48,45.85|N|From Tzu the Ironbelly.|
@@ -282,7 +288,7 @@ C The Silkwood Road|QID|29865|M|43.26,49.23|
 C The Threads that Stick|QID|29866|US|NC|M|43.68,48.32|N|Loot the eggs to get Pristine Silk.|
 A Down Kitty!|QID|29717|M|39.82,48.05|N|From An Windfur.|
 C Down Kitty!|QID|29717|M|37.11,47.72|
-C The Double Hozen Dare|QID|29716|M|37.31,48.19|
+C The Double Hozen Dare|QID|29716|M|37.31,48.19|CHAT|N|Talk to the panda cubs clinging to the trees here.|
 T The Double Hozen Dare|QID|29716|N|To An Windfur. (she should be following you)|
 A The Jade Witch|QID|29723|N|From An Windfur.|
 T Down Kitty!|QID|29717|N|To An Windfur.|
@@ -359,16 +365,17 @@ C The Wayward Dead|QID|29752|S|U|74771|M|44.22,15.01|N|Use Pei-Zhi's staff to re
 C Ritual Artifacts|QID|29751|NC|QO|Chipped Ritual Bowl: 1/1|M|41.62,14.27|
 C Ritual Artifacts|QID|29751|NC|QO|Jade Cong: 1/1|M|42.63,15.74|
 C Ritual Artifacts|QID|29751|NC|QO|Pungent Ritual Candle: 1/1|M|42.3,17.09|
-C Vessels of the Spirit|QID|29750|US|L|74763 8|M|40.69,14.85|
+C Vessels of the Spirit|QID|29750|US|L|74763 8|M|40.69,14.85|N|Kill and loot the Shan'ze Spiritclaws to get the spirit bottles.|
 C The Wayward Dead|QID|29752|US|U|74771|M|40.38,14.76|
 T Ritual Artifacts|QID|29751|M|44.21,15.01|N|To Pei-Zhi.|
 T Vessels of the Spirit|QID|29750|M|44.21,15.01|N|To Pei-Zhi.|
 T The Wayward Dead|QID|29752|M|44.21,15.01|N|To Pei-Zhi.|
 A Back to Nature|QID|29753|M|44.21,15.01|N|From Pei-Zhi.|
 A A Humble Offering|QID|29756|M|44.21,15.01|N|From Pei-Zhi.|
-C A Humble Offering|QID|29756|NC|S|M|39.71,10.98|
-C Back to Nature|QID|29753|U|74808|M|39.88,10.43|
-C A Humble Offering|QID|29756|NC|US|M|39.71,10.98|
+C A Humble Offering|QID|29756|NC|S|M|39.71,10.98|N|Pick the mushrooms sparkling in this area.|
+R Owen's Wishing Well|QID|31397|M|39.4,7.3|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found.|
+C Back to Nature|QID|29753|U|74808|M|39.88,10.43|N|Throw the jar to release the spirit.  The spirit may be hostile.|
+C A Humble Offering|QID|29756|NC|US|M|39.71,10.98|N|Finish picking the mushrooms you need.|
 T Back to Nature|QID|29753|M|44.26,15.04|N|To Pei-Zhi.|
 T A Humble Offering|QID|29756|M|44.26,15.04|N|To Pei-Zhi.|
 A To Bridge Earth and Sky|QID|29754|M|44.26,15.04|N|From Pei-Zhi.|
@@ -378,8 +385,8 @@ A Pei-Back|QID|29755|M|43.74,12.70|From UI Alert.|
 C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get seperated from your body, you need to run back and click on it to rejoin it, then try to inturupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
 
-R Tien Monestary|QID|29618|CS|M|44.48,30.77; 45.14, 28.35; 45.37,26.47;44.38,24.98|
-T Tian Monastery |QID|29617|M|45.0,25.0|N|To Lin Tenderpaw|
+R Tian Monastery|QID|29617|CS|M|44.48,30.77; 45.14, 28.35; 45.37,26.47;44.38,24.98|
+T Tian Monastery|QID|29617|M|45.0,25.0|N|To Lin Tenderpaw|
 A The High Elder|QID|29618|M|44.98,25.02|N|From Lin Tenderpaw.|
 T The High Elder|QID|29618|M|45.23,25.08|N|To High Elder Cloudfall. He is up high...in the top of the building.|
 A A Courteous Guest|QID|29619|M|45.01,24.93|N|Now you run back down and get this from Lin Tenderpaw.|
@@ -387,7 +394,7 @@ C A Courteous Guest|QID|29619|M|45.81,27.50|N|From the ground or kill sprites.|
 T A Courteous Guest|QID|29619|M|45.01,24.99|N|To Lin Tenderpaw.|
 A The Great Banquet|QID|29620|M|45.01,24.99|N|From Lin Tenderpaw.|
 f Banquet Grounds|QID|29620|M|43.52,24.55|N|At Studious Chu.|
-C The Great Banquet|QID|29620|NC|M|42.81,23.22|
+C The Great Banquet|QID|29620|CHAT|M|42.81,23.22|
 T The Great Banquet|QID|29620|M|42.71,23.23|N|To High Elder Cloudfall.|
 A Groundskeeper Wu|QID|29626|M|43.09,23.62|N|From Xiao.|
 A Your Training Starts Now|QID|29622|M|43.09,23.62|N|From Xiao.|
@@ -396,7 +403,7 @@ C Becoming Battle-Ready|QID|29632|M|43.27,24.75|N|Fight the students in the area
 T Becoming Battle-Ready|QID|29632|M|43.27,24.75|N|To Master Stone Fist.|
 A Zhi-Zhi, the Dextrous|QID|29633|M|43.27,24.75|N|From Master Stone Fist.|
 A Husshun, the Wizened|QID|29634|M|43.27,24.75|N|From Master Stone Fist.|
-C Zhi-Zhi, the Dextrous|QID|29633T|Zhi-Zhi|M|43.03,25.96|N|On top of the hill. Challenge him to a match.|
+C Zhi-Zhi, the Dextrous|QID|29633|T|Zhi-Zhi|CHAT|M|43.03,25.96|N|On top of the hill. Chat with him to challenge him to a match.|
 
 T Groundskeeper Wu|QID|29626|M|41.59,23.66|N|To Groundskeeper Wu.|
 A A Proper Weapon|QID|29627|M|41.59,23.66|N|From Groundskeeper Wu.|
@@ -410,13 +417,11 @@ A A Steady Hand|QID|29629|M|41.59,23.66|N|From Groundskeeper Wu.|
 A And a Heavy Fist|QID|29630|M|41.59,23.66|N|From Groundskeeper Wu.|
 A Burning Bright|QID|29631|M|37.96,23.8|N|From Guard Shan Long.|
 C Burning Bright|QID|29631|S|M|36.09,27.57|
-C A Steady Hand|QID|29629|S|NC|L|73193 80|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
-R Owen's Wishing Well|QID|31397|M|39.4,7.3|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found.|
-C A Steady Hand|QID|29629|US|NC|L|73193 80|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
+C A Steady Hand|QID|29629|NC|L|73193 80|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
 C Burning Bright|QID|29631|US|M|36.09,27.57|
 C And a Heavy Fist|QID|29630|S|N|Kill sprites as you approach the next objective.|
 C Obtain the Boiling Cauldron|QID|29628|NC|QO|Boiling Cauldron obtained: 1/1|M|37.8,17.6|
-C And a Heavy Fist|QID|29630|US|
+C And a Heavy Fist|QID|29630|US|N|Finish killing sprites as you head back towards the monastery and Guard Shan Long.|
 T Burning Bright|QID|29631|M|37.96, 23.79|N|To Guard Shan Long.|
 C Bring the cauldron to Groundskeeper Wu|QID|29628|NC|M|41.59,23.66|N|Do not let the cauldron lag to much behind you, you might loose it.|
 T A Strong Back|QID|29628||M|41.59,23.66|N|To Groundskeeper Wu.|
@@ -431,11 +436,11 @@ A Attention|QID|29624|M|41.59,28.35|N|From Instructor Xann.|
 C Attention|QID|29624|M|41.11,26.98|N|Attack the right or left bag based on the yellow text in the middle of your screen.|
 T Attention|QID|29624|M|41.59,28.35|N|To Instructor Xann.|
 
-C Husshun, the Wizened|QID|29634|M|44.54,24.08|N|Challenge him to a match.|
+C Husshun, the Wizened|QID|29634|CHAT|M|44.54,24.08|T|Husshun|N|Chat with him to challenge him to a match.|
 T Zhi-Zhi, the Dextrous|QID|29633|M|43.27,24.75|N|To Master Stone Fist.|
 T Husshun, the Wizened|QID|29634|M|43.27,24.75|N|To Master Stone Fist.|
 A Xiao, the Eater|QID|29635|M|43.27,24.75|N|From Master Stone Fist.|
-C Xiao, the Eater|QID|29635|M|43.12, 23.64|
+C Xiao, the Eater|QID|29635|CHAT|T|Xiao|M|43.12, 23.64|N|Chat with him to challenge him to a match.|
 T Xiao, the Eater|QID|29635|M|43.27,24.75|N|To Master Stone Fist.|
 A A Test of Endurance|QID|29636|M|43.27,24.75|N|From Master Stone Fist.|
 
@@ -466,7 +471,7 @@ T Spitfire|QID|29585|M|43.27,75.97|N|To Gentle Mother Hanae.|
 T Orchard-Supplied Hardware|QID|29580|M|43.27,75.97|N|To Gentle Mother Hanae.|
 A The Splintered Path|QID|29586|M|43.27,75.97|N|From Traumatized Nectarbreeze Farmer.|
 
-C The Splintered Path|QID|29586|M|40.71,73.87|
+C The Splintered Path|QID|29586|NC|M|40.71,73.87|N|There is an ambush along the way, you can outrun it if you choose.|
 T The Splintered Path|QID|29586|M|40.96,73.97|N|To Shao the Defiant.|
 A Unbound|QID|29587|M|40.96,73.97|N|From Shao the Defiant.|
 A Maul Gormal|QID|29670|M|40.96,73.97|N|From Shao the Defiant.|
@@ -479,14 +484,15 @@ T Maul Gormal|QID|29670|M|41.02,73.97|N|To Shao the Defiant.|
 R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4;48.26,61.31|CS|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart. Also, the lost BoA treasure, 'Ancient Jinyu Staff' may be occasionally located in the river beside Serpent's Heart if you want to take the time swimming to look for it.|
 T The Serpent's Heart|QID|29931|M|48.26,61.31|N|To Foreman Raike.|
 A Love's Labor|QID|30495|M|48.26,61.31|N|From Foreman Raike.|
-C Delivery to Kitemaster Shoku |QID|30495|NC|QO|Delivery to Kitemaster Shoku: 1/1|M|48.2,60.0|
-C Delivery to Taskmaster Emi |QID|30495|NC|QO|Delivery to Taskmaster Emi: 1/1|M|47.6,60.7|N|Ask Shoku to get a lift to the top of the statue|
-C Delivery to Surveyor Sawa |QID|30495|NC|QO|Delivery to Surveyor Sawa: 1/1|M|47.4,60.5;46.9,60.4|CS|N|Talk to Kitemaster Inga to get a ride down|
-C Delivery to Historian Dinh |QID|30495|NC|QO|Delivery to Historian Dinh: 1/1|M|46.4,61.8|
+C Delivery to Kitemaster Shoku |QID|30495|CHAT|QO|Delivery to Kitemaster Shoku: 1/1|M|48.2,60.0|
+C Delivery to Taskmaster Emi |QID|30495|CHAT|QO|Delivery to Taskmaster Emi: 1/1|M|47.6,60.7|N|Ask Shoku to get a lift to the top of the statue|
+C Delivery to Surveyor Sawa |QID|30495|CHAT|QO|Delivery to Surveyor Sawa: 1/1|M|47.4,60.5;46.9,60.4|CS|N|Talk to Kitemaster Inga to get a ride down|
+C Delivery to Historian Dinh |QID|30495|CHAT|QO|Delivery to Historian Dinh: 1/1|M|46.4,61.8|
 T Love's Labor|QID|30495|M|48.31,61.30|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|M|48.31,61.30|N|From Foreman Raike.|
 F Jade Temple Grounds|QID|29932|M|48.2,60.0|N|Take the kite ride from kitehmaster Shoku.|
 
+C The Temple of the Jade Serpent|QID|29932|CHAT|M|55.83,57.05|N|Chat with Elder Sage Wind-Yi for transport into the temple grounds. (NOT THE INSTANCE PORTAL)|
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
 A The Librarian's Quandary|QID|29998|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
@@ -526,36 +532,38 @@ T Get Back Here!|QID|30499|M|28.02,47.15|N|To General Nazgrim.|
 A Sufficient Motivation|QID|30466|M|28.02,47.15|N|From General Nazgrim.|
 A Gauging Our Progress|QID|30484|M|28.02,47.15|N|From General Nazgrim.|
 C Sufficient Motivation|QID|30466|U|79884|S|NC|QO|Bucket of Slicky Water: 1/1|M|28.14,47.33|N|Pick up a bucket of slicky water and toss it on lazy hozen as you go.|
-C Gauging Our Progress|QID|30484|M|28.41,47.75;29.15,50.87;28.41,51.92;27.03,55.00|N|The green dots show where the people you need to talk to are.|CS|
+C Gauging Our Progress|QID|30484|CHAT|M|28.41,47.75;29.15,50.87;28.41,51.92;27.03,55.00|N|The green dots show where the people you need to talk to are.|CS|
 C Sufficient Motivation|QID|30466|U|79884|US|NC|QO|Hozen Motivated: 10/10|M|27.14,46.70|
 T Sufficient Motivation|QID|30466|M|28.07,47.15|N|To General Nazgrim.|
 T Gauging Our Progress|QID|30484|M|28.07,47.15|N|To General Nazgrim.|
-A Last Piece of the Puzzle|QID|30485|M|28.21,46.68|N|From Lorewalker Cho. Talk to Mishi for a ride.|
+A Last Piece of the Puzzle|QID|30485|M|28.21,46.68|N|From Lorewalker Cho.|
+C Last Piece of the Puzzle|QID|30485|M|28.19,46.71|N|Talk to Mishi for a ride. *this step will not autocomplete until you finish the next step*|
 
 C Last Piece of the Puzzle|QID|30485|U|80071|M|44.51,66.97|
 f Serpent's Overlook|QID|31303|M|43.13,68.48|N|At Sky Dancer Ji. optional, but you will not be able to get back up here until lvl 90 if you don't (admittedly, you don't need to get up here again.)|
 T Last Piece of the Puzzle|QID|30485|M|44.74,67.09|N|To Lorewalker Cho.|
 A The Seal is Broken|QID|31303|M|44.74,67.09|N|From Lorewalker Cho.|
-C The Seal is Broken|QID|31303|M|47.73,58.29|N|Talk to Mishi to start the "bombing run".|
+C The Seal is Broken|QID|31303|CHAT|M|47.73,58.29|N|Talk to Mishi to start the "bombing run".|
+
 T The Seal is Broken|QID|31303|M|49.27,61.39|N|To Lorewalker Cho.|
 A Residual Fallout|QID|30500|M|49.27,61.39|N|From Lorewalker Cho.|
 A Jaded Heart|QID|30502|M|49.27,61.39|N|From Lorewalker Cho.|
 A Emergency Response|QID|30504|M|49.27,61.39|N|From Lorewalker Cho.|
 C Residual Fallout|QID|30500|S|M|47.38,58.63|
 C Jaded Heart|QID|30502|S|M|50.02,60.17|U|80074|N|Pick up the jade chunks, use them to make the Elite Sha Remnants into non-elite.|
-C General Nazgrim|QID|30504|U|86467|QO|General Nazgrim Rescued: 1/1|M|48.16,61.72|N|Use the signal flare to call Mishi to take him away.|
-C Rivett Clutchpop|QID|30504|U|86467|QO|Rivett Clutchpop Rescued: 1/1|M|48.63,59.11|N|Use the signal flare to call Mishi to take him away.|
-C Shademaster Kiryn|QID|30504|U|86467|QO|Shademaster Kiryn Rescued: 1/1|M|47.3,62.55|N|Use the signal flare to call Mishi to take her away.|
-C Shokia|QID|30504|U|86467|QO|Shokia Rescued: 1/1|M|46.89, 60.74|N|Use the signal flare to call Mishi to take her away.|
+C General Nazgrim|QID|30504|NC|U|86467|QO|General Nazgrim Rescued: 1/1|M|48.16,61.72|N|Use the signal flare to call Mishi to take him away.|
+C Rivett Clutchpop|QID|30504|NC|U|86467|QO|Rivett Clutchpop Rescued: 1/1|M|48.63,59.11|N|Use the signal flare to call Mishi to take him away.|
+C Shademaster Kiryn|QID|30504|NC|U|86467|QO|Shademaster Kiryn Rescued: 1/1|M|47.3,62.55|N|Use the signal flare to call Mishi to take her away.|
+C Shokia|QID|30504|U|86467|NC|QO|Shokia Rescued: 1/1|M|46.89, 60.74|N|Use the signal flare to call Mishi to take her away.|
 C Residual Fallout|QID|30500|US|M|47.38,58.63|
 C Jaded Heart|QID|30502|US|M|50.02,60.17|U|80074|N|Pick up the 'sparkly' jade chunks, use them to make the Elite Sha Remnants into non-elite.|
 T Residual Fallout|QID|30500|M|49.32,61.47|N|To Lorewalker Cho.|
 T Jaded Heart|QID|30502|M|49.32,61.47|N|To Lorewalker Cho.|
 T Emergency Response|QID|30504|M|49.22,61.47|N|To Lorewalker Cho.|
 A Moving On|QID|30648|M|49.31,61.35|N|From Fei.|
-C Moving On|QID|30648|M|49.31,61.35|N|Talk to Fei.|
+C Moving On|QID|30648|CHAT|M|49.31,61.35|N|Talk to Fei.|
 T Moving On|QID|30648|N|To UI Alert (after the ride into the Valley).|
-N Congratulations,|N|You finished The Jade Forest. Next zone is Valley of the Four Winds, the guide should load when you check off this step.|
+N Congratulations|N|You finished The Jade Forest. Next zone is Valley of the Four Winds, the guide should load when you check off this step.|
 
 ]]
 

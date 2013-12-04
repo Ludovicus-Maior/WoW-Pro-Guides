@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_alchemy
+-- Date: 2013-11-27 20:57
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3408/revisions/25653/view
 -- Date: 2013-05-16 00:44
 -- Who: Twists
 -- Log: Upgrade to the new parser.
@@ -39,7 +43,7 @@ N Learn  Artisan Alchemy|QID|901710011|P|Alchemy;171;*;0;300|N|Visit your Traine
 N Superior Healing Potion|QID|901710012|P|Alchemy;171;225;240;|N|1;Sungrass;15;60:1;Khadgar's Whisker;15;15|
 N Elixir of Greater Agility|QID|901710013|P|Alchemy;171;240;265;|N|1;Sungrass;25;45:1;Goldthorn;25;25|
 N Superior Mana Potion|QID|901710014|P|Alchemy;171;265;275;|N|2;Sungrass;20;20:2;Blindweed;20;20|
-N Major Healing Potion|QID|901710015|P|Alchemy;171;275;300;|N|2;Golden Sansam;50;:1;Mountain Silversage;25;25|
+N Major Healing Potion|QID|901710015|P|Alchemy;171;275;300;|N|2;Golden Sansam;50;50:1;Mountain Silversage;25;25|
 N Learn  Master Alchemy|QID|901710016|P|Alchemy;171;*;0;375|N|Visit your Trainer in any major city. Requires Level 50.|
 N Volatile Healing Potion|QID|901710017|P|Alchemy;171;300;315;|N|1;Golden Sansam;15;15:1;Felweed;15;50|
 N Elixir of Mastery|QID|901710018|P|Alchemy;171;315;325;|N|1;Terocone;10;20:1;Felweed;10;35|

@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_blacksmithing
+-- Date: 2013-11-27 20:54
+-- Who: Ludovicus Maior
+
+-- URL: http://wow-pro.com/node/3409/revisions/25654/view
 -- Date: 2013-05-16 00:52
 -- Who: Twists
 -- Log: Update to the new parser.
@@ -77,8 +81,8 @@ N Redsteel Boots|QID|901640050|P|Blacksmithing;164;470;475;|N|5;Folded Obsidium;
 N Obsidium Skeleton Key|QID|901640051|P|Blacksmithing;164;475;480;|N|2;Folded Obsidium;10;80|
 N Redsteel Shoulders|QID|901640052|P|Blacksmithing;164;480;490;|N|3;Folded Obsidium;30;70:6;Elementium Bar;60;130|
 N Redsteel Legguards|QID|901640053|P|Blacksmithing;164;490;500;|N|4;Folded Obsidium;40;40:7;Elementium Bar;70;70|
-N Ghostly Skeleton Key|QID|901640054|P|Blacksmithing;164;500;515;|N|1;Ghost Iron Bar;15;|
-N Ghost-Forged Bracers|QID|901640055|P|Blacksmithing;164;515;525;|N|5;Ghost Iron Bar;10;|
+N Ghostly Skeleton Key|QID|901640054|P|Blacksmithing;164;500;515;|N|1;Ghost Iron Bar;15;15|
+N Ghost-Forged Bracers|QID|901640055|P|Blacksmithing;164;515;525;|N|5;Ghost Iron Bar;10;15|
 N Learn Zen Blacksmithing|QID|901640056|P|Blacksmithing;164;*;0;600|N|Visit your Trainer in any major city.  Requires Level 80.|
 N Ghost-Forged Belt|QID|901640057|P|Blacksmithing;164;525;540;|N|7;Ghost Iron Bar;105;365|
 N Ghost-Forged Shoulders|QID|901640058|P|Blacksmithing;164;540;550;|N|7;Ghost Iron Bar;28;260|
