@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2013-12-07 20:15
+-- Who: Fluclo
+-- Log: Added minimum level requirement
+
+-- URL: http://wow-pro.com/node/3239/revisions/25415/view
 -- Date: 2013-01-13 14:43
 -- Who: Ludovicus Maior
 -- Log: Added C* tags
@@ -54,10 +59,13 @@
 WoWPro.Leveling:RegisterGuide('CraHin3035', 'The Hinterlands', 'Crackerhead22', '30', '35', 'BitWes3540', 'Alliance', function()
 return [[
 
+L Level 29 |QID|26546|LVL|29|N|This guide requires a minimum level of 29 to do.|
+
 R The Hinterlands|QID|26546|M|43.36,45.18;36.71,31.15;38.45,22.89;39.32,19.03|Z|Arathi Highlands|CC|N|Follow the waypoints to The Hinterlands.|
-R Aerie Peak|QID|26546|M|26.29,69.07;26.21,55.04;20.13,53.66;14.17,48.03|CS|N|Follow the waypoints to Aerie Peak.|
-f Aerie Peak|M|11.17,46.06|N|At Guthrum Thunderfist.|QID|26546|
-T Hero's Call: The Hinterlands!|QID|26542|M|9.96,44.31|N|To Gryphon Master Talonaxe.|O|
+R Aerie Peak|QID|26546|M|26.29,69.07;26.21,55.04;20.13,53.66;14.17,48.03|CC|N|Follow the waypoints to Aerie Peak.|
+f Aerie Peak|QID|26546|M|11.17,46.06|N|At Guthrum Thunderfist.|
+T Hero's Call: The Hinterlands!|QID|26542|M|9.96,44.31|N|To Gryphon Master Talonaxe.|ACTIVE|26542|
+
 A Razorbeak Friends|QID|26546|M|9.96,44.31|N|From Gryphon Master Talonaxe.|
 A A Mangy Threat|QID|26547|M|9.96,44.31|N|From Gryphon Master Talonaxe.|
 h Wildhammer Keep|QID|26547|M|14.14,44.78|N|Set your hearth to Wildhammer Keep at Innkeeprer Thulfram.|
