@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2013-12-11 01:38
+-- Who: Fluclo
+-- Log: Added QID to Welcome message. Added guide level requirement.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25770/view
 -- Date: 2013-10-02 12:42
 -- Who: Ludovicus Maior
 -- Log: Removed glassfin village as per Blanckaert. 
@@ -125,7 +130,9 @@
 WoWPro.Leveling:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', '85', '86', 'EmmVal8688', 'Alliance', function()
 return [[
 
-N Welcome to Pandaria|N|Don't forget to train your tradeskills before you leave Stormwind, the new trainers are not available immediately upon arriving in Pandaria.|
+L Level 85 |QID|29547|LVL|85|N|You need to be Level 85 to do this guide.|
+N Welcome to Pandaria|QID|29547|N|Head to Stormwind. Don't forget to train your trade-skills before you leave Stormwind, the new trainers are not available immediately upon arriving in Pandaria.\n\nCheck off this step to continue the guide.|
+
 A The King's Command|QID|29547|N|Autogiven upon entering Stormwind City.|
 C The King's Command|QID|29547|M|80.82,37.61|Z|Stormwind City|N|Run into the keep.|NC|
 T The King's Command|QID|29547|M|78.70,40.08|Z|Stormwind City|N|To Rell Nightwind|
