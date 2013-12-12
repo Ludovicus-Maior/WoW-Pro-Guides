@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2013-12-07 19:53
+-- Who: Fluclo
+-- Log: Minor tweaks aimed at Horde characters, added CHAT to relevant steps, changed Dungeon quests to Rank 3.
+
+-- URL: http://wow-pro.com/node/3309/revisions/25703/view
 -- Date: 2013-06-13 18:41
 -- Who: Fluclo
 -- Log: Added |NC| to Gobbles!
@@ -141,13 +146,12 @@ return [[
 
 L Level 83 |QID|27003|N|You need to be level 83 or higher to be able to work through this guide.|LVL|83|
 
-R Thistleshrub Valley |QID|27003|N|Welcome to Uldum.  To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.  \n\nDepending on your location, either fly to Gunstan's Dig in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Hero's Call from any Alliance City.|FACTION|Alliance|M|30.52,65.58|Z|Tanaris|
-R Thistleshrub Valley |QID|27003|N|Welcome to Uldum.  To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.  \n\nDepending on your location, either fly to Valley of the Watchers in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Warchief's Command from any Horde City.|FACTION|Horde|M|30.52,65.58|Z|Tanaris|
+R Thistleshrub Valley |QID|27003|N|Welcome to Uldum. To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.\n\nDepending on your current location, either fly to Gunstan's Dig in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Hero's Call from any Alliance City.|FACTION|Alliance|M|30.52,65.58|Z|Tanaris|
+R Thistleshrub Valley |QID|27003|N|Welcome to Uldum. To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.\n\nDepending on your current location, either fly to Dawnrise Expedition in the Valley of the Watchers, Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Warchief's Command from Orgrimmar, Thunder Bluff or Undercity.|FACTION|Horde|M|30.52,65.58|Z|Tanaris|
 
 T Hero's Call: Uldum! |QID|28558|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
 T Warchief's Command: Uldum! |QID|28557|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
-T Meetup with the Caravan |QID|28296|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
-T Meetup with the Caravan |QID|28295|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
+T Meetup with the Caravan |QID|28295;28296|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|
 C Easy Money|QID|27003|N|Click on the camel, Lady Humps, then sit back and watch the cinematic.|Z|Tanaris|NC|
@@ -162,10 +166,10 @@ A Kavem the Callous|QID|28105|M|59.64,72.05|N|From Prince Nadun.|
 A Smoke in Their Eyes|QID|27923|M|59.64,72.05|N|From Prince Nadun.|US|
 A Budd's Plan|QID|27924|M|59.71,72.03|N|From Budd.|
 
-C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Set bales of hay on fire.|S|NC|
+C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Walk up to a bale of hay, and use the Brazier Torch to set them on fire.|S|NC|
 C Budd's Plan|QID|27924|M|60.91,74.08|N|Loot the Armor pieces from the tables.  You can also find them by killing Neferset Denizens and Neferset Sentinels.|S|NC|
 l Neferset Key|QID|28105|L|62817|M|59.96,73.92|N|Kill Kavem and loot the Neferset Key.|
-C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Set bales of hay on fire.|US|NC|
+C Smoke in Their Eyes|QID|27923|U|63027|M|62.12,73.98|N|Walk up to a bale of hay, and use the Brazier Torch to set them on fire.|US|NC|
 C Budd's Plan|QID|27924|M|60.91,74.08|N|Kill Neferset Denizens and Neferset Sentinels for Armor Pieces or find them on ground.|US|NC|
 
 T Budd's Plan|QID|27924|M|59.68,72.03|N|To Budd.|
@@ -180,10 +184,10 @@ A Impending Retribution|QID|28134|M|54.90,32.84|N|From King Phaoris.|
 
 h Ramkahen|QID|28141|M|54.73,32.94|N|At Kazemde.|
 
-; Flight plans Ramkahen, Oasis of Vir'sar and Schnottz's Landing are showing as already known when above is followed.
-; f Ramkahen|QID|28141|M|56.18,33.66|N|At Kurzel.|
+; Adding back Flight plans, as they are no longer auto-learnt.
+f Ramkahen|QID|28141|M|56.18,33.66|N|At Kurzel.|
 
-C Speak with Sun Priest Asaris|QID|28134|M|52.98,27.78|QO|Speak with Sun Priest Asaris: 1/1|N|Speak to Sun Priest Asaris for Impending Retribution quest.|NC|
+C Speak with Sun Priest Asaris|QID|28134|M|52.98,27.78|QO|Speak with Sun Priest Asaris: 1/1|N|Speak to Sun Priest Asaris and say "I might be able to help".|CHAT|
 
 A Relics of the Sun King|QID|28141|M|52.98,27.78|N|From Sun Priest Asaris.|S|
 A Venomblood Antidote|QID|28145|M|52.98,27.78|N|From Sun Priest Asaris.|
@@ -201,12 +205,12 @@ A The Bandit Warlord|QID|28502|M|52.98,27.75|N|From Sun Priest Asaris.|
 
 C The Bandit Warlord|QID|28502|M|45.72,16.20|N|Go to the waypoint and kill Warlord Ihsenn.|
 T The Bandit Warlord|QID|28502|M|52.98,27.63|N|To Sun Priest Asaris.|
-C Speak with Asaq|QID|28134|M|49.66,39.13|QO|Speak with Asaq: 1/1|N|Talk to Asaq for Impending Retribution Quest.|NC|
+C Speak with Asaq|QID|28134|M|49.66,39.13|QO|Speak with Asaq: 1/1|N|Speak to Asaq and say "The king wishes to be informed about Neferset activity".|CHAT|
 A Take it to 'Em!|QID|27993|M|49.68,39.03|N|From Mack.|
 
-C Impending Retribution|QID|28134|M|60.21,38.33|N|Talk to Nomarch for the Impending Retribution Quest.|
+C Speak with Nomarch Teneth|QID|28134|M|60.21,38.33|N|Speak to Nomarch and say "King Phaoris sent me to ask you about Neferset activity".|CHAT|QO|Speak with Nomarch Teneth: 1/1|
 A Thieving Little Pluckers|QID|28250|M|60.21,38.33|N|From Nomarch Teneth.|
-C Thieving Little Pluckers|QID|28250|U|63351|M|58.60,39.58|N|To the south by the trees.|
+C Thieving Little Pluckers|QID|28250|U|63351|M|58.60,39.58|N|To the south by the trees. Stand near them, and use the Tahret Dynasty Mallet to kill them.|
 T Thieving Little Pluckers|QID|28250|M|60.25,38.32|N|To Nomarch Teneth.|
 
 T Impending Retribution|QID|28134|M|54.93,32.80|N|To King Phaoris.|
@@ -220,12 +224,13 @@ C Premature Explosionation|QID|27141|M|64.35,22.29|N|Right-click the Powder Keg,
 T Premature Explosionation|QID|27141|M|64.59,28.60|N|To Harrison Jones.|
 
 A Field Work|QID|27179|M|64.59,28.60|N|From Sand Pygmy Corpse.|
+C Field Work|QID|27179|N|Kill Sand Pygmies and loot Ornate Tablet Fragments. You can also find them lying around in this area.|S|
 A Just the Tip|QID|27176|M|64.85,29.53|N|From the Elaborate Disc.|
 A Do the World a Favor|QID|27187|M|65.4,30.8|N|Kill a Mangy Hyena or Skarf to be offered this quest.|
 C Do the World a Favor|QID|27187|N|Kill Mangy Hyenas.|S|
-C Field Work|QID|27179|N|Kill Sand Pygmies and loot Ornate Tablet Fragments. You can also find them lying around in this area.|S|
-C Just the Tip|QID|27176|M|68.08,31.51|M|67.91,31.44|U|60859|N|Kill Sultan Oogah and loot the Sultan's Staff, then click it. If you do not find the Sultan, check for Skarf, he might be riding it.|
-C Field Work|QID|27179|M|63.50,31.33|N|Get the remaining Ornate Tablet Fragments.|US|
+K Sultan Oogah|QID|27176|M|68.08,31.51|L|60865|N|Kill and loot Sultan Oogah for the Sultan's Staff.|
+C Just the Tip|QID|27176|M|68.08,31.51|U|60859|N|Activate the Elaborate Disc to combine it with the Sultan's Staff to create the Shaft of the Stars.|NC|
+C Field Work|QID|27179|M|63.50,31.33|N|Continue to obtain the Ornate Tablet Fragments from either the floor or by killing the Sand Pygmies.|US|
 C Do the World a Favor|QID|27187|M|66.78,26.76;63.34,26.99|CN|N|Kill Mangy Hyenas.|US|
 
 T Do the World a Favor|QID|27187|M|64.60,28.65|N|(UI Alert)|
@@ -234,8 +239,8 @@ T Just the Tip|QID|27176|M|64.60,28.65|N|To Harrison Jones.|
 T Field Work|QID|27179|M|64.60,28.65|N|To Harrison Jones.|US|
 
 A On to Something|QID|27196|M|64.60,28.65|N|From Harrison Jones.|
-C On to Something|QID|27196|M|64.25,27.01|N|Follow Harrison Jones, stay on your flying mount to avoid falling damage. Talk to him and tell him you're ready to start it.|NC|
-T On to Something|QID|27196|M|64.55,27.97|N|To Harrison Jones.|
+C On to Something|QID|27196|M|64.25,27.01|N|Speak to Harrison Jones and tell him "I'm ready, Doctor Jones!", the quest completion will follow a few seconds later when he reaches the edge of the Chamber of the Stars.|CHAT|
+T On to Something|QID|27196|M|64.55,27.97|N|To Harrison Jones, he'll jump into the Chamber of Stars, so mount up and head to him inside the Chamber.|
 
 A The Thrill of Discovery|QID|27511|M|64.55,27.97|N|From Harrison Jones.|
 C The Thrill of Discovery|QID|27511|M|65.62,25.94|N|Head towards the North Hieroglyphs.|QO|Northern Hieroglyphs Examined: 1/1|NC|
@@ -247,7 +252,7 @@ A Be Prepared|QID|27517|M|65.16,33.71|N|From the Decrpit Skeleton.|
 C Be Prepared|QID|27517|S|M|61.81,30.15;67.46,30.05|CN|N|Kill Tormented Tomb-Robbers, they spawn when you walk over the skeletons on the floor. Loot 6 Pieces of Rope.|
 A Lessons From the Past|QID|27541|M|63.46,32.61|N|From the corpse of Schnottz Scout.|
 
-C Lessons From the Past|QID|27541|M|63.46,32.55|N|Right-click Schottz Scout and select Take the scout's spectacles. You don't need the journal, it's just for a fun read.|NC|
+C Lessons From the Past|QID|27541|M|63.46,32.55|N|Speak to Schnottz Scout and select "Take the scout's spectacles".\n\nYou don't need the journal, it's just for a fun read.|CHAT|
 C Be Prepared|QID|27517|US|M|61.81,30.15;67.46,30.05|CN|N|Kill Tormented Tomb-Robbers, they spawn when you walk over the skeletons on the floor. Loot 6 Pieces of Rope.|
 
 T Lessons From the Past|QID|27541|M|64.45,28.00|N|To Harrison Jones.|S|
@@ -255,31 +260,31 @@ T Be Prepared|QID|27517|M|64.45,28.00|N|To Harrison Jones.|
 T Lessons From the Past|QID|27541|M|64.45,28.00|N|To Harrison Jones.|US|
 
 A By the Light of the Stars|QID|27549|M|64.45,28.00|N|From Harrison Jones.|
-C By the Light of the Stars|QID|27549|M|62.15,32.93|N|Use the glasses then gather the balls of light floating around the room. The nearby Indentured Protectors will attack when you pick one up.|U|61509|
+C By the Light of the Stars|QID|27549|M|62.15,32.93|N|Use the glasses then gather the balls of light floating around the room. If there are Indentured Protectors nearby, the will attack when you pick one up.|U|61509|NC|
 T By the Light of the Stars|QID|27549|M|64.48,28.05|N|To Harrison Jones, then sit back and watch the cinematic.\n\n**Remember to put your head gear back on!**|
 
 A Tipping the Balance|QID|27431|M|64.49,27.98|N|From Harrison Jones.|
-C Tipping the Balance|QID|27431|M|64.41,27.32|N|Talk to Harrison and click 'Ask "What can I do to help?"', then sit back and watch the cinematic.|NC|
+C Tipping the Balance|QID|27431|M|64.41,27.32|N|After the first cinematic, talk to Harrison and click 'Ask "What can I do to help?"', then sit back and watch the second cinematic.|CHAT|
 T Tipping the Balance|QID|27431|M|64.50,27.99|N|To Harrison Jones.|
 
 A After the Fall|QID|27624|M|64.50,27.99|N|From Harrison Jones.|
 A Just a Fancy Cockroach|QID|27627|RANK|2|M|63.77,27.26|N|Kill a Scarab to get this quest.|
 
-C Just a Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill Amethyst Scarabs.|S|
+C Just a Fancy Cockroach - Amethyst Scarabs|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill Amethyst Scarabs.|S|
 C After the Fall|QID|27624|M|63.96,26.68|QO|Orb of the Morning Star: 1/1|N|Collect the Orb of the Morning Star from the head of the statue.|NC|
-C Just a Fancy Cockroach|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill the remaining Amethyst Scarabs.|US|
+C Just a Fancy Cockroach - Amethyst Scarabs|QID|27627|RANK|2|M|63.45,27.08|QO|Amethyst Scarabs Slain: 5/5|N|Kill the remaining Amethyst Scarabs.|US|
 
-C Just a Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill Turquoise Scarabs.|S|
+C Just a Fancy Cockroach - Turquoise Scarabs|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill Turquoise Scarabs.|S|
 C After the Fall|QID|27624|M|62.64,31.97|QO|Orb of the North Star: 1/1|N|Collect the Orb of the North Star from the head of the statue.|NC|
-C Just a Fancy Cockroach|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill the remaining Turquoise Scarabs.|US|
+C Just a Fancy Cockroach - Turquoise Scarabs|QID|27627|RANK|2|M|63.06,32.52|QO|Turquoise Scarabs Slain: 5/5|N|Kill the remaining Turquoise Scarabs.|US|
 
-C Just a Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill Emerald Scarabs.|S|
+C Just a Fancy Cockroach - Emerald Scarabs|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill Emerald Scarabs.|S|
 C After the Fall|QID|27624|M|65.26,32.56|QO|Orb of the Shooting Star: 1/1|N|Collect the Orb of the Shooting Star from the head of the statue.|NC|
-C Just a Fancy Cockroach|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill the remaining Emerald Scarabs.|US|
+C Just a Fancy Cockroach - Emerald Scarabs|QID|27627|RANK|2|M|65.85,32.61|QO|Emerald Scarabs Slain: 5/5|N|Kill the remaining Emerald Scarabs.|US|
 
-C Just a Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|N|Kill Sapphire Scarabs.|S|
+C Just a Fancy Cockroach - Sapphire Scarabs|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5|N|Kill Sapphire Scarabs.|S|
 C After the Fall|QID|27624|M|66.78,28.01|QO|Orb of the Evening Star: 1/1|N|Collect the Orb of the Evening Star from the head of the statue.|NC|
-C Just a Fancy Cockroach|QID|27627|RANK|2|M|66.21,27.03|N|Kill the remaining Sapphire Scarabs.|US|
+C Just a Fancy Cockroach - Sapphire Scarabs|QID|27627|RANK|2|M|66.21,27.03|QO|Sapphire Scarabs Slain: 5/5|N|Kill the remaining Sapphire Scarabs.|US|
 
 T Just a Fancy Cockroach|QID|27627|RANK|2|M|63.2,33.1|N|(UI Alert)|
 T After the Fall|QID|27624|M|64.47,28.02|N|To Harrison Jones.|
@@ -461,13 +466,15 @@ A Lieutenants of Darkness|QID|28480|M|52.06,65.43|N|From King Phaoris.|S|
 A Bleeding the Enemy|QID|28483|M|52.06,65.43|N|From King Phaoris.|
 A Lieutenants of Darkness|QID|28480|M|52.06,65.43|N|From King Phaoris.|US|
 
+A Salhet's Gambit|QID|28486|M|52.88,65.55|N|From Salhet.|
+;Removing reference to agro as in-level toon will agro them.
+C Salhet's Gambit|QID|28486|M|54.06,71.17|N|Speak with Ramhaken Ranger Captain when ready to start the escort.|
+
 C Bleeding the Enemy|QID|28483|M|52.42,79.47|N|Kill Nefersets and loot Neferset Insignias.|S|
 K High Priest Sekhemet|QID|28480|M|47.49,77.79|N|Kill High Priest Sekhemet.|QO|High Priest Sekhemet slain: 1/1|
 C Lieutenants of Darkness|QID|28480|M|50.55,87.04|N|Kill Scorpion-Lord Namkhare.|
 C Bleeding the Enemy|QID|28483|M|52.42,79.47|N|Kill Nefersets and loot Neferset Insignias.|US|
 
-A Salhet's Gambit|QID|28486|M|52.88,65.55|N|From Salhet.|
-C Salhet's Gambit|QID|28486|M|54.06,71.17|N|Speak with Ramhaken Ranger Captain when ready to start the escort. At the top, the pack on the right does not engage unless you get too close to them. The NPCs are far enough away to not trigger them.|
 T Salhet's Gambit|QID|28486|M|52.92,65.55|N|To Salhet.|
 
 T Lieutenants of Darkness|QID|28480|M|52.07,65.43|N|To King Phaoris.|S|
@@ -478,7 +485,7 @@ A The Fall of Neferset City|QID|28520|M|52.07,65.43|N|From King Phaoris.|
 C The Fall of Neferset City|QID|28520|M|52.04,82.29|N|Defeat Dark Pharaoh Tekahn. NPCs will come to your aid, just make sure you avoid the laser beams from the Colossi.|
 T The Fall of Neferset City|QID|28520|M|54.89,32.82|U|6948|N|Use your Hearthstone. To King Phaoris.|
 
-A Return to the Lost City|QID|28870|M|54.89,32.82|N|This is a Dungeon quest and is optional. From King Phaoris.|
+A Return to the Lost City|QID|28870|M|54.89,32.82|N|This is a Dungeon quest and is optional. From King Phaoris.|LEAD|28781;28783|RANK|3|
 T That Gleam in his Eye|QID|27899|M|43.94,57.10|N|To Harrison Jones. On top of the Obelisk of the Sun.|
 
 A I've Got This Guy|QID|27900|M|43.94,57.10|N|From Harrison Jones.|S|
@@ -508,7 +515,7 @@ T Efficient Excavations|QID|28132|M|24.43,64.46|N|To Belloc Brightblade.|
 
 A Eastern Hospitality|QID|27926|M|24.43,64.46|N|From Belloc Brightblade.|
 
-; f Schnottz's Landing|QID|27926|M|22.33,64.82|N|At Evax Oilspark.|
+f Schnottz's Landing|QID|27926|M|22.33,64.82|N|At Evax Oilspark.|
 
 C Eastern Hospitality|QID|27926|M|22.53,64.58;22.57,64.65;21.95,63.98;22.44,63.21|N|Follow the arrows to mingle with the guests.|CS|
 T Eastern Hospitality|QID|27926|M|24.42,64.53|N|To Belloc Brightblade.|
@@ -588,7 +595,7 @@ T Firing Squad|QID|28267|M|23.52,60.25|N|To Harrison Jones.|
 
 A Meet Me In Vir'sar|QID|28269|M|23.52,60.25|N|From Harrison Jones.|
 
-; f Oasis of Vir'sar|QID|28269|M|26.63,8.39|N|At Jock Lindsey.|
+f Oasis of Vir'sar|QID|28269|M|26.63,8.39|N|At Jock Lindsey.|
 
 T Meet Me In Vir'sar|QID|28269|M|27.02,7.63|N|To Harrison Jones.|
 
@@ -682,7 +689,7 @@ A The Coffer of Promise|QID|28633|M|44.86,67.39|N|From Brann Bronzebeard.|
 C The Coffer of Promise|QID|28633|M|44.97,67.36|N|Simply right-click the coffer of promise and loot the Titan Discs.|NC|
 T The Coffer of Promise|QID|28633|M|44.87,67.36|N|To Brann Bronzebeard.|
 
-A The Heart of the Matter|QID|28654|M|44.87,67.36|N|If you wish to do the Halls of Origination dungeon.|
+A The Heart of the Matter|QID|28654|M|44.87,67.36|N|If you wish to do the Halls of Origination dungeon.|RANK|3|
 
 ]]
 
