@@ -122,70 +122,69 @@ end
 function WoWPro:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
-
-    WoWPro:dbp("Running: AutoCompleteQuestUpdate(questComplete=%s)",tostring(questComplete))
-	if WoWProCharDB.Guide then
-		for i=1,#WoWPro.action do
-		
-			local action = WoWPro.action[i]
-			local completion = WoWProCharDB.Guide[GID].completion[i]
-		    
-			if WoWPro.QID[i] then
-				local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
-				for j=1,numQIDs do
-					local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
-					QID = tonumber(QID)
-
-			        -- Quest Turn-Ins --
-			        if WoWPro.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
-				        WoWPro.CompleteStep(i)
-				        WoWProCharDB.completedQIDs[QID] = true
-				        WoWPro.CompletingQuest = false
-			        end
-			
-			        -- Abandoned Quests --
-			        if not WoWPro.CompletingQuest and ( action == "A" or action == "C" ) 
-			        and completion and WoWPro.missingQuest == QID then
-				        WoWProCharDB.Guide[GID].completion[i] = nil
-				        WoWPro:UpdateGuide()
-				        WoWPro:MapPoint()
-			        end
-			
-                    -- Quest AutoComplete --
-                    if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
-                        WoWPro.CompleteStep(i)
-                    end
-			        -- Quest Accepts --
-			        if WoWPro.newQuest == QID and action == "A" and not completion then
-				        WoWPro.CompleteStep(i)
-			        end
-			
-			        -- Quest Completion --
-			        if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
-				        WoWPro.CompleteStep(i)
-			        end
-			
-			        -- Partial Completion --
-			        if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
-			        and not WoWProCharDB.Guide[GID].completion[i] then 
-				        local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
-				        local complete = true
-				        for l=1,numquesttext do
-					        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
-					        local lcomplete = false
-					        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
-						        if lquesttext == objective then --if the objective matches the step's criteria, mark true
-							        lcomplete = true
-						        end
-					        end
-					        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
-				        end
-				        if complete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
-			        end
-			    end
-			end		
-		end
+	if not WoWProCharDB.Guide then return end
 	
+    WoWPro:dbp("Running: AutoCompleteQuestUpdate(questComplete=%s)",tostring(questComplete))
+
+	for i=1,#WoWPro.action do
+	
+		local action = WoWPro.action[i]
+		local completion = WoWProCharDB.Guide[GID].completion[i]
+	    
+		if WoWPro.QID[i] then
+			local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
+			for j=1,numQIDs do
+				local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
+				QID = tonumber(QID)
+
+		        -- Quest Turn-Ins --
+		        if WoWPro.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
+			        WoWPro.CompleteStep(i)
+			        WoWProCharDB.completedQIDs[QID] = true
+			        WoWPro.CompletingQuest = false
+		        end
+		
+		        -- Abandoned Quests --
+		        if not WoWPro.CompletingQuest and ( action == "A" or action == "C" ) 
+		        and completion and WoWPro.missingQuest == QID then
+			        WoWProCharDB.Guide[GID].completion[i] = nil
+			        WoWPro:UpdateGuide()
+			        WoWPro:MapPoint()
+		        end
+		
+                -- Quest AutoComplete --
+                if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
+                    WoWPro.CompleteStep(i)
+                end
+		        -- Quest Accepts --
+		        if WoWPro.newQuest == QID and action == "A" and not completion then
+			        WoWPro.CompleteStep(i)
+		        end
+		
+		        -- Quest Completion --
+		        if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
+			        WoWPro.CompleteStep(i)
+		        end
+		
+		        -- Partial Completion --
+		        if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
+		        and not WoWProCharDB.Guide[GID].completion[i] then 
+			        local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
+			        local complete = true
+			        for l=1,numquesttext do
+				        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
+				        local lcomplete = false
+				        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
+					        if lquesttext == objective then --if the objective matches the step's criteria, mark true
+						        lcomplete = true
+					        end
+				        end
+				        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
+			        end
+			        if complete then WoWPro.CompleteStep(i) end --if the step has not been found to be incomplete, run the completion function
+		        end
+		    end
+		end		
 	end
 	
 	-- First Map Point --
