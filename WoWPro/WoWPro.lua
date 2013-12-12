@@ -424,6 +424,11 @@ function WoWPro:LoadAllGuides()
 	for guidID,guide in pairs(WoWPro.Guides) do
         WoWPro:Print("Test Loading " .. guidID)
         WoWProDB.char.currentguide = guidID
+        --Re-initiallizing tags and counts--
+    	for i,tag in pairs(WoWPro.Tags) do 
+    		WoWPro[tag] = {}
+    	end
+    	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
         WoWPro:LoadGuideStepsReal()
         nextG = WoWPro:NextGuide(guidID)
         if WoWPro.Guides[guidID].zone then

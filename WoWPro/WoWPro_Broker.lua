@@ -638,7 +638,7 @@ function WoWPro:NextStep(k,i)
     	end
     	
     	if WoWPro.recipe and WoWPro.recipe[k] then
-    	    WoWPro:Print("Step %d Recipe %s",k,WoWPro.recipe[k])
+    	    WoWPro:dbp("Step %d Recipe %s",k,WoWPro.recipe[k])
     	    if WoWProCharDB.Trades and WoWPro:AllIDsInTable(WoWPro.recipe[k],WoWProCharDB.Trades) then
         	    WoWPro.why[k] = "Recipe(s) is known already"
         	    WoWPro.CompleteStep(k)
