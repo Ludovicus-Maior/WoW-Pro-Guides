@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2013-12-02 02:25
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3229/revisions/25817/view
 -- Date: 2013-11-27 00:07
 -- Who: Fluclo
 -- Log: Added Level information, reordered steps to take into account level requirements and added |LVL| as appropriate, some steps were in pre-cataclysm placings and so reorganised, added detail to some steps for those with little to no knowledge of the zone.
@@ -99,7 +103,7 @@ R Stromgarde Keep|QID|26037|M|19.6,59.0|N|Head to Stromgarde Keep. Head south ou
 
 C Stromgarde Badges|QID|26095|S|M|19.99,66.47|N|Kill and loot Syndicate mobs for the Stromgarde Badges.|LVL|26|
 C Wanted! Marez Cowl|QID|26024|M|23.2,64.8;22.8,66|CN|N|On entering the Keep, go to the first path on the left, then follow it to the house. Go around the left side of the house, and Marez Cowl can be found outside at the back. Kill and loot the head.|LVL|26|T|Marez Cowl|
-C Wanted! Otto and Falconcrest|QID|26079|S|M|19.5,67.5|N|Head into the tower and upstairs (to the left when you have a choice of direction). Kill and loot Otto and Lord Falconcrest as you head up the tower.|LVL|26|
+C Wanted! Otto and Falconcrest|QID|26079|M|19.5,67.5|N|Head into the tower and upstairs (to the left when you have a choice of direction). Kill and loot Otto and Lord Falconcrest as you head up the tower.|LVL|26|
 C Stromgarde Badges|QID|26095|US|M|17.75,63.10|N|Finish killing and looting the Syndicate mobs for the Stromgarde Badges.|LVL|26|
 
 C Trelane's Defenses|QID|26037|M|17.75,63.10;14.95,68.85|CC|N|Kill Boulderfist Shaman until one drops the Azure Agate.|

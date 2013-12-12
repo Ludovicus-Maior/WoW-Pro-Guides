@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2013-12-11 03:05
+-- Who: Fluclo
+-- Log: The Art of War has two different quest IDs, depending on progress in Vashj'ir; Added some C steps to the first few quests; Corrected some coordinates and zone placements; Added lots of notes to various steps; Fixed typos.
+
+-- URL: http://wow-pro.com/node/3487/revisions/25836/view
+-- Date: 2013-12-11 01:38
+-- Who: Fluclo
+-- Log: Added Quest ID to starting note; added guide level requirement.
+
+-- URL: http://wow-pro.com/node/3487/revisions/25794/view
 -- Date: 2013-11-10 19:49
 -- Who: Emmaleah
 -- Log: Changed NC tags to CHAT tags as needed, added a two new C steps with CHAT. (Last Piece of the Puzzle and Jade Temple Grounds); modified or added a few explanations (amazing what not looking at this for a year lets me see) and a few typo corrections.  
@@ -81,56 +91,67 @@
 WoWPro.Leveling:RegisterGuide('EmmJad8586', 'The Jade Forest', 'Emmaleah', '85', '86', 'EmmVal8688', 'Horde', function()
 return [[
 
-N Welcome to Pandaria|QID|29612|N|Don't forget to train your professions before leaving Orgrimar, there are trainers in Pandaria, but some of them take a while to find.|
-A The Art of War|QID|29612|N|From UI Alert|
-T The Art of War|QID|29612|M|48.56,70.62|Z|Orgrimmar|N|To General Nazgrim.|
-A All Aboard!|QID|31853|M|48.56,70.62|Z|Orgrimmar|N|From General Nazgrim.|
-T All Aboard!|QID|31853|M|65,0|Z|Durotar|N|To General Nazgrim.(up in the Sky)|
-A Into the Mists|QID|29690|M|65,0|Z|Durotar|N|From General Nazgrim.|
-T Into the Mists|QID|29690|M|30.77,10.22|N|To General Nazgrim.|
-A Paint it Red!|QID|31765|M|30.77,10.22|N|From General Nazgrim.|
-C Paint it Red!|QID|31765|M|31.55,11.13|N|Cannons are on the lower level along this side of the warship.|
-T Paint it Red!|QID|31765|M|31.00,11.04|N|To Rivett Clutchpop.|
-A Touching Ground|QID|31766|M|31.00,11.04|N|From Rivett Clutchpop.|
-C Touching Ground|QID|31766|M|31.55,11.13|N|Ropes are beside the cannons.|
+L Level 85 |QID|29611;29612|LVL|85|N|You need to be Level 85 to do this guide.|
+N Welcome to Pandaria|QID|29611;29612|N|Head to Orgrimmar. Don't forget to train your trade-skills before you leave Orgrimmar the new trainers are not available immediately upon arriving in Pandaria.\n\nCheck off this step to continue the guide.|
 
+A The Art of War|QID|29611;29612|N|Autogiven upon entering Orgrimmar.|
+C The Art of War|QID|29611;29612|M|49.93,75.65|Z|Orgrimmar|N|Head to Grommash Hold in The Valley of Strength. Then sit back, and watch the cinematic.|NC|
+T The Art of War|QID|29611;29612|M|48.56,70.62|Z|Orgrimmar|N|To General Nazgrim.|
+
+A All Aboard!|QID|31853|M|48.56,70.62|Z|Orgrimmar|N|From General Nazgrim.|
+F Hellscream's Fist|QID|31853|M|37.89,95.73|Z|Azshara|N|Fly up to the Hellscream's Fist, which is flying above the skies east of Orgrimmar.|
+T All Aboard!|QID|31853|M|37.89,95.73|Z|Azshara|N|To General Nazgrim, who has relocated to the Hellscream's Fist.|
+
+A Into the Mists|QID|29690|M|37.89,95.73|Z|Azshara|N|From General Nazgrim.|
+C Into the Mists|QID|29690|M|37.89,95.73|Z|Azshara|N|Speak to General Nazgrim and tell him "I'm ready to go, General". Then sit back, and watch the cinematic.|CHAT|
+T Into the Mists|QID|29690|M|30.77,10.22|N|To General Nazgrim.|
+
+A Paint it Red!|QID|31765|M|30.77,10.22|N|From General Nazgrim.|
+C Paint it Red!|QID|31765|M|31.55,11.13|N|Head to the lower level deck, and click on a Gunship Turret. Use the "Full Autofire" action to kill the required troops and cannons.|
+T Paint it Red!|QID|31765|M|31.00,11.04|N|To Rivett Clutchpop.|
+
+A Touching Ground|QID|31766|M|31.00,11.04|N|From Rivett Clutchpop.|
+C Touching Ground|QID|31766|M|31.55,11.13|N|Click on the Rappelling Rope (next to the Gunship Turrets).|NC|
 T Touching Ground|QID|31766|M|31.71,11.49|N|To General Nazgrim.|
+
 A Finish Them!|QID|31767|M|31.71,11.49|N|From General Nazgrim.|
 A Fire Is Always the Answer|QID|31768|M|31.71,11.49|N|From General Nazgrim.|
-C Finish Them!|QID|31767|S|M|33.03,8.07|
-C Fire Is Always the Answer|QID|31768|U|89605|M|33.78,6.53|
-C Finish Them!|QID|31767|US|M|33.03,8.07|
-T Finish Them!|QID|31767|M|34.79,10.61|N|To General Nazgrim.|
+C Finish Them!|QID|31767|S|M|33.03,8.07|N|Kill the Thunder Hold troops (Laborers do not count)|
+C Fire Is Always the Answer|QID|31768|U|89605|M|33.78,6.53|NC|N|Use Nazgrim's Flage Gun as you stand near Thunder Hold Munitions.|
+C Finish Them!|QID|31767|US|M|33.03,8.07|N|Finish killing the Thunder Hold troops (Laborers do not count)|
+T Finish Them!|QID|31767|M|33.67,10.61;34.79,10.61|CC|N|To General Nazgrim, who has moved into the Thunder Hold (run up the steps).|
 T Fire Is Always the Answer|QID|31768|M|34.79,10.61|N|To General Nazgrim.|
+
 A The Final Blow!|QID|31769|M|34.79,10.61|N|From General Nazgrim.|
-C The Final Blow!|QID|31769|U|89769|QO|Destroy the first barricade: 1/1|M|34.01,9.84|
-C The Final Blow!|QID|31769|U|89769|QO|Destroy the second barricade: 1/1|M|34.65,9.8|
-C The Final Blow!|QID|31769|U|89769|QO|Destroy the third barricade: 1/1|M|34.92,10.67|
-C The Final Blow!|QID|31769|M|33.60,10.58|
-T The Final Blow!|QID|31769|M|33.67,10.56|N|To General Nazgrim.|
-A You're Either With Us Or...|QID|31770|M|33.67,10.56|N|From General Nazgrim.|
+C The Final Blow!|QID|31769|U|89769|QO|Destroy the first barricade: 1/1|M|34.01,9.84|NC|N|Head to the first barricade and use Nazgrim's Flage Gun to destroy it.|
+C The Final Blow!|QID|31769|U|89769|QO|Destroy the second barricade: 1/1|M|34.65,9.8|NC|N|Head up the stairs to the second barricade and use Nazgrim's Flage Gun to destroy it.|
+C The Final Blow!|QID|31769|U|89769|QO|Destroy the third barricade: 1/1|M|34.92,10.67|NC|N|Head along the corridor to the third barricade and use Nazgrim's Flage Gun to destroy it.|
+C The Final Blow!|QID|31769|M|33.60,10.58|QO|Find Captain Doren: 1/1|NC|N|Head up the stairs, then to where Captain Doren is standing, then sit back and watch the cinematic.|
+T The Final Blow!|QID|31769|M|33.67,10.56|N|To General Nazgrim. You will need to wait a minute for the dialog to finish before he will accept the quest.|
+A You're Either With Us Or...|QID|31770|M|33.67,10.56|N|From General Nazgrim. Again, you will need to wait a minute for the dialog to finish before he will offer the quest.|
 A Regroup!|QID|29694|M|33.67,10.56|N|From General Nazgrim.|
 A Face to Face With Consequence|QID|31771|M|33.67,10.56|N|From Taran Zhu.|
 
-C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Kill these guys as you run out of the building|
-C Regroup!|QID|29694|M|31.95,13.21|CHAT|QO|Shademaster Kiryn Rescued: 1/1|
+C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Head out of the building, killing the Sha's, as you head to Honeydew Glade.|
+C Regroup!|QID|29694|M|31.95,13.21|CHAT|QO|Shademaster Kiryn Rescued: 1/1|N|Jump into the river, then head over to Honeydew Glade and speak to Shademaster Kiryn.|
 A Priorities!|QID|31978|M|31.97,13.30|N|From Gi-Oh.|
 A Prowler Problems|QID|31773|M|32.06,13.32|N|From Kai-Lin Honeydew.|
-C Prowler Problems|QID|31773|S|M|30.61,11.78|
-C Priorities!|QID|31978|S|NC|M|29.39,13.58|
-C Regroup!|QID|29694|M|30.81,11.32|CHAT|QO|Sergeant Gorrok Rescued: 1/1|
-C Regroup!|QID|29694|M|30.4,7.2|CHAT|QO|Rivett Clutchpop Rescued: 1/1|
-C Regroup!|QID|29694|M|29.41,8.45|CHAT|QO|Shokia Rescued: 1/1|
-C Prowler Problems|QID|31773|US|M|30.61,11.78|
-C Priorities!|QID|31978|US|NC|M|29.39,13.58|
-C You're Either With Us Or...|QID|31770|CHAT|M|29.27,13.33|N|Talk to Mayor Honeydew.|
+C Prowler Problems|QID|31773|S|M|30.61,11.78|N|Kill the Sha-Infested Prowlers as you wander the area.|
+C Priorities!|QID|31978|S|NC|M|29.39,13.58|N|Collect the Barrels on the floor around the Glade.|
+C Regroup!|QID|29694|M|30.58,11.65|CHAT|QO|Sergeant Gorrok Rescued: 1/1|N|Head north-west to Sergeant Gorrock, and speak to him.|
+C Regroup!|QID|29694|M|30.4,7.2|CHAT|QO|Rivett Clutchpop Rescued: 1/1|N|Speak to Rivett Clutchpop to get him down from the tree.|
+C Regroup!|QID|29694|M|29.41,8.45|CHAT|QO|Shokia Rescued: 1/1|N|Speak to Shokia up on the overlook at Honeydew Farm.|
+C Priorities!|QID|31978|US|NC|M|29.3,10.0|N|Finish collecting the Barrels of Honeybrew.|
+C Prowler Problems|QID|31773|US|M|30.61,11.78|Finish killing the Sha-Infested Prowlers.|
+C You're Either With Us Or...|QID|31770|CHAT|M|29.27,13.33|N|Head to Mayor Honeydew.|
 T You're Either With Us Or...|QID|31770|M|29.15,13.74|N|To Mayor Honeydew.|
+C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Kill these guys as you run out of the building|US|
 T Face to Face With Consequence|QID|31771|M|29.15,13.82|N|To Taran Zhu.|
 T Prowler Problems|QID|31773|M|29.15, 13.82|N|To Taran Zhu.|
 T Regroup!|QID|29694|M|29.16,13.70|N|To Sergeant Gorrok.|
 A Seeking Zin'jun|QID|31774|M|29.13,13.76|N|From Sergeant Gorrok.|
 T Priorities!|QID|31978|M|29.37,13.57|N|To Ellie Honeypaw.|
-h Honeydew Village|QID|31774|M|28.53,13.33|N|Talk to Brewmother Kiki if you want to make Pandaria you new home. This as a good place to set your heartstone, as there is a portal to Orgrimar right outside the door.|
+h Honeydew Village|QID|31774|M|28.53,13.33|N|Talk to Brewmother Kiki if you want to make Pandaria you new home. This as a good place to set your hearthstone, as there is a portal to Orgrimar right outside the door.|
 f Honeydew Village|QID|31774|M|28.1,15.57|N|At Wing Hya.|
 
 T Seeking Zin'jun|QID|31774|M|31.17,17.52|N|To Zin'Jun.|

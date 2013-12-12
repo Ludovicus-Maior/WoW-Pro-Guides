@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2013-12-03 17:12
+-- Who: Fluclo
+-- Log: Added step for Graduation Speech to indicate which options to pick, and added couple extra notes to other quests. Also added |PRE| to Gates of Southann Flightpath, as it only appears once the quest has been done.
+
+-- URL: http://wow-pro.com/node/3303/revisions/25830/view
+-- Date: 2013-12-02 22:12
+-- Who: Fluclo
+-- Log: Added |NC| tags as appropriate, and tagged the disguise on Seeds of Discord to auto-complete
+
+-- URL: http://wow-pro.com/node/3303/revisions/25796/view
 -- Date: 2013-11-11 04:17
 -- Who: Fluclo
 -- Log: Moved The Last Living Lorekeeper to avoid doubling back, added extra step for the Rod of Subjugation, moved The Hammer and the Key to avoid doubling back, added CHAT icon, fixed typo
@@ -579,17 +589,19 @@ C Signed in Blood|QID|25274|U|52683|M|74.82,61.12|N|Follow the road out of the c
 T Signed in Blood|QID|25274|M|71.96,58.16|N|To Elementalist Ortell.|
 A Your New Identity|QID|25276|PRE|25274|M|71.96,58.16|N|From Elementalist Ortell.|
 T Your New Identity|QID|25276|M|76.89,62.09|N|To Condenna the Pitiless.|
+
 A In Bloom|QID|25224|PRE|25276|M|76.89,62.09|N|From Condenna the Pitiless.|
 A Trial By Fire|QID|25223|PRE|25276|M|76.97,62.20|N|From Condenna the Pitiless.|
 A Waste of Flesh|QID|25330|PRE|25276|M|76.99,62.16|N|From Instructor Cargall.|
-C Waste of Flesh|QID|25330|S|U|52819|M|78.95,63.18|N|Use the Frostgale Crystal on them to put out Immolated Supplicants.|
 C Trial By Fire|QID|25223|M|81.81,64.04|N|Kill Fiery Instructors.|S|
-C In Bloom|QID|25224|M|81.02,63.88;78.75,62.28|CN|L|52537 5|N|Collect Flame Blossoms.|
-C Trial By Fire|QID|25223|M|81.81,64.04|N|Kill Fiery Instructors.|US|
-C Waste of Flesh|QID|25330|US|U|52819|M|78.95,63.18|N|Find an Immolated Supplicant that are running around covered in fire. Use the Frostgale Crystal on them to put out the flames.|
+C Waste of Flesh|QID|25330|S|U|52819|M|78.95,63.18|N|Use the Frostgale Crystal on Immolated Supplicants to put out the fire.|NC|
+C In Bloom|QID|25224|M|81.02,63.88;78.75,62.28|CN|L|52537 5|N|Collect Flame Blossoms.|NC|
+C Waste of Flesh|QID|25330|US|U|52819|M|78.95,63.18|N|Use the Frostgale Crystal on Immolated Supplicants to put out the fire.|NC|
+C Trial By Fire|QID|25223|M|81.81,64.04|N|Finish killing the Fiery Instructors.|US|
 T Waste of Flesh|QID|25330|M|77.09,62.23|N|To Instructor Cargall.|
 T Trial By Fire|QID|25223|M|76.95,62.15|N|To Condenna the Pitiless.|
 T In Bloom|QID|25224|M|76.95,62.15|N|To Condenna the Pitiless.|
+
 A Twilight Training|QID|25291|PRE|25223;25224;25330|M|76.95,62.15|N|From Condenna the Pitiless.|
 T Twilight Training|QID|25291|M|89.54,59.05|N|To Instructor Mylva.|
 A Physical Training: Forced Labor|QID|25509|PRE|25291|M|89.54,59.05|N|From Instructor Mylva.|
@@ -597,11 +609,11 @@ A Walking the Dog|QID|25294|PRE|25291|M|90.08,56.48|N|From Instructor Devoran.|
 A Gather the Intelligence|QID|25296|PRE|25291|M|88.36,58.57|N|From the Outhouse Hideout.|
 l Twilight Communique|QID|25296|M|88.98,57.01|L|52724|N|Search the camp until you find the Twilight Communique. It can be just about anywhere in the camp so just keep looking around until you find it. Try to grab it when none of the Twilight Guards are close by. If they see you take the communique they will attack.|
 l Charred Basilisk Meat|QID|25294|L|52708 5|S|M|89.55,49.35|N|Kill Spinescale Basilisk and loot 5 Charred Basilisk Meat.|
-C Physical Training: Forced Labor|QID|25509|S|U|54788|M|89.55,49.35|N|Use the Twilight Pick on Darkwhisper Lodestones on your way to the other camp.|
-C Gather the Intelligence|QID|25296|M|91.95,51.60|N|Leave the camp. Head northeast, toward the other camp, Doom's Vigil. Find the Hyjal Battleplans somewhere in the Doom's Vigil camp.|
+C Physical Training: Forced Labor|QID|25509|S|U|54788|M|89.55,49.35|N|Use the Twilight Pick on Darkwhisper Lodestones on your way to the other camp.|NC|
+C Gather the Intelligence|QID|25296|M|91.95,51.60|N|Leave the camp. Head northeast, toward the other camp, Doom's Vigil. Find the Hyjal Battleplans somewhere in the Doom's Vigil camp.|NC|
 l Charred Basilisk Meat|QID|25294|L|52708 5|US|M|89.55,49.35|N|Kill Spinescale Basilisk and loot 5 Charred Basilisk Meat.|
-C Physical Training: Forced Labor|QID|25509|US|U|54788|M|89.55,49.35|N|use the Twilight Pick on Darkwhisper Lodestones.|
-N Walking the Dog|QID|25294|U|52717|M|90.11,56.32|N|Once back in the camp, use the Fiery Leash to summon the Spawn of Smolderos.|
+C Physical Training: Forced Labor|QID|25509|US|U|54788|M|89.55,49.35|N|Use the Twilight Pick on Darkwhisper Lodestones.|NC|
+N Walking the Dog|QID|25294|U|52717|M|90.11,56.32|N|Once back in the camp, use the Fiery Leash to summon the Spawn of Smolderos. Click this step once you've summoned him.|
 C Walking the Dog|QID|25294|U|52708|M|90.11,56.32|N|Feed him the 5 Charred Basilisk Meat.|
 T Walking the Dog|QID|25294|M|90.11,56.32|N|To Instructor Devoran.|
 A A Champion's Collar|QID|25494|PRE|25294|M|90.11,56.32|N|From Instructor Devoran.|
@@ -609,23 +621,27 @@ T Gather the Intelligence|QID|25296|M|88.32,58.52|N|To the Outhouse Hideout.|
 A Seeds of Discord|QID|25308|PRE|25296|M|88.32,58.52|N|From the Outhouse Hideout.|
 T Physical Training: Forced Labor|QID|25509|M|89.58,59.06|N|To Instructor Mylva.|
 A Agility Training: Run Like Hell!|QID|25499|PRE|25509|M|89.53,58.98|N|From Instructor Mylva.|
-C Agility Training: Run Like Hell!|QID|25499|M|88.64,57.99|N|Stay away from the Blazing Trainer, and do not leave the camp.|
+C Agility Training: Run Like Hell!|QID|25499|M|88.64,57.99|N|Stay away from the Blazing Trainer, and do not leave the camp.|NC|
 L Level 82|QID|25499|LVL|82|N|You should be around level 82 by this point.|
 T Agility Training: Run Like Hell!|QID|25499|M|89.53,59.09|N|To Instructor Mylva.|
+
 A Mental Training: Speaking the Truth to Power|QID|25299|PRE|25499|M|89.53,59.09|N|From Instructor Mylva.|
 C Mental Training: Speaking the Truth to Power|QID|25299|U|52828|M|89.58,59.03|N|Use the Orb of Ascension. You will be asked 10 yes/no questions. The questions are simple and the answers are VERY obvious. Dismiss the Orb once you get the quest completed message.|
 T Mental Training: Speaking the Truth to Power|QID|25299|M|89.58,59.03|N|To Instructor Mylva.|
+
 A Spiritual Training: Mercy is for the Weak|QID|25309|PRE|25299|M|89.58,59.03|N|From Instructor Mylva.|
 C Spiritual Training: Mercy is for the Weak|QID|25309|M|92.11,48.36|N|Go back to Doom's Vigil. To your left as you enter the camp, you will see a group of Failed Supplicants. Kill 5 Failed Supplicants.|
 C A Champion's Collar|QID|25494|M|84.20,47.31|N|Leave the camp and follow the road when it turns north. You will find the Spinescale Matriarch. Kill her and loot the Spiked Basilisk Hide.|
 T A Champion's Collar|QID|25494|M|90.14,56.49|N|To Instructor Devoran.|
+
 A Grudge Match|QID|25496|PRE|25494|M|90.14,56.49|N|From Instructor Devoran.|
 C Grudge Match|QID|25496|M|77.86,51.18|N|Leave the camp and go to the Seat of the Chosen. Go to the first building on your left as you enter the camp. Speak to Gromm'ko to challenge him to a match. Once your core hound pup kills his raptor, Gromm'ko will attack you.|
-N Seeds of Discord|QID|25308|U|55137|M|77.35,48.27|N|Go to the Ogre Outhouse on the right side of the large building. Use the Ogre Disguise near the outhouse to transform into an ogre.|
+N Seeds of Discord|QID|25308|U|55137|M|77.35,48.27|N|Go to the Ogre Outhouse on the right side of the large building, then use the Ogre Disguise.|BUFF|75724|
 C Seeds of Discord|QID|25308|U|55137|M|76.62,48.71|N|Enter the large building. Speak to Karr'gonn to get him to leave the room. As soon as he is outside, kill High Cultist Azennios.|
 T Grudge Match|QID|25496|M|90.12,56.45|N|To Instructor Devoran.|
 T Seeds of Discord|QID|25308|M|88.28,58.51|N|To the Outhouse Hideout.|
 T Spiritual Training: Mercy is for the Weak|QID|25309|M|89.56,59.04|N|To Instructor Mylva.|
+
 A The Greater of Two Evils|QID|25310|PRE|25309|M|89.59,58.98|N|From Instructor Mylva.|
 A Twilight Territory|QID|25311|PRE|25309|M|89.59,58.98|N|From Instructor Mylva.|
 C Twilight Territory|QID|25311|M|67.00,67.06|N|Kill Horrorguards.|S|
@@ -634,25 +650,27 @@ C Twilight Territory|QID|25311|M|67.00,67.06|N|Finish killing Horrorguards.|US|
 T The Greater of Two Evils|QID|25310|M|89.56,59.04|N|To Instructor Mylva.|
 T Twilight Territory|QID|25311|M|89.56,59.04|N|To Instructor Mylva.|
 A Speech Writing for Dummies|QID|25314|PRE|25311;25310;25496;25308|M|88.31,58.53|N|From the Outhouse Hideout.|
-C Speech Writing for Dummies|QID|25314|M|78.87,56.40|N|Search around the roads leading to the Seat of the Chosen until you find Okrog.|
+C Speech Writing for Dummies|QID|25314|M|78.87,56.40|N|Kill Okrog, he can be found wandering along a small stretch of road in Darkwhisper Gorge.|T|Okrog|
 T Speech Writing for Dummies|QID|25314|M|88.23,58.48|N|To the Outhouse Hideout.|
 A Head of the Class|QID|25601|PRE|25314|M|88.23,58.48|N|From the Outhouse Hideout.|
 T Head of the Class|QID|25601|M|89.53,59.05|N|To Instructor Mylva.|
 A Graduation Speech|QID|25315|PRE|25601|M|89.53,59.05|N|From Instructor Mylva.|
-C Graduation Speech|QID|25315|M|95.22,51.33|N|Fly over to Doom's Vigil. You will find a podium all the way at the back of the camp. Click on it to start the event. During this event, you will have to use 3 abilities depending on the crowd's mood. These abilities are: Inspire, Incite, and Pander. The members of the crowd will say different things depending on their mood. Wait until a random crowd member says something, then use the abilities. Once you have made the correct choice 10 times, the crowd will riot, allowing you to rescue Jarod Shadowsong.|
+C Graduation Speech|QID|25315|M|95.22,51.33|N|Fly over to Doom's Vigil and activate the Initiation Podium.|BUFF|74948|NC|
+C Graduation Speech|QID|25315|M|95.22,51.33|N|Listen to the crowd and select a speech line in line with their mood.\n\nUse 1. Inspire if the crowd yells "Meh.", "Yea... I don't know about this", "I'm not quite convinced" or "*yawn*".\nUse 2. Incite when the crowd yells Raaahhh, Blood, Kill, Kill them all, Crush or Death.\nUse 3 Pander when the crowd yells "It's like... It's like the void just touched my mind", "The end is nigh!", "Immalanath" or "I hear the voices". |CHAT|
 T Graduation Speech|QID|25315|M|95.31,51.34|N|To Commander Jarod Shadowsong.|
-A Twilight Riot|QID|25531|PRE|25315|M|95.31,51.34|
-T Twilight Riot|QID|25531|M|72.21,74.69|N|To Commander Jarod Shadowsong.|
+A Twilight Riot|QID|25531|PRE|25315|M|95.31,51.34|N|From Commander Jarod Shadowsong.|
+T Twilight Riot|QID|25531|M|72.21,74.69|N|To Commander Jarod Shadowsong, who has now moved to the Gates of Sothann.|
 A Slash and Burn|QID|25608|PRE|25531|M|72.21,74.69|N|From Commander Jarod Shadowsong.|
 C Slash and Burn|QID|25608|M|80.25,65.47|N|Get on one of the Emerald Drakes nearby. Fly east back into Darkwhisper Gorge. Use the Acid Blast ability on any ground units you see until you have killed 40 Twilight's Hammer units, and the Aerial Swipe ability on 5 of the Twilight Stormwakers, the twilight dragons flying around.|
 T Slash and Burn|QID|25608|M|72.15,74.03|N|To Commander Jarod Shadowsong.|
+
 A Might of the Firelord|QID|25548|PRE|25608|M|71.97,73.97|N|From Commander Jarod Shadowsong.|
 A Secrets of the Flame|QID|25554|PRE|25608|M|71.96,74.01|N|From Cenarius.|
-f Gates of Sothann|QID|25554|M|71.57,75.24|N|At Althera.|
+f Gates of Sothann|QID|25554|M|71.57,75.24|N|At Althera.|PRE|25608|;Flight Path only shows once Slash and Burn complete.
 C Might of the Firelord|QID|25548|S|M|58.49,82.53|N|Kill Flame Ascendants and Twilight Subjugators.|
 l Secrets of the Flame|QID|25554|M|59.66,80.81|L|54906|N|Get the The Burning Litanies.|
 l Secrets of the Flame|QID|25554|M|58.13,78.90|L|54905|N|Get the Tome of Flame.|
-C Secrets of the Flame|QID|25554|M|56.84,83.85|N|Get the Ascendant's Codex.|
+C Secrets of the Flame|QID|25554|M|56.84,83.85|N|Get the Ascendant's Codex.|NC|QO|Ascendant's Codex: 1/1|
 A The Twilight Egg|QID|25644|PRE|25608|M|59.07,83.85|N|From Twilight Subjugator.|
 C Might of the Firelord|QID|25548|US|M|58.49,82.53|N|Finish killing the needed mobs.|
 T Might of the Firelord|QID|25548|M|72.08,74.05|N|To Commander Jarod Shadowsong.|
