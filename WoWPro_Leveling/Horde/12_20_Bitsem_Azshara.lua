@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2013-12-12 15:46
+-- Who: Fluclo
+-- Log: Added guide level requirement, added level to Beyond Durotar which would be for players Level 16 and over, added Accept step for Warchief's Command which is for players up to level 15.
+
+-- URL: http://wow-pro.com/node/3217/revisions/25725/view
 -- Date: 2013-06-18 08:53
 -- Who: Emmaleah
 -- Log: switch coordinates for Lady Silisthra and Lady Vesthra - per comments / and confirmed cords on wowhead
@@ -68,8 +73,13 @@
 WoWPro.Leveling:RegisterGuide('BitAzs1220', 'Azshara', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
 return [[
 
-T Beyond Durotar|O|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|
-T Warchief's Command: Azshara!|O|QID|28496|M|26.84,77.00|N|To Ag'tor Bloodfist.|
+L Level 9 |QID|25275;25648;28496|LVL|9|N|This guide requires a minimum level of 9 to do.|
+
+A Beyond Durotar|QID|25648|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just outside Orgrimmar's Southern Gates|LVL|16|LEAD|25275;28496|
+T Beyond Durotar|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275;28496|ACTIVE|25648|
+
+A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|25275;25648|
+T Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275;25648|ACTIVE|28496|
 
 A Venison for the Troops|QID|14118|M|26.88,76.98|N|From Ag'tor Bloodfist.|
 A The Eyes of Ashenvale|QID|14117|M|26.88,76.98|N|From Ag'tor Bloodfist.|

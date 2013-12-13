@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2013-12-12 16:12
+-- Who: Fluclo
+-- Log: The quest Much to Learn wasn't showing up for Pandaren Monks.
+
+-- URL: http://wow-pro.com/node/3483/revisions/25842/view
+-- Date: 2013-12-12 16:05
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25838/view
 -- Date: 2013-12-11 17:36
 -- Who: Fluclo
 -- Log: Added |R| tag throughout to allow Pandaren only, added note for other classes, added QID to couple of notes near end of guide.
@@ -91,17 +100,13 @@
 -- Who: Ludovicus Maior
 -- Log: Initial Version
 
-WoWPro.Leveling:RegisterGuide('FlucloPanda', 'The Wandering Isle (Pandaren Only)', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('FlucloPanda', 'TheWanderingIsle (Pandaren Only)', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
 return [[
 
 N Class Restriction|QID|99999|N|Sorry, only Pandaren are allowed on The Wandering Isle. Please find another guide.|R|Draenei;Dwarf;Gnome;Human;NightElf;Worgen;BloodElf;Goblin;Orc;Tauren;Troll;Undead|
 
-T Much to Learn |QID|30040|M|56.66,18.17|N|To Master Shang Xi.|C|Mage|R|Pandaren|
-T Much to Learn |QID|30041|M|56.66,18.17|N|To Master Shang Xi.|C|Hunter|R|Pandaren|
-T Much to Learn |QID|30042|M|56.66,18.17|N|To Master Shang Xi.|C|Priest|R|Pandaren|
-T Much to Learn |QID|30043|M|56.66,18.17|N|To Master Shang Xi.|C|Rogue|R|Pandaren|
-T Much to Learn |QID|30044|M|56.66,18.17|N|To Master Shang Xi.|C|Shaman|R|Pandaren|
-T Much to Learn |QID|30045|M|56.66,18.17|N|To Master Shang Xi.|C|Warrior|R|Pandaren|
+A Much to Learn |QID|30039;30040;30041;30042;30043;30044;30045|M|56.66,18.17|N|From Alert UI.|R|Pandaren|
+T Much to Learn |QID|30039;30040;30041;30042;30043;30044;30045|M|56.66,18.17|N|To Master Shang Xi.|R|Pandaren|
 
 A The Lesson of the Iron Bough|QID|30027|M|56.66,18.17|N|From Master Shang Xi. Monk|C|Monk|R|Pandaren|
 A The Lesson of the Iron Bough|QID|30033|M|56.66,18.17|N|From Master Shang Xi. Hunter|C|Mage|R|Pandaren|
