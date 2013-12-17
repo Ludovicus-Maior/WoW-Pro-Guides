@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2013-12-16 20:54
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25843/view
 -- Date: 2013-12-12 16:12
 -- Who: Fluclo
 -- Log: The quest Much to Learn wasn't showing up for Pandaren Monks.
@@ -103,7 +107,7 @@
 WoWPro.Leveling:RegisterGuide('FlucloPanda', 'TheWanderingIsle (Pandaren Only)', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
 return [[
 
-N Class Restriction|QID|99999|N|Sorry, only Pandaren are allowed on The Wandering Isle. Please find another guide.|R|Draenei;Dwarf;Gnome;Human;NightElf;Worgen;BloodElf;Goblin;Orc;Tauren;Troll;Undead|
+N Race Restriction|QID|99999|N|Sorry, only Pandaren are allowed on The Wandering Isle. Please find another guide.|R|Draenei;Dwarf;Gnome;Human;NightElf;Worgen;BloodElf;Goblin;Orc;Tauren;Troll;Undead|
 
 A Much to Learn |QID|30039;30040;30041;30042;30043;30044;30045|M|56.66,18.17|N|From Alert UI.|R|Pandaren|
 T Much to Learn |QID|30039;30040;30041;30042;30043;30044;30045|M|56.66,18.17|N|To Master Shang Xi.|R|Pandaren|

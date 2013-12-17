@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2013-12-16 20:54
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25841/view
 -- Date: 2013-12-12 15:59
 -- Who: Fluclo
 -- Log: Added Race Restriction
@@ -96,7 +100,7 @@
 WoWPro.Leveling:RegisterGuide('MalKez0105', 'Kezan (Goblin)', 'Malorajan', '01', '05', 'MalLos0512', 'Horde', function()
 return [[
 
-N Class Restriction|QID|99999|N|Sorry, only Goblins are allowed on Kezan. Please find another guide.|R|BloodElf;Orc;Tauren;Troll;Undead;Pandaren|
+N Race Restriction|QID|99999|N|Sorry, only Goblins are allowed on Kezan. Please find another guide.|R|BloodElf;Orc;Tauren;Troll;Undead;Pandaren|
 
 A Taking Care of Business|QID|14138|M|56.52,77.00|N|From Sassy Hardwrench.|R|Goblin|
 T Taking Care of Business|QID|14138|M|60.10,74.66|N|To Foreman Dampwick.|R|Goblin|

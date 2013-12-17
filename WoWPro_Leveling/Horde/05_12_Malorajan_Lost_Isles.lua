@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2013-12-16 20:54
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25841/view
 -- Date: 2013-12-12 15:59
 -- Who: Fluclo
 -- Log: Added Race Restriction
@@ -96,7 +100,7 @@
 WoWPro.Leveling:RegisterGuide('MalLos0512', 'The Lost Isles', 'Malorajan', '05', '12', 'BitAzs1220', 'Horde', function()
 return [[
 
-N Class Restriction|QID|99999|N|Sorry, only Goblins are allowed on The Lost Isles. Please find another guide.|R|BloodElf;Orc;Tauren;Troll;Undead;Pandaren|
+N Race Restriction|QID|99999|N|Sorry, only Goblins are allowed on The Lost Isles. Please find another guide.|R|BloodElf;Orc;Tauren;Troll;Undead;Pandaren|
 
 A Goblin Escape Pods|QID|14001|M|24.63,77.96|N|From Geargrinder Gizmo.|R|Goblin|
 C Goblin Escape Pods|QID|14001|M|27.47,81.78|N|Male? Look around and click on the escape pods until you rescue 6 goblins.|R|Goblin|
