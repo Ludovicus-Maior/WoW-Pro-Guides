@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
 -- Date: 2013-06-18 00:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Step C [Stalling the Survey:24519] in JiySou3035 is missing a CS|CC|CN tag.
 
 -- URL: http://wow-pro.com/node/3236/revisions/25677/view
 -- Date: 2013-05-17 20:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad coord for [Stalling the Survey]
 
 -- URL: http://wow-pro.com/node/3236/revisions/25490/view
 -- Date: 2013-01-13 23:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3236/revisions/24928/view

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
 -- Date: 2013-03-23 20:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name tweak
 
 -- URL: http://wow-pro.com/node/3257/revisions/24460/view
 -- Date: 2011-05-30 17:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 39 for step R has 1 M coords: [R Emerald Sanctuary|QID|28100|M|51.41.79.79|N|Run to Emerald Sanctuary.|]
 
 -- URL: http://wow-pro.com/node/3257/revisions/24432/view
@@ -20,16 +20,16 @@
 
 -- URL: http://wow-pro.com/node/3257/revisions/24391/view
 -- Date: 2011-05-17 01:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3257/revisions/24186/view
 -- Date: 2011-03-20 20:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrections around [Crying Violet] and quests shifted to "Andalar Shadevale".  Speling corrections and addition comments.
 
 -- URL: http://wow-pro.com/node/3257/revisions/24082/view
 -- Date: 2011-01-30 19:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected Register guide to match GIT.
 
 -- URL: http://wow-pro.com/node/3257/revisions/23618/view

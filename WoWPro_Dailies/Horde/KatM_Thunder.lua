@@ -10,11 +10,11 @@
 
 -- URL: http://wow-pro.com/node/3540/revisions/25550/view
 -- Date: 2013-03-16 18:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3540/revisions/25549/view
 -- Date: 2013-03-16 18:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial version with some edits by Ludo from KatM
 
 WoWPro.Dailies:RegisterGuide("KatMThunderKing", "Isle of Thunder", "Thunder King","MoP", "KatM", "Horde", function()

@@ -5,11 +5,11 @@
 
 -- URL: http://wow-pro.com/wiki/grizzly_hills_honor_points_dailies
 -- Date: 2013-01-14 00:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3528/revisions/25486/view
 -- Date: 2013-01-13 23:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Init version with CS correction.
 
 WoWPro.Dailies:RegisterGuide("LudoHonorPoints", "Grizzly Hills", "Honor Points", "Lich", "Ludovicus", "Alliance", function()

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_wildhammer_dalies_twilight_highlands
 -- Date: 2011-07-11 22:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add a flight point home.
 
 -- URL: http://wow-pro.com/node/3415/revisions/24647/view
 -- Date: 2011-06-30 19:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("TwiTwiWil", "Twilight Highlands", "Wildhammer", "Cata", "Twists", "Alliance", function()
 return [[

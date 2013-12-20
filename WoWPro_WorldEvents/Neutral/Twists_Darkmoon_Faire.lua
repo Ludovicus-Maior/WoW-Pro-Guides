@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
 -- Date: 2013-05-09 22:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Minor tweaks.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25552/view
 -- Date: 2013-03-16 19:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: zone updates and spelling correction for Jubjub.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25526/view
@@ -20,32 +20,32 @@
 
 -- URL: http://wow-pro.com/node/3459/revisions/25525/view
 -- Date: 2013-02-08 02:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bearzerker's suggestions, according to me :-)
 
 -- URL: http://wow-pro.com/node/3459/revisions/25522/view
 -- Date: 2013-02-06 20:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Darkmoon tweaks
 
 -- URL: http://wow-pro.com/node/3459/revisions/25429/view
 -- Date: 2013-01-13 15:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3459/revisions/25347/view
 -- Date: 2013-01-12 00:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag, QID for the jubling and made the purchase of Fossil Archeology Fragments level 90.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25324/view
 -- Date: 2013-01-10 16:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Rearrange eating and drinking as per  Bearzerker 
 
 -- URL: http://wow-pro.com/node/3459/revisions/25323/view
 -- Date: 2013-01-10 14:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3459/revisions/25303/view
 -- Date: 2013-01-09 21:57
@@ -59,12 +59,12 @@
 
 -- URL: http://wow-pro.com/node/3459/revisions/25298/view
 -- Date: 2013-01-09 16:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added U|72110| to Talkin' Tonks as per  Bearzerker
 
 -- URL: http://wow-pro.com/node/3459/revisions/25287/view
 -- Date: 2013-01-09 01:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Attempt at a manual merger of my changes.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25282/view
@@ -74,26 +74,26 @@
 
 -- URL: http://wow-pro.com/node/3459/revisions/25249/view
 -- Date: 2012-12-16 00:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: You need 5X Fizzy Faire Drink.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25235/view
 -- Date: 2012-12-03 00:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added some missing M tags.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25233/view
 -- Date: 2012-12-02 21:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: STamp
 
 -- URL: http://wow-pro.com/node/3459/revisions/25232/view
 -- Date: 2012-12-02 21:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3459/revisions/25209/view
 -- Date: 2012-11-17 21:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Changed the name of the zone.
 
 -- URL: http://wow-pro.com/node/3459/revisions/25202/view
@@ -103,21 +103,21 @@
 
 -- URL: http://wow-pro.com/node/3459/revisions/25003/view
 -- Date: 2012-06-08 14:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add LVL tweaks so it wont bother you to try to eat food you can't!
 
 -- URL: http://wow-pro.com/node/3459/revisions/24904/view
 -- Date: 2012-01-19 00:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3459/revisions/24903/view
 -- Date: 2012-01-19 00:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct node number
 
 -- URL: http://wow-pro.com/node/3459/revisions/24902/view
 -- Date: 2012-01-19 00:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to git
 
 WoWPro.WorldEvents:RegisterGuide("TwiDarkmoon","Darkmoon Faire","Darkmoon Faire","WE", "Twists", "Neutral", function()

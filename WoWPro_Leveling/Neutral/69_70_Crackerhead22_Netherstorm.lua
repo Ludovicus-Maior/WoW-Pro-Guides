@@ -5,26 +5,26 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
 -- Date: 2013-01-13 15:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lost of CN tags
 
 -- URL: http://wow-pro.com/node/3284/revisions/25312/view
 -- Date: 2013-01-09 22:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3284/revisions/25091/view
 -- Date: 2012-09-25 00:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3284/revisions/24891/view
 -- Date: 2012-01-18 22:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: You need to talk to Adyen, not the other guy!
 
 -- URL: http://wow-pro.com/node/3284/revisions/24674/view
 -- Date: 2011-07-11 22:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Change to numeric Rep Tags.
 
 -- URL: http://wow-pro.com/node/3284/revisions/24616/view
@@ -47,16 +47,16 @@
 
 -- URL: http://wow-pro.com/node/3284/revisions/24351/view
 -- Date: 2011-04-29 17:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 128 for step C has unknown tag [Loot the Bn'aar Access Crystal ...]
 
 -- URL: http://wow-pro.com/node/3284/revisions/24154/view
 -- Date: 2011-03-09 02:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3284/revisions/24153/view
 -- Date: 2011-03-09 02:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3284/revisions/24042/view
 -- Date: 2011-01-23 01:59

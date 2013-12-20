@@ -10,7 +10,7 @@
 
 -- URL: http://wow-pro.com/node/3272/revisions/25288/view
 -- Date: 2013-01-09 01:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Touchups as I run my DK through.
 
 -- URL: http://wow-pro.com/node/3272/revisions/25045/view

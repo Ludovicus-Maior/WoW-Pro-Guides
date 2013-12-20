@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
 -- Date: 2013-01-13 15:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3267/revisions/24875/view
@@ -35,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3267/revisions/24305/view
 -- Date: 2011-04-29 14:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 30 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3267/revisions/23791/view

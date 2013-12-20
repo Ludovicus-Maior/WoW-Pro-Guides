@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
 -- Date: 2013-05-17 19:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed empty M tag
 
 -- URL: http://wow-pro.com/node/3414/revisions/25630/view
 -- Date: 2013-05-14 15:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  Shackles
 
 -- URL: http://wow-pro.com/node/3414/revisions/25290/view
 -- Date: 2013-01-09 01:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3414/revisions/25041/view
 -- Date: 2012-08-07 21:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: [Watch Out For Splinters!] with the bang!
 
 -- URL: http://wow-pro.com/node/3414/revisions/24877/view
@@ -34,12 +34,12 @@
 
 -- URL: http://wow-pro.com/node/3414/revisions/24679/view
 -- Date: 2011-07-11 22:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fix  C [Cursed Shackels] and coords for turnin on Sergeant Parker.
 
 -- URL: http://wow-pro.com/node/3414/revisions/24646/view
 -- Date: 2011-06-30 18:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Create
 
 WoWPro.Dailies:RegisterGuide("CraToBarPA", "Tol Barad Peninsula", "Tol Barad Peninsula Guide", "Cata", "Crackerhead22", "Alliance", function()

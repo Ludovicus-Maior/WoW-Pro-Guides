@@ -5,20 +5,20 @@
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
 -- Date: 2013-05-14 17:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  roasted
 
 -- URL: http://wow-pro.com/node/3443/revisions/24817/view
 -- Date: 2011-11-20 23:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3443/revisions/24814/view
 -- Date: 2011-11-20 19:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3443/revisions/24804/view
 -- Date: 2011-11-16 02:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3443/revisions/24787/view
 -- Date: 2011-10-30 19:09

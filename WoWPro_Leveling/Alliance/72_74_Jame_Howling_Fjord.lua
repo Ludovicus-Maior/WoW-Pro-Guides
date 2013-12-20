@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
 -- Date: 2013-03-23 20:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name tweaks
 
 -- URL: http://wow-pro.com/node/3287/revisions/25439/view
 -- Date: 2013-01-13 16:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3287/revisions/24989/view
 -- Date: 2012-05-27 18:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a few U and T tags, corrected quest name.
 
 -- URL: http://wow-pro.com/node/3287/revisions/24857/view

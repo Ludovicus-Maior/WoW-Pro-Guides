@@ -29,20 +29,20 @@
 
 -- URL: http://wow-pro.com/node/3264/revisions/24404/view
 -- Date: 2011-05-17 02:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3264/revisions/24396/view
 -- Date: 2011-05-17 01:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3264/revisions/24140/view
 -- Date: 2011-02-28 23:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add [Yetiphobia].
 
 -- URL: http://wow-pro.com/node/3264/revisions/24139/view
 -- Date: 2011-02-28 23:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added [Perfect Horns] to the Horde Winterfall guide.
 --	The Alliance side had it.  Discovered by Josral.
 

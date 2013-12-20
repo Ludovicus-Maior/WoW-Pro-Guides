@@ -10,7 +10,7 @@
 
 -- URL: http://wow-pro.com/node/3294/revisions/25316/view
 -- Date: 2013-01-09 22:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3294/revisions/24921/view
@@ -38,16 +38,16 @@
 
 -- URL: http://wow-pro.com/node/3294/revisions/24344/view
 -- Date: 2011-04-29 16:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 285 for step C has unknown tag [NGo northwest to ...]
 
 -- URL: http://wow-pro.com/node/3294/revisions/24211/view
 -- Date: 2011-04-05 23:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3294/revisions/24163/view
 -- Date: 2011-03-12 18:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Make Guide ID unique
 
 -- URL: http://wow-pro.com/node/3294/revisions/23480/view

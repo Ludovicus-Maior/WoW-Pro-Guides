@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/skyguard_dalies
 -- Date: 2013-05-14 15:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected coord for K Talonpriest Zellek
 
 -- URL: http://wow-pro.com/node/3457/revisions/25372/view
 -- Date: 2013-01-12 19:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added some CN tags
 
 -- URL: http://wow-pro.com/node/3457/revisions/24899/view
 -- Date: 2012-01-19 00:04
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct node numbers.
 
 -- URL: http://wow-pro.com/node/3457/revisions/24898/view
 -- Date: 2012-01-19 00:04
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GIT
 
 WoWPro.Dailies:RegisterGuide("LudoSkyguard", "Terokkar Forest", "Sha'tari Skyguard", "BC", "Ludovicus", "Neutral", function()

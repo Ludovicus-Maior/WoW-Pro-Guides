@@ -15,22 +15,22 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/25463/view
 -- Date: 2013-01-13 19:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
 
 -- URL: http://wow-pro.com/node/3199/revisions/25461/view
 -- Date: 2013-01-13 18:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3199/revisions/25342/view
 -- Date: 2013-01-11 23:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3199/revisions/25126/view
 -- Date: 2012-10-08 19:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Get rid of - in zone names.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24660/view
@@ -55,55 +55,55 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/24512/view
 -- Date: 2011-06-07 10:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add [Conscript of the Horde] and fix Z tag for [Neeru Fireblade]
 
 -- URL: http://wow-pro.com/node/3199/revisions/24453/view
 -- Date: 2011-05-30 11:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord tweak around [The Burning Blade]
 
 -- URL: http://wow-pro.com/node/3199/revisions/24452/view
 -- Date: 2011-05-30 11:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: [Thazz'ril's Pick] decoupling.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24451/view
 -- Date: 2011-05-30 11:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord Tweak for Shamans
 
 -- URL: http://wow-pro.com/node/3199/revisions/24438/view
 -- Date: 2011-05-28 11:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord/Zone tweaks
 
 -- URL: http://wow-pro.com/node/3199/revisions/24435/view
 -- Date: 2011-05-28 11:04
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3199/revisions/24319/view
 -- Date: 2011-04-29 15:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
 
 -- URL: http://wow-pro.com/node/3199/revisions/24318/view
 -- Date: 2011-04-29 15:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3199/revisions/24315/view
 -- Date: 2011-04-29 15:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
 
 -- URL: http://wow-pro.com/node/3199/revisions/24148/view
 -- Date: 2011-03-08 12:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24043/view
 -- Date: 2011-01-24 00:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Optimize acquisition of a few quests: [The War of Northwatch Aggression], [A Exploiting the Situation].
 --	Do [The Wolf and The Kodo] first, in order to maximize the water breathing buff.
 --	Coordinate tweaks for [Thonk], [Raggaran's Rage], [Neeru Fireblade].
@@ -111,13 +111,13 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/24034/view
 -- Date: 2011-01-22 03:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleaned up some Race specific quests. Broke up a |N| tag on a quest into separate N steps.
 --	Relocated [A Purge the Valley] for better flow.  Touched up a few coordinates.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24030/view
 -- Date: 2011-01-21 21:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added |R|Orc| to the race specific quests not available to my goblin.
 --	Added a missing leading quest [Hana'zua].
 

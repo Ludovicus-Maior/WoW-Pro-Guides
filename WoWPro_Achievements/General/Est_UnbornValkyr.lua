@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/node/3552
 -- Date: 2013-11-10 17:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Converted to BBcode format.
 
 -- URL: http://wow-pro.com/node/3552/revisions/25737/view

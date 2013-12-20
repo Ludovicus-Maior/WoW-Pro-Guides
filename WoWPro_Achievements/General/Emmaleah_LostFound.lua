@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
 -- Date: 2013-11-27 21:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a CS tag to A [Hozen Warrior Spear:31413]
 
 -- URL: http://wow-pro.com/node/3514/revisions/25758/view
 -- Date: 2013-09-10 23:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord tweaks and spelling fixes.
 
 -- URL: http://wow-pro.com/node/3514/revisions/25506/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/25436/view
 -- Date: 2013-01-13 15:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3514/revisions/25289/view
 -- Date: 2013-01-09 01:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags.
 
 -- URL: http://wow-pro.com/node/3514/revisions/25277/view
@@ -45,12 +45,12 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/25206/view
 -- Date: 2012-11-13 02:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Updated to latest from Emmaleah
 
 -- URL: http://wow-pro.com/node/3514/revisions/25205/view
 -- Date: 2012-11-13 02:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Close of Blog Page
 
 WoWPro.Achievements:RegisterGuide('EmmAchLost','MoP Zones', 'Lost and Found - Riches of Pandaria', 'Achievement', 'Mists of Pandaria', 'Emmaleah','Neutral', function()

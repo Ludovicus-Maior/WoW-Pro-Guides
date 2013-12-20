@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
 -- Date: 2013-03-23 20:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: name cleanups
 
 -- URL: http://wow-pro.com/node/3233/revisions/25377/view
 -- Date: 2013-01-12 19:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3233/revisions/25331/view
@@ -35,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3233/revisions/24087/view
 -- Date: 2011-01-30 19:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3233/revisions/23901/view

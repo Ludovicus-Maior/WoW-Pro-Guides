@@ -10,12 +10,12 @@
 
 -- URL: http://wow-pro.com/node/3418/revisions/24986/view
 -- Date: 2012-05-27 18:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed some coordinates.
 
 -- URL: http://wow-pro.com/node/3418/revisions/24650/view
 -- Date: 2011-06-30 19:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("CraShoOra", "Sholazar Basin", "The Oracles Reputation", "Lich", "Crackerhead22", "Neutral", function()
 return [[

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
 -- Date: 2013-03-23 19:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name tweaks
 
 -- URL: http://wow-pro.com/node/3295/revisions/25444/view
 -- Date: 2013-01-13 16:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3295/revisions/25381/view
@@ -20,17 +20,17 @@
 
 -- URL: http://wow-pro.com/node/3295/revisions/25311/view
 -- Date: 2013-01-09 22:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3295/revisions/24992/view
 -- Date: 2012-05-27 18:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Missing coord for Ha'wana.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24923/view
 -- Date: 2012-01-25 21:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Followon guide is now ScoSho7879 for both factions.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24850/view
@@ -54,17 +54,17 @@
 
 -- URL: http://wow-pro.com/node/3295/revisions/24327/view
 -- Date: 2011-04-29 16:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 40 for step A has 3 M coords, Line 182 for step A has unknown tag [12740].
 
 -- URL: http://wow-pro.com/node/3295/revisions/24203/view
 -- Date: 2011-04-02 19:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: OK, this is a HUGE update. Added From/To notes to most quests.   Added [The Amphitheater of Anguish] series.  Eliminated LightSpeed advice dependencies and added some notes and QO tags.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24166/view
 -- Date: 2011-03-12 18:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Make guide IDs unique
 
 -- URL: http://wow-pro.com/node/3295/revisions/23482/view

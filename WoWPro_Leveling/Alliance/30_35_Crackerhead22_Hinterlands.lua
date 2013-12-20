@@ -10,7 +10,7 @@
 
 -- URL: http://wow-pro.com/node/3239/revisions/25415/view
 -- Date: 2013-01-13 14:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3239/revisions/24535/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3239/revisions/24299/view
 -- Date: 2011-04-29 14:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 169, for step F non-decimal QID
 
 -- URL: http://wow-pro.com/node/3239/revisions/24149/view
 -- Date: 2011-03-08 12:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord corrections for [Northwestern Temple].
 
 -- URL: http://wow-pro.com/node/3239/revisions/23611/view

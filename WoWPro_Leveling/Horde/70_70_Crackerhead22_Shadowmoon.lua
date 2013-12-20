@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
 -- Date: 2013-01-13 19:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3286/revisions/25318/view
 -- Date: 2013-01-09 22:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3286/revisions/25155/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3286/revisions/24676/view
 -- Date: 2011-07-11 22:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Numeric Rep Tags
 
 -- URL: http://wow-pro.com/node/3286/revisions/24604/view
@@ -30,7 +30,7 @@
 
 -- URL: http://wow-pro.com/node/3286/revisions/24387/view
 -- Date: 2011-05-15 18:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3286/revisions/24384/view
 -- Date: 2011-05-15 01:45

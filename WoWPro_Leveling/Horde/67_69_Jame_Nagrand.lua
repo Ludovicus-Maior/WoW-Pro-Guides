@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
 -- Date: 2013-01-13 19:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3280/revisions/25319/view
 -- Date: 2013-01-09 22:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3280/revisions/24913/view
@@ -29,7 +29,7 @@
 
 -- URL: http://wow-pro.com/node/3280/revisions/24340/view
 -- Date: 2011-04-29 16:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 26 for step A has unknown tag [71.5,40.5]
 
 -- URL: http://wow-pro.com/node/3280/revisions/23449/view

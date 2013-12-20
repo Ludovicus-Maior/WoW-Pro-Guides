@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
 -- Date: 2013-01-22 18:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord tweaks, a new CS tag, and moved up turnins for Suncrown.
 
 -- URL: http://wow-pro.com/node/3221/revisions/25479/view
 -- Date: 2013-01-13 19:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3221/revisions/25343/view
 -- Date: 2013-01-11 23:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3221/revisions/24966/view
@@ -36,12 +36,12 @@
 
 -- URL: http://wow-pro.com/node/3221/revisions/24520/view
 -- Date: 2011-06-07 23:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 61 for step A has unknown tag [To Vandril]: [A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|To Vandril|]
 
 -- URL: http://wow-pro.com/node/3221/revisions/24509/view
 -- Date: 2011-06-07 03:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added Race tags and new race specific quests, where needed for my poor Orc.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24475/view
@@ -51,21 +51,21 @@
 
 -- URL: http://wow-pro.com/node/3221/revisions/24439/view
 -- Date: 2011-05-28 11:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord tweaks and added the explorer achievement step.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24324/view
 -- Date: 2011-04-29 15:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 218 for step K has 1 M coords, Line 221 for step K has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3221/revisions/24212/view
 -- Date: 2011-04-05 23:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3221/revisions/24081/view
 -- Date: 2011-01-30 19:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3221/revisions/23624/view

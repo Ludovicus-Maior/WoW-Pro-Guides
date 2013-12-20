@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
 -- Date: 2013-01-22 18:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: "Orders from Base Camp" may be gone.   Corrected CN tag to CS tag.  Coord Tweaks.
 
 -- URL: http://wow-pro.com/node/3234/revisions/25473/view
 -- Date: 2013-01-13 19:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3234/revisions/24927/view
@@ -19,7 +19,7 @@
 
 -- URL: http://wow-pro.com/node/3234/revisions/24329/view
 -- Date: 2011-04-29 16:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 45 for step C has 3 M coords:, Line 77 for step A has unknown tag [GRP]:
 
 -- URL: http://wow-pro.com/node/3234/revisions/23972/view

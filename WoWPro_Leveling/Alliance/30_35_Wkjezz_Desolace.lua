@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
 -- Date: 2013-01-13 01:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: A few CS,CC and CN tags
 
 -- URL: http://wow-pro.com/node/3313/revisions/24548/view

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
 -- Date: 2013-03-23 20:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name tweak
 
 -- URL: http://wow-pro.com/node/3253/revisions/25427/view
 -- Date: 2013-01-13 15:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3253/revisions/24593/view
@@ -24,7 +24,7 @@
 
 -- URL: http://wow-pro.com/node/3253/revisions/24459/view
 -- Date: 2011-05-30 17:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 129 for step R has 1 M coords: [R The Admiral's Den|M|25627|M|92.02,83.23|N|Head to the cave that is The Admiral's Den.|]
 
 -- URL: http://wow-pro.com/node/3253/revisions/24423/view
@@ -34,12 +34,12 @@
 
 -- URL: http://wow-pro.com/node/3253/revisions/24302/view
 -- Date: 2011-04-29 14:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 78 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 82 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 89 for step A has unknown tag [Heads-up Accept].
 
 -- URL: http://wow-pro.com/node/3253/revisions/24086/view
 -- Date: 2011-01-30 19:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide line to match GIT
 
 -- URL: http://wow-pro.com/node/3253/revisions/23974/view

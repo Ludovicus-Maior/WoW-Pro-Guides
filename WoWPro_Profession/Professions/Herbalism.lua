@@ -14,7 +14,7 @@
 
 -- URL: http://wow-pro.com/node/3462/revisions/24907/view
 -- Date: 2012-01-19 00:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GIT
 
 WoWPro.Profession:RegisterGuide('TwiHerbalism', 'Herbalism', 'Herbalism', 'Twists', '0', ' ', nil, 'Neutral', function()

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
 -- Date: 2013-01-13 17:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3266/revisions/25346/view
 -- Date: 2013-01-11 23:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3266/revisions/24602/view

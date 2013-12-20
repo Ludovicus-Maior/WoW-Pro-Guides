@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
 -- Date: 2013-01-13 19:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3240/revisions/23361/view

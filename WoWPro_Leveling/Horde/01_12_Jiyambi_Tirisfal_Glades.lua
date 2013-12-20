@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
 -- Date: 2012-10-09 00:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added undead monk quests.
 
 -- URL: http://wow-pro.com/node/3205/revisions/25128/view
 -- Date: 2012-10-08 19:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3205/revisions/24730/view
 -- Date: 2011-08-13 21:23
@@ -24,7 +24,7 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/24511/view
 -- Date: 2011-06-07 10:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweak Coords on C [Assault on the Rotbrain Encampment]
 
 -- URL: http://wow-pro.com/node/3205/revisions/24473/view
@@ -34,21 +34,21 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/24437/view
 -- Date: 2011-05-28 11:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Race tags needed updates.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24316/view
 -- Date: 2011-04-29 15:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3205/revisions/24070/view
 -- Date: 2011-01-29 17:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing QID to Level 4 step.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24036/view
 -- Date: 2011-01-22 14:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a bunch of |R|Undead,Troll| and |R|Undead| tags where appropriate.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23828/view

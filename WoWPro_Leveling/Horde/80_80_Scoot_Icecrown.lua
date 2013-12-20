@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
 -- Date: 2013-03-23 18:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Many quest name corrections, a 2 QID corrections.
 
 -- URL: http://wow-pro.com/node/3302/revisions/24347/view
 -- Date: 2011-04-29 17:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 103 for step C Bad coord , Line 315 for step T has 3 M coords, Line 412 for step C Bad coord 1 at a ti, Line 519 for step C Bad coord  .....
 
 -- URL: http://wow-pro.com/node/3302/revisions/24209/view
 -- Date: 2011-04-05 23:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3302/revisions/23496/view
 -- Date: 2010-12-03 22:43

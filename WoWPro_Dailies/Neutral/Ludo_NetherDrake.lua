@@ -5,26 +5,26 @@
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
 -- Date: 2013-05-14 18:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad quest names and coords
 
 -- URL: http://wow-pro.com/node/3455/revisions/25423/view
 -- Date: 2013-01-13 15:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3455/revisions/25299/view
 -- Date: 2013-01-09 17:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3455/revisions/24894/view
 -- Date: 2012-01-18 23:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3455/revisions/24893/view
 -- Date: 2012-01-18 23:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Version
 
 WoWPro.Dailies:RegisterGuide("LudoDrake", "Shadowmoon Valley", "Netherwing", "BC", "Ludovicus", "Neutral", function()

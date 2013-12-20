@@ -10,12 +10,12 @@
 
 -- URL: http://wow-pro.com/node/3268/revisions/25492/view
 -- Date: 2013-01-13 23:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3268/revisions/25472/view
 -- Date: 2013-01-13 19:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3268/revisions/24863/view
@@ -30,7 +30,7 @@
 
 -- URL: http://wow-pro.com/node/3268/revisions/24338/view
 -- Date: 2011-04-29 16:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line ** for step * has unknown tag [If you didn't
 
 -- URL: http://wow-pro.com/node/3268/revisions/23418/view

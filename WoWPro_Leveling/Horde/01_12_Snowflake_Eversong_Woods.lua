@@ -10,12 +10,12 @@
 
 -- URL: http://wow-pro.com/node/3207/revisions/25458/view
 -- Date: 2013-01-13 18:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3207/revisions/25132/view
 -- Date: 2012-10-08 23:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected QID and coords for monk starter quests.
 
 -- URL: http://wow-pro.com/node/3207/revisions/25061/view
@@ -102,36 +102,36 @@
 
 -- URL: http://wow-pro.com/node/3207/revisions/24513/view
 -- Date: 2011-06-07 10:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added R|BloodElf| to steps not available to my Orc.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24428/view
 -- Date: 2011-05-28 01:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update Notes, Correct some coordinates that were WAAY off.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24317/view
 -- Date: 2011-04-29 15:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 148 for step L has unknown tag [If not level 6 yet, kill stuffs.], Line 202 for step T has unknown tag [9130], Line 281 for step C has 1 M coords, Line 299 for step T has unknown tag [To Larianna Riverwind.]
 
 -- URL: http://wow-pro.com/node/3207/revisions/24100/view
 -- Date: 2011-02-05 14:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Submitted by zoefed on Thu, 2011-01-20 09:13.
 --	
 --	Bug Report: Guide: Eversong Woods Bloodelf - Step: (89/157) Turning in the quest: The Ring Of Mmmrrrggglll. The waypoint arrow shows somewhere in the sea. The  quest NPC is located at these CORRECT coordinates: 30.2,58.5.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24099/view
 -- Date: 2011-02-05 14:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Submitted by Grramps on Sat, 2011-02-05 05:34.
 --	
 --	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
 
 -- URL: http://wow-pro.com/node/3207/revisions/24069/view
 -- Date: 2011-01-29 17:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing QIDs to L steps.
 
 -- URL: http://wow-pro.com/node/3207/revisions/23614/view

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
 -- Date: 2013-08-15 23:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Use a better quest for the run to Temple of Telhamat.
 
 -- URL: http://wow-pro.com/node/3271/revisions/25389/view
@@ -15,7 +15,7 @@
 
 -- URL: http://wow-pro.com/node/3271/revisions/24888/view
 -- Date: 2012-01-18 21:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord tweak for A Naladu|
 
 -- URL: http://wow-pro.com/node/3271/revisions/24823/view
@@ -48,7 +48,7 @@
 
 -- URL: http://wow-pro.com/node/3271/revisions/24326/view
 -- Date: 2011-04-29 16:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 59 for step A has unknown tag [From Sergeant Altumus.], Line * for step N has unknown tag [Q], Line 115 for step N has unknown tag [Disrupt Their Reinforcements], Line 284 for step N has unknown tag [M5].
 
 -- URL: http://wow-pro.com/node/3271/revisions/24205/view

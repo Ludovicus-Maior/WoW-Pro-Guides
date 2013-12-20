@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
 -- Date: 2013-01-13 18:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3245/revisions/24943/view

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
 -- Date: 2013-01-13 18:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3314/revisions/25285/view
 -- Date: 2013-01-09 01:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Multicoord
 
 -- URL: http://wow-pro.com/node/3314/revisions/24942/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3314/revisions/24330/view
 -- Date: 2011-04-29 16:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 36 for step R has 1 M coords: , Line 37 for step T has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3314/revisions/23544/view

@@ -39,22 +39,22 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/25711/view
 -- Date: 2013-06-18 00:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Missing coordinate, 1/1 in guide FlucloPanda, line [C Stronger Than Reeds].
 
 -- URL: http://wow-pro.com/node/3483/revisions/25355/view
 -- Date: 2013-01-12 18:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Get rid of extra M tag
 
 -- URL: http://wow-pro.com/node/3483/revisions/25354/view
 -- Date: 2013-01-12 18:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC, and CN tags.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25228/view
 -- Date: 2012-12-02 15:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Ask the user to log out or reload to get the faction specific guides loaded up.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25213/view
@@ -64,22 +64,22 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/25103/view
 -- Date: 2012-10-02 23:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add new faction specific quest ending!
 
 -- URL: http://wow-pro.com/node/3483/revisions/25082/view
 -- Date: 2012-09-24 23:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: It is Stormwind City, not Stormwind!
 
 -- URL: http://wow-pro.com/node/3483/revisions/25032/view
 -- Date: 2012-07-06 21:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Remove the faction tags at the end sequence.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25031/view
 -- Date: 2012-07-06 21:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Credited Fluclo with the guide, added successor zones.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25029/view
@@ -101,7 +101,7 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/25020/view
 -- Date: 2012-07-01 14:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Version
 
 WoWPro.Leveling:RegisterGuide('FlucloPanda', 'TheWanderingIsle (Pandaren Only)', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()

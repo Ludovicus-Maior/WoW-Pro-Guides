@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
 -- Date: 2013-05-09 22:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed [*Gurgle* HELP! *Gurgle*]
 
 -- URL: http://wow-pro.com/node/3223/revisions/24601/view
@@ -17,7 +17,7 @@
 
 -- URL: http://wow-pro.com/node/3223/revisions/24084/view
 -- Date: 2011-01-30 19:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide to match GIT.
 
 -- URL: http://wow-pro.com/node/3223/revisions/23831/view

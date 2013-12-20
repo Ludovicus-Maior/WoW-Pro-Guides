@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
 -- Date: 2013-03-23 18:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: A freq quest name corrections.
 
 -- URL: http://wow-pro.com/node/3292/revisions/25470/view
 -- Date: 2013-01-13 19:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3292/revisions/25317/view
 -- Date: 2013-01-09 22:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added some CS tags
 
 -- URL: http://wow-pro.com/node/3292/revisions/24917/view
@@ -35,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3292/revisions/24165/view
 -- Date: 2011-03-12 18:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Grizz changed ID.
 
 -- URL: http://wow-pro.com/node/3292/revisions/23981/view

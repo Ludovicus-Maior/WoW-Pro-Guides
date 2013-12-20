@@ -24,16 +24,16 @@
 
 -- URL: http://wow-pro.com/node/3299/revisions/24311/view
 -- Date: 2011-04-29 15:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 558, for step C non-decimal U
 
 -- URL: http://wow-pro.com/node/3299/revisions/24224/view
 -- Date: 2011-04-05 23:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3299/revisions/24207/view
 -- Date: 2011-04-05 00:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed M, N, and U tag errors in guide.
 --	Improved some text hints. Does not have my precision M fixes.
 

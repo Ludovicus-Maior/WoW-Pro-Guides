@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
 -- Date: 2013-01-13 14:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3235/revisions/24550/view
@@ -25,12 +25,12 @@
 
 -- URL: http://wow-pro.com/node/3235/revisions/24300/view
 -- Date: 2011-04-29 14:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 44 for step T has unknown tag [To Commander Walpole.], Line 243 for step C has unknown tag [Take out the grunts.].
 
 -- URL: http://wow-pro.com/node/3235/revisions/24151/view
 -- Date: 2011-03-08 12:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sequence changes around [A Line in the Dirt], [A Report to Twinbraid], and [Echoes of Agamaggan] for more optimal play.
 
 -- URL: http://wow-pro.com/node/3235/revisions/23927/view

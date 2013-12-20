@@ -10,7 +10,7 @@
 
 -- URL: http://wow-pro.com/node/3411/revisions/24683/view
 -- Date: 2011-07-13 22:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GitHub
 
 -- URL: http://wow-pro.com/node/3411/revisions/24644/view

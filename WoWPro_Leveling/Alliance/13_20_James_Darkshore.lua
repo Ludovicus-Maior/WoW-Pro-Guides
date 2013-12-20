@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
 -- Date: 2013-01-13 15:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3218/revisions/25001/view
 -- Date: 2012-06-08 14:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update P tag to include prof #.
 
 -- URL: http://wow-pro.com/node/3218/revisions/24734/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3218/revisions/24456/view
 -- Date: 2011-05-30 17:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 198 for step T has unknown tag [QlID]: [T Denying Manpower|QlID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|]
 
 -- URL: http://wow-pro.com/node/3218/revisions/24410/view
@@ -34,7 +34,7 @@
 
 -- URL: http://wow-pro.com/node/3218/revisions/24294/view
 -- Date: 2011-04-29 14:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 249 for step C has unknown tag [Follow Archaeologist Hollee.]
 
 -- URL: http://wow-pro.com/node/3218/revisions/23872/view

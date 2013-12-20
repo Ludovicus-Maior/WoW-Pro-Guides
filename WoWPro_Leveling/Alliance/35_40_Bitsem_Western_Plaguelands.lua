@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
 -- Date: 2013-03-23 20:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: name tweaks
 
 -- URL: http://wow-pro.com/node/3244/revisions/25395/view
 -- Date: 2013-01-12 22:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3244/revisions/24870/view

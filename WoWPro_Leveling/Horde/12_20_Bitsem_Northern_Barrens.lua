@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
 -- Date: 2013-03-23 18:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: qust name correction on [Through Fire and Flames]
 
 -- URL: http://wow-pro.com/node/3214/revisions/25498/view
 -- Date: 2013-01-22 17:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord Tweaks
 
 -- URL: http://wow-pro.com/node/3214/revisions/25462/view
 -- Date: 2013-01-13 19:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3214/revisions/24949/view
@@ -49,13 +49,13 @@
 
 -- URL: http://wow-pro.com/node/3214/revisions/24454/view
 -- Date: 2011-05-30 16:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Whoa!  Blizzard changed alot of the quest IDs and added new ordering requirements.
 --	This edit tried to get all the new quests, shuffle things in the right order and get the right coords.  Mistakes will no doubt have been made.
 
 -- URL: http://wow-pro.com/node/3214/revisions/24322/view
 -- Date: 2011-04-29 15:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 123 for step C has unknown tag [Collect Centaur ...], Line 128 for step C has unknown tag [Use the Fungal ...], Line 158 for step C has unknown tag [.], Line 241 for step C has unknown tag [n].
 
 -- URL: http://wow-pro.com/node/3214/revisions/23297/view

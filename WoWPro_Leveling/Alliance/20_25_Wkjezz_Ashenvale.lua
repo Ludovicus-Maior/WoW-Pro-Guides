@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
 -- Date: 2013-01-13 15:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3225/revisions/24801/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3225/revisions/24458/view
 -- Date: 2011-05-30 17:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 243 for step R has unknown tag [211]: [R Path to the heart|QID|26472|M|77.87,73.54;77.04,74.20;75.86,73.56;75.99,74.05|CC|211]
 
 -- URL: http://wow-pro.com/node/3225/revisions/24411/view

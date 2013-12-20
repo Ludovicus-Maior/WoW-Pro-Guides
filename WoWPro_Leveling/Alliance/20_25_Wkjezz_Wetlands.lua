@@ -10,12 +10,12 @@
 
 -- URL: http://wow-pro.com/node/3224/revisions/25593/view
 -- Date: 2013-03-23 20:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name correction
 
 -- URL: http://wow-pro.com/node/3224/revisions/25418/view
 -- Date: 2013-01-13 14:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC and CS tags
 
 -- URL: http://wow-pro.com/node/3224/revisions/24655/view
@@ -55,7 +55,7 @@
 
 -- URL: http://wow-pro.com/node/3224/revisions/24467/view
 -- Date: 2011-05-31 21:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Two Extra [A The Battle of Thandol Span|QID|26128|M|50.75,49.97|Z|] stuck at the end!
 
 -- URL: http://wow-pro.com/node/3224/revisions/23662/view

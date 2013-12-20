@@ -19,12 +19,12 @@
 
 -- URL: http://wow-pro.com/node/3203/revisions/25474/view
 -- Date: 2013-01-13 19:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3203/revisions/25130/view
 -- Date: 2012-10-08 22:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added Tauren Monk Quest
 
 -- URL: http://wow-pro.com/node/3203/revisions/24662/view
@@ -38,12 +38,12 @@
 
 -- URL: http://wow-pro.com/node/3203/revisions/24617/view
 -- Date: 2011-06-27 22:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed [Enemies Below] as it is a Level 15 quest.
 
 -- URL: http://wow-pro.com/node/3203/revisions/24510/view
 -- Date: 2011-06-07 10:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add Tauren Only Quests
 
 -- URL: http://wow-pro.com/node/3203/revisions/24472/view
@@ -53,31 +53,31 @@
 
 -- URL: http://wow-pro.com/node/3203/revisions/24436/view
 -- Date: 2011-05-28 11:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Race tags needed updating.
 
 -- URL: http://wow-pro.com/node/3203/revisions/24355/view
 -- Date: 2011-04-29 18:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Change O step to N step.
 
 -- URL: http://wow-pro.com/node/3203/revisions/24213/view
 -- Date: 2011-04-05 23:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3203/revisions/24071/view
 -- Date: 2011-01-29 17:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing QIDs to Level 2,3,4,5,6 steps.
 
 -- URL: http://wow-pro.com/node/3203/revisions/24026/view
 -- Date: 2011-01-21 19:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: More |R| tags.
 
 -- URL: http://wow-pro.com/node/3203/revisions/24024/view
 -- Date: 2011-01-21 14:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: This edit looks larger than it is.  There were some weird tabs and spaces in the original.
 --	I added |R|Tauren,BloodElf| to various quests not available to goblins.  
 --	Changes may not be compete, as I have gone off to level my professions.

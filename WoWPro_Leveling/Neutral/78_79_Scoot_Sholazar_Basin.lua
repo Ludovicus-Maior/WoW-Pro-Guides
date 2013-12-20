@@ -5,24 +5,24 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
 -- Date: 2013-03-23 18:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: In guide ScoSho7879, quest 12699's name [An Embarassing Incident] does not match Grail's database [An Embarrassing Incident].
 --	In guide ScoSho7879, quest 12559's name [Powering the Waygate - The Maker's Perch] does not match Grail's database [Powering the Waygate - The Makers' Perch].
 --	In guide ScoSho7879, quest 12613's name [Powering the Waygate - The Maker's Overlook] does not match Grail's database [Powering the Waygate - The Makers' Overlook].
 
 -- URL: http://wow-pro.com/node/3297/revisions/25441/view
 -- Date: 2013-01-13 16:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3297/revisions/25310/view
 -- Date: 2013-01-09 22:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3297/revisions/25273/view
 -- Date: 2012-12-27 18:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Whoops, the Archmage is in Dalaran.
 
 -- URL: http://wow-pro.com/node/3297/revisions/25039/view
@@ -46,21 +46,21 @@
 
 -- URL: http://wow-pro.com/node/3297/revisions/24310/view
 -- Date: 2011-04-29 15:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 31 for step T Bad coord 58.65. ,  Line 221 for step C has unknown tag [Kill Frenzyhearts in the area.], Line 327 for step K has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3297/revisions/24216/view
 -- Date: 2011-04-05 23:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3297/revisions/24204/view
 -- Date: 2011-04-02 19:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: A Major update, adding From/To Notes, tweaking coordinates, adding QO tags and adding ingame advice for some kills instead of referring to LightSpeed.
 
 -- URL: http://wow-pro.com/node/3297/revisions/24168/view
 -- Date: 2011-03-12 18:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Unique Guide IDs
 
 -- URL: http://wow-pro.com/node/3297/revisions/23486/view

@@ -14,12 +14,12 @@
 
 -- URL: http://wow-pro.com/node/3229/revisions/25634/view
 -- Date: 2013-05-14 17:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: The [Wanted! XXX] quests are really [Wanted!  XXX]
 
 -- URL: http://wow-pro.com/node/3229/revisions/25393/view
 -- Date: 2013-01-12 22:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3229/revisions/25330/view
@@ -29,7 +29,7 @@
 
 -- URL: http://wow-pro.com/node/3229/revisions/25042/view
 -- Date: 2012-08-08 16:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Zardok points out that Quae and Kinelory|QID|26113 requires lvl 26 to accept and The Stone Shards|QID|26341 requires lvl 27
 
 -- URL: http://wow-pro.com/node/3229/revisions/24534/view
@@ -39,7 +39,7 @@
 
 -- URL: http://wow-pro.com/node/3229/revisions/24296/view
 -- Date: 2011-04-29 14:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 116 for step T has unknown tag [A Attack on the Tower]: [T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|A Attack on the Tower|QID|26038|PRE|26037|M|12.95,69.32|N|From Apprentice Kryten.|]
 
 -- URL: http://wow-pro.com/node/3229/revisions/23827/view

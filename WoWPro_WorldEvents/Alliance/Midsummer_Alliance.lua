@@ -15,32 +15,32 @@
 
 -- URL: http://wow-pro.com/node/3406/revisions/25025/view
 -- Date: 2012-07-01 20:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Optimize ordering for Northrend.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25024/view
 -- Date: 2012-07-01 20:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected coords for flight to Shattrath in Netherstorm
 
 -- URL: http://wow-pro.com/node/3406/revisions/25023/view
 -- Date: 2012-07-01 20:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Change R step from Vashjir to Darkbreak Cove
 
 -- URL: http://wow-pro.com/node/3406/revisions/25022/view
 -- Date: 2012-07-01 17:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Remove silly comment about setting hearth to stormwind for trip to Deepholm.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25021/view
 -- Date: 2012-07-01 16:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Trim incorrect comment about Cata zones not counting.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25009/view
 -- Date: 2012-06-26 18:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Three way merge of my, Twists and Laotseu's updates.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25008/view
@@ -58,12 +58,12 @@
 
 -- URL: http://wow-pro.com/node/3406/revisions/24680/view
 -- Date: 2011-07-12 23:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: The )end must be on a line by itself.
 
 -- URL: http://wow-pro.com/node/3406/revisions/24653/view
 -- Date: 2011-06-30 22:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3406/revisions/24631/view
 -- Date: 2011-06-30 05:42

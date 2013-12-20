@@ -20,11 +20,11 @@
 
 -- URL: http://wow-pro.com/node/3544/revisions/25603/view
 -- Date: 2013-03-24 00:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3544/revisions/25559/view
 -- Date: 2013-03-23 16:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial clone from http://wow-pro.com/node/3542
 
 WoWPro.Dailies:RegisterGuide("RajiPetBattles", "Vale of Eternal Blossoms", "Pet Battle Dailies", "MoP", "Rajitazi", "Alliance", function()

@@ -5,42 +5,42 @@
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
 -- Date: 2013-05-17 19:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  [The Bigger They Are]
 
 -- URL: http://wow-pro.com/node/3469/revisions/25624/view
 -- Date: 2013-05-14 15:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3469/revisions/25623/view
 -- Date: 2013-05-14 15:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  MoltenFront
 
 -- URL: http://wow-pro.com/node/3469/revisions/25363/view
 -- Date: 2013-01-12 18:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3469/revisions/25016/view
 -- Date: 2012-06-30 20:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Relocate [Well Armed] and [Aid of the Ancients] for better quest flow.
 
 -- URL: http://wow-pro.com/node/3469/revisions/25004/view
 -- Date: 2012-06-08 14:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Got rid of unneeded |O| tags and warnings.
 --	Nonlinear quest unlocks have been working reliably.
 
 -- URL: http://wow-pro.com/node/3469/revisions/24999/view
 -- Date: 2012-05-27 22:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Edits to guide having played it to the Shadow Wardens fork.
 
 -- URL: http://wow-pro.com/node/3469/revisions/24977/view
 -- Date: 2012-05-19 01:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed Links....
 
 -- URL: http://wow-pro.com/node/3469/revisions/24961/view
@@ -68,15 +68,15 @@
 
 -- URL: http://wow-pro.com/node/3469/revisions/24953/view
 -- Date: 2012-02-13 21:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3469/revisions/24952/view
 -- Date: 2012-02-13 20:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3469/revisions/24951/view
 -- Date: 2012-02-13 20:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3469/revisions/24950/view
 -- Date: 2012-02-13 10:50
@@ -86,7 +86,7 @@
 
 -- URL: http://wow-pro.com/node/3469/revisions/24948/view
 -- Date: 2012-02-13 01:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("EstFirelands", "Mount Hyjal", "Firelands Invasion", "Cata", "Estelyen", "Neutral", function()
 return [[

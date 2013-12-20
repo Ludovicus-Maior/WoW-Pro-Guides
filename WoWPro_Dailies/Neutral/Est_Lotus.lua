@@ -5,27 +5,27 @@
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
 -- Date: 2013-05-14 18:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad coord for Baolai the Immolator
 
 -- URL: http://wow-pro.com/node/3502/revisions/25615/view
 -- Date: 2013-05-09 22:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixes around [Battle XXX of the Thunder King] quests.
 
 -- URL: http://wow-pro.com/node/3502/revisions/25561/view
 -- Date: 2013-03-23 16:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added Some T tags.
 
 -- URL: http://wow-pro.com/node/3502/revisions/25551/view
 -- Date: 2013-03-16 18:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Conditionalize  the steps with the water skimmer so that if you have done some Golden lotus quests, you do not see them until the end.  Better coords for [Steer Clear of the Beer Here]
 
 -- URL: http://wow-pro.com/node/3502/revisions/25417/view
 -- Date: 2013-01-13 14:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a CN tag
 
 -- URL: http://wow-pro.com/node/3502/revisions/25326/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3502/revisions/25267/view
 -- Date: 2012-12-26 01:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add new guide start and Introduction Questline tweaks.
 
 -- URL: http://wow-pro.com/node/3502/revisions/25253/view
@@ -104,11 +104,11 @@
 
 -- URL: http://wow-pro.com/node/3502/revisions/25113/view
 -- Date: 2012-10-07 22:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3502/revisions/25112/view
 -- Date: 2012-10-07 22:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("EstGoldLotus", "Vale of Eternal Blossoms", "Golden Lotus Dailies", "MoP", "Estelyen", "Neutral", function()
 return [[

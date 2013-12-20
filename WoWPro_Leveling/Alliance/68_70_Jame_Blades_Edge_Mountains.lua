@@ -5,16 +5,16 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
 -- Date: 2013-01-13 01:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a CS tag
 
 -- URL: http://wow-pro.com/node/3281/revisions/25090/view
 -- Date: 2012-09-25 00:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3281/revisions/24892/view
 -- Date: 2012-01-18 22:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: For [The Skyguard Outpost], get from Chu'a'lor not Sky Commander Keller.
 
 -- URL: http://wow-pro.com/node/3281/revisions/24847/view
@@ -29,7 +29,7 @@
 
 -- URL: http://wow-pro.com/node/3281/revisions/24575/view
 -- Date: 2011-06-22 02:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: # Checking ../WoWPro_Leveling/Alliance/68_70_Jame_Blades_Edge_Mountains.lua
 --	! Line 258 for step C has unknown tag [M32.66,37.52U]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
 --	! Line 258 for step C has unknown tag [31122]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
@@ -41,7 +41,7 @@
 
 -- URL: http://wow-pro.com/node/3281/revisions/24308/view
 -- Date: 2011-04-29 14:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 254 for step A has unknown tag [From Tree Warden Chawn.], Line 257 for step T has unknown tag [To Samia Inkling.], Line 273 for step T has unknown tag [To Tree Warden Chawn.]
 
 -- URL: http://wow-pro.com/node/3281/revisions/23833/view

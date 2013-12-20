@@ -5,32 +5,32 @@
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
 -- Date: 2013-06-18 00:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
 
 -- URL: http://wow-pro.com/node/3416/revisions/25675/view
 -- Date: 2013-05-17 20:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Watch Out For Splinters!
 
 -- URL: http://wow-pro.com/node/3416/revisions/25484/view
 -- Date: 2013-01-13 19:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Spell Orgrimmar right again.
 
 -- URL: http://wow-pro.com/node/3416/revisions/25452/view
 -- Date: 2013-01-13 17:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Spell Orgrimmar right and use ,'s to separate coords instead of ;'s!
 
 -- URL: http://wow-pro.com/node/3416/revisions/25451/view
 -- Date: 2013-01-13 17:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Malformed coords!
 
 -- URL: http://wow-pro.com/node/3416/revisions/25293/view
 -- Date: 2013-01-09 01:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3416/revisions/24879/view
@@ -44,7 +44,7 @@
 
 -- URL: http://wow-pro.com/node/3416/revisions/24648/view
 -- Date: 2011-06-30 19:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("CraToBarH", "Tol Barad", "Tol Barad Guide", "Cata", "Crackerhead22", "Horde", function()
 return [[

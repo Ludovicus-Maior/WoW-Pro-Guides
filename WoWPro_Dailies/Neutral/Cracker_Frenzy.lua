@@ -10,7 +10,7 @@
 
 -- URL: http://wow-pro.com/node/3417/revisions/24649/view
 -- Date: 2011-06-30 19:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("CraShoFre", "Sholazar Basin", "Frenzyheart Tribe", "Lich", "Crackerhead22", "Neutral", function()
 return [[

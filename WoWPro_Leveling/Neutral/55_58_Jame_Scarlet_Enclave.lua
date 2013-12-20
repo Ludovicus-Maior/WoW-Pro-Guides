@@ -19,7 +19,7 @@
 
 -- URL: http://wow-pro.com/node/3369/revisions/24469/view
 -- Date: 2011-05-31 21:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ScarletEnclave is the zone name!
 
 -- URL: http://wow-pro.com/node/3369/revisions/24118/view
@@ -28,7 +28,7 @@
 
 -- URL: http://wow-pro.com/node/3369/revisions/24104/view
 -- Date: 2011-02-08 03:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3369/revisions/24102/view
 -- Date: 2011-02-07 11:53
@@ -37,7 +37,7 @@
 
 -- URL: http://wow-pro.com/node/3369/revisions/24101/view
 -- Date: 2011-02-05 21:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Create
 
 WoWPro.Leveling:RegisterGuide("JamScar5558", "ScarletEnclave (Death Knight)", "Jame", "55", "58", "CraBla5458|JiyBla5560", "Neutral", function()

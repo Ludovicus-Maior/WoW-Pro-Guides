@@ -5,108 +5,108 @@
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
 -- Date: 2013-09-10 23:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed coords for "Mogujia" section.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25694/view
 -- Date: 2013-06-04 23:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Some ACTIVE tags to make starting the guide correct!
 
 -- URL: http://wow-pro.com/node/3519/revisions/25632/view
 -- Date: 2013-05-14 16:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Many bad coords
 
 -- URL: http://wow-pro.com/node/3519/revisions/25631/view
 -- Date: 2013-05-14 15:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed extra partial coord for Bizmo's Brawlpub
 
 -- URL: http://wow-pro.com/node/3519/revisions/25543/view
 -- Date: 2013-03-05 23:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Did [Breath of Darkest Shadow]
 
 -- URL: http://wow-pro.com/node/3519/revisions/25542/view
 -- Date: 2013-02-26 13:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played through [In Search of Harmony]
 
 -- URL: http://wow-pro.com/node/3519/revisions/25541/view
 -- Date: 2013-02-24 21:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweaked coords and updated [The Purge of Dalaran] and [An Ancient Ally] after play.  Filled in [In Search of Harmony].  Added new NPC tag required for QID|*| usages.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25539/view
 -- Date: 2013-02-23 18:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update [Secrets of the Past] and [The Divine Bell] segments after play through.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25536/view
 -- Date: 2013-02-18 23:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sketches of [The Purge of Dalaran], [An Ancient Ally], [In Search of Harmony] and [Breath of Darkest Shadow]
 
 -- URL: http://wow-pro.com/node/3519/revisions/25532/view
 -- Date: 2013-02-17 20:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Refined [Heart of the Alliance] sequence after playing through.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25531/view
 -- Date: 2013-02-17 20:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Refined Korune series after playing through
 
 -- URL: http://wow-pro.com/node/3519/revisions/25521/view
 -- Date: 2013-02-06 20:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added Jaina's Hope sequence.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25516/view
 -- Date: 2013-01-28 21:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Andy pointed out Troteman's name was not spelt right!
 
 -- URL: http://wow-pro.com/node/3519/revisions/25373/view
 -- Date: 2013-01-12 19:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lots of CN tags
 
 -- URL: http://wow-pro.com/node/3519/revisions/25264/view
 -- Date: 2012-12-25 00:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added skeletal: Jaina's Hope,  The Korune, Heart of the Alliance, Secrets of the Past, The Divine Bell.
 --	Corrected Domination Point dailies and a missing PRE tag.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25243/view
 -- Date: 2012-12-08 17:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweak Hilda's quests.  Maps in the cave seem to have changed.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25240/view
 -- Date: 2012-12-06 23:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played "The Voice of Gods" questline.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25234/view
 -- Date: 2012-12-03 00:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played Bilgewater Operations
 
 -- URL: http://wow-pro.com/node/3519/revisions/25224/view
 -- Date: 2012-12-02 01:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add "The Man With a Thousand Faces" questline
 
 -- URL: http://wow-pro.com/node/3519/revisions/25223/view
 -- Date: 2012-12-01 14:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played the Ruins of Ogudei quests 
 
 -- URL: http://wow-pro.com/node/3519/revisions/25219/view
 -- Date: 2012-11-29 18:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial cut.
 
 WoWPro.Dailies:RegisterGuide("LudoShieldWall", "Krasarang Wilds", "Operation: Shieldwall", "MoP", "Ludovicus", "Alliance", function()
