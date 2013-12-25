@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2013-12-25 02:06
+-- Who: Fluclo
+-- Log: Added couple flight steps for Sharpbeak
+
+-- URL: http://wow-pro.com/node/3239/revisions/25849/view
+-- Date: 2013-12-24 15:45
+-- Who: Fluclo
+-- Log: Corrected some "Report a Bug" steps, added NC steps as appropriate, changed zone hearthstone point to reduce a lot of running from the coast.
+
+-- URL: http://wow-pro.com/node/3239/revisions/25834/view
 -- Date: 2013-12-07 20:15
 -- Who: Fluclo
 -- Log: Added minimum level requirement
@@ -61,65 +71,76 @@ return [[
 
 L Level 29 |QID|26546|LVL|29|N|This guide requires a minimum level of 29 to do.|
 
-R The Hinterlands|QID|26546|M|43.36,45.18;36.71,31.15;38.45,22.89;39.32,19.03|Z|Arathi Highlands|CC|N|Follow the waypoints to The Hinterlands.|
-R Aerie Peak|QID|26546|M|26.29,69.07;26.21,55.04;20.13,53.66;14.17,48.03|CC|N|Follow the waypoints to Aerie Peak.|
-f Aerie Peak|QID|26546|M|11.17,46.06|N|At Guthrum Thunderfist.|
+R The Hinterlands|QID|26546|M|43.36,45.18;36.71,31.15;38.45,22.89;39.32,19.03|Z|Arathi Highlands|CN|N|Follow the waypoints to The Hinterlands.\n\nFor players up to level 33 only, there is a bread-crumb quest from Ironforge Hero's Callboard or from Captain Nials in Aerie Peak.|
+R Aerie Peak|QID|26546|M|26.29,69.07;26.21,55.04;20.13,53.66;14.17,48.03|CN|N|Follow the waypoints to Aerie Peak.|
+f Aerie Peak|QID|26546|M|12.9,48.3;11.36,49.09;12.17,47.29;11.17,46.06|CN|N|At Guthrum Thunderfist.|
 T Hero's Call: The Hinterlands!|QID|26542|M|9.96,44.31|N|To Gryphon Master Talonaxe.|ACTIVE|26542|
 
 A Razorbeak Friends|QID|26546|M|9.96,44.31|N|From Gryphon Master Talonaxe.|
 A A Mangy Threat|QID|26547|M|9.96,44.31|N|From Gryphon Master Talonaxe.|
-h Wildhammer Keep|QID|26547|M|14.14,44.78|N|Set your hearth to Wildhammer Keep at Innkeeprer Thulfram.|
-C Razorbeak Friends|QID|26546|S|U|58935|M|15.43,52.23;23.26,54.02|CN|N|Throw the meat at the hippogryphs. They tend to be a bit spread out.|
-C A Mangy Threat|QID|26547|M|21.00,53.91|N|Kill any wolf you see.|
-C Razorbeak Friends|QID|26546|US|U|58935|M|15.43,52.23;23.26,54.02|CN|N|Throw the meat at the hippogryphs. They tend to be a bit spread out.|
+;h Wildhammer Keep|QID|26547|M|14.14,44.78|N|Set your hearth to Wildhammer Keep at Innkeeprer Thulfram.|
+C A Mangy Threat|QID|26547|M|21.00,53.91|N|Kill the Mangy Silvermanes around the area.|S|
+C Razorbeak Friends|QID|26546|U|58935|M|15.43,52.23;23.26,54.02|CN|N|Target a Trained Razorbeak and use the Gryphon Chow on them.|NC|T|Trained Razorbeak|
+C A Mangy Threat|QID|26547|M|21.00,53.91|N|Finish killing the wolves as you make your way back to Aerie Peak.|US|
 T Razorbeak Friends|QID|26546|M|9.97,44.27|N|To Gryphon Master Talonaxe.|
 T A Mangy Threat|QID|26547|M|9.97,44.27|N|To Gryphon Master Talonaxe.|
 A Out to the Front|QID|26548|M|9.97,44.27|N|From Gryphon Master Talonaxe.|
-F Stormfeather Outpost|QID|26548|M|11.11,46.09|N|Talk to Guthrum Thunderfist, and choose to go to Stormfeather Outpost.|
 
+F Stormfeather Outpost|QID|26548|M|11.11,46.09|N|Talk to Guthrum Thunderfist, and choose to go to Stormfeather Outpost.|
 f Stormfeather Outpost|QID|26548|M|65.74,44.94|N|At Brock Rockbeard.|
 T Out to the Front|QID|26548|M|66.33,44.37|N|To Kerr Ironsight.|
+
 A The Wicked Revantusk|QID|26462|M|66.33,44.37|N|From Kerr Ironsight.|
 A Gan'dranda|QID|26483|M|66.33,44.37|N|From Dron Blastbrew.|
 A Snapjaws, Lad!|QID|26485|M|66.27,44.32|N|From Dron Blastbrew.|
 A 99 Bottles of Booze on the Beach|QID|26486|M|66.27,44.32|N|From Dron Blastbrew.|
-C The Wicked Revantusk|QID|26462|S|M|71.98,50.71|N|Kill any troll you see.|
-C Gan'dranda|QID|26483|M|73.23,53.72|N|Head to the waypoint and kill Gan'dranda to get his head.|
-C The Wicked Revantusk|QID|26462|US|M|71.98,50.71|N|Kill any troll you see.|
-C 99 Bottles of Booze on the Beach|QID|26486|S|M|77.34,70.34;81.51,48.74|CN|N|Look for little, sparkling blue bottles on the ground.|
-C Snapjaws, Lad!|QID|26485|M|80.55,46.41;77.34,70.34|CS|N|Head to the top of the waterfall and then jump into the water below. Kill any turtle you come across for their gizzard.|
-C 99 Bottles of Booze on the Beach|QID|26486|US|M|77.34,70.34;81.51,48.74|CN|N|Look for little, sparkling blue bottles on the ground.|
-R Stormfeather Outpost|QID|26485|M|76.56,60.89;72.46,66.43;66.28,45.13|CC|N|Follow the waypoints to get back to Stormfeather Outpost.|
+h Stormfeather Outpost|QID|26462|N|With Innkeeper Keirnan|
+C The Wicked Revantusk|QID|26462|S|M|71.98,50.71|N|Kill any Revantusk you see.|
+C Gan'dranda|QID|26483|M|73.23,53.72|N|Kill and loot Gan'dranda for his head.|
+C The Wicked Revantusk|QID|26462|US|M|71.98,50.71|N|Finish killing any Revantusk you see.|
+
+C Snapjaws, Lad!|QID|26485|S|M|77.34,70.34|N|Kill and loot the Saltwater Snapjaws for their Gizzards.|
+C 99 Bottles of Booze on the Beach|QID|26486|M|80.55,46.41;77.34,70.34|CS|NC|N|Head to the top of the waterfall and then jump into the water below, then look for little, sparkling blue bottles on the ground.|
+C Snapjaws, Lad!|QID|26485|US|M|77.34,70.34|N|Finish killing and looting the Saltwater Snapjaws for their Gizzards.|
+
+H Stormfeather Outpost|QID|26485|M|76.56,60.89;72.46,66.43;66.28,45.13|CC|N|Hearthstone back to Stormfeather Outpost, or follow the waypoints to get back to Stormfeather Outpost.|
 T The Wicked Revantusk|QID|26462|M|66.30,44.36|N|To Kerr Ironsight.|
 T Gan'dranda|QID|26483|M|66.30,44.36|N|To Kerr Ironsight.|
 A Skulk Rock Clean-Up|QID|26491|M|66.30,44.36|N|From Kerr Ironsight.|
 A Skulk Rock Supplies|QID|26492|M|66.30,44.36|N|From Kerr Ironsight.|
+r Repair and Sell Junk|QID|26485|N|Excellent opportunity to repair and sell your junk with Brannik Ironbelly|M|66.61,44.16|
 T Snapjaws, Lad!|QID|26485|M|66.27,44.36|N|To Dron Blastbrew.|
 T 99 Bottles of Booze on the Beach|QID|26486|M|66.27,44.36|N|To Dron Blastbrew.|
 A Prime Slime|QID|26490|M|66.27,44.36|N|From Dron Blastbrew.|
 
-C Skulk Rock Supplies|QID|26492|M|57.80,41.44|N|Look around inside the cave to find the Ooze-Coated Supply Crates.|S|
+R Skulk Rock |QID|26490|M|57.42,38.67|N|Head to Skulk Rock, then to the cave entrance near the river.|
+C Skulk Rock Supplies|QID|26492|M|57.80,41.44|N|Look around inside the cave to find the Ooze-Coated Supply Crates.|S|NC|
 C Skulk Rock Clean-Up|QID|26491|M|58.29,40.76|N|Killing any Jade Oozes you see.|S|
-C Prime Slime|QID|26490|M|57.42,38.67;57.49,41.20|CS|N|Head into the cave then kill and loot Direglob.|
-C Skulk Rock Supplies|QID|26492|M|57.80,41.44|N|Look around inside the cave to find the Ooze-Coated Supply Crates.|US|
+C Prime Slime|QID|26490|M|57.42,38.67;57.49,41.20|CS|N|Head into the cave then kill and loot Direglob for the sample.|T|Direglob|
+C Skulk Rock Supplies|QID|26492|M|57.80,41.44|N|Look around inside the cave to find the Ooze-Coated Supply Crates.|US|NC|
 C Skulk Rock Clean-Up|QID|26491|M|58.29,40.76|N|Head back outside to finish killing any Jade Oozes you need.|US|
 T Skulk Rock Clean-Up|QID|26491|M|66.31,44.39|N|To Kerr Ironsight.|
 T Skulk Rock Supplies|QID|26492|M|66.31,44.39|N|To Kerr Ironsight.|
+
 A Down with the Vilebranch|QID|26496|M|66.31,44.39|N|From Kerr Ironsight.|
+r Repair and Sell Junk|QID|26490|N|Excellent opportunity to repair and sell your junk with Brannik Ironbelly|M|66.61,44.16|
 T Prime Slime|QID|26490|M|66.31,44.39|N|To Dron Blastbrew.|
-r Sell junk, repair/restock.|QID|26496|
 T Down with the Vilebranch|QID|26496|M|63.90,59.72|N|To Doran Steelwing.|
+
+L Level 30|QID|26497|LVL|30|N|You need to be Level 30 to continue with this guide.|
+
 A Vilebranch Scum|QID|26497|M|63.90,59.72|N|From Doran Steelwing.|
 A Heads Up|QID|26518|M|63.90,59.72|N|From Doran Steelwing.|
 A Faces of Evil|QID|26521|M|63.81,60.00|N|From Fraggar Thundermantle.|
 A All That Skitters|QID|26523|M|63.81,60.00|N|From Fraggar Thundermantle.|
+
 C Vilebranch Scum|QID|26497|M|68.60,69.10|N|Kill Vilebranch Headhunters and Witch Doctors.|S|
-C Faces of Evil|QID|26521|S|U|58209|N|Use the torch by any mask you see, has a small range and can be used while moving.|
-C All That Skitters|QID|26523|S|N|Grab the spiders as you (you need. They can be a little hard to grab since they are small and move aroud a lot.|
+C Faces of Evil|QID|26521|S|U|58209|N|Use the torch by any mask you see, has a small range and can be used while moving.|NC|
+C All That Skitters|QID|26523|S|N|Grab the spiders as you (you need. They can be a little hard to grab since they are small and move aroud a lot.|NC|
 C Heads Up|QID|26518|M|65.16,65.11|N|Head to the first set of stairs, go up and turn left. When you hit the next set of stairs, go up and turn right. Follow the path ignoring the next set of stairs to find Umboda.|
+C Faces of Evil|QID|26521|US|U|58209|M|65.29,67.31|N|Burn any of the masks you need too.|NC|
+C All That Skitters|QID|26523|M|68.55,70.21|N|Grab any spiders that you don't have.|US|NC|
 C Vilebranch Scum|QID|26497|M|68.60,69.10|N|Kill Vilebranch Headhunters and Witch Doctors.|US|
-C Faces of Evil|QID|26521|US|U|58209|M|65.29,67.31|N|Burn any of the masks you need too.|
-C All That Skitters|QID|26523|M|68.55,70.21|N|Grab any spiders that you don't have.|US|
 
 T Vilebranch Scum|QID|26497|M|63.90,60.04|N|To Doran Steelwing.|
 T Heads Up|QID|26518|M|63.90,60.04|N|To Doran Steelwing.|
@@ -128,79 +149,107 @@ A Death to the Vilebranch|QID|26498|M|63.90,60.04|N|From Doran Steelwing.|
 T Faces of Evil|QID|26521|M|63.86,60.00|N|To Fraggar Thundermantle.|
 T All That Skitters|QID|26523|M|63.86,60.00|N|To Fraggar Thundermantle.|
 A Dark Vessels|QID|26524|M|63.89,60.04|N|From Fraggar Thundermantle.|
-C Dark Vessels|QID|26524|S|M|65.33,66.55|N|Grab any small, sparkling cauldron you see, you will need 5.|
-C Ongo'longo's Revenge|QID|26515|M|62.33,75.19|N|Talk to Doran and choose to ride Sharpbeak. After you've landed, go through the tunnel, down one tier and turn right. You'll find Ongo'longo in the pit.|
+
+F Jintha'Alor |QID|26515|M|63.90,60.04|N|Speak to Doran Steelwing and ask for a ride to the top of Jintha'Alor.|
+
+C Dark Vessels|QID|26524|S|M|65.33,66.55|N|Grab any small, sparkling cauldron you see, you will need 5.|NC|
+C Ongo'longo's Revenge|QID|26515|M|62.33,75.19|N|After you've landed, go through the tunnel, down one tier and turn right. You'll find Ongo'longo in the pit.|
 C Death to the Vilebranch|QID|26498|M|64,71.25|N|After you free Ongo'longo go down 2 tiers. And kill any Shadowcaster and Berserker you see.|
-C Dark Vessels|QID|26524|M|65.33,66.55|N|Grab any small, sparkling cauldron you see, you will need 5.|US|
+C Dark Vessels|QID|26524|M|65.33,66.55|N|Grab any small, sparkling cauldron you see, you will need 5.|US|NC|
 T Ongo'longo's Revenge|QID|26515|M|63.89,59.97|N|To Doran Steelwing.|
 T Death to the Vilebranch|QID|26498|M|63.87,59.99|N|To Doran Steelwing.|
 T Dark Vessels|QID|26524|M|63.83,60.02|N|To Fraggar Thundermantle.|
 A It's Ours Now|QID|26516|M|63.87,59.99|N|From Doran Steelwing.|
 A Summit of Fate|QID|26517|M|63.83,59.97|N|From Fraggar Thundermantle.|
-C It's Ours Now|QID|26516|S|M|67.22,80.36|N|Kill any Soul Eater and Blood Drinker you come across.|
-C Summit of Fate|QID|26517|M|59.20,76.98|N|Talk to Doran and choose to ride Sharpbeak. Loot any Sacrificed Vilebranch you see to get the Spider Idols, you will need 8.|
-C It's Ours Now|QID|26516|US|M|67.22,80.36|N|Kill any Soul Eater and Blood Drinker you come across.|
-T Summit of Fate|QID|26517|M|53.25,66.25;63.75,60.04|CS|N|Head back to Sharpbeak and ride him back down to Fraggar Thundermantle, and then turn the quest in.|
 
+F Jintha'Alor |QID|26517|M|63.90,60.04|N|For the second time, speak to Doran Steelwing and ask for a ride to the top of Jintha'Alor.|
+
+C Summit of Fate|QID|26517|M|59.20,76.98|N|Through the cave again and turn right, then loot the Sacrificed Vilebranch to get the Spider Idols.|NC|
+C It's Ours Now|QID|26516|M|65,81|N|Kill any Soul Eater and Blood Drinker you come across.|
+
+F The Hinterlands |QID|26517|M|53.25,66.25|N|Head back to Sharpbeak and ride him back down to Fraggar Thundermantle.|
+
+T Summit of Fate|QID|26517|M|63.75,60.04|CS|N|To Fraggar Thundermantle.|
 A Hunt the Keeper|QID|26526|M|63.76,60.03|N|From Fraggar Thundermantle.|
 A Venomous Secrets|QID|26525|M|63.76,60.03|N|From Fraggar Thundermantle.|
 T It's Ours Now|QID|26516|M|63.85,59.92|N|To Doran Steelwing.|
+
+F Jintha'Alor |QID|26526|M|63.90,60.04|N|For the third time, speak to Doran Steelwing and ask for a ride to the top of Jintha'Alor.|
+
 C Venomous Secrets|QID|26525|S|M|56.40,83.59|N|Kill 8 Spawn of Shadra.|
-C Hunt the Keeper|QID|26526|M|59.69,77.83;59.05,78.69;57.8,81.55;56.91,83.42;54.59,83.59|CS|N|Head back up on Sharpbeak. Go into the cave, take the middle path at the split. Then take a right and follow the path back to Morta'gya. Kill her and loot the tablet from her.|
+C Hunt the Keeper|QID|26526|M|59.69,77.83;59.05,78.69;57.8,81.55;56.91,83.42;54.59,83.59|CS|N|Head through the cave, then turn right. There's a second cave, go into the cave, take the middle path at the split. Then take a right and follow the path back to Morta'gya. Kill her and loot the tablet from her.|
 C Venomous Secrets|QID|26525|US|N|Kill 8 Spawn of Shadra.|
-T Hunt the Keeper|QID|26526|M|53.25,66.25|N|Head back to Sharpbeak, then ride him back to Fraggar Thundermantle, to turn the quest in.|
+
+F The Hinterlands |QID|26526|M|53.25,66.25|N|Head back to Sharpbeak and ride him back down to Fraggar Thundermantle.|
+
+T Hunt the Keeper|QID|26526|M|63.76,60.04|N|To Fraggar Thundermantle|
 T Venomous Secrets|QID|26525|M|63.76,60.04|N|To Fraggar Thundermantle.|
 A Quel'Danil Lodge|QID|27725|M|63.99,59.85|N|From Tracker Yoro.|
-H Wildhammer Keep|QID|27725|N|Hearth back to Wildhamer Keep or run if your hearth is on cooldown.|M|13,46|
-r Sell junk, repair/restock.|QID|27725|
-R Quel'Danil Lodge|QID|27725|M|26.37,55;31.9,49.77|CC|N|Run to Quel'Danil Lodge.|
-T Quel'Danil Lodge|QID|27725|M|32.20,42.63|N|To Anchorite Traska.|
+R Quel'Danil Lodge|QID|27725|M|26.37,55;32.20,42.63|CC|N|Run to Quel'Danil Lodge, follow the road north then west when it splits.|
+T Quel'Danil Lodge|QID|27725|M|32.20,42.63|N|To Anchorite Traska, she's in the hut to the east of the main lodge.|
+
 A In Defense of Quel'Danil|QID|27625|M|32.20,42.63|N|From Anchorite Traska.|
 A The Highvale Documents|QID|27626|M|32.20,42.63|N|From Anchorite Traska.|
 C In Defense of Quel'Danil|QID|27625|S|M|30.74,47.33|N|Kill any Deathstalkers that you come across.|
 l Highvale Report|QID|27626|L|61972|M|28.56,46.04|N|Loot the Highvale report from this waypoint.|
 l Highvale Notes|QID|27626|M|29.63,48.67|N|Loot the Highvale notes from here.|L|61974|
-C The Highvale Documents|QID|27626|M|31.91,46.99|N|And... Rounding out, the Highvale Records are at this waypoint, inside the lodge.|
-C In Defense of Quel'Danil|QID|27625|US|M|30.74,47.33|N|Kill any Deathstalkers that you come across.|
+C The Highvale Documents|QID|27626|M|31.91,46.99|N|And... Rounding out, the Highvale Records are at this waypoint, inside the lodge.|QO|Highvale Records: 1/1|NC|
+C In Defense of Quel'Danil|QID|27625|US|M|30.74,47.33|N|Kill the Deathstalker Invaders.|
 
 T In Defense of Quel'Danil|QID|27625|M|32.19,42.62|N|To Anchorite Traska.|
 T The Highvale Documents|QID|27626|M|32.19,42.62|N|To Anchorite Traska.|
+
+L Level 32|QID|26528|LVL|32|N|You need to be Level 32 to continue with this guide.|
+
 A The Eye of Shadra|QID|26528|M|30.74,47.18|N|From Gilda Cloudcaller inside the lodge.|
 A Can't Make An Omelette Without...|QID|26641|M|30.74,47.18|N|From Gilda Cloudcaller.|
 R Agol'watha|QID|26528|M|47.56,41.83|N|Run to Agol'watha.|
-l Can't Make An Omelette Without...|QID|26641|S|L|58252 5|M|46.13,40.36|N|Grab any eggs you need as you go. You will need 5 total.|
-C The Eye of Shadra|QID|26528|L|58282|M|45.53,38.92|N|Loot The Eye of Shadra.|
-l Can't Make An Omelette Without...|QID|26641|US|L|58252 5|M|46.13,40.36|N|Grab any eggs you need as you go. You will need 5 total.|
+C Can't Make An Omelette Without...|QID|26641|S|M|46.13,40.36|N|Loot the Shadraspawn Eggs.|NC|
+C The Eye of Shadra|QID|26528|L|58282|M|45.53,38.92|N|Loot The Eye of Shadra.|NC|
+C Can't Make An Omelette Without...|QID|26641|US|M|46.13,40.36|N|Loot the Shadraspawn Eggs.|NC|
+
 T The Eye of Shadra|QID|26528|M|30.74,47.19|N|To Gilda Cloudcaller.|
 A The Fang of Shadra|QID|26529|M|30.74,47.19|N|From Gilda Cloudcaller.|
 T Can't Make An Omelette Without...|QID|26641|M|30.74,47.19|N|To Gilda Cloudcaller.|
 A Starvation Diet|QID|26643|M|30.74,47.19|N|From Gilda Cloudcaller.|
+
 C Starvation Diet|QID|26643|M|49.77,52.63|N|Hit any spider cacoon you see. Need to slay 6 of them.|S|
-C The Fang of Shadra|QID|26529|M|49.47,52.28|N|Grab the fang from the chest.|
+C The Fang of Shadra|QID|26529|M|49.47,52.28|N|Grab the fang from the chest.|NC|
 C Starvation Diet|QID|26643|M|49.77,52.63|N|Hit any spider cacoon you see. Need to slay 6 of them.|US|
+
 T The Fang of Shadra|QID|26529|M|30.74,47.22|N|To Gilda Cloudcaller.|
 A The Shell of Shadra|QID|26530|M|30.74,47.22|N|From Gilda Cloudcaller.|
 T Starvation Diet|QID|26643|M|30.74,47.22|N|To Gilda Cloudcaller.|
-C The Shell of Shadra|QID|26530|M|48.35,67.64|N|Run to the top of the Altar of Zul, and kill Qiaga to get the Shell of Shadra.|
+C The Shell of Shadra|QID|26530|M|48.35,67.64|N|Run to the top of the Altar of Zul, kill Qiaga the Keeper and loot the Shell of Shadra.|
 T The Shell of Shadra|QID|26530|M|30.74,47.20|N|To Gilda Cloudcaller.|
 
 A Summoning Shadra|QID|26531|M|30.74,47.20|N|From Gilda Cloudcaller.|
-C Northwestern Temple|QID|26531|U|58784|QO|Northwestern Temple: 1/1|M|32.03,67.07|N|Go to the top of the Northwestern Temple and use the idol.|
-C Southwestern Temple|QID|26531|U|58784|QO|Southwestern Temple: 1/1|M|32.55,76.15|N|Go to the top of the Southwestern Temple and use the idol.|
-C Summoning Shadra|QID|26531|U|58784|M|37.03,71.55|N|Run up to the top of the Eastern Tower and use the idol.|
+R Shadra'Alor|QID|26531|M|35.72,64.40|N|Head to the Shadra'Alor.|
+C Northwestern Temple|QID|26531|U|58784|QO|Northwestern Temple: 1/1|M|32.03,67.07|N|Go to the top of the Northwestern Temple and use the idol.|NC|
+C Southwestern Temple|QID|26531|U|58784|QO|Southwestern Temple: 1/1|M|32.55,76.15|N|Go to the top of the Southwestern Temple and use the idol.|NC|
+C Eastern Temple|QID|26531|U|58784|QO|Eastern Temple: 1/1|M|37.03,71.55|N|Go to the top of the Eastern Temple and use the idol.|NC|
 T Summoning Shadra|QID|26531|M|34.39,67.91|N|To Wildhammer Lookout.|
 A Shadra the Venom Queen|QID|26532|M|34.39,67.92|N|From Wildhammer Lookout.|
-C Shadra the Venom Queen|QID|26532|M|34.21,69.46|N|Kill Shadra, the NPCs who come to help with take the brunt of her attacks.|
+C Shadra the Venom Queen|QID|26532|M|34.21,69.46|N|Kill Shadra.  She will focus her attention on the NPCs, so you only have to worry about DPS'ing her.|
+
+A Find OOX-09/HL!|QID|485|U|8704|N|Accept the quest from the OOX-09/HL Distress Beacon you probably found somewhere in this zone. If you didn't find this Distress Beacon, then skip this step.|
+T Find OOX-09/HL!|QID|485|U|8704|M|49.36,37.67|N|To Homing Robot OOX-09/HL.|ACTIVE|485|
+A Rescue OOX-09/HL!|QID|836|PRE|485|M|49.36,37.67|N|*QUEST TURN-IN IS IN BOOTY BAY*. If you plan on visiting Booty Bay anytime soon, then accept this quest. Escort OOX-09/HL to safety, you will be ambushed once by 3 Wildkin.|RANK|3|
+C Rescue OOX-09/HL!|QID|836|ACTIVE|836|M|57.8,50.2|N|Escort OOX-09/HL to safety, you will be ambushed once by 3 Wildkin at the waypoint.|
+
+F Aerie Peak|QID|26532|M|66.3,44.4|N|Your final destination is Aerie Peak, either follow the steps to Stormfeather Outpost, or skip that step and make your own way to Aerie Peak.|S|
+H Stormfeather Outpost|QID|26532|M|57.8,50.2|N|Hearthstone, or run to Stormfeather Outpost.|
+F Aerie Peak|QID|26532|M|66.3,44.4|N|Fly to Aerie Peak.|US|
+
 T Shadra the Venom Queen|QID|26532|M|9.94,44.27|N|To Gryphon Master Talonaxe.|
-A Find OOX-09/HL!|QID|485|O|U|8704|N|If you happen to find an OOX-09/HL Distress Beacon during your time here, go ahead and use the item and accept it. If you didn't don't worry, go ahead and skip it.|
-T Find OOX-09/HL!|QID|485|O|U|8704|M|49.36,37.67|N|Will find Homing Robot OOX-09/HL at this spot.|
-A Rescue OOX-09/HL!|QID|836|O|M|49.36,37.67|N|If you accept this quest, the turn-in is all the way in Booty Bay. To do the quest, Escort OOX-09/HL to safety, you will be ambushed once by 3 Wildkin.|
-N If you chose to accept....|QID|863|O|N|Rescue OOX-09/HL! quest, you will have to head for Booty Bay, I am not including the turn-in for this quest. Close this step to continue.|
-A The Battle for Andorhal|QID|28505|N|From Gryphon Master Talonaxe.|
-F Ironforge|QID|28576|C|Hunter,Mage,Paladin,Priest,Rogue,Warlock,Warrior,Shaman|M|11.13,46.07|N|Head to Ironforge to visit your trainers, AH, etc.|
-F Stormwind City|QID|28576|C|Druid|M|11.13,46.07|N|Head to Stormwind to visit your trainers, AH, etc. Or use your Teleport: Moonglade to go to Moonglade.|
-H Wildhammer Keep|QID|28576|N|Hearth back to Wildhammer Keep, or fly there if your hearth is not up.|
-F Andorhal|QID|28576|N|Speak with Guthrum Thunderfist to fly to Andorhal in Western Plaguelands. Then report to Thassarian within Andorhal.|
+F Booty Bay|QID|836|ACTIVE|836|M|43,72|Z|The Cape of Stranglethorn|N|Fly to Booty Bay in The Cape of Stranglethorn. Do *NOT* accept the quest The Battle for Andorhal if you want to be teleported from Booty Bay to Westland Plaguelands.\n\nIf you don't have Booty Bay on your Flight Plan, fly to Goldshire and then run south through Duskwood, Stranglethorn Jungle and The Cape of Stranglethorn.|
+T Rescue OOX-09/HL!|QID|836|ACTIVE|836|N|To Oglethorpe Obnoticus in Booty Bay, The Cape of Stranglethorn.|M|43,72|Z|The Cape of Stranglethorn|
+A The Battle for Andorhal|QID|28749|LEAD|27518;28505;28576|PRE|836|M|41.55,74.35|Z|The Cape of Stranglethorn|N|From War-Mage Erallier. Located at the foot of the Gryphon's Nest. On accepting the quest, ask War-Mage Erallier to prepare a portal to Andorhal for you.|
+F Andorhal|QID|28749|ACTIVE|28749|N|Speak to War-Mage Erallier and ask for a Teleport to Andorhal.|
+
+A The Battle for Andorhal|QID|28505|LEAD|836;27518;28576;28749|N|From Gryphon Master Talonaxe.|
+F Andorhal|QID|28505|ACTIVE|28505|N|Speak with Guthrum Thunderfist to fly to Andorhal in Western Plaguelands. Then report to Thassarian within Andorhal.|
+
 ]]
 
 end)
