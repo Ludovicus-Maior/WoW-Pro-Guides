@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2013-12-25 21:18
+-- Who: Fluclo
+-- Log: Corrected |PRE| for This Is Our Army, added flight step for Andorhal
+
+-- URL: http://wow-pro.com/node/3244/revisions/25590/view
 -- Date: 2013-03-23 20:22
 -- Who: Ludovicus
 -- Log: name tweaks
@@ -92,8 +97,6 @@ A Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|From Thassarian.|
 A War Machines|QID|27160|M|40.97,70.38|N|From Lurid.|
 A The Endless Flow|QID|27161|M|41.27,70.06|N|From Lang Loosegrip.|
 
-f Andorhal|QID|27161|M|39.52,69.54|N|At Ginny Goodwin.|
-
 C Scourge First... Horde Later|QID|27159|M|41.89,69.69|S|N|Kill the Desiccated Scourge.|
 C War Machines|QID|27160|M|42.50,72.01|N|Kill Opengut Behemoths.|S|
 C The Endless Flow|QID|27161|U|60849|M|42.44,65.55|N|Use Lang's Hand Grenades to kill skeletons and the Scourge Bone Animus inside the tower.|
@@ -111,8 +114,8 @@ A Scholomancer|QID|27162|PRE|27160|M|41.10,70.46|N|From Thassarian.|
 A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|US|
 
 C Brute Strength|QID|27163|M|43.57,69.61|N|Level 35 Elite, inside the building.|
-C Araj the Summoner|QID|27164|U|60849|M|45.20,69.32|N|Use Lang's Hand Grenades if he summons skeletons. Level 35 Elite, by the fountain. Loot Araj's Phylactery Shard.|
-C Scholomancer|QID|27162|M|45.39,72.34|N|Kill Darkmaster Gandling, a boss skull boss (HP 3660).  Thassarian and Koltira Deathweaver will appear to help you during the battle at about HP 1000.|
+C Araj the Summoner|QID|27164|U|60849|M|45.20,69.32|N|Loot Araj's Phylactery Shard. Araj guards the area, so you may need to attack him. If so, use Lang's Hand Grenades if he summons skeletons.|NC|
+C Scholomancer|QID|27162|M|45.39,72.34|N|Attack Darkmaster Gandling, a boss skull boss (HP 7620).  You will be immobilised at 50% damage, when Thassarian and Koltira Deathweaver will appear to help you. You then need to finish the last 100 HP yourself.|
 
 T Araj the Summoner|QID|27164|M|41.13,70.48|N|To Thassarian.|S|
 T Brute Strength|QID|27163|M|41.13,70.48|N|To Thassarian.|S|
@@ -121,10 +124,11 @@ T Brute Strength|QID|27163|M|41.13,70.48|N|To Thassarian.|US|
 T Araj the Summoner|QID|27164|M|41.13,70.48|N|To Thassarian.|US|
 
 A Victory, For Now|QID|27165|PRE|27162;27163;27164|M|41.13,70.48|N|From Thassarian.|
-F Chillwind Camp |QID|27165|N|Fly to Chillwind Camp.  Ginny Goodwin will give you a free-flight if you select the relevant option from her chat menu.|
-f Chillwind Camp|QID|27165|NC|M|42.95,84.95|N|If you don't have it, from Bibilfaz Featherwhistle.|
+f Andorhal|QID|27165|M|39.44,69.55|N|Get flightpoint from Ginny Goodwin.|
+F Chillwind Camp |QID|27165|M|39.44,69.55|N|Speak to Ginny Goodwin for a free-flight to Chillwind Camp.|
+f Chillwind Camp|QID|27165|M|42.95,84.95|N|Get flightpoint from Bibilfaz Featherwhistle.|
 h Chillwind Camp|QID|27165|M|43.38,84.51|N|At Mother Matterly.|
-r Repair and Sell Junk |QID|27165|M|43.08,84.28|N|Sell your junk and repair at Leonard Porter.\n\nClick this step to continue.|
+r Repair and Sell Junk |QID|27165|M|43.08,84.28|N|Excellent opportunity to repair and sell your junk with Leonard Porter.\n\nClick this step to continue.|RANK|3|
 T Victory, For Now|QID|27165|M|42.78,84.12|N|To Commander Ashlam Valorfist.|
 
 A Go Fletch!|QID|27166|M|42.78,84.12|N|From Commander Ashlam Valorfist.|
@@ -156,7 +160,7 @@ T Ambushed!|QID|27171|M|42.74,83.97|N|To Commander Ashlam Valorfist.|
 A The Writhing Haunt|QID|27172|PRE|27171|M|42.74,83.97|N|From Commander Ashlam Valorfist.|
 
 T The Writhing Haunt|QID|27172|M|53.78,64.67|N|To Thurman Grant.|
-A This Is Our Army|QID|27173|PRE|27173|M|53.78,64.67|N|From Thurman Grant.|
+A This Is Our Army|QID|27173|PRE|27172|M|53.78,64.67|N|From Thurman Grant.|
 C This Is Our Army|QID|27173|M|52.53,65.78|N|Go outside and kill 10 Forsaken Outriders.|
 T This Is Our Army|QID|27173|M|53.78,64.67|N|To Thurman Grant.|
 
@@ -169,10 +173,8 @@ A A New Era for the Plaguelands|QID|26999|PRE|27175|M|49.31,54.87|N|From Field A
 A Zen'Kiki, the Druid|QID|26953|M|48.98,54.75|N|From Adrine Towhide.|
 A I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.60,54.88|N|From Selyria Groenveld.|
 
-A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.|
-
 f The Menders' Stead|QID|27197|M|50.49,52.34|N|At Marge Heffman.|
-r Repair and Restock|QID|26953|NC|M|50.69,52.89|N|Repair and Restock.|
+r Repair and Sell Junk |QID|26999|M|50.69,53.12|N|Excellent opportunity to repair and sell your junk with Gurt.\n\nClick this step to continue.|RANK|3|
 
 C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|47.41,52.91;46.33,54.45;45.19,53.4|CN|N|Click Bad Corn, Unhealthy-Looking Pumpkins and Rotten Apples; then kill the mobs that appear.|
 C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Kill with Zen'kiki with you. If Zen'kiki isn't with you, talk to him at Mender's Stead to get him back.|S|
