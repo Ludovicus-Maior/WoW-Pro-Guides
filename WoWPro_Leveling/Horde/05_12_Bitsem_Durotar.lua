@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2013-12-26 21:33
+-- Who: Ludovicus
+-- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
+
+-- URL: http://wow-pro.com/node/3199/revisions/25515/view
 -- Date: 2013-01-28 12:41
 -- Who: Crackerhead22
 -- Log: Minor edits for normal Durotar area.
@@ -205,7 +210,7 @@ T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|
 T Meats to Orgrimmar|QID|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|To Burok.|
 A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|From Burok.|
-F Orgrimmar|QID|6384|M|53.08,43.6|N|Fly to Orgrimmar.|
+F Orgrimmar|QID|6384|M|53.08,43.6|N|Fly to Orgrimmar.|R|Orc,Tauren,Troll|
 T Ride to Orgrimmar|QID|6384|M|50.87,62.61;53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|CS|N|Take the lift down, the turn in to Innkeeper Gryshka.|
 A Doras the Wind Rider Master|QID|6385|PRE|6384|M|53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Innkeeper Gryshka.|
 T Doras the Wind Rider Master|QID|6385|M|50.87,62.61;49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|CS|N|Back up the lift to Doras.|
@@ -224,19 +229,19 @@ A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
 T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
-R Dustwind Cave|QID|25232|M|54.13,40.71;55.68,38;53.67,31.76;52.79,28.53|N|Run to Dustwind Cave.|CN|
-C The Burning Blade|QID|25232|M|52.79,28.53|CN|N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade.|
+R Dustwind Cave|QID|25232|M|54.13,40.71;55.68,38;53.67,31.76;52.79,28.53|N|Run to Dustwind Cave.|CS|
+C The Burning Blade|QID|25232|M|52.79,28.53|N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade.|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar. Go straight and jump down!|
 A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 
-T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|CN|N|To Thonk on top of the guard tower.|
+T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|CS|N|To Thonk on top of the guard tower.|
 
 A Lost in the Floods|QID|25187|PRE|25227|M|49.58,40.16|N|From Thonk.|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass four times to search for survivors.|
 T Lost in the Floods|QID|25187|M|49.56,40.22|N|To Thonk. I'm putting the next circuit as RANK 2. It requires a lot of running (time), but some cool storyline and good rewards.|
 A Watershed Patrol|QID|25188|PRE|25187|RANK|2|M|49.56,40.22|N|From Thonk.|
 
-A Raggaran's Rage|QID|25190|RANK|2|M|45.51,44.38;42.67,49.86|CN|N|From Raggaran. Avoid the Razormane, you need to kill them later.|
+A Raggaran's Rage|QID|25190|RANK|2|M|45.51,44.38;42.67,49.86|CS|N|From Raggaran. Avoid the Razormane, you need to kill them later.|
 C Raggaran's Rage|QID|25190|M|43.88,49.01|N|Kill 4 Razormane Quilboar and 4 Razormane Scouts.|
 T Raggaran's Rage|QID|25190|M|42.73,49.85|N|To Raggaran.|
 A Raggaran's Fury|QID|25192|PRE|25190|RANK|2|M|42.73,49.85|N|From Raggaran.|

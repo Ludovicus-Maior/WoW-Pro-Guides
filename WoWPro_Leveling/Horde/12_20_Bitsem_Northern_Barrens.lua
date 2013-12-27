@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2013-12-26 21:42
+-- Who: Ludovicus
+-- Log: Some mean hordie put a slaughterhouse on poor Echeyakee's den.
+--	Minor playthrough tweaks.
+
+-- URL: http://wow-pro.com/node/3214/revisions/25570/view
 -- Date: 2013-03-23 18:45
 -- Who: Ludovicus
 -- Log: qust name correction on [Through Fire and Flames]
@@ -68,6 +74,8 @@
 
 WoWPro.Leveling:RegisterGuide('BitNor1220', 'Northern Barrens', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
 return [[
+
+N The Northern Barrens|QID|844|N|There are two lead in quests: "Warchief's Command" from the bulliten board in any capital city or "Conscript of the Horde" from Razor Hill.|
 
 A Plainstrider Menace|QID|844|M|67.41,38.77|RANK|1|N|From Halga Bloodeye.|
 T Warchief's Command: Northern Barrens!|QID|28494|M|67.67,39.39|O|N|To Kargal Battlescar.|
@@ -176,7 +184,7 @@ T The Zhevra|QID|845|M|49.97,59.79|N|To Sergra Darkthorn.|
 T Hunting the Huntress|QID|903|M|49.97,59.79|N|To Sergra Darkthorn.|
 
 A Echeyakee|QID|881|M|49.97,59.79|N|From Sergra Darkthorn.|
-C Echeyakee|QID|881|U|10327|M|44.86,47.71|N|Use the Horn of Echeyakee at his lair.|
+C Echeyakee|QID|881|U|10327|M|47.48,44.01|N|Use the Horn of Echeyakee at his lair. Take the North road.|
 
 T Echeyakee|QID|881|M|49.98,59.82|N|To Sergra Darkthorn.|
 A Into the Raptor's Den|QID|905|PRE|881|RANK|1|M|49.98,59.82|N|From Sergra Darkthorn.|
@@ -189,7 +197,7 @@ C King of Centaur Mountain|QID|13995|NC|M|54.37,78.36|N|Escort quest. Follow Gor
 T King of Centaur Mountain|QID|13995|M|55.20,78.40|N|To Shoe.|
 
 C In Fungus We Trust|QID|13998|NC|U|46789|M|54.94,80.12|N|Use the Fungal Cultures near the Stagnant Oasis.|
-C A Growing Problem|QID|13988|U|46782|M|58.77,81.07;60.73,85.38|CS|N|Use Tonga's Totem if you do not already have a bird following you, then head up the mountain.|
+C A Growing Problem|QID|13988|U|46782|M|58.77,81.07;60.73,85.38|CS|N|Use Tonga's Totem if you do not already have a bird following you, then head up the mountain.  The hawk MUST fly into the small circle of stones near the banner.|
 T A Growing Problem|QID|13988|M|60.73,85.38|N|To Jerrik Highmountain.|
 
 A The Stagnant Oasis|QID|877|PRE|13988|RANK|1|M|60.73,85.38|N|From Jerrik Highmountain.|
@@ -200,7 +208,7 @@ C Flushing Out Verog|QID|14072|US|NC|M|52.94,80.85;51.02,83.40;58.26,82.22;52.94
 l Sunscale Feather|QID|905|L|5165 3|US|N|Kill and loot Raptors until you have 3 Sunscale Feathers.|M|48.27,73.44|
 N Visit Blue Raptor Nest|QID|905|NC|QO|Visit Blue Raptor Nest: 1/1|U|5165|M|48.57,74.81|N|Use the feather at the blue nest.|
 N Visit Red Raptor Nest|QID|905|NC|QO|Visit Red Raptor Nest: 1/1|U|5165|M|49.67,75.13|N|Use the feather at the red nest.|
-C Into the Raptor's Den|QID|905|U|5165|M|48.02,76.14|N|Finally use the feather at the yellow nest.|
+C Into the Raptor's Den|QID|905|U|5165|M|47.92,74.24;48.02,76.14|CS|N|Finally use the feather at the yellow nest.|
 C The Stagnant Oasis|QID|877|NC|U|5068|M|55.91,80.76|N|Use the Dried Seeds underwater at the fissure.|
 C Altered Beings|QID|880|US|M|55.36,79.14|N|Finish killing snapjaws.|
 

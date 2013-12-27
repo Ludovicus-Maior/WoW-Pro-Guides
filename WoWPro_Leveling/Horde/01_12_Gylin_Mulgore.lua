@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2013-12-26 21:13
+-- Who: Ludovicus
+-- Log: Removed level 3 quid.  Not needed and interfered with non-taurens.
+
+-- URL: http://wow-pro.com/node/3203/revisions/25839/view
 -- Date: 2013-12-12 15:43
 -- Who: Fluclo
 -- Log: Added notes to quite a few steps;
@@ -125,7 +130,7 @@ C Rite of Courage|S|QID|14456|M|47.40,86.15|Z|Mulgore|N|Kill Britlebark Gun Thie
 C Stop the Thorncallers|QID|14455|M|46.77,87.35|Z|Mulgore|N|Kill Bristleback Thorncallers|
 C Rite of Courage|US|QID|14456|M|47.40,86.15|Z|Mulgore|N|Kill Britlebark Gun Thiefs and loot any Stolen Rifles you still need.|
 
-L Level 3|QID|14456|LVL|3|N|You should be around level 3 by this point.|
+L Level 3|LVL|3|N|You should be around level 3 by this point.|
 
 T Rite of Courage|QID|14456|M|46.21,82.76|Z|Mulgore|N|To Adana Thunderhorn.|
 T Stop the Thorncallers|QID|14455|M|46.21,82.76|Z|Mulgore|N|To Adana Thunderhorn.|

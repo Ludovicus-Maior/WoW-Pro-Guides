@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2013-12-26 21:11
+-- Who: Ludovicus
+-- Log: A few tweaks as I ran my goblin priest through.
+
+-- URL: http://wow-pro.com/node/3212/revisions/25847/view
 -- Date: 2013-12-16 20:54
 -- Who: Fluclo
 
@@ -169,9 +174,9 @@ T Arcane Missles|QID|14008|M|59.3,73.8|N|To Fizz Lighter.|C|Mage|R|Goblin|
 A Charge|QID|14013|M|60.1,77.7|N|From Warrior-Matic NX-01.|C|Warrior|R|Goblin|
 C Charge|QID|14013|M|60.31,77.53|N|Speak with Warrior-Matic NX-01 and train the Charge ability, then use it on a Training Dummy. |C|Warrior|R|Goblin|
 T Charge|QID|14013|M|60.1,77.7|N|To Warrir-Matic NX-01.|C|Warrior|R|Goblin|
-A Flash Heal|QID|14009|M|57.9,77|N|From Sister Goldskinner.|C|Priest|R|Goblin|
-C Flash Heal|QID|14009|M|57.9,77|N|Speak with Sister Goldskimmer and train Flash Heal, then cast the spell 3 times on an Injured Employee. |C|Priest|R|Goblin|
-T Flash Heal|QID|14009|M|57.9,77|N|To Sister Goldskinner.|C|Priest|R|Goblin|
+A Learning the Word|QID|14009|M|57.9,77|N|From Sister Goldskinner.|C|Priest|R|Goblin|
+C Learning the Word|QID|14009|M|60.31,77.53|N|Cast the Shadow Word: Pain 3 times on an a Training Dummy. |C|Priest|R|Goblin|
+T Learning the Word|QID|14009|M|57.9,77|N|To Sister Goldskinner.|C|Priest|R|Goblin|
 A Immolate|QID|14012|M|58,74.3|N|From Evol Fingers.|C|Warlock|R|Goblin|
 C Immolate|QID|14012|M|60.31,77.53|N|Speak with Evol Fingers and train Immolate, then cast it 3 times on a Training Dummy. |C|Warlock|R|Goblin|
 T Immolate|QID|14012|M|58,74.3|N|To Evol Fingers.|C|Warlock|R|Goblin|
@@ -206,7 +211,7 @@ C The Great Bank Heist|QID|14122|M|30.10,71.41|N|Click on one of the First Bank 
 C Waltz Right In|QID|14123|M|16.74,46.08|QO|Maldy's Falcon: 1/1|N|Get out of your car and just walk right in! Watch out for the pigs. The Falcon is upstairs in the bedroom.|NC|R|Goblin|
 C Waltz Right In|QID|14123|M|13.0,35.2|QO|The Goblin Lisa: 1/1|N|Head into the hut and pick it off the wall.|NC|R|Goblin|
 C Waltz Right In|QID|14123|M|19.9,30.7|QO|The Ultimate Bomb: 1/1|N|Head into the building and pick up the bomb.|NC|R|Goblin|
-T Waltz Right In|QID|14123|M|59.41,77.62|N|To Slinky Sharpshiv.|R|Goblin|
+T Waltz Right In|QID|14123|U|46856|M|59.41,77.62|N|To Slinky Sharpshiv.|R|Goblin|
 T The Great Bank Heist|QID|14122|M|59.78,77.28|N|To Sassy|R|Goblin|
 T Robbing Hoods|QID|14121|M|60.12,78.09|N|To Megs|R|Goblin|
 A 447|QID|14125|M|59.78,77.13|N|From Sassy Hardwrench.|R|Goblin|

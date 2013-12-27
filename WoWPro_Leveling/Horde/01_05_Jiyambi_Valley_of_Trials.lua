@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2013-12-26 21:33
+-- Who: Ludovicus
+-- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
+
+-- URL: http://wow-pro.com/node/3199/revisions/25515/view
 -- Date: 2013-01-28 12:41
 -- Who: Crackerhead22
 -- Log: Minor edits for normal Durotar area.
