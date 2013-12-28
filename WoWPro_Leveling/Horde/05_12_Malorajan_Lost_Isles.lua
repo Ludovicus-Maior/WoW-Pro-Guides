@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2013-12-27 22:38
+-- Who: Ludovicus
+-- Log: Play through tweaks + new goblin only quests for Razor Hill.
+
+-- URL: http://wow-pro.com/node/3212/revisions/25852/view
 -- Date: 2013-12-26 21:11
 -- Who: Ludovicus
 -- Log: A few tweaks as I ran my goblin priest through.
@@ -107,20 +112,17 @@ return [[
 
 N Race Restriction|QID|99999|N|Sorry, only Goblins are allowed on The Lost Isles. Please find another guide.|R|BloodElf;Orc;Tauren;Troll;Undead;Pandaren|
 
-A Goblin Escape Pods|QID|14001|M|24.63,77.96|N|From Geargrinder Gizmo.|R|Goblin|
-C Goblin Escape Pods|QID|14001|M|27.47,81.78|N|Male? Look around and click on the escape pods until you rescue 6 goblins.|R|Goblin|
-A Goblin Escape Pods|QID|14474|M|24.63,77.96|N|From Geargrinder Gizmo.|R|Goblin|
-C Goblin Escape Pods|QID|14474|M|27.47,81.78|N|Female? Look around and click on the escape pods until you rescue 6 goblins.|R|Goblin|
+A Goblin Escape Pods|QID|14001;14474|M|24.63,77.96|N|From Geargrinder Gizmo.|R|Goblin|
+C Goblin Escape Pods|QID|14001;14474|M|27.47,81.78|N|Male? Look around and click on the escape pods until you rescue 6 goblins.|R|Goblin|
 h Shipwreck Shore|QID|14014|M|27.86,75.58|N|At Sassy Hardwrench.|R|Goblin|
-T Goblin Escape Pods|QID|14001|M|27.86,75.58|N|To Sassy Hardwrench.|R|Goblin|
-T Goblin Escape Pods|QID|14474|M|27.86,75.58|N|To Sassy Hardwrench.|R|Goblin|
+T Goblin Escape Pods|QID|1400114474|M|27.86,75.58|N|To Sassy Hardwrench.|R|Goblin|
 
 A Get Our Stuff Back!|QID|14014|M|27.86,75.58|N|From Sassy Hardwrench.|R|Goblin|
 A Monkey Business|QID|14019|M|27.89,74.43|N|From Bamm Megabomb.|R|Goblin|
 A It's Our Problem Now|QID|14473|M|27.89,74.40|N|From Maxx Avalanche.|R|Goblin|
 C It's Our Problem Now|QID|14473|M|29.24,69.93|S|N|Kill 6 Teraptor Hatchlings.|R|Goblin|
 C Get Our Stuff Back!|QID|14014|M|29.13,70.04|S|N|Pick up any Crate of Tools you see.|R|Goblin|
-C Monkey Business|QID|14019|U|49028|M|28.20,72.30|N|Feed Monkies the banana bombs, the bananas have about a 30 yard range.|R|Goblin|
+C Monkey Business|QID|14019|U|49028|M|28.20,72.30|N|Feed Monkeys the banana bombs, the bananas have about a 30 yard range.|R|Goblin|
 C Get Our Stuff Back!|QID|14014|M|29.13,70.04|US|N|Pick up any Crate of Tools you see.|R|Goblin|
 C It's Our Problem Now|QID|14473|M|29.24,69.93|US|N|Kill 6 Teraptor Hatchlings.|R|Goblin|
 L Level 6|QID|14473|LVL|6|N|You should be around level 6 by this point.|R|Goblin|
@@ -133,12 +135,12 @@ T Help Wanted|QID|14248|M|31.20,79.30|N|To Foreman Dampwick.|R|Goblin|
 A Miner Troubles|QID|14021|M|31.20,79.30|N|From Foreman Dampwick.|R|Goblin|
 A Capturing the Unknown|QID|14031|M|31.19,79.30|N|From Foreman Dampwick.|R|Goblin|
 C Miner Troubles|QID|14021|M|31.37,74.00|S|N|Protect the Miner as you go through.|R|Goblin|
-U Cave Paining 2 Captured|QID|14031|U|49887|M|32.42,76.96|QO|Cave Painting 2 Captured: 1/1|N|Get near edge and use the KTC Snapflash.|R|Goblin|
-U Cave Paining 1 Captured|QID|14031|U|49887|M|31.82,76.82|QO|Cave Painting 1 Captured: 1/1|N|Get nearish the bouncing wireframe camera and use the KTC Snapflash.|R|Goblin|
-U Cave Paining 3 Captured|QID|14031|U|49887|M|33.94,75.25|QO|Cave Painting 3 Captured: 1/1|N|Get nearish the bouncing wireframe camera and use the KTC Snapflash.|R|Goblin|
-C Capturing the Unknown|QID|14031|U|49887|M|31.37,74.00|N|Use the KTC Snapflash next to the altar.|R|Goblin|
-C Miner Troubles|QID|14021|M|31.37,74.00|US|R|Goblin|
-A Orcs Can Write?|QID|14233|M|31.23,74.08|N|From the Dead Orc Scout.|R|Goblin|
+U Cave Paining 2 Captured|QID|14031|U|49887|M|61.36,71.85|Z|The Lost Isles/1|QO|Cave Painting 2 Captured: 1/1|N|Get near edge and use the KTC Snapflash.|R|Goblin|
+U Cave Paining 1 Captured|QID|14031|U|49887|M|51.57,71.44|Z|The Lost Isles/1|QO|Cave Painting 1 Captured: 1/1|N|Get nearish the bouncing wireframe camera and use the KTC Snapflash.|R|Goblin|
+U Cave Paining 3 Captured|QID|14031|U|49887|M|87.26,44.09|Z|The Lost Isles/1|QO|Cave Painting 3 Captured: 1/1|N|Get nearish the bouncing wireframe camera and use the KTC Snapflash.|R|Goblin|
+C Capturing the Unknown|QID|14031|U|49887|M|44.73,25.41|Z|The Lost Isles/1|N|Use the KTC Snapflash next to the altar.|R|Goblin|
+C Miner Troubles|QID|14021|M|31.37,74.00|Z|The Lost Isles/1|US|R|Goblin|
+A Orcs Can Write?|QID|14233|M|31.23,74.08|Z|The Lost Isles/1|N|From the Dead Orc Scout.|R|Goblin|
 T Miner Troubles|QID|14021|M|31.26,79.22|N|To Foreman Dampwick.|R|Goblin|
 T Capturing the Unknown|QID|14031|M|27.86,75.55|N|To Sassy Hardwrench.|R|Goblin|
 T Orcs Can Write?|QID|14233|M|27.86,75.55|N|To Sassy Hardwrench.|R|Goblin|
@@ -274,9 +276,9 @@ A The Heads of the SI:7|QID|25093|M|36.28,43.43|N|From Aggra.|R|Goblin|
 A Mine Disposal, the Goblin Way|QID|25058|M|37.34,41.95|N|From Sassy Hardwrench.|R|Goblin|
 C Repel the Paratroopers|QID|25024|M|34.04,38.48|S|N|Kill any Alliance Paratrooper you see.|R|Goblin|
 C Mine Disposal, the Goblin Way|QID|25058|U|52280|M|33.08,43.80|S|N|Throw a grenade at a land mine.|R|Goblin|
-K Commander Arrington|QID|25093|M|33.35,28.72|L|52346|N|Kill and loot Commander Arrington for his head.|R|Goblin|
-K Alexi Silenthowl|QID|25093|M|30.8,33.93|L|52349|N|Kill and loot Alexi Silenthowl for his head.|R|Goblin|
-C The Heads of the SI:7|QID|25093|M|33.42,27.88|N|Kill and loot Darkblade Cyn for her head to finish the quest.|R|Goblin|
+K Commander Arrington|QID|25093|M|32.27,42.88|L|52346|N|Kill and loot Commander Arrington for his head.|R|Goblin|
+K Alexi Silenthowl|QID|25093|M|30.78,33.91|L|52349|N|Kill and loot Alexi Silenthowl for his head.|R|Goblin|
+C The Heads of the SI:7|QID|25093|M|33.42,27.89|N|Kill and loot Darkblade Cyn for her head to finish the quest.|R|Goblin|
 C Repel the Paratroopers|QID|25024|M|34.04,38.48|US|N|Kill any Paratrooper you have left to kill.|R|Goblin|
 C Mine Disposal, the Goblin Way|QID|25058|U|52280|M|33.08,43.80|US|N|Throw a grenade at a land mine.|R|Goblin|
 H Warchief's Lookout|QID|25024|M|36.83,43.19|N|Hearth back to Warchief's Lookout.|R|Goblin|
@@ -347,7 +349,7 @@ A What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|From Sassy Hardw
 A Escape Velocity|QID|25214|M|43.82,25.33|N|From Hobart Grapplehammer.|R|Goblin|
 C Escape Velocity|QID|25214|M|41.49,26.24|S|N|Click on the cages to attack the rockets.|R|Goblin|
 C She Loves Me, She Loves Me NOT!|QID|25243|M|38.90,25.55|N|Kill and loot Candy for her heart.|GEN|MALE|R|Goblin|
-C What Kind of Name is Candy, Anyway?|QID|25244|M|38.90,25.55|N|Kill Candy.|GEN|FEMALE|R|Goblin|
+C What Kind of Name is Candy, Anyway?|QID|25244|M|39.60,27.16|N|Kill Candy.|GEN|FEMALE|R|Goblin|
 C Escape Velocity|QID|25214|M|41.49,26.24|US|N|Click on the cages to attack the rockets.|R|Goblin|
 T Escape Velocity|QID|25214|M|43.84,25.35|N|To Hobart Grapplehammer.|R|Goblin|
 T She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.32|N|To Sassy Hardwrench.|GEN|MALE|R|Goblin|
@@ -359,12 +361,20 @@ A Victory!|QID|25265|M|43.53,24.64|N|From Sassy Hardwrench.|R|Goblin|
 T Victory!|QID|25265|M|42.14,17.41|N|To Thrall.|R|Goblin|
 
 A Warchief's Emissary|QID|25266|M|42.14,17.41|N|From Thrall.|R|Goblin|
-R Bladefist Bay|QID|25266|M|42.59,16.40|N|Talk to Sasst Hardwrench and choose to go to Orgrimmar.|R|Goblin|
+R Durotar|QID|25266|M|42.59,16.40|N|Talk to Sassy Hardwrench and choose to go to Orgrimmar.|T|Sassy|R|Goblin|
 T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|Durotar|N|To Korkron Loyalist.|R|Goblin|
 A Message for Garrosh|QID|25267|M|57.67,9.6|Z|Durotar|N|From Korkron Loyalist.|R|Goblin|
 T Message for Garrosh|QID|25267|M|48.2,70.72|Z|Orgrimmar|N|To Garrosh Hellscream.|R|Goblin|
 A Report to the Labor Captain|QID|25275|M|48.2,70.72|Z|Orgrimmar|N|From Garrosh Hellscream.|R|Goblin|
-;N Visit your trainers, AH, etc.|N|Close this step when ready to continue.|R|Goblin|
+A Missing Reports|QID|26803|M|49.0,72.2|Z|Orgrimmar|N|From Eitrigg.|R|Goblin|
+T Missing Reports|QID|26803|M|49.4,59.2|Z|Orgrimmar|N|To Doras, the flight master.|R|Goblin|
+A Flight to Razor Hill|QID|26804|M|49.4,59.2|Z|Orgrimmar|N|From Doras, the flight master.|R|Goblin|
+T Flight to Razor Hill|QID|26804|M|51.8,43.4|Z|Durotar|N|To Gar'Thok.|R|Goblin|
+A Reports to Orgrimmar|QID|26806|M|51.8,43.4|Z|Durotar|N|From Gar'Thok.|R|Goblin|
+T Reports to Orgrimmar|QID|26806|M|53.0,43.6|Z|Durotar|N|To Burok.|R|Goblin|
+A Return to Eitrigg|QID|26807|M|53.0,43.6|Z|Durotar|N|To Burok.|R|Goblin|
+T Return to Eitrigg|QID|26807|M|49.0,72.2|Z|Orgrimmar|N|To Eitrigg.|R|Goblin|
+N Visit your trainers, AH, etc.|N|Close this step when ready to continue.|R|Goblin|
 R Azshara|QID|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|CS|N|Run to Azshara.|Z|Orgrimmar|R|Goblin|
 T Report to the Labor Captain|QID|25275|M|26.98,77.11|Z|Azshara|N|To Labor Captain Grabbit.|R|Goblin|
 
