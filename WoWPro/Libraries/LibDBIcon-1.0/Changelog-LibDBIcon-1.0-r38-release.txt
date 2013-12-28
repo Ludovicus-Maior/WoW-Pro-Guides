@@ -1,13 +1,13 @@
 ------------------------------------------------------------------------
-r72 | funkydude | 2012-08-30 11:07:58 +0000 (Thu, 30 Aug 2012) | 1 line
+r38 | funkydude | 2013-09-09 23:35:36 +0000 (Mon, 09 Sep 2013) | 1 line
 Changed paths:
-   A /tags/7 (from /trunk:71)
+   A /tags/r38-release (from /trunk:37)
 
-Tagging as 7
+Tagging as r38-release
 ------------------------------------------------------------------------
-r71 | funkydude | 2012-08-30 11:03:10 +0000 (Thu, 30 Aug 2012) | 1 line
+r37 | funkydude | 2013-09-09 23:18:43 +0000 (Mon, 09 Sep 2013) | 1 line
 Changed paths:
-   M /trunk/LibSharedMedia-3.0.toc
+   M /trunk/LibDBIcon-1.0.toc
 
 bump toc
 ------------------------------------------------------------------------
