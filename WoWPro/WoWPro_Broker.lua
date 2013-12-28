@@ -434,7 +434,8 @@ function WoWPro:NextStep(k,i)
             if WoWPro.action[k] == "L" and level <= UnitLevel("player") then
                 WoWProCharDB.Guide[GID].completion[i] = true
                 skip = true
-                WoWPro.why[k] = "NextStep(): Skipping L step because player level is high enough."
+                WoWPro.why[k] = "NextStep(): Completed L step because player level is high enough."
+                WoWPro.CompleteStep(k)
                 break
             end
             if WoWPro.action[k] ~= "L" and level > UnitLevel("player") then
