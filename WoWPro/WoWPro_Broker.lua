@@ -944,7 +944,7 @@ function WoWPro:FindClosestStep(offset)
 end
 
 
-function WoWPro:OrderSteps()
+function WoWPro.OrderSteps()
     -- Put the first step closest to us
     local sidx,d = WoWPro:FindClosestStep(1)
     WoWPro:Print("selected step %d as the closest at a distance of %g",sidx,d)
@@ -962,7 +962,7 @@ function WoWPro:OrderSteps()
         WoWPro:Print("selected step %d as the next closest at a distance of %g",closest,d)
         WoWPro:SwapSteps(anchor+1,closest)
     end
-    WoWPro:UpdateGuide("WoWPro:OrderSteps")
+    WoWPro:UpdateGuide("WoWPro.OrderSteps")
 end
 
 
