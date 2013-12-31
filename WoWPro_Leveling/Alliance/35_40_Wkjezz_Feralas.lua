@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
 -- Date: 2013-01-13 15:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3243/revisions/24549/view

@@ -4,13 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2013-12-16 20:28
+-- Who: Fluclo
+-- Log: Priest training quest is now Learning the Word, not Healing the Wounded
+
+-- URL: http://wow-pro.com/node/3207/revisions/25458/view
 -- Date: 2013-01-13 18:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3207/revisions/25132/view
 -- Date: 2012-10-08 23:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected QID and coords for monk starter quests.
 
 -- URL: http://wow-pro.com/node/3207/revisions/25061/view
@@ -97,36 +102,36 @@
 
 -- URL: http://wow-pro.com/node/3207/revisions/24513/view
 -- Date: 2011-06-07 10:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added R|BloodElf| to steps not available to my Orc.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24428/view
 -- Date: 2011-05-28 01:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update Notes, Correct some coordinates that were WAAY off.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24317/view
 -- Date: 2011-04-29 15:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 148 for step L has unknown tag [If not level 6 yet, kill stuffs.], Line 202 for step T has unknown tag [9130], Line 281 for step C has 1 M coords, Line 299 for step T has unknown tag [To Larianna Riverwind.]
 
 -- URL: http://wow-pro.com/node/3207/revisions/24100/view
 -- Date: 2011-02-05 14:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Submitted by zoefed on Thu, 2011-01-20 09:13.
 --	
 --	Bug Report: Guide: Eversong Woods Bloodelf - Step: (89/157) Turning in the quest: The Ring Of Mmmrrrggglll. The waypoint arrow shows somewhere in the sea. The  quest NPC is located at these CORRECT coordinates: 30.2,58.5.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24099/view
 -- Date: 2011-02-05 14:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Submitted by Grramps on Sat, 2011-02-05 05:34.
 --	
 --	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
 
 -- URL: http://wow-pro.com/node/3207/revisions/24069/view
 -- Date: 2011-01-29 17:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing QIDs to L steps.
 
 -- URL: http://wow-pro.com/node/3207/revisions/23614/view
@@ -159,6 +164,7 @@
 WoWPro.Leveling:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
 return [[
 
+; Sunstrider Isle starting zone is for BloodElf's only.
 A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|N|From Magistrix Erona.|M|38.0,21.0|RANK|1|
 C Mana Wyrm |QID|8325|R|BloodElf|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|M|37.60,22.00|RANK|1|
 T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|N|To Magistrix Erona.|M|38.0,21.0|
@@ -166,16 +172,17 @@ T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|N|To Magistrix Erona.|M|38.0,2
 A Unfortunate Measures|QID|8326|R|BloodElf|M|38.0,21.0|N|From Magistrix Erona.|
 A The Shrine of Dath'Remar|QID|8345|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian, inside the building and up the ramp.|
 A Solanian's Belongings|QID|8330|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian.|
-A A Fistful of Slivers |QID|8336|R|BloodElf|N|From Arcanist Ithanas, jump down to the left.|M|38.3,19.1|
+A A Fistful of Slivers |QID|8336|R|BloodElf|N|From Arcanist Ithanas, go outside via the balcony, then jump down to your left.|M|38.3,19.1|
 A Thirst Unending|QID|8346|R|BloodElf|N|From Arcanist Helion. Go through the gazeebo in front of you.|M|37.2,18.9|
-C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill Springpaw Lynxs and Cubs for the 8 Lynx collars.|M|36.00,24.00|S|
-C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent, on a Mana Wyrm. |M|37.50,23.90|S|
-l Solonaian's Journal |QID|8330|R|BloodElf|N|Get Solonaian's Journal, near the big green crystal. |M|37.70,24.90|L|20472|
+C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill and loot Springpaw Lynxs and Cubs for the Lynx collars.|M|36.00,24.00|S|
+C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent, when you are within 8 yards of a Mana Wyrm. |M|37.50,23.90|S|
+C Solonaian's Journal |QID|8330|R|BloodElf|N|Get Solonaian's Journal, near the big green crystal. |M|37.70,24.90|NC|QO|Solanian's Journal: 1/1|
 C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent, on a Mana Wyrm. |M|37.50,23.90|US|
-C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill Springpaw Lynxs and Cubs for the 8 Lynx collars. |M|36.00,24.00|US|
+C Unfortunate Measures |QID|8326|R|BloodElf|N|Finish killing and looting Springpaw Lynxs and Cubs for the Lynx collars. |M|36.00,24.00|US|
 T Thirst Unending |QID|8346|R|BloodElf|M|37.2,18.9|N|To Arcanist Helion.|M|37.20,18.95|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|38,21|N|To Magistrix Erona.|
-L Level 3|LVL|3|N|You should be a Level 3 at this point.|QID|8327|R|BloodElf|
+
+L Level 3|LVL|3|N|You need to be Level 3 to continue this guide.|QID|8327|R|BloodElf|
 
 A Report to Lanthan Perilon |QID|8327|R|BloodElf|M|38.2,20.8|N|From Magistrix Erona.|
 A Warrior Training |QID|8329|R|BloodElf|C|Warrior|N|From Magistrix Erona.|M|38.0,21.0|
@@ -213,9 +220,9 @@ T Ways of the Light|QID|10069|R|BloodElf|M|39.5,20.6|C|Paladin|N|To Jesthenis Su
 A Evisceration|QID|10071|R|BloodElf|M|38.9,20.0|C|Rogue|N|From Pathstalker Kariel.|
 C Evisceration|QID|10071|R|BloodElf|M|38.33,20.64|C|Rogue|N|Learn Eviscerate from Pathstalker Kariel. Locate a Training Dummy outside the Sunspire and practice using Eviscerate 3 times. |
 T Evisceration|QID|10071|R|BloodElf|M|38.9,20.0|C|Rogue|N|To Pathstalker Kariel.|
-A Healing the Wounded|QID|10072|R|BloodElf|M|39.4,20.4|C|Priest|N|From Matron Arena.|
-C Healing the Wounded|QID|10072|R|BloodElf|M|39,20.2|C|Priest|N|Learn Flash Heal from Matron Arena. Practice casting Flash Heal 5 times on Wounded Outrunners.|
-T Healing the Wounded|QID|10072|R|BloodElf|M|39.4,20.4|C|Priest|N|To Matron Arena|
+A Learning the Word|QID|10072|R|BloodElf|M|39.4,20.4|C|Priest|N|From Matron Arena.|
+C Learning the Word|QID|10072|R|BloodElf|M|61.93,43.99|Z|Sunstrider Isle|C|Priest|N|Locate a Training Dummy outside the Sunspire and practice using Shadow Word: Pain 5 times.|
+T Learning the Word|QID|10072|R|BloodElf|M|39.4,20.4|C|Priest|N|To Matron Arena|
 A Immolation|QID|10073|R|BloodElf|M|38.9,21.4|C|Warlock|N|From Summoner Teli'Larien|
 C Immolation|QID|10073|R|BloodElf|M|38.33,20.64|C|Warlock|N|Learn Immolate from Summoner Teli'Larien. Locate a Training Dummy outside the Sunspire and practice casting Immolate 5 times. |
 T Immolation|QID|10073|R|BloodElf|M|38.9,21.4|C|Warlock|N|To Summoner Teli'Larien|
@@ -224,36 +231,43 @@ T Report to Lanthan Perilon |QID|8327|R|BloodElf|N|To Lanthan Perilon.|M|35.4,22
 A Aggression |QID|8334|R|BloodElf|N|From Lanthan Perilon.|M|35.4,22.5|
 C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you kill the Feral Tenders, loot the Arcane Slivers from them.|M|37.50,23.90|S|
 C Aggression |QID|8334|R|BloodElf|S|N|Kill any Tender and Feral Tender you see.|
-l Solanian's Scrying Orb |QID|8330|R|BloodElf|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle. |M|35.13,28.91|L|20470|
-C Solanian's Belongings |QID|8330|R|BloodElf|N|Get the Scroll of Scourge Magic, which is northwest.|M|31.34,22.75|NC|
-C The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|Go to the far north-west of the island until you reach the Shrine of Dath'Remar. Read the plaque.|M|29.7,19.5|NC|
+C Solanian's Scrying Orb |QID|8330|R|BloodElf|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle. |M|35.13,28.91|QO|Solanian's Scrying Orb: 1/1|NC|
+C Solanian's Belongings|QID|8330|R|BloodElf|N|Get the Scroll of Scourge Magic, which is northwest.|M|31.34,22.75|NC|QO|Scroll of Scourge Magic: 1/1|NC|
+C The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|Go to the far north-west of the island until you reach the Shrine of Dath'Remar. Click on it to read the plaque.|M|29.7,19.5|NC|
 C Aggression |QID|8334|R|BloodElf|US|N|Finish killing the Feral Tenders and Tenders you need.|
 C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you head back to the Sunspire, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|M|37.50,23.90|US|
-; L Level 4|QID|8334|LVL|4|N|Kill stuff until you hit level 4.|
 T The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|To Well Watcher Solanian, inside The Sunspire, up the ramp.|M|38.96,20.27|
 T Solanian's Belongings |QID|8330|R|BloodElf|N|To Well Watcher Solanian.|M|38.96,20.27|
 T A Fistful of Slivers |QID|8336|R|BloodElf|N|To Arcanist Ithanas.|M|38.3,19.1|
 T Aggression |QID|8334|R|BloodElf|M|35.4,22.5|N|To Lanthan Perilon.|
 
 A Felendren the Banished |QID|8335|R|BloodElf|N|From Lanthan Perilon.|M|35.4,22.5|
-C Felendren the Banished |QID|8335|R|BloodElf|N|Kill Arcane Wraiths and Tainted Arcane Wraiths.|M|30.87,27.13|S|
-l Tainted Arcane Sliver|S|QID|8338|L|20483|R|BloodElf|N|Kill and loot the Tainted Arcane Wraiths until they drop the Tainted Arcane Sliver.|
-K Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp and to the top of Falthrien Academy. At the first waypoint there will be two paths to choose, both will merge further on, so either can be taken. At the top, kill Felendren and loot his head. |M|31.69,26.44;30.79,26.40;30.44,26.17;30.55,27.90|L|20799|
+C Felendren the Banished |QID|8335|R|BloodElf|N|Kill Arcane Wraiths|M|30.87,27.13|S|QO|Arcane Wraith slain: 8/8|
+l Tainted Arcane Sliver|S|QID|8338|L|20483|R|BloodElf|N|Kill and loot a Tainted Arcane Wraith, it will drop a Tainted Arcane Sliver.|
+K Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp and to the top of Falthrien Academy. At the first waypoint there will be two paths to choose, both will merge further on, so either can be taken. At the top, kill Felendren and loot his head. |M|31.69,26.44;30.79,26.40;30.44,26.17;30.55,27.90|L|20799|CN|
 l Tainted Arcane Sliver|US|QID|8338|L|20483|R|BloodElf|N|Kill and loot the Tainted Arcane Wraiths until they drop the Tainted Arcane Sliver.|
 A Tainted Arcane Sliver |QID|8338|R|BloodElf|U|20483|N|The Tainted Arcane Sliver starts a quest - click it and accept the quest.|
-C Felendren the Banished |QID|8335|R|BloodElf|N|Finish killing the Arcane Wraiths and Tainted Arcane Wraiths.|M|30.87,27.13|US|
-H Sunstrider Isle|QID|8338|U|6948|R|BloodElf|N|Either Hearthstone back to the starting point, or run back.|M|37.75,21.10|
+C Felendren the Banished |QID|8335|R|BloodElf|N|Kill another Tainted Arcane Wraith|M|30.87,27.13|QO|Tainted Arcane Wraith slain: 2/2|
+C Felendren the Banished |QID|8335|R|BloodElf|N|Finish killing the Arcane Wraiths|M|30.87,27.13|US|QO|Arcane Wraith slain: 8/8|
+H Sunstrider Isle|QID|8338|U|6948|R|BloodElf|N|Hearthstone back to the starting point, or run back.|M|37.75,21.10|
 T Tainted Arcane Sliver |QID|8338|R|BloodElf|N|To Arcanist Helion.|M|37.2,18.9|
-r Repair/Sell Junk|QID|8335|R|BloodElf|M|37.18,19|N|At Jainthess Thelryn.\nRight click this step to continue.|
+r Repair/Sell Unwanted Loot|QID|8335|R|BloodElf|M|37.18,19|N|Good opportunity to repair and sell unwanted loot with Jainthess Thelryn.\nRight click this step to continue.|RANK|3|
 T Felendren the Banished |QID|8335|R|BloodElf|N|To Lanthan Perilon.|M|35.4,22.5|
+
+L Level 4|QID|8347|LVL|4|N|You need to be Level 4 to continue this guide.|R|BloodElf|
 
 A Aiding the Outrunners |QID|8347|R|BloodElf|N|From Lanthan Perilon.|M|35.4,22.5|
 T Aiding the Outrunners |QID|8347|R|BloodElf|N|To Outrunner Alarion.|M|40.4,32.2|
-L Level 5 |QID|9704|LVL|5|N|Please note that you should be at Level 5 as you are not able to do the starting quests from Sunstrider Isle.|R|Goblin,Tauren,Orc,Troll,Forsaken|
-R Eversong Woods|QID|9704|M|56.65,49.67|N|Eversong Woods, the BloodElf starting area (for non BloodElf's). Start by heading to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|R|Goblin,Tauren,Orc,Troll,Forsaken|
-F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin,Tauren,Orc,Troll,Forsaken|
+
 A Slain by the Wretched |QID|9704|N|From Outrunner Alarion.|M|40.4,32.2|R|BloodElf|
-A Slain by the Wretched |QID|9704|M|40.4,32.2|R|Goblin,Tauren,Orc,Troll,Forsaken|N|First quest we can get after the starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|
+
+;The next four quests are for non BloodElfs wishing to do Eversong Woods.
+L Level 5 |QID|9704|LVL|5|N|Please finish the starting quests in your own class area as the starting quests on Sunstrider Isle are not available to your race.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
+R Eversong Woods|QID|9704|M|56.65,49.67|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
+F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
+A Slain by the Wretched |QID|9704|M|40.4,32.2|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
+
+;The guide continues at this point for all races
 T Slain by the Wretched |QID|9704|N|To Slain Outrunner.|M|42.0,35.7|
 A Package Recovery |QID|9705|N|From Slain Outrunner.|M|42.0,35.7|
 T Package Recovery |QID|9705|N|To Outrunner Alarion.|M|40.4,32.2|

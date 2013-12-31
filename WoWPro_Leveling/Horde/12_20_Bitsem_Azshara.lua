@@ -4,18 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2013-12-26 21:40
+-- Who: Ludovicus
+-- Log: Tag cleanup after playinmg through.
+
+-- URL: http://wow-pro.com/node/3217/revisions/25840/view
+-- Date: 2013-12-12 15:46
+-- Who: Fluclo
+-- Log: Added guide level requirement, added level to Beyond Durotar which would be for players Level 16 and over, added Accept step for Warchief's Command which is for players up to level 15.
+
+-- URL: http://wow-pro.com/node/3217/revisions/25725/view
 -- Date: 2013-06-18 08:53
 -- Who: Emmaleah
 -- Log: switch coordinates for Lady Silisthra and Lady Vesthra - per comments / and confirmed cords on wowhead
 
 -- URL: http://wow-pro.com/node/3217/revisions/25497/view
 -- Date: 2013-01-22 17:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord Teaks
 
 -- URL: http://wow-pro.com/node/3217/revisions/25378/view
 -- Date: 2013-01-12 20:04
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3217/revisions/24954/view
@@ -25,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3217/revisions/24673/view
 -- Date: 2011-07-11 22:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweaks!
 
 -- URL: http://wow-pro.com/node/3217/revisions/24551/view
@@ -35,22 +45,22 @@
 
 -- URL: http://wow-pro.com/node/3217/revisions/24321/view
 -- Date: 2011-04-29 15:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 47 for step C has unknown tag [n], Line 47 for step C has unknown tag [Attack one of the ...], Line 379, for step A non-decimal PRE, Line 609 for step A has 1 M coords, Line 690 for step T has unknown tag [To Kadrak.].
 
 -- URL: http://wow-pro.com/node/3217/revisions/24068/view
 -- Date: 2011-01-29 17:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added QIDs to LVL 18,20 steps.
 
 -- URL: http://wow-pro.com/node/3217/revisions/24020/view
 -- Date: 2011-01-20 12:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Optimize quest acceptance for [Military Breakthrough].  Optimize quest ordering for [First Degree Mortar], [Hand-me-downs], and [Military Breakthrough] to minimize time in the minefield.
 
 -- URL: http://wow-pro.com/node/3217/revisions/24011/view
 -- Date: 2011-01-18 12:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added two leadin quests to Azshara.  One in the goblin line and another you can get from the quest boards.
 
 -- URL: http://wow-pro.com/node/3217/revisions/23324/view
@@ -68,8 +78,13 @@
 WoWPro.Leveling:RegisterGuide('BitAzs1220', 'Azshara', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
 return [[
 
-T Beyond Durotar|O|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|
-T Warchief's Command: Azshara!|O|QID|28496|M|26.84,77.00|N|To Ag'tor Bloodfist.|
+L Level 9 |QID|25275;25648;28496|LVL|9|N|This guide requires a minimum level of 9 to do.|
+
+A Beyond Durotar|QID|25648|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just outside Orgrimmar's Southern Gates|LVL|16|LEAD|25275;28496|
+T Beyond Durotar|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275;28496|
+
+A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|25275;25648|
+T Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275;25648|
 
 A Venison for the Troops|QID|14118|M|26.88,76.98|N|From Ag'tor Bloodfist.|
 A The Eyes of Ashenvale|QID|14117|M|26.88,76.98|N|From Ag'tor Bloodfist.|
@@ -150,9 +165,9 @@ T Private Chat|QID|24453|M|29.55,66.73|N|Back to the Orgrimmar Rocketway Exchang
 A A Thousand Stories in the Sand|QID|14201|M|29.7,66.9|N|From Malynea Skyreaver.|
 A Survey the Lakeshore|QID|14202|M|29.71,67.11|N|From Custer Clubnik.|N|Protect the goblin that you call with the beacon, while they survey the West, North and East Markers.|
 C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|S|N|Collect Recovered Artifacts.|
-N Survey North Marker|QID|14202|U|48665|QO|Survey North Marker: 1/1|M|34.69,71.57|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
-N Survey  Marker|QID|14202|U|48665|QO|Survey  Marker: 1/1|M|37.37,74.61|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
-C Survey the Lakeshore|QID|14202|U|48665|M|34.29,76.62|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
+C Survey North Marker|QID|14202|U|48665|QO|Survey North Marker: 1/1|M|34.69,71.57|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
+C Survey  Marker|QID|14202|U|48665|QO|Survey East Marker: 1/1|M|37.37,74.61|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
+C Survey the Lakeshore|QID|14202|U|48665|QO|Survey West Marker: 1/1|M|34.29,76.62|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
 C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|US|N|Collect Recovered Artifacts.|
 T A Thousand Stories in the Sand|QID|14201|M|29.64,66.86|N|To Malynea Skyreaver.|
 
@@ -227,7 +242,7 @@ A The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.50,74.75|N|From Hoba
 C The Terrible Tinkers of the Ruined Reaches|QID|14383|S|M|43.49,83.00;40.07,84.43|CS|N|Follow the lit path West, kill gnomes on your way to Bingham Gadgetspring inside the house. Kill him.|
 l Giant-Sized Laxative|QID|14385|PRE|14377|M|43.49,83.00;40.07,84.43|CS|L|49230|N|The Laxative is upstairs in Bingham's house.|
 C Azsharite Experiment Number One|QID|14385|PRE|14377|M|47.8,75.5|N|Attempt to give the laxative to Gormungan.|
-C The Terrible Tinkers of the Ruined Reaches|QID|14383|US|M|43.49,83.00;40.07,84.43|CN|N|Kill the rest of the gnomes needed to finish the quest.|
+C The Terrible Tinkers of the Ruined Reaches|QID|14383|US|M|43.49,83.00;40.07,84.43|CS|N|Kill the rest of the gnomes needed to finish the quest.|
 T Azsharite Experiment Number One|QID|14385|M|50.38,74.29|N|To Assistant Greely.|
 A Azsharite Experiment Number Two|QID|14388|PRE|14385|M|50.38,74.29|N|From Assistant Greely.|
 T The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.51,74.74|N|To Hobart Grapplehammer.|
@@ -244,20 +259,20 @@ T Operation Fishgut|QID|14478|M|60.62,50.67|N|To Commander Molotov.|
 A Rapid Deployment|QID|24455|PRE|14478|M|60.62,50.67|N|From Commander Molotov.|
 T Rapid Deployment|QID|24455|M|58.07,52.32|N|To Captain Desoto.|
 A There Are Many Like It|QID|14479|PRE|24455|M|58.07,52.32|N|From Captain Desoto.
-F The Shattered Stand|QID|24437|M|57.89,52.22|N|Hop on the Surface to Other Surface Transport rocket when you're ready to leave.|
-A First Come, First Served|QID|24437|M|39.13,51.63|N|From Ruckus.|
+F The Shattered Strand|QID|24437|M|57.89,52.22|N|Hop on the Surface to Other Surface Transport rocket when you're ready to leave.|
+A First Come, First Served|QID|24437|M|39.14,51.77|N|From Ruckus.|
 T There Are Many Like It|QID|14479|M|41.50,53.63|N|To Lieutenant Drex.|
 
 A Mop Up|QID|24435|PRE|14479|M|41.50,53.63|N|From Lieutenant Drex.|
 A Halo Drops|QID|24436|M|41.41,53.92|N|From Sergeant Hort.|
 C Mop Up|QID|24435|PRE|14479|S|M|41.50,53.63|N|Kill Naga.|
 C Halo Drops|QID|24436|U|49679|M|41.41,53.92|N|Use the Flare Gun near Wounded Soldiers.|S|
-N Southern Pagoda|QID|24437|U|49685|M|43.88,59.92|QO|Southern Pagoda claimed: 1/1|N|Stand in the blue light and use the Flag and clam the Southern Pagoda.|
-N Big ol' Tower|QID|24437|U|49685|M|43.6,43.42|QO|Big ol' Tower claimed: 1/1|N|Stand in the blue light and use the Flag and clam the Big ol' Tower.|
-C First Come, First Served|QID|24437|U|49685|M|45.46,38.54|N|Stand in the blue light and use the Flag and clam the Northern Vista.|
+N Southern Pagoda|QID|24437|U|49685|M|43.88,59.92|QO|Southern Pagoda claimed: 1/1|N|Stand in the blue light and use the Flag and claim the Southern Pagoda.|
+N Big ol' Tower|QID|24437|U|49685|M|43.6,43.42|QO|Big ol' Tower claimed: 1/1|N|Stand in the blue light and use the Flag and claim the Big ol' Tower.|
+C First Come, First Served|QID|24437|U|49685|M|45.46,38.54|N|Stand in the blue light and use the Flag and claim the Northern Vista.|
 C Halo Drops|QID|24436|U|49679|M|41.41,53.92|N|Use the Flare Gun near Wounded Soldiers.|US|
 C Mop Up|QID|24435|PRE|14479|US|M|41.50,53.63|N|Finish killing Nagas for this quest.|
-T First Come, First Served|QID|24437|M|39.13,51.63|N|To Ruckus.|
+T First Come, First Served|QID|24437|M|39.14,51.77|N|To Ruckus.|
 T Mop Up|QID|24435|M|41.50,53.63|N|To Lieutenant Drex.|
 T Halo Drops|QID|24436|M|41.41,53.92|N|To Sergeant Hort.|
 
@@ -265,9 +280,9 @@ A Field Promotion|QID|24448|PRE|24436|M|41.50,53.63|N|From Lieutenant Drex.|
 T Field Promotion|QID|24448|M|34.34,44.89|N|To Captain Tork.|
 A Still Beating Heart|QID|14487|PRE|24448|M|34.34,44.89|N|From Captain Tork.|
 A Extermination|QID|14480|M|34.44,44.77|N|From Sergeant Zelks.|
-A Head of the Snake|QID|14484|PRE|14487|M|34.44,44.77|N|From Sergeant Zelks.|
-A Ticker Required|QID|14485|PRE|14487|M|34.44,44.77|N|From Sergeant Zelks.|
-A Handling the Goods|QID|14486|PRE|14487|M|34.52,44.71|N|From Tora Halotrix.|
+A Head of the Snake|QID|14484|PRE|24448|M|34.44,44.77|N|From Sergeant Zelks.|
+A Ticker Required|QID|14485|PRE|24448|M|34.44,44.77|N|From Sergeant Zelks.|
+A Handling the Goods|QID|14486|PRE|24448|M|34.52,44.71|N|From Tora Halotrix.|
 C Handling the Goods|QID|14486|U|49629|S|M|35.11,49.95|N|Collect 12 Highborne Tablets from the Ruins of Eldarath.|
 C Extermination|QID|14480|U|49629|S|M|33.49,48.16|N|Kill 30 Spitelash Naga in the Ruins of Eldarath.|
 C Ticker Required|QID|14485|U|49629|M|34.30,48.21;34.06,51.64|CN|N|Bring Ticker into the ruins and cover him as he sets up bombs at 3 of the Spitelash Runestones. The first one should be respawned by the time you've blown the second one up.|

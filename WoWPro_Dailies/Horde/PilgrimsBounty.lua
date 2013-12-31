@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
 -- Date: 2013-06-18 00:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Got rid of stuttered M tag
 
 -- URL: http://wow-pro.com/node/3456/revisions/24897/view
 -- Date: 2012-01-19 00:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct node numbers
 
 -- URL: http://wow-pro.com/node/3456/revisions/24896/view
 -- Date: 2012-01-19 00:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GIT
 
 WoWPro.Dailies:RegisterGuide("LudoPilgrimDailiesH","Pilgrim's Bounty","Pilgrim's Bounty","WE", "Ludovicus", "Horde", function()

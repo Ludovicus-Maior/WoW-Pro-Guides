@@ -10,22 +10,22 @@
 
 -- URL: http://wow-pro.com/node/3246/revisions/25747/view
 -- Date: 2013-08-16 19:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleaned up some QUIDs and added a hint for [Ace in the Hole].
 
 -- URL: http://wow-pro.com/node/3246/revisions/25563/view
 -- Date: 2013-03-23 18:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 27157's name [Drudges...] does not match Grail's database [Drudges... ].
 
 -- URL: http://wow-pro.com/node/3246/revisions/25446/view
 -- Date: 2013-01-13 17:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3246/revisions/24389/view
 -- Date: 2011-05-17 00:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3246/revisions/23832/view
 -- Date: 2010-12-27 09:04

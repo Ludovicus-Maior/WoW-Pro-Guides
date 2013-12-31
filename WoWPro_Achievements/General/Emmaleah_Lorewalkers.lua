@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
 -- Date: 2013-09-10 23:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Interleave the last turnins to avoid client crash if you turn in more than one quest before "Storytime" starts.   You could pile up X copies of Lorewalker Cho telling stories at the same time and then BOOOM!
 
 -- URL: http://wow-pro.com/node/3506/revisions/25512/view
@@ -69,16 +69,16 @@
 
 -- URL: http://wow-pro.com/node/3506/revisions/25138/view
 -- Date: 2012-10-10 11:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added credits
 
 -- URL: http://wow-pro.com/node/3506/revisions/25137/view
 -- Date: 2012-10-10 11:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3506/revisions/25117/view
 -- Date: 2012-10-07 22:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Achievements:RegisterGuide('Lorewalkers','MoP Zones', 'Lorewalkers', 'Reputation', 'Mists of Pandaria', 'Community','Neutral', function()
 return [[

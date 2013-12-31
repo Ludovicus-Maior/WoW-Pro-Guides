@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
 -- Date: 2013-08-15 23:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: added panda support for [A Perfect Costume].
 
 -- URL: http://wow-pro.com/node/3265/revisions/25387/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3265/revisions/24304/view
 -- Date: 2011-04-29 14:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 121 for step C has 1 M coords, Line 123 for step C has 1 M coords, Line 127 for step C has 1 M coords, Line 179 for step K has 3 M coords.
 
 -- URL: http://wow-pro.com/node/3265/revisions/23930/view

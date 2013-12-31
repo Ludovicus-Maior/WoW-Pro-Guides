@@ -4,6 +4,19 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2013-12-16 20:54
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25843/view
+-- Date: 2013-12-12 16:12
+-- Who: Fluclo
+-- Log: The quest Much to Learn wasn't showing up for Pandaren Monks.
+
+-- URL: http://wow-pro.com/node/3483/revisions/25842/view
+-- Date: 2013-12-12 16:05
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3483/revisions/25838/view
 -- Date: 2013-12-11 17:36
 -- Who: Fluclo
 -- Log: Added |R| tag throughout to allow Pandaren only, added note for other classes, added QID to couple of notes near end of guide.
@@ -26,22 +39,22 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/25711/view
 -- Date: 2013-06-18 00:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Missing coordinate, 1/1 in guide FlucloPanda, line [C Stronger Than Reeds].
 
 -- URL: http://wow-pro.com/node/3483/revisions/25355/view
 -- Date: 2013-01-12 18:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Get rid of extra M tag
 
 -- URL: http://wow-pro.com/node/3483/revisions/25354/view
 -- Date: 2013-01-12 18:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC, and CN tags.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25228/view
 -- Date: 2012-12-02 15:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Ask the user to log out or reload to get the faction specific guides loaded up.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25213/view
@@ -51,22 +64,22 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/25103/view
 -- Date: 2012-10-02 23:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add new faction specific quest ending!
 
 -- URL: http://wow-pro.com/node/3483/revisions/25082/view
 -- Date: 2012-09-24 23:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: It is Stormwind City, not Stormwind!
 
 -- URL: http://wow-pro.com/node/3483/revisions/25032/view
 -- Date: 2012-07-06 21:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Remove the faction tags at the end sequence.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25031/view
 -- Date: 2012-07-06 21:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Credited Fluclo with the guide, added successor zones.
 
 -- URL: http://wow-pro.com/node/3483/revisions/25029/view
@@ -88,20 +101,16 @@
 
 -- URL: http://wow-pro.com/node/3483/revisions/25020/view
 -- Date: 2012-07-01 14:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Version
 
-WoWPro.Leveling:RegisterGuide('FlucloPanda', 'The Wandering Isle (Pandaren Only)', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
+WoWPro.Leveling:RegisterGuide('FlucloPanda', 'TheWanderingIsle (Pandaren Only)', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
 return [[
 
-N Class Restriction|QID|99999|N|Sorry, only Pandaren are allowed on The Wandering Isle. Please find another guide.|R|Draenei;Dwarf;Gnome;Human;NightElf;Worgen;BloodElf;Goblin;Orc;Tauren;Troll;Undead|
+N Race Restriction|QID|99999|N|Sorry, only Pandaren are allowed on The Wandering Isle. Please find another guide.|R|Draenei;Dwarf;Gnome;Human;NightElf;Worgen;BloodElf;Goblin;Orc;Tauren;Troll;Undead|
 
-T Much to Learn |QID|30040|M|56.66,18.17|N|To Master Shang Xi.|C|Mage|R|Pandaren|
-T Much to Learn |QID|30041|M|56.66,18.17|N|To Master Shang Xi.|C|Hunter|R|Pandaren|
-T Much to Learn |QID|30042|M|56.66,18.17|N|To Master Shang Xi.|C|Priest|R|Pandaren|
-T Much to Learn |QID|30043|M|56.66,18.17|N|To Master Shang Xi.|C|Rogue|R|Pandaren|
-T Much to Learn |QID|30044|M|56.66,18.17|N|To Master Shang Xi.|C|Shaman|R|Pandaren|
-T Much to Learn |QID|30045|M|56.66,18.17|N|To Master Shang Xi.|C|Warrior|R|Pandaren|
+A Much to Learn |QID|30039;30040;30041;30042;30043;30044;30045|M|56.66,18.17|N|From Alert UI.|R|Pandaren|
+T Much to Learn |QID|30039;30040;30041;30042;30043;30044;30045|M|56.66,18.17|N|To Master Shang Xi.|R|Pandaren|
 
 A The Lesson of the Iron Bough|QID|30027|M|56.66,18.17|N|From Master Shang Xi. Monk|C|Monk|R|Pandaren|
 A The Lesson of the Iron Bough|QID|30033|M|56.66,18.17|N|From Master Shang Xi. Hunter|C|Mage|R|Pandaren|

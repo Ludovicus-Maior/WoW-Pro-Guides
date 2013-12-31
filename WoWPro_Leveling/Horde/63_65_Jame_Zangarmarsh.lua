@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
 -- Date: 2013-03-23 18:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected name of [Keep Thornfang Hill Clear!]
 
 -- URL: http://wow-pro.com/node/3274/revisions/25467/view
 -- Date: 2013-01-13 19:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3274/revisions/24867/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3274/revisions/24241/view
 -- Date: 2011-04-20 18:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3274/revisions/23430/view
 -- Date: 2010-12-03 12:13

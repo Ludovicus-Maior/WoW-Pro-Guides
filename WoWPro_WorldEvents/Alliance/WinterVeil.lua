@@ -5,32 +5,32 @@
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
 -- Date: 2013-05-17 20:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  [A Smokywood Pastures' Thank You!]
 
 -- URL: http://wow-pro.com/node/3458/revisions/25642/view
 -- Date: 2013-05-14 19:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord and quest corrections
 
 -- URL: http://wow-pro.com/node/3458/revisions/25301/view
 -- Date: 2013-01-09 17:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3458/revisions/25266/view
 -- Date: 2012-12-25 20:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update winter veil to use the latest WE updates and eliminate many manual click offs!
 
 -- URL: http://wow-pro.com/node/3458/revisions/24901/view
 -- Date: 2012-01-19 00:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct node number
 
 -- URL: http://wow-pro.com/node/3458/revisions/24900/view
 -- Date: 2012-01-19 00:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GIT
 
 WoWPro.WorldEvents:RegisterGuide("LudoWinterVeilA","Winter Veil (Alliance)","Winter Veil (Alliance)","WE", "Ludovicus", "Alliance", function()

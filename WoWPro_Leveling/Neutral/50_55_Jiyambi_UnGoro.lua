@@ -24,15 +24,15 @@
 
 -- URL: http://wow-pro.com/node/3262/revisions/24403/view
 -- Date: 2011-05-17 01:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3262/revisions/24395/view
 -- Date: 2011-05-17 01:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3262/revisions/24336/view
 -- Date: 2011-04-29 16:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 92 for step C has unknown tag [GRP]
 
 -- URL: http://wow-pro.com/node/3262/revisions/23406/view

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
 -- Date: 2013-03-23 19:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleaned up [The Holy Water of Clarity]
 
 -- URL: http://wow-pro.com/node/3238/revisions/25286/view
 -- Date: 2013-01-09 01:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Two different QIDs for [The Holy Water of Clarity]
 
 -- URL: http://wow-pro.com/node/3238/revisions/24716/view
@@ -25,12 +25,12 @@
 
 -- URL: http://wow-pro.com/node/3238/revisions/24331/view
 -- Date: 2011-04-29 16:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 216 for step R has unknown tag [Nalk to Keebok ..]
 
 -- URL: http://wow-pro.com/node/3238/revisions/24080/view
 -- Date: 2011-01-30 19:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3238/revisions/23580/view

@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
 -- Date: 2013-05-09 22:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added [Riding the Skies].
 
 -- URL: http://wow-pro.com/node/3505/revisions/25604/view
 -- Date: 2013-03-25 23:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed the now gone leadin quests, fixed some names, and a few other tweaks.
 
 -- URL: http://wow-pro.com/node/3505/revisions/25533/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3505/revisions/25398/view
 -- Date: 2013-01-12 22:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added 2 CN tags
 
 -- URL: http://wow-pro.com/node/3505/revisions/25257/view
@@ -40,11 +40,11 @@
 
 -- URL: http://wow-pro.com/node/3505/revisions/25160/view
 -- Date: 2012-10-24 11:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3505/revisions/25116/view
 -- Date: 2012-10-07 22:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("EmmCloud", "The Jade Forest", "Order of the Cloud Serpent Dailies", "MoP", "Emmaleah", "Neutral", function()
 

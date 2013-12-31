@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
 -- Date: 2013-01-12 17:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update exploration of Dun_Morogh: The Grizzled Den is gone.
 
 -- URL: http://wow-pro.com/node/3475/revisions/25011/view
 -- Date: 2012-06-30 16:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Wrong zone name for The Cape of Stranglethorn
 
 -- URL: http://wow-pro.com/node/3475/revisions/24982/view
 -- Date: 2012-05-27 17:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Achievements:RegisterGuide("TwiExpSF","Silverpine Forest","Silverpine Forest","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
 return [[

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
 -- Date: 2013-01-13 17:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Copied [A Great Idea] sequence from Alliance guide.
 
 -- URL: http://wow-pro.com/node/3260/revisions/24945/view
@@ -15,7 +15,7 @@
 
 -- URL: http://wow-pro.com/node/3260/revisions/24352/view
 -- Date: 2011-04-29 18:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  Line 150 for step C Bad coord In the center of the desert:
 
 -- URL: http://wow-pro.com/node/3260/revisions/23402/view

@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
 -- Date: 2013-01-13 17:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC and CS tags
 
 -- URL: http://wow-pro.com/node/3230/revisions/24479/view

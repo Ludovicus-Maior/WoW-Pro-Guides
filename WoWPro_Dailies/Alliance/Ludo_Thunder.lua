@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_alliance
 -- Date: 2013-03-07 23:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: First cut for first phase!
 
 -- URL: http://wow-pro.com/node/3537/revisions/25545/view
 -- Date: 2013-03-06 22:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Notes for guide
 
 WoWPro.Dailies:RegisterGuide("LudoThunderKing", "Isle of Thunder", "Thunder King", "MoP", "Ludovicus", "Alliance", function()

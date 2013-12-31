@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
 -- Date: 2013-01-13 19:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3278/revisions/24881/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3278/revisions/24143/view
 -- Date: 2011-03-05 23:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Duplicated for the other faction [Vengeful Souls]
 
 -- URL: http://wow-pro.com/node/3278/revisions/24142/view
 -- Date: 2011-03-05 23:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected [Vengeful Souls] as per Josral and added some coords.
 
 -- URL: http://wow-pro.com/node/3278/revisions/23444/view

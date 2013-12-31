@@ -5,32 +5,32 @@
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
 -- Date: 2013-09-10 23:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coordinate corrections for "Xaril the Poisoned Mind".
 
 -- URL: http://wow-pro.com/node/3504/revisions/25696/view
 -- Date: 2013-06-04 23:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added QUIDs to the notes at the start so it stops asking ya questions if you don't need it anymore.
 
 -- URL: http://wow-pro.com/node/3504/revisions/25667/view
 -- Date: 2013-05-17 19:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added the missing CN tags
 
 -- URL: http://wow-pro.com/node/3504/revisions/25652/view
 -- Date: 2013-05-15 23:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing quests at revered.  General cleanups.  Still missing some CN/CS/CC tags and T tags.
 
 -- URL: http://wow-pro.com/node/3504/revisions/25553/view
 -- Date: 2013-03-20 00:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected quest names from  Blanckaert's report.
 
 -- URL: http://wow-pro.com/node/3504/revisions/25300/view
 -- Date: 2013-01-09 17:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3504/revisions/25274/view
@@ -80,12 +80,12 @@
 
 -- URL: http://wow-pro.com/node/3504/revisions/25143/view
 -- Date: 2012-10-18 23:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Original from way2hairy
 
 -- URL: http://wow-pro.com/node/3504/revisions/25115/view
 -- Date: 2012-10-07 22:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("WayKlaxxi", "Dread Wastes", "Klaxxi", "MoP", "Way2hairy", "Neutral", function()
 

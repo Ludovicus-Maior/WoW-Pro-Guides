@@ -5,29 +5,29 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
 -- Date: 2013-12-01 00:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Just a few tweaks
 
 -- URL: http://wow-pro.com/node/3232/revisions/25714/view
 -- Date: 2013-06-18 00:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Missing coordinate, 1/1 in guide WkjNor2530, line [C Raptor Mastery].
 
 -- URL: http://wow-pro.com/node/3232/revisions/25502/view
 -- Date: 2013-01-22 18:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleaned up guide start to account for Ashenvale.
 --	Corrected flight point names.
 --	Coord Tweaks.
 
 -- URL: http://wow-pro.com/node/3232/revisions/25478/view
 -- Date: 2013-01-13 19:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3232/revisions/25284/view
 -- Date: 2013-01-09 00:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add Tethis spawn points.
 
 -- URL: http://wow-pro.com/node/3232/revisions/24477/view
@@ -37,17 +37,17 @@
 
 -- URL: http://wow-pro.com/node/3232/revisions/24096/view
 -- Date: 2011-02-04 22:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Changed WWoWPro.Leveling to WoWPro.Leveling
 
 -- URL: http://wow-pro.com/node/3232/revisions/24089/view
 -- Date: 2011-01-30 19:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3232/revisions/24088/view
 -- Date: 2011-01-30 19:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Reformatted to eliminate rich text formatting.
 --	No other changes were made.
 

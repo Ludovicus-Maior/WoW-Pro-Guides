@@ -10,12 +10,12 @@
 
 -- URL: http://wow-pro.com/node/3485/revisions/25716/view
 -- Date: 2013-06-18 00:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 30058's name [Mothran!] does not match Grail's database [Mothallus!]
 
 -- URL: http://wow-pro.com/node/3485/revisions/25672/view
 -- Date: 2013-05-17 19:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad coord on [Yellow and Red Make Orange]
 
 -- URL: http://wow-pro.com/node/3485/revisions/25384/view
@@ -25,32 +25,32 @@
 
 -- URL: http://wow-pro.com/node/3485/revisions/25306/view
 -- Date: 2013-01-09 22:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3485/revisions/25211/view
 -- Date: 2012-11-20 00:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Small coord tweaks, and flipping a CC to a CS.  Got rid of duplicate |N|N| tags.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25208/view
 -- Date: 2012-11-16 12:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed an Extra |N| in Mothran! fight.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25154/view
 -- Date: 2012-10-23 01:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleaned up coords. Small syntax corrections.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25153/view
 -- Date: 2012-10-22 20:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Get rid of odd unicode char.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25147/view
 -- Date: 2012-10-22 17:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Merge of my changes.  Lots of coord refinements and a few small flow changes.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25140/view
@@ -60,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3485/revisions/25105/view
 -- Date: 2012-10-03 22:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: New Update from https://github.com/Emmaleah/WoW-Pro-Guides/blob/3dced306c1715d5031a9b4fed400a8bc7553f42e/WoWPro_Leveling/Neutral/86_88_Emmaleah_Valley4Winds.lua
 
 -- URL: http://wow-pro.com/node/3485/revisions/25096/view
@@ -71,17 +71,17 @@
 
 -- URL: http://wow-pro.com/node/3485/revisions/25080/view
 -- Date: 2012-09-24 22:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Merge in https://github.com/Emmaleah/WoW-Pro-Guides/commit/b285332ee04e5c4c65a8e139632fb630dbad4b0c
 
 -- URL: http://wow-pro.com/node/3485/revisions/25059/view
 -- Date: 2012-08-28 19:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Test play by Laotseu on Sun, 2012-08-26 22:33. 
 
 -- URL: http://wow-pro.com/node/3485/revisions/25048/view
 -- Date: 2012-08-28 18:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: As per Emmaleah
 
 -- URL: http://wow-pro.com/node/3485/revisions/25037/view
@@ -90,16 +90,16 @@
 
 -- URL: http://wow-pro.com/node/3485/revisions/25036/view
 -- Date: 2012-07-15 01:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3485/revisions/25035/view
 -- Date: 2012-07-13 17:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected line breaks.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25034/view
 -- Date: 2012-07-13 16:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Version from Emmaleah
 
 WoWPro.Leveling:RegisterGuide('EmmVal8688', 'Valley of the Four Winds', 'Emmaleah', '86', '88', 'RajKra8788|EmmKra8788', 'Neutral', function() return [[

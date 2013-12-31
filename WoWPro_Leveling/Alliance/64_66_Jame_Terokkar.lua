@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
 -- Date: 2013-08-15 23:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add missing coords around [Terokkarantula] quests.
 
 -- URL: http://wow-pro.com/node/3277/revisions/25400/view
 -- Date: 2013-01-13 01:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Some CN tags
 
 -- URL: http://wow-pro.com/node/3277/revisions/24890/view
 -- Date: 2012-01-18 22:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add coords for [ Taken in the Night], [Auchindoun] and [Skywing].
 
 -- URL: http://wow-pro.com/node/3277/revisions/24836/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/24677/view
 -- Date: 2011-07-11 22:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add numeric REP tags
 
 -- URL: http://wow-pro.com/node/3277/revisions/24470/view
@@ -40,7 +40,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/24306/view
 -- Date: 2011-04-29 14:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 55 for step N has 3 M coords, Line 248 for step C has unknown tag [52.00,58.00], Line 273 for step C has unknown tag [52.00,58.00], Line 289 for step T has unknown tag [To Magistriz Fyalenn.].
 
 -- URL: http://wow-pro.com/node/3277/revisions/24208/view
@@ -55,7 +55,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/24119/view
 -- Date: 2011-02-20 17:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3277/revisions/24004/view
 -- Date: 2011-01-17 03:49

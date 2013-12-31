@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3545/revisions/25560/view
 -- Date: 2013-03-23 16:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Clone from http://wow-pro.com/node/3541
 
 WoWPro.Dailies:RegisterGuide("EmmPetBattles", "Vale of Eternal Blossoms", "Pet Battle Dailies", "MoP", "Emmaleah", "Horde", function()

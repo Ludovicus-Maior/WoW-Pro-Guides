@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
 -- Date: 2013-01-13 14:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3249/revisions/25333/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3249/revisions/24414/view
 -- Date: 2011-05-23 18:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3249/revisions/24231/view
 -- Date: 2011-04-14 14:41

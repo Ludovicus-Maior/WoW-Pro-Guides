@@ -5,33 +5,33 @@
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
 -- Date: 2013-10-14 19:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Breakup the questlines warning at the top, add the ;nobonus tag to the REP argument to stop prompting me to buy the silly thing when I have it.
 
 -- URL: http://wow-pro.com/node/3503/revisions/25772/view
 -- Date: 2013-10-14 17:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added some missing M tags and trimmed one warning.
 --	Need to add magic REP tags.
 
 -- URL: http://wow-pro.com/node/3503/revisions/25713/view
 -- Date: 2013-06-18 00:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 32010's name [A Celestial Task!] does not match Grail's database [A Celestial Task].
 
 -- URL: http://wow-pro.com/node/3503/revisions/25695/view
 -- Date: 2013-06-04 23:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Spelling errors, corrds, and misc fixes as I play through.
 
 -- URL: http://wow-pro.com/node/3503/revisions/25673/view
 -- Date: 2013-05-17 19:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Various errors!
 
 -- URL: http://wow-pro.com/node/3503/revisions/25651/view
 -- Date: 2013-05-14 19:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3503/revisions/25534/view
 -- Date: 2013-02-18 06:25
@@ -75,11 +75,11 @@
 
 -- URL: http://wow-pro.com/node/3503/revisions/25159/view
 -- Date: 2012-10-24 11:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3503/revisions/25114/view
 -- Date: 2012-10-07 22:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("EmmAugCel", "Vale of Eternal Blossoms", "August Celestials Dailies", "MoP", "Emmaleah", "Neutral", function()
 return [[

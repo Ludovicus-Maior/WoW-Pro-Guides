@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
 -- Date: 2013-05-17 20:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Built to Last
 
 -- URL: http://wow-pro.com/node/3306/revisions/25566/view
 -- Date: 2013-03-23 18:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lots of quest name corrections!
 
 -- URL: http://wow-pro.com/node/3306/revisions/25457/view
 -- Date: 2013-01-13 18:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add C* tags
 
 -- URL: http://wow-pro.com/node/3306/revisions/25315/view
 -- Date: 2013-01-09 22:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3306/revisions/24610/view
@@ -31,17 +31,17 @@
 
 -- URL: http://wow-pro.com/node/3306/revisions/24530/view
 -- Date: 2011-06-08 03:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct Successor.
 
 -- URL: http://wow-pro.com/node/3306/revisions/24349/view
 -- Date: 2011-04-29 17:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 147 for step C has unknown tag [rUS], Line 193 for step A Bad coord r63.92, Line 299 for step C has unknown tag [Shimmering Expanse], ...
 
 -- URL: http://wow-pro.com/node/3306/revisions/24171/view
 -- Date: 2011-03-12 18:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Unique IDs
 
 -- URL: http://wow-pro.com/node/3306/revisions/24019/view

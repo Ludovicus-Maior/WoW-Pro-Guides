@@ -5,38 +5,38 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
 -- Date: 2013-09-10 23:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Moved T [Relics of the Swarm] and corrected C to A for [Skeer the Bloodseeker].
 
 -- URL: http://wow-pro.com/node/3493/revisions/25697/view
 -- Date: 2013-06-04 23:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added redirects to the dalies at REP thresholds for special quests.
 --	Conditionalized special item steps, so you don't see them once you go past them.  Added |T| tags and jiggered the flow and coords as I played through.
 
 -- URL: http://wow-pro.com/node/3493/revisions/25688/view
 -- Date: 2013-05-28 12:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed extra CC that was preventing "R Soggy's Gamble|" from autocompleting.
 
 -- URL: http://wow-pro.com/node/3493/revisions/25613/view
 -- Date: 2013-05-09 22:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played through and corrected things!
 
 -- URL: http://wow-pro.com/node/3493/revisions/25562/view
 -- Date: 2013-03-23 18:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 31069's name [Bound with Shade] does not match Grail's database [Bound With Shade].
 
 -- URL: http://wow-pro.com/node/3493/revisions/25360/view
 -- Date: 2013-01-12 18:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a CS and CN tag
 
 -- URL: http://wow-pro.com/node/3493/revisions/25304/view
 -- Date: 2013-01-09 22:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3493/revisions/25216/view
@@ -53,12 +53,12 @@
 
 -- URL: http://wow-pro.com/node/3493/revisions/25072/view
 -- Date: 2012-09-15 20:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected URLs
 
 -- URL: http://wow-pro.com/node/3493/revisions/25071/view
 -- Date: 2012-09-15 20:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial version from Emmaleah
 
 WoWPro.Leveling:RegisterGuide('EmmDre8990', 'Dread Wastes', 'Emmaleah', '89', '90', 'WayKlaxxi', 'Neutral', function()

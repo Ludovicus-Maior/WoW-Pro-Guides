@@ -5,24 +5,24 @@
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
 -- Date: 2013-12-01 00:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added ACH tags to steps.
 
 -- URL: http://wow-pro.com/node/3444/revisions/24818/view
 -- Date: 2011-11-20 23:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3444/revisions/24815/view
 -- Date: 2011-11-20 19:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3444/revisions/24809/view
 -- Date: 2011-11-17 00:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3444/revisions/24805/view
 -- Date: 2011-11-16 02:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3444/revisions/24789/view
 -- Date: 2011-10-30 19:10

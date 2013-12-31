@@ -15,16 +15,16 @@
 
 -- URL: http://wow-pro.com/node/3285/revisions/25088/view
 -- Date: 2012-09-25 00:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3285/revisions/24675/view
 -- Date: 2011-07-11 22:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cgange to Numeric REP tags
 
 -- URL: http://wow-pro.com/node/3285/revisions/24576/view
 -- Date: 2011-06-22 02:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: # Checking ../WoWPro_Leveling/Alliance/70_70_Crackerhead22_Shadowmoon.lua
 --	! Line 150 for step A has unknown tag [From Stormer Ewan Wildwing.]: [A Minions of the Shadow Council|QID|10582|M|40.43,41.36|From Stormer Ewan Wildwing.|]
 
@@ -34,7 +34,7 @@
 
 -- URL: http://wow-pro.com/node/3285/revisions/24386/view
 -- Date: 2011-05-15 18:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3285/revisions/24383/view
 -- Date: 2011-05-15 01:21
@@ -47,11 +47,11 @@
 
 -- URL: http://wow-pro.com/node/3285/revisions/24221/view
 -- Date: 2011-04-05 23:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3285/revisions/24190/view
 -- Date: 2011-03-20 20:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Major update; lots of coord updates, missing quests for scryers, missing 'C' lines, added waypoints.
 
 -- URL: http://wow-pro.com/node/3285/revisions/24027/view

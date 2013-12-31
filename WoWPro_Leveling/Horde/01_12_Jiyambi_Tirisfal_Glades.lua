@@ -4,13 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2013-12-26 21:16
+-- Who: Ludovicus
+-- Log: QID corrections and fixups for goblins in the zone.
+
+-- URL: http://wow-pro.com/node/3205/revisions/25133/view
 -- Date: 2012-10-09 00:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added undead monk quests.
 
 -- URL: http://wow-pro.com/node/3205/revisions/25128/view
 -- Date: 2012-10-08 19:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3205/revisions/24730/view
 -- Date: 2011-08-13 21:23
@@ -24,7 +29,7 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/24511/view
 -- Date: 2011-06-07 10:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweak Coords on C [Assault on the Rotbrain Encampment]
 
 -- URL: http://wow-pro.com/node/3205/revisions/24473/view
@@ -34,21 +39,21 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/24437/view
 -- Date: 2011-05-28 11:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Race tags needed updates.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24316/view
 -- Date: 2011-04-29 15:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3205/revisions/24070/view
 -- Date: 2011-01-29 17:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing QID to Level 4 step.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24036/view
 -- Date: 2011-01-22 14:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a bunch of |R|Undead,Troll| and |R|Undead| tags where appropriate.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23828/view
@@ -92,7 +97,7 @@ C Those That Couldn't Be Saved|QID|26799|US|M|30.80,70.07|R|Undead|N|Kill zombie
 
 T The Wakening|QID|24960|M|30.65,71.40|R|Undead|N|To Caretaker Caice.|
 
-L Level 2|QID|24960|LVL|2|N|You should be around level 2 by this point.|
+L Level 2|QID|26801|LVL|2|N|You should be around level 2 by this point.|
 
 A Beyond the Graves|QID|25089|M|30.65,71.40|R|Undead|N|From Caretaker Caice.|
 T Those That Couldn't Be Saved|QID|26799|M|30.10,71.30|R|Undead|N|To Undertaker Mordo.|
@@ -108,7 +113,7 @@ C Scourge on our Perimeter|QID|26801|US|M|32.00,62.01|N|Kill zombies and skeleto
 T Recruitment|QID|26800|M|31.63,65.61|R|Undead|N|To Deathguard Saltain.|
 T Scourge on our Perimeter|QID|26801|M|30.87,66.19|N|To Shadow Priest Sarvis.|
 
-L Level 3|QID|26801|LVL|3|N|You should be around level 3 by this point.|
+L Level 3|QID|24961|LVL|3|N|You should be around level 3 by this point.|
 
 A Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|30.87,66.19|N|From Shadow Priest Sarvis.|
 A Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|30.87,66.19|N|From Shadow Priest Sarvis.|
@@ -203,8 +208,8 @@ L Level 6|QID|24974|LVL|6|N|You should be around level 6 by this point.|
 C Marrowpetals|QID|24976|NC|QO|Marrowpetal: 4/4|M|49.18,53.28|N|Collect Marrowpetals from the lake floor.|
 C The Scarlet Palisade|QID|24980|S|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
 
-K Scarlet Crusade|QID|24979|L|52079 |M|34.91,48.45|N|Kill Scarlet Crusade at the Scarlet Palisade until you get a Scarlet Letter.|
-A A Scarlet Letter|QID|24979|PRE|52079|U|52079|M|34.91,48.45|N|Right-click the item you just got.|
+K Scarlet Crusade|QID|24980|L|52079|M|34.91,48.45|N|Kill Scarlet Crusade at the Scarlet Palisade until you get a Scarlet Letter.|
+A A Scarlet Letter|QID|24979|U|52079|M|34.91,48.45|N|Right-click the item you just got.|
 
 C A Scarlet Letter|QID|24979|NC|M|31.69,46.13|N|Go to the top of the tower and talk to Lilian. Watch the scene.|
 C The Scarlet Palisade|QID|24980|US|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
@@ -246,7 +251,7 @@ T Gordo's Task|QID|25038|M|60.11,52.65|N|To Junior Apothecary Holland.|
 A Darkhound Pounding|QID|24990|M|60.11,52.65|N|From Junior Apothecary Holland.|
 A A Thorn in our Side|QID|24981|M|60.50,51.92|N|From Executor Zygand.|
 
-h Brill|QID|24981|M|60.87,51.55|N|At Innkeeper Renee.|
+h Brill|QID|24982|M|60.87,51.55|N|At Innkeeper Renee.|
 
 T The New Forsaken|QID|24982|M|60.95,50.58|N|To Magistrate Sevren, upstairs at the inn.|
 
@@ -351,7 +356,7 @@ C The Mills Overrun|QID|25004|US|M|46.69,31.46|N|Kill and loot both types of ske
 T The Mills Overrun|QID|25004|M|54.55,29.85|N|To Coleman Farthing.|
 T Deaths in the Family|QID|25029|M|54.55,29.85|N|To Coleman Farthing.|
 
-L Level 10|QID|25029|LVL|10|N|You should be around level 10 by this point.|
+L Level 10|LVL|10|N|You should be around level 10 by this point.|
 
 A Speak with Sevren|QID|25005|M|54.55,29.85|N|From Coleman Farthing.|
 

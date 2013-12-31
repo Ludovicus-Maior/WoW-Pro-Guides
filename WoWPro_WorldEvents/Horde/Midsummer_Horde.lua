@@ -15,17 +15,17 @@
 
 -- URL: http://wow-pro.com/node/3407/revisions/25678/view
 -- Date: 2013-05-17 20:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: QID 11761 had an extra ')'
 
 -- URL: http://wow-pro.com/node/3407/revisions/25019/view
 -- Date: 2012-06-30 23:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Got rid of extra spaces.
 
 -- URL: http://wow-pro.com/node/3407/revisions/25017/view
 -- Date: 2012-06-30 21:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3407/revisions/24780/view
 -- Date: 2011-10-29 18:09

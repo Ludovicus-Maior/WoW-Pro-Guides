@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2013-12-26 21:33
+-- Who: Ludovicus
+-- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
+
+-- URL: http://wow-pro.com/node/3199/revisions/25515/view
 -- Date: 2013-01-28 12:41
 -- Who: Crackerhead22
 -- Log: Minor edits for normal Durotar area.
@@ -15,22 +20,22 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/25463/view
 -- Date: 2013-01-13 19:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lost of c* tags and a new zone name "Cleft of Shadow@Orgrimmar"
 
 -- URL: http://wow-pro.com/node/3199/revisions/25461/view
 -- Date: 2013-01-13 18:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3199/revisions/25342/view
 -- Date: 2013-01-11 23:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3199/revisions/25126/view
 -- Date: 2012-10-08 19:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Get rid of - in zone names.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24660/view
@@ -55,55 +60,55 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/24512/view
 -- Date: 2011-06-07 10:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add [Conscript of the Horde] and fix Z tag for [Neeru Fireblade]
 
 -- URL: http://wow-pro.com/node/3199/revisions/24453/view
 -- Date: 2011-05-30 11:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord tweak around [The Burning Blade]
 
 -- URL: http://wow-pro.com/node/3199/revisions/24452/view
 -- Date: 2011-05-30 11:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: [Thazz'ril's Pick] decoupling.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24451/view
 -- Date: 2011-05-30 11:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord Tweak for Shamans
 
 -- URL: http://wow-pro.com/node/3199/revisions/24438/view
 -- Date: 2011-05-28 11:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord/Zone tweaks
 
 -- URL: http://wow-pro.com/node/3199/revisions/24435/view
 -- Date: 2011-05-28 11:04
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3199/revisions/24319/view
 -- Date: 2011-04-29 15:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 71 for step C has unknown tag [Destroy 3 Northwatch Supply ...], Line 94 for step A has unknown tag [From Grimtak.].
 
 -- URL: http://wow-pro.com/node/3199/revisions/24318/view
 -- Date: 2011-04-29 15:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3199/revisions/24315/view
 -- Date: 2011-04-29 15:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 110 for step T has unknown tag [67.09,83.30] and Line ** for step C has unknown tag [Fight a naga in the proving pit.]
 
 -- URL: http://wow-pro.com/node/3199/revisions/24148/view
 -- Date: 2011-03-08 12:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Redid quest sequence for Orc starting area as [Hana'zua] now has a pre-requisite.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24043/view
 -- Date: 2011-01-24 00:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Optimize acquisition of a few quests: [The War of Northwatch Aggression], [A Exploiting the Situation].
 --	Do [The Wolf and The Kodo] first, in order to maximize the water breathing buff.
 --	Coordinate tweaks for [Thonk], [Raggaran's Rage], [Neeru Fireblade].
@@ -111,13 +116,13 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/24034/view
 -- Date: 2011-01-22 03:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleaned up some Race specific quests. Broke up a |N| tag on a quest into separate N steps.
 --	Relocated [A Purge the Valley] for better flow.  Touched up a few coordinates.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24030/view
 -- Date: 2011-01-21 21:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added |R|Orc| to the race specific quests not available to my goblin.
 --	Added a missing leading quest [Hana'zua].
 
@@ -205,7 +210,7 @@ T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|
 T Meats to Orgrimmar|QID|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|To Burok.|
 A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|From Burok.|
-F Orgrimmar|QID|6384|M|53.08,43.6|N|Fly to Orgrimmar.|
+F Orgrimmar|QID|6384|M|53.08,43.6|N|Fly to Orgrimmar.|R|Orc,Tauren,Troll|
 T Ride to Orgrimmar|QID|6384|M|50.87,62.61;53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|CS|N|Take the lift down, the turn in to Innkeeper Gryshka.|
 A Doras the Wind Rider Master|QID|6385|PRE|6384|M|53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Innkeeper Gryshka.|
 T Doras the Wind Rider Master|QID|6385|M|50.87,62.61;49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|CS|N|Back up the lift to Doras.|
@@ -224,19 +229,19 @@ A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
 T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
-R Dustwind Cave|QID|25232|M|54.13,40.71;55.68,38;53.67,31.76;52.79,28.53|N|Run to Dustwind Cave.|CN|
-C The Burning Blade|QID|25232|M|52.79,28.53|CN|N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade.|
+R Dustwind Cave|QID|25232|M|54.13,40.71;55.68,38;53.67,31.76;52.79,28.53|N|Run to Dustwind Cave.|CS|
+C The Burning Blade|QID|25232|M|52.79,28.53|N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade.|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar. Go straight and jump down!|
 A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 
-T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|CN|N|To Thonk on top of the guard tower.|
+T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|CS|N|To Thonk on top of the guard tower.|
 
 A Lost in the Floods|QID|25187|PRE|25227|M|49.58,40.16|N|From Thonk.|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass four times to search for survivors.|
 T Lost in the Floods|QID|25187|M|49.56,40.22|N|To Thonk. I'm putting the next circuit as RANK 2. It requires a lot of running (time), but some cool storyline and good rewards.|
 A Watershed Patrol|QID|25188|PRE|25187|RANK|2|M|49.56,40.22|N|From Thonk.|
 
-A Raggaran's Rage|QID|25190|RANK|2|M|45.51,44.38;42.67,49.86|CN|N|From Raggaran. Avoid the Razormane, you need to kill them later.|
+A Raggaran's Rage|QID|25190|RANK|2|M|45.51,44.38;42.67,49.86|CS|N|From Raggaran. Avoid the Razormane, you need to kill them later.|
 C Raggaran's Rage|QID|25190|M|43.88,49.01|N|Kill 4 Razormane Quilboar and 4 Razormane Scouts.|
 T Raggaran's Rage|QID|25190|M|42.73,49.85|N|To Raggaran.|
 A Raggaran's Fury|QID|25192|PRE|25190|RANK|2|M|42.73,49.85|N|From Raggaran.|

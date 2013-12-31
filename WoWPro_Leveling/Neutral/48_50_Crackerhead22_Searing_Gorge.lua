@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3255/revisions/25397/view
 -- Date: 2013-01-12 22:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3255/revisions/24570/view
@@ -34,7 +34,7 @@
 
 -- URL: http://wow-pro.com/node/3255/revisions/24558/view
 -- Date: 2011-06-18 17:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 66, for step T non-decimal QID: [T A New Master... But Who?|QID||M|68.52,53.49|N|To Jack Rockleg.|]
 
 -- URL: http://wow-pro.com/node/3255/revisions/24555/view
@@ -54,15 +54,15 @@
 
 -- URL: http://wow-pro.com/node/3255/revisions/24402/view
 -- Date: 2011-05-17 01:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3255/revisions/24394/view
 -- Date: 2011-05-17 01:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3255/revisions/24303/view
 -- Date: 2011-04-29 14:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 46 for step A has unknown tag [68.94,53.5], Line 111 for step R has 1 M coords, Line 167 for step C has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3255/revisions/23929/view

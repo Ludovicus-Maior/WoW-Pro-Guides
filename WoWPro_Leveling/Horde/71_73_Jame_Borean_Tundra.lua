@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
 -- Date: 2013-03-23 19:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name tweaks
 
 -- URL: http://wow-pro.com/node/3290/revisions/25483/view
 -- Date: 2013-01-13 19:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3290/revisions/24915/view
@@ -40,7 +40,7 @@
 
 -- URL: http://wow-pro.com/node/3290/revisions/24343/view
 -- Date: 2011-04-29 16:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 62 for step f has unknown tag [40.4,51.4], Line 340, for step A non-decimal PRE.
 
 -- URL: http://wow-pro.com/node/3290/revisions/23472/view

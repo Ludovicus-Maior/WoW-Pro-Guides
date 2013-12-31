@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
 -- Date: 2013-08-16 19:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added the new nest of eggs for [The Brood of Onyxia]
 
 -- URL: http://wow-pro.com/node/3242/revisions/25579/view
 -- Date: 2013-03-23 19:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: QID correction on [Warchief's Command: Dustwallow Marsh!] 
 
 -- URL: http://wow-pro.com/node/3242/revisions/25476/view
 -- Date: 2013-01-13 19:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3242/revisions/24929/view
@@ -25,17 +25,17 @@
 
 -- URL: http://wow-pro.com/node/3242/revisions/24332/view
 -- Date: 2011-04-29 16:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 179 for step f has unknown tag [From Dyslix Silvergrub.]
 
 -- URL: http://wow-pro.com/node/3242/revisions/24192/view
 -- Date: 2011-03-20 21:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Import TwoToad https://github.com/Jiyambi/WoW-Pro-Guides/commit/6f679123512da96001fc6cbc2e98f2f4e41eb505
 
 -- URL: http://wow-pro.com/node/3242/revisions/24191/view
 -- Date: 2011-03-20 21:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Moved TwoToad's change from Git to source code page.
 
 -- URL: http://wow-pro.com/node/3242/revisions/24008/view

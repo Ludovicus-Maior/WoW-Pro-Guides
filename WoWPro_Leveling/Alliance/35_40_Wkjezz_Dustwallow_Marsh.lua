@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
 -- Date: 2013-01-13 14:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3241/revisions/24557/view
 -- Date: 2011-06-18 17:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 193 for step R has unknown tag [Talk to Jaina to be ported to Stormwind.]: [R Stormwind City|QID|27240|M|66.26,49.05|Talk to Jaina to be ported to Stormwind.|]
 --	! Line 281 for step C has unknown tag [.]: [C Bloodfen Feathers|QID|27407|S|M|34.88,67.93|N|Kill and loot raptors until you get 5 Bloodfen Feathers.|.|]
 
@@ -26,7 +26,7 @@
 
 -- URL: http://wow-pro.com/node/3241/revisions/24468/view
 -- Date: 2011-05-31 21:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Two extra "A The Zeppelin Crash|QID|27346|M|55.09,68.11|Z|".
 --	Removed Z tag from [C Challenge to the Black Flight|QID|27411|U|33095|M|56.47,71.28|].
 --	Coords should be confirmed.
@@ -38,7 +38,7 @@
 
 -- URL: http://wow-pro.com/node/3241/revisions/24150/view
 -- Date: 2011-03-08 12:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: The [The Orc Report] does not come from "Swamp Eye" Jarl, but from a grave near the house he is in.
 
 -- URL: http://wow-pro.com/node/3241/revisions/23933/view

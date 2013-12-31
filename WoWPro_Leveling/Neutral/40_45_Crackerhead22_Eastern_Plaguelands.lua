@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
 -- Date: 2013-01-12 18:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3251/revisions/24874/view
@@ -53,15 +53,15 @@
 
 -- URL: http://wow-pro.com/node/3251/revisions/24401/view
 -- Date: 2011-05-17 01:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3251/revisions/24393/view
 -- Date: 2011-05-17 01:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3251/revisions/24301/view
 -- Date: 2011-04-29 14:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 33 for step T has unknown tag [To Fiona.], Line 169 for step A has unknown tag [From the Crusader's Flare.], Line 170 for step A has unknown tag [From the Cursader's Flare.], Line 208 for step C has 1 M coords, Line 214 for step R has unknown tag [Run to Eastwall Tower.], Line 272 for step C has unknown tag [Kill Cursed Mages and Scourge Soldiers to get their skulls.], Line 281, for step T non-decimal QID.
 
 -- URL: http://wow-pro.com/node/3251/revisions/24253/view

@@ -5,20 +5,20 @@
 
 -- URL: http://wow-pro.com/wiki/glop_and_pebble_achievements
 -- Date: 2013-11-27 20:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3527/revisions/25635/view
 -- Date: 2013-05-14 18:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: In not in
 
 -- URL: http://wow-pro.com/node/3527/revisions/25487/view
 -- Date: 2013-01-13 23:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3527/revisions/25485/view
 -- Date: 2013-01-13 21:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Uploading existing files to website
 
 WoWPro.Achievements:RegisterGuide("TwiPebble","Deepholm","Rock Lover","Quests", "Cataclysm", "Twists", "Neutral", function()

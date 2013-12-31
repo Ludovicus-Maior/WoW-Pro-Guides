@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
 -- Date: 2013-01-13 16:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: corrected CN
 
 -- URL: http://wow-pro.com/node/3301/revisions/25383/view
@@ -24,27 +24,27 @@
 
 -- URL: http://wow-pro.com/node/3301/revisions/24618/view
 -- Date: 2011-06-27 22:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ZoneError|Vers=2.1.16|Guide=EstIce7985|Line=A The Boon of A'dal|QID|13082|N|From A'dal.|Z|Shattrath City.|
 
 -- URL: http://wow-pro.com/node/3301/revisions/24531/view
 -- Date: 2011-06-08 03:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct Successor
 
 -- URL: http://wow-pro.com/node/3301/revisions/24312/view
 -- Date: 2011-04-29 15:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 65 for step A has unknown tag [82.80,72.80], Line 238 for step C has 3 M coords, Line 273 for step A has 3 M coords, Line 276 for step T has 3 M coords, Line 296 for step C has 1 M coords, Line 479 for step C Bad coord 58.o99.
 
 -- URL: http://wow-pro.com/node/3301/revisions/24236/view
 -- Date: 2011-04-19 17:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coordinate Corrections. Breakout of objectives around [The Vile Hold]
 
 -- URL: http://wow-pro.com/node/3301/revisions/24225/view
 -- Date: 2011-04-05 23:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3301/revisions/24106/view
 -- Date: 2011-02-08 12:49

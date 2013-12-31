@@ -15,7 +15,7 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/25649/view
 -- Date: 2013-05-14 19:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: MIssing QID on T Fate and Coincidence 
 
 -- URL: http://wow-pro.com/node/3293/revisions/25620/view
@@ -29,7 +29,7 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/25432/view
 -- Date: 2013-01-13 15:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3293/revisions/25337/view
@@ -71,12 +71,12 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/24202/view
 -- Date: 2011-04-02 19:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed bad U/QID tag on [Vordrassil's Sapling], corrected location text for [Hour of the Worg ] and added a tip for killing Goremaw.
 
 -- URL: http://wow-pro.com/node/3293/revisions/24162/view
 -- Date: 2011-03-12 18:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Make guide id unique
 
 -- URL: http://wow-pro.com/node/3293/revisions/23750/view

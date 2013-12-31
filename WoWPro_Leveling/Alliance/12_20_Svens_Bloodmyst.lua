@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
 -- Date: 2013-05-14 19:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected quest named [Oh, the Tangled Webs They Weave]
 
 -- URL: http://wow-pro.com/node/3220/revisions/25430/view
 -- Date: 2013-01-13 15:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added lots of CN tags
 
 -- URL: http://wow-pro.com/node/3220/revisions/25328/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3220/revisions/24715/view
 -- Date: 2011-08-01 01:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: [Newfound Allies] needed a zone tag ...
 
 -- URL: http://wow-pro.com/node/3220/revisions/24588/view
@@ -36,7 +36,7 @@
 
 -- URL: http://wow-pro.com/node/3220/revisions/24518/view
 -- Date: 2011-06-07 23:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 71 for step C has unknown tag [58.3,86.28]: [C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|58.3,86.28|S|]
 --	! Line 73 for step C has unknown tag [58.3,86.28]: [C Alien Predators|QID|9634|N|Kill Bloodmyst Hatchlings.|58.3,86.28|US|]
 --	! Line 184 for step C has 1 M coords: [C Culling the Flutterers|QID|9647|N|Go between the waypoints, and kill the last Royal Blue Flutterers that you need.|US|M|47.21;32.72;43.5,36.58|]
@@ -48,17 +48,17 @@
 
 -- URL: http://wow-pro.com/node/3220/revisions/24463/view
 -- Date: 2011-05-31 20:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected Invalid Z tag argument.
 
 -- URL: http://wow-pro.com/node/3220/revisions/24292/view
 -- Date: 2011-04-29 14:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 113 for step A has unknown tag [10], Line 114 for step T has unknown tag [10].
 
 -- URL: http://wow-pro.com/node/3220/revisions/24217/view
 -- Date: 2011-04-05 23:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3220/revisions/24078/view
 -- Date: 2011-01-30 18:27

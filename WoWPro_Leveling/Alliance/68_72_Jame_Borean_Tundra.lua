@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
 -- Date: 2013-05-14 15:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected name of [Military?  What Military?]
 
 -- URL: http://wow-pro.com/node/3289/revisions/25366/view
 -- Date: 2013-01-12 18:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CC tags
 
 -- URL: http://wow-pro.com/node/3289/revisions/25038/view
@@ -20,12 +20,12 @@
 
 -- URL: http://wow-pro.com/node/3289/revisions/25002/view
 -- Date: 2012-06-08 14:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct P tag for cooking quest note.
 
 -- URL: http://wow-pro.com/node/3289/revisions/24938/view
 -- Date: 2012-02-05 14:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name corrections
 
 -- URL: http://wow-pro.com/node/3289/revisions/24856/view

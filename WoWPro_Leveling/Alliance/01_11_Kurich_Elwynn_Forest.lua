@@ -5,27 +5,27 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
 -- Date: 2013-05-14 15:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected coords for C [The Fargodeep Mine]
 
 -- URL: http://wow-pro.com/node/3197/revisions/25585/view
 -- Date: 2013-03-23 20:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Many quest name updates
 
 -- URL: http://wow-pro.com/node/3197/revisions/25517/view
 -- Date: 2013-02-06 20:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct quest names for autocomplete to work right!
 
 -- URL: http://wow-pro.com/node/3197/revisions/25371/view
 -- Date: 2013-01-12 19:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3197/revisions/25124/view
 -- Date: 2012-10-08 19:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add Human Monk starter quests and get rid of - in zone name.
 
 -- URL: http://wow-pro.com/node/3197/revisions/25000/view
@@ -57,13 +57,13 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/24515/view
 -- Date: 2011-06-07 23:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 248 for step T has unknown tag [To Milly Osworth.]: [T Extinguishing Hope|QID|26391|M|48.15,42.52|To Milly Osworth.|]
 --	! Line 254 for step A has unknown tag [48.20,42.06]: [A Report To Goldshire|QID|54||48.20,42.06|N|From Marshal McBride.|]
 
 -- URL: http://wow-pro.com/node/3197/revisions/24464/view
 -- Date: 2011-05-31 20:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Z|Stormwind City| not city
 
 -- URL: http://wow-pro.com/node/3197/revisions/24443/view
@@ -78,17 +78,17 @@
 
 -- URL: http://wow-pro.com/node/3197/revisions/24289/view
 -- Date: 2011-04-29 14:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
 
 -- URL: http://wow-pro.com/node/3197/revisions/24272/view
 -- Date: 2011-04-26 22:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed syntax errors.
 
 -- URL: http://wow-pro.com/node/3197/revisions/24201/view
 -- Date: 2011-04-02 19:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Syntax error in quest [Fear No Evil] for Human Warlocks.
 
 -- URL: http://wow-pro.com/node/3197/revisions/24058/view

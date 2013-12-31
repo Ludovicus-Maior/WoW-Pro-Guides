@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/profession_tailoring
 -- Date: 2013-08-16 20:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Hopefully I corrected some errors right.
 
 -- URL: http://wow-pro.com/node/3412/revisions/25707/view
 -- Date: 2013-06-18 00:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad X coordinate 66.268.8, 1/1 in guide TwiTailoring, line [B Pattern: Bolt of Imdued Netherweave]
 --	Bad X coordinate 66.268.8, 1/1 in guide TwiTailoring, line [B Pattern: Netherweave Robe].
 
@@ -21,7 +21,7 @@
 
 -- URL: http://wow-pro.com/node/3412/revisions/24685/view
 -- Date: 2011-07-13 22:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GitHub
 
 -- URL: http://wow-pro.com/node/3412/revisions/24637/view

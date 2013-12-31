@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
 -- Date: 2013-01-13 01:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add a CN tag
 
 -- URL: http://wow-pro.com/node/3478/revisions/25357/view
 -- Date: 2013-01-12 18:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: WoWPro_Dailies: Step C [The Way to His Heart...:11472] in LudoKaluak is missing a CS|CC|CN tag.
 
 -- URL: http://wow-pro.com/node/3478/revisions/25296/view
 -- Date: 2013-01-09 01:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags.
 
 -- URL: http://wow-pro.com/node/3478/revisions/24996/view
 -- Date: 2012-05-27 20:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Versions of Hodir, Kaluak and Wyrmrest Rep guides.
 
 WoWPro.Dailies:RegisterGuide("LudoKaluak", "Northrend", "The Kalu'ak", "Lich", "Ludovicus", "Neutral", function()

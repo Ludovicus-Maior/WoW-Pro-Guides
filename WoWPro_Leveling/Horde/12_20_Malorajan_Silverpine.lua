@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_silverpine_forest
 -- Date: 2013-01-22 18:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord tweaks, added Korok quest, and a sticky step.
 
 -- URL: http://wow-pro.com/node/3219/revisions/24323/view
 -- Date: 2011-04-29 15:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 74 for step C has unknown tag [Find a Forest Ettin ...], Line 169 for step C has unknown tag [Kill Worgens  ...].
 
 -- URL: http://wow-pro.com/node/3219/revisions/23830/view

@@ -10,39 +10,39 @@
 
 -- URL: http://wow-pro.com/node/3508/revisions/25755/view
 -- Date: 2013-09-10 23:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Relocated Haohan's Vote quest T steps for better flow.
 --	A prototype for other changes for the other ones.
 
 -- URL: http://wow-pro.com/node/3508/revisions/25616/view
 -- Date: 2013-05-09 22:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweaks and added the final "Bought the farm" questline.
 --	Need to think about the new dailies and quest flow around the vote quests for the next toon.
 
 -- URL: http://wow-pro.com/node/3508/revisions/25605/view
 -- Date: 2013-03-25 23:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Magic Pixie Dust:  |ACH|6552;;true|
 
 -- URL: http://wow-pro.com/node/3508/revisions/25602/view
 -- Date: 2013-03-24 00:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: OK, more quest name and qid corrections.
 
 -- URL: http://wow-pro.com/node/3508/revisions/25413/view
 -- Date: 2013-01-13 14:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lots of CN tags
 
 -- URL: http://wow-pro.com/node/3508/revisions/25353/view
 -- Date: 2013-01-12 17:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: removed accidental line break
 
 -- URL: http://wow-pro.com/node/3508/revisions/25294/view
 -- Date: 2013-01-09 01:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3508/revisions/25272/view
@@ -70,7 +70,7 @@
 
 -- URL: http://wow-pro.com/node/3508/revisions/25241/view
 -- Date: 2012-12-07 02:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Changed }N} to |N| in two places
 
 -- URL: http://wow-pro.com/node/3508/revisions/25239/view
@@ -84,7 +84,7 @@
 
 -- URL: http://wow-pro.com/node/3508/revisions/25229/view
 -- Date: 2012-12-02 15:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Missing PRE tags
 
 -- URL: http://wow-pro.com/node/3508/revisions/25227/view
@@ -99,11 +99,11 @@
 
 -- URL: http://wow-pro.com/node/3508/revisions/25161/view
 -- Date: 2012-10-24 11:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3508/revisions/25119/view
 -- Date: 2012-10-07 22:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("EmmTillers", "Valley of the Four Winds", "Tillers", "MoP", "Emmaleah", "Neutral", function()
 

@@ -14,12 +14,12 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25756/view
 -- Date: 2013-09-10 23:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add a QID for finishing Townlong Steppes.
 
 -- URL: http://wow-pro.com/node/3501/revisions/25698/view
 -- Date: 2013-06-04 23:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleanup around [A Morale Victory]
 
 -- URL: http://wow-pro.com/node/3501/revisions/25693/view
@@ -29,7 +29,7 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25617/view
 -- Date: 2013-05-09 22:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Some horrid editors change ... into a proper ellipses (sp?) character and change ' into a proper quote.  
 
 -- URL: http://wow-pro.com/node/3501/revisions/25508/view
@@ -39,7 +39,7 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25488/view
 -- Date: 2013-01-13 23:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3501/revisions/25407/view
@@ -64,15 +64,15 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25158/view
 -- Date: 2012-10-24 11:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3501/revisions/25111/view
 -- Date: 2012-10-07 22:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3501/revisions/25110/view
 -- Date: 2012-10-07 22:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("EmmShadoPan", "Townlong Steppes", "Shado-Pan Dailies", "MoP", "Emmaleah", "Neutral", function()
 return [[

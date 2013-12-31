@@ -14,7 +14,7 @@
 
 -- URL: http://wow-pro.com/node/3427/revisions/24686/view
 -- Date: 2011-07-13 22:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync from GitHub
 
 WoWPro.Profession:RegisterGuide('TwiJewelcrafting', 'Jewelcrafting', 'Jewelcrafting', 'Twists', '0', ' ', nil, 'Neutral', function()

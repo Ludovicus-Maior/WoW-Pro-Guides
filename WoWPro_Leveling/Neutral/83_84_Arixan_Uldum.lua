@@ -30,19 +30,19 @@
 
 -- URL: http://wow-pro.com/node/3309/revisions/25564/view
 -- Date: 2013-03-23 18:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: In guide AriUld8384, quest 28557's name [Warchief's Command: Uldum] does not match Grail's database [Warchief's Command: Uldum!].
 --	In guide AriUld8384, quest 27627's name [Just A Fancy Cockroach] does not match Grail's database [Just a Fancy Cockroach].
 --	In guide AriUld8384, quest 27627's name [Just A Fancy Cockroach] does not match Grail's database [Just a Fancy Cockroach].
 
 -- URL: http://wow-pro.com/node/3309/revisions/25367/view
 -- Date: 2013-01-12 19:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3309/revisions/25066/view
 -- Date: 2012-09-15 19:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Submitted by Forthepie on Wed, 2012-09-12 18:52.
 --	Step 314 for the quest Bad Datas, says spead to instead of speak to Harrison Jones
 
@@ -78,7 +78,7 @@
 
 -- URL: http://wow-pro.com/node/3309/revisions/24408/view
 -- Date: 2011-05-18 22:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3309/revisions/24363/view
 -- Date: 2011-05-03 03:06
@@ -86,33 +86,33 @@
 
 -- URL: http://wow-pro.com/node/3309/revisions/24239/view
 -- Date: 2011-04-19 17:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Broke up [The Thrill of Discovery] and [Colossal Guardians].
 --	Enhanced notes for survival tips.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24222/view
 -- Date: 2011-04-05 23:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3309/revisions/24174/view
 -- Date: 2011-03-12 18:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Unique ID
 
 -- URL: http://wow-pro.com/node/3309/revisions/24152/view
 -- Date: 2011-03-09 01:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Geri's first cut at a better [Just A Fancy Cockroach] + [After the Fall] mix and coord corrections.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24147/view
 -- Date: 2011-03-08 01:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweak to sequence around [Do the World a Favor] by Geri.
 --	Spelling corrections by Ludovicus.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24146/view
 -- Date: 2011-03-08 00:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: U tag on [Smoke in Their Eyes] had an spurious 'l' in the middle.
 --	Found by Geri.
 

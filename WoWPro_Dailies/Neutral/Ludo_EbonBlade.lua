@@ -10,42 +10,42 @@
 
 -- URL: http://wow-pro.com/node/3405/revisions/25295/view
 -- Date: 2013-01-09 01:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag.
 
 -- URL: http://wow-pro.com/node/3405/revisions/25292/view
 -- Date: 2013-01-09 01:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3405/revisions/24985/view
 -- Date: 2012-05-27 18:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3405/revisions/24984/view
 -- Date: 2012-05-27 18:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3405/revisions/24972/view
 -- Date: 2012-03-14 21:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3405/revisions/24971/view
 -- Date: 2012-03-14 21:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3405/revisions/24970/view
 -- Date: 2012-03-03 16:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3405/revisions/24969/view
 -- Date: 2012-03-03 16:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Split up guides.
 
 -- URL: http://wow-pro.com/node/3405/revisions/24628/view
 -- Date: 2011-06-29 21:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Dailies:RegisterGuide("LudoEbonBlade", "Icecrown", "Ebon Blade", "Lich", "Ludovicus", "Neutral", function()
 return [[

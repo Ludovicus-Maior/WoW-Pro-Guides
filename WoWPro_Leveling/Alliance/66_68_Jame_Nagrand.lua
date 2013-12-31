@@ -9,12 +9,12 @@
 
 -- URL: http://wow-pro.com/node/3279/revisions/25592/view
 -- Date: 2013-03-23 20:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name cleanups
 
 -- URL: http://wow-pro.com/node/3279/revisions/25403/view
 -- Date: 2013-01-13 01:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lots of CN tags and a CS tag
 
 -- URL: http://wow-pro.com/node/3279/revisions/25335/view
@@ -57,7 +57,7 @@
 
 -- URL: http://wow-pro.com/node/3279/revisions/24307/view
 -- Date: 2011-04-29 14:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 133 for step N has too short a title, Line 174 for step N has too short a title, Line 239 for step A has unknown tag [From Corki.], Line 305 for step C has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3279/revisions/24229/view

@@ -10,12 +10,12 @@
 
 -- URL: http://wow-pro.com/node/3213/revisions/25670/view
 -- Date: 2013-05-17 19:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad coord for T CLUCK!.
 
 -- URL: http://wow-pro.com/node/3213/revisions/25600/view
 -- Date: 2013-03-23 20:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name cleanups
 
 -- URL: http://wow-pro.com/node/3213/revisions/25388/view
@@ -25,7 +25,7 @@
 
 -- URL: http://wow-pro.com/node/3213/revisions/25283/view
 -- Date: 2013-01-09 00:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Multicoord corrections.
 
 -- URL: http://wow-pro.com/node/3213/revisions/25043/view
@@ -58,7 +58,7 @@
 
 -- URL: http://wow-pro.com/node/3213/revisions/24455/view
 -- Date: 2011-05-30 17:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 189 for step A has unknown tag [From Marshal Gryan Stoutmantle.]: [A Rise of the Brotherhood|QID|26322|PRE|26320|RANK|1|M|56.27,47.45|From Marshal Gryan Stoutmantle.|]
 
 -- URL: http://wow-pro.com/node/3213/revisions/24442/view
@@ -68,7 +68,7 @@
 
 -- URL: http://wow-pro.com/node/3213/revisions/24291/view
 -- Date: 2011-04-29 14:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3213/revisions/23935/view
 -- Date: 2011-01-06 15:32

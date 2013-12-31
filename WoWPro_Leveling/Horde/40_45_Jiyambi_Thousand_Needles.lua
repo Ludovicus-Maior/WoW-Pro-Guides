@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
 -- Date: 2013-08-16 19:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Minor QID fixes.
 
 -- URL: http://wow-pro.com/node/3254/revisions/25468/view
 -- Date: 2013-01-13 19:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3254/revisions/24944/view
@@ -20,7 +20,7 @@
 
 -- URL: http://wow-pro.com/node/3254/revisions/24333/view
 -- Date: 2011-04-29 16:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 48 for step A has unknown tag [From Razzeric.], Line 163 for step A has 1 M coords, Line 199 for step A has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3254/revisions/23672/view

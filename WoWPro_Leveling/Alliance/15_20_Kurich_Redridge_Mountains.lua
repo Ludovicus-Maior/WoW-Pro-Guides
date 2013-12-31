@@ -10,17 +10,17 @@
 
 -- URL: http://wow-pro.com/node/3215/revisions/25583/view
 -- Date: 2013-03-23 20:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: QID correction and quest name tweak
 
 -- URL: http://wow-pro.com/node/3215/revisions/25518/view
 -- Date: 2013-02-06 20:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Jorgensen tweak
 
 -- URL: http://wow-pro.com/node/3215/revisions/25364/view
 -- Date: 2013-01-12 18:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: WoWPro_Leveling: Step C [Nida's Necklace:26508] in KurRed1520 is missing a CS|CC|CN tag.
 
 -- URL: http://wow-pro.com/node/3215/revisions/25329/view
@@ -55,7 +55,7 @@
 
 -- URL: http://wow-pro.com/node/3215/revisions/24079/view
 -- Date: 2011-01-30 19:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3215/revisions/23593/view

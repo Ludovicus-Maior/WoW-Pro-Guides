@@ -5,17 +5,17 @@
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
 -- Date: 2013-02-06 20:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord fixes and a few LVL tags
 
 -- URL: http://wow-pro.com/node/3452/revisions/25514/view
 -- Date: 2013-01-28 12:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Updated with new Alliance coord.  Horde cords not verified yet.
 
 -- URL: http://wow-pro.com/node/3452/revisions/25302/view
 -- Date: 2013-01-09 17:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3452/revisions/24941/view
@@ -25,17 +25,17 @@
 
 -- URL: http://wow-pro.com/node/3452/revisions/24940/view
 -- Date: 2012-02-05 23:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add in LaoTseu's changes
 
 -- URL: http://wow-pro.com/node/3452/revisions/24932/view
 -- Date: 2012-02-04 22:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Elders of Cata
 
 -- URL: http://wow-pro.com/node/3452/revisions/24918/view
 -- Date: 2012-01-23 23:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Merge in Laotseu's update.
 
 -- URL: http://wow-pro.com/node/3452/revisions/24853/view

@@ -5,22 +5,22 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
 -- Date: 2013-05-14 15:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad M coords!
 
 -- URL: http://wow-pro.com/node/3291/revisions/25414/view
 -- Date: 2013-01-13 14:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3291/revisions/25365/view
 -- Date: 2013-01-12 18:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3291/revisions/24990/view
 -- Date: 2012-05-27 18:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Noted some missing quests, corrected some coords.
 
 -- URL: http://wow-pro.com/node/3291/revisions/24860/view
@@ -35,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3291/revisions/24309/view
 -- Date: 2011-04-29 15:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 299 for step N has 1 M coords:
 
 -- URL: http://wow-pro.com/node/3291/revisions/24261/view
@@ -56,12 +56,12 @@
 
 -- URL: http://wow-pro.com/node/3291/revisions/24164/view
 -- Date: 2011-03-12 18:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Grizz changed ID
 
 -- URL: http://wow-pro.com/node/3291/revisions/24138/view
 -- Date: 2011-02-28 20:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Eliminated sequence [Reborn From The Ashes], [Fate, Up Against Your Will],
 --	 [A Royal Coup], [The Killing Time], [The Battle For The Undercity].
 --	

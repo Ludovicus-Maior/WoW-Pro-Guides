@@ -5,12 +5,12 @@
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
 -- Date: 2013-06-18 01:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 9616's name [Bandits] does not match Grail's database [Bandits!].
 
 -- URL: http://wow-pro.com/node/3206/revisions/25598/view
 -- Date: 2013-03-23 20:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Redid [Learning the Word]
 
 -- URL: http://wow-pro.com/node/3206/revisions/25379/view
@@ -20,22 +20,22 @@
 
 -- URL: http://wow-pro.com/node/3206/revisions/25134/view
 -- Date: 2012-10-09 00:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add Monk Starter quests
 
 -- URL: http://wow-pro.com/node/3206/revisions/25125/view
 -- Date: 2012-10-08 19:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Get rid of - in zone.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24690/view
 -- Date: 2011-07-27 01:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected race tags on [Replenishing the Healing Crystals] and corrected QIDs for class training quests, which were odd horde ones.  Sabotage!
 
 -- URL: http://wow-pro.com/node/3206/revisions/24689/view
 -- Date: 2011-07-23 21:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played through and tweaked.  Needs to be tested by L1-5 to finish up.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24667/view
@@ -69,7 +69,7 @@
 
 -- URL: http://wow-pro.com/node/3206/revisions/24274/view
 -- Date: 2011-04-26 22:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing S tag and got rid of a rogue QID.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24123/view
