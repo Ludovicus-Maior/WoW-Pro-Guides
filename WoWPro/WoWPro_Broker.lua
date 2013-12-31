@@ -57,6 +57,7 @@ function WoWPro:LoadGuide(guideID)
     if guideID then
         WoWProDB.char.currentguide = guideID
     end
+    WoWPro.GuideLoaded = false
     WoWPro:SendMessage("WoWPro_LoadGuide")
 end
 
@@ -70,7 +71,7 @@ function WoWPro.LoadGuideReal()
     end
     
     WoWPro:dbp("starting guide cleanup:  %s",tostring(GID))
-    WoWPro.GuideLoaded = false
+    
 	--Re-initiallizing tags and counts--
 	for i,tag in pairs(WoWPro.Tags) do 
 		WoWPro[tag] = {}

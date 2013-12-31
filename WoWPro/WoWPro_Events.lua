@@ -395,7 +395,11 @@ function WoWPro.EventHandler(frame, event, ...)
 	-- Stop processing if no guide is active or something is odd!
 	if not WoWProDB.char.currentguide then return end
 	if not WoWPro.Guides[WoWProDB.char.currentguide] then return end
-
+	if  not WoWPro.GuideLoaded then
+	    WoWPro:dbp("Suppresssed event processing. Guide %s is not loaded yet!",tostring(WoWProDB.char.currentguide))
+        return 
+	end
+	
 	-- Common event Handling across addons
 	
 	-- Noticing if we have entered a Dungeon!

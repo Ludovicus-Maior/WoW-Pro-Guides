@@ -263,8 +263,8 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
-	WoWPro.DebugLevel = WoWProCharDB.DebugLevel
-    
+    WoWPro.DebugLevel = WoWProCharDB.DebugLevel
+    WoWPro.GuideLoaded = false
 end
 
 
