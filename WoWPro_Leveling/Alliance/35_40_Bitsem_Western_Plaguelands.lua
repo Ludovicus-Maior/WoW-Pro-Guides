@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2013-12-31 01:55
+-- Who: Fluclo
+-- Log: Corrected info on how to get Zen'kiki back, and also added the instruction to the unsticky step; set each of the steps for I Ain't Sayin' You a Gourd-Digger since they are in different patches of the farm; clarified notes for A Different Approach; Corrected Too Close for Comfort's missing closing | and coords; Added NC to This Means War; clarified what you are jumping on to Hearthglen, added note that Tirion Fordring is upstairs in the keep; Added Chat steps for The Good People of Hearthglen; split Memories from a Lost Past into two steps to better facilitate finding the parts; corrected PRE on Supporting the Troops; guide behaves badly at The Depravity of the Forsaken so added comment for it.
+
+-- URL: http://wow-pro.com/node/3244/revisions/25851/view
 -- Date: 2013-12-25 21:18
 -- Who: Fluclo
 -- Log: Corrected |PRE| for This Is Our Army, added flight step for Andorhal
@@ -176,35 +181,42 @@ A I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.60,54.88|N|From Selyria Gr
 f The Menders' Stead|QID|27197|M|50.49,52.34|N|At Marge Heffman.|
 r Repair and Sell Junk |QID|26999|M|50.69,53.12|N|Excellent opportunity to repair and sell your junk with Gurt.\n\nClick this step to continue.|RANK|3|
 
-C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|47.41,52.91;46.33,54.45;45.19,53.4|CN|N|Click Bad Corn, Unhealthy-Looking Pumpkins and Rotten Apples; then kill the mobs that appear.|
-C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Kill with Zen'kiki with you. If Zen'kiki isn't with you, talk to him at Mender's Stead to get him back.|S|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|47.41,52.91|CN|N|Click on the Unhealthy-Looking Pumpkins then kill the Thrashing Pumpkin that appears.|QO|Unhealthy-Looking Pumpkin Removed: 3/3|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|46.33,54.45|CN|N|Click on the Rotten Apples then kill the Pome Wrath that appears.|QO|Rotten Apple Removed: 4/4|
+C I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|45.19,53.40|CN|N|Click on the Bad Corn then kill the Corn Stalker that appears.|QO|Bad Corn Removed: 6/6|
+C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Kill with Zen'kiki with you. If Zen'kiki isn't with you, talk to Adrine Towhide at The Mender's Stead to get him back.|S|
 l Diseased Wolf Samples|QID|26999|M|46.98,46.34|L|60763 4|N|Kill and loot Diseased Wolves for their samples.|S|
 l Hulking Plaguebear Samples|QID|26999|M|46.98,46.34|L|60762 4|N|Kill and loot Hulking Plaguebears for their samples.|
 l Diseased Wolf Samples|QID|26999|M|46.98,46.34|L|60763 4|N|Kill and loot Diseased Wolves for their samples.|US|
 C A New Era for the Plaguelands|QID|26999|M|54.92,60.83|N|Kill and loot Plague Lurkers and Venom Mist Lurkers to get their samples.|
-C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Finish killing how many mobs you have left to kill with Zen'kiki.|US|
+C Zen'Kiki, the Druid|QID|26953|M|52.11,58.67|N|Finish killing the wildlife with Zen'kiki. If Zen'kiki isn't with you, talk to Adrine Towhide at The Mender's Stead to get him back.|US|
 T A New Era for the Plaguelands|QID|26999|M|49.33,54.92|N|To Field Agent Kaartish.|
 
 A Northridge Lumber Mill|QID|26935|PRE|26999|M|49.33,54.92|N|From Field Agent Kaartish.|
-T Zen'Kiki, the Druid|QID|26953|M|48.93,54.74|N|To Adrine Towhide.|
-
-A A Different Approach|QID|26954|PRE|26953|M|48.93,54.74|N|From Adrine Towhide.|
 T I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.58,54.89|N|To Selyria Groenveld.|
 
+T Zen'Kiki, the Druid|QID|26953|M|48.93,54.74|N|To Adrine Towhide.|
+
+L Level 35 |QID|26954|N|You need to be Level 35 to continue with this guide.|LVL|35|
+
+A A Different Approach|QID|26954|PRE|26953|M|48.93,54.74|N|From Adrine Towhide.|
+
 N Hunters|QID|26954|C|Hunter|N|Just to make a note, you can take the Diseased Hawks. Just have Zen'kiki bring one down then take it. Close this step to continue.|
-C A Different Approach|QID|26954|M|53.72,53.59|N|Poke (right click) him to get him to pull a bird. Help him kill it. Repeat.|
+C A Different Approach|QID|26954|M|53.72,53.59|N|Head to the top of the hill (there's a path that runs clockwise from the west). At the top, right click on Zen'Kiki to have him pull a Diseased Hawk. Help him kill it. Repeat.|
 T A Different Approach|QID|26954|M|49.00,54.72|N|To Adrine Towhide.|
 T Northridge Lumber Mill|QID|26935|M|48.12,32.45|N|To Nathaniel Dumah.|
 
 A Learning the Ropes|QID|27000|PRE|26935|M|48.12,32.45|N|From Nathaniel Dumah.|
 A Too Close for Comfort|QID|27013|M|48.35,31.84|N|From Kelly Dumah.|
 
-C Too Close for Comfort|QID|27013|M|52.55,27.06|N|Hunt down those Rabid Foxes.|
-T Too Close for Comfort|QID|27013|M|48.49,32.00|N|To Kelly Dumah.
+C Too Close for Comfort|QID|27013|M|51.00,27.75|N|Hunt down those Rabid Foxes.|
+T Too Close for Comfort|QID|27013|M|48.49,32.00|N|To Kelly Dumah.|
 
 A Redpine Thievery|QID|27011|PRE|27013|M|48.49,32.00|N|From Kelly Dumah.|S|
 A A Gnoll's Resolve|QID|27012|PRE|27013|M|48.49,32.00|N|From Kelly Dumah.|
 A Redpine Thievery|QID|27011|PRE|27013|M|48.49,32.00|N|From Kelly Dumah.|US|
+
+C Learning the Ropes|QID|27000|M|47.67,31.80;45.33,35.73|CS|N|Hop on a charger, run into a group of spiders and use Ability 1 to scare them away.|NC|
 
 C A Gnoll's Resolve|QID|27012|S|M|49.71,42.20|N|Kill and loot Redpine Gnolls and Shamwns until you have 6 Repine Clubs and Staves.|
 C Redpine Thievery|QID|27011|M|49.76,42.09|N|They look like stacks of three sparkling logs.|NC|
@@ -214,62 +226,65 @@ T Redpine Thievery|QID|27011|M|48.41,32.11|N|To Kelly Dumah.|S|
 T A Gnoll's Resolve|QID|27012|M|48.41,32.11|N|To Kelly Dumah.|
 T Redpine Thievery|QID|27011|M|48.41,32.11|N|To Kelly Dumah.|US|
 
-C Learning the Ropes|QID|27000|M|47.67,31.80;45.33,35.73|CS|N|Hop on a charger, run into a group of spiders and use Ability 1 to scare them away.|NC|
 T Learning the Ropes|QID|27000|M|48.13,32.44|N|To Nathaniel Dumah.|
 
 A This Means WAR (Wild Arachnid Roundup)|QID|27001|M|48.13,32.44|N|From Nathaniel Dumah.|
-C This Means WAR (Wild Arachnid Roundup)|QID|27001|M|47.95,33.53|N|Use the whinny to herd spiders back to the mill.|
+C This Means WAR (Wild Arachnid Roundup)|QID|27001|M|47.95,33.53|N|Use the whinny to herd spiders back to the mill.|NC|
 T This Means WAR (Wild Arachnid Roundup)|QID|27001|M|48.11,32.47|N|To Nathaniel Dumah.|
 
 A An Audience with the Highlord|QID|27002|PRE|27001|M|48.11,32.47|N|From Nathaniel Dumah.|
 
-f Hearthglen|QID|27002|M|47.67,31.80;44.67,18.58|CS|N|Hop on a charger and follow the road to Hearthglen. At William Henderson.|
+f Hearthglen|QID|27002|M|47.67,31.80;44.67,18.58|CS|N|Hop on a Hearthglen Mustang and follow the road to Hearthglen. At William Henderson.|
 
 A It's About Time!|QID|27156|M|43.24,16.02|N|From Lieutenant Myner.|
-T An Audience with the Highlord|QID|27002|M|42.04,14.64|N|To Highlord Tirion Fordring.|
+T An Audience with the Highlord|QID|27002|M|42.04,14.64|N|To Highlord Tirion Fordring, upstairs in Mardenholde Keep.|
 
-A The Long Trip Home|QID|26957|M|42.11,14.85|N|From Del Gahrron.|
 A Taelan Fordring's Legacy|QID|27151|M|42.19,14.98|N|From Daria L'Rayne.|
 
-C It's About Time!|QID|27156|M|43.09,16.33|N|Talk to Trainees. Challenge and beat them.|
+C It's About Time!|QID|27156|M|43.09,16.33|N|Head outside the keep, then talk to Trainees. Challenge and beat them.|
 T It's About Time!|QID|27156|M|43.28,15.96|N|To Lieutenant Myner.|
 
 A Drudges...|QID|27157|M|43.28,15.96|N|From Lieutenant Myner.|
 C Drudges...|QID|27157|M|45.86,12.31;45.37,9.73|CS|N|Enter the mine. Kill the *ew* huge spider.|
 T Drudges...|QID|27157|M|43.27,15.91|N|To Lieutenant Myner.|
 
-C Taelan Fordring's Legacy|QID|27151|M|54.78,24.69|N|Kill Gnoll looters.|
-T Taelan Fordring's Legacy|QID|27151|M|54.99,24.73|
+C Taelan Fordring's Legacy|QID|27151|M|54.78,24.69|N|Kill the Redpine Looters.|
+T Taelan Fordring's Legacy|QID|27151|M|54.99,24.73|N|(UI Alert)|
 
-A Unusual Behavior... Even For Gnolls|QID|27152|PRE|27151|M|54.99,24.73|
-C Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Follow the arrows up the path. Kill Moldfang.|
+A Unusual Behavior... Even For Gnolls|QID|27152|PRE|27151|M|54.99,24.73|N|(UI Alert)|
+R Unusual Behavior... Even For Gnolls|QID|27152|NC|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Follow the arrows up the path to investigate the Gnoll Camp.|QO|Gnoll camp investigated|
+C Unusual Behavior... Even For Gnolls|QID|27152|M|54.78,34.10;56.16,34.70;57.07,35.56|CS|N|Kill Moldfang.|QO|Moldfang slain: 1/1|T|Moldfang|
 T Unusual Behavior... Even For Gnolls|QID|27152|M|57.28,35.71|N|(UI Alert)|
 
 A The Good People of Hearthglen|QID|27153|PRE|27152|M|57.28,35.71|N|(UI Alert)|
-N Bree Ironstock|QID|27153|M|43.68,17.22|QO|Speak with Bree Ironstock: 1/1|N|Back to Hearthglen. Talk to Bree Ironstock.|
-N High Cleric Alphus|QID|27153|M|42.15,18.24|QO|Speak with High Cleric Alphus: 1/1|N|Talk to High Cleric Alphus.|
-N Morris Vant|QID|27153|M|44.38,13.55|QO|Speak with Morris Vant: 1/1|N|Talk to Morris Vant.|
-C The Good People of Hearthglen|QID|27153|M|44.82,12.47|N|Talk to Outfitter Mendelev.|
+C Bree Ironstock|QID|27153|M|43.68,17.22|QO|Speak with Bree Ironstock: 1/1|N|Head back to Hearthglen, then talk to Bree Ironstock in the stables.|CHAT|
+C High Cleric Alphus|QID|27153|M|42.15,18.24|QO|Speak with High Cleric Alphus: 1/1|N|Talk to High Cleric Alphus in the Town Hall.|CHAT|
+C Morris Vant|QID|27153|M|44.38,13.55|QO|Speak with Morris Vant: 1/1|N|Talk to Morris Vant inside the blacksmith building.|CHAT|
+r Repair and Sell Junk |QID|27153|M|44.38,13.55|N|Excellent opportunity to repair and sell your junk with Morris Vant.\n\nClick this step to continue.|RANK|3|
+C Outfitter Mendelev|QID|27153|M|44.82,12.47|QO|Speak with Outfitter Mendelev: 1/1|N|Talk to Outfitter Mendelev in the hut to the west.|CHAT|
 T The Good People of Hearthglen|QID|27153|M|44.82,12.47|N|(UI Alert)|
 
 A Bagging Bisp|QID|27154|PRE|27153|M|42.16,18.33|N|(UI Alert)|
-C Bagging Bisp|QID|27154|M|45.90,18.46|N|Head up to the top of the tower and confront Bisp.|
+C Bagging Bisp|QID|27154|M|45.90,18.46|N|Head up to the top of the tower and confront Bisp. He will turn hostile when you speak to him. Kill him.|
 T Bagging Bisp|QID|27154|M|45.90,18.46|N|(UI Alert)|
 
 A Turning Yourself In|QID|27155|PRE|27154|M|45.90,18.46|N|(UI Alert)|
 T Turning Yourself In|QID|27155|M|42.06,14.61|N|Head to the Highlord and face the music.|
 
-F The Menders' Stead|QID|26957|NC|M|44.62,18.37|N|Fly to Menders' Stead.|
+L Level 36 |QID|26957|N|You need to be Level 36 to continue with this guide.|LVL|36|
 
+A The Long Trip Home|QID|26957|M|42.11,14.85|N|From Del Gahrron.|
+F The Menders' Stead|QID|26957|NC|M|44.62,18.37|N|Fly to The Menders' Stead.|
 T The Long Trip Home|QID|26957|M|50.59,52.52|N|To Del Gahrron.|
+
 A Memories from a Lost Past|QID|27017|PRE|26957|M|50.59,52.52|N|From Del Gahrron.|
 A Gahrron's Withering Cauldron|QID|27053|M|49.30,54.84|N|From Field Agent Kaartish.|
-
 C Gahrron's Withering Cauldron|QID|27053|M|62.71,59.17|N|Kill the Cauldron Lord and loot his key.|
 T Gahrron's Withering Cauldron|QID|27053|M|62.58,58.62|N|At the Scourge Cauldron.|
 
 A Return to the Stead|QID|27057|PRE|27053|M|62.58,58.62|N|From the Scourge Cauldron.|
-C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43;64.88,59.32|CS|N|The Prayer Book is upstairs. The Painting is hanging over the fireplace.|
+C Memories from a Lost Past|QID|27017|NC|M|64.88,59.32|CS|N|Collect the Painting, which is hanging over the fireplace downstairs.|QO|Faded Finger Painting: 1/1|
+C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43|CS|N|Collect the Prayer Book, which can be found on the floor upstairs.|QO|Gahrron Prayer Book: 1/1|
 
 T Return to the Stead|QID|27057|M|49.32,54.76|N|To Field Agent Kaartish.|
 A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
@@ -285,11 +300,14 @@ C Students of Krastinov|QID|27055|M|65.22,38.83;64.64,35.20|CS|N|Enter the cave 
 T Students of Krastinov|QID|27055|M|49.31,54.81|N|To Field Agent Kaartish.|
 T Zen'Kiki and the Cultists|QID|26955|M|48.93,54.77|N|To Adrine Towhide.|
 
-F Andorhal|QID|27197|M|50.52,52.36|N|Fly to Andorhal.|
+L Level 38 |QID|27197|N|You need to be Level 38 to continue with this guide.|LVL|38|
 
+A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.|
+F Andorhal|QID|27197|M|50.52,52.36|N|Fly to Andorhal.|
 T The Battle Resumes!|QID|27197|M|39.84,69.47|N|To Thassarian.|
+
 A Ashes to Ashes|QID|27199|PRE|27197|M|39.84,69.47|N|From Thassarian.|
-A Supporting the Troops|QID|27198|PRE|27199|M|40.11,69.17|N|From Lang Loosegrip.|
+A Supporting the Troops|QID|27198|PRE|27197|M|40.11,69.17|N|From Lang Loosegrip.|
 
 C Supporting the Troops|QID|27198|S|M|44.45,65.66|N|Kill Andorhal Deathguards.|
 C Ashes to Ashes|QID|27199|M|44.70,65.11|N|Kill three Deathguard War-Captains on their horses.|
@@ -297,9 +315,11 @@ C Supporting the Troops|QID|27198|US|M|44.45,65.66|N|Finish killing Deathguards.
 
 T Supporting the Troops|QID|27198|M|39.94,69.42|N|To Lang Loosegrip.|
 T Ashes to Ashes|QID|27199|M|39.94,69.42|N|To Thassarian.|
-A The Depravity of the Forsaken|QID|27205|PRE|27199|M|39.74,69.52|N|From Thassarian.|
+A The Depravity of the Forsaken|QID|27205|PRE|27199|M|39.74,69.52|N|From Thassarian,  sit back and watch the cinematic, then turn in with Thassarian.|
 
-T The Depravity of the Forsaken|QID|27205|M|39.84,69.51|N|To Thassarian.|
+;For some unknown reason the Turn-in will not show up at all. Adding |ACTIVE| will keep the A step after the cinematic.
+T The Depravity of the Forsaken|QID|27205|M|39.84,69.51|N|To Thassarian.|ACTIVE|27205|
+
 A Val'kyr Incursion|QID|27201|PRE|27205|M|39.84,69.51|N|From Thassarian.|
 A Brother Against Brother|QID|27202|PRE|27205|M|39.82,69.69|N|From Thurman Grant.|
 
@@ -317,7 +337,7 @@ T Aradne|QID|27204|M|39.97,69.58|N|To Thassarian.|
 A Alas, Andorhal|QID|27206|PRE|27204|M|39.97,69.58|N|From Thassarian.|
 
 F Chillwind Camp|QID|27206|NC|N|Fly to Chillwind Camp.|M|39.43,69.55|
-
 T Alas, Andorhal|QID|27206|M|42.73,84.12|N|To Commander Ashlam Valorfist.|
+
 ]]
 end)
