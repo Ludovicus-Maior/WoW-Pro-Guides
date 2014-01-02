@@ -93,10 +93,10 @@ L Level 34 |QID|27161|N|You need to be Level 34 to do this guide.|LVL|34|
 
 R Andorhal |QID|27161|N|Western Plaguelands is located north of The Hinterlands.  You can take the quest The Battle for Andorhal from Booty Bay (War-Mage Erallier near the Flightmaster), Gryphon Master Talonaxe in Aerie Peak, or from Commander Ashlam Valorfist in Chillwind Camp.  Each will give you transportation to Andorhal. Alternatively, you can also take the Hero's Call from Ironforge or Stormwind City.|M|41.08,70.26|
 
-T The Battle for Andorhal|QID|27158|M|40.97,70.38|N|To Thassarian.|O|
-T The Battle for Andorhal|QID|28505|M|40.97,70.38|N|To Thassarian.|O|
-T The Battle for Andorhal|QID|28749|M|40.97,70.38|N|To Thassarian.|O|
-T Hero's Call: Western Plaguelands!|QID|28576|M|40.97,70.38|N|To Thassarian.|O|
+T The Battle for Andorhal|QID|27158|M|40.97,70.38|N|To Thassarian. Speak with Bibilfaz Featherwhistle for a ride.|
+T The Battle for Andorhal|QID|28505|M|40.97,70.38|N|To Thassarian. Speak with Guthrum Thunderfist for a ride.|
+T The Battle for Andorhal|QID|28749|M|40.97,70.38|N|To Thassarian. Speak with War-Mage Erallier for a port.|
+T Hero's Call: Western Plaguelands!|QID|28576|M|40.97,70.38|N|To Thassarian.|
 
 A Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|From Thassarian.|
 A War Machines|QID|27160|M|40.97,70.38|N|From Lurid.|
@@ -114,8 +114,8 @@ A Araj the Summoner|QID|27164|PRE|27161|M|41.28,70.19|N|From Lang Loosegrip.|
 T Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|To Thassarian.|
 T War Machines|QID|27160|M|41.10,70.46|N|To Lurid.|
 
-A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|S|
-A Scholomancer|QID|27162|PRE|27160|M|41.10,70.46|N|From Thassarian.|
+A Brute Strength|QID|27163|PRE|27160;27159|M|41.10,70.46|N|From Thassarian.|S|
+A Scholomancer|QID|27162|PRE|27160;27159|M|41.10,70.46|N|From Thassarian.|
 A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|US|
 
 C Brute Strength|QID|27163|M|43.57,69.61|N|Level 35 Elite, inside the building.|
