@@ -207,7 +207,8 @@ end
 
 function WoWPro.ParseQuestLine(faction,i,text)
 	local GID = WoWProDB.char.currentguide
-	
+	local zone = WoWPro.Guides[GID].zone
+		
 	_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
 	if (not WoWPro.action[i]) or (not WoWPro.step[i]) then
 	    WoWPro:Error("Line %d in guide %s is badly formatted: \"%s\"\nParsing Halted.",i,GID,text)
@@ -231,7 +232,7 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	end
 	if text:find("|US|") then WoWPro.unsticky[i] = true end
 	WoWPro.use[i] = text:match("|U|([^|]*)|?")
-	WoWPro.zone[i] = text:match("|Z|([^|]*)|?")
+	WoWPro.zone[i] = text:match("|Z|([^|]*)|?") or zone
 	if WoWPro.zone[i] and not WoWPro:ValidZone(WoWPro.zone[i]) and false then
 		local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,GID,text)
         WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
@@ -283,6 +284,8 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
 	WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
 	WoWPro.recipe[i] = text:match("|RECIPE|([^|]*)|?")
+	WoWPro.gossip[i] = text:match("|QG|([^|]*)|?")
+	if WoWPro.gossip[i] then WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end
 	WoWPro.why[i] = "I dunno."
 
     -- If the step is "Achievement" use the name and description from the server ...
@@ -471,7 +474,7 @@ function WoWPro.SetupGuideReal()
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
 	
 	WoWPro.GuideLoaded = true
-	
+	WoWPro:AutoCompleteQuestUpdate(nil)
 	WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
 end
 
