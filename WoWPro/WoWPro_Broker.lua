@@ -5,49 +5,48 @@
 local L = WoWPro_Locale
 local OldQIDs, CurrentQIDs, NewQIDs, MissingQIDs
 
-
--- See if any of the list of QUIDs are in the indicated table.
-function WoWPro:QIDsInTable(QIDs,tabla)
-    if not QIDs then return false end
-    local numQIDs = select("#", string.split(";", QIDs))
-    local default = false
-	for j=1,numQIDs do
-		local QID = select(numQIDs-j+1, string.split(";", QIDs))
-		QID = tonumber(QID)
+local function QidMapReduce(list,default,or_string,and_string,func)
+    if not list then return default end
+    local do_or = string.find(list,or_string)
+    local split_string
+    if do_or then
+        split_string = or_string
+    else
+        split_string = and_string
+    end
+    local numList = select("#", string.split(split_string, list))
+    for i=1,numList do
+        local QID = select(numList-i+1, string.split(split_string, list))
+        QID = tonumber(QID)
 		if not QID then
 		    WoWPro:Error("Malformed QID [%s] in Guide %s",QIDs,WoWProDB.char.currentguide)
 		    QID=0
 		end
-		if QID >= 0 then
-            if tabla[QID] then return true end
-            default = false
+	    local val = func(math.abs(QID))
+	    if QID < 0 then
+	        val = not val
+	    end
+        if do_or and val then
+            return true
         else
-            if tabla[-QID] then return false end
-            default = true
-        end
-    end
-	return default
-end
-
--- See if all of the list of QUIDs are in the indicated table.
-function WoWPro:AllIDsInTable(IDs,tabla)
-    if not IDs then return false end
-    local numIDs = select("#", string.split(";", IDs))
-	for j=1,numIDs do
-		local ID = select(numIDs-j+1, string.split(";", IDs))
-		ID = tonumber(ID)
-		if not ID then
-		    WoWPro:Error("Malformed ID [%s] in Guide %s",IDs,WoWProDB.char.currentguide)
-		    ID=0
-		end
-		if ID >= 0 then
-            if not tabla[ID] then
-                WoWPro:dbp("AllIDsInTable: Did not find %d",ID)
+            if not val then
                 return false
             end
         end
     end
-	return true
+    return not do_or
+end
+    
+                    
+
+-- See if any of the list of QUIDs are in the indicated table.
+function WoWPro:QIDsInTable(QIDs,tabla)
+    return QidMapReduce(QIDs,false,";","&",function (qid) return tabla[qid] end)
+end
+
+-- See if all of the list of QUIDs are in the indicated table.
+function WoWPro:AllIDsInTable(IDs,tabla)
+    return QidMapReduce(QIDs,false,"&",";",function (qid) return tabla[qid] end)
 end
 
 
@@ -381,6 +380,20 @@ function WoWPro:NextStep(k,i)
     			end
     		end
     	end
+    
+        -- Select the right C step with the QG tag that matches the gossip
+        if WoWPro.GossipText and WoWPro.gossip[k] and  not WoWProCharDB.Guide[GID].completion[k] then
+            -- is gossip in GossipText?
+            if string.find(WoWPro.GossipText, WoWPro.gossip[k], 1 , true) then
+                -- Found it
+                WoWPro:dbp("Step %s [%s] '%s' in GossipText",WoWPro.action[k],WoWPro.step[k],WoWPro.gossip[k])
+                WoWPro.why[k] = "Located gossip word in gossip text"
+                skip = false
+            else
+                WoWPro.why[k] = "Gossip word not in gossip text"
+                skip = true
+            end
+        end
 
         -- Partial Completion --
         if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[k] 
@@ -400,6 +413,7 @@ function WoWPro:NextStep(k,i)
 	        --if the step has not been found to be incomplete, run the completion function
 	        if complete then
 	            WoWPro.CompleteStep(i)
+	            WoWPro.why[k] = "Criteria met"
 	            skip = true
 	            break
 	        end 
@@ -407,10 +421,18 @@ function WoWPro:NextStep(k,i)
 
 	    -- Skip C or T steps if not in QuestLog
 	    if WoWPro.action[k] == "C" or WoWPro.action[k] == "T" then
+--	        WoWPro:Print("LFO: %s [%s] step %s",WoWPro.action[k],WoWPro.step[k],k)
 	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then 
     			skip = true -- If the quest is not in the quest log, the step is skipped --
-    			WoWPro:dbp("Step %s [%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],WoWPro.active[k])
+--    			WoWPro:dbp("Step %s [%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k])
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
+    		elseif WoWPro.action[k] == "T" then
+    		    -- For turnins, make sure we have completed the criteria
+    		    if not QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid].complete end) then
+    		        skip = true
+    		        WoWPro.why[k] = "T criteria not met"
+    		        break
+    		    end
     		end
     	end
     	
@@ -829,10 +851,10 @@ function WoWPro:PopulateQuestLog()
 			WoWPro.QuestLog[questID] = {
 				title = questTitle,
 				level = level,
-				tag = questTag,
+				tag = questTag or "Standard",
 				group = suggestedGroup,
-				complete = isComplete,
-				daily = isDaily,
+				complete = isComplete or false,
+				daily = isDaily or false,
 				leaderBoard = leaderBoard,
 				header = currentHeader,
 				use = use,
