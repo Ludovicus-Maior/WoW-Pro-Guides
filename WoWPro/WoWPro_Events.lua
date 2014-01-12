@@ -594,6 +594,14 @@ function WoWPro.EventHandler(frame, event, ...)
 	if event == "UI_INFO_MESSAGE" then
 		WoWPro:AutoCompleteGetFP(...)
 	end
+	if event == "GOSSIP_SHOW" then
+	    WoWPro.GossipText = strupper(GetGossipText())
+	    WoWPro:dbp("GetGossipText: %s",WoWPro.GossipText)
+	    WoWPro:UpdateGuide(event)
+	end
+	if event == "GOSSIP_CLOSED" then
+	    WoWPro.GossipText = nil
+	end
 end
 
 function WoWPro.PuntedQLU()
