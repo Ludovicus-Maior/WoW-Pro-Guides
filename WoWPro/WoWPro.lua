@@ -234,7 +234,7 @@ WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky",
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
 	"level", "QID","target", "prof", "mat", "rank", "rep","waypcomplete", "why",
 	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
-	 "buff", "chat","recipe"
+	 "buff", "chat","recipe", "gossip"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -252,7 +252,7 @@ function WoWPro:OnInitialize()
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
 	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
-	WoWProDB.global.RecklessCombat = WoWProDB.global.RecklessCombat or false
+	WoWProDB.global.RecklessCombat = false
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
@@ -264,6 +264,7 @@ function WoWPro:OnInitialize()
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
+    WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
 end
 
@@ -319,7 +320,7 @@ function WoWPro:OnEnable()
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
-		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW"
+		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW", "GOSSIP_SHOW",
 		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
@@ -411,6 +412,49 @@ function WoWPro:TargetNpcId()
         WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!"));
         return nil
     end
+end
+
+
+function WoWPro:Timeless()
+    if not _NPCScan then return; end
+    _NPCScan.NPCAdd(73174,"Archiereus of Flame",951)
+    _NPCScan.NPCAdd(72775,"Bufo",951)
+    _NPCScan.NPCAdd(73171,"Champion of the Black Flame",951)
+    _NPCScan.NPCAdd(72045,"Chelon",951)
+    _NPCScan.NPCAdd(73175,"Cinderfall",951)
+    
+    _NPCScan.NPCAdd(73854,"Cranegnasher (spawned)",951)
+    _NPCScan.NPCAdd(72049,"Cranegnasher (not spawned)",951)
+    _NPCScan.NPCAdd(73281,"Dread Ship Vazuvius",951)
+    _NPCScan.NPCAdd(73158,"Emerald Gander",951)
+    _NPCScan.NPCAdd(73279,"Evermaw",951)
+    
+    _NPCScan.NPCAdd(73172,"Flintlord Gairan",951)
+    _NPCScan.NPCAdd(73282,"Garnia",951)
+    _NPCScan.NPCAdd(72970,"Golganarr",951)
+    _NPCScan.NPCAdd(73161,"Great Turtle-Furyshell",951)
+    _NPCScan.NPCAdd(72909,"Gu'chi the Swarmbringer",951)
+    
+    _NPCScan.NPCAdd(73167,"Huolon",951)
+    _NPCScan.NPCAdd(73163,"Imperial Python",951)
+    _NPCScan.NPCAdd(73160,"Ironfur Steelhorn",951)
+    _NPCScan.NPCAdd(73169,"Jakur of Ordon",951)
+    _NPCScan.NPCAdd(72193,"Karkanos",951)
+    
+    _NPCScan.NPCAdd(73277,"Leafmender",951)
+    _NPCScan.NPCAdd(73166,"Monstrous Spineclaw",951)
+    _NPCScan.NPCAdd(72048,"Rattleskew",951)
+    _NPCScan.NPCAdd(73157,"Rock Moss",951)
+    _NPCScan.NPCAdd(71864,"Spelurk",951)
+    
+    _NPCScan.NPCAdd(72769,"Spirit of Jadefire",951)
+    _NPCScan.NPCAdd(73704,"Stinkbraid",951)
+    _NPCScan.NPCAdd(72808,"Tsavo'ka",951)
+    _NPCScan.NPCAdd(73173,"Urdur the Cauterizer",951)
+    _NPCScan.NPCAdd(73170,"Watcher Osu",951)
+    
+    _NPCScan.NPCAdd(72245,"Zesqua",951)
+    _NPCScan.NPCAdd(71919,"Zhu-Gon the Sour",951)
 end
 
 function WoWPro:LoadAllGuides()
