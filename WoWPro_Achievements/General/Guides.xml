@@ -4,6 +4,7 @@
 	<Script file="Est_Glorious.lua"/>
 	<Script file="Est_HigherLearning.lua"/>
 	<Script file="Est_UnbornValkyr.lua"/>
+	<Script file="Ludo_Treasure.lua"/>
 	<Script file="Twists_Cared.lua"/>
 	<Script file="TwoToad_Caressed.lua"/>
 </Ui>
