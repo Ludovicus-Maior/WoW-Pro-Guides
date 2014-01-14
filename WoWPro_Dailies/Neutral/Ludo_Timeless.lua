@@ -35,7 +35,7 @@ C Croaking Hollow|QID|33161|M|67.6, 66.7|QO|Croaking Hollow: 1/1|
 C Cavern of Lost Spirits|QID|33161|M|43.36,40.59|QO|Cavern of Lost Spirits: 1/1|
 C Misty Strand|QID|33161|M|29.4,28.9|QO|Misty Strand: 1/1|
 N Huojin Landing|QID|33161|M|21.8,39.8|FACTION|Alliance|N|This is where the Horde NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
-N Albatross up High|QID|33161|M|33.88.55.22|ACTIVE|33161|N|Learn to ride a bird and where it goes. Target an Albatross, attack, and it will pick you up. Beat it down to near death and it will move on. If you use AOE abilities, you may get taken by another bird. When you get back to where you started, kill it. Slow falls, parachutes, etc. are helpful.\nFeral Druids: You must use [Might of Ursoc] or [Prowl] or [Dash] to force the shapeshift.|T|Highwind Albatross|
+N Albatross up High|QID|33161|M|33.88,55.22|ACTIVE|33161|N|Learn to ride a bird and where it goes. Target an Albatross, attack, and it will pick you up. Beat it down to near death and it will move on. If you use AOE abilities, you may get taken by another bird. When you get back to where you started, kill it. Slow falls, parachutes, etc. are helpful.\nFeral Druids: You must use [Might of Ursoc] or [Prowl] or [Dash] to force the shapeshift.|T|Highwind Albatross|
 R Inkeeper|QID|33161|M|36.59,46.83|N|Say hello to Graceful Swan, your Innkeeper.|T|Graceful Swan|
 R Mail-Grummie|QID|33161|M|36.91,46.83|N|Say hello to Hopswift, chat with him to get your mail.|T|Hopswift|
 T A Timeless Tour|QID|33161|M|34.54,53.63|N|To Kairoz.|
@@ -150,7 +150,7 @@ A Rolo's Riddle|QID|32975|M|49.37,69.41|PRE|32974|N|From Mound of Dirt, behind t
 T Rolo's Riddle|QID|32975|M|34.57,26.67|N|To Mound of Dirt, at the rear of Three Breeze Terrace.|
 A Rolo's Riddle|QID|32976|M|34.57,26.67|PRE|32975|N|From Mound of Dirt, at the rear of Three Breeze Terrace.|
 N Rolo's Riddle|QID|32976|M|41.2,63.6|N|You have one of two options:  Buy a glider or ride an Albatross. Ku-Mo sells them. Click this step off and pick your option.|T|Ku-Mo|  
-N Use an Albatross|QID|32976|M|33.88.55.22|N|Once you are on the albatross, skip to the turn-in step so you know when to exit.|T|Highwind Albatross|
+N Use an Albatross|QID|32976|M|33.88,55.22|N|Once you are on the albatross, skip to the turn-in step so you know when to exit.|T|Highwind Albatross|
 R Timeless Waters|QID|32976|M|69,7|N|Take your water stider or raft onto the waters till you get here.  You should now be able to fly straight up as far as you dare on your flying mount and then go towards the lake, where the arrow points.  You will be dismounted, and then use your glider.|U|104346|
 T Rolo's Riddle|QID|32976|M|66.06,23.26|N|To Rolo's Treasure.|
 
