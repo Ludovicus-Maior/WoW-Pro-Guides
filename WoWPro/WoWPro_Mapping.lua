@@ -321,10 +321,27 @@ function WoWPro:DistanceBetweenSteps(i,j)
     local iy = tonumber(icoord:match(",([^|]*)"))/100
     local jx = tonumber(jcoord:match("([^|]*),"))/100
     local jy = tonumber(jcoord:match(",([^|]*)"))/100
-    local im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
-    local jm = WoWPro.Zone2MapID[WoWPro.zone[j]].mapID
-    local ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
-    local jfl = WoWPro.Zone2MapID[WoWPro.zone[j]].floor or 0
+    local im
+    local jm
+    local ifl
+    local jfl 
+    if WoWPro.zone[i]:match("/") then
+        local nzone , floor = string.split("/",WoWPro.zone[i])
+        im = WoWPro.Zone2MapID[nzone].mapID
+        ifl = tonumber(floor)
+    else
+        im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
+        ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
+    end
+    if WoWPro.zone[j]:match("/") then
+        local nzone , floor = string.split("/",WoWPro.zone[j])
+        jm = WoWPro.Zone2MapID[nzone].mapID
+        jfl = tonumber(floor)
+    else
+        jm = WoWPro.Zone2MapID[WoWPro.zone[j]].mapID
+        jfl = WoWPro.Zone2MapID[WoWPro.zone[j]].floor or 0
+    end
+
 --    WoWPro:Print("Distance between (%2.2f,%2.2f,%d) and (%2.2f,%2.2f,%d)",ix*100,iy*100,im, jx*100,jy*100,jm)
     local distance = AL:ComputeDistance(im,ifl,ix,iy, jm,jfl,jx,jy)
     return (distance or 1e198)
@@ -332,12 +349,22 @@ end
 
 function WoWPro:DistanceToStep(i)
     if not WoWPro.map[i] then return 1e200 end
+    local GID = WoWProDB.char.currentguide
+    if WoWProCharDB.Guide[GID].completion[i] or WoWProCharDB.Guide[GID].skipped[index] then return 1e-6 end
     local icoord = select(1, string.split(";", WoWPro.map[i]))
 --    WoWPro:Print("Step %d is at %s/%s",i,tostring(icoord),tostring(WoWPro.zone[i]))
     local ix = tonumber(icoord:match("([^|]*),"))/100
     local iy = tonumber(icoord:match(",([^|]*)"))/100
-    local im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
-    local ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
+    local im
+    local ifl
+    if WoWPro.zone[i]:match("/") then
+        local nzone , floor = string.split("/",WoWPro.zone[i])
+        im = WoWPro.Zone2MapID[nzone].mapID
+        ifl = tonumber(floor)
+    else
+        im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
+        ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
+    end
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
     local x, y = GetPlayerMapPosition("player");
     local m = GetCurrentMapAreaID()
