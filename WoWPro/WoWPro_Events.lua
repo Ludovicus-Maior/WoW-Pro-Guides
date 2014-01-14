@@ -243,6 +243,20 @@ function WoWPro.AutoCompleteCriteria()
 	WoWPro:UpdateGuide() 
 end
 
+-- Auto-Complete: Chest Loot, for the silly timeless isle chests
+function WoWPro.AutoCompleteChest()
+    if not WoWProDB.char.currentguide then return end
+    if 951 ~= GetCurrentMapAreaID() then return end
+
+	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+	local GID = WoWProDB.char.currentguide
+	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
+		    WoWProCharDB.Guide[GID].completion[qidx] = true
+		    WoWProCharDB.completedQIDs[WoWPro.QID[qidx]] = true
+	end			
+
+	WoWPro:UpdateGuide() 
+end
 
 -- Auto-Complete: Level based --
 function WoWPro:AutoCompleteLevel(...)
