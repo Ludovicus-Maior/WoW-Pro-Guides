@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2014-01-01 19:55
+-- Who: Fluclo
+-- Log: Updated start of guide to accommodate pre-existing quests (Hero's Call, Light's Hope Chapel, Chillwind Camp, or for those with no pre-existing quests)
+
+-- URL: http://wow-pro.com/node/3251/revisions/25361/view
 -- Date: 2013-01-12 18:42
 -- Who: Ludovicus
 -- Log: Added CS and CN tags
@@ -92,30 +97,42 @@ return [[
 
 L Level 39 |QID|27367|N|You need to be Level 39 to do this guide.|LVL|39|
 
-F The Menders' Stead|QID|27367|M|42.8,85|Z|Western Plaguelands|N|To start Eastern Plaguelands questing, you will first need to head to The Mender's Stead for the breadcrumb quest.|FACTION|Alliance|
-F The Menders' Stead|QID|27367|M|46.6,64.6|Z|Western Plaguelands|N|To start Eastern Plaguelands questing, you will first need to head to The Mender's Stead for the breadcrumb quest.|FACTION|Horde|
+;Option 1 - Already got the Hero's Call/Warchief's Command in log
+F Thondroril River |QID|27367|M|9.02,66.52|N|Head to Fiona at the western part of Eastern Plaguelands.\n\nIf you've never been to Eastern Plaguelands and don't have a flying mount, fly to Menders Stead in Western Plaguelands, and run east.|ACTIVE|28577;28578|
+T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.52|N|To Fiona.|ACTIVE|28577;28578|
+T Warchief's Command: Eastern Plaguelands!|QID|28577|M|9.02,66.52|N|To Fiona.|ACTIVE|28577;28578|
+;You can do both Hero's Call/Warchief's Command AND Into the Woods! so this allows that combination.
+F The Menders' Stead|QID|27683|M|42.8,85|N|Fly to The Menders' Stead in Western Plaguelands.\n\nThis is a Rank 3 step for an extra quest that involves a flight to The Mender's Stead, pick up a quest, then fly back here to Thondroril River.  If you don't want the achievement Loremaster, or the extra 435 XP and 5 silver, then skip this and the Accept In the Woods quest.|PRE|28577+28578+27684|RANK|3|
+A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.\n\nIf you skipped the flying to The Menders' Stead, then skip this step as well.|PRE|28577+28578+27684|RANK|3|
+F Thondroril River |QID|27683|M|50.5,52.2|Z|Western Plaguelands|N|Fly back to Thondroril River.|ACTIVE|27683|PRE|28577+28578+27684|RANK|3|
+T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|PRE|28577+28578+27684|RANK|3|
 
-A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.  This quest won't show if you have the Hero's Call: Eastern Plaguelands! in your inventory, so drop it if you have it on you.  \n\nIf you have already done the Hero's Call quest, then skip this step and head into Eastern Plaguelands.|FACTION|Alliance|
-A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.  This quest won't show if you have the Warchief's Command: Eastern Plaguelands! in your inventory, so drop it if you have it on you.\n\nIf you have already done the Warchief's Command quest, then skip this step and head into Eastern Plaguelands.|FACTION|Horde|
+;Option 2 - Already got Visitors from Lights Hope Chapel in log
+F Thondroril River |QID|27684|M|9.02,66.52|N|Head to Fiona at the western part of Eastern Plaguelands by flying to Thondroril River. If for some reason you can't fly there, take the road west to Light's Shield Tower, then keep following the road south-west, then west again.|ACTIVE|27684|
+T Visitors|QID|27684|M|9.02,66.52|N|To Fiona.|ACTIVE|27684|
 
-R Thondroril River |QID|27367|M|9.02,66.52|N|Run east along the road to Thondroril River, then cross the bridge and into Eastern Plaguelands.|LVL|40|
-F Thondroril River |QID|27367|M|9.02,66.52|N|Fly to Thondroril River.|
+;Option 3 - Already got Into the Woods from Western Plaguelands.
+F The Menders' Stead|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Head to The Mender's Stead in Western Plaguelands.|ACTIVE|27683|
 
-T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|
-T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.52|O|N|To Fiona.|
-T Warchief's Command: Eastern Plaguelands!|QID|28577|M|9.02,66.52|O|N|To Fiona.|
+;Option 4 - Nothing pre-obtained, so give The Into the Woods questline
+F The Menders' Stead|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Head to The Mender's Stead in Western Plaguelands.|LEAD|28577;28578;27684|
+A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.|LEAD|28577;28578;27684|
+R Thondroril River |QID|27683|M|9.02,66.52|N|Run east along the road to Thondroril River, then cross the bridge and into Eastern Plaguelands.\n\nIf you have previously been to Eastern Plaguelands and obtained the flightpoint, or if you have a flying mount, you can fly there instead of running.|ACTIVE|27683|LEAD|28577;28578;27684|
+T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|LEAD|28577;28578;27684|
 
 A Tarenar Sunstrike|QID|27370|M|9.02,66.52|N|From Fiona.|S|
 A Gidwin Goldbraids|QID|27367|M|9.02,66.52|N|From Fiona.|
 A Tarenar Sunstrike|QID|27370|M|9.02,66.52|N|From Fiona.|US|
 
-f Get flightpoint.|QID|27367|M|10.02,65.70|N|At Frax Bucketdrop.|LVL|40|
+f Thondroril River|QID|27367|M|10.02,65.70|N|Get flightpoint with Frax Bucketdrop.|
 T Gidwin Goldbraids|QID|27367|M|4.16,36.16|N|To Gidwin Goldbraids.|
+
 A Just Encased|QID|27368|M|4.17,36.13|N|From Gidwin Goldbraids.|
-C Just Encased|QID|27368|M|7.52,30.82|N|Kill Crypt Walkers, Stalkers and Horrors in the Terrorweb Tunnel that is next to the quest giver.|
+C Just Encased|QID|27368|M|7.52,30.82|N|Kill and loot the Crypt Walkers, Stalkers and Horrors in the Terrorweb Tunnel that is next to the quest giver.|
 T Just Encased|QID|27368|M|4.17,36.13|N|To Gidwin Goldbraids.|
 A Greasing the Wheel|QID|27369|M|4.17,36.13|N|From Gidwin Goldbraids.|
-C Greasing the Wheel|QID|27369|M|3.54,36.43|N|Loot Banshee's Bells off the ground near quest giver and along the river as you head south back towards Fiona. \n\nHerbalists should activate their Find Herbs tracking to have their locations show on the mini-map.|NC|
+C Greasing the Wheel|QID|27369|M|3.54,36.43|N|Loot Banshee's Bells off the ground near quest giver and along the river as you head south back towards Fiona. \n\nHerbalism 'Find Herbs'will show the locations on your mini-map.|NC|P|Herbalism;182|
+C Greasing the Wheel|QID|27369|M|3.54,36.43|N|Loot Banshee's Bells off the ground near quest giver and along the river as you head south back towards Fiona.|NC|
 T Greasing the Wheel|QID|27369|M|9.02,66.52|N|To Fiona.|
 
 T Tarenar Sunstrike|QID|27370|M|18.40,75.08|N|To Tarenar Sunstrike.|

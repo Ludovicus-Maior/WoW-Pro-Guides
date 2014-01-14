@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2014-01-12 23:34
+-- Who: Ludovicus
+-- Log: Error pointed out by Taraca on the Pass.  I musta been high.
+
+-- URL: http://wow-pro.com/node/3221/revisions/25500/view
 -- Date: 2013-01-22 18:03
 -- Who: Ludovicus
 -- Log: Coord tweaks, a new CS tag, and moved up turnins for Suncrown.
@@ -295,7 +300,7 @@ C Captives at Deatholme|QID|9164|M|32.8,89.3|N|Talk to Ranger Vedoran to rescue 
 C Dar'Khan's Lieutenants|QID|9170|M|29.5,89.2;35.9,89.3|CN|N|Masophet can be in either ziggurat..|
 K Borgoth the Bloodletter|QID|9170|US|QO|Borgoth the Bloodletter slain: 1/1|M|41,83.1;32.7,89.9|CN|N|Borgoth can be in either butchery.|
 C The Traitor's Destruction|QID|9167|M|32.81,82.45|N|Dar'Khan is a 21 elite, he has 2-4 adds in the same room as him. He likes fear now and then. If you have help, or if you think you can solo him, go ahead. If not, go ahead and skip, though the rewards are nice.|
-N Thalassian Pass|QID|9167|M|31.74,65.24;31.74,65.66|CS|N|To get your exploration Achievement, go here.|
+N Thalassian Pass|QID|9167|M|45.34,62.28;45.36,72.18|CS|N|To get your exploration Achievement, go back to the road and head south.|
 T The Traitor's Destruction|QID|9167|M|54.99,48.99|N|To Magister Kaendris.|
 A Hero of the Sin'dorei|QID|9328|M|54.99,48.99|R|BloodElf|N|From Magister Kaendris.|
 A Friend of the Sin'dorei|QID|9811|M|54.99,48.99|R|Orc,Troll,Tauren,Undead,Goblin|N|From Magister Kaendris.|

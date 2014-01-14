@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2014-01-01 17:33
+-- Who: Fluclo
+-- Log: Added quest to accept before it takes you to the next quest guide.
+
+-- URL: http://wow-pro.com/node/3244/revisions/25861/view
+-- Date: 2014-01-01 16:48
+-- Who: Fluclo
+-- Log: Commented out the Setting of your Hearthstone since the guide doesn't get you to hearthstone at all.
+
+-- URL: http://wow-pro.com/node/3244/revisions/25860/view
 -- Date: 2013-12-31 01:55
 -- Who: Fluclo
 -- Log: Corrected info on how to get Zen'kiki back, and also added the instruction to the unsticky step; set each of the steps for I Ain't Sayin' You a Gourd-Digger since they are in different patches of the farm; clarified notes for A Different Approach; Corrected Too Close for Comfort's missing closing | and coords; Added NC to This Means War; clarified what you are jumping on to Hearthglen, added note that Tirion Fordring is upstairs in the keep; Added Chat steps for The Good People of Hearthglen; split Memories from a Lost Past into two steps to better facilitate finding the parts; corrected PRE on Supporting the Troops; guide behaves badly at The Depravity of the Forsaken so added comment for it.
@@ -93,10 +103,10 @@ L Level 34 |QID|27161|N|You need to be Level 34 to do this guide.|LVL|34|
 
 R Andorhal |QID|27161|N|Western Plaguelands is located north of The Hinterlands.  You can take the quest The Battle for Andorhal from Booty Bay (War-Mage Erallier near the Flightmaster), Gryphon Master Talonaxe in Aerie Peak, or from Commander Ashlam Valorfist in Chillwind Camp.  Each will give you transportation to Andorhal. Alternatively, you can also take the Hero's Call from Ironforge or Stormwind City.|M|41.08,70.26|
 
-T The Battle for Andorhal|QID|27158|M|40.97,70.38|N|To Thassarian. Speak with Bibilfaz Featherwhistle for a ride.|
-T The Battle for Andorhal|QID|28505|M|40.97,70.38|N|To Thassarian. Speak with Guthrum Thunderfist for a ride.|
-T The Battle for Andorhal|QID|28749|M|40.97,70.38|N|To Thassarian. Speak with War-Mage Erallier for a port.|
-T Hero's Call: Western Plaguelands!|QID|28576|M|40.97,70.38|N|To Thassarian.|
+T The Battle for Andorhal|QID|27158|M|40.97,70.38|N|To Thassarian.|O|
+T The Battle for Andorhal|QID|28505|M|40.97,70.38|N|To Thassarian.|O|
+T The Battle for Andorhal|QID|28749|M|40.97,70.38|N|To Thassarian.|O|
+T Hero's Call: Western Plaguelands!|QID|28576|M|40.97,70.38|N|To Thassarian.|O|
 
 A Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|From Thassarian.|
 A War Machines|QID|27160|M|40.97,70.38|N|From Lurid.|
@@ -114,8 +124,8 @@ A Araj the Summoner|QID|27164|PRE|27161|M|41.28,70.19|N|From Lang Loosegrip.|
 T Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|To Thassarian.|
 T War Machines|QID|27160|M|41.10,70.46|N|To Lurid.|
 
-A Brute Strength|QID|27163|PRE|27160;27159|M|41.10,70.46|N|From Thassarian.|S|
-A Scholomancer|QID|27162|PRE|27160;27159|M|41.10,70.46|N|From Thassarian.|
+A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|S|
+A Scholomancer|QID|27162|PRE|27160|M|41.10,70.46|N|From Thassarian.|
 A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|US|
 
 C Brute Strength|QID|27163|M|43.57,69.61|N|Level 35 Elite, inside the building.|
@@ -132,7 +142,10 @@ A Victory, For Now|QID|27165|PRE|27162;27163;27164|M|41.13,70.48|N|From Thassari
 f Andorhal|QID|27165|M|39.44,69.55|N|Get flightpoint from Ginny Goodwin.|
 F Chillwind Camp |QID|27165|M|39.44,69.55|N|Speak to Ginny Goodwin for a free-flight to Chillwind Camp.|
 f Chillwind Camp|QID|27165|M|42.95,84.95|N|Get flightpoint from Bibilfaz Featherwhistle.|
-h Chillwind Camp|QID|27165|M|43.38,84.51|N|At Mother Matterly.|
+
+;The guide doesn't one ask you to Hearthstone to Chillwind Camp, so commenting out this step.
+;h Chillwind Camp|QID|27165|M|43.38,84.51|N|At Mother Matterly.|
+
 r Repair and Sell Junk |QID|27165|M|43.08,84.28|N|Excellent opportunity to repair and sell your junk with Leonard Porter.\n\nClick this step to continue.|RANK|3|
 T Victory, For Now|QID|27165|M|42.78,84.12|N|To Commander Ashlam Valorfist.|
 
@@ -284,12 +297,14 @@ T Gahrron's Withering Cauldron|QID|27053|M|62.58,58.62|N|At the Scourge Cauldron
 
 A Return to the Stead|QID|27057|PRE|27053|M|62.58,58.62|N|From the Scourge Cauldron.|
 C Memories from a Lost Past|QID|27017|NC|M|64.88,59.32|CS|N|Collect the Painting, which is hanging over the fireplace downstairs.|QO|Faded Finger Painting: 1/1|
-C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43|CS|N|Collect the Prayer Book, which can be found on the floor upstairs.|QO|Gahrron Prayer Book: 1/1|
+C Memories from a Lost Past|QID|27017|NC|M|64.93,59.43|CS|N|Collect the Prayer Book, which can be found upstairs.|QO|Gahrron Prayer Book: 1/1|
 
 T Return to the Stead|QID|27057|M|49.32,54.76|N|To Field Agent Kaartish.|
 A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
 A Zen'Kiki and the Cultists|QID|26955|M|48.93,54.76|N|From Adrine Towhide.|
 T Memories from a Lost Past|QID|27017|M|50.60,52.60|N|To Del Gahrron.|
+
+A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.| ;LVL|38|
 
 C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|S|
 C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill Instructor Malicia and loot the orders.|
@@ -300,14 +315,11 @@ C Students of Krastinov|QID|27055|M|65.22,38.83;64.64,35.20|CS|N|Enter the cave 
 T Students of Krastinov|QID|27055|M|49.31,54.81|N|To Field Agent Kaartish.|
 T Zen'Kiki and the Cultists|QID|26955|M|48.93,54.77|N|To Adrine Towhide.|
 
-L Level 38 |QID|27197|N|You need to be Level 38 to continue with this guide.|LVL|38|
-
-A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.|
 F Andorhal|QID|27197|M|50.52,52.36|N|Fly to Andorhal.|
-T The Battle Resumes!|QID|27197|M|39.84,69.47|N|To Thassarian.|
 
+T The Battle Resumes!|QID|27197|M|39.84,69.47|N|To Thassarian.|
 A Ashes to Ashes|QID|27199|PRE|27197|M|39.84,69.47|N|From Thassarian.|
-A Supporting the Troops|QID|27198|PRE|27197|M|40.11,69.17|N|From Lang Loosegrip.|
+A Supporting the Troops|QID|27198|PRE|27199|M|40.11,69.17|N|From Lang Loosegrip.|
 
 C Supporting the Troops|QID|27198|S|M|44.45,65.66|N|Kill Andorhal Deathguards.|
 C Ashes to Ashes|QID|27199|M|44.70,65.11|N|Kill three Deathguard War-Captains on their horses.|
@@ -315,29 +327,28 @@ C Supporting the Troops|QID|27198|US|M|44.45,65.66|N|Finish killing Deathguards.
 
 T Supporting the Troops|QID|27198|M|39.94,69.42|N|To Lang Loosegrip.|
 T Ashes to Ashes|QID|27199|M|39.94,69.42|N|To Thassarian.|
-A The Depravity of the Forsaken|QID|27205|PRE|27199|M|39.74,69.52|N|From Thassarian,  sit back and watch the cinematic, then turn in with Thassarian.|
+A The Depravity of the Forsaken|QID|27205|PRE|27199|M|39.74,69.52|N|From Thassarian.|
 
-;For some unknown reason the Turn-in will not show up at all. Adding |ACTIVE| will keep the A step after the cinematic.
-T The Depravity of the Forsaken|QID|27205|M|39.84,69.51|N|To Thassarian.|ACTIVE|27205|
-
+T The Depravity of the Forsaken|QID|27205|M|39.84,69.51|N|To Thassarian.|
 A Val'kyr Incursion|QID|27201|PRE|27205|M|39.84,69.51|N|From Thassarian.|
 A Brother Against Brother|QID|27202|PRE|27205|M|39.82,69.69|N|From Thurman Grant.|
 
 C Val'kyr Incursion|QID|27201|S|M|41.80,70.42|N|War! Kill Lesser Val'kyr.|
-C Brother Against Brother|QID|27202|M|41.44,73.62|N|Kill 20 Forsaken Troopers.|
+C Brother Against Brother|QID|27202|M|41.44,73.62|N|Kill 20 Forsaken Troopers, they will be in packs of 4, your companions will be there to help you.|
 C Val'kyr Incursion|QID|27201|US|M|41.80,70.42|N|Finish killing those Lesser Val'kyr!|
 
 T Brother Against Brother|QID|27202|M|39.90,69.65|N|To Thurman Grant.|
 T Val'kyr Incursion|QID|27201|M|39.89,69.55|N|To Thassarian.|
 
 A Aradne|QID|27204|PRE|27201|M|39.89,69.55|N|From Thassarian.|
-C Aradne|QID|27204|M|40.37,72.24|N|Go up the tower and kill Aradne.|
+C Aradne|QID|27204|M|40.37,72.24|N|Head up the tower and kill the elite Aradne.  Your companions will be there to help you.|
 T Aradne|QID|27204|M|39.97,69.58|N|To Thassarian.|
 
 A Alas, Andorhal|QID|27206|PRE|27204|M|39.97,69.58|N|From Thassarian.|
-
 F Chillwind Camp|QID|27206|NC|N|Fly to Chillwind Camp.|M|39.43,69.55|
 T Alas, Andorhal|QID|27206|M|42.73,84.12|N|To Commander Ashlam Valorfist.|
+
+A Into the Woods|QID|27683|M|42.97,83.51|N|From Argent Officer Pureheart, if you intent to continue onto Eastern Plaguelands.|
 
 ]]
 end)
