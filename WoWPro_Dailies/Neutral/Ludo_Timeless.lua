@@ -1,3 +1,23 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2014-01-13 22:42
+-- Who: Ludovicus
+-- Log: Ahem, bad coords.
+
+-- URL: http://wow-pro.com/node/3561/revisions/25866/view
+-- Date: 2014-01-12 20:57
+-- Who: Ludovicus
+-- Log: Break out the chests into another guide and make it useful!
+
+-- URL: http://wow-pro.com/node/3561/revisions/25864/view
+-- Date: 2014-01-02 04:14
+-- Who: Ludovicus
+-- Log: Initial Draft.  Missing many C steps.  Order is awful till I play through it.
+
 WoWPro.Dailies:RegisterGuide("LudoTimeless", "Timeless Isle", "Timeless Isle", "MoP", "Ludovicus", "Neutral", function()
 WoWPro:Timeless()  -- Set up NPC Scan to pick up the rares and elites!
 return [[
@@ -85,7 +105,7 @@ T A Timeless Question|QID|33211|M|65,50.6|N|To Senior Historian Evelyna.|
 A Little Tommy Newcomer|QID|33222|M|34.68,60.32|PRE|31951|SPELL|Battle Pet Training;119467;true|N|From Little Tommy Newcomer, and battle Lil' Oondasta, a Boss beast.  |
 T Little Tommy Newcomer|QID|33222|M|34.68,60.32|N|To Little Tommy Newcomer.|
 ; This quest is independent of the one above, but if you can't do it, you have no business doing this one!
-A The Celestial Tournament|QID|33137|M|34.72,59.68|PRE|33222|N|From Master Li.| 
+A The Celestial Tournament|QID|33137|M|34.72,59.68|PRE|33222|N|From Master Li.|
 T The Celestial Tournament|QID|33137|M|34.72,59.68|N|To Master Li?|
 
 ; Maybe you got the cash now?
@@ -113,7 +133,6 @@ T Seeking Fate|QID|33376|M|34.54,53.63|N|To Kairoz.|
 T Hidden Threads|QID|33377|M|34.54,53.63|N|To Kairoz.|
 T Courting Destiny|QID|33378|M|34.54,53.63|N|To Kairoz.|
 T One Final Turn|QID|33379|M|34.54,53.63|N|To Kairoz.|
-
 
 ; Time Worn Journal
 C Hints From The Past|QID|33332|M|42.69,55.72|N|Sold by Mistweaver Ai for 500, or you can buy on AH for not much.|
@@ -149,7 +168,7 @@ T Rolo's Riddle|QID|32974|M|49.37,69.41|N|To Mound of Dirt, behind the jumping p
 A Rolo's Riddle|QID|32975|M|49.37,69.41|PRE|32974|N|From Mound of Dirt, behind the jumping pillars.|
 T Rolo's Riddle|QID|32975|M|34.57,26.67|N|To Mound of Dirt, at the rear of Three Breeze Terrace.|
 A Rolo's Riddle|QID|32976|M|34.57,26.67|PRE|32975|N|From Mound of Dirt, at the rear of Three Breeze Terrace.|
-N Rolo's Riddle|QID|32976|M|41.2,63.6|N|You have one of two options:  Buy a glider or ride an Albatross. Ku-Mo sells them. Click this step off and pick your option.|T|Ku-Mo|  
+N Rolo's Riddle|QID|32976|M|41.2,63.6|N|You have one of two options:  Buy a glider or ride an Albatross. Ku-Mo sells them. Click this step off and pick your option.|T|Ku-Mo|
 N Use an Albatross|QID|32976|M|33.88,55.22|N|Once you are on the albatross, skip to the turn-in step so you know when to exit.|T|Highwind Albatross|
 R Timeless Waters|QID|32976|M|69,7|N|Take your water stider or raft onto the waters till you get here.  You should now be able to fly straight up as far as you dare on your flying mount and then go towards the lake, where the arrow points.  You will be dismounted, and then use your glider.|U|104346|
 T Rolo's Riddle|QID|32976|M|66.06,23.26|N|To Rolo's Treasure.|
@@ -163,7 +182,6 @@ N Rope-Bound Treasure Chest: First Way|QID|32968|M|60.2,45.9;53.94,47.21|CS|N|On
 N Rope-Bound Treasure Chest: Second Way|QID|32968|M|38.8,58.8;53.94,47.21|CS|N|If you like riding on an Albatross, target one near the Celestial Court and then kill it when you are near the chest.|T|Highwind Albatross|
 A Rope Drop Tracking Quest|QID|32968|M|53.94,47.21|N|From Rope-Bound Treasure Chest.|
 T Rope Drop Tracking Quest|QID|32968|M|53.94,47.21|N|To Rope-Bound Treasure Chest.|
-
 
 ; Pirates!
 N Dread Ship Vazuvius|QID|32957|M|38.00,90.80;39.33,92.38|CN|N|Head out to the ship and battle Cursed Hozen Swabbys util they drop the key. They count towards [Path of the Mistwalker]. The [Cursed Swabby Helmet] is the featured loot.|L|104015|
@@ -213,7 +231,7 @@ A These Aren't Your Fatty Goatsteaks|QID|33026|PRE|33024|M|53.6,51.2|Z|Valley of
 C These Aren't Your Fatty Goatsteaks|QID|33026|M|14.80,45.00;16.60,21.80;16.60,27.60;16.60,43.60;17.60,55.80;17.60,66.20;19.40,61.80;19.60,66.00;20.40,52.80;21.00,35.80;21.20,32.60;22.80,27.80;24.60,21.80;25.80,30.60;27.00,40.40;30.40,55.00;30.60,58.00;22.60,37.80;18.90,36.05;19.23,32.08;20.11,55.02;18.70,45.40;16.60,34.70;23.85,32.10;21.85,57.27;28.00,59.90;19.12,58.25;17.62,63.52;19.55,49.10;17.09,47.96;17.13,37.92;22.93,30.26;20.62,39.76;19.36,30.01;22.40,65.33;26.10,72.03;22.95,53.22;25.30,53.20;24.26,70.02;23.55,47.52;25.16,49.82;23.46,60.99;22.87,67.46;25.17,59.42;22.39,49.50;21.65,43.95;22.60,63.08;25.10,56.19|CN|N|Kill Turtles on the western part of the Timeless Isle|
 T These Aren't Your Fatty Goatsteaks|QID|33026|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
 A The Secret Ingredient Is...|QID|33027|PRE|33026|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
-C The Secret Ingredient Is...|QID|33027|N|If you have addons that mess up the vehicle UI, you had better disable them for this scenario. You also want NPC health bars on.\nThe strategy is simple. There are 3 kinds of customers: Scholars like #1 soup. Merchants like #2 soup. Farmers like #3).\nThe customers will line up.  You need to start the soup for the customer, right click on them and then an empty chair to seat them and then when the soup is done, click on it and then the customer.\n Red bellies mean they are hungry and will want seconds. Timers above their heads indicate impatience. Clicking too fast will give an error.\n Goal: Finish with < 5 unsatisfied customers. Talk to Sungshin to start the solo-scenario.|
+C The Secret Ingredient Is...|QID|33027|N|If you have addons that mess up the vehicle UI, you had better disable them for this scenario. You also want NPC health bars on.\nThe strategy is simple. There are 3 kinds of customers: Scholars like #1 soup. Merchants like #2 soup. Farmers like #3).\nThe customers will line up.  You need to start the soup for the customer, right click on them and then an empty chair to seat them and then when the soup is done, click on it and then the customer.\n Red bellies mean they are hungry and will want seconds. Timers above their heads indicate impatience. Clicking too fast will give an error.\n Goal: Finish with<5 unsatisfied customers. Talk to Sungshin to start the solo-scenario.|
 T The Secret Ingredient Is...|QID|33027|M|53.6,51.2|Z|Valley of the Four Winds|N|To Sungshin Ironpaw|
 A Noodle Time|QID|33146|PRE|33027|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw, daily scenario.|
 T Noodle Time|QID|33146|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
