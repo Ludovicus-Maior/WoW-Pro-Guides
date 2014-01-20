@@ -1,3 +1,5 @@
+WoWPro.Profession:RegisterGuide('LudoShopEngineering', 'Engineering', 'Engineering Schematics', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+return [[
 B Masterwork Target Dummy|QID|990019814|RECIPE|19814|M|59.20,50.90|Z|Winterspring|P|Engineering;202;275|N|Sold by Xizzer Fizzbolt in Winterspring.|
 B Delicate Arcanite Converter|QID|990019815|RECIPE|19815|M|59.20,50.90|Z|Winterspring|P|Engineering;202;285|N|Sold by Xizzer Fizzbolt in Winterspring.|
 B Gnomish Universal Remote|QID|990009269|RECIPE|9269|M|68.00,43.10|Z|Ironforge|FACTION|Alliance|P|Engineering;202;125|N|Sold by Gearcutter Cogspinner in Ironforge.|
@@ -72,3 +74,8 @@ B Snake Burst Firework|QID|990023507|RECIPE|23507|M|48.70,44.80|Z|Feralas|P|Engi
 B Extreme-Impact Hole Puncher|QID|990100687|RECIPE|100687|M|47.00,90.60|Z|Molten Front|P|Engineering;202;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
 B Large Blue Rocket|QID|990026420|RECIPE|26420|M|54.00,35.40|Z|Moonglade|P|Engineering;202;175|N|Sold by Fariel Starsong in Moonglade.\nBind on Pickup.|
 B Small Blue Rocket|QID|990026416|RECIPE|26416|M|54.00,35.40|Z|Moonglade|P|Engineering;202;125|N|Sold by Fariel Starsong in Moonglade.\nBind on Pickup.|
+
+
+N Nothing left to buy!
+]]
+end)

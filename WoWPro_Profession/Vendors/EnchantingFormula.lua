@@ -1,3 +1,5 @@
+WoWPro.Profession:RegisterGuide('LudoShopEnchanting', 'Enchanting', 'Enchanting Recipies', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+return [[
 B Enchant Boots - Minor Agility|QID|990007867|RECIPE|7867|M|44.90,37.70|Z|Thunder Bluff|FACTION|Horde|P|Enchanting;333;125|N|Limited quantity sold by Nata Dawnstrider in Thunder Bluff.|
 B Enchant Boots - Minor Agility|QID|990007867|RECIPE|7867|M|49.80,60.80|Z|Hillsbrad Foothills|P|Enchanting;333;125|N|Limited quantity sold by Zixil in Hillsbrad Foothills.|
 B Enchant Shield - Major Stamina|QID|990034009|RECIPE|34009|M|63.10,69.30|Z|Shattrath City|P|Enchanting;333;325|N|Limited quantity sold by Madame Ruby in Shattrath City.|
@@ -257,3 +259,8 @@ B Enchant Boots - Tuskarr's Vitality|QID|990047901|RECIPE|47901|M|38.70,40.80|Z|
 B Enchant Cloak - Minor Agility|QID|990013419|RECIPE|13419|M|35.10,52.10|Z|Ashenvale|FACTION|Alliance|P|Enchanting;333;110|N|Sold by Dalria in Ashenvale.|
 B Enchant Cloak - Minor Agility|QID|990013419|RECIPE|13419|M|48.60,61.60|Z|Stonetalon Mountains|FACTION|Horde|P|Enchanting;333;110|N|Sold by Kulwia in Stonetalon Mountains.|
 B Enchant Cloak - Greater Speed|QID|990047898|RECIPE|47898|M|38.70,40.80|Z|Dalaran|P|Enchanting;333;430|N|Sold by Vanessa Sellers in Dalaran.\nBind on Pickup.|
+
+
+N Nothing left to buy!
+]]
+end)

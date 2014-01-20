@@ -1,3 +1,5 @@
+WoWPro.Profession:RegisterGuide('LudoShopBlacksmithing', 'Blacksmithing', 'Blacksmithing Plans', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+return [[
 B Golden Scale Coif|QID|990003503|RECIPE|3503|M|51.20,30.40|Z|Tanaris|P|Blacksmithing;164;190|N|Limited quantity sold by Krinkle Goodsteel in Tanaris.|
 B Adamantite Maul|QID|990029566|RECIPE|29566|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;325|N|Limited quantity sold by Eriden in Silvermoon City.|
 B Adamantite Maul|QID|990029566|RECIPE|29566|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;325|N|Limited quantity sold by Arras in Thunder Bluff.|
@@ -510,3 +512,8 @@ B Contender's Revenant Belt|QID|990122623|RECIPE|122623|M|74.40,51.00|Z|Shrine o
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;330|N|Limited quantity sold by Eriden in Silvermoon City.|
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;330|N|Limited quantity sold by Arras in Thunder Bluff.|
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|63.10,71.10|Z|Shattrath City|P|Blacksmithing;164;330|N|Limited quantity sold by Aaron Hollman in Shattrath City.|
+
+
+N Nothing left to buy!
+]]
+end)

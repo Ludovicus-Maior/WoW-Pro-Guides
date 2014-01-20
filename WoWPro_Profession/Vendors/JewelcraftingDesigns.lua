@@ -1,3 +1,5 @@
+WoWPro.Profession:RegisterGuide('LudoShopJewelcrafting', 'Jewelcrafting', 'Jewelcrafting Designs', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+return [[
 B Lightning Eye of Zul|QID|990066439|RECIPE|66439|M|36.10,47.70|Z|Shattrath City|P|Jewelcrafting;755;450|N|Sold by Nemiha in Shattrath City.\nBind on Pickup.|
 B Lightning Eye of Zul|QID|990066439|RECIPE|66439|M|40.50,35.20|Z|Dalaran|P|Jewelcrafting;755;450|N|Sold by Timothy Jones in Dalaran.\nBind on Pickup.|
 B Lightning Eye of Zul|QID|990066439|RECIPE|66439|M|58.10,75.00|Z|Shattrath City|P|Jewelcrafting;755;450|N|Sold by Kirembri Silvermane in Shattrath City.\nBind on Pickup.|
@@ -1316,3 +1318,8 @@ B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|63.70,61.30|Z|Stor
 B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|56.70,36.90|Z|Undercity|FACTION|Horde|P|Jewelcrafting;755;490|N|Sold by Sara Lanner in Undercity.\nBind on Pickup.|
 B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|45.90,24.90|Z|The Exodar|FACTION|Alliance|P|Jewelcrafting;755;490|N|Sold by Arred in The Exodar.\nBind on Pickup.|
 B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|54.40,30.70|Z|Darnassus|FACTION|Alliance|P|Jewelcrafting;755;490|N|Sold by Tarien Silverdew in Darnassus.\nBind on Pickup.|
+
+
+N Nothing left to buy!
+]]
+end)

@@ -1,3 +1,5 @@
+WoWPro.Profession:RegisterGuide('LudoShopTailoring', 'Tailoring', 'Tailoring Patterns', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+return [[
 B Runecloth Robe|QID|990018406|RECIPE|18406|M|51.60,33.30|Z|Moonglade|P|Tailoring;197;260|N|Limited quantity sold by Darnall in Moonglade.|
 B Tuxedo Shirt|QID|990012085|RECIPE|12085|M|70.60,30.10|Z|Undercity|FACTION|Horde|P|Tailoring;197;240|N|Limited quantity sold by Millie Gregorian in Undercity.|
 B Tuxedo Shirt|QID|990012085|RECIPE|12085|M|43.20,29.20|Z|Ironforge|FACTION|Alliance|P|Tailoring;197;240|N|Limited quantity sold by Outfitter Eric in Ironforge.|
@@ -339,3 +341,8 @@ B Pink Mageweave Shirt|QID|990012080|RECIPE|12080|M|43.20,29.20|Z|Ironforge|FACT
 B Pink Mageweave Shirt|QID|990012080|RECIPE|12080|M|41.30,79.20|Z|Orgrimmar|FACTION|Horde|P|Tailoring;197;235|N|Limited quantity sold by Lizna Goldweaver in Orgrimmar.|
 B Admiral's Hat|QID|990012081|RECIPE|12081|M|40.90,82.50|Z|The Cape of Stranglethorn|P|Tailoring;197;240|N|Limited quantity sold by Cowardly Crosby in The Cape of Stranglethorn.|
 B Runecloth Bag|QID|990018405|RECIPE|18405|M|59.60,49.20|Z|Winterspring|P|Tailoring;197;260|N|Sold by Qia in Winterspring.|
+
+
+N Nothing left to buy!
+]]
+end)

@@ -1,3 +1,5 @@
+WoWPro.Profession:RegisterGuide('LudoShopAlchemy', 'Alchemy', 'Alchemy Recipies', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+return [[
 B Nature Protection Potion|QID|990007259|RECIPE|7259|M|42.60,74.90|Z|The Cape of Stranglethorn|P|Alchemy;171;190|N|Limited quantity sold by Glyx Brewright in The Cape of Stranglethorn.|
 B Nature Protection Potion|QID|990007259|RECIPE|7259|M|50.80,28.00|Z|Tanaris|P|Alchemy;171;190|N|Limited quantity sold by Alchemist Pestlezugg in Tanaris.|
 B Nature Protection Potion|QID|990007259|RECIPE|7259|M|46.60,43.00|Z|Feralas|FACTION|Alliance|P|Alchemy;171;190|N|Limited quantity sold by Logannas in Feralas.|
@@ -61,3 +63,8 @@ B Frost Protection Potion|QID|990007258|RECIPE|7258|M|46.40,47.10|Z|Arathi Highl
 B Frost Protection Potion|QID|990007258|RECIPE|7258|M|42.60,74.90|Z|The Cape of Stranglethorn|P|Alchemy;171;190|N|Limited quantity sold by Glyx Brewright in The Cape of Stranglethorn.|
 B Elixir of Major Frost Power|QID|990028549|RECIPE|28549|M|67.80,48.00|Z|Zangarmarsh|FACTION|Alliance|P|Alchemy;171;320|N|Limited quantity sold by Haalrun in Zangarmarsh.|
 B Elixir of Major Frost Power|QID|990028549|RECIPE|28549|M|32.40,51.90|Z|Zangarmarsh|FACTION|Horde|P|Alchemy;171;320|N|Limited quantity sold by Seer Janidi in Zangarmarsh.|
+
+
+N Nothing left to buy!
+]]
+end)
