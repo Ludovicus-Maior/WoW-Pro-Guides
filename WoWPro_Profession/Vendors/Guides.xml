@@ -1,1 +1,1 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">	<Script file="CookingRecipies.lua"/>	<Script file="LeatherPattterns.lua"/></Ui>
+<Ui xmlns="http://www.blizzard.com/wow/ui/">    <Script file="AlchemyRecipies.lua"/>    <Script file="BlacksmithPlans.lua"/>    <Script file="CookingRecipies.lua"/>    <Script file="EnchantingFormula.lua"/>    <Script file="EngineeringSchemtics.lua"/>    <Script file="Inscription.lua"/>    <Script file="JewelcraftingDesigns.lua"/>    <Script file="LeatherPatterns.lua"/>    <Script file="TailoringPatterns.lua"/></Ui>
