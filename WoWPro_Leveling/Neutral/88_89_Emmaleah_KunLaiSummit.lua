@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2014-01-19 21:25
+-- Who: Hendo72
+-- Log: Added change note at bottom of the guide which I forgot to do earlier. No other changes were done at this time.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25871/view
+-- Date: 2014-01-19 19:33
+-- Who: Hendo72
+-- Log: Revamped the guide for better flow and to update it for the changes that came with the 5.4 patch. I have documented where the changes were made. I also corrected a few typos and removed some fluff that really wasn't required in the notes.
+
+-- URL: http://wow-pro.com/node/3490/revisions/25775/view
 -- Date: 2013-10-17 18:15
 -- Who: Fluclo
 
@@ -685,44 +695,23 @@ R Kota Basecamp|QID|30742|N|Wait a few moments, and you will have Kota Kon take 
 T Shut it Down|QID|30742|M|42.48,69.45|N|To Cousin Gootfur.|
 T Trouble Brewing|QID|30745|M|42.48,69.45|N|To Uncle Keenbean.|
 T Gourmet Kafa|QID|30743|M|42.34,69.73|N|To Cousin Gootfur.|
-A The Burlap Grind|QID|30747|M|42.49,69.36|N|From Nephew Burrberry. talk to Kota Kon. vehicle UI comes up, |
-C The Burlap Grind|QID|30747|M|49.53,66.89|N|For the novelty of it, you can 'ride' Kota Kon to The Gate of August Celestials, and then turn the quest in when you come back to Kota Basecamp later. If you choose to do that, check off the next two steps manually and then ride your beast to the waypoint.|
-T The Burlap Grind|QID|30747|M|42.49,69.28|N|To Nephew Burrberry.|
+A The Burlap Grind|QID|30747|M|42.49,69.36|N|From Nephew Burrberry. Talk to Kota Kon. A vehicle UI will come up.|
+C The Burlap Grind|QID|30747|M|49.53,66.89|N|Any Hozen in this area counts towards your count.|
+T The Burlap Grind|QID|30747|M|42.49,69.28|N|To Nephew Burrberry. You have to exit vehicle UI to turn in quest.|
 
-F Eastwind Rest|QID|31511|FACTION|Horde|M|42.78,69.58|N|At Uncle Eastwind.|
-C A Witness to History|QID|31511|FACTION|Horde|M|45.70,8.88|Z|Vale of Eternal Blossoms|N|Speak with Dezco.|
-T A Witness to History|QID|31511|FACTION|Horde|M|56.85,43.37|N|To Zhi the Harmonious.|
-A The Shrine of Two Moons|QID|30649|FACTION|Horde|M|56.74,42.63|Z|Vale of Eternal Blossoms|N|From Sun Tenderheart.|
-C Speak to Jaluu the Generous|QID|30649|FACTION|Horde|M|74.15,42.61|Z|Vale of Eternal Blossoms|N|At the Mogu'shan Palace, in the lake temple.|
-f The Shrine of Two Moons|QID|30649|FACTION|Horde|M|50.6,49.2|Z|Vale of Eternal Blossoms|N|Get the flight point from Tania Summerbreeze.|
-C Speak to Madam Vee Luo|QID|30649|FACTION|Horde|M|68.3,47.59|Z|Vale of Eternal Blossoms|N|First floor innkeeper.|
-C Speak to Mokimo the Strong|QID|30649|FACTION|Horde|M|61.26,22.62|Z|Vale of Eternal Blossoms|N|Outside near the entrance.|
-f Shrine of Two Moons|QID|30649|FACTION|Horde|M|62.86,21.78|Z|Vale of Eternal Blossoms|N|Get the flight point from Tania Summerbreeze on the Terrace. The flight trainer is right beside her if you happen to be level 90.|
-C Speak to Elder Liao|QID|30649|FACTION|Horde|M|62.02,20.53|Z|Vale of Eternal Blossoms|N|He on the lower level underneath the overhanging balcony, by the wishing well.|T|Elder Liao|
-T The Shrine of Two Moons|QID|30649|FACTION|Horde|M|56.74,42.63|Z|Vale of Eternal Blossoms|N|To Sun Tenderheart.|
-; Time to head back
-R Shado-Pan Fallback|QID|31453|FACTION|Horde|CS|M|55.58,91.24;44.51,89.96|
+; Head to Shado-Pan Fallback
+; Horde
+R Shado-Pan Fallback|QID|31453|FACTION|Horde|CC|M|48.52,86.90;45.13,89.94;44.51,89.96|N|Stick to the path if you wish to avoid fighting|
 T The Shado-Pan|QID|31453|FACTION|Horde|M|44.51,89.96|N|To Shado-Master Chong.|
-
-F Westwind Rest|QID|31512|FACTION|Alliance|M|42.78,69.58|N|At Uncle Eastwind.|
-C A Witness to History|QID|31512|FACTION|Alliance|M|43.04,9.33|Z|Vale of Eternal Blossoms|N|Speak to Anduin|
-T A Witness to History|QID|31512|FACTION|Alliance|M|56.85,43.37|Z|Vale of Eternal Blossoms|N|To Zhi the Harmonious.|
-A The Shrine of Seven Stars|QID|30631|FACTION|Alliance|M|56.44,43.25|Z|Vale of Eternal Blossoms|N|From Sun Tenderheart.|
-C Speak to Jaluu the Generous|QID|30631|FACTION|Alliance|M|74.15,42.61|Z|Vale of Eternal Blossoms|N|At the Mogu'shan Palace, in the lake temple.|QO|Speak to Jaluu the Generous: 1/1|NC|
-f Shrine of Seven Stars|QID|30631|M|84.62,62.41|Z|Vale of Eternal Blossoms|N|Get the flight point from Sharinga Springrunner, on the second floor on the Summer Terrace. The flight trainer is right beside her if you happen to be level 90.|
-C Speak to Kuru the Light-Hearted|QID|30631|FACTION|Alliance|M|85.82,60.89|Z|Vale of Eternal Blossoms|QO|Speak to Kuru the Light-Hearted: 1/1|NC|N|Also on the Terrace.|
-C Speak to Matron Vi Vinh|QID|30631|FACTION|Alliance|M|36.41,66.80|Z|Vale of Eternal Blossoms/3|QO|Speak to Matron Vi Vinh: 1/1|NC|N|On the second floor inn, to the right.|
-C Speak to Elder Lin|QID|30631|FACTION|Alliance|M|85.21,62.87|Z|Vale of Eternal Blossoms|QO|Speak to Elder Lin: 1/1|NC|N|On the first floor.|
-T The Shrine of Seven Stars|QID|30631|FACTION|Alliance|M|56.74,42.63|Z|Vale of Eternal Blossoms|N|To Sun Tenderheart.|
-; Time to head back
-R Shado-Pan Fallback|QID|31455|FACTION|Alliance|CS|M|55.58,91.24;44.51,89.96|
+; Alliance
+R Shado-Pan Fallback|QID|31455|FACTION|Alliance|CC|M|48.52,86.90;45.13,89.94;44.51,89.96|N|Stick to the path if you wish to avoid fighting|
 T The Shado-Pan|QID|31455|FACTION|Alliance|M|44.51,89.96|N|To Shado-Master Chong.|
 
 A Turnabout|QID|30670|M|44.49,89.88|N|From Shado-Master Chong.|
 A The Defense of Shado-Pan Fallback|QID|30665|M|44.49,89.88|N|From Shado-Master Chong.|
 C Turnabout|QID|30670|S|M|41.29,86.60|N|These drop from the little sha in the area.|
 C The Defense of Shado-Pan Fallback|QID|30665|S|M|44.45,88.63|
-A Holed Up|QID|30682|NC|M|42.99,88.33|N|From Sya Zhong.|
+A Holed Up|QID|30682|NC|M|42.99,88.33|N|From Sya Zhong. (Exit through north door)|
 C Ya Firebough rescued|QID|30682|NC|QO|Ya Firebough rescued: 1/1|M|41.08, 87.03|
 C Old Lady Fung rescued|QID|30682|NC|QO|Old Lady Fung rescued: 1/1|M|42.74, 85.76|
 C Jin Warmkeg rescued|QID|30682|NC|QO|Jin Warmkeg rescued: 1/1|M|43.86,86.22|
@@ -732,14 +721,14 @@ T Turnabout|QID|30670|M|44.47,89.91|N|To Shado-Master Chong.|
 A Unmasking the Yaungol|QID|30690|M|44.47,89.91|N|From Shado-Master Chong.|
 T The Defense of Shado-Pan Fallback|QID|30665|M|44.47,89.91|N|To Shado-Master Chong.|
 T Holed Up|QID|30682|M|44.47,89.91|N|To Shado-Master Chong.|
-C Unmasking the Yaungol|QID|30690|U|81741|M|45.28,86.63|N|Set up you trap and pull him into it. When he is trapped, use your 'extra action' button.|
+C Unmasking the Yaungol|QID|30690|U|81741|M|45.28,86.63|N|Set up your trap and pull him into it. When he is trapped, use your 'extra action' button.|
 T Unmasking the Yaungol|QID|30690|M|44.48,89.91|N|To Shado-Master Chong.|
 A To Winter's Blossom|QID|30699|M|44.48,89.91|N|From Shado-Master Chong.|
 r Repair/Restock|QID|30699|M|44.23,90.25|N|At Fixxit Redhammer.|
 f Serpent's Spine|QID|30699|M|43.92,89.56|N|Up the stairs, at Kite Master Ni.|
 
 ; Winter's Blossom
-H Kota Basecamp|QID|30699|N|Fly if your hearth isn't set to Kota Basecamp, if you took Koto Kon down to the gate, dont forget to turn in The Burlap Grind now.|
+H Kota Basecamp|QID|30699|N|Fly if your hearth isn't set to Kota Basecamp.|
 R Winter's Blossom|QID|30699|M|34.97,59.36|
 T To Winter's Blossom|QID|30699|M|34.96,59.40|N|To Lin Silentstrike.|
 A Honor, Even in Death|QID|30723|M|34.96,59.40|N|From Lin Silentstrike.|
@@ -759,9 +748,9 @@ T To the Wall!|QID|30724|M|29.31,62.29|N|To Suna Silentstrike.|
 A Off the Wall!|QID|30750|M|29.31,62.29|N|From Suna Silentstrike.|
 A A Terrible Sacrifice|QID|30751|M|29.24,62.30|N|From Lao-Chin the Iron Belly.|
 C A Terrible Sacrifice|QID|30751|S|M|26.27,59.10|
-C Off the Wall!|QID|30750|M|26.98,59.95|N|Right Click to boot them off the wall (at low health).|
+C Off the Wall!|QID|30750|M|26.98,59.95|N|Right-click to boot them off the wall (at low health) or just kill them.|
 C A Terrible Sacrifice|QID|30751|US||26.27,59.10|
-C Off the Wall!|QID|30750|M|26.98,59.95|N|Right Click to boot them off the wall (at low health).|
+C Off the Wall!|QID|30750|M|26.98,59.95|N|Right-click to boot them off the wall (at low health) or just kill them.|
 T Off the Wall!|QID|30750|M|29.31,62.29|N|To Suna Silentstrike.|
 T A Terrible Sacrifice|QID|30751|M|29.24,62.30|N|To Lao-Chin the Iron Belly.|
 A Lao-Chin's Gambit|QID|30994|M|29.31,62.29|N|From Suna Silentstrike.|
@@ -774,14 +763,33 @@ A Finish This!|QID|30992|M|31.82,60.10|N|From Lao-Chin the Iron Belly.|
 C Finish This!|QID|30992|M|31.30,61.61|
 T Finish This!|QID|30992|M|31.29,61.50|N|To Ban Bearheart.|
 A Where are My Reinforcements?|QID|30993|M|31.30,61.61|N|From Ban Bearheart.|
-;A My Husband...|QID|30768|M|31.30,61.61|N|From Suna Silentstrike.|;apparently Blizzard changed this to be mutually exclusive with beyond the wall *it wasnt originally*??
+;A My Husband...|QID|30768|M|31.30,61.61|N|From Suna Silentstrike.|;apparently Blizzard changed this to be mutually exclusive with 'Beyond the Wall' and 'The Shado-Pan Offensive' *it wasnt originally*??
 C Where are My Reinforcements?|QID|30993|M|31.30,61.61|NC|QO|Tell Ban You are Ready to Leave: 1/1|N|Talk to Ban while down in the valley|
 C Where are My Reinforcements?|QID|30993|M|33.96,58.62|NC|QO|Ride Ban's Balloon to the Shado-Pan Monastery: 1/1|N|Talk to Ban Bearheart and listen to his history lesson.|
 T Where are My Reinforcements?|QID|30993|M|35.31,49.56|N|To Ban Bearheart.|
 A Unbelievable!|QID|30752|M|35.31,49.56|N|From Ban Bearheart.|
 C Unbelievable!|QID|30752|M|36.75,47.67|N|Ask the guard at the door to let you in, fight him when he refuses.|
 T Unbelievable!|QID|30752|M|36.75,47.67|N|To Ban Bearheart.|
-A Into the Monastery|QID|31030|M|36.75,47.67|N|From Ban Bearheart. This is a dungeon quest.|
+A Into the Monastery|QID|31030|M|36.75,47.67|N|From Ban Bearheart. This is a dungeon quest. Enter into the dungeon to turn in the quest and leave if you wish.|
+
+; Open gate and head to your respective Shrine (Major city in Pandaria)
+; Horde
+H Kota Basecamp|QID|31511|FACTION|Horde|N|This will shorthen your flight time. Otherwise, you will have to run back to Winter's Blossom to fly|
+F Eastwind Rest|QID|31511|FACTION|Horde|M|42.78,69.58|N|At Uncle Eastwind.|
+C A Witness to History|QID|31511|FACTION|Horde|M|45.70,8.88|Z|Vale of Eternal Blossoms|N|Speak with Dezco.|
+; ** The turn-in NPC has changed. ** T A Witness to History|QID|31511|FACTION|Horde|M|56.85,43.37|N|To Zhi the Harmonious.|
+T A Witness to History|QID|31511|FACTION|Horde|CC|M|56.11,27.10;68.3,47.59|N|To Madame Vee Luo in the Summer's Rest at Shrine of the Two Moons.|
+; ** This quest is no longer available. ** A The Shrine of Two Moons|QID|30649|FACTION|Horde|M|56.74,42.63|Z|Vale of Eternal Blossoms|N|From Sun Tenderheart.|
+f Shrine of Two Moons|QID|31511|FACTION|Horde|M|62.86,21.78|Z|Vale of Eternal Blossoms|N|Get the flight point from Tania Summerbreeze on the Terrace. The flight trainer is right beside her if you happen to be level 90.|
+
+; Alliance
+H Kota Basecamp|QID|31512|FACTION|Alliance|N|This will shorten your flight time. Otherwise, you will have to run back to Winter's Blossom to fly|
+F Westwind Rest|QID|31512|FACTION|Alliance|M|42.78,69.58|N|At Uncle Eastwind.|
+C A Witness to History|QID|31512|FACTION|Alliance|M|43.04,9.33|Z|Vale of Eternal Blossoms|N|Speak to Anduin|
+; ** The turn-in NPC has changed. **T A Witness to History|QID|31512|FACTION|Alliance|M|56.85,43.37|Z|Vale of Eternal Blossoms|N|To Zhi the Harmonious.|
+f Shrine of Seven Stars|QID|31512|FACTION|Alliance|CC|M|56.11,27.10;64.41,30.91;75.24,29.44;82.70,41.87;83.80,64.44;84.62,62.41|Z|Vale of Eternal Blossoms|N|Get the flight point from Sharinga Springrunner, on the second floor on the Summer Terrace. The flight trainer is right beside her if you happen to be level 90.|
+T A Witness to History|QID|31512|FACTION|Alliance|M|86.77,68.97|Z|Vale of Eternal Blossoms|N|To Matron Vi Vinh in The Golden Lantern at The Shrine of Seven Stars. /n Avoid the Horde guards as you pass The Shrine of Two Moons and the Sha on your right as you travel between points.|
+; ** This quest is no longer available. ** A The Shrine of Seven Stars|QID|30631|FACTION|Alliance|M|56.44,43.25|Z|Vale of Eternal Blossoms|N|From Sun Tenderheart.| ** This quest is no longer available. **
 
 N Congratulations|N|You have finished Kun-Lai Summit. To continue with the guide, check of this step and the guide for Townlong Steppes will load.|
 
