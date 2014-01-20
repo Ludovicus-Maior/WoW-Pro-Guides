@@ -426,9 +426,9 @@ function WoWPro:NextStep(k,i)
     			skip = true -- If the quest is not in the quest log, the step is skipped --
 --    			WoWPro:dbp("Step %s [%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k])
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
-    		elseif WoWPro.action[k] == "T" and QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid].leaderBoard end) then
+    		elseif WoWPro.action[k] == "T" and QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end) then
     		    -- For turnins, make sure we have completed the criteria
-    		    if not QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid].complete end) then
+    		    if not QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
     		        skip = true
     		        WoWPro.why[k] = "T criteria not met"
     		        break
