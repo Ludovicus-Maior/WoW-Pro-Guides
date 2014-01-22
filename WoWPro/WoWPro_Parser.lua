@@ -207,7 +207,7 @@ end
 
 function WoWPro.ParseQuestLine(faction,i,text)
 	local GID = WoWProDB.char.currentguide
-	local zone = WoWPro.Guides[GID].zone
+	local zone = strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
 		
 	_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
 	if (not WoWPro.action[i]) or (not WoWPro.step[i]) then
@@ -232,12 +232,12 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	end
 	if text:find("|US|") then WoWPro.unsticky[i] = true end
 	WoWPro.use[i] = text:match("|U|([^|]*)|?")
-	WoWPro.zone[i] = text:match("|Z|([^|]*)|?") or zone
-	if WoWPro.zone[i] and not WoWPro:ValidZone(WoWPro.zone[i]) and false then
-		local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,GID,text)
-        WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
-        table.insert(WoWProDB.global.ZoneErrors, line)
-	    WoWPro:Error("Invalid Z tag in:"..text)
+	WoWPro.zone[i] = text:match("|Z|([^|]*)|?") or (WoWPro.map[i] and zone)
+	if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
+--		local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,GID,text)
+--        WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
+--        table.insert(WoWProDB.global.ZoneErrors, line)
+	    WoWPro:Error("Step %s [%s] has a bad Z||%s|| tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
 	    WoWPro.zone[i] = nil
 	end
 	_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
