@@ -23,6 +23,9 @@ function WoWPro:TakeTaxi(index,destination)
         local location,zone = string.split(",",nomen)
         if location == destination then
             WoWPro:Print("Taking flight to: [%s]",location)
+            if IsMounted() then
+                Dismount()
+            end
             TakeTaxiNode(i)
             WoWPro.CompleteStep(index)
             return
