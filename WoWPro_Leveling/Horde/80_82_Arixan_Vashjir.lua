@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2014-01-23 00:21
+-- Who: Ludovicus
+-- Log: Corrected some Z tags
+
+-- URL: http://wow-pro.com/node/3306/revisions/25676/view
 -- Date: 2013-05-17 20:47
 -- Who: Ludovicus
 -- Log: Built to Last
@@ -159,7 +164,7 @@ T A Case of Crabs|QID|25388|M|57.23,28.77|Z|Kelp'thar Forest|N|To Adarrah.|
 A A Girl's Best Friend|QID|25390|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
 A A Taste For Tail|QID|25389|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
 A Can't Start a Fire Without a Spark|QID|25602|M|57.25,28.86|Z|Kelp'thar Forest|N|From Captain Samir.|
-l Crumpled Treasure Map|QID|25467|N|Get out of the cave, kill Sabreclaw Skitterers until you get a Crumpled Treasure Map.|M|52,35|L|54345|
+l Crumpled Treasure Map|QID|25467|N|Get out of the cave, kill Sabreclaw Skitterers until you get a Crumpled Treasure Map.|M|52,35|Z|Kelp'thar Forest|L|54345|
 A Kliklak's Craw|QID|25467|Z|Kelp'thar Forest|N|Use the map to accept the quest Kliklak's Craw.|M|52,35|Z|Kelp'thar Forest|U|54345|
 C A Girl's Best Friend|QID|25390|S|M|50.82,31.95|Z|Kelp'thar Forest|N|Look for Adarrah's Jewelry Box on the sea floor. They are small and a little hard to spot.|
 C Kliklak's Craw|QID|25467|M|43.89,39.85|Z|Kelp'thar Forest|N|Kliklak patrols around this area. Kill him and loot the Corroded key.|S|
@@ -574,7 +579,7 @@ C Environmental Awareness|QID|26122|U|56821|Z|Abyssal Depths|S|N|Kill Seabrush T
 A Secure Seabrush|QID|26124|Z|Abyssal Depths|M|56.75,43.52|N|Get out of the cave, swim up and go northwest to the area called Seabrush. Find and kill an Alliance Sea-scout, the quest will pop-up, accept it.|
 C Secure Seabrush|QID|26124|Z|Abyssal Depths|M|52.18,48.27|N|Kill a total of 7 Alliance Sea-scouts.|
 C Environmental Awareness|QID|26122|U|56821|Z|Abyssal Depths|US|N|Kill Seabrush Terrapins, Scourgut Remoras and Spinescale Hammerheads. Loot them and then use the pump on their corpses.|
-T Secure Seabrush|QID|26124|N|Back to the Tenebrous Cavern. To Bloodguard Toldrek.|M|59.37,56.46;51.60,60.74|CC|
+T Secure Seabrush|QID|26124|N|Back to the Tenebrous Cavern. To Bloodguard Toldrek.|M|59.37,56.46;51.60,60.74|Z|Abyssal Depths|CC|
 T Environmental Awareness|QID|26122|N|To Fiasco Sizzlegrin.|Z|Abyssal Depths|M|51.47,60.82|
 
 A The Perfect Fuel|QID|26126|N|from Fiasco Sizzlegrin|Z|Abyssal Depths|M|51.47,60.82|
