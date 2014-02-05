@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2014-02-05 11:45
+-- Who: Hendo72
+-- Log: Feb/05/2014 - Hendo72
+--	- Removed several sticky commands that are not necessary.
+--	- Reworded a note to be more accurate (Fanning the Flames).
+
+-- URL: http://wow-pro.com/node/3483/revisions/25846/view
 -- Date: 2013-12-16 20:54
 -- Who: Fluclo
 
@@ -167,9 +174,9 @@ T The Disciple's Challenge|QID|29409|M|66.00,22.80|N|To Master Shang Xi (he has 
 A Aysa of the Tushui|QID|29410|M|66.01,22.76|N|From Master Shang Xi.|R|Pandaren|
 T Aysa of the Tushui|QID|29410|M|55.09,32.82|N|To Merchant Lorvo at Fu's Pond.|R|Pandaren|
 
-A The Missing Driver|QID|29419|M|55.09,32.82|N|From Merchant Lorvo.|S|R|Pandaren|
+;A The Missing Driver|QID|29419|M|55.09,32.82|N|From Merchant Lorvo.|S|R|Pandaren| ** Sticky not required **
 A Items of Utmost Importance|QID|29424|M|55.09,32.82|N|From Merchant Lorvo.|R|Pandaren|
-A The Missing Driver|QID|29419|M|55.09,32.82|N|From Merchant Lorvo.|US|R|Pandaren|
+A The Missing Driver|QID|29419|M|55.09,32.82|N|From Merchant Lorvo.|R|Pandaren|
 
 C Items of Utmost Importance|QID|29424|M|54.11,20.92|N|Kill and loot the Amberleaf Scamps|S|R|Pandaren|
 C The Missing Driver|QID|29419|M|54.11,20.92|N|Run to Mim Dimwind in The Dawning Valley|NC|R|Pandaren|
@@ -190,17 +197,15 @@ A The Way of the Huojin|QID|29417|M|50.24,21.26|N|From Ji Firepaw.|R|Pandaren|
 C The Way of the Huojin|QID|29417|M|49.56,20.74|N|Kill the Fe-Feng around Wu-Song Village.|R|Pandaren|
 T The Way of the Huojin|QID|29417|M|50.24,21.26|N|To Ji Firepaw.|R|Pandaren|
 
-A Kindling the Fire|QID|29418|M|50.24,21.26|N|From Ji Firepaw.|S|R|Pandaren|
+A Kindling the Fire|QID|29418|M|50.24,21.26|N|From Ji Firepaw.|R|Pandaren|
 A Fanning the Flames|QID|29523|M|50.24,21.26|N|From Ji Firepaw.|R|Pandaren|
-A Kindling the Fire|QID|29418|M|50.24,21.26|N|From Ji Firepaw.|US|R|Pandaren|
 
 C Kindling the Fire|QID|29418|M|48.33,29.60|N|Loot the Loose Dogwood Root found lying around the trees.|NC|S|R|Pandaren|
-C Fanning the Flames|QID|29523|M|47.30,31.31|N|Head to the Wind Stone then summon a Living Air, kill the Living Air, and loot the Fluttering Breeze.|U|72109|R|Pandaren|
+C Fanning the Flames|QID|29523|M|47.30,31.31|N|Head to the Shrine of the Summer Breeze and use the Wind Stone to summon a Living Air. Kill the Living Air and loot the Fluttering Breeze.|U|72109|R|Pandaren|
 C Kindling the Fire|QID|29418|M|48.33,29.60|N|Finish looting the Loose Dogwood Root.|NC|US|R|Pandaren|
 
-T Fanning the Flames|QID|29523|M|50.24,21.26|N|To Ji Firepaw.|S|R|Pandaren|
 T Kindling the Fire|QID|29418|M|50.24,21.26|N|To Ji Firepaw.|R|Pandaren|
-T Fanning the Flames|QID|29523|M|50.24,21.26|N|To Ji Firepaw.|US|R|Pandaren|
+T Fanning the Flames|QID|29523|M|50.24,21.26|N|To Ji Firepaw.|R|Pandaren|
 
 A The Spirit's Guardian|QID|29420|M|50.28,21.45|N|From Master Shang Xi (he has moved to Wu-Song Village)|R|Pandaren|
 T The Spirit's Guardian|QID|29420|M|41.48,25.04;40.87,22.52;38.80,25.51|CS|N|To Master Li Fei at Shrine of Inner-Light.|R|Pandaren|
@@ -241,23 +246,22 @@ C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|US|R|Panda
 
 T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|R|Pandaren|
 
-T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|To Aysa Cloudsinger|S|R|Pandaren|
+T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|To Aysa Cloudsinger|R|Pandaren|
 T The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|To Aysa Cloudsinger|R|Pandaren|
-T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|To Aysa Cloudsinger|US|R|Pandaren|
 
 A Finding an Old Friend|QID|29676|M|65.59,42.59|N|From Aysa Cloudsinger|R|Pandaren|
 T Finding an Old Friend|QID|29676|M|70.61,38.75|N|To Old Man Liang in Liang's Retreat|R|Pandaren|
 
-A The Sting of Learning|QID|29666|M|70.61,38.75|N|From Old Man Liang|S|R|Pandaren|
+;A The Sting of Learning|QID|29666|M|70.61,38.75|N|From Old Man Liang|S|R|Pandaren| ** Sticky not required **
 A The Sun Pearl|QID|29677|M|70.61,38.75|N|From Old Man Liang|R|Pandaren|
-A The Sting of Learning|QID|29666|M|70.61,38.75|N|From Old Man Liang|US|R|Pandaren|
+A The Sting of Learning|QID|29666|M|70.61,38.75|N|From Old Man Liang|R|Pandaren|
 
 C The Sting of Learning|QID|29666|M|72.20,50.40|N|Kill the Water Pincers|R|Pandaren|
 C The Sun Pearl|QID|29677|M|76.3,47.0|N|Jump into the Singing Pools, open the Ancient Clam, and loot the Sun Pearl.|NC|R|Pandaren|
 
-T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|S|R|Pandaren|
+;T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|S|R|Pandaren| ** Sticky not required **
 T The Sun Pearl|QID|29677|M|78.50,42.85|N|To Old Man Liang (he's moved to the Gazebo)|R|Pandaren|
-T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|US|R|Pandaren|
+T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|R|Pandaren|
 
 A Shu, the Spirit of Water|QID|29678|M|78.50,42.85|N|From Old Man Liang|R|Pandaren|
 C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|Cross to the Pool of Reflection: 1/1|NC|R|Pandaren|
@@ -323,11 +327,11 @@ T Tools of the Enemy|QID|29777|M|31.83,39.71|N|To Elder Shaopai|R|Pandaren|
 T Stronger Than Stone|QID|29783|M|29.92,39.77|N|From Jojo Ironbrow|R|Pandaren|
 T Rewritten Wisdoms|QID|29778|M|30.97,36.74|N|To Ji Firepaw|R|Pandaren|
 
-A Monkey Advisory Warning|QID|29781|M|30.97,36.74|N|From Ji Firepaw|S|R|Pandaren|
-A Do No Evil|QID|29780|M|30.97,36.74|N|From Ji Firepaw|S|R|Pandaren|
+A Monkey Advisory Warning|QID|29781|M|30.97,36.74|N|From Ji Firepaw|R|Pandaren|
+A Do No Evil|QID|29780|M|30.97,36.74|N|From Ji Firepaw|R|Pandaren|
 A The Direct Solution|QID|29779|M|30.97,36.74|N|From Ji Firepaw|R|Pandaren|
-A Do No Evil|QID|29780|M|30.97,36.74|N|From Ji Firepaw|US|R|Pandaren|
-A Monkey Advisory Warning|QID|29781|M|30.97,36.74|N|From Ji Firepaw|US|R|Pandaren|
+;A Do No Evil|QID|29780|M|30.97,36.74|N|From Ji Firepaw|US|R|Pandaren| ** Sticky not required **
+;A Monkey Advisory Warning|QID|29781|M|30.97,36.74|N|From Ji Firepaw|US|R|Pandaren| ** Sticky not required **
 
 C The Direct Solution|QID|29779|N|Kill Fe-Fang Hozen|S|R|Pandaren|
 A Stronger Than Bone|QID|29782|M|28.33,38.78;26.43,33.73|CC|N|From Jade Tiger Pillar in Fe-Feng Village|R|Pandaren|
@@ -359,17 +363,17 @@ A Worthy of Passing|QID|29787|M|30.00,60.37|N|From Master Shang Xi|R|Pandaren|
 C Worthy of Passing|QID|29787|M|22.72,52.82|N|Follow Master Shang Xi to the Elders' Path then defeat the Guardian of the Elders|R|Pandaren|
 T Worthy of Passing|QID|29787|M|19.33,50.67|N|To Master Shang Xi who is now in The Wood of Staves|R|Pandaren|
 
-A Small, But Significant|QID|29789|M|19.33,50.67|N|From Master Shang Xi|S|R|Pandaren|
+;A Small, But Significant|QID|29789|M|19.33,50.67|N|From Master Shang Xi|S|R|Pandaren| ** Sticky not required **
 A Unwelcome Nature|QID|29788|M|19.33,50.67|N|From Master Shang Xi|R|Pandaren|
-A Small, But Significant|QID|29789|M|19.33,50.67|N|From Master Shang Xi|US|R|Pandaren|
+A Small, But Significant|QID|29789|M|19.33,50.67|N|From Master Shang Xi|R|Pandaren|
 
 C Unwelcome Nature|QID|29788|N|Kill the Thornbranch Scamp|S|R|Pandaren|
 C Small, But Significant|QID|29789|N|Collect the Kun-Pai Ritual Charm hanging from the trees.|NC|R|Pandaren|
 C Unwelcome Nature|QID|29788|N|Finish killing the Thornbranch Scamp|US|R|Pandaren|
 
-T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|S|R|Pandaren|
+;T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|S|R|Pandaren| ** Sticky not required **
 T Unwelcome Nature|QID|29788|M|19.33,50.67|N|To Master Shang Xi|R|Pandaren|
-T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|US|R|Pandaren|
+T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|R|Pandaren|
 
 A Passing Wisdom|QID|29790|M|19.33,50.67|N|From Master Shang Xi|R|Pandaren|
 C Passing Wisdom|QID|29790|M|19.33,50.67|N|Wait while Master Shang Xi tells you the story.|NC|R|Pandaren|
@@ -412,9 +416,9 @@ T Evil from the Seas|QID|29793|M|36.38,72.52|N|To Ji Firepaw|R|Pandaren|
 A Urgent News|QID|29796|M|36.38,72.52|N|From Ji Firepaw|R|Pandaren|
 T Urgent News|QID|29796|M|42.20,86.55|N|To Delora Lionheart|R|Pandaren|
 
-A Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|S|R|Pandaren|
+;A Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|S|R|Pandaren| ** Sticky not required **
 A None Left Behind|QID|29794|M|42.20,86.55|N|From Delora Lionheart|R|Pandaren|
-A Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|US|R|Pandaren|
+A Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|R|Pandaren|
 
 A From Bad to Worse|QID|29665|M|42.30,86.35|N|From Jojo Ironbrow|R|Pandaren|
 
@@ -424,9 +428,9 @@ C Medical Supplies|QID|29797|M|38.40,83.60|N|Collect the Medical Supplies lying 
 C From Bad to Worse|QID|29665|M|38.40,83.60|N|Finish killing Deepscale Tormentors|US|R|Pandaren|
 C None Left Behind|QID|29794|M|38.40,83.60|N|Go and grab an injured soldier, then return to the camp.  Repeat three times|NC|US|R|Pandaren|
 
-T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|S|R|Pandaren|
+;T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|S|R|Pandaren| ** Sticky not required **
 T None Left Behind|QID|29794|M|42.20,86.55|N|From Delora Lionheart|R|Pandaren|
-T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|US|R|Pandaren|
+T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|R|Pandaren|
 
 T From Bad to Worse|QID|29665|M|42.30,86.35|N|To Jojo Ironbrow|R|Pandaren|
 
