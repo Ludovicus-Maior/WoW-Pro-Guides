@@ -4,6 +4,17 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2014-02-12 10:58
+-- Who: Hendo72
+-- Log: Hendo72 - Feb 12/2014
+--	Made the following changes:
+--	- Removed sticky missed earlier.
+--	- Updated C step for 'The Lesson of Dry Fur'. Found a better way to do it.
+--	- Changed the order in which you complete 'jumping pole' quests for better flow. Makes more sense to complete the pole quests before jumping down into the water.
+--	- Added Fang-she to the 'Sun Pearl' note.
+--	- Improved the 'Sting of Learning' C step and made it a sticky to be done while completing 'Sun Pearl'.
+
+-- URL: http://wow-pro.com/node/3483/revisions/25875/view
 -- Date: 2014-02-05 11:45
 -- Who: Hendo72
 -- Log: Feb/05/2014 - Hendo72
@@ -182,9 +193,9 @@ C Items of Utmost Importance|QID|29424|M|54.11,20.92|N|Kill and loot the Amberle
 C The Missing Driver|QID|29419|M|54.11,20.92|N|Run to Mim Dimwind in The Dawning Valley|NC|R|Pandaren|
 C Items of Utmost Importance|QID|29424|M|54.11,20.92|N|Finish killing and looting the Amberleaf Scamps|US|R|Pandaren|
 
-T The Missing Driver|QID|29419|M|55.09,32.82|N|To Merchant Lorvo.|S|R|Pandaren|
+;T The Missing Driver|QID|29419|M|55.09,32.82|N|To Merchant Lorvo.|S|R|Pandaren| ** Sticky not required **
 T Items of Utmost Importance|QID|29424|M|55.09,32.82|N|To Merchant Lorvo.|R|Pandaren|
-T The Missing Driver|QID|29419|M|55.09,32.82|N|To Merchant Lorvo.|US|R|Pandaren|
+T The Missing Driver|QID|29419|M|55.09,32.82|N|To Merchant Lorvo.|R|Pandaren|
 
 A The Way of the Tushui|QID|29414|M|55.11,32.54|N|From Aysa Cloudsinger|R|Pandaren|
 C The Way of the Tushui|QID|29414|M|55.63,30.99;57.80,36.10|CS|N|Head up to the Cave of Meditation, then kill the Amberleaf Troublemakers until Aysa's Meditation bar reaches 90.|R|Pandaren|
@@ -197,8 +208,8 @@ A The Way of the Huojin|QID|29417|M|50.24,21.26|N|From Ji Firepaw.|R|Pandaren|
 C The Way of the Huojin|QID|29417|M|49.56,20.74|N|Kill the Fe-Feng around Wu-Song Village.|R|Pandaren|
 T The Way of the Huojin|QID|29417|M|50.24,21.26|N|To Ji Firepaw.|R|Pandaren|
 
-A Kindling the Fire|QID|29418|M|50.24,21.26|N|From Ji Firepaw.|R|Pandaren|
 A Fanning the Flames|QID|29523|M|50.24,21.26|N|From Ji Firepaw.|R|Pandaren|
+A Kindling the Fire|QID|29418|M|50.24,21.26|N|From Ji Firepaw.|R|Pandaren|
 
 C Kindling the Fire|QID|29418|M|48.33,29.60|N|Loot the Loose Dogwood Root found lying around the trees.|NC|S|R|Pandaren|
 C Fanning the Flames|QID|29523|M|47.30,31.31|N|Head to the Shrine of the Summer Breeze and use the Wind Stone to summon a Living Air. Kill the Living Air and loot the Fluttering Breeze.|U|72109|R|Pandaren|
@@ -238,11 +249,15 @@ T The Singing Pools|QID|29521|M|65.59,42.59|N|To Aysa Cloudsinger (she has moved
 A The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|From Aysa Cloudsinger|R|Pandaren|
 A The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|From Aysa Cloudsinger|R|Pandaren|
 
-C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Collect the Tearwood Reeds from the ground.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|R|Pandaren|
+; ** Cordinates are not needed for this quest and do this quest after you finish 'The Lesson of the Balanced Rock' **
+; C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Collect the Tearwood Reeds from the ground.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|R|Pandaren|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|S|R|Pandaren|
-C The Lesson of Dry Fur|QID|29661|N|Head to the other side of the bridge to the north, and find an exit pole (the poles on the edge of the water), jump onto one, then jump onto other poles until you reach the bell.|NC|R|Pandaren|
-C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Finish collecting the Tearwood Reeds from the ground.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|US|R|Pandaren|
+C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|R|Pandaren|
+; ** Found a better way to do this step ** C The Lesson of Dry Fur|QID|29661|N|Head to the other side of the bridge to the north, and find an exit pole (the poles on the edge of the water), jump onto one, then jump onto other poles until you reach the bell.|NC|R|Pandaren|
+C The Lesson of Dry Fur|QID|29661|M|63.70,44.48;61.62,47.14;61.44,47.77|CC|N|Head west under the bridge. There are several poles in the water than you can jump onto from the bridge. Jump onto one and continue jumping onto other poles until you reach the bell.|NC|R|Pandaren|
+; ** Cordinates are not needed for this quest ** C Stronger Than Reeds|QID|29662|M|60.58,48.92;62.84,49.39;62.72,44.62;61.30,46.41|CN|N|Finish collecting the Tearwood Reeds from the ground.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|US|R|Pandaren|
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|US|R|Pandaren|
+C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water. Easiest way into the water is to walk off the bell rock. Otherwise, you have to use an exit pole to get down.\n\nWhen you're in the water, you'll turn into a frog, and agro the Whitefeather Cranes. Just run out of the water to change back and disengage any attacking cranes.|NC|US|R|Pandaren|
 
 T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|R|Pandaren|
 
@@ -256,8 +271,9 @@ T Finding an Old Friend|QID|29676|M|70.61,38.75|N|To Old Man Liang in Liang's Re
 A The Sun Pearl|QID|29677|M|70.61,38.75|N|From Old Man Liang|R|Pandaren|
 A The Sting of Learning|QID|29666|M|70.61,38.75|N|From Old Man Liang|R|Pandaren|
 
-C The Sting of Learning|QID|29666|M|72.20,50.40|N|Kill the Water Pincers|R|Pandaren|
-C The Sun Pearl|QID|29677|M|76.3,47.0|N|Jump into the Singing Pools, open the Ancient Clam, and loot the Sun Pearl.|NC|R|Pandaren|
+C The Sting of Learning|QID|29666|M|72.20,42.00|N|Kill the Water Pincers.|S|R|Pandaren|
+C The Sun Pearl|QID|29677|M|76.3,47.0|N|Jump into the Singing Pools, open the Ancient Clam, and loot the Sun Pearl. It may be guarded by Fang-she. Defeat her and then loot the Sun Pearl from the clam.|NC|R|Pandaren|
+C The Sting of Learning|QID|29666|M|72.20,42.00|N|Kill the Water Pincers. If there are none in the area, check the other pools.|US|R|Pandaren|
 
 ;T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|S|R|Pandaren| ** Sticky not required **
 T The Sun Pearl|QID|29677|M|78.50,42.85|N|To Old Man Liang (he's moved to the Gazebo)|R|Pandaren|
