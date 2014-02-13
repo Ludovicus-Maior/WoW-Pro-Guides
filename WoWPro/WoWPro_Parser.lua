@@ -217,6 +217,10 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.step[i] = WoWPro.step[i]:trim()
 	WoWPro.stepcount = WoWPro.stepcount + 1
 	WoWPro.QID[i] = text:match("|QID|([^|]*)|?")
+	if WoWPro.action[i] == "t" then
+	    WoWPro.action[i] = "T"
+	    WoWPro.conditional[i] = true
+	end
 	if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
 	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
 	end
@@ -435,11 +439,6 @@ function WoWPro.SetupGuideReal()
 			numQIDs = 0
 		end
 
-        
-        if (not WoWProCharDB.Guide[GID].skipped[i]) and numQIDs > 0 then
-            WoWProCharDB.Guide[GID].completion[i] = false
-            WoWPro.why[i] = "UnCompleted by WoWPro:LoadGuideSteps() because quest was not skipped."
-        end
 		for j=1,numQIDs do
 			local QID = nil
 			local qid
