@@ -14,39 +14,49 @@ local function QidMapReduce(list,default,or_string,and_string,func)
     else
         split_string = and_string
     end
+--    WoWPro:dbp("QidMapReduce: Splitting %s on '%s'",list,split_string)
     local numList = select("#", string.split(split_string, list))
     for i=1,numList do
         local QID = select(numList-i+1, string.split(split_string, list))
         QID = tonumber(QID)
 		if not QID then
-		    WoWPro:Error("Malformed QID [%s] in Guide %s",QIDs,WoWProDB.char.currentguide)
+		    WoWPro:Error("Malformed QID [%s] in Guide %s",list,WoWProDB.char.currentguide)
 		    QID=0
 		end
 	    local val = func(math.abs(QID))
+--	    WoWPro:dbp("QidMapReduce: calling func on %d and got %s",QID,tostring(val))
 	    if QID < 0 then
 	        val = not val
 	    end
+	    if numList == 1 then
+--	        WoWPro:dbp("QidMapReduce: singleton return %s",tostring(val))
+	        return val
+	    end
         if do_or and val then
+--          WoWPro:dbp("QidMapReduce: do_or return true")
             return true
-        else
-            if not val then
-                return false
-            end
+        end
+        
+        if do_and and not val then
+--            WoWPro:dbp("QidMapReduce: do_and return false")
+            return false
         end
     end
-    return not do_or
+--    WoWPro:dbp("QidMapReduce: default return %s",tostring(default))
+    return default
 end
     
                     
 
 -- See if any of the list of QUIDs are in the indicated table.
 function WoWPro:QIDsInTable(QIDs,tabla)
+--    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
     return QidMapReduce(QIDs,false,";","&",function (qid) return tabla[qid] end)
 end
 
 -- See if all of the list of QUIDs are in the indicated table.
 function WoWPro:AllIDsInTable(IDs,tabla)
-    return QidMapReduce(QIDs,false,"&",";",function (qid) return tabla[qid] end)
+    return QidMapReduce(IDs,false,"&",";",function (qid) return tabla[qid] end)
 end
 
 
@@ -424,11 +434,11 @@ function WoWPro:NextStep(k,i)
 --	        WoWPro:Print("LFO: %s [%s] step %s",WoWPro.action[k],WoWPro.step[k],k)
 	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then 
     			skip = true -- If the quest is not in the quest log, the step is skipped --
---    			WoWPro:dbp("Step %s [%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k])
+    			WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],QID)
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
     		elseif WoWPro.action[k] == "T" and QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end) then
     		    -- For turnins, make sure we have completed the criteria
-    		    if not QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
+    		    if WoWPro.conditional[k] and not QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
     		        skip = true
     		        WoWPro.why[k] = "T criteria not met"
     		        break
@@ -476,7 +486,7 @@ function WoWPro:NextStep(k,i)
 			proflvl = tonumber(proflvl) or 1
 			profmaxlvl = tonumber(profmaxlvl) or 0
 			profmaxskill = tonumber(profmaxskill) or 0
-
+            proflvl = proflvl -50
 			if type(prof) == "string" and type(proflvl) == "number" then
 				local hasProf = false
 				skip = true --Profession steps skipped by default
@@ -493,6 +503,7 @@ function WoWPro:NextStep(k,i)
 						end
 					end
 				end
+				
 				-- Zero or max proflvl special skip logic
 				if (hasProf == false) and ((tonumber(profmaxlvl)>0) or (tonumber(profmaxskill)) > 0) then
 				    skip = false
@@ -701,8 +712,7 @@ function WoWPro:NextStep(k,i)
 		            -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
 		            WoWPro.why[k] = "NextStep(): enough loot to turn in quest."
 		        else
-			        WoWPro.why[k] = "NextStep(): completed cause you have enough loot in bags."
-			        WoWPro.CompleteStep(k)
+			        WoWPro.why[k] = "NextStep(): skipped cause you have enough loot in bags."
 			        skip = true
 			    end
 			else
@@ -945,19 +955,20 @@ end
 
 -- Quest Ordering by distance to travel
 
-function WoWPro:SwapSteps(i,j)
+function WoWPro.SwapSteps(i,j)
+    local GID = WoWProDB.char.currentguide
     for idx,tag in pairs(WoWPro.Tags) do
         WoWPro[tag][j] ,  WoWPro[tag][i] =  WoWPro[tag][i] ,  WoWPro[tag][j]
     end
+    WoWProCharDB.Guide[GID].completion[i] , WoWProCharDB.Guide[GID].completion[j] = WoWProCharDB.Guide[GID].completion[j] , WoWProCharDB.Guide[GID].completion[i]
+    WoWProCharDB.Guide[GID].skipped[i] , WoWProCharDB.Guide[GID].skipped[j] = WoWProCharDB.Guide[GID].skipped[j] , WoWProCharDB.Guide[GID].skipped[i]
 end
 
 
-function WoWPro:FindClosestStep(offset)
-    if not offset then offset = 1 end
+function WoWPro:FindClosestStep(limit)
     local distance, closest
-    for index=offset, WoWPro.stepcount do
+    for index=1, limit do
         local d = WoWPro:DistanceToStep(index)
-        WoWPro:Print("Step %d is at distance %g",index,d)
         if (not distance) or (d < distance) then
             distance = d
             closest = index
@@ -967,23 +978,67 @@ function WoWPro:FindClosestStep(offset)
 end
 
 
-function WoWPro.OrderSteps()
+-- Put completed and skipped steps at end of guide
+function WoWPro:CompleteAtEnd()
+    local GID = WoWProDB.char.currentguide
+    local last = WoWPro.stepcount
+    for i=1, WoWPro.stepcount do
+        if WoWProCharDB.Guide[GID].completion[i] then
+            -- find the last uncompleted step
+            while WoWProCharDB.Guide[GID].completion[last] and (last > i) do
+                last = last - 1
+            end
+            if last <= i then
+                -- no more room, done
+                break
+            end
+            WoWPro.SwapSteps(i,last)
+            WoWPro.why[last] = "Already Done"
+            last = last - 1
+        end
+    end
+    for i=1, WoWPro.stepcount do
+        if WoWProCharDB.Guide[GID].skipped[i] then
+            -- find the last skipped step
+            while WoWProCharDB.Guide[GID].skipped[last] and (last > i) do
+                last = last - 1
+            end
+            if last <= i then
+                -- no more room, done
+                break
+            end
+            WoWPro.SwapSteps(i,last)
+            WoWPro.why[last] = "Skipped for now"
+            last = last - 1
+        end
+    end
+    return last
+end
+
+
+function WoWPro:OrderSteps()
+    -- Put the stuff we did or dont want at the end
+    local limit = WoWPro:CompleteAtEnd()
+    WoWPro:Print("Limit at %d instead of %d",limit,WoWPro.stepcount)
     -- Put the first step closest to us
-    local sidx,d = WoWPro:FindClosestStep(1)
-    WoWPro:Print("selected step %d as the closest at a distance of %g",sidx,d)
-    WoWPro:SwapSteps(1,sidx)
+    local sidx,d = WoWPro:FindClosestStep(limit)
+    WoWPro.SwapSteps(1,sidx)
+    WoWPro.why[1] = string.format("selected step as the closest at a distance of %g",d)
+    WoWPro:Print("First setp %d at distance of %g",sidx,d)
     -- Now achor at each step and find the following step that is closer
-    for anchor=1, WoWPro.stepcount - 1 do
-        local distance, closest 
-        for index=anchor+1 , WoWPro.stepcount do
+    for anchor = 1, limit do
+       local distance, closest 
+       for index=anchor+1 , limit do
             local d = WoWPro:DistanceBetweenSteps(anchor,index)
             if (not distance) or (d < distance) then
                 distance = d
                 closest = index
             end
         end
-        WoWPro:Print("selected step %d as the next closest at a distance of %g",closest,d)
-        WoWPro:SwapSteps(anchor+1,closest)
+        if closest then
+            WoWPro.SwapSteps(anchor+1,closest)
+            WoWPro.why[anchor+1] = string.format("selected step as the next closest at a distance of %g",d)
+        end
     end
     WoWPro:UpdateGuide("WoWPro.OrderSteps")
 end
