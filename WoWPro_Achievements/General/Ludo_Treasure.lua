@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/treasure_treasure_everywhere
+-- Date: 2014-02-13 16:53
+-- Who: Ludovicus
+-- Log: Tweaks!
+
+-- URL: http://wow-pro.com/node/3562/revisions/25868/view
+-- Date: 2014-01-13 22:31
+-- Who: Ludovicus
+-- Log: Initial Version
+
 WoWPro.Achievements:RegisterGuide('LudoTreasure','Timeless Isle', 'Treasure, Treasure Everywhere', 'Achievement', 'Mists of Pandaria', 'Ludovicus','Neutral', function()
 
 
@@ -14,7 +24,7 @@ N Treasure, Treasure Everywhere|N|To use this guide, right click on the menu and
 
 A One-Time Chest 028|QID|33227|M|61.69,88.53|N|From Moss-Covered Chest.|
 A One-Time Chest - Ordo Chest 001|QID|33209|M|54.02,78.2|N|From Smoldering Chest. Lots of gear.|
-A One-Time Chest - Hammer Cavern|QID|33207|M|59.25,49.48|N|From Sturdy Chest. Lots of gear.|
+A One-Time Chest - Hammer Cavern|QID|33207|M|59.25,49.48|N|From Sturdy Chest. Lots of gear. Either wait till someone opens the cavern or find a precious item to open it.|
 A One-Time Chest - Carry Bird 1|QID|33205|M|26.69,64.98|N|From Sturdy Chest. Lots of gear.|
 A One-Time Chest - Cavern of Lost Spirits|QID|33203|M|62.91,34.88|N|From Skull-Covered Chest. Lots of gear.|
 A One-Time Chest - Ordo Lake Lower|QID|33201|M|59.93,31.33|N|From Moss-Covered Chest.|
@@ -27,7 +37,7 @@ A One-Time Chest 013|QID|33183|M|39.81,79.5|N|From Moss-Covered Chest.|
 A One-Time Chest 011|QID|33181|M|35.34,76.44|N|From Moss-Covered Chest.|
 A One-Time Chest 009|QID|33179|M|26.85,68.75|N|From Moss-Covered Chest.|
 A One-Time Chest 007|QID|33177|M|25.68,45.84|N|From Moss-Covered Chest.|
-A One-Time Chest 005|QID|33175|M|23.61,50.25|N|From Moss-Covered Chest. 22.15,49.27?|
+A One-Time Chest 005|QID|33175|M|22.15,49.27|N|From Moss-Covered Chest.|
 A One-Time Chest 003|QID|33173|M|30.6,36.51|N|From Moss-Covered Chest.|
 A One-Time Chest 001|QID|33171|M|25.48,27.18|N|From Moss-Covered Chest.|
 A One-Time Chest 000|QID|33170|M|36.69,34.07|N|From Moss-Covered Chest.|
