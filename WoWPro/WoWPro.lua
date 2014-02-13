@@ -234,7 +234,7 @@ WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky",
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
 	"level", "QID","target", "prof", "mat", "rank", "rep","waypcomplete", "why",
 	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
-	 "buff", "chat","recipe", "gossip"
+	 "buff", "chat","recipe", "gossip","conditional"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -314,6 +314,11 @@ function WoWPro:OnEnable()
 	if not keys then	
 		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
 	end
+    local keys = GetBindingKey("WOWPRO_SELECTOR")
+	if not keys then	
+		SetBinding("ALT-TAB", "WOWPRO_SELECTOR")
+	end
+    
 
 	-- Event Setup --
 	local bucket = LibStub("AceBucket-3.0")
@@ -505,6 +510,4 @@ if WoWPro.MOP then
 else
     WoWPro.GetNumPartyMembers = GetNumPartyMembers
 end
-
-
 
