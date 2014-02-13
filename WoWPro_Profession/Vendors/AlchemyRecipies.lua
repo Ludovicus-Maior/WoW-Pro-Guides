@@ -32,7 +32,7 @@ B Elixir of Superior Defense|QID|990017554|RECIPE|17554|M|55.23,45.83|Z|Orgrimma
 B Elixir of Superior Defense|QID|990017554|RECIPE|17554|M|66.60,54.50|Z|Ironforge|FACTION|Alliance|P|Alchemy;171;265|N|Limited quantity sold by Soolie Berryfizz in Ironforge.|
 B Major Dreamless Sleep Potion|QID|990028562|RECIPE|28562|M|57.70,53.40|Z|Terokkar Forest|FACTION|Alliance|P|Alchemy;171;350|N|Limited quantity sold by Leeli Longhaggle in Terokkar Forest.|
 B Major Dreamless Sleep Potion|QID|990028562|RECIPE|28562|M|51.10,57.70|Z|Blade's Edge Mountains|FACTION|Horde|P|Alchemy;171;350|N|Limited quantity sold by Daga Ramba in Blade's Edge Mountains.|
-B Transmute: Fire to Earth|QID|990017560|RECIPE|17560|M|0.00,0.00|Z|Blackrock Depths|P|Alchemy;171;275|N|Sold by Plugger Spazzring in Blackrock Depths.\nBind on Pickup.|
+B Transmute: Fire to Earth|QID|990017560|RECIPE|17560|M|0.00,0.00|Z|Shadowforge City@BlackrockDepths|P|Alchemy;171;275|N|Sold by Plugger Spazzring in Blackrock Depths.\nBind on Pickup.|
 B Transmute: Water to Air|QID|990017562|RECIPE|17562|M|68.10,77.60|Z|Western Plaguelands|P|Alchemy;171;275|N|Sold by Magnus Frostwake in Western Plaguelands.\nBind on Pickup.|
 B Ghost Dye|QID|990011473|RECIPE|11473|M|46.60,43.00|Z|Feralas|FACTION|Alliance|P|Alchemy;171;245|N|Limited quantity sold by Logannas in Feralas.|
 B Ghost Dye|QID|990011473|RECIPE|11473|M|76.10,43.30|Z|Feralas|FACTION|Horde|P|Alchemy;171;245|N|Limited quantity sold by Bronk in Feralas.|
