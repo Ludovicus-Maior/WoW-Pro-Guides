@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2014-02-13 16:55
+-- Who: Ludovicus
+-- Log: Added Leaders dailies and shuffled flow.
+
+-- URL: http://wow-pro.com/node/3466/revisions/25718/view
 -- Date: 2013-06-18 00:59
 -- Who: Ludovicus
 -- Log: Missing coordinate, 1/1 in guide LudoLoveA, line [A/T You've Been Served].
@@ -60,8 +65,15 @@ T A Friendly Chat...|QID|24657|M|61.50,75.29|Z|Stormwind City|N|To Inspector Sni
 
 L Lovely Charm Collector's Kit|L|49661|M|62.53,74.96|Z|Stormwind City|N|Ask Kwee Q. Peddlefeet for a Kit.|
 
-A Crushing the Crown|QID|24658;24659;24660;24662;24663;24664;24665;24666;28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
+A Crown Chemical Company Daily|QID|24635;24629;24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
+C A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49669|
+C A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49668|
+C Bonbon Blitz|QID|24636|QID|24636|Z|Stormwind City|N|FDorce feed candy to everyone and any NPC in sight.|U|49670|
+T A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|From Public Relations Agent|
+T A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|From Public Relations Agent|
+T Bonbon Blitz|QID|24636|QID|24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
 
+A Crushing the Crown|QID|24658;24659;24660;24662;24663;24664;24665;24666;28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 C Crushing the Crown|QID|24658|M|29,65|Z|Elwynn Forest|N|Kill Crown Lackeys near Westbrook Garrison and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24659|M|42.4,79.4|Z|Darkshore|N|Kill Crown Thugs near Grove of the Ancients and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24660|M|76,53|Z|Duskwood|N|Kill Crown Dusters near Darkshire and blow up a a wagon.|U|50130|
@@ -71,22 +83,27 @@ C Crushing the Crown|QID|24664|M|63.53,49.29|Z|Winterspring|N|Kill Crown Sprinkl
 C Crushing the Crown|QID|24665|M|41.48,22.46|Z|Terokkar Forest|N|Kill Crown Underlings near Shattrath City and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24666|M|46,40|Z|Crystalsong Forest|N|Kill Crown Sprayers near Dalaran and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|28934|M|66.58,19.65|Z|Uldum|N|Kill Crown Technicians near the Tomb of Khartut and blow up a a wagon.|U|50130|
-
+l Gifts for the Alliance|L|49655 40|N|If you are going to present gifts to all the leaders of the Alliance, you need 40 lovely charms.  Mobs that are closer in level to you drop more frequently.  If people get annoyed at you farming the Crown NPCs, just kill anything that spawns fast and is close to your level.|
 T Crushing the Crown|QID|24658;24659;24660;24662;24663;24664;24665;24666;28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
-A Crown Chemical Company Daily|QID|24635;24629;24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
-C A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49669|
-C A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49668|
-C Bonbon Blitz|QID|24636|QID|24636|Z|Stormwind City|N|FDorce feed candy to everyone and any NPC in sight.|U|49670|
-T A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|From Public Relations Agent|
-T A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|From Public Relations Agent|
-T Bonbon Blitz|QID|24636|QID|24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
+A A Gift for the King of Stormwind|QID|24597|M|62.55,74.96|Z|Stormwind City|N|From Kwee Q. Peddlefeet.|
+l Lovely Charm Bracelet|QID|24597|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the King of Stormwind.|
+T A Gift for the King of Stormwind|QID|24597|M|85.79,31.69|Z|Stormwind City|N|To King Varian Wrynn.|
+A A Gift for a Lord of Ironforge|QID|24609|M|33.60,65.56|Z|Ironforge|N|From Kwee Q. Peddlefeet.|
+l Lovely Charm Bracelet|QID|24597|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the Lord of Ironforge.|
+T A Gift for a Lord of Ironforge|QID|24609|M|39.15,56.14|Z|Ironforge|N|To Muradin Bronzebeard.|
+A A Gift for the High Priestess of Elune|QID|24610|M|45.41,57.74|Z|Darnassus|N|From Kwee Q. Peddlefeet.|
+l Lovely Charm Bracelet|QID|24610|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the High Priestess of Elune.|
+T A Gift for the High Priestess of Elune|QID|24610|M|43.01,78.07|Z|Darnassus|N|To Tyrande Whisperwind.|
+A A Gift for the Prophet|QID|24611|M|73.66,57.01|Z|The Exodar|N|From Kwee Q. Peddlefeet.|
+l Lovely Charm Bracelet|QID|24611|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the Prophet.|
+T A Gift for the Prophet|QID|24611|M|32.87,54.48|Z|The Exodar|N|To Prophet Velen.|
 
-N Shadowfang Keep and Hummel|QID|24792|N|In order for you to queue for this, you may need to be level 84.  However, a group can get the quests at 78/75.|LVL|75|
 A Man on the Inside|QID|24792|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|LVL|78|
+N Shadowfang Keep and Hummel|ACTIVE|24792|N|In order for you to queue for this, you may need to be level 85.  However, a group can get the quests at 78.|LVL|78|
 T Man on the Inside|QID|24793|M|50.79,75.29|Z|ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|78|
-A You've Been Served|QID|14488|Z|The Courtyard@ShadowfangKeep|N|From Investigator Fezzen Brasstacks|LVL|75|
-T You've Been Served|QID|14488|Z|The Courtyard@ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|75|
+A You've Been Served|QID|14488|Z|The Courtyard@ShadowfangKeep|N|From Investigator Fezzen Brasstacks|LVL|78|
+T You've Been Served|QID|14488|Z|The Courtyard@ShadowfangKeep|N|To Investigator Fezzen Brasstacks|LVL|78|
 
 N All done for the day|
 
