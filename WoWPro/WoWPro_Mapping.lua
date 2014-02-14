@@ -349,7 +349,7 @@ function WoWPro:DistanceBetweenSteps(i,j)
 
     
     local distance = AL:ComputeDistance(im,ifl,ix,iy, jm,jfl,jx,jy) or 1e198
-    WoWPro:dbg("Dx %s(%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",WoWPro.step[i],ix*100,iy*100,im, WoWPro.step[j],jx*100,jy*100,jm,distance)
+    WoWPro:dbp("Dx %s(%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",WoWPro.step[i],ix*100,iy*100,im, WoWPro.step[j],jx*100,jy*100,jm,distance)
     return distance
 end
 
@@ -378,7 +378,7 @@ function WoWPro:DistanceToStep(i)
     local f = GetCurrentMapDungeonLevel()
     
     local distance = AL:ComputeDistance(m,f,x,y, im,ifl,ix,iy) or 1e199
-    WoWPro:dbg("IDx (%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",x*100,y*100,m, WoWPro.step[i],ix*100,iy*100,im,distance)
+    WoWPro:dbp("IDx (%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",x*100,y*100,m, WoWPro.step[i],ix*100,iy*100,im,distance)
     return distance
 end    
     
