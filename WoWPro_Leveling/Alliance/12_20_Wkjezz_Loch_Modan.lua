@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2014-02-18 00:01
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3216/revisions/25816/view
 -- Date: 2013-11-25 19:47
 -- Who: Fluclo
 
@@ -269,7 +273,7 @@ T Joining the Hunt|QID|13647|M|81.82,61.74|N|To Marek Ironheart.|
 A Hornet Hunting|QID|27028|M|81.82,61.74|N|From Marek Ironheart.|
 A Foxtails By The Handful|QID|27030|M|81.87,61.88|N|From Marek Ironheart.|
 
-f Farstrider Lodge|QID|13647|M|81.96,64.10|N|At Eeryven Grayer. |
+f Farstrider Lodge|QID|27031|M|81.96,64.10|N|At Eeryven Grayer. |
 
 L Level 15 |QID|27031|LVL|15|N|You need to be Level 15 to be able to continue this guide.|
 A Wing Nut|QID|27031|M|81.70,64.59|N|From Bingles Blastenheimer.|
