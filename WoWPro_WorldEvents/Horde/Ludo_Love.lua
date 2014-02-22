@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2014-02-21 19:21
+-- Who: Ludovicus
+-- Log: Missing A in [T A Gift]
+
+-- URL: http://wow-pro.com/node/3467/revisions/25880/view
 -- Date: 2014-02-13 16:56
 -- Who: Ludovicus
 -- Log: Added Leaders dailies and shuffled flow.
@@ -94,7 +99,7 @@ T Crushing the Crown|QID|24638;24645;24647;24648;24649;24650;24651;24652;24638;2
 
 A A Gift for the Warchief|QID|24612|M|52.99,76.81|Z|Orgrimmar|N|From Kwee Q. Peddlefeet, between the AH and Inn.|
 l Lovely Charm Bracelet|QID|24612|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the Warchief.|
-T Gift for the Warchief|QID|24612|M|48.11,70.48|Z|Orgrimmar|N|To Garrosh Hellscream.|
+T A Gift for the Warchief|QID|24612|M|48.11,70.48|Z|Orgrimmar|N|To Garrosh Hellscream.|
 A A Gift for the High Chieftain|QID|24614|M|44.01,52.59|Z|Thunder Bluff|N|From Kwee Q. Peddlefeet, near the flight tower.|
 l Lovely Charm Bracelet|QID|24614|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the High Chieftain.|
 T A Gift for the High Chieftain|QID|24614|M|60.33,51.68|Z|Thunder Bluff|N|To Baine Bloodhoof.|
