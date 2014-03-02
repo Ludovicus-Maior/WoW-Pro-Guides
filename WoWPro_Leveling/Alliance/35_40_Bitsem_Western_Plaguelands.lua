@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2014-03-01 22:24
+-- Who: Hendo72
+-- Log: Added a 'Withdrawn Soul' target button. The Holy Thurible will work as long as you are within range. Even if you are not facing the target. The target button just makes the quest easier.
+
+-- URL: http://wow-pro.com/node/3244/revisions/25862/view
 -- Date: 2014-01-01 17:33
 -- Who: Fluclo
 -- Log: Added quest to accept before it takes you to the next quest guide.
@@ -161,7 +166,8 @@ T A Mighty Hunger|QID|27167|M|42.73,83.98|N|To Thurman Grant.|
 A Uther's Blessing|QID|27169|PRE|27167|M|42.73,83.98|N|From Commander Ashlam Valorfist.|
 A Those That Couldn't Let Go|QID|27168|PRE|27167|M|43.32,83.81|N|From High Priestess MacDonnell.|
 
-C Those That Couldn't Let Go|QID|27168|S|U|60861|M|49.84,80.79|N|From now on use the Holy Thurible on Withdrawn Souls.  Some may turn hostile.|
+; ** Added target button to make quest easier. Direction is irrelevant for this quest as long as you are within range to use Holy Thurible
+C Those That Couldn't Let Go|QID|27168|S|U|60861|T|Withdrawn Soul|M|49.84,80.79|N|From now on use the Holy Thurible on Withdrawn Souls.  Some may turn hostile.|
 C Uther's Blessing|QID|27169|NC|U|61920|M|51.94,82.64|N|Use the Chillwind Tribute at Uther's Tomb.|
 
 T Uther's Blessing|QID|27169|M|51.95,82.71|N|To High Priest Thel'danis.|
@@ -170,7 +176,8 @@ T The Abandoned Crypt|QID|27170|M|54.32,79.92;53.75,80.43|CS|N|Head into the Cry
 A Ambushed!|QID|27171|PRE|27170|M|53.77,80.47|N|From the Broken Weapons Crate.|
 
 C Ambushed!|QID|27171|M|54.82,79.75|N|Kill and loot the Skeletal Sorcerers, as you head out of the crypt.|
-C Those That Couldn't Let Go|QID|27168|US|U|60861|M|49.84,80.79|N|Finish off using the Holy Thurible on Withdrawn Souls as you head back to Chillwind Camp.  Remember, they can turn hostile.|
+; ** Added target button to make quest easier. Direction is irrelevant for this quest as long as you are within range to use Holy Thurible
+C Those That Couldn't Let Go|QID|27168|US|U|60861|M|49.84,80.79|T|Withdrawn Soul|N|Finish off using the Holy Thurible on Withdrawn Souls as you head back to Chillwind Camp.  Remember, they can turn hostile.|
 
 T Those That Couldn't Let Go|QID|27168|M|43.44,83.76|N|To High Priestess MacDonnell.|
 A The Menders' Stead|QID|27175|M|43.02,83.61|N|From Argent Officer Pureheart.|
