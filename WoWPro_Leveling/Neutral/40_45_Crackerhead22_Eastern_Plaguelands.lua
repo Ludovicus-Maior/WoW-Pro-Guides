@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2014-03-04 22:24
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3251/revisions/25863/view
 -- Date: 2014-01-01 19:55
 -- Who: Fluclo
 -- Log: Updated start of guide to accommodate pre-existing quests (Hero's Call, Light's Hope Chapel, Chillwind Camp, or for those with no pre-existing quests)
@@ -118,7 +122,7 @@ F The Menders' Stead|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Head to The Men
 F The Menders' Stead|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Head to The Mender's Stead in Western Plaguelands.|LEAD|28577;28578;27684|
 A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.|LEAD|28577;28578;27684|
 R Thondroril River |QID|27683|M|9.02,66.52|N|Run east along the road to Thondroril River, then cross the bridge and into Eastern Plaguelands.\n\nIf you have previously been to Eastern Plaguelands and obtained the flightpoint, or if you have a flying mount, you can fly there instead of running.|ACTIVE|27683|LEAD|28577;28578;27684|
-T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|LEAD|28577;28578;27684|
+T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|
 
 A Tarenar Sunstrike|QID|27370|M|9.02,66.52|N|From Fiona.|S|
 A Gidwin Goldbraids|QID|27367|M|9.02,66.52|N|From Fiona.|
