@@ -363,7 +363,7 @@ function WoWPro:ParseSteps(steps)
 			if (class == nil or class:find(myclass)) and
 			   (race == nil or race:find(myrace)) and
 			   (gender == nil or gender == UnitSex("player")) and
-			   (faction == nil or myFaction == "NEUTRAL" or faction == myFaction) then
+			   (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
                 WoWPro.ParsingQuestLine = text
 				WoWPro.ParseQuestLine(faction,i,text)
 				WoWPro.ParsingQuestLine = nil
