@@ -59,6 +59,26 @@ function WoWPro:AllIDsInTable(IDs,tabla)
     return QidMapReduce(IDs,false,"&",";",function (qid) return tabla[qid] end)
 end
 
+WoWPro.PetsOwned = nil
+
+-- Lazy check for existence of pets
+function WoWPro:PetOwned(npcID)
+    if not WoWPro.PetsOwned then
+        WoWPro.PetsOwned = {}
+        WoWPro:dbp("WoWPro:PetOwned() Polling for %d pets.",C_PetJournal.GetNumPets())
+        for i = 1,C_PetJournal.GetNumPets() do
+            local petID, speciesID, isOwned, customName, level, favorite, isRevoked, name, icon, petType, creatureID, sourceText, description, isWildPet, canBattle = C_PetJournal.GetPetInfoByIndex(i);
+                WoWPro:dbp("%s: %d@%d",name,creatureID,i)
+                if WoWPro.PetsOwned[creatureID] then
+                    WoWPro.PetsOwned[creatureID] = WoWPro.PetsOwned[creatureID] + 1
+                else
+                    WoWPro.PetsOwned[creatureID] = 1
+                end
+        end
+    end
+    WoWPro:dbp("Testing for pet %s, %s",tostring(npcID),tostring(WoWPro.PetsOwned[tonumber(npcID)]))
+    return WoWPro.PetsOwned[tonumber(npcID)] or 0           
+end 
 
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
@@ -486,7 +506,13 @@ function WoWPro:NextStep(k,i)
 			proflvl = tonumber(proflvl) or 1
 			profmaxlvl = tonumber(profmaxlvl) or 0
 			profmaxskill = tonumber(profmaxskill) or 0
-            proflvl = proflvl -50
+			if WoWProCharDB.ProfessionalfOffset and WoWPro.Guides[GID].nextGID then
+                proflvl = proflvl - WoWProCharDB.ProfessionalfOffset
+                if 	proflvl < 1 then
+                    proflvl = 1
+                end	    
+			end
+
 			if type(prof) == "string" and type(proflvl) == "number" then
 				local hasProf = false
 				skip = true --Profession steps skipped by default
@@ -503,7 +529,6 @@ function WoWPro:NextStep(k,i)
 						end
 					end
 				end
-				
 				-- Zero or max proflvl special skip logic
 				if (hasProf == false) and ((tonumber(profmaxlvl)>0) or (tonumber(profmaxskill)) > 0) then
 				    skip = false
@@ -694,6 +719,24 @@ function WoWPro:NextStep(k,i)
             end
      	end
         
+        -- Test for pets
+    	if WoWPro.pet and WoWPro.pet[k] then
+    	    local petID,petCount,petFlip = string.split(";",WoWPro.pet[k])
+    	    local found = WoWPro:PetOwned(petID)
+    	    petCount = tonumber(petCount) or 3
+    	    local want = found < petCount
+    	    if petFlip then
+    	        want = not want
+    	    end
+    	    if want then
+                WoWPro.why[k] = "NextStep(): Pet wanted."
+            else
+                skip = true
+                WoWPro.why[k] = "NextStep(): Pet NOT wanted."
+                break
+            end
+     	end
+        
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank and WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
@@ -712,7 +755,13 @@ function WoWPro:NextStep(k,i)
 		            -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
 		            WoWPro.why[k] = "NextStep(): enough loot to turn in quest."
 		        else
-			        WoWPro.why[k] = "NextStep(): skipped cause you have enough loot in bags."
+		            if i == 1 then
+		                -- Only complete the current step, the loot might go away!
+		                WoWPro.why[k] = "NextStep(): completed cause you have enough loot in bags."
+		                WoWPro.CompleteStep(k)
+		            else
+			            WoWPro.why[k] = "NextStep(): skipped cause you have enough loot in bags."
+			        end
 			        skip = true
 			    end
 			else
