@@ -1,3 +1,16 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/jewelcrafting_designs
+-- Date: 2014-02-14 00:14
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3571/revisions/25889/view
+-- Date: 2014-02-14 00:08
+-- Who: Ludovicus
+
 WoWPro.Profession:RegisterGuide('LudoShopJewelcrafting', 'Jewelcrafting', 'Jewelcrafting Designs', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
 return [[
 B Lightning Eye of Zul|QID|990066439|RECIPE|66439|M|36.10,47.70|Z|Shattrath City|P|Jewelcrafting;755;450|N|Sold by Nemiha in Shattrath City.\nBind on Pickup.|
@@ -1318,7 +1331,6 @@ B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|63.70,61.30|Z|Stor
 B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|56.70,36.90|Z|Undercity|FACTION|Horde|P|Jewelcrafting;755;490|N|Sold by Sara Lanner in Undercity.\nBind on Pickup.|
 B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|45.90,24.90|Z|The Exodar|FACTION|Alliance|P|Jewelcrafting;755;490|N|Sold by Arred in The Exodar.\nBind on Pickup.|
 B Impassive Shadowspirit Diamond|QID|990073475|RECIPE|73475|M|54.40,30.70|Z|Darnassus|FACTION|Alliance|P|Jewelcrafting;755;490|N|Sold by Tarien Silverdew in Darnassus.\nBind on Pickup.|
-
 
 N Nothing left to buy!
 ]]

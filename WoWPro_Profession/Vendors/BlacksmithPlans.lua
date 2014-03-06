@@ -1,5 +1,25 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/blacksmithing_plans
+-- Date: 2014-03-06 23:50
+-- Who: Ludovicus
+-- Log: Correct Molten Front zone tags.
+
+-- URL: http://wow-pro.com/node/3566/revisions/25899/view
+-- Date: 2014-02-14 00:15
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3566/revisions/25884/view
+-- Date: 2014-02-13 23:59
+-- Who: Ludovicus
+
 WoWPro.Profession:RegisterGuide('LudoShopBlacksmithing', 'Blacksmithing', 'Blacksmithing Plans', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
 return [[
+N Dark Iron Mail|QID|990015293|RECIPE|15293|M|35.60,64.00;42.90,86.50;48.40,38.70;59.80,64.70;38.45,81.30;40.25,70.35|Z|Shadowforge City@BlackrockDepths|P|Blacksmithing;164;270|CN|N|Looted from West Garrison, Manufactory, and Mold Foundry.\nBind on Pickup.|
+N Dark Iron Shoulders|QID|990015295|RECIPE|15295|M|35.60,64.00;42.90,86.50;48.40,38.70;59.80,64.70;38.45,81.30;40.25,70.35|Z|Shadowforge City@BlackrockDepths|P|Blacksmithing;164;280|CN|N|Looted from \nBind on Pickup.|
 B Golden Scale Coif|QID|990003503|RECIPE|3503|M|51.20,30.40|Z|Tanaris|P|Blacksmithing;164;190|N|Limited quantity sold by Krinkle Goodsteel in Tanaris.|
 B Adamantite Maul|QID|990029566|RECIPE|29566|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;325|N|Limited quantity sold by Eriden in Silvermoon City.|
 B Adamantite Maul|QID|990029566|RECIPE|29566|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;325|N|Limited quantity sold by Arras in Thunder Bluff.|
@@ -409,13 +429,13 @@ B Contender's Spirit Shoulders|QID|990122625|RECIPE|122625|M|29.40,43.40|Z|Shrin
 B Contender's Spirit Shoulders|QID|990122625|RECIPE|122625|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
 B Contender's Spirit Bracers|QID|990122629|RECIPE|122629|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
 B Contender's Spirit Bracers|QID|990122629|RECIPE|122629|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Elementium-Edged Scalper|QID|990099655|RECIPE|99655|M|47.00,90.60|Z|Molten Front|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
+B Elementium-Edged Scalper|QID|990099655|RECIPE|99655|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
 B Ebon Shiv|QID|990010013|RECIPE|10013|M|68.10,77.60|Z|Western Plaguelands|P|Blacksmithing;164;255|N|Sold by Magnus Frostwake in Western Plaguelands.\nBind on Pickup.|
 B Runic Plate Helm|QID|990016726|RECIPE|16726|M|43.46,41.60|Z|Un'Goro Crater|P|Blacksmithing;164;300|N|Sold by Dramm Riverhorn in Un'Goro Crater.|
-B Brainsplinter|QID|990099652|RECIPE|99652|M|47.00,90.60|Z|Molten Front|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
-B Masterwork Elementium Spellblade|QID|990099653|RECIPE|99653|M|47.00,90.60|Z|Molten Front|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
-B Pyrium Spellward|QID|990099656|RECIPE|99656|M|47.00,90.60|Z|Molten Front|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
-B Unbreakable Guardian|QID|990099657|RECIPE|99657|M|47.00,90.60|Z|Molten Front|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
+B Brainsplinter|QID|990099652|RECIPE|99652|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
+B Masterwork Elementium Spellblade|QID|990099653|RECIPE|99653|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
+B Pyrium Spellward|QID|990099656|RECIPE|99656|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
+B Unbreakable Guardian|QID|990099657|RECIPE|99657|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
 B Elementium Earthguard|QID|990076454|RECIPE|76454|M|63.50,37.60|Z|Stormwind City|FACTION|Alliance|P|Blacksmithing;164;520|N|Sold by Kaita Deepforge in Stormwind City.\nBind on Pickup.|
 B Elementium Earthguard|QID|990076454|RECIPE|76454|M|75.80,35.20|Z|Orgrimmar|FACTION|Horde|P|Blacksmithing;164;520|N|Sold by Sumi in Orgrimmar.\nBind on Pickup.|
 B Elementium Earthguard|QID|990076454|RECIPE|76454|M|61.40,30.10|Z|Undercity|FACTION|Horde|P|Blacksmithing;164;520|N|Sold by Samuel Van Brunt in Undercity.\nBind on Pickup.|
@@ -430,10 +450,10 @@ B Elementium Earthguard|QID|990076454|RECIPE|76454|M|56.80,52.50|Z|Darnassus|FAC
 B Elementium Earthguard|QID|990076454|RECIPE|76454|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;520|N|Sold by Eriden in Silvermoon City.\nBind on Pickup.|
 B Contender's Spirit Belt|QID|990122631|RECIPE|122631|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
 B Contender's Spirit Belt|QID|990122631|RECIPE|122631|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Witch-Hunter's Harvester|QID|990099660|RECIPE|99660|M|47.00,90.60|Z|Molten Front|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
+B Witch-Hunter's Harvester|QID|990099660|RECIPE|99660|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
 B Runic Plate Leggings|QID|990016732|RECIPE|16732|M|43.46,41.60|Z|Un'Goro Crater|P|Blacksmithing;164;300|N|Sold by Dramm Riverhorn in Un'Goro Crater.|
-B Lightforged Elementium Hammer|QID|990099654|RECIPE|99654|M|47.00,90.60|Z|Molten Front|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
-B Masterwork Elementium Deathblade|QID|990099658|RECIPE|99658|M|47.00,90.60|Z|Molten Front|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
+B Lightforged Elementium Hammer|QID|990099654|RECIPE|99654|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
+B Masterwork Elementium Deathblade|QID|990099658|RECIPE|99658|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
 B Mithril Scale Bracers|QID|990009937|RECIPE|9937|M|13.40,44.00|Z|The Hinterlands|FACTION|Alliance|P|Blacksmithing;164;215|N|Sold by Harggan in The Hinterlands.|
 B Mithril Scale Bracers|QID|990009937|RECIPE|9937|M|47.20,52.10|Z|Swamp of Sorrows|FACTION|Horde|P|Blacksmithing;164;215|N|Limited quantity sold by Gharash in Swamp of Sorrows.|
 B Elementium Bonesplitter|QID|990076452|RECIPE|76452|M|63.50,37.60|Z|Stormwind City|FACTION|Alliance|P|Blacksmithing;164;515|N|Sold by Kaita Deepforge in Stormwind City.\nBind on Pickup.|
@@ -512,7 +532,6 @@ B Contender's Revenant Belt|QID|990122623|RECIPE|122623|M|74.40,51.00|Z|Shrine o
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;330|N|Limited quantity sold by Eriden in Silvermoon City.|
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;330|N|Limited quantity sold by Arras in Thunder Bluff.|
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|63.10,71.10|Z|Shattrath City|P|Blacksmithing;164;330|N|Limited quantity sold by Aaron Hollman in Shattrath City.|
-
 
 N Nothing left to buy!
 ]]

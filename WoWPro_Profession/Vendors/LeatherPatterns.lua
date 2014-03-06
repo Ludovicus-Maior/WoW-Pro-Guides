@@ -1,4 +1,22 @@
-WoWPro.Profession:RegisterGuide('LudoShopLeather', 'Leatherworking', 'Leatherworking Patterns', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/leatherworking_patterns
+-- Date: 2014-03-06 23:51
+-- Who: Ludovicus
+-- Log: Zone tag corrections
+
+-- URL: http://wow-pro.com/node/3572/revisions/25893/view
+-- Date: 2014-02-14 00:13
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3572/revisions/25890/view
+-- Date: 2014-02-14 00:09
+-- Who: Ludovicus
+
+WoWPro.Profession:RegisterGuide('LudoShopLeather', 'Leatherworking', 'Leatherworking Patterns', 'Ludovicus', '0', ' ', true, 'Neutral', function()
 return [[
 B Polar Vest|QID|990060996|RECIPE|60996|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;425|N|Sold by Braeg Stoutbeard in Dalaran|
 B Vicious Dragonscale Shoulders|QID|990078451|RECIPE|78451|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Haferet in The Exodar|
@@ -284,7 +302,7 @@ B Contender's Wyrmhide Leggings|QID|990124591|RECIPE|124591|M|31.20,47.00|Z|Shri
 B Contender's Wyrmhide Leggings|QID|990124591|RECIPE|124591|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Murloc Scale Bracers|QID|990006705|RECIPE|6705|M|66.40,51.50|Z|Dustwallow Marsh|FACTION|Alliance|P|Leatherworking;165;190|N|Limited quantity sold by Helenia Olden in Dustwallow Marsh|
 B Raptor Hide Harness|QID|990004096|RECIPE|4096|M|70.00,35.40|Z|Arathi Highlands|FACTION|Horde|P|Leatherworking;165;165|N|Limited quantity sold by Tunkk in Arathi Highlands|
-B Molten Helm|QID|990020854|RECIPE|20854|M|0.00,0.00|Z|Blackrock Depths|FACTION|Neutral|P|Leatherworking;165;300|N|Sold by Lokhtos Darkbargainer in Blackrock Depths|
+B Molten Helm|QID|990020854|RECIPE|20854|M|0.00,0.00|Z|Shadowforge City@BlackrockDepths|FACTION|Neutral|P|Leatherworking;165;300|N|Sold by Lokhtos Darkbargainer in Blackrock Depths|
 B Frostsaber Boots|QID|990019066|RECIPE|19066|M|59.60,49.20|Z|Winterspring|FACTION|Neutral|P|Leatherworking;165;275|N|Sold by Qia in Winterspring|
 B Contender's Wyrmhide Bracers|QID|990124592|RECIPE|124592|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;555|N|Sold by Krogo Darkhide in Shrine of Two Moons|
 B Contender's Wyrmhide Bracers|QID|990124592|RECIPE|124592|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;555|N|Sold by Tanner Pang in Shrine of Seven Stars|
@@ -488,7 +506,7 @@ B Vicious Dragonscale Boots|QID|990078458|RECIPE|78458|M|39.60,34.50|Z|Ironforge
 B Vicious Dragonscale Boots|QID|990078458|RECIPE|78458|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Joseph Moore in Undercity|
 B Vicious Dragonscale Boots|QID|990078458|RECIPE|78458|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Dragonscale Boots|QID|990078458|RECIPE|78458|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Mak in Thunder Bluff|
-B Riding Crop|QID|990032461|RECIPE|32461|M|0.00,0.00|Z|Old Hillsbrad Foothills|FACTION|Neutral|P|Leatherworking;165;350|N|Sold by Thomas Yance in Old Hillsbrad Foothills|
+B Riding Crop|QID|990032461|RECIPE|32461|M|0.00,0.00|Z|CoTHillsbradFoothills|FACTION|Neutral|P|Leatherworking;165;350|N|Sold by Thomas Yance in Old Hillsbrad Foothills|
 B Vicious Charscale Boots|QID|990078456|RECIPE|78456|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Haferet in The Exodar|
 B Vicious Charscale Boots|QID|990078456|RECIPE|78456|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Zaralda in Silvermoon City|
 B Vicious Charscale Boots|QID|990078456|RECIPE|78456|M|78.80,76.20|Z|Twilight Highlands|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Misty Merriweather in Twilight Highlands|
@@ -523,9 +541,9 @@ B Green Leather Armor|QID|990003772|RECIPE|3772|M|76.70,58.50|Z|Hillsbrad Foothi
 B Gem-studded Leather Belt|QID|990003778|RECIPE|3778|M|43.20,71.70|Z|The Cape of Stranglethorn|FACTION|Neutral|P|Leatherworking;165;185|N|Limited quantity sold by Rikqiz in The Cape of Stranglethorn|
 B Stormhide Stompers|QID|990060752|RECIPE|60752|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;425|N|Sold by Braeg Stoutbeard in Dalaran|
 B Eviscerator's Treads|QID|990060712|RECIPE|60712|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;425|N|Sold by Braeg Stoutbeard in Dalaran|
-B Corehound Boots|QID|990020853|RECIPE|20853|M|0.00,0.00|Z|Blackrock Depths|FACTION|Neutral|P|Leatherworking;165;295|N|Sold by Lokhtos Darkbargainer in Blackrock Depths|
+B Corehound Boots|QID|990020853|RECIPE|20853|M|0.00,0.00|Z|Shadowforge City@BlackrockDepths|FACTION|Neutral|P|Leatherworking;165;295|N|Sold by Lokhtos Darkbargainer in Blackrock Depths|
 B Eviscerator's Bindings|QID|990060704|RECIPE|60704|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;420|N|Sold by Braeg Stoutbeard in Dalaran|
-B Black Whelp Cloak|QID|990009070|RECIPE|9070|M|88.90,70.90|Z|Redridge Mountains|FACTION|Alliance|P|Leatherworking;165;100|N|Sold by Clyde Ranthal in Redridge Mountains|
+B Black Whelp Cloak|QID|990009070|RECIPE|9070|M|78.79,63.42|Z|Redridge Mountains|FACTION|Alliance|P|Leatherworking;165;100|N|Sold by Clyde Ranthal in Redridge Mountains|
 B Barbaric Bracers|QID|990023399|RECIPE|23399|M|60.00,37.30|Z|Darnassus|FACTION|Alliance|P|Leatherworking;165;155|N|Limited quantity sold by Saenorion in Darnassus|
 B Barbaric Bracers|QID|990023399|RECIPE|23399|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;155|N|Limited quantity sold by Joseph Moore in Undercity|
 B Stormshroud Pants|QID|990019067|RECIPE|19067|M|43.00,84.30|Z|Western Plaguelands|FACTION|Alliance|P|Leatherworking;165;275|N|Sold by Leonard Porter in Western Plaguelands|
@@ -605,7 +623,7 @@ B Barbaric Leggings|QID|990007149|RECIPE|7149|M|34.80,49.80|Z|Ashenvale|FACTION|
 B Barbaric Leggings|QID|990007149|RECIPE|7149|M|40.52,48.89|Z|Arathi Highlands|FACTION|Alliance|P|Leatherworking;165;170|N|Sold by Hammon Karwn in Arathi Highlands|
 B Barbaric Leggings|QID|990007149|RECIPE|7149|M|69.20,33.60|Z|Arathi Highlands|FACTION|Horde|P|Leatherworking;165;170|N|Limited quantity sold by Keena in Arathi Highlands|
 B Raptor Hide Belt|QID|990004097|RECIPE|4097|M|45.00,46.90|Z|Arathi Highlands|FACTION|Alliance|P|Leatherworking;165;165|N|Sold by Androd Fadran in Arathi Highlands|
-B Black Dragonscale Breastplate|QID|990019085|RECIPE|19085|M|0.00,0.00|Z|Blackrock Depths|FACTION|Neutral|P|Leatherworking;165;290|N|Sold by Plugger Spazzring in Blackrock Depths|
+B Black Dragonscale Breastplate|QID|990019085|RECIPE|19085|M|0.00,0.00|Z|Shadowforge City@BlackrockDepths|FACTION|Neutral|P|Leatherworking;165;290|N|Sold by Plugger Spazzring in Blackrock Depths|
 B Vicious Dragonscale Bracers|QID|990078450|RECIPE|78450|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Haferet in The Exodar|
 B Vicious Dragonscale Bracers|QID|990078450|RECIPE|78450|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Zaralda in Silvermoon City|
 B Vicious Dragonscale Bracers|QID|990078450|RECIPE|78450|M|78.80,76.20|Z|Twilight Highlands|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Misty Merriweather in Twilight Highlands|

@@ -1,3 +1,21 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/alchemy_recipies
+-- Date: 2014-03-06 23:49
+-- Who: Ludovicus
+-- Log: Correct coords for [Transmute: Fire to Earth]
+
+-- URL: http://wow-pro.com/node/3565/revisions/25900/view
+-- Date: 2014-02-14 00:16
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3565/revisions/25883/view
+-- Date: 2014-02-13 23:58
+-- Who: Ludovicus
+
 WoWPro.Profession:RegisterGuide('LudoShopAlchemy', 'Alchemy', 'Alchemy Recipies', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
 return [[
 B Nature Protection Potion|QID|990007259|RECIPE|7259|M|42.60,74.90|Z|The Cape of Stranglethorn|P|Alchemy;171;190|N|Limited quantity sold by Glyx Brewright in The Cape of Stranglethorn.|
@@ -32,7 +50,7 @@ B Elixir of Superior Defense|QID|990017554|RECIPE|17554|M|55.23,45.83|Z|Orgrimma
 B Elixir of Superior Defense|QID|990017554|RECIPE|17554|M|66.60,54.50|Z|Ironforge|FACTION|Alliance|P|Alchemy;171;265|N|Limited quantity sold by Soolie Berryfizz in Ironforge.|
 B Major Dreamless Sleep Potion|QID|990028562|RECIPE|28562|M|57.70,53.40|Z|Terokkar Forest|FACTION|Alliance|P|Alchemy;171;350|N|Limited quantity sold by Leeli Longhaggle in Terokkar Forest.|
 B Major Dreamless Sleep Potion|QID|990028562|RECIPE|28562|M|51.10,57.70|Z|Blade's Edge Mountains|FACTION|Horde|P|Alchemy;171;350|N|Limited quantity sold by Daga Ramba in Blade's Edge Mountains.|
-B Transmute: Fire to Earth|QID|990017560|RECIPE|17560|M|0.00,0.00|Z|Shadowforge City@BlackrockDepths|P|Alchemy;171;275|N|Sold by Plugger Spazzring in Blackrock Depths.\nBind on Pickup.|
+B Transmute: Fire to Earth|QID|990017560|RECIPE|17560|M|49.71,61.15|Z|Shadowforge City@BlackrockDepths|P|Alchemy;171;275|N|Sold by Plugger Spazzring in Blackrock Depths.\nBind on Pickup.|
 B Transmute: Water to Air|QID|990017562|RECIPE|17562|M|68.10,77.60|Z|Western Plaguelands|P|Alchemy;171;275|N|Sold by Magnus Frostwake in Western Plaguelands.\nBind on Pickup.|
 B Ghost Dye|QID|990011473|RECIPE|11473|M|46.60,43.00|Z|Feralas|FACTION|Alliance|P|Alchemy;171;245|N|Limited quantity sold by Logannas in Feralas.|
 B Ghost Dye|QID|990011473|RECIPE|11473|M|76.10,43.30|Z|Feralas|FACTION|Horde|P|Alchemy;171;245|N|Limited quantity sold by Bronk in Feralas.|
@@ -63,7 +81,6 @@ B Frost Protection Potion|QID|990007258|RECIPE|7258|M|46.40,47.10|Z|Arathi Highl
 B Frost Protection Potion|QID|990007258|RECIPE|7258|M|42.60,74.90|Z|The Cape of Stranglethorn|P|Alchemy;171;190|N|Limited quantity sold by Glyx Brewright in The Cape of Stranglethorn.|
 B Elixir of Major Frost Power|QID|990028549|RECIPE|28549|M|67.80,48.00|Z|Zangarmarsh|FACTION|Alliance|P|Alchemy;171;320|N|Limited quantity sold by Haalrun in Zangarmarsh.|
 B Elixir of Major Frost Power|QID|990028549|RECIPE|28549|M|32.40,51.90|Z|Zangarmarsh|FACTION|Horde|P|Alchemy;171;320|N|Limited quantity sold by Seer Janidi in Zangarmarsh.|
-
 
 N Nothing left to buy!
 ]]

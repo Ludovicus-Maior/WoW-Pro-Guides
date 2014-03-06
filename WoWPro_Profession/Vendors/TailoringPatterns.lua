@@ -1,3 +1,21 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/tailoring_patterns
+-- Date: 2014-03-06 23:52
+-- Who: Ludovicus
+-- Log: Zone tag corrections.
+
+-- URL: http://wow-pro.com/node/3573/revisions/25892/view
+-- Date: 2014-02-14 00:13
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3573/revisions/25891/view
+-- Date: 2014-02-14 00:10
+-- Who: Ludovicus
+
 WoWPro.Profession:RegisterGuide('LudoShopTailoring', 'Tailoring', 'Tailoring Patterns', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
 return [[
 B Runecloth Robe|QID|990018406|RECIPE|18406|M|51.60,33.30|Z|Moonglade|P|Tailoring;197;260|N|Limited quantity sold by Darnall in Moonglade.|
@@ -79,7 +97,7 @@ B Blue Linen Vest|QID|990007630|RECIPE|7630|M|60.70,58.60|Z|Orgrimmar|FACTION|Ho
 B Blue Linen Vest|QID|990007630|RECIPE|7630|M|52.60,55.70|Z|Tirisfal Glades|FACTION|Horde|P|Tailoring;197;55|N|Limited quantity sold by Constance Brisboise in Tirisfal Glades.|
 B Blue Linen Vest|QID|990007630|RECIPE|7630|M|41.90,67.10|Z|Elwynn Forest|FACTION|Alliance|P|Tailoring;197;55|N|Limited quantity sold by Tharynn Bouden in Elwynn Forest.|
 B Blue Linen Vest|QID|990007630|RECIPE|7630|M|50.00,61.10|Z|Northern Barrens|FACTION|Horde|P|Tailoring;197;55|N|Limited quantity sold by Wrahk in Northern Barrens.|
-B Luxurious Silk Gem Bag|QID|990100585|RECIPE|100585|M|44.80,86.60|Z|Molten Front|P|Tailoring;197;515|N|Sold by Ayla Shadowstorm in Molten Front.\nBind on Pickup.|
+B Luxurious Silk Gem Bag|QID|990100585|RECIPE|100585|M|44.80,86.60|Z|MoltenFront|P|Tailoring;197;515|N|Sold by Ayla Shadowstorm in Molten Front.\nBind on Pickup.|
 B Blue Linen Robe|QID|990007633|RECIPE|7633|M|50.00,61.10|Z|Northern Barrens|FACTION|Horde|P|Tailoring;197;70|N|Limited quantity sold by Wrahk in Northern Barrens.|
 B Blue Linen Robe|QID|990007633|RECIPE|7633|M|43.20,40.70|Z|Silverpine Forest|FACTION|Horde|P|Tailoring;197;70|N|Limited quantity sold by Andrew Hilbert in Silverpine Forest.|
 B Blue Linen Robe|QID|990007633|RECIPE|7633|M|60.60,36.90|Z|Darnassus|FACTION|Alliance|P|Tailoring;197;70|N|Limited quantity sold by Elynna in Darnassus.|
@@ -298,7 +316,7 @@ B Bolt of Soulcloth|QID|990026750|RECIPE|26750|M|55.60,51.00|Z|Silvermoon City|F
 B Imbued Netherweave Bag|QID|990026749|RECIPE|26749|M|57.00,39.60|Z|Nagrand|FACTION|Horde|P|Tailoring;197;340|N|Sold by Mathar G'ochar in Nagrand.|
 B Imbued Netherweave Bag|QID|990026749|RECIPE|26749|M|66.20,68.70|Z|Shattrath City|P|Tailoring;197;340|N|Sold by Eiin in Shattrath City.|
 B Soul Pouch|QID|990026085|RECIPE|26085|M|50.70,28.70|Z|Tanaris|P|Tailoring;197;260|N|Sold by Vizzklick in Tanaris.|
-B Mooncloth Robe|QID|990022902|RECIPE|22902|M|0.00,0.00|Z|Dire Maul|P|Tailoring;197;300|N|Limited quantity sold by Shen'dralar Provisioner in Dire Maul.|
+B Mooncloth Robe|QID|990022902|RECIPE|22902|M|0.00,0.00|Z|Prison of Immol'Thar@DireMaul|P|Tailoring;197;300|N|Limited quantity sold by Shen'dralar Provisioner in Dire Maul.|
 B Runecloth Cloak|QID|990018409|RECIPE|18409|M|51.60,33.30|Z|Moonglade|P|Tailoring;197;265|N|Limited quantity sold by Darnall in Moonglade.\nBind on Pickup.|
 B Tuxedo Jacket|QID|990012093|RECIPE|12093|M|70.60,30.10|Z|Undercity|FACTION|Horde|P|Tailoring;197;250|N|Limited quantity sold by Millie Gregorian in Undercity.|
 B Tuxedo Jacket|QID|990012093|RECIPE|12093|M|43.20,29.20|Z|Ironforge|FACTION|Alliance|P|Tailoring;197;250|N|Limited quantity sold by Outfitter Eric in Ironforge.|
@@ -341,7 +359,6 @@ B Pink Mageweave Shirt|QID|990012080|RECIPE|12080|M|43.20,29.20|Z|Ironforge|FACT
 B Pink Mageweave Shirt|QID|990012080|RECIPE|12080|M|41.30,79.20|Z|Orgrimmar|FACTION|Horde|P|Tailoring;197;235|N|Limited quantity sold by Lizna Goldweaver in Orgrimmar.|
 B Admiral's Hat|QID|990012081|RECIPE|12081|M|40.90,82.50|Z|The Cape of Stranglethorn|P|Tailoring;197;240|N|Limited quantity sold by Cowardly Crosby in The Cape of Stranglethorn.|
 B Runecloth Bag|QID|990018405|RECIPE|18405|M|59.60,49.20|Z|Winterspring|P|Tailoring;197;260|N|Sold by Qia in Winterspring.|
-
 
 N Nothing left to buy!
 ]]

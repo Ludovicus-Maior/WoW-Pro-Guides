@@ -1,3 +1,16 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/cooking_recipies
+-- Date: 2014-02-14 00:15
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3567/revisions/25885/view
+-- Date: 2014-02-14 00:00
+-- Who: Ludovicus
+
 WoWPro.Profession:RegisterGuide('LudoShopCook', 'Cooking', 'Cooking Recipies', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
 return [[
 
@@ -473,7 +486,6 @@ B Redridge Goulash|QID|990002547|RECIPE|2547|M|76.60,52.80|Z|Stormwind City|FACT
 B Succulent Pork Ribs|QID|990002548|RECIPE|2548|M|76.60,52.80|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;110|N|Sold by Kendor Kabonka in Stormwind City.|
 B Bread of the Dead|QID|990065454|RECIPE|65454|M|68.10,11.20|Z|Undercity|FACTION|Horde|P|Cooking;185;45|N|Sold by Chapman in Undercity.|
 B Blackened Sporefish|QID|990033292|RECIPE|33292|M|78.00,66.10|Z|Zangarmarsh|P|Cooking;185;310|N|Sold by Juno Dufrain in Zangarmarsh.|
-
 
 N Nothing left to buy!
 ]]
