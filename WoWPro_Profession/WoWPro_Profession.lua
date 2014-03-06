@@ -38,6 +38,9 @@ function WoWPro.Profession:OnEnable()
 	if WoWProDB.char.lastProfessionguide and not WoWProDB.char.currentguide then
 		WoWPro:LoadGuide(WoWProDB.char.lastProfessionguide)
 	end
+	WoWProCharDB.ShowBOP = ((WoWProCharDB.ShowBOP == nil) and true) or (WoWProCharDB.ShowBOP and true)
+	WoWProCharDB.IgnoreProf = WoWProCharDB.IgnoreProf or false
+	WoWProCharDB.ProfessionalfOffset = WoWProCharDB.ProfessionalfOffset or 10
 	
 	WoWPro.FirstMapCall = true
 end
@@ -57,7 +60,7 @@ end
 
 -- Guide Registration Function --
 function WoWPro.Profession:RegisterGuide(GIDvalue, zonename, guidename, authorname, startlevelvalue, 
-	endlevelvalue, nextGIDvalue, factionname, sequencevalue)
+	endlevelvalue, vendorP, factionname, sequencevalue)
 
 	
 --[[ Purpose: 
