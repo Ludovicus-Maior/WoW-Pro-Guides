@@ -315,8 +315,11 @@ function WoWPro:OnEnable()
 		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
 	end
     local keys = GetBindingKey("WOWPRO_SELECTOR")
-	if not keys then	
-		SetBinding("ALT-TAB", "WOWPRO_SELECTOR")
+	if keys then
+	    -- Do NOT release with this binding until it works!
+		-- SetBinding("ALT-G", "WOWPRO_SELECTOR")
+		WoWPro:Warning("Achtung! Detected key bound to WOWPRO_SELECTOR (%s). Undoing the binding.",keys)
+		SetBinding(keys, nil)
 	end
     
 

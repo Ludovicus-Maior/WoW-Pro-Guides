@@ -6,14 +6,15 @@
         </Size>
         <Layers>
           <Layer level="BORDER">
-            <FontString name="$parentTitle" parentKey="title" inherits="GameFontNormalSmall" justifyH="CENTER">
+            <FontString name="$parentTitle" parentKey="title" inherits="GameFontNormalSmall" justifyH="CENTER" justifyV="CENTER" wordwrap="true">
+                <Size x="64" y="24"/>
                 <Anchors>
-                    <Anchor point="TOP" x="0" y="12"/>
+                    <Anchor point="TOP" x="0" y="24"/>
                 </Anchors>
             </FontString>
-            <FontString name="$parentClass" parentKey="class" inherits="GameFontNormalSmall" justifyH="CENTER">
+            <FontString name="$parentClass" parentKey="class" inherits="GameFontNormalSmall" justifyH="CENTER" justifyV="CENTER" >
                 <Anchors>
-                    <Anchor point="BOTTOM" x="0" y="-12"/>
+                    <Anchor point="BOTTOM" x="0" y="-14"/>
                 </Anchors>
             </FontString>
           </Layer>
@@ -31,7 +32,7 @@
         </Layers>    
     </Button>
 	<Frame name="WoWProSelector_Frame" toplevel="true" frameStrata="DIALOG" enableMouse="true" hidden="true" parent="UIParent">
-		<Size x="640" y="128"/>
+		<Size x="640" y="144"/>
 		<Anchors>
 			<Anchor point="CENTER"/>
 		</Anchors>

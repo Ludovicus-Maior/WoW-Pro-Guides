@@ -44,7 +44,7 @@ function WoWPro:Selector_OnLoad()
       local item = CreateFrame("Button","WoWProSelector_Button" .. idx, WoWProSelector_Frame , "WoWProSelector_ButtonTemplate")
         WoWProSelector_Frame.button[idx] = item
         if idx == 1 then
-            item:SetPoint("TOPLEFT",WoWProSelector_Frame,20,-38)
+            item:SetPoint("TOPLEFT",WoWProSelector_Frame,20,-50)
         else
             item:SetPoint("TOPLEFT",  WoWProSelector_Frame.button[idx-1], "TOPRIGHT", 12,0)
         end
@@ -52,7 +52,7 @@ function WoWPro:Selector_OnLoad()
         item.class:SetText("Class")
         item:SetNormalTexture(icon)
         item:SetPushedTexture("Interface\\Buttons\\UI-Quickslot-Depress")
-        item:GetPushedTexture():SetBlendMode('ADD')
+--        item:GetPushedTexture():SetBlendMode('ADD')
 --        item:SetHighlightTexture("Interface\\Buttons\\ButtonHilight-Square")
     end
     
