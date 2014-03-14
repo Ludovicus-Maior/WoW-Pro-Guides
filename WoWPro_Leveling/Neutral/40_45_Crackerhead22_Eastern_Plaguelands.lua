@@ -4,6 +4,23 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2014-03-11 01:18
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3251/revisions/25917/view
+-- Date: 2014-03-11 00:47
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3251/revisions/25916/view
+-- Date: 2014-03-11 00:41
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3251/revisions/25915/view
+-- Date: 2014-03-11 00:36
+-- Who: Fluclo
+-- Log: Added auto-complete to Caravan Buff; changed fly to head for Menders' Stead
+
+-- URL: http://wow-pro.com/node/3251/revisions/25906/view
 -- Date: 2014-03-04 22:24
 -- Who: Fluclo
 
@@ -102,11 +119,12 @@ return [[
 L Level 39 |QID|27367|N|You need to be Level 39 to do this guide.|LVL|39|
 
 ;Option 1 - Already got the Hero's Call/Warchief's Command in log
-F Thondroril River |QID|27367|M|9.02,66.52|N|Head to Fiona at the western part of Eastern Plaguelands.\n\nIf you've never been to Eastern Plaguelands and don't have a flying mount, fly to Menders Stead in Western Plaguelands, and run east.|ACTIVE|28577;28578|
+F Thondroril River |QID|27367|M|9.02,66.52|N|Head to Fiona at the western part of Eastern Plaguelands.\n\nIf you've never been to Eastern Plaguelands and don't have a flying mount, head to Menders Stead in Western Plaguelands, and run east.|ACTIVE|28577;28578|
 T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.52|N|To Fiona.|ACTIVE|28577;28578|
 T Warchief's Command: Eastern Plaguelands!|QID|28577|M|9.02,66.52|N|To Fiona.|ACTIVE|28577;28578|
 ;You can do both Hero's Call/Warchief's Command AND Into the Woods! so this allows that combination.
-F The Menders' Stead|QID|27683|M|42.8,85|N|Fly to The Menders' Stead in Western Plaguelands.\n\nThis is a Rank 3 step for an extra quest that involves a flight to The Mender's Stead, pick up a quest, then fly back here to Thondroril River.  If you don't want the achievement Loremaster, or the extra 435 XP and 5 silver, then skip this and the Accept In the Woods quest.|PRE|28577+28578+27684|RANK|3|
+f Thondroril River|QID|27367|M|10.02,65.70|N|Get flightpoint with Frax Bucketdrop.|PRE|28577+28578+27684|RANK|3|
+F The Menders' Stead|QID|27683|M|42.8,85|N|Fly to The Menders' Stead in Western Plaguelands.\n\nThis is a Rank 3 step for an extra quest that involves a flight to The Mender's Stead, pick up a quest, then fly back here to Thondroril River. If you don't want the achievement Loremaster, or the extra 435 XP and 5 silver, then skip this and the Accept In the Woods quest.|PRE|28577+28578+27684|RANK|3|
 A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.\n\nIf you skipped the flying to The Menders' Stead, then skip this step as well.|PRE|28577+28578+27684|RANK|3|
 F Thondroril River |QID|27683|M|50.5,52.2|Z|Western Plaguelands|N|Fly back to Thondroril River.|ACTIVE|27683|PRE|28577+28578+27684|RANK|3|
 T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|PRE|28577+28578+27684|RANK|3|
@@ -141,34 +159,41 @@ T Greasing the Wheel|QID|27369|M|9.02,66.52|N|To Fiona.|
 
 T Tarenar Sunstrike|QID|27370|M|18.40,75.08|N|To Tarenar Sunstrike.|
 A What I Do Best|QID|27371|M|18.40,75.08|N|From Tarenar Sunstrike.|
-C What I Do Best|QID|27371|M|18.35,77.66|N|Kill 5 Death's Step Miscreations.  Tarenar Sunstrike will assist you in this quest.|
+C What I Do Best|QID|27371|M|18.35,77.66|N|Kill 5 Death's Step Miscreations. Tarenar Sunstrike will assist you in this quest.|
 T What I Do Best|QID|27371|M|18.35,77.66|N|(UI Alert)|
 A A Gift For Fiona|QID|27372|M|18.35,77.66|N|(UI Alert)|
 C Plaguehounds|QID|27372|M|18.07,71.42|L|60986 10|N|Kill Plaguehounds until you get 10 blood.|
 T A Gift For Fiona|QID|27372|M|9.02,66.40|N|To Fiona.|
 A Onward, to Light's Hope Chapel|QID|27373|M|9.02,66.40|N|From Fiona.|
 
-N Optional Buffs|QID|27373|N|Click on Fiona's Caravan to pick one of three buffs. The charm gives you a chance to loot extra gold and items, the oil and the talisman gives a chance to deal extra Holy damage when you attack (oil for ranged, melee; talisman for spells).\n\nClick here to continue.|
-C Onward, to Light's Hope Chapel|QID|27373|NC|M|9.00,66.40|N|Click on Fiona's Caravan and choose to go to the next destination.  Sit back and relax, and watch the dialog as the caravan makes it's way to Crown Guard Tower.|
-T Onward, to Light's Hope Chapel|QID|27373|M|34.8,69.09|N|To Fiona.|
+N Missing Caravan Buff|QID|27373|BUFF|85612;85613;85614|N|Click on Fiona's Caravan to pick one of three buffs.\n\nFiona's Lucky Charm: Allows the looting of Hidden Stash which contains money and a chance of a companion pet.\nGidwin's Weapon Oil: Provides extra Holy damage on melee and ranged attacks.\nTarenar's Talisman: Provides extra Holy damage on successful spell attacks.|
+C Onward, to Light's Hope Chapel|QID|27373|CHAT|M|9.00,66.40|N|Click on Fiona's Caravan and select Ride Fiona's Caravan to its next destination. Sit back and relax, and watch the dialog as the caravan makes it's way to Crown Guard Tower.|
 f Crown Guard Tower|QID|27373|M|34.86,68.05|N|At Janice Myers.|LVL|40|
+T Onward, to Light's Hope Chapel|QID|27373|M|34.8,69.09|N|To Fiona.|
+
 A Zaeldarr the Outcast|QID|27432|M|35.00,68.20|N|From Urk Gagbaz.|
 A Traveling Companions|QID|27381|M|35.23,68.68|N|From Tarenar Sunstrike.|
 A Little Pamela|QID|27383|M|35.52,68.84|N|From Carlin Redpath.|
 C Traveling Companions|QID|27381|M|35.72,69.16|N|Talk to Argus Highbeacon on top of the tower and ask him if he's interested in joining the caravan. \n\nWarning: VERY bright light at the top of the tower.|NC|
 A Rough Roads|QID|27382|M|35.72,69.16|N|From Argus Highbeacon.|
 r Sell Junk. Repair/restock.|QID|27381|NC|M|35.74,68.99|N|With Argus Highbeacon.\n\nClick this step to continue.|
-T Traveling Companions|QID|27381|M|35.24,68.76|N|To Tarenar Sunstrike.|
+T Traveling Companions|QID|27381|M|35.24,68.76|N|Use the Argent Parachutes to jump off the tower, then head to Tarenar Sunstrike.|
 
 R The Undercroft|QID|27432|M|24.23,78.31|N|Run to The Undercroft.|
-C Zaeldarr the Outcast|QID|27432|L|15785|M|23.82,78.79|N|He is at the bottom of the crypt.|
+C Zaeldarr the Outcast|QID|27432|L|15785|M|23.82,78.79|N|Kill and loot Zaeldarr. He is at the bottom of the crypt.|
 T Little Pamela|QID|27383|M|32.55,83.77|N|To Pamela Redpath.|
 
 A I'm Not Supposed to Tell You This|QID|27392|M|32.55,83.77|N|From Pamela Redpath.|S|
 A Pamela's Doll|QID|27384|M|32.55,83.77|N|From Pamela Redpath.|
 A I'm Not Supposed to Tell You This|QID|27392|M|32.55,83.77|N|From Pamela Redpath.|US|
 
-C Pamela's Doll|QID|27384|U|12886|M|35.41,83.04|N|Head to the houses and look for and loot three parts of the Doll.  Ghosts of the Past will spawn when you approach the parts.\n\nOnce you have all three parts, combine the three doll parts into the doll itself.|
+C Pamela's Doll's Head|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12886|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+C Pamela's Doll's Left Side|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12887|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+C Pamela's Doll's Right Side|QID|27384|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12888|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+C Pamela's Doll's Head|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12886|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+C Pamela's Doll's Left Side|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12887|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+
+C Pamela's Doll|QID|27384|U|12886|M|35.41,83.04|N|Combine the three doll parts into the doll itself.|NC|
 C I'm Not Supposed to Tell You This|QID|27392|M|40.14,83.75|N|Kill and loot "The Lone Hunter".|
 
 T I'm Not Supposed to Tell You This|QID|27392|M|32.53,83.80|N|To Pamela Redpath.|S|
@@ -188,12 +213,12 @@ A Heroes of Darrowshire|QID|27388|M|35.18,68.02|N|From Chromie.|US|
 A Marauders of Darrowshire|QID|27389|M|35.18,68.02|N|From Chromie.|US|RANK|2|
 
 A Cenarion Tenacity|QID|27544|M|34.93,68.32|N|From Urk Gagbaz.|RANK|2|
-C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|Extended Annals of Darrowshire: 1/1|NC|RANK|2|
+C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|Extended Annals of Darrowshire: 1/1|CHAT|RANK|2|
 
 C Rough Roads|QID|27382|M|41.30,71.09|N|Kill any Plaguebats you need.|S|
 C Villains of Darrowshire - Shattered Sword of Marduk|QID|27387|M|39.77,72.36|N|Pick up the "Shattered Sword of Marduk" fron the floor.|QO|Shattered Sword of Marduk: 1/1|NC|RANK|2|
 C Rough Roads|QID|27382|M|41.30,71.09|N|Finish killing any Plaguebats you need.|US|
-T Rough Roads|QID|27382|M|35.91,69.06|N|To Argus Highbeacon.  \n\nOnce you complete this quest, the wagon will give a new Zone Buff, "Argus' Journal", which gives 2% more experience whilst in the zone.|
+T Rough Roads|QID|27382|M|35.91,69.06|N|To Argus Highbeacon. \n\nOnce you complete this quest, the wagon will give a new Zone Buff, "Argus' Journal", which gives 2% more experience whilst in the zone.|
 
 C Heroes of Darrowshire - Redpath's Shield|QID|27388|M|22.29,68.40|N|Pick up "Redpath's Shield" from the ground floor of the house in The Marris Stead.|QO|Redpath's Shield: 1/1|NC|RANK|2|
 C Heroes of Darrowshire - Davil's Libram|QID|27388|M|22.29,68.40|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|QO|Davil's Libram: 1/1|NC|RANK|2|
@@ -237,7 +262,7 @@ C Honor and Strength|QID|27449|M|52.73,51.46|
 T Honor and Strength|QID|27449|M|52.76,51.51|N|To Vex'tul.|
 N New Buff|QID|27450|N|New buff at the caravan, "Vex'tul's Armbands". Grants chance to knock enemies back on attacks.|
 
-C Frederick's Fish Fancy|QID|27450|M|49.91,62.25|N|Loot the required fish from the bottom of The Infectis Scar.  The Puffer fish will give you 20 seconds of air.  The fish will not give you any fish, even after attacking one (those will come back as Half-Digested Roe).|NC|
+C Frederick's Fish Fancy|QID|27450|M|49.91,62.25|N|Loot the required fish from the bottom of The Infectis Scar. The Puffer fish will give you 20 seconds of air. The fish will not give you any fish, even after attacking one (those will come back as Half-Digested Roe).|NC|
 R Corin's Crossing|QID|27452|M|52.51,64.65|N|Run to Corin's Crossing.|
 l Living Rot|QID|27451|N|Gather 7 pieces of "Living Rot" from the undead.|L|15447 7|M|55,64|S|
 C Dark Garb|QID|27452|N|Kill the cultists to get the two pieces needed, while killing the undead.|M|55,64|
@@ -248,7 +273,7 @@ A Catalysm|QID|27453|M|54.28,63.03|N|(UI Alert)|
 C Catalysm|QID|27453|U|61284|M|58.44,75.55|N|Use the flask on Plague Ravager and Blighted Surge in Lake Meledar. They have to be alive, and you need to be right next to them when you use the flask. This may need some creative thinking ranged classes.|
 T Catalysm|QID|27453|M|58.48,74.34|N|(UI Alert)|
 A Just a Drop in the Bucket|QID|27454|M|58.48,74.34|N|(UI Alert)|
-C Just a Drop in the Bucket|QID|27454|NC|U|61283|M|62.16,76.14|N|Put on your Death Cultist disguise, this will turn all those around the cauldron friendly.  Then click on the cauldron and select a drop (first option).  When it says nothing's working, click the do nothing option (again, first one).  Quest will then complete.  Selecting any other option that means more than a drop goes in will throw you back or cause it to blow up.|
+C Just a Drop in the Bucket|QID|27454|NC|U|61283|M|62.16,76.14|N|Put on your Death Cultist disguise, this will turn all those around the cauldron friendly. Then click on the cauldron and select a drop (first option). When it says nothing's working, click the do nothing option (again, first one). Quest will then complete. Selecting any other option that means more than a drop goes in will throw you back or cause it to blow up.|
 T Just a Drop in the Bucket|QID|27454|M|53.14,54.67|N|To Betina Bigglezink.|
 T Frederick's Fish Fancy|QID|27450|M|53.89,53.91|N|To Frederick Calston.|
 r Sell junk, repair/restock.|QID|27455|M|53.89,53.91|
@@ -410,7 +435,7 @@ T Augustus' Receipt Book|QID|27534|M|11.40,28.73|N|To Augustus the Touched.|
 C Counter-Plague Research|QID|27531|M|25.09,34.66|N|The berries are small green bushes with red berries next to the mushrooms. The arms are glittering but can be hard to spot, so look carefully. The "Flesh Giant Foot Scrapings" is near the Corpsebeasts where the waypoint is.|
 T Counter-Plague Research|QID|27531|M|17.81,27.86|N|To Argent Apothecary Judkins.|
 T Journey's End|QID|27527|U|61379|M|73.83,52.16|N|To Fiona. Use "Gidwin's Hearthstone" to save your own.
-F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc.  Close this step when done.|FACTION|Alliance|
+F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc. Close this step when done.|FACTION|Alliance|
 A Fuselight, Ho!|QID|27762|M|73.78,53.05|N|From Gek Nozzlerocket. Pick this up if you'd like to head to the Badlands next!|FACTION|Horde|
 T Fuselight, Ho!|QID|27762|O|M|73.78,53.05|N|Hop on the rocket near the quest giver. When you land, turn-in to Eddie Flofizzle.|FACTION|Horde|
 
