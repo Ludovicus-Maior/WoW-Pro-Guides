@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2014-03-13 19:49
+-- Who: Hendo72
+-- Log: Added a note on how to get to Rhea to turn in 'A Strange Request'. Currently, only has an arrow pointing to her location from the top of the cliff. Could add breadcrumb coordinates if required.
+
+-- URL: http://wow-pro.com/node/3247/revisions/25385/view
 -- Date: 2013-01-12 20:55
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -81,7 +86,8 @@ A A Strange Request|QID|27764|M|65.06,38.26|N|From Dolph Blastus.|
 C It's Goat Time, Baby|QID|27776|U|62397|M|61.45,36.83|N|Have fun sending 12 Billy Goats off the edge of the cliff.  There is a timed achievement requiring 12 in a minute as well.|NC|
 T It's Goat Time, Baby|QID|27776|M|64.34,38.14|N|To Garyanne Fleezlebop.|
 
-T A Strange Request|QID|27764|M|66.36,55.30|N|To Rhea.|
+T A Strange Request|QID|27764|M|66.36,55.30|N|To Rhea. Unless you plan on jumping off the cliff, take either path down and cut through the valley.|
+
 A First Sample: Wild Eggs|QID|27765|M|66.36,55.30|N|From Rhea.|
 A Second Sample: Whelps|QID|27766|M|66.37,55.29|N|From Rhea.|
 C First Sample: Wild Eggs|QID|27765|M|70.61,45.08|N|There at the bottom edges of the surrounding cliffs. You usually will be attacked when you pick up an egg.|S|
