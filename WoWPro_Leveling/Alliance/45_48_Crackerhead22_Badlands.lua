@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2014-03-14 17:21
+-- Who: Hendo72
+-- Log: Changed the completion trigger for Dragon's Mouth FP from 'The Day that Deathwing Came: What Really Happened' (27715) to 'Into the Dragon's Mouth' (27826). 27715 is turned in before you get to Dragon's Mouth. This is causing the f step to not appear in the guide window.
+
+-- URL: http://wow-pro.com/node/3247/revisions/25920/view
 -- Date: 2014-03-13 19:49
 -- Who: Hendo72
 -- Log: Added a note on how to get to Rhea to turn in 'A Strange Request'. Currently, only has an arrow pointing to her location from the top of the cliff. Could add breadcrumb coordinates if required.
@@ -164,7 +169,7 @@ N Ride to the end of the canyon|QID|27715|M|43.38,41.13|QO|Ride to the end of th
 C The Day that Deathwing Came: What Really Happened|QID|27715|M|39.37,38.51|N|Fly up to Deathwing.|
 T The Day that Deathwing Came: What Really Happened|QID|27715|M|26.29,62.29|N|To Martek the Exiled.|
 
-f Dragon's Mouth|QID|27715|M|21.79,57.73|N|At Jake Badlands.|
+f Dragon's Mouth|QID|27826|M|21.79,57.73|N|At Jake Badlands.|
 T Into the Dragon's Mouth|QID|27826|M|21.29,57.79|N|To Rhea.|
 A The Swift, the Fierce, and the Stout|QID|27827|M|21.29,57.79|N|From Rhea.|
 A Half-Ton Holdouts|QID|27833|M|20.85,57.28|N|From Terrance Storm.|
