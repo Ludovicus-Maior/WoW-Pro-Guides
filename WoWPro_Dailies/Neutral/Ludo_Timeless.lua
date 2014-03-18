@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2014-03-17 20:14
+-- Who: Ludovicus
+-- Log: Change zone to Temple of the Jade Serpent@EastTemple
+
+-- URL: http://wow-pro.com/node/3561/revisions/25901/view
 -- Date: 2014-02-14 02:55
 -- Who: Ludovicus
 -- Log: Oops!
@@ -224,7 +229,7 @@ A Noodle Secrets Long Forgotten|QID|33018|M|52.08,46.13|PRE|31467+31471+31474+31
 T Noodle Secrets Long Forgotten|QID|33018|M|40.93,73.45|N|To Lin Chao-Wei.|
 A The Lost Secret of the Secret Ingredient|QID|33020|M|40.93,73.45|PRE|33018|N|From Lin Chao-Wei, you will get this directly if you are a Master of the Way|
 T The Lost Secret of the Secret Ingredient|QID|33020|M|69.09,58.08|N|To Lin Family Scroll.|
-A Bad Feeling, Worse Result|QID|33107|PRE|33020|M|68.8,58.5|Z|Temple of the Jade Serpent|N|From Lin Family Scroll|
+A Bad Feeling, Worse Result|QID|33107|PRE|33020|M|68.8,58.5|Z|Temple of the Jade Serpent@EastTemple|N|From Lin Family Scroll|
 T Bad Feeling, Worse Result|QID|33107|N|Automatic turnin UI|
 A Secrets Lost, Forever?|QID|33021;33139|PRE|33107|N|Automatic UI |
 T Secrets Lost, Forever?|QID|33021;33139|M|53.6,51.2|Z|Valley of the Four Winds|N|To Sungshin Ironpaw|
