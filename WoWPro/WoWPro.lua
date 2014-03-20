@@ -426,6 +426,7 @@ end
 
 function WoWPro:Timeless()
     if not _NPCScan then return; end
+    if not _NPCScan.NPCAdd then return; end
     _NPCScan.NPCAdd(73174,"Archiereus of Flame",951)
     _NPCScan.NPCAdd(72775,"Bufo",951)
     _NPCScan.NPCAdd(73171,"Champion of the Black Flame",951)
