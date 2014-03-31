@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2014-03-30 20:59
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3214/revisions/25857/view
 -- Date: 2013-12-26 21:42
 -- Who: Ludovicus
 -- Log: Some mean hordie put a slaughterhouse on poor Echeyakee's den.
@@ -95,29 +99,33 @@ A The Far Watch Offensive|QID|872|PRE|871|RANK|1|M|63.13,56.24|N|From Kargal Bat
 T Plainstrider Menace|QID|844|M|67.57,38.85|N|To Halga Bloodeye.|
 A Supplies for the Crossroads|QID|5041|RANK|1|M|67.57,38.85|N|From Halga Bloodeye.|
 
-C Supplies for the Crossroads|QID|5041|NC|S|M|66.32,51.89;63.03,56.47|CN|N|Kill Razormanes in cave while looting supply crates.|
-C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill Razormanes needed. Make sure to loot Snarlsnout when you kill him.|
-C Supplies for the Crossroads|QID|5041|NC|US|M|63.03,56.47|CN|N|Collect Supply Crates.|
+R Cave|QID|872;5041|M|65.92,52.50|CC|N|Head to the entrance of the Cave.|
+C Supplies for the Crossroads|QID|5041|NC|S|M|66.32,51.89;63.03,56.47|CN|N|Collect the Supply Crates from the floor in the cave.|
+C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Thornweavers.|S|QO|Razormane Thornweaver slain: 5/5|
+C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Defenders.|S|QO|Razormane Defender slain: 5/5|
+K Kreenig Snarlsnout|QID|872|M|64.3,55.15|N|Kill and loot Kreenig Snarlsnout for his tusk. He's on a ledge overlooking the lake. Run through the cave to the lake, then follow the path upwards to the left.|QO|Kreenig Snarlsnout's Tusk: 1/1|
+C Supplies for the Crossroads|QID|5041|NC|US|M|63.03,56.47|N|Finish collecting the Supply Crates from the floor in the cave.|
+C The Far Watch Offensive|QID|872|M|65.92,52.50|N|Finish killing the Razormane Thornweavers and Thornweavers as you head out of the cave.|US|
 
 T The Far Watch Offensive|QID|872|M|67.69,39.50|N|To Kargal Battlescar.|
 T Supplies for the Crossroads|QID|5041|M|67.46,38.79|N|To Halga Bloodeye.|
 A Crossroads Caravan Pickup|QID|13949|RANK|1|M|67.41,38.83|N|From Halga Bloodeye.|
-C Crossroads Caravan Pickup|QID|13949|NC|M|56.38,42.02|N|Speak to Halga. Hop on Kodo that appears. Target Razormanes and spam gun ability.|
+C Crossroads Caravan Pickup|QID|13949|M|56.38,42.02|N|Speak to Halga, then mount the Lead Caravan Kodo that spawns on the road. The caravan will then take you to Grol'dom Farm. It is not necessary to shoot any Razormane Raiders.|NC|
 
 T Crossroads Caravan Pickup|QID|13949|M|56.38,40.41|N|To Kranal Fiss.|
 
-h Grol'dom Farm|QID|13949|M|56.27,40.04|N|At Innkeeper Kerntis.|
+h Grol'dom Farm|QID|13961|M|56.27,40.04|N|At Innkeeper Kerntis.|
 
 A Drag it Out of Them|QID|13961|RANK|1|M|56.55,40.32|N|From Togrik.|
 A Consumed by Hatred|QID|899|RANK|1|M|55.22,41.01|N|From Mankrik.|
-C Consumed by Hatred|QID|899|S|M|58.41,49.49|N|From now on, kill Quillboar for their Tusks.|
+C Consumed by Hatred|QID|899|S|M|58.41,49.49|N|These drop from the Razormane, so if you kill any, don't forget to loot them!|
 A Crossroads Caravan Delivery|QID|13975|RANK|1|M|54.67,41.48|N|From Rocco Whipshank.|
 A The Grol'dom Militia|QID|13973|RANK|1|M|53.95,40.94|N|From Una Wolfclaw.|
-C Drag it Out of Them|QID|13961|NC|U|46722|M|56.55,40.41|N|Use the net on a Pillager, then speak to him and pound him. Drag him back to Togrik.|
+C Drag it Out of Them|QID|13961|NC|U|46722|M|56.55,40.41|N|Use the net on a Pillager, then speak to him and select "pound him". Then run back Togrik to deliver the prisoner.|
 
 T Drag it Out of Them|QID|13961|M|56.56,40.38|N|To Togrik.|
 A By Hook Or By Crook|QID|13963|PRE|13961|RANK|1|M|56.56,40.38|N|From Togrik.|
-C By Hook Or By Crook|QID|13963|M|56.62,39.90|N|Go into the pen to the North and question the prisoner.|
+C By Hook Or By Crook|QID|13963|M|56.62,39.90|N|Go into the pen to the North and question the prisoner, after a while he'll let slip the name Tortusk, which will complete the interrogation.|CHAT|
 T By Hook Or By Crook|QID|13963|M|56.62,40.28|N|To Togrik.|
 A The Tortusk Takedown|QID|13968|PRE|13963|RANK|1|M|56.62,40.28|N|From Togrik.|
 A Grol'dom's Missing Kodo|QID|13969|RANK|1|M|56.40,40.37|N|From Kranal Fiss.|
@@ -127,11 +135,11 @@ T The Grol'dom Militia|QID|13973|M|53.98,41.15|N|To Una Wolfclaw.|
 
 T Grol'dom's Missing Kodo|QID|13969|M|58.06,49.18|N|To Grol'dom Kodo.|
 A Animal Services|QID|13970|PRE|13969|M|58.06,49.18|N|From Grol'dom Kodo.|
-C Animal Services|QID|13970|S|M|58.36,49.90|N|Gather sacks of Stolen Grain while questing on Thorn Hill.|
+C Animal Services|QID|13970|S|M|58.36,49.90|N|Gather sacks of Stolen Grain while questing on Thorn Hill.|NC|
 
 C The Tortusk Takedown|QID|13968|T|Fez|M|61.36,47.87|N|Kill the Razormane leader, Tortusk but you better kill his raptor, Fez, first.|
-C Consumed by Hatred|QID|899|US|M|58.41,49.49|N|Kill Quillboar until you collect 30 Quilboar Tusks.|
-C Animal Services|QID|13970|US|M|58.36,49.90|N|Gather 5 sacks of Stolen Grain from the Razormane camps on Thorn Hill.|
+C Animal Services|QID|13970|US|M|55.70,52.70|N|Finish collecting the sacks of Stolen Grain from the Razormane camps on Thorn Hill.|NC|
+C Consumed by Hatred|QID|899|US|M|58.41,49.49|N|Finish killing the Razormane until you collect the required Quilboar Tusks.|
 T Animal Services|QID|13970|M|58.08,49.32|N|To Grol'dom Kodo.|
 
 A The Kodo's Return|QID|13971|PRE|13970|RANK|1|M|58.08,49.32|N|From Grol'dom Kodo.|
@@ -142,20 +150,21 @@ T The Tortusk Takedown|QID|13968|M|56.66,40.25|N|To Togrik.|
 T The Kodo's Return|QID|13971|M|56.78,40.28|N|To Kranal Fiss.|
 T Consumed by Hatred|QID|899|M|55.18,41.03|N|To Mankrik.|
 
-C Crossroads Caravan Delivery|QID|13975|NC|M|54.67,41.55;49.55,59.46|CC|N|Talk to Rocco Whipshank and hop on kodo. Use first ability on wolf riders, second ability if they jump you.|
+C Crossroads Caravan Delivery|QID|13975|M|54.67,41.55;49.55,59.46|CC|N|Talk to Rocco Whipshank, then mount the Lead Caravan Kodo that spawns in front of him. Unlike earlier, you will need to shoot the Burning Blade Raiders that jump onto you.|T|Burning Blade Raider|
 T Crossroads Caravan Delivery|QID|13975|M|48.74,59.58|N|To Thork.|
-;A To the Mor'shan Rampart|QID|28876|RANK|1|M|48.74,59.58|N|If you plan on going to Ashenvale next. From Thork.| -Not in game?
 
+f The Crossroads |QID|13992|M|48.7,58.67|N|Get The Crossroads flightpoint from Devrak.|
 A Fungal Spores|QID|848|RANK|1|M|48.63,58.45|N|From Apothecary Helbrim.|
 A The Forgotten Pools|QID|870|RANK|1|M|49.41,58.67|N|From Tonga Runetotem.|
-A Disciples of Naralex|QID|26878|RANK|2|M|49.41,58.67|N|If you plan on doing the Wailing Caverns Instance. From Tonga Runetotem.|
+
+A Disciples of Naralex|QID|26878|RANK|2|M|49.41,58.67|N|*DUNGEON QUEST* - only accept if you plan on doing the Wailing Caverns Instance, otherwise skip this step. From Tonga Runetotem.|RANK|3|
 
 h The Crossroads|QID|13992|M|49.60,57.95|N|At Innkeeper Boorand Plainswind.|
 
 A The Zhevra|QID|845|RANK|1|M|50.01,59.78|N|From Sergra Darkthorn.|
 A Hunting the Huntress|QID|903|RANK|1|M|50.01,59.78|N|From Sergra Darkthorn.|
 
-r Train, Repair and Restock|QID|13992|
+r Repair/Sell Unwanted Loot|QID|13992|M|49.99,61.37|N|Good opportunity to repair and sell unwanted loot with Halija Whitestrider.\nRight click this step to continue.|RANK|3|
 
 C The Zhevra|QID|845|S|M|48.43,54.63|N|Kill and loot Zhevra Runners.|
 C Hunting the Huntress|QID|903|S|M|40.44,50.89|N|Kill Savannah Huntresses for their claws.|
@@ -197,7 +206,7 @@ C King of Centaur Mountain|QID|13995|NC|M|54.37,78.36|N|Escort quest. Follow Gor
 T King of Centaur Mountain|QID|13995|M|55.20,78.40|N|To Shoe.|
 
 C In Fungus We Trust|QID|13998|NC|U|46789|M|54.94,80.12|N|Use the Fungal Cultures near the Stagnant Oasis.|
-C A Growing Problem|QID|13988|U|46782|M|58.77,81.07;60.73,85.38|CS|N|Use Tonga's Totem if you do not already have a bird following you, then head up the mountain.  The hawk MUST fly into the small circle of stones near the banner.|
+C A Growing Problem|QID|13988|U|46782|M|58.77,81.07;60.73,85.38|CS|N|Use Tonga's Totem if you do not already have a bird following you, then head up the mountain. The hawk MUST fly into the small circle of stones near the banner.|
 T A Growing Problem|QID|13988|M|60.73,85.38|N|To Jerrik Highmountain.|
 
 A The Stagnant Oasis|QID|877|PRE|13988|RANK|1|M|60.73,85.38|N|From Jerrik Highmountain.|
