@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-04-06 20:23
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25858/view
 -- Date: 2013-12-27 22:38
 -- Who: Ludovicus
 -- Log: Play through tweaks + new goblin only quests for Razor Hill.
@@ -130,7 +134,7 @@ T Megs in Marketing|QID|28349|M|58.22,76.61|N|To Megs Dreadshredder.|R|Goblin|
 A Rolling with my Homies|QID|14071|M|58.22,76.61|N|From Megs Dreadshredder.|R|Goblin|
 C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|Gobber picked up: 1/1|N|Use the keys, then pick up Gobber.|NC|R|Goblin|
 C Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|Ace picked up: 1/1|NC|N|Pick Up Ace.|NC|R|Goblin|
-C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|Izzy picked up: 1/1|NC|N|Pick up Izzy.|NC|R|Goblin|
+C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|Izzy picked up: 1/1|NC|N|Pick up Izzy, back near KTC Headquarters.|NC|R|Goblin|
 T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|U|46856|R|Goblin|
 A Report for Tryouts|QID|24567|M|58.24,76.01|N|From Megs Dreadshredder.|R|Goblin|
 A Off to the Bank|QID|26712|M|56.49,76.98|N|From Candy Cane.|GEN|MALE|R|Goblin|
