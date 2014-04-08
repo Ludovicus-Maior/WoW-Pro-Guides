@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-04-08 09:46
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25925/view
 -- Date: 2014-04-06 20:23
 -- Who: Fluclo
 
