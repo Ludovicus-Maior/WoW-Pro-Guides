@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2014-04-13 21:16
+-- Who: Hendo72
+-- Log: Added missing unsticky for 'Stealing is Bad... Re-Stealing is OK'
+
+-- URL: http://wow-pro.com/node/3508/revisions/25791/view
 -- Date: 2013-10-31 17:08
 -- Who: Twists
 -- Log: Add ACTIVE for seeds
@@ -342,6 +347,7 @@ C Not in Chee-Chee's Backyard|QID|30324|M|31.01,28.27|US|
 C Authentic Valley Stir Fry|QID|30471|M|31.93,23.50|US|N|This can be a ground spawn or drop from the mobs.|
 C Yak Statuette|QID|30473|M|34,24|US|N|This can be a ground spawn or drop from the mobs.|
 C Spicy Shrimp Dumplings|QID|30474|M|31.4,34|US|N|This can be a ground spawn or drop from the mobs.|
+C Stealing is Bad... Re-Stealing is OK|QID|30334|M|32.33,26.28|NC|S|N|Veggies are ground spawn near the huts and under bushes.|
 
 ;do quests - virmin area
 C They Don't Even Wear Them|QID|30323|M|39,20;44,22;47,21|CN|S|N|Random drops while killing the other mobs for your other quests.|
