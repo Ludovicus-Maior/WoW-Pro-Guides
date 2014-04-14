@@ -4,6 +4,14 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-04-08 09:46
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25925/view
+-- Date: 2014-04-06 20:23
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25858/view
 -- Date: 2013-12-27 22:38
 -- Who: Ludovicus
 -- Log: Play through tweaks + new goblin only quests for Razor Hill.
@@ -115,7 +123,7 @@ N Race Restriction|QID|99999|N|Sorry, only Goblins are allowed on The Lost Isles
 A Goblin Escape Pods|QID|14001;14474|M|24.63,77.96|N|From Geargrinder Gizmo.|R|Goblin|
 C Goblin Escape Pods|QID|14001;14474|M|27.47,81.78|N|Male? Look around and click on the escape pods until you rescue 6 goblins.|R|Goblin|
 h Shipwreck Shore|QID|14014|M|27.86,75.58|N|At Sassy Hardwrench.|R|Goblin|
-T Goblin Escape Pods|QID|1400114474|M|27.86,75.58|N|To Sassy Hardwrench.|R|Goblin|
+T Goblin Escape Pods|QID|14001;14474|M|27.86,75.58|N|To Sassy Hardwrench.|R|Goblin|
 
 A Get Our Stuff Back!|QID|14014|M|27.86,75.58|N|From Sassy Hardwrench.|R|Goblin|
 A Monkey Business|QID|14019|M|27.89,74.43|N|From Bamm Megabomb.|R|Goblin|

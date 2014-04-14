@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2014-04-05 22:14
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3247/revisions/25921/view
 -- Date: 2014-03-14 17:21
 -- Who: Hendo72
 -- Log: Changed the completion trigger for Dragon's Mouth FP from 'The Day that Deathwing Came: What Really Happened' (27715) to 'Into the Dragon's Mouth' (27826). 27715 is turned in before you get to Dragon's Mouth. This is causing the f step to not appear in the guide window.
@@ -65,11 +69,11 @@ WoWPro.Leveling:RegisterGuide('CraBad4548', 'Badlands', 'Crackerhead22', '45', '
 return [[
 L Level 44 |QID|27762|LVL|44|N|This guide requires a minimum level of 44 to do.|
 
-R Light's Hope Chapel|QID|27762|N|The questing begins at Light's Hope Chapel in Eastern Plaguelands.  Head to there to begin this guide. \n\nYou can also grab hold the breadcrumb Hero's Quest from Ironforge or Stormwind, but this is not necessary for this guide.|Z|Eastern Kingdoms|
-T Hero's Call: Badlands! |QID|28579|N|To Gek Nozzlerocket|M|73.8,53.1|O|Z|Eastern Kingdoms|
+R Light's Hope Chapel|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|The questing begins at Light's Hope Chapel in Eastern Plaguelands. Head to there to begin this guide. \n\nYou can also grab hold the breadcrumb Hero's Quest from Ironforge or Stormwind, but this is not necessary for this guide.|
+T Hero's Call: Badlands! |QID|28579|M|73.8,53.1|Z|Eastern Plaguelands|N|To Gek Nozzlerocket|M|73.8,53.1|O|
 
 A Fuselight, Ho!|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|From Gek Nozzlerocket.|
-R Fuselight-by-the-Sea|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|Click on "The Uncrashable" behind Gek, and pray. It is some bad driving.|
+R Fuselight-by-the-Sea|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|Click on "The Uncrashable" behind Gek, and accept the warning that it will take you to The Badlands. Pray - it is some bad driving.|
 T Fuselight, Ho!|QID|27762|M|92.6,38.9|N|To Eddie Flofizzle.|
 
 A To Fuselight Proper|QID|27763|M|92.48,38.94|N|From Eddie Flofizzle.|
@@ -88,7 +92,7 @@ T When the Going Gets Tough, Cheat|QID|27775|M|64.35,37.97|N|To Garyanne Fleezle
 A It's Goat Time, Baby|QID|27776|M|64.47,37.93|N|From Garyanne Fleezlebop.|
 T Easily Swayed|QID|27774|M|65.06,38.26|N|To Dolph Blastus.|
 A A Strange Request|QID|27764|M|65.06,38.26|N|From Dolph Blastus.|
-C It's Goat Time, Baby|QID|27776|U|62397|M|61.45,36.83|N|Have fun sending 12 Billy Goats off the edge of the cliff.  There is a timed achievement requiring 12 in a minute as well.|NC|
+C It's Goat Time, Baby|QID|27776|U|62397|M|61.45,36.83|N|Have fun sending 12 Billy Goats off the edge of the cliff. There is a timed achievement requiring 12 in a minute as well.|NC|
 T It's Goat Time, Baby|QID|27776|M|64.34,38.14|N|To Garyanne Fleezlebop.|
 
 T A Strange Request|QID|27764|M|66.36,55.30|N|To Rhea. Unless you plan on jumping off the cliff, take either path down and cut through the valley.|
@@ -101,7 +105,7 @@ C First Sample: Wild Eggs|QID|27765|M|70.61,45.08|N|There at the bottom edges of
 T First Sample: Wild Eggs|QID|27765|M|66.48,55.30|N|To Rhea.|
 T Second Sample: Whelps|QID|27766|M|66.48,55.30|N|To Rhea.|
 A Lifting the Veil|QID|27770|M|66.48,55.30|N|From Rhea.|
-C Lifting the Veil|QID|27770|M|66.48,55.30|N|Witness the final piece of Rhea's studies. Basically waiting untill Nyxondra appears.|NC|
+C Lifting the Veil|QID|27770|M|66.48,55.30|N|Witness the final piece of Rhea's studies (stay where you are, and wait a few seconds for Nyxondra to appear)|NC|
 T Lifting the Veil|QID|27770|M|66.46,55.38|N|To Rhea.|
 A Third Sample: Implanted Eggs|QID|27771|M|66.41,55.57|N|From Rhea.|
 C Third Sample: Implanted Eggs|QID|27771|M|66.08,56.81|N|You will have to beat her into submission for every egg needed(3).|
@@ -217,6 +221,7 @@ T Survival of the Fattest|QID|27825|M|20.74,55.86|N|To Victoria Dolen.|
 A To the Aid of the Thorium Brotherhood|QID|28512|M|20.74,55.86|N|From Victoria Dolen. Will not show up if you have the quest, "Hero's Call: Searing Gorge!"|
 T Half-Ton Holdouts|QID|27833|M|20.96,57.39|N|To Terrance Storm.|
 F Stormwind City or Ironforge|M|21.78,57.70|N|Fly to Stormwind or Ironforge to visit your trainers, and AH. Close this step to go to the next guide.|
+
 ]]
 
 end)
