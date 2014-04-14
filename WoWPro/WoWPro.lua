@@ -467,6 +467,61 @@ function WoWPro:Timeless()
     _NPCScan.NPCAdd(71919,"Zhu-Gon the Sour",951)
 end
 
+function WoWPro:RegisterGuide(GIDvalue, zonename, authorname, factionname, sequencevalue)
+
+    local guide = {
+		guidetype = "Leveling",
+		zone = zonename,
+		author = authorname,
+		faction = factionname,
+		GID = GIDvalue
+	}
+
+
+	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then
+	    -- If the guide is not of the correct faction, don't register it
+	    return guide
+	end 
+			
+	WoWPro.Guides[GIDvalue] = guide
+	return guide
+	
+end
+
+function WoWPro:UnRegisterGuide(guide)
+    WoWPro.Guides[guide.GID] = nil
+end
+
+
+function WoWPro:GuideLevels(guide,lowerLevel,upperLevel)
+    guide['startlevel'] = lowerLevel
+    guide['endlevel'] = upperLevel
+end
+
+function WoWPro:GuideRaceSpecific(guide,race)
+    local locRace, engRace = UnitRace("player")
+    if engRace ~= race then
+        WoWPro:UnRegisterGuide(guide)
+    end
+end
+
+function WoWPro:GuideClassSpecific(guide,class)
+    local locClass, engClass = UnitClass("player")
+    if engClass ~= class then
+        WoWPro:UnRegisterGuide(guide)
+    end
+end
+
+function WoWPro:GuideNextGuide(guide,nextGID)
+    guide['nextGID'] = nextGID
+end
+
+function WoWPro:GuideSteps(guide,steps)
+    guide['sequence'] = steps
+end
+
+
+
 function WoWPro:LoadAllGuides()
     WoWPro:Print("Test Load of All Guides")
     local aCount=0
