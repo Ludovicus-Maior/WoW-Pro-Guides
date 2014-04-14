@@ -454,8 +454,9 @@ function WoWPro:NextStep(k,i)
 --	        WoWPro:Print("LFO: %s [%s] step %s",WoWPro.action[k],WoWPro.step[k],k)
 	        if not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then 
     			skip = true -- If the quest is not in the quest log, the step is skipped --
-    			WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],QID)
+    			WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],tostring(QID))
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
+    			
     		elseif WoWPro.action[k] == "T" and QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end) then
     		    -- For turnins, make sure we have completed the criteria
     		    if WoWPro.conditional[k] and not QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
@@ -470,12 +471,14 @@ function WoWPro:NextStep(k,i)
     	if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi[WoWPro.step[k]] then
 	        WoWPro.CompleteStep(k)
 	        skip = true
+	        break
 	    end	
 	    -- Check for must be active quests
         if WoWPro.active and WoWPro.active[k] then
     		if not WoWPro:QIDsInTable(WoWPro.active[k],WoWPro.QuestLog) then 
     			skip = true -- If the quest is not in the quest log, the step is skipped --
     			WoWPro.why[k] = "NextStep(): Skipping step necessary ACTIVE quest is not in QuestLog."
+    			break
     		end
     		WoWPro:dbp("Step %s [%s] ACTIVE %s, skip=%s",WoWPro.action[k],WoWPro.step[k],WoWPro.active[k],tostring(skip))
         end
