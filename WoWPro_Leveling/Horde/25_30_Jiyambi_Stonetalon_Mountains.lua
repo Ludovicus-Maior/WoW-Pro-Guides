@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2014-04-14 19:36
+-- Who: Ludovicus
+-- Log: CS tag
+
+-- URL: http://wow-pro.com/node/3234/revisions/25908/view
 -- Date: 2014-03-06 23:45
 -- Who: Ludovicus
 -- Log: Removed some incorrect LVL tags.
@@ -165,7 +170,7 @@ A Reinforcements...|RANK|2|QID|26066|PRE|26060;26061|M|71.15,91.15|N|From Subjug
 T Fight On Their Stomachs|RANK|2|QID|26064|M|71.98,91.27|N|To Denni'ka.|
 
 C Da Voodoo: Resonite Crystal|NC|QID|26062|M|59.78,88.81|N|Loot crystals by right-clicking them.|S|
-C Reinforcements...|RANK|2|QID|26066|U|56794|M|65.11,88.33;62.07,89.29;60.17,87.05|CN|N|Use the whip on kobolds. If it doesn't work the first time, you can keep using it until the kobold becomes under your control.|
+C Reinforcements...|RANK|2|QID|26066|U|56794|M|65.11,88.33;62.07,89.29;60.17,87.05|CS|N|Use the whip on kobolds. If it doesn't work the first time, you can keep using it until the kobold becomes under your control.|
 C Da Voodoo: Resonite Crystal|NC|QID|26062|M|59.78,88.81|N|Loot crystals by right-clicking them.|US|
 
 T Reinforcements...|RANK|2|QID|26066|M|71.12,91.15|N|To Subjugator Devo.|
@@ -181,7 +186,7 @@ T Kobold Fury!|RANK|2|QID|26068|M|71.18,91.08|N|To Subjugator Devo, back in Mala
 T Jin'Zil's Blessing|QID|26067|M|71.11,91.19|N|To Witch Doctor Jin'Zil.|
 A All's Quiet on the Southern Front|QID|26073|PRE|26067|M|71.11,91.19|N|From Witch Doctor Jin'Zil.|
 A Nura Pathfinder|QID|26069|M|71.11,91.19||N|From Witch Doctor Jin'Zil. Take this quest if you plan on going to Southern Barrens.|
-H Krom'gar Fortress|QID|26073|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
+H Krom'gar Fortress|QID|26073|M|66.54,62.80|N|FlyRun back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T All's Quiet on the Southern Front|QID|26073|M|66.14,63.75|N|To Overlord Krom'gar.|
 A Beginning of the End|QID|26074|M|66.20,63.64|N|From Overlord Krom'gar.|
 B Quartermaster|QID|26074|M|65.85,64.12|N|You've gone up a rank in the Krom'gar army! Check and see if there's anything you want at the quartermaster before moving on.|

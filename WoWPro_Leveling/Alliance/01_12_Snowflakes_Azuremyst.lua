@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2014-04-14 19:35
+-- Who: Ludovicus
+-- Log: Add missing Panda tags.
+
+-- URL: http://wow-pro.com/node/3206/revisions/25723/view
 -- Date: 2013-06-18 01:09
 -- Who: Ludovicus
 -- Log: quest 9616's name [Bandits] does not match Grail's database [Bandits!].
@@ -116,24 +121,24 @@
 
 WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
 return [[
-R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
-f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
+R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
+f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
 A You Survived!|QID|9279|M|84.2,43.0|N|From Megelon right in front of you.|R|Draenei|
 T You Survived!|QID|9279|N|To Proenitus.|M|80.4,45.9|R|Draenei|
 A Replenishing the Healing Crystals|QID|9280|M|80.4,45.9|N|From Proenitus.|R|Draenei|
-A Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|From Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf|
+A Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|From Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
 C Replenishing the Healing Crystals|QID|9280|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Draenei|
-C Replenishing the Healing Crystals|QID|9369|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf|
+C Replenishing the Healing Crystals|QID|9369|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
 T Replenishing the Healing Crystals|QID|9280|M|80.4,45.9|N|To Proenitus.|R|Draenei|
-T Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf
+T Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
+A Urgent Delivery!|QID|9409|M|80.4,45.9|N|From Proenitus.|
+T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building.|M|80.1,48.8|
 A Volatile Mutations|QID|10302|M|79.1,46.5|N|From Botanist Taerix.|
 C Volatile Mutations|QID|10302|M|77.85,43.37|N|Kill Volatile Mutations.|
 T Volatile Mutations|QID|10302|M|79.1,46.5|N|To Botanist Taerix.|
 
 A What Must Be Done...|QID|9293|M|79.1,46.5|N|From Botanist Taerix.|
 A Botanical Legwork|QID|9799|M|79.1,46.5|N|From Apprentic Vishael.|
-A Urgent Delivery!|QID|9409|M|80.4,45.9|N|From Proenitus.|
-T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building.|M|80.1,48.8|
 A Rescue the Survivors!|QID|9283|M|80.1,48.8|N|From Zaldunn.|R|Draenei|
 r Sell junk and repair|QID|9293|N|At Mura.|M|79.19,50.93|
 A Spare Parts |QID|9305|M|79.5,51.4|N|From Technician Zhanaa.|

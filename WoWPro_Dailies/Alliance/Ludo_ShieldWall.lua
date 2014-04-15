@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2014-04-14 20:10
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3519/revisions/25934/view
+-- Date: 2014-04-14 19:39
+-- Who: Ludovicus
+-- Log: Starter quest is no longer a UI popup.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25757/view
 -- Date: 2013-09-10 23:50
 -- Who: Ludovicus
 -- Log: Fixed coords for "Mogujia" section.
@@ -112,11 +121,11 @@
 WoWPro.Dailies:RegisterGuide("LudoShieldWall", "Krasarang Wilds", "Operation: Shieldwall", "MoP", "Ludovicus", "Alliance", function()
 return [[
 
-A Meet the Scout|QID|32246|LEAD|32247|M|64.16,58.75|Z|Vale of Eternal Blossoms|N|UI Popup when flying near Shrine of Seven Stars|
+A Meet the Scout|QID|32246|M|83.99,58.67|Z|Vale of Eternal Blossoms|N|From Lyalia, outside the Shrine of Seven Stars.|
 T Meet the Scout|QID|32246|M|85.24,29.13|N|To Scout Lynna.|; 150
 
 ; Lion's Landing
-A A King Among Men|QID|32247|PRE|32246|M|85.29,29.12|N|From King Varian Wynn.|
+A A King Among Men|QID|32247|PRE|32246|M|84.0,58.8|N|From King Varian Wynn.|
 C A King Among Men|QID|32247|M|79.64,25.04|QO|Marshal Troteman found: 1/1|N|Varian will help to fight. Talk to Troteman.|
 C A King Among Men|QID|32247|M|80.43,17.52|QO|Hilda Hornswaggle found: 1/1|
 C A King Among Men|QID|32247|M|78.70,19.85|QO|Horde slain: 25/25|N|Wander into the forest to kill any horde you need.|

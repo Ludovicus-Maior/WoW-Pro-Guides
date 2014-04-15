@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2014-04-14 19:29
+-- Who: Ludovicus
+-- Log: Coodinate cleanups.
+
+-- URL: http://wow-pro.com/node/3282/revisions/25749/view
 -- Date: 2013-08-16 19:48
 -- Who: Ludovicus
 -- Log: Corrected the quests that Tor'chunk Twoclaws gives.  Added a few coords.
@@ -47,14 +52,15 @@ return [[
 F Zabra'jin|QID|10928|N|Fly to Zabra'jin.|
 A The Ogre Threat|QID|9795|N|From Shadow Hunter Denjai. He is on the second floor of the inn.|Z|Zangarmarsh|M|30.74,50.88|
 F Swamprat Post|QID|10928|N|Fly to Swamprat Post.|Z|Zangarmarsh|M|33.06,51.08|
-A Killing the Crawlers|QID|10928|N|From Grunt Grahk.|M|53.0,96.2|
+R Blades' Run|QID|10928|M|69.19,35.77;70.33,33.96;68.44,33.39|CS|N|Fly or run to this path just north of Telredor.|Z|Zangarmarsh|
+A Killing the Crawlers|QID|10928|N|From Grunt Grahk.|M|52.96,96.22|
 C Killing the Crawlers|QID|10928|N|Kill 6 Cavern Crawlers.|
 T Killing the Crawlers|QID|10928|M|51.9,58.4|N|To Tor'chunk Twoclaws.|
 A The Bladespire Threat|QID|10503|N|From Tor'chunk Twoclaws.|M|51.94,58.41|
-T The Ogre Threat|QID|9795|N|To Nekthar.|
+T The Ogre Threat|QID|9795|M|52.01,58.09|N|To Nekthar, who moves a bit|
 
 A Felling an Ancient Tree|QID|10489|N|From the Wanted Poster.|M|51.94,57.78|
-A The Encroaching Wilderness|QID|10486|N|From Gor'drek.|.M|52.3,57.6|
+A The Encroaching Wilderness|QID|10486|N|From Gor'drek.|M|52.25,57.58|
 h Thunderlord Stronghold|QID|10486|N|At Gholah.|M|53.37,55.42|
 C The Encroaching Wilderness|QID|10486|N|Kill Bladewing Bloodletters.|M|52,68|
 T The Encroaching Wilderness|QID|10486|M|52.3,57.6|N|To Gor'drek.|
@@ -210,7 +216,7 @@ H Thunderlord Stronghold|QID|10785|U|6948|N|Hearth to Thunderlord Stronghold.|
 T It's a Trap!|QID|10785|N|To Rexxar.|M|51.78,58.35|
 
 A Gorgrom the Dragon-Eater|QID|10723|M|51.9,58.4|N|From Rexxar.|
-A Slaughter at Boulder'mok|QID|10786|N|From Gor'drek.|M|51.88,58.39|
+A Slaughter at Boulder'mok|QID|10786|N|From Tor'chunk Twoclaws.|M|51.88,58.39|
 T Gather the Orbs|QID|10859|N|To Spiritcaller Dohgar in Mok'Nathal Village.|M|74.93,60.49|
 A Inform Leoroxx!|QID|10865|M|74.9,60.5|N|From Spiritcaller Dohgar in Mok'Nathal Village.|
 T Inform Leoroxx!|QID|10865|N|To Leoroxx.|M|75.27,60.90|
@@ -300,7 +306,7 @@ C Gorgrom the Dragon-Eater|QID|10723|U|31754|N|Right-click Gorgrom's Altar, when
 C Slaughter at Boulder'mok|QID|10786|N|Kill ogres until you finish.|M|30.64,22.41|US|
 C Maxnar Must Die!|QID|10748|N|Go to the end of the wyrmcult cave and kill Maxnar the Ashmaw. Use a costume if you have enough scraps to help you get through most of the cavern.|M|33.79,35.76|
 T Maxnar Must Die! |QID|10748|M|62.0,39.5|N|To Tree Warden Chawn.|
-T Slaughter at Boulder'mok|QID|10786|N|To Gor'drek.|M|51.91,58.46|
+T Slaughter at Boulder'mok|QID|10786|N|To Tor'chunk Twoclaws.|M|51.94,58.41|
 T Gorgrom the Dragon-Eater|QID|10723|N|To Rexxar.|M|51.85,58.44|
 
 A Prisoner of the Bladespire|QID|10724|N|From Rexxar.|M|51.85,58.44|

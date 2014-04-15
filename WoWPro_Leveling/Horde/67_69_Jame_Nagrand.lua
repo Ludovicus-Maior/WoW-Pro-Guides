@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2014-04-14 19:41
+-- Who: Ludovicus
+-- Log: Coord tweaks as I played through.  Incomplete.
+
+-- URL: http://wow-pro.com/node/3280/revisions/25469/view
 -- Date: 2013-01-13 19:17
 -- Who: Ludovicus
 -- Log: Added CN tag
@@ -60,23 +65,23 @@ C Windroc Mastery  |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|
 l Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|US|L|24504|
 A The Howling Wind |QID|9861|U|24504|M|64.0,45.0|N|Accept the quest from the Howling Wind.|
 
-h Garadar|QID|9888|N|M|56.7,34.2|
+h Garadar|QID|9888|M|56.7,34.2|
 A Missing Mag'hari Procession |QID|9944|N|From Matron Drakia.|M|56.7,34.2|
-A The Impotent Leader |QID|9888|N|From Jorin Deadeye.|M|55.6,37.6|
-A Proving Your Strength |QID|10479|N|From Warden Bullrok |M|55.8,37.9|
-A Wanted: Giselda the Crone |QID|9935|N|From the Garadar Bulletin Board.|M|55.8,38.0|
-A Wanted: Zorbo the Advisor |QID|9939|N|From the Garadar Bulletin Board.|M|55.8,38.0|
-A The Throne of the Elements |QID|9870|N|From Elementalist Yal'hah, this NPC wanders around town.|M|55.0,39.0|
-A Vile Idolatry |QID|9863|N|From Farseer Kurkush.|M|54.8,39.4|
-A The Missing War Party |QID|9864|N|From Farseer Corhuk.|M|54.8,39.9|
-A Murkblood Leaders... |QID|9867|N|From Farseer Margadesh.|M|54.5,40|
+A The Impotent Leader |QID|9888|N|From Jorin Deadeye.|M|55.57,37.62|
+A Proving Your Strength |QID|10479|N|From Warden Bullrok |M|55.79,37.95|
+A Wanted: Giselda the Crone |QID|9935|N|From the Garadar Bulletin Board.|M|55.76,38.00|
+A Wanted: Zorbo the Advisor |QID|9939|N|From the Garadar Bulletin Board.|M|55.76,38.00|
+A The Throne of the Elements |QID|9870|N|From Elementalist Yal'hah, this NPC wanders around town.|M|55.0,39.0|T|Elementalist|
+A Vile Idolatry |QID|9863|N|From Farseer Kurkush.|M|54.78,39.41|
+A The Missing War Party |QID|9864|N|From Farseer Corhuk.|M|54.80,39.87|
+A Murkblood Leaders... |QID|9867|N|From Farseer Margadesh.|M|54.53,39.96|
 
-T The Howling Wind |QID|9861|M|60.5,22.4|N|To Elementalist Morgh.|
-A Murkblood Corrupters |QID|9862|M|60.5,22.4|N|From Elementalist Morgh.|
-T The Throne of the Elements |QID|9869|M|60.5,22.4|N|To Elementalist Sharvak.|
-A A Rare Bean |QID|9800|M|60.5,22.4|N|From Elementalist Lo'ap.|
-A Muck Diving |QID|9815|M|60.5,22.4|N|From Elementalist Lo'ap.|
-A The Underneath |QID|9818|M|60.5,22.4|N|From Elementalist Untrag.|
+T The Howling Wind |QID|9861|M|60.50,22.37|N|To Elementalist Morgh.|
+A Murkblood Corrupters |QID|9862|M|60.50,22.37|N|From Elementalist Morgh.|
+T The Throne of the Elements |QID|9870|M|60.5,22.4|N|To Elementalist Sharvak.|
+A A Rare Bean |QID|9800|M|60.80,22.38|N|From Elementalist Lo'ap.|
+A Muck Diving |QID|9815|M|60.80,22.38|N|From Elementalist Lo'ap.|
+A The Underneath |QID|9818|M|60.66,22.65|N|From Elementalist Untrag.|
 T The Underneath |QID|9818|M|61.8,24.4|N|To Gordawg. He wanders around.|
 A The Tortured Earth |QID|9819|M|61.8,24.4|N|From Gordawg.|
 
@@ -85,12 +90,12 @@ C Windroc Mastery  |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|
 C Talbuk Mastery |N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|S|
 C Clefthoof Mastery |N|Kill the Clefthoofs needed for this quest.|QID|9789|M|64.00,48.00|
 C Talbuk Mastery |N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|US|
-T Clefthoof Mastery |QID|9789|M|71.6,40.5|N|To Hemet Nesingwary.|
-A Clefthoof Mastery |QID|9850|M|71.6,40.5|N|From Hemet Nesingwary.|
+T Clefthoof Mastery |QID|9789|M|71.52,40.82|N|To Hemet Nesingwary.|
+A Clefthoof Mastery |QID|9850|M|71.52,40.82|N|From Hemet Nesingwary.|
 T Windroc Mastery |QID|9854|M|71.6,40.5|N|To Shado 'Fitz' Farstrider.|
 A Windroc Mastery |QID|9855|M|71.6,40.5|N|From Shado 'Fritz' Farstrider.|
-T Talbuk Mastery |QID|9857|M|71.6,40.5|N|To Harold Lane.|
-A Talbuk Mastery |QID|9858|M|71.6,40.5|N|From Harold Lane.|
+T Talbuk Mastery |QID|9857|M|71.38,40.63|N|To Harold Lane.|
+A Talbuk Mastery |QID|9858|M|71.38,40.63|N|From Harold Lane.|
 T The Tortured Earth|QID|9819|M|61.8,24.4|N|To Gordawg.|
 A Eating Damnation|QID|9821|M|61.8,24.4|N|From Gordawg.|
 

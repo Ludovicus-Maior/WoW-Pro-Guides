@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2014-04-14 19:40
+-- Who: Ludovicus
+-- Log: Coord and flight point tweaks.
+
+-- URL: http://wow-pro.com/node/3272/revisions/25729/view
 -- Date: 2013-06-23 11:16
 -- Who: Emmaleah
 -- Log: 6/22/13 by Emmaleah - added changes for new CHAT tag, changed some N steps to C steps with NC tag, few other minor adjustments.
@@ -267,7 +272,7 @@ T The Great Fissure |QID|9340|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 A Marking the Path |QID|9391|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
 T Wanted: Blacktalon the Savage |QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 
-A Report to Zurai |QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
+A Report to Zurai |QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren, on the top of the tower.|
 C Trueflight Arrows |QID|9381|N|Go between the points killing and looting Bonestripper Vultures until you have 8 tail feathers.|M|29,56;24.28,44.91|CN|
 C Arelion's Secret|QID|10286|CHAT|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health. Just to warn you, you will be put into PVP.|M|18.0,50.0|T|Magister Aledis|
 T Arelion's Secret|QID|10286|M|18.0,50.0|N|To Magister Aledis.|
@@ -331,7 +336,7 @@ C Testing the Antidote |QID|10255|N|Go find a Hulking Helboar, use the Cenarion 
 T Testing the Antidote |QID|10255|M|15.70,52.09|N|To Thiah Redmane.|
 C Source of the Corruption |QID|9387|N|Kill the Taskmasters until you have enough essence. The Brutes will run once you kill the Taskmaster.|M|15.0,55.5|S|
 
-A Naladu|N|From Akoru the Firecaller.|QID|10403|M|15.00,59.00|
+A Naladu|N|From Akoru the Firecaller.|QID|10403|M|15.59,58.75|
 T Naladu|QID|10403|M|16.3,65.1|N|To Naladu.|
 A A Traitor Among Us |QID|10367|M|16.3,65.1|N|From Naladu.|
 C A Traitor Among Us |N|Get the key from the chest here.|QID|10367|M|14.35,63.35|
@@ -365,8 +370,8 @@ R Swamprat Post |QID|10103|N|To Swamprat Post in the northeast.|Z|Zangarmarsh|M|
 T Report to Zurai |QID|10103|Z|Zangarmarsh|M|85.5,55.0|N|To Zurai.|
 f Falcon Watch |QID|9387|N|Grab the flight path, so you can fly here next time.|M|84.77,55.11|
 H Falcon Watch|QID|9387|N|Hearth to Falcon Watch.|
-T Source of the Corruption |QID|9387|M|27.0,59.5|N|To Apothecary Azethen.|
-T A Pilgrim's Plight |QID|9376|M|27.0,62.0|N|To Taleris Dawngazer.|
+T Source of the Corruption |QID|9387|M|26.79,59.71|N|To Apothecary Azethen.|
+T A Pilgrim's Plight |QID|9376|M|27.16,61.90|N|To Taleris Dawngazer.|
 C Arelion's Mistress |QID|9472|N|Go find Viera Sunwhisper, she has a blue '?' on her head. Accept her 'quest', follow her, and when she says something about trying wine, use the scroll on her.|U|23693|M|27.0,62.0|
 T Arelion's Mistress |QID|9472|M|26.37,60.32|N|To Magistrix Carinda.|
 C The Demoniac Scryer |QID|10838|N|Time for a challenge! Head over to Hellfire Basin. Find yourself a clear spot, and HP/mana up. When you use the item, you'll have to defend the crystal from waves of very weak imps, and occasional orc spawns, which should be taken down immediately. The crystal can take some beating, though. Once smoke starts shooting upwards, talk to the crystal to finish the quest.|U|31606|M|44.9,49.2|
@@ -378,7 +383,7 @@ T Report to Nazgrel|QID|10875|M|55.02,35.96|N|To Nazgrel.|
 A The Foot of the Citadel|QID|10876|M|55.02,35.96|N|From Nazgrel.|
 C The Foot of the Citadel|QID|10876|U|31702|M|47.43,49.71|N|Kill Force-Commander Gorax, then plant the Challenge From the Horde on his corpse. Once The Hand of Kargath appears, kill and loot him for his head.|
 T The Foot of the Citadel|QID|10876|M|55.02,35.96|N|To Nazgrel.|
-F Spinebreaker Post|QID|10834|N|Fly to Spinebreaker Post.|M|56.28,36.25|
+F Spinebreaker Ridge|QID|10834|N|Fly to Spinebreaker Post.|M|56.28,36.25|
 T Grillok "Darkeye" |QID|10834|M|61.66,81.86|N|To Zezzak.|
 T From the Abyss |QID|10295|M|61.87,81.53|N|To Ogath the Mad.|
 
