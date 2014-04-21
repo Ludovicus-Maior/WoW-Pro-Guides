@@ -63,6 +63,16 @@
 			</Layer>
 		</Layers>		
 		<Frames>
+		    <Button name="WoWProSelector_CloseButton" inherits="UIPanelCloseButton">
+                <Anchors>
+                    <Anchor point="TOPRIGHT" relativePoint="TOPRIGHT">
+                        <Offset x="-4" y="-4"/>
+                    </Anchor>
+                </Anchors>
+                <Scripts>
+                    <OnClick function="WoWProSelector_CloseButton_OnClick" />
+                </Scripts>
+            </Button>
 		</Frames>
 		<Scripts>
 		    <OnLoad>

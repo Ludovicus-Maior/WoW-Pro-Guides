@@ -34,10 +34,14 @@ function WoWPro:Selector()
     end
 end
  	
+function WoWProSelector_CloseButton_OnClick()
+    WoWProSelector_Frame:Hide()
+end
 
 function WoWPro:Selector_OnLoad()
     WoWProSelector_Frame.button = {}
     
+    tinsert(UISpecialFrames, WoWProSelector_Frame:GetName());
     
     for idx=1,8 do
       local _, name, _, _, _, _, _, _, _, icon = GetAchievementInfo(760+idx);
