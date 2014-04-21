@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2014-04-19 20:11
+-- Who: Hendo72
+-- Log: - Commented out the note displaying the Guide title... not required.
+--	- Removed the notes for each step telling us to love the animal in the step... not required.
+--	- Added love to target option. Allows spamming of a target/action button while searching for your target.
+
+-- URL: http://wow-pro.com/node/3520/revisions/25556/view
 -- Date: 2013-03-23 15:40
 -- Who: Ludovicus
 -- Log: Added Twists [To All the Squirrels Who Cared for Me]
