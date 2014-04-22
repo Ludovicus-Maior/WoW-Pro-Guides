@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2014-04-21 18:34
+-- Who: Ludovicus
+-- Log: Re-arrange quests a bit.
+
+-- URL: http://wow-pro.com/node/3561/revisions/25922/view
 -- Date: 2014-03-17 20:14
 -- Who: Ludovicus
 -- Log: Change zone to Temple of the Jade Serpent@EastTemple
@@ -74,6 +79,29 @@ N Albatross up High|QID|33161|M|33.88,55.22|ACTIVE|33161|N|Learn to ride a bird 
 R Inkeeper|QID|33161|M|36.59,46.83|N|Say hello to Graceful Swan, your Innkeeper.|T|Graceful Swan|
 R Mail-Grummie|QID|33161|M|36.91,46.83|N|Say hello to Hopswift, chat with him to get your mail.|T|Hopswift|
 T A Timeless Tour|QID|33161|M|34.54,53.63|N|To Kairoz.|
+
+; Riddles - One time quests
+
+L Rolo's Riddle|QID|32974|M|20.10,56.90;20.50,71.20;20.90,74.00;21.10,44.90;21.30,40.90;22.90,55.00;23.10,75.50;24.20,67.80;34.20,87.10;61.80,83.60;67.10,78.80;70.20,67.20;22.70,69.45;36.50,87.45;60.10,88.45;68.20,74.45;23.45,37.75;23.45,58.85;36.45,20.25;62.45,80.53;20.60,53.50;25.85,70.50;21.45,49.70;20.40,36.05;25.50,60.05;23.39,46.30;33.80,22.50;23.57,50.35;23.25,33.35;26.55,28.38;26.51,51.65;25.40,55.25;23.00,61.60;55.60,87.75;20.68,61.03;65.49,77.06;22.55,35.23;20.90,63.75;71.22,72.90;39.65,91.75;22.79,29.99;29.35,30.15|CN|N|Click on Glinting Sand and get Rolo's Riddle.|L|102225|
+A Rolo's Riddle|QID|32974|N|Click on the Riddle you found in the Glinting Sand to get the quest.|U|102225|
+T Rolo's Riddle|QID|32974|M|49.37,69.41|N|To Mound of Dirt, behind the jumping pillars.|
+A Rolo's Riddle|QID|32975|M|49.37,69.41|PRE|32974|N|From Mound of Dirt, behind the jumping pillars.|
+T Rolo's Riddle|QID|32975|M|34.57,26.67|N|To Mound of Dirt, at the rear of Three Breeze Terrace.|
+A Rolo's Riddle|QID|32976|M|34.57,26.67|PRE|32975|N|From Mound of Dirt, at the rear of Three Breeze Terrace.|
+N Rolo's Riddle|ACTIVE|32976|M|41.2,63.6|N|You have one of two options:  Buy a glider or ride an Albatross. Ku-Mo sells them. Click this step off and pick your option.|T|Ku-Mo|
+N Use an Albatross|ACTIVE|32976|M|33.88,55.22|N|Once you are on the albatross, skip to the turn-in step so you know when to exit.|T|Highwind Albatross|
+R Timeless Waters|ACTIVE|32976|M|69,7|N|Take your water stider or raft onto the waters till you get here.  You should now be able to fly straight up as far as you dare on your flying mount and then go towards the lake, where the arrow points.  You will be dismounted, and then use your glider.|U|104346|
+T Rolo's Riddle|QID|32976|M|66.06,23.26|N|To Rolo's Treasure.|
+
+; Weekly Loots
+A Pillar Hopping Tracking Quest|QID|32969|M|49.71,69.42|N|From Gleaming Treasure Chest, weekly, on the Firewalkers path. Hop onto the pillar and loot.  Easy as pie, NOT.|
+T Pillar Hopping Tracking Quest|QID|32969|M|49.71,69.42|N|To Gleaming Treasure Chest.|
+N Rope-Bound Treasure Chest: First Way|QID|32968|M|60.2,45.9;53.94,47.21|CS|N|On the Firewalkers path. If you like walking on ropes, start here and work your way to the chest.|
+N Rope-Bound Treasure Chest: Second Way|QID|32968|M|38.8,58.8;53.94,47.21|CS|N|If you like riding on an Albatross, target one near the Celestial Court and then kill it when you are near the chest.|T|Highwind Albatross|
+A Rope Drop Tracking Quest|QID|32968|M|53.94,47.21|N|From Rope-Bound Treasure Chest.|
+T Rope Drop Tracking Quest|QID|32968|M|53.94,47.21|N|To Rope-Bound Treasure Chest.|
+A Feather Fall Tracking Quest|QID|32971|M|58.49,60.14|N|From Gleaming Crane Statue, weekly, on the Firewalkers path.  You will be launched into the air and the you will fall slowly. Steer towards a platform and loot as many as you can in 1 minute.  If you buy a [Golden Glider], dont complete the quest until late in the week, as you can access almostg anything you want this way!|
+T Feather Fall Tracking Quest|QID|32971|M|58.51,60.06|N|To Gleaming Crane Statue.|
 
 ; Coin Aquisition
 A A Timeless Question|QID|33211|M|65,50.6|N|From Senior Historian Evelyna, daily.|
@@ -171,32 +199,9 @@ A Path of the Mistwalker|QID|33374|M|42.86,55.2|PRE|33341|N|From Emperor Shaohao
 A Drive Back The Flame|QID|33342|M|42.86,55.2|PRE|33374|N|From Emperor Shaohao.|
 C Path of the Mistwalker|QID|33374|M|67.6, 66.7|N|I like Croaking Hollow since they are mostly elites and can be peeled off nicely each day. Lots of kitties nearby if you get bored. When you mouse over the creature, it will tell you if it good for the quest.  If you need REP, go kill Ordon yaungol instead.|
 t Path of the Mistwalker|QID|33374|M|42.86,55.2|N|To Emperor Shaohao.|
-T Drive Back The Flame|QID|33342|M|42.86,55.2|N|To Emperor Shaohao.|
+t Drive Back The Flame|QID|33342|M|42.86,55.2|N|To Emperor Shaohao.|
 A The Archiereus Of Flame|QID|33343|M|42.86,55.2|PRE|33342|N|From Emperor Shaohao.|
 T The Archiereus Of Flame|QID|33343|M|42.86,55.2|N|To Emperor Shaohao.|
-
-; Riddles - One time quests
-
-L Rolo's Riddle|QID|32974|M|20.10,56.90;20.50,71.20;20.90,74.00;21.10,44.90;21.30,40.90;22.90,55.00;23.10,75.50;24.20,67.80;34.20,87.10;61.80,83.60;67.10,78.80;70.20,67.20;22.70,69.45;36.50,87.45;60.10,88.45;68.20,74.45;23.45,37.75;23.45,58.85;36.45,20.25;62.45,80.53;20.60,53.50;25.85,70.50;21.45,49.70;20.40,36.05;25.50,60.05;23.39,46.30;33.80,22.50;23.57,50.35;23.25,33.35;26.55,28.38;26.51,51.65;25.40,55.25;23.00,61.60;55.60,87.75;20.68,61.03;65.49,77.06;22.55,35.23;20.90,63.75;71.22,72.90;39.65,91.75;22.79,29.99;29.35,30.15|CN|N|Click on Glinting Sand and get Rolo's Riddle.|L|102225|
-A Rolo's Riddle|QID|32974|N|Click on the Riddle you found in the Glinting Sand to get the quest.|U|102225|
-T Rolo's Riddle|QID|32974|M|49.37,69.41|N|To Mound of Dirt, behind the jumping pillars.|
-A Rolo's Riddle|QID|32975|M|49.37,69.41|PRE|32974|N|From Mound of Dirt, behind the jumping pillars.|
-T Rolo's Riddle|QID|32975|M|34.57,26.67|N|To Mound of Dirt, at the rear of Three Breeze Terrace.|
-A Rolo's Riddle|QID|32976|M|34.57,26.67|PRE|32975|N|From Mound of Dirt, at the rear of Three Breeze Terrace.|
-N Rolo's Riddle|ACTIVE|32976|M|41.2,63.6|N|You have one of two options:  Buy a glider or ride an Albatross. Ku-Mo sells them. Click this step off and pick your option.|T|Ku-Mo|
-N Use an Albatross|ACTIVE|32976|M|33.88,55.22|N|Once you are on the albatross, skip to the turn-in step so you know when to exit.|T|Highwind Albatross|
-R Timeless Waters|ACTIVE|32976|M|69,7|N|Take your water stider or raft onto the waters till you get here.  You should now be able to fly straight up as far as you dare on your flying mount and then go towards the lake, where the arrow points.  You will be dismounted, and then use your glider.|U|104346|
-T Rolo's Riddle|QID|32976|M|66.06,23.26|N|To Rolo's Treasure.|
-
-; Weekly Loots
-A Pillar Hopping Tracking Quest|QID|32969|M|49.71,69.42|N|From Gleaming Treasure Chest, weekly, on the Firewalkers path. Hop onto the pillar and loot.  Easy as pie, NOT.|
-T Pillar Hopping Tracking Quest|QID|32969|M|49.71,69.42|N|To Gleaming Treasure Chest.|
-N Rope-Bound Treasure Chest: First Way|QID|32968|M|60.2,45.9;53.94,47.21|CS|N|On the Firewalkers path. If you like walking on ropes, start here and work your way to the chest.|
-N Rope-Bound Treasure Chest: Second Way|QID|32968|M|38.8,58.8;53.94,47.21|CS|N|If you like riding on an Albatross, target one near the Celestial Court and then kill it when you are near the chest.|T|Highwind Albatross|
-A Rope Drop Tracking Quest|QID|32968|M|53.94,47.21|N|From Rope-Bound Treasure Chest.|
-T Rope Drop Tracking Quest|QID|32968|M|53.94,47.21|N|To Rope-Bound Treasure Chest.|
-A Feather Fall Tracking Quest|QID|32971|M|58.49,60.14|N|From Gleaming Crane Statue, weekly, on the Firewalkers path.  You will be launched into the air and the you will fall slowly. Steer towards a platform and loot as many as you can in 1 minute.  If you buy a [Golden Glider], dont complete the quest until late in the week, as you can access almostg anything you want this way!|
-T Feather Fall Tracking Quest|QID|32971|M|58.51,60.06|N|To Gleaming Crane Statue.|
 
 ; Pirates!
 N Dread Ship Vazuvius|QID|32957|M|38.00,90.80;39.33,92.38|CN|N|Head out to the ship and battle Cursed Hozen Swabbys util they drop the key. They count towards [Path of the Mistwalker]. The [Cursed Swabby Helmet] is the featured loot.|L|104015|
