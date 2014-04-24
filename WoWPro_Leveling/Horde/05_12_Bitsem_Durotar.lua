@@ -4,6 +4,14 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-04-24 06:43
+-- Who: Hendo72
+-- Log: Valley of Trials
+--	- Removed |RANK|1| commands as they are not needed. (In my opinion)
+--	- Changed |CC| to |CS| in "T Back to the Den"... The player might not take the exact route prescribed.
+--	- Added QID to Hearth step as well as coords in case their HS is on CD.
+
+-- URL: http://wow-pro.com/node/3199/revisions/25855/view
 -- Date: 2013-12-26 21:33
 -- Who: Ludovicus
 -- Log: Changed some CN to CS so they clean up right.  Made things safe for goblins.
