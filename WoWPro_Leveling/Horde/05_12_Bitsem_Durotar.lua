@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-04-26 07:51
+-- Who: Hendo72
+-- Log: Echo Isles:
+--	- Removed |RANK|1| tags as they are not needed.
+--	- Rephrased 'The Ancient Enemy' note and added an extra set of coordinates because the current one gives the impression that you have to go into the cave as opposed to on top of it. (I spent 20 minutes in the cave trying to figure out where I was suppose to go.)
+
+-- URL: http://wow-pro.com/node/3199/revisions/25944/view
 -- Date: 2014-04-24 06:43
 -- Who: Hendo72
 -- Log: Valley of Trials
