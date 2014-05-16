@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2014-05-14 22:46
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3293/revisions/25666/view
 -- Date: 2013-05-16 21:03
 -- Who: Fluclo
 -- Log: Wolfsbane Root is to destroy not collect.
@@ -102,7 +107,10 @@
 -- Date: 2010-12-03 22:24
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,75,77)
+WoWPro:GuideNextGuide(guide, "ScoZul7778")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 f Amberpine Lodge |QID|12511|M|31.33,59.16|N|Grab the flightpoint at Vana Grey.|

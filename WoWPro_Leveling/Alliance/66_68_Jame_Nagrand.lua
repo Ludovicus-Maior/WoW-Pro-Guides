@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2014-05-14 22:40
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3279/revisions/25610/view
 -- Date: 2013-05-01 19:01
 -- Who: Twists
 
@@ -92,7 +97,10 @@
 -- Date: 2010-12-03 21:34
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamNag6668", "Nagrand", "Jame", "66", "68", "JamBla6870", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamNag6668", "Nagrand", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,66,68)
+WoWPro:GuideNextGuide(guide, "JamBla6870")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Nagrand|QID|9792|N|Go to Nagrand.|M|20.30,55.60|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2014-05-14 22:23
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3237/revisions/25904/view
 -- Date: 2014-02-28 07:56
 -- Who: Hendo72
 -- Log: Hendo72 - Feb 28/2014
@@ -88,7 +93,10 @@
 -- Date: 2010-12-03 11:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitCap3035', 'The Cape of Stranglethorn', 'Bitsem', '30', '35', 'BitWes3540', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('BitCap3035', 'The Cape of Stranglethorn', 'Bitsem', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'BitWes3540')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 29 |QID|26805|N|You need to be Level 29 to work this guide.|LVL|29|

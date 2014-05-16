@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2014-05-14 22:27
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3244/revisions/25905/view
 -- Date: 2014-03-01 22:24
 -- Who: Hendo72
 -- Log: Added a 'Withdrawn Soul' target button. The Holy Thurible will work as long as you are within range. Even if you are not facing the target. The target button just makes the quest easier.
@@ -101,7 +106,10 @@
 -- Date: 2010-12-03 11:22
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitWes3540', 'Western Plaguelands', 'Bitsem', '35', '40', 'CraEas4045', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('BitWes3540', 'Western Plaguelands', 'Bitsem', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'CraEas4045')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 34 |QID|27161|N|You need to be Level 34 to do this guide.|LVL|34|

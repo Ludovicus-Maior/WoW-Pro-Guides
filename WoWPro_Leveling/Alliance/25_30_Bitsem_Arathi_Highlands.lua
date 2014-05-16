@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2014-05-14 22:20
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3229/revisions/25829/view
 -- Date: 2013-12-02 02:25
 -- Who: Fluclo
 
@@ -68,7 +73,10 @@
 -- Date: 2010-12-03 10:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitAra2025', 'Arathi Highlands', 'Bitsem', '25', '30', 'CraHin3035', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('BitAra2025', 'Arathi Highlands', 'Bitsem', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'CraHin3035')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 26 |QID|26035|LVL|26|N|This guide is recommended for those Level 26 and over.\n\nIt is possible to start this zone at Level 24 (and the Wetlands feed-in quest is Level 23), however some quests  are best done together and need Level 26 to accept. In addition, getting to the two places where Level 24 quests exists has you going through or near Red Level 29 mobs.|

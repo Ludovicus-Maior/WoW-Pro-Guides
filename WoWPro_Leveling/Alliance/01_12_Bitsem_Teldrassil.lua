@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2014-05-14 21:57
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3204/revisions/25588/view
 -- Date: 2013-03-23 20:17
 -- Who: Ludovicus
 -- Log: Name tweak on [The Moss-Twined Heart]
@@ -91,7 +96,10 @@
 -- Date: 2010-12-02 23:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil', 'Bitsem', '01', '10', 'JamDar1320', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('BitTel0110', 'Teldrassil', 'Bitsem', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'JamDar1320')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A The Balance of Nature|QID|28713|M|57.97,39.19|N|From Ilthalaine.|

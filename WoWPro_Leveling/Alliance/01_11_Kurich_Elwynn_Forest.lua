@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2014-05-14 21:47
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3197/revisions/25628/view
 -- Date: 2013-05-14 15:48
 -- Who: Ludovicus
 -- Log: Corrected coords for C [The Fargodeep Mine]
@@ -121,7 +125,10 @@
 -- Date: 2010-12-02 09:42
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest(Human)", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
+local guide = WoWPro:RegisterGuide("KurElw0111", "Elwynn Forest(Human)", "Kurich", "Alliance")
+WoWPro:GuideLevels(guide,1,11)
+WoWPro:GuideNextGuide(guide, "BitWes1020")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|R|Human|N|From Marshal McBride.|

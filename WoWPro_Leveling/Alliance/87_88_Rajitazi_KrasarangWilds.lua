@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2014-05-14 22:52
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3488/revisions/25763/view
 -- Date: 2013-09-17 14:18
 -- Who: Fluclo
 -- Log: Fix QID on initial step, and added Level step at beginning of guide.
@@ -88,7 +93,10 @@
 -- Who: Ludovicus
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-WoWPro.Leveling:RegisterGuide('RajKra8788', 'Krasarang Wilds', 'Rajitazi', '87', '88', 'EmmKun8889', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('RajKra8788', 'Krasarang Wilds', 'Rajitazi', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'EmmKun8889')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 86 |QID|30080|LVL|86|N|You need to be Level 86 to do this guide.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2014-05-14 22:09
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3216/revisions/25902/view
 -- Date: 2014-02-18 00:01
 -- Who: Fluclo
 
@@ -115,7 +120,10 @@
 -- Date: 2010-12-03 07:29
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjLoc1220', 'Loch Modan', 'Wkjezz', '12', '20', 'WkjWet2025', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjLoc1220', 'Loch Modan', 'Wkjezz', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'WkjWet2025')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 10 |QID|26854|LVL|10|N|This guide requires a minimum level of 10 to do.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2014-05-14 21:59
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3206/revisions/25931/view
 -- Date: 2014-04-14 19:35
 -- Who: Ludovicus
 -- Log: Add missing Panda tags.
@@ -119,7 +124,10 @@
 -- Date: 2010-12-02 23:18
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
+local guide = WoWPro:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "Alliance")
+WoWPro:GuideLevels(guide,1,12)
+WoWPro:GuideNextGuide(guide, "SveBlo1220")
+WoWPro:GuideSteps(guide, function()
 return [[
 R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
 f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|

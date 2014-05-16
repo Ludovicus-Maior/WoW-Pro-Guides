@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2014-05-14 22:34
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3265/revisions/25743/view
 -- Date: 2013-08-15 23:18
 -- Who: Ludovicus
 -- Log: added panda support for [A Perfect Costume].
@@ -51,7 +56,10 @@
 -- Date: 2010-12-03 11:58
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', '50', '52', 'CraSwa5254', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'CraSwa5254')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 H Iron Summit|QID|28514|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|

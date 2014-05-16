@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2014-05-14 22:39
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3277/revisions/25745/view
 -- Date: 2013-08-15 23:23
 -- Who: Ludovicus
 -- Log: Add missing coords around [Terokkarantula] quests.
@@ -88,7 +93,10 @@
 -- Date: 2010-12-03 21:21
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamTer6466", "Terokkar Forest", "Jame", "64", "66", "JamNag6668", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamTer6466", "Terokkar Forest", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,64,66)
+WoWPro:GuideNextGuide(guide, "JamNag6668")
+WoWPro:GuideSteps(guide, function()
 return [[
 F Shattrath City|QID|10211|N|Fly to Shattrath City.|M|41.28,28.98|Z|Zangarmarsh|
 A A'dal|Z|Shattrath City|QID|10210|M|59.70,41.45|N|From Haggard War Veteran.|

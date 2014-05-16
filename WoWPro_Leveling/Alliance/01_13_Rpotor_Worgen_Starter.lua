@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2014-05-14 22:02
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3211/revisions/25627/view
 -- Date: 2013-05-14 15:43
 -- Who: Ludovicus
 -- Log: Changed name from [Arcane Missiles] to [Frost Nova]
@@ -167,7 +172,10 @@
 -- Date: 2010-12-03 07:17
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
+local guide = WoWPro:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "Alliance")
+WoWPro:GuideLevels(guide,1,13)
+WoWPro:GuideNextGuide(guide, "JamDar1320")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Zone is Ruins of Gilneas City

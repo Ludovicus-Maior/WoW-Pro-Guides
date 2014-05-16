@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2014-05-14 22:33
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3259/revisions/25368/view
 -- Date: 2013-01-12 19:08
 -- Who: Ludovicus
 -- Log: Added CN and CS tags
@@ -69,7 +74,10 @@
 -- Date: 2010-12-03 11:48
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', '45', '50', 'JiyUng5055', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'JiyUng5055')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 44 |QID|27446|LVL|44|N|You need to be Level 44 to work this guide.|
