@@ -433,11 +433,15 @@ function WoWPro:NextStep(k,i)
 	        for l=1,numquesttext do
 		        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[k]))
 		        local lcomplete = false
-		        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
-			        if lquesttext == objective then --if the objective matches the step's criteria, mark true
-				        lcomplete = true
-			        end
-		        end
+		        if tonumber(lquesttext) then
+		            lcomplete = WoWPro.QuestLog[QID].ocompleted[tonumber(lquesttext)]
+		        else
+    		        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
+    			        if lquesttext == objective then --if the objective matches the step's criteria, mark true
+    				        lcomplete = true
+    			        end
+    		        end
+    		    end
 		        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
 	        end
 	        --if the step has not been found to be incomplete, run the completion function
@@ -873,6 +877,7 @@ function WoWPro:PopulateQuestLog()
 		local questTitle, level, questTag, suggestedGroup, isHeader, 
 			isCollapsed, isComplete, isDaily, questID, startEvent, displayQuestID = GetQuestLogTitle(i)
 		local leaderBoard
+		local ocompleted
 		if not questTitle and (num < numQuests) then
 		     WoWPro:Error("PopulateQuestLog: return value from GetQuestLogTitle(%d) is nil.",i)
 		end
@@ -893,11 +898,15 @@ function WoWPro:PopulateQuestLog()
 			end	    
 		elseif questTitle and not WoWPro.QuestLog[questID] then
 			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
-				leaderBoard = {} 
+				leaderBoard = {}
+				ocompleted = {}
 				for j=1,GetNumQuestLeaderBoards(i) do 
-					leaderBoard[j] = GetQuestLogLeaderBoard(j, i)
+					leaderBoard[j], _, ocompleted[j] = GetQuestLogLeaderBoard(j, i)
 				end 
-			else leaderBoard = nil end
+			else
+			    leaderBoard = nil
+			    ocompleted = nil
+			end
 			local link, icon, charges = GetQuestLogSpecialItemInfo(i)
 			local use
 			if link then
@@ -916,6 +925,7 @@ function WoWPro:PopulateQuestLog()
 				tag = questTag or "Standard",
 				group = suggestedGroup,
 				complete = isComplete or false,
+				ocompleted = ocompleted,
 				daily = isDaily or false,
 				leaderBoard = leaderBoard,
 				header = currentHeader,
