@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2014-05-16 21:12
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3272/revisions/25935/view
 -- Date: 2014-04-14 19:40
 -- Who: Ludovicus
 -- Log: Coord and flight point tweaks.
@@ -51,7 +55,10 @@
 -- Date: 2010-12-03 12:10
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamHel6063", "Hellfire Peninsula", "Jame", "60", "63", "JamZan6365", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamHel6063", "Hellfire Peninsula", "Jame", "Horde")
+WoWPro:GuideLevels(guide,60,63)
+WoWPro:GuideNextGuide(guide, "JamZan6365")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Through the Dark Portal|QID|9407|LEAD|10120|M|54.42,50.56|N|From Warlord Dar'toon.|Z|Blasted Lands|

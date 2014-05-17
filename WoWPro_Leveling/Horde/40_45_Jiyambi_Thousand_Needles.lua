@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2014-05-16 22:08
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3254/revisions/25748/view
 -- Date: 2013-08-16 19:46
 -- Who: Ludovicus
 -- Log: Minor QID fixes.
@@ -39,7 +43,10 @@
 -- Date: 2010-12-03 11:38
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyTho4045', 'Thousand Needles', 'Jiyambi', '40', '45', 'JiyTan4550', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyTho4045', 'Thousand Needles', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,40,45)
+WoWPro:GuideNextGuide(guide, 'JiyTan4550')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|

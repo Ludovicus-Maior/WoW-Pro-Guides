@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2014-05-16 21:10
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3278/revisions/25933/view
 -- Date: 2014-04-14 19:37
 -- Who: Ludovicus
 -- Log: Coord tweaks, more C steps, quid updates.
@@ -41,7 +45,10 @@
 -- Date: 2010-12-03 21:30
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamTer6567", "Terokkar Forest", "Jame", "65", "67", "JamNag6769", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamTer6567", "Terokkar Forest", "Jame", "Horde")
+WoWPro:GuideLevels(guide,65,67)
+WoWPro:GuideNextGuide(guide, "JamNag6769")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Shattrath City|QID|10210|N|Fly to Shattrath City.|M|84.76,55.10|Z|Zangarmarsh|

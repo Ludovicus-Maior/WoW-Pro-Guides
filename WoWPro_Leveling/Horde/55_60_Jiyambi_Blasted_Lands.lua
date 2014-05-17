@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2014-05-16 22:02
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3268/revisions/25738/view
 -- Date: 2013-08-03 07:56
 -- Who: Emmaleah
 -- Log: Change QID 25685 The First Step to CS (from CC)
@@ -41,7 +45,10 @@
 -- Date: 2010-12-03 12:02
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyBla5560', 'Blasted Lands', 'Jiyambi', '55', '60', 'JamHel6063', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyBla5560', 'Blasted Lands', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,55,60)
+WoWPro:GuideNextGuide(guide, 'JamHel6063')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 T Warchief's Command: Blasted Lands!|QID|28671|M|40.47,11.65|N|To Okrilla.|O|

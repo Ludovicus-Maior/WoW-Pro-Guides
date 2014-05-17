@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2014-05-16 21:08
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3282/revisions/25928/view
 -- Date: 2014-04-14 19:29
 -- Who: Ludovicus
 -- Log: Coodinate cleanups.
@@ -46,7 +50,10 @@
 -- Date: 2010-12-03 21:37
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamBla6970", "Blade's Edge Mountains", "Jame", "65", "68", "JamHow7071", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamBla6970", "Blade's Edge Mountains", "Jame", "Horde")
+WoWPro:GuideLevels(guide,65,68)
+WoWPro:GuideNextGuide(guide, "JamHow7071")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Zabra'jin|QID|10928|N|Fly to Zabra'jin.|

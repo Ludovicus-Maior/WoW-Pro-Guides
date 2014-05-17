@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2014-05-16 22:04
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3266/revisions/25454/view
 -- Date: 2013-01-13 17:55
 -- Who: Ludovicus
 -- Log: Added C* tags
@@ -43,7 +47,10 @@
 -- Date: 2010-12-03 11:59
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('LiaBur5052', 'Burning Steppes', 'Liavan', '50', '52', 'LiaSwa5255', 'Horde', function()
+local guide = WoWPro:RegisterGuide('LiaBur5052', 'Burning Steppes', 'Liavan', 'Horde')
+WoWPro:GuideLevels(guide,50,52)
+WoWPro:GuideNextGuide(guide, 'LiaSwa5255')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 T Mouton Flamestar|QID|28515|M|17.13,51.32|N|To Mouton Flamestar.|

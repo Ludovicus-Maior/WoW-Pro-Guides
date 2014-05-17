@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
+-- Date: 2014-05-16 20:33
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3300/revisions/25578/view
 -- Date: 2013-03-23 19:04
 -- Who: Ludovicus
 -- Log: quest name tweak
@@ -29,7 +33,10 @@
 -- Date: 2010-12-03 22:33
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("ScoSto7980", "The Storm Peaks", "Scoot", "79", "80", "ScoIce8080", "Horde", function()
+local guide = WoWPro:RegisterGuide("ScoSto7980", "The Storm Peaks", "Scoot", "Horde")
+WoWPro:GuideLevels(guide,79,80)
+WoWPro:GuideNextGuide(guide, "ScoIce8080")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Read Please |QID|12853| |N|This guide will get you the Achievement The Summit of Storm Peaks.  Set your Hearth anywhere you want. Sell/Repair/Restock when you think you need to.|
