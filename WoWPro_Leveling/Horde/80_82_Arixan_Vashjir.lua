@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2014-05-16 20:29
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3306/revisions/25873/view
 -- Date: 2014-01-23 00:21
 -- Who: Ludovicus
 -- Log: Corrected some Z tags
@@ -97,7 +101,10 @@
 -- Date: 2010-12-03 23:05
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriVasH8082', "Vash'jir", 'Arixan', '80', '82', 'AriDee8283', 'Horde', function()
+local guide = WoWPro:RegisterGuide('AriVasH8082', "Vash'jir", 'Arixan', 'Horde')
+WoWPro:GuideLevels(guide,80,82)
+WoWPro:GuideNextGuide(guide, 'AriDee8283')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Warchief's Command: Vashj'ir!|QID|27718|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|

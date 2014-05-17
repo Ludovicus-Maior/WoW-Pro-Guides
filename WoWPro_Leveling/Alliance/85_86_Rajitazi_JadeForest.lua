@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2014-05-14 22:51
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25940/view
 -- Date: 2014-04-21 08:48
 -- Who: Hendo72
 -- Log: - Added 'Restore Balance' achievement. Considering adding a rank command for achievement steps.
@@ -133,7 +138,10 @@
 -- Who: Ludovicus
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-WoWPro.Leveling:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', '85', '86', 'EmmVal8688', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'EmmVal8688')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 85 |QID|29547|LVL|85|N|You need to be Level 85 to do this guide.|

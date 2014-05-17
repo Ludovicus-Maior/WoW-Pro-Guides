@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2014-05-16 22:06
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3258/revisions/25480/view
 -- Date: 2013-01-13 19:48
 -- Who: Ludovicus
 -- Log: Added C* tags
@@ -41,7 +45,10 @@
 -- Date: 2010-12-03 11:45
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyFel4550', 'Felwood', 'Jiyambi', '45', '50', 'JiyWin5055', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyFel4550', 'Felwood', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,45,50)
+WoWPro:GuideNextGuide(guide, 'JiyWin5055')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Emerald Sanctuary|QID|27997|M|51.1,80.5|N|In Felwood.|

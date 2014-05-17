@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2014-05-16 21:09
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3280/revisions/25936/view
 -- Date: 2014-04-14 19:41
 -- Who: Ludovicus
 -- Log: Coord tweaks as I played through.  Incomplete.
@@ -45,12 +49,15 @@
 -- Date: 2010-12-03 21:35
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamNag6769", "Nagrand", "Jame", "67", "69", "JamBla6970", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamNag6769", "Nagrand", "Jame", "Horde")
+WoWPro:GuideLevels(guide,67,69)
+WoWPro:GuideNextGuide(guide, "JamBla6970")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .|Z|Terokkar Forest|M|20,56|
 N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide.|
-C A Head Full of Ivory |QID|9914|N|Kill and loot Elekks. Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|REP|The Consortium;933;Neutral|
+C A Head Full of Ivory |QID|9914|N|Kill and loot only "Wild Elekks". Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|REP|The Consortium;933;Neutral|T|Wild Elekk|
 l Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|S|L|24504|
 A I Must Have Them! |QID|10109|N|From Wazat. He's in Clan Watch in southern Nagrand.|M|62.1,67.2|
 l I Must Have Them!|N|Kill Air Elementals until you get 3x Air Elemental Gas.|QID|10109|M|69.4,56.9|S|L|27807 3|
@@ -232,10 +239,10 @@ A Gava'xi |QID|9900|M|30.8,58.1|N|From Zerid.|
 T The Consortium Needs You! |QID|9913|M|31.4,57.8|N|To Gezhe.|
 A Stealing from Thieves |QID|9882|M|31.4,57.8|N|From Gezhe.|REP|The Consortium;933;Neutral|
 A A Head Full of Ivory|QID|9914|N|From Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
-T A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
+t A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
 
-l Murkblood Invasion Plans |QID|9871|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24558|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|CN|
-A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9871|U|24558|M|28.3,53.4|
+l Murkblood Invasion Plans |QID|9872|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24558|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|CN|
+A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9872|U|24558|M|28.3,53.4|
 l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|REP|The Consortium;933;Neutral|
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
 C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|REP|The Consortium;933;Neutral|
@@ -286,8 +293,27 @@ A Message to Garadar |QID|9934|M|73.8,62.6|N|From Lantresor of the Blade.|
 C The Ultimate Bloodsport |QID|9852|N|She's on top of a hill.|M|43,65|
 C Wanted: Durn the Hungerer |QID|9937|N|He patrols around Oshu'gun. He's very, very large.|
 T Wanted: Durn the Hungerer |QID|9937|M|55.8,37.9|N|To Warden Bullrok.|
-T Message to Garadar |QID|9934|M|55.5,37.5|N|To .|
-T The Ultimate Bloodsport |QID|9852|M|71.5,40.8|N|To .|
+T Message to Garadar |QID|9934|M|55.5,37.5|N|To Garrosh.|
+T The Ultimate Bloodsport |QID|9852|M|71.5,40.8|N|To Hemet.|
+
+A The Ring of Blood: Brokentoe|QID|9962|M|42.78,20.73|N|From Gurgthock.  This questline can be soloed by the well geared at level 68, depending on class.  Groups of 2 or 3 are quite fine.|
+K Brokentoe|QID|9962|N|A ferocious Clefthoof. Just a nasty clefthoof.|QO|1|
+T The Ring of Blood: Brokentoe|QID|9962|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: The Blue Brothers|QID|9967|M|42.78,20.73|N|From Gurgthock.|
+K The Blue Brothers|QID|9967|N|The Murkblood Twins. Immune to sheep.|QO|1|
+T The Ring of Blood: The Blue Brothers|QID|9967|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: Rokdar the Sundered Lord|QID|9970|M|42.78,20.73|N|From Gurgthock.|
+K Rokdar the Sundered Lord|QID|9970|N|A Rock Giant.  Does a knock-back.|QO|1|
+T The Ring of Blood: Rokdar the Sundered Lord|QID|9970|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: Skra'gath|QID|9972|M|42.78,20.73|N|From Gurgthock.|
+K Skra'gath|QID|9972|N|Void Lord. Resistant to the first school of magic used against him.|QO|1|
+T The Ring of Blood: Skra'gath|QID|9972|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: The Warmaul Champion|QID|9973|M|42.78,20.73|N|From Gurgthock.|
+K Warmaul Champion|QID|9973|N|The Warmaul guy has a nasty 2 second stun and a long lasting cleave. The hardest.|QO|1|
+T The Ring of Blood: The Warmaul Champion|QID|9973|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: The Final Challenge|QID|9977|M|42.78,20.73|N|From Gurgthock.|
+K Mogor|QID|9977|N|A two headed caster that self-heals (which you should interrupt).|QO|1|
+T The Ring of Blood: The Final Challenge|QID|9977|M|42.78,20.68|N|To Wodin the Troll-Servant.  Consider your choice carefully, as these are valuable for transmorg!|
 
 N Loremaster|N|If you want the quest acheivement for Nagrand, head to Altruis.|
 
@@ -309,7 +335,7 @@ l Fel Cannon Activator|QID|10011|L|25771|M|19.54,51.17|N|Kill and loot Xirkos, O
 C Forge Camp: Annihilated|QID|10011|U|25771|M|19.31,50.86|N|Use the Fel Cannon Activator next to the Fel Cannon: Fear.|
 T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
 
-N The rest...|N|The following quests Altruis gives (after this note), have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
+N The rest...|N|The following quests Altruis gives (after this note), require level 68 have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
 A Against the Legion|QID|10641|M|27.35,43.06|N|From Altruis the Sufferer.|
 A Against the Illidari|QID|10668|M|27.35,43.06|N|From Altruis the Sufferer.|
 A Against All Odds|QID|10669|M|27.35,43.06|N|From Altruis the Sufferer.|

@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2014-05-16 20:27
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3487/revisions/25837/view
 -- Date: 2013-12-11 03:05
 -- Who: Fluclo
 -- Log: The Art of War has two different quest IDs, depending on progress in Vashj'ir; Added some C steps to the first few quests; Corrected some coordinates and zone placements; Added lots of notes to various steps; Fixed typos.
@@ -88,7 +92,10 @@
 -- Who: Ludovicus
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-WoWPro.Leveling:RegisterGuide('EmmJad8586', 'The Jade Forest', 'Emmaleah', '85', '86', 'EmmVal8688', 'Horde', function()
+local guide = WoWPro:RegisterGuide('EmmJad8586', 'The Jade Forest', 'Emmaleah', 'Horde')
+WoWPro:GuideLevels(guide,85,86)
+WoWPro:GuideNextGuide(guide, 'EmmVal8688')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 85 |QID|29611;29612|LVL|85|N|You need to be Level 85 to do this guide.|

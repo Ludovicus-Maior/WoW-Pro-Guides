@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2014-05-14 22:41
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3281/revisions/25404/view
 -- Date: 2013-01-13 01:22
 -- Who: Ludovicus
 -- Log: Added a CS tag
@@ -57,7 +62,10 @@
 -- Date: 2010-12-03 21:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor6872", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,68,70)
+WoWPro:GuideNextGuide(guide, "JamBor6872")
+WoWPro:GuideSteps(guide, function()
 return [[
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock at your repective faction.|

@@ -150,9 +150,9 @@ class FindSource(HTMLParser):
         if self._Done: return
         data = string.strip(data)
         if not self._inGuide :
-            mo = re.search('WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*"([^"]+)"',data)
+            mo = re.search("""WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*["']([^"']+)["']""",data)
             if not mo:
-                mo = re.search("WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*'([^']+)'",data)
+                mo = re.search("""WoWPro:RegisterGuide\s*\(\s*["']([^"']+)["']""",data)
             if mo:
                 self._guideID = mo.group(1)
                 self._inGuide = True
@@ -365,9 +365,9 @@ def ScrapeWoWProLua(lua):
     file=open(lua,"rU")
     _guideID = ""
     for line in file:
-        mo = re.search('WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*"([^"]+)"',line)
+        mo = re.search("""WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*["']([^"']+)["']""",line)
         if not mo:
-            mo = re.search("WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*'([^']+)'",line)
+            mo = re.search("""WoWPro:RegisterGuide\s*\(\s*["']([^"']+)["']""",line)
         if mo:
             _guideID = mo.group(1)
             if Guide2File.has_key(_guideID):

@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-05-14 22:05
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3200/revisions/25951/view
+-- Date: 2014-05-14 21:54
+-- Who: Ludovicus
+-- Log: New register guide.
+
+-- URL: http://wow-pro.com/node/3200/revisions/25950/view
+-- Date: 2014-05-14 21:51
+-- Who: Ludovicus
+-- Log: New Guide Registration
+
+-- URL: http://wow-pro.com/node/3200/revisions/25638/view
 -- Date: 2013-05-14 18:52
 -- Who: Ludovicus
 -- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
@@ -245,7 +260,10 @@
 -- Date: 2010-12-02 21:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('GamDun0510', 'Dun Morogh', 'Gameldar', '05', '10', 'WkjLoc1220', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('GamDun0510', 'Dun Morogh', 'Gameldar', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'WkjLoc1220')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Beer Basted Boar Ribs|QID|384|M|53.89,50.79|N|From Ragnar Thunderbrew. Kill any boars you see from now on for Tender Boar Meat.|

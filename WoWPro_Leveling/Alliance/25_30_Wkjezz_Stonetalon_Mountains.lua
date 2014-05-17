@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2014-05-14 22:22
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3233/revisions/25589/view
 -- Date: 2013-03-23 20:19
 -- Who: Ludovicus
 -- Log: name cleanups
@@ -56,7 +61,10 @@
 -- Date: 2010-12-03 10:43
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjSton2530', 'Stonetalon Mountains', 'WKjezz', '25', '30', 'WkjDes3035', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjSton2530', 'Stonetalon Mountains', 'WKjezz', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'WkjDes3035')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 24 |N|You need to be Level 24 to work this guide.|QID|25614|LVL|24|

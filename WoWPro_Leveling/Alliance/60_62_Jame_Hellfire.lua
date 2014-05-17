@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2014-05-14 22:38
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3271/revisions/25744/view
 -- Date: 2013-08-15 23:21
 -- Who: Ludovicus
 -- Log: Use a better quest for the run to Temple of Telhamat.
@@ -78,7 +83,10 @@
 -- Date: 2010-12-03 12:09
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamHel6062", "Hellfire Peninsula", "Jame", "60", "62", "JamZan6264", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamHel6062", "Hellfire Peninsula", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,60,62)
+WoWPro:GuideNextGuide(guide, "JamZan6264")
+WoWPro:GuideSteps(guide, function()
 return [[
 R Portal to the Blasted Lands|QID|10119|N|By the Portal Trainer |Z|Stormwind City|M|50.3,86|
 B Nethergarde Bitter |QID|10119|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. |M|59.40,14.89|Z|Blasted Lands|

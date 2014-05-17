@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2014-05-14 22:50
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3311/revisions/25535/view
 -- Date: 2013-02-18 06:32
 -- Who: Emmaleah
 -- Log: corrected Coords for C Wings over Highbank.
@@ -104,7 +109,10 @@
 -- Date: 2010-12-03 23:28
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('MagTwi8485', 'Twilight Highlands', 'Melliandra', '84', '85', nil, 'Alliance', function()
+local guide = WoWPro:RegisterGuide('MagTwi8485', 'Twilight Highlands', 'Melliandra', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 84 |QID|28716|LVL|84|N|You need to be Level 84 to do this guide.|

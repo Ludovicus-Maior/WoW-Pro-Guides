@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2014-05-14 22:14
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3215/revisions/25960/view
+-- Date: 2014-05-14 22:12
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3215/revisions/25806/view
 -- Date: 2013-11-18 21:47
 -- Who: Fluclo
 -- Log: Correcting LVL and QID for Level and zone directions
@@ -76,7 +86,10 @@
 -- Date: 2010-12-03 07:27
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", "TwiDus2025", "Alliance", function()
+local guide = WoWPro:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "Alliance")
+WoWPro:GuideLevels(guide,15,20)
+WoWPro:GuideNextGuide(guide, "TwiDus2025")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 14 |QID|26506|LVL|14|N|This guide requires a minimum level of 14 to do.|

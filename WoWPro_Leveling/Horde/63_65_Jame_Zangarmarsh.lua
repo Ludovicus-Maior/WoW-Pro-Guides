@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2014-05-16 21:11
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3274/revisions/25573/view
 -- Date: 2013-03-23 18:57
 -- Who: Ludovicus
 -- Log: Corrected name of [Keep Thornfang Hill Clear!]
@@ -35,7 +39,10 @@
 -- Date: 2010-12-03 12:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "63", "65", "JamTer6567", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "Horde")
+WoWPro:GuideLevels(guide,63,65)
+WoWPro:GuideNextGuide(guide, "JamTer6567")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Swamprat Post|QID|9775|N|Fly to Swamprat Post.|

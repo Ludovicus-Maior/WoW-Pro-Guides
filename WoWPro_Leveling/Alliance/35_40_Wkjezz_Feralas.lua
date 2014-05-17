@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2014-05-14 22:29
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3243/revisions/25428/view
 -- Date: 2013-01-13 15:10
 -- Who: Ludovicus
 -- Log: Added CS and CN tags
@@ -31,7 +36,10 @@
 -- Date: 2010-12-03 11:20
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjFer3540', 'Feralas', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjFer3540', 'Feralas', 'WKjezz', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'WkjTho4045')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Feralas|QID|14410|M|42.81,97.92|Z|Desolace|N|Run to Feralas.|

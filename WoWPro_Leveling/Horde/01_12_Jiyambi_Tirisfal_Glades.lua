@@ -4,6 +4,27 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2014-05-09 19:15
+-- Who: Hendo72
+-- Log: - reapplied changes as I forgot to update the code with my changes... DOH!
+
+-- URL: http://wow-pro.com/node/3205/revisions/25947/view
+-- Date: 2014-05-09 19:09
+-- Who: Hendo72
+-- Log: - Updated 'Shadow Grave' quest. Improved coordinates and notes.
+--	
+--	- Broke 'The Awakening' quest down into steps and moved quest acceptance down for better flow.
+--	
+--	- reworded 'Recruitment' C step note.
+--	
+--	- Added an r step at the first vendor you come to.
+--	
+--	- Improved 'Ever So Lonely' C step note.
+--	
+--	- Changed Bulwark R step to an F step as you can fly there and removed f step as you already have the FP.
+--	
+
+-- URL: http://wow-pro.com/node/3205/revisions/25854/view
 -- Date: 2013-12-26 21:16
 -- Who: Ludovicus
 -- Log: QID corrections and fixups for goblins in the zone.
@@ -85,14 +106,18 @@ A Fresh out of the Grave|QID|24959|M|29.41,70.96|R|Undead|N|From Agatha.|
 T Fresh out of the Grave|QID|24959|M|30.04,71.27|R|Undead|N|To Undertaker Mordo.|
 
 A The Shadow Grave|QID|28608|M|30.04,71.27|R|Undead|N|From Undertaker Mordo.|
-C The Shadow Grave|QID|28608|NC|M|30.33,72.24;30.33,72.84;29.69,71.99|R|Undead|N|Head down into the crypt and right-click the thread and the vial of green liquid.|
-T The Shadow Grave|QID|28608|M|30.00,72.82;30.31,72.87;30.08,71.33|R|Undead|N|To Undertaker Mordo.|
+C The Shadow Grave|QID|28608|NC|M|30.33,72.24;29.69,71.99|CS|R|Undead|N|Head down the stairs into the crypt and over to the table in the corner. Click on the thread and the vial of green liquid.|
+T The Shadow Grave|QID|28608|M|30.1,71.3|R|Undead|N|Leave the Crypt and return to Undertaker Mordo.| ;Removed extra coordinates - not required.
 
-A Those That Couldn't Be Saved|QID|26799|M|30.08,71.33|R|Undead|N|From Undertaker Mordo.|
-A The Wakening|QID|24960|M|30.65,71.46|R|Undead|N|From Caretaker Caice.|
-
+A Those That Couldn't Be Saved|QID|26799|M|30.08,71.33|R|Undead|N|From Undertaker Mordo.
 C Those That Couldn't Be Saved|QID|26799|S|M|30.80,70.07|R|Undead|N|Kill zombies.|
-C The Wakening|QID|24960|NC|M|29.41,69.63;30.25,69.06;30.80,69.15|R|Undead|N|Right-click on the forsaken with the yellow arrows above them, and go through their conversation.|
+
+A The Wakening|QID|24960|M|30.65,71.46|R|Undead|N|From Caretaker Caice. Speak with the Forsaken at each waypoint and go through their conversation.|
+
+C The Wakening|QID|24960|NC|M|30.2,69.0|QO|Speak with Lilian Voss: 1/1|R|Undead|
+C The Wakening|QID|24960|NC|M|30.8,69.2|QO|Speak with Marshal Redpath: 1/1|R|Undead|
+C The Wakening|QID|24960|NC|M|29.4,69.6|R|Undead|N|Speak with Valdred Moray to finish up the quest.|
+
 C Those That Couldn't Be Saved|QID|26799|US|M|30.80,70.07|R|Undead|N|Kill zombies.|
 
 T The Wakening|QID|24960|M|30.65,71.40|R|Undead|N|To Caretaker Caice.|
@@ -107,7 +132,7 @@ A Recruitment|QID|26800|M|31.74,65.66|R|Undead|N|From Deathguard Saltain.|
 A Scourge on our Perimeter|QID|26801|M|30.86,66.20|N|From Shadow Priest Sarvis.|
 
 C Scourge on our Perimeter|QID|26801|S|M|32.00,62.01|N|Kill zombies and skeletons.|
-C Recruitment|QID|26800|NC|M|32.57,64.19|R|Undead|N|Right-click on bodies to tell your companion to collect them.|
+C Recruitment|QID|26800|NC|M|32.57,64.19|R|Undead|N|Click on the Scarlet Corpses with the yellow arrow pointing at them to pick them up.|
 C Scourge on our Perimeter|QID|26801|US|M|32.00,62.01|N|Kill zombies and skeletons.|
 
 T Recruitment|QID|26800|M|31.63,65.61|R|Undead|N|To Deathguard Saltain.|
@@ -186,6 +211,7 @@ A Vital Intelligence|QID|24972|M|30.88,66.20|N|From Shadow Priest Sarvis.|
 L Level 5|QID|24971|LVL|5|N|You should be around level 5 by this point.|
 
 R Calston Estate|QID|24978|M|44.70,53.60|N|Follow the road out of Deathknell.|
+r Empty your bags|QID|24972|M|44.5,53.2|N|You won't have to repair yet. But, with only 1 bag right now, you'll need to empty it.|
 T Vital Intelligence|QID|24972|M|44.70,53.60|N|To Deathguard Simmer.|
 
 A Reaping the Reapers|QID|24978|M|44.70,53.60|N|From Deathguard Simmer.|
@@ -214,7 +240,7 @@ A A Scarlet Letter|QID|24979|U|52079|M|34.91,48.45|N|Right-click the item you ju
 C A Scarlet Letter|QID|24979|NC|M|31.69,46.13|N|Go to the top of the tower and talk to Lilian. Watch the scene.|
 C The Scarlet Palisade|QID|24980|US|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
 C Briny Sea Cucumber|QID|24976|NC|QO|Briny Sea Cucumber: 8/8|M|33.19,43.14|N|Collect Sea Cucumbers from the ocean floor. Watch out for the rare level 10 murloc who roams the area - he's probably a bit too strong for you!|
-C Ever So Lonely|QID|24974|U|52059|QO|Vile Fin captured: 1/1|M|35.06,44.67|N|Use the murloc leash on a murloc after you beat it down.|
+C Ever So Lonely|QID|24974|U|52059|QO|Vile Fin captured: 1/1|M|35.06,44.67|N|Use the murloc leash on a murloc after you beat it down to 25%. \nDon't wait too long to return. You only have 10 minutes before he dies.|
 C Xavren's Thorn|QID|24976|NC|QO|Xavren's Thorn: 4/4|M|33.19,43.14|N|Collect Xavren's Thorn on the cliffs above the beach.|
 C Ever So Lonely|QID|24974|NC|U|52059|M|44.72,53.68|N|Head back to the Carlston Estate and head upstairs to turn in the murloc to Carlston.|
 
@@ -372,9 +398,12 @@ A East... Always to the East|QID|25007|M|60.99,50.55|N|From Magistrate Sevren.|
 
 r Repair/Restock/Trainer|QID|25007|
 
-R The Bulwark|QID|25007|M|83.57,69.93|N|At the eastern-most point in the zone.|
+; You can fly to The Bulwark.
+; R The Bulwark|QID|25007|M|83.57,69.93|N|At the eastern-most point in the zone.|
+F The Bulwark|QID|25007|M|58.8, 51.8|N|At Anette Williams|
 
-f The Bulwark|QID|25007|N|From Timothy Cunningham.|M|83.55,69.97|
+;You should already have this FP - not sure why, but, you do.
+;f The Bulwark|QID|25007|N|From Timothy Cunningham.|M|83.55,69.97|
 
 h The Bulwark|QID|25046|M|83.08,71.93|N|At Provisioner Elda.|
 

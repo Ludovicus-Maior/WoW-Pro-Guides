@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2014-05-14 22:28
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3241/revisions/25420/view
 -- Date: 2013-01-13 14:54
 -- Who: Ludovicus
 -- Log: Added CN tags
@@ -84,7 +89,10 @@
 -- Date: 2010-12-03 11:15
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjDus3540', 'Dustwallow Marsh', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjDus3540', 'Dustwallow Marsh', 'WKjezz', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'WkjTho4045')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N This Guide|QID|27251|N|Picks up directly from where Southern Barrens leaves off. If you did not do Southern Barrens, you can take the Hero's Call quest from Darnassus, Exodar or Stormwind instead.  Either make your way to Fort Triumph and run to Theramore or sail from Wetlands.  (Manually close this step by right clicking the check box)|

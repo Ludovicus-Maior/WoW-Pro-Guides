@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2014-05-14 22:32
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3257/revisions/25582/view
 -- Date: 2013-03-23 20:00
 -- Who: Ludovicus
 -- Log: quest name tweak
@@ -44,7 +49,10 @@
 -- Date: 2010-12-03 11:44
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', '45', '50', 'JiyWin5055', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'JiyWin5055')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Note|QID|28100|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|

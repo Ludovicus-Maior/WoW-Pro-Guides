@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2014-05-14 22:21
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3231/revisions/25435/view
 -- Date: 2013-01-13 15:26
 -- Who: Ludovicus
 -- Log: Added C* tags
@@ -41,7 +46,10 @@
 -- Date: 2010-12-03 10:33
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('SavNorStr2530', 'Northern Stranglethorn', 'Savagefool', '25', '30', 'BitCap3035', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('SavNorStr2530', 'Northern Stranglethorn', 'Savagefool', 'Alliance')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'BitCap3035')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 24 |LVL|24|QID|26740|N|You need to be level 24 to do this guide.|

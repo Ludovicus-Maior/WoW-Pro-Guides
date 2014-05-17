@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2014-05-14 22:47
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3299/revisions/25684/view
 -- Date: 2013-05-18 19:17
 -- Who: Fluclo
 
@@ -45,7 +50,10 @@
 -- Date: 2010-12-03 22:32
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "EstIce7985", "Alliance", function()
+local guide = WoWPro:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "Alliance")
+WoWPro:GuideLevels(guide,79,80)
+WoWPro:GuideNextGuide(guide, "EstIce7985")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 77 |QID|12818|N|You need to be Level 77 to do this guide.|LVL|77|
