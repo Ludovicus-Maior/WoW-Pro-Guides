@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2014-05-17 16:49
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3245/revisions/25456/view
 -- Date: 2013-01-13 18:03
 -- Who: Ludovicus
 -- Log: Added CN tags
@@ -31,7 +36,10 @@
 -- Date: 2010-12-03 11:23
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyFer3540', 'Feralas', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyFer3540', 'Feralas', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,35,40)
+WoWPro:GuideNextGuide(guide, 'JiyTho4045')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Camp Ataya|QID|25339|M|57.71,49.74|N|Fly to Camp Ataya in Feralas.|Z|Desolace|

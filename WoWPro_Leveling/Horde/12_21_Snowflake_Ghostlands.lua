@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2014-05-17 17:21
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3221/revisions/25867/view
 -- Date: 2014-01-12 23:34
 -- Who: Ludovicus
 -- Log: Error pointed out by Taraca on the Pass.  I musta been high.
@@ -86,7 +91,10 @@
 -- Date: 2010-12-03 07:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("SnoGho1221", "Ghostlands", "Snowflake", "12", "21", "AyaHil2025", "Horde", function()
+local guide = WoWPro:RegisterGuide("SnoGho1221", "Ghostlands", "Snowflake", "Horde")
+WoWPro:GuideLevels(guide,12,21)
+WoWPro:GuideNextGuide(guide, "AyaHil2025")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ;This step will not show if you have completed A Somber Task as part of the Eversong Woods guide

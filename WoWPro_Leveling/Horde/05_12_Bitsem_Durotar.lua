@@ -4,6 +4,19 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-05-17 17:45
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3199/revisions/26045/view
+-- Date: 2014-05-17 17:45
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3199/revisions/26039/view
+-- Date: 2014-05-17 17:28
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3199/revisions/25945/view
 -- Date: 2014-04-26 07:51
 -- Who: Hendo72
 -- Log: Echo Isles:
@@ -178,7 +191,10 @@
 -- Date: 2010-12-02 21:14
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitDur0512', 'Durotar', 'Bitsem', '05', '12', 'BitAzs1220', 'Horde', function()
+local guide = WoWPro:RegisterGuide('BitDur0512', 'Durotar', 'Bitsem', 'Horde')
+WoWPro:GuideLevels(guide,05,12)
+WoWPro:GuideNextGuide(guide, 'BitAzs1220')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|

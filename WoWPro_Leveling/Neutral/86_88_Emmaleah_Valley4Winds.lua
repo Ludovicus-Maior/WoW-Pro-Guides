@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2014-05-17 19:02
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3485/revisions/25797/view
 -- Date: 2013-11-11 09:00
 -- Who: Emmaleah
 -- Log: Updated to add new CHAT tag, various other tweaks, better explanations, etc.
@@ -102,8 +106,11 @@
 -- Who: Ludovicus
 -- Log: Initial Version from Emmaleah
 
-WoWPro.Leveling:RegisterGuide('EmmVal8688', 'Valley of the Four Winds', 'Emmaleah', '86', '88', 'RajKra8788|EmmKra8788', 'Neutral', function() return [[
-
+local guide = WoWPro:RegisterGuide('EmmVal8688', 'Valley of the Four Winds', 'Emmaleah', 'Neutral')
+WoWPro:GuideLevels(guide,86,88)
+WoWPro:GuideNextGuide(guide, 'RajKra8788|EmmKra8788')
+WoWPro:GuideSteps(guide, function()
+return [[
 
 N Valley of the Four Winds|QID|29907|N|Make your way to Valley of the Four Winds. Blizzard added a new UI Element called the Special Action button. If you don?t already have a keybinding set for it, you may want to, as some quests use it. Yes, you can just click it, but I think keybindings are easier, its similar to the idea of Vehicle UI, but your regular action bars don't go away, you just get a new button.|
 

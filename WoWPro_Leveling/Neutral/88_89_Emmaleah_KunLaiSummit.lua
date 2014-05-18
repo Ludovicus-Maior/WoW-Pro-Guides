@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2014-05-17 19:00
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3490/revisions/25872/view
 -- Date: 2014-01-19 21:25
 -- Who: Hendo72
 -- Log: Added change note at bottom of the guide which I forgot to do earlier. No other changes were done at this time.
@@ -171,7 +175,10 @@
 -- Who: Ludovicus
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-WoWPro.Leveling:RegisterGuide('EmmKun8889', 'Kun-Lai Summit', 'Emmaleah', '88', '89', 'EmmTow8990|EmmTow8990', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('EmmKun8889', 'Kun-Lai Summit', 'Emmaleah', 'Neutral')
+WoWPro:GuideLevels(guide,88,89)
+WoWPro:GuideNextGuide(guide, 'EmmTow8990|EmmTow8990')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 87 |QID|31254;31255|N|You need to be level 87 or higher to be able to work through this guide.|LVL|87|

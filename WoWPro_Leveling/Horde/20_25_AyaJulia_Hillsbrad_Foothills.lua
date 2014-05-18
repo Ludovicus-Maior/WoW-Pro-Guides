@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
+-- Date: 2014-05-17 17:20
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3223/revisions/25614/view
 -- Date: 2013-05-09 22:16
 -- Who: Ludovicus
 -- Log: Fixed [*Gurgle* HELP! *Gurgle*]
@@ -37,7 +42,10 @@
 -- Date: 2010-12-03 07:38
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AyaHil2025', 'Hillsbrad Foothills', 'Shanyn', '20', '25', 'JiyAra2530', 'Horde', function()
+local guide = WoWPro:RegisterGuide('AyaHil2025', 'Hillsbrad Foothills', 'Shanyn', 'Horde')
+WoWPro:GuideLevels(guide,20,25)
+WoWPro:GuideNextGuide(guide, 'JiyAra2530')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 T Empire of Dirt|QID|27746|M|29.23,63.35|N|To High Executor Darthalia.|O|

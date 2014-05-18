@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2014-05-17 16:40
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3246/revisions/25792/view
 -- Date: 2013-11-05 22:36
 -- Who: Emmaleah
 -- Log: fix based on user submission (in aug... why did we miss this?!?)
@@ -44,7 +49,10 @@
 -- Date: 2010-12-03 11:25
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyWes3540', 'Western Plaguelands', 'Jiyambi', '35', '40', 'CraEas4045', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyWes3540', 'Western Plaguelands', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,35,40)
+WoWPro:GuideNextGuide(guide, 'CraEas4045')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Andorhal|QID|26921|M|46.56,64.71|N|At the center of the Western Plaguelands.|

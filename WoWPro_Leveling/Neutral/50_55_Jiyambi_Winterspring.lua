@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_neutral
+-- Date: 2014-05-17 20:32
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3264/revisions/24962/view
 -- Date: 2012-02-16 20:15
 -- Who: Crackerhead22
 -- Log: Minor tweaks.
@@ -54,7 +59,10 @@
 -- Date: 2010-12-03 11:55
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'CraBla5458|JiyBla5560', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', 'Neutral')
+WoWPro:GuideLevels(guide,50,55New registration guide.)
+WoWPro:GuideNextGuide(guide, 'CraBla5458|JiyBla5560')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Winterspring|QID|28521|M|21.04,46.22|N|Head through the Timbermaw tunnels to Winterspring.|

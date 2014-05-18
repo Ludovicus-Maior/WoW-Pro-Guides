@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-05-17 16:06
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3200/revisions/25955/view
 -- Date: 2014-05-14 22:05
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -256,13 +260,10 @@
 -- Date: 2010-12-02 21:47
 -- Who: Jiyambi
 
--- URL: http://wow-pro.com/node/3200/revisions/23260/view
--- Date: 2010-12-02 21:46
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'WkjLoc1220')
+WoWPro:GuideIcon(guide,"ACH",627)
 WoWPro:GuideSteps(guide, function()
 return [[
 

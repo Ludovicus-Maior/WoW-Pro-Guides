@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2014-05-17 20:18
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3284/revisions/25422/view
 -- Date: 2013-01-13 15:00
 -- Who: Ludovicus
 -- Log: Lost of CN tags
@@ -71,7 +76,10 @@
 -- Date: 2010-12-03 21:41
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraNet6970', 'Netherstorm', 'Crackerhead22', '69', '70', 'JamBor6872|JamHow7071', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('CraNet6970', 'Netherstorm', 'Crackerhead22', 'Neutral')
+WoWPro:GuideLevels(guide,69,70)
+WoWPro:GuideNextGuide(guide, 'JamBor6872|JamHow7071')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Assist Exarch Orelis|QID|11038|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|

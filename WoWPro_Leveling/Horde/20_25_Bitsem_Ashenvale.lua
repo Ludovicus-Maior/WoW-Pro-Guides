@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2014-05-17 17:18
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3228/revisions/26033/view
+-- Date: 2014-05-17 17:11
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3228/revisions/25826/view
 -- Date: 2013-12-01 00:06
 -- Who: Ludovicus
 -- Log:  CS
@@ -68,7 +78,10 @@
 -- Date: 2010-12-03 09:56
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitAsh2025', 'Ashenvale', 'Bitsem', '20', '25', 'JiySto2530', 'Horde', function()
+local guide = WoWPro:RegisterGuide('BitAsh2025', 'Ashenvale', 'Bitsem', 'Horde')
+WoWPro:GuideLevels(guide,20,25)
+WoWPro:GuideNextGuide(guide, 'JiySto2530')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Rescue the Fallen|QID|13613|RANK|1|M|42.42,15.76|Z|Northern Barrens|N|From Dinah Halfmoon.|

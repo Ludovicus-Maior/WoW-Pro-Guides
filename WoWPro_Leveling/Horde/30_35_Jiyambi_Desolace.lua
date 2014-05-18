@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2014-05-17 17:02
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3314/revisions/25455/view
 -- Date: 2013-01-13 18:00
 -- Who: Ludovicus
 -- Log: Added C* tags
@@ -54,7 +59,10 @@
 -- Date: 2010-12-04 00:10
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyDes3035', 'Desolace', 'Jiyambi', '30', '35', 'JiyFer3540', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyDes3035', 'Desolace', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,30,35)
+WoWPro:GuideNextGuide(guide, 'JiyFer3540')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Desolace|QID|14184|M|54.7,8.8|N|Run down into Desolace.|

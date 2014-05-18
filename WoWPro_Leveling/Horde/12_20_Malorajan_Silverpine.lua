@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silverpine_forest
+-- Date: 2014-05-17 17:42
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3219/revisions/25499/view
 -- Date: 2013-01-22 18:00
 -- Who: Ludovicus
 -- Log: Coord tweaks, added Korok quest, and a sticky step.
@@ -30,7 +35,10 @@
 -- Date: 2010-12-03 07:33
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('MalSil1220', 'Silverpine Forest', 'Malorajan', '12', '20', 'AyaHil2025', 'Horde', function()
+local guide = WoWPro:RegisterGuide('MalSil1220', 'Silverpine Forest', 'Malorajan', 'Horde')
+WoWPro:GuideLevels(guide,12,20)
+WoWPro:GuideNextGuide(guide, 'AyaHil2025')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Warchief's Command: Silverpine Forest!|QID|28568|M|66.07,49.80|Z|Undercity|N|You can pick this quest up from the Warchief's Command Board in Undercity.|

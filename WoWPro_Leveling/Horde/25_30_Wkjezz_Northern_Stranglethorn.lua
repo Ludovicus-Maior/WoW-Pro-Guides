@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2014-05-17 17:03
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3232/revisions/25827/view
 -- Date: 2013-12-01 00:10
 -- Who: Ludovicus
 -- Log: Just a few tweaks
@@ -67,8 +72,10 @@
 -- Date: 2010-12-03 10:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjNor2530', 'Northern Stranglethorn', 'Gloves', '25', '30', 'WkjCap3035', 'Horde', function()
-
+local guide = WoWPro:RegisterGuide('WkjNor2530', 'Northern Stranglethorn', 'Gloves', 'Horde')
+WoWPro:GuideLevels(guide,25,30)
+WoWPro:GuideNextGuide(guide, 'WkjCap3035')
+WoWPro:GuideSteps(guide, function()
 
 return [[
 

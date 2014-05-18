@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2014-05-17 17:22
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3217/revisions/25856/view
 -- Date: 2013-12-26 21:40
 -- Who: Ludovicus
 -- Log: Tag cleanup after playinmg through.
@@ -75,7 +80,10 @@
 -- Date: 2010-12-03 07:30
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitAzs1220', 'Azshara', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
+local guide = WoWPro:RegisterGuide('BitAzs1220', 'Azshara', 'Bitsem', 'Horde')
+WoWPro:GuideLevels(guide,12,20)
+WoWPro:GuideNextGuide(guide, 'BitAsh2025')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 9 |QID|25275;25648;28496|LVL|9|N|This guide requires a minimum level of 9 to do.|

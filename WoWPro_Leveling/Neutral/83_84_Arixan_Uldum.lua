@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2014-05-17 19:03
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3309/revisions/25833/view
 -- Date: 2013-12-07 19:53
 -- Who: Fluclo
 -- Log: Minor tweaks aimed at Horde characters, added CHAT to relevant steps, changed Dungeon quests to Rank 3.
@@ -141,7 +145,10 @@
 -- Date: 2010-12-03 23:21
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'MagTwi8485|LiaTwi8485', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', 'Neutral')
+WoWPro:GuideLevels(guide,83,84)
+WoWPro:GuideNextGuide(guide, 'MagTwi8485|LiaTwi8485')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 83 |QID|27003|N|You need to be level 83 or higher to be able to work through this guide.|LVL|83|

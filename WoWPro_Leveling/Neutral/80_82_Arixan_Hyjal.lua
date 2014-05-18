@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2014-05-17 20:12
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3303/revisions/25831/view
 -- Date: 2013-12-03 17:12
 -- Who: Fluclo
 -- Log: Added step for Graduation Speech to indicate which options to pick, and added couple extra notes to other quests. Also added |PRE| to Gates of Southann Flightpath, as it only appears once the quest has been done.
@@ -184,7 +189,10 @@
 -- Date: 2010-12-03 22:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', '80', '82', 'AriDee8283|AriDee8283', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('Arihyj8082', 'Mount Hyjal', 'Arixan', 'Neutral')
+WoWPro:GuideLevels(guide,80,82)
+WoWPro:GuideNextGuide(guide, 'AriDee8283|AriDee8283')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 80 |QID|28825|N|You need to be Level 80 to do this guide.|LVL|80|FACTION|Alliance|

@@ -4,6 +4,19 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-05-17 17:45
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3199/revisions/26045/view
+-- Date: 2014-05-17 17:45
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3199/revisions/26039/view
+-- Date: 2014-05-17 17:28
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3199/revisions/25945/view
 -- Date: 2014-04-26 07:51
 -- Who: Hendo72
 -- Log: Echo Isles:
@@ -178,7 +191,10 @@
 -- Date: 2010-12-02 21:14
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyDur0105', 'Durotar (Orc)', 'Jiyambi', '01', '05', 'BitDur0512', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyDur0105', 'Durotar (Orc)', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'BitDur0512')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Your Place In The World|QID|25152|M|43.33,68.81|N|From Kaltunk.|

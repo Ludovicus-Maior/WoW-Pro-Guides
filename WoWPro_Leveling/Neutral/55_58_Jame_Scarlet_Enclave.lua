@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2014-05-17 20:30
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3369/revisions/25848/view
 -- Date: 2013-12-16 21:06
 -- Who: Fluclo
 -- Log: Added Class Restriction
@@ -40,7 +45,10 @@
 -- Who: Ludovicus
 -- Log: Initial Create
 
-WoWPro.Leveling:RegisterGuide("JamScar5558", "ScarletEnclave (Death Knight)", "Jame", "55", "58", "CraBla5458|JiyBla5560", "Neutral", function()
+local guide = WoWPro:RegisterGuide("JamScar5558", "ScarletEnclave (Death Knight)", "Jame", "Neutral")
+WoWPro:GuideLevels(guide,55,58)
+WoWPro:GuideNextGuide(guide, "CraBla5458|JiyBla5560")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Class Restriction|QID|99999|N|Sorry, only Death Knights are allowed in this phased Scarlet Enclave. Please find another guide.|C|Druid;Hunter;Mage;Monk;Paladin;Priest;Rogue;Shaman;Warlock;Warrior|

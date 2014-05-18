@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2014-05-17 18:59
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3493/revisions/25753/view
 -- Date: 2013-09-10 23:27
 -- Who: Ludovicus
 -- Log: Moved T [Relics of the Swarm] and corrected C to A for [Skeer the Bloodseeker].
@@ -61,7 +65,10 @@
 -- Who: Ludovicus
 -- Log: Initial version from Emmaleah
 
-WoWPro.Leveling:RegisterGuide('EmmDre8990', 'Dread Wastes', 'Emmaleah', '89', '90', 'WayKlaxxi', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('EmmDre8990', 'Dread Wastes', 'Emmaleah', 'Neutral')
+WoWPro:GuideLevels(guide,89,90)
+WoWPro:GuideNextGuide(guide, 'WayKlaxxi')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Dread Wastes|QID|31847;31895;31000;31886;31390;31391;31656|N|There are many lead in quests, when you pick any of them up (except The Threat in the South) it also gives you the flightpath to Serpent's Spine in Vale of Eternal Blossoms (where Bowmistress Li is). This guide starts there.|

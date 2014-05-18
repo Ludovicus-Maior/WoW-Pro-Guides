@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2014-05-17 20:26
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3483/revisions/25876/view
 -- Date: 2014-02-12 10:58
 -- Who: Hendo72
 -- Log: Hendo72 - Feb 12/2014
@@ -122,7 +127,10 @@
 -- Who: Ludovicus
 -- Log: Initial Version
 
-WoWPro.Leveling:RegisterGuide('FlucloPanda', 'TheWanderingIsle (Pandaren Only)', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('FlucloPanda', 'TheWanderingIsle (Pandaren Only)', 'Fluclo', 'Neutral')
+WoWPro:GuideLevels(guide,01,12)
+WoWPro:GuideNextGuide(guide, 'WkjLoc1220|BitAzs1220')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Race Restriction|QID|99999|N|Sorry, only Pandaren are allowed on The Wandering Isle. Please find another guide.|R|Draenei;Dwarf;Gnome;Human;NightElf;Worgen;BloodElf;Goblin;Orc;Tauren;Troll;Undead|

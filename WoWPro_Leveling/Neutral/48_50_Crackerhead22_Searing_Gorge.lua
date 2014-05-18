@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2014-05-17 20:35
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3255/revisions/25909/view
 -- Date: 2014-03-06 23:46
 -- Who: Ludovicus
 -- Log: Dont send Hordies to the ALLIANCE flightmaster!
@@ -92,7 +97,10 @@
 -- Date: 2010-12-03 11:40
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', '48', '50', 'CraBur5052|LiaBur5052', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', 'Neutral')
+WoWPro:GuideLevels(guide,48,50New registration guide.)
+WoWPro:GuideNextGuide(guide, 'CraBur5052|LiaBur5052')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 46|QID|27963|N|You need to be Level 46 to do this guide.|LVL|46|

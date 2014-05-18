@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2014-05-17 20:10
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3307/revisions/25719/view
 -- Date: 2013-06-18 01:01
 -- Who: Ludovicus
 -- Log: quest 27398's name [The Battle is Won, The War Goes On] does not match Grail's database [The Battle Is Won, The War Goes On].
@@ -145,7 +150,10 @@
 -- Date: 2010-12-03 23:10
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', '82', '83', 'AriUld8384|AriUld8384', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', 'Neutral')
+WoWPro:GuideLevels(guide,82,83)
+WoWPro:GuideNextGuide(guide, 'AriUld8384|AriUld8384')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N The Battle Is Won, The War Goes On|QID|27398|Z|Stormwind City|N|If you don't have this quest, check it off and continue to the next.|FACTION|Alliance|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2014-05-17 17:09
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3230/revisions/25449/view
 -- Date: 2013-01-13 17:44
 -- Who: Ludovicus
 -- Log: Added CC and CS tags
@@ -25,7 +30,10 @@
 -- Date: 2010-12-03 10:08
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyAra2530', 'Arathi Highlands', 'Jiyambi', '25', '30', 'JiyHin3035', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyAra2530', 'Arathi Highlands', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,25,30)
+WoWPro:GuideNextGuide(guide, 'JiyHin3035')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Warchief's Command: Arathi Highlands!|QID|28619|O|M|56.53,47.02|Z|Hillsbrad Foothills|N|From High Warlord Cromush.|

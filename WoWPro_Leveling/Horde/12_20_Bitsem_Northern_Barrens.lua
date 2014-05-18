@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2014-05-17 17:41
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3214/revisions/25923/view
 -- Date: 2014-03-30 20:59
 -- Who: Fluclo
 
@@ -76,7 +81,10 @@
 -- Date: 2010-12-03 07:24
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitNor1220', 'Northern Barrens', 'Bitsem', '12', '20', 'BitAsh2025', 'Horde', function()
+local guide = WoWPro:RegisterGuide('BitNor1220', 'Northern Barrens', 'Bitsem', 'Horde')
+WoWPro:GuideLevels(guide,12,20)
+WoWPro:GuideNextGuide(guide, 'BitAsh2025')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N The Northern Barrens|QID|844|N|There are two lead in quests: "Warchief's Command" from the bulliten board in any capital city or "Conscript of the Horde" from Razor Hill.|

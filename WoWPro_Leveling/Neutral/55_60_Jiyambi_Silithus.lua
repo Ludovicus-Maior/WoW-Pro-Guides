@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
+-- Date: 2014-05-17 20:28
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3270/revisions/25401/view
 -- Date: 2013-01-13 01:14
 -- Who: Ludovicus
 -- Log: A few CN and CS tags
@@ -59,7 +64,10 @@
 -- Date: 2010-12-03 12:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', '55', '60', 'CraBla5458|JiyBla5560', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', 'Neutral')
+WoWPro:GuideLevels(guide,55,60)
+WoWPro:GuideNextGuide(guide, 'CraBla5458|JiyBla5560')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Cenarion Hold|QID|8318|M|55.97,64.15|N|Fly to Cenarion Hold.|Z|Un'Goro Crater|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2014-05-17 17:30
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3207/revisions/25845/view
 -- Date: 2013-12-16 20:28
 -- Who: Fluclo
 -- Log: Priest training quest is now Learning the Word, not Healing the Wounded
@@ -161,7 +166,10 @@
 -- Date: 2010-12-02 23:20
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "01", "12", "SnoGho1221", "Horde", function()
+local guide = WoWPro:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "Horde")
+WoWPro:GuideLevels(guide,01,12)
+WoWPro:GuideNextGuide(guide, "SnoGho1221")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Sunstrider Isle starting zone is for BloodElf's only.

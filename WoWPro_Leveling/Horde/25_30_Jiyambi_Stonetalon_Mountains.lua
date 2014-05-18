@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2014-05-17 17:05
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3234/revisions/25932/view
 -- Date: 2014-04-14 19:36
 -- Who: Ludovicus
 -- Log: CS tag
@@ -65,7 +70,10 @@
 -- Date: 2010-12-03 10:47
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiySto2530', "Stonetalon Mountains", 'Jiyambi', '24', '30', 'JiySou3035', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiySto2530', "Stonetalon Mountains", 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,25,30)
+WoWPro:GuideNextGuide(guide, 'JiySou3035')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Silverwind Refuge|QID|25945;28532|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|

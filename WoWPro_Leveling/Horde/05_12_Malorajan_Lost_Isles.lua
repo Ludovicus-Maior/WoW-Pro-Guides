@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-05-17 17:37
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26038/view
+-- Date: 2014-05-17 17:24
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3212/revisions/25926/view
 -- Date: 2014-04-08 09:46
 -- Who: Fluclo
 
@@ -115,7 +125,10 @@
 -- Date: 2010-12-03 07:19
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('MalLos0512', 'The Lost Isles', 'Malorajan', '05', '12', 'BitAzs1220', 'Horde', function()
+local guide = WoWPro:RegisterGuide('MalLos0512', 'The Lost Isles', 'Malorajan', 'Horde')
+WoWPro:GuideLevels(guide,05,12)
+WoWPro:GuideNextGuide(guide, 'BitAzs1220')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Race Restriction|QID|99999|N|Sorry, only Goblins are allowed on The Lost Isles. Please find another guide.|R|BloodElf;Orc;Tauren;Troll;Undead;Pandaren|

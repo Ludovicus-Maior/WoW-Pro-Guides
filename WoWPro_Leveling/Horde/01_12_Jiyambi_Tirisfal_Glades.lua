@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2014-05-17 17:44
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3205/revisions/25948/view
 -- Date: 2014-05-09 19:15
 -- Who: Hendo72
 -- Log: - reapplied changes as I forgot to update the code with my changes... DOH!
@@ -99,7 +103,10 @@
 -- Date: 2010-12-02 23:15
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades (Undead)', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyTir0112', 'Tirisfal Glades (Undead)', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideNextGuide(guide, 'MalSil1220')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Fresh out of the Grave|QID|24959|M|29.41,70.96|R|Undead|N|From Agatha.|
