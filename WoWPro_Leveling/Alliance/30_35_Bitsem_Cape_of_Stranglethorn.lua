@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2014-05-18 22:11
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3237/revisions/25968/view
 -- Date: 2014-05-14 22:23
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -96,6 +101,7 @@
 local guide = WoWPro:RegisterGuide('BitCap3035', 'The Cape of Stranglethorn', 'Bitsem', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'BitWes3540')
+WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()
 return [[
 

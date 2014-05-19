@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2014-05-18 22:22
+-- Who: Ludovicus
+-- Log: ICON
+
+-- URL: http://wow-pro.com/node/3251/revisions/26063/view
 -- Date: 2014-05-17 20:36
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -121,6 +126,7 @@
 local guide = WoWPro:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', 'Neutral')
 WoWPro:GuideLevels(guide,40,45)
 WoWPro:GuideNextGuide(guide, 'CraBad4548|LiaBad4548')
+WoWPro:GuideIcon(guide,"ACH",4892)
 WoWPro:GuideSteps(guide, function()
 return [[
 

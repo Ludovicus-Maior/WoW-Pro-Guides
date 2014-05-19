@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2014-05-18 22:50
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3492/revisions/26047/view
 -- Date: 2014-05-17 18:58
 -- Who: Ludovicus
 
@@ -74,6 +79,7 @@
 local guide = WoWPro:RegisterGuide('EmmTow8990', 'Townlong Steppes', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,89,90)
 WoWPro:GuideNextGuide(guide, 'EmmDre8990|EmmDre8990')
+WoWPro:GuideIcon(guide,"ACH",6977)
 WoWPro:GuideSteps(guide, function()
 return [[
 

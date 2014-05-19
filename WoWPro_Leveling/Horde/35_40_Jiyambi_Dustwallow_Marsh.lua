@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2014-05-18 21:47
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3242/revisions/26024/view
 -- Date: 2014-05-17 16:54
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -59,6 +64,7 @@
 local guide = WoWPro:RegisterGuide('JiyDus3540', 'Dustwallow Marsh', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,35,40)
 WoWPro:GuideNextGuide(guide, 'JiyTho4045')
+WoWPro:GuideIcon(guide,"ACH",4929)
 WoWPro:GuideSteps(guide, function()
 return [[
 

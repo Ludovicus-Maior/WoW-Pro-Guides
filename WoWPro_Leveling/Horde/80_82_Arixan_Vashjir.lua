@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2014-05-18 23:04
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3306/revisions/26001/view
 -- Date: 2014-05-16 20:29
 -- Who: Ludovicus
 
@@ -104,6 +109,7 @@
 local guide = WoWPro:RegisterGuide('AriVasH8082', "Vash'jir", 'Arixan', 'Horde')
 WoWPro:GuideLevels(guide,80,82)
 WoWPro:GuideNextGuide(guide, 'AriDee8283')
+WoWPro:GuideIcon(guide,"ACH",4825)
 WoWPro:GuideSteps(guide, function()
 return [[
 

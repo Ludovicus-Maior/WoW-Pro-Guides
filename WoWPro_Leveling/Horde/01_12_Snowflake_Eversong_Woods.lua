@@ -4,6 +4,17 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2014-05-18 20:24
+-- Who: Hendo72
+-- Log: - Removed all 'RANK|1|' tags. They are not required.
+--	- Added Repair/sell steps where ever it's convenient.
+--	- Added missing CS tag to 'T Fly to Silvermoon City|QID|9133'
+--	- Changed CN tag to CC 'K Felendren the Banished|QID|8335|' and reduced the coordinates to bottom and top only.
+--	- Reworded repair step into a sell step. You won't need to repair for a while yet.
+--	- Added coords to 'Fairbreeze Village' turn in step.
+--	- F Eversong Woods|QID|9133| - Incorrectly named. Should be Silvermoon City.
+
+-- URL: http://wow-pro.com/node/3207/revisions/26040/view
 -- Date: 2014-05-17 17:30
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -173,8 +184,8 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Sunstrider Isle starting zone is for BloodElf's only.
-A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|N|From Magistrix Erona.|M|38.0,21.0|RANK|1|
-C Mana Wyrm |QID|8325|R|BloodElf|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|M|37.60,22.00|RANK|1|
+A Reclaiming Sunstrider Isle|QID|8325|R|BloodElf|N|From Magistrix Erona.|M|38.0,21.0|
+C Mana Wyrm |QID|8325|R|BloodElf|N|Behind you then down the big stairs, you should see plenty of Mana Wyrms.|M|37.60,22.00|
 T Reclaiming Sunstrider Isle |QID|8325|R|BloodElf|N|To Magistrix Erona.|M|38.0,21.0|
 ; L Level 2|LVL|2|N|Kill mana wyrms until you ding.|QID|8326|
 A Unfortunate Measures|QID|8326|R|BloodElf|M|38.0,21.0|N|From Magistrix Erona.|
@@ -182,12 +193,16 @@ A The Shrine of Dath'Remar|QID|8345|R|BloodElf|M|38.97,20.26|N|From Well Watcher
 A Solanian's Belongings|QID|8330|R|BloodElf|M|38.97,20.26|N|From Well Watcher Solanian.|
 A A Fistful of Slivers |QID|8336|R|BloodElf|N|From Arcanist Ithanas, go outside via the balcony, then jump down to your left.|M|38.3,19.1|
 A Thirst Unending|QID|8346|R|BloodElf|N|From Arcanist Helion. Go through the gazeebo in front of you.|M|37.2,18.9|
+
+R Empty your bags|QID|8346|R|BloodElf|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|
+
 C Unfortunate Measures |QID|8326|R|BloodElf|N|Kill and loot Springpaw Lynxs and Cubs for the Lynx collars.|M|36.00,24.00|S|
 C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent, when you are within 8 yards of a Mana Wyrm. |M|37.50,23.90|S|
 C Solonaian's Journal |QID|8330|R|BloodElf|N|Get Solonaian's Journal, near the big green crystal. |M|37.70,24.90|NC|QO|Solanian's Journal: 1/1|
 C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent, on a Mana Wyrm. |M|37.50,23.90|US|
 C Unfortunate Measures |QID|8326|R|BloodElf|N|Finish killing and looting Springpaw Lynxs and Cubs for the Lynx collars. |M|36.00,24.00|US|
 T Thirst Unending |QID|8346|R|BloodElf|M|37.2,18.9|N|To Arcanist Helion.|M|37.20,18.95|
+R Empty your bags|QID|8326|R|BloodElf|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|38,21|N|To Magistrix Erona.|
 
 L Level 3|LVL|3|N|You need to be Level 3 to continue this guide.|QID|8327|R|BloodElf|
@@ -252,14 +267,14 @@ T Aggression |QID|8334|R|BloodElf|M|35.4,22.5|N|To Lanthan Perilon.|
 A Felendren the Banished |QID|8335|R|BloodElf|N|From Lanthan Perilon.|M|35.4,22.5|
 C Felendren the Banished |QID|8335|R|BloodElf|N|Kill Arcane Wraiths|M|30.87,27.13|S|QO|Arcane Wraith slain: 8/8|
 l Tainted Arcane Sliver|S|QID|8338|L|20483|R|BloodElf|N|Kill and loot a Tainted Arcane Wraith, it will drop a Tainted Arcane Sliver.|
-K Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp and to the top of Falthrien Academy. At the first waypoint there will be two paths to choose, both will merge further on, so either can be taken. At the top, kill Felendren and loot his head. |M|31.69,26.44;30.79,26.40;30.44,26.17;30.55,27.90|L|20799|CN|
+K Felendren the Banished |QID|8335|R|BloodElf|N|Go up the ramp and to the top of Falthrien Academy. At the first waypoint there will be two paths to choose, both will merge further on, so either can be taken. At the top, kill Felendren and loot his head.|M|31.69,26.44;30.55,27.90|L|20799|CC|
 l Tainted Arcane Sliver|US|QID|8338|L|20483|R|BloodElf|N|Kill and loot the Tainted Arcane Wraiths until they drop the Tainted Arcane Sliver.|
 A Tainted Arcane Sliver |QID|8338|R|BloodElf|U|20483|N|The Tainted Arcane Sliver starts a quest - click it and accept the quest.|
 C Felendren the Banished |QID|8335|R|BloodElf|N|Kill another Tainted Arcane Wraith|M|30.87,27.13|QO|Tainted Arcane Wraith slain: 2/2|
 C Felendren the Banished |QID|8335|R|BloodElf|N|Finish killing the Arcane Wraiths|M|30.87,27.13|US|QO|Arcane Wraith slain: 8/8|
 H Sunstrider Isle|QID|8338|U|6948|R|BloodElf|N|Hearthstone back to the starting point, or run back.|M|37.75,21.10|
 T Tainted Arcane Sliver |QID|8338|R|BloodElf|N|To Arcanist Helion.|M|37.2,18.9|
-r Repair/Sell Unwanted Loot|QID|8335|R|BloodElf|M|37.18,19|N|Good opportunity to repair and sell unwanted loot with Jainthess Thelryn.\nRight click this step to continue.|RANK|3|
+r Repair/Sell|QID|8335|R|BloodElf|M|37.18,19|N|Good opportunity to sell unwanted loot with Jainthess Thelryn.\nClose this step to continue.|RANK|3|
 T Felendren the Banished |QID|8335|R|BloodElf|N|To Lanthan Perilon.|M|35.4,22.5|
 
 L Level 4|QID|8347|LVL|4|N|You need to be Level 4 to continue this guide.|R|BloodElf|
@@ -345,7 +360,7 @@ F Fairbreeze Village |QID|9256|M|46.26,46.80|N|Fly to Fairbreeze Village.|
 A Pelt Collection |QID|8491|N|From Velan Brightoak.|M|44.7,69.6|
 A Saltheril's Haven |QID|9395|N|From Magistrix Landra Dawnstrider.|M|44.0,70.8|
 A The Wayward Apprentice |QID|9254|N|From Magistrix Landra Dawnstrider.|M|44.0,70.8|
-T Fairbreeze Village |QID|9256|N|To Ranger Degolien. Up the ramp.|
+T Fairbreeze Village |QID|9256|N|To Ranger Degolien. Up the ramp.|M|43.4,70.8|
 A Situation at Sunsail Anchorage |QID|8892|N|From Ranger Degolien|M|43.3,70.8|
 A Ranger Sareyn |QID|9358|N|From Marniel Amberlight. If you've already done Defending Fairbreeze Village this quest won't be available so just skip it.|M|43.7,71.2|
 h Fairbreeze Village |QID|9395|N|With Marniel Amberlight.|
@@ -358,9 +373,9 @@ A The Party Never Ends |QID|9067|N|From Lord Saltheril.|M|38.1,73.6|
 B Bundle of Fireworks |QID|9067|L|22777|N|Buy a Bundle of fireworks from Halis Dawnstrider at Fairbreeze Village.|M|44.10,70.40|
 T Goods from Silvermoon City|QID|9130|R|BloodElf|N|To Skymaster Brightdawn.|M|44,70|
 A Fly to Silvermoon City|QID|9133|R|BloodElf|M|44,70|N|From Skymaster Brightdawn.|
-F Eversong Woods|QID|9133|M|44,70|N|Ask Skymaster Brightdawn to fly you to Silvermoon City.|
+F Silvermoon City|QID|9133|M|44,70|N|Ask Skymaster Brightdawn to fly you to Silvermoon City.|
 R Silvermoon City|QID|9133|N|Run east to Silvermoon City.|M|72.37,90.93|Z|Silvermoon City|
-T Fly to Silvermoon City|QID|9133|R|BloodElf|Z|Silvermoon City|N|To Sathren Azuredawn.|M|69.26,77.04;68.28,74.08;66.50,73.43;54,71|
+T Fly to Silvermoon City|QID|9133|R|BloodElf|Z|Silvermoon City|N|To Sathren Azuredawn.|M|69.26,77.04;68.28,74.08;66.50,73.43;54,71|CS|
 A Skymistress Gloaming|QID|9134|R|BloodElf|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|
 B Suntouched Special Reserve|QID|9067|L|22775|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|M|79.70,58.40|
 T Skymistress Gloaming|QID|9134|R|BloodElf|M|54.38,50.79|N|To Skymistress Gloaming.|
@@ -395,7 +410,7 @@ A Defending Fairbreeze Village |QID|9252|N|From Ranger Sareyn.|M|46.9,71.8|
 C Defending Fairbreeze Village |QID|9252|N|4 of each: Rotlimb marauder, Darkwraith. Follow the road southeast until you hit the Dead Scar. Then head south. |M|50.00,75.00|
 T The Wayward Apprentice |QID|9254|N|To Apprentice Mirveda. Go north along the Dead Scar until you reach Mivenda.|M|54.3,71.0|
 A Corrupted Soil |QID|8487|N|From Apprentice Mirveda.|M|54.3,71.0|
-C  Corrupted Soil|QID|8487|N|Loot 8 Tainted Soil Samples, they are green looking.|M|52.60,68.40|
+C Corrupted Soil|QID|8487|N|Loot 8 Tainted Soil Samples, they are green looking.|M|52.60,68.40|
 T Corrupted Soil |QID|8487|N|To Apprentice Mirveda.|M|54.3,71.0|
 A Unexpected Results |QID|8488|N|From Apprentice Mirveda. Get to full HP/Mana and take the follow up. Protect Mivenda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|M|54.3,71.0|
 C Unexpected Results |QID|8488|N|Protect Mirveda.|

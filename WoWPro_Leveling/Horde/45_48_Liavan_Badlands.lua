@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
+-- Date: 2014-05-18 22:26
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3248/revisions/26019/view
 -- Date: 2014-05-16 22:08
 -- Who: Ludovicus
 
@@ -52,6 +57,7 @@
 local guide = WoWPro:RegisterGuide('LiaBad4548', 'Badlands', 'Liavan', 'Horde')
 WoWPro:GuideLevels(guide,45,48)
 WoWPro:GuideNextGuide(guide, 'CraSea4850')
+WoWPro:GuideIcon(guide,"ACH",4900)
 WoWPro:GuideSteps(guide, function()
 return [[
 

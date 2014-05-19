@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2014-05-18 22:59
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3307/revisions/26052/view
 -- Date: 2014-05-17 20:10
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -153,6 +158,7 @@
 local guide = WoWPro:RegisterGuide('AriDee8283', 'Deepholm', 'Arixan', 'Neutral')
 WoWPro:GuideLevels(guide,82,83)
 WoWPro:GuideNextGuide(guide, 'AriUld8384|AriUld8384')
+WoWPro:GuideIcon(guide,"ACH",4864)
 WoWPro:GuideSteps(guide, function()
 return [[
 

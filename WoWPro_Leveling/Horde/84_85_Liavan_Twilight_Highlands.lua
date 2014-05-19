@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2014-05-18 23:02
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3312/revisions/26000/view
 -- Date: 2014-05-16 20:28
 -- Who: Ludovicus
 
@@ -63,6 +68,7 @@
 local guide = WoWPro:RegisterGuide('LiaTwi8485', 'Twilight Highlands', 'Liavan', 'Horde')
 WoWPro:GuideLevels(guide,84,85)
 WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideIcon(guide,"ACH",4866)
 WoWPro:GuideSteps(guide, function()
 return [[
 

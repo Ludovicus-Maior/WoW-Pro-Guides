@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2014-05-18 22:01
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3220/revisions/25957/view
 -- Date: 2014-05-14 22:08
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -85,6 +90,7 @@
 local guide = WoWPro:RegisterGuide("SveBlo1220", "Bloodmyst Isle", "Sven", "Alliance")
 WoWPro:GuideLevels(guide,12,20)
 WoWPro:GuideNextGuide(guide, "WkjAsh2025")
+WoWPro:GuideIcon(guide,"ACH",4926)
 WoWPro:GuideSteps(guide, function()
 return [[
 

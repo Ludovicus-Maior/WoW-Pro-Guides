@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2014-05-18 21:46
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3241/revisions/26073/view
+-- Date: 2014-05-18 21:46
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3241/revisions/25973/view
 -- Date: 2014-05-14 22:28
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -92,6 +101,7 @@
 local guide = WoWPro:RegisterGuide('WkjDus3540', 'Dustwallow Marsh', 'WKjezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'WkjTho4045')
+WoWPro:GuideIcon(guide,"ACH",4929)
 WoWPro:GuideSteps(guide, function()
 return [[
 

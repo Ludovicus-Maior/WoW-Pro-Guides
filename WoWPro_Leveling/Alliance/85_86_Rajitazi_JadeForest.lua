@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2014-05-18 22:55
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3486/revisions/25996/view
 -- Date: 2014-05-14 22:51
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -141,6 +146,7 @@
 local guide = WoWPro:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'EmmVal8688')
+WoWPro:GuideIcon(guide,"ACH",6351)
 WoWPro:GuideSteps(guide, function()
 return [[
 

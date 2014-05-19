@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2014-05-18 22:05
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3244/revisions/25972/view
 -- Date: 2014-05-14 22:27
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -109,6 +114,7 @@
 local guide = WoWPro:RegisterGuide('BitWes3540', 'Western Plaguelands', 'Bitsem', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'CraEas4045')
+WoWPro:GuideIcon(guide,"ACH",4893)
 WoWPro:GuideSteps(guide, function()
 return [[
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2014-05-18 22:11
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3238/revisions/26025/view
 -- Date: 2014-05-17 16:56
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -53,6 +58,7 @@
 local guide = WoWPro:RegisterGuide('WkjCap3035', 'The Cape of Stranglethorn', 'Wkjezz', 'Horde')
 WoWPro:GuideLevels(guide,35,40)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
+WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()
 return [[
 

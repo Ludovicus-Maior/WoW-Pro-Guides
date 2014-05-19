@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2014-05-18 22:25
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3247/revisions/25976/view
 -- Date: 2014-05-14 22:31
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -73,6 +78,7 @@
 local guide = WoWPro:RegisterGuide('CraBad4548', 'Badlands', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'CraSea4850')
+WoWPro:GuideIcon(guide,"ACH",4900)
 WoWPro:GuideSteps(guide, function()
 return [[
 L Level 44 |QID|27762|LVL|44|N|This guide requires a minimum level of 44 to do.|

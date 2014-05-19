@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2014-05-18 22:24
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3230/revisions/26032/view
 -- Date: 2014-05-17 17:09
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -33,6 +38,7 @@
 local guide = WoWPro:RegisterGuide('JiyAra2530', 'Arathi Highlands', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,25,30)
 WoWPro:GuideNextGuide(guide, 'JiyHin3035')
+WoWPro:GuideIcon(guide,"ACH",4896)
 WoWPro:GuideSteps(guide, function()
 return [[
 

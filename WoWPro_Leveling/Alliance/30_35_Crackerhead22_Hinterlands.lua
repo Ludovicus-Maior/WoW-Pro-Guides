@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2014-05-18 22:07
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3239/revisions/25969/view
 -- Date: 2014-05-14 22:24
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -74,6 +79,7 @@
 local guide = WoWPro:RegisterGuide('CraHin3035', 'The Hinterlands', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'BitWes3540')
+WoWPro:GuideIcon(guide,"ACH",4897)
 WoWPro:GuideSteps(guide, function()
 return [[
 

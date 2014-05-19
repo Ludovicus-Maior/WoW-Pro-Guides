@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2014-05-18 21:32
+-- Who: Ludovicus
+-- Log: Added icon.
+
+-- URL: http://wow-pro.com/node/3243/revisions/25974/view
 -- Date: 2014-05-14 22:29
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -39,6 +44,7 @@
 local guide = WoWPro:RegisterGuide('WkjFer3540', 'Feralas', 'WKjezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'WkjTho4045')
+WoWPro:GuideIcon(guide,"ACH",4932)
 WoWPro:GuideSteps(guide, function()
 return [[
 

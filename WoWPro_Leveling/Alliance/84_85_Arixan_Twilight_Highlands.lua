@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2014-05-18 23:02
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3311/revisions/25995/view
 -- Date: 2014-05-14 22:50
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -112,6 +117,7 @@
 local guide = WoWPro:RegisterGuide('MagTwi8485', 'Twilight Highlands', 'Melliandra', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideIcon(guide,"ACH",4866)
 WoWPro:GuideSteps(guide, function()
 return [[
 

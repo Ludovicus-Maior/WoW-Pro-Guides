@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2014-05-18 22:44
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3488/revisions/25997/view
 -- Date: 2014-05-14 22:52
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -96,6 +101,7 @@
 local guide = WoWPro:RegisterGuide('RajKra8788', 'Krasarang Wilds', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'EmmKun8889')
+WoWPro:GuideIcon(guide,"ACH",6975)
 WoWPro:GuideSteps(guide, function()
 return [[
 
