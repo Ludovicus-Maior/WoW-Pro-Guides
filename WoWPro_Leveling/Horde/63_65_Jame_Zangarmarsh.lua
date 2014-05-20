@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2014-05-20 19:36
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3274/revisions/26012/view
 -- Date: 2014-05-16 21:11
 -- Who: Ludovicus
 
@@ -42,6 +47,7 @@
 local guide = WoWPro:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "Horde")
 WoWPro:GuideLevels(guide,63,65)
 WoWPro:GuideNextGuide(guide, "JamTer6567")
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 

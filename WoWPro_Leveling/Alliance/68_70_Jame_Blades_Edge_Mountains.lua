@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2014-05-20 19:37
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3281/revisions/25986/view
 -- Date: 2014-05-14 22:41
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -65,6 +70,7 @@
 local guide = WoWPro:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,68,70)
 WoWPro:GuideNextGuide(guide, "JamBor6872")
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|

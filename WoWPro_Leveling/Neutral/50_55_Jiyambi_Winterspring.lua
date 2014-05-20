@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_neutral
+-- Date: 2014-05-20 11:37
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3264/revisions/26070/view
 -- Date: 2014-05-18 21:42
 -- Who: Ludovicus
 -- Log: Icon
@@ -65,7 +69,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', 'Neutral')
-WoWPro:GuideLevels(guide,50,55New registration guide.)
+WoWPro:GuideLevels(guide,50,55)
 WoWPro:GuideNextGuide(guide, 'CraBla5458|JiyBla5560')
 WoWPro:GuideIcon(guide,"ACH",4940)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2014-05-20 19:40
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3278/revisions/26011/view
 -- Date: 2014-05-16 21:10
 -- Who: Ludovicus
 
@@ -48,6 +53,7 @@
 local guide = WoWPro:RegisterGuide("JamTer6567", "Terokkar Forest", "Jame", "Horde")
 WoWPro:GuideLevels(guide,65,67)
 WoWPro:GuideNextGuide(guide, "JamNag6769")
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 

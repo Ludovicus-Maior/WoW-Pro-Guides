@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2014-05-20 11:36
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3255/revisions/26102/view
 -- Date: 2014-05-18 22:18
 -- Who: Ludovicus
 -- Log: Icon
@@ -103,7 +107,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', 'Neutral')
-WoWPro:GuideLevels(guide,48,50New registration guide.)
+WoWPro:GuideLevels(guide,48,50)
 WoWPro:GuideNextGuide(guide, 'CraBur5052|LiaBur5052')
 WoWPro:GuideIcon(guide,"ACH",4910)
 WoWPro:GuideSteps(guide, function()

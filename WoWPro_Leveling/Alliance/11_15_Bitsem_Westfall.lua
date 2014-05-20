@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2014-05-20 18:47
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3213/revisions/25956/view
 -- Date: 2014-05-14 22:06
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -100,6 +105,7 @@
 local guide = WoWPro:RegisterGuide('BitWes1020', 'Westfall', 'Bitsem', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'KurRed1520')
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 

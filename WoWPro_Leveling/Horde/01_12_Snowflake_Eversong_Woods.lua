@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2014-05-20 18:51
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3207/revisions/26064/view
 -- Date: 2014-05-18 20:24
 -- Who: Hendo72
 -- Log: - Removed all 'RANK|1|' tags. They are not required.
@@ -180,6 +185,7 @@
 local guide = WoWPro:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,01,12)
 WoWPro:GuideNextGuide(guide, "SnoGho1221")
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 

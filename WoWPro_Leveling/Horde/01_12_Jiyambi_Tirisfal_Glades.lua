@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2014-05-20 19:01
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3205/revisions/26044/view
 -- Date: 2014-05-17 17:44
 -- Who: Ludovicus
 
@@ -106,6 +111,7 @@
 local guide = WoWPro:RegisterGuide('JiyTir0112', 'Tirisfal Glades (Undead)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'MalSil1220')
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 

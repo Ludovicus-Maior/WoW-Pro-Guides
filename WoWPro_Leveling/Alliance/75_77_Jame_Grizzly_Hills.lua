@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2014-05-20 19:52
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3293/revisions/25991/view
 -- Date: 2014-05-14 22:46
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -110,6 +115,7 @@
 local guide = WoWPro:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,75,77)
 WoWPro:GuideNextGuide(guide, "ScoZul7778")
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 

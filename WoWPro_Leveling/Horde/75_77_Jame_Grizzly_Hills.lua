@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2014-05-20 19:53
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3294/revisions/26004/view
 -- Date: 2014-05-16 20:34
 -- Who: Ludovicus
 
@@ -65,6 +70,7 @@
 local guide = WoWPro:RegisterGuide("JamGriH7577", "Grizzly Hills", "Jame", "Horde")
 WoWPro:GuideLevels(guide,75,77)
 WoWPro:GuideNextGuide(guide, "ScoZul7778")
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 --Original guide written/designed by Jame
 --Addon Version: Last Modified 7/14/2010

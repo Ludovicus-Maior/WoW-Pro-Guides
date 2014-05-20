@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2014-05-20 19:59
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3290/revisions/26006/view
 -- Date: 2014-05-16 20:36
 -- Who: Ludovicus
 
@@ -62,6 +67,7 @@
 local guide = WoWPro:RegisterGuide("JamBor7173", "Borean Tundra", "Jame", "Horde")
 WoWPro:GuideLevels(guide,71,73)
 WoWPro:GuideNextGuide(guide, "JamDra7375")
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 --> Original guides written/designed by [Jame]
 -->

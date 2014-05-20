@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2014-05-20 19:31
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3217/revisions/26037/view
 -- Date: 2014-05-17 17:22
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -83,6 +88,7 @@
 local guide = WoWPro:RegisterGuide('BitAzs1220', 'Azshara', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,12,20)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 

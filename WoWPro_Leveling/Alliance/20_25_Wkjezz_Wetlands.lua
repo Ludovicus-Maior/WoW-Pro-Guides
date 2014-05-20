@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2014-05-20 18:45
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3224/revisions/25964/view
 -- Date: 2014-05-14 22:19
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -78,6 +83,7 @@
 local guide = WoWPro:RegisterGuide('WkjWet2025', 'Wetlands', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'BitAra2025')
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 

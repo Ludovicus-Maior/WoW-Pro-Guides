@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2014-05-20 19:00
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3216/revisions/25958/view
 -- Date: 2014-05-14 22:09
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -123,6 +128,7 @@
 local guide = WoWPro:RegisterGuide('WkjLoc1220', 'Loch Modan', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'WkjWet2025')
+WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
