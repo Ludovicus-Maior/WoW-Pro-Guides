@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-05-19 21:08
+-- Who: Hendo72
+-- Log: Reverted my change as it does not work properly. I added extra coordinates to point to Sassy and added a note about losing your Hot Rod at this point.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26125/view
+-- Date: 2014-05-19 20:35
+-- Who: Hendo72
+-- Log: Changed 'R Gallywix's Yacht|QID|14126' to a C step and updated the coordinates to point to Sassy instead of the yacht.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26041/view
 -- Date: 2014-05-17 17:37
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -268,7 +278,7 @@ C Activate the Gasbot Control Panel|QID|14125|QO|KTC Headquarters Set Ablaze wit
 T 447|QID|14125|M|59.87,76.72|N|To Claims Adjuster.|R|Goblin|
 
 A Life Savings|QID|14126|M|59.75,76.90|N|From Sassy Hardwrench.|R|Goblin|PRE|14125|
-R Gallywix's Yacht|QID|14126|M|21.02,13.51|N|Talk to Sassy Hardwrench and tell her you're ready to go. You will then be taken to Gallywix's Yacht.|CHAT|R|Goblin|ACTIVE|14126|
+R Gallywix's Yacht|QID|14126|M|59.75,76.90;21.02,13.51|CC|N|Talk to Sassy Hardwrench and tell her you're ready to go. You will then be taken to Gallywix's Yacht.\nYou will lose your Hot Rod at this point.|CHAT|R|Goblin|ACTIVE|14126|
 T Life Savings|QID|14126|M|21.09,13.58|N|To Trade Prince Gallywix. Once handed in, you will leave Kezan (forever) and head to The Lost Isles.|R|Goblin|
 
 ;The following will only show if you've skipped the quests.
