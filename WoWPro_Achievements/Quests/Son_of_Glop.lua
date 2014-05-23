@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/glop_and_pebble_achievements
+-- Date: 2014-05-22 22:26
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3527/revisions/26193/view
+-- Date: 2014-05-22 22:25
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3527/revisions/25820/view
 -- Date: 2013-11-27 20:46
 -- Who: Ludovicus
 
@@ -21,7 +31,10 @@
 -- Who: Ludovicus
 -- Log: Uploading existing files to website
 
-WoWPro.Achievements:RegisterGuide("TwiGlop","Deepholm","The Glop Family Line","Quests", "Cataclysm", "Twists", "Neutral", function()
+local guide = WoWPro:RegisterGuide("TwiGlop","Deepholm","The Glop Family Line", "Neutral")
+WoWPro:GuideIcon(guide,"ACH",5446)
+WoWPro:GuideNextGuide(guide, "Twists")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Achievement|QID|28390|ACH|5446;1|S|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3552
+-- Date: 2014-05-22 22:50
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3552/revisions/25793/view
 -- Date: 2013-11-10 17:27
 -- Who: Ludovicus
 -- Log: Converted to BBcode format.
@@ -12,8 +17,10 @@
 -- Date: 2013-08-24 18:56
 -- Who: Estelyen
 
-WoWPro.Achievements:RegisterGuide('EstAchUnVa','Dalaran', 'Unborn Valkyr', 'Pet Battle', 'MoP', 'Estelyen','Neutral', function()
-
+local guide = WoWPro:RegisterGuide('EstAchUnVa','Dalaran', 'Unborn Valkyr','Neutral')
+-- WoWPro:GuideIcon(guide,"ACH",XXX)
+WoWPro:GuideNextGuide(guide, 'Estelyen')
+WoWPro:GuideSteps(guide, function()
 
 return
 [[

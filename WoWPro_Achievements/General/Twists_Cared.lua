@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2014-05-22 22:43
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3520/revisions/26196/view
+-- Date: 2014-05-22 22:40
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3520/revisions/25939/view
 -- Date: 2014-04-19 20:11
 -- Who: Hendo72
 -- Log: - Commented out the note displaying the Guide title... not required.
@@ -39,7 +49,10 @@
 -- Who: Ludovicus
 -- Log: Initial
 
-WoWPro.Achievements:RegisterGuide('TwiCared','CaT Zones', 'To All the Squirrels Who Cared for Me', 'General', 'Cataclysm', 'Twists','Neutral', function()
+local guide = WoWPro:RegisterGuide('TwiCared','CaT Zones', 'To All the Squirrels Who Cared for Me','Neutral')
+WoWPro:GuideIcon(guide,"ACH",5548)
+WoWPro:GuideNextGuide(guide, 'Twists')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Alpine Chipmunk|QID|955480001|M|60,23|Z|Mount Hyjal|ACH|5548;1|T|Alpine Chipmunk,love|N|Alpine Chipmunk in Mount Hyjal.|

@@ -3,7 +3,19 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-WoWPro.Achievements:RegisterGuide('EstAchGlor','MoP Zones', 'Glorious!', 'Achievement', 'Mists of Pandaria', 'Estelyen','Neutral', function()
+-- URL: http://wow-pro.com/node/3555
+-- Date: 2014-05-22 22:35
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3555/revisions/25752/view
+-- Date: 2013-08-24 18:59
+-- Who: Estelyen
+
+local guide = WoWPro:RegisterGuide('EstAchGlor','MoP Zones', 'Glorious!','Neutral')
+WoWPro:GuideIcon(guide,"ACH",7439)
+WoWPro:GuideNextGuide(guide, 'Estelyen')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Glorious!|N|This guide will give you the rough position of every rare mob in Pandaria so that you can check their locations every so often to see if they are there. Because as their name implies, they are RARE.|

@@ -3,7 +3,19 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-WoWPro.Achievements:RegisterGuide('EstAchHiLe','Dalaran', 'Higher Learning', 'General', 'Wrath of the Lich King', 'Estelyen','Neutral', function()
+-- URL: http://wow-pro.com/node/3538
+-- Date: 2014-05-22 22:57
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3538/revisions/25546/view
+-- Date: 2013-03-23 16:35
+-- Who: Ludovicus
+
+local guide = WoWPro:RegisterGuide('EstAchHiLe','Dalaran', 'Higher Learning','Neutral')
+WoWPro:GuideIcon(guide,"ACH",1956)
+WoWPro:GuideNextGuide(guide, 'Estelyen')
+WoWPro:GuideSteps(guide, function()
 return
 [[
 N Higher Learning|N|This guide will help you to get the Higher Learning achievement. It requires you to read a number of books in Dalaran. These books appear in fixed places, but often get replaced by a non-achievement-related book. Once you have read one of them (even the non-achievement-related ones), they disappear after a few minutes and you have to wait 3-4 hours before the next book appears in that location. So if you find a "wrong" book at one of the locations in this guide, you need to read it anyway and come back 3-4 hours later.|

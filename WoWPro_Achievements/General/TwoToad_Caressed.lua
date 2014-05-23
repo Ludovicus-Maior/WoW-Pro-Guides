@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2014-05-22 22:43
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3520/revisions/26196/view
+-- Date: 2014-05-22 22:40
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3520/revisions/25939/view
 -- Date: 2014-04-19 20:11
 -- Who: Hendo72
 -- Log: - Commented out the note displaying the Guide title... not required.
@@ -39,7 +49,10 @@
 -- Who: Ludovicus
 -- Log: Initial
 
-WoWPro.Achievements:RegisterGuide('TwoToadSqu','MoP Zones', 'To All the Squirrels I Once Carressed?', 'Achievement', 'Mists of Pandaria', 'TwoToad','Neutral', function()
+local guide = WoWPro:RegisterGuide('TwoToadSqu','MoP Zones', 'To All the Squirrels I Once Carressed?','Neutral')
+WoWPro:GuideIcon(guide,"ACH",6350)
+WoWPro:GuideNextGuide(guide, 'TwoToad')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; I left the misspelled guide title 'Carrassed' (Should be Caressed) just in case correcting it breaks the guide
