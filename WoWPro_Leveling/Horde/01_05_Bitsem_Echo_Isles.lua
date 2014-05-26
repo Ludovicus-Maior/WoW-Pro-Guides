@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-05-26 19:57
+-- Who: Ludovicus
+-- Log: Added more guide types.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26208/view
 -- Date: 2014-05-25 22:22
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -201,7 +206,7 @@
 -- Date: 2010-12-02 21:14
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('BitDur0105', 'Durotar (Troll)', 'Bitsem', 'Horde')
+local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Durotar (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
 WoWPro:GuideSteps(guide, function()

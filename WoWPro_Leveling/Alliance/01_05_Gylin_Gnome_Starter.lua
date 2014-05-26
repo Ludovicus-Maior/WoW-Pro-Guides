@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-05-26 19:55
+-- Who: Ludovicus
+-- Log: Added Guide type.
+
+-- URL: http://wow-pro.com/node/3200/revisions/26204/view
 -- Date: 2014-05-25 22:08
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -256,10 +261,6 @@
 -- URL: http://wow-pro.com/node/3200/revisions/23631/view
 -- Date: 2010-12-06 08:58
 -- Who: Gylin
-
--- URL: http://wow-pro.com/node/3200/revisions/23319/view
--- Date: 2010-12-03 07:56
--- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "Dun Morogh (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,5)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-05-26 19:57
+-- Who: Ludovicus
+-- Log: Added missing guide type.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26212/view
 -- Date: 2014-05-25 22:29
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -140,7 +145,7 @@
 -- Date: 2010-12-03 07:19
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('MalLos0512', 'The Lost Isles', 'Malorajan', 'Horde')
+local guide = WoWPro:RegisterGuide('MalLos0512', 'Leveling', 'The Lost Isles', 'Malorajan', 'Horde')
 WoWPro:GuideLevels(guide,05,12)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
 WoWPro:GuideSteps(guide, function()
