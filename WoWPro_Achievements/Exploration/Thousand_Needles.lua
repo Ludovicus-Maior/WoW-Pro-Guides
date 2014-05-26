@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2014-05-26 17:38
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3473/revisions/24981/view
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
@@ -15,7 +20,7 @@
 -- Date: 2012-05-27 17:19
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("LudoExpThN","Thousand Needles","Thousand Needles","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
+WoWPro.Achievements:RegisterGuide("LudoExpThN","Achievements","Thousand Needles","Thousand Needles","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
 
 F The Great Lift|QID|908460001|M|32.24,23.20|ACH|846;1|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2014-05-26 18:06
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3520/revisions/26197/view
 -- Date: 2014-05-22 22:43
 -- Who: Ludovicus
 -- Log: Registration guide
@@ -49,7 +54,7 @@
 -- Who: Ludovicus
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('TwoToadSqu','MoP Zones', 'To All the Squirrels I Once Carressed?','Neutral')
+local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'MoP Zones', 'To All the Squirrels I Once Carressed?','Neutral')
 WoWPro:GuideIcon(guide,"ACH",6350)
 WoWPro:GuideNextGuide(guide, 'TwoToad')
 WoWPro:GuideSteps(guide, function()

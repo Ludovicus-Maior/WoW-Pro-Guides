@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2014-05-26 17:38
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3473/revisions/24981/view
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
@@ -15,7 +20,7 @@
 -- Date: 2012-05-27 17:19
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("LudoExpStM","Stonetalon Mountains","Stonetalon Mountains","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
+WoWPro.Achievements:RegisterGuide("LudoExpStM","Achievements","Stonetalon Mountains","Stonetalon Mountains","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
 
 F Battlescar Valley|QID|908470001|M|40.91,40.20|ACH|847;1|

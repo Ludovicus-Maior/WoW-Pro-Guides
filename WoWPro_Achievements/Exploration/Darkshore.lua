@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2014-05-26 17:38
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3473/revisions/24981/view
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
@@ -15,7 +20,7 @@
 -- Date: 2012-05-27 17:19
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("LudoExpDaS","Darkshore","Darkshore","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
+WoWPro.Achievements:RegisterGuide("LudoExpDaS","Achievements","Darkshore","Darkshore","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
 
 F Ruins of Auberdine|QID|908440001|M|38.50,42.32|ACH|844;1|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2014-05-26 17:38
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3473/revisions/24981/view
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
@@ -15,7 +20,7 @@
 -- Date: 2012-05-27 17:19
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("LdoExpTG","Moonglade","Moonglade","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
+WoWPro.Achievements:RegisterGuide("LdoExpTG","Achievements","Moonglade","Moonglade","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
 return [[
 
 F Lake Elune'ara|QID|908550001|M|56.50,55.87|ACH|855;1|

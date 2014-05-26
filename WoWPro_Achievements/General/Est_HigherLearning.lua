@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3538
+-- Date: 2014-05-26 18:05
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3538/revisions/26199/view
 -- Date: 2014-05-22 22:57
 -- Who: Ludovicus
 -- Log: Registration guide
@@ -12,7 +17,7 @@
 -- Date: 2013-03-23 16:35
 -- Who: Ludovicus
 
-local guide = WoWPro:RegisterGuide('EstAchHiLe','Dalaran', 'Higher Learning','Neutral')
+local guide = WoWPro:RegisterGuide('EstAchHiLe',"Achievements",'Dalaran', 'Higher Learning','Neutral')
 WoWPro:GuideIcon(guide,"ACH",1956)
 WoWPro:GuideNextGuide(guide, 'Estelyen')
 WoWPro:GuideSteps(guide, function()

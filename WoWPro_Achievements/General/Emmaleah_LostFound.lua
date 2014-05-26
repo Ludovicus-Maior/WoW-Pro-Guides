@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2014-05-26 18:04
+-- Who: Ludovicus
+-- Log: Added guide type. Typographical corrections.
+
+-- URL: http://wow-pro.com/node/3514/revisions/26200/view
 -- Date: 2014-05-22 23:08
 -- Who: Ludovicus
 -- Log: Registration guide; typographical corrections
@@ -58,7 +63,7 @@
 -- Who: Ludovicus
 -- Log: Close of Blog Page
 
-local guide = WoWPro:RegisterGuide('EmmAchLost','MoP Zones', 'Lost and Found - Riches of Pandaria','Neutral')
+local guide = WoWPro:RegisterGuide('EmmAchLost',"Achievements",'MoP Zones', 'Lost and Found - Riches of Pandaria','Neutral')
 -- WoWPro:GuideIcon(guide,"ACH",XXX)
 WoWPro:GuideNextGuide(guide, 'Emmaleah')
 WoWPro:GuideSteps(guide, function()
@@ -70,7 +75,7 @@ N Setting of Ranks|QID|972810001|N|If you are only interested in the Lost and Fo
 N Basic "how it works"|QID|972810001|N|These use hidden "flag" quests so that the items will only be available once per character. If you move while opening the container (including being attacked) you may lose the item, and so far GMs have not been replacing, Also, if your inventory is full, no item. You do get the achievement even if you don't get the item. If you are using this addon, you do not need the scripts on Wowhead to tell you which ones you haven't yet found, as that is what this does, by checking off the steps as you find them.|
 N Some require NPC Interaction|QID|972810001|N|Some of the items require you talk to NPC's to get the item (instead of groundspawns). There are target buttons for those steps, the number beside their name (in the note) is their NPC code if you want to add to NPC Scan.|
 N Some may already be completed|QID|972810001|N|These all give XP If done pre-90 so the leveling guides have you look for several (most) of them. The ones for the achievement are rare, you will need to manually skip several of them (since they won't be there) and come back another day. Reset the guide to unmark the skipped steps and start over.|
-N One Last Note|QID|972810001|N|Dispite these showing a yellow "!" in the guide steps, you do not actually accept a quest or see a "!" over the item on the ground.|
+N One Last Note|QID|972810001|N|Despite these showing a yellow "!" in the guide steps, you do not actually accept a quest or see a "!" over the item on the ground.|
 
 A Ancient Pandaren Fishing Charm|QID|31284|L|85973|RANK|1|T|Ghostly Pandaren Fisherman|M|46.8,24.6|Z|Valley of the Four Winds|N|Talk to 'Ghostly Pandaren Fisherman'[64004](possibly beside any lake}.|
 A Ancient Pandaren Woodcutter|QID|31292|L|86079|RANK|1|T|Ghostly Pandaren Craftsman|M|45.4,38.2|Z|Valley of the Four Winds|N|Talk to 'Ghostly Pandaren Craftsman'[64191]He wanders thru Halfhill and into the Heartland.|

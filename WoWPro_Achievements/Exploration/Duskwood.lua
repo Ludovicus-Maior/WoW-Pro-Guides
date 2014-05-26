@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
+-- Date: 2014-05-26 17:28
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3475/revisions/26308/view
+-- Date: 2014-05-26 17:18
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3475/revisions/26192/view
 -- Date: 2014-05-21 16:15
 -- Who: Ludovicus
 -- Log: Registration guide
@@ -127,7 +137,7 @@
 -- Date: 2012-05-27 17:50
 -- Who: Ludovicus
 
-local guide = WoWPro:RegisterGuide("TwiExpDW","Duskwood","Duskwood", "Neutral")
+local guide = WoWPro:RegisterGuide("TwiExpDW","Achievements","Duskwood","Duskwood", "Neutral")
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideIcon(guide,"ACH",778)
 WoWPro:GuideNextGuide(guide, "Twists")
