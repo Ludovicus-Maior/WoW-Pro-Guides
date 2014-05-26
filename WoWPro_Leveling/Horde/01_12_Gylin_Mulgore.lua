@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2014-05-25 22:23
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3203/revisions/25853/view
 -- Date: 2013-12-26 21:13
 -- Who: Ludovicus
 -- Log: Removed level 3 quid.  Not needed and interfered with non-taurens.
@@ -107,7 +112,7 @@
 -- Date: 2010-12-02 23:02
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('GylMul0105', 'Mulgore', 'Gylin', '01', '12', 'BitNor1220', 'Horde', function()
+WoWPro.Leveling:RegisterGuide('GylMul0105', "Leveling", 'Mulgore', 'Gylin', '01', '12', 'BitNor1220', 'Horde', function()
 return [[
 
 A The First Step|QID|14449|M|45.14,75.56|Z|Mulgore|N|From Chief Hawkwind.|

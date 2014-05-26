@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2014-05-26 01:20
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3487/revisions/26117/view
 -- Date: 2014-05-18 22:55
 -- Who: Ludovicus
 -- Log: Icon
@@ -97,7 +102,7 @@
 -- Who: Ludovicus
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-local guide = WoWPro:RegisterGuide('EmmJad8586', 'The Jade Forest', 'Emmaleah', 'Horde')
+local guide = WoWPro:RegisterGuide('EmmJad8586', "Leveling", 'The Jade Forest', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,85,86)
 WoWPro:GuideNextGuide(guide, 'EmmVal8688')
 WoWPro:GuideIcon(guide,"ACH",6351)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2014-05-26 01:08
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3299/revisions/26159/view
 -- Date: 2014-05-20 19:49
 -- Who: Ludovicus
 -- Log: Icon
@@ -55,7 +60,7 @@
 -- Date: 2010-12-03 22:32
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "Alliance")
+local guide = WoWPro:RegisterGuide("CybSto7980", "Leveling", "The Storm Peaks", "Cyberlamb", "Alliance")
 WoWPro:GuideLevels(guide,79,80)
 WoWPro:GuideNextGuide(guide, "EstIce7985")
 WoWPro:GuideIcon(guide,"ACH",4928)

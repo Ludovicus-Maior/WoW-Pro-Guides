@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2014-05-25 23:03
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3253/revisions/26079/view
 -- Date: 2014-05-18 21:52
 -- Who: Ludovicus
 -- Log: Icon
@@ -97,7 +102,7 @@
 -- Date: 2010-12-03 11:36
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('WkjTho4045', 'Thousand Needles', 'Wkjezz', 'Alliance')
+local guide = WoWPro:RegisterGuide('WkjTho4045', "Leveling", 'Thousand Needles', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'WkjTan4550')
 WoWPro:GuideIcon(guide,"ACH",4938)

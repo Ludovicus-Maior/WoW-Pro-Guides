@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2014-05-26 00:59
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3287/revisions/26165/view
 -- Date: 2014-05-20 19:57
 -- Who: Ludovicus
 -- Log: Icon
@@ -56,7 +61,7 @@
 -- Date: 2010-12-03 22:07
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("JamHow7274", "Howling Fjord", "Jame", "Alliance")
+local guide = WoWPro:RegisterGuide("JamHow7274", "Leveling", "Howling Fjord", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,72,74)
 WoWPro:GuideNextGuide(guide, "JamDra7475")
 WoWPro:GuideIcon(guide,"ACH",4928)

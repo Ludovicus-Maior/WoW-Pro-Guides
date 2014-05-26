@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-05-25 22:29
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26126/view
 -- Date: 2014-05-19 21:08
 -- Who: Hendo72
 -- Log: Reverted my change as it does not work properly. I added extra coordinates to point to Sassy and added a note about losing your Hot Rod at this point.
@@ -135,7 +140,7 @@
 -- Date: 2010-12-03 07:19
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('MalKez0105', 'Kezan (Goblin)', 'Malorajan', 'Horde')
+local guide = WoWPro:RegisterGuide('MalKez0105', "Leveling", 'Kezan (Goblin)', 'Malorajan', 'Horde')
 WoWPro:GuideLevels(guide,01,05)
 WoWPro:GuideNextGuide(guide, 'MalLos0512')
 WoWPro:GuideSteps(guide, function()

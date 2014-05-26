@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2014-05-26 01:00
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3289/revisions/26167/view
 -- Date: 2014-05-20 19:58
 -- Who: Ludovicus
 -- Log: Icon
@@ -106,7 +111,7 @@
 -- Date: 2010-12-03 22:13
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("JamBor6872", "Borean Tundra", "Jame", "Alliance")
+local guide = WoWPro:RegisterGuide("JamBor6872", "Leveling", "Borean Tundra", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,68,72)
 WoWPro:GuideNextGuide(guide, "JamHow7274")
 WoWPro:GuideIcon(guide,"ACH",4928)

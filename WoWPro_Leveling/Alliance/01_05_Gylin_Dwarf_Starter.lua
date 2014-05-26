@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-05-25 22:08
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3200/revisions/26021/view
 -- Date: 2014-05-17 16:06
 -- Who: Ludovicus
 
@@ -254,10 +259,6 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/23319/view
 -- Date: 2010-12-03 07:56
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3200/revisions/23261/view
--- Date: 2010-12-02 21:47
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("GylDwa0105", "Dun Morogh (Dwarf)", "Gylin - Dwarf", "Alliance")

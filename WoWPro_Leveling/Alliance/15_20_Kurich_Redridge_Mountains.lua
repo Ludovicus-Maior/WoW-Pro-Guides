@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2014-05-25 22:35
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3215/revisions/26099/view
 -- Date: 2014-05-18 22:14
 -- Who: Ludovicus
 -- Log: Icon
@@ -91,7 +96,7 @@
 -- Date: 2010-12-03 07:27
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "Alliance")
+local guide = WoWPro:RegisterGuide("KurRed1520", "Leveling", "Redridge Mountains", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,15,20)
 WoWPro:GuideNextGuide(guide, "TwiDus2025")
 WoWPro:GuideIcon(guide,"ACH",4902)

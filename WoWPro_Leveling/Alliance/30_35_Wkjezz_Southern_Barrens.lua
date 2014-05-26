@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2014-05-25 22:51
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3235/revisions/26081/view
 -- Date: 2014-05-18 21:54
 -- Who: Ludovicus
 -- Log: Icon
@@ -73,7 +78,7 @@
 -- Date: 2010-12-03 10:50
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('WkjSotBar3035', 'Southern Barrens', 'WKJezz', 'Alliance')
+local guide = WoWPro:RegisterGuide('WkjSotBar3035', "Leveling", 'Southern Barrens', 'WKJezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'WkjDus3540')
 WoWPro:GuideIcon(guide,"ACH",4937)

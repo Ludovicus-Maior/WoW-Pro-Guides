@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2014-05-25 22:46
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3230/revisions/26105/view
 -- Date: 2014-05-18 22:24
 -- Who: Ludovicus
 -- Log: Icon
@@ -35,7 +40,7 @@
 -- Date: 2010-12-03 10:08
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('JiyAra2530', 'Arathi Highlands', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyAra2530', "Leveling", 'Arathi Highlands', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,25,30)
 WoWPro:GuideNextGuide(guide, 'JiyHin3035')
 WoWPro:GuideIcon(guide,"ACH",4896)

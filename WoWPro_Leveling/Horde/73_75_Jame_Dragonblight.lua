@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2014-05-26 01:03
+-- Who: Ludovicus
+-- Log: added guide type.
+
+-- URL: http://wow-pro.com/node/3292/revisions/26158/view
 -- Date: 2014-05-20 19:48
 -- Who: Ludovicus
 -- Log: Icon
@@ -60,7 +65,7 @@
 -- Date: 2010-12-03 22:23
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("JamDra7375", "Dragonblight", "Jame", "Horde")
+local guide = WoWPro:RegisterGuide("JamDra7375", "Leveling", "Dragonblight", "Jame", "Horde")
 WoWPro:GuideLevels(guide,73,75)
 WoWPro:GuideNextGuide(guide, "JamGriH7577")
 WoWPro:GuideIcon(guide,"ACH",4928)

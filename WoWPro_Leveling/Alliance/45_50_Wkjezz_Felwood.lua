@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2014-05-25 23:05
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3257/revisions/26083/view
 -- Date: 2014-05-18 21:55
 -- Who: Ludovicus
 -- Log: Icon
@@ -54,7 +59,7 @@
 -- Date: 2010-12-03 11:44
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', 'Alliance')
+local guide = WoWPro:RegisterGuide('WkjFel4550', "Leveling", 'Felwood', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'JiyWin5055')
 WoWPro:GuideIcon(guide,"ACH",4931)

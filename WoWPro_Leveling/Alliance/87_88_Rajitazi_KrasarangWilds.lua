@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2014-05-26 01:23
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3488/revisions/26111/view
 -- Date: 2014-05-18 22:44
 -- Who: Ludovicus
 -- Log: Icon
@@ -98,7 +103,7 @@
 -- Who: Ludovicus
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-local guide = WoWPro:RegisterGuide('RajKra8788', 'Krasarang Wilds', 'Rajitazi', 'Alliance')
+local guide = WoWPro:RegisterGuide('RajKra8788', "Leveling", 'Krasarang Wilds', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'EmmKun8889')
 WoWPro:GuideIcon(guide,"ACH",6975)

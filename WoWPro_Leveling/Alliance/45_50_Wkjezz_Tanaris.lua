@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2014-05-25 23:07
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3259/revisions/26085/view
 -- Date: 2014-05-18 21:57
 -- Who: Ludovicus
 -- Log: Icon
@@ -79,7 +84,7 @@
 -- Date: 2010-12-03 11:48
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', 'Alliance')
+local guide = WoWPro:RegisterGuide('WkjTan4550', "Leveling", 'Tanaris', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'JiyUng5055')
 WoWPro:GuideIcon(guide,"ACH",4935)

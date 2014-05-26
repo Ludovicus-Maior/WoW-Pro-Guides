@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2014-05-25 22:54
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3313/revisions/26076/view
 -- Date: 2014-05-18 21:48
 -- Who: Ludovicus
 -- Log: Icon
@@ -116,7 +121,7 @@
 -- Date: 2010-12-03 23:45
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('WkjDes3035', 'Desolace', 'Wkjezz', 'Alliance')
+local guide = WoWPro:RegisterGuide('WkjDes3035', "Leveling", 'Desolace', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'WkjFer3540')
 WoWPro:GuideIcon(guide,"ACH",4930)

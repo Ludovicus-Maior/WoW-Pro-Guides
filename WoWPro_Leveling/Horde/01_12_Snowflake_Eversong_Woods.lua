@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2014-05-25 22:26
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3207/revisions/26134/view
 -- Date: 2014-05-20 18:51
 -- Who: Ludovicus
 -- Log: Icon
@@ -182,7 +187,7 @@
 -- Date: 2010-12-02 23:20
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("SnoEve0112", "Eversong Woods", "Snowflake", "Horde")
+local guide = WoWPro:RegisterGuide("SnoEve0112", "Leveling", "Eversong Woods", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,01,12)
 WoWPro:GuideNextGuide(guide, "SnoGho1221")
 WoWPro:GuideIcon(guide,"ACH",4928)

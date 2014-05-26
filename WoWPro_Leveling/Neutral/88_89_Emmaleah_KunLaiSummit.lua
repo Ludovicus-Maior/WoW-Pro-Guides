@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2014-05-26 01:25
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3490/revisions/26113/view
 -- Date: 2014-05-18 22:46
 -- Who: Ludovicus
 -- Log: Icon
@@ -180,7 +185,7 @@
 -- Who: Ludovicus
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-local guide = WoWPro:RegisterGuide('EmmKun8889', 'Kun-Lai Summit', 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmKun8889', "Leveling", 'Kun-Lai Summit', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,88,89)
 WoWPro:GuideNextGuide(guide, 'EmmTow8990|EmmTow8990')
 WoWPro:GuideIcon(guide,"ACH",6976)

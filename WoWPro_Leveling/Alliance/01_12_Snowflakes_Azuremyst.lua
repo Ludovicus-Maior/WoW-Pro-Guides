@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2014-05-25 22:20
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3206/revisions/26142/view
 -- Date: 2014-05-20 19:25
 -- Who: Ludovicus
 -- Log: Icon
@@ -129,7 +134,7 @@
 -- Date: 2010-12-02 23:18
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "Alliance")
+local guide = WoWPro:RegisterGuide("SnoAzu0112", "Leveling", "Azuremyst Isle (Draenai)", "Snowflake", "Alliance")
 WoWPro:GuideLevels(guide,1,12)
 WoWPro:GuideNextGuide(guide, "SveBlo1220")
 WoWPro:GuideIcon(guide,"ACH",4928)

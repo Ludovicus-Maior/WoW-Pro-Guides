@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2014-05-26 00:36
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3273/revisions/26144/view
 -- Date: 2014-05-20 19:34
 -- Who: Ludovicus
 -- Log: Icon
@@ -96,7 +101,7 @@
 -- Date: 2010-12-03 12:11
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("JamZan6264", "Zangarmarsh", "Jame", "Alliance")
+local guide = WoWPro:RegisterGuide("JamZan6264", "Leveling", "Zangarmarsh", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,62,64)
 WoWPro:GuideNextGuide(guide, "JamTer6466")
 WoWPro:GuideIcon(guide,"ACH",4928)

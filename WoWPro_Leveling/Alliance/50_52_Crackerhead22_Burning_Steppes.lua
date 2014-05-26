@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2014-05-26 00:29
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3265/revisions/26260/view
+-- Date: 2014-05-26 00:28
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3265/revisions/26093/view
 -- Date: 2014-05-18 22:09
 -- Who: Ludovicus
 -- Log: Icon
@@ -61,7 +71,7 @@
 -- Date: 2010-12-03 11:58
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', 'Alliance')
+local guide = WoWPro:RegisterGuide('CraBur5052', "Leveling", 'Burning Steppes', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'CraSwa5254')
 WoWPro:GuideIcon(guide,"ACH",4901)

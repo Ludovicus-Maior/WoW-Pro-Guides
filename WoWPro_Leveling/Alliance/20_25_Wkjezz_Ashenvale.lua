@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2014-05-25 22:44
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3225/revisions/26071/view
 -- Date: 2014-05-18 21:44
 -- Who: Ludovicus
 -- Log: Icon
@@ -119,7 +124,7 @@
 -- Date: 2010-12-03 09:14
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('WkjAsh2025', 'Ashenvale', 'WKJezz', 'Alliance')
+local guide = WoWPro:RegisterGuide('WkjAsh2025', "Leveling", 'Ashenvale', 'WKJezz', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'WkjSton2530')
 WoWPro:GuideIcon(guide,"ACH",4925)

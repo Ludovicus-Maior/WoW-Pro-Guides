@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2014-05-25 22:41
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3221/revisions/26138/view
 -- Date: 2014-05-20 19:11
 -- Who: Ludovicus
 -- Log: Icon
@@ -96,7 +101,7 @@
 -- Date: 2010-12-03 07:36
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("SnoGho1221", "Ghostlands", "Snowflake", "Horde")
+local guide = WoWPro:RegisterGuide("SnoGho1221", "Leveling", "Ghostlands", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,12,21)
 WoWPro:GuideNextGuide(guide, "AyaHil2025")
 WoWPro:GuideIcon(guide,"ACH",4928)

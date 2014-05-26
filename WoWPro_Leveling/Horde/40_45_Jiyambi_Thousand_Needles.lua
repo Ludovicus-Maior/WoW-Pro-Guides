@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
+-- Date: 2014-05-25 23:03
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3254/revisions/26080/view
 -- Date: 2014-05-18 21:52
 -- Who: Ludovicus
 -- Log: Icon
@@ -48,7 +53,7 @@
 -- Date: 2010-12-03 11:38
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('JiyTho4045', 'Thousand Needles', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyTho4045', "Leveling", 'Thousand Needles', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,40,45)
 WoWPro:GuideNextGuide(guide, 'JiyTan4550')
 WoWPro:GuideIcon(guide,"ACH",4938)

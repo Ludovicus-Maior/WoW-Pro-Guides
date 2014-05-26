@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2014-05-26 00:47
+-- Who: Ludovicus
+-- Log: Added guide type,
+
+-- URL: http://wow-pro.com/node/3286/revisions/26154/view
 -- Date: 2014-05-20 19:44
 -- Who: Ludovicus
 -- Log: Icon
@@ -54,7 +59,7 @@
 -- Date: 2010-12-03 21:58
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('CraSha7070H', 'Shadowmoon Valley', 'Crackerhead22', 'Horde')
+local guide = WoWPro:RegisterGuide('CraSha7070H', "Leveling", 'Shadowmoon Valley', 'Crackerhead22', 'Horde')
 WoWPro:GuideLevels(guide,69,70)
 WoWPro:GuideNextGuide(guide, 'JamBor7173')
 WoWPro:GuideIcon(guide,"ACH",4928)

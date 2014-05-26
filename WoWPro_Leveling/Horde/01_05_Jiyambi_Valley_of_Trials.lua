@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-05-25 22:22
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26139/view
 -- Date: 2014-05-20 19:14
 -- Who: Ludovicus
 -- Log: Icon
@@ -196,7 +201,7 @@
 -- Date: 2010-12-02 21:14
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('JiyDur0105', 'Durotar (Orc)', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Durotar (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
 WoWPro:GuideIcon(guide,"ACH",4928)

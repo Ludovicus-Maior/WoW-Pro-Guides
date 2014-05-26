@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2014-05-25 22:01
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3369/revisions/26201/view
+-- Date: 2014-05-25 20:58
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3369/revisions/26059/view
 -- Date: 2014-05-17 20:30
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -45,9 +54,10 @@
 -- Who: Ludovicus
 -- Log: Initial Create
 
-local guide = WoWPro:RegisterGuide("JamScar5558", "ScarletEnclave (Death Knight)", "Jame", "Neutral")
+local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave (Death Knight)", "Jame", "Neutral")
 WoWPro:GuideLevels(guide,55,58)
 WoWPro:GuideNextGuide(guide, "CraBla5458|JiyBla5560")
+WoWPro:GuideClassSpecific(guide,"DeathKnight")
 WoWPro:GuideSteps(guide, function()
 return [[
 

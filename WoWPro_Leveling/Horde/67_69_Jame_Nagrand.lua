@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2014-05-26 00:41
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3280/revisions/26156/view
 -- Date: 2014-05-20 19:46
 -- Who: Ludovicus
 -- Log: Icon
@@ -54,7 +59,7 @@
 -- Date: 2010-12-03 21:35
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("JamNag6769", "Nagrand", "Jame", "Horde")
+local guide = WoWPro:RegisterGuide("JamNag6769", "Leveling", "Nagrand", "Jame", "Horde")
 WoWPro:GuideLevels(guide,67,69)
 WoWPro:GuideNextGuide(guide, "JamBla6970")
 WoWPro:GuideIcon(guide,"ACH",4928)

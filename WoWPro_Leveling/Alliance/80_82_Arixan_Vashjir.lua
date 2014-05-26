@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2014-05-26 01:13
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3305/revisions/26121/view
 -- Date: 2014-05-18 23:04
 -- Who: Ludovicus
 -- Log: Icon
@@ -220,11 +225,7 @@
 -- Date: 2010-12-30 08:17
 -- Who: JamesL85
 
--- URL: http://wow-pro.com/node/3305/revisions/23800/view
--- Date: 2010-12-20 15:48
--- Who: MagicSN
-
-local guide = WoWPro:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', 'Alliance')
+local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'AriDee8283')
 WoWPro:GuideIcon(guide,"ACH",4825)

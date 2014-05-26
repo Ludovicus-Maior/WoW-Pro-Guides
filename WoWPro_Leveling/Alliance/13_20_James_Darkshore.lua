@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2014-05-25 22:38
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3218/revisions/26065/view
 -- Date: 2014-05-18 21:30
 -- Who: Ludovicus
 -- Log: Added Icon
@@ -107,7 +112,7 @@
 -- Date: 2010-12-03 07:32
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("JamDar1320", "Darkshore", "Jame", "Alliance")
+local guide = WoWPro:RegisterGuide("JamDar1320", "Leveling", "Darkshore", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,13,20)
 WoWPro:GuideNextGuide(guide, "WkjAsh2025")
 WoWPro:GuideIcon(guide,"ACH",4928)

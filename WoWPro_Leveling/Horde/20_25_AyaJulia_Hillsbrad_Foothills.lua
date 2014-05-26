@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
+-- Date: 2014-05-25 22:43
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3223/revisions/26129/view
 -- Date: 2014-05-20 17:35
 -- Who: Ludovicus
 -- Log: Icon
@@ -47,7 +52,7 @@
 -- Date: 2010-12-03 07:38
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('AyaHil2025', 'Hillsbrad Foothills', 'Shanyn', 'Horde')
+local guide = WoWPro:RegisterGuide('AyaHil2025', "Leveling", 'Hillsbrad Foothills', 'Shanyn', 'Horde')
 WoWPro:GuideLevels(guide,20,25)
 WoWPro:GuideNextGuide(guide, 'JiyAra2530')
 WoWPro:GuideIcon(guide,"ACH",4928)

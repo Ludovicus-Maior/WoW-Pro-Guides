@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silverpine_forest
+-- Date: 2014-05-25 22:39
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3219/revisions/26137/view
 -- Date: 2014-05-20 19:05
 -- Who: Ludovicus
 -- Log: Icon
@@ -40,7 +45,7 @@
 -- Date: 2010-12-03 07:33
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('MalSil1220', 'Silverpine Forest', 'Malorajan', 'Horde')
+local guide = WoWPro:RegisterGuide('MalSil1220', "Leveling", 'Silverpine Forest', 'Malorajan', 'Horde')
 WoWPro:GuideLevels(guide,12,20)
 WoWPro:GuideNextGuide(guide, 'AyaHil2025')
 WoWPro:GuideIcon(guide,"ACH",4928)

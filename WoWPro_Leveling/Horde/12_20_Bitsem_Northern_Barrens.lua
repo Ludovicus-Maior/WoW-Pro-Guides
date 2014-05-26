@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2014-05-25 22:34
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3214/revisions/26141/view
 -- Date: 2014-05-20 19:22
 -- Who: Ludovicus
 -- Log: Icon
@@ -86,7 +91,7 @@
 -- Date: 2010-12-03 07:24
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('BitNor1220', 'Northern Barrens', 'Bitsem', 'Horde')
+local guide = WoWPro:RegisterGuide('BitNor1220', "Leveling", 'Northern Barrens', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,12,20)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
 WoWPro:GuideIcon(guide,"ACH",4928)

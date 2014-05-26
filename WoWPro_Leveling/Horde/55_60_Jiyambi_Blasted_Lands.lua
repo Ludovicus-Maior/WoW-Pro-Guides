@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2014-05-26 00:32
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3268/revisions/26098/view
 -- Date: 2014-05-18 22:13
 -- Who: Ludovicus
 -- Log: Icon
@@ -50,7 +55,7 @@
 -- Date: 2010-12-03 12:02
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('JiyBla5560', 'Blasted Lands', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyBla5560', "Leveling", 'Blasted Lands', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,55,60)
 WoWPro:GuideNextGuide(guide, 'JamHel6063')
 WoWPro:GuideIcon(guide,"ACH",4909)

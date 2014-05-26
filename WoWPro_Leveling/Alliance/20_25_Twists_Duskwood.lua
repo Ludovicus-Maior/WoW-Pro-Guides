@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2014-05-25 22:42
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3222/revisions/26131/view
 -- Date: 2014-05-20 18:44
 -- Who: Ludovicus
 -- Log: Icon
@@ -82,7 +87,7 @@
 -- Date: 2010-12-03 07:38
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("TwiDus2025", "Duskwood", "Twists", "Alliance")
+local guide = WoWPro:RegisterGuide("TwiDus2025", "Leveling", "Duskwood", "Twists", "Alliance")
 WoWPro:GuideLevels(guide,20,25)
 WoWPro:GuideNextGuide(guide, "SavNorStr2530")
 WoWPro:GuideIcon(guide,"ACH",4928)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
+-- Date: 2014-05-25 23:07
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3260/revisions/26086/view
 -- Date: 2014-05-18 21:57
 -- Who: Ludovicus
 -- Log: Icon
@@ -35,7 +40,7 @@
 -- Date: 2010-12-03 11:49
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('JiyTan4550', 'Tanaris', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyTan4550', "Leveling", 'Tanaris', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,45,50)
 WoWPro:GuideNextGuide(guide, 'JiyUng5055')
 WoWPro:GuideIcon(guide,"ACH",4935)

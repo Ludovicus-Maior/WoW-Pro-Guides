@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2014-05-25 22:57
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3245/revisions/26067/view
 -- Date: 2014-05-18 21:34
 -- Who: Ludovicus
 -- Log: Icon.
@@ -41,7 +46,7 @@
 -- Date: 2010-12-03 11:23
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide('JiyFer3540', 'Feralas', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyFer3540', "Leveling", 'Feralas', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,35,40)
 WoWPro:GuideNextGuide(guide, 'JiyTho4045')
 WoWPro:GuideIcon(guide,"ACH",4932)

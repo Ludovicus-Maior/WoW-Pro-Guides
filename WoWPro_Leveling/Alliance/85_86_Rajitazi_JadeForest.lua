@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2014-05-26 01:18
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3486/revisions/26116/view
 -- Date: 2014-05-18 22:55
 -- Who: Ludovicus
 -- Log: Icon
@@ -143,7 +148,7 @@
 -- Who: Ludovicus
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-local guide = WoWPro:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', 'Alliance')
+local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,0,0)
 WoWPro:GuideNextGuide(guide, 'EmmVal8688')
 WoWPro:GuideIcon(guide,"ACH",6351)

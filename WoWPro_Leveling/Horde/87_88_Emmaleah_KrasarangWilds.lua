@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2014-05-26 01:24
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3489/revisions/26112/view
 -- Date: 2014-05-18 22:45
 -- Who: Ludovicus
 -- Log: Icon
@@ -94,7 +99,7 @@
 -- Who: Ludovicus
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-local guide = WoWPro:RegisterGuide('EmmKra8788', 'Krasarang Wilds', 'Emmaleah', 'Horde')
+local guide = WoWPro:RegisterGuide('EmmKra8788', "Leveling", 'Krasarang Wilds', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,87,88)
 WoWPro:GuideNextGuide(guide, 'EmmKun8889')
 WoWPro:GuideIcon(guide,"ACH",6975)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2014-05-25 22:21
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3211/revisions/25954/view
 -- Date: 2014-05-14 22:02
 -- Who: Ludovicus
 -- Log: New registration guide.
@@ -172,7 +177,7 @@
 -- Date: 2010-12-03 07:17
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "Alliance")
+local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "Rpotor", "Alliance")
 WoWPro:GuideLevels(guide,1,13)
 WoWPro:GuideNextGuide(guide, "JamDar1320")
 WoWPro:GuideSteps(guide, function()

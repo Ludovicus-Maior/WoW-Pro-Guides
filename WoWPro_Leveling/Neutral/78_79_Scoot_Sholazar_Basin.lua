@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2014-05-26 01:07
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3297/revisions/26169/view
 -- Date: 2014-05-20 20:00
 -- Who: Ludovicus
 -- Log: Icon
@@ -81,7 +86,7 @@
 -- Date: 2010-12-03 22:30
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("ScoSho7879", "Sholazar Basin", "Scoot", "Neutral")
+local guide = WoWPro:RegisterGuide("ScoSho7879", "Leveling", "Sholazar Basin", "Scoot", "Neutral")
 WoWPro:GuideLevels(guide,78,79)
 WoWPro:GuideNextGuide(guide, "EstIce7985|ScoSto7980")
 WoWPro:GuideIcon(guide,"ACH",4928)

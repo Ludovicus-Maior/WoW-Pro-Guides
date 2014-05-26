@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2014-05-25 22:06
+-- Who: Ludovicus
+-- Log: Added guide type
+
+-- URL: http://wow-pro.com/node/3197/revisions/26130/view
 -- Date: 2014-05-20 18:41
 -- Who: Ludovicus
 -- Log: Icon
@@ -130,7 +135,7 @@
 -- Date: 2010-12-02 09:42
 -- Who: Jiyambi
 
-local guide = WoWPro:RegisterGuide("KurElw0111", "Elwynn Forest(Human)", "Kurich", "Alliance")
+local guide = WoWPro:RegisterGuide("KurElw0111", "Leveling", "Elwynn Forest(Human)", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,1,11)
 WoWPro:GuideNextGuide(guide, "BitWes1020")
 WoWPro:GuideIcon(guide,"ACH",4928)
