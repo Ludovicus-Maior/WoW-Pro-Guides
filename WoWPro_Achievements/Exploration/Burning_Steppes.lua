@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
+-- Date: 2014-05-27 00:59
+-- Who: Ludovicus
+-- Log: Guide Intro edits
+
+-- URL: http://wow-pro.com/node/3475/revisions/26309/view
 -- Date: 2014-05-26 17:28
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -137,10 +142,9 @@
 -- Date: 2012-05-27 17:50
 -- Who: Ludovicus
 
-local guide = WoWPro:RegisterGuide("TwiExpBS","Achievements","Burning Steppes","Burning Steppes", "Neutral")
-WoWPro:GuideLevels(guide,0,0)
+local guide = WoWPro:RegisterGuide("TwiExpBS","Achievements","Burning Steppes","Twists", "Neutral")
 WoWPro:GuideIcon(guide,"ACH",775)
-WoWPro:GuideNextGuide(guide, "Twists")
+WoWPro:GuideNextGuide(guide, "")
 WoWPro:GuideSteps(guide, function()
 return [[
 
