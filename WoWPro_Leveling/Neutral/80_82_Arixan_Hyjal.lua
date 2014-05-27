@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2014-05-27 19:37
+-- Who: Ludovicus
+-- Log: StartLevel corrected from 80 to 78.
+
+-- URL: http://wow-pro.com/node/3303/revisions/26293/view
 -- Date: 2014-05-26 01:12
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -200,7 +205,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('Arihyj8082', "Leveling", 'Mount Hyjal', 'Arixan', 'Neutral')
-WoWPro:GuideLevels(guide,80,82)
+WoWPro:GuideLevels(guide,78,82)
 WoWPro:GuideNextGuide(guide, 'AriDee8283|AriDee8283')
 WoWPro:GuideIcon(guide,"ACH",4863)
 WoWPro:GuideSteps(guide, function()

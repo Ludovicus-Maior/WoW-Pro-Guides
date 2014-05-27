@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2014-05-27 21:28
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "75,77" to "72,74".
+
+-- URL: http://wow-pro.com/node/3293/revisions/26285/view
 -- Date: 2014-05-26 01:05
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -118,7 +123,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamGriA7577", "Leveling", "Grizzly Hills", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,75,77)
+WoWPro:GuideLevels(guide,72,74)
 WoWPro:GuideNextGuide(guide, "ScoZul7778")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

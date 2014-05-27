@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2014-05-27 20:45
+-- Who: Ludovicus
+-- Log: End Level corrected from 0 to 86.
+
+-- URL: http://wow-pro.com/node/3486/revisions/26300/view
 -- Date: 2014-05-26 01:18
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -149,7 +154,7 @@
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,0,86)
 WoWPro:GuideNextGuide(guide, 'EmmVal8688')
 WoWPro:GuideIcon(guide,"ACH",6351)
 WoWPro:GuideSteps(guide, function()

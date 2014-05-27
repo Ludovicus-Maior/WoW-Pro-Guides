@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silithus_neutral
+-- Date: 2014-05-27 19:50
+-- Who: Ludovicus
+-- Log: Guide Levels corrected from "55,60" to "54,54".
+
+-- URL: http://wow-pro.com/node/3270/revisions/26265/view
 -- Date: 2014-05-26 00:33
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -75,7 +80,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiySil5560', "Leveling", 'Silithus', 'Jiyambi', 'Neutral')
-WoWPro:GuideLevels(guide,55,60)
+WoWPro:GuideLevels(guide,54,54)
 WoWPro:GuideNextGuide(guide, 'CraBla5458|JiyBla5560')
 WoWPro:GuideIcon(guide,"ACH",4934)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2014-05-27 19:56
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "40,45" to "39,44".
+
+-- URL: http://wow-pro.com/node/3251/revisions/26250/view
 -- Date: 2014-05-25 23:02
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -129,7 +134,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('CraEas4045', "Leveling", 'Eastern Plaguelands', 'Crackerhead22', 'Neutral')
-WoWPro:GuideLevels(guide,40,45)
+WoWPro:GuideLevels(guide,39,44)
 WoWPro:GuideNextGuide(guide, 'CraBad4548|LiaBad4548')
 WoWPro:GuideIcon(guide,"ACH",4892)
 WoWPro:GuideSteps(guide, function()

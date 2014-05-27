@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2014-05-27 20:28
+-- Who: Ludovicus
+-- Log: Max Level corrected from 13 to 12.
+
+-- URL: http://wow-pro.com/node/3211/revisions/26207/view
 -- Date: 2014-05-25 22:21
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -178,7 +183,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "Rpotor", "Alliance")
-WoWPro:GuideLevels(guide,1,13)
+WoWPro:GuideLevels(guide,1,12)
 WoWPro:GuideNextGuide(guide, "JamDar1320")
 WoWPro:GuideSteps(guide, function()
 return [[

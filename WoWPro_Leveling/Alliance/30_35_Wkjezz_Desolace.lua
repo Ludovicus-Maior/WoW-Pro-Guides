@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2014-05-27 20:56
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "27,34".
+
+-- URL: http://wow-pro.com/node/3313/revisions/26238/view
 -- Date: 2014-05-25 22:54
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -122,7 +127,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjDes3035', "Leveling", 'Desolace', 'Wkjezz', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,27,34)
 WoWPro:GuideNextGuide(guide, 'WkjFer3540')
 WoWPro:GuideIcon(guide,"ACH",4930)
 WoWPro:GuideSteps(guide, function()

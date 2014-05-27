@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_neutral
+-- Date: 2014-05-27 20:42
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "50,55" to "49,54".
+
+-- URL: http://wow-pro.com/node/3264/revisions/26259/view
 -- Date: 2014-05-26 00:27
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -74,7 +79,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyWin5055', "Leveling", 'Winterspring', 'Jiyambi', 'Neutral')
-WoWPro:GuideLevels(guide,50,55)
+WoWPro:GuideLevels(guide,49,54)
 WoWPro:GuideNextGuide(guide, 'CraBla5458|JiyBla5560')
 WoWPro:GuideIcon(guide,"ACH",4940)
 WoWPro:GuideSteps(guide, function()

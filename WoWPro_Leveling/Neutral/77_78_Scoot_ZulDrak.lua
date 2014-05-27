@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2014-05-27 20:35
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "77,78" to "74,75".
+
+-- URL: http://wow-pro.com/node/3295/revisions/26287/view
 -- Date: 2014-05-26 01:06
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -91,7 +96,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("ScoZul7778", "Leveling", "Zul'Drak", "Scoot", "Neutral")
-WoWPro:GuideLevels(guide,77,78)
+WoWPro:GuideLevels(guide,74,75)
 WoWPro:GuideNextGuide(guide, "ScoSho7879|ScoSho7879")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

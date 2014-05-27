@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2014-05-27 20:40
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "1,9".
+
+-- URL: http://wow-pro.com/node/3204/revisions/26205/view
 -- Date: 2014-05-25 22:18
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -107,7 +112,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitTel0110', "Leveling", 'Teldrassil', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,1,9)
 WoWPro:GuideNextGuide(guide, 'JamDar1320')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

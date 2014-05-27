@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2014-05-27 20:46
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "34,39".
+
+-- URL: http://wow-pro.com/node/3244/revisions/26244/view
 -- Date: 2014-05-25 22:58
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -117,7 +122,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitWes3540', "Leveling", 'Western Plaguelands', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,34,39)
 WoWPro:GuideNextGuide(guide, 'CraEas4045')
 WoWPro:GuideIcon(guide,"ACH",4893)
 WoWPro:GuideSteps(guide, function()

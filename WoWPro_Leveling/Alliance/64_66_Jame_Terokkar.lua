@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2014-05-27 20:57
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "64,66" to "60,65".
+
+-- URL: http://wow-pro.com/node/3277/revisions/26270/view
 -- Date: 2014-05-26 00:37
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -104,7 +109,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamTer6466", "Leveling", "Terokkar Forest", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,64,66)
+WoWPro:GuideLevels(guide,60,65)
 WoWPro:GuideNextGuide(guide, "JamNag6668")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

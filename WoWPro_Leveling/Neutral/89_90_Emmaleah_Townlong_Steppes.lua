@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2014-05-27 21:02
+-- Who: Ludovicus
+-- Log: Start Level corrected from 89 to 0.
+
+-- URL: http://wow-pro.com/node/3492/revisions/26306/view
 -- Date: 2014-05-26 01:26
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -82,7 +87,7 @@
 -- Log: Original from Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmTow8990', "Leveling", 'Townlong Steppes', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,89,90)
+WoWPro:GuideLevels(guide,0,90)
 WoWPro:GuideNextGuide(guide, 'EmmDre8990|EmmDre8990')
 WoWPro:GuideIcon(guide,"ACH",6977)
 WoWPro:GuideSteps(guide, function()

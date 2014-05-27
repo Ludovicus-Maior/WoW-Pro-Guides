@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2014-05-27 21:20
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "31,38".
+
+-- URL: http://wow-pro.com/node/3243/revisions/26242/view
 -- Date: 2014-05-25 22:57
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -47,7 +52,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjFer3540', "Leveling", 'Feralas', 'WKjezz', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,31,38)
 WoWPro:GuideNextGuide(guide, 'WkjTho4045')
 WoWPro:GuideIcon(guide,"ACH",4932)
 WoWPro:GuideSteps(guide, function()

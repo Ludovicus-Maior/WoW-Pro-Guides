@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2014-05-27 20:09
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "60,62" to "55,61".
+
+-- URL: http://wow-pro.com/node/3271/revisions/26266/view
 -- Date: 2014-05-26 00:34
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -94,7 +99,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamHel6062", "Leveling", "Hellfire Peninsula", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,60,62)
+WoWPro:GuideLevels(guide,55,61)
 WoWPro:GuideNextGuide(guide, "JamZan6264")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

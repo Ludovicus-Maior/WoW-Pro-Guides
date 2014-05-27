@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2014-05-27 21:06
+-- Who: Ludovicus
+-- Log: End Level corrected from 0 to 23.
+
+-- URL: http://wow-pro.com/node/3224/revisions/26225/view
 -- Date: 2014-05-25 22:43
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -86,7 +91,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjWet2025', "Leveling", 'Wetlands', 'Wkjezz', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,0,23)
 WoWPro:GuideNextGuide(guide, 'BitAra2025')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

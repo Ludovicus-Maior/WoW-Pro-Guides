@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2014-05-27 20:33
+-- Who: Ludovicus
+-- Log: End Level corrected from 0 to 70.
+
+-- URL: http://wow-pro.com/node/3285/revisions/26277/view
 -- Date: 2014-05-26 00:46
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -118,7 +123,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('CraSha7070A', "Leveling", 'Shadowmoon Valley', 'Crackerhead22', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,0,70)
 WoWPro:GuideNextGuide(guide, 'JamBor6872')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
