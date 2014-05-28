@@ -3,10 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_cataclysm
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(4864) - Deepholm
-
 WoWPro.Achievements:RegisterGuide("KabExpDeep","Deepholm","Deepholm","Exploration", "Cataclysm", "Kaboca", "Neutral", function()
 return [[
 F Temple of Earth|QID|948640006|M|49.5,53.0|ACH|4864;6|

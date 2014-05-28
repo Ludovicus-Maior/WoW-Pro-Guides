@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2014-05-28 22:00
+-- Who: Ludovicus
+-- Log: Added Dragonblight
+
+-- URL: http://wow-pro.com/node/3474/revisions/26381/view
+-- Date: 2014-05-28 21:53
+-- Who: Ludovicus
+-- Log: AAdded missing guides.
+
+-- URL: http://wow-pro.com/node/3474/revisions/26377/view
 -- Date: 2014-05-28 20:33
 -- Who: Ludovicus
 -- Log: Conveted

@@ -3,10 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_cataclysm
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(4825) - Vashj'ir
-
 WoWPro.Achievements:RegisterGuide("KabExpVashj","Vashj'ir","Vashj'ir","Exploration", "Cataclysm", "Kaboca", "Neutral", function()
 return [[
 F Seafarer's Tomb|QID|948250013|Z|Kelp'thar Forest|M|50.9,27.8|ACH|4825;13|

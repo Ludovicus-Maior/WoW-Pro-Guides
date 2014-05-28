@@ -3,10 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_cataclysm
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(4866) - Twilight Highlands
-
 WoWPro.Achievements:RegisterGuide("KabExpTwiHi","Twilight Highlands","Twilight Highlands","Exploration", "Cataclysm", "Kaboca", "Neutral", function()
 return [[
 F Highbank|QID|948660011|M|80.0,75.7|ACH|4866;11|

@@ -3,10 +3,6 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_cataclysm
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(4863) - Hyjal
-
 WoWPro.Achievements:RegisterGuide("KabExpHyj","Mount Hyjal","Mount Hyjal","Exploration", "Cataclysm", "Kaboca", "Neutral", function()
 return [[
 F Nordrassil|QID|948630006|M|62.0,23.0|ACH|4863;6|
@@ -20,7 +16,6 @@ F Darkwhisper Gorge|QID|948630004|M|85.0,45.0|ACH|4863;4|
 F Gates of Sothann|QID|948630005|M|73.0,75.0|ACH|4863;5|
 F The Throne of Flame|QID|948630011|M|53.0,76.0|ACH|4863;11|
 F Sethria's Roost|QID|948630007|M|30.0,78.0|ACH|4863;7|
-
 
 N Congratulations on exploring Mount Hyjal
 ]]
