@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
+-- Date: 2014-05-28 19:48
+-- Who: Ludovicus
+-- Log: Correct exploration for EK.
+
+-- URL: http://wow-pro.com/node/3475/revisions/26324/view
 -- Date: 2014-05-27 00:59
 -- Who: Ludovicus
 -- Log: Guide Intro edits
@@ -142,10 +147,10 @@
 -- Date: 2012-05-27 17:50
 -- Who: Ludovicus
 
-local guide = WoWPro:RegisterGuide("TwiExpDM","Achievements","Dun Morogh","Dun Morogh", "Neutral")
-WoWPro:GuideLevels(guide,0,0)
+local guide = WoWPro:RegisterGuide("TwiExpDM","Achievements","Dun Morogh","Twists", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
 WoWPro:GuideIcon(guide,"ACH",627)
-WoWPro:GuideNextGuide(guide, "Twists")
+WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 

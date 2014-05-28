@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/treasure_treasure_everywhere
+-- Date: 2014-05-28 21:06
+-- Who: Ludovicus
+-- Log: Converted
+
+-- URL: http://wow-pro.com/node/3562/revisions/25878/view
 -- Date: 2014-02-13 16:53
 -- Who: Ludovicus
 -- Log: Tweaks!
@@ -13,9 +18,11 @@
 -- Who: Ludovicus
 -- Log: Initial Version
 
-WoWPro.Achievements:RegisterGuide('LudoTreasure','Timeless Isle', 'Treasure, Treasure Everywhere', 'Achievement', 'Mists of Pandaria', 'Ludovicus','Neutral', function()
-
-
+local guide = WoWPro:RegisterGuide('LudoTreasure',"Achievements",'Timeless Isle', 'Treasure, Treasure Everywhere','Neutral')
+WoWPro:GuideIcon(guide,"ACH",8729)
+WoWPro:GuideLevels(guide,89,90)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Timeless Treasures|QID|33333|ACTIVE|-33333|N|You will need to loot some of these chests for this quest from the "Timeless Isle" Dalies guide.  Do it first and then come back or you will HAVE to do one of the weekly chests.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2014-05-28 20:33
+-- Who: Ludovicus
+-- Log: Conveted
+
+-- URL: http://wow-pro.com/node/3474/revisions/26311/view
 -- Date: 2014-05-26 17:44
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -22,7 +27,11 @@
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("TwiExpBT","Achievements","Borean Tundra","Borean Tundra","Exploration", "Northrend", "Twists", "Neutral", function()
+local guide = WoWPro:RegisterGuide("TwiExpBT","Achievements","Borean Tundra","Twists", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",1264)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Warsong Hold|QID|901264001|M|44,56|ACH|1264;10|

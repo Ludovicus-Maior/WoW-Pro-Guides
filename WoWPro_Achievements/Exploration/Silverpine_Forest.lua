@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
+-- Date: 2014-05-28 19:48
+-- Who: Ludovicus
+-- Log: Correct exploration for EK.
+
+-- URL: http://wow-pro.com/node/3475/revisions/26324/view
 -- Date: 2014-05-27 00:59
 -- Who: Ludovicus
 -- Log: Guide Intro edits
@@ -142,10 +147,10 @@
 -- Date: 2012-05-27 17:50
 -- Who: Ludovicus
 
-local guide = WoWPro:RegisterGuide("TwiExpSF","Achievements","Silverpine Forest","Silverpine Forest", "Neutral")
-WoWPro:GuideLevels(guide,0,0)
+local guide = WoWPro:RegisterGuide("TwiExpSF","Achievements","Silverpine Forest","Twists", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideProximitySort(guide)
 WoWPro:GuideIcon(guide,"ACH",769)
-WoWPro:GuideNextGuide(guide, "Twists")
 WoWPro:GuideSteps(guide, function()
 return [[
 F The Battlefront|QID|907690001|M|45.41,82.23|ACH|769;1|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
+-- Date: 2014-05-28 19:48
+-- Who: Ludovicus
+-- Log: Correct exploration for EK.
+
+-- URL: http://wow-pro.com/node/3475/revisions/26324/view
 -- Date: 2014-05-27 00:59
 -- Who: Ludovicus
 -- Log: Guide Intro edits
@@ -142,7 +147,11 @@
 -- Date: 2012-05-27 17:50
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("LudoExpWet","Achievements","Wetlands","Wetlands","Exploration", "Eastern Kingdom", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoExpWet","Achievements","Wetlands","Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideIcon(guide,"ACH",841)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Menethil Harbor|QID|908410001|M|10.77,59.53|ACH|841;1|

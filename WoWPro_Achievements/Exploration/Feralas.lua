@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2014-05-28 20:32
+-- Who: Ludovicus
+-- Log: Converted
+
+-- URL: http://wow-pro.com/node/3473/revisions/26310/view
 -- Date: 2014-05-26 17:38
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -20,7 +25,11 @@
 -- Date: 2012-05-27 17:19
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("LudoExpFer","Achievements","Feralas","Feralas","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoExpFer","Achievements","Feralas","Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",849)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Lower Wilds|QID|908490001|M|77.40,52.59|ACH|849;1|
