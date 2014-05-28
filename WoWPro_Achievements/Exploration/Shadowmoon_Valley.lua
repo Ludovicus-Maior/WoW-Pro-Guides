@@ -4,10 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_outland
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(864) - Shadowmoon Valley
+-- Date: 2014-05-28 21:35
+-- Who: Ludovicus
+-- Log: Converted
 
-WoWPro.Achievements:RegisterGuide("KabExpSVal","Shadowmoon Valley","Shadowmoon Valley","Exploration", "Outland", "Kaboca", "Neutral", function()
+-- URL: http://wow-pro.com/node/3577/revisions/26379/view
+-- Date: 2014-05-28 21:25
+-- Who: Ludovicus
+-- Log: Initial Cut!
+
+local guide = WoWPro:RegisterGuide("KabExpSVal","Achievements","Shadowmoon Valley","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",864)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Coilskar Point|QID|908640001|M|45.4,25.7|ACH|864;1|
 F The Deathforge|QID|908640007|M|40.2, 38.5|ACH|864;7|

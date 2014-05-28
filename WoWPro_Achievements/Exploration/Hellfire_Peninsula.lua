@@ -4,10 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_outland
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(862) - Hellfire Peninsula
+-- Date: 2014-05-28 21:35
+-- Who: Ludovicus
+-- Log: Converted
 
-WoWPro.Achievements:RegisterGuide("KabExpHell","Hellfire Peninsula","Hellfire Peninsula","Exploration", "Outland", "Kaboca", "Neutral", function()
+-- URL: http://wow-pro.com/node/3577/revisions/26379/view
+-- Date: 2014-05-28 21:25
+-- Who: Ludovicus
+-- Log: Initial Cut!
+
+local guide = WoWPro:RegisterGuide("KabExpHell","Achievements","Hellfire Peninsula","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",862)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F The Stair of Destiny|QID|908620001|M|87.4,50.4|ACH|862;1|
 F Void Ridge|QID|908620016|M|74.9,61.6|ACH|862;16|
