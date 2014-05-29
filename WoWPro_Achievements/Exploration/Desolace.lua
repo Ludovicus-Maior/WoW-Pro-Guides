@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2014-05-28 22:18
+-- Who: Ludovicus
+-- Log: Uldum moved to Cata
+
+-- URL: http://wow-pro.com/node/3473/revisions/26376/view
 -- Date: 2014-05-28 20:32
 -- Who: Ludovicus
 -- Log: Converted
