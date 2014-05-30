@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2014-05-29 22:34
+-- Who: Ludovicus
+-- Log: Added mean level. End Level corrected from 90 to 89.
+
+-- URL: http://wow-pro.com/node/3493/revisions/26307/view
 -- Date: 2014-05-26 01:27
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -76,7 +81,7 @@
 -- Log: Initial version from Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmDre8990', "Leveling", 'Dread Wastes', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,89,90)
+WoWPro:GuideLevels(guide,89,89,87.6745)
 WoWPro:GuideNextGuide(guide, 'WayKlaxxi')
 WoWPro:GuideIcon(guide,"ACH",6978)
 WoWPro:GuideSteps(guide, function()
