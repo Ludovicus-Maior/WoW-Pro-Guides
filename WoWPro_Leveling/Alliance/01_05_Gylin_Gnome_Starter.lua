@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-05-30 12:19
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3200/revisions/26386/view
 -- Date: 2014-05-29 22:17
 -- Who: Ludovicus
 -- Log: Add mean level
@@ -257,10 +262,6 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/23812/view
 -- Date: 2010-12-22 06:20
--- Who: Gylin
-
--- URL: http://wow-pro.com/node/3200/revisions/23632/view
--- Date: 2010-12-06 09:00
 -- Who: Gylin
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "Dun Morogh (Gnome)", "Gylin - Gnome", "Alliance")

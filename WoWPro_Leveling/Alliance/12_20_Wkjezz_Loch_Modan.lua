@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2014-05-30 12:03
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3216/revisions/26217/view
 -- Date: 2014-05-25 22:36
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -131,7 +136,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjLoc1220', "Leveling", 'Loch Modan', 'Wkjezz', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,8,15,11.873)
 WoWPro:GuideNextGuide(guide, 'WkjWet2025')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

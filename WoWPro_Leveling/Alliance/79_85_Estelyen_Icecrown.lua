@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2014-05-30 12:23
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3301/revisions/26347/view
 -- Date: 2014-05-27 20:32
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "79,85" to "0,77".
@@ -84,7 +89,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("EstIce7985", "Leveling", "Icecrown", "Estelyen", "Alliance")
-WoWPro:GuideLevels(guide,0,77)
+WoWPro:GuideLevels(guide,77,77,77)
 WoWPro:GuideNextGuide(guide, "Arihyj8082")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

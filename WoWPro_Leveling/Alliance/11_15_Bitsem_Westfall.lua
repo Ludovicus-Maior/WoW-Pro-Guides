@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2014-05-30 12:13
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3213/revisions/26214/view
 -- Date: 2014-05-25 22:33
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -108,7 +113,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitWes1020', "Leveling", 'Westfall', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,8,14,10.4861)
 WoWPro:GuideNextGuide(guide, 'KurRed1520')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

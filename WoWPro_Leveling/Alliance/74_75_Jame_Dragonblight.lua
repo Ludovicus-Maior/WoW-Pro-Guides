@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2014-05-30 11:55
+-- Who: Ludovicus
+-- Log: level adjustment
+
+-- URL: http://wow-pro.com/node/3291/revisions/26283/view
 -- Date: 2014-05-26 01:02
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -91,7 +96,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamDra7475", "Leveling", "Dragonblight", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,74,75)
+WoWPro:GuideLevels(guide,71,74,71.3502)
 WoWPro:GuideNextGuide(guide, "JamGriA7577")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2014-05-30 12:06
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3281/revisions/26274/view
 -- Date: 2014-05-26 00:43
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -73,7 +77,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamBla6870", "Leveling", "Blade's Edge Mountains", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,68,70)
+WoWPro:GuideLevels(guide,62,70,65.8483)
 WoWPro:GuideNextGuide(guide, "JamBor6872")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

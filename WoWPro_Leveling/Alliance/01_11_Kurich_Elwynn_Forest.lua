@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2014-05-30 12:01
+-- Who: Ludovicus
+-- Log: Stetting levels
+
+-- URL: http://wow-pro.com/node/3197/revisions/26203/view
 -- Date: 2014-05-25 22:06
 -- Who: Ludovicus
 -- Log: Added guide type
@@ -136,7 +141,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("KurElw0111", "Leveling", "Elwynn Forest(Human)", "Kurich", "Alliance")
-WoWPro:GuideLevels(guide,1,11)
+WoWPro:GuideLevels(guide,1,9,4.83099)
 WoWPro:GuideNextGuide(guide, "BitWes1020")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

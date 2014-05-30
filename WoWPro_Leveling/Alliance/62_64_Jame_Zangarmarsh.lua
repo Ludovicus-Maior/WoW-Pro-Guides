@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2014-05-30 12:10
+-- Who: Ludovicus
+-- Log: Level Adjust
+
+-- URL: http://wow-pro.com/node/3273/revisions/26367/view
 -- Date: 2014-05-27 21:15
 -- Who: Ludovicus
 -- Log: Start Level corrected from 62 to 0.
@@ -107,7 +112,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamZan6264", "Leveling", "Zangarmarsh", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,0,64)
+WoWPro:GuideLevels(guide,58,64,60.6291)
 WoWPro:GuideNextGuide(guide, "JamTer6466")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

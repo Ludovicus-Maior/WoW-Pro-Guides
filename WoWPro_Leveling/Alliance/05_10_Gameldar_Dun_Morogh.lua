@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-05-30 12:19
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3200/revisions/26386/view
 -- Date: 2014-05-29 22:17
 -- Who: Ludovicus
 -- Log: Add mean level
@@ -259,12 +264,8 @@
 -- Date: 2010-12-22 06:20
 -- Who: Gylin
 
--- URL: http://wow-pro.com/node/3200/revisions/23632/view
--- Date: 2010-12-06 09:00
--- Who: Gylin
-
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,2,10,5.74453)
 WoWPro:GuideNextGuide(guide, 'WkjLoc1220')
 WoWPro:GuideIcon(guide,"ACH",627)
 WoWPro:GuideSteps(guide, function()
