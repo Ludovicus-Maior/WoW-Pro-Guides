@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2014-05-30 15:22
+-- Who: Ludovicus
+-- Log: Level Adj
+
+-- URL: http://wow-pro.com/node/3259/revisions/26392/view
 -- Date: 2014-05-30 11:59
 -- Who: Ludovicus
 -- Log: Level Adjust
@@ -90,7 +95,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjTan4550', "Leveling", 'Tanaris', 'Wkjezz', 'Alliance')
-WoWPro:GuideLevels(guide,44,49,44.2788)
+WoWPro:GuideLevels(guide,43,49,44.2788)
 WoWPro:GuideNextGuide(guide, 'JiyUng5055')
 WoWPro:GuideIcon(guide,"ACH",4935)
 WoWPro:GuideSteps(guide, function()

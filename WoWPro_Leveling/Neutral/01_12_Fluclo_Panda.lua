@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2014-05-30 15:29
+-- Who: Ludovicus
+-- Log: Added levels and race restriction.
+
+-- URL: http://wow-pro.com/node/3483/revisions/26335/view
 -- Date: 2014-05-27 20:03
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "1,12" to "0,0".
@@ -138,7 +143,8 @@
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide('FlucloPanda', "Leveling", 'TheWanderingIsle (Pandaren Only)', 'Fluclo', 'Neutral')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,1,12)
+WoWPro:GuideClassSpecific(guide,"Pandaren")
 WoWPro:GuideNextGuide(guide, 'WkjLoc1220|BitAzs1220')
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2014-05-30 15:33
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3488/revisions/26402/view
 -- Date: 2014-05-30 12:17
 -- Who: Ludovicus
 -- Log: Level Adjustment
@@ -114,7 +118,7 @@
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('RajKra8788', "Leveling", 'Krasarang Wilds', 'Rajitazi', 'Alliance')
-WoWPro:GuideLevels(guide,84,87,84.5738)
+WoWPro:GuideLevels(guide,86,87,84.5738)
 WoWPro:GuideNextGuide(guide, 'EmmKun8889')
 WoWPro:GuideIcon(guide,"ACH",6975)
 WoWPro:GuideSteps(guide, function()

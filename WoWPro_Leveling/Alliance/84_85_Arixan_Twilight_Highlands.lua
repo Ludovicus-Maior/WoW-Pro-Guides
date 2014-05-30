@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2014-05-30 15:23
+-- Who: Ludovicus
+-- Log: :Level setting
+
+-- URL: http://wow-pro.com/node/3311/revisions/26298/view
 -- Date: 2014-05-26 01:17
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -120,7 +125,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('MagTwi8485', "Leveling", 'Twilight Highlands', 'Melliandra', 'Alliance')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,84,84,84)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideIcon(guide,"ACH",4866)
 WoWPro:GuideSteps(guide, function()

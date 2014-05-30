@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2014-05-30 15:26
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3486/revisions/26354/view
 -- Date: 2014-05-27 20:45
 -- Who: Ludovicus
 -- Log: End Level corrected from 0 to 86.
@@ -154,13 +159,13 @@
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')
-WoWPro:GuideLevels(guide,0,86)
+WoWPro:GuideLevels(guide,85,86,84.8282)
 WoWPro:GuideNextGuide(guide, 'EmmVal8688')
 WoWPro:GuideIcon(guide,"ACH",6351)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 85 |QID|29547|LVL|85|N|You need to be Level 85 to do this guide.|
+L Level 85 |QID|29547|LVL|85|N|You need to be Level 85 to do this guide as the first quest is a must!|
 N Welcome to Pandaria|QID|29547|N|Head to Stormwind. Don't forget to train your trade-skills before you leave Stormwind, the new trainers are not available immediately upon arriving in Pandaria.\n\nCheck off this step to continue the guide.|
 
 A The King's Command|QID|29547|N|Autogiven upon entering Stormwind City.|
