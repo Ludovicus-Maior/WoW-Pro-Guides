@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2014-05-30 16:09
+-- Who: Ludovicus
+-- Log: Corrected syntax error
+
+-- URL: http://wow-pro.com/node/3257/revisions/26388/view
 -- Date: 2014-05-29 22:46
 -- Who: Ludovicus
 -- Log: Guide Levels corrected. Added Mean Level.
@@ -66,7 +71,6 @@
 
 local guide = WoWPro:RegisterGuide('WkjFel4550', "Leveling", 'Felwood', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,44,49,45.3277)
-)
 WoWPro:GuideNextGuide(guide, 'JiyWin5055')
 WoWPro:GuideIcon(guide,"ACH",4931)
 WoWPro:GuideSteps(guide, function()
