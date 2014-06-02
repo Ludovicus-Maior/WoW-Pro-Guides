@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2014-06-02 22:12
+-- Who: Ludovicus
+-- Log: Icons
+
+-- URL: http://wow-pro.com/node/3206/revisions/26404/view
 -- Date: 2014-05-30 12:21
 -- Who: Ludovicus
 -- Log: Level setting
@@ -147,7 +152,7 @@
 local guide = WoWPro:RegisterGuide("SnoAzu0112", "Leveling", "Azuremyst Isle (Draenai)", "Snowflake", "Alliance")
 WoWPro:GuideLevels(guide,1,10,4.88439)
 WoWPro:GuideNextGuide(guide, "SveBlo1220")
-WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Draenei_Male","Interface\\Icons\\Achievement_Character_Draenei_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[
 R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|

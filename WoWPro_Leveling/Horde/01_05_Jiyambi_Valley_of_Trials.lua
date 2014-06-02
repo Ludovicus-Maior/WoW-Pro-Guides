@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-06-02 22:14
+-- Who: Ludovicus
+-- Log: Icons
+
+-- URL: http://wow-pro.com/node/3199/revisions/26461/view
 -- Date: 2014-06-02 15:47
 -- Who: Ludovicus
 -- Log: Syntax correction
@@ -219,7 +224,7 @@
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Durotar (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
-WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Orc_Male","Interface\\Icons\\Achievement_Character_Orc_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[
 
