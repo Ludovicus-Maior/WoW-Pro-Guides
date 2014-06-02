@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2014-06-02 13:22
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3228/revisions/26227/view
 -- Date: 2014-05-25 22:45
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -89,7 +94,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitAsh2025', "Leveling", 'Ashenvale', 'Bitsem', 'Horde')
-WoWPro:GuideLevels(guide,20,25)
+WoWPro:GuideLevels(guide,19,24, 19.8117)
 WoWPro:GuideNextGuide(guide, 'JiySto2530')
 WoWPro:GuideIcon(guide,"ACH",4925)
 WoWPro:GuideSteps(guide, function()

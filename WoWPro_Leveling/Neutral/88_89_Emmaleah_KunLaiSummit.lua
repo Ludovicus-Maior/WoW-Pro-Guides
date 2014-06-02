@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2014-06-02 13:25
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3490/revisions/26413/view
 -- Date: 2014-05-30 15:30
 -- Who: Ludovicus
 -- Log: All panda guides have an 85 floor.
@@ -196,7 +201,7 @@
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('EmmKun8889', "Leveling", 'Kun-Lai Summit', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,85,89,84.8421)
+WoWPro:GuideLevels(guide,87,89,87.007)
 WoWPro:GuideNextGuide(guide, 'EmmTow8990|EmmTow8990')
 WoWPro:GuideIcon(guide,"ACH",6976)
 WoWPro:GuideSteps(guide, function()

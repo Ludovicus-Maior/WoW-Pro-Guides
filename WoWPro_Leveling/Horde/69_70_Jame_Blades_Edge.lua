@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2014-06-02 13:07
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3282/revisions/26275/view
 -- Date: 2014-05-26 00:44
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -61,7 +66,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamBla6970", "Leveling", "Blade's Edge Mountains", "Jame", "Horde")
-WoWPro:GuideLevels(guide,65,68)
+WoWPro:GuideLevels(guide,61,70, 65.6541)
 WoWPro:GuideNextGuide(guide, "JamHow7071")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

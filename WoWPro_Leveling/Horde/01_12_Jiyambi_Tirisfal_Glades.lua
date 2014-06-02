@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2014-06-02 13:23
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3205/revisions/26210/view
 -- Date: 2014-05-25 22:25
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -114,7 +119,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyTir0112', "Leveling", 'Tirisfal Glades (Undead)', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,0,0)
+WoWPro:GuideLevels(guide,1,9, 4.98758)
 WoWPro:GuideNextGuide(guide, 'MalSil1220')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

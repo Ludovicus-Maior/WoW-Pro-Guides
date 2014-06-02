@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
+-- Date: 2014-06-02 13:19
+-- Who: Ludovicus
+-- Log: Set Levels.
+
+-- URL: http://wow-pro.com/node/3236/revisions/26235/view
 -- Date: 2014-05-25 22:51
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -57,7 +62,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiySou3035', "Leveling", 'Southern Barrens', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,30,35)
+WoWPro:GuideLevels(guide,28,33, 30.2616)
 WoWPro:GuideNextGuide(guide, 'JiyDus3540')
 WoWPro:GuideIcon(guide,"ACH",4937)
 WoWPro:GuideSteps(guide, function()

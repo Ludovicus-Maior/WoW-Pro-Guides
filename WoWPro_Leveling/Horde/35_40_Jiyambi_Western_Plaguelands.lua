@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2014-06-02 15:08
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3246/revisions/26245/view
 -- Date: 2014-05-25 22:58
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -60,7 +65,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyWes3540', "Leveling", 'Western Plaguelands', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,35,40)
+WoWPro:GuideLevels(guide,34,39, 35.1257)
 WoWPro:GuideNextGuide(guide, 'CraEas4045')
 WoWPro:GuideIcon(guide,"ACH",4893)
 WoWPro:GuideSteps(guide, function()

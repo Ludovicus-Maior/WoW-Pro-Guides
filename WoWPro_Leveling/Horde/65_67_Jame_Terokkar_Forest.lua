@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2014-06-02 14:59
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3278/revisions/26271/view
 -- Date: 2014-05-26 00:38
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -56,7 +61,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamTer6567", "Leveling", "Terokkar Forest", "Jame", "Horde")
-WoWPro:GuideLevels(guide,65,67)
+WoWPro:GuideLevels(guide,61,64,62.1993)
 WoWPro:GuideNextGuide(guide, "JamNag6769")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

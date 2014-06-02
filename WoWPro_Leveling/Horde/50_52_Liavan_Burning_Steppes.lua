@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2014-06-02 13:09
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3266/revisions/26262/view
 -- Date: 2014-05-26 00:30
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -58,7 +63,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('LiaBur5052', "Leveling", 'Burning Steppes', 'Liavan', 'Horde')
-WoWPro:GuideLevels(guide,50,52)
+WoWPro:GuideLevels(guide,49,57,49.082)
 WoWPro:GuideNextGuide(guide, 'LiaSwa5255')
 WoWPro:GuideIcon(guide,"ACH",4901)
 WoWPro:GuideSteps(guide, function()

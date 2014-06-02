@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2014-06-02 15:13
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3242/revisions/26241/view
 -- Date: 2014-05-25 22:56
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -67,7 +72,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyDus3540', "Leveling", 'Dustwallow Marsh', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,35,40)
+WoWPro:GuideLevels(guide,34,39, 35.0632)
 WoWPro:GuideNextGuide(guide, 'JiyTho4045')
 WoWPro:GuideIcon(guide,"ACH",4929)
 WoWPro:GuideSteps(guide, function()

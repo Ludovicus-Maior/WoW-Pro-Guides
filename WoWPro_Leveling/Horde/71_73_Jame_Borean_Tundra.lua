@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2014-06-02 14:54
+-- Who: Ludovicus
+-- Log: Level Adjustments
+
+-- URL: http://wow-pro.com/node/3290/revisions/26282/view
 -- Date: 2014-05-26 01:01
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -70,7 +75,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamBor7173", "Leveling", "Borean Tundra", "Jame", "Horde")
-WoWPro:GuideLevels(guide,71,73)
+WoWPro:GuideLevels(guide,68,71, 68.5047)
 WoWPro:GuideNextGuide(guide, "JamDra7375")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

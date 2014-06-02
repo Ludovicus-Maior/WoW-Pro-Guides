@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2014-06-02 15:26
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3234/revisions/26233/view
 -- Date: 2014-05-25 22:49
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -81,7 +86,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiySto2530', "Leveling", "Stonetalon Mountains", 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,25,30)
+WoWPro:GuideLevels(guide,24,28, 25.0368)
 WoWPro:GuideNextGuide(guide, 'JiySou3035')
 WoWPro:GuideIcon(guide,"ACH",4936)
 WoWPro:GuideSteps(guide, function()
