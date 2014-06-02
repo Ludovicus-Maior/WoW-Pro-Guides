@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2014-06-02 16:15
+-- Who: Ludovicus
+-- Log: Added mean level
+
+-- URL: http://wow-pro.com/node/3307/revisions/26325/view
 -- Date: 2014-05-27 19:30
 -- Who: Ludovicus
 -- Log: StartLevel corrected from 81 to 82.
@@ -166,7 +171,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('AriDee8283', "Leveling", 'Deepholm', 'Arixan', 'Neutral')
-WoWPro:GuideLevels(guide,81,83)
+WoWPro:GuideLevels(guide,81,83, 81.1763)
 WoWPro:GuideNextGuide(guide, 'AriUld8384|AriUld8384')
 WoWPro:GuideIcon(guide,"ACH",4864)
 WoWPro:GuideSteps(guide, function()

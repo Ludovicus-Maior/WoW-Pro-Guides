@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2014-06-02 16:12
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3284/revisions/26366/view
 -- Date: 2014-05-27 21:11
 -- Who: Ludovicus
 -- Log: Start Level corrected from 69 to 67.
@@ -92,7 +96,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('CraNet6970', "Leveling", 'Netherstorm', 'Crackerhead22', 'Neutral')
-WoWPro:GuideLevels(guide,67,70)
+WoWPro:GuideLevels(guide,67,70, 67.2485)
 WoWPro:GuideNextGuide(guide, 'JamBor6872|JamHow7071')
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

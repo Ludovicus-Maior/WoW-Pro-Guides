@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2014-06-02 16:08
+-- Who: Ludovicus
+-- Log: Added missing Z tag to [Twilight Cage Key]
+
+-- URL: http://wow-pro.com/node/3306/revisions/26423/view
 -- Date: 2014-06-02 13:17
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -699,7 +704,7 @@ A Ascend No More!|QID|26142|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek|
 
 C Runestones of Binding|QID|26141|S|M|31.2,58.8|Z|Abyssal Depths|L|57096 7|N|Kill any Twilight Candidates you see until you get 7 Runestones of Binding.|
 C Ascend No More!|QID|26142|S|QO|Ancient Conduits destroyed: 5/5|M|28.1,57.5|Z|Abyssal Depths|N|Destroy Ancient Conduits.|
-l Twilight Cage Key|QID|26149|L|57118|N|Kill Twilight Hammer mobs until the key drops.|M|31.2,58.8|
+l Twilight Cage Key|QID|26149|L|57118|N|Kill Twilight Hammer mobs until the key drops.|M|31.2,58.8|Z|Abyssal Depths|
 A Prisoners|QID|26149|RANK|1|M|31.2,58.8|Z|Abyssal Depths|U|57118|N|Accept the quest from the key.|
 C Prisoners|QID|26149|M|31.2,58.8|Z|Abyssal Depths|N|Free Prisoners.|
 C Ascend No More!|QID|26142|US|QO|Ancient Conduits destroyed: 5/5|M|28.1,57.5|Z|Abyssal Depths|N|Destroy Ancient Conduits.|

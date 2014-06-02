@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_sholazar_basin_neutral
+-- Date: 2014-06-02 16:36
+-- Who: Ludovicus
+-- Log: Added mean level
+
+-- URL: http://wow-pro.com/node/3297/revisions/26328/view
 -- Date: 2014-05-27 19:41
 -- Who: Ludovicus
 -- Log: MaxLevel corrected from 79 to 77.
@@ -97,7 +102,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("ScoSho7879", "Leveling", "Sholazar Basin", "Scoot", "Neutral")
-WoWPro:GuideLevels(guide,76,77)
+WoWPro:GuideLevels(guide,76,77, 76.2557)
 WoWPro:GuideNextGuide(guide, "EstIce7985|ScoSto7980")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()

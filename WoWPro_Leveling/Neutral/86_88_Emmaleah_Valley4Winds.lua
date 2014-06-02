@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2014-06-02 16:38
+-- Who: Ludovicus
+-- Log: Added mean level
+
+-- URL: http://wow-pro.com/node/3485/revisions/26346/view
 -- Date: 2014-05-27 20:30
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "86,88" to "85,87".
@@ -122,7 +127,7 @@
 -- Log: Initial Version from Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmVal8688', "Leveling", 'Valley of the Four Winds', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,85,87)
+WoWPro:GuideLevels(guide,85,87, 85.9498)
 WoWPro:GuideNextGuide(guide, 'RajKra8788|EmmKra8788')
 WoWPro:GuideIcon(guide,"ACH",6969)
 WoWPro:GuideSteps(guide, function()

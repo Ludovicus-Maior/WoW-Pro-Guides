@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_neutral
+-- Date: 2014-06-02 16:33
+-- Who: Ludovicus
+-- Log: Added mean level
+
+-- URL: http://wow-pro.com/node/3262/revisions/26331/view
 -- Date: 2014-05-27 19:52
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "50,55" to "49,54".
@@ -64,7 +69,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyUng5055', "Leveling", "Un'Goro Crater", 'Jiyambi', 'Neutral')
-WoWPro:GuideLevels(guide,49,54)
+WoWPro:GuideLevels(guide,49,54, 49.6358)
 WoWPro:GuideNextGuide(guide, 'JiySil5560|JiySil5560')
 WoWPro:GuideIcon(guide,"ACH",4939)
 WoWPro:GuideSteps(guide, function()
