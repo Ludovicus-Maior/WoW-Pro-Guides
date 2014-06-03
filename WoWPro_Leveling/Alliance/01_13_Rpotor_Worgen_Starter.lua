@@ -189,7 +189,7 @@
 
 local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "Rpotor", "Alliance")
 WoWPro:GuideLevels(guide,1,12)
-WoWPro:GuideRaceSpecific(guide,"Worgen)
+WoWPro:GuideRaceSpecific(guide,"Worgen")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Worgen_Male","Interface\\Icons\\Achievement_Character_Worgen_Female"))
 WoWPro:GuideNextGuide(guide, "JamDar1320")
 WoWPro:GuideSteps(guide, function()

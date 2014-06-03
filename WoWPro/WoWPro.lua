@@ -35,7 +35,7 @@ function WoWPro:Add2Log(level,msg)
         DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 	WoWPro.Serial = WoWPro.Serial + 1
-	if WoWPro.Serial > 999 then
+	if WoWPro.Serial > 9999 then
 	    WoWPro.Serial = 0
 	end
 	if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
@@ -43,9 +43,9 @@ function WoWPro:Add2Log(level,msg)
 	        WoWProDB.global.Log = WoWPro.Log
 	        WoWPro.Log = nil
 	    end
-	    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+	    WoWProDB.global.Log[date("%H%M.")..string.format("%04d",WoWPro.Serial)] = msg
 	else
-	    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+	    WoWPro.Log[date("%H%M.")..string.format("%04d",WoWPro.Serial)] = msg
 	end
 end
 -- Debug print function --
@@ -266,6 +266,7 @@ function WoWPro:OnInitialize()
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
+    WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
 end
 
 
@@ -467,10 +468,14 @@ function WoWPro:Timeless()
     _NPCScan.NPCAdd(71919,"Zhu-Gon the Sour",951)
 end
 
-function WoWPro:RegisterGuide(GIDvalue, zonename, authorname, factionname, sequencevalue)
+
+function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, factionname)
+    if not WoWPro[gtype] then
+        WoWPro:Error("WoWPro:RegisterGuide(%s,%s,...) has bad gtype",GIDvalue,tostring(gtype))
+    end
 
     local guide = {
-		guidetype = "Leveling",
+		guidetype = gtype,
 		zone = zonename,
 		author = authorname,
 		faction = factionname,
@@ -478,7 +483,7 @@ function WoWPro:RegisterGuide(GIDvalue, zonename, authorname, factionname, seque
 	}
 
 
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then
+	if factionname and factionname ~= UnitFactionGroup("player") and factionname ~= "Neutral" then
 	    -- If the guide is not of the correct faction, don't register it
 	    return guide
 	end 
@@ -488,27 +493,34 @@ function WoWPro:RegisterGuide(GIDvalue, zonename, authorname, factionname, seque
 	
 end
 
-function WoWPro:UnRegisterGuide(guide)
-    WoWPro.Guides[guide.GID] = nil
+function WoWPro:UnRegisterGuide(guide,why)
+    if WoWPro.DebugLevel < 1 then
+        WoWPro:dbp(why,guide.GID)
+        WoWPro.Guides[guide.GID] = nil
+    end
 end
 
 
-function WoWPro:GuideLevels(guide,lowerLevel,upperLevel)
+function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
+    if (not lowerLevel) or (not upperLevel) or (not meanLevel) then
+        WoWPro:Error("Bad GuideLevels(%s,%s,%s,%s)",guide.GID,tostring(lowerLevel),tostring(upperLevel),tostring(meanLevel))
+    end
     guide['startlevel'] = lowerLevel
     guide['endlevel'] = upperLevel
+    guide['level'] = meanLevel
 end
 
 function WoWPro:GuideRaceSpecific(guide,race)
     local locRace, engRace = UnitRace("player")
     if engRace ~= race then
-        WoWPro:UnRegisterGuide(guide)
+        WoWPro:UnRegisterGuide(guide,"Guide %s is race specific and you don't match")
     end
 end
 
 function WoWPro:GuideClassSpecific(guide,class)
     local locClass, engClass = UnitClass("player")
     if engClass ~= class then
-        WoWPro:UnRegisterGuide(guide)
+        WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't mach")
     end
 end
 
@@ -520,10 +532,153 @@ function WoWPro:GuideSteps(guide,steps)
     guide['sequence'] = steps
 end
 
+function WoWPro:GuidePickGender(male,female)
+    if UnitSex("player") <= 2 then
+        return male
+    else
+        return female
+    end
+end
+
+-- http://en.wikipedia.org/wiki/HSL_color_space
+-- Inputs are [0..1], outputs in [0..1]
+function WoWPro:RGB2HSL(r,g,b)    
+    local cmax, cmin = math.max(r, g, b), math.min(r, g, b)
+    local h, s, l
+
+    l = (cmax + cmin) / 2.0
+
+    if max == min then
+        h, s = 0, 0 -- A shade of white/black
+    else
+        local c = cmax - cmin
+        local s
+        if l > 0.5 then
+            s = c / (2 - cmax - cmin)
+        else
+            s = c / (cmax + cmin)
+        end
+        if cmax == r then
+            h = (g - b) / c
+            if g < b then
+                h = h + 6
+            end
+        elseif cmax == g then
+            h = ((b - r) / c) + 2
+        elseif cmax == b then
+            h = ((r - g) / c) + 4
+        end
+        h = h / 6
+    end
+    return h, s, l
+end
+
+function WoWPro:HSL2RGB(h,s,l)
+  local r, g, b, p, q
+
+  if s == 0 then
+    r, g, b = l, l, l -- white
+  else
+    function hue2rgb(p, q, t)
+      if t < 0 then t = t + 1 end
+      if t > 1 then t = t - 1 end
+      if t < 1/6 then return p + (q - p) * 6 * t end
+      if t < 1/2 then return q end
+      if t < 2/3 then return p + (q - p) * (2/3 - t) * 6 end
+      return p
+    end
+
+    if l < 0.5 then
+        q = l * (1 + s)
+    else
+        q = l + s - (l * s)
+    end
+    p = (2 * l) - q
+
+    r = hue2rgb(p, q, h + 1/3)
+    g = hue2rgb(p, q, h)
+    b = hue2rgb(p, q, h - 1/3)
+  end
+  
+  return r, g, b
+end
+
+local Difficulty = {}
+Difficulty[0] = {0,0.1,0.25}  -- Red/Gray
+Difficulty[1] = {0,0.9,0.5} -- Red
+Difficulty[2] = {20/360,0.9,0.5} -- Orange
+Difficulty[3] = {60/360,0.9,0.5} -- Yellow
+Difficulty[4] = {120/360,0.9,0.5} -- Green
+Difficulty[5] = {120/360,0.1,0.25} -- Green/Gray
+
+function WoWPro:InterpolateHSL(l,h,r)
+    local ir = 1 - r
+--    WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)",
+--                l[1], l[2], l[3], h[1], h[2], h[3], r)
+    return { l[1]*ir + h[1]*r , l[2]*ir + h[2]*r, l[3]*ir + h[3]*r }
+end
 
 
+function WoWPro:QuestColor(questLevel, playerLevel)
+    if not playerLevel then
+        local UL = UnitLevel("player")
+        local XP = UnitXP("player")
+        local XPMax = UnitXPMax("player")
+        playerLevel = UL + (XP/XPMax)
+    end
+    
+    local diff = questLevel - playerLevel
+    local c
+--    WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
+    if diff > 5 then
+        c = WoWPro:InterpolateHSL(Difficulty[1], Difficulty[0], (diff-5)/85)
+    elseif diff > 3 then      
+        c = WoWPro:InterpolateHSL(Difficulty[2], Difficulty[1], (diff-3)/2)
+    elseif diff > 0 then
+        c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[2], (diff-0)/3)
+    elseif diff > -3  then
+        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[3], (-diff)/3)
+    else
+        c = WoWPro:InterpolateHSL(Difficulty[5], Difficulty[4], (-diff)/90)
+    end
+    return  WoWPro:HSL2RGB(c[1], c[2], c[3])
+end
+   
+function WoWPro.LevelColor(level)
+--    WoWPro:dbp("WoWPro.LevelColor(%s)",tostring(level))
+    return {WoWPro:QuestColor(level)}
+end
+
+function WoWPro:GuideIcon(guide,gtype,gsubtype)
+    gtype = strupper(gtype)
+    if gtype == "ACH" then
+        guide['ach'] = tonumber(gsubtype)
+    elseif gtype == "PRO" then
+        guide['pro'] = tonumber(gsubtype)
+    elseif gtype == "ICON" then
+        guide['icon'] = gsubtype
+    else
+        WoWPro:Error("Unknown Guide Icon type [%s] for guide %s",gtype,guide.GID)
+    end
+end
+
+function WoWPro:GuideProximitySort(guide)
+    guide['AutoProximitySort'] = true
+end
+
+-- Finish all delayed guide initializiation
+function WoWPro:FinalizeGuides()
+	for name, module in WoWPro:IterateModules() do
+        if WoWPro[name].GuideList.Init then
+		    WoWPro[name].GuideList.Init()
+		end
+	end
+end
+
+    
 function WoWPro:LoadAllGuides()
     WoWPro:Print("Test Load of All Guides")
+    WoWPro:FinalizeGuides()
     local aCount=0
     local hCount=0
     local nCount=0
@@ -548,6 +703,9 @@ function WoWPro:LoadAllGuides()
 		end
         if nextG and WoWPro.Guides[nextG] == nil then	    
             WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
+        end
+        if not WoWPro.Guides[guidID].icon then
+            WoWPro:Error("Guide %s has no icon.",guidID)
         end
         if WoWPro.Guides[guidID].faction then
             if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end

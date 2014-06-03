@@ -276,7 +276,29 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	end
 	if text:find("|NC|") then WoWPro.noncombat[i] = true end
 	if text:find("|CHAT|") then WoWPro.chat[i] = true end
-	WoWPro.level[i] = text:match("|LVL|([^|]*)|?") or WoWPro:GrailQuestLevel(WoWPro.QID[i])
+	local gql = WoWPro:GrailQuestLevel(WoWPro.QID[i])
+	if WoWPro.DebugLevel > 0 and gql and tonumber(WoWPro.QID[i]) and tonumber(WoWPro.QID[i]) < 100000 then
+	    if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel > 1 and tonumber(gql) < (WoWPro.Guides[GID].startlevel / 2) then
+	        WoWPro:Warning("Guide %s QID %s is level %s?",GID,WoWPro.QID[i],gql)
+	        gql = "0"
+	    end
+	    if tonumber(gql) < 1 then
+	        WoWPro:Warning("Guide %s QID %s is level %s!",GID,WoWPro.QID[i],gql)
+	    else
+	        gql = tonumber(gql)
+	        if WoWPro.Guides[GID].startlevel and gql < tonumber(WoWPro.Guides[GID].startlevel) then
+	              WoWPro:Warning("Guide %s QID %s is level %s!??",GID,WoWPro.QID[i],gql)
+	        end
+	        if WoWPro.Guides[GID].endlevel and gql > tonumber(WoWPro.Guides[GID].endlevel) then
+	              WoWPro:Warning("Guide %s QID %s is level %s!??",GID,WoWPro.QID[i],gql)
+	        end
+	        WoWPro.Guides[GID].amax_level = max(WoWPro.Guides[GID].amax_level,gql)
+	        WoWPro.Guides[GID].amin_level = min(WoWPro.Guides[GID].amin_level,gql)
+	        WoWPro.Guides[GID].asum_level = WoWPro.Guides[GID].asum_level + gql
+	        WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
+	    end
+	end
+	WoWPro.level[i] = text:match("|LVL|([^|]*)|?") or gql
 	WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 	WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
 	WoWPro.target[i] = text:match("|T|([^|]*)|?")
@@ -332,6 +354,12 @@ function WoWPro:ParseSteps(steps)
 	if myrace == "Scourge" then
 		myrace = "Undead"
 	end
+	if WoWPro.DebugLevel > 0 then
+	    WoWPro.Guides[GID].amax_level = -1
+	    WoWPro.Guides[GID].amin_level = 100
+	    WoWPro.Guides[GID].acnt_level = 0
+	    WoWPro.Guides[GID].asum_level = 0 
+	end
 	for j=1,#steps do
 		local text = steps[j]
 		text = text:trim()
@@ -372,6 +400,20 @@ function WoWPro:ParseSteps(steps)
 			end
 		end
 	end
+	if WoWPro.DebugLevel > 0 then
+	    if WoWPro.Guides[GID].acnt_level > 0 then
+            if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel ~= WoWPro.Guides[GID].amin_level then
+                WoWPro:Warning("Guide %s startlevel=%s, but min_level=%s",GID, WoWPro.Guides[GID].startlevel, WoWPro.Guides[GID].amin_level)
+        	end
+            if WoWPro.Guides[GID].endlevel and WoWPro.Guides[GID].endlevel ~= WoWPro.Guides[GID].amax_level then
+                WoWPro:Warning("Guide %s endlevel=%s, but max_level=%s",GID, WoWPro.Guides[GID].endlevel, WoWPro.Guides[GID].amax_level)
+        	end
+        	local amean_level = WoWPro.Guides[GID].asum_level / WoWPro.Guides[GID].acnt_level
+        	if not WoWPro.Guides[GID].level and WoWPro.Guides[GID].acnt_level > 1 then
+        	    WoWPro:Warning("Guide %s %d/%d meanlevel=%g",GID, WoWPro.Guides[GID].asum_level , WoWPro.Guides[GID].acnt_level, amean_level)
+        	end
+        end
+    end
 end
 	
 -- Guide Load --

@@ -838,6 +838,10 @@ local function createBlizzOptions()
 	config:RegisterOptionsTable("WoWPro-Display", options.args.display)
 	dialog:AddToBlizOptions("WoWPro-Display", options.args.display.name, "WoW-Pro")
 	
+    -- Selector Options
+    config:RegisterOptionsTable("WoWPro-Selector", WoWPro:SelectorOptionsTable())
+    dialog:AddToBlizOptions("WoWPro-Selector", "WoW-Pro Selector", "WoW-Pro")
+    
 	-- Profile Options
 	config:RegisterOptionsTable("WoWPro-Profile", profiles)
 	dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro")

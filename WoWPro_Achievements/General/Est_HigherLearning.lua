@@ -17,9 +17,8 @@
 -- Date: 2013-03-23 16:35
 -- Who: Ludovicus
 
-local guide = WoWPro:RegisterGuide('EstAchHiLe',"Achievements",'Dalaran', 'Higher Learning','Neutral')
+local guide = WoWPro:RegisterGuide('EstAchHiLe',"Achievements",'Dalaran', 'Estelyen','Neutral')
 WoWPro:GuideIcon(guide,"ACH",1956)
-WoWPro:GuideNextGuide(guide, 'Estelyen')
 WoWPro:GuideSteps(guide, function()
 return
 [[

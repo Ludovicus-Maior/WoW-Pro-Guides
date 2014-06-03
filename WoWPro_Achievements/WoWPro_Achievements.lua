@@ -33,7 +33,6 @@ function WoWPro.Achievements:OnEnable()
 	end
 	
 -- Creating empty user settings if none exist --
-	WoWPro_AchievementsDB = WoWPro_AchievementsDB or {}
 	WoWProCharDB.Guide = WoWProCharDB.Guide or {} 
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
 		if WoWProDB.char.lastAchievementsguide and not WoWProDB.char.currentguide then
@@ -76,7 +75,8 @@ function WoWPro.Achievements:RegisterGuide(GIDvalue, zonename, guidename, catego
 		sub = subname,
 		author = authorname,
 		sequence = sequencevalue,
-		faction = factionname
+		faction = factionname,
+		GID = GIDvalue
 	}
 end
 
