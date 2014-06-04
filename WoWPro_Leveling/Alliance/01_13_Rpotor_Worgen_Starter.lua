@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2014-06-03 22:12
+-- Who: Ludovicus
+-- Log: Missing "
+
+-- URL: http://wow-pro.com/node/3211/revisions/26476/view
 -- Date: 2014-06-02 22:07
 -- Who: Ludovicus
 -- Log: Icons

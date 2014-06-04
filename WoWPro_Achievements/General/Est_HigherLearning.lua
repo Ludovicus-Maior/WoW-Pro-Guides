@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3538
+-- Date: 2014-06-03 22:15
+-- Who: Ludovicus
+-- Log: Moved Author to the right slot!
+
+-- URL: http://wow-pro.com/node/3538/revisions/26313/view
 -- Date: 2014-05-26 18:05
 -- Who: Ludovicus
 -- Log: Added guide type.

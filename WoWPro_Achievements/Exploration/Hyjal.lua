@@ -3,7 +3,21 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-WoWPro.Achievements:RegisterGuide("KabExpHyj","Mount Hyjal","Mount Hyjal","Exploration", "Cataclysm", "Kaboca", "Neutral", function()
+-- URL: http://wow-pro.com/wiki/exploration_achievements_cataclysm
+-- Date: 2014-06-03 22:20
+-- Who: Ludovicus
+-- Log: Modernize the remaining explorations for CATA zones.
+
+-- URL: http://wow-pro.com/node/3578/revisions/26382/view
+-- Date: 2014-05-28 21:57
+-- Who: Ludovicus
+-- Log: Initial Cut
+
+local guide = WoWPro:RegisterGuide("KabExpHyj","Achievements","Mount Hyjal","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",4863)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Nordrassil|QID|948630006|M|62.0,23.0|ACH|4863;6|
 F The Circle of Cinders|QID|948630002|M|44.0,26.0|ACH|4863;2|
