@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2014-06-04 20:09
+-- Who: Ludovicus
+-- Log: Adj maxlevel
+
+-- URL: http://wow-pro.com/node/3238/revisions/26452/view
 -- Date: 2014-06-02 15:16
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -66,7 +71,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', 'Wkjezz', 'Horde')
-WoWPro:GuideLevels(guide,29,35, 30.1269)
+WoWPro:GuideLevels(guide,29,34, 30.1269)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
 WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2014-06-04 20:13
+-- Who: Ludovicus
+-- Log: Level adj
+
+-- URL: http://wow-pro.com/node/3204/revisions/26478/view
 -- Date: 2014-06-02 22:10
 -- Who: Ludovicus
 -- Log: Icons
@@ -117,7 +122,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitTel0110', "Leveling", 'Teldrassil', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,1,9)
+WoWPro:GuideLevels(guide,1,9, 3.5814)
 WoWPro:GuideNextGuide(guide, 'JamDar1320')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
 WoWPro:GuideSteps(guide, function()
