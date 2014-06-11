@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2014-06-10 23:03
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3405/revisions/25390/view
 -- Date: 2013-01-12 21:25
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -47,8 +52,12 @@
 -- Date: 2011-06-29 21:12
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("LudoValExp", "Northrend", "Valiance Expedition", "Lich", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoValExp",'Dailies', "Northrend", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Valiance Expedition"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Valiance Expedition|N|The Howling Fjord Valiance Expedition Reputation Daily.|
 
 A Break the Blockade |QID|11153|M|29.0,41.9|Z|Howling Fjord|N|From Bombardier Petrov.|

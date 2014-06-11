@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-06-10 22:10
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26499/view
+-- Date: 2014-06-10 21:44
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25788/view
 -- Date: 2013-10-28 02:08
 -- Who: Ludovicus
 -- Log: Use Dalaran City@Dalaran instead of Dalaran
@@ -82,7 +92,10 @@
 -- Date: 2011-10-28 08:03
 -- Who: Crackerhead22
 
-WoWPro.WorldEvents:RegisterGuide("LudoHallowKAL","Hallow's End (Kalimdor)","Hallow's End (Kalimdor)","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoHallowKAL",'WorldEvents',"Hallow's End", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Wall of Text Part 1 of 2|QID|12366|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2014-06-10 23:03
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3405/revisions/25390/view
 -- Date: 2013-01-12 21:25
 -- Who: Emmaleah
 -- Log: fixes for multi coordinates
@@ -47,8 +52,12 @@
 -- Date: 2011-06-29 21:12
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("LudoEbonBlade", "Icecrown", "Ebon Blade", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoEbonBlade",'Dailies', "Icecrown", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Ebon Blade"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Knights of the Ebon Blade|N|The Knights of the Ebon Blade Reputation Dalies.|
 A Reading the Bones|QID|13093|M|32.50,42.95|N|If you have 15 Vrykul Bones, give them to the The Bone Witch.|
 A From Their Corpses, Rise!|QID|12813|M|19.67,48.38|N|From Setaal Darkmender.|

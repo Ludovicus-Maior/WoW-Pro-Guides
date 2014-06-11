@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2014-06-10 21:29
+-- Who: Ludovicus
+-- Log: Changed Guide format.
+
+-- URL: http://wow-pro.com/node/3458/revisions/25679/view
 -- Date: 2013-05-17 20:52
 -- Who: Ludovicus
 -- Log:  [A Smokywood Pastures' Thank You!]
@@ -33,8 +38,12 @@
 -- Who: Ludovicus
 -- Log: Sync to GIT
 
-WoWPro.WorldEvents:RegisterGuide("LudoWinterVeilH","Winter Veil (Horde)","Winter Veil (Horde)","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoWinterVeilH",'WorldEvents',"Winter Veil", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"WinterVeil")
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Eggs, Babs, Eggs!|QID|6962|N|You are going to need 5 Small Eggs. You can either pay outrageous prices on the AH, or farm them and sell the extra ones for outrageous prices on the AH.  I'll give you 4 places to farm them.|
 K Small Eggs: Eversong Woods|QID|6962|M|40.4,50.8;45.8,64.8;48.0,53.6|Z|Eversong Woods|CN|L|6889 20|N|Kill Feral Dragonhawk Hatchlings within the markers.|
 K Small Eggs: Eversong Woods|QID|6962|M|54.8,61.6;62.2,59.4;70.2,59.6|Z|Eversong Woods|CN|L|6889 20|N|Kill Crazed Dragonhawks between the markers.|

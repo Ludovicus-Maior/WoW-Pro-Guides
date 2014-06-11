@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-06-10 21:58
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25789/view
 -- Date: 2013-10-28 19:40
 -- Who: Ludovicus
 -- Log: do emotes using new syntax
@@ -91,7 +96,10 @@
 -- Date: 2011-10-28 08:00
 -- Who: Crackerhead22
 
-WoWPro.WorldEvents:RegisterGuide("LudoHallowPanA","Hallows End (Pandaria)","Hallows End (Pandaria)","WE", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoHallowPanA",'WorldEvents',"Hallows End", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Wall of Text Part 1 of 2|QID|32049|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".|Z|The Jade Forest|

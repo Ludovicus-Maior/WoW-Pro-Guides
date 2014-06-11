@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
+-- Date: 2014-06-10 21:42
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3443/revisions/25633/view
 -- Date: 2013-05-14 17:01
 -- Who: Ludovicus
 -- Log:  roasted
@@ -29,8 +34,12 @@
 -- Who: Crackerhead22
 -- Log: Added source code page.
 
-WoWPro.WorldEvents:RegisterGuide("LudoPilBountyA","Pilgrim's Bounty (Alliance)","Pilgrim's Bounty (Alliance)","WE", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoPilBountyA",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Pilgrim's Bounty|QID|14022|N|This guide starts in Stormwind City and is designed to get you the following achievements: FOOD FIGHT!, Now We're Cookin', Pilgrim's Paunch, and Pilgrim's Peril.|
 N FOOD FIGHT!|QID|14022|N|Sit down at a table with at least one other person at it and target them and "share" the food a couple of times.|
 N Now We're Cookin'|QID|14022|N|Cook up one of every Pilgrim's Bounty dishes.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_pet_battle_dailies
+-- Date: 2014-06-10 23:26
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3545/revisions/25765/view
 -- Date: 2013-09-21 02:04
 -- Who: Emmaleah
 -- Log: updated for Aki's new location in 5.4
@@ -23,7 +28,10 @@
 -- Who: Ludovicus
 -- Log: Clone from http://wow-pro.com/node/3541
 
-WoWPro.Dailies:RegisterGuide("EmmPetBattles", "Vale of Eternal Blossoms", "Pet Battle Dailies", "MoP", "Emmaleah", "Horde", function()
+local guide = WoWPro:RegisterGuide("EmmPetBattles",'Dailies', "Vale of Eternal Blossoms", "Emmaleah", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Pet Battle Dailies"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Work In Process Disclaimer|QID|31909|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|

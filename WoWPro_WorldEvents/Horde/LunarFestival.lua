@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_horde
+-- Date: 2014-06-10 21:32
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3452/revisions/25874/view
 -- Date: 2014-01-23 00:22
 -- Who: Ludovicus
 -- Log: Z tags corrections
@@ -57,7 +62,10 @@
 -- Who: Crackerhead22
 -- Log: Source page created.
 
-WoWPro.WorldEvents:RegisterGuide("CraLunFesEldH","Lunar Festival Elders Guide (Horde)","Lunar Festival Elders Guide (Horde)","WE", "Crackerhead22", "Horde", function()
+local guide = WoWPro:RegisterGuide("CraLunFesEldH",'WorldEvents',"Lunar Festival Elders Guide", "Crackerhead22", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"LunarFestival")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Wall of Text Part 1 of 2|QID|8677|N|This guide is geared toward actually completing all the Elder quests necessary for the Lunar Festival's achievments of "Elders of...". Most of the dungeon Elders can be snuck to if your level is high enough. There are a couple you have to kill bosses to get to.|

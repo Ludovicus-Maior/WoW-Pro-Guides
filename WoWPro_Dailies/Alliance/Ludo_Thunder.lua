@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_alliance
+-- Date: 2014-06-10 23:05
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3537/revisions/25938/view
 -- Date: 2014-04-14 21:17
 -- Who: Ludovicus
 
@@ -22,7 +27,10 @@
 -- Who: Ludovicus
 -- Log: Initial Notes for guide
 
-WoWPro.Dailies:RegisterGuide("LudoThunderKing", "Isle of Thunder", "Thunder King", "MoP", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoThunderKing",'Dailies', "Isle of Thunder", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Thunder King"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Stage 1!

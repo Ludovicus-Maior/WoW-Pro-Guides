@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_wildhammer_dalies_twilight_highlands
+-- Date: 2014-06-10 23:09
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3415/revisions/24672/view
 -- Date: 2011-07-11 22:20
 -- Who: Ludovicus
 -- Log: Add a flight point home.
@@ -12,7 +17,10 @@
 -- Date: 2011-06-30 19:01
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("TwiTwiWil", "Twilight Highlands", "Wildhammer", "Cata", "Twists", "Alliance", function()
+local guide = WoWPro:RegisterGuide("TwiTwiWil",'Dailies', "Twilight Highlands", "Twists", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Wildhammer"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Fight Like a Wildhammer|QID|28861|M|49.76,29.23|N|From Low Shaman Blundy.|

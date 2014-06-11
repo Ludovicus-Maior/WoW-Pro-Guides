@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2014-06-10 21:25
+-- Who: Ludovicus
+-- Log: Converted guide
+
+-- URL: http://wow-pro.com/node/3466/revisions/25879/view
 -- Date: 2014-02-13 16:55
 -- Who: Ludovicus
 -- Log: Added Leaders dailies and shuffled flow.
@@ -32,8 +37,12 @@
 -- Date: 2012-02-04 23:21
 -- Who: Ludovicus
 
-WoWPro.WorldEvents:RegisterGuide("LudoLoveA","Love is in the Air (Alliance)","Love is in the Air (Alliance)","WE", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoLoveA",'WorldEvents',"Love is in the Air", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Start in a capital city other than Stormwind...|QID|24804|LEAD|24655|N|The starter quests are at Darnassus, Exodar, and Ironforge Skip the ones for where you are not!|
 A Uncommon Scents|QID|24804|LEAD|24655|M|45.05,56.42|Z|Darnassus|N|From Junior Inspector, Darnassus|
 A Uncommon Scents|QID|24804|LEAD|24655|M|76.00,57.74|Z|The Exodar|N|From Junior Inspector, The Exodar|

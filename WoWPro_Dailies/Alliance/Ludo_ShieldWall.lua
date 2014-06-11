@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2014-06-10 23:07
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25941/view
 -- Date: 2014-04-21 18:33
 -- Who: Ludovicus
 -- Log: Add some CHAT tags.
@@ -123,7 +128,10 @@
 -- Who: Ludovicus
 -- Log: Initial cut.
 
-WoWPro.Dailies:RegisterGuide("LudoShieldWall", "Krasarang Wilds", "Operation: Shieldwall", "MoP", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoShieldWall",'Dailies', "Krasarang Wilds", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1376) --  "Operation: Shieldwall"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Meet the Scout|QID|32246|M|83.99,58.67|Z|Vale of Eternal Blossoms|N|From Lyalia, outside the Shrine of Seven Stars.|

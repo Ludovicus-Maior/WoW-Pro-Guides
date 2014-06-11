@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2014-06-10 22:35
+-- Who: Ludovicus
+-- Log: Converted guide.
+
+-- URL: http://wow-pro.com/node/3504/revisions/25754/view
 -- Date: 2013-09-10 23:33
 -- Who: Ludovicus
 -- Log: Coordinate corrections for "Xaril the Poisoned Mind".
@@ -87,8 +92,10 @@
 -- Date: 2012-10-07 22:33
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("WayKlaxxi", "Dread Wastes", "Klaxxi", "MoP", "Way2hairy", "Neutral", function()
-
+local guide = WoWPro:RegisterGuide("WayKlaxxi",'Dailies', "Dread Wastes", "Way2hairy", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1337) --  "Klaxxi"
+WoWPro:GuideSteps(guide, function()
 
 return [[
 

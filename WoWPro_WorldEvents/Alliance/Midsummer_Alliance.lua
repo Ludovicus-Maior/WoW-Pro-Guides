@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2014-06-10 22:00
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3406/revisions/25734/view
 -- Date: 2013-06-29 23:42
 -- Who: Twists
 -- Log: Add Pandarian Fires
@@ -74,7 +79,10 @@
 -- Who: Crackerhead22
 -- Log: Added source code to page.
 
-WoWPro.WorldEvents:RegisterGuide("CraMidSumA","Midsummer Fire Festival (Alliance)","Midsummer Fire Festival (Alliance)","WE", "Crackerhead22", "Alliance", function()
+local guide = WoWPro:RegisterGuide("CraMidSumA",'WorldEvents',"Midsummer Fire Festival", "Crackerhead22", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Wall of Text |QID|11970|N|This guide is geared toward actually completing all the achievements necessary to become a Flame Warden. Check off and skip the extra quests if you just wish to use it as a guide to getting all the bonfires.|

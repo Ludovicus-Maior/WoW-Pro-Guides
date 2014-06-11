@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-06-10 22:10
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26499/view
+-- Date: 2014-06-10 21:44
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25788/view
 -- Date: 2013-10-28 02:08
 -- Who: Ludovicus
 -- Log: Use Dalaran City@Dalaran instead of Dalaran
@@ -82,7 +92,10 @@
 -- Date: 2011-10-28 08:03
 -- Who: Crackerhead22
 
-WoWPro.WorldEvents:RegisterGuide("LudoHallowCAT","Hallow's End (Cataclysm)","Hallow's End (Cataclysm)","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoHallowCAT",'WorldEvents',"Hallow's End", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Orgrimmar|QID|208181|N|Get thee to Orgrimmar to take the portals.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
+-- Date: 2014-06-10 21:40
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3444/revisions/25828/view
 -- Date: 2013-12-01 00:17
 -- Who: Ludovicus
 -- Log: Added ACH tags to steps.
@@ -32,8 +37,12 @@
 -- Date: 2011-10-30 19:10
 -- Who: Crackerhead22
 
-WoWPro.WorldEvents:RegisterGuide("LudoPilBountyH","Pilgrim's Bounty (Horde)","Pilgrim's Bounty (Horde)","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoPilBountyH",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Pilgrim's Bounty|QID|14036|N|This guide starts in Orgrimmar and is designed to get you the following achievements: FOOD FIGHT!, Now We're Cookin', Pilgrim's Paunch, and Pilgrim's Peril|
 N FOOD FIGHT!|QID|935790000|ACH|3579|N|Sit down at a table with at least one other person at it and target them and "share" the food a couple of times.|
 N Now We're Cookin'|QID|935770000|ACH|3577|N|Cook up one of every Pilgrim's Bounty dishes.|

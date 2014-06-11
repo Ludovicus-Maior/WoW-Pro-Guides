@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2014-06-10 21:24
+-- Who: Ludovicus
+-- Log: Changed  guide format
+
+-- URL: http://wow-pro.com/node/3467/revisions/25903/view
 -- Date: 2014-02-21 19:21
 -- Who: Ludovicus
 -- Log: Missing A in [T A Gift]
@@ -42,7 +47,10 @@
 -- Date: 2012-02-04 23:23
 -- Who: Ludovicus
 
-WoWPro.WorldEvents:RegisterGuide("LudoLoveH","Love is in the Air (Horde)","Love is in the Air (Horde)","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoLoveH",'WorldEvents',"Love is in the Air", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Start at any capital city EXCEPT Orgrimmar|QID|24805|LEAD|24536|N|The starter quests are at Silvermoon, Undercity, Thunder Bluff.  Skip the ones for where you are not!|
