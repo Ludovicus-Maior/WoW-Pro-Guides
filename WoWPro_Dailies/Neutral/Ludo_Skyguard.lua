@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/skyguard_dalies
+-- Date: 2014-06-11 19:17
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3457/revisions/25629/view
 -- Date: 2013-05-14 15:49
 -- Who: Ludovicus
 -- Log: Corrected coord for K Talonpriest Zellek
@@ -23,7 +28,10 @@
 -- Who: Ludovicus
 -- Log: Sync to GIT
 
-WoWPro.Dailies:RegisterGuide("LudoSkyguard", "Terokkar Forest", "Sha'tari Skyguard", "BC", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoSkyguard",'Dailies', "Terokkar Forest", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Sha'tari Skyguard"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Threat from Above|QID|11096|M|64,42|Z|Shattrath City|N|From Yuula in Shattrath City|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2014-06-11 19:23
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3502/revisions/25636/view
 -- Date: 2013-05-14 18:48
 -- Who: Ludovicus
 -- Log: Bad coord for Baolai the Immolator
@@ -110,7 +115,10 @@
 -- Date: 2012-10-07 22:31
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("EstGoldLotus", "Vale of Eternal Blossoms", "Golden Lotus Dailies", "MoP", "Estelyen", "Neutral", function()
+local guide = WoWPro:RegisterGuide("EstGoldLotus",'Dailies', "Vale of Eternal Blossoms", "Estelyen", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1269) --  "Golden Lotus Dailies"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 90|LVL|90|N|You need to be level 90 to do the Golden Lotus Dailies|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_frenzyheart_tribe_reputation_dalies_sholazar_basin
+-- Date: 2014-06-11 19:08
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3417/revisions/25251/view
 -- Date: 2012-12-16 02:50
 -- Who: Emmaleah
 -- Log: changed WTLK to Lich so that all the guides sort together
@@ -12,7 +17,10 @@
 -- Date: 2011-06-30 19:07
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("CraShoFre", "Sholazar Basin", "Frenzyheart Tribe", "Lich", "Crackerhead22", "Neutral", function()
+local guide = WoWPro:RegisterGuide("CraShoFre",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Frenzyheart Tribe"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Frenzyheart Hill|M|55.79,68.18|N|Head to Sholazar Basin and go to Frenzyheart Hill.|

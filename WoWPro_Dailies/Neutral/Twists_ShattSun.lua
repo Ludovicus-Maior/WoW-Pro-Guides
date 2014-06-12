@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
+-- Date: 2014-06-11 19:16
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3470/revisions/25742/view
 -- Date: 2013-08-15 23:14
 -- Who: Ludovicus
 -- Log: Added missing QIDs, made safe for non-miners,non-skinners,non-herbalists.
@@ -29,7 +34,10 @@
 -- Date: 2012-02-14 00:58
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("TwiShattSun", "Isle of Quel'Danas", "Shattered Sun Offensive", "BC", "Twists", "Neutral", function()
+local guide = WoWPro:RegisterGuide("TwiShattSun",'Dailies', "Isle of Quel'Danas", "Twists", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,932) --  "Shattered Sun Offensive"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N State of the Realm|QID|11554|N|This guide assumes that all of the Shattered Sun Offensive are in the final phase.  If you are on a new server, this guide will not do.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/anglers_reputation
+-- Date: 2014-06-11 22:09
+-- Who: Ludovicus
+-- Log: Converted
+
+-- URL: http://wow-pro.com/node/3509/revisions/25727/view
 -- Date: 2013-06-23 01:17
 -- Who: Ludovicus
 -- Log: Removed absent leadin quests.
@@ -41,7 +46,10 @@
 -- Date: 2012-10-07 22:40
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("LudoAnglers", "Krasarang Wilds", "The Anglers Reputation", "MoP", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoAnglers",'Dailies', "Krasarang Wilds", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1302) --  "The Anglers Reputation"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Quest(s) from John "Big Hook" Marsock|QID|30754;30753|M|68.34,43.49|N|From John "Big Hook" Marsock, if he is offering|

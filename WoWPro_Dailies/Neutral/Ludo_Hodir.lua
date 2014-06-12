@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2014-06-11 19:09
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3478/revisions/25405/view
 -- Date: 2013-01-13 01:24
 -- Who: Ludovicus
 -- Log: Add a CN tag
@@ -23,7 +28,10 @@
 -- Who: Ludovicus
 -- Log: Initial Versions of Hodir, Kaluak and Wyrmrest Rep guides.
 
-WoWPro.Dailies:RegisterGuide("LudoHodir", "The Storm Peaks", "The Sons of Hodir", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoHodir",'Dailies', "The Storm Peaks", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "The Sons of Hodir"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Hot and Cold|QID|12981|M|63.13,62.95|N|From Fjorn's Anvil|

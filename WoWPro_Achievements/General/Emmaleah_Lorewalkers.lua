@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
+-- Date: 2014-06-11 22:07
+-- Who: Ludovicus
+-- Log: Converted
+
+-- URL: http://wow-pro.com/node/3506/revisions/25759/view
 -- Date: 2013-09-10 23:57
 -- Who: Ludovicus
 -- Log: Interleave the last turnins to avoid client crash if you turn in more than one quest before "Storytime" starts.   You could pile up X copies of Lorewalker Cho telling stories at the same time and then BOOOM!
@@ -80,8 +85,11 @@
 -- Date: 2012-10-07 22:35
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide('Lorewalkers','MoP Zones', 'Lorewalkers', 'Reputation', 'Mists of Pandaria', 'Community','Neutral', function()
-return [[
+local guide = WoWPro:RegisterGuide('Lorewalkers',"Achievements",'Pandaria', 'Lockslap','Neutral')
+WoWPro:GuideIcon(guide,"ACH",6548)
+WoWPro:GuideSteps(guide, function()
+return
+[[
 
 N Lorewalkers|QID|31367|N|Lorewalkers faction is earned by visiting various points of interest around Pandaria.  This guide assumes you start in your factions city in Vale of Eternal Blossoms and will take you to all of those places. It also assumes you are level 90 and have trained flying in Pandaria.  Some steps may already be checked off.  They are points of interest that you visited while leveling. The first stop in a new zone I have also included the zone name to help find the green dot.|
 N Brewfathers|QID|31367|N|This guide will also guide you to the spots for the Ledgend of the Brewfathers Achievement.  While it is unrelated, it is similar in that it requires flying to points of interest that are along the same route as the Lorewalker points of interest, so you may as well do it.

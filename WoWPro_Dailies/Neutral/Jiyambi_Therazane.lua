@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2014-06-11 19:19
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3419/revisions/25708/view
 -- Date: 2013-06-18 00:38
 -- Who: Ludovicus
 -- Log: quest 26710's name [Lost In the Deeps] does not match Grail's database [Lost In The Deeps]
@@ -32,7 +37,10 @@
 -- Date: 2011-06-30 19:13
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("JiyDeeTher", "Deepholm", "Therazane Reputation", "Cata", "Jiyambi", "Neutral", function()
+local guide = WoWPro:RegisterGuide("JiyDeeTher",'Dailies', "Deepholm", "Jiyambi", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1171) --  "Therazane Reputation"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Deepholm Quests|QID|26709|N|You must have completed the quests in Deepholm in order to unlock these dailies. The best way to get this done is to use the WoW-Pro Leveling guide for Deepholm.|

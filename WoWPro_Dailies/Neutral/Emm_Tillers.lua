@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2014-06-11 19:32
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3508/revisions/25930/view
 -- Date: 2014-04-14 19:34
 -- Who: Ludovicus
 -- Log: Random corrections!
@@ -115,8 +120,10 @@
 -- Date: 2012-10-07 22:37
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("EmmTillers", "Valley of the Four Winds", "Tillers", "MoP", "Emmaleah", "Neutral", function()
-
+local guide = WoWPro:RegisterGuide("EmmTillers",'Dailies', "Valley of the Four Winds", "Emmaleah", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1272) --  "Tillers"
+WoWPro:GuideSteps(guide, function()
 
 return [[
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
+-- Date: 2014-06-11 19:00
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3479/revisions/25741/view
 -- Date: 2013-08-15 23:12
 -- Who: Ludovicus
 -- Log: Improved ordering.
@@ -28,8 +33,12 @@
 -- Who: Ludovicus
 -- Log: INitial Versions
 
-WoWPro.Dailies:RegisterGuide("LudoArgCrusade", "Icecrown", "Argent Crusade", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoArgCrusade",'Dailies', "Icecrown", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Argent Crusade"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Argent Crusade|N|The Argent Crusade Reputation Dalies.|
 
 A Slaves to Saronite|QID|13300|FACTION|Alliance|N|To Absalan the Pious. He patrols around on the Deck of the Skybreaker.|

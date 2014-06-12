@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2014-06-11 19:05
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3469/revisions/25668/view
 -- Date: 2013-05-17 19:16
 -- Who: Ludovicus
 -- Log:  [The Bigger They Are]
@@ -88,7 +93,10 @@
 -- Date: 2012-02-13 01:00
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("EstFirelands", "Mount Hyjal", "Firelands Invasion", "Cata", "Estelyen", "Neutral", function()
+local guide = WoWPro:RegisterGuide("EstFirelands",'Dailies', "Mount Hyjal", "Estelyen", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Firelands Invasion"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Guardians of Hyjal: Firelands Invasion!|QID|29388|FACTION|Horde|LEAD|29145|N|You need to have completed all the quests in Mount Hyjal up to Aessina's Miracle and be Level 85 to start the Firelands Invasion. If you fulfill these requirements, get this Quest from your nearest Warchief's Command Board.|Z|Orgrimmar|

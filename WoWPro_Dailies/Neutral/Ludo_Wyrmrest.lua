@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2014-06-11 19:09
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3478/revisions/25405/view
 -- Date: 2013-01-13 01:24
 -- Who: Ludovicus
 -- Log: Add a CN tag
