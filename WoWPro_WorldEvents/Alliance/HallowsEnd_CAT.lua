@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-06-13 00:20
+-- Who: Ludovicus
+-- Log: Missing quote
+
+-- URL: http://wow-pro.com/node/3440/revisions/26500/view
 -- Date: 2014-06-10 21:58
 -- Who: Ludovicus
 -- Log: Changed guide format.

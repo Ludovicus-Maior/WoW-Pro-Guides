@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-06-13 00:23
+-- Who: Ludovicus
+-- Log: Missing quote
+
+-- URL: http://wow-pro.com/node/3441/revisions/26503/view
 -- Date: 2014-06-10 22:10
 -- Who: Ludovicus
 -- Log: Changed guide format.
