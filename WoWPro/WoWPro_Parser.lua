@@ -412,6 +412,9 @@ function WoWPro:ParseSteps(steps)
         	if not WoWPro.Guides[GID].level and WoWPro.Guides[GID].acnt_level > 1 then
         	    WoWPro:Warning("Guide %s %d/%d meanlevel=%g",GID, WoWPro.Guides[GID].asum_level , WoWPro.Guides[GID].acnt_level, amean_level)
         	end
+        	if WoWPro.Guides[GID].level and WoWPro.Guides[GID].acnt_level > 1 and math.abs(WoWPro.Guides[GID].level-amean_level) > 0.001 then
+        	    WoWPro:Warning("Guide %s level= %g but meanlevel=%g",GID, WoWPro.Guides[GID].level, amean_level)
+        	end        	
         end
     end
 end
