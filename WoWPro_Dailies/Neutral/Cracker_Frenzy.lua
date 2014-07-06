@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_frenzyheart_tribe_reputation_dalies_sholazar_basin
+-- Date: 2014-07-06 15:40
+-- Who: Ludovicus
+-- Log: Added levels and faction
+
+-- URL: http://wow-pro.com/node/3417/revisions/26524/view
 -- Date: 2014-06-11 19:08
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -18,8 +23,8 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("CraShoFre",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Frenzyheart Tribe"
+WoWPro:GuideLevels(guide,74,77,76)
+WoWPro.Dailies:GuideFaction(guide,1104) --  "Frenzyheart Tribe"
 WoWPro:GuideSteps(guide, function()
 return [[
 

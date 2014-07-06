@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_wildhammer_dalies_twilight_highlands
+-- Date: 2014-07-06 15:27
+-- Who: Ludovicus
+-- Log: Guide level and faction
+
+-- URL: http://wow-pro.com/node/3415/revisions/26510/view
 -- Date: 2014-06-10 23:09
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -18,8 +23,8 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("TwiTwiWil",'Dailies', "Twilight Highlands", "Twists", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Wildhammer"
+WoWPro:GuideLevels(guide,84,84,84)
+WoWPro.Dailies:GuideFaction(guide,1174) --  "Wildhammer"
 WoWPro:GuideSteps(guide, function()
 return [[
 

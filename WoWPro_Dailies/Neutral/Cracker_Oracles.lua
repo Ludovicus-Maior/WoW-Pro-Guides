@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_oracles_reputation_dalies_sholazar_basin
+-- Date: 2014-07-06 15:44
+-- Who: Ludovicus
+-- Log: Added levels and faction
+
+-- URL: http://wow-pro.com/node/3418/revisions/26527/view
 -- Date: 2014-06-11 19:12
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -23,8 +28,8 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("CraShoOra",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "The Oracles Reputation"
+WoWPro:GuideLevels(guide,76,77,76.5)
+WoWPro.Dailies:GuideFaction(guide,1105) --  "The Oracles Reputation"
 WoWPro:GuideSteps(guide, function()
 return [[
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2014-07-06 15:49
+-- Who: Ludovicus
+-- Log: Guide levels
+
+-- URL: http://wow-pro.com/node/3419/revisions/26531/view
 -- Date: 2014-06-11 19:19
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -38,7 +43,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("JiyDeeTher",'Dailies', "Deepholm", "Jiyambi", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,81,81,81)
 WoWPro.Dailies:GuideFaction(guide,1171) --  "Therazane Reputation"
 WoWPro:GuideSteps(guide, function()
 return [[

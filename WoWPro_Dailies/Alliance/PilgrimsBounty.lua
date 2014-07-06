@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
+-- Date: 2014-07-06 15:33
+-- Who: Ludovicus
+-- Log: Added Name and category
+
+-- URL: http://wow-pro.com/node/3456/revisions/26513/view
 -- Date: 2014-06-10 23:21
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -25,6 +30,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoPilgrimDailiesA",'Dailies',"Pilgrim's Bounty", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideNameAndCategory(guide,"Pilgrim's Bounty")
 WoWPro.Dailies:GuideFaction(guide,666) -- "Pilgrim's Bounty"
 WoWPro:GuideSteps(guide, function()
 return [[

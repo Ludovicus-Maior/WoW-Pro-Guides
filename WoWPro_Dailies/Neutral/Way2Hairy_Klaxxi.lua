@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2014-07-06 15:55
+-- Who: Ludovicus
+-- Log: Added levels
+
+-- URL: http://wow-pro.com/node/3504/revisions/26505/view
 -- Date: 2014-06-10 22:35
 -- Who: Ludovicus
 -- Log: Converted guide.
@@ -93,7 +98,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("WayKlaxxi",'Dailies', "Dread Wastes", "Way2hairy", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,89,89,89)
 WoWPro.Dailies:GuideFaction(guide,1337) --  "Klaxxi"
 WoWPro:GuideSteps(guide, function()
 

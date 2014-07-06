@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
+-- Date: 2014-07-06 15:57
+-- Who: Ludovicus
+-- Log: Added artificial levels line
+
+-- URL: http://wow-pro.com/node/3506/revisions/26539/view
 -- Date: 2014-06-11 22:07
 -- Who: Ludovicus
 -- Log: Converted
@@ -87,6 +92,7 @@
 
 local guide = WoWPro:RegisterGuide('Lorewalkers',"Achievements",'Pandaria', 'Lockslap','Neutral')
 WoWPro:GuideIcon(guide,"ACH",6548)
+WoWPro:GuideLevels(guide,85,90,89)  -- Artificial levels
 WoWPro:GuideSteps(guide, function()
 return
 [[

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_pet_battle_dailies
+-- Date: 2014-07-06 15:35
+-- Who: Ludovicus
+-- Log: Added name/cat
+
+-- URL: http://wow-pro.com/node/3545/revisions/26516/view
 -- Date: 2014-06-10 23:26
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -30,7 +35,7 @@
 
 local guide = WoWPro:RegisterGuide("EmmPetBattles",'Dailies', "Vale of Eternal Blossoms", "Emmaleah", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Pet Battle Dailies"
+WoWPro.Dailies:GuideNameAndCategory(guide,"Pet Battle Dailies")
 WoWPro:GuideSteps(guide, function()
 return [[
 

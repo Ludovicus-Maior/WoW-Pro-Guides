@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/anglers_reputation
+-- Date: 2014-07-06 15:58
+-- Who: Ludovicus
+-- Log: Added levels
+
+-- URL: http://wow-pro.com/node/3509/revisions/26540/view
 -- Date: 2014-06-11 22:09
 -- Who: Ludovicus
 -- Log: Converted
@@ -47,7 +52,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("LudoAnglers",'Dailies', "Krasarang Wilds", "Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,90,90,90)
 WoWPro.Dailies:GuideFaction(guide,1302) --  "The Anglers Reputation"
 WoWPro:GuideSteps(guide, function()
 return [[
