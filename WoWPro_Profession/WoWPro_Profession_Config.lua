@@ -180,7 +180,8 @@ function WoWPro.Profession:CreateConfig()
 	
 	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Profession", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
+	table.insert(WoWPro.DropdownMenu, {text = "About", func = function()
 			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Profession") 
 		end} )
+	table.insert(WoWPro.DropdownMenu, {text = "Proxymity Sort", func = WoWPro.OrderSteps } )
 end

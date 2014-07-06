@@ -4,20 +4,44 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2014-05-28 22:00
+-- Who: Ludovicus
+-- Log: Added Dragonblight
+
+-- URL: http://wow-pro.com/node/3474/revisions/26381/view
+-- Date: 2014-05-28 21:53
+-- Who: Ludovicus
+-- Log: AAdded missing guides.
+
+-- URL: http://wow-pro.com/node/3474/revisions/26377/view
+-- Date: 2014-05-28 20:33
+-- Who: Ludovicus
+-- Log: Conveted
+
+-- URL: http://wow-pro.com/node/3474/revisions/26311/view
+-- Date: 2014-05-26 17:44
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3474/revisions/25710/view
 -- Date: 2013-06-18 00:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad X coordinate 49 21, 1/1 in guide TwiExpBT, line [F Steeljaw's Caravan].
 
 -- URL: http://wow-pro.com/node/3474/revisions/24997/view
 -- Date: 2012-05-27 21:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Change guide nick for Exploring Howling Fjord to TwiExpHFj
 
 -- URL: http://wow-pro.com/node/3474/revisions/24980/view
 -- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("TwiExpHFj","Howling Fjord","Howling Fjord","Exploration", "Northrend", "Twists", "Neutral", function()
+local guide = WoWPro:RegisterGuide("TwiExpHFj","Achievements","Howling Fjord","Twists", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",1263)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Kamagua|QID|901263001|M|25.1,57.7|ACH|1263;1|

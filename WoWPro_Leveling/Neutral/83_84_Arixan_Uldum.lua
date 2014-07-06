@@ -4,6 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2014-05-30 11:57
+-- Who: Ludovicus
+-- Log: Level Adjust
+
+-- URL: http://wow-pro.com/node/3309/revisions/26297/view
+-- Date: 2014-05-26 01:16
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3309/revisions/26123/view
+-- Date: 2014-05-18 23:05
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3309/revisions/26051/view
+-- Date: 2014-05-17 19:03
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3309/revisions/25833/view
 -- Date: 2013-12-07 19:53
 -- Who: Fluclo
 -- Log: Minor tweaks aimed at Horde characters, added CHAT to relevant steps, changed Dungeon quests to Rank 3.
@@ -30,19 +49,19 @@
 
 -- URL: http://wow-pro.com/node/3309/revisions/25564/view
 -- Date: 2013-03-23 18:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: In guide AriUld8384, quest 28557's name [Warchief's Command: Uldum] does not match Grail's database [Warchief's Command: Uldum!].
 --	In guide AriUld8384, quest 27627's name [Just A Fancy Cockroach] does not match Grail's database [Just a Fancy Cockroach].
 --	In guide AriUld8384, quest 27627's name [Just A Fancy Cockroach] does not match Grail's database [Just a Fancy Cockroach].
 
 -- URL: http://wow-pro.com/node/3309/revisions/25367/view
 -- Date: 2013-01-12 19:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3309/revisions/25066/view
 -- Date: 2012-09-15 19:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Submitted by Forthepie on Wed, 2012-09-12 18:52.
 --	Step 314 for the quest Bad Datas, says spead to instead of speak to Harrison Jones
 
@@ -78,7 +97,7 @@
 
 -- URL: http://wow-pro.com/node/3309/revisions/24408/view
 -- Date: 2011-05-18 22:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3309/revisions/24363/view
 -- Date: 2011-05-03 03:06
@@ -86,33 +105,33 @@
 
 -- URL: http://wow-pro.com/node/3309/revisions/24239/view
 -- Date: 2011-04-19 17:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Broke up [The Thrill of Discovery] and [Colossal Guardians].
 --	Enhanced notes for survival tips.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24222/view
 -- Date: 2011-04-05 23:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3309/revisions/24174/view
 -- Date: 2011-03-12 18:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Unique ID
 
 -- URL: http://wow-pro.com/node/3309/revisions/24152/view
 -- Date: 2011-03-09 01:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Geri's first cut at a better [Just A Fancy Cockroach] + [After the Fall] mix and coord corrections.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24147/view
 -- Date: 2011-03-08 01:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweak to sequence around [Do the World a Favor] by Geri.
 --	Spelling corrections by Ludovicus.
 
 -- URL: http://wow-pro.com/node/3309/revisions/24146/view
 -- Date: 2011-03-08 00:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: U tag on [Smoke in Their Eyes] had an spurious 'l' in the middle.
 --	Found by Geri.
 
@@ -141,7 +160,11 @@
 -- Date: 2010-12-03 23:21
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'MagTwi8485|LiaTwi8485', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('AriUld8384', "Leveling", 'Uldum', 'Hezkezl', 'Neutral')
+WoWPro:GuideLevels(guide,82,83,82.995)
+WoWPro:GuideNextGuide(guide, 'MagTwi8485|LiaTwi8485')
+WoWPro:GuideIcon(guide,"ACH",4865)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 83 |QID|27003|N|You need to be level 83 or higher to be able to work through this guide.|LVL|83|

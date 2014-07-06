@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2014-05-27 20:21
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "79,80" to "77,77".
+
+-- URL: http://wow-pro.com/node/3299/revisions/26289/view
+-- Date: 2014-05-26 01:08
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3299/revisions/26159/view
+-- Date: 2014-05-20 19:49
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3299/revisions/25992/view
+-- Date: 2014-05-14 22:47
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3299/revisions/25684/view
 -- Date: 2013-05-18 19:17
 -- Who: Fluclo
 
@@ -24,16 +44,16 @@
 
 -- URL: http://wow-pro.com/node/3299/revisions/24311/view
 -- Date: 2011-04-29 15:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 558, for step C non-decimal U
 
 -- URL: http://wow-pro.com/node/3299/revisions/24224/view
 -- Date: 2011-04-05 23:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3299/revisions/24207/view
 -- Date: 2011-04-05 00:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed M, N, and U tag errors in guide.
 --	Improved some text hints. Does not have my precision M fixes.
 
@@ -45,7 +65,11 @@
 -- Date: 2010-12-03 22:32
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "EstIce7985", "Alliance", function()
+local guide = WoWPro:RegisterGuide("CybSto7980", "Leveling", "The Storm Peaks", "Cyberlamb", "Alliance")
+WoWPro:GuideLevels(guide,77,77)
+WoWPro:GuideNextGuide(guide, "EstIce7985")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 77 |QID|12818|N|You need to be Level 77 to do this guide.|LVL|77|

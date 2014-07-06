@@ -4,8 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2014-05-27 21:05
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "51,54".
+
+-- URL: http://wow-pro.com/node/3249/revisions/26248/view
+-- Date: 2014-05-25 23:01
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3249/revisions/26108/view
+-- Date: 2014-05-18 22:27
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3249/revisions/25980/view
+-- Date: 2014-05-14 22:36
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3249/revisions/25416/view
 -- Date: 2013-01-13 14:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3249/revisions/25333/view
@@ -20,7 +40,7 @@
 
 -- URL: http://wow-pro.com/node/3249/revisions/24414/view
 -- Date: 2011-05-23 18:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3249/revisions/24231/view
 -- Date: 2011-04-14 14:41
@@ -49,7 +69,11 @@
 -- Date: 2010-12-03 11:30
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraSwa5254', 'Swamp of Sorrows', 'Crackerhead22', '52', '54', 'CraBla5458', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('CraSwa5254', "Leveling", 'Swamp of Sorrows', 'Crackerhead22', 'Alliance')
+WoWPro:GuideLevels(guide,51,54)
+WoWPro:GuideNextGuide(guide, 'CraBla5458')
+WoWPro:GuideIcon(guide,"ACH",4904)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Maliciously Delicious|QID|27587|M|73.07,14.74|N|From Trade Baron Silversnap.|

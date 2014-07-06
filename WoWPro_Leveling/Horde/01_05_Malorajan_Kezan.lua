@@ -4,18 +4,85 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-06-02 22:17
+-- Who: Ludovicus
+-- Log: Added Icons
+
+-- URL: http://wow-pro.com/node/3212/revisions/26475/view
+-- Date: 2014-06-02 20:42
+-- Who: Ludovicus
+-- Log: Remove step level race restriction
+
+-- URL: http://wow-pro.com/node/3212/revisions/26322/view
+-- Date: 2014-05-26 19:57
+-- Who: Ludovicus
+-- Log: Added missing guide type.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26212/view
+-- Date: 2014-05-25 22:29
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26126/view
+-- Date: 2014-05-19 21:08
+-- Who: Hendo72
+-- Log: Reverted my change as it does not work properly. I added extra coordinates to point to Sassy and added a note about losing your Hot Rod at this point.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26125/view
+-- Date: 2014-05-19 20:35
+-- Who: Hendo72
+-- Log: Changed 'R Gallywix's Yacht|QID|14126' to a C step and updated the coordinates to point to Sassy instead of the yacht.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26041/view
+-- Date: 2014-05-17 17:37
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26038/view
+-- Date: 2014-05-17 17:24
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3212/revisions/25926/view
+-- Date: 2014-04-08 09:46
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25925/view
+-- Date: 2014-04-06 20:23
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25858/view
+-- Date: 2013-12-27 22:38
+-- Who: Ludovicus
+-- Log: Play through tweaks + new goblin only quests for Razor Hill.
+
+-- URL: http://wow-pro.com/node/3212/revisions/25852/view
+-- Date: 2013-12-26 21:11
+-- Who: Ludovicus
+-- Log: A few tweaks as I ran my goblin priest through.
+
+-- URL: http://wow-pro.com/node/3212/revisions/25847/view
+-- Date: 2013-12-16 20:54
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25841/view
+-- Date: 2013-12-12 15:59
+-- Who: Fluclo
+-- Log: Added Race Restriction
+
+-- URL: http://wow-pro.com/node/3212/revisions/25481/view
 -- Date: 2013-01-13 19:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3212/revisions/25450/view
 -- Date: 2013-01-13 17:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3212/revisions/25127/view
 -- Date: 2012-10-08 19:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Get rid of - in zone
 
 -- URL: http://wow-pro.com/node/3212/revisions/25063/view
@@ -35,7 +102,7 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/24320/view
 -- Date: 2011-04-29 15:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 213 for step A has unknown tag [From Sassy Hardwrench.]
 
 -- URL: http://wow-pro.com/node/3212/revisions/24268/view
@@ -63,7 +130,7 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/24000/view
 -- Date: 2011-01-16 17:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added help text around [Trouble in the Mines] and [Trouble in the Mines].  Added separate completion steps for each of the homies in [Rolling with my Homies].  Added help text [The Replacements].  Added help text to [Do it Yourself]. Added the female quest lines for [Off to the Bank] and [The New You] and labled them as (For [Males|Females]). Add quest objectives for [Life of the Party] and [Pirate Party Crashers] and [Liberate the Kaja'mite].  Added help note for [Waltz Right In] and intermediate completion steps.  Added turn in notes for [The Great Bank Heist], [Robbing Hoods].  Added a completion step for [Life Savings].
 
 -- URL: http://wow-pro.com/node/3212/revisions/23991/view
@@ -88,126 +155,154 @@
 -- Date: 2010-12-03 07:19
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('MalKez0105', 'Kezan (Goblin)', 'Malorajan', '01', '05', 'MalLos0512', 'Horde', function()
+local guide = WoWPro:RegisterGuide('MalKez0105', "Leveling", 'Kezan', 'Malorajan', 'Horde')
+WoWPro:GuideLevels(guide,01,02, 1.03704)
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Goblin_Male","Interface\\Icons\\Achievement_Character_Goblin_Female"))
+WoWPro:GuideNextGuide(guide, 'MalLos0512')
+WoWPro:GuideRaceSpecific(guide,"Goblin")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Taking Care of Business|QID|14138|M|56.52,77.00|N|From Sassy Hardwrench.|
 T Taking Care of Business|QID|14138|M|60.10,74.66|N|To Foreman Dampwick.|
-A Trouble in the Mines|QID|14075|M|60.10,74.66|N|From Foreman Dampwick.|
-A Good Help is Hard to Find|QID|14069|M|60.10,74.66|N|From Foreman Dampwick.|
-C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Zap the red trolls by right-clicking them.|S|NC|
+
+A Trouble in the Mines|QID|14075|M|60.10,74.66|N|From Foreman Dampwick.|PRE|14138|
+A Good Help is Hard to Find|QID|14069|M|60.10,74.66|N|From Foreman Dampwick.|PRE|14138|
+C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Right-Click the Defiant Trolls to adjust their attitude as you head to the mines.|S|NC|
 C Trouble in the Mines|QID|14075|M|71.02,76.19;74.59,83.67;65.05,88.22|CS|N|Go into the mines to kill worms.|
-C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Zap the red trolls with your hand on your way into the mine.|US|NC|
+C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Finishing right-clicking the Defiant Trolls as you head out of the mines and back to Foreman Dampwick.|US|NC|
 
 T Trouble in the Mines|QID|14075|M|60.35,74.64|N|To Foreman Dampwick.|
 T Good Help is Hard to Find|QID|14069|M|60.35,74.64|N|To Foreman Dampwick.|
-L Level 2|QID|14069|LVL|2|N|You should be around level 2 by this point.|
-A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|
-T Kaja'Cola|QID|25473|M|56.53,76.97|N|To Sassy Hardwrench.|
-A Megs in Marketing|QID|28349|M|56.53,76.97|N|From Sassy Hardwrench.|
-T Megs in Marketing|QID|28349|M|58.22,76.61|N|To Megs Dreadshredder.|
-A Rolling with my Homies|QID|14071|M|58.22,76.61|N|From Megs Dreadshredder.|
-C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|Gobber picked up: 1/1|N|Use the keys, then pick up Gobber.|NC|
-C Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|Ace picked up: 1/1|NC|N|Pick Up Ace.|NC|
-C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|Izzy picked up: 1/1|NC|N|Pick up Izzy.|NC|
-T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|U|46856|
-A Report for Tryouts|QID|24567|M|58.24,76.01|N|From Megs Dreadshredder.|
-A Off to the Bank|QID|26712|M|56.49,76.98|N|From Candy Cane.|GEN|MALE|
-A Off to the Bank|QID|26711|M|56.49,76.98|N|From Chip Endale.|GEN|FEMALE|
-A Do it Yourself|QID|14070|M|56.49,76.98|N|From Sassy Hardwrench.|
 
+;L Level 2|QID|14069|LVL|2|N|You should be around level 2 by this point.|
+
+A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|PRE|14075+14069|
+T Kaja'Cola|QID|25473|M|56.53,76.97|N|To Sassy Hardwrench.|
+
+A Megs in Marketing|QID|28349|M|56.53,76.97|N|From Sassy Hardwrench.|PRE|25473|
+T Megs in Marketing|QID|28349|M|58.22,76.61|N|To Megs Dreadshredder.|
+
+A Rolling with my Homies|QID|14071|M|58.22,76.61|N|From Megs Dreadshredder.|PRE|28349|
+N Hot Rod|QID|14071|U|46856|N|You have access to a Hot Rod, which will allow you to move quicker in Kezan. Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration. The Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable. Use the key now to board your Hot Rod. If you need to dismount for any reason, right click the Hot Rod buff at the top right of your screen.|BUFF|66392|ACTIVE|14071|
+C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|Izzy picked up: 1/1|NC|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod). She is located in the beam of light on the other side of the swimming pool. The Hot Rod doesn't work on/in water.|NC|
+C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|Gobber picked up: 1/1|N|Go pick up Gobber. Just follow the path south from KTC Headquarters.|NC|
+C Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|Ace picked up: 1/1|NC|N|Go pick up Ace. He's on the other side of the road bridge.|NC|
+T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|U|46856|
+
+A Report for Tryouts|QID|24567|M|58.24,76.01|N|From Megs Dreadshredder.|PRE|14071|
+A Off to the Bank|QID|26712|M|56.49,76.98|N|From Candy Cane.|GEN|MALE|PRE|14071|
+A Off to the Bank|QID|26711|M|56.49,76.98|N|From Chip Endale.|GEN|FEMALE|PRE|14071|
+A Do it Yourself|QID|14070|M|56.49,76.98|N|From Sassy Hardwrench.|PRE|14071|
 T Report for Tryouts|QID|24567|M|48.75,57.83|N|To Coach Crosscheck.|U|46856|
-A The Replacements|QID|24488|M|48.75,57.83|N|From Coach Crosscheck.|
+
+A The Replacements|QID|24488|M|48.75,57.83|N|From Coach Crosscheck.|PRE|24567|
 C The Replacements|QID|24488|M|43.05,62.79|N|Look in and around the field for Replacement Parts, they are crates.|U|46856|NC|
 T The Replacements|QID|24488|M|48.73,57.42|N|To Coach Crosscheck.|U|46856|
-A Necessary Roughness|QID|24502|M|48.73,57.42|N|From Coach Crosscheck.|
-C Necessary Roughness|QID|24502|M|47.70,57.75|N|Hop into the shredder aim at one of the opposing shredders, and use ability #1. Rinse and repeat until finished.|NC|
 
+A Necessary Roughness|QID|24502|M|48.73,57.42|N|From Coach Crosscheck.|PRE|24488|
+C Necessary Roughness|QID|24502|M|47.70,57.75|N|Head to the Bilgewater Buccaneer, dismount from your Hot Rod (right click the buff at the top-right) then hop onto the Bilgewater Buccaneer.|QO|Bilgewater Buccaneer: 1/1|NC|
+C Necessary Roughness|QID|24502|M|47.70,57.75|N|Use Key 1 to take out the Steamwheedle Shark shredders until you have footbombed eight of them.|QO|Steamwheedle Shark Footbombed: 8/8|NC|
 T Necessary Roughness|QID|24502|M|47.70,57.75|N|(UI Alert)|
-L Level 3|QID|24502|LVL|3|N|You should be around level 3 by this point.|
-A Fourth and Goal|QID|24503|M|47.70,57.75|N|(UI Alert)|
-C Fourth and Goal|QID|24503|M|47.70,57.75|N|Make sure the aiming line is between the smoke stacks and hit ability #1.|NC|
-T Fourth and Goal|QID|24503|M|48.62,57.74|N|To Coach Crosscheck.|
-A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|
+
+A Fourth and Goal|QID|24503|M|47.70,57.75|N|(UI Alert)|PRE|24502|
+C Fourth and Goal|QID|24503|M|47.70,57.75|N|Use Key 1 to kick a footbomb between the smoke stacks.|NC|
+T Fourth and Goal|QID|24503|M|48.62,57.74|N|To Coach Crosscheck.|U|46856|
+
+A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|PRE|24503|
+R Drudgetown|QID|24520|M|43.50,70.25|N|Head to Drudgetown on your Hot Rod.|U|46856|ACTIVE|24520|
 C Bruno Flameretardant beaten down|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|Bruno Flameretardant beaten down: 1/1|U|46856|
 C Sudsy Magee beaten down|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|Sudsy Magee beaten down: 1/1|U|46856|
 C Jack the Hammer beaten down|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|Jack the Hammer beaten down: 1/1|U|46856|
 C Frankie Gearslip beaten down|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|Frankie Gearslip beaten down: 1/1|U|46856|
-T Off to the Bank|QID|26712|M|30.09,71.67|N|To FBoK Bank Teller.|GEN|MALE|U|46856|
-T Off to the Bank|QID|26711|M|30.09,71.67|N|To FBoK Bank Teller.|GEN|FEMALE|U|46856|
+R First Bank of Kezan|QID|26711;26712|M|33.86,68.87|N|Head to the First Bank of Kezan|U|46856|ACTIVE|26711;26712|
+T Off to the Bank|QID|26711;26712|M|30.09,71.67|N|To FBoK Bank Teller.|U|46856|
 
-A The New You|QID|14109|PRE|26712|M|30.09,71.67|N|From FBoK Bank Teller. (For Males)|GEN|MALE|
-C Hip New Outfit|QID|14109|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|MALE|NC|U|46856|
-C Shiny Bling|QID|14109|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|MALE|NC|U|46856|
-C Cool Shades|QID|14109|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|GEN|MALE|QO|Cool Shades: 1/1|NC|U|46856|
-T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane.|GEN|MALE|U|46856|
-A The New You|QID|14110|PRE|26711|M|30.09,71.67|N|From FBoK Bank Teller. (For Females)|GEN|FEMALE|
-B Hip New Outfit|QID|14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|GEN|FEMALE|NC|U|46856|
-B Shiny Bling|QID|14110|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|GEN|FEMALE|NC|U|46856|
-C Cool Shades|QID|14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|QO|Cool Shades: 1/1|GEN|FEMALE|NC|U|46856|
-T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale.|GEN|FEMALE|U|46856|
+A The New You|QID|14109;14110|PRE|26711+26712|M|30.09,71.67|N|From FBoK Bank Teller.|
+C Hip New Outfit|QID|14109;14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|Hip New Outfit: 1/1|CHAT|U|46856|
+C Shiny Bling|QID|14109;14110|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|Shiny Bling: 1/1|CHAT|U|46856|
+C Cool Shades|QID|14109;14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|QO|Cool Shades: 1/1|CHAT|U|46856|
+
+H KTC Headquarters|QID|14109;14110|M|56.62,76.90|N|Hearthstone, or ride back to KTC Headquarters.|U|46856|ACTIVE|14109;14110|
+T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane, back at KTC Headquarters.|GEN|MALE|U|46856|
+T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale, back at KTC Headquarters.|GEN|FEMALE|U|46856|
 T Give Sassy the News|QID|24520|M|56.42,76.97|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
 
-A Steady Shot|QID|14007|M|60.26,77.54|N|From Bamm Megabomb.|C|Hunter|
-C Steady Shot|QID|14007|M|60.31,77.53|C|Hunter|
+L Level 3|QID|14007;14008;14009;14010;14011;14012;14013|LVL|3|N|You need to be level 3 to continue this guide.|
+A Steady Shot|QID|14007|M|60.26,77.54|N|From Bamm Megabomb.|C|Hunter|U|46856|LVL|2|
+C Steady Shot|QID|14007|M|60.31,77.53|N|Use Steady Shot three times on a training dummy.|C|Hunter|LVL|3|
 T Steady Shot|QID|14007|M|60.36,77.52|N|To Bamm Megabomb.|C|Hunter|
-A Arcane Missles|QID|14008|M|59.3,73.8|N|From Fizz Lighter.|C|Mage|
-C Arcane Missles|QID|14008|M|60.31,77.53|N|Speak with Fizz Lighter and train Arcane Missiles, then cast the spell 2 times at a Training Dummy. Remember, Arcane Missiles have a chance to activate through the use of other offensive spells. Use your Fireball spell first on the Training Dummy to enable the casting of your Arcane Missiles spell.|C|Mage|
+A Arcane Missles|QID|14008|M|59.3,73.8|N|From Fizz Lighter.|C|Mage|U|46856|LVL|2|
+C Arcane Missles|QID|14008|M|60.31,77.53|N|Use Frost Nova twice on a training dummy.|C|Mage|LVL|3|
 T Arcane Missles|QID|14008|M|59.3,73.8|N|To Fizz Lighter.|C|Mage|
-A Charge|QID|14013|M|60.1,77.7|N|From Warrior-Matic NX-01.|C|Warrior|
-C Charge|QID|14013|M|60.31,77.53|N|Speak with Warrior-Matic NX-01 and train the Charge ability, then use it on a Training Dummy. |C|Warrior|
-T Charge|QID|14013|M|60.1,77.7|N|To Warrir-Matic NX-01.|C|Warrior|
-A Flash Heal|QID|14009|M|57.9,77|N|From Sister Goldskinner.|C|Priest|
-C Flash Heal|QID|14009|M|57.9,77|N|Speak with Sister Goldskimmer and train Flash Heal, then cast the spell 3 times on an Injured Employee. |C|Priest|
-T Flash Heal|QID|14009|M|57.9,77|N|To Sister Goldskinner.|C|Priest|
-A Immolate|QID|14012|M|58,74.3|N|From Evol Fingers.|C|Warlock|
-C Immolate|QID|14012|M|60.31,77.53|N|Speak with Evol Fingers and train Immolate, then cast it 3 times on a Training Dummy. |C|Warlock|
-T Immolate|QID|14012|M|58,74.3|N|To Evol Fingers.|C|Warlock|
-A Primal Strike|QID|14011|M|59.7,76.2|N|From Maxx Avalanche.|C|Shaman|
-C Primal Strike|QID|14011|M|60.31,77.53|N|Speak with Maxx Avalanche and train Primal Strike, then use it 2 times on a Training Dummy. |C|Shaman|
+A Learning the Word|QID|14009|M|57.9,77|N|From Sister Goldskinner.|C|Priest|U|46856|LVL|2|
+C Learning the Word|QID|14009|M|57.9,77|N|Use Shadow Word: Pain three times on a training dummy.|C|Priest|LVL|3|
+T Learning the Word|QID|14009|M|57.9,77|N|To Sister Goldskinner.|C|Priest|
+A Eviscerate|QID|14010|M|59.0,76.4|N|From Slinky Sharpshiv|C|Rogue|U|46856|LVL|2|
+C Eviscerate|QID|14010|M|59.0,76.4|N|Use Eviscerate three times on a training dummy.|C|Rogue|LVL|3|
+T Eviscerate|QID|14010|M|59.0,76.4|N|To Slinky Sharpshiv|C|Rogue|
+A Primal Strike|QID|14011|M|59.7,76.2|N|From Maxx Avalanche.|C|Shaman|U|46856|LVL|2|
+C Primal Strike|QID|14011|M|60.31,77.53|N|Use Primal Strike twice on a training dummy.|C|Shaman|LVL|3|
 T Primal Strike|QID|14011|M|59.9,76.2|N|To Maxx Avalanche.|C|Shaman|
+A Corruption|QID|14012|M|58,74.3|N|From Evol Fingers.|C|Warlock|U|46856|LVL|2|
+C Corruption|QID|14012|M|60.31,77.53|N|Use Corruption three times on a training dummy.|C|Warlock|LVL|3|
+T Corruption|QID|14012|M|58,74.3|N|To Evol Fingers.|C|Warlock|
+A Charge|QID|14013|M|60.1,77.7|N|From Warrior-Matic NX-01.|C|Warrior|U|46856|LVL|2|
+C Charge|QID|14013|M|60.31,77.53|N|Use Charge three times on a training dummy.|C|Warrior|LVL|3|
+T Charge|QID|14013|M|60.1,77.7|N|To Warrior-Matic NX-01.|C|Warrior|
 
-A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|
-C Life of the Party|QID|14113|M|60.21,85.76|N|Entertain 10 Partygoers. Use food on the ones with food, fireworks on the ones with fireworks, and so on.|GEN|MALE|NC|U|46856|NC|
-T Life of the Party|QID|14113|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|MALE|U|46856|
-A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|
-C Life of the Party|QID|14153|M|60.21,85.76|N|Entertain 10 Partygoers.  Use food on the ones with food, fireworks on the ones with fireworks, and so on.|GEN|FEMALE|NC|U|46856|NC|
-T Life of the Party|QID|14153|M|56.52,76.95|N|To Sassy Hardwrench.|GEN|FEMALE|U|46856|
+A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|14007+14008+14009+14011+14012+14013|
+A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|14007+14008+14009+14011+14012+14013|
+C Life of the Party|QID|14113;14153|M|60.21,85.76|N|Entertain 10 Partygoers. \nUse Key 1 (Bubbly) for those holding a drink glass\nUse Key 2 (Bucket) if they have blue swirls over their head.\nUse Key 3 (Dance) if they are dancing\nUse Key 4 (Fireworks) if they are holding a red sparkler\nUse Key 5 (Hors D'oeuvres) if they are holding a chicken drumstick.\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
+T Life of the Party|QID|14113;14153|M|56.52,76.95|N|To Sassy Hardwrench.|
 
-A Pirate Party Crashers|QID|14115|M|56.52,76.95|N|From Sassy Hardwrench.|
+A Pirate Party Crashers|QID|14115|M|56.52,76.95|N|From Sassy Hardwrench.|PRE|14113+14153|
 C Pirate Party Crashers|QID|14115|M|57.39,85.03|N|Kill 12 Pirate Party Crashers.|U|46856|
 T Pirate Party Crashers|QID|14115|M|56.46,76.97|N|To Sassy Hardwrench.|U|46856|
-L Level 4|QID|14115|LVL|4|N|You should be around level 4 by this point.|
-A The Uninvited Guest|QID|14116|M|56.46,76.97|N|From Sassy Hardwrench.|
-T The Uninvited Guest|QID|14116|M|56.72,76.93|N|Upstairs to Trade Prince Gallywix.|U|46856|
-A A Bazillion Macaroons?!|QID|14120|M|56.72,76.93|N|From Trade Prince Gallywix.|
-T A Bazillion Macaroons?!|QID|14120|M|59.84,77.04|N|To Sassy Hardwrench.|U|46856|
-A The Great Bank Heist|QID|14122|M|59.84,77.04|N|Automatically accepted from Sassy Hardwrench.|
-A Waltz Right In|QID|14123|M|58.60,73.70|N|From Slinky Sharpshiv.|
-A Robbing Hoods|QID|14121|M|60.10,78.00|N|From Megs Dreadshredder.|
-A Liberate the Kaja'mite|QID|14124|M|62.85,77.76|N|From Foreman Dampwick.|
 
-C Liberate the Kaja'mite|QID|14124|U|48768|M|71.19,77.39|N|Use the bombs on the sparkling green ore spots, then pick up the Kaja'mite Chunks.|
-T Liberate the Kaja'mite|QID|14124|M|62.92,77.54|N|To Foreman Dampwick.|
-C Robbing Hoods|U|46856|QID|14121|M|38.82,71.43|N|Run over the Hired Looters to get Stolen Loots.|
-C The Great Bank Heist|QID|14122|M|30.10,71.41|N|Click on one of the First Bank of Kezan Vaults, then use whichever ability it tells you to.|
-C Waltz Right In|QID|14123|M|16.74,46.08|QO|Maldy's Falcon: 1/1|N|Get out of your car and just walk right in! Watch out for the pigs. The Falcon is upstairs in the bedroom.|NC|
-C Waltz Right In|QID|14123|M|13.0,35.2|QO|The Goblin Lisa: 1/1|N|Head into the hut and pick it off the wall.|NC|
-C Waltz Right In|QID|14123|M|19.9,30.7|QO|The Ultimate Bomb: 1/1|N|Head into the building and pick up the bomb.|NC|
-T Waltz Right In|QID|14123|M|59.41,77.62|N|To Slinky Sharpshiv.|
+A The Uninvited Guest|QID|14116|M|56.46,76.97|N|From Sassy Hardwrench.|PRE|14115|
+T The Uninvited Guest|QID|14116|M|56.72,76.93|N|Upstairs to Trade Prince Gallywix.|
+
+A A Bazillion Macaroons?!|QID|14120|M|56.72,76.93|N|From Trade Prince Gallywix.|PRE|14116|
+T A Bazillion Macaroons?!|QID|14120|M|59.84,77.04|N|To Sassy Hardwrench.|
+
+A The Great Bank Heist|QID|14122|M|59.84,77.04|N|Automatically accepted from Sassy Hardwrench.|PRE|14120|
+A Robbing Hoods|QID|14121|M|60.10,78.00|N|From Megs Dreadshredder.|PRE|14120|U|46856|
+A Waltz Right In|QID|14123|M|58.60,73.70|N|From Slinky Sharpshiv.|PRE|14120|U|46856|
+
+C Robbing Hoods|QID|14121|M|38.82,71.43|N|Run over the Hired Looters to get Stolen Loots.|S|
+R First Bank of Kezan|QID|14122|M|29.74,64.72|N|Head to the First Bank of Kezan|U|46856|ACTIVE|14122|
+C The Great Bank Heist|QID|14122|M|30.10,71.41|N|Click on one of the First Bank of Kezan Vaults.|QO|First Bank of Kezan Vault: 1/1|NC|
+C The Great Bank Heist|QID|14122|M|30.10,71.41|N|Use whichever ability it tells you to. You'll have 5 seconds to click the right one, don't worry if you get any wrong, you'll keep going until you get it right enough times.\nKey 1 to use your Amazing G-Ray\nKey 2 to use your Blastcrackers\nKey 3 to use your Ear-O-Scope\nKey 4 to use your Infinifold Lockpick\nKey 5 to use your Kaja'mite Drill.|QO|Personal Riches: 1/1|NC|
+C Robbing Hoods|U|46856|QID|14121|M|30.8,60.8;38.4,76.2;46.7,59.8;38.5,48.31|CN|N|Finish running over the Hired Looters as you head to Gallywix's Villa.|US|
+
+R Gallywix's Villa|QID|14123|M|20.4,36.5|N|Stay in your Hot Rod and head over to Gallywix's Villa.|U|46856|ACTIVE|14123|
+C Waltz Right In|QID|14123|M|16.74,46.08|QO|Maldy's Falcon: 1/1|N|Ride into the building at the south end of the compound, and when you dismount, run up the stairs and loot Maldy's Falcon from the bedroom wall.\nWARNING! Your disguise won't fool the Keensnout Potbelly pig, or any Villa Mook's that see the pig attacking you.|NC|U|46856|
+C Waltz Right In|QID|14123|M|13.0,35.2|QO|The Goblin Lisa: 1/1|N|Head to the hut on the western end of the compund, and loot the Goblin Lisa from the wall.|NC|U|46856|
+C Waltz Right In|QID|14123|M|19.9,30.7|QO|The Ultimate Bomb: 1/1|N|Head into the buildingat the eastern end of the compound and loot the Ultimate Bomb.|NC|U|46856|
+
+T Waltz Right In|QID|14123|M|59.41,77.62|N|To Slinky Sharpshiv back in KTC Headquarters.|U|46856|
 T The Great Bank Heist|QID|14122|M|59.78,77.28|N|To Sassy|
 T Robbing Hoods|QID|14121|M|60.12,78.09|N|To Megs|
-A 447|QID|14125|M|59.78,77.13|N|From Sassy Hardwrench.|
-C Overload the Defective Generator|QID|14125|QO|Overload the Defective Generator: 1/1|N|Head inside and click on the generator.|M|56.13,76.6|NC|
-C Activate the Leaky Stove|QID|14125|QO|Activate the Leaky Stove: 1/1|N|Head over to the corner and click on the stove.|M|56.05,74.7|NC|
-C Drop a Cigar on the Flammable Bed|QID|14125|QO|Drop a Cigar on the Flammable Bed: 1/1|N|Head upstairs and click on the bed.|M|56.61,75.15|NC|
-C 447|QID|14125|M|60.63,76.87|N|Head outside and activate the Gasbot Control Panel.|NC|
+
+A Liberate the Kaja'mite|QID|14124|U|46856|M|62.85,77.76|N|From Foreman Dampwick.|PRE|14120|
+C Liberate the Kaja'mite|QID|14124|U|48768|M|71.19,77.39|NC|N|Use the bombs on the sparkling green ore spots, then pick up the Kaja'mite Chunks.|
+T Liberate the Kaja'mite|QID|14124|U|46856|M|62.92,77.54|N|To Foreman Dampwick.|
+
+A 447|QID|14125|M|59.78,77.13|N|From Sassy Hardwrench.|PRE|14121;14122;14123;14124|
+C Overload the Defective Generator|QID|14125|QO|Overload the Defective Generator: 1/1|N|Head inside the building and click on the Defective Generator.|M|56.13,76.6|NC|
+C Activate the Leaky Stove|QID|14125|QO|Activate the Leaky Stove: 1/1|N|Head over to the corner and click on the Leaky Stove.|M|56.05,74.7|NC|
+C Drop a Cigar on the Flammable Bed|QID|14125|QO|Drop a Cigar on the Flammable Bed: 1/1|N|Head upstairs and click on the Flammable Bed.|M|56.61,75.15|NC|
+C Activate the Gasbot Control Panel|QID|14125|QO|KTC Headquarters Set Ablaze with Gasbot!: 1/1|M|60.63,76.87|N|Head outside and activate the Gasbot Control Panel, then wait for the Gasbot to do it's job.|NC|
 T 447|QID|14125|M|59.87,76.72|N|To Claims Adjuster.|
-L Level 5|QID|14124|LVL|5|N|You should be around level 5 by this point.|
-A Life Savings|QID|14126|M|59.75,76.90|N|From Sassy Hardwrench.|
-R Gallywix's Yacht|QID|14126|M|21.02,13.51|N|Talk to Sassy Hardwrench and choose to go to the Yacht.|
-T Life Savings|QID|14126|M|21.09,13.58|N|To Trade Prince Gallywix.|
+
+A Life Savings|QID|14126|M|59.75,76.90|N|From Sassy Hardwrench.|PRE|14125|
+R Gallywix's Yacht|QID|14126|M|59.75,76.90;21.02,13.51|CC|N|Talk to Sassy Hardwrench and tell her you're ready to go. You will then be taken to Gallywix's Yacht.\nYou will lose your Hot Rod at this point.|CHAT|ACTIVE|14126|
+T Life Savings|QID|14126|M|21.09,13.58|N|To Trade Prince Gallywix. Once handed in, you will leave Kezan (forever) and head to The Lost Isles.|
+
+;The following will only show if you've skipped the quests.
+N Quest Skipping Not Allowed|QID|14126|N|You won't be able to skip the quests in this zone. Please reset this guide and pick up the quests.|
 
 ]]
 

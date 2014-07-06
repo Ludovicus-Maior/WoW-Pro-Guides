@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2014-05-27 21:28
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "75,77" to "72,74".
+
+-- URL: http://wow-pro.com/node/3293/revisions/26285/view
+-- Date: 2014-05-26 01:05
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3293/revisions/26161/view
+-- Date: 2014-05-20 19:52
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3293/revisions/25991/view
+-- Date: 2014-05-14 22:46
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3293/revisions/25666/view
 -- Date: 2013-05-16 21:03
 -- Who: Fluclo
 -- Log: Wolfsbane Root is to destroy not collect.
@@ -15,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/25649/view
 -- Date: 2013-05-14 19:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: MIssing QID on T Fate and Coincidence 
 
 -- URL: http://wow-pro.com/node/3293/revisions/25620/view
@@ -29,7 +49,7 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/25432/view
 -- Date: 2013-01-13 15:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3293/revisions/25337/view
@@ -71,12 +91,12 @@
 
 -- URL: http://wow-pro.com/node/3293/revisions/24202/view
 -- Date: 2011-04-02 19:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed bad U/QID tag on [Vordrassil's Sapling], corrected location text for [Hour of the Worg ] and added a tip for killing Goremaw.
 
 -- URL: http://wow-pro.com/node/3293/revisions/24162/view
 -- Date: 2011-03-12 18:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Make guide id unique
 
 -- URL: http://wow-pro.com/node/3293/revisions/23750/view
@@ -102,7 +122,11 @@
 -- Date: 2010-12-03 22:24
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamGriA7577", "Leveling", "Grizzly Hills", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,72,74)
+WoWPro:GuideNextGuide(guide, "ScoZul7778")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 f Amberpine Lodge |QID|12511|M|31.33,59.16|N|Grab the flightpoint at Vana Grey.|

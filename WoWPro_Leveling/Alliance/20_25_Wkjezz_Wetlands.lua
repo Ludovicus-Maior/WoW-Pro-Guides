@@ -4,18 +4,43 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2014-05-30 12:09
+-- Who: Ludovicus
+-- Log: Level adjust
+
+-- URL: http://wow-pro.com/node/3224/revisions/26363/view
+-- Date: 2014-05-27 21:06
+-- Who: Ludovicus
+-- Log: End Level corrected from 0 to 23.
+
+-- URL: http://wow-pro.com/node/3224/revisions/26225/view
+-- Date: 2014-05-25 22:43
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3224/revisions/26132/view
+-- Date: 2014-05-20 18:45
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3224/revisions/25964/view
+-- Date: 2014-05-14 22:19
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3224/revisions/25818/view
 -- Date: 2013-11-27 00:13
 -- Who: Fluclo
 -- Log: Added Level info, details on how to get to zone, added details to drop Hero's Call if found in Quest Log, added PRE steps throughout to allow skipping of quest(s), added NC non combat steps as appropriate, added ACTIVE tag for Torrention as it only spawns if you have that quest in your questlog, added ACTIVE tag to the Ram as you need that quest to be able to mount Ram, added LVL tags to some Menethil Keep quests as an in-level toon could arrive before some quests are available.
 
 -- URL: http://wow-pro.com/node/3224/revisions/25593/view
 -- Date: 2013-03-23 20:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name correction
 
 -- URL: http://wow-pro.com/node/3224/revisions/25418/view
 -- Date: 2013-01-13 14:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC and CS tags
 
 -- URL: http://wow-pro.com/node/3224/revisions/24655/view
@@ -55,7 +80,7 @@
 
 -- URL: http://wow-pro.com/node/3224/revisions/24467/view
 -- Date: 2011-05-31 21:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Two Extra [A The Battle of Thandol Span|QID|26128|M|50.75,49.97|Z|] stuck at the end!
 
 -- URL: http://wow-pro.com/node/3224/revisions/23662/view
@@ -70,7 +95,11 @@
 -- Date: 2010-12-03 07:40
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjWet2025', 'Wetlands', 'Wkjezz', '20', '25', 'BitAra2025', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjWet2025', "Leveling", 'Wetlands', 'Wkjezz', 'Alliance')
+WoWPro:GuideLevels(guide,18,23,20.0546)
+WoWPro:GuideNextGuide(guide, 'BitAra2025')
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 18 |QID|26137|LVL|18|N|This guide requires a minimum level of 18 to do.|

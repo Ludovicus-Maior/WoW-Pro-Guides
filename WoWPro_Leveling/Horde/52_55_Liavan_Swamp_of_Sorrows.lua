@@ -4,13 +4,32 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
+-- Date: 2014-06-02 13:04
+-- Who: Ludovicus
+-- Log: Adjusted Levels
+
+-- URL: http://wow-pro.com/node/3250/revisions/26249/view
+-- Date: 2014-05-25 23:01
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3250/revisions/26109/view
+-- Date: 2014-05-18 22:27
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3250/revisions/26015/view
+-- Date: 2014-05-16 22:04
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3250/revisions/25447/view
 -- Date: 2013-01-13 17:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3250/revisions/25320/view
 -- Date: 2013-01-09 22:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS steps
 
 -- URL: http://wow-pro.com/node/3250/revisions/24603/view
@@ -21,7 +40,7 @@
 
 -- URL: http://wow-pro.com/node/3250/revisions/24337/view
 -- Date: 2011-04-29 16:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 69 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3250/revisions/23626/view
@@ -36,7 +55,11 @@
 -- Date: 2010-12-03 11:31
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('LiaSwa5255', 'Swamp of Sorrows', 'Liavan', '52', '55', 'JiyBla5560', 'Horde', function()
+local guide = WoWPro:RegisterGuide('LiaSwa5255', "Leveling", 'Swamp of Sorrows', 'Liavan', 'Horde')
+WoWPro:GuideLevels(guide,51,54,51.5657)
+WoWPro:GuideNextGuide(guide, 'JiyBla5560')
+WoWPro:GuideIcon(guide,"ACH",4904)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 T The Bogpaddle Bullet|QID|28570|M|72.97,14.78|N|To Trade Baron Silversnap.|

@@ -4,23 +4,53 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2014-06-04 20:11
+-- Who: Ludovicus
+-- Log: Level Adj
+
+-- URL: http://wow-pro.com/node/3215/revisions/26389/view
+-- Date: 2014-05-30 11:53
+-- Who: Ludovicus
+-- Log: Level adjust
+
+-- URL: http://wow-pro.com/node/3215/revisions/26216/view
+-- Date: 2014-05-25 22:35
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3215/revisions/26099/view
+-- Date: 2014-05-18 22:14
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3215/revisions/25961/view
+-- Date: 2014-05-14 22:14
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3215/revisions/25960/view
+-- Date: 2014-05-14 22:12
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3215/revisions/25806/view
 -- Date: 2013-11-18 21:47
 -- Who: Fluclo
 -- Log: Correcting LVL and QID for Level and zone directions
 
 -- URL: http://wow-pro.com/node/3215/revisions/25583/view
 -- Date: 2013-03-23 20:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: QID correction and quest name tweak
 
 -- URL: http://wow-pro.com/node/3215/revisions/25518/view
 -- Date: 2013-02-06 20:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Jorgensen tweak
 
 -- URL: http://wow-pro.com/node/3215/revisions/25364/view
 -- Date: 2013-01-12 18:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: WoWPro_Leveling: Step C [Nida's Necklace:26508] in KurRed1520 is missing a CS|CC|CN tag.
 
 -- URL: http://wow-pro.com/node/3215/revisions/25329/view
@@ -55,7 +85,7 @@
 
 -- URL: http://wow-pro.com/node/3215/revisions/24079/view
 -- Date: 2011-01-30 19:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3215/revisions/23593/view
@@ -76,7 +106,11 @@
 -- Date: 2010-12-03 07:27
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", "TwiDus2025", "Alliance", function()
+local guide = WoWPro:RegisterGuide("KurRed1520", "Leveling", "Redridge Mountains", "Kurich", "Alliance")
+WoWPro:GuideLevels(guide,12,17, 15.1325)
+WoWPro:GuideNextGuide(guide, "TwiDus2025")
+WoWPro:GuideIcon(guide,"ACH",4902)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 14 |QID|26506|LVL|14|N|This guide requires a minimum level of 14 to do.|

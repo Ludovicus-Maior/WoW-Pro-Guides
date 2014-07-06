@@ -4,37 +4,46 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2014-06-10 21:29
+-- Who: Ludovicus
+-- Log: Changed Guide format.
+
+-- URL: http://wow-pro.com/node/3458/revisions/25679/view
 -- Date: 2013-05-17 20:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  [A Smokywood Pastures' Thank You!]
 
 -- URL: http://wow-pro.com/node/3458/revisions/25642/view
 -- Date: 2013-05-14 19:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord and quest corrections
 
 -- URL: http://wow-pro.com/node/3458/revisions/25301/view
 -- Date: 2013-01-09 17:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3458/revisions/25266/view
 -- Date: 2012-12-25 20:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update winter veil to use the latest WE updates and eliminate many manual click offs!
 
 -- URL: http://wow-pro.com/node/3458/revisions/24901/view
 -- Date: 2012-01-19 00:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct node number
 
 -- URL: http://wow-pro.com/node/3458/revisions/24900/view
 -- Date: 2012-01-19 00:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GIT
 
-WoWPro.WorldEvents:RegisterGuide("LudoWinterVeilA","Winter Veil (Alliance)","Winter Veil (Alliance)","WE", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoWinterVeilA",'WorldEvents',"Winter Veil", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"WinterVeil")
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Eggs, Babs, Eggs!|QID|7025|N|You are going to need 5 Small Eggs and some Deeprock Salt.  You can either pay outrageous prices on the AH, or farm them and sell the extra for outrageous prices on the AH.  I'll give you 4 places to farm them.|
 K Small Eggs: Darkshore|QID|7025|M|41.4,47.2;42.4,52.4;46.6,46.4|Z|Darkshore|CN|L|6889 20|T|Moonkin|N|Kill Moonkin within the markers.|
 K Small Eggs: Azuremyst Isle|QID|7025|M|46.2,16.4;48.8,15.4;49.4,10.8|Z|Azuremyst Isle|CN|L|6889 20|T|Crazed Wildkin|N|Kill Crazed Wildkin between the markers, north of Stillpine Hold.|

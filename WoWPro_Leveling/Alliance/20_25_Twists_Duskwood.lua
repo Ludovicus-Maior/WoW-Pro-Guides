@@ -4,8 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_duskwood
+-- Date: 2014-05-27 21:07
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "20,25" to "18,24".
+
+-- URL: http://wow-pro.com/node/3222/revisions/26223/view
+-- Date: 2014-05-25 22:42
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3222/revisions/26131/view
+-- Date: 2014-05-20 18:44
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3222/revisions/25962/view
+-- Date: 2014-05-14 22:15
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3222/revisions/25601/view
 -- Date: 2013-03-23 20:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name cleanups
 
 -- URL: http://wow-pro.com/node/3222/revisions/25380/view
@@ -25,7 +45,7 @@
 
 -- URL: http://wow-pro.com/node/3222/revisions/24457/view
 -- Date: 2011-05-30 17:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 128 for step C has unknown tag [Kill any type Splinter Fist Ogres.]: [C Vlugar Vul'Gol|QID|25235|M|41.91,68.86|S|Kill any type Splinter Fist Ogres.|]
 --	! Line 246 for step F has 1 M coords: [F Darkshire|QID|26793|M||N|Fly back to Darkshire.|21.03,56.63]
 --	! Line 254 for step C has 1 M coords: [C Mor'Ladim|QID|26795|M||T|Mor'Ladim|N|Find and kill Mor'Ladim, he wanders so use the targeting to find him easier. Don't forget to loot his skull.|O|]
@@ -38,7 +58,7 @@
 
 -- URL: http://wow-pro.com/node/3222/revisions/24295/view
 -- Date: 2011-04-29 14:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 103 for step C has unknown tag [Kill Worgen as you go in Brightwood Grove.], Line 105 for step C has unknown tag [Finish Killing Worger], Line 107 for step T has unknown tag [Calor across from the fountain.], Line 108 for step A has unknown tag [Calor across from the fountain.], Line 139 for step A has unknown tag [Calor across the road from the fligh path.], Line 159 for step C has unknown tag [Finish killing.].
 
 -- URL: http://wow-pro.com/node/3222/revisions/23818/view
@@ -72,7 +92,11 @@
 -- Date: 2010-12-03 07:38
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("TwiDus2025", "Duskwood", "Twists", "20", "25", "SavNorStr2530", "Alliance", function()
+local guide = WoWPro:RegisterGuide("TwiDus2025", "Leveling", "Duskwood", "Twists", "Alliance")
+WoWPro:GuideLevels(guide,18,24)
+WoWPro:GuideNextGuide(guide, "SavNorStr2530")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return
 [[
 

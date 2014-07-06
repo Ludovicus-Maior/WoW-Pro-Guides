@@ -4,18 +4,38 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2014-05-27 20:57
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "64,66" to "60,65".
+
+-- URL: http://wow-pro.com/node/3277/revisions/26270/view
+-- Date: 2014-05-26 00:37
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3277/revisions/26148/view
+-- Date: 2014-05-20 19:39
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3277/revisions/25984/view
+-- Date: 2014-05-14 22:39
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3277/revisions/25745/view
 -- Date: 2013-08-15 23:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add missing coords around [Terokkarantula] quests.
 
 -- URL: http://wow-pro.com/node/3277/revisions/25400/view
 -- Date: 2013-01-13 01:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Some CN tags
 
 -- URL: http://wow-pro.com/node/3277/revisions/24890/view
 -- Date: 2012-01-18 22:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add coords for [ Taken in the Night], [Auchindoun] and [Skywing].
 
 -- URL: http://wow-pro.com/node/3277/revisions/24836/view
@@ -25,7 +45,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/24677/view
 -- Date: 2011-07-11 22:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add numeric REP tags
 
 -- URL: http://wow-pro.com/node/3277/revisions/24470/view
@@ -40,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/24306/view
 -- Date: 2011-04-29 14:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 55 for step N has 3 M coords, Line 248 for step C has unknown tag [52.00,58.00], Line 273 for step C has unknown tag [52.00,58.00], Line 289 for step T has unknown tag [To Magistriz Fyalenn.].
 
 -- URL: http://wow-pro.com/node/3277/revisions/24208/view
@@ -55,7 +75,7 @@
 
 -- URL: http://wow-pro.com/node/3277/revisions/24119/view
 -- Date: 2011-02-20 17:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3277/revisions/24004/view
 -- Date: 2011-01-17 03:49
@@ -88,7 +108,11 @@
 -- Date: 2010-12-03 21:21
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamTer6466", "Terokkar Forest", "Jame", "64", "66", "JamNag6668", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamTer6466", "Leveling", "Terokkar Forest", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,60,65)
+WoWPro:GuideNextGuide(guide, "JamNag6668")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Shattrath City|QID|10211|N|Fly to Shattrath City.|M|41.28,28.98|Z|Zangarmarsh|
 A A'dal|Z|Shattrath City|QID|10210|M|59.70,41.45|N|From Haggard War Veteran.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2014-06-10 23:23
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3544/revisions/25764/view
 -- Date: 2013-09-21 02:02
 -- Who: Emmaleah
 -- Log: update Aki's location for 5.4
@@ -20,15 +25,19 @@
 
 -- URL: http://wow-pro.com/node/3544/revisions/25603/view
 -- Date: 2013-03-24 00:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3544/revisions/25559/view
 -- Date: 2013-03-23 16:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial clone from http://wow-pro.com/node/3542
 
-WoWPro.Dailies:RegisterGuide("RajiPetBattles", "Vale of Eternal Blossoms", "Pet Battle Dailies", "MoP", "Rajitazi", "Alliance", function()
+local guide = WoWPro:RegisterGuide("RajiPetBattles",'Dailies', "Vale of Eternal Blossoms", "Rajitazi", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Pet Battle Dailies"
+WoWPro:GuideSteps(guide, function()
 return [[
+[
 
 N Work In Process Disclaimer|QID|31909|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|
 N Dailies Unlocked|QID|32428|N|This guide assumes you have all the dailies unlocked.  It is not listed in the order they unlock, but rather in an order to minimize travel time.|

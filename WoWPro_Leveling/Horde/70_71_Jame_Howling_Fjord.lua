@@ -4,13 +4,32 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2014-06-02 13:29
+-- Who: Ludovicus
+-- Log: Level Set.
+
+-- URL: http://wow-pro.com/node/3288/revisions/26280/view
+-- Date: 2014-05-26 00:59
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3288/revisions/26166/view
+-- Date: 2014-05-20 19:57
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3288/revisions/26007/view
+-- Date: 2014-05-16 21:04
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3288/revisions/25569/view
 -- Date: 2013-03-23 18:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct quest name [The Offensive Begins]
 
 -- URL: http://wow-pro.com/node/3288/revisions/25460/view
 -- Date: 2013-01-13 18:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3288/revisions/24914/view
@@ -24,7 +43,7 @@
 
 -- URL: http://wow-pro.com/node/3288/revisions/24342/view
 -- Date: 2011-04-29 16:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line ** for step * has unknown tag [NOPOI], Line 367 for step C has 3 M coords, Line 552 for step T has 3 M coords.
 
 -- URL: http://wow-pro.com/node/3288/revisions/23954/view
@@ -48,7 +67,11 @@
 -- Date: 2010-12-03 22:09
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamHow7071", "Howling Fjord", "Jame", "70", "71", "JamBor7173", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamHow7071", "Leveling", "Howling Fjord", "Jame", "Horde")
+WoWPro:GuideLevels(guide,68,71, 68.4672)
+WoWPro:GuideNextGuide(guide, "JamBor7173")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 --Original guide written/designed by Jame
 --Revised by ndlarsen
 return [[

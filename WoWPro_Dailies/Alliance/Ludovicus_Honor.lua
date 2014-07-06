@@ -4,16 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/grizzly_hills_honor_points_dailies
+-- Date: 2014-06-10 23:22
+-- Who: Ludovicus
+-- Log: Changed guide level.
+
+-- URL: http://wow-pro.com/node/3528/revisions/25493/view
 -- Date: 2013-01-14 00:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3528/revisions/25486/view
 -- Date: 2013-01-13 23:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Init version with CS correction.
 
-WoWPro.Dailies:RegisterGuide("LudoHonorPoints", "Grizzly Hills", "Honor Points", "Lich", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoHonorPoints",'Dailies', "Grizzly Hills", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Honor Points"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Honor Points|N|Grizzly Hills PvP Dailies. 204 per day.|
 A Blackriver Skirmish |QID|12444|N|From Scout Captain Carter, down the river near Amberpine Lodge.|M|29.94,59.69|
 C Blackriver Skirmish |QID|12444|N|Kill 10 Horde units or players in the Blackriver Logging Camp|

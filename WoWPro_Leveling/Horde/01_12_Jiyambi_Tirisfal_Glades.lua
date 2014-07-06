@@ -4,13 +4,63 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2014-06-02 22:15
+-- Who: Ludovicus
+-- Log: Added Icons
+
+-- URL: http://wow-pro.com/node/3205/revisions/26427/view
+-- Date: 2014-06-02 13:23
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3205/revisions/26210/view
+-- Date: 2014-05-25 22:25
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3205/revisions/26136/view
+-- Date: 2014-05-20 19:01
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3205/revisions/26044/view
+-- Date: 2014-05-17 17:44
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3205/revisions/25948/view
+-- Date: 2014-05-09 19:15
+-- Who: Hendo72
+-- Log: - reapplied changes as I forgot to update the code with my changes... DOH!
+
+-- URL: http://wow-pro.com/node/3205/revisions/25947/view
+-- Date: 2014-05-09 19:09
+-- Who: Hendo72
+-- Log: - Updated 'Shadow Grave' quest. Improved coordinates and notes.
+--	
+--	- Broke 'The Awakening' quest down into steps and moved quest acceptance down for better flow.
+--	
+--	- reworded 'Recruitment' C step note.
+--	
+--	- Added an r step at the first vendor you come to.
+--	
+--	- Improved 'Ever So Lonely' C step note.
+--	
+--	- Changed Bulwark R step to an F step as you can fly there and removed f step as you already have the FP.
+--	
+
+-- URL: http://wow-pro.com/node/3205/revisions/25854/view
+-- Date: 2013-12-26 21:16
+-- Who: Ludovicus
+-- Log: QID corrections and fixups for goblins in the zone.
+
+-- URL: http://wow-pro.com/node/3205/revisions/25133/view
 -- Date: 2012-10-09 00:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added undead monk quests.
 
 -- URL: http://wow-pro.com/node/3205/revisions/25128/view
 -- Date: 2012-10-08 19:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3205/revisions/24730/view
 -- Date: 2011-08-13 21:23
@@ -24,7 +74,7 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/24511/view
 -- Date: 2011-06-07 10:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweak Coords on C [Assault on the Rotbrain Encampment]
 
 -- URL: http://wow-pro.com/node/3205/revisions/24473/view
@@ -34,21 +84,21 @@
 
 -- URL: http://wow-pro.com/node/3205/revisions/24437/view
 -- Date: 2011-05-28 11:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Race tags needed updates.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24316/view
 -- Date: 2011-04-29 15:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3205/revisions/24070/view
 -- Date: 2011-01-29 17:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing QID to Level 4 step.
 
 -- URL: http://wow-pro.com/node/3205/revisions/24036/view
 -- Date: 2011-01-22 14:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a bunch of |R|Undead,Troll| and |R|Undead| tags where appropriate.
 
 -- URL: http://wow-pro.com/node/3205/revisions/23828/view
@@ -73,26 +123,34 @@
 -- Date: 2010-12-02 23:15
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyTir0112', 'Tirisfal Glades (Undead)', 'Jiyambi', '01', '12', 'MalSil1220', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyTir0112', "Leveling", 'Tirisfal Glades (Undead)', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,1,9, 4.98758)
+WoWPro:GuideNextGuide(guide, 'MalSil1220')
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Undead_Male","Interface\\Icons\\Achievement_Character_Undead_Female"))
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Fresh out of the Grave|QID|24959|M|29.41,70.96|R|Undead|N|From Agatha.|
 T Fresh out of the Grave|QID|24959|M|30.04,71.27|R|Undead|N|To Undertaker Mordo.|
 
 A The Shadow Grave|QID|28608|M|30.04,71.27|R|Undead|N|From Undertaker Mordo.|
-C The Shadow Grave|QID|28608|NC|M|30.33,72.24;30.33,72.84;29.69,71.99|R|Undead|N|Head down into the crypt and right-click the thread and the vial of green liquid.|
-T The Shadow Grave|QID|28608|M|30.00,72.82;30.31,72.87;30.08,71.33|R|Undead|N|To Undertaker Mordo.|
+C The Shadow Grave|QID|28608|NC|M|30.33,72.24;29.69,71.99|CS|R|Undead|N|Head down the stairs into the crypt and over to the table in the corner. Click on the thread and the vial of green liquid.|
+T The Shadow Grave|QID|28608|M|30.1,71.3|R|Undead|N|Leave the Crypt and return to Undertaker Mordo.| ;Removed extra coordinates - not required.
 
-A Those That Couldn't Be Saved|QID|26799|M|30.08,71.33|R|Undead|N|From Undertaker Mordo.|
-A The Wakening|QID|24960|M|30.65,71.46|R|Undead|N|From Caretaker Caice.|
-
+A Those That Couldn't Be Saved|QID|26799|M|30.08,71.33|R|Undead|N|From Undertaker Mordo.
 C Those That Couldn't Be Saved|QID|26799|S|M|30.80,70.07|R|Undead|N|Kill zombies.|
-C The Wakening|QID|24960|NC|M|29.41,69.63;30.25,69.06;30.80,69.15|R|Undead|N|Right-click on the forsaken with the yellow arrows above them, and go through their conversation.|
+
+A The Wakening|QID|24960|M|30.65,71.46|R|Undead|N|From Caretaker Caice. Speak with the Forsaken at each waypoint and go through their conversation.|
+
+C The Wakening|QID|24960|NC|M|30.2,69.0|QO|Speak with Lilian Voss: 1/1|R|Undead|
+C The Wakening|QID|24960|NC|M|30.8,69.2|QO|Speak with Marshal Redpath: 1/1|R|Undead|
+C The Wakening|QID|24960|NC|M|29.4,69.6|R|Undead|N|Speak with Valdred Moray to finish up the quest.|
+
 C Those That Couldn't Be Saved|QID|26799|US|M|30.80,70.07|R|Undead|N|Kill zombies.|
 
 T The Wakening|QID|24960|M|30.65,71.40|R|Undead|N|To Caretaker Caice.|
 
-L Level 2|QID|24960|LVL|2|N|You should be around level 2 by this point.|
+L Level 2|QID|26801|LVL|2|N|You should be around level 2 by this point.|
 
 A Beyond the Graves|QID|25089|M|30.65,71.40|R|Undead|N|From Caretaker Caice.|
 T Those That Couldn't Be Saved|QID|26799|M|30.10,71.30|R|Undead|N|To Undertaker Mordo.|
@@ -102,13 +160,13 @@ A Recruitment|QID|26800|M|31.74,65.66|R|Undead|N|From Deathguard Saltain.|
 A Scourge on our Perimeter|QID|26801|M|30.86,66.20|N|From Shadow Priest Sarvis.|
 
 C Scourge on our Perimeter|QID|26801|S|M|32.00,62.01|N|Kill zombies and skeletons.|
-C Recruitment|QID|26800|NC|M|32.57,64.19|R|Undead|N|Right-click on bodies to tell your companion to collect them.|
+C Recruitment|QID|26800|NC|M|32.57,64.19|R|Undead|N|Click on the Scarlet Corpses with the yellow arrow pointing at them to pick them up.|
 C Scourge on our Perimeter|QID|26801|US|M|32.00,62.01|N|Kill zombies and skeletons.|
 
 T Recruitment|QID|26800|M|31.63,65.61|R|Undead|N|To Deathguard Saltain.|
 T Scourge on our Perimeter|QID|26801|M|30.87,66.19|N|To Shadow Priest Sarvis.|
 
-L Level 3|QID|26801|LVL|3|N|You should be around level 3 by this point.|
+L Level 3|QID|24961|LVL|3|N|You should be around level 3 by this point.|
 
 A Hallowed Scroll|QID|3097|R|Undead|C|Priest|M|30.87,66.19|N|From Shadow Priest Sarvis.|
 A Glyphic Scroll|QID|3098|R|Undead|C|Mage|M|30.87,66.19|N|From Shadow Priest Sarvis.|
@@ -181,6 +239,7 @@ A Vital Intelligence|QID|24972|M|30.88,66.20|N|From Shadow Priest Sarvis.|
 L Level 5|QID|24971|LVL|5|N|You should be around level 5 by this point.|
 
 R Calston Estate|QID|24978|M|44.70,53.60|N|Follow the road out of Deathknell.|
+r Empty your bags|QID|24972|M|44.5,53.2|N|You won't have to repair yet. But, with only 1 bag right now, you'll need to empty it.|
 T Vital Intelligence|QID|24972|M|44.70,53.60|N|To Deathguard Simmer.|
 
 A Reaping the Reapers|QID|24978|M|44.70,53.60|N|From Deathguard Simmer.|
@@ -203,13 +262,13 @@ L Level 6|QID|24974|LVL|6|N|You should be around level 6 by this point.|
 C Marrowpetals|QID|24976|NC|QO|Marrowpetal: 4/4|M|49.18,53.28|N|Collect Marrowpetals from the lake floor.|
 C The Scarlet Palisade|QID|24980|S|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
 
-K Scarlet Crusade|QID|24979|L|52079 |M|34.91,48.45|N|Kill Scarlet Crusade at the Scarlet Palisade until you get a Scarlet Letter.|
-A A Scarlet Letter|QID|24979|PRE|52079|U|52079|M|34.91,48.45|N|Right-click the item you just got.|
+K Scarlet Crusade|QID|24980|L|52079|M|34.91,48.45|N|Kill Scarlet Crusade at the Scarlet Palisade until you get a Scarlet Letter.|
+A A Scarlet Letter|QID|24979|U|52079|M|34.91,48.45|N|Right-click the item you just got.|
 
 C A Scarlet Letter|QID|24979|NC|M|31.69,46.13|N|Go to the top of the tower and talk to Lilian. Watch the scene.|
 C The Scarlet Palisade|QID|24980|US|M|31.92,46.00|N|Kill members of the Scarlet Crusade.|
 C Briny Sea Cucumber|QID|24976|NC|QO|Briny Sea Cucumber: 8/8|M|33.19,43.14|N|Collect Sea Cucumbers from the ocean floor. Watch out for the rare level 10 murloc who roams the area - he's probably a bit too strong for you!|
-C Ever So Lonely|QID|24974|U|52059|QO|Vile Fin captured: 1/1|M|35.06,44.67|N|Use the murloc leash on a murloc after you beat it down.|
+C Ever So Lonely|QID|24974|U|52059|QO|Vile Fin captured: 1/1|M|35.06,44.67|N|Use the murloc leash on a murloc after you beat it down to 25%. \nDon't wait too long to return. You only have 10 minutes before he dies.|
 C Xavren's Thorn|QID|24976|NC|QO|Xavren's Thorn: 4/4|M|33.19,43.14|N|Collect Xavren's Thorn on the cliffs above the beach.|
 C Ever So Lonely|QID|24974|NC|U|52059|M|44.72,53.68|N|Head back to the Carlston Estate and head upstairs to turn in the murloc to Carlston.|
 
@@ -246,7 +305,7 @@ T Gordo's Task|QID|25038|M|60.11,52.65|N|To Junior Apothecary Holland.|
 A Darkhound Pounding|QID|24990|M|60.11,52.65|N|From Junior Apothecary Holland.|
 A A Thorn in our Side|QID|24981|M|60.50,51.92|N|From Executor Zygand.|
 
-h Brill|QID|24981|M|60.87,51.55|N|At Innkeeper Renee.|
+h Brill|QID|24982|M|60.87,51.55|N|At Innkeeper Renee.|
 
 T The New Forsaken|QID|24982|M|60.95,50.58|N|To Magistrate Sevren, upstairs at the inn.|
 
@@ -351,7 +410,7 @@ C The Mills Overrun|QID|25004|US|M|46.69,31.46|N|Kill and loot both types of ske
 T The Mills Overrun|QID|25004|M|54.55,29.85|N|To Coleman Farthing.|
 T Deaths in the Family|QID|25029|M|54.55,29.85|N|To Coleman Farthing.|
 
-L Level 10|QID|25029|LVL|10|N|You should be around level 10 by this point.|
+L Level 10|LVL|10|N|You should be around level 10 by this point.|
 
 A Speak with Sevren|QID|25005|M|54.55,29.85|N|From Coleman Farthing.|
 
@@ -367,9 +426,12 @@ A East... Always to the East|QID|25007|M|60.99,50.55|N|From Magistrate Sevren.|
 
 r Repair/Restock/Trainer|QID|25007|
 
-R The Bulwark|QID|25007|M|83.57,69.93|N|At the eastern-most point in the zone.|
+; You can fly to The Bulwark.
+; R The Bulwark|QID|25007|M|83.57,69.93|N|At the eastern-most point in the zone.|
+F The Bulwark|QID|25007|M|58.8, 51.8|N|At Anette Williams|
 
-f The Bulwark|QID|25007|N|From Timothy Cunningham.|M|83.55,69.97|
+;You should already have this FP - not sure why, but, you do.
+;f The Bulwark|QID|25007|N|From Timothy Cunningham.|M|83.55,69.97|
 
 h The Bulwark|QID|25046|M|83.08,71.93|N|At Provisioner Elda.|
 

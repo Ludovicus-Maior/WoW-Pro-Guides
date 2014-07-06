@@ -4,13 +4,38 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2014-06-04 20:09
+-- Who: Ludovicus
+-- Log: Adj maxlevel
+
+-- URL: http://wow-pro.com/node/3238/revisions/26452/view
+-- Date: 2014-06-02 15:16
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3238/revisions/26237/view
+-- Date: 2014-05-25 22:53
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3238/revisions/26096/view
+-- Date: 2014-05-18 22:11
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3238/revisions/26025/view
+-- Date: 2014-05-17 16:56
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3238/revisions/25577/view
 -- Date: 2013-03-23 19:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleaned up [The Holy Water of Clarity]
 
 -- URL: http://wow-pro.com/node/3238/revisions/25286/view
 -- Date: 2013-01-09 01:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Two different QIDs for [The Holy Water of Clarity]
 
 -- URL: http://wow-pro.com/node/3238/revisions/24716/view
@@ -25,12 +50,12 @@
 
 -- URL: http://wow-pro.com/node/3238/revisions/24331/view
 -- Date: 2011-04-29 16:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 216 for step R has unknown tag [Nalk to Keebok ..]
 
 -- URL: http://wow-pro.com/node/3238/revisions/24080/view
 -- Date: 2011-01-30 19:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3238/revisions/23580/view
@@ -45,7 +70,11 @@
 -- Date: 2010-12-03 11:09
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjCap3035', 'The Cape of Stranglethorn', 'Wkjezz', '30', '35', 'JiyWes3540', 'Horde', function()
+local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', 'Wkjezz', 'Horde')
+WoWPro:GuideLevels(guide,29,34, 30.1269)
+WoWPro:GuideNextGuide(guide, 'JiyWes3540')
+WoWPro:GuideIcon(guide,"ACH",4905)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 f Hardwrench Hideaway|QID|26404|M|35.15,29.24|N|At Hizzle.|

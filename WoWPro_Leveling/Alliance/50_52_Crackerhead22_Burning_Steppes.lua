@@ -4,8 +4,33 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2014-05-27 20:14
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "49,51".
+
+-- URL: http://wow-pro.com/node/3265/revisions/26261/view
+-- Date: 2014-05-26 00:29
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3265/revisions/26260/view
+-- Date: 2014-05-26 00:28
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3265/revisions/26093/view
+-- Date: 2014-05-18 22:09
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3265/revisions/25979/view
+-- Date: 2014-05-14 22:34
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3265/revisions/25743/view
 -- Date: 2013-08-15 23:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: added panda support for [A Perfect Costume].
 
 -- URL: http://wow-pro.com/node/3265/revisions/25387/view
@@ -25,7 +50,7 @@
 
 -- URL: http://wow-pro.com/node/3265/revisions/24304/view
 -- Date: 2011-04-29 14:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 121 for step C has 1 M coords, Line 123 for step C has 1 M coords, Line 127 for step C has 1 M coords, Line 179 for step K has 3 M coords.
 
 -- URL: http://wow-pro.com/node/3265/revisions/23930/view
@@ -51,7 +76,11 @@
 -- Date: 2010-12-03 11:58
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', '50', '52', 'CraSwa5254', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('CraBur5052', "Leveling", 'Burning Steppes', 'Crackerhead22', 'Alliance')
+WoWPro:GuideLevels(guide,49,51)
+WoWPro:GuideNextGuide(guide, 'CraSwa5254')
+WoWPro:GuideIcon(guide,"ACH",4901)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 H Iron Summit|QID|28514|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|

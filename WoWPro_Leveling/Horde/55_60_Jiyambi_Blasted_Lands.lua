@@ -4,18 +4,37 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2014-06-02 15:01
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3268/revisions/26264/view
+-- Date: 2014-05-26 00:32
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3268/revisions/26098/view
+-- Date: 2014-05-18 22:13
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3268/revisions/26014/view
+-- Date: 2014-05-16 22:02
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3268/revisions/25738/view
 -- Date: 2013-08-03 07:56
 -- Who: Emmaleah
 -- Log: Change QID 25685 The First Step to CS (from CC)
 
 -- URL: http://wow-pro.com/node/3268/revisions/25492/view
 -- Date: 2013-01-13 23:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3268/revisions/25472/view
 -- Date: 2013-01-13 19:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3268/revisions/24863/view
@@ -30,7 +49,7 @@
 
 -- URL: http://wow-pro.com/node/3268/revisions/24338/view
 -- Date: 2011-04-29 16:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line ** for step * has unknown tag [If you didn't
 
 -- URL: http://wow-pro.com/node/3268/revisions/23418/view
@@ -41,7 +60,11 @@
 -- Date: 2010-12-03 12:02
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyBla5560', 'Blasted Lands', 'Jiyambi', '55', '60', 'JamHel6063', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyBla5560', "Leveling", 'Blasted Lands', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,54,58,54.2878)
+WoWPro:GuideNextGuide(guide, 'JamHel6063')
+WoWPro:GuideIcon(guide,"ACH",4909)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 T Warchief's Command: Blasted Lands!|QID|28671|M|40.47,11.65|N|To Okrilla.|O|

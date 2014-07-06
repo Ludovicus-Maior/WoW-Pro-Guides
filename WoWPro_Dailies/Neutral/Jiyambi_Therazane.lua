@@ -4,35 +4,43 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2014-06-11 19:19
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3419/revisions/25708/view
 -- Date: 2013-06-18 00:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 26710's name [Lost In the Deeps] does not match Grail's database [Lost In The Deeps]
 
 -- URL: http://wow-pro.com/node/3419/revisions/25637/view
 -- Date: 2013-05-14 18:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: [Lost In The Deeps] not [Lost in The Deeps]
 
 -- URL: http://wow-pro.com/node/3419/revisions/25419/view
 -- Date: 2013-01-13 14:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3419/revisions/24987/view
 -- Date: 2012-05-27 18:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added REP tags, a few coord fixes and redirected a quest to the right NPC.
 
 -- URL: http://wow-pro.com/node/3419/revisions/24678/view
 -- Date: 2011-07-11 22:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removing REP tag.
 
 -- URL: http://wow-pro.com/node/3419/revisions/24651/view
 -- Date: 2011-06-30 19:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("JiyDeeTher", "Deepholm", "Therazane Reputation", "Cata", "Jiyambi", "Neutral", function()
+local guide = WoWPro:RegisterGuide("JiyDeeTher",'Dailies', "Deepholm", "Jiyambi", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1171) --  "Therazane Reputation"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Deepholm Quests|QID|26709|N|You must have completed the quests in Deepholm in order to unlock these dailies. The best way to get this done is to use the WoW-Pro Leveling guide for Deepholm.|

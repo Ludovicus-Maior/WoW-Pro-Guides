@@ -4,20 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_horde
+-- Date: 2014-06-10 23:17
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3540/revisions/25607/view
 -- Date: 2013-04-08 18:43
 -- Who: Emmaleah
 -- Log: corrected some lines that had  where they shouldn't, added some spaces, deleted a duplicate line. Still needs some work as it did not flow well, when I ran thru for the first time, but perhaps it is because I waited till almost all the phases are open before I ran thru it the first time?!?
 
 -- URL: http://wow-pro.com/node/3540/revisions/25550/view
 -- Date: 2013-03-16 18:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3540/revisions/25549/view
 -- Date: 2013-03-16 18:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial version with some edits by Ludo from KatM
 
-WoWPro.Dailies:RegisterGuide("KatMThunderKing", "Isle of Thunder", "Thunder King","MoP", "KatM", "Horde", function()
+local guide = WoWPro:RegisterGuide("KatMThunderKing",'Dailies', "Isle of Thunder", "KatM", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Thunder King"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Stage 1!

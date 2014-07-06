@@ -4,13 +4,40 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2014-05-26 19:54
+-- Who: Ludovicus
+-- Log: Added guid etype to TwoCared
+
+-- URL: http://wow-pro.com/node/3520/revisions/26314/view
+-- Date: 2014-05-26 18:06
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3520/revisions/26197/view
+-- Date: 2014-05-22 22:43
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3520/revisions/26196/view
+-- Date: 2014-05-22 22:40
+-- Who: Ludovicus
+-- Log: Registration guide
+
+-- URL: http://wow-pro.com/node/3520/revisions/25939/view
+-- Date: 2014-04-19 20:11
+-- Who: Hendo72
+-- Log: - Commented out the note displaying the Guide title... not required.
+--	- Removed the notes for each step telling us to love the animal in the step... not required.
+--	- Added love to target option. Allows spamming of a target/action button while searching for your target.
+
+-- URL: http://wow-pro.com/node/3520/revisions/25556/view
 -- Date: 2013-03-23 15:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added Twists [To All the Squirrels Who Cared for Me]
 
 -- URL: http://wow-pro.com/node/3520/revisions/25356/view
 -- Date: 2013-01-12 18:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Capitalization error on "Valley of the Four Winds"
 
 -- URL: http://wow-pro.com/node/3520/revisions/25322/view
@@ -29,10 +56,13 @@
 
 -- URL: http://wow-pro.com/node/3520/revisions/25258/view
 -- Date: 2012-12-19 22:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial
 
-WoWPro.Achievements:RegisterGuide('TwiCared','CaT Zones', 'To All the Squirrels Who Cared for Me', 'General', 'Cataclysm', 'Twists','Neutral', function()
+local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'CaT Zones', 'To All the Squirrels Who Cared for Me','Neutral')
+WoWPro:GuideIcon(guide,"ACH",5548)
+WoWPro:GuideNextGuide(guide, 'Twists')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Alpine Chipmunk|QID|955480001|M|60,23|Z|Mount Hyjal|ACH|5548;1|T|Alpine Chipmunk,love|N|Alpine Chipmunk in Mount Hyjal.|

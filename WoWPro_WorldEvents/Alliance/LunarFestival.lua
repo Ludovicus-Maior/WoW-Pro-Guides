@@ -4,58 +4,68 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lunar_festival_alliance
+-- Date: 2014-06-10 21:36
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3451/revisions/25881/view
+-- Date: 2014-02-13 16:59
+-- Who: Ludovicus
+-- Log: Adjusted Ranks
+
+-- URL: http://wow-pro.com/node/3451/revisions/25644/view
 -- Date: 2013-05-14 19:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Z tags for dungeon zone corrections
 
 -- URL: http://wow-pro.com/node/3451/revisions/25523/view
 -- Date: 2013-02-06 20:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Checked every coords, qid, and added ranks like the horde guide.
 
 -- URL: http://wow-pro.com/node/3451/revisions/25513/view
 -- Date: 2013-01-28 12:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Updates for this year!
 
 -- URL: http://wow-pro.com/node/3451/revisions/25431/view
 -- Date: 2013-01-13 15:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CC tag
 
 -- URL: http://wow-pro.com/node/3451/revisions/25083/view
 -- Date: 2012-09-24 23:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Spell Njorndir Preparation right!
 
 -- URL: http://wow-pro.com/node/3451/revisions/25018/view
 -- Date: 2012-06-30 23:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct Zone in TheNexus
 
 -- URL: http://wow-pro.com/node/3451/revisions/24931/view
 -- Date: 2012-02-04 22:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Elders of Cata
 
 -- URL: http://wow-pro.com/node/3451/revisions/24924/view
 -- Date: 2012-01-25 22:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Two zone name errors: Z|The Nexus and Z|Halls of Stone.
 
 -- URL: http://wow-pro.com/node/3451/revisions/24922/view
 -- Date: 2012-01-25 12:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Rumblerrock is Rumblerock
 
 -- URL: http://wow-pro.com/node/3451/revisions/24920/view
 -- Date: 2012-01-24 12:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Hendo72's Corrections.
 
 -- URL: http://wow-pro.com/node/3451/revisions/24919/view
 -- Date: 2012-01-24 12:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: 1,$s/|T|\([A-Za-z ]*\) the Elder|/|T|Elder \1|/
 
 -- URL: http://wow-pro.com/node/3451/revisions/24854/view
@@ -72,7 +82,10 @@
 -- Who: Crackerhead22
 -- Log: Source page created.
 
-WoWPro.WorldEvents:RegisterGuide("CraLunFesEldA","Lunar Festival Elders Guide (Alliance)","Lunar Festival Elders Guide (Alliance)","WE", "Crackerhead22", "Alliance", function()
+local guide = WoWPro:RegisterGuide("CraLunFesEldA",'WorldEvents',"Lunar Festival Elders Guide", "Crackerhead22", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"LunarFestival")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Wall of Text Part 1 of 2|QID|8718|N|This guide is geared toward actually completing all the Elder quests necessary for the Lunar Festival's achievments of "Elders of...". Most of the dungeon Elders can be snuck to if your level is high enough. There are a couple you have to kill bosses to get to.|
@@ -95,19 +108,19 @@ F Astranaar|N|Fly to Astranaar.|QID|8725|M|61,48.6|Z|Winterspring|
 A Riversong the Elder|N|From Riversong the Elder.|QID|8725|M|35.54,48.91|Z|Ashenvale|
 R Azshara|N|Fly to Forest Song via the flight point then to Azshara, or just run the whole way to Azshara.|QID|8720|M|34.4,48;98.93,56.24|Z|Ashenvale|CS|
 A Skygleam the Elder|N|From Skygleam the Elder.|QID|8720|M|64.74,79.34|Z|Azshara|
-R Orgrimmar|N|Time to enter Orgrimmar.|QID|8677|M|52.2,59.8|Z|Azshara|
-A Darkhorn the Elder|N|From Darkhorn the Elder.|QID|8677|M|52.25,59.98|Z|Orgrimmar|T|Elder Darkhorn|
+R Orgrimmar|N|Time to enter Orgrimmar.  On a flying mount, its zip in and out.  On foot it is a corpse run.|QID|8677|M|52.2,59.8|Z|Azshara|RANK|3|
+A Darkhorn the Elder|N|From Darkhorn the Elder.|QID|8677|M|52.25,59.98|Z|Orgrimmar|T|Elder Darkhorn|RANK|3|
 
-R Razor Hill|N|Run down to Razor Hill.|QID|8670|M|53.2,43.6|Z|Durotar|
+R Razor Hill|N|Run down to Razor Hill.  He is close to the flight master, so maybe approach naked!|QID|8670|M|53.2,43.6|Z|Durotar|
 A Runetotem the Elder|N|From Runetotem the Elder.|QID|8670|M|53.2,43.6|Z|Durotar|T|Elder Runetotem|
 R The Crossroads|N|Head over to The Crossroads.|QID|8717|M|48.5,59.3|Z|Northern Barrens|
 A Moonwarden the Elder|N|From Moonwarden the Elder.|QID|8717|M|48.5,59.3|Z|Northern Barrens|T|Elder Moonwarden|
-R Thunder Bluff|N|Sneak into Thunder Bluff.|QID|8678|M|73,23.8|Z|Thunder Bluff|
-A Wheathoof the Elder|N|From Wheathoof the Elder.|QID|8678|M|73,23.8|Z|Thunder Bluff|T|Elder Wheathood|
+R Thunder Bluff|N|Sneak into Thunder Bluff. On a flying mount, its zip in and out.  On foot it is a corpse run.|QID|8678|M|73,23.8|Z|Thunder Bluff|RANK|3|
+A Wheathoof the Elder|N|From Wheathoof the Elder.|QID|8678|M|73,23.8|Z|Thunder Bluff|T|Elder Wheathood|RANK|3|
 R Bloodhoof Village|N|Gallop on over to Bloodhoof Village.|QID|8673|M|48.5,53.2|Z|Mulgore|
 A Bloodhoof the Elder|N|From Bloodhoof the Elder.|QID|8673|M|48.50,53.24|Z|Mulgore|T|Elder Bloodhoof|
 A High Mountain the Elder|N|From High Mountain the Elder.|QID|8686|M|41.5,47.5|Z|Southern Barrens|T|Elder High Mountain|
-F Thargad's Camp|N|Fly to Thargad's Camp.|QID|8635|M|38.8,10.8|Z|Southern Barrens|
+F Thargad's Camp|N|Fly to Thargad's Camp.|QID|8635|M|38.8,10.8|Z|Southern Barrens|RANK|2|
 R Maraudon|QID|8635|M|29.12,62.56|N|Head over to Maraudon.|Z|Desolace|RANK|2|
 R Open the Stone Door|QID|8635|N|And follow the path until you come to a mini-map change.|M|28.23,62.61;28.29,65.08;27.58,62.85;28.09,62.8|CS|Z|Desolace|RANK|2|
 R Follow the dots|QID|8635|N|Until you come to a portal.|M|29.06,62.48;29.97,59.96;29.39,60.94|Z|Desolace|CS|RANK|2|

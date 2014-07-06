@@ -4,13 +4,32 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2014-06-02 14:52
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3294/revisions/26286/view
+-- Date: 2014-05-26 01:05
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3294/revisions/26162/view
+-- Date: 2014-05-20 19:53
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3294/revisions/26004/view
+-- Date: 2014-05-16 20:34
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3294/revisions/25724/view
 -- Date: 2013-06-18 08:35
 -- Who: Emmaleah
 -- Log: added missing |Z| in first line of guide
 
 -- URL: http://wow-pro.com/node/3294/revisions/25316/view
 -- Date: 2013-01-09 22:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3294/revisions/24921/view
@@ -38,16 +57,16 @@
 
 -- URL: http://wow-pro.com/node/3294/revisions/24344/view
 -- Date: 2011-04-29 16:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 285 for step C has unknown tag [NGo northwest to ...]
 
 -- URL: http://wow-pro.com/node/3294/revisions/24211/view
 -- Date: 2011-04-05 23:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3294/revisions/24163/view
 -- Date: 2011-03-12 18:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Make Guide ID unique
 
 -- URL: http://wow-pro.com/node/3294/revisions/23480/view
@@ -58,7 +77,11 @@
 -- Date: 2010-12-03 22:26
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamGriH7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamGriH7577", "Leveling", "Grizzly Hills", "Jame", "Horde")
+WoWPro:GuideLevels(guide,72,73, 72.8222)
+WoWPro:GuideNextGuide(guide, "ScoZul7778")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 --Original guide written/designed by Jame
 --Addon Version: Last Modified 7/14/2010
 return [[

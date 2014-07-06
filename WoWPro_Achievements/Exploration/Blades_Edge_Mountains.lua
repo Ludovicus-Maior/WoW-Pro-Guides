@@ -4,10 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_outland
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(865) - Blade's Edge Mountains
+-- Date: 2014-05-28 21:35
+-- Who: Ludovicus
+-- Log: Converted
 
-WoWPro.Achievements:RegisterGuide("KabExpBlad","Blade's Edge Mountains","Blade's Edge Mountains","Exploration", "Outland", "Kaboca", "Neutral", function()
+-- URL: http://wow-pro.com/node/3577/revisions/26379/view
+-- Date: 2014-05-28 21:25
+-- Who: Ludovicus
+-- Log: Initial Cut!
+
+local guide = WoWPro:RegisterGuide("KabExpBlad","Achievements","Blade's Edge Mountains","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",865)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Forge Camp: Terror|QID|908650010|M|30.1,76.9|ACH|865;10|
 F Vortex Summit|QID|908650026|M|32.8,60.5|ACH|865;26|

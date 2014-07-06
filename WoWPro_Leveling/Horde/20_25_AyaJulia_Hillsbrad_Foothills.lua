@@ -4,8 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
+-- Date: 2014-06-02 14:05
+-- Who: Ludovicus
+-- Log: Set Levels.
+
+-- URL: http://wow-pro.com/node/3223/revisions/26224/view
+-- Date: 2014-05-25 22:43
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3223/revisions/26129/view
+-- Date: 2014-05-20 17:35
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3223/revisions/26035/view
+-- Date: 2014-05-17 17:20
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3223/revisions/25614/view
 -- Date: 2013-05-09 22:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed [*Gurgle* HELP! *Gurgle*]
 
 -- URL: http://wow-pro.com/node/3223/revisions/24601/view
@@ -17,7 +37,7 @@
 
 -- URL: http://wow-pro.com/node/3223/revisions/24084/view
 -- Date: 2011-01-30 19:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide to match GIT.
 
 -- URL: http://wow-pro.com/node/3223/revisions/23831/view
@@ -37,7 +57,11 @@
 -- Date: 2010-12-03 07:38
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AyaHil2025', 'Hillsbrad Foothills', 'Shanyn', '20', '25', 'JiyAra2530', 'Horde', function()
+local guide = WoWPro:RegisterGuide('AyaHil2025', "Leveling", 'Hillsbrad Foothills', 'Shanyn', 'Horde')
+WoWPro:GuideLevels(guide,19,25,20.3378)
+WoWPro:GuideNextGuide(guide, 'JiyAra2530')
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 T Empire of Dirt|QID|27746|M|29.23,63.35|N|To High Executor Darthalia.|O|

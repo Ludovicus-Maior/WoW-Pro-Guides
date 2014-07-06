@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_neutral
+-- Date: 2014-06-02 16:33
+-- Who: Ludovicus
+-- Log: Added mean level
+
+-- URL: http://wow-pro.com/node/3262/revisions/26331/view
+-- Date: 2014-05-27 19:52
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "50,55" to "49,54".
+
+-- URL: http://wow-pro.com/node/3262/revisions/26258/view
+-- Date: 2014-05-25 23:08
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3262/revisions/26087/view
+-- Date: 2014-05-18 21:59
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3262/revisions/26061/view
+-- Date: 2014-05-17 20:33
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3262/revisions/25409/view
 -- Date: 2013-01-13 06:44
 -- Who: Emmaleah
 -- Log: adding CN/CS/CC tags to multi coordinates
@@ -24,15 +49,15 @@
 
 -- URL: http://wow-pro.com/node/3262/revisions/24403/view
 -- Date: 2011-05-17 01:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3262/revisions/24395/view
 -- Date: 2011-05-17 01:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3262/revisions/24336/view
 -- Date: 2011-04-29 16:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 92 for step C has unknown tag [GRP]
 
 -- URL: http://wow-pro.com/node/3262/revisions/23406/view
@@ -43,7 +68,11 @@
 -- Date: 2010-12-03 11:52
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560|JiySil5560', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('JiyUng5055', "Leveling", "Un'Goro Crater", 'Jiyambi', 'Neutral')
+WoWPro:GuideLevels(guide,49,54, 49.6358)
+WoWPro:GuideNextGuide(guide, 'JiySil5560|JiySil5560')
+WoWPro:GuideIcon(guide,"ACH",4939)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Devilsaurs|QID|24720|N|Huge, elite, hostile dinosaurs patrol this zone, so always be aware of your surroundings! That said, this is one of prettiest and most fun zones, so don't be discouraged!|

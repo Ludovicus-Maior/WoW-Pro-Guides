@@ -4,8 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
+-- Date: 2014-06-02 15:17
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3240/revisions/26323/view
+-- Date: 2014-05-26 19:58
+-- Who: Ludovicus
+-- Log: Added missing guide type.
+
+-- URL: http://wow-pro.com/node/3240/revisions/26092/view
+-- Date: 2014-05-18 22:07
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3240/revisions/26028/view
+-- Date: 2014-05-17 17:01
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3240/revisions/25477/view
 -- Date: 2013-01-13 19:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3240/revisions/23361/view
@@ -16,7 +36,11 @@
 -- Date: 2010-12-03 11:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyHin3035', 'The Hinterlands', 'Jiyambi', '30', '35', 'JiyWes3540', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyHin3035', 'Leveling', 'The Hinterlands', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,29,34, 30.6218)
+WoWPro:GuideNextGuide(guide, 'JiyWes3540')
+WoWPro:GuideIcon(guide,"ACH",4897)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Revantusk Village|QID|26430|O|M|69.00,34.78|N|From Drum Fel in Hammerfall in Arathi Highlands.|

@@ -4,32 +4,41 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
+-- Date: 2014-06-11 19:00
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3479/revisions/25741/view
 -- Date: 2013-08-15 23:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Improved ordering.
 
 -- URL: http://wow-pro.com/node/3479/revisions/25645/view
 -- Date: 2013-05-14 19:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Extra M tag
 
 -- URL: http://wow-pro.com/node/3479/revisions/25396/view
 -- Date: 2013-01-12 22:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3479/revisions/25085/view
 -- Date: 2012-09-25 00:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Wrong separators in [Captain Grondel's Task]
 
 -- URL: http://wow-pro.com/node/3479/revisions/24998/view
 -- Date: 2012-05-27 22:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: INitial Versions
 
-WoWPro.Dailies:RegisterGuide("LudoArgCrusade", "Icecrown", "Argent Crusade", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoArgCrusade",'Dailies', "Icecrown", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Argent Crusade"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Argent Crusade|N|The Argent Crusade Reputation Dalies.|
 
 A Slaves to Saronite|QID|13300|FACTION|Alliance|N|To Absalan the Pious. He patrols around on the Deck of the Skybreaker.|

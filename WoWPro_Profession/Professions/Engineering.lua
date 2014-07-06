@@ -10,7 +10,7 @@
 
 -- URL: http://wow-pro.com/node/3461/revisions/24906/view
 -- Date: 2012-01-19 00:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GIT
 
 WoWPro.Profession:RegisterGuide('TwiEngineering', 'Engineering', 'Engineering', 'Twists', '0', ' ', nil, 'Neutral', function()

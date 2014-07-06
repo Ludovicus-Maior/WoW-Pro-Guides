@@ -3,7 +3,20 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-WoWPro.Dailies:RegisterGuide("TwiSkyRace", "The Jade Forest", "The Sky Race", "MoP", "Twists", "Neutral", function()
+-- URL: http://wow-pro.com/wiki/sky_race
+-- Date: 2014-06-11 19:20
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3543/revisions/25557/view
+-- Date: 2013-03-23 15:43
+-- Who: Ludovicus
+-- Log: Twists's Original
+
+local guide = WoWPro:RegisterGuide("TwiSkyRace",'Dailies', "The Jade Forest", "Twists", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "The Sky Race"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N How To Strain Your Dragon|QID|9729001|ACH|7290|N|Finish the Sky Race first.|S|

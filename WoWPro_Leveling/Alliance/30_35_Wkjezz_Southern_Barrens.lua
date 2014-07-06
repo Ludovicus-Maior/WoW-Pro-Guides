@@ -4,8 +4,33 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2014-05-30 15:37
+-- Who: Ludovicus
+-- Log: Level tweak
+
+-- URL: http://wow-pro.com/node/3235/revisions/26365/view
+-- Date: 2014-05-27 21:09
+-- Who: Ludovicus
+-- Log: End Level corrected from 0 to 33.
+
+-- URL: http://wow-pro.com/node/3235/revisions/26234/view
+-- Date: 2014-05-25 22:51
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3235/revisions/26081/view
+-- Date: 2014-05-18 21:54
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3235/revisions/25971/view
+-- Date: 2014-05-14 22:26
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3235/revisions/25421/view
 -- Date: 2013-01-13 14:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3235/revisions/24550/view
@@ -25,12 +50,12 @@
 
 -- URL: http://wow-pro.com/node/3235/revisions/24300/view
 -- Date: 2011-04-29 14:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 44 for step T has unknown tag [To Commander Walpole.], Line 243 for step C has unknown tag [Take out the grunts.].
 
 -- URL: http://wow-pro.com/node/3235/revisions/24151/view
 -- Date: 2011-03-08 12:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sequence changes around [A Line in the Dirt], [A Report to Twinbraid], and [Echoes of Agamaggan] for more optimal play.
 
 -- URL: http://wow-pro.com/node/3235/revisions/23927/view
@@ -63,7 +88,11 @@
 -- Date: 2010-12-03 10:50
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjSotBar3035', 'Southern Barrens', 'WKJezz', '30', '35', 'WkjDus3540', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjSotBar3035', "Leveling", 'Southern Barrens', 'WKJezz', 'Alliance')
+WoWPro:GuideLevels(guide,28,33,30.0096)
+WoWPro:GuideNextGuide(guide, 'WkjDus3540')
+WoWPro:GuideIcon(guide,"ACH",4937)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Stonetalon Pass|QID|24862|N|Welcome to the Southern Barrens guide. This guide starts off where Stonetalon Mountains leaves off with the lead-up quest All's Clear. Alternatively, take the Hero's Call: Southern Barrens quest from Darnassus or Exodar. For both, head to Commander Walpole at Stonetalon Pass, and hand in the respective quest.|M|29.89,8.97|

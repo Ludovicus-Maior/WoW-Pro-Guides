@@ -4,18 +4,85 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-06-02 22:17
+-- Who: Ludovicus
+-- Log: Added Icons
+
+-- URL: http://wow-pro.com/node/3212/revisions/26475/view
+-- Date: 2014-06-02 20:42
+-- Who: Ludovicus
+-- Log: Remove step level race restriction
+
+-- URL: http://wow-pro.com/node/3212/revisions/26322/view
+-- Date: 2014-05-26 19:57
+-- Who: Ludovicus
+-- Log: Added missing guide type.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26212/view
+-- Date: 2014-05-25 22:29
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26126/view
+-- Date: 2014-05-19 21:08
+-- Who: Hendo72
+-- Log: Reverted my change as it does not work properly. I added extra coordinates to point to Sassy and added a note about losing your Hot Rod at this point.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26125/view
+-- Date: 2014-05-19 20:35
+-- Who: Hendo72
+-- Log: Changed 'R Gallywix's Yacht|QID|14126' to a C step and updated the coordinates to point to Sassy instead of the yacht.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26041/view
+-- Date: 2014-05-17 17:37
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26038/view
+-- Date: 2014-05-17 17:24
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3212/revisions/25926/view
+-- Date: 2014-04-08 09:46
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25925/view
+-- Date: 2014-04-06 20:23
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25858/view
+-- Date: 2013-12-27 22:38
+-- Who: Ludovicus
+-- Log: Play through tweaks + new goblin only quests for Razor Hill.
+
+-- URL: http://wow-pro.com/node/3212/revisions/25852/view
+-- Date: 2013-12-26 21:11
+-- Who: Ludovicus
+-- Log: A few tweaks as I ran my goblin priest through.
+
+-- URL: http://wow-pro.com/node/3212/revisions/25847/view
+-- Date: 2013-12-16 20:54
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3212/revisions/25841/view
+-- Date: 2013-12-12 15:59
+-- Who: Fluclo
+-- Log: Added Race Restriction
+
+-- URL: http://wow-pro.com/node/3212/revisions/25481/view
 -- Date: 2013-01-13 19:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3212/revisions/25450/view
 -- Date: 2013-01-13 17:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3212/revisions/25127/view
 -- Date: 2012-10-08 19:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Get rid of - in zone
 
 -- URL: http://wow-pro.com/node/3212/revisions/25063/view
@@ -35,7 +102,7 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/24320/view
 -- Date: 2011-04-29 15:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 213 for step A has unknown tag [From Sassy Hardwrench.]
 
 -- URL: http://wow-pro.com/node/3212/revisions/24268/view
@@ -63,7 +130,7 @@
 
 -- URL: http://wow-pro.com/node/3212/revisions/24000/view
 -- Date: 2011-01-16 17:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added help text around [Trouble in the Mines] and [Trouble in the Mines].  Added separate completion steps for each of the homies in [Rolling with my Homies].  Added help text [The Replacements].  Added help text to [Do it Yourself]. Added the female quest lines for [Off to the Bank] and [The New You] and labled them as (For [Males|Females]). Add quest objectives for [Life of the Party] and [Pirate Party Crashers] and [Liberate the Kaja'mite].  Added help note for [Waltz Right In] and intermediate completion steps.  Added turn in notes for [The Great Bank Heist], [Robbing Hoods].  Added a completion step for [Life Savings].
 
 -- URL: http://wow-pro.com/node/3212/revisions/23991/view
@@ -88,23 +155,24 @@
 -- Date: 2010-12-03 07:19
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('MalLos0512', 'The Lost Isles', 'Malorajan', '05', '12', 'BitAzs1220', 'Horde', function()
+local guide = WoWPro:RegisterGuide('MalLos0512', 'Leveling', 'The Lost Isles', 'Malorajan', 'Horde')
+WoWPro:GuideLevels(guide,4,10,5)
+WoWPro:GuideRaceSpecific(guide,"Goblin")
+WoWPro:GuideNextGuide(guide, 'BitAzs1220')
+WoWPro:GuideSteps(guide, function()
 return [[
 
-A Goblin Escape Pods|QID|14001|M|24.63,77.96|N|From Geargrinder Gizmo.|
-C Goblin Escape Pods|QID|14001|M|27.47,81.78|N|Male? Look around and click on the escape pods until you rescue 6 goblins.|
-A Goblin Escape Pods|QID|14474|M|24.63,77.96|N|From Geargrinder Gizmo.|
-C Goblin Escape Pods|QID|14474|M|27.47,81.78|N|Female? Look around and click on the escape pods until you rescue 6 goblins.|
+A Goblin Escape Pods|QID|14001;14474|M|24.63,77.96|N|From Geargrinder Gizmo.|
+C Goblin Escape Pods|QID|14001;14474|M|27.47,81.78|N|Male? Look around and click on the escape pods until you rescue 6 goblins.|
 h Shipwreck Shore|QID|14014|M|27.86,75.58|N|At Sassy Hardwrench.|
-T Goblin Escape Pods|QID|14001|M|27.86,75.58|N|To Sassy Hardwrench.|
-T Goblin Escape Pods|QID|14474|M|27.86,75.58|N|To Sassy Hardwrench.|
+T Goblin Escape Pods|QID|14001;14474|M|27.86,75.58|N|To Sassy Hardwrench.|
 
 A Get Our Stuff Back!|QID|14014|M|27.86,75.58|N|From Sassy Hardwrench.|
 A Monkey Business|QID|14019|M|27.89,74.43|N|From Bamm Megabomb.|
 A It's Our Problem Now|QID|14473|M|27.89,74.40|N|From Maxx Avalanche.|
 C It's Our Problem Now|QID|14473|M|29.24,69.93|S|N|Kill 6 Teraptor Hatchlings.|
 C Get Our Stuff Back!|QID|14014|M|29.13,70.04|S|N|Pick up any Crate of Tools you see.|
-C Monkey Business|QID|14019|U|49028|M|28.20,72.30|N|Feed Monkies the banana bombs, the bananas have about a 30 yard range.|
+C Monkey Business|QID|14019|U|49028|M|28.20,72.30|N|Feed Monkeys the banana bombs, the bananas have about a 30 yard range.|
 C Get Our Stuff Back!|QID|14014|M|29.13,70.04|US|N|Pick up any Crate of Tools you see.|
 C It's Our Problem Now|QID|14473|M|29.24,69.93|US|N|Kill 6 Teraptor Hatchlings.|
 L Level 6|QID|14473|LVL|6|N|You should be around level 6 by this point.|
@@ -117,12 +185,12 @@ T Help Wanted|QID|14248|M|31.20,79.30|N|To Foreman Dampwick.|
 A Miner Troubles|QID|14021|M|31.20,79.30|N|From Foreman Dampwick.|
 A Capturing the Unknown|QID|14031|M|31.19,79.30|N|From Foreman Dampwick.|
 C Miner Troubles|QID|14021|M|31.37,74.00|S|N|Protect the Miner as you go through.|
-U Cave Paining 2 Captured|QID|14031|U|49887|M|32.42,76.96|QO|Cave Painting 2 Captured: 1/1|N|Get near edge and use the KTC Snapflash.|
-U Cave Paining 1 Captured|QID|14031|U|49887|M|31.82,76.82|QO|Cave Painting 1 Captured: 1/1|N|Get nearish the bouncing wireframe camera and use the KTC Snapflash.|
-U Cave Paining 3 Captured|QID|14031|U|49887|M|33.94,75.25|QO|Cave Painting 3 Captured: 1/1|N|Get nearish the bouncing wireframe camera and use the KTC Snapflash.|
-C Capturing the Unknown|QID|14031|U|49887|M|31.37,74.00|N|Use the KTC Snapflash next to the altar.|
-C Miner Troubles|QID|14021|M|31.37,74.00|US|
-A Orcs Can Write?|QID|14233|M|31.23,74.08|N|From the Dead Orc Scout.|
+U Cave Paining 2 Captured|QID|14031|U|49887|M|61.36,71.85|Z|The Lost Isles/1|QO|Cave Painting 2 Captured: 1/1|N|Get near edge and use the KTC Snapflash.|
+U Cave Paining 1 Captured|QID|14031|U|49887|M|51.57,71.44|Z|The Lost Isles/1|QO|Cave Painting 1 Captured: 1/1|N|Get nearish the bouncing wireframe camera and use the KTC Snapflash.|
+U Cave Paining 3 Captured|QID|14031|U|49887|M|87.26,44.09|Z|The Lost Isles/1|QO|Cave Painting 3 Captured: 1/1|N|Get nearish the bouncing wireframe camera and use the KTC Snapflash.|
+C Capturing the Unknown|QID|14031|U|49887|M|44.73,25.41|Z|The Lost Isles/1|N|Use the KTC Snapflash next to the altar.|
+C Miner Troubles|QID|14021|M|31.37,74.00|Z|The Lost Isles/1|US|
+A Orcs Can Write?|QID|14233|M|31.23,74.08|Z|The Lost Isles/1|N|From the Dead Orc Scout.|
 T Miner Troubles|QID|14021|M|31.26,79.22|N|To Foreman Dampwick.|
 T Capturing the Unknown|QID|14031|M|27.86,75.55|N|To Sassy Hardwrench.|
 T Orcs Can Write?|QID|14233|M|27.86,75.55|N|To Sassy Hardwrench.|
@@ -147,7 +215,7 @@ T Infrared = Infradead|QID|14238|M|34.62,66.84|N|To Kilag Gorefang.|
 A To the Cliffs|QID|14240|M|34.59,66.84|N|From Kilag Gorefang.|
 T To the Cliffs|QID|14240|M|25.29,59.88|N|To Scout Brax.|
 A Get to the Gyrochoppa!|QID|14241|M|25.29,59.88|N|From Scout Brax.|
-C Get to the Gyrochoppa!|QID|14241|M|24.46,63.80|N|Kill SI:7 Operatives until the Gyrochoppa Keys drop.||
+C Get to the Gyrochoppa!|QID|14241|M|24.46,63.80|N|Kill SI:7 Operatives until the Gyrochoppa Keys drop.|
 T Get to the Gyrochoppa!|QID|14241|M|23.20,67.54|N|To Gyrochoppa.|
 
 A Precious Cargo|QID|14242|M|23.22,67.52|N|From Gyrochoppa.|
@@ -258,9 +326,9 @@ A The Heads of the SI:7|QID|25093|M|36.28,43.43|N|From Aggra.|
 A Mine Disposal, the Goblin Way|QID|25058|M|37.34,41.95|N|From Sassy Hardwrench.|
 C Repel the Paratroopers|QID|25024|M|34.04,38.48|S|N|Kill any Alliance Paratrooper you see.|
 C Mine Disposal, the Goblin Way|QID|25058|U|52280|M|33.08,43.80|S|N|Throw a grenade at a land mine.|
-K Commander Arrington|QID|25093|M|33.35,28.72|L|52346|N|Kill and loot Commander Arrington for his head.|
-K Alexi Silenthowl|QID|25093|M|30.8,33.93|L|52349|N|Kill and loot Alexi Silenthowl for his head.|
-C The Heads of the SI:7|QID|25093|M|33.42,27.88|N|Kill and loot Darkblade Cyn for her head to finish the quest.|
+K Commander Arrington|QID|25093|M|32.27,42.88|L|52346|N|Kill and loot Commander Arrington for his head.|
+K Alexi Silenthowl|QID|25093|M|30.78,33.91|L|52349|N|Kill and loot Alexi Silenthowl for his head.|
+C The Heads of the SI:7|QID|25093|M|33.42,27.89|N|Kill and loot Darkblade Cyn for her head to finish the quest.|
 C Repel the Paratroopers|QID|25024|M|34.04,38.48|US|N|Kill any Paratrooper you have left to kill.|
 C Mine Disposal, the Goblin Way|QID|25058|U|52280|M|33.08,43.80|US|N|Throw a grenade at a land mine.|
 H Warchief's Lookout|QID|25024|M|36.83,43.19|N|Hearth back to Warchief's Lookout.|
@@ -309,33 +377,33 @@ T The Ultimate Footbomb Uniform|QID|25201|M|54.41,16.97|N|To Coach Crosscheck.|
 T Shredder Shutdown|QID|25200|M|54.41,16.97|N|To Assistant Greely.|
 A Release the Valves|QID|25204|M|54.41,16.97|N|From Assistant Greely.|
 
-A What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.15|N|From Ace. (For Males.)|GEN|MALE|
-A The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|From Izzy. (For Females.)|GEN|FEMALE|
+A What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.15|N|From Ace.|GEN|MALE|
+A The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|From Izzy.|GEN|FEMALE|
 N Valve #1|QID|25204|M|50.73,13.81|QO|Valve #1 released: 1/1|N|Release Valve #1.|
 N Valve #3|QID|25204|M|50.54,13.11|QO|Valve #3 released: 1/1|N|Release Valve #3.|
 N Valve #2|QID|25204|M|50.18,11.75|QO|Valve #2 released: 1/1|N|Release Valve #2.|
 C Release the Valves|QID|25204|M|49.88,12.71|N|Release Valve #4.|
-C What Kind of Name is Chip, Anyway?|QID|25203|M|49.86,13.89|N|Kill Chip. (For Males.)|GEN|MALE|
-C The Fastest Way to His Heart|QID|25202|M|49.86,13.89|N|Kill and loot Chip to get his heart. (For Females.)|GEN|FEMALE|
+C What Kind of Name is Chip, Anyway?|QID|25203|M|49.86,13.89|N|Kill Chip.|GEN|MALE|
+C The Fastest Way to His Heart|QID|25202|M|49.86,13.89|N|Kill and loot Chip to get his heart.|GEN|FEMALE|
 T Release the Valves|QID|25204|M|51.40,13.12|N|At the Platform Control Panel.|
 A Good-bye, Sweet Oil|QID|25207|M|51.40,13.12|N|From the Platform Control Panel.|
 C Good-bye, Sweet Oil|QID|25207|M|51.40,13.15|N|Press the Big Red Button.|
-T What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.23|N|To Ace. (For Males.)|GEN|MALE|
-T The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|To Izzy. (For Females.)|GEN|FEMALE|
+T What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.23|N|To Ace.|GEN|MALE|
+T The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|To Izzy.|GEN|FEMALE|
 T Good-bye, Sweet Oil|QID|25207|M|54.37,17.00|N|To Assistant Greely.|
 A The Slave Pits|QID|25213|M|54.36,17.02|N|From Assistant Greely.|
 T The Slave Pits|QID|25213|M|43.65,25.31|N|To Sassy Hardwrench.|
 
-A She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.31|N|From Sassy Hardwrench. (For Males.)|GEN|MALE|
-A What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|From Sassy Hardwrench. (For Females.)|GEN|FEMALE|
+A She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.31|N|From Sassy Hardwrench.|GEN|MALE|
+A What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|From Sassy Hardwrench.|GEN|FEMALE|
 A Escape Velocity|QID|25214|M|43.82,25.33|N|From Hobart Grapplehammer.|
 C Escape Velocity|QID|25214|M|41.49,26.24|S|N|Click on the cages to attack the rockets.|
-C She Loves Me, She Loves Me NOT!|QID|25243|M|38.90,25.55|N|Kill and loot Candy for her heart. (For Males.)|GEN|MALE|
-C What Kind of Name is Candy, Anyway?|QID|25244|M|38.90,25.55|N|Kill Candy. (For Females.)|GEN|FEMALE|
+C She Loves Me, She Loves Me NOT!|QID|25243|M|38.90,25.55|N|Kill and loot Candy for her heart.|GEN|MALE|
+C What Kind of Name is Candy, Anyway?|QID|25244|M|39.60,27.16|N|Kill Candy.|GEN|FEMALE|
 C Escape Velocity|QID|25214|M|41.49,26.24|US|N|Click on the cages to attack the rockets.|
 T Escape Velocity|QID|25214|M|43.84,25.35|N|To Hobart Grapplehammer.|
-T She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.32|N|To Sassy Hardwrench.|
-T What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|To Sassy Hardwrench. (For Females.)|GEN|FEMALE|
+T She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.32|N|To Sassy Hardwrench.|GEN|MALE|
+T What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|N|To Sassy Hardwrench.|GEN|FEMALE|
 A Final Confrontation|QID|25251|M|43.66,25.32|N|From Sassy Hardwrench.|
 C Final Confrontation|QID|25251|M|43.27,20.03|N|Hop into the Ultimate Footbomb Uniform, head to where the Trade Prince Gallywix is. Use the abilities of the shredder when they are not on cooldown.|
 T Final Confrontation|QID|25251|M|43.67,25.32|N|To Sassy Hardwrench.|
@@ -343,11 +411,19 @@ A Victory!|QID|25265|M|43.53,24.64|N|From Sassy Hardwrench.|
 T Victory!|QID|25265|M|42.14,17.41|N|To Thrall.|
 
 A Warchief's Emissary|QID|25266|M|42.14,17.41|N|From Thrall.|
-R Bladefist Bay|QID|25266|M|42.59,16.40|N|Talk to Sasst Hardwrench and choose to go to Orgrimmar.|
+R Durotar|QID|25266|M|42.59,16.40|N|Talk to Sassy Hardwrench and choose to go to Orgrimmar.|T|Sassy|
 T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|Durotar|N|To Korkron Loyalist.|
 A Message for Garrosh|QID|25267|M|57.67,9.6|Z|Durotar|N|From Korkron Loyalist.|
 T Message for Garrosh|QID|25267|M|48.2,70.72|Z|Orgrimmar|N|To Garrosh Hellscream.|
 A Report to the Labor Captain|QID|25275|M|48.2,70.72|Z|Orgrimmar|N|From Garrosh Hellscream.|
+A Missing Reports|QID|26803|M|49.0,72.2|Z|Orgrimmar|N|From Eitrigg.|
+T Missing Reports|QID|26803|M|49.4,59.2|Z|Orgrimmar|N|To Doras, the flight master.|
+A Flight to Razor Hill|QID|26804|M|49.4,59.2|Z|Orgrimmar|N|From Doras, the flight master.|
+T Flight to Razor Hill|QID|26804|M|51.8,43.4|Z|Durotar|N|To Gar'Thok.|
+A Reports to Orgrimmar|QID|26806|M|51.8,43.4|Z|Durotar|N|From Gar'Thok.|
+T Reports to Orgrimmar|QID|26806|M|53.0,43.6|Z|Durotar|N|To Burok.|
+A Return to Eitrigg|QID|26807|M|53.0,43.6|Z|Durotar|N|To Burok.|
+T Return to Eitrigg|QID|26807|M|49.0,72.2|Z|Orgrimmar|N|To Eitrigg.|
 N Visit your trainers, AH, etc.|N|Close this step when ready to continue.|
 R Azshara|QID|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|CS|N|Run to Azshara.|Z|Orgrimmar|
 T Report to the Labor Captain|QID|25275|M|26.98,77.11|Z|Azshara|N|To Labor Captain Grabbit.|

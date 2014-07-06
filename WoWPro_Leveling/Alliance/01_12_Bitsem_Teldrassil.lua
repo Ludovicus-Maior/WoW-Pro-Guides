@@ -4,28 +4,58 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2014-06-04 20:13
+-- Who: Ludovicus
+-- Log: Level adj
+
+-- URL: http://wow-pro.com/node/3204/revisions/26478/view
+-- Date: 2014-06-02 22:10
+-- Who: Ludovicus
+-- Log: Icons
+
+-- URL: http://wow-pro.com/node/3204/revisions/26350/view
+-- Date: 2014-05-27 20:40
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "1,9".
+
+-- URL: http://wow-pro.com/node/3204/revisions/26205/view
+-- Date: 2014-05-25 22:18
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3204/revisions/26140/view
+-- Date: 2014-05-20 19:20
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3204/revisions/25952/view
+-- Date: 2014-05-14 21:57
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3204/revisions/25588/view
 -- Date: 2013-03-23 20:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Name tweak on [The Moss-Twined Heart]
 
 -- URL: http://wow-pro.com/node/3204/revisions/25587/view
 -- Date: 2013-03-23 20:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Wrong QID in F step, bad zone name too.
 
 -- URL: http://wow-pro.com/node/3204/revisions/25586/view
 -- Date: 2013-03-23 20:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweaked [Learning the Word]
 
 -- URL: http://wow-pro.com/node/3204/revisions/25376/view
 -- Date: 2013-01-12 19:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a CN tag
 
 -- URL: http://wow-pro.com/node/3204/revisions/25135/view
 -- Date: 2012-10-09 15:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added trial monk quests.  Coords are not correct.
 
 -- URL: http://wow-pro.com/node/3204/revisions/24688/view
@@ -52,7 +82,7 @@
 
 -- URL: http://wow-pro.com/node/3204/revisions/24516/view
 -- Date: 2011-06-07 23:04
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 247, for step l non-decimal QID: [l Moss-Twined Heart|QID||M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill and loot it for the .|]
 
 -- URL: http://wow-pro.com/node/3204/revisions/24503/view
@@ -62,21 +92,21 @@
 
 -- URL: http://wow-pro.com/node/3204/revisions/24273/view
 -- Date: 2011-04-26 22:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing N and PRE tags
 
 -- URL: http://wow-pro.com/node/3204/revisions/24220/view
 -- Date: 2011-04-05 23:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3204/revisions/24120/view
 -- Date: 2011-02-20 21:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Change starting level from '1' to '01' like the rest.
 
 -- URL: http://wow-pro.com/node/3204/revisions/24073/view
 -- Date: 2011-01-29 17:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Adding missing QID to Level 6 step.
 
 -- URL: http://wow-pro.com/node/3204/revisions/23274/view
@@ -91,7 +121,11 @@
 -- Date: 2010-12-02 23:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitTel0110', 'Teldrassil', 'Bitsem', '01', '10', 'JamDar1320', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('BitTel0110', "Leveling", 'Teldrassil', 'Bitsem', 'Alliance')
+WoWPro:GuideLevels(guide,1,9, 3.5814)
+WoWPro:GuideNextGuide(guide, 'JamDar1320')
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A The Balance of Nature|QID|28713|M|57.97,39.19|N|From Ilthalaine.|

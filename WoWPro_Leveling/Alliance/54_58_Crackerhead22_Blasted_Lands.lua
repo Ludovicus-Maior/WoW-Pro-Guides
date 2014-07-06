@@ -4,8 +4,47 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2014-05-27 21:29
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "54,58".
+
+-- URL: http://wow-pro.com/node/3267/revisions/26263/view
+-- Date: 2014-05-26 00:31
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3267/revisions/26097/view
+-- Date: 2014-05-18 22:12
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3267/revisions/25981/view
+-- Date: 2014-05-14 22:37
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3267/revisions/25946/view
+-- Date: 2014-04-28 19:31
+-- Who: Hendo72
+-- Log: - Corrected unsticky for 'Eliminate the Okril'lon'
+--	
+--	- Removed extra coordinates from 'The First Step' (Not needed)
+--	
+--	- Added coordinates and a name for the repair steps.
+--	
+--	- Added a note about using the bloodstone to come and go from the cave.
+--	
+--	- Added 'The Future of the Rockpool' and shuffled part of the 'Neptool's Revenge' kill quest around to work with it. (This may need some tweaking as this was done after the fact and unable to test for 100% accuracy)
+--	
+--	- Commented out the step to set HS to Surwich. You do not use it once in this guide and one of the first steps in the next guide is to Hearth to Nethergarde, which is where it's currently set to.
+--	
+--	- You can collect the charred granite chips by clicking on them. Removed 'U' tag, as it is no longer required.
+--	
+--	- Reworded a few notes and changed a couple CN tags to CS.
+
+-- URL: http://wow-pro.com/node/3267/revisions/25433/view
 -- Date: 2013-01-13 15:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3267/revisions/24875/view
@@ -35,7 +74,7 @@
 
 -- URL: http://wow-pro.com/node/3267/revisions/24305/view
 -- Date: 2011-04-29 14:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 30 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3267/revisions/23791/view
@@ -59,7 +98,11 @@
 -- Date: 2010-12-03 12:01
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraBla5458', 'Blasted Lands', 'Crackerhead22', '54', '58', 'JamHel6062', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('CraBla5458', "Leveling", 'Blasted Lands', 'Crackerhead22', 'Alliance')
+WoWPro:GuideLevels(guide,54,58)
+WoWPro:GuideNextGuide(guide, 'JamHel6062')
+WoWPro:GuideIcon(guide,"ACH",4909)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 54 |QID|25715|L|54|N|You need to be Level 54 to do this guide.|

@@ -4,61 +4,76 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-06-13 00:23
+-- Who: Ludovicus
+-- Log: Missing quote
+
+-- URL: http://wow-pro.com/node/3441/revisions/26503/view
+-- Date: 2014-06-10 22:10
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26499/view
+-- Date: 2014-06-10 21:44
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25788/view
 -- Date: 2013-10-28 02:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Use Dalaran City@Dalaran instead of Dalaran
 
 -- URL: http://wow-pro.com/node/3441/revisions/25786/view
 -- Date: 2013-10-27 22:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Next set of corrections.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25785/view
 -- Date: 2013-10-27 01:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Some coord fixes for Northrend
 
 -- URL: http://wow-pro.com/node/3441/revisions/25784/view
 -- Date: 2013-10-26 22:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add the missing U|37586| to Northrend
 
 -- URL: http://wow-pro.com/node/3441/revisions/25783/view
 -- Date: 2013-10-26 22:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Blade's Edge Mountains not Netherstorm.
 
 -- URL: http://wow-pro.com/node/3441/revisions/25782/view
 -- Date: 2013-10-26 02:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleft of Shadow@Orgrimmar
 
 -- URL: http://wow-pro.com/node/3441/revisions/25781/view
 -- Date: 2013-10-26 02:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3441/revisions/25780/view
 -- Date: 2013-10-26 01:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Forest was misspelled
 
 -- URL: http://wow-pro.com/node/3441/revisions/25779/view
 -- Date: 2013-10-26 01:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3441/revisions/25778/view
 -- Date: 2013-10-25 22:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  Ibanozzle
 
 -- URL: http://wow-pro.com/node/3441/revisions/25162/view
 -- Date: 2012-10-24 21:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add Horde Pandaria Hallows End TRIAL.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24895/view
 -- Date: 2012-01-18 23:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GIT.
 
 -- URL: http://wow-pro.com/node/3441/revisions/24785/view
@@ -72,7 +87,7 @@
 
 -- URL: http://wow-pro.com/node/3441/revisions/24779/view
 -- Date: 2011-10-29 02:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3441/revisions/24772/view
 -- Date: 2011-10-28 08:04
@@ -82,7 +97,10 @@
 -- Date: 2011-10-28 08:03
 -- Who: Crackerhead22
 
-WoWPro.WorldEvents:RegisterGuide("LudoHallowPanH","Hallows End (Pandaria)","Hallows End (Pandaria)","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoHallowPanH",'WorldEvents',"Hallows End", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Wall of Text Part 1 of 2|QID|-1|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".

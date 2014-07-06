@@ -4,21 +4,38 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_alliance
+-- Date: 2014-06-10 23:05
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3537/revisions/25938/view
+-- Date: 2014-04-14 21:17
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3537/revisions/25929/view
+-- Date: 2014-04-14 19:31
+-- Who: Ludovicus
+-- Log: Add solo scenarios; try to start using the guide!
+
+-- URL: http://wow-pro.com/node/3537/revisions/25547/view
 -- Date: 2013-03-07 23:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: First cut for first phase!
 
 -- URL: http://wow-pro.com/node/3537/revisions/25545/view
 -- Date: 2013-03-06 22:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Notes for guide
 
-WoWPro.Dailies:RegisterGuide("LudoThunderKing", "Isle of Thunder", "Thunder King", "MoP", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoThunderKing",'Dailies', "Isle of Thunder", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Thunder King"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Stage 1!
 
-A Thunder Calls|QID|32679|M|64.16,58.75|Z|Vale of Eternal Blossoms|N|UI Popup when flying near Shrine of Seven Stars|
+A Thunder Calls|QID|32679|M|83.99,58.67|Z|Vale of Eternal Blossoms|N|From Lyalia, outside the Shrine of Seven Stars.|
 T Thunder Calls|QID|32679|M|49.8,69|Z|Townlong Steppes|N|To Vereesa Windrunner, at the Shado-Pan Garrison in Townlong Steppes.|
 A The Storm Gathers|QID|32681|PRE|32679|M|49.93,69.04|Z|Townlong Steppes|N|From Vereesa Windrunner|
 C The Storm Gathers|QID|32681|M|49.93,69.04|Z|Townlong Steppes|QO|Speak with Vereesa: 1/1|N|Speak with Vereesa and get going!|
@@ -26,16 +43,31 @@ T The Storm Gathers|QID|32681|M|63.2,72.2|N|To Lady Jaina Proudmoore|
 
 A Allies in the Shadows|QID|32706|PRE|32681|M|63.2,72.2|N|From Lady Jaina Proudmoore|
 
+; Solo Scenarios!
+A Tear Down This Wall!|QID|32654|M|63.25,72.22|N|From Lady Jaina Proudmoore|
+C Tear Down This Wall!|QID|32654|M|63.25,72.22|N|Talk to Lady Jaina Proudmoore to start the solo instance.|CHAT|
+T Tear Down This Wall!|QID|32654|M|63.25,72.22|N|To Lady Jaina Proudmoore|
+A To the Skies!|QID|32652|M|63.25,72.22|PRE|32654|N|From Lady Jaina Proudmoore|
+C To the Skies!|QID|32652|M|63.25,72.22|PRE|32654|N|Talk to Lady Jaina Proudmoore to start the solo instance.|CHAT|
+T To the Skies!|QID|32652|M|63.16,73.87|N|To Lady Jaina Proudmoore|
+A A Bold Idea|QID|32655|M|63.20,73.91|N From Taoshi.|
+C A Bold Idea|QID|32655|M|63.20,73.91|N Talk to Taoshi to start the solo instance.|CHAT|
+T A Bold Idea|QID|32655|M|63.25,72.22|N|To Lady Jaina Proudmoore|
+A The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|From Lady Jaina Proudmoore|
+C The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|Talk to Lady Jaina Proudmoore to start the solo instance.|CHAT|
+T The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|To Lady Jaina Proudmoore|
+
 ; Let the dailies begin!
-A Ihgaluk Crag|QID|32732|M|34.55,89.46|N|From Captain Elleane Wavecrest|
+N Assignment Map: PvE or PvP|QID||M|63.25,72.19|N|Click on the assignment map and make your choice. Then another NPC will offer the quests.|NC|
+A The Court of Bones|QID|32731|M|63.25,72.22|N|From Vereesa Windrunner.|
+A Ihgaluk Crag|QID|32732|M|62.70,73.56|N|From Captain Elleane Wavecrest, skip if she is not offering.|
 A Za'Tual|QID|32733|M|34.61,89.45|N|From Lady Jaina Proudmoore.|
-A The Court of Bones|QID|32731|M|34.74,89.18|N|From Vereesa Windrunner|
 
 ; Dailies - Za'Tual
-T Za'Tual|QID|32733|M|31.56,83.14|N|To Archmage Lan'dalock.|
-A Lan'dalock's Quests|QID|*|NPC|70517|PRE|32733|M|31.6,83.2|N|From Archmage Lan'dalock.|
-A Ako's Quest|QID|*|NPC|69673|PRE|32733|M|31.47,83.21|N|From Ako|
-A Dalvin's Quest|QID|*|NPC|69674|PRE|32733|M|31.66,83.22|N|From Dalvin Jaacor|
+T Za'Tual|QID|32733|M|42.2,66.4|N|To Archmage Lan'dalock.|
+A Lan'dalock's Quests|QID|*|NPC|70517|PRE|32733|M|42.2,66.4|N|From Archmage Lan'dalock.|
+A Ako's Quest|QID|*|NPC|69673|PRE|32733|M|42.2,66.4|N|From Ako|
+A Dalvin's Quest|QID|*|NPC|69674|PRE|32733|M|42.2,66.4|N|From Dalvin Jaacor|
 
 C Troll Killin'|QID|32543|S|
 ;
@@ -68,10 +100,10 @@ T Surgical Strike|QID|32542|M|31.56,83.14|N|To Archmage Lan'dalock.|
 
 ; Dailies - Court of Bones
 
-T The Court of Bones|QID|32731|M|40.2,59.6|N|To Narasi Snowdawn|
-A Narasi's Quest|QID|*|NPC||PRE|32731|M|40.2,59.6|N|From Narasi Snowdawn|
-A Danara's Quests|QID|*|NPC||PRE|32731|M|40.1,59.3|N|From Danara Silverglass|
-A Vylene's Quests|QID|*|NPC||PRE|32731|M|40.1,59.1|N|From Vylene Amaranth|
+T The Court of Bones|QID|32731|M|40.18,59.55|N|To Narasi Snowdawn, hiding under the shield.|
+A Narasi's Quest|QID|*|NPC||PRE|32731|M|40.18,59.55|N|From Narasi Snowdawn|
+A Danara's Quests|QID|32525;32528;32532;32533|PRE|32731|M|40.15,59.30|N|From Danara Silverglass|
+A Vylene's Quests|QID|32529;32530;32531|PRE|32731|M|40.10,59.11|N|From Vylene Amaranth|
 
 C Grave Circumstances|QID|32527|S|CN|M|33.00,52.80;33.60,60.60;34.00,58.60;34.40,52.20;34.60,56.40;35.40,51.60;35.40,60.80;36.20,59.00;36.40,56.20;37.00,55.20;37.40,51.80;37.40,59.40;37.60,53.80;38.60,58.20;39.00,55.80;35.50,53.00;36.60,52.50;35.60,55.20;36.75,60.65;36.40,53.80;36.60,49.60;34.60,57.50;35.55,50.20;37.00,57.80;38.45,60.90|QO|Shan'ze mogu slain at the Court of Bones: 10/10|N|Go the court of bones and wipe them out!|
 ;

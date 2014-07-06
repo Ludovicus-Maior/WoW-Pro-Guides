@@ -4,18 +4,37 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2014-06-02 14:53
+-- Who: Ludovicus
+-- Log: Set levels
+
+-- URL: http://wow-pro.com/node/3292/revisions/26284/view
+-- Date: 2014-05-26 01:03
+-- Who: Ludovicus
+-- Log: added guide type.
+
+-- URL: http://wow-pro.com/node/3292/revisions/26158/view
+-- Date: 2014-05-20 19:48
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3292/revisions/26005/view
+-- Date: 2014-05-16 20:35
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3292/revisions/25572/view
 -- Date: 2013-03-23 18:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: A freq quest name corrections.
 
 -- URL: http://wow-pro.com/node/3292/revisions/25470/view
 -- Date: 2013-01-13 19:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3292/revisions/25317/view
 -- Date: 2013-01-09 22:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added some CS tags
 
 -- URL: http://wow-pro.com/node/3292/revisions/24917/view
@@ -35,7 +54,7 @@
 
 -- URL: http://wow-pro.com/node/3292/revisions/24165/view
 -- Date: 2011-03-12 18:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Grizz changed ID.
 
 -- URL: http://wow-pro.com/node/3292/revisions/23981/view
@@ -51,7 +70,11 @@
 -- Date: 2010-12-03 22:23
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamDra7375", "Dragonblight", "Jame", "73", "75", "JamGriH7577", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamDra7375", "Leveling", "Dragonblight", "Jame", "Horde")
+WoWPro:GuideLevels(guide,71,74, 71.3291)
+WoWPro:GuideNextGuide(guide, "JamGriH7577")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 --> Original guides written/designed by [Jame]
 -->
 --> Last modified by [Jiyambi] 19/6/2009

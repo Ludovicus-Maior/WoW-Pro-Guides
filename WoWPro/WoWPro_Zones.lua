@@ -2905,6 +2905,14 @@ WoWPro.Zone2MapID = {
 			["mapName"] = "Isle of Quel'Danas",
 			["zonei"] = 17,
 		},
+		["Timeless Isle"] = {
+			["numFloors"] = 0,
+			["mapID"] = 951,
+			["cont"] = 6,
+			["zone"] = "Timeless Isle",
+			["mapName"] = "Timeless Isle",
+			["zonei"] = 10,
+		},		
 	}
 	
 local MapsSeen = {}

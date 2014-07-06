@@ -4,17 +4,37 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2014-05-27 20:59
+-- Who: Ludovicus
+-- Log: Min Level corrected from 66 to 64.
+
+-- URL: http://wow-pro.com/node/3279/revisions/26272/view
+-- Date: 2014-05-26 00:39
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3279/revisions/26155/view
+-- Date: 2014-05-20 19:45
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3279/revisions/25985/view
+-- Date: 2014-05-14 22:40
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3279/revisions/25610/view
 -- Date: 2013-05-01 19:01
 -- Who: Twists
 
 -- URL: http://wow-pro.com/node/3279/revisions/25592/view
 -- Date: 2013-03-23 20:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name cleanups
 
 -- URL: http://wow-pro.com/node/3279/revisions/25403/view
 -- Date: 2013-01-13 01:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lots of CN tags and a CS tag
 
 -- URL: http://wow-pro.com/node/3279/revisions/25335/view
@@ -57,7 +77,7 @@
 
 -- URL: http://wow-pro.com/node/3279/revisions/24307/view
 -- Date: 2011-04-29 14:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 133 for step N has too short a title, Line 174 for step N has too short a title, Line 239 for step A has unknown tag [From Corki.], Line 305 for step C has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3279/revisions/24229/view
@@ -92,7 +112,11 @@
 -- Date: 2010-12-03 21:34
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamNag6668", "Nagrand", "Jame", "66", "68", "JamBla6870", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamNag6668", "Leveling", "Nagrand", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,64,68)
+WoWPro:GuideNextGuide(guide, "JamBla6870")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Nagrand|QID|9792|N|Go to Nagrand.|M|20.30,55.60|

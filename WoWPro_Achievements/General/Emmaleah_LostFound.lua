@@ -4,13 +4,23 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2014-05-26 18:04
+-- Who: Ludovicus
+-- Log: Added guide type. Typographical corrections.
+
+-- URL: http://wow-pro.com/node/3514/revisions/26200/view
+-- Date: 2014-05-22 23:08
+-- Who: Ludovicus
+-- Log: Registration guide; typographical corrections
+
+-- URL: http://wow-pro.com/node/3514/revisions/25824/view
 -- Date: 2013-11-27 21:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a CS tag to A [Hozen Warrior Spear:31413]
 
 -- URL: http://wow-pro.com/node/3514/revisions/25758/view
 -- Date: 2013-09-10 23:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord tweaks and spelling fixes.
 
 -- URL: http://wow-pro.com/node/3514/revisions/25506/view
@@ -20,12 +30,12 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/25436/view
 -- Date: 2013-01-13 15:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3514/revisions/25289/view
 -- Date: 2013-01-09 01:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags.
 
 -- URL: http://wow-pro.com/node/3514/revisions/25277/view
@@ -45,24 +55,27 @@
 
 -- URL: http://wow-pro.com/node/3514/revisions/25206/view
 -- Date: 2012-11-13 02:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Updated to latest from Emmaleah
 
 -- URL: http://wow-pro.com/node/3514/revisions/25205/view
 -- Date: 2012-11-13 02:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Close of Blog Page
 
-WoWPro.Achievements:RegisterGuide('EmmAchLost','MoP Zones', 'Lost and Found - Riches of Pandaria', 'Achievement', 'Mists of Pandaria', 'Emmaleah','Neutral', function()
+local guide = WoWPro:RegisterGuide('EmmAchLost',"Achievements",'MoP Zones', 'Lost and Found - Riches of Pandaria','Neutral')
+-- WoWPro:GuideIcon(guide,"ACH",XXX)
+WoWPro:GuideNextGuide(guide, 'Emmaleah')
+WoWPro:GuideSteps(guide, function()
 return [[
 
-N Lost and Found|QID|972810001|N|This guide is for all of the lost things in Pandaria, not just the ones that give this achievement. There are actually four achiements in the chain for finding 1, 5, 10 and finaly 20 items. There are a total of 28 that can be found that qualify. Most of the items for the achievement are BOA and all are blue quality, except the two recipes(white) and the ancient woodcutter(grey). These items are rare, thus not always there.|
-N Riches of Pandaria|QID|979940001|N|Patch 5.1 brought new achievements. This is a chain of achievements for finding the grey items, each woth ~100g. The achievements are called Treasures of Pandaria - finding 1; Fortune of Pandaria - finding 5; Bounty of Pandaria - finding 10; and lastly, Riches of Pandaria - finding all 18. These items are common and will always be available.  Some of them move around in the general location. others are a static spawn.|
+N Lost and Found|QID|972810001|N|This guide is for all of the lost things in Pandaria, not just the ones that give this achievement. There are actually four achievements in the chain for finding 1, 5, 10 and finally 20 items. There are a total of 28 that can be found that qualify. Most of the items for the achievement are BOA and all are blue quality, except the two recipes(white) and the ancient woodcutter(grey). These items are rare, thus not always there.|
+N Riches of Pandaria|QID|979940001|N|Patch 5.1 brought new achievements. This is a chain of achievements for finding the grey items, each worth ~100g. The achievements are called Treasures of Pandaria - finding 1; Fortune of Pandaria - finding 5; Bounty of Pandaria - finding 10; and lastly, Riches of Pandaria - finding all 18. These items are common and will always be available.  Some of them move around in the general location. others are a static spawn.|
 N Setting of Ranks|QID|972810001|N|If you are only interested in the Lost and Found achievement set the guide to RANK 1. RANK 2 includes the items for Riches of Pandaria achievement as well. These items mostly sell for 100+gold.  The items that give little gold or xp, nor are part of any achievement should only be included if you set it to RANK 3.|
 N Basic "how it works"|QID|972810001|N|These use hidden "flag" quests so that the items will only be available once per character. If you move while opening the container (including being attacked) you may lose the item, and so far GMs have not been replacing, Also, if your inventory is full, no item. You do get the achievement even if you don't get the item. If you are using this addon, you do not need the scripts on Wowhead to tell you which ones you haven't yet found, as that is what this does, by checking off the steps as you find them.|
-N Some require NPC Interaction|QID|972810001|N|Some of the items require you talk to NPC's to get the item (instead of groundspanws). There are target buttons for those steps, the number beside thier name (in the note) is thier NPC code if you want to add to NPC Scan.|
+N Some require NPC Interaction|QID|972810001|N|Some of the items require you talk to NPC's to get the item (instead of groundspawns). There are target buttons for those steps, the number beside their name (in the note) is their NPC code if you want to add to NPC Scan.|
 N Some may already be completed|QID|972810001|N|These all give XP If done pre-90 so the leveling guides have you look for several (most) of them. The ones for the achievement are rare, you will need to manually skip several of them (since they won't be there) and come back another day. Reset the guide to unmark the skipped steps and start over.|
-N One Last Note|QID|972810001|N|Dispite these showing a yellow "!" in the guide steps, you do not actually accept a quest or see a "!" over the item on the ground.|
+N One Last Note|QID|972810001|N|Despite these showing a yellow "!" in the guide steps, you do not actually accept a quest or see a "!" over the item on the ground.|
 
 A Ancient Pandaren Fishing Charm|QID|31284|L|85973|RANK|1|T|Ghostly Pandaren Fisherman|M|46.8,24.6|Z|Valley of the Four Winds|N|Talk to 'Ghostly Pandaren Fisherman'[64004](possibly beside any lake}.|
 A Ancient Pandaren Woodcutter|QID|31292|L|86079|RANK|1|T|Ghostly Pandaren Craftsman|M|45.4,38.2|Z|Valley of the Four Winds|N|Talk to 'Ghostly Pandaren Craftsman'[64191]He wanders thru Halfhill and into the Heartland.|

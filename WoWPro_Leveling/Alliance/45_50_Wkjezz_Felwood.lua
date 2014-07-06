@@ -4,13 +4,38 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2014-05-30 16:09
+-- Who: Ludovicus
+-- Log: Corrected syntax error
+
+-- URL: http://wow-pro.com/node/3257/revisions/26388/view
+-- Date: 2014-05-29 22:46
+-- Who: Ludovicus
+-- Log: Guide Levels corrected. Added Mean Level.
+
+-- URL: http://wow-pro.com/node/3257/revisions/26254/view
+-- Date: 2014-05-25 23:05
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3257/revisions/26083/view
+-- Date: 2014-05-18 21:55
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3257/revisions/25977/view
+-- Date: 2014-05-14 22:32
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3257/revisions/25582/view
 -- Date: 2013-03-23 20:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name tweak
 
 -- URL: http://wow-pro.com/node/3257/revisions/24460/view
 -- Date: 2011-05-30 17:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 39 for step R has 1 M coords: [R Emerald Sanctuary|QID|28100|M|51.41.79.79|N|Run to Emerald Sanctuary.|]
 
 -- URL: http://wow-pro.com/node/3257/revisions/24432/view
@@ -20,16 +45,16 @@
 
 -- URL: http://wow-pro.com/node/3257/revisions/24391/view
 -- Date: 2011-05-17 01:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3257/revisions/24186/view
 -- Date: 2011-03-20 20:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrections around [Crying Violet] and quests shifted to "Andalar Shadevale".  Speling corrections and addition comments.
 
 -- URL: http://wow-pro.com/node/3257/revisions/24082/view
 -- Date: 2011-01-30 19:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected Register guide to match GIT.
 
 -- URL: http://wow-pro.com/node/3257/revisions/23618/view
@@ -44,7 +69,11 @@
 -- Date: 2010-12-03 11:44
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', '45', '50', 'JiyWin5055', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjFel4550', "Leveling", 'Felwood', 'Wkjezz', 'Alliance')
+WoWPro:GuideLevels(guide,44,49,45.3277)
+WoWPro:GuideNextGuide(guide, 'JiyWin5055')
+WoWPro:GuideIcon(guide,"ACH",4931)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Note|QID|28100|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|

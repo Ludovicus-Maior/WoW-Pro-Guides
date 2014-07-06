@@ -4,18 +4,38 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2014-05-30 15:23
+-- Who: Ludovicus
+-- Log: :Level setting
+
+-- URL: http://wow-pro.com/node/3311/revisions/26298/view
+-- Date: 2014-05-26 01:17
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3311/revisions/26119/view
+-- Date: 2014-05-18 23:02
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3311/revisions/25995/view
+-- Date: 2014-05-14 22:50
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3311/revisions/25535/view
 -- Date: 2013-02-18 06:32
 -- Who: Emmaleah
 -- Log: corrected Coords for C Wings over Highbank.
 
 -- URL: http://wow-pro.com/node/3311/revisions/25369/view
 -- Date: 2013-01-12 19:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3311/revisions/24991/view
 -- Date: 2012-05-27 18:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad zone for quest turning to Jack Bauden.
 
 -- URL: http://wow-pro.com/node/3311/revisions/24973/view
@@ -75,17 +95,17 @@
 
 -- URL: http://wow-pro.com/node/3311/revisions/24314/view
 -- Date: 2011-04-29 15:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 65 for step A has unknown tag [From Anduin Wrynn], Line 70 for step T has unknown tag [Stormwind City], Line 180 for step C has 1 M coords, Line 471 for step C has unknown tag [If you catch them ...], Line 480 for step A has 1 M coords, Line 647 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3311/revisions/24098/view
 -- Date: 2011-02-05 05:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Re-sync from GitHub. Seems I picked up an earlier version of this guide.
 
 -- URL: http://wow-pro.com/node/3311/revisions/24095/view
 -- Date: 2011-02-04 22:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Synchronize with GitHub Alliance/84_85_Arixan_Twilight_Highlands.lua
 
 -- URL: http://wow-pro.com/node/3311/revisions/23734/view
@@ -104,7 +124,11 @@
 -- Date: 2010-12-03 23:28
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('MagTwi8485', 'Twilight Highlands', 'Melliandra', '84', '85', nil, 'Alliance', function()
+local guide = WoWPro:RegisterGuide('MagTwi8485', "Leveling", 'Twilight Highlands', 'Melliandra', 'Alliance')
+WoWPro:GuideLevels(guide,84,84,84)
+WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideIcon(guide,"ACH",4866)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 84 |QID|28716|LVL|84|N|You need to be Level 84 to do this guide.|

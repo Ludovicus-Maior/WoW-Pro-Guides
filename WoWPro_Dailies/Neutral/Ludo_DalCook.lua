@@ -4,36 +4,44 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dalaran_cooking_and_fishing_dalies
+-- Date: 2014-06-11 19:02
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3477/revisions/25641/view
 -- Date: 2013-05-14 19:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad coord
 
 -- URL: http://wow-pro.com/node/3477/revisions/25640/view
 -- Date: 2013-05-14 19:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: More @DalaranCity
 
 -- URL: http://wow-pro.com/node/3477/revisions/25622/view
 -- Date: 2013-05-14 15:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Updated to The Underbelly@DalaranCity
 
 -- URL: http://wow-pro.com/node/3477/revisions/25424/view
 -- Date: 2013-01-13 15:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3477/revisions/25362/view
 -- Date: 2013-01-12 18:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lots of CN tags
 
 -- URL: http://wow-pro.com/node/3477/revisions/24995/view
 -- Date: 2012-05-27 19:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Version
 
-WoWPro.Dailies:RegisterGuide("LudoDalCook", "Dalaran", "Dalaran Cooking", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoDalCook",'Dailies', "Dalaran", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) --  "Dalaran Cooking"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A One of Five|QID|13103;13101;13100;13107;13102|FACTION|Alliance|M|40.4,65.8|N|From Katherine Lee.|

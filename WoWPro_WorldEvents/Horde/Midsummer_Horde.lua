@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2014-06-10 21:59
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3407/revisions/25736/view
 -- Date: 2013-07-07 00:08
 -- Who: Emmaleah
 -- Log: correct QID on Zul'drak Honor the flame
@@ -15,17 +20,17 @@
 
 -- URL: http://wow-pro.com/node/3407/revisions/25678/view
 -- Date: 2013-05-17 20:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: QID 11761 had an extra ')'
 
 -- URL: http://wow-pro.com/node/3407/revisions/25019/view
 -- Date: 2012-06-30 23:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Got rid of extra spaces.
 
 -- URL: http://wow-pro.com/node/3407/revisions/25017/view
 -- Date: 2012-06-30 21:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3407/revisions/24780/view
 -- Date: 2011-10-29 18:09
@@ -40,7 +45,10 @@
 -- Date: 2011-06-30 05:43
 -- Who: Crackerhead22
 
-WoWPro.WorldEvents:RegisterGuide("EmmMidAch","Midsummer Fire Festival (Horde)","Midsummer Fire Festival (Horde)","WE", "Emmaleah", "Horde", function()
+local guide = WoWPro:RegisterGuide("EmmMidAch",'WorldEvents',"Midsummer Fire Festival", "Emmaleah", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ;The original guide was written by Xicon, who gave permission for it to be coded into Tour Guide form, and was coded and modified by Jiyambi. This newest revision(2011) added Northrend and Cataclysm, and other changes to bring it into our current Wow-Pro format.

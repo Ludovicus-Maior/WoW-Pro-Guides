@@ -4,13 +4,33 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2014-05-27 20:10
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "38,43".
+
+-- URL: http://wow-pro.com/node/3253/revisions/26251/view
+-- Date: 2014-05-25 23:03
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3253/revisions/26079/view
+-- Date: 2014-05-18 21:52
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3253/revisions/25975/view
+-- Date: 2014-05-14 22:30
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3253/revisions/25594/view
 -- Date: 2013-03-23 20:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name tweak
 
 -- URL: http://wow-pro.com/node/3253/revisions/25427/view
 -- Date: 2013-01-13 15:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3253/revisions/24593/view
@@ -24,7 +44,7 @@
 
 -- URL: http://wow-pro.com/node/3253/revisions/24459/view
 -- Date: 2011-05-30 17:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 129 for step R has 1 M coords: [R The Admiral's Den|M|25627|M|92.02,83.23|N|Head to the cave that is The Admiral's Den.|]
 
 -- URL: http://wow-pro.com/node/3253/revisions/24423/view
@@ -34,12 +54,12 @@
 
 -- URL: http://wow-pro.com/node/3253/revisions/24302/view
 -- Date: 2011-04-29 14:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 78 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 82 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 89 for step A has unknown tag [Heads-up Accept].
 
 -- URL: http://wow-pro.com/node/3253/revisions/24086/view
 -- Date: 2011-01-30 19:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide line to match GIT
 
 -- URL: http://wow-pro.com/node/3253/revisions/23974/view
@@ -87,7 +107,11 @@
 -- Date: 2010-12-03 11:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjTho4045', 'Thousand Needles', 'Wkjezz', '40', '45', 'WkjTan4550', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjTho4045', "Leveling", 'Thousand Needles', 'Wkjezz', 'Alliance')
+WoWPro:GuideLevels(guide,38,43)
+WoWPro:GuideNextGuide(guide, 'WkjTan4550')
+WoWPro:GuideIcon(guide,"ACH",4938)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F New Thalanaar|QID|28503|N|If you already know how to get to New Thalanaar, and if your level isn't too high, you can take Hero's Call: Thousand Needles! from Darnassus or The Exodar.|Z|Feralas|M|86,45.2|

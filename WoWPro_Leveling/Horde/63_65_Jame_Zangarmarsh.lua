@@ -4,13 +4,32 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2014-06-02 15:20
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3274/revisions/26269/view
+-- Date: 2014-05-26 00:36
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3274/revisions/26145/view
+-- Date: 2014-05-20 19:36
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3274/revisions/26012/view
+-- Date: 2014-05-16 21:11
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3274/revisions/25573/view
 -- Date: 2013-03-23 18:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected name of [Keep Thornfang Hill Clear!]
 
 -- URL: http://wow-pro.com/node/3274/revisions/25467/view
 -- Date: 2013-01-13 19:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3274/revisions/24867/view
@@ -25,7 +44,7 @@
 
 -- URL: http://wow-pro.com/node/3274/revisions/24241/view
 -- Date: 2011-04-20 18:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3274/revisions/23430/view
 -- Date: 2010-12-03 12:13
@@ -35,7 +54,11 @@
 -- Date: 2010-12-03 12:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "63", "65", "JamTer6567", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamZan6365", "Leveling", "Zangarmarsh", "Jame", "Horde")
+WoWPro:GuideLevels(guide,59 ,62, 60.6108)
+WoWPro:GuideNextGuide(guide, "JamTer6567")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Swamprat Post|QID|9775|N|Fly to Swamprat Post.|

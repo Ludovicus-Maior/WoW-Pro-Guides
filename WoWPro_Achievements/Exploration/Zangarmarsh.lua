@@ -4,10 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_outland
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(863) -  Zangarmarsh
+-- Date: 2014-05-28 21:35
+-- Who: Ludovicus
+-- Log: Converted
 
-WoWPro.Achievements:RegisterGuide("KabExpZan","Zangarmarsh","Zangarmarsh","Exploration", "Outland", "Kaboca", "Neutral", function()
+-- URL: http://wow-pro.com/node/3577/revisions/26379/view
+-- Date: 2014-05-28 21:25
+-- Who: Ludovicus
+-- Log: Initial Cut!
+
+local guide = WoWPro:RegisterGuide("KabExpZan","Achievements","Zangarmarsh","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",863)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Umbrafen Village|QID|908630011|M|82.1,81.9|ACH|863;11|
 F Darkcrest Shore|QID|908630018|M|70.5,81.1|ACH|863;18|

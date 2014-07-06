@@ -4,13 +4,38 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2014-06-04 20:14
+-- Who: Ludovicus
+-- Log: Added mean
+
+-- URL: http://wow-pro.com/node/3233/revisions/26351/view
+-- Date: 2014-05-27 20:41
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "23,27".
+
+-- URL: http://wow-pro.com/node/3233/revisions/26232/view
+-- Date: 2014-05-25 22:49
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3233/revisions/26068/view
+-- Date: 2014-05-18 21:36
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3233/revisions/25967/view
+-- Date: 2014-05-14 22:22
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3233/revisions/25589/view
 -- Date: 2013-03-23 20:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: name cleanups
 
 -- URL: http://wow-pro.com/node/3233/revisions/25377/view
 -- Date: 2013-01-12 19:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3233/revisions/25331/view
@@ -35,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3233/revisions/24087/view
 -- Date: 2011-01-30 19:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide line to match GIT.
 
 -- URL: http://wow-pro.com/node/3233/revisions/23901/view
@@ -56,7 +81,11 @@
 -- Date: 2010-12-03 10:43
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjSton2530', 'Stonetalon Mountains', 'WKjezz', '25', '30', 'WkjDes3035', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjSton2530', "Leveling", 'Stonetalon Mountains', 'WKjezz', 'Alliance')
+WoWPro:GuideLevels(guide,23,27, 25.2466)
+WoWPro:GuideNextGuide(guide, 'WkjDes3035')
+WoWPro:GuideIcon(guide,"ACH",4936)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 24 |N|You need to be Level 24 to work this guide.|QID|25614|LVL|24|

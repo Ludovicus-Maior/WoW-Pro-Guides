@@ -207,7 +207,8 @@ end
 
 function WoWPro.ParseQuestLine(faction,i,text)
 	local GID = WoWProDB.char.currentguide
-	
+	local zone = strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
+		
 	_, _, WoWPro.action[i], WoWPro.step[i] = text:find("^(%a) ([^|]*)(.*)")
 	if (not WoWPro.action[i]) or (not WoWPro.step[i]) then
 	    WoWPro:Error("Line %d in guide %s is badly formatted: \"%s\"\nParsing Halted.",i,GID,text)
@@ -216,6 +217,10 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.step[i] = WoWPro.step[i]:trim()
 	WoWPro.stepcount = WoWPro.stepcount + 1
 	WoWPro.QID[i] = text:match("|QID|([^|]*)|?")
+	if WoWPro.action[i] == "t" then
+	    WoWPro.action[i] = "T"
+	    WoWPro.conditional[i] = true
+	end
 	if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
 	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
 	end
@@ -231,12 +236,12 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	end
 	if text:find("|US|") then WoWPro.unsticky[i] = true end
 	WoWPro.use[i] = text:match("|U|([^|]*)|?")
-	WoWPro.zone[i] = text:match("|Z|([^|]*)|?")
-	if WoWPro.zone[i] and not WoWPro:ValidZone(WoWPro.zone[i]) and false then
-		local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,GID,text)
-        WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
-        table.insert(WoWProDB.global.ZoneErrors, line)
-	    WoWPro:Error("Invalid Z tag in:"..text)
+	WoWPro.zone[i] = text:match("|Z|([^|]*)|?") or (WoWPro.map[i] and zone)
+	if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
+--		local line =string.format("Vers=%s|Guide=%s|Line=%s",WoWPro.Version,GID,text)
+--        WoWProDB.global.ZoneErrors = WoWProDB.global.ZoneErrors or {}
+--        table.insert(WoWProDB.global.ZoneErrors, line)
+	    WoWPro:Error("Step %s [%s] has a bad Z||%s|| tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
 	    WoWPro.zone[i] = nil
 	end
 	_, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("|L|(%d+)%s?(%d*)|")
@@ -271,7 +276,29 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	end
 	if text:find("|NC|") then WoWPro.noncombat[i] = true end
 	if text:find("|CHAT|") then WoWPro.chat[i] = true end
-	WoWPro.level[i] = text:match("|LVL|([^|]*)|?") or WoWPro:GrailQuestLevel(WoWPro.QID[i])
+	local gql = WoWPro:GrailQuestLevel(WoWPro.QID[i])
+	if WoWPro.DebugLevel > 0 and gql and tonumber(WoWPro.QID[i]) and tonumber(WoWPro.QID[i]) < 100000 then
+	    if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel > 1 and tonumber(gql) < (WoWPro.Guides[GID].startlevel / 2) then
+	        WoWPro:Warning("Guide %s QID %s is level %s?",GID,WoWPro.QID[i],gql)
+	        gql = "0"
+	    end
+	    if tonumber(gql) < 1 then
+	        WoWPro:Warning("Guide %s QID %s is level %s!",GID,WoWPro.QID[i],gql)
+	    else
+	        gql = tonumber(gql)
+	        if WoWPro.Guides[GID].startlevel and gql < tonumber(WoWPro.Guides[GID].startlevel) then
+	              WoWPro:Warning("Guide %s QID %s is level %s!??",GID,WoWPro.QID[i],gql)
+	        end
+	        if WoWPro.Guides[GID].endlevel and gql > tonumber(WoWPro.Guides[GID].endlevel) then
+	              WoWPro:Warning("Guide %s QID %s is level %s!??",GID,WoWPro.QID[i],gql)
+	        end
+	        WoWPro.Guides[GID].amax_level = max(WoWPro.Guides[GID].amax_level,gql)
+	        WoWPro.Guides[GID].amin_level = min(WoWPro.Guides[GID].amin_level,gql)
+	        WoWPro.Guides[GID].asum_level = WoWPro.Guides[GID].asum_level + gql
+	        WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
+	    end
+	end
+	WoWPro.level[i] = text:match("|LVL|([^|]*)|?") or gql
 	WoWPro.leadin[i] = text:match("|LEAD|([^|]*)|?")
 	WoWPro.active[i] = text:match("|ACTIVE|([^|]*)|?")
 	WoWPro.target[i] = text:match("|T|([^|]*)|?")
@@ -283,6 +310,9 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.ach[i] = text:match("|ACH|([^|]*)|?")
 	WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
 	WoWPro.recipe[i] = text:match("|RECIPE|([^|]*)|?")
+	WoWPro.pet[i] = text:match("|PET|([^|]*)|?")
+	WoWPro.gossip[i] = text:match("|QG|([^|]*)|?")
+	if WoWPro.gossip[i] then WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end
 	WoWPro.why[i] = "I dunno."
 
     -- If the step is "Achievement" use the name and description from the server ...
@@ -324,6 +354,12 @@ function WoWPro:ParseSteps(steps)
 	if myrace == "Scourge" then
 		myrace = "Undead"
 	end
+	if WoWPro.DebugLevel > 0 then
+	    WoWPro.Guides[GID].amax_level = -1
+	    WoWPro.Guides[GID].amin_level = 100
+	    WoWPro.Guides[GID].acnt_level = 0
+	    WoWPro.Guides[GID].asum_level = 0 
+	end
 	for j=1,#steps do
 		local text = steps[j]
 		text = text:trim()
@@ -356,7 +392,7 @@ function WoWPro:ParseSteps(steps)
 			if (class == nil or class:find(myclass)) and
 			   (race == nil or race:find(myrace)) and
 			   (gender == nil or gender == UnitSex("player")) and
-			   (faction == nil or myFaction == "NEUTRAL" or faction == myFaction) then
+			   (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
                 WoWPro.ParsingQuestLine = text
 				WoWPro.ParseQuestLine(faction,i,text)
 				WoWPro.ParsingQuestLine = nil
@@ -364,6 +400,20 @@ function WoWPro:ParseSteps(steps)
 			end
 		end
 	end
+	if WoWPro.DebugLevel > 0 then
+	    if WoWPro.Guides[GID].acnt_level > 0 then
+            if WoWPro.Guides[GID].startlevel and WoWPro.Guides[GID].startlevel ~= WoWPro.Guides[GID].amin_level then
+                WoWPro:Warning("Guide %s startlevel=%s, but min_level=%s",GID, WoWPro.Guides[GID].startlevel, WoWPro.Guides[GID].amin_level)
+        	end
+            if WoWPro.Guides[GID].endlevel and WoWPro.Guides[GID].endlevel ~= WoWPro.Guides[GID].amax_level then
+                WoWPro:Warning("Guide %s endlevel=%s, but max_level=%s",GID, WoWPro.Guides[GID].endlevel, WoWPro.Guides[GID].amax_level)
+        	end
+        	local amean_level = WoWPro.Guides[GID].asum_level / WoWPro.Guides[GID].acnt_level
+        	if not WoWPro.Guides[GID].level and WoWPro.Guides[GID].acnt_level > 1 then
+        	    WoWPro:Warning("Guide %s %d/%d meanlevel=%g",GID, WoWPro.Guides[GID].asum_level , WoWPro.Guides[GID].acnt_level, amean_level)
+        	end
+        end
+    end
 end
 	
 -- Guide Load --
@@ -432,11 +482,6 @@ function WoWPro.SetupGuideReal()
 			numQIDs = 0
 		end
 
-        
-        if (not WoWProCharDB.Guide[GID].skipped[i]) and numQIDs > 0 then
-            WoWProCharDB.Guide[GID].completion[i] = false
-            WoWPro.why[i] = "UnCompleted by WoWPro:LoadGuideSteps() because quest was not skipped."
-        end
 		for j=1,numQIDs do
 			local QID = nil
 			local qid
@@ -471,7 +516,7 @@ function WoWPro.SetupGuideReal()
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
 	
 	WoWPro.GuideLoaded = true
-	
+	WoWPro:AutoCompleteQuestUpdate(nil)
 	WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
 end
 

@@ -4,13 +4,33 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2014-05-30 15:21
+-- Who: Ludovicus
+-- Log: Level Adjust
+
+-- URL: http://wow-pro.com/node/3289/revisions/26281/view
+-- Date: 2014-05-26 01:00
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3289/revisions/26167/view
+-- Date: 2014-05-20 19:58
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3289/revisions/25987/view
+-- Date: 2014-05-14 22:42
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3289/revisions/25626/view
 -- Date: 2013-05-14 15:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected name of [Military?  What Military?]
 
 -- URL: http://wow-pro.com/node/3289/revisions/25366/view
 -- Date: 2013-01-12 18:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CC tags
 
 -- URL: http://wow-pro.com/node/3289/revisions/25038/view
@@ -20,12 +40,12 @@
 
 -- URL: http://wow-pro.com/node/3289/revisions/25002/view
 -- Date: 2012-06-08 14:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct P tag for cooking quest note.
 
 -- URL: http://wow-pro.com/node/3289/revisions/24938/view
 -- Date: 2012-02-05 14:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name corrections
 
 -- URL: http://wow-pro.com/node/3289/revisions/24856/view
@@ -96,7 +116,11 @@
 -- Date: 2010-12-03 22:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamBor6872", "Borean Tundra", "Jame", "68", "72", "JamHow7274", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamBor6872", "Leveling", "Borean Tundra", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,65,70,68.4946)
+WoWPro:GuideNextGuide(guide, "JamHow7274")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 B Overcharged Capacitor |QID|11650|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest pays out 4g70s and 20k XP and leads to two further quests each worth the same (and one with a 2-3g green reward), so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|M|62.9,71.7|Z|Stormwind City|

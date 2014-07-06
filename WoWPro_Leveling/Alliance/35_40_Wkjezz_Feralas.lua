@@ -4,8 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2014-05-27 21:20
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "31,38".
+
+-- URL: http://wow-pro.com/node/3243/revisions/26242/view
+-- Date: 2014-05-25 22:57
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3243/revisions/26066/view
+-- Date: 2014-05-18 21:32
+-- Who: Ludovicus
+-- Log: Added icon.
+
+-- URL: http://wow-pro.com/node/3243/revisions/25974/view
+-- Date: 2014-05-14 22:29
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3243/revisions/25428/view
 -- Date: 2013-01-13 15:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3243/revisions/24549/view
@@ -31,7 +51,11 @@
 -- Date: 2010-12-03 11:20
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjFer3540', 'Feralas', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjFer3540', "Leveling", 'Feralas', 'WKjezz', 'Alliance')
+WoWPro:GuideLevels(guide,31,38)
+WoWPro:GuideNextGuide(guide, 'WkjTho4045')
+WoWPro:GuideIcon(guide,"ACH",4932)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Feralas|QID|14410|M|42.81,97.92|Z|Desolace|N|Run to Feralas.|

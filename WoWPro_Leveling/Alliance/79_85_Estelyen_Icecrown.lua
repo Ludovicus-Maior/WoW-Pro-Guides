@@ -4,8 +4,33 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2014-05-30 12:23
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3301/revisions/26347/view
+-- Date: 2014-05-27 20:32
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "79,85" to "0,77".
+
+-- URL: http://wow-pro.com/node/3301/revisions/26291/view
+-- Date: 2014-05-26 01:11
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3301/revisions/26163/view
+-- Date: 2014-05-20 19:54
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3301/revisions/25993/view
+-- Date: 2014-05-14 22:48
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3301/revisions/25443/view
 -- Date: 2013-01-13 16:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: corrected CN
 
 -- URL: http://wow-pro.com/node/3301/revisions/25383/view
@@ -24,27 +49,27 @@
 
 -- URL: http://wow-pro.com/node/3301/revisions/24618/view
 -- Date: 2011-06-27 22:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ZoneError|Vers=2.1.16|Guide=EstIce7985|Line=A The Boon of A'dal|QID|13082|N|From A'dal.|Z|Shattrath City.|
 
 -- URL: http://wow-pro.com/node/3301/revisions/24531/view
 -- Date: 2011-06-08 03:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct Successor
 
 -- URL: http://wow-pro.com/node/3301/revisions/24312/view
 -- Date: 2011-04-29 15:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 65 for step A has unknown tag [82.80,72.80], Line 238 for step C has 3 M coords, Line 273 for step A has 3 M coords, Line 276 for step T has 3 M coords, Line 296 for step C has 1 M coords, Line 479 for step C Bad coord 58.o99.
 
 -- URL: http://wow-pro.com/node/3301/revisions/24236/view
 -- Date: 2011-04-19 17:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coordinate Corrections. Breakout of objectives around [The Vile Hold]
 
 -- URL: http://wow-pro.com/node/3301/revisions/24225/view
 -- Date: 2011-04-05 23:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3301/revisions/24106/view
 -- Date: 2011-02-08 12:49
@@ -63,7 +88,11 @@
 -- Date: 2010-12-03 22:35
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("EstIce7985", "Icecrown", "Estelyen", "79", "85", "Arihyj8082", "Alliance", function()
+local guide = WoWPro:RegisterGuide("EstIce7985", "Leveling", "Icecrown", "Estelyen", "Alliance")
+WoWPro:GuideLevels(guide,77,77,77)
+WoWPro:GuideNextGuide(guide, "Arihyj8082")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|
 A Preparations for War|QID|13418|N|From Officer Van Rossem on Krasus Landing in Dalaran.|Z|Dalaran|M|68.80,46.60|

@@ -4,18 +4,47 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2014-05-30 15:33
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3488/revisions/26402/view
+-- Date: 2014-05-30 12:17
+-- Who: Ludovicus
+-- Log: Level Adjustment
+
+-- URL: http://wow-pro.com/node/3488/revisions/26339/view
+-- Date: 2014-05-27 20:12
+-- Who: Ludovicus
+-- Log: End Level corrected from 0 to 87.
+
+-- URL: http://wow-pro.com/node/3488/revisions/26303/view
+-- Date: 2014-05-26 01:23
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3488/revisions/26111/view
+-- Date: 2014-05-18 22:44
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3488/revisions/25997/view
+-- Date: 2014-05-14 22:52
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3488/revisions/25763/view
 -- Date: 2013-09-17 14:18
 -- Who: Fluclo
 -- Log: Fix QID on initial step, and added Level step at beginning of guide.
 
 -- URL: http://wow-pro.com/node/3488/revisions/25722/view
 -- Date: 2013-06-18 01:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 31410's name [Booties] does not match Grail's database [Equipment Locker].
 
 -- URL: http://wow-pro.com/node/3488/revisions/25671/view
 -- Date: 2013-05-17 19:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Misplaced |M| on Materia Medica.
 
 -- URL: http://wow-pro.com/node/3488/revisions/25391/view
@@ -45,7 +74,7 @@
 
 -- URL: http://wow-pro.com/node/3488/revisions/25214/view
 -- Date: 2012-11-24 21:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played through and tweaked all over.  One toon found the bugs, the second tested the fixes!
 
 -- URL: http://wow-pro.com/node/3488/revisions/25200/view
@@ -55,22 +84,22 @@
 
 -- URL: http://wow-pro.com/node/3488/revisions/25172/view
 -- Date: 2012-10-27 20:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: OK, next set of coordinate corrections, text mods, et al
 
 -- URL: http://wow-pro.com/node/3488/revisions/25171/view
 -- Date: 2012-10-27 16:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord fine tuning and occasional syntax fixes and duplicate step removals.
 
 -- URL: http://wow-pro.com/node/3488/revisions/25122/view
 -- Date: 2012-10-07 23:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Alliance/87_88_Rajitazi_KrasarangWilds.lua with minor tweaks by ludo
 
 -- URL: http://wow-pro.com/node/3488/revisions/25079/view
 -- Date: 2012-09-24 22:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/f25104bceccdf3d7adfe58ec2beaffdbabe4af07/WoWPro_Leveling/Alliance/87_88_Rajitazi_KrasarangWilds.lua 
 
 -- URL: http://wow-pro.com/node/3488/revisions/25062/view
@@ -80,15 +109,19 @@
 
 -- URL: http://wow-pro.com/node/3488/revisions/25054/view
 -- Date: 2012-08-28 19:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: update urls
 
 -- URL: http://wow-pro.com/node/3488/revisions/25053/view
 -- Date: 2012-08-28 19:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-WoWPro.Leveling:RegisterGuide('RajKra8788', 'Krasarang Wilds', 'Rajitazi', '87', '88', 'EmmKun8889', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('RajKra8788', "Leveling", 'Krasarang Wilds', 'Rajitazi', 'Alliance')
+WoWPro:GuideLevels(guide,86,87,84.5738)
+WoWPro:GuideNextGuide(guide, 'EmmKun8889')
+WoWPro:GuideIcon(guide,"ACH",6975)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 86 |QID|30080|LVL|86|N|You need to be Level 86 to do this guide.|

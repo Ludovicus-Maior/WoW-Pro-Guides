@@ -4,10 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_outland
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(843) - Netherstorm
+-- Date: 2014-05-28 21:35
+-- Who: Ludovicus
+-- Log: Converted
 
-WoWPro.Achievements:RegisterGuide("KabExpNet","Netherstorm","Netherstorm","Exploration", "Outland", "Kaboca", "Neutral", function()
+-- URL: http://wow-pro.com/node/3577/revisions/26379/view
+-- Date: 2014-05-28 21:25
+-- Who: Ludovicus
+-- Log: Initial Cut!
+
+local guide = WoWPro:RegisterGuide("KabExpNet","Achievements","Netherstorm","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",843)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F The Heap|QID|908430009|M|31.2,76.1|ACH|843;9|
 F Manaforge B'naar|QID|908430002|M|24.6,66.5|ACH|843;2|

@@ -4,13 +4,44 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2014-05-30 15:26
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3486/revisions/26354/view
+-- Date: 2014-05-27 20:45
+-- Who: Ludovicus
+-- Log: End Level corrected from 0 to 86.
+
+-- URL: http://wow-pro.com/node/3486/revisions/26300/view
+-- Date: 2014-05-26 01:18
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3486/revisions/26116/view
+-- Date: 2014-05-18 22:55
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3486/revisions/25996/view
+-- Date: 2014-05-14 22:51
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25940/view
+-- Date: 2014-04-21 08:48
+-- Who: Hendo72
+-- Log: - Added 'Restore Balance' achievement. Considering adding a rank command for achievement steps.
+--	- Corrected several typos I found.
+
+-- URL: http://wow-pro.com/node/3486/revisions/25835/view
 -- Date: 2013-12-11 01:38
 -- Who: Fluclo
 -- Log: Added QID to Welcome message. Added guide level requirement.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25770/view
 -- Date: 2013-10-02 12:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed glassfin village as per Blanckaert. 
 
 -- URL: http://wow-pro.com/node/3486/revisions/25726/view
@@ -20,7 +51,7 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25394/view
 -- Date: 2013-01-12 22:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3486/revisions/25339/view
@@ -30,7 +61,7 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25204/view
 -- Date: 2012-11-12 23:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweak Zhi-Zhi fight and turnin.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25197/view
@@ -45,12 +76,12 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25146/view
 -- Date: 2012-10-20 22:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: More coord tweaks, spelling corrections, more QO's and glitch warnings.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25141/view
 -- Date: 2012-10-13 21:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lots of coord edits, paths to places and a few spell/quest corrections.
 --	Added more QO tags and corrected a few syntax errors.
 
@@ -76,18 +107,18 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25104/view
 -- Date: 2012-10-03 20:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Change the start of the guide to add proper coords; tweak a few comments in the harbor; switch around the completions for Twinspire Towers to make it easier to complete.  Oh, and spelling errors.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25099/view
 -- Date: 2012-10-02 01:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Emmaleah: added quest A An error of worry, and lots of tweaks
 --	Ludovicus: edited corrections to eliminate syntax errors and odd spellings. Manual merge.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25097/view
 -- Date: 2012-10-02 00:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Ennakeah: Added quest per comments.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25095/view
@@ -105,32 +136,36 @@
 
 -- URL: http://wow-pro.com/node/3486/revisions/25089/view
 -- Date: 2012-09-25 00:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3486/revisions/25084/view
 -- Date: 2012-09-24 23:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Twinspire Keep is not a valid zone. Green is not spelt gree!
 
 -- URL: http://wow-pro.com/node/3486/revisions/25058/view
 -- Date: 2012-08-28 19:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Laotseu 6 days ago Play testing the Alliance The Jade Forest guide. 
 
 -- URL: http://wow-pro.com/node/3486/revisions/25050/view
 -- Date: 2012-08-28 19:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fix url references.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25049/view
 -- Date: 2012-08-28 19:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-WoWPro.Leveling:RegisterGuide('RajJad8586', 'The Jade Forest', 'Rajitazi', '85', '86', 'EmmVal8688', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')
+WoWPro:GuideLevels(guide,85,86,84.8282)
+WoWPro:GuideNextGuide(guide, 'EmmVal8688')
+WoWPro:GuideIcon(guide,"ACH",6351)
+WoWPro:GuideSteps(guide, function()
 return [[
 
-L Level 85 |QID|29547|LVL|85|N|You need to be Level 85 to do this guide.|
+L Level 85 |QID|29547|LVL|85|N|You need to be Level 85 to do this guide as the first quest is a must!|
 N Welcome to Pandaria|QID|29547|N|Head to Stormwind. Don't forget to train your trade-skills before you leave Stormwind, the new trainers are not available immediately upon arriving in Pandaria.\n\nCheck off this step to continue the guide.|
 
 A The King's Command|QID|29547|N|Autogiven upon entering Stormwind City.|
@@ -144,7 +179,7 @@ T The Mission|QID|29548|M|42.04,92.75|N|To Sky Admiral Rogers.|
 A Unleash Hell|QID|31732|M|42.04,92.75|N|From Sky Admiral Rogers.|
 F Garrosh'ar Point|QID|31732|M|42.00,92.54|N|Board the Skyfire Gyrocopter located further along the deck.|
 C Unleash Hell|QID|31732|M|42.02,92.51|N|Your UI will shortly change to have just one option, button #1 will fire Torpedo Rocket.  Aim at the Garrosh'ar Shredder and Horde Grunts until you have killed the required number.|QO|Garrosh'ar Shredder slain: 8/8|
-C Unleash Hell|QID|31732|M|42.02,92.51|N|Continue with the Torpedo Rockets, killing the Horde Grunts unti you have killed the required number of horde.|QO|Garrosh'ar Horde slain: 60/60|
+C Unleash Hell|QID|31732|M|42.02,92.51|N|Continue with the Torpedo Rockets, killing the Horde Grunts until you have killed the required number of horde.|QO|Garrosh'ar Horde slain: 60/60|
 C Unleash Hell|QID|31732|M|42.02,92.51|N|You will now be transported to the Bladefist Reaper.  Sink it with a Torpedo Rocket.|QO|Bladefist Reaper sunk: 1/1|
 C Unleash Hell|QID|31732|M|42.02,92.51|N|You will now be transported to the Stygian Scar.  Sink it with a Torpedo Rocket.|QO|Stygian Scar sunk: 1/1|
 C Unleash Hell|QID|31732|M|42.02,92.51|N|Kill the required targets with the Torpedo Rocket on your Skyfire Gyrocopter.|
@@ -188,7 +223,7 @@ h Paw'don Village|M|44.9,84.4|N|Consider setting your hearthstone to Paw'don Vil
 
 C Pillaging Peons|QID|31738|S|M|42.08,87.83|N|Kill the Peons.  The Taskmasters also count towards this quest.|
 C Critical Condition|QID|29552|S|NC|M|42.64,87.62|N|Right-click on the wounded soldiers to heal them.|
-C Priorities!|QID|31739|NC|M|43.62,88.27|N|Click on the applebloom cider barels and let Teng Applebloom pick them up. It's quite impressive to see him carry them all!|
+C Priorities!|QID|31739|NC|M|43.62,88.27|N|Click on the Applebloom cider barrels and let Teng Applebloom pick them up. It's quite impressive to see him carry them all!|
 
 T Priorities!|QID|31739|M|39.56,90.09|N|To Lin Applebloom on an island to the west of the Glade.|
 A Koukou's Rampage|QID|31740|M|39.56,90.09|N|From Lin Applebloom.|
@@ -212,16 +247,16 @@ R Twinspire Keep|QID|31741|M|44.91,83.64;43.66,84.73;42.67,85.23;41.49,83.33|CS|
 
 C Twinspire Keep|QID|31741|S|M|42.30,79.63|
 C Unfair Trade|QID|31744|S|M|40.12,81.90|N|Kill the green demonic eyeballs to free the cubs.  There are LOTS.|
-C Bomb the Wild Imps|QID|31743|U|89602|QO|Wild Imps bombed: 1/1|M|43.3,81.5|N|Use the flare to call an arial strike|; Twinspire Keep
-C Bomb the Twinspire munitions stockpile|QID|31743|U|89602|QO|Twinspire munitions stockpile bombed: 1/1|M|40.6,82.4|N|Use the flare to call an arial strike|; Twinspire Keep
-C Bomb Xhu'daggab|QID|31743|U|89602|QO|Xhu'daggab bombed: 1/1|M|40.3,82.0|N|Use the flare to call an arial strike|; Twinspire Keep
-C Bomb the Twinspire Demolishers|QID|31743|U|89602|QO|Twinspire Demolishers bombed: 1/1|M|41.2,81.4|N|Use the flare to call an arial strike|; Twinspire Keep
+C Bomb the Wild Imps|QID|31743|U|89602|QO|Wild Imps bombed: 1/1|M|43.3,81.5|N|Use the flare to call an aerial strike|; Twinspire Keep
+C Bomb the Twinspire munitions stockpile|QID|31743|U|89602|QO|Twinspire munitions stockpile bombed: 1/1|M|40.6,82.4|N|Use the flare to call an aerial strike|; Twinspire Keep
+C Bomb Xhu'daggab|QID|31743|U|89602|QO|Xhu'daggab bombed: 1/1|M|40.3,82.0|N|Use the flare to call an aerial strike|; Twinspire Keep
+C Bomb the Twinspire Demolishers|QID|31743|U|89602|QO|Twinspire Demolishers bombed: 1/1|M|41.2,81.4|N|Use the flare to call an aerial strike|; Twinspire Keep
 K Bellandra Felstorm|QID|31742|T|Bellandra Felstorm|QO|Bellandra Felstorm slain: 1/1|M|41.7,80.2|; Twinspire Keep
 K Dalgan slain|QID|31742|T|Dalgan|QO|Dalgan slain: 1/1|M|41.0,80.2|; Twinspire Keep
-C Unfair Trade|QID|31744|US|M|40.3,82.0|N|Kill the green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coord
+C Unfair Trade|QID|31744|US|M|40.3,82.0|N|Kill the green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coords
 C Twinspire Keep|QID|31741|US|M|41.6,81.3|; Twinspire Keep
 
-C Unfair Trade|QID|31744|M|40.3,82.0|N|Kill the remaining green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coord
+C Unfair Trade|QID|31744|M|40.3,82.0|N|Kill the remaining green demonic eyeballs to free the cubs|; Twinspire Keep - Need better coords
 C Twinspire Keep|QID|31741|M|41.6,81.3|N|You have been sneaky and avoided killing the horde.  Go down and take care of this!|; Twinspire Keep
 
 T Twinspire Keep|QID|31741|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
@@ -263,7 +298,7 @@ T Freeing Our Brothers|QID|29559|M|54.15,82.42|N|To Bold Karasshi.|
 T Ancient Power|QID|29560|M|54.15,82.42|N|To Bold Karasshi.|
 A Kung Din|QID|29759|PRE|29558,29559,29560|M|54.15,82.42|N|From Bold Karasshi.|
 
-K Kung Din|QID|29759|T|Kung Din|M|54.56,79.99|N|Two phase fight, swiches between normal fighting and Vehicle UI where you need to press 1 to "hang on for life".  Remember the Key!|L|79753|
+K Kung Din|QID|29759|T|Kung Din|M|54.56,79.99|N|Two phase fight, switches between normal fighting and Vehicle UI where you need to press 1 to "hang on for life".  Remember the Key!|L|79753|
 
 T Kung Din|QID|29759|M|54.15,82.42|N|To Bold Karasshi.|
 A Jailbreak|QID|29562|PRE|29759|M|54.15,82.42|N|From Bold Karasshi.|
@@ -360,7 +395,7 @@ T Hue|QID|29893|M|53.78,90.63|N|To Lorewalker Cho.|
 A Finding Your Center|QID|29890|M|53.75,90.67|N|From Lorewalker Cho.|
 C Finding Your Center|QID|29890|M|54.57,91.88|N|Keep the bar from 25 to 75.  If it hits either extreme, you fail.|
 
-R Den of Sorrow|QID|29890|M|59.23,87.96;60.19,83.42;61.88,81.98;62.21,82.64;65.18,79.27;65.90,79.29|CS|N|Run back to Pealfin Village and then take the path in your vision.|
+R Den of Sorrow|QID|29890|M|59.23,87.96;60.19,83.42;61.88,81.98;62.21,82.64;65.18,79.27;65.90,79.29|CS|N|Run back to Pearlfin Village and then take the path in your vision.|
 T Finding Your Center|QID|29890|M|65.90,79.29|N|To Anduin Wrynn.|
 A Sacred Waters|QID|29898|M|65.90,79.29|N|From Anduin Wrynn.|
 A Rest in Peace|QID|29899|M|65.98,79.30|N|From Ren Whitepaw.|
@@ -381,7 +416,7 @@ T Rest in Peace|QID|29899|M|65.98,79.30|N|To Ren Whitepaw.|
 T An Ancient Legend|QID|29900|M|65.94,79.22|N|To Ren Whitepaw.|
 A Anduin's Decision|QID|29901|M|65.94,79.22|N|From Ren Whitepaw.|
 C Anduin's Decision|QID|29901|NC|M|65.91,79.24|N|Talk to Anduin and learn of his decision in case you didn't guess it already.|
-T Anduin's Decision|QID|29901|M|58.87,81.68|N|To Admiral Taylor, back in *Perlfin Villiage*.|
+T Anduin's Decision|QID|29901|M|58.87,81.68|N|To Admiral Taylor, back in *Pearlfin Village*.|
 A In Search of Wisdom|QID|29922|M|58.1,80.6|N|From Elder Lusshan.|
 
 C In Search of Wisdom|QID|29922|NC|M|57.95,82.52|N|Speak to Kitemaster Ut-Nam and have him send you to Dawn's Blossom|
@@ -465,12 +500,12 @@ C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart.|
 T What's Mined Is Yours|QID|29930|M|50.94,27.03|N|To Foreman Mann.|
 T Calamity Jade|QID|29926|M|50.94,27.03|N|From Foreman Mann.|
 A The Serpent's Heart|QID|29931|M|50.94,27.03|N|From Foreman Mann.|
-N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailys. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|
+N If you are into exploring... |N|...this is as close to Sri-La Village as you are going to get in this guide. skip the next step if you don't want to go there, no quests there except lvl 90 dailies. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|
 f Sri-La Village|QID|29670|M|55.44,23.73|N|At Gingo Alebottom.|
 
 R Wood of the Lost|QID|29745|M|48.64,24.91|CC|
 A The Sprites' Plight|QID|29745|M|48.64,24.91|N|From Outcast Sprite.|
-C The Sprites' Plight|QID|29745|M|48.92,20.40|N|Avoid AOE attacks or the sprites will turn on you!|
+C The Sprites' Plight|QID|29745|M|48.92,20.40|N|Avoid AoE attacks or the sprites will turn on you!|
 T The Sprites' Plight|QID|29745|N|To UI Alert.|
 A Break the Cycle|QID|29747|N|From UI Alert.|
 A Simulacrumble|QID|29748|M|48.61,20.65|N|From Shattered Destroyer.|
@@ -508,10 +543,10 @@ A To Bridge Earth and Sky|QID|29754|M|44.26,15.04|N|From Pei-Zhi.|
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
 A Pei-Back|QID|29755|M|43.74,12.70|From UI Alert.|
-C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get seperated from your body, you need to run back and click on it to rejoin it, then try to inturupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
+C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get separated from your body, you need to run back and click on it to rejoin it, then try to interrupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
 
-R Tian Monestary|QID|29617|CS|M|42.13,12.67;37.21,14.23;36.93,18.50;37.98,18.40;38.26,24.32|N|Mount up and run along the edge of the mountains to get to the road in Waxwood and then head to the Monestary|
+R Tian Monastery|QID|29617|CS|M|42.13,12.67;37.21,14.23;36.93,18.50;37.98,18.40;38.26,24.32|N|Mount up and run along the edge of the mountains to get to the road in Waxwood and then head to the Monastery|
 T Tian Monastery |QID|29617|M|45.00,24.94|N|To Lin Tenderpaw.|
 A The High Elder|QID|29618|M|44.98,25.02|N|From Lin Tenderpaw.|
 T The High Elder|QID|29618|M|45.23,25.08|N|To High Elder Cloudfall, upstairs in the temple.|
@@ -570,7 +605,7 @@ A Perfection|QID|29623|M|41.60,28.33|N|From Instructor Xann.|
 C Perfection|QID|29623|M|41.34,27.52|N|You copy the instructor, when he punches one first forward, press "1", Both arms forward is "2" and both arms back is "3".|
 T Perfection|QID|29623|M|41.60,28.33|N|To Instructor Xann.|
 A Attention|QID|29624|M|41.60,28.33|N|From Instructor Xann.|
-C Attention|QID|29624|M|41.11,26.98|N|Attack the right or left bag based on the yellow text in the middle of your screen.\nMake sure you face the side of the pole with the yellow marker and avoid AOE attacks.|
+C Attention|QID|29624|M|41.11,26.98|N|Attack the right or left bag based on the yellow text in the middle of your screen.\nMake sure you face the side of the pole with the yellow marker and avoid AoE attacks.|
 T Attention|QID|29624|M|41.60,28.33|N|To Instructor Xann.|
 
 C Husshun, the Wizened|QID|29634|M|44.54,24.08|N|Challenge him to a match beyond the bell.|QO|Husshun defeated: 1/1|
@@ -586,7 +621,9 @@ T The Rumpus|QID|29637|M|38.96,24.04|N|To Instructor Myang.|
 A Flying Colors|QID|29647|M|43.27,24.75|N|From Instructor Myang.|
 T Flying Colors|QID|29647|M|42.74,23.17|N|To High Elder Cloudfall.|
 
-R The First Monks|QID|968580003|M|38.1,35.7;39.6,33.6;35.74, 30.46|CS|ACH|6858;3|N|Exploration>What is Worth Fighting For.|
+R Restore Balance|QID|7381|M|37.5,34.0;33.94,32.27;32.74,34.0;34.09,33.52|CS|ACH|7381|N|Exploration > Restore Balance\nWalk up the path the top of Shrine of Fellowship and click on the Broken Incense Burner to complete the achievement.|
+
+R The First Monks|QID|968580003|M|38.1,35.7;39.6,33.6;35.74, 30.46|CS|ACH|6858;3|N|Exploration>What is Worth Fighting For. \nHead back down the path back to the road and follow the waypoints.|
 
 R Xin Wo Yin the Broken Hearted|QID|972300002|M|37.30, 30.12|ACH|7230;2|N|Exploration>Legend of the Brewfathers.|
 

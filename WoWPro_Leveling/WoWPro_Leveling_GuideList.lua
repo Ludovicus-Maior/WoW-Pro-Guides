@@ -15,9 +15,10 @@ for guidID,guide in pairs(WoWPro.Guides) do
 	    end
 		table.insert(guides, {
 			GID = guidID,
+			guide = guide,
 			Zone = guide.zone,
 			Author = guide.author,
-			Range = "("..guide.startlevel.."-"..guide.endlevel..")",
+			Range = "("..tostring(guide.startlevel).."-"..tostring(guide.endlevel)..")",
 			Progress = progress, 
 			startlevel = guide.startlevel,
 		})
@@ -65,5 +66,22 @@ sorttype = "Default"    -- and reset to Default
 		
 -- Describe the table to the Core Module
 WoWPro.Leveling.GuideList.Format={{"Zone",0.35,zoneSort},{"Range",0.15,rangeSort},{"Author",0.30,authorSort},{"Progress",0.20,nil}}
+
+-- Fancy tooltip!
+function WoWPro.Leveling.GuideTooltipInfo(row, tooltip, guide)
+    WoWPro:Print("GuideTooltipInfo: Entering %s",guide.GID)
+    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    GameTooltip:AddLine(guide.zone)
+    if guide.icon then
+        GameTooltip:AddTexture(guide.icon,1,1,1,1)
+        GameTooltip:AddLine(guide.icon)
+    else
+        GameTooltip:AddTexture("Interface\\Icons\\Ability_DualWield")
+    end
+    GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
+    GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide.level or 0)))
+    GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
+end
+
 
 WoWPro.Leveling:dbp("Guide Setup complete")

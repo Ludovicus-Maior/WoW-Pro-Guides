@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2014-06-10 22:00
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3406/revisions/25734/view
 -- Date: 2013-06-29 23:42
 -- Who: Twists
 -- Log: Add Pandarian Fires
@@ -15,32 +20,32 @@
 
 -- URL: http://wow-pro.com/node/3406/revisions/25025/view
 -- Date: 2012-07-01 20:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Optimize ordering for Northrend.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25024/view
 -- Date: 2012-07-01 20:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected coords for flight to Shattrath in Netherstorm
 
 -- URL: http://wow-pro.com/node/3406/revisions/25023/view
 -- Date: 2012-07-01 20:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Change R step from Vashjir to Darkbreak Cove
 
 -- URL: http://wow-pro.com/node/3406/revisions/25022/view
 -- Date: 2012-07-01 17:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Remove silly comment about setting hearth to stormwind for trip to Deepholm.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25021/view
 -- Date: 2012-07-01 16:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Trim incorrect comment about Cata zones not counting.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25009/view
 -- Date: 2012-06-26 18:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Three way merge of my, Twists and Laotseu's updates.
 
 -- URL: http://wow-pro.com/node/3406/revisions/25008/view
@@ -58,12 +63,12 @@
 
 -- URL: http://wow-pro.com/node/3406/revisions/24680/view
 -- Date: 2011-07-12 23:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: The )end must be on a line by itself.
 
 -- URL: http://wow-pro.com/node/3406/revisions/24653/view
 -- Date: 2011-06-30 22:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3406/revisions/24631/view
 -- Date: 2011-06-30 05:42
@@ -74,7 +79,10 @@
 -- Who: Crackerhead22
 -- Log: Added source code to page.
 
-WoWPro.WorldEvents:RegisterGuide("CraMidSumA","Midsummer Fire Festival (Alliance)","Midsummer Fire Festival (Alliance)","WE", "Crackerhead22", "Alliance", function()
+local guide = WoWPro:RegisterGuide("CraMidSumA",'WorldEvents',"Midsummer Fire Festival", "Crackerhead22", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Wall of Text |QID|11970|N|This guide is geared toward actually completing all the achievements necessary to become a Flame Warden. Check off and skip the extra quests if you just wish to use it as a guide to getting all the bonfires.|

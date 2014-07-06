@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2014-05-27 20:44
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "23,29".
+
+-- URL: http://wow-pro.com/node/3229/revisions/26228/view
+-- Date: 2014-05-25 22:46
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3229/revisions/26104/view
+-- Date: 2014-05-18 22:24
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3229/revisions/25965/view
+-- Date: 2014-05-14 22:20
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3229/revisions/25829/view
 -- Date: 2013-12-02 02:25
 -- Who: Fluclo
 
@@ -14,12 +34,12 @@
 
 -- URL: http://wow-pro.com/node/3229/revisions/25634/view
 -- Date: 2013-05-14 17:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: The [Wanted! XXX] quests are really [Wanted!  XXX]
 
 -- URL: http://wow-pro.com/node/3229/revisions/25393/view
 -- Date: 2013-01-12 22:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3229/revisions/25330/view
@@ -29,7 +49,7 @@
 
 -- URL: http://wow-pro.com/node/3229/revisions/25042/view
 -- Date: 2012-08-08 16:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Zardok points out that Quae and Kinelory|QID|26113 requires lvl 26 to accept and The Stone Shards|QID|26341 requires lvl 27
 
 -- URL: http://wow-pro.com/node/3229/revisions/24534/view
@@ -39,7 +59,7 @@
 
 -- URL: http://wow-pro.com/node/3229/revisions/24296/view
 -- Date: 2011-04-29 14:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 116 for step T has unknown tag [A Attack on the Tower]: [T Trelane's Defenses|QID|26037|M|12.95,69.32|N|To Apprentice Kryten.|A Attack on the Tower|QID|26038|PRE|26037|M|12.95,69.32|N|From Apprentice Kryten.|]
 
 -- URL: http://wow-pro.com/node/3229/revisions/23827/view
@@ -68,7 +88,11 @@
 -- Date: 2010-12-03 10:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitAra2025', 'Arathi Highlands', 'Bitsem', '25', '30', 'CraHin3035', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('BitAra2025', "Leveling", 'Arathi Highlands', 'Bitsem', 'Alliance')
+WoWPro:GuideLevels(guide,23,29)
+WoWPro:GuideNextGuide(guide, 'CraHin3035')
+WoWPro:GuideIcon(guide,"ACH",4896)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 26 |QID|26035|LVL|26|N|This guide is recommended for those Level 26 and over.\n\nIt is possible to start this zone at Level 24 (and the Wetlands feed-in quest is Level 23), however some quests  are best done together and need Level 26 to accept. In addition, getting to the two places where Level 24 quests exists has you going through or near Red Level 29 mobs.|

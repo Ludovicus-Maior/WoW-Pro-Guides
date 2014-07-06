@@ -315,37 +315,71 @@ end
 function WoWPro:DistanceBetweenSteps(i,j)
     if not WoWPro.map[i] then return 1e197 end
     if not WoWPro.map[j] then return 1e196 end
+    local GID = WoWProDB.char.currentguide
+    if WoWProCharDB.Guide[GID].completion[i] and WoWProCharDB.Guide[GID].completion[j] then return 0 end
+    if WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].skipped[j] then return 0 end
+    if WoWProCharDB.Guide[GID].completion[i] and WoWProCharDB.Guide[GID].skipped[j] then return 9e-5 end
+    if WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].completion[j] then return 9e-5 end
     local icoord = select(1, string.split(";", WoWPro.map[i]))
     local jcoord = select(1, string.split(";", WoWPro.map[j]))
     local ix = tonumber(icoord:match("([^|]*),"))/100
     local iy = tonumber(icoord:match(",([^|]*)"))/100
     local jx = tonumber(jcoord:match("([^|]*),"))/100
     local jy = tonumber(jcoord:match(",([^|]*)"))/100
-    local im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
-    local jm = WoWPro.Zone2MapID[WoWPro.zone[j]].mapID
-    local ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
-    local jfl = WoWPro.Zone2MapID[WoWPro.zone[j]].floor or 0
---    WoWPro:Print("Distance between (%2.2f,%2.2f,%d) and (%2.2f,%2.2f,%d)",ix*100,iy*100,im, jx*100,jy*100,jm)
-    local distance = AL:ComputeDistance(im,ifl,ix,iy, jm,jfl,jx,jy)
-    return (distance or 1e198)
+    local im
+    local jm
+    local ifl
+    local jfl 
+    if WoWPro.zone[i]:match("/") then
+        local nzone , floor = string.split("/",WoWPro.zone[i])
+        im = WoWPro.Zone2MapID[nzone].mapID
+        ifl = tonumber(floor)
+    else
+        im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
+        ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
+    end
+    if WoWPro.zone[j]:match("/") then
+        local nzone , floor = string.split("/",WoWPro.zone[j])
+        jm = WoWPro.Zone2MapID[nzone].mapID
+        jfl = tonumber(floor)
+    else
+        jm = WoWPro.Zone2MapID[WoWPro.zone[j]].mapID
+        jfl = WoWPro.Zone2MapID[WoWPro.zone[j]].floor or 0
+    end
+
+    
+    local distance = AL:ComputeDistance(im,ifl,ix,iy, jm,jfl,jx,jy) or 1e198
+    WoWPro:dbp("Dx %s(%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",WoWPro.step[i],ix*100,iy*100,im, WoWPro.step[j],jx*100,jy*100,jm,distance)
+    return distance
 end
 
 function WoWPro:DistanceToStep(i)
     if not WoWPro.map[i] then return 1e200 end
+    local GID = WoWProDB.char.currentguide
+    if WoWProCharDB.Guide[GID].completion[i] then return 1e-6 end
+    if WoWProCharDB.Guide[GID].skipped[i] then return 1e-5 end
     local icoord = select(1, string.split(";", WoWPro.map[i]))
 --    WoWPro:Print("Step %d is at %s/%s",i,tostring(icoord),tostring(WoWPro.zone[i]))
     local ix = tonumber(icoord:match("([^|]*),"))/100
     local iy = tonumber(icoord:match(",([^|]*)"))/100
-    local im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
-    local ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
+    local im
+    local ifl
+    if WoWPro.zone[i]:match("/") then
+        local nzone , floor = string.split("/",WoWPro.zone[i])
+        im = WoWPro.Zone2MapID[nzone].mapID
+        ifl = tonumber(floor)
+    else
+        im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
+        ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
+    end
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
     local x, y = GetPlayerMapPosition("player");
     local m = GetCurrentMapAreaID()
     local f = GetCurrentMapDungeonLevel()
---    WoWPro:Print("Computing distance between (%2.2f,%2.2f,%d) and (%2.2f,%2.2f,%d)",x*100,y*100,m, ix*100,iy*100,im)
-    local distance = AL:ComputeDistance(m,f,x,y, im,ifl,ix,iy)
-
-    return (distance or 1e199)
+    
+    local distance = AL:ComputeDistance(m,f,x,y, im,ifl,ix,iy) or 1e199
+    WoWPro:dbp("IDx (%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",x*100,y*100,m, WoWPro.step[i],ix*100,iy*100,im,distance)
+    return distance
 end    
     
 

@@ -4,10 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_cataclysm
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(4866) - Twilight Highlands
+-- Date: 2014-06-03 22:20
+-- Who: Ludovicus
+-- Log: Modernize the remaining explorations for CATA zones.
 
-WoWPro.Achievements:RegisterGuide("KabExpTwiHi","Twilight Highlands","Twilight Highlands","Exploration", "Cataclysm", "Kaboca", "Neutral", function()
+-- URL: http://wow-pro.com/node/3578/revisions/26382/view
+-- Date: 2014-05-28 21:57
+-- Who: Ludovicus
+-- Log: Initial Cut
+
+local guide = WoWPro:RegisterGuide("KabExpTwiHi","Achievements","Twilight Highlands","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",4866)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Highbank|QID|948660011|M|80.0,75.7|ACH|4866;11|
 F Twilight Shore|QID|948660023|M|77.8,64.8|ACH|4866;23|

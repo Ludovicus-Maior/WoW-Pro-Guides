@@ -4,12 +4,32 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2014-05-27 20:06
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "78,80".
+
+-- URL: http://wow-pro.com/node/3305/revisions/26294/view
+-- Date: 2014-05-26 01:13
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3305/revisions/26121/view
+-- Date: 2014-05-18 23:04
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3305/revisions/25994/view
+-- Date: 2014-05-14 22:49
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3305/revisions/25776/view
 -- Date: 2013-10-17 19:36
 -- Who: Fluclo
 
 -- URL: http://wow-pro.com/node/3305/revisions/25599/view
 -- Date: 2013-03-23 20:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name tweaks
 
 -- URL: http://wow-pro.com/node/3305/revisions/25538/view
@@ -19,7 +39,7 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/25442/view
 -- Date: 2013-01-13 16:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3305/revisions/25392/view
@@ -29,12 +49,12 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/25341/view
 -- Date: 2013-01-11 23:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS,CC and CN tags
 
 -- URL: http://wow-pro.com/node/3305/revisions/25074/view
 -- Date: 2012-09-15 20:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweaked some RANK2's to 1's and corrected some prerequisites so that the guide could be played at RANK1.
 
 -- URL: http://wow-pro.com/node/3305/revisions/24774/view
@@ -54,7 +74,7 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/24532/view
 -- Date: 2011-06-08 03:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct Successor.
 
 -- URL: http://wow-pro.com/node/3305/revisions/24489/view
@@ -69,12 +89,12 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/24466/view
 -- Date: 2011-05-31 21:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Spell Vashj'ir right!
 
 -- URL: http://wow-pro.com/node/3305/revisions/24434/view
 -- Date: 2011-05-28 11:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: PLayed the zone, fixed some text, coords and zones.
 
 -- URL: http://wow-pro.com/node/3305/revisions/24276/view
@@ -93,12 +113,12 @@
 
 -- URL: http://wow-pro.com/node/3305/revisions/24170/view
 -- Date: 2011-03-12 18:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Unique ID
 
 -- URL: http://wow-pro.com/node/3305/revisions/24144/view
 -- Date: 2011-03-06 16:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: A ton of tweaks from geri.
 
 -- URL: http://wow-pro.com/node/3305/revisions/24029/view
@@ -206,23 +226,11 @@
 -- Who: JamesL85
 -- Log: Made some changes to the start of Vashj'ir.
 
--- URL: http://wow-pro.com/node/3305/revisions/23861/view
--- Date: 2010-12-30 08:17
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23800/view
--- Date: 2010-12-20 15:48
--- Who: MagicSN
-
--- URL: http://wow-pro.com/node/3305/revisions/23799/view
--- Date: 2010-12-20 15:39
--- Who: MagicSN
-
--- URL: http://wow-pro.com/node/3305/revisions/23737/view
--- Date: 2010-12-11 15:49
--- Who: Gylin
-
-WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
+WoWPro:GuideLevels(guide,78,80)
+WoWPro:GuideNextGuide(guide, 'AriDee8283')
+WoWPro:GuideIcon(guide,"ACH",4825)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 80 |QID|28825|N|You need to be level 80 or higher to be able to work through this guide.|LVL|80|

@@ -4,13 +4,37 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2014-06-02 15:22
+-- Who: Ludovicus
+-- Log: Ste Levels
+
+-- URL: http://wow-pro.com/node/3280/revisions/26273/view
+-- Date: 2014-05-26 00:41
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3280/revisions/26156/view
+-- Date: 2014-05-20 19:46
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3280/revisions/26010/view
+-- Date: 2014-05-16 21:09
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3280/revisions/25936/view
+-- Date: 2014-04-14 19:41
+-- Who: Ludovicus
+-- Log: Coord tweaks as I played through.  Incomplete.
+
+-- URL: http://wow-pro.com/node/3280/revisions/25469/view
 -- Date: 2013-01-13 19:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3280/revisions/25319/view
 -- Date: 2013-01-09 22:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3280/revisions/24913/view
@@ -29,7 +53,7 @@
 
 -- URL: http://wow-pro.com/node/3280/revisions/24340/view
 -- Date: 2011-04-29 16:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 26 for step A has unknown tag [71.5,40.5]
 
 -- URL: http://wow-pro.com/node/3280/revisions/23449/view
@@ -40,12 +64,16 @@
 -- Date: 2010-12-03 21:35
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamNag6769", "Nagrand", "Jame", "67", "69", "JamBla6970", "Horde", function()
+local guide = WoWPro:RegisterGuide("JamNag6769", "Leveling", "Nagrand", "Jame", "Horde")
+WoWPro:GuideLevels(guide,64 ,68, 64.5882)
+WoWPro:GuideNextGuide(guide, "JamBla6970")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .|Z|Terokkar Forest|M|20,56|
 N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide.|
-C A Head Full of Ivory |QID|9914|N|Kill and loot Elekks. Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|REP|The Consortium;933;Neutral|
+C A Head Full of Ivory |QID|9914|N|Kill and loot only "Wild Elekks". Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|REP|The Consortium;933;Neutral|T|Wild Elekk|
 l Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|S|L|24504|
 A I Must Have Them! |QID|10109|N|From Wazat. He's in Clan Watch in southern Nagrand.|M|62.1,67.2|
 l I Must Have Them!|N|Kill Air Elementals until you get 3x Air Elemental Gas.|QID|10109|M|69.4,56.9|S|L|27807 3|
@@ -60,23 +88,23 @@ C Windroc Mastery  |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|
 l Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|US|L|24504|
 A The Howling Wind |QID|9861|U|24504|M|64.0,45.0|N|Accept the quest from the Howling Wind.|
 
-h Garadar|QID|9888|N|M|56.7,34.2|
+h Garadar|QID|9888|M|56.7,34.2|
 A Missing Mag'hari Procession |QID|9944|N|From Matron Drakia.|M|56.7,34.2|
-A The Impotent Leader |QID|9888|N|From Jorin Deadeye.|M|55.6,37.6|
-A Proving Your Strength |QID|10479|N|From Warden Bullrok |M|55.8,37.9|
-A Wanted: Giselda the Crone |QID|9935|N|From the Garadar Bulletin Board.|M|55.8,38.0|
-A Wanted: Zorbo the Advisor |QID|9939|N|From the Garadar Bulletin Board.|M|55.8,38.0|
-A The Throne of the Elements |QID|9870|N|From Elementalist Yal'hah, this NPC wanders around town.|M|55.0,39.0|
-A Vile Idolatry |QID|9863|N|From Farseer Kurkush.|M|54.8,39.4|
-A The Missing War Party |QID|9864|N|From Farseer Corhuk.|M|54.8,39.9|
-A Murkblood Leaders... |QID|9867|N|From Farseer Margadesh.|M|54.5,40|
+A The Impotent Leader |QID|9888|N|From Jorin Deadeye.|M|55.57,37.62|
+A Proving Your Strength |QID|10479|N|From Warden Bullrok |M|55.79,37.95|
+A Wanted: Giselda the Crone |QID|9935|N|From the Garadar Bulletin Board.|M|55.76,38.00|
+A Wanted: Zorbo the Advisor |QID|9939|N|From the Garadar Bulletin Board.|M|55.76,38.00|
+A The Throne of the Elements |QID|9870|N|From Elementalist Yal'hah, this NPC wanders around town.|M|55.0,39.0|T|Elementalist|
+A Vile Idolatry |QID|9863|N|From Farseer Kurkush.|M|54.78,39.41|
+A The Missing War Party |QID|9864|N|From Farseer Corhuk.|M|54.80,39.87|
+A Murkblood Leaders... |QID|9867|N|From Farseer Margadesh.|M|54.53,39.96|
 
-T The Howling Wind |QID|9861|M|60.5,22.4|N|To Elementalist Morgh.|
-A Murkblood Corrupters |QID|9862|M|60.5,22.4|N|From Elementalist Morgh.|
-T The Throne of the Elements |QID|9869|M|60.5,22.4|N|To Elementalist Sharvak.|
-A A Rare Bean |QID|9800|M|60.5,22.4|N|From Elementalist Lo'ap.|
-A Muck Diving |QID|9815|M|60.5,22.4|N|From Elementalist Lo'ap.|
-A The Underneath |QID|9818|M|60.5,22.4|N|From Elementalist Untrag.|
+T The Howling Wind |QID|9861|M|60.50,22.37|N|To Elementalist Morgh.|
+A Murkblood Corrupters |QID|9862|M|60.50,22.37|N|From Elementalist Morgh.|
+T The Throne of the Elements |QID|9870|M|60.5,22.4|N|To Elementalist Sharvak.|
+A A Rare Bean |QID|9800|M|60.80,22.38|N|From Elementalist Lo'ap.|
+A Muck Diving |QID|9815|M|60.80,22.38|N|From Elementalist Lo'ap.|
+A The Underneath |QID|9818|M|60.66,22.65|N|From Elementalist Untrag.|
 T The Underneath |QID|9818|M|61.8,24.4|N|To Gordawg. He wanders around.|
 A The Tortured Earth |QID|9819|M|61.8,24.4|N|From Gordawg.|
 
@@ -85,12 +113,12 @@ C Windroc Mastery  |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|
 C Talbuk Mastery |N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|S|
 C Clefthoof Mastery |N|Kill the Clefthoofs needed for this quest.|QID|9789|M|64.00,48.00|
 C Talbuk Mastery |N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|US|
-T Clefthoof Mastery |QID|9789|M|71.6,40.5|N|To Hemet Nesingwary.|
-A Clefthoof Mastery |QID|9850|M|71.6,40.5|N|From Hemet Nesingwary.|
+T Clefthoof Mastery |QID|9789|M|71.52,40.82|N|To Hemet Nesingwary.|
+A Clefthoof Mastery |QID|9850|M|71.52,40.82|N|From Hemet Nesingwary.|
 T Windroc Mastery |QID|9854|M|71.6,40.5|N|To Shado 'Fitz' Farstrider.|
 A Windroc Mastery |QID|9855|M|71.6,40.5|N|From Shado 'Fritz' Farstrider.|
-T Talbuk Mastery |QID|9857|M|71.6,40.5|N|To Harold Lane.|
-A Talbuk Mastery |QID|9858|M|71.6,40.5|N|From Harold Lane.|
+T Talbuk Mastery |QID|9857|M|71.38,40.63|N|To Harold Lane.|
+A Talbuk Mastery |QID|9858|M|71.38,40.63|N|From Harold Lane.|
 T The Tortured Earth|QID|9819|M|61.8,24.4|N|To Gordawg.|
 A Eating Damnation|QID|9821|M|61.8,24.4|N|From Gordawg.|
 
@@ -227,10 +255,10 @@ A Gava'xi |QID|9900|M|30.8,58.1|N|From Zerid.|
 T The Consortium Needs You! |QID|9913|M|31.4,57.8|N|To Gezhe.|
 A Stealing from Thieves |QID|9882|M|31.4,57.8|N|From Gezhe.|REP|The Consortium;933;Neutral|
 A A Head Full of Ivory|QID|9914|N|From Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
-T A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
+t A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
 
-l Murkblood Invasion Plans |QID|9871|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24558|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|CN|
-A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9871|U|24558|M|28.3,53.4|
+l Murkblood Invasion Plans |QID|9872|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24558|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|CN|
+A Murkblood Invaders |N|Right-click the plans to start the quest.|QID|9872|U|24558|M|28.3,53.4|
 l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|REP|The Consortium;933;Neutral|
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
 C Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|US|L|25416 10|REP|The Consortium;933;Neutral|
@@ -281,8 +309,27 @@ A Message to Garadar |QID|9934|M|73.8,62.6|N|From Lantresor of the Blade.|
 C The Ultimate Bloodsport |QID|9852|N|She's on top of a hill.|M|43,65|
 C Wanted: Durn the Hungerer |QID|9937|N|He patrols around Oshu'gun. He's very, very large.|
 T Wanted: Durn the Hungerer |QID|9937|M|55.8,37.9|N|To Warden Bullrok.|
-T Message to Garadar |QID|9934|M|55.5,37.5|N|To .|
-T The Ultimate Bloodsport |QID|9852|M|71.5,40.8|N|To .|
+T Message to Garadar |QID|9934|M|55.5,37.5|N|To Garrosh.|
+T The Ultimate Bloodsport |QID|9852|M|71.5,40.8|N|To Hemet.|
+
+A The Ring of Blood: Brokentoe|QID|9962|M|42.78,20.73|N|From Gurgthock.  This questline can be soloed by the well geared at level 68, depending on class.  Groups of 2 or 3 are quite fine.|
+K Brokentoe|QID|9962|N|A ferocious Clefthoof. Just a nasty clefthoof.|QO|1|
+T The Ring of Blood: Brokentoe|QID|9962|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: The Blue Brothers|QID|9967|M|42.78,20.73|N|From Gurgthock.|
+K The Blue Brothers|QID|9967|N|The Murkblood Twins. Immune to sheep.|QO|1|
+T The Ring of Blood: The Blue Brothers|QID|9967|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: Rokdar the Sundered Lord|QID|9970|M|42.78,20.73|N|From Gurgthock.|
+K Rokdar the Sundered Lord|QID|9970|N|A Rock Giant.  Does a knock-back.|QO|1|
+T The Ring of Blood: Rokdar the Sundered Lord|QID|9970|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: Skra'gath|QID|9972|M|42.78,20.73|N|From Gurgthock.|
+K Skra'gath|QID|9972|N|Void Lord. Resistant to the first school of magic used against him.|QO|1|
+T The Ring of Blood: Skra'gath|QID|9972|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: The Warmaul Champion|QID|9973|M|42.78,20.73|N|From Gurgthock.|
+K Warmaul Champion|QID|9973|N|The Warmaul guy has a nasty 2 second stun and a long lasting cleave. The hardest.|QO|1|
+T The Ring of Blood: The Warmaul Champion|QID|9973|M|42.78,20.68|N|To Wodin the Troll-Servant.|
+A The Ring of Blood: The Final Challenge|QID|9977|M|42.78,20.73|N|From Gurgthock.|
+K Mogor|QID|9977|N|A two headed caster that self-heals (which you should interrupt).|QO|1|
+T The Ring of Blood: The Final Challenge|QID|9977|M|42.78,20.68|N|To Wodin the Troll-Servant.  Consider your choice carefully, as these are valuable for transmorg!|
 
 N Loremaster|N|If you want the quest acheivement for Nagrand, head to Altruis.|
 
@@ -304,7 +351,7 @@ l Fel Cannon Activator|QID|10011|L|25771|M|19.54,51.17|N|Kill and loot Xirkos, O
 C Forge Camp: Annihilated|QID|10011|U|25771|M|19.31,50.86|N|Use the Fel Cannon Activator next to the Fel Cannon: Fear.|
 T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
 
-N The rest...|N|The following quests Altruis gives (after this note), have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
+N The rest...|N|The following quests Altruis gives (after this note), require level 68 have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
 A Against the Legion|QID|10641|M|27.35,43.06|N|From Altruis the Sufferer.|
 A Against the Illidari|QID|10668|M|27.35,43.06|N|From Altruis the Sufferer.|
 A Against All Odds|QID|10669|M|27.35,43.06|N|From Altruis the Sufferer.|

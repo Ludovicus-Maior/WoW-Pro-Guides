@@ -5,7 +5,7 @@
 
 -- URL: http://wow-pro.com/wiki/profession_alchemy
 -- Date: 2013-11-27 20:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3408/revisions/25653/view
 -- Date: 2013-05-16 00:44
@@ -14,7 +14,7 @@
 
 -- URL: http://wow-pro.com/node/3408/revisions/24697/view
 -- Date: 2011-07-27 12:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Merge Twists Pull
 
 -- URL: http://wow-pro.com/node/3408/revisions/24641/view

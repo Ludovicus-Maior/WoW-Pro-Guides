@@ -4,18 +4,37 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
+-- Date: 2014-05-28 22:18
+-- Who: Ludovicus
+-- Log: Uldum moved to Cata
+
+-- URL: http://wow-pro.com/node/3473/revisions/26376/view
+-- Date: 2014-05-28 20:32
+-- Who: Ludovicus
+-- Log: Converted
+
+-- URL: http://wow-pro.com/node/3473/revisions/26310/view
+-- Date: 2014-05-26 17:38
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3473/revisions/24981/view
 -- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3473/revisions/24979/view
 -- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3473/revisions/24978/view
 -- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("LudoExpThN","Thousand Needles","Thousand Needles","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoExpThN","Achievements","Thousand Needles","Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",846)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F The Great Lift|QID|908460001|M|32.24,23.20|ACH|846;1|

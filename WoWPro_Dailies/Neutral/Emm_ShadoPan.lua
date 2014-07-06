@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2014-06-11 19:22
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3501/revisions/25769/view
 -- Date: 2013-10-01 20:30
 -- Who: Fluclo
 
@@ -14,12 +19,12 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25756/view
 -- Date: 2013-09-10 23:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add a QID for finishing Townlong Steppes.
 
 -- URL: http://wow-pro.com/node/3501/revisions/25698/view
 -- Date: 2013-06-04 23:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleanup around [A Morale Victory]
 
 -- URL: http://wow-pro.com/node/3501/revisions/25693/view
@@ -29,7 +34,7 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25617/view
 -- Date: 2013-05-09 22:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Some horrid editors change ... into a proper ellipses (sp?) character and change ' into a proper quote.  
 
 -- URL: http://wow-pro.com/node/3501/revisions/25508/view
@@ -39,7 +44,7 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25488/view
 -- Date: 2013-01-13 23:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3501/revisions/25407/view
@@ -64,17 +69,20 @@
 
 -- URL: http://wow-pro.com/node/3501/revisions/25158/view
 -- Date: 2012-10-24 11:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3501/revisions/25111/view
 -- Date: 2012-10-07 22:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3501/revisions/25110/view
 -- Date: 2012-10-07 22:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("EmmShadoPan", "Townlong Steppes", "Shado-Pan Dailies", "MoP", "Emmaleah", "Neutral", function()
+local guide = WoWPro:RegisterGuide("EmmShadoPan",'Dailies', "Townlong Steppes", "Emmaleah", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1270) --  "Shado-Pan Dailies"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Work In Process Disclaimer|N|This guide is a work-in-process. Please report any errors or missing quests on the WowPro Website.\n\nPlease set your Difficulty/Completeness to 3 if you want the Achievement steps to be included. Setting it to 1 or 2 will NOT display the Achievement steps.\n\nCheck off this step to continue.|

@@ -4,28 +4,48 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2014-06-02 15:08
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3246/revisions/26245/view
+-- Date: 2014-05-25 22:58
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3246/revisions/26090/view
+-- Date: 2014-05-18 22:05
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3246/revisions/26022/view
+-- Date: 2014-05-17 16:40
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3246/revisions/25792/view
 -- Date: 2013-11-05 22:36
 -- Who: Emmaleah
 -- Log: fix based on user submission (in aug... why did we miss this?!?)
 
 -- URL: http://wow-pro.com/node/3246/revisions/25747/view
 -- Date: 2013-08-16 19:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Cleaned up some QUIDs and added a hint for [Ace in the Hole].
 
 -- URL: http://wow-pro.com/node/3246/revisions/25563/view
 -- Date: 2013-03-23 18:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 27157's name [Drudges...] does not match Grail's database [Drudges... ].
 
 -- URL: http://wow-pro.com/node/3246/revisions/25446/view
 -- Date: 2013-01-13 17:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3246/revisions/24389/view
 -- Date: 2011-05-17 00:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3246/revisions/23832/view
 -- Date: 2010-12-27 09:04
@@ -44,7 +64,11 @@
 -- Date: 2010-12-03 11:25
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyWes3540', 'Western Plaguelands', 'Jiyambi', '35', '40', 'CraEas4045', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyWes3540', "Leveling", 'Western Plaguelands', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,34,39, 35.1257)
+WoWPro:GuideNextGuide(guide, 'CraEas4045')
+WoWPro:GuideIcon(guide,"ACH",4893)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Andorhal|QID|26921|M|46.56,64.71|N|At the center of the Western Plaguelands.|

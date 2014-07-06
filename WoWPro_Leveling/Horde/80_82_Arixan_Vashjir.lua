@@ -4,23 +4,52 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2014-06-02 16:08
+-- Who: Ludovicus
+-- Log: Added missing Z tag to [Twilight Cage Key]
+
+-- URL: http://wow-pro.com/node/3306/revisions/26423/view
+-- Date: 2014-06-02 13:17
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3306/revisions/26295/view
+-- Date: 2014-05-26 01:14
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3306/revisions/26122/view
+-- Date: 2014-05-18 23:04
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3306/revisions/26001/view
+-- Date: 2014-05-16 20:29
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3306/revisions/25873/view
+-- Date: 2014-01-23 00:21
+-- Who: Ludovicus
+-- Log: Corrected some Z tags
+
+-- URL: http://wow-pro.com/node/3306/revisions/25676/view
 -- Date: 2013-05-17 20:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Built to Last
 
 -- URL: http://wow-pro.com/node/3306/revisions/25566/view
 -- Date: 2013-03-23 18:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lots of quest name corrections!
 
 -- URL: http://wow-pro.com/node/3306/revisions/25457/view
 -- Date: 2013-01-13 18:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add C* tags
 
 -- URL: http://wow-pro.com/node/3306/revisions/25315/view
 -- Date: 2013-01-09 22:45
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3306/revisions/24610/view
@@ -31,17 +60,17 @@
 
 -- URL: http://wow-pro.com/node/3306/revisions/24530/view
 -- Date: 2011-06-08 03:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct Successor.
 
 -- URL: http://wow-pro.com/node/3306/revisions/24349/view
 -- Date: 2011-04-29 17:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 147 for step C has unknown tag [rUS], Line 193 for step A Bad coord r63.92, Line 299 for step C has unknown tag [Shimmering Expanse], ...
 
 -- URL: http://wow-pro.com/node/3306/revisions/24171/view
 -- Date: 2011-03-12 18:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Unique IDs
 
 -- URL: http://wow-pro.com/node/3306/revisions/24019/view
@@ -92,7 +121,11 @@
 -- Date: 2010-12-03 23:05
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriVasH8082', "Vash'jir", 'Arixan', '80', '82', 'AriDee8283', 'Horde', function()
+local guide = WoWPro:RegisterGuide('AriVasH8082', "Leveling", "Vash'jir", 'Arixan', 'Horde')
+WoWPro:GuideLevels(guide,80,80, 79.988)
+WoWPro:GuideNextGuide(guide, 'AriDee8283')
+WoWPro:GuideIcon(guide,"ACH",4825)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Warchief's Command: Vashj'ir!|QID|27718|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|
@@ -159,7 +192,7 @@ T A Case of Crabs|QID|25388|M|57.23,28.77|Z|Kelp'thar Forest|N|To Adarrah.|
 A A Girl's Best Friend|QID|25390|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
 A A Taste For Tail|QID|25389|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
 A Can't Start a Fire Without a Spark|QID|25602|M|57.25,28.86|Z|Kelp'thar Forest|N|From Captain Samir.|
-l Crumpled Treasure Map|QID|25467|N|Get out of the cave, kill Sabreclaw Skitterers until you get a Crumpled Treasure Map.|M|52,35|L|54345|
+l Crumpled Treasure Map|QID|25467|N|Get out of the cave, kill Sabreclaw Skitterers until you get a Crumpled Treasure Map.|M|52,35|Z|Kelp'thar Forest|L|54345|
 A Kliklak's Craw|QID|25467|Z|Kelp'thar Forest|N|Use the map to accept the quest Kliklak's Craw.|M|52,35|Z|Kelp'thar Forest|U|54345|
 C A Girl's Best Friend|QID|25390|S|M|50.82,31.95|Z|Kelp'thar Forest|N|Look for Adarrah's Jewelry Box on the sea floor. They are small and a little hard to spot.|
 C Kliklak's Craw|QID|25467|M|43.89,39.85|Z|Kelp'thar Forest|N|Kliklak patrols around this area. Kill him and loot the Corroded key.|S|
@@ -574,7 +607,7 @@ C Environmental Awareness|QID|26122|U|56821|Z|Abyssal Depths|S|N|Kill Seabrush T
 A Secure Seabrush|QID|26124|Z|Abyssal Depths|M|56.75,43.52|N|Get out of the cave, swim up and go northwest to the area called Seabrush. Find and kill an Alliance Sea-scout, the quest will pop-up, accept it.|
 C Secure Seabrush|QID|26124|Z|Abyssal Depths|M|52.18,48.27|N|Kill a total of 7 Alliance Sea-scouts.|
 C Environmental Awareness|QID|26122|U|56821|Z|Abyssal Depths|US|N|Kill Seabrush Terrapins, Scourgut Remoras and Spinescale Hammerheads. Loot them and then use the pump on their corpses.|
-T Secure Seabrush|QID|26124|N|Back to the Tenebrous Cavern. To Bloodguard Toldrek.|M|59.37,56.46;51.60,60.74|CC|
+T Secure Seabrush|QID|26124|N|Back to the Tenebrous Cavern. To Bloodguard Toldrek.|M|59.37,56.46;51.60,60.74|Z|Abyssal Depths|CC|
 T Environmental Awareness|QID|26122|N|To Fiasco Sizzlegrin.|Z|Abyssal Depths|M|51.47,60.82|
 
 A The Perfect Fuel|QID|26126|N|from Fiasco Sizzlegrin|Z|Abyssal Depths|M|51.47,60.82|
@@ -671,7 +704,7 @@ A Ascend No More!|QID|26142|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek|
 
 C Runestones of Binding|QID|26141|S|M|31.2,58.8|Z|Abyssal Depths|L|57096 7|N|Kill any Twilight Candidates you see until you get 7 Runestones of Binding.|
 C Ascend No More!|QID|26142|S|QO|Ancient Conduits destroyed: 5/5|M|28.1,57.5|Z|Abyssal Depths|N|Destroy Ancient Conduits.|
-l Twilight Cage Key|QID|26149|L|57118|N|Kill Twilight Hammer mobs until the key drops.|M|31.2,58.8|
+l Twilight Cage Key|QID|26149|L|57118|N|Kill Twilight Hammer mobs until the key drops.|M|31.2,58.8|Z|Abyssal Depths|
 A Prisoners|QID|26149|RANK|1|M|31.2,58.8|Z|Abyssal Depths|U|57118|N|Accept the quest from the key.|
 C Prisoners|QID|26149|M|31.2,58.8|Z|Abyssal Depths|N|Free Prisoners.|
 C Ascend No More!|QID|26142|US|QO|Ancient Conduits destroyed: 5/5|M|28.1,57.5|Z|Abyssal Depths|N|Destroy Ancient Conduits.|

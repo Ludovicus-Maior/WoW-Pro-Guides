@@ -76,3 +76,54 @@ function WoWPro.Dailies:RegisterGuide(GIDvalue, zonename, guidename, categorynam
 		sequence = sequencevalue,
 	}
 end
+
+-- Use Grail to go a crude guide for a zone.  Pass in the mapID and it will find all the quests that start/end in that zone.
+function WoWPro.Dailies:DumpInfo()
+    local zoneID = 951
+    WoWPro.Dailies.eBox = WoWPro.Dailies.eBox or CreateFrame("EditBox", nil,UIParent,ChatFrameEditBoxTemplate)
+    local eBox = WoWPro.Dailies.eBox
+    eBox:SetWidth(512)
+    eBox:SetHeight(256)
+    eBox:SetMultiLine(true)
+    eBox:SetAutoFocus(true)
+    eBox:SetFontObject(GameFontHighlight)
+    local text=""
+    Grail:CreateIndexedQuestList()
+    -- Ask for the list of quests in the zone 
+    for _,quid in pairs(Grail:QuestsInMap(zoneID,true)) do
+        local pre = WoWPro:GrailQuestPrereq(quid)
+        local turnin_npc = Grail:QuestNPCTurnins(quid)
+        local accept_npc = Grail:QuestNPCAccepts(quid)
+        local name = Grail:QuestName(quid)
+        local accept_m = (accept_npc and accept_npc[1] and Grail:NPCLocations(accept_npc[1],true,true)) 
+        local turnin_m = (turnin_npc and turnin_npc[1] and Grail:NPCLocations(turnin_npc[1],true,true))
+        local line
+        
+        if pre then
+            pre = "PRE|"..pre.."||"
+        else
+            pre = ""
+        end
+        if accept_m then
+            
+            accept_m = string.format("%s,%s",accept_m[1].x,accept_m[1].y)
+        else
+            accept_m = "unknown"
+        end
+        if turnin_m then         
+            turnin_m = string.format("%s,%s",turnin_m[1].x,turnin_m[1].y)
+        else
+            turnin_m = "unknown"
+        end
+        accept_npc = (accept_npc and accept_npc[1] and Grail:NPCName(accept_npc[1])) or "???"
+        turnin_npc = (turnin_npc and turnin_npc[1] and Grail:NPCName(turnin_npc[1])) or "???"
+        line = string.format("A %s|QID|%d|M|%s||%sN|From %s.|",name,quid,accept_m,pre,accept_npc)
+        text = text .. line .. "\n"
+        line = string.format("T %s|QID|%d|M|%s||N|To %s.|",name,quid,turnin_m,turnin_npc)
+        text = text .. line .. "\n"
+    end
+    eBox:SetText(text)
+    eBox:SetPoint("CENTER")
+    eBox:Show()
+    eBox:SetScript("OnEscapePressed", function (self) self:Hide() end)
+end

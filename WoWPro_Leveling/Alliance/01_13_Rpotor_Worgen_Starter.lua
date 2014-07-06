@@ -4,18 +4,43 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2014-06-03 22:12
+-- Who: Ludovicus
+-- Log: Missing "
+
+-- URL: http://wow-pro.com/node/3211/revisions/26476/view
+-- Date: 2014-06-02 22:07
+-- Who: Ludovicus
+-- Log: Icons
+
+-- URL: http://wow-pro.com/node/3211/revisions/26345/view
+-- Date: 2014-05-27 20:28
+-- Who: Ludovicus
+-- Log: Max Level corrected from 13 to 12.
+
+-- URL: http://wow-pro.com/node/3211/revisions/26207/view
+-- Date: 2014-05-25 22:21
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3211/revisions/25954/view
+-- Date: 2014-05-14 22:02
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3211/revisions/25627/view
 -- Date: 2013-05-14 15:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Changed name from [Arcane Missiles] to [Frost Nova]
 
 -- URL: http://wow-pro.com/node/3211/revisions/25584/view
 -- Date: 2013-03-23 20:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name correction [Learning the Word]
 
 -- URL: http://wow-pro.com/node/3211/revisions/25370/view
 -- Date: 2013-01-12 19:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS and CN tags
 
 -- URL: http://wow-pro.com/node/3211/revisions/25327/view
@@ -25,12 +50,12 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/25012/view
 -- Date: 2012-06-30 18:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Blizzard change zone names, AGAIN.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24988/view
 -- Date: 2012-05-27 18:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Another zone/map name shift.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24763/view
@@ -81,7 +106,7 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/24654/view
 -- Date: 2011-07-01 13:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: $2. shifted from Gilneas_terrain1 to Gilneas_terrain2
 
 -- URL: http://wow-pro.com/node/3211/revisions/24586/view
@@ -91,36 +116,36 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/24433/view
 -- Date: 2011-05-28 10:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord fix for [Lor'danel]
 
 -- URL: http://wow-pro.com/node/3211/revisions/24409/view
 -- Date: 2011-05-20 21:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3211/revisions/24398/view
 -- Date: 2011-05-17 01:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fix Syntax errors.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24388/view
 -- Date: 2011-05-15 19:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Changes to accommodate new mapping system!
 
 -- URL: http://wow-pro.com/node/3211/revisions/24290/view
 -- Date: 2011-04-29 14:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 127 for step A has unknown tag [From Huntsman Blake.], Line 146 for step A has unknown tag [From Captain Broderick.], Line 159 for step T has unknown tag [Go southwest/west, ...], Line 187 for step T has unknown tag [To Tobias.], Line 204 for step T has unknown tag [To Crate of Mandrake Essence.], Line 239 for step C has 3 M coords, Line 408 for step f has too short a title.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24090/view
 -- Date: 2011-01-30 19:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide line.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24076/view
 -- Date: 2011-01-30 17:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added Quest giver/turnin information for many steps.
 --	Altered sequences of steps to allow you to use quest reward armor sooner.
 --	Corrected several coordinates. 
@@ -129,7 +154,7 @@
 
 -- URL: http://wow-pro.com/node/3211/revisions/24072/view
 -- Date: 2011-01-29 17:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing  QIDs to Level 7 and 9 steps.
 
 -- URL: http://wow-pro.com/node/3211/revisions/23733/view
@@ -167,7 +192,12 @@
 -- Date: 2010-12-03 07:17
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
+local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "Rpotor", "Alliance")
+WoWPro:GuideLevels(guide,1,12)
+WoWPro:GuideRaceSpecific(guide,"Worgen")
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Worgen_Male","Interface\\Icons\\Achievement_Character_Worgen_Female"))
+WoWPro:GuideNextGuide(guide, "JamDar1320")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Zone is Ruins of Gilneas City

@@ -4,13 +4,48 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2014-06-02 22:12
+-- Who: Ludovicus
+-- Log: Icons
+
+-- URL: http://wow-pro.com/node/3206/revisions/26404/view
+-- Date: 2014-05-30 12:21
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3206/revisions/26374/view
+-- Date: 2014-05-27 21:30
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "1,12" to "0,10
+
+-- URL: http://wow-pro.com/node/3206/revisions/26206/view
+-- Date: 2014-05-25 22:20
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3206/revisions/26142/view
+-- Date: 2014-05-20 19:25
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3206/revisions/25953/view
+-- Date: 2014-05-14 21:59
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3206/revisions/25931/view
+-- Date: 2014-04-14 19:35
+-- Who: Ludovicus
+-- Log: Add missing Panda tags.
+
+-- URL: http://wow-pro.com/node/3206/revisions/25723/view
 -- Date: 2013-06-18 01:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 9616's name [Bandits] does not match Grail's database [Bandits!].
 
 -- URL: http://wow-pro.com/node/3206/revisions/25598/view
 -- Date: 2013-03-23 20:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Redid [Learning the Word]
 
 -- URL: http://wow-pro.com/node/3206/revisions/25379/view
@@ -20,22 +55,22 @@
 
 -- URL: http://wow-pro.com/node/3206/revisions/25134/view
 -- Date: 2012-10-09 00:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add Monk Starter quests
 
 -- URL: http://wow-pro.com/node/3206/revisions/25125/view
 -- Date: 2012-10-08 19:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Get rid of - in zone.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24690/view
 -- Date: 2011-07-27 01:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected race tags on [Replenishing the Healing Crystals] and corrected QIDs for class training quests, which were odd horde ones.  Sabotage!
 
 -- URL: http://wow-pro.com/node/3206/revisions/24689/view
 -- Date: 2011-07-23 21:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played through and tweaked.  Needs to be tested by L1-5 to finish up.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24667/view
@@ -69,7 +104,7 @@
 
 -- URL: http://wow-pro.com/node/3206/revisions/24274/view
 -- Date: 2011-04-26 22:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing S tag and got rid of a rogue QID.
 
 -- URL: http://wow-pro.com/node/3206/revisions/24123/view
@@ -114,26 +149,30 @@
 -- Date: 2010-12-02 23:18
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("SnoAzu0112", "Azuremyst Isle (Draenai)", "Snowflake", "01", "12", "SveBlo1220", "Alliance", function()
+local guide = WoWPro:RegisterGuide("SnoAzu0112", "Leveling", "Azuremyst Isle (Draenai)", "Snowflake", "Alliance")
+WoWPro:GuideLevels(guide,1,10,4.88439)
+WoWPro:GuideNextGuide(guide, "SveBlo1220")
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Draenei_Male","Interface\\Icons\\Achievement_Character_Draenei_Female"))
+WoWPro:GuideSteps(guide, function()
 return [[
-R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
-f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
+R Note:|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|
+f Seat of the Naaru|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|Z|The Exodar|M|54.22,36.55|N|At Stephanos.|
 A You Survived!|QID|9279|M|84.2,43.0|N|From Megelon right in front of you.|R|Draenei|
 T You Survived!|QID|9279|N|To Proenitus.|M|80.4,45.9|R|Draenei|
 A Replenishing the Healing Crystals|QID|9280|M|80.4,45.9|N|From Proenitus.|R|Draenei|
-A Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|From Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf|
+A Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|From Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
 C Replenishing the Healing Crystals|QID|9280|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Draenei|
-C Replenishing the Healing Crystals|QID|9369|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf|
+C Replenishing the Healing Crystals|QID|9369|M|78.06,42.4|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
 T Replenishing the Healing Crystals|QID|9280|M|80.4,45.9|N|To Proenitus.|R|Draenei|
-T Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf
+T Replenishing the Healing Crystals|QID|9369|M|80.4,45.9|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
+A Urgent Delivery!|QID|9409|M|80.4,45.9|N|From Proenitus.|
+T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building.|M|80.1,48.8|
 A Volatile Mutations|QID|10302|M|79.1,46.5|N|From Botanist Taerix.|
 C Volatile Mutations|QID|10302|M|77.85,43.37|N|Kill Volatile Mutations.|
 T Volatile Mutations|QID|10302|M|79.1,46.5|N|To Botanist Taerix.|
 
 A What Must Be Done...|QID|9293|M|79.1,46.5|N|From Botanist Taerix.|
 A Botanical Legwork|QID|9799|M|79.1,46.5|N|From Apprentic Vishael.|
-A Urgent Delivery!|QID|9409|M|80.4,45.9|N|From Proenitus.|
-T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building.|M|80.1,48.8|
 A Rescue the Survivors!|QID|9283|M|80.1,48.8|N|From Zaldunn.|R|Draenei|
 r Sell junk and repair|QID|9293|N|At Mura.|M|79.19,50.93|
 A Spare Parts |QID|9305|M|79.5,51.4|N|From Technician Zhanaa.|

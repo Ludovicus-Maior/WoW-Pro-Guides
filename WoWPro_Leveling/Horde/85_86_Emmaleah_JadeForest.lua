@@ -4,6 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2014-06-02 16:31
+-- Who: Ludovicus
+-- Log: Added mean level
+
+-- URL: http://wow-pro.com/node/3487/revisions/26301/view
+-- Date: 2014-05-26 01:20
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3487/revisions/26117/view
+-- Date: 2014-05-18 22:55
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3487/revisions/25999/view
+-- Date: 2014-05-16 20:27
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3487/revisions/25837/view
 -- Date: 2013-12-11 03:05
 -- Who: Fluclo
 -- Log: The Art of War has two different quest IDs, depending on progress in Vashj'ir; Added some C steps to the first few quests; Corrected some coordinates and zone placements; Added lots of notes to various steps; Fixed typos.
@@ -20,27 +39,27 @@
 
 -- URL: http://wow-pro.com/node/3487/revisions/25712/view
 -- Date: 2013-06-18 00:46
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad Y coordinate 31.95,13.21., 1/1 in guide EmmJad8586, line [C Regroup!].
 
 -- URL: http://wow-pro.com/node/3487/revisions/25576/view
 -- Date: 2013-03-23 19:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest name corrections and a missing | char.
 
 -- URL: http://wow-pro.com/node/3487/revisions/25575/view
 -- Date: 2013-03-23 18:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name tweak
 
 -- URL: http://wow-pro.com/node/3487/revisions/25491/view
 -- Date: 2013-01-13 23:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tag
 
 -- URL: http://wow-pro.com/node/3487/revisions/25314/view
 -- Date: 2013-01-09 22:43
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added two CS tags
 
 -- URL: http://wow-pro.com/node/3487/revisions/25231/view
@@ -69,26 +88,30 @@
 
 -- URL: http://wow-pro.com/node/3487/revisions/25129/view
 -- Date: 2012-10-08 19:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: As per  Emmaleah, Use Captain's Jack's head to get the quest.
 
 -- URL: http://wow-pro.com/node/3487/revisions/25100/view
 -- Date: 2012-10-02 01:55
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Emmaleah: edited with Play test on live 9/30/12 -- many many changes
 --	Ludovicus: No editing on my part!  Have not yet done this on horde.
 
 -- URL: http://wow-pro.com/node/3487/revisions/25052/view
 -- Date: 2012-08-28 19:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: correct urls
 
 -- URL: http://wow-pro.com/node/3487/revisions/25051/view
 -- Date: 2012-08-28 19:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
-WoWPro.Leveling:RegisterGuide('EmmJad8586', 'The Jade Forest', 'Emmaleah', '85', '86', 'EmmVal8688', 'Horde', function()
+local guide = WoWPro:RegisterGuide('EmmJad8586', "Leveling", 'The Jade Forest', 'Emmaleah', 'Horde')
+WoWPro:GuideLevels(guide,85,86, 85.0022)
+WoWPro:GuideNextGuide(guide, 'EmmVal8688')
+WoWPro:GuideIcon(guide,"ACH",6351)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 85 |QID|29611;29612|LVL|85|N|You need to be Level 85 to do this guide.|

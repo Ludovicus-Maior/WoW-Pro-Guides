@@ -4,30 +4,38 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- Date: 2014-06-11 19:11
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3455/revisions/25639/view
 -- Date: 2013-05-14 18:59
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad quest names and coords
 
 -- URL: http://wow-pro.com/node/3455/revisions/25423/view
 -- Date: 2013-01-13 15:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN and CS tags
 
 -- URL: http://wow-pro.com/node/3455/revisions/25299/view
 -- Date: 2013-01-09 17:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3455/revisions/24894/view
 -- Date: 2012-01-18 23:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3455/revisions/24893/view
 -- Date: 2012-01-18 23:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial Version
 
-WoWPro.Dailies:RegisterGuide("LudoDrake", "Shadowmoon Valley", "Netherwing", "BC", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoDrake",'Dailies', "Shadowmoon Valley", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1015) --  "Netherwing"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N The next few quests|QID|10804|N|Require you to be level 70 and have a flying mount.|

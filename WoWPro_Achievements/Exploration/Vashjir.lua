@@ -4,10 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_cataclysm
--- Who: Kaboca
--- WoWPro.Achievements:DumpInfo(4825) - Vashj'ir
+-- Date: 2014-06-03 22:20
+-- Who: Ludovicus
+-- Log: Modernize the remaining explorations for CATA zones.
 
-WoWPro.Achievements:RegisterGuide("KabExpVashj","Vashj'ir","Vashj'ir","Exploration", "Cataclysm", "Kaboca", "Neutral", function()
+-- URL: http://wow-pro.com/node/3578/revisions/26382/view
+-- Date: 2014-05-28 21:57
+-- Who: Ludovicus
+-- Log: Initial Cut
+
+local guide = WoWPro:RegisterGuide("KabExpVashj","Achievements","Vashj'ir","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",4825)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Seafarer's Tomb|QID|948250013|Z|Kelp'thar Forest|M|50.9,27.8|ACH|4825;13|
 F Legion's Fate|QID|948250014|Z|Kelp'thar Forest|M|40.0,30.0|ACH|4825;14|

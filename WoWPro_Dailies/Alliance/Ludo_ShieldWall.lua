@@ -4,137 +4,160 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2014-06-10 23:07
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25941/view
+-- Date: 2014-04-21 18:33
+-- Who: Ludovicus
+-- Log: Add some CHAT tags.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25937/view
+-- Date: 2014-04-14 20:10
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3519/revisions/25934/view
+-- Date: 2014-04-14 19:39
+-- Who: Ludovicus
+-- Log: Starter quest is no longer a UI popup.
+
+-- URL: http://wow-pro.com/node/3519/revisions/25757/view
 -- Date: 2013-09-10 23:50
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed coords for "Mogujia" section.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25694/view
 -- Date: 2013-06-04 23:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Some ACTIVE tags to make starting the guide correct!
 
 -- URL: http://wow-pro.com/node/3519/revisions/25632/view
 -- Date: 2013-05-14 16:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Many bad coords
 
 -- URL: http://wow-pro.com/node/3519/revisions/25631/view
 -- Date: 2013-05-14 15:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed extra partial coord for Bizmo's Brawlpub
 
 -- URL: http://wow-pro.com/node/3519/revisions/25543/view
 -- Date: 2013-03-05 23:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Did [Breath of Darkest Shadow]
 
 -- URL: http://wow-pro.com/node/3519/revisions/25542/view
 -- Date: 2013-02-26 13:17
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played through [In Search of Harmony]
 
 -- URL: http://wow-pro.com/node/3519/revisions/25541/view
 -- Date: 2013-02-24 21:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweaked coords and updated [The Purge of Dalaran] and [An Ancient Ally] after play.  Filled in [In Search of Harmony].  Added new NPC tag required for QID|*| usages.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25539/view
 -- Date: 2013-02-23 18:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update [Secrets of the Past] and [The Divine Bell] segments after play through.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25536/view
 -- Date: 2013-02-18 23:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sketches of [The Purge of Dalaran], [An Ancient Ally], [In Search of Harmony] and [Breath of Darkest Shadow]
 
 -- URL: http://wow-pro.com/node/3519/revisions/25532/view
 -- Date: 2013-02-17 20:20
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Refined [Heart of the Alliance] sequence after playing through.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25531/view
 -- Date: 2013-02-17 20:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Refined Korune series after playing through
 
 -- URL: http://wow-pro.com/node/3519/revisions/25521/view
 -- Date: 2013-02-06 20:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added Jaina's Hope sequence.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25516/view
 -- Date: 2013-01-28 21:01
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Andy pointed out Troteman's name was not spelt right!
 
 -- URL: http://wow-pro.com/node/3519/revisions/25373/view
 -- Date: 2013-01-12 19:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Lots of CN tags
 
 -- URL: http://wow-pro.com/node/3519/revisions/25264/view
 -- Date: 2012-12-25 00:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added skeletal: Jaina's Hope,  The Korune, Heart of the Alliance, Secrets of the Past, The Divine Bell.
 --	Corrected Domination Point dailies and a missing PRE tag.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25243/view
 -- Date: 2012-12-08 17:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Tweak Hilda's quests.  Maps in the cave seem to have changed.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25240/view
 -- Date: 2012-12-06 23:39
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played "The Voice of Gods" questline.
 
 -- URL: http://wow-pro.com/node/3519/revisions/25234/view
 -- Date: 2012-12-03 00:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played Bilgewater Operations
 
 -- URL: http://wow-pro.com/node/3519/revisions/25224/view
 -- Date: 2012-12-02 01:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add "The Man With a Thousand Faces" questline
 
 -- URL: http://wow-pro.com/node/3519/revisions/25223/view
 -- Date: 2012-12-01 14:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Played the Ruins of Ogudei quests 
 
 -- URL: http://wow-pro.com/node/3519/revisions/25219/view
 -- Date: 2012-11-29 18:03
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial cut.
 
-WoWPro.Dailies:RegisterGuide("LudoShieldWall", "Krasarang Wilds", "Operation: Shieldwall", "MoP", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoShieldWall",'Dailies', "Krasarang Wilds", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1376) --  "Operation: Shieldwall"
+WoWPro:GuideSteps(guide, function()
 return [[
 
-A Meet the Scout|QID|32246|LEAD|32247|M|64.16,58.75|Z|Vale of Eternal Blossoms|N|UI Popup when flying near Shrine of Seven Stars|
+A Meet the Scout|QID|32246|M|83.99,58.67|Z|Vale of Eternal Blossoms|N|From Lyalia, outside the Shrine of Seven Stars.|
 T Meet the Scout|QID|32246|M|85.24,29.13|N|To Scout Lynna.|; 150
 
 ; Lion's Landing
-A A King Among Men|QID|32247|PRE|32246|M|85.29,29.12|N|From King Varian Wynn.|
+A A King Among Men|QID|32247|PRE|32246|M|84.0,58.8|N|From King Varian Wynn.|
 C A King Among Men|QID|32247|M|79.64,25.04|QO|Marshal Troteman found: 1/1|N|Varian will help to fight. Talk to Troteman.|
 C A King Among Men|QID|32247|M|80.43,17.52|QO|Hilda Hornswaggle found: 1/1|
 C A King Among Men|QID|32247|M|78.70,19.85|QO|Horde slain: 25/25|N|Wander into the forest to kill any horde you need.|
 T A King Among Men|QID|32247|N|To King Varian Wynn, next to you.|; 300 Rep
 A Lion's Landing|QID|32109|PRE|32247|M|80.4,17.4|N|From 7th Legion Champion|
 T Lion's Landing|QID|32109|M|85.59,29.17|N|To Flare Launcher, and cutscene.|; 500 Rep
-A A Little Patience|QID|32248||N|Automatically offered after cutscene.|
+A A Little Patience|QID|32248|N|Automatically offered after cutscene.|
 f Lion's Landing|QID|32248|M|88.33,34.69|N|At Daggin Windbeard|
 
 ; The Man With a Thousand Faces
 A The Best Around|QID|32380|PRE|32109|M|89.55,32.58|REP|Operation: Shieldwall;1376;friendly;950|N|From Admiral Taylor, a little after hitting Friendly|
 R Deeprun Tram|QID|32380|N|Head to Deeprun Tram in Stormwind.|
 R Bizmo's Brawlpub|QID|32380|M|52.50,33.01;52.25,51.25|Z|Deeprun Tram@DeeprunTram|CS|N|Look for the flashing red light in the tracks and head down the stairs.|
+C The Best Around|QID|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|CHAT|N|Chat with Townsley|
 T The Best Around|QID|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|Find Barkeep Townsley, in Deeprun Tram in Stormwind.|
 A To Catch A Spy|QID|32381|PRE|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|From Barkeep Townsley.|
-C Keith "The Party" Westin|QID|32381|M|64.80,22.99|Z|Bizmo's Brawlpub@DeeprunTram|T|Keith "The Party" Westin|N|Chat with Townsley and get the first clue, then talk to Keith.|QO|Pink Marmot delivered: 1/1|
-C Twix Gearspark|QID|32381|M|49.76,34.53|Z|Bizmo's Brawlpub@DeeprunTram|T|Twix Gearspark|N|Chat with Townsley and get the second clue, then talk to Twix.|QO|Rusty Dagger delivered: 1/1|
-C Tasha Windpaw|QID|32381|M|67.41,59.83|Z|Bizmo's Brawlpub@DeeprunTram|T|Chat with Townsley and get the second clue, then talk to Tasha Windpaw.|N|Mogu Melon Twist|QO|Mogu Melon Twist delivered: 1/1|
+C Keith "The Party" Westin|QID|32381|M|64.80,22.99|Z|Bizmo's Brawlpub@DeeprunTram|T|Keith "The Party" Westin|N|Chat with Townsley and get the first clue, then talk to Keith.|QO|Pink Marmot delivered: 1/1|CHAT|
+C Twix Gearspark|QID|32381|M|49.76,34.53|Z|Bizmo's Brawlpub@DeeprunTram|T|Twix Gearspark|N|Chat with Townsley and get the second clue, then talk to Twix.|QO|Rusty Dagger delivered: 1/1|CHAT|
+C Tasha Windpaw|QID|32381|M|67.41,59.83|Z|Bizmo's Brawlpub@DeeprunTram|T|Chat with Townsley and get the second clue, then talk to Tasha Windpaw.|N|Mogu Melon Twist|QO|Mogu Melon Twist delivered: 1/1|CHAT|
 T To Catch A Spy|QID|32381|PRE|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|From Barkeep Townsley.|
 A Stirred, Not Shaken|QID|32426|PRE|32381|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|N|From Barkeep Townsley.|
 T Stirred, Not Shaken|QID|32426|M|23.94,81.62|Z|Bizmo's Brawlpub@DeeprunTram|N|From Professor Kilt.|

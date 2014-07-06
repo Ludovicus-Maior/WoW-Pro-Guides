@@ -4,6 +4,30 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2014-05-30 12:03
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3216/revisions/26217/view
+-- Date: 2014-05-25 22:36
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3216/revisions/26135/view
+-- Date: 2014-05-20 19:00
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3216/revisions/25958/view
+-- Date: 2014-05-14 22:09
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3216/revisions/25902/view
+-- Date: 2014-02-18 00:01
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3216/revisions/25816/view
 -- Date: 2013-11-25 19:47
 -- Who: Fluclo
 
@@ -23,12 +47,12 @@
 
 -- URL: http://wow-pro.com/node/3216/revisions/25374/view
 -- Date: 2013-01-12 19:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS tags
 
 -- URL: http://wow-pro.com/node/3216/revisions/24717/view
 -- Date: 2011-08-07 23:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected coords on [Stormpike's Orders]
 
 -- URL: http://wow-pro.com/node/3216/revisions/24590/view
@@ -54,17 +78,17 @@
 
 -- URL: http://wow-pro.com/node/3216/revisions/24325/view
 -- Date: 2011-04-29 15:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 96 for step C has 1 M coords
 
 -- URL: http://wow-pro.com/node/3216/revisions/24293/view
 -- Date: 2011-04-29 14:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 91 for step C has 1 M coords.
 
 -- URL: http://wow-pro.com/node/3216/revisions/23969/view
 -- Date: 2011-01-09 20:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Verified previous changes.
 --	Added Notes and coords to [A Decisive Strike], [Bigger and Uglier] and made the Stick.
 --	Added a "R"un to the mountain trail to kill troggs.
@@ -74,33 +98,33 @@
 
 -- URL: http://wow-pro.com/node/3216/revisions/23968/view
 -- Date: 2011-01-09 17:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sequence tweak to avoid traveling after [Bigger and Uglier].  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35270 .
 
 -- URL: http://wow-pro.com/node/3216/revisions/23967/view
 -- Date: 2011-01-09 17:38
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Quest [WANTED: The Dark Iron Spy] is not from Innkeeper.  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35268 .
 
 -- URL: http://wow-pro.com/node/3216/revisions/23966/view
 -- Date: 2011-01-09 17:34
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sequence wrong after turning in [The Bearer of Gnoll-edge].  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35267 .
 
 -- URL: http://wow-pro.com/node/3216/revisions/23965/view
 -- Date: 2011-01-09 17:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sequence wrong around [A Nasty Exploit].  See http://wow-pro.com/wiki/source_code_loch_modan#comment-35266 .
 
 -- URL: http://wow-pro.com/node/3216/revisions/23964/view
 -- Date: 2011-01-09 17:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sequence wrong around [A Who's In Charge Here?]
 --	http://wow-pro.com/wiki/source_code_loch_modan#comment-35265
 
 -- URL: http://wow-pro.com/node/3216/revisions/23963/view
 -- Date: 2011-01-09 17:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Initial checkin of guide as of release 2.1.1 of 11-Dec-2010
 
 -- URL: http://wow-pro.com/node/3216/revisions/23302/view
@@ -111,7 +135,11 @@
 -- Date: 2010-12-03 07:29
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjLoc1220', 'Loch Modan', 'Wkjezz', '12', '20', 'WkjWet2025', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjLoc1220', "Leveling", 'Loch Modan', 'Wkjezz', 'Alliance')
+WoWPro:GuideLevels(guide,8,15,11.873)
+WoWPro:GuideNextGuide(guide, 'WkjWet2025')
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 10 |QID|26854|LVL|10|N|This guide requires a minimum level of 10 to do.|
@@ -269,7 +297,7 @@ T Joining the Hunt|QID|13647|M|81.82,61.74|N|To Marek Ironheart.|
 A Hornet Hunting|QID|27028|M|81.82,61.74|N|From Marek Ironheart.|
 A Foxtails By The Handful|QID|27030|M|81.87,61.88|N|From Marek Ironheart.|
 
-f Farstrider Lodge|QID|13647|M|81.96,64.10|N|At Eeryven Grayer. |
+f Farstrider Lodge|QID|27031|M|81.96,64.10|N|At Eeryven Grayer. |
 
 L Level 15 |QID|27031|LVL|15|N|You need to be Level 15 to be able to continue this guide.|
 A Wing Nut|QID|27031|M|81.70,64.59|N|From Bingles Blastenheimer.|

@@ -4,8 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_alliance
+-- Date: 2014-05-27 19:43
+-- Who: Ludovicus
+-- Log: Guide Levels corrected from "0,0" to "19,29".
+
+-- URL: http://wow-pro.com/node/3231/revisions/26230/view
+-- Date: 2014-05-25 22:47
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3231/revisions/26100/view
+-- Date: 2014-05-18 22:16
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3231/revisions/25966/view
+-- Date: 2014-05-14 22:21
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3231/revisions/25435/view
 -- Date: 2013-01-13 15:26
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3231/revisions/24830/view
@@ -19,18 +39,18 @@
 
 -- URL: http://wow-pro.com/node/3231/revisions/24297/view
 -- Date: 2011-04-29 14:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 55 for step C has unknown tag [These are all over the place in Kurzen's Compound.]
 
 -- URL: http://wow-pro.com/node/3231/revisions/24125/view
 -- Date: 2011-02-23 01:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Link this guide to BitCap3035.
 --	Small spelling corrections.
 
 -- URL: http://wow-pro.com/node/3231/revisions/24121/view
 -- Date: 2011-02-21 00:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Spelling error correction and added note to Leadin quest.
 
 -- URL: http://wow-pro.com/node/3231/revisions/23339/view
@@ -41,7 +61,11 @@
 -- Date: 2010-12-03 10:33
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('SavNorStr2530', 'Northern Stranglethorn', 'Savagefool', '25', '30', 'BitCap3035', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('SavNorStr2530', "Leveling", 'Northern Stranglethorn', 'Savagefool', 'Alliance')
+WoWPro:GuideLevels(guide,19,29)
+WoWPro:GuideNextGuide(guide, 'BitCap3035')
+WoWPro:GuideIcon(guide,"ACH",4906)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 24 |LVL|24|QID|26740|N|You need to be level 24 to do this guide.|

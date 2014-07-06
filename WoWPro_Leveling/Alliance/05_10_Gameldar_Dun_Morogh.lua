@@ -4,38 +4,77 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-05-30 12:19
+-- Who: Ludovicus
+-- Log: Level setting
+
+-- URL: http://wow-pro.com/node/3200/revisions/26386/view
+-- Date: 2014-05-29 22:17
+-- Who: Ludovicus
+-- Log: Add mean level
+
+-- URL: http://wow-pro.com/node/3200/revisions/26319/view
+-- Date: 2014-05-26 19:55
+-- Who: Ludovicus
+-- Log: Added Guide type.
+
+-- URL: http://wow-pro.com/node/3200/revisions/26204/view
+-- Date: 2014-05-25 22:08
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3200/revisions/26021/view
+-- Date: 2014-05-17 16:06
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3200/revisions/25955/view
+-- Date: 2014-05-14 22:05
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3200/revisions/25951/view
+-- Date: 2014-05-14 21:54
+-- Who: Ludovicus
+-- Log: New register guide.
+
+-- URL: http://wow-pro.com/node/3200/revisions/25950/view
+-- Date: 2014-05-14 21:51
+-- Who: Ludovicus
+-- Log: New Guide Registration
+
+-- URL: http://wow-pro.com/node/3200/revisions/25638/view
 -- Date: 2013-05-14 18:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
 
 -- URL: http://wow-pro.com/node/3200/revisions/25591/view
 -- Date: 2013-03-23 20:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Name tweaks
 
 -- URL: http://wow-pro.com/node/3200/revisions/25496/view
 -- Date: 2013-01-22 17:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Changed "Lambs on the Lam" to use special target macro!
 
 -- URL: http://wow-pro.com/node/3200/revisions/25412/view
 -- Date: 2013-01-13 14:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a CS tag
 
 -- URL: http://wow-pro.com/node/3200/revisions/25359/view
 -- Date: 2013-01-12 18:36
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added some CS and CN tags
 
 -- URL: http://wow-pro.com/node/3200/revisions/25136/view
 -- Date: 2012-10-09 23:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added Monk quests and got rid of extra spaces and spell corrections.
 
 -- URL: http://wow-pro.com/node/3200/revisions/25131/view
 -- Date: 2012-10-08 22:49
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add Dwarf Monk starter quests.
 
 -- URL: http://wow-pro.com/node/3200/revisions/24869/view
@@ -118,7 +157,7 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/24517/view
 -- Date: 2011-06-07 23:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 128 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.69,50.89|N|You should visit your class trainer Hogral Bakkan. Click this step to continue.|C|Rogue|Gnome,Dwarf|]
 --	! Line 129 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.47,50.97|N|You should visit your class trainer Granis Swiftaxe. Click this step to continue.|C|Warrior|Gnome,Dwarf|]
 --	! Line 130 for step N has unknown tag [Gnome,Dwarf]: [N Class Training |QID|384|M|54.46,50.52|N|You should visit your class trainer Maxan Anvol. Click this step to continue.|C|Priest|Gnome,Dwarf|]
@@ -189,63 +228,47 @@
 
 -- URL: http://wow-pro.com/node/3200/revisions/24354/view
 -- Date: 2011-04-29 18:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Changed O steps to N steps.
 
 -- URL: http://wow-pro.com/node/3200/revisions/24226/view
 -- Date: 2011-04-05 23:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3200/revisions/24219/view
 -- Date: 2011-04-05 23:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3200/revisions/24200/view
 -- Date: 2011-04-02 18:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
 
 -- URL: http://wow-pro.com/node/3200/revisions/24097/view
 -- Date: 2011-02-05 01:18
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed extra tabs and whitespace.
 --	Removed empty tags (aka ||'s).
 
 -- URL: http://wow-pro.com/node/3200/revisions/24083/view
 -- Date: 2011-01-30 19:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected RegisterGuide to match GIT
 
 -- URL: http://wow-pro.com/node/3200/revisions/24063/view
 -- Date: 2011-01-27 19:12
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  WoWPro.Leveling
 
 -- URL: http://wow-pro.com/node/3200/revisions/23812/view
 -- Date: 2010-12-22 06:20
 -- Who: Gylin
 
--- URL: http://wow-pro.com/node/3200/revisions/23632/view
--- Date: 2010-12-06 09:00
--- Who: Gylin
-
--- URL: http://wow-pro.com/node/3200/revisions/23631/view
--- Date: 2010-12-06 08:58
--- Who: Gylin
-
--- URL: http://wow-pro.com/node/3200/revisions/23319/view
--- Date: 2010-12-03 07:56
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3200/revisions/23261/view
--- Date: 2010-12-02 21:47
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3200/revisions/23260/view
--- Date: 2010-12-02 21:46
--- Who: Jiyambi
-
-WoWPro.Leveling:RegisterGuide('GamDun0510', 'Dun Morogh', 'Gameldar', '05', '10', 'WkjLoc1220', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
+WoWPro:GuideLevels(guide,2,10,5.74453)
+WoWPro:GuideNextGuide(guide, 'WkjLoc1220')
+WoWPro:GuideIcon(guide,"ACH",627)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Beer Basted Boar Ribs|QID|384|M|53.89,50.79|N|From Ragnar Thunderbrew. Kill any boars you see from now on for Tender Boar Meat.|

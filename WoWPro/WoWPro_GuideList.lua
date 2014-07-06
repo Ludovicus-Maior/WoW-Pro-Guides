@@ -131,6 +131,9 @@ function WoWPro.ActivateTab(tabname)
 	if not WoWPro[tab.name].GuideList then
 	    WoWPro[tab.name].GuideList = {}
 	end
+	if WoWPro[tab.name].GuideList.Init then
+	    WoWPro[tab.name].GuideList.Init()
+	end
     if not WoWPro[tab.name].GuideList.Frame then
 	    WoWPro[tab.name]:CreateGuideTabFrame()
 	else
@@ -291,13 +294,37 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
     sample:SetText("Something")
     local ROWHEIGHT = floor(sample:GetStringHeight()*1.5) -- Half a space between rows
     local frameHeight = 0
-        
+    
+    
 	local prevrow
 	for i,iGuide in ipairs(self.GuideList.Guides) do
 		local row = CreateFrame("CheckButton", string.format("%s_Guide_Row%d",self.name,i), frame)
 		
+		if WoWPro[iGuide.guide.guidetype].GuideTooltipInfo then
+		    WoWPro:dbp("CreateGuideTabFrame_Rows: tooltip for row %d, GID %s",i, iGuide.GID )
+		    row:SetScript("OnEnter", function(self)      
+    		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row,tooltip,iGuide.guide)		            
+    		    GameTooltip:Show()
+    		end)
+    		row:SetScript("OnLeave", function(self)
+    		    WoWPro:Print("GuideTooltip: Leaving %s",iGuide.GID)
+    		    GameTooltip:Hide()
+    		end)
+        end
+
+        local r,g,b
+        
+        if iGuide.guide.level then
+            r, g, b =  unpack(WoWPro.LevelColor(iGuide.guide.level))
+--            WoWPro:dbp("Guide %s Level %d: %f, %f, %f",iGuide.GID, iGuide.guide.level, r , g , b)
+        else
+            r, g, b = 1 , 1, 1
+--            WoWPro:dbp("Defaulted Guide %s Level %s: %f, %f, %f",iGuide.GID, tostring(iGuide.guide.level), r , g , b)
+        end
+        
         for _,colDesc in pairs(self.GuideList.Format) do
             local fontString = row:CreateFontString(nil, nil, "GameFontHighlightSmall")
+            fontString:SetTextColor(r, g, b, 1)
             fontString:SetJustifyH("LEFT")          
 		    if type(iGuide[colDesc[1]]) == "function" then
 		        fontString:SetText(iGuide[colDesc[1]]())
@@ -386,4 +413,4 @@ function WoWPro:CreateGuideTabFrame()
     end
     
 end 
-
+-- WoWPro.GuideList

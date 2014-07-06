@@ -4,18 +4,43 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
+-- Date: 2014-06-02 13:19
+-- Who: Ludovicus
+-- Log: Set Levels.
+
+-- URL: http://wow-pro.com/node/3236/revisions/26235/view
+-- Date: 2014-05-25 22:51
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3236/revisions/26082/view
+-- Date: 2014-05-18 21:54
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3236/revisions/26027/view
+-- Date: 2014-05-17 16:59
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3236/revisions/26026/view
+-- Date: 2014-05-17 16:58
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3236/revisions/25705/view
 -- Date: 2013-06-18 00:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Step C [Stalling the Survey:24519] in JiySou3035 is missing a CS|CC|CN tag.
 
 -- URL: http://wow-pro.com/node/3236/revisions/25677/view
 -- Date: 2013-05-17 20:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Bad coord for [Stalling the Survey]
 
 -- URL: http://wow-pro.com/node/3236/revisions/25490/view
 -- Date: 2013-01-13 23:48
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tag
 
 -- URL: http://wow-pro.com/node/3236/revisions/24928/view
@@ -36,7 +61,11 @@
 -- Date: 2010-12-03 10:52
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiySou3035', 'Southern Barrens', 'Jiyambi', '30', '35', 'JiyDus3540', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiySou3035', "Leveling", 'Southern Barrens', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,28,33, 30.2616)
+WoWPro:GuideNextGuide(guide, 'JiyDus3540')
+WoWPro:GuideIcon(guide,"ACH",4937)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 T Warchief's Command: Southern Barrens!|O|QID|28549|M|31.42,13.32|N|To Nura Pathfinder.|

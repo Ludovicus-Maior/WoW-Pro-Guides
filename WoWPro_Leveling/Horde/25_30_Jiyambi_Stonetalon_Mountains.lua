@@ -4,13 +4,43 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2014-06-02 15:26
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3234/revisions/26233/view
+-- Date: 2014-05-25 22:49
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3234/revisions/26069/view
+-- Date: 2014-05-18 21:37
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3234/revisions/26031/view
+-- Date: 2014-05-17 17:05
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3234/revisions/25932/view
+-- Date: 2014-04-14 19:36
+-- Who: Ludovicus
+-- Log: CS tag
+
+-- URL: http://wow-pro.com/node/3234/revisions/25908/view
+-- Date: 2014-03-06 23:45
+-- Who: Ludovicus
+-- Log: Removed some incorrect LVL tags.
+
+-- URL: http://wow-pro.com/node/3234/revisions/25501/view
 -- Date: 2013-01-22 18:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: "Orders from Base Camp" may be gone.   Corrected CN tag to CS tag.  Coord Tweaks.
 
 -- URL: http://wow-pro.com/node/3234/revisions/25473/view
 -- Date: 2013-01-13 19:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3234/revisions/24927/view
@@ -19,7 +49,7 @@
 
 -- URL: http://wow-pro.com/node/3234/revisions/24329/view
 -- Date: 2011-04-29 16:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 45 for step C has 3 M coords:, Line 77 for step A has unknown tag [GRP]:
 
 -- URL: http://wow-pro.com/node/3234/revisions/23972/view
@@ -55,7 +85,11 @@
 -- Date: 2010-12-03 10:47
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiySto2530', "Stonetalon Mountains", 'Jiyambi', '25', '30', 'JiySou3035', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiySto2530', "Leveling", "Stonetalon Mountains", 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,24,28, 25.0368)
+WoWPro:GuideNextGuide(guide, 'JiySou3035')
+WoWPro:GuideIcon(guide,"ACH",4936)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Silverwind Refuge|QID|25945;28532|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|
@@ -80,20 +114,21 @@ T Alliance Attack Plans|QID|26002|M|74.28,47.71|N|To Saurboz.|
 A Krom'gar Fortress|QID|26004|PRE|26002|M|74.28,47.71|N|From Saurboz.|
 
 R Krom'gar Fortress|QID|26004|M|66.54,62.80|N|Run to Krom'gar Fortress.|
+f Krom'gar Fortress|QID|26004|M|66.52,62.75|N|Get the flight point.|
 T Krom'gar Fortress|QID|26004|M|66.13,63.72|N|To Overlord Krom'gar.|
-A Seek and Destroy|QID|26009|M|66.07,63.75|RANK|3|N|From Overlord Krom'gar. May only be available at certain times.|LVL|31|
+A Seek and Destroy|QID|26009|M|66.07,63.75|RANK|3|N|From Overlord Krom'gar. May only be available at certain times.|
 A Ashes to Ashes|QID|26010|PRE|26004|M|66.13,63.72|N|From Overlord Krom'gar.|
 h Krom'gar Fortress|QID|26011|M|66.45,64.20|N|If you like, set your hearth at Felonius Stark.|
 A Dream of a Better Tomorrow|RANK|2|QID|26026|PRE|26004|M|66.13,64.23|N|From Clarissa.|
 A Might of the Krom'gar|QID|28084|M|65.85,64.12|N|From the Krom'gar Quartermaster. The quartermaster will sell you items depending on your rank in the army. Your current rank is listed up in your buffs.|
 A Enemy of the Horde: Marshal Paltrow|QID|26011|PRE|26004|M|65.77,63.33|N|From Spy-Mistress Anara.|
 
-C Seek and Destroy|QID|26009|M|61.42,64.88|S|RANK|3|N|Kill Alliance soldiers.|LVL|31|
+C Seek and Destroy|QID|26009|M|61.42,64.88|S|RANK|3|N|Kill Alliance soldiers.|
 C Ashes to Ashes|QID|26010|U|56473|M|61.42,64.88|S|N|Use the flamethrower on the tents.|
 C Enemy of the Horde: Marshal Paltrow|QID|26011|M|62.1,68.02|N|Kill Marshal Paltrow.|
 ; A Orders from Base Camp|QID|26016|M|62.04,67.88|N|The orders drop from Marshal Paltrow. Right-click them to accept the quest.|U|56474|
 C Ashes to Ashes|NC|QID|26010|U|56473|M|61.42,64.88|US|N|Use the flamethrower on the tents.|
-C Seek and Destroy|QID|26009|M|61.42,64.88|US|RANK|3|N|Kill Alliance soldiers.|LVL|31|
+C Seek and Destroy|QID|26009|M|61.42,64.88|US|RANK|3|N|Kill Alliance soldiers.|
 l Mechanized Air|RANK|2|QID|26026|M|59.94,64.21|L|55223|N|Inside the goblin hut.|
 l Mechanized Fire|RANK|2|QID|26026|M|63.09,56.72|L|55221|N|On top of the huge logging machine.|
 l Mechanized Ice|RANK|2|QID|26026|M|66.18,50.05|L|55222|N|On top of the tower.|
@@ -104,7 +139,7 @@ C BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.21,47.19|N|Jump off if you'd like t
 H Krom'gar Fortress|QID|26011|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T Enemy of the Horde: Marshal Paltrow|QID|26011|M|65.77,63.31|N|To Spy-Mistress Anara, back at Krom'gar Fortress.|
 T BEWARE OF CRAGJAW!|RANK|2|O|QID|26043|M|65.77,63.31|N|To Spy-Mistress Anara.|
-T Seek and Destroy|QID|26009|M|66.09,63.75|RANK|3|N|To Overlord Krom'gar.|LVL|31|
+T Seek and Destroy|QID|26009|M|66.09,63.75|RANK|3|N|To Overlord Krom'gar.|
 T Ashes to Ashes|QID|26010|M|66.09,63.75|N|To Overlord Krom'gar.|
 A Report to Bombgutz|QID|26020|PRE|26010|M|66.09,63.75|N|From Overlord Krom'gar.|
 ; T Orders from Base Camp|QID|26016|M|66.09,63.75|N|To Overlord Krom'gar.|
@@ -159,7 +194,7 @@ A Reinforcements...|RANK|2|QID|26066|PRE|26060;26061|M|71.15,91.15|N|From Subjug
 T Fight On Their Stomachs|RANK|2|QID|26064|M|71.98,91.27|N|To Denni'ka.|
 
 C Da Voodoo: Resonite Crystal|NC|QID|26062|M|59.78,88.81|N|Loot crystals by right-clicking them.|S|
-C Reinforcements...|RANK|2|QID|26066|U|56794|M|65.11,88.33;62.07,89.29;60.17,87.05|CN|N|Use the whip on kobolds. If it doesn't work the first time, you can keep using it until the kobold becomes under your control.|
+C Reinforcements...|RANK|2|QID|26066|U|56794|M|65.11,88.33;62.07,89.29;60.17,87.05|CS|N|Use the whip on kobolds. If it doesn't work the first time, you can keep using it until the kobold becomes under your control.|
 C Da Voodoo: Resonite Crystal|NC|QID|26062|M|59.78,88.81|N|Loot crystals by right-clicking them.|US|
 
 T Reinforcements...|RANK|2|QID|26066|M|71.12,91.15|N|To Subjugator Devo.|
@@ -175,7 +210,7 @@ T Kobold Fury!|RANK|2|QID|26068|M|71.18,91.08|N|To Subjugator Devo, back in Mala
 T Jin'Zil's Blessing|QID|26067|M|71.11,91.19|N|To Witch Doctor Jin'Zil.|
 A All's Quiet on the Southern Front|QID|26073|PRE|26067|M|71.11,91.19|N|From Witch Doctor Jin'Zil.|
 A Nura Pathfinder|QID|26069|M|71.11,91.19||N|From Witch Doctor Jin'Zil. Take this quest if you plan on going to Southern Barrens.|
-H Krom'gar Fortress|QID|26073|M|66.54,62.80|N|Run back if you didn't set your hearth there, or if you hearth is on cooldown.|
+H Krom'gar Fortress|QID|26073|M|66.54,62.80|N|FlyRun back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T All's Quiet on the Southern Front|QID|26073|M|66.14,63.75|N|To Overlord Krom'gar.|
 A Beginning of the End|QID|26074|M|66.20,63.64|N|From Overlord Krom'gar.|
 B Quartermaster|QID|26074|M|65.85,64.12|N|You've gone up a rank in the Krom'gar army! Check and see if there's anything you want at the quartermaster before moving on.|

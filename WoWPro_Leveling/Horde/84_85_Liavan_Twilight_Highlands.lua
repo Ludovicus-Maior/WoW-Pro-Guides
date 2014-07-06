@@ -4,6 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2014-06-02 13:05
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3312/revisions/26299/view
+-- Date: 2014-05-26 01:17
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3312/revisions/26120/view
+-- Date: 2014-05-18 23:02
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3312/revisions/26000/view
+-- Date: 2014-05-16 20:28
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3312/revisions/24471/view
 -- Date: 2011-06-01 00:16
 -- Who: Crackerhead22
 -- Log: Removed |Z|The Maw of Madness, as it was unneeded.
@@ -56,7 +75,11 @@
 -- Date: 2010-12-03 23:30
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('LiaTwi8485', 'Twilight Highlands', 'Liavan', '84', '85', nil, 'Horde', function()
+local guide = WoWPro:RegisterGuide('LiaTwi8485', "Leveling", 'Twilight Highlands', 'Liavan', 'Horde')
+WoWPro:GuideLevels(guide,84,84,84)
+WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideIcon(guide,"ACH",4866)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Orgrimmar|QID|28717|Z|Orgrimmar|N|Make your way to Orgimmar.|

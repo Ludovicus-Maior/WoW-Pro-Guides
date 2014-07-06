@@ -4,18 +4,38 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2014-06-02 15:13
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3242/revisions/26241/view
+-- Date: 2014-05-25 22:56
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3242/revisions/26075/view
+-- Date: 2014-05-18 21:47
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3242/revisions/26024/view
+-- Date: 2014-05-17 16:54
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3242/revisions/25746/view
 -- Date: 2013-08-16 19:42
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added the new nest of eggs for [The Brood of Onyxia]
 
 -- URL: http://wow-pro.com/node/3242/revisions/25579/view
 -- Date: 2013-03-23 19:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: QID correction on [Warchief's Command: Dustwallow Marsh!] 
 
 -- URL: http://wow-pro.com/node/3242/revisions/25476/view
 -- Date: 2013-01-13 19:37
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3242/revisions/24929/view
@@ -25,17 +45,17 @@
 
 -- URL: http://wow-pro.com/node/3242/revisions/24332/view
 -- Date: 2011-04-29 16:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 179 for step f has unknown tag [From Dyslix Silvergrub.]
 
 -- URL: http://wow-pro.com/node/3242/revisions/24192/view
 -- Date: 2011-03-20 21:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Import TwoToad https://github.com/Jiyambi/WoW-Pro-Guides/commit/6f679123512da96001fc6cbc2e98f2f4e41eb505
 
 -- URL: http://wow-pro.com/node/3242/revisions/24191/view
 -- Date: 2011-03-20 21:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Moved TwoToad's change from Git to source code page.
 
 -- URL: http://wow-pro.com/node/3242/revisions/24008/view
@@ -51,7 +71,11 @@
 -- Date: 2010-12-03 11:16
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyDus3540', 'Dustwallow Marsh', 'Jiyambi', '35', '40', 'JiyTho4045', 'Horde', function()
+local guide = WoWPro:RegisterGuide('JiyDus3540', "Leveling", 'Dustwallow Marsh', 'Jiyambi', 'Horde')
+WoWPro:GuideLevels(guide,34,39, 35.0632)
+WoWPro:GuideNextGuide(guide, 'JiyTho4045')
+WoWPro:GuideIcon(guide,"ACH",4929)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Suspicious Hoofprints|RANK|1|QID|27259|M|29.68,47.55|N|From a patch of dirt on the ground.|

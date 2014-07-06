@@ -4,8 +4,27 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
+-- Date: 2014-06-02 15:25
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3300/revisions/26290/view
+-- Date: 2014-05-26 01:09
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3300/revisions/26160/view
+-- Date: 2014-05-20 19:49
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3300/revisions/26003/view
+-- Date: 2014-05-16 20:33
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3300/revisions/25578/view
 -- Date: 2013-03-23 19:04
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest name tweak
 
 -- URL: http://wow-pro.com/node/3300/revisions/24609/view
@@ -16,7 +35,7 @@
 
 -- URL: http://wow-pro.com/node/3300/revisions/24353/view
 -- Date: 2011-04-29 18:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 187 for step A has unknown tag [To the left. (24.01, 61.74)]: [A Valkyrion Must Burn |QID|12953| To the left. (24.01, 61.74)|M|24.0,61.8|]
 --	! Line 223 for step C Bad coord : [C Battling the Elements |QID|12967| |N|Get on Snorri's Back.  Pick up the Snowdrifts  and throw Snowballs (2) at Seething Revenants.|M|1,|]
 --	! Line 226 for step T has unknown tag [(63.17,63.21)]: [T Forging an Alliance |QID|12924|(63.17,63.21)|M|63.2,63.2|]
@@ -29,7 +48,11 @@
 -- Date: 2010-12-03 22:33
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("ScoSto7980", "The Storm Peaks", "Scoot", "79", "80", "ScoIce8080", "Horde", function()
+local guide = WoWPro:RegisterGuide("ScoSto7980", "Leveling", "The Storm Peaks", "Scoot", "Horde")
+WoWPro:GuideLevels(guide,77,77, 77)
+WoWPro:GuideNextGuide(guide, "ScoIce8080")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Read Please |QID|12853| |N|This guide will get you the Achievement The Summit of Storm Peaks.  Set your Hearth anywhere you want. Sell/Repair/Restock when you think you need to.|

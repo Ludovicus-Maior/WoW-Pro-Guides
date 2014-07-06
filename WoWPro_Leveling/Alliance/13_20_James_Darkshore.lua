@@ -4,13 +4,37 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2014-05-30 12:16
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3218/revisions/26332/view
+-- Date: 2014-05-27 19:53
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "13,20" to "0,17".
+
+-- URL: http://wow-pro.com/node/3218/revisions/26219/view
+-- Date: 2014-05-25 22:38
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3218/revisions/26065/view
+-- Date: 2014-05-18 21:30
+-- Who: Ludovicus
+-- Log: Added Icon
+
+-- URL: http://wow-pro.com/node/3218/revisions/25959/view
+-- Date: 2014-05-14 22:11
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3218/revisions/25437/view
 -- Date: 2013-01-13 15:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added C* tags
 
 -- URL: http://wow-pro.com/node/3218/revisions/25001/view
 -- Date: 2012-06-08 14:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update P tag to include prof #.
 
 -- URL: http://wow-pro.com/node/3218/revisions/24734/view
@@ -25,7 +49,7 @@
 
 -- URL: http://wow-pro.com/node/3218/revisions/24456/view
 -- Date: 2011-05-30 17:51
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 198 for step T has unknown tag [QlID]: [T Denying Manpower|QlID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|]
 
 -- URL: http://wow-pro.com/node/3218/revisions/24410/view
@@ -34,7 +58,7 @@
 
 -- URL: http://wow-pro.com/node/3218/revisions/24294/view
 -- Date: 2011-04-29 14:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 249 for step C has unknown tag [Follow Archaeologist Hollee.]
 
 -- URL: http://wow-pro.com/node/3218/revisions/23872/view
@@ -97,7 +121,11 @@
 -- Date: 2010-12-03 07:32
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamDar1320", "Darkshore", "Jame", "13", "20", "WkjAsh2025", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamDar1320", "Leveling", "Darkshore", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,8,17,12.19)
+WoWPro:GuideNextGuide(guide, "WkjAsh2025")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 L Level 8 |QID|13518|LVL|8|N|This guide requires a minimum level of 8 to do.|

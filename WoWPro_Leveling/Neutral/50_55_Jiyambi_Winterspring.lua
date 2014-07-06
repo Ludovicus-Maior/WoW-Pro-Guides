@@ -4,6 +4,35 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_winterspring_neutral
+-- Date: 2014-06-02 16:07
+-- Who: Ludovicus
+-- Log: Set guide level
+
+-- URL: http://wow-pro.com/node/3264/revisions/26352/view
+-- Date: 2014-05-27 20:42
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "50,55" to "49,54".
+
+-- URL: http://wow-pro.com/node/3264/revisions/26259/view
+-- Date: 2014-05-26 00:27
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3264/revisions/26128/view
+-- Date: 2014-05-20 11:37
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3264/revisions/26070/view
+-- Date: 2014-05-18 21:42
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3264/revisions/26060/view
+-- Date: 2014-05-17 20:32
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3264/revisions/24962/view
 -- Date: 2012-02-16 20:15
 -- Who: Crackerhead22
 -- Log: Minor tweaks.
@@ -29,20 +58,20 @@
 
 -- URL: http://wow-pro.com/node/3264/revisions/24404/view
 -- Date: 2011-05-17 02:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3264/revisions/24396/view
 -- Date: 2011-05-17 01:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3264/revisions/24140/view
 -- Date: 2011-02-28 23:25
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add [Yetiphobia].
 
 -- URL: http://wow-pro.com/node/3264/revisions/24139/view
 -- Date: 2011-02-28 23:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added [Perfect Horns] to the Horde Winterfall guide.
 --	The Alliance side had it.  Discovered by Josral.
 
@@ -54,7 +83,11 @@
 -- Date: 2010-12-03 11:55
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'CraBla5458|JiyBla5560', 'Neutral', function()
+local guide = WoWPro:RegisterGuide('JiyWin5055', "Leveling", 'Winterspring', 'Jiyambi', 'Neutral')
+WoWPro:GuideLevels(guide,49,54,50.4375)
+WoWPro:GuideNextGuide(guide, 'CraBla5458|JiyBla5560')
+WoWPro:GuideIcon(guide,"ACH",4940)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Winterspring|QID|28521|M|21.04,46.22|N|Head through the Timbermaw tunnels to Winterspring.|

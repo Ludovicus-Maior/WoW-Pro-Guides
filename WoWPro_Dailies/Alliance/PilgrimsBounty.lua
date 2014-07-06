@@ -4,22 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
+-- Date: 2014-06-10 23:21
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3456/revisions/25706/view
 -- Date: 2013-06-18 00:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Got rid of stuttered M tag
 
 -- URL: http://wow-pro.com/node/3456/revisions/24897/view
 -- Date: 2012-01-19 00:02
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct node numbers
 
 -- URL: http://wow-pro.com/node/3456/revisions/24896/view
 -- Date: 2012-01-19 00:00
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GIT
 
-WoWPro.Dailies:RegisterGuide("LudoPilgrimDailiesA","Pilgrim's Bounty","Pilgrim's Bounty","WE", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoPilgrimDailiesA",'Dailies',"Pilgrim's Bounty", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,666) -- "Pilgrim's Bounty"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Pilgrim's Bounty Start|N|Get thee to Stormwind City Gates.|
 A She Says Potato|QID|14055|M|33.88,50.80|Z|Elwynn Forest|N|From Jasper Moore, Stormwind City Gates.|
 A We're Out of Cranberry Chutney Again?|QID|14053|M|33.72,50.64|Z|Elwynn Forest|N|From Ellen Moore.|

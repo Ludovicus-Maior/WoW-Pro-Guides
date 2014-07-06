@@ -4,37 +4,46 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2014-06-10 21:29
+-- Who: Ludovicus
+-- Log: Changed Guide format.
+
+-- URL: http://wow-pro.com/node/3458/revisions/25679/view
 -- Date: 2013-05-17 20:52
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log:  [A Smokywood Pastures' Thank You!]
 
 -- URL: http://wow-pro.com/node/3458/revisions/25642/view
 -- Date: 2013-05-14 19:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Coord and quest corrections
 
 -- URL: http://wow-pro.com/node/3458/revisions/25301/view
 -- Date: 2013-01-09 17:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3458/revisions/25266/view
 -- Date: 2012-12-25 20:05
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Update winter veil to use the latest WE updates and eliminate many manual click offs!
 
 -- URL: http://wow-pro.com/node/3458/revisions/24901/view
 -- Date: 2012-01-19 00:08
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Correct node number
 
 -- URL: http://wow-pro.com/node/3458/revisions/24900/view
 -- Date: 2012-01-19 00:07
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Sync to GIT
 
-WoWPro.WorldEvents:RegisterGuide("LudoWinterVeilH","Winter Veil (Horde)","Winter Veil (Horde)","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoWinterVeilH",'WorldEvents',"Winter Veil", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"WinterVeil")
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Eggs, Babs, Eggs!|QID|6962|N|You are going to need 5 Small Eggs. You can either pay outrageous prices on the AH, or farm them and sell the extra ones for outrageous prices on the AH.  I'll give you 4 places to farm them.|
 K Small Eggs: Eversong Woods|QID|6962|M|40.4,50.8;45.8,64.8;48.0,53.6|Z|Eversong Woods|CN|L|6889 20|N|Kill Feral Dragonhawk Hatchlings within the markers.|
 K Small Eggs: Eversong Woods|QID|6962|M|54.8,61.6;62.2,59.4;70.2,59.6|Z|Eversong Woods|CN|L|6889 20|N|Kill Crazed Dragonhawks between the markers.|

@@ -9,7 +9,7 @@
 
 -- URL: http://wow-pro.com/node/3460/revisions/24905/view
 -- Date: 2012-01-19 00:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 WoWPro.Profession:RegisterGuide('TwiEnchanting', 'Enchanting', 'Enchanting', 'Twists', '0', ' ', nil, 'Neutral', function()
 return [[

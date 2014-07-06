@@ -4,8 +4,28 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2014-05-27 20:56
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "27,34".
+
+-- URL: http://wow-pro.com/node/3313/revisions/26238/view
+-- Date: 2014-05-25 22:54
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3313/revisions/26076/view
+-- Date: 2014-05-18 21:48
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3313/revisions/25970/view
+-- Date: 2014-05-14 22:25
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3313/revisions/25399/view
 -- Date: 2013-01-13 01:10
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: A few CS,CC and CN tags
 
 -- URL: http://wow-pro.com/node/3313/revisions/24548/view
@@ -106,7 +126,11 @@
 -- Date: 2010-12-03 23:45
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjDes3035', 'Desolace', 'Wkjezz', '30', '35', 'WkjFer3540', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjDes3035', "Leveling", 'Desolace', 'Wkjezz', 'Alliance')
+WoWPro:GuideLevels(guide,27,34)
+WoWPro:GuideNextGuide(guide, 'WkjFer3540')
+WoWPro:GuideIcon(guide,"ACH",4930)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Farwatcher's Glen|QID|25938|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|

@@ -4,31 +4,40 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2014-06-10 22:26
+-- Who: Ludovicus
+-- Log: Coverted guide
+
+-- URL: http://wow-pro.com/node/3476/revisions/25621/view
 -- Date: 2013-05-14 15:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Removed extra M tag
 
 -- URL: http://wow-pro.com/node/3476/revisions/25411/view
 -- Date: 2013-01-13 14:31
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC and CN tag
 
 -- URL: http://wow-pro.com/node/3476/revisions/25358/view
 -- Date: 2013-01-12 18:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3476/revisions/25291/view
 -- Date: 2013-01-09 01:41
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3476/revisions/24983/view
 -- Date: 2012-05-27 18:11
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("LudoArgTour", "Icecrown", "Argent Tournament", "Lich", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoArgTour",'Dailies', "Icecrown", "Ludovicus", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N The Argent Tournament|N|Quests for the The Argent Tournament, for your faction, and MAYBE for the others too!|
 ; Setup Quests
 A The Argent Tournament|QID|13667|M|69.6,22.8|N|From Justicar Mariel Trueheart.|

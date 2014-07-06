@@ -4,13 +4,32 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
+-- Date: 2014-06-02 15:06
+-- Who: Ludovicus
+-- Log: Set Levels
+
+-- URL: http://wow-pro.com/node/3248/revisions/26247/view
+-- Date: 2014-05-25 23:00
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3248/revisions/26107/view
+-- Date: 2014-05-18 22:26
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3248/revisions/26019/view
+-- Date: 2014-05-16 22:08
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3248/revisions/25475/view
 -- Date: 2013-01-13 19:35
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CC tag
 
 -- URL: http://wow-pro.com/node/3248/revisions/25345/view
 -- Date: 2013-01-11 23:32
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3248/revisions/24887/view
@@ -20,11 +39,11 @@
 
 -- URL: http://wow-pro.com/node/3248/revisions/24390/view
 -- Date: 2011-05-17 00:56
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3248/revisions/24334/view
 -- Date: 2011-04-29 16:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 22 for step A has 3 M coords, Line 124 for step A has unknown tag [From Gargal]
 
 -- URL: http://wow-pro.com/node/3248/revisions/24047/view
@@ -45,7 +64,11 @@
 -- Date: 2010-12-03 11:29
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('LiaBad4548', 'Badlands', 'Liavan', '45', '48', 'CraSea4850', 'Horde', function()
+local guide = WoWPro:RegisterGuide('LiaBad4548', "Leveling", 'Badlands', 'Liavan', 'Horde')
+WoWPro:GuideLevels(guide,44,46, 44.016)
+WoWPro:GuideNextGuide(guide, 'CraSea4850')
+WoWPro:GuideIcon(guide,"ACH",4900)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A To Fuselight Proper|QID|27763|M|92.77,38.90|N|From Eddie Flofizzle.|

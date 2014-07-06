@@ -4,13 +4,37 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2014-05-27 20:16
+-- Who: Ludovicus
+-- Log: GuideLevels corrected from "0,0" to "30,38".
+
+-- URL: http://wow-pro.com/node/3241/revisions/26240/view
+-- Date: 2014-05-25 22:55
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3241/revisions/26074/view
+-- Date: 2014-05-18 21:46
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3241/revisions/26073/view
+-- Date: 2014-05-18 21:46
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3241/revisions/25973/view
+-- Date: 2014-05-14 22:28
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3241/revisions/25420/view
 -- Date: 2013-01-13 14:54
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3241/revisions/24557/view
 -- Date: 2011-06-18 17:24
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: ! Line 193 for step R has unknown tag [Talk to Jaina to be ported to Stormwind.]: [R Stormwind City|QID|27240|M|66.26,49.05|Talk to Jaina to be ported to Stormwind.|]
 --	! Line 281 for step C has unknown tag [.]: [C Bloodfen Feathers|QID|27407|S|M|34.88,67.93|N|Kill and loot raptors until you get 5 Bloodfen Feathers.|.|]
 
@@ -26,7 +50,7 @@
 
 -- URL: http://wow-pro.com/node/3241/revisions/24468/view
 -- Date: 2011-05-31 21:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Two extra "A The Zeppelin Crash|QID|27346|M|55.09,68.11|Z|".
 --	Removed Z tag from [C Challenge to the Black Flight|QID|27411|U|33095|M|56.47,71.28|].
 --	Coords should be confirmed.
@@ -38,7 +62,7 @@
 
 -- URL: http://wow-pro.com/node/3241/revisions/24150/view
 -- Date: 2011-03-08 12:27
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: The [The Orc Report] does not come from "Swamp Eye" Jarl, but from a grave near the house he is in.
 
 -- URL: http://wow-pro.com/node/3241/revisions/23933/view
@@ -84,7 +108,11 @@
 -- Date: 2010-12-03 11:15
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjDus3540', 'Dustwallow Marsh', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function()
+local guide = WoWPro:RegisterGuide('WkjDus3540', "Leveling", 'Dustwallow Marsh', 'WKjezz', 'Alliance')
+WoWPro:GuideLevels(guide,30,38)
+WoWPro:GuideNextGuide(guide, 'WkjTho4045')
+WoWPro:GuideIcon(guide,"ACH",4929)
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N This Guide|QID|27251|N|Picks up directly from where Southern Barrens leaves off. If you did not do Southern Barrens, you can take the Hero's Call quest from Darnassus, Exodar or Stormwind instead.  Either make your way to Fort Triumph and run to Theramore or sail from Wetlands.  (Manually close this step by right clicking the check box)|

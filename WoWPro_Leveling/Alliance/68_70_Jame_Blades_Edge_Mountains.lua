@@ -4,17 +4,36 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2014-05-30 12:06
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3281/revisions/26274/view
+-- Date: 2014-05-26 00:43
+-- Who: Ludovicus
+-- Log: Added guide type.
+
+-- URL: http://wow-pro.com/node/3281/revisions/26146/view
+-- Date: 2014-05-20 19:37
+-- Who: Ludovicus
+-- Log: Icon
+
+-- URL: http://wow-pro.com/node/3281/revisions/25986/view
+-- Date: 2014-05-14 22:41
+-- Who: Ludovicus
+-- Log: New registration guide.
+
+-- URL: http://wow-pro.com/node/3281/revisions/25404/view
 -- Date: 2013-01-13 01:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a CS tag
 
 -- URL: http://wow-pro.com/node/3281/revisions/25090/view
 -- Date: 2012-09-25 00:57
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
 -- URL: http://wow-pro.com/node/3281/revisions/24892/view
 -- Date: 2012-01-18 22:09
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: For [The Skyguard Outpost], get from Chu'a'lor not Sky Commander Keller.
 
 -- URL: http://wow-pro.com/node/3281/revisions/24847/view
@@ -29,7 +48,7 @@
 
 -- URL: http://wow-pro.com/node/3281/revisions/24575/view
 -- Date: 2011-06-22 02:13
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: # Checking ../WoWPro_Leveling/Alliance/68_70_Jame_Blades_Edge_Mountains.lua
 --	! Line 258 for step C has unknown tag [M32.66,37.52U]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
 --	! Line 258 for step C has unknown tag [31122]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
@@ -41,7 +60,7 @@
 
 -- URL: http://wow-pro.com/node/3281/revisions/24308/view
 -- Date: 2011-04-29 14:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Line 254 for step A has unknown tag [From Tree Warden Chawn.], Line 257 for step T has unknown tag [To Samia Inkling.], Line 273 for step T has unknown tag [To Tree Warden Chawn.]
 
 -- URL: http://wow-pro.com/node/3281/revisions/23833/view
@@ -57,7 +76,11 @@
 -- Date: 2010-12-03 21:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor6872", "Alliance", function()
+local guide = WoWPro:RegisterGuide("JamBla6870", "Leveling", "Blade's Edge Mountains", "Jame", "Alliance")
+WoWPro:GuideLevels(guide,62,70,65.8483)
+WoWPro:GuideNextGuide(guide, "JamBor6872")
+WoWPro:GuideIcon(guide,"ACH",4928)
+WoWPro:GuideSteps(guide, function()
 return [[
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock at your repective faction.|

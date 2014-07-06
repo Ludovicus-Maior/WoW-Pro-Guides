@@ -35,7 +35,7 @@ function WoWPro:Add2Log(level,msg)
         DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 	WoWPro.Serial = WoWPro.Serial + 1
-	if WoWPro.Serial > 999 then
+	if WoWPro.Serial > 9999 then
 	    WoWPro.Serial = 0
 	end
 	if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
@@ -43,9 +43,9 @@ function WoWPro:Add2Log(level,msg)
 	        WoWProDB.global.Log = WoWPro.Log
 	        WoWPro.Log = nil
 	    end
-	    WoWProDB.global.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+	    WoWProDB.global.Log[date("%H%M.")..string.format("%04d",WoWPro.Serial)] = msg
 	else
-	    WoWPro.Log[date("%Y%m%d/%H%M.")..string.format("%03d",WoWPro.Serial)] = msg
+	    WoWPro.Log[date("%H%M.")..string.format("%04d",WoWPro.Serial)] = msg
 	end
 end
 -- Debug print function --
@@ -234,7 +234,7 @@ WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky",
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
 	"level", "QID","target", "prof", "mat", "rank", "rep","waypcomplete", "why",
 	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
-	 "buff", "chat","recipe"
+	 "buff", "chat","recipe", "gossip","conditional","pet"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -252,7 +252,7 @@ function WoWPro:OnInitialize()
 	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
 	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
-	WoWProDB.global.RecklessCombat = WoWProDB.global.RecklessCombat or false
+	WoWProDB.global.RecklessCombat = false
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
@@ -263,8 +263,10 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
-	WoWPro.DebugLevel = WoWProCharDB.DebugLevel
-    
+    WoWPro.DebugLevel = WoWProCharDB.DebugLevel
+    WoWPro.GossipText = nil
+    WoWPro.GuideLoaded = false
+    WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
 end
 
 
@@ -313,17 +315,26 @@ function WoWPro:OnEnable()
 	if not keys then	
 		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
 	end
+    local keys = GetBindingKey("WOWPRO_SELECTOR")
+	if keys then
+	    -- Do NOT release with this binding until it works!
+		-- SetBinding("ALT-G", "WOWPRO_SELECTOR")
+		WoWPro:Warning("Achtung! Detected key bound to WOWPRO_SELECTOR (%s). Undoing the binding.",keys)
+		SetBinding(keys, nil)
+	end
+    
 
 	-- Event Setup --
 	local bucket = LibStub("AceBucket-3.0")
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
-		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW"
+		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW", "GOSSIP_SHOW",
 		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
 	bucket:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+	bucket:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
 	bucket:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
 	bucket:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
 	bucket:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)
@@ -413,8 +424,261 @@ function WoWPro:TargetNpcId()
     end
 end
 
+
+function WoWPro:Timeless()
+    if not _NPCScan then return; end
+    if not _NPCScan.NPCAdd then return; end
+    _NPCScan.NPCAdd(73174,"Archiereus of Flame",951)
+    _NPCScan.NPCAdd(72775,"Bufo",951)
+    _NPCScan.NPCAdd(73171,"Champion of the Black Flame",951)
+    _NPCScan.NPCAdd(72045,"Chelon",951)
+    _NPCScan.NPCAdd(73175,"Cinderfall",951)
+    
+    _NPCScan.NPCAdd(73854,"Cranegnasher (spawned)",951)
+    _NPCScan.NPCAdd(72049,"Cranegnasher (not spawned)",951)
+    _NPCScan.NPCAdd(73281,"Dread Ship Vazuvius",951)
+    _NPCScan.NPCAdd(73158,"Emerald Gander",951)
+    _NPCScan.NPCAdd(73279,"Evermaw",951)
+    
+    _NPCScan.NPCAdd(73172,"Flintlord Gairan",951)
+    _NPCScan.NPCAdd(73282,"Garnia",951)
+    _NPCScan.NPCAdd(72970,"Golganarr",951)
+    _NPCScan.NPCAdd(73161,"Great Turtle-Furyshell",951)
+    _NPCScan.NPCAdd(72909,"Gu'chi the Swarmbringer",951)
+    
+    _NPCScan.NPCAdd(73167,"Huolon",951)
+    _NPCScan.NPCAdd(73163,"Imperial Python",951)
+    _NPCScan.NPCAdd(73160,"Ironfur Steelhorn",951)
+    _NPCScan.NPCAdd(73169,"Jakur of Ordon",951)
+    _NPCScan.NPCAdd(72193,"Karkanos",951)
+    
+    _NPCScan.NPCAdd(73277,"Leafmender",951)
+    _NPCScan.NPCAdd(73166,"Monstrous Spineclaw",951)
+    _NPCScan.NPCAdd(72048,"Rattleskew",951)
+    _NPCScan.NPCAdd(73157,"Rock Moss",951)
+    _NPCScan.NPCAdd(71864,"Spelurk",951)
+    
+    _NPCScan.NPCAdd(72769,"Spirit of Jadefire",951)
+    _NPCScan.NPCAdd(73704,"Stinkbraid",951)
+    _NPCScan.NPCAdd(72808,"Tsavo'ka",951)
+    _NPCScan.NPCAdd(73173,"Urdur the Cauterizer",951)
+    _NPCScan.NPCAdd(73170,"Watcher Osu",951)
+    
+    _NPCScan.NPCAdd(72245,"Zesqua",951)
+    _NPCScan.NPCAdd(71919,"Zhu-Gon the Sour",951)
+end
+
+
+function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, factionname)
+    if not WoWPro[gtype] then
+        WoWPro:Error("WoWPro:RegisterGuide(%s,%s,...) has bad gtype",GIDvalue,tostring(gtype))
+    end
+
+    local guide = {
+		guidetype = gtype,
+		zone = zonename,
+		author = authorname,
+		faction = factionname,
+		GID = GIDvalue
+	}
+
+
+	if factionname and factionname ~= UnitFactionGroup("player") and factionname ~= "Neutral" and WoWPro.DebugLevel < 1 then
+	    -- If the guide is not of the correct faction, don't register it
+	    return guide
+	end 
+			
+	WoWPro.Guides[GIDvalue] = guide
+	return guide
+	
+end
+
+function WoWPro:UnRegisterGuide(guide,why)
+    if WoWPro.DebugLevel < 1 then
+        WoWPro:dbp(why,guide.GID)
+        WoWPro.Guides[guide.GID] = nil
+    end
+end
+
+
+function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
+    if (not lowerLevel) or (not upperLevel) or (not meanLevel) then
+        WoWPro:Error("Bad GuideLevels(%s,%s,%s,%s)",guide.GID,tostring(lowerLevel),tostring(upperLevel),tostring(meanLevel))
+    end
+    guide['startlevel'] = lowerLevel
+    guide['endlevel'] = upperLevel
+    guide['level'] = meanLevel
+end
+
+function WoWPro:GuideRaceSpecific(guide,race)
+    local locRace, engRace = UnitRace("player")
+    if engRace ~= race then
+        WoWPro:UnRegisterGuide(guide,"Guide %s is race specific and you don't match")
+    end
+end
+
+function WoWPro:GuideClassSpecific(guide,class)
+    local locClass, engClass = UnitClass("player")
+    if engClass ~= class then
+        WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't mach")
+    end
+end
+
+function WoWPro:GuideNextGuide(guide,nextGID)
+    guide['nextGID'] = nextGID
+end
+
+function WoWPro:GuideSteps(guide,steps)
+    guide['sequence'] = steps
+end
+
+function WoWPro:GuidePickGender(male,female)
+    if UnitSex("player") <= 2 then
+        return male
+    else
+        return female
+    end
+end
+
+-- http://en.wikipedia.org/wiki/HSL_color_space
+-- Inputs are [0..1], outputs in [0..1]
+function WoWPro:RGB2HSL(r,g,b)    
+    local cmax, cmin = math.max(r, g, b), math.min(r, g, b)
+    local h, s, l
+
+    l = (cmax + cmin) / 2.0
+
+    if max == min then
+        h, s = 0, 0 -- A shade of white/black
+    else
+        local c = cmax - cmin
+        local s
+        if l > 0.5 then
+            s = c / (2 - cmax - cmin)
+        else
+            s = c / (cmax + cmin)
+        end
+        if cmax == r then
+            h = (g - b) / c
+            if g < b then
+                h = h + 6
+            end
+        elseif cmax == g then
+            h = ((b - r) / c) + 2
+        elseif cmax == b then
+            h = ((r - g) / c) + 4
+        end
+        h = h / 6
+    end
+    return h, s, l
+end
+
+function WoWPro:HSL2RGB(h,s,l)
+  local r, g, b, p, q
+
+  if s == 0 then
+    r, g, b = l, l, l -- white
+  else
+    function hue2rgb(p, q, t)
+      if t < 0 then t = t + 1 end
+      if t > 1 then t = t - 1 end
+      if t < 1/6 then return p + (q - p) * 6 * t end
+      if t < 1/2 then return q end
+      if t < 2/3 then return p + (q - p) * (2/3 - t) * 6 end
+      return p
+    end
+
+    if l < 0.5 then
+        q = l * (1 + s)
+    else
+        q = l + s - (l * s)
+    end
+    p = (2 * l) - q
+
+    r = hue2rgb(p, q, h + 1/3)
+    g = hue2rgb(p, q, h)
+    b = hue2rgb(p, q, h - 1/3)
+  end
+  
+  return r, g, b
+end
+
+local Difficulty = {}
+Difficulty[0] = {0,0.1,0.25}  -- Red/Gray
+Difficulty[1] = {0,0.9,0.5} -- Red
+Difficulty[2] = {20/360,0.9,0.5} -- Orange
+Difficulty[3] = {60/360,0.9,0.5} -- Yellow
+Difficulty[4] = {120/360,0.9,0.5} -- Green
+Difficulty[5] = {120/360,0.1,0.25} -- Green/Gray
+
+function WoWPro:InterpolateHSL(l,h,r)
+    local ir = 1 - r
+--    WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)",
+--                l[1], l[2], l[3], h[1], h[2], h[3], r)
+    return { l[1]*ir + h[1]*r , l[2]*ir + h[2]*r, l[3]*ir + h[3]*r }
+end
+
+
+function WoWPro:QuestColor(questLevel, playerLevel)
+    if not playerLevel then
+        local UL = UnitLevel("player")
+        local XP = UnitXP("player")
+        local XPMax = UnitXPMax("player")
+        playerLevel = UL + (XP/XPMax)
+    end
+    
+    local diff = questLevel - playerLevel
+    local c
+--    WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
+    if diff > 5 then
+        c = WoWPro:InterpolateHSL(Difficulty[1], Difficulty[0], (diff-5)/85)
+    elseif diff > 3 then      
+        c = WoWPro:InterpolateHSL(Difficulty[2], Difficulty[1], (diff-3)/2)
+    elseif diff > 0 then
+        c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[2], (diff-0)/3)
+    elseif diff > -3  then
+        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[3], (-diff)/3)
+    else
+        c = WoWPro:InterpolateHSL(Difficulty[5], Difficulty[4], (-diff)/90)
+    end
+    return  WoWPro:HSL2RGB(c[1], c[2], c[3])
+end
+   
+function WoWPro.LevelColor(level)
+--    WoWPro:dbp("WoWPro.LevelColor(%s)",tostring(level))
+    return {WoWPro:QuestColor(level)}
+end
+
+function WoWPro:GuideIcon(guide,gtype,gsubtype)
+    gtype = strupper(gtype)
+    if gtype == "ACH" then
+        guide['ach'] = tonumber(gsubtype)
+    elseif gtype == "PRO" then
+        guide['pro'] = tonumber(gsubtype)
+    elseif gtype == "ICON" then
+        guide['icon'] = gsubtype
+    else
+        WoWPro:Error("Unknown Guide Icon type [%s] for guide %s",gtype,guide.GID)
+    end
+end
+
+function WoWPro:GuideProximitySort(guide)
+    guide['AutoProximitySort'] = true
+end
+
+-- Finish all delayed guide initializiation
+function WoWPro:FinalizeGuides()
+	for name, module in WoWPro:IterateModules() do
+        if WoWPro[name].GuideList.Init then
+		    WoWPro[name].GuideList.Init()
+		end
+	end
+end
+
+    
 function WoWPro:LoadAllGuides()
     WoWPro:Print("Test Load of All Guides")
+    WoWPro:FinalizeGuides()
     local aCount=0
     local hCount=0
     local nCount=0
@@ -424,6 +688,11 @@ function WoWPro:LoadAllGuides()
 	for guidID,guide in pairs(WoWPro.Guides) do
         WoWPro:Print("Test Loading " .. guidID)
         WoWProDB.char.currentguide = guidID
+        --Re-initiallizing tags and counts--
+    	for i,tag in pairs(WoWPro.Tags) do 
+    		WoWPro[tag] = {}
+    	end
+    	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
         WoWPro:LoadGuideStepsReal()
         nextG = WoWPro:NextGuide(guidID)
         if WoWPro.Guides[guidID].zone then
@@ -434,6 +703,9 @@ function WoWPro:LoadAllGuides()
 		end
         if nextG and WoWPro.Guides[nextG] == nil then	    
             WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
+        end
+        if not WoWPro.Guides[guidID].icon then
+            WoWPro:Error("Guide %s has no icon.",guidID)
         end
         if WoWPro.Guides[guidID].faction then
             if WoWPro.Guides[guidID].faction == "Alliance" then aCount = aCount + 1 end
@@ -455,6 +727,4 @@ if WoWPro.MOP then
 else
     WoWPro.GetNumPartyMembers = GetNumPartyMembers
 end
-
-
 

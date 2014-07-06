@@ -4,32 +4,40 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
+-- Date: 2014-06-11 19:16
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3470/revisions/25742/view
 -- Date: 2013-08-15 23:14
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added missing QIDs, made safe for non-miners,non-skinners,non-herbalists.
 
 -- URL: http://wow-pro.com/node/3470/revisions/25715/view
 -- Date: 2013-06-18 00:53
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: quest 11556's name [Exalted Among All Combatants] does not match Grail's database [Revered in the Field of Battle].
 --	Bad X coordinate 42.23,36.07,44.53,40.67, 1/8 in guide TwiShattSun, line [C Crush the Dawnblade].
 --	quest 11521's name [Rediscovering your Roots] does not match Grail's database [Rediscovering Your Roots].
 
 -- URL: http://wow-pro.com/node/3470/revisions/25375/view
 -- Date: 2013-01-12 19:30
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CN tags
 
 -- URL: http://wow-pro.com/node/3470/revisions/24976/view
 -- Date: 2012-05-18 20:15
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Fixed inner links for edit and comments.
 
 -- URL: http://wow-pro.com/node/3470/revisions/24956/view
 -- Date: 2012-02-14 00:58
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("TwiShattSun", "Isle of Quel'Danas", "Shattered Sun Offensive", "BC", "Twists", "Neutral", function()
+local guide = WoWPro:RegisterGuide("TwiShattSun",'Dailies', "Isle of Quel'Danas", "Twists", "Neutral")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,932) --  "Shattered Sun Offensive"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N State of the Realm|QID|11554|N|This guide assumes that all of the Shattered Sun Offensive are in the final phase.  If you are on a new server, this guide will not do.|

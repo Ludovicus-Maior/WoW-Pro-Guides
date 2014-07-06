@@ -4,13 +4,23 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-06-13 00:20
+-- Who: Ludovicus
+-- Log: Missing quote
+
+-- URL: http://wow-pro.com/node/3440/revisions/26500/view
+-- Date: 2014-06-10 21:58
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3440/revisions/25789/view
 -- Date: 2013-10-28 19:40
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: do emotes using new syntax
 
 -- URL: http://wow-pro.com/node/3440/revisions/25787/view
 -- Date: 2013-10-28 02:06
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Use Dalaran City@Dalaran instead of just Dalaran.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25777/view
@@ -20,52 +30,52 @@
 
 -- URL: http://wow-pro.com/node/3440/revisions/25647/view
 -- Date: 2013-05-14 19:21
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: The Underbelly@Dalaran
 
 -- URL: http://wow-pro.com/node/3440/revisions/25646/view
 -- Date: 2013-05-14 19:19
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Corrected quest name [A Time to Lose]
 
 -- URL: http://wow-pro.com/node/3440/revisions/25489/view
 -- Date: 2013-01-13 23:44
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 
 
 -- URL: http://wow-pro.com/node/3440/revisions/25434/view
 -- Date: 2013-01-13 15:23
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Added a CS tag
 
 -- URL: http://wow-pro.com/node/3440/revisions/25156/view
 -- Date: 2012-10-24 03:29
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add MoP Hallows End.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25152/view
 -- Date: 2012-10-22 20:33
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35. 
 
 -- URL: http://wow-pro.com/node/3440/revisions/25015/view
 -- Date: 2012-06-30 19:28
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: More zone name corrections.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25014/view
 -- Date: 2012-06-30 19:22
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Add coords for flight Booty Bay flight point and correct zone.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25013/view
 -- Date: 2012-06-30 19:16
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Wrong zone in Booty Bay Candy Bucket
 
 -- URL: http://wow-pro.com/node/3440/revisions/24909/view
 -- Date: 2012-01-19 21:47
--- Who: Ludovicus Maior
+-- Who: Ludovicus
 -- Log: Delete duplicate guide
 
 -- URL: http://wow-pro.com/node/3440/revisions/24790/view
@@ -91,7 +101,10 @@
 -- Date: 2011-10-28 08:00
 -- Who: Crackerhead22
 
-WoWPro.WorldEvents:RegisterGuide("TwiHollNor","Hallow's End (Northrend)","Hallows End (Northrend)","WE", "Twists", "Alliance", function()
+local guide = WoWPro:RegisterGuide("TwiHollNor",'WorldEvents',"Hallow's End", "Twists", "Alliance")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Stormwind City|QID|13436|N|This starts in Stormwind.|Z|Stormwind City|
