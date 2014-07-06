@@ -6,26 +6,52 @@ WoWPro.Dailies.GuideList = {}
 
 -- Creating a Table of Guides for the Guide List and sorting based on level --
 local guides = {}
-for guidID,guide in pairs(WoWPro.Guides) do
-	if guide.guidetype == "Dailies" then
-	    local function progress ()
-	        if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
-	            return WoWProCharDB.Guide[guidID].progress.."/"..WoWProCharDB.Guide[guidID].total
-	        end
-	        return ""
-	    end
-		table.insert(guides, {
-			GID = guidID,
-			Zone = guide.zone,
-			Name = guide.name,
-		    Author = guide.author,
-			Category = guide.category,
-			Progress = progress
-		})
-	end
+
+local function AddInfo(guide)
+    if guide.name then
+        return
+    end
+    if not guide.faction then
+        WoWPro.Dailies:Error("Guide %s: missing faction",guide.GID)
+        guide.name = "Unknown"
+        guide.category = guide.zone
+        return
+    end
+    local name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(guide.faction)
+    if not name then
+        WoWPro.Dailies:Error("Guide %s: bad faction [%s]",guide.GID,tostring(guide.faction))
+        guide.name = "BadFaction"
+        guide.category = guide.zone
+        return
+    end
+    guide.name = name
+    guide.category = guide.zone
 end
-table.sort(guides, function(a,b) return a.Name < b.Name end)
-WoWPro.Dailies.GuideList.Guides = guides
+
+local function Init()
+    for guidID,guide in pairs(WoWPro.Guides) do
+    	if guide.guidetype == "Dailies" then
+    	    local function progress ()
+    	        if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
+    	            return WoWProCharDB.Guide[guidID].progress.."/"..WoWProCharDB.Guide[guidID].total
+    	        end
+    	        return ""
+    	    end
+    	    AddInfo(guide)
+    		table.insert(guides, {
+    			GID = guidID,
+    			guide = guide,
+    			Zone = guide.zone,
+    			Name = guide.name,
+    		    Author = guide.author,
+    			Category = guide.category,
+    			Progress = progress
+    		})
+    	end
+    end
+    table.sort(guides, function(a,b) return a.Name < b.Name end)
+    WoWPro.Dailies.GuideList.Guides = guides
+end
 
 -- Sorting Functions --
 local sorttype = "Default"
@@ -67,6 +93,7 @@ end
 
 -- Describe the table to the Core Module
 WoWPro.Dailies.GuideList.Format={{"Name",0.35,nameSort},{"Category",0.15,categorySort},{"Author",0.30,authorSort},{"Progress",0.20,nil}}
+WoWPro.Dailies.GuideList.Init = Init
 
 WoWPro.Dailies:dbp("Guide Setup complete")
 
