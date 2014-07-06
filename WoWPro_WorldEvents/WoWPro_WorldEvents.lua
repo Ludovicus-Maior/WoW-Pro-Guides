@@ -64,6 +64,7 @@ function WoWPro.WorldEvents:RegisterGuide(GIDvalue, zonename, guidename, categor
 
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = "WorldEvents",
+		GID = GIDvalue,
 		zone = zonename,
 		name = guidename,
 		category = categoryname,
@@ -72,6 +73,13 @@ function WoWPro.WorldEvents:RegisterGuide(GIDvalue, zonename, guidename, categor
 		faction = factionname
 	}
 end
+
+
+function WoWPro.WorldEvents:GuideHoliday(guide,holiday)
+    -- The holiday needs to be a word to match the texture returned from the CalendarGetHolidayInfo() function 
+    guide['holiday']=holiday
+end
+
 
 function WoWPro.WorldEvents:LoadAllGuides()
     self:Print("Test Load of WorldEvents Guides")
