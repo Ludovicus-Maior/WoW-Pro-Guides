@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- Date: 2014-07-06 15:44
+-- Who: Ludovicus
+-- Log: Updated levels
+
+-- URL: http://wow-pro.com/node/3455/revisions/26526/view
 -- Date: 2014-06-11 19:11
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -33,7 +38,7 @@
 -- Log: Initial Version
 
 local guide = WoWPro:RegisterGuide("LudoDrake",'Dailies', "Shadowmoon Valley", "Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,70,70,70)
 WoWPro.Dailies:GuideFaction(guide,1015) --  "Netherwing"
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2014-07-06 15:39
+-- Who: Ludovicus
+-- Log: Added levels/faction
+
+-- URL: http://wow-pro.com/node/3469/revisions/26523/view
 -- Date: 2014-06-11 19:05
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -94,8 +99,8 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("EstFirelands",'Dailies', "Mount Hyjal", "Estelyen", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Firelands Invasion"
+WoWPro:GuideLevels(guide,85,85,85)
+WoWPro.Dailies:GuideFaction(guide,1158) --  "Firelands Invasion, Guardians of Hyjal"
 WoWPro:GuideSteps(guide, function()
 return [[
 

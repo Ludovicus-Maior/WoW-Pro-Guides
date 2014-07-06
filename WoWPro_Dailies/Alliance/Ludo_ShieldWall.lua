@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2014-07-06 15:26
+-- Who: Ludovicus
+-- Log: Guide Levels
+
+-- URL: http://wow-pro.com/node/3519/revisions/26509/view
 -- Date: 2014-06-10 23:07
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -129,7 +134,7 @@
 -- Log: Initial cut.
 
 local guide = WoWPro:RegisterGuide("LudoShieldWall",'Dailies', "Krasarang Wilds", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,90,90,90)
 WoWPro.Dailies:GuideFaction(guide,1376) --  "Operation: Shieldwall"
 WoWPro:GuideSteps(guide, function()
 return [[

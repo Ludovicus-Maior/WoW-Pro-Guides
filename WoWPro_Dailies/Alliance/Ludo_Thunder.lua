@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_alliance
+-- Date: 2014-07-06 15:25
+-- Who: Ludovicus
+-- Log: Guide level and faction
+
+-- URL: http://wow-pro.com/node/3537/revisions/26508/view
 -- Date: 2014-06-10 23:05
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -28,8 +33,8 @@
 -- Log: Initial Notes for guide
 
 local guide = WoWPro:RegisterGuide("LudoThunderKing",'Dailies', "Isle of Thunder", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Thunder King"
+WoWPro:GuideLevels(guide,90,90,90)
+WoWPro.Dailies:GuideFaction(guide,1387) --  "Kirin Tor Offensive"
 WoWPro:GuideSteps(guide, function()
 return [[
 

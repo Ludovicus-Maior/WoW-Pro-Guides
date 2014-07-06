@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2014-07-06 15:51
+-- Who: Ludovicus
+-- Log: Added levels
+
+-- URL: http://wow-pro.com/node/3561/revisions/26533/view
 -- Date: 2014-06-11 19:21
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -44,8 +49,8 @@
 -- Log: Initial Draft.  Missing many C steps.  Order is awful till I play through it.
 
 local guide = WoWPro:RegisterGuide("LudoTimeless",'Dailies', "Timeless Isle", "Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Timeless Isle"
+WoWPro:GuideLevels(guide,90,90,90)
+WoWPro.Dailies:GuideFaction(guide,1492) --  "Timeless Isle"
 WoWPro:GuideSteps(guide, function()
 WoWPro:Timeless()  -- Set up NPC Scan to pick up the rares and elites!
 return [[

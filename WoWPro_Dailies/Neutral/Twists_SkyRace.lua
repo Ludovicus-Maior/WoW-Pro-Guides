@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/sky_race
+-- Date: 2014-07-06 15:50
+-- Who: Ludovicus
+-- Log: Added guide level
+
+-- URL: http://wow-pro.com/node/3543/revisions/26532/view
 -- Date: 2014-06-11 19:20
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -14,8 +19,8 @@
 -- Log: Twists's Original
 
 local guide = WoWPro:RegisterGuide("TwiSkyRace",'Dailies', "The Jade Forest", "Twists", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "The Sky Race"
+WoWPro:GuideLevels(guide,90,90,90)
+WoWPro.Dailies:GuideFaction(guide,1271) --  "The Sky Race, Order of the Cloud Serpent"
 WoWPro:GuideSteps(guide, function()
 return [[
 

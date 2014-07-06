@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_ramkahen_reputation_dalies_uldum
+-- Date: 2014-07-06 15:47
+-- Who: Ludovicus
+-- Log: Added levels and faction
+
+-- URL: http://wow-pro.com/node/3420/revisions/26528/view
 -- Date: 2014-06-11 19:15
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -13,8 +18,8 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("TwiUldRam",'Dailies', "Uldum", "Twists", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Ramkahen Reputation"
+WoWPro:GuideLevels(guide,81,83,82)
+WoWPro.Dailies:GuideFaction(guide,1173) --  "Ramkahen Reputation"
 WoWPro:GuideSteps(guide, function()
 return [[
 

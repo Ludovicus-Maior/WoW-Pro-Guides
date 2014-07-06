@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_tournament_alliance
+-- Date: 2014-07-06 15:22
+-- Who: Ludovicus
+-- Log: guide level
+
+-- URL: http://wow-pro.com/node/3476/revisions/26504/view
 -- Date: 2014-06-10 22:26
 -- Who: Ludovicus
 -- Log: Coverted guide
@@ -33,7 +38,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("LudoArgTour",'Dailies', "Icecrown", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,77,78,77.5)
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
 WoWPro:GuideSteps(guide, function()
 return [[

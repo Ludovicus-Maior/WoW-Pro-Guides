@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
+-- Date: 2014-07-06 15:47
+-- Who: Ludovicus
+-- Log: Added levels
+
+-- URL: http://wow-pro.com/node/3470/revisions/26529/view
 -- Date: 2014-06-11 19:16
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -35,7 +40,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("TwiShattSun",'Dailies', "Isle of Quel'Danas", "Twists", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,70,70,70)
 WoWPro.Dailies:GuideFaction(guide,932) --  "Shattered Sun Offensive"
 WoWPro:GuideSteps(guide, function()
 return [[

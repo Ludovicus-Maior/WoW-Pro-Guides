@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/skyguard_dalies
+-- Date: 2014-07-06 15:48
+-- Who: Ludovicus
+-- Log: Aded levels and faction
+
+-- URL: http://wow-pro.com/node/3457/revisions/26530/view
 -- Date: 2014-06-11 19:17
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -29,8 +34,8 @@
 -- Log: Sync to GIT
 
 local guide = WoWPro:RegisterGuide("LudoSkyguard",'Dailies', "Terokkar Forest", "Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Sha'tari Skyguard"
+WoWPro:GuideLevels(guide,70,70,70)
+WoWPro.Dailies:GuideFaction(guide,1031) --  "Sha'tari Skyguard"
 WoWPro:GuideSteps(guide, function()
 return [[
 
