@@ -483,7 +483,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, factionname
 	}
 
 
-	if factionname and factionname ~= UnitFactionGroup("player") and factionname ~= "Neutral" then
+	if factionname and factionname ~= UnitFactionGroup("player") and factionname ~= "Neutral" and WoWPro.DebugLevel < 1 then
 	    -- If the guide is not of the correct faction, don't register it
 	    return guide
 	end 
