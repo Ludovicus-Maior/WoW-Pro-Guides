@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2014-07-06 15:43
+-- Who: Ludovicus
+-- Log: Updated headers
+
+-- URL: http://wow-pro.com/node/3478/revisions/26525/view
 -- Date: 2014-06-11 19:09
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -28,7 +33,10 @@
 -- Who: Ludovicus
 -- Log: Initial Versions of Hodir, Kaluak and Wyrmrest Rep guides.
 
-WoWPro.Dailies:RegisterGuide("LudoKaluak", "Northrend", "The Kalu'ak", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoKaluak",'Dailies', "Northrend", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,69,72,69)
+WoWPro.Dailies:GuideFaction(guide,1073) --  "The Kalu'ak"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A The Way to His Heart...|QID|11472|PRE|11469|M|24.6,58.86|Z|Howling Fjord|N|From Anuniaqin in Kamagua, Howling Fjord. (L69)|

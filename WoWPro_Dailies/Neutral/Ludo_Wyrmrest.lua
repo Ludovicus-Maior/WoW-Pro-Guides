@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/northrend_neutral_reputation_dailies
+-- Date: 2014-07-06 15:43
+-- Who: Ludovicus
+-- Log: Updated headers
+
+-- URL: http://wow-pro.com/node/3478/revisions/26525/view
 -- Date: 2014-06-11 19:09
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -28,7 +33,10 @@
 -- Who: Ludovicus
 -- Log: Initial Versions of Hodir, Kaluak and Wyrmrest Rep guides.
 
-WoWPro.Dailies:RegisterGuide("LudoWyrmrest", "Borean Tundra", "The Wyrmrest Accord", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoWyrmrest",'Dailies', "Borean Tundra", "Ludovicus", "Neutral")
+WoWPro:GuideLevels(guide,69,80,70.000000)
+WoWPro.Dailies:GuideFaction(guide,1091) --  "The Wyrmrest Accord"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Transitus Shield|M|33.31,34.53|Z|Borean Tundra|

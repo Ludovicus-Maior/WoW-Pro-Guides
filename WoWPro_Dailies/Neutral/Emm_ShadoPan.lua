@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2014-07-06 15:52
+-- Who: Ludovicus
+-- Log: Added levels
+
+-- URL: http://wow-pro.com/node/3501/revisions/26534/view
 -- Date: 2014-06-11 19:22
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -80,7 +85,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("EmmShadoPan",'Dailies', "Townlong Steppes", "Emmaleah", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,88,90,89)
 WoWPro.Dailies:GuideFaction(guide,1270) --  "Shado-Pan Dailies"
 WoWPro:GuideSteps(guide, function()
 return [[

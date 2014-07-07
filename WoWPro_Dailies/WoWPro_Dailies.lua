@@ -69,12 +69,26 @@ function WoWPro.Dailies:RegisterGuide(GIDvalue, zonename, guidename, categorynam
 		
 	WoWPro.Guides[GIDvalue] = {
 		guidetype = "Dailies",
+		GID = GIDvalue,
 		zone = zonename,
 		name = guidename,
 		category = categoryname,
 		author = authorname,
 		sequence = sequencevalue,
 	}
+end
+
+function WoWPro.Dailies:GuideFaction(guide,faction)
+    guide.faction = tonumber(faction)
+end
+
+function WoWPro.Dailies:GuideNameAndCategory(guide,name,cat)
+    guide.name = name
+    if cat then  
+        guide.category = cat
+    else
+        guide.category = zone
+    end
 end
 
 -- Use Grail to go a crude guide for a zone.  Pass in the mapID and it will find all the quests that start/end in that zone.

@@ -6,11 +6,9 @@ WoWPro.Achievements.GuideList.Guides = {}
 
 WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
 
-local function Scrape()
-    if WoWProDB.global.Achievements.Category then return end
-    
-    WoWProDB.global.Achievements.Category = WoWProDB.global.Achievements.Category or {}
-    WoWProDB.global.Achievements.Achievement = WoWProDB.global.Achievements.Achievement or {}
+function WoWPro.Achievements.Scrape()
+    WoWProDB.global.Achievements.Category = {}
+    WoWProDB.global.Achievements.Achievement = {}
 
     local categories = GetCategoryList()
     for i, cid in ipairs(categories) do
@@ -63,7 +61,10 @@ end
 -- Creating a Table of Guides for the Guide List and sorting based on level --
 local function Init()
     local guides = {}
-    Scrape()
+    if not WoWProDB.global.Achievements.Category then
+        WoWPro.Achievements.Scrape()
+    end
+    
     for guidID,guide in pairs(WoWPro.Guides) do
     	if guide.guidetype == "Achievements" then
     	    local function progress ()

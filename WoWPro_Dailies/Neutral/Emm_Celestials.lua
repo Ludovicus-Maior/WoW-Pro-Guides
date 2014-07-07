@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2014-07-06 15:53
+-- Who: Ludovicus
+-- Log: Added levels
+
+-- URL: http://wow-pro.com/node/3503/revisions/26536/view
 -- Date: 2014-06-11 19:25
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -87,7 +92,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("EmmAugCel",'Dailies', "Vale of Eternal Blossoms", "Emmaleah", "Neutral")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,85,90,88)
 WoWPro.Dailies:GuideFaction(guide,1341) --  "August Celestials Dailies"
 WoWPro:GuideSteps(guide, function()
 return [[

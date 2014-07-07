@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/grizzly_hills_honor_points_dailies
+-- Date: 2014-07-06 15:34
+-- Who: Ludovicus
+-- Log: Added levels and faction
+
+-- URL: http://wow-pro.com/node/3528/revisions/26514/view
 -- Date: 2014-06-10 23:22
 -- Who: Ludovicus
 -- Log: Changed guide level.
@@ -18,8 +23,8 @@
 -- Log: Init version with CS correction.
 
 local guide = WoWPro:RegisterGuide("LudoHonorPoints",'Dailies', "Grizzly Hills", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Honor Points"
+WoWPro:GuideLevels(guide,73,73,73)
+WoWPro.Dailies:GuideFaction(guide,1050) --  "Honor Points, Valiance Expedition"
 WoWPro:GuideSteps(guide, function()
 return [[
 
