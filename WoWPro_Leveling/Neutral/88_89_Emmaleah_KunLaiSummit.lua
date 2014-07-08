@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2014-07-07 19:30
+-- Who: Fluclo
+-- Log: Corrected QID for Forgotten Lockbox to allow auto-completion, and added Zone for Hatescale Burrow to allow correct placement of navigation point.
+
+-- URL: http://wow-pro.com/node/3490/revisions/26428/view
 -- Date: 2014-06-02 13:25
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -218,14 +223,14 @@ R Tavern in the Mists |QID|31286|N|Keep heading up the stairs and path to the Ta
 
 f Tavern in the Mists|QID|31286|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|RANK|2|
 l The Hammer of Folly|QID|31286|L|86473|M|68.53,79.00;74.83,76.39|CS|Z|The Veiled Stair|N|*High Value Rare Loot*\nJust east of the Black Market Action House is an ancient grass covered stairway called the Stairs that lead to nowhere. At the top, known as Mason's Folly, you may find The Hammer of Folly.\nWorth 100 gold when sold to a vendor and a lot of XP when looted.|RANK|3|
-l Forgotten Lockbox|QID|31286|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and a lot of XP when looted.|Rank|3|
+l Forgotten Lockbox|QID|31867|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and a lot of XP when looted.|Rank|3|
 
 R The Spring Road|QID|31286|M|53.52,65.78|N|Head up to The Spring Road, north of the Tavern.|
 
 A Robbing Robbers of Robbers|QID|31286|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|RANK|2|
 A Educating Saurok|QID|31287|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|RANK|2|
 C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|N|Pick up any Black Maket Merchandise you see lying on the ground.|RANK|2|S|
-R Hatescale Burrow|QID|31287|M|55.46,56.62|N|Head to the Hatescale Burrow, and enter the cave.|
+R Hatescale Burrow|QID|31287|Z|The Veiled Stair|M|55.46,56.62|N|Head to the Hatescale Burrow, and enter the cave.|
 C Educating Saurok|QID|31287|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|Z|The Veiled Stair|N|Kill Leechfingers, who can be found at the back of the cave (head to the right at both the first and second forks of the tunnel).|RANK|2|
 C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|55.38,55.40|CS|N|Finish picking up the Black Maket Merchandise you see lying on the ground as you head out of the cave.|RANK|2|US|
 T Robbing Robbers of Robbers|QID|31286|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|RANK|2|
