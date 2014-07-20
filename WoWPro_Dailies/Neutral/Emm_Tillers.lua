@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2014-07-19 17:06
+-- Who: Ludovicus
+-- Log: Adj meanlevel
+
+-- URL: http://wow-pro.com/node/3508/revisions/26572/view
 -- Date: 2014-07-06 15:58
 -- Who: Ludovicus
 -- Log: Added levels
@@ -126,7 +131,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("EmmTillers",'Dailies', "Valley of the Four Winds", "Emmaleah", "Neutral")
-WoWPro:GuideLevels(guide,85,90,87)
+WoWPro:GuideLevels(guide,85,90,89.5338)
 WoWPro.Dailies:GuideFaction(guide,1272) --  "Tillers"
 WoWPro:GuideSteps(guide, function()
 

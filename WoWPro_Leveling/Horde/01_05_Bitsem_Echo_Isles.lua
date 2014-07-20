@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-07-19 17:13
+-- Who: Ludovicus
+-- Log: Levels.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26480/view
 -- Date: 2014-06-02 22:14
 -- Who: Ludovicus
 -- Log: Icons
@@ -222,7 +227,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Durotar (Troll)', 'Bitsem', 'Horde')
-WoWPro:GuideLevels(guide,1,1)
+WoWPro:GuideLevels(guide,1,5,3) -- Faux, really all level 1!
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
 WoWPro:GuideSteps(guide, function()
