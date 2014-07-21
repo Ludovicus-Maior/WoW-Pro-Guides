@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_horde
+-- Date: 2014-07-20 19:23
+-- Who: Ludovicus
+-- Log: Right faction
+
+-- URL: http://wow-pro.com/node/3540/revisions/26512/view
 -- Date: 2014-06-10 23:17
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -24,7 +29,7 @@
 
 local guide = WoWPro:RegisterGuide("KatMThunderKing",'Dailies', "Isle of Thunder", "KatM", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Thunder King"
+WoWPro.Dailies:GuideFaction(guide,1388) --  "Sunreaver Onslaught"
 WoWPro:GuideSteps(guide, function()
 return [[
 

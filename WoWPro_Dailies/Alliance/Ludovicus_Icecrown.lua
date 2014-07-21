@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2014-07-20 19:26
+-- Who: Ludovicus
+-- Log: Added faction to Ebon Blade
+
+-- URL: http://wow-pro.com/node/3405/revisions/26547/view
 -- Date: 2014-07-06 15:24
 -- Who: Ludovicus
 -- Log: Guide Levels and faction
