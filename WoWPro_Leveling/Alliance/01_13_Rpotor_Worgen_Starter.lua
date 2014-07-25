@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2014-07-25 22:24
+-- Who: Ludovicus
+-- Log: Add mean
+
+-- URL: http://wow-pro.com/node/3211/revisions/26484/view
 -- Date: 2014-06-03 22:12
 -- Who: Ludovicus
 -- Log: Missing "
@@ -193,7 +198,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "Rpotor", "Alliance")
-WoWPro:GuideLevels(guide,1,12)
+WoWPro:GuideLevels(guide,1,12, 4.0081)
 WoWPro:GuideRaceSpecific(guide,"Worgen")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Worgen_Male","Interface\\Icons\\Achievement_Character_Worgen_Female"))
 WoWPro:GuideNextGuide(guide, "JamDar1320")

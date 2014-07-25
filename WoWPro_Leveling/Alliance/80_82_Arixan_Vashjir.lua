@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2014-07-25 22:02
+-- Who: Ludovicus
+-- Log: Ad levels
+
+-- URL: http://wow-pro.com/node/3305/revisions/26336/view
 -- Date: 2014-05-27 20:06
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "78,80".
@@ -221,13 +226,8 @@
 -- Date: 2010-12-30 08:24
 -- Who: JamesL85
 
--- URL: http://wow-pro.com/node/3305/revisions/23862/view
--- Date: 2010-12-30 08:20
--- Who: JamesL85
--- Log: Made some changes to the start of Vashj'ir.
-
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
-WoWPro:GuideLevels(guide,78,80)
+WoWPro:GuideLevels(guide,80,80, 79.9802)
 WoWPro:GuideNextGuide(guide, 'AriDee8283')
 WoWPro:GuideIcon(guide,"ACH",4825)
 WoWPro:GuideSteps(guide, function()

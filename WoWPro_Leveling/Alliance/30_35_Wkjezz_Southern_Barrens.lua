@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2014-07-25 21:56
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3235/revisions/26415/view
 -- Date: 2014-05-30 15:37
 -- Who: Ludovicus
 -- Log: Level tweak
@@ -89,6 +93,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjSotBar3035', "Leveling", 'Southern Barrens', 'WKJezz', 'Alliance')
+-- Yes, there are some L26 quests, but they are errors.
 WoWPro:GuideLevels(guide,28,33,30.0096)
 WoWPro:GuideNextGuide(guide, 'WkjDus3540')
 WoWPro:GuideIcon(guide,"ACH",4937)

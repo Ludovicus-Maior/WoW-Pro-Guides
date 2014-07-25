@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2014-07-25 22:21
+-- Who: Ludovicus
+-- Log: Add mean
+
+-- URL: http://wow-pro.com/node/3241/revisions/26341/view
 -- Date: 2014-05-27 20:16
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "30,38".
@@ -109,7 +114,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjDus3540', "Leveling", 'Dustwallow Marsh', 'WKjezz', 'Alliance')
-WoWPro:GuideLevels(guide,30,38)
+WoWPro:GuideLevels(guide,30,38, 34.5571)
 WoWPro:GuideNextGuide(guide, 'WkjTho4045')
 WoWPro:GuideIcon(guide,"ACH",4929)
 WoWPro:GuideSteps(guide, function()

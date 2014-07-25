@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2014-07-25 21:42
+-- Who: Ludovicus
+-- Log: Adj levels
+
+-- URL: http://wow-pro.com/node/3466/revisions/26493/view
 -- Date: 2014-06-10 21:25
 -- Who: Ludovicus
 -- Log: Converted guide
@@ -38,7 +43,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("LudoLoveA",'WorldEvents',"Love is in the Air", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,1,81,8.55102)
 WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
 WoWPro:GuideSteps(guide, function()
 return [[

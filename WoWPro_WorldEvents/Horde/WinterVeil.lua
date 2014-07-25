@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2014-07-25 21:40
+-- Who: Ludovicus
+-- Log: Adj levels
+
+-- URL: http://wow-pro.com/node/3458/revisions/26494/view
 -- Date: 2014-06-10 21:29
 -- Who: Ludovicus
 -- Log: Changed Guide format.

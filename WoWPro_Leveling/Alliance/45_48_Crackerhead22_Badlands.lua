@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2014-07-25 22:19
+-- Who: Ludovicus
+-- Log: Add mean
+
+-- URL: http://wow-pro.com/node/3247/revisions/26342/view
 -- Date: 2014-05-27 20:18
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "44,46".
@@ -86,7 +91,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('CraBad4548', "Leveling", 'Badlands', 'Crackerhead22', 'Alliance')
-WoWPro:GuideLevels(guide,44,46)
+WoWPro:GuideLevels(guide,44,46, 44.0145)
 WoWPro:GuideNextGuide(guide, 'CraSea4850')
 WoWPro:GuideIcon(guide,"ACH",4900)
 WoWPro:GuideSteps(guide, function()

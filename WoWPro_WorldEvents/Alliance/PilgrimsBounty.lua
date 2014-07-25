@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
+-- Date: 2014-07-25 21:37
+-- Who: Ludovicus
+-- Log: Adj Mean level
+
+-- URL: http://wow-pro.com/node/3443/revisions/26498/view
 -- Date: 2014-06-10 21:42
 -- Who: Ludovicus
 -- Log: Changed guide format.
@@ -35,7 +40,7 @@
 -- Log: Added source code page.
 
 local guide = WoWPro:RegisterGuide("LudoPilBountyA",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,1,90,10)
 WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2014-07-25 21:35
+-- Who: Ludovicus
+-- Log: men adj
+
+-- URL: http://wow-pro.com/node/3486/revisions/26597/view
+-- Date: 2014-07-25 21:16
+-- Who: Ludovicus
+-- Log: Adj. mean level.
+
+-- URL: http://wow-pro.com/node/3486/revisions/26411/view
 -- Date: 2014-05-30 15:26
 -- Who: Ludovicus
 -- Log: Level setting
@@ -159,7 +169,7 @@
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')
-WoWPro:GuideLevels(guide,85,86,84.8282)
+WoWPro:GuideLevels(guide,85,86,85.0021)
 WoWPro:GuideNextGuide(guide, 'EmmVal8688')
 WoWPro:GuideIcon(guide,"ACH",6351)
 WoWPro:GuideSteps(guide, function()

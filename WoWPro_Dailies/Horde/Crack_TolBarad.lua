@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2014-07-25 19:04
+-- Who: Ludovicus
+-- Log: Whoops!   Copied over the alliance version by accident.
+
+-- URL: http://wow-pro.com/node/3416/revisions/26511/view
+-- Date: 2014-06-10 23:15
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3416/revisions/25717/view
 -- Date: 2013-06-18 00:57
 -- Who: Ludovicus
 -- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
@@ -46,7 +56,10 @@
 -- Date: 2011-06-30 19:05
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("CraToBarH", "Tol Barad", "Tol Barad Guide", "Cata", "Crackerhead22", "Horde", function()
+local guide = WoWPro:RegisterGuide("CraToBarH",'Dailies', "Tol Barad", "Crackerhead22", "Alliance")
+WoWPro:GuideLevels(guide,1,85,90)
+WoWPro.Dailies:GuideFaction(guide,1178) --  "Hellscream's Reach"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Tol Barad Peninsula|M|47.41,39.3|Z|Orgrimmar|N|Click on the Portal to Tol Barad in Orgrimmar.|

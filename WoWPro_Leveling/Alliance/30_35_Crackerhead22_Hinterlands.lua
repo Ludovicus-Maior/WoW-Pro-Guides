@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2014-07-25 21:54
+-- Who: Ludovicus
+-- Log: Add mean
+
+-- URL: http://wow-pro.com/node/3239/revisions/26361/view
 -- Date: 2014-05-27 21:03
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "29,34".
@@ -87,7 +92,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('CraHin3035', 'Leveling', 'The Hinterlands', 'Crackerhead22', 'Alliance')
-WoWPro:GuideLevels(guide,29,34)
+WoWPro:GuideLevels(guide,29,34,30.2069)
 WoWPro:GuideNextGuide(guide, 'BitWes3540')
 WoWPro:GuideIcon(guide,"ACH",4897)
 WoWPro:GuideSteps(guide, function()

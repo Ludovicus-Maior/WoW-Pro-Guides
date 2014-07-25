@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-07-25 20:45
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3200/revisions/26403/view
 -- Date: 2014-05-30 12:19
 -- Who: Ludovicus
 -- Log: Level setting
@@ -260,12 +264,8 @@
 -- Who: Ludovicus
 -- Log:  WoWPro.Leveling
 
--- URL: http://wow-pro.com/node/3200/revisions/23812/view
--- Date: 2010-12-22 06:20
--- Who: Gylin
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Dun Morogh (Dwarf)", "Gylin - Dwarf", "Alliance")
-WoWPro:GuideLevels(guide,1,2,1.06757)
+WoWPro:GuideLevels(guide,1,2,1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Dwarf_Male","Interface\\Icons\\Achievement_Character_Dwarf_Female"))
 WoWPro:GuideSteps(guide, function()
