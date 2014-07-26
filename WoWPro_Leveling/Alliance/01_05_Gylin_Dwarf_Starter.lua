@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-07-26 00:36
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3200/revisions/26593/view
 -- Date: 2014-07-25 20:45
 -- Who: Ludovicus
 
@@ -258,11 +262,6 @@
 -- Date: 2011-01-30 19:28
 -- Who: Ludovicus
 -- Log: Corrected RegisterGuide to match GIT
-
--- URL: http://wow-pro.com/node/3200/revisions/24063/view
--- Date: 2011-01-27 19:12
--- Who: Ludovicus
--- Log:  WoWPro.Leveling
 
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Dun Morogh (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,2,1)
