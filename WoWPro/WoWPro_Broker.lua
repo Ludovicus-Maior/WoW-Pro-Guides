@@ -856,10 +856,10 @@ function WoWPro:PopulateQuestLog()
 	WoWPro:dbp("WoWPro:PopulateQuestLog()")
 	
 	-- If the UI is up, dont muck with things
-	if (QuestLogFrame:IsShown() or QuestLogDetailFrame:IsShown()) then
-	    WoWPro:SendMessage("WoWPro_PuntedQLU")
-	    return nil
-	end
+---	if (QuestLogFrame:IsShown() or QuestLogDetailFrame:IsShown()) then
+---	    WoWPro:SendMessage("WoWPro_PuntedQLU")
+---	    return nil
+---	end
 	
 	WoWPro.oldQuests = WoWPro.QuestLog or {}
 	WoWPro.newQuest, WoWPro.missingQuest = false, false
@@ -882,18 +882,18 @@ function WoWPro:PopulateQuestLog()
 		     WoWPro:Error("PopulateQuestLog: return value from GetQuestLogTitle(%d) is nil.",i)
 		end
 		if isHeader then
---		    WoWPro:dbp("PopulateQuestLog: Header %s  @ %d",tostring(questTitle),i)
+		    WoWPro:dbp("PopulateQuestLog: Header %s  @ %d",tostring(questTitle),i)
 			currentHeader = questTitle
 			if lastCollapsed then
 			    -- We just finished scanning a previously collapsed header and ran into the next
 			    -- We need to collapse it and then rewind to the next slot and restart, as the slot number for the header will have mutated on us.
 			    CollapseQuestHeader(lastCollapsed)
---			    WoWPro:dbp("PopulateQuestLog: Collapsing header at %d",lastCollapsed)
+			    WoWPro:dbp("PopulateQuestLog: Collapsing header at %d",lastCollapsed)
 			    i = lastCollapsed
 			    lastCollapsed = nil
 			elseif isCollapsed then
 			    lastCollapsed = i
---			    WoWPro:dbp("PopulateQuestLog: Expanding header at %d",lastCollapsed)
+			    WoWPro:dbp("PopulateQuestLog: Expanding header at %d",lastCollapsed)
 			    ExpandQuestHeader(i)
 			end	    
 		elseif questTitle and not WoWPro.QuestLog[questID] then
@@ -918,7 +918,7 @@ function WoWPro:PopulateQuestLog()
 			QuestPOIUpdateIcons()
 			local x, y = WoWPro:findBlizzCoords(questID)
 			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
---			WoWPro:dbp("PopulateQuestLog: Quest %s [%s] @ %d",tostring(questID),questTitle,i)
+			WoWPro:dbp("PopulateQuestLog: Quest %s [%s] @ %d",tostring(questID),questTitle,i)
 			WoWPro.QuestLog[questID] = {
 				title = questTitle,
 				level = level,
