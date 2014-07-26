@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2014-07-26 00:35
+-- Who: Ludovicus
+-- Log: OOps, wrong faction
+
+-- URL: http://wow-pro.com/node/3416/revisions/26589/view
 -- Date: 2014-07-25 19:04
 -- Who: Ludovicus
 -- Log: Whoops!   Copied over the alliance version by accident.
@@ -56,7 +61,7 @@
 -- Date: 2011-06-30 19:05
 -- Who: Ludovicus
 
-local guide = WoWPro:RegisterGuide("CraToBarH",'Dailies', "Tol Barad", "Crackerhead22", "Alliance")
+local guide = WoWPro:RegisterGuide("CraToBarH",'Dailies', "Tol Barad", "Crackerhead22", "Horde")
 WoWPro:GuideLevels(guide,1,85,90)
 WoWPro.Dailies:GuideFaction(guide,1178) --  "Hellscream's Reach"
 WoWPro:GuideSteps(guide, function()
