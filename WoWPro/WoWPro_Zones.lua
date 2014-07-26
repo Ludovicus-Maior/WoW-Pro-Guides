@@ -2999,17 +2999,42 @@ function WoWPro:IsInstanceZone(zone)
     return true
 end
 
+local function pack_kv(...)
+    t = {}
+    for i=1, select("#", ...), 2 do
+        k = select(i, ...)
+        v = select(i+1, ...)
+        t[k] = v
+    end
+    return t
+end
+
+local function pack_v(...)
+    t = {}
+    for i=1, select("#", ...), 2 do
+        k = select(i, ...)
+        v = select(i+1, ...)
+        t[#t+1] = v
+    end
+    return t
+end
+
 function WoWPro:GenerateMapCache()
     local here = GetCurrentMapAreaID()
     
     Zone2MapID = {}
     MapsSeen = {}
-	for ci,c in pairs{GetMapContinents()} do
+    ct = pack_v(GetMapContinents())
+	for ci,c in pairs(ct) do
+	    WoWPro:Print("Continent %d [%s]",ci,c)
 	    contnames[ci] = c
-	    zonenames[ci] = {GetMapZones(ci)}
+	    zonenames[ci] = pack_v(GetMapZones(ci))
+	    print(GetMapZones(ci))
+	    WoWPro:Print("Getting Map zones in %d",ci)
 		SetMapZoom(ci,0)
 		ScrapeMapInfo(ci,contnames[ci],0)
 	    for zi,z in pairs(zonenames[ci]) do
+	        WoWPro:Print("Zone %d [%s]",zi,z)
 			SetMapZoom(ci,zi)
 			ScrapeMapInfo(ci,z,zi)
 		end
