@@ -12,7 +12,7 @@ if ! git checkout -- . ; then
 fi
 
 echo "# Syncronizing to GitHub"
-if ! git pull origin master ; then
+if ! git pull ; then
     echo "! Error synchronzing local repo: $?"
     exit 2 
 fi
