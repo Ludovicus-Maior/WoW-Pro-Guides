@@ -138,7 +138,6 @@ end
 
 -- Fancy tooltip!
 function WoWPro.Achievements.GuideTooltipInfo(row, tooltip, guide)
-    WoWPro:Print("GuideTooltipInfo: Entering %s",guide.GID)
     GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
     GameTooltip:AddLine(guide.name)
     if guide.icon then
@@ -150,8 +149,8 @@ function WoWPro.Achievements.GuideTooltipInfo(row, tooltip, guide)
         GameTooltip:AddLine("")
         GameTooltip:AddTexture("")
     end
-    GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide.level or 10)))
-    GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide.level or 10)))
+    GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
     
 

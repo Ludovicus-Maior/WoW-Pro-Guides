@@ -284,6 +284,13 @@ function WoWPro:GuideTabFrame_RowOnClick()
 end		
 
 
+local TooltipIcon
+function WoWPro:ShowTooltipIcon(icon)
+end
+
+function WoWPro:HideTooltipIcon()
+end
+
 WoWPro:Export("CreateGuideTabFrame_Rows")
 function WoWPro:CreateGuideTabFrame_Rows(frame)
     local GAP = 8 
@@ -301,21 +308,23 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
 		local row = CreateFrame("CheckButton", string.format("%s_Guide_Row%d",self.name,i), frame)
 		
 		if WoWPro[iGuide.guide.guidetype].GuideTooltipInfo then
-		    WoWPro:dbp("CreateGuideTabFrame_Rows: tooltip for row %d, GID %s",i, iGuide.GID )
 		    row:SetScript("OnEnter", function(self)      
     		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row,tooltip,iGuide.guide)		            
     		    GameTooltip:Show()
+    		    if iGuide.guide.icon then
+    		        WoWPro:ShowTooltipIcon(iGuide.guide.icon)
+    		    end
     		end)
     		row:SetScript("OnLeave", function(self)
-    		    WoWPro:Print("GuideTooltip: Leaving %s",iGuide.GID)
     		    GameTooltip:Hide()
+    		    WoWPro:HideTooltipIcon()
     		end)
         end
 
         local r,g,b
         
         if iGuide.guide.level then
-            r, g, b =  unpack(WoWPro.LevelColor(iGuide.guide.level))
+            r, g, b =  unpack(WoWPro.LevelColor(iGuide.guide))
 --            WoWPro:dbp("Guide %s Level %d: %f, %f, %f",iGuide.GID, iGuide.guide.level, r , g , b)
         else
             r, g, b = 1 , 1, 1
