@@ -501,15 +501,23 @@ function WoWPro.SetupGuideReal()
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
     			    WoWProCharDB.Guide[GID].completion[i] = true
     			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as complete."
+    			else
+    			    WoWProCharDB.Guide[GID].completion[i] = false
+    			    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was flagged as incomplete."    			    
     			end
     	
     		    -- Quest Accepts and Completions --
-    		    if not WoWProCharDB.Guide[GID].completion[i] and WoWPro.QuestLog[QID] then 
-    			    if action == "A" then WoWProCharDB.Guide[GID].completion[i] = true end
-    			    if action == "C" and WoWPro.QuestLog[QID].complete then
-    				    WoWProCharDB.Guide[GID].completion[i] = true
-    				    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because in QuestLog was complete."
-    			    end
+    		    if not WoWProCharDB.Guide[GID].completion[i] then
+    		        if WoWPro.QuestLog[QID] then 
+        			    if action == "A" then
+        			        WoWProCharDB.Guide[GID].completion[i] = true
+        			        WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as complete."
+        			    end
+        			    if action == "C" and WoWPro.QuestLog[QID].complete then
+        				    WoWProCharDB.Guide[GID].completion[i] = true
+        				    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because in QuestLog was complete."
+        			    end
+        			end
     		    end
     		end
 		end
