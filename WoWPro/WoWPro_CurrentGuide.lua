@@ -93,7 +93,7 @@ frame:SetScript("OnShow", function()
 		    if row.index and WoWPro.why and WoWPro.why[row.index] then
 		        tooltip:SetPoint("TOPLEFT", row, "BOTTOMLEFT", -10, 10)
 		        tooltiptext:SetHeight(125)
-		        tooltiptext:SetText(WoWPro.why[row.index])
+		        tooltiptext:SetText(string.format("%d: %s",row.index,WoWPro.why[row.index]))
 		        tooltiptext:SetHeight(tooltiptext:GetStringHeight())
 		        tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
 		        tooltip:Show()
