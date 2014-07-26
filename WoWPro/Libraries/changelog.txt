@@ -1,3 +1,8 @@
+Ace3 Release - Revision r1109 (February 19th, 2014)
+---------------------------------------------------
+AceComm-3.0: Ambiguate addon comm messages to restore behavior to be identical to pre-5.4.7
+AceConfigRegistry-3.0: Added an option to skip options table validation on registering
+
 Ace3 Release - Revision r1104 (October 31st, 2013)
 --------------------------------------------------
 AceGUI-3.0: Flow Layout: Added a safeguard to prevent an infinite loop in the layout engine
