@@ -497,9 +497,9 @@ function WoWPro:MapPoint(row)
 	if WoWPro.QID and WoWPro.QID[i] then
 	    local qid = tonumber(WoWPro.QID[i])
 	    if qid then
-	        WORLDMAP_SETTINGS.selectedQuestId = qid
-	        QuestPOI_SelectButtonByQuestId("WatchFrameLines", qid, true);
-	        SetSuperTrackedQuestID(qid);
+--	        WORLDMAP_SETTINGS.selectedQuestId = qid
+--	        QuestPOI_SelectButtonByQuestId("WatchFrameLines", qid, true);
+--	        SetSuperTrackedQuestID(qid);
 	    end
 	end
 	
@@ -547,7 +547,7 @@ function WoWPro:MapPoint(row)
 	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
 	end
 	
-	if TomTom and TomTom.AddMFWaypoint then
+	if TomTom and TomTom.AddMFWaypoint and TomTom.db then
 		    TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
     		
