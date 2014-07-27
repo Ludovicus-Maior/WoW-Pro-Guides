@@ -1,4 +1,4 @@
------------------------------------
+SaveGuide-----------------------------------
 --      WoWPro.Recorder.lua      --
 -----------------------------------
 
@@ -322,20 +322,29 @@ function WoWPro.Recorder:RemoveStep(position)
 	WoWPro.Recorder:SaveGuide()
 end
 
+---This is what the header needs to look like
+---local guide = WoWPro:RegisterGuide('FlucloPanda', "Leveling", 'TheWanderingIsle', 'Fluclo', 'Neutral')
+---WoWPro:GuideLevels(guide,1,12,1.0531)
+---WoWPro:GuideNextGuide(guide, 'WkjLoc1220|BitAzs1220')
+---WoWPro:GuideSteps(guide, function()
+---return [[
+
 function WoWPro.Recorder:SaveGuide(window)
 
 	local GID = WoWProDB.char.currentguide
-	
-	local header = "WoWPro."
-	    ..WoWPro.Guides[GID].guidetype
-	    ..":RegisterGuide('"
+
+	local header = "local guide = WoWPro:RegisterGuide('"
 		..GID.."', '"
+		..WoWPro.Guides[GID].guidetype.."', '"
 		..WoWPro.Guides[GID].zone.."', '"
 		..WoWPro.Guides[GID].author.."', '"
-		..WoWPro.Guides[GID].startlevel.."', '"
-		..WoWPro.Guides[GID].endlevel.."', '"
-		..WoWPro.Guides[GID].nextGID.."', '"
-		..UnitFactionGroup("player").."', function() \nreturn [[\n"
+		..UnitFactionGroup("player").."')\n"
+		.."WoWPro:GuideLevels(guide,"
+		..WoWPro.Guides[GID].startlevel..", "
+		..WoWPro.Guides[GID].endlevel..")\n"
+		.."WoWPro:GuideNextGuide(guide, '"
+		..WoWPro.Guides[GID].nextGID.."')\n"
+		.."WoWPro:GuideSteps(guide, function()\nreturn [[\n"
 		
 	local sequence = ""
 		
