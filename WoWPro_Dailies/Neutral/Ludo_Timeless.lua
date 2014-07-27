@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2014-07-26 22:26
+-- Who: Ludovicus
+-- Log: Play through as horde!
+
+-- URL: http://wow-pro.com/node/3561/revisions/26566/view
 -- Date: 2014-07-06 15:51
 -- Who: Ludovicus
 -- Log: Added levels
@@ -70,7 +75,7 @@ N Reccomendations|QID|33230|N|WoWPro is a great addon, but your Timeless Isle ex
 T A Flash of Bronze...|QID|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|To Chromie, at the Mogu'Shan Palace upper level.|
 A Journey to the Timeless Isle|QID|33232|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Chromie|
 R Timeless Isle|QID|33232|M|21.8,39.8|U|104110|FACTION|Horde|N|Use watch and get wisked away!|
-f Huojin Landing|QID|33232|M|21.8,39.8|N|FACTION|Horde|Chi-Ro the Skytamer is the flightmaster|
+f Huojin Landing|QID|33232|M|21.92,39.75|N|FACTION|Horde|N|Chi-Ro the Skytamer is the flightmaster|
 T Journey to the Timeless Isle|QID|33232|M|22.01,40.93|FACTION|Horde|N|To Watcher Alundra.|
 A Time Keeper Kairoz|QID|33156|M|22.01,40.93|FACTION|Horde|N|From Watcher Alundra.|
 
@@ -80,7 +85,7 @@ A Time In Your Hands|QID|33228|M|34.54,53.63|PRE|33156;33160|N|From Kairoz.|
 A A Timeless Tour|QID|33161|M|34.54,53.63|PRE|33156;33160|N|From Kairoz.|
 C Meet Meet Mistweaver Ai|QID|33228|M|42.69,55.72|QO|Meet Mistweaver Ai: 1/1|N|Head up the South stairs and then across the Court. The chat with her.|
 C Meet Mistweaver Ku|QID|33228|M|42.71,54.68|QO|Meet Mistweaver Ku: 1/1|N|Chat with him.|
-N Tushui Landing|QID|33161|23.07,71.04|FACTION|Horde|N|This is where the Alliance NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
+N Tushui Landing|QID|33161|M|23.07,71.04|FACTION|Horde|N|This is where the Alliance NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
 C Old Pi'jiu|QID|33161|M|37.3,72.2|QO|Old Pi'jiu: 1/1|
 C Firewalker Ruins|QID|33161|M|47.2, 78.5|QO|Firewalker Ruins: 1/1|
 C Red Stone Run|QID|33161|M|58.01,66.99|QO|Red Stone Run: 1/1|
@@ -92,19 +97,6 @@ N Albatross up High|QID|33161|M|33.88,55.22|ACTIVE|33161|N|Learn to ride a bird 
 R Inkeeper|QID|33161|M|36.59,46.83|N|Say hello to Graceful Swan, your Innkeeper.|T|Graceful Swan|
 R Mail-Grummie|QID|33161|M|36.91,46.83|N|Say hello to Hopswift, chat with him to get your mail.|T|Hopswift|
 T A Timeless Tour|QID|33161|M|34.54,53.63|N|To Kairoz.|
-
-; Riddles - One time quests
-
-L Rolo's Riddle|QID|32974|M|20.10,56.90;20.50,71.20;20.90,74.00;21.10,44.90;21.30,40.90;22.90,55.00;23.10,75.50;24.20,67.80;34.20,87.10;61.80,83.60;67.10,78.80;70.20,67.20;22.70,69.45;36.50,87.45;60.10,88.45;68.20,74.45;23.45,37.75;23.45,58.85;36.45,20.25;62.45,80.53;20.60,53.50;25.85,70.50;21.45,49.70;20.40,36.05;25.50,60.05;23.39,46.30;33.80,22.50;23.57,50.35;23.25,33.35;26.55,28.38;26.51,51.65;25.40,55.25;23.00,61.60;55.60,87.75;20.68,61.03;65.49,77.06;22.55,35.23;20.90,63.75;71.22,72.90;39.65,91.75;22.79,29.99;29.35,30.15|CN|N|Click on Glinting Sand and get Rolo's Riddle.|L|102225|
-A Rolo's Riddle|QID|32974|N|Click on the Riddle you found in the Glinting Sand to get the quest.|U|102225|
-T Rolo's Riddle|QID|32974|M|49.37,69.41|N|To Mound of Dirt, behind the jumping pillars.|
-A Rolo's Riddle|QID|32975|M|49.37,69.41|PRE|32974|N|From Mound of Dirt, behind the jumping pillars.|
-T Rolo's Riddle|QID|32975|M|34.57,26.67|N|To Mound of Dirt, at the rear of Three Breeze Terrace.|
-A Rolo's Riddle|QID|32976|M|34.57,26.67|PRE|32975|N|From Mound of Dirt, at the rear of Three Breeze Terrace.|
-N Rolo's Riddle|ACTIVE|32976|M|41.2,63.6|N|You have one of two options:  Buy a glider or ride an Albatross. Ku-Mo sells them. Click this step off and pick your option.|T|Ku-Mo|
-N Use an Albatross|ACTIVE|32976|M|33.88,55.22|N|Once you are on the albatross, skip to the turn-in step so you know when to exit.|T|Highwind Albatross|
-R Timeless Waters|ACTIVE|32976|M|69,7|N|Take your water stider or raft onto the waters till you get here.  You should now be able to fly straight up as far as you dare on your flying mount and then go towards the lake, where the arrow points.  You will be dismounted, and then use your glider.|U|104346|
-T Rolo's Riddle|QID|32976|M|66.06,23.26|N|To Rolo's Treasure.|
 
 ; Weekly Loots
 A Pillar Hopping Tracking Quest|QID|32969|M|49.71,69.42|N|From Gleaming Treasure Chest, weekly, on the Firewalkers path. Hop onto the pillar and loot.  Easy as pie, NOT.|
@@ -215,6 +207,19 @@ t Path of the Mistwalker|QID|33374|M|42.86,55.2|N|To Emperor Shaohao.|
 t Drive Back The Flame|QID|33342|M|42.86,55.2|N|To Emperor Shaohao.|
 A The Archiereus Of Flame|QID|33343|M|42.86,55.2|PRE|33342|N|From Emperor Shaohao.|
 T The Archiereus Of Flame|QID|33343|M|42.86,55.2|N|To Emperor Shaohao.|
+
+; Riddles - One time quests
+
+l Rolo's Riddle|QID|32974|M|20.10,56.90;20.50,71.20;20.90,74.00;21.10,44.90;21.30,40.90;22.90,55.00;23.10,75.50;24.20,67.80;34.20,87.10;61.80,83.60;67.10,78.80;70.20,67.20;22.70,69.45;36.50,87.45;60.10,88.45;68.20,74.45;23.45,37.75;23.45,58.85;36.45,20.25;62.45,80.53;20.60,53.50;25.85,70.50;21.45,49.70;20.40,36.05;25.50,60.05;23.39,46.30;33.80,22.50;23.57,50.35;23.25,33.35;26.55,28.38;26.51,51.65;25.40,55.25;23.00,61.60;55.60,87.75;20.68,61.03;65.49,77.06;22.55,35.23;20.90,63.75;71.22,72.90;39.65,91.75;22.79,29.99;29.35,30.15|CN|N|Click on Glinting Sand and get Rolo's Riddle.|L|102225|
+A Rolo's Riddle|QID|32974|N|Click on the Riddle you found in the Glinting Sand to get the quest.|U|102225|
+T Rolo's Riddle|QID|32974|M|49.37,69.41|N|To Mound of Dirt, behind the jumping pillars.|
+A Rolo's Riddle|QID|32975|M|49.37,69.41|PRE|32974|N|From Mound of Dirt, behind the jumping pillars.|
+T Rolo's Riddle|QID|32975|M|34.57,26.67|N|To Mound of Dirt, at the rear of Three Breeze Terrace.|
+A Rolo's Riddle|QID|32976|M|34.57,26.67|PRE|32975|N|From Mound of Dirt, at the rear of Three Breeze Terrace.|
+N Rolo's Riddle|ACTIVE|32976|M|41.2,63.6|N|You have one of two options:  Buy a glider or ride an Albatross. Ku-Mo sells them. Click this step off and pick your option.|T|Ku-Mo|
+N Use an Albatross|ACTIVE|32976|M|33.88,55.22|N|Once you are on the albatross, skip to the turn-in step so you know when to exit.|T|Highwind Albatross|
+R Timeless Waters|ACTIVE|32976|M|69,7|N|Take your water stider or raft onto the waters till you get here.  You should now be able to fly straight up as far as you dare on your flying mount and then go towards the lake, where the arrow points.  You will be dismounted, and then use your glider.|U|104346|
+T Rolo's Riddle|QID|32976|M|66.06,23.26|N|To Rolo's Treasure.|
 
 ; Pirates!
 N Dread Ship Vazuvius|QID|32957|M|38.00,90.80;39.33,92.38|CN|N|Head out to the ship and battle Cursed Hozen Swabbys util they drop the key. They count towards [Path of the Mistwalker]. The [Cursed Swabby Helmet] is the featured loot.|L|104015|
