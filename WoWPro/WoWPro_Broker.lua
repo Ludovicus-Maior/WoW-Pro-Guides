@@ -874,8 +874,10 @@ function WoWPro:PopulateQuestLog()
 
     i=1
 	repeat
-		local questTitle, level, questTag, suggestedGroup, isHeader, 
-			isCollapsed, isComplete, isDaily, questID, startEvent, displayQuestID = GetQuestLogTitle(i)
+--		local questTitle, level, questTag, suggestedGroup, isHeader, 
+--			isCollapsed, isComplete, isDaily, questID, startEvent, displayQuestID = GetQuestLogTitle(i)
+		local questTitle, level, suggestedGroup, isHeader, isCollapsed, isComplete, frequency,
+		    questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isStory = GetQuestLogTitle(i)
 		local leaderBoard
 		local ocompleted
 		if not questTitle and (num < numQuests) then
