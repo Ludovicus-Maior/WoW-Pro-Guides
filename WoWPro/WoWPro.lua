@@ -330,6 +330,7 @@ function WoWPro:OnEnable()
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
 		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW", "GOSSIP_SHOW",
+		"QUEST_DETAIL", "QUEST_GREETING"
 		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
@@ -604,15 +605,19 @@ function WoWPro:HSL2RGB(h,s,l)
 end
 
 local Difficulty = {}
-Difficulty[0] = {0,0.6,0.3}  -- Red/Gray
+Difficulty[0] = {-60/360,0.8,0.4}  -- Red/Blue
 Difficulty[1] = {0,0.9,0.5} -- Red
-Difficulty[2] = {20/360,0.9,0.5} -- Orange
+Difficulty[2] = {30/360,0.9,0.5} -- Orange
 Difficulty[3] = {60/360,0.9,0.5} -- Yellow
 Difficulty[4] = {120/360,0.9,0.5} -- Green
-Difficulty[5] = {120/360,0.6,0.3} -- Green/Gray
+Difficulty[5] = {180/360,0.8,0.4} -- Green/Teal
 
 function WoWPro:InterpolateHSL(l,h,r)
     local ir = 1 - r
+    if (r < 0 or r > 1) then
+        WoWPro:Error("InterpolateHSL: bad factor %f",r)
+        r = -1
+    end
     WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)",
                 l[1], l[2], l[3], h[1], h[2], h[3], r)
     return { l[1]*ir + h[1]*r , l[2]*ir + h[2]*r, l[3]*ir + h[3]*r }
@@ -645,19 +650,19 @@ function WoWPro:QuestColor(questLevel, playerLevel)
     elseif diff >= 0 then
         -- orange => yellow
         c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[2], (diff-0)/3)
-    elseif diff >= -4  then
+    elseif diff >= -5  then
         -- yellow => green
-        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[3], (4+diff)/4)
+        c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[4], (diff)/-5)
     else
         -- green => gray
-        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[5], (4+diff)/90)
+        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[5], (5+diff)/-90)
     end
     return  WoWPro:HSL2RGB(c[1], c[2], c[3])
 end
    
-function WoWPro:TestQuestColor()
-    for ql=10,30,0.5 do
-        local r, g, b =  WoWPro:QuestColor(ql, 20.0)
+function WoWPro:TestQuestColor(a,b,c,d)
+    for ql=a,b,c do
+        local r, g, b =  WoWPro:QuestColor(ql, d)
         local msg = string.format("|c%2x%2x%2x%2xLevel %f .vs. %f|r",255,255*r,255*g,255*b,ql,50)
         DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
