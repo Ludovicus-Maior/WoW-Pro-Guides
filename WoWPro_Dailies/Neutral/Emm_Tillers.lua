@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2014-07-26 22:25
+-- Who: Ludovicus
+-- Log: Some minor corrections.
+
+-- URL: http://wow-pro.com/node/3508/revisions/26581/view
 -- Date: 2014-07-19 17:06
 -- Who: Ludovicus
 -- Log: Adj meanlevel
@@ -207,29 +212,29 @@ A A Gift For ??|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|
 A Help the Master Cooks|QID|30328;30329;30330;30331;30332|N|One of the master cooks will want an ingrediant, these quests do not offer Tiller Rep. You can skip them if you don't have a use for Ironpaw tokens, but as its done in the same area, you may as well do it,(except when its fatty goatsteak, that one is attractive to skip if you are on a med-high pop server).|
 
 ;prepare food -steps were not showing in guide, i suspect because the QID's are not in the quest log (at this time, or any time... since they are instant quests) using one that should be --- and moving to after you accept andi's quests
-B Buy or Make 5 Eternal Blossom Fish|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Sho;1278;Stranger-Good Friend|L|74645 5|N|This is for Sho. It requires Jade Lungfish x5 and Striped Melon x5.|;30408
+B Buy or Make 5 Eternal Blossom Fish|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Sho;1278;Stranger-Good Friend|L|74645 5|N|This is for Sho. It requires Jade Lungfish x5 and Striped Melon x25.|;30408
 B Buy or Make 5 Charbroiled Tiger Steak|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Haohan Mudclaw;1279;Stranger-Good Friend|L|74642 5|N|This is for Haohan. It requires Raw Tiger Steak x5.|;30414
 B Buy or Make 5 Valley Stir Fry|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Chee Chee;1277;Stranger-Good Friend|L|74647 5|N|This is for Chee Chee It requires Reef Octopus x5 and Wildfowl Breast x5.|;30402
-B Buy or Make 5 Sauteed Carrots|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Jogu the Drunk;1273;Stranger-Good Friend|L|74643 5|N|This is for Jogu. It requires Juicycrunch Carrot x5.|;30439
-B Buy or Make 5 Braised Turtle|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Old Hillpaw;1276;Stranger-Good Friend|L|74649 5|N|This is for Old Hillpaw. It requires Turtle Meat x5 and Juicycrunch Carrot x5.|;30396
+B Buy or Make 5 Sauteed Carrots|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Jogu the Drunk;1273;Stranger-Good Friend|L|74643 5|N|This is for Jogu. It requires Juicycrunch Carrot x10.|;30439
+B Buy or Make 5 Braised Turtle|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Old Hillpaw;1276;Stranger-Good Friend|L|74649 5|N|This is for Old Hillpaw. It requires Turtle Meat x5 and Juicycrunch Carrot x25.|;30396
 B Buy or Make 5 Swirling Mist Soup|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Gina Mudclaw;1281;Stranger-Good Friend|L|74644 5|N|This is for Gina. It requires Jade Lungfish x5.|;30390
-B Buy or Make 5 Fire Spirit Salmon|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Tina Mudclaw;1280;Stranger-Good Friend|L|74652 5|N|This is for Tina. It requires Emperor Salmon x5 and Scallions x5.|;30433
+B Buy or Make 5 Fire Spirit Salmon|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Tina Mudclaw;1280;Stranger-Good Friend|L|74652 5|N|This is for Tina. It requires Emperor Salmon x5 and Scallions x25.|;30433
 B Buy or Make 5 Shrimp Dumplings|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Ella;1275;Stranger-Good Friend|L|74651 5|N|This is for Ella. It requires Giant Mantis Shrimp x5.|;Ella-30386
 B Buy or Make 5 Twin Fish Platter|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Fish Fellreed;1282;Stranger-Good Friend|L|74655 5|N|This is for Fish. It requires Krasarang Paddlefish x10.|;30427
 B Buy or Make 5 Wildfowl Roast|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Farmer Fung;1283;Stranger-Good Friend|L|74654 5|N|This is for Farmer Fung. It requires Wildfowl Breast x5.|;30421
 
 ;pick up last 2 quests
 A A Dish for ??|QID|30386;30396;30402;30408;30414;30421;30427;30433|N|Two friends in the market will offer you quests, only one is able to be predicted by this guide. This step will automatically close when you turn in the first food item (if you have no food to turn in at the market, check this off manually). Once you are best friends with someone they don't accept your food or gifts, but will still offer quests.|
-A Tina Mudclaw|QID|30433;30428;30323|ACTIVE|30470|M|53.0,51.6|N|Turn in food, treasure, accept daily. She prefers a Ruby Shard.|
+A Tina Mudclaw|QID|30433;30428;30323|ACTIVE|30470|M|53.0,51.6|N|Turn in food, treasure, accept daily. She prefers a Ruby Shard. Prefer Tina to Haohan for gifts.|
 A Haohan Mudclaw|QID|30414;30409;30319|ACTIVE|30477|M|53.0,51.6|N|Turn in food, treasure, accept daily. He prefers a Ruby Shard.|
-A Jogu the Drunk|QID|30439;30435;30321|M|53.59,52.51|REP|Jogu the Drunk;1273;Stranger-Good Friend|N|Turn in food, treasure, accept daily, if offered. He prefers a Lovely Apple. Check this off manually if he doesn't have a quest today and you choose not to feed him or give him a Lovely Apple.|
+A Jogu the Drunk|QID|30439;30435;30321|M|53.59,52.51|REP|Jogu the Drunk;1273;Stranger-Good Friend|N|Turn in food, treasure, accept daily, if offered. He prefers a Lovely Apple.|
 A Weed War II|QID|30321|ACTIVE|30478|M|53.59,52.51|REP|Jogu the Drunk;1273;Best Friend|N|From Jogu the Drunk.|
-A Sho|QID|30408;30404;30325|ACTIVE|30472|M|53,52|N|Turn in food, treasure, accept daily. She prefers a Lovely Apple.|
-A Ella|QID|30386;30381;30327|ACTIVE|30474|M|53.05,51.67|N|Turn in food, treasure, accept daily. She prefers a Jade Cat.|
+A Sho|QID|30408;30404;30325|ACTIVE|30472|M|53,52|N|Turn in food, treasure, accept daily. She prefers a Lovely Apple. Prefer Sho to Jogu for gifts.|
+A Ella|QID|30386;30381;30327|ACTIVE|30474|M|53.05,51.67|N|Turn in food, treasure, accept daily. She prefers a Jade Cat. Prefer Ella to Fish for gits.|
 A Fish Fellreed|QID|30427;30424;30326|ACTIVE|30473|M|52.77,51.88|N|Turn in food, treasure, accept daily. She prefers a Jade Cat.|
-A Old Hillpaw|QID|30396;30394;30318|ACTIVE|30476|M|53.0,51.8|N|Turn in food, treasure, accept daily. He prefers a Blue Feather.|
+A Old Hillpaw|QID|30396;30394;30318|ACTIVE|30476|M|53.0,51.8|N|Turn in food, treasure, accept daily. He prefers a Blue Feather. Prefer Hillpaw to Chee Chee for gifts.|
 A Chee Chee|QID|30402;30400;30324|ACH|6552;3|ACTIVE|30471|M|53.10,52.01|N|Turn in food, treasure, accept daily. He prefers a Blue Feather.|
-A Gina Mudclaw|QID|30390;30389;30322|M|53.17,51.86|REP|Gina Mudclaw;1281;Stranger-Good Friend|N|Turn in food, treasure, accept daily if offered. She prefers a Marsh Lily. Check this off manually if she doesn't have a quest today and you choose not to feed her or give her a marsh lily.|
+A Gina Mudclaw|QID|30390;30389;30322|M|53.17,51.86|REP|Gina Mudclaw;1281;Stranger-Good Friend|N|Turn in food, treasure, accept daily if offered. She prefers a Marsh Lily. No preference for gifts to Gina and Fung.|
 A Money Matters|QID|30322|ACTIVE|30479|M|53.17,51.86|REP|Gina Mudclaw;1281;Best Friend|N|From Gina Mudclaw.|
 A Farmer Fung|QID|30421;30420;30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, treasure, accept daily. He perfers a Marsh Lily.|
 
@@ -508,7 +513,7 @@ A The "Jinyu Princess" Irrigation System|QID|31936|PRE|30516|U|89812|N|From the 
 T The "Jinyu Princess" Irrigation System|QID|31936|M|52.20,48.86|N|To Farmer Yoon who installs it for you.|
 
 ;BUY THE BUG SPRAYER - requires remove the cart
-B "Thunder King" Pest Repellers|LEAD|31397|PRE|30524|M|53.2,51.8|L|89813|N|Buy from Gina Mudclaw. Even if you like using inventory space for the bug sprayer, its still 250 rep for 80g. Not available until after the weeds are removed (so, in 15 minutes, if Fish just started.)|
+B "Thunder King" Pest Repellers|LEAD|31937|PRE|30524|M|53.2,51.8|L|89813|N|Buy from Gina Mudclaw. Even if you like using inventory space for the bug sprayer, its still 250 rep for 80g. Not available until after the weeds are removed (so, in 15 minutes, if Fish just started.)|
 A "Thunder King" Pest Repellers|PRE|30524|QID|31937|M|53.2,51.8|U|89813|N|From the item you just bought.|
 T "Thunder King" Pest Repellers|QID|31937|M|52.20,48.86|N|To Farmer Yoon who installs it for you.|
 
