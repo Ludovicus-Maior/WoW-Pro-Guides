@@ -99,7 +99,7 @@ function WoWPro.LoadGuideReal()
         return
     end
     
-    WoWPro:dbp("starting guide cleanup:  %s",tostring(GID))
+    WoWPro:dbp("WoWPro_LoadGuide: starting guide cleanup:  %s",tostring(GID))
     
 	--Re-initiallizing tags and counts--
 	for i,tag in pairs(WoWPro.Tags) do 
@@ -1238,7 +1238,7 @@ function WoWPro.LockdownHandler(self, elapsed)
 			if TomTom and TomTom.AddMFWaypoint then
 				WoWPro:CarboniteProfileHack()
 			else 
-				WoWPro:Warning("Waiting for TomTom or Carbonite to init...")
+				WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
 				if WoWPro.LockdownCounter > 0 then
 					WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
 					WoWPro.LockdownTimer = 1.0
