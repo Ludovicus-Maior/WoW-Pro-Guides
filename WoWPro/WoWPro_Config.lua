@@ -755,6 +755,21 @@ local function createBlizzOptions()
     			            WoWPro:LoadAllGuides()
                         end
 			},				
+			enableGrail = {
+				order = 20,
+				type = "toggle",
+				name = L["Enable Grail"],
+				desc = L["Enables/Disables Grail Integration"],
+				get = function(info) return WoWPro.EnableGrail end,
+				set = function(info,val) 
+						if WoWPro.EnableGrail then
+						    WoWPro.EnableGrail = false
+						else
+						    WoWPro.EnableGrail = true
+						end
+						WoWProCharDB.EnableGrail = WoWPro.EnableGrail
+					end
+			},
 			blank2 = {
 				order = 90,
 				type = "description",
