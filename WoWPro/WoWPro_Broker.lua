@@ -1144,7 +1144,7 @@ function WoWPro:QuestPrereq(qid)
 end
 
 function WoWPro:Questline(qid)
-    if not Grail then return end
+    if not Grail or not WoWPro.EnableGrail then return end
     WoWPro:SkipAll()
     WoWPro:QuestPrereq(qid)
     WoWPro:LoadGuide(nil)
@@ -1167,7 +1167,7 @@ function WoWPro.PickQuestline()
 end
 
 function WoWPro:GrailQuestPrereq(qid)
-    if not Grail then return nil end
+    if not Grail or not WoWPro.EnableGrail then return nil end
     local preReq = Grail:QuestPrerequisites(qid)
     local PREstr = nil
     if not preReq then return nil end
@@ -1190,7 +1190,7 @@ function WoWPro:GrailQuestPrereq(qid)
 end
 
 function WoWPro:GrailCheckQuestName(guide,QID,myname)
-    if not Grail then return nil end
+    if not Grail or not WoWPro.EnableGrail then return nil end
     if QID == "*" then return QID end
     if not QID then
         WoWPro:Warning("In guide %s, quest [%s]  does not have a QID",guide,tostring(myname))
@@ -1217,7 +1217,7 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
 end
 
 function WoWPro:GrailQuestLevel(qid)
-    if not Grail then return nil end
+    if not Grail or not WoWPro.EnableGrail then return nil end
     local _,_,level = Grail:MeetsRequirementLevel(qid,nil)
     if level then
         return tostring(level)
