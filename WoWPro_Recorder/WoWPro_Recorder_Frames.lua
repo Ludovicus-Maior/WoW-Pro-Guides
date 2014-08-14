@@ -167,7 +167,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- RecordButton --
 	local function CreateRecordButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Record.tga"
-		WoWPro.RecordButton = CreateButton("Record", "Interface\\Icons\\ability_deathknight_aoedeathgrip", WoWPro.RecordText)
+		WoWPro.RecordButton = CreateButton("Record", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Record.tga", WoWPro.RecordText)
 		-- Scripts --
 		WoWPro.RecordButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
@@ -191,7 +191,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- StopButton --
 	local function CreateStopButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Stop.tga"
-		WoWPro.StopButton = CreateButton("Stop", "Interface\\Icons\\ability_deathknight_boneshield", WoWPro.RecordButton)
+		WoWPro.StopButton = CreateButton("Stop", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Stop.tga", WoWPro.RecordButton)
 		-- Scripts --
 		WoWPro.StopButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
@@ -215,7 +215,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- AddButton --
 	local function CreateAddButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Add.tga"
-		WoWPro.AddButton = CreateButton("Add", "Interface\\Icons\\ability_deathknight_deathsiphon", WoWPro.StopButton)
+		WoWPro.AddButton = CreateButton("Add", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Add.tga", WoWPro.StopButton)
 		-- Scripts --
 		WoWPro.AddButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
@@ -674,7 +674,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- SubtractButton --
 	local function CreateSubtractButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Subtract.tga"
-		WoWPro.SubtractButton = CreateButton("Subtract", "Interface\\Icons\\ability_deathknight_icygrip", WoWPro.AddButton)
+		WoWPro.SubtractButton = CreateButton("Subtract", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Subtract.tga", WoWPro.AddButton)
 		-- Scripts --
 		WoWPro.SubtractButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
@@ -741,7 +741,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- EditButton --
 	local function CreateEditButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Edit.tga"
-		WoWPro.EditButton = CreateButton("Edit", "Interface\\Icons\\ability_deathknight_roilingblood", WoWPro.SubtractButton)
+		WoWPro.EditButton = CreateButton("Edit", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Edit.tga", WoWPro.SubtractButton)
 		-- Scripts --
 		WoWPro.EditButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
@@ -1094,7 +1094,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- NoteButton --
 	local function CreateNoteButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Note.tga"
-		WoWPro.NoteButton = CreateButton("Note", "Interface\\Icons\\ability_deathknight_soulreaper", WoWPro.EditButton)
+		WoWPro.NoteButton = CreateButton("Note", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Note.tga", WoWPro.EditButton)
 		-- Scripts --
 		WoWPro.NoteButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
@@ -1139,7 +1139,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- NewButton --
 	local function CreateNewButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\New.tga"
-		WoWPro.NewButton = CreateButton("New", "Interface\\Icons\\ability_Mage_ArcaneBarrage", WoWPro.NoteButton)
+		WoWPro.NewButton = CreateButton("New", "Interface\\Addons\\WoWPro_Recorder\\Textures\\New.tga", WoWPro.NoteButton)
 		-- Scripts --
 		WoWPro.NewButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
@@ -1198,7 +1198,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- OpenButton --
 	local function CreateOpenButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Open.tga"
-		WoWPro.OpenButton = CreateButton("Open", "Interface\\Icons\\ability_Mage_BrainFreeze", WoWPro.NewButton)
+		WoWPro.OpenButton = CreateButton("Open", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Open.tga", WoWPro.NewButton)
 		-- Scripts --
 		WoWPro.OpenButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
@@ -1250,7 +1250,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- SaveButton --
 	local function CreateSaveButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Save.tga"
-		WoWPro.SaveButton = CreateButton("Save", "Interface\\Icons\\ability_Mage_DeepFreeze", WoWPro.OpenButton)
+		WoWPro.SaveButton = CreateButton("Save", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Save.tga", WoWPro.OpenButton)
 		-- Scripts --
 		WoWPro.SaveButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
@@ -1273,7 +1273,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	-- DeleteButton --
 	local function CreateDeleteButton()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Trash.tga"
-		WoWPro.DeleteButton = CreateButton("Delete", "Interface\\Icons\\ability_Mage_FieryPayback", WoWPro.SaveButton)
+		WoWPro.DeleteButton = CreateButton("Delete", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Trash.tga", WoWPro.SaveButton)
 		-- Scripts --
 		WoWPro.DeleteButton:SetScript("OnMouseUp", function(self, button)
 			if button == "LeftButton" then
