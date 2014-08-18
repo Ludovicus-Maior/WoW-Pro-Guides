@@ -378,14 +378,15 @@ function WoWPro.EventHandler(frame, event, ...)
 
 	-- Unlocking event processong after things get settled --
 	if event == "PLAYER_ENTERING_WORLD" then
-	    WoWPro:dbp("Setting Timer 1")
+	    WoWPro:dbp("Setting Timer PEW")
 	    WoWPro.InitLockdown = true
+	    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
 	    WoWPro.LockdownTimer = 1.5
 	end
 		
 	-- Locking event processong till after things get settled --
 	if event == "PLAYER_LEAVING_WORLD" then
-	    WoWPro:dbp("Locking Down 1")
+	    WoWPro:dbp("Locking Down PLW")
 	    WoWPro.InitLockdown = true
 	end
 	
@@ -478,13 +479,13 @@ function WoWPro.EventHandler(frame, event, ...)
                 WoWPro:dbp("ZT: GOSSIP_SHOW index %d/%d, considering [%s]",index,npcCount,item)
                 if WoWPro.action[qidx] == "A" then
     		        if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-    		            WoWPro:dbp("ZZZT %d: Inhale %s, prev qcount was %d, new is %d",qidx,item, WoWPro.qcount[qidx], npcCount)
+    		            WoWPro:dbp("ZZZT %d: GOSSIP_SHOW Inhale %s, prev qcount was %d, new is %d",qidx,item, WoWPro.qcount[qidx], npcCount)
     	                WoWPro.qcount[qidx] = npcCount
     		            SelectGossipAvailableQuest(index)
     		            return
     		        end
     		        if WoWPro.action[qidx] == "A" and item == WoWPro.step[qidx] then
-    		            WoWPro:dbp("ZZZT %d: Name matches [%s], selecting.",index,item)
+    		            WoWPro:dbp("ZZZT %d: GOSSIP_SHOW Name matches [%s], selecting.",index,item)
     		            SelectGossipAvailableQuest(index)
     		        end
     		    end
@@ -523,6 +524,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		            return
                 end
                 if GetAvailableTitle(i) == WoWPro.step[qidx] then
+                    WoWPro:dbp("ZZZT %d: QUEST_GREETING Name matches [%s], selecting.",index,item)
 		            SelectAvailableQuest(i)
 		            return
 		        end
