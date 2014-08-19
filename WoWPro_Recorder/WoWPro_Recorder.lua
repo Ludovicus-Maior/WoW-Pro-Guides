@@ -293,12 +293,17 @@ function WoWPro.Recorder:RowLeftClick(i)
 end
 		
 function WoWPro.Recorder:AddStep(stepInfo,position)
+    if not WoWPro.GuideLoaded then
+        WoWPro.Recorder:Warning("Hey, no guide is loaded!")
+        return
+    end
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
+	WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos, stepInfo.action, stepInfo.step)
 	for i,tag in pairs(WoWPro.Tags) do 
 		value = stepInfo[tag]
 		if not value then value = false end
 		table.insert(WoWPro[tag], pos+1, value)
-		WoWPro.Recorder:dbp("Adding tag "..tag.." at position "..pos+1)
+--		WoWPro.Recorder:dbp("Adding tag "..tag.." at position "..pos+1)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	if WoWPro.Recorder.SelectedStep then
@@ -306,20 +311,25 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
 	else
 	    WoWPro.Recorder.SelectedStep = 1
 	end
+	WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
 	WoWPro:UpdateGuide()
-	WoWPro.Recorder:SaveGuide()
 end
 
 function WoWPro.Recorder:RemoveStep(position)
+    if not WoWPro.GuideLoaded then
+        WoWPro.Recorder:Warning("Hey, no guide is loaded!")
+        return
+    end
 	local pos = position or WoWPro.stepcount
+	WoWPro.Recorder:dbp("Deleteing step %d %s [%s]",pos, WoWPro.action, WoWPro.step)
 	for i,tag in pairs(WoWPro.Tags) do 
 		table.remove(WoWPro[tag], pos)
-		WoWPro.Recorder:dbp("Removing tag "..tag.." at position "..pos)
+--		WoWPro.Recorder:dbp("Removing tag "..tag.." at position "..pos)
 	end
 	WoWPro.stepcount = WoWPro.stepcount-1
 	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep - 1
+	WoWPro.Recorder:CheckpointCurrentGuide("RemoveStep")
 	WoWPro:UpdateGuide()
-	WoWPro.Recorder:SaveGuide()
 end
 
 ---This is what the header needs to look like
@@ -329,8 +339,7 @@ end
 ---WoWPro:GuideSteps(guide, function()
 ---return [[
 
-function WoWPro.Recorder:SaveGuide(window)
-
+function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	local GID = WoWProDB.char.currentguide
 
 	local header = "local guide = WoWPro:RegisterGuide('"
@@ -402,7 +411,16 @@ function WoWPro.Recorder:SaveGuide(window)
 		nextGID = WoWPro.Guides[GID].nextGID,
 		faction = UnitFactionGroup("player")
 	}
-	
+	WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)
+	return guideString
+end
+
+function WoWPro.Recorder:SaveGuide(window)
+    if not WoWPro.GuideLoaded then
+        WoWPro.Recorder:Warning("Hey, no guide is loaded!")
+        return
+    end
+    local guideString = WoWPro.Recorder:CheckpointCurrentGuide("Save")
 	-- Save Guide Dialog --
 	config:RegisterOptionsTable("WoWPro Recorder - Save Guide", {
 		name = "Save Guide",
@@ -411,7 +429,7 @@ function WoWPro.Recorder:SaveGuide(window)
 			guidetype = {
 				order = 0,
 				type = "input",
-				multiline = true,
+				multiline = 20,
 				name = "Copy the following and paste it into a guide file:",
 				desc = "",
 				width = "full",
@@ -421,7 +439,7 @@ function WoWPro.Recorder:SaveGuide(window)
 			},
 		},
 	})
-	dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 500, 200)
+	dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 750, 400)
 	if window then dialog:Open("WoWPro Recorder - Save Guide", WoWPro.DialogFrame) end
 
 end
