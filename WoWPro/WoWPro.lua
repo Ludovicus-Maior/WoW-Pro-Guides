@@ -410,22 +410,23 @@ event from the guide frame.
 	end
 end
 
+-- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
+-- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
-    local guid = UnitGUID("target");
-    if not guid then
+    local knownTypes = {[0]="player", [3]="NPC", [4]="pet", [5]="vehicle"};
+    local npcid = tonumber(guid:sub(6,10), 16);
+    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit(":", UnitGUID("target"))
+    if not unitType then
         WoWPro:dbp("No target");
         return nil
     end      
-    local B = tonumber(guid:sub(5,5), 16);
-    local maskedB = B % 8; -- x % 8 has the same effect as x & 0x7 on numbers <= 0xf
-    local knownTypes = {[0]="player", [3]="NPC", [4]="pet", [5]="vehicle"};
-    local npcid = tonumber(guid:sub(6,10), 16);
     
-    if maskedB == 3 then
-        WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!") .. " ID %d",npcid);
+    if unitType == "Player" then
+        unitType, serverID, npcID = strsplit(":", UnitGUID("target"))
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcid);
         return npcid
     else
-        WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!"));
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcid);
         return nil
     end
 end
