@@ -94,7 +94,6 @@ local function CreateInitSpecMenu(module)
                                 end
 							end							    
 							WoWPro.Recorder:InitGuide(WoWPro.Recorder.CurrentGuide.GID,WoWPro.Recorder.CurrentGuide.Type, optArgs)
-							WoWPro.Recorder.LoadingGuide = true	
 							WoWPro:LoadGuide(WoWPro.Recorder.CurrentGuide.GID);
 							dialog:Close("WoWPro Recorder - New Guide - "..module);
 						end,
