@@ -529,6 +529,7 @@ function WoWPro.SetupGuideReal()
 	WoWPro.GuideLoaded = true
 	WoWPro:AutoCompleteQuestUpdate(nil)
 	WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
+	WoWPro:SendMessage("WoWPro_PostLoadGuide")
 end
 
 
