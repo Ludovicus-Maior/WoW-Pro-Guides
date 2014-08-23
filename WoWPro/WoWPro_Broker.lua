@@ -1241,7 +1241,7 @@ function WoWPro.LockdownHandler(self, elapsed)
 				WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
 				if WoWPro.LockdownCounter > 0 then
 					WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
-					WoWPro.LockdownTimer = 1.0
+					WoWPro.LockdownTimer = 0.33
 				else
 					-- Warning if the user is missing TomTom --
 					WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
