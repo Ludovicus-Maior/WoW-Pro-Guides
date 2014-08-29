@@ -646,6 +646,7 @@ local function pack_v(...)
         t[#t+1] = v
     end
     return t
+end
 
 local function Zone2Functs(tabla)
     local result = ""
