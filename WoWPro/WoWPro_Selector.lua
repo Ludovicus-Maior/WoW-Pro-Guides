@@ -109,6 +109,36 @@ end
 
 WOWPRO_SELECTOR = "Show the WoW-Pro Guide Selector"
 
+function WoWPro:UpdateGuideScores ()
+    WoWPro.Leveling:dbp("UpdateGuideScores()")
+	for name, module in WoWPro:IterateModules() do
+	    if WoWPro[name].UpdateGuideScores then 
+		    WoWPro[name]:UpdateGuideScores()
+		end
+	end
+end
+
+function WoWPro:SelectTopGuides()
+    WoWPro.Leveling:dbp("SelectTopGuides()")
+    local scores = {}
+    WoWPro:UpdateGuideScores ()
+    for guidID,guide in pairs(WoWPro.Guides) do
+        if guide.score then
+            table.insert(scores, {score = guide.score, GID = guidID })
+        end
+    end
+    local scoref = function (a,b) return a.score < b.score end
+    table.sort(scores, scoref)
+    for idx=1,8 do
+        local item = WoWProSelector_Frame.button[idx]
+        local GID = scores[idx].GID
+        local guide = WoWPro.Guides[GID]
+        WoWPro:dbp("SelectTopGuides: Picked %s for %d",GID,idx) 
+        item.title:SetText(guide.name)
+        item.class:SetText(guide.class)
+        item:SetNormalTexture(guide.icon)        
+    end
+end
 
 function WoWPro:Selector()
     if WoWProSelector_Frame:IsVisible() then
@@ -120,12 +150,16 @@ function WoWPro:Selector()
         end
         WoWProSelector_Frame.button[WoWProSelector_Frame.selection]:SetButtonState("PUSHED",false)
     else
+        WoWPro:SelectTopGuides()
         WoWProSelector_Frame:Show()
         print("Opening WPGS")
         WoWProSelector_Frame.selection = 1
         WoWProSelector_Frame.button[WoWProSelector_Frame.selection]:SetButtonState("PUSHED",false)
     end
 end
+
+
+
  	
 function WoWProSelector_CloseButton_OnClick()
     WoWProSelector_Frame:Hide()
@@ -149,8 +183,6 @@ function WoWPro:Selector_OnLoad()
         item.class:SetText("Class")
         item:SetNormalTexture(icon)
         item:SetPushedTexture("Interface\\Buttons\\UI-Quickslot-Depress")
---        item:GetPushedTexture():SetBlendMode('ADD')
---        item:SetHighlightTexture("Interface\\Buttons\\ButtonHilight-Square")
     end
     
     

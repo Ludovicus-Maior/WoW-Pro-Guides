@@ -322,9 +322,7 @@ function WoWPro:OnEnable()
     local keys = GetBindingKey("WOWPRO_SELECTOR")
 	if keys then
 	    -- Do NOT release with this binding until it works!
-		-- SetBinding("ALT-G", "WOWPRO_SELECTOR")
-		WoWPro:Warning("Achtung! Detected key bound to WOWPRO_SELECTOR (%s). Undoing the binding.",keys)
-		SetBinding(keys, nil)
+		SetBinding("ALT-G", "WOWPRO_SELECTOR")
 	end
     
 
@@ -500,10 +498,8 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, side)
 end
 
 function WoWPro:UnRegisterGuide(guide,why)
-    if WoWPro.DebugLevel < 1 then
-        WoWPro:dbp(why,guide.GID)
-        WoWPro.Guides[guide.GID] = nil
-    end
+    WoWPro:dbp(why,guide.GID)
+    WoWPro.Guides[guide.GID] = nil
 end
 
 
