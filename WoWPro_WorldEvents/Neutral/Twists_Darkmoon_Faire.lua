@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2014-08-29 19:59
+-- Who: Ludovicus
+-- Log: Change zone
+
+-- URL: http://wow-pro.com/node/3459/revisions/26491/view
 -- Date: 2014-06-09 23:14
 -- Who: Ludovicus
 -- Log: Add new guide syntax and RANK
@@ -130,7 +135,7 @@
 -- Who: Ludovicus
 -- Log: Sync to git
 
-local guide = WoWPro:RegisterGuide("TwiDarkmoon",'WorldEvents',"Darkmoon Faire", "Twists", "Neutral")
+local guide = WoWPro:RegisterGuide("TwiDarkmoon",'WorldEvents',"DarkmoonFaireIsland", "Twists", "Neutral")
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.WorldEvents:GuideHoliday(guide,"Darkmoon Faire")
 WoWPro:GuideSteps(guide, function()
