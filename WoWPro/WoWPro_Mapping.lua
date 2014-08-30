@@ -497,9 +497,7 @@ function WoWPro:MapPoint(row)
 	if WoWPro.QID and WoWPro.QID[i] then
 	    local qid = tonumber(WoWPro.QID[i])
 	    if qid then
---	        WORLDMAP_SETTINGS.selectedQuestId = qid
---	        QuestPOI_SelectButtonByQuestId("WatchFrameLines", qid, true);
---	        SetSuperTrackedQuestID(qid);
+                SetSuperTrackedQuestID(qid)
 	    end
 	end
 	
