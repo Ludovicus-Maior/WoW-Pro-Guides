@@ -262,7 +262,7 @@ function WoWPro:OnInitialize()
 	end
 	WoWProDB.global.Log = {}
 	WoWProCharDB.DebugLevel = WoWProCharDB.DebugLevel or WoWPro.DebugLevel
-	if not WoWProCharDB.DebugLevel
+	if not WoWProCharDB.DebugLevel then
 		WoWProDB.global.Deltas = {}
 	end
 	if WoWProCharDB.AutoHideInsideInstances == nil then
@@ -334,7 +334,7 @@ function WoWPro:OnEnable()
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
 		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW", "GOSSIP_SHOW",
-		"QUEST_DETAIL", "QUEST_GREETING"
+		"QUEST_DETAIL", "QUEST_GREETING", "QUEST_TURNED_IN", "QUEST_ACCEPTED"
 		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)

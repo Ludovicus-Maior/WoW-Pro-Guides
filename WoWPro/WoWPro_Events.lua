@@ -593,6 +593,12 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	
+	if event == "QUEST_TURNED_IN" or event == "QUEST_ACCEPTED" then
+	    local qlidx, qid = ...
+	    WoWPro:dbp("%s(%s,%s)",event,qlidx,qid)
+	    -- just watch for now
+	end
+	    
 	if event == "TRADE_SKILL_SHOW" then
 	    WoWPro:ScanTrade()
     end
