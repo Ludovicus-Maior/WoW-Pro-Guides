@@ -260,9 +260,11 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
-	WoWProDB.global.Deltas = {}
 	WoWProDB.global.Log = {}
 	WoWProCharDB.DebugLevel = WoWProCharDB.DebugLevel or WoWPro.DebugLevel
+	if not WoWProCharDB.DebugLevel
+		WoWProDB.global.Deltas = {}
+	end
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
@@ -412,7 +414,7 @@ end
 -- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
 -- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
-    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit(":", UnitGUID("target"))
+    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit(":", UnitGUID("target") or "")
     if not unitType then
         WoWPro:dbp("No target");
         return nil
