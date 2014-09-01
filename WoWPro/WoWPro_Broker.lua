@@ -745,6 +745,34 @@ function WoWPro:NextStep(k,i)
             end
      	end
         
+        -- Test for buildings, default is to skip if we dont have any of the named ones.
+        if WoWPro.building and WoWPro.building[k] then
+            local Name,ids  = string.split(";",WoWPro.building[k],2)
+            local numList = select("#", string.split(";", ids))
+            local idHash = {}
+            WoWPro:dbp("Checking to see if you own %s: %s",Name, ids)
+            for i=1,numList do
+                local bid = select(numList-i+1, string.split(";", ids))
+                bid = tonumber(bid)
+		        if not bid then
+		            WoWPro:Error("Malformed BID [%s] in Guide %s",WoWPro.building[k],WoWProDB.char.currentguide)
+		            bid = 0
+		        end
+		        idHash[bid] = true
+		    end
+		    local buildings = C_Garrison.GetBuildings();
+		    WoWPro.why[k] = "NextStep(): Building not owned."
+		    skip = true
+            for i = 1, #buildings do
+                local building = buildings[i];
+                if idHash[building.buildingID] then
+                    skip = false
+                    WoWPro.why[k] = "NextStep(): Building owned."
+                    WoWPro:dbp("Build %d is owned",building.buildingID)
+                end
+            end
+		end
+        
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank and WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 

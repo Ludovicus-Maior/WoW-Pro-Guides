@@ -311,6 +311,7 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
 	WoWPro.recipe[i] = text:match("|RECIPE|([^|]*)|?")
 	WoWPro.pet[i] = text:match("|PET|([^|]*)|?")
+	WoWPro.building[i] = text:match("|BUILDING|([^|]*)|?")
 	WoWPro.gossip[i] = text:match("|QG|([^|]*)|?")
 	if WoWPro.gossip[i] then WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end
 	WoWPro.why[i] = "I dunno."
