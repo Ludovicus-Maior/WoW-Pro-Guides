@@ -488,7 +488,7 @@ function WoWPro:MapPoint(row)
 	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
 		QuestMapUpdateAllQuests()
 		QuestPOIUpdateIcons()
-		WorldMapFrame_UpdateQuests()
+--		WorldMapFrame_UpdateQuests()
 		local x, y = WoWPro:findBlizzCoords(WoWPro.QID[i])
 		if x and y then coords = tostring(x)..","..tostring(y) end
 	end
