@@ -733,7 +733,7 @@ function WoWPro:RowUpdate(offset)
 		WoWPro.RowDropdownMenu[i] = dropdown
 		
 		-- Item Button --
-		if action == "H" then use = 6948 end
+		if action == "H" and not use then use = 6948 end
 		if ( not use ) and action == "C" and WoWPro.QuestLog[tonumber(QID)] then
 			local link, icon, charges = GetQuestLogSpecialItemInfo(WoWPro.QuestLog[tonumber(QID)].index)
 			if link then
