@@ -339,7 +339,11 @@ function WoWPro:UpdateQuestTracker()
 					for l=1,numquesttext do
 						local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
 						if tonumber(lquesttext) then
-						    track = "- " .. WoWPro.QuestLog[QID].leaderBoard[tonumber(lquesttext)]
+						    if WoWPro.QuestLog[QID].leaderBoard[tonumber(lquesttext)] then
+						        track = "- " .. WoWPro.QuestLog[QID].leaderBoard[tonumber(lquesttext)]
+						    else
+						        track = "- " .. "?"
+						    end
 						    if WoWPro.QuestLog[QID].ocompleted[tonumber(lquesttext)] then
 						        track =  track.." (C)"
 						    end
@@ -531,7 +535,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		            return
                 end
                 if GetAvailableTitle(i) == WoWPro.step[qidx] then
-                    WoWPro:dbp("ZZZT %d: QUEST_GREETING Name matches [%s], selecting.",index,item)
+                    WoWPro:dbp("ZZZT %d: QUEST_GREETING Name matches [%s], selecting.", i, WoWPro.step[qidx])
 		            SelectAvailableQuest(i)
 		            return
 		        end
