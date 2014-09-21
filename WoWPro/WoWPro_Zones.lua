@@ -299,7 +299,6 @@ DefineInstance( 443,0,"WarsongGulch")
 DefineInstance( 461,0,"ArathiBasin")
 DefineInstance( 482,0,"NetherstormArena")
 DefineInstance( 502,0,"ScarletEnclave")
-DefineInstance( 504,2,"3")
 DefineInstance( 504,2,"Dalaran")
 DefineInstance( 512,0,"StrandoftheAncients")
 DefineInstance( 520,0,"TheNexus")
@@ -329,12 +328,9 @@ DefineInstance( 602,0,"PitofSaron")
 DefineInstance( 603,0,"HallsofReflection")
 DefineInstance( 604,8,"IcecrownCitadel")
 DefineInstance( 609,0,"TheRubySanctum")
-DefineInstance( 610,0,"18")
 DefineInstance( 610,0,"VashjirKelpForest")
 DefineInstance( 611,0,"GilneasCity")
-DefineInstance( 614,0,"1")
 DefineInstance( 614,0,"VashjirDepths")
-DefineInstance( 615,0,"27")
 DefineInstance( 615,0,"VashjirRuins")
 DefineInstance( 626,0,"TwinPeaks")
 DefineInstance( 677,0,"BattleforGilneas")
@@ -416,7 +412,6 @@ DefineInstance( 824,7,"DragonSoul")
 DefineInstance( 851,0,"DustwallowMarshScenario")
 DefineInstance( 856,0,"TempleofKotmogu")
 DefineInstance( 860,0,"STVDiamondMineBG")
-DefineInstance( 864,0,"22")
 DefineInstance( 864,0,"Northshire")
 DefineInstance( 866,0,"ColdridgeValley")
 DefineInstance( 867,2,"EastTemple")
@@ -435,28 +430,20 @@ DefineInstance( 884,0,"KunLaiPassScenario")
 DefineInstance( 885,3,"MogushanPalace")
 DefineInstance( 886,0,"TerraceOfEndlessSpring")
 DefineInstance( 887,3,"SiegeofNiuzaoTemple")
-DefineInstance( 888,0,"21")
 DefineInstance( 888,0,"ShadowglenStart")
 DefineInstance( 889,0,"ValleyofTrialsStart")
 DefineInstance( 890,0,"CampNaracheStart")
-DefineInstance( 891,0,"13")
 DefineInstance( 891,0,"EchoIslesStart")
-DefineInstance( 892,0,"8")
 DefineInstance( 892,0,"DeathknellStart")
-DefineInstance( 893,0,"32")
 DefineInstance( 893,0,"SunstriderIsleStart")
-DefineInstance( 894,0,"2")
 DefineInstance( 894,0,"AmmenValeStart")
-DefineInstance( 895,0,"20")
 DefineInstance( 895,0,"NewTinkertownStart")
 DefineInstance( 896,3,"MogushanVaults")
 DefineInstance( 897,2,"HeartofFear")
 DefineInstance( 898,4,"Scholomance#898")
 DefineInstance( 899,0,"ProvingGrounds")
 DefineInstance( 900,2,"AncientMoguCrypt")
-DefineInstance( 903,2,"7")
 DefineInstance( 903,2,"ValeofEternalBlossoms")
-DefineInstance( 905,2,"6")
 DefineInstance( 905,2,"ValeofEternalBlossoms#905")
 DefineInstance( 906,0,"DustwallowMarshScenarioAlliance")
 DefineInstance( 911,0,"KrasarangAlliance")
@@ -480,6 +467,7 @@ DefineInstance( 955,0,"CelestialChallenge")
 DefineInstance( 964,0,"OgreMines")
 DefineInstance( 969,3,"ShadowmoonDungeon")
 DefineInstance( 970,0,"TanaanJungleIntro")
+DefineInstance( 976,0,"Frostwall")
 DefineInstance( 983,0,"DefenseofKarabor")
 DefineInstance( 984,0,"DraenorAuchindoun")
 DefineInstance( 986,0,"TaladorScenario")
@@ -490,10 +478,8 @@ DefineInstance( 993,4,"BlackrockTrainDepotDungeon")
 DefineInstance( 994,6,"HighmaulRaid")
 DefineInstance( 995,3,"UpperBlackrockSpire")
 DefineInstance(1008,2,"OvergrownOutpost")
-DefineInstance(1009,0,"9")
 DefineInstance(1009,0,"AshranAllianceFactionHub")
 DefineInstance(1010,0,"HillsbradFoothillsBG")
-DefineInstance(1011,0,"12")
 DefineInstance(1011,0,"AshranHordeFactionHub")
 DefineTerrain(1, 0,  13,0,"Kalimdor")
 DefineTerrain(1, 1, 471,0,"The Exodar")
@@ -609,7 +595,6 @@ DefineTerrain(7, 7, 941,0,"Frostfire Ridge")
 DefineTerrain(7, 8, 978,0,"Ashran")
 
 
-
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
 local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
@@ -628,7 +613,7 @@ local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
     if zone then
         record.zone = zone
     elseif GetCurrentMapContinent() > -1 and GetCurrentMapZone() > -1 then
-        record.zone = zonenames[GetCurrentMapContinent()][GetCurrentMapZone()] or GetCurrentMapZone()
+        record.zone = zonenames[GetCurrentMapContinent()][GetCurrentMapZone()]
     end
     if zone_idx then
         record.zonei = zone_idx
@@ -680,8 +665,10 @@ local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
         end
     end
     MapsSeen[record.mapID] = true
+    WoWPro:Print("SMI: Recoding mapName [%s]",record.mapName)
     Zone2MapID[record.mapName]=record;
     if record.zone then
+        WoWPro:Print("SMI: Recoding zone [%s]",record.zone)
         Zone2MapID[record.zone]=record;
     end
 end
@@ -790,6 +777,7 @@ function WoWPro:GenerateMapCache()
 	    local zidx = 1
 	    local cont_name = contnames[ci]
 	    for zID, zname in pairs(pack_kv(GetMapZones(ci))) do
+	        WoWPro:Print("GMZ: %d [%s]",zID, zname)
 			SetMapByID(zID)
 			local mapFileName, textureHeight, textureWidth, isMicrodungeon, microDungeonMapName  = GetMapInfo();
 			if isMicrodungeon then
@@ -800,10 +788,13 @@ function WoWPro:GenerateMapCache()
 			zidx = zidx + 1
 		end
 	end
-
-    for z=1,10000 do
-        if( SetMapByID(z) ) then
-            ScrapeMapInfo(nil,nil)
+    WoWPro:Print("Now scraping maps directly");
+    for z=1,2048 do
+        if not MapsSeen[z] then
+            WoWPro:Print("Now scraping %d", z);
+            if( SetMapByID(z) ) then
+                ScrapeMapInfo(nil,nil)
+            end
         end
     end
     WoWPro.Zone2MapID = Zone2MapID
