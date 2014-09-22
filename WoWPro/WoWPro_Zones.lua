@@ -37,6 +37,7 @@ local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
     WoWPro.MapID2Zone[mapID] = zone
 end
 
+-- From WoWPro:GenerateMapCache() + WoWPro:Functionalize()
 DefineDungeonArea( 321,1,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
 DefineDungeonArea( 321,2,"Cleft of Shadow@Orgrimmar","Orgrimmar","Cleft of Shadow")
 DefineDungeonArea( 504,1,"Dalaran City@Dalaran","Dalaran","Dalaran City")
@@ -467,7 +468,6 @@ DefineInstance( 955,0,"CelestialChallenge")
 DefineInstance( 964,0,"OgreMines")
 DefineInstance( 969,3,"ShadowmoonDungeon")
 DefineInstance( 970,0,"TanaanJungleIntro")
-DefineInstance( 976,0,"Frostwall")
 DefineInstance( 983,0,"DefenseofKarabor")
 DefineInstance( 984,0,"DraenorAuchindoun")
 DefineInstance( 986,0,"TaladorScenario")
@@ -594,6 +594,9 @@ DefineTerrain(7, 6, 946,0,"Talador")
 DefineTerrain(7, 7, 941,0,"Frostfire Ridge")
 DefineTerrain(7, 8, 978,0,"Ashran")
 
+-- Manual overrides
+DefineInstance( 976,0,"Frostwall")
+DefineInstance( 971,0,"Lunarfall")
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
