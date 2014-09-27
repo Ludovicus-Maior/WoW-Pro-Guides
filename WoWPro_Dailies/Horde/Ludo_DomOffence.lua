@@ -249,57 +249,59 @@ K Sarannha Skyglaive|QID|32392|M|60.87,22.43|Z|Kun-Lai Summit/2|QO|1|N|Head in, 
 T The Divine Bell|QID|32392|M|61.73,25.40|Z|Kun-Lai Summit/2|N|To Ishi.  Get back to Dominance Offensive on your own.|
 
 A Insertion|QID|32326|M|10.39,53.71|REP|Dominance Offensive;1375;revered;10700|PRE|32448|N|From General Nazgrim|
-R Darnassus|QID|32326|N|Use the portal to get there. This is NOT a phased Darnassus. You will be flagged and players can kill you. Do your shapeshifting BEFORE accepting the followon quest from Fanlyr and your stealth buff will endure.|
-T Insertion|QID|32326|M|40,50.4|N|To Fanlyr Silverthorn.|
-A The Darnassus Mission|QID|32327|PRE|32326|M|40,50.4|N|From Fanlyr Silverthorn|
-C The Bell|QID|32327|M|38.2 33.3|N|Sneak around here and go downstairs.|
-T The Darnassus Mission|QID|32327|M|40,50.4|N|To Fanlyr Silverthorn, using the extra action button.|
-A Victorious Return|QID|32328|PRE|32327|M|40,50.4|N|From Fanlyr Silverthorn|
-T Victorious Return|QID|32328|M|10.4,53.8|N|To General Nazgrim|
+R Darnassus|QID|32326|M|9.78,53.30|N|Use the portal to get there. This is NOT a phased Darnassus. You will be flagged and players can kill you. Do your shapeshifting BEFORE accepting the followon quest from Fanlyr and your stealth buff will endure.|
+T Insertion|QID|32326|M|40.06,50.44|Z|Teldrassil|N|To Fanlyr Silverthorn.|
+A The Darnassus Mission|QID|32327|PRE|32326|M|40.06,50.44|Z|Teldrassil|N|From Fanlyr Silverthorn|
+C The Bell|QID|32327|M|38.2,33.3|Z|Darnassus|N|Sneak around here and go downstairs. Stay away from the red rings around the NPCS.|
+T The Darnassus Mission|QID|32327|M|40.06,50.44|Z|Teldrassil|N|To Fanlyr Silverthorn, using the extra action button.|
+A Victorious Return|QID|32328|PRE|32327|M|40.06,50.44|Z|Teldrassil|N|From Fanlyr Silverthorn|
+T Victorious Return|QID|32328|M|10.39,53.71|N|To General Nazgrim|
 
-A The Situation in Dalaran|QID|32402|M|10.39,53.71|REP|Dominance Offensive;1375;revered;18500|PRE|32328|N|From General Nazgrim|
-R Dalaran|M|9.69,52.51|QID|32402|N|Talk to Kromthar for a ride and fly to the sewers of Dalaran!|
-T The Situation in Dalaran|QID|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|To Grand Magister Rommath|
-A It Starts in the Sewers|QID|32403|PRE|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
-C Sunreaver Citizens|QID|32403|M|38.80,51.60;51.60,63.80;51.70,61.20;39.35,61.60;34.50,53.02;32.96,54.83;35.27,56.35;35.75,43.00;37.17,54.94;36.50,53.05;41.48,59.70;39.40,57.48;42.86,52.26;43.45,65.61;39.65,48.55|Z|The Underbelly@DalaranCity|CN|N|Tell the Citizens to flee the Underbelly.| 
-T It Starts in the Sewers|QID|32403|PRE|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
-A Violence in the Arena|QID|32404|PRE|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
-C Slay Silver Covenant|QID|32404|M|50.80,60.60;58.80,43.20;75.55,50.15;66.95,40.40;71.70,44.05;65.90,46.05;69.53,43.65;68.04,45.17;59.42,45.75;72.55,41.00;57.75,49.50;72.79,47.47;73.85,42.60;66.36,42.63;68.17,48.08;76.14,44.62;61.75,45.85;69.45,41.17;61.58,43.23;70.43,46.85;73.53,51.52;72.14,38.95;70.97,50.29;75.55,41.17;63.00,41.45;76.76,47.40;74.16,45.52;64.20,44.90|Z|The Underbelly@DalaranCity|CN|N|Kill Enforcers and Spellbows|
-T Violence in the Arena|QID|32404|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|To Grand Magister Rommath|
-A Hand of the Silver Covenant|QID|32405|PRE|32404|M|50.4,48.4|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
-K Sorin Magehand|QID|32405|M|61.4,14.4|Z|The Underbelly@DalaranCity|N|Kill him in the black market.|QO|1|
-T Hand of the Silver Covenant|QID|32405|PRE|32404|M|50.4,48.4|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
-A A Tactical Assault|QID|32406|PRE|32405|M|50.4,48.4|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
-T A Tactical Assault|QID|32406|M|50.4,48.4|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
+A The Situation In Dalaran|QID|32402|M|10.39,53.71|REP|Dominance Offensive;1375;revered;18500|PRE|32328|N|From General Nazgrim|
+R The Underbelly|M|9.69,52.51|QID|32402|N|Talk to Kromthar for a ride and fly to the sewers of Dalaran!|
+T The Situation In Dalaran|QID|32402|M|31.46,50.11|Z|The Underbelly@DalaranCity|N|To Grand Magister Rommath|
+A It Starts in the Sewers|QID|32403|PRE|32402|M|31.46,50.11|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
+C Sunreaver Citizens|QID|32403|M|36.31,55.52|Z|The Underbelly@DalaranCity|CN|N|Tell the Citizens around Cantrips and Crows to flee the Dalaran.| 
+T It Starts in the Sewers|QID|32403|PRE|32402|M|45.59,53.63|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath, next the exit tunnel.|
+A Violence in the Arena|QID|32404|PRE|32402|M|45.59,53.63|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
+C Slay Silver Covenant|QID|32404|M|48.35,44.67|Z|The Underbelly@DalaranCity|CN|N|Kill Enforcers and Spellbows in the Circle of Wills.|
+T Violence in the Arena|QID|32404|M|54.49,28.08|Z|The Underbelly@DalaranCity|N|To Grand Magister Rommath, at the next tunnel up.|
+A Hand of the Silver Covenant|QID|32405|PRE|32404|M|54.49,28.08|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
+K Sorin Magehand|QID|32405|M|62.27,13.43|Z|The Underbelly@DalaranCity|N|Kill him in the black market, down the tunnel that Rommath just left from.|QO|1|
+T Hand of the Silver Covenant|QID|32405|PRE|32404|M|64.67,48.67|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
+A A Tactical Assault|QID|32406|PRE|32405|M|64.67,48.67|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
+T A Tactical Assault|QID|32406|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath, Runeweaver Square|
 ;
-A The Silver Covenant's Stronghold|QID|32408|PRE|32406|M|50.4,48.4|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
-K Arcanist Rathaella|QID|32408|M|37,62.4|Z|Dalaran City@DalaranCity|N|In the Silver Enclave.|QO|1|
-T The Silver Covenant's Stronghold|QID|32408|M|50.4,48.4|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
-A The Kirin Tor's True Colors|QID|32409|PRE|32408|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
-A Krasus' Landing|QID|32410|PRE|32409|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
-C Stormwind Troops|QID|32409|QO|2|S|
-K Lieutenant Corwin|QID|32409|M|46.10,22.30;50.00,28.20;47.70,23.60;44.47,20.05;47.94,20.71;43.58,22.82;46.08,17.88|Z|Dalaran City@DalaranCity|CN|QO|1|
-C Stormwind Troops|QID|32409|QO|2|US|
-C Sunreaver Dragonhawks|QID|32410|M|74.50,40.65;73.50,45.35;74.30,51.05;72.18,49.24;70.70,51.08;68.83,40.90;69.25,49.08;76.05,48.98;76.51,44.38;72.42,39.48;70.99,44.74;67.51,44.71|Z|Dalaran City@DalaranCity|CN|N|Rescue the poor Dragonhawks.|
-T The Kirin Tor's True Colors|QID|32409|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
-T Krasus' Landing|QID|32410|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
-A The Remaining Sunreavers|QID|32411|PRE|32409;32410|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
-U Magister Hathorel|QID|32411|M|67.2,35|Z|Dalaran City@DalaranCity|U|93124|QO|3|N|Rescue by using the Tear of the Sin'dorei.|
-U Uda the Beast|QID|32411|M|71,33.2|Z|Dalaran City@DalaranCity|U|93124|QO|1|N|Rescue by using the Tear of the Sin'dorei.|
-U High Arcanist Savor|QID|32411|M|61,14.4|Z|Dalaran City@DalaranCity|U|93124|QO|2|N|Rescue by using the Tear of the Sin'dorei.|
-U Magister Surdiel|QID|32411|M|58.4,26.4|Z|Dalaran City@DalaranCity|U|93124|QO|4|N|Rescue by using the Tear of the Sin'dorei.|
-U Magistrix Vesara|QID|32411|M|65.2,23.6|Z|Dalaran City@DalaranCity|U|93124|QO|5|N|Rescue by using the Tear of the Sin'dorei.|
-T The Remaining Sunreavers|QID|32411|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
-A One Last Grasp|QID|32412|PRE|32411|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
-K Mage-Commander Zuros|QID|32412|M|30,48.4|Z|Dalaran City@DalaranCity|QO|1|N|Kill and escape!|
-R Silvermoon City|QID|32412|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|Make you way back to the Underbelly sewer you came in by and jump!|
-T One Last Grasp|QID|32412|M|54,20.4|Z|Silvermoon City|N|To Grand Magister Rommath|
-
+A The Silver Covenant's Stronghold|QID|32408|PRE|32406|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath, Runeweaver Square|
+N Watch Out|QID|32408|N|For Jiana Proudmoore.|
+A The Kirin Tor's True Colors|QID|32409|PRE|32406|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
+A Krasus' Landing|QID|32410|PRE|32406|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
+K Arcanist Rathaella|QID|32408|M|36.14,64.11|Z|Dalaran City@DalaranCity|N|In the Silver Enclave.|QO|1|
+C Stormwind Troops|QID|32409|QO|2|S|N|*something here*|
+K Lieutenant Corwin|QID|32409|M|45.54,20.64|Z|Dalaran City@DalaranCity|N|AT the Antonodias Memorial.|QO|1|
+C Stormwind Troops|QID|32409|QO|2|US|N|*something here*|
+C Sunreaver Dragonhawks|QID|32410|M|72.73,45.77|Z|Dalaran City@DalaranCity|CN|N|Rescue the poor Dragonhawks.|
+T The Silver Covenant's Stronghold|QID|32408|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
+T The Kirin Tor's True Colors|QID|32409|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
+T Krasus' Landing|QID|32410|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
+A The Remaining Sunreavers|QID|32411|PRE|32409;32410|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
+U Uda the Beast|QID|32411|M|70.08,34.32|Z|Dalaran City@DalaranCity|U|93124|QO|1|N|Downstairs at the "Filthy Animal"|
+U Magister Hathorel|QID|32411|M|66.95,35.36|Z|Dalaran City@DalaranCity|U|93124|QO|3|N|Upstairs at the "Filthy Animal"|
+U Magistrix Vesara|QID|32411|M|65.77,23.06|Z|Dalaran City@DalaranCity|U|93124|QO|5|N|Upstairs at the Sunreaver Sanctuary.|
+U High Arcanist Savor|QID|32411|M|60.34,14.19|Z|Dalaran City@DalaranCity|U|93124|QO|2|N|One more flight up.|
+U Magister Surdiel|QID|32411|M|58.74,27.83|Z|Dalaran City@DalaranCity|U|93124|QO|4|N|Right across.|
+T The Remaining Sunreavers|QID|32411|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
+A One Last Grasp|QID|32412|PRE|32411|M|50.57,48.10|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
+K Mage-Commander Zuros|QID|32412|M|28.85,48.26|Z|Dalaran City@DalaranCity|QO|1|N|Kill and escape!|
+R Court of the Sun|QID|32412|N|USe the portal to get to the underbelly and follow Rommath and jump when he does!|
+T One Last Grasp|QID|32412|M|71.02,41.24|Z|Silvermoon City|N|To Lor'themar Theron.|
 
 A The Bell Speaks|QID|32398|M|10.39,53.71|REP|Dominance Offensive;1375;exalted|PRE|32410|N|From General Nazgrim|
-T The Bell Speaks|QID|32398|M|55.8,34|REP|Dominance Offensive;1375;exalted|PRE|32108|N|To Malkorok|
-A Breath of Darkest Shadow|QID|32399|PRE|32398|M|55.8,34|N|From Malkorok|
-T Breath of Darkest Shadow|QID|32399|M|55.8,34|N|To Malkorok|
+R Kun-Lai Summit|QID|32398|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
+T The Bell Speaks|QID|32398|M|55.89,34.08|Z|Kun-Lai Summit|N|To Malkorok|
+A Breath of Darkest Shadow|QID|32399|PRE|32398|M|55.89,34.08|Z|Kun-Lai Summit|N|From Malkorok|
+C Breath of Darkest Shadow|QID|32399|M|55.94,21.11|N|Kill Ishi and Wrynn|
+T Breath of Darkest Shadow|QID|32399|M|55.96,32.00|Z|Kun-Lai Summit|N|To Garrosh|
 
 
 N Buenas Noches|N|Wait until tomorrows adventures!|
