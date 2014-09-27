@@ -4,6 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-09-27 22:25
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3441/revisions/26543/view
+-- Date: 2014-06-13 00:23
+-- Who: Ludovicus
+-- Log: Missing quote
+
+-- URL: http://wow-pro.com/node/3441/revisions/26503/view
+-- Date: 2014-06-10 22:10
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26499/view
+-- Date: 2014-06-10 21:44
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25788/view
 -- Date: 2013-10-28 02:08
 -- Who: Ludovicus
 -- Log: Use Dalaran City@Dalaran instead of Dalaran
@@ -82,10 +101,13 @@
 -- Date: 2011-10-28 08:03
 -- Who: Crackerhead22
 
-WoWPro.WorldEvents:RegisterGuide("LudoHallowEK","Hallow's End (Eastern Kingdoms)","Hallow's End (Eastern Kingdoms)","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoHallowEK",'WorldEvents',"Eastern Kingdom", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro:GuideSteps(guide, function()
 return [[
 
-N Wall of Text Part 1 of 2|QID|12369|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".
+N Wall of Text Part 1 of 2|QID|12369|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievements "Tricks and Treats of...".
 N Wall of Text Part 2 of 2|QID|12369|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
 
 N This section starts...|QID|12369|N|In Silvermoon City, so head to Undercity and take the portal to Silvermoon City.|

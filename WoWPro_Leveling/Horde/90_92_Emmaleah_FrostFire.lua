@@ -1,3 +1,37 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-09-27 23:38
+-- Who: Ludovicus
+-- Log: Coord and zone tweaks.
+
+-- URL: http://wow-pro.com/node/3587/revisions/26650/view
+-- Date: 2014-09-01 23:29
+-- Who: Ludovicus
+-- Log: Add the Lumberyard
+
+-- URL: http://wow-pro.com/node/3587/revisions/26649/view
+-- Date: 2014-08-30 22:47
+-- Who: Emmaleah
+-- Log: fix a typo
+
+-- URL: http://wow-pro.com/node/3587/revisions/26648/view
+-- Date: 2014-08-30 20:22
+-- Who: Ludovicus
+-- Log: Metge my tweaks in.
+
+-- URL: http://wow-pro.com/node/3587/revisions/26647/view
+-- Date: 2014-08-30 01:17
+-- Who: Emmaleah
+-- Log: many revisions - play test 8/29/14
+
+-- URL: http://wow-pro.com/node/3587/revisions/26646/view
+-- Date: 2014-08-29 22:12
+-- Who: Ludovicus
+
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,90, 92)
 WoWPro:GuideNextGuide(guide, 'EmmGorgrond')
