@@ -1,4 +1,8 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmSoArak', 'Leveling', 'Spires of Arak', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,96, 98, 96.7)
 WoWPro:GuideNextGuide(guide, 'EmmNagrand')
@@ -432,4 +436,3 @@ U Your Garrison|QID|36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak. The 
 ]]
 
 end)
-

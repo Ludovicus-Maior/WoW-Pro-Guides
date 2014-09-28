@@ -1,4 +1,17 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2014-09-18 23:06
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3598/revisions/26667/view
+-- Date: 2014-09-18 23:05
+-- Who: Ludovicus
+-- Log: Initial Version from Emmaleah's blog
+
 local guide = WoWPro:RegisterGuide('EmmTalador', 'Leveling', 'Talador', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,95, 96)
 WoWPro:GuideNextGuide(guide, 'nil')
@@ -389,4 +402,3 @@ H Your Garrison|QID|35537|M|71.84,29.75|N|Back to your garrison, where the Spire
 ]]
 
 end)
-

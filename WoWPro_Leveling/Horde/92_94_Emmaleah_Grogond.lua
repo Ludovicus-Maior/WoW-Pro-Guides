@@ -1,3 +1,8 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('EmmGorgrond', 'Leveling', 'Gorgrond', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,92, 94)
 WoWPro:GuideNextGuide(guide, 'nil')
@@ -420,4 +425,3 @@ N Gorgrond Done|QID|34681|N|Check off this step and the next guide will load.|
 ]]
 
 end)
-

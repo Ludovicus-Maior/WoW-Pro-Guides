@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2014-09-27 23:35
+-- Who: Ludovicus
+-- Log: Hordie coordinate corrections
+
+-- URL: http://wow-pro.com/node/3503/revisions/26614/view
 -- Date: 2014-07-25 22:00
 -- Who: Ludovicus
 -- Log: Adj mean
@@ -115,7 +120,7 @@ N Niuzao's Temple Quests|QID|30925|N|If you haven't done the questlines in Niuza
 A Random August Celestial Temple Quest|QID|31376;31378;31380;31382|FACTION|Alliance|M|84.6,63.6|N|From Sage Whiteheart.|
 
 ;pointer quests - horde
-A Random August Celestial Temple Quest|QID|31377;31379;31381;31383|FACTION|Horde|M|62.6,23.2|N|To Sage Lotusbloom.|
+A Random August Celestial Temple Quest|QID|31377;31379;31381;31383|FACTION|Horde|M|62.80,23.38|N|To Sage Lotusbloom.|
 
 ;jade serpent temple
 T Attack At The Temple of the Jade Serpent|QID|31376|M|53.91,61.94|Z|The Jade Forest|FACTION|Alliance|N|To Elder Sage Tai-Feng.|
@@ -210,11 +215,11 @@ A Round 2: Clever Ashyo & Ken-Ken|QID|30881|PRE|30879|M|70.8,51.8|Z|Kun-Lai Summ
 C Round 2: Clever Ashyo & Ken-Ken|QID|30881|M|71.6,45.2|Z|Kun-Lai Summit|N|Challenge Ashyo or Ken-Ken to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 2: Clever Ashyo & Ken-Ken|QID|30881|M|71.6,45.0|Z|Kun-Lai Summit|N|To Xuen.|
 A Round 3: The Wrestler|QID|30883|PRE|30881|M|71.6,45.0|Z|Kun-Lai Summit|N|From Xuen.|
-C Round 3: The Wrestler|QID|30883|M|67,56.4|Z|Kun-Lai Summit|N|Challenge The Wrestler to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
-T Round 3: The Wrestler|QID|30883|M|66,56.4|Z|Kun-Lai Summit|N|To Xuen.|
-A Round 4: The P.U.G.|QID|30907|PRE|30883|M|67,56.4|Z|Kun-Lai Summit|N|From Xuen.|
+C Round 3: The Wrestler|QID|30883|M|66.71,46.53|Z|Kun-Lai Summit|N|Challenge The Wrestler to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
+T Round 3: The Wrestler|QID|30883|M|66.42,46.34|Z|Kun-Lai Summit|N|To Xuen.|
+A Round 4: The P.U.G.|QID|30907|PRE|30883|M|66.42,46.34|Z|Kun-Lai Summit|N|From Xuen.|
 C Round 4: The P.U.G.|QID|30907|M|69,43.8|Z|Kun-Lai Summit|N|Challenge one of them to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
-T Round 4: The P.U.G.|QID|30907|M|66.4,46.4|Z|Kun-Lai Summit|N|To Xuen.|
+T Round 4: The P.U.G.|QID|30907|M|68.49,44.59|Z|Kun-Lai Summit|N|To Xuen.|
 C Round 1: The Streetfighter|QID|30880|M|70.94,51.78|Z|Kun-Lai Summit|N|Challenge Lun-Chi to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 1: The Streetfighter|QID|30880|M|70.29,51.28|Z|Kun-Lai Summit|N|To Xuen.|
 A Round 2: Kang Bramblestaff|QID|30882|PRE|30880|M|70.8,51.8|Z|Kun-Lai Summit|N|From Xuen.|

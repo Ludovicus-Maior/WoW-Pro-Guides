@@ -1,3 +1,46 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-09-27 22:30
+-- Who: Ludovicus
+-- Log: Guide Name Change
+
+-- URL: http://wow-pro.com/node/3600/revisions/26684/view
+-- Date: 2014-09-26 02:33
+-- Who: Fluclo
+-- Log: NPCs have moved location at the entrance to Umbral Halls, and the quest Yrel needed both PRE and N tags.
+
+-- URL: http://wow-pro.com/node/3600/revisions/26681/view
+-- Date: 2014-09-21 20:35
+-- Who: Fluclo
+-- Log: The Home Stretch - Missing |N| tags (whoops!)
+
+-- URL: http://wow-pro.com/node/3600/revisions/26680/view
+-- Date: 2014-09-21 20:09
+-- Who: Fluclo
+-- Log: The Home Stretch - this quest is now no-mount, so updated note to reflect.
+
+-- URL: http://wow-pro.com/node/3600/revisions/26679/view
+-- Date: 2014-09-21 20:07
+-- Who: Fluclo
+-- Log: The Home Stretch is |NC|
+
+-- URL: http://wow-pro.com/node/3600/revisions/26678/view
+-- Date: 2014-09-21 20:06
+-- Who: Fluclo
+-- Log: Correct PRE tag on The Battle of the Forge
+
+-- URL: http://wow-pro.com/node/3600/revisions/26676/view
+-- Date: 2014-09-19 18:18
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3600/revisions/26675/view
+-- Date: 2014-09-19 18:17
+-- Who: Fluclo
+
 local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'The Dark Portal', 'Emm+Fluc', 'Neutral')
 WoWPro:GuideLevels(guide,90,90,90)
 WoWPro:GuideNextGuide(guide, 'XXXX|EmmFrostfire')
