@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-09-29 21:07
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3600/revisions/26693/view
 -- Date: 2014-09-27 22:30
 -- Who: Ludovicus
 -- Log: Guide Name Change
@@ -43,7 +47,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'The Dark Portal', 'Emm+Fluc', 'Neutral')
 WoWPro:GuideLevels(guide,90,90,90)
-WoWPro:GuideNextGuide(guide, 'XXXX|EmmFrostfire')
+WoWPro:GuideNextGuide(guide, 'ShadowDraenor|EmmFrostfire')
 WoWPro:GuideSteps(guide, function()
 return [[
 
