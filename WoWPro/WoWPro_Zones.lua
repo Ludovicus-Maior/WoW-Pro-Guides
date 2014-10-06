@@ -597,6 +597,10 @@ DefineTerrain(7, 8, 978,0,"Ashran")
 -- Manual overrides
 DefineInstance( 976,0,"Frostwall")
 DefineInstance( 971,0,"Lunarfall")
+DefineTerrain(7, 7, 941,1,"Floor1@Bladespire Fortress")
+DefineTerrain(7, 7, 941,2,"Floor2@Bladespire Fortress")
+DefineTerrain(7, 7, 941,3,"Floor3@Bladespire Fortress")
+DefineTerrain(7, 7, 941,4,"Floor4@Bladespire Fortress")
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
