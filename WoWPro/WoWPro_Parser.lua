@@ -486,6 +486,8 @@ function WoWPro.SetupGuideReal()
 			numQIDs = 0
 		end
 
+	    WoWProCharDB.Guide[GID].completion[i] = false
+	    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was defaulted to incomplete."  
 		for j=1,numQIDs do
 			local QID = nil
 			local qid
@@ -493,9 +495,7 @@ function WoWPro.SetupGuideReal()
 				qid = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(qid)
 			end
-
-		    WoWProCharDB.Guide[GID].completion[i] = false
-		    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was defaulted to incomplete."   
+ 
             if QID then
                 if recordQIDs then
                     WoWProDB.global.QID2Guide[QID] = GID
