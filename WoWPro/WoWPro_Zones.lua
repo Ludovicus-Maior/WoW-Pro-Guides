@@ -601,6 +601,8 @@ DefineTerrain(7, 7, 941,1,"Floor1@Bladespire Fortress")
 DefineTerrain(7, 7, 941,2,"Floor2@Bladespire Fortress")
 DefineTerrain(7, 7, 941,3,"Floor3@Bladespire Fortress")
 DefineTerrain(7, 7, 941,4,"Floor4@Bladespire Fortress")
+DefineTerrain(7, 7, 941,8,"Grulloc's Lair")
+DefineInstance(1011,0,"Warspear")
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
