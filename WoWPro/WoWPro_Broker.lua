@@ -227,22 +227,38 @@ function WoWPro.UpdateGuideReal(From)
 	
 	-- Finding the active step in the guide --
 	WoWPro.ActiveStep = WoWPro:NextStep(1)
-	if WoWPro.Recorder then WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep end
+	if WoWPro.Recorder then
+	    WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
+	end
 	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount))
 	
 	-- Calling on the guide's module to populate the guide window's rows --
 	local function rowContentUpdate()
 		local reload = WoWPro:RowUpdate(offset)
+		-- Hyjack the click and menu functions for the Recorder if it's enabled --
+		if WoWPro.Recorder then
+            WoWPro.Recorder:RowUpdate(offset)
+        end
 		for i, row in pairs(WoWPro.rows) do
 			if WoWPro.RowDropdownMenu[i] then
 				row:SetScript("OnClick", function(self, button, down)			    
 					if button == "LeftButton" then
-						WoWPro:RowLeftClick(i)
+					    if WoWPro.Recorder then
+					        WoWPro.Recorder:RowLeftClick(i)
+					    else
+						    WoWPro:RowLeftClick(i)
+						end
 					elseif button == "RightButton" then
 						WoWPro.rows[i]:SetChecked(nil)
-						if WoWPro.Recorder then WoWPro:RowLeftClick(i) end
-						EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						if WoWPro.Recorder then
+						    WoWPro:RowLeftClick(i)
+						    EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						else
+						    EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						end
+						
+						
 					end
 				end)
 			end
@@ -1000,10 +1016,13 @@ function WoWPro:PopulateQuestLog()
 		end
 	end
 
-	if WoWPro.Recorder then
-	    WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
+	-- Track the QuestLogs for debugging for Emmaleah
+	WoWProDB.char.Emmaleah = WoWProDB.char.Emmaleah or {}
+	if WoWPro.DebugLevel > 0 then
+	    table.insert(WoWProDB.char.Emmaleah,WoWPro.QuestLog)
+	else
+	    WoWProDB.char.Emmaleah = {}
 	end
-	
 	return num
 end
 
