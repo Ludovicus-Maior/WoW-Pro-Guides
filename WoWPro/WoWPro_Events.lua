@@ -145,6 +145,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 			        WoWPro.CompleteStep(i)
 			        WoWProCharDB.completedQIDs[QID] = true
 			        WoWPro.CompletingQuest = false
+			        WoWPro.missingQuest = nil  -- We got it, dont let the recorder get it!
 		        end
 		
 		        -- Abandoned Quests --
@@ -162,11 +163,13 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 		        -- Quest Accepts --
 		        if WoWPro.newQuest == QID and action == "A" and not completion then
 			        WoWPro.CompleteStep(i)
+			        WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
 		        end
 		
-		        -- Quest Completion --
+		        -- Quest Completion via QuestLog--
 		        if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
 			        WoWPro.CompleteStep(i)
+			        WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
 		        end
 		
 		        -- Partial Completion --
@@ -642,7 +645,11 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteQuestUpdate(nil)
 		WoWPro:UpdateQuestTracker()
 		WoWPro:UpdateGuide(event)
-	end	
+		if WoWPro.Recorder then
+	        WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
+	    end
+	end
+
 	if event == "UI_INFO_MESSAGE" then
 		WoWPro:AutoCompleteGetFP(...)
 	end
