@@ -228,7 +228,7 @@ end
 
 
 function WoWPro.Recorder.PostGuideLoad()
-    WoWPro.Recorder.SelectedStep = WoWPro.stepcount or 0     
+    WoWPro.Recorder.SelectedStep = nil   
 end
 
 function WoWPro.Recorder:RegisterEvents()
@@ -243,12 +243,12 @@ function WoWPro.Recorder:RegisterEvents()
 end
 
 function WoWPro.Recorder:RowUpdate(offset)
-	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.stepcount or 0
+	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
 	WoWPro.Recorder.RowDropdownMenu = {}
 	for i,row in pairs(WoWPro.rows) do
 		local dropdown = {
 			{text = "Move Up", func = function()
-				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount or 0
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == 1 then return end
 				for _,tag in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
@@ -262,7 +262,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				WoWPro:UpdateGuide()
 			end},
 			{text = "Move Down", func = function()
-				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount or 0 
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == WoWPro.stepcount then return end
 				for _,tag in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
