@@ -1,3 +1,13 @@
+Ace3 Release - Revision r1122 (October 14th, 2014)
+--------------------------------------------------
+AceDB-3.0: Now using the GetCurrentRegion() API to determine region-based profile keys (fix for WoW 6.0)
+AceComm-3.0: Update ChatThrottleLib to v23
+AceConfigDialog-3.0: Show a more meaningful title on Blizzard Options Groups (Ticket #353)
+AceGUI-3.0: ColorPicker: Frame Level is automatically increased to ensure the color picker frame is above the option panel
+AceGUI-3.0: DropDown: Properly disable all clickable areas when the dropdown is disabled (Ticket #360)
+AceHook-3.0: Always use HookScript when hooking scripts in a secure fashion (Ticket #338)
+AceTimer-3.0: New timer implementation based on C_Timer.After
+
 Ace3 Release - Revision r1109 (February 19th, 2014)
 ---------------------------------------------------
 AceComm-3.0: Ambiguate addon comm messages to restore behavior to be identical to pre-5.4.7
