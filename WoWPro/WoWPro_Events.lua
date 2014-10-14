@@ -145,6 +145,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 			        WoWPro.CompleteStep(i)
 			        WoWProCharDB.completedQIDs[QID] = true
 			        WoWPro.CompletingQuest = false
+			        WoWPro.missingQuest = nil  -- We got it, dont let the recorder get it!
 		        end
 		
 		        -- Abandoned Quests --
@@ -162,11 +163,13 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 		        -- Quest Accepts --
 		        if WoWPro.newQuest == QID and action == "A" and not completion then
 			        WoWPro.CompleteStep(i)
+			        WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
 		        end
 		
-		        -- Quest Completion --
+		        -- Quest Completion via QuestLog--
 		        if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
 			        WoWPro.CompleteStep(i)
+			        WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
 		        end
 		
 		        -- Partial Completion --
@@ -338,17 +341,28 @@ function WoWPro:UpdateQuestTracker()
 					local numquesttext = select("#", string.split(";", questtext))
 					for l=1,numquesttext do
 						local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
-						for m=1,GetNumQuestLeaderBoards(j) do 
-							if GetQuestLogLeaderBoard(m, j) then
-								local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(m, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
-								if itemName and string.find(lquesttext,itemName) then
-									track = "- "..GetQuestLogLeaderBoard(m, j)
-									if select(3,GetQuestLogLeaderBoard(m, j)) then
-										track =  track.." (C)"
-									end
-								end
-							end
-						end
+						if tonumber(lquesttext) then
+						    if WoWPro.QuestLog[QID].leaderBoard[tonumber(lquesttext)] then
+						        track = "- " .. WoWPro.QuestLog[QID].leaderBoard[tonumber(lquesttext)]
+						    else
+						        track = "- " .. "?"
+						    end
+						    if WoWPro.QuestLog[QID].ocompleted[tonumber(lquesttext)] then
+						        track =  track.." (C)"
+						    end
+						else
+    						for m=1,GetNumQuestLeaderBoards(j) do 
+    							if GetQuestLogLeaderBoard(m, j) then
+    								local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(m, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
+    								if itemName and string.find(lquesttext,itemName) then
+    									track = "- "..GetQuestLogLeaderBoard(m, j)
+    									if select(3,GetQuestLogLeaderBoard(m, j)) then
+    										track =  track.." (C)"
+    									end
+    								end
+    							end
+    						end
+    					end
 					end
 				end
 			end
@@ -378,14 +392,15 @@ function WoWPro.EventHandler(frame, event, ...)
 
 	-- Unlocking event processong after things get settled --
 	if event == "PLAYER_ENTERING_WORLD" then
-	    WoWPro:dbp("Setting Timer 1")
+	    WoWPro:dbp("Setting Timer PEW")
 	    WoWPro.InitLockdown = true
+	    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
 	    WoWPro.LockdownTimer = 1.5
 	end
 		
 	-- Locking event processong till after things get settled --
 	if event == "PLAYER_LEAVING_WORLD" then
-	    WoWPro:dbp("Locking Down 1")
+	    WoWPro:dbp("Locking Down PLW")
 	    WoWPro.InitLockdown = true
 	end
 	
@@ -523,7 +538,7 @@ function WoWPro.EventHandler(frame, event, ...)
 		            return
                 end
                 if GetAvailableTitle(i) == WoWPro.step[qidx] then
-                    WoWPro:dbp("ZZZT %d: QUEST_GREETING Name matches [%s], selecting.",index,item)
+                    WoWPro:dbp("ZZZT %d: QUEST_GREETING Name matches [%s], selecting.", i, WoWPro.step[qidx])
 		            SelectAvailableQuest(i)
 		            return
 		        end
@@ -592,6 +607,12 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteQuestUpdate(GetQuestID())
 	end
 	
+	if event == "QUEST_TURNED_IN" or event == "QUEST_ACCEPTED" then
+	    local qlidx, qid = ...
+	    WoWPro:dbp("%s(%s,%s)",event,qlidx,qid)
+	    -- just watch for now
+	end
+	    
 	if event == "TRADE_SKILL_SHOW" then
 	    WoWPro:ScanTrade()
     end
@@ -624,7 +645,11 @@ function WoWPro.EventHandler(frame, event, ...)
 		WoWPro:AutoCompleteQuestUpdate(nil)
 		WoWPro:UpdateQuestTracker()
 		WoWPro:UpdateGuide(event)
-	end	
+		if WoWPro.Recorder then
+	        WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
+	    end
+	end
+
 	if event == "UI_INFO_MESSAGE" then
 		WoWPro:AutoCompleteGetFP(...)
 	end

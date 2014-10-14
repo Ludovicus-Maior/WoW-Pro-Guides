@@ -311,6 +311,7 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.buff[i] = text:match("|BUFF|([^|]*)|?")
 	WoWPro.recipe[i] = text:match("|RECIPE|([^|]*)|?")
 	WoWPro.pet[i] = text:match("|PET|([^|]*)|?")
+	WoWPro.building[i] = text:match("|BUILDING|([^|]*)|?")
 	WoWPro.gossip[i] = text:match("|QG|([^|]*)|?")
 	if WoWPro.gossip[i] then WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end
 	WoWPro.why[i] = "I dunno."
@@ -485,6 +486,8 @@ function WoWPro.SetupGuideReal()
 			numQIDs = 0
 		end
 
+	    WoWProCharDB.Guide[GID].completion[i] = false
+	    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was defaulted to incomplete."  
 		for j=1,numQIDs do
 			local QID = nil
 			local qid
@@ -492,7 +495,7 @@ function WoWPro.SetupGuideReal()
 				qid = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
 				QID = tonumber(qid)
 			end
-
+ 
             if QID then
                 if recordQIDs then
                     WoWProDB.global.QID2Guide[QID] = GID
@@ -500,10 +503,7 @@ function WoWPro.SetupGuideReal()
     		    -- Turned in quests --
     			if WoWPro:IsQuestFlaggedCompleted(qid,true) then
     			    WoWProCharDB.Guide[GID].completion[i] = true
-    			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as complete."
-    			else
-    			    WoWProCharDB.Guide[GID].completion[i] = false
-    			    WoWPro.why[i] = "uncompleted by WoWPro:LoadGuideSteps() because quest was flagged as incomplete."    			    
+    			    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as completed."
     			end
     	
     		    -- Quest Accepts and Completions --
@@ -511,11 +511,11 @@ function WoWPro.SetupGuideReal()
     		        if WoWPro.QuestLog[QID] then 
         			    if action == "A" then
         			        WoWProCharDB.Guide[GID].completion[i] = true
-        			        WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was flagged as complete."
+        			        WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest was in QuestLog."
         			    end
         			    if action == "C" and WoWPro.QuestLog[QID].complete then
         				    WoWProCharDB.Guide[GID].completion[i] = true
-        				    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because in QuestLog was complete."
+        				    WoWPro.why[i] = "Completed by WoWPro:LoadGuideSteps() because quest in QuestLog was complete."
         			    end
         			end
     		    end
@@ -529,6 +529,7 @@ function WoWPro.SetupGuideReal()
 	WoWPro.GuideLoaded = true
 	WoWPro:AutoCompleteQuestUpdate(nil)
 	WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
+	WoWPro:SendMessage("WoWPro_PostLoadGuide")
 end
 
 
@@ -732,7 +733,7 @@ function WoWPro:RowUpdate(offset)
 		WoWPro.RowDropdownMenu[i] = dropdown
 		
 		-- Item Button --
-		if action == "H" then use = 6948 end
+		if action == "H" and not use then use = 6948 end
 		if ( not use ) and action == "C" and WoWPro.QuestLog[tonumber(QID)] then
 			local link, icon, charges = GetQuestLogSpecialItemInfo(WoWPro.QuestLog[tonumber(QID)].index)
 			if link then

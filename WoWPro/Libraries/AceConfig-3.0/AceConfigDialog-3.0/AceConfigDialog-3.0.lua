@@ -1,10 +1,10 @@
 --- AceConfigDialog-3.0 generates AceGUI-3.0 based windows based on option tables.
 -- @class file
 -- @name AceConfigDialog-3.0
--- @release $Id: AceConfigDialog-3.0.lua 1089 2013-09-13 14:32:35Z nevcairiel $
+-- @release $Id: AceConfigDialog-3.0.lua 1113 2014-09-11 20:18:16Z nevcairiel $
 
 local LibStub = LibStub
-local MAJOR, MINOR = "AceConfigDialog-3.0", 58
+local MAJOR, MINOR = "AceConfigDialog-3.0", 59
 local AceConfigDialog, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not AceConfigDialog then return end
@@ -1815,6 +1815,14 @@ function AceConfigDialog:Open(appName, container, ...)
 	end
 	for n = 1, select("#",...) do
 		tinsert(path, (select(n, ...)))
+	end
+	
+	local option = options
+	if type(container) == "table" and container.type == "BlizOptionsGroup" and #path > 0 then
+		for i = 1, #path do
+			option = options.args[path[i]]
+		end
+		name = format("%s - %s", name, GetOptionsMemberValue("name", option, options, path, appName))
 	end
 	
 	--if a container is given feed into that

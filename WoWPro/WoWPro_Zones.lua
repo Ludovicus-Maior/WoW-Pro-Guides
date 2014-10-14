@@ -16,13 +16,16 @@ WoWPro.SubZone = {
 	}
 	
 WoWPro.Zone2MapID = {}
+WoWPro.MapID2Zone = {}
 
 local function DefineDungeonArea(mapID, floor, zi, dungeon, mapName)
     WoWPro.Zone2MapID[zi] = {mapID=mapID, floor=floor, dungeon=dungeon, mapName=mapName}
+    WoWPro.MapID2Zone[mapID] = zi
 end
 
 local function DefineInstance(mapID, numFloors, zi, mapName)
     WoWPro.Zone2MapID[zi] = {mapID=mapID, numFloors=numFloors, mapName=mapName}
+    WoWPro.MapID2Zone[mapID] = zi
 end
 
 local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
@@ -31,8 +34,10 @@ local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
     else
         WoWPro.Zone2MapID[zone] = {cont=cont, zonei=zonei, mapID=mapID, numFloors=numFloors, zone=zone, mapName=zone}
     end
+    WoWPro.MapID2Zone[mapID] = zone
 end
-DefineDungeonArea( 321,1,"Orgrimmar","Orgrimmar","Orgrimmar") -- Custom
+
+-- From WoWPro:GenerateMapCache() + WoWPro:Functionalize()
 DefineDungeonArea( 321,1,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
 DefineDungeonArea( 321,2,"Cleft of Shadow@Orgrimmar","Orgrimmar","Cleft of Shadow")
 DefineDungeonArea( 504,1,"Dalaran City@Dalaran","Dalaran","Dalaran City")
@@ -94,13 +99,12 @@ DefineDungeonArea( 699,5,"Warpwood Quarter@DireMaul","DireMaul","Warpwood Quarte
 DefineDungeonArea( 699,6,"The Shrine of Eldretharr@DireMaul","DireMaul","The Shrine of Eldretharr")
 DefineDungeonArea( 704,1,"Detention Block@BlackrockDepths","BlackrockDepths","Detention Block")
 DefineDungeonArea( 704,2,"Shadowforge City@BlackrockDepths","BlackrockDepths","Shadowforge City")
-DefineDungeonArea( 721,1,"Tazz'Alaor@BlackrockSpire","BlackrockSpire","Tazz'Alaor")
+DefineDungeonArea( 721,1,"Tazz'Alor@BlackrockSpire","BlackrockSpire","Tazz'Alor")
 DefineDungeonArea( 721,2,"Skitterweb Tunnels@BlackrockSpire","BlackrockSpire","Skitterweb Tunnels")
 DefineDungeonArea( 721,3,"Hordemar City@BlackrockSpire","BlackrockSpire","Hordemar City")
 DefineDungeonArea( 721,4,"Hall of Blackhand@BlackrockSpire","BlackrockSpire","Hall of Blackhand")
-DefineDungeonArea( 721,5,"Dragonspire Hall@BlackrockSpire","BlackrockSpire","Dragonspire Hall")
-DefineDungeonArea( 721,6,"The Rookery@BlackrockSpire","BlackrockSpire","The Rookery")
-DefineDungeonArea( 721,7,"Blackrock Stadium@BlackrockSpire","BlackrockSpire","Blackrock Stadium")
+DefineDungeonArea( 721,5,"Halycon's Lair@BlackrockSpire","BlackrockSpire","Halycon's Lair")
+DefineDungeonArea( 721,6,"Chamber of Battle@BlackrockSpire","BlackrockSpire","Chamber of Battle")
 DefineDungeonArea( 722,1,"Halls of the Hereafter@AuchenaiCrypts","AuchenaiCrypts","Halls of the Hereafter")
 DefineDungeonArea( 722,2,"Bridge of Souls@AuchenaiCrypts","AuchenaiCrypts","Bridge of Souls")
 DefineDungeonArea( 723,1,"Veil Sethekk@SethekkHalls","SethekkHalls","Veil Sethekk")
@@ -228,10 +232,8 @@ DefineDungeonArea( 898,3,"The Upper Study@Scholomance","Scholomance","The Upper 
 DefineDungeonArea( 898,4,"Headmaster's Study@Scholomance","Scholomance","Headmaster's Study")
 DefineDungeonArea( 900,1,"Upper Burial Chamber@AncientMoguCrypt","AncientMoguCrypt","Upper Burial Chamber")
 DefineDungeonArea( 900,2,"Crypt Depths@AncientMoguCrypt","AncientMoguCrypt","Crypt Depths")
-DefineDungeonArea( 903,1,"Floor1@Shrine of Two Moons","Shrine of Two Moons","Floor1")
-DefineDungeonArea( 903,2,"Floor2@Shrine of Two Moons","Shrine of Two Moons","Floor2")
-DefineDungeonArea( 905,1,"Floor1@Shrine of Seven Stars","Shrine of Seven Stars","Floor1")
-DefineDungeonArea( 905,2,"Floor2@Shrine of Seven Stars","Shrine of Seven Stars","Floor2")
+DefineDungeonArea( 905,1,"Hall of the Crescent Moon@ValeofEternalBlossoms","ValeofEternalBlossoms","Hall of the Crescent Moon")
+DefineDungeonArea( 905,2,"The Imperial Mercantile@ValeofEternalBlossoms","ValeofEternalBlossoms","The Imperial Mercantile")
 DefineDungeonArea( 919,1,"Illidari Training Grounds@BlackTempleScenario","BlackTempleScenario","Illidari Training Grounds")
 DefineDungeonArea( 919,2,"Karabor Sewers@BlackTempleScenario","BlackTempleScenario","Karabor Sewers")
 DefineDungeonArea( 919,3,"Sanctuary of Shadows@BlackTempleScenario","BlackTempleScenario","Sanctuary of Shadows")
@@ -267,11 +269,38 @@ DefineDungeonArea( 953,6,"The Cleft of Shadow@OrgrimmarRaid","OrgrimmarRaid","Th
 DefineDungeonArea( 953,7,"The Descent@OrgrimmarRaid","OrgrimmarRaid","The Descent")
 DefineDungeonArea( 953,8,"Kor'Kron Barracks@OrgrimmarRaid","OrgrimmarRaid","Kor'Kron Barracks")
 DefineDungeonArea( 953,9,"The Menagerie@OrgrimmarRaid","OrgrimmarRaid","The Menagerie")
+DefineDungeonArea( 969,1,"Crypt of the Ancients@ShadowmoonDungeon","ShadowmoonDungeon","Crypt of the Ancients")
+DefineDungeonArea( 969,2,"Altar of Shadow@ShadowmoonDungeon","ShadowmoonDungeon","Altar of Shadow")
+DefineDungeonArea( 969,3,"Edge of Reality@ShadowmoonDungeon","ShadowmoonDungeon","Edge of Reality")
+DefineDungeonArea( 988,1,"The Black Forge@FoundryRaid","FoundryRaid","The Black Forge")
+DefineDungeonArea( 988,2,"Slagworks@FoundryRaid","FoundryRaid","Slagworks")
+DefineDungeonArea( 988,3,"The Workshop@FoundryRaid","FoundryRaid","The Workshop")
+DefineDungeonArea( 988,4,"Iron Assembly@FoundryRaid","FoundryRaid","Iron Assembly")
+DefineDungeonArea( 988,5,"The Crucible@FoundryRaid","FoundryRaid","The Crucible")
+DefineDungeonArea( 989,1,"Lower Quarter@SpiresofArakDungeon","SpiresofArakDungeon","Lower Quarter")
+DefineDungeonArea( 989,2,"Grand Spire@SpiresofArakDungeon","SpiresofArakDungeon","Grand Spire")
+DefineDungeonArea( 993,1,"Train Depot@BlackrockTrainDepotDungeon","BlackrockTrainDepotDungeon","Train Depot")
+DefineDungeonArea( 993,2,"Rafters@BlackrockTrainDepotDungeon","BlackrockTrainDepotDungeon","Rafters")
+DefineDungeonArea( 993,3,"Rear Train Cars@BlackrockTrainDepotDungeon","BlackrockTrainDepotDungeon","Rear Train Cars")
+DefineDungeonArea( 993,4,"Forward Train Cars@BlackrockTrainDepotDungeon","BlackrockTrainDepotDungeon","Forward Train Cars")
+DefineDungeonArea( 994,1,"Path of Victors@HighmaulRaid","HighmaulRaid","Path of Victors")
+DefineDungeonArea( 994,2,"Gladiator's Rest@HighmaulRaid","HighmaulRaid","Gladiator's Rest")
+DefineDungeonArea( 994,3,"The Coliseum@HighmaulRaid","HighmaulRaid","The Coliseum")
+DefineDungeonArea( 994,4,"Chamber of Nullification@HighmaulRaid","HighmaulRaid","Chamber of Nullification")
+DefineDungeonArea( 994,5,"Imperator's Rise@HighmaulRaid","HighmaulRaid","Imperator's Rise")
+DefineDungeonArea( 994,6,"Throne of the Imperator@HighmaulRaid","HighmaulRaid","Throne of the Imperator")
+DefineDungeonArea( 995,1,"Dragonspire Hall@UpperBlackrockSpire","UpperBlackrockSpire","Dragonspire Hall")
+DefineDungeonArea( 995,2,"The Rookery@UpperBlackrockSpire","UpperBlackrockSpire","The Rookery")
+DefineDungeonArea( 995,3,"Hall of Blackhand@UpperBlackrockSpire","UpperBlackrockSpire","Hall of Blackhand")
+DefineDungeonArea(1008,1,"The Evergrowth@OvergrownOutpost","OvergrownOutpost","The Evergrowth")
+DefineDungeonArea(1008,2,"The Overlook@OvergrownOutpost","OvergrownOutpost","The Overlook")
+DefineInstance( 321,2,"Orgrimmar")
 DefineInstance( 401,0,"AlteracValley")
 DefineInstance( 443,0,"WarsongGulch")
 DefineInstance( 461,0,"ArathiBasin")
 DefineInstance( 482,0,"NetherstormArena")
 DefineInstance( 502,0,"ScarletEnclave")
+DefineInstance( 504,2,"Dalaran")
 DefineInstance( 512,0,"StrandoftheAncients")
 DefineInstance( 520,0,"TheNexus")
 DefineInstance( 521,2,"CoTStratholme")
@@ -300,7 +329,10 @@ DefineInstance( 602,0,"PitofSaron")
 DefineInstance( 603,0,"HallsofReflection")
 DefineInstance( 604,8,"IcecrownCitadel")
 DefineInstance( 609,0,"TheRubySanctum")
+DefineInstance( 610,0,"VashjirKelpForest")
 DefineInstance( 611,0,"GilneasCity")
+DefineInstance( 614,0,"VashjirDepths")
+DefineInstance( 615,0,"VashjirRuins")
 DefineInstance( 626,0,"TwinPeaks")
 DefineInstance( 677,0,"BattleforGilneas")
 DefineInstance( 678,0,"Gilneas_terrain1")
@@ -319,7 +351,7 @@ DefineInstance( 704,2,"BlackrockDepths")
 DefineInstance( 710,0,"TheShatteredHalls")
 DefineInstance( 717,0,"RuinsofAhnQiraj")
 DefineInstance( 718,0,"OnyxiasLair")
-DefineInstance( 721,7,"BlackrockSpire")
+DefineInstance( 721,6,"BlackrockSpire")
 DefineInstance( 722,2,"AuchenaiCrypts")
 DefineInstance( 723,2,"SethekkHalls")
 DefineInstance( 724,0,"ShadowLabyrinth")
@@ -381,6 +413,8 @@ DefineInstance( 824,7,"DragonSoul")
 DefineInstance( 851,0,"DustwallowMarshScenario")
 DefineInstance( 856,0,"TempleofKotmogu")
 DefineInstance( 860,0,"STVDiamondMineBG")
+DefineInstance( 864,0,"Northshire")
+DefineInstance( 866,0,"ColdridgeValley")
 DefineInstance( 867,2,"EastTemple")
 DefineInstance( 871,2,"ScarletHalls")
 DefineInstance( 874,2,"ScarletCathedral")
@@ -397,11 +431,21 @@ DefineInstance( 884,0,"KunLaiPassScenario")
 DefineInstance( 885,3,"MogushanPalace")
 DefineInstance( 886,0,"TerraceOfEndlessSpring")
 DefineInstance( 887,3,"SiegeofNiuzaoTemple")
+DefineInstance( 888,0,"ShadowglenStart")
+DefineInstance( 889,0,"ValleyofTrialsStart")
+DefineInstance( 890,0,"CampNaracheStart")
+DefineInstance( 891,0,"EchoIslesStart")
+DefineInstance( 892,0,"DeathknellStart")
+DefineInstance( 893,0,"SunstriderIsleStart")
+DefineInstance( 894,0,"AmmenValeStart")
+DefineInstance( 895,0,"NewTinkertownStart")
 DefineInstance( 896,3,"MogushanVaults")
 DefineInstance( 897,2,"HeartofFear")
 DefineInstance( 898,4,"Scholomance#898")
 DefineInstance( 899,0,"ProvingGrounds")
 DefineInstance( 900,2,"AncientMoguCrypt")
+DefineInstance( 903,2,"ValeofEternalBlossoms")
+DefineInstance( 905,2,"ValeofEternalBlossoms#905")
 DefineInstance( 906,0,"DustwallowMarshScenarioAlliance")
 DefineInstance( 911,0,"KrasarangAlliance")
 DefineInstance( 912,0,"KrasarangPatience")
@@ -421,132 +465,148 @@ DefineInstance( 939,0,"DunMoroghScenario")
 DefineInstance( 940,0,"tempKrasarangHordeBase")
 DefineInstance( 953,15,"OrgrimmarRaid")
 DefineInstance( 955,0,"CelestialChallenge")
+DefineInstance( 964,0,"OgreMines")
+DefineInstance( 969,3,"ShadowmoonDungeon")
+DefineInstance( 970,0,"TanaanJungleIntro")
+DefineInstance( 983,0,"DefenseofKarabor")
+DefineInstance( 984,0,"DraenorAuchindoun")
+DefineInstance( 986,0,"TaladorScenario")
+DefineInstance( 987,0,"IronDocks")
+DefineInstance( 988,5,"FoundryRaid")
+DefineInstance( 989,2,"SpiresofArakDungeon")
+DefineInstance( 993,4,"BlackrockTrainDepotDungeon")
+DefineInstance( 994,6,"HighmaulRaid")
+DefineInstance( 995,3,"UpperBlackrockSpire")
+DefineInstance(1008,2,"OvergrownOutpost")
+DefineInstance(1009,0,"AshranAllianceFactionHub")
+DefineInstance(1010,0,"HillsbradFoothillsBG")
+DefineInstance(1011,0,"AshranHordeFactionHub")
 DefineTerrain(1, 0,  13,0,"Kalimdor")
-DefineTerrain(1, 1, 772,0,"Ahn'Qiraj: The Fallen Kingdom")
-DefineTerrain(1, 2, 894,0,"Ammen Vale")
-DefineTerrain(1, 3,  43,0,"Ashenvale")
-DefineTerrain(1, 4, 181,0,"Azshara")
-DefineTerrain(1, 5, 464,0,"Azuremyst Isle")
-DefineTerrain(1, 6, 476,0,"Bloodmyst Isle")
-DefineTerrain(1, 7, 890,0,"Camp Narache")
-DefineTerrain(1, 8,  42,0,"Darkshore")
-DefineTerrain(1, 9, 381,0,"Darnassus")
-DefineTerrain(1,10, 101,0,"Desolace")
-DefineTerrain(1,11,   4,0,"Durotar")
-DefineTerrain(1,12, 141,0,"Dustwallow Marsh")
-DefineTerrain(1,13, 891,0,"Echo Isles")
-DefineTerrain(1,14, 182,0,"Felwood")
+DefineTerrain(1, 1, 471,0,"The Exodar")
+DefineTerrain(1, 2, 772,0,"Ahn'Qiraj: The Fallen Kingdom")
+DefineTerrain(1, 3, 464,0,"Azuremyst Isle")
+DefineTerrain(1, 4, 182,0,"Felwood")
+DefineTerrain(1, 5,   9,0,"Mulgore")
+DefineTerrain(1, 6, 101,0,"Desolace")
+DefineTerrain(1, 7, 606,0,"Mount Hyjal")
+DefineTerrain(1, 8, 241,0,"Moonglade")
+DefineTerrain(1, 9, 607,0,"Southern Barrens")
+DefineTerrain(1,10,  41,0,"Teldrassil")
+DefineTerrain(1,11,  42,0,"Darkshore")
+DefineTerrain(1,12,  43,0,"Ashenvale")
+DefineTerrain(1,13, 281,0,"Winterspring")
+DefineTerrain(1,14, 141,0,"Dustwallow Marsh")
 DefineTerrain(1,15, 121,0,"Feralas")
-DefineTerrain(1,16, 241,0,"Moonglade")
-DefineTerrain(1,17, 606,0,"Mount Hyjal")
-DefineTerrain(1,18,   9,0,"Mulgore")
-DefineTerrain(1,19,  11,0,"Northern Barrens")
-DefineTerrain(1,20, 321,2,"Orgrimmar")
-DefineTerrain(1,21, 888,0,"Shadowglen")
-DefineTerrain(1,22, 261,0,"Silithus")
-DefineTerrain(1,23, 607,0,"Southern Barrens")
-DefineTerrain(1,24,  81,0,"Stonetalon Mountains")
-DefineTerrain(1,25, 161,0,"Tanaris")
-DefineTerrain(1,26,  41,0,"Teldrassil")
-DefineTerrain(1,27, 471,0,"The Exodar")
-DefineTerrain(1,28,  61,0,"Thousand Needles")
-DefineTerrain(1,29, 362,0,"Thunder Bluff")
-DefineTerrain(1,30, 720,0,"Uldum")
-DefineTerrain(1,31, 201,0,"Un'Goro Crater")
-DefineTerrain(1,32, 889,0,"Valley of Trials")
-DefineTerrain(1,33, 281,0,"Winterspring")
+DefineTerrain(1,16, 476,0,"Bloodmyst Isle")
+DefineTerrain(1,17, 201,0,"Un'Goro Crater")
+DefineTerrain(1,18, 720,0,"Uldum")
+DefineTerrain(1,19, 161,0,"Tanaris")
+DefineTerrain(1,20,  11,0,"Northern Barrens")
+DefineTerrain(1,21,  61,0,"Thousand Needles")
+DefineTerrain(1,22, 381,0,"Darnassus")
+DefineTerrain(1,23, 261,0,"Silithus")
+DefineTerrain(1,24, 181,0,"Azshara")
+DefineTerrain(1,25, 362,0,"Thunder Bluff")
+DefineTerrain(1,26,  81,0,"Stonetalon Mountains")
+DefineTerrain(1,27,   4,0,"Durotar")
 DefineTerrain(2, 0,  14,0,"Eastern Kingdoms")
-DefineTerrain(2, 1, 614,0,"Abyssal Depths")
-DefineTerrain(2, 2,  16,0,"Arathi Highlands")
-DefineTerrain(2, 3,  17,0,"Badlands")
-DefineTerrain(2, 4,  19,0,"Blasted Lands")
-DefineTerrain(2, 5,  29,0,"Burning Steppes")
-DefineTerrain(2, 6, 866,0,"Coldridge Valley")
-DefineTerrain(2, 7,  32,0,"Deadwind Pass")
-DefineTerrain(2, 8, 892,0,"Deathknell")
-DefineTerrain(2, 9,  27,0,"Dun Morogh")
-DefineTerrain(2,10,  34,0,"Duskwood")
-DefineTerrain(2,11,  23,0,"Eastern Plaguelands")
-DefineTerrain(2,12,  30,0,"Elwynn Forest")
-DefineTerrain(2,13, 462,0,"Eversong Woods")
-DefineTerrain(2,14, 463,0,"Ghostlands")
-DefineTerrain(2,15,  24,0,"Hillsbrad Foothills")
-DefineTerrain(2,16, 341,0,"Ironforge")
-DefineTerrain(2,17, 499,0,"Isle of Quel'Danas")
-DefineTerrain(2,18, 610,0,"Kelp'thar Forest")
-DefineTerrain(2,19,  35,0,"Loch Modan")
-DefineTerrain(2,20, 895,0,"New Tinkertown")
-DefineTerrain(2,21,  37,0,"Northern Stranglethorn")
-DefineTerrain(2,22, 864,0,"Northshire")
-DefineTerrain(2,23,  36,0,"Redridge Mountains")
-DefineTerrain(2,24, 684,0,"Ruins of Gilneas")
-DefineTerrain(2,25, 685,0,"Ruins of Gilneas City")
-DefineTerrain(2,26,  28,0,"Searing Gorge")
-DefineTerrain(2,27, 615,0,"Shimmering Expanse")
-DefineTerrain(2,28, 480,0,"Silvermoon City")
-DefineTerrain(2,29,  21,0,"Silverpine Forest")
-DefineTerrain(2,30, 301,0,"Stormwind City")
-DefineTerrain(2,31, 689,0,"Stranglethorn Vale")
-DefineTerrain(2,32, 893,0,"Sunstrider Isle")
-DefineTerrain(2,33,  38,0,"Swamp of Sorrows")
-DefineTerrain(2,34, 673,0,"The Cape of Stranglethorn")
-DefineTerrain(2,35,  26,0,"The Hinterlands")
-DefineTerrain(2,36,  20,0,"Tirisfal Glades")
-DefineTerrain(2,37, 708,0,"Tol Barad")
-DefineTerrain(2,38, 709,0,"Tol Barad Peninsula")
-DefineTerrain(2,39, 700,0,"Twilight Highlands")
-DefineTerrain(2,40, 382,0,"Undercity")
-DefineTerrain(2,41, 613,0,"Vashj'ir")
-DefineTerrain(2,42,  22,0,"Western Plaguelands")
-DefineTerrain(2,43,  39,0,"Westfall")
-DefineTerrain(2,44,  40,0,"Wetlands")
+DefineTerrain(2, 1,  27,0,"Dun Morogh")
+DefineTerrain(2, 2, 480,0,"Silvermoon City")
+DefineTerrain(2, 3,  38,0,"Swamp of Sorrows")
+DefineTerrain(2, 4, 708,0,"Tol Barad")
+DefineTerrain(2, 5,  39,0,"Westfall")
+DefineTerrain(2, 6, 301,0,"Stormwind City")
+DefineTerrain(2, 7,  16,0,"Arathi Highlands")
+DefineTerrain(2, 8,  20,0,"Tirisfal Glades")
+DefineTerrain(2, 9,  24,0,"Hillsbrad Foothills")
+DefineTerrain(2,10,  28,0,"Searing Gorge")
+DefineTerrain(2,11,  32,0,"Deadwind Pass")
+DefineTerrain(2,12,  40,0,"Wetlands")
+DefineTerrain(2,13, 673,0,"The Cape of Stranglethorn")
+DefineTerrain(2,14, 499,0,"Isle of Quel'Danas")
+DefineTerrain(2,15, 685,0,"Ruins of Gilneas City")
+DefineTerrain(2,16, 689,0,"Stranglethorn Vale")
+DefineTerrain(2,17, 382,0,"Undercity")
+DefineTerrain(2,18,  21,0,"Silverpine Forest")
+DefineTerrain(2,19,  29,0,"Burning Steppes")
+DefineTerrain(2,20,  34,0,"Duskwood")
+DefineTerrain(2,21, 709,0,"Tol Barad Peninsula")
+DefineTerrain(2,22,  35,0,"Loch Modan")
+DefineTerrain(2,23, 462,0,"Eversong Woods")
+DefineTerrain(2,24, 463,0,"Ghostlands")
+DefineTerrain(2,25,  30,0,"Elwynn Forest")
+DefineTerrain(2,26,  36,0,"Redridge Mountains")
+DefineTerrain(2,27, 341,0,"Ironforge")
+DefineTerrain(2,28, 613,0,"Vashj'ir")
+DefineTerrain(2,29, 684,0,"Ruins of Gilneas")
+DefineTerrain(2,30,  37,0,"Northern Stranglethorn")
+DefineTerrain(2,31,  22,0,"Western Plaguelands")
+DefineTerrain(2,32,  17,0,"Badlands")
+DefineTerrain(2,33, 700,0,"Twilight Highlands")
+DefineTerrain(2,34,  19,0,"Blasted Lands")
+DefineTerrain(2,35,  23,0,"Eastern Plaguelands")
+DefineTerrain(2,36,  26,0,"The Hinterlands")
 DefineTerrain(3, 0, 466,0,"Outland")
-DefineTerrain(3, 1, 475,0,"Blade's Edge Mountains")
-DefineTerrain(3, 2, 465,0,"Hellfire Peninsula")
-DefineTerrain(3, 3, 477,0,"Nagrand")
-DefineTerrain(3, 4, 479,0,"Netherstorm")
-DefineTerrain(3, 5, 473,0,"Shadowmoon Valley")
-DefineTerrain(3, 6, 481,0,"Shattrath City")
+DefineTerrain(3, 1, 465,0,"Hellfire Peninsula")
+DefineTerrain(3, 3, 481,0,"Shattrath City")
+DefineTerrain(3, 4, 475,0,"Blade's Edge Mountains")
+DefineTerrain(3, 5, 467,0,"Zangarmarsh")
 DefineTerrain(3, 7, 478,0,"Terokkar Forest")
-DefineTerrain(3, 8, 467,0,"Zangarmarsh")
+DefineTerrain(3, 8, 479,0,"Netherstorm")
 DefineTerrain(4, 0, 485,0,"Northrend")
 DefineTerrain(4, 1, 486,0,"Borean Tundra")
-DefineTerrain(4, 2, 510,0,"Crystalsong Forest")
-DefineTerrain(4, 3, 504,2,"Dalaran")
-DefineTerrain(4, 4, 488,0,"Dragonblight")
-DefineTerrain(4, 5, 490,0,"Grizzly Hills")
-DefineTerrain(4, 6, 491,0,"Howling Fjord")
-DefineTerrain(4, 7, 541,0,"Hrothgar's Landing")
-DefineTerrain(4, 8, 492,0,"Icecrown")
-DefineTerrain(4, 9, 493,0,"Sholazar Basin")
-DefineTerrain(4,10, 495,0,"The Storm Peaks")
-DefineTerrain(4,11, 501,0,"Wintergrasp")
-DefineTerrain(4,12, 496,0,"Zul'Drak")
-DefineTerrain(5, 1, 640,0,"Deepholm")
-DefineTerrain(5, 2, 605,0,"Kezan")
-DefineTerrain(5, 3, 544,0,"The Lost Isles")
-DefineTerrain(5, 4, 737,0,"The Maelstrom","The Maelstrom#737")
-DefineTerrain(5, 4, 737,0,"The Maelstrom","The Maelstrom#737")
+DefineTerrain(4, 2, 488,0,"Dragonblight")
+DefineTerrain(4, 3, 541,0,"Hrothgar's Landing")
+DefineTerrain(4, 4, 490,0,"Grizzly Hills")
+DefineTerrain(4, 5, 491,0,"Howling Fjord")
+DefineTerrain(4, 6, 492,0,"Icecrown")
+DefineTerrain(4, 7, 493,0,"Sholazar Basin")
+DefineTerrain(4, 8, 510,0,"Crystalsong Forest")
+DefineTerrain(4, 9, 496,0,"Zul'Drak")
+DefineTerrain(4,10, 501,0,"Wintergrasp")
+DefineTerrain(4,11, 495,0,"The Storm Peaks")
+DefineTerrain(5, 1, 605,0,"Kezan")
+DefineTerrain(5, 2, 640,0,"Deepholm")
+DefineTerrain(5, 3, 737,0,"The Maelstrom","The Maelstrom@The Maelstrom")
+DefineTerrain(5, 3, 737,0,"The Maelstrom","The Maelstrom@The Maelstrom")
+DefineTerrain(5, 4, 544,0,"The Lost Isles")
 DefineTerrain(6, 0, 862,0,"Pandaria")
-DefineTerrain(6, 1, 858,0,"Dread Wastes")
-DefineTerrain(6, 2, 929,0,"Isle of Giants")
-DefineTerrain(6, 3, 928,0,"Isle of Thunder")
-DefineTerrain(6, 4, 857,0,"Krasarang Wilds")
-DefineTerrain(6, 5, 809,0,"Kun-Lai Summit")
-DefineTerrain(6, 6, 905,2,"Shrine of Seven Stars")
-DefineTerrain(6, 7, 903,2,"Shrine of Two Moons")
-DefineTerrain(6, 8, 806,0,"The Jade Forest")
-DefineTerrain(6, 9, 873,0,"The Veiled Stair")
+DefineTerrain(6, 1, 807,0,"Valley of the Four Winds")
+DefineTerrain(6, 2, 809,0,"Kun-Lai Summit")
+DefineTerrain(6, 3, 811,0,"Vale of Eternal Blossoms")
+DefineTerrain(6, 4, 858,0,"Dread Wastes")
+DefineTerrain(6, 5, 806,0,"The Jade Forest")
+DefineTerrain(6, 6, 928,0,"Isle of Thunder")
+DefineTerrain(6, 7, 810,0,"Townlong Steppes")
+DefineTerrain(6, 8, 857,0,"Krasarang Wilds")
+DefineTerrain(6, 9, 929,0,"Isle of Giants")
 DefineTerrain(6,10, 951,0,"Timeless Isle")
-DefineTerrain(6,11, 810,0,"Townlong Steppes")
-DefineTerrain(6,12, 811,0,"Vale of Eternal Blossoms")
-DefineTerrain(6,13, 807,0,"Valley of the Four Winds")
+DefineTerrain(6,11, 873,0,"The Veiled Stair")
+DefineTerrain(7, 0, 962,0,"Draenor")
+DefineTerrain(7, 1, 950,0,"Nagrand","Nagrand@Draenor")
+DefineTerrain(7, 1, 950,0,"Nagrand","Nagrand@Draenor")
+DefineTerrain(7, 2, 945,0,"Tanaan Jungle")
+DefineTerrain(7, 3, 947,0,"Shadowmoon Valley","Shadowmoon Valley@Draenor")
+DefineTerrain(7, 3, 947,0,"Shadowmoon Valley","Shadowmoon Valley@Draenor")
+DefineTerrain(7, 4, 949,0,"Gorgrond")
+DefineTerrain(7, 5, 948,0,"Spires of Arak")
+DefineTerrain(7, 6, 946,0,"Talador")
+DefineTerrain(7, 7, 941,0,"Frostfire Ridge")
+DefineTerrain(7, 8, 978,0,"Ashran")
 
-
+-- Manual overrides
+DefineInstance( 976,0,"Frostwall")
+DefineInstance( 971,0,"Lunarfall")
+DefineTerrain(7, 7, 941,1,"Floor1@Bladespire Fortress")
+DefineTerrain(7, 7, 941,2,"Floor2@Bladespire Fortress")
+DefineTerrain(7, 7, 941,3,"Floor3@Bladespire Fortress")
+DefineTerrain(7, 7, 941,4,"Floor4@Bladespire Fortress")
+DefineTerrain(7, 7, 941,8,"Grulloc's Lair")
+DefineInstance(1011,0,"Warspear")
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
-local function ScrapeMapInfo(cont, zone, zone_idx)
+local function ScrapeMapInfo(cont, zone, zone_idx, cont_name)
     local record = {}
     record.mapName = zone or GetMapInfo();
     record.mapID = GetCurrentMapAreaID();
@@ -562,7 +622,7 @@ local function ScrapeMapInfo(cont, zone, zone_idx)
     if zone then
         record.zone = zone
     elseif GetCurrentMapContinent() > -1 and GetCurrentMapZone() > -1 then
-        record.zone = zonenames[GetCurrentMapContinent()][GetCurrentMapZone()] or GetCurrentMapZone()
+        record.zone = zonenames[GetCurrentMapContinent()][GetCurrentMapZone()]
     end
     if zone_idx then
         record.zonei = zone_idx
@@ -607,11 +667,17 @@ local function ScrapeMapInfo(cont, zone, zone_idx)
             return
         end
         WoWPro:Error("Name "..record.mapName.." is duplicated for map "..tostring(record.mapID).." and "..tostring(Zone2MapID[record.mapName].mapID))
-        record.mapName = record.mapName .. "#" .. tostring(record.mapID)
+        if cont_name then
+            record.mapName = record.mapName .. "@" .. cont_name
+        else
+            record.mapName = record.mapName .. "#" .. tostring(record.mapID)
+        end
     end
     MapsSeen[record.mapID] = true
+    WoWPro:Print("SMI: Recoding mapName [%s]",record.mapName)
     Zone2MapID[record.mapName]=record;
     if record.zone then
+        WoWPro:Print("SMI: Recoding zone [%s]",record.zone)
         Zone2MapID[record.zone]=record;
     end
 end
@@ -628,6 +694,25 @@ function WoWPro:IsInstanceZone(zone)
     return true
 end
 
+local function pack_kv(...)
+    t = {}
+    for i=1, select("#", ...), 2 do
+        k = select(i, ...)
+        v = select(i+1, ...)
+        t[k] = v
+    end
+    return t
+end
+
+local function pack_v(...)
+    t = {}
+    for i=1, select("#", ...), 2 do
+        k = select(i, ...)
+        v = select(i+1, ...)
+        table.insert(t,v)
+    end
+    return t
+end
 
 local function Zone2Functs(tabla)
     local result = ""
@@ -654,7 +739,7 @@ local function Zone2Functs(tabla)
 end
 
 function WoWPro:Functionalize()
-    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
+    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Maps","Hit escape to dismiss")
     local LogBox = WoWPro.LogBox
     LogBox.Box:SetText( Zone2Functs(WoWPro.Zone2MapID) )
     LogBox.Scroll:UpdateScrollChildRect()
@@ -666,27 +751,232 @@ function WoWPro:Functionalize()
     end
 end
 
+local function Rzti2Text()
+    local result = ""
+    for z=1,10000 do
+        local rzti = GetRealZoneText(z)
+        if rzti and rzti ~= "" then
+            result = result .. string.format("[%d] = %q\n",z,rzti)
+        end
+    end
+    return result
+end
+
+function WoWPro:RZTI()
+    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro RTZI","Hit escape to dismiss")
+    local LogBox = WoWPro.LogBox
+    LogBox.Box:SetText( Rzti2Text() )
+    LogBox.Scroll:UpdateScrollChildRect()
+    LogBox:Show()
+end
+
 function WoWPro:GenerateMapCache()
     local here = GetCurrentMapAreaID()
     
     Zone2MapID = {}
     MapsSeen = {}
-	for ci,c in pairs{GetMapContinents()} do
-	    contnames[ci] = c
-	    zonenames[ci] = {GetMapZones(ci)}
-		SetMapZoom(ci,0)
-		ScrapeMapInfo(ci,contnames[ci],0)
-	    for zi,z in pairs(zonenames[ci]) do
-			SetMapZoom(ci,zi)
-			ScrapeMapInfo(ci,z,zi)
+    contnames = pack_v(GetMapContinents())
+	for ci=1,7 do
+	    WoWPro:Print("Continent %d [%s]",ci,contnames[ci])
+	    zonenames[ci] = {}
+	    zonenames[ci][0] = contnames[ci]
+	    SetMapZoom(ci,0)
+	    ScrapeMapInfo(ci,contnames[ci],0)
+	    WoWPro:Print("Getting Map zones in %d",ci)
+	    local zidx = 1
+	    local cont_name = contnames[ci]
+	    for zID, zname in pairs(pack_kv(GetMapZones(ci))) do
+	        WoWPro:Print("GMZ: %d [%s]",zID, zname)
+			SetMapByID(zID)
+			local mapFileName, textureHeight, textureWidth, isMicrodungeon, microDungeonMapName  = GetMapInfo();
+			if isMicrodungeon then
+			    mapFileName = microDungeonMapName
+			end
+			WoWPro:Print("Getting info on %d [%s@%s]",zID, zname,contnames[ci]) 
+			ScrapeMapInfo(ci,zname, zidx, cont_name)
+			zidx = zidx + 1
 		end
 	end
-
-    for z=1,10000 do
-        if( SetMapByID(z) ) then
-            ScrapeMapInfo(nil,nil)
+    WoWPro:Print("Now scraping maps directly");
+    for z=1,2048 do
+        if not MapsSeen[z] then
+            WoWPro:Print("Now scraping %d", z);
+            if( SetMapByID(z) ) then
+                ScrapeMapInfo(nil,nil)
+            end
         end
     end
     WoWPro.Zone2MapID = Zone2MapID
     SetMapByID(here)
+end
+
+---		mapData[955] = { 
+---			['floors'] = 0, ['name'] = "CelestialChallenge", ['rzti'] = 1161, ['map_type'] = 0, ['continent'] = 0, ['transform'] = 0,
+---			[1] = {2400.0,1600.0,4083.333984375,233.333984375,6483.333984375,-1366.666015625},
+---			['micro'] = {
+---	            
+---			},	
+
+function WoWPro.GenerateLMDItem(k, orig)
+    WoWPro:Print("GenerateLMDItem(%d)",k)
+	SetMapByID(k)
+	SetDungeonMapLevel(0)
+	local v = {}
+	local o = orig or {}
+	local _,l,t,r,b = GetCurrentMapZone()
+	local floors = GetNumDungeonMapLevels();
+	local width, height = 0,0
+	v.floors = floors
+	if l then
+    	width = math.abs((-l) - (-r))
+    	height = math.abs(t - b)
+    	local mapFileName, textureHeight, textureWidth, isMicrodungeon, microDungeonMapName  = GetMapInfo();
+    	if isMicrodungeon then
+    		v.name = microDungeonMapName
+    	else
+    	    v.name = mapFileName
+    	end
+    	if v.floors == 0 then
+    	    v[0] = {}
+    		v[0][1] = width
+    		v[0][2] = height
+    		v[0][3] = -l
+    		v[0][4] = t
+    		v[0][5] = -r
+    		v[0][6] = b
+    	end
+    end
+	v.mapID = k
+	v.rzti = o.rzti or 0
+	v.map_type = o.map_type or 0
+	v.continent = GetCurrentMapContinent()
+	if v.continent < 0 then
+	    v.continent = 0
+	end
+	v.transform = o.transform or 0
+	    
+	-- update floor data if we can
+	if v.floors > 0 then
+		for f = 1, floors do
+			SetDungeonMapLevel(f)
+			local ff, l, t, r, b = GetCurrentMapDungeonLevel()
+			WoWPro:Print("GenerateLMDItem1: Testing for level %s/%d",tostring(l),f)
+			if l then
+    			v[f] = {}
+    			local width, height = 0,0
+    			width = math.abs((-l) - (-r))
+    			height = math.abs(t - b)
+    			v[f][1] = width
+    			v[f][2] = height
+    			v[f][3] = -l
+    			v[f][4] = t
+    			v[f][5] = -r
+    			v[f][6] = b
+    			local mapFileName, textureHeight, textureWidth, isMicrodungeon, microDungeonMapName  = GetMapInfo();
+    			if isMicrodungeon then
+    		        v[f][7] = microDungeonMapName
+    	        else
+    	            v[f][7] = mapFileName
+    	        end
+    		end
+		end
+	else
+	    SetMapByID(k)
+	    local mapname = strupper(GetMapInfo() or "")
+	    for f = 1, 10 do
+	        SetMapByID(k,f)
+	        SetDungeonMapLevel(f)
+	        local ff, l, t, r, b = GetCurrentMapDungeonLevel()
+			if l then
+    			v.micro = v.micro or {}
+    			local width, height = 0,0
+    			width = math.abs((-l) - (-r))
+    			height = math.abs(t - b)
+    			v.micro[f] = {}
+    			v.micro[f][1] = width
+    			v.micro[f][2] = height
+    			v.micro[f][3] = -l
+    			v.micro[f][4] = t
+    			v.micro[f][5] = -r
+    			v.micro[f][6] = b
+            end
+	        local floorname = _G["DUNGEON_FLOOR_"..mapname..f]
+	        if floorname then
+	            v.micro = v.micro or {}         
+    			v.micro[f] = v.micro[f] or {}
+    		    v.micro[f][7] = floorname
+    		end
+		end	    
+	end
+	return v
+end
+
+function WoWPro.DisplayLMDItem(k, orig)
+    local v = WoWPro.GenerateLMDItem(k, orig)
+    local result = ""
+    result = result .. string.format("mapData[%d] = {\n",v.mapID)
+    result = result .. string.format("    ['floors'] = %d, ['name'] = %q, ['rzti'] = %d, ['map_type'] = %d, ['continent'] = %d, ['transform'] = %d,\n", v.floors,  v.name, v.rzti, v.map_type, v.continent, v.transform)
+    local floors = max(1, v.floors)
+    for f = 0, floors do
+        if v[f] then
+            result = result .. string.format("    [%d] = {",f)
+            if v[f][1] then
+                for n=1, 6 do
+                    result = result .. string.format("%f,",v[f][n])
+                end
+            end
+            if v[f][7] then
+                result = result .. string.format(" [7]=%q},\n",v[f][7])
+            else
+                result = result .. string.format("},\n")
+            end
+        end
+    end
+    if v.micro then
+        result = result .. string.format("    ['micro'] = {\n")
+        for f = 1, 10 do
+            if v.micro[f] then
+                result = result .. string.format("      [%d] = {",f)
+                if v.micro[f][1] then
+                    for n=1, 6 do
+                        result = result .. string.format("%f,",v.micro[f][n])
+                    end
+                end
+                if v.micro[f][7] then
+                    result = result .. string.format(" [7]=%q},\n",v.micro[f][7])
+                else
+                    result = result .. string.format("},\n")
+                end
+            end
+        end
+        result = result .. "    }\n"
+    end
+    result = result .. "}\n"
+    return result
+end
+
+function WoWPro.GenerateLibMapDataUpdate(map)
+    local lmd = LibStub("LibMapData-1.0")
+    local result = "-- Start \n"
+    if not map then
+        WoWPro:Print("GLMDU: Probing all maps.")
+        for zi=1,2047 do
+            if WoWPro.MapID2Zone[zi] then
+                WoWPro:Print("GLMDU: Probing %d.", zi)
+                if lmd.mapData[zi].empty then
+                    result = result .. WoWPro.DisplayLMDItem(zi)
+                else
+                    result = result .. WoWPro.DisplayLMDItem(zi, lmd.mapData[zi])
+                end
+            end
+        end
+    else
+        result = result .. WoWPro.DisplayLMDItem(map)
+    end
+     result = result .. "-- end\n"
+    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro LMDU","Hit escape to dismiss")
+    local LogBox = WoWPro.LogBox
+    LogBox.Box:SetText( result)
+    LogBox.Scroll:UpdateScrollChildRect()
+    LogBox:Show()  
 end

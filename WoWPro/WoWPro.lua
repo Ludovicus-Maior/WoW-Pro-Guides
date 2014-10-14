@@ -234,7 +234,7 @@ WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky",
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
 	"level", "QID","target", "prof", "mat", "rank", "rep","waypcomplete", "why",
 	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
-	 "buff", "chat","recipe", "gossip","conditional","pet"
+	 "buff", "chat","recipe", "gossip","conditional","pet", "building"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -253,19 +253,25 @@ function WoWPro:OnInitialize()
 	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
 	WoWProDB.global.RecklessCombat = false
+	if WoWProCharDB.EnableGrail == nil then
+	    WoWProCharDB.EnableGrail = true
+	end
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
-	WoWProDB.global.Deltas = {}
 	WoWProDB.global.Log = {}
 	WoWProCharDB.DebugLevel = WoWProCharDB.DebugLevel or WoWPro.DebugLevel
+	if not WoWProCharDB.DebugLevel then
+		WoWProDB.global.Deltas = {}
+	end
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
+    WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
     WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
 end
 
@@ -328,7 +334,7 @@ function WoWPro:OnEnable()
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
 		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW", "GOSSIP_SHOW",
-		"QUEST_DETAIL", "QUEST_GREETING"
+		"QUEST_DETAIL", "QUEST_GREETING", "QUEST_TURNED_IN", "QUEST_ACCEPTED"
 		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
@@ -341,10 +347,12 @@ function WoWPro:OnEnable()
 	bucket:RegisterBucketMessage("WoWPro_PuntedQLU",0.333,WoWPro.PuntedQLU)
 	if WoWPro.Recorder then
 	    bucket:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.Recorder.PostQuestLogUpdate)
+	    bucket:RegisterBucketMessage("WoWPro_PostLoadGuide",0.1,WoWPro.Recorder.PostGuideLoad)
 	end
 	
 	WoWPro.LockdownTimer = nil
 	WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+	WoWPro:dbp("Setting Timer OnEnable")
 	WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
 	    
 	WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
@@ -403,22 +411,21 @@ event from the guide frame.
 	end
 end
 
+-- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
+-- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
-    local guid = UnitGUID("target");
-    if not guid then
+    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit(":", UnitGUID("target") or "")
+    if not unitType then
         WoWPro:dbp("No target");
         return nil
     end      
-    local B = tonumber(guid:sub(5,5), 16);
-    local maskedB = B % 8; -- x % 8 has the same effect as x & 0x7 on numbers <= 0xf
-    local knownTypes = {[0]="player", [3]="NPC", [4]="pet", [5]="vehicle"};
-    local npcid = tonumber(guid:sub(6,10), 16);
     
-    if maskedB == 3 then
-        WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!") .. " ID %d",npcid);
+    if unitType == "Player" then
+        unitType, serverID, npcID = strsplit(":", UnitGUID("target"))
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcid);
         return npcid
     else
-        WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!"));
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcid);
         return nil
     end
 end

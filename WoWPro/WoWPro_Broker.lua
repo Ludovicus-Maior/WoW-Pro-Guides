@@ -99,7 +99,7 @@ function WoWPro.LoadGuideReal()
         return
     end
     
-    WoWPro:dbp("starting guide cleanup:  %s",tostring(GID))
+    WoWPro:dbp("WoWPro_LoadGuide: starting guide cleanup:  %s",tostring(GID))
     
 	--Re-initiallizing tags and counts--
 	for i,tag in pairs(WoWPro.Tags) do 
@@ -227,22 +227,38 @@ function WoWPro.UpdateGuideReal(From)
 	
 	-- Finding the active step in the guide --
 	WoWPro.ActiveStep = WoWPro:NextStep(1)
-	if WoWPro.Recorder then WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep end
+	if WoWPro.Recorder then
+	    WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
+	end
 	if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount))
 	
 	-- Calling on the guide's module to populate the guide window's rows --
 	local function rowContentUpdate()
 		local reload = WoWPro:RowUpdate(offset)
+		-- Hyjack the click and menu functions for the Recorder if it's enabled --
+		if WoWPro.Recorder then
+            WoWPro.Recorder:RowUpdate(offset)
+        end
 		for i, row in pairs(WoWPro.rows) do
 			if WoWPro.RowDropdownMenu[i] then
 				row:SetScript("OnClick", function(self, button, down)			    
 					if button == "LeftButton" then
-						WoWPro:RowLeftClick(i)
+					    if WoWPro.Recorder then
+					        WoWPro.Recorder:RowLeftClick(i)
+					    else
+						    WoWPro:RowLeftClick(i)
+						end
 					elseif button == "RightButton" then
 						WoWPro.rows[i]:SetChecked(nil)
-						if WoWPro.Recorder then WoWPro:RowLeftClick(i) end
-						EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						if WoWPro.Recorder then
+						    WoWPro:RowLeftClick(i)
+						    EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						else
+						    EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						end
+						
+						
 					end
 				end)
 			end
@@ -546,6 +562,7 @@ function WoWPro:NextStep(k,i)
 				    WoWProCharDB.Guide[GID].skipped[k] = true
 				    WoWProCharDB.skippedQIDs[QID] = true
 				    WoWPro:dbp("Prof permaskip qid %s for no %s",WoWPro.QID[k],prof)
+				    break
 				end
 			else
 			    WoWPro:Error("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
@@ -744,6 +761,34 @@ function WoWPro:NextStep(k,i)
             end
      	end
         
+        -- Test for buildings, default is to skip if we dont have any of the named ones.
+        if WoWPro.building and WoWPro.building[k] then
+            local Name,ids  = string.split(";",WoWPro.building[k],2)
+            local numList = select("#", string.split(";", ids))
+            local idHash = {}
+            WoWPro:dbp("Checking to see if you own %s: %s",Name, ids)
+            for i=1,numList do
+                local bid = select(numList-i+1, string.split(";", ids))
+                bid = tonumber(bid)
+		        if not bid then
+		            WoWPro:Error("Malformed BID [%s] in Guide %s",WoWPro.building[k],WoWProDB.char.currentguide)
+		            bid = 0
+		        end
+		        idHash[bid] = true
+		    end
+		    local buildings = C_Garrison.GetBuildings();
+		    WoWPro.why[k] = "NextStep(): Building not owned."
+		    skip = true
+            for i = 1, #buildings do
+                local building = buildings[i];
+                if idHash[building.buildingID] then
+                    skip = false
+                    WoWPro.why[k] = "NextStep(): Building owned."
+                    WoWPro:dbp("Build %d is owned",building.buildingID)
+                end
+            end
+		end
+        
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank and WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
@@ -856,10 +901,10 @@ function WoWPro:PopulateQuestLog()
 	WoWPro:dbp("WoWPro:PopulateQuestLog()")
 	
 	-- If the UI is up, dont muck with things
-	if (QuestLogFrame:IsShown() or QuestLogDetailFrame:IsShown()) then
-	    WoWPro:SendMessage("WoWPro_PuntedQLU")
-	    return nil
-	end
+---	if (QuestLogFrame:IsShown() or QuestLogDetailFrame:IsShown()) then
+---	    WoWPro:SendMessage("WoWPro_PuntedQLU")
+---	    return nil
+---	end
 	
 	WoWPro.oldQuests = WoWPro.QuestLog or {}
 	WoWPro.newQuest, WoWPro.missingQuest = false, false
@@ -874,26 +919,28 @@ function WoWPro:PopulateQuestLog()
 
     i=1
 	repeat
-		local questTitle, level, questTag, suggestedGroup, isHeader, 
-			isCollapsed, isComplete, isDaily, questID, startEvent, displayQuestID = GetQuestLogTitle(i)
+--		local questTitle, level, questTag, suggestedGroup, isHeader, 
+--			isCollapsed, isComplete, isDaily, questID, startEvent, displayQuestID = GetQuestLogTitle(i)
+		local questTitle, level, suggestedGroup, isHeader, isCollapsed, isComplete, frequency,
+		    questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isStory = GetQuestLogTitle(i)
 		local leaderBoard
 		local ocompleted
 		if not questTitle and (num < numQuests) then
 		     WoWPro:Error("PopulateQuestLog: return value from GetQuestLogTitle(%d) is nil.",i)
 		end
 		if isHeader then
---		    WoWPro:dbp("PopulateQuestLog: Header %s  @ %d",tostring(questTitle),i)
+		    WoWPro:dbp("PopulateQuestLog: Header %s  @ %d",tostring(questTitle),i)
 			currentHeader = questTitle
 			if lastCollapsed then
 			    -- We just finished scanning a previously collapsed header and ran into the next
 			    -- We need to collapse it and then rewind to the next slot and restart, as the slot number for the header will have mutated on us.
 			    CollapseQuestHeader(lastCollapsed)
---			    WoWPro:dbp("PopulateQuestLog: Collapsing header at %d",lastCollapsed)
+			    WoWPro:dbp("PopulateQuestLog: Collapsing header at %d",lastCollapsed)
 			    i = lastCollapsed
 			    lastCollapsed = nil
 			elseif isCollapsed then
 			    lastCollapsed = i
---			    WoWPro:dbp("PopulateQuestLog: Expanding header at %d",lastCollapsed)
+			    WoWPro:dbp("PopulateQuestLog: Expanding header at %d",lastCollapsed)
 			    ExpandQuestHeader(i)
 			end	    
 		elseif questTitle and not WoWPro.QuestLog[questID] then
@@ -918,7 +965,7 @@ function WoWPro:PopulateQuestLog()
 			QuestPOIUpdateIcons()
 			local x, y = WoWPro:findBlizzCoords(questID)
 			if x and y then coords = string.format("%.2f",x)..","..string.format("%.2f",y) end
---			WoWPro:dbp("PopulateQuestLog: Quest %s [%s] @ %d",tostring(questID),questTitle,i)
+			WoWPro:dbp("PopulateQuestLog: Quest %s [%s] @ %d",tostring(questID),questTitle,i)
 			WoWPro.QuestLog[questID] = {
 				title = questTitle,
 				level = level,
@@ -969,10 +1016,13 @@ function WoWPro:PopulateQuestLog()
 		end
 	end
 
-	if WoWPro.Recorder then
-	    WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
+	-- Track the QuestLogs for debugging for Emmaleah
+	WoWProDB.char.Emmaleah = WoWProDB.char.Emmaleah or {}
+	if WoWPro.DebugLevel > 0 then
+	    table.insert(WoWProDB.char.Emmaleah,WoWPro.QuestLog)
+	else
+	    WoWProDB.char.Emmaleah = {}
 	end
-	
 	return num
 end
 
@@ -1142,7 +1192,7 @@ function WoWPro:QuestPrereq(qid)
 end
 
 function WoWPro:Questline(qid)
-    if not Grail then return end
+    if not Grail or not WoWPro.EnableGrail then return end
     WoWPro:SkipAll()
     WoWPro:QuestPrereq(qid)
     WoWPro:LoadGuide(nil)
@@ -1165,7 +1215,7 @@ function WoWPro.PickQuestline()
 end
 
 function WoWPro:GrailQuestPrereq(qid)
-    if not Grail then return nil end
+    if not Grail or not WoWPro.EnableGrail then return nil end
     local preReq = Grail:QuestPrerequisites(qid)
     local PREstr = nil
     if not preReq then return nil end
@@ -1188,7 +1238,7 @@ function WoWPro:GrailQuestPrereq(qid)
 end
 
 function WoWPro:GrailCheckQuestName(guide,QID,myname)
-    if not Grail then return nil end
+    if not Grail or not WoWPro.EnableGrail then return nil end
     if QID == "*" then return QID end
     if not QID then
         WoWPro:Warning("In guide %s, quest [%s]  does not have a QID",guide,tostring(myname))
@@ -1215,7 +1265,7 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
 end
 
 function WoWPro:GrailQuestLevel(qid)
-    if not Grail then return nil end
+    if not Grail or not WoWPro.EnableGrail then return nil end
     local _,_,level = Grail:MeetsRequirementLevel(qid,nil)
     if level then
         return tostring(level)
@@ -1236,10 +1286,10 @@ function WoWPro.LockdownHandler(self, elapsed)
 			if TomTom and TomTom.AddMFWaypoint then
 				WoWPro:CarboniteProfileHack()
 			else 
-				WoWPro:Warning("Waiting for TomTom or Carbonite to init...")
+				WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
 				if WoWPro.LockdownCounter > 0 then
 					WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
-					WoWPro.LockdownTimer = 1.0
+					WoWPro.LockdownTimer = 0.33
 				else
 					-- Warning if the user is missing TomTom --
 					WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
