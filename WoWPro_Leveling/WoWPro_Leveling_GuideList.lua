@@ -82,5 +82,28 @@ function WoWPro.Leveling.GuideTooltipInfo(row, tooltip, guide)
     GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
 end
 
+function WoWPro.Leveling:UpdateGuideScores()
+    WoWPro.Leveling:dbp("UpdateGuideScores()")
+    for guidID,guide in pairs(WoWPro.Guides) do
+	    if guide.guidetype == "Leveling" then
+	        if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
+	            if WoWProCharDB.Guide[guidID].progress > 0 and WoWProCharDB.Guide[guidID].progress <=  WoWProCharDB.Guide[guidID].total then
+	                guide.score = 100 * WoWProCharDB.Guide[guidID].progress / WoWProCharDB.Guide[guidID].total
+	                WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; progress %d / %d",guidID, WoWProCharDB.Guide[guidID].progress, WoWProCharDB.Guide[guidID].total)
+	            end
+	        elseif UnitLevel("player") < guide.startlevel then
+	            
+	        elseif UnitLevel("player") > guide.endlevel then
+	            guide.score = 100 * (guide.endlevel / UnitLevel("player"))
+	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; endlevel %f", guidID, guide.endlevel) 
+	        else
+	            guide.score = 100 * (guide.level / UnitLevel("player"))
+	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; level %f", guidID, guide.level) 
+	        end
+        end
+        guide.name = guide.zone
+    end 
+end
+
 
 WoWPro.Leveling:dbp("Guide Setup complete")
