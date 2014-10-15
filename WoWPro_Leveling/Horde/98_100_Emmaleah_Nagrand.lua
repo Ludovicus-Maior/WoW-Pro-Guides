@@ -1,3 +1,18 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2014-10-02 08:30
+-- Who: Emmaleah
+-- Log: update link in header to point to correct pages
+
+-- URL: http://wow-pro.com/node/3605/revisions/26704/view
+-- Date: 2014-10-02 08:28
+-- Who: Emmaleah
+-- Log: Emmaleah - 10/1/14 - First public draft
+
 local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
 WoWPro:GuideNextGuide(guide, 'nil')
@@ -9,7 +24,7 @@ return [[
 ; need to move building quests (at end) to Gorgrond probably.
 
 N Beginnings|QID|36607|N|This guide begins at your garrison to take the free flight to Nagrand.|
-N Bonus Objectives|QID|36607|N|The bonus quests are not mentioned in this guide. Feel free to do them if you want to. You must be 98 to do this guide.|
+N Bonus Objectives|QID|36607|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 98 to do this guide.|
 
 T News from Nagrand|QID|36607|M|45.82,42.96|Z|Frostwall|N|To Rokhan.|
 A Taking the Fight to Nagrand|QID|34794|M|45.82,42.96|Z|Frostwall|N|From Rokhan.|
@@ -137,7 +152,7 @@ T The Blessing of Samedi|QID|34916|M|68.54,64.52|N|To Shadow Hunter Kajassa.|
 T Shields Up!|QID|34917|M|68.54,64.52|N|To Shadow Hunter Kajassa.|
 A Shields Down!|QID|34918|M|68.54,64.52|N|From Shadow Hunter Kajassa.|
 C Shields Down!|QID|34918|T|Packleader Kargora|M|66.67,66.06|
-L Abu'gar's Vitality|QID|36711|L|114242|M|65.83,61.51;65.82,61.14|CS|N|Mouseover to find Abu'gar's fishing pole on the ledge below you. Once you find it step off (dismounted so you don't go out too far).|
+L Abu'gar's Vitality|QID|36711|L|114242|M|65.83,61.51;65.82,61.14|CS|N|Mouseover to find Abu'gar's fishing pole on the ledge below you.  Once you find it step off (dismounted so you don't go out too far).|
 C King of the Breezestriders|QID|35378|M|57.83,69.78|
 C Queen of the Clefthoof|QID|35375|M|71.74,52.26|
 C New Babies|QID|34900|M|60.85,47.24|NC|US|N|The non agro baby clefthoofs are what you are looking for, you will probably have to kill the accompanying adults first.|
@@ -359,7 +374,7 @@ F The Ring of Trials|QID|35171|M|49.56,48.07|N|This is the closest flight point,
 R Stonecrag Gorge|QID|36711|M|71.17,50.43|N|Down into the gorge to pick up Abu'gar, who has found himself a quiet fishing hole.|
 A Abu'gae|QID|36711|M|67.18,56.00|N|Talk to Abu'gar and he will come to your garrison.|
 R Gates of Grommashar|QID|35171|M|73.99,69.30|
-C And Justice for Thrall|QID|35171|M|74.60,69.51|CHAT|N|Talk to Duratan to start the scenario. Follow the scenario instructions and remember that the objectives are marked on your minimap with a yellow dot.|
+C And Justice for Thrall|QID|35171|M|74.60,69.51|CHAT|N|Talk to Duratan to start the scenario.  Follow the scenario instructions and remember that the objectives are marked on your minimap with a yellow dot.|
 T And Justice for Thrall|QID|35171|M|66.89,33.70|N|To Durotan.|
 
 N The End|N|You should be level 100, if not, there are still the bonus quests marked on your map. Enjoy gearing and endgame content!|
@@ -370,8 +385,8 @@ T My Very Own Fortress|QID|36614|M|37.81,50.27|Z|Frostwall|N|To Gazlowe. Your ga
 A Building For Professions|QID|36100|M|37.81,50.27|Z|Frostwall|N|To Gazlowe. This opened up 3 new building slots (1 large, 1 medium and 1 small). You should have all the level one plans, so you can just use them at your Architect's Table.|
 A Pets Versus Pests|QID|36469|M|32.55,39.63|Z|Frostwall|N|From Serr'ah. This is to enable the Menagerie, a Pet Battling arena in your garrison.|
 C Gorefu|QID|36469|QO|2|M|36.51,75.68|Z|Frostwall|NC|N|He is an elite type aquatic. Flyers work best against him.|
-C Carrotus Maximus|QID|36469|QO|1|M|50.02,84.65|Z|Frostwall|NC|N|He is a elite (boss buff) type elemental. Aquatics work best against him. The classic howl bomb team doesn't work against any of these guys.|
-C Gnawface|QID|36469|QO|3|M|62.52,27.77|Z|Frostwall|NC|N|He is an elite type critter. Beasts work best against him.|
+C Carrotus Maximus|QID|36469|QO|1|M|50.02,84.65|Z|Frostwall|NC|N|He is a elite (boss buff) type elemental.  Aquatics work best against him. The classic howl bomb team doesn't work against any of these guys.|
+C Gnawface|QID|36469|QO|3|M|62.52,27.77|Z|Frostwall|NC|N|He is an elite type critter.  Beasts work best against him.|
 T Pets Versus Pests|QID|36469|M|32.69,39.82|Z|Frostwall|N|To Serr'ah.|
 A Scrappin'|QID|36662|M|31.32,41.98|Z|Frostwall|N|From Serr'ah.|
 
@@ -382,7 +397,7 @@ A Capturing a Clefthoof|QID|36912|M|60.14,36.86|Z|Frostwall|BUILDING|Stables;65;
 A Lost in Transition|QID|37060|M|53.38,41.18|Z|Frostwall|BUILDING|Storehouse;52;142;143|N|From Yorn Longhoof.|
 A Tricks of the Trade|QID|37062|M|57.76,27.75|Z|Frostwall|BUILDING|Trading Post;111;144;145|N|From Fayla Fairfeather.|
 C Lost in Transition|QID|37060|M|52.19,19.52|Z|Frostwall|N|These are scattered around your garrison.|
-C Tricks of the Trade|QID|37062|U|118418|M|44.51,14.48|Z|Frostwall|N|He is sleeping just outside the gates.|
+C Tricks of the Trade|QID|37062|U|118418|M|44.51,14.48|Z|Frostwall|N|He is sleeping just outside  the gates.|
 T Tricks of the Trade|QID|37062|M|57.88,27.83|Z|Frostwall|N|To Fayla Fairfeather.|
 N Auctioning For Parts|QID|36948|M|57.88,27.83|Z|Frostwall|BUILDING|Trading Post;144;145|M|57.88,27.83|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.
 T Lost in Transition|QID|37060|Z|Frostwall|M|52.87,40.64|N|To Yorn Longhoof.|
@@ -426,4 +441,3 @@ A Your First Alchemy Work Order|QID|36641|M|47.56,32.50|Z|Frostwall|N|From Alber
 ]]
 
 end)
-

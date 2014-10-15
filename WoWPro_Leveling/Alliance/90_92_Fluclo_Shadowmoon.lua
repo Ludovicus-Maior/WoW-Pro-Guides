@@ -1,3 +1,30 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-10-09 15:04
+-- Who: Fluclo
+-- Log: Moved Hexcloth quest to an earlier opportunity to finish it.
+
+-- URL: http://wow-pro.com/node/3604/revisions/26709/view
+-- Date: 2014-10-09 14:04
+-- Who: Fluclo
+-- Log: Friendly Competition now lootable without the skinning profession
+
+-- URL: http://wow-pro.com/node/3604/revisions/26703/view
+-- Date: 2014-10-01 01:29
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3604/revisions/26700/view
+-- Date: 2014-09-29 21:06
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3604/revisions/26699/view
+-- Date: 2014-09-29 21:06
+-- Who: Fluclo
+
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,90)
 WoWPro:GuideNextGuide(guide, 'XXXX')
@@ -568,4 +595,3 @@ T A Curse Upon the Woods |QID|33120|N|To Delas Moonfang|M|29.5,24.5|
 ]]
 
 end)
-
