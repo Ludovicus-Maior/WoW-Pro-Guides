@@ -1,4 +1,27 @@
-Olocal guide = WoWPro:RegisterGuide('IronHordeInvasionA', 'Leveling', 'Blasted Lands', 'Fluclo', 'Alliance')
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
+-- Date: 2014-10-13 01:38
+-- Who: Fluclo
+-- Log: typo
+
+-- URL: http://wow-pro.com/node/3607/revisions/26719/view
+-- Date: 2014-10-13 01:17
+-- Who: Emmaleah
+-- Log: added step to use the battlepet to add it to your pet collection
+
+-- URL: http://wow-pro.com/node/3607/revisions/26717/view
+-- Date: 2014-10-13 01:12
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3607/revisions/26715/view
+-- Date: 2014-10-13 01:10
+-- Who: Fluclo
+
+local guide = WoWPro:RegisterGuide('IronHordeInvasionA', 'Leveling', 'Blasted Lands', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90, 90, 90.1)
 WoWPro:GuideNextGuide(guide, 'TheDarkPortal')
 WoWPro:GuideSteps(guide, function()
@@ -78,4 +101,3 @@ U Iron Starlette|U|110660|N|Add your starlette to your collection. Run the revam
 ]]
 
 end)
-

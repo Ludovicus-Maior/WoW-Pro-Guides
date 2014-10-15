@@ -1,3 +1,26 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/node/3584
+-- Date: 2014-10-15 00:44
+-- Who: Ludovicus
+-- Log: CHanged guide name to IronHordeInvasionH and make names conform with Alliance version.
+
+-- URL: http://wow-pro.com/node/3584/revisions/26712/view
+-- Date: 2014-10-13 02:18
+-- Who: Emmaleah
+-- Log: Neutralized by Fluclo
+
+-- URL: http://wow-pro.com/node/3584/revisions/26698/view
+-- Date: 2014-09-28 22:20
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3584/revisions/26642/view
+-- Date: 2014-08-28 03:37
+-- Who: Emmaleah
+
 local guide = WoWPro:RegisterGuide('IronHordeInvasionH', 'Leveling', 'Blasted Lands', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,90, 90, 90.1)
 WoWPro:GuideNextGuide(guide, 'TheDarkPortal')
@@ -36,7 +59,7 @@ C Lunatic Lieutenants|QID|35750|QO|1/1 Gar's Battleplan|M|60.2,13.8|T|Gar Steelc
 C Ransacking Nethergarde|QID|35761|M|60.6,20|QO|1/1 Overseer Struk's Shield|NC|N|Also lying on the ground.|
 C Ransacking Nethergarde|QID|35761|M|61.83.14.92|NC|N|In the smithy beside Aitokk's body.|
 C Attack on Nethergarde|QID|35751|NC|QO|Flag planted in the center of Nethergarde|M|61.6,18.5|N|Click on the somewhat transparent flag and it will turn into a Horde flag.|
-C Lunatic Lieutenants|QID|35750|M|63.11,13.17|T|Mokrik Blackfingers|N|Mokrik is behind the smithy. Kill him and loot.|
+C Lunatic Lieutenants|QID|35750|M|63.11,13.17|T|Mokrik Blackfingers|N|Mokrik is behind the smithy. Kill him and  loot.|
 C Attack on Nethergarde|QID|35751|M|62.97,22.51|NC|N|Click on the somewhat transparent flag and amazingly, this one will turn into a Horde flag too.|
 T Ransacking Nethergarde|QID|35761|M|48.74,31.88|N|To Okrilla.|
 T Attack on Nethergarde|QID|35751|M|48.73,31.76|N|To Thrall.|
@@ -58,4 +81,3 @@ T Warning the Warchief|QID|36940|M|48.11,70.47|Z|Orgrimmar|N|To Vol'jin.|
 U Iron Starlette|U|110660|N|Add your starlette to your collection. Run the revamped Upper Blackrock Spire while it's tuned for 90's (will be 100 after expansion is released.)|]]
 
 end)
-
