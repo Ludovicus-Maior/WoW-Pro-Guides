@@ -793,6 +793,7 @@ function WoWPro:NextStep(k,i)
 		if WoWPro.rank and WoWPro.rank[k] then
 			if tonumber(WoWPro.rank[k]) > WoWProDB.profile.rank then 
 			    WoWProCharDB.Guide[GID].skipped[k] = true
+			    WoWPro.why[k] = "NextStep(): Step rank is too high."
 			    skip = true
 			end
 		end

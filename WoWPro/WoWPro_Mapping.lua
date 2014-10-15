@@ -453,23 +453,17 @@ function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 	if WoWPro.InitLockdown then return end
+
+	-- Removing old map point --
+	WoWPro:RemoveMapPoint()
+	FinalCoord = nil
 	
 	-- Loading Variables for this step --
 	local i
-	if row then
-	    i = WoWPro.rows[row].index 
+	if row then i = WoWPro.rows[row].index 
 	else 
 		i = WoWPro:NextStepNotSticky(WoWPro.ActiveStep)
 	end
-	
-	-- Removing old map point --
-	if not WoWPro:RemoveMapPoint(i) then
-	    -- return if the MapPoint is current
-	    return
-	end
-	FinalCoord = nil
-
-	
 	local coords; if WoWPro.map then coords = WoWPro.map[i] else coords = nil end
 	local desc = WoWPro.step[i]
 	local zone
@@ -655,16 +649,7 @@ function WoWPro:MapPoint(row)
 			local y = tonumber(jcoord:match(",([^|]*)"))
 			if not x or x > 100 then return end
 			if not y or y > 100 then return end
-			local uid= TomTom:SetCustomMFWaypoint(zc, zi, x, y, desc, false)
-			local waypoint = {}
-			waypoint.uid = uid
-			waypoint.index = i
-			waypoint.zone = zone
-			waypoint.x = x
-			waypoint.y = y
-			waypoint.desc = desc
-			waypoint.j = numcoords-j+1		
-			table.insert(cache, waypoint)
+			table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false))
 			FinalCoord = { x , y }
 		end
 	
@@ -672,31 +657,17 @@ function WoWPro:MapPoint(row)
 	
 end
 
--- return false if index is the current MapPoint
-function WoWPro:RemoveMapPoint(index)
-    local saw_index = false
+function WoWPro:RemoveMapPoint()
 	if TomTom and TomTom.db then
 		for i=1,#cache,1 do
 		    if cache[i].uid ~= nil then
-		        if cache[i].index ~= index then
-			        TomTom:RemoveWaypoint(cache[i].uid)
-			    else
-			        saw_index = true
-			    end
+			    TomTom:RemoveWaypoint(cache[i].uid)
 			end
 		end
 		wipe(cache)
 		wipe(WoWProMapping_callbacks_tomtom.distance)
 	elseif TomTom then
-	    -- Legacy Parsing and mapping coordinates for Carbonite --
-		while cache[1] do
-		    local c = table.remove(cache)
-	        if c[i].index ~= index then
-		        TomTom:RemoveWaypoint(c.uid)
-		    else
-		        saw_index = true
-		    end
-		end
+		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
 	end
 end
 
