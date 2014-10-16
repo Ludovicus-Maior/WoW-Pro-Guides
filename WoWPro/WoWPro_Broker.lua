@@ -200,7 +200,16 @@ end
 local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
 WoWPro.GuideOffset = nil
 function WoWPro.UpdateGuideReal(From)
-	if not WoWPro.GuideFrame:IsVisible() or not WoWPro.GuideLoaded then return end
+    WoWPro:dbp("UpdateGuideReal(): Running")
+	if not WoWPro.GuideFrame:IsVisible() then
+	    -- Cinematic hides things ...
+	    WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
+	    WoWPro:dbp("UpdateGuideReal(): Punting")
+	end
+	if not WoWPro.GuideLoaded then
+	    WoWPro:dbp("UpdateGuideReal(): Hey! No guide, no update.")
+	    return
+	end
 	WoWPro:dbp("Running: UpdateGuideReal()")
 	local GID = WoWProDB.char.currentguide
 	local offset = WoWPro.GuideOffset
