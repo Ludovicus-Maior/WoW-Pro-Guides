@@ -506,8 +506,11 @@ end
 
 
 function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
-    if (not lowerLevel) or (not upperLevel) or (not meanLevel) then
+    if (not lowerLevel) or (not upperLevel) then
         WoWPro:Error("Bad GuideLevels(%s,%s,%s,%s)",guide.GID,tostring(lowerLevel),tostring(upperLevel),tostring(meanLevel))
+    end
+    if not meanLevel then
+        meanLevel = (upperLevel*3.0 + lowerLevel) / 4.0
     end
     guide['startlevel'] = lowerLevel
     guide['endlevel'] = upperLevel
