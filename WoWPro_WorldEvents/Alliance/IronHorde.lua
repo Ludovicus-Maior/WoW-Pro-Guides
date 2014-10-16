@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
+-- Date: 2014-10-17 00:41
+-- Who: Ludovicus
+-- Log: Coord tweaks and changed to a WE guide.
+
+-- URL: http://wow-pro.com/node/3607/revisions/26729/view
 -- Date: 2014-10-15 12:19
 -- Who: Fluclo
 -- Log: Wrong QO for Gar Steelcrush 
@@ -31,20 +36,21 @@
 -- Date: 2014-10-13 01:10
 -- Who: Fluclo
 
-local guide = WoWPro:RegisterGuide('IronHordeInvasionA', 'Leveling', 'Blasted Lands', 'Fluclo', 'Alliance')
+local guide = WoWPro:RegisterGuide('IronHordeInvasionA', 'WorldEvents', 'Blasted Lands', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90, 90, 90.1)
 WoWPro:GuideNextGuide(guide, 'TheDarkPortal')
+WoWPro.WorldEvents:GuideHoliday(guide,"Iron Horde Invasion")
 WoWPro:GuideSteps(guide, function()
 return [[
 
 A Iron Horde Invasion|QID|36498|M|49.69,76.43|N|This quest should auto-accept in Stormwind City, if not, head to your nearest Hero's Call Board.|Z|Stormwind City|M|62.9,71.6|
 F Shattered Beachhead|QID|36498|N|Use the portal in the mage tower of Stormwind City.|M|49.0,87.2|Z|Stormwind City|Z|Stormwind City|ACTIVE|36498|
-f Shattershore|QID|36498|M|67.6,28.0|N|With Araazi.|
-T Iron Horde Invasion|QID|36498|N|To Vindicator Maraad.|M|66.6,28.2|
+f Shattershore|QID|36498|M|67.64,27.97|N|With Araazi.|
+T Iron Horde Invasion|QID|36498|N|To Vindicator Maraad.|M|66.58,28.26|
 
-A Attack of the Iron Horde|QID|35460|N|From Vindicator Maraad.|M|66.6,28.2|
-A Under Siege|QID|35462|NC|N|From Vindicator Maraad.|M|66.6,28.2|
-A Peeking into the Portal|QID|36379|Z|Blasted Lands|N|From Bodrick Grey.|M|66.9,27.9|
+A Attack of the Iron Horde|QID|35460|N|From Vindicator Maraad.|M|66.58,28.26|
+A Under Siege|QID|35462|NC|N|From Vindicator Maraad.|M|66.58,28.26|
+A Peeking into the Portal|QID|36379|Z|Blasted Lands|N|From Bodrick Grey.|M|66.94,27.94|
 
 C Attack of the Iron Horde|QID|35460|M|62.85,31.94|S|N|Kill the grunts in the area as you go about the other two tasks.|
 C Under Siege|QID|35462|M|63.41,33.13|NC|N|Click on the Demolishers to destroy them.|S|
@@ -52,18 +58,18 @@ C Peeking into the Portal|QID|36379|M|61.71,36.67|N|Click on the large contrapti
 C Under Siege|QID|35462|M|63.41,33.13|NC|N|Click on the Demolishers to destroy them.|US|
 C Attack of the Iron Horde|QID|35460|M|62.85,31.94|US|N|Finish up any grunts you still need.|
 
-T Peeking into the Portal|QID|36379|N|To Bodrick Grey.|M|66.9,27.9|
-T Attack of the Iron Horde|QID|35460|N|To Vindicator Maraad.|M|66.6,28.2|
-T Under Siege|QID|35462|N|To Vindicator Maraad.|M|66.6,28.2|
+T Peeking into the Portal|QID|36379|N|To Bodrick Grey.|M|66.94,27.94|
+T Attack of the Iron Horde|QID|35460|N|To Vindicator Maraad.|M|66.58,28.26|
+T Under Siege|QID|35462|N|To Vindicator Maraad.|M|66.58,28.26|
 
-A Subversive Scouts|QID|35463|N|From Vindicator Maraad.|M|66.6,28.2|
-A Ending Executions|QID|35464|N|From Bodrick Grey.|M|66.9,27.9|
+A Subversive Scouts|QID|35463|N|From Vindicator Maraad.|M|66.58,28.26|
+A Ending Executions|QID|35464|N|From Bodrick Grey.|M|66.94,27.94|
 C Subversive Scouts|QID|35463|M|69.84,48.66|N|Kill the Ironmarch Scouts, they are in stealth around the perimeter of the beachhead.|M|66.3,26.3|
 C Ending Executions|QID|35464|M|57.14,32.62|N|Kill the Ironmarch Executioners to release the Nethergarde Prisoners.|
-T Ending Executions|QID|35464|N|To Bodrick Grey.|M|66.9,27.9|
-T Subversive Scouts|QID|35463|N|To Vindicator Maraad.|M|66.6,28.2|
+T Ending Executions|QID|35464|N|To Bodrick Grey.|M|66.94,27.94|
+T Subversive Scouts|QID|35463|N|To Vindicator Maraad.|M|66.58,28.26|
 
-A Investigating the Invasion|QID|36307|N|From Vindicator Maraad.|M|66.6,28.2|
+A Investigating the Invasion|QID|36307|N|From Vindicator Maraad.|M|66.58,28.26|
 T Investigating the Invasion|QID|36307|M|48.73,31.77|N|To Vindicator Maraad, who has moved location.|M|51.9,28.6|
 
 A Lunatic Lieutenants|QID|35486|M|48.74,31.78|N|From Vindicator Maraad.|M|51.9,28.6|

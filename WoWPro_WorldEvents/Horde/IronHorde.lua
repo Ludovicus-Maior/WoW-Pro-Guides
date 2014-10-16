@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3584
+-- Date: 2014-10-17 00:42
+-- Who: Ludovicus
+-- Log: Chnage to a WE guide.
+
+-- URL: http://wow-pro.com/node/3584/revisions/26726/view
 -- Date: 2014-10-15 00:44
 -- Who: Ludovicus
 -- Log: CHanged guide name to IronHordeInvasionH and make names conform with Alliance version.
@@ -21,9 +26,10 @@
 -- Date: 2014-08-28 03:37
 -- Who: Emmaleah
 
-local guide = WoWPro:RegisterGuide('IronHordeInvasionH', 'Leveling', 'Blasted Lands', 'Emmaleah', 'Horde')
+local guide = WoWPro:RegisterGuide('IronHordeInvasionH', 'WorldEvents', 'Blasted Lands', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,90, 90, 90.1)
 WoWPro:GuideNextGuide(guide, 'TheDarkPortal')
+WoWPro.WorldEvents:GuideWorldEvent(guide,"Iron Horde Invasion")
 WoWPro:GuideSteps(guide, function()
 return [[
 

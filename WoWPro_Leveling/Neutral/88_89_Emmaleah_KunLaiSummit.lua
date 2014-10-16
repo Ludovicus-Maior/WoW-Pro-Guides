@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2014-10-16 18:17
+-- Who: Fluclo
+-- Log: Correcting coords for Stolen Sprite Treasure
+
+-- URL: http://wow-pro.com/node/3490/revisions/26575/view
 -- Date: 2014-07-07 19:30
 -- Who: Fluclo
 -- Log: Corrected QID for Forgotten Lockbox to allow auto-completion, and added Zone for Hatescale Burrow to allow correct placement of navigation point.
@@ -501,7 +506,7 @@ R Howlingwind Cavern|QID|30618|M|59.16,53.24|N|Head up the Howlingwind Trail to 
 C They Stole My Luck!|QID|30621|M|57.77,49.30|S|N|Kill and loot the Mischievous Snow Sprites. Walking over the Suspicious Snow Pile will reveal one.|
 C Resupplying One Keg|QID|30618|M|56.33,50.88|S|NC|N|Collect the Stolen Supplies from the ground inside the cavern.|NC|
 C Instant Courage|QID|30601|S|M|57.54,47.44|N|These guys are hiding in their baskets, tell them its safe to come out by chatting, or use the Fire Lotus Incense near them.|CHAT|
-l Stolen Sprite Treasure|QID|31415|M|56.82,48.9|N|*High Value Rare Loot*\nOnce inside the cavern, press M to get your bearings on the route needed. The coordinate shows the exact location, this item is an instant respawn so no need to compete with others to get it. When you get to a fork with an up or down path, take the up path.\nWorth over 104 gold and over 500,000 XP.|Rank|3|
+l Stolen Sprite Treasure|QID|31415|M|56.79,48.99|N|*High Value Rare Loot*\nOnce inside the cavern, press M to get your bearings on the route needed. The coordinate shows the exact location, this item is an instant respawn so no need to compete with others to get it. When you get to a fork with an up or down path, take the up path.\nWorth over 104 gold and over 500,000 XP.|Rank|3|
 C Instant Courage|QID|30601|US|M|57.54,47.44|N|These guys are hiding in their baskets, tell them its safe to come out by chatting, or use the Fire Lotus Incense near them.|CHAT|
 C Resupplying One Keg|QID|30618|M|56.33,50.88|US|NC|N|Finish collecting the Stolen Supplies from the ground inside the cavern.|
 C They Stole My Luck!|QID|30621|M|57.77,49.30|US|N|Finish killing and looting the Mischievous Snow Sprites. Walking over the Suspicious Snow Pile will reveal one.|
