@@ -8,14 +8,19 @@ WoWPro.WorldEvents.GuideList = {}
 local guides = {}
 
 local function AddInfo(guide)
-    if not guide.holiday then
+    -- If no holiday is specified, the category better be!
+    if not guide.holiday and  not guide.category then
         WoWPro.WorldEvents:Error("Guide %s: missing holiday",guide.GID)
         guide.name = "Unknown"
         guide.category = ""
         return
     end
-    guide.name = guide.holiday
-    guide.category = ""
+    if not guide.name then
+        guide.name = guide.holiday
+    end
+    if not guide.category then
+        guide.category = ""
+    end
 end
 
 local function Init()
