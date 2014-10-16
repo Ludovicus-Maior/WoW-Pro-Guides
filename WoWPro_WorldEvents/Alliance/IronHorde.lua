@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
+-- Date: 2014-10-15 12:19
+-- Who: Fluclo
+-- Log: Wrong QO for Gar Steelcrush 
+
+-- URL: http://wow-pro.com/node/3607/revisions/26728/view
+-- Date: 2014-10-15 12:14
+-- Who: Fluclo
+-- Log: Missing |
+
+-- URL: http://wow-pro.com/node/3607/revisions/26722/view
 -- Date: 2014-10-13 01:38
 -- Who: Fluclo
 -- Log: typo
@@ -61,14 +71,14 @@ A For Nethergarde! |QID|35492|N|From Vindicator Maraad.|M|51.9,28.6|
 A Mementos of the Fallen |QID|35494|N|From Commander Vines|M|52.0,28.5|
 
 C Lunatic Lieutenants|QID|35486|QO|2|N|Kill Rukah and loot the Battleplan|M|57.1,18.2|
-C Mementos of the Fallen |QID|35494|QO|3N|Loot Keri's Mug|NC|M|59.3,18.0|
+C Mementos of the Fallen |QID|35494|QO|3|N|Loot Keri's Mug|NC|M|59.3,18.0|
 C Mementos of the Fallen |QID|35494|QO|2|N|Loot Krolan's Shield|NC|M|60.6,20.0|
 C For Nethergarde! |QID|35492|QO|1|N|Plant the flag at Nethegarde entrance|NC|M|62.9,22.5|
 C For Nethergarde! |QID|35492|QO|2|N|Plant the flag in the center of Nethergarde|NC|M|61.6,18.6|
 C Mementos of the Fallen |QID|35494|QO|1|N|Loot Strumner's Sword (inside the hut)|NC|M|61.8,15.0|
 C Lunatic Lieutenants|QID|35486|QO|1|N|Kill Mokrik Blackfingers and loot the Battleplan|M|62.9,13.1|
 C For Nethergarde! |QID|35492|QO|3|N|Plant the flag outside of the main keep|NC|M|59.9,15.9|
-C Lunatic Lieutenants|QID|35486|QO|1|N|Kill Gar Steelcrush and loot the Battleplan. He can be found inside the main keep upstairs in the command room.|
+C Lunatic Lieutenants|QID|35486|QO|3|N|Kill Gar Steelcrush and loot the Battleplan. He can be found inside the main keep upstairs in the command room.|
 
 T Mementos of the Fallen |QID|35494|N|From Commander Vines|M|52.0,28.5|
 T Lunatic Lieutenants|QID|35486|M|48.74,31.78|N|From Vindicator Maraad.|M|51.9,28.6|
