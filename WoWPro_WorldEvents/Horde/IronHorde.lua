@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3584
+-- Date: 2014-10-17 22:47
+-- Who: Ludovicus
+-- Log: Orgrimmar zone tags were wrong, changed F step and changed a US into an S.
+--	Still Testing!
+
+-- URL: http://wow-pro.com/node/3584/revisions/26733/view
 -- Date: 2014-10-17 00:42
 -- Who: Ludovicus
 -- Log: Chnage to a WE guide.
@@ -33,14 +39,14 @@ WoWPro.WorldEvents:GuideWorldEvent(guide,"Iron Horde Invasion")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Iron Horde Invasion|QID|36499|M|49.69,76.43|Z|Orgrimmar|
-C Iron Horde Invasion|QID|36499|NC|M|49.3,76.8|Z|Orgrimmar|N|Click on the Portal outside Garrosh's former "throne room".|
+A Iron Horde Invasion|QID|36499|M|49.69,76.43|Z|Orgrimmar@Orgrimmar|
+F Shattered Landing|QID|36499|NC|M|47.15,62.02|Z|Cleft of Shadow@Orgrimmar|N|Click on the Portal in the drag.|
 f Shattered Landing|QID|36499|M|72.95,48.58|Z|Blasted Lands|N|At Ameri Windblade.|
 A Peeking into the Portal|QID|36382|M|71.88,48.97|Z|Blasted Lands|N|From Rokhan.|
 T Iron Horde Invasion|QID|36499|M|71.81,47.72|Z|Blasted Lands|N|To Thrall.|
 A Attack of the Iron Horde|QID|35745|M|71.81,47.72|Z|Blasted Lands|N|From Thrall.|
 A Under Siege|QID|35746|NC|M|71.81,47.72|Z|Blasted Lands|N|From Thrall.|
-C Attack of the Iron Horde|QID|35745|M|62.85,31.94|US|N|Kill the grunts in the area as you go about the other two tasks.|
+C Attack of the Iron Horde|QID|35745|M|62.85,31.94|S|N|Kill the grunts in the area as you go about the other two tasks.|
 C Under Siege|QID|35746|M|63.41,33.13|NC|N|Click on the Demolishers to destroy them.|
 C Peeking into the Portal|QID|36382|M|61.71,36.67|N|Click on the large contraption on the top of the hill.|
 C Attack of the Iron Horde|QID|35745|M|62.85,31.94|US|N|Finish up any grunts you still need.|
