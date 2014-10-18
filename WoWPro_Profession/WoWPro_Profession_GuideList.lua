@@ -16,6 +16,7 @@ for guidID,guide in pairs(WoWPro.Guides) do
 	    end	
 		table.insert(guides, {
 			GID = guidID,
+			guide = guide,
 			Zone = guide.zone,
 			Name = guide.name,
 			Author = guide.author,
