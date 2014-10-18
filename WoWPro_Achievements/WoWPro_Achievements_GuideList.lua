@@ -15,7 +15,7 @@ function WoWPro.Achievements.Scrape()
         local name, parentID, flags = GetCategoryInfo(cid)
         WoWProDB.global.Achievements.Category[cid] = { ['name'] = name, ['parentID'] = parentID}
     end
-    for cid, cinfo in pairs(ArmoryScraperDB['Categories']) do
+    for cid, cinfo in pairs(WoWProDB.global.Achievements.Category) do
         local numItems, numCompleted = GetCategoryNumAchievements(cid)
         for index = 1,numItems do
             local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(cid, index)
