@@ -565,7 +565,7 @@ function WoWPro:MapPoint(row)
     		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
 		
 		-- Parsing and mapping coordinates --
-		WoWPro:dbp("WoWPro:MapPoint1(%s@%s/%s)",coords,tostring(zone),tostring(zm))
+		WoWPro:dbp("WoWPro:MapPoint1(%s@%s=%s/%s)",coords,tostring(zone),tostring(zm),tostring(zf))
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
 			local waypoint = {}
