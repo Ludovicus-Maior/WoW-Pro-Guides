@@ -28,7 +28,6 @@ Libraries\LibBabble-Zone-3.0\lib.xml
 WoWPro.lua
 WoWPro_Widgets.lua
 WoWPro_Localization.lua
-WoWPro_Events.lua
 WoWPro_CurrentGuide.lua
 WoWPro_GuideList.lua
 WoWPro_Frames.lua
@@ -36,6 +35,7 @@ WoWPro_Config.lua
 WoWPro_Zones.lua
 WoWPro_Mapping.lua
 WoWPro_Broker.lua
+WoWPro_Events.lua
 WoWPro_NilGuide.lua
 WoWPro_Parser.lua
 WoWPro_Trade.lua
