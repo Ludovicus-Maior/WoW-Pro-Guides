@@ -614,10 +614,10 @@ function WoWPro.NextStep(k,i)
 			    elseif replvl == "nobonus" then
 			        replvl = false
 			    else
-			        self:Error("Bad [%s] replvl [%s] found.  Defaulting to 0",rep,replvl)
+			        WoWPro:Error("Bad [%s] replvl [%s] found.  Defaulting to 0",rep,replvl)
 			        replvl = 0
 			    end
-			    self:dbp("Special replvl converted to %s",tostring(replvl))
+			    WoWPro:dbp("Special replvl converted to %s",tostring(replvl))
 			else
 			    replvl = tonumber(replvl) or 0
 			end
@@ -625,20 +625,20 @@ function WoWPro.NextStep(k,i)
 
             -- Extract lower bound rep
             if not Rep2IdAndClass[repID] then
-                self:Error("Bad lower REP value of [%s] found in [%s].  Defaulting to 1.",temprep,WoWPro.rep[k])
+                WoWPro:Error("Bad lower REP value of [%s] found in [%s].  Defaulting to 1.",temprep,WoWPro.rep[k])
                 repID = 0
             end                
             Friendship = Rep2IdAndClass[repID][2]
             repID = Rep2IdAndClass[repID][1]
             if not repID then
-                self:Error("Bad lower REP value of [%s] found in [%s].  Defaulting to 1.",temprep,WoWPro.rep[k])
+                WoWPro:Error("Bad lower REP value of [%s] found in [%s].  Defaulting to 1.",temprep,WoWPro.rep[k])
                 repID = 0
             end
 
             -- Extract upper bound rep
             repmax = Rep2IdAndClass[repmax][1]
             if not repmax then
-                self:Error("Bad upper REP value of [%s] found.  Defaulting to 5.",temprep)
+                WoWPro:Error("Bad upper REP value of [%s] found.  Defaulting to 5.",temprep)
                 repmax = 5
             end
 
@@ -653,10 +653,10 @@ function WoWPro.NextStep(k,i)
 			    standingId = Rep2IdAndClass[friendTextLevel][1]
 			    earnedValue = friendRep - friendThreshold
 			    bottomValue = 0
-			    self:dbp("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
+			    WoWPro:dbp("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
 			else
 			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild , _, hasBonusRepGain = GetFactionInfoByID(factionIndex)
-                self:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s",name,standingId,earnedValue,bottomValue,tostring(hasBonusRepGain))
+                WoWPro:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s",name,standingId,earnedValue,bottomValue,tostring(hasBonusRepGain))
                 earnedValue = earnedValue - bottomValue
 			end
 
@@ -665,7 +665,7 @@ function WoWPro.NextStep(k,i)
                     skip = false
                     WoWPro.why[k] = "NextStep(): RepStep no skip on bonus"
                 end
-                self:dbp("Special replvl %s vs hasBonusRepGain %s, skip is %s",tostring(replvl),tostring(hasBonusRepGain),tostring(skip))
+                WoWPro:dbp("Special replvl %s vs hasBonusRepGain %s, skip is %s",tostring(replvl),tostring(hasBonusRepGain),tostring(skip))
             end 
 
 			if type(replvl) == "number" and (repID <= standingId) and (repmax >= standingId) and (replvl == 0) then
@@ -674,12 +674,12 @@ function WoWPro.NextStep(k,i)
 			end
 			if type(replvl) == "number" and (replvl > 0) then
 				if (repID < standingId) then
-				    self:dbp("** [%s] Spec %s repID %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repID), tostring(standingId))
+				    WoWPro:dbp("** [%s] Spec %s repID %s > standingId %s: noskip", WoWPro.step[k],WoWPro.rep[k],tostring(repID), tostring(standingId))
 				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
 					skip = false 
 				end
 				if (repID == standingId) and (earnedValue >= replvl) then
-				    self:dbp("** [%s] Spec %s earnedValue %d >= replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
+				    WoWPro:dbp("** [%s] Spec %s earnedValue %d >= replvl %d: noskip", WoWPro.step[k],WoWPro.rep[k],earnedValue,replvl)
 				    WoWPro.why[k] = "NextStep(): RepStep no skip on " .. WoWPro.rep[k]
                     skip = false
 				end
@@ -700,7 +700,7 @@ function WoWPro.NextStep(k,i)
     		if achitem == "" then achitem = nil end
     		if count == 0 or not achitem then
     			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(achnum)
-    			self:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
+    			WoWPro:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
     			if achflip then wasEarnedByMe = not wasEarnedByMe end
                 if wasEarnedByMe then
                     if not achflip then
@@ -713,7 +713,7 @@ function WoWPro.NextStep(k,i)
 			    end 
     		elseif (count > 0) and achitem then
     			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-    			self:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
+    			WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
     			if achflip then completed = not completed end
 			    if completed then
 			        if not achflip then
@@ -1065,7 +1065,7 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
         -- is it a QID list?
         local quids = select("#", string.split(";", qid))
         if (not quids) or quids == 1 then 
-            self:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
+            WoWPro:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
             return false;
         else
             -- Yup, return true if any are complete
@@ -1073,7 +1073,7 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
     			local jquid = select(quids-j+1, string.split(";", qid))
                 jquid = tonumber(jquid)
                 if not jquid then
-                    self:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
+                    WoWPro:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
                     return false;
                 end
                 if WoWPro:IsQuestFlaggedCompleted(jquid,force) then
