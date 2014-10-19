@@ -40,90 +40,6 @@ WoWPro.actionlabels = {
 	r = "Repair/Restock"
 }
 
--- Determine Next Active Step (Leveling Module Specific)--
--- This function is called by the main NextStep function in the core broker --
-function WoWPro:NextStepX(k, skip)
-	local GID = WoWProDB.char.currentguide
-	local myFaction = strupper(UnitFactionGroup("player"))
-
-    if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi[WoWPro.step[k]] then
-        WoWPro.why[k] = "Completed by WoWPro:NextStepX because flight point was already known."
-	    WoWPro.CompleteStep(k)
-	    skip = true
-	end
-
-	-- Skip Faction qualified steps 
-	if WoWPro.faction[k] then
-		if myFaction == "NEUTRAL" then
-			-- While Neutral, punt on permanent skipping
-			WoWPro.why[k] = "Temporaily skipped becuase your faction is neutral."
-			skip = true
-		else
-			if WoWPro.faction[k] ~= myFaction then
-				-- Now that we have made up our minds, skip the ones that do not match.
-				WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true -- Mark the quests NOT the steps as skipped or we get funny results on reload.
-				skip = true
-			end
-		end
-	end
-	-- 
-
-	-- Optional Quests --
-	if WoWPro.optional[k] and WoWPro.QID[k] then 
-		
-		-- Checking Quest Log --
-		if WoWPro.QuestLog[WoWPro.QID[k]] then
-		    WoWPro.why[k] = "Optional quest not skipped because it is in the QuestLog."
-		end
-		
-		-- Checking Prerequisites --
-		if WoWPro.prereq[k] then
-			skip = false -- defaulting to NOT skipped
-			
-			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-			for j=1,numprereqs do
-				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-				if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
-					skip = true -- If one of the prereqs is NOT complete, step is skipped.
-					WoWPro.why[k] = "Quest temporarily kipped because of of the PREREQs not completed."
-				end
-			end
-		end
-
-	end
-	
-	-- Skipping quests with prerequisites if their prerequisite was skipped --
-	if WoWPro.prereq[k] 
-	and not WoWProCharDB.Guide[GID].skipped[k] 
-	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then 
-		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-		for j=1,numprereqs do
-			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-			if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
-				skip = true
-				-- If their prerequisite has been skipped, skipping any dependant quests --
-				if WoWPro.action[k] == "A" 
-				or WoWPro.action[k] == "C" 
-				or WoWPro.action[k] == "T" then
-					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
-					WoWProCharDB.Guide[GID].skipped[k] = true
-				else
-					WoWProCharDB.Guide[GID].skipped[k] = true
-				end
-			end
-		end
-	end
-			
-	-- Module NextStep Handlers --
-	if WoWProDB.char.currentguide and
-	   WoWPro.Guides[WoWProDB.char.currentguide] and
-	   WoWPro.Guides[WoWProDB.char.currentguide].guidetype and
-	   WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype].NextStep then
-	    skip = WoWPro[WoWPro.Guides[WoWProDB.char.currentguide].guidetype]:NextStep(k,skip)
-	end
-					
-	return skip
-end
 
 -- Skip a step --
 function WoWPro:SkipStep(index)
@@ -578,7 +494,7 @@ function WoWPro:RowUpdate(offset)
 		
 		-- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
 		if not WoWProDB.profile.guidescroll then
-			k = WoWPro:NextStep(k, i)
+			k = WoWPro.NextStep(k, i)
 		end
 
 				
