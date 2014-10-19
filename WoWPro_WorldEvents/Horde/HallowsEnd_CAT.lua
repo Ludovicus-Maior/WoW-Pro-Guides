@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-19 18:03
+-- Who: Ludovicus
+-- Log: Set guide titles for Hallow's End guides.  Corrected Zones.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26692/view
 -- Date: 2014-09-27 22:25
 -- Who: Ludovicus
 
@@ -101,9 +106,9 @@
 -- Date: 2011-10-28 08:03
 -- Who: Crackerhead22
 
-local guide = WoWPro:RegisterGuide("LudoHallowCAT",'WorldEvents',"Hallow's End", "Ludovicus", "Horde")
+local guide = WoWPro:RegisterGuide("LudoHallowCAT",'WorldEvents',"Cataclysm", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Cataclysm")
 WoWPro:GuideSteps(guide, function()
 return [[
 

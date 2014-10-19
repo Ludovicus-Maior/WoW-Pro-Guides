@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-10-19 16:50
+-- Who: Ludovicus
+-- Log: Corrected guide registration for Hallow's End Alliance guides.
+--	Boy I messed them up!
+
+-- URL: http://wow-pro.com/node/3440/revisions/26542/view
 -- Date: 2014-06-13 00:20
 -- Who: Ludovicus
 -- Log: Missing quote
@@ -101,9 +107,9 @@
 -- Date: 2011-10-28 08:00
 -- Who: Crackerhead22
 
-local guide = WoWPro:RegisterGuide("TwiHollNor",'WorldEvents',"Hallow's End", "Twists", "Alliance")
+local guide = WoWPro:RegisterGuide("TwiHollNor",'WorldEvents',"Northrend", "Twists", "Alliance")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd","Hallow's End - Northrend")
 WoWPro:GuideSteps(guide, function()
 return [[
 

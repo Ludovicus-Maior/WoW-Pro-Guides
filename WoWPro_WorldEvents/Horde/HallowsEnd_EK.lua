@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-19 18:03
+-- Who: Ludovicus
+-- Log: Set guide titles for Hallow's End guides.  Corrected Zones.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26692/view
 -- Date: 2014-09-27 22:25
 -- Who: Ludovicus
 
@@ -103,11 +108,11 @@
 
 local guide = WoWPro:RegisterGuide("LudoHallowEK",'WorldEvents',"Eastern Kingdom", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Eastern Kingdom" )
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Wall of Text Part 1 of 2|QID|12369|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievements "Tricks and Treats of...".
+N Wall of Text Part 1 of 2|QID|12369|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hallows End achievements "Tricks and Treats of...".
 N Wall of Text Part 2 of 2|QID|12369|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
 
 N This section starts...|QID|12369|N|In Silvermoon City, so head to Undercity and take the portal to Silvermoon City.|

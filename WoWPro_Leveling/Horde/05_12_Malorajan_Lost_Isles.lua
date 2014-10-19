@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-10-19 13:06
+-- Who: Fluclo
+-- Log: Kezan: Updated the |QO| tags throughout due to the new formatting; removed dismount instruction from Necessary Roughness (you now auto-dismount); couple note tweaks.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26483/view
 -- Date: 2014-06-02 22:17
 -- Who: Ludovicus
 -- Log: Added Icons
