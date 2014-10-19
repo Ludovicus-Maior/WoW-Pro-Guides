@@ -299,7 +299,7 @@ function WoWPro:UpdateQuestTracker()
 		local lootitem = WoWPro.lootitem[index]
 		local step = WoWPro.step[index] 
 		local lootqty = WoWPro.lootqty[index] 
-		local QID = tonumber(WoWPro.QID[index])
+		local QID = WoWPro.QID[index]
 		local track = ""
 		
 		if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
@@ -313,41 +313,43 @@ function WoWPro:UpdateQuestTracker()
         if action then
             WoWPro:dbp("profile.track=%s action=%s questtext=%s lootitem=%s",tostring(WoWProDB.profile.track),tostring(action),tostring(questtext),tostring(lootitem))		
         end
-		if WoWProDB.profile.track and ( action == "C" or questtext or lootitem) then
-		    WoWPro:dbp("AA");		    
-			if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard then
-			    WoWPro:dbp("BB");
-				local j = WoWPro.QuestLog[QID].index
+		if WoWProDB.profile.track and ( action == "C" or questtext or lootitem) then	    
+			if QID and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and WoWPro:QIDsInTable(QID,WoWPro.QuestLog,'leaderBoard') then
+			    local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
+				local j = WoWPro.QuestLog[qid].index
 				row.trackcheck = true
 				if not questtext and action == "C" then
-					if WoWPro.QuestLog[QID].leaderBoard[1] then
-						track = "- "..WoWPro.QuestLog[QID].leaderBoard[1]
+				    -- no QO tag specified, lets set something up
+				    WoWPro:dbp("UQT: QID %d active, but no QO tag, lets make something up.", qid)
+					if WoWPro.QuestLog[qid].leaderBoard[1] then
+						track = "- "..WoWPro.QuestLog[qid].leaderBoard[1]
 						if select(3,GetQuestLogLeaderBoard(1, j)) then
 							track =  track.." (C)"
 						end
 					end
-					for l=1,#WoWPro.QuestLog[QID].leaderBoard do 
+					for l=1,#WoWPro.QuestLog[qid].leaderBoard do 
 						if l > 1 then
-							if WoWPro.QuestLog[QID].leaderBoard[l] then
-								track = track.."\n- "..WoWPro.QuestLog[QID].leaderBoard[l]
+							if WoWPro.QuestLog[qid].leaderBoard[l] then
+								track = track.."\n- "..WoWPro.QuestLog[qid].leaderBoard[l]
 								if select(3,GetQuestLogLeaderBoard(l, j)) then
 									track =  track.." (C)"
 								end
 							end
 						end
 					end
-				elseif questtext then --Partial completion steps only track pertinent objective.
-				    WoWPro:dbp("CC");
+				elseif questtext then
+				    --Partial completion steps only track pertinent objective.
+				    WoWPro:dbp("UQT: QID %d active and QO tag of [%s]", qid, questtext)
 					local numquesttext = select("#", string.split(";", questtext))
 					for l=1,numquesttext do
 						local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
 						if tonumber(lquesttext) then
-						    if WoWPro.QuestLog[QID].leaderBoard[tonumber(lquesttext)] then
-						        track = "- " .. WoWPro.QuestLog[QID].leaderBoard[tonumber(lquesttext)]
+						    if WoWPro.QuestLog[qid].leaderBoard[tonumber(lquesttext)] then
+						        track = "- " .. WoWPro.QuestLog[qid].leaderBoard[tonumber(lquesttext)]
 						    else
 						        track = "- " .. "?"
 						    end
-						    if WoWPro.QuestLog[QID].ocompleted[tonumber(lquesttext)] then
+						    if WoWPro.QuestLog[qid].ocompleted[tonumber(lquesttext)] then
 						        track =  track.." (C)"
 						    end
 						else
@@ -373,7 +375,7 @@ function WoWPro:UpdateQuestTracker()
 			end
 		end
         if action then
-		    WoWPro:dbp("Setting track text for %s [%s] to '%s'",tostring(action),tostring(step),track)
+		    WoWPro:dbp("UQT: Track Text for %s [%s] to '%s'",tostring(action),tostring(step),track)
 		end
 		row.track:SetText(track)
 	end
