@@ -34,7 +34,7 @@ local function QidMapReduce(list,default,or_string,and_string,func)
 	    end
         if do_or and val then
 --          WoWPro:dbp("QidMapReduce: do_or return true")
-            return true
+            return val
         end
         
         if do_and and not val then
@@ -48,13 +48,25 @@ end
     
                     
 
--- See if any of the list of QUIDs are in the indicated table.
+-- See if any of the list of QIDs are in the indicated table.
 function WoWPro:QIDsInTable(QIDs,tabla)
 --    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
     return QidMapReduce(QIDs,false,";","&",function (qid) return tabla[qid] end)
 end
 
--- See if all of the list of QUIDs are in the indicated table.
+-- See if any of the list of QIDs are in the indicated table and return the first
+function WoWPro:QIDInTable(QIDs,tabla)
+--    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
+    return QidMapReduce(QIDs,false,";","&",function (qid) return tabla[qid] and qid end)
+end
+
+-- See if any of the list of QIDs are in the indicated table, return a subkey
+function WoWPro:QIDsInTableKey(QIDs,tabla,key)
+--    WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",QIDs,tostring(tabla))
+    return QidMapReduce(QIDs,false,";","&",function (qid) return tabla[qid] and tabla[qid][key] end)
+end
+
+-- See if all of the list of QIDs are in the indicated table.
 function WoWPro:AllIDsInTable(IDs,tabla)
     return QidMapReduce(IDs,false,"&",";",function (qid) return tabla[qid] end)
 end
@@ -235,7 +247,7 @@ function WoWPro.UpdateGuideReal(From)
 	if not module or not module:IsEnabled() then return end
 	
 	-- Finding the active step in the guide --
-	WoWPro.ActiveStep = WoWPro:NextStep(1)
+	WoWPro.ActiveStep = WoWPro.NextStep(1)
 	if WoWPro.Recorder then
 	    WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
 	end
@@ -342,11 +354,11 @@ Rep2IdAndClass = {  ["hated"] = {1,false},
 			
 -- Next Step --    			
 -- Determines the next active step --
-function WoWPro:NextStep(k,i)
+function WoWPro.NextStep(k,i)
 	local GID = WoWProDB.char.currentguide
 	if not k then k = 1 end --k is the position in the guide
 	if not i then i = 1 end --i is the position on the rows
-	WoWPro:dbp("Called WoWPro:NextStep(%d,%d)",k,i)
+	WoWPro:dbp("Called WoWPro.NextStep(%d,%d)",k,i)
 	local skip = true
 	-- The "repeat ... break ... until true" hack is how you do a continue in LUA!  http://lua-users.org/lists/lua-l/2006-12/msg00444.html
 	while skip do repeat
@@ -415,7 +427,7 @@ function WoWPro:NextStep(k,i)
     	-- Skipping quests with prerequisites if their prerequisite was skipped --
     	if WoWPro.prereq[k] 
     	and not WoWProCharDB.Guide[GID].skipped[k] 
-    	and not WoWProCharDB.skippedQIDs[QID] then 
+    	and not WoWPro:QIDsInTable(QID,WoWProCharDB.skippedQIDs) then 
     		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
     		for j=1,numprereqs do
     			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
@@ -427,6 +439,7 @@ function WoWPro:NextStep(k,i)
     				if WoWPro.action[k] == "A" 
     				or WoWPro.action[k] == "C" 
     				or WoWPro.action[k] == "T" then
+    				    -- LFO: Questionable, needs review
     					WoWProCharDB.skippedQIDs[QID] = true
     					WoWProCharDB.Guide[GID].skipped[k] = true
     				else
@@ -451,17 +464,19 @@ function WoWPro:NextStep(k,i)
         end
 
         -- Partial Completion --
-        if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[k] 
-        and not WoWProCharDB.Guide[GID].completion[k] then 
+        if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and WoWPro:QIDsInTable(QID,WoWPro.QuestLog,'leaderBoard') and WoWPro.questtext[k] 
+        and not WoWProCharDB.Guide[GID].completion[k] then
+            local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
+            WoWPro:Print("LFO: qid is %s",tostring(qid))
 	        local numquesttext = select("#", string.split(";", WoWPro.questtext[k]))
 	        local complete = true
 	        for l=1,numquesttext do
 		        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[k]))
 		        local lcomplete = false
 		        if tonumber(lquesttext) then
-		            lcomplete = WoWPro.QuestLog[QID].ocompleted[tonumber(lquesttext)]
+		            lcomplete = WoWPro.QuestLog[qid].ocompleted[tonumber(lquesttext)]
 		        else
-    		        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
+    		        for _, objective in pairs(WoWPro.QuestLog[qid].leaderBoard) do --Checks each of the quest log objectives
     			        if lquesttext == objective then --if the objective matches the step's criteria, mark true
     				        lcomplete = true
     			        end
@@ -569,6 +584,7 @@ function WoWPro:NextStep(k,i)
 				    -- If they do not have the profession, mark the step and quest as skipped
 				    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
 				    WoWProCharDB.Guide[GID].skipped[k] = true
+				    -- LFO: Questionable, needs review
 				    WoWProCharDB.skippedQIDs[QID] = true
 				    WoWPro:dbp("Prof permaskip qid %s for no %s",WoWPro.QID[k],prof)
 				    break
@@ -671,6 +687,7 @@ function WoWPro:NextStep(k,i)
 			-- Mark quests as skipped that we will assume will NEVER be done.
 			if WoWPro.action[k] == "A" and standingId < 3 and repID > 3 and skip then
 			    WoWProCharDB.Guide[GID].skipped[k] = true
+			    -- LFO: Questionable, needs review.
 			    WoWProCharDB.skippedQIDs[QID] = true
 			end
         end
@@ -859,12 +876,12 @@ end
 
 -- Next Step Not Sticky --
 -- Determines the next active step that isn't a sticky step (for mapping) --
-function WoWPro:NextStepNotSticky(k)
+function WoWPro.NextStepNotSticky(k)
 	if not k then k = 1 end
 	local sticky = true
 	while sticky do 
 		sticky = false
-		k = WoWPro:NextStep(k)
+		k = WoWPro.NextStep(k)
 		if WoWPro.sticky[k] then 
 			sticky = true
 			k = k + 1
