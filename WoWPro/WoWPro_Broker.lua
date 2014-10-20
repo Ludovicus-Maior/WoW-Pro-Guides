@@ -466,8 +466,8 @@ function WoWPro.NextStep(k,i)
         -- Partial Completion --
         if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and WoWPro:QIDsInTable(QID,WoWPro.QuestLog,'leaderBoard') and WoWPro.questtext[k] 
         and not WoWProCharDB.Guide[GID].completion[k] then
-            local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
-            WoWPro:Print("LFO: qid is %s",tostring(qid))
+                local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
+                -- WoWPro:Print("LFO: qid is %s",tostring(qid))
 	        local numquesttext = select("#", string.split(";", WoWPro.questtext[k]))
 	        local complete = true
 	        for l=1,numquesttext do
