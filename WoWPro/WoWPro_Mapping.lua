@@ -460,9 +460,10 @@ function WoWPro:MapPoint(row)
 	
 	-- Loading Variables for this step --
 	local i
-	if row then i = WoWPro.rows[row].index 
+	if row then
+	    i = WoWPro.rows[row].index 
 	else 
-		i = WoWPro:NextStepNotSticky(WoWPro.ActiveStep)
+		i = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
 	end
 	local coords; if WoWPro.map then coords = WoWPro.map[i] else coords = nil end
 	local desc = WoWPro.step[i]
