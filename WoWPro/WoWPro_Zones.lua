@@ -603,6 +603,10 @@ DefineTerrain(7, 7, 941,3,"Floor3@Bladespire Fortress")
 DefineTerrain(7, 7, 941,4,"Floor4@Bladespire Fortress")
 DefineTerrain(7, 7, 941,8,"Grulloc's Lair")
 DefineInstance(1011,0,"Warspear")
+DefineTerrain(2,50, 614,0,"Abyssal Depths")
+DefineTerrain(2,51, 615,0,"Shimmering Expanse")
+DefineTerrain(2,51, 610,0,"Kelp'thar Forest")
+
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
