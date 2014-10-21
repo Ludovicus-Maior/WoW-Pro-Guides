@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-21 08:32
+-- Who: Dez
+-- Log: In Eastern Kingdoms: Added steps to speak to Zidormi going in and out of Blasted Lands, fixed a typo.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26747/view
+-- Date: 2014-10-21 06:02
+-- Who: Dez
+-- Log: In Kalimdor: Cenarion Wildlands FP renamed to Karnum's Glade.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26739/view
 -- Date: 2014-10-19 18:03
 -- Who: Ludovicus
 -- Log: Set guide titles for Hallow's End guides.  Corrected Zones.
@@ -169,10 +179,13 @@ F Bogpaddle|M|41.06,68.79|QID|28967|Z|Searing Gorge|U|37586|N|Fly to Bogpaddle, 
 A Candy Bucket|QID|28967|M|71.69,14.10|Z|Swamp of Sorrows|N|Cap'n Geech, Bogpaddle|
 F Stonard|M|72.02,12.04|QID|12384|Z|Swamp of Sorrows|U|37586|N|Fly to Stonard, Swamp of Sorrows.|
 A Candy Bucket|QID|12384|M|46.88,56.91|Z|Swamp of Sorrows|N|Innkeeper Karakul, Stonard|
-F Dreadmaul Hold|M|47.78,55.22|QID|28959|Z|Swamp of Sorrows|U|37586|N|Fly to Dreadmaul Hold, Blasted Lands.|
+R Zidormi|QID|28959|M|48.16,7.29|N|Must speak to Zidormi, just SW of the entrance to the Blasted Lands from Swamp of Sorrows, to revert to a pre-invasion time. Manually check this step off.|Z|Blasted Lands|
+R Dreadmaul Hold|M|47.78,55.22|QID|28959|Z|Swamp of Sorrows|U|37586|N|Run to Dreadmaul Hold, Blasted Lands.|
 A Candy Bucket|QID|28959|M|40.47,11.29|Z|Blasted Lands|N|Innkeeper Grak, Dreadmaul Hold|
-F Grom'gol Base Camp|M|43.71,14.25|QID|12382|Z|Blasted Lands|U|37586|N|Fly to Grom'gol Base Camp, Northern Stranglethorn.|
-A Candy Bucket|QID|12382|M|37.37,51.78|Z|Northern Stranglethorn|N|Innkeeper Thulbek, Gron'gol Base Camp|
+R Zidormi|QID|12382|M|48.16,7.29|N|Must speak to Zidormi, just SW of the entrance to the Blasted Lands from Swamp of Sorrows, to revert to a post-invasion time. Manually check this step off.|Z|Blasted Lands|
+R Stonard|M|47.70,55.06|QID|12382|Z|Swamp of Sorrows|U|37586|N|Run to Stonard, Swamp of Sorrows.|
+F Grom'gol Base Camp|M|72.02,12.04|QID|12382|Z|Swamp of Sorrows|U|37586|N|Fly to Grom'gol Base Camp, Northern Stranglethorn.|
+A Candy Bucket|QID|12382|M|37.37,51.78|Z|Northern Stranglethorn|N|Innkeeper Thulbek, Grom'gol Base Camp|
 F Hardwrench Hideaway|M|39.01,51.25|QID|28969|Z|Northern Stranglethorn|U|37586|N|Fly to Hardwrench Hideaway, Northern Stranglethorn.|
 A Candy Bucket|QID|28969|M|35.05,27.21|Z|The Cape of Stranglethorn|N|Innkeeper Draxle, Hardwrench Hideaway|
 F Booty Bay|M|35.14,29.39|QID|12397|Z|The Cape of Stranglethorn|U|37586|N|Fly to Booty Bay, The Cape of Stranglethorn.|

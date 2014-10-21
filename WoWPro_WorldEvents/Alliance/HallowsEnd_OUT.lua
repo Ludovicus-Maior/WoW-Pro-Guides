@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-10-19 23:57
+-- Who: Dez
+-- Log: In Eastern Kingdoms: Typo fixes (Acutioneer to Auctioneer, pumkin to pumpkin); Added steps to speak to Zidormi to revert Blasted Lands to pre-Iron Horde invasion, to allow accessing the two inns in this zone; Reordered steps to - at least partially - optimize pathing given the changes involved here (no flight points in the past time zone); couldn't find a flight point at Greenwarden's Grove, so changed that to a Run step; added a warning about PvP flag when going for the Horde's Wickerman.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26742/view
+-- Date: 2014-10-19 21:39
+-- Who: Dez
+-- Log: In Kalimdor: Added note that flight to Exodar was an option vs. boat to Azuremyst Isle (and fixed spelling); Added flight steps between the Isles' candy buckets (per hendo72's suggestion); Renamed Teldrassil step to Rut'theran Village, so automatic flight would trigger properly; Feathermoon Stronghold is now just Feathermoon; Fixed copy/paste error identifying Bootlegger Outpost candy bucket as Marshal's Stand; Theramore Isle is now Theramore.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26741/view
+-- Date: 2014-10-19 21:20
+-- Who: Dez
+-- Log: In Outland: Candy Buckets in Cenarion Refuge and Wildhammer Stronghold were missing the | before QID, had an extra at the end of the line.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26740/view
+-- Date: 2014-10-19 21:12
+-- Who: Dez
+-- Log: In Northrend: Fixed up a couple of flight point name changes; fixed a couple lines that were missing the |Z| flag.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26738/view
 -- Date: 2014-10-19 16:50
 -- Who: Ludovicus
 -- Log: Corrected guide registration for Hallow's End Alliance guides.
@@ -136,7 +156,7 @@ A Candy Bucket |QID|12355|M|41.95,26.28|Z|Zangarmarsh|N|Orebor Harborage|
 F Telredor|QID|12354|M|67.86,51.36|Z|Zangarmarsh|U|37586|
 A Candy Bucket |QID|12354|M|67.19,48.97|Z|Zangarmarsh|N|Telredor|
 R Cenarion Refuge|QID|12403|M|78.81,62.16|Z|Zangarmarsh|U|37586|
-A Candy Bucket QID|12403|M|78.48,62.81|Z|Zangarmarsh|N|Cenarion Refuge||
+A Candy Bucket |QID|12403|M|78.48,62.81|Z|Zangarmarsh|N|Cenarion Refuge|
 F Telaar|QID|12357|M|54.13,75.22|Z|Nagrand|U|37586|
 A Candy Bucket |QID|12357|M|54.19,75.72|Z|Nagrand|N|Telaar|
 F Shattrath City|QID|12404|M|63.80,41.72|Z|Shattrath City|U|37586|
@@ -146,7 +166,7 @@ A Candy Bucket |QID|12404|M|56.19,81.77|Z|Shattrath City|REP|Scryers;934|N|Scrye
 F Allerian Stronghold|QID|12356|M|59.45,55.20|Z|Terokkar Forest|U|37586|
 A Candy Bucket |QID|12356|M|56.64,53.23|Z|Terokkar Forest|N|Allerian Stronghold|
 F Wildhammer Stronghold|QID|12360|M|37.61,55.48|Z|Shadowmoon Valley|U|37586|
-A Candy Bucket QID|12360|M|37.05,58.22|Z|Shadowmoon Valley|N|Wildhammer Stronghold||
+A Candy Bucket |QID|12360|M|37.05,58.22|Z|Shadowmoon Valley|N|Wildhammer Stronghold|
 F Sanctum of the Stars|QID|12409|M|56.39,57.96|Z|Shadowmoon Valley|REP|Scryers;934|U|37586|
 A Candy Bucket |QID|12409|M|56.37,59.73|Z|Shadowmoon Valley|REP|Scryers;934|N|Sanctum of the Stars|
 F Altar of Shatar|QID|12409|M|62.89,30.59|Z|Shadowmoon Valley|REP|Aldor;932|U|37586|
