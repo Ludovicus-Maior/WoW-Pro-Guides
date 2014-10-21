@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-21 08:32
+-- Who: Dez
+-- Log: In Eastern Kingdoms: Added steps to speak to Zidormi going in and out of Blasted Lands, fixed a typo.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26747/view
+-- Date: 2014-10-21 06:02
+-- Who: Dez
+-- Log: In Kalimdor: Cenarion Wildlands FP renamed to Karnum's Glade.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26739/view
 -- Date: 2014-10-19 18:03
 -- Who: Ludovicus
 -- Log: Set guide titles for Hallow's End guides.  Corrected Zones.

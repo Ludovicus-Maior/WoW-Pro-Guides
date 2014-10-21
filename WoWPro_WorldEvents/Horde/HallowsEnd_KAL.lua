@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-21 08:32
+-- Who: Dez
+-- Log: In Eastern Kingdoms: Added steps to speak to Zidormi going in and out of Blasted Lands, fixed a typo.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26747/view
+-- Date: 2014-10-21 06:02
+-- Who: Dez
+-- Log: In Kalimdor: Cenarion Wildlands FP renamed to Karnum's Glade.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26739/view
 -- Date: 2014-10-19 18:03
 -- Who: Ludovicus
 -- Log: Set guide titles for Hallow's End guides.  Corrected Zones.
@@ -154,8 +164,8 @@ A Candy Bucket|QID|29009|M|66.49,64.19|Z|Stonetalon Mountains|N|Felonius Stark, 
 F Sun Rock Retreat|QID|12378|M|66.53,62.79|U|37586|Z|Stonetalon Mountains|N|Fly to Sun Rock Retreat, Stonetalon Mountains.|
 A Candy Bucket|QID|12378|M|50.39,63.80|Z|Stonetalon Mountains|N|Innkeeper Jayka, Sun Rock Retreat|
 
-F Cenarion Wildlands|QID|28993|M|48.47,61.94|U|37586|Z|Stonetalon Mountains|N|Fly to Karnum's Glade, Desolace.|
-A Candy Bucket|QID|28993|M|56.73,50.12|Z|Desolace|N|Innkeeper Dessina, Cenarion Wildlands|
+F Karnum's Glade|QID|28993|M|48.47,61.94|U|37586|Z|Stonetalon Mountains|N|Fly to Karnum's Glade, Desolace.|
+A Candy Bucket|QID|28993|M|56.73,50.12|Z|Desolace|N|Innkeeper Dessina, Karnum's Glade|
 F Shadowprey Village|QID|12381|M|57.71,49.75|U|37586|Z|Desolace|N|Fly to Shadowprey Village, Desolace.|
 A Candy Bucket|QID|12381|M|24.08,68.29|Z|Desolace|N|Innkeeper Sikewa, Shadowprey Village|
 

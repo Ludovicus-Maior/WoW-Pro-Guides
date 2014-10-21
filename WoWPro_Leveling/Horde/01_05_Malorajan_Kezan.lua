@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-10-20 15:03
+-- Who: Fluclo
+-- Log: Added Don't Go Into the Light quest, added step about finishing Kezan if player is guide-jumping before finishing Kezan, added PRE steps throughout, added message about not skipping guide before reaching Durotar, added steps when quest has two plus parts, added NC tags where step is non-combat, added self-completing notes about profession trainers, changed all QO tags to number format, made the trip to Razor Hill a RANK 2 chain, quests to Garrosh are now to Vol'jin instead.
+
+-- URL: http://wow-pro.com/node/3212/revisions/26737/view
 -- Date: 2014-10-19 13:06
 -- Who: Fluclo
 -- Log: Kezan: Updated the |QO| tags throughout due to the new formatting; removed dismount instruction from Necessary Roughness (you now auto-dismount); couple note tweaks.
