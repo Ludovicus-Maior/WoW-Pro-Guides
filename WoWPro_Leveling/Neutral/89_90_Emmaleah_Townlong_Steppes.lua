@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2014-10-23 07:32
+-- Who: Emmaleah
+-- Log: Change N Abadoned Crate of Goods to an A step and added to the Note.
+
+-- URL: http://wow-pro.com/node/3492/revisions/26433/view
 -- Date: 2014-06-02 14:03
 -- Who: Ludovicus
 -- Log: Reset levels
@@ -104,7 +109,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Welcome to Townlong Steppes|QID|30814|N|This guide starts in Longying Outpost, You may have two lead in qusets to turn in here, if you don't have them, check off those steps and proceed.|
-N Abandoned Crate of Goods|QID|31427|M|62.76,34.08|CC|N|This is guarded by at least one elite lvl 89-90, if you follow close to the wall you can avoid the others. It is inside a burning tent. skip it if you don't think you are up to it.  It gave me and my groupmate each 823K xp.|
+A Abandoned Crate of Goods|QID|31427|M|62.76,34.08|CC|N|This is guarded by at least one elite lvl 89-90, if you follow close to the wall you can avoid the others. It is inside a burning tent. skip it if you don't think you are up to it.  It gave me and my groupmate each 823K xp. Check this step off manually if you don't do it, (or if it doesn't autocomplete.)|
 R Longying Outpost|QID|30814|CC|M|71.14, 56.47|
 T My Husband...|QID|30768|O|M|71.14, 56.47|N|To Suna Silentstrike.|
 T Beyond the Wall|QID|31695|M|71.15,56.61|N|To Taran Zhu.|
