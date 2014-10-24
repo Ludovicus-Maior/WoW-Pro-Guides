@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-10-23 12:01
+-- Who: Fluclo
+-- Log: Added coords for the three sets of huts as a |CN|
+
+-- URL: http://wow-pro.com/node/3600/revisions/26755/view
+-- Date: 2014-10-23 11:28
+-- Who: Fluclo
+-- Log: Eastern Cage is |QO|2| and Southern Cage is |QO|1| so switched the |QO| numbers around.
+
+-- URL: http://wow-pro.com/node/3600/revisions/26749/view
 -- Date: 2014-10-22 01:13
 -- Who: Ludovicus
 -- Log: Zone transform.  Coord tweaks.  Stopped at cave till I figure out what to do.
@@ -98,9 +108,9 @@ A Bled Dry |QID|34421|N|From Korag|M|62.27,52.96|PRE|34420|Z|TanaanJungleIntro|F
 
 C Vengeance for the Fallen |QID|35242;35241|N|Kill the Bleeding Hollow orcs.|S|M|65.7,54.0|Z|TanaanJungleIntro|FACTION|Alliance|
 C Blaze of Glory |QID|34422|N|Approach the Bleeding Hollow huts, then use Lucifrium Bead's "Inferno" to burn them.|NC|S|M|66.5,55.9|Z|TanaanJungleIntro|
-C Bled Dry |QID|35240;34421|N|Open the Eastern cage.|NC|QO|1|M|65.7,54.0|Z|TanaanJungleIntro|
-C Bled Dry |QID|35240;34421|N|Open the Southern cage.|NC|QO|2|M|61.0,62.7|Z|TanaanJungleIntro|
-C Blaze of Glory |QID|34422|N|Finish burning the Bleeding Hollow huts.|NC|US|M|61.0,62.7|Z|TanaanJungleIntro|
+C Bled Dry |QID|35240;34421|N|Open the Eastern cage.|NC|QO|2|M|65.7,54.0|Z|TanaanJungleIntro|
+C Bled Dry |QID|35240;34421|N|Open the Southern cage.|NC|QO|1|M|61.0,62.7|Z|TanaanJungleIntro|
+C Blaze of Glory |QID|34422|N|Finish burning the Bleeding Hollow huts.|NC|US|M|63.65,50.03;66.55,55.61;61.23,62.07|CN|Z|TanaanJungleIntro|
 C Vengeance for the Fallen |QID|35242;35241|N|Finish killing the Bleeding Hollow orcs.|US|M|63.3,64.4|Z|TanaanJungleIntro|
 
 T Vengeance for the Fallen |QID|35242|N|To Vindicator Maraad|FACTION|Alliance|M|71.5,62.7|Z|TanaanJungleIntro|
