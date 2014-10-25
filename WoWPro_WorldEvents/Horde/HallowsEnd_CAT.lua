@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-22 07:03
+-- Who: Dez
+-- Log: Misplaced Shrine/Grove of Aessina in Winterspring.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26752/view
+-- Date: 2014-10-22 07:01
+-- Who: Dez
+-- Log: Shrine of Aviana misplaced as Winterspring.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26751/view
+-- Date: 2014-10-22 06:59
+-- Who: Dez
+-- Log: Minor typo correction.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26748/view
 -- Date: 2014-10-21 08:32
 -- Who: Dez
 -- Log: In Eastern Kingdoms: Added steps to speak to Zidormi going in and out of Blasted Lands, fixed a typo.
@@ -128,11 +143,11 @@ R Deepholm portal|M|50.6,37|Z|Orgrimmar|N|Take the portal to Deepholm.|
 A Candy Bucket|QID|208181|M|51.2,50.0|Z|Deepholm|N|Caretaker Nuunwa, Temple of Earth|
 R Orgrimmar|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|
 
-R Nordrassil|QID|28999|M|50.97,38.13|Z|Orgrimmar|N|Take the portal to Mr. Hyjal.|
+R Nordrassil|QID|28999|M|50.97,38.13|Z|Orgrimmar|N|Take the portal to Mt. Hyjal.|
 A Candy Bucket|QID|28999|M|63.05,24.14|Z|Mount Hyjal|N|Sebelia, Nordrassil)
-F Shrine of Aviana|QID|29001|M|62.14,21.58|Z|Mount Hyjal|U|37586|N|Fly to the Shrine of Aviana, Winterspring.|
+F Shrine of Aviana|QID|29001|M|62.14,21.58|Z|Mount Hyjal|U|37586|N|Fly to the Shrine of Aviana, Mt. Hyjal.|
 A Candy Bucket|QID|29001|M|42.67,45.70|Z|Mount Hyjal|N|Isara Riverstride, Shrine of Aviana|
-F Grove of Aessina|QID|29000|M|41.18,42.59|Z|Mount Hyjal|U|37586|N|Fly to the Shrine/Grove of Aessina, Winterspring.|
+F Grove of Aessina|QID|29000|M|41.18,42.59|Z|Mount Hyjal|U|37586|N|Fly to the Shrine/Grove of Aessina, Mt. Hyjal.|
 A Candy Bucket|QID|29000|M|18.63,37.31|Z|Mount Hyjal|N|Salim Moonbear, Grove of Aessina|
 F Nordrassil|QID|28986|M|19.60,36.38|Z|Mount Hyjal|U|37586|N|Fly back to Nordrassil to the portal.|
 R Orgrimmar|QID|28986|M|62.66,22.98|N|Take the portal back to Orgrimmar.|Z|Mount Hyjal|

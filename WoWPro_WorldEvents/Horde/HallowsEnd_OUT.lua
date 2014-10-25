@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-22 07:03
+-- Who: Dez
+-- Log: Misplaced Shrine/Grove of Aessina in Winterspring.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26752/view
+-- Date: 2014-10-22 07:01
+-- Who: Dez
+-- Log: Shrine of Aviana misplaced as Winterspring.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26751/view
+-- Date: 2014-10-22 06:59
+-- Who: Dez
+-- Log: Minor typo correction.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26748/view
 -- Date: 2014-10-21 08:32
 -- Who: Dez
 -- Log: In Eastern Kingdoms: Added steps to speak to Zidormi going in and out of Blasted Lands, fixed a typo.
