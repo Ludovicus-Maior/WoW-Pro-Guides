@@ -152,8 +152,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 		        if not WoWPro.CompletingQuest and ( action == "A" or action == "C" ) 
 		        and completion and WoWPro.missingQuest == QID then
 			        WoWProCharDB.Guide[GID].completion[i] = nil
-			        WoWPro:UpdateGuide()
-			        WoWPro:MapPoint()
+			        WoWPro:UpdateGuide("ACQU: Abandoned Quest")
 		        end
 		
                 -- Quest AutoComplete --
@@ -248,9 +247,9 @@ function WoWPro.AutoCompleteCriteria()
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 		    WoWProCharDB.Guide[GID].completion[qidx] = true
 		    WoWProCharDB.completedQIDs[WoWPro.QID[qidx]] = true
+		    WoWPro:UpdateGuide("AutoCompleteCriteria") 
 	end			
-
-	WoWPro:UpdateGuide() 
+	
 end
 
 -- Auto-Complete: Chest Loot, for the silly timeless isle chests
@@ -263,9 +262,9 @@ function WoWPro.AutoCompleteChest()
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 		    WoWProCharDB.Guide[GID].completion[qidx] = true
 		    WoWProCharDB.completedQIDs[WoWPro.QID[qidx]] = true
+		    WoWPro:UpdateGuide("AutoCompleteChest") 
 	end			
-
-	WoWPro:UpdateGuide() 
+	
 end
 
 -- Auto-Complete: Level based --
@@ -287,7 +286,10 @@ end
 
 -- Update Quest Tracker --
 function WoWPro:UpdateQuestTracker()
-	if not WoWPro.GuideFrame:IsVisible() then return end
+	if not WoWPro.GuideFrame:IsVisible() then
+	    WoWPro:dbp("Punting: WoWPro:UpdateQuestTracker()")
+	    return
+	end
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 	
@@ -464,17 +466,17 @@ function WoWPro.EventHandler(frame, event, ...)
 
 	-- Unlocking guide frame when leaving combat --
 	if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_ENTERING_WORLD" then
-		WoWPro:UpdateGuide() 
+		WoWPro:UpdateGuide(event) 
 	end
 	
 	-- Updating party-dependant options --
 	if event == "PARTY_MEMBERS_CHANGED" and not MaybeCombatLockdown() then
-		WoWPro:UpdateGuide() 
+		WoWPro:UpdateGuide(event) 
 	end
 
 	-- Updating WoWPro keybindings --
 	if event == "UPDATE_BINDINGS" and not MaybeCombatLockdown() then
-		WoWPro:UpdateGuide() 
+		WoWPro:UpdateGuide(event) 
 	end
 
     -- Did we get a buff?
