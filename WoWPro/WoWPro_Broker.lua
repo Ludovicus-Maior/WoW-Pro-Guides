@@ -204,7 +204,7 @@ end
 
 
 function WoWPro:UpdateGuide(From)
-    WoWPro:dbp("Signaled for UpdateGuide")
+    WoWPro:dbp("Signaled for UpdateGuide from %s",tostring(From))
     WoWPro:SendMessage("WoWPro_UpdateGuide",From)
 end
 
@@ -919,7 +919,8 @@ function WoWPro.CompleteStep(step)
 	    WoWPro:dbp(line)
 	end
 	
-	WoWPro:UpdateGuide()
+	WoWPro:UpdateGuide("WoWPro.CompleteStep")
+	WoWPro:RemoveMapPoint()
 	WoWPro:MapPoint()
 end
 
