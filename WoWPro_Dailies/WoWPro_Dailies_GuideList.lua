@@ -48,7 +48,7 @@ local function Init()
     			Zone = guide.zone,
     			Name = guide.name,
     		    Author = guide.author,
-    			Category = guide.category,
+    			Category = guide.category or guide.zone,
     			Progress = progress
     		})
     	end
