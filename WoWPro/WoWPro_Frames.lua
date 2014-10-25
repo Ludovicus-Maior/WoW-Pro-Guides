@@ -415,15 +415,14 @@ function WoWPro:CreateResizeButton()
 	-- Scripts --
 		resizebutton:SetScript("OnMouseDown", function()
 			WoWPro.MainFrame:StartSizing(TOPLEFT)
-			if WoWPro.UpdateGuide then WoWPro:UpdateGuide(WoWPro.Offset) end
+			WoWPro:UpdateGuide("ResizeStart")
 			WoWPro.MainFrame:SetScript("OnSizeChanged", function(self, width, height)
 				WoWPro.RowSizeSet()
-
 			end)
 		end)
 		resizebutton:SetScript("OnMouseUp", function()
 			WoWPro.MainFrame:StopMovingOrSizing()
-			if WoWPro.UpdateGuide then WoWPro:UpdateGuide(WoWPro.Offset) end
+			WoWPro:UpdateGuide("ResizeEnd")
 			WoWPro.MainFrame:SetScript("OnSizeChanged", nil)
 		end)
 	WoWPro.resizebutton = resizebutton
@@ -485,7 +484,7 @@ function WoWPro:CreateTitleBar()
 			WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
 			WoWPro.MainFrame:StopMovingOrSizing();
 			WoWPro.AnchorSet()
-			WoWPro:UpdateGuide()
+			WoWPro:UpdateGuide("DoubleClick")
 		end
 	end)   
 end
