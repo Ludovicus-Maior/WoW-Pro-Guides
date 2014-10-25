@@ -449,15 +449,13 @@ function WoWPro:ValidateMapCoords(guide,action,step,coords)
 	end
 end
 
+
+local LastMapPoint = nil
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 	if WoWPro.InitLockdown then return end
 
-	-- Removing old map point --
-	WoWPro:RemoveMapPoint()
-	FinalCoord = nil
-	
 	-- Loading Variables for this step --
 	local i
 	if row then
@@ -465,7 +463,23 @@ function WoWPro:MapPoint(row)
 	else 
 		i = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
 	end
-	local coords; if WoWPro.map then coords = WoWPro.map[i] else coords = nil end
+
+	-- Removing old map point --
+	if LastMapPoint and LastMapPoint == i then
+	    WoWPro:dbp("MapPoint: LastMapPoint=%d is current. No update needed.", LastMapPoint)
+	    return
+	end
+	WoWPro:RemoveMapPoint()
+	LastMapPoint = i
+	FinalCoord = nil
+	
+	
+	local coords
+	if WoWPro.map then
+	    coords = WoWPro.map[i]
+	else
+	    coords = nil
+	end
 	local desc = WoWPro.step[i]
 	local zone
 	local floor = 0
@@ -659,6 +673,7 @@ function WoWPro:MapPoint(row)
 end
 
 function WoWPro:RemoveMapPoint()
+    LastMapPoint = nil
 	if TomTom and TomTom.db then
 		for i=1,#cache,1 do
 		    if cache[i].uid ~= nil then
