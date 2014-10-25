@@ -116,8 +116,7 @@ function WoWPro:UnSkipStep(index)
 	end
 	
 	unskipstep(index)
-	WoWPro:UpdateGuide()
-	WoWPro:MapPoint()
+	WoWPro:UpdateGuide("UnSkipStep")
 end
 
 
@@ -468,17 +467,16 @@ function WoWPro:CheckFunction(row, button, down)
 	elseif not row.check:GetChecked() then
 		WoWPro:UnSkipStep(row.index)
 	end
-	WoWPro:UpdateGuide()
+	WoWPro:UpdateGuide("CheckFunction")
 end
 
 
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
 	local GID = WoWProDB.char.currentguide
-	if MaybeCombatLockdown() 
-		or not GID 
-		or not WoWPro.Guides[GID]
-		then return 
+	if MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
+	    WoWPro:dbp("Punting: WoWPro:RowUpdate()")
+		return 
 	end
 	WoWPro:dbp("Running: WoWPro:RowUpdate()")
 	WoWPro.ActiveStickyCount = 0
@@ -559,6 +557,7 @@ function WoWPro:RowUpdate(offset)
 		
 		-- Getting the image and text for the step --
 		row.step:SetText(step)
+		row.track:SetText("")
 		if step then row.check:Show() else row.check:Hide() end
 		if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then
 			row.check:SetChecked(true)
@@ -614,6 +613,7 @@ function WoWPro:RowUpdate(offset)
 			if coord or x then
 				table.insert(dropdown, 
 					{text = "Map Coordinates", func = function()
+					    WoWPro:RemoveMapPoint()
 						WoWPro:MapPoint(row.num)
 					end} 
 				)
@@ -629,9 +629,7 @@ function WoWPro:RowUpdate(offset)
 				table.insert(dropdown, 
 					{text = "Un-Sticky", func = function() 
 						WoWPro.sticky[row.index] = false
-						WoWPro.UpdateGuide()
-						WoWPro.UpdateGuide()
-						WoWPro.MapPoint()
+						WoWPro:UpdateGuide("ClickedUnSticky")
 					end} 
 				)
 			else
@@ -639,9 +637,7 @@ function WoWPro:RowUpdate(offset)
 					{text = "Make Sticky", func = function() 
 						WoWPro.sticky[row.index] = true
 						WoWPro.unsticky[row.index] = false
-						WoWPro.UpdateGuide()
-						WoWPro.UpdateGuide()
-						WoWPro.MapPoint()
+						WoWPro:UpdateGuide("ClickedMakeSticky")
 					end} 
 				)
 			end
