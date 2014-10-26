@@ -606,6 +606,7 @@ DefineInstance(1011,0,"Warspear")
 DefineTerrain(2,50, 614,0,"Abyssal Depths")
 DefineTerrain(2,51, 615,0,"Shimmering Expanse")
 DefineTerrain(2,51, 610,0,"Kelp'thar Forest")
+DefineInstance( 970,1,"Umbral Halls")
 
 
 local MapsSeen = {}
