@@ -4,6 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-26 00:26
+-- Who: Emmaleah
+-- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
+--	
+--	removed duplicate "|" in cata guide x3, and put in a missing "|M|" - hopefully allowing the mapping to work for the deepholm portal in orgrimmar
+
+-- URL: http://wow-pro.com/node/3441/revisions/26760/view
+-- Date: 2014-10-25 18:55
+-- Who: Dez
+-- Log: In Outland: Updated for 6.0.2 new portal to Hellfire in capital; added explicit reputation check for Aldor/Scryer; tied portal to first quest step, in hopes of keeping it checked off when completed.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26753/view
 -- Date: 2014-10-22 07:03
 -- Who: Dez
 -- Log: Misplaced Shrine/Grove of Aessina in Winterspring.
@@ -181,13 +193,13 @@ A Candy Bucket|QID|12387|M|78.19,81.49|Z|The Hinterlands|N|Lard, Revantusk Villa
 
 F Hammerfall|M|81.71,81.76|QID|12380|Z|The Hinterlands|U|37586|N|Fly to Hammerfall, Arathi Highlands.|
 A Candy Bucket|QID|12380|M|69.02,33.28|Z|Arathi Highlands|N|Innkeeper Adegwa, Hammerfall|
-F New Kargath|M|68.17,33.40|QID|28976|Z|Arathi Highlands|U|37586|N|Fly to New Kargath, Badlands.|
+F Fuselight|M|68.17,33.40|QID|28955|Z|Arathi Highlands|U|37586|N|Fly to Fuselight, Badlands.|
 
-A Candy Bucket|QID|28957|M|18.36,42.73|Z|Badlands|N|Innkeeper Shul'kar, New Kargath|
-F Fuselight|M|17.19,40.01|QID|28955|Z|Badlands|U|37586|N|Fly to Fuselight, Badlands.|
 A Candy Bucket|QID|28955|M|65.86,35.66|Z|Badlands|N|Sally Gearwell, Fuselight|
+F New Kargath|M|63.34,35.03|QID|28965|Z|Badlands|U|37586|N|Fly to New Kargath, Badlands.|
+A Candy Bucket|QID|28957|M|18.36,42.73|Z|Badlands|N|Innkeeper Shul'kar, New Kargath|
 
-F Iron Summit|M|63.34,35.03|QID|28965|Z|Badlands|U|37586|N|Fly to Iron Summit, Searing Gorge.|
+F Iron Summit|M|17.19,40.01|QID|28955|Z|Badlands|U|37586|N|Fly to Iron Summit, Searing Gorge.|
 A Candy Bucket|QID|28965|M|39.48,66.06|Z|Searing Gorge|N|Velma Rockslide, Iron Summit|
 F Bogpaddle|M|41.06,68.79|QID|28967|Z|Searing Gorge|U|37586|N|Fly to Bogpaddle, Swamp of Sorrows.|
 

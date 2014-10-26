@@ -4,6 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-26 00:26
+-- Who: Emmaleah
+-- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
+--	
+--	removed duplicate "|" in cata guide x3, and put in a missing "|M|" - hopefully allowing the mapping to work for the deepholm portal in orgrimmar
+
+-- URL: http://wow-pro.com/node/3441/revisions/26760/view
+-- Date: 2014-10-25 18:55
+-- Who: Dez
+-- Log: In Outland: Updated for 6.0.2 new portal to Hellfire in capital; added explicit reputation check for Aldor/Scryer; tied portal to first quest step, in hopes of keeping it checked off when completed.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26753/view
 -- Date: 2014-10-22 07:03
 -- Who: Dez
 -- Log: Misplaced Shrine/Grove of Aessina in Winterspring.

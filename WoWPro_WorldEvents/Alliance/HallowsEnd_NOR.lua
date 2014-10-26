@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-10-25 18:59
+-- Who: Dez
+-- Log: In Outland: added explicit reputation check for Aldor/Scryer.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26743/view
 -- Date: 2014-10-19 23:57
 -- Who: Dez
 -- Log: In Eastern Kingdoms: Typo fixes (Acutioneer to Auctioneer, pumkin to pumpkin); Added steps to speak to Zidormi to revert Blasted Lands to pre-Iron Horde invasion, to allow accessing the two inns in this zone; Reordered steps to - at least partially - optimize pathing given the changes involved here (no flight points in the past time zone); couldn't find a flight point at Greenwarden's Grove, so changed that to a Run step; added a warning about PvP flag when going for the Horde's Wickerman.

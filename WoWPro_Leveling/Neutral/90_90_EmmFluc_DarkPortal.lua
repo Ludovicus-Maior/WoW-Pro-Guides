@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-10-25 22:05
+-- Who: Ludovicus
+-- Log: Bad coord for T [Onslaught's End]
+
+-- URL: http://wow-pro.com/node/3600/revisions/26756/view
 -- Date: 2014-10-23 12:01
 -- Who: Fluclo
 -- Log: Added coords for the three sets of huts as a |CN|
@@ -86,7 +91,7 @@ T Azeroth's Last Stand |QID|35933|N|Auto-Complete|Z|TanaanJungleIntro|
 A Onslaught's End |QID|34392|N|Auto-Accept\n\nIf you've previously abandoned this quest, you can pick it up again from Archmage Khadgar.|PRE|35933|Z|TanaanJungleIntro|
 C Onslaught's End |QID|34392|N|Disable the Northern Fel Spire|QO|1|NC|M|51.0, 42.0|Z|TanaanJungleIntro|
 C Onslaught's End |QID|34392|N|Disable the Southern Fel Spire|QO|2|NC|M|51.0, 54.6|Z|TanaanJungleIntro|
-T Onslaught's End |QID|34392|N|To Archmage Khadgar|M|4.73,48.26|Z|TanaanJungleIntro|
+T Onslaught's End |QID|34392|N|To Archmage Khadgar|M|54.73,48.26|Z|TanaanJungleIntro|
 
 A The Portal's Power |QID|34393|N|From Archmage Khadgar|M|4.73,48.26|PRE|34392|Z|TanaanJungleIntro|
 C The Portal's Power |QID|34393|N|Enter Gul'dan's prison, located directly underneath Archmage Khadgar. Entrances available due north and due south of Khadgar.|NC|QO|1|M|54.9,51.1|Z|TanaanJungleIntro|
@@ -118,6 +123,7 @@ T Vengeance for the Fallen |QID|35241|N|To Thrall|FACTION|Horde|M|71.92,62.06|Z|
 T Blaze of Glory |QID|34422|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIntro|
 T Bled Dry |QID|35240;34421|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIntro|
 
+N Altar Altercation |QID|34423|N|This quest sometimes does not show in the guide. If it does not, /reloadui should make it appear.  It is a Blizard bug.|
 A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35242;34422;35240|FACTION|Alliance|M|71.61,62.43|Z|TanaanJungleIntro|
 A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35241;34422;34421|FACTION|Horde|M|71.61,62.43|Z|TanaanJungleIntro|
 C Altar Altercation |QID|34423|N|Speak with Ariok and tell him "Khadgar has asked us to go distract the Eye of Kilrogg".|QO|1|CHAT|M|72.0,62.2|Z|TanaanJungleIntro|

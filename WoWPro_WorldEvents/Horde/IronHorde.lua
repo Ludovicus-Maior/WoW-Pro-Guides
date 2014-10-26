@@ -4,8 +4,8 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3584
--- Date: 2014-10-19 00:19
--- Who: Ludovicus
+-- Date: 2014-10-25 23:45
+-- Who: Emmaleah
 -- Log: OK.  PLayed through, tweaked QO tags, missing T steps and mucked with the order.
 --	Every coordinate was dead on!
 
@@ -46,7 +46,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Iron Horde Invasion|QID|36499|M|49.69,76.43|Z|Orgrimmar@Orgrimmar|
-F Shattered Landing|QID|36499|NC|M|47.15,62.02|Z|Cleft of Shadow@Orgrimmar|N|Click on the Portal in the drag.|
+F Shattered Landing|QID|36499|NC|M|47.15,62.02|Z|Cleft of Shadow@Orgrimmar|N|Click on the Portal in the Cleft of Shadow.|
 f Shattered Landing|QID|36499|M|72.95,48.58|Z|Blasted Lands|N|At Ameri Windblade.|
 A Peeking into the Portal|QID|36382|M|71.88,48.97|Z|Blasted Lands|N|From Rokhan.|
 T Iron Horde Invasion|QID|36499|M|71.81,47.72|Z|Blasted Lands|N|To Thrall.|
@@ -99,6 +99,6 @@ T Gar'mak Bladetwist|QID|35763|M|48.73,31.78|N|To Thrall.|
 A Warning the Warchief|QID|36940|M|48.73,31.78|N|From Thrall.|
 R Warning the Warchief|QID|36940|NC|CC|M|72.7,49.5|N|Fly over to the Shattered Landing and take the portal back to Orgrimmar.|
 T Warning the Warchief|QID|36940|M|48.11,70.47|Z|Orgrimmar@Orgrimmar|N|To Vol'jin.|
-U Iron Starlette|U|110660|N|Add your starlette to your collection. Run the revamped Upper Blackrock Spire while it's tuned for 90's (will be 100 after expansion is released.)|]]
+U Iron Starlette|U|111660|N|Add your starlette to your collection. Run the revamped Upper Blackrock Spire while it's tuned for 90's (will be 100 after expansion is released.)|]]
 
 end)
