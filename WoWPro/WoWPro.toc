@@ -24,6 +24,7 @@ Libraries\AceGUI-3.0-SharedMediaWidgets\widget.xml
 Libraries\LibDataBroker-1.1\LibDataBroker-1.1.lua
 Libraries\LibDBIcon-1.0\LibDBIcon-1.0.lua
 Libraries\LibBabble-Zone-3.0\lib.xml
+Libraries\Astrolabe\Load.xml
 
 WoWPro.lua
 WoWPro_Widgets.lua
