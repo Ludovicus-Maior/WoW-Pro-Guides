@@ -4,6 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-26 00:26
+-- Who: Emmaleah
+-- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
+--	
+--	removed duplicate "|" in cata guide x3, and put in a missing "|M|" - hopefully allowing the mapping to work for the deepholm portal in orgrimmar
+
+-- URL: http://wow-pro.com/node/3441/revisions/26760/view
+-- Date: 2014-10-25 18:55
+-- Who: Dez
+-- Log: In Outland: Updated for 6.0.2 new portal to Hellfire in capital; added explicit reputation check for Aldor/Scryer; tied portal to first quest step, in hopes of keeping it checked off when completed.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26753/view
 -- Date: 2014-10-22 07:03
 -- Who: Dez
 -- Log: Misplaced Shrine/Grove of Aessina in Winterspring.
@@ -142,8 +154,7 @@ N Wall of Text Part 2 of 2|QID|12388|N|Also to note, you can get multiples of th
 
 N This guide starts|QID|12388|N|in Orgrimmar, so if you are in the Eastern Kingdoms, take the blimp and transport to Orgrimmar.|
 
-R Blasted Lands|M|44.73,68.01|Z|Cleft of Shadow@Orgrimmar|N|Take the portal to the Blasted Lands in the Cleft of Shadow|
-R Hellfire Peninsula|N|Run thru the Dark Portal|M|54.95,54.02|Z|Blasted Lands|
+R Hellfire Peninsula|M|30.28,58.24|QID|12388|Z|Cleft of Shadow@Orgrimmar|N|Take the portal to Hellfire Peninsula in the Cleft of Shadow (near rogue trainer)|
 F Thrallmar|M|87.34,48.13|QID|12388|Z|Hellfire Peninsula|N|Fly to Thrallmar, Hellfire Peninsula.|
 A Candy Bucket|QID|12388|M|56.80,37.45|Z|Hellfire Peninsula|N|Floyd Pinkus, Thrallmar|
 F Falcon Watch|M|56.29,36.24|QID|12389|Z|Hellfire Peninsula|U|37586|N|Fly to Falcon Watch, Hellfire Peninsula.|
@@ -167,16 +178,16 @@ A Candy Bucket|QID|12390|M|30.63,50.87|Z|Zangarmarsh|N|Merajit, Zabra'jin|
 F Garadar|M|33.07,51.07|QID|12392|Z|Zangarmarsh|U|37586|N|Fly to Garadar, Nagrand.|
 A Candy Bucket|QID|12392|M|56.68,34.49|Z|Nagrand|N|Mataron Tikkit, Garadar|
 F Shattrath City|M|57.19,35.25|QID|12404|Z|Nagrand|U|37586|N|Fly to Shattrath City, Nagrand.|
-A Candy Bucket|QID|12404|M|56.31,81.93|Z|Shattrath City|REP|Scryers;934|N|From the Candy Bucket. (Shattrath City, Scryer's Tier)|
-A Candy Bucket|QID|12404|M|28.22,49.06|Z|Shattrath City|REP|Aldor;932|N|From the Candy Bucket. (Shattrath City, Aldor Rise)|
+A Candy Bucket|QID|12404|M|56.31,81.93|Z|Shattrath City|REP|Scryers;934;Neutral-Exalted|N|From the Candy Bucket. (Shattrath City, Scryer's Tier)|
+A Candy Bucket|QID|12404|M|28.22,49.06|Z|Shattrath City|REP|Aldor;932;Neutral-Exalted|N|From the Candy Bucket. (Shattrath City, Aldor Rise)|
 F Stonebreaker Hold|M|64.06,41.13|QID|12391|Z|Shattrath City|U|37586|N|Fly to Stonebreaker Hold, Terokkar Forest.|
 A Candy Bucket|QID|12391|M|48.73,45.18|Z|Terokkar Forest|N|Innkeeper Grilka, Stonebreaker Hold|
 F Shadowmoon Village|M|49.19,43.42|QID|12395|Z|Terokkar Forest|U|37586|N|Fly to Shadowmoon Village, Shadowmoon Valley.|
 A Candy Bucket|QID|12395|M|30.27,27.70|Z|Shadowmoon Valley|N|Innkeeper Darg Bloodclaw, Shadowmoon Village|
-F Altar of Sha'tar|N|Fly to Altar of Sha'tar.|M|30.34,29.19|QID|12409|Z|Shadowmoon Valley|U|37586|REP|Aldor;932|
-A Candy Bucket|N|From the Candy Bucket. (Shadowmoon Valley, Altar of Sha'tar)|QID|12409|M|61,28.17|Z|Shadowmoon Valley|REP|Aldor;932|
-F Sanctum of the Stars|N|Fly to Sanctum of the Stars.|M|30.34,29.19|QID|12409|Z|Shadowmoon Valley|U|37586|REP|Scryers;934|
-A Candy Bucket|N|From the Candy Bucket. (Shadowmoon Valley, Sanctum of the Stars)|QID|12409|M|56.37,59.81|Z|Shadowmoon Valley|REP|Scryers;934|
+F Altar of Sha'tar|N|Fly to Altar of Sha'tar.|M|30.34,29.19|QID|12409|Z|Shadowmoon Valley|U|37586|REP|Aldor;932;Neutral-Exalted|
+A Candy Bucket|N|From the Candy Bucket. (Shadowmoon Valley, Altar of Sha'tar)|QID|12409|M|61,28.17|Z|Shadowmoon Valley|REP|Aldor;932;Neutral-Exalted|
+F Sanctum of the Stars|N|Fly to Sanctum of the Stars.|M|30.34,29.19|QID|12409|Z|Shadowmoon Valley|U|37586|REP|Scryers;934;Neutral-Exalted|
+A Candy Bucket|N|From the Candy Bucket. (Shadowmoon Valley, Sanctum of the Stars)|QID|12409|M|56.37,59.81|Z|Shadowmoon Valley|REP|Scryers;934;Neutral-Exalted|
 R Orgrimmar|M|57.17,48.28|Z|Shattrath City|QID|13468|N|Fly back to Shattrath and take the portal back to Orgrimmar or just hearth back.|U|37586|
 
 ]]

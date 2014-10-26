@@ -4,6 +4,18 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-10-26 00:26
+-- Who: Emmaleah
+-- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
+--	
+--	removed duplicate "|" in cata guide x3, and put in a missing "|M|" - hopefully allowing the mapping to work for the deepholm portal in orgrimmar
+
+-- URL: http://wow-pro.com/node/3441/revisions/26760/view
+-- Date: 2014-10-25 18:55
+-- Who: Dez
+-- Log: In Outland: Updated for 6.0.2 new portal to Hellfire in capital; added explicit reputation check for Aldor/Scryer; tied portal to first quest step, in hopes of keeping it checked off when completed.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26753/view
 -- Date: 2014-10-22 07:03
 -- Who: Dez
 -- Log: Misplaced Shrine/Grove of Aessina in Winterspring.
@@ -141,7 +153,7 @@ F Orgrimmar|QID|208181|N|Get thee to Orgrimmar to take the portals.|
 
 R Deepholm portal|M|50.6,37|Z|Orgrimmar|N|Take the portal to Deepholm.|
 A Candy Bucket|QID|208181|M|51.2,50.0|Z|Deepholm|N|Caretaker Nuunwa, Temple of Earth|
-R Orgrimmar|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|
+R Orgrimmar|M|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|
 
 R Nordrassil|QID|28999|M|50.97,38.13|Z|Orgrimmar|N|Take the portal to Mt. Hyjal.|
 A Candy Bucket|QID|28999|M|63.05,24.14|Z|Mount Hyjal|N|Sebelia, Nordrassil)
@@ -152,13 +164,13 @@ A Candy Bucket|QID|29000|M|18.63,37.31|Z|Mount Hyjal|N|Salim Moonbear, Grove of 
 F Nordrassil|QID|28986|M|19.60,36.38|Z|Mount Hyjal|U|37586|N|Fly back to Nordrassil to the portal.|
 R Orgrimmar|QID|28986|M|62.66,22.98|N|Take the portal back to Orgrimmar.|Z|Mount Hyjal|
 
-R Darkbreak Cove|QID|28986||M|49.36,36.65|Z|Orgrimmar|N|Take the portal to Vashj'ir.|
+R Darkbreak Cove|QID|28986|M|49.36,36.65|Z|Orgrimmar|N|Take the portal to Vashj'ir.|
 A Candy Bucket|QID|28986|M|51.3,60.6|Z|Abyssal Depths|N|Innkeeper Nerius, Tenebrous Cavern|
 A Candy Bucket|QID|28984|M|53.8,67.0|Z|Shimmering Expanse|N|Fiasco Sizzlegrin, Legion's Rest|
 A Candy Bucket|QID|28982|M|49.2,41.9|Z|Shimmering Expanse|N|Caretaker Movra, Silver Tide Hollow|
 A Candy Bucket|QID|28981|M|63.4,60.2|Z|Kelp'thar Forest|N|Erunak Stonespeaker, Deepmist Grotto|
 
-R Twilight Highlands|QID|28976||M|50.23,39.26|Z|Orgrimmar|N|Take the portal to Twilight Highlands|
+R Twilight Highlands|QID|28976|M|50.23,39.26|Z|Orgrimmar|N|Take the portal to Twilight Highlands|
 F The Krazzworks|M|68.17,33.40|QID|28976|Z|Arathi Highlands|U|37586|N|Fly to The Krazzworks, Twilight Highlands.|
 
 A Candy Bucket|QID|28976|M|75.41,16.53|Z|Twilight Highlands|N|Inkeeper Geno, The Krazzworks|
@@ -169,7 +181,7 @@ A Candy Bucket|QID|28973|M|53.40,42.85|Z|Twilight Highlands|N|Inkeeper Turk, Blo
 F Crushblow|M|54.15,42.23|QID|28974|Z|Twilight Highlands|U|37586|N|Fly to Crushblow, Twilight Highlands.|
 A Candy Bucket|QID|28974|M|45.11,76.80|Z|Twilight Highlands|N|Inkeeper Krum, Crushblow|
 
-R Uldum|QID|29016||M|28.98,38.49|Z|Orgrimmar|N|Take the portal to Uldum|
+R Uldum|QID|29016|M|28.98,38.49|Z|Orgrimmar|N|Take the portal to Uldum|
 F Oasis of Vir'sar|QID|29016|M|55.98,64.17|Z|Un'Goro Crater|U|37586|N|Fly to Oasis of Vir'sar, Uldum.|
 A Candy Bucket|QID|29016|M|26.58,7.25|Z|Uldum|N|Yasmin, Oasis of Vir'sar|
 F Ramkahen|QID|29017|M|26.61,8.35|Z|Uldum|U|37586||N|Fly to Ramkahen, Uldum.|

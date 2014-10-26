@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
+-- Date: 2014-10-26 00:34
+-- Who: Emmaleah
+-- Log: correct item id of iron starlette
+
+-- URL: http://wow-pro.com/node/3607/revisions/26762/view
+-- Date: 2014-10-25 21:56
+-- Who: Ludovicus
+-- Log: Some coord tweaks and got rid of a death-trap typo!
+
+-- URL: http://wow-pro.com/node/3607/revisions/26732/view
 -- Date: 2014-10-17 00:41
 -- Who: Ludovicus
 -- Log: Coord tweaks and changed to a WE guide.
@@ -70,11 +80,11 @@ T Ending Executions|QID|35464|N|To Bodrick Grey.|M|66.94,27.94|
 T Subversive Scouts|QID|35463|N|To Vindicator Maraad.|M|66.58,28.26|
 
 A Investigating the Invasion|QID|36307|N|From Vindicator Maraad.|M|66.58,28.26|
-T Investigating the Invasion|QID|36307|M|48.73,31.77|N|To Vindicator Maraad, who has moved location.|M|51.9,28.6|
+T Investigating the Invasion|QID|36307|N|To Vindicator Maraad, who has moved location.|M|51.94,28.64|
 
-A Lunatic Lieutenants|QID|35486|M|48.74,31.78|N|From Vindicator Maraad.|M|51.9,28.6|
-A For Nethergarde! |QID|35492|N|From Vindicator Maraad.|M|51.9,28.6|
-A Mementos of the Fallen |QID|35494|N|From Commander Vines|M|52.0,28.5|
+A Lunatic Lieutenants|QID|35486|M|48.74,31.78|N|From Vindicator Maraad.|M|51.94,28.64|
+A For Nethergarde! |QID|35492|N|From Vindicator Maraad.|M|51.94,28.64|
+A Mementos of the Fallen |QID|35494|N|From Commander Vines|M|52.00,28.53|
 
 C Lunatic Lieutenants|QID|35486|QO|2|N|Kill Rukah and loot the Battleplan|M|57.1,18.2|
 C Mementos of the Fallen |QID|35494|QO|3|N|Loot Keri's Mug|NC|M|59.3,18.0|
@@ -86,12 +96,12 @@ C Lunatic Lieutenants|QID|35486|QO|1|N|Kill Mokrik Blackfingers and loot the Bat
 C For Nethergarde! |QID|35492|QO|3|N|Plant the flag outside of the main keep|NC|M|59.9,15.9|
 C Lunatic Lieutenants|QID|35486|QO|3|N|Kill Gar Steelcrush and loot the Battleplan. He can be found inside the main keep upstairs in the command room.|
 
-T Mementos of the Fallen |QID|35494|N|From Commander Vines|M|52.0,28.5|
-T Lunatic Lieutenants|QID|35486|M|48.74,31.78|N|From Vindicator Maraad.|M|51.9,28.6|
-T For Nethergarde! |QID|35492|N|From Vindicator Maraad.|M|51.9,28.6|
+T Mementos of the Fallen |QID|35494|N|From Commander Vines|M|52.00,28.53|
+T Lunatic Lieutenants|QID|35486|M|48.74,31.78|N|From Vindicator Maraad.|M|51.94,28.64|
+T For Nethergarde! |QID|35492|N|From Vindicator Maraad.|M|51.94,28.64|
 
-A Toothsmash the Annihilator|QID|35495|N|From Vindicator Maraad.|M|51.9,28.6|
-A Death to the Dreadmaul|QID|35488|N|From Vindicator Maraad.|M|51.9,28.6|
+A Toothsmash the Annihilator|QID|35495|N|From Vindicator Maraad.|M|51.94,28.64|
+A Death to the Dreadmaul|QID|35488|N|From Vindicator Maraad.|M|51.94,28.64|
 A Enohar's Revenge|QID|35496|N|From Enohar Thunderbrew|M|51.8,28.7|
 
 C Enohar's Revenge|QID|35496|M|43.84,31.20|S|NC|N|Click on the big cooking pots.|
@@ -101,18 +111,18 @@ C Enohar's Revenge|QID|35496|US|NC|N|Click on the big cooking pots.|M|43.4,37.0;
 C Death to the Dreadmaul|QID|35488|M|45.34,31.22|US|N|FInish up any ogres you need.|
 
 T Enohar's Revenge|QID|35496|N|To Enohar Thunderbrew|M|51.8,28.7|
-T Toothsmash the Annihilator|QID|35495|N|To Vindicator Maraad.|M|51.9,28.6|
-T Death to the Dreadmaul|QID|35488|N|To Vindicator Maraad.|M|51.9,28.6|
+T Toothsmash the Annihilator|QID|35495|N|To Vindicator Maraad.|M|51.94,28.64|
+T Death to the Dreadmaul|QID|35488|N|To Vindicator Maraad.|M|51.94,28.64|
 
-A Gar'mak Bladetwist|QID|35500|N|From Vindicator Maraad.|M|51.9,28.6|
+A Gar'mak Bladetwist|QID|35500|N|From Vindicator Maraad.|M|51.94,28.64|
 C Gar'mak Bladetwist|QID|35500|M|40.45,11.45|T|Gar'mak Bladetwist|N|Kill Gar'mak Bladetwist. He is inside the building on the the top level of the building.|
-T Gar'mak Bladetwist|QID|35500|N|To Vindicator Maraad.|M|51.9,28.6|
+T Gar'mak Bladetwist|QID|35500|N|To Vindicator Maraad.|M|51.94,28.64|
 
-A Report to the King|QID|36941|N|From Vindicator Maraad.|M|51.9,28.6|,
+A Report to the King|QID|36941|N|From Vindicator Maraad.|M|51.94,28.64|
 F Stormwind City|QID|36941|N|Head to the King in Stormwind City. You can use the portal in Shattered Beachhead, or your preferred route to Stormwind City.|ACTIVE|36941|M|66.4,28.0|
 T Report to the King|QID|36941|N|To King Varian Wrynn in Stormwind Keep.|M|85.8,31.7|Z|Stormwind City|
 
-U Iron Starlette|U|110660|N|Add your starlette to your collection. Run the revamped Upper Blackrock Spire while it's tuned for 90's (will be 100 after expansion is released.)|
+U Iron Starlette|U|111660|N|Add your starlette to your collection. Run the revamped Upper Blackrock Spire while it's tuned for 90's (will be 100 after expansion is released.)|
 
 ]]
 

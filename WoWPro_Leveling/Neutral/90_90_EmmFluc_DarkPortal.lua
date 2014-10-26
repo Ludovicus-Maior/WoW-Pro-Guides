@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-10-26 23:32
+-- Who: Ludovicus
+-- Log: More coordinate corrections and threw in a few /1's for the cave later.
+
+-- URL: http://wow-pro.com/node/3600/revisions/26763/view
+-- Date: 2014-10-25 22:05
+-- Who: Ludovicus
+-- Log: Bad coord for T [Onslaught's End]
+
+-- URL: http://wow-pro.com/node/3600/revisions/26756/view
 -- Date: 2014-10-23 12:01
 -- Who: Fluclo
 -- Log: Added coords for the three sets of huts as a |CN|
@@ -86,9 +96,9 @@ T Azeroth's Last Stand |QID|35933|N|Auto-Complete|Z|TanaanJungleIntro|
 A Onslaught's End |QID|34392|N|Auto-Accept\n\nIf you've previously abandoned this quest, you can pick it up again from Archmage Khadgar.|PRE|35933|Z|TanaanJungleIntro|
 C Onslaught's End |QID|34392|N|Disable the Northern Fel Spire|QO|1|NC|M|51.0, 42.0|Z|TanaanJungleIntro|
 C Onslaught's End |QID|34392|N|Disable the Southern Fel Spire|QO|2|NC|M|51.0, 54.6|Z|TanaanJungleIntro|
-T Onslaught's End |QID|34392|N|To Archmage Khadgar|M|4.73,48.26|Z|TanaanJungleIntro|
+T Onslaught's End |QID|34392|N|To Archmage Khadgar|M|54.73,48.26|Z|TanaanJungleIntro|
 
-A The Portal's Power |QID|34393|N|From Archmage Khadgar|M|4.73,48.26|PRE|34392|Z|TanaanJungleIntro|
+A The Portal's Power |QID|34393|N|From Archmage Khadgar|M|54.73,48.26|PRE|34392|Z|TanaanJungleIntro|
 C The Portal's Power |QID|34393|N|Enter Gul'dan's prison, located directly underneath Archmage Khadgar. Entrances available due north and due south of Khadgar.|NC|QO|1|M|54.9,51.1|Z|TanaanJungleIntro|
 C The Portal's Power |QID|34393|N|Mark of the Burning Blade destroyed|NC|QO|2|M|56.0,46.3|Z|TanaanJungleIntro|
 C The Portal's Power |QID|34393|N|Mark of the Shattered Hand destroyed|NC|QO|3|M|57.3,48.2|Z|TanaanJungleIntro|
@@ -118,6 +128,7 @@ T Vengeance for the Fallen |QID|35241|N|To Thrall|FACTION|Horde|M|71.92,62.06|Z|
 T Blaze of Glory |QID|34422|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIntro|
 T Bled Dry |QID|35240;34421|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIntro|
 
+N Altar Altercation |QID|34423|N|This quest sometimes does not show in the guide. If it does not, /reloadui should make it appear. It is a Blizzard bug.|
 A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35242;34422;35240|FACTION|Alliance|M|71.61,62.43|Z|TanaanJungleIntro|
 A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35241;34422;34421|FACTION|Horde|M|71.61,62.43|Z|TanaanJungleIntro|
 C Altar Altercation |QID|34423|N|Speak with Ariok and tell him "Khadgar has asked us to go distract the Eye of Kilrogg".|QO|1|CHAT|M|72.0,62.2|Z|TanaanJungleIntro|
@@ -141,34 +152,34 @@ C Kill Your Hundred |QID|34429|N|Wait until you have 100 Combatants killed (your
 C Kill Your Hundred |QID|34429|N|Leave the arena and head to Umbral Halls.|NC|QO|3|M|80.9,50.1|Z|TanaanJungleIntro/1|
 T Kill Your Hundred |QID|34429|N|To Archmage Khadgar|M|81.31,50.27|Z|TanaanJungleIntro/1|
 
-A The Shadowmoon Clan |QID|34432|N|From Vindicator Maraad|FACTION|Alliance|M|80.7,45.3|PRE|34429|Z|TanaanJungleIntro|
-A The Shadowmoon Clan |QID|34739|N|From Thrall|FACTION|Horde|M|80.54,48.42|PRE|34429|Z|TanaanJungleIntro|
-A Masters of Shadow |QID|34431;34737|N|From Luuka|M|82.89,54.52|PRE|34429|Z|TanaanJungleIntro|
-C The Shadowmoon Clan |QID|34432;34739|N|Kill the Shadowmoon Voidaxe, Ritualist and Void Wolfs|S|M|60.6,51.8|Z|TanaanJungleIntro|
-C Kill Ungra|QID|34431;34737|N|Head up the first stairs, then take the next set of stairs to the left, then to the left.|QO|1|M|44.0,74.5|T|Ungra|Z|TanaanJungleIntro|
-C Kill Taskmaster Gorran|QID|34431;34737|N|Straight along the corridor behind you. Watch for the hole in the floor.|QO|2|M|56.2,19.8|T|Taskmaster Gurran|Z|TanaanJungleIntro|
-C Find Ankova|QID|34431;34737|N|Jump down the hole, then follow the corridor north-west to the corpse of Ankova|QO|3|NC|M|45.2,16.1|Z|TanaanJungleIntro|
-A Yrel|QID|34434;34740|From Yrel|M|45.15,15.98|N|From Yrel.|Z|TanaanJungleIntro|PRE|34429|
-C Yrel|QID|34434;34740|Head back down the corridor.|M|58.28,38.31|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|TanaanJungleIntro|
-C The Shadowmoon Clan|QID|34432;34739|N|Finish killing the Shadowmoon Voidaxe and Void Wolves|US|M|57.7,40.6|Z|TanaanJungleIntro|
-T The Shadowmoon Clan|QID|34432|N|To Qiana Moonshadow|FACTION|Alliance|M|50.7,48.5|Z|TanaanJungleIntro|
-T The Shadowmoon Clan|QID|34739|N|To Olin Umberhide|FACTION|Horde|M|51.30,46.98|Z|TanaanJungleIntro|
-T Yrel|QID|34434;34740|N|To Yrel|M|50.7,48.5|Z|TanaanJungleIntro|
-T Masters of Shadow|QID|34431|N|To Exarch Maladaar|FACTION|Alliance|M|50.7,48.5|Z|TanaanJungleIntro|
-T Masters of Shadow|QID|34737|N|To Lady Liadrin|FACTION|Horde|M|50.19,48.52|Z|TanaanJungleIntro|
+A The Shadowmoon Clan |QID|34432|N|From Vindicator Maraad|FACTION|Alliance|M|80.7,45.3|PRE|34429|Z|TanaanJungleIntro/1|
+A The Shadowmoon Clan |QID|34739|N|From Thrall|FACTION|Horde|M|80.54,48.42|PRE|34429|Z|TanaanJungleIntro/1|
+A Masters of Shadow |QID|34431;34737|N|From Luuka|M|82.87,44.31|PRE|34429|Z|TanaanJungleIntro/1|
+C The Shadowmoon Clan |QID|34432;34739|N|Kill the Shadowmoon Voidaxe, Ritualist and Void Wolfs|S|M|60.6,51.8|Z|TanaanJungleIntro/1|
+C Kill Ungra|QID|34431;34737|N|Head up the first stairs, then take the next set of stairs to the left, then to the left.|QO|1|M|44.0,74.5|T|Ungra|Z|TanaanJungleIntro/1|
+C Kill Taskmaster Gorran|QID|34431;34737|N|Straight along the corridor behind you. Watch for the hole in the floor.|QO|2|M|56.2,19.8|T|Taskmaster Gurran|Z|TanaanJungleIntro/1|
+C Find Ankova|QID|34431;34737|N|Jump down the hole, then follow the corridor north-west to the corpse of Ankova|QO|3|NC|M|45.2,16.1|Z|TanaanJungleIntro/1|
+A Yrel|QID|34434;34740|From Yrel|M|45.15,15.98|N|From Yrel.|Z|TanaanJungleIntro/1|PRE|34429|
+C Yrel|QID|34434;34740|Head back down the corridor.|M|58.28,38.31|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|TanaanJungleIntro/1|
+C The Shadowmoon Clan|QID|34432;34739|N|Finish killing the Shadowmoon Voidaxe and Void Wolves|US|M|57.7,40.6|Z|TanaanJungleIntro/1|
+T The Shadowmoon Clan|QID|34432|N|To Qiana Moonshadow|FACTION|Alliance|M|50.7,48.5|Z|TanaanJungleIntro/1|
+T The Shadowmoon Clan|QID|34739|N|To Olin Umberhide|FACTION|Horde|M|51.30,46.98|Z|TanaanJungleIntro/1|
+T Yrel|QID|34434;34740|N|To Yrel|M|50.60,48.40|Z|TanaanJungleIntro/1|
+T Masters of Shadow|QID|34431|N|To Exarch Maladaar|FACTION|Alliance|M|50.27,48.20|Z|TanaanJungleIntro/1|
+T Masters of Shadow|QID|34737|N|To Lady Liadrin|FACTION|Horde|M|50.19,48.52|Z|TanaanJungleIntro/1|
 
-A Keli'dan the Breaker|QID|34436|N|From Exarch Maladaar|FACTION|Alliance|M|50.7,48.5|PRE|34431;34434;34432|Z|TanaanJungleIntro|
-A Keli'dan the Breaker|QID|34741|N|From Lady Liadrin|FACTION|Horde|M|50.7,48.5|PRE|34739;34740;34737|Z|TanaanJungleIntro|
-C Keli'dan the Breaker|QID|34436;34741|N|Go towards the gate, it will open. Go in and kill Keli'dan.|M|35.47,51.26|T|Keli'dan the Breaker|Z|TanaanJungleIntro|
+A Keli'dan the Breaker|QID|34436|N|From Exarch Maladaar|FACTION|Alliance|M|50.27,48.20|PRE|34431;34434;34432|Z|TanaanJungleIntro/1|
+A Keli'dan the Breaker|QID|34741|N|From Lady Liadrin|FACTION|Horde|M|50.7,48.5|PRE|34739;34740;34737|Z|TanaanJungleIntro/1|
+C Keli'dan the Breaker|QID|34436;34741|N|Go towards the gate, it will open. Go in and kill Keli'dan.|M|35.47,51.26|T|Keli'dan the Breaker|Z|TanaanJungleIntro/1|
 T Keli'dan the Breaker |QID|34436;34741|N|To Archmage Khadgar|M|49.50,14.39|Z|TanaanJungleIntro|
 
-A Prepare for Battle|QID|35019|N|From Vindicator Maraad|FACTION|Alliance|PRE|34436|M|48.5,14.1|Z|TanaanJungleIntro|
+A Prepare for Battle|QID|35019|N|From Vindicator Maraad|FACTION|Alliance|PRE|34436|M|48.56,14.17|Z|TanaanJungleIntro|
 A Prepare for Battle|QID|35005|N|From Thrall|FACTION|Horde|PRE|34741|M|50.07,13.34|Z|TanaanJungleIntro|
 C Prepare for Battle|QID|35019;35005|N|Kill and loot the Blackrock, or pick the Iron Horde Weapon from the floor.|M|44.9,19.5|Z|TanaanJungleIntro|
 T Prepare for Battle|QID|35019|N|To Vindicator Maraad|FACTION|Alliance|M|48.6,14.2|Z|TanaanJungleIntro|
 T Prepare for Battle|QID|35005|N|To Thrall|FACTION|Horde|M|50.07,13.34|Z|TanaanJungleIntro|
 
-A The Battle of the Forge |QID|34439|N|From Cordana Felsong|PRE|35005+35019|M|49.5,14.2|Z|TanaanJungleIntro|
+A The Battle of the Forge |QID|34439|N|From Cordana Felsong|PRE|35005+35019|M|49.49,14.21|Z|TanaanJungleIntro|
 C The Battle of the Forge |QID|34439|N|Kill Blackrock Grunts|QO|2|S|M|44.3,21.3|Z|TanaanJungleIntro|
 C The Battle of the Forge |QID|34439|N|Kill the Ogron Warcrusher|QO|1|M|42.9,21.4|Z|TanaanJungleIntro|
 C The Battle of the Forge |QID|34439|N|Finish killing the Blackrock Grunts|QO|2|US|M|44.3,21.3|Z|TanaanJungleIntro|

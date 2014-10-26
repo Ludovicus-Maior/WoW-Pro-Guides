@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-10-25 18:59
+-- Who: Dez
+-- Log: In Outland: added explicit reputation check for Aldor/Scryer.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26743/view
 -- Date: 2014-10-19 23:57
 -- Who: Dez
 -- Log: In Eastern Kingdoms: Typo fixes (Acutioneer to Auctioneer, pumkin to pumpkin); Added steps to speak to Zidormi to revert Blasted Lands to pre-Iron Horde invasion, to allow accessing the two inns in this zone; Reordered steps to - at least partially - optimize pathing given the changes involved here (no flight points in the past time zone); couldn't find a flight point at Greenwarden's Grove, so changed that to a Run step; added a warning about PvP flag when going for the Horde's Wickerman.
@@ -133,7 +138,7 @@ WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Outland")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R The Dark Portal|QID|12352|N|In the Mage Tower in Stormwind or The Temple of the Moon in Darnassus.|Z|Stormwind City|M|50.3,86|
+R Portal to Hellfire Peninsula|QID|12352|N|In the Mage Tower in Stormwind or The Temple of the Moon in Darnassus.|Z|Stormwind City|M|50.3,86|
 
 F Honor Hold|QID|12352|M|54.65,62.57|Z|Hellfire Peninsula|
 A Candy Bucket |QID|12352|M|54.28,63.62|Z|Hellfire Peninsula|N|Honor Hold|
@@ -160,17 +165,17 @@ A Candy Bucket |QID|12403|M|78.48,62.81|Z|Zangarmarsh|N|Cenarion Refuge|
 F Telaar|QID|12357|M|54.13,75.22|Z|Nagrand|U|37586|
 A Candy Bucket |QID|12357|M|54.19,75.72|Z|Nagrand|N|Telaar|
 F Shattrath City|QID|12404|M|63.80,41.72|Z|Shattrath City|U|37586|
-A Candy Bucket |QID|12404|M|28.2,49.1|Z|Shattrath City|REP|Aldor;932|N|Aldor Rise|
-A Candy Bucket |QID|12404|M|56.19,81.77|Z|Shattrath City|REP|Scryers;934|N|Scryer's Tier|
+A Candy Bucket |QID|12404|M|28.2,49.1|Z|Shattrath City|REP|Aldor;932;Neutral-Exalted|N|Aldor Rise|
+A Candy Bucket |QID|12404|M|56.19,81.77|Z|Shattrath City|REP|Scryers;934;Neutral-Exalted|N|Scryer's Tier|
 
 F Allerian Stronghold|QID|12356|M|59.45,55.20|Z|Terokkar Forest|U|37586|
 A Candy Bucket |QID|12356|M|56.64,53.23|Z|Terokkar Forest|N|Allerian Stronghold|
 F Wildhammer Stronghold|QID|12360|M|37.61,55.48|Z|Shadowmoon Valley|U|37586|
 A Candy Bucket |QID|12360|M|37.05,58.22|Z|Shadowmoon Valley|N|Wildhammer Stronghold|
-F Sanctum of the Stars|QID|12409|M|56.39,57.96|Z|Shadowmoon Valley|REP|Scryers;934|U|37586|
-A Candy Bucket |QID|12409|M|56.37,59.73|Z|Shadowmoon Valley|REP|Scryers;934|N|Sanctum of the Stars|
-F Altar of Shatar|QID|12409|M|62.89,30.59|Z|Shadowmoon Valley|REP|Aldor;932|U|37586|
-A Candy Bucket |QID|12409|M|61.18,28.83|Z|Shadowmoon Valley|REP|Aldor;932|N|Altar of Shatar|
+F Sanctum of the Stars|QID|12409|M|56.39,57.96|Z|Shadowmoon Valley|REP|Scryers;934;Neutral-Exalted|U|37586|
+A Candy Bucket |QID|12409|M|56.37,59.73|Z|Shadowmoon Valley|REP|Scryers;934;Neutral-Exalted|N|Sanctum of the Stars|
+F Altar of Shatar|QID|12409|M|62.89,30.59|Z|Shadowmoon Valley|REP|Aldor;932;Neutral-Exalted|U|37586|
+A Candy Bucket |QID|12409|M|61.18,28.83|Z|Shadowmoon Valley|REP|Aldor;932;Neutral-Exalted|N|Altar of Shatar|
 N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
 N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|
 
