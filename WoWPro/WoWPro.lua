@@ -475,7 +475,7 @@ function WoWPro:Timeless()
 end
 
 
-function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, side)
+function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction)
     if not WoWPro[gtype] then
         WoWPro:Error("WoWPro:RegisterGuide(%s,%s,...) has bad gtype",GIDvalue,tostring(gtype))
     end
@@ -484,12 +484,12 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, side)
 		guidetype = gtype,
 		zone = zonename,
 		author = authorname,
-		side = side,
+		faction = faction,
 		GID = GIDvalue
 	}
 
 
-	if side and side ~= UnitFactionGroup("player") and side ~= "Neutral" then
+	if faction and faction ~= UnitFactionGroup("player") and faction ~= "Neutral" then
 	    -- If the guide is not of the correct side, don't register it
 	    return guide
 	end 
@@ -624,8 +624,7 @@ function WoWPro:InterpolateHSL(l,h,r)
         WoWPro:Error("InterpolateHSL: bad factor %f",r)
         r = -1
     end
-    WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)",
-                l[1], l[2], l[3], h[1], h[2], h[3], r)
+--    WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)", l[1], l[2], l[3], h[1], h[2], h[3], r)
     return { l[1]*ir + h[1]*r , l[2]*ir + h[2]*r, l[3]*ir + h[3]*r }
 end
 
@@ -646,7 +645,7 @@ function WoWPro:QuestColor(questLevel, playerLevel)
     
     local diff = questLevel - playerLevel
     local c
-    WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
+--    WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
     if diff > 5 then
         -- Red/Gray => Red
         c = WoWPro:InterpolateHSL(Difficulty[1], Difficulty[0], (diff-5)/90)
@@ -678,11 +677,11 @@ function WoWPro.LevelColor(guide)
     
     playerLevel = WoWPro:PlayerLevel()
     if type(guide) == "number" then
-        WoWPro:dbp("WoWPro.LevelColor(%f)",guide)
+--        WoWPro:dbp("WoWPro.LevelColor(%f)",guide)
         return {WoWPro:QuestColor(guide)}
     end
     if type(guide) == "table" then
-         WoWPro:dbp("WoWPro.LevelColor(%s)",guide.GID)
+--         WoWPro:dbp("WoWPro.LevelColor(%s)",guide.GID)
         if (playerLevel < guide['startlevel']) then
             return {WoWPro:QuestColor(guide['level'] or guide['endlevel'])}
         end
