@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-10-27 07:29
+-- Who: Emmaleah
+-- Log: few minor corrections from horde side play thru 10/26/14
+
+-- URL: http://wow-pro.com/node/3600/revisions/26766/view
 -- Date: 2014-10-26 23:32
 -- Who: Ludovicus
 -- Log: More coordinate corrections and threw in a few /1's for the cave later.
@@ -75,7 +80,7 @@
 -- Date: 2014-09-19 18:17
 -- Who: Fluclo
 
-local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'The Dark Portal', 'Emm+Fluc', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'Assault on the Dark Portal', 'Emm+Fluc', 'Neutral')
 WoWPro:GuideLevels(guide,90,90,90)
 WoWPro:GuideNextGuide(guide, 'ShadowDraenor|EmmFrostfire')
 WoWPro:GuideSteps(guide, function()
@@ -116,15 +121,15 @@ A Vengeance for the Fallen |QID|35241|N|From Ashka|M|62.2,53.0|PRE|34420|Z|Tanaa
 A Bled Dry |QID|35240|N|From Taag|M|62.27,52.96|PRE|34420|Z|TanaanJungleIntro|FACTION|Alliance|
 A Bled Dry |QID|34421|N|From Korag|M|62.27,52.96|PRE|34420|Z|TanaanJungleIntro|FACTION|Horde|
 
-C Vengeance for the Fallen |QID|35242;35241|N|Kill the Bleeding Hollow orcs.|S|M|65.7,54.0|Z|TanaanJungleIntro|FACTION|Alliance|
+C Vengeance for the Fallen |QID|35242;35241|N|Kill the Bleeding Hollow orcs.|S|M|65.7,54.0|Z|TanaanJungleIntro|
 C Blaze of Glory |QID|34422|N|Approach the Bleeding Hollow huts, then use Lucifrium Bead's "Inferno" to burn them.|NC|S|M|66.5,55.9|Z|TanaanJungleIntro|
 C Bled Dry |QID|35240;34421|N|Open the Eastern cage.|NC|QO|2|M|65.7,54.0|Z|TanaanJungleIntro|
 C Bled Dry |QID|35240;34421|N|Open the Southern cage.|NC|QO|1|M|61.0,62.7|Z|TanaanJungleIntro|
 C Blaze of Glory |QID|34422|N|Finish burning the Bleeding Hollow huts.|NC|US|M|63.65,50.03;66.55,55.61;61.23,62.07|CN|Z|TanaanJungleIntro|
 C Vengeance for the Fallen |QID|35242;35241|N|Finish killing the Bleeding Hollow orcs.|US|M|63.3,64.4|Z|TanaanJungleIntro|
 
-T Vengeance for the Fallen |QID|35242|N|To Vindicator Maraad|FACTION|Alliance|M|71.5,62.7|Z|TanaanJungleIntro|
-T Vengeance for the Fallen |QID|35241|N|To Thrall|FACTION|Horde|M|71.92,62.06|Z|TanaanJungleIntro|
+T Vengeance for the Fallen |QID|35242|N|To Vindicator Maraad|FACTION|Alliance|M|66.37,59.91;71.5,62.7|CS|Z|TanaanJungleIntro|;I discovered if you don't run on the road, quest won't be able to be turned in
+T Vengeance for the Fallen |QID|35241|N|To Thrall|FACTION|Horde|M|66.37,59.91;71.92,62.06|CS|Z|TanaanJungleIntro|
 T Blaze of Glory |QID|34422|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIntro|
 T Bled Dry |QID|35240;34421|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIntro|
 
@@ -153,7 +158,7 @@ C Kill Your Hundred |QID|34429|N|Leave the arena and head to Umbral Halls.|NC|QO
 T Kill Your Hundred |QID|34429|N|To Archmage Khadgar|M|81.31,50.27|Z|TanaanJungleIntro/1|
 
 A The Shadowmoon Clan |QID|34432|N|From Vindicator Maraad|FACTION|Alliance|M|80.7,45.3|PRE|34429|Z|TanaanJungleIntro/1|
-A The Shadowmoon Clan |QID|34739|N|From Thrall|FACTION|Horde|M|80.54,48.42|PRE|34429|Z|TanaanJungleIntro/1|
+A The Shadowmoon Clan |QID|34739|N|From Thrall|FACTION|Horde|M|81.62,44.75|PRE|34429|Z|TanaanJungleIntro/1|
 A Masters of Shadow |QID|34431;34737|N|From Luuka|M|82.87,44.31|PRE|34429|Z|TanaanJungleIntro/1|
 C The Shadowmoon Clan |QID|34432;34739|N|Kill the Shadowmoon Voidaxe, Ritualist and Void Wolfs|S|M|60.6,51.8|Z|TanaanJungleIntro/1|
 C Kill Ungra|QID|34431;34737|N|Head up the first stairs, then take the next set of stairs to the left, then to the left.|QO|1|M|44.0,74.5|T|Ungra|Z|TanaanJungleIntro/1|
@@ -203,7 +208,7 @@ T The Shadow of the Worldbreaker |QID|34958|N|To Thaelin Darkanvil|M|44.06,29.67
 T The Prodigal Frostwolf |QID|34437|N|To Farseer Drek'Thar|M|43.04,26.37|Z|TanaanJungleIntro|
 A Taking a Trip to the Top of the Tank |QID|35747|N|From Archmage Khadgar|PRE|34958;34437;34987|M|43.13,28.73|Z|TanaanJungleIntro|
 C Taking a Trip to the Top of the Tank |QID|35747|N|Speak with Thaelin Darkanvil and say "Yes. I need you to help me operate that enormous tank".|QO|1|CHAT|M|44.06,29.56|Z|TanaanJungleIntro|
-C Taking a Trip to the Top of the Tank |QID|35747|N|Head to The Path of Glory and kill Gogluk.|QO|2|M|39.90,48.23|Z|TanaanJungleIntro|
+C Taking a Trip to the Top of the Tank |QID|35747|N|Head to The Path of Glory and kill Gogluk.|QO|2|M|39.90,48.23|Z|TanaanJungleIntro|T|Gogluk|
 C Taking a Trip to the Top of the Tank |QID|35747|N|Run up one of the two chains to the top of the tank.|NC|QO|3|M|40.1,48.4|Z|TanaanJungleIntro|
 T Taking a Trip to the Top of the Tank |QID|35747|N|To Thaelin Darkanvil|M|40.10,48.43|Z|TanaanJungleIntro|
 
@@ -220,7 +225,7 @@ T The Home Stretch |QID|35884;34446|N|To Archmage Khadgar|M|44.41,80.70|Z|Tanaan
 A Exarch Maladaar|QID|34787|M|44.41,80.70|N|From Archmage Khadgar.|FACTION|Alliance|Z|TanaanJungleIntro|
 A The Home of the Frostwolves|QID|33868|M|44.41,80.70|N|From Archmage Khadgar.|FACTION|Horde|Z|TanaanJungleIntro|
 
-N And you are Finished!|QID|34787;33868|N|Check this step off and the next guide will load.|
+N And you are Finished!|QID|34787;33868|N|Check this step off and the next guide should load. If not you can always load it manually.|
 
 ]]
 
