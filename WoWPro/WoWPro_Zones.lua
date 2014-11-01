@@ -607,7 +607,7 @@ DefineTerrain(2,50, 614,0,"Abyssal Depths")
 DefineTerrain(2,51, 615,0,"Shimmering Expanse")
 DefineTerrain(2,51, 610,0,"Kelp'thar Forest")
 DefineInstance( 970,1,"Umbral Halls")
-
+DefineTerrain(3, 9, 477,0,"Nagrand")
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
