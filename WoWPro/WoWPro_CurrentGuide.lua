@@ -182,7 +182,7 @@ frame:SetScript("OnShow", function()
 			row.step:SetText(step)
 			
 			local action = WoWPro.action[index]
-			row.action:SetTexture(WoWPro[module:GetName()].actiontypes[action])
+			row.action:SetTexture(WoWPro.actiontypes[action])
 			
             if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
                 row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
