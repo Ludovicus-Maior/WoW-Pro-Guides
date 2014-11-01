@@ -687,6 +687,33 @@ function WoWPro:RemoveMapPoint()
 	end
 end
 
+function  WoWPro:CheckAstrolabeData()
+    if not WoWPro.Astrolabe['zeroData'] then
+        WoWPro:dbp("CheckAstrolabeData(): No Astrolabe!")
+        return
+    end
+    local Astrolabe = WoWPro.Astrolabe
+    local map, pizo = Astrolabe:GetCurrentPlayerPosition()
+    if Astrolabe.WorldMapSize[map][pizo] ~= Astrolabe.zeroData then
+        -- We have data
+        WoWPro:dbp("Map data present for %d/%d", map, pizo)
+        return
+    end
+    -- Hey!  No data!
+    local mapData = {}
+    local l, TLx, TLy, BRx, BRy =  GetCurrentMapDungeonLevel();
+    if not TLx then
+        WoWPro:dbp("GCMDL failed for %d/%d", map, pizo)
+        return
+    end
+	mapData.width = BRx - TLx
+	mapData.height = BRy - TLy
+	mapData.xOffset = -TLx
+	mapData.yOffset = -TLy
+	Astrolabe.WorldMapSize[map][pizo] = mapData
+	WoWPro:Error("You discovered new map info for %s:%s. Please report this on the WoWPro.com website.", GetZoneText(), string.trim(GetSubZoneText()))
+	WoWPro:Error("[%d/%d] w=%f, h=%f, xO=%f, yO=%f", map, pizo, mapData.width, mapData.height, mapData.xOffset, mapData.yOffset)
+end
 
 function WoWPro:ZoneInfo()
      WoWPro.eBox = WoWPro.eBox or CreateFrame("EditBox", nil,UIParent,ChatFrameEditBoxTemplate)

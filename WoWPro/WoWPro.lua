@@ -9,6 +9,7 @@ WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {}
 WoWPro.GuideLoaded = false
+WoWPro.Astrolabe = DongleStub("Astrolabe-1.0")
 
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
@@ -334,7 +335,7 @@ function WoWPro:OnEnable()
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
 		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW", "GOSSIP_SHOW",
-		"QUEST_DETAIL", "QUEST_GREETING", "QUEST_TURNED_IN", "QUEST_ACCEPTED", "CINEMATIC_START", "CINEMATIC_STOP"
+		"QUEST_DETAIL", "QUEST_GREETING", "QUEST_TURNED_IN", "QUEST_ACCEPTED", "CINEMATIC_START", "CINEMATIC_STOP", "ZONE_CHANGED_NEW_AREA"
 		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)

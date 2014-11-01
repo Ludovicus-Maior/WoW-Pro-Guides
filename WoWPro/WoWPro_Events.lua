@@ -408,6 +408,11 @@ function WoWPro.EventHandler(frame, event, ...)
 	    WoWPro.InitLockdown = true
 	end
 	
+	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" or event == "PLAYER_ENTERING_WORLD" then
+	    -- Check to see if the current zone is mapped properly.
+	    WoWPro:CheckAstrolabeData()
+	end
+
 	if WoWPro.InitLockdown and event ~= "ZONE_CHANGED_NEW_AREA" then
 	    return
 	end
@@ -462,7 +467,8 @@ function WoWPro.EventHandler(frame, event, ...)
 			WoWPro.Titlebar:Show()
 			WoWPro.Hidden = nil
 		end
-	end	
+	end
+
 
 	-- Unlocking guide frame when leaving combat --
 	if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_ENTERING_WORLD" then
