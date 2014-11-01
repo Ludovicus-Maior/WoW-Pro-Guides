@@ -37,6 +37,16 @@ local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
     WoWPro.MapID2Zone[mapID] = zone
 end
 
+local function DefineTerrainFloor(cont, zonei, mapID, floor, zone, mapName)
+    if mapName then
+        WoWPro.Zone2MapID[zone] = {cont=cont, zonei=zonei, mapID=mapID, floor=floor, zone=zone, mapName=mapName}
+    else
+        WoWPro.Zone2MapID[zone] = {cont=cont, zonei=zonei, mapID=mapID, floor=floor, zone=zone, mapName=zone}
+    end
+    WoWPro.MapID2Zone[mapID] = zone
+end
+
+
 -- From WoWPro:GenerateMapCache() + WoWPro:Functionalize()
 DefineDungeonArea( 321,1,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
 DefineDungeonArea( 321,2,"Cleft of Shadow@Orgrimmar","Orgrimmar","Cleft of Shadow")
@@ -597,17 +607,20 @@ DefineTerrain(7, 8, 978,0,"Ashran")
 -- Manual overrides
 DefineInstance( 976,0,"Frostwall")
 DefineInstance( 971,0,"Lunarfall")
-DefineTerrain(7, 7, 941,1,"Floor1@Bladespire Fortress")
-DefineTerrain(7, 7, 941,2,"Floor2@Bladespire Fortress")
-DefineTerrain(7, 7, 941,3,"Floor3@Bladespire Fortress")
-DefineTerrain(7, 7, 941,4,"Floor4@Bladespire Fortress")
-DefineTerrain(7, 7, 941,8,"Grulloc's Lair")
+DefineTerrainFloor(7, 7, 941,1,"Floor1@Bladespire Fortress", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 941,2,"Floor2@Bladespire Fortress", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 941,3,"Floor3@Bladespire Fortress", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 941,4,"Floor4@Bladespire Fortress", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 941,8,"Grulloc's Lair", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 970,8,"Grulloc's Lair", "TanaanJungleIntro")
 DefineInstance(1011,0,"Warspear")
 DefineTerrain(2,50, 614,0,"Abyssal Depths")
 DefineTerrain(2,51, 615,0,"Shimmering Expanse")
 DefineTerrain(2,51, 610,0,"Kelp'thar Forest")
-DefineInstance( 970,1,"Umbral Halls")
+DefineTerrainFloor(7, 2, 970,1,"Umbral Halls", "TanaanJungleIntro")
 DefineTerrain(3, 9, 477,0,"Nagrand")
+
+
 
 local MapsSeen = {}
 local zonei, zonec, zonenames, contnames = {}, {}, {}, {}
