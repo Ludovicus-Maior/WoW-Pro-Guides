@@ -47,11 +47,6 @@ function WoWPro.Leveling:NextStep(k, skip)
 	local GID = WoWProDB.char.currentguide
 	local myFaction = strupper(UnitFactionGroup("player"))
 
-    if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi[WoWPro.step[k]] then
-	    WoWPro.CompleteStep(k)
-	    skip = true
-	end
-
 	-- Skip Faction qualified steps 
 	if WoWPro.faction[k] then
 		if myFaction == "NEUTRAL" then
@@ -66,52 +61,7 @@ function WoWPro.Leveling:NextStep(k, skip)
 		end
 	end
 	-- 
-
-	-- Optional Quests --
-	if WoWPro.optional[k] and WoWPro.QID[k] then 
 		
-		-- Checking Quest Log --
-		if WoWPro.QuestLog[WoWPro.QID[k]] then 
-			skip = false -- If the optional quest is in the quest log, it's NOT skipped --
-		end
-		
-		-- Checking Prerequisites --
-		if WoWPro.prereq[k] then
-			skip = false -- defaulting to NOT skipped
-			
-			local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-			for j=1,numprereqs do
-				local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-				if not WoWProCharDB.completedQIDs[tonumber(jprereq)] then 
-					skip = true -- If one of the prereqs is NOT complete, step is skipped.
-				end
-			end
-		end
-
-	end
-	
-	-- Skipping quests with prerequisites if their prerequisite was skipped --
-	if WoWPro.prereq[k] 
-	and not WoWProCharDB.Guide[GID].skipped[k] 
-	and not WoWProCharDB.skippedQIDs[WoWPro.QID[k]] then 
-		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
-		for j=1,numprereqs do
-			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
-			if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
-				skip = true
-				-- If their prerequisite has been skipped, skipping any dependant quests --
-				if WoWPro.action[k] == "A" 
-				or WoWPro.action[k] == "C" 
-				or WoWPro.action[k] == "T" then
-					WoWProCharDB.skippedQIDs[WoWPro.QID[k]] = true
-					WoWProCharDB.Guide[GID].skipped[k] = true
-				else
-					WoWProCharDB.Guide[GID].skipped[k] = true
-				end
-			end
-		end
-	end
-					
 	return skip
 end
 
