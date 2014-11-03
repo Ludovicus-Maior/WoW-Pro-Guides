@@ -191,6 +191,21 @@ function WoWPro:UpdateGuideList()
 			end
 			row.GID = GID
 			row:SetChecked(WoWProDB.char.currentguide == GID)
+					
+			if WoWPro[iGuide.guide.guidetype].GuideTooltipInfo then
+    		    row:SetScript("OnEnter", function(self)      
+        		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row,tooltip,iGuide.guide)		            
+        		    GameTooltip:Show()
+        		    if iGuide.guide.icon then
+        		        WoWPro:ShowTooltipIcon(iGuide.guide.icon)
+        		    end
+        		end)
+        		row:SetScript("OnLeave", function(self)
+        		    GameTooltip:Hide()
+        		    WoWPro:HideTooltipIcon()
+        		end)
+            end
+            
 		else
 			row:Hide()
 		end
