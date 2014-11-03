@@ -4,6 +4,19 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-11-02 23:30
+-- Who: Fluclo
+-- Log: Removed Beta Notes; 
+--	Steps requiring more than one kill or collect, and have different quest IDs for factions split into two lines to make the counter display;
+--	swapped the cages for Bled Dry around for smoother questing; 
+--	Umbral Hall coords changed as the |Z|TanaanJungleIntro/1| ones only seem to work if you have loaded up the map (pressing M) first;
+--	Gunpowder plot, indicated it's end hut to collect from;
+--	Trip to Top of Tank, indicate a slight wait for Thaelin to catch-up;
+--	Taste of Iron, the cannons are worth it (5 kills for two bombs!);
+--	Added Auto-Accept quest to Shadowmoon/Frostfire;
+--	Amended end Note since quest currently doesn't auto-move to next guide;
+
+-- URL: http://wow-pro.com/node/3600/revisions/26769/view
 -- Date: 2014-10-27 07:29
 -- Who: Emmaleah
 -- Log: few minor corrections from horde side play thru 10/26/14
@@ -90,8 +103,8 @@ return [[
 
 A The Dark Portal |QID|34398|Z|Stormwind City|N|Auto-Accept on arrival in Stormwind City. If it doesn't appear/auto-accept, just head to the Hero's Call Board and select the quest from there.|FACTION|Alliance|Z|Stormwind City|LEAD|36881|
 A The Dark Portal |QID|34398|Z|Orgrimmar|N|Auto-Accept on arrival in Orgrimmar. If it doesn't appear/auto-accept, just head to the Hero's Call Board and select the quest from there.|FACTION|Horde|Z|Orgrimmar|LEAD|36881|
-C The Dark Portal |QID|34398;36881|Z|Blasted Lands|M|54.94,50.29|N|Speak to Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. A portal to the Blasted Lands can be found in the Mage Tower.\n\n[BETA: He is also located in Stormwind City's Trade District 65.2, 75.4]|CHAT|FACTION|Alliance|
-C The Dark Portal |QID|34398;36881|Z|Blasted Lands|M|54.94,50.29|N|Speak to Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. A portal to the Blasted Lands can be found in the in the Cleft of Shadows.\n\n[BETA: He is also located in Orgrimmar's Valley of Strength 52.6,81.3]|CHAT|FACTION|Horde|
+C The Dark Portal |QID|34398;36881|Z|Blasted Lands|M|54.94,50.29|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. A portal to the Blasted Lands can be found in the Mage Tower.|CHAT|FACTION|Alliance|
+C The Dark Portal |QID|34398;36881|Z|Blasted Lands|M|54.94,50.29|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. A portal to the Blasted Lands can be found in the in the Cleft of Shadows.|CHAT|FACTION|Horde|
 T The Dark Portal |QID|34398;36881|N|To Archmage Khadgar|M|54.79,48.27|Z|TanaanJungleIntro|
 
 A Azeroth's Last Stand |QID|35933|N|From Archmage Khadgar|M|54.79,48.27|PRE|34398+36881|Z|TanaanJungleIntro|
@@ -121,19 +134,21 @@ A Vengeance for the Fallen |QID|35241|N|From Ashka|M|62.2,53.0|PRE|34420|Z|Tanaa
 A Bled Dry |QID|35240|N|From Taag|M|62.27,52.96|PRE|34420|Z|TanaanJungleIntro|FACTION|Alliance|
 A Bled Dry |QID|34421|N|From Korag|M|62.27,52.96|PRE|34420|Z|TanaanJungleIntro|FACTION|Horde|
 
-C Vengeance for the Fallen |QID|35242;35241|N|Kill the Bleeding Hollow orcs.|S|M|65.7,54.0|Z|TanaanJungleIntro|
+C Vengeance for the Fallen |QID|35242|N|Kill the Bleeding Hollow orcs.|S|M|65.7,54.0|Z|TanaanJungleIntro|FACTION|Alliance|
+C Vengeance for the Fallen |QID|35241|N|Kill the Bleeding Hollow orcs.|S|M|65.7,54.0|Z|TanaanJungleIntro|FACTION|Horde|
 C Blaze of Glory |QID|34422|N|Approach the Bleeding Hollow huts, then use Lucifrium Bead's "Inferno" to burn them.|NC|S|M|66.5,55.9|Z|TanaanJungleIntro|
-C Bled Dry |QID|35240;34421|N|Open the Eastern cage.|NC|QO|2|M|65.7,54.0|Z|TanaanJungleIntro|
 C Bled Dry |QID|35240;34421|N|Open the Southern cage.|NC|QO|1|M|61.0,62.7|Z|TanaanJungleIntro|
+C Bled Dry |QID|35240;34421|N|Open the Eastern cage.|NC|QO|2|M|65.7,54.0|Z|TanaanJungleIntro|
 C Blaze of Glory |QID|34422|N|Finish burning the Bleeding Hollow huts.|NC|US|M|63.65,50.03;66.55,55.61;61.23,62.07|CN|Z|TanaanJungleIntro|
-C Vengeance for the Fallen |QID|35242;35241|N|Finish killing the Bleeding Hollow orcs.|US|M|63.3,64.4|Z|TanaanJungleIntro|
+C Vengeance for the Fallen |QID|35242|N|Finish killing the Bleeding Hollow orcs.|US|M|63.3,64.4|Z|TanaanJungleIntro|FACTION|Alliance|
+C Vengeance for the Fallen |QID|35241|N|Finish killing the Bleeding Hollow orcs.|US|M|63.3,64.4|Z|TanaanJungleIntro|FACTION|Horde|
 
 T Vengeance for the Fallen |QID|35242|N|To Vindicator Maraad|FACTION|Alliance|M|66.37,59.91;71.5,62.7|CS|Z|TanaanJungleIntro|;I discovered if you don't run on the road, quest won't be able to be turned in
 T Vengeance for the Fallen |QID|35241|N|To Thrall|FACTION|Horde|M|66.37,59.91;71.92,62.06|CS|Z|TanaanJungleIntro|
 T Blaze of Glory |QID|34422|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIntro|
 T Bled Dry |QID|35240;34421|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIntro|
 
-N Altar Altercation |QID|34423|N|This quest sometimes does not show in the guide. If it does not, /reloadui should make it appear. It is a Blizzard bug.|
+;N Altar Altercation |QID|34423|N|This quest sometimes does not show in the guide. If it does not, /reloadui should make it appear. It is a Blizzard bug.|
 A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35242;34422;35240|FACTION|Alliance|M|71.61,62.43|Z|TanaanJungleIntro|
 A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35241;34422;34421|FACTION|Horde|M|71.61,62.43|Z|TanaanJungleIntro|
 C Altar Altercation |QID|34423|N|Speak with Ariok and tell him "Khadgar has asked us to go distract the Eye of Kilrogg".|QO|1|CHAT|M|72.0,62.2|Z|TanaanJungleIntro|
@@ -154,34 +169,39 @@ T A Potential Ally |QID|34427|N|To Farseer Drek'Thar once he has run back to the
 A Kill Your Hundred |QID|34429|N|From Archmage Khadgar|M|73.02,38.08|PRE|34427+34478|Z|TanaanJungleIntro|
 C Kill Your Hundred |QID|34429|N|Enter Kargathar Proving Grounds|QO|1|NC|M|73.6,29.0|Z|TanaanJungleIntro|
 C Kill Your Hundred |QID|34429|N|Wait until you have 100 Combatants killed (your friends will do all the killing for you if you want).|QO|2|M|73.6,27.3|Z|TanaanJungleIntro|
-C Kill Your Hundred |QID|34429|N|Leave the arena and head to Umbral Halls.|NC|QO|3|M|80.9,50.1|Z|TanaanJungleIntro/1|
-T Kill Your Hundred |QID|34429|N|To Archmage Khadgar|M|81.31,50.27|Z|TanaanJungleIntro/1|
+C Kill Your Hundred |QID|34429|N|Leave the arena and head to Umbral Halls.|NC|QO|3|M|65.66,20.60|Z|TanaanJungleIntro|
+T Kill Your Hundred |QID|34429|N|To Archmage Khadgar|M|65.66,20.60|Z|TanaanJungleIntro|
 
-A The Shadowmoon Clan |QID|34432|N|From Vindicator Maraad|FACTION|Alliance|M|80.7,45.3|PRE|34429|Z|TanaanJungleIntro/1|
-A The Shadowmoon Clan |QID|34739|N|From Thrall|FACTION|Horde|M|81.62,44.75|PRE|34429|Z|TanaanJungleIntro/1|
-A Masters of Shadow |QID|34431;34737|N|From Luuka|M|82.87,44.31|PRE|34429|Z|TanaanJungleIntro/1|
-C The Shadowmoon Clan |QID|34432;34739|N|Kill the Shadowmoon Voidaxe, Ritualist and Void Wolfs|S|M|60.6,51.8|Z|TanaanJungleIntro/1|
-C Kill Ungra|QID|34431;34737|N|Head up the first stairs, then take the next set of stairs to the left, then to the left.|QO|1|M|44.0,74.5|T|Ungra|Z|TanaanJungleIntro/1|
-C Kill Taskmaster Gorran|QID|34431;34737|N|Straight along the corridor behind you. Watch for the hole in the floor.|QO|2|M|56.2,19.8|T|Taskmaster Gurran|Z|TanaanJungleIntro/1|
-C Find Ankova|QID|34431;34737|N|Jump down the hole, then follow the corridor north-west to the corpse of Ankova|QO|3|NC|M|45.2,16.1|Z|TanaanJungleIntro/1|
-A Yrel|QID|34434;34740|From Yrel|M|45.15,15.98|N|From Yrel.|Z|TanaanJungleIntro/1|PRE|34429|
-C Yrel|QID|34434;34740|Head back down the corridor.|M|58.28,38.31|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|TanaanJungleIntro/1|
-C The Shadowmoon Clan|QID|34432;34739|N|Finish killing the Shadowmoon Voidaxe and Void Wolves|US|M|57.7,40.6|Z|TanaanJungleIntro/1|
-T The Shadowmoon Clan|QID|34432|N|To Qiana Moonshadow|FACTION|Alliance|M|50.7,48.5|Z|TanaanJungleIntro/1|
-T The Shadowmoon Clan|QID|34739|N|To Olin Umberhide|FACTION|Horde|M|51.30,46.98|Z|TanaanJungleIntro/1|
-T Yrel|QID|34434;34740|N|To Yrel|M|50.60,48.40|Z|TanaanJungleIntro/1|
-T Masters of Shadow|QID|34431|N|To Exarch Maladaar|FACTION|Alliance|M|50.27,48.20|Z|TanaanJungleIntro/1|
-T Masters of Shadow|QID|34737|N|To Lady Liadrin|FACTION|Horde|M|50.19,48.52|Z|TanaanJungleIntro/1|
+A The Shadowmoon Clan |QID|34432|N|From Vindicator Maraad.|FACTION|Alliance|M|65.53,19.64|PRE|34429|Z|TanaanJungleIntro|
+A The Shadowmoon Clan |QID|34739|N|From Thrall|FACTION|Horde|M|65.70,19.56|PRE|34429|Z|TanaanJungleIntro|
+A Masters of Shadow |QID|34431;34737|N|From Luuka|M|65.96,19.53|PRE|34429|Z|TanaanJungleIntro|
 
-A Keli'dan the Breaker|QID|34436|N|From Exarch Maladaar|FACTION|Alliance|M|50.27,48.20|PRE|34431;34434;34432|Z|TanaanJungleIntro/1|
-A Keli'dan the Breaker|QID|34741|N|From Lady Liadrin|FACTION|Horde|M|50.7,48.5|PRE|34739;34740;34737|Z|TanaanJungleIntro/1|
-C Keli'dan the Breaker|QID|34436;34741|N|Go towards the gate, it will open. Go in and kill Keli'dan.|M|35.47,51.26|T|Keli'dan the Breaker|Z|TanaanJungleIntro/1|
+C The Shadowmoon Clan |QID|34432;34739|N|Kill the Shadowmoon Voidaxe, Ritualist and Void Wolfs|S|M|59.00,20.68|Z|TanaanJungleIntro|
+C Kill Ungra|QID|34431;34737|N|Head up the first stairs, then take the next set of stairs to the left, then to the left.|QO|1|M|58.36,25.41|T|Ungra|Z|TanaanJungleIntro|
+C Kill Taskmaster Gorran|QID|34431;34737|N|Straight along the corridor behind you. Watch for the hole in the floor.|QO|2|M|60.80,15.10|T|Taskmaster Gurran|Z|TanaanJungleIntro|
+C Find Ankova|QID|34431;34737|N|Jump down the hole, then follow the corridor north-west to the corpse of Ankova|QO|3|NC|M|58.81,14.15|Z|TanaanJungleIntro|
+
+A Yrel|QID|34434;34740|From Yrel|M|58.81,14.15|N|From Yrel.|Z|TanaanJungleIntro|PRE|34429|
+C Yrel|QID|34434;34740|Head back down the corridor.|M|61.48,18.95|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|TanaanJungleIntro|
+C The Shadowmoon Clan|QID|34432;34739|N|Finish killing the Shadowmoon Voidaxe and Void Wolves|US|M|59.00,20.68|Z|TanaanJungleIntro|
+
+T The Shadowmoon Clan|QID|34432|N|To Qiana Moonshadow|FACTION|Alliance|M|59.97,20.28|Z|TanaanJungleIntro|
+T The Shadowmoon Clan|QID|34739|N|To Olin Umberhide|FACTION|Horde|M|59.97,20.28|Z|TanaanJungleIntro|
+T Yrel|QID|34434;34740|N|To Yrel|M|59.85,20.24|Z|TanaanJungleIntro|
+T Masters of Shadow|QID|34431|N|To Exarch Maladaar|FACTION|Alliance|M|59.78,20.22|Z|TanaanJungleIntro|
+T Masters of Shadow|QID|34737|N|To Lady Liadrin|FACTION|Horde|M|59.78,20.22|Z|TanaanJungleIntro|
+
+A Keli'dan the Breaker|QID|34436|N|From Exarch Maladaar|FACTION|Alliance|M|59.78,20.22|Z|TanaanJungleIntro|PRE|34431;34434;34432|
+A Keli'dan the Breaker|QID|34741|N|From Lady Liadrin|FACTION|Horde|M|59.78,20.22|Z|TanaanJungleIntro|PRE|34739;34740;34737|
+C Keli'dan the Breaker|QID|34436;34741|N|Go towards the gate, it will open. Go in and kill Keli'dan.|M|56.98,20.61|T|Keli'dan the Breaker|Z|TanaanJungleIntro|
 T Keli'dan the Breaker |QID|34436;34741|N|To Archmage Khadgar|M|49.50,14.39|Z|TanaanJungleIntro|
 
 A Prepare for Battle|QID|35019|N|From Vindicator Maraad|FACTION|Alliance|PRE|34436|M|48.56,14.17|Z|TanaanJungleIntro|
-A Prepare for Battle|QID|35005|N|From Thrall|FACTION|Horde|PRE|34741|M|50.07,13.34|Z|TanaanJungleIntro|
-C Prepare for Battle|QID|35019;35005|N|Kill and loot the Blackrock, or pick the Iron Horde Weapon from the floor.|M|44.9,19.5|Z|TanaanJungleIntro|
+C Prepare for Battle|QID|35019|N|Kill and loot the Blackrock, or pick the Iron Horde Weapon from the floor.|FACTION|Alliance|M|44.9,19.5|Z|TanaanJungleIntro|
 T Prepare for Battle|QID|35019|N|To Vindicator Maraad|FACTION|Alliance|M|48.6,14.2|Z|TanaanJungleIntro|
+
+A Prepare for Battle|QID|35005|N|From Thrall|FACTION|Horde|PRE|34741|M|50.07,13.34|Z|TanaanJungleIntro|
+C Prepare for Battle|QID|35005|N|Kill and loot the Blackrock, or pick the Iron Horde Weapon from the floor.|FACTION|Horde|M|44.9,19.5|Z|TanaanJungleIntro|
 T Prepare for Battle|QID|35005|N|To Thrall|FACTION|Horde|M|50.07,13.34|Z|TanaanJungleIntro|
 
 A The Battle of the Forge |QID|34439|N|From Cordana Felsong|PRE|35005+35019|M|49.49,14.21|Z|TanaanJungleIntro|
@@ -196,10 +216,10 @@ A The Shadow of the Worldbreaker |QID|34958|N|From Thaelin Darkanvil|PRE|34439|M
 C The Shadow of the Worldbreaker |QID|34958|N|Kill the Blackrock until one drops the Worldbreaker Schematics|S|M|43.0,35.8|Z|TanaanJungleIntro|
 T Ga'nar of the Frostwolf |QID|34442|N|To Ga'nar, who is at the other end of Blackrock Quarry|M|41.9,41.9|Z|TanaanJungleIntro|
 A Polishing the Iron Throne |QID|34925|N|From Ga'nar|M|41.9,41.9|PRE|34442|Z|TanaanJungleIntro|
-C Polishing the Iron Throne |QID|34925|N|Go in the basement of the nearest building and kill Overseer Gotrigg, and loot the Shackle Key|M|45.62,39.82|T|Overseer Gotrigg|Z|TanaanJungleIntro|
+C Polishing the Iron Throne |QID|34925|N|Go in the basement of the nearest building, kill Overseer Gotrigg, and loot the Shackle Key|M|45.62,39.82|T|Overseer Gotrigg|Z|TanaanJungleIntro|
 T Polishing the Iron Throne |QID|34925|N|To Ga'nar|M|41.89,42.12|Z|TanaanJungleIntro|
 A The Prodigal Frostwolf |QID|34437|N|From Ga'nar|M|41.89,42.12|PRE|34925|Z|TanaanJungleIntro|
-C The Gunpowder Plot |QID|34987|N|Head into the hut and loot the Blackrock Powder Keg|NC|QO|1|M|46.9,32.1|Z|TanaanJungleIntro|
+C The Gunpowder Plot |QID|34987|N|Head to the end hut and loot the Blackrock Powder Keg|NC|QO|1|M|46.9,32.1|Z|TanaanJungleIntro|
 C The Shadow of the Worldbreaker |QID|34958|N|Keep killing the Blackrock, one will eventually drop the Worldbreaker Schematics|US|M|43.0,35.8|Z|TanaanJungleIntro|
 C The Gunpowder Plot |QID|34987|N|Press the Makeshift Plunger between Hansel Heavyhands and Thaelin Darkanvil|NC|QO|2|M|44.0,29.7|Z|TanaanJungleIntro|
 T The Gunpowder Plot |QID|34987|N|To Hansel Heavyhands|M|44.09,29.56|Z|TanaanJungleIntro|
@@ -209,12 +229,12 @@ T The Prodigal Frostwolf |QID|34437|N|To Farseer Drek'Thar|M|43.04,26.37|Z|Tanaa
 A Taking a Trip to the Top of the Tank |QID|35747|N|From Archmage Khadgar|PRE|34958;34437;34987|M|43.13,28.73|Z|TanaanJungleIntro|
 C Taking a Trip to the Top of the Tank |QID|35747|N|Speak with Thaelin Darkanvil and say "Yes. I need you to help me operate that enormous tank".|QO|1|CHAT|M|44.06,29.56|Z|TanaanJungleIntro|
 C Taking a Trip to the Top of the Tank |QID|35747|N|Head to The Path of Glory and kill Gogluk.|QO|2|M|39.90,48.23|Z|TanaanJungleIntro|T|Gogluk|
-C Taking a Trip to the Top of the Tank |QID|35747|N|Run up one of the two chains to the top of the tank.|NC|QO|3|M|40.1,48.4|Z|TanaanJungleIntro|
+C Taking a Trip to the Top of the Tank |QID|35747|N|Run up one of the two chains to the top of the tank then wait for Thaelin Darkanvil to catch up.|NC|QO|3|M|40.1,48.4|Z|TanaanJungleIntro|
 T Taking a Trip to the Top of the Tank |QID|35747|N|To Thaelin Darkanvil|M|40.10,48.43|Z|TanaanJungleIntro|
 
 A A Taste of Iron |QID|34445|N|From Thaelin Darkanvil|PRE|35747|M|40.10,48.43|Z|TanaanJungleIntro|
 C A Taste of Iron |QID|34445|N|Mount the Worldbreaker Side Turret (to the top right)|NC|QO|1|M|40.1,49.1|Z|TanaanJungleIntro|
-C A Taste of Iron |QID|34445|N|Use the Turret Blast (key 1) to kill the Iron Horde. You do not need to worry about the tanks or carts.|QO|2|M|40.1,49.1|Z|TanaanJungleIntro|
+C A Taste of Iron |QID|34445|N|Use the Turret Blast (key 1) to kill the Iron Horde. You do not need to worry about the tanks, the carts are worth 5 Horde Slains.|QO|2|M|40.1,49.1|Z|TanaanJungleIntro|
 C A Taste of Iron |QID|34445|N|Press the Main Cannon Trigger next to Thaelin Darkanvil.|NC|QO|3|M|40.3,48.3|Z|TanaanJungleIntro|
 T A Taste of Iron |QID|34445|N|To Thaelin Darkanvil|M|40.11,48.44|Z|TanaanJungleIntro|
 
@@ -222,10 +242,11 @@ A The Home Stretch |QID|35884;34446|N|From Thaelin Darkanvil|PRE|34445|M|40.11,4
 C The Home Stretch |QID|35884;34446|N|Run through the Iron Bastion to the Docks.\n(Note: You cannot mount at this time)|M|44.41,80.12|Z|TanaanJungleIntro|NC|
 T The Home Stretch |QID|35884;34446|N|To Archmage Khadgar|M|44.41,80.70|Z|TanaanJungleIntro|
 
-A Exarch Maladaar|QID|34787|M|44.41,80.70|N|From Archmage Khadgar.|FACTION|Alliance|Z|TanaanJungleIntro|
-A The Home of the Frostwolves|QID|33868|M|44.41,80.70|N|From Archmage Khadgar.|FACTION|Horde|Z|TanaanJungleIntro|
+A Step Three: Prophet! |QID|34575|N|Auto-Accepted when you arrive at Eventide Landing.|FACTION|Alliance|
+N Welcome to Shadowmoon Valley|QID|34575|N|Welcome to Shadowmoon Valley. Manually load the next guide to continue.|FACTION|Alliance|ACTIVE|34575|
 
-N And you are Finished!|QID|34787;33868|N|Check this step off and the next guide should load. If not you can always load it manually.|
+A The Home of the Frostwolves|QID|33868|N|Auto-Accepted when you arrive at Frostfire Ridge.|FACTION|Horde|
+N Welcome to Frostfire Ridge|QID|33868|N|Welcome to Frostfire Ridge. Manually load the next guide to continue.|FACTION|Horde|ACTIVE|33868|
 
 ]]
 
