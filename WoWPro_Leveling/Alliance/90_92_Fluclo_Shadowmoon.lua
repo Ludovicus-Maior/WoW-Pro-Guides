@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-11-03 05:07
+-- Who: Fluclo
+-- Log: Added next guide ID, added Shadowmoon Darters to Ship Salvage, added Rank 3 treasures, changed Qiana Moonshadow to CHAT and added coords, removed a PRE step from Shadows Awaken (*BUG*), added extra coords when route not obvious, added missing coords to a few steps, added a run step to help locate Deadwalker Pass, added a Hearth point for Embaari Village, Path of the Light Flightpath not known at that point of guide, so changed to get FP, added garrison quests for mine and small buildings, added LVL 94 tags to the Level 94 quests.
+
+-- URL: http://wow-pro.com/node/3604/revisions/26710/view
 -- Date: 2014-10-09 15:04
 -- Who: Fluclo
 -- Log: Moved Hexcloth quest to an earlier opportunity to finish it.
@@ -27,13 +32,16 @@
 
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,90)
-WoWPro:GuideNextGuide(guide, 'XXXX')
+WoWPro:GuideNextGuide(guide, 'LudoGorgrond')
 WoWPro:GuideSteps(guide, function()
 return [[
+
+;Guide Levels set to 91 to make guide show AFTER Assault on the Dark Portal.
 
 L Level 90 |QID|34575|LVL|90|N|This guide requires a minimum level of 90 to do.|
 N Getting to Shadowmoon Valley (Draenor) |QID|34575|N|To get to Shadowmoon Valley (Draenor), you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|35884|
 
+N Welcome to Shadowmoon Valley|QID|34575|ACTIVE|34575|S|If you want the garrison supply treasures included in this guide, please set your Rank to 3.|
 A Step Three: Prophet! |QID|34575|N|Auto-Accepted|
 T Step Three: Prophet! |QID|34575|N|To Prophet Velen|M|27.0,8.1|
 
@@ -71,9 +79,12 @@ C Keeping it Together |QID|35176|N|Open the Garrison Cache.|QO|3|NC|M|49.3,43.4|
 C Keeping it Together |QID|35176|N|Head to Shelly Harnby (outside the garrison) and gather her report.|QO|2|CHAT|M|32.6,34.4|Z|Lunarfall|
 
 C Pale Moonlight |QID|35174|N|Kill and loot the Pale Devourers|S|QO|2|
-C Ship Salvage|QID|35166|N|Loot the Drudgeboat Salvage from the floor or from the Pale Devourers|S|NC|
-C Pale Moonlight |QID|35174|N|Head down to Eventide Landing and kill Gnaw Bloodseeker|QO|1|M|25.5,5.5|
-C Ship Salvage|QID|35166|N|Finish looting the Drudgeboat Salvage from the floor or from the Pale Devourers|US|NC|M|26.5,6.5|
+C Ship Salvage|QID|35166|N|Loot the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|S|NC|
+C Pale Moonlight |QID|35174|N|Head down to Eventide Landing and kill Gnaw Bloodseeker|QO|1|M|25.5,5.5|T|Gnaw Bloodseeker|
+l Fantastic Fish |QID|34174|N|Fantastic Fish: Lootable object for Garrison Resources and 10k XP|M|26.50,5.68|RANK|3|
+l Sunken Treasure |QID|35279|N|Sunken Treasure: Lootable object for Garrison Resources and 10k XP, located in the water under the ship.|M|28.83,7.18|RANK|3|
+l Stolen Treasure |QID|35280|N|Stolen Treasure: Lootable object for Garrison Resources and 10k XP, located in Paletide Den.|M|27.04,2.49|RANK|3|
+C Treasure: Ship Salvage|QID|35166|N|Finish looting the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|US|NC|M|26.5,6.5|
 C Pale Moonlight |QID|35174|N|Finish killing the Pale Devourers|US|QO|2|M|26.5,6.5|
 
 T Pale Moonlight |QID|35174|N|To Vindicator Maraad\n\nUse your Garrison Hearthstone to get back to the garrison.|U|110560|M|44.0,53.5|Z|Lunarfall|
@@ -85,10 +96,11 @@ C Build Your Barracks |QID|34587|N|Loot the Barracks Blueprints from the floor o
 C Build Your Barracks |QID|34587|N|Click on the Barracks Blueprints to learn it.|QO|2|U|111956|NC|
 C Build Your Barracks |QID|34587|N|Click on the Architect Table, then drag the Barracks icon to the Large Empty Plot.|QO|3|NC|M|41.2,48.9|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Go back to the Barracks construction site, and click on the scroll to Finalize Garrison Plot|QO|4|NC|M|44.6,43.5|Z|Lunarfall|
-T Build Your Barracks |QID|34587|N|To Vindicator Maraad|M|44.0,53.5|Z|Lunarfall|
+l Pippers' Buried Supplies|QID|35384|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Can be at one of four locations around the garrison.|CN|M|46.3,75.9;60.7,55.3;51.7,44.9;30.8,28.3|RANK|3|Z|Lunarfall|LEAD|35381;35382;35383|
+T Build Your Barracks |QID|34587|N|To Vindicator Maraad.|M|44.0,53.5|Z|Lunarfall|
 
-A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad|PRE|34587|M|44.0,53.5|Z|Lunarfall|
-C Qiana Moonshadow |QID|34646|N|Head to Qiana Moonshadow in Moonflower Valley (south of your garrison) and click on her.|NC|
+A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad.|PRE|34587|M|44.0,53.5|Z|Lunarfall|
+C Qiana Moonshadow |QID|34646|N|Head to Qiana Moonshadow in Moonflower Valley (south of your garrison) and speak to her.|CHAT|M|29.94,29.21|
 T Qiana Moonshadow |QID|34646|N|To Qiana Moonshadow (she's now at to your garrison)|M|40.5,53.9|Z|Lunarfall|
 
 A Delegating on Draenor |QID|34692|N|From Lieutenant Thorn|PRE|34646|M|40.3,53.6|Z|Lunarfall|
@@ -101,14 +113,16 @@ C Migrant Workers |QID|34778|N|Speak with Zipfizzle and tell him to Move Out.|CH
 A Hero's Welcome |QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
 
 A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|3|
-C Wanted: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|RANK|3|
+C Wanted: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|RANK|3|
 T Wanted: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|RANK|3|M|45.5,37.7|
 
 f Embaari Village |QID|33075|N|With Eonor|M|45.7,38.8|
 C Hero's Welcome |QID|33075|N|Find Samaara at Embaari Village|M|46.1,38.9|NC|
 T Hero's Welcome |QID|33075|N|To Samaara|M|46.1,38.9|
-
 A Dark Enemies |QID|33765|N|From Samaara|M|46.1,38.9|PRE|33075|
+
+h Lamplighter Inn|QID|33813|N|Set your hearthstone to Lamplighter Inn in Embaari Village.|
+
 A Think of the Children! |QID|33070|N|From Efee|M|46.6,37.7|PRE|33075|
 A Closing the Door |QID|33905|N|From Vindicator Tenuum|M|46.6,37.3|PRE|33075|
 
@@ -131,7 +145,8 @@ T Think of the Children! |QID|33070|N|To Prophet Velen at Teluuna Observatory.|M
 T Dark Enemies |QID|33765|N|To Prophet Velen.|M|49.1,38.5|
 T Closing the Door |QID|33905|N|To Prophet Velen|M|49.1,38.5|
 
-A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.1,38.5|PRE|33765;33070;33905|
+;The next quest needs all three of 33765;33070;33905 but when all three are shown, this quest is skipped unless you /reload ui!
+A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.1,38.5|PRE|33765;33070| ;33905|
 C Shadows Awaken |QID|34019|N|Head into the centre of the observatory and wait for Ner'zhul to spawn Karnoth|M|49.3,37.4|NC|QO|1|
 C Shadows Awaken |QID|34019|N|Kill and loot Karnoth.|M|49.4,37.0|
 
@@ -144,10 +159,14 @@ A A Power Lost|QID|36408|N|Loot the Drained Crystal Fragment from Karnoth, and u
 A A Call for Huntsman|QID|36176|N|Loot the Dirty Note from Karnoth, and use it to begin the quest.|U|114877|P|Leatherworking;164;*;1;700|
 A The Cryptic Tome of Tailoring|QID|36236|N|Loot the Cryptic Tome of Tailoring Note from Karnoth, and use it to begin the quest.|U|114972|P|Tailoring;197;*;1;700|
 
-T Shadows Awaken |QID|34019|N|To Prophet Velen|M|49.3,37.4|
-A Into Twilight |QID|33072|N|From Prophet Velen|M|49.3,37.4|PRE|34019|
-A The Southern Wilds |QID|35444|N|From Farmer Gehaar|M|49.1,38.6|PRE|34019|
+;The following quests have been seen at 49.3,37.4 and 49.42,36.81 - not yet found out why it varies (yet!)
+T Shadows Awaken |QID|34019|N|To Prophet Velen|CN|M|49.42,36.81;49.3,37.4|
+A Into Twilight |QID|33072|N|From Prophet Velen|CN|M|49.42,36.81;49.3,37.4||PRE|34019|
 
+;The following quest has been seen at 49.1,38.6 and 49.08,37.25 - not yet found out why it varies (yet!)
+A The Southern Wilds |QID|35444|N|From Farmer Gehaar|CN|M|49.08,37.25;49.1,38.6|PRE|34019|
+
+; The next 7 blocks of quests are dependant upon which profession item(s) you have looted from Karnoth.
 H Lunarfall |QID|33814|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|35342|
 T The Mysterious Flask|QID|35342|M|47.69,45.39|Z|Lunarfall|N|To Aenir.|ACTIVE|35342|
 A The Young Alchemist|QID|35343|M|47.69,45.39|Z|Lunarfall|N|From Aenir.|PRE|35342|
@@ -186,15 +205,16 @@ T The Cryptic Tome of Tailoring|QID|36236|M|43.0,54.9|Z|Lunarfall|N|To Aerun.|AC
 A Ameeka, Master Tailor|QID|36262|M|43.0,54.9|Z|Lunarfall|N|From Aerun.|PRE|36236|
 F Embaari Village |QID|36262|N|Fly to Embaari Village|ACTIVE|36262|
 
+;Regular questing resumes from this point.
 T Migrant Workers |QID|34778|N|To Foreman Zipfizzle|M|56.0,32.6|
 A Circle the Wagon |QID|34779|N|From Foreman Zipfizzle|M|56.0,32.6|PRE|34778|
 
 C Circle the Wagon |QID|34779|N|Locate the missing wagon in Saraah's Vale.|NC|M|51.2,28.4|QO|1|
 C Circle the Wagon |QID|34779|N|Defend the wagon from the Shadowmoon Raiders|M|51.2,28.4|QO|2|
-C Circle the Wagon |QID|34779|N|Follow Maraad through Saraah's Vale and Elodor Fields. There will be two ambushes during the escort.|QO|3|
-T Circle the Wagon |QID|34779|N|To Exarch Akama|M|56.0,32.8|
+C Circle the Wagon |QID|34779|N|Follow Maraad through Saraah's Vale and Elodor Fields. There will be two ambushes during the escort.|QO|3|CN|M|52.50,30.28;53.82,32.12;55.97,32.82|
+T Circle the Wagon |QID|34779|N|To Exarch Akama|M|55.97,32.82|
 
-A Invisible Ramparts |QID|34780|N|From Exarch Hataaru|M|56.2,32.6|PRE|34779|
+A Invisible Ramparts |QID|34780|N|From Exarch Hataaru|M|55.97,32.82|PRE|34779|
 N Charged Resonance Crystal |QID|34780|N|Pick up a Charged Resonance Crystal|BUFF|161644|M|56.8,34.2|NC|ACTIVE|34780|
 C Primary Pilon |QID|34780|N|Carry the crystal to primary pylon|QO|1|M|56.2,32.8|NC|
 C Secondary Pylon |QID|34780|N|Pick up a second Charged Resonance Crystal, and carry the crystal to secondary pylon|QO|2|M|56.6,33.1|NC|
@@ -202,18 +222,22 @@ C Tertiary Pylon |QID|34780|N|Pick up a third Charged Resonance Crystal, and car
 T Invisible Ramparts |QID|34780|N|To Defense Pylon Central Control Console, inside the building.|M|56.9,34.7|
 
 A Defenstrations |QID|34781|N|From Defense Pylon Central Control Console|PRE|34780|M|56.9,34.7|
-C Defenstrations |QID|34781|N|Head outside and kill the Shadowmoon invaders.|
+C Defenstrations |QID|34781|N|Head outside and kill the Shadowmoon invaders.|M|56.3,34.3|
 T Defenstrations |QID|34781|N|To Defense Pylon Central Control Console.|M|56.94,34.71|
 
 A The Exarch Council |QID|34782|N|From Vindicator Maraad\n(Don't worry about the Fungal Giant Elite, he won't attack you)|M|56.2,32.4|PRE|34781|
 
+;The next block is for Engineers only
 T Gnomish Location Transponder|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|
 A Snatch 'n' Grab|QID|36287|N|From Goggles|M|60.9,32.6|PRE|36286|
 C Snatch 'n' Grab|QID|36287|N|Obtain the Pilfered Parts from Moonlit Shore|NC|M|66.9,27.5|
 T Snatch 'n' Grab|QID|36287|N|To Goggles|M|60.9,32.6|PRE|36286|
+R Elodor Fields |QID|34782|N|Head to Elodor by first running west to Elodor Fields|M|56.3,32.0|PRE|36287|ACTIVE|34782|
 
+;The next block is for Tailors only
 T Ameeka, Master Tailor|QID|36262|N|To Ameeka in Elodor.|M|58.2,26.5|
 A The Clothes on Their Backs|QID|36266|N|From Ameeka.|PRE|36262|M|58.2,26.5|
+
 T The Exarch Council |QID|34782|N|To Exarch Othaar, follow road up to Elodor.|M|59.4,26.6|
 
 A Naielle, The Rangari |QID|34783|N|From Exarch Othaar|M|59.4,26.6|PRE|34782|
@@ -253,7 +277,7 @@ T Engorged Goren |QID|34786|N|To Apprentice Artificer Andren|M|61.9,29.1|
 T Shut'er Down |QID|35070|N|To Exarch Hataaru|M|61.9,29.7|
 A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.9,29.6|PRE|35070|
 
-T Exarch Maladaar |QID|34787|N|To Exarch Maladaar on Fey Landing.|M|59.5,30.4|
+T Exarch Maladaar |QID|34787|N|To Exarch Maladaar on Fey Landing.|CN|M|59.53,29.14;59.5,30.4|
 A Trust No One |QID|35552|N|From Exarch Maladaar.|M|59.5,30.4|PRE|34787|
 C Trust No One |QID|35552|N|Follow the trail to the Infiltrator's Hideout.|M|61.3,24.8|NC|
 T Trust No One |QID|35552|N|To Shadow Council Tome of Curses.|M|60.9,24.4|
@@ -282,7 +306,7 @@ A Supply Drop |QID|35905|N|From Exarch Naielle|PRE|34788|M|62.5,26.2|PRE|34788|
 f Fey Landing |QID|35552|N|With Vamuun.|M|58.7,31.9|
 F Embaari Village|QID|33072|N|Fly to Embaari Village|ACTIVE|33072|M|40.5,54.9|
 R Twilight Glade|QID|33072|N|Run south through The Nightmarsh to Twilight Glade.|ACTIVE|33072|M|40.5,54.9|
-f Twilight Glade |QID|33072|N|With Gotuun|M|40.7,55.3|
+f Twilight Glade |QID|33072|N|With Gotuun|M|40.7,55.3|ACTIVE|33072|
 
 T Into Twilight |QID|33072|N|To Prophet Velen at Twilight Glade|M|40.5,54.9|
 A The Clarity Elixir |QID|33076|N|From Prophet Velen|PRE|33072|M|40.5,54.9|
@@ -295,20 +319,20 @@ C Engorged Heart |QID|33076|N|Kill and loot the Echidnian Hydra for their Engorg
 C Loola's Lost Love |QID|34876|N|Click on the loose mud to seach it|NC|S|M|45.0,51.0|
 C A Grandmother's Remedy |QID|33077|N|Click on the Belly Toad to squeeze a Vial of Toad Juice|S|NC|M|45.0,51.0|
 
-A Rangari Roundup |QID|34897|N|From Rangari Navra.\nNote: You will have to click Rangari Navra for the quest to be made available.|M|43.7,51.7|
+A Rangari Roundup |QID|34897|N|From Rangari Navra.\nNote: You will have to click Rangari Navra for the quest to be made available.|M|43.7,51.7|T|Rangari Navra|
 C Rangari Roundup |QID|34897|N|Find Hidden Rangari|S|NC|
 C The Clarity Elixir |QID|33076|N|Collect the Pristine Star Lily, this can be found inside the tree in Nightmarsh.|QO|3|NC|M|47.3,52.1|
 
+C Rangari Roundup |QID|34897|N|Finish finding the Hidden Rangari|US|NC|CN|M|47.1,53.1;46.4,51.6;45.0,50.4;44.8,51.2;43.9,52.7|
 C A Grandmother's Remedy |QID|33077|N|Finish squeezing the Vial of Toad Juice out of the Belly Toads.|US|NC|M|45.0,51.0|
 C Loola's Lost Love |QID|34876|N|Finish searching the loose mud|NC|US|M|45.0,51.0|
-C Rangari Roundup |QID|34897|N|Finish finding the Hidden Rangari|US|NC|CN|M|47.1,53.1;46.4,51.6;45.0,50.4;44.8,51.2;43.9,52.7|
 C Engorged Heart |QID|33076|N|Finish killing and looting the Echidnian Hydra for their Engorged Heart|QO|2|US|M|45.0,51.0|
-C Swamplighter Dust |QID|33076|N|Finish killing and looting the Frenzied Swamplighters for the Swamplighter Dust, there are loads of them up Moonwillow Peak (which will also be the quest turn-in area)|QO|1|US|M|36.8,51.7|
-T The Clarity Elixir |QID|33076|N|To Prophet Velen in Moonwillow Peak|M|35.3,49.1|
+C Swamplighter Dust |QID|33076|N|Finish killing and looting the Frenzied Swamplighters for the Swamplighter Dust, there are loads of them up Moonwillow Peak (which will also be the quest turn-in area)|QO|1|US|M|39.73,53.59;37.66,54.75;36.80,51.66|CN|
+T The Clarity Elixir |QID|33076|N|To Prophet Velen in Moonwillow Peak|CN|M|39.73,53.59;37.66,54.75;35.3,49.1|
 
 A The Fate of Karabor |QID|33059|N|From Prophet Velen|M|35.3,49.1|PRE|33076|
 C The Fate of Karabor |QID|33059|N|Click on the Clarity Elixir to drink it|M|35.3,49.1|QO|1|NC|
-C The Fate of Karabor |QID|33059|N|Follow through the Scenario steps to witness the fate of Karabor.\n\n1. Move forward with Prophet Velen to Yrel's position\n2. Kill Krull\n3. Run up the stairs, wait for Prophet Velen to run up the stairs, then tell him we're being overrun.\n(Undismissed pets will die at this point)|M|35.3,49.1|QO|2|
+C The Fate of Karabor |QID|33059|N|Follow through the Scenario steps to witness the fate of Karabor.\n\n1. Move forward with Prophet Velen to Yrel's position\n2. Kill Krull\n3. Run up the first flight of stairs, wait for Prophet Velen to run up the stairs, then tell him we're being overrun.\n(Undismissed pets will die at this point)|M|35.3,49.1|QO|2|
 
 T The Fate of Karabor |QID|33059|N|To Prophet Velen, in Twilight Glade. \n(Recall/revive your pet if appropriate)|M|40.5,54.9|
 T Rangari Roundup |QID|34897|N|To Rangari Veka|M|40.6,54.8|
@@ -325,12 +349,12 @@ C The Dark that Blinds Us |QID|33078|N|Click the Eastern stone to get a rubbing|
 C The Dark that Blinds Us |QID|33078|N|Click the Southern stone to get a rubbing|QO|4|NC|M|44.5,63.9|
 T The Dark that Blinds Us |QID|33078|N|To Loreseeker Heidii|M|42.1,57.4|
 
-C Going Undercover |QID|33080|N|Head up into Shaz'gul, and click on the explosives inside the supply hut. Whilst in Shaz'gul, you will have a disguise that only the Void Occulus and Void Wolf can see through, so avoid any mob with void in their name. \n\nIf you need to get past a Void Wolf, you can pick up a Tasty Meat and throw it near them. To get past the Void Occulus, use a Void Touched Pumpkin.|QO|2|M|37.2,59.3|NC|
+C Going Undercover |QID|33080|N|Head up into Shaz'gul, and click on the explosives inside the supply hut. Whilst in Shaz'gul, you will have a disguise that only the Void Occulus and Void Wolf can see through, so avoid any mob with void in their name. You will get a HUD message if you get too close, just keep running if that happens!\n\nIf you need to get past a Void Wolf, you can pick up a Tasty Meat and throw it near them. To get past the Void Occulus, use a Void Touched Pumpkin.|QO|2|M|37.2,59.3|NC|
 C Going Undercover |QID|33080|N|Click the explosives inside the main lodge (and to the right)|QO|3|NC|M|36.4,61.4|NC|
 C Going Undercover |QID|33080|N|Head up into Shaz'gul, and click on the explosives at chieftain's seat.|QO|4|M|39.1,62.9|NC|
 C Going Undercover |QID|33080|N|Click the explosives at the training pit|QO|5|M|36.6,65.5|NC|
 
-T Going Undercover |QID|33080|N|To Yrel|M|34.2,63.2|
+T Going Undercover |QID|33080|N|To Yrel. Just keep running to avoid the Void creatures.|M|34.2,63.2|
 A Escape From Shaz'gul |QID|33081|N|From Yrel|M|34.2,63.2|PRE|33080|
 
 C Escape From Shaz'gul |QID|33081|N|Speak to Yrel and select any two chat lines to inspire her.|QO|1|CHAT|M|34.2,63.2|
@@ -355,12 +379,13 @@ A Darkest Night|QID|34043|M|45.84,25.58|N|From Rulkan.|PRE|33082|
 A Rulkan |QID|35631|M|45.84,25.58|N|Ask Rulkan to become your follower.|PRE|33082|
 
 C Lunarblossom|QID|34836|N|Loot the Lunarblossom from the floor of Deadwalker Pass, the entrance to the Pass is to the east of Exile's Rise.|NC|S|M|51.1,19.2|
-C Forbidden Love|QID|34847|N|Head up to Dol'mak's Hideout to find Kral'za. The cave entrance is at the back of Deadwalker Pass - head east to the path, then take the northern fork to Deadwalker Pass.|QO|1|NC|M|48.1,15.1|
+R Deadwalker Pass |QID|34847|N|Head east to Deadwalker Pass|M|50.93,25.20|ACTIVE|34847|
+C Forbidden Love|QID|34847|N|Head up to Dol'mak's Hideout to find Kral'za. The cave entrance is at the back of Deadwalker Pass - continue along the path north to get there.|QO|1|NC|M|48.1,15.1|
 C Forbidden Love|QID|34847|N|Kill Dol'mak|QO|2|M|48.1,15.1|
 C Forbidden Love|QID|34847|N|Kill Dark Apparition|QO|3|M|48.1,15.1|
 C Lunarblossom|QID|34836|N|Finish looting the Lunarblossom from the floor of Deadwalker Pass.|NC|US|M|51.1,19.2|
 
-T Lunarblossom|QID|34836|M|46.41,25.22|N|To Zukaza back in Exile's Rise.|
+T Lunarblossom|QID|34836|M|46.41,25.22|N|To Zukaza back in Exile's Rise. Follow the path all the way.|
 T Forbidden Love|QID|34847|M|46.12,25.49|N|To Dulga.|
 
 T Darkest Night |QID|34043|N|To Prophet Velen at Anguish Fortress.|M|35.71,36.93|
@@ -380,6 +405,7 @@ C The Great Salvation|QID|33794|N|Rescue the Draenei prisoners by opening the ca
 C Into Anguish|QID|35032|N|Deactivate the Mark of Shadows|QO|3|M|34.5,41.4|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Shadow to release it, then kill it.|QO|1|M|34.0,43.3|
 C Harbingers of the Void|QID|33793|N|Kill Essence of Anguish, who is inside Ancestor's Grotto cave.|QO|3|M|35.2,44.5|
+l Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for Garrison Resources and an i525 Blue Boots.|M|35.87,40.87|RANK|3|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Anguish|QO|4|M|32.6,38.8|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Darkness to release it, then kill it.|QO|2|M|31.2,39.4|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Darkness|QO|2|M|29.5,39.7|NC|
@@ -394,15 +420,16 @@ C Across the Stars|QID|33795|N|Finish picking up the Star Readings from the floo
 C The Clothes on Their Backs|QID|36266|N|Finish killing and loot the Shadowmoon Forces for their Ceremonial Shadowmoon Robes.|US|
 C On the Offensive|QID|33083|N|Finish killing the Shadowmoon Forces|US|
 
+H Lamplighter Inn|QID|33794|N|Hearthstone back to the Lamplighter Inn.\n\nIf you didn't set your hearthstone, or it's still on cooldown, run back to Yrel in Embaari Village and hand in the quests.|
 T The Great Salvation|QID|33794|N|To Yrel in Embaari Village|M|46.4,38.6|
 T The Dark Side of the Moon|QID|34054|N|To Yrel|M|46.4,38.6|
 
-;This only covers those who do not auto-accept above...
+;This covers the unlikely scenario that someone didn't auto-accept the quest above
 A The Dark Side of the Moon|QID|35093|M|35.7,36.9|N|From Prophet Velen.|LEAD|34054|PRE|35032|
 C The Dark Side of the Moon|QID|35093|N|Head up the Terrace of the Stars to Yrel|M|30.3,43.2|NC|QO|1|
 C The Dark Side of the Moon|QID|35093|N|Kill Arkeddon.|M|30.9,43.9|QO|2|
-
 T The Dark Side of the Moon|QID|35093|N|To Yrel|M|46.4,38.6|
+
 T On the Offensive|QID|33083|N|To Prophet Velen|M|46.4,38.7|
 T Harbingers of the Void|QID|33793|M|35.7,36.9|N|To Prophet Velen|M|46.4,38.7|
 T Across the Stars|QID|33795|M|35.7,36.9|N|To Prophet Velen|M|46.4,38.7|
@@ -426,14 +453,16 @@ C The Righteous March|QID|33255|M|52.23,46.04|N|Speak to Vindicator Maraad and t
 T The Righteous March|QID|33255|M|77.46,37.63|N|To Exarch Akama.|
 
 A The Defense of Karabor|QID|33256|M|77.46,37.63|N|From Exarch Akama.|PRE|33255|
-C The Defense of Karabor|QID|33256|N|Complete the scenario (Kill Arnokk the Burner, head to the harbor, kill Commander Vorka. Watch out for the reinforcements which can overwhelm you)|
-T The Defense of Karabor|QID|33256|N|Jump onto Raindash to take you back to Embaari Village, then To Yrel|M|46.4,38.6|
+C The Defense of Karabor|QID|33256|N|Complete the scenario (Kill Arnokk the Burner, head to the harbor, defend K'ara, kill Commander Vorka. Watch out for the reinforcements which can overwhelm you)|
+T The Defense of Karabor|QID|33256|N|Jump onto Raindash to take you back to Embaari Village, then To Yrel|M|80.49,46.99|
 
-A The Secrets of Gorgrond |QID|33533|N|Moving onto Gorgrond next? Accept this quest from Yrel.|LEAD|36632;35556|
+;The next quest may not be available since you need to be Level 92, and you're likely to only be level 91 at this point.
+;A The Secrets of Gorgrond |QID|33533|N|Moving onto Gorgrond next? Accept this quest from Yrel.|LEAD|36632;35556|
 
-l The Prophet's Arcanum |QID|37322|N|Go to your mailbox, there will be a message there from Yrel, with The Prophet's Arcanum. Take it.|L|119208|PRE|33256|M|45.9,39.6|
+l The Prophet's Arcanum |QID|37322|N|Go to the mailbox, there will be a message there from Yrel, with The Prophet's Arcanum. Take it.|L|119208|PRE|33256|M|45.9,39.6|
 A The Prophet's Final Message|QID|37322|M|42.37,52.04|Z|Lunarfall|N|From The Prophet's Arcanum. (Quest can also be obtained from Arsenio Zerep.)|U|119208|PRE|33256|
-F Path of the Light |QID|37322|M|45.7,38.9|N|Take a flight to Path of Light from Eonor.|ACTIVE|37322|
+f Path of the Light|QID|35444|N|Run east along the road. To Paaya.|M|57.0,56.6|ACTIVE|37322|
+R Tranquil Court|QID|37322|M|70.4,50.4|N|Run east up the stairs to Tranquil Court.|
 f Tranquil Court|QID|37322|M|70.4,50.4|N|With Itara|ACTIVE|37322|
 T The Prophet's Final Message|QID|37322|N|To Prophet Velen's Memorial|M|73.7,55.8|
 
@@ -485,7 +514,7 @@ T Captured Critters|QID|33331|N|Auto-Complete|
 C Prune the Podlings|QID|34806|M|47.05,14.39|N|Finish killing Podlings|US|M|43.0,18.5|
 T Prune the Podlings|QID|34806|M|47.05,14.39|N|Auto-Complete|
 
-C Game of Thorns|QID|33271|N|Follow the path up to King Deathbloom, and kill him.|M|35.7,19.7|
+C Game of Thorns|QID|33271|N|Follow the path up to King Deathbloom, and kill him.|M|37.89,21.07;35.7,19.7|CN|
 T Game of Thorns|QID|33271|N|To Shelly Hamby|M|36.4,19.3|
 A Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.4,19.3|PRE|33271|
 T Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.4,19.3|
@@ -502,8 +531,7 @@ A Oru'kai's Staff |QID|36315|N|From Deema|M|37.4,72.6|PRE|36313|
 C Oru'kai's Staff |QID|36315|N|Obtain Oru'kai's Staff from the water.|
 T Oru'kai's Staff |QID|36315|N|To Arcanist Delath|M|37.4,72.6|
 
-F Embaari Village|QID|35444|N|Fly to Embaari Village|ACTIVE|35444|
-f Path of the Light|QID|35444|N|Run east along the road. To Paaya.|M|57.0,56.6|ACTIVE|35444|
+F Path of the Light|QID|35444|N|Fly to the Path of the Light.|ACTIVE|35444|
 R The Draakorium |QID|35444|N|Run south along the road.|M|57.0,56.6|ACTIVE|35444|
 f The Draakorium |QID|35444|N|With Morfax|M|57.0,56.6|ACTIVE|35444|
 T The Southern Wilds |QID|35444|N|To Prelate Reenu.|M|57.0,57.5|ACTIVE|35444| ;From Farmer Gehaar
@@ -583,14 +611,103 @@ T Fiona |QID|35617|M|53.60,57.29|N|To Fiona.|
 
 T Wanted: Maa'run's Hoof|QID|33836|M|58.03,57.63|N|To Orrin.|RANK|3|
 
-L Level 94 |QID|33113|LVL|94|N|Move onto Gorgrond, you can come back to this guide after you've levelled up a bit (the next steps require Level 94)|
-A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.5,24.5|PRE|37451|
-C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|
-T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.5,24.5|
+H Lunarfall |QID|36624|N|Use your Garrison Hearthstone to get back to Lunarfall. If it is on cooldown, then fly back.|U|110560|PRE|35617|
+A Ashran Appearance |QID|36624|N|From Lieutenant Thorn|M|31.27,32.72|Z|Lunarfall|
+C Ashran Appearance |QID|36624|N|Speak with Dungar Longdrink|CHAT|M|48.15,49.87|Z|Lunarfall|
+F Stormshield|QID|36624|N|Ask Dungar to take you to Stormshield in Ashran.|M|48.15,49.87|Z|Lunarfall|
+T Ashran Appearance |QID|36624|N|To Private Tristan|M|37.55,91.19|Z|Ashran|
 
-A A Curse Upon the Woods |QID|33120|N|From Delas Moonfang|M|29.5,24.5|PRE|33113|
-C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|
-T A Curse Upon the Woods |QID|33120|N|To Delas Moonfang|M|29.5,24.5|
+A Host Howell |QID|36626|N|From Private Tristan|M|37.55,91.19|Z|Ashran|PRE|36624|
+T Host Howell |QID|36626|N|To Lieutenant Howell|M|38.30,96.88|Z|Ashran|
+
+A Inspiring Ashran |QID|36629|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|36626|
+C Inspiring Ashran |QID|36629|N|Speak with Jaesia Rosecheek|M|38.35,97.31|Z|Ashran|QO|1|CHAT|
+C Inspiring Ashran |QID|36629|N|Speak with Knewbie McGreen|M|44.29,89.37|Z|Ashran|QO|2|CHAT|
+C Inspiring Ashran |QID|36629|N|Speak with Vindicator Nuurem|M|40.74,97.09|Z|Ashran|QO|3|CHAT|
+T Inspiring Ashran |QID|36629|N|To Lieutenant Howell|M|38.30,96.88|Z|Ashran|
+
+A Surly Dwarf |QID|36630|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|36629|
+T Surly Dwarf |QID|36630|N|To Delvar Ironfist|M|41.05,86.93|Z|Ashran|
+A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
+
+F Lunarfall|QID|0|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|
+
+A Things Are Not Goren Our Way |QID|34192|N|From Timothy Leens|M|65.46,41.79|Z|Lunarfall|PRE|36592|
+C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|S|QO|1|
+C Things Are Not Goren Our Way |QID|34192|N|Head to the back of the mine and kill Stonetooth.|M|65.46,41.79|Z|Lunarfall|T|Stonetooth|QO|2|
+C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|US|QO|1|
+T Things Are Not Goren Our Way |QID|34192|N|To Timothy Leens|M|65.46,41.79|Z|Lunarfall|
+
+A Your First Alchemy Work Order |QID|36641|N|From your Alchemy. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Alchemy;76;119;120|
+C Your First Alchemy Work Order |QID|36641|N|Speak to Peter Kearie to start your first Alchemy Work Order.|QO|1|ACTIVE|36641|CHAT|
+A Your First Enchanting Work Order|QID|36645|N|From your Enchanter's Study. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Enchanter's Study;93;125;126|
+C Your First Enchanting Work Order|QID|36645|N|Speak to Garm to start your first Enchanting Work Order.|QO|1|ACTIVE|36645|CHAT|
+A Your First Engineering Work Order|QID|36646|N|From Zaren Hoffle. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Engineering Works;91;123;124|
+C Your First Engineering Work Order|QID|36646|N|Speak to Helayn Whent to start your first Engineering Work Order.|QO|1|ACTIVE|36646|CHAT|
+A Your First Jewelcrafting Work Order |QID|36644|N|From your Gem Boutique. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Gem Boutique;96;131;132|
+C Your First Jewelcrafting Work Order |QID|36644|N|Speak to Kurt Broadoak to start your first Jewelcrafting Work Order.|QO|1|ACTIVE|36644|CHAT|
+A Your First Inscription Work Order |QID|36647|N|From your Scribe's Quarters. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Scribe's Quarters;95;129;130|
+C Your First Inscription Work Order |QID|36647|N|Speak to Kaya Solasen to start your first Inscription Work Order.|QO|1|ACTIVE|36647|CHAT|
+A Lost in Transition |QID|37087|N|From Kyra Goldhands. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Storehouse;51;142;143|
+C Lost in Transition |QID|37087|N|Collect the crates of surplus materials from around the fort.|NC|BUILDING|Storehouse;51;142;143|
+A Your First Tailoring Work Order |QID|36643|N|From your Tailoring Emporium. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|Tailoring Emporium;94;127;128|
+C Your First Tailoring Work Order |QID|36643|N|Speak to Kaylie Macdonald to start your first Tailoring Work Order.|QO|1|ACTIVE|36643|CHAT|
+A Your First Blacksmithing Work Order|QID|35168|N|From your Forge. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|The Forge;60;117;118|
+C Your First Blacksmithing Work Order|QID|35168|N|Speak to Yulia Samras to start your first Blacksmithing Work Order.|QO|1|ACTIVE|35168|CHAT|
+A Your First Leatherworking Work Order |QID|36642|N|From your Tannery. Not opened up yet? Click the scroll. Not built yet? Move onto another guide, and come back in an hour.|BUILDING|The Tannery;90;121;122|
+C Your First Leatherworking Work Order |QID|36642|N|Speak to Marianne Levine to start your first Leatherworking Work Order.|QO|1|ACTIVE|36642|CHAT|
+
+C Your First Alchemy Work Order |QID|36641|N|Collect the Alchemy Work Order.|QO|2|ACTIVE|36641|NC|
+T Your First Alchemy Work Order |QID|36641|N|To Peter Kearie.|ACTIVE|36641|
+C Your First Enchanting Work Order|QID|36645|N|Collect the Enchanting Work Order.|QO|2|ACTIVE|36645|NC|
+T Your First Enchanting Work Order|QID|36645|N|To Garm.|ACTIVE|36645|
+C Your First Engineering Work Order|QID|36646|N|Collect the Engineering Work Order.|QO|2|ACTIVE|36646|NC|
+T Your First Engineering Work Order|QID|36646|N|To Helayn Whent|ACTIVE|36646|
+C Your First Jewelcrafting Work Order |QID|36644|N|Collect the Jewelcrafting Work Order.|QO|2|ACTIVE|36644|NC|
+T Your First Jewelcrafting Work Order |QID|36644|N|To Kurt Broadoak.|ACTIVE|36644|
+C Your First Inscription Work Order |QID|36647|N|Collect the Inscription Work Order.|QO|2|ACTIVE|36647|NC|
+T Your First Inscription Work Order |QID|36647|N|To Kaya Solasen.|ACTIVE|36647|
+T Lost in Transition |QID|37087|N|To Kyra Goldhands|ACTIVE|36647|
+C Your First Tailoring Work Order |QID|36643|N|Collect the Tailoring Work Order.|QO|2|ACTIVE|36643|NC|
+T Your First Tailoring Work Order |QID|36643|N|To Kaylie Macdonald.|ACTIVE|36643|
+C Your First Blacksmithing Work Order|QID|35168|N|Collect the Blacksmithing Work Order.|QO|2|ACTIVE|35168|NC|
+T Your First Blacksmithing Work Order|QID|35168|N|To Yulia Samras|ACTIVE|35168|
+C Your First Leatherworking Work Order |QID|36642|N|Collect the Leatherworking Work Order.|QO|2|ACTIVE|36642|NC|
+T Your First Leatherworking Work Order |QID|36642|N|To Marianne Levine.|ACTIVE|36642|
+
+;N Alchemy |QID|0|N|You have this building.|BUILDING|Alchemy;76;119;120|
+;N Barn |QID|0|N|You have this building.|BUILDING|Barn;24;25;133|
+;N Barracks |QID|0|N|You have this building.|BUILDING|Barracks;26;27;28|
+;N Dwarven Bunker |QID|0|N|You have this building.|BUILDING|Dwarven Bunker;8;9;10|
+;N Enchanter's Study |QID|0|N|You have this building.|BUILDING|Enchanter's Study;93;125;126|
+;N Engineering Works |QID|0|N|You have this building.|BUILDING|Engineering Works;91;123;124|
+;N Fishing Shack |QID|0|N|You have this building.|BUILDING|Fishing Shack;64;134;135|
+;N Gem Boutique |QID|0|N|You have this building.|BUILDING|Gem Boutique;96;131;132|
+;N Gladiator's Sanctum |QID|0|N|You have this building.|BUILDING|Gladiator's Sanctum;159;160;161|
+;N Gnomish Gearworks |QID|0|N|You have this building.|BUILDING|Gnomish Gearworks;162;163;164|
+;N Herb Garden |QID|0|N|You have this building.|BUILDING|Herb Garden;29;136;137|
+;N Lumber Mill |QID|0|N|You have this building.|BUILDING|Lumber Mill;40;41;138|
+;N Lunarfall Excavation |QID|0|N|You have this building.|BUILDING|Lunarfall Excavation;61;62;63|
+;N Lunarfall Inn |QID|0|N|You have this building.|BUILDING|Lunarfall Inn;34;35;36|
+;N Mage Tower |QID|0|N|You have this building.|BUILDING|Mage Tower;37;38;39|
+;N Menagerie |QID|0|N|You have this building.|BUILDING|Menagerie;42;167;168|
+;N Salvage Yard |QID|0|N|You have this building.|BUILDING|Salvage Yard;52;140;141|
+;N Scribe's Quarters|QID|0|N|You have this building.|BUILDING|Scribe's Quarters;95;129;130|
+;N Stables|QID|0|N|You have this building.|BUILDING|Stables;65;66;67|
+;N Storehouse|QID|0|N|You have this building.|BUILDING|Storehouse;51;142;143|
+;N Tailoring Emporium|QID|0|N|You have this building.|BUILDING|Tailoring Emporium;94;127;128|
+;N The Forge|QID|0|N|You have this building.|BUILDING|The Forge;60;117;118|
+;N The Tannery|QID|0|N|You have this building.|BUILDING|The Tannery;90;121;122|
+;N Trading Post|QID|0|N|You have this building.|BUILDING|Trading Post;111;144;145|
+
+L Level 94 |QID|33113|LVL|94|N|Move onto Gorgrond, you can come back to this guide after you've levelled up a bit (the next steps require Level 94)|
+A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.5,24.5|LVL|94|
+C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|LVL|94|
+T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.5,24.5|LVL|94|
+
+A A Curse Upon the Woods |QID|33120|N|From Delas Moonfang|M|29.5,24.5|PRE|33113|LVL|94|
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|LVL|94|
+T A Curse Upon the Woods |QID|33120|N|To Delas Moonfang|M|29.5,24.5|LVL|94|
 
 ]]
 
