@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-04 01:38
+-- Who: Fluclo
+-- Log: Quest ID for Lazy Peons changed in 6.0.2
+
+-- URL: http://wow-pro.com/node/3199/revisions/26785/view
+-- Date: 2014-11-04 01:25
+-- Who: Fluclo
+-- Log: Hunter quest is Etched Parchment (6.0.3)
+
+-- URL: http://wow-pro.com/node/3199/revisions/26583/view
 -- Date: 2014-07-19 17:13
 -- Who: Ludovicus
 -- Log: Levels.
@@ -254,14 +264,14 @@ L Level 3|QID|25127|LVL|3|N|You should now be Level 3|
 A Rune-Inscribed Parchment|QID|3089|R|Orc|C|Shaman|M|43.22,68.23|N|From Gornek.|
 A Glyphic Parchment|QID|25138|R|Orc|C|Mage|M|43.22,68.23|N|From Gornek.|
 A Simple Parchment|QID|2383|R|Orc|C|Warrior|M|43.22,68.23|N|From Gornek.|
-A Etched Note|QID|3087|R|Orc|C|Hunter|M|43.22,68.23|N|From Gornek.|
+A Etched Parchment|QID|3087|R|Orc|C|Hunter|M|43.22,68.23|N|From Gornek.|
 A Tainted Parchment|QID|3090|R|Orc|C|Warlock|M|43.22,68.23|N|From Gornek.|
 A Encrypted Parchment|QID|3088|R|Orc|C|Rogue|M|43.22,68.23|N|From Gornek.|
 
 T Rune-Inscribed Parchment|QID|3089|R|Orc|C|Shaman|M|42.39,69.00|N|To Shikrik.|
 T Glyphic Parchment|QID|25138|R|Orc|C|Mage|M|42.51,69.04|N|To Acrypha.|
 T Simple Parchment|QID|2383|R|Orc|C|Warrior|M|42.88,69.45|N|To Frang.|
-T Etched Note|QID|3087|R|Orc|C|Hunter|M|42.84,69.33|N|To Karranisha.|
+T Etched Parchment|QID|3087|R|Orc|C|Hunter|M|42.84,69.33|N|To Karranisha.|
 T Tainted Parchment|QID|3090|R|Orc|C|Warlock|M|42.39,68.07|N|To Nartok.|
 T Encrypted Parchment|QID|3088|R|Orc|C|Rogue|M|42.37,68.81|N|To Rwag.|
 
@@ -287,11 +297,11 @@ T Immolate|QID|25145|R|Orc|C|Warlock|M|42.39,68.07|N|To Nartok.|
 T Eviscerate|QID|25141|R|Orc|C|Rogue|M|42.37,68.81|N|To Rwag.|
 
 A Sting of the Scorpid|QID|25127|M|43.27,68.24|N|From Gornek.|
-A Lazy Peons|QID|25134|M|43.51,67.47|N|From Foreman Thazz'ril.|
-C Lazy Peons|QID|25134|S|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
+A Lazy Peons|QID|37446|M|43.51,67.47|N|From Foreman Thazz'ril.|
+C Lazy Peons|QID|37446|S|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
 C Sting of the Scorpid|QID|25127|M|46.50,63.00|N|Kill and loot scorpids.|
-C Lazy Peons|QID|25134|US|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
-T Lazy Peons|QID|25134|M|43.54,67.48|N|To Foreman Thazz'ril.|
+C Lazy Peons|QID|37446|US|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|
+T Lazy Peons|QID|37446|M|43.54,67.48|N|To Foreman Thazz'ril.|
 T Sting of the Scorpid|QID|25127|M|43.26,68.17|N|To Gornek.|
 
 L Level 4|QID|25127|LVL|4|N|You should now be Level 4|
