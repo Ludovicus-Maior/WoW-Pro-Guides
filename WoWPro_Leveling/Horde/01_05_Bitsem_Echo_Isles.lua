@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-04 01:38
+-- Who: Fluclo
+-- Log: Quest ID for Lazy Peons changed in 6.0.2
+
+-- URL: http://wow-pro.com/node/3199/revisions/26785/view
+-- Date: 2014-11-04 01:25
+-- Who: Fluclo
+-- Log: Hunter quest is Etched Parchment (6.0.3)
+
+-- URL: http://wow-pro.com/node/3199/revisions/26583/view
 -- Date: 2014-07-19 17:13
 -- Who: Ludovicus
 -- Log: Levels.

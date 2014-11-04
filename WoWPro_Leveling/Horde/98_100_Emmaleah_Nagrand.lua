@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2014-11-04 08:36
+-- Who: Emmaleah
+-- Log: only changed a few things before Beta went down.  Added a few R steps and |T| tags.  Worked on the garrison building section at the end.  Guide will need more attention when WoD goes live.
+
+-- URL: http://wow-pro.com/node/3605/revisions/26705/view
 -- Date: 2014-10-02 08:30
 -- Who: Emmaleah
 -- Log: update link in header to point to correct pages
@@ -21,7 +26,6 @@ return [[
 
 ; per wowhead comparison 9/29/14
 ;Feline Friends Forever 35596 40.4,76.2 for follower Goldmane the Skiner, Kill Bolkar the Cruel to get Goldman's Cage Key |L 111863|leaving this out because Bolkar is a RARE or VERY LONG respawn.
-; need to move building quests (at end) to Gorgrond probably.
 
 N Beginnings|QID|36607|N|This guide begins at your garrison to take the free flight to Nagrand.|
 N Bonus Objectives|QID|36607|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 98 to do this guide.|
@@ -32,6 +36,7 @@ C Taking the Fight to Nagrand|QID|34794|M|45.91,51.14|Z|Frostwall|CHAT|N|Take th
 C Taking the Fight to Nagrand|QID|34794|M|86.37,66.18|CHAT|
 T Taking the Fight to Nagrand|QID|34794|M|86.37,66.18|N|To Stone Guard Brox.|
 A The Might of the Warsong|QID|34795|M|86.37,66.18|N|From Stone Guard Brox.|
+R Wor'var|QID|34795|M|81.86,49.82|N|Eventually this road takes you there.|
 T The Might of the Warsong|QID|34795|M|82.83,45.06|N|To Thrall.|
 A More Lazy Peons|QID|34808|M|82.83,45.06|N|From Thrall.|
 f Wor'var|QID|34808|M|83.33,44.68|N|At Tal.|
@@ -40,20 +45,22 @@ T More Lazy Peons|QID|34808|M|82.93,44.13|N|To Foreman Thazz'ril.|
 A They Call Him Lantresor of the Blade|QID|34818|M|82.93,44.13|N|From Foreman Thazz'ril.|
 A The Friend of My Enemy|QID|34826|M|82.84,45.07|N|From Thrall.|
 
+R Hallvalor|QID|34818|M|85.18,51.31|
 T They Call Him Lantresor of the Blade|QID|34818|M|85.41,54.58|N|To Lantresor of the Blade.|
 A The Blade Itself|QID|34849|M|85.42,54.59|N|From Lantresor of the Blade.|
 A Not Without My Honor|QID|34850|M|85.42,54.59|N|From Lantresor of the Blade.|
 C The Friend of My Enemy|QID|34826|S|M|85.42,55.30|
 C Not Without My Honor|QID|34850|S|NC|M|84.88,55.33|N|These treasure boxes are located inside many of the buildings. One of them will have his banner.|
-C The Blade Itself|QID|34849|M|85.97,53.89|
-C The Friend of My Enemy|QID|34826|US|M|85.42,55.30|
+C The Blade Itself|QID|34849|M|85.97,53.89|T|Instructor Luhk|
 C Not Without My Honor|QID|34850|US|NC|M|84.88,55.33|N|These treasure boxes are located inside many of the buildings. One of them will have his banner.|
 T The Blade Itself|QID|34849|M|85.44,54.60|N|To Lantresor of the Blade.|
 T Not Without My Honor|QID|34850|M|85.44,54.60|N|To Lantresor of the Blade.|
 A Meet Me in the Cavern|QID|34866|M|85.44,54.60|N|From Lantresor of the Blade.|
-T Meet Me in the Cavern|QID|34866|M|44.93,19.88|N|To Lantresor of the Blade.|
-A Challenge of the Masters|QID|34868|M|44.93,19.88|N|From Lantresor of the Blade.|
-C Challenge of the Masters|QID|34868|M|54.30,68.23|N|First you fight one, then two, with an add towards the end, Then the final guy.|
+C The Friend of My Enemy|QID|34826|US|M|85.42,55.30|N|Finish this up before you go in the Cavern as the ones inside don't count and when you come out you will be neutral to them.|
+T Meet Me in the Cavern|QID|34866|M|44.93,19.88|N|To Lantresor of the Blade.|Z|The Master's Cavern|
+A Challenge of the Masters|QID|34868|M|44.93,19.88|N|From Lantresor of the Blade.|Z|The Master's Cavern|
+C Challenge of the Masters|QID|34868|M|54.30,68.23|N|First you fight one, then two, with an add towards the end, Then the final guy.|Z|The Master's Cavern|
+R Wor'var|QID|34826|M|82.78,46.55|
 T The Friend of My Enemy|QID|34826|M|82.86,45.08|N|To Thrall.|
 T Challenge of the Masters|QID|34868|M|82.94,44.08|N|To Foreman Thazz'ril.|
 A A Choice to Make|QID|34899|M|82.94,44.08|N|From Foreman Thazz'ril.|
@@ -64,13 +71,13 @@ A Target of Opportunity: Telaar|QID|34914|M|82.88,45.08|N|From Aggra.|
 h Wor'var|QID|34598|M|82.56,45.41|N|At Elathriel Sunstriker.|
 A Shooting the Breeze|QID|35376|M|82.61,43.93|N|From Stalker Ogka.|
 A That Pounding Sound|QID|35374|M|82.55,43.99|N|To Shadow Hunter Taz.|
-A The Honor of a Blademaster|QID|34770|M|82.59,46.75|
+A The Honor of a Blademaster|QID|34770|M|82.59,46.75|N|From/To Lantresor of the Blade.  He is a follower with the mining trait, so if you assign him to your mine you will get higher production.|
 
 C That Pounding Sound|QID|35374|M|77.30,58.13|S|N|Kill the clefthoofs when its convenient.|
 C Shooting the Breeze|QID|35376|M|72.41,58.86|S|N|Kill the talbuk when its convenient.|
 A Gazmolf Futzwangler and the Highmaul Crusade|QID|34810|M|79.88,48.84|N|From Gabby Goldsnap.|
 f The Ring of Trials|QID|34598|M|79.82,49.71|N|At Biggy Warprofits.|
-N Ring of Trials|QID|34598|M|79.82,49.71|N|Feel free to do the ring event whenever you want, It is not in the guide until much later, to give time to acquire better gear from the quests.|
+N Ring of Trials|QID|34598|M|79.82,49.71|N|Feel free to do the ring event whenever you want, It is not in the guide until much later, to give time to acquire better gear from the quests. If you gear is good its soloable at level 100, at 98, I would recommend at least one partner.|
 A Tastes Like Chicken|QID|34869|M|79.22,52.67|N|From Digrem Orebar.|
 A The Good Doctor|QID|35146|M|77.43,47.36|N|From Marybelle Walsh.|
 A Whacking Weeds|QID|36273|M|77.43,47.36|N|From Marybelle Walsh.|
