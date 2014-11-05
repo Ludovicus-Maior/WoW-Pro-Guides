@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-04 20:59
+-- Who: Fluclo
+-- Log: Yarrog Baneshadow wasn't auto-completing. Removed Level info from level 2, 4 and 5 as they were unnecessary.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26786/view
 -- Date: 2014-11-04 01:38
 -- Who: Fluclo
 -- Log: Quest ID for Lazy Peons changed in 6.0.2

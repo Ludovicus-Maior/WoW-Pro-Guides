@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-04 20:59
+-- Who: Fluclo
+-- Log: Yarrog Baneshadow wasn't auto-completing. Removed Level info from level 2, 4 and 5 as they were unnecessary.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26786/view
 -- Date: 2014-11-04 01:38
 -- Who: Fluclo
 -- Log: Quest ID for Lazy Peons changed in 6.0.2
@@ -249,7 +254,7 @@ A Cutting Teeth|QID|25126|M|43.22,68.23|N|From Gornek.|
 C Cutting Teeth|QID|25126|M|44.90,65.60|N|Kill boars in the nearby boar pen.|
 T Cutting Teeth|QID|25126|M|43.26,68.22|N|To Gornek.|
 
-L Level 2|QID|25172|LVL|2|N|You should now be Level 2|
+;L Level 2|QID|25172|LVL|2|N|You should now be Level 2|
 
 A Invaders in Our Home|QID|25172|M|43.23,68.21|N|From Gornek.|
 C Invaders in Our Home|QID|25172|M|43.91,72.54|N|Kill Northwatch scouts to the south.|
@@ -259,7 +264,7 @@ A Galgar's Cactus Apple Surprise|QID|25136|M|42.75,67.31|N|From Galgar.|
 C Galgar's Cactus Apple Surprise|QID|25136|NC|M|44.62,64.74|N|Loot cactus apples from cactuses.|
 T Galgar's Cactus Apple Surprise|QID|25136|M|42.73,67.29|N|To Galgar.|
 
-L Level 3|QID|25127|LVL|3|N|You should now be Level 3|
+L Level 3|QID|25127|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
 A Rune-Inscribed Parchment|QID|3089|R|Orc|C|Shaman|M|43.22,68.23|N|From Gornek.|
 A Glyphic Parchment|QID|25138|R|Orc|C|Mage|M|43.22,68.23|N|From Gornek.|
@@ -304,7 +309,7 @@ C Lazy Peons|QID|37446|US|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the
 T Lazy Peons|QID|37446|M|43.54,67.48|N|To Foreman Thazz'ril.|
 T Sting of the Scorpid|QID|25127|M|43.26,68.17|N|To Gornek.|
 
-L Level 4|QID|25127|LVL|4|N|You should now be Level 4|
+;L Level 4|QID|25127|LVL|4|N|You should now be Level 4|
 
 A Hana'zua|QID|25128|PRE|25127|M|42.40,69.16|N|From Canaga Earthcaller.|
 A Vile Familiars|QID|25131|PRE|25127|M|43.43,67.48|N|From Zureetha Fargaze.|
@@ -322,9 +327,9 @@ A Thazz'ril's Pick|QID|25135|M|43.47,67.48|N|From Foreman Thazz'ril.|
 
 C Burning Blade Medallion|QID|25132|M|42.43,53.53|N|Kill felstalkers as you go through the cave.|S|QO|Felstalker slain: 7/7|
 C Thazz'ril's Pick|QID|25135|NC|M|43.75,53.77|N|Inside the cave, central passage.|
-K Yarrog Baneshadow|QID|25132|M|42.43,53.53|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|L|4859|
-C Burning Blade Medallion|QID|25132|M|42.50,55.25|N|Finish killing the felstalkers as you leave the cave|US|
-L Level 5|QID|25133|LVL|5|N|You should now be Level 5|
+K Yarrog Baneshadow|QID|25132|M|42.43,53.53|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|QO|2|
+C Burning Blade Medallion|QID|25132|M|42.50,55.25|N|Finish killing the felstalkers as you leave the cave|US|QO|1|
+;L Level 5|QID|25133|LVL|5|N|You should now be Level 5|
 H Valley of Trials|QID|25132|M|45.19,68.72|CC|N|Hearth or run back the The Den.|
 
 T Thazz'ril's Pick|QID|25135|M|43.51,67.49|N|To Foreman Thazz'ril at the starting area.|
