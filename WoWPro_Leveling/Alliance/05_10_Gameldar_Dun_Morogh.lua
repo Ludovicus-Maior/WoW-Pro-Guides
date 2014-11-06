@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-11-06 02:47
+-- Who: Fluclo
+-- Log: Removed duplicate |M| tag
+
+-- URL: http://wow-pro.com/node/3200/revisions/26634/view
 -- Date: 2014-07-26 00:36
 -- Who: Ludovicus
 
@@ -257,11 +262,6 @@
 -- Who: Ludovicus
 -- Log: Removed extra tabs and whitespace.
 --	Removed empty tags (aka ||'s).
-
--- URL: http://wow-pro.com/node/3200/revisions/24083/view
--- Date: 2011-01-30 19:28
--- Who: Ludovicus
--- Log: Corrected RegisterGuide to match GIT
 
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)

@@ -4,6 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-05 15:26
+-- Who: Fluclo
+-- Log: Changed Attack Plan from N to C steps; 
+--	Added a run to Northwatch Foothold prior to the two quests there; 
+--	Updated notes for a few quests to help better explain what needs doing; 
+--	Added PRE tags;
+--	Updated QO tags to the new number system; 
+--	Changed Profession Trainer to a self-completing step; 
+--	Coordinates on Orgrimmar parts were not in right places (|Z|Orgrimmar| doesn't seem to be working) so changed them to Durotar Coordinates; 
+--	Added step for the Lift to help new players find it better; 
+--	Split the quest From Bad to Worse into three parts, using K step for Lieutenant Palliter; 
+--	Added NC to the non-combat quests.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26792/view
+-- Date: 2014-11-05 13:59
+-- Who: Fluclo
+-- Log: Sen'jin Village Flightpath already known, so don't need to learn it
+
+-- URL: http://wow-pro.com/node/3199/revisions/26789/view
 -- Date: 2014-11-04 20:59
 -- Who: Fluclo
 -- Log: Yarrog Baneshadow wasn't auto-completing. Removed Level info from level 2, 4 and 5 as they were unnecessary.
@@ -249,64 +268,70 @@ return [[
 
 A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|
 A Cleaning Up the Coastline|QID|25170|M|55.77,75.34|N|From Bom'bay.|
-f Sen'jin Village|QID|25170|M|55.40,73.40|N|At Handler Marnlek.|N|Train Herbalism, Alchemy, Fishing or Riding if you wish.|
+;f Sen'jin Village|QID|25170|M|55.40,73.40|N|At Handler Marnlek.|N|Train Herbalism, Alchemy, Fishing or Riding if you wish.|
 C Cleaning Up the Coastline|QID|25170|S|M|59.02,74.41|N|Kill 5 Pygmy Surf Crawlers for Crawler Mucus.|
 
-C Breaking the Chain|QID|25167|M|52.45,80.60|N|Destroy 3 Northwatch Supply Crates and kill 10 Northwatch Lugs.|
-C Cleaning Up the Coastline|QID|25170|US|M|59.02,74.41|N|Kill 5 Pygmy Surf Crawlers.|
+C Breaking the Chain|QID|25167|M|52.45,80.60|N|Kill the Northwatch Lugs, and destroy the supply crates they drop.|
+C Cleaning Up the Coastline|QID|25170|US|M|59.02,74.41|N|Kill and loot the Pygmy Surf Crawlers.|
 T Breaking the Chain|QID|25167|M|55.95,74.80|N|To Master Gadrin.|
-A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|
+A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|PRE|25168|
 
 T Cleaning Up the Coastline|QID|25170|M|55.72,75.39|N|To Bom'bay.|
-A Never Trust a Big Barb and a Smile|QID|25165|PRE|25170|M|55.72,75.39|N|From Bom'bay.|
-A The War of Northwatch Aggression|QID|25169|M|55.46,75.04|N|From Lar Prowltusk.|
+A Never Trust a Big Barb and a Smile|QID|25165|PRE|25170|M|55.72,75.39|N|From Bom'bay.|PRE|25170|
+A The War of Northwatch Aggression|QID|25169|M|55.46,75.04|N|From Lar Prowltusk.|PRE|25167+25170|
 
-C Never Trust a Big Barb and a Smile|QID|25165|U|52505|M|54.16,75.20|N|Place the Poison Extraction Totem near Clattering Scorpids until you have 6 samlpes of venom.|
-N Attack Plan: Valley of Trials burned|QID|25169|M|49.7,81.6|QO|Attack Plan: Valley of Trials burned: 1/1|N|Burn the Valley of Trials attack plans that are sitting on the ground.|
-N Attack Plan: Sen'jin Village burned|QID|25169|M|47.95,77.5|QO|Attack Plan: Sen'jin Village burned: 1/1|N|Burn the Sen'jin Village attack plans that are sitting on the crate.|
-C The War of Northwatch Aggression|QID|25169|M|46.41,78.86|N|Finally burn the Orgrimmar attack plans that are sitting on the ground inside the tent.|
-C Purge the Valley|QID|25168|M|46.64,79.51|N|Defeat 12 Northwatch troops in Northwatch Foothold. |
+C Never Trust a Big Barb and a Smile|QID|25165|U|52505|M|54.16,75.20|N|Summon the Poison Extraction Totem, then let the Clattering Scorpids cast Envenom near it.|
+C Purge the Valley|QID|25168|M|46.64,79.51|N|Kill Northwatch Rangers and Infantryman troops.|S|
+R Northwatch Foothold|QID|25168;25169|N|Head to Northwatch Foothold.|M|50.78,79.10|ACTIVE|25169;25168|
+C Attack Plan: Valley of Trials burned|QID|25169|M|49.7,81.6|QO|1|N|Burn the Valley of Trials attack plans that are sitting on the ground.|NC|
+C Attack Plan: Sen'jin Village burned|QID|25169|M|47.95,77.5|QO|2|N|Burn the Sen'jin Village attack plans that are sitting on the crate.|NC|
+C Attack Plan: Orgrimmar burned|QID|25169|M|46.41,78.86|QO|3|N|Burn the Orgrimmar attack plans that are on the ground inside the tent.|NC|
+C Purge the Valley|QID|25168|M|46.64,79.51|N|Finish killing the Northwatch Rangers and Infantryman troops.|US|
 T The War of Northwatch Aggression|QID|25169|M|55.35,75.17|N|To Lar Prowltusk.|
 T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|
 
 T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.|
-A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|
-R Razor Hill|QID|25171|M|55.27,74.65|N|Talk to Raider Jhash for ride to Razor Hill.|
+A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|PRE|25168|
+R Razor Hill|QID|25171|M|55.27,74.65|N|Talk to Raider Jhash for ride to Razor Hill.|CHAT|
 T Riding On|QID|25171|M|51.92,43.48|N|To Gar'Thok.|
 
-A From Bad to Worse|QID|25173|M|51.92,43.48|N|From Gar'Thok.|
+A From Bad to Worse|QID|25173|M|51.92,43.48|N|From Gar'Thok.|PRE|25171|
 A Meats to Orgrimmar|QID|6365|M|50.76,42.78|R|Orc,Tauren,Troll|N|From Grimtak.|
-h Razor Hill|QID|25176|M|51.61,41.65|N|At Innkeeper Grosk.|
-A Exploiting the Situation|QID|25176|M|53.05,43.12|N|From Gail Nozzywig.|
-R Profession Trainers|QID|25176|M|52.96,41.90|N|Runda the Profession Trainer, just outside the Barracks if you want/need to learn any profession.|
-R Profession Trainers|QID|25176|M|54.18,41.92|N|Rawrk the First Aid Trainer, is inside the Barracks if you want to learn First Aid.|
-C From Bad to Worse|QID|25173|S|M|57.45,55.24|N|Kill Marines, Sharpshooters, and Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|
-
-C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Obtain 6 pieces of Kul Tiras Treasure scattered around Tiragarde Keep..|
-C From Bad to Worse|QID|25173|US|M|59.5,58.2|N|Kill Marines, Sharpshooters, and Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|
-T From Bad to Worse|QID|25173|M|51.89,43.52|N|To Gar'Thok.|
-A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|
-T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
-
-A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|
+N Profession Trainers|QID|25176|M|52.96,41.90|N|Runda the Profession Trainer, just outside the Barracks can teach you most professions, whilst Rawrk inside the barracks will teach you First Aid.|S|ACTIVE|6365|T|Runda|
+h Razor Hill|QID|6365|M|51.61,41.65|N|At Innkeeper Grosk.|ACTIVE|6365|
 T Meats to Orgrimmar|QID|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|To Burok.|
 A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|From Burok.|
-F Orgrimmar|QID|6384|M|53.08,43.6|N|Fly to Orgrimmar.|R|Orc,Tauren,Troll|
-T Ride to Orgrimmar|QID|6384|M|50.87,62.61;53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|CS|N|Take the lift down, the turn in to Innkeeper Gryshka.|
-A Doras the Wind Rider Master|QID|6385|PRE|6384|M|53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Innkeeper Gryshka.|
-T Doras the Wind Rider Master|QID|6385|M|50.87,62.61;49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|CS|N|Back up the lift to Doras.|
+F Orgrimmar|QID|6384|M|53.08,43.6|N|Fly to Orgrimmar.|R|Orc,Tauren,Troll|ACTIVE|6384|
+R Valley of Strength|QID|6384|M|43.66,3.06|N|Take the lift down to the Valley of Strength.|ACTIVE|6384|
+T Ride to Orgrimmar|QID|6384|M|46.83,6.67|R|Orc,Tauren,Troll|CS|N|To Innkeeper Gryshka.|
+A Doras the Wind Rider Master|QID|6385|PRE|6384|M|46.83,6.67|R|Orc,Tauren,Troll|N|From Innkeeper Gryshka.|
+T Doras the Wind Rider Master|QID|6385|M|43.66,3.06;45.54,0.23|R|Orc,Tauren,Troll|CS|N|Head back up the lift, then to Doras.|ACTIVE|6385|
 A Return to Razor Hill|QID|6386|PRE|6385|M|49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Doras.|
-
-F Razor Hill|QID|6386|M|49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|Fly back to Razor Hill.|
+F Razor Hill|QID|6386|M|49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|Fly back to Razor Hill.|ACTIVE|6386|
+A Exploiting the Situation|QID|25176|M|53.05,43.12|N|From Gail Nozzywig.|
 T Return to Razor Hill|QID|6386|M|50.78,42.85|R|Orc,Tauren,Troll|N|To Grimtak.|
+
+C Northwatch Marines|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Marines|QO|1|S|
+C Northwatch Sharpshooters|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Sharpshooters|QO|2|S|
+C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Loot the Kul Tiras Treasure scattered around Tiragarde Keep.|NC|S|
+K Lieutenant Palliter|QID|25173|M|59.5,58.2|N|Kill Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|T|Lieutenant Palliter|QO|3|
+C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Finish looting the Kul Tiras Treasure scattered around Tiragarde Keep.|NC|US|
+C Northwatch Sharpshooters|QID|25173|M|57.45,55.24|N|Finish killing the Northwatch Sharpshooters|QO|2|US|
+C Northwatch Marines|QID|25173|M|57.45,55.24|N|Finish killing the Northwatch Marines|QO|1|US|
+T From Bad to Worse|QID|25173|M|51.89,43.52|N|To Gar'Thok.|
+
+A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|PRE|25173|
+T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
+
+A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|PRE|25176|
 C Storming the Beaches|QID|25177|S|M|58.96,49.79|N|Kill Foaming Sea Elementals. |
-C Shipwreck Searching|QID|25178|S|M|57.35,44.65|N|Obtain 4 sets of Gnomish Tools.|
+C Shipwreck Searching|QID|25178|S|M|57.35,44.65|N|Obtain 4 sets of Gnomish Tools.|NC|
 A Loss Reduction|QID|25179|M|57.89,45.01|N|From Injured Razor Hill Grunt (need to talk to him, doesn't have a !).|
-C Loss Reduction|QID|25179|M|59.64,49.92|N|Rescue 4 Injured Razor Hill Grunts.|
+C Loss Reduction|QID|25179|M|59.64,49.92|N|Rescue 4 Injured Razor Hill Grunts.|NC|
 C Storming the Beaches|QID|25177|US|M|58.96,49.79|N|Kill 11 Foaming Sea Elementals. |
 
 T Shipwreck Searching|QID|25178|M|53.10,43.18|N|To Gail Nozzywig.|
-A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|
+A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|PRE|25178|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
 T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|

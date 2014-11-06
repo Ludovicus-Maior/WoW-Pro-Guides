@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-11-05 20:25
+-- Who: Fluclo
+-- Log: Duplicate N tags for quest Yrel.
+
+-- URL: http://wow-pro.com/node/3600/revisions/26780/view
 -- Date: 2014-11-02 23:30
 -- Who: Fluclo
 -- Log: Removed Beta Notes; 
@@ -181,8 +186,8 @@ C Kill Ungra|QID|34431;34737|N|Head up the first stairs, then take the next set 
 C Kill Taskmaster Gorran|QID|34431;34737|N|Straight along the corridor behind you. Watch for the hole in the floor.|QO|2|M|60.80,15.10|T|Taskmaster Gurran|Z|TanaanJungleIntro|
 C Find Ankova|QID|34431;34737|N|Jump down the hole, then follow the corridor north-west to the corpse of Ankova|QO|3|NC|M|58.81,14.15|Z|TanaanJungleIntro|
 
-A Yrel|QID|34434;34740|From Yrel|M|58.81,14.15|N|From Yrel.|Z|TanaanJungleIntro|PRE|34429|
-C Yrel|QID|34434;34740|Head back down the corridor.|M|61.48,18.95|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|TanaanJungleIntro|
+A Yrel|QID|34434;34740|M|58.81,14.15|N|From Yrel.|Z|TanaanJungleIntro|PRE|34429|
+C Yrel|QID|34434;34740|M|61.48,18.95|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|TanaanJungleIntro|
 C The Shadowmoon Clan|QID|34432;34739|N|Finish killing the Shadowmoon Voidaxe and Void Wolves|US|M|59.00,20.68|Z|TanaanJungleIntro|
 
 T The Shadowmoon Clan|QID|34432|N|To Qiana Moonshadow|FACTION|Alliance|M|59.97,20.28|Z|TanaanJungleIntro|

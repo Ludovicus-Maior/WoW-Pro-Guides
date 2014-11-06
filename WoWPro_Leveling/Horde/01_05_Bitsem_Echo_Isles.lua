@@ -4,6 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-05 15:26
+-- Who: Fluclo
+-- Log: Changed Attack Plan from N to C steps; 
+--	Added a run to Northwatch Foothold prior to the two quests there; 
+--	Updated notes for a few quests to help better explain what needs doing; 
+--	Added PRE tags;
+--	Updated QO tags to the new number system; 
+--	Changed Profession Trainer to a self-completing step; 
+--	Coordinates on Orgrimmar parts were not in right places (|Z|Orgrimmar| doesn't seem to be working) so changed them to Durotar Coordinates; 
+--	Added step for the Lift to help new players find it better; 
+--	Split the quest From Bad to Worse into three parts, using K step for Lieutenant Palliter; 
+--	Added NC to the non-combat quests.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26792/view
+-- Date: 2014-11-05 13:59
+-- Who: Fluclo
+-- Log: Sen'jin Village Flightpath already known, so don't need to learn it
+
+-- URL: http://wow-pro.com/node/3199/revisions/26789/view
 -- Date: 2014-11-04 20:59
 -- Who: Fluclo
 -- Log: Yarrog Baneshadow wasn't auto-completing. Removed Level info from level 2, 4 and 5 as they were unnecessary.
