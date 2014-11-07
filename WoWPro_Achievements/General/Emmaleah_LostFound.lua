@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2014-11-06 12:32
+-- Who: Fluclo
+-- Log: Removing empty L tag in Stash of Gems
+
+-- URL: http://wow-pro.com/node/3514/revisions/26312/view
 -- Date: 2014-05-26 18:04
 -- Who: Ludovicus
 -- Log: Added guide type. Typographical corrections.
@@ -90,7 +95,7 @@ A Ancient Pandaren Tea Pot|QID|31400|L|85780|RANK|2|M|26.2,32.3|Z|The Jade Fores
 A Lucky Pandaren Coin|QID|31401|L|85781|RANK|2|M|31.96,27.76|Z|The Jade Forest|N|In fountain, Shrine of the Sun.|
 A Wodin's Mantid Shanker|QID|31397|L|85776|RANK|1|M|39.4,7.3|Z|The Jade Forest|N|Owen's Wishing Well. Terrace of Ten Thunders.|
 A Hammer of Ten Thunders|QID|31403|L|86198|RANK|1|M|43,11.6;41.8,17.6|Z|The Jade Forest|CN|N|Seat of the Spirit Walker, Terrace of Ten Thunders.|
-A Stash of Gems|QID|31866|L|RANK|3|M|62.47,27.55|Z|The Jade Forest|N|Cave in Windward Isle - Shadowfae Madcap, spawn point, I wouldn't recommend this one pre lvl 90.|
+A Stash of Gems|QID|31866|RANK|3|M|62.47,27.55|Z|The Jade Forest|N|Cave in Windward Isle - Shadowfae Madcap, spawn point, I wouldn't recommend this one pre lvl 90.|
 A Ancient Pandaren Mining Pick|QID|31399|L|85777|RANK|1|M|46.1,29.1;44.1,27.0;43.8,30.7|Z|The Jade Forest|CN|N|Multiple spots in Greenstone Mine.|
 A Jade Infused Blade|QID|31307|L|86199|RANK|1|T|Jade Warrior Statue|M|39.4,46.65|Z|The Jade Forest|N|Talk to 'Jade Warrior Statue'[64272] at Jade Witch's house.|
 A Ancient Jinyu Staff|QID|31402|L|86196|RANK|1|M|47.1,67.4;46.2,71.2;44.9,64.6|Z|The Jade Forest|CN|N|Many spots, bottom of river near Grookin Hill.|

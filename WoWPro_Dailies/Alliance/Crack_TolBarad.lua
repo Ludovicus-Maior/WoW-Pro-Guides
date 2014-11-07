@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2014-11-06 18:13
+-- Who: Fluclo
+-- Log: Added missing |N| to First Lieutenant Connor
+
+-- URL: http://wow-pro.com/node/3414/revisions/26831/view
+-- Date: 2014-11-06 18:12
+-- Who: Fluclo
+-- Log: Added missing pipe from Cursed Shackles QID.
+
+-- URL: http://wow-pro.com/node/3414/revisions/26546/view
 -- Date: 2014-07-06 15:24
 -- Who: Ludovicus
 -- Log: Guide level and faction
@@ -85,7 +95,7 @@ C D-Block|QID|28165|M|42.7,37.6|N|Kill 10 of any type of Demon.|S|
 C Cursed Shackles|QID|28186|M|42.7,37.6|N|Loot 8 of the Cursed Shackles that are lying around.|S|
 R D-Block|QID|28185|M|42.7,37.6|N|NW from the quest giver.|
 C Svarnos|QID|28185|M|48.2,30.4|N|Head down into D-Block. Kill then loot Svarnos for his collar.|
-C Cursed Shackles|QID28186|M|42.7,37.6|N|Loot 8 of the Cursed Shackles that are lying around.|US|
+C Cursed Shackles|QID|28186|M|42.7,37.6|N|Loot 8 of the Cursed Shackles that are lying around.|US|
 C D-Block|QID|28165|M|42.7,37.6|N|Kill 10 of any type of Demon.|US|
 
 C The Leftovers|QID|28163|M|50.9,46.4;65.6,65;34.7,68.3|CN|N|Head into either Warden's Vigil, Slagworks or Ironclad Garrison (whichever is closer). Kill 12 Horde Infantry.|

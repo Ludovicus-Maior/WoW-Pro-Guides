@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2014-11-06 13:00
+-- Who: Fluclo
+-- Log: Removed duplicate M tag from Bird is the Word
+
+-- URL: http://wow-pro.com/node/3216/revisions/26394/view
 -- Date: 2014-05-30 12:03
 -- Who: Ludovicus
 -- Log: Level setting
@@ -336,7 +341,7 @@ C Defcon: Bobcat|QID|27026|M|69.67,73.70|S|N|Kill Bobcats.|
 C Vyrin's Revenge|QID|27036|M|80.28,52.17|N|Kill and loot Ol' Sooty.|
 C Defcon: Bobcat|QID|27026|M|71.57,76.91|N|Finish killing the Bobcats as you make your way to Ironwing Cavern.|US|
 R Ironwing Cavern|QID|27032|M|71.57,76.91|N|Run to Ironwing Cavern.|
-T Bird is the Word|QID|27032|M|78.52,76.30|M|71.4,76.8|N|To the Rusted Skystrider.|
+T Bird is the Word|QID|27032|M|78.52,76.30|N|To the Rusted Skystrider.|
 
 A Skystrider's Heart|QID|27033|M|78.51,76.32|N|From the Rusted Skystrider.|PRE|27032|
 H Farstrider Lodge|QID|27033|M|81.90,64.62|N|Hearthstone back to Farstrider Lodge.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2014-11-06 13:11
+-- Who: Fluclo
+-- Log: Removed duplicate NC tag from Down In Thelgen Rock; Added missing M tag in Torrention
+
+-- URL: http://wow-pro.com/node/3224/revisions/26397/view
 -- Date: 2014-05-30 12:09
 -- Who: Ludovicus
 -- Log: Level adjust
@@ -156,9 +161,9 @@ C Get Out Of Here, Stalkers|QID|25733|QO|Leech Stalker slain: 7/7|M|54.10,63.39|
 R Thelgen Rock Cave|QID|25733|CC|M|52.05,62.73|N|Run into this cave.|
 C Get Out Of Here, Stalkers|QID|25733|S|M|53.99,66.00|N|Kill Cave Stalkers.|
 C Incendicite Ore|QID|25735|S|U|55240|M|47.82,65.97|N|Gather Incedicite Ore.|NC|
-C Down In Thelgen Rock|QID|25734|NC|M|47.78,65.99|N|Keep to the left as you go through the cave. Pick up the Thelgen Seismic Record.|NC|
+C Down In Thelgen Rock|QID|25734|NC|M|47.78,65.99|N|Keep to the left as you go through the cave. Pick up the Thelgen Seismic Record.|
 
-K Torrention|QID|25736|47.8,65.4|L|55243|N|Kill and loot Torrention, who appears behind you.|ACTIVE|25734|
+K Torrention|QID|25736|M|47.8,65.4|L|55243|N|Kill and loot Torrention, who appears behind you.|ACTIVE|25734|
 A The Floodsurge Core|QID|25736|M|47.8,65.4|U|55243|N|From the Floodsurge Core, looted from Torrention.|ACTIVE|25734|
 C Incendicite Ore|QID|25735|US|U|55240|M|47.82,65.97|N|Finish gathering the Incedicite Ore.|NC|
 C Get Out Of Here, Stalkers|QID|25733|US|M|48.54,60.83|N|Finish killing the CaveStalkers as you leave the cave.|

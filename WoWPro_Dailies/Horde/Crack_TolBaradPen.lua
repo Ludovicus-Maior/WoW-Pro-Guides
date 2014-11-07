@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2014-11-06 18:24
+-- Who: Fluclo
+-- Log: Added missing |N| tag
+
+-- URL: http://wow-pro.com/node/3416/revisions/26633/view
 -- Date: 2014-07-26 00:35
 -- Who: Ludovicus
 -- Log: OOps, wrong faction
@@ -75,7 +80,7 @@ A 3rd Officer Kronkar's Quests|M|55.2,81|N|Grab any and all quests from 3rd Offi
 
 C Salvaging the Remains|QID|28690|M|36.2,79.4|N|Kill and loot Ghouls at Forgotten Hill until you have 9 Cursed Femurs.|
 C The Forgotten|QID|28689|M|36.2,79.4|N|Click on the sparkling gravestones. When you click on one, an Angry Spirit will appear.|
-C First Lieutenant Connor|QID|28691|M|36.2,79.4|Kill First Lieutenant Connor, he wanders around the building at the top of the hill.|
+C First Lieutenant Connor|QID|28691|M|36.2,79.4|N|Kill First Lieutenant Connor, he wanders around the building at the top of the hill.|
 
 C Finish The Job|QID|28693|M|41.8,62.1|N|Kill 5 Restless Soldiers.|
 C Magnets, How Do They Work?|QID|28692|M|41.8,62.1|N|Use the Magnetized Scrap Collector, then pick up the Siege Engine Scrap that shows up on the ground.|U|62829|

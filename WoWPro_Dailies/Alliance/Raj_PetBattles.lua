@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2014-11-06 18:22
+-- Who: Fluclo
+-- Log: Added missing pipe, and capitalised RANK.
+
+-- URL: http://wow-pro.com/node/3544/revisions/26515/view
 -- Date: 2014-06-10 23:23
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -154,7 +159,7 @@ R Deepholm|QID|31973|M|49.8,57|Z|Deepholm|RANK|2|
 A Bordin Steadyfist|QID|31973|M|49.8,57|Z|Deepholm|RANK|2|N|From Bordin Steadyfist.|
 C Bordin Steadyfist|QID|31973|M|49.8,57|Z|Deepholm|RANK|2|N|Opponents are level 25 Critter, Elemental and Elemental. This means your best choices are Beast, Aquatic and Aquatic.|
 T Bordin Steadyfist|QID|31973|M|49.8,57|Z|Deepholm|RANK|2|N|To Bordin Steadyfist.|
-R Portal Stormwind|QID|31974|M|48.54,53.84|Z|Deepholm|Rank|2|
+R Portal Stormwind|QID|31974|M|48.54,53.84|Z|Deepholm|RANK|2|
 R Twilight Highlands|QID|31974|M|56.6,57|Z|Twilight Highlands|RANK|2|
 A Goz Banefury|QID|31974|M|56.6,57|Z|Twilight Highlands|RANK|2|N|From Goz Banefury.|
 C Goz Banefury|QID|31974|M|56.6,57|Z|Twilight Highlands|RANK|2|N|Opponents are level 25 Magic, Beast and Elemental. This means your best choices are Dragonkin, Mechanical and Aquatic.|
@@ -176,7 +181,7 @@ R The Yaungol Advance|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|RANK|1|N|This is in
 A Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|From Thundering Pandaren Spirit.|RANK|1|
 C Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|Opponents are level 25 Legendary Beast, Elemental and Critter. This means your best choices are Mechanical, Aquatic and Beast.|RANK|1|
 T Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|To Thundering Pandaren Spirit.|RANK|1|
-R Inkgill Mere|QID|32604|M|67.87,84.71|Z|Kun-Lai Summit|N Open your treasure|U|93149|N|Open your treasure bag as you fly to the next spot.|
+R Inkgill Mere|QID|32604|M|67.87,84.71|Z|Kun-Lai Summit|N|Open your treasure|U|93149|N|Open your treasure bag as you fly to the next spot.|
 C Dos-Ryga|QID|32604|QO|Dos'Ryga defeated: 0/1|M|67.87,84.71|Z|Kun-Lai Summit|N|Dos-Ryga is an aquatic, so a team of flyers works well.|; this C doesn't work
 R Jade Forest|QID|32440|M|28.8,36|Z|The Jade Forest|RANK|1|
 R Exclamation Point|QID|32440|M|28.8,36|Z|The Jade Forest|RANK|1|

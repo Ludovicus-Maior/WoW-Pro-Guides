@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-11-06 12:53
+-- Who: Fluclo
+-- Log: Removed duplicate PRE tag from Return to Gremlock
+
+-- URL: http://wow-pro.com/node/3200/revisions/26797/view
 -- Date: 2014-11-06 02:47
 -- Who: Fluclo
 -- Log: Removed duplicate |M| tag
@@ -256,12 +261,6 @@
 -- Date: 2011-04-02 18:57
 -- Who: Ludovicus
 -- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
-
--- URL: http://wow-pro.com/node/3200/revisions/24097/view
--- Date: 2011-02-05 01:18
--- Who: Ludovicus
--- Log: Removed extra tabs and whitespace.
---	Removed empty tags (aka ||'s).
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "Dun Morogh (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,5,1)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_wildhammer_dalies_twilight_highlands
+-- Date: 2014-11-06 18:23
+-- Who: Fluclo
+-- Log: Added missing |M| tag to Never Leave a Dinner Behind
+
+-- URL: http://wow-pro.com/node/3415/revisions/26550/view
 -- Date: 2014-07-06 15:27
 -- Who: Ludovicus
 -- Log: Guide level and faction
@@ -29,7 +34,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Fight Like a Wildhammer|QID|28861|M|49.76,29.23|N|From Low Shaman Blundy.|
-A Never Leave a Dinner Behind|QID|28862|49.76,29.23|N|From Low Shaman Blundy.|
+A Never Leave a Dinner Behind|QID|28862|M|49.76,29.23|N|From Low Shaman Blundy.|
 A Keeping the Dragonmaw at Bay|QID|28860|M|49.07,29.80|N|From Colin Thundermar.|
 A Beer Run|QID|28864|M|49.07,29.80|N|From Colin Thundermar.|
 A Warlord Halthar is Back|QID|28863|M|48.63,30.59|N|From Craw Macgraw.|

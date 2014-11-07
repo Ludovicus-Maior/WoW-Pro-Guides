@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2014-11-06 12:56
+-- Who: Fluclo
+-- Log: Removed duplicate S tag from The Coast Isn't Clear
+
+-- URL: http://wow-pro.com/node/3213/revisions/26399/view
 -- Date: 2014-05-30 12:13
 -- Who: Ludovicus
 -- Log: Level setting
@@ -284,7 +289,7 @@ A The Coast Isn't Clear|QID|26348|PRE|26371|RANK|1|M|30.55,85.54|N|From Captain 
 A The Coastal Menace|QID|26349|RANK|1|M|30.55,85.54|N|From Captain Grayson.|US|
 A Keeper of the Flame|QID|26347|RANK|1|M|30.55,85.54|N|From Captain Grayson.|US|
 
-C The Coast Isn't Clear|QID|26348|S|M|33.63,84.34|S|N|Kill Murloc Tidehunters and Oracles.|
+C The Coast Isn't Clear|QID|26348|M|33.63,84.34|S|N|Kill Murloc Tidehunters and Oracles.|
 C The Coastal Menace|QID|26349|M|34.27,84.81|N|Find, kill and loot Old Murk-Eye.|T|Old Murk-Eye|
 
 T Captain Sanders' Hidden Treasure|QID|26353|RANK|2|M|25.93,47.76|N|To the Captain's Footlocker.|

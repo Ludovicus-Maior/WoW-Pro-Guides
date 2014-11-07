@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_frenzyheart_tribe_reputation_dalies_sholazar_basin
+-- Date: 2014-11-06 18:25
+-- Who: Fluclo
+-- Log: Added missing |M| tag
+
+-- URL: http://wow-pro.com/node/3417/revisions/26579/view
 -- Date: 2014-07-19 17:02
 -- Who: Ludovicus
 -- Log: Adjust mean level
@@ -59,7 +64,7 @@ l Venture Co. Explosives|QID|12758|L|39651|N|Kill and loot Venture Co. Ruffians 
 l Essence of the Storm|QID|12741|M|25.1,35.5|S|L|39643 3|N|Kill and loot Storm Revenants until you get 3 Essences of the Storm.|
 l Essence of the Monsoon|QID|12741|M|25.1,35.5|L|39616 3|N|Kill and loot Aqueous Spirits until you get 3 Essences of the Monsoon.|
 l Essence of the Storm|QID|12741|M|25.1,35.5|US|L|39643 3|N|Kill and loot Storm Revenants until you get 3 Essences of the Storm.|
-C Strength of the Tempest|QID|12741|21.8,33.5|N|Head towards the Shrine of the Tempest to get struck by lightning to get True Power of the Tempest. You may have to walk up the path leading to the Shrine of the Tempest, or even touch it before you get the item.|
+C Strength of the Tempest|QID|12741|M|21.8,33.5|N|Head towards the Shrine of the Tempest to get struck by lightning to get True Power of the Tempest. You may have to walk up the path leading to the Shrine of the Tempest, or even touch it before you get the item.|
 C A Hero's Headgear|QID|12758|U|39651|N|Kill a Stormwatcher then use the Venture Co. Explosives on its corpse.|
 
 C Rejek: First Blood|QID|12734|U|39577|N|Kill Mistwhisper Gorlocs and use Rejek's Blade on their corpse. Do this 3 times.|

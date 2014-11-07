@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2014-11-06 18:14
+-- Who: Fluclo
+-- Log: Added missing |N| tag, removed duplicate |QID| tag.
+
+-- URL: http://wow-pro.com/node/3519/revisions/26549/view
 -- Date: 2014-07-06 15:26
 -- Who: Ludovicus
 -- Log: Guide Levels
@@ -365,7 +370,7 @@ A Under Pressure|QID|32144|PRE|32451|M|16.66,78.53|N|From Mishka|
 C A Kind of Magic|QID|32143|M|11.65,67.99|QO|Eliminate the Beachhead Demolishers: 1/1|
 C A Kind of Magic|QID|32143|M|10.81,60.91|QO|Eliminate the Horde Wolves: 1/1|
 C A Kind of Magic|QID|32143|M|12.6,56.6|QO|Destroy the Horde Bomb Stockpile: 1/1|
-T A Kind of Magic|QID|32143|From Tinkmaster Overspark (UI Popup)|
+T A Kind of Magic|QID|32143|N|From Tinkmaster Overspark (UI Popup)|
 A Don't Lose Your Head|QID|32145|PRE|32143|N|From Tinkmaster Overspark|
 C Don't Lose Your Head|QID|32145|M|13.4,57.9|QO|Stone Guard Ruk'Ra slain: 1/1|N|In the tent.|
 C Don't Lose Your Head|QID|32145|M|13.0,56.0|QO|Chief Bombgineer Snicklefritz slain: 1/1|N|In the eastern part of the courtyard.|
@@ -400,7 +405,7 @@ T It Is A Mystery|QID|32119|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswagg
 T Shackles of the Past|QID|32115|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
 T Eviction Notice|QID|32347|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
 T Oi Ain't Afraid o' No Ghosts!|QID|32346|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
-T Ogudei's Lieutenants|QID|32122|QID|32122|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
+T Ogudei's Lieutenants|QID|32122|M|80.19,16.40|Z|Krasarang Wilds|N|To Hilda Hornswaggle|
 
 ; Quarry Quests
 C Siege Damage|QID|32152|M|78.06,17.87|L|92493|N|Kill Bilgewater Sappers till you get the Blasting Cap.|

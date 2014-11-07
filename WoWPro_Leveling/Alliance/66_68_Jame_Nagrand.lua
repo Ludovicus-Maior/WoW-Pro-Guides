@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2014-11-06 13:50
+-- Who: Fluclo
+-- Log: Removed duplicate tags
+
+-- URL: http://wow-pro.com/node/3279/revisions/26609/view
 -- Date: 2014-07-25 21:53
 -- Who: Ludovicus
 -- Log: add mean
@@ -179,7 +184,7 @@ T The Tortured Earth|QID|9819|M|61.8,24.4|N|To Gordawg.|
 A Eating Damnation|QID|9821|M|61.8,24.4|N|From Gordawg.|
 N Sell junk, repair, restock, train skills|QID|10109|N|Sell junk, repair, restock, train skills |
 N Mana Tombs |QID|10109|N|You can do Mana Tombs if you want, for XP |
-F Telaar|N|Fly or run to Telaar.|N|
+F Telaar |QID|10109|N|Fly or run to Telaar.|
 
 N From now on...|QID|9855|N|From now on, kill the mobs you need for the mastery quests if you see them.|
 C Boulderfist Plans |QID|9917|N|Kill Boulderfist Hunters until you get the Boulderfist Plans.|L|25468|M|61.00,71.00|
@@ -207,7 +212,7 @@ A The Twin Clefts of Nagrand|QID|9922|M|54.5,72.2|N|From Mo'mor the Breaker.|
 A He Called Himself Altruis...|QID|9982|N|From Huntress Kima.  She wanders around Telaar.|M|53.54,72|
 
 N Sell junk, repair, restock |QID|9800|N|Do not sell Ogre Warbeads or Ivory Tusks. Sell junk, repair, restock.|M|53.25,70|
-A The Consortium Needs You! |QID|9913|M|51.8,34.8|N|From Consortium Recruiter.|M|51.18,69.83|
+A The Consortium Needs You! |QID|9913|N|From Consortium Recruiter.|M|51.18,69.83|
 N From now on... |QID|9871|N|If you see any Murkblood Invaders kill them until you get the Murkblood Invasion Plans. They wander the road west of Telaar.|
 C Windroc Mastery|N|Kill the Windrocs needed for this quest.|QID|9855|M|49.00,62.00|
 C A Rare Bean |N|Collect Digested Caracoli off the ground from the dung piles, until you finish this quest.|QID|9800|M|50.00,30.00|S|

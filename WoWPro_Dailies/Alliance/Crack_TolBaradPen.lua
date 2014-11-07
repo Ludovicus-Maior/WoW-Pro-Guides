@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2014-11-06 18:13
+-- Who: Fluclo
+-- Log: Added missing |N| to First Lieutenant Connor
+
+-- URL: http://wow-pro.com/node/3414/revisions/26831/view
+-- Date: 2014-11-06 18:12
+-- Who: Fluclo
+-- Log: Added missing pipe from Cursed Shackles QID.
+
+-- URL: http://wow-pro.com/node/3414/revisions/26546/view
 -- Date: 2014-07-06 15:24
 -- Who: Ludovicus
 -- Log: Guide level and faction
@@ -90,7 +100,7 @@ C Magnets, How Do They Work?|QID|27992|M|41.8,62.1|N|Use the Magnetized Scrap Co
 
 C Salvaging the Remains|QID|27966|M|36.2,79.4|N|Kill and loot Ghouls at Forgotten Hill until you have 9 Cursed Femurs.|
 C The Forgotten|QID|27949|M|36.2,79.4|N|Click on the sparkling gravestones. When you click on one, an Angry Spirit will appear.|
-C First Lieutenant Connor|QID|27967|M|36.2,79.4|Kill First Lieutenant Connor, he wanders around the building at the top of the hill.|
+C First Lieutenant Connor|QID|27967|M|36.2,79.4|N|Kill First Lieutenant Connor, he wanders around the building at the top of the hill.|
 
 C Thinning the Brood|QID|27944|M|57.2,53|N|Kill 12 Darkwood Lurkers.|
 C A Sticky Task|QID|27948|M|57.2,53|N|Kill and loot Darkwood Broodmothers until you get 4 Sticky Silk Glands.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2014-11-06 13:52
+-- Who: Fluclo
+-- Log: Removed duplicate REP tag from The Ashtongue Tribe
+
+-- URL: http://wow-pro.com/node/3285/revisions/26406/view
 -- Date: 2014-05-30 12:24
 -- Who: Ludovicus
 -- Log: Level setting
@@ -268,7 +273,7 @@ A Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|From Arcanist Thelis|REP|Scryers;9
 A The Ashtongue Broken|QID|10807|M|54.73,58.19|N|From Varen the Reclaimer|REP|Scryers;934|
 
 l Tablets of Baa'ri|QID|10568|L|30596 12|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
-C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932|REP|Aldor|
+C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932|
 l Tablets of Baa'ri|QID|10568|L|30596 12|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
 
 l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|

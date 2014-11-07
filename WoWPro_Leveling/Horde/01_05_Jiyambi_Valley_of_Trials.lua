@@ -4,6 +4,29 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-06 16:37
+-- Who: Fluclo
+-- Log: consistency typo (Should be From, not To)
+
+-- URL: http://wow-pro.com/node/3199/revisions/26828/view
+-- Date: 2014-11-06 16:29
+-- Who: Fluclo
+-- Log: Removed second N tag from commented Flight step
+
+-- URL: http://wow-pro.com/node/3199/revisions/26827/view
+-- Date: 2014-11-06 16:26
+-- Who: Fluclo
+-- Log: Added CHAT tags as appropriate;
+--	Reordered The Burning Blade quest as it is a higher level than others at the same time;
+--	Added a self-completing note about Rank 2 quests;
+--	Reordered Spirits Be Praised since that quest gets you to go to Raggaran;
+--	Added clear notation about whether quest is for another zone;
+--	Added seperate self-resolving step for Wolf and The Kodo;
+--	Updated notes where further clarification was required;
+--	Updated notes for consistency;
+--	Changed guide to move to Northern Barrens (which is more appropriate for Orcs and Trolls who would be main users of this guide) and added alerts to holders of Azshara quests.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26793/view
 -- Date: 2014-11-05 15:26
 -- Who: Fluclo
 -- Log: Changed Attack Plan from N to C steps; 
@@ -249,15 +272,6 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/23337/view
 -- Date: 2010-12-03 10:30
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3199/revisions/23259/view
--- Date: 2010-12-02 21:30
--- Who: Bitsem
--- Log: Added most recent Durotar 5-12 guide.
-
--- URL: http://wow-pro.com/node/3199/revisions/23258/view
--- Date: 2010-12-02 21:14
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Durotar (Orc)', 'Jiyambi', 'Horde')

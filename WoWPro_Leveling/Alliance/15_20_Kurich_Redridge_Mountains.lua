@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2014-11-06 13:08
+-- Who: Fluclo
+-- Log: Removed duplicate tag from h Lakeshire step
+
+-- URL: http://wow-pro.com/node/3215/revisions/26488/view
 -- Date: 2014-06-04 20:11
 -- Who: Ludovicus
 -- Log: Level Adj
@@ -139,7 +144,7 @@ T Threat to the Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon.|O|
 T Parker's Report|QID|26505|M|28.78,41.15|N|To Magistrate Solomon.|
 A We Must Prepare!|QID|26510|M|28.78,41.15|N|From Magistrate Solomon.|
 A Lake Everstill Clean Up|QID|26511|M|28.61,40.99|N|From Bailiff Conacher.|
-h Lakeshire|QID|26511|M|26.38,41.54|N|At Innkeeper Brianna.|QID|26509|
+h Lakeshire|QID|26509|M|26.38,41.54|N|At Innkeeper Brianna.|
 A An Unwelcome Guest|QID|26509|M|22.03,42.79|N|From Martie Jainrose.|
 C An Unwelcome Guest|QID|26509|M|17.59,44.80|N|Find and kill Bellygrub. Loot his tusk, once he is dead.|
 T An Unwelcome Guest|QID|26509|M|21.89,42.82|N|To Martie Jainrose.|

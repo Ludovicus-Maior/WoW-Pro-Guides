@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2014-11-06 18:24
+-- Who: Fluclo
+-- Log: Added missing |N| tag
+
+-- URL: http://wow-pro.com/node/3416/revisions/26633/view
 -- Date: 2014-07-26 00:35
 -- Who: Ludovicus
 -- Log: OOps, wrong faction
