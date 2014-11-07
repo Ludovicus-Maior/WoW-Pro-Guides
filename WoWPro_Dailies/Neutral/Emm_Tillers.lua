@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2014-11-07 20:31
+-- Who: Fluclo
+-- Log: Fixed missing N tags, duplicate PRE, NC and N tags, and mis-spelt ACTIVE tag
+
+-- URL: http://wow-pro.com/node/3508/revisions/26636/view
 -- Date: 2014-07-26 22:25
 -- Who: Ludovicus
 -- Log: Some minor corrections.
@@ -159,20 +164,20 @@ l Get seeds from Merchant Greenfield|QID|30535|L|80295|M|52.88,52.14|NC|N|It's a
 T Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|To Farmer Yoon.|
 A Learn and Grow II: Tilling and Planting|QID|30254|PRE|30535|M|52.25,48.79|From Farmer Yoon.|
 C Tilling and Planting|QID|30254|M|52.02,48.30|NC|U|80302|N|Click the untilled soil to till, then target it and use the seeds.|
-T Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|To Farmer Yoon.|
-A Learn and Grow III: Tending Crops|QID|30255|PRE|30254|M|52.25,48.79|From Farmer Yoon.|
+T Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|N|To Farmer Yoon.|
+A Learn and Grow III: Tending Crops|QID|30255|PRE|30254|M|52.25,48.79|N|From Farmer Yoon.|
 C Watering Crops|QID|30255|M|52.02,48.30|NC|U|79104|N|Face towards the plants and use the watering can.|
-T Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|To Farmer Yoon.|
-A Learn and Grow IV: Harvesting|QID|30256|PRE|30255|M|52.25,48.79|From Farmer Yoon.|
+T Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|N|To Farmer Yoon.|
+A Learn and Grow IV: Harvesting|QID|30256|PRE|30255|M|52.25,48.79|N|From Farmer Yoon.|
 C Harvest the cabbage|QID|30256|M|52.02,48.30|NC|N|Click on the cabbages.|
-T Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|To Farmer Yoon.|
-A Learn and Grow V: Halfhill Market|QID|30257|PRE|30256|M|52.25,48.79|From Farmer Yoon.|
+T Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|N|To Farmer Yoon.|
+A Learn and Grow V: Halfhill Market|QID|30257|PRE|30256|M|52.25,48.79|N|From Farmer Yoon.|
 C Presentation is everything!|QID|30257|M|52.75,48.07|NC|N|Pick a flower for Gina and deliver your produce to market.|
-T Learn and Grow V: Halfhill Market|QID|30257|M|53.16,51.79|To Gina Mudclaw.|
-A Learn and Grow VI: Gina's Vote|QID|31945|PRE|30257|M|53.16,51.79|From Gina Mudclaw.|
+T Learn and Grow V: Halfhill Market|QID|30257|M|53.16,51.79|N|To Gina Mudclaw.|
+A Learn and Grow VI: Gina's Vote|QID|31945|PRE|30257|M|53.16,51.79|N|From Gina Mudclaw.|
 B Scallion Seeds|ACTIVE|31945|QID|31945|L|80591|M|52.8,52.0|N|Buy seeds from Merchant Greenfield. Plant and Harvest them too.|
 C Learn and Grow VI: Gina's Vote|QID|31945|N|The next day you can harvest and deliver them to Gina.|
-t Learn and Grow VI: Gina's Vote|QID|31945|To Gina Mudclaw.|
+t Learn and Grow VI: Gina's Vote|QID|31945|N|To Gina Mudclaw.|
 
 ;MUNG-MUNG'S VOTE - 5500 honored - I have this both places on purpose (i don't know that it is correct, but it is intentional) Because you may come across him in the market. or on the farm
 T Mung-Mung's Vote I: A Hozen's Problem|QID|30258|M|44.17,34.21|N|To Mung-Mung.|
@@ -183,7 +188,7 @@ A Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|PRE|30259|M|44.14,34.27
 t Mung-Mung's Vote III: The Great Carrot Caper|QID|31946|M|44.17,34.21|N|This can't be completed  or turned in until the next day. If Mung-Mung is not at the market he will be back at the Mudclaw Farm, (where the green dot is.)|
 
 ;FARMER FUNG's VOTE - 4500 Revered
-A Farmer Fung's Vote I: Yak Attack|PRE|31946|QID|30517|PRE|31946|REP|The Tillers;1272;revered;4500|M|52.20,48.86|N|From Farmer Yoon. This quest is offered after 4500 revered, you will have to manually check it off before then.|
+A Farmer Fung's Vote I: Yak Attack|PRE|31946|QID|30517|REP|The Tillers;1272;revered;4500|M|52.20,48.86|N|From Farmer Yoon. This quest is offered after 4500 revered, you will have to manually check it off before then.|
 t Farmer Fung's Vote I: Yak Attack|QID|30517|M|48.2,33.8|N|To Farmer Fung.|
 A Farmer Fung's Vote II: On the Loose|PRE|30517|QID|30518|M|48.2,33.8|N|From Farmer Fung.|
 t Farmer Fung's Vote II: On the Loose|QID|30518|M|48.2,33.8|N|To Farmer Fung.|
@@ -334,7 +339,7 @@ C Lost Sheepie|QID|31338|M|34,38|NC|N|Pick up the sheep and take it home.|
 C Oh Sheepie...|QID|31340|NC|M|30.2,43.6|N|Pick up whats left of Sheepie and take it home.|
 C The Kunzen Hunter-Chief|QID|30336|M|31,48|N|The name varies, kill whoever the hozen is on this tier of the mountain.|
 C A Wolf In Sheep's Clothing|QID|31341|U|86465|M|30,32|N|Use the sheepskin (in a cleared area) to summon the wolf, Kill him.|
-C You Have to Burn the Ropes|QID|30327|S|NC|M|30.67,44.43|NC|N|Coils of rope on the ground.|
+C You Have to Burn the Ropes|QID|30327|S|NC|M|30.67,44.43|N|Coils of rope on the ground.|
 C Fatty Goatsteak|QID|30332|M|30.12,44.69|S|N|Kill goats, don't put your back to the drop off, they knock back, loot them. Good quest to group for since the meat will drop for everyone in the group and it reduces competition for the somewhat slow spawn.|
 K Skyrange Mushan|T|Skyrange Mushan|L|80144 20|QID|30526|S|M|27.4,35.2|N|Kill and loot the mushan until you have enough meat for your dog.|
 C The Truffle Shuffle|QID|30330|U|80127|NC|M|27.95,30.69|N|Plant spores (use the bag) and harvest full grown mushrooms.|
@@ -433,12 +438,12 @@ A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|PRE|31945|REP|The Tillers;1272
 
 T Haohan's Vote I: Bungalow Break-In|QID|30521|M|44.6,34|N|To Haohan Mudclaw.|
 T Haohan's Vote II: The Real Culprits|QID|30522|M|52.20,48.86|N|To Farmer Yoon.|
-T Haohan's Vote III: Pure Poison|QID|30525|M|52.20,48.86|N|To Farmer Yoon.|32.4,20.4|N|
+T Haohan's Vote III: Pure Poison|QID|30525|M|52.20,48.86|N|To Farmer Yoon.|M|32.4,20.4|
 T Haohan's Vote IV: Melons For Felons|QID|30527|M|52.20,48.86|N|To Farmer Yoon.|
 T Haohan's Vote V: Chief Yip-Yip|QID|30528||M|52.20,48.86|N|To Farmer Yoon. A dialog follows which includes a place where you you place your vote in the bowl on the shrine to actually join The Tillers Union.|
 
 ;CLEAR THE WEEDS - 0 Honored
-A Growing the Farm I: The Weeds|QID|30260|PRE|31945|REP|The Tillers;1272;honored|M|52.25,48.79|From Farmer Yoon.|
+A Growing the Farm I: The Weeds|QID|30260|PRE|31945|REP|The Tillers;1272;honored|M|52.25,48.79|N|From Farmer Yoon.|
 T Growing the Farm I: The Weeds|QID|30260|M|38.6,51.6|N|To Gsi Lan.|
 A Growing the Farm I: A Little Problem|QID|30516|PRE|30260|M|38.6,51.6|N|From Gsi Lan.|
 C Growing the Farm I: A Little Problem|QID|30516|M|36,50|N|Spiderroot is a sparkly ground spawn in the area.|
@@ -500,7 +505,7 @@ T Chasing the Chicken|QID|30318|M|30.9,53.1|N|To Old Hillpaw, also he prefers th
 T A Gift For Old Hillpaw|QID|30476|M|30.9,53.1|N|To Old Hillpaw.|
 
 T Pest Problems|QID|30319|M|44.6,34.1|N|To Haohan Mudclaw, also he prefers Ruby Shards.|
-T A Gift For Haohan|QID|30477|44.6,34.1|N|To Haohan Mudclaw.|
+T A Gift For Haohan|QID|30477|M|44.6,34.1|N|To Haohan Mudclaw.|
 
 T Money Matters|QID|30322|M|53.2,51.8|N|To Gina Mudclaw, also she prefers the Marsh Lily.|
 T A Gift For Gina|QID|30479|M|53.2,51.8|N|To Gina Mudclaw.|
@@ -533,7 +538,7 @@ A Buy A Fish A Keg?|QID|31322|REP|Jogu;1273;Friend|M|53.6,52.4|N|From Jogu the D
 B Buy or Make Jade Witch Brew|ACTIVE|31322|QID|31322|L|75037 10|N|Make with cooking or buy from another player.|
 T Buy A Fish A Keg?|QID|31322|M|53.6,52.4|N|To Jogu the Drunk.|
 A Buy A Fish A Brewery?|QID|31323|REP|Jogu;1273;Good Friend|M|53.6,52.4|N|From Jogu the Drunk.|;33600 rep
-B Buy or Make Mad Brewer's Breakfast|ACTiVE|31323|QID|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|
+B Buy or Make Mad Brewer's Breakfast|ACTIVE|31323|QID|31323|L|75038 20|N|Make with cooking or buy from another player. I suspect this one is too expensive to be worth doing, only consequence of not doing it, is not gaining the faction/reward).|
 T Buy A Fish A Brewery?|QID|31323|M|53.6,52.4|N|To Jogu the Drunk.|
 
 ;an extra hand - totally wortless quest...

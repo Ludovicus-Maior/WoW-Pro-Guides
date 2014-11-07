@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
+-- Date: 2014-11-07 21:34
+-- Who: Emmaleah
+-- Log: added 3 N tags per list o' errors
+
+-- URL: http://wow-pro.com/node/3443/revisions/26600/view
 -- Date: 2014-07-25 21:37
 -- Who: Ludovicus
 -- Log: Adj Mean level
@@ -62,8 +67,8 @@ U Recipe: Slow-roasted Turkey|QID|14022|U|44861|N|Learn to cook Turkey, then cli
 B Buy Autumnal Herbs|QID|14022|L|44835 20|N|You need 20 Herbs from Wilmina Holbeck, then click to complete.|
 B Buy Simple Flour|QID|14022|L|30817 10|N|You need 10 Flour|
 B Buy Mild Spices|QID|14022|L|2678 10|N|You need 10 Simple Spices|
-B Buy Ripe Elwynn Pumpkin|QID|14022|L|46784 10|You need 10 Pumpkins|
-B Buy Honey|QID|14022|L|44853 30|You will need 30 Honeys|
+B Buy Ripe Elwynn Pumpkin|QID|14022|L|46784 10|N|You need 10 Pumpkins|
+B Buy Honey|QID|14022|L|44853 30|N|You will need 30 Honeys|
 T Pilgrim's Bounty|QID|14022|M|34.10,51.44|Z|Elwynn Forest|N|To Gregory Tabor, near Stormwind gates.|
 A Spice Bread Stuffing|QID|14023|M|34.10,51.44|Z|Elwynn Forest|N|From Gregory Tabor, near Stormwind gates.|
 l Spice Bread|QID|14023|L|30816 5|N|Cook up some Spice Bread|
@@ -76,7 +81,7 @@ A Pumpkin Pie|QID|14024|M|33.8,50.8|Z|Elwynn Forest|N|From Jasper Moore, Elwynn 
 l Pumpkin Pie|QID|14024|L|44836 5|N|Cook up some pie|
 T Pumpkin Pie|QID|14024|M|59.81,34.34|Z|Dun Morogh|N|To Edward Winslow, near Ironforge gates. |
 A Cranberry Chutney|QID|14028|M|59.81,34.34|Z|Dun Morogh|N|From Edward Winslow, near Ironforge gates.|
-l Buy Tangy Wetland Cranberries|QID|14028|L|44854 5|Buy 5 Cranberries from the Pilgrim's Bounty vendor|
+l Buy Tangy Wetland Cranberries|QID|14028|L|44854 5|N|Buy 5 Cranberries from the Pilgrim's Bounty vendor|
 l Cranberry Chutney|QID|14028|L|44840 5|N|Cook up some Chutney|
 N Sharing a Bountiful Feast|QID|14028|M|59.90,34.98|Z|Dun Morogh|N|At the Ironforge Bountiful Table, eat 5 of the 5 foods either by moving from chair to chair or passing them along.|
 T Cranberry Chutney|QID|14028|M|33.8,50.8|Z|Elwynn Forest|N|To Jasper Moore, near Stormwind gates.|

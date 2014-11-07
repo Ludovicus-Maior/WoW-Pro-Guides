@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
+-- Date: 2014-11-07 20:36
+-- Who: Fluclo
+-- Log: Missing N tags
+
+-- URL: http://wow-pro.com/node/3456/revisions/26835/view
 -- Date: 2014-11-06 18:20
 -- Who: Fluclo
 -- Log: Added five missing |N| tags

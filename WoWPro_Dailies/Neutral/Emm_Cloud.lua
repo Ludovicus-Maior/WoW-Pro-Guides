@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
+-- Date: 2014-11-07 20:39
+-- Who: Fluclo
+-- Log: Fixed duplicate N tag, and missing N and M tags
+
+-- URL: http://wow-pro.com/node/3505/revisions/26570/view
 -- Date: 2014-07-06 15:55
 -- Who: Ludovicus
 -- Log: Added levels
@@ -84,7 +89,7 @@ T Beating the Odds|QID|30135|M|65.2,31.6|N|To Instructor Tong.|
 T Empty Nests|QID|30136|M|65.2,31.6|N|To Instructor Tong.|
 T Egg Collection|QID|30137|M|65.2,31.6|N|To Instructor Tong.|
 A Choosing the One|QID|30138|PRE|30135;30136;30137|M|65.2,31.6|N|From Instructor Tong.|
-T Choosing the One|QID|30138|M|65.2,31.6|N|To Instructor Tong.|N|This is the color of the mount you will end up with at exalted, so choose carefully,(you can buy the others, or get them with alts).|
+T Choosing the One|QID|30138|M|65.2,31.6|N|To Instructor Tong. This is the color of the mount you will end up with at exalted, so choose carefully. You can buy the others later, or get them with alts.|
 A The Rider's Journey|QID|30139;30140;30141|PRE|30138|M|65.2,31.6|N|From Instructor Tong.|
 T The Rider's Journey|QID|30139;30140;30141|M|57.56,45.07|N|To Instructor Skythorn.|
 A It's A...|QID|30142|M|57.56,45.07|PRE|30139;30140;30141|N|From Instructor Skythorn.|
@@ -142,7 +147,7 @@ C Pooped|QID|31704|M|55,46|US|N|Drops from silkworms and as a sparkly groundspaw
 C Pooped|QID|31716|M|55,46|US|N|Drops from the giant silkworms and as a sparkly groundspawn.|
 C Sweet as Honey|QID|30150|M|55,46|US|N|Kill the honeykeepers to loot the honeycomb, easily AE'd. If the silkworms are causeing your problems, you can finish and go turn in the "Pooped" quest to make them nonagro.|
 C Trainer's Challenge|QID|31717;31718;31719;31721;31720|N|All the trainer challenges you have to beat a 60 sec timer.  If there are other people doing it, by all means help them. If you are grouped you all get credit, once you have beaten the challenge you can no longer help (except healing). Also the return from GY is a pain... so don't die, but if you do. go to 60,50 to find a path up the cliff.|
-C The Trainer's Challenge: Ace Longpaw|QID|31717|M|58,43.8|Talk to him to start the fight. Avoid the pools of fire, don't stop moving.|
+C The Trainer's Challenge: Ace Longpaw|QID|31717|M|58,43.8|N|Talk to him to start the fight. Avoid the pools of fire, don't stop moving.|
 C The Trainer's Challenge: Big Bao|QID|31718|M|54.4,44|N|Talk to him to start the fight. This one is about stuns and interrupts. Use your CDs not an easy solo fight for a fresh 90.|
 C The Trainer's Challenge: Ningna Darkwheel|QID|31719|M|58.2,45|N|Talk to her to start the fight. Pop CD's DPS her down fast, avoid the red spheres, they hurt (a lot!)|
 C The Trainer's Challenge: Qua-Ro Whitebrow|QID|31721|M|57.2,43.4|N|Talk to him to start the fight. Kill his images first, inturupt his Char Burst if possible.|
@@ -201,14 +206,14 @@ C The Shoe Is On The Other Foot|QID|31700|M|62,22|NC|S|N|Groundspawn in the area
 C Emptier Nests|QID|30157|M|65,25|NC|S|U|78947|N|You can leash them all and return them together to any of the nests with brightly colored eggs. The silken rope does not 'go away' when you turn in the quest, you can destroy it if you want (after you turn in).|
 C Just a Flesh Wound|QID|30148|U|72985|M|65.02,26.90|NC|S|N|Bandage the injured hatchlings. If you prefer to use your heavy windwool bandages, don't use the "use" button to your right, but instead use your bandages from where ever you keep them on your hotbar.| ;I figure that anyone who prefers to use the heavy bandages they already have...is going to have bandages on a keybinding already.
 K Turtles on the beach for their meat|QID|30156|U|79028|L|79027 3|S|N|The turtles drop scraps (as well as the meat) that can be combined in groups of 5 to make a bite for your hatchling.|
-C Restoring the Balance|QID|30155|S|69,29|
+C Restoring the Balance|QID|30155|S|M|69,29|
 C Disarming the Enemy|QID|30158|M|69,29|NC|S|N|On weapon racks around where the slitherscales are.|
 C Preservation|QID|30159|M|67,29|NC|S|N|Pick up the eggs from the ground. They can also drop from the slitherscale mobs you run into.|
 C Slitherscale Suppression|QID|31194|T|Slitherscale Lizard-Lord|M|69.4,31.2|N|He counts as one of the slitherscale you need to kill.|
 C Feeding Time|QID|30156|U|79027|N|Target your own hatchling before you feed him. Be sure and do this BEFORE you get back to the Arboretum.|
 C Emptier Nests|QID|30157|M|65,25|NC|US|U|78947|N|You can leash them all and return them together to any of the nests with brightly colored eggs. The silken rope does not 'go away' when you turn in the quest, you can destroy it if you want (after you turn in).|
 C Just a Flesh Wound|QID|30148|U|72985|M|65.02,26.90|NC|US|N|Bandage the injured hatchlings. If you prefer to use your heavy windwool bandages, don't use the "use" button to your right, but instead use your bandages from where ever you keep them on your hotbar.| ;I figure that anyone who prefers to use the heavy bandages they already have...is going to have bandages on a keybinding already.
-C Restoring the Balance|QID|30155|US|69,29|
+C Restoring the Balance|QID|30155|US|M|69,29|
 C Disarming the Enemy|QID|30158|M|69,29|NC|US|N|On weapon racks around where the slitherscales are.|
 C Preservation|QID|30159|M|67,29|NC|US|N|Pick up the eggs from the ground. They can also drop from the slitherscale mobs you run into.|
 
@@ -256,7 +261,7 @@ T Sweet as Honey|QID|30150|M|57.4,45.2|N|To Your Hatchling.|
 T Serpent's Scale|QID|31708|M|57.4,45.2|N|To Your Hatchling.|
 T Tiny Treats|QID|31710|M|57.4,45.2|N|To Your Hatchling.|
 
-T The Big Brew-haha|QID|31713|M|58,43.8|To Ace Longpaw.|
+T The Big Brew-haha|QID|31713|M|58,43.8|N|To Ace Longpaw.|
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 

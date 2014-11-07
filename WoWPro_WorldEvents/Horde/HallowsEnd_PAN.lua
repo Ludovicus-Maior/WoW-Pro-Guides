@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-11-07 21:24
+-- Who: Emmaleah
+-- Log: corrections per Ludo's big list o' errors
+
+-- URL: http://wow-pro.com/node/3441/revisions/26764/view
 -- Date: 2014-10-26 00:26
 -- Who: Emmaleah
 -- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
@@ -158,7 +163,7 @@ A Candy Bucket|QID|-1|M|28.45,13.27|Z|The Jade Forest|N|Brewmother Kiki, Honeyde
 F Grookin Hill|QID|-2|M|28.1,15.6|Z|The Jade Forest|N|Ask Wing Hya to go to Grookin Hill|
 
 A Candy Bucket|QID|-2|M|28.00,47.40|Z|The Jade Forest|N|Grookin Bed-Haver, Grookin Hill|FACTION|Horde|
-F Jade Temple Grounds|QID|32032|M|28.00,47.40|Z|The Jade Forest|Ask XXX to go to Jade Temple Grounds|
+F Jade Temple Grounds|QID|32032|M|28.00,47.40|Z|The Jade Forest|N|Ask Grookin Flapmaster to go to Jade Temple Grounds|
 
 A Candy Bucket|QID|32032|M|54.61,63.33|Z|The Jade Forest|N|Fela Woodear, Jade Temple Grounds.|
 F Dawn's Blossom|QID|32027|M|54.57,61.76|Z|The Jade Forest|N|Ask Ginsa Arroweye to go to  Dawn's Blossom|U|37586|
@@ -195,7 +200,7 @@ N Eastwind Rest|N|If you have not quested in Kun-Lai Summit, you need to unlock 
 F Eastwind Rest|QID|-4|M|72.54,94.18|Z|Kun-Lai Summit|N|Ask Jo the Wind Watcher to go to Westwind Rest|U|37586|
 
 A Candy Bucket|QID|-4|M|62.77,80.50|Z|Kun-Lai Summit|N|Mai the Sleepy, Eastwind Rest|FACTION|Horde|
-F Temple of the White Tiger|QID|32041|M|63,81|Z|Kun-Lai Summit|N|Ask XXX to go to Temple of the White Tiger|U|37586|
+F Temple of the White Tiger|QID|32041|M|62.4,80.6|Z|Kun-Lai Summit|N|Ask Soaring Paw to go to Temple of the White Tiger|U|37586|
 
 A Candy Bucket|QID|32041|M|64.21,61.28|Z|Kun-Lai Summit|N|Li Goldendraft, The Grummle Bazaar|
 F One Keg|QID|32037|M|66.31,50.67|Z|Kun-Lai Summit|N|Ask Gig Greenfeather to go to One Keg|U|37586|

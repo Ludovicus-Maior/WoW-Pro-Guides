@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
+-- Date: 2014-11-07 21:53
+-- Who: Emmaleah
+-- Log: eliminated some duplicate M tags (that pointed to horde locations. wouldn't that be fun!?!) per the big list o'errors
+
+-- URL: http://wow-pro.com/node/3607/revisions/26765/view
 -- Date: 2014-10-26 00:34
 -- Who: Emmaleah
 -- Log: correct item id of iron starlette
@@ -53,8 +58,8 @@ WoWPro.WorldEvents:GuideHoliday(guide,"Iron Horde Invasion")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Iron Horde Invasion|QID|36498|M|49.69,76.43|N|This quest should auto-accept in Stormwind City, if not, head to your nearest Hero's Call Board.|Z|Stormwind City|M|62.9,71.6|
-F Shattered Beachhead|QID|36498|N|Use the portal in the mage tower of Stormwind City.|M|49.0,87.2|Z|Stormwind City|Z|Stormwind City|ACTIVE|36498|
+A Iron Horde Invasion|QID|36498|M|62.9,71.6|N|This quest should auto-accept in Stormwind City, if not, head to your nearest Hero's Call Board.|Z|Stormwind City|
+F Shattered Beachhead|QID|36498|N|Use the portal in the mage tower of Stormwind City.|M|49.0,87.2|Z|Stormwind City|ACTIVE|36498|
 f Shattershore|QID|36498|M|67.64,27.97|N|With Araazi.|
 T Iron Horde Invasion|QID|36498|N|To Vindicator Maraad.|M|66.58,28.26|
 
@@ -74,15 +79,14 @@ T Under Siege|QID|35462|N|To Vindicator Maraad.|M|66.58,28.26|
 
 A Subversive Scouts|QID|35463|N|From Vindicator Maraad.|M|66.58,28.26|
 A Ending Executions|QID|35464|N|From Bodrick Grey.|M|66.94,27.94|
-C Subversive Scouts|QID|35463|M|69.84,48.66|N|Kill the Ironmarch Scouts, they are in stealth around the perimeter of the beachhead.|M|66.3,26.3|
-C Ending Executions|QID|35464|M|57.14,32.62|N|Kill the Ironmarch Executioners to release the Nethergarde Prisoners.|
+C Subversive Scouts|QID|35463|M|66.3,26.3|N|Kill the Ironmarch Scouts, they are in stealth around the perimeter of the beachhead.|C Ending Executions|QID|35464|M|57.14,32.62|N|Kill the Ironmarch Executioners to release the Nethergarde Prisoners.|
 T Ending Executions|QID|35464|N|To Bodrick Grey.|M|66.94,27.94|
 T Subversive Scouts|QID|35463|N|To Vindicator Maraad.|M|66.58,28.26|
 
 A Investigating the Invasion|QID|36307|N|From Vindicator Maraad.|M|66.58,28.26|
 T Investigating the Invasion|QID|36307|N|To Vindicator Maraad, who has moved location.|M|51.94,28.64|
 
-A Lunatic Lieutenants|QID|35486|M|48.74,31.78|N|From Vindicator Maraad.|M|51.94,28.64|
+A Lunatic Lieutenants|QID|35486|M|51.94,28.64|N|From Vindicator Maraad.|
 A For Nethergarde! |QID|35492|N|From Vindicator Maraad.|M|51.94,28.64|
 A Mementos of the Fallen |QID|35494|N|From Commander Vines|M|52.00,28.53|
 
@@ -97,7 +101,7 @@ C For Nethergarde! |QID|35492|QO|3|N|Plant the flag outside of the main keep|NC|
 C Lunatic Lieutenants|QID|35486|QO|3|N|Kill Gar Steelcrush and loot the Battleplan. He can be found inside the main keep upstairs in the command room.|
 
 T Mementos of the Fallen |QID|35494|N|From Commander Vines|M|52.00,28.53|
-T Lunatic Lieutenants|QID|35486|M|48.74,31.78|N|From Vindicator Maraad.|M|51.94,28.64|
+T Lunatic Lieutenants|QID|35486|M|51.94,28.64|N|From Vindicator Maraad.|
 T For Nethergarde! |QID|35492|N|From Vindicator Maraad.|M|51.94,28.64|
 
 A Toothsmash the Annihilator|QID|35495|N|From Vindicator Maraad.|M|51.94,28.64|

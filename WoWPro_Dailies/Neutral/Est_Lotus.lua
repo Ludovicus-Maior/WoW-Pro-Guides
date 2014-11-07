@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/golden_lotus_reputation
+-- Date: 2014-11-07 20:43
+-- Who: Fluclo
+-- Log: Removed duplicate |CN| tag
+
+-- URL: http://wow-pro.com/node/3502/revisions/26544/view
 -- Date: 2014-06-18 00:51
 -- Who: Ludovicus
 -- Log: Butchery for 5.4
@@ -150,7 +155,7 @@ C Bloodied Skies|QID|30266|N|Man one of the tower guns and shoot down the Mantid
 T Mantid Under Fire|QID|30243|N|To Kun Autumnlight.|M|21.39,71.47|
 T Bloodied Skies|QID|30266|N|To Kun Autumnlight.|M|21.39,71.47|
 
-A The Battle Ring|QID|30306|N|From Hai-Me Heavyhands, who circles the Battle Ring.|M|20.08,73.12;20.45,73.50;20.05,75.72;18.76,75.12|CN|CN|
+A The Battle Ring|QID|30306|N|From Hai-Me Heavyhands, who circles the Battle Ring.|M|20.08,73.12;20.45,73.50;20.05,75.72;18.76,75.12|CN|
 C The Battle Ring|QID|30306|ACH|7320|N|As soon as you enter the Battle Ring, the trainees will begin to attack you. Survive the Battle Ring to complete the quest. If you can defeat 10 trainees within 10 seconds, you'll get the achievement "Dog Pile".|M|19.65,74.32|
 C The Battle Ring|QID|30306|N|As soon as you enter the Battle Ring, the trainees will begin to attack you. Survive the Battle Ring to complete the quest.|M|19.65,74.32|
 T The Battle Ring|QID|30306|N|To Hai-Me Heavyhands.|M|20.45,73.50|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2014-11-07 20:41
+-- Who: Fluclo
+-- Log: Added missing |M| tags
+
+-- URL: http://wow-pro.com/node/3501/revisions/26567/view
 -- Date: 2014-07-06 15:52
 -- Who: Ludovicus
 -- Log: Added levels
@@ -143,7 +148,7 @@ A Random Dailies from Ban Bearheart|QID|31039;31040;31044;31042;31041;31048;3104
 N Achievement Opportunity|ACH|7299;1|ACTIVE|31039|N|To earn the Achievement Loner and a Rebel, you need to do each set of dailies with out a Shado-pan companion (i.e. you have the 'debuff' "Choose a Shado-Pan Companion". you will lose the debuff if you leave the zone, so turn all the quests in before you queue for a dungeon or otherwise leave the area. Manually check this off once you read it. Manually check this off once you read it.|
 N Portal|PRE|31110|ACTIVE|31039|N|If you finished the portal quest, you can use the portal to go to the Omnia Mystics camp on Shan'ze island.|
 A Through the Portal|QID|31110|ACTIVE|31039|M|28.85,22.59|REP|Shado-Pan;1270;Friendly-Exalted|N|This quest will get you a portal so next time its much easier to come to this island.|
-C Through the Portal|QID|31110|ACTIVE|31039|S|25,12|N|The mogu drop 3-4x the arcane powder as do the sprites, so if you chose to farm the powder, kill mogu, otherwise, you can get this done over 1-2 times questing on the island without killing anything extra.|
+C Through the Portal|QID|31110|ACTIVE|31039|S|M|25,12|N|The mogu drop 3-4x the arcane powder as do the sprites, so if you chose to farm the powder, kill mogu, otherwise, you can get this done over 1-2 times questing on the island without killing anything extra.|
 C The Mogu Menace|QID|31039|M|25,12|S|N|These are all over the island.|
 C Spiteful Sprites|QID|31040|M|20,18|S|N|The sprites are located all over the island.|
 C Bronze Claws|QID|31044|M|29.8,22.8|S|N|Bronze Quillen in the SE part of the island drop the items needed.|
@@ -153,13 +158,13 @@ C Illusions Of The Past|QID|31045|M|25,16|N|The illusionists are located in the 
 C Bronze Claws|QID|31044|M|29.8,22.8|US|N|Bronze Quillen in the SE part of the island drop the items needed.|
 C Onyx Hearts|QID|31042|M|24,10|N|If you agro these while flying, you can drag them away from thier Serpentbinder and then only have to kill the Stormclaws.|
 C Egg Rescue!|QID|31041|M|20,18;33,24|CN|S|NC|N|Pick up the eggs scattered around edges of the island.|
-C Little Hatchlings|QID|31046|26,7;33,24|CN|S|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
+C Little Hatchlings|QID|31046|M|26,7;33,24|CN|S|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
 C Born Free|QID|31047|M|35,22|S|NC|N|Free the wild cloud serpents located on the SE side of the island by clicking on their ball and chain.|
 C Egg Rescue!|QID|31041|M|20,18;33,24|CN|US|NC|N|Pick up the eggs scattered around edges of the island.|
-C Little Hatchlings|QID|31046|26,7;33,24|CN|US|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
+C Little Hatchlings|QID|31046|M|26,7;33,24|CN|US|NC|N|Release the hatchlings from the cages in the areas near the two marks.|
 C Born Free|QID|31047|M|35,22|US|NC|N|Free the wild cloud serpents located on the SE side of the island by clicking on their ball and chain.|
-C Through the Portal|QID|31110|ACTIVE|31039|US|25,12|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|
-T Through the Portal|QID|31110|ACTIVE|31039|28.85,22.59|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|
+C Through the Portal|QID|31110|ACTIVE|31039|US|M|25,12|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|
+T Through the Portal|QID|31110|ACTIVE|31039|M|28.85,22.59|N|Check this off manually if you are choosing to wait till next time to finish collecting your powder.|
 C The Mogu Menace|QID|31039|M|25,12|US|N|These are all over the island.|
 T The Mogu Menace|QID|31039|M|49.5,70.5|N|You can turn this in at a Shado-pan companion or to Ban Bearheart.|
 T Spiteful Sprites|QID|31040|M|49.02,70.45|N|You can turn this in at a Shado-pan companion or to Ban Bearheart.|

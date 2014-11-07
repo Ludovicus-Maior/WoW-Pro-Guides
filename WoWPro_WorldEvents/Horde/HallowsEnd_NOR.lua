@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-11-07 21:24
+-- Who: Emmaleah
+-- Log: corrections per Ludo's big list o' errors
+
+-- URL: http://wow-pro.com/node/3441/revisions/26764/view
 -- Date: 2014-10-26 00:26
 -- Who: Emmaleah
 -- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
@@ -159,7 +164,7 @@ F Bor'gorok Outpost|M|40.4,51.4|QID|13501|Z|Borean Tundra|N|Fly to Bor'gorok Out
 A Candy Bucket|QID|13501|M|49.74,9.98|Z|Borean Tundra|N|Matron Magah, Bor'gorok Outpost|
 F Taunka'le Village|M|49.65,11.05|QID|13467|Z|Borean Tundra|N|Fly to Taunka'le Village, Borean Tundra.|U|37586|
 A Candy Bucket|QID|13467|M|76.67,37.47|Z|Borean Tundra|N|Pahu Frosthoof, Taunka'le Village|
-F Unu'pe|M|77.76,37.77|QID|13460|Z|Borean Tundra|U|37586|N|Fly to Unu'pe.|U|37586|
+F Unu'pe|M|77.76,37.77|QID|13460|Z|Borean Tundra|U|37586|N|Fly to Unu'pe.|
 A Candy Bucket|QID|13460|M|78.45,49.16|Z|Borean Tundra|N|Caregiver Poallu, Unu'pe|
 F Agmar's Hammer|M|78.54,51.53|QID|13469|Z|Borean Tundra|N|Fly to Agmar's Hammer, Dragonblight.|U|37586|
 A Candy Bucket|QID|13469|M|37.83,46.48|Z|Dragonblight|N|Barracks Master Harga, Agmar's Hammer|

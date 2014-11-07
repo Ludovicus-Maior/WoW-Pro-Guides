@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-11-07 22:01
+-- Who: Emmaleah
+-- Log: corrections per list 'o errors missing N tag x2, misplaced z tag. several missing "|"
+
+-- URL: http://wow-pro.com/node/3440/revisions/26761/view
 -- Date: 2014-10-25 18:59
 -- Who: Dez
 -- Log: In Outland: added explicit reputation check for Aldor/Scryer.
@@ -202,7 +207,7 @@ F Booty Bay|QID|12397|M|52.6,66.2|Z|Northern Stranglethorn|U|37586|
 A Candy Bucket |QID|12397|M|40.93,73.84|Z|The Cape of Stranglethorn|N|Booty Bay|
 F The Harborage|QID|28968|M|30.78,34.74|Z|Swamp of Sorrows|U|37586|
 A Candy Bucket |QID|28968|M|28.97,32.56|Z|Swamp of Sorrows|N|The Harborage|
-R Zidormi|QID||M|48.16,7.29|N|Must speak to Zidormi, just SW of the entrance to the Blasted Lands from Swamp of Sorrows, to revert to a pre-invasion time. Manually check this step off.|Z|Blasted Lands|U|37586|
+R Zidormi|QID|28961|M|48.16,7.29|N|Must speak to Zidormi, just SW of the entrance to the Blasted Lands from Swamp of Sorrows, to revert to a pre-invasion time. Manually check this step off.|Z|Blasted Lands|U|37586|
 R Surwich|QID|28961|M|47.10,89.20|N|In the Blasted Lands.|Z|Blasted Lands|U|37586|
 A Candy Bucket |QID|28961|M|44.42,87.65|Z|Blasted Lands|N|Surwich|
 R Nethergarde Keep|QID|28960|M|61.21,21.75|Z|Blasted Lands|U|37586|
@@ -216,7 +221,7 @@ A Candy Bucket |QID|12342|M|26.38,41.57|Z|Redridge Mountains|N|Lakeshire|
 F Iron Summit|QID|28965|M|40.95,68.78|N|In Searing Gorge.|Z|Searing Gorge|U|37586|
 A Candy Bucket |QID|28965|M|39.55,66.06|Z|Searing Gorge|N|Iron Summit|
 F Dragon's Mouth|QID|28956|M|21.79,57.73|N|In the Badlands.|Z|Badlands|U|37586|
-A Candy Bucket |QID|28956|M|20.92,56.28|Z|Badlands|NDragon's Mouth||
+A Candy Bucket |QID|28956|M|20.92,56.28|Z|Badlands|N|Dragon's Mouth||
 F Fuselight|QID|28955|M|64.35,35.24|Z|Badlands|U|37586|
 A Candy Bucket |QID|28955|M|65.86,35.72|Z|Badlands|N|Fuselight|
 F Farstrider Lodge|QID|28963|M|81.90,64.13|Z|Loch Modan|U|37586|
@@ -249,7 +254,7 @@ F Light's Hope Chapel|QID|12402|M|75.80,53.37|Z|Eastern Plaguelands|U|37586|
 A Candy Bucket |QID|12402|M|75.56,52.40|Z|Eastern Plaguelands|N|Light's Hope Chapel|
 F Chillwind Camp|QID|28988|M|42.95,84.95|Z|Western Plaguelands|U|37586|
 A Candy Bucket |QID|28988|M|43.42,84.44|Z|Western Plaguelands|N|Chillwind Camp|
-C A Time to Lose|QID|29371|M|70.15,14.54|Z|N|WARNING: If you are on a PvE server, approaching this will flag you PvP.|Undercity|U|68648|
+C A Time to Lose|QID|29371|M|70.15,14.54|N|WARNING: If you are on a PvE server, approaching this will flag you PvP.|Z|Undercity|U|68648|
 
 H Stormwind City|QID|99999|N|Return to Stormwind|Z|Stormwind City|
 T Hallow's End Treats for Jesper!|QID|8311|M|32.08,50.45|N|To Jespers.|Z|Elwynn Forest|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-11-07 22:01
+-- Who: Emmaleah
+-- Log: corrections per list 'o errors missing N tag x2, misplaced z tag. several missing "|"
+
+-- URL: http://wow-pro.com/node/3440/revisions/26761/view
 -- Date: 2014-10-25 18:59
 -- Who: Dez
 -- Log: In Outland: added explicit reputation check for Aldor/Scryer.
@@ -152,7 +157,7 @@ A Candy Bucket |QID|29000|M|18.72,37.35|Z|Mount Hyjal|N|Grove of Aessina|
 F Nordrassil|QID|28985|M|62.66,22.98|Z|Mount Hyjal|U|37586|
 R Stormwind City|QID|28985|N|Take the portal back to Stormwind.|Z|Stormwind City|
 R Darkbreak Cove|QID|28985|N|Take the portal to Vashj'ir.|Z|Abyssal Depths|
-A Candy Bucket |QID|28985|M|54.70,72.17|Z|Abyssal Depths|NDarkbreak Cove|
+A Candy Bucket |QID|28985|M|54.70,72.17|Z|Abyssal Depths|N|Darkbreak Cove|
 F Tranquil Wash|QID|28983|M|47.12,57.46|Z|Shimmering Expanse|U|37586|
 A Candy Bucket |QID|28983|M|49.68,57.36|Z|Shimmering Expanse|N|Tranquil Wash|
 F Silver Tide Hollow|QID|28982|M|50.48,41.14|Z|Shimmering Expanse|U|37586|

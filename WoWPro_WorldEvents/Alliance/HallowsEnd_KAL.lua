@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-11-07 22:01
+-- Who: Emmaleah
+-- Log: corrections per list 'o errors missing N tag x2, misplaced z tag. several missing "|"
+
+-- URL: http://wow-pro.com/node/3440/revisions/26761/view
 -- Date: 2014-10-25 18:59
 -- Who: Dez
 -- Log: In Outland: added explicit reputation check for Aldor/Scryer.
@@ -141,9 +146,9 @@ return [[
 F Teldrassil|QID|12337|N|Start in Teldrassil|Z|Teldrassil|
 b Azuremyst Isle|QID|12337|M|52.08,89.47|N|Now take the boat to Azuremyst Isle, or Fly to Exodar.|Z|Teldrassil|
 A Candy Bucket |QID|12337|M|59.3,18.5|Z|The Exodar|N|The Exodar|
-F Azure Watch|QID12333|M|49.71,49.11|Z|Azuremyst Isle|U|37586|
+F Azure Watch|QID|12333|M|49.71,49.11|Z|Azuremyst Isle|U|37586|
 A Candy Bucket |QID|12333|M|48.5,49.21|Z|Azuremyst Isle|U|37586|N|Azure Watch|
-F Blood Watch|QID12341|M|57.68,53.87|Z|Bloodmyst Isle|U|37586|
+F Blood Watch|QID|12341|M|57.68,53.87|Z|Bloodmyst Isle|U|37586|
 A Candy Bucket |QID|12341|M|55.68,59.85|Z|Bloodmyst Isle|N|Blood Watch|
 F Rut'theran Village|QID|28951|M|55.40,88.50|N|Return to Rut'theran Village.|Z|Teldrassil|U|37586|
 R Enter Darnassus|QID|12334|M|55.10,88.52|Z|Teldrassil|

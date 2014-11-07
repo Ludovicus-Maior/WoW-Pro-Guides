@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2014-11-07 20:43
+-- Who: Fluclo
+-- Log: Removed duplicate Z tags
+
+-- URL: http://wow-pro.com/node/3469/revisions/26556/view
 -- Date: 2014-07-06 15:39
 -- Who: Ludovicus
 -- Log: Added levels/faction
@@ -401,13 +406,13 @@ T Filling the Moonwell|QID|29279|PRE|29281;29283|N|Check if you have 125 Marks o
 A Into the Depths|QID|29203|PRE|29279|N|From Malfurion Stormrage in the cave under the Sentinel Tree.|Z|MoltenFront|M|47.00,91.00|
 C Into the Depths|QID|29203|N|Head into the Igneous Depths and make your way to the center of the cave. Kill Leyara. This quest has been known to bug out occasionally when someone else comletes it the same moment you enter the area. If Leyara is not attackable, abandon the quest and accept it from Malfurion again to reset it.|Z|MoltenFront|M|57.70,49.50|
 T Into the Depths|QID|29203|N|Back at Malfurion under the Sentinel Tree.|Z|MoltenFront|M|47.00,91.00|
-A A Smoke-Stained Locket|QID|29298|PRE|29298|N|Check your mail to recieve the Smoke-Stained Locket from Theresa Barkskin, which starts this quest. The nearest mailbox is in front of the Nordrassil Inn under the World Tree (which is also halfway to where you need to go for the quest).|Z|Mount Hyjal|M|63.48,23.69|
-T A Smoke-Stained Locket|QID|29298|N|Bring the locket to Rabine Saturna at Nighthaven in Moonglade.|Z|Moonglade|Z|MoltenFront|M|51.70,45.06|
+A A Smoke-Stained Locket|QID|29298|N|Check your mail to recieve the Smoke-Stained Locket from Theresa Barkskin, which starts this quest. The nearest mailbox is in front of the Nordrassil Inn under the World Tree (which is also halfway to where you need to go for the quest).|Z|Mount Hyjal|M|63.48,23.69|
+T A Smoke-Stained Locket|QID|29298|N|Bring the locket to Rabine Saturna at Nighthaven in Moonglade.|Z|Moonglade|M|51.70,45.06|
 A Unlocking the Secrets Within|QID|29302|PRE|29298|N|From Rabine Saturna in Moonglade.|Z|Moonglade|Z|MoltenFront|M|51.70,45.06|
-C Unlocking the Secrets Within|QID|29302|N|Witness the events of Leyaras distant past.|Z|Moonglade|Z|MoltenFront|M|51.70,45.06|
-T Unlocking the Secrets Within|QID|29302|N|At Rabine Saturna in Moonglade.|Z|Moonglade|Z|MoltenFront|M|51.70,45.06|
-A Tragedy and Family|QID|29303|PRE|29302|N|From Rabine Saturna in Moonglade.|Z|Moonglade|Z|MoltenFront|M|51.70,45.06|
-C Tragedy and Family|QID|29303|N|Bring the locket to the grave of Valstann Staghelm, which is a little east of Astranaar in Ashenvale. Witness Leyaras mourning.|Z|Ashenvale|Z|MoltenFront|M|40.52,53.37|
+C Unlocking the Secrets Within|QID|29302|N|Witness the events of Leyaras distant past.|Z|Moonglade|M|51.70,45.06|
+T Unlocking the Secrets Within|QID|29302|N|At Rabine Saturna in Moonglade.|Z|Moonglade|M|51.70,45.06|
+A Tragedy and Family|QID|29303|PRE|29302|N|From Rabine Saturna in Moonglade.|Z|Moonglade|M|51.70,45.06|
+C Tragedy and Family|QID|29303|N|Bring the locket to the grave of Valstann Staghelm, which is a little east of Astranaar in Ashenvale. Witness Leyaras mourning.|Z|Ashenvale|M|40.52,53.37|
 T Tragedy and Family|QID|29303|N|Turn this quest in via your questlog.|Z|Ashenvale|
 A The Tipping Point|QID|29310|PRE|29303|N|Should be auto-accepted.|Z|Ashenvale|
 C The Tipping Point|QID|29310|N|Bring the locket to the place where Leyara burned Arch Druid Hamuul Runetotem at the beginning of the Firelands Invasion. It's on the western edge of Mount Hyjal. Witness Leyaras fall to the Dark Side.|Z|Mount Hyjal|M|07.59,34.59|

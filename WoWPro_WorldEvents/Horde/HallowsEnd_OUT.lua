@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-11-07 21:24
+-- Who: Emmaleah
+-- Log: corrections per Ludo's big list o' errors
+
+-- URL: http://wow-pro.com/node/3441/revisions/26764/view
 -- Date: 2014-10-26 00:26
 -- Who: Emmaleah
 -- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-11-07 21:24
+-- Who: Emmaleah
+-- Log: corrections per Ludo's big list o' errors
+
+-- URL: http://wow-pro.com/node/3441/revisions/26764/view
 -- Date: 2014-10-26 00:26
 -- Who: Emmaleah
 -- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
@@ -162,7 +167,7 @@ F Nozzlepot's Outpost|QID|29003|M|53.09,43.57|Z|Durotar|U|37586|N|Fly to Nozzlep
 A Candy Bucket|QID|29003|M|62.51,16.60|Z|Northern Barrens|N|Innkeeper Kritzle, Nozzlepot's Outpost|
 
 F Splintertree Post|QID|12377|M|62.31,17.11|Z|Northern Barrens|U|37586|N|Fly to Splintertree Post, Ashenvale.|
-A Candy Bucket|QID|12377|M|73.96,60.60|Ashenvale|N|Innkeeper Kaylisk, Splintertree Post|
+A Candy Bucket|QID|12377|M|73.96,60.60|Z|Ashenvale|N|Innkeeper Kaylisk, Splintertree Post|
 
 F Bilgewater Harbor|QID|28992|M|73.18,61.59|Z|Ashenvale|U|37586|N|Fly to Bilgewater Harbor, Azshara.|
 A Candy Bucket|QID|28992|M|57.10,50.17|Z|Azshara|N|Mixi, Bilgewater Harbor|

@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/horde_dominance_offensive_source_code
+-- Date: 2014-11-07 20:34
+-- Who: Fluclo
+-- Log: Added missing |N| tags, removed duplicate PRE cag, fixed missing comma in coords for The Bell
+
+-- URL: http://wow-pro.com/node/3603/revisions/26690/view
+-- Date: 2014-09-27 22:13
+-- Who: Ludovicus
+-- Log: INital Version
+
 local guide = WoWPro:RegisterGuide("LudoDomOffence",'Dailies', "Krasarang Wilds", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,90,90,90)
 WoWPro.Dailies:GuideFaction(guide,1375) --  "Dominance Offensive"
@@ -94,7 +104,7 @@ T Wanted: Chief Engineer Cogwrench|QID|32222|M|10,53.8|N|To Blood Guard Gro'tash
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Daily Quests - Ruins of Ogudei
 ; A The Ruins of Ogudei|QID|32449|M|10.07,53.86|N|From Blood Guard Gro'tash|
-R Sparkrocket Outpost|QID|32449|M|10.19,54.81|Use the portal to get there.|
+R Sparkrocket Outpost|QID|32449|M|10.19,54.81|N|Use the portal to get there.|
 T The Ruins of Ogudei|QID|32449|M|76.32,34.07|N|To Belloc Brightblade|
 A Taking Advantage|QID|32118|PRE|32449|M|76.32,34.07|N|From Belloc Brightblade|
 T Taking Advantage|QID|32118|M|81.49,18.27|N|To Kaelis Sunsoar|
@@ -137,7 +147,7 @@ N Sentry Wards|ACTIVE|32133|N|This one is tricky.  You need to go to three place
 C Docks|QID|32133|M|86.11,33.13|QO|2|N|Between the two docked ships.|
 C Barracks|QID|32133|M|87.75,32.71|QO|3|N|Fight your way to the second floor.|
 C Town Hall|QID|32133|M|86.27,25.56|QO|1|N|The lower floor, just as enter the building.|
-C Animatable Stone|QID|32131|M|78.80,20.30;78.76,17.88|CN|Kill Engineers for their stone or find it on the ground.|
+C Animatable Stone|QID|32131|M|78.80,20.30;78.76,17.88|CN|N|Kill Engineers for their stone or find it on the ground.|
 C Alliance Ears|QID|32130|N|If you dont have enough Extra-Waxy ears, kill humans!|
 T Hero Killer|QID|32135|M|75.8,34.4|N|To Shademaster Kiryn|
 T Worker Harassment|QID|32132|M|75.8,34.4|N|To Shademaster Kiryn|
@@ -214,10 +224,10 @@ A Echoes of Thunder|QID|32351|M|10.39,53.71|REP|Dominance Offensive;1375;honored
 R Vale of Eternal Blossoms|QID|32351|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T Echoes of Thunder|QID|32351|M|68.63,43.79|Z|Shrine of Two Moons/2|N|To Baine Bloodhoof, in the Bank.|
 A A Gathering Storm|QID|32352|PRE|32351|M|68.63,43.79|Z|Shrine of Two Moons/2|N|From Baine Bloodhoof.|
-C Sha-Touched Grunts|QID|32352|M|59.20,11.20;60.40,13.60;62.10,23.50;62.50,10.40;59.10,19.80;61.00,21.80;63.25,19.00|Z|Shrine of Two Moons/2||CN|Interrogate the grunts.|QO|1|
+C Sha-Touched Grunts|QID|32352|M|59.20,11.20;60.40,13.60;62.10,23.50;62.50,10.40;59.10,19.80;61.00,21.80;63.25,19.00|Z|Shrine of Two Moons/2||CN|N|Interrogate the grunts.|QO|1|
 T A Gathering Storm|QID|32352|M|65.42,46.41|Z|Shrine of Two Moons/2|N|To Garrosh Hellscream|
 
-A Get My Results!|QID|32329|PRE|32352|M|10.39,53.71|REP|Dominance Offensive;1375;revered;2700|PRE|32352|N|From General Nazgrim|
+A Get My Results!|QID|32329|PRE|32352|M|10.39,53.71|REP|Dominance Offensive;1375;revered;2700|N|From General Nazgrim|
 R Silvermoon City|QID|32329|M|68.63,43.79|Z|Shrine of Two Moons/2|N|You are on your own.  Get to the Shrine of Two Moons and take the portal there to Silvermoon.|
 T Get My Results!|QID|32329|M|53.80,20.23|Z|Silvermoon City|N|To Lor'themar Theron|
 A What's in the Box?|QID|32330|PRE|32329|M|53.80,20.23|Z|Silvermoon City|N|From Lor'themar Theron|
@@ -249,7 +259,7 @@ A Insertion|QID|32326|M|10.39,53.71|REP|Dominance Offensive;1375;revered;10700|P
 R Darnassus|QID|32326|N|Use the portal to get there. This is NOT a phased Darnassus. You will be flagged and players can kill you. Do your shapeshifting BEFORE accepting the followon quest from Fanlyr and your stealth buff will endure.|
 T Insertion|QID|32326|M|40,50.4|N|To Fanlyr Silverthorn.|
 A The Darnassus Mission|QID|32327|PRE|32326|M|40,50.4|N|From Fanlyr Silverthorn|
-C The Bell|QID|32327|M|38.2 33.3|N|Sneak around here and go downstairs.|
+C The Bell|QID|32327|M|38.2,33.3|N|Sneak around here and go downstairs.|
 T The Darnassus Mission|QID|32327|M|40,50.4|N|To Fanlyr Silverthorn, using the extra action button.|
 A Victorious Return|QID|32328|PRE|32327|M|40,50.4|N|From Fanlyr Silverthorn|
 T Victorious Return|QID|32328|M|10.4,53.8|N|To General Nazgrim|

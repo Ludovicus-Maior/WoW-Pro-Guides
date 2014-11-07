@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3584
--- Date: 2014-10-25 23:45
+-- Date: 2014-11-07 20:45
 -- Who: Emmaleah
 -- Log: OK.  PLayed through, tweaked QO tags, missing T steps and mucked with the order.
 --	Every coordinate was dead on!
@@ -99,6 +99,8 @@ T Gar'mak Bladetwist|QID|35763|M|48.73,31.78|N|To Thrall.|
 A Warning the Warchief|QID|36940|M|48.73,31.78|N|From Thrall.|
 R Warning the Warchief|QID|36940|NC|CC|M|72.7,49.5|N|Fly over to the Shattered Landing and take the portal back to Orgrimmar.|
 T Warning the Warchief|QID|36940|M|48.11,70.47|Z|Orgrimmar@Orgrimmar|N|To Vol'jin.|
-U Iron Starlette|U|111660|N|Add your starlette to your collection. Run the revamped Upper Blackrock Spire while it's tuned for 90's (will be 100 after expansion is released.)|]]
+U Iron Starlette|U|111660|N|Add your starlette to your collection. Run the revamped Upper Blackrock Spire while it's tuned for 90's (will be 100 after expansion is released.)|
+
+]]
 
 end)
