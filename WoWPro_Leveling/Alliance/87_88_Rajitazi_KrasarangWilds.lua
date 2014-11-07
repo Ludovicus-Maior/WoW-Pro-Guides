@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
+-- Date: 2014-11-08 01:17
+-- Who: Ludovicus
+-- Log: Corrections
+
+-- URL: http://wow-pro.com/node/3488/revisions/26414/view
 -- Date: 2014-05-30 15:33
 -- Who: Ludovicus
 
@@ -175,9 +180,9 @@ A Into the Wilds|QID|30178|M|75.81,7.68|N|From Mei Barrelbottom.|
 
 A Crane Mastery|QID|30352|M|67.60,25.77|N|From Daggle Bombstrider.|
 A Profit Mastery|QID|30353|M|67.60,25.77|N|From Daggle Bombstrider.|
-A The Arcanic Oubliette|QID|30274|S|30274|N|Head down the road till you get the UI ALert.|
+A The Arcanic Oubliette|QID|30274|S|N|Head down the road till you get the UI ALert.|
 C Into the Wilds|QID|30178|M|66.24,30.81|N|Check on the courier lying on the ground.|
-A The Arcanic Oubliette|QID|30274|US|30274|N|From UI ALert.|
+A The Arcanic Oubliette|QID|30274|US|N|From UI ALert.|
 T Kang Bramblestaff|QID|29874|M|66.36,32.61|N|To Kang Bramblestaff.|
 C Southwest Oubliette Shackle destroyed|QID|30274|NC|QO|Southwest Oubliette Shackle destroyed: 1/1|M|66.7,33.7|
 C Northwest Oubliette Shackle destroyed|QID|30274|NC|QO|Northwest Oubliette Shackle destroyed: 1/1|M|66.7,31.6|
@@ -213,13 +218,13 @@ A Lotus Tea|QID|30351|M|67.36,32.75|N|From Kang Bramblestaff.|
 C Lotus Tea|QID|30351|S|NC|M|55,35|N|Keep an eye out for the flowers as you work you way up the terraces.|
 C Threat from Dojan|QID|30349|S|M|55,35|N|Kill these guys as you go up the terraces to where the boss is.|
 K Kill Dojani Dominator|QID|30346|T|Dojani Dominator|M|55.51,35.48|L|78917|N|Kill him and loot the orders.|
-C Where are the Pools|QID|30346|M|55.26,34.46|To UI Alert. (If you miss the alert you can turn in back at the Incursion.)|
+C Where are the Pools|QID|30346|M|55.26,34.46|N|To UI Alert. (If you miss the alert you can turn in back at the Incursion.)|
 T Where are the Pools|QID|30346|
 A The Pools of Youth|QID|30347|N|from UI Alert.|
 C Threat from Dojan|QID|30349|US|M|55,35|N|Finish this before you go on to the pools, no dojani down there.|
 C The Pools of Youth|QID|30347|NC|M|54.6,33.1;51.9,32.4|CS|N|When facing the platform where you killed the Dominator, go to your left, over a bridge and down some stairs to a pool area. Free Na Lek, kill the guardians and loot the 'water of youth' (groundspawn).|
-C Lotus Tea|QID|30351|US|NS|M|55,35|N|There are a few flowers down here if you aren't yet done.|
-T Lotus Tea|QID|30351||N|To Kang Bramblestaff, next to you. (if you dont turn it in right away, you have to wait until you are at sentinal basecamp.)|
+C Lotus Tea|QID|30351|US|M|55,35|N|There are a few flowers down here if you aren't yet done.|
+T Lotus Tea|QID|30351|N|To Kang Bramblestaff, next to you. (if you dont turn it in right away, you have to wait until you are at sentinal basecamp.)|
 R While traveling|QID|31409|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
 ;R The Incursion|M|67.4,32|
 T Threat from Dojan|QID|30349|M|67.45,32.70|N|To Lyalia.|
@@ -264,7 +269,7 @@ T In the House of the Red Crane|QID|30273|M|40.43,49.18|N|To Chi-Ji (back outsid
 
 R Nayeli Lagoon|QID|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.67,75.30|N|From Tony Tuna.|
-l Stack of Papers|QID||31863|L|87798|M|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
+l Stack of Papers|QID|31863|L|87798|M|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
 f Marista|M|52.43,76.53|N|At Nan-Po.|
 A Sudden, Unexpected Crocolisk Aggression|QID|30666|M|51.53,76.85|N|From Jay Cloudfall, on the ledge of the inn.|
 C Sudden, Unexpected Crocolisk Aggression|QID|30666|S|M|46.34,71.99|
@@ -360,7 +365,7 @@ C Deliver beer to Crane Wing Priests|QID|30624|NC|QO|Deliver beer to Crane Wing 
 C Deliver beer to Shado-Pan|QID|30624|NC|QO|Deliver beer to Shado-Pan: 1/1|M|10.95,55.9|Z|Valley of the Four Winds|
 C Deliver beer to Zhu's Wardens|QID|30624|NC|QO|Deliver beer to Zhu's Wardens: 1/1|M|17.01,50.46|Z|Valley of the Four Winds|
 C Deliver beer to night elf settlers|QID|30624|NC|QO|Deliver beer to night elf settlers: 1/1|M|15.0,50.3|Z|Valley of the Four Winds|
-T It Does You No Good In The Keg|QID|30624|To UI Alert.|
+T It Does You No Good In The Keg|QID|30624|N|To UI Alert.|
 C The Mantidote|QID|30623|US|U|80337|M|10.72,51.92|Z|Valley of the Four Winds|
 C The Swarm Begins|QID|30622|US|M|12.4,53.7|Z|Valley of the Four Winds|
 T The Mantidote|QID|30623|N|To UI Alert.|

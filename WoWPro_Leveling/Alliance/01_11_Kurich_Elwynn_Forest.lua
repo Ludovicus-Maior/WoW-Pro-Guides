@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2014-11-07 22:51
+-- Who: Ludovicus
+-- Log: Removed human stutter.
+
+-- URL: http://wow-pro.com/node/3197/revisions/26800/view
 -- Date: 2014-11-06 12:40
 -- Who: Fluclo
 -- Log: Removed duplicate note from all training T steps
@@ -333,8 +338,8 @@ T Fear No Evil|QID|28806|C|Hunter|R|Human|M|48.49,38.16|N|To Brother Paxton.|
 T They Sent Assassins|QID|28791|C|Hunter|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
 T Fear No Evil|QID|28808|C|Mage|R|Human|M|48.49,38.16|N|To Brother Paxton.|
 T They Sent Assassins|QID|28792|C|Mage|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
-T Fear No Evil|QID|28813|C|Warrior|R|Human|R|Human|M|48.49,38.16|N|To Brother Paxton.|
-T They Sent Assassins|QID|28797|C|Warrior|R|Human|R|Human|M|48.81,38.38|
+T Fear No Evil|QID|28813|C|Warrior|R|Human|M|48.49,38.16|N|To Brother Paxton.|
+T They Sent Assassins|QID|28797|C|Warrior|R|Human|M|48.81,38.38|
 T Fear No Evil|QID|28810|C|Priest|R|Human|M|48.49,38.16|N|To Brother Paxton.|
 T They Sent Assassins|QID|28794|C|Priest|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
 T Fear No Evil|QID|28811|C|Rogue|R|Human|M|48.49,38.16|N|To Brother Paxton.|

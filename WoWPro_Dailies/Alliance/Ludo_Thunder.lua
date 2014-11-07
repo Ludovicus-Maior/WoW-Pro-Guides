@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_alliance
+-- Date: 2014-11-08 00:31
+-- Who: Ludovicus
+-- Log: BAtch fix
+
+-- URL: http://wow-pro.com/node/3537/revisions/26548/view
 -- Date: 2014-07-06 15:25
 -- Who: Ludovicus
 -- Log: Guide level and faction
@@ -55,15 +60,15 @@ T Tear Down This Wall!|QID|32654|M|63.25,72.22|N|To Lady Jaina Proudmoore|
 A To the Skies!|QID|32652|M|63.25,72.22|PRE|32654|N|From Lady Jaina Proudmoore|
 C To the Skies!|QID|32652|M|63.25,72.22|PRE|32654|N|Talk to Lady Jaina Proudmoore to start the solo instance.|CHAT|
 T To the Skies!|QID|32652|M|63.16,73.87|N|To Lady Jaina Proudmoore|
-A A Bold Idea|QID|32655|M|63.20,73.91|N From Taoshi.|
-C A Bold Idea|QID|32655|M|63.20,73.91|N Talk to Taoshi to start the solo instance.|CHAT|
+A A Bold Idea|QID|32655|M|63.20,73.91|N|From Taoshi.|
+C A Bold Idea|QID|32655|M|63.20,73.91|N|Talk to Taoshi to start the solo instance.|CHAT|
 T A Bold Idea|QID|32655|M|63.25,72.22|N|To Lady Jaina Proudmoore|
 A The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|From Lady Jaina Proudmoore|
 C The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|Talk to Lady Jaina Proudmoore to start the solo instance.|CHAT|
 T The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|To Lady Jaina Proudmoore|
 
 ; Let the dailies begin!
-N Assignment Map: PvE or PvP|QID||M|63.25,72.19|N|Click on the assignment map and make your choice. Then another NPC will offer the quests.|NC|
+N Assignment Map: PvE or PvP|QID|1;2|M|63.25,72.19|N|Click on the assignment map and make your choice. Then another NPC will offer the quests.|NC|; Use correct quids
 A The Court of Bones|QID|32731|M|63.25,72.22|N|From Vereesa Windrunner.|
 A Ihgaluk Crag|QID|32732|M|62.70,73.56|N|From Captain Elleane Wavecrest, skip if she is not offering.|
 A Za'Tual|QID|32733|M|34.61,89.45|N|From Lady Jaina Proudmoore.|
@@ -106,7 +111,7 @@ T Surgical Strike|QID|32542|M|31.56,83.14|N|To Archmage Lan'dalock.|
 ; Dailies - Court of Bones
 
 T The Court of Bones|QID|32731|M|40.18,59.55|N|To Narasi Snowdawn, hiding under the shield.|
-A Narasi's Quest|QID|*|NPC||PRE|32731|M|40.18,59.55|N|From Narasi Snowdawn|
+A Narasi's Quest|QID|*|NPC|1|PRE|32731|M|40.18,59.55|N|From Narasi Snowdawn|;Wrong NPC
 A Danara's Quests|QID|32525;32528;32532;32533|PRE|32731|M|40.15,59.30|N|From Danara Silverglass|
 A Vylene's Quests|QID|32529;32530;32531|PRE|32731|M|40.10,59.11|N|From Vylene Amaranth|
 
@@ -125,7 +130,7 @@ K Into the Crypts|QID|32528|M|36.8,56.4|QO|Gura the Reclaimed slain: 1/1|N|Make 
 ;
 C Rise No More!|QID|32532|M|33.00,57.00;35.00,48.60;35.40,50.40;37.20,56.80;38.20,59.80;35.20,52.40;38.70,58.30|CN|QO|Risen Ancestor slain: 15/15|N|Kill ghosts!|
 ;
-C Soul Surrender|QID|32526|M||QO|Scouts rescued: 6/6|N|Look for Scouts of either faction that are being zapped by Soulrippers and kill the soulripper. There are also scouts in cages.|
+C Soul Surrender|QID|32526|M|0,0|QO|Scouts rescued: 6/6|N|Look for Scouts of either faction that are being zapped by Soulrippers and kill the soulripper. There are also scouts in cages.|;Wrong M
 ;
 C Stone Cold|QID|32533|M|33.40,58.80;35.60,54.80;37.40,56.80;37.60,59.40;38.00,61.60;38.60,58.20;36.60,50.50;36.25,49.35;36.80,52.90;33.60,57.20|CN|QO|Grave Guardians destroyed: 8/8|N|Shatter or kill the Guardians.|
 C Grave Circumstances|QID|32527|US|CN|M|33.00,52.80;33.60,60.60;34.00,58.60;34.40,52.20;34.60,56.40;35.40,51.60;35.40,60.80;36.20,59.00;36.40,56.20;37.00,55.20;37.40,51.80;37.40,59.40;37.60,53.80;38.60,58.20;39.00,55.80;35.50,53.00;36.60,52.50;35.60,55.20;36.75,60.65;36.40,53.80;36.60,49.60;34.60,57.50;35.55,50.20;37.00,57.80;38.45,60.90|QO|Shan'ze mogu slain at the Court of Bones: 10/10|N|Go the court of bones and wipe them out!|
@@ -145,11 +150,11 @@ T The Conquest of Stone|QID|32531|M|40.1,59.1|N|To Vylene Amaranth|
 
 T Ihgaluk Crag|QID|32732|M|63,74|N|To Archmage Modera|
 
-A Skin of the Saurok|QID|32549|PRE|32732|M||N|From Image of Archmage Vargoth|
+A Skin of the Saurok|QID|32549|PRE|32732|M|0,0|N|From Image of Archmage Vargoth|;wrong M
 
-A Modera's Quests|QID|*|NPC||PRE|32732|M|63,74|N|From Archmage Modera|
-A Stephen's Quests|QID|*|NPC||PRE|32732|M||N|From Sanitation Sorcerer Stephen Litmatch|
-A The Residents of Ihgaluk|QID|32545|PRE|32732|M||N|From Lyalia|
+A Modera's Quests|QID|*|NPC|1|PRE|32732|M|63,74|N|From Archmage Modera|;Wrong NPC
+A Stephen's Quests|QID|*|NPC|2|PRE|32732|M|0,0|N|From Sanitation Sorcerer Stephen Litmatch|;Wrong NPC, M
+A The Residents of Ihgaluk|QID|32545|PRE|32732|M|0,0|N|From Lyalia|;wrong M
 
 ; Do this quest first!!!!
 C Skin of the Saurok|QID|32549|M|44.20,83.20;44.60,74.40;45.00,84.00;45.80,75.00;49.00,85.80;50.00,76.40;50.80,73.40;52.20,75.60;52.60,91.40;54.20,80.00;54.20,87.00;54.60,78.40;54.80,74.60;55.40,86.20;46.60,72.50;54.50,76.10;49.40,78.50;46.10,71.30;44.50,81.80;47.60,82.40;46.40,70.00|CN|N|Kill any Saurok.|
@@ -164,7 +169,7 @@ C Malfunctioning Construct|QID|32537|M|46.6,72.0|N|The Malfunctioning Construct 
 C Distressed Construct|QID|32537|M|49.20,82.00;49.80,83.00;49.80,84.40;53.60,77.60;49.20,87.40|CN|N|The Distressed Construct is running around.|QO|Recover Distressed Construct: 1/1|
 ;
 C Just Some Light Clean-Up Work|QID|32546|M|52.40,80.00;55.60,74.40;48.60,80.50;50.40,80.90|CN|N|Kill the Filth|
-T Just Some Light Clean-Up Work|QID|32546|M||N|From Sanitation Sorcerer Stephen Litmatch|
+T Just Some Light Clean-Up Work|QID|32546|M|0,0|N|From Sanitation Sorcerer Stephen Litmatch|;Wrong M
 ;
 C Left To Rot|QID|32548|M|43.40,83.80;45.00,84.40;45.40,80.00;46.40,80.80;47.00,69.80;47.40,71.20;47.40,72.60;47.40,78.80;48.00,80.20;48.40,81.40;50.00,78.00;51.00,73.60;54.60,77.00;55.00,75.40|CN|N|Destroy the meat!|
 ;
@@ -180,13 +185,13 @@ C Saurok slain|QID|32535|N|Saurok are all over like roaches... take your pick.|Q
 ;
 C Use Mogu Weapons|QID|32606|M|63,74|N|Stab the Skumblade corpses.|U|123|
 
-T The Creeping Carpet of Ihgaluk|QID|32547|M||N|To Sanitation Sorcerer Stephen Litmatch|
-T Left To Rot|QID|32548|M||N|From Sanitation Sorcerer Stephen Litmatch|
+T The Creeping Carpet of Ihgaluk|QID|32547|M|0,0|N|To Sanitation Sorcerer Stephen Litmatch|;Wrong M
+T Left To Rot|QID|32548|M|0,0|N|From Sanitation Sorcerer Stephen Litmatch|;Wrong M
 T Subtle Encouragement|QID|32606|M|63,74|N|To Archmage Modera|
-T De-Constructed|QID|32537|M||N|From Archmage Modera|
-T Manipulating the Saurok|QID|32536|M||N|From Archmage Modera|
+T De-Constructed|QID|32537|M|63,74|N|From Archmage Modera|
+T Manipulating the Saurok|QID|32536|M|63,74|N|From Archmage Modera|
 T The Skumblade Threat|QID|32535|M|63,74|N|To Archmage Modera|
-T The Residents of Ihgaluk|QID|32545|M||N|From Lyalia|
+T The Residents of Ihgaluk|QID|32545|M|0,0|N|From Lyalia|;Wrong M
 
 ; Dalies - Boss Quests
 K Zur'chaka the Bonecrafter|QID|32578|M|42.0,79.2|QO|Zur'chaka the Bonecrafter slain: 1/1|N|Clear as many mobs as you can in the area. Pull torwards Eternal Spirit of Tharon'ja.  Interrupt Spirit bolts. Stay within 20 yards when he "Roll the Bones" as he may heal you!  Dodge the "Fountain of Skulls".  Pour on the damage, as he only gets stronger over time.|

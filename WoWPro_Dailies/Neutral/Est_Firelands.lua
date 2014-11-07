@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
+-- Date: 2014-11-08 00:22
+-- Who: Ludovicus
+-- Log: Rogue Z tag
+
+-- URL: http://wow-pro.com/node/3469/revisions/26854/view
 -- Date: 2014-11-07 20:43
 -- Who: Fluclo
 -- Log: Removed duplicate Z tags
@@ -408,7 +413,7 @@ C Into the Depths|QID|29203|N|Head into the Igneous Depths and make your way to 
 T Into the Depths|QID|29203|N|Back at Malfurion under the Sentinel Tree.|Z|MoltenFront|M|47.00,91.00|
 A A Smoke-Stained Locket|QID|29298|N|Check your mail to recieve the Smoke-Stained Locket from Theresa Barkskin, which starts this quest. The nearest mailbox is in front of the Nordrassil Inn under the World Tree (which is also halfway to where you need to go for the quest).|Z|Mount Hyjal|M|63.48,23.69|
 T A Smoke-Stained Locket|QID|29298|N|Bring the locket to Rabine Saturna at Nighthaven in Moonglade.|Z|Moonglade|M|51.70,45.06|
-A Unlocking the Secrets Within|QID|29302|PRE|29298|N|From Rabine Saturna in Moonglade.|Z|Moonglade|Z|MoltenFront|M|51.70,45.06|
+A Unlocking the Secrets Within|QID|29302|PRE|29298|N|From Rabine Saturna in Moonglade.|Z|Moonglade|M|51.70,45.06|
 C Unlocking the Secrets Within|QID|29302|N|Witness the events of Leyaras distant past.|Z|Moonglade|M|51.70,45.06|
 T Unlocking the Secrets Within|QID|29302|N|At Rabine Saturna in Moonglade.|Z|Moonglade|M|51.70,45.06|
 A Tragedy and Family|QID|29303|PRE|29302|N|From Rabine Saturna in Moonglade.|Z|Moonglade|M|51.70,45.06|

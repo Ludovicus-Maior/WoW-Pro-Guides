@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2014-11-08 00:21
+-- Who: Ludovicus
+-- Log: Removed rogue N tag
+
+-- URL: http://wow-pro.com/node/3561/revisions/26637/view
 -- Date: 2014-07-26 22:26
 -- Who: Ludovicus
 -- Log: Play through as horde!
@@ -75,7 +80,7 @@ N Reccomendations|QID|33230|N|WoWPro is a great addon, but your Timeless Isle ex
 T A Flash of Bronze...|QID|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|To Chromie, at the Mogu'Shan Palace upper level.|
 A Journey to the Timeless Isle|QID|33232|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Chromie|
 R Timeless Isle|QID|33232|M|21.8,39.8|U|104110|FACTION|Horde|N|Use watch and get wisked away!|
-f Huojin Landing|QID|33232|M|21.92,39.75|N|FACTION|Horde|N|Chi-Ro the Skytamer is the flightmaster|
+f Huojin Landing|QID|33232|M|21.92,39.75|FACTION|Horde|N|Chi-Ro the Skytamer is the flightmaster|
 T Journey to the Timeless Isle|QID|33232|M|22.01,40.93|FACTION|Horde|N|To Watcher Alundra.|
 A Time Keeper Kairoz|QID|33156|M|22.01,40.93|FACTION|Horde|N|From Watcher Alundra.|
 

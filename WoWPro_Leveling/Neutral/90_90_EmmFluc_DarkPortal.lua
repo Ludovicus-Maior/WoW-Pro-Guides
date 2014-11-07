@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-11-08 00:48
+-- Who: Emmaleah
+-- Log: delete dup Z tags on A The Dark Portal
+
+-- URL: http://wow-pro.com/node/3600/revisions/26794/view
 -- Date: 2014-11-05 20:25
 -- Who: Fluclo
 -- Log: Duplicate N tags for quest Yrel.
@@ -106,8 +111,8 @@ return [[
 
 ;Quest numbers differ on source pick-up. From Stormwind or Orgrimmar Auto-Accept, it is 34398. From Archmage Khadgar at The Dark Portal it is 36881.
 
-A The Dark Portal |QID|34398|Z|Stormwind City|N|Auto-Accept on arrival in Stormwind City. If it doesn't appear/auto-accept, just head to the Hero's Call Board and select the quest from there.|FACTION|Alliance|Z|Stormwind City|LEAD|36881|
-A The Dark Portal |QID|34398|Z|Orgrimmar|N|Auto-Accept on arrival in Orgrimmar. If it doesn't appear/auto-accept, just head to the Hero's Call Board and select the quest from there.|FACTION|Horde|Z|Orgrimmar|LEAD|36881|
+A The Dark Portal |QID|34398|N|Auto-Accept on arrival in Stormwind City. If it doesn't appear/auto-accept, just head to the Hero's Call Board and select the quest from there.|FACTION|Alliance|Z|Stormwind City|LEAD|36881|
+A The Dark Portal |QID|34398|N|Auto-Accept on arrival in Orgrimmar. If it doesn't appear/auto-accept, just head to the Hero's Call Board and select the quest from there.|FACTION|Horde|Z|Orgrimmar|LEAD|36881|
 C The Dark Portal |QID|34398;36881|Z|Blasted Lands|M|54.94,50.29|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. A portal to the Blasted Lands can be found in the Mage Tower.|CHAT|FACTION|Alliance|
 C The Dark Portal |QID|34398;36881|Z|Blasted Lands|M|54.94,50.29|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. A portal to the Blasted Lands can be found in the in the Cleft of Shadows.|CHAT|FACTION|Horde|
 T The Dark Portal |QID|34398;36881|N|To Archmage Khadgar|M|54.79,48.27|Z|TanaanJungleIntro|

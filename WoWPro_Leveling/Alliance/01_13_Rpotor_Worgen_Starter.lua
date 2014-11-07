@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2014-11-07 22:52
+-- Who: Ludovicus
+-- Log: got rid of extra coords.
+
+-- URL: http://wow-pro.com/node/3211/revisions/26631/view
 -- Date: 2014-07-25 22:24
 -- Who: Ludovicus
 -- Log: Add mean
@@ -450,7 +455,7 @@ T The King's Observatory|QID|14466|Z|Gilneas|M|26.40,46.97|N|To King Genn Greyma
 A Alas, Gilneas!|QID|14467|Z|Gilneas|M|26.40,46.97|NC|N|Look through King Genn Greymane's scope.|
 
 A Exodus|QID|24438|Z|Gilneas|M|26.40,46.97|N|From King Genn Greymane.|
-N Board a Stagecoach Carriage|QID|24438|Z|Gilneas|M|28.84,54.18|N|Get out of the manor, go down the road and get on a Stagecoach Carriage. Click off while riding.|CC|26.40,46.97|
+N Board a Stagecoach Carriage|QID|24438|Z|Gilneas|M|28.84,54.18|N|Get out of the manor, go down the road and get on a Stagecoach Carriage. Click off while riding.|CC|
 
 T Exodus|QID|24438|Z|Gilneas|M|51.86,80.52|N|To Prince Liam Greymane.|
 A Stranded at the Marsh|QID|24468|Z|Gilneas|M|51.86,80.52|N|From Prince Liam Greymane.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2014-11-08 00:18
+-- Who: Ludovicus
+-- Log: BAd N's
+
+-- URL: http://wow-pro.com/node/3504/revisions/26569/view
 -- Date: 2014-07-06 15:55
 -- Who: Ludovicus
 -- Log: Added levels
@@ -144,7 +149,7 @@ A Damage Control|QID|31458|PRE|31441|N|From Hisek the Swarmkeeper|M|56.25,58.25|
 
 A Extracting Answers|QID|31465|PRE|31441|N|From Hisek the Swarmkeeper|M|56.25,58.25|
 
-C Damage Control|QID|31458|N|From Hisek the Swarmkeeper|M|55.64,46.77|N|Kill Ik'thik Whisperer around the beacon and then click on it.|
+C Damage Control|QID|31458|M|55.64,46.77|N|From Hisek the Swarmkeeper. Kill Ik'thik Whisperer around the beacon and then click on it.|
 
 C Extracting Answers|QID|31465|N|Collect Mandibles from the Ik'thik Swarmborn|QO|Venom-Coated Mandible: 6/6|M|51.20,49.80;51.40,46.20;51.65,51.75;51.40,44.00;54.33,45.19;54.40,51.05;56.59,46.55|CN|
 
@@ -282,7 +287,7 @@ C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|US|M|70.40
 
 C Putting An Eye Out|QID|31234|N|Drops from Mire Beasts.|S|
 
-K Summon and Kill Warlord Gurthan|QID|31233;31232;31231;31237;31235;31234|L|88715|M|66.20,31.80|N|Requires two players; one to /lay on Green Rune and another to /kneel on the Red Rune.|N|Loot his corpse.|
+K Summon and Kill Warlord Gurthan|QID|31233;31232;31231;31237;31235;31234|L|88715|M|66.20,31.80|N|Requires two players; one to /lay on Green Rune and another to /kneel on the Red Rune. Loot his corpse.|
 
 A The Warlord's Ashes|ACTIVE|31233;31232;31231;31237;31235;31234|QID|31677|O|U|88715|N|Accept the quest from the ashes.|
 

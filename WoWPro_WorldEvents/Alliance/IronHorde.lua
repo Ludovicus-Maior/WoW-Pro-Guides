@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
+-- Date: 2014-11-07 23:49
+-- Who: Emmaleah
+-- Log: corrected correction :) 
+
+-- URL: http://wow-pro.com/node/3607/revisions/26864/view
 -- Date: 2014-11-07 21:53
 -- Who: Emmaleah
 -- Log: eliminated some duplicate M tags (that pointed to horde locations. wouldn't that be fun!?!) per the big list o'errors
@@ -79,7 +84,8 @@ T Under Siege|QID|35462|N|To Vindicator Maraad.|M|66.58,28.26|
 
 A Subversive Scouts|QID|35463|N|From Vindicator Maraad.|M|66.58,28.26|
 A Ending Executions|QID|35464|N|From Bodrick Grey.|M|66.94,27.94|
-C Subversive Scouts|QID|35463|M|66.3,26.3|N|Kill the Ironmarch Scouts, they are in stealth around the perimeter of the beachhead.|C Ending Executions|QID|35464|M|57.14,32.62|N|Kill the Ironmarch Executioners to release the Nethergarde Prisoners.|
+C Subversive Scouts|QID|35463|M|66.3,26.3|N|Kill the Ironmarch Scouts, they are in stealth around the perimeter of the beachhead.|
+C Ending Executions|QID|35464|M|57.14,32.62|N|Kill the Ironmarch Executioners to release the Nethergarde Prisoners.|
 T Ending Executions|QID|35464|N|To Bodrick Grey.|M|66.94,27.94|
 T Subversive Scouts|QID|35463|N|To Vindicator Maraad.|M|66.58,28.26|
 

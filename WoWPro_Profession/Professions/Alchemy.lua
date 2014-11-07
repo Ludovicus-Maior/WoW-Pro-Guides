@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_alchemy
+-- Date: 2014-11-08 00:15
+-- Who: Ludovicus
+-- Log: FACTION
+
+-- URL: http://wow-pro.com/node/3408/revisions/25822/view
 -- Date: 2013-11-27 20:57
 -- Who: Ludovicus
 
@@ -49,8 +54,8 @@ N Volatile Healing Potion|QID|901710017|P|Alchemy;171;300;315;|N|1;Golden Sansam
 N Elixir of Mastery|QID|901710018|P|Alchemy;171;315;325;|N|1;Terocone;10;20:1;Felweed;10;35|
 N Elixir of Draenic Wisdom|QID|901710019|P|Alchemy;171;325;335;|N|1;Terocone;10;10:1;Felweed;10;25|
 N Super Healing Potion|QID|901710020|P|Alchemy;171;335;340;|N|2;Netherbloom;10;10:1;Felweed;5;15|
-B Recipe: Super Mana Potion|QID|901710021|P|Alchemy;171;340;350;|N|From Haalrun in Zangarmarsh.|M|67.8,48|FACT|Alliance|Z|Zangarmarsh|
-B Recipe: Super Mana Potion|QID|901710022|P|Alchemy;171;340;350;|N|From Daga Ramba in Blade's Edge Mountains.|M|51,57.8|FACT|Horde|Z|Blade's Edge Mountains|
+B Recipe: Super Mana Potion|QID|901710021|P|Alchemy;171;340;350;|N|From Haalrun in Zangarmarsh.|M|67.8,48|FACTION|Alliance|Z|Zangarmarsh|
+B Recipe: Super Mana Potion|QID|901710022|P|Alchemy;171;340;350;|N|From Daga Ramba in Blade's Edge Mountains.|M|51,57.8|FACTION|Horde|Z|Blade's Edge Mountains|
 N Super Mana Potion|QID|901710023|P|Alchemy;171;340;350;|N|2;Dreaming Glory;20;20:1;Felweed;10;10|
 N Learn Grand Master Alchemy|QID|901710024|P|Alchemy;171;*;0;450|N|Visit your Trainer in any major city. Requires Level 65.|
 N Resurgent Healing Potion|QID|901710025|P|Alchemy;171;350;365;|N|2;Goldclover;30;40|

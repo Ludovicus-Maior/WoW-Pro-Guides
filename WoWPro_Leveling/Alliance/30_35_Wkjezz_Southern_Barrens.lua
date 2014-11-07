@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2014-11-07 22:55
+-- Who: Ludovicus
+-- Log: Dup tags
+
+-- URL: http://wow-pro.com/node/3235/revisions/26812/view
 -- Date: 2014-11-06 13:15
 -- Who: Fluclo
 -- Log: Removed duplicate tags from 24948, 25000 and 25043
@@ -154,7 +159,7 @@ A Lifting the Siege|QID|24948|M|67.00,46.57|N|From Thomas Paxton.|
 C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|Rageroar Catapults Burned: 3/3|
 C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|S|QO|Rageroar Lieutenant slain: 4/4|
 K Karga Rageroar |QID|24956|L|52036|M|67.6,36.7|N|Kill Hexmaster Bastoon, then kill Karga Rageroar and loot his helm.|
-C Rageroar Blade Thrower Burned|QID|24948|U|52017|M|67.33,37.62|N|Burn the Blade Thrower.|QO|Rageroar Blade Thrower Burned: 1/1|M|68.00,36.45|
+C Rageroar Blade Thrower Burned|QID|24948|U|52017|M|67.33,37.62|N|Burn the Blade Thrower.|QO|Rageroar Blade Thrower Burned: 1/1|
 C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|Rageroar Catapults Burned: 3/3|US|
 C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|US|QO|Rageroar Lieutenant slain: 4/4|
 T Silencing Rageroar|QID|24956|M|66.94,46.77|N|To Tolliver Houndstooth.|
@@ -222,11 +227,11 @@ A Fields of Blood|QID|25043|M|49.91,49.62|N|From General Hawthorne.|
 A A Line in the Dirt|QID|25045|M|49.98,49.53|N|From General Hawthorne.|
 A Lion's Pride|QID|25041|M|49.78,50.46|N|From Sam Trawley.|
 C Lion's Pride|QID|25041|S|M|33.84,39.36|N|Kill 5 of any type of Lion you see.|
-C Fields of Blood|QID|25043|US|M|46.35,47.19|N|Kill  10 Desolation Grunts.|S|
+C Fields of Blood|QID|25043|M|46.35,47.19|N|Kill  10 Desolation Grunts.|S|
 C A Line in the Dirt|QID|25045|M|46.32,47.23;49.43,54.03|CN|N|Capture the Hill then defend it. Don't reclick the hill if you lose control of it, or the number of mobs will multiply. If you lose control, fall back and try again later, or try another hill|
 C Diplomacy By Another Means|QID|25044|U|49782|M|43.05,41.87|N|Blow the horn in the pit, then kill Sabersnout.|
 C Fields of Blood|QID|25043|S|M|31.87,30.50|N|Take out the grunts.|
-C Fields of Blood|QID|25043|US|M|46.35,47.19|N|Kill  10 Desolation Grunts.|US|
+C Fields of Blood|QID|25043|M|46.35,47.19|N|Kill  10 Desolation Grunts.|US|
 C Lion's Pride|QID|25041|US|M|46.54,47.44|N|Kill 5 of any type of Lion you see.|
 T Diplomacy By Another Means|QID|25044|M|49.96,49.47|N|To Ambassador Gaines.|
 T A Line in the Dirt|QID|25045|M|49.90,49.64|N|To General Hawthorne.|

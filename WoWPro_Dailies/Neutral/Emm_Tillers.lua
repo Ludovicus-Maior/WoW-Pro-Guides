@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2014-11-08 00:24
+-- Who: Ludovicus
+-- Log: More corrections.
+
+-- URL: http://wow-pro.com/node/3508/revisions/26845/view
 -- Date: 2014-11-07 20:31
 -- Who: Fluclo
 -- Log: Fixed missing N tags, duplicate PRE, NC and N tags, and mis-spelt ACTIVE tag
@@ -162,7 +167,7 @@ T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|
 A Learn and Grow I: Seeds|QID|30535|PRE|30252|M|52.25,48.79|N|From Farmer Yoon, after alot of talking.|
 l Get seeds from Merchant Greenfield|QID|30535|L|80295|M|52.88,52.14|NC|N|It's a chat option, not a purchase.|
 T Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|To Farmer Yoon.|
-A Learn and Grow II: Tilling and Planting|QID|30254|PRE|30535|M|52.25,48.79|From Farmer Yoon.|
+A Learn and Grow II: Tilling and Planting|QID|30254|PRE|30535|M|52.25,48.79|N|From Farmer Yoon.|
 C Tilling and Planting|QID|30254|M|52.02,48.30|NC|U|80302|N|Click the untilled soil to till, then target it and use the seeds.|
 T Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|N|To Farmer Yoon.|
 A Learn and Grow III: Tending Crops|QID|30255|PRE|30254|M|52.25,48.79|N|From Farmer Yoon.|
@@ -438,7 +443,7 @@ A Mung-Mung's Vote I: A Hozen's Problem|QID|30258|PRE|31945|REP|The Tillers;1272
 
 T Haohan's Vote I: Bungalow Break-In|QID|30521|M|44.6,34|N|To Haohan Mudclaw.|
 T Haohan's Vote II: The Real Culprits|QID|30522|M|52.20,48.86|N|To Farmer Yoon.|
-T Haohan's Vote III: Pure Poison|QID|30525|M|52.20,48.86|N|To Farmer Yoon.|M|32.4,20.4|
+T Haohan's Vote III: Pure Poison|QID|30525|M|52.20,48.86|N|To Farmer Yoon.|
 T Haohan's Vote IV: Melons For Felons|QID|30527|M|52.20,48.86|N|To Farmer Yoon.|
 T Haohan's Vote V: Chief Yip-Yip|QID|30528||M|52.20,48.86|N|To Farmer Yoon. A dialog follows which includes a place where you you place your vote in the bowl on the shrine to actually join The Tillers Union.|
 

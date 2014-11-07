@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
+-- Date: 2014-11-08 00:01
+-- Who: Emmaleah
+-- Log: separated the l pick up things from mailbox into individual steps.  I knew it didn't work... I just forgot to ever come back and fix it :(
+
+-- URL: http://wow-pro.com/node/3506/revisions/26571/view
 -- Date: 2014-07-06 15:57
 -- Who: Ludovicus
 -- Log: Added artificial levels line
@@ -165,6 +170,15 @@ F Waterspeakers |QID|968460002|M|61.22, 34.69|Z|Valley of the Four Winds|ACH|684
 F Embracing the Passions |QID|968500003|M|83.19, 21.18|Z|Valley of the Four Winds|ACH|6850;3|N|Hozen in the Mist.|
 
 l Find a mailbox(Vale)|QID|31055|L|83769,83770,83771,83772,83773,83774,83777,83779,83780|N|Retrieve the items Lorewalker Cho has mailed to you.|
+l Find a mailbox(Vale)|QID|31055|L|83769|N|Retrieve the items Lorewalker Cho has mailed to you.|
+l Find a mailbox(Vale)|QID|31055|L|83770|N|Retrieve the items Lorewalker Cho has mailed to you.|
+l Find a mailbox(Vale)|QID|31055|L|83771|N|Retrieve the items Lorewalker Cho has mailed to you.|
+l Find a mailbox(Vale)|QID|31055|L|83772|N|Retrieve the items Lorewalker Cho has mailed to you.|
+l Find a mailbox(Vale)|QID|31055|L|83773|N|Retrieve the items Lorewalker Cho has mailed to you.|
+l Find a mailbox(Vale)|QID|31055|L|83774|N|Retrieve the items Lorewalker Cho has mailed to you.|
+l Find a mailbox(Vale)|QID|31055|L|83777|N|Retrieve the items Lorewalker Cho has mailed to you.|
+l Find a mailbox(Vale)|QID|31055|L|83779|N|Retrieve the items Lorewalker Cho has mailed to you.|
+l Find a mailbox(Vale)|QID|31055|L|83780|N|Retrieve the items Lorewalker Cho has mailed to you.|
 A Between a Saurok and a Hard Place|QID|31055|O|U|83769|N|From 'Between a Saurok and a Hard Place' received in the mail.|;interesting --- item ID on mouseover and wowhead is 83076, but 83769 is what lets it autocomplete (which i found after more digging on wowhead)
 T Between a Saurok and a Hard Place|QID|31055|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho. After each of the next 8 turnins will be a RP scene that takes about 2 min before you can turn the next one in.|
 A Hozen in the Mist|QID|31093|O|U|83770|N|From 'Hozen in the Mist' received in the mail.|

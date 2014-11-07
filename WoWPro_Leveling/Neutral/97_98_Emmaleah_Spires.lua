@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-11-08 00:45
+-- Who: Emmaleah
+-- Log: correct errors per big list
+
+-- URL: http://wow-pro.com/node/3602/revisions/26708/view
 -- Date: 2014-10-06 00:08
 -- Who: Emmaleah
 -- Log: added header "boilerplate"
@@ -57,7 +62,7 @@ f Crow's Crook|QID|34659|M|51.87,31.06|N|At Darkscreech.|
 C The Crone|QID|34659|M|51.62,31.38|CHAT|N|Tell Ornekka the secret word.|
 T The Crone|QID|34659|M|51.62,31.38|N|To Ornekka.|
 A A Charming Deception|QID|34756|M|51.62,31.38|N|From Ornekka.|
-A All Due Respect|QID|35636|M|51.62,31.38|k|N|From Ornekka.|
+A All Due Respect|QID|35636|M|51.62,31.38|N|From Ornekka.|
 A Echo Hunters|QID|34805|M|51.57,31.36|N|From Rashad.|
 C A Charming Deception|QID|34756|M|49.60,38.24|S|NC|N|After you click on the charms, an adherant will attack, the charm gives you an illusion, which you can "dispell" to stun your opponent.|
 C Echo Hunters|QID|34805|M|50.23,39.80|S|N|These are bats, (up in the air), you need ranged to get thier attention.|
@@ -66,7 +71,7 @@ C All Due Respect|QID|35636|NC|QO|2|M|50.46,36.85|N|After you find the 2nd item,
 T All Due Respect|QID|35636|M|50.27,36.72|N|To Reshad.|
 A Syth's Secret|QID|35668|M|50.27,36.72|N|From Reshad.|
 C Syth's Secret|QID|35668|CS|M|49.05,41.23;48.47,42.47|T|Sun-Talon Oberyx|N|Go down into the burrow,kill Oberyx and loot the eye.|
-C A Charming Deception|QID|34756|M|49.60,38.24|US|After you click on the charms, an adherant will attack, the charm gives you an illusion, which you can "dispell" to stun your opponent.|
+C A Charming Deception|QID|34756|M|49.60,38.24|US|N|After you click on the charms, an adherant will attack, the charm gives you an illusion, which you can "dispell" to stun your opponent.|
 C Echo Hunters|QID|34805|M|50.23,39.80|US|N|These are bats, (up in the air), you need ranged to get thier attention.|
 T A Charming Deception|QID|34756|M|48.59,44.48|N|To Reshad.|
 T Syth's Secret|QID|35668|M|48.59,44.48|N|To Reshad.|
@@ -150,7 +155,7 @@ T Prime the Cannons|QID|35408|M|37.65,53.87|N|To Lady Claudia.|
 A Admiral Taylor|QID|35482;36183|M|37.65,53.89|N|From Lady Claudia.|
 C Admiral Taylor|QID|35482;36183|M|36.83,57.30|
 T Admiral Taylor|QID|35482;36183|M|36.82,56.92|N|To Admiral Taylor.|
-A Honoring a Hero|QID|35549|36.8,56.8|N|From Jasper Fel.|FACTION|Alliance|
+A Honoring a Hero|QID|35549|M|36.8,56.8|N|From Jasper Fel.|FACTION|Alliance|
 A Surviving in a Savage Land|QID|35550|M|36.86,56.74|N|From Shadow Hunter Ukambe.|FACTION|Horde|
 H Southport|QID|35549|M|36.8,56.8|FACTION|Alliance|
 H Axefall|QID|35550|M|36.86,56.74|FACTION|Horde|
@@ -397,7 +402,7 @@ H Southport|QID|35619|ACTIVE|35676;36165|FACTION|Alliance|
 
 H Axefall|QID|35907|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|
 C Attempted Murder|QID|35907||M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
-T Attempted Murder|QID|35907|52.10,23.54|N|To Dark Ranger Velonara.|FACTION|Horde|
+T Attempted Murder|QID|35907|M|52.10,23.54|N|To Dark Ranger Velonara.|FACTION|Horde|
 A Assassin's Mark|QID|35924|M|52.10,23.54|PRE|35907|N|From Dark Ranger Velonara.|FACTION|Horde|
 C Assassin's Mark|QID|35924|M|55.49,23.22|N|Check the bodies of the 'Vigilant Outcasts' lying along the road.|FACTION|Horde|
 T Assassin's Mark|QID|35924|M|53.57,27.51|N|To (a stealthed) Dark Ranger Velonara.|FACTION|Horde|
@@ -436,7 +441,7 @@ C Not In Your Army|QID|37292|M|39.45,41.72|CHAT|N|After you talk to her, she bec
 T Not In Your Army|QID|37292|M|40.08,42.66|N|To Lunzul.|FACTION|Horde|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
-f Pinchwhistle Gearworks|QID|35619:35620|M|60.88,73.31|N|At Kwiven Quickcog.|
+f Pinchwhistle Gearworks|QID|35619;35620|M|60.88,73.31|N|At Kwiven Quickcog.|
 T Pinchwhistle Gearworks|QID|35619;35620|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
 A Defungination|QID|35077|M|61.47,72.94|N|From Kimzee Pinchwhistle.|
 A Spore-be-Gone|QID|35079|M|61.46,72.96|N|From Engineer Gazwitz.|
@@ -546,7 +551,7 @@ C I See Dead Arakkoa|QID|35766|U|113438|M|61.03,57.71|N|Use your ghostogrifier t
 C All Natural|QID|35738|US|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Horde|
 T All Natural|QID|35738|M|60.19,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
 T I See Dead Arakkoa|QID|35766|M|60.19,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
-A The Ebon Hunter|QID|35797|M|60.20,53.15||PRE|35738;35766N|From Trixxy Weldblast.|FACTION|Horde|
+A The Ebon Hunter|QID|35797|M|60.20,53.15|PRE|35738;35766|N|From Trixxy Weldblast.|FACTION|Horde|
 C The Ebon Hunter|QID|35797|M|65.09,61.46|T|The Ebon Hunter|FACTION|Horde|
 T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
 

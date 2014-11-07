@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-11-08 01:22
+-- Who: Ludovicus
+-- Log: Corrections
+
+-- URL: http://wow-pro.com/node/3604/revisions/26781/view
 -- Date: 2014-11-03 05:07
 -- Who: Fluclo
 -- Log: Added next guide ID, added Shadowmoon Darters to Ship Salvage, added Rank 3 treasures, changed Qiana Moonshadow to CHAT and added coords, removed a PRE step from Shadows Awaken (*BUG*), added extra coords when route not obvious, added missing coords to a few steps, added a run step to help locate Deadwalker Pass, added a Hearth point for Embaari Village, Path of the Light Flightpath not known at that point of guide, so changed to get FP, added garrison quests for mine and small buildings, added LVL 94 tags to the Level 94 quests.
@@ -41,7 +46,7 @@ return [[
 L Level 90 |QID|34575|LVL|90|N|This guide requires a minimum level of 90 to do.|
 N Getting to Shadowmoon Valley (Draenor) |QID|34575|N|To get to Shadowmoon Valley (Draenor), you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|35884|
 
-N Welcome to Shadowmoon Valley|QID|34575|ACTIVE|34575|S|If you want the garrison supply treasures included in this guide, please set your Rank to 3.|
+N Welcome to Shadowmoon Valley|QID|34575|ACTIVE|34575|S|N|If you want the garrison supply treasures included in this guide, please set your Rank to 3.|
 A Step Three: Prophet! |QID|34575|N|Auto-Accepted|
 T Step Three: Prophet! |QID|34575|N|To Prophet Velen|M|27.0,8.1|
 
@@ -266,7 +271,7 @@ T The Sting |QID|34790|N|To Rangari Chel|M|56.7,23.0|
 T Fun with Fungus |QID|34784|N|To Exarch Naielle|M|56.5,23.5|
 
 T Hataaru, the Artificer |QID|34785|N|To Exarch Hataaru outside the Elodor Dig|M|61.9,29.7|
-A Shut'er Down |QID|35070|N|From Exarch Hataaru|PRE|34785|M|61.9,29.7|PRE|34785|
+A Shut'er Down |QID|35070|N|From Exarch Hataaru|PRE|34785|M|61.9,29.7|
 A Engorged Goren |QID|34786|N|From Apprentice Artificer Andren|M|61.9,29.1|PRE|34782|
 
 C Engorged Goren |QID|34786|N|Kill and loot the Crystalmaw Goren and Spitters until you have 20 Crystallized Goren Scales|S|M|63.5,26.3|
@@ -297,11 +302,11 @@ C The Traitor's True Name |QID|34792|N|Wait for Exarch Othaar to turn red, then 
 C The Traitor's True Name |QID|34792|N|Kill Socrethar|QO|3|M|60.6,20.6|
 T The Traitor's True Name |QID|34792|N|To Exarch Maladaar at the Altar of Sha'tar|M|62.6,26.2|
 
-A Friend of the Exarchs |QID|34788|N|From Exarch Naielle|PRE|34792|M|62.5,26.2|PRE|34792|
+A Friend of the Exarchs |QID|34788|N|From Exarch Naielle|PRE|34792|M|62.5,26.2|
 C Friend of the Exarchs |QID|34788|N|Choose a follower.\n\n- Andren is good for Danger Zones and Engineering. \n- Chel is good for Minion Swarms and Leatherworking. \n- Onaala is good for Wild Aggression and Blacksmithing.|NC|
 T Friend of the Exarchs |QID|34788|N|To Exarch Naielle|M|62.5,26.2|
 
-A Supply Drop |QID|35905|N|From Exarch Naielle|PRE|34788|M|62.5,26.2|PRE|34788|
+A Supply Drop |QID|35905|N|From Exarch Naielle|PRE|34788|M|62.5,26.2|
 
 f Fey Landing |QID|35552|N|With Vamuun.|M|58.7,31.9|
 F Embaari Village|QID|33072|N|Fly to Embaari Village|ACTIVE|33072|M|40.5,54.9|
@@ -350,7 +355,7 @@ C The Dark that Blinds Us |QID|33078|N|Click the Southern stone to get a rubbing
 T The Dark that Blinds Us |QID|33078|N|To Loreseeker Heidii|M|42.1,57.4|
 
 C Going Undercover |QID|33080|N|Head up into Shaz'gul, and click on the explosives inside the supply hut. Whilst in Shaz'gul, you will have a disguise that only the Void Occulus and Void Wolf can see through, so avoid any mob with void in their name. You will get a HUD message if you get too close, just keep running if that happens!\n\nIf you need to get past a Void Wolf, you can pick up a Tasty Meat and throw it near them. To get past the Void Occulus, use a Void Touched Pumpkin.|QO|2|M|37.2,59.3|NC|
-C Going Undercover |QID|33080|N|Click the explosives inside the main lodge (and to the right)|QO|3|NC|M|36.4,61.4|NC|
+C Going Undercover |QID|33080|N|Click the explosives inside the main lodge (and to the right)|QO|3|NC|M|36.4,61.4|
 C Going Undercover |QID|33080|N|Head up into Shaz'gul, and click on the explosives at chieftain's seat.|QO|4|M|39.1,62.9|NC|
 C Going Undercover |QID|33080|N|Click the explosives at the training pit|QO|5|M|36.6,65.5|NC|
 
@@ -431,8 +436,8 @@ C The Dark Side of the Moon|QID|35093|N|Kill Arkeddon.|M|30.9,43.9|QO|2|
 T The Dark Side of the Moon|QID|35093|N|To Yrel|M|46.4,38.6|
 
 T On the Offensive|QID|33083|N|To Prophet Velen|M|46.4,38.7|
-T Harbingers of the Void|QID|33793|M|35.7,36.9|N|To Prophet Velen|M|46.4,38.7|
-T Across the Stars|QID|33795|M|35.7,36.9|N|To Prophet Velen|M|46.4,38.7|
+T Harbingers of the Void|QID|33793|M|35.7,36.9|N|To Prophet Velen|
+T Across the Stars|QID|33795|M|35.7,36.9|N|To Prophet Velen|
 
 A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.4,38.7|PRE|33794;33083;33793;33795|
 
@@ -503,7 +508,7 @@ C Gloomshade Grove|QID|33263|N|Head into Gloomshade Grotto Gloomshade Grotto|QO|
 C Gloomshade Grove|QID|33263|N|Kill Phlox|QO|10|M|47.1,14.7|
 T Gloomshade Grove|QID|33263|N|To Jarrod Hamby|M|47.1,14.4|
 
-A Game of Thorns|QID|33271|M|47.05,14.83|N|From Jarrod Hamby (or the Skull from the floor)|M|47.1,14.4|PRE|33263|
+A Game of Thorns|QID|33271|M|47.05,14.83|N|From Jarrod Hamby (or the Skull from the floor)|PRE|33263|
 A Prune the Podlings|QID|34806|M|47.05,14.39|N|From Ryan Metcalf.|PRE|33263|
 A Captured Critters|QID|33331|M|46.26,15.91|N|From a Captured Critter just ouside the cave.|PRE|33263|
 
@@ -511,7 +516,7 @@ C Prune the Podlings|QID|34806|M|47.05,14.39|N|Kill Podlings|S|
 C Gloomshade Game Hunter |QID|33461|N|Finish killing and looting Gloomshade Fungi for the Gloomshade Spore.|QO|2|US|M|43.0,18.5|
 C Captured Critters|QID|33331|N|Release Captured Critters|NC|M|43.0,18.5|
 T Captured Critters|QID|33331|N|Auto-Complete|
-C Prune the Podlings|QID|34806|M|47.05,14.39|N|Finish killing Podlings|US|M|43.0,18.5|
+C Prune the Podlings|QID|34806|M|47.05,14.39|N|Finish killing Podlings|US|
 T Prune the Podlings|QID|34806|M|47.05,14.39|N|Auto-Complete|
 
 C Game of Thorns|QID|33271|N|Follow the path up to King Deathbloom, and kill him.|M|37.89,21.07;35.7,19.7|CN|

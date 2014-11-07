@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
+-- Date: 2014-11-08 00:25
+-- Who: Ludovicus
+-- Log: One more N tag
+
+-- URL: http://wow-pro.com/node/3456/revisions/26849/view
 -- Date: 2014-11-07 20:36
 -- Who: Fluclo
 -- Log: Missing N tags
@@ -56,7 +61,7 @@ A Don't Forget The Stuffing!|QID|14062|M|46.37,13.85|Z|Durotar|N|From Ondani Gre
 B Buy Autumnal Herbs|QID|14062|M|46.62,13.79|Z|Durotar|L|44835 20|N|You need 20 Autumnal Herbs from Dalni Tallgrass.|
 B Buy Simple Flour|QID|14062|M|46.62,13.79|Z|Durotar|L|30817 20|N|You need 20 Flour.|
 B Buy Mild Spices|QID|14062|M|46.62,13.79|Z|Durotar|L|2678 20|N|You need 20 Mild Spices.|
-B Buy Tangy Southfury Cranberries|QID|14062|M|46.62,13.79|Z|Durotar|L|46793 20|Buy 20 Cranberries.|
+B Buy Tangy Southfury Cranberries|QID|14062|M|46.62,13.79|Z|Durotar|L|46793 20|N|Buy 20 Cranberries.|
 B Buy Honey|QID|14062|M|46.62,13.79|Z|Durotar|L|44853 20|N|You will need 20 Honeys.|
 l Spice Bread|QID|14062|M|46.44,13.87|Z|Durotar|L|30816 20|N|Cook up 20 Spice Bread.|
 l Spice Bread Stuffing|QID|14062|M|46.44,13.87|Z|Durotar|L|44837 20|N|Cook up 20 Spice Bread Stuffing.|

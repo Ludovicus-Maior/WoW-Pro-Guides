@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_pet_battle_dailies
+-- Date: 2014-11-08 00:28
+-- Who: Emmaleah
+-- Log: change QO|text to QO|# on the beasts of fable quests. and pondered why I can see the changes Fluclo made today when I look at show diff, but not in the text --- odd.
+
+-- URL: http://wow-pro.com/node/3545/revisions/26842/view
 -- Date: 2014-11-07 20:24
 -- Who: Fluclo
 -- Log: Fixed duplicate N and Z tags
@@ -44,7 +49,6 @@ WoWPro.Dailies:GuideNameAndCategory(guide,"Pet Battle Dailies")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Work In Process Disclaimer|QID|31909|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|
 N Dailies Unlocked|QID|32428|N|This guide assumes you have all the dailies unlocked.  It is not listed in the order they unlock, but rather in an order to minimize travel time.|
 N Hearth Stone|QID|31909|N|This guide assumes you have your hearth stone set to Shrine of the Two Moons or Orgrimar.  If that isn't the case, you may not want to hearth when the guide tells you to.|
 N Achievements|QID|31909|N|There are many achievements listed for Battle Pets.  None of them are discussed in this guide.|
@@ -113,7 +117,7 @@ A Grand Master Lydia Accoste|QID|31916|M|40.04,76.45|Z|Deadwind Pass|N|From Gran
 C Grand Master Lydia Accoste|QID|31916|M|40.04,76.45|Z|Deadwind Pass|N|Opponents are level 19 Undead, Elemental and Undead. This means your best choices are Critter, Aquatic and Critter.|
 T Grand Master Lydia Accoste|QID|31916|M|40.04,76.45|Z|Deadwind Pass|N|To Grand Master Lydia Accoste.|
 
-R Dark Portal|QID|31922|M|54.97,53.89|Z|Blasted Lands|U|89125|N|And its off to Outlands, Dark Portalin any city or Portal to Shattrath from Valley of the Two Moons. Open your treasure bag while you are flying.||
+R Dark Portal|QID|31922|M|54.97,53.89|Z|Blasted Lands|U|89125|N|And its off to Outlands, Dark Portalin any city or Portal to Shattrath from Valley of the Two Moons. Open your treasure bag while you are flying.|
 R Hellfire Peninsula|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|
 A Nicki Tinytech|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|N|From Nicki Tinytech.|RANK|2|
 C Nicki Tinytech|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|N|Opponents are level 20 Mechanical, Mechanical and Mechanical. This means your best choices are Elemental, Elemental and Elemental.|RANK|2|
@@ -182,36 +186,36 @@ A Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|From Thund
 C Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|Opponents are level 25 Legendary Beast, Elemental and Critter. This means your best choices are Mechanical, Aquatic and Beast.|
 T Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|To Thundering Pandaren Spirit.|
 R Inkgill Mere|QID|32604|M|67.87,84.71|Z|Kun-Lai Summit|U|93149|N|Open your treasure bag while you are flying.|
-C Dos-Ryga|QID|32604|QO|Dos'Ryga defeated: 0/1|M|67.87,84.71|Z|Kun-Lai Summit|N|Dos-Ryga is an aquatic, so a team of flyers works well.|; this C doesn't work
+C Dos-Ryga|QID|32604|QO|4|M|67.87,84.71|Z|Kun-Lai Summit|N|Dos-Ryga is an aquatic, so a team of flyers works well.|; this C doesn't work
 R Jade Forest|QID|32440|M|28.8,36|Z|The Jade Forest|
 R Exclamation Point|QID|32440|M|28.8,36|Z|The Jade Forest|
 A Whispering Pandaren Spirit|QID|32440|M|28.8,36|Z|The Jade Forest|N|From Whispering Pandaren Spirit.|
 C Whispering Pandaren Spirit|QID|32440|M|28.8,36|Z|The Jade Forest|N|Opponents are level 25 Legendary (orange) Critter, Elemental and Dragonkin. This means your best choices are Beast, Aquatic and Humanoid.|
 T Whispering Pandaren Spirit|QID|32440|M|28.8,36|Z|The Jade Forest|N|To Whispering Pandaren Spirit.|
 R Jade Forest|QID|32604|M|57.04,29.12|Z|The Jade Forest|U|93148|N|Open your treasure bag while you are flying. Your destination is somewhat near The Arboretum.|
-C Nitum|QID|32604|QO|Nitum defeated: 0/1|M|57.04,29.12|Z|The Jade Forest|N|Nitum is a critter so beast type pets/abilities work best on him.|
+C Nitum|QID|32604|QO|2|M|57.04,29.12|Z|The Jade Forest|N|Nitum is a critter so beast type pets/abilities work best on him.|
 A Grand Master Hyuna|QID|31953|M|48,54|Z|The Jade Forest|N|Hyuna is somewhat near Dawn's Blossom.|
 C Grand Master Hyuna|QID|31953|M|48,54|Z|The Jade Forest|N|Opponents are level 25 Epic Aquatic, Beast and Flying. This means your best choices are Flying, Mechanical and Magic.|
 T Grand Master Hyuna|QID|31953|M|48,54|Z|The Jade Forest|N|To Hyuna of the Shrines.|
 R Fox Grove|QID|32604|M|48.42,70.96|Z|The Jade Forest|U|89125|N|Open your treasure bag while you are flying.|
-C Ku'wi the Gorger|QID|32604|QO|Ku'wi the Gorger defeated: 0/1|M|48.42,70.96|Z|The Jade Forest|N|Ka'wi is a critter so beast type pets/abilities work best on him.|
+C Ka'wi the Gorger|QID|32604|QO|1|M|48.42,70.96|Z|The Jade Forest|N|Ka'wi is a critter so beast type pets/abilities work best on him.|
 R Krasarang Wilds|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|
 R Narsong Spires|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|
 A Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|From Mo'ruk.|
 C Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|Opponents are level 25 Epic Flying, Aquatic and Beast. This means your best choices are Magic, Flying and Mechanical.|
 T Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|To Mo'ruk. Open your treasure bag while you are flying.|U|89125|
 R Krasari Falls|QID|32868|M|36.23,37.34|M|62.2,45.8|Z|Krasarang Wilds|
-C Skitterer Xi'a|QID|32868|QO|Skitterer Xi'a defeated: 0/1|N|Xi'a is an aquatic so flying creatures/abilites are superior.|;no QO didnt autocomple
+C Skitterer Xi'a|QID|32868|QO|3|N|Xi'a is an aquatic so flying creatures/abilites are superior.|;no QO didnt autocomple
 R Valley of the Four Winds|QID|32868|M|25.29, 78.54|Z|Valley of the Four Winds|
 R The Wild Plains|QID|32868|M|25.29, 78.54|Z|Valley of the Four Winds|
-C Greyhoof|QID|32868|QO|Greyhoof defeated: 0/1|M|25.29, 78.54|Z|Valley of the Four Winds|N|Greyhoof is a beast so mechanical pets and abililites are superior.|
+C Greyhoof|QID|32868|QO|2|M|25.29, 78.54|Z|Valley of the Four Winds|N|Greyhoof is a beast so mechanical pets and abililites are superior.|
 R Dread Wastes|QID|32439|M|61.2,87.6|Z|Dread Wastes|
 R Lonesome Cove|QID|32439|M|61.2,87.6|Z|Dread Wastes|
 A Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|From Flowing Pandaren Spirit.|
 C Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|Opponents are level 25 Legendary Aquatic, Elemental and Critter. This means your best choices are Flying, Aquatic and Beast.|
 T Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|To Flowing Pandaren Spirit.|
 R Venomous Ledge|QID|32869|M|26.18,50.27|Z|Dread Wastes|U|93147|N|Open your treasure bag while you are flying.|
-C Gorespine|QID|32869|QO|Gorespine defeated: 0/1|M|26.18,50.27|Z|Dread Wastes|N|Gorespine is a beast so mechanical pets and abilities work best.|
+C Gorespine|QID|32869|QO|3|M|26.18,50.27|Z|Dread Wastes|N|Gorespine is a beast so mechanical pets and abilities work best.|
 R Townlong Steppes|QID|31991|M|36.2,52.2|Z|Townlong Steppes|
 R Fields of Niuzao|QID|31991|M|36.2,52.2|Z|Townlong Steppes|
 A Grand Master Zusshi|QID|31991|M|36.2,52.2|Z|Townlong Steppes|N|From Seeker Zusshi.|
@@ -223,13 +227,13 @@ C Burning Pandaren Spirit|QID|32434|M|57,42.2|Z|Townlong Steppes|N|Opponents are
 T Burning Pandaren Spirit|QID|32434|M|57,42.2|Z|Townlong Steppes|N|To Burning Pandaren Spirit.|
 R Kun-Lai Summit|QID|32604|M|35.18, 56.17|Z|Kun-Lai Summit|U|93146|N|Open your treasure bag while you are flying.|
 R Winter's Blossom|QID|32604|M|35.18, 56.17|Z|Kun-Lai Summit|N|You are headed to the cliff's above Winter's Blossom.|
-C Kafi|QID|32604|M|35.18, 56.17|Z|Kun-Lai Summit|N|Kafi is a beast so mechanical pets and abililites are superior.|
+C Kafi|QID|32604|QO|3|M|35.18, 56.17|Z|Kun-Lai Summit|N|Kafi is a beast so mechanical pets and abililites are superior.|
 R Kota Peak|QID|31956|M|35.84,74.23|Z|Kun-Lai Summit|N|If you land on the dot, there should be a small cave just north of you.|
 A Grand Master Yon|QID|31956|M|35.8,73.6|Z|Kun-Lai Summit|N|From Courageous Yon.|
 C Grand Master Yon|QID|31956|M|35.8,73.6|Z|Kun-Lai Summit|N|Opponents are level 25 Epic Beast, Critter and Flying. This means your best choices are Mechanical, Beast and Magic.|
 T Grand Master Yon|QID|31956|M|35.8,73.6|Z|Kun-Lai Summit|N|To Courageous Yon.|
 R Townlong Steppes|QID|32868|M|72.26,79.78|Z|Townlong Steppes|U|89125|N|Open your treasure bag while you are flying. Ti'un is  just south of Upper Sumprushes in the area between Ambermarsh and Gao-Ran Battlefront.|
-C Ti'un the Wanderer|QID|32868|QO|Ti'un the Wanderer defeated: 0/1|M|72.26,79.78|Z|Townlong Steppes|N|Ti'un is an  aquatic so flying creatures and abilites are superior.|
+C Ti'un the Wanderer|QID|32868|QO|2|M|72.26,79.78|Z|Townlong Steppes|N|Ti'un is an  aquatic so flying creatures and abilites are superior.|
 R Dread Wastes|QID|31957|M|55,37.6|Z|Dread Wastes|
 R Klaxxi'vess|QID|31957|M|55,37.6|Z|Dread Wastes|N|From Wastewalker Shu.|
 A Grand Master Shu|QID|31957|M|55,37.6|Z|Dread Wastes|N|From Wastewalker Shu.|
@@ -237,10 +241,10 @@ C Grand Master Shu|QID|31957|M|55,37.6|Z|Dread Wastes|N|Opponents are level 25 E
 T Grand Master Shu|QID|31957|M|55,37.6|Z|Dread Wastes|N|To Wastewalker Shu.|
 R Vale of Eternal Blossoms|QID|32869|M|11,70.86|Z|Vale of Eternal Blossoms|U|89125|N|Open your treasure bag while you are flying.|
 R Gate of the Setting Sun|QID|32869|M|11,70.86|Z|Vale of Eternal Blossoms|
-C No-No|QID|32869|M|11,70.86|Z|Vale of Eternal Blossoms|N|No-No is an  aquatic so flying creatures/abilites are superior.|
+C No-No|QID|32869|QO|1|M|11,70.86|Z|Vale of Eternal Blossoms|N|No-No is an  aquatic so flying creatures/abilites are superior.|
 R Valley of the Four Winds|QID|32868|M|40.54,43.67|Z|Valley of the Four Winds|
 R The Heartland|QID|32868|M|40.54,43.67|Z|Valley of the Four Winds|
-C Lucky Yi|QID|32868|M|40.54,43.67|Z|Valley of the Four Winds|N|Lucky Yi is a critter so beast type pets/abilities work best on him.|
+C Lucky Yi|QID|32868|QO|1|M|40.54,43.67|Z|Valley of the Four Winds|N|Lucky Yi is a critter so beast type pets/abilities work best on him.|
 A Grand Master Nishi|QID|31955|M|46,43.6|Z|Valley of the Four Winds|N|From Farmer Nishi.|
 C Grand Master Nishi|QID|31955|M|46,43.6|Z|Valley of the Four Winds|N|Opponents are level 25 Epic Beast, Elemental and Elemental. This means your best choices are Mechanical, Aquatic and Aquatic.|
 T Grand Master Nishi|QID|31955|M|46,43.6|Z|Valley of the Four Winds|N|To Farmer Nishi.|
