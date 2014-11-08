@@ -622,6 +622,10 @@ DefineTerrainFloor(7, 7, 941,5,"Hunter's Hall", "Frostfire Ridge")
 DefineTerrainFloor(7, 7, 941,7,"Grulloc's Lair", "Frostfire Ridge")
 DefineTerrainFloor(7, 4, 949,17,"Moira's Bastion", "Gorgrond")
 DefineTerrainFloor(7, 4, 949,19,"Heart of Fury", "Gorgrond")
+DefineDungeonArea( 321,3,"The Imperial Exchange@Shrine of Seven Stars","Shrine of Seven Stars","Shrine of Seven Stars")
+DefineDungeonArea( 811,4,"The Emperor's Step@Shrine of Seven Stars","Shrine of Seven Stars","Shrine of Seven Stars")
+DefineDungeonArea( 321,3,"The Imperial Mercantile@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
+DefineDungeonArea( 811,4,"Hall of the Crescent Moon@Shrine of Two Moons","Shrine of Two Moons","Shrine of Two Moons")
 
 
 local MapsSeen = {}
