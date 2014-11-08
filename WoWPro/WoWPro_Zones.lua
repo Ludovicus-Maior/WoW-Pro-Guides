@@ -605,20 +605,23 @@ DefineTerrain(7, 7, 941,0,"Frostfire Ridge")
 DefineTerrain(7, 8, 978,0,"Ashran")
 
 -- Manual overrides
-DefineInstance( 976,0,"Frostwall")
 DefineInstance( 971,0,"Lunarfall")
-DefineTerrainFloor(7, 7, 941,1,"Floor1@Bladespire Fortress", "Frostfire Ridge")
-DefineTerrainFloor(7, 7, 941,2,"Floor2@Bladespire Fortress", "Frostfire Ridge")
-DefineTerrainFloor(7, 7, 941,3,"Floor3@Bladespire Fortress", "Frostfire Ridge")
-DefineTerrainFloor(7, 7, 941,4,"Floor4@Bladespire Fortress", "Frostfire Ridge")
-DefineTerrainFloor(7, 7, 941,8,"Grulloc's Lair", "Frostfire Ridge")
+DefineInstance( 976,0,"Frostwall")
+DefineInstance(1009,0,"Stormshield")
 DefineInstance(1011,0,"Warspear")
 DefineTerrain(2,50, 614,0,"Abyssal Depths")
 DefineTerrain(2,51, 615,0,"Shimmering Expanse")
 DefineTerrain(2,51, 610,0,"Kelp'thar Forest")
-DefineTerrainFloor(7, 2, 970,1,"Umbral Halls", "TanaanJungleIntro")
 DefineTerrain(3, 9, 477,0,"Nagrand")
-
+DefineTerrainFloor(7, 2, 970,1,"Umbral Halls", "TanaanJungleIntro")
+DefineTerrainFloor(7, 7, 941,1,"Bladespire Citadel", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 941,2,"Bladespire Courtyard", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 941,3,"Bladespire Throne", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 941,4,"Sootstained Mine", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 941,5,"Hunter's Hall", "Frostfire Ridge")
+DefineTerrainFloor(7, 7, 941,7,"Grulloc's Lair", "Frostfire Ridge")
+DefineTerrainFloor(7, 4, 949,17,"Moira's Bastion", "Gorgrond")
+DefineTerrainFloor(7, 4, 949,19,"Heart of Fury", "Gorgrond")
 
 
 local MapsSeen = {}

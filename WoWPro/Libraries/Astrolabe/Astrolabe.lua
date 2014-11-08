@@ -1642,13 +1642,16 @@ Astrolabe.WorldMapSize = WorldMapSize
 Astrolabe.MicroDungeonSize = MicroDungeonSize
 Astrolabe.zeroData = zeroData
 
+WorldMapSize[27][10] = { xOffset =  -500.500000, height = 380.000000, yOffset =  5242.000000, width = 570.000000 , __index = zeroDataFunc };
+WorldMapSize[857][1] = { xOffset =   994.375000, height = 175.000000, yOffset =   750.000000, width = 262.500000 , __index = zeroDataFunc };
+WorldMapSize[857][2] = { xOffset =  1135.469971, height = 335.000732, yOffset =   885.000366, width = 502.500977 , __index = zeroDataFunc };
+WorldMapSize[857][3] = { xOffset =  1009.369995, height = 141.666016, yOffset =   763.333008, width = 212.499023 , __index = zeroDataFunc };
 WorldMapSize[941][1] = { xOffset = -5437.495117, height = 483.339844, yOffset = -6523.330078, width = 725.009766 , __index = zeroDataFunc };
 WorldMapSize[941][2] = { xOffset = -5479.995117, height = 423.339844, yOffset = -6537.330078, width = 635.009766 , __index = zeroDataFunc };
 WorldMapSize[941][3] = { xOffset = -5645.000000, height = 240.000000, yOffset = -6710.000000, width = 360.000000 , __index = zeroDataFunc };
 WorldMapSize[941][4] = { xOffset = -5516.000000, height = 410.000000, yOffset = -6540.000000, width = 615.000000 , __index = zeroDataFunc };
-WorldMapSize[941][8] = { xOffset = -4147.500000, height = 550.000000, yOffset = -6650.000000, width = 825.000000 , __index = zeroDataFunc };
-WorldMapSize[27][10] = { xOffset =  -500.500000, height = 380.000000, yOffset =  5242.000000, width = 570.000000 , __index = zeroDataFunc };
-WorldMapSize[970][1] = { xOffset =  2720.379883, height = 303.172852, yOffset = -4359.998585, width = 454.759766 , __index = zeroDataFunc };
-WorldMapSize[857][3] = { xOffset =  1009.369995, height = 141.666016, yOffset =   763.333008, width = 212.499023 , __index = zeroDataFunc };
-WorldMapSize[857][2] = { xOffset =  1135.469971, height = 335.000732, yOffset =   885.000366, width = 502.500977 , __index = zeroDataFunc };
-WorldMapSize[857][1] = { xOffset =   994.375000, height = 175.000000, yOffset =   750.000000, width = 262.500000 , __index = zeroDataFunc };
+WorldMapSize[941][5] = { xOffset = -3296.250000, height = 295.000000, yOffset = -5475.000000, width = 442.500000 , __index = zeroDataFunc };
+WorldMapSize[941][7] = { xOffset = -4147.500000, height = 550.000000, yOffset = -6650.000000, width = 825.000000 , __index = zeroDataFunc };
+WorldMapSize[949][17] = { xOffset = -1013.75000, height = 165.000000, yOffset = -4330.000000, width = 247.500000 , __index = zeroDataFunc };
+WorldMapSize[949][19] = { xOffset = -1375.75000, height = 265.000000, yOffset = -6950.000000, width = 397.500000 , __index = zeroDataFunc };
+WorldMapSize[970][1] = { xOffset =  2720.379883, height = 303.172852, yOffset = -4359.998535, width = 454.759766 , __index = zeroDataFunc };
