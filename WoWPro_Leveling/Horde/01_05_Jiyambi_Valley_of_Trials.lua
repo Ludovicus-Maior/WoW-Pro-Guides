@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-08 07:18
+-- Who: Emmaleah
+-- Log: Delete Dup PRE tag A A rough start (monk)
+
+-- URL: http://wow-pro.com/node/3199/revisions/26930/view
+-- Date: 2014-11-08 06:56
+-- Who: Emmaleah
+-- Log: Remove several Dup PRE tags and one Dup S
+
+-- URL: http://wow-pro.com/node/3199/revisions/26830/view
 -- Date: 2014-11-06 16:37
 -- Who: Fluclo
 -- Log: consistency typo (Should be From, not To)
@@ -264,14 +274,6 @@
 
 -- URL: http://wow-pro.com/node/3199/revisions/23574/view
 -- Date: 2010-12-04 19:06
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3199/revisions/23573/view
--- Date: 2010-12-04 19:05
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3199/revisions/23337/view
--- Date: 2010-12-03 10:30
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Durotar (Orc)', 'Jiyambi', 'Horde')

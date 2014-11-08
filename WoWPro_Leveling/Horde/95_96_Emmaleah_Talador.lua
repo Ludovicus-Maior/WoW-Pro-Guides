@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2014-11-08 03:44
+-- Who: Emmaleah
+-- Log: corrections per list o' errors
+
+-- URL: http://wow-pro.com/node/3598/revisions/26787/view
 -- Date: 2014-11-04 03:32
 -- Who: Emmaleah
 -- Log: Updated with more |T| and R steps primarily, but a lot of small stuff too.
@@ -67,7 +72,7 @@ A Going to the Gordunni|QID|34837|PRE|34576;34577;34579|M|70.89,30.50|N|From Mor
 t An Audience With the Archmage|QID|34632|M|75,31.2|N|To Archmage Khadgar.|
 A Making Acquaintances|QID|34814|PRE|34632|M|75,31.2|N|From Archmage Khadgar.|
 C Making Acquaintances|QID|34814|M|80.67,26.12|NC|N|Khadgar will transform into a bird and fly off, follow him to his portal to Zangarra and then use it.|
-f Zangarra|QID|34814|M|80.42,25.32|N|At Dominic Arlington.|ACTIVE|34814|N|I try to never pass up a flight path, but you can just as easily get this one on the way out if you missed it.|
+f Zangarra|QID|34814|M|80.42,25.32|ACTIVE|34814|N|At Dominic Arlington. I try to never pass up a flight path, but you can just as easily get this one on the way out if you missed it.|
 T Making Acquaintances|QID|34814|M|84.19,30.29|N|To Magister Krelas.|
 A Creating the Ink|QID|34634|PRE|34814|M|84.19,30.29|N|From Magister Krelas.|
 A Forming the Scroll|QID|34635|PRE|34814|M|84.19,30.29|N|From Magister Krelas.|
@@ -151,8 +156,8 @@ C An Eye for a Spy|QID|33728|NC|M|55.76,41.07|N|Use Gazlowe's contraption again.
 T An Eye for a Spy|QID|33728|M|55.68,41.16|N|To Gazlowe.|
 A Born to Shred|QID|33729|M|55.68,41.16|N|From Gazlowe.|
 
-C Born to Shred|QID|33729|M|55.4,41.13|NC|Q0|1|N|Get in the shredder and run over to Tuurem.|
-C Born to Shred|QID|33729|M|56.06,37.75;58.54,38.09|CS|NC|Q0|2|N|When you get there use the abilities (1) for single target and (2) a ranged damage that makes you jump on a group of them and smash them.|
+C Born to Shred|QID|33729|M|55.4,41.13|NC|QO|1|N|Get in the shredder and run over to Tuurem.|
+C Born to Shred|QID|33729|M|56.06,37.75;58.54,38.09|CS|NC|QO|2|N|When you get there use the abilities (1) for single target and (2) a ranged damage that makes you jump on a group of them and smash them.|
 T Born to Shred|QID|33729|M|60.07,40.65|N|To your Iron Shredder Prototype.|
 A Engineering her Demise|QID|33730|M|60.07,40.65|N|From your Iron Shredder Prototype.|
 C Engineering her Demise|QID|33730|M|61.06,38.75|T|Ketya Shrediron|
@@ -185,7 +190,7 @@ C Pieces of Us|QID|33734|NC|QO|2|M|77.92,42.97|
 C Pieces of Us|QID|33734|NC|QO|1|M|77.53,41.24|N|After you find this follow the mine cart tracks to the cave to see what the draenei found.|
 
 C Burning Sky|QID|33740|M|78.13,36.50|US|
-C Barum's Notes|QID|33761|NC|US|M|78.13,36.50|US|
+C Barum's Notes|QID|33761|NC|US|M|78.13,36.50|
 C What the Draenei Found|QID|33579|NC|M|81.22,37.57;82.69,37.87|CS|N|Into the cave and thru the first small room.  Go to the right in the larger room and then cross the stone bridge. (you can't walk on the mining cart tracks.)  Examine (click) the color changing crystal.|
 T What the Draenei Found|QID|33579|M|82.64,37.78|N|To Raksi.|
 A The Purge of Veil Shadar|QID|33580|M|70.50,56.85|N|From Shadow-Sage Iskar.|
@@ -211,7 +216,7 @@ C The Purge of Veil Shadar|QID|33580|CHAT|S|M|75.49,65.49|
 C Forbidden Knowledge|QID|33581|NC|S|M|74.52,66.93|N|These are pinkish glowing books on the ground.|
 C Kura's Vengeance|QID|33582|M|80.39,64.03|T|Wing-Guard Kuuan|
 C The Purge of Veil Shadar|QID|33580|CHAT|US|M|75.49,65.49|
-C Forbidden Knowledge|QID|33581|NC|US|M|74.52,66.93|These are pinkish glowing books on the ground.|
+C Forbidden Knowledge|QID|33581|NC|US|M|74.52,66.93|N|These are pinkish glowing books on the ground.|
 T The Purge of Veil Shadar|QID|33580|M|70.63,57.40|N|To Shadow-Sage Iskar.|
 T Forbidden Knowledge|QID|33581|M|70.51,57.34|N|To Darkscryer Raastok.|
 T Kura's Vengeance|QID|33582|M|70.77,56.78|N|To Kura the Blind.|
@@ -263,7 +268,7 @@ C Orbs of Power|QID|34889|M|70.20,72.36|NC|S|N|Click on the Orbs to destroy them
 C Vicious Viziers|QID|34888|QO|1|M|68.53,82.89|T|Vizier Vorgorsh|
 C Vicious Viziers|QID|34888|QO|2|M|67.01,76.98|T|Vizier Zulmork|
 C Vicious Viziers|QID|34888|QO|3|M|66.23,81.04|T|Vizier Cromaug|
-C While We're in the Neighborhood|QID|34887|M|66.3,81.04|US|Finish collecting any needed runebeads.|
+C While We're in the Neighborhood|QID|34887|M|66.3,81.04|US|N|Finish collecting any needed runebeads.|
 C Orbs of Power|QID|34889|M|66.51,80.21|NC|US|N|Click on the Orbs to destroy them.|
 T Vicious Viziers|QID|34888|M|66.23,81.04|N|To Magister Krelas.|
 T While We're in the Neighborhood|QID|34887|M|66.23,81.04|N|To Magister Krelas.|

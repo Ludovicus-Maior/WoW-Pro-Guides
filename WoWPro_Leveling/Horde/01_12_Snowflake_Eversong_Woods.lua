@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2014-11-08 07:07
+-- Who: Emmaleah
+-- Log: fixed items per list o' errors
+
+-- URL: http://wow-pro.com/node/3207/revisions/26482/view
 -- Date: 2014-06-02 22:16
 -- Who: Ludovicus
 -- Log: Added BloodElf icons
@@ -222,7 +227,7 @@ C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent,
 C Solonaian's Journal |QID|8330|R|BloodElf|N|Get Solonaian's Journal, near the big green crystal. |M|37.70,24.90|NC|QO|Solanian's Journal: 1/1|
 C Thirst Unending |QID|8346|R|BloodElf|N|Use your racial talent, Arcane Torrent, on a Mana Wyrm. |M|37.50,23.90|US|
 C Unfortunate Measures |QID|8326|R|BloodElf|N|Finish killing and looting Springpaw Lynxs and Cubs for the Lynx collars. |M|36.00,24.00|US|
-T Thirst Unending |QID|8346|R|BloodElf|M|37.2,18.9|N|To Arcanist Helion.|M|37.20,18.95|
+T Thirst Unending |QID|8346|R|BloodElf|N|To Arcanist Helion.|M|37.20,18.95|
 R Empty your bags|QID|8326|R|BloodElf|N|You may want to empty your bags before venturing further. \nSell unwanted items to Jainthess Thelryn beside you.|
 T Unfortunate Measures |QID|8326|R|BloodElf|M|38,21|N|To Magistrix Erona.|
 
@@ -276,7 +281,7 @@ A Aggression |QID|8334|R|BloodElf|N|From Lanthan Perilon.|M|35.4,22.5|
 C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you kill the Feral Tenders, loot the Arcane Slivers from them.|M|37.50,23.90|S|
 C Aggression |QID|8334|R|BloodElf|S|N|Kill any Tender and Feral Tender you see.|
 C Solanian's Scrying Orb |QID|8330|R|BloodElf|N|Get Solonaian's Scrying Orb from the lake's platform, to the south of Sunstrider Isle. |M|35.13,28.91|QO|Solanian's Scrying Orb: 1/1|NC|
-C Solanian's Belongings|QID|8330|R|BloodElf|N|Get the Scroll of Scourge Magic, which is northwest.|M|31.34,22.75|NC|QO|Scroll of Scourge Magic: 1/1|NC|
+C Solanian's Belongings|QID|8330|R|BloodElf|N|Get the Scroll of Scourge Magic, which is northwest.|M|31.34,22.75|NC|QO|Scroll of Scourge Magic: 1/1|
 C The Shrine of Dath'Remar |QID|8345|R|BloodElf|N|Go to the far north-west of the island until you reach the Shrine of Dath'Remar. Click on it to read the plaque.|M|29.7,19.5|NC|
 C Aggression |QID|8334|R|BloodElf|US|N|Finish killing the Feral Tenders and Tenders you need.|
 C A Fistful of Slivers |QID|8336|R|BloodElf|N|As you head back to the Sunspire, finish collecting the Slivers from the Mana Wyrms and Feral Tenders|M|37.50,23.90|US|
@@ -306,8 +311,8 @@ T Aiding the Outrunners |QID|8347|R|BloodElf|N|To Outrunner Alarion.|M|40.4,32.2
 A Slain by the Wretched |QID|9704|N|From Outrunner Alarion.|M|40.4,32.2|R|BloodElf|
 
 ;The next four quests are for non BloodElfs wishing to do Eversong Woods.
-L Level 5 |QID|9704|LVL|5|N|Please finish the starting quests in your own class area as the starting quests on Sunstrider Isle are not available to your race.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
-R Eversong Woods|QID|9704|M|56.65,49.67|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
+L Level 5 |QID|9704|LVL|5|N|Please finish the starting quests in your own racial area as the starting quests on Sunstrider Isle are not available to your race.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
+R Eversong Woods|QID|9704|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 A Slain by the Wretched |QID|9704|M|40.4,32.2|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 
@@ -324,9 +329,9 @@ A Unstable Mana Crystals |QID|8463|N|From Aeldon Sunbrand, back outside of the i
 A Wanted: Thaelis the Hungerer |QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|M|48.2,46.3|
 A Major Malfunction |QID|8472|N|From Magister Jaronis.|M|47.3,46.3|
 C Major Malfunction |QID|8472|N|Kill and loot Arcane Patrollers for the Arcane Cores.|M|45,40.5|S|
-C Unstable Mana Crystals |QID|8463|M|48.2,46.0|S|N|Look for light beams that come out of the boxes.|M|46,42|NC|
+C Unstable Mana Crystals |QID|8463|S|N|Look for light beams that come out of the boxes.|M|46,42|NC|
 C Wanted: Thaelis the Hungerer |QID|8468|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
-C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|M|46,42|N|Look for light beams that come out of the boxes.|NC|
+C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|N|Look for light beams that come out of the boxes.|NC|
 C Major Malfunction |QID|8472|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|M|45,40.5|US|
 ; L Level 6|QID|8472|LVL|6|N|Target point to be Level 6.|
 T Major Malfunction |QID|8472|N|To Magister Jaronis.|M|47.3,46.3|
@@ -490,7 +495,7 @@ T Defending Fairbreeze Village |QID|9252|N|To Ranger Sareyn.|M|46.93,71.79|
 A The Scorched Grove|QID|9258|N|From Ardeyn Riverwind.|M|43.6,71.2|
 T The Party Never Ends |QID|9067|N|To Lord Saltheril.|M|38.1,73.6|
 T The Scorched Grove|QID|9258|M|34,80|N|To Larianna Riverwind. Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
-A A Somber Task|QID|8473|N|From Larianna Riverwind.|M|34,80|N|From Larianna Riverwind.|
+A A Somber Task|QID|8473|N|From Larianna Riverwind.|M|34,80|
 C A Somber Task|QID|8473|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|S|
 K Old Whitebark|QID|8474|M|35.7,85.2|N|Look for Old Whitebark, kill him to loot his amulet.|L|23228|T|Old Whitebark|
 A Old Whitebark's Pendant|QID|8474|U|23228|N|From Old Whitebark's Pendant. Use the pendant, and accept the quest.|

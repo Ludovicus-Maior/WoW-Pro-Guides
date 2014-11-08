@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-08 07:18
+-- Who: Emmaleah
+-- Log: Delete Dup PRE tag A A rough start (monk)
+
+-- URL: http://wow-pro.com/node/3199/revisions/26930/view
+-- Date: 2014-11-08 06:56
+-- Who: Emmaleah
+-- Log: Remove several Dup PRE tags and one Dup S
+
+-- URL: http://wow-pro.com/node/3199/revisions/26830/view
 -- Date: 2014-11-06 16:37
 -- Who: Fluclo
 -- Log: consistency typo (Should be From, not To)
@@ -266,14 +276,6 @@
 -- Date: 2010-12-04 19:06
 -- Who: Jiyambi
 
--- URL: http://wow-pro.com/node/3199/revisions/23573/view
--- Date: 2010-12-04 19:05
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3199/revisions/23337/view
--- Date: 2010-12-03 10:30
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
@@ -288,10 +290,9 @@ C Cleaning Up the Coastline|QID|25170|S|M|59.02,74.41|N|Kill 5 Pygmy Surf Crawle
 C Breaking the Chain|QID|25167|M|52.45,80.60|N|Kill the Northwatch Lugs, and destroy the supply crates they drop.|
 C Cleaning Up the Coastline|QID|25170|US|M|59.02,74.41|N|Kill and loot the Pygmy Surf Crawlers.|
 T Breaking the Chain|QID|25167|M|55.95,74.80|N|To Master Gadrin.|
-A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|PRE|25168|
-
+A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|
 T Cleaning Up the Coastline|QID|25170|M|55.72,75.39|N|To Bom'bay.|
-A Never Trust a Big Barb and a Smile|QID|25165|PRE|25170|M|55.72,75.39|N|From Bom'bay.|PRE|25170|
+A Never Trust a Big Barb and a Smile|QID|25165|PRE|25170|M|55.72,75.39|N|From Bom'bay.|
 A The War of Northwatch Aggression|QID|25169|M|55.46,75.04|N|From Lar Prowltusk.|PRE|25167+25170|
 
 C Never Trust a Big Barb and a Smile|QID|25165|U|52505|M|54.16,75.20|N|Summon the Poison Extraction Totem, then let the Clattering Scorpids cast Envenom near it.|
@@ -305,7 +306,7 @@ T The War of Northwatch Aggression|QID|25169|M|55.35,75.17|N|To Lar Prowltusk.|
 T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|
 
 T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.|
-A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|PRE|25168|
+A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|
 R Razor Hill|QID|25171|M|55.27,74.65|N|Talk to Raider Jhash for ride to Razor Hill.|CHAT|
 T Riding On|QID|25171|M|51.92,43.48|N|To Gar'Thok.|
 
@@ -325,7 +326,7 @@ F Razor Hill|QID|6386|M|49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|Fly back to
 A Exploiting the Situation|QID|25176|M|53.05,43.12|N|From Gail Nozzywig.|
 T Return to Razor Hill|QID|6386|M|50.78,42.85|R|Orc,Tauren,Troll|N|To Grimtak.|
 
-C Northwatch Marines|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Marines|QO|1|S|
+C Northwatch Marines|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Marines|QO|1|
 C Northwatch Sharpshooters|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Sharpshooters|QO|2|S|
 C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Loot the Kul Tiras Treasure scattered around Tiragarde Keep.|NC|S|
 K Lieutenant Palliter|QID|25173|M|59.5,58.2|N|Kill Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|T|Lieutenant Palliter|QO|3|
@@ -337,7 +338,7 @@ T From Bad to Worse|QID|25173|M|51.89,43.52|N|To Gar'Thok.|
 A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|PRE|25173|
 T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 
-A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|PRE|25176|
+A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|
 C Storming the Beaches|QID|25177|S|M|58.96,49.79|N|Kill Foaming Sea Elementals. |
 C Shipwreck Searching|QID|25178|S|M|57.35,44.65|N|Obtain 4 sets of Gnomish Tools.|NC|
 A Loss Reduction|QID|25179|M|57.90,45.10|N|Speak to an Injured Razor Hill Grunt.|CHAT|
@@ -351,7 +352,7 @@ T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
 
 T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|CS|N|To Thonk on top of the guard tower.|
-A Lost in the Floods|QID|25187|PRE|25227|M|49.58,40.16|N|From Thonk.|PRE|25227|
+A Lost in the Floods|QID|25187|PRE|25227|M|49.58,40.16|N|From Thonk.|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass to search for Raggaran.|NC|QO|1|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass again to search for the flooded hut.|NC|QO|2|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass once again to search for Misha.|NC|QO|3|
@@ -402,8 +403,7 @@ T Securing the Lines|QID|835|M|46.41,22.96|N|To Rezlak.|
 H Razor Hill |QID|25232|N|Hearthstone to Razor Hill, or run south through the canyon.|M|51.61,41.65|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar.|
 
-A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|PRE|25232|
-
+A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 R The Dranosh'ar Blockade|QID|25205|M|45.00,14.75|N|Run north through the canyon to The Dranosh'ar Blockade.|
 A The Wolf and The Kodo|QID|25205|M|44.94,14.78|N|From Shin Stonepillar.|
 C Shin Stonepiller|QID|25205|M|55.24,13.99|N|Speak to Shin Stonepiller, ask him to tell his fable.|CHAT|BUFF|73841|

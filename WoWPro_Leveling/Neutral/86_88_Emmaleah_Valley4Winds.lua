@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2014-11-08 02:59
+-- Who: Emmaleah
+-- Log: Corrections per big list o' errors. mostly missing |N|s
+
+-- URL: http://wow-pro.com/node/3485/revisions/26473/view
 -- Date: 2014-06-02 16:38
 -- Who: Ludovicus
 -- Log: Added mean level
@@ -187,9 +192,9 @@ A Back to the Sty|QID|29914|M|75.22,24.05|N|From Liang Thunderfoot.|
 C Adolescent Mushan Shoulder Steak |QID|29913|S|L|75275 4|M|72,29|N|The meat is NOT a 100% drop.|
 C Turtle Meat Scrap |QID|29913|S|L|75276 80|M|67.6,30.1|
 C Pick up Smelly |QID|29914|NC|T|Smelly|L|75273|M|70.5,29.5|
-C Pick up Ling |QID|29914|NC|T|Ling|QO|L|75272|M|66.8,29.0|
+C Pick up Ling |QID|29914|NC|T|Ling|L|75272|M|66.8,29.0|
 C Turtle Meat Scrap |QID|29913|US|L|75276 80|M|67.6,30.1|N|Kill turtles for the scraps.|
-C Pick up Jian |QID|29914|NC|T|Jian|QO|L|75271|M|69.9,24.3|
+C Pick up Jian |QID|29914|NC|T|Jian|L|75271|M|69.9,24.3|
 f Grassy Cline|M|70.8,24.2|N|From Kom of the Mountain Winds.|
 C Adolescent Mushan Shoulder Steak |QID|29913|US|L|75275 4|M|72,29|N|The meat is NOT a 100% drop.|
 
@@ -299,16 +304,16 @@ T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|
 A Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|From Farmer Yoon, after alot of talking.|
 C Get seeds from Merchant Greenfield|QID|30535|L|80295|M|52.88,52.14|CHAT|N|It's a chat option, not a purchase.|
 T Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|To Farmer Yoon.|
-A Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|From Farmer Yoon.|
+A Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|N|From Farmer Yoon.|
 C Tilling and Planting|QID|30254|M|52.02,48.30|NC|U|80302|N|Click the untilled soil to till, then target it and use the seeds.|
-T Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|To Farmer Yoon.|
-A Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|From Farmer Yoon.|
+T Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|N|To Farmer Yoon.|
+A Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|N|From Farmer Yoon.|
 C Watering Crops|QID|30255|M|52.02,48.30|NC|U|79104|N|Face towards the plants and use the watering can.|
-T Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|To Farmer Yoon.|
-A Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|From Farmer Yoon.|
+T Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|N|To Farmer Yoon.|
+A Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|N|From Farmer Yoon.|
 C Harvest the cabbage|QID|30256|M|52.02,48.30|NC|N|Click on the cabbages.|
-T Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|To Farmer Yoon.|
-A Learn and Grow V: Halfhill Market|QID|30257|M|52.25,48.79|From Farmer Yoon.|
+T Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|N|To Farmer Yoon.|
+A Learn and Grow V: Halfhill Market|QID|30257|M|52.25,48.79|N|From Farmer Yoon.|
 C Presentation is everything!|QID|30257|M|52.75,48.07|NC|N|Pick a flower for Gina and deliver your produce to market.|
 T Learn and Grow V: Halfhill Market|QID|30257|M|53.16,51.79|N|To Gina Mudclaw, if you plan to continue with farming grab and do the follow-up, but it is not included in the guide. You can farm a limited number and type of plants pre level 90.|
 
@@ -321,7 +326,7 @@ K Kill Kracor |QID|32045|T|Kracor|QO|Kracor slain: 1/1|M|55.9,33.9|; Gilded Fan
 K Kill Thundergill |QID|32045|T|Thundergill|QO|Thundergill slain: 1/1|M|55.1,25.9|; Gilded Fan
 K Kill Succula |QID|32045|T|Succula|QO|Succula slain: 1/1|M|51.4,26.9|; The Heartland
 K Kill Manglemaw|QID|30275|T|Manglemaw|M|54.49,25.81|L|79238|N|Killing the cute baby croc gets mom's attention, Kill her too and loot the quest item.|
-A A Crocolisk Tale|QID|30275|54.49,25.81|N|From Enormous Crocolisk Tail.|
+A A Crocolisk Tale|QID|30275|M|54.49,25.81|N|From Enormous Crocolisk Tail.|
 C The Great Water Hunt|QID|30051|US|NC|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|
 T The Great Water Hunt|QID|30051|M|53.32,32.16|N|To Mudmug, who is right next to you!|
 A Barreling Along|QID|30172|M|53.32,32.16|N|From Mudmug. He will tag along until we next go the Halfhill.|
@@ -444,7 +449,7 @@ C Parental Mastery|QID|30186|M|24.59,74.27|N|Follow the Nesingwary's into the un
 T Parental Mastery|QID|30186|M|16.01,82.49|N|To Hemet Nesingwary back at the campsite.|
 r Restock/No Repair|QID|29872|M|16.14,82.91|N|At Steven Walker.|
 
-R Stoneplow|QID|29872|M|20.23,58.52|CC|Ride cross-country towards the next green dot.|
+R Stoneplow|QID|29872|M|20.23,58.52|CC|N|Ride cross-country towards the next green dot.|
 f Stoneplow|M|20.23,58.52|N|From "Dragonwing"Dan.|
 T Lin Tenderpaw|QID|29872|M|19.87,56.92|N|To Lin Tenderpaw.|
 A Stemming the Swarm|QID|29981|M|19.87,56.92|N|From Lin Tenderpaw.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
+-- Date: 2014-11-08 06:24
+-- Who: Emmaleah
+-- Log: Delete Dup M on It's You, Add Pandaren to Akiris by the Bundle
+
+-- URL: http://wow-pro.com/node/3238/revisions/26487/view
 -- Date: 2014-06-04 20:09
 -- Who: Ludovicus
 -- Log: Adj maxlevel
@@ -86,14 +91,14 @@ A The Holy Water of Clarity|QID|26433;26590|M|33.73,29.16|N|From Flem Gizzix.|
 h Hardwrench Hideaway|QID|26433|M|35.07,27.20|N|At Innkeeper Draxle.|
 
 C It's You!!|QID|26489|R|Goblin|S|QO|Akiris Reed: 0/6|
-C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead|S|QO|Akiris Reed: 0/6|
+C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|S|QO|Akiris Reed: 0/6|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|S|
 C The Holy Water of Clarity|QID|26433;26590|M|43.84,49.10|N|Work your way up the winding paths of the naga hills.|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|US|M|42.56,50.32|
-C It's You!!|QID|26489|R|Goblin|M|34.76,29.54|US|M|39.18,48.93|
-C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead|US|M|39.18,48.93|
-T It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|To Sassy Hardwrench.|
-T Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead|M|34.65,29.48|N|To Sassy Hardwrench.|
+C It's You!!|QID|26489|R|Goblin|US|M|39.18,48.93|
+C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|US|M|39.18,48.93|
+t It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|To Sassy Hardwrench.|
+t Akiris by the Bundle|QID|26487|M|34.65,29.48|N|To Sassy Hardwrench.|
 T If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.65,29.48|N|To Sassy Hardwrench.|
 A There's Somebody Out There Who Wants It|QID|26493|M|34.70,29.33|N|From Sassy Hardwrench.|
 T The Holy Water of Clarity|QID|26433|M|33.78,29.16|N|To Flem Gizzix.|

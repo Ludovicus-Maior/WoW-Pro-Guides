@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2014-11-08 03:53
+-- Who: Emmaleah
+-- Log: corrections per list o' errors
+
+-- URL: http://wow-pro.com/node/3599/revisions/26772/view
 -- Date: 2014-11-02 10:03
 -- Who: Emmaleah
 -- Log: I appear to have had a minor copy/paste error with the Moira's Rise Section. all better.
@@ -269,7 +274,7 @@ T Plant Pruning|QID|33689|M|51.29,48.02|N|To Rakthoth.|
 T Ambassador to the Ancient|QID|33685|M|51.29,48.02|N|To Rakthoth.|
 A Beatface vs. Boulder|QID|33662|M|51.29,48.02|N|From Rakthoth.|PRE|35880|
 A Shredder vs. Saberon|QID|33663|M|51.29,48.02|N|From Rakthoth.|PRE|36474|
-C Beatface vs. Boulder|QID|33662|M|50.4,49.3;49.9,50.9;50.61,57.45|CS|NC|Click on the boulders and Beatface will take care of them.|
+C Beatface vs. Boulder|QID|33662|M|50.4,49.3;49.9,50.9;50.61,57.45|CS|NC|N|Click on the boulders and Beatface will take care of them.|
 C Shredder vs. Saberon|QID|33663|M|51.97,45.84;52.62,47.53;52.22,48.62|CS|NC|N|Click on the vines and your shredder will take care of them.|
 T Beatface vs. Boulder|QID|33662|M|50.9,51.4|N|To Rakthoth.|
 T Shredder vs. Saberon|QID|33663|M|58.29,48.08|N|To Rakthoth.|
@@ -306,7 +311,7 @@ A Krav'ogra|QID|34702|M|42.69,63.09|N|From Beatface.|PRE|34697|
 A Need More Teeth|QID|34012|M|41.41,66.11|N|From Prowler Sasha.|ACTIVE|34698|
 C Need More Teeth|QID|34012|M|39.8,67.8|S|N|Kill the ogres and loot thier teeth as you travel thru the camp.|
 C Slave Hunters|QID|34698|QO|2|M|41.2,66.3|N|Go up the ramp right beside Prowler Sasha.|T|Slave Hunter Krag|
-C Getting Gladiators|QID|34699|QO|3|M|40.1,64.8|NC|Bruto is sitting against the wall inside this building. Click on his shackle to free him.|
+C Getting Gladiators|QID|34699|QO|3|M|40.1,64.8|NC|N|Bruto is sitting against the wall inside this building. Click on his shackle to free him.|
 C Slave Hunters|QID|34698|QO|1|M|40.5,66.7|
 C Krav'ogra|QID|34702|M|40.20,67.49|N|Click the challenge gong to fight his minions until Ok'mok shows up, then kill him.|
 C Getting Gladiators|QID|34699|QO|2|M|39.8,67.8|NC|N|Y'kish in in a cage behind the arena you just fought Ok'mok. Click on his shackle to free him.|
@@ -371,9 +376,9 @@ C Looking For Help|QID|34758|M|55.4,72.6;55.71,75.32|CS|CHAT|Z|Frostfire Ridge|L
 T Looking For Help|QID|34758|M|55.71,75.32|Z|Frostfire Ridge|N|To Mokugg Lagerpounder.|LVL|94|
 A Icespine Stingers|QID|36141|M|55.71,75.32|Z|Frostfire Ridge|PRE|34758|N|From Mokugg Lagerpounder|
 
-C The Land Provides|QID|34960|M|54.24,69.74|Z|Frostfire Ridge|NC|Pick the plants as you are killing the bugs for thier stingers. Panning the camera (or any other movement) will interupt the gather.|S|
+C The Land Provides|QID|34960|M|54.24,69.74|Z|Frostfire Ridge|NC|N|Harvest the plants as you are killing the bugs for thier stingers. Panning the camera (or any other movement) will interupt the gather.|S|
 C Icespine Stingers|QID|36141|M|54.94,71.54|Z|Frostfire Ridge|
-C The Land Provides|QID|34960|M|54.24,69.74|Z|Frostfire Ridge|NC|Finish picking plants, if you still need some.|US|
+C The Land Provides|QID|34960|M|54.24,69.74|Z|Frostfire Ridge|NC|N|Finish harvesting plants, if you still need some.|US|
 T Icespine Stingers|QID|36141|M|55.71,75.33|Z|Frostfire Ridge|N|To Mokugg Lagerpounder.|
 A Proving Your Worth|QID|36131|M|55.71,75.33|Z|Frostfire Ridge|N|From Mokugg Lagerpounder.|PRE|36141|
 C Proving Your Worth|QID|36131|M|55.23,75.05|Z|Frostfire Ridge|NC|N|Fish here in the area.|
@@ -439,14 +444,14 @@ T All is Revealed|QID|34280|M|31.7,11.9|Z|Frostfire Ridge|N|To Archmage Khadgar.
 A Have a Heart|QID|34291|M|31.7,11.9|Z|Frostfire Ridge|N|From Archmage Khadgar.|PRE|34280|
 A Eliminate the Shadow Council|QID|34292|M|31.8,11.8|Z|Frostfire Ridge|N|From Cordana Felsong.|PRE|34280|
 R Ruins of Ata'gar|QID|34292|M|22.5,15.1|Z|Frostfire Ridge|
-C Eliminate the Shadow Council|QID|34292|M|22.2,12.1|Z|Frostfire Ridge|S|Kill shadow council as you do your other objectives.|
+C Eliminate the Shadow Council|QID|34292|M|22.2,12.1|Z|Frostfire Ridge|S|N|Kill shadow council as you do your other objectives.|
 C Have a Heart|QID|34291|M|22.2,12.1|Z|Frostfire Ridge|T|Furnus|
 T Have a Heart|QID|34291|M|21.8,14.7|Z|Frostfire Ridge|N|To Image of Archmage Khadgar.|
 A The Fel Crystal|QID|34294|M|21.8,14.7|Z|Frostfire Ridge|N|From Image of Archmage Khadgar.|PRE|34291|
 C Central Fel Crystal|QID|34294|M|21.2,15.6|Z|Frostfire Ridge|NC|QO|2|N|Go across the rock bridge to the central crystal.|
 C Southern Fel Crystal|QID|34294|M|21.7,16.9|Z|Frostfire Ridge|NC|QO|1|N|Drop down towards the southern crystal.|
 C Northern Fel Crystal|QID|34294|M|20.9,14.0|Z|Frostfire Ridge|NC|QO|3|N|Run under the rock bridge to get to the northern crystal.|
-C Eliminate the Shadow Council|QID|34292|M|19.9,14.6|Z|Frostfire Ridge|US|Finish this up before you get to Archmage Khadgar's image at his new spot by the cave.|
+C Eliminate the Shadow Council|QID|34292|M|19.9,14.6|Z|Frostfire Ridge|US|N|Finish this up before you get to Archmage Khadgar's image at his new spot by the cave.|
 T The Fel Crystal|QID|34294|M|19.9,14.6|Z|Frostfire Ridge|N|To Image of Archmage Khadgar.|
 A To Capture Gul'dan|QID|34295|M|19.9,14.6|Z|Frostfire Ridge|N|From Image of Archmage Khadgar.|PRE|34294|
 C To Capture Gul'dan|QID|34295|M|18.8,12.6|Z|Frostfire Ridge|N|Confront Gul'dan, watch his speech and then deal with his beautiful assistant.|

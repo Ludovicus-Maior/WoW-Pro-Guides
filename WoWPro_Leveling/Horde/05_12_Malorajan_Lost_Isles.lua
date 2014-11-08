@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-11-08 07:10
+-- Who: Emmaleah
+-- Log: Delete Dup NC Rollin with my homies ... and who knew Kazan and lost isle would be on the same wiki page /sigh
+
+-- URL: http://wow-pro.com/node/3212/revisions/26929/view
+-- Date: 2014-11-08 06:47
+-- Who: Emmaleah
+-- Log: Remove Dup U from C Zombies vs Rocket Boots
+
+-- URL: http://wow-pro.com/node/3212/revisions/26745/view
 -- Date: 2014-10-20 15:03
 -- Who: Fluclo
 -- Log: Added Don't Go Into the Light quest, added step about finishing Kezan if player is guide-jumping before finishing Kezan, added PRE steps throughout, added message about not skipping guide before reaching Durotar, added steps when quest has two plus parts, added NC tags where step is non-combat, added self-completing notes about profession trainers, changed all QO tags to number format, made the trip to Razor Hill a RANK 2 chain, quests to Garrosh are now to Vol'jin instead.
@@ -334,7 +344,7 @@ A Three Little Pygmies|QID|24945|M|51.83,47.18|N|From Foreman Dampwick.|PRE|2494
 A Rockin' Powder|QID|24946|M|51.77,47.33|N|From Assistant Greely.|PRE|24940|
 
 N Super Booster Rocket Boots|QID|24942|N|Activate the Super Booster Rocket Boots|BUFF|72887|ACTIVE|24942|U|52013|
-C Zombies vs. Super Booster Rocket Boots|QID|24942|U|52013|M|62.09,49.41|S|N|Hover over zombies to kill them. You will not be able to loot so you will have to de-activate them to loot.|U|52013|
+C Zombies vs. Super Booster Rocket Boots|QID|24942|U|52013|M|62.09,49.41|S|N|Hover over zombies to kill them. You will not be able to loot so you will have to de-activate them to loot.|
 C Rockin' Powder|QID|24946|M|63.19,52.90|S|N|Loot any Rockin' Powder mounds you see.|NC|U|52013|
 
 K Gaahl|QID|24945|M|59.59,40.21|N|Kill Gaahl.|QO|1|ACTIVE|24945|U|52013|
@@ -342,7 +352,7 @@ K Malmo|QID|24945|M|58.77,47.17|N|Kill Malmo.|QO|2|ACTIVE|24945|U|52013|
 K Teloch|QID|24945|M|63.66,52.78|N|Kill Teloch.|QO|3|ACTIVE|24945|U|52013|
 
 C Rockin' Powder|QID|24946|M|63.19,52.90|US|N|Loot any Rockin' Powder mounds you see.|NC|U|52013|
-C Zombies vs. Super Booster Rocket Boots|QID|24942|U|52013|M|62.09,49.41|US|N|Finish slaying any Goblin Zombies you have left.|U|52013|
+C Zombies vs. Super Booster Rocket Boots|QID|24942|U|52013|M|62.09,49.41|US|N|Finish slaying any Goblin Zombies you have left.|
 
 T Zombies vs. Super Booster Rocket Boots|QID|24942|M|51.83,47.16|N|Use the Rocket Boots to get you back to Coach Crosscheck safely.|U|52013|
 T Three Little Pygmies|QID|24945|M|51.83,47.16|N|To Foreman Dampwick.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kunlai_summit_neutral
+-- Date: 2014-11-08 02:53
+-- Who: Emmaleah
+-- Log: changed all QO|text to QO|#. other changes per "big list 'o errors
+
+-- URL: http://wow-pro.com/node/3490/revisions/26731/view
 -- Date: 2014-10-16 18:17
 -- Who: Fluclo
 -- Log: Correcting coords for Stolen Sprite Treasure
@@ -221,14 +226,14 @@ L Level 87 |QID|31254;31255|N|You need to be level 87 or higher to be able to wo
 
 A The Road to Kun-Lai |QID|31254;31255|N|From Messenger Grummle at the foot of The Veiled Stair in Grassy Cline, Valley of the Four Winds.\n(Also available from other NPCs in Krasarang Wilds and Valley of the Four Winds)|M|70,23.57|Z|Valley of the Four Winds|RANK|2|
 
-C Speak with the Highroad Grummle|QID|31254;31255|CHAT|QO|Speak with the Highroad Grummle: 1/1|M|70.08,23.47|Z|Valley of the Four Winds|N|Speak with the Highroad Grummle|RANK|2|
+C Speak with the Highroad Grummle|QID|31254;31255|CHAT|QO|1|M|70.08,23.47|Z|Valley of the Four Winds|N|Speak with the Highroad Grummle|RANK|2|
 
 R Path of a Hundred Steps |QID|31286|N|Head on up the stairs to the Tavern in the Mists via the Path of a Hundred Steps.|M|53.79,87.25|RANK|2|
 R Tavern in the Mists |QID|31286|N|Keep heading up the stairs and path to the Tavern in the Mists|M|56.75,75.82|RANK|2|
 
 f Tavern in the Mists|QID|31286|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|RANK|2|
 l The Hammer of Folly|QID|31286|L|86473|M|68.53,79.00;74.83,76.39|CS|Z|The Veiled Stair|N|*High Value Rare Loot*\nJust east of the Black Market Action House is an ancient grass covered stairway called the Stairs that lead to nowhere. At the top, known as Mason's Folly, you may find The Hammer of Folly.\nWorth 100 gold when sold to a vendor and a lot of XP when looted.|RANK|3|
-l Forgotten Lockbox|QID|31867|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and a lot of XP when looted.|Rank|3|
+l Forgotten Lockbox|QID|31867|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and a lot of XP when looted.|RANK|3|
 
 R The Spring Road|QID|31286|M|53.52,65.78|N|Head up to The Spring Road, north of the Tavern.|
 
@@ -241,7 +246,7 @@ C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|55.38,55.40|CS|N|
 T Robbing Robbers of Robbers|QID|31286|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|RANK|2|
 T Educating Saurok|QID|31287|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|RANK|2|
 
-C Speak with Brewmaster Boof|QID|31254;31255|QO|Speak with Brewmaster Boof: 1/1|CHAT|M|51.98,43.69|Z|The Veiled Stair|N|Continue up The Spring Road to the waters edge, then speak to Brewmaster Boof.|RANK|2|
+C Speak with Brewmaster Boof|QID|31254;31255|QO|2|CHAT|M|51.98,43.69|Z|The Veiled Stair|N|Continue up The Spring Road to the waters edge, then speak to Brewmaster Boof.|RANK|2|
 
 A The Spring Drifter|QID|31285|M|51.98,43.69|Z|The Veiled Stair|N|From Brewmaster Boof.|RANK|2|
 C The Spring Drifter|QID|31285|NC|M|51.98,43.69|Z|The Veiled Stair|N|Hop in the Spring Drifter and enjoy the ride.|RANK|2|
@@ -255,13 +260,13 @@ T The Road to Kun-Lai|QID|31254;31255|M|72.25,91.86|N|To Mayor Bramblestaff.|
 A Call Out Their Leader|QID|30457|M|72.25,91.86|N|From Mayor Bramblestaff.|
 A All of the Arrows|QID|30459|M|70.75,90.37|N|From Commander Hsieh.|
 
-C Bataari Fire-Warrior|QID|30457|S|M|68.89,88.51|N|Kill the Bataari Fire-Warrior. He spawns when you kill the ten Bataari Tribe Members. He will yell a message to your chat pane when he spawns, and shows as a Skull on the Mini-Map.|QO|Bataari Fire-Warrior: 1/1|
-C Call Out Their Leader|QID|30457|S|M|68.89,88.51|N|Kill the Bataari Tribe Members, the Yaungol and Flamecaller count, the Battleyack does not.|QO|Bataari Tribe Members slain: 10/10|
+C Bataari Fire-Warrior|QID|30457|S|M|68.89,88.51|N|Kill the Bataari Fire-Warrior. He spawns when you kill the ten Bataari Tribe Members. He will yell a message to your chat pane when he spawns, and shows as a Skull on the Mini-Map.|QO|2|
+C Call Out Their Leader|QID|30457|S|M|68.89,88.51|N|Kill the Bataari Tribe Members, the Yaungol and Flamecaller count, the Battleyack does not.|QO|1|
 C Hit Medicine|QID|30460|S|U|79819|M|68.03,87.57|N|Use the medicine on the injured Binan warriors.|NC|
 C All of the Arrows|QID|30459|M|68.79,86.46|N|Pick up the Arrows which are sparkling on the ground in the area.|NC|
 C Hit Medicine|QID|30460|US|U|79819|M|68.03,87.57|N|Finish using the medicine on the injured Binan warriors.|NC|
-C Call Out Their Leader|QID|30457|US|M|68.89,88.51|N|Finish killing the Bataari Tribe Members, the Yaungol and Flamecaller count, the Battleyack does not.|QO|Bataari Tribe Members slain: 10/10|
-C Bataari Fire-Warrior|QID|30457|US|M|68.89,88.51|N|Kill the Bataari Fire-Warrior. He spawns when you kill ten Bataari Tribe Members. He will yell a message to your chat pane when he spawns, and shows as a Skull on the Mini-Map.|QO|Bataari Fire-Warrior: 1/1|
+C Call Out Their Leader|QID|30457|US|M|68.89,88.51|N|Finish killing the Bataari Tribe Members, the Yaungol and Flamecaller count, the Battleyack does not.|QO|1|
+C Bataari Fire-Warrior|QID|30457|US|M|68.89,88.51|N|Kill the Bataari Fire-Warrior. He spawns when you kill ten Bataari Tribe Members. He will yell a message to your chat pane when he spawns, and shows as a Skull on the Mini-Map.|QO|2|
 
 T All of the Arrows|QID|30459|M|70.75,90.37|N|To Commander Hsieh.|
 T Call Out Their Leader|QID|30457|M|72.27,91.85|N|To Mayor Bramblestaff.|
@@ -300,9 +305,9 @@ T Father and Child Reunion|QID|30834|M|74.96,88.86|N|To Merchant Shi, it will ta
 T Enraged Vengeance|QID|30468|M|74.80,88.68|N|To Swordmistress Mei.|
 
 A The Ritual|QID|30480|M|75.20,88.25|N|From Waterspeaker Gorai.|
-C The Ritual|QID|30480|CHAT|QO|Speak to Waterspeaker Gorai to Begin the Ritual: 1/1|M|74.92,88.52|N|Talk to Waterspeaker Gorai and tell him you are ready to start the ritual.|
-C The Ritual|QID|30480|QO|Dead Inkgill Laid to Rest: 1/1|M|74.92,88.52|N|Wait for Waterspeaker to lay Inkgill to rest. Once complete, a Sha will spawn. Kill it.|
-C The Ritual|QID|30480|QO|Ritual Complete: 1/1|M|74.92,88.52|N|Kill the Sha that spawns.|
+C The Ritual|QID|30480|CHAT|QO|1|M|74.92,88.52|N|Talk to Waterspeaker Gorai and tell him you are ready to start the ritual.|
+C The Ritual|QID|30480|QO|2|M|74.92,88.52|N|Wait for Waterspeaker to lay Inkgill to rest. Once complete, a Sha will spawn. Kill it.|
+C The Ritual|QID|30480|QO|3|M|74.92,88.52|N|Kill the Sha that spawns.|
 T The Ritual|QID|30480|M|74.91,88.58|N|To Waterspeaker Gorai, it will take a few seconds for the quest turn-in to show.|
 
 A Cleansing the Mere|QID|30828|M|74.91,88.58|N|From Waterspeaker Gorai.|
@@ -313,10 +318,10 @@ A The Fall of Shai Hu|QID|30855|N|From Waterspeaker Gorai.|
 C The Fall of Shai Hu|QID|30855|M|71.16,82.96|N|Kill the small Sha on the island, reasonably close to Shai Hu to weaken him. You must attack Shai Hu at least once with a hit for the quest kill to register.|
 T The Fall of Shai Hu|QID|30855|M|74.90,88.58|N|To Waterspeaker Gorai, back at Inkgill Mere.|
 
-C Eastwind Rest - Farmhand Ko|QID|30513|FACTION|Horde|NC|QO|Speak with Farmhand Ko: 1/1|M|63.65,86.68|N|Head to The Yaungo Advance, find Farmhand Ko and talk to him.|
-C Westwind Rest - Farmhand Bo|QID|30512|FACTION|Alliance|NC|QO|Speak with Farmhand Bo: 1/1|M|58.89,80.47|N|Head to The Yaungo Advance, find Farmhand Bo and talk to him|
-C Eastwind Rest - Elder Shiao|QID|30513|FACTION|Horde|NC|QO|Speak with Elder Shiao: 1/1|M|61.25,82.25|N|Continue down the road, then talk to Elder Shiao.|
-C Westwind Rest - Elder Tsulan|QID|30512|FACTION|Alliance|NC|QO|Speak with Elder Tsulan: 1/1|M|56.38,84.44|N|Continue down the road, then talk to Elder Tsulan.|
+C Eastwind Rest - Farmhand Ko|QID|30513|FACTION|Horde|NC|QO|1|M|63.65,86.68|N|Head to The Yaungo Advance, find Farmhand Ko and talk to him.|
+C Westwind Rest - Farmhand Bo|QID|30512|FACTION|Alliance|NC|QO|1|M|58.89,80.47|N|Head to The Yaungo Advance, find Farmhand Bo and talk to him|
+C Eastwind Rest - Elder Shiao|QID|30513|FACTION|Horde|NC|QO|2|M|61.25,82.25|N|Continue down the road, then talk to Elder Shiao.|
+C Westwind Rest - Elder Tsulan|QID|30512|FACTION|Alliance|NC|QO|2|M|56.38,84.44|N|Continue down the road, then talk to Elder Tsulan.|
 
 T Eastwind Rest|QID|30513|FACTION|Horde|M|61.25,82.25|N|To Elder Shiao.|
 T Westwind Rest|QID|30512|FACTION|Alliance|M|56.38,84.44|N|To Elder Tsulan.|
@@ -343,9 +348,9 @@ T Trouble on the Farmstead|QID|30569;30570|M|60.29,85.72|N|To Farmer Chow.|
 A Farmhand Freedom|QID|30571|M|60.24,85.79|N|From Farmer Chow.|
 A ... and the Pot, Too!|QID|30581|M|60.17,85.92|N|From Uyen Chow.|
 C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|CN|S|N|Kill the overseers to free the slaves standing near them.|
-C Root Vegetables|QID|30581|S|M|60.03,88.43|N|The root vegetables can be looted from the ground. The Wascally Wirmen zooming around under the plots can also be killed and looted for several vegetables.|QO|Root Vegetable: 12/12|NC|
-C ... and the Pot, Too!|QID|30581|M|60.03,88.43|N|The Cast Iron Pot is inside the hut|QO|Cast Iron Pot: 1/1|NC|
-C Root Vegetables|QID|30581|US|M|60.03,88.43|N|The vegetables can be looted from the ground. The Wascally Wirmen zooming around under the plots can also be killed and looted for several vegetables.|QO|Root Vegetable: 12/12|NC|
+C Root Vegetables|QID|30581|S|M|60.03,88.43|N|The root vegetables can be looted from the ground. The Wascally Wirmen zooming around under the plots can also be killed and looted for several vegetables.|QO|1|NC|
+C ... and the Pot, Too!|QID|30581|M|60.03,88.43|N|The Cast Iron Pot is inside the hut|QO|2|NC|
+C Root Vegetables|QID|30581|US|M|60.03,88.43|N|The vegetables can be looted from the ground. The Wascally Wirmen zooming around under the plots can also be killed and looted for several vegetables.|QO|1|NC|
 C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|CN|US|N|Kill the Orco Overseers near the slaves to free them.|
 T ... and the Pot, Too!|QID|30581|M|60.17,85.92|N|To Uyen Chow.|
 T Farmhand Freedom|QID|30571|M|60.24,85.79|N|To Farmer Chow.|
@@ -358,7 +363,7 @@ A Profiting off of the Past|QID|30595|M|59.59,78.26|N|From Bao Jian.|
 C Profiting off of the Past|QID|30595|NC|S|M|58.40,74.86|N|Groundspawn as well as dropping from the mobs around here.|
 C Deanimate the Reanimated|QID|30593;30594|S|M|59.20,72.21|N|The statues randomly begin walking around and are agro when animated.|
 l Terracotta Head|QID|31422|M|59.2,73.0;57.0,75.5;57.8,76.3;59.2,74.5;58.4,73.5|CC|N|*High Value Rare Loot*\nLocated somewhere in the ruins of Moguija.\nWorth 100 gold when sold to a vendor and lots of XP when looted.|RANK|3|
-K Mogujia Soul-Caller|QID|30619;30620|T|Mogujia Soul-Caller|QO|Mogujia Soul-Caller slain: 1/1|M|58.23,71.21|
+K Mogujia Soul-Caller|QID|30619;30620|T|Mogujia Soul-Caller|QO|1|M|58.23,71.21|
 C Deanimate the Reanimated|QID|30593;30594|US|M|59.20,72.21|
 C Profiting off of the Past|QID|30595|NC|US|M|58.40,74.86|
 T Profiting off of the Past|QID|30595|M|59.58,78.27|N|To Bao Jian.|
@@ -389,18 +394,18 @@ A Pandaren Prisoners|QID|30655|FACTION|Horde|M|62.36,79.64|N|From Elder Shiao.|
 
 R Fire Camp Ordo |QID|30657;30652|M|50.50,78.59|
 C Pandaren Prisoners|QID|30655;30650|NC|S|M|49.67,80.36|N|Free the Pandaren Prisoners, they are located throughout Fire Camp Ordo.|
-C Barrels of Fun - Eastern Oil Rig|QID|30656;30651|NC|U|80528|M|51.0,79.4|N|Locate and click on a Explosives Barrel, head to the Eastern Oil Rig and use the Explosives.|QO|Eastern Oil Rig destroyed: 1/1|
-C Barrels of Fun - Southern Oil Rig|QID|30656;30651|S|NC|U|80528|M|49.62,80.99|N|Locate another Explosives Barrel.|QO|Southern Oil Rig destroyed: 1/1|
-C In Tents Channeling - Musaan the Blazecaster|QID|30657;30652|M|50.42,78.64|N|Kill Musaan the Blazecaster|QO|Musaan the Blazecaster slain: 1/1|T|Musaan the Blazecaster|
-C In Tents Channeling - Harala the Firespeaker|QID|30657;30652|M|49.44,78.5|N|Kill Harala the Firespeaker|QO|Harala the Firespeaker slain: 1/1|T|Harala the Firespeaker|
-C Barrels of Fun - Southern Oil Rig|QID|30656;30651|US|NC|U|80528|M|49.62,80.99|N|Locate and click another Explosives Barrel, head to the Southern Oil Rig and use the Explosives.|QO|Southern Oil Rig destroyed: 1/1|
-C Barrels of Fun - Western Oil Rig|QID|30656;30651|S|NC|U|80528|M|49.42,80.61|N|Locate one more Explosives Barrel.|QO|Western Oil Rig destroyed: 1/1|
-C In Tents Channeling - Pao-kun the Pyromancer|QID|30657;30652|M|49.17,80.36|N|Kill Pao-kun the Pyromancer|QO|Pao-kun the Pyromancer slain: 1/1|T|Pao-kun the Pyromancer|
-C In Tents Channeling - Akonu the Embercaller|QID|30657;30652|M|47.71,79.97|N|Kill Akonu the Embercaller|QO|Akonu the Embercaller slain: 1/1|T|Akonu the Embercaller|
+C Eastern Oil Rig|QID|30656;30651|NC|U|80528|M|51.0,79.4|N|Locate and click on a Explosives Barrel, head to the Eastern Oil Rig and use the Explosives.|QO|1|
+C Southern Oil Rig|QID|30656;30651|S|NC|U|80528|M|49.62,80.99|N|Locate another Explosives Barrel.|QO|2|
+K Musaan the Blazecaster|QID|30657;30652|M|50.42,78.64|N|Kill Musaan the Blazecaster|QO|1|T|Musaan the Blazecaster|
+K Harala the Firespeaker|QID|30657;30652|M|49.44,78.5|N|Kill Harala the Firespeaker|QO|3|T|Harala the Firespeaker|
+C Southern Oil Rig|QID|30656;30651|US|NC|U|80528|M|49.62,80.99|N|Locate and click another Explosives Barrel, head to the Southern Oil Rig and use the Explosives.|QO|2|
+C Western Oil Rig|QID|30656;30651|S|NC|U|80528|M|49.42,80.61|N|Locate one more Explosives Barrel.|QO|3|
+K Pao-kun the Pyromancer|QID|30657;30652|M|49.17,80.36|N|Kill Pao-kun the Pyromancer|QO|4|T|Pao-kun the Pyromancer|
+K Akonu the Embercaller|QID|30657;30652|M|47.71,79.97|N|Kill Akonu the Embercaller|QO|2|T|Akonu the Embercaller|
 T In Tents Channeling|QID|30657;30652|N|To UI Alert.|
 A The Ordo Warbringer|QID|30660;30661|N|From UI Alert.|
-C Barrels of Fun - Western Oil Rig|QID|30656;30651|US|NC|U|80528|M|47.87,81.42|N|Locate and click one more Explosives Barrel, head to the Western Oil Rig and use the Explosives.|QO|Western Oil Rig destroyed: 1/1|
-K Ordo Warbringer|QID|30661;30660|T|Ordo Warbringer|QO|Ordo Warbringer slain: 1/1|M|48.35,76.69|N|Head to the back of Fire Camp Ordo, and kill Ordo Warbringer, who's at the back of the short cave.|
+C Western Oil Rig|QID|30656;30651|US|NC|U|80528|M|47.87,81.42|N|Locate and click one more Explosives Barrel, head to the Western Oil Rig and use the Explosives.|QO|3|
+K Ordo Warbringer|QID|30661;30660|T|Ordo Warbringer|QO|1|M|48.35,76.69|N|Head to the back of Fire Camp Ordo, and kill Ordo Warbringer, who's at the back of the short cave.|
 C Pandaren Prisoners|QID|30655;30650|US|FACTION|Alliance|M|49.67,80.36|N|Finish freeing the prisoners.|
 
 R Westwind Rest|QID|30651|FACTION|Alliance|M|54.17,83.27|N|Head back to Westwind Rest. Careful riding past the Ordo's, they can stun you off your mount.|
@@ -431,7 +436,7 @@ C Fresh Needle Scent|QID|30489|S|M|71.50,70.04|N|Kill and loot the Needle Sprite
 R Pranksters' Hollow|QID|30488|M|73.0,73.45|N|Head to Pranksters' Hollow then run to the back of the cave.|
 l Sprite's Cloth Chest|QID|31412|M|74.7,74.9|N|*High Value Rare Loot*\nLocated at the back of the cave.\nContains an i434 BoP cloak worth just over 15g and lots of XP when looted.|RANK|3|
 T The Missing Muskpaw|QID|30488|M|74.96,74.52|N|To Muskpaw Jr. He is in the back of the cave. If he has sprites on him, you need to kill them before he will accept the quest from you.|
-A At the Yak Wash|QID|30491|M|74.96,74.52|N|From Muskpaw Jr..|N|You can ride Jr's Yak out of the cave and leave vehicle when you are out.|
+A At the Yak Wash|QID|30491|M|74.96,74.52|N|From Muskpaw Jr. \nYou can ride Jr's Yak out of the cave and leave vehicle when you are out.|
 C Fresh Needle Scent|QID|30489|US|M|71.50,70.04|N|Finish killing and looting the Needle Sprite's|
 
 R Lao & Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao & Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
@@ -443,7 +448,7 @@ T The Late Mrs. Muskpaw|QID|30582|M|71.30,69.68|N|To Lao Muskpaw. Turn this in w
 A The Fearmaster|QID|30804|M|71.30,69.68|N|From Lao Muskpaw.|
 T Fresh Needle Scent|QID|30489|M|71.42,69.75|N|To Lao Muskpaw.|
 C Yakity Yak|QID|30587|S|M|69.94,72.81|N|Kill the Burilgi Despoiler's|
-K The Fearmaster|T|The Fearmaster|QO|The Fearmaster slain: 1/1|QID|30804|M|68.20,74.70|N|Kill The Fearmaster|
+K The Fearmaster|T|The Fearmaster|QO|1|QID|30804|M|68.20,74.70|N|Kill The Fearmaster|
 C At the Yak Wash|QID|30491|US|M|71.39,69.05|N|Finish bringing the Escaped Yak to Lao & Son's Yakwash.|
 C Yakity Yak|QID|30587|US|M|69.94,72.81|N|Finish killing the Burilgi Despoiler's|
 
@@ -479,10 +484,10 @@ T Temple of the White Tiger|QID|31393|FACTION|Horde|M|68.74,43.07|N|To Sunwalker
 A A Celestial Experience|QID|31394|FACTION|Alliance|M|68.74,43.07|N|From Anduin Wrynn.|
 A A Celestial Experience|QID|31395|FACTION|Horde|M|68.74,43.07|N|From Sunwalker Dezco.|
 
-C A Celestial Experience |QID|31395;31394|N|Speak to Xuen.|CHAT|QO|Speak to Xuen: 1/1|
-C A Celestial Experience |QID|31395;31394|N|Complete the First Test. Wait a minute for the dialog to finish, until a Spirit of Violence appears. Kill it to pass the test.|QO|Pass the First Test: 1/1|
-C A Celestial Experience |QID|31395;31394|N|Complete the Second Test. Again wait for the dialog to finish, until a Spirit of Anger appears. Kill it to pass the test.|QO|Pass the Second Test: 1/1|
-C A Celestial Experience |QID|31395;31394|N|Complete the Third Test. Again wait for the dialog to finish, until a Spirit of Hatred appears. Kill it to pass the test.|QO|Pass the Third Test: 1/1|
+C A Celestial Experience |QID|31395;31394|N|Speak to Xuen.|CHAT|QO|1|
+C A Celestial Experience |QID|31395;31394|N|Complete the First Test. Wait a minute for the dialog to finish, until a Spirit of Violence appears. Kill it to pass the test.|QO|2|
+C A Celestial Experience |QID|31395;31394|N|Complete the Second Test. Again wait for the dialog to finish, until a Spirit of Anger appears. Kill it to pass the test.|QO|3|
+C A Celestial Experience |QID|31395;31394|N|Complete the Third Test. Again wait for the dialog to finish, until a Spirit of Hatred appears. Kill it to pass the test.|QO|4|
 
 T A Celestial Experience|QID|31394|FACTION|Alliance|M|68.76,43.14|N|To Anduin Wrynn.|
 T A Celestial Experience|QID|31395|FACTION|Horde|M|68.76,43.14|N|To Sunwalker Dezco.|
@@ -504,9 +509,9 @@ f One Keg|QID|30601|M|57.72,59.68|N|At Little Cleankite.|
 
 R Howlingwind Cavern|QID|30618|M|59.16,53.24|N|Head up the Howlingwind Trail to the Howlingwind Caverns.|
 C They Stole My Luck!|QID|30621|M|57.77,49.30|S|N|Kill and loot the Mischievous Snow Sprites. Walking over the Suspicious Snow Pile will reveal one.|
-C Resupplying One Keg|QID|30618|M|56.33,50.88|S|NC|N|Collect the Stolen Supplies from the ground inside the cavern.|NC|
+C Resupplying One Keg|QID|30618|M|56.33,50.88|S|NC|N|Collect the Stolen Supplies from the ground inside the cavern.|
 C Instant Courage|QID|30601|S|M|57.54,47.44|N|These guys are hiding in their baskets, tell them its safe to come out by chatting, or use the Fire Lotus Incense near them.|CHAT|
-l Stolen Sprite Treasure|QID|31415|M|56.79,48.99|N|*High Value Rare Loot*\nOnce inside the cavern, press M to get your bearings on the route needed. The coordinate shows the exact location, this item is an instant respawn so no need to compete with others to get it. When you get to a fork with an up or down path, take the up path.\nWorth over 104 gold and over 500,000 XP.|Rank|3|
+l Stolen Sprite Treasure|QID|31415|M|56.79,48.99|N|*High Value Rare Loot*\nOnce inside the cavern, press M to get your bearings on the route needed. The coordinate shows the exact location, this item is an instant respawn so no need to compete with others to get it. When you get to a fork with an up or down path, take the up path.\nWorth over 104 gold and over 500,000 XP.|RANK|3|
 C Instant Courage|QID|30601|US|M|57.54,47.44|N|These guys are hiding in their baskets, tell them its safe to come out by chatting, or use the Fire Lotus Incense near them.|CHAT|
 C Resupplying One Keg|QID|30618|M|56.33,50.88|US|NC|N|Finish collecting the Stolen Supplies from the ground inside the cavern.|
 C They Stole My Luck!|QID|30621|M|57.77,49.30|US|N|Finish killing and looting the Mischievous Snow Sprites. Walking over the Suspicious Snow Pile will reveal one.|
@@ -518,69 +523,69 @@ T Resupplying One Keg|QID|30618|M|57.72,61.76|N|To Big Sal.|
 T Instant Courage|QID|30601|M|57.22,61.21|N|To Uncle Cloverleaf.|
 
 A Comin' Round the Mountain|QID|30487|M|57.22,61.21|N|From Uncle Cloverleaf.|
-C Comin' Round the Mountain|QID|30487|M|57.33,61.55|N|Board Ji-Lu's Cart|NC|QO|Jump in Ji-Lu's Cart: 1/1|
-C Comin' Round the Mountain|QID|30487|M|57.33,61.55|N|Ride through the mountains. If any Knucklethump Attackers jump onto your cart, select them then use action 1 to get rid of them.|QO|Survive the Mountain pass: 1/1|
+C Comin' Round the Mountain|QID|30487|M|57.33,61.55|N|Board Ji-Lu's Cart|NC|QO|1|
+C Comin' Round the Mountain|QID|30487|M|57.33,61.55|N|Ride through the mountains. If any Knucklethump Attackers jump onto your cart, select them then use action 1 to get rid of them.|QO|2|
 T Comin' Round the Mountain|QID|30487|M|48.14,49.04|N|To Lucky Bluestring.|
 
 A One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|From Lucky Bluestring.|
-C One Traveler's Misfortune|QID|30683|M|50.22,49.39|NC|N|Head back down the hill, then examine the Abandoned Wreckage.|QO|Search the Abandoned Wreckage for supplies: 1/1|
-C One Traveler's Misfortune|QID|30683|M|50.22,49.39|N|Wait a few moments for dialog from General Sho Lien, who will then summon four Stone Guardians. Kill the guardians, then kill General Sho Lien.|QO|General Sho Lien slain: 1/1|
-l Rikktik's Tick Remover|QID|31419|M|51.90,48.62;52.55,56.52|CS|N|*High Value Rare Loot*\nLocated in a cave just down the road, loot Rikktik's Tiny Chest.\nWorth over 50 gold when looted, provides a trash item that sells for 105 gold, and lots of XP on looting the tiny chest.|Rank|3|
+C One Traveler's Misfortune|QID|30683|M|50.22,49.39|NC|N|Head back down the hill, then examine the Abandoned Wreckage.|QO|1|
+C One Traveler's Misfortune|QID|30683|M|50.22,49.39|N|Wait a few moments for dialog from General Sho Lien, who will then summon four Stone Guardians. Kill the guardians, then kill General Sho Lien.|QO|2|
+l Rikktik's Tick Remover|QID|31419|M|51.90,48.62;52.55,56.52|CS|N|*High Value Rare Loot*\nLocated in a cave just down the road, loot Rikktik's Tiny Chest.\nWorth over 50 gold when looted, provides a trash item that sells for 105 gold, and lots of XP on looting the tiny chest.|RANK|3|
 T One Traveler's Misfortune|QID|30683|M|48.14,49.04|N|To Lucky Bluestring.|
 
 A Seeker's Folly|QID|30684;31306|M|48.14,49.04|N|From Lucky Bluestring.|
-C Seeker's Folly|QID|30684;31306|M|44.81,49.22|NC|N|Head up the hill and honor the Shrine of the Seeker's Body, avoiding the Snow Boulders which hurt a little and slow you down 50%|QO|Shrine of the Seeker's Body: 1/1|
-C Seeker's Folly|QID|30684;31306|M|42.70,50.07|NC|N|Continue up the hill and honor the Shrine of the Seeker's Breath, avoid the freezing winds which hurt a little and slow you down.|QO|Shrine of the Seeker's Breath: 1/1|
-C Seeker's Folly|QID|30684;31306|M|43.18,51.96|NC|N|Continue up the hill and honor the Shrine of the Seeker's Heart|QO|Shrine of the Seeker's Heart: 1/1|
+C Seeker's Folly|QID|30684;31306|M|44.81,49.22|NC|N|Head up the hill and honor the Shrine of the Seeker's Body, avoiding the Snow Boulders which hurt a little and slow you down 50%|QO|1|
+C Seeker's Folly|QID|30684;31306|M|42.70,50.07|NC|N|Continue up the hill and honor the Shrine of the Seeker's Breath, avoid the freezing winds which hurt a little and slow you down.|QO|2|
+C Seeker's Folly|QID|30684;31306|M|43.18,51.96|NC|N|Continue up the hill and honor the Shrine of the Seeker's Heart|QO|3|
 T Seeker's Folly|QID|30684;31306|M|43.79,51.05|N|To Lorewalker Cho.|
 A The Tongue of Ba-Shon|QID|30829|M|43.79,51.05|N|From Lorewalker Cho.|
 C The Tongue of Ba-Shon|QID|30829|M|43.51,51.38|N|Tell Cho you are ready to begin, then protect him while he does his spell.|
 T The Tongue of Ba-Shon|QID|30829|M|43.79,51.05|N|To Lorewalker Cho.|
 A Staying Connected|QID|30795|M|43.79,51.05|N|From Lorewalker Cho.|
-l Tablet of Ren Yun|QID|31417|M|44.7,52.4|N|*High Value Rare Loot*\nRare tablet found next to Ren Yun the Blind statue, at the very top of Mt. Neverest. Careful going up/down the mountain, you may want to dismount to better control your ascent/descent.|Rank|3|
+l Tablet of Ren Yun|QID|31417|M|44.7,52.4|N|*High Value Rare Loot*\nRare tablet found next to Ren Yun the Blind statue, at the very top of Mt. Neverest. Careful going up/down the mountain, you may want to dismount to better control your ascent/descent.|RANK|3|
 C Staying Connected|QID|30795|CHAT|M|51.94,47.44|N|Talk to Mishi for a flight to Valley of the Emperors (make sure you are NOT mounted first).\nWhen you arrive at Valley of Emperors, use The Tongue of Ba-Shon to call the Image of Lorewalker Cho.|
-T Staying Connected|QID|30795|U|81712|M|57.93,48.98|U|81712|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
+T Staying Connected|QID|30795|U|81712|M|57.93,48.98|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 
 A An End to Everything|QID|30796|M|51.94,47.44|N|From Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
 C An End to Everything|QID|30796|M|57.34,47.17|S|N|Kill the Tormented Spirits from around the square.|
 A It Was Almost Alive|QID|30797|M|57.15,47.89|N|From Curous Text, located on the table in the middle of the square.|
 C It Was Almost Alive|QID|30797|M|57.08,47.83|N|Click the book to tear a page from it.|NC|
 C An End to Everything|QID|30796|M|57.34,47.17|US|N|Finish killing the Tormented Spirits from around the square as you head to the stairs.|
-T An End to Everything|QID|30796|M|58.03,49.02|U|81712|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
+T An End to Everything|QID|30796|M|58.03,49.02|U|81712|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 T It Was Almost Alive|QID|30797|M|58.03,49.02|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
 
 A The Tomb of Shadows|QID|30799|M|58.03,49.02|N|From Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
 R Tomb of Shadows|QID|30799|M|55.90,46.15|N|Head to the Tomb of Shadows, located up the stairs, then to the right.|
-C The Tomb of Shadows|QID|30799|M|56.34,43.42|N|At the back of the tomb to the left, click on the Wai Dynasty to obtain a rubbing.|NC|QO|Wai Dynasty Rubbing: 1/1|
-C The Tomb of Shadows|QID|30799|M|57.14,43.50|N|At the back of the tomb in the middle porch (right hand side), click on the Shen Dynasty to obtain a rubbing.|NC|QO|Shen Dynasty Rubbing: 1/1|
-C The Tomb of Shadows|QID|30799|M|57.07,45.04|N|At the back of the tomb to the right, click on the Qiang Dynasty to obtain a rubbing.|NC|QO|Qiang Dynasty Rubbing: 1/1|
-T The Tomb of Shadows|QID|30799|U|81712|M|55.14,46.47|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
+C The Tomb of Shadows|QID|30799|M|56.34,43.42|N|At the back of the tomb to the left, click on the Wai Dynasty to obtain a rubbing.|NC|QO|2|
+C The Tomb of Shadows|QID|30799|M|57.14,43.50|N|At the back of the tomb in the middle porch (right hand side), click on the Shen Dynasty to obtain a rubbing.|NC|QO|1|
+C The Tomb of Shadows|QID|30799|M|57.07,45.04|N|At the back of the tomb to the right, click on the Qiang Dynasty to obtain a rubbing.|NC|QO|3|
+T The Tomb of Shadows|QID|30799|U|81712|M|55.14,46.47|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 
 A Breaking the Emperor's Shield|QID|30798|M|55.14,46.47|N|From Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
 R Tomb of Secrets |QID|30798|M|53.32,49.32|N|Leave the Tomb of Shadows, then head up the stairs to the Tomb of Secrets.|
 C Breaking the Emperor's Shield|QID|30798|M|53.02,51.35|N|Attempt to attack Nakk'rakas, and he will release a couple of Imperial Guards. Kill them, then finish off Nakk'rakas to interrupt the Spiritbinding Ritual.|
-T Breaking the Emperor's Shield|QID|30798|U|81712|M|52.94,50.85|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
+T Breaking the Emperor's Shield|QID|30798|U|81712|M|52.94,50.85|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 
 A Stealing Their Thunder King|QID|30800|M|52.94,50.85|N|From Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
 R Tomb of Conquerors|QID|30800|M|52.96,46.60|N|Leave the Tomb of Secrets and head to the Tomb of Conquerors. Either jump down or take the path to you left, then follow it clockwise to the tomb's entrance.|
-C Stealing Their Thunder King|QID|30800|M|50.60,48.14|NC|N|Head inside the tomb and click the King's Coffer by the table to loot the bottom half of the tablet. Looting the coffer will spawn two Terracotta Defenders.\n\nTake care navigating the tiles as some are booby-trapped.|QO|Bottom Fragment of Lei Shen's Tablet: 1/1|
-C Stealing Their Thunder King|QID|30800|M|48.79,47.36|NC|N|Move into the next room and click on the tablet on the wall to repair the tablet.|QO|Repair the Tablet of Thunder: 1/1|
-T Stealing Their Thunder King|QID|30800|U|81712|M|49.13,47.46|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
+C Stealing Their Thunder King|QID|30800|M|50.60,48.14|NC|N|Head inside the tomb and click the King's Coffer by the table to loot the bottom half of the tablet. Looting the coffer will spawn two Terracotta Defenders.\n\nTake care navigating the tiles as some are booby-trapped.|QO|1|
+C Stealing Their Thunder King|QID|30800|M|48.79,47.36|NC|N|Move into the next room and click on the tablet on the wall to repair the tablet.|QO|2|
+T Stealing Their Thunder King|QID|30800|U|81712|M|49.13,47.46|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 
 A Lessons from History|QID|30801|M|49.13,47.46|N|From Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
 C Lessons from History|QID|30801|M|48.84,47.33|NC|N|Click on the tablet on the wall, cutscene follows.|
-T Lessons from History|QID|30801|U|81712|M|49.20,47.43|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
+T Lessons from History|QID|30801|U|81712|M|49.20,47.43|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 
 A Chasing the Storm|QID|30802|M|49.20,47.43|N|From Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
 C Chasing the Storm|QID|30802|M|51.31,48.26|N|Kill and loot the Zandalari Warriors until the Blood-Revealed Map drops.|
-T Chasing the Storm|QID|30802|U|81712|M|51.31,48.26|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
+T Chasing the Storm|QID|30802|U|81712|M|51.31,48.26|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 
 A Fisherman's Tale|QID|30935|M|51.31,48.26|N|From Image of Lorewalker Cho.\nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
-C Fisherman's Tale|QID|30935|CHAT|M|52.98,46.36|N|Leave the Tomb of Conquerors by heading up the stairs. Outside the tomb is Mishi on your left, speak to her and tell her you're ready to leave.|QO|Speak to Mishi outside of Lei Shen's Tomb: 1/1|
+C Fisherman's Tale|QID|30935|CHAT|M|52.98,46.36|N|Leave the Tomb of Conquerors by heading up the stairs. Outside the tomb is Mishi on your left, speak to her and tell her you're ready to leave.|QO|1|
 F Path of Conquerors|QID|30935|M|63.92,47.85|N|Wait until you arrive at the Path of Conquerors.|
-l Ancient Mogu Tablet|QID|31420|M|64.21,45.11|N|*High Value Rare Loot*\nBehind the statue to your right where the Lost Soul's are.\nProvides a trash item that sells for 95 gold, and a lot of XP on looting it.|Rank|3|
+l Ancient Mogu Tablet|QID|31420|M|64.21,45.11|N|*High Value Rare Loot*\nBehind the statue to your right where the Lost Soul's are.\nProvides a trash item that sells for 95 gold, and a lot of XP on looting it.|RANK|3|L|86471|
 R Whispercloud Rise|QID|30935|M|63.46,40.14|N|Continue down the path until you reach Whispercloud Rise.|
-C Fisherman's Tale|QID|30935|CHAT|M|63.46,40.14|N|Speak to Shin Whispercloud next to the balloon, and tell him you're ready to leave.|QO|Speak to Shin Whispercloud to access Zouchin Province: 1/1|
+C Fisherman's Tale|QID|30935|CHAT|M|63.46,40.14|N|Speak to Shin Whispercloud next to the balloon, and tell him you're ready to leave.|QO|2|
 
 f Zouchin Village|QID|30935|M|62.42,30.12|N|At Bo the Wind Claimer.|
 T Fisherman's Tale|QID|30935|M|62.33,29.06|N|To Lorewalker Cho.|
@@ -598,21 +603,21 @@ T Emergency Care|QID|30794|M|60.60,21.36|N|To Sage Liao.|
 A Justice|QID|30805|M|60.60,21.36|N|From Sage Liao.|
 A The Scent of Life|QID|30806|M|60.60,21.36|N|From Sage Liao.|
 A By the Falls, For the Fallen|QID|30807|M|60.60,21.36|N|From Sage Liao.|
-C The Scent of Life|QID|30806|S|M|59.61,22.26|N|Kill all the crabs you see, the shell is somewhat rare.|QO|Opalescent Blue Crab Shell: 1/1|
+C The Scent of Life|QID|30806|S|M|59.61,22.26|N|Kill all the crabs you see, the shell is somewhat rare.|QO|1|
 C By the Falls, For the Fallen|QID|30807|NC|M|59.12,27.30|N|Loot the Waterfall-Polished Stones at the base of the waterfall.|
 
-C Justice|QID|30805|M|62.14,23.99|S|N|Kill the Blackmane Mercenaries.|QO|Blackmane Mercenaries slain: 6/6|
-C Captain Ripflesh|QID|30805|M|62.14,23.99|N|Kill Captain Ripflesh.|T|Captain Ripflesh|QO|Captain Ripflesh slain: 1/1|
-C Stolen Pandaren Spices|QID|30806|S|M|59.61,22.26|N|Loot the barrels in the pirate camp. The spices will also drop off the pirates.|NC|QO|Stolen Pandaren Spices: 8/8|
-C Justice|QID|30805|M|63.39,22.14|US|N|Finish killing the Blackmane Mercenaries (the Overlord does NOT count).|QO|Blackmane Mercenaries slain: 6/6|
-C Stolen Pandaren Spices|QID|30806|US|M|63.39,22.14|N|Finish looting the barrels in the pirate camp. The spice will also drop off the pirates.|NC|QO|Stolen Pandaren Spices: 8/8|
-C The Scent of Life|QID|30806|US|M|59.61,22.26|N|Kill all the crabs you see, the shell is somewhat rare.|QO|Opalescent Blue Crab Shell: 1/1|
+C Justice|QID|30805|M|62.14,23.99|S|N|Kill the Blackmane Mercenaries.|QO|2|
+C Captain Ripflesh|QID|30805|M|62.14,23.99|N|Kill Captain Ripflesh.|T|Captain Ripflesh|QO|1|
+C Stolen Pandaren Spices|QID|30806|S|M|59.61,22.26|N|Loot the barrels in the pirate camp. The spices will also drop off the pirates.|NC|QO|2|
+C Justice|QID|30805|M|63.39,22.14|US|N|Finish killing the Blackmane Mercenaries (the Overlord does NOT count).|QO|2|
+C Stolen Pandaren Spices|QID|30806|US|M|63.39,22.14|N|Finish looting the barrels in the pirate camp. The spice will also drop off the pirates.|NC|QO|2|
+C The Scent of Life|QID|30806|US|M|59.61,22.26|N|Kill all the crabs you see, the shell is somewhat rare.|QO|1|
 T Justice|QID|30805|M|60.60,21.36|N|To Sage Liao.|
 T The Scent of Life|QID|30806|M|60.60,21.36|N|To Sage Liao.|
 T By the Falls, For the Fallen|QID|30807|M|60.60,21.36|N|To Sage Liao.|
 A Preparing the Remains|QID|30819|M|60.60,21.36|N|From Sage Liao.|
 
-C Make A Fighter Out of Me|QID|30942|M|62.43,28.30|S|QO|Amani Skirmishers slain: 4/4|N|Kill the trolls next to the village, with Shomi tagging along.|
+C Make A Fighter Out of Me|QID|30942|M|62.43,28.30|S|QO|1|N|Kill the trolls next to the village, with Shomi tagging along.|
 C It Takes A Village|QID|30944|M|62.43,28.30|N|Talk to the Exhauted Defenders and tell them to relieve themselves.|CHAT|
 
 T Preparing the Remains|QID|30819|M|63.17,29.37|N|To Li Hai.|
@@ -623,7 +628,7 @@ T A Funeral|QID|30820|M|67.04,33.34|N|To Sage Liao.|
 C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|S|N|Kill the Gurubashi Hexxer and Drakkari Frostweavers.|
 C What's Yours Is Mine|QID|30945|S|M|71.17,28.66|N|Kill and loot the Amani Skullbreakers and Raptor-Handlers for the Blood-Staned Blades.|
 C Handle With Care|QID|30943|M|70.04,27.70|NC|S|N|Collect Handful of Volatile Blooms, found in the orange flower bushes on the ground.\n\nThis will show on the mini-map for herbalists.|
-l Statue of Xuen|QID|31416|M|72.03,34.00|N|*High Value Rare Loot*\nLocated in the middle of the pond.\nProvides a vendor trash item worth 100 gold, and a lot of XP on looting.|Rank|3|
+l Statue of Xuen|QID|31416|M|72.03,34.00|N|*High Value Rare Loot*\nLocated in the middle of the pond.\nProvides a vendor trash item worth 100 gold, and a lot of XP on looting.|RANK|3|L|86422|
 C Handle With Care|QID|30943|M|70.04,27.70|NC|US|N|Finish collecting Handful of Volatile Blooms, found in the orange flower bushes on the ground.\n\nThis will show on the mini-map for herbalists.|
 C What's Yours Is Mine|QID|30945|US|M|71.17,28.66|N|Finish killing and looting the Amani Skullbreakers and Raptor-Handlers for the Blood-Staned Blades.|
 C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|US|N|Finish killing the Gurubashi Hexxer and Drakkari Frostweavers.|
@@ -634,10 +639,10 @@ T Handle With Care|QID|30943|M|63.23,28.68|N|To Elder Shu. He is upstairs on the
 T It Takes A Village|QID|30944|M|62.33,29.06|N|To Lorewalker Cho.|
 
 A Enemies At Our Door|QID|31011|M|62.33,29.06|N|From Lorewalker Cho.|
-C Enemies At Our Door|QID|31011|M|64.49,28.84|S|QO|Amani Berserker slain: 10/10|N|Kill Amani Berserkers.|
-C Enemies At Our Door|QID|31011|M|61.24,29.27|QO|Amani Behemoth slain: 5/5|NC|N|Roll the barrels down the hill.|
-C Enemies At Our Door|QID|31011|M|64.49,28.84|QO|Gurubashi Bloodrider slain: 3/3|N|Kill the Gurubashi Bloodriders. If you wait till the riders are at the gate, the defenders will assist.|
-C Enemies At Our Door|QID|31011|M|64.49,28.84|US|QO|Amani Berserker slain: 10/10|N|Finish killing the Amani Berserkers.|
+C Enemies At Our Door|QID|31011|M|64.49,28.84|S|QO|1|N|Kill Amani Berserkers.|
+C Enemies At Our Door|QID|31011|M|61.24,29.27|QO|2|NC|N|Roll the barrels down the hill.|
+C Enemies At Our Door|QID|31011|M|64.49,28.84|QO|3|N|Kill the Gurubashi Bloodriders. If you wait till the riders are at the gate, the defenders will assist.|
+C Enemies At Our Door|QID|31011|M|64.49,28.84|US|QO|1|N|Finish killing the Amani Berserkers.|
 T Enemies At Our Door|QID|31011|M|62.33,29.06|N|To Lorewalker Cho.|
 
 A Revelations|QID|30946|M|62.33,29.06|N|From Lorewalker Cho.|
@@ -645,18 +650,18 @@ C Revelations|QID|30946|M|62.46,28.88|CHAT|N|Speak to the Zandalari Prisoner, up
 T Revelations|QID|30946|M|62.33,29.06|N|To Lorewalker Cho.|
 
 A Prophet Khar'zul|QID|31228|M|62.33,29.06|N|From Lorewalker Cho.|
-C Prophet's Island|QID|31228|M|62.29,29.34|CHAT|N|Speak to Mishi just outside the tarvern on the right hand side, and tell her you're ready to leave. She will whisk you to the Isle of Reckoning.|QO|Speak with Mishi in Zouchin Village: 1/1|
-C Zandalari Forces|QID|31228|M|76.4,9.2|S|N|Kill the trolls as you make your way through the village.|QO|Zandalari forces slain: 12/12|
-C Prophet Khar'zul|QID|31228|M|76.4,9.2|N|Jump onto the table and kill Prophet Khar'zul. Stay on the table throughout the fight to avoid the bad stuff on the floor.|T|Prophet Khar'zul|QO|Prophet Khar'zul slain: 1/1|
-C Zandalari Forces|QID|31228|M|76.17,11.38|US|N|Finish killing the trolls as you head to Mishi.|QO|Zandalari forces slain: 12/12|
+C Prophet's Island|QID|31228|M|62.29,29.34|CHAT|N|Speak to Mishi just outside the tarvern on the right hand side, and tell her you're ready to leave. She will whisk you to the Isle of Reckoning.|QO|1|
+C Zandalari Forces|QID|31228|M|76.4,9.2|S|N|Kill the trolls as you make your way through the village.|QO|3|
+K Prophet Khar'zul|QID|31228|M|76.4,9.2|N|Jump onto the table and kill Prophet Khar'zul. Stay on the table throughout the fight to avoid the bad stuff on the floor.|T|Prophet Khar'zul|QO|2|
+C Zandalari Forces|QID|31228|M|76.17,11.38|US|N|Finish killing the trolls as you head to Mishi.|QO|3|
 F Zouchin Village|QID|31228|M|76.17,11.38|CHAT|N|Talk to Mishi for a ride back to the village. You must NOT be mounted.\nIf he is not there, go back up the stairs to the top and go back down.|
 T Prophet Khar'zul|QID|31228|M|62.33,29.06|N|To Lorewalker Cho.|
 
 H One Keg|QID|30592|N|Hearthstone to The Lucky Traveller. Fly to One Keg if you didn't reset your hearthstone earlier in the guide.|
 A The Burlap Trail: To Burlap Waystation|QID|30592|M|58.09,61.46|N|From Brother Lintpocket.|
-C The Burlap Trail: To Burlap Waystation|QID|30592|M|52.94,66.60|N|Press M on your map to determine the current location of the Trail Packers, head to that location, then escort them to the Burlap Waystation, there will be many attacks, and the Packers will die if you don't help them. Only the guide will fend off the attacks, and can die. You need to get only one Packer alive to The Burlap Trail to successfully complete the quest.|
+C The Burlap Trail: To Burlap Waystation|QID|30592|M|52.94,66.60|N|Press M to open your map and determine the current location of the Trail Packers, head to that location, then escort them to the Burlap Waystation. There will be many attacks, and the Packers will die if you don't help them. Only the guide will fend off the attacks, and can die. You need to get only one Packer alive to The Burlap Trail to successfully complete the quest.|
 T The Burlap Trail: To Burlap Waystation|QID|30592|M|51.66,67.83|N|To Brother Trailscenter.|
-A The Rabbitsfoot|QID|30602|M|58.04,61.49|M|51.66,67.83|N|From Brother Trailscenter.|
+A The Rabbitsfoot|QID|30602|M|51.66,67.83|N|From Brother Trailscenter.|
 C The Rabbitsfoot|QID|30602|NC|M|49.07,70.42|N|Rescue Brother Rabbitsfoot by clicking on him. He is hanging from a tree.|
 A The Broketooth Ravage|QID|30603|M|49.07,70.42|N|From Brother Rabbitsfoot.|
 K Mo Mo|QID|30603|T|Mo Mo|L|81137|M|48.2,72.8|N|Up the hill, in the cave, there is a treasure chest in the cave also, you probably want to loot it.|
@@ -669,11 +674,11 @@ A Breaking Broketooth|QID|30604|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 C Breaking Broketooth|QID|30604|S|M|55.44,70.84|
 C No Pack Left Behind|QID|30600|S|NC|M|53.35,74.45|N|These are sparkly grummle packs lying on the ground.|
 
-K Hateful Ko Ko|QID|30599|N|Kill Hateful Ko Ko, loot his corpse, then click on Ko Ko's Alter to destroy it.\nUse the Luckydoo to get a big critical strike buff.|T|Hateful Ko Ko|M|52.29,71.43|QO|Destroy Ko Ko's Altar: 1/1|
-K Dak Dak|QID|30599|T|Dak Dak|M|52.29,71.43|N|Kill Dak Dak, loot his corpse, then click on Dak Dak's Altar to destroy it. He wanders inside the cave, there is a skull on the mini-map to show his exact location.|QO|Destroy Dak Dak's Altar: 1/1|
-l Hozen Warrior Spear|QID|31413|M|51.56,73.95|N|*High Value Rare Loot*\nFound in the room adjacent to Dak Dak's alter, sticking out of the big rock that is in the water.\nProvides an i434 BoA Agility Polearm that sells for over 38 gold, and also a lot of XP on looting.|Rank|3|
+K Hateful Ko Ko|QID|30599|N|Kill Hateful Ko Ko, loot his corpse, then click on Ko Ko's Alter to destroy it.\nUse the Luckydoo to get a big critical strike buff.|T|Hateful Ko Ko|M|52.29,71.43|QO|2|
+K Dak Dak|QID|30599|T|Dak Dak|M|52.29,71.43|N|Kill Dak Dak, loot his corpse, then click on Dak Dak's Altar to destroy it. He wanders inside the cave, there is a skull on the mini-map to show his exact location.|QO|1|
+l Hozen Warrior Spear|QID|31413|M|51.56,73.95|N|*High Value Rare Loot*\nFound in the room adjacent to Dak Dak's alter, sticking out of the big rock that is in the water.\nProvides an i434 BoA Agility Polearm that sells for over 38 gold, and also a lot of XP on looting.|RANK|3|
 R Camp Broketooth|QID|30599|M|55,70|N|Leave the cave, then head to your right and into Camp Broketooth.|
-K Tak Tak|QID|30599|T|Tak Tak|M|56.78,70.97|N|At the back of the camp, kill Tak Tak, loot his corpse, then click on Tak Tak's Altar to destroy it.\nUse the Luckydoo to get a big critical strike buff.|QO|Destroy Tak Tak's Altar: 1/1|
+K Tak Tak|QID|30599|T|Tak Tak|M|56.78,70.97|N|At the back of the camp, kill Tak Tak, loot his corpse, then click on Tak Tak's Altar to destroy it.\nUse the Luckydoo to get a big critical strike buff.|QO|3|
 C No Pack Left Behind|QID|30600|US|M|53.35,74.45|
 C Breaking Broketooth|QID|30604|US|M|55.44,70.84|
 T A Monkey Idol|QID|30599|M|51.97,67.21|N|To Brother Rabbitsfoot.|
@@ -691,9 +696,9 @@ C Thumping Knucklethump|S|QID|30606|M|50.47,62.78|N|Kill the Silverback Hozen ar
 C The Snackrifice|QID|30608|M|50.58,62.54|NC|N|Either click the cages on the ground, or attack the rope from those behind hung up to dry as you make your way to cave at the back.|
 C Thumping Knucklethump|US|QID|30606|M|50.47,62.78|N|Finish killing the Silverback Hozen as you enter and traverse the cave.|
 K Cho Cho the Wicked|QID|30607|S|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key.|
-l Hozen Treasure Cache|QID|31414|M|49.5,59.4|N|*High Value Rare Loot*\nFound at the back of the cave at Knucklethump Hole.\nGives over 99 gold and a lot of XP on looting.|Rank|3|
+l Hozen Treasure Cache|QID|31414|M|49.5,59.4|N|*High Value Rare Loot*\nFound at the back of the cave at Knucklethump Hole.\nGives over 99 gold and a lot of XP on looting.|RANK|3|
 K Cho Cho the Wicked|QID|30607|US|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|In the back of the cave, kill Cho Cho and loot his key. Click on the lock to release Poot Poot. Poot Poot gives you a ride out.|
-C Hozen Love Their Keys|QID|30607|M|49.00,59.28|NC|N|Click on the lock to release Poot Poot. Poot Poot will give you a ride back to The Burlap Waystation.|QO|Release Old Poot Poot: 1/1|
+C Hozen Love Their Keys|QID|30607|M|49.00,59.28|NC|N|Click on the lock to release Poot Poot. Poot Poot will give you a ride back to The Burlap Waystation.|QO|2|
 T Hozen Love Their Keys|QID|30607|M|52.02,67.18|N|To Brother Yakshoe.|
 T The Snackrifice|QID|30608|M|52.02,67.18|N|To Brother Yakshoe.|
 A Grummle! Grummle! Grummle!|QID|30610|M|52.02,67.18|N|From Brother Yakshoe.|
@@ -707,12 +712,12 @@ C Unleash The Yeti!|QID|30611|M|46.56,62.95|US|N|Finish killing the Cagemasters.
 T Grummle! Grummle! Grummle!|QID|30610|M|45.94,64.05|N|To Brother Yakshoe, who is now at The Dooker Dome..|
 T Unleash The Yeti!|QID|30611|M|45.91,64.06|N|To Brother Rabbitsfoot, who is now at The Dooker Dome.|
 A The Leader Hozen|QID|30612|M|45.91,64.06|N|From Brother Rabbitsfoot.|
-C The Leader Hozen|QID|30612|M|46.15,63.24|N|Enter into the ring, and engage Chomp Chomp.|QO|Enrage Chomp Chomp: 1/1|
-C The Leader Hozen|QID|30612|M|46.15,63.24|N|Kill The Ook of Dook. Watch for the lightning bolts. |
+C The Leader Hozen|QID|30612|M|46.15,63.24|N|Enter into the ring, and engage Chomp Chomp.|QO|1|
+C The Leader Hozen|QID|30612|QO|2|M|46.15,63.24|N|Kill The Ook of Dook. Watch for the lightning bolts. |
 T The Leader Hozen|QID|30612|M|51.97,67.21|N|To Brother Rabbitsfoot, who has moved back to the Burlap Waystation.|
 
 A The Burlap Trail: To Kota Basecamp|QID|30692|M|51.66,67.83|N|From Brother Trailscenter.|
-C The Burlap Trail: To Kota Basecamp|QID|30692|M|43.77,69.04|M|As before, press M on your map to determine the current location of the Trail Packers, head to that location, then escort them to the Kota Basecamp, there will be many attacks, and the Packers will die if you don't help them. Only the guide will fend off the attacks, and can die. You need to get only one Packer alive to the Kota Basecamp to successfully complete the quest.|
+C The Burlap Trail: To Kota Basecamp|QID|30692|M|43.77,69.04|N|As before, press M to open your map and determine the current location of the Trail Packers, head to that location, then escort them to the Kota Basecamp. There will be many attacks, and the Packers will die if you don't help them. Only the guide will fend off the attacks, and can die. You need to get only one Packer alive to the Kota Basecamp to successfully complete the quest.|
 f Kota Basecamp|QID|30692|M|42.81,69.63|N|At Uncle Eastwind.|
 T The Burlap Trail: To Kota Basecamp|QID|30692|M|42.45,68.91|N|To Brother Oilyak.|
 h Kota Basecamp|QID|30744|M|42.67,69.76|N|Set your hearthstone at Clover Keeper.|
@@ -725,7 +730,7 @@ C Gourmet Kafa|QID|30743|S|M|39.99,71.67|NC|N|Click the Kafa'good Deposits found
 C Shut it Down|QID|30742|S|M|40.67,73.42|N|Kill the Kafa-Crazed Mountain Goats found on the mountainside.|
 C Trouble Brewing|QID|30745|S|M|37.83,77.90;39.39,75.23;37.16,68.20|CN|N|Yeti's are located in the caves, any of the caves will do.|
 C Kota Blend|QID|30744|S|U|81054|NC|M|36.38,76.94|N|Follow the flags up the mountain and head to the cave, picking the berries from the ground. Don't take any unnecessary risks on the mountains, they are plentiful when you reach the caves.|
-l Kafa Press|QID|31304|M|37.5,78.0;35.2,76.3|CS|N|*High Value Rare Loot*\nTalk to 'Frozen Trail Packer' who can be rarely found at the back of the cave.\nGives an item and a lot of XP on looting.|Rank|3|
+l Kafa Press|QID|31304|M|37.5,78.0;35.2,76.3|CS|N|*High Value Rare Loot*\nTalk to 'Frozen Trail Packer' who can be rarely found at the back of the cave.\nGives an item and a lot of XP on looting.|RANK|3|
 C Kota Blend|QID|30744|US|U|81054|NC|M|36.38,76.94|N|Follow the flags up the mountain and head to the cave, picking the berries from the ground. Don't take any unnecessary risks on the mountains, they are plentiful when you reach the caves.|
 T Kota Blend|QID|30744|N|To UI Alert.|M|36.38,76.94|
 A A Fair Trade|QID|30746|N|From UI Alert.|M|36.38,76.94|
@@ -755,9 +760,9 @@ A The Defense of Shado-Pan Fallback|QID|30665|M|44.49,89.88|N|From Shado-Master 
 C Turnabout|QID|30670|S|M|41.29,86.60|N|These drop from the little sha in the area.|
 C The Defense of Shado-Pan Fallback|QID|30665|S|M|44.45,88.63|
 A Holed Up|QID|30682|NC|M|42.99,88.33|N|From Sya Zhong. (Exit through north door)|
-C Ya Firebough rescued|QID|30682|NC|QO|Ya Firebough rescued: 1/1|M|41.08, 87.03|
-C Old Lady Fung rescued|QID|30682|NC|QO|Old Lady Fung rescued: 1/1|M|42.74, 85.76|
-C Jin Warmkeg rescued|QID|30682|NC|QO|Jin Warmkeg rescued: 1/1|M|43.86,86.22|
+C Ya Firebough rescued|QID|30682|NC|QO|2|M|41.08, 87.03|
+C Old Lady Fung rescued|QID|30682|NC|QO|3|M|42.74, 85.76|
+C Jin Warmkeg rescued|QID|30682|NC|QO|1|M|43.86,86.22|
 C Turnabout|QID|30670|US|M|41.29,86.60|N|These drop from the little sha in the area.|
 C The Defense of Shado-Pan Fallback|QID|30665|US|M|44.45,88.63|
 T Turnabout|QID|30670|M|44.47,89.91|N|To Shado-Master Chong.|
@@ -779,9 +784,9 @@ A A Line Unbroken|QID|30715|M|35.12,59.66|N|From Ban Bearheart.|
 f Winter's Blossom|QID|30715|M|34.54,59.12|N|At Kite Master Len.|
 A Better Dead than Dread|QID|31847|M|34.54,59.12|N|From Kite Master Len. Requires level 89, gives the flightpath to Brewmistriss Yi (not all of the quests to see Brewmaster Yi give the FP, so it may be worth coming back here to get this later, if you aren't 89 yet.|
 C Honor, Even in Death|QID|30723|S|M|30.22,62.06|
-C A Line Unbroken|QID|30715|M|30.36,60.05|QO|Shado-Master Zhiyao Released From his Oath: 1/1|NC|N|Click on the hero.|
-C A Line Unbroken|QID|30715|M|30.17,62.49|QO|Liu of the Thousand Blows Released From his Oath: 1/1|NC|N|Click on the hero.|
-C A Line Unbroken|QID|30715|M|29.97,64.44|QO|Shiya Boldblade Released From her Oath: 1/1|NC|N|Click on the hero.|
+C A Line Unbroken|QID|30715|M|30.36,60.05|QO|1|NC|N|Click on the hero.|
+C A Line Unbroken|QID|30715|M|30.17,62.49|QO|2|NC|N|Click on the hero.|
+C A Line Unbroken|QID|30715|M|29.97,64.44|QO|3|NC|N|Click on the hero.|
 C Honor, Even in Death|QID|30723|US|M|30.22,62.06|
 T A Line Unbroken|QID|30715|M|35.12,59.66|N|To Ban Bearheart.|
 T Honor, Even in Death|QID|30723|M|34.95,59.31|N|To Lin Silentstrike.|
@@ -792,7 +797,7 @@ A Off the Wall!|QID|30750|M|29.31,62.29|N|From Suna Silentstrike.|
 A A Terrible Sacrifice|QID|30751|M|29.24,62.30|N|From Lao-Chin the Iron Belly.|
 C A Terrible Sacrifice|QID|30751|S|M|26.27,59.10|
 C Off the Wall!|QID|30750|M|26.98,59.95|N|Right-click to boot them off the wall (at low health) or just kill them.|
-C A Terrible Sacrifice|QID|30751|US||26.27,59.10|
+C A Terrible Sacrifice|QID|30751|US|M|26.27,59.10|
 C Off the Wall!|QID|30750|M|26.98,59.95|N|Right-click to boot them off the wall (at low health) or just kill them.|
 T Off the Wall!|QID|30750|M|29.31,62.29|N|To Suna Silentstrike.|
 T A Terrible Sacrifice|QID|30751|M|29.24,62.30|N|To Lao-Chin the Iron Belly.|
@@ -807,8 +812,8 @@ C Finish This!|QID|30992|M|31.30,61.61|
 T Finish This!|QID|30992|M|31.29,61.50|N|To Ban Bearheart.|
 A Where are My Reinforcements?|QID|30993|M|31.30,61.61|N|From Ban Bearheart.|
 ;A My Husband...|QID|30768|M|31.30,61.61|N|From Suna Silentstrike.|;apparently Blizzard changed this to be mutually exclusive with 'Beyond the Wall' and 'The Shado-Pan Offensive' *it wasnt originally*??
-C Where are My Reinforcements?|QID|30993|M|31.30,61.61|NC|QO|Tell Ban You are Ready to Leave: 1/1|N|Talk to Ban while down in the valley|
-C Where are My Reinforcements?|QID|30993|M|33.96,58.62|NC|QO|Ride Ban's Balloon to the Shado-Pan Monastery: 1/1|N|Talk to Ban Bearheart and listen to his history lesson.|
+C Where are My Reinforcements?|QID|30993|M|31.30,61.61|NC|QO|1|N|Talk to Ban while down in the valley|
+C Where are My Reinforcements?|QID|30993|M|33.96,58.62|NC|QO|2|N|Talk to Ban Bearheart and listen to his history lesson.|
 T Where are My Reinforcements?|QID|30993|M|35.31,49.56|N|To Ban Bearheart.|
 A Unbelievable!|QID|30752|M|35.31,49.56|N|From Ban Bearheart.|
 C Unbelievable!|QID|30752|M|36.75,47.67|N|Ask the guard at the door to let you in, fight him when he refuses.|

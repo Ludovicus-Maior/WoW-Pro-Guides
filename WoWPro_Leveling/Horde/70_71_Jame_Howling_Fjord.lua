@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
+-- Date: 2014-11-08 05:34
+-- Who: Emmaleah
+-- Log: eliminate some ".|" and add an "N|" per big list o' errors
+
+-- URL: http://wow-pro.com/node/3288/revisions/26430/view
 -- Date: 2014-06-02 13:29
 -- Who: Ludovicus
 -- Log: Level Set.
@@ -135,8 +140,8 @@ A Help for Camp Winterhoof |QID|12566|M|71.5,39.2|N|From Longrunner Nanik.|
 C A Lesson in Fear |QID|11282|U|33563|N|Head just southwest, kill the Winterskorn Defenders until their respective bosses spawn, Oric the Baelful spawns near the house in rubbles to the north; Ulf the Bloodletter spawns in the middle; Gunnar Thorvardsson spawns next to the tower. Kill them and plant the Forsaken Banner on their corspes. You don't actually have to tag them, just plant the banner.|
 T A Lesson in Fear |QID|11282|M|71.1,39.1|N|To Sergeant Gorth.|
 
-A Baleheim Bodycount |QID|11283|N|From Sergeant Gorth.|M|71.1,39.1|.|
-A Baleheim Must Burn! |QID|11285|N|From Sergeant Gorth.|M|71.1,39.1|.|
+A Baleheim Bodycount |QID|11283|N|From Sergeant Gorth.|M|71.1,39.1|
+A Baleheim Must Burn! |QID|11285|N|From Sergeant Gorth.|M|71.1,39.1|
 C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|S|
 N Watchtower Burned |QID|11285|QO|Winterskorn Watchtower Burned: 1/1|U|33472|N|The watchtower is directly to your west, burn it.|M|67.3,39.7|
 N Bridge Burned |QID|11285|QO|Winterskorn Bridge Burned: 1/1|U|33472|N|Head behind the tower and go west to the bridge, burn it.|M|66.0,39.9|
@@ -144,9 +149,9 @@ N Dwelling Burned |QID|11285|QO|Winterskorn Dwelling Burned: 1/1|U|33472|N| Over
 C Baleheim Must Burn! |QID|11285|QO|Winterskorn Barracks Burned: 1/1|U|33472|N| The final structure is to the northwest, careful not to aggro the elite when you light it up.|M|64,40|
 C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|US|
 T Baleheim Bodycount |QID|11283|M|71.1,39.1|N|To Sergeant Gorth.|
-T Baleheim Must Burn! |QID|11285|N|To Sergeant Gorth.|M|71.1,39.1|.|
+T Baleheim Must Burn! |QID|11285|N|To Sergeant Gorth.|M|71.1,39.1|
 
-A The Ambush |QID|11303|N|From Sergeant Gorth.|M|71.1,39.1|.|
+A The Ambush |QID|11303|N|From Sergeant Gorth.|M|71.1,39.1|
 T The Ambush |QID|11303|M|65.9,36.8|N|To Lydell.|
 A Adding Injury to Insult |QID|12481|N|From Lydell.|M|65.9,36.8|
 C Adding Injury to Insult |QID|12481|U|33581|N|Bjorn Halgurdsson is southwest, fight your way to him and make sure you have a clear path back. Use the Vrykul Insult on him and run like hell back to Lydell. Let Lydell tank and you'll be fine.|M|64,39|
@@ -202,7 +207,7 @@ l Vrykul Scroll of Ascension |QID|11260|US|L|33345|N|Until you get the Vrykul Sc
 A Stop the Ascension! |QID|11260|U|33345|N|Click the scroll to start the quest.|
 C Stop the Ascension! |QID|11260|U|33346|N|Stand next to the Pyre and use the Vrykul Scroll of Ascension. Kill Halfdan the Ice-Hearted when he spawns.|M|44.9,35.3|
 C Towers of Certain Doom |QID|11259|U|33344|N|The final tower is southwest.|M|43,36|
-C Gruesome, But Necessary |QID|11257|U|33342|US|N|When you kill a Vrykul, use The Brave's Machete on the corpse.|US|
+C Gruesome, But Necessary |QID|11257|U|33342|US|N|When you kill a Vrykul, use The Brave's Machete on the corpse.|
 T Gruesome, But Necessary |QID|11257|U|33340|N|Summon the Brave if he's died or disappeared, then turn it in.|
 T Burn Skorn, Burn! |QID|11258|N|To the Winterhoof Brave.|
 T Towers of Certain Doom |QID|11259|N|To the Winterhoof Brave.|
@@ -368,7 +373,7 @@ C Against Nifflevar |QID|12482|N|Kill Dragonflayer Warriors, Rune-Seers, and Hun
 T Against Nifflevar |QID|12482|N|To Ranger Captain Areiel.|M|67.45,60.59|
 T The Enemy's Legacy |QID|11423|M|67.35,60.31|N|To Scribe Seguine.|
 l Shoveltusk Ligament |QID|11309|L|33611 6|N|Go kill Shoveltusks if you haven't finished this already.|M|67.69,62.81|
-C Parts for the Job |QID|11309|Anton patrols along the road between New Agamand and the Ancient Lift. If he's dead, he respawns at the waypoint.|M|53,74|
+C Parts for the Job |QID|11309|N|Anton patrols along the road between New Agamand and the Ancient Lift. If he's dead, he respawns at the waypoint.|M|53,74|
 T Shield Hill |QID|11424|N|To "Hacksaw" Jenny.|
 T Parts for the Job |QID|11309|N|To "Hacksaw" Jenny.|
 

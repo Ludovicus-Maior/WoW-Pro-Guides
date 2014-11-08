@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2014-11-08 03:29
+-- Who: Emmaleah
+-- Log: remove dup M tag on N Shutting down manaforge coruu (Scryer)
+
+-- URL: http://wow-pro.com/node/3284/revisions/26465/view
 -- Date: 2014-06-02 16:12
 -- Who: Ludovicus
 
@@ -267,7 +272,7 @@ C Information Gathering|QID|10198|NC|U|28607|M|48.25,83.85|N|Use the disguise an
 T Information Gathering|QID|10198|M|48.23,86.66|N|To Caledis Brightdawn.|REP|Scryers;934|
 A Shutting Down Manaforge Coruu|QID|10330|M|48.22,86.53|N|From Caledis Brightdawn.|REP|Scryers;934|
 l Coruu Access Crystal|QID|10330|M|49.01,81.52|L|29396|N|Head inside the Manaforge and kill Overseer Seylanna. Loot the crystal off of her corpse.|REP|Scryers;934|
-N Shutting Down Manaforge Coruu|QID|10330|M|49.01,81.52|M|23.19,68.16|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Coruu Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
+N Shutting Down Manaforge Coruu|QID|10330|M|49.01,81.52|N|Even though the quest comes up complete on the UI, it isn't (you can see that it isn't in the quest log). To finish it, click on the Coruu Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
 T Shutting Down Manaforge Coruu|QID|10330|M|48.25,86.66|N|To Caledis Brightdawn.|REP|Scryers;934|
 A Return to Thalodien|QID|10200|M|48.20,86.72|N|From Caledis Brightdawn.|REP|Scryers;934|
 C Potential Energy Source|QID|10239|US|M|50.78,81.46|N|Loot the Energy Isolation Cubes off the ground.|

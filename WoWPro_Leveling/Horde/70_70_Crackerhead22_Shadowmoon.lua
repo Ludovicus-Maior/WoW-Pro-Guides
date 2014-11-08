@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_horde
+-- Date: 2014-11-08 05:36
+-- Who: Emmaleah
+-- Log: Delete Dup REP tag
+
+-- URL: http://wow-pro.com/node/3286/revisions/26440/view
 -- Date: 2014-06-02 14:55
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -187,7 +192,7 @@ A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|REP|Ald
 A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|REP|Aldor;932|
 f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|REP|Aldor;932|
 l Tablets of Baa'ri|QID|10568|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
-C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932|REP|Aldor|
+C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932|
 l Tablets of Baa'ri|QID|10568|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
 
 l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|

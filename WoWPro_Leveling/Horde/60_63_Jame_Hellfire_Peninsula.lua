@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
+-- Date: 2014-11-08 05:57
+-- Who: Emmaleah
+-- Log: correct a missing "|" for H Falcon Watch
+
+-- URL: http://wow-pro.com/node/3272/revisions/26421/view
 -- Date: 2014-06-02 13:10
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -334,7 +339,7 @@ T Void Ridge |QID|10294|M|61.87,81.53|N|To Ogath the Mad.|
 A From the Abyss |QID|10295|M|61.87,81.53|N|From Ogath the Mad.|
 C Grillok "Darkeye" |QID|10834|N|He's at the cave infront of Zeth'Gor. Kill his guards, if you use a ranged pull he won't add. Kill Grillok "Darkeye".|M|66,71|
 C From the Abyss |QID|10295|N|Head east to Void Ridge. Then head south to  the two big violet crystals. HP/Mana up, the quest NPC spawns with two adds that heal him, but die fast, so kill them first. Use the Rift generator to summon him.|U|29226|M|81,79|
-H Falcon Watch|QID|9391|U|6948N|Hearth to Falcon Watch.|
+H Falcon Watch|QID|9391|U|6948|N|Hearth to Falcon Watch.|
 T Marking the Path |QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 R Den of Haal'esh |QID|9396|N|It's to the south.|M|26,71|
 C Birds of a Feather |QID|9397|U|23485|M|25.5,71.5|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|S|

@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2014-11-08 06:45
+-- Who: Emmaleah
+-- Log: Remove Dup N from A Survey the Lakeshore, and U's from C Survey the Lakeshore.
+--	Remove Dun N from A The pinnacle of learning.
+
+-- URL: http://wow-pro.com/node/3217/revisions/26456/view
 -- Date: 2014-06-02 15:24
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -187,11 +193,11 @@ T Profitability Scouting|QID|24452|M|29.46,57.67|N|To Commander Molotov.|
 A Private Chat|QID|24453|PRE|24452|RANK|2|M|29.46,57.67|N|From Commander Molotov.|
 T Private Chat|QID|24453|M|29.55,66.73|N|Back to the Orgrimmar Rocketway Exchange, to Private Worcester.|
 A A Thousand Stories in the Sand|QID|14201|M|29.7,66.9|N|From Malynea Skyreaver.|
-A Survey the Lakeshore|QID|14202|M|29.71,67.11|N|From Custer Clubnik.|N|Protect the goblin that you call with the beacon, while they survey the West, North and East Markers.|
+A Survey the Lakeshore|QID|14202|M|29.71,67.11|N|From Custer Clubnik.|
 C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|S|N|Collect Recovered Artifacts.|
-C Survey North Marker|QID|14202|U|48665|QO|Survey North Marker: 1/1|M|34.69,71.57|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
-C Survey  Marker|QID|14202|U|48665|QO|Survey East Marker: 1/1|M|37.37,74.61|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
-C Survey the Lakeshore|QID|14202|U|48665|QO|Survey West Marker: 1/1|M|34.29,76.62|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
+C Survey North Marker|QID|14202|U|48665|QO|Survey North Marker: 1/1|M|34.69,71.57|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
+C Survey  Marker|QID|14202|U|48665|QO|Survey East Marker: 1/1|M|37.37,74.61|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
+C Survey the Lakeshore|QID|14202|QO|Survey West Marker: 1/1|M|34.29,76.62|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
 C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|US|N|Collect Recovered Artifacts.|
 T A Thousand Stories in the Sand|QID|14201|M|29.64,66.86|N|To Malynea Skyreaver.|
 
@@ -389,7 +395,7 @@ C Trouble Under Foot|QID|14226|US|M|54.17,23.96|N|Use your Personal Arcane Assis
 T Trouble Under Foot|QID|14226|M|47.18,20.83|N|To the Image of Archmage Xylem. Use your personal Arcane Assistant to port you back.|
 T Manual Labor|QID|14230|M|47.28,21.20|N|To Teresa Spireleaf.|
 
-A The Pinnacle of Learning|QID|14413|M|47.28,20.80|N|From the Image of Archmage Xylem.|N|I found the next quest incredibly annoying, but there are quite a few after it, so it's your call.|
+A The Pinnacle of Learning|QID|14413|M|47.28,20.80|N|From the Image of Archmage Xylem. I found the next quest incredibly annoying, but there are quite a few after it, so it's your call.|
 T The Pinnacle of Learning|QID|14413|M|55.67,14.66|N|To the Image of Archmage Xylem.|
 A Watch Your Step|QID|14296|PRE|14413|M|55.67,14.66|N|From the Image of Archmage Xylem.|
 C Watch Your Step|QID|14296|M|55.95,11.89|N|Click on every conduit and run to the glowing circles to jump. Don't get hit by energy charges or you start over.|

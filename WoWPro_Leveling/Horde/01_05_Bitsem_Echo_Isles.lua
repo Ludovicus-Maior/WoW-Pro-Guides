@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-08 07:18
+-- Who: Emmaleah
+-- Log: Delete Dup PRE tag A A rough start (monk)
+
+-- URL: http://wow-pro.com/node/3199/revisions/26930/view
+-- Date: 2014-11-08 06:56
+-- Who: Emmaleah
+-- Log: Remove several Dup PRE tags and one Dup S
+
+-- URL: http://wow-pro.com/node/3199/revisions/26830/view
 -- Date: 2014-11-06 16:37
 -- Who: Fluclo
 -- Log: consistency typo (Should be From, not To)
@@ -266,14 +276,6 @@
 -- Date: 2010-12-04 19:06
 -- Who: Jiyambi
 
--- URL: http://wow-pro.com/node/3199/revisions/23573/view
--- Date: 2010-12-04 19:05
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3199/revisions/23337/view
--- Date: 2010-12-03 10:30
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Durotar (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,5,3) -- Faux, really all level 1!
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
@@ -331,7 +333,7 @@ T The Basics: Hitting Things|QID|24783|C|Priest|M|67.66,83.02|N|To Tunari.|
 T The Basics: Hitting Things|QID|24759|C|Shaman|M|64.94,84.21|N|To Nekali.|
 T The Basics: Hitting Things|QID|24777|C|Hunter|M|67.09,83.30|N|To Ortezza.|
 
-A A Rough Start|QID|31160|PRE|31158|C|Monk|PRE|31158|M|52.56,51.84|N|From Zabrax.|Z|Echo Isles|
+A A Rough Start|QID|31160|PRE|31158|C|Monk|M|52.56,51.84|N|From Zabrax.|Z|Echo Isles|
 A A Rough Start|QID|24767|PRE|24765|C|Druid|M|67.69,84.69|N|From Zen'tabra.|
 A A Rough Start|QID|24753|PRE|24721|C|Mage|M|68.22,83.99|N|From Soratha.|
 A A Rough Start|QID|24773|PRE|24771|C|Rogue|M|65.90,83.24|N|From Legati.|

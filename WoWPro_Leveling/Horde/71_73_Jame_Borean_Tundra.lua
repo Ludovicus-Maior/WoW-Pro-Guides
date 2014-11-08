@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2014-11-08 05:29
+-- Who: Emmaleah
+-- Log: remove Dup N and Dup Z per big list o' errors
+
+-- URL: http://wow-pro.com/node/3290/revisions/26439/view
 -- Date: 2014-06-02 14:54
 -- Who: Ludovicus
 -- Log: Level Adjustments
@@ -184,7 +189,7 @@ C The Trident of Naz'jan |QID|11625|N|Swim/fly southeast to Riplash Ruins. Kill 
 T The Trident of Naz'jan |QID|11625|N|Back to Veehja at the Shrine of Scales.|M|43.63,80.62|
 A The Emissary |QID|11626|M|43.6,80.5|N|From Veehja.|
 C The Emissary |QID|11626|U|35850|N|Swim to the large iceberg at Riplash Ruins and dive down to find Leviroth. Use the Trident of Naz'jan on him and finish him off.|M|51.40,88.19|
-T The Emissary |QID|11626|N|To Karuk.|M|47.15,75.39|N|To
+T The Emissary |QID|11626|N|To Karuk.|M|47.15,75.39|
 H Warsong Hold|QID|11652|U|6948|N|Hearth to Warsong Hold.|
 T The Plains of Nasam |QID|11652|M|41.3,53.6|N|To Garrosh Hellscream.|
 T Reinforcements Incoming... |QID|11618|M|38,52|N|To Shadowstalker Ickoris.|
@@ -660,7 +665,8 @@ C Across Transborea |QID|11930|N|Mount up and ride east along the road, don't lo
 
 T Across Transborea |QID|11930|N|To Wartook Iceborn.|M|12.76,51.68|Z|Dragonblight|
 A A Tauren Among Taunka |QID|11977|N|From Wartook Iceborn.|M|12.76,51.68|Z|Dragonblight|
-T A Tauren Among Taunka |QID|11977|Z|Dragonblight|N|To Emissary Brighthoof in Westwind Refugee Camp, she wanders around a bit.|M|13,49|Z|Dragonblight|
+T A Tauren Among Taunka |QID|11977|N|To Emissary Brighthoof in Westwind Refugee Camp, she wanders around a bit.|M|13,49|Z|Dragonblight|
 
 ]]
+
 end)

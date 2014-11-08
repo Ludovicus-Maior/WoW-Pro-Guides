@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_horde
+-- Date: 2014-11-08 05:59
+-- Who: Emmaleah
+-- Log: Delete Dup NC in C Loramus T... Awaits
+
+-- URL: http://wow-pro.com/node/3268/revisions/26445/view
 -- Date: 2014-06-02 15:01
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -219,7 +224,7 @@ T The Amulet of Allistarj|QID|25697|M|41.56,31.95;39.22,36.19|CS|N|To Bloodmage 
 T The Amulet of Sevine|QID|25698|M|39.22,36.19|N|To Bloodmage Lynnore.|
 T The Amulet of Grol|QID|25699|M|39.22,36.19|N|To Bloodmage Lynnore.|
 A Loramus Thalipedes Awaits|QID|25700|M|39.22,36.19|N|From Bloodmage Lynnore.|
-C Loramus Thalipedes Awaits|NC|QID|25700|NC|M|39.20,36.24|N|Speak to the bloodmage.|
+C Loramus Thalipedes Awaits|QID|25700|NC|M|39.20,36.24|N|Speak to the bloodmage.|
 T Loramus Thalipedes Awaits|QID|25700|M|39.33,35.81|N|To Loramus Thalipedes.|
 A You Are Rakh'likh, Demon|QID|25701|M|39.33,35.81|N|From Loramus Thalipedes.|
 C You Are Rakh'likh, Demon|QID|25701|U|56012|M|46.53,21.88;44.90,26.85|CS|N|Speak to the ghost to have him teleport you up to the mountain. Wait until Loramus summons the demon. Help him kill it (let him tank). When Loramus is possessed, defeat him, then use the knife.|

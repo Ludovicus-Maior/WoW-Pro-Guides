@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2014-11-08 03:38
+-- Who: Emmaleah
+-- Log: corrections per List O' Errors
+
+-- URL: http://wow-pro.com/node/3605/revisions/26788/view
 -- Date: 2014-11-04 08:36
 -- Who: Emmaleah
 -- Log: only changed a few things before Beta went down.  Added a few R steps and |T| tags.  Worked on the garrison building section at the end.  Guide will need more attention when WoD goes live.
@@ -222,7 +227,7 @@ A An Old Friend|QID|34943|M|72.75,19.66|N|From Kalandrios.|
 T An Old Friend|QID|34943|M|73.75,16.56;75.07,22.75|CS|N|To Gar'rok.|
 A A Rare Bloom|QID|34894|M|75.07,22.75|N|From Gar'rok.|
 A The Dead Do Not Forget...|QID|37318|M|79.45,30.38|N|From Murgok.
-C The Dead Do Not Forget...|QID|37318|NC|M|78.26,24.56|NC|N|These are scattered throughout the area of the bonus quest, so you might as well do it while you are here.|
+C The Dead Do Not Forget...|QID|37318|NC|M|78.26,24.56|N|These are scattered throughout the area of the bonus quest, so you might as well do it while you are here.|
 T The Dead Do Not Forget...|QID|37318|M|79.69,30.19|N|To the Boneseer's Cauldren *missed the name*.|
 
 R Elemental Plateau|QID|34881|NC|M|79.94,31.5;82.60,30.19;82.49,25.11;82.02,22.34|CS|N|Run up from where the first waymark shows on your map.|
@@ -284,7 +289,7 @@ C Silence the Call|QID|35084|QO|1|T|Ritualist Kuhlrath|M|54.64,67.19|
 C The Warsong Threat|QID|35271|NC|QO|4|M|54.57,67.10|
 C The Warsong Threat|QID|35271|NC|QO|3|M|51.86,67.75|
 C Disrupt the Rituals|QID|35083|NC|QO|3|M|50.45,69.99;50.39,71.06|CN|
-f Spirit Woods|QID|35084|M|49.38,75.91|N|At Nivek Lee.|N|Its a bit of a run over to this flight path, but...someday it may come in handy.|
+f Spirit Woods|QID|35084|M|49.38,75.91|N|At Nivek Lee. Its a bit of a run over to this flight path, but...someday it may come in handy.|
 C Silence the Call|QID|35084|QO|2|M|55.45,55.92|US|N|If somehow you avoided killing enough, now is the time to finish it.|
 T Disrupt the Rituals|QID|35083|M|46.77,57.46|N|To the Shamanstone.|
 T Silence the Call|QID|35084|M|46.77,57.46|N|To the Shamanstone.|
@@ -330,11 +335,11 @@ A The Pride of Lok-rath|QID|35097|M|55.50,42.10|N|From Uruk Foecleaver.|
 A Silence the War Machines|QID|35099|M|55.44,42.08|N|From Senior Sergeant Igerdes.|
 A If They Won't Surrender...|QID|35100|M|55.44,42.08|N|From Senior Sergeant Igerdes.|
 A Terror of Nagrand|QID|35101|M|55.44,42.08|N|From Fallen Horde Soldier.|
-C Silence the War Machines|QID|35099|M|55.69,46.39|S}N|These are shown on your map by yellow dots.|
+C Silence the War Machines|QID|35099|M|55.69,46.39|S|N|These are shown on your map by yellow dots.|
 C If They Won't Surrender...|QID|35100|M|53.93,45.40|S|
 C Terror of Nagrand|QID|35101|M|58.08,43.23|T|Shagor|
 C The Pride of Lok-rath|QID|35097|M|55.61,47.46|T|Uruk Foecleaver|
-C Silence the War Machines|QID|35099|M|55.69,46.39|US}N|These are shown on your map by yellow dots.|
+C Silence the War Machines|QID|35099|M|55.69,46.39|US|N|These are shown on your map by yellow dots.|
 C If They Won't Surrender...|QID|35100|M|53.93,45.40|US|
 T Silence the War Machines|QID|35099|M|49.43,47.82|N|To Blood Guard Ehanes.|
 T If They Won't Surrender...|QID|35100|M|49.43,47.82|N|To Blood Guard Ehanes.|
@@ -350,23 +355,23 @@ T Bread and Circuses|QID|35922|M|79.46,50.31|N|To Dexyl Deadblade.|
 A Ring of Trials: Crushmaul|QID|34662|M|79.46,50.31|N|From Dexyl Deadblade.|
 C Ring of Trials: Crushmaul|QID|34662|M|77.61,49.55|QO|1|CHAT|
 C Ring of Trials: Crushmaul|QID|34662|M|78.26,50.72|QO|2|N|Don't stand in front of his boar when it is running around riderless or you will be stunned.|
-T Ring of Trials: Crushmaul|QID|34662|M|79.46,50.28|To Dexyl Deadblade.|
+T Ring of Trials: Crushmaul|QID|34662|M|79.46,50.28|N|To Dexyl Deadblade.|
 A Ring of Trials: Raketalon|QID|34663|M|79.46,50.28|N|From Dexyl Deadblade.|PRE|34662|
 C Ring of Trials: Raketalon|QID|34663|M|77.61,49.55|CHAT|QO|1|
 C Ring of Trials: Raketalon|QID|34663|M|78.26,50.72|QO|2|N|Do not ignore the adds, kill them quickly and then back to Raketalon.|
-T Ring of Trials: Raketalon|QID|34663|M|79.46,50.28|To Dexyl Deadblade.|
+T Ring of Trials: Raketalon|QID|34663|M|79.46,50.28|N|To Dexyl Deadblade.|
 A Ring of Trials: Hol'yelaa|QID|34664|M|79.46,50.31|N|From Dexyl Deadblade.|PRE|34663|
 C Ring of Trials: Hol'yelaa|QID|34664|M|77.61,49.55|QO|1|CHAT|
 C Ring of Trials: Hol'yelaa|QID|34664|M|78.26,50.72|QO|2|N|Move out of melee range when he casts his groundstop, but run back when he is done as he will not come to you.|
-T Ring of Trials: Hol'yelaa|QID|34664|M|79.46,50.28|To Dexyl Deadblade.|
+T Ring of Trials: Hol'yelaa|QID|34664|M|79.46,50.28|N|To Dexyl Deadblade.|
 A Ring of Trials: Captain Boomspark|QID|34665|M|79.46,50.31|N|From Dexyl Deadblade.|PRE|34664|
 C Ring of Trials: Captain Boomspark|QID|34665|M|77.61,49.55|QO|1|CHAT|
 C Ring of Trials: Captain Boomspark|QID|34665|M|78.26,50.72|QO|2|N|Try to position him over the bombs when they are going to explode and NOT yourself.|
-T Ring of Trials: Captain Boomspark|QID|34665|M|79.46,50.28|To Dexyl Deadblade.|
+T Ring of Trials: Captain Boomspark|QID|34665|M|79.46,50.28|N|To Dexyl Deadblade.|
 A Ring of Trials: Roakk the Zealot|QID|34666|M|79.46,50.31|N|From Dexyl Deadblade.|PRE|34665|
 C Ring of Trials: Roakk the Zealot|QID|34666|M|77.61,49.55|QO|1|CHAT|
 C Ring of Trials: Roakk the Zealot|QID|34666|M|78.26,50.72|QO|2|N|Turn away when he casts blinding light or else you will be stunned for several seconds.|
-T Ring of Trials: Roakk the Zealot|QID|34666|M|79.46,50.28|To Dexyl Deadblade.|
+T Ring of Trials: Roakk the Zealot|QID|34666|M|79.46,50.28|N|To Dexyl Deadblade.|
 T Whacking Weeds|QID|36273|M|77.42,47.37|N|To Marybelle Walsh.|
 
 T Lost in Nagrand|QID|35167|M|74.15,37.55|N|To Olgra.|
@@ -406,7 +411,7 @@ A Tricks of the Trade|QID|37062|M|57.76,27.75|Z|Frostwall|BUILDING|Trading Post;
 C Lost in Transition|QID|37060|M|52.19,19.52|Z|Frostwall|N|These are scattered around your garrison.|
 C Tricks of the Trade|QID|37062|U|118418|M|44.51,14.48|Z|Frostwall|N|He is sleeping just outside  the gates.|
 T Tricks of the Trade|QID|37062|M|57.88,27.83|Z|Frostwall|N|To Fayla Fairfeather.|
-N Auctioning For Parts|QID|36948|M|57.88,27.83|Z|Frostwall|BUILDING|Trading Post;144;145|M|57.88,27.83|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.
+N Auctioning For Parts|QID|36948|M|57.88,27.83|Z|Frostwall|BUILDING|Trading Post;144;145|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.|
 T Lost in Transition|QID|37060|Z|Frostwall|M|52.87,40.64|N|To Yorn Longhoof.|
 
 ;if you choose tannery

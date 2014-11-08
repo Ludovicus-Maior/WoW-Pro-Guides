@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2014-11-08 03:23
+-- Who: Emmaleah
+-- Log: corrections per list o' errors. also added PRE tags on Amphitheater of Anguish and took out the HPs of the mobs due to 6.0 changes.
+
+-- URL: http://wow-pro.com/node/3295/revisions/26474/view
 -- Date: 2014-06-02 16:39
 -- Who: Ludovicus
 -- Log: Added mean level.
@@ -112,7 +117,7 @@ N READ THIS 3! |QID|12902|N|To do the optional quest abandon Into the Breach! an
 N Amphitheater of Anguish |QID|12948|N|While questing look for a group for the Amphitheater of Anguish. There are 6 quests here . You will need some of them for the Achievement, so anytime you can get in, do so. You must be 75 to do these quests.|
 N Amphitheater of Anguish |QID|12948|N|There is an optional leadin quest from Dalaran's Underbelly for the Amphitheater of Anguish, get that now before going to Light's Breach.|
 N Darkkari Offerings|QID|12859|N|As you kill things, loot everything. They have a chance to drop Drakkari Offerings (need 30 total) which are used in 3 quests, and give you a few types of buffs while in Zul'Drak.|
-A The Champion's Call! |QID|12974|O|Z|Dalaran|M|53.2,48.8|N|In the underbelly in Dalaran, find Shifty Vickers. This breadcrumb quest is not availible if you do ANY of the Amphitheater line and it counts to Loremaster.|
+A The Champion's Call! |QID|12974|O|Z|Dalaran|M|53.2,48.8|N|In the underbelly in Dalaran, find Shifty Vickers. This breadcrumb quest is not availible if you do ANY of the Amphitheater line and it counts to Loremaster.|LEAD|12932;12954|
 
 f Light's Breach |QID|12883|N|Fly to Light's Breach.|Z|Zul'Drak|M|32.05,74.50|
 T Into the Breach! |QID|12789|O|N|To Sargent Riannah, who is next to the Flightmaster.|M|32.05,74.50|
@@ -331,7 +336,7 @@ A Pure Evil |QID|12584|M|58.1,72.4|N|From Captain Rupert.|
 T Skimmer Spinnerets |QID|12553|M|58.3,72.0|N|To Specialist Cogwheel.|
 A Crashed Sprayer |QID|12583|M|58.3,72.0|N|From Specialist Cogwheel.|
 C Crashed Sprayer |QID|12583|N|Over near Crusader Josephine's tower .|M|48.80,75.56|
-T Crashed Sprayer |QID|12583|N|Back to the camp |M|58.28,72.05|N|To Specialist Cogwheel.|
+T Crashed Sprayer |QID|12583|M|58.28,72.05|N|Run back to the camp and turn in to Specialist Cogwheel.|
 
 A A Tangled Skein |QID|12555|M|58.3,72.0|N|From Specialist Cogwheel.|
 C A Tangled Skein |QID|12555|N|Oh! What a tangled skein we weave. Use the it on the plague sprayers.|U|38515|M|58.3,74.3|
@@ -441,7 +446,7 @@ C Hell Hath a Fury |QID|12674|QO|High Priestess Tua-Tua hexed at death: 1/1|U|39
 C Hell Hath a Fury |QID|12674|U|39158|N|Hawinni patrols the North side of the same tier. He's a big, hulking SOB.|M|75,54;78,54|CN|
 T Hell Hath a Fury |QID|12674|M|75.4,58.6|N|To Quetz'lun's Spirit.|
 A One Last Thing |QID|12675|M|75.4,58.6|N|From Quetz'lun's Spirit.|
-T One Last Thing |QID|12675|N|Back to Har'koa|M|63.73,70.44|N|To Har'koa.|
+T One Last Thing |QID|12675|M|63.73,70.44|N|To Har'koa.|
 
 A Blood of a Dead God |QID|12684|M|63.8,70.5|N|From Har'koa.|
 C Scalps! |QID|12659|N|Heb'Drakkar is just NE of Zim'Torga. Kill the trolls, loot them, then use the scalping knife.|U|38731|M|64.02,53.38|S|
@@ -500,26 +505,24 @@ A Unfinished Business |QID|29833|N|From Har'koa.|
 
 N Amphitheater of Anguish |QID|12948|N|If you haven't gotten the achievement yet (and you know you want it), get a group up for the Amphitheater of Anguish. |
 
-T The Champion's Call! |QID|12974|O|N|To Gurgthock.|M|48.43,56.35|O|
+t The Champion's Call! |QID|12974|N|To Gurgthock.|M|48.43,56.35|
 A The Amphitheater of Anguish: Yggdras!|QID|12932;12954|M|48.43,56.35|N|Welcome Champion of The Ring of Blood. From Gurgthock|
-C The Amphitheater of Anguish: Yggdras!|QID|12932;12954|M|48.00,57.00|N|L75 Worm, 106K Health.|
-T The Amphitheater of Anguish: Yggdras!|QID|12954|M|48.48,56.42|N|To Wodin the Troll-Servant.|
-T The Amphitheater of Anguish: Yggdras!|QID|12932|M|48.48,56.42|N|To Wodin the Troll-Servant.|
-
-A The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.43,56.35|N|From Gurgthock.|
-C The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.00,57.00|N|L75 Stinky Magnataur, 138K Health.|
+C The Amphitheater of Anguish: Yggdras!|QID|12932;12954|M|48.00,57.00|N|L75 Worm.|
+T The Amphitheater of Anguish: Yggdras!|QID|12954;12932|M|48.48,56.42|N|To Wodin the Troll-Servant.|
+A The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.43,56.35|N|From Gurgthock.|PRE|12932+12954|
+C The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.00,57.00|N|L75 Stinky Magnataur.|
 T The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.48,56.42|N|To Wodin the Troll-Servant.|
-A The Amphitheater of Anguish: From Beyond!|QID|12934|M|48.43,56.35|N|From Gurgthock.|
-C The Amphitheater of Anguish: From Beyond!|QID|12934|M|48.00,57.00|N|Pick one: Az'Barin, Prince of the Gust (165K), Duke Singen (165K), Erathius, King of Dirt (143K), Gargoral the Water Lord (165K).|
+A The Amphitheater of Anguish: From Beyond!|QID|12934|M|48.43,56.35|N|From Gurgthock.|PRE|12933|
+C The Amphitheater of Anguish: From Beyond!|QID|12934|M|48.00,57.00|N|One of the following: Az'Barin, Prince of the Gust, Duke Singen, Erathius, King of Dirt, Gargoral the Water Lord.|
 T The Amphitheater of Anguish: From Beyond!|QID|12934|M|48.48,56.42|N|To Wodin the Troll-Servant.|
-A The Amphitheater of Anguish: Tuskarrmageddon!|QID|12935|M|48.43,56.35|N|From Gurgthock.|
-C The Amphitheater of Anguish: Tuskarrmageddon!|QID|12935|M|48.00,57.00|N|L76 Tuskarr with pet, 198K Health.|
+A The Amphitheater of Anguish: Tuskarrmageddon!|QID|12935|M|48.43,56.35|N|From Gurgthock.|PRE|12934|
+C The Amphitheater of Anguish: Tuskarrmageddon!|QID|12935|M|48.00,57.00|N|L76 Tuskarr with pet.|
 T The Amphitheater of Anguish: Tuskarrmageddon!|QID|12935|M|48.48,56.42|N|To Wodin the Troll-Servant.|
-A The Amphitheater of Anguish: Korrak the Bloodrager!|QID|12936|M|48.43,56.35|N|From Gurgthock.|
-C The Amphitheater of Anguish: Korrak the Bloodrager!|QID|12936|M|48.00,57.00|N|L77 Troll, 228K Health.|
+A The Amphitheater of Anguish: Korrak the Bloodrager!|QID|12936|M|48.43,56.35|N|From Gurgthock.|PRE|12935|
+C The Amphitheater of Anguish: Korrak the Bloodrager!|QID|12936|M|48.00,57.00|N|L77 Troll.|
 T The Amphitheater of Anguish: Korrak the Bloodrager!|QID|12936|M|48.48,56.42|N|To Wodin the Troll-Servant.|
-A The Champion of Anguish|QID|12948|M|48.43,56.35|N|From Gurgthock.|M|48.43,56.35|N|From Gurgthock.|
-C The Champion of Anguish|QID|12948|M|48.00,57.00|N|From Gurgthock.|N|L77 DK, 250K Health.|
+A The Champion of Anguish|QID|12948|M|48.43,56.35|N|From Gurgthock.|PRE|12936|
+C The Champion of Anguish|QID|12948|M|48.00,57.00|N|L77 DK.|
 T The Champion of Anguish|QID|12948|M|48.48,56.42|N|To Wodin the Troll-Servant.|
 
 ]]

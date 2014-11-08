@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2014-11-08 05:45
+-- Who: Emmaleah
+-- Log: remove dup M tags per list o' errors
+
+-- URL: http://wow-pro.com/node/3280/revisions/26455/view
 -- Date: 2014-06-02 15:22
 -- Who: Ludovicus
 -- Log: Ste Levels
@@ -128,7 +133,7 @@ A Bring Me The Egg! |QID|10111|N|From Wazat.|M|61.7,67.1|
 C Bring Me The Egg! |N|If you don't have a flying mount then use the Jump-O-Matic, jump up to the birds nest (if you have a flying mount, fly up there), take the egg, and kill the bird that appears.|QID|10111|M|62.00,67.00|
 T Bring Me The Egg! |QID|10111|N|To Wazat.|M|61.7,67.1|
 T The Impotent Leader |QID|9888|N|To Kilrath.|Z|Terokkar Forest|M|20.0,61.0|
-A Don't Kill the Fat One |QID|9889|Z|Terokkar Forest|M|20.0,61.0|From Kilrath.|
+A Don't Kill the Fat One |QID|9889|Z|Terokkar Forest|M|20.0,61.0|N|From Kilrath.|
 C Don't Kill the Fat One |QID|9889|N|Head south to the ogre camp. Kill the 10 ogres FIRST. Then, fight Unkor. Don't use DoTs or stuns, it can cause him to bug out.|Z|Terokkar Forest|M|20,63|
 T Don't Kill the Fat One |QID|9889|M|20.0,63.0|N|To Unkor the Ruthless.|
 A Success! |QID|9890|Z|Terokkar Forest|M|20.0,63.0|N|From Unkor the Ruthless.|
@@ -217,15 +222,15 @@ K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof. 
 
 C Once Were Warriors |QID|9865|N|Kill Murkblood Scavengers and Raiders.|S|M|32.85,44.66|
 C Murkblood Corrupters |QID|9862|N|Kill Murkblood Putrifiers.|S|M|32.85,44.66|
-C Vile Idolatry |QID|9863|M|32.0,39.0|N|Loot Murkbloods to get the Idols.|S|M|32.85,44.66|
-C Murkblood Leaders... |QID|9867|N|Ortor is in the large building.|M|31,42|M|32.85,44.66|
+C Vile Idolatry |QID|9863|N|Loot Murkbloods to get the Idols.|S|M|32.85,44.66|
+C Murkblood Leaders... |QID|9867|N|Ortor is in the large building.|M|32.85,44.66|
 C The Spirit Polluted |QID|9810|N|Head south through Sunspring Post. Dive into Sunspring Lake, pop a Nagrand Cherry, and kill what is needed.|U|24421|M|33.2,50.1|
 
 A The Totem of Kar'dash |QID|9868|N|From the Mag'har Captive. He's in a building. Clear all around it, there are two tough ambushes, one almost immediately. Always kill Putrifiers first.|M|31.3,44.1|
 C The Totem of Kar'dash |QID|9868|N|Always kill Putrifiers first, the Mag'har Captive can take out Scavengers on his own, but that's about it, he's fairly fragile compared to other escorts.|
 C Murkblood Corrupters |QID|9862|N|Kill Murkblood Putrifiers.|US|M|32.85,44.66|
 C Once Were Warriors |QID|9865|N|Kill Murkblood Scavengers and Raiders.|US|M|32.85,44.66|
-C Vile Idolatry |QID|9863|M|32.0,39.0|N|Loot Murkbloods to get the Idols.|US|M|32.85,44.66|
+C Vile Idolatry |QID|9863|N|Loot Murkbloods to get the Idols.|US|M|32.85,44.66|
 T Once Were Warriors |QID|9865|N|To Saurfang the Younger.|M|32.5,36.0|
 A He Will Walk The Earth... |QID|9866|M|32.5,36.0|N|From Saurfang the Younger.|
 T The Spirit Polluted |QID|9810|M|60.5,22.4|N|To Ementalist Lo'ap.|

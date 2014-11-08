@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-08 04:19
+-- Who: Emmaleah
+-- Log: correct errors per list o' errors
+
+-- URL: http://wow-pro.com/node/3587/revisions/26725/view
 -- Date: 2014-10-15 00:12
 -- Who: Emmaleah
 -- Log: yet another edit, rearranged the order on some stuff, realized the building quests needed to be at the end since it takes an hour to build them.  - 2 quests have a bad turn in sequence that I need to fix next time through - which should be this week
@@ -51,7 +56,7 @@ return [[
 ;i know you will still be 90 when you start this guide, but if i register it as 91, then it will sort after the Tanaan Jungle Intro guide
 ;from an perusal of wowhead for quests that are not 100, or pvp or alliance and not in this quide === need to find out more about them
 ;A Gift for Raa'la	33957	?? sounds like in worgol?? the flaver text reminds me of young hearts
-;Mission Successful	34079
+;Mission Successful	34079  ?? sounds like its after the thunderlord pass scenario, maybe if you don't choose a follower??
 
 N Welcome to Frostfire Ridge|QID|33868|M|40.75,67.10|N|If you don't have rested experience or some other experience booster you will want to do at least one of the bonus objectives in this zone, as there is a quest about 2/3 through the guide that requires level 92, that you will be just shy of if you don't pick up a little extra XP along the way.|
 N Treasure|QID|33868|M|40.75,67.10|N|The guide mentions some but not nearly all the treasure to be found in the zone. At some point while questing you will recieve a treasure map that when you use it shows all the potential treasure on your map.|
@@ -68,9 +73,9 @@ C For the Horde!|QID|34364|M|48.68,64.89|NC|N|Click on the faintly glowing banne
 T For the Horde!|QID|34364|M|48.74,64.91|N|To Gazlowe.|
 A Back to Work|QID|34375|M|48.74,64.91|N|From Gazlowe.|
 A A Gronnling Problem|QID|34592|M|48.74,64.91|N|From Gazlowe.|
-C A Gronnling Problem|QID|34592|M|47.42,66.34|S|Kill gronns as you mark trees.|
+C A Gronnling Problem|QID|34592|M|47.42,66.34|S|N|Kill gronns as you mark trees.|
 C Back to Work|QID|34375|M|47.28,62.68|NC|N|Click on the flags in front of the trees to mark them.|
-C A Gronnling Problem|QID|34592|M|47.42,66.34|US|Find the rest of the gronns you need to kill.|
+C A Gronnling Problem|QID|34592|M|47.42,66.34|US|N|Find the rest of the gronns you need to kill.|
 T Back to Work|QID|34375|M|48.76,64.91|N|To Gazlowe.|
 T A Gronnling Problem|QID|34592|M|48.76,64.91|N|To Gazlowe.|
 A The Den of Skog|QID|34765|M|48.76,64.91|N|From Gazlowe.|
@@ -102,7 +107,7 @@ C Build Your Barracks|QID|34461|M|57.47,48.38|NC|QO|5|N|Follow Gazlowe over to t
 T Build Your Barracks|QID|34461|M|57.47,48.38|N|To Gazlowe.|Z|Frostwall|
 A We Need An Army|QID|34861|M|57.47,48.38|N|From Gazlowe.|Z|Frostwall|
 A Winds of Change|QID|34462|M|53.85,54.81|N|From Warmaster Zog.|Z|Frostwall|
-T We Need An Army|QID|34861|M|53.85,54.81|N|To Warmaster Zog.|N|He is inside your Town Hall.|Z|Frostwall|
+T We Need An Army|QID|34861|M|53.85,54.81|N|To Warmaster Zog who is inside your Town Hall.|Z|Frostwall|
 C Winds of Change|QID|34462|M|50.19,60.01;55.27,62.12;57.32,62.90|CS|NC|N|He is just inside the cave.|
 T Winds of Change|QID|34462|M|53.87,54.89|N|To Warmaster Zog.|Z|Frostwall|
 A Mission Probable|QID|34775|M|53.87,54.89|N|From Warmaster Zog.|Z|Frostwall|
@@ -244,22 +249,23 @@ A Ga'nar's Vengeance|QID|32783|M|43.13,41.23|Z|Bladespire Citadel|N|From Durotan
 A Securing the South|QID|32989|M|43.13,41.23|Z|Bladespire Citadel|N|From Durotan.|
 R Frostboar Drifts|QID|33412|M|17.76,41.96|N|Head straight out of the Citadel and take a right at Gormaul Tower, down into the valley.|
 C Wanted: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|
-T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrim the Resolute.|A The Cure|QID|33454|M|24.30,28.30|N|From Igrim the Resolute.|
-A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrim the Resolute.|
+T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrimar the Resolute.|
+A The Cure|QID|33454|M|24.30,28.30|N|From Igrimar the Resolute.|
+A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrimar the Resolute.|
 C The Cure|QID|33454|M|27.17,26.98|S|N|Kill Geomancers to loot the antidote, use it on the gladiators.|
 K Thunk|QID|33450|M|27.0,25.6|QO|1|N|Inside the building.|T|Thunk|
 K Gullok|QID|33450|M|27.97,23.56|QO|2|N|Inside the building up the hill.|T|Gullok|
 K Splorg|QID|33450|M|28.4,16.1|QO|3|N|In the cave.|T|Splorg|
 C The Cure|QID|33454|M|27.17,26.98|US|N|Finish curing the gladiators.|
-T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrim the Resolute.|
-T The Cure|QID|33454|M|24.30,28.30|N|To Igrim the Resolute.|
-A The Fall of the Warlord|QID|33467|M|24.30,28.30|N|From Igrim the Resolute.|
+T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrimar the Resolute.|
+T The Cure|QID|33454|M|24.30,28.30|N|To Igrimar the Resolute.|
+A The Fall of the Warlord|QID|33467|M|24.30,28.30|N|From Igrimar the Resolute.|
 C The Fall of the Warlord|QID|33467|M|23.2,26.6|N|Click on the weapon stand to summon Bult.|T|Warlord Bult|
 
 R Daggermaw Ravine|QID|32783|M|30.89,25.84|N|Run roughly northeast from the Ring of Blood to Daggermaw Ravine.|
 T Ga'nar's Vengeance|QID|32783|M|30.89,25.84|N|To Ga'nar|
 A Let the Hunt Begin!|QID|32791|M|30.89,25.84|N|From Ga'nar.|
-C Let the Hunt Begin!|QID|32791|M|30.89,25.84|QO|1|CHAT|Tell Ga'nar you are ready|
+C Let the Hunt Begin!|QID|32791|M|30.89,25.84|QO|1|CHAT|N|Tell Ga'nar you are ready|
 C Let the Hunt Begin!|QID|32791|M|36.45,26.17|QO|2|N|Stay at this location until his followers advance.  If you mess this up, drop and restart.|
 C Let the Hunt Begin!|QID|32791|M|36.00,25.78|
 T Let the Hunt Begin!|QID|32791|M|36.00,25.78|N|To Ga'nar.|
@@ -329,8 +335,8 @@ T Ashran Appearance|QID|36706|M|45.48,34.66|Z|Warspear|N|To Stomphoof.|
 A Warspear Welcome|QID|36707|PRE|36706|M|45.48,34.66|Z|Warspear|N|From Stomphoof.|
 T Warspear Welcome|QID|36707|M|44.15,45.42|Z|Warspear|N|To Lieutenant Kragil.|
 A Inspiring Ashran|QID|36708|PRE|36707|M|44.15,45.42|Z|Warspear|N|From Lieutenant Kragil inside the Brokenspear Tavern.|
-C Inspiring Ashran|QID|36708|QO|1|M|45.0,43.2|Z|Warspear|CHAT|In the same building you are in. She is the innkeeper if you would prefer to be bound here.  Subsequent guides advise you for time saving reasons to be bound at your inn in that zone.|
-C Inspiring Ashran|QID|36708|QO|2|M|58.9,52.0|Z|Warspear|CHAT|Inside the Tower of Elements. There is also a portal to Orgrimmar in this building.|
+C Inspiring Ashran|QID|36708|QO|1|M|45.0,43.2|Z|Warspear|CHAT|N|In the same building you are in. She is the innkeeper if you would prefer to be bound here.  Subsequent guides advise you for time saving reasons to be bound at your inn in that zone.|
+C Inspiring Ashran|QID|36708|QO|2|M|58.9,52.0|Z|Warspear|CHAT|N|Inside the Tower of Elements. There is also a portal to Orgrimmar in this building.|
 C Inspiring Ashran|QID|36708|QO|3|M|53.86,61.13|Z|Warspear|CHAT|N|Inside Warspear Hold.  This is where the bankers and quartermasters are located also.|
 T Inspiring Ashran|QID|36708|M|44.19,45.43|Z|Warspear|N|To Lieutenant Kragil.|
 A Burning Beauty|QID|36709|PRE|36708|M|44.19,45.43|Z|Warspear|N|From Lieutenant Kragil.|
@@ -348,7 +354,7 @@ A Of Fire and Thunder|QID|33013|M|41.67,53.00|N|From Wounded Frostwolf Shaman.|
 C Ask Suma|QID|32990|CHAT|QO|2|M|41.4,52.8|
 T The Fractured Hammer|QID|36205|M|41.2,52.89|P|Blacksmithing;164|N|To Axe-Shaper Kurga.|
 A Waruk the Frostforged|QID|36207|M|41.2,52.89|PRE|36205|P|Blacksmithing;164|N|From Axe-Shaper Kurga.|
-C Ask Rota|QID|32990|CHAT|M|39.9,52.8|QO|3|M|41.7,53.0|
+C Ask Rota|QID|32990|CHAT|M|39.9,52.8|QO|3|
 C Ask Dungar|QID|32990|CHAT|M|39.18,52.46|QO|4|
 T They Who Held Fast|QID|32990|M|38.54,52.44|N|To Lokra.|
 A Into the Boneslag|QID|32991|M|38.54,52.44|N|From Lokra.|
@@ -356,7 +362,7 @@ A Into the Boneslag|QID|32991|M|38.54,52.44|N|From Lokra.|
 ;alchemy profession quest
 T The Alchemist|QID|35103|M|38.03,47.45|N|To Kadar.|P|Alchemy;171|
 A The Apprentice|QID|35104|M|38.03,47.45|PRE|35103|N|From Kadar.|P|Alchemy;171|
-C The Apprentice|QID|35104|M|37.71,47.47|NC|Remove the rubble ontop of Ang'kra.|P|Alchemy;171|
+C The Apprentice|QID|35104|M|37.71,47.47|NC|N|Remove the rubble on top of Ang'kra.|P|Alchemy;171|
 T The Apprentice|QID|35104|M|37.71,47.47|N|To Ang'kra.|P|Alchemy;171|
 A Avenge and Reclaim|QID|35106|M|37.71,47.47|PRE|35104|N|From Ang'kra.|P|Alchemy;171|
 C Avenge and Reclaim|QID|35106|M|41.86,40.28|P|Alchemy;171|T|Or'Nak|
@@ -368,7 +374,7 @@ C Into the Boneslag|QID|32991|NC|M|40.4,49|QO|1|
 C Into the Boneslag|QID|32991|NC|M|41.1,44.7|QO|2|
 C Of Fire and Thunder|QID|33013|NC|M|43.2,44.4|QO|1|
 C Into the Boneslag|QID|32991|CHAT|M|44.31,43.03|QO|3|
-C Of Fire and Thunder|QID|33013|NC|1|M|44.71,43.43|QO|2|
+C Of Fire and Thunder|QID|33013|NC|M|44.71,43.43|QO|2|
 T Of Fire and Thunder|QID|33013|M|44.71,43.43|N|To UI Alert.|
 T Into the Boneslag|QID|32991|M|47.57,45.57|N|To Lokra.|
 A Moving Target|QID|32992|M|47.57,45.57|N|From Lokra.|
@@ -443,7 +449,7 @@ T Moving Target|QID|32992|M|55.49,56.63|N|To Lokra.|
 A The Strength of Our Bonds|QID|32993|M|55.49,56.63|N|From Lokra.|
 T The Strength of Our Bonds|QID|32993|M|63.21,60.04|N|To Karg Bloodfury.|
 A Where's My Wolf?!|QID|33826|M|63.22,60.02|N|From Karg Bloodfury.|
-A Karg Unchained|QID|33785|M|63.22,60.02|From Karg Bloodfury.|
+A Karg Unchained|QID|33785|M|63.22,60.02|N|From Karg Bloodfury.|
 C Karg Unchained|QID|33785|M|63.22,60.02|S|N|Kill them all.|
 C Where's My Wolf?!|QID|33826|M|65.9,60.8|T|Huntmaster Torash|QO|1|
 A Dagg at Gromgar|QID|34651|M|65.9,60.8|N|There is no quest !, but if you want Dagg to be your follower later, you need to free him from this cage.|
@@ -511,12 +517,12 @@ T Lost in Transition|QID|37060|M|52.87,40.64|N|To Yorn Longhoof.|
 
 ;tannery
 A Your First Leatherworking Work Order|QID|36642|M|53.00,41.32|BUILDING|Tannery;90;121;122|N|From Murne Greenhoof.|
-B Raw Beast Hide|QID|36642|M|52.84,47.29|BUILDING|Tannery;90;121;122|L|110609 5|Acquire from skinning or the Auction House or some other method.|
+B Raw Beast Hide|QID|36642|M|52.84,47.29|BUILDING|Tannery;90;121;122|L|110609 5|N|Acquire from skinning or the Auction House or some other method.|
 C Place work order|QID|36642|M|52.84,47.29|QO|1|CHAT|L|110609 5|N|At Yanny.|
 C Pick up work order|QID|36642|M|52.95,41.3|QO|2|NC|L|110609 5|N|At Yanny.|
 t Your First Leatherworking Work Order|QID|36642|M|52.84,47.29|N|To Yanny.|
 A Your Second Leatherworking Work Order|QID|37593|M|53.00,41.32|BUILDING|Tannery;90;121;122|PRE|36642|N|From Murne Greenhoof.|
-B Raw Beast Hide|QID|37593|M|52.84,47.29|BUILDING|Tannery;90;121;122|L|110609 5|Acquire from skinning or the Auction House or some other method.|
+B Raw Beast Hide|QID|37593|M|52.84,47.29|BUILDING|Tannery;90;121;122|L|110609 5|N|Acquire from skinning or the Auction House or some other method.|
 C Place work order|QID|37593|M|52.84,47.29|CHAT|L|110609 5|N|At Yanny.|
 t Your Second Leatherworking Work Order|QID|37593|M|52.84,47.29|N|To Yanny.|
 
@@ -546,7 +552,7 @@ T Your Second Blacksmithing Work Order|QID|35172|M|48.32,31.64|Z|Frostwall|BUILD
 A Your First Jewelcrafting Work Order|QID|37573|M|48.22,32.51|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Dorogarr.|
 B Blackrock Ore|QID|37573|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
 C Place first order|QID|37573|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|CHAT|N|Talk to Elrondir Surrion to start a work order.|
-C Pick up first order|QID|37573|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|GemBoutique;96;131;132|NC|N|From the bundles, barrels and boxes beside the building, called 'Jewelcrafting Work Order' .|
+C Pick up first order|QID|37573|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|GemBoutique;96;131;132|NC|N|From the bundles, barrels and boxes beside the building, called 'Jewelcrafting Work Order'.|
 T Your First Jewelcrafting Work Order|QID|37573|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Elrondir Surrion.|
 A Your Second Jewelcrafting Work Order|QID|37592|M|48.22,32.51|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Dorogarr.|PRE|37573|
 B Blackrock Ore|QID|37592|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|L|109118 5|N|Acquire from mining herbs or the Auction House or some other method.|
@@ -568,7 +574,7 @@ T Your Second Alchemy Work Order|QID|37584|M|48.32,31.64|Z|Frostwall|BUILDING|Al
 A Your First Inscription Work Order|QID|37572|M|48.22,32.51|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|From Urgra.|
 B Cereleun Pigment|QID|37572|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|L|114931 2|N|Acquire from milling Draenor herbs or the Auction House or some other method.|
 C Place first order|QID|37572|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|CHAT|N|Talk to Y'rogg to start a work order.|
-C Pick up first order|QID|37572|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bundles, barrels and boxes beside the building, called 'Inscription Work Order' .|
+C Pick up first order|QID|37572|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bundles, barrels and boxes beside the building, called 'Inscription Work Order'.|
 T Your First Inscription Work Order|QID|37572|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|From Y'rogg.|
 A Your Second Inscription Work Order|QID|36841|M|48.22,32.51|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|From Urgra.|PRE|37572|
 B Cereleun Pigment|QID|36841|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|L|114931 2|N|Acquire from milling Draenor herbs or the Auction House or some other method.|
@@ -580,13 +586,13 @@ A Your First Engineering Work Order|QID|37571|M|53.97,37.33|BUILDING|Engineering
 B True Iron Ore|QID|37571|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
 B Blackrock Ore|QID|37571|L|109119 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 True Iron Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
 C Place first work order|QID|37571|CHAT|QO|1|M|53.13,36.18|N|At Garbra Fizzwonk.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
-C Pick up first work order|QID|37571|NC|QO|2|M|51.84,35.94|Z|Frostwall|N|At the pile of boxes and bags named 'Engineering Work Order.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
+C Pick up first work order|QID|37571|NC|QO|2|M|51.84,35.94|Z|Frostwall|N|At the pile of boxes and bags named 'Engineering Work Order.|BUILDING|EngineeringWorks;93;123;124|
 T Your First Engineering Work Order|QID|37571|M|53.47,36.94|N|To Garbra Fizzwonk.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
 A Your Second Engineering Work Order|QID|37590|M|52.24,37.74|Z|Frostwall|N|From Pozzlow.|BUILDING|EngineeringWorks;93;123;124|PRE|37571|
 B True Iron Ore|QID|37590|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
 B Blackrock Ore|QID|37590|L|109119 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 True Iron Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
 C Place your order|QID|37590|M|51.92,36.74|Z|Frostwall|BUILDING|EngineeringWorks;93;123;124|
-T Your Second Engineering Work Order|QID|37590|M|52.30,37.28|N|To Pozzlow.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|N|To Pozzlow.|
+T Your Second Engineering Work Order|QID|37590|M|52.30,37.28|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|N|To Pozzlow.|
 
 ;if you chose enchanting hut
 A Your First Enchanting Work Order|QID|36645|M|52.95,37.31|N|From Yukla Greenshadow.|BUILDING|EnchantingHut;93;125;126|
@@ -594,7 +600,7 @@ B Draenic Dust|QID|37568|M|51.85,35.76|L|109693 5|N|Use the Essence Font in you 
 C Place first work order|QID|37568|M|51.85,35.76|QO|1|CHAT|N|At Garra.|BUILDING|EnchantingHut;93;125;126|
 C Pick up first work order|QID|37568|M|51.85,35.76|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
 T Your First Enchanting Work Order|QID|37568|M|52.56,36.72|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
-A Your Second Enchanting Work Order|QID|3683975|52.95,37.31|N|From Yukla Greenshadow.|PRE|375686BUILDING|EnchantingHut;93;125;126|
+A Your Second Enchanting Work Order|QID|3683975|M|52.95,37.31|N|From Yukla Greenshadow.|PRE|37568|BUILDING|EnchantingHut;93;125;126|
 B Draenic Dust|QID|36839|M|51.85,35.76|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
 C Place your order|QID|36839|M|51.80,36.01|CHAT|BUILDING|EnchantingHut;93;125;126|N|At Garra.|
 T Your Second Enchanting Work Order|QID|36839|M|52.41,36.90|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
