@@ -5,6 +5,8 @@ WoWPro.Achievements.GuideList = {}
 WoWPro.Achievements.GuideList.Guides = {}
 
 WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
+-- Creating a Table of Guides for the Guide List and sorting based on level --
+local guides
 
 function WoWPro.Achievements.Scrape()
     WoWProDB.global.Achievements.Category = {}
@@ -60,7 +62,7 @@ end
     
 -- Creating a Table of Guides for the Guide List and sorting based on level --
 local function Init()
-    local guides = {}
+    guides = {}
     if not WoWProDB.global.Achievements.Category then
         WoWPro.Achievements.Scrape()
     end
