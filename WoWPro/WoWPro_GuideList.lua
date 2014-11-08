@@ -180,9 +180,16 @@ function WoWPro:UpdateGuideList()
 		local iGuide = self.GuideList.Guides[row.i]
 		if iGuide then
 			local GID = iGuide.GID			
+            local r,g,b = 1 , 1, 1
+        
+            if iGuide.guide.level then
+                r, g, b =  unpack(WoWPro.LevelColor(iGuide.guide))
+            end
+
 			-- Walk over the list of fields, resetting the values
 			for _,colDesc in pairs(self.GuideList.Format) do
 			    local button = row[colDesc[1]]
+			    button:SetTextColor(r, g, b, 1)
 			    if type(iGuide[colDesc[1]]) == "function" then
 			        button:SetText(iGuide[colDesc[1]]())
 			    else
