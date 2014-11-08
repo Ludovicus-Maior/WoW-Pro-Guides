@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-11-08 13:05
+-- Who: Ludovicus
+-- Log: Extra NC
+
+-- URL: http://wow-pro.com/node/3212/revisions/26932/view
 -- Date: 2014-11-08 07:10
 -- Who: Emmaleah
 -- Log: Delete Dup NC Rollin with my homies ... and who knew Kazan and lost isle would be on the same wiki page /sigh

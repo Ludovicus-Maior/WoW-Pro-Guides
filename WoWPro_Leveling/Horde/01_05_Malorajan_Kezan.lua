@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2014-11-08 13:05
+-- Who: Ludovicus
+-- Log: Extra NC
+
+-- URL: http://wow-pro.com/node/3212/revisions/26932/view
 -- Date: 2014-11-08 07:10
 -- Who: Emmaleah
 -- Log: Delete Dup NC Rollin with my homies ... and who knew Kazan and lost isle would be on the same wiki page /sigh
@@ -205,7 +210,7 @@ T Megs in Marketing|QID|28349|M|58.22,76.61|N|To Megs Dreadshredder.|
 
 A Rolling with my Homies|QID|14071|M|58.22,76.61|N|From Megs Dreadshredder.|PRE|28349|
 C Rolling with my Homies |QID|14071|U|46856|N|You have access to a Hot Rod, which will allow you to move quicker in Kezan. Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration. The Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable. Use the key now to board your Hot Rod. If you need to dismount for any reason, right click the Hot Rod buff at the top right of your screen.|QO|1|NC|
-C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|2|NC|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod). She is located in the beam of light on the other side of the swimming pool. The Hot Rod doesn't work on/in water.|NC|
+C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|2|NC|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod). She is located in the beam of light on the other side of the swimming pool. The Hot Rod doesn't work on/in water.|
 C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|4|N|Go pick up Gobber. Just follow the path south from KTC Headquarters.|NC|
 C Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|3|NC|N|Go pick up Ace. He's on the other side of the road bridge.|
 T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|U|46856|

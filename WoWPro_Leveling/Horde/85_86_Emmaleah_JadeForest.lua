@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2014-11-08 12:56
+-- Who: Ludovicus
+-- Log: Missing N
+
+-- URL: http://wow-pro.com/node/3487/revisions/26907/view
 -- Date: 2014-11-08 04:21
 -- Who: Emmaleah
 -- Log: Remove Dup NC add missing N per list o' errors.
@@ -430,7 +435,7 @@ T A Humble Offering|QID|29756|M|44.26,15.04|N|To Pei-Zhi.|
 A To Bridge Earth and Sky|QID|29754|M|44.26,15.04|N|From Pei-Zhi.|
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
-A Pei-Back|QID|29755|M|43.74,12.70|From UI Alert.|
+A Pei-Back|QID|29755|M|43.74,12.70|N|From UI Alert.|
 C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get seperated from your body, you need to run back and click on it to rejoin it, then try to inturupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
 

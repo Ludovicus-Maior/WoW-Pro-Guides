@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_pet_battle_dailies
+-- Date: 2014-11-08 13:09
+-- Who: Ludovicus
+-- Log: Got rid of extra M tag
+
+-- URL: http://wow-pro.com/node/3545/revisions/26885/view
 -- Date: 2014-11-08 00:28
 -- Who: Emmaleah
 -- Log: change QO|text to QO|# on the beasts of fable quests. and pondered why I can see the changes Fluclo made today when I look at show diff, but not in the text --- odd.
@@ -204,7 +209,7 @@ R Narsong Spires|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|
 A Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|From Mo'ruk.|
 C Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|Opponents are level 25 Epic Flying, Aquatic and Beast. This means your best choices are Magic, Flying and Mechanical.|
 T Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|To Mo'ruk. Open your treasure bag while you are flying.|U|89125|
-R Krasari Falls|QID|32868|M|36.23,37.34|M|62.2,45.8|Z|Krasarang Wilds|
+R Krasari Falls|QID|32868|M|36.23,37.34|Z|Krasarang Wilds|
 C Skitterer Xi'a|QID|32868|QO|3|N|Xi'a is an aquatic so flying creatures/abilites are superior.|;no QO didnt autocomple
 R Valley of the Four Winds|QID|32868|M|25.29, 78.54|Z|Valley of the Four Winds|
 R The Wild Plains|QID|32868|M|25.29, 78.54|Z|Valley of the Four Winds|

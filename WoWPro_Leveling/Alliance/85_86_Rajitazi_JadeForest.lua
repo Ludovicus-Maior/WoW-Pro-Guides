@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2014-11-08 13:06
+-- Who: Ludovicus
+-- Log: Extra 1/1
+
+-- URL: http://wow-pro.com/node/3486/revisions/26893/view
 -- Date: 2014-11-08 01:13
 -- Who: Ludovicus
 -- Log: Corrections
@@ -753,7 +758,7 @@ C Jaded Heart|QID|30502|US|U|80074|M|49.04,59.9|
 C Residual Fallout|QID|30500|US|M|46.40,60.09|
 T Residual Fallout|QID|30500|M|49.32,61.50|N|To Lorewalker Cho.|
 T Jaded Heart|QID|30502|M|49.32,61.50|N|To Lorewalker Cho.|
-T Emergency Response|QID|31319|1/1|M|49.32,61.50|N|To Lorewalker Cho.|
+T Emergency Response|QID|31319|M|49.32,61.50|N|To Lorewalker Cho.|
 A Moving On|QID|30648|M|49.31,61.35|N|From Fei.|
 C Moving On|QID|30648|M|49.31,61.35|N|Talk to Fei.|
 T Moving On|QID|30648|N|To UI Alert (after the ride into the Valley).|

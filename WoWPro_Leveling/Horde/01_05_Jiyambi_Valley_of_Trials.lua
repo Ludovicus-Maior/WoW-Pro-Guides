@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-08 13:01
+-- Who: Ludovicus
+-- Log: Got rid of duplicate S and PRE tags
+
+-- URL: http://wow-pro.com/node/3199/revisions/26933/view
 -- Date: 2014-11-08 07:18
 -- Who: Emmaleah
 -- Log: Delete Dup PRE tag A A rough start (monk)
@@ -271,10 +276,6 @@
 -- Date: 2010-12-05 05:01
 -- Who: Crackerhead22
 -- Log: Fixed note error reported by Estraile.
-
--- URL: http://wow-pro.com/node/3199/revisions/23574/view
--- Date: 2010-12-04 19:06
--- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Durotar (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)

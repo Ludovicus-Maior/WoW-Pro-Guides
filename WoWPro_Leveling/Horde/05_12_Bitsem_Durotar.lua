@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-08 13:01
+-- Who: Ludovicus
+-- Log: Got rid of duplicate S and PRE tags
+
+-- URL: http://wow-pro.com/node/3199/revisions/26933/view
 -- Date: 2014-11-08 07:18
 -- Who: Emmaleah
 -- Log: Delete Dup PRE tag A A rough start (monk)
@@ -272,10 +277,6 @@
 -- Who: Crackerhead22
 -- Log: Fixed note error reported by Estraile.
 
--- URL: http://wow-pro.com/node/3199/revisions/23574/view
--- Date: 2010-12-04 19:06
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
@@ -327,7 +328,7 @@ A Exploiting the Situation|QID|25176|M|53.05,43.12|N|From Gail Nozzywig.|
 T Return to Razor Hill|QID|6386|M|50.78,42.85|R|Orc,Tauren,Troll|N|To Grimtak.|
 
 C Northwatch Marines|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Marines|QO|1|
-C Northwatch Sharpshooters|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Sharpshooters|QO|2|S|
+C Northwatch Sharpshooters|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Sharpshooters|QO|2|
 C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Loot the Kul Tiras Treasure scattered around Tiragarde Keep.|NC|S|
 K Lieutenant Palliter|QID|25173|M|59.5,58.2|N|Kill Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|T|Lieutenant Palliter|QO|3|
 C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Finish looting the Kul Tiras Treasure scattered around Tiragarde Keep.|NC|US|
@@ -335,7 +336,7 @@ C Northwatch Sharpshooters|QID|25173|M|57.45,55.24|N|Finish killing the Northwat
 C Northwatch Marines|QID|25173|M|57.45,55.24|N|Finish killing the Northwatch Marines|QO|1|US|
 T From Bad to Worse|QID|25173|M|51.89,43.52|N|To Gar'Thok.|
 
-A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|PRE|25173|
+A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|
 T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 
 A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|

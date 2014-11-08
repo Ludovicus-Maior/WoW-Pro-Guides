@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2014-11-08 13:10
+-- Who: Ludovicus
+-- Log: Extra N and M gads brought to you by the letter X
+
+-- URL: http://wow-pro.com/node/3544/revisions/26866/view
 -- Date: 2014-11-07 22:20
 -- Who: Emmaleah
 -- Log: corrected errors per list 'o errors. Changed QO|text:0/1 to QO|#
@@ -186,7 +191,7 @@ R The Yaungol Advance|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|RANK|1|N|This is in
 A Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|From Thundering Pandaren Spirit.|RANK|1|
 C Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|Opponents are level 25 Legendary Beast, Elemental and Critter. This means your best choices are Mechanical, Aquatic and Beast.|RANK|1|
 T Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|To Thundering Pandaren Spirit.|RANK|1|
-R Inkgill Mere|QID|32604|M|67.87,84.71|Z|Kun-Lai Summit|N|Open your treasure|U|93149|N|Open your treasure bag as you fly to the next spot.|
+R Inkgill Mere|QID|32604|M|67.87,84.71|Z|Kun-Lai Summit|U|93149|N|Open your treasure bag as you fly to the next spot.|
 C Dos-Ryga|QID|32604|QO|Dos'Ryga defeated: 0/1|M|67.87,84.71|Z|Kun-Lai Summit|N|Dos-Ryga is an aquatic, so a team of flyers works well.|; this C doesn't work
 R Jade Forest|QID|32440|M|28.8,36|Z|The Jade Forest|RANK|1|
 R Exclamation Point|QID|32440|M|28.8,36|Z|The Jade Forest|RANK|1|
@@ -205,7 +210,7 @@ R Narsong Spires|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|RANK|1|
 A Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|From Mo'ruk.|RANK|1|
 C Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|Opponents are level 25 Epic Flying, Aquatic and Beast. This means your best choices are Magic, Flying and Mechanical.|RANK|1|
 T Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|To Mo'ruk.|RANK|1|
-R Krasari Falls|QID|32868|M|36.23,37.34|Z|Krasarang Wilds|M|62.2,45.8|U|89125|N|You can open your treasure bag while you are flying to the next spot.|
+R Krasari Falls|QID|32868|M|36.23,37.34|Z|Krasarang Wilds|U|89125|N|You can open your treasure bag while you are flying to the next spot.|
 C Skitterer Xi'a|QID|32868|QO|3|N|Xi'a is an aquatic so flying creatures/abilites are superior.|;no QO didnt autocomple
 R Valley of the Four Winds|QID|32868|M|25.29, 78.54|Z|Valley of the Four Winds|
 R The Wild Plains|QID|32868|M|25.29, 78.54|Z|Valley of the Four Winds|
