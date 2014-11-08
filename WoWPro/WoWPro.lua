@@ -617,15 +617,14 @@ Difficulty[1] = {0,0.9,0.5} -- Red
 Difficulty[2] = {30/360,0.9,0.5} -- Orange
 Difficulty[3] = {60/360,0.9,0.5} -- Yellow
 Difficulty[4] = {120/360,0.9,0.5} -- Green
-Difficulty[5] = {180/360,0.8,0.4} -- Green/Teal
+Difficulty[5] = {180/360,0.7,0.3} -- Green/Teal
 
 function WoWPro:InterpolateHSL(l,h,r)
-    local ir = 1 - r
-    if (r < 0 or r > 1) then
-        WoWPro:Error("InterpolateHSL: bad factor %f",r)
-        r = -1
-    end
 --    WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)", l[1], l[2], l[3], h[1], h[2], h[3], r)
+    if (r < 0) then r = 0 end
+    if (r > 1) then r = 1 end
+    local ir = 1 - r
+    
     return { l[1]*ir + h[1]*r , l[2]*ir + h[2]*r, l[3]*ir + h[3]*r }
 end
 
@@ -661,7 +660,7 @@ function WoWPro:QuestColor(questLevel, playerLevel)
         c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[4], (diff)/-5)
     else
         -- green => gray
-        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[5], (5+diff)/-90)
+        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[5], (5+diff)/-20)
     end
     return  WoWPro:HSL2RGB(c[1], c[2], c[3])
 end
