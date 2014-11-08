@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
+-- Date: 2014-11-08 18:12
+-- Who: Emmaleah
+-- Log: Deleted extraneous step for collecting from mailbox 
+
+-- URL: http://wow-pro.com/node/3506/revisions/26876/view
 -- Date: 2014-11-08 00:01
 -- Who: Emmaleah
 -- Log: separated the l pick up things from mailbox into individual steps.  I knew it didn't work... I just forgot to ever come back and fix it :(
@@ -169,7 +174,6 @@ F A Most Famous Bill of Sale |QID|968560002|M|55.09, 47.13|Z|Valley of the Four 
 F Waterspeakers |QID|968460002|M|61.22, 34.69|Z|Valley of the Four Winds|ACH|6846;2|N|Fish Tales.|
 F Embracing the Passions |QID|968500003|M|83.19, 21.18|Z|Valley of the Four Winds|ACH|6850;3|N|Hozen in the Mist.|
 
-l Find a mailbox(Vale)|QID|31055|L|83769,83770,83771,83772,83773,83774,83777,83779,83780|N|Retrieve the items Lorewalker Cho has mailed to you.|
 l Find a mailbox(Vale)|QID|31055|L|83769|N|Retrieve the items Lorewalker Cho has mailed to you.|
 l Find a mailbox(Vale)|QID|31055|L|83770|N|Retrieve the items Lorewalker Cho has mailed to you.|
 l Find a mailbox(Vale)|QID|31055|L|83771|N|Retrieve the items Lorewalker Cho has mailed to you.|

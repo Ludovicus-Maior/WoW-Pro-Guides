@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2014-11-08 14:54
+-- Who: Ludovicus
+-- Log: Removed lone '['
+
+-- URL: http://wow-pro.com/node/3544/revisions/26942/view
 -- Date: 2014-11-08 13:10
 -- Who: Ludovicus
 -- Log: Extra N and M gads brought to you by the letter X
@@ -52,7 +57,6 @@ WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.Dailies:GuideFaction(guide,666) --  "Pet Battle Dailies"
 WoWPro:GuideSteps(guide, function()
 return [[
-[
 
 N Work In Process Disclaimer|QID|31909|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|
 N Dailies Unlocked|QID|32428|N|This guide assumes you have all the dailies unlocked.  It is not listed in the order they unlock, but rather in an order to minimize travel time.|
