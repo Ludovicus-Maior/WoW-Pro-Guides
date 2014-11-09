@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-09 07:17
+-- Who: Emmaleah
+-- Log: Final changes before Beta went away.
+
+-- URL: http://wow-pro.com/node/3587/revisions/26906/view
 -- Date: 2014-11-08 04:19
 -- Who: Emmaleah
 -- Log: correct errors per list o' errors
@@ -56,13 +61,16 @@ return [[
 ;i know you will still be 90 when you start this guide, but if i register it as 91, then it will sort after the Tanaan Jungle Intro guide
 ;from an perusal of wowhead for quests that are not 100, or pvp or alliance and not in this quide === need to find out more about them
 ;A Gift for Raa'la	33957	?? sounds like in worgol?? the flaver text reminds me of young hearts
-;Mission Successful	34079  ?? sounds like its after the thunderlord pass scenario, maybe if you don't choose a follower??
+;Mission Successful	34079 ?? sounds like its after the thunderlord pass scenario, maybe if you don't choose a follower??
 
-N Welcome to Frostfire Ridge|QID|33868|M|40.75,67.10|N|If you don't have rested experience or some other experience booster you will want to do at least one of the bonus objectives in this zone, as there is a quest about 2/3 through the guide that requires level 92, that you will be just shy of if you don't pick up a little extra XP along the way.|
-N Treasure|QID|33868|M|40.75,67.10|N|The guide mentions some but not nearly all the treasure to be found in the zone. At some point while questing you will recieve a treasure map that when you use it shows all the potential treasure on your map.|
-N Bonus Objectives|QID|33868|M|40.75,67.10|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, (and as noted above, you probably need to do at least one) or save them for more gold at level 100.|
+L Level 90 |QID|33815|LVL|90|N|This guide requires a minimum level of 90 to do.|
+N Getting to Frostfire Ridge|QID|33815|N|To get to Frostfire Riege in Draenor, you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|34446|
 
-T The Home of the Frostwolves|QID|33868|M|40.75,67.10|N|To Farseer Drek'Thar.|
+N Welcome to Frostfire Ridge|QID|33815|M|40.75,67.10|N|If you don't have rested experience or some other experience booster you will want to do at least one of the bonus objectives in this zone, as there is a quest about 2/3 through the guide that requires level 92, that you will be just shy of if you don't pick up a little extra XP along the way.|
+N Treasure|QID|33815|M|40.75,67.10|N|The guide mentions some but not nearly all the treasure to be found in the zone. At some point while questing you will recieve a treasure map that when you use it shows all the potential treasure on your map.|
+N Bonus Objectives|QID|33815|M|40.75,67.10|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, (and as noted above, you probably need to do at least one) or save them for more gold at level 100.|
+
+t The Home of the Frostwolves|QID|33868|M|40.75,67.10|N|To Farseer Drek'Thar.|
 A A Song of Frost and Fire|QID|33815|M|40.75,67.10|N|From Farseer Drek'Thar.|
 C A Song of Frost and Fire|QID|33815|M|41.81,69.64|CHAT|N|Mount up and be ready to follow Durotan.|
 T A Song of Frost and Fire|QID|33815|M|41.81,69.64|N|To Durotan.|
@@ -79,46 +87,47 @@ C A Gronnling Problem|QID|34592|M|47.42,66.34|US|N|Find the rest of the gronns y
 T Back to Work|QID|34375|M|48.76,64.91|N|To Gazlowe.|
 T A Gronnling Problem|QID|34592|M|48.76,64.91|N|To Gazlowe.|
 A The Den of Skog|QID|34765|M|48.76,64.91|N|From Gazlowe.|
-C The Den of Skog|QID|34765|M|48.61,69.39|T|Skog|
+C The Den of Skog|QID|34765|M|48.47,70.25|T|Skog|
 T The Den of Skog|QID|34765|M|48.75,64.90|N|To Gazlowe.|
 A Establish Your Garrison|QID|34378|M|48.75,64.90|N|From Gazlowe.|
 C Establish Your Garrison|QID|34378|M|46.96,66.40|NC|N|Watch the cinematic thru the telescope. The reward is a hearthstone attuned to your garrison, yes, you have two hearth locations now and they DON'T share a CD.|
+N TomTom Arrow Gone?|QID|34378|M|46.96,66.40|N|Reload your UI and the arrow will reappear, then manually check this step off.|
 
-f Your Outpost|QID|34378|M|48.14,66.19|N|At Bron Skyhorn.|
-T Establish Your Garrison|QID|34378|M|48.90,66.48|N|To Gazlowe.|
-A What We Got|QID|34824|M|48.90,66.48|N|From Gazlowe.|
-A What We Need|QID|34822|M|48.90,66.48|N|From Gazlowe.|
-A The Ogron Live?|QID|34823|M|48.75,66.27|N|From Rokhan.|
+f Your Outpost|QID|34378|M|45.79,50.91|N|At Bron Skyhorn.|Z|Frostwall|
+T Establish Your Garrison|QID|34378|M|52.52,53.49|N|To Gazlowe.|Z|Frostwall|
+A What We Got|QID|34824|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
+A What We Need|QID|34822|M|52.52,53.49|N|From Gazlowe.|Z|Frostwall|
+A The Ogron Live?|QID|34823|M|51.20,51.41|N|From Rokhan.|Z|Frostwall|
 
-C What We Got|QID|34824|M|57,50.7|NC|QO|2|N|Open the crate next to Lady Sena.|
-C What We Got|QID|34824|M|48.53,62.24|CHAT|QO|3|
+C What We Got|QID|34824|M|40.99,50.84|CHAT|N|Tell Skaggit to get the peons back to work.|QO|1|Z|Frostwall|
+C What We Got|QID|34824|M|49.39,16.57|CHAT|QO|3|Z|Frostwall|
 C What We Need|QID|34822|M|39.89,61.89|S|N|Kill the pack wolves or pick up the boxes off of the ground.|
-C Kill Groog|QID|34823|M|49.33,59.69;40.2,59.9;41.32,58.62|CN|T|Groog|
+C Kill Groog|QID|34823|M|49.33,59.69;40.2,59.9;41.32,58.62|CS|T|Groog|
 C What We Need|QID|34822|M|39.89,61.89|US|N|Finish gathering the salvage.|
-C What We Got|QID|34824|M|47.58,66.23|CHAT|N|Tell Skaggit to get the peons back to work.|QO|1|
+C What We Got|QID|34824|M|55.02,52.79|NC|QO|2|N|Open the crate next to Lady Sena.|Z|Frostwall|
 
 T The Ogron Live?|QID|34823|M|51.49,51.38|N|To Rokhan.|Z|Frostwall|
-T What We Got|QID|34824|M|52.42,53.40|N|To Gazlowe.|Z|Frostwall|
-T What We Need|QID|34822|M|52.54,53.25|N|To Gazlowe.|Z|Frostwall|
-A Build Your Barracks|QID|34461|M|52.42,53.40|N|From Gazlowe.|Z|Frostwall|
-C Build Your Barracks|QID|34461|M|59.9,49.9|U|111956|NC|QO|1;2|N|Pick up the blueprints off the table and learn them.|Z|Frostwall|
-C Build Your Barracks|QID|34461|M|52.3,53.5|NC|QO|3|N|Click on the table beside Gazlowe, pick one of the two possible sites on the map that appears, then follow Gazlowe over to that spot.|Z|Frostwall|
-C Build Your Barracks|QID|34461|M|57.47,48.38|NC|QO|5|N|Follow Gazlowe over to the spot, and click on the scroll in front of the door to finalize your plot.|Z|Frostwall|
-T Build Your Barracks|QID|34461|M|57.47,48.38|N|To Gazlowe.|Z|Frostwall|
-A We Need An Army|QID|34861|M|57.47,48.38|N|From Gazlowe.|Z|Frostwall|
-A Winds of Change|QID|34462|M|53.85,54.81|N|From Warmaster Zog.|Z|Frostwall|
-T We Need An Army|QID|34861|M|53.85,54.81|N|To Warmaster Zog who is inside your Town Hall.|Z|Frostwall|
-C Winds of Change|QID|34462|M|50.19,60.01;55.27,62.12;57.32,62.90|CS|NC|N|He is just inside the cave.|
+T What We Got|QID|34824|M|52.47,53.43|N|To Gazlowe.|Z|Frostwall|
+T What We Need|QID|34822|M|52.47,53.43|N|To Gazlowe.|Z|Frostwall|
+A Build Your Barracks|QID|34461|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
+C Build Your Barracks|QID|34461|M|59.82,50.08|U|111956|NC|QO|1;2|N|Pick up the blueprints off the table and learn them.|Z|Frostwall|
+C Build Your Barracks|QID|34461|M|52.31,53.57|NC|QO|3|N|Click on the table beside Gazlowe, pick one of the two possible sites on the map that appears, then follow Gazlowe over to that spot.|Z|Frostwall|
+C Build Your Barracks|QID|34461|M|58.02,49.34|NC|QO|5|N|Follow Gazlowe over to the spot, and click on the scroll in front of the door to finalize your plot.|Z|Frostwall|
+T Build Your Barracks|QID|34461|M|52.47,53.43|Z|Frostwall|N|To Gazlowe. Finalizing your garrison sent you to your graveyard. Run back inside to turn in.|
+A We Need An Army|QID|34861|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
+A Winds of Change|QID|34462|M|53.85,54.81|N|From Warmaster Zog who is inside your Town Hall.|Z|Frostwall|
+T We Need An Army|QID|34861|M|53.85,54.81|N|To Warmaster Zog.|Z|Frostwall|
+C Winds of Change|QID|34462|M|50.19,60.01;55.27,62.12;57.32,62.90|CS|NC|N|He is just inside the cave.|Z|Frostfire Ridge|
 T Winds of Change|QID|34462|M|53.87,54.89|N|To Warmaster Zog.|Z|Frostwall|
 A Mission Probable|QID|34775|M|53.87,54.89|N|From Warmaster Zog.|Z|Frostwall|
 C Mission Probable|QID|34775|M|53.87,54.89|NC|N|Use the table to send Olin on a mission.|Z|Frostwall|
 T Mission Probable|QID|34775|M|53.87,54.89|N|To Warmaster Zog.|Z|Frostwall|
 
 A Den of Wolves|QID|34379|M|49.71,49.51|N|From Farseer Drek'Thar.|Z|Frostwall|
+C Den of Wolves|QID|34379|M|46.57,49.53|CHAT|N|Hop on the Rylak.|Z|Frostwall|
 
-C Den of Wolves|QID|34379|M|46.7,46.6|CHAT|N|Hop on the Rylak.|Z|Frostwall|
 f Wor'gol|QID|34379|M|21.57,56.15|N|At Pul Windcarver.|
-T Den of Wolves|QID|34379|M|17.69,56.70|N|To Durotan.|
+T Den of Wolves|QID|34379|M|20.75,57.98|N|To Durotan.|
 A Rally the Frostwolves|QID|34380|M|20.75,57.97|N|From Durotan.|
 A Honor Has Its Rewards|QID|33816|M|21.03,57.93|N|From Farseer Drek'Thar.|
 C Honor Has Its Rewards|QID|33816|M|17.51,56.62|NC|N|Run behind the camp and click on the stone. It's in an alcove.|
@@ -131,44 +140,45 @@ C Gormaul Tower|QID|33784|M|21.08,43.93|N|Ride to Gormaul Tower then kill the og
 T Gormaul Tower|QID|33784|M|19.74,44.77|N|To Durotan.|
 A These Colors Don't Run|QID|33526|M|19.74,44.77|N|From Durotan.|
 C These Colors Don't Run|QID|33526|U|107279|M|39.0,23.4|N|Kill the ogres and plant the flag as you run up to Durotan's new location.|
-T These Colors Don't Run|QID|33526|M|43.54,23.08|N|To Durotan.|Z|Bladespire Citadel|
-A Deeds Left Undone|QID|33546|M|43.54,23.08|N|From Durotan.|Z|Bladespire Citadel|
-C Deeds Left Undone|QID|33546|M|56.03,43.64|NC|N|Pick up the barrels of oil off of the ground as you go to Gol'kosh.|Z|Bladespire Citadel|
-T Deeds Left Undone|QID|33546|M|34.27,73.03|N|To Durotan.|Z|Bladespire Citadel|
-A Great Balls of Fire!|QID|33408|M|34.27,73.03|N|From Durotan.|Z|Bladespire Citadel|
-C Great Balls of Fire!|QID|33408|M|56.0,85.8|NC|N|Dodge the fireballs as you run up the ramp, click on the barricade when you arrive.|Z|Bladespire Citadel|
-T Great Balls of Fire!|QID|33408|M|70.8,78.6|N|To Thrall.|Z|Bladespire Courtyard|
-A The Butcher of Bladespire|QID|33410|M|70.8,78.6|N|From Thrall.|Z|Bladespire Courtyard|
-C The Butcher of Bladespire|QID|33410|M|58.07,77.50|T|Dorogg the Ruthless|Z|Bladespire Courtyard|
-T The Butcher of Bladespire|QID|33410|M|70.71,78.56|N|To Thrall.|Z|Bladespire Courtyard|
-A To the Slaughter|QID|33622|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard|
-A Armed and Dangerous|QID|33344|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard|
-C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|S|N|Click on the slaves as you work your way towards Duratan.|Z|Bladespire Courtyard|
-C To the Slaughter|QID|33622|M|52.47,21.00|Z|Bladespire Courtyard|
-C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|US|N|Finish up giving the slaves weapons.|Z|Bladespire Courtyard|
-T To the Slaughter|QID|33622|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard|
-T Armed and Dangerous|QID|33344|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard|
-A Last Steps|QID|33527|M|50.30,32.59|N|From Durotan.|Z|Bladespire Courtyard|
-C Last Steps|QID|33527|M|50.3,31.8|T|Gorr'thog|N|Click on the ladder beside you to climb the chain. At the top you will find Gorr'thog. Kill him.|Z|Bladespire Throne|
-T Last Steps|QID|33527|M|66.52,56.51|N|To Durotan.|Z|Bladespire Courtyard|
+T These Colors Don't Run|QID|33526|M|43.54,23.08|N|To Durotan.|Z|Bladespire Citadel@Frostfire Ridge|
+A Deeds Left Undone|QID|33546|M|43.54,23.08|N|From Durotan.|Z|Bladespire Citadel@Frostfire Ridge|
+C Deeds Left Undone|QID|33546|M|56.03,43.64|NC|N|Pick up the barrels of oil off of the ground as you go to Gol'kosh.|Z|Bladespire Citadel@Frostfire Ridge|
+T Deeds Left Undone|QID|33546|M|34.27,73.03|N|To Durotan.|Z|Bladespire Citadel@Frostfire Ridge|
+A Great Balls of Fire!|QID|33408|M|34.27,73.03|N|From Durotan.|Z|Bladespire Citadel@Frostfire Ridge|
+C Great Balls of Fire!|QID|33408|M|56.0,85.8|NC|N|Dodge the fireballs as you run up the ramp, click on the barricade when you arrive.|Z|Bladespire Citadel@Frostfire Ridge|
+T Great Balls of Fire!|QID|33408|M|70.8,78.6|N|To Thrall.|Z|Bladespire Courtyard@Frostfire Ridge|
+A The Butcher of Bladespire|QID|33410|M|70.8,78.6|N|From Thrall.|Z|Bladespire Courtyard@Frostfire Ridge|
+C The Butcher of Bladespire|QID|33410|M|58.07,77.50|T|Dorogg the Ruthless|Z|Bladespire Courtyard@Frostfire Ridge|
+T The Butcher of Bladespire|QID|33410|M|70.71,78.56|N|To Thrall.|Z|Bladespire Courtyard@Frostfire Ridge|
+A To the Slaughter|QID|33622|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard@Frostfire Ridge|
+A Armed and Dangerous|QID|33344|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard@Frostfire Ridge|
+C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|S|N|Click on the slaves as you work your way towards Duratan.|Z|Bladespire Courtyard@Frostfire Ridge|
+C To the Slaughter|QID|33622|M|52.47,21.00|Z|Bladespire Courtyard@Frostfire Ridge|
+C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|US|N|Finish up giving the slaves weapons.|Z|Bladespire Courtyard@Frostfire Ridge|
+T To the Slaughter|QID|33622|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard@Frostfire Ridge|
+T Armed and Dangerous|QID|33344|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard@Frostfire Ridge|
+A Last Steps|QID|33527|M|50.30,32.59|N|From Durotan.|Z|Bladespire Courtyard@Frostfire Ridge|
+C Last Steps|QID|33527|M|50.3,31.8|T|Gorr'thog|N|Click on the ladder beside you to climb the chain. At the top you will find Gorr'thog. Kill him.|Z|Bladespire Throne@Frostfire Ridge|
+T Last Steps|QID|33527|M|66.52,56.51|N|To Durotan.|Z|Bladespire Courtyard@Frostfire Ridge|
 L Level 91|QID|34823|LVL|91|N|You should be around level 91 by this point.|
-A Moving In|QID|33657|M|66.52,56.51|N|From Durotan.|Z|Bladespire Throne|
-C Moving In|QID|33657|M|66.52,56.51|NC|N|Hop on the wolf next to Durotan and it will take you to the next area.|Z|Bladespire Throne|
-T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel|
-A Save Wolf Home|QID|33468|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel|
+A Moving In|QID|33657|M|66.52,56.51|N|From Durotan.|Z|Bladespire Throne@Frostfire Ridge|
+C Moving In|QID|33657|M|66.52,56.51|NC|N|Hop on the wolf next to Durotan and it will take you to the next area.|Z|Bladespire Throne@Frostfire Ridge|
+T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel@Frostfire Ridge|
+A Save Wolf Home|QID|33468|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel@Frostfire Ridge|
 
 ;random drop? starts profession training; I have gotten for Dorogg 3 for 3 so far. (since they deprecated the chest)
-A The Mysterious Flask|QID|35058|M|42.6,43.2|Z|Bladespire Citadel|P|Alchemy;171|O|U|112566|N|From a Mysterious Flask.|
-A The Fractured Hammer|QID|36205|M|42.6,43.2|Z|Bladespire Citadel|P|Blacksmithing;164|O|U|114965|N|From a Fractured Forge Hammer.|
-A Enchanted Highmaul Bracer|QID|36255|M|42.6,43.2|Z|Bladespire Citadel|P|Enchanting;333|O|U|115008|N|From an Enchanted Highmaul Bracer|
-A Heavy Arms|QID|36589|M|42.6,43.2|Z|Bladespire Citadel|P|Engineering;202|O|U|116438|N|From a Burned out Hand Cannon.|
-A Unintelligible Intelligence|QID|36435|M|42.6,43.2|Z|Bladespire Citadel|P|Inscription;773|O|U|115593|N|From Illegible Sootstained Notes.|
-A The Intricate Pendant|QID|36314|M|42.6,43.2|Z|Bladespire Citadel|P|Jewelcrafting;755|O|U|115287|N|From an Intricate Crimson Pendant.|
-A A Warrior's Shroud|QID|36505|M|42.6,43.2|Z|Bladespire Citadel|P|Leatherworking;164|O|U|116173|N|From a Tattered Frostwolf Shroud.|
-A Trega's Tailoring Kit|QID|36301|M|42.6,43.2|Z|Bladespire Citadel|P|Tailoring;197|O|U|114973|N|From a Frostwolf Tailoring Kit.|
+A The Mysterious Flask|QID|35058|M|42.6,43.2|Z|Bladespire Citadel@Frostfire Ridge|P|Alchemy;171|O|U|112566|N|From a Mysterious Flask.|
+A The Fractured Hammer|QID|36205|M|42.6,43.2|Z|Bladespire Citadel@Frostfire Ridge|P|Blacksmithing;164|O|U|114965|N|From a Fractured Forge Hammer.|
+A Enchanted Highmaul Bracer|QID|36255|M|42.6,43.2|Z|Bladespire Citadel@Frostfire Ridge|P|Enchanting;333|O|U|115008|N|From an Enchanted Highmaul Bracer|
+A Heavy Arms|QID|36589|M|42.6,43.2|Z|Bladespire Citadel@Frostfire Ridge|P|Engineering;202|O|U|116438|N|From a Burned out Hand Cannon.|
+A Unintelligible Intelligence|QID|36435|M|42.6,43.2|Z|Bladespire Citadel@Frostfire Ridge|P|Inscription;773|O|U|115593|N|From Illegible Sootstained Notes.|
+A The Intricate Pendant|QID|36314|M|42.6,43.2|Z|Bladespire Citadel@Frostfire Ridge|P|Jewelcrafting;755|O|U|115287|N|From an Intricate Crimson Pendant.|
+A A Warrior's Shroud|QID|36505|M|42.6,43.2|Z|Bladespire Citadel@Frostfire Ridge|P|Leatherworking;165|O|U|116173|N|From a Tattered Frostwolf Shroud.|
+A Trega's Tailoring Kit|QID|36301|M|42.6,43.2|Z|Bladespire Citadel@Frostfire Ridge|P|Tailoring;197|O|U|114973|N|From a Frostwolf Tailoring Kit.|
 
-A Wanted: Gutsmash the Destroyer|QID|33919|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel|
-A Mopping Up|QID|33412|M|28.3,45.7|N|From Snowrunner Rolga.|Z|Bladespire Citadel|
+A Wanted: Gutsmash the Destroyer|QID|33919|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel@Frostfire Ridge|
+A Mopping Up|QID|33412|M|28.3,45.7|N|From Snowrunner Rolga.|Z|Bladespire Citadel@Frostfire Ridge|
+A Slavery and Strife|QID|33119|M|20.1,52.9|N|From Guse.|RANK|2|
 f Bladespire Fortress|QID|33412|M|19.9,51.8|N|At Roark the Airwolf.|
 F Wor'gol|QID|33468|M|24.33,37.24|N|At Roark the Airwolf.|
 
@@ -193,26 +203,18 @@ A Back to Bladespire Citadel|QID|33473|M|16.79,57.83|N|From Farseer Drek'Thar.|
 ;inscription quest
 T Unintelligible Intelligence|QID|36435|M|21.07,56.09|P|Inscription;773|N|To Raleigh Puule, inside the Inn (The Sheltered Den).|
 A Bypassing Security|QID|36457|M|21.07,56.09|P|Inscription;773|PRE|36435|N|From Raleigh Puule.|
+
+A Young Hearts|QID|33915|M|19.24,59.18|N|From Gog'rak.|
+
 ;leatherworking quest
-T A Warrior's Shroud|QID|36505|M|20.6,60.2|P|Tailoring;197|N|To Gaoda Hidecleaver.|
-A Cut 'Em Out!|QID|36516|M|20.6,60.2|PRE|36505|P|Leatherworking;164|N|From Gaoda Hidecleaver.|
-C Cut 'Em Out!|QID|36516|M|27,43|U|116246|P|Leatherworking;164|N|Kill 'Wooly Clefthoofs' and use the provided knife to skin them. (you can normal skin them afterwards). Pick the sootweed that is also growing in the area.|
-T Cut 'Em Out!|QID|36516|M|20.6,60.2|PRE|36505|P|Leatherworking;164|N|To Gaoda Hidecleaver.|
-U Learn Leatherworking skill|QID|36706|U|115359|M|20.0,56.4|P|Leatherworking;164|N|After you learn check this step off manually.|
-;U Learn The Tannery Blueprints|QID|36706|U|111818|M|20.0,56.4|P|Leatherworking;164|N|After you learn check this step off manually.|
+T A Warrior's Shroud|QID|36505|M|20.70,60.21|P|Leatherworking;165|N|To Gaoda Hidecleaver.|
+A Cut 'Em Out!|QID|36516|M|20.70,60.21|PRE|36505|P|Leatherworking;165|N|From Gaoda Hidecleaver.|
 ;tailoring quest
 T Trega's Tailoring Kit|QID|36301|M|20.4,60.6|P|Tailoring;197|N|To Trega.|
 A From Their Cold Dead Hands|QID|36417|PRE|36301|M|20.4,60.6|P|Tailoring;197|N|From Trega.|
-C From Their Cold Dead Hands|QID|36417|M|20.4,60.6|P|Tailoring;197|N|From the ogres you have been killing, if you want to do this as you go along, you can come back later when you have finished.|
-T From Their Cold Dead Hands|QID|36417|M|20.4,60.6|P|Tailoring;197|N|To Trega.|
-A Dyed in the Fur|QID|36419|PRE|36417|M|20.4,60.6|P|Tailoring;197|N|From Trega.|
-C Dyed in the Fur|QID|36419|M|20.4,60.6|P|Tailoring;197|N|Use Trega's dye to infuse the cloth with magic.|
-T Dyed in the Fur|QID|36419|M|20.4,60.6|P|Tailoring;197|N|To Trega.|
-U Learn Tailoring skill|QID|36706|U|115357|M|20.0,56.4|P|Tailoring;197|N|After you learn check this step off manually.|
-;U Learn Tailoring Emporium Blueprints|QID|36706|U|111816|M|20.0,56.4|P|Tailoring;197|N|After you learn check this step off manually.|
 
-A Young Hearts|QID|33915|M|19.24,59.18|N|From Gog'rak.|
 C Young Hearts|QID|33915|M|25.4,67.57|CHAT|N|Run out the south end of the village, to a cave with Saberon's around it, where you will find Orak, chat with him (and kill the things guarding him) so he can go home.|
+
 T Young Hearts|QID|33915|M|19.24,59.18|N|To Gog'rak.|
 A Missing Pack|QID|33955|M|21.62,55.15|LEAD|33929|N|From Kar'lak.|
 T Missing Pack|QID|33955|M|19.53,51.01|N|To Shivertail.|
@@ -222,51 +224,73 @@ C Shivertail's Den|QID|33929|M|21.4,50.2|
 A Pale Loot Sack|QID|34714|M|21.7,50.7|NC|N|Go up the path on the other side of the room for minor treasure.|
 T Shivertail's Den|QID|33929|M|19.53,51.01|N|To Shivertail.|
 C Bladespire Fortress|QID|33473|M|21.57,56.15|CHAT|N|At Pul Windcarver. Take the chat option, not the flight path.|
-A Slavery and Strife|QID|33119|M|20.1,52.9|N|From Guse. Run down the hill to below the fortress.|RANK|2|
-A Icebound Frost-Singer|QID|34507|M|21.12,41.02;25.3,51.87;24.19,48.6|CS|L|110689|N|In the Forbidden Cave there is a Icebound Cold-Singer with some loot for you.|;not 34507
-R Mor'dul Tower|QID|33438|M|30.3,51.3|N|Explore the Mor'dul tower, you will get a buff called "time warped" and there are 3 frozen ogres to loot for goodies.|
+
+R Frostboar Drifts|QID|33412|M|17.76,41.96|N|Head away from the Citadel and take a right at Gormaul Tower, down into the valley.|
+C Wanted: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|
+
+C From Their Cold Dead Hands|QID|36417|M|24.30,28.30|S|P|Tailoring;197|N|From the ogres you have been killing, You don't need to get them all in this area.|
+T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrim the Resolute.|A The Cure|QID|33454|M|24.30,28.30|N|From Igrim the Resolute.|
+A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrim the Resolute.|
+C The Cure|QID|33454|M|27.17,26.98|S|N|Kill Geomancers to loot the antidote, use it on the gladiators.|
+K Thunk|QID|33450|M|27.0,25.6|QO|1|N|Inside the building.|T|Thunk|
+K Gullok|QID|33450|M|27.97,23.56|QO|2|N|Inside the building up the hill.|T|Gullok|
+K Splorg|QID|33450|M|28.4,16.1|QO|3|N|In the cave.|T|Splorg|
+C The Cure|QID|33454|M|27.17,26.98|US|N|Finish curing the gladiators.|
+T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrim the Resolute.|
+T The Cure|QID|33454|M|24.30,28.30|N|To Igrim the Resolute.|
+A The Fall of the Warlord|QID|33467|M|24.30,28.30|N|From Igrim the Resolute.|
+C The Fall of the Warlord|QID|33467|M|23.2,26.6|N|Click on the weapon stand to summon Bult.|T|Warlord Bult|
 
 A Slaying Slavers|QID|33898|M|24.14,39.30|N|From Gol'kosh the Axe.|
+C Cut 'Em Out!|QID|36516|M|27,43|QO|2|NC|S|P|Leatherworking;165|N|Pick the sootweed that is also growing in the area as you go along.|
 C Slavery and Strife|QID|33119|M|30.59,41.56|RANK|2|S|NC|N|To release the slaves, click on the ball they are chained to.|
 C Slaying Slavers|QID|33898|M|24.14,39.30|S|N|Kill the ogres as you are freeing the slaves.|
 A Slave's Stash|QID|33500|M|27.6,42.8|N|Walk along the plank and jump from one roof to the next to loot.|
 C Slavery and Strife|QID|33119|M|30.59,41.56|RANK|2|US|NC|N|To release the slaves, click on the ball they are chained to.|
 T Slavery and Strife|QID|33119|M|30.78,41.51|N|To Mulverick.|RANK|2|
 A Mulverick's Plight|QID|33483|M|30.78,41.51|N|From Mulverick.|RANK|2|
-C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|S|RANK|2|N|Go down into the mines and collect the axes from taskmasters along the way.|
-C Mulverick's Plight|QID|33483|M|59.65,51.67;51.43,34.51|Z|Sootstained Mine|CS|QO|2|RANK|2|N|Go down into the mines and you will find Turgall with the key.|
-C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|US|RANK|2|N|You can run behind Turgall and jump down for a shortcut back to Mulverick.|
+C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine@Frostfire Ridge|QO|1|S|RANK|2|N|Go down into the mines and collect the axes from taskmasters along the way.|
+C Mulverick's Plight|QID|33483|M|59.65,51.67;51.43,34.51|Z|Sootstained Mine@Frostfire Ridge|CS|QO|2|RANK|2|N|Go down into the mines and you will find Turgall with the key.|
+C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine@Frostfire Ridge|QO|1|US|RANK|2|N|You can run behind Turgall and jump down for a shortcut back to Mulverick.|T|Slavemaster Turgall|
 C Mulverick's Plight|QID|33483|M|30.78,41.52|QO|3|RANK|2|NC|N|Bring the key and the axes back to Mulverick.|
 T Mulverick's Plight|QID|33483|M|30.77,41.44|N|To Mulverick.|RANK|2|
 A The Slavemaster's Demise|QID|33484|M|30.77,41.44|N|From Mulverick.|RANK|2|
 A Mulverick's Offer of Service|QID|34732|M|30.77,41.44|N|From Mulverick.|RANK|2|
+C From Their Cold Dead Hands|QID|36417|M|24.4,28.3|US|P|Tailoring;197|N|From the ogres you have been killing.|
 C Slaying Slavers|QID|33898|M|24.14,39.30|US|N|If you still need to kill ogres, now is the time to finish up.|
+C Cut 'Em Out!|QID|36516|M|27,43|QO|2|NC|US|P|Leatherworking;165|N|Pick the sootweed that is also growing in the area as you go along.|
+C Cut 'Em Out!|QID|36516|M|27,43|U|116246|QO|1|S|P|Leatherworking;165|N|Kill 'Wooly Clefthoofs' and use the provided knife to skin them. (you can normal skin them afterwards). Pick the sootweed that is also growing in the area.|
 T Slaying Slavers|QID|33898|M|24.14,39.31|N|To Gol'kosh the Axe.|
+C Cut 'Em Out!|QID|36516|M|27,43|U|116246|QO|1|US|P|Leatherworking;165|N|Kill 'Wooly Clefthoofs' and use the provided knife to skin them. (you can normal skin them afterwards). Pick the sootweed that is also growing in the area.|
 
+R Mor'dul Tower|QID|33438|M|30.3,51.3|N|Explore the Mor'dul tower, you will get a buff called "time warped" and there are 3 frozen ogres to loot for goodies.|
+A Icebound Frost-Singer|QID|34507|M|21.12,41.02;25.3,51.87;24.19,48.6|CS|L|110689|N|In the Forbidden Cave there is a Icebound Cold-Singer with some loot for you.|;not 34507
+R Wor'gol|QID|36516|M|23.00,56.56|P|Leatherworking;165|
+R Wor'gol|QID|36417|M|23.00,56.56|P|Tailoring;197|
+T Cut 'Em Out!|QID|36516|M|20.70,60.21|PRE|36505|P|Leatherworking;165|N|To Gaoda Hidecleaver.|
+U Learn Leatherworking skill|QID|36706|U|115358|M|20.70,60.21|P|Leatherworking;165|N|After you learn check this step off manually.|
+U Learn The Tannery Blueprints|QID|36706|U|111818|M|20.70,60.21|P|Leatherworking;165|N|After you learn check this step off manually.|
+
+T From Their Cold Dead Hands|QID|36417|M|20.47,60.60|P|Tailoring;197|N|To Trega.|
+A Dyed in the Fur|QID|36419|PRE|36417|M|20.47,60.60|P|Tailoring;197|N|From Trega.|
+C Dyed in the Fur|QID|36419|M|20.48,60.65|P|Tailoring;197|N|Use Trega's dye to infuse the cloth with magic.|
+T Dyed in the Fur|QID|36419|M|20.47,60.60|P|Tailoring;197|N|To Trega.|
+U Learn Tailoring skill|QID|36706|U|115357|M|20.47,60.60|P|Tailoring;197|N|After you learn check this step off manually.|
+U Learn Tailoring Emporium Blueprints|QID|36706|U|111816|M|20.47,60.60|P|Tailoring;197|N|After you learn check this step off manually.|
+F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver.|P|Leatherworking;165|N|If the chat option flight is available you can save your self a gold, its the same time.|
+F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver.|P|Tailoring;197|N|If the chat option flight is available you can save your self a gold, its the same time.|
 T The Slavemaster's Demise|QID|33484|M|18.44,42.12;24.36,37.30|CN|N|To Guse.|
-T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel|N|To Durotan.|
-A Ga'nar's Vengeance|QID|32783|M|43.13,41.23|Z|Bladespire Citadel|N|From Durotan.|
-A Securing the South|QID|32989|M|43.13,41.23|Z|Bladespire Citadel|N|From Durotan.|
-R Frostboar Drifts|QID|33412|M|17.76,41.96|N|Head straight out of the Citadel and take a right at Gormaul Tower, down into the valley.|
-C Wanted: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|
-T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrimar the Resolute.|
-A The Cure|QID|33454|M|24.30,28.30|N|From Igrimar the Resolute.|
-A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrimar the Resolute.|
-C The Cure|QID|33454|M|27.17,26.98|S|N|Kill Geomancers to loot the antidote, use it on the gladiators.|
-K Thunk|QID|33450|M|27.0,25.6|QO|1|N|Inside the building.|T|Thunk|
-K Gullok|QID|33450|M|27.97,23.56|QO|2|N|Inside the building up the hill.|T|Gullok|
-K Splorg|QID|33450|M|28.4,16.1|QO|3|N|In the cave.|T|Splorg|
-C The Cure|QID|33454|M|27.17,26.98|US|N|Finish curing the gladiators.|
-T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrimar the Resolute.|
-T The Cure|QID|33454|M|24.30,28.30|N|To Igrimar the Resolute.|
-A The Fall of the Warlord|QID|33467|M|24.30,28.30|N|From Igrimar the Resolute.|
-C The Fall of the Warlord|QID|33467|M|23.2,26.6|N|Click on the weapon stand to summon Bult.|T|Warlord Bult|
+T The Fall of the Warlord|QID|33467|M|25.6,36.4|N|To Snowrunner Rolga.|
+T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel@Frostfire Ridge|N|To Durotan.|
+A Ga'nar's Vengeance|QID|32783|M|43.13,41.23|Z|Bladespire Citadel@Frostfire Ridge|N|From Durotan.|
+A Securing the South|QID|32989|M|43.13,41.23|Z|Bladespire Citadel@Frostfire Ridge|N|From Durotan.|
+T Wanted: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel@Frostfire Ridge|N|To Der'shway.|
 
 R Daggermaw Ravine|QID|32783|M|30.89,25.84|N|Run roughly northeast from the Ring of Blood to Daggermaw Ravine.|
 T Ga'nar's Vengeance|QID|32783|M|30.89,25.84|N|To Ga'nar|
 A Let the Hunt Begin!|QID|32791|M|30.89,25.84|N|From Ga'nar.|
 C Let the Hunt Begin!|QID|32791|M|30.89,25.84|QO|1|CHAT|N|Tell Ga'nar you are ready|
-C Let the Hunt Begin!|QID|32791|M|36.45,26.17|QO|2|N|Stay at this location until his followers advance.  If you mess this up, drop and restart.|
+C Let the Hunt Begin!|QID|32791|M|34.78,26.41|QO|2|N|Stay at this location until his followers advance.  If you mess this up, drop and restart.|
 C Let the Hunt Begin!|QID|32791|M|36.00,25.78|
 T Let the Hunt Begin!|QID|32791|M|36.00,25.78|N|To Ga'nar.|
 A Leave Nothing Behind!|QID|32792|M|36.00,25.78|N|From Ga'nar.|
@@ -285,24 +309,14 @@ C Articles of the Fallen|QID|32804|M|46.59,33.46|NC|N|Pick up the items off of t
 T Articles of the Fallen|QID|32804|M|46.38,32.04|N|To Kal'gor the Honorable.|
 C Wrath of Gronn|QID|32794|M|39.88,72.16|N|Head down the cave and fight the gronn's captors.|
 T Wrath of Gronn|QID|32794|M|50.58,54.40|N|To Ga'nar. Take any path in the cave to the middle.|
-A The Eldest|QID|32795|M|50.58,54.40|Z|Grulloc's Lair|N|From Ga'nar.|
-C The Eldest|QID|32795|M|53.65,62.58|Z|Grulloc's Lair|CHAT|N|Talk to Ga'nar to start the fight.|T|Grulloc|
-T The Eldest|QID|32795|M|49.30,50.46|Z|Grulloc's Lair|N|From Ga'nar.|
-A To the Garrison|QID|32796|M|49.30,50.46|Z|Grulloc's Lair|
+A The Eldest|QID|32795|M|50.58,54.40|Z|Grulloc's Lair@Frostfire Ridge|N|From Ga'nar.|
+C The Eldest|QID|32795|M|53.65,62.58|Z|Grulloc's Lair@Frostfire Ridge|CHAT|N|Talk to Ga'nar to start the fight.|T|Grulloc|
+T The Eldest|QID|32795|M|49.30,50.46|Z|Grulloc's Lair@Frostfire Ridge|N|From Ga'nar.|
+A To the Garrison|QID|32796|M|49.30,50.46|Z|Grulloc's Lair@Frostfire Ridge|
 H Town Hall (Frostwall)|QID|32796|M|41.58,53.06|Z|Frostwall|U|110560|N|Back to your Garrison.|
-
-;these 2 quest turnins are looking for a home in the guide, i rearranged stuff and don't know where to put them now.
-T The Fall of the Warlord|QID|33467|M|28.34,45.43|Z|Bladespire Citadel|N|To Snowrunner Rolga.|RANK|2|
-T Wanted: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel|N|To Der'shway.|
 
 A Ashran Appearance|QID|36706|M|52.45,53.35|N|From Gazlowe.|Z|Frostwall|
 A We Be Needin' Supplies|QID|34736|M|51.33,51.44|N|From Rokhan.|Z|Frostwall|
-A Wanted: Grondo's Bounty|QID|33918|M|48.89,65.15|N|From the Command Board.|Z|Frostwall|
-T To the Garrison|QID|32796|M|48.62,64.71|N|To Durotan.|Z|Frostwall|
-;upgrade garrison level 2
-A Bigger is Better|QID|36567|M|52.53,53.13|N|From Gazlowe.|RANK|2|Z|Frostwall|
-C Bigger is Better|QID|36567|M|52.40,53.49|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This is the quest to upgrade your garrison to level 2.|
-
 ;profession upgrade quests in garrison
 t Enchanted Highmaul Bracer|QID|36255|M|47.13,37.85|Z|Frostwall|P|Enchanting;333|N|To Yu'rina the Mystic.|
 A The Arakoan Enchanter|QID|36256|M|47.13,37.85|PRE|36255|Z|Frostwall|P|Enchanting;333|N|From Yu'rina the Mystic.|
@@ -312,7 +326,6 @@ t Heavy Arms|QID|36589|M|62.48,74.46|Z|Frostwall|P|Engineering;202|N|To Blizthra
 A Spare Parts|QID|36594|M|62.48,74.46|Z|Frostwall|PRE|36589|P|Engineering;202|N|From Blizthraz Blastcharge.|
 t The Mysterious Flask|QID|35058|M|45.16,51.00|Z|Frostwall|N|To Refugee Lo'nash.|P|Alchemy;171|
 A The Alchemist|QID|35103|M|45.16,51.00|PRE|35058|Z|Frostwall|N|From Refugee Lo'nash.|P|Alchemy;171|
-t Bigger is Better|QID|36567|M|42.16,55.58|Z|Frostwall|RANK|2|N|To Gazlowe in your new town hall. Now you can upgrade your garrison with a medium and another small building.|
 
 ;buildings - you just upgraded to lvl 2 garrison which means you have 1 large (barracks) 1 med (your choice-lumber mill, barn,tavern,gladiators Sanctum or trading post)
 ;and one small (all the primary crafting professions plus storehouse) - no salvage yard available yet. lvl 2 plans not available yet - must be finished with gorgrond (specifically [strike while the iron is hot]
@@ -326,8 +339,23 @@ T No Pressure, No Diamonds|QID|36378|M|20.0,56.4|P|Jewelcrafting;755|N|To Gem Gr
 A Diamonds Are Forever|QID|36380|M|20.0,56.4|P|Jewelcrafting;755|PRE|36378|N|From Gem Grinder Orolak.|
 T Diamonds Are Forever|QID|36380|M|20.0,56.4|P|Jewelcrafting;755|N|Wait a moment whiile he crafts it and then turn quest into Gem Grinder Orolak.|
 U Learn Jewelcrafting skill|QID|36706|U|115359|M|20.0,56.4|P|Jewelcrafting;755|N|After you learn check this step off manually.|
-;U Learn Gem Boutique Blueprints|QID|36706|U|111814|M|20.0,56.4|P|Jewelcrafting;755|N|After you learn check this step off manually.|
-F Your Garrison|QID|36380|ACTIVE|36380|P|Jewelcrafting;755|M|21.57,56.15|N|At Pul Windcarver. I would save my hearthstone for the next step since its a much longer trip back from Ashran.|
+U Learn Gem Boutique Blueprints|QID|36706|U|111814|M|20.0,56.4|P|Jewelcrafting;755|N|After you learn check this step off manually.|
+F Frostwall|QID|36380|ACTIVE|36380|P|Jewelcrafting;755|M|21.57,56.15|N|At Pul Windcarver. I would save my hearthstone for the next step since its a much longer trip back from Ashran.|
+A Wanted: Grondo's Bounty|QID|33918|M|48.89,65.15|N|From the Command Board.|Z|Frostwall|
+T To the Garrison|QID|32796|M|48.62,64.71|N|To Durotan.|Z|Frostwall|
+;upgrade garrison level 2
+A Building For Professions|QID|37669|M|52.45,53.35|N|From Gazlowe.|Z|Frostwall|PRE|35106+36238+36260+36627+36475+36380+36516+36419|
+C Building For Professions|QID|37669|M|52.40,53.49|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This is the quest to upgrade your garrison to level 2.|
+T Building For Professions|QID|37669|M|52.45,53.35|N|To Gazlowe.|Z|Frostwall|
+A Bigger is Better|QID|36567|M|52.53,53.13|N|From Gazlowe.|RANK|2|Z|Frostwall|
+C Bigger is Better|QID|36567|M|52.40,53.49|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This is the quest to upgrade your garrison to level 2.|
+
+t Bigger is Better|QID|36567|M|42.16,55.58|Z|Frostwall|RANK|2|N|To Gazlowe in your new town hall. Now you can upgrade your garrison with a medium and another small building.|
+
+;buildings - you just upgraded to lvl 2 garrison which means you have 1 large (barracks) 1 med (your choice-lumber mill, barn,tavern,gladiators Sanctum or trading post)
+;and one small (all the primary crafting professions plus storehouse) - no salvage yard available yet. lvl 2 plans not available yet - must be finished with gorgrond (specifically [strike while the iron is hot]
+;to purchase first plan in ashran or Arak outpost /lvl 98 to purchase for gold in your garrison
+;buildings take one hour to build (with the exception of town hall is instant) so ... putting these steps at the end of the guide, because unless you log out for awhile here, they arent available yet.)
 
 ;first trip to ashran - primary purpose to get Vivianne who can be a bodyguard
 C Ashran Appearance|QID|36706|M|45.67,50.12|Z|Frostwall|CHAT|N|At Bron Skyhorn. Choose the chat option, not the actual flightpath.|
@@ -625,9 +653,9 @@ T A Proper Parting|QID|33125|M|66.04,49.10|N|To Outrider Urukag.|
 T Gut Guttra|QID|33132|M|66.04,49.10|N|To Outrider Urukag.|
 
 R Grom'gar|QID|33010|M|62.81,65.73|
-C The Iron Wolf|QID|33010|M|58.38,58.36|Z|The Hunter's Hall|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|
-T The Iron Wolf|QID|33010|M|53.23,56.27|Z|The Hunter's Hall|N|To Thrall.|
-A To Thunder Pass|QID|34123|M|53.23,56.27|Z|The Hunter's Hall|N|From Thrall.|
+C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Hunter's Hall@Frostfire|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|
+T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Hunter's Hall@Frostfire|N|To Thrall.|
+A To Thunder Pass|QID|34123|M|53.23,56.27|Z|Hunter's Hall@Frostfire|N|From Thrall.|
 T To Thunder Pass|QID|34123|M|73.43,58.83|N|To Lokra.|
 A The Battle of Thunder Pass|QID|34124|M|73.43,58.83|N|From Lokra.|
 
@@ -674,7 +702,7 @@ T Vul'gaths End|QID|34075|M|82.82,76.33|N|To Scout Ruk'Gan.|
 
 N We're outa here!|N|This concludes Frostfire Ridge, check off this step and the next guide will open.|
 
-I suppose this goes at the end of the gorgrond guide  (i.e. the next time you come to your garrison)
+;This should be at the end of the gorgrond guide  (i.e. the next time you come to your garrison)
 ;C Turning Timber into Profit|QID|36138|QO|2|M|51.99,61.68|N|Talk to Okton to place your work order.|
 ;T Turning Timber into Profit|QID|36138|M|51.68,62.51|N|To Lumber Lord Oktron.|
 ;A Sharper Blades, Bigger Timber|QID|36142|M|51.68,62.51|N|From Lumber Lord Oktron.|PRE|36138|

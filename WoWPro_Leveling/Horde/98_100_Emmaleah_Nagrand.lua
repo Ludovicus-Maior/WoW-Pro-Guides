@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2014-11-09 07:35
+-- Who: Emmaleah
+-- Log: correct A/C/T steps in The Dead do not Forget
+
+-- URL: http://wow-pro.com/node/3605/revisions/26903/view
 -- Date: 2014-11-08 03:38
 -- Who: Emmaleah
 -- Log: corrections per List O' Errors
@@ -226,9 +231,9 @@ A Guardians of the Plateau|QID|34893|M|71.37,17.99|N|From Incineratus.|
 A An Old Friend|QID|34943|M|72.75,19.66|N|From Kalandrios.|
 T An Old Friend|QID|34943|M|73.75,16.56;75.07,22.75|CS|N|To Gar'rok.|
 A A Rare Bloom|QID|34894|M|75.07,22.75|N|From Gar'rok.|
-A The Dead Do Not Forget...|QID|37318|M|79.45,30.38|N|From Murgok.
-C The Dead Do Not Forget...|QID|37318|NC|M|78.26,24.56|N|These are scattered throughout the area of the bonus quest, so you might as well do it while you are here.|
-T The Dead Do Not Forget...|QID|37318|M|79.69,30.19|N|To the Boneseer's Cauldren *missed the name*.|
+A The Dead Do Not Forget...|QID|37318|M|79.45,30.38|N|From Murgok.|
+C The Dead Do Not Forget...|QID|37318|NC|M|78.26,24.56|NC|N|These are scattered throughout the area of the bonus quest, so you might as well do it while you are here.|
+T The Dead Do Not Forget...|QID|37318|M|79.69,30.19|N|To the Boneseer's Cauldren.|
 
 R Elemental Plateau|QID|34881|NC|M|79.94,31.5;82.60,30.19;82.49,25.11;82.02,22.34|CS|N|Run up from where the first waymark shows on your map.|
 C Earth, Wind and Fire...and Water|QID|34881|M|67.18,10.48|S|N|Each area is a mix of two types of elementals. Be sure and get all of that types drops before you leave thier area.|

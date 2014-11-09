@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2014-11-09 03:17
+-- Who: Emmaleah
+-- Log: missed updating one QO|4
+
+-- URL: http://wow-pro.com/node/3544/revisions/26946/view
 -- Date: 2014-11-08 14:54
 -- Who: Ludovicus
 -- Log: Removed lone '['
@@ -196,7 +201,7 @@ A Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|From Thund
 C Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|Opponents are level 25 Legendary Beast, Elemental and Critter. This means your best choices are Mechanical, Aquatic and Beast.|RANK|1|
 T Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|To Thundering Pandaren Spirit.|RANK|1|
 R Inkgill Mere|QID|32604|M|67.87,84.71|Z|Kun-Lai Summit|U|93149|N|Open your treasure bag as you fly to the next spot.|
-C Dos-Ryga|QID|32604|QO|Dos'Ryga defeated: 0/1|M|67.87,84.71|Z|Kun-Lai Summit|N|Dos-Ryga is an aquatic, so a team of flyers works well.|; this C doesn't work
+C Dos-Ryga|QID|32604|QO|4|M|67.87,84.71|Z|Kun-Lai Summit|N|Dos-Ryga is an aquatic, so a team of flyers works well.|; this C doesn't work
 R Jade Forest|QID|32440|M|28.8,36|Z|The Jade Forest|RANK|1|
 R Exclamation Point|QID|32440|M|28.8,36|Z|The Jade Forest|RANK|1|
 A Whispering Pandaren Spirit|QID|32440|M|28.8,36|Z|The Jade Forest|N|From Whispering Pandaren Spirit.|RANK|1|
