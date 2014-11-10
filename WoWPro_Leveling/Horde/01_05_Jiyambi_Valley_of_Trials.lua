@@ -4,6 +4,29 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-09 19:12
+-- Who: Fluclo
+-- Log: Added PRE tags; 
+--	Couple quests that are not essential for the zone marked as RANK 2; 
+--	F Orgrimmar changed to N as the guide would not auto-complete the |CC| step with F, and the R Valley of Strength auto-completes in-flight; 
+--	Clarified Kul Tiras treasure as inside the keep; 
+--	Removed Concript of the Horde, player can accept this on going to The Barrens instead; 
+--	Moved Winds in the Deserts back to after The Burning Blade; 
+--	Removed Azshara alerts to The Barrens guide.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26957/view
+-- Date: 2014-11-09 13:33
+-- Who: Fluclo
+-- Log: Added CHAT and NC where appropriate; 
+--	Added minimum level info at Level 3; 
+--	Removed all other level info since it's not required (players can still proceed without being that level); 
+--	Corrected a few PRE IDs; 
+--	Made Crab Fishin' RANK 2 and moved it (since it isn't mutual with other quests); 
+--	Changed Ancient Enemy location instruction inside the |N| tag so that it auto-completes; 
+--	Advise of dialog wait with Vanira; 
+--	Added a step to catch quest skipping.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26937/view
 -- Date: 2014-11-08 13:01
 -- Who: Ludovicus
 -- Log: Got rid of duplicate S and PRE tags
@@ -268,15 +291,6 @@
 --	Game Version: 4.0.3
 --	Summary: Fixed placement of level step in Valley of Trials guide
 
--- URL: http://wow-pro.com/node/3199/revisions/23616/view
--- Date: 2010-12-05 23:06
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3199/revisions/23594/view
--- Date: 2010-12-05 05:01
--- Who: Crackerhead22
--- Log: Fixed note error reported by Estraile.
-
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Durotar (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,3,1.59184)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
@@ -289,8 +303,6 @@ T Your Place In The World|QID|25152|M|43.22,68.23|N|To Gornek.|
 A Cutting Teeth|QID|25126|M|43.22,68.23|N|From Gornek.|
 C Cutting Teeth|QID|25126|M|44.90,65.60|N|Kill boars in the nearby boar pen.|
 T Cutting Teeth|QID|25126|M|43.26,68.22|N|To Gornek.|
-
-;L Level 2|QID|25172|LVL|2|N|You should now be Level 2|
 
 A Invaders in Our Home|QID|25172|M|43.23,68.21|N|From Gornek.|
 C Invaders in Our Home|QID|25172|M|43.91,72.54|N|Kill Northwatch scouts to the south.|
@@ -345,8 +357,6 @@ C Lazy Peons|QID|37446|US|NC|U|16114|M|46.50,63.00|N|Hit the Lazy Peons with the
 T Lazy Peons|QID|37446|M|43.54,67.48|N|To Foreman Thazz'ril.|
 T Sting of the Scorpid|QID|25127|M|43.26,68.17|N|To Gornek.|
 
-;L Level 4|QID|25127|LVL|4|N|You should now be Level 4|
-
 A Hana'zua|QID|25128|PRE|25127|M|42.40,69.16|N|From Canaga Earthcaller.|
 A Vile Familiars|QID|25131|PRE|25127|M|43.43,67.48|N|From Zureetha Fargaze.|
 C Vile Familiars|QID|25131|M|44.48,56.56|N|Kill Vile Familiars near the cave to the north.|
@@ -365,7 +375,7 @@ C Burning Blade Medallion|QID|25132|M|42.43,53.53|N|Kill felstalkers as you go t
 C Thazz'ril's Pick|QID|25135|NC|M|43.75,53.77|N|Inside the cave, central passage.|
 K Yarrog Baneshadow|QID|25132|M|42.43,53.53|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|QO|2|
 C Burning Blade Medallion|QID|25132|M|42.50,55.25|N|Finish killing the felstalkers as you leave the cave|US|QO|1|
-;L Level 5|QID|25133|LVL|5|N|You should now be Level 5|
+
 H Valley of Trials|QID|25132|M|45.19,68.72|CC|N|Hearth or run back the The Den.|
 
 T Thazz'ril's Pick|QID|25135|M|43.51,67.49|N|To Foreman Thazz'ril at the starting area.|

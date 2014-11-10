@@ -4,6 +4,29 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-09 19:12
+-- Who: Fluclo
+-- Log: Added PRE tags; 
+--	Couple quests that are not essential for the zone marked as RANK 2; 
+--	F Orgrimmar changed to N as the guide would not auto-complete the |CC| step with F, and the R Valley of Strength auto-completes in-flight; 
+--	Clarified Kul Tiras treasure as inside the keep; 
+--	Removed Concript of the Horde, player can accept this on going to The Barrens instead; 
+--	Moved Winds in the Deserts back to after The Burning Blade; 
+--	Removed Azshara alerts to The Barrens guide.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26957/view
+-- Date: 2014-11-09 13:33
+-- Who: Fluclo
+-- Log: Added CHAT and NC where appropriate; 
+--	Added minimum level info at Level 3; 
+--	Removed all other level info since it's not required (players can still proceed without being that level); 
+--	Corrected a few PRE IDs; 
+--	Made Crab Fishin' RANK 2 and moved it (since it isn't mutual with other quests); 
+--	Changed Ancient Enemy location instruction inside the |N| tag so that it auto-completes; 
+--	Advise of dialog wait with Vanira; 
+--	Added a step to catch quest skipping.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26937/view
 -- Date: 2014-11-08 13:01
 -- Who: Ludovicus
 -- Log: Got rid of duplicate S and PRE tags
@@ -268,35 +291,29 @@
 --	Game Version: 4.0.3
 --	Summary: Fixed placement of level step in Valley of Trials guide
 
--- URL: http://wow-pro.com/node/3199/revisions/23616/view
--- Date: 2010-12-05 23:06
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3199/revisions/23594/view
--- Date: 2010-12-05 05:01
--- Who: Crackerhead22
--- Log: Fixed note error reported by Estraile.
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
 WoWPro:GuideSteps(guide, function()
 return [[
 
+L Level 4 |QID|25167|LVL|4|N|This guide requires a minimum level of 4 to do.|
+
 A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|
 A Cleaning Up the Coastline|QID|25170|M|55.77,75.34|N|From Bom'bay.|
-;f Sen'jin Village|QID|25170|M|55.40,73.40|N|At Handler Marnlek.|
 C Cleaning Up the Coastline|QID|25170|S|M|59.02,74.41|N|Kill 5 Pygmy Surf Crawlers for Crawler Mucus.|
 
 C Breaking the Chain|QID|25167|M|52.45,80.60|N|Kill the Northwatch Lugs, and destroy the supply crates they drop.|
 C Cleaning Up the Coastline|QID|25170|US|M|59.02,74.41|N|Kill and loot the Pygmy Surf Crawlers.|
+r Trayexir|QID|25167|M|56.47,73.11|ACTIVE|25167|N|Take this opportunity to sell and repair with Trayexir, who is at the back of the hut to the north of Master Gadrin.|S|
 T Breaking the Chain|QID|25167|M|55.95,74.80|N|To Master Gadrin.|
-A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|
+A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|PRE|25168|
+
 T Cleaning Up the Coastline|QID|25170|M|55.72,75.39|N|To Bom'bay.|
-A Never Trust a Big Barb and a Smile|QID|25165|PRE|25170|M|55.72,75.39|N|From Bom'bay.|
+A Never Trust a Big Barb and a Smile|QID|25165|PRE|25170|M|55.72,75.39|N|From Bom'bay.|PRE|25170|RANK|2|
 A The War of Northwatch Aggression|QID|25169|M|55.46,75.04|N|From Lar Prowltusk.|PRE|25167+25170|
 
-C Never Trust a Big Barb and a Smile|QID|25165|U|52505|M|54.16,75.20|N|Summon the Poison Extraction Totem, then let the Clattering Scorpids cast Envenom near it.|
+C Never Trust a Big Barb and a Smile|QID|25165|U|52505|M|54.16,75.20|N|Summon the Poison Extraction Totem, then let the Clattering Scorpids cast Envenom near it.|RANK|2|
 C Purge the Valley|QID|25168|M|46.64,79.51|N|Kill Northwatch Rangers and Infantryman troops.|S|
 R Northwatch Foothold|QID|25168;25169|N|Head to Northwatch Foothold.|M|50.78,79.10|ACTIVE|25169;25168|
 C Attack Plan: Valley of Trials burned|QID|25169|M|49.7,81.6|QO|1|N|Burn the Valley of Trials attack plans that are sitting on the ground.|NC|
@@ -304,47 +321,52 @@ C Attack Plan: Sen'jin Village burned|QID|25169|M|47.95,77.5|QO|2|N|Burn the Sen
 C Attack Plan: Orgrimmar burned|QID|25169|M|46.41,78.86|QO|3|N|Burn the Orgrimmar attack plans that are on the ground inside the tent.|NC|
 C Purge the Valley|QID|25168|M|46.64,79.51|N|Finish killing the Northwatch Rangers and Infantryman troops.|US|
 T The War of Northwatch Aggression|QID|25169|M|55.35,75.17|N|To Lar Prowltusk.|
-T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|
+T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|RANK|2|
 
 T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.|
-A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|
+A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|PRE|25168|
 R Razor Hill|QID|25171|M|55.27,74.65|N|Talk to Raider Jhash for ride to Razor Hill.|CHAT|
+N Profession Trainers|QID|25171|M|52.96,41.90|N|Runda the Profession Trainer, just outside the Barracks can teach you most professions, whilst Rawrk inside the barracks will teach you First Aid.|S|ACTIVE|25171|T|Runda|
 T Riding On|QID|25171|M|51.92,43.48|N|To Gar'Thok.|
 
 A From Bad to Worse|QID|25173|M|51.92,43.48|N|From Gar'Thok.|PRE|25171|
-A Meats to Orgrimmar|QID|6365|M|50.76,42.78|R|Orc,Tauren,Troll|N|From Grimtak.|
-N Profession Trainers|QID|25176|M|52.96,41.90|N|Runda the Profession Trainer, just outside the Barracks can teach you most professions, whilst Rawrk inside the barracks will teach you First Aid.|S|ACTIVE|6365|T|Runda|
+A Meats to Orgrimmar|QID|6365|M|50.76,42.78|R|Orc,Tauren,Troll|N|From Grimtak.|RANK|2|
 h Razor Hill|QID|6365|M|51.61,41.65|N|At Innkeeper Grosk.|ACTIVE|6365|
-T Meats to Orgrimmar|QID|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|To Burok.|
-A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|From Burok.|
-F Orgrimmar|QID|6384|M|53.08,43.6|N|Fly to Orgrimmar.|R|Orc,Tauren,Troll|ACTIVE|6384|
+T Meats to Orgrimmar|QID|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|To Burok.|RANK|2|
+
+A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|From Burok.|RANK|2|
+;This is an N not an F, as the guide would not auto-complete the |CC| step with F, and the R Valley of Strength auto-completes in-flight.
+N Fly to Orgrimmar|QID|6384|M|45.40,0.29|CC|N|Speak to Burok and get a flight to Orgrimmar.|R|Orc,Tauren,Troll|ACTIVE|6384|
 R Valley of Strength|QID|6384|M|43.66,3.06|N|Take the lift down to the Valley of Strength.|ACTIVE|6384|
-T Ride to Orgrimmar|QID|6384|M|46.83,6.67|R|Orc,Tauren,Troll|CS|N|To Innkeeper Gryshka.|
-A Doras the Wind Rider Master|QID|6385|PRE|6384|M|46.83,6.67|R|Orc,Tauren,Troll|N|From Innkeeper Gryshka.|
-T Doras the Wind Rider Master|QID|6385|M|43.66,3.06;45.54,0.23|R|Orc,Tauren,Troll|CS|N|Head back up the lift, then to Doras.|ACTIVE|6385|
-A Return to Razor Hill|QID|6386|PRE|6385|M|49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Doras.|
+T Ride to Orgrimmar|QID|6384|M|46.83,6.67|R|Orc,Tauren,Troll|CS|N|To Innkeeper Gryshka.|RANK|2|
+
+A Doras the Wind Rider Master|QID|6385|PRE|6384|M|46.83,6.67|R|Orc,Tauren,Troll|N|From Innkeeper Gryshka.|RANK|2|
+T Doras the Wind Rider Master|QID|6385|M|43.66,3.06;45.54,0.23|R|Orc,Tauren,Troll|CS|N|Head back up the lift, then to Doras.|ACTIVE|6385|RANK|2|
+
+A Return to Razor Hill|QID|6386|PRE|6385|M|49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Doras.|RANK|2|
 F Razor Hill|QID|6386|M|49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|Fly back to Razor Hill.|ACTIVE|6386|
+
 A Exploiting the Situation|QID|25176|M|53.05,43.12|N|From Gail Nozzywig.|
-T Return to Razor Hill|QID|6386|M|50.78,42.85|R|Orc,Tauren,Troll|N|To Grimtak.|
+T Return to Razor Hill|QID|6386|M|50.78,42.85|R|Orc,Tauren,Troll|N|To Grimtak.|RANK|2|
 
 C Northwatch Marines|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Marines|QO|1|
 C Northwatch Sharpshooters|QID|25173|S|M|57.45,55.24|N|Kill the Northwatch Sharpshooters|QO|2|
-C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Loot the Kul Tiras Treasure scattered around Tiragarde Keep.|NC|S|
+C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Loot the Kul Tiras Treasure scattered inside Tiragarde Keep.|NC|S|
 K Lieutenant Palliter|QID|25173|M|59.5,58.2|N|Kill Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|T|Lieutenant Palliter|QO|3|
 C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Finish looting the Kul Tiras Treasure scattered around Tiragarde Keep.|NC|US|
-C Northwatch Sharpshooters|QID|25173|M|57.45,55.24|N|Finish killing the Northwatch Sharpshooters|QO|2|US|
-C Northwatch Marines|QID|25173|M|57.45,55.24|N|Finish killing the Northwatch Marines|QO|1|US|
+C Northwatch Sharpshooters|QID|25173|M|57.45,55.24|N|Finish killing the Northwatch Sharpshooters|QO|2|US|T|Northwatch Sharpshooters|
+C Northwatch Marines|QID|25173|M|57.45,55.24|N|Finish killing the Northwatch Marines|QO|1|US|T|Northwatch Marines|
 T From Bad to Worse|QID|25173|M|51.89,43.52|N|To Gar'Thok.|
 
-A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|
+A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|PRE|25173|
 T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 
-A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|
+A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|PRE|25176|
 C Storming the Beaches|QID|25177|S|M|58.96,49.79|N|Kill Foaming Sea Elementals. |
 C Shipwreck Searching|QID|25178|S|M|57.35,44.65|N|Obtain 4 sets of Gnomish Tools.|NC|
 A Loss Reduction|QID|25179|M|57.90,45.10|N|Speak to an Injured Razor Hill Grunt.|CHAT|
 C Loss Reduction|QID|25179|M|59.64,49.92|N|Rescue the Injured Razor Hill Grunts.|CHAT|
-C Storming the Beaches|QID|25177|US|M|58.96,49.79|N|Kill 11 Foaming Sea Elementals. |
+C Storming the Beaches|QID|25177|US|M|58.96,49.79|N|Finish killing the Foaming Sea Elementals. |
 
 T Shipwreck Searching|QID|25178|M|53.10,43.18|N|To Gail Nozzywig.|
 A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|PRE|25178|
@@ -353,7 +375,7 @@ T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
 
 T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|CS|N|To Thonk on top of the guard tower.|
-A Lost in the Floods|QID|25187|PRE|25227|M|49.58,40.16|N|From Thonk.|
+A Lost in the Floods|QID|25187|PRE|25227|M|49.58,40.16|N|From Thonk.|PRE|25227|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass to search for Raggaran.|NC|QO|1|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass again to search for the flooded hut.|NC|QO|2|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass once again to search for Misha.|NC|QO|3|
@@ -383,29 +405,24 @@ T That's the End of That Raptor|QID|25195|M|35.85,41.29|N|To Zen'Taji.|
 A Lost But Not Forgotten|QID|25193|RANK|2|M|43.30,30.58|CN|N|From Misha Tor'kren. Avoid killing Alligators on the way over. You need them later.|
 C Lost But Not Forgotten|QID|25193|M|42.44,33.59|N|Kill and loot Crocolisks until you gain 250 teeth.|
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|N|To Misha Tor'kren.|
-T Watershed Patrol|QID|25188|M|49.55,40.17|N|To Thonk.|
-
-A Conscript of the Horde|QID|840|M|50.84,43.59|N|*Northern Barrens Quest*\n\nAccept this quest if you plan on going to Northern Barrens next. From Takrin Pathseeker.|
+T Watershed Patrol|QID|25188|RANK|2|M|49.55,40.17|N|To Thonk.|
 
 L Level 8 |QID|25238|LVL|8|N|You need to be Level 8 to continue with this guide.|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
-R Dustwind Cave|QID|25232|M|54.13,40.71;55.68,38;53.67,31.76;52.79,28.53|N|Run to Dustwind Cave.|CN|
-C The Burning Blade|QID|25232|M|52.79,28.53|N|Kill and loot the Burning Blade thugs and neophytes for their spellscrolls.|
-
-A Winds in the Desert|QID|834|M|46.37,22.95|N|From Rezlak. Jump down into the canyon and run north.|
-
-A Securing the Lines|QID|835|M|46.36,22.99|N|From Rezlak.|
-C Securing the Lines|QID|835|M|54.00,27.37|N|Kill the Dustwind Pillagers, Harpys and Savages|S|
-C Winds in the Desert|QID|834|M|49.50,22.00|N|Loot Sacks of Supplies from Razorwind Canyon.|
-C Securing the Lines|QID|835|M|54.00,27.37|N|Finish killing the Dustwind Pillagers and Dustwind Harpys.|US|
-T Winds in the Desert|QID|834|M|46.41,22.96|N|To Rezlak.|
-T Securing the Lines|QID|835|M|46.41,22.96|N|To Rezlak.|
-
-H Razor Hill |QID|25232|N|Hearthstone to Razor Hill, or run south through the canyon.|M|51.61,41.65|
+R Dustwind Cave|QID|25232|M|54.13,40.71;55.68,38;52.79,28.53|N|Run to Dustwind Cave.|CN|
+C The Burning Blade|QID|25232|M|52.79,28.53|N|Kill and loot the Burning Blade thugs, neophytes and cultists for their spellscrolls.|
+H Razor Hill |QID|25232|N|Hearthstone to Razor Hill.|M|51.61,41.65|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar.|
+A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|PRE|25232|
 
-A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
-R The Dranosh'ar Blockade|QID|25205|M|45.00,14.75|N|Run north through the canyon to The Dranosh'ar Blockade.|
+A Winds in the Desert|QID|834|M|46.37,22.95|N|From Rezlak. Run north through the canyon.|RANK|2|
+A Securing the Lines|QID|835|M|46.36,22.99|N|From Rezlak.|RANK|2|
+C Securing the Lines|QID|835|M|54.00,27.37|N|Kill the Dustwind Pillagers, Harpys, Storm Witch and Savages|S|RANK|2|
+C Winds in the Desert|QID|834|M|49.50,22.00|N|Loot Sacks of Supplies from Razorwind Canyon.|NC|RANK|2|
+C Securing the Lines|QID|835|M|54.00,27.37|N|Finish killing the Dustwind Pillagers, Harpys, Storm Witch and Savages. You'll find more in Drygulch Ravine (through the cavern)|US|RANK|2|
+T Winds in the Desert|QID|834|M|46.41,22.96|N|To Rezlak.|RANK|2|
+T Securing the Lines|QID|835|M|46.41,22.96|N|To Rezlak.|RANK|2|
+
 A The Wolf and The Kodo|QID|25205|M|44.94,14.78|N|From Shin Stonepillar.|
 C Shin Stonepiller|QID|25205|M|55.24,13.99|N|Speak to Shin Stonepiller, ask him to tell his fable.|CHAT|BUFF|73841|
 C The Wolf and The Kodo|QID|25205|M|54.00,15.00|N|Run East until you find fighting Kodos. Use Key 1 to increase your movement speed.|NC|
@@ -417,44 +434,41 @@ A Thunder Down Under|QID|25236|M|44.97,14.74|N|From Gor the Enforcer.|
 A Ignoring the Warnings|QID|25206|M|44.95,14.74|N|From Gor the Enforcer.|PRE|25205|
 
 C Thunder Down Under|QID|25236|M|40.71,30.06|S|N|Click the Thunder Lizards all over the bottom of the lake. Their lightning discharges will stun you for a couple of seconds.|NC|
-C Fizzled|QID|25260|M|42.11,26.69|N|Dive down to Fizzle Darkclaw's corpse and loot the Orb (attept to loot the orb, then loot his hand).|CHAT|
-C Thunder Down Under|QID|25236|M|40.71,30.06|US|N|Finish clicking the Thunder Lizards all over the bottom of the lake. Their lightning discharges will stun you for a couple of seconds.|
+C Fizzled|QID|25260|M|42.11,26.69|N|Dive down to Fizzle Darkclaw's corpse, attempt to loot the orb, then loot his hand.|CHAT|
+C Thunder Down Under|QID|25236|M|40.71,30.06|US|N|Finish clicking the Thunder Lizards all over the bottom of the lake. Their lightning discharges will stun you for a couple of seconds.|NC|
 C Ignoring the Warnings|QID|25206|M|37.39,19.46|N|Kill the Furious Earthguards and Teeming Waterguards.|
 
 T Fizzled|QID|25260|M|44.98,14.76|N|To Gor the Enforcer.|
 A Margoz|QID|25261|PRE|25260|M|44.98,14.76|N|From Gor the Enforcer.|
 T Thunder Down Under|QID|25236|M|44.98,14.76|N|To Gor the Enforcer.|
 T Ignoring the Warnings|QID|25206|M|44.98,14.76|N|To Gor the Enforcer.|
-A Beyond Durotar|QID|25648|M|44.98,14.76|N|*Azshara Quest*\n\nAccept this quest if you plan on going to Azshara next. From Gor the Enforcer.|
+A Beyond Durotar|QID|25648|M|44.98,14.76|N|*Azshara Quest*\n\nFrom Gor the Enforcer.\nAccept this quest if you plan on going to Azshara next. |ACTIVE|25261|
 T Margoz|QID|25261|M|56.39,20.17|N|To Margoz.|
 
 A Skull Rock|QID|25262|PRE|25261|M|56.39,20.17|N|From Margoz.|
-A Sent for Help|QID|25256|M|56.39,20.17|N|From Vek'nag.|
-T Sent for Help|QID|25256|M|58.81,23.14|N|To Spiketooth|
+A Sent for Help|QID|25256|M|56.39,20.17|N|From Vek'nag.|RANK|2|
+T Sent for Help|QID|25256|M|58.81,23.14|N|To Spiketooth|RANK|2|
 
-A Ghislania|QID|25257|PRE|25256|M|58.81,23.14|N|From Spiketooth.|
-A Griswold Hanniston|QID|25258|PRE|25256|M|58.81,23.14|N|From Spiketooth.|
-A Gaur Icehorn|QID|25259|PRE|25256|M|58.81,23.14|N|From Spiketooth.|
+A Ghislania|QID|25257|PRE|25256|M|58.81,23.14|N|From Spiketooth.|RANK|2|
+A Griswold Hanniston|QID|25258|PRE|25256|M|58.81,23.14|N|From Spiketooth.|RANK|2|
+A Gaur Icehorn|QID|25259|PRE|25256|M|58.81,23.14|N|From Spiketooth.|RANK|2|
 
-C Ghislania|QID|25257|M|59.62,22.66|N|Speak to Ghislania at the beach and challenge her to combat.|CHAT|
-C Griswold Hanniston|QID|25258|M|59.12,22.36|N|Speak to Friswold Hanniston at the beach and challenge him to combat.|CHAT|
-C Gaur Icehorn|QID|25259|M|59.37,23.36|N|Speak to Gaur Icehorn at the beach and challenge him to combat.|CHAT|
+C Griswold Hanniston|QID|25258|M|59.12,22.36|N|Speak to Friswold Hanniston at the beach and challenge him to combat.|CHAT|RANK|2|
+C Ghislania|QID|25257|M|59.62,22.66|N|Speak to Ghislania at the beach and challenge her to combat.|CHAT|RANK|2|
+C Gaur Icehorn|QID|25259|M|59.37,23.36|N|Speak to Gaur Icehorn at the beach and challenge him to combat.|CHAT|RANK|2|
 
-T Ghislania|QID|25257|M|58.84,23.10|N|To Spiketooth.|
-T Griswold Hanniston|QID|25258|M|58.77,23.12|N|To Spiketooth.|
-T Gaur Icehorn|QID|25259|M|58.77,23.12|N|To Spiketooth.|
+T Ghislania|QID|25257|M|58.84,23.10|N|To Spiketooth.|RANK|2|
+T Griswold Hanniston|QID|25258|M|58.77,23.12|N|To Spiketooth.|RANK|2|
+T Gaur Icehorn|QID|25259|M|58.77,23.12|N|To Spiketooth.|RANK|2|
 
 C Skull Rock|QID|25262|M|55.02,9.78|N|Kill and loot the Burning Blade for their Searing Collars|
 T Skull Rock|QID|25262|M|56.41,20.05|N|To Margoz.|
 A Arnak Fireblade|QID|25263|PRE|25262|M|56.41,20.05|N|From Margoz.|
 
-R Orgrimmar |QID|25263|ACTIVE|25263|N|Head to Orgrimmar|M|49.60,94.20|
-T Arnak Fireblade|QID|25263|M|58.35,54.18|Z|Cleft of Shadow@Orgrimmar|N|To Neeru Fireblade, at the Cleft of Shadow in Orgrimmar.|
-
-N Azshara |QID|25648|ACTIVE|25648|N|You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara. Otherwise, please abandon the quest "Beyond Durotar"|
+R Orgrimmar |QID|25263|ACTIVE|25263|N|Head to Orgrimmar|M|45.50,11.43|
+T Arnak Fireblade|QID|25263|M|58.35,54.18|Z|Cleft of Shadow@Orgrimmar|N|To Neeru Fireblade, in the Cleft of Shadow in Orgrimmar.|
 
 A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|Orgrimmar|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Neeru Fireblade.|
-N Azshara |QID|28496|ACTIVE|28496|N|Whoops. You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara. Otherwise, please abandon the quest "Warchief's Command: Azshara"|
 A Warchief's Command: Northern Barrens!|QID|28494|M|45.55,5.93|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Warchief's Command Board.|
 
 ]]

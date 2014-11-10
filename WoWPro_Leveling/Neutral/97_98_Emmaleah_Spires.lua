@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-11-10 11:20
+-- Who: Emmaleah
+-- Log: removed more duplicate pre tags.
+
+-- URL: http://wow-pro.com/node/3602/revisions/26953/view
 -- Date: 2014-11-09 03:36
 -- Who: Emmaleah
 -- Log: I was doing code compares on 6.02 vs what I had in my beta directory and it looks like I forgot to post the final version of this guide.  Added Pre tags and who knows what else. - Hopefully merged it correctly with the big list o' errors changes ;)
@@ -67,7 +72,7 @@ f Crow's Crook|QID|34659|M|51.87,31.06|N|At Darkscreech.|
 C The Crone|QID|34659|M|51.62,31.38|CHAT|N|Tell Ornekka the secret word.|
 T The Crone|QID|34659|M|51.62,31.38|N|To Ornekka.|
 A A Charming Deception|QID|34756|M|51.62,31.38|N|From Ornekka.|PRE|34659|
-A All Due Respect|QID|35636|M|51.62,31.38|k|N|From Ornekka.|PRE|34659|
+A All Due Respect|QID|35636|M|51.62,31.38|N|From Ornekka.|PRE|34659|
 A Echo Hunters|QID|34805|M|51.57,31.36|N|From Rashad.|PRE|34659|
 C A Charming Deception|QID|34756|M|49.60,38.24|S|NC|N|After you click on the charms, an adherant will attack, the charm gives you an illusion, which you can "dispell" to stun your opponent.|
 C Echo Hunters|QID|34805|M|50.23,39.80|S|N|These are bats, (up in the air), you need ranged to get thier attention.|
@@ -100,8 +105,8 @@ A Orders, Commander?|QID|35286|M|39.84,60.78|N|From Lieutenant Willem.|FACTION|A
 C Orders, Commander?|QID|35286|M|39.70,60.84|NC|N|Pick your outpost.|FACTION|Alliance|
 T Orders, Commander?|QID|35286|M|39.84,60.78|N|To Lieutenant Willem.|FACTION|Alliance|
 A Outpost specific quest|QID|37327;35699|M|39.84,60.78|N|The quest (and quest giver) is determined by which building you choose. It is from Lieutenant Willam if you choose smugglers or Millie Osgood (inside the taphouse) if you choose brewery.|FACTION|Alliance|PRE|35286|
-;A Peace Offering|QID|35699|N|From Millie Osgood.|
-;A Befriending the Locals|QID|37327|N|From Lieutenant Willem
+;A Peace Offering|QID|35699|N|From Millie Osgood.| -- brewery
+;A Befriending the Locals|QID|37327|N|From Lieutenant Willem - smugglers den
 
 R Axefall|QID|35275|M|40.06,44.04|N|On the other side of the mountain.|FACTION|Horde|
 T Inspecting the Troops|QID|35275|M|40.06,44.04|N|To Shadow Hunter Ukambe.|FACTION|Horde|
@@ -109,8 +114,8 @@ A Orders, Commander?|QID|35277|M|40.19,43.46|N|From Taskmaster Gornek.|FACTION|H
 C Orders, Commander?|QID|35277|M|40.17,43.39|NC|N|Pick your outpost.|FACTION|Horde|
 T Orders, Commander?|QID|35277|M|40.18,43.51|N|To Taskmaster Gornek.|FACTION|Horde|
 A Outpost specific quest|QID|37326;35697|M|40.19,43.46|N|The quest (and quest giver) is determined by which building you choose. It is from Taskmaster Gornek (brewery) or Provisioner Galgar(smugglers den}.|FACTION|Horde|PRE|35277|
-;A Peace Offering|QID|35697|M|40.05,43.18|N|From Provisioner Galgar.|
-;A Befriending the Locals|QID|37326|
+;A Peace Offering|QID|35697|M|40.05,43.18|N|From Provisioner Galgar.|-- smugglers den
+;A Befriending the Locals|QID|37326|N|From Taskmaster Gornek -- brewery
 
 A Wanted: Keeho's Severed Paw|QID|35674|M|39.46,61.66|N|From Wanted Poster inside the building.|FACTION|Alliance|PRE|35286|
 A Wanted: Spineslicer's Husk|QID|35675|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|
@@ -255,7 +260,7 @@ H Axefall|QID|37328;37330|M|36.99,24.63|N|If you hearthstone isnt up or you didn
 
 T Not Here, Not Now|QID|37329;37331|M|39.89,60.84|N|To Lieutenant Willem.|FACTION|Alliance|
 A Attempted Murder|QID|35915|M|39.65,60.85|N|From Hulda Shadowblade.|PRE|37329|FACTION|Alliance|
-A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37331|FACTION|Alliance|PRE|
+A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37331|FACTION|Alliance|
 F Veil Terokk|QID|35634|M|39.07,61.80|N|At Firn Swiftbreeze.|FACTION|Alliance|
 
 T Not Here, Not Now|QID|37328;37330|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
@@ -314,17 +319,17 @@ T Sethe, the Dead God|QID|35012|M|60.41,39.02|N|To Anzu.|
 F Veil Terokk|QID|35245|M|61.90,42.63|N|At Skytalon Karaz.|
 
 T A Sentimental Relic|QID|35245|M|46.50,46.66|N|To Reshad.|
-A The Missing Piece|QID|35897|M|46.50,46.66|PRE|35734|N|From Reshad.|PRE|35245|
+A The Missing Piece|QID|35897|M|46.50,46.66|N|From Reshad.|PRE|35245|
 T The Missing Piece|QID|35897|M|46.63,46.74|N|To Effigy of Terokk.|
-A Terokk's Fall|QID|35895|M|46.63,46.74|PRE|35897|N|From Effigy of Terokk.|PRE|35897|
+A Terokk's Fall|QID|35895|M|46.63,46.74|PRE|35897|N|From Effigy of Terokk.|
 C Find Lithic|QID|35895|NC|QO|1|M|44.63,46.74;64.06,40.43|CS|CHAT|N|Talk to the Effigy to start the scripted event.|
 C Terokk's Fall|QID|35895|QO|2;3|M|66.95,45.32|N|Use the "1" key to kill the outcasts and the "2" key to rescue the guards. Both abilites are Area of Effect.|
 C Use Anzu's Eye|QID|35895|NC|QO|4|M|66.95,45.32|
 T Terokk's Fall|QID|35895|M|46.50,46.67|N|To Reshad.|
-A A Worthy Vessel|QID|36059|M|46.58,46.56|PRE|35895|N|From Shadow-Sage Iskar.|PRE|35895|
+A A Worthy Vessel|QID|36059|M|46.58,46.56|PRE|35895|N|From Shadow-Sage Iskar.|
 C A Worthy Vessel|QID|36059|M|46.63,46.22|N|Tell Terokk you are ready to fight, and then fight until he is nearly dead to convince him of your worthiness.|T|Terokk|
 T A Worthy Vessel|QID|36059|M|46.62,46.75|N|To Shade of Terokk.|
-A The Avatar of Terokk|QID|35896|M|46.62,46.75|PRE|36059|N|From Shade of Terokk.|PRE|36059|
+A The Avatar of Terokk|QID|35896|M|46.62,46.75|PRE|36059|N|From Shade of Terokk.|
 C The Avatar of Terokk|QID|35896|M|30.40,27.07|CHAT|N|Tell Terokk you are ready to start. Use the "1" ability and everything in front of you dies, until you meet Kargath (who is a bit more of a challenge).|
 T The Avatar of Terokk|QID|35896|M|46.49,46.66|N|To Reshad.|
 A Cult of the Ravenspeakers|QID|34921|M|46.93,46.11|N|From Anzu.|
@@ -385,7 +390,7 @@ A Victory is Within Reach|QID|36316|M|46.49,46.67|N|From Reshad. This is a dunge
 H Southport|QID|35915|ACTIVE|35915|M|46.53,46.80|FACTION|Alliance|
 C Attempted Murder|QID|35915|M|39.51,43.36|CHAT|N|Talk to Firn Swiftbreeze for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Alliance|
 T Attempted Murder|QID|35915|M|52.10,23.54|N|To Hulda Shadowblade.|FACTION|Alliance|
-A Assassin's Mark|QID|35926|M|52.10,23.54|PRE|35915|N|From Hulda Shadowblade.|FACTION|Alliance|PRE|35915|
+A Assassin's Mark|QID|35926|M|52.10,23.54|PRE|35915|N|From Hulda Shadowblade.|FACTION|Alliance|
 C Assassin's Mark|QID|35926|M|55.49,23.22|N|Check the bodies of the 'Vigilant Outcasts' lying along the road.|FACTION|Alliance|
 T Assassin's Mark|QID|35926|M|53.57,27.51|N|To (a stealthed) Hulda Shadowblade.|FACTION|Alliance|
 A The Power of Poison|QID|35959|M|53.57,27.51|PRE|35926|N|From (a stealthed) Hulda Shadowblade.|FACTION|Alliance|

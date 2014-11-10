@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2014-11-10 10:53
+-- Who: Emmaleah
+-- Log: made suggested change to Its a fel Reaver, but with heart. (since ppl are not doing this with maxed out raid gear and with friends :/ )
+
+-- URL: http://wow-pro.com/node/3284/revisions/26902/view
 -- Date: 2014-11-08 03:29
 -- Who: Emmaleah
 -- Log: remove dup M tag on N Shutting down manaforge coruu (Scryer)
@@ -177,7 +182,7 @@ C A Heap of Ethereals|QID|10262|S|M|29.92,77.37|N|Kill and loot Zaxxis Ethereals
 C Pick Your Part|QID|10206|S|M|30.48,76.57|N|Loot Ethereal Technology off the ground.|
 
 A It's a Fel Reaver, But with Heart|QID|10309|M|26.83,77.07|N|From N. D. Meancamp.|
-C It's a Fel Reaver, But with Heart|QID|10309|U|29447|M|26.53,78.78|N|Use the Fel Zapper on the Scrapper Fel Reaver. At this point you can attack it, kill and loot it to get the heart. You will be attack by Ethereals now and then while doing the quest.|
+C It's a Fel Reaver, But with Heart|QID|10309|U|29447|M|26.53,78.78|N|Use the Fel Zapper on the Scrapper Fel Reaver. At this point you can attack it, kill and loot it to get the heart. You will be attack by Ethereals, if you are unable to deal with them, (or choose not to) as soon as you use the zapper, mount and fly straight up, wait for them to despawn and come down and zap again after they despawn.|
 T It's a Fel Reaver, But with Heart|QID|10309|M|26.83,77.11|N|To N. D. Meancamp.|
 C Measuring Warp Energies|QID|10313|U|29324|M|29.10,72.70|N|Measure the last pipeline for this quest.|REP|Aldor;932|
 C A Heap of Ethereals|QID|10262|US|M|29.92,77.37|N|Kill and loot Zaxxis Ethereals until you get 10 Insignias.|
