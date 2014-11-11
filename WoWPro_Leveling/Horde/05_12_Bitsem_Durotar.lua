@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-10 20:14
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3199/revisions/26962/view
+-- Date: 2014-11-10 20:13
+-- Who: Fluclo
+-- Log: Put the Azshara notes back in (it was a RANK bug not allowing the guide to auto-continue to The Barrens)
+
+-- URL: http://wow-pro.com/node/3199/revisions/26959/view
 -- Date: 2014-11-09 19:12
 -- Who: Fluclo
 -- Log: Added PRE tags; 
@@ -278,19 +287,6 @@
 -- Log: Cleaned up some Race specific quests. Broke up a |N| tag on a quest into separate N steps.
 --	Relocated [A Purge the Valley] for better flow.  Touched up a few coordinates.
 
--- URL: http://wow-pro.com/node/3199/revisions/24030/view
--- Date: 2011-01-21 21:51
--- Who: Ludovicus
--- Log: Added |R|Orc| to the race specific quests not available to my goblin.
---	Added a missing leading quest [Hana'zua].
-
--- URL: http://wow-pro.com/node/3199/revisions/23669/view
--- Date: 2010-12-07 04:06
--- Who: Estraile
--- Log: Addon Version: v2.0.6
---	Game Version: 4.0.3
---	Summary: Fixed placement of level step in Valley of Trials guide
-
 local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5.43307)
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
@@ -468,7 +464,9 @@ A Arnak Fireblade|QID|25263|PRE|25262|M|56.41,20.05|N|From Margoz.|
 R Orgrimmar |QID|25263|ACTIVE|25263|N|Head to Orgrimmar|M|45.50,11.43|
 T Arnak Fireblade|QID|25263|M|58.35,54.18|Z|Cleft of Shadow@Orgrimmar|N|To Neeru Fireblade, in the Cleft of Shadow in Orgrimmar.|
 
+N Azshara |QID|25648|ACTIVE|25648|N|You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara. Otherwise, please abandon the quest "Beyond Durotar"|
 A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|Orgrimmar|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Neeru Fireblade.|
+N Azshara |QID|28496|ACTIVE|28496|N|Whoops. You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara. Otherwise, please abandon the quest "Warchief's Command: Azshara"|
 A Warchief's Command: Northern Barrens!|QID|28494|M|45.55,5.93|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Warchief's Command Board.|
 
 ]]
