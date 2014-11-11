@@ -4,6 +4,38 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-10 20:14
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3199/revisions/26962/view
+-- Date: 2014-11-10 20:13
+-- Who: Fluclo
+-- Log: Put the Azshara notes back in (it was a RANK bug not allowing the guide to auto-continue to The Barrens)
+
+-- URL: http://wow-pro.com/node/3199/revisions/26959/view
+-- Date: 2014-11-09 19:12
+-- Who: Fluclo
+-- Log: Added PRE tags; 
+--	Couple quests that are not essential for the zone marked as RANK 2; 
+--	F Orgrimmar changed to N as the guide would not auto-complete the |CC| step with F, and the R Valley of Strength auto-completes in-flight; 
+--	Clarified Kul Tiras treasure as inside the keep; 
+--	Removed Concript of the Horde, player can accept this on going to The Barrens instead; 
+--	Moved Winds in the Deserts back to after The Burning Blade; 
+--	Removed Azshara alerts to The Barrens guide.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26957/view
+-- Date: 2014-11-09 13:33
+-- Who: Fluclo
+-- Log: Added CHAT and NC where appropriate; 
+--	Added minimum level info at Level 3; 
+--	Removed all other level info since it's not required (players can still proceed without being that level); 
+--	Corrected a few PRE IDs; 
+--	Made Crab Fishin' RANK 2 and moved it (since it isn't mutual with other quests); 
+--	Changed Ancient Enemy location instruction inside the |N| tag so that it auto-completes; 
+--	Advise of dialog wait with Vanira; 
+--	Added a step to catch quest skipping.
+
+-- URL: http://wow-pro.com/node/3199/revisions/26937/view
 -- Date: 2014-11-08 13:01
 -- Who: Ludovicus
 -- Log: Got rid of duplicate S and PRE tags
@@ -255,28 +287,6 @@
 -- Log: Cleaned up some Race specific quests. Broke up a |N| tag on a quest into separate N steps.
 --	Relocated [A Purge the Valley] for better flow.  Touched up a few coordinates.
 
--- URL: http://wow-pro.com/node/3199/revisions/24030/view
--- Date: 2011-01-21 21:51
--- Who: Ludovicus
--- Log: Added |R|Orc| to the race specific quests not available to my goblin.
---	Added a missing leading quest [Hana'zua].
-
--- URL: http://wow-pro.com/node/3199/revisions/23669/view
--- Date: 2010-12-07 04:06
--- Who: Estraile
--- Log: Addon Version: v2.0.6
---	Game Version: 4.0.3
---	Summary: Fixed placement of level step in Valley of Trials guide
-
--- URL: http://wow-pro.com/node/3199/revisions/23616/view
--- Date: 2010-12-05 23:06
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3199/revisions/23594/view
--- Date: 2010-12-05 05:01
--- Who: Crackerhead22
--- Log: Fixed note error reported by Estraile.
-
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Durotar (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,5,3) -- Faux, really all level 1!
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Troll_Male","Interface\\Icons\\Achievement_Character_Troll_Female"))
@@ -344,15 +354,15 @@ A A Rough Start|QID|24785|PRE|24783|C|Priest|M|67.66,83.02|N|From Tunari.|
 A A Rough Start|QID|24761|PRE|24759|C|Shaman|M|65.90,83.24|N|From Nekali.|
 A A Rough Start|QID|24779|PRE|24777|C|Hunter|M|67.09,83.30|N|From Ortezza.|
 
-C A Rough Start|QID|31160|C|Monk|M|53.56,60.75|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|Z|Echo Isles|
-C A Rough Start|QID|24767|C|Druid|M|65.05,80.73|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
-C A Rough Start|QID|24753|C|Mage|M|67.69,84.69|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
-C A Rough Start|QID|24773|C|Rogue|M|67.69,84.69|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
-C A Rough Start|QID|24641|C|Warrior|M|67.69,84.69|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
-C A Rough Start|QID|26275|C|Warlock|M|67.69,84.69|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
-C A Rough Start|QID|24785|C|Priest|M|67.69,84.69|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
-C A Rough Start|QID|24761|C|Shaman|M|67.69,84.69|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
-C A Rough Start|QID|24779|C|Hunter|M|67.69,84.69|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
+C A Rough Start|QID|31160|C|Monk|M|53.56,60.75|N|Kill and loot the Wildmane Cat for their Pelts.|Z|Echo Isles|
+C A Rough Start|QID|24767|C|Druid|M|65.05,80.73|N|Kill and loot the Wildmane Cat for their Pelts.|
+C A Rough Start|QID|24753|C|Mage|M|67.69,84.69|N|Kill and loot the Wildmane Cat for their Pelts.|
+C A Rough Start|QID|24773|C|Rogue|M|67.69,84.69|N|Kill and loot the Wildmane Cat for their Pelts.|
+C A Rough Start|QID|24641|C|Warrior|M|67.69,84.69|N|Kill and loot the Wildmane Cat for their Pelts.|
+C A Rough Start|QID|26275|C|Warlock|M|67.69,84.69|N|Kill and loot the Wildmane Cat for their Pelts.|
+C A Rough Start|QID|24785|C|Priest|M|67.69,84.69|N|Kill and loot the Wildmane Cat for their Pelts.|
+C A Rough Start|QID|24761|C|Shaman|M|67.69,84.69|N|Kill and loot the Wildmane Cat for their Pelts.|
+C A Rough Start|QID|24779|C|Hunter|M|67.69,84.69|N|Kill and loot the Wildmane Cat for their Pelts.|
 
 T A Rough Start|QID|31160|C|Monk|M|52.56,51.84|N|To Zabrax.|Z|Echo Isles|
 T A Rough Start|QID|24767|C|Druid|M|67.69,84.69|N|To Zen'tabra.|
@@ -374,15 +384,25 @@ A Proving Pit|QID|24786|PRE|24785|C|Priest|M|67.66,83.02|N|From Tunari.|
 A Proving Pit|QID|24762|PRE|24761|C|Shaman|M|64.94,84.21|N|From Nekali.|
 A Proving Pit|QID|24780|PRE|24779|C|Hunter|M|67.09,83.30|N|From Ortezza.|
 
-C Proving Pit|QID|31161|C|Monk|M|51.89,51.36|N|Fight a naga in the proving pit.|Z|Echo Isles|
-C Proving Pit|QID|24768|C|Druid|M|67.61,83.76|N|Fight a naga in the proving pit.|
-C Proving Pit|QID|24754|C|Mage|M|67.61,83.76|N|Fight a naga in the proving pit.|
-C Proving Pit|QID|24774|C|Rogue|M|65.25,83.85|N|Fight a naga in the proving pit.|
-C Proving Pit|QID|24642|C|Warrior|M|65.25,83.85|N|Fight a naga in the proving pit.|
-C Proving Pit|QID|26276|C|Warlock|M|65.25,83.85|N|Fight a naga in the proving pit.|
-C Proving Pit|QID|24786|C|Priest|M|67.61,83.76|N|Fight a naga in the proving pit.|
-C Proving Pit|QID|24762|C|Shaman|M|65.25,83.85|N|Fight a naga in the proving pit.|
-C Proving Pit|QID|24780|C|Hunter|M|67.61,83.76|N|Fight a naga in the proving pit.|
+C Proving Pit|QID|31161|C|Monk|M|51.89,51.36|N|Speak to Darkspear Jailor and tell him you are ready for the challenge.|CHAT|QO|1|
+C Proving Pit|QID|24768|C|Druid|M|67.61,83.76|N|Speak to Darkspear Jailor and tell him you are ready for the challenge.|CHAT|QO|1|
+C Proving Pit|QID|24754|C|Mage|M|67.61,83.76|N|Speak to Darkspear Jailor and tell him you are ready for the challenge.|CHAT|QO|1|
+C Proving Pit|QID|24774|C|Rogue|M|65.25,83.85|N|Speak to Darkspear Jailor and tell him you are ready for the challenge.|CHAT|QO|1|
+C Proving Pit|QID|24642|C|Warrior|M|65.25,83.85|N|Speak to Darkspear Jailor and tell him you are ready for the challenge.|CHAT|QO|1|
+C Proving Pit|QID|26276|C|Warlock|M|65.25,83.85|N|Speak to Darkspear Jailor and tell him you are ready for the challenge.|CHAT|QO|1|
+C Proving Pit|QID|24786|C|Priest|M|67.61,83.76|N|Speak to Darkspear Jailor and tell him you are ready for the challenge.|CHAT|QO|1|
+C Proving Pit|QID|24762|C|Shaman|M|65.25,83.85|N|Speak to Darkspear Jailor and tell him you are ready for the challenge.|CHAT|QO|1|
+C Proving Pit|QID|24780|C|Hunter|M|67.61,83.76|N|Speak to Darkspear Jailor and tell him you are ready for the challenge.|CHAT|QO|1|
+
+C Proving Pit|QID|31161|C|Monk|M|51.89,51.36|N|Fight a naga in the proving pit.|Z|Echo Isles|QO|2|
+C Proving Pit|QID|24768|C|Druid|M|67.61,83.76|N|Fight a naga in the proving pit.|QO|2|
+C Proving Pit|QID|24754|C|Mage|M|67.61,83.76|N|Fight a naga in the proving pit.|QO|2|
+C Proving Pit|QID|24774|C|Rogue|M|65.25,83.85|N|Fight a naga in the proving pit.|QO|2|
+C Proving Pit|QID|24642|C|Warrior|M|65.25,83.85|N|Fight a naga in the proving pit.|QO|2|
+C Proving Pit|QID|26276|C|Warlock|M|65.25,83.85|N|Fight a naga in the proving pit.|QO|2|
+C Proving Pit|QID|24786|C|Priest|M|67.61,83.76|N|Fight a naga in the proving pit.|QO|2|
+C Proving Pit|QID|24762|C|Shaman|M|65.25,83.85|N|Fight a naga in the proving pit.|QO|2|
+C Proving Pit|QID|24780|C|Hunter|M|67.61,83.76|N|Fight a naga in the proving pit.|QO|2|
 
 T Proving Pit|QID|31161|C|Monk|M|52.56,51.84|N|To Zabrax.|Z|Echo Isles|
 T Proving Pit|QID|24768|C|Druid|M|67.50,84.19|N|To Zen'tabra.|
@@ -392,7 +412,9 @@ T Proving Pit|QID|24642|C|Warrior|M|65.39,84.16|N|To Nortet.|
 T Proving Pit|QID|26276|C|Warlock|M|65.39,84.16|N|To Voldreka.|
 T Proving Pit|QID|24786|C|Priest|M|67.50,84.19|N|To Tunari.|
 T Proving Pit|QID|24762|C|Shaman|M|65.39,84.16|N|To Nekali.|
-T Proving Pit|QID|24780|C|Hunter|M|67.50,84.19|N|To Ortezza.|
+T Proving Pit|QID|24780|C|Hunter|M|67.38,83.54|N|To Ortezza.|
+
+L Level 3 |QID|31162;24766;24752;24772;24640;26274;24784;24760;24778|LVL|3|N|You need to be Level 3 to continue with this guide.|
 
 A The Arts of a Monk|QID|31162|C|Monk|PRE|31161|M|52.56,51.84|N|From Zabrax.|Z|Echo Isles|
 A The Arts of a Druid|QID|24766|C|Druid|PRE|24768|M|67.50,84.19|N|From Zen'tabra.|
@@ -402,17 +424,17 @@ A The Arts of a Warrior|QID|24640|C|Warrior|PRE|24642|M|65.39,84.16|N|From Norte
 A The Arts of a Warlock|QID|26274|C|Warlock|PRE|26276|M|64.92,83.26|N|From Voldreka.|
 A The Arts of a Priest|QID|24784|C|Priest|PRE|24786|M|67.66,83.02|N|From Tunari.|
 A The Arts of a Shaman|QID|24760|C|Shaman|PRE|24762|M|64.94,84.21|N|From Nekali.|
-A The Arts of a Hunter|QID|24778|C|Hunter|PRE|24780|M|67.09,83.30|N|From Ortezza.|
+A The Arts of a Hunter|QID|24778|C|Hunter|PRE|24780|M|67.38,83.54|N|From Ortezza.|
 
-C The Arts of a Druid|QID|31162|C|Monk|M|52.6,51.03|N|Hit level 3 if you are not there yet, then practice Tiger Palm on a Tiki Target.|Z|Echo Isles|
-C The Arts of a Druid|QID|3|C|Druid|M|67.50,84.19|N|Train Healing Touch and practice.|Z|Echo Isles|
-C The Arts of a Mage|QID|24752|C|Mage|M|67.69,84.69|N|Train Arcane Intellect and practice.|
-C The Arts of a Rogue|QID|24772|C|Rogue|M|65.90,83.24|N|Train Stealth and practice.|
-C The Arts of a Warrior|QID|24640|C|Warrior|M|65.39,84.16|N|Train Charge and practice on Tiki Target.|
-C The Arts of a Warlock|QID|26274|C|Warlock|M|64.92,83.26|N|Train Immolate and practice.|
-C The Arts of a Priest|QID|24784|C|Priest|M|67.66,83.02|N|Train Power Word: Fortitude and practice.|
-C The Arts of a Shaman|QID|24760|C|Shaman|M|64.94,84.21|N|Train Primal Strike and practice.|
-C The Arts of a Hunter|QID|24778|C|Hunter|M|67.09,83.30|N|Train Steady Shot and practice.|
+C The Arts of a Druid|QID|31162|C|Monk|M|52.6,51.03|N|Practice Tiger Palm on a Tiki Target.|Z|Echo Isles|
+C The Arts of a Druid|QID|3|C|Druid|M|67.50,84.19|N|Practice Healing Touch.|Z|Echo Isles|
+C The Arts of a Mage|QID|24752|C|Mage|M|67.69,84.69|N|Practice Arcane Intellect.|
+C The Arts of a Rogue|QID|24772|C|Rogue|M|65.90,83.24|N|Practice Stealth.|
+C The Arts of a Warrior|QID|24640|C|Warrior|M|65.39,84.16|N|Practice Charge on Tiki Target.|
+C The Arts of a Warlock|QID|26274|C|Warlock|M|64.92,83.26|N|Practice Immolate.|
+C The Arts of a Priest|QID|24784|C|Priest|M|67.66,83.02|N|Practice Power Word: Fortitude.|
+C The Arts of a Shaman|QID|24760|C|Shaman|M|64.94,84.21|N|Practice Primal Strike.|
+C The Arts of a Hunter|QID|24778|C|Hunter|M|67.09,83.30|N|Practice Steady Shot on Tiki Target.|
 
 T The Arts of a Druid|QID|31162|C|Monk|M|52.56,51.84|N|To Zabrax.|Z|Echo Isles|
 T The Arts of a Druid|QID|24766|C|Druid|M|67.66,84.58|N|To Zen'tabra.|
@@ -444,54 +466,78 @@ T More Than Expected|QID|24787|C|Priest|M|68.79,88.62|N|To Vol'jin.|
 T More Than Expected|QID|24763|C|Shaman|M|68.79,88.62|N|To Vol'jin.|
 T More Than Expected|QID|24781|C|Hunter|M|68.79,88.62|N|To Vol'jin.|
 
-A Moraya|QID|25064|M|68.79,88.62|N|From Vol'jin.|
-A Crab Fishin'|QID|25037|PRE|25064|M|68.48,87.60|N|From Tora'jin.|
+A Crab Fishin'|QID|25037|PRE|31163|C|Monk|M|68.48,87.60|N|From Tora'jin.|RANK|2|
+A Crab Fishin'|QID|25037|PRE|24769|C|Druid|M|68.48,87.60|N|From Tora'jin.|RANK|2|
+A Crab Fishin'|QID|25037|PRE|24755|C|Mage|M|68.48,87.60|N|From Tora'jin.|RANK|2|
+A Crab Fishin'|QID|25037|PRE|24775|C|Rogue|M|68.48,87.60|N|From Tora'jin.|RANK|2|
+A Crab Fishin'|QID|25037|PRE|24643|C|Warrior|M|68.48,87.60|N|From Tora'jin.|RANK|2|
+A Crab Fishin'|QID|25037|PRE|26277|C|Warlock|M|68.48,87.60|N|From Tora'jin.|RANK|2|
+A Crab Fishin'|QID|25037|PRE|24787|C|Priest|M|68.48,87.60|N|From Tora'jin.|RANK|2|
+A Crab Fishin'|QID|25037|PRE|24763|C|Shaman|M|68.48,87.60|N|From Tora'jin.|RANK|2|
+A Crab Fishin'|QID|25037|PRE|24781|C|Hunter|M|68.48,87.60|N|From Tora'jin.|RANK|2|
+C Crab Fishin'|QID|25037|M|70.34,81.01|N|Kill and loot the Pygmy Surf Crawlers for the Fresh Crawler Meat.|
+T Crab Fishin'|QID|25037|M|68.52,87.62|N|To Tora'jin.|
+
+A Moraya|QID|25064|PRE|31163|C|Monk|M|68.79,88.62|N|From Vol'jin.|
+A Moraya|QID|25064|PRE|24769|C|Druid|M|68.79,88.62|N|From Vol'jin.|
+A Moraya|QID|25064|PRE|24755|C|Mage|M|68.79,88.62|N|From Vol'jin.|
+A Moraya|QID|25064|PRE|24775|C|Rogue|M|68.79,88.62|N|From Vol'jin.|
+A Moraya|QID|25064|PRE|24643|C|Warrior|M|68.79,88.62|N|From Vol'jin.|
+A Moraya|QID|25064|PRE|26277|C|Warlock|M|68.79,88.62|N|From Vol'jin.|
+A Moraya|QID|25064|PRE|24787|C|Priest|M|68.79,88.62|N|From Vol'jin.|
+A Moraya|QID|25064|PRE|24763|C|Shaman|M|68.79,88.62|N|From Vol'jin.|
+A Moraya|QID|25064|PRE|24781|C|Hunter|M|68.79,88.62|N|From Vol'jin.|
+
 T Moraya|QID|25064|M|67.30,87.92|N|To Moraya.|
 A A Troll's Truest Companion|QID|24622|PRE|25064|M|67.30,87.92|N|From Moraya.|
-C Crab Fishin'|QID|25037|M|70.34,81.01|S|N|Collect 5 Fresh Crawler Meat from Pygmy Surf Crawlers.|
 
 T A Troll's Truest Companion|QID|24622|M|63.33,95.33|N|To Kijara.|
 A Saving the Young|QID|24623|PRE|24622|M|63.33,95.33|N|From Kijara.|
-A Mercy for the Lost|QID|24624|PRE|24623|M|63.38,95.32|N|From Tegashi.|
-A Consort of the Sea Witch|QID|24625|PRE|24623|M|63.38,95.32|N|From Tegashi.|
+A Mercy for the Lost|QID|24624|PRE|24622|M|63.38,95.32|N|From Tegashi.|
+A Consort of the Sea Witch|QID|24625|PRE|24622|M|63.38,95.32|N|From Tegashi.|
 
-C Saving the Young|QID|24623|U|52283|S|M|60.48,89.62|N|Use the Bloodtalon Whistle to rescue 12 Lost Bloodtalon Hatchlings.|
-C Mercy for the Lost|QID|24624|S|M|59.65,88.83|N|Kill 8 Corrupted Bloodtalon Raptors.|
+C Saving the Young|QID|24623|U|52283|S|M|60.48,89.62|N|Use the Bloodtalon Whistle to rescue the Lost Bloodtalon Hatchlings.|NC|
+C Mercy for the Lost|QID|24624|S|M|59.65,88.83|N|Kill the Corrupted Bloodtalon Raptors.|
 C Consort of the Sea Witch|QID|24625|M|60.48,89.62|N|Kill Naj'tess and retrieve his orb. Any Hatchlings you have with you will attack as well.|
-C Saving the Young|QID|24623|U|52283|US|M|60.48,89.62|N|Use the Bloodtalon Whistle to rescue 12 Lost Bloodtalon Hatchlings.|
-C Mercy for the Lost|QID|24624|US|M|59.65,88.83|N|Kill 8 Corrupted Bloodtalon Raptors.|
+C Saving the Young|QID|24623|U|52283|US|M|60.48,89.62|N|Use the Bloodtalon Whistle to rescue the Lost Bloodtalon Hatchlings.|NC|
+C Mercy for the Lost|QID|24624|US|M|59.65,88.83|N|Finish killing the Corrupted Bloodtalon Raptors.|
 
 T Saving the Young|QID|24623|M|63.37,95.19|N|To Kijara.|
 T Mercy for the Lost|QID|24624|M|63.37,95.19|N|To Tegashi.|
 T Consort of the Sea Witch|QID|24625|M|63.37,95.19|N|To Tegashi.|
 A Young and Vicious|QID|24626|PRE|24625|M|63.34,95.29|N|From Kijara.|
-C Crab Fishin'|QID|25037|M|70.34,81.01|US|N|Collect 5 Fresh Crawler Meat from Pygmy Surf Crawlers.|
-C Young and Vicious|QID|24626|T|Swiftclaw|U|50053|M|64.34,87.45|N|Use the Bloodtalon Lasso to capture Swiftclaw. If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|
+
+C Young and Vicious|QID|24626|T|Swiftclaw|U|50053|M|64.34,87.45|N|Use the Bloodtalon Lasso to capture Swiftclaw. If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|QO|1|NC|
+C Young and Vicious|QID|24626|T|Swiftclaw|U|50053|M|66.00,88.31|N|Ride him to the raptor pens near Darkspear Hold.|QO|2|NC|
+
 T Young and Vicious|QID|24626|M|67.25,88.04|N|To Moraya.|
-T Crab Fishin'|QID|25037|M|68.52,87.62|N|To Tora'jin.|
+
 A Breaking the Line|QID|25035|PRE|24626|M|67.99,88.95|N|From Tortunga.|
-C Breaking the Line|QID|25035|M|68.01,89.04|N|Talk to Jornun, right behind Tortunga for a ride to Spitescale Cavern.|
+R Spitescale Cove|QID|25035|M|68.01,89.04|N|Talk to Jornun, right behind Tortunga for a ride to Spitescale Cove.|CHAT|ACTIVE|25035|
 
 T Breaking the Line|QID|25035|M|67.92,74.12|N|To Morakki.|
 A No More Mercy|QID|24812|PRE|25035|M|67.92,74.12|N|From Morakki.|
 A Territorial Fetish|QID|24813|PRE|25035|M|67.92,74.12|N|From Morakki.|
-N No More Mercy|QID|24812|M|67.92,74.12|N|NPC "Zuni" will assist if you wait for him.|
-C No More Mercy|QID|24812|M|69.52,70.08|N|Kill 12 Spitescale Naga.|S|
-C Territorial Fetish|QID|24813|U|52065|M|69.18,69.70|N|Place 8 Territorial Fetishes on Spitescale flags. You can place on same flag more than once when Fetish wears off.|
 
-C No More Mercy|QID|24812|M|69.52,70.08|N|Kill 12 Spitescale Naga.|US|
+C No More Mercy|QID|24812|M|69.52,70.08|N|Kill the Spitescale Naga.|S|
+C Territorial Fetish|QID|24813|U|52065|M|69.18,69.70|N|Place 8 Territorial Fetishes on Spitescale flags. You can place on same flag more than once when Fetish wears off.|NC|
+C No More Mercy|QID|24812|M|69.52,70.08|N|Finish killing the Spitescale Naga.|US|
+
 T No More Mercy|QID|24812|M|67.95,74.05|N|To Morakki.|
 T Territorial Fetish|QID|24813|PRE|24812|M|67.95,74.05|N|To Morakki.|
 A An Ancient Enemy|QID|24814|PRE|24813|M|67.95,74.05|N|From Morakki.|
 
 ; The waypoint arrow points towards the cave. A new player may not know that this is on top of the cave and not inside.
-N An Ancient Enemy|QID|24814|M|69.00,75.00;69.17,72.46|CC|N|Follow the waypoints to talk to Vol'jin on top of the cave. \nThere will be Totems for health and mana. Concentrate on killing Manifestations and stomp out the Braziers when necessary.|
-C An Ancient Enemy|QID|24814|M|68.43,71.99|N|Speak with Vol'jin and aid him in killing Zar'jira, the Sea Witch.|
-R Darkspear Hold|QID|24814|M|60.29,15.67|N|Speak with Vanira for Teleport back to Darkspear Hold.|Z|Echo Isles|
+C An Ancient Enemy|QID|24814|M|69.00,75.00;69.17,72.46|CC|N|Follow the waypoints to Vol'jin, who is on top of the cave, then tell him you're ready.|CHAT|QO|1|
+C An Ancient Enemy|QID|24814|M|68.43,71.99|N|Wait for Zar'jira, the Sea Witch to become attackable, then kill her.|QO|2|
+R Darkspear Hold|QID|24814|M|60.29,15.67|N|Wait for the dialog to finish, then speak with Vanira for a teleport back to Darkspear Hold.|ACTIVE|24814|CHAT|
 
 T An Ancient Enemy|QID|24814|M|68.81,88.64|N|To Vol'jin.|
 A Sen'jin Village|QID|25073|PRE|24814|M|68.86,88.73|N|From Vol'jin.|
 T Sen'jin Village|QID|25073|M|56.02,74.71|N|To Master Gadrin.|
+
+N Are you sure? |QID|0|LEAD|25073|N|Are you sure you want to skip this guide totally? You can't skip any quests on Echo Isles. This action will lead you out of Echo Isles and onto Durotar.|
+
 ]]
 
 end)
