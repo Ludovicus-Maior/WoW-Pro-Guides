@@ -520,6 +520,8 @@ end
 
 function WoWPro:GuideRaceSpecific(guide,race)
     local locRace, engRace = UnitRace("player")
+    race = strupper(race)
+    engRace = strupper(engRace)
     if engRace ~= race then
         WoWPro:UnRegisterGuide(guide,"Guide %s is race specific and you don't match")
     end
@@ -527,6 +529,8 @@ end
 
 function WoWPro:GuideClassSpecific(guide,class)
     local locClass, engClass = UnitClass("player")
+    class = strupper(class)
+    engClass = strupper(engClass)
     if engClass ~= class then
         WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't mach")
     end
