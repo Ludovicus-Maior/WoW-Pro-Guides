@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-11 23:42
+-- Who: Emmaleah
+-- Log: Fixed a missing HRT and 2 Run on N tags.
+
+-- URL: http://wow-pro.com/node/3587/revisions/26954/view
 -- Date: 2014-11-09 07:17
 -- Who: Emmaleah
 -- Log: Final changes before Beta went away.
@@ -229,7 +234,8 @@ R Frostboar Drifts|QID|33412|M|17.76,41.96|N|Head away from the Citadel and take
 C Wanted: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|
 
 C From Their Cold Dead Hands|QID|36417|M|24.30,28.30|S|P|Tailoring;197|N|From the ogres you have been killing, You don't need to get them all in this area.|
-T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrim the Resolute.|A The Cure|QID|33454|M|24.30,28.30|N|From Igrim the Resolute.|
+T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrim the Resolute.|
+A The Cure|QID|33454|M|24.30,28.30|N|From Igrim the Resolute.|
 A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrim the Resolute.|
 C The Cure|QID|33454|M|27.17,26.98|S|N|Kill Geomancers to loot the antidote, use it on the gladiators.|
 K Thunk|QID|33450|M|27.0,25.6|QO|1|N|Inside the building.|T|Thunk|
@@ -277,8 +283,8 @@ C Dyed in the Fur|QID|36419|M|20.48,60.65|P|Tailoring;197|N|Use Trega's dye to i
 T Dyed in the Fur|QID|36419|M|20.47,60.60|P|Tailoring;197|N|To Trega.|
 U Learn Tailoring skill|QID|36706|U|115357|M|20.47,60.60|P|Tailoring;197|N|After you learn check this step off manually.|
 U Learn Tailoring Emporium Blueprints|QID|36706|U|111816|M|20.47,60.60|P|Tailoring;197|N|After you learn check this step off manually.|
-F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver.|P|Leatherworking;165|N|If the chat option flight is available you can save your self a gold, its the same time.|
-F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver.|P|Tailoring;197|N|If the chat option flight is available you can save your self a gold, its the same time.|
+F Bladespire Fortress|QID|33484|M|21.57,56.15|P|Leatherworking;165|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|
+F Bladespire Fortress|QID|33484|M|21.57,56.15|P|Tailoring;197|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|
 T The Slavemaster's Demise|QID|33484|M|18.44,42.12;24.36,37.30|CN|N|To Guse.|
 T The Fall of the Warlord|QID|33467|M|25.6,36.4|N|To Snowrunner Rolga.|
 T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel@Frostfire Ridge|N|To Durotan.|
