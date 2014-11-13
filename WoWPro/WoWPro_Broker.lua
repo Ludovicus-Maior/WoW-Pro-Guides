@@ -549,7 +549,7 @@ function WoWPro.NextStep(k,i)
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
-			if proflvl == '*' then proflvl = 600 end -- Set to the maximum level obtainable in the expansion plus 1
+			if proflvl == '*' then proflvl = 700 end -- Set to the maximum level obtainable in the expansion plus 1
 			proflvl = tonumber(proflvl) or 1
 			profmaxlvl = tonumber(profmaxlvl) or 0
 			profmaxskill = tonumber(profmaxskill) or 0
