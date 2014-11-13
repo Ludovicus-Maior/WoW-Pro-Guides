@@ -687,7 +687,7 @@ function WoWPro:RemoveMapPoint()
 	end
 end
 
-function  WoWPro.CheckAstrolabeData()
+function  WoWPro.CheckAstrolabeData(force)
     if not WoWPro.Astrolabe['zeroData'] then
         WoWPro:dbp("CheckAstrolabeData(): No Astrolabe!")
         return
@@ -695,12 +695,13 @@ function  WoWPro.CheckAstrolabeData()
     local Astrolabe = WoWPro.Astrolabe
     local map, pizo = Astrolabe:GetCurrentPlayerPosition()
     if not (map and pizo) then
+        WoWPro:dbp("CheckAstrolabeData(): No player position yet!")
         -- We are not mapped yet.
         return
     end
     local AW = Astrolabe.WorldMapSize[map][pizo]
     local Az = Astrolabe.zeroData
-    if AW ~= Az then
+    if (not force) and AW ~= Az then
         -- We have data
         WoWPro:dbp("Map data present for %d/%d", map, pizo)
         return
