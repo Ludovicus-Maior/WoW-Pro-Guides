@@ -4,6 +4,34 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-11-13 10:25
+-- Who: Fluclo
+-- Log: Added Bloodthorn Hill quest and lootable; added PRE tag to F Lunarfall after visit to Ashran; Added more Level 94 quests; Added placeholder for Level 100 quests.
+
+-- URL: http://wow-pro.com/node/3604/revisions/26971/view
+-- Date: 2014-11-13 06:08
+-- Who: Fluclo
+-- Log: Fixed wrong ACTIVE tag in Lost in Transition, removed my test code inadvertently left in the guide.
+
+-- URL: http://wow-pro.com/node/3604/revisions/26970/view
+-- Date: 2014-11-13 05:55
+-- Who: Fluclo
+-- Log: Moved Gnomish Location Transponder to after Fey Landing; 
+--	Added The Big Haul quest; 
+--	Moved Draakorium quests to before Twilight; 
+--	Added Level 92 tag to Secrets of Gorgrond; 
+
+-- URL: http://wow-pro.com/node/3604/revisions/26969/view
+-- Date: 2014-11-13 01:58
+-- Who: Fluclo
+-- Log: Added |T| for Quakefist
+
+-- URL: http://wow-pro.com/node/3604/revisions/26968/view
+-- Date: 2014-11-13 01:56
+-- Who: Fluclo
+-- Log: Added locations of flags as a coordinate note
+
+-- URL: http://wow-pro.com/node/3604/revisions/26895/view
 -- Date: 2014-11-08 01:22
 -- Who: Ludovicus
 -- Log: Corrections
@@ -41,8 +69,6 @@ WoWPro:GuideNextGuide(guide, 'LudoGorgrond')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;Guide Levels set to 91 to make guide show AFTER Assault on the Dark Portal.
-
 L Level 90 |QID|34575|LVL|90|N|This guide requires a minimum level of 90 to do.|
 N Getting to Shadowmoon Valley (Draenor) |QID|34575|N|To get to Shadowmoon Valley (Draenor), you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|35884|
 
@@ -61,13 +87,13 @@ T For the Alliance! |QID|34583|N|To Baros Alexston|M|29.0,16.2|
 A Looking for Lumber |QID|34584|N|From Baros Alexston|M|29.0,16.2|PRE|34583|
 A Ravenous Ravens |QID|34616|N|From Baros Alexston|M|29.0,16.2|PRE|34583|
 C Ravenous Ravens |QID|34616|N|Kill the Lunarfall Ravens|S|M|29.1,17.8|
-C Looking for Lumber |QID|34584|N|Click on the flag shadows to mark the trees.|NC|M|29.1,17.8|
+C Looking for Lumber |QID|34584|N|Click on the flag shadows to mark the trees.|NC|M|28.61,17.20;29.09,17.80;28.94,19.78;29.30,19.21;29.88,18.84;30.55,21.03;30.89,19.23;31.67,18.14;31.16,17.04;32.22,16.43;30.27,17.02|CN|
 C Ravenous Ravens |QID|34616|N|Finish killing the Lunarfall Ravens|US|M|29.1,17.8|
 T Looking for Lumber |QID|34584|N|From Baros Alexston|M|29.0,16.2|
 T Ravenous Ravens |QID|34616|N|From Baros Alexston|M|29.0,16.2|
 
 A Quakefist |QID|34585|N|From Yrel|M|28.9,16.4|PRE|34584+34616|
-C Quakefist |QID|34585|N|Kill Quakefist, who can be found inside the cave.|M|30.1,21.8|
+C Quakefist |QID|34585|N|Kill Quakefist, who can be found inside the cave.|M|30.1,21.8|T|Quakefist|
 T Quakefist |QID|34585|N|To Yrel|M|28.9,16.4|
 
 A Establish Your Garrison|QID|34586|N|From Baros Alexston|M|29.0,16.2|PRE|34585|
@@ -232,13 +258,6 @@ T Defenstrations |QID|34781|N|To Defense Pylon Central Control Console.|M|56.94,
 
 A The Exarch Council |QID|34782|N|From Vindicator Maraad\n(Don't worry about the Fungal Giant Elite, he won't attack you)|M|56.2,32.4|PRE|34781|
 
-;The next block is for Engineers only
-T Gnomish Location Transponder|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|
-A Snatch 'n' Grab|QID|36287|N|From Goggles|M|60.9,32.6|PRE|36286|
-C Snatch 'n' Grab|QID|36287|N|Obtain the Pilfered Parts from Moonlit Shore|NC|M|66.9,27.5|
-T Snatch 'n' Grab|QID|36287|N|To Goggles|M|60.9,32.6|PRE|36286|
-R Elodor Fields |QID|34782|N|Head to Elodor by first running west to Elodor Fields|M|56.3,32.0|PRE|36287|ACTIVE|34782|
-
 ;The next block is for Tailors only
 T Ameeka, Master Tailor|QID|36262|N|To Ameeka in Elodor.|M|58.2,26.5|
 A The Clothes on Their Backs|QID|36266|N|From Ameeka.|PRE|36262|M|58.2,26.5|
@@ -309,13 +328,103 @@ T Friend of the Exarchs |QID|34788|N|To Exarch Naielle|M|62.5,26.2|
 A Supply Drop |QID|35905|N|From Exarch Naielle|PRE|34788|M|62.5,26.2|
 
 f Fey Landing |QID|35552|N|With Vamuun.|M|58.7,31.9|
-F Embaari Village|QID|33072|N|Fly to Embaari Village|ACTIVE|33072|M|40.5,54.9|
-R Twilight Glade|QID|33072|N|Run south through The Nightmarsh to Twilight Glade.|ACTIVE|33072|M|40.5,54.9|
-f Twilight Glade |QID|33072|N|With Gotuun|M|40.7,55.3|ACTIVE|33072|
 
+;The next block is for Engineers only
+T Gnomish Location Transponder|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|
+A Snatch 'n' Grab|QID|36287|N|From Goggles|M|60.9,32.6|PRE|36286|
+C Snatch 'n' Grab|QID|36287|N|Obtain the Pilfered Parts from Moonlit Shore|NC|M|66.9,27.5|
+T Snatch 'n' Grab|QID|36287|N|To Goggles|M|60.9,32.6|PRE|36286|
+
+A The Big Haul |QID|33084|N|From Traevar Gunnermark|M|62.4,36.8|RANK|2|
+N The Hills of Valuun |QID|33084|N|Complete the Bonus Objective: The Hills of Valuum at the same time.|ACTIVE|33084|S|
+C The Big Haul |QID|33084|N|Kill and loot the Rock Bull, Rock Grazer and Rock Calf for the Raw Elekk Steak.|M|62.4,36.8|RANK|2|
+T The Big Haul |QID|33084|N|To Traevar Gunnermark|M|62.4,36.8|RANK|2|
+
+f Path of the Light|QID|35444|N|With Paaya.|M|59.35,46.00|ACTIVE|35444|
+R The Draakorium |QID|35444|N|Run south along the road.|M|57.0,56.6|ACTIVE|35444|
+T The Southern Wilds |QID|35444|N|To Prelate Reenu.|M|57.0,57.5|ACTIVE|35444| ;From Farmer Gehaar
+
+A The Southern Wilds|QID|35459|M|42.71,44.76|Z|Lunarfall|LEAD|35444|
+f The Draakorium |QID|35459|N|With Morfax|M|57.0,56.6|ACTIVE|35459|
+T The Southern Wilds |QID|35459|N|To Prelate Reenu, south along the road in Draakorium|M|57.0,57.5|ACTIVE|35459|
+
+T The Southern Wilds |QID|35450|N|To Prelate Reenu, south along the road in Draakorium|M|57.0,57.5|ACTIVE|35450|
+
+A Crippled Caravan|QID|33786|M|57.0,57.5|N|From Prelate Reenu.|
+A Wanted: Maa'run's Hoof |QID|33836|N|From the Wanted Poster at The Draakorium. This is a 3-party group quest.|RANK|3|
+f The Draakorium |QID|33786|N|With Morfax|M|57.0,56.6|
+C Crippled Caravan|QID|33786|N|Head to Fiona's Caravan|M|53.6,57.3|NC|
+T Crippled Caravan|QID|33786|N|To Fiona|M|53.6,57.3|
+
+A Fiona's Solution|QID|33787|M|53.60,57.27|N|From Fiona.|
+A Swamplighter Queen|QID|33808|M|53.60,57.27|N|From Fiona.|
+
+C Wanted: Maa'run's Hoof |QID|33836|N|Kill and loot Maa'run for her hoof. This is a 3-party group quest.|RANK|3|M|51.8,54.4|
+C Swamplighter Queen|QID|33808|N|Head into Swamplight Cave, then kill and loot Swamplighter Queen for her tail.|M|51.5,55.6|
+
+C Fiona's Solution|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|S|
+C Fiona's Solution|QID|33787|N|Kill and loot the Riot Blossom|QO|3|S|M|51.8,58.5|
+C Fiona's Solution|QID|33787|N|Kill and loot the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|S|M|51.8,58.5|
+C Fiona's Solution|QID|33787|N|Kill and loot Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
+C Fiona's Solution|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|US|
+C Fiona's Solution|QID|33787|N|Finish killing and looting Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
+C Fiona's Solution|QID|33787|N|Finish killing and looting the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|US|M|51.8,58.5|
+C Fiona's Solution|QID|33787|N|Finish killing and looting the Riot Blossom|QO|3|US|M|51.8,58.5|
+
+T Fiona's Solution|QID|33787|M|53.59,57.30|N|To Fiona.|
+T Swamplighter Queen|QID|33808|M|53.59,57.30|N|To Fiona.|
+A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787;33808|
+C Cooking With Unstable Herbs|QID|33788|QO|1|N|Speak with Fiona|CHAT|M|53.59,57.30|
+C Cooking With Unstable Herbs|QID|33788|QO|2|N|Follow Fiona's steps to complete the elixir.\n\nNice Glow = Moonlit Herb\nSomething Meaty = Riverbeast Heart\nWriggle Around = Riotvine\nDangerous and Toxic = Swamplighter Venom|NC|M|53.59,57.30|
+C Cooking With Unstable Herbs|QID|33788|QO|3|N|Click to use the elixir on Gidwin Goldbraids.|NC|
+T Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|To Fiona.|
+
+A Poison Paralysis|QID|35006|M|53.58,57.32|N|From Fiona.|PRE|33788|
+A Botani Beatdown|QID|34995|M|53.67,57.26|N|From Tarenar Sunstrike.|PRE|33788|
+A Blademoon Bloom|QID|35014|M|53.70,57.28|N|From Rangari Arepheon.|PRE|33788|
+A Forever Young|QID|34994|M|53.47,57.29|N|From Beezil Linkspanner.|PRE|33788|
+A Rotting Riverbeasts|QID|34996|M|52.61,59.69|N|From Rangari Duula.|
+
+C Botani Beatdown|QID|34995|M|53.67,57.26|N|Kill the Blademoon Botani|S|
+C Rotting Riverbeasts|QID|34996|M|51.6,63.2|N|Kill the Blooming Mandragora. By the river-edge, there are Shadow Lily's that will allow you to walk on water.|
+
+A Slumberbloom|QID|34997|M|53.14,65.38|N|From Sleepy Rangari.|
+C Slumberbloom|QID|34997|M|53.3,65.7|N|Destroy the Slumberblooms by using the Gathered Pebbles on them.|S|NC|
+
+C Forever Young|QID|34994|N|Collect the Youthvine from the ground.|NC|M|53.8,69.3|S|
+
+C Poison Paralysis|QID|35006|NC|N|Find and cure Talren Highbeacon|QO|3|M|54.1,70.8|
+C Blademoon Bloom|QID|35014|N|Speak with Rangari Arepheon|M|55.7,72.0|CHAT|
+T Blademoon Bloom|QID|35014|N|To Rangari Arepheon|M|55.7,72.0|
+
+A Gestating Genesaur|QID|35015|M|55.67,71.98|N|From Rangari Arepheon.|PRE|35014|
+C Gestating Genesaur|QID|35015|M|56.1,73.1|N|Kill Blooming Genesaur|
+T Gestating Genesaur|QID|35015|M|55.67,71.98|N|To Rangari Arepheon.|
+
+C Poison Paralysis|QID|35006|NC|N|Find and cure Argus Highbeacon|QO|2|M|56.8,70.4|
+C Poison Paralysis|QID|35006|NC|N|Find and cure Rimblat Earthshatter|QO|1|M|55.1,68.1|
+
+C Slumberbloom|QID|34997|M|53.3,65.7|N|Finish destroying the Slumberblooms by using the Gathered Pebbles on them.|NC|US|
+T Slumberbloom|QID|34997|N|Auto-Complete|
+
+C Forever Young|QID|34994|N|Finish collecting the Youthvine from the ground.|NC|M|54.7,70.0|US|
+C Botani Beatdown|QID|34995|N|Finish killing the Blademoon Botani|US|M|55.1,68.1|
+
+T Rotting Riverbeasts|QID|34996|M|52.61,59.67|N|To Rangari Duula.|
+T Forever Young|QID|34994|M|53.45,57.29|N|To Beezil Linkspanner.|
+T Botani Beatdown|QID|34995|M|53.68,57.24|N|To Tarenar Sunstrike.|
+T Poison Paralysis|QID|35006|M|53.60,57.29|N|To Fiona.|
+
+A Fiona |QID|35617|M|53.60,57.29|N|From Fiona.|PRE|35006|
+T Fiona |QID|35617|M|53.60,57.29|N|To Fiona.|
+
+T Wanted: Maa'run's Hoof|QID|33836|M|58.03,57.63|N|To Orrin.|RANK|3|
+
+R Twilight Glade|QID|33072|N|Run to Twilight Glade.|ACTIVE|33072|M|40.5,54.9|
 T Into Twilight |QID|33072|N|To Prophet Velen at Twilight Glade|M|40.5,54.9|
 A The Clarity Elixir |QID|33076|N|From Prophet Velen|PRE|33072|M|40.5,54.9|
 
+f Twilight Glade |QID|33076|N|With Gotuun|M|40.7,55.3|
 A Loola's Lost Love |QID|34876|N|From Old Loola|M|41.3,55.1|
 A A Grandmother's Remedy |QID|33077|N|From Old Loola|M|41.3,55.1|
 
@@ -369,7 +478,7 @@ T Escape From Shaz'gul |QID|33081|N|To Yrel, now in Twilight Glade.|M|40.6,54.9|
 A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.5,54.9|PRE|33081|
 A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez.|PRE|33081|
 
-F Embaari Village |QID|33586|M|40.7,55.3|N|Fly to Embaari Village|
+F Embaari Village |QID|33586|M|40.7,55.3|N|Fly to Embaari Village, or use your hearthstone if it has cooled down.|
 f Exile's Rise|QID|33586|M|45.58,25.37|N|At Wargra.|
 T Chasing Shadows |QID|33586|M|45.70,26.35|N|To Rulkan up Exile's Rise|
 
@@ -410,7 +519,7 @@ C The Great Salvation|QID|33794|N|Rescue the Draenei prisoners by opening the ca
 C Into Anguish|QID|35032|N|Deactivate the Mark of Shadows|QO|3|M|34.5,41.4|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Shadow to release it, then kill it.|QO|1|M|34.0,43.3|
 C Harbingers of the Void|QID|33793|N|Kill Essence of Anguish, who is inside Ancestor's Grotto cave.|QO|3|M|35.2,44.5|
-l Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for Garrison Resources and an i525 Blue Boots.|M|35.87,40.87|RANK|3|
+l Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for an i525 Blue Boots and tidy XP.|M|35.87,40.87|RANK|3|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Anguish|QO|4|M|32.6,38.8|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Darkness to release it, then kill it.|QO|2|M|31.2,39.4|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Darkness|QO|2|M|29.5,39.7|NC|
@@ -420,12 +529,26 @@ A The Dark Side of the Moon|QID|34054|PRE|35032|N|Auto-Accept|
 C The Dark Side of the Moon|QID|34054|N|Head up the Terrace of the Stars to Yrel then Velen.|M|30.3,43.2|NC|QO|1|
 C The Dark Side of the Moon|QID|34054|N|Wait for the dialog to finish, then kill Arkeddon.|M|30.9,43.9|QO|2|
 
+l Carved Drinking Horn |QID|33569|N|Carved Drinking Horn: Lootable object for Carved Drinking Horn and tidy XP.|M|33.50,39.65|RANK|3|
 C The Great Salvation|QID|33794|N|Finish rescuing the Draenei prisoners by opening the cages.|NC|US|
 C Across the Stars|QID|33795|N|Finish picking up the Star Readings from the floor.|NC|US|
 C The Clothes on Their Backs|QID|36266|N|Finish killing and loot the Shadowmoon Forces for their Ceremonial Shadowmoon Robes.|US|
 C On the Offensive|QID|33083|N|Finish killing the Shadowmoon Forces|US|
 
+A Wanted: Kliaa's Stinger|QID|33834|N|From the poster in Bloodthorn Hill. This is a 3-party group quest.|M|26.40,32.84|RANK|2|
+C Wanted: Kliaa's Stinger|QID|33834|N|Kill and loot Kliaa for her Massive Stinger|M|24.61,36.34|RANK|2|
+
+R Bloodthorn Cave |QID|33419|N|Head to Bloodthorn Cave.|M|24.03,33.06|
+A A Matter of Life and Death|QID|33419|N|From Roona in the Bloodthorn Cave.|M|23.09,32.97|
+C A Matter of Life and Death|QID|33419|N|Save Diaani.|NC|QO|2|M|22.71,34.06|
+l Rotting Basket|QID|33572|N|Rotting Baskets: Lootable junk worth 13 gold and some tidy XP.|M|22.87,33.86|RANK|3|
+C A Matter of Life and Death|QID|33419|N|Save Arekk, he's in the cave north of Diaani|NC|QO|1|M|21.65,34.05|
+C A Matter of Life and Death|QID|33419|N|Save Zuulo, continue south then east through the tunnel.|NC|QO|3|M|22.57,34.85|
+K Gorum |QID|33664|M|21.58,33.18|N|*Rare Elite*|RANK|3|
+T A Matter of Life and Death|QID|33419|N|To Roona.|M|23.09,32.97|
+
 H Lamplighter Inn|QID|33794|N|Hearthstone back to the Lamplighter Inn.\n\nIf you didn't set your hearthstone, or it's still on cooldown, run back to Yrel in Embaari Village and hand in the quests.|
+
 T The Great Salvation|QID|33794|N|To Yrel in Embaari Village|M|46.4,38.6|
 T The Dark Side of the Moon|QID|34054|N|To Yrel|M|46.4,38.6|
 
@@ -440,6 +563,8 @@ T Harbingers of the Void|QID|33793|M|35.7,36.9|N|To Prophet Velen|
 T Across the Stars|QID|33795|M|35.7,36.9|N|To Prophet Velen|
 
 A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.4,38.7|PRE|33794;33083;33793;33795|
+
+T Wanted: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.53|
 
 F Fey Landing |QID|36266|N|Fly to Fey Landing in Elodor.|ACTIVE|36266|
 T The Clothes on Their Backs|QID|36266|N|To Ameeka.|M|58.2,26.5|
@@ -462,11 +587,11 @@ C The Defense of Karabor|QID|33256|N|Complete the scenario (Kill Arnokk the Burn
 T The Defense of Karabor|QID|33256|N|Jump onto Raindash to take you back to Embaari Village, then To Yrel|M|80.49,46.99|
 
 ;The next quest may not be available since you need to be Level 92, and you're likely to only be level 91 at this point.
-;A The Secrets of Gorgrond |QID|33533|N|Moving onto Gorgrond next? Accept this quest from Yrel.|LEAD|36632;35556|
+A The Secrets of Gorgrond |QID|33533|N|Moving onto Gorgrond next? Accept this quest from Yrel.|LEAD|36632;35556|LVL|92|
 
 l The Prophet's Arcanum |QID|37322|N|Go to the mailbox, there will be a message there from Yrel, with The Prophet's Arcanum. Take it.|L|119208|PRE|33256|M|45.9,39.6|
 A The Prophet's Final Message|QID|37322|M|42.37,52.04|Z|Lunarfall|N|From The Prophet's Arcanum. (Quest can also be obtained from Arsenio Zerep.)|U|119208|PRE|33256|
-f Path of the Light|QID|35444|N|Run east along the road. To Paaya.|M|57.0,56.6|ACTIVE|37322|
+F Path of the Light|QID|37322|N|Fly to the Path of the Light|M|45.67,38.85|ACTIVE|37322|
 R Tranquil Court|QID|37322|M|70.4,50.4|N|Run east up the stairs to Tranquil Court.|
 f Tranquil Court|QID|37322|M|70.4,50.4|N|With Itara|ACTIVE|37322|
 T The Prophet's Final Message|QID|37322|N|To Prophet Velen's Memorial|M|73.7,55.8|
@@ -536,89 +661,8 @@ A Oru'kai's Staff |QID|36315|N|From Deema|M|37.4,72.6|PRE|36313|
 C Oru'kai's Staff |QID|36315|N|Obtain Oru'kai's Staff from the water.|
 T Oru'kai's Staff |QID|36315|N|To Arcanist Delath|M|37.4,72.6|
 
-F Path of the Light|QID|35444|N|Fly to the Path of the Light.|ACTIVE|35444|
-R The Draakorium |QID|35444|N|Run south along the road.|M|57.0,56.6|ACTIVE|35444|
-f The Draakorium |QID|35444|N|With Morfax|M|57.0,56.6|ACTIVE|35444|
-T The Southern Wilds |QID|35444|N|To Prelate Reenu.|M|57.0,57.5|ACTIVE|35444| ;From Farmer Gehaar
-
-A The Southern Wilds|QID|35459|M|42.71,44.76|Z|Lunarfall|LEAD|35444|
-f The Draakorium |QID|35459|N|With Morfax|M|57.0,56.6|ACTIVE|35459|
-T The Southern Wilds |QID|35459|N|To Prelate Reenu, south along the road in Draakorium|M|57.0,57.5|ACTIVE|35459|
-
-T The Southern Wilds |QID|35450|N|To Prelate Reenu, south along the road in Draakorium|M|57.0,57.5|ACTIVE|35450|
-
-A Crippled Caravan|QID|33786|M|57.0,57.5|N|From Prelate Reenu.|
-A Wanted: Maa'run's Hoof |QID|33836|N|From the Wanted Poster at The Draakorium. This is a 3-party group quest.|RANK|3|
-C Crippled Caravan|QID|33786|N|Head to Fiona's Caravan|M|53.6,57.3|NC|
-T Crippled Caravan|QID|33786|N|To Fiona|M|53.6,57.3|
-
-A Fiona's Solution|QID|33787|M|53.60,57.27|N|From Fiona.|
-A Swamplighter Queen|QID|33808|M|53.60,57.27|N|From Fiona.|
-
-C Wanted: Maa'run's Hoof |QID|33836|N|Kill and loot Maa'run for her hoof. This is a 3-party group quest.|RANK|3|M|51.8,54.4|
-C Swamplighter Queen|QID|33808|N|Head into Swamplight Cave, then kill and loot Swamplighter Queen for her tail.|M|51.5,55.6|
-
-C Fiona's Solution|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|S|
-C Fiona's Solution|QID|33787|N|Kill and loot the Riot Blossom|QO|3|S|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Kill and loot the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|S|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Kill and loot Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|US|
-C Fiona's Solution|QID|33787|N|Finish killing and looting Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Finish killing and looting the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|US|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Finish killing and looting the Riot Blossom|QO|3|US|M|51.8,58.5|
-
-T Fiona's Solution|QID|33787|M|53.59,57.30|N|To Fiona.|
-T Swamplighter Queen|QID|33808|M|53.59,57.30|N|To Fiona.|
-A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787;33808|
-C Cooking With Unstable Herbs|QID|33788|QO|1|N|Speak with Fiona|CHAT|M|53.59,57.30|
-C Cooking With Unstable Herbs|QID|33788|QO|2|N|Follow Fiona's steps to complete the elixir.\n\nNice Glow = Moonlit Herb\nSomething Meaty = Riverbeast Heart\nWriggle Around = Riotvine\nDangerous and Toxic = Swamplighter Venom|NC|M|53.59,57.30|
-C Cooking With Unstable Herbs|QID|33788|QO|3|N|Click to use the elixir on Gidwin Goldbraids.|NC|
-T Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|To Fiona.|
-
-A Poison Paralysis|QID|35006|M|53.58,57.32|N|From Fiona.|PRE|33788|
-A Botani Beatdown|QID|34995|M|53.67,57.26|N|From Tarenar Sunstrike.|PRE|33788|
-A Blademoon Bloom|QID|35014|M|53.70,57.28|N|From Rangari Arepheon.|PRE|33788|
-A Forever Young|QID|34994|M|53.47,57.29|N|From Beezil Linkspanner.|PRE|33788|
-A Rotting Riverbeasts|QID|34996|M|52.61,59.69|N|From Rangari Duula.|
-
-C Botani Beatdown|QID|34995|M|53.67,57.26|N|Kill the Blademoon Botani|S|
-C Rotting Riverbeasts|QID|34996|M|51.6,63.2|N|Kill the Blooming Mandragora. By the river-edge, there are Shadow Lily's that will allow you to walk on water.|
-
-A Slumberbloom|QID|34997|M|53.14,65.38|N|From Sleepy Rangari.|
-C Slumberbloom|QID|34997|M|53.3,65.7|N|Destroy the Slumberblooms by using the Gathered Pebbles on them.|S|NC|
-
-C Forever Young|QID|34994|N|Collect the Youthvine from the ground.|NC|M|53.8,69.3|S|
-
-C Poison Paralysis|QID|35006|NC|N|Find and cure Talren Highbeacon|QO|3|M|54.1,70.8|
-C Blademoon Bloom|QID|35014|N|Speak with Rangari Arepheon|M|55.7,72.0|CHAT|
-T Blademoon Bloom|QID|35014|N|To Rangari Arepheon|M|55.7,72.0|
-
-A Gestating Genesaur|QID|35015|M|55.67,71.98|N|From Rangari Arepheon.|PRE|35014|
-C Gestating Genesaur|QID|35015|M|56.1,73.1|N|Kill Blooming Genesaur|
-T Gestating Genesaur|QID|35015|M|55.67,71.98|N|To Rangari Arepheon.|
-
-C Poison Paralysis|QID|35006|NC|N|Find and cure Argus Highbeacon|QO|2|M|56.8,70.4|
-C Poison Paralysis|QID|35006|NC|N|Find and cure Rimblat Earthshatter|QO|1|M|55.1,68.1|
-
-C Slumberbloom|QID|34997|M|53.3,65.7|N|Finish destroying the Slumberblooms by using the Gathered Pebbles on them.|NC|US|
-T Slumberbloom|QID|34997|N|Auto-Complete|
-
-C Forever Young|QID|34994|N|Finish collecting the Youthvine from the ground.|NC|M|54.7,70.0|US|
-C Botani Beatdown|QID|34995|N|Finish killing the Blademoon Botani|US|M|55.1,68.1|
-
-T Rotting Riverbeasts|QID|34996|M|52.61,59.67|N|To Rangari Duula.|
-T Forever Young|QID|34994|M|53.45,57.29|N|To Beezil Linkspanner.|
-T Botani Beatdown|QID|34995|M|53.68,57.24|N|To Tarenar Sunstrike.|
-T Poison Paralysis|QID|35006|M|53.60,57.29|N|To Fiona.|
-
-A Fiona |QID|35617|M|53.60,57.29|N|From Fiona.|PRE|35006|
-T Fiona |QID|35617|M|53.60,57.29|N|To Fiona.|
-
-T Wanted: Maa'run's Hoof|QID|33836|M|58.03,57.63|N|To Orrin.|RANK|3|
-
-H Lunarfall |QID|36624|N|Use your Garrison Hearthstone to get back to Lunarfall. If it is on cooldown, then fly back.|U|110560|PRE|35617|
 A Ashran Appearance |QID|36624|N|From Lieutenant Thorn|M|31.27,32.72|Z|Lunarfall|
-C Ashran Appearance |QID|36624|N|Speak with Dungar Longdrink|CHAT|M|48.15,49.87|Z|Lunarfall|
+C Ashran Appearance |QID|36624|N|Speak with Dungar Longdrink and ask him to fly you to Ashran,|CHAT|M|48.15,49.87|Z|Lunarfall|
 F Stormshield|QID|36624|N|Ask Dungar to take you to Stormshield in Ashran.|M|48.15,49.87|Z|Lunarfall|
 T Ashran Appearance |QID|36624|N|To Private Tristan|M|37.55,91.19|Z|Ashran|
 
@@ -635,7 +679,7 @@ A Surly Dwarf |QID|36630|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|366
 T Surly Dwarf |QID|36630|N|To Delvar Ironfist|M|41.05,86.93|Z|Ashran|
 A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
 
-F Lunarfall|QID|0|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|
+F Lunarfall|QID|0|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|PRE|36624|
 
 A Things Are Not Goren Our Way |QID|34192|N|From Timothy Leens|M|65.46,41.79|Z|Lunarfall|PRE|36592|
 C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|S|QO|1|
@@ -672,7 +716,7 @@ C Your First Jewelcrafting Work Order |QID|36644|N|Collect the Jewelcrafting Wor
 T Your First Jewelcrafting Work Order |QID|36644|N|To Kurt Broadoak.|ACTIVE|36644|
 C Your First Inscription Work Order |QID|36647|N|Collect the Inscription Work Order.|QO|2|ACTIVE|36647|NC|
 T Your First Inscription Work Order |QID|36647|N|To Kaya Solasen.|ACTIVE|36647|
-T Lost in Transition |QID|37087|N|To Kyra Goldhands|ACTIVE|36647|
+T Lost in Transition |QID|37087|N|To Kyra Goldhands|ACTIVE|37087|
 C Your First Tailoring Work Order |QID|36643|N|Collect the Tailoring Work Order.|QO|2|ACTIVE|36643|NC|
 T Your First Tailoring Work Order |QID|36643|N|To Kaylie Macdonald.|ACTIVE|36643|
 C Your First Blacksmithing Work Order|QID|35168|N|Collect the Blacksmithing Work Order.|QO|2|ACTIVE|35168|NC|
@@ -680,39 +724,75 @@ T Your First Blacksmithing Work Order|QID|35168|N|To Yulia Samras|ACTIVE|35168|
 C Your First Leatherworking Work Order |QID|36642|N|Collect the Leatherworking Work Order.|QO|2|ACTIVE|36642|NC|
 T Your First Leatherworking Work Order |QID|36642|N|To Marianne Levine.|ACTIVE|36642|
 
-;N Alchemy |QID|0|N|You have this building.|BUILDING|Alchemy;76;119;120|
-;N Barn |QID|0|N|You have this building.|BUILDING|Barn;24;25;133|
-;N Barracks |QID|0|N|You have this building.|BUILDING|Barracks;26;27;28|
-;N Dwarven Bunker |QID|0|N|You have this building.|BUILDING|Dwarven Bunker;8;9;10|
-;N Enchanter's Study |QID|0|N|You have this building.|BUILDING|Enchanter's Study;93;125;126|
-;N Engineering Works |QID|0|N|You have this building.|BUILDING|Engineering Works;91;123;124|
-;N Fishing Shack |QID|0|N|You have this building.|BUILDING|Fishing Shack;64;134;135|
-;N Gem Boutique |QID|0|N|You have this building.|BUILDING|Gem Boutique;96;131;132|
-;N Gladiator's Sanctum |QID|0|N|You have this building.|BUILDING|Gladiator's Sanctum;159;160;161|
-;N Gnomish Gearworks |QID|0|N|You have this building.|BUILDING|Gnomish Gearworks;162;163;164|
-;N Herb Garden |QID|0|N|You have this building.|BUILDING|Herb Garden;29;136;137|
-;N Lumber Mill |QID|0|N|You have this building.|BUILDING|Lumber Mill;40;41;138|
-;N Lunarfall Excavation |QID|0|N|You have this building.|BUILDING|Lunarfall Excavation;61;62;63|
-;N Lunarfall Inn |QID|0|N|You have this building.|BUILDING|Lunarfall Inn;34;35;36|
-;N Mage Tower |QID|0|N|You have this building.|BUILDING|Mage Tower;37;38;39|
-;N Menagerie |QID|0|N|You have this building.|BUILDING|Menagerie;42;167;168|
-;N Salvage Yard |QID|0|N|You have this building.|BUILDING|Salvage Yard;52;140;141|
-;N Scribe's Quarters|QID|0|N|You have this building.|BUILDING|Scribe's Quarters;95;129;130|
-;N Stables|QID|0|N|You have this building.|BUILDING|Stables;65;66;67|
-;N Storehouse|QID|0|N|You have this building.|BUILDING|Storehouse;51;142;143|
-;N Tailoring Emporium|QID|0|N|You have this building.|BUILDING|Tailoring Emporium;94;127;128|
-;N The Forge|QID|0|N|You have this building.|BUILDING|The Forge;60;117;118|
-;N The Tannery|QID|0|N|You have this building.|BUILDING|The Tannery;90;121;122|
-;N Trading Post|QID|0|N|You have this building.|BUILDING|Trading Post;111;144;145|
-
 L Level 94 |QID|33113|LVL|94|N|Move onto Gorgrond, you can come back to this guide after you've levelled up a bit (the next steps require Level 94)|
+A Meet Us at Starfall Outpost|QID|33359|LVL|94|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|
+A Bounty: Twisted Ancient|QID|33111|LVL|94|N|From the Bulletin Board. This is a 3-party group quest.|M|42.72,44.75|RANK|2|
+
+T Meet Us at Starfall Outpost|QID|33359|LVL|94|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72|
+A Catching His Eye|QID|33062|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33359|
+
 A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.5,24.5|LVL|94|
 C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|LVL|94|
-T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.5,24.5|LVL|94|
+C Bounty: Twisted Ancient|QID|33111|LVL|94|N|Kill and loot the Twisted Ancient for the Corrupted Lumber. This is flagged as a 3-party group quest.|RANK|2|M|26.15,17.50|
 
+R Watcher's Den|QID|33062|ACTIVE|33062|LVL|94|N|Head to the Watcher's Den|M|22.87,16.86|
+C Catching His Eye|QID|33062|LVL|94|N|Capture the All-Seeing Eye (bring his health down to 1%)|
+T Catching His Eye|QID|33062|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+
+A Shrouding Stones |QID|33115|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33062|
+T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.5,24.5|LVL|94|
 A A Curse Upon the Woods |QID|33120|N|From Delas Moonfang|M|29.5,24.5|PRE|33113|LVL|94|
-C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|LVL|94|
+
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|LVL|94|S|
+C Shrouding Stones |QID|33115|LVL|94|N|Southern Shrouding Stone destroyed by clicking it.|QO|3|NC|M|23.82,28.72|
+C Shrouding Stones |QID|33115|LVL|94|N|Central Shrouding Stone destroyed by clicking it.|QO|1|NC|M|23.04,24.40|
+C Shrouding Stones |QID|33115|LVL|94|N|Northern Shrouding Stone destroyed by clicking it.|QO|2|NC|M|26.00,15.92|
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|LVL|94|US|
+
+T Shrouding Stones |QID|33115|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+A Ominous Portents |QID|33112|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33115|
+
 T A Curse Upon the Woods |QID|33120|N|To Delas Moonfang|M|29.5,24.5|LVL|94|
+C Ominous Portents |QID|33112|LVL|94|N|Speak to the All-Seeing Eye and begin the compulsion. Use key 1 until he says something, then use key 2. Repeat until you get the cinematic.|CHAT|
+T Ominous Portents |QID|33112|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+
+A Soul Shards of Summoning |QID|33066|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33112|
+A Cleaning Up Gul'var|QID|33269|LVL|94|N|From Cordana Felsong|M|29.27,25.70|PRE|33112|
+
+C Cleaning Up Gul'var|QID|33269|LVL|94|N|Kill the Shadow Council orcs|S|
+C Soul Shards of Summoning |QID|33066|LVL|94|N|Kill and loot Fel Mistress Hagra for her shard|QO|1|M|20.89,27.26|
+C Soul Shards of Summoning |QID|33066|LVL|94|N|Kill and loot Grogal the Harvester for his shard|QO|2|M|20.82,31.56|
+C Soul Shards of Summoning |QID|33066|LVL|94|N|Kill and loot Corruptor Kurgoth for his shard|QO|3|M|18.26,24.15|
+
+T Soul Shards of Summoning |QID|33066|LVL|94|N|To Image of Archmage Khadgar|M|19.07,28.55|
+A Heart on Fire|QID|33168|LVL|94|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33066|
+C Heart on Fire|QID|33168|LVL|94|N|Kill and loot Krosnis for his Fiery Heart.|M|17.72,27.48|T|Krosnis|
+T Heart on Fire|QID|33168|LVL|94|N|To Image of Archmage Khadgar|M|19.07,28.55|
+
+A Forging the Soul Trap |QID|33114|LVL|94|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33168|
+C Forging the Soul Trap |QID|33114|LVL|94|N|Click on the Gul'var Soul Shards to combine them.|NC|
+T Forging the Soul Trap |QID|33114|LVL|94|N|To Image of Archmage Khadgar|M|19.07,28.55|
+
+A To Catch a Shadow |QID|33116|LVL|94|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|
+C To Catch a Shadow |QID|33116|LVL|94|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|
+C To Catch a Shadow |QID|33116|LVL|94|N|Kill Ruzuun|QO|2|
+
+C Cleaning Up Gul'var|QID|33269|LVL|94|N|Finish Killing the Shadow Council orcs|US|M|19.40,24.90|
+T Cleaning Up Gul'var|QID|33269|LVL|94|N|To Cordana Felsong|M|29.27,25.70|
+
+T To Catch a Shadow |QID|33116|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+T Bounty: Twisted Ancient|QID|33111|LVL|94|M|31.8,31.2|Z|Lunarfall|N|To Baros Alexston.|
+
+L Level 100 |QID|34352|LVL|100|N|The final quests in Shadowmoon Valley require Level 100.|
+R Darktide Roost |QID|34352|N|Head down to Darktide Roost|LVL|100|
+N Guide to follow |QID|34352|N|Remaining steps of this guide are to follow soon.|LVL|100|
+
+;A Darktide Defender |QID|34352|
+;A Dirty Rats |QID|34355|
+;A Releasing Rylak |QID|34365|
+;A Downsizing the Darktide |QID|34397|
+;A Rylak Rescue |QID|34450|
+;A Free their Minds |QID|34455|
 
 ]]
 

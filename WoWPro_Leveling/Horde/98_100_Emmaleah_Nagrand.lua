@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2014-11-11 23:43
+-- Who: Emmaleah
+-- Log: Correct The Dead do not forget... again...
+
+-- URL: http://wow-pro.com/node/3605/revisions/26955/view
 -- Date: 2014-11-09 07:35
 -- Who: Emmaleah
 -- Log: correct A/C/T steps in The Dead do not Forget
@@ -232,7 +237,7 @@ A An Old Friend|QID|34943|M|72.75,19.66|N|From Kalandrios.|
 T An Old Friend|QID|34943|M|73.75,16.56;75.07,22.75|CS|N|To Gar'rok.|
 A A Rare Bloom|QID|34894|M|75.07,22.75|N|From Gar'rok.|
 A The Dead Do Not Forget...|QID|37318|M|79.45,30.38|N|From Murgok.|
-C The Dead Do Not Forget...|QID|37318|NC|M|78.26,24.56|NC|N|These are scattered throughout the area of the bonus quest, so you might as well do it while you are here.|
+C The Dead Do Not Forget...|QID|37318|M|78.26,24.56|NC|N|These are scattered throughout the area of the bonus quest, so you might as well do it while you are here.|
 T The Dead Do Not Forget...|QID|37318|M|79.69,30.19|N|To the Boneseer's Cauldren.|
 
 R Elemental Plateau|QID|34881|NC|M|79.94,31.5;82.60,30.19;82.49,25.11;82.02,22.34|CS|N|Run up from where the first waymark shows on your map.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2014-11-12 00:04
+-- Who: Fluclo
+-- Log: Removing duplicate PREs
+
+-- URL: http://wow-pro.com/node/3199/revisions/26963/view
 -- Date: 2014-11-10 20:14
 -- Who: Fluclo
 
@@ -280,12 +285,6 @@
 --	Do [The Wolf and The Kodo] first, in order to maximize the water breathing buff.
 --	Coordinate tweaks for [Thonk], [Raggaran's Rage], [Neeru Fireblade].
 --	Addition note for [Lost But Not Forgotten], so you don't kill alligators before you need them.
-
--- URL: http://wow-pro.com/node/3199/revisions/24034/view
--- Date: 2011-01-22 03:51
--- Who: Ludovicus
--- Log: Cleaned up some Race specific quests. Broke up a |N| tag on a quest into separate N steps.
---	Relocated [A Purge the Valley] for better flow.  Touched up a few coordinates.
 
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Durotar (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,5,3) -- Faux, really all level 1!
