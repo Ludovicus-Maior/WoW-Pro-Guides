@@ -319,7 +319,7 @@ function WoWPro.UpdateGuideReal(From)
 	WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
 	
 	-- If the guide is complete, loading the next guide --
-	if WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total 
+	if (WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total or WoWProCharDB.Guide[GID].done)
 	and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
 		if WoWProDB.profile.autoload then
 			WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
@@ -918,7 +918,10 @@ function WoWPro.CompleteStep(step)
 	    table.insert(WoWProDB.global.Deltas, line)
 	    WoWPro:dbp(line)
 	end
-	
+	if WoWPro.action[step] == "D" then
+	    WoWProCharDB.Guide[GID].done = true
+	    WoWPro:dbp("WoWPro.CompleteStep: %s guide is done.",GID)
+	end
 	WoWPro:UpdateGuide("WoWPro.CompleteStep")
 	WoWPro:RemoveMapPoint()
 	WoWPro:MapPoint()
