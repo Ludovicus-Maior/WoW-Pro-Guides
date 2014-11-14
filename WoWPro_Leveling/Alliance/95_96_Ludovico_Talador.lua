@@ -1,6 +1,37 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2014-11-14 12:27
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3614/revisions/26989/view
+-- Date: 2014-11-14 12:27
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3614/revisions/26986/view
+-- Date: 2014-11-14 12:17
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3614/revisions/26985/view
+-- Date: 2014-11-14 12:04
+-- Who: Ludovicus
+-- Log: Draft Talador for Alliance.
+
+-- URL: http://wow-pro.com/node/3614/revisions/26779/view
+-- Date: 2014-11-02 21:34
+-- Who: Ludovicus
+-- Log: Init cut
+
+-- URL: http://wow-pro.com/node/3614/revisions/26777/view
+-- Date: 2014-11-02 20:21
+-- Who: Ludovicus
+-- Log: Initil Notes.
+
 local guide = WoWPro:RegisterGuide('LudoTalador', 'Leveling', 'Talador', 'Ludovicus', 'Alliance')
-WoWPro:GuideLevels(guide,92, 93, 92.1)
+WoWPro:GuideLevels(guide,95, 96, 95.3)
 WoWPro:GuideNextGuide(guide, 'EmmSoArak')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -221,6 +252,6 @@ A Kaelynara Sunchaser|QID|34448|M|51.7,50.5|N|From Archmage Elandra|
 T Kaelynara Sunchaser|QID|34448|M|51.6,50.5|N|To Vindicator Doruu|
 
 H Your Garrison|QID|35537|M|71.84,29.75|N|Back to your garrison, where the Spires of Arak guide will start.|U|110560|
-]]
 
+]]
 end)
