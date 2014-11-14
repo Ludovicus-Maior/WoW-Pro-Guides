@@ -1,3 +1,10 @@
+
+local guide = WoWPro:RegisterGuide('LudoTalador', 'Leveling', 'Talador', 'Ludovicus', 'Alliance')
+WoWPro:GuideLevels(guide,92, 93, 92.1)
+WoWPro:GuideNextGuide(guide, 'EmmSoArak')
+WoWPro:GuideSteps(guide, function()
+return [[
+
 ; Intro
 A News from Talador|QID|36495|M|52.8,59.7|N|From Vindicator Maraad|
 T News from Talador|QID|36495|M|0,0|N|To Bodrick Grey|
@@ -38,7 +45,6 @@ T The Only Way to Travel|QID|34981|M|69.8,20.8|N|To Miall|
 A Armor Up|QID|34982|M|69.8,20.8|N|From Miall|RANK|2|
 T Armor Up|QID|34982|M|69.8,20.8|N|To Miall|
 
-
 ; Mage Tower
 A An Audience With The Archmage|QID|34631|M|69.9,20.8|N|From Foreman Eksos|
 T An Audience With The Archmage|QID|34631|M|75.0,31.2|N|To Archmage Khadgar|
@@ -72,7 +78,6 @@ A Due Cause to Celebrate|QID|34711|M|0,0|N|From Magister Serena|
 T Due Cause to Celebrate|QID|34711|M|69.7,20.8|N|To Magister Serena|
 A Joining the Ranks|QID|34993|M|69.7,20.8|N|From Magister Serena|RANK|2|
 T Joining the Ranks|QID|34993|M|69.7,20.8|N|To Magister Serena|
-
 
 ; The Plight of the Arakkoa
 A As the Smoke Rises|QID|34685|M|69.4,21.5|N|From Kalaam|
@@ -214,3 +219,8 @@ A An'dure The Giant|QID|34415|M|51.7,50.5|N|From Archmage Elandra|
 T An'dure The Giant|QID|34415|M|51.7,50.5|N|To Archmage Elandra|
 A Kaelynara Sunchaser|QID|34448|M|51.7,50.5|N|From Archmage Elandra|
 T Kaelynara Sunchaser|QID|34448|M|51.6,50.5|N|To Vindicator Doruu|
+
+H Your Garrison|QID|35537|M|71.84,29.75|N|Back to your garrison, where the Spires of Arak guide will start.|U|110560|
+]]
+
+end)
