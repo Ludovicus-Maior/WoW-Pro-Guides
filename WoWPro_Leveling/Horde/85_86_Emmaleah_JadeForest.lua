@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
+-- Date: 2014-11-08 12:56
+-- Who: Ludovicus
+-- Log: Missing N
+
+-- URL: http://wow-pro.com/node/3487/revisions/26907/view
+-- Date: 2014-11-08 04:21
+-- Who: Emmaleah
+-- Log: Remove Dup NC add missing N per list o' errors.
+
+-- URL: http://wow-pro.com/node/3487/revisions/26469/view
 -- Date: 2014-06-02 16:31
 -- Who: Ludovicus
 -- Log: Added mean level
@@ -165,7 +175,7 @@ C Regroup!|QID|29694|M|30.58,11.65|CHAT|QO|Sergeant Gorrok Rescued: 1/1|N|Head n
 C Regroup!|QID|29694|M|30.4,7.2|CHAT|QO|Rivett Clutchpop Rescued: 1/1|N|Speak to Rivett Clutchpop to get him down from the tree.|
 C Regroup!|QID|29694|M|29.41,8.45|CHAT|QO|Shokia Rescued: 1/1|N|Speak to Shokia up on the overlook at Honeydew Farm.|
 C Priorities!|QID|31978|US|NC|M|29.3,10.0|N|Finish collecting the Barrels of Honeybrew.|
-C Prowler Problems|QID|31773|US|M|30.61,11.78|Finish killing the Sha-Infested Prowlers.|
+C Prowler Problems|QID|31773|US|M|30.61,11.78|N|Finish killing the Sha-Infested Prowlers.|
 C You're Either With Us Or...|QID|31770|CHAT|M|29.27,13.33|N|Head to Mayor Honeydew.|
 T You're Either With Us Or...|QID|31770|M|29.15,13.74|N|To Mayor Honeydew.|
 C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Kill these guys as you run out of the building|US|
@@ -222,7 +232,7 @@ C Missed Me By... That Much!|QID|29821|M|24.02,27.12|U|84157|N|Use the rocket bo
 T Missed Me By... That Much!|QID|29821|M|22.85,30.60|N|To Empty Package.|
 A They're So Thorny!|QID|31112|M|22.85,30.60|N|From Empty Package.|
 C They're So Thorny!|QID|31112|U|84157|M|25.53,27.70|N|Use the rocket boots again to jump back to the shore.  The sprites drop the supplies.|
-C Forensic Science|QID|29815|US|NC|M|26.23,30.07|NC|
+C Forensic Science|QID|29815|US|NC|M|26.23,30.07|
 T They're So Thorny!|QID|31112|M|28.07,24.62|N|To Rivett Clutchpop.|
 T Forensic Science|QID|29815|M|28.15,24.87|N|To Shademaster Kiryn.|
 A Acid Rain|QID|29827|M|28.21,24.91|N|From Shademaster Kiryn.|
@@ -425,7 +435,7 @@ T A Humble Offering|QID|29756|M|44.26,15.04|N|To Pei-Zhi.|
 A To Bridge Earth and Sky|QID|29754|M|44.26,15.04|N|From Pei-Zhi.|
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
-A Pei-Back|QID|29755|M|43.74,12.70|From UI Alert.|
+A Pei-Back|QID|29755|M|43.74,12.70|N|From UI Alert.|
 C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get seperated from your body, you need to run back and click on it to rejoin it, then try to inturupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
 

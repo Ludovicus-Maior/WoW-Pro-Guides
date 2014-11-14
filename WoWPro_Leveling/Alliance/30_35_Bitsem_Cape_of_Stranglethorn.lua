@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_alliance
+-- Date: 2014-11-06 13:12
+-- Who: Fluclo
+-- Log: Added missing pipe in High Priest Venoxis
+
+-- URL: http://wow-pro.com/node/3237/revisions/26628/view
+-- Date: 2014-07-25 22:22
+-- Who: Ludovicus
+-- Log: Add mean
+
+-- URL: http://wow-pro.com/node/3237/revisions/26343/view
 -- Date: 2014-05-27 20:19
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "26,34".
@@ -109,7 +119,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,26,34)
+WoWPro:GuideLevels(guide,26,34, 30.1168)
 WoWPro:GuideNextGuide(guide, 'BitWes3540')
 WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()
@@ -205,7 +215,7 @@ T Plunging Into Zul'Gurub|QID|26813|M|82.11,35.37|Z|Northern Stranglethorn|N|(UI
 A High Priest Venoxis|QID|26814|PRE|26813|M|82.11,35.37|Z|Northern Stranglethorn|N|(UI Alert)|
 C High Priest Venoxis|QID|26814|M|83.70,35.96|Z|Northern Stranglethorn|N|Kill the High Priest Venoxis - once you achieve this, you will be rooted in place, and a ladder will appear on your screen from the right.  Grab the ladder to return to Explorer's League.\n\nDuring the battle, any Spirit of Venoxis reaching the High Priestess will cast a heal on it, too many of these should be avoided, as the restored health is vastly higher than the health to kill the Spirits.|
 
-T High Priest Venoxis|QID|26814|U|60374M|55.70,42.27|N|To Maywiki.|
+T High Priest Venoxis|QID|26814|U|60374|M|55.70,42.27|N|To Maywiki.|
 T Recipe for Disaster|QID|26816|M|55.31,41.93|N|To Dask "The Flask" Gobfizzle.|
 
 ; ** You will not have the FP in Booty Bay yet.

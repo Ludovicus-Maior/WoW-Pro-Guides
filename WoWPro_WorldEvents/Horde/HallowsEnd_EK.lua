@@ -4,6 +4,72 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2014-11-07 21:24
+-- Who: Emmaleah
+-- Log: corrections per Ludo's big list o' errors
+
+-- URL: http://wow-pro.com/node/3441/revisions/26764/view
+-- Date: 2014-10-26 00:26
+-- Who: Emmaleah
+-- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
+--	
+--	removed duplicate "|" in cata guide x3, and put in a missing "|M|" - hopefully allowing the mapping to work for the deepholm portal in orgrimmar
+
+-- URL: http://wow-pro.com/node/3441/revisions/26760/view
+-- Date: 2014-10-25 18:55
+-- Who: Dez
+-- Log: In Outland: Updated for 6.0.2 new portal to Hellfire in capital; added explicit reputation check for Aldor/Scryer; tied portal to first quest step, in hopes of keeping it checked off when completed.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26753/view
+-- Date: 2014-10-22 07:03
+-- Who: Dez
+-- Log: Misplaced Shrine/Grove of Aessina in Winterspring.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26752/view
+-- Date: 2014-10-22 07:01
+-- Who: Dez
+-- Log: Shrine of Aviana misplaced as Winterspring.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26751/view
+-- Date: 2014-10-22 06:59
+-- Who: Dez
+-- Log: Minor typo correction.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26748/view
+-- Date: 2014-10-21 08:32
+-- Who: Dez
+-- Log: In Eastern Kingdoms: Added steps to speak to Zidormi going in and out of Blasted Lands, fixed a typo.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26747/view
+-- Date: 2014-10-21 06:02
+-- Who: Dez
+-- Log: In Kalimdor: Cenarion Wildlands FP renamed to Karnum's Glade.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26739/view
+-- Date: 2014-10-19 18:03
+-- Who: Ludovicus
+-- Log: Set guide titles for Hallow's End guides.  Corrected Zones.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26692/view
+-- Date: 2014-09-27 22:25
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3441/revisions/26543/view
+-- Date: 2014-06-13 00:23
+-- Who: Ludovicus
+-- Log: Missing quote
+
+-- URL: http://wow-pro.com/node/3441/revisions/26503/view
+-- Date: 2014-06-10 22:10
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/26499/view
+-- Date: 2014-06-10 21:44
+-- Who: Ludovicus
+-- Log: Changed guide format.
+
+-- URL: http://wow-pro.com/node/3441/revisions/25788/view
 -- Date: 2013-10-28 02:08
 -- Who: Ludovicus
 -- Log: Use Dalaran City@Dalaran instead of Dalaran
@@ -82,10 +148,13 @@
 -- Date: 2011-10-28 08:03
 -- Who: Crackerhead22
 
-WoWPro.WorldEvents:RegisterGuide("LudoHallowEK","Hallow's End (Eastern Kingdoms)","Hallow's End (Eastern Kingdoms)","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoHallowEK",'WorldEvents',"Eastern Kingdom", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Eastern Kingdom" )
+WoWPro:GuideSteps(guide, function()
 return [[
 
-N Wall of Text Part 1 of 2|QID|12369|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".
+N Wall of Text Part 1 of 2|QID|12369|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hallows End achievements "Tricks and Treats of...".
 N Wall of Text Part 2 of 2|QID|12369|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
 
 N This section starts...|QID|12369|N|In Silvermoon City, so head to Undercity and take the portal to Silvermoon City.|
@@ -129,23 +198,26 @@ A Candy Bucket|QID|12387|M|78.19,81.49|Z|The Hinterlands|N|Lard, Revantusk Villa
 
 F Hammerfall|M|81.71,81.76|QID|12380|Z|The Hinterlands|U|37586|N|Fly to Hammerfall, Arathi Highlands.|
 A Candy Bucket|QID|12380|M|69.02,33.28|Z|Arathi Highlands|N|Innkeeper Adegwa, Hammerfall|
-F New Kargath|M|68.17,33.40|QID|28976|Z|Arathi Highlands|U|37586|N|Fly to New Kargath, Badlands.|
+F Fuselight|M|68.17,33.40|QID|28955|Z|Arathi Highlands|U|37586|N|Fly to Fuselight, Badlands.|
 
-A Candy Bucket|QID|28957|M|18.36,42.73|Z|Badlands|N|Innkeeper Shul'kar, New Kargath|
-F Fuselight|M|17.19,40.01|QID|28955|Z|Badlands|U|37586|N|Fly to Fuselight, Badlands.|
 A Candy Bucket|QID|28955|M|65.86,35.66|Z|Badlands|N|Sally Gearwell, Fuselight|
+F New Kargath|M|63.34,35.03|QID|28965|Z|Badlands|U|37586|N|Fly to New Kargath, Badlands.|
+A Candy Bucket|QID|28957|M|18.36,42.73|Z|Badlands|N|Innkeeper Shul'kar, New Kargath|
 
-F Iron Summit|M|63.34,35.03|QID|28965|Z|Badlands|U|37586|N|Fly to Iron Summit, Searing Gorge.|
+F Iron Summit|M|17.19,40.01|QID|28955|Z|Badlands|U|37586|N|Fly to Iron Summit, Searing Gorge.|
 A Candy Bucket|QID|28965|M|39.48,66.06|Z|Searing Gorge|N|Velma Rockslide, Iron Summit|
 F Bogpaddle|M|41.06,68.79|QID|28967|Z|Searing Gorge|U|37586|N|Fly to Bogpaddle, Swamp of Sorrows.|
 
 A Candy Bucket|QID|28967|M|71.69,14.10|Z|Swamp of Sorrows|N|Cap'n Geech, Bogpaddle|
 F Stonard|M|72.02,12.04|QID|12384|Z|Swamp of Sorrows|U|37586|N|Fly to Stonard, Swamp of Sorrows.|
 A Candy Bucket|QID|12384|M|46.88,56.91|Z|Swamp of Sorrows|N|Innkeeper Karakul, Stonard|
-F Dreadmaul Hold|M|47.78,55.22|QID|28959|Z|Swamp of Sorrows|U|37586|N|Fly to Dreadmaul Hold, Blasted Lands.|
+R Zidormi|QID|28959|M|48.16,7.29|N|Must speak to Zidormi, just SW of the entrance to the Blasted Lands from Swamp of Sorrows, to revert to a pre-invasion time. Manually check this step off.|Z|Blasted Lands|
+R Dreadmaul Hold|M|47.78,55.22|QID|28959|Z|Swamp of Sorrows|U|37586|N|Run to Dreadmaul Hold, Blasted Lands.|
 A Candy Bucket|QID|28959|M|40.47,11.29|Z|Blasted Lands|N|Innkeeper Grak, Dreadmaul Hold|
-F Grom'gol Base Camp|M|43.71,14.25|QID|12382|Z|Blasted Lands|U|37586|N|Fly to Grom'gol Base Camp, Northern Stranglethorn.|
-A Candy Bucket|QID|12382|M|37.37,51.78|Z|Northern Stranglethorn|N|Innkeeper Thulbek, Gron'gol Base Camp|
+R Zidormi|QID|12382|M|48.16,7.29|N|Must speak to Zidormi, just SW of the entrance to the Blasted Lands from Swamp of Sorrows, to revert to a post-invasion time. Manually check this step off.|Z|Blasted Lands|
+R Stonard|M|47.70,55.06|QID|12382|Z|Swamp of Sorrows|U|37586|N|Run to Stonard, Swamp of Sorrows.|
+F Grom'gol Base Camp|M|72.02,12.04|QID|12382|Z|Swamp of Sorrows|U|37586|N|Fly to Grom'gol Base Camp, Northern Stranglethorn.|
+A Candy Bucket|QID|12382|M|37.37,51.78|Z|Northern Stranglethorn|N|Innkeeper Thulbek, Grom'gol Base Camp|
 F Hardwrench Hideaway|M|39.01,51.25|QID|28969|Z|Northern Stranglethorn|U|37586|N|Fly to Hardwrench Hideaway, Northern Stranglethorn.|
 A Candy Bucket|QID|28969|M|35.05,27.21|Z|The Cape of Stranglethorn|N|Innkeeper Draxle, Hardwrench Hideaway|
 F Booty Bay|M|35.14,29.39|QID|12397|Z|The Cape of Stranglethorn|U|37586|N|Fly to Booty Bay, The Cape of Stranglethorn.|

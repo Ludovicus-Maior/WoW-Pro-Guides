@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2014-11-07 22:59
+-- Who: Ludovicus
+-- Log: Split the [C Rare Earth] step.
+
+-- URL: http://wow-pro.com/node/3299/revisions/26632/view
+-- Date: 2014-07-25 22:25
+-- Who: Ludovicus
+-- Log: add mean
+
+-- URL: http://wow-pro.com/node/3299/revisions/26344/view
 -- Date: 2014-05-27 20:21
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "79,80" to "77,77".
@@ -66,7 +76,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("CybSto7980", "Leveling", "The Storm Peaks", "Cyberlamb", "Alliance")
-WoWPro:GuideLevels(guide,77,77)
+WoWPro:GuideLevels(guide,77,77, 77)
 WoWPro:GuideNextGuide(guide, "EstIce7985")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
@@ -377,7 +387,8 @@ T The Reckoning|QID|13047|N|To King Jokkum.|M|65.4,60.1|
 T The Exiles of Ulduar|QID|12885|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 A Rare Earth|QID|12930|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
 f Bouldercrag's Refuge|QID|12937|N|At Breck Rockbrow.|M|30.6,36.3|
-C Rare Earth|QID|12930|N|Mine 7 Enchanted Earth from the cliffs, and make sure that you have 5 Frostweave Cloth.|M|27,34|L|41614 7|L|33470 5|
+C Rare Earth|QID|12930|N|Mine 7 Enchanted Earth from the cliffs.|M|27,34|L|41614 7|
+B Frostweave Cloth|QID|12930|L|33470 5|N|Make sure that you have 5 Frostweave Cloth, if you dont have it, buy it or kill for it!|
 T Rare Earth|QID|12930|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 
 A Fighting Back|QID|12931|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2014-11-08 06:39
+-- Who: Emmaleah
+-- Log: Delete Dup RANK tag on A Disciples of Naralex
+
+-- URL: http://wow-pro.com/node/3214/revisions/26432/view
 -- Date: 2014-06-02 14:02
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -181,7 +186,7 @@ f The Crossroads |QID|13992|M|48.7,58.67|N|Get The Crossroads flightpoint from D
 A Fungal Spores|QID|848|RANK|1|M|48.63,58.45|N|From Apothecary Helbrim.|
 A The Forgotten Pools|QID|870|RANK|1|M|49.41,58.67|N|From Tonga Runetotem.|
 
-A Disciples of Naralex|QID|26878|RANK|2|M|49.41,58.67|N|*DUNGEON QUEST* - only accept if you plan on doing the Wailing Caverns Instance, otherwise skip this step. From Tonga Runetotem.|RANK|3|
+A Disciples of Naralex|QID|26878|M|49.41,58.67|N|*DUNGEON QUEST* - only accept if you plan on doing the Wailing Caverns Instance, otherwise skip this step. From Tonga Runetotem.|RANK|3|
 
 h The Crossroads|QID|13992|M|49.60,57.95|N|At Innkeeper Boorand Plainswind.|
 

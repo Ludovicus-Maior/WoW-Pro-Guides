@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2014-11-07 20:37
+-- Who: Emmaleah
+-- Log: Delete 2 dup QID's per Ludo's list o' errors
+
+-- URL: http://wow-pro.com/node/3467/revisions/26492/view
 -- Date: 2014-06-10 21:24
 -- Who: Ludovicus
 -- Log: Changed  guide format
@@ -86,10 +91,10 @@ L Lovely Charm Collector's Kit|L|49661|M|52.99,76.81|Z|Orgrimmar|N|Ask Kwee Q. P
 A Public Relations Daily|QID|24635;24629;24636|M|53.05,77.15|Z|Orgrimmar|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49669|
 C A Perfect Puff of Perfume|QID|24629|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49668|
-C Bonbon Blitz|QID|24636|QID|24636|Z|Orgrimmar|N|Force feed candy to everyone and any NPC in sight.|U|49670|
+C Bonbon Blitz|QID|24636|Z|Orgrimmar|N|Force feed candy to everyone and any NPC in sight.|U|49670|
 T A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|M|53.05,77.15|N|To Public Relations Agent|
 T A Perfect Puff of Perfume|QID|24629|Z|Orgrimmar|M|53.05,77.15|N|To Public Relations Agent|
-T Bonbon Blitz|QID|24636|QID|24636|M|53.05,77.15|Z|Orgrimmar|N|To Public Relations Agent|
+T Bonbon Blitz|QID|24636|M|53.05,77.15|Z|Orgrimmar|N|To Public Relations Agent|
 
 A Crushing the Crown|QID|24638;24645;24647;24648;24649;24650;24651;24652;28935|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
 

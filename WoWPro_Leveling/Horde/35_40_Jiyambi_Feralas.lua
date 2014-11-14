@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2014-11-08 06:02
+-- Who: Emmaleah
+-- Log: Replace |l| with |L| in l A Perfect Yeti Hide
+
+-- URL: http://wow-pro.com/node/3245/revisions/26450/view
 -- Date: 2014-06-02 15:11
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -109,7 +114,7 @@ C The Gordunni Threat|QID|25209|S|M|59.09,63.13|N|Kill ogres around the Ruins of
 C The Gordunni Orb|QID|25341|M|59.34,65.78|N|The Orb drops from ogre warlocks in the Ruins of Isildien.|
 C The Gordunni Threat|QID|25209|US|M|59.09,63.13|N|Kill ogres around the Ruins of Isildien.|
 C Improved Quality|QID|25453|S|RANK|2|M|52.29,58.39|N|Kill and loot yetis at the Feral Scar Vale.|
-l Perfect Yeti Hide|QID|25454|RANK|2|l|55167|M|55.11,51.31|N|Kill yetis until you get a Perfect Yeti Hide.|S|
+l Perfect Yeti Hide|QID|25454|RANK|2|L|55167|M|55.11,51.31|N|Kill yetis until you get a Perfect Yeti Hide.|S|
 l OOX-22/FE Distress Beacon|QID|25475|RANK|2|L|8705|M|55.52,55.81|N|Kill yetis until you find a distress beacon.|
 l Perfect Yeti Hide|QID|25454|RANK|2|L|55167|M|53.47,55.53|N|Kill yetis until you get a Perfect Yeti Hide.|US|
 A Perfect Yeti Hide|QID|25454|RANK|2|U|55167|M|53.47,55.53|N|Use the Perfect Yeti Hide to start a quest.|

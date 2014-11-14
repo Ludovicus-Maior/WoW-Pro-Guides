@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2014-11-08 05:10
+-- Who: Emmaleah
+-- Log: Re did Cult of the Damned and Volatility to put the L steps on separate lines. This guide is missing a log of waypoints.
+
+-- URL: http://wow-pro.com/node/3302/revisions/26436/view
 -- Date: 2014-06-02 14:51
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -427,18 +432,22 @@ T The Broken Front |QID|13228|
 
 A Good For Something? |QID|13238|
 A Takes One to Know One |QID|13260|
-T Takes One to Know One |QID|13260| |N|Koltira Deathweaver|
+T Takes One to Know One |QID|13260|N|Koltira Deathweaver|
 
 A Poke and Prod |QID|13237|
-T Slaves to Saronite |QID|13302| |N|Brother Keltan|
-T Blood of the Chosen |QID|13330| |N|Warbringer Davos Rioht|
-T Good For Something? |QID|13238| |N|Chief Engineer Copperclaw|
+T Slaves to Saronite |QID|13302|N|Brother Keltan|
+T Blood of the Chosen |QID|13330|N|Warbringer Davos Rioht|
+T Good For Something? |QID|13238|N|Chief Engineer Copperclaw|
 
 A Volatility |QID|13239|
-N Volatility |QID|13239| |N|Go to the Broken Front . Collect 3 Piles of Bones, 3 Abondoned Helms, and 3 Abandoned Armor. Kill mobs while you're doing this.| |L|43609 3| |L|43610 3| |L|43616 3|M|69,66|
-C Volatility |QID|13239| |N|Use Copperclaw's Volitile Oil to summon a dummy. Move away so you don't aggro the dragon that comes down. Repeat 2 more times.| |U|43608|
-C Poke and Prod |QID|13237| |N|Kill any more mobs you need.|
-T Poke and Prod |QID|13237| |N|Back to Orgrim's Hammer. Koltira Deathweaver|
+C Volatility |QID|13239|N|Go to the Broken Front. Collect 3 Piles of Bones, 3 Abondoned Helms, and 3 Abandoned Armor. Kill mobs while you're doing this.|S|
+C Poke and Prod|M|69,66|QID|13237|S|
+l Piles of Bones|L|43609 3|M|69,66|QID|13239|
+l Abandoned Helms|L|43610 3|M|69,66|QID|13239|
+l Abandoned Armor|L|43616 3|M|69,66|QID|13239|
+C Volatility |QID|13239|N|Use Copperclaw's Volitile Oil to summon a dummy. Move away so you don't aggro the dragon that comes down. Repeat 2 more times.|U|43608|
+C Poke and Prod |QID|13237|M|69,66|N|Kill any more mobs you need.|US|
+T Poke and Prod |QID|13237|N|Back to Orgrim's Hammer. Koltira Deathweaver|
 
 A That's Abominable! |QID|13264|
 N Group Quest |QID|13279| |N|Against the Giants is a group quest, and it leads to another one. Look for a group while you continue questing. The follow up is phased, so make sure you do both quests if you find a group, because anyone not on it can't help.|
@@ -484,9 +493,12 @@ C Not a Bug |QID|13358| |N|Click on the Crystal floating at .|M|53.77,33.69|
 N Tainted Essence |QID|13356| |N|Head towards . Keep killing mobs and collecting Tainted Essence until you have 10. Drink more Tonic if the buff runs out (10 minutes).| |U|44307| |L|44301 10|M|49,33|
 N Writhing Mass |QID|13356| |N|Use the tainted essence to make a Writhing Mass.| |U|44301| |L|44304 1|
 C Retest Now |QID|13356| |N|Back to the cauldrons at . Throw the Mass into a cauldron. You will get a buff for 2 hours. Dark (closest to the stairs) = 60 Spell Power, Green (middle) = 75 Stamania, Blue (farthest form the stairs) = 100 Attack Power.| |U|43304|M|49,33|
-N Cult of the Damned Thesis |QID|13366| |N|The entrance to Aldur'thar is at . Go inside and kill the Cult Researchers to get the 3 pages. They have a knockback that hits for about 2K and drains Mana (it's instant cast too, joy). You will end up pulling 2-3 at a time, so be prepared.| |L|44459 1| |L|44460 1| |L|44461 1|M|51.91,32.33|
-C Need More Info |QID|13366| |N|Combine the pages when you get them all.| |U|44461|
-T Not a Bug |QID|13358| |N|Back to Orgrim's Hammer. Koltira Deathweaver|
+N Cult of the Damned Thesis |QID|13366|N|Go inside Aldur'thar and kill the Cult Researchers to get the 3 pages. They have a knockback that hits for about 2K and drains Mana (it's instant cast too, joy). You will end up pulling 2-3 at a time, so be prepared.|M|51.91,32.13|
+l Research page 1|QID|13366|M|51.91,32.33|S|L|44459|
+l Research page 2|QID|13366|M|51.91,32.33|S|L|44460|
+l Research page 3|QID|13366|M|51.91,32.33|S|L|44461|
+C Need More Info |QID|13366|N|Combine the pages when you get them all. (not while flying, it will dismount you ahhhhhhhhh, splat!)|U|44461|
+T Not a Bug |QID|13358|N|Back to Orgrim's Hammer. Koltira Deathweaver|
 T Need More Info |QID|13366|
 N Group Quest |QID|13367| |N|Another group quest next. Turn it in if you do it.|
 

@@ -449,22 +449,37 @@ function WoWPro:ValidateMapCoords(guide,action,step,coords)
 	end
 end
 
+
+local LastMapPoint = nil
 function WoWPro:MapPoint(row)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 	if WoWPro.InitLockdown then return end
 
-	-- Removing old map point --
-	WoWPro:RemoveMapPoint()
-	FinalCoord = nil
-	
 	-- Loading Variables for this step --
 	local i
-	if row then i = WoWPro.rows[row].index 
+	if row then
+	    i = WoWPro.rows[row].index 
 	else 
-		i = WoWPro:NextStepNotSticky(WoWPro.ActiveStep)
+		i = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
 	end
-	local coords; if WoWPro.map then coords = WoWPro.map[i] else coords = nil end
+
+	-- Removing old map point --
+	if LastMapPoint and LastMapPoint == i then
+	    WoWPro:dbp("MapPoint: LastMapPoint=%d is current. No update needed.", LastMapPoint)
+	    return
+	end
+	WoWPro:RemoveMapPoint()
+	LastMapPoint = i
+	FinalCoord = nil
+	
+	
+	local coords
+	if WoWPro.map then
+	    coords = WoWPro.map[i]
+	else
+	    coords = nil
+	end
 	local desc = WoWPro.step[i]
 	local zone
 	local floor = 0
@@ -488,7 +503,7 @@ function WoWPro:MapPoint(row)
 	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
 		QuestMapUpdateAllQuests()
 		QuestPOIUpdateIcons()
-		WorldMapFrame_UpdateQuests()
+--		WorldMapFrame_UpdateQuests()
 		local x, y = WoWPro:findBlizzCoords(WoWPro.QID[i])
 		if x and y then coords = tostring(x)..","..tostring(y) end
 	end
@@ -497,9 +512,7 @@ function WoWPro:MapPoint(row)
 	if WoWPro.QID and WoWPro.QID[i] then
 	    local qid = tonumber(WoWPro.QID[i])
 	    if qid then
-	        WORLDMAP_SETTINGS.selectedQuestId = qid
-	        QuestPOI_SelectButtonByQuestId("WatchFrameLines", qid, true);
-	        SetSuperTrackedQuestID(qid);
+                SetSuperTrackedQuestID(qid)
 	    end
 	end
 	
@@ -547,7 +560,7 @@ function WoWPro:MapPoint(row)
 	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
 	end
 	
-	if TomTom and TomTom.AddMFWaypoint then
+	if TomTom and TomTom.AddMFWaypoint and TomTom.db then
 		    TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
     		
@@ -567,7 +580,7 @@ function WoWPro:MapPoint(row)
     		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
 		
 		-- Parsing and mapping coordinates --
-		WoWPro:dbp("WoWPro:MapPoint1(%s@%s/%s)",coords,tostring(zone),tostring(zm))
+		WoWPro:dbp("WoWPro:MapPoint1(%s@%s=%s/%s)",coords,tostring(zone),tostring(zm),tostring(zf))
 		local numcoords = select("#", string.split(";", coords))
 		for j=1,numcoords do
 			local waypoint = {}
@@ -660,6 +673,7 @@ function WoWPro:MapPoint(row)
 end
 
 function WoWPro:RemoveMapPoint()
+    LastMapPoint = nil
 	if TomTom and TomTom.db then
 		for i=1,#cache,1 do
 		    if cache[i].uid ~= nil then
@@ -673,6 +687,40 @@ function WoWPro:RemoveMapPoint()
 	end
 end
 
+function  WoWPro.CheckAstrolabeData(force)
+    if not WoWPro.Astrolabe['zeroData'] then
+        WoWPro:dbp("CheckAstrolabeData(): No Astrolabe!")
+        return
+    end
+    local Astrolabe = WoWPro.Astrolabe
+    local map, pizo = Astrolabe:GetCurrentPlayerPosition()
+    if not (map and pizo) then
+        WoWPro:dbp("CheckAstrolabeData(): No player position yet!")
+        -- We are not mapped yet.
+        return
+    end
+    local AW = Astrolabe.WorldMapSize[map][pizo]
+    local Az = Astrolabe.zeroData
+    if (not force) and AW ~= Az then
+        -- We have data
+        WoWPro:dbp("Map data present for %d/%d", map, pizo)
+        return
+    end
+    -- Hey!  No data!
+    local mapData = {}
+    local l, TLx, TLy, BRx, BRy =  GetCurrentMapDungeonLevel();
+    if not TLx then
+        WoWPro:dbp("GCMDL failed for %d/%d", map, pizo)
+        return
+    end
+	mapData.width = BRx - TLx
+	mapData.height = BRy - TLy
+	mapData.xOffset = -TLx
+	mapData.yOffset = -TLy
+	Astrolabe.WorldMapSize[map][pizo] = mapData
+	WoWPro:Error("You discovered new map info for %s:%s. Please report this on the WoWPro.com website.", GetZoneText(), string.trim(GetSubZoneText()))
+	WoWPro:Error("[%d/%d] w=%f, h=%f, xO=%f, yO=%f", map, pizo, mapData.width, mapData.height, mapData.xOffset, mapData.yOffset)
+end
 
 function WoWPro:ZoneInfo()
      WoWPro.eBox = WoWPro.eBox or CreateFrame("EditBox", nil,UIParent,ChatFrameEditBoxTemplate)

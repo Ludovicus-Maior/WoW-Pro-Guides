@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2014-11-06 12:49
+-- Who: Fluclo
+-- Log: Removed duplicate tag from The Missing Scout
+
+-- URL: http://wow-pro.com/node/3206/revisions/26479/view
 -- Date: 2014-06-02 22:12
 -- Who: Ludovicus
 -- Log: Icons
@@ -227,7 +232,7 @@ T Inoculation|QID|9303|M|79.5,51.4|N|To Vindicator Aldar.|
 A The Missing Scout|QID|9309|M|79.5,51.4|N|From Vindicator Aldar.|
 T Spare Parts|QID|9305|M|79.5,51.4|N|To Technician Zhanaa.|
 N Visit class trainer|QID|9309|M|79.97,48.66|
-T The Missing Scout|QID|9309|N|Southwest.|M|72.01,60.84|N|To Tolaan.|
+T The Missing Scout|QID|9309|M|72.01,60.84|N|To Tolaan.|
 A The Blood Elves|QID|10303|N|From Tolaan.|M|70.61,63.16|
 C The Blood Elves|QID|10303|N|Kill Blood Elf Scouts.|M|70.61,63.16|
 T The Blood Elves|QID|10303|M|72.01,60.84|N|To Tolaan.|

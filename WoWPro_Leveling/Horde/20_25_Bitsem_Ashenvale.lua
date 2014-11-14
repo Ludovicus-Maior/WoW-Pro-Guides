@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_horde
+-- Date: 2014-11-08 06:36
+-- Who: Emmaleah
+-- Log:  A The Essence of Aku'Mai
+
+-- URL: http://wow-pro.com/node/3228/revisions/26426/view
 -- Date: 2014-06-02 13:22
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -143,7 +148,7 @@ T Crisis at Splintertree|QID|13653|M|42.67,15.01|Z|Northern Barrens|N|To Kadrak.
 A To the Rescue!|QID|13712|PRE|13653|RANK|1|M|42.67,15.01|Z|Northern Barrens|N|From Kadrak.|
 r To the Rescue!|QID|13712|Z|Northern Barrens|N|Repair and Restock if necessary. Then check off this step.|
 C To the Rescue!|QID|13712|M|42.66,14.96;73.26,64.99|CC|N|Speak to Kadrak when you're ready to leave.|
-T To the Rescue!|QID|13712|M|73.64,62.22|N|To Kadrak.|N|After breaking the seige, follow Kadrak into Splintertree Post.|
+T To the Rescue!|QID|13712|M|73.64,62.22|N|After breaking the seige, follow Kadrak into Splintertree Post and turn in the quest to him there.|
 
 A Blood of the Weak|QID|13803|PRE|13712|RANK|1|M|73.64,62.22|N|From Kadrak.|
 A Destroy the Legion|QID|26448|RANK|1|M|73.22,60.09|N|From Valusha.|
@@ -265,7 +270,7 @@ h Zoram'gar Outpost|QID|13842|M|12.92,34.14|N|At Innkeeper Duras.|
 A Keep the Fires Burning|QID|13890|RANK|1|M|12.08,33.78|N|From Commander Grimfang.|
 A Blackfathom Deeps|QID|26894|RANK|1|M|12.08,33.78|N|From Commander Grimfang. Pick up if you plan on running the Blackfathom Deeps instance.|
 A Lousy Pieces of Ship|QID|13883|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.|
-A The Essence of Aku'Mai|QID|26890|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer.||N|If you plan on doing the Blackfathom Deeps dungeon.|
+A The Essence of Aku'Mai|QID|26890|RANK|1|M|11.63,35.52|N|From Dagrun Ragehammer. This is a dungeon quest in Blackfathom Deeps.|
 A Naga at the Zoram Strand|QID|6442|M|12.66,35.39|N|From Marukai.|
 A Vorsha the Lasher|QID|6641|RANK|2|M|12.77,34.14|N|From Muglash. Escort quest.|
 C Naga at the Zoram Strand|QID|6442|M|14.88,21.18|N|Kill and loot Wraithatil Naga heads.|S|

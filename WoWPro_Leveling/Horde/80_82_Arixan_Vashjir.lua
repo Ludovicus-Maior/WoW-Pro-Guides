@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2014-11-08 04:39
+-- Who: Emmaleah
+-- Log: fixes per list o' errors
+
+-- URL: http://wow-pro.com/node/3306/revisions/26463/view
 -- Date: 2014-06-02 16:08
 -- Who: Ludovicus
 -- Log: Added missing Z tag to [Twilight Cage Key]
@@ -193,7 +198,7 @@ A A Girl's Best Friend|QID|25390|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah
 A A Taste For Tail|QID|25389|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
 A Can't Start a Fire Without a Spark|QID|25602|M|57.25,28.86|Z|Kelp'thar Forest|N|From Captain Samir.|
 l Crumpled Treasure Map|QID|25467|N|Get out of the cave, kill Sabreclaw Skitterers until you get a Crumpled Treasure Map.|M|52,35|Z|Kelp'thar Forest|L|54345|
-A Kliklak's Craw|QID|25467|Z|Kelp'thar Forest|N|Use the map to accept the quest Kliklak's Craw.|M|52,35|Z|Kelp'thar Forest|U|54345|
+A Kliklak's Craw|QID|25467|N|Use the map to accept the quest Kliklak's Craw.|M|52,35|Z|Kelp'thar Forest|U|54345|
 C A Girl's Best Friend|QID|25390|S|M|50.82,31.95|Z|Kelp'thar Forest|N|Look for Adarrah's Jewelry Box on the sea floor. They are small and a little hard to spot.|
 C Kliklak's Craw|QID|25467|M|43.89,39.85|Z|Kelp'thar Forest|N|Kliklak patrols around this area. Kill him and loot the Corroded key.|S|
 C A Taste For Tail|QID|25389|M|48.77,36.36|Z|Kelp'thar Forest|N|Kill Clacksnap Pincers for A Taste For Tail.|
@@ -416,7 +421,7 @@ A Crafty Crabs|QID|25594|Z|Shimmering Expanse|N|From Fiasco Sizzlegrin.|M|51.71,
 A Shelled Salvation|QID|25593|Z|Shimmering Expanse|N|From Captian Vilethorn.|M|51.23,62.91|
 
 C Deep Attraction|QID|25592|Z|Shimmering Expanse|S|N|Kill any Redgill Scavengers you see.|M|55.71,71.84|
-C Something Edible|QID|25595|M|50.52,66.64|Z|Shimmering Expanse|S|N|Kill any Snapjaw Groupers you see.|M|50.52,66.64|
+C Something Edible|QID|25595|M|50.52,66.64|Z|Shimmering Expanse|S|N|Kill any Snapjaw Groupers you see.|
 C Crafty Crabs|QID|25594|S|M|50.52,66.64|Z|Shimmering Expanse|N|Collect Spare Parts off the sea floor in the area. You can also get them rarely by killing the Sandskin Pincers.|
 l Spiralung|QID|25593|L|55141|M|50.52,66.64|Z|Shimmering Expanse|N|Collect any Spiralung you see on the ground. They look like small conch shells.
 C Shelled Salvation|QID|25593|Z|Shimmering Expanse|N|Give the Spiralung to the Nespirah Survivors floating over the air vents to rescue them.|
@@ -594,7 +599,7 @@ T Visions of the Past: Rise from the Deep|QID|26135|Z|Shimmering Expanse|N|To Wa
 
 A A Breath of Fresh Air|QID|26006|PRE|26135|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|M|51.6,62.74|
 f Swift Seahorse|QID|26006|M|49.48,65.58|U|57412|N|Swim just outside the cave, and use the Boom Boots. Then get the flight point at Swift Seahorse.|Z|Shimmering Expanse|
-f Stygian Bounty|QID|26006|M|64.90,68.11|Z|Vashj'ir|N|At Brogdul.|Z|Shimmering Expanse|
+f Stygian Bounty|QID|26006|M|64.90,68.11|N|At Brogdul.|Z|Shimmering Expanse|
 T A Breath of Fresh Air|QID|26006|Z|Shimmering Expanse|N|Click on the rope ladder to board the ship, then turn the quest into Legionnaire Nazgrim.|M|49.61,65.88|
 
 A Full Circle|QID|26221|RANK|1|Z|Shimmering Expanse|N|From Legionnaire Nazgrim.|M|64.48,68.68|

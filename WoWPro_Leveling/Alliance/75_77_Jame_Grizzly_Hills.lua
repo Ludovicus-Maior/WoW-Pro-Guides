@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2014-11-06 14:03
+-- Who: Fluclo
+-- Log: Removed duplicate N tag from Mounting Up
+
+-- URL: http://wow-pro.com/node/3293/revisions/26620/view
+-- Date: 2014-07-25 22:05
+-- Who: Ludovicus
+-- Log: add mean
+
+-- URL: http://wow-pro.com/node/3293/revisions/26372/view
 -- Date: 2014-05-27 21:28
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "75,77" to "72,74".
@@ -123,7 +133,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamGriA7577", "Leveling", "Grizzly Hills", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,72,74)
+WoWPro:GuideLevels(guide,72,74, 72.9076)
 WoWPro:GuideNextGuide(guide, "ScoZul7778")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
@@ -337,7 +347,7 @@ T Mr. Floppy's Perilous Adventure |QID|12027|N|To Squire Walter.|M|59.10,26.50|
 T Report to Gryan Stoutmantle... Again |QID|12109|N|To Captain Gryan Stoutmantle.|M|59.38,26.10|
 A Hollowstone Mine |QID|12158|M|59.4,26.0|N|From Captain Gryan Stoutmantle.|
 A Softening the Blow |QID|11998|M|59.4,26.0|N|From Captain Gryan Stoutmantle.|
-A Mounting Up |QID|12414|N|From Squire Percy.|M|59.13,26.63|N|From Squire Percy.|
+A Mounting Up |QID|12414|N|From Squire Percy.|M|59.13,26.63|
 
 f Westfall Brigade Encampment |QID|12414|N|Get the flight point at Samuel Clearbook.|M|59.8,26.6|
 l Get 5 Wild Carrots|QID|12414|L|37707 5|N|In the field south of the camp.|M|56.73,30.03|

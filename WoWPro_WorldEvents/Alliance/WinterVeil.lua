@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2014-11-07 21:31
+-- Who: Emmaleah
+-- Log: corrections per List 'o errors and added other QID's to Horde side A Greatfather Winter is here
+
+-- URL: http://wow-pro.com/node/3458/revisions/26602/view
+-- Date: 2014-07-25 21:40
+-- Who: Ludovicus
+-- Log: Adj levels
+
+-- URL: http://wow-pro.com/node/3458/revisions/26494/view
 -- Date: 2014-06-10 21:29
 -- Who: Ludovicus
 -- Log: Changed Guide format.
@@ -39,7 +49,7 @@
 -- Log: Sync to GIT
 
 local guide = WoWPro:RegisterGuide("LudoWinterVeilA",'WorldEvents',"Winter Veil", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,1,80,19.2647)
 WoWPro.WorldEvents:GuideHoliday(guide,"WinterVeil")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -52,8 +62,8 @@ K Small Eggs: Westfall|QID|7025|M|55.8,23.4;47.6,18.0;46.6,30.4|Z|Westfall|CN|L|
 
 N On the first day of Winter Veil ...|QID|7022|N|Now wait till the first day ..|
 
-A Greatfather Winter is Here!|QID|7022|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket|or 7023|
-T Greatfather Winter is Here!|QID|7022|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
+A Greatfather Winter is Here!|QID|7022;7023|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket|
+T Greatfather Winter is Here!|QID|7022;7023|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
 A Treats for Greatfather Winter|QID|7025|M|33.16,65.46|Z|Ironforge|N|From Greatfather Winter.|
 B Recipe: Gingerbread Cookie|QID|7025|M|33.59,67.91|Z|Ironforge|SPELL|Gingerbread Cookie;21143|L|17200|N|From Wulmort Jinglepocket.|
 B Holiday Spices|QID|7025|M|33.59,67.91|Z|Ironforge|L|17194 5|N|Buy 5 Holiday Spices from Wulmort Jinglepocket.|
@@ -61,7 +71,7 @@ U Learn the Recipe|QID|7025|U|17200|SPELL|Gingerbread Cookie;21143|N|Click off w
 B Small Eggs|QID|7025|M|24.83,73.72|Z|Ironforge|L|6889 5|N|Buy 5 Small Eggs from the Auction House.|
 B Milk|QID|7025|L|1179|M|18.60,51.75|Z|Ironforge|N|Buy Milk from Gwenna Firebrew.|
 L Make 5 Gingerbread Cookies|QID|7025|L|17197 5|
-T Treats for Greatfather Winter|QID|7025|M|33.16,65.46|Z|Ironforge|To Greatfather Winter.|
+T Treats for Greatfather Winter|QID|7025|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
 
 A The Reason for the Season|QID|7062|M|30.25,59.41|Z|Ironforge|N|From Goli Krumn.|
 T The Reason for the Season|QID|7062|M|77.52,11.83|Z|Ironforge|N|To Historian Karnik, in the Hall of Explorers.|
@@ -74,7 +84,7 @@ K The Abominable Greench|QID|7043|LVL|80|M|45.26,40.32|Z|Hillsbrad Foothills|N|G
 N Snowballs near Greench|ACTIVE|6983|LVL|80|N|BTW, pick up some snowballs from the mounds around the cave.|
 T You're a Mean One...|QID|7043|LVL|80|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket.|
 A A Smokywood Pastures' Thank You!|QID|7045|PRE|7043|LVL|80|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket.|
-T A Smokywood Pastures' Thank You!|QID|7045|LVL|80|M|33.16,65.46|Z|Ironforge|To Greatfather Winter.|
+T A Smokywood Pastures' Thank You!|QID|7045|LVL|80|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
 
 N Time to wait, again!|QID|8827|N|Wait till Dec 25th.|
 b Ironforge|QID|8767|N|Go see Greatfather Winter in Ironforge|

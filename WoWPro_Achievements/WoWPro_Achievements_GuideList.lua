@@ -5,6 +5,8 @@ WoWPro.Achievements.GuideList = {}
 WoWPro.Achievements.GuideList.Guides = {}
 
 WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
+-- Creating a Table of Guides for the Guide List and sorting based on level --
+local guides
 
 function WoWPro.Achievements.Scrape()
     WoWProDB.global.Achievements.Category = {}
@@ -15,7 +17,7 @@ function WoWPro.Achievements.Scrape()
         local name, parentID, flags = GetCategoryInfo(cid)
         WoWProDB.global.Achievements.Category[cid] = { ['name'] = name, ['parentID'] = parentID}
     end
-    for cid, cinfo in pairs(ArmoryScraperDB['Categories']) do
+    for cid, cinfo in pairs(WoWProDB.global.Achievements.Category) do
         local numItems, numCompleted = GetCategoryNumAchievements(cid)
         for index = 1,numItems do
             local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(cid, index)
@@ -60,7 +62,7 @@ end
     
 -- Creating a Table of Guides for the Guide List and sorting based on level --
 local function Init()
-    local guides = {}
+    guides = {}
     if not WoWProDB.global.Achievements.Category then
         WoWPro.Achievements.Scrape()
     end
@@ -138,7 +140,6 @@ end
 
 -- Fancy tooltip!
 function WoWPro.Achievements.GuideTooltipInfo(row, tooltip, guide)
-    WoWPro:Print("GuideTooltipInfo: Entering %s",guide.GID)
     GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
     GameTooltip:AddLine(guide.name)
     if guide.icon then
@@ -150,8 +151,8 @@ function WoWPro.Achievements.GuideTooltipInfo(row, tooltip, guide)
         GameTooltip:AddLine("")
         GameTooltip:AddTexture("")
     end
-    GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide.level or 10)))
-    GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide.level or 10)))
+    GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
     
 

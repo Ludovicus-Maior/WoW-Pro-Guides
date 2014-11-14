@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2014-11-07 20:33
+-- Who: Emmaleah
+-- Log: deleted duplicate tags per Ludo's list o' errors 
+
+-- URL: http://wow-pro.com/node/3407/revisions/26574/view
 -- Date: 2014-07-06 16:03
 -- Who: Ludovicus
 -- Log: Lots of coord updates
@@ -190,7 +195,7 @@ N Remember to loot Ahune's chest|RANK|2|QID|11972|L|35723|N|'A Shard of Ahune' i
 A Shards of Ahune|RANK|2|QID|11972|U|35723|N|Start the quest while still in the instance.|Z|TheSlavePens|M|29.7,49.4|
 T Shards of Ahune|RANK|2|QID|11972|N|To Luma Skymother in the Instance.|Z|TheSlavePens|M|18.6,49.8|
 
-R Deepholm portal|RANK|2|QID|29036|M|50.6,37|Z|Orgrimmar|N|Take the portal to Deepholm.|RANK|2|QID|29036|PRE|27123|
+R Deepholm|RANK|2|QID|29036|M|50.6,37|Z|Orgrimmar|N|Take the portal to Deepholm.|PRE|27123|
 A Honor the Flame|RANK|2|QID|29036|M|49.4,51.4|Z|Deepholm|N|From the Flame Guardian. (Deepholm)|PRE|27123|
 T Honor the Flame|RANK|2|QID|29036|M|49.4,51.4|Z|Deepholm|N|To the Earthen Ring Bonfire. (Deepholm)|PRE|27123|
 R Orgrimmar|RANK|2|QID|29031|M|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|PRE|27123|
@@ -200,12 +205,12 @@ R Silver Tide Hollow|N|Hop on your seahorse its a long swim.|M|46,45|Z|Vashj'ir|
 A Honor the Flame|RANK|2|QID|29031|M|49.35,41.99|Z|Shimmering Expanse|N|From the Flame Guardian. (Vashj'ir)|PRE|25924|
 T Honor the Flame|RANK|2|QID|29031|M|49.33,41.93|Z|Shimmering Expanse|N|To the Earthen Ring Bonfire.|PRE|25924|
 
-R Karanos|RANK|2|QID|11742|N|Swim to the surface then hop on your flying mount and go towards Dun Morogh.|M|53.8,45.24|Z|Dun Morogh|RANK|2|QID|11742|
+R Karanos|QID|11742|N|Swim to the surface then hop on your flying mount and go towards Dun Morogh.|M|53.8,45.24|Z|Dun Morogh|RANK|2|
 A Desecrate this Fire!|RANK|2|QID|11742|M|53.8,45.24|Z|Dun Morogh|N|At the Alliance Bonfire. (Dun Morogh)|
 
 N PLAN OF ATTACK - IRONFORGE|RANK|3|QID|9331|N|Here's the plan - you're headed for the Hall of Explorers, which is directly across the city from where you enter. The first area when you enter also contains the auction house and bank, and is usually crawling with people. Unless you have stealth, this will probably be a corpse hopping situation, so you may want to remove your gear. In addition, if this holiday is like the others this year, people will probably be on the lookout and ready to snipe those trying to complete these achievements. You can either try to sneak around the edges of the city, or just run straight through the forge at the center.|
 R Ironforge|RANK|3|QID|9331|N|Fly high thru the gates and you may avoid agro entering Ironforge.|M|53.6,33.9|Z|Dun Morogh|
-l Flame of Ironforge|RANK|3|QID|9331|N|Click on the fire to loot the flame.|RANK|2|QID|9331|M|64,24|Z|Ironforge|L|23183|
+l Flame of Ironforge|QID|9331|N|Click on the fire to loot the flame.|M|64,24|Z|Ironforge|L|23183|RANK|3|
 A Stealing Ironforge's Flame|N|Accept the quest from the Flame of Ironforge.|U|23183|RANK|3|QID|9331|Z|Ironforge|
 R Dun Morogh|RANK|2|QID|11757|N|Make a break for the exit.|M|13,87|Z|Ironforge|
 R Menethil Harbor|RANK|2|QID|11757|M|13.22,47.21|Z|Wetlands|N|Head to Menethil Harbor.|
@@ -318,7 +323,7 @@ N Dance at the Ribbon Pole|RANK|2|QID|902710001|ACH|271;1|N|Equip the items you 
 
 B Buy 15 Juggling Torches from Midsummer Merchant.|RANK|2|QID|902720001|ACH|272;1|M|47.6,38.6|Z|Orgrimmar|L|34599 15|N|These aren't soulbound, check with your friends if you want to save the flowers.|
 R Borean Tundra|RANK|2|QID|13493|N|Run to the Northrend Zeppelin to go to Borean Tundra.|M|44.6,62.6|Z|Orgrimmar|
-A Honor the Flame|RANK|2|QID|13493|M|51.13,11.54|M|51,12|Z|Borean Tundra|N|From the Flame Keeper. (Borean Tundra)|
+A Honor the Flame|RANK|2|QID|13493|M|51.13,11.54|Z|Borean Tundra|N|From the Flame Keeper. (Borean Tundra)|
 A Desecrate this Fire!|RANK|2|QID|13440|M|55.23,20.25|Z|Borean Tundra|N|At the Alliance Bonfire. (Borean Tundra)|
 A Honor the Flame|RANK|2|QID|13494|M|47.06,61.55|Z|Sholazar Basin|N|From the Flame Keeper. (Sholazar Basin)|
 A Desecrate this Fire!|RANK|2|QID|13442|M|47.82,66.15|Z|Sholazar Basin|N|At the Alliance Bonfire. (Sholazar Basin)

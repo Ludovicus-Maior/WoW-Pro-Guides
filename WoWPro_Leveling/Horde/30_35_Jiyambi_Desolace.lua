@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2014-11-08 06:26
+-- Who: Emmaleah
+-- Log: Delete dup NC on C To the Hilt
+
+-- URL: http://wow-pro.com/node/3314/revisions/26422/view
 -- Date: 2014-06-02 13:12
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -107,7 +112,7 @@ A All Becoming Clearer|QID|14195|PRE|14360|M|77.03,18.03|N|The new quest should 
 l Satyr Sabers|QID|14219|N|Gather Satyr Sabers from racks and Satyrs in the area.|L|48943 20|US|
 C Ten Pounds of Flesh|NC|QID|14213|M|78.70,23.18|U|48857|N|Use the flesh at the brazier.|
 T Ten Pounds of Flesh|QID|14213|M|78.70,23.18|N|At the brazier.|
-C To the Hilt!|NC|QID|14219|NC|M|75.90,26.65|U|48943|N|Use the Satyr Sabers at the statue.|
+C To the Hilt!|QID|14219|NC|M|75.90,26.65|U|48943|N|Use the Satyr Sabers at the statue.|
 T To the Hilt!|QID|14219|M|75.90,26.65|N|To the Elune's Handmaiden statue.|
 l Satyr Flesh|QID|14219|N|Kill Satyrs and loot their flesh.|L|48857 10|US|
 N Ten Pounds of Flesh|QID|14195|M|78.70,23.18|N|You can repeat this quest as much as you like, to refresh the health bonus it gives.|

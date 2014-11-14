@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dalaran_cooking_and_fishing_dalies
+-- Date: 2014-11-07 20:45
+-- Who: Fluclo
+-- Log: Fixed coord tag for Bloated Slippery Eel
+
+-- URL: http://wow-pro.com/node/3477/revisions/26856/view
+-- Date: 2014-11-07 20:44
+-- Who: Fluclo
+-- Log: Added missing |M| tag
+
+-- URL: http://wow-pro.com/node/3477/revisions/26555/view
 -- Date: 2014-07-06 15:38
 -- Who: Ludovicus
 -- Log: Added name/faction.
@@ -53,7 +63,7 @@ A One of Five|QID|13103;13101;13100;13107;13102|FACTION|Alliance|M|40.4,65.8|N|F
 A One of Five|QID|13115;13113;13112;13116;13114|FACTION|Horde|M|70.0,39.0|N|From Awilo Lon'gomba.|
 
 L Half Full Dalaran Wine Glass|QID|13103|M|64.70,61.00;61.60,66.45;68.90,29.45;64.45,53.05;70.20,38.50;43.40,66.43;57.05,68.50;65.85,30.40;45.05,62.25;67.48,35.38;70.29,35.06;71.26,32.75;55.31,31.40;43.10,64.19;40.99,65.03;53.53,33.74;48.35,38.83;40.62,68.75|L|43138 6|CN|N|Get six half full glasses.|
-L Aged Dalaran Limburger|QID|13103|48.50,39.80|L|43137|N|Get the stinky Cheese.|
+L Aged Dalaran Limburger|QID|13103|M|48.50,39.80|L|43137|N|Get the stinky Cheese.|
 L Half Full Dalaran Wine Glass|QID|13115|M|64.70,61.00;61.60,66.45;68.90,29.45;64.45,53.05;70.20,38.50;43.40,66.43;57.05,68.50;65.85,30.40;45.05,62.25;67.48,35.38;70.29,35.06;71.26,32.75;55.31,31.40;43.10,64.19;40.99,65.03;53.53,33.74;48.35,38.83;40.62,68.75|L|43138 6|CN|N|Get six half full glasses.|
 L Aged Dalaran Limburger|QID|13115|M|53.91,32.06;53.65,34.10|CN|L|43137|N|Get the stinky Cheese.|
 C Cheese for Glowergold|QID|13103;13115|U|43139|N|Combine the wine and Cheese!|

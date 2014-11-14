@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2014-11-07 22:55
+-- Who: Ludovicus
+-- Log: Dup tags
+
+-- URL: http://wow-pro.com/node/3235/revisions/26812/view
+-- Date: 2014-11-06 13:15
+-- Who: Fluclo
+-- Log: Removed duplicate tags from 24948, 25000 and 25043
+
+-- URL: http://wow-pro.com/node/3235/revisions/26612/view
+-- Date: 2014-07-25 21:56
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3235/revisions/26415/view
 -- Date: 2014-05-30 15:37
 -- Who: Ludovicus
 -- Log: Level tweak
@@ -89,6 +103,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjSotBar3035', "Leveling", 'Southern Barrens', 'WKJezz', 'Alliance')
+-- Yes, there are some L26 quests, but they are errors.
 WoWPro:GuideLevels(guide,28,33,30.0096)
 WoWPro:GuideNextGuide(guide, 'WkjDus3540')
 WoWPro:GuideIcon(guide,"ACH",4937)
@@ -141,10 +156,10 @@ A Silencing Rageroar|QID|24956|M|66.92,46.79|N|From Tolliver Houndstooth.|
 T Re-Take the Courtyard|QID|24943|M|67.00,46.57|N|To Thomas Paxton.|
 
 A Lifting the Siege|QID|24948|M|67.00,46.57|N|From Thomas Paxton.|
-C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|Rageroar Catapults Burned: 3/3|S|
+C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|Rageroar Catapults Burned: 3/3|
 C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|S|QO|Rageroar Lieutenant slain: 4/4|
 K Karga Rageroar |QID|24956|L|52036|M|67.6,36.7|N|Kill Hexmaster Bastoon, then kill Karga Rageroar and loot his helm.|
-C Rageroar Blade Thrower Burned|QID|24948|U|52017|M|67.33,37.62|N|Burn the Blade Thrower.|QO|Rageroar Blade Thrower Burned: 1/1|M|68.00,36.45|
+C Rageroar Blade Thrower Burned|QID|24948|U|52017|M|67.33,37.62|N|Burn the Blade Thrower.|QO|Rageroar Blade Thrower Burned: 1/1|
 C Lifting the Siege|QID|24948|S|U|52017|M|68.17,41.47|N|Burn the Catapults.|QO|Rageroar Catapults Burned: 3/3|US|
 C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|US|QO|Rageroar Lieutenant slain: 4/4|
 T Silencing Rageroar|QID|24956|M|66.94,46.77|N|To Tolliver Houndstooth.|
@@ -154,9 +169,9 @@ A Teegan's Troubles|QID|25036|M|66.99,46.60|N|From Thomas Paxton.|
 f Northwatch Hold|QID|25002|M|66.38,47.13|N|At Bill Williamson.|
 A Teegan's People|QID|25000|M|64.85,46.06|N|From Jeffrey Long.|
 A Scavenged|QID|25002|M|61.88,42.10|N|From the Mangled Body.|
-C Teegan's People|QID|25000|US|M|61.3,44.1|N|Kill and loot the various Raptors in the area.|S|
-C Scavenged|QID|25002|M|62.30,45.11|M|61.30,44.10|N|Loot the Crates from the floor.|
-C Teegan's People|QID|25000|US|M|61.3,44.1|N|Kill and loot the various Raptors in the area.|US|
+C Teegan's People|QID|25000|M|61.3,44.1|N|Kill and loot the various Raptors in the area.|S|
+C Scavenged|QID|25002|M|62.30,45.11|N|Loot the Crates from the floor.|
+C Teegan's People|QID|25000|M|61.3,44.1|N|Kill and loot the various Raptors in the area.|US|
 T Teegan's Troubles|QID|25036|M|56.15,42.74|N|To Corporal Teegan.|
 T Scavenged|QID|25002|M|56.15,42.74|N|To Corporal Teegan.|
 A Make 'em Squeal|QID|25015|M|56.12,42.72|N|From Corporal Teegan.|
@@ -212,11 +227,11 @@ A Fields of Blood|QID|25043|M|49.91,49.62|N|From General Hawthorne.|
 A A Line in the Dirt|QID|25045|M|49.98,49.53|N|From General Hawthorne.|
 A Lion's Pride|QID|25041|M|49.78,50.46|N|From Sam Trawley.|
 C Lion's Pride|QID|25041|S|M|33.84,39.36|N|Kill 5 of any type of Lion you see.|
-C Fields of Blood|QID|25043|US|M|46.35,47.19|N|Kill  10 Desolation Grunts.|S|
+C Fields of Blood|QID|25043|M|46.35,47.19|N|Kill  10 Desolation Grunts.|S|
 C A Line in the Dirt|QID|25045|M|46.32,47.23;49.43,54.03|CN|N|Capture the Hill then defend it. Don't reclick the hill if you lose control of it, or the number of mobs will multiply. If you lose control, fall back and try again later, or try another hill|
 C Diplomacy By Another Means|QID|25044|U|49782|M|43.05,41.87|N|Blow the horn in the pit, then kill Sabersnout.|
 C Fields of Blood|QID|25043|S|M|31.87,30.50|N|Take out the grunts.|
-C Fields of Blood|QID|25043|US|M|46.35,47.19|N|Kill  10 Desolation Grunts.|US|
+C Fields of Blood|QID|25043|M|46.35,47.19|N|Kill  10 Desolation Grunts.|US|
 C Lion's Pride|QID|25041|US|M|46.54,47.44|N|Kill 5 of any type of Lion you see.|
 T Diplomacy By Another Means|QID|25044|M|49.96,49.47|N|To Ambassador Gaines.|
 T A Line in the Dirt|QID|25045|M|49.90,49.64|N|To General Hawthorne.|

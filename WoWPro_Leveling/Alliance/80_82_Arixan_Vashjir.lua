@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
+-- Date: 2014-11-06 14:18
+-- Who: Fluclo
+-- Log: Removed duplicate tags, added missing M tag
+
+-- URL: http://wow-pro.com/node/3305/revisions/26616/view
+-- Date: 2014-07-25 22:02
+-- Who: Ludovicus
+-- Log: Ad levels
+
+-- URL: http://wow-pro.com/node/3305/revisions/26336/view
 -- Date: 2014-05-27 20:06
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "78,80".
@@ -217,17 +227,8 @@
 -- Date: 2010-12-30 08:25
 -- Who: JamesL85
 
--- URL: http://wow-pro.com/node/3305/revisions/23863/view
--- Date: 2010-12-30 08:24
--- Who: JamesL85
-
--- URL: http://wow-pro.com/node/3305/revisions/23862/view
--- Date: 2010-12-30 08:20
--- Who: JamesL85
--- Log: Made some changes to the start of Vashj'ir.
-
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
-WoWPro:GuideLevels(guide,78,80)
+WoWPro:GuideLevels(guide,80,80, 79.9802)
 WoWPro:GuideNextGuide(guide, 'AriDee8283')
 WoWPro:GuideIcon(guide,"ACH",4825)
 WoWPro:GuideSteps(guide, function()
@@ -293,7 +294,7 @@ A All or Nothing|QID|25558|PRE|25547|M|45,23.5|Z|Kelp'thar Forest|N|From Captain
 C All or Nothing|QID|25558|M|45,23.5|Z|Kelp'thar Forest|N|As soon as you accept the quest, a small battle event starts outside the ship.Do your best to stay alive. Erunak will eventually finish off the first wave, then after a short pause the second wave comes. The soldiers will get carried off one by one, and eventually you will get captured as well. Erunak rescues you and leads you to the next quest hub.|
 T All or Nothing|QID|25558|M|46.3,46.9|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Better Late Than Dead|QID|25477|PRE|25558|M|46.0,46.8|Z|Kelp'thar Forest|N|From Moanah Stormhoof.|
-C Better Late Than Dead|QID|25477|U|54462|M|49.5,40.9;54.8,54.3|U|54462|Z|Kelp'thar Forest|CN|N|Enter the Kelp Forest and look for a Sea Turtle. When you find one, use Moanah's Baitstick. Once you are riding the turtle, swim back toward Shallow's End. You are going to get...dismounted. There is no way to avoid it so don't feel bad. Swim the rest of the way back to Shallow's End.|
+C Better Late Than Dead|QID|25477|U|54462|M|49.5,40.9;54.8,54.3|Z|Kelp'thar Forest|CN|N|Enter the Kelp Forest and look for a Sea Turtle. When you find one, use Moanah's Baitstick. Once you are riding the turtle, swim back toward Shallow's End. You are going to get...dismounted. There is no way to avoid it so don't feel bad. Swim the rest of the way back to Shallow's End.|
 T Better Late Than Dead|QID|25477|M|46.0,46.8|Z|Kelp'thar Forest|N|To Moanah Stormhoof.|
 A The Abyssal Ride|QID|25371|PRE|25477|M|46.0,46.8|Z|Kelp'thar Forest|N|From Moanah Stormhoof.|
 C The Abyssal Ride|QID|25371|M|45.46,46.74|Z|Kelp'thar Forest|QO|Tie off the Seahorse lure: 1/1|N|Go to the west of Moanah Stormhoof to find the coil of rope. Use the coil of rope to send the bait out into the chasm.|
@@ -415,7 +416,7 @@ A Rundown|QID|25221|PRE|25164|M|55.5,12.5|Z|Shimmering Expanse|N|From Toshe Chao
 C Rundown|QID|25221|U|54466|M|53.1,18.9;53.1,34.1;59.4,37.3|Z|Shimmering Expanse|CS|N|When you come out of the tunnel, you will see naga swimming off to your left. Use Toshe's Hunting Spears to kill 20 naga. No need to aim, can be done while mounted and moving.|
 T Rundown|QID|25221|M|53.3,33.0|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
 A Silver Tide Hollow|QID|25222|PRE|25221|M|53.3,33.0|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-f Silver Tide Hollow|QID|25222|M|49.52,41.22|M|49.52,41.22|Z|Shimmering Expanse|N|Grab the flight point at the Swift Seahorse.|
+f Silver Tide Hollow|QID|25222|M|49.52,41.22|Z|Shimmering Expanse|N|Grab the flight point at the Swift Seahorse.|
 T Silver Tide Hollow|QID|25222|M|49.5,42.1|Z|Shimmering Expanse|N|To Felora Firewreath.|
 A A Distracting Scent|QID|25215|PRE|25222|RANK|2|M|49.6,42.1|Z|Shimmering Expanse|N|From Felora Firewreath.|
 A The Great Sambino|QID|25216|PRE|25222|M|49.6,42.1|Z|Shimmering Expanse|N|From Felora Firewreath.|
@@ -454,7 +455,7 @@ C Vengeful Heart|QID|25439|US|M|66.3,46.5|Z|Shimmering Expanse|N|Kill remaining 
 T Vortex|QID|25441|M|64.1,42.2|RANK|2|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
 T Vengeful Heart|QID|25439|M|64.1,42.2|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
 A Fathom-Lord Zin'jatar|QID|25440|PRE|25439|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-C Fathom-Lord Zin'jatar|QID|25440|M|67.3,49.4|Z|Shimmering Expanse|N|Kill the Fathom-Lord.|N|Fathom-Lord Zin'jatar|
+C Fathom-Lord Zin'jatar|QID|25440|M|67.3,49.4|Z|Shimmering Expanse|N|Kill Fathom-Lord Zin'jatar|
 l Luminescent Pearl|L|54614|N|Loot the Luminescent Pearl from Fathom-Lord.|
 A A Pearl of Wisdom|QID|25442|PRE|25440|U|54614|M|67.3,49.4|Z|Shimmering Expanse|N|Use the Pearl to start the Quest.|
 T Fathom-Lord Zin'jatar|QID|25440|M|64.1,42.2|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
@@ -638,7 +639,7 @@ A At All Costs|QID|25860|PRE|25896;25993|M|33.1,77.7|Z|Shimmering Expanse|N|From
 C At All Costs|QID|25860|M|33.12,76.52|Z|Shimmering Expanse|N|Stay at the entrance and kill all new arriving Kvaldir until you get your 20 kills.|
 T At All Costs|QID|25860|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess.|
 A Final Judgement|QID|25951|PRE|25860|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
-N Hold the eastern end of Quel'Dormir Terrace|QID|25951|QO|Hold the eastern end of Quel'Dormir Terrace: 1/1|37.5,78.69|Z|Shimmering Expanse|N|Swim out of the temple to the east, where you will find Lady Naz'jar. Kill Kvaldir and stay alive, ends at about the 3-4 minute mark.|
+N Hold the eastern end of Quel'Dormir Terrace|QID|25951|QO|Hold the eastern end of Quel'Dormir Terrace: 1/1|M|37.5,78.69|Z|Shimmering Expanse|N|Swim out of the temple to the east, where you will find Lady Naz'jar. Kill Kvaldir and stay alive, ends at about the 3-4 minute mark.|
 C Final Judgement|QID|25951|M|42.90,78.40|Z|Shimmering Expanse|N|Kill Kvaldir and stay alive until you get the quest complete message.|
 T Final Judgement|QID|25951|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 T Visions of the Past: Rise from the Deep|QID|25626|M|46.69,57.53;49.45,57.57|CS|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
@@ -648,7 +649,7 @@ f The Lightless Reaches|QID|26005|M|57.1,75.18|Z|Shimmering Expanse|N|Grab the f
 f Voldrin's Hold|QID|26005|M|69.4,75.2|Z|Vashj'ir|N|Grab the flight point from Salty McTavish.|
 
 A Full Circle|QID|26219|PRE|26005|M|69.6,75.3|Z|Vashj'ir|N|From Captain Taylor.|
-C Full Circle|QID|26219|M|69.6,75.3|Z|Vashj'ir|Z|Shimmering Expanse|N|Get on board the sub once it arrives (can take 1-2 minutes to arrive, listen out for the Engineer's yelling indicating it's arrival).  Board the sub, and head downstairs and stand behind the Captain and Number 2.  Once Darkbreak Cove is secured and the sub docks, you will be automatically placed in next to Captain Glovaal on land.|
+C Full Circle|QID|26219|M|69.6,75.3|Z|Vashj'ir|N|Get on board the sub once it arrives (can take 1-2 minutes to arrive, listen out for the Engineer's yelling indicating it's arrival).  Board the sub, and head downstairs and stand behind the Captain and Number 2.  Once Darkbreak Cove is secured and the sub docks, you will be automatically placed in next to Captain Glovaal on land.|
 T Full Circle|QID|26219|M|54.5,72.8|Z|Abyssal Depths|N|To Captain Glovaal.|
 A Bio-Fuel|QID|26103|PRE|26219|M|55.5,72.9|Z|Abyssal Depths|N|Engineer Hexascrub.|
 f Darkbreak Cove|QID|26103|M|56.92,75.52|Z|Abyssal Depths|N|Grab the flight point at the Swift Seahorse.|

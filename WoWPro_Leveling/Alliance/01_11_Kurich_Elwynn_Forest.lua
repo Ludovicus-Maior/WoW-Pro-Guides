@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2014-11-07 22:51
+-- Who: Ludovicus
+-- Log: Removed human stutter.
+
+-- URL: http://wow-pro.com/node/3197/revisions/26800/view
+-- Date: 2014-11-06 12:40
+-- Who: Fluclo
+-- Log: Removed duplicate note from all training T steps
+
+-- URL: http://wow-pro.com/node/3197/revisions/26477/view
 -- Date: 2014-06-02 22:08
 -- Who: Ludovicus
 -- Log: Icons
@@ -250,13 +260,13 @@ C The Hunter's Path|N|Learn Steady Shot from the hunter trainer then use it on t
 C The Power of the Light|N|Learn Seal of righteousness and judgement then use judgement on the training dummies.|QID|26918|C|Paladin|R|Human|M|48.63,44.37|
 C Mastering the Arcane|N|Learn Arcane Missiles then use it on the training dummies.|QID|26916|C|Mage|R|Human|M|48.63,44.37|
 C Palm of the Tiger|N|Learn Tiger Palm then use it on the training dummies.|QID|31142|C|Monk|R|Human|M|48.63,44.37|
-T Immolation|N|Train new skills while here.|QID|26914|C|Warlock|R|Human|M|49.87,42.65|N|To Drusilla La Salle.|
-T The Deepest Cut|N|Train new skills while here.|QID|26915|C|Rogue|R|Human|M|50.31,39.92|N|To Jorik Kerridan.|
-T Healing The Wounded|N|Train new skills while here.|QID|26919|C|Priest|R|Human|M|49.81,39.49|N|To Priestess Anetta.|
-T Charging into Battle|N|Train new skills while here.|QID|26913|C|Warrior|R|Human|M|50.24,42.28|N|To Llane Beshere.|
-T The Power of the Light|N|Train new skills while here.|QID|26918|C|Paladin|R|Human|M|50.43,42.12|N|To Brother Sammuel.|
-T Mastering the Arcane|N|Train new skills while here.|QID|26916|C|Mage|R|Human|M|49.66,39.40|N|To Khelden Bremen.|
-T The Hunter's Path|N|Train new skills while here.|QID|26917|C|Hunter|R|Human|M|48.55,42.56|N|To Ashley Blank.|
+T Immolation|QID|26914|C|Warlock|R|Human|M|49.87,42.65|N|To Drusilla La Salle.|
+T The Deepest Cut|QID|26915|C|Rogue|R|Human|M|50.31,39.92|N|To Jorik Kerridan.|
+T Healing The Wounded|QID|26919|C|Priest|R|Human|M|49.81,39.49|N|To Priestess Anetta.|
+T Charging into Battle|QID|26913|C|Warrior|R|Human|M|50.24,42.28|N|To Llane Beshere.|
+T The Power of the Light|QID|26918|C|Paladin|R|Human|M|50.43,42.12|N|To Brother Sammuel.|
+T Mastering the Arcane|QID|26916|C|Mage|R|Human|M|49.66,39.40|N|To Khelden Bremen.|
+T The Hunter's Path|QID|26917|C|Hunter|R|Human|M|48.55,42.56|N|To Ashley Blank.|
 T Palm of the Tiger|QID|31142|C|Monk|R|Human|M|50.35,41.81|N|To Bao.|
 
 A Join the Battle!|QID|28788|C|Warlock|R|Human|M|49.87,42.65|N|From Ashley Blank.|
@@ -328,8 +338,8 @@ T Fear No Evil|QID|28806|C|Hunter|R|Human|M|48.49,38.16|N|To Brother Paxton.|
 T They Sent Assassins|QID|28791|C|Hunter|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
 T Fear No Evil|QID|28808|C|Mage|R|Human|M|48.49,38.16|N|To Brother Paxton.|
 T They Sent Assassins|QID|28792|C|Mage|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
-T Fear No Evil|QID|28813|C|Warrior|R|Human|R|Human|M|48.49,38.16|N|To Brother Paxton.|
-T They Sent Assassins|QID|28797|C|Warrior|R|Human|R|Human|M|48.81,38.38|
+T Fear No Evil|QID|28813|C|Warrior|R|Human|M|48.49,38.16|N|To Brother Paxton.|
+T They Sent Assassins|QID|28797|C|Warrior|R|Human|M|48.81,38.38|
 T Fear No Evil|QID|28810|C|Priest|R|Human|M|48.49,38.16|N|To Brother Paxton.|
 T They Sent Assassins|QID|28794|C|Priest|R|Human|M|48.81,38.38|N|To Sergeant Willem.|
 T Fear No Evil|QID|28811|C|Rogue|R|Human|M|48.49,38.16|N|To Brother Paxton.|

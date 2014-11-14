@@ -21,7 +21,7 @@ echo "# Considering stub guides in ${GUIDES}"
 for guide in ${GUIDES} ; do
     # Find the level
     level=`echo $guide | awk -F/ '{print $3}' |awk -F_ '{print $1}' `
-    if [ $level -ge 40 ] ; then
+    if [ $level -ge 60 ] ; then
         echo "# Guide ${guide} will be stubbed"
         mv ${guide} ${guide}~
         awk -f WoWPro_Utilities/StubGuide.awk < ${guide}~ > ${guide}

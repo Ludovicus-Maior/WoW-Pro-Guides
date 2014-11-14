@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2014-11-06 13:43
+-- Who: Fluclo
+-- Log: Removed duplicate tags
+
+-- URL: http://wow-pro.com/node/3277/revisions/26607/view
+-- Date: 2014-07-25 21:46
+-- Who: Ludovicus
+-- Log: Add mean
+
+-- URL: http://wow-pro.com/node/3277/revisions/26358/view
 -- Date: 2014-05-27 20:57
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "64,66" to "60,65".
@@ -109,7 +119,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamTer6466", "Leveling", "Terokkar Forest", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,60,65)
+WoWPro:GuideLevels(guide,60,65,62.2064)
 WoWPro:GuideNextGuide(guide, "JamNag6668")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
@@ -124,7 +134,7 @@ N At this point you will have to choose either Aldor or Scryers.|N|Right click t
 N Allegiance to the ...|QID|10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
 
 A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|REP|Aldor;932|
-T Ishanah|N|You must take the elevator up to this area.|Z|Shattrath City|QID|10554|M|24.0,29.7|N|To Ishanah.|REP|Aldor;932|
+T Ishanah |QID|10554||N|To Ishanah. You must take the elevator up to this area.|Z|Shattrath City|M|24.0,29.7|REP|Aldor;932|
 A Restoring the Light|Z|Shattrath City|QID|10021|M|24.0,29.7|N|From Ishanah.|REP|Aldor;932|
 h Shattrath City|QID|9957|Z|Shattrath City|N|Make Shattrath City (Aldor Rise) your home location.|M|28.00,49.00|REP|Aldor;932|
 r Sell junk, Repair, restock, train skills|QID|9957|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor;932|
@@ -323,7 +333,7 @@ C Torgos!|N|Use Trachela's Carcass here and then kill and loot Torgos.|QID|10035
 R Shadow Tomb|QID|10887|N|Go to the Shadow Tomb.|M|32.00,53.00|
 l Gavel of K'alen |QID|10881|N|Loot the Gavel from the chest here.|L|31710|M|29.70,51.70|
 l Drape of Arunen |QID|10881|N|Loot the Drape from the chest here.|L|31709|M|32.10,51.20|
-C The Shadow Tomb |QID|10881|N|Loot the scroll from the chest here, then accept the escort quest.|QID|10881|M|31.20,46.70|
+C The Shadow Tomb |QID|10881|N|Loot the scroll from the chest here, then accept the escort quest.|M|31.20,46.70|
 A Escaping the Tomb|QID|10887|M|30.60,49.00|N|From Akuno.|
 C Escaping the Tomb|N|Do this escort quest.|QID|10887|M|33.92,51.47|
 T Veil Rhaze: Unliving Evil |QID|10848|M|37.4,51.5|N|To Kirrik the Awakened.|

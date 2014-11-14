@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2014-11-08 12:58
+-- Who: Ludovicus
+-- Log: Double U
+
+-- URL: http://wow-pro.com/node/3294/revisions/26911/view
+-- Date: 2014-11-08 05:26
+-- Who: Emmaleah
+-- Log: reworking Bringing down the iron thane to have 1 step for each Use item.
+
+-- URL: http://wow-pro.com/node/3294/revisions/26437/view
 -- Date: 2014-06-02 14:52
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -434,7 +444,8 @@ C ... Or Maybe We Don't|QID|12198|U|36936|N|Head to the hills around Dun'Argol. 
 T ... Or Maybe We Don't|QID|12198|N|To Prospector Rokar.|M|65.1,47.3|
 A Bringing Down the Iron Thane|QID|12199|M|65.1,47.3|N|From Prospector Rokar.|
 R Dun Argol|QID|12099|M|75,55|N|Head back to Dun Argol.|
-C Bringing Down the Iron Thane|QID|12199|U|37071|U|36865|N|Equip your disguise, I said it would come in handy. Head to the top of Dun'Argol, go inside the large building. Take one of the elevators down. Use the Golem Control Unit and engage the Thane. Use ability 2, then cancel the disguise buff. Then target the Thane and use ability 1 when it's up, and 2 when the Anvil recovers from the EMP. Once the Thane dies, stay in the suit and run away; note that the suit doesn't take fall damage.|M|76.6,63.7|
+U Use the disguise|QID|12199|U|37071|N|Equip your disguise, I said it would come in handy. Head to the top of Dun'Argol, go inside the large building. Take one of the elevators down.|M|76.6,63.7|CC|
+C Bringing Down the Iron Thane|QID|12199|U|36865|M|76.6,63.7|N|AFTER you are off the elevator, use the Golem Control Unit and engage the Thane. Use ability 2, then cancel the disguise buff. Then target the Thane and use ability 1 when it's up, and 2 when the Anvil recovers from the EMP. Once the Thane dies, stay in the suit and run away; note that the suit doesn't take fall damage.|
 T Bringing Down the Iron Thane|QID|12199|M|65.2,47.5|N|To Tormak the Scarred.|
 T Loken's Orders|QID|12203|N|To Scout Vor'takh.|M|65.1,47.7|
 

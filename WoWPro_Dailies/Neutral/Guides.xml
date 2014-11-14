@@ -22,6 +22,5 @@
   <Script file="Ludo_Timeless.lua"/>
   <Script file="Ludo_Wyrmrest.lua"/>
   <Script file="Twists_ShattSun.lua"/>
-  <Script file="Twists_SkyRace.lua"/>
   <Script file="Way2Hairy_Klaxxi.lua"/>
 </Ui>

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2014-11-07 21:31
+-- Who: Emmaleah
+-- Log: corrections per List 'o errors and added other QID's to Horde side A Greatfather Winter is here
+
+-- URL: http://wow-pro.com/node/3458/revisions/26602/view
+-- Date: 2014-07-25 21:40
+-- Who: Ludovicus
+-- Log: Adj levels
+
+-- URL: http://wow-pro.com/node/3458/revisions/26494/view
 -- Date: 2014-06-10 21:29
 -- Who: Ludovicus
 -- Log: Changed Guide format.
@@ -51,8 +61,8 @@ K Small Eggs: Mulgore|QID|6962|M|48.2,50.2;52.2,35.2;57.2,48.0|Z|Mulgore|CN|L|68
 K Small Eggs: Mulgore|QID|6962|M|43.4,21.8;48.8,9.6;59.0,21.4|Z|Mulgore|CN|L|6889 20|N|Kill Taloned Swoops; Use the back lift from Thunder Bluffs.|
 
 N On the first day of Winter Veil ...|QID|6961|N|Now wait till the first day ..|
-A Great-father Winter is Here!|QID|6961|M|52.54,77.03|Z|Orgrimmar|N|From Kaymard Copperpinch.|
-T Great-father Winter is Here!|QID|6961|M|49.62,78.00|Z|Orgrimmar|N|To Great-father Winter.|
+A Great-father Winter is Here!|QID|6961;7021;7024|M|52.54,77.03|Z|Orgrimmar|N|From Kaymard Copperpinch.|
+T Great-father Winter is Here!|QID|6961;7021;7024|M|49.62,78.00|Z|Orgrimmar|N|To Great-father Winter.|
 A Treats for Great-father Winter|QID|6962|M|49.62,78.00|Z|Orgrimmar|N|From Great-father Winter.|
 B Recipe: Gingerbread Cookie|QID|6962|M|52.68,77.28|Z|Orgrimmar|L|17200|N|From Penney Copperpinch.|
 B Holiday Spices|QID|6962|M|52.68,77.28|Z|Orgrimmar|L|17194 5|N|From Penney Copperpinch.|

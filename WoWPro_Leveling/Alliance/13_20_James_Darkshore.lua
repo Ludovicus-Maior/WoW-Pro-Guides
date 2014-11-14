@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2014-11-06 13:06
+-- Who: Fluclo
+-- Log: Removed duplicate tags from QID 13562, 13564, 13565, 13512 (x2) and 13605
+
+-- URL: http://wow-pro.com/node/3218/revisions/26401/view
 -- Date: 2014-05-30 12:16
 -- Who: Ludovicus
 
@@ -197,20 +202,20 @@ r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're don
 
 R Bashal'Aran|QID|13561|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|
 A Solace for the Highborne|QID|13561|M|46.80,33.23|N|From Arya Autumnlight.|
-C The Final Flame of Bashal'Aran|QID|13562|NC|M|45.97,34.25|NC|
+C The Final Flame of Bashal'Aran|QID|13562|NC|M|45.97,34.25|
 C Solace for the Highborne|QID|13561|M|47.27,34.59|N|Kill Cursed and Writhing Highbornes on the way.|S|
 C A Love Eternal|QID|13563|M|48.29,36.54|N|Kill Anaya Dawnrunner, loot her pendant.|
 C Solace for the Highborne|QID|13561|M|47.27,34.59|US|N|Finish killing Cursed and Writhering Highbornes.|
 T Solace for the Highborne|QID|13561|M|46.76,33.28|N|To Arya Autumnlight.|
 
-C A Lost Companion|QID|13564|NC|M|43.00,38.86|N|Head to the waypoint to find Grimclaw.|NC|
+C A Lost Companion|QID|13564|NC|M|43.00,38.86|N|Head to the waypoint to find Grimclaw.|
 T A Lost Companion|QID|13564|M|42.95,38.90|N|To Keeper Karithus.|
 A Unsavory Remedies|QID|13598|M|42.95,38.90|N|From Keeper Karithus.|
 A Ritual Materials|QID|13566|M|42.95,38.90|N|From Keeper Karithus.|
 A Twice Removed|QID|13565|M|42.95,38.90|N|From Seraphine.|
 l Tufts of Mottled Doe Hair|QID|13566|M|44.66,40.86|L|45027 3|N|Right-click 3 Mottled Doe.|
 C Unsavory Remedies|QID|13598|M|49.15,40.55|N|Loot Fuming Toadstools on the way.|S|NC|
-C Twice Removed|QID|13565|U|45911|M|48.60,40.81|N|Use your Petrified Root everytime you kill a Darkscale Scout.|U|45911|
+C Twice Removed|QID|13565|U|45911|M|48.60,40.81|N|Use your Petrified Root everytime you kill a Darkscale Scout.|
 C Unsavory Remedies|QID|13598|M|49.15,40.55|N|Loot Fuming Toadstools.|US|NC|
 l Thistle Bear Fur|QID|13566|M|48.88,37.95|L|45885 3|N|Wait until a Hungry Thistle Bear catches a fish, then click on it to get the fur.|
 C Ritual Materials|QID|13566|M|42.68,40.68;41.70,39.07|CN|N|Right-click 3 Moonstalkers.|
@@ -272,8 +277,8 @@ A The Looting of Althalaxx|QID|13844|M|59.25,19.63|N|From Mathas Wildwood.|
 
 C On the Brink|QID|13513|M|57.33,25.86|N|Kill Shatterspear Shamans on the way and loot their amulets.|S|
 C The Looting of Althalaxx|QID|13844|M|58.28,24.01|N|Go inside the tower, find a Charred Book to the side halfway upstairs. Also Kill Teegan Holloway.|
-K Lorenth Thundercall|QID|13512|U|44995|M|56.80,25.88|QO|Lorenth Thundercall slain: 1/1|N|Use the Dryad Spear to kill him. Keep moving around to avoid the lightnings.|U|44995|
-C Strategic Strikes|QID|13512|U|44995|M|61.24,20.76|QO|Sheya Stormweaver slain: 1/1|N|Use the Dryad Spear to kill her. You can hide behind pillars to avoid her bolts while your spear is on cooldown.|U|44995|
+K Lorenth Thundercall|QID|13512|U|44995|M|56.80,25.88|QO|Lorenth Thundercall slain: 1/1|N|Use the Dryad Spear to kill him. Keep moving around to avoid the lightnings.|
+C Strategic Strikes|QID|13512|U|44995|M|61.24,20.76|QO|Sheya Stormweaver slain: 1/1|N|Use the Dryad Spear to kill her. You can hide behind pillars to avoid her bolts while your spear is on cooldown.|
 C On the Brink|QID|13513|M|57.33,25.86|US|N|Finish gathering Shatterspear Amulets.|
 T Strategic Strikes|QID|13512|M|58.88,19.47|N|To Lieutenant Morra Starbreeze.|
 T On the Brink|QID|13513|M|58.88,19.47|N|To Balthule Shadowstrike.|
@@ -325,7 +330,7 @@ l Frienzied Cyclone Bracers|QID|13542|M|39.51,42.09|N|Kill Frenzied Cyclones to 
 A Coaxing the Spirits|QID|13547|M|39.08,43.13|N|From Yalda.|
 A The Last Refugee|QID|13605|M|38.59,42.37|N|From Archaeologist Hollee.|
 C Coax Taldan's Spirit|QID|13547|M|38.54,41.89|N|Grab Taldan's Spirit when Archaeologist Hollee stops at his corpse.|QO|Taldan's spirit coaxed: 1/1|NC|
-C The Last Refugee|QID|13605|NC|M|41.20,43.34|N|Follow Archaeologist Hollee.|NC|
+C The Last Refugee|QID|13605|NC|M|41.20,43.34|N|Follow Archaeologist Hollee.|
 N Sentinel Elissa Starbreeze's Spirit|QID|13547|M|40.95,41.41|N|Grab Elissa's spirit.|QO|Sentinel Elissa Starbreeze's spirit coaxed: 1/1|NC|
 K Cloudtamer Wildmane|QID|13543|M|40.76,41.51|QO|Cloudtamer Wildmane slain: 1/1|N|Head upstairs and Kill Cloudtamer.|
 N Thundris Windweaver's Spirit|QID|13547|M|39.31,38.96|QO|Thundris Windweaver's spirit coaxed: 1/1|N|Talk to Thundris' corpse to get his spirit.|

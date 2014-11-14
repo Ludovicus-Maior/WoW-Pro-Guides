@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
+-- Date: 2014-11-08 05:48
+-- Who: Emmaleah
+-- Log: Delete Dup QID and fix Dup N per list o' errors
+
+-- URL: http://wow-pro.com/node/3278/revisions/26443/view
 -- Date: 2014-06-02 14:59
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -77,7 +82,7 @@ N At this point|QID|10553;10554|N|you will have to choose either Aldor or Scryer
 N Allegiance to the ...|QID|10553;10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
 
 A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|REP|Aldor;932|
-T Ishanah|N|You must take the elevator up to this area.|Z|Shattrath City|QID|10554|M|24.0,29.7|N|To Ishanah.|REP|Aldor;932|
+T Ishanah|N|You must take the elevator up to this area to find Ishanah and turn in the quest.|Z|Shattrath City|QID|10554|M|24.0,29.7|REP|Aldor;932|
 A Restoring the Light|Z|Shattrath City|QID|10021|M|24.0,29.7|N|From Ishanah.|REP|Aldor;932|
 h Shattrath City|QID|10021|Z|Shattrath City|N|Make Shattrath City (Aldor Rise) your home location.|M|28.00,49.00|REP|Aldor;932|
 r Sell junk, Repair, restock, train skills|QID|10021|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor;932|
@@ -281,7 +286,7 @@ C Torgos! |QID|10036|N|To kill Torgos, head to the scarecrow called Torgos' Bane
 R Shadow Tomb|QID|10887|N|Go to the Shadow Tomb.|M|32.00,53.00|
 l Gavel of K'alen |QID|10881|N|Loot the Gavel from the chest here.|L|31710|M|29.70,51.70|
 l Drape of Arunen |QID|10881|N|Loot the Drape from the chest here.|L|31709|M|32.10,51.20|
-C The Shadow Tomb |QID|10881|N|Loot the scroll from the chest here, then accept the escort quest.|QID|10881|M|31.20,46.70|
+C The Shadow Tomb |QID|10881|N|Loot the scroll from the chest here, then accept the escort quest.|M|31.20,46.70|
 A Escaping the Tomb|QID|10887|M|30.60,49.00|N|From Akuno.|
 C Escaping the Tomb|N|Do this escort quest.|QID|10887|M|33.92,51.47|
 T Veil Rhaze: Unliving Evil |QID|10848|M|37.4,51.5|N|To Kirrik the Awakened.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/profession_blacksmithing
+-- Date: 2014-11-08 00:14
+-- Who: Ludovicus
+-- Log: FACRION
+
+-- URL: http://wow-pro.com/node/3409/revisions/25821/view
 -- Date: 2013-11-27 20:54
 -- Who: Ludovicus
 
@@ -88,8 +93,8 @@ N Ghost-Forged Belt|QID|901640057|P|Blacksmithing;164;525;540;|N|7;Ghost Iron Ba
 N Ghost-Forged Shoulders|QID|901640058|P|Blacksmithing;164;540;550;|N|7;Ghost Iron Bar;28;260|
 N Spiritguard Shield|QID|901640059|P|Blacksmithing;164;550;559;|N|9;Ghost Iron Bar;18;232|
 N Ghost-Forged Breastplate|QID|901640060|P|Blacksmithing;164;559;575;|N|12;Ghost Iron Bar;144;214|
-B Plans: Contender's Revenant Breastplace|QID|901640061|P|Blacksmithing;164;575;576;|N|From Cullen Hammerbrow in Shrine of Seven Stars.|M|72.2,49.4|FACT|Alliance|Z|Shrine of Seven Stars|
-B Plans: Contender's Revenant Breastplace|QID|901640062|P|Blacksmithing;164;575;576;|N|From Jorunga Stonehoof in Shrine of Two Moons.|M|26.6,46.2|FACT|Horde|Z|Shrine of Two Moons|
+B Plans: Contender's Revenant Breastplace|QID|901640061|P|Blacksmithing;164;575;576;|N|From Cullen Hammerbrow in Shrine of Seven Stars.|M|72.2,49.4|FACTION|Alliance|Z|Shrine of Seven Stars|
+B Plans: Contender's Revenant Breastplace|QID|901640062|P|Blacksmithing;164;575;576;|N|From Jorunga Stonehoof in Shrine of Two Moons.|M|26.6,46.2|FACTION|Horde|Z|Shrine of Two Moons|
 N Contender's Revenant Breastplate|QID|901640063|P|Blacksmithing;164;575;600;|N|12;Ghost Iron Bar;60;60|
 
 N That completes Blacksmithing.

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2014-11-06 12:41
+-- Who: Fluclo
+-- Log: Duplicate N tag removed from Learning the Word
+
+-- URL: http://wow-pro.com/node/3204/revisions/26489/view
 -- Date: 2014-06-04 20:13
 -- Who: Ludovicus
 -- Log: Level adj
@@ -175,7 +180,7 @@ C A Woodsman's Training|QID|26947|C|Hunter|M|58.83,35.82|N|Train Steady Shot and
 C Rejuvenating Touch|QID|26948|C|Druid|N|Train Rejuvenation. Use it to heal a Wounded Sentinel.|R|Night Elf|
 C Arcane Missles|QID|26940|C|Mage|M|58.83,35.82|N|Train Arcane Missles. Use it 5 times on Training Dummy.|R|Night Elf|
 C Learning New Techniques|QID|26945|C|Warrior|M|58.2,34.8|N|Train Charge. Use it 5 times on Training Dummy.|R|Night Elf|
-C Learning the Word|QID|26949|C|Priest|N|From Shanda.|N|Train Shadow Word: Pain. Use it 5 times on Training Dummy.|R|Night Elf|
+C Learning the Word|QID|26949|C|Priest|N|Train Shadow Word: Pain. Use it 5 times on Training Dummy.|R|Night Elf|
 C A Rogue's Advantage|QID|26946|C|Rogue|M|58.83,35.82|N|Train Eviscerate. Use it 5 times on Training Dummy.|R|Night Elf|
 C The Art of the Monk|QID|31169|C|Monk|M|58.83,35.82|N|Use Tiger Palm on Training Dummy.|R|Night Elf|
 

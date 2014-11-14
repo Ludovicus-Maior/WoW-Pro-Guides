@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2014-11-08 00:54
+-- Who: Emmaleah
+-- Log: fix 2 N tags in two steps and reword note for Kill Warlord Gurthan
+
+-- URL: http://wow-pro.com/node/3493/revisions/26582/view
+-- Date: 2014-07-19 17:07
+-- Who: Ludovicus
+-- Log: Adj mean-level
+
+-- URL: http://wow-pro.com/node/3493/revisions/26407/view
 -- Date: 2014-05-30 15:18
 -- Who: Ludovicus
 
@@ -85,7 +95,7 @@
 -- Log: Initial version from Emmaleah
 
 local guide = WoWPro:RegisterGuide('EmmDre8990', "Leveling", 'Dread Wastes', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,87,89,87.6745)
+WoWPro:GuideLevels(guide,87,89,88.9643)
 WoWPro:GuideNextGuide(guide, 'WayKlaxxi')
 WoWPro:GuideIcon(guide,"ACH",6978)
 WoWPro:GuideSteps(guide, function()
@@ -130,7 +140,7 @@ A Not Fit to Swarm|QID|31660|M|55.01,33.99|N|From Kil'ruk the Wind-Reaver.|
 A Dead Zone|QID|31009|M|54.81,34.12|N|From Kor'ik.|
 A Amber Arms|QID|31008|M|55.00,35.59|N|From Ambersmith Zikk.|
 f Klaxxi'vess|QID|99999|M|55.82,34.83|N|At Kik'tik.|
-h Klaxxi'vess|QID|31108|M|55.89,32.59|N|At Zit'tix.|N|Set your hearth stone here especially if you are not yet 90, as you will be traveling back here several times.|
+h Klaxxi'vess|QID|31108|M|55.89,32.59|N|At Zit'tix. Set your hearth stone here especially if you are not yet 90, as you will be traveling back here several times.|
 F Heart of Fear|QID|31009|M|55.01,33.99|N|Ask Kil'ruk the Wind-Reaver for a ride or fly over on your own.|
 C Amber Arms|QID|31008|S|M|48.54,43.63|
 C The Dread Clutches|QID|31007|S|M|45.05,42.16|
@@ -292,7 +302,7 @@ C An Ancient Empire|QID|31232|N|Collect 8 Gurthani Tablets off the ground.|S|; T
 C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|S|; Terrace of Gurthan
 C Nope Nope Nope|QID|31235|U|82807|M|70.40,27.80|N|Destroy 20 Dreadspinner Eggs.|; Terrace of Gurthan
 C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|US|M|70.40,27.80|; Terrace of Gurthan
-K Summon and Kill Warlord Gurthan|QID|31677|ACTIVE|31233;31232;31231;31235;31234|M|66.20,31.80|N|/lay on Green Rune and then quickly /kneel on the Red Rund or get someone else to do it. Green first then Red.|N|Loot his corpse. (This wasn't available to me the first time I did dailies in the area, maybe faction... 2nd time it was.)|L|88715|; Terrace of Gurthan
+K Summon and Kill Warlord Gurthan|QID|31677|ACTIVE|31233;31232;31231;31235;31234|M|66.20,31.80|N|Stand on the green rune and emote /lay and then quickly (or a 2nd person) /kneel on the Red Rune. Green first then Red. Kill him and loot his corpse. (This wasn't available to me the first time I did dailies in the area, maybe faction... 2nd time it was.)|L|88715|; Terrace of Gurthan
 A The Warlord's Ashes|QID|31677|U|88715|ACTIVE|31233;31232;31231;31235;31234|N|From the ashes.|; Terrace of Gurthan
 C An Ancient Empire|QID|31232|N|Collect 8 Gurthani Tablets off the ground.|US|M|69.40,32.40|; Terrace of Gurthan
 C Sap Tapping|QID|31233|N|Collect 6 Amber Sap. They are on trees in the area.|US|M|69.40,32.40|; Terrace of Gurthan

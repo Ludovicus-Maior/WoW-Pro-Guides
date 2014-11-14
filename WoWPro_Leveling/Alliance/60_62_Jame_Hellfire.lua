@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2014-11-06 13:37
+-- Who: Fluclo
+-- Log: Removed duplicate M tags from QID 10047 and 9912
+
+-- URL: http://wow-pro.com/node/3271/revisions/26622/view
+-- Date: 2014-07-25 22:18
+-- Who: Ludovicus
+-- Log: add mean
+
+-- URL: http://wow-pro.com/node/3271/revisions/26337/view
 -- Date: 2014-05-27 20:09
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "60,62" to "55,61".
@@ -99,7 +109,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide("JamHel6062", "Leveling", "Hellfire Peninsula", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,55,61)
+WoWPro:GuideLevels(guide,55,61, 58.7447)
 WoWPro:GuideNextGuide(guide, "JamZan6264")
 WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
@@ -238,7 +248,7 @@ r Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|QID|1
 A Hellfire Fortifications |QID|10106|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|
 T The Dark Missive |QID|10395|N|Head to Warp-Scryer Kryv.|M|56.69,66.52|
 A The Heart of Darkness |QID|10399|N|From Warp-Scryer Kryv.|M|56.69,66.52|
-A The Path of Glory |QID|10047|M|56.7,66.5|N|From Warp-Scryer Kryv.|M|56.69,66.52|
+A The Path of Glory |QID|10047|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A Overlord |QID|10400|N|From Force Commander Danath Trollbane.|M|56.64,66.69|
 
 A Unyielding Souls |QID|10050|M|50.9,60.2|N|From Honor Guard Wesilow.|
@@ -288,7 +298,7 @@ T Helping the Cenarion Post |QID|10443|M|15.7,52.0|N|To Thiah Redmane.|
 A Demonic Contamination |QID|9372|M|15.7,52.0|N|From Thiah Redmane.|
 A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|From Mahuram Stouthoof.|
 A Colossal Menace |QID|10132|N|From Tola'thion.|M|15.59,52.13|
-A The Cenarion Expedition |QID|9912|M|15.7,52.0|N|From Amythiel Mistwalker.|M|16.02,52.26|
+A The Cenarion Expedition |QID|9912|N|From Amythiel Mistwalker.|M|16.02,52.26|
 
 C Colossal Menace |N|Kill Raging Colossui until you have all 5 kills. As they get low in health, they get smaller and Shardlings form.|QID|10132|M|15,45|
 l Crimson Crystal Shard|QID|10134|N|Make sure you have one of these items from the giants.|L|29476|M|15,45|

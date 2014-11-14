@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2014-11-07 21:43
+-- Who: Emmaleah
+-- Log: Delete dup QID's per list o' errors.
+
+-- URL: http://wow-pro.com/node/3466/revisions/26604/view
+-- Date: 2014-07-25 21:42
+-- Who: Ludovicus
+-- Log: Adj levels
+
+-- URL: http://wow-pro.com/node/3466/revisions/26493/view
 -- Date: 2014-06-10 21:25
 -- Who: Ludovicus
 -- Log: Converted guide
@@ -38,7 +48,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide("LudoLoveA",'WorldEvents',"Love is in the Air", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,1,81,8.55102)
 WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -77,10 +87,10 @@ L Lovely Charm Collector's Kit|L|49661|M|62.53,74.96|Z|Stormwind City|N|Ask Kwee
 A Crown Chemical Company Daily|QID|24635;24629;24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49669|
 C A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49668|
-C Bonbon Blitz|QID|24636|QID|24636|Z|Stormwind City|N|FDorce feed candy to everyone and any NPC in sight.|U|49670|
+C Bonbon Blitz|QID|24636|Z|Stormwind City|N|Force feed candy to everyone and any NPC in sight.|U|49670|
 T A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|From Public Relations Agent|
 T A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|From Public Relations Agent|
-T Bonbon Blitz|QID|24636|QID|24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
+T Bonbon Blitz|QID|24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
 
 A Crushing the Crown|QID|24658;24659;24660;24662;24663;24664;24665;24666;28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 C Crushing the Crown|QID|24658|M|29,65|Z|Elwynn Forest|N|Kill Crown Lackeys near Westbrook Garrison and blow up a a wagon.|U|50130|

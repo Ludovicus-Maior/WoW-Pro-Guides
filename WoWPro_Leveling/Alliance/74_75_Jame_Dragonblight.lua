@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2014-11-06 14:01
+-- Who: Fluclo
+-- Log: Removed duplicate M tags from 12000 and 12167
+
+-- URL: http://wow-pro.com/node/3291/revisions/26390/view
 -- Date: 2014-05-30 11:55
 -- Who: Ludovicus
 -- Log: level adjustment
@@ -203,11 +208,11 @@ A To Stars' Rest! |QID|12440|N|Dismount, then accept this quest from Rodney Well
 
 f Stars' Rest |QID|12440|N|Get the new flight path.|
 T To Stars' Rest! |QID|12440|N|To the Image of Archmage Modera.|M|29.00,55.50|
-A Rifle the Bodies |QID|12000|M|29.0,55.5|N|From the Image of Archmage Modera.|M|29.00,55.50|
+A Rifle the Bodies |QID|12000|M|29.0,55.5|N|From the Image of Archmage Modera.|
 A The Liquid Fire of Elune |QID|12166|N|From Warden Jodi Moonsong.|M|29.20,55.60|
 C The Liquid Fire of Elune |QID|12166|U|36956|N|Go north to the area on the other side of the road . Kill Rabid Grizzlies and Blighted Elks, loot them and: Right-click the Liquid Fire of Elune on their corpse. Do this until you finish the quest.|M|29.00,51.00|
 T The Liquid Fire of Elune |QID|12166|N|To Warden Jodi Moonsong.|M|29.2,55.6|
-A Kill the Cultists |QID|12167|M|29.2,55.6|N|From Warden Jodi Moonsong.|M|29.2,55.6|
+A Kill the Cultists |QID|12167|M|29.2,55.6|N|From Warden Jodi Moonsong.|
 
 R Icemist Village |QID|12167|N|Go north back to the same area and find the path leading to Icemist Village. |M|24.00,44.00|
 

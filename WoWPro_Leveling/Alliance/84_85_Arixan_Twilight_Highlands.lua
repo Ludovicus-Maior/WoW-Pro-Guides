@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_alliance
+-- Date: 2014-11-07 23:00
+-- Who: Ludovicus
+-- Log: dup NC
+
+-- URL: http://wow-pro.com/node/3311/revisions/26410/view
 -- Date: 2014-05-30 15:23
 -- Who: Ludovicus
 -- Log: :Level setting
@@ -160,7 +165,7 @@ C Missing Parts|QID|27038|PRE|26975|M|34.09,43.89|N|Found in this area around th
 T Missing Parts|QID|27038|PRE|26975|M|34.50,38.28|N|To Fargo Flintlocke.|Z|Stormwind City|
 
 A He's Holding Out on Us|QID|27064|PRE|26977|N|From Anduin Wrynn|Z|Stormwind City|
-C Peasant Problems|QID|27044|NC|M|52.07,6.26|N|Speak to Farmer Wallerton at the Walleton Stead.|Z|Stormwind City|NC|
+C Peasant Problems|QID|27044|NC|M|52.07,6.26|N|Speak to Farmer Wallerton at the Walleton Stead.|Z|Stormwind City|
 T Peasant Problems|QID|27044|M|52.07,6.26|N|To Farmer Wallerton.|Z|Stormwind City|
 
 A Unholy Cow|QID|27060|PRE|26977|M|51.96,5.83|N|From Farmer Wollerton.|Z|Stormwind City|

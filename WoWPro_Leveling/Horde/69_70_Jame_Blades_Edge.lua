@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_horde
+-- Date: 2014-11-08 05:37
+-- Who: Emmaleah
+-- Log: Delete NC tag
+
+-- URL: http://wow-pro.com/node/3282/revisions/26419/view
 -- Date: 2014-06-02 13:07
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -222,7 +227,7 @@ T Baron Sablemane's Poison|QID|10749|N|To Rexxar.|M|51.83,58.31|
 A The Smallest Creatures|QID|10720|M|51.9,58.4|N|From Rexxar.|
 A Crush the Bloodmaul Camp|QID|10784|N|From Tor'chunk Twoclaws.|M|51.87,58.41|
 U [Kodohide Drum]|QID|10720|U|31141|N|Go down the ravine again and ride north/northeast until you find a marmot's den.|M|56.43,29.41|
-C Keg of Ripe Moonshine|QID|10720|NC|U|31141|QO|Poison the keg of Ripe Moonshine: 1/1|NC|N|Inside the Bloodmaul Camp stand next to the keg and use the marmot's Poison Keg ability.|M|55.34,28.23|
+C Keg of Ripe Moonshine|QID|10720|U|31141|QO|Poison the keg of Ripe Moonshine: 1/1|NC|N|Inside the Bloodmaul Camp stand next to the keg and use the marmot's Poison Keg ability.|M|55.34,28.23|
 C Green Spot Grog Keg|QID|10720|NC|U|31141|QO|Poison the keg of Green Spot Grog: 1/1|N|A little northwest of here you should find the Green Spot Grog Keg, behind a bonfire.|M|55.26,25.97|
 C Fermented Seed Beer Keg|QID|10720|NC|U|31141|QO|Poison the keg of Fermented Seed Beer: 1/1|N|Further north you should find the Fermented Seed Beer Keg.|M|55.96,23.08|
 C Crush the Bloodmaul Camp|QID|10784|N|Kill 10 Bloodmaul Maulers and 5 Bloodmaul Warlocks.|M|56.2,26.7|

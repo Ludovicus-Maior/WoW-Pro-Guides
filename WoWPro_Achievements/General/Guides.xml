@@ -6,5 +6,6 @@
 	<Script file="Est_UnbornValkyr.lua"/>
 	<Script file="Ludo_Treasure.lua"/>
 	<Script file="Twists_Cared.lua"/>
+        <Script file="Twists_SkyRace.lua"/>
 	<Script file="TwoToad_Caressed.lua"/>
 </Ui>

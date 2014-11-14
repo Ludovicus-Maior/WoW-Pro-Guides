@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r89 | elkano | 2014-10-16 17:09:57 +0000 (Thu, 16 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/LibSharedMedia-3.0/LibSharedMedia-3.0.lua
+
+added 4 background tiles: Blizzard Collections Background, Blizzard Garrison Background/2/3
+------------------------------------------------------------------------
+r88 | funkydude | 2014-10-14 19:58:36 +0000 (Tue, 14 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/LibSharedMedia-3.0.toc
+
+bump toc
+------------------------------------------------------------------------
+r87 | Resike | 2014-07-31 22:16:22 +0000 (Thu, 31 Jul 2014) | 1 line
+Changed paths:
+   M /trunk/LibSharedMedia-3.0/LibSharedMedia-3.0.lua
+
+- Code clean up.
+------------------------------------------------------------------------

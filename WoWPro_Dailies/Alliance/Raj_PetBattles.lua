@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2014-11-09 03:17
+-- Who: Emmaleah
+-- Log: missed updating one QO|4
+
+-- URL: http://wow-pro.com/node/3544/revisions/26946/view
+-- Date: 2014-11-08 14:54
+-- Who: Ludovicus
+-- Log: Removed lone '['
+
+-- URL: http://wow-pro.com/node/3544/revisions/26942/view
+-- Date: 2014-11-08 13:10
+-- Who: Ludovicus
+-- Log: Extra N and M gads brought to you by the letter X
+
+-- URL: http://wow-pro.com/node/3544/revisions/26866/view
+-- Date: 2014-11-07 22:20
+-- Who: Emmaleah
+-- Log: corrected errors per list 'o errors. Changed QO|text:0/1 to QO|#
+
+-- URL: http://wow-pro.com/node/3544/revisions/26836/view
+-- Date: 2014-11-06 18:22
+-- Who: Fluclo
+-- Log: Added missing pipe, and capitalised RANK.
+
+-- URL: http://wow-pro.com/node/3544/revisions/26515/view
 -- Date: 2014-06-10 23:23
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -37,7 +62,6 @@ WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.Dailies:GuideFaction(guide,666) --  "Pet Battle Dailies"
 WoWPro:GuideSteps(guide, function()
 return [[
-[
 
 N Work In Process Disclaimer|QID|31909|N|This guide is a work-in-process.  Please report any errors or missing quests on the WowPro Website.|
 N Dailies Unlocked|QID|32428|N|This guide assumes you have all the dailies unlocked.  It is not listed in the order they unlock, but rather in an order to minimize travel time.|
@@ -154,7 +178,7 @@ R Deepholm|QID|31973|M|49.8,57|Z|Deepholm|RANK|2|
 A Bordin Steadyfist|QID|31973|M|49.8,57|Z|Deepholm|RANK|2|N|From Bordin Steadyfist.|
 C Bordin Steadyfist|QID|31973|M|49.8,57|Z|Deepholm|RANK|2|N|Opponents are level 25 Critter, Elemental and Elemental. This means your best choices are Beast, Aquatic and Aquatic.|
 T Bordin Steadyfist|QID|31973|M|49.8,57|Z|Deepholm|RANK|2|N|To Bordin Steadyfist.|
-R Portal Stormwind|QID|31974|M|48.54,53.84|Z|Deepholm|Rank|2|
+R Portal Stormwind|QID|31974|M|48.54,53.84|Z|Deepholm|RANK|2|
 R Twilight Highlands|QID|31974|M|56.6,57|Z|Twilight Highlands|RANK|2|
 A Goz Banefury|QID|31974|M|56.6,57|Z|Twilight Highlands|RANK|2|N|From Goz Banefury.|
 C Goz Banefury|QID|31974|M|56.6,57|Z|Twilight Highlands|RANK|2|N|Opponents are level 25 Magic, Beast and Elemental. This means your best choices are Dragonkin, Mechanical and Aquatic.|
@@ -176,37 +200,37 @@ R The Yaungol Advance|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|RANK|1|N|This is in
 A Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|From Thundering Pandaren Spirit.|RANK|1|
 C Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|Opponents are level 25 Legendary Beast, Elemental and Critter. This means your best choices are Mechanical, Aquatic and Beast.|RANK|1|
 T Thundering Pandaren Spirit|QID|32441|M|64.8,93.6|Z|Kun-Lai Summit|N|To Thundering Pandaren Spirit.|RANK|1|
-R Inkgill Mere|QID|32604|M|67.87,84.71|Z|Kun-Lai Summit|N Open your treasure|U|93149|N|Open your treasure bag as you fly to the next spot.|
-C Dos-Ryga|QID|32604|QO|Dos'Ryga defeated: 0/1|M|67.87,84.71|Z|Kun-Lai Summit|N|Dos-Ryga is an aquatic, so a team of flyers works well.|; this C doesn't work
+R Inkgill Mere|QID|32604|M|67.87,84.71|Z|Kun-Lai Summit|U|93149|N|Open your treasure bag as you fly to the next spot.|
+C Dos-Ryga|QID|32604|QO|4|M|67.87,84.71|Z|Kun-Lai Summit|N|Dos-Ryga is an aquatic, so a team of flyers works well.|; this C doesn't work
 R Jade Forest|QID|32440|M|28.8,36|Z|The Jade Forest|RANK|1|
 R Exclamation Point|QID|32440|M|28.8,36|Z|The Jade Forest|RANK|1|
 A Whispering Pandaren Spirit|QID|32440|M|28.8,36|Z|The Jade Forest|N|From Whispering Pandaren Spirit.|RANK|1|
 C Whispering Pandaren Spirit|QID|32440|M|28.8,36|Z|The Jade Forest|N|Opponents are level 25 Legendary (orange) Critter, Elemental and Dragonkin. This means your best choices are Beast, Aquatic and Humanoid.|RANK|1|
 T Whispering Pandaren Spirit|QID|32440|M|28.8,36|Z|The Jade Forest|N|To Whispering Pandaren Spirit.|RANK|1|
 R Jade Forest|QID|32604|M|57.04,29.12|Z|The Jade Forest|U|93148|N|Open your treasure bag as you fly to the next spot. Somewhat near The Arboretum.|
-C Nitum|QID|32604|QO|Nitum defeated: 0/1|M|57.04,29.12|Z|The Jade Forest|N|Nitum is a critter so beast type pets/abilities work best on him.|
+C Nitum|QID|32604|QO|2|M|57.04,29.12|Z|The Jade Forest|N|Nitum is a critter so beast type pets/abilities work best on him.|
 A Grand Master Hyuna|QID|31953|M|48,54|Z|The Jade Forest|N|Hyuna is somewhat near Dawn's Blossom.|RANK|1|
 C Grand Master Hyuna|QID|31953|M|48,54|Z|The Jade Forest|N|Opponents are level 25 Epic Aquatic, Beast and Flying. This means your best choices are Flying, Mechanical and Magic.|RANK|1|
 T Grand Master Hyuna|QID|31953|M|48,54|Z|The Jade Forest|N|To Hyuna of the Shrines.|RANK|1|
 R Fox Grove|QID|32604|M|48.42,70.96|Z|The Jade Forest|U|89125|N|You can open your treasure bag while you are flying to the next spot.|
-C Ku'wi the Gorger|QID|32604|QO|Ku'wi the Gorger defeated: 0/1|M|48.42,70.96|Z|The Jade Forest|N|Ka'wi is a critter so beast type pets/abilities work best on him.|
+C Ka'wi the Gorger|QID|32604|QO|1|M|48.42,70.96|Z|The Jade Forest|N|Ka'wi is a critter so beast type pets/abilities work best on him.|
 R Krasarang Wilds|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|RANK|1|
 R Narsong Spires|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|RANK|1|
 A Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|From Mo'ruk.|RANK|1|
 C Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|Opponents are level 25 Epic Flying, Aquatic and Beast. This means your best choices are Magic, Flying and Mechanical.|RANK|1|
 T Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|To Mo'ruk.|RANK|1|
-R Krasari Falls|QID|32868|M|36.23,37.34|Z|Krasarang Wilds|M|62.2,45.8|Z|Krasarang Wilds|U|89125|N|You can open your treasure bag while you are flying to the next spot.|
-C Skitterer Xi'a|QID|32868|QO|Skitterer Xi'a defeated: 0/1|N|Xi'a is an aquatic so flying creatures/abilites are superior.|;no QO didnt autocomple
+R Krasari Falls|QID|32868|M|36.23,37.34|Z|Krasarang Wilds|U|89125|N|You can open your treasure bag while you are flying to the next spot.|
+C Skitterer Xi'a|QID|32868|QO|3|N|Xi'a is an aquatic so flying creatures/abilites are superior.|;no QO didnt autocomple
 R Valley of the Four Winds|QID|32868|M|25.29, 78.54|Z|Valley of the Four Winds|
 R The Wild Plains|QID|32868|M|25.29, 78.54|Z|Valley of the Four Winds|
-C Greyhoof|QID|32868|QO|Greyhoof defeated: 0/1|M|25.29, 78.54|Z|Valley of the Four Winds|N|Greyhoof is a beast so mechanical pets and abililites are superior.|
+C Greyhoof|QID|32868|QO|2|M|25.29, 78.54|Z|Valley of the Four Winds|N|Greyhoof is a beast so mechanical pets and abililites are superior.|
 R Dread Wastes|QID|32439|M|61.2,87.6|Z|Dread Wastes|RANK|1|
 R Lonesome Cove|QID|32439|M|61.2,87.6|Z|Dread Wastes|RANK|1|
 A Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|From Flowing Pandaren Spirit.|RANK|1|
 C Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|Opponents are level 25 Legendary Aquatic, Elemental and Critter. This means your best choices are Flying, Aquatic and Beast.|RANK|1|
 T Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|To Flowing Pandaren Spirit.|RANK|1|
 R Venomous Ledge|QID|32869|M|26.18,50.27|Z|Dread Wastes|U|93147|N|Open your treasure bag as you fly to the next spot.|
-C Gorespine|QID|32869|QO|Gorespine defeated: 0/1|M|26.18,50.27|Z|Dread Wastes|N|Gorespine is a beast so mechanical pets and abilities work best.|
+C Gorespine|QID|32869|QO|3|M|26.18,50.27|Z|Dread Wastes|N|Gorespine is a beast so mechanical pets and abilities work best.|
 R Townlong Steppes|QID|31991|M|36.2,52.2|Z|Townlong Steppes|RANK|1|
 R Fields of Niuzao|QID|31991|M|36.2,52.2|Z|Townlong Steppes|RANK|1|
 A Grand Master Zusshi|QID|31991|M|36.2,52.2|Z|Townlong Steppes|N|From Seeker Zusshi.|RANK|1|
@@ -218,13 +242,13 @@ C Burning Pandaren Spirit|QID|32434|M|57,42.2|Z|Townlong Steppes|N|Opponents are
 T Burning Pandaren Spirit|QID|32434|M|57,42.2|Z|Townlong Steppes|N|To Burning Pandaren Spirit.|RANK|1|
 R Kun-Lai Summit|QID|32604|M|35.18, 56.17|Z|Kun-Lai Summit|U|93146|N|Open your treasure bag as you fly to the next spot.|
 R Winter's Blossom|QID|32604|M|35.18, 56.17|Z|Kun-Lai Summit|N|You are headed to the cliff's above Winter's Blossom.|
-C Kafi|QID|32604|M|35.18, 56.17|Z|Kun-Lai Summit|N|Kafi is a beast so mechanical pets and abililites are superior.|
+C Kafi|QID|32604|QO|3|M|35.18, 56.17|Z|Kun-Lai Summit|N|Kafi is a beast so mechanical pets and abililites are superior.|
 R Kota Peak|QID|31956|M|35.84,74.23|Z|Kun-Lai Summit|RANK|1|N|If you land on the dot, there should be a small cave just north of you.|
 A Grand Master Yon|QID|31956|M|35.8,73.6|Z|Kun-Lai Summit|N|From Courageous Yon.|RANK|1|
 C Grand Master Yon|QID|31956|M|35.8,73.6|Z|Kun-Lai Summit|N|Opponents are level 25 Epic Beast, Critter and Flying. This means your best choices are Mechanical, Beast and Magic.|RANK|1|
 T Grand Master Yon|QID|31956|M|35.8,73.6|Z|Kun-Lai Summit|N|To Courageous Yon.|RANK|1|
 R Townlong Steppes|QID|32868|M|72.26,79.78|Z|Townlong Steppes|U|89125|N|You can open your treasure bag while you are flying to the next spot. Ti'un is  just south of Upper Sumprushes in the area between Ambermarsh and Gao-Ran Battlefront.|
-C Ti'un the Wanderer|QID|32868|QO|Ti'un the Wanderer defeated: 0/1|M|72.26,79.78|Z|Townlong Steppes|N|Ti'un is an  aquatic so flying creatures and abilites are superior.|
+C Ti'un the Wanderer|QID|32868|QO|2|M|72.26,79.78|Z|Townlong Steppes|N|Ti'un is an  aquatic so flying creatures and abilites are superior.|
 R Dread Wastes|QID|31957|M|55,37.6|Z|Dread Wastes|RANK|1|
 R Klaxxi'vess|QID|31957|M|55,37.6|Z|Dread Wastes|N|From Wastewalker Shu.|RANK|1|
 A Grand Master Shu|QID|31957|M|55,37.6|Z|Dread Wastes|N|From Wastewalker Shu.|RANK|1|
@@ -232,10 +256,10 @@ C Grand Master Shu|QID|31957|M|55,37.6|Z|Dread Wastes|N|Opponents are level 25 E
 T Grand Master Shu|QID|31957|M|55,37.6|Z|Dread Wastes|N|To Wastewalker Shu.|RANK|1|
 R Vale of Eternal Blossoms|QID|32869|M|11,70.86|Z|Vale of Eternal Blossoms|U|89125|N|You can open your treasure bag while you are flying to the next spot.|
 R Gate of the Setting Sun|QID|32869|M|11,70.86|Z|Vale of Eternal Blossoms|
-C No-No|QID|32869|M|11,70.86|Z|Vale of Eternal Blossoms|N|No-No is an  aquatic so flying creatures/abilites are superior.|
+C No-No|QID|32869|QO|1|M|11,70.86|Z|Vale of Eternal Blossoms|N|No-No is an  aquatic so flying creatures/abilites are superior.|
 R Valley of the Four Winds|QID|32868|M|40.54,43.67|Z|Valley of the Four Winds|
 R The Heartland|QID|32868|M|40.54,43.67|Z|Valley of the Four Winds|
-C Lucky Yi|QID|32868|M|40.54,43.67|Z|Valley of the Four Winds|N|Lucky Yi  is a critter so beast type pets/abilities work best on him.|
+C Lucky Yi|QID|32868|QO|1|M|40.54,43.67|Z|Valley of the Four Winds|N|Lucky Yi  is a critter so beast type pets/abilities work best on him.|
 A Grand Master Nishi|QID|31955|M|46,43.6|Z|Valley of the Four Winds|N|From Farmer Nishi.|RANK|1|
 C Grand Master Nishi|QID|31955|M|46,43.6|Z|Valley of the Four Winds|N|Opponents are level 25 Epic Beast, Elemental and Elemental. This means your best choices are Mechanical, Aquatic and Aquatic.|RANK|1|
 T Grand Master Nishi|QID|31955|M|46,43.6|Z|Valley of the Four Winds|N|To Farmer Nishi.|RANK|1|

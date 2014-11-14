@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2014-10-30 02:47
+-- Who: Emmaleah
+-- Log: clarify quest A Flesh Bound tome per user's comment here http://wow-pro.com/comment/reply/3123/54199#comment-54199
+
+-- URL: http://wow-pro.com/node/3292/revisions/26438/view
 -- Date: 2014-06-02 14:53
 -- Who: Ludovicus
 -- Log: Set levels
@@ -138,11 +143,11 @@ A Strength of Icemist |QID|12063|M|35.8,46.7|N|From Greatmother Icemist. She wan
 C Scourge Armaments|QID|12048|M|26.9,43.3|N|Kill and loot Anub'ar to get the armaments.|S|
 T Strength of Icemist |QID|12063|N|To Banthok Icemist. He is actually down next to the water.|M|22.61,41.71|
 A Chains of the Anub'ar |QID|12064|M|22.61,41.71|PRE|12063|N|From Banthok Icemist.|
-l Flesh-Bound Tome |QID|12057|L|36744|N|Until you get a Flesh-Bound Tome.|S|
+K Anub'ar Cultists|QID|12057|L|36744|N|Until you get a Flesh-Bound Tome.|S|PRE|12056|
 l Anok'ra's Key Fragment |QID|12064|L|36752|N|Kill and loot Anok'ra (ground floor) to get his key fragment.|M|25,45|
 l Sinok's Key Fragment |QID|12064|N|Kill and loot Sinok to get his key fragment.|L|36754|M|26,44|
 C Chains of the Anub'ar |QID|12064|N|Look for Tivax, who can be at either waypoint, get his key fragment.|M|26,39;23,39|CN|
-l Flesh-Bound Tome |QID|12057|L|36744|N|Until you get a Flesh-Bound Tome. Also drops off the three named mobs we just killed.|US|
+K Anub'ar Cultists|QID|12057|L|36744|N|Until you get a Flesh-Bound Tome. Also drops off the three named mobs we just killed.|US|
 A The Flesh-Bound Tome |QID|12057|U|36744|M|26.9,43.3|N|From the Flesh-Bound Tome.|
 T Chains of the Anub'ar |QID|12064|N|To Banthok Icemist.|M|22.61,41.71|
 

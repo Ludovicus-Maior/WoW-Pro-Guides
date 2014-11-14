@@ -4,6 +4,24 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-11-06 12:53
+-- Who: Fluclo
+-- Log: Removed duplicate PRE tag from Return to Gremlock
+
+-- URL: http://wow-pro.com/node/3200/revisions/26797/view
+-- Date: 2014-11-06 02:47
+-- Who: Fluclo
+-- Log: Removed duplicate |M| tag
+
+-- URL: http://wow-pro.com/node/3200/revisions/26634/view
+-- Date: 2014-07-26 00:36
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3200/revisions/26593/view
+-- Date: 2014-07-25 20:45
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3200/revisions/26403/view
 -- Date: 2014-05-30 12:19
 -- Who: Ludovicus
 -- Log: Level setting
@@ -244,28 +262,8 @@
 -- Who: Ludovicus
 -- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
 
--- URL: http://wow-pro.com/node/3200/revisions/24097/view
--- Date: 2011-02-05 01:18
--- Who: Ludovicus
--- Log: Removed extra tabs and whitespace.
---	Removed empty tags (aka ||'s).
-
--- URL: http://wow-pro.com/node/3200/revisions/24083/view
--- Date: 2011-01-30 19:28
--- Who: Ludovicus
--- Log: Corrected RegisterGuide to match GIT
-
--- URL: http://wow-pro.com/node/3200/revisions/24063/view
--- Date: 2011-01-27 19:12
--- Who: Ludovicus
--- Log:  WoWPro.Leveling
-
--- URL: http://wow-pro.com/node/3200/revisions/23812/view
--- Date: 2010-12-22 06:20
--- Who: Gylin
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Dun Morogh (Dwarf)", "Gylin - Dwarf", "Alliance")
-WoWPro:GuideLevels(guide,1,2,1.06757)
+WoWPro:GuideLevels(guide,1,2,1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Dwarf_Male","Interface\\Icons\\Achievement_Character_Dwarf_Female"))
 WoWPro:GuideSteps(guide, function()
@@ -359,7 +357,7 @@ T Harnessing the Flames |QID|26904|M|35.69,65.45|N|To Saripal Smolderbrew.|C|War
 
 A Simple Rune |PRE|24473|QID|3106|C|Warrior|N|From Jona Ironstock.|M|35.74,66.31|R|Dwarf|
 T Simple Rune |QID|3106|M|35.87,65.70|N|To Thran Khorman.|C|Warrior|R|Dwarf|
-A Getting Battle-Ready |PRE|3106|QID|24531|M|35.87,65.70|M|35.87,65.70|N|From Thran Khorman.|C|Warrior|R|Dwarf|
+A Getting Battle-Ready |QID|24531|M|35.87,65.70|N|From Thran Khorman.|C|Warrior|R|Dwarf||PRE|3106|
 C Getting Battle-Ready |QID|24531|M|35.83,67.67|N|Learn Charge, then use Charge on one of the Training Dummies outside the entrance to Anvilmar.|C|Warrior|R|Dwarf|
 T Getting Battle-Ready |QID|24531|M|35.80,65.70|N|To Thran Khorman.|C|Warrior|R|Dwarf|
 

@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2014-11-06 18:24
+-- Who: Fluclo
+-- Log: Added missing |N| tag
+
+-- URL: http://wow-pro.com/node/3416/revisions/26633/view
+-- Date: 2014-07-26 00:35
+-- Who: Ludovicus
+-- Log: OOps, wrong faction
+
+-- URL: http://wow-pro.com/node/3416/revisions/26589/view
+-- Date: 2014-07-25 19:04
+-- Who: Ludovicus
+-- Log: Whoops!   Copied over the alliance version by accident.
+
+-- URL: http://wow-pro.com/node/3416/revisions/26511/view
+-- Date: 2014-06-10 23:15
+-- Who: Ludovicus
+-- Log: Changed level guide.
+
+-- URL: http://wow-pro.com/node/3416/revisions/25717/view
 -- Date: 2013-06-18 00:57
 -- Who: Ludovicus
 -- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
@@ -46,9 +66,11 @@
 -- Date: 2011-06-30 19:05
 -- Who: Ludovicus
 
-WoWPro.Dailies:RegisterGuide("CraToBarPH", "Tol Barad Peninsula", "Tol Barad Peninsula Guide", "Cata", "Crackerhead22", "Horde", function()
+local guide = WoWPro:RegisterGuide("CraToBarPH",'Dailies', "Tol Barad Peninsula", "Crackerhead22", "Horde")
+WoWPro:GuideLevels(guide,1,85,90)
+WoWPro.Dailies:GuideFaction(guide,1178) --  "Hellscream's Reach"
+WoWPro:GuideSteps(guide, function()
 return [[
-
 R Tol Barad Peninsula|M|47.41,39.3|Z|Orgrimmar|N|Click on the Portal to Tol Barad in Orgrimmar.|
 
 A Commander Larmash's Quests|M|53.6,80.6|N|Grab any and all quests from Commander Larmash. This step will close when you pick up the first quest.|QID|28696;28698;28697;28700;28695;28694|
@@ -58,7 +80,7 @@ A 3rd Officer Kronkar's Quests|M|55.2,81|N|Grab any and all quests from 3rd Offi
 
 C Salvaging the Remains|QID|28690|M|36.2,79.4|N|Kill and loot Ghouls at Forgotten Hill until you have 9 Cursed Femurs.|
 C The Forgotten|QID|28689|M|36.2,79.4|N|Click on the sparkling gravestones. When you click on one, an Angry Spirit will appear.|
-C First Lieutenant Connor|QID|28691|M|36.2,79.4|Kill First Lieutenant Connor, he wanders around the building at the top of the hill.|
+C First Lieutenant Connor|QID|28691|M|36.2,79.4|N|Kill First Lieutenant Connor, he wanders around the building at the top of the hill.|
 
 C Finish The Job|QID|28693|M|41.8,62.1|N|Kill 5 Restless Soldiers.|
 C Magnets, How Do They Work?|QID|28692|M|41.8,62.1|N|Use the Magnetized Scrap Collector, then pick up the Siege Engine Scrap that shows up on the ground.|U|62829|

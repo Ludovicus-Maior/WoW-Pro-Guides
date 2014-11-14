@@ -9,6 +9,7 @@ WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {}
 WoWPro.GuideLoaded = false
+WoWPro.Astrolabe = DongleStub("Astrolabe-1.0")
 
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
@@ -234,7 +235,7 @@ WoWPro.Tags = { "action", "step", "note", "index", "map", "sticky",
 	"unsticky", "use", "zone", "lootitem", "lootqty", "optional", 
 	"level", "QID","target", "prof", "mat", "rank", "rep","waypcomplete", "why",
 	 "noncombat","active","ach","spell","qcount","NPC","questtext","prereq","leadin","faction",
-	 "buff", "chat","recipe", "gossip","conditional","pet"
+	 "buff", "chat","recipe", "gossip","conditional","pet", "building"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -253,19 +254,25 @@ function WoWPro:OnInitialize()
 	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
 	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
 	WoWProDB.global.RecklessCombat = false
+	if WoWProCharDB.EnableGrail == nil then
+	    WoWProCharDB.EnableGrail = true
+	end
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	if WoWProCharDB.Enabled == nil then
 	    WoWProCharDB.Enabled = true
 	end
-	WoWProDB.global.Deltas = {}
 	WoWProDB.global.Log = {}
 	WoWProCharDB.DebugLevel = WoWProCharDB.DebugLevel or WoWPro.DebugLevel
+	if not WoWProCharDB.DebugLevel then
+		WoWProDB.global.Deltas = {}
+	end
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
+    WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
     WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
 end
 
@@ -318,9 +325,7 @@ function WoWPro:OnEnable()
     local keys = GetBindingKey("WOWPRO_SELECTOR")
 	if keys then
 	    -- Do NOT release with this binding until it works!
-		-- SetBinding("ALT-G", "WOWPRO_SELECTOR")
-		WoWPro:Warning("Achtung! Detected key bound to WOWPRO_SELECTOR (%s). Undoing the binding.",keys)
-		SetBinding(keys, nil)
+		SetBinding("ALT-G", "WOWPRO_SELECTOR")
 	end
     
 
@@ -330,6 +335,7 @@ function WoWPro:OnEnable()
 	WoWPro:RegisterEvents( {															-- Setting up core events
 		"PLAYER_REGEN_ENABLED", "PARTY_MEMBERS_CHANGED", "QUEST_LOG_UPDATE",
 		"UPDATE_BINDINGS", "PLAYER_ENTERING_WORLD", "PLAYER_LEAVING_WORLD","UNIT_AURA", "TRADE_SKILL_SHOW", "GOSSIP_SHOW",
+		"QUEST_DETAIL", "QUEST_GREETING", "QUEST_TURNED_IN", "QUEST_ACCEPTED", "CINEMATIC_START", "CINEMATIC_STOP", "ZONE_CHANGED_NEW_AREA"
 		
 	})
 	bucket:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
@@ -342,10 +348,12 @@ function WoWPro:OnEnable()
 	bucket:RegisterBucketMessage("WoWPro_PuntedQLU",0.333,WoWPro.PuntedQLU)
 	if WoWPro.Recorder then
 	    bucket:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.Recorder.PostQuestLogUpdate)
+	    bucket:RegisterBucketMessage("WoWPro_PostLoadGuide",0.1,WoWPro.Recorder.PostGuideLoad)
 	end
 	
 	WoWPro.LockdownTimer = nil
 	WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+	WoWPro:dbp("Setting Timer OnEnable")
 	WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
 	    
 	WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
@@ -404,22 +412,21 @@ event from the guide frame.
 	end
 end
 
+-- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
+-- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
-    local guid = UnitGUID("target");
-    if not guid then
+    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit(":", UnitGUID("target") or "")
+    if not unitType then
         WoWPro:dbp("No target");
         return nil
     end      
-    local B = tonumber(guid:sub(5,5), 16);
-    local maskedB = B % 8; -- x % 8 has the same effect as x & 0x7 on numbers <= 0xf
-    local knownTypes = {[0]="player", [3]="NPC", [4]="pet", [5]="vehicle"};
-    local npcid = tonumber(guid:sub(6,10), 16);
     
-    if maskedB == 3 then
-        WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!") .. " ID %d",npcid);
+    if unitType == "Player" then
+        unitType, serverID, npcID = strsplit(":", UnitGUID("target"))
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcid);
         return npcid
     else
-        WoWPro:dbp("Your target is a " .. (knownTypes[maskedB] or " unknown entity!"));
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcid);
         return nil
     end
 end
@@ -469,7 +476,7 @@ function WoWPro:Timeless()
 end
 
 
-function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, factionname)
+function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction)
     if not WoWPro[gtype] then
         WoWPro:Error("WoWPro:RegisterGuide(%s,%s,...) has bad gtype",GIDvalue,tostring(gtype))
     end
@@ -478,13 +485,13 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, factionname
 		guidetype = gtype,
 		zone = zonename,
 		author = authorname,
-		faction = factionname,
+		faction = faction,
 		GID = GIDvalue
 	}
 
 
-	if factionname and factionname ~= UnitFactionGroup("player") and factionname ~= "Neutral" and WoWPro.DebugLevel < 1 then
-	    -- If the guide is not of the correct faction, don't register it
+	if faction and faction ~= UnitFactionGroup("player") and faction ~= "Neutral" then
+	    -- If the guide is not of the correct side, don't register it
 	    return guide
 	end 
 			
@@ -494,16 +501,17 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, factionname
 end
 
 function WoWPro:UnRegisterGuide(guide,why)
-    if WoWPro.DebugLevel < 1 then
-        WoWPro:dbp(why,guide.GID)
-        WoWPro.Guides[guide.GID] = nil
-    end
+    WoWPro:dbp(why,guide.GID)
+    WoWPro.Guides[guide.GID] = nil
 end
 
 
 function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
-    if (not lowerLevel) or (not upperLevel) or (not meanLevel) then
+    if (not lowerLevel) or (not upperLevel) then
         WoWPro:Error("Bad GuideLevels(%s,%s,%s,%s)",guide.GID,tostring(lowerLevel),tostring(upperLevel),tostring(meanLevel))
+    end
+    if not meanLevel then
+        meanLevel = (upperLevel*3.0 + lowerLevel) / 4.0
     end
     guide['startlevel'] = lowerLevel
     guide['endlevel'] = upperLevel
@@ -512,6 +520,8 @@ end
 
 function WoWPro:GuideRaceSpecific(guide,race)
     local locRace, engRace = UnitRace("player")
+    race = strupper(race)
+    engRace = strupper(engRace)
     if engRace ~= race then
         WoWPro:UnRegisterGuide(guide,"Guide %s is race specific and you don't match")
     end
@@ -519,6 +529,8 @@ end
 
 function WoWPro:GuideClassSpecific(guide,class)
     local locClass, engClass = UnitClass("player")
+    class = strupper(class)
+    engClass = strupper(engClass)
     if engClass ~= class then
         WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't mach")
     end
@@ -604,49 +616,89 @@ function WoWPro:HSL2RGB(h,s,l)
 end
 
 local Difficulty = {}
-Difficulty[0] = {0,0.1,0.25}  -- Red/Gray
+Difficulty[0] = {-60/360,0.8,0.4}  -- Red/Blue
 Difficulty[1] = {0,0.9,0.5} -- Red
-Difficulty[2] = {20/360,0.9,0.5} -- Orange
+Difficulty[2] = {30/360,0.9,0.5} -- Orange
 Difficulty[3] = {60/360,0.9,0.5} -- Yellow
 Difficulty[4] = {120/360,0.9,0.5} -- Green
-Difficulty[5] = {120/360,0.1,0.25} -- Green/Gray
+Difficulty[5] = {180/360,0.7,0.3} -- Green/Teal
 
 function WoWPro:InterpolateHSL(l,h,r)
+--    WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)", l[1], l[2], l[3], h[1], h[2], h[3], r)
+    if (r < 0) then r = 0 end
+    if (r > 1) then r = 1 end
     local ir = 1 - r
---    WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)",
---                l[1], l[2], l[3], h[1], h[2], h[3], r)
+    
     return { l[1]*ir + h[1]*r , l[2]*ir + h[2]*r, l[3]*ir + h[3]*r }
+end
+
+
+function WoWPro:PlayerLevel()
+    local UL = UnitLevel("player")
+    local XP = UnitXP("player")
+    local XPMax = UnitXPMax("player")
+    playerLevel = UL + (XP/XPMax)
+    return playerLevel
 end
 
 
 function WoWPro:QuestColor(questLevel, playerLevel)
     if not playerLevel then
-        local UL = UnitLevel("player")
-        local XP = UnitXP("player")
-        local XPMax = UnitXPMax("player")
-        playerLevel = UL + (XP/XPMax)
+        playerLevel = WoWPro:PlayerLevel()
     end
     
     local diff = questLevel - playerLevel
     local c
 --    WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
     if diff > 5 then
-        c = WoWPro:InterpolateHSL(Difficulty[1], Difficulty[0], (diff-5)/85)
-    elseif diff > 3 then      
+        -- Red/Gray => Red
+        c = WoWPro:InterpolateHSL(Difficulty[1], Difficulty[0], (diff-5)/90)
+    elseif diff >= 3 then
+        -- red => orange
         c = WoWPro:InterpolateHSL(Difficulty[2], Difficulty[1], (diff-3)/2)
-    elseif diff > 0 then
+    elseif diff >= 0 then
+        -- orange => yellow
         c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[2], (diff-0)/3)
-    elseif diff > -3  then
-        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[3], (-diff)/3)
+    elseif diff >= -5  then
+        -- yellow => green
+        c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[4], (diff)/-5)
     else
-        c = WoWPro:InterpolateHSL(Difficulty[5], Difficulty[4], (-diff)/90)
+        -- green => gray
+        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[5], (5+diff)/-20)
     end
     return  WoWPro:HSL2RGB(c[1], c[2], c[3])
 end
    
-function WoWPro.LevelColor(level)
---    WoWPro:dbp("WoWPro.LevelColor(%s)",tostring(level))
-    return {WoWPro:QuestColor(level)}
+function WoWPro:TestQuestColor(a,b,c,d)
+    for ql=a,b,c do
+        local r, g, b =  WoWPro:QuestColor(ql, d)
+        local msg = string.format("|c%2x%2x%2x%2xLevel %f .vs. %f|r",255,255*r,255*g,255*b,ql,50)
+        DEFAULT_CHAT_FRAME:AddMessage( msg )
+    end
+end
+
+function WoWPro.LevelColor(guide)
+    
+    playerLevel = WoWPro:PlayerLevel()
+    if type(guide) == "number" then
+--        WoWPro:dbp("WoWPro.LevelColor(%f)",guide)
+        return {WoWPro:QuestColor(guide)}
+    end
+    if type(guide) == "table" then
+--         WoWPro:dbp("WoWPro.LevelColor(%s)",guide.GID)
+        if (playerLevel < guide['startlevel']) then
+            return {WoWPro:QuestColor(guide['level'] or guide['endlevel'])}
+        end
+        if (playerLevel >  guide['endlevel']) then
+            return {WoWPro:QuestColor(guide['endlevel'])}
+        end
+        if guide['level'] then
+            return {WoWPro:QuestColor(guide['level'])}
+        else
+            return {WoWPro:QuestColor((guide['startlevel']+guide['endlevel'])/2.0)}
+        end
+    end
+    
 end
 
 function WoWPro:GuideIcon(guide,gtype,gsubtype)

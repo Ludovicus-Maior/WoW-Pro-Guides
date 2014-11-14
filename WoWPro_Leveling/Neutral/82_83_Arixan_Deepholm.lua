@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_deepholm_neutral
+-- Date: 2014-11-08 03:05
+-- Who: Emmaleah
+-- Log: delete 2 dup M tags per list o' errors
+
+-- URL: http://wow-pro.com/node/3307/revisions/26613/view
+-- Date: 2014-07-25 21:57
+-- Who: Ludovicus
+-- Log: Adj mean
+
+-- URL: http://wow-pro.com/node/3307/revisions/26467/view
 -- Date: 2014-06-02 16:15
 -- Who: Ludovicus
 -- Log: Added mean level
@@ -171,7 +181,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('AriDee8283', "Leveling", 'Deepholm', 'Arixan', 'Neutral')
-WoWPro:GuideLevels(guide,81,83, 81.1763)
+WoWPro:GuideLevels(guide,81,83, 81.1907)
 WoWPro:GuideNextGuide(guide, 'AriUld8384|AriUld8384')
 WoWPro:GuideIcon(guide,"ACH",4864)
 WoWPro:GuideSteps(guide, function()
@@ -402,7 +412,7 @@ A Hatred Runs Deep|QID|26376|PRE|26328|M|56.50,41.20|N|From Diamant the Patient.
 A Unsolid Ground|QID|26377|PRE|26328|M|56.50,41.20|N|From Diamant the Patient.|
 A Loose Stones|QID|26375|PRE|26328|M|56.5,41.1|N|From Quartz Stonetender.|
 l Jade Crystal Clusters|QID|26377|L|58500 6|N|Loot 6 Jade Crystal Clusters from around the camp.|S|M|59.5,39.9|
-C Loose Stones|QID|26375|U|58254|M|59.00,42.00|S|N|Use Delicate Chain Smasher to free Quartz Rocklings|M|59.5,39.9|
+C Loose Stones|QID|26375|U|58254|S|N|Use Delicate Chain Smasher to free Quartz Rocklings|M|59.5,39.9|
 C Hatred Runs Deep|QID|26376|S|QO|Lorthuna's Gate Cultists slain: 12/12|M|59.5,39.9|N|Kill Twilight Duskwardens.|
 K Dragul Giantbutcher|QID|26376|QO|Dragul Giantbutcher slain: 1/1|M|60.20,39.50|N|Kill Dragul Giantbutcher.|
 C Hatred Runs Deep|QID|26376|US|QO|Lorthuna's Gate Cultists slain: 12/12|M|59.5,39.9|N|Kill Twilight Duskwardens.|
@@ -446,7 +456,7 @@ A Petrified Delicacies|QID|26507|PRE|26441|RANK|1|M|34.12,34.19|N|From Kor the I
 A Rock Bottom|QID|26575|PRE|26441|M|34.12,34.19|N|From Kor the Immovable.|
 C Petrified Delicacies|QID|26507|RANK|1|M|39.1,28.8|N|Head to the shelf to the northeast. Loot any Petrified Bats off the ground. The basilisks in the area can also drop them.|
 T Petrified Delicacies|QID|26507|RANK|1|N|To Pebble, who should still be following you around.|
-C Rock Bottom|QID|26575|M|47.5,27.00|M|34,33|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite’s eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
+C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite’s eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
 T Rock Bottom|QID|26575|M|34.12,34.19|N|Back to Kor the Immovable.|
 A Steady Hand|QID|26576|PRE|26575|RANK|1|M|34.12,34.19|N|From Kor.|
 A Rocky Upheaval|QID|26577|PRE|26575|M|34.12,34.19|N|From Kor.|

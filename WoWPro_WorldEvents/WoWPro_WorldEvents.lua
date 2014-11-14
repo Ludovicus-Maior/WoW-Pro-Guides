@@ -75,9 +75,25 @@ function WoWPro.WorldEvents:RegisterGuide(GIDvalue, zonename, guidename, categor
 end
 
 
-function WoWPro.WorldEvents:GuideHoliday(guide,holiday)
+function WoWPro.WorldEvents:GuideHoliday(guide,holiday, name)
     -- The holiday needs to be a word to match the texture returned from the CalendarGetHolidayInfo() function 
     guide['holiday']=holiday
+    if name then
+        guide['name']=name
+    end
+
+    guide['category']='Holiday'
+
+end
+
+function WoWPro.WorldEvents:GuideWorldEvent(guide, name)
+    -- No holiday means World Event
+    if name then
+        guide['name']=name
+    end
+
+    guide['category']='World Event'
+
 end
 
 

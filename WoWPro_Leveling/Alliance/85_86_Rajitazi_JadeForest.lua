@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2014-11-08 13:06
+-- Who: Ludovicus
+-- Log: Extra 1/1
+
+-- URL: http://wow-pro.com/node/3486/revisions/26893/view
+-- Date: 2014-11-08 01:13
+-- Who: Ludovicus
+-- Log: Corrections
+
+-- URL: http://wow-pro.com/node/3486/revisions/26598/view
+-- Date: 2014-07-25 21:35
+-- Who: Ludovicus
+-- Log: men adj
+
+-- URL: http://wow-pro.com/node/3486/revisions/26597/view
+-- Date: 2014-07-25 21:16
+-- Who: Ludovicus
+-- Log: Adj. mean level.
+
+-- URL: http://wow-pro.com/node/3486/revisions/26411/view
 -- Date: 2014-05-30 15:26
 -- Who: Ludovicus
 -- Log: Level setting
@@ -159,7 +179,7 @@
 -- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
 
 local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')
-WoWPro:GuideLevels(guide,85,86,84.8282)
+WoWPro:GuideLevels(guide,85,86,85.0021)
 WoWPro:GuideNextGuide(guide, 'EmmVal8688')
 WoWPro:GuideIcon(guide,"ACH",6351)
 WoWPro:GuideSteps(guide, function()
@@ -296,7 +316,7 @@ C The Path of War |QID|29558|US|M|53.7,80.3|; Slingtail Pits
 T The Path of War|QID|29558|M|54.15,82.42|N|To Bold Karasshi.|
 T Freeing Our Brothers|QID|29559|M|54.15,82.42|N|To Bold Karasshi.|
 T Ancient Power|QID|29560|M|54.15,82.42|N|To Bold Karasshi.|
-A Kung Din|QID|29759|PRE|29558,29559,29560|M|54.15,82.42|N|From Bold Karasshi.|
+A Kung Din|QID|29759|PRE|29558;29559;29560|M|54.15,82.42|N|From Bold Karasshi.|
 
 K Kung Din|QID|29759|T|Kung Din|M|54.56,79.99|N|Two phase fight, switches between normal fighting and Vehicle UI where you need to press 1 to "hang on for life".  Remember the Key!|L|79753|
 
@@ -385,7 +405,7 @@ A Hue|QID|29893|M|54.02,91.21|N|From Lorewalker Cho.|
 
 C Body |QID|29892|S|M|56.5,88.4|; Amberfly Bog
 C Hue |QID|29893|U|76128|M|56.4,91.0|N|Use the Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
-C Potency |QID|29891|57.7,89.5|N|After you killed 8 Mist Creepers, the Mist Horror will appear and drop the Heart.|; Amberfly Bog
+C Potency |QID|29891|M|57.7,89.5|N|After you killed 8 Mist Creepers, the Mist Horror will appear and drop the Heart.|; Amberfly Bog
 C Hue |QID|29893|US|U|76128|M|56.4,91.0|N|Use the Delicate Shearing Knife on the Glittering Amberflies once you've kill them to get their wings|; Amberfly Bog
 C Body |QID|29892|US|M|56.5,88.4|; Amberfly Bog
 
@@ -490,9 +510,9 @@ A Mann's Man|QID|29927|M|50.94,27.03|N|From Foreman Mann.|
 T Mann's Man|QID|29927|M|45.44,29.09|N|To Hao Mann, inside the mine under a pile of rocks...|
 A Trapped!|QID|29929|M|45.44,29.09|N|From Hao Mann.|
 
-C Calamity Jade|QID|29926|S|QID|29926|M|44.48,30.29|
+C Calamity Jade|QID|29926|S|M|44.48,30.29|
 C Trapped!|QID|29929|NC|M|43.87,30.49|N|While doing the quests here in the mine an 'ancient pandaran mining pick' can rarely be found, keep an eye out for it.|
-C Calamity Jade|QID|29926|US|QID|29926|M|44.48,30.29|
+C Calamity Jade|QID|29926|US|M|44.48,30.29|
 
 T Trapped!|QID|29929|M|46.30,29.39|N|To Hao Mann.|
 A What's Mined Is Yours|QID|29930|M|46.30,29.35|N|From Hao Mann.|
@@ -542,7 +562,7 @@ T A Humble Offering|QID|29756|M|44.26,15.04|N|To Pei-Zhi.|
 A To Bridge Earth and Sky|QID|29754|M|44.26,15.04|N|From Pei-Zhi.|
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
-A Pei-Back|QID|29755|M|43.74,12.70|From UI Alert.|
+A Pei-Back|QID|29755|M|43.74,12.70|N|From UI Alert.|
 C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get separated from your body, you need to run back and click on it to rejoin it, then try to interrupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
 
@@ -711,7 +731,7 @@ F Pearlfin Village|QID|30498|M|54.58,61.35|N|The flightmaster has an option for 
 A An Unexpected Advantage|QID|30565|M|58.55,82.30|N|From Sully "The Pickle" McLeary.|
 T Get Back Here!|QID|30498|M|58.07,80.65|N|To Admiral Taylor.|
 A Helping the Cause|QID|30568|M|58.08,80.67|N|From Admiral Taylor.|
-C Helping the Cause|QID|30568|QO|Defeat the Captive Hozen: 1/1|M|54.86, 79.81|M|Talk to Amber to kick off the fight.|
+C Helping the Cause|QID|30568|QO|Defeat the Captive Hozen: 1/1|M|54.86, 79.81|N|Talk to Amber to kick off the fight.|
 C Helping the Cause|QID|30568|QO|Challenge a Pearlfin Recruit: 1/1|M|59.31, 83.49|
 C Helping the Cause|QID|30568|NC|QO|Assist the Wounded Pearlfin: 3/3|M|60.12,87.19|
 C An Unexpected Advantage|QID|30565|M|62.50,76.15|
@@ -738,7 +758,7 @@ C Jaded Heart|QID|30502|US|U|80074|M|49.04,59.9|
 C Residual Fallout|QID|30500|US|M|46.40,60.09|
 T Residual Fallout|QID|30500|M|49.32,61.50|N|To Lorewalker Cho.|
 T Jaded Heart|QID|30502|M|49.32,61.50|N|To Lorewalker Cho.|
-T Emergency Response|QID|31319|1/1|M|49.32,61.50|N|To Lorewalker Cho.|
+T Emergency Response|QID|31319|M|49.32,61.50|N|To Lorewalker Cho.|
 A Moving On|QID|30648|M|49.31,61.35|N|From Fei.|
 C Moving On|QID|30648|M|49.31,61.35|N|Talk to Fei.|
 T Moving On|QID|30648|N|To UI Alert (after the ride into the Valley).|

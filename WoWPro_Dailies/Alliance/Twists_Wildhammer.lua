@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_wildhammer_dalies_twilight_highlands
+-- Date: 2014-11-08 00:32
+-- Who: Ludovicus
+-- Log: Missing M
+
+-- URL: http://wow-pro.com/node/3415/revisions/26837/view
+-- Date: 2014-11-06 18:23
+-- Who: Fluclo
+-- Log: Added missing |M| tag to Never Leave a Dinner Behind
+
+-- URL: http://wow-pro.com/node/3415/revisions/26550/view
 -- Date: 2014-07-06 15:27
 -- Who: Ludovicus
 -- Log: Guide level and faction
@@ -29,7 +39,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Fight Like a Wildhammer|QID|28861|M|49.76,29.23|N|From Low Shaman Blundy.|
-A Never Leave a Dinner Behind|QID|28862|49.76,29.23|N|From Low Shaman Blundy.|
+A Never Leave a Dinner Behind|QID|28862|M|49.76,29.23|N|From Low Shaman Blundy.|
 A Keeping the Dragonmaw at Bay|QID|28860|M|49.07,29.80|N|From Colin Thundermar.|
 A Beer Run|QID|28864|M|49.07,29.80|N|From Colin Thundermar.|
 A Warlord Halthar is Back|QID|28863|M|48.63,30.59|N|From Craw Macgraw.|
@@ -45,7 +55,7 @@ C Fight Like a Wildhammer|QID|28861|US|M|53.08,27.73|N|You can go back and forth
 C Never Leave a Dinner Behind|QID|28862|US|M|52.55,27.99|N|You can go back and forth between towns. Try to pick those not fighting.|
 
 T Fight Like a Wildhammer|QID|28861|M|49.76,29.23|N|To Low Shaman Blundy.|
-T Never Leave a Dinner Behind|QID|28862|49.76,29.23|N|To Low Shaman Blundy.|
+T Never Leave a Dinner Behind|QID|28862|M|49.76,29.23|N|To Low Shaman Blundy.|
 T Beer Run|QID|28864|M|49.07,29.80|N|To Colin Thundermar.|
 T Keeping the Dragonmaw at Bay|QID|28860|M|49.07,29.80|N|To Colin Thundermar.|
 T Warlord Halthar is Back|QID|28863|M|48.63,30.59|N|To Craw Macgraw.|

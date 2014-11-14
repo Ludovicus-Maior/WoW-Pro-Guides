@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
+-- Date: 2014-11-06 13:40
+-- Who: Fluclo
+-- Log: Removed duplicate tags
+
+-- URL: http://wow-pro.com/node/3273/revisions/26398/view
 -- Date: 2014-05-30 12:10
 -- Who: Ludovicus
 -- Log: Level Adjust
@@ -209,7 +214,7 @@ C Saving the Sporeloks|N|Kill mobs until you are finished with this quest.|QID|1
 C A Damp, Dark Place|QID|9788|N|After you enter the cave, go right at the first fork, then right again at the second fork and down the slope, Ikeyen's Belongings are down the bottom on top of a flat rock.|M|70.53,97.91|
 C Safeguarding the Watchers|N|Kill Lord Klaq inside the cave.|M|72.00, 94.0|QID|9894|
 C Saving the Sporeloks|N|Kill mobs until you are finished with this quest.|QID|10096|US|
-L Level 63 or 50,000 xp|LVL|63|QID|9894|N|Kill mobs until you are level 63 or make 50,000 non-rested xp, whichever takes longer.|LVL|63|
+L Level 63 or 50,000 xp|LVL|63|QID|9894|N|Kill mobs until you are level 63 or make 50,000 non-rested xp, whichever takes longer.|
 U Umbrafen Lake Controls Disabled|QID|9720|QO|Umbrafen Lake Controls Disabled: 1/1|N|Use the ironvine seeds on the control panel at|M|70.5,80.|U|24355|
 l Drain Schematics|QID|9731|N|Kill Steam Pump Overseers and loot the Schematics if he has it. Use the Ironvine Seeds on the Control Console to get more Overseers to spawn. Repeat until you get the Drain Schematics.|M|70.50, 80.3|L|24330|U|24355|
 A Drain Schematics|N|Right click the Drain Schematics to start the quest.|QID|9731|U|24330|M|62.0,40.8|
@@ -328,7 +333,7 @@ T Gathering the Reagents|QID|9801|M|68.2,49.4|N|To Anchorite Ahuurn.|
 A Messenger to the Feralfen|QID|9803|M|68.2,49.4|N|From Anchorite Ahuurn.|
 T Diaphanous Wings|QID|9790|M|67.7,48.0|N|To Haalrun.|
 
-F Orebor Harborage|QID|9902|N|Fly to Orebor Harborage.|M|67.80,51.4|N|
+F Orebor Harborage|QID|9902|N|Fly to Orebor Harborage.|M|67.80,51.4|
 T Stinger Venom|QID|9830|M|40.8,28.7|N|To Puluu.|
 T The Terror of Marshlight Lake|QID|9902|M|40.8,28.7|N|To Puluu.|
 T Maktu's Revenge|QID|9905|M|41.6,27.3|N|To Maktu.|

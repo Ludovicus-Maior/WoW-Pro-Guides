@@ -5,7 +5,7 @@
 WoWPro.Dailies.GuideList = {}
 
 -- Creating a Table of Guides for the Guide List and sorting based on level --
-local guides = {}
+local guides
 
 local function AddInfo(guide)
     if guide.name then
@@ -17,7 +17,11 @@ local function AddInfo(guide)
         guide.category = guide.zone
         return
     end
-    local name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(guide.faction)
+    
+    local name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
+    if tonumber(guide.faction) then
+        name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(guide.faction)
+    end
     if not name then
         WoWPro.Dailies:Error("Guide %s: bad faction [%s]",guide.GID,tostring(guide.faction))
         guide.name = "BadFaction"
@@ -29,6 +33,10 @@ local function AddInfo(guide)
 end
 
 local function Init()
+    if WoWPro.Dailies.GuideList.Guides then
+        return
+    end
+    guides = {}
     for guidID,guide in pairs(WoWPro.Guides) do
     	if guide.guidetype == "Dailies" then
     	    local function progress ()
@@ -44,7 +52,7 @@ local function Init()
     			Zone = guide.zone,
     			Name = guide.name,
     		    Author = guide.author,
-    			Category = guide.category,
+    			Category = guide.category or guide.zone,
     			Progress = progress
     		})
     	end
@@ -94,6 +102,21 @@ end
 -- Describe the table to the Core Module
 WoWPro.Dailies.GuideList.Format={{"Name",0.35,nameSort},{"Category",0.15,categorySort},{"Author",0.30,authorSort},{"Progress",0.20,nil}}
 WoWPro.Dailies.GuideList.Init = Init
+-- Fancy tooltip!
+function WoWPro.Dailies.GuideTooltipInfo(row, tooltip, guide)
+    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    GameTooltip:AddLine(guide.side)
+    GameTooltip:AddLine(guide.name)
+    if guide.icon then
+        GameTooltip:AddTexture(guide.icon,1,1,1,1)
+        GameTooltip:AddLine(guide.icon)
+    else
+        GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
+    end
+    GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
+    GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide)))
+    GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
+end
 
 WoWPro.Dailies:dbp("Guide Setup complete")
 

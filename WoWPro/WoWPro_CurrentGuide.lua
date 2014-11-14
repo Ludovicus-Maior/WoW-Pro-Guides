@@ -93,7 +93,7 @@ frame:SetScript("OnShow", function()
 		    if row.index and WoWPro.why and WoWPro.why[row.index] then
 		        tooltip:SetPoint("TOPLEFT", row, "BOTTOMLEFT", -10, 10)
 		        tooltiptext:SetHeight(125)
-		        tooltiptext:SetText(WoWPro.why[row.index])
+		        tooltiptext:SetText(string.format("%d: %s",row.index,WoWPro.why[row.index]))
 		        tooltiptext:SetHeight(tooltiptext:GetStringHeight())
 		        tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
 		        tooltip:Show()
@@ -182,11 +182,13 @@ frame:SetScript("OnShow", function()
 			row.step:SetText(step)
 			
 			local action = WoWPro.action[index]
-			row.action:SetTexture(WoWPro[module:GetName()].actiontypes[action])
-			
-			if WoWPro.noncombat[index] then
-				row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
-			end
+			row.action:SetTexture(WoWPro.actiontypes[action])
+
+            if WoWPro.noncombat[index] and WoWPro.action[index] == "C" then
+                row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
+            elseif WoWPro.chat[index] then
+                row.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon") 
+            end
 			
 			local note = WoWPro.note[index]
 			row.note:SetText(note)

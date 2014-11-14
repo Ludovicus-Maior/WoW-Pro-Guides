@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_horde
+-- Date: 2014-11-07 20:25
+-- Who: Emmaleah
+-- Log: add 3 N tags per Ludo's list 'o errors 11/5/14
+
+-- URL: http://wow-pro.com/node/3444/revisions/26497/view
 -- Date: 2014-06-10 21:40
 -- Who: Ludovicus
 -- Log: Changed guide format.
@@ -66,13 +71,13 @@ U Recipe: Spice Bread Stuffing|QID|14037|U|46803|N|Learn to cook Stuffing, close
 B Buy Autumnal Herbs|QID|14037|L|44835 20|N|You need 20 Herbs from Rose Standish, Undercity.|
 B Buy Simple Flour|QID|14037|L|30817 10|N|You need 10 Flour|
 B Buy Mild Spices|QID|14037|L|2678 10|N|You need 10 Simple Spices|
-B Buy Honey|QID|14037|L|44853 30|You will need 30 Honeys|
+B Buy Honey|QID|14037|L|44853 30|N|You will need 30 Honeys|
 N Sharing a Bountiful Feast|QID|935570004|ACH|3557;4|M|64.46,7.89|Z|Undercity|N|Eat 5 of the 5 foods either by moving from chair to chair or passing them along.|
 l Spice Bread|QID|14037|L|30816 5|N|Cook up some Spice Bread|QO|Spice Bread Stuffing: 5/5|
 N Spice Bread Stuffing|QID|14037|N|Cook up some stuff'n|QO|Spice Bread Stuffing: 5/5|
 T Spice Bread Stuffing|QID|14037|M|65.24,14.22|Z|Undercity|N|To William Mullins, Undercity.|
 
-B Buy Ripe Tirisfal Pumpkin|QID|14037|L|46796 10|You need 10 Pumpkins|QO|Pumpkin Pie: 5/5|
+B Buy Ripe Tirisfal Pumpkin|QID|14037|L|46796 10|N|You need 10 Pumpkins|QO|Pumpkin Pie: 5/5|
 U Recipe: Pumpkin Pie|QID|14037|U|46804|N|Learn to cook Pie, close off when done.|
 A Pumpkin Pie|QID|14040|M|65.24,14.22|Z|Undercity|N|From William Mullins, Undercity.|
 l Pumpkin Pie|QID|14040|N|Cook up some pie|QO|Pumpkin Pie: 5/5|
@@ -82,7 +87,7 @@ b Orgrimmar|QID|14040|M|60.71,58.74|Z|Tirisfal Glades|N|Take the zepplin to Orgr
 T Pumpkin Pie|QID|14040|M|46.58,13.79|Z|Durotar|N|To Francis Eaton, Durotar|
 U Recipe: Cranberry Chutney|QID|14037|U|46805|N|Lean to cook Chutney, close off when done.|
 A Cranberry Chutney|QID|14041|M|6.58,13.79|Z|Durotar|N|From Francis Eaton, Durotar|
-B Buy Tangy Southfury Cranberries|QID|14041|M|46.62,13.79|Z|Durotar|L|46793 10|Buy 10 Cranberries from the Dalni Tallgrass.|
+B Buy Tangy Southfury Cranberries|QID|14041|M|46.62,13.79|Z|Durotar|L|46793 10|N|Buy 10 Cranberries from the Dalni Tallgrass.|
 l Cranberry Chutney|QID|14041|N|Cook up some Chutney|QO|Cranberry Chutney: 5/5|
 
 ; Thunder Bluff

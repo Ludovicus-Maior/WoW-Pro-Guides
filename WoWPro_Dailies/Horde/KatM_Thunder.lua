@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_horde
+-- Date: 2014-11-08 13:16
+-- Who: Ludovicus
+-- Log: Acdd filler M and NPC's for later.
+
+-- URL: http://wow-pro.com/node/3540/revisions/26584/view
+-- Date: 2014-07-20 19:23
+-- Who: Ludovicus
+-- Log: Right faction
+
+-- URL: http://wow-pro.com/node/3540/revisions/26512/view
 -- Date: 2014-06-10 23:17
 -- Who: Ludovicus
 -- Log: Changed level guide.
@@ -24,7 +34,7 @@
 
 local guide = WoWPro:RegisterGuide("KatMThunderKing",'Dailies', "Isle of Thunder", "KatM", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Thunder King"
+WoWPro.Dailies:GuideFaction(guide,1388) --  "Sunreaver Onslaught"
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -80,9 +90,9 @@ T Surgical Death|QID|32275|M|38.6,64.8|N|To Halduron Brightwing.|
 ; Dailies: Court of Bones
 
 T The Court of Bones|QID|32728|M|33,52.6|N|To Grand Magister Rommath|
-A Rommath's Quest|QID|*|NPC||PRE|32728|M|33,52.6|N|From Grand Magister Rommath|
-A Firehawk's Quests|QID|*|NPC||PRE|32728|M|33,52.8|N|From Captain Aerthas Firehawk|
-A Brightlock's Quests|QID|*|NPC||PRE|32728|M|33,52.6|N|From Ryshelle Brightlock|
+A Rommath's Quest|QID|*|NPC|1|PRE|32728|M|33,52.6|N|From Grand Magister Rommath|; Wron g NPC
+A Firehawk's Quests|QID|*|NPC|1|PRE|32728|M|33,52.8|N|From Captain Aerthas Firehawk|; Wrong NPC
+A Brightlock's Quests|QID|*|NPC|1|PRE|32728|M|33,52.6|N|From Ryshelle Brightlock|; Wrong NPC
 
 C Grave Circumstances|QID|32201|S|CN|M|33.00,52.80;33.60,60.60;34.00,58.60;34.40,52.20;34.60,56.40;35.40,51.60;35.40,60.80;36.20,59.00;36.40,56.20;37.00,55.20;37.40,51.80;37.40,59.40;37.60,53.80;38.60,58.20;39.00,55.80;35.50,53.00;36.60,52.50;35.60,55.20;36.75,60.65;36.40,53.80;36.60,49.60;34.60,57.50;35.55,50.20;37.00,57.80;38.45,60.90|QO|Shan'ze mogu slain at the Court of Bones:10/10|N|Go the court of bones and wipe them out!|
 ;
@@ -99,7 +109,7 @@ K Into the Crypts|QID|32226|M|36.8,56.4|QO|Gura the Reclaimed slain: 1/1|N|Make 
 ;
 C Rise No More!|QID|32224|M|33.00,57.00;35.00,48.60;35.40,50.40;37.20,56.80;38.20,59.80;35.20,52.40;38.70,58.30|CN|QO|Risen Ancestor slain: 15/15|N|Kill ghosts!|
 ;
-C Soul Surrender|QID|32220|M||QO|Scouts rescued: 6/6|N|Look for Scouts of either faction that are being zapped by Soulrippers and kill the soulripper. There are also scouts in cages.|
+C Soul Surrender|QID|32220|M|0,0|QO|Scouts rescued: 6/6|N|Look for Scouts of either faction that are being zapped by Soulrippers and kill the soulripper. There are also scouts in cages.|;Wrong M
 ;
 C Stone Cold|QID|32219|M|33.40,58.80;35.60,54.80;37.40,56.80;37.60,59.40;38.00,61.60;38.60,58.20;36.60,50.50;36.25,49.35;36.80,52.90;33.60,57.20|CN|QO|Grave Guardians destroyed: 8/8|N|Shatter or kill the Guardians.|
 C Grave Circumstances|QID|32201|US|CN|M|33.00,52.80;33.60,60.60;34.00,58.60;34.40,52.20;34.60,56.40;35.40,51.60;35.40,60.80;36.20,59.00;36.40,56.20;37.00,55.20;37.40,51.80;37.40,59.40;37.60,53.80;38.60,58.20;39.00,55.80;35.50,53.00;36.60,52.50;35.60,55.20;36.75,60.65;36.40,53.80;36.60,49.60;34.60,57.50;35.55,50.20;37.00,57.80;38.45,60.90|QO|Shan'ze mogu slain at the Court of Bones: 10/10|N|Go the court of bones and wipe them out!|
@@ -119,11 +129,11 @@ T The Conquest of Stone|QID|32517|M|33,52.6|N|To Ryshelle Brightlock|
 
 T Ihgaluk Crag|QID|32730|M|46.8,66.8|N|To Archmage Aethas Sunreaver|
 
-A Skin of the Saurok|QID|32507|PRE|32730|M||N|From ???|
+A Skin of the Saurok|QID|32507|PRE|32730|M|0,0|N|From ???|;Wrong M
 
-A Sunreaver's Quests|QID|*|NPC||PRE|32730|M|46.8,66.8|N|From Archmage Aethas Sunreaver|
-A Amalia's Quests|QID|*|NPC||PRE|32730|M||N|From  Penshire|
-A The Residents of Ihgaluk|QID|32274|PRE|32730|M||N|From Sunwalker Dezco|
+A Sunreaver's Quests|QID|*|NPC|2|PRE|32730|M|46.8,66.8|N|From Archmage Aethas Sunreaver|; Wrong NPC
+A Amalia's Quests|QID|*|NPC|2|PRE|32730|M|0,0|N|From  Penshire|; Wrong NPC,M
+A The Residents of Ihgaluk|QID|32274|PRE|32730|M|0,0|N|From Sunwalker Dezco|; Wrong M
 
 ; Do this quest first!!!!
 C Skin of the Saurok|QID|32507|M|44.20,83.20;44.60,74.40;45.00,84.00;45.80,75.00;49.00,85.80;50.00,76.40;50.80,73.40;52.20,75.60;52.60,91.40;54.20,80.00;54.20,87.00;54.60,78.40;54.80,74.60;55.40,86.20;46.60,72.50;54.50,76.10;49.40,78.50;46.10,71.30;44.50,81.80;47.60,82.40;46.40,70.00|CN|N|Kill any Saurok.|
@@ -138,7 +148,7 @@ C Malfunctioning Construct|QID|32255|M|46.6,72.0|N|The Malfunctioning Construct 
 C Distressed Construct|QID|32255|M|49.20,82.00;49.80,83.00;49.80,84.40;53.60,77.60;49.20,87.40|CN|N|The Distressed Construct is running around.|QO|Recover Distressed Construct: 1/1|
 ;
 C Just Some Light Clean-Up Work|QID|32299|M|52.40,80.00;55.60,74.40;48.60,80.50;50.40,80.90|CN|N|Kill the Filth|
-T Just Some Light Clean-Up Work|QID|32299|M||N|From Amalia Penshire|
+T Just Some Light Clean-Up Work|QID|32299|M|0,0|N|From Amalia Penshire|;WrongM
 ;
 C Left To Rot|QID|32491|M|43.40,83.80;45.00,84.40;45.40,80.00;46.40,80.80;47.00,69.80;47.40,71.20;47.40,72.60;47.40,78.80;48.00,80.20;48.40,81.40;50.00,78.00;51.00,73.60;54.60,77.00;55.00,75.40|CN|N|Destroy the meat!|
 ;
@@ -157,7 +167,7 @@ C Use Mogu Weapons|QID|32605|M|63,74|N|Stab the Skumblade corpses.|U|123|
 T The Creeping Carpet of Ihgaluk|QID|32489|M|46.8,66.8|N|To Amalia Penshire|
 T Left To Rot|QID|32491|M|46.8,66.8|N|From Amalia Penshire|
 T Subtle Encouragement|QID|32605|M|46.8,66.8|N|To Archmage Aethas Sunreaver|
-T De-Constructed|QID|32255|M||N|From Archmage Aethas Sunreaver|
+T De-Constructed|QID|32255|M|46.8,66.8|N|From Archmage Aethas Sunreaver|
 T Manipulating the Saurok|QID|32536|M|46.8,66.8|N|From Archmage Aethas Sunreaver|
 T The Skumblade Threat|QID|32204|M|46.8,66.8|N|To Archmage Aethas Sunreaver|
 T The Residents of Ihgaluk|QID|32274|M|46.8,66.8|N|From Sunwalker Dezco|

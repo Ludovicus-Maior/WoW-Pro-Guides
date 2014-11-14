@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2014-11-08 03:02
+-- Who: Emmaleah
+-- Log: Fixed dup N tags on T Salhet's Secret
+
+-- URL: http://wow-pro.com/node/3309/revisions/26391/view
 -- Date: 2014-05-30 11:57
 -- Who: Ludovicus
 -- Log: Level Adjust
@@ -403,7 +408,7 @@ C Shaping Up|QID|28210|M|53.23,56.50|N|Salhet shows up while you attack Hyenas.|
 T Shaping Up|QID|28210|M|53.23,56.50|N|To Salhet.|
 
 A Salhet's Secret|QID|28276|M|53.23,56.50|N|From Salhet.|
-T Salhet's Secret|QID|28276|M|56.94,62.41|N|To Salhet.|N|Up on the ridge.|
+T Salhet's Secret|QID|28276|M|56.94,62.41|N|To Salhet. He is up on the ridge.|
 
 A Salhet the Tactician|QID|28277|M|56.94,62.41|N|From Salhet.|
 C Salhet the Tactician|QID|28277|M|56.41,62.89|N|Speak to Salhet when you're ready. Controling the lions is quite easy. Just move them to intercept the incoming hyenas and use the other two abilities at will.|

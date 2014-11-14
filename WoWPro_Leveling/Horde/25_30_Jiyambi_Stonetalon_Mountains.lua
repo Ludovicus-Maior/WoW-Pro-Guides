@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2014-11-08 06:27
+-- Who: Emmaleah
+-- Log: Remove Dup NC tag from C Kobold Fury!
+
+-- URL: http://wow-pro.com/node/3234/revisions/26458/view
 -- Date: 2014-06-02 15:26
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -203,7 +208,7 @@ T Da Voodoo: Resonite Crystal|QID|26062|M|71.12,91.15|N|To Witch Doctor Jin'Zil.
 A Jin'Zil's Blessing|QID|26067|PRE|26062|M|71.12,91.15|N|From Witch Doctor Jin'Zil.|
 
 C Jin'Zil's Blessing|NC|QID|26067|U|56798|M|79.67,83.49|S|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauders|
-C Kobold Fury!|RANK|2|NC|QID|26068|NC|U|56799|M|79.22,81.38;79.09,78.25;73.90,78.40|CS|N|Use the horn at the horde banner in the Unearthed Grounds.|
+C Kobold Fury!|RANK|2|QID|26068|NC|U|56799|M|79.22,81.38;79.09,78.25;73.90,78.40|CS|N|Use the horn at the horde banner in the Unearthed Grounds.|
 C Jin'Zil's Blessing|NC|QID|26067|U|56798|M|79.67,83.49|US|N|Use the voodoo stick on the Marauders.|T|Krom'gar Marauders|
 
 T Kobold Fury!|RANK|2|QID|26068|M|71.18,91.08|N|To Subjugator Devo, back in Malaka'jin.|

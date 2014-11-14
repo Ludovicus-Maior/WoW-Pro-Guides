@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2014-07-25 22:01
+-- Who: Ludovicus
+-- Log: add mean
+
+-- URL: http://wow-pro.com/node/3225/revisions/26368/view
 -- Date: 2014-05-27 21:17
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "17,24".
@@ -130,7 +135,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('WkjAsh2025', "Leveling", 'Ashenvale', 'WKJezz', 'Alliance')
-WoWPro:GuideLevels(guide,17,24)
+WoWPro:GuideLevels(guide,17,24, 20.0346)
 WoWPro:GuideNextGuide(guide, 'WkjSton2530')
 WoWPro:GuideIcon(guide,"ACH",4925)
 WoWPro:GuideSteps(guide, function()

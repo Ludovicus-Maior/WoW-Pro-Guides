@@ -4,6 +4,42 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-11-07 22:01
+-- Who: Emmaleah
+-- Log: corrections per list 'o errors missing N tag x2, misplaced z tag. several missing "|"
+
+-- URL: http://wow-pro.com/node/3440/revisions/26761/view
+-- Date: 2014-10-25 18:59
+-- Who: Dez
+-- Log: In Outland: added explicit reputation check for Aldor/Scryer.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26743/view
+-- Date: 2014-10-19 23:57
+-- Who: Dez
+-- Log: In Eastern Kingdoms: Typo fixes (Acutioneer to Auctioneer, pumkin to pumpkin); Added steps to speak to Zidormi to revert Blasted Lands to pre-Iron Horde invasion, to allow accessing the two inns in this zone; Reordered steps to - at least partially - optimize pathing given the changes involved here (no flight points in the past time zone); couldn't find a flight point at Greenwarden's Grove, so changed that to a Run step; added a warning about PvP flag when going for the Horde's Wickerman.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26742/view
+-- Date: 2014-10-19 21:39
+-- Who: Dez
+-- Log: In Kalimdor: Added note that flight to Exodar was an option vs. boat to Azuremyst Isle (and fixed spelling); Added flight steps between the Isles' candy buckets (per hendo72's suggestion); Renamed Teldrassil step to Rut'theran Village, so automatic flight would trigger properly; Feathermoon Stronghold is now just Feathermoon; Fixed copy/paste error identifying Bootlegger Outpost candy bucket as Marshal's Stand; Theramore Isle is now Theramore.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26741/view
+-- Date: 2014-10-19 21:20
+-- Who: Dez
+-- Log: In Outland: Candy Buckets in Cenarion Refuge and Wildhammer Stronghold were missing the | before QID, had an extra at the end of the line.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26740/view
+-- Date: 2014-10-19 21:12
+-- Who: Dez
+-- Log: In Northrend: Fixed up a couple of flight point name changes; fixed a couple lines that were missing the |Z| flag.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26738/view
+-- Date: 2014-10-19 16:50
+-- Who: Ludovicus
+-- Log: Corrected guide registration for Hallow's End Alliance guides.
+--	Boy I messed them up!
+
+-- URL: http://wow-pro.com/node/3440/revisions/26542/view
 -- Date: 2014-06-13 00:20
 -- Who: Ludovicus
 -- Log: Missing quote
@@ -101,9 +137,9 @@
 -- Date: 2011-10-28 08:00
 -- Who: Crackerhead22
 
-local guide = WoWPro:RegisterGuide("LudoHallowPanA",'WorldEvents',"Hallows End", "Ludovicus", "Alliance")
+local guide = WoWPro:RegisterGuide("LudoHallowPanA",'WorldEvents',"Pandaria", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd","Hallow's End - Pandaria")
 WoWPro:GuideSteps(guide, function()
 return [[
 

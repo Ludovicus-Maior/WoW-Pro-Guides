@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2014-11-06 13:31
+-- Who: Fluclo
+-- Log: Fixed level tag at The Battle Resumes!
+
+-- URL: http://wow-pro.com/node/3244/revisions/26635/view
+-- Date: 2014-07-26 00:37
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3244/revisions/26355/view
 -- Date: 2014-05-27 20:46
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "34,39".
@@ -122,7 +131,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('BitWes3540', "Leveling", 'Western Plaguelands', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,34,39)
+WoWPro:GuideLevels(guide,34,39, 35)
 WoWPro:GuideNextGuide(guide, 'CraEas4045')
 WoWPro:GuideIcon(guide,"ACH",4893)
 WoWPro:GuideSteps(guide, function()
@@ -335,7 +344,8 @@ A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
 A Zen'Kiki and the Cultists|QID|26955|M|48.93,54.76|N|From Adrine Towhide.|
 T Memories from a Lost Past|QID|27017|M|50.60,52.60|N|To Del Gahrron.|
 
-A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.| ;LVL|38|
+L Level 38 |QID|27197|N|You need to be Level 38 to continue with this guide.|LVL|38|
+A The Battle Resumes!|QID|27197|M|50.39,52.70|N|From Durnt Brightfalcon.|
 
 C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|S|
 C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill Instructor Malicia and loot the orders.|

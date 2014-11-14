@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_silverpine_forest
+-- Date: 2014-11-08 06:37
+-- Who: Emmaleah
+-- Log: Delete Dup U on C Pyrewood's Fall
+
+-- URL: http://wow-pro.com/node/3219/revisions/26444/view
 -- Date: 2014-06-02 15:00
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -277,7 +282,7 @@ C Lessons in Fear|QID|27548|M|45.17,72.75|N|Kill any 7th Legion Scout you see.|S
 L Level 21|QID|27548|LVL|21|N|You should be around level 21 by this point.|
 N Pyrewood Chapel|QID|27550|QO|Pyrewood Chapel torched: 1/1|M|46.48,73.47|N|Go here and torch the Chapel.|U|61374|
 N Pyrewood Inn|QID|27550|QO|Pryewood Inn torched: 1/1|M|45.69,72.29|N|Torch the Inn.|U|61374|
-C Pyrewood's Fall|QID|27550|U|61374|M|43.6,73.15|U|61374|N|Torch the Town Hall.|
+C Pyrewood's Fall|QID|27550|M|43.6,73.15|U|61374|N|Torch the Town Hall.|
 C Of No Consequence|QID|27547|M|43.89,74.43|N|Talk to any Cowering Troop you come across.|US|
 C Lessons in Fear|QID|27548|M|45.17,72.75|N|Kill any 7th Legion Scout you see.|US|
 T Lessons in Fear|QID|27548|N|To Lord Walden, who is following you.|

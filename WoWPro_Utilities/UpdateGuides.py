@@ -82,6 +82,10 @@ class FindGuides(HTMLParser):
             return
         if tag == "img" :
             for attr in attrs:
+                if attr[0] == "src" and re.search("(Expansion)",attr[1]):
+                    expand = FindGuides(urlparse.urljoin(self._root,self._href))
+                    self._list = self._list + expand.GuidesList()
+                    return
                 if attr[0] == "src" and re.search("(Button)|(open.png)",attr[1]):
                     self._list.append(urlparse.urljoin(self._root,self._href))
                     return
@@ -96,6 +100,7 @@ class FindGuides(HTMLParser):
         while( self._lump != ""): 
             self.feed(self._lump)
             self._lump = self._rootHandle.read()
+        print "# URL yielded %d items" % len(self._list)
         return self._list
 
 Guides = {}

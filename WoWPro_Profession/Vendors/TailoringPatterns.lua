@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tailoring_patterns
+-- Date: 2014-11-08 20:23
+-- Who: Ludovicus
+-- Log: Chnage Shrine Z
+
+-- URL: http://wow-pro.com/node/3573/revisions/25913/view
 -- Date: 2014-03-06 23:52
 -- Who: Ludovicus
 -- Log: Zone tag corrections.
@@ -70,26 +75,26 @@ B Imbued Netherweave Robe|QID|990026777|RECIPE|26777|M|55.90,58.20|Z|Shadowmoon 
 B Imbued Netherweave Tunic|QID|990026778|RECIPE|26778|M|55.90,58.20|Z|Shadowmoon Valley|P|Tailoring;197;360|N|Limited quantity sold by Arrond in Shadowmoon Valley.|
 B Soulcloth Gloves|QID|990026779|RECIPE|26779|M|57.00,39.60|Z|Nagrand|FACTION|Horde|P|Tailoring;197;355|N|Limited quantity sold by Mathar G'ochar in Nagrand.|
 B Soulcloth Gloves|QID|990026779|RECIPE|26779|M|53.30,71.90|Z|Nagrand|FACTION|Alliance|P|Tailoring;197;355|N|Limited quantity sold by Borto in Nagrand.|
-B Contender's Silk Cowl|QID|990125531|RECIPE|125531|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;590|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Silk Cowl|QID|990125531|RECIPE|125531|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;590|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Silk Amice|QID|990125532|RECIPE|125532|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;575|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Silk Amice|QID|990125532|RECIPE|125532|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;575|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Silk Raiment|QID|990125533|RECIPE|125533|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;590|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Silk Raiment|QID|990125533|RECIPE|125533|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;590|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Silk Pants|QID|990125535|RECIPE|125535|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Silk Pants|QID|990125535|RECIPE|125535|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Silk Cuffs|QID|990125536|RECIPE|125536|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;555|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Silk Cuffs|QID|990125536|RECIPE|125536|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;555|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Silk Footwraps|QID|990125537|RECIPE|125537|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Silk Footwraps|QID|990125537|RECIPE|125537|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Satin Amice|QID|990125540|RECIPE|125540|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;575|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Satin Amice|QID|990125540|RECIPE|125540|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;575|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Satin Pants|QID|990125543|RECIPE|125543|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Satin Pants|QID|990125543|RECIPE|125543|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Satin Cuffs|QID|990125544|RECIPE|125544|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;555|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Satin Cuffs|QID|990125544|RECIPE|125544|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;555|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Satin Footwraps|QID|990125545|RECIPE|125545|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Satin Footwraps|QID|990125545|RECIPE|125545|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Silk Cowl|QID|990125531|RECIPE|125531|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;590|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Silk Cowl|QID|990125531|RECIPE|125531|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;590|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Silk Amice|QID|990125532|RECIPE|125532|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;575|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Silk Amice|QID|990125532|RECIPE|125532|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;575|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Silk Raiment|QID|990125533|RECIPE|125533|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;590|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Silk Raiment|QID|990125533|RECIPE|125533|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;590|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Silk Pants|QID|990125535|RECIPE|125535|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Silk Pants|QID|990125535|RECIPE|125535|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Silk Cuffs|QID|990125536|RECIPE|125536|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;555|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Silk Cuffs|QID|990125536|RECIPE|125536|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;555|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Silk Footwraps|QID|990125537|RECIPE|125537|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Silk Footwraps|QID|990125537|RECIPE|125537|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Satin Amice|QID|990125540|RECIPE|125540|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;575|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Satin Amice|QID|990125540|RECIPE|125540|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;575|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Satin Pants|QID|990125543|RECIPE|125543|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Satin Pants|QID|990125543|RECIPE|125543|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Satin Cuffs|QID|990125544|RECIPE|125544|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;555|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Satin Cuffs|QID|990125544|RECIPE|125544|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;555|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Satin Footwraps|QID|990125545|RECIPE|125545|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Satin Footwraps|QID|990125545|RECIPE|125545|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
 B Festival Dress|QID|990026403|RECIPE|26403|M|54.00,35.40|Z|Moonglade|P|Tailoring;197;250|N|Sold by Fariel Starsong in Moonglade.\nBind on Pickup.|
 B Festival Suit|QID|990026407|RECIPE|26407|M|54.00,35.40|Z|Moonglade|P|Tailoring;197;250|N|Sold by Fariel Starsong in Moonglade.\nBind on Pickup.|
 B Icy Cloak|QID|990003862|RECIPE|3862|M|35.20,30.80|Z|Dustwallow Marsh|FACTION|Horde|P|Tailoring;197;200|N|Limited quantity sold by Ghok'kah in Dustwallow Marsh.|
@@ -104,18 +109,18 @@ B Blue Linen Robe|QID|990007633|RECIPE|7633|M|60.60,36.90|Z|Darnassus|FACTION|Al
 B Blue Linen Robe|QID|990007633|RECIPE|7633|M|83.30,66.70|Z|Elwynn Forest|FACTION|Alliance|P|Tailoring;197;70|N|Limited quantity sold by Drake Lindgren in Elwynn Forest.|
 B Blue Linen Robe|QID|990007633|RECIPE|7633|M|67.10,73.50|Z|Northern Barrens|P|Tailoring;197;70|N|Limited quantity sold by Ranik in Northern Barrens.|
 B Crimson Silk Robe|QID|990008802|RECIPE|8802|M|50.70,28.70|Z|Tanaris|P|Tailoring;197;205|N|Limited quantity sold by Vizzklick in Tanaris.|
-B Contender's Satin Belt|QID|990125546|RECIPE|125546|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Satin Belt|QID|990125546|RECIPE|125546|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Satin Handwraps|QID|990125542|RECIPE|125542|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Satin Handwraps|QID|990125542|RECIPE|125542|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Satin Raiment|QID|990125541|RECIPE|125541|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;590|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Satin Raiment|QID|990125541|RECIPE|125541|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;590|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Satin Cowl|QID|990125539|RECIPE|125539|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;590|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Satin Cowl|QID|990125539|RECIPE|125539|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;590|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Silk Belt|QID|990125538|RECIPE|125538|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Silk Belt|QID|990125538|RECIPE|125538|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Silk Handwraps|QID|990125534|RECIPE|125534|M|29.80,54.00|Z|Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Silk Handwraps|QID|990125534|RECIPE|125534|M|67.60,46.20|Z|Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Satin Belt|QID|990125546|RECIPE|125546|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Satin Belt|QID|990125546|RECIPE|125546|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Satin Handwraps|QID|990125542|RECIPE|125542|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Satin Handwraps|QID|990125542|RECIPE|125542|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Satin Raiment|QID|990125541|RECIPE|125541|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;590|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Satin Raiment|QID|990125541|RECIPE|125541|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;590|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Satin Cowl|QID|990125539|RECIPE|125539|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;590|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Satin Cowl|QID|990125539|RECIPE|125539|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;590|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Silk Belt|QID|990125538|RECIPE|125538|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Silk Belt|QID|990125538|RECIPE|125538|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Silk Handwraps|QID|990125534|RECIPE|125534|M|29.80,54.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Tailoring;197;565|N|Sold by Esha the Loommaiden in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Silk Handwraps|QID|990125534|RECIPE|125534|M|67.60,46.20|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Tailoring;197;565|N|Sold by Raishen the Needle in Shrine of Seven Stars.\nBind on Pickup.|
 B Powerful Ghostly Spellthread|QID|990075310|RECIPE|75310|M|53.30,81.70|Z|Stormwind City|FACTION|Alliance|P|Tailoring;197;525|N|Sold by Alexandra Bolero in Stormwind City.\nBind on Pickup.|
 B Powerful Ghostly Spellthread|QID|990075310|RECIPE|75310|M|70.60,30.10|Z|Undercity|FACTION|Horde|P|Tailoring;197;525|N|Sold by Millie Gregorian in Undercity.\nBind on Pickup.|
 B Powerful Ghostly Spellthread|QID|990075310|RECIPE|75310|M|64.50,68.50|Z|Thunder Bluff|FACTION|Alliance|P|Tailoring;197;525|N|Sold by Neii in Thunder Bluff.\nBind on Pickup.|

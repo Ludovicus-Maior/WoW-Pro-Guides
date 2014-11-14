@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dalaran_cooking_and_fishing_dalies
+-- Date: 2014-11-07 20:45
+-- Who: Fluclo
+-- Log: Fixed coord tag for Bloated Slippery Eel
+
+-- URL: http://wow-pro.com/node/3477/revisions/26856/view
+-- Date: 2014-11-07 20:44
+-- Who: Fluclo
+-- Log: Added missing |M| tag
+
+-- URL: http://wow-pro.com/node/3477/revisions/26555/view
 -- Date: 2014-07-06 15:38
 -- Who: Ludovicus
 -- Log: Added name/faction.
@@ -62,7 +72,7 @@ T Blood Is Thicker|QID|13833|M|52.6,64.8|N|To Marcia Chase|
 C Dangerously Delicious|QID|13834|M|79.6,43.0;50.2,81.2|Z|Wintergrasp|CN|N|Pick your spot and fish away.|L|45904 10|
 T Dangerously Delicious|QID|13834|M|52.6,64.8|N|To Marcia Chase|
 
-C Bloated Slippery Eel|QID|13836|M|36.8,37.0|65.00,64.45;64.00,66.30;61.20,67.48;65.31,60.10|N|Go to the Violet hold and find the eel that ate the arm.|L|45328|
+C Bloated Slippery Eel|QID|13836|M|36.8,37.0;65.00,64.45;64.00,66.30;61.20,67.48;65.31,60.10|N|Go to the Violet hold and find the eel that ate the arm.|L|45328|CN|
 C Severed Arm|QID|13836|U|45328|L|45323|N|Gut the Eel to get the arm.|
 T Disarmed!|QID|13836|M|36.8,37.0|N|To Olisarra the Kind|
 

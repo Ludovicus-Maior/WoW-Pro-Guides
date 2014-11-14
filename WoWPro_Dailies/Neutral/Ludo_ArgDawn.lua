@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
+-- Date: 2014-07-25 21:38
+-- Who: Ludovicus
+-- Log: adj mean
+
+-- URL: http://wow-pro.com/node/3479/revisions/26586/view
+-- Date: 2014-07-20 19:27
+-- Who: Ludovicus
+-- Log: Added faction for Argent Dawn
+
+-- URL: http://wow-pro.com/node/3479/revisions/26554/view
 -- Date: 2014-07-06 15:36
 -- Who: Ludovicus
 -- Log: Added level and faction
@@ -40,7 +50,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoArgDawn",'Dailies', "Eastern Plaguelands", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Argent Dawn"
+WoWPro.Dailies:GuideFaction(guide,529) --  "Argent Dawn"
 WoWPro:GuideSteps(guide, function()
 return [[
 

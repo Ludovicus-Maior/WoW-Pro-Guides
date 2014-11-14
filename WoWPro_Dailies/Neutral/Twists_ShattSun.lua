@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
+-- Date: 2014-11-08 00:20
+-- Who: Ludovicus
+-- Log: Corrections according to Ludo
+
+-- URL: http://wow-pro.com/node/3470/revisions/26562/view
 -- Date: 2014-07-06 15:47
 -- Who: Ludovicus
 -- Log: Added levels
@@ -100,7 +105,7 @@ C Don't Stop Now....|QID|11536|N|Open Boxes.|US|
 T Disrupt the Greengill Coast|QID|11541|M|53.81,34.20|N|To Captain Valindria.|
 T Don't Stop Now....|QID|11536|M|50.56,40.69|N|To Smith Hauthaa.|
 A Ata'mal Armaments|QID|11544|M|50.56,40.69|N|From Smith Hauthaa.|
-A Crush the Dawnblade|QID|11540|M|49.4,40.2|Isle of Quel'Danas|N|From Magister Ilastar|
+A Crush the Dawnblade|QID|11540|M|49.4,40.2|N|From Magister Ilastar|
 
 A The Battle Must Go On|QID|11537|M|47.68,34.98|N|From Harbinger Inuuro.|
 
@@ -142,7 +147,7 @@ A Rediscovering Your Roots|QID|11521|M|51.49,32.47|N|From Mar'nah.|
 
 A The Missing Magistrix|QID|11526|M|47.44,30.48|Z|Isle of Quel'Danas|N|From Captain Theris Dawnhearth|
 R Portal to Hellfire|QID|11526|M|48.5,44.4|Z|Isle of Quel'Danas|U|34420|N|Use the scroll when you are close to it. Skip ahead in the guide till you get to Magistrix Seyla this one time.|
-T The Missing Magistrix|QID|11526|58.2,17.6|Z|Hellfire Peninsula|N|From Magistrix Seyla, in Hellfire Peninsula.|
+T The Missing Magistrix|QID|11526|M|58.2,17.6|Z|Hellfire Peninsula|N|From Magistrix Seyla, in Hellfire Peninsula.|
 
 R Shattrath City|QID|11877|N|Use Darnarian's Scroll of Teleportation to return to Shattrath City from Hellfire Peninsula.|Z|Shattrath City|U|35230|
 
@@ -160,7 +165,7 @@ A Maintaining the Sunwell Portal|QID|11514|M|49.24,42.57|N|From Exarch Nasuun.|Z
 
 F Oshu'gun|QID|11880|N|Get to Oshu'gun in Nagrand.  You know to get there.|
 C The Multiphase Survey|QID|11880|M|44.66,70.40|U|35233|N|Equip these once you arrive.\n\nLook for orange balls.|Z|Nagrand|
-N Time to take off your goggles ...|QID|11880|Find your head gear and put it back on.  Click when done.|
+N Time to take off your goggles ...|QID|11880|N|Find your head gear and put it back on.  Click when done.|
 
 F Evergrove|QID|11514|N|Fly to Evergrove.|
 K Bash'ir Raider, Spell-Thief, or Arcanist|QID|11514|M|49.50,20.57|N|Your looking for the Bash'ir Phasing Device.|L|34248|Z|Blade's Edge Mountains|

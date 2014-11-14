@@ -53,6 +53,9 @@ function WoWPro.Recorder:RegisterSavedGuides()
 	local myUFG = UnitFactionGroup("player")
 	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
 		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
+		if type(guideInfo.sequence) == "table" then
+		    guideInfo.sequence = table.concat(guideInfo.sequence,"\n")
+		end
 		WoWPro.Guides[GID] = {
 			guidetype = guideInfo.guidetype,
 			zone = guideInfo.zone,
@@ -180,6 +183,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			WoWPro:AutoCompleteQuestUpdate()
 			
 		else
+		    WoWPro.Recorder:dbp("Got PQLU and looking for changed quest status")
 			for QID, questInfo in pairs(WoWPro.QuestLog) do
 				if questInfo.complete then 
 					if not WoWPro.oldQuests[QID].complete then
@@ -199,6 +203,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 							zone = zonetag,
 							noncombat = nc,
 							use = questInfo.use,
+							questtext = questInfo.leaderBoard[1],
 							class = checkClassQuest(QID,WoWPro.QuestLog)
 						}
 						WoWPro.Recorder:AddStep(stepInfo)
@@ -213,12 +218,17 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 end
 
 function WoWPro.Recorder.PostQuestLogUpdate()
-    if WoWPro.Recorder.LoadingGuide then
+    if not WoWPro.GuideLoaded then
         WoWPro.Recorder:dbp("Suppressing PostQuestLogUpdate() after LoadGuide()")
-        WoWPro.Recorder.LoadingGuide = false
+        WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
         return
     end
     WoWPro.Recorder.eventHandler(nil,"POST_QUEST_LOG_UPDATE")
+end
+
+
+function WoWPro.Recorder.PostGuideLoad()
+    WoWPro.Recorder.SelectedStep = nil   
 end
 
 function WoWPro.Recorder:RegisterEvents()
@@ -233,12 +243,12 @@ function WoWPro.Recorder:RegisterEvents()
 end
 
 function WoWPro.Recorder:RowUpdate(offset)
-	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.stepcount or 0
+	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
 	WoWPro.Recorder.RowDropdownMenu = {}
 	for i,row in pairs(WoWPro.rows) do
 		local dropdown = {
 			{text = "Move Up", func = function()
-				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount or 0
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == 1 then return end
 				for _,tag in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
@@ -248,11 +258,11 @@ function WoWPro.Recorder:RowUpdate(offset)
 					table.remove(WoWPro[tag], pos+1)
 				end
 				WoWPro.Recorder.SelectedStep = pos-1
+				WoWPro.Recorder:CheckpointCurrentGuide("MoveUp")
 				WoWPro:UpdateGuide()
-				WoWPro.Recorder:SaveGuide()
 			end},
 			{text = "Move Down", func = function()
-				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount or 0 
+				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == WoWPro.stepcount then return end
 				for _,tag in pairs(WoWPro.Tags) do 
 					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
@@ -262,8 +272,8 @@ function WoWPro.Recorder:RowUpdate(offset)
 					table.remove(WoWPro[tag], pos)
 				end
 				WoWPro.Recorder.SelectedStep = pos+1
+				WoWPro.Recorder:CheckpointCurrentGuide("MoveDown")
 				WoWPro:UpdateGuide()
-				WoWPro.Recorder:SaveGuide()
 			end},
 			{text = "Clone Step", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
@@ -272,8 +282,8 @@ function WoWPro.Recorder:RowUpdate(offset)
 					table.insert(WoWPro[tag], pos+1, WoWPro[tag][pos])
 				end
 				WoWPro.stepcount = WoWPro.stepcount+1
+			    WoWPro.Recorder:CheckpointCurrentGuide("Clone")
 				WoWPro:UpdateGuide()
-				WoWPro.Recorder:SaveGuide()
 			end}
 		}
 		WoWPro.Recorder.RowDropdownMenu[i] = dropdown
@@ -293,12 +303,17 @@ function WoWPro.Recorder:RowLeftClick(i)
 end
 		
 function WoWPro.Recorder:AddStep(stepInfo,position)
+    if not WoWPro.GuideLoaded then
+        WoWPro.Recorder:Warning("Hey, no guide is loaded!")
+        return
+    end
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
+	WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos, stepInfo.action, stepInfo.step)
 	for i,tag in pairs(WoWPro.Tags) do 
 		value = stepInfo[tag]
 		if not value then value = false end
 		table.insert(WoWPro[tag], pos+1, value)
-		WoWPro.Recorder:dbp("Adding tag "..tag.." at position "..pos+1)
+--		WoWPro.Recorder:dbp("Adding tag "..tag.." at position "..pos+1)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	if WoWPro.Recorder.SelectedStep then
@@ -306,38 +321,51 @@ function WoWPro.Recorder:AddStep(stepInfo,position)
 	else
 	    WoWPro.Recorder.SelectedStep = 1
 	end
+	WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
 	WoWPro:UpdateGuide()
-	WoWPro.Recorder:SaveGuide()
 end
 
 function WoWPro.Recorder:RemoveStep(position)
+    if not WoWPro.GuideLoaded then
+        WoWPro.Recorder:Warning("Hey, no guide is loaded!")
+        return
+    end
 	local pos = position or WoWPro.stepcount
+	WoWPro.Recorder:dbp("Deleteing step %d %s [%s]",pos, WoWPro.action, WoWPro.step)
 	for i,tag in pairs(WoWPro.Tags) do 
 		table.remove(WoWPro[tag], pos)
-		WoWPro.Recorder:dbp("Removing tag "..tag.." at position "..pos)
+--		WoWPro.Recorder:dbp("Removing tag "..tag.." at position "..pos)
 	end
 	WoWPro.stepcount = WoWPro.stepcount-1
 	WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep - 1
+	WoWPro.Recorder:CheckpointCurrentGuide("RemoveStep")
 	WoWPro:UpdateGuide()
-	WoWPro.Recorder:SaveGuide()
 end
 
-function WoWPro.Recorder:SaveGuide(window)
+---This is what the header needs to look like
+---local guide = WoWPro:RegisterGuide('FlucloPanda', "Leveling", 'TheWanderingIsle', 'Fluclo', 'Neutral')
+---WoWPro:GuideLevels(guide,1,12,1.0531)
+---WoWPro:GuideNextGuide(guide, 'WkjLoc1220|BitAzs1220')
+---WoWPro:GuideSteps(guide, function()
+---return [[
 
+function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	local GID = WoWProDB.char.currentguide
-	
-	local header = "WoWPro."
-	    ..WoWPro.Guides[GID].guidetype
-	    ..":RegisterGuide('"
+
+	local header = "local guide = WoWPro:RegisterGuide('"
 		..GID.."', '"
+		..WoWPro.Guides[GID].guidetype.."', '"
 		..WoWPro.Guides[GID].zone.."', '"
 		..WoWPro.Guides[GID].author.."', '"
-		..WoWPro.Guides[GID].startlevel.."', '"
-		..WoWPro.Guides[GID].endlevel.."', '"
-		..WoWPro.Guides[GID].nextGID.."', '"
-		..UnitFactionGroup("player").."', function() \nreturn [[\n"
+		..UnitFactionGroup("player").."')\n"
+		.."WoWPro:GuideLevels(guide,"
+		..WoWPro.Guides[GID].startlevel..", "
+		..WoWPro.Guides[GID].endlevel..")\n"
+		.."WoWPro:GuideNextGuide(guide, '"
+		..WoWPro.Guides[GID].nextGID.."')\n"
+		.."WoWPro:GuideSteps(guide, function()\nreturn [[\n"
 		
-	local sequence = ""
+	local sequence = {}
 		
 	function addTag(line, tag, value)
 		line = line..tag.."\|"
@@ -349,39 +377,39 @@ function WoWPro.Recorder:SaveGuide(window)
 	
 	for i,action in pairs(WoWPro.action) do
 	
-		sequence = sequence.."\n"
-			..action.." "
-			..WoWPro.step[i].."|"
+		local line = action.." "..WoWPro.step[i].."|"
 		
-		if WoWPro.QID[i] then sequence = addTag(sequence, "QID", tostring(WoWPro.QID[i])) end
-		if WoWPro.optional[i] then sequence = addTag(sequence, "O") end
-		if WoWPro.sticky[i] then sequence = addTag(sequence, "S") end
-		if WoWPro.unsticky[i] then sequence = addTag(sequence, "US") end
-		if WoWPro.rank[i] then sequence = addTag(sequence, "RANK", WoWPro.rank[i]) end
-		if WoWPro.noncombat[i] then sequence = addTag(sequence, "NC") end
-		if WoWPro.level[i] then sequence = addTag(sequence, "LVL", WoWPro.level[i]) end
-		if WoWPro.prof[i] then sequence = addTag(sequence, "P", WoWPro.prof[i]) end
-		if WoWPro.waypcomplete[i] == 1 then sequence = addTag(sequence, "CC")
-		elseif WoWPro.waypcomplete[i] == 2 then sequence = addTag(sequence, "CS") end
-		if WoWPro.prereq[i] then sequence = addTag(sequence, "PRE", WoWPro.prereq[i]) end
-		if WoWPro.leadin[i] then sequence = addTag(sequence, "LEAD", WoWPro.leadin[i]) end
-		if WoWPro.use[i] then sequence = addTag(sequence, "U", WoWPro.use[i]) end
+		if WoWPro.QID[i] then line = addTag(line, "QID", tostring(WoWPro.QID[i])) end
+		if WoWPro.optional[i] then line = addTag(line, "O") end
+		if WoWPro.sticky[i] then line = addTag(line, "S") end
+		if WoWPro.unsticky[i] then line = addTag(line, "US") end
+		if WoWPro.rank[i] then line = addTag(line, "RANK", WoWPro.rank[i]) end
+		if WoWPro.noncombat[i] then line = addTag(line, "NC") end
+		if WoWPro.level[i] then line = addTag(line, "LVL", WoWPro.level[i]) end
+		if WoWPro.prof[i] then line = addTag(line, "P", WoWPro.prof[i]) end
+		if WoWPro.waypcomplete[i] == 1 then line = addTag(line, "CC")
+		elseif WoWPro.waypcomplete[i] == 2 then line = addTag(line, "CS") end
+		if WoWPro.prereq[i] then line = addTag(line, "PRE", WoWPro.prereq[i]) end
+		if WoWPro.leadin[i] then line = addTag(line, "LEAD", WoWPro.leadin[i]) end
+		if WoWPro.use[i] then line = addTag(line, "U", WoWPro.use[i]) end
 		if WoWPro.lootitem[i] then
-			sequence = sequence.."L|"..WoWPro.lootitem[i]
+			line = line.."L|"..WoWPro.lootitem[i]
 			if WoWPro.lootqty[i] then
-				sequence = sequence.." "..WoWPro.lootqty[i].."|"
+				line = line.." "..WoWPro.lootqty[i].."|"
 			else
-				sequence = sequence.."|"
+				line = line.."|"
 			end
 		end
-		if WoWPro.target[i] then sequence = addTag(sequence, "T", WoWPro.target[i]) end
-		if WoWPro.questtext[i] then sequence = addTag(sequence, "QO", WoWPro.questtext[i]) end
-		if WoWPro.map[i] then sequence = addTag(sequence, "M", WoWPro.map[i]) end
-		if WoWPro.zone[i] then sequence = addTag(sequence, "Z", WoWPro.zone[i]) end
-		if WoWPro.note[i] then sequence = addTag(sequence, "N", WoWPro.note[i]) end
+		if WoWPro.target[i] then line = addTag(line, "T", WoWPro.target[i]) end
+		if WoWPro.questtext[i] then line = addTag(line, "QO", WoWPro.questtext[i]) end
+		if WoWPro.map[i] then line = addTag(line, "M", WoWPro.map[i]) end
+		if WoWPro.zone[i] then line = addTag(line, "Z", WoWPro.zone[i]) end
+		if WoWPro.note[i] then line = addTag(line, "N", WoWPro.note[i]) end
+		
+		table.insert(sequence,line)
 	end
 	
-	local guideString = header..sequence.."\n]]\n\nend)"
+	local guideString = header..table.concat(sequence,"\n").."\n]]\n\nend)"
 	
 	WoWPro_RecorderDB[GID] = {
 		guidetype = WoWPro.Guides[GID].guidetype,
@@ -393,7 +421,16 @@ function WoWPro.Recorder:SaveGuide(window)
 		nextGID = WoWPro.Guides[GID].nextGID,
 		faction = UnitFactionGroup("player")
 	}
-	
+	WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)
+	return guideString
+end
+
+function WoWPro.Recorder:SaveGuide(window)
+    if not WoWPro.GuideLoaded then
+        WoWPro.Recorder:Warning("Hey, no guide is loaded!")
+        return
+    end
+    local guideString = WoWPro.Recorder:CheckpointCurrentGuide("Save")
 	-- Save Guide Dialog --
 	config:RegisterOptionsTable("WoWPro Recorder - Save Guide", {
 		name = "Save Guide",
@@ -402,7 +439,7 @@ function WoWPro.Recorder:SaveGuide(window)
 			guidetype = {
 				order = 0,
 				type = "input",
-				multiline = true,
+				multiline = 20,
 				name = "Copy the following and paste it into a guide file:",
 				desc = "",
 				width = "full",
@@ -412,7 +449,7 @@ function WoWPro.Recorder:SaveGuide(window)
 			},
 		},
 	})
-	dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 500, 200)
+	dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 750, 400)
 	if window then dialog:Open("WoWPro Recorder - Save Guide", WoWPro.DialogFrame) end
 
 end

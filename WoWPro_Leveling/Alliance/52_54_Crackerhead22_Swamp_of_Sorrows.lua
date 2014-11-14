@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_alliance
+-- Date: 2014-08-12 18:39
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3249/revisions/26611/view
+-- Date: 2014-07-25 21:55
+-- Who: Ludovicus
+-- Log: Add mean
+
+-- URL: http://wow-pro.com/node/3249/revisions/26362/view
 -- Date: 2014-05-27 21:05
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "51,54".
@@ -70,7 +79,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('CraSwa5254', "Leveling", 'Swamp of Sorrows', 'Crackerhead22', 'Alliance')
-WoWPro:GuideLevels(guide,51,54)
+WoWPro:GuideLevels(guide,51,54,51.782)
 WoWPro:GuideNextGuide(guide, 'CraBla5458')
 WoWPro:GuideIcon(guide,"ACH",4904)
 WoWPro:GuideSteps(guide, function()
@@ -103,9 +112,11 @@ R Sorrowmurk|QID|27597|M|72.02,19.39;76.69,31.8;82.99,39.25|CC|N|Grab some more 
 T Crazy Larry|QID|27597|M|83.86,39.98|N|To Crazy Larry.|
 A Kill Gil|QID|27598|M|83.86,39.98|N|From Crazy Larry.|
 A Can't Take It With Them|QID|27599|M|83.86,39.98|
-C Can't Take It With Them|QID|27599|S|M|93.47,25.96|N|Loot the Deceased Bogpaddle Privateer corpses.|
-C Kill Gil|QID|27598|M|90.56,30.70|N|Kill 7 Gilblin Stalkers.|
-C Can't Take It With Them|QID|27599|US|M|93.47,25.96|N|Loot the Deceased Bogpaddle Privateer corpses.|
+
+C Kill Gil|QID|27598|S|M|90.56,30.70|N|Kill 7 Gilblin Stalkers.|
+C Can't Take It With Them|QID|27599|M|93.47,25.96|N|Loot the Deceased Bogpaddle Privateer corpses.|NC|
+C Kill Gil|QID|27598|US|M|90.56,30.70|N|Kill 7 Gilblin Stalkers.|
+
 T Kill Gil|QID|27598|M|83.86,40.04|N|To Crazy Larry.|
 T Can't Take It With Them|QID|27599|M|83.86,40.04|N|To Crazy Larry.|
 

@@ -4,6 +4,42 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2014-11-07 22:01
+-- Who: Emmaleah
+-- Log: corrections per list 'o errors missing N tag x2, misplaced z tag. several missing "|"
+
+-- URL: http://wow-pro.com/node/3440/revisions/26761/view
+-- Date: 2014-10-25 18:59
+-- Who: Dez
+-- Log: In Outland: added explicit reputation check for Aldor/Scryer.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26743/view
+-- Date: 2014-10-19 23:57
+-- Who: Dez
+-- Log: In Eastern Kingdoms: Typo fixes (Acutioneer to Auctioneer, pumkin to pumpkin); Added steps to speak to Zidormi to revert Blasted Lands to pre-Iron Horde invasion, to allow accessing the two inns in this zone; Reordered steps to - at least partially - optimize pathing given the changes involved here (no flight points in the past time zone); couldn't find a flight point at Greenwarden's Grove, so changed that to a Run step; added a warning about PvP flag when going for the Horde's Wickerman.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26742/view
+-- Date: 2014-10-19 21:39
+-- Who: Dez
+-- Log: In Kalimdor: Added note that flight to Exodar was an option vs. boat to Azuremyst Isle (and fixed spelling); Added flight steps between the Isles' candy buckets (per hendo72's suggestion); Renamed Teldrassil step to Rut'theran Village, so automatic flight would trigger properly; Feathermoon Stronghold is now just Feathermoon; Fixed copy/paste error identifying Bootlegger Outpost candy bucket as Marshal's Stand; Theramore Isle is now Theramore.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26741/view
+-- Date: 2014-10-19 21:20
+-- Who: Dez
+-- Log: In Outland: Candy Buckets in Cenarion Refuge and Wildhammer Stronghold were missing the | before QID, had an extra at the end of the line.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26740/view
+-- Date: 2014-10-19 21:12
+-- Who: Dez
+-- Log: In Northrend: Fixed up a couple of flight point name changes; fixed a couple lines that were missing the |Z| flag.
+
+-- URL: http://wow-pro.com/node/3440/revisions/26738/view
+-- Date: 2014-10-19 16:50
+-- Who: Ludovicus
+-- Log: Corrected guide registration for Hallow's End Alliance guides.
+--	Boy I messed them up!
+
+-- URL: http://wow-pro.com/node/3440/revisions/26542/view
 -- Date: 2014-06-13 00:20
 -- Who: Ludovicus
 -- Log: Missing quote
@@ -101,18 +137,20 @@
 -- Date: 2011-10-28 08:00
 -- Who: Crackerhead22
 
-local guide = WoWPro:RegisterGuide("TwiHollKAL",'WorldEvents',"Hallow's End", "Twists", "Alliance")
+local guide = WoWPro:RegisterGuide("TwiHollKAL",'WorldEvents',"Kalimdor", "Twists", "Alliance")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd")
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd","Hallow's End - Kalimdor")
 WoWPro:GuideSteps(guide, function()
 return [[
 
 F Teldrassil|QID|12337|N|Start in Teldrassil|Z|Teldrassil|
-b Azuremyst Isle|QID|12337|M|52.08,89.47|N|Now take the boat to Azuremyste Isle.|Z|Teldrassil|
+b Azuremyst Isle|QID|12337|M|52.08,89.47|N|Now take the boat to Azuremyst Isle, or Fly to Exodar.|Z|Teldrassil|
 A Candy Bucket |QID|12337|M|59.3,18.5|Z|The Exodar|N|The Exodar|
+F Azure Watch|QID|12333|M|49.71,49.11|Z|Azuremyst Isle|U|37586|
 A Candy Bucket |QID|12333|M|48.5,49.21|Z|Azuremyst Isle|U|37586|N|Azure Watch|
+F Blood Watch|QID|12341|M|57.68,53.87|Z|Bloodmyst Isle|U|37586|
 A Candy Bucket |QID|12341|M|55.68,59.85|Z|Bloodmyst Isle|N|Blood Watch|
-F Teldrassil|QID|28951|M|55.40,88.50|N|Return to Teldrassil.|Z|Teldrassil|U|37586|
+F Rut'theran Village|QID|28951|M|55.40,88.50|N|Return to Rut'theran Village.|Z|Teldrassil|U|37586|
 R Enter Darnassus|QID|12334|M|55.10,88.52|Z|Teldrassil|
 A Candy Bucket |QID|12334|M|62.16,33.01|Z|Darnassus|N|Darnassus|
 A Dancing for Marzipan|QID|8357|M|62.31,32.92|Z|Darnassus|
@@ -143,8 +181,8 @@ A Candy Bucket |QID|29012|M|39.52,32.79|Z|Stonetalon Mountains|N|Thal'darah Over
 F Farwatcher's Glen|QID|29013|M|32.02,61.79|Z|Stonetalon Mountains|U|37586|
 A Candy Bucket |QID|29013|M|31.50,60.68|Z|Stonetalon Mountains|N|Farwatcher's Glen|
 
-F Northwatch Expedition Base Camp|QID||M|70.91,80.50|Z|Stonetalon Mountains|U|37586|
-A Candy Bucket |QID||M|71.04,79.14|Z|Stonetalon Mountains|N|Northwatch Expedition|
+F Northwatch Expedition Base Camp|QID|29011|M|70.91,80.50|Z|Stonetalon Mountains|U|37586|
+A Candy Bucket |QID|29011|M|71.04,79.14|Z|Stonetalon Mountains|N|Northwatch Expedition|
 F Honor's Stand|QID|29006|M|38.97,10.91|Z|Southern Barrens|U|37586|
 A Candy Bucket |QID|29006|M|38.97,10.91|Z|Southern Barrens|N|Honor's Stand|
 F Nijel's Point|QID|12348|M|64.67,10.44|Z|Desolace|U|37586|
@@ -154,8 +192,8 @@ A Candy Bucket |QID|28993|M|56.76,50.06|Z|Desolace|N|Karnum's Glade|
 F Dreamer's Rest|QID|28952|M|50.22,16.62|Z|Feralas|U|37586|
 A Candy Bucket |QID|28952|M|51.04,17.78|Z|Feralas|N|Dreamer's Rest|
 
-F Feathermoon Stronghold|QID|12350|M|46.81,45.33|Z|Feralas|U|37586|
-A Candy Bucket |QID|12350|M|46.36,45.16|Z|Feralas|N|Feathermoon Stronghold|
+F Feathermoon|QID|12350|M|46.81,45.33|Z|Feralas|U|37586|
+A Candy Bucket |QID|12350|M|46.36,45.16|Z|Feralas|N|Feathermoon|
 F Cenarion Hold|QID|12401|M|54.49,32.85|Z|Silithus|U|37586|
 A Candy Bucket |QID|12401|M|55.47,36.66|Z|Silithus|N|Cenarion Hold|
 F Marshal's Stand|QID|29018|M|56.00,64.17|Z|Un'Goro Crater|U|37586|
@@ -166,12 +204,12 @@ F Ramkahen|QID|29017|M|56.26,33.56|Z|Uldum|U|37586|
 A Candy Bucket |QID|29017|M|54.72,33.04|Z|Uldum|N|Ramkahen|
 
 F Bootlegger Outpost|QID|29014|M|55.84,60.57|Z|Tanaris|U|37586|
-A Candy Bucket |QID|29014|M|55.69,60.91|Z|Tanaris|N|Marshal's Stand|
+A Candy Bucket |QID|29014|M|55.69,60.91|Z|Tanaris|N|Bootlegger Outpost|
 F Gadgetzan|QID|12399|M|51.38,29.43|Z|Tanaris|U|37586|
 A Candy Bucket |QID|12399|M|52.58,27.13|Z|Tanaris|N|Gadgetzan|
 F Mudsprocket|QID|12398|M|42.88,72.37|Z|Dustwallow Marsh|U|37586|
 A Candy Bucket |QID|12398|M|41.90,74.11|Z|Dustwallow Marsh|N|Mudsprocket|
-F Theramore Isle|QID|12349|M|67.46,51.20|Z|Dustwallow Marsh|U|37586|
+F Theramore|QID|12349|M|67.46,51.20|Z|Dustwallow Marsh|U|37586|
 A Candy Bucket |QID|12349|M|66.55,45.32|Z|Dustwallow Marsh|N|Theramore|
 F Fort Triumph|QID|29008|M|49.14,67.88|Z|Southern Barrens|U|37586|
 A Candy Bucket |QID|29008|M|49.08,68.42|Z|Southern Barrens|N|Fort Triumph|

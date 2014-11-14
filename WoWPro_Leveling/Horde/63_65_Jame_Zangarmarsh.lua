@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
+-- Date: 2014-11-08 05:55
+-- Who: Emmaleah
+-- Log: corrections per list o' errors
+
+-- URL: http://wow-pro.com/node/3274/revisions/26454/view
 -- Date: 2014-06-02 15:20
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -142,14 +147,14 @@ C Leader of the Bloodscale |QID|9817|N|Kill Rajis Fyashe.|M|65,41|
 C A Warm Welcome |QID|9728| M|70.9,82.1|N|Kill and loot Naga for their claws.|US|
 C A Job Undone |QID|9899|N|Kill Sporewing.|M|79,46.8|
 l Withered Basidium|QID|9828|L|24484|S|N|Kill Withered Giants until you get a Withered Basidium.|M|81,36|
-l Bog Lord Tendrils|QID|9769|L|24291 6|S|M|81,36|Kill Withered Bog Lords and Withered Giants until you get 6 Bog Lord Tendrils. These are used for a quest later on.|
+l Bog Lord Tendrils|QID|9769|L|24291 3|S|M|81,36|N|Kill Withered Bog Lords and Withered Giants until you get at least 3 Bog Lord Tendrils. You need 6 for a quest later on, but you will have a chance to kill more then too.|
 T Searching for Scout Jyoba |QID|9771|M|81,36|N|To Scout Jyoba's corpse.|
 
 A Jyoba's Report |QID|9772|M|80.8,36.3|N|From Scout Jyoba's corpse.|
 C Jyoba's Report |QID|9772|N|Drops off the Withered Giants.|M|81.6,35.0|
 l Withered Basidium|QID|9828|L|24484|US|N|Kill Withered Giants until you get a Withered Basidium.|M|81,36|
 A Withered Basidium |QID|9828|U|24484|M|78.3,45.2|N|From the Withered Basidium.|
-l Bog Lord Tendrils|QID|9769|L|24291 6|US|M|81,36|Kill Withered Bog Lords and Withered Giants until you get 6 Bog Lord Tendrils. These are used for a quest later on.|
+l Bog Lord Tendrils|QID|9769|L|24291 3|US|M|81,36|N|Kill Withered Bog Lords and Withered Giants until you get 3 Bog Lord Tendrils. These are used for a quest later on.|
 T There's No Explanation for Fashion |QID|9769|M|84.4,54.3|N|To Magasha.|
 T A Job Undone |QID|9899|M|84.4,54.3|N|To Magasha.|
 T Withered Basidium |QID|9828|M|85.0,54.0|N|To Reavij.|
@@ -223,7 +228,7 @@ l Get 10 Glowcap Mushrooms |QID|9808|L|24245 10|N|If you haven't already.|US|
 C The Biggest of Them All |QID|9903|N|Mragesh is just under the surface of Serpent Lake at the northeastern tip of the isle at .|M|42,42|
 R Zabra'jin|QID|9903|N|Run to Zabra'jin.|M|32.2,49.6|
 T The Biggest of Them All |QID|9903|M|32.2,49.6|N|To Zurjaya.|
-T Familiar Fungi |QID|9708|N|South at .|M|23.3,66.2|N|To Watcher Leesa'oh.|
+T Familiar Fungi |QID|9708|M|23.3,66.2|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms |QID|9709|M|23.3,66.2|N|From Watcher Leesa'oh.|
 T The Count of the Marshes |QID|9911|M|23.3,66.2|N|To Watcher Leesa'oh.|
 N Sporeggar reputation |QID|9919|N|Go kill stuff in the Spawning Glade. We're aiming for 750/3000 neutral with Sporeggar. You subtract 750 rep for every 6 Bog Lord Tendrils or 10 Mature Spore Sacs. Once you've got this, head over to Fahssn and turn in everything you have to get to the required rep.|M|19,63|

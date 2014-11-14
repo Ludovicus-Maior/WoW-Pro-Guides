@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_twilight_highlands_horde
+-- Date: 2014-11-08 04:23
+-- Who: Emmaleah
+-- Log: Delete Dup |N| T Paving the Way
+
+-- URL: http://wow-pro.com/node/3312/revisions/26418/view
 -- Date: 2014-06-02 13:05
 -- Who: Ludovicus
 -- Log: Set Levels
@@ -424,7 +429,7 @@ C If The Key Fits|QID|28092|M|29.74,51.70|N|Head down the road to the gate.|
 T If The Key Fits|QID|28092|M|29.31,52.24|N|To Patch.|
 A Pressing Forward|QID|28093|M|29.31,52.24|N|From Patch.|
 C Paving the Way|QID|28094|M|31.16,47.67|US|N|Make sure to complete this before going too far forward to complete Pressing Forward or your squad will run off.|
-T Paving the Way|QID|28094|M|29.53,51.85|N|To Patch.|N|Make sure to complete this before going to far forward to complete Pressing Forward or your squad will run off.|
+T Paving the Way|QID|28094|M|29.53,51.85|N|To Patch. Make sure to complete this before going to far forward to complete Pressing Forward or your squad will run off.|
 C Pressing Forward|QID|28093|M|22.60,56.26|
 T Pressing Forward|QID|28093|M|22.13,56.54|N|To Calen.|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2014-11-06 12:59
+-- Who: Fluclo
+-- Log: Removed duplicate M tags from QID 9696, 9643, 9706 and 10065
+
+-- URL: http://wow-pro.com/node/3220/revisions/26400/view
 -- Date: 2014-05-30 12:15
 -- Who: Ludovicus
 -- Log: Level setting
@@ -199,7 +204,7 @@ T The Second Sample|QID|9584|N|To Harbinger Mikolaas.|M|52.6,53.23|
 A The Final Sample|QID|9585|N|From Harbinger Mikolaas.|M|52.6,53.23|
 T Intercepting the Message|QID|9779|N|To Vindicator Boros.|M|55.42,55.25|
 A Translations...|QID|9696|N|From Vindicator Boros.|M|55.42,55.25|
-T Translations...|QID|9696|M|54.4,54.4|N|To Interrogator Elysia.|M|54.4,54.4|
+T Translations...|QID|9696|M|54.4,54.4|N|To Interrogator Elysia.|
 A Audience with the Prophet|QID|9698|N|From Interrogator Elysia.|M|54.4,54.4|
 F The Exodar |QID|9698|N|Fly to The Exodar.|M|57.7,53.9|
 T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
@@ -210,7 +215,7 @@ H Blood Watch |QID|9699|M|54.43,36.39|N|If your hearth is up, use it to get back
 T Truth or Fiction|QID|9699|N|To Vindicator Boros.|M|55.42,55.25|
 A I Shoot Magic Into the Darkness|QID|9700|N|From Vindicator Boros.|M|55.42,55.25|
 r Repair/Restock |QID|10063|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
-A Constrictor Vines|QID|9643|M|55.9,57.0|N|From Tracker Lyceon.|M|55.83,56.93|
+A Constrictor Vines|QID|9643|N|From Tracker Lyceon.|M|55.83,56.93|
 A The Bear Necessities|QID|9580|N|From Tracker Lyceon.|M|55.83,56.93|
 A Explorers' League, Is That Something for Gnomes?|QID|10063|M|56.3,54.2|N|From Prospector Nachlan.|
 
@@ -253,7 +258,7 @@ C Galaen's Fate|QID|9579|N|The amulet drops off of the Blood Elves outside the C
 C The Cryo-Core|QID|9703|N|Loot Medical Supplies from the ground and from Blood Elves.|US|M|39.27,60.42|
 C Culling the Flutterers|QID|9647|N|Go between the waypoints, and kill the last Royal Blue Flutterers that you need.|US|M|47.21,32.72;43.5,36.58|CN|
 T Culling the Flutterers|QID|9647|N|To Tracker Lyceon.|M|55.83,56.93|
-T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|M|55.6,55.2|N|To Vindicator Kuros.|M|55.64,55.28|
+T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|N|To Vindicator Kuros.|M|55.64,55.28|
 A Matis the Cruel|QID|9711|N|From Vindicator Kuros.|M|55.64,55.28|
 T The Cryo-Core|QID|9703|N|To Vindicator Kuros.|M|55.64,55.28|
 A Don't Drink the Water|QID|9748|N|From Vindicator Aesom.|M|55.57,55.38|
@@ -285,7 +290,7 @@ C Matis the Cruel|QID|9711|N|Use the flare gun! When you get into range, just us
 T Vindicator's Rest|R|Draenei|QID|9760|N|To Vindicator Corin.|M|30.6,46.6|
 A Fouled Water Spirits|QID|10067|N|From Vindicator Corin.|M|30.6,46.6|
 A Oh, the Tangled Webs They Weave|QID|10066|N|From Vindicator Corin.|M|30.6,46.6|
-A Cutting a Path|QID|10065|M|30.3,45.9|N|From Scout Joril.|M|30.28,45.88|
+A Cutting a Path|QID|10065|N|From Scout Joril.|M|30.28,45.88|
 A Critters of the Void|QID|9741|N|From Scout Loryi.|M|30.28,45.88|
 C Cutting a Path|QID|10065|N|Kill 10 Enraged Ravagers.|M|31.25,56.68|S|
 C Oh, the Tangled Webs They Weave|QID|10066|N|Kill 8 Mutated Tanglers.|M|31.25,56.68|

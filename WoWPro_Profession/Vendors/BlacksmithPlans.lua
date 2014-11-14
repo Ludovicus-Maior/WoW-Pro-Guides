@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/blacksmithing_plans
+-- Date: 2014-11-08 20:21
+-- Who: Ludovicus
+-- Log: Update the Shrines
+
+-- URL: http://wow-pro.com/node/3566/revisions/25911/view
 -- Date: 2014-03-06 23:50
 -- Who: Ludovicus
 -- Log: Correct Molten Front zone tags.
@@ -356,22 +361,22 @@ B Vicious Ornate Pyrium Breastplate|QID|990076472|RECIPE|76472|M|51.50,42.70|Z|I
 B Vicious Ornate Pyrium Breastplate|QID|990076472|RECIPE|76472|M|56.80,52.50|Z|Darnassus|FACTION|Alliance|P|Blacksmithing;164;525|N|Sold by Layna Karner in Darnassus.\nBind on Pickup.|
 B Vicious Ornate Pyrium Breastplate|QID|990076472|RECIPE|76472|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;525|N|Sold by Eriden in Silvermoon City.\nBind on Pickup.|
 B Moonsteel Broadsword|QID|990003496|RECIPE|3496|M|43.00,70.70|Z|The Cape of Stranglethorn|P|Blacksmithing;164;180|N|Limited quantity sold by Zarena Cromwind in The Cape of Stranglethorn.|
-B Masterwork Spiritguard Helm|QID|990122592|RECIPE|122592|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Spiritguard Helm|QID|990122592|RECIPE|122592|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Masterwork Spiritguard Shoulders|QID|990122593|RECIPE|122593|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Spiritguard Shoulders|QID|990122593|RECIPE|122593|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Masterwork Spiritguard Breastplate|QID|990122594|RECIPE|122594|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Spiritguard Breastplate|QID|990122594|RECIPE|122594|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Masterwork Spiritguard Gauntlets|QID|990122595|RECIPE|122595|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Spiritguard Gauntlets|QID|990122595|RECIPE|122595|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Masterwork Spiritguard Legplates|QID|990122596|RECIPE|122596|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Spiritguard Legplates|QID|990122596|RECIPE|122596|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Masterwork Spiritguard Bracers|QID|990122597|RECIPE|122597|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Spiritguard Bracers|QID|990122597|RECIPE|122597|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Masterwork Spiritguard Boots|QID|990122598|RECIPE|122598|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Spiritguard Boots|QID|990122598|RECIPE|122598|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Masterwork Spiritguard Belt|QID|990122599|RECIPE|122599|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Spiritguard Belt|QID|990122599|RECIPE|122599|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Spiritguard Helm|QID|990122592|RECIPE|122592|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Spiritguard Helm|QID|990122592|RECIPE|122592|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Spiritguard Shoulders|QID|990122593|RECIPE|122593|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Spiritguard Shoulders|QID|990122593|RECIPE|122593|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Spiritguard Breastplate|QID|990122594|RECIPE|122594|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Spiritguard Breastplate|QID|990122594|RECIPE|122594|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Spiritguard Gauntlets|QID|990122595|RECIPE|122595|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Spiritguard Gauntlets|QID|990122595|RECIPE|122595|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Spiritguard Legplates|QID|990122596|RECIPE|122596|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Spiritguard Legplates|QID|990122596|RECIPE|122596|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Spiritguard Bracers|QID|990122597|RECIPE|122597|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Spiritguard Bracers|QID|990122597|RECIPE|122597|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Spiritguard Boots|QID|990122598|RECIPE|122598|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Spiritguard Boots|QID|990122598|RECIPE|122598|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Spiritguard Belt|QID|990122599|RECIPE|122599|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Spiritguard Belt|QID|990122599|RECIPE|122599|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
 B Elementium Spellblade|QID|990076449|RECIPE|76449|M|63.50,37.60|Z|Stormwind City|FACTION|Alliance|P|Blacksmithing;164;520|N|Sold by Kaita Deepforge in Stormwind City.\nBind on Pickup.|
 B Elementium Spellblade|QID|990076449|RECIPE|76449|M|75.80,35.20|Z|Orgrimmar|FACTION|Horde|P|Blacksmithing;164;520|N|Sold by Sumi in Orgrimmar.\nBind on Pickup.|
 B Elementium Spellblade|QID|990076449|RECIPE|76449|M|61.40,30.10|Z|Undercity|FACTION|Horde|P|Blacksmithing;164;520|N|Sold by Samuel Van Brunt in Undercity.\nBind on Pickup.|
@@ -384,24 +389,24 @@ B Elementium Spellblade|QID|990076449|RECIPE|76449|M|77.30,53.10|Z|Twilight High
 B Elementium Spellblade|QID|990076449|RECIPE|76449|M|51.50,42.70|Z|Ironforge|FACTION|Alliance|P|Blacksmithing;164;520|N|Sold by Thurgrum Deepforge in Ironforge.\nBind on Pickup.|
 B Elementium Spellblade|QID|990076449|RECIPE|76449|M|56.80,52.50|Z|Darnassus|FACTION|Alliance|P|Blacksmithing;164;520|N|Sold by Layna Karner in Darnassus.\nBind on Pickup.|
 B Elementium Spellblade|QID|990076449|RECIPE|76449|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;520|N|Sold by Eriden in Silvermoon City.\nBind on Pickup.|
-B Contender's Revenant Helm|QID|990122616|RECIPE|122616|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Revenant Helm|QID|990122616|RECIPE|122616|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Revenant Breastplate|QID|990122618|RECIPE|122618|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Revenant Breastplate|QID|990122618|RECIPE|122618|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Revenant Gauntlets|QID|990122619|RECIPE|122619|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Revenant Gauntlets|QID|990122619|RECIPE|122619|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Revenant Legplates|QID|990122620|RECIPE|122620|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Revenant Legplates|QID|990122620|RECIPE|122620|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Revenant Bracers|QID|990122621|RECIPE|122621|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Revenant Bracers|QID|990122621|RECIPE|122621|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Spirit Breastplate|QID|990122626|RECIPE|122626|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Spirit Breastplate|QID|990122626|RECIPE|122626|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Spirit Legplates|QID|990122628|RECIPE|122628|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Spirit Legplates|QID|990122628|RECIPE|122628|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Spirit Boots|QID|990122630|RECIPE|122630|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Spirit Boots|QID|990122630|RECIPE|122630|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Masterwork Lightsteel Shield|QID|990122642|RECIPE|122642|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Lightsteel Shield|QID|990122642|RECIPE|122642|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Revenant Helm|QID|990122616|RECIPE|122616|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Revenant Helm|QID|990122616|RECIPE|122616|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Revenant Breastplate|QID|990122618|RECIPE|122618|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Revenant Breastplate|QID|990122618|RECIPE|122618|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Revenant Gauntlets|QID|990122619|RECIPE|122619|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Revenant Gauntlets|QID|990122619|RECIPE|122619|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Revenant Legplates|QID|990122620|RECIPE|122620|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Revenant Legplates|QID|990122620|RECIPE|122620|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Revenant Bracers|QID|990122621|RECIPE|122621|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Revenant Bracers|QID|990122621|RECIPE|122621|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Spirit Breastplate|QID|990122626|RECIPE|122626|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Spirit Breastplate|QID|990122626|RECIPE|122626|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Spirit Legplates|QID|990122628|RECIPE|122628|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Spirit Legplates|QID|990122628|RECIPE|122628|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Spirit Boots|QID|990122630|RECIPE|122630|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Spirit Boots|QID|990122630|RECIPE|122630|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Lightsteel Shield|QID|990122642|RECIPE|122642|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Lightsteel Shield|QID|990122642|RECIPE|122642|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
 B Ornate Thorium Handaxe|QID|990016969|RECIPE|16969|M|68.10,77.60|Z|Western Plaguelands|P|Blacksmithing;164;275|N|Sold by Magnus Frostwake in Western Plaguelands.\nBind on Pickup.|
 B Vicious Pyrium Bracers|QID|990076456|RECIPE|76456|M|63.50,37.60|Z|Stormwind City|FACTION|Alliance|P|Blacksmithing;164;500|N|Sold by Kaita Deepforge in Stormwind City.\nBind on Pickup.|
 B Vicious Pyrium Bracers|QID|990076456|RECIPE|76456|M|75.80,35.20|Z|Orgrimmar|FACTION|Horde|P|Blacksmithing;164;500|N|Sold by Sumi in Orgrimmar.\nBind on Pickup.|
@@ -415,20 +420,20 @@ B Vicious Pyrium Bracers|QID|990076456|RECIPE|76456|M|77.30,53.10|Z|Twilight Hig
 B Vicious Pyrium Bracers|QID|990076456|RECIPE|76456|M|51.50,42.70|Z|Ironforge|FACTION|Alliance|P|Blacksmithing;164;500|N|Sold by Thurgrum Deepforge in Ironforge.\nBind on Pickup.|
 B Vicious Pyrium Bracers|QID|990076456|RECIPE|76456|M|56.80,52.50|Z|Darnassus|FACTION|Alliance|P|Blacksmithing;164;500|N|Sold by Layna Karner in Darnassus.\nBind on Pickup.|
 B Vicious Pyrium Bracers|QID|990076456|RECIPE|76456|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;500|N|Sold by Eriden in Silvermoon City.\nBind on Pickup.|
-B Masterwork Spiritguard Shield|QID|990122643|RECIPE|122643|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Masterwork Spiritguard Shield|QID|990122643|RECIPE|122643|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Masterwork Spiritguard Shield|QID|990122643|RECIPE|122643|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Masterwork Spiritguard Shield|QID|990122643|RECIPE|122643|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
 B Huge Thorium Battleaxe|QID|990016971|RECIPE|16971|M|68.10,77.60|Z|Western Plaguelands|P|Blacksmithing;164;280|N|Sold by Magnus Frostwake in Western Plaguelands.\nBind on Pickup.|
 B Massive Iron Axe|QID|990003498|RECIPE|3498|M|38.70,49.20|Z|Northern Stranglethorn|FACTION|Horde|P|Blacksmithing;164;185|N|Limited quantity sold by Vharr in Northern Stranglethorn.|
 B Massive Iron Axe|QID|990003498|RECIPE|3498|M|43.70,23.10|Z|Northern Stranglethorn|P|Blacksmithing;164;185|N|Limited quantity sold by Jaquilina Dramet in Northern Stranglethorn.|
 B Runic Plate Boots|QID|990016665|RECIPE|16665|M|43.46,41.60|Z|Un'Goro Crater|P|Blacksmithing;164;300|N|Sold by Dramm Riverhorn in Un'Goro Crater.|
-B Contender's Revenant Boots|QID|990122622|RECIPE|122622|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Revenant Boots|QID|990122622|RECIPE|122622|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Spirit Helm|QID|990122624|RECIPE|122624|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Spirit Helm|QID|990122624|RECIPE|122624|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Spirit Shoulders|QID|990122625|RECIPE|122625|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Spirit Shoulders|QID|990122625|RECIPE|122625|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
-B Contender's Spirit Bracers|QID|990122629|RECIPE|122629|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Spirit Bracers|QID|990122629|RECIPE|122629|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Revenant Boots|QID|990122622|RECIPE|122622|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Revenant Boots|QID|990122622|RECIPE|122622|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Spirit Helm|QID|990122624|RECIPE|122624|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Spirit Helm|QID|990122624|RECIPE|122624|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Spirit Shoulders|QID|990122625|RECIPE|122625|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Spirit Shoulders|QID|990122625|RECIPE|122625|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Spirit Bracers|QID|990122629|RECIPE|122629|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Spirit Bracers|QID|990122629|RECIPE|122629|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
 B Elementium-Edged Scalper|QID|990099655|RECIPE|99655|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
 B Ebon Shiv|QID|990010013|RECIPE|10013|M|68.10,77.60|Z|Western Plaguelands|P|Blacksmithing;164;255|N|Sold by Magnus Frostwake in Western Plaguelands.\nBind on Pickup.|
 B Runic Plate Helm|QID|990016726|RECIPE|16726|M|43.46,41.60|Z|Un'Goro Crater|P|Blacksmithing;164;300|N|Sold by Dramm Riverhorn in Un'Goro Crater.|
@@ -448,8 +453,8 @@ B Elementium Earthguard|QID|990076454|RECIPE|76454|M|77.30,53.10|Z|Twilight High
 B Elementium Earthguard|QID|990076454|RECIPE|76454|M|51.50,42.70|Z|Ironforge|FACTION|Alliance|P|Blacksmithing;164;520|N|Sold by Thurgrum Deepforge in Ironforge.\nBind on Pickup.|
 B Elementium Earthguard|QID|990076454|RECIPE|76454|M|56.80,52.50|Z|Darnassus|FACTION|Alliance|P|Blacksmithing;164;520|N|Sold by Layna Karner in Darnassus.\nBind on Pickup.|
 B Elementium Earthguard|QID|990076454|RECIPE|76454|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;520|N|Sold by Eriden in Silvermoon City.\nBind on Pickup.|
-B Contender's Spirit Belt|QID|990122631|RECIPE|122631|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Spirit Belt|QID|990122631|RECIPE|122631|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Spirit Belt|QID|990122631|RECIPE|122631|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Spirit Belt|QID|990122631|RECIPE|122631|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
 B Witch-Hunter's Harvester|QID|990099660|RECIPE|99660|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
 B Runic Plate Leggings|QID|990016732|RECIPE|16732|M|43.46,41.60|Z|Un'Goro Crater|P|Blacksmithing;164;300|N|Sold by Dramm Riverhorn in Un'Goro Crater.|
 B Lightforged Elementium Hammer|QID|990099654|RECIPE|99654|M|47.00,90.60|Z|MoltenFront|P|Blacksmithing;164;525|N|Sold by Damek Bloombeard in Molten Front.\nBind on Pickup.|
@@ -480,8 +485,8 @@ B Vicious Pyrium Gauntlets|QID|990076457|RECIPE|76457|M|77.30,53.10|Z|Twilight H
 B Vicious Pyrium Gauntlets|QID|990076457|RECIPE|76457|M|51.50,42.70|Z|Ironforge|FACTION|Alliance|P|Blacksmithing;164;505|N|Sold by Thurgrum Deepforge in Ironforge.\nBind on Pickup.|
 B Vicious Pyrium Gauntlets|QID|990076457|RECIPE|76457|M|56.80,52.50|Z|Darnassus|FACTION|Alliance|P|Blacksmithing;164;505|N|Sold by Layna Karner in Darnassus.\nBind on Pickup.|
 B Vicious Pyrium Gauntlets|QID|990076457|RECIPE|76457|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;505|N|Sold by Eriden in Silvermoon City.\nBind on Pickup.|
-B Contender's Revenant Shoulders|QID|990122617|RECIPE|122617|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Revenant Shoulders|QID|990122617|RECIPE|122617|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Revenant Shoulders|QID|990122617|RECIPE|122617|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Revenant Shoulders|QID|990122617|RECIPE|122617|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
 B Adamantite Cleaver|QID|990029568|RECIPE|29568|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;330|N|Limited quantity sold by Eriden in Silvermoon City.|
 B Adamantite Cleaver|QID|990029568|RECIPE|29568|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;330|N|Limited quantity sold by Arras in Thunder Bluff.|
 B Adamantite Cleaver|QID|990029568|RECIPE|29568|M|63.10,71.10|Z|Shattrath City|P|Blacksmithing;164;330|N|Limited quantity sold by Aaron Hollman in Shattrath City.|
@@ -501,8 +506,8 @@ B Solid Iron Maul|QID|990003494|RECIPE|3494|M|17.80,74.60|Z|Dun Morogh|P|Blacksm
 B Solid Iron Maul|QID|990003494|RECIPE|3494|M|40.80,48.00|Z|Arathi Highlands|FACTION|Alliance|P|Blacksmithing;164;155|N|Limited quantity sold by Jannos Ironwill in Arathi Highlands.|
 B Solid Iron Maul|QID|990003494|RECIPE|3494|M|55.60,56.50|Z|Desolace|FACTION|Horde|P|Blacksmithing;164;155|N|Limited quantity sold by Muuran in Desolace.|
 B Frostguard|QID|990016992|RECIPE|16992|M|58.00,63.80|Z|Winterspring|FACTION|Horde|P|Blacksmithing;164;300|N|Limited quantity sold by Daleohm in Winterspring.|
-B Contender's Spirit Gauntlets|QID|990122627|RECIPE|122627|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Spirit Gauntlets|QID|990122627|RECIPE|122627|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Spirit Gauntlets|QID|990122627|RECIPE|122627|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Spirit Gauntlets|QID|990122627|RECIPE|122627|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
 B Light Elementium Belt|QID|990076448|RECIPE|76448|M|63.50,37.60|Z|Stormwind City|FACTION|Alliance|P|Blacksmithing;164;510|N|Sold by Kaita Deepforge in Stormwind City.\nBind on Pickup.|
 B Light Elementium Belt|QID|990076448|RECIPE|76448|M|75.80,35.20|Z|Orgrimmar|FACTION|Horde|P|Blacksmithing;164;510|N|Sold by Sumi in Orgrimmar.\nBind on Pickup.|
 B Light Elementium Belt|QID|990076448|RECIPE|76448|M|61.40,30.10|Z|Undercity|FACTION|Horde|P|Blacksmithing;164;510|N|Sold by Samuel Van Brunt in Undercity.\nBind on Pickup.|
@@ -527,8 +532,8 @@ B Elementium Hammer|QID|990076450|RECIPE|76450|M|77.30,53.10|Z|Twilight Highland
 B Elementium Hammer|QID|990076450|RECIPE|76450|M|51.50,42.70|Z|Ironforge|FACTION|Alliance|P|Blacksmithing;164;515|N|Sold by Thurgrum Deepforge in Ironforge.\nBind on Pickup.|
 B Elementium Hammer|QID|990076450|RECIPE|76450|M|56.80,52.50|Z|Darnassus|FACTION|Alliance|P|Blacksmithing;164;515|N|Sold by Layna Karner in Darnassus.\nBind on Pickup.|
 B Elementium Hammer|QID|990076450|RECIPE|76450|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;515|N|Sold by Eriden in Silvermoon City.\nBind on Pickup.|
-B Contender's Revenant Belt|QID|990122623|RECIPE|122623|M|29.40,43.40|Z|Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
-B Contender's Revenant Belt|QID|990122623|RECIPE|122623|M|74.40,51.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
+B Contender's Revenant Belt|QID|990122623|RECIPE|122623|M|29.40,43.40|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Blacksmithing;164;575|N|Sold by Jorunga Stonehoof in Shrine of Two Moons.\nBind on Pickup.|
+B Contender's Revenant Belt|QID|990122623|RECIPE|122623|M|74.40,51.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Blacksmithing;164;575|N|Sold by Cullen Hammerbrow in Shrine of Seven Stars.\nBind on Pickup.|
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;330|N|Limited quantity sold by Eriden in Silvermoon City.|
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;330|N|Limited quantity sold by Arras in Thunder Bluff.|
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|63.10,71.10|Z|Shattrath City|P|Blacksmithing;164;330|N|Limited quantity sold by Aaron Hollman in Shattrath City.|

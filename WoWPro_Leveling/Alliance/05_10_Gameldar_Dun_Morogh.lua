@@ -4,6 +4,24 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2014-11-06 12:53
+-- Who: Fluclo
+-- Log: Removed duplicate PRE tag from Return to Gremlock
+
+-- URL: http://wow-pro.com/node/3200/revisions/26797/view
+-- Date: 2014-11-06 02:47
+-- Who: Fluclo
+-- Log: Removed duplicate |M| tag
+
+-- URL: http://wow-pro.com/node/3200/revisions/26634/view
+-- Date: 2014-07-26 00:36
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3200/revisions/26593/view
+-- Date: 2014-07-25 20:45
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3200/revisions/26403/view
 -- Date: 2014-05-30 12:19
 -- Who: Ludovicus
 -- Log: Level setting
@@ -244,26 +262,6 @@
 -- Who: Ludovicus
 -- Log: QID on [Get Me Explosives Back!] was wrong.  Added advice to [Down with Crushcog!]
 
--- URL: http://wow-pro.com/node/3200/revisions/24097/view
--- Date: 2011-02-05 01:18
--- Who: Ludovicus
--- Log: Removed extra tabs and whitespace.
---	Removed empty tags (aka ||'s).
-
--- URL: http://wow-pro.com/node/3200/revisions/24083/view
--- Date: 2011-01-30 19:28
--- Who: Ludovicus
--- Log: Corrected RegisterGuide to match GIT
-
--- URL: http://wow-pro.com/node/3200/revisions/24063/view
--- Date: 2011-01-27 19:12
--- Who: Ludovicus
--- Log:  WoWPro.Leveling
-
--- URL: http://wow-pro.com/node/3200/revisions/23812/view
--- Date: 2010-12-22 06:20
--- Who: Gylin
-
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,2,10,5.74453)
 WoWPro:GuideNextGuide(guide, 'WkjLoc1220')
@@ -305,7 +303,7 @@ F Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|Speak with Brolan Galebeard and ask
 T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining & Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf|Z|Ironforge|
 A Gryth Thurden |RANK|2|QID|6388|M|51.37,26.27|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
 T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|To Gryth Thurden|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
-A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
+A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf|Z|Ironforge|
 F Thunderbrew Distillery|RANK|2|QID|6392|M|54.73,50.58|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|PRE|6391|R|Gnome,Dwarf|
 T Return to Gremlock |RANK|2|QID|6392|M|54.73,50.81|N|To Gremlock Pilsnor|PRE|6391|R|Gnome,Dwarf|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_netherdrake
+-- Date: 2014-11-07 20:48
+-- Who: Fluclo
+-- Log: Added missing |N| tags, removed blank |QO| tag
+
+-- URL: http://wow-pro.com/node/3455/revisions/26559/view
 -- Date: 2014-07-06 15:44
 -- Who: Ludovicus
 -- Log: Updated levels
@@ -107,10 +112,10 @@ A The Deadliest Trap Ever Laid|QID|11101|PRE|11100|M|62.4,29.2|REP|Aldor;932|N|F
 C The Deadliest Trap Ever Laid|QID|11101|REP|Aldor;932|N|Concentrate on protecting Commander Arcus.|
 T The Deadliest Trap Ever Laid|QID|11101|M|66.22,85.65|REP|Aldor;932|N|To Overlord Mor'ghor.|
 
-A Overseeing and You: Making the Right Choices|QID|11054|PRE|11053|REP|Netherwing;1015;friendly|M|66.84,86.10|From Chief Overseer Mudlump.|
+A Overseeing and You: Making the Right Choices|QID|11054|PRE|11053|REP|Netherwing;1015;friendly|M|66.84,86.10|N|From Chief Overseer Mudlump.|
 K Tyrantus|QID|11054|PRE|11053|M|46.0,7.6|Z|Netherstorm|N|In the dome.|
-B Knothide Leather|QID|11054|PRE|11053|L21887 10|Z|Netherstorm|N|In the dome.|
-T Overseeing and You: Making the Right Choices|QID|11054|PRE|11053|M|66.84,86.10|To Chief Overseer Mudlump.|
+B Knothide Leather|QID|11054|PRE|11053|L|21887 10|Z|Netherstorm|N|In the dome.|
+T Overseeing and You: Making the Right Choices|QID|11054|PRE|11053|M|66.84,86.10|N|To Chief Overseer Mudlump.|
 
 A Earning Your Wings...|QID|11063|M|70.98,94.18|REP|Netherwing;1015;honored-revered|N|From Ja'y Nosliw.|
 T Earning Your Wings...|QID|11063|M|70.98,94.18|N|To Ja'y Nosliw.|
@@ -167,7 +172,7 @@ A Netherdust Pollen|QID|11017|P|Herbalism;350|M|66.12,86.36|REP|Netherwing;1015;
 A Nethercite Ore|QID|11018|P|Mining;350|M|66.12,86.36|REP|Netherwing;1015;neutral-revered|N|From Taskmaster Varkule Dragonbreath.|
 A The Netherwing Mines|QID|11075|PRE|11053|M|66.12,86.36|REP|Netherwing;1015;friendly-revered|N|From Taskmaster Varkule Dragonbreath.|
 
-A The Booterang: A Cure For The Common Worthless Peon|QID|11055|PRE|11054|REP|Netherwing;1015;friendly-revered|M|66.84,86.10|From Chief Overseer Mudlump.|
+A The Booterang: A Cure For The Common Worthless Peon|QID|11055|PRE|11054|REP|Netherwing;1015;friendly-revered|M|66.84,86.10|N|From Chief Overseer Mudlump.|
 
 C A Slow Death|QID|11020|M|65.0,65.6;67.6,69.0;71.6,66.0;56.8,75.6;59.0,69.6;55.0,68.0|CN|L|32502 12|N|Kill Netherskates and Greater Felfire Diemetradons for their Fel Glands|QO|Fel Gland: 12/12|
 C The Not-So-Friendly Skies...|QID|11035|M|71.55,75.08;74.43,75.65|CN|L|32509 10|N|Kill Dragonmaw Transporters and loot the relics.|
@@ -178,7 +183,7 @@ U A Slow Death|QID|11020|U|32503|N|Find Dragonmaw Peon Camps and drop the mutton
 
 T A Slow Death|QID|11020|M|66.0,86.47|N|To Yarzill the Merc.|
 T The Not-So-Friendly Skies...|QID|11035|PRE|11019|M|66.0,86.47|N|From Yarzill the Merc.|
-T The Booterang: A Cure For The Common Worthless Peon|QID|11055|M|66.84,86.10|To Chief Overseer Mudlump.|
+T The Booterang: A Cure For The Common Worthless Peon|QID|11055|M|66.84,86.10|N|To Chief Overseer Mudlump.|
 
 T The Netherwing Mines|QID|11075|M|63.0,87.8;65.4,90.2|CN|N|To Mistress of the Mines.|
 A Picking Up The Pieces...|QID|11076|PRE|11075|M|63.0,87.8;65.4,90.2|CN|REP|Netherwing;1015;friendly-revered|N|From a Mistress of the Mines.|
@@ -189,7 +194,7 @@ R Crazed and Confused|QID|11083|M|68.58,85.66;69.60,85.45;73.82,87.90|CS|REP|Net
 C Crazed and Confused|QID|11083|M|71.57,87.62|N|Slay the Crazed Murkblood Foreman and Crazed Murkblood Miners.|
 T Crazed and Confused|QID|11083|M|71.57,87.62|N|From Ronag the Slave Driver.|
 
-C Dragons are the Least of Our Problems|QID|11077|M|71.88,83.12|QO|N|Kill Nethermine Flayers and Nethermine Ravagers.|
+C Dragons are the Least of Our Problems|QID|11077|M|71.88,83.12|N|Kill Nethermine Flayers and Nethermine Ravagers.|
 C Picking Up The Pieces...|QID|11076|N|Recover Nethermine Cargo crates|
 
 T Dragons are the Least of Our Problems|QID|11077|PRE|11075|M|65.4,89.2|N|Look for the foreman in the mine.|
@@ -205,7 +210,7 @@ C Netherdust Pollen|QID|11017|M|60.50,73.40;74.30,75.70;79.25,86.97;69.56,79.86;
 C Nethercite Ore|QID|11018|M|59.70,79.10;60.10,87.00;72.00,61.10;78.60,93.90;62.40,89.45;66.45,62.20;71.90,64.40;67.60,90.65;66.21,83.05;74.45,87.91;77.10,89.33;73.16,84.48;63.02,85.68;63.20,81.62;66.62,94.28;70.53,89.59;77.65,85.45;75.10,81.41;69.08,85.82;67.40,59.29;68.60,81.22|CN|N|Nethercite Deposits|
 
 C Netherwing Crystals|QID|11015|L|32427 30|N|Kill Murkbloods, Flayers, BlackBloods, or Rays.|
-C The Great Netherwing Egg Hunt|QID|11049|M|66.0,86.47|To Yarzill the Merc.|
+C The Great Netherwing Egg Hunt|QID|11049|M|66.0,86.47|N|To Yarzill the Merc.|
 
 T The Great Netherwing Egg Hunt|QID|11049|M|66.0,86.47|N|To Yarzill the Merc.|
 

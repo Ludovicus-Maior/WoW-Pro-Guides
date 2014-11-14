@@ -19,7 +19,7 @@ for toc in WowPro/WowPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/
   echo '#' Moving $toc to ${toc}~
   mv ${toc} ${toc}~
   echo "#" Editing  ${toc}
-  sed "s/${crelease}/${nrelease}/" < ${toc}~ > ${toc}
+  sed "s/## Version: ${crelease}/## Version: ${nrelease}/" < ${toc}~ > ${toc}
 #  git add ${toc}
 done
 

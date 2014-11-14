@@ -138,7 +138,7 @@ local function CreateDisplayConfig()
 						desc = L["Allows tracking of quests in the guide frame"],
 						get = function(info) return WoWProDB.profile.track end,
 						set = function(info,val) WoWProDB.profile.track = val 
-							WoWPro:UpdateGuide() end
+							WoWPro:UpdateGuide("Config: Quest Tracking") end
 					},    
 					showcoords = {
 						order = 4,
@@ -147,7 +147,7 @@ local function CreateDisplayConfig()
 						desc = L["Shows the coordinates in the note text."],
 						get = function(info) return WoWProDB.profile.showcoords end,
 						set = function(info,val) WoWProDB.profile.showcoords = val 
-							WoWPro:UpdateGuide() end
+							WoWPro:UpdateGuide("Config: Show Coordinates") end
 					},     
 					autoload = {
 						order = 4,
@@ -165,7 +165,7 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.guidescroll end,
 						set = function(info,val) WoWProDB.profile.guidescroll = val 
 							WoWPro:TitlebarSet() 
-							WoWPro:UpdateGuide() end
+							WoWPro:UpdateGuide("Config: Scroll Mode") end
 					},
 					checksoundfile = {
 						order = 5,
@@ -199,7 +199,7 @@ local function CreateDisplayConfig()
 						min = 1, max = 3, step = 1,
 						get = function(info) return WoWProDB.profile.rank end,
 						set = function(info,val) WoWProDB.profile.rank = val 
-							WoWPro.UpdateGuide() end,
+							WoWPro.UpdateGuide("Config: Rank") end,
 						width = "double"
 					}, 
 					blank2 = {
@@ -755,6 +755,21 @@ local function createBlizzOptions()
     			            WoWPro:LoadAllGuides()
                         end
 			},				
+			enableGrail = {
+				order = 20,
+				type = "toggle",
+				name = L["Enable Grail"],
+				desc = L["Enables/Disables Grail Integration"],
+				get = function(info) return WoWPro.EnableGrail end,
+				set = function(info,val) 
+						if WoWPro.EnableGrail then
+						    WoWPro.EnableGrail = false
+						else
+						    WoWPro.EnableGrail = true
+						end
+						WoWProCharDB.EnableGrail = WoWPro.EnableGrail
+					end
+			},
 			blank2 = {
 				order = 90,
 				type = "description",

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2014-07-25 21:53
+-- Who: Ludovicus
+-- Log: adj levels
+
+-- URL: http://wow-pro.com/node/3406/revisions/26502/view
 -- Date: 2014-06-10 22:00
 -- Who: Ludovicus
 -- Log: Changed guide format.
@@ -80,7 +85,7 @@
 -- Log: Added source code to page.
 
 local guide = WoWPro:RegisterGuide("CraMidSumA",'WorldEvents',"Midsummer Fire Festival", "Crackerhead22", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide,1,16,1.53571)
 WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
 WoWPro:GuideSteps(guide, function()
 return [[

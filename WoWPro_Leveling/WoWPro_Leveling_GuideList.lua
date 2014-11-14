@@ -69,18 +69,40 @@ WoWPro.Leveling.GuideList.Format={{"Zone",0.35,zoneSort},{"Range",0.15,rangeSort
 
 -- Fancy tooltip!
 function WoWPro.Leveling.GuideTooltipInfo(row, tooltip, guide)
-    WoWPro:Print("GuideTooltipInfo: Entering %s",guide.GID)
     GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
     GameTooltip:AddLine(guide.zone)
     if guide.icon then
         GameTooltip:AddTexture(guide.icon,1,1,1,1)
         GameTooltip:AddLine(guide.icon)
     else
-        GameTooltip:AddTexture("Interface\\Icons\\Ability_DualWield")
+        GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
     end
     GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
-    GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide.level or 0)))
+    GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide)))
     GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
+end
+
+function WoWPro.Leveling:UpdateGuideScores()
+    WoWPro.Leveling:dbp("UpdateGuideScores()")
+    for guidID,guide in pairs(WoWPro.Guides) do
+	    if guide.guidetype == "Leveling" then
+	        if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
+	            if WoWProCharDB.Guide[guidID].progress > 0 and WoWProCharDB.Guide[guidID].progress <=  WoWProCharDB.Guide[guidID].total then
+	                guide.score = 100 * WoWProCharDB.Guide[guidID].progress / WoWProCharDB.Guide[guidID].total
+	                WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; progress %d / %d",guidID, WoWProCharDB.Guide[guidID].progress, WoWProCharDB.Guide[guidID].total)
+	            end
+	        elseif UnitLevel("player") < guide.startlevel then
+	            
+	        elseif UnitLevel("player") > guide.endlevel then
+	            guide.score = 100 * (guide.endlevel / UnitLevel("player"))
+	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; endlevel %f", guidID, guide.endlevel) 
+	        else
+	            guide.score = 100 * (guide.level / UnitLevel("player"))
+	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; level %f", guidID, guide.level) 
+	        end
+        end
+        guide.name = guide.zone
+    end 
 end
 
 

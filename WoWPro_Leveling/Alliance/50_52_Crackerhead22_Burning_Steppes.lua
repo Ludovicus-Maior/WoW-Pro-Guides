@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2014-11-06 13:35
+-- Who: Fluclo
+-- Log: Merged duplicate N tags for A Perfect Costume.
+
+-- URL: http://wow-pro.com/node/3265/revisions/26623/view
+-- Date: 2014-07-25 22:19
+-- Who: Ludovicus
+-- Log: add mean
+
+-- URL: http://wow-pro.com/node/3265/revisions/26340/view
 -- Date: 2014-05-27 20:14
 -- Who: Ludovicus
 -- Log: GuideLevels corrected from "0,0" to "49,51".
@@ -77,7 +87,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('CraBur5052', "Leveling", 'Burning Steppes', 'Crackerhead22', 'Alliance')
-WoWPro:GuideLevels(guide,49,51)
+WoWPro:GuideLevels(guide,49,51, 49.073)
 WoWPro:GuideNextGuide(guide, 'CraSwa5254')
 WoWPro:GuideIcon(guide,"ACH",4901)
 WoWPro:GuideSteps(guide, function()
@@ -131,10 +141,10 @@ f Chiselgrip|QID|28254|M|46.17,41.97|N|At Grimly Singefeather.|
 A A Needle in a Hellhole|QID|28254|M|46.37,45.82|N|From John J. Keeshan.|
 T A Needle in a Hellhole|QID|28254|M|45.45,46.11|N|To Thelaron Direneedle.|
 
-A A Perfect Costume|QID|28203|R|Worgen,Draenei,Pandaren|M|45.45,46.34|N|From Thelaron Direneedle.|N|You will need 4 hides, 1 mud and 3 thread.|
-A A Perfect Costume|QID|28205|R|Night Elf|M|45.45,46.34|N|From Thelaron Direneedle.|N|You will need 3 hides, 2 mud and 1 thread.|
-A A Perfect Costume|QID|28202|R|Human,Dwarf|M|45.45,46.34|N|From Thelaron Direneedle.|N|You will need 2 hides, 4 mud 2 thread.|
-A A Perfect Costume|QID|28204|R|Gnome|M|45.45,46.34|N|From Thelaron Direneedle.|N|You will need 1 hide, 3 mud and 4 thread.|
+A A Perfect Costume|QID|28203|R|Worgen,Draenei,Pandaren|M|45.45,46.34|N|From Thelaron Direneedle.  You will need 4 hides, 1 mud and 3 thread to complete this quest.|
+A A Perfect Costume|QID|28205|R|Night Elf|M|45.45,46.34|N|From Thelaron Direneedle. You will need 3 hides, 2 mud and 1 thread to complete this quest.|
+A A Perfect Costume|QID|28202|R|Human,Dwarf|M|45.45,46.34|N|From Thelaron Direneedle. You will need 2 hides, 4 mud 2 thread to complete this quest.|
+A A Perfect Costume|QID|28204|R|Gnome|M|45.45,46.34|N|From Thelaron Direneedle. You will need 1 hide, 3 mud and 4 thread to complete this quest.|
 C A Perfect Costume|QID|28203|R|Worgen,Draenei,Pandaren|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 4 hides, 1 mud and 3 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
 C A Perfect Costume|QID|28205|R|Night Elf|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 3 hides, 2 mud and 1 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|
 C A Perfect Costume|QID|28202|R|Human,Dwarf|M|45.45,46.11|QO|Perfect Costume created: 1/1|N|You will need 2 hides, 4 mud 2 thread. Click on the Tailor's Table, then select the correct number of hides, mud then thread. Then speak with Thelaron Direneedle to make the disguise.|

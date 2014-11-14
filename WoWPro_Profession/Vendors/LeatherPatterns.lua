@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/leatherworking_patterns
+-- Date: 2014-11-08 20:24
+-- Who: Ludovicus
+-- Log: Update Shrines
+
+-- URL: http://wow-pro.com/node/3572/revisions/25912/view
 -- Date: 2014-03-06 23:51
 -- Who: Ludovicus
 -- Log: Zone tag corrections
@@ -39,8 +44,8 @@ B Vicious Wyrmhide Gloves|QID|990078452|RECIPE|78452|M|39.60,34.50|Z|Ironforge|F
 B Vicious Wyrmhide Gloves|QID|990078452|RECIPE|78452|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Joseph Moore in Undercity|
 B Vicious Wyrmhide Gloves|QID|990078452|RECIPE|78452|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Wyrmhide Gloves|QID|990078452|RECIPE|78452|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Mak in Thunder Bluff|
-B Contender's Dragonscale Leggings|QID|990124615|RECIPE|124615|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Dragonscale Leggings|QID|990124615|RECIPE|124615|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Dragonscale Leggings|QID|990124615|RECIPE|124615|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Dragonscale Leggings|QID|990124615|RECIPE|124615|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Polar Cord|QID|990060997|RECIPE|60997|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;420|N|Sold by Braeg Stoutbeard in Dalaran|
 B Vicious Wyrmhide Boots|QID|990078453|RECIPE|78453|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Haferet in The Exodar|
 B Vicious Wyrmhide Boots|QID|990078453|RECIPE|78453|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Zaralda in Silvermoon City|
@@ -52,8 +57,8 @@ B Vicious Wyrmhide Boots|QID|990078453|RECIPE|78453|M|39.60,34.50|Z|Ironforge|FA
 B Vicious Wyrmhide Boots|QID|990078453|RECIPE|78453|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Joseph Moore in Undercity|
 B Vicious Wyrmhide Boots|QID|990078453|RECIPE|78453|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Wyrmhide Boots|QID|990078453|RECIPE|78453|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Mak in Thunder Bluff|
-B Contender's Dragonscale Bracers|QID|990124616|RECIPE|124616|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;555|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Dragonscale Bracers|QID|990124616|RECIPE|124616|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;555|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Dragonscale Bracers|QID|990124616|RECIPE|124616|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;555|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Dragonscale Bracers|QID|990124616|RECIPE|124616|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;555|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Drakehide Leg Armor|QID|990101599|RECIPE|101599|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Haferet in The Exodar|
 B Drakehide Leg Armor|QID|990101599|RECIPE|101599|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Zaralda in Silvermoon City|
 B Drakehide Leg Armor|QID|990101599|RECIPE|101599|M|60.00,37.30|Z|Darnassus|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Saenorion in Darnassus|
@@ -84,8 +89,8 @@ B Vicious Leather Shoulders|QID|990078455|RECIPE|78455|M|39.60,34.50|Z|Ironforge
 B Vicious Leather Shoulders|QID|990078455|RECIPE|78455|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Joseph Moore in Undercity|
 B Vicious Leather Shoulders|QID|990078455|RECIPE|78455|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;515|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Leather Shoulders|QID|990078455|RECIPE|78455|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;515|N|Sold by Mak in Thunder Bluff|
-B Contender's Dragonscale Belt|QID|990124618|RECIPE|124618|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Dragonscale Belt|QID|990124618|RECIPE|124618|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Dragonscale Belt|QID|990124618|RECIPE|124618|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Dragonscale Belt|QID|990124618|RECIPE|124618|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Eviscerator's Legguards|QID|990060711|RECIPE|60711|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;425|N|Sold by Braeg Stoutbeard in Dalaran|
 B Stormhide Crown|QID|990060743|RECIPE|60743|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;420|N|Sold by Braeg Stoutbeard in Dalaran|
 B Icy Scale Chestguard|QID|990060999|RECIPE|60999|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;425|N|Sold by Braeg Stoutbeard in Dalaran|
@@ -276,8 +281,8 @@ B Chestguard of Nature's Fury|QID|990078487|RECIPE|78487|M|70.00,58.50|Z|Underci
 B Chestguard of Nature's Fury|QID|990078487|RECIPE|78487|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Jillian Tanner in Stormwind City|
 B Chestguard of Nature's Fury|QID|990078487|RECIPE|78487|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Mak in Thunder Bluff|
 B Trollwoven Girdle|QID|990060759|RECIPE|60759|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;440|N|Sold by Braeg Stoutbeard in Dalaran|
-B Contender's Wyrmhide Helm|QID|990124587|RECIPE|124587|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Wyrmhide Helm|QID|990124587|RECIPE|124587|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Wyrmhide Helm|QID|990124587|RECIPE|124587|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Wyrmhide Helm|QID|990124587|RECIPE|124587|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Stormhide Wristguards|QID|990060748|RECIPE|60748|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;420|N|Sold by Braeg Stoutbeard in Dalaran|
 B Twilight Scale Chestguard|QID|990078489|RECIPE|78489|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Haferet in The Exodar|
 B Twilight Scale Chestguard|QID|990078489|RECIPE|78489|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Zaralda in Silvermoon City|
@@ -289,23 +294,23 @@ B Twilight Scale Chestguard|QID|990078489|RECIPE|78489|M|39.60,34.50|Z|Ironforge
 B Twilight Scale Chestguard|QID|990078489|RECIPE|78489|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Joseph Moore in Undercity|
 B Twilight Scale Chestguard|QID|990078489|RECIPE|78489|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Jillian Tanner in Stormwind City|
 B Twilight Scale Chestguard|QID|990078489|RECIPE|78489|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Mak in Thunder Bluff|
-B Contender's Wyrmhide Shoulders|QID|990124588|RECIPE|124588|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;575|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Wyrmhide Shoulders|QID|990124588|RECIPE|124588|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;575|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Wyrmhide Shoulders|QID|990124588|RECIPE|124588|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;575|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Wyrmhide Shoulders|QID|990124588|RECIPE|124588|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;575|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Swiftarrow Helm|QID|990060728|RECIPE|60728|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;420|N|Sold by Braeg Stoutbeard in Dalaran|
-B Contender's Wyrmhide Gloves|QID|990124590|RECIPE|124590|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Wyrmhide Gloves|QID|990124590|RECIPE|124590|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Wyrmhide Gloves|QID|990124590|RECIPE|124590|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Wyrmhide Gloves|QID|990124590|RECIPE|124590|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Thick Murloc Armor|QID|990006704|RECIPE|6704|M|57.50,47.80|Z|Hillsbrad Foothills|FACTION|Horde|P|Leatherworking;165;170|N|Limited quantity sold by Christoph Jeffcoat in Hillsbrad Foothills|
 B Thick Murloc Armor|QID|990006704|RECIPE|6704|M|42.80,74.10|Z|The Cape of Stranglethorn|FACTION|Neutral|P|Leatherworking;165;170|N|Limited quantity sold by Blixrez Goodstitch in The Cape of Stranglethorn|
 B Swiftarrow Shoulderguards|QID|990060729|RECIPE|60729|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;420|N|Sold by Braeg Stoutbeard in Dalaran|
 B Earthgiving Boots|QID|990060761|RECIPE|60761|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;440|N|Sold by Braeg Stoutbeard in Dalaran|
-B Contender's Wyrmhide Leggings|QID|990124591|RECIPE|124591|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Wyrmhide Leggings|QID|990124591|RECIPE|124591|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Wyrmhide Leggings|QID|990124591|RECIPE|124591|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Wyrmhide Leggings|QID|990124591|RECIPE|124591|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Murloc Scale Bracers|QID|990006705|RECIPE|6705|M|66.40,51.50|Z|Dustwallow Marsh|FACTION|Alliance|P|Leatherworking;165;190|N|Limited quantity sold by Helenia Olden in Dustwallow Marsh|
 B Raptor Hide Harness|QID|990004096|RECIPE|4096|M|70.00,35.40|Z|Arathi Highlands|FACTION|Horde|P|Leatherworking;165;165|N|Limited quantity sold by Tunkk in Arathi Highlands|
 B Molten Helm|QID|990020854|RECIPE|20854|M|0.00,0.00|Z|Shadowforge City@BlackrockDepths|FACTION|Neutral|P|Leatherworking;165;300|N|Sold by Lokhtos Darkbargainer in Blackrock Depths|
 B Frostsaber Boots|QID|990019066|RECIPE|19066|M|59.60,49.20|Z|Winterspring|FACTION|Neutral|P|Leatherworking;165;275|N|Sold by Qia in Winterspring|
-B Contender's Wyrmhide Bracers|QID|990124592|RECIPE|124592|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;555|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Wyrmhide Bracers|QID|990124592|RECIPE|124592|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;555|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Wyrmhide Bracers|QID|990124592|RECIPE|124592|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;555|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Wyrmhide Bracers|QID|990124592|RECIPE|124592|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;555|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Heavy Scorpid Bracers|QID|990019048|RECIPE|19048|M|81.90,17.80|Z|Silithus|FACTION|Neutral|P|Leatherworking;165;255|N|Sold by Zannok Hidepiercer in Silithus|
 B Swiftarrow Hauberk|QID|990060730|RECIPE|60730|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;420|N|Sold by Braeg Stoutbeard in Dalaran|
 B Vicious Dragonscale Belt|QID|990078473|RECIPE|78473|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;520|N|Sold by Haferet in The Exodar|
@@ -318,8 +323,8 @@ B Vicious Dragonscale Belt|QID|990078473|RECIPE|78473|M|39.60,34.50|Z|Ironforge|
 B Vicious Dragonscale Belt|QID|990078473|RECIPE|78473|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;520|N|Sold by Joseph Moore in Undercity|
 B Vicious Dragonscale Belt|QID|990078473|RECIPE|78473|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;520|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Dragonscale Belt|QID|990078473|RECIPE|78473|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;520|N|Sold by Mak in Thunder Bluff|
-B Contender's Wyrmhide Boots|QID|990124593|RECIPE|124593|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Wyrmhide Boots|QID|990124593|RECIPE|124593|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Wyrmhide Boots|QID|990124593|RECIPE|124593|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Wyrmhide Boots|QID|990124593|RECIPE|124593|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Vicious Charscale Chest|QID|990078483|RECIPE|78483|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Haferet in The Exodar|
 B Vicious Charscale Chest|QID|990078483|RECIPE|78483|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Zaralda in Silvermoon City|
 B Vicious Charscale Chest|QID|990078483|RECIPE|78483|M|78.80,76.20|Z|Twilight Highlands|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Misty Merriweather in Twilight Highlands|
@@ -330,32 +335,32 @@ B Vicious Charscale Chest|QID|990078483|RECIPE|78483|M|39.60,34.50|Z|Ironforge|F
 B Vicious Charscale Chest|QID|990078483|RECIPE|78483|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Joseph Moore in Undercity|
 B Vicious Charscale Chest|QID|990078483|RECIPE|78483|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Charscale Chest|QID|990078483|RECIPE|78483|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Mak in Thunder Bluff|
-B Contender's Wyrmhide Belt|QID|990124594|RECIPE|124594|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Wyrmhide Belt|QID|990124594|RECIPE|124594|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Dragonscale Boots|QID|990124617|RECIPE|124617|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Dragonscale Boots|QID|990124617|RECIPE|124617|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Wyrmhide Belt|QID|990124594|RECIPE|124594|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Wyrmhide Belt|QID|990124594|RECIPE|124594|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Dragonscale Boots|QID|990124617|RECIPE|124617|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Dragonscale Boots|QID|990124617|RECIPE|124617|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Swiftarrow Bracers|QID|990060731|RECIPE|60731|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;420|N|Sold by Braeg Stoutbeard in Dalaran|
-B Contender's Dragonscale Gloves|QID|990124614|RECIPE|124614|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Dragonscale Gloves|QID|990124614|RECIPE|124614|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Scale Helm|QID|990124595|RECIPE|124595|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Scale Helm|QID|990124595|RECIPE|124595|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Dragonscale Chestguard|QID|990124613|RECIPE|124613|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Dragonscale Chestguard|QID|990124613|RECIPE|124613|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Dragonscale Gloves|QID|990124614|RECIPE|124614|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Dragonscale Gloves|QID|990124614|RECIPE|124614|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Scale Helm|QID|990124595|RECIPE|124595|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Scale Helm|QID|990124595|RECIPE|124595|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Dragonscale Chestguard|QID|990124613|RECIPE|124613|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Dragonscale Chestguard|QID|990124613|RECIPE|124613|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Black Whelp Tunic|QID|990024940|RECIPE|24940|M|29.10,47.50|Z|Redridge Mountains|FACTION|Alliance|P|Leatherworking;165;100|N|Sold by Amy Davenport in Redridge Mountains|
-B Contender's Leather Boots|QID|990124609|RECIPE|124609|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Leather Boots|QID|990124609|RECIPE|124609|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Leather Bracers|QID|990124608|RECIPE|124608|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;555|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Leather Bracers|QID|990124608|RECIPE|124608|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;555|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Leather Gloves|QID|990124606|RECIPE|124606|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Leather Gloves|QID|990124606|RECIPE|124606|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Leather Chestguard|QID|990124605|RECIPE|124605|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Leather Chestguard|QID|990124605|RECIPE|124605|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Leather Shoulders|QID|990124604|RECIPE|124604|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;575|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Leather Shoulders|QID|990124604|RECIPE|124604|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;575|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Scale Shoulders|QID|990124596|RECIPE|124596|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;575|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Scale Shoulders|QID|990124596|RECIPE|124596|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;575|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Scale Boots|QID|990124601|RECIPE|124601|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Scale Boots|QID|990124601|RECIPE|124601|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Leather Boots|QID|990124609|RECIPE|124609|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Leather Boots|QID|990124609|RECIPE|124609|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Leather Bracers|QID|990124608|RECIPE|124608|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;555|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Leather Bracers|QID|990124608|RECIPE|124608|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;555|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Leather Gloves|QID|990124606|RECIPE|124606|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Leather Gloves|QID|990124606|RECIPE|124606|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Leather Chestguard|QID|990124605|RECIPE|124605|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Leather Chestguard|QID|990124605|RECIPE|124605|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Leather Shoulders|QID|990124604|RECIPE|124604|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;575|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Leather Shoulders|QID|990124604|RECIPE|124604|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;575|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Scale Shoulders|QID|990124596|RECIPE|124596|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;575|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Scale Shoulders|QID|990124596|RECIPE|124596|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;575|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Scale Boots|QID|990124601|RECIPE|124601|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Scale Boots|QID|990124601|RECIPE|124601|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Charscale Leg Armor|QID|990078478|RECIPE|78478|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Haferet in The Exodar|
 B Charscale Leg Armor|QID|990078478|RECIPE|78478|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Zaralda in Silvermoon City|
 B Charscale Leg Armor|QID|990078478|RECIPE|78478|M|78.80,76.20|Z|Twilight Highlands|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Misty Merriweather in Twilight Highlands|
@@ -379,15 +384,15 @@ B Vicious Dragonscale Chest|QID|990078486|RECIPE|78486|M|42.00,43.50|Z|Thunder B
 B Wicked Leather Gauntlets|QID|990019049|RECIPE|19049|M|43.00,84.30|Z|Western Plaguelands|FACTION|Alliance|P|Leatherworking;165;260|N|Sold by Leonard Porter in Western Plaguelands|
 B Wicked Leather Gauntlets|QID|990019049|RECIPE|19049|M|83.20,69.70|Z|Tirisfal Glades|FACTION|Horde|P|Leatherworking;165;260|N|Sold by Werg Thickblade in Tirisfal Glades|
 B Devilsaur Leggings|QID|990019097|RECIPE|19097|M|54.80,62.50|Z|Un'Goro Crater|FACTION|Neutral|P|Leatherworking;165;300|N|Limited quantity sold by Nergal in Un'Goro Crater|
-B Contender's Wyrmhide Chestguard|QID|990124589|RECIPE|124589|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Wyrmhide Chestguard|QID|990124589|RECIPE|124589|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Wyrmhide Chestguard|QID|990124589|RECIPE|124589|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Wyrmhide Chestguard|QID|990124589|RECIPE|124589|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Swiftarrow Gauntlets|QID|990060732|RECIPE|60732|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;425|N|Sold by Braeg Stoutbeard in Dalaran|
-B Contender's Scale Chestguard|QID|990124597|RECIPE|124597|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Scale Chestguard|QID|990124597|RECIPE|124597|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Scale Gloves|QID|990124598|RECIPE|124598|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Scale Gloves|QID|990124598|RECIPE|124598|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
-B Contender's Scale Leggings|QID|990124599|RECIPE|124599|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Scale Leggings|QID|990124599|RECIPE|124599|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Scale Chestguard|QID|990124597|RECIPE|124597|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Scale Chestguard|QID|990124597|RECIPE|124597|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Scale Gloves|QID|990124598|RECIPE|124598|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Scale Gloves|QID|990124598|RECIPE|124598|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Scale Leggings|QID|990124599|RECIPE|124599|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Scale Leggings|QID|990124599|RECIPE|124599|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Dragonkiller Tunic|QID|990078490|RECIPE|78490|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Haferet in The Exodar|
 B Dragonkiller Tunic|QID|990078490|RECIPE|78490|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Zaralda in Silvermoon City|
 B Dragonkiller Tunic|QID|990078490|RECIPE|78490|M|78.80,76.20|Z|Twilight Highlands|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Misty Merriweather in Twilight Highlands|
@@ -438,8 +443,8 @@ B Vicious Wyrmhide Helm|QID|990078480|RECIPE|78480|M|39.60,34.50|Z|Ironforge|FAC
 B Vicious Wyrmhide Helm|QID|990078480|RECIPE|78480|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Joseph Moore in Undercity|
 B Vicious Wyrmhide Helm|QID|990078480|RECIPE|78480|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;525|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Wyrmhide Helm|QID|990078480|RECIPE|78480|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;525|N|Sold by Mak in Thunder Bluff|
-B Contender's Scale Bracers|QID|990124600|RECIPE|124600|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;555|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Scale Bracers|QID|990124600|RECIPE|124600|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;555|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Scale Bracers|QID|990124600|RECIPE|124600|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;555|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Scale Bracers|QID|990124600|RECIPE|124600|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;555|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Vicious Dragonscale Helm|QID|990078474|RECIPE|78474|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;520|N|Sold by Haferet in The Exodar|
 B Vicious Dragonscale Helm|QID|990078474|RECIPE|78474|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;520|N|Sold by Zaralda in Silvermoon City|
 B Vicious Dragonscale Helm|QID|990078474|RECIPE|78474|M|78.80,76.20|Z|Twilight Highlands|FACTION|Alliance|P|Leatherworking;165;520|N|Sold by Misty Merriweather in Twilight Highlands|
@@ -530,12 +535,12 @@ B Vicious Wyrmhide Bracers|QID|990078444|RECIPE|78444|M|39.60,34.50|Z|Ironforge|
 B Vicious Wyrmhide Bracers|QID|990078444|RECIPE|78444|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Joseph Moore in Undercity|
 B Vicious Wyrmhide Bracers|QID|990078444|RECIPE|78444|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Wyrmhide Bracers|QID|990078444|RECIPE|78444|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Mak in Thunder Bluff|
-B Contender's Scale Belt|QID|990124602|RECIPE|124602|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Scale Belt|QID|990124602|RECIPE|124602|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Scale Belt|QID|990124602|RECIPE|124602|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Scale Belt|QID|990124602|RECIPE|124602|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Eviscerator's Chestguard|QID|990060703|RECIPE|60703|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;420|N|Sold by Braeg Stoutbeard in Dalaran|
 B Shadowskin Gloves|QID|990022711|RECIPE|22711|M|43.20,71.70|Z|The Cape of Stranglethorn|FACTION|Neutral|P|Leatherworking;165;200|N|Limited quantity sold by Rikqiz in The Cape of Stranglethorn|
-B Contender's Leather Helm|QID|990124603|RECIPE|124603|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Leather Helm|QID|990124603|RECIPE|124603|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Leather Helm|QID|990124603|RECIPE|124603|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Leather Helm|QID|990124603|RECIPE|124603|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Green Leather Armor|QID|990003772|RECIPE|3772|M|25.70,25.80|Z|Wetlands|FACTION|Alliance|P|Leatherworking;165;155|N|Sold by Wenna Silkbeard in Wetlands|
 B Green Leather Armor|QID|990003772|RECIPE|3772|M|76.70,58.50|Z|Hillsbrad Foothills|FACTION|Horde|P|Leatherworking;165;155|N|Limited quantity sold by George Candarte in Hillsbrad Foothills|
 B Gem-studded Leather Belt|QID|990003778|RECIPE|3778|M|43.20,71.70|Z|The Cape of Stranglethorn|FACTION|Neutral|P|Leatherworking;165;185|N|Limited quantity sold by Rikqiz in The Cape of Stranglethorn|
@@ -550,8 +555,8 @@ B Stormshroud Pants|QID|990019067|RECIPE|19067|M|43.00,84.30|Z|Western Plaguelan
 B Stormshroud Pants|QID|990019067|RECIPE|19067|M|83.20,69.70|Z|Tirisfal Glades|FACTION|Horde|P|Leatherworking;165;275|N|Sold by Werg Thickblade in Tirisfal Glades|
 B Eviscerator's Gauntlets|QID|990060705|RECIPE|60705|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;425|N|Sold by Braeg Stoutbeard in Dalaran|
 B Swiftarrow Boots|QID|990060737|RECIPE|60737|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;425|N|Sold by Braeg Stoutbeard in Dalaran|
-B Contender's Leather Leggings|QID|990124607|RECIPE|124607|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Leather Leggings|QID|990124607|RECIPE|124607|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Leather Leggings|QID|990124607|RECIPE|124607|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Leather Leggings|QID|990124607|RECIPE|124607|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Earthen Leather Shoulders|QID|990009147|RECIPE|9147|M|49.80,60.80|Z|Hillsbrad Foothills|FACTION|Neutral|P|Leatherworking;165;135|N|Limited quantity sold by Zixil in Hillsbrad Foothills|
 B Earthgiving Legguards|QID|990060760|RECIPE|60760|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;440|N|Sold by Braeg Stoutbeard in Dalaran|
 B Windripper Boots|QID|990062176|RECIPE|62176|M|37.60,29.50|Z|Dalaran|FACTION|Neutral|P|Leatherworking;165;440|N|Sold by Braeg Stoutbeard in Dalaran|
@@ -592,8 +597,8 @@ B Vicious Leather Gloves|QID|990078447|RECIPE|78447|M|39.60,34.50|Z|Ironforge|FA
 B Vicious Leather Gloves|QID|990078447|RECIPE|78447|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Joseph Moore in Undercity|
 B Vicious Leather Gloves|QID|990078447|RECIPE|78447|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Leather Gloves|QID|990078447|RECIPE|78447|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Mak in Thunder Bluff|
-B Contender's Leather Belt|QID|990124610|RECIPE|124610|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Leather Belt|QID|990124610|RECIPE|124610|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Leather Belt|QID|990124610|RECIPE|124610|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;565|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Leather Belt|QID|990124610|RECIPE|124610|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;565|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Vicious Charscale Bracers|QID|990078448|RECIPE|78448|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Haferet in The Exodar|
 B Vicious Charscale Bracers|QID|990078448|RECIPE|78448|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Zaralda in Silvermoon City|
 B Vicious Charscale Bracers|QID|990078448|RECIPE|78448|M|78.80,76.20|Z|Twilight Highlands|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Misty Merriweather in Twilight Highlands|
@@ -604,8 +609,8 @@ B Vicious Charscale Bracers|QID|990078448|RECIPE|78448|M|39.60,34.50|Z|Ironforge
 B Vicious Charscale Bracers|QID|990078448|RECIPE|78448|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Joseph Moore in Undercity|
 B Vicious Charscale Bracers|QID|990078448|RECIPE|78448|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Charscale Bracers|QID|990078448|RECIPE|78448|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Mak in Thunder Bluff|
-B Contender's Dragonscale Helm|QID|990124611|RECIPE|124611|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Dragonscale Helm|QID|990124611|RECIPE|124611|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Dragonscale Helm|QID|990124611|RECIPE|124611|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;590|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Dragonscale Helm|QID|990124611|RECIPE|124611|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;590|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Ironfeather Shoulders|QID|990019062|RECIPE|19062|M|34.50,38.50|Z|The Hinterlands|FACTION|Neutral|P|Leatherworking;165;270|N|Limited quantity sold by Gigget Zipcoil in The Hinterlands|
 B Vicious Charscale Gloves|QID|990078449|RECIPE|78449|M|66.60,73.70|Z|The Exodar|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Haferet in The Exodar|
 B Vicious Charscale Gloves|QID|990078449|RECIPE|78449|M|84.80,78.60|Z|Silvermoon City|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Zaralda in Silvermoon City|
@@ -617,8 +622,8 @@ B Vicious Charscale Gloves|QID|990078449|RECIPE|78449|M|39.60,34.50|Z|Ironforge|
 B Vicious Charscale Gloves|QID|990078449|RECIPE|78449|M|70.00,58.50|Z|Undercity|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Joseph Moore in Undercity|
 B Vicious Charscale Gloves|QID|990078449|RECIPE|78449|M|71.60,62.80|Z|Stormwind City|FACTION|Alliance|P|Leatherworking;165;510|N|Sold by Jillian Tanner in Stormwind City|
 B Vicious Charscale Gloves|QID|990078449|RECIPE|78449|M|42.00,43.50|Z|Thunder Bluff|FACTION|Horde|P|Leatherworking;165;510|N|Sold by Mak in Thunder Bluff|
-B Contender's Dragonscale Shoulders|QID|990124612|RECIPE|124612|M|31.20,47.00|Z|Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;575|N|Sold by Krogo Darkhide in Shrine of Two Moons|
-B Contender's Dragonscale Shoulders|QID|990124612|RECIPE|124612|M|76.80,49.00|Z|Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;575|N|Sold by Tanner Pang in Shrine of Seven Stars|
+B Contender's Dragonscale Shoulders|QID|990124612|RECIPE|124612|M|31.20,47.00|Z|The Imperial Mercantile@Shrine of Two Moons|FACTION|Horde|P|Leatherworking;165;575|N|Sold by Krogo Darkhide in Shrine of Two Moons|
+B Contender's Dragonscale Shoulders|QID|990124612|RECIPE|124612|M|76.80,49.00|Z|The Imperial Exchange@Shrine of Seven Stars|FACTION|Alliance|P|Leatherworking;165;575|N|Sold by Tanner Pang in Shrine of Seven Stars|
 B Barbaric Leggings|QID|990007149|RECIPE|7149|M|34.80,49.80|Z|Ashenvale|FACTION|Alliance|P|Leatherworking;165;170|N|Sold by Lardan in Ashenvale|
 B Barbaric Leggings|QID|990007149|RECIPE|7149|M|40.52,48.89|Z|Arathi Highlands|FACTION|Alliance|P|Leatherworking;165;170|N|Sold by Hammon Karwn in Arathi Highlands|
 B Barbaric Leggings|QID|990007149|RECIPE|7149|M|69.20,33.60|Z|Arathi Highlands|FACTION|Horde|P|Leatherworking;165;170|N|Limited quantity sold by Keena in Arathi Highlands|

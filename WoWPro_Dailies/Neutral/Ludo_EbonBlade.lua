@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/icecrown_dalies
+-- Date: 2014-07-25 21:44
+-- Who: Ludovicus
+-- Log: Adj mean
+
+-- URL: http://wow-pro.com/node/3405/revisions/26594/view
+-- Date: 2014-07-25 21:01
+-- Who: Ludovicus
+-- Log: Adj. mean levels.
+
+-- URL: http://wow-pro.com/node/3405/revisions/26585/view
+-- Date: 2014-07-20 19:26
+-- Who: Ludovicus
+-- Log: Added faction to Ebon Blade
+
+-- URL: http://wow-pro.com/node/3405/revisions/26547/view
 -- Date: 2014-07-06 15:24
 -- Who: Ludovicus
 -- Log: Guide Levels and faction
@@ -59,7 +74,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoEbonBlade",'Dailies', "Icecrown", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Ebon Blade"
+WoWPro.Dailies:GuideFaction(guide,1098) --  "Knights of the Ebon Blade"
 WoWPro:GuideSteps(guide, function()
 return [[
 
