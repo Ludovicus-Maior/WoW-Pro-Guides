@@ -384,6 +384,77 @@ A Laying Dionor to Rest |QID|36443|N|From Birchus|M|50.30,47.48|
 T Laying Dionor to Rest |QID|36443|N|To Birchus|M|50.30,47.48|
 
 N Zone Finished|QID|0|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto Talador guide.|
+N Shadowmoon Leftovers |QID|0|N|These quests need to send you back to shadowmoon for processing|
+L Level 94 |QID|33113|LVL|94|N|Move onto Gorgrond, you can come back to this guide after you've levelled up a bit (the next steps require Level 94)|
+A Meet Us at Starfall Outpost|QID|33359|LVL|94|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|
+A Bounty: Twisted Ancient|QID|33111|LVL|94|N|From the Bulletin Board. This is a 3-party group quest.|M|42.72,44.75|RANK|2|
+
+T Meet Us at Starfall Outpost|QID|33359|LVL|94|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72|
+A Catching His Eye|QID|33062|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33359|
+
+A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.5,24.5|LVL|94|
+C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|LVL|94|
+C Bounty: Twisted Ancient|QID|33111|LVL|94|N|Kill and loot the Twisted Ancient for the Corrupted Lumber. This is flagged as a 3-party group quest.|RANK|2|M|26.15,17.50|
+
+R Watcher's Den|QID|33062|ACTIVE|33062|LVL|94|N|Head to the Watcher's Den|M|22.87,16.86|
+C Catching His Eye|QID|33062|LVL|94|N|Capture the All-Seeing Eye (bring his health down to 1%)|
+T Catching His Eye|QID|33062|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+
+A Shrouding Stones |QID|33115|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33062|
+T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.5,24.5|LVL|94|
+A A Curse Upon the Woods |QID|33120|N|From Delas Moonfang|M|29.5,24.5|PRE|33113|LVL|94|
+
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|LVL|94|S|
+C Shrouding Stones |QID|33115|LVL|94|N|Southern Shrouding Stone destroyed by clicking it.|QO|3|NC|M|23.82,28.72|
+C Shrouding Stones |QID|33115|LVL|94|N|Central Shrouding Stone destroyed by clicking it.|QO|1|NC|M|23.04,24.40|
+C Shrouding Stones |QID|33115|LVL|94|N|Northern Shrouding Stone destroyed by clicking it.|QO|2|NC|M|26.00,15.92|
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|LVL|94|US|
+
+T Shrouding Stones |QID|33115|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+A Ominous Portents |QID|33112|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33115|
+
+T A Curse Upon the Woods |QID|33120|N|To Delas Moonfang|M|29.5,24.5|LVL|94|
+C Ominous Portents |QID|33112|LVL|94|N|Speak to the All-Seeing Eye and begin the compulsion. Use key 1 until he says something, then use key 2. Repeat until you get the cinematic.|CHAT|
+T Ominous Portents |QID|33112|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+
+A Soul Shards of Summoning |QID|33066|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33112|
+A Cleaning Up Gul'var|QID|33269|LVL|94|N|From Cordana Felsong|M|29.27,25.70|PRE|33112|
+
+C Cleaning Up Gul'var|QID|33269|LVL|94|N|Kill the Shadow Council orcs|S|
+C Soul Shards of Summoning |QID|33066|LVL|94|N|Kill and loot Fel Mistress Hagra for her shard|QO|1|M|20.89,27.26|
+C Soul Shards of Summoning |QID|33066|LVL|94|N|Kill and loot Grogal the Harvester for his shard|QO|2|M|20.82,31.56|
+C Soul Shards of Summoning |QID|33066|LVL|94|N|Kill and loot Corruptor Kurgoth for his shard|QO|3|M|18.26,24.15|
+
+T Soul Shards of Summoning |QID|33066|LVL|94|N|To Image of Archmage Khadgar|M|19.07,28.55|
+A Heart on Fire|QID|33168|LVL|94|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33066|
+C Heart on Fire|QID|33168|LVL|94|N|Kill and loot Krosnis for his Fiery Heart.|M|17.72,27.48|T|Krosnis|
+T Heart on Fire|QID|33168|LVL|94|N|To Image of Archmage Khadgar|M|19.07,28.55|
+
+A Forging the Soul Trap |QID|33114|LVL|94|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33168|
+C Forging the Soul Trap |QID|33114|LVL|94|N|Click on the Gul'var Soul Shards to combine them.|NC|
+T Forging the Soul Trap |QID|33114|LVL|94|N|To Image of Archmage Khadgar|M|19.07,28.55|
+
+A To Catch a Shadow |QID|33116|LVL|94|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|
+C To Catch a Shadow |QID|33116|LVL|94|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|
+C To Catch a Shadow |QID|33116|LVL|94|N|Kill Ruzuun|QO|2|
+
+C Cleaning Up Gul'var|QID|33269|LVL|94|N|Finish Killing the Shadow Council orcs|US|M|19.40,24.90|
+T Cleaning Up Gul'var|QID|33269|LVL|94|N|To Cordana Felsong|M|29.27,25.70|
+
+T To Catch a Shadow |QID|33116|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+T Bounty: Twisted Ancient|QID|33111|LVL|94|M|31.8,31.2|Z|Lunarfall|N|To Baros Alexston.|
+
+L Level 100 |QID|34352|LVL|100|N|The final quests in Shadowmoon Valley require Level 100.|
+R Darktide Roost |QID|34352|N|Head down to Darktide Roost|LVL|100|
+N Guide to follow |QID|34352|N|Remaining steps of this guide are to follow soon.|LVL|100|
+
+;A Darktide Defender |QID|34352|
+;A Dirty Rats |QID|34355|
+;A Releasing Rylak |QID|34365|
+;A Downsizing the Darktide |QID|34397|
+;A Rylak Rescue |QID|34450|
+;A Free their Minds |QID|34455|
+
 
 ]]
 
