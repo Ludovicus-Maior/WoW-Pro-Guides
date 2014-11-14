@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-11-14 21:39
+-- Who: Ludovicus
+-- Log: Add the final D step
+
+-- URL: http://wow-pro.com/node/3604/revisions/26991/view
+-- Date: 2014-11-14 15:05
+-- Who: Twists
+
+-- URL: http://wow-pro.com/node/3604/revisions/26987/view
 -- Date: 2014-11-14 12:25
 -- Who: Ludovicus
 
@@ -548,6 +557,7 @@ A The Dark Side of the Moon|QID|34054|PRE|35032|N|Auto-Accept|
 C The Dark Side of the Moon|QID|34054|N|Head up the Terrace of the Stars to Yrel then Velen.|M|29.44,40.59;30.3,43.2|NC|QO|1|CS|
 C The Dark Side of the Moon|QID|34054|N|Wait for the dialog to finish, then kill Arkeddon.|M|30.9,43.9|QO|2|
 
+l Ronokk's Belongs |QID|33886|N|Ronokk's Belongs: Lootable object for a cloak and tidy XP.|M|31.30,39.10|RANK|3|
 l Carved Drinking Horn |QID|33569|N|Carved Drinking Horn: Lootable object for Carved Drinking Horn and tidy XP.|M|33.50,39.65|RANK|3|
 C The Great Salvation|QID|33794|N|Finish rescuing the Draenei prisoners by opening the cages.|NC|US|
 C Across the Stars|QID|33795|N|Finish picking up the Star Readings from the floor.|NC|US|
@@ -743,7 +753,7 @@ T Your First Leatherworking Work Order |QID|36642|N|To Marianne Levine.|ACTIVE|3
 ; Having this quest and the [Ashran Appearance] quest causes the Ashran one not to complete.
 A The Secrets of Gorgrond |QID|35556|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|36632;35556|LVL|92|M|42.65,44.74|Z|Lunarfall|
 
-N Zone Finished|QID|33533;35556;36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
+D Zone Finished|QID|33533;35556;36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
 ]]
 
 end)

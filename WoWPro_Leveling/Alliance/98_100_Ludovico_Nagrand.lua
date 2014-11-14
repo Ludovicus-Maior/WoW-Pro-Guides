@@ -1,3 +1,23 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2014-11-14 20:31
+-- Who: Ludovicus
+-- Log: Use the right faction, stupid!
+
+-- URL: http://wow-pro.com/node/3618/revisions/26993/view
+-- Date: 2014-11-14 17:44
+-- Who: Ludovicus
+-- Log: corrected links
+
+-- URL: http://wow-pro.com/node/3618/revisions/26992/view
+-- Date: 2014-11-14 17:44
+-- Who: Ludovicus
+-- Log: Init
+
 local guide = WoWPro:RegisterGuide('LudoNagrand', 'Leveling', 'Nagrand', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
 WoWPro:GuideNextGuide(guide, 'nil')
@@ -5,7 +25,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Beginnings|QID|36607|N|This guide begins at your garrison to take the free flight to Nagrand.|
-N Bonus Objectives|QID|36607|N|The bonus quests are not mentioned in this guide. Feel free to do them if you want to. You must be 98 to do this guide.|
+N Bonus Objectives|QID|36607|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 98 to do this guide.|
 
 T News from Nagrand|QID|36607|M|45.82,42.96|Z|Frostwall|N|To Rokhan.|
 A Taking the Fight to Nagrand|QID|34794|M|45.82,42.96|Z|Frostwall|N|From Rokhan.|

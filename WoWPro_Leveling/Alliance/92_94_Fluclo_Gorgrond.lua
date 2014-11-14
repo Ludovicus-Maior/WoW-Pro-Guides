@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2014-11-15 00:30
+-- Who: Ludovicus
+-- Log: Played through [Seeking the Scout]
+
+-- URL: http://wow-pro.com/node/3613/revisions/26988/view
 -- Date: 2014-11-14 12:26
 -- Who: Ludovicus
 
@@ -70,47 +75,47 @@ N Welcome to Gorgrond|QID|35033|ACTIVE|35033|S|N|If you want the garrison supply
 A Welcome to Gorgrond |QID|35033|N|From Yrel|M|63.99,57.19|PRE|33533+36632+35556|
 C Welcome to Gorgrond |QID|35033|N|Ride up the path|QO|1|M|63.50,52.78|NC|
 C Welcome to Gorgrond |QID|35033|N|Head into the cave at Naielle's Watch|QO|2|NC|M|64.19,51.76|
-T Welcome to Gorgrond |QID|35033|N|To Rangari D'kaan|M|64.2,51.8|
+T Welcome to Gorgrond |QID|35033|N|To Rangari D'kaan|M|64.21,51.94|
 
-A A Harvester Has Come |QID|35065|N|From Rangari D'kaan|M|64.2,51.8|
-A Wake of the Genesaur |QID|35834|N|From Rangari Kaalya|M|64.2,51.8|
+A A Harvester Has Come |QID|35065|N|From Rangari D'kaan|M|64.21,51.94|
+A Wake of the Genesaur |QID|35834|N|From Rangari Kaalya|M|64.20,51.77|
 
 C Wake of the Genesaur |QID|35834|N|Kill the Wild Overgrowth|S|
 C A Harvester Has Come |QID|35065|N|Kill Harvester Ommru|M|63.2,46.8|T|Harvester Ommru|
 A I Drew Aggro...culture |QID|35828|N|From Thaelin Darkanvil|M|64.99,48.53|
 C Wake of the Genesaur |QID|35834|N|Finish Killing the Wild Overgrowth|US|
 
-T Wake of the Genesaur |QID|35834|N|To Rangari Kaalya who has moved to the road|M|63.13,52.32|
-T A Harvester Has Come |QID|35065|N|To Rangari D'kaan|M|63.21,52.28|
+T Wake of the Genesaur |QID|35834|N|To Rangari Kaalya who has moved to the road|M|63.14,52.29|
+T A Harvester Has Come |QID|35065|N|To Rangari D'kaan|M|63.21,52.26|
 
-T I Drew Aggro...culture |QID|35828|N|To Thaelin Darkanvil|M|63.18,52.41|
+T I Drew Aggro...culture |QID|35828|N|To Thaelin Darkanvil|M|63.17,52.41|
 A He Drew Aggro...culture |QID|36595|N|From Rangari D'kaan|M|63.21,52.28|LEAD|35828|
 C He Drew Aggro...culture |QID|36595|N|Free Thaelin Darkanvil from the Aggressive Growth, then speak to him.|M|64.99,48.53|CHAT|
 T He Drew Aggro...culture |QID|36595|N|To Thaelin Darkanvil, who has moved to the road.|M|63.18,52.41|
 
 A Lost Mole Machines |QID|35055|N|From Thaelin Darkanvil|M|63.18,52.41|PRE|36595;35828|
-A Rescue Rangari |QID|35050|N|From Rangari D'kaan|M|64.2,51.8|
+A Rescue Rangari |QID|35050|N|From Rangari D'kaan|M|63.21,52.26|
 
 C Rescue Rangari |QID|35050|N|Find Rangari Kolaan, down the path on the left. Watch out for the Elite!|M|59.45,53.18|QO|1|CHAT|
-C Rescue Rangari |QID|35050|N|Find Rangari Rajess, further down the path, on the right.|M|57.70,54.30|QO|2|CHAT|
+C Rescue Rangari |QID|35050|N|Find Rangari Rajess, further down the path, on the right.|M|57.71,54.29|QO|2|CHAT|
 C Rescue Rangari |QID|35050|N|Find Rangari Jonaa, further down the path, on the right.|M|55.06,58.56|QO|3|CHAT|
 
 C Lost Mole Machines |QID|35055|N|To Glirin at the Lost Mole Machine, further down the path, then down the dirt track on your right.|M|53.95,60.14|QO|1|CHAT|
 C Lost Mole Machines |QID|35055|N|Wait for Thaelin's Arrival|M|54,60|QO|2|NC|
 
-T Rescue Rangari |QID|35050|N|To Rangari D'kaan, who has relocated to the Highpass.|M|53.46,60.43|
-T Lost Mole Machines |QID|35055|N|To Thaelin Darkanvil|M|53.42,60.34|
+T Rescue Rangari |QID|35050|N|To Rangari D'kaan, who has relocated to the Highpass.|M|53.48,60.43|
+T Lost Mole Machines |QID|35055|N|To Thaelin Darkanvil|M|53.42,60.33|
 
-A We Need An Outpost |QID|35063|N|From Thaelin Darkanvil|M|53.42,60.34|
+A We Need An Outpost |QID|35063|N|From Thaelin Darkanvil|M|53.42,60.33|
 C We Need An Outpost |QID|35063|N|Use the Drafting Table and select one of the buildings|NC|M|53.44,60.31|
 h Highpass |QID|35063|N|Set your hearthstone with Trader Yula|M|53.23,59.79|
-T We Need An Outpost |QID|35063|N|To Thaelin Darkanvil who has moved further into the Highpass.|M|53.00,59.76|
+T We Need An Outpost |QID|35063|N|To Thaelin Darkanvil who has moved further into the Highpass.|M|53.00,59.78|
 
-A Next Quest |QID|35708;34704|N|If you built a Lumber Yard, get Tangleheart from Glirin.\nIf you built a Sparring Ring, get A Rediscovered Legend from Rangari Jonaa|M|53.06,59.51;53.06,59.51|CN|
+A Next Quest |QID|35708;34704|N|If you built a Lumber Yard, get Tangleheart from Glirin.\nIf you built a Sparring Ring, get A Rediscovered Legend from Rangari Jonaa|M|53.06,59.51;53.02,59.81|CN|
 
 ;The following quests are if you selected Lumber Yard
-f Highpass Logging Camp |QID|35708|N|With Rangari Rajess|M|52.81,59.35|ACTIVE|35708|
-A Deeproot |QID|35212|N|From Thaelin Darkanvil|M|53.00,59.76|ACTIVE|35708|
+f Highpass |QID|35708|N|With Rangari Rajess|M|52.83,59.33|ACTIVE|35708|
+A Deeproot |QID|35212|N|From Thaelin Darkanvil|M|53.00,59.78|ACTIVE|35708|
 T Tangleheart |QID|35708|N|To Glirin, who has moved to Tangleheart|M|55.93,71.54|
 A Growing Wood |QID|35652|N|From Glirin|M|55.93,71.54|PRE|35708|
 A Lost Lumberjack |QID|36368|N|From Glirin|M|55.93,71.54|PRE|35708|
@@ -133,11 +138,11 @@ T Chapter II: The Harvest |QID|35651|N|To Glirin|M|60.71,64.78|
 T Chapter III: Ritual of the Charred |QID|35650|N|To Glirin|M|60.71,64.78|
 
 R Highpass |QID|36828|N|Click on the Dark Iron Mole Machine to return to Highpass Logging Camp.|M|60.70,64.82|PRE|35652;35654;35651;35650|
-A Lumber, I Hardly Knew 'Er |QID|36828|N|From Glirin, back in Highpass.|PRE|35652;35654;35651;35650|
+A Lumber, I Hardly Knew 'Er |QID|36828|N|From Glirin, back in Highpass.|PRE|35652;35654;35651;35650|M|53.02,59.81|
 
 T Deeproot |QID|35212|N|To Thaelin Darkanvi, who is now in Deeproot.|M|46.08,76.86|
 A The Razorbloom|QID|35213|N|From Thaelin Darkanvi, who is now in Deeproot.|M|46.08,76.86|PRE|35212|
-A The Infested|QID|35214|N|From Rangari Kaalya|M|46.13,76.66|PRE|35212|
+A The Infested|QID|35214|N|From Rangari Kaalya|M|46.12,76.66|PRE|35212|
 f Deeproot|QID|35213|N|From Rangari Nogo|M|46.46,76.60|ACTIVE|35213|
 
 C The Infested|QID|35214|N|Kill the Infested Orcs|S|
@@ -149,14 +154,14 @@ C The Voice of Iyu |QID|35215|N|Slay the Voice of Iyu|T|Voice of Iyu|M|49.43,71.
 A Super Seeds |QID|35216|N|From Enriched Seeds|ACTIVE|35215|M|49.46,70.95|
 C The Infested|QID|35214|N|Finish killing the Infested Orcs|US|
 
-T The Infested|QID|35214|N|To Rangari Kaalya|M|46.13,76.66|
+T The Infested|QID|35214|N|To Rangari Kaalya|M|46.12,76.66|
 T The Razorbloom|QID|35213|N|To Thaelin Darkanvi.|M|46.08,76.86|
 T The Voice of Iyu |QID|35215|N|To Thaelin Darkanvi.|M|46.08,76.86|
 T Super Seeds |QID|35216|N|To Thaelin Darkanvi.|M|46.08,76.86|
 
 A Dark Iron Down |QID|35208|N|From Thaelin Darkanvi.|M|46.08,76.86|PRE|35213;35215;35216|
 A Bushwhacker |QID|35206|N|From Yrel|M|46.04,76.67|PRE|35213;35215;35216|
-A Pollen Power |QID|35204|N|From Rangari Kaalya|M|46.13,76.66|PRE|35213;35215;35216|
+A Pollen Power |QID|35204|N|From Rangari Kaalya|M|46.12,76.66|PRE|35213;35215;35216|
 
 C Bushwhacker |QID|35206|N|Slay Bloom Weavers|S|
 C Pollen Power |QID|35204|N|Kill and loot the Golden Pollinators and Thicket Ravagers|S|
@@ -168,6 +173,7 @@ A A Green Ogron? |QID|36523|N|From Burrian Coalpart|M|42.11,83.45|PRE|35208|
 C Burn the Bodies |QID|35205|N|Click on the Mulching Body to burn them.|NC|S|
 C A Green Ogron? |QID|36523|N|Kill Infested Ogron|T|Infested Ogron|M|42.93,80.63|
 T A Green Ogron? |QID|36523|N|To Burrian Coalpart, he's running around with you.|
+l Hardened Millvine Seed|M|41.99,81.55|N|Click on the Hardened Millvine Seed for garrison resources.\n(Step does not auto-complete).|ACTIVE|35205|
 C Burn the Bodies |QID|35205|N|Finish clicking on the Mulching Body to burn them.|NC|US|M|43.00,80.50|
 T Burn the Bodies |QID|35205|N|To Burrian Coalpart, he's running around with you.|
 
@@ -183,21 +189,21 @@ C Pollen Power |QID|35204|N|Finish killing and looting the Golden Pollinators an
 
 T The Life Spring|QID|35209|N|To Yrel|M|46.04,76.67|
 T Bushwhacker |QID|35206|N|To Yrel|M|46.04,76.67|
-T Pollen Power |QID|35204|N|To Rangari Kaalya|M|46.13,76.66|
+T Pollen Power |QID|35204|N|To Rangari Kaalya|M|46.12,76.66|
 
 A A Heavy Helping Hand |QID|35225|N|From Thaelin Darkanvi.|M|46.08,76.86|PRE|35209;35206;35204|
 C A Heavy Helping Hand |QID|35225|N|Follow the road then the dirt track south to Bastion Rise|M|47.58,94.10|NC|
 T A Heavy Helping Hand |QID|35225|N|To Hansel Heavyhands|M|47.58,94.10|
 
-A Will of the Genesaur|QID|35234|N|From Hansel Heavyhands|M|47.58,94.10|PRE|35225|
-A Down the Goren Hole |QID|35229|N|From Hansel Heavyhands|M|47.58,94.10|PRE|35225|
-A Just In Case |QID|35233|N|From Hansel Heavyhands|M|47.58,94.10|PRE|35225|
+A Will of the Genesaur|QID|35234|N|From Hansel Heavyhands|M|47.55,94.09|PRE|35225|
+A Down the Goren Hole |QID|35229|N|From Hansel Heavyhands|M|47.55,94.09|PRE|35225|
+A Just In Case |QID|35233|N|From Hansel Heavyhands|M|47.55,94.09|PRE|35225|
 
 C Down the Goren Hole |QID|35229|N|Kill the Goren Breachers in Moira's Bastion.|S|
-C Just In Case |QID|35233|N|Loot the Doomshot from the ground as you head towards the cave below|NC|M|48.21,96|
-C Down the Goren Hole |QID|35229|N|Finish killing the Goren Breachers as you head to the cave below|US|M|48.21,96|
-C Will of the Genesaur|QID|35234|N|Recover the Will of the Genesaur, which is in a cave below.|NC|M|48.21,96.04;48.31,94.17|CN|
-T Will of the Genesaur|QID|35234|N|To Hansel Heavyhands, who has now moved to the machine.|M|47.58,94.10|
+C Just In Case |QID|35233|N|Loot the Doomshot from the ground as you head towards the cave below|NC|M|58.59,23.19|Z|Moira's Bastion|
+C Down the Goren Hole |QID|35229|N|Finish killing the Goren Breachers as you head to the cave below|US|M|58.59,23.19|Z|Moira's Bastion|
+C Will of the Genesaur|QID|35234|N|Recover the Will of the Genesaur, which is in a cave below.|NC|M|58.59,23.19|Z|Moira's Bastion|
+T Will of the Genesaur|QID|35234|N|To Hansel Heavyhands, who has now moved to the machine.|M|50.07,22.32|Z|Moira's Bastion|
 T Down the Goren Hole |QID|35229|N|To Hansel Heavyhands|M|47.58,94.10|
 T Just In Case |QID|35233|N|To Hansel Heavyhands|M|47.58,94.10|
 
@@ -207,14 +213,14 @@ T Iyu |QID|35235|N|To Yrel, who is now in Bastion Rise.|M|47.71,93.30|
 
 A Power of the Genesaur |QID|35255|N|From Yrel|PRE|35235|M|47.71,93.30|
 A Service of Rangari Kaalya|QID|35262|N|From Rangari Kaalya|PRE|35235|M|47.78,93.27|
-f Tailthrasher Basin|QID|35255|N|With Ranger Yaval.|M|46.40,92.41|
+f Bastion Rise|QID|35255|N|At Ranger Yaval down under the ledge.|M|46.40,92.41|
 H Highpass |QID|35255|N|Hearthstone to Highpass, or fly there if you didn't set your hearthstone.|ACTIVE|35255|
 T Power of the Genesaur |QID|35255|N|To Vindicator Maraad|M|52.85,59.68|
 
 ;The following quests are if you selected Gladiator Sanctum
 A Rage and Wisdom |QID|35686|N|From Vindicator Maraad|M|52.85,59.68|ACTIVE|34704|
 f Highpass |QID|35686|N|With Rangari Rajess|M|52.81,59.35|ACTIVE|34704|
-C Rage and Wisdom |QID|35686|N|Ask Rangari Rajess to fly you to Rangari Erdanii|NC|
+C Rage and Wisdom |QID|35686|N|Ask Rangari Rajess to fly you to Rangari Erdanii|NC|M|52.82,59.32|
 T Rage and Wisdom |QID|35686|N|To Rangari Erdanii|M|46.26,66.70|
 
 A Seedbearers of Bad News|QID|35664|N|From Rangari Erdanii|M|46.26,66.70|PRE|35686|
@@ -354,7 +360,7 @@ f The Iron Approach|QID|36575;36576|N|With Nisha|M|43.03,20.22|ACTIVE|36575;3657
 F Highpass |QID|36575;36576|N|Fly to Highpass.|M|43.03,20.22|ACTIVE|36575;36576|
 T Strike While the Iron is Hot |QID|36575;36576|N|To Vindicator Maraad|M|52.85,59.68|
 
-A Rangari in the Red |QID|35666|N|From Rangari D'kaan|M|53.30,59.89|
+A Rangari in the Red |QID|35666|N|From Rangari D'kaan|M|53.32,59.89|
 l Dark Iron Remains |QID|36605|RANK|3|N|Loot the Remains of Balldir Deeprock|M|57.79,55.95|L|118703|ACTIVE|35666|
 T Rangari in the Red |QID|35666|N|To Khaano in the Crimson Fen|M|59.33,56.37|
 
@@ -394,9 +400,9 @@ C Heart of the Fen |QID|35659|N|Head to the Heart of the Fen, then kill Khaano|M
 H Highpass |QID|35659|N|Hearthstone to Highpass, or run there if you didn't set your hearthstone/if your hearthstone is still on cooldown.|
 T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.30,59.89|
 
-A Seeking the Scout |QID|36432|N|From Rangari D'kaan|M|53.30,59.89|
+A Seeking the Scout |QID|36432|N|From Rangari D'kaan|M|53.32,59.89|
 
-A News from Talador |QID|36495|N|***Talador Quest***\nAccept this quest in anticipation of your eventual progression to Talador. From Vindicator Maraad|LVL|94|
+A News from Talador |QID|36495|N|From Vindicator Maraad, to get to Talador later.|LVL|94|
 
 R Cragplume Cauldron|QID|36432|N|Head up the Cragplume Cauldron|ACTIVE|36432|M|50.70,57.02|
 f Breaker's Crown |QID|36432|N|With Nisha|M|45.84,54.95|PRE|35212|
