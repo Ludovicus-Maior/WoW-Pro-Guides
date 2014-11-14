@@ -1,190 +1,176 @@
 #!/usr/bin/env python
 
+import GuideParse
+import Anthrax
 import sys
-import pickle
 
-def Parse(line,linec,Frags):
-    step={}
-    first=Frags.pop(0)
-    # First Frag should be of the form '. .*'
-    STEP=first[0]
-    SPACE=first[1]
-    TITLE=first[2:]
-    if(STEP == "-"):
-        return None
-    if( "ABCTKNURHhFfRbrTlL;".find(STEP) < 0 ):
-        print "! Line %d has unknown step type %c: [%s]" % (linec,STEP,line)
-        return None
-    if( not SPACE.isspace() ):
-        print "! Line %d has missing space after step %c: [%s]" % (linec,STEP,line)
-        return None
-    if( len(TITLE) < 3 ):
-        print "! Line %d for step %c has too short a title: [%s]" % (linec,STEP,line)
-        return None
-    step['STEP']=STEP
-    step['TITLE']=TITLE.strip()
-    
-    while(len(Frags) > 0):
-        TAG=Frags.pop(0).strip()
-        if(TAG == ""):
-            continue
-        if(TAG == "QID" or TAG=="RANK" or TAG=="LEAD" or TAG=="LVL" or TAG == "U"):
-            qid=Frags.pop(0)
-            if(not qid.isdigit()):
-                print "! Line %d, for step %c non-decimal %s: [%s]" % (linec,STEP,TAG,line)
-                return None
-            QID=str(int(qid))
-            if( QID != qid):
-                print "! Line %d for step %c malformed %s: [%s]" % (linec,STEP,TAG,line)
-                return None
-            step[TAG]=QID
-            continue
-        if(TAG == "PRE"):
-            qids=Frags.pop(0).split(';')
-            for qid in qids:
-                if(not qid.isdigit()):
-                    print "! Line %d, for step %c non-decimal %s: [%s]" % (linec,STEP,TAG,line)
-                    return None
-                QID=str(int(qid))
-                if( QID != qid):
-                    print "! Line %d for step %c malformed %s: [%s]" % (linec,STEP,TAG,line)
-                    return None 
-            step[TAG]=qids
-            continue
-        if(TAG == "M"):
-            coords=Frags.pop(0).split(';')
-            for coord in coords:
-                X=coord.split(',')
-                if(len(X) != 2):
-                    print "! Line %d for step %c has %d M coords: [%s]" % (linec, STEP,len(X),line)
-                    return None
-                for xx in X:
-                    try:
-                        x=float(xx)
-                    except:
-                        x = -1
-                    if( x < 0 or x > 100):
-                        print "! Line %d for step %c Bad coord %s: [%s]" % (linec,STEP,xx,line)
-                        return None   
-            step['M']=coords
-            continue
-        if(TAG == "N" or TAG == "Z" or TAG == "C" or TAG == "QO" or TAG == "REP" or TAG == "R" or TAG == "P" or TAG == "T" or TAG == "GEN" or TAG == "FACTION" ):
-            step[TAG]=Frags.pop(0)
-            continue
-        if(TAG == "S" or TAG == "US" or TAG == "CC" or TAG == "CS" or TAG == "NC" or TAG == "O" ):
-            step[TAG]=True
-            continue            
-        if(TAG == "L"):
-            loot=Frags.pop(0).split()
-            if(len(loot) > 2):
-                print "! Line %d, for step %c Too many items for L: [%s]" % (linec, STEP,line)
-                return None
-            l=loot[0]              
-            if(not l.isdigit()):
-                print "! Line %d, for step %c non-decimal L: [%s]" % (linec, STEP,line)
-                return None
-            L=str(int(l))
-            if( L != l):
-                print "! Line %d, for step %c malformed L: [%s]" % (linec, STEP,line)
-                return None
-            if(len(loot) > 1):
-                q=loot[1]              
-                if(not q.isdigit()):
-                    print "! Line %d, for step %c non-decimal Lqty: [%s]" % (linec, STEP,line)
-                    return None
-                Q=str(int(q))
-                if( Q != q):
-                    print "! Line %d, for step %c malformed Lqty: [%s]" % (linec, STEP,line)
-                    return None
-                step['L']=L+' '+Q
-            else:
-                step['L']=L
-            continue
-        print "! Line %d for step %c has unknown tag [%s]: [%s]" % (linec, STEP,TAG,line)
-    return step
 
-def TweakNpcLoc(npc,update):
-    print "? Update location",npc,GuideNpcs[npc],update
-    return True
-        
-def Analyze(step):
-    global GrailQuests
-    global GrailNpcs
-    global GuideQuests
-    global GuideNpcs
-    if not 'QID' in step:
-	print "? Quest does not have a QID",step
-	return False
-    if not int(step['QID']) in GrailQuests:
-	print "! Quest ",step['QID'],"not found in GrailDB",step
-	return False
-    quest = GrailQuests[int(step['QID'])]
-    if step['STEP'] == "A" or step['STEP'] == "T":
-	qid = int(step['QID'])
-	stype = step['STEP']
-        GuideQuests[qid] = quest
-	npc=quest[stype]
-        if not npc in GuideNpcs:
-            GuideNpcs[npc]=GrailNpcs[npc]
-#	    print step, GuideNpcs[npc]
-	    if 'M' in step:
-	        GuideNpcs[npc]['M']=step['M'][-1]
-	    else:
-		print"! Quest",qid,"lacks Map coords",quest
-		TweakNpcLoc(npc,None)
-	else:
-	    if 'M' in step:
-	        TweakNpcLoc(npc,step['M'][-1])
-	    else:
-		print"! Quest",qid,"lacks Map coords",quest
-		
-    return True
+twins = {}
 
-def Assemble(steps):
-    global GuideQuests
-    global GuideNpcs
-    gqKeys=GuideQuests.keys()
-    gqKeys.sort()
-    for q in gqKeys:
-        print q,GuideQuests[q]
-    gnKeys=GuideNpcs.keys()
-    gnKeys.sort()
-    for n in gnKeys:
-        print n,GuideNpcs[n]
-    return ""
-            
-def Cleanse(lua):
-    print "# Checking "+lua
-    global GuideQuests
-    global GuideNpcs
-    GuideQuests = {}
-    GuideNpcs = {}
-    file=open(lua,"rU")
-    linec=1
-    steps={}
-    for line in file:
-        line=line.strip()
-        frags=line.split('|')
-        if len(frags) < 4:
-            nline=line
+def IsQidInTag(step, tag, qid):
+    if not tag in step:
+        return False
+    if ";" in step[tag]:
+        for q in step[tag].split(";"):
+            if int(q) == qid:
+                return True
         else:
-            nline=Parse(line,linec,frags)
-	    Analyze(nline)
-	steps[linec]=nline
-        linec=linec+1
-    file.close
-    Assemble(steps)
+            return False
+    if "+" in step[tag]:
+        for q in step[tag].split("+"):
+            if int(q) == qid:
+                return True
+        else:
+            return False
+    try:
+        return int(step[tag]) == qid
+    except ValueError:
+        return False
+
+        
+def IsStepTwin(step):
+    for twin in twins:
+        if IsQidInTag(step, 'QID', twin):
+            return twins[twin]
+    return None
+
+
+Q_TAGS=set(["QID", "PRE", "ACTIVE", "LEAD"])
+def RemapTwinQids(step):
+    global Q_TAGS
+    for tag in step:
+        if not tag in Q_TAGS:
+            continue
+        if ";" in step[tag]:
+            new=[]
+            for q in step[tag].split(";"):
+                if int(q) in twins:
+                    twin = twins[int(q)]
+                    new.append(str(twin['QID']))
+                else:
+                    new.append(q)
+            step[tag] = ";".join(new)
+            continue
+        if "+" in step[tag]:
+            new=[]
+            for q in step[tag].split("+"):
+                if int(q) in twins:
+                    twin = twins[int(q)]
+                    new.append(str(twin['QID']))
+                else:
+                    new.append(q)
+            step[tag] = "+".join(new)
+            continue
+        try:
+            if int(step[tag]) in twins:
+                twin = twins[int(step[tag])]
+                step[tag] = str(twin['QID'])
+        except ValueError:
+            pass            
             
+        
+
+def ProcessStep(step):
+    twin=IsStepTwin(step)
+    if twin:
+        if step['STEP'] == 'A':
+            step[';'] = "Original QID {0}".format(step['QID'])
+            step['M'] = [twin['A-Map']]
+            step['N'] = "From {0}".format(twin['A-Name'])
+        if step['STEP'] == 'T':
+            step[';'] = "Original QID {0}".format(step['QID'])
+            step['M'] = [twin['T-Map']]
+            step['N'] = "To {0}".format(twin['A-Name'])
+        if step['STEP'] == 'C':
+            if 'M' in step:
+                del(step['M'])
+        
+    RemapTwinQids(step)
+
+def PreProcessStep(step):
+    global twins
+
+    if not 'QID' in step:
+        return
+    if ";" in step['QID']:
+        for q in step['QID'].split(";"):
+            qid = int(q)
+            twin=Anthrax.QueryQuestTwin(qid)
+            if twin:
+                twins[qid] = twin
+    else:
+        qid = int(step['QID'])
+        twin=Anthrax.QueryQuestTwin(qid)
+        if twin:
+            twins[qid] = twin        
+#            print "# Detected twin quest [{0}] {1} => {2}".format(twin['Name'], qid, twin['QID'])
+            
+
+
+TAGS_FIRST=["QID", "PRE", "ACTIVE", "LEADIN", "M", "Z", "CS", "CC", "CN"]
+TAGS_LAST=["N", ";"]
+    
+def ExtendLine(line, step, tag):
+    if isinstance(step[tag],int) or isinstance(step[tag],str):
+        line = "{0}{1}|{2}|".format(line, tag, step[tag])
+    elif isinstance(step[tag],bool):
+        line = "{0}{1}|".format(line, tag)
+    elif isinstance(step[tag],list):
+        line = "{0}{1}|{2}|".format(line, tag, ";".join(step[tag]))
+    else:
+        raise TypeError("Dont know how to deal with tag of type %s" % type(step[tag]))
+    return line
+
+def PrintStep(step):
+    line="{0} {1}|".format(step['STEP'], step['TITLE'])
+    del(step['STEP'])
+    del(step['TITLE'])
+    for tag in TAGS_FIRST:
+        if tag in step:
+            line = ExtendLine(line, step, tag)
+            del(step[tag])
+    to_del=[]
+    for tag in step:
+        if not tag in TAGS_LAST:
+            line = ExtendLine(line, step, tag)
+            to_del.append(tag)
+    for tag in to_del:
+        del(step[tag])
+    for tag in TAGS_LAST:
+        if tag in step:
+            line = ExtendLine(line, step, tag)
+            del(step[tag])
+    
+    print line
+    
+
+def Flip(lua):
+    global twins    
+    guide=GuideParse.ParseFile(lua)
+    # Any errors?
+    if any(map(lambda x: isinstance(x, int), guide)):
+        raise ArgumentError("Error in guide.  Halting Flip")
+    twins = {}
+    for step in guide:
+        if isinstance(step, dict):
+            PreProcessStep(step)
+    print "# Detected %d twin steps in guide." % len(twins)
+    
+    for step in guide:
+        # Not a true step
+        if isinstance(step, dict):
+            ProcessStep(step)
+            PrintStep(step)
+        elif isinstance(step, str):
+            print step
+        else:
+            raise TypeError("Unexpected return type from guide {0}".format(type(step)))
+
 
 if __name__ == "__main__":
-    global GrailQuests
-    global GrailNpcs
-    file=open("Beacon.pickle","rb")
-    GrailQuests=pickle.load(file)
-    GrailNpcs=pickle.load(file)
-    file.close()
+    Anthrax.LoadGrail()
     for arg in sys.argv[1:]:
-        Cleanse(arg)
+        Flip(arg)
 
 
 
