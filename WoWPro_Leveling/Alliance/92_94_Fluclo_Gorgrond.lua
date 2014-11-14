@@ -1,5 +1,54 @@
+
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2014-11-14 12:26
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3613/revisions/26984/view
+-- Date: 2014-11-14 11:57
+-- Who: Ludovicus
+-- Log: Add the Lunarfall 94 leftovers.
+
+-- URL: http://wow-pro.com/node/3613/revisions/26981/view
+-- Date: 2014-11-14 11:45
+-- Who: Ludovicus
+-- Log: Fluclo did 90% of the work
+
+-- URL: http://wow-pro.com/node/3613/revisions/26972/view
+-- Date: 2014-11-13 08:41
+-- Who: Fluclo
+-- Log: Added missing N tag; Added NC to Heavy Helping Hand; Added flight point at Tailthrasher Basin; Added PRE IDs to a number of quests; R Kor'gall's Hovel only when you have quest 34700 active; F Gronn Canyon only when you have 36223 or 35128 active; Horned Skull only when you have 35128 active; Jump onto Nisha only when you have 35702 active; Strike While the Iron is Hot has a second PRE, assuming it is the Follower quest (requires more research); Changed l Mysterious Pod to a Kill tag; Added Breaker's Crown flight point for the Lumber Yard builders; added a few Hardened Thornvine locations.
+
+-- URL: http://wow-pro.com/node/3613/revisions/26784/view
+-- Date: 2014-11-03 23:23
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3613/revisions/26783/view
+-- Date: 2014-11-03 16:16
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3613/revisions/26782/view
+-- Date: 2014-11-03 06:21
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3613/revisions/26776/view
+-- Date: 2014-11-02 20:11
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3613/revisions/26774/view
+-- Date: 2014-11-02 20:08
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3613/revisions/26773/view
+-- Date: 2014-11-02 20:08
+-- Who: Ludovicus
+-- Log: Initial zone flow
+
 local guide = WoWPro:RegisterGuide('FlucloGorgrond', 'Leveling', 'Gorgrond', 'Fluclo', 'Alliance')
-WoWPro:GuideLevels(guide,92, 93, 92.1)
+WoWPro:GuideLevels(guide,92, 94, 93)
 WoWPro:GuideNextGuide(guide, 'LudoTalador')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -454,7 +503,6 @@ N Guide to follow |QID|34352|N|Remaining steps of this guide are to follow soon.
 ;A Downsizing the Darktide |QID|34397|
 ;A Rylak Rescue |QID|34450|
 ;A Free their Minds |QID|34455|
-
 
 ]]
 

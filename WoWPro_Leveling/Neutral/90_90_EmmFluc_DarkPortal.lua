@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2014-11-14 04:36
+-- Who: Ludovicus
+-- Log: ! Line 206 for step A has unknown tag [From Yrel]: [A Yrel|QID|34434;34740|From Yrel|M|45.15,15.98|N|From Yrel.|Z|Umbral Halls|PRE|34429|]
+--	! Line 207 for step C has unknown tag [Head back down the corridor.]: [C Yrel|QID|34434;34740|Head back down the corridor.|M|58.28,38.31|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|Umbral Halls|]
+
+-- URL: http://wow-pro.com/node/3600/revisions/26977/view
 -- Date: 2014-11-13 21:35
 -- Who: Emmaleah
 -- Log: I will get Bled dry right yet...
@@ -203,8 +209,8 @@ C The Shadowmoon Clan |QID|34432;34739|N|Kill the Shadowmoon Voidaxe, Ritualist 
 C Kill Ungra|QID|34431;34737|N|Head up the first stairs, then take the next set of stairs to the left, then to the left.|QO|1|M|44.0,74.5|T|Ungra|Z|Umbral Halls|
 C Kill Taskmaster Gorran|QID|34431;34737|N|Straight along the corridor behind you. Watch for the hole in the floor.|QO|2|M|56.2,19.8|T|Taskmaster Gurran|Z|Umbral Halls|
 C Find Ankova|QID|34431;34737|N|Jump down the hole, then follow the corridor north-west to the corpse of Ankova|QO|3|NC|M|45.2,16.1|Z|Umbral Halls|
-A Yrel|QID|34434;34740|From Yrel|M|45.15,15.98|N|From Yrel.|Z|Umbral Halls|PRE|34429|
-C Yrel|QID|34434;34740|Head back down the corridor.|M|58.28,38.31|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|Umbral Halls|
+A Yrel|QID|34434;34740|M|45.15,15.98|N|From Yrel.|Z|Umbral Halls|PRE|34429|
+C Yrel|QID|34434;34740|M|58.28,38.31|NC|N|Lead Yrel out to the main corridor, she can find her way from there.|Z|Umbral Halls|
 C The Shadowmoon Clan|QID|34432;34739|N|Finish killing the Shadowmoon Voidaxe and Void Wolves|US|M|57.7,40.6|Z|Umbral Halls|
 T The Shadowmoon Clan|QID|34432|N|To Qiana Moonshadow|FACTION|Alliance|M|50.7,48.5|Z|Umbral Halls|
 T The Shadowmoon Clan|QID|34739|N|To Olin Umberhide|FACTION|Horde|M|51.30,46.98|Z|Umbral Halls|
