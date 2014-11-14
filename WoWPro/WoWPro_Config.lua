@@ -740,9 +740,11 @@ local function createBlizzOptions()
 			    func =  function (info)
     			            WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
     			            local LogBox = WoWPro.LogBox
-                            LogBox.Box:SetText(WoWPro:LogDump())
-                            LogBox.Scroll:UpdateScrollChildRect()
-                            LogBox:Show()
+    			            WoWPro:LogDump( function(text)
+                                                LogBox.Box:SetText(text)
+                                                LogBox.Scroll:UpdateScrollChildRect()
+                                                LogBox:Show()
+                                            end )
                         end
 			},
 			checkGuides = {

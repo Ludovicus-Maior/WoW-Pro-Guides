@@ -152,14 +152,45 @@ local function orderedPairs(t)
     return orderedNext, t, nil
 end
 
-function WoWPro:LogDump()
+local Log = nil
+local LogCo = nil
+local LogCall = nil
+local LogFrame = nil
+local function LogGrow(frame, elapsed)
+    if Log == nil then
+        -- Start coroutine
+        Log = ""
+        LogCo = coroutine.create(function ()
+                                        local loops = 100
+                                        for key, val in orderedPairs(WoWProDB.global.Log) do
+                                            Log = Log .. string.format("%s ~ %s\n",key,val)
+                                            loops = loops - 1
+                                            if loops < 0 then
+                                                coroutine.yield(true)
+                                                loops = 100
+                                            end
+                                        end
+                                    end)
+        return                                                    
+    end
+    if Log then
+        if coroutine.resume(LogCo) then return end
+        -- false return implies we are done
+        LogCall(Log)
+        Log = nil
+        LogFrame:SetScript("OnUpdate",nil)
+    end
+end
+
+function WoWPro:LogDump(callback)
     if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
     -- DEFAULT_CHAT_FRAME:AddMessage(string.format("WoWPro:LogDump WoWProDB.global.Log=%s",tostring(WoWProDB.global.Log)))
-    local text = ""
-    for key, val in orderedPairs(WoWProDB.global.Log) do
-        text = text .. string.format("%s ~ %s\n",key,val)
+    if not LogFrame then
+        LogFrame = CreateFrame("Frame",nil,UIParent)
     end
-    return text
+    Log = nil
+    LogCall = callback
+    LogFrame:SetScript("OnUpdate",LogGrow)
 end
 
 function WoWPro.toboolean(v)
