@@ -4,6 +4,14 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2014-11-15 01:41
+-- Who: Ludovicus
+-- Log: ## WoWPro_Leveling/Alliance/92_94_Fluclo_Gorgrond.lua @ http://wow-pro.com/wiki/alliance_gorgrond_source_code
+--	! Line 69, for step A non-integer LEAD: [A The Secrets of Gorgrond |QID|35556|N|Visit the Hero's Callboard in your Garrison, and accept this quest.|M|42.73,44.74|Z|Lunarfall|LEAD|33533,36632|]
+--	! Line 211 for step C has unknown tag [M47.50,92.62]: [C Iyu |QID|35235|N|Kill Iyu, who is at surface level.|T|Iyu|M47.50,92.62|]
+--	! Line 317 for step C has unknown tag [43.00,42.50]: [C What's Under There? |QID|36209|QO|6|N|Take the last tunnel back to Breaker's Crown|NC|43.00,42.50|]
+
+-- URL: http://wow-pro.com/node/3613/revisions/26999/view
 -- Date: 2014-11-15 00:30
 -- Who: Ludovicus
 -- Log: Played through [Seeking the Scout]
@@ -66,7 +74,7 @@ T The Secrets of Gorgrond |QID|33533|N|To Yrel|O|ACTIVE|33533|M|63.99,57.19|
 F Wildwood Wash |QID|36632|N|Fly to Wildwood Wash in Gorgrond.|ACTIVE|36632|M|48.10,49.80|Z|Lunarfall|
 T The Secrets of Gorgrond |QID|36632|N|To Yrel|O|ACTIVE|36632|M|63.99,57.19|
 
-A The Secrets of Gorgrond |QID|35556|N|Visit the Hero's Callboard in your Garrison, and accept this quest.|M|42.73,44.74|Z|Lunarfall|LEAD|33533,36632|
+A The Secrets of Gorgrond |QID|35556|N|Visit the Hero's Callboard in your Garrison, and accept this quest.|M|42.73,44.74|Z|Lunarfall|LEAD|33533;36632|
 F Wildwood Wash |QID|35556|N|Fly to Wildwood Wash in Gorgrond.|ACTIVE|35556|M|48.10,49.80|Z|Lunarfall|
 T The Secrets of Gorgrond |QID|35556|N|To Yrel|M|63.99,57.19|ACTIVE|35556|
 
@@ -208,7 +216,7 @@ T Down the Goren Hole |QID|35229|N|To Hansel Heavyhands|M|47.58,94.10|
 T Just In Case |QID|35233|N|To Hansel Heavyhands|M|47.58,94.10|
 
 A Iyu |QID|35235|N|From Hansel Heavyhands|M|47.58,94.10|PRE|35234;35229;35233|
-C Iyu |QID|35235|N|Kill Iyu, who is at surface level.|T|Iyu|M47.50,92.62|
+C Iyu |QID|35235|N|Kill Iyu, who is at surface level.|T|Iyu|M|47.50,92.62|
 T Iyu |QID|35235|N|To Yrel, who is now in Bastion Rise.|M|47.71,93.30|
 
 A Power of the Genesaur |QID|35255|N|From Yrel|PRE|35235|M|47.71,93.30|
@@ -314,7 +322,7 @@ C What's Under There? |QID|36209|QO|2|N|Click the Bluff Rylak to Consume the Ryl
 C What's Under There? |QID|36209|QO|3|N|Click on the second tunnel|M|45.79,50.38|NC|
 C What's Under There? |QID|36209|QO|4|N|Wait whilst you move through the tunnel.|NC|
 C What's Under There? |QID|36209|QO|5|N|Search Grom'kar Messenger's Corpse|NC|M|43.18,42.31|
-C What's Under There? |QID|36209|QO|6|N|Take the last tunnel back to Breaker's Crown|NC|43.00,42.50|
+C What's Under There? |QID|36209|QO|6|N|Take the last tunnel back to Breaker's Crown|NC|M|43.00,42.50|
 T What's Under There? |QID|36209|N|Wait whilst you travel the tunnels, then To Ranger Erdanii|M|46.20,55.09|
 
 A Leave Every Soldier Behind |QID|36223|N|From Ranger Erdanii|M|46.20,55.09|PRE|36209|
