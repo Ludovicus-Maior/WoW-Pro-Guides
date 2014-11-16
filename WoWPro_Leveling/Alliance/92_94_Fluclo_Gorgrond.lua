@@ -4,6 +4,19 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2014-11-15 20:06
+-- Who: Ludovicus
+-- Log: Finished playing through.  Edited Lunarfall section and converted to new map name.
+
+-- URL: http://wow-pro.com/node/3613/revisions/27000/view
+-- Date: 2014-11-15 01:41
+-- Who: Ludovicus
+-- Log: ## WoWPro_Leveling/Alliance/92_94_Fluclo_Gorgrond.lua @ http://wow-pro.com/wiki/alliance_gorgrond_source_code
+--	! Line 69, for step A non-integer LEAD: [A The Secrets of Gorgrond |QID|35556|N|Visit the Hero's Callboard in your Garrison, and accept this quest.|M|42.73,44.74|Z|Lunarfall|LEAD|33533,36632|]
+--	! Line 211 for step C has unknown tag [M47.50,92.62]: [C Iyu |QID|35235|N|Kill Iyu, who is at surface level.|T|Iyu|M47.50,92.62|]
+--	! Line 317 for step C has unknown tag [43.00,42.50]: [C What's Under There? |QID|36209|QO|6|N|Take the last tunnel back to Breaker's Crown|NC|43.00,42.50|]
+
+-- URL: http://wow-pro.com/node/3613/revisions/26999/view
 -- Date: 2014-11-15 00:30
 -- Who: Ludovicus
 -- Log: Played through [Seeking the Scout]
@@ -66,7 +79,7 @@ T The Secrets of Gorgrond |QID|33533|N|To Yrel|O|ACTIVE|33533|M|63.99,57.19|
 F Wildwood Wash |QID|36632|N|Fly to Wildwood Wash in Gorgrond.|ACTIVE|36632|M|48.10,49.80|Z|Lunarfall|
 T The Secrets of Gorgrond |QID|36632|N|To Yrel|O|ACTIVE|36632|M|63.99,57.19|
 
-A The Secrets of Gorgrond |QID|35556|N|Visit the Hero's Callboard in your Garrison, and accept this quest.|M|42.73,44.74|Z|Lunarfall|LEAD|33533,36632|
+A The Secrets of Gorgrond |QID|35556|N|Visit the Hero's Callboard in your Garrison, and accept this quest.|M|42.73,44.74|Z|Lunarfall|LEAD|33533;36632|
 F Wildwood Wash |QID|35556|N|Fly to Wildwood Wash in Gorgrond.|ACTIVE|35556|M|48.10,49.80|Z|Lunarfall|
 T The Secrets of Gorgrond |QID|35556|N|To Yrel|M|63.99,57.19|ACTIVE|35556|
 
@@ -208,7 +221,7 @@ T Down the Goren Hole |QID|35229|N|To Hansel Heavyhands|M|47.58,94.10|
 T Just In Case |QID|35233|N|To Hansel Heavyhands|M|47.58,94.10|
 
 A Iyu |QID|35235|N|From Hansel Heavyhands|M|47.58,94.10|PRE|35234;35229;35233|
-C Iyu |QID|35235|N|Kill Iyu, who is at surface level.|T|Iyu|M47.50,92.62|
+C Iyu |QID|35235|N|Kill Iyu, who is at surface level.|T|Iyu|M|47.50,92.62|
 T Iyu |QID|35235|N|To Yrel, who is now in Bastion Rise.|M|47.71,93.30|
 
 A Power of the Genesaur |QID|35255|N|From Yrel|PRE|35235|M|47.71,93.30|
@@ -314,7 +327,7 @@ C What's Under There? |QID|36209|QO|2|N|Click the Bluff Rylak to Consume the Ryl
 C What's Under There? |QID|36209|QO|3|N|Click on the second tunnel|M|45.79,50.38|NC|
 C What's Under There? |QID|36209|QO|4|N|Wait whilst you move through the tunnel.|NC|
 C What's Under There? |QID|36209|QO|5|N|Search Grom'kar Messenger's Corpse|NC|M|43.18,42.31|
-C What's Under There? |QID|36209|QO|6|N|Take the last tunnel back to Breaker's Crown|NC|43.00,42.50|
+C What's Under There? |QID|36209|QO|6|N|Take the last tunnel back to Breaker's Crown|NC|M|43.00,42.50|
 T What's Under There? |QID|36209|N|Wait whilst you travel the tunnels, then To Ranger Erdanii|M|46.20,55.09|
 
 A Leave Every Soldier Behind |QID|36223|N|From Ranger Erdanii|M|46.20,55.09|PRE|36209|
@@ -349,11 +362,11 @@ T The Sparring Arena |QID|35137|N|To Rangari Jonaa|M|53.06,59.51|
 T The Fists of Vaandaam |QID|35883|N|From Pitfighter Vaandaam|M|53.00,59.63|
 
 ;Whether you built a Lumber Yard or a Gladiator Sanctum, both paths now converge back with the quests.
-A Strike While the Iron is Hot |QID|36575|PRE|35255;36828|N|From Vindicator Maraad|
-A Strike While the Iron is Hot |QID|36576|PRE|35137;36833|N|From Vindicator Maraad|
+A Strike While the Iron is Hot |QID|36575|PRE|35255;36828|N|From Vindicator Maraad|M|52.85,59.68|
+A Strike While the Iron is Hot |QID|36576|PRE|35137;36833|N|From Vindicator Maraad|M|52.85,59.68|
 
-C Strike While the Iron is Hot |QID|36575|N|Speak to Rangari Rajess to fly to the Iron Approach.|CHAT|QO|1|
-C Strike While the Iron is Hot |QID|36576|N|Speak to Rangari Rajess to fly to the Iron Docks.|CHAT|QO|1|
+C Strike While the Iron is Hot |QID|36575|N|Speak to Rangari Rajess to fly to the Iron Approach.|CHAT|QO|1|M|52.83,59.33|
+C Strike While the Iron is Hot |QID|36576|N|Speak to Rangari Rajess to fly to the Iron Docks.|CHAT|QO|1|M|52.83,59.33|
 
 C Strike While the Iron is Hot |QID|36575;36576|N|Follow through the instance steps.\n\n1. Speak to Yrel\n2. Use the Artifact\n3. Survive the onslaught (Use the artifact when it is off cooldown)\n4. Kill Goc\n5. Kill Commander Gar.|QO|2|
 f The Iron Approach|QID|36575;36576|N|With Nisha|M|43.03,20.22|ACTIVE|36575;36576|
@@ -374,9 +387,11 @@ A Mysterious Pod |QID|35642|N|Quest started from a Glowing Red Pod, dropped by t
 C Scout Forensics |QID|35633|N|Collect the Rangari Pouches from the Dead Rangari.|NC|US|M|58.75,59.25|
 C Vengeance for the Fallen|QID|35640|N|Finish killing the Fungal Lurchers|US|M|58.75,59.25|
 
-T Scout Forensics |QID|35633|N|To Khaano, who has moved deeper into the Crimson Fen|M|58.27,59.89|
-T Vengeance for the Fallen|QID|35640|N|To Khaano|M|58.27,59.89|
-T Mysterious Pod |QID|35642|N|To Khaano|M|58.27,59.89|
+T Scout Forensics |QID|35633|N|To Khaano, who has moved deeper into the Crimson Fen|M|58.26,59.91|
+T Vengeance for the Fallen|QID|35640|N|To Khaano|M|58.26,59.91|
+T Mysterious Pod |QID|35642|N|To Khaano|M|58.26,59.91|
+
+N Mercy for the Living |QID|35644|N|Click off this step, which allows the next one to show properly.  Maybe needed when servers are overloaded.|
 
 A Mercy for the Living |QID|35644|N|From Khaano|M|58.27,59.89|PRE|35633;35640;35642|
 A The Secret of the Fungus|QID|35645|N|From Khaano|M|58.27,59.89|PRE|35633;35640;35642|
@@ -390,7 +405,7 @@ T Mercy for the Living |QID|35644|N|To Khaano|M|58.27,59.89|
 
 A A Grim Harvest |QID|35647|N|From Khaano|M|58.27,59.89|PRE|35645;35644|
 A A Heartfelt Search |QID|35656|N|From Khaano|M|58.27,59.89|PRE|35645;35644|
-C A Grim Harvest |QID|35647|N|Kill and loot the Fungal Stompers as you make your way to the Drained Fungal Heart|M|58.27,59.89|
+C A Grim Harvest |QID|35647|N|Kill and loot the Fungal Stompers as you make your way to the Drained Fungal Heart|M|58.92,62.52|
 C A Heartfelt Search |QID|35656|N|Inspect the Drained Fungal Heart|NC|M|58.92,62.52|
 T A Heartfelt Search |QID|35656|N|To Khaano, who will run next to the Drained Fungal Heart|M|58.27,59.89|
 T A Grim Harvest |QID|35647|N|To Khaano|M|58.27,59.89|
@@ -398,37 +413,37 @@ T A Grim Harvest |QID|35647|N|To Khaano|M|58.27,59.89|
 A Heart of the Fen |QID|35659|N|From Khaano|M|58.27,59.89|PRE|35647|
 C Heart of the Fen |QID|35659|N|Head to the Heart of the Fen, then kill Khaano|M|61.14,61.81|T|Khaano|
 H Highpass |QID|35659|N|Hearthstone to Highpass, or run there if you didn't set your hearthstone/if your hearthstone is still on cooldown.|
-T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.30,59.89|
+T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.32,59.89|
 
 A Seeking the Scout |QID|36432|N|From Rangari D'kaan|M|53.32,59.89|
 
-A News from Talador |QID|36495|N|From Vindicator Maraad, to get to Talador later.|LVL|94|
+A News from Talador |QID|36495|N|From Vindicator Maraad, to get to Talador later.|M|52.85,59.68|
 
 R Cragplume Cauldron|QID|36432|N|Head up the Cragplume Cauldron|ACTIVE|36432|M|50.70,57.02|
 f Breaker's Crown |QID|36432|N|With Nisha|M|45.84,54.95|PRE|35212|
 l Unknown Petrified Egg|M|47.23,51.80|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|36432|PRE|35212|RANK|3|
-T Seeking the Scout |QID|36432|N|To Altauur|M|49.4,49.6|
+T Seeking the Scout |QID|36432|N|To Altauur|M|49.39,49.64|
 
-A Plant Pruning |QID|36436|N|From Altauur|M|49.4,49.6|
-A Ambassador to the Ancient |QID|36437|N|From Altauur|M|49.4,49.6|PRE|36432|
+A Plant Pruning |QID|36436|N|From Altauur|M|49.39,49.64|
+A Ambassador to the Ancient |QID|36437|N|From Altauur|M|49.39,49.64|PRE|36432|
 l Aged Stone Container|M|49.06,48.42|N|Click on the Hardened Thornvine to reveal the Aged Stone Container.\n\n(Step does not auto-complete).|ACTIVE|36436;36437|PRE|35212|RANK|3|
 C Plant Pruning |QID|36436|N|Kill the Seedpriests and Primal Growths|S|
 C Ambassador to the Ancient |QID|36437|N|Talk to Birchus at Dionor's Demise in Gorgrond.|CHAT|M|50.28,47.54|
 C Plant Pruning |QID|36436|N|Kill the Seedpriests and Primal Growths|US|
-T Ambassador to the Ancient |QID|36437|N|To Altauur, who has moved to a cave in Dionor's Demise|M|51.31,47.97|
+T Ambassador to the Ancient |QID|36437|N|To Altauur, who has moved to a cave in Dionor's Demise|M|51.32,47.96|
 T Plant Pruning |QID|36436|N|To Altauur|M|51.31,47.97|
 
-A Shredder vs Saberon |QID|36439|N|From Altauur|M|51.31,47.97|PRE|36436|
+A Shredder vs. Saberon |QID|36439|N|From Altauur|M|51.31,47.97|PRE|36436|
 R Steamscar Rise|QID|36439|N|Head to Steamscar Rise|M|52.29,46.52|ACTIVE|36439|
-C Shredder vs Saberon |QID|36439|N|Head up the path, break the Strong Vine Barricade, then walk in.|NC|M|52.22,48.66|
-T Shredder vs Saberon |QID|36439|N|To Altauur, who has moved into Steamscar Rise|M|52.04,49.50|PRE|36436|
+C Shredder vs. Saberon |QID|36439|N|Head up the path, break the Strong Vine Barricade, then walk in.|NC|M|52.22,48.66|
+T Shredder vs. Saberon |QID|36439|N|To Altauur, who is moving into Steamscar Rise after you broke in.|M|52.04,49.50|PRE|36436|
 
 A Saberon Population Reduction |QID|36440|N|From Altauur|M|52.04,49.50|PRE|36439|
-A Reclaiming Property|QID|36441|N|From Saberon Stash|M|51.88,50.03|
+A Reclaiming Property|QID|36441|N|From Saberon Stash|M|51.85,50.02|
 C Saberon Population Reduction |QID|36440|N|Slay Steamscar Saberon.|S|M|51.30,51.30|
 C Reclaiming Property|QID|36441|N|Collect Herb Bundles|NC|M|51.30,51.30|
 C Saberon Population Reduction |QID|36440|N|Slay Steamscar Saberon.|US|M|51.30,51.30|
-T Saberon Population Reduction |QID|36440|N|To Altauur, who has moved further into Steamscar Rise|M|52.88,51.80|
+T Saberon Population Reduction |QID|36440|N|To Altauur, who has moved further into Steamscar Rise|M|52.87,51.78|
 T Reclaiming Property|QID|36441|N|To Altauur|M|52.88,51.80|
 
 A Taking the Death Bloom |QID|36442|N|From Altauur|M|52.88,51.80|PRE|36440|
@@ -438,77 +453,72 @@ T Taking the Death Bloom |QID|36442|N|To Birchus|M|50.30,47.48|
 A Laying Dionor to Rest |QID|36443|N|From Birchus|M|50.30,47.48|
 T Laying Dionor to Rest |QID|36443|N|To Birchus|M|50.30,47.48|
 
-N Zone Finished|QID|0|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto Talador guide.|
-N Shadowmoon Leftovers |QID|0|N|These quests need to send you back to shadowmoon for processing|
-L Level 94 |QID|33113|LVL|94|N|Move onto Gorgrond, you can come back to this guide after you've levelled up a bit (the next steps require Level 94)|
-A Meet Us at Starfall Outpost|QID|33359|LVL|94|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|
-A Bounty: Twisted Ancient|QID|33111|LVL|94|N|From the Bulletin Board. This is a 3-party group quest.|M|42.72,44.75|RANK|2|
+H Lunarfall |QID|33359|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|
+A Meet Us at Starfall Outpost|QID|33359|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|
+A Bounty: Twisted Ancient|QID|33111|N|From the Bulletin Board. This is a 3-party group quest.|M|42.72,44.75|Z|Lunarfall|RANK|2|
 
-T Meet Us at Starfall Outpost|QID|33359|LVL|94|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72|
-A Catching His Eye|QID|33062|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33359|
+T Meet Us at Starfall Outpost|QID|33359|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72||Z|Shadowmoon Valley@Draenor|
+A Catching His Eye|QID|33062|N|From Archmage Khadgar|M|29.21,25.72|PRE|33359||Z|Shadowmoon Valley@Draenor|
 
-A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.5,24.5|LVL|94|
-C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|LVL|94|
-C Bounty: Twisted Ancient|QID|33111|LVL|94|N|Kill and loot the Twisted Ancient for the Corrupted Lumber. This is flagged as a 3-party group quest.|RANK|2|M|26.15,17.50|
+A Shadowmoonwell |QID|33113|N|From Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
+C Shadowmoonwell |QID|33113|N|Collect a Chunk of Lunar Rock from the Secluded Glade|NC|M|23.2,20.8|Z|Shadowmoon Valley@Draenor|
+C Bounty: Twisted Ancient|QID|33111|N|Kill and loot the Twisted Ancient for the Corrupted Lumber. This is flagged as a 3-party group quest.|RANK|2|M|26.15,17.50|Z|Shadowmoon Valley@Draenor|
 
-R Watcher's Den|QID|33062|ACTIVE|33062|LVL|94|N|Head to the Watcher's Den|M|22.87,16.86|
-C Catching His Eye|QID|33062|LVL|94|N|Capture the All-Seeing Eye (bring his health down to 1%)|
-T Catching His Eye|QID|33062|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+R Watcher's Den|QID|33062|ACTIVE|33062|N|Head down the road to the Watcher's Den.|M|25.44,19.30;22.87,16.86|CS|Z|Shadowmoon Valley@Draenor|
+C Catching His Eye|QID|33062|N|Capture the All-Seeing Eye (bring his health down to 1%)|Z|Shadowmoon Valley@Draenor|
+T Catching His Eye|QID|33062|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 
-A Shrouding Stones |QID|33115|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33062|
-T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.5,24.5|LVL|94|
-A A Curse Upon the Woods |QID|33120|N|From Delas Moonfang|M|29.5,24.5|PRE|33113|LVL|94|
+A Shrouding Stones |QID|33115|N|From Archmage Khadgar|M|29.21,25.72|PRE|33062|Z|Shadowmoon Valley@Draenor|
+T Shadowmoonwell |QID|33113|N|To Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
+A A Curse Upon the Woods |QID|33120|N|From Delas Moonfang|M|29.48,24.52|PRE|33113|Z|Shadowmoon Valley@Draenor|
 
-C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|LVL|94|S|
-C Shrouding Stones |QID|33115|LVL|94|N|Southern Shrouding Stone destroyed by clicking it.|QO|3|NC|M|23.82,28.72|
-C Shrouding Stones |QID|33115|LVL|94|N|Central Shrouding Stone destroyed by clicking it.|QO|1|NC|M|23.04,24.40|
-C Shrouding Stones |QID|33115|LVL|94|N|Northern Shrouding Stone destroyed by clicking it.|QO|2|NC|M|26.00,15.92|
-C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|LVL|94|US|
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|S||Z|Shadowmoon Valley@Draenor|
+C Shrouding Stones |QID|33115|N|Southern Shrouding Stone destroyed by clicking it.|QO|3|NC|M|23.82,28.72|Z|Shadowmoon Valley@Draenor|
+C Shrouding Stones |QID|33115|N|Central Shrouding Stone destroyed by clicking it.|QO|1|NC|M|23.04,24.40||Z|Shadowmoon Valley@Draenor|
+C Shrouding Stones |QID|33115|N|Northern Shrouding Stone destroyed by clicking it.|QO|2|NC|M|26.00,15.92|Z|Shadowmoon Valley@Draenor|
+C A Curse Upon the Woods |QID|33120|N|Head back to The Cursed Woods and kill the Fel-cursed creatures|M|26.3,20.7|US|Z|Shadowmoon Valley@Draenor|
 
-T Shrouding Stones |QID|33115|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
-A Ominous Portents |QID|33112|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33115|
+T Shrouding Stones |QID|33115|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
+A Ominous Portents |QID|33112|N|From Archmage Khadgar|M|29.21,25.72|PRE|33115|Z|Shadowmoon Valley@Draenor|
 
-T A Curse Upon the Woods |QID|33120|N|To Delas Moonfang|M|29.5,24.5|LVL|94|
-C Ominous Portents |QID|33112|LVL|94|N|Speak to the All-Seeing Eye and begin the compulsion. Use key 1 until he says something, then use key 2. Repeat until you get the cinematic.|CHAT|
-T Ominous Portents |QID|33112|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
+T A Curse Upon the Woods |QID|33120|N|To Delas Moonfang|M|29.48,24.52|Z|Shadowmoon Valley@Draenor|
+C Ominous Portents |QID|33112|N|Speak to the All-Seeing Eye and begin the compulsion. Use key 1 until he says something, then use key 2. Repeat until you get the cinematic.|CHAT|Z|Shadowmoon Valley@Draenor|
+T Ominous Portents |QID|33112|N|To Archmage Khadgar|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
 
-A Soul Shards of Summoning |QID|33066|LVL|94|N|From Archmage Khadgar|M|29.21,25.72|PRE|33112|
-A Cleaning Up Gul'var|QID|33269|LVL|94|N|From Cordana Felsong|M|29.27,25.70|PRE|33112|
+A Soul Shards of Summoning |QID|33066|N|From Archmage Khadgar|M|29.21,25.72|PRE|33112|Z|Shadowmoon Valley@Draenor|
+A Cleaning Up Gul'var|QID|33269|N|From Cordana Felsong|M|29.27,25.70|PRE|33112|Z|Shadowmoon Valley@Draenor|
 
-C Cleaning Up Gul'var|QID|33269|LVL|94|N|Kill the Shadow Council orcs|S|
-C Soul Shards of Summoning |QID|33066|LVL|94|N|Kill and loot Fel Mistress Hagra for her shard|QO|1|M|20.89,27.26|
-C Soul Shards of Summoning |QID|33066|LVL|94|N|Kill and loot Grogal the Harvester for his shard|QO|2|M|20.82,31.56|
-C Soul Shards of Summoning |QID|33066|LVL|94|N|Kill and loot Corruptor Kurgoth for his shard|QO|3|M|18.26,24.15|
+C Cleaning Up Gul'var|QID|33269|N|Kill the Shadow Council orcs|S|Z|Shadowmoon Valley@Draenor|
+C Soul Shards of Summoning |QID|33066|N|Kill and loot Fel Mistress Hagra for her shard|QO|1|M|20.89,27.26|Z|Shadowmoon Valley@Draenor|
+C Soul Shards of Summoning |QID|33066|N|Kill and loot Grogal the Harvester for his shard|QO|2|M|20.82,31.56|Z|Shadowmoon Valley@Draenor|
+C Soul Shards of Summoning |QID|33066|N|Kill and loot Corruptor Kurgoth for his shard|QO|3|M|18.26,24.15|Z|Shadowmoon Valley@Draenor|
 
-T Soul Shards of Summoning |QID|33066|LVL|94|N|To Image of Archmage Khadgar|M|19.07,28.55|
-A Heart on Fire|QID|33168|LVL|94|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33066|
-C Heart on Fire|QID|33168|LVL|94|N|Kill and loot Krosnis for his Fiery Heart.|M|17.72,27.48|T|Krosnis|
-T Heart on Fire|QID|33168|LVL|94|N|To Image of Archmage Khadgar|M|19.07,28.55|
+T Soul Shards of Summoning |QID|33066|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
+A Heart On Fire|QID|33168|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33066|Z|Shadowmoon Valley@Draenor|
+C Heart On Fire|QID|33168|N|Kill and loot Krosnis for his Fiery Heart.|M|17.72,27.48|T|Krosnis|Z|Shadowmoon Valley@Draenor|
+T Heart On Fire|QID|33168|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 
-A Forging the Soul Trap |QID|33114|LVL|94|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33168|
-C Forging the Soul Trap |QID|33114|LVL|94|N|Click on the Gul'var Soul Shards to combine them.|NC|
-T Forging the Soul Trap |QID|33114|LVL|94|N|To Image of Archmage Khadgar|M|19.07,28.55|
+A Forging the Soul Trap |QID|33114|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33168|Z|Shadowmoon Valley@Draenor|
+C Forging the Soul Trap |QID|33114|N|Click on the Gul'var Soul Shards to combine them.|NC|Z|Shadowmoon Valley@Draenor|
+T Forging the Soul Trap |QID|33114|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 
-A To Catch a Shadow |QID|33116|LVL|94|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|
-C To Catch a Shadow |QID|33116|LVL|94|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|
-C To Catch a Shadow |QID|33116|LVL|94|N|Kill Ruzuun|QO|2|
+A To Catch a Shadow |QID|33116|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|Z|Shadowmoon Valley@Draenor|
+C To Catch a Shadow |QID|33116|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|Z|Shadowmoon Valley@Draenor|
+C To Catch a Shadow |QID|33116|N|Kill Ruzuun|QO|2|Z|Shadowmoon Valley@Draenor|
 
-C Cleaning Up Gul'var|QID|33269|LVL|94|N|Finish Killing the Shadow Council orcs|US|M|19.40,24.90|
-T Cleaning Up Gul'var|QID|33269|LVL|94|N|To Cordana Felsong|M|29.27,25.70|
+C Cleaning Up Gul'var|QID|33269|N|Finish Killing the Shadow Council orcs|US|M|19.40,24.90|Z|Shadowmoon Valley@Draenor|
+T Cleaning Up Gul'var|QID|33269|N|To Cordana Felsong|M|29.27,25.70|Z|Shadowmoon Valley@Draenor|
 
-T To Catch a Shadow |QID|33116|LVL|94|N|To Archmage Khadgar|M|29.21,25.72|
-T Bounty: Twisted Ancient|QID|33111|LVL|94|M|31.8,31.2|Z|Lunarfall|N|To Baros Alexston.|
+T To Catch a Shadow |QID|33116|N|To Archmage Khadgar, and a cutscene.|M|29.21,25.72|Z|Shadowmoon Valley@Draenor|
+T Bounty: Twisted Ancient|QID|33111|M|28.94,15.91|Z|Lunarfall|N|To Baros Alexston.|
 
-L Level 100 |QID|34352|LVL|100|N|The final quests in Shadowmoon Valley require Level 100.|
-R Darktide Roost |QID|34352|N|Head down to Darktide Roost|LVL|100|
-N Guide to follow |QID|34352|N|Remaining steps of this guide are to follow soon.|LVL|100|
+; Make use of the Outpost Building Assembly Notes
+A Resources in Ashran|QID|37288|N|From Baros Alexston|M|28.94,15.91|Z|Lunarfall|
+F Stormshield |QID|37288|N|Fly to Stromshield using Dungar Longrink.|M|48.01,49.83|Z|Lunarfall|
+N Resources in Ashran|QID|37288|N|Kinkade Jakobs will sell you an upgrade to ANY building.  Be careful to pick one you have!|M|29.65,52.89|Z|Stormshield|
+T Resources in Ashran|QID|37288|N|To Kinkade Jakobs|M|29.65,52.89|Z|Stormshield|
 
-;A Darktide Defender |QID|34352|
-;A Dirty Rats |QID|34355|
-;A Releasing Rylak |QID|34365|
-;A Downsizing the Darktide |QID|34397|
-;A Rylak Rescue |QID|34450|
-;A Free their Minds |QID|34455|
+D Zone Finished|QID|0|N|Zone finished (for now). Feel free to go shopping at your favorite auction house. Otherwise move onto the Talador guide.|
 
 ]]
 
