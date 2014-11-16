@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2014-11-16 04:43
+-- Who: Ludovicus
+-- Log: Moved to [What the Draenei Found]
+
+-- URL: http://wow-pro.com/node/3614/revisions/27005/view
 -- Date: 2014-11-16 01:43
 -- Who: Ludovicus
 -- Log: Draft through [The Only Way to Travel]
@@ -82,7 +87,7 @@ h Fort Wrynn|QID|34563;34631|M|69.73,21.77|Z|Talador|N|With Olivia Abbington.|
 C The Quarry Quandary|QID|34563|M|69.26,19.29|N|Head to Apprentice Mial, just outside the fort to the north.|
 T The Quarry Quandary|QID|34563|M|69.26,19.29|N|To Apprentice Miall|
 
-A In Ared's Memory|QID|35045|M|69.26,19.29|N|From Apprentice Miall|
+A In Ared's Memory|QID|35045|M|69.26,19.29|N|From Apprentice Miall|PRE|34563|
 C In Ared's Memory|QID|35045|M|70.15,20.11|N|To Mial, who has now moved to inside Wrynn Artillery Tower.|
 T In Ared's Memory|QID|35045|M|70.15,20.11|N|To Miall|
 
@@ -140,33 +145,33 @@ R Tomb of Lights|QID|34578|M|61.87,52.16;61.00,53.62;62.43,56.83;63.45,61.83|CS|
 C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress, waaay to the south of fort. Party of 3 suggested.|
 R Gordal Foothills|QID|34578|M|63.41,63.12;62.47,65.40;62.41,67.42|CS|N|Now on to the Gordunni|
 
-T Going to the Gordunni|QID|34578|M|62.57,67.87|N|To Miall|
+T Going to the Gordunni|QID|34578|M|69.57,67.87|N|To Miall|
 A Dropping Bombs|QID|34976|M|62.57,67.87|N|From Miall|
 C Dropping Bombs|QID|34976|M|63.46,68.99|QO|1|U|112091|N|Base Catapult Destroyed|
 C Dropping Bombs|QID|34976|M|65.51,68.91|QO|2|U|112091|N|Central Catapult Destroyed|
 C Dropping Bombs|QID|34976|M|66.82,68.05|QO|3|U|112091|N|Summit Catapult Destroyed|
 C Dropping Bombs|QID|34976|M|69.05,69.04|QO|4|U|112091|N|Use Grappling Hook|
-T Dropping Bombs|QID|34976|M|69.32,69.85|N|To Miall, near the base of the wall.|
+T Dropping Bombs|QID|34976|M|69.63,69.84|N|To Miall, near the base of the wall.|
 
-A Supply Recovery|QID|34977|M|69.32,69.85|N|From Miall, near the base of the wall.|
-A Prized Repossessions|QID|34978|M|62.57,67.87|N|From Miall, near the base of the wall.|
-A Punching Through|QID|34979|M|62.57,67.87|N|From Miall, near the base of the wall.|
+A Punching Through|QID|34979|M|69.63,69.84|N|From Miall, near the base of the wall.|
+A Prized Repossessions|QID|34978|M|69.63,69.84|N|From Miall, near the base of the wall.|
+A Supply Recovery|QID|34977|M|69.63,69.84|N|From Miall, near the base of the wall.|
 C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|S|
 C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|S|
-K Vizier Vorgorsh|QID|34979|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|
-K Vizier Cromaug|QID|34979|M|66.2,80.8|QO|3|T|Vizier Cromaug|
-K Vizier Zulmork|QID|34979|M|67.0,77.2|QO|2|T|Vizier Zulmork|
+K Vizier Vorgorsh|QID|34979|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in the building.|
+K Vizier Cromaug|QID|34979|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|Up another flight in the building.|
+K Vizier Zulmork|QID|34979|M|67.14,77.04|QO|2|T|Vizier Zulmork|
 C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|
 C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|S|
-T Supply Recovery|QID|34977|M|62.57,67.87|N|To Miall|
-T Prized Repossessions|QID|34978|M|62.57,67.87|N|To Miall|
-T Punching Through|QID|34979|M|62.57,67.87|N|To Miall|
+t Punching Through|QID|34979|N|To Miall, who is next to you|
+t Prized Repossessions|QID|34978|N|To Miall, who is next to you|
+t Supply Recovery|QID|34977|N|To Miall, who is next to you|
 
-A The Lord of the Gordunni|QID|34980|M|62.57,67.87|N|From Miall|
+A The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|
 K Witch Lord Morkurk|QID|34980|M|64.0,81.8|QO|1|T|Witch Lord Morkurk|U|112307|
-T The Lord of the Gordunni|QID|34980|M|64.5,81.8|N|To Miall|
-A The Only Way to Travel|QID|34981|M|64.5,81.8|N|From Miall|
-T The Only Way to Travel|QID|34981|M|69.8,20.8|N|To Miall|
+T The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|
+A The Only Way to Travel|QID|34981|N|To Miall, who is next to you|
+T The Only Way to Travel|QID|34981|M|69.78,20.74|N|To Miall|
 A Armor Up|QID|34982|M|69.8,20.8|N|From Miall|RANK|2|
 T Armor Up|QID|34982|M|69.8,20.8|N|To Miall|
 
@@ -174,14 +179,14 @@ C Wanted: Kil'uun|QID|34103|M|66.20,34.40;72.90,31.40;72.95,25.95;67.05,36.35;73
 T Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|To Patrick Messer|
 
 ; Mage Tower
-A An Audience With The Archmage|QID|34631|M|69.9,20.8|N|From Foreman Eksos|
+; A An Audience With The Archmage|QID|34631|M|69.9,20.8|N|From Foreman Eksos|
 T An Audience With The Archmage|QID|34631|M|75.0,31.2|N|To Archmage Khadgar|
-A Making Acquaintances|QID|34815|M|75.0,31.2|N|From Archmage Khadgar|
+A Making Acquaintances|QID|34815|PRE|34631|M|75.0,31.2|N|From Archmage Khadgar|
 T Making Acquaintances|QID|34815|M|85.0,31.0|N|To Magister Serena|
 
-A Creating the Ink|QID|34609|M|85.0,31.0|N|From Magister Serena|
-A Forming the Scroll|QID|34612|M|85.0,31.0|N|From Magister Serena|
-A Gathering the Spark|QID|34619|M|85.0,31.0|N|From Magister Serena|
+A Creating the Ink|QID|34609|PRE|34815|M|85.0,31.0|N|From Magister Serena|
+A Forming the Scroll|QID|34612|PRE|34815|M|85.0,31.0|N|From Magister Serena|
+A Gathering the Spark|QID|34619|PRE|34815|M|85.0,31.0|N|From Magister Serena|
 C Forming the Scroll|QID|34612|M|82.2,31.6|N|Slumbering Protector|
 C Creating the Ink|QID|34609|M|84.0,29.8|N|Encroaching Giant|
 C Creating the Ink|QID|34609|M|83.0,31.6|N|Invasive Shambler|
@@ -189,50 +194,52 @@ T Creating the Ink|QID|34609|M|0,0|N|To Magister Serena|
 T Forming the Scroll|QID|34612|M|0,0|N|To Magister Serena|
 T Gathering the Spark|QID|34619|M|0,0|N|To Magister Serena|
 
-A Next Steps|QID|34875|M|0,0|N|From Magister Serena|
+A Next Steps|QID|34875|PRE|34609;34612;34619|M|0,0|N|From Magister Serena|
 T Next Steps|QID|34875|M|69.6,21.1|N|To Magister Serena|
-A The Foot of the Fortress|QID|34908|M|69.6,21.1|N|From Magister Serena|
+A The Foot of the Fortress|QID|34908|PRE|34875|M|69.6,21.1|N|From Magister Serena|
 T The Foot of the Fortress|QID|34908|M|62.0,69.3|N|To Magister Serena|
-A Dropping In|QID|34913|M|62.0,69.3|N|From Magister Serena|
+A Dropping In|QID|34913|PRE|34908|M|62.0,69.3|N|From Magister Serena|
 T Dropping In|QID|34913|M|69.9,69.5|N|To Magister Serena|
 
-A While We're in the Neighborhood|QID|34909|M|69.9,69.5|N|From Magister Serena|
-A Vicious Viziers|QID|34888|M|69.9,69.5|N|From Magister Serena|
-A Orbs of Power|QID|34889|M|69.9,69.5|N|From Magister Serena|
+A While We're in the Neighborhood|QID|34909|PRE|34913|M|69.9,69.5|N|From Magister Serena|
+A Vicious Viziers|QID|34888|PRE|34913|M|69.9,69.5|N|From Magister Serena|
+A Orbs of Power|QID|34889|PRE|34913|M|69.9,69.5|N|From Magister Serena|
 T While We're in the Neighborhood|QID|34909|M|0,0|N|To Magister Serena|
 T Vicious Viziers|QID|34888|M|0,0|N|To Magister Serena|
 T Orbs of Power|QID|34889|M|0,0|N|To Magister Serena|
 
-A The Final Step|QID|34912|M|0,0|N|From Magister Serena|
+A The Final Step|QID|34912|PRE|34909;34888;34889|M|0,0|N|From Magister Serena|
 C The Final Step|QID|34912|M|64.0,81.8|N|Witch Lord Morkurk|
 C The Final Step|QID|34912|M|64.3,81.8|N|Arcane Nexus|
 T The Final Step|QID|34912|M|0,0|N|To Magister Serena|
-A Due Cause to Celebrate|QID|34711|M|0,0|N|From Magister Serena|
+A Due Cause to Celebrate|QID|34711|PRE|34912|M|0,0|N|From Magister Serena|
 T Due Cause to Celebrate|QID|34711|M|69.7,20.8|N|To Magister Serena|
-A Joining the Ranks|QID|34993|M|69.7,20.8|N|From Magister Serena|RANK|2|
+A Joining the Ranks|QID|34993|PRE|34711|M|69.7,20.8|N|From Magister Serena|RANK|2|
 T Joining the Ranks|QID|34993|M|69.7,20.8|N|To Magister Serena|
 
 ; The Plight of the Arakkoa
-A As the Smoke Rises|QID|34685|M|69.4,21.5|N|From Kalaam|
-T As the Smoke Rises|QID|34685|M|73.1,38.7|N|To Crystal-Shaper Barum|
+A As the Smoke Rises|QID|34685|PRE|34711+34981|M|69.45,21.46|N|From Kalaam|
+R The Road to the Signpost|QID|34685|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;73.07,38.8.69|CS|N|Its a long ride. Head out the back.|
+T As the Smoke Rises|QID|34685|M|73.07,38.75|N|To Crystal-Shaper Barum|
 
-A Pyrophobia|QID|33578|M|77.7,44.0|N|From Raksi|
-A Burning Sky|QID|33740|M|73.1,38.7|N|From Crystal-Shaper Barum|
-A Pieces of Us|QID|33734|M|73.1,38.7|N|From Crystal-Shaper Barum|
-A Barum's Notes|QID|33761|M|76.3,42.8|N|From Crystal-Shaper Barum|
-C Pyrophobia|QID|33578|M|78.2,45.0|N|Sun-Sage Kairyx|
+A Burning Sky|QID|33740|M|73.07,38.75|N|From Crystal-Shaper Barum|
+A Pieces of Us|QID|33734|M|73.07,38.75|N|From Crystal-Shaper Barum|
+A Barum's Notes|QID|33761|ACTIVE|33740;33734|M|76.27,42.77|N|From Barum's Notes|
+A Pyrophobia|QID|33578|M|77.74,43.96|N|From Raksi|
+K Sun-Sage Kairyx|QID|33578|M|78.45,45.23|QO|1|N|Sun-Sage Kairyx|
+T Pyrophobia|QID|33578|M|77.74,43.96|N|To Raksi|
+A What the Draenei Found|QID|33579|M|77.74,43.96|N|From Raksi|
 C Burning Sky|QID|33740|M|79.8,34.6|N|Adherent Wing-Guard|
 C Burning Sky|QID|33740|M|75.4,63.2|N|Adherent Squallbringer|
 C Burning Sky|QID|33740|M|76.0,43.8|N|Adherent Sun-Caller|
 C Pieces of Us|QID|33734|M|75.8,44.4|N|Crystal-Shaper's Tools|
 C Pieces of Us|QID|33734|M|77.9,43.1|N|Melani's Doll|
 C Pieces of Us|QID|33734|M|78.2,43.8|N|Annals of Aruuna|
-T Pyrophobia|QID|33578|M|77.7,44.0|N|To Raksi|
-T Burning Sky|QID|33740|M|76.7,55.2|N|To Crystal-Shaper Barum|
-T Pieces of Us|QID|33734|M|76.7,55.2|N|To Crystal-Shaper Barum|
-T Barum's Notes|QID|33761|M|76.7,55.2|N|To Crystal-Shaper Barum|
 
-A What the Draenei Found|QID|33579|M|77.7,44.0|N|From Raksi|
+T Burning Sky|QID|33740|M|73.07,38.75|N|To Crystal-Shaper Barum|
+T Pieces of Us|QID|33734|M|73.07,38.75|N|To Crystal-Shaper Barum|
+T Barum's Notes|QID|33761|M|73.07,38.75|N|To Crystal-Shaper Barum|
+
 T What the Draenei Found|QID|33579|M|82.6,37.8|N|To Raksi|
 
 A Kura's Vengeance|QID|?|M|70.8,56.8|N|From Kura the Blind|

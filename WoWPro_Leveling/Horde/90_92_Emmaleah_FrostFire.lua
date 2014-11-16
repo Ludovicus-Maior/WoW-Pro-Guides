@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-16 06:57
+-- Who: Emmaleah
+-- Log: change the note on time warped tower to four ogres.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27008/view
+-- Date: 2014-11-16 06:38
+-- Who: Emmaleah
+-- Log: Fix two dup'd N tags that snuck in and correct the spelling of ravine 
+
+-- URL: http://wow-pro.com/node/3587/revisions/27007/view
+-- Date: 2014-11-16 06:32
+-- Who: Emmaleah
+-- Log: Some changes for live. some more clean up
+
+-- URL: http://wow-pro.com/node/3587/revisions/26974/view
 -- Date: 2014-11-13 13:12
 -- Who: Emmaleah
 -- Log: changed cords T Build your barracks, apparently Gazlowe needed new scenery, deleted all the @Frostfire Ridge (because I was confused). Haven't finished the pass thru the zone on live. more to come tomarrow.
@@ -67,7 +82,6 @@ WoWPro:GuideLevels(guide,91, 92, 90.7)
 WoWPro:GuideNextGuide(guide, 'EmmGorgrond')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;i know you will still be 90 when you start this guide, but if i register it as 91, then it will sort after the Tanaan Jungle Intro guide
 ;from an perusal of wowhead for quests that are not 100, or pvp or alliance and not in this quide === need to find out more about them
 ;A Gift for Raa'la	33957	?? sounds like in worgol?? the flaver text reminds me of young hearts
@@ -114,6 +128,7 @@ C What We Got|QID|34824|M|49.39,16.57|CHAT|QO|3|Z|Frostwall|
 C What We Need|QID|34822|M|39.89,61.89|S|N|Kill the pack wolves or pick up the boxes off of the ground.|
 C Kill Groog|QID|34823|M|49.33,59.69;40.2,59.9;41.32,58.62|CS|T|Groog|
 C What We Need|QID|34822|M|39.89,61.89|US|N|Finish gathering the salvage.|
+H Town Hall (Frostwall)|QID|34824|M|41.58,53.06|Z|Frostwall|U|110560|N|Hearth but if you can't or don't want to, it's not that far of a run back to your Garrison.|
 C What We Got|QID|34824|M|55.02,52.79|NC|QO|2|N|Open the crate next to Lady Sena.|Z|Frostwall|
 
 T The Ogron Live?|QID|34823|M|51.49,51.38|N|To Rokhan.|Z|Frostwall|
@@ -123,7 +138,7 @@ A Build Your Barracks|QID|34461|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
 C Build Your Barracks|QID|34461|M|59.82,50.08|U|111956|NC|QO|1;2|N|Pick up the blueprints off the table and learn them.|Z|Frostwall|
 C Build Your Barracks|QID|34461|M|52.31,53.57|NC|QO|3|N|Click on the table beside Gazlowe, pick one of the two possible sites on the map that appears, then follow Gazlowe over to that spot.|Z|Frostwall|
 C Build Your Barracks|QID|34461|M|58.02,49.34|NC|QO|5|N|Follow Gazlowe over to the spot, and click on the scroll in front of the door to finalize your plot.|Z|Frostwall|
-T Build Your Barracks|QID|34461|M|7.40,48.39|Z|Frostwall|N|To Gazlowe. Finalizing your garrison sent you to your graveyard. Run back inside to turn in.|
+T Build Your Barracks|QID|34461|M|57.40,48.39|Z|Frostwall|N|To Gazlowe. Finalizing your garrison sent you to your graveyard. Run back inside to turn in.|
 A We Need An Army|QID|34861|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
 A Winds of Change|QID|34462|M|53.85,54.81|N|From Warmaster Zog who is inside your Town Hall.|Z|Frostwall|
 T We Need An Army|QID|34861|M|53.85,54.81|N|To Warmaster Zog.|Z|Frostwall|
@@ -141,7 +156,7 @@ T Den of Wolves|QID|34379|M|20.75,57.98|N|To Durotan.|
 A Rally the Frostwolves|QID|34380|M|20.75,57.97|N|From Durotan.|
 A Honor Has Its Rewards|QID|33816|M|21.03,57.93|N|From Farseer Drek'Thar.|
 C Honor Has Its Rewards|QID|33816|M|17.51,56.62|NC|N|Run behind the camp and click on the stone. It's in an alcove.|
-T Honor Has Its Rewards|QID|33816|M|21.03,57.93|N|To Farseer Drel'Thar.|
+T Honor Has Its Rewards|QID|33816|M|17.69,56.73|N|To Farseer Drel'Thar. if you don't turn this right away, he runs off and is over by Durotan at ~ 19,60|
 C Rally the Frostwolves|QID|34380|M|19.36,60.09|CHAT|N|Talk to Draka.|
 T Rally the Frostwolves|QID|34380|M|20.93,57.91|N|To Durotan.|
 A Gormaul Tower|QID|33784|M|20.93,57.91|N|From Durotan.|
@@ -150,6 +165,7 @@ C Gormaul Tower|QID|33784|M|21.08,43.93|N|Ride to Gormaul Tower then kill the og
 T Gormaul Tower|QID|33784|M|19.74,44.77|N|To Durotan.|
 A These Colors Don't Run|QID|33526|M|19.74,44.77|N|From Durotan.|
 C These Colors Don't Run|QID|33526|U|107279|M|39.0,23.4|N|Kill the ogres and plant the flag as you run up to Durotan's new location.|
+N Arrow pointing wrong?|QID|33546|N|Opening your map sometimes fixes it, reloading UI almost always does.|
 T These Colors Don't Run|QID|33526|M|43.54,23.08|N|To Durotan.|Z|Bladespire Citadel|
 A Deeds Left Undone|QID|33546|M|43.54,23.08|N|From Durotan.|Z|Bladespire Citadel|
 C Deeds Left Undone|QID|33546|M|56.03,43.64|NC|N|Pick up the barrels of oil off of the ground as you go to Gol'kosh.|Z|Bladespire Citadel|
@@ -239,13 +255,12 @@ R Frostboar Drifts|QID|33412|M|17.76,41.96|N|Head away from the Citadel and take
 C Wanted: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|
 
 C From Their Cold Dead Hands|QID|36417|M|24.30,28.30|S|P|Tailoring;197|N|From the ogres you have been killing, You don't need to get them all in this area.|
-T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrim the Resolute.|
-A The Cure|QID|33454|M|24.30,28.30|N|From Igrim the Resolute.|
+T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrim the Resolute.|A The Cure|QID|33454|M|24.30,28.30|N|From Igrim the Resolute.|
 A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrim the Resolute.|
 C The Cure|QID|33454|M|27.17,26.98|S|N|Kill Geomancers to loot the antidote, use it on the gladiators.|
 K Thunk|QID|33450|M|27.0,25.6|QO|1|N|Inside the building.|T|Thunk|
-K Gullok|QID|33450|M|27.97,23.56|QO|2|N|Inside the building up the hill.|T|Gullok|
-K Splorg|QID|33450|M|28.4,16.1|QO|3|N|In the cave.|T|Splorg|
+K Gullok|QID|33450|M|27.97,23.56|QO|2|N|In the cave.|T|Gullok|
+K Splorg|QID|33450|M|28.4,16.1|QO|3|N|Inside the building up the hill.|T|Splorg|
 C The Cure|QID|33454|M|27.17,26.98|US|N|Finish curing the gladiators.|
 T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrim the Resolute.|
 T The Cure|QID|33454|M|24.30,28.30|N|To Igrim the Resolute.|
@@ -260,6 +275,7 @@ A Slave's Stash|QID|33500|M|27.6,42.8|N|Walk along the plank and jump from one r
 C Slavery and Strife|QID|33119|M|30.59,41.56|RANK|2|US|NC|N|To release the slaves, click on the ball they are chained to.|
 T Slavery and Strife|QID|33119|M|30.78,41.51|N|To Mulverick.|RANK|2|
 A Mulverick's Plight|QID|33483|M|30.78,41.51|N|From Mulverick.|RANK|2|
+N Arrow pointing far away?|QID|33483|M|59.65,51.67|Z|Sootstained Mine|N|The next spot should be about 200 yards. If the arrow is pointing somewhere else, you need to type /reload to reload your UI as you are going into a alternate map area.|
 C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|S|RANK|2|N|Go down into the mines and collect the axes from taskmasters along the way.|
 C Mulverick's Plight|QID|33483|M|59.65,51.67;51.43,34.51|Z|Sootstained Mine|CS|QO|2|RANK|2|N|Go down into the mines and you will find Turgall with the key.|
 C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|US|RANK|2|N|You can run behind Turgall and jump down for a shortcut back to Mulverick.|T|Slavemaster Turgall|
@@ -274,7 +290,7 @@ C Cut 'Em Out!|QID|36516|M|27,43|U|116246|QO|1|S|P|Leatherworking;165|N|Kill 'Wo
 T Slaying Slavers|QID|33898|M|24.14,39.31|N|To Gol'kosh the Axe.|
 C Cut 'Em Out!|QID|36516|M|27,43|U|116246|QO|1|US|P|Leatherworking;165|N|Kill 'Wooly Clefthoofs' and use the provided knife to skin them. (you can normal skin them afterwards). Pick the sootweed that is also growing in the area.|
 
-R Mor'dul Tower|QID|33438|M|30.3,51.3|N|Explore the Mor'dul tower, you will get a buff called "time warped" and there are 3 frozen ogres to loot for goodies.|
+R Mor'dul Tower|QID|33438|M|30.3,51.3|N|Explore the Mor'dul tower, you will get a buff called "time warped" and there are four (4) frozen ogres to loot for goodies.|
 A Icebound Frost-Singer|QID|34507|M|21.12,41.02;25.3,51.87;24.19,48.6|CS|L|110689|N|In the Forbidden Cave there is a Icebound Cold-Singer with some loot for you.|;not 34507
 R Wor'gol|QID|36516|M|23.00,56.56|P|Leatherworking;165|
 R Wor'gol|QID|36417|M|23.00,56.56|P|Tailoring;197|
@@ -288,8 +304,8 @@ C Dyed in the Fur|QID|36419|M|20.48,60.65|P|Tailoring;197|N|Use Trega's dye to i
 T Dyed in the Fur|QID|36419|M|20.47,60.60|P|Tailoring;197|N|To Trega.|
 U Learn Tailoring skill|QID|36706|U|115357|M|20.47,60.60|P|Tailoring;197|N|After you learn check this step off manually.|
 U Learn Tailoring Emporium Blueprints|QID|36706|U|111816|M|20.47,60.60|P|Tailoring;197|N|After you learn check this step off manually.|
-F Bladespire Fortress|QID|33484|M|21.57,56.15|P|Leatherworking;165|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|
-F Bladespire Fortress|QID|33484|M|21.57,56.15|P|Tailoring;197|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|
+F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Leatherworking;165|
+F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Tailoring;197|
 T The Slavemaster's Demise|QID|33484|M|18.44,42.12;24.36,37.30|CN|N|To Guse.|
 T The Fall of the Warlord|QID|33467|M|25.6,36.4|N|To Snowrunner Rolga.|
 T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel|N|To Durotan.|
@@ -319,7 +335,7 @@ A Wrath of Gronn|QID|32794|M|46.40,32.15|N|From Ga'nar.|
 C Articles of the Fallen|QID|32804|M|46.59,33.46|NC|N|Pick up the items off of the ground in this open area.|
 T Articles of the Fallen|QID|32804|M|46.38,32.04|N|To Kal'gor the Honorable.|
 C Wrath of Gronn|QID|32794|M|39.88,72.16|N|Head down the cave and fight the gronn's captors.|
-T Wrath of Gronn|QID|32794|M|50.58,54.40|N|To Ga'nar. Take any path in the cave to the middle.|
+T Wrath of Gronn|QID|32794|M|50.58,54.40|N|To Ga'nar. Take any path in the cave to the middle.|Z|Grulloc's Lair|
 A The Eldest|QID|32795|M|50.58,54.40|Z|Grulloc's Lair|N|From Ga'nar.|
 C The Eldest|QID|32795|M|53.65,62.58|Z|Grulloc's Lair|CHAT|N|Talk to Ga'nar to start the fight.|T|Grulloc|
 T The Eldest|QID|32795|M|49.30,50.46|Z|Grulloc's Lair|N|From Ga'nar.|
@@ -354,9 +370,10 @@ U Learn Gem Boutique Blueprints|QID|36706|U|111814|M|20.0,56.4|P|Jewelcrafting;7
 F Frostwall|QID|36380|ACTIVE|36380|P|Jewelcrafting;755|M|21.57,56.15|N|At Pul Windcarver. I would save my hearthstone for the next step since its a much longer trip back from Ashran.|
 A Wanted: Grondo's Bounty|QID|33918|M|48.89,65.15|N|From the Command Board.|Z|Frostwall|
 T To the Garrison|QID|32796|M|48.62,64.71|N|To Durotan.|Z|Frostwall|
+
 ;upgrade garrison level 2
 A Building For Professions|QID|37669|M|52.45,53.35|N|From Gazlowe.|Z|Frostwall|PRE|35106+36238+36260+36627+36475+36380+36516+36419|
-C Building For Professions|QID|37669|M|52.40,53.49|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This is the quest to upgrade your garrison to level 2.|
+C Building For Professions|QID|37669|M|52.40,53.49|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This quest doesn't complete if you build a non profession small building (such as storehouse).|
 T Building For Professions|QID|37669|M|52.45,53.35|N|To Gazlowe.|Z|Frostwall|
 A Bigger is Better|QID|36567|M|52.53,53.13|N|From Gazlowe.|RANK|2|Z|Frostwall|
 C Bigger is Better|QID|36567|M|52.40,53.49|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This is the quest to upgrade your garrison to level 2.|
@@ -372,8 +389,8 @@ t Bigger is Better|QID|36567|M|42.16,55.58|Z|Frostwall|RANK|2|N|To Gazlowe in yo
 C Ashran Appearance|QID|36706|M|45.67,50.12|Z|Frostwall|CHAT|N|At Bron Skyhorn. Choose the chat option, not the actual flightpath.|
 T Ashran Appearance|QID|36706|M|45.48,34.66|Z|Warspear|N|To Stomphoof.|
 A Warspear Welcome|QID|36707|PRE|36706|M|45.48,34.66|Z|Warspear|N|From Stomphoof.|
-T Warspear Welcome|QID|36707|M|44.15,45.42|Z|Warspear|N|To Lieutenant Kragil.|
-A Inspiring Ashran|QID|36708|PRE|36707|M|44.15,45.42|Z|Warspear|N|From Lieutenant Kragil inside the Brokenspear Tavern.|
+T Warspear Welcome|QID|36707|M|44.15,45.42|Z|Warspear|N|To Lieutenant Kragil inside the Brokenspear Tavern.|
+A Inspiring Ashran|QID|36708|PRE|36707|M|44.15,45.42|Z|Warspear|N|From Lieutenant Kragil.|
 C Inspiring Ashran|QID|36708|QO|1|M|45.0,43.2|Z|Warspear|CHAT|N|In the same building you are in. She is the innkeeper if you would prefer to be bound here.  Subsequent guides advise you for time saving reasons to be bound at your inn in that zone.|
 C Inspiring Ashran|QID|36708|QO|2|M|58.9,52.0|Z|Warspear|CHAT|N|Inside the Tower of Elements. There is also a portal to Orgrimmar in this building.|
 C Inspiring Ashran|QID|36708|QO|3|M|53.86,61.13|Z|Warspear|CHAT|N|Inside Warspear Hold.  This is where the bankers and quartermasters are located also.|
@@ -495,7 +512,7 @@ A Dagg at Gromgar|QID|34651|M|65.9,60.8|N|There is no quest !, but if you want D
 C Where's My Wolf?!|QID|33826|M|61.01,64.95|QO|2|NC|
 C Karg Unchained|QID|33785|M|63.77,68.17|N|Finish killing the orcs.|
 T Where's My Wolf?!|QID|33826|M|63.21,60.07|N|To Karg Bloodfury.|
-A Enfilade|QID|32994|M|63.21,60.07|N|From Karg Bloodfury.|
+A Enfilade|QID|32994|M|63.21,60.07|N|From Karg Bloodfury who is following you around unless you went into The Hunter's Hall, at which point he will reappear as soon as you leave.|
 T Karg Unchained|QID|33785|M|63.21,60.07|N|To Karg Bloodfury (he is following you around).|
 A The Master Siegesmith|QID|33828|M|63.19,60.04|N|From Lokra.|
 C Enfilade|QID|32994|M|61.38,71.71|S|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|
@@ -530,22 +547,22 @@ U Learn Engineering skill|QID|33493|U|111921|M|50.03,68.90|P|Engineering;202|N|A
 N Finalize your buildings|QID|33493|M|51.63,63.03|N|Click on the scrolls for each of the buildings to finalize them.  Most will then have NPC's that will offer a quest. This step will need manually checked off.|
 ; looks like the level 2 plans arent sold yet... you can only upgrade your mine and town hall N Upgrade your garrison|QID|35557|M|51.56,35.71|N|You have probably built up enough garrison resources to upgrade some (maybe all) your small garrison buildings to level 2 now.|
 
-;if you chose the lumber mill
+;if you chose the lumber mill  MED
 A Easing into Lumberjacking|QID|36137|M|51.63,63.03|N|From Lumber Lord Okton.|BUILDING|LumberMill;40;41;138|
 C Easing into Lumberjacking|QID|36137|M|44.31,53.76|N|Fly or ride to Stonefang Outpost where you will find the tree to mark for harvest.|
 T Easing into Lumberjacking|QID|36137|M|51.63,63.03|N|To Lumber Lord Okton.|
 A Turning Timber into Profit|QID|36138|M|51.87,61.75|N|From Lumber Lord Okton.|PRE|36137|
 C Turning Timber into Profit|QID|36138|S|N|As you are out and about don't forget to mark trees.|
 
-;if you chose the inn(tavern)
+;if you chose the inn(tavern) MED
 A The Headhunter's Harvest|QID|37046|RANK|2|M|50.50,60.66|N|From Akanja.|BUILDING|Inn;34;35;36|
 C The Headhunter's Harvest|QID|37046|CHAT|RANK|2|M|50.50,60.53|N|Talk to Akanja and pick a follower.|
 T The Headhunter's Harvest|QID|37046|RANK|2|M|50.50,60.53|N|To Akanja.|
 
-;gladiators sanctum
+;gladiators sanctum MED
 A Warlord of Draenor|QID|36874|M|51.51,59.56|BUILDING|GladiatorsSantum;159;160;161|N|From Raza'kul.|
 
-;storehouse;trading post
+;storehouse SMALL;trading post MED
 A Lost in Transition|QID|37060|M|53.38,41.18|BUILDING|Storehouse;52;142;143|N|From Yorn Longhoof.|
 A Tricks of the Trade|QID|37062|M|57.76,27.75|BUILDING|Trading Post;111;144;145|N|From Fayla Fairfeather.|
 C Lost in Transition|QID|37060|M|52.19,19.52|Z|Frostwall|N|These are scattered around your garrison.|
@@ -554,95 +571,68 @@ T Tricks of the Trade|QID|37062|M|57.88,27.83|N|To Fayla Fairfeather.|
 N Auctioning For Parts|QID|36948|BUILDING|Trading Post;144;145|M|57.88,27.83|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.
 T Lost in Transition|QID|37060|M|52.87,40.64|N|To Yorn Longhoof.|
 
-;tannery
+;tannery SMALL
 A Your First Leatherworking Work Order|QID|36642|M|53.00,41.32|BUILDING|Tannery;90;121;122|N|From Murne Greenhoof.|
 B Raw Beast Hide|QID|36642|M|52.84,47.29|BUILDING|Tannery;90;121;122|L|110609 5|N|Acquire from skinning or the Auction House or some other method.|
 C Place work order|QID|36642|M|52.84,47.29|QO|1|CHAT|L|110609 5|N|At Yanny.|
 C Pick up work order|QID|36642|M|52.95,41.3|QO|2|NC|L|110609 5|N|At Yanny.|
 t Your First Leatherworking Work Order|QID|36642|M|52.84,47.29|N|To Yanny.|
-A Your Second Leatherworking Work Order|QID|37593|M|53.00,41.32|BUILDING|Tannery;90;121;122|PRE|36642|N|From Murne Greenhoof.|
-B Raw Beast Hide|QID|37593|M|52.84,47.29|BUILDING|Tannery;90;121;122|L|110609 5|N|Acquire from skinning or the Auction House or some other method.|
-C Place work order|QID|37593|M|52.84,47.29|CHAT|L|110609 5|N|At Yanny.|
-t Your Second Leatherworking Work Order|QID|37593|M|52.84,47.29|N|To Yanny.|
 
-;tailering emporium
+;tailering emporium SMALL
 A Your First Tailoring Work Order|QID|36643|M|48.22,32.51|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|N|From ??.|
 B Sumptuous Fur|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|L|111557 5|N|Acquire from killing and looting humanoids (saborons a very good source) or the Auction House or some other method.|
-C Place first order|QID|36643|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|CHAT|N|Talk to Turga to start a work order.|
-C Pick up first order|QID|36643|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|NC|N|From the bundles, barrels and boxes beside the building, called 'Tailoring Work Order' .|
+C Place order|QID|36643|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|CHAT|N|Talk to Turga to start a work order.|
+C Pick up order|QID|36643|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|NC|N|From the bundles, barrels and boxes beside the building, called 'Tailoring Work Order' .|
 T Your First Tailoring Work Order|QID|36643|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128||N|From Turga.|
-A Your Second Tailoring Work Order|QID|36645|M|48.22,32.51|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|N|From ??.|PRE|36643|
-B Sumptuous Fur|QID|36645|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|L|111557 5|N|Acquire from killing and looting humanoids (saborons a very good source) or the Auction House or some other method.|
-C Place your order|QID|36645|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|CHAT|N|Talk to Turga to start a work order. From now on all work orders take 4 hours, but you can queue several up in adbance.|
-T Your Second Tailoring Work Order|QID|36645|M|48.32,31.64|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|N|To Turga.|
 
-;the forge
+;the forge SMALL
 A Your First Blacksmithing Work Order|QID|35168|M|48.22,32.51|Z|Frostwall|BUILDING|TheForge;60;117;118|N|From ??.|
-B True Steel Ore|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|L|111557 5|N|Acquire from mining or the Auction House or some other method.|
-C Place first order|QID|35168|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|CHAT|N|Talk to Kinja to start a work order.|
-C Pick up first order|QID|35168|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TheForge;60;117;118|NC|N|From the bundles, barrels and boxes beside the building, called 'Blacksmithing Work Order' .|
+B True Iron Ore|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
+C Place order|QID|35168|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|CHAT|N|Talk to Kinja to start a work order.|
+C Pick up order|QID|35168|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|TheForge;60;117;118|NC|N|From the bundles, barrels and boxes beside the building, called 'Blacksmithing Work Order' .|
 T Your First Blacksmithing Work Order|QID|35168|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118||N|From Kinja.|
-A Your Second Blacksmithing Work Order|QID|35172|M|48.22,32.51|Z|Frostwall|BUILDING|TheForge;60;117;118|N|From ??.|PRE|35168|
-B True Steel Ore|QID|35172|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|L|111557 5|N|Acquire from mining or the Auction House or some other method.|
-C Place your order|QID|35172|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|CHAT|N|Talk to Kinja to start a work order. From now on all work orders take 4 hours, but you can queue several up in adbance.|
-T Your Second Blacksmithing Work Order|QID|35172|M|48.32,31.64|Z|Frostwall|BUILDING|TheForge;60;117;118|N|To Kinja.|
 
-;gem boutique
+;gem boutique SMALL
 A Your First Jewelcrafting Work Order|QID|37573|M|48.22,32.51|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Dorogarr.|
 B Blackrock Ore|QID|37573|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
-C Place first order|QID|37573|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|CHAT|N|Talk to Elrondir Surrion to start a work order.|
-C Pick up first order|QID|37573|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|GemBoutique;96;131;132|NC|N|From the bundles, barrels and boxes beside the building, called 'Jewelcrafting Work Order'.|
+C Place order|QID|37573|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|CHAT|N|Talk to Elrondir Surrion to start a work order.|
+C Pick up order|QID|37573|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|GemBoutique;96;131;132|NC|N|From the bundles, barrels and boxes beside the building, called 'Jewelcrafting Work Order'.|
 T Your First Jewelcrafting Work Order|QID|37573|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Elrondir Surrion.|
-A Your Second Jewelcrafting Work Order|QID|37592|M|48.22,32.51|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|From Dorogarr.|PRE|37573|
-B Blackrock Ore|QID|37592|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|L|109118 5|N|Acquire from mining herbs or the Auction House or some other method.|
-C Place your order|QID|37592|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|CHAT|N|Talk to Elrondir Surrion to start a work order. From now on all work orders take 4 hours, but you can queue several up in adbance.|
-T Your Second Jewelcrafting Work Order|QID|37592|M|48.32,31.64|Z|Frostwall|BUILDING|GemBoutique;96;131;132|N|To Elrondir Surrion.|
 
-;if you chose alchemy lab
+;if you chose alchemy lab SMALL
 A Your First Alchemy Work Order|QID|37568|M|48.22,32.51|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|N|From Albert de Hyde.|
 B Frostweed|QID|37568|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|L|109124 5|N|Acquire from herbalism or the Auction House or some other method.|
-C Place first order|QID|37568|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|CHAT|N|Talk to Keyana Tone to start a work order.|
-C Pick first order|QID|37568|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|NC|N|From the bundles, barrels and boxes beside the building, called 'Alchemy Work Order' .|
+C Place order|QID|37568|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|CHAT|N|Talk to Keyana Tone to start a work order.|
+C Pick up order|QID|37568|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|NC|N|From the bundles, barrels and boxes beside the building, called 'Alchemy Work Order' .|
 T Your First Alchemy Work Order|QID|37568|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|N|From Keyana Tone.|
-A Your Second Alchemy Work Order|QID|37584|M|48.22,32.51|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|N|From Albert de Hyde.|PRE|36641|
-B Frostweed|QID|37584|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|L|109124 5|N|Acquire from herbalism or the Auction House or some other method.|
-C Place your order|QID|37584|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|CHAT|N|Talk to Keyana Tone to start a work order. From now on all work orders take 4 hours, but you can queue several up in adbance.|
-T Your Second Alchemy Work Order|QID|37584|M|48.32,31.64|Z|Frostwall|BUILDING|AlchemyLab;76;119;120|N|To Keyana Tone.|
 
-;if you choose scribes quarters
+;if you choose scribes quarters SMALL
 A Your First Inscription Work Order|QID|37572|M|48.22,32.51|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|From Urgra.|
 B Cereleun Pigment|QID|37572|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|L|114931 2|N|Acquire from milling Draenor herbs or the Auction House or some other method.|
-C Place first order|QID|37572|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|CHAT|N|Talk to Y'rogg to start a work order.|
-C Pick up first order|QID|37572|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bundles, barrels and boxes beside the building, called 'Inscription Work Order'.|
+C Place order|QID|37572|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|CHAT|N|Talk to Y'rogg to start a work order.|
+C Pick up order|QID|37572|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bundles, barrels and boxes beside the building, called 'Inscription Work Order'.|
 T Your First Inscription Work Order|QID|37572|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|From Y'rogg.|
-A Your Second Inscription Work Order|QID|36841|M|48.22,32.51|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|From Urgra.|PRE|37572|
-B Cereleun Pigment|QID|36841|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|L|114931 2|N|Acquire from milling Draenor herbs or the Auction House or some other method.|
-C Place your order|QID|36841|QO|1|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|CHAT|N|Talk to Y'rogg to start a work order. From now on all work orders take 4 hours, but you can queue several up in adbance.|
-T Your Second Inscription Work Order|QID|36841|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|To Y'rogg.|
 
-;engineering works
+;engineering works SMALL
 A Your First Engineering Work Order|QID|37571|M|53.97,37.33|BUILDING|EngineeringWorks;93;123;124|N|From Pozzlow.|Z|Frostwall|
 B True Iron Ore|QID|37571|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
 B Blackrock Ore|QID|37571|L|109119 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 True Iron Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
-C Place first work order|QID|37571|CHAT|QO|1|M|53.13,36.18|N|At Garbra Fizzwonk.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
-C Pick up first work order|QID|37571|NC|QO|2|M|51.84,35.94|Z|Frostwall|N|At the pile of boxes and bags named 'Engineering Work Order.|BUILDING|EngineeringWorks;93;123;124|
+C Place work order|QID|37571|CHAT|QO|1|M|53.13,36.18|N|At Garbra Fizzwonk.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
+C Pick up work order|QID|37571|NC|QO|2|M|51.84,35.94|Z|Frostwall|N|At the pile of boxes and bags named 'Engineering Work Order.|BUILDING|EngineeringWorks;93;123;124|
 T Your First Engineering Work Order|QID|37571|M|53.47,36.94|N|To Garbra Fizzwonk.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
-A Your Second Engineering Work Order|QID|37590|M|52.24,37.74|Z|Frostwall|N|From Pozzlow.|BUILDING|EngineeringWorks;93;123;124|PRE|37571|
-B True Iron Ore|QID|37590|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
-B Blackrock Ore|QID|37590|L|109119 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 True Iron Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
-C Place your order|QID|37590|M|51.92,36.74|Z|Frostwall|BUILDING|EngineeringWorks;93;123;124|
-T Your Second Engineering Work Order|QID|37590|M|52.30,37.28|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|N|To Pozzlow.|
 
-;if you chose enchanting hut
+;if you chose enchanting hut SMALL
 A Your First Enchanting Work Order|QID|36645|M|52.95,37.31|N|From Yukla Greenshadow.|BUILDING|EnchantingHut;93;125;126|
 B Draenic Dust|QID|37568|M|51.85,35.76|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
 C Place first work order|QID|37568|M|51.85,35.76|QO|1|CHAT|N|At Garra.|BUILDING|EnchantingHut;93;125;126|
-C Pick up first work order|QID|37568|M|51.85,35.76|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
+C Pick up work order|QID|37568|M|51.85,35.76|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
 T Your First Enchanting Work Order|QID|37568|M|52.56,36.72|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
-A Your Second Enchanting Work Order|QID|3683975|M|52.95,37.31|N|From Yukla Greenshadow.|PRE|37568|BUILDING|EnchantingHut;93;125;126|
-B Draenic Dust|QID|36839|M|51.85,35.76|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
-C Place your order|QID|36839|M|51.80,36.01|CHAT|BUILDING|EnchantingHut;93;125;126|N|At Garra.|
-T Your Second Enchanting Work Order|QID|36839|M|52.41,36.90|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
+
+;if you choose barn MED
+A Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|From Farmer Lok'lub|
+C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in the shivering trench ~55,62) if you want fur (cloth) and a clefthoof (nearest concentration is outside of sootstained mines ~26,46) if you are interested in leather. You can trap more if you want, up to 7 can be turned in each day.|
+C Place a work order|QID|36345|QO|2|M|51.71,58.32|Z|Frostwall|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
+T Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|To Farmer Lok'lub|
 
 A The Secrets of Gorgrond|QID|35557|M|41.58,53.06|N|From the Command Board.|
 T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|
@@ -651,7 +641,7 @@ C Thunderlord Invasion|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw
 t Thunderlord Invasion|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|
 A The Iron Wolf|QID|33010|M|50.17,37.82|N|From Durotan.|
 
-A Sevices of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (possibly requires multiple findings?) he has come to pledge his service.|PRE|34654;34651|
+A Sevices of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654;34651|
 R Grimfrost Hill|QID|33125|M|65.14,49.45|
 A A Proper Parting|QID|33125|M|66.03,49.09|N|From Outrider Urukag.|
 A Gut Guttra|QID|33132|M|66.03,49.09|N|From Outrider Urukag.|
@@ -664,14 +654,14 @@ T A Proper Parting|QID|33125|M|66.04,49.10|N|To Outrider Urukag.|
 T Gut Guttra|QID|33132|M|66.04,49.10|N|To Outrider Urukag.|
 
 R Grom'gar|QID|33010|M|62.81,65.73|
-C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Hunter's Hall@Frostfire|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|
-T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Hunter's Hall@Frostfire|N|To Thrall.|
-A To Thunder Pass|QID|34123|M|53.23,56.27|Z|Hunter's Hall@Frostfire|N|From Thrall.|
-T To Thunder Pass|QID|34123|M|73.43,58.83|N|To Lokra.|
-A The Battle of Thunder Pass|QID|34124|M|73.43,58.83|N|From Lokra.|
+C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Hunter's Hall|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|
+T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Hunter's Hall|N|To Thrall.|
+A To Thunder Pass|QID|34123|M|53.23,56.27|Z|Hunter's Hall|N|From Thrall.|
 
 f Wolf's Stand|QID|34124|M|73.63,60.03|N|At Windhunter.|
-C The Battle of Thunder Pass|QID|34124|M|76.84,54.40|N|This is a solo scenario and takes around 20 min. Talk to Durotan to start it. The grunts are not part of the objectives and are the LOWEST priority to kill. \nThe orcs with flags are the ones you need to kill.|
+T To Thunder Pass|QID|34123|M|73.43,58.83|N|To Lokra.|
+A The Battle of Thunder Pass|QID|34124|M|73.43,58.83|N|From Lokra.|
+C The Battle of Thunder Pass|QID|34124|M|74.98,55.76|N|This is a solo scenario and takes around 20 min. Talk to Durotan to start it. The grunts are not part of the objectives and are the LOWEST priority to kill. \nThe orcs with flags are the ones you need to kill.|
 T The Battle of Thunder Pass|QID|34124|M|76.16,55.16|N|To Durotan.|
 A The Frostwolves Stand Ready|QID|37563|M|76.32,54.06|N|From Makar Stonebinder.|
 C Pick one|QID|37563|M|76.32,54.06|N|Geyah is a resto shaman, her guarenteed ability is a magic debuff counter, Kal'gor is an elemental shaman and his guarenteed ability is a counter to minion swarms, Lokra is an enhancelent shaman and her guarenteed ability is a counter to danger zones.  Pick the one you want.|
@@ -711,7 +701,7 @@ A Vul'gaths End|QID|34075|M|82.83,76.34|N|From Scout Ruk'Gan.|
 C Vul'gaths End|QID|34075|M|83.83,74.96|T|General Vul'gath|N|Just across the rock bridge here.|
 T Vul'gaths End|QID|34075|M|82.82,76.33|N|To Scout Ruk'Gan.|
 
-N We're outa here!|N|This concludes Frostfire Ridge, check off this step and the next guide will open.|
+D We're outa here!|N|This concludes Frostfire Ridge, check off this step and the next guide will open.|
 
 ;This should be at the end of the gorgrond guide  (i.e. the next time you come to your garrison)
 ;C Turning Timber into Profit|QID|36138|QO|2|M|51.99,61.68|N|Talk to Okton to place your work order.|
