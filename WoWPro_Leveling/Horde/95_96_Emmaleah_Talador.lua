@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2014-11-16 19:50
+-- Who: AyaJulia
+-- Log: Corrected location of Pure Crystal Dust and removed note that location needs to be corrected.
+
+-- URL: http://wow-pro.com/node/3598/revisions/26904/view
 -- Date: 2014-11-08 03:44
 -- Who: Emmaleah
 -- Log: corrections per list o' errors
@@ -58,7 +63,7 @@ R Kuuro's Claim|QID|34576|M|74.03,22.68|
 C Iridium Recovery|QID|34576|M|75.4,22|S|N|Look up, these are non-agro critters flying above you.|
 C Out of Jovite|QID|34577|M|75.4,22|NC|S|
 C Gas Guzzlers|QID|34579|M|75.4,22|U|111910|N|After you kill the goren, use your 'Goren Gas Extractor' on them.|S|
-A Pure Crystal Dust|QID|34576|M|75.4,22|N|More treasure, its up the ramp and at the end of the room. Need to get loc and name correctly.|
+A Pure Crystal Dust|QID|34576|M|78.11,14.8|N|More treasure, it's up the ramp and at the end of the room.|
 C Gas Guzzlers|QID|34579|M|75.4,22|U|111910|N|After you kill the goren, use your 'Goren Gas Extractor' on them.|US|
 C Iridium Recovery|QID|34576|M|75.4,22|US|N|Look up, these are non-agro critters flying above you.|
 C Out of Jovite|QID|34577|M|75.4,22|NC|US|N|These are green rocks lying around.|

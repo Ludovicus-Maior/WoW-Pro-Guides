@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-16 11:45
+-- Who: Emmaleah
+-- Log: Fixed Igrimar's name, changed a couple of coordinates, added note re pale loot manual checkoff, changed note about sootstained mine/map layers, changed coords and note on JC quest
+
+-- URL: http://wow-pro.com/node/3587/revisions/27009/view
 -- Date: 2014-11-16 06:57
 -- Who: Emmaleah
 -- Log: change the note on time warped tower to four ogres.
@@ -247,7 +252,7 @@ T Missing Pack|QID|33955|M|19.53,51.01|N|To Shivertail.|
 A Shivertail's Den|QID|33929|M|19.53,51.01|N|From Shivertail.|
 C Shivertail's Den|QID|33929|M|20.7,48.6|QO|1|NC|
 C Shivertail's Den|QID|33929|M|21.4,50.2|
-A Pale Loot Sack|QID|34714|M|21.7,50.7|NC|N|Go up the path on the other side of the room for minor treasure.|
+A Pale Loot Sack|QID|34714|M|21.7,50.7|NC|N|Go up the path on the other side of the room for minor treasure. You will need to manually check this step off.|;can not find the right QID to make this one stay checked off
 T Shivertail's Den|QID|33929|M|19.53,51.01|N|To Shivertail.|
 C Bladespire Fortress|QID|33473|M|21.57,56.15|CHAT|N|At Pul Windcarver. Take the chat option, not the flight path.|
 
@@ -255,16 +260,16 @@ R Frostboar Drifts|QID|33412|M|17.76,41.96|N|Head away from the Citadel and take
 C Wanted: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|
 
 C From Their Cold Dead Hands|QID|36417|M|24.30,28.30|S|P|Tailoring;197|N|From the ogres you have been killing, You don't need to get them all in this area.|
-T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrim the Resolute.|A The Cure|QID|33454|M|24.30,28.30|N|From Igrim the Resolute.|
-A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrim the Resolute.|
+T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrimar the Resolute.|A The Cure|QID|33454|M|24.30,28.30|N|From Igrimar the Resolute.|
+A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrimar the Resolute.|
 C The Cure|QID|33454|M|27.17,26.98|S|N|Kill Geomancers to loot the antidote, use it on the gladiators.|
 K Thunk|QID|33450|M|27.0,25.6|QO|1|N|Inside the building.|T|Thunk|
 K Gullok|QID|33450|M|27.97,23.56|QO|2|N|In the cave.|T|Gullok|
 K Splorg|QID|33450|M|28.4,16.1|QO|3|N|Inside the building up the hill.|T|Splorg|
 C The Cure|QID|33454|M|27.17,26.98|US|N|Finish curing the gladiators.|
-T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrim the Resolute.|
-T The Cure|QID|33454|M|24.30,28.30|N|To Igrim the Resolute.|
-A The Fall of the Warlord|QID|33467|M|24.30,28.30|N|From Igrim the Resolute.|
+T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrimar the Resolute.|
+T The Cure|QID|33454|M|24.30,28.30|N|To Igrimar the Resolute.|
+A The Fall of the Warlord|QID|33467|M|24.30,28.30|N|From Igrimar the Resolute.|
 C The Fall of the Warlord|QID|33467|M|23.2,26.6|N|Click on the weapon stand to summon Bult.|T|Warlord Bult|
 
 A Slaying Slavers|QID|33898|M|24.14,39.30|N|From Gol'kosh the Axe.|
@@ -275,7 +280,7 @@ A Slave's Stash|QID|33500|M|27.6,42.8|N|Walk along the plank and jump from one r
 C Slavery and Strife|QID|33119|M|30.59,41.56|RANK|2|US|NC|N|To release the slaves, click on the ball they are chained to.|
 T Slavery and Strife|QID|33119|M|30.78,41.51|N|To Mulverick.|RANK|2|
 A Mulverick's Plight|QID|33483|M|30.78,41.51|N|From Mulverick.|RANK|2|
-N Arrow pointing far away?|QID|33483|M|59.65,51.67|Z|Sootstained Mine|N|The next spot should be about 200 yards. If the arrow is pointing somewhere else, you need to type /reload to reload your UI as you are going into a alternate map area.|
+R Entrance to Sootstained Mine|QID|33483|M|29.62,42.34|N|After you walk in the mine and enter the big room, open your map, if the waypoint is placed correctly (on the sootstained mine map) all is good.  If not, you need to type /reload to reload your UI as you have entered an alternate map area.|
 C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|S|RANK|2|N|Go down into the mines and collect the axes from taskmasters along the way.|
 C Mulverick's Plight|QID|33483|M|59.65,51.67;51.43,34.51|Z|Sootstained Mine|CS|QO|2|RANK|2|N|Go down into the mines and you will find Turgall with the key.|
 C Mulverick's Plight|QID|33483|M|59.65,51.67|Z|Sootstained Mine|QO|1|US|RANK|2|N|You can run behind Turgall and jump down for a shortcut back to Mulverick.|T|Slavemaster Turgall|
@@ -361,15 +366,15 @@ A The Alchemist|QID|35103|M|45.16,51.00|PRE|35058|Z|Frostwall|N|From Refugee Lo'
 F Wor'gal|QID|36567|M|48.14,66.19|N|At Bron Skyhorn.|ACTIVE|36567|P|Jewelcrafting;755|
 T Locating the Lapidarist|QID|36352|M|20.0,56.4|P|Jewelcrafting;755|N|To Gem Grinder Orolak.|
 A No Pressure, No Diamonds|QID|36378|M|20.0,56.4|P|Jewelcrafting;755|PRE|36352|N|From Gem Grinder Orolak.|
-C No Pressure, No Diamonds|QID|36378|M|17.4,50.4|P|Jewelcrafting;755|N|These creatures who drop this exist in all of the lava pools.  The closest one is marked on your map.|
+C No Pressure, No Diamonds|QID|36378|M|30.74,43.83|P|Jewelcrafting;755|N|These creatures who drop this exist in all of the lava pools.  The closest one is marked on your map. If you aren't in a hurry to get it done, you will be at an area where they spawn at when doing the quest Enfilade, just outside of Grom'gar. (check this off manually if you decide to wait.)|
 T No Pressure, No Diamonds|QID|36378|M|20.0,56.4|P|Jewelcrafting;755|N|To Gem Grinder Orolak.|
 A Diamonds Are Forever|QID|36380|M|20.0,56.4|P|Jewelcrafting;755|PRE|36378|N|From Gem Grinder Orolak.|
 T Diamonds Are Forever|QID|36380|M|20.0,56.4|P|Jewelcrafting;755|N|Wait a moment whiile he crafts it and then turn quest into Gem Grinder Orolak.|
 U Learn Jewelcrafting skill|QID|36706|U|115359|M|20.0,56.4|P|Jewelcrafting;755|N|After you learn check this step off manually.|
 U Learn Gem Boutique Blueprints|QID|36706|U|111814|M|20.0,56.4|P|Jewelcrafting;755|N|After you learn check this step off manually.|
 F Frostwall|QID|36380|ACTIVE|36380|P|Jewelcrafting;755|M|21.57,56.15|N|At Pul Windcarver. I would save my hearthstone for the next step since its a much longer trip back from Ashran.|
-A Wanted: Grondo's Bounty|QID|33918|M|48.89,65.15|N|From the Command Board.|Z|Frostwall|
-T To the Garrison|QID|32796|M|48.62,64.71|N|To Durotan.|Z|Frostwall|
+A Wanted: Grondo's Bounty|QID|33918|M|48.94,41.57|N|From the Command Board.|Z|Frostwall|
+T To the Garrison|QID|32796|M|50.16,37.94|N|To Durotan.|Z|Frostwall|
 
 ;upgrade garrison level 2
 A Building For Professions|QID|37669|M|52.45,53.35|N|From Gazlowe.|Z|Frostwall|PRE|35106+36238+36260+36627+36475+36380+36516+36419|

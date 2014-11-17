@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2014-11-17 01:36
+-- Who: Ludovicus
+-- Log: Played up to [An Eye for a Spy]
+
+-- URL: http://wow-pro.com/node/3614/revisions/27012/view
+-- Date: 2014-11-16 19:15
+-- Who: Ludovicus
+-- Log: Finished [The Plight of the Arakkoa], starting [The Battle for Shattrath]
+
+-- URL: http://wow-pro.com/node/3614/revisions/27006/view
 -- Date: 2014-11-16 04:43
 -- Who: Ludovicus
 -- Log: Moved to [What the Draenei Found]
@@ -219,96 +229,106 @@ T Joining the Ranks|QID|34993|M|69.7,20.8|N|To Magister Serena|
 
 ; The Plight of the Arakkoa
 A As the Smoke Rises|QID|34685|PRE|34711+34981|M|69.45,21.46|N|From Kalaam|
-R The Road to the Signpost|QID|34685|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;73.07,38.8.69|CS|N|Its a long ride. Head out the back.|
+R The Road to the Signpost|QID|34685|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;73.07,38.69|CS|N|Its a long ride. Head out the back.|
 T As the Smoke Rises|QID|34685|M|73.07,38.75|N|To Crystal-Shaper Barum|
 
 A Burning Sky|QID|33740|M|73.07,38.75|N|From Crystal-Shaper Barum|
 A Pieces of Us|QID|33734|M|73.07,38.75|N|From Crystal-Shaper Barum|
 A Barum's Notes|QID|33761|ACTIVE|33740;33734|M|76.27,42.77|N|From Barum's Notes|
 A Pyrophobia|QID|33578|M|77.74,43.96|N|From Raksi|
+C Burning Sky|QID|33740|M|75.80,45.20;78.20,45.00;79.80,34.50;75.38,36.52;77.30,41.00;74.89,66.49;73.60,59.25;77.90,38.00;76.81,43.26;78.06,35.61;75.25,39.86;81.62,36.14;77.61,61.06;75.12,62.17|CN|N|Kill Wing-Guards, Squallbringers, and Sun-Callers.|S|
+
 K Sun-Sage Kairyx|QID|33578|M|78.45,45.23|QO|1|N|Sun-Sage Kairyx|
 T Pyrophobia|QID|33578|M|77.74,43.96|N|To Raksi|
 A What the Draenei Found|QID|33579|M|77.74,43.96|N|From Raksi|
-C Burning Sky|QID|33740|M|79.8,34.6|N|Adherent Wing-Guard|
-C Burning Sky|QID|33740|M|75.4,63.2|N|Adherent Squallbringer|
-C Burning Sky|QID|33740|M|76.0,43.8|N|Adherent Sun-Caller|
-C Pieces of Us|QID|33734|M|75.8,44.4|N|Crystal-Shaper's Tools|
-C Pieces of Us|QID|33734|M|77.9,43.1|N|Melani's Doll|
-C Pieces of Us|QID|33734|M|78.2,43.8|N|Annals of Aruuna|
+C Harmonic Crystal|QID|33761|M|77.74,44.08|QO|3|N|Green Spiky Crystal|
+C Melani's Doll|QID|33734|M|77.91,42.98|QO|2|
+C Polished Crystal|QID|33761|M|76.98,43.08|QO|2|N|Clear Purple Rectangle|
+C Annals of Aruuna|QID|33734|M|75.45,44.13|QO|3|N|
+C Honed Crystal|QID|33761|M|76.17,44.26|QO|1|N|Glowing Red Spike|
+C Crystal-Shaper's Tools|QID|33734|M|77.54,41.24|QO|1|
+C Burning Sky|QID|33740|M|75.80,45.20;78.20,45.00;79.80,34.50;75.38,36.52;77.30,41.00;74.89,66.49;73.60,59.25;77.90,38.00;76.81,43.26;78.06,35.61;75.25,39.86;81.62,36.14;77.61,61.06;75.12,62.17|CN|N|Kill Wing-Guards, Squallbringers, and Sun-Callers.|US|
+R Aruuna Crystal Mine|QID|33579|M|77.76,41.23;78.39,35.49|CS||N|Go to the mine entrance.|
+C Ancient Prism|QID|33579|M|82.72,37.89|N|Go to the right of the tracks and cross the rock bridge to get to it.|
+T What the Draenei Found|QID|33579|M|82.64,37.78|N|To Raksi, who snunk in behind you.|
+T Pieces of Us|QID|33734|M|76.71,55.24|N|To Crystal-Shaper Barum, who moved a bit.|
+T Burning Sky|QID|33740|M|76.71,55.24|N|To Crystal-Shaper Barum|
+T Barum's Notes|QID|33761|M|76.71,55.24|N|To Crystal-Shaper Barum|
 
-T Burning Sky|QID|33740|M|73.07,38.75|N|To Crystal-Shaper Barum|
-T Pieces of Us|QID|33734|M|73.07,38.75|N|To Crystal-Shaper Barum|
-T Barum's Notes|QID|33761|M|73.07,38.75|N|To Crystal-Shaper Barum|
-
-T What the Draenei Found|QID|33579|M|82.6,37.8|N|To Raksi|
-
-A Kura's Vengeance|QID|?|M|70.8,56.8|N|From Kura the Blind|
-A The Purge of Veil Shadar|QID|33580|M|70.5,56.8|N|From Shadow-Sage Iskar|
-A Forbidden Knowledge|QID|33581|M|70.5,57.3|N|From Darkscryer Raastok|
-C The Purge of Veil Shadar|QID|33580|M|79.2,60.6|N|Outcast Shadeweaver|
-C The Purge of Veil Shadar|QID|33580|M|75.8,62.6|N|Outcast Darktalon|
-T Kura's Vengeance|QID|?|M|70.8,56.8|N|To Kura the Blind|
-T The Purge of Veil Shadar|QID|33580|M|70.6,57.4|N|To Shadow-Sage Iskar|
-T Forbidden Knowledge|QID|33581|M|70.5,57.3|N|To Darkscryer Raastok|
+A The Purge of Veil Shadar|QID|33580|M|70.50,56.85|N|From Shadow-Sage Iskar.|
+A Kura's Vengeance|QID|33582|M|70.77,56.79|N|From Kura the Blind.|
+A Forbidden Knowledge|QID|33581|M|70.52,57.35|N|From Darkscryer Raastok.|
+R Veil Shadar|QID|33580|M|71.11,57.30;73.18,59.47;74.71,61.33|CS|N|Straight across.|
+C The Purge of Veil Shadar|QID|33580|CHAT|S|M|75.80,61.20;74.70,63.35;74.80,66.05;78.35,60.60|CN|
+C Forbidden Knowledge|QID|33581|NC|S|M|74.52,66.93|N|These are reddish glowing books on the carpets and tables.|
+K Wing-Guard Kuuan|QID|33582|M|79.11,60.47;80.11,61.58;80.52,64.29|CS|QO|1|T|Wing-Guard Kuuan|N|In the cave|
+C The Purge of Veil Shadar|QID|33580|CHAT|US|M|75.80,61.20;74.70,63.35;74.80,66.05;78.35,60.60|CN|
+C Forbidden Knowledge|QID|33581|NC|US|M|74.52,66.93|N|These are reddish glowing books on the carpets and tables.|
+T The Purge of Veil Shadar|QID|33580|M|70.63,57.40|N|To Shadow-Sage Iskar.|
+T Forbidden Knowledge|QID|33581|M|70.51,57.34|N|To Darkscryer Raastok.|
+T Kura's Vengeance|QID|33582|M|70.77,56.78|N|To Kura the Blind.|
 
 ; The Battle for Shattrath
-A One Step Ahead|QID|36801|M|69.6,20.8|N|From Sloan McCoy|
-T One Step Ahead|QID|36801|M|63.0,25.9|N|To Vindicator Maraad|
-A Through the Looking Glass|QID|34087|M|63.0,25.9|N|From Vindicator Maraad|
-T Through the Looking Glass|QID|34087|M|63.0,25.9|N|To Vindicator Maraad|
+H Fort Wrynn|QID|36801|N|Hearth back or fly to Fort Wrynn|
+A One Step Ahead|QID|36801|M|69.61,20.80|N|From Sloan McCoy|
+R Redemption Rise|QID|36801|M|66.57,22.72;64.79,25.56;63.20,25.90|CS|N|Go out the front door of the fort to the road again.|
+f Redemption Rise|QID|36801|M|63.29,25.71|N|At Nomaeaa|
+T One Step Ahead|QID|36801|M|63.04,25.89|N|To Vindicator Maraad|
+A Through the Looking Glass|QID|34087|PRE|36801|M|63.04,25.89|N|From Vindicator Maraad|
+C Through the Looking Glass|QID|34087|M|63.05,26.21|NC|N|Click on the Observicopter, to see the cinematic.|
+T Through the Looking Glass|QID|34087|M|63.04,25.89|N|To Vindicator Maraad|
 
-A Too Many Irons in the Fire|QID|34088|M|63.0,25.9|N|From Vindicator Maraad|
-A In Short Supply|QID|34089|M|63.1,25.8|N|From Yrel|
-A Thaelin's Quick Fix|QID|34090|M|63.1,26.2|N|From Thaelin Darkanvil|
-A Decommissioned Mission|QID|34091|M|61.9,25.1|N|From Iron Shredder Decommission Orders|
-C In Short Supply|QID|34089|M|56.0,11.8|N|Iron Horde Explosives|
-C Decommissioned Mission|QID|34091|M|63.0,14.4|N|Decommissioned Iron Shredder|
-C Decommissioned Mission|QID|34091|M|63.0,23.4|N|Engineer Trak|
-C Too Many Irons in the Fire|QID|34088|M|48.2,54.6|N|Grom'kar Peon|
-C Too Many Irons in the Fire|QID|34088|M|64.2,31.6|N|Warsong Overseer|
-C Too Many Irons in the Fire|QID|34088|M|61.4,14.6|N|Grom'kar Vanguard|
-C Too Many Irons in the Fire|QID|34088|M|56.0,8.4|N|Grom'kar Deadeye|
-C Too Many Irons in the Fire|QID|34088|M|66.2,27.0|N|Grom'kar Grimshot|
-C Too Many Irons in the Fire|QID|34088|M|63.8,33.4|N|Grom'kar Shadowblade|
-C Too Many Irons in the Fire|QID|34088|M|55.6,14.8|N|Grom'kar Deadeye|
-C Too Many Irons in the Fire|QID|34088|M|56.0,11.6|N|Grom'kar Vanguard|
-C Too Many Irons in the Fire|QID|34088|M|55.0,6.8|N|Grom'kar Peon|
-C Too Many Irons in the Fire|QID|34088|M|64.0,31.2|N|Peon|
-T Too Many Irons in the Fire|QID|34088|M|63.0,25.9|N|To Vindicator Maraad|
-T In Short Supply|QID|34089|M|63.1,25.8|N|To Yrel|
-T Thaelin's Quick Fix|QID|34090|M|63.1,26.2|N|To Thaelin Darkanvil|
-T Decommissioned Mission|QID|34091|M|63.1,26.2|N|To Thaelin Darkanvil|
+A Too Many Irons in the Fire|QID|34088|PRE|34087|M|63.04,25.89|N|From Vindicator Maraad|
+A In Short Supply|QID|34089|PRE|34087|M|63.1,25.8|N|From Yrel|
+A Thaelin's Quick Fix|QID|34090|PRE|34087|M|63.08,26.12|N|From Thaelin Darkanvil|
+A Decommissioned Mission|QID|34091|PRE|34087|M|61.80,27.54|N|From Iron Shredder Decommission Orders|
 
-A Vol. X Pages ?|QID|34094|M|63.1,26.2|N|From Thaelin Darkanvil|
-A Dreadpiston|QID|34959|M|63.0,25.9|N|From Vindicator Maraad|
-A Iron Them Out|QID|34095|M|63.1,25.8|N|From Yrel|
-A Dying Wish|QID|33973|M|56.9,26.0|N|From Ahm|RANK|2|
-C Dying Wish|QID|33973|M|57.0,24.4|N|Blademaster Bralok|
-T Vol. X Pages ?|QID|34094|M|63.1,26.2|N|To Thaelin Darkanvil|
-T Dreadpiston|QID|34959|M|63.0,25.9|N|To Vindicator Maraad|
-T Iron Them Out|QID|34095|M|63.1,25.8|N|To Yrel|
-T Dying Wish|QID|33973|M|56.9,26.0|N|To Ahm|
+C Too Many Irons in the Fire|QID|34088|M|48.2,54.6|N|Slay Iron Horde!|S|
+C In Short Supply|QID|34089|M|56.0,11.8|N|Iron Horde Explosives|S|
+C Thunderlord Cache|QID|34090|M|66.46,26.79|QO|1|
+C Forge|QID|34090|M|64.85,32.83|QO|2|
+C Log Storage|QID|34090|M|60.93,26.68|QO|3|
+K Engineer Trak|QID|34091|M|63.04,23.64|QO|1|
+C Decommissioned Mission|QID|34091|M|63.16,23.68|N|Ride the Shredder back to Redemption Rise by jumping down.|
+C Too Many Irons in the Fire|QID|34088|M|48.2,54.6|N|Slay Iron Horde!|US|
+C In Short Supply|QID|34089|M|56.0,11.8|N|Iron Horde Explosives|US|
 
-A An Eye for a Spy|QID|34096|M|63.1,26.2|N|From Thaelin Darkanvil|
-T An Eye for a Spy|QID|34096|M|63.1,26.2|N|To Thaelin Darkanvil|
-A Born to Shred|QID|34097|M|63.1,26.2|N|From Thaelin Darkanvil|
-C Born to Shred|QID|34097|M|59.8,35.2|N|Grom'kar Deadeye|
-C Born to Shred|QID|34097|M|58.6,38.2|N|Iron Brute|
-C Born to Shred|QID|34097|M|60.4,37.6|N|Burning Blademaster|
-C Born to Shred|QID|34097|M|61.2,38.6|N|Grom'kar Shadowblade|
-C Born to Shred|QID|34097|M|59.8,40.6|N|Grom'kar Grimshot|
-C Born to Shred|QID|34097|M|58.4,38.0|N|Grom'kar Vanguard|
-C Born to Shred|QID|34097|M|50.4,34.8|N|Fireblade Invoker|
-C Born to Shred|QID|34097|M|49.2,35.0|N|Grom'kar Grimshot|
-C Born to Shred|QID|34097|M|44.8,22.4|N|Grom'kar Grimshot|
-C Born to Shred|QID|34097|M|45.2,23.0|N|Grom'kar Grimshot|
+T Too Many Irons in the Fire|QID|34088|M|63.04,25.89|N|To Vindicator Maraad|
+A Dreadpiston|QID|34959|PRE|34088|M|63.04,25.89|N|From Vindicator Maraad|
+T In Short Supply|QID|34089|M|63.06,25.84|N|To Yrel|
+A Iron Them Out|QID|34095|M|63.06,25.84|N|From Yrel|
+T Thaelin's Quick Fix|QID|34090|M|63.08,26.12|N|To Thaelin Darkanvil|
+T Decommissioned Mission|QID|34091|M|63.08,26.12|N|To Thaelin Darkanvil|
+N Vol. X Pages ?|QID|34094|N|Click off this step.  This is a pause to allow the next quest to load.|
+A Vol. X Pages ?|QID|34094|PRE|34090;34091|M|63.08,26.12|N|From Thaelin Darkanvil|
+
+C Vol. X Pages ?|QID|34094|M|54.2,22.2|Kill orcs at the Archenon Siegeyard to get the pages.|S|
+C Iron Them Out|QID|34095|M|57.05,29.30|N|Click on glowing tanks to destroy.|
+C Dreadpiston|QID|34959|M|56.48,27.33|
+A Dying Wish|QID|33973|M|56.90,25.97|N|From Ahm|RANK|2|
+K Blademaster Bralok|QID|33973|M|57.03,24.38|N|Loot heirloom|
+T Dying Wish|QID|33973|M|56.90,25.97|N|To Ahm|
+C Vol. X Pages ?|QID|34094|M|54.2,22.2|Kill orcs at the Archenon Siegeyard to get the pages.|US|
+
+K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|N|Ra'tok the Hammer is down the path to the coastline.|
+N Bonus Objective|QID|0|M|54.2,22.2|There is a bonus objective there on the coast. Take the path to the coastline.|
+
+T Vol. X Pages ?|QID|34094|M|63.08,26.12|N|To Thaelin Darkanvil|
+T Dreadpiston|QID|34959|M|63.04,25.89|N|To Vindicator Maraad|
+T Iron Them Out|QID|34095|M|63.06,25.84|N|To Yrel|
+
+A An Eye for a Spy|QID|34096|PRE|34094|M|63.08,26.12|N|From Thaelin Darkanvil|
+C An Eye for a Spy|QID|34096|M|63.08,26.12|QO|1|N|Take a peek|
+T An Eye for a Spy|QID|34096|M|63.08,26.12|N|To Thaelin Darkanvil|
+A Born to Shred|QID|34097|PRE|34096|M|63.08,26.12|N|From Thaelin Darkanvil|
+C Born to Shred|QID|34097|M|59.8,35.2|QO|N|Head to Tuurem and let the slaughter begin!|
 T Born to Shred|QID|34097|M|0,0|N|To Iron Shredder Prototype|
-A Engineering Her Demise|QID|34098|M|0,0|N|From Iron Shredder Prototype|
+A Engineering Her Demise|QID|34098|PRE|34097|M|0,0|N|From Iron Shredder Prototype|
 C Engineering Her Demise|QID|34098|M|61.0,38.6|N|Ketya Shrediron|
-T Engineering Her Demise|QID|34098|M|63.0,25.9|N|To Vindicator Maraad|
-A Khadgar's Plan|QID|34963|M|63.0,25.9|N|From Vindicator Maraad|
+T Engineering Her Demise|QID|34098|M|63.04,25.89|N|To Vindicator Maraad|
+A Khadgar's Plan|QID|34963|PRE|34097|M|63.04,25.89|N|From Vindicator Maraad|
 T Khadgar's Plan|QID|34963|M|54.2,36.4|N|To Archmage Khadgar|
-A The Battle for Shattrath|QID|34099|M|54.2,36.4|N|From Archmage Khadgar|
+A The Battle for Shattrath|QID|34099|PRE|34098;34963|M|54.2,36.4|N|From Archmage Khadgar|
 T The Battle for Shattrath|QID|34099|M|69.7,21.1|N|To Yrel|
 
 ; In the Shadows of Auchindoun

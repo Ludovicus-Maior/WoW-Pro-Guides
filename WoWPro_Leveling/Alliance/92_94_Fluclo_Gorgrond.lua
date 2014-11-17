@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2014-11-16 23:35
+-- Who: Fluclo
+-- Log: +Demonic Cache
+
+-- URL: http://wow-pro.com/node/3613/revisions/27001/view
 -- Date: 2014-11-15 20:06
 -- Who: Ludovicus
 -- Log: Finished playing through.  Edited Lunarfall section and converted to new map name.
@@ -454,7 +459,9 @@ A Laying Dionor to Rest |QID|36443|N|From Birchus|M|50.30,47.48|
 T Laying Dionor to Rest |QID|36443|N|To Birchus|M|50.30,47.48|
 
 H Lunarfall |QID|33359|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|
+
 A Meet Us at Starfall Outpost|QID|33359|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|
+N Shadowmoon Valley|QID|33359|N|The next dozen quests will be in Shadowmoon Valley.|ACTIVE|33359|S|
 A Bounty: Twisted Ancient|QID|33111|N|From the Bulletin Board. This is a 3-party group quest.|M|42.72,44.75|Z|Lunarfall|RANK|2|
 
 T Meet Us at Starfall Outpost|QID|33359|N|To Archmage Khadgar in Starfall Outpost|M|29.21,25.72||Z|Shadowmoon Valley@Draenor|
@@ -503,6 +510,7 @@ C Forging the Soul Trap |QID|33114|N|Click on the Gul'var Soul Shards to combine
 T Forging the Soul Trap |QID|33114|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 
 A To Catch a Shadow |QID|33116|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|Z|Shadowmoon Valley@Draenor|
+l Demonic Cache|QID|33575|N|Demonic Cache: Treasure Loot, found inside the building. Offers an i550 Necklace worth 11 gold and some XP.|RANK|3|M|20.37,30.64|Z|Shadowmoon Valley@Draenor|
 C To Catch a Shadow |QID|33116|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|Z|Shadowmoon Valley@Draenor|
 C To Catch a Shadow |QID|33116|N|Kill Ruzuun|QO|2|Z|Shadowmoon Valley@Draenor|
 
