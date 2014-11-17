@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2014-11-17 20:29
+-- Who: Ludovicus
+-- Log: Updated zone to have @Draenor
+
+-- URL: http://wow-pro.com/node/3618/revisions/27018/view
+-- Date: 2014-11-17 20:21
+-- Who: Ludovicus
+-- Log: Warning.
+
+-- URL: http://wow-pro.com/node/3618/revisions/26997/view
 -- Date: 2014-11-14 20:31
 -- Who: Ludovicus
 -- Log: Use the right faction, stupid!
@@ -18,11 +28,13 @@
 -- Who: Ludovicus
 -- Log: Init
 
-local guide = WoWPro:RegisterGuide('LudoNagrand', 'Leveling', 'Nagrand', 'Ludovicus', 'Alliance')
+local guide = WoWPro:RegisterGuide('LudoNagrand', 'Leveling', 'Nagrand@Draenor', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
 WoWPro:GuideNextGuide(guide, 'nil')
 WoWPro:GuideSteps(guide, function()
 return [[
+
+N Warning!|QID|0|N|This guide is not usable.  It has never been played through and is currently a random collection of quests.|
 
 N Beginnings|QID|36607|N|This guide begins at your garrison to take the free flight to Nagrand.|
 N Bonus Objectives|QID|36607|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 98 to do this guide.|

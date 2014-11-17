@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-17 11:50
+-- Who: Emmaleah
+-- Log: Removed references to being 92 for certain quest, as Bliz has changed it. refined wording on veteran's treasure, moved profession quest starters to immediately after they drop from Dorogg, changed M to 0,0 no Z tag
+
+-- URL: http://wow-pro.com/node/3587/revisions/27010/view
 -- Date: 2014-11-16 11:45
 -- Who: Emmaleah
 -- Log: Fixed Igrimar's name, changed a couple of coordinates, added note re pale loot manual checkoff, changed note about sootstained mine/map layers, changed coords and note on JC quest
@@ -95,9 +100,9 @@ return [[
 L Level 90 |QID|33815|LVL|90|N|This guide requires a minimum level of 90 to do.|
 N Getting to Frostfire Ridge|QID|33815|N|To get to Frostfire Riege in Draenor, you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|34446|
 
-N Welcome to Frostfire Ridge|QID|33815|M|40.75,67.10|N|If you don't have rested experience or some other experience booster you will want to do at least one of the bonus objectives in this zone, as there is a quest about 2/3 through the guide that requires level 92, that you will be just shy of if you don't pick up a little extra XP along the way.|
+N Welcome to Frostfire Ridge|QID|33815|M|40.75,67.10|
 N Treasure|QID|33815|M|40.75,67.10|N|The guide mentions some but not nearly all the treasure to be found in the zone. At some point while questing you will recieve a treasure map that when you use it shows all the potential treasure on your map.|
-N Bonus Objectives|QID|33815|M|40.75,67.10|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, (and as noted above, you probably need to do at least one) or save them for more gold at level 100.|
+N Bonus Objectives|QID|33815|M|40.75,67.10|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100.|
 
 t The Home of the Frostwolves|QID|33868|M|40.75,67.10|N|To Farseer Drek'Thar.|
 A A Song of Frost and Fire|QID|33815|M|40.75,67.10|N|From Farseer Drek'Thar.|
@@ -183,6 +188,16 @@ C The Butcher of Bladespire|QID|33410|M|58.07,77.50|T|Dorogg the Ruthless|Z|Blad
 T The Butcher of Bladespire|QID|33410|M|70.71,78.56|N|To Thrall.|Z|Bladespire Courtyard|
 A To the Slaughter|QID|33622|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard|
 A Armed and Dangerous|QID|33344|M|70.71,78.56|N|From Thrall.|Z|Bladespire Courtyard|
+;drops from Dorogg -- starts profession training;
+A The Mysterious Flask|QID|35058|M|0,0|P|Alchemy;171|O|U|112566|N|From a Mysterious Flask which should have just dropped from Dorogg.|
+A The Fractured Hammer|QID|36205|M|0,0|P|Blacksmithing;164|O|U|114965|N|From a Fractured Forge Hammer which should have just dropped from Dorogg.|
+A Enchanted Highmaul Bracer|QID|36255|M|0,0|P|Enchanting;333|O|U|115008|N|From an Enchanted Highmaul Bracer which should have just dropped from Dorogg.|
+A Heavy Arms|QID|36589|M|0,0|Z|Bladespire Citadel|P|Engineering;202|O|U|116438|N|From a Burned out Hand Cannon which should have just dropped from Dorogg.|
+A Unintelligible Intelligence|QID|36435|M|0,0|P|Inscription;773|O|U|115593|N|From Illegible Sootstained Notes which should have just dropped from Dorogg.|
+A The Intricate Pendant|QID|36314|M|0,0|P|Jewelcrafting;755|O|U|115287|N|From an Intricate Crimson Pendant which should have just dropped from Dorogg.|
+A A Warrior's Shroud|QID|36505|M|0,0|P|Leatherworking;165|O|U|116173|N|From a Tattered Frostwolf Shroud which should have just dropped from Dorogg.|
+A Trega's Tailoring Kit|QID|36301|M|0,0|P|Tailoring;197|O|U|114973|N|From a Frostwolf Tailoring Kit which should have just dropped from Dorogg.|
+
 C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|S|N|Click on the slaves as you work your way towards Duratan.|Z|Bladespire Courtyard|
 C To the Slaughter|QID|33622|M|52.47,21.00|Z|Bladespire Courtyard|
 C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|US|N|Finish up giving the slaves weapons.|Z|Bladespire Courtyard|
@@ -196,16 +211,6 @@ A Moving In|QID|33657|M|66.52,56.51|N|From Durotan.|Z|Bladespire Throne|
 C Moving In|QID|33657|M|66.52,56.51|NC|N|Hop on the wolf next to Durotan and it will take you to the next area.|Z|Bladespire Throne|
 T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel|
 A Save Wolf Home|QID|33468|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel|
-
-;random drop? starts profession training; I have gotten for Dorogg 3 for 3 so far. (since they deprecated the chest)
-A The Mysterious Flask|QID|35058|M|42.6,43.2|Z|Bladespire Citadel|P|Alchemy;171|O|U|112566|N|From a Mysterious Flask.|
-A The Fractured Hammer|QID|36205|M|42.6,43.2|Z|Bladespire Citadel|P|Blacksmithing;164|O|U|114965|N|From a Fractured Forge Hammer.|
-A Enchanted Highmaul Bracer|QID|36255|M|42.6,43.2|Z|Bladespire Citadel|P|Enchanting;333|O|U|115008|N|From an Enchanted Highmaul Bracer|
-A Heavy Arms|QID|36589|M|42.6,43.2|Z|Bladespire Citadel|P|Engineering;202|O|U|116438|N|From a Burned out Hand Cannon.|
-A Unintelligible Intelligence|QID|36435|M|42.6,43.2|Z|Bladespire Citadel|P|Inscription;773|O|U|115593|N|From Illegible Sootstained Notes.|
-A The Intricate Pendant|QID|36314|M|42.6,43.2|Z|Bladespire Citadel|P|Jewelcrafting;755|O|U|115287|N|From an Intricate Crimson Pendant.|
-A A Warrior's Shroud|QID|36505|M|42.6,43.2|Z|Bladespire Citadel|P|Leatherworking;165|O|U|116173|N|From a Tattered Frostwolf Shroud.|
-A Trega's Tailoring Kit|QID|36301|M|42.6,43.2|Z|Bladespire Citadel|P|Tailoring;197|O|U|114973|N|From a Frostwolf Tailoring Kit.|
 
 A Wanted: Gutsmash the Destroyer|QID|33919|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel|
 A Mopping Up|QID|33412|M|28.3,45.7|N|From Snowrunner Rolga.|Z|Bladespire Citadel|
@@ -359,10 +364,6 @@ A Spare Parts|QID|36594|M|62.48,74.46|Z|Frostwall|PRE|36589|P|Engineering;202|N|
 t The Mysterious Flask|QID|35058|M|45.16,51.00|Z|Frostwall|N|To Refugee Lo'nash.|P|Alchemy;171|
 A The Alchemist|QID|35103|M|45.16,51.00|PRE|35058|Z|Frostwall|N|From Refugee Lo'nash.|P|Alchemy;171|
 
-;buildings - you just upgraded to lvl 2 garrison which means you have 1 large (barracks) 1 med (your choice-lumber mill, barn,tavern,gladiators Sanctum or trading post)
-;and one small (all the primary crafting professions plus storehouse) - no salvage yard available yet. lvl 2 plans not available yet - must be finished with gorgrond (specifically [strike while the iron is hot]
-;to purchase first plan in ashran or Arak outpost /lvl 98 to purchase for gold in your garrison
-;buildings take one hour to build (with the exception of town hall is instant) so ... putting these steps at the end of the guide, because unless you log out for awhile here, they arent available yet.)
 F Wor'gal|QID|36567|M|48.14,66.19|N|At Bron Skyhorn.|ACTIVE|36567|P|Jewelcrafting;755|
 T Locating the Lapidarist|QID|36352|M|20.0,56.4|P|Jewelcrafting;755|N|To Gem Grinder Orolak.|
 A No Pressure, No Diamonds|QID|36378|M|20.0,56.4|P|Jewelcrafting;755|PRE|36352|N|From Gem Grinder Orolak.|
@@ -406,7 +407,8 @@ A The Dark Lady's Gift|QID|35243|PRE|36709|M|62.14,22.99|Z|Warspear|N|From Vivia
 T The Dark Lady's Gift|QID|35243|M|62.14,22.99|Z|Warspear|N|To Vivianne.|
 H Town Hall (Frostwall)|QID|32989|M|41.58,53.06|U|110560|N|Return to your Garrison.|
 
-R Icewind Drifts|QID|33011|RANK|3|M|45.3,50.4|N|Help out the veteran and he will share his most precious treasure with you.|
+R Icewind Drifts|QID|32989|45.3,50.4|
+A Help out the Veteran|QID|33011|CHAT|RANK|3|M|43.8,49.3;45.3,50.4|CS|N|Talk to him to start the encounter. Help him defeat the attackers and he will share his most precious treasure with you.|
 T Securing the South|QID|32989|M|38.54,52.46|N|To Lokra.|
 A They Who Held Fast|QID|32990|M|38.54,52.46|N|From Lokra.|
 f Stonefang Outpost|QID|32990|M|40.11,51.84|N|At Skyhunter Donmor'gan.|
@@ -460,7 +462,6 @@ A Blood Oath of Na'Shra|QID|34729|M|64.68,39.76|N|Wait a moment for her to walk 
 C Poulticide|QID|34345|M|56.12,37.83|US|NC|N|These are ground spawn in the area.|
 C Lurkers|QID|34344|M|54.01,31.36|US|N|These drop off the Snow Lurkers.|
 C Frosted Fury|QID|34346|M|59.46,35.37|US|N|These drop off the Ice Furies.|
-L Level 92|QID|33462|LVL|92|N|You should be around level 92 by this point, if you aren't you won't be able to get this next quest, so run back and turn in the last 3 if you are close.|
 A Thunderlord for a Day|QID|33462|M|58.4,31.1|N|From Broken Chains.|LVL|91|
 C Thunderlord for a Day|QID|33462|M|60.06,25.75|S|N|Pick up chains from the ground and kill stuff to loot the grapples.|
 A Only the Winner|QID|32981|M|59.46,31.79|N|From Gronnstalker Rokash.|LVL|92|
