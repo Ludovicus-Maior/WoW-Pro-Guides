@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2014-11-18 01:49
+-- Who: Ludovicus
+-- Log: Minor checkpoint for the end of the battle for Shattrath and the start of Auchindoun
+
+-- URL: http://wow-pro.com/node/3614/revisions/27015/view
 -- Date: 2014-11-17 01:36
 -- Who: Ludovicus
 -- Log: Played up to [An Eye for a Spy]
@@ -311,11 +316,11 @@ T Dying Wish|QID|33973|M|56.90,25.97|N|To Ahm|
 C Vol. X Pages ?|QID|34094|M|54.2,22.2|Kill orcs at the Archenon Siegeyard to get the pages.|US|
 
 K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|N|Ra'tok the Hammer is down the path to the coastline.|
-N Bonus Objective|QID|0|M|54.2,22.2|There is a bonus objective there on the coast. Take the path to the coastline.|
+N Bonus Objective|QID|34095|M|54.2,22.2|There is a bonus objective there on the coast. Take the path to the coastline.|
 
-T Vol. X Pages ?|QID|34094|M|63.08,26.12|N|To Thaelin Darkanvil|
-T Dreadpiston|QID|34959|M|63.04,25.89|N|To Vindicator Maraad|
 T Iron Them Out|QID|34095|M|63.06,25.84|N|To Yrel|
+T Dreadpiston|QID|34959|M|63.04,25.89|N|To Vindicator Maraad|
+T Vol. X Pages ?|QID|34094|M|63.08,26.12|N|To Thaelin Darkanvil|
 
 A An Eye for a Spy|QID|34096|PRE|34094|M|63.08,26.12|N|From Thaelin Darkanvil|
 C An Eye for a Spy|QID|34096|M|63.08,26.12|QO|1|N|Take a peek|
@@ -327,12 +332,13 @@ A Engineering Her Demise|QID|34098|PRE|34097|M|0,0|N|From Iron Shredder Prototyp
 C Engineering Her Demise|QID|34098|M|61.0,38.6|N|Ketya Shrediron|
 T Engineering Her Demise|QID|34098|M|63.04,25.89|N|To Vindicator Maraad|
 A Khadgar's Plan|QID|34963|PRE|34097|M|63.04,25.89|N|From Vindicator Maraad|
-T Khadgar's Plan|QID|34963|M|54.2,36.4|N|To Archmage Khadgar|
-A The Battle for Shattrath|QID|34099|PRE|34098;34963|M|54.2,36.4|N|From Archmage Khadgar|
-T The Battle for Shattrath|QID|34099|M|69.7,21.1|N|To Yrel|
+T Khadgar's Plan|QID|34963|M|54.19,36.44|N|To Archmage Khadgar|
+A The Battle for Shattrath|QID|34099|PRE|34098;34963|M|54.19,36.44|N|From Archmage Khadgar|
+C The Battle for Shattrath|QID|34099|M|50.36,34.51;45.37,24.67|N|Ride into battle! Solo scenario.  Take the portal back at the end.|
+T The Battle for Shattrath|QID|34099|M|69.67,21.10|N|To Yrel|
 
 ; In the Shadows of Auchindoun
-A Speaker for the Dead|QID|34701|M|69.7,21.6|N|From Vindicator Icia|
+A Speaker for the Dead|QID|34701|M|69.65,21.61|N|From Vindicator Icia|
 T Speaker for the Dead|QID|34701|M|55.7,67.7|N|To Exarch Maladaar|
 
 A Holding the Line|QID|34407|M|55.7,67.7|N|From Exarch Maladaar|
