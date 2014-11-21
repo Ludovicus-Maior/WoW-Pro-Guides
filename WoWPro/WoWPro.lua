@@ -29,7 +29,7 @@ _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
 BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
 _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
-WoWPro.Serial = 0
+WoWPro.Serial = 99999
 -- Add message to internal debug log
 function WoWPro:Add2Log(level,msg)
     if WoWPro.DebugLevel >= level then
@@ -318,7 +318,7 @@ end
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
-	WoWPro:dbp("|cff33ff33Enabled|r: Core Addon")
+	WoWPro:Print("|cff33ff33Enabled|r: Version %s", WoWPro.Version)
     if  WoWProDB.global.RecklessCombat then
         WoWPro:Warning("Achtung!  Beware! Peligro!  Reckless Combat mode enabled.  InCombat interlocks disabled!")
     end
@@ -410,7 +410,7 @@ function WoWPro:OnDisable()
 	WoWPro:AbleFrames()								-- Hides all frames
 	WoWPro.EventFrame:UnregisterAllEvents()	-- Unregisters all events
 	WoWPro:RemoveMapPoint()							-- Removes any active map points
-	WoWPro:Print("|cffff3333Disabled|r: Core Addon")
+	WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
 end
 
 -- Tag Registration Function --

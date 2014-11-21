@@ -222,7 +222,7 @@ function WoWPro.UpdateGuideReal(From)
 	    WoWPro:dbp("UpdateGuideReal(): Hey! No guide, no update.")
 	    return
 	end
-	WoWPro:dbp("Running: UpdateGuideReal()")
+	WoWPro:dbp("Running: UpdateGuideReal(), WoWPro Version %s.", WoWPro.Version);
 	local GID = WoWProDB.char.currentguide
 	local offset = WoWPro.GuideOffset
 	WoWPro.GuideOffset = nil
