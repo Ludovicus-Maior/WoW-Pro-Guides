@@ -387,12 +387,6 @@ end
 
 function WoWPro.EventHandler(frame, event, ...)
     WoWPro:LogEvent(event,...)
-	if WoWPro.InitLockdown then
-	    WoWPro:dbp("LockEvent Fired: "..event)
-	else
-	    WoWPro:dbp("Event Fired: "..event)
-	end
-
 
 	-- Unlocking event processong after things get settled --
 	if event == "PLAYER_ENTERING_WORLD" then

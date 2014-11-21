@@ -101,7 +101,7 @@ function WoWPro:LogEvent(event,...)
             msg = msg .. ", "
         end
     end
-    msg = msg .. ")"
+    msg = msg .. string.format(") InitLockdown=%s",tostring(WoWPro.InitLockdown)
     WoWPro:Add2Log(3,msg)
 end
 
