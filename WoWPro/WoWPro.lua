@@ -44,7 +44,7 @@ function WoWPro:Add2Log(level,msg)
 	        WoWProDB.global.Log = WoWPro.Log
 	        WoWPro.Log = nil
 	    end
-	    WoWProDB.global.Log[date("%H%M.")..string.format("%04d",WoWPro.Serial)] = msg
+	    WoWProDB.global.Log[date("%H%M%S.")..string.format("%04d",WoWPro.Serial)] = msg
 	else
 	    WoWPro.Log[date("%H%M.")..string.format("%04d",WoWPro.Serial)] = msg
 	end
@@ -126,23 +126,22 @@ local function orderedNext(t, state)
     if state == nil then
         -- the first time, generate the index
         t._orderedIndex = _generateOrderedIndex( t )
-        key = t._orderedIndex[1]
+        t._orderedOffset = table.getn(t._orderedIndex) - 2500
+        if t._orderedOffset < 1 then t._orderedOffset = 1 end
+        key = t._orderedIndex[t._orderedOffset]
         return key, t[key]
     end
     -- fetch the next value
     key = nil
-    for i = 1,table.getn(t._orderedIndex) do
-        if t._orderedIndex[i] == state then
-            key = t._orderedIndex[i+1]
-        end
-    end
-
-    if key then
+    t._orderedOffset = t._orderedOffset + 1
+    if t._orderedOffset <= table.getn(t._orderedIndex) then
+        key = t._orderedIndex[t._orderedOffset]
         return key, t[key]
     end
 
     -- no more value to return, cleanup
     t._orderedIndex = nil
+    t._orderedOffset = nil
     return
 end
 
@@ -152,14 +151,47 @@ local function orderedPairs(t)
     return orderedNext, t, nil
 end
 
-function WoWPro:LogDump()
-    if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
-    -- DEFAULT_CHAT_FRAME:AddMessage(string.format("WoWPro:LogDump WoWProDB.global.Log=%s",tostring(WoWProDB.global.Log)))
-    local text = ""
-    for key, val in orderedPairs(WoWProDB.global.Log) do
-        text = text .. string.format("%s ~ %s\n",key,val)
+local Log = nil
+local LogCo = nil
+local LogCall = nil
+local LogFrame = nil
+local function LogGrow(frame, elapsed)
+    if Log == nil then
+        -- Start coroutine
+        Log = ""
+        LogCo = coroutine.create(function ()
+                                        local loops = 25
+                                        for key, val in orderedPairs(WoWProDB.global.Log) do
+                                            Log = Log .. string.format("%s ~ %s\n",key,val)
+                                            loops = loops - 1
+                                            if loops < 0 then
+                                                coroutine.yield(true)
+                                                loops = 25
+                                            end
+                                        end
+                                    end)
+        return                                                    
     end
-    return text
+    if Log then
+        if coroutine.resume(LogCo) then return end
+        -- false return implies we are done
+        LogFrame:SetScript("OnUpdate",nil)
+        DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating window")
+        LogCall(Log)
+        Log = nil
+        
+    end
+end
+
+function WoWPro:LogDump(callback)
+    if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
+    DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
+    if not LogFrame then
+        LogFrame = CreateFrame("Frame",nil,UIParent)
+    end
+    Log = nil
+    LogCall = callback
+    LogFrame:SetScript("OnUpdate",LogGrow)
 end
 
 function WoWPro.toboolean(v)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-11-17 13:06
+-- Who: Fluclo
+-- Log: Added 36601 to QID of 36606 in case player has gone off-guide and picked up quest from Shadow-Sage Iskar
+
+-- URL: http://wow-pro.com/node/3602/revisions/26961/view
 -- Date: 2014-11-10 11:20
 -- Who: Emmaleah
 -- Log: removed more duplicate pre tags.
@@ -517,7 +522,10 @@ f Veil Terokk|QID|37141|M|39.09,61.81|N|To Firn Swiftbreeze.|FACTION|Alliance|
 
 H Axefall|QID|35669|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
 T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
-A News from Nagrand|QID|36607|M|40.18,43.50|N|From Taskmaster Gornek.|LVL|98|FACTION|Horde|
+
+;36601 needed in case player has gone off-guide and picked up quest from Shadow-Sage Iskar
+A News from Nagrand|QID|36606;36601|M|39.89,60.85|N|From Lieutenant Willem.|LVL|98|FACTION|Alliance|
+
 T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|
 T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
 f Veil Terokk|QID|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|

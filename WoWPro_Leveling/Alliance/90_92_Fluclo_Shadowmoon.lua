@@ -4,6 +4,25 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-11-15 23:01
+-- Who: Fluclo
+-- Log: Few more Rank 3 treasures and kills added
+
+-- URL: http://wow-pro.com/node/3604/revisions/27002/view
+-- Date: 2014-11-15 20:07
+-- Who: Ludovicus
+-- Log: Changed map name to have @Draenor suffix.
+
+-- URL: http://wow-pro.com/node/3604/revisions/26998/view
+-- Date: 2014-11-14 21:39
+-- Who: Ludovicus
+-- Log: Add the final D step
+
+-- URL: http://wow-pro.com/node/3604/revisions/26991/view
+-- Date: 2014-11-14 15:05
+-- Who: Twists
+
+-- URL: http://wow-pro.com/node/3604/revisions/26987/view
 -- Date: 2014-11-14 12:25
 -- Who: Ludovicus
 
@@ -81,7 +100,7 @@
 -- Date: 2014-09-29 21:06
 -- Who: Fluclo
 
-local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley', 'Fluclo', 'Alliance')
+local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
 WoWPro:GuideNextGuide(guide, 'FlucloGorgrond')
 WoWPro:GuideSteps(guide, function()
@@ -506,10 +525,17 @@ A Forbidden Love|QID|34847|M|46.11,25.47|N|From Dulga.|
 A Lunarblossom|QID|34836|M|46.40,25.21|N|From Zukaza.|
 
 C Ancestor's Memory|QID|33082|M|45.71,25.38|N|Click on Ancestor's Totem in the cave underneath Exile's Rise. Entrance is south of the Rise (jump down)|NC|
+l Shadowmoon Exile Treasure |QID|33570|M|45.81,24.58|N|Shadowmoon Exile Treasure: Lootable object that can be used to gain 25 Garrison Resources.|RANK|3|
+
 T Ancestor's Memory|QID|33082|M|45.84,25.57|N|Wait for the dialog to finish, then To Rulkan|
 
 A Darkest Night|QID|34043|M|45.84,25.58|N|From Rulkan.|PRE|33082|
 A Rulkan |QID|35631|M|45.84,25.58|N|Ask Rulkan to become your follower.|PRE|33082|
+
+R Mount Kra'gor |QID|35553|N|Head east outside of the cave, then head up the hill of Mount Kra'gor|M|47.26,23.43|RANK|3|
+K Rai'vosh |QID|35553|N|Kill Rai'vosh for a Rare piece to slow falling and some Garrison Resources. When you first reach him, you need to allow the dialog between Turog and Rai'vosh to play out before he is attackable.|M|48.81,22.64|RANK|3|
+
+l Mushroom-Covered Chest |QID|33869|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
 
 C Lunarblossom|QID|34836|N|Loot the Lunarblossom from the ground of Deadwalker Pass, the entrance to the Pass is to the east of Exile's Rise.|NC|S|M|51.1,19.2|
 R Deadwalker Pass |QID|34847|N|Head east to Deadwalker Pass|M|50.93,25.20|ACTIVE|34847|
@@ -520,6 +546,8 @@ C Lunarblossom|QID|34836|N|Finish looting the Lunarblossom from the floor of Dea
 
 T Lunarblossom|QID|34836|M|46.41,25.22|N|To Zukaza back in Exile's Rise. Follow the path all the way.|
 T Forbidden Love|QID|34847|M|46.11,25.47|N|To Dulga.|
+
+l Armored Elekk Tusk |QID|33869|N|Armored Elekk Tusk: Lootable object for an i518 trinket worth 18 gold.|M|41.43,27.99|RANK|3|
 
 T Darkest Night |QID|34043|N|To Prophet Velen at Anguish Fortress.|M|35.71,36.89|
 A Into Anguish|QID|35032|M|35.71,36.93|N|From Prophet Velen.|PRE|34043|
@@ -548,6 +576,7 @@ A The Dark Side of the Moon|QID|34054|PRE|35032|N|Auto-Accept|
 C The Dark Side of the Moon|QID|34054|N|Head up the Terrace of the Stars to Yrel then Velen.|M|29.44,40.59;30.3,43.2|NC|QO|1|CS|
 C The Dark Side of the Moon|QID|34054|N|Wait for the dialog to finish, then kill Arkeddon.|M|30.9,43.9|QO|2|
 
+l Ronokk's Belongs |QID|33886|N|Ronokk's Belongs: Lootable object for a cloak and tidy XP.|M|31.30,39.10|RANK|3|
 l Carved Drinking Horn |QID|33569|N|Carved Drinking Horn: Lootable object for Carved Drinking Horn and tidy XP.|M|33.50,39.65|RANK|3|
 C The Great Salvation|QID|33794|N|Finish rescuing the Draenei prisoners by opening the cages.|NC|US|
 C Across the Stars|QID|33795|N|Finish picking up the Star Readings from the floor.|NC|US|
@@ -627,6 +656,8 @@ A Building for Professions |QID|36100|M|31.8,31.2|Z|Lunarfall|N|From Baros Alexs
 C Building for Professions |QID|36100|N|Click on the Architect's table, bring up the small plots, and build on one of the plots.|NC|M|31.7,31.8|Z|Lunarfall|
 T Building for Professions |QID|36100|M|31.8,31.2|Z|Lunarfall|N|To Baros Alexston.|
 
+l Sunken Fishing boat |QID|35677|N|Sunken Fishing boat: Lootable object for decent XP|RANK|3|M|37.18,26.02|
+
 T Lost Lumberjacks|QID|34820|M|39.66,29.65|N|To Lost Packmule.|
 A Gloomshade Grove|QID|33263|M|39.66,29.65|N|From Lost Packmule.|PRE|34820|
 
@@ -639,6 +670,8 @@ C Gloomshade Grove|QID|33263|N|Speak with Phlox|QO|4|CHAT|M|39.6,22.8|
 C Gloomshade Game Hunter |QID|33461|N|Finish killing and looting Gulper Leg for the Gulper Leg.|QO|3|M|39.1,22.6|US|
 C Gloomshade Grove|QID|33263|N|Click the Alliance Shield near the Field|QO|5|NC|M|39.8,19.9|
 C Gloomshade Grove|QID|33263|N|Speak with Phlox|QO|6|CHAT|M|39.9,20.0|
+
+l Bubbling Cauldron |QID|33613|N|Bubbling Cauldron: Lootable object for an off-hand weapon worth 21 gold, and decent XP.\nFirst coordinate is cave entrance, second one is cauldron's location.|RANK|3|M|37.85,22.30;37.18,23.12|CN|
 C Gloomshade Game Hunter |QID|33461|N|Finish killing and looting Gloomshade Howler for the Shadowstalker Ribs.|QO|1|US|M|39.9,20.0|
 
 C Gloomshade Game Hunter |QID|33461|N|Kill and loot Gloomshade Fungi for the Gloomshade Spore.|QO|2|S|
@@ -743,7 +776,8 @@ T Your First Leatherworking Work Order |QID|36642|N|To Marianne Levine.|ACTIVE|3
 ; Having this quest and the [Ashran Appearance] quest causes the Ashran one not to complete.
 A The Secrets of Gorgrond |QID|35556|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|36632;35556|LVL|92|M|42.65,44.74|Z|Lunarfall|
 
-N Zone Finished|QID|33533;35556;36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
+D Zone Finished|QID|33533;35556;36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
+
 ]]
 
 end)

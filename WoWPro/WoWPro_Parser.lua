@@ -19,7 +19,8 @@ WoWPro.actiontypes = {
 	U = "Interface\\Icons\\INV_Misc_Bag_08",
 	L = "Interface\\Icons\\Spell_ChargePositive",
 	l = "Interface\\Icons\\INV_Misc_Bag_08",
-	r = "Interface\\Icons\\Ability_Repair"
+	r = "Interface\\Icons\\Ability_Repair",
+	D = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Green"
 }
 WoWPro.actionlabels = {
 	A = "Accept",
@@ -37,7 +38,8 @@ WoWPro.actionlabels = {
 	U = "Use",
 	L = "Level",
 	l = "Loot",
-	r = "Repair/Restock"
+	r = "Repair/Restock",
+	D = "Done"
 }
 
 
@@ -46,6 +48,7 @@ function WoWPro:SkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	
 	if not WoWPro.QID[index] then return "" end
+	if WoWPro.action[index] == "D" then return "" end -- No skipping this type
 	if WoWPro.action[index] == "A" 
 	or WoWPro.action[index] == "C" 
 	or WoWPro.action[index] == "T" then
@@ -464,6 +467,10 @@ function WoWPro:CheckFunction(row, button, down)
 		if WoWProDB.profile.checksound then	
 			PlaySoundFile(WoWProDB.profile.checksoundfile)
 		end
+		if WoWPro.action[row.index] == "D" then
+	        WoWProCharDB.Guide[GID].done = true
+	        WoWPro:dbp("WoWPro:CheckFunction: %s guide is done.",GID)
+	    end
 	elseif not row.check:GetChecked() then
 		WoWPro:UnSkipStep(row.index)
 	end

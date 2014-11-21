@@ -729,7 +729,7 @@ local function createBlizzOptions()
 			    name = L["Clear the log"],
 			    desc = L["Wow-Pro's Debug Log"],
 			    image = "Interface\\RaidFrame\\ReadyCheck-NotReady",
-			    func =  function (info) WoWProDB.global.Log = {}; WoWPro.Serial = 1 ; WoWPro:Print("Log Reset from UI"); end
+			    func =  function (info) WoWProDB.global.Log = {}; WoWPro.Serial = 999999999 ; WoWPro:Print("Log Reset from UI"); end
 			},
 			showLog = {
 			    order = 31,
@@ -740,9 +740,11 @@ local function createBlizzOptions()
 			    func =  function (info)
     			            WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
     			            local LogBox = WoWPro.LogBox
-                            LogBox.Box:SetText(WoWPro:LogDump())
-                            LogBox.Scroll:UpdateScrollChildRect()
-                            LogBox:Show()
+    			            WoWPro:LogDump( function(text)
+                                                LogBox.Box:SetText(text)
+                                                LogBox.Scroll:UpdateScrollChildRect()
+                                                LogBox:Show()
+                                            end )
                         end
 			},
 			checkGuides = {
