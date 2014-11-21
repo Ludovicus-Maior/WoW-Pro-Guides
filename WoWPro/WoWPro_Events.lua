@@ -389,10 +389,10 @@ function WoWPro.EventHandler(frame, event, ...)
     WoWPro:LogEvent(event,...)
 
 	-- Unlocking event processong after things get settled --
-	if event == "PLAYER_ENTERING_WORLD" or "CINEMATIC_STOP" then
+	if event == "PLAYER_ENTERING_WORLD" or event == "CINEMATIC_STOP" then
 	    WoWPro:print("Setting Timer PEW/CS")
 	    WoWPro.InitLockdown = true
-	    if event == "PLAYER_ENTERING_WORLD" 
+	    if event == "PLAYER_ENTERING_WORLD" then
     	    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
     	    WoWPro.LockdownTimer = 1.5
     	else
@@ -402,7 +402,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 		
 	-- Locking event processong till after things get settled --
-	if event == "PLAYER_LEAVING_WORLD" or "CINEMATIC_START" then
+	if event == "PLAYER_LEAVING_WORLD" or event == "CINEMATIC_START" then
 	    WoWPro:print("Locking Down PLW/CS")
 	    WoWPro.InitLockdown = true
 	end
@@ -412,7 +412,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	    WoWPro.CheckAstrolabeData()
 	end
 
-	if WoWPro.InitLockdown and event = "QUEST_LOG_UPDATE" then
+	if WoWPro.InitLockdown and event == "QUEST_LOG_UPDATE" then
 	    WoWPro:SendMessage("WoWPro_PuntedQLU")
 	    return
 	end

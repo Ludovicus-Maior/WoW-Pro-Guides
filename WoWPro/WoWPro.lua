@@ -60,7 +60,7 @@ WoWPro:Export("dbp")
 
 function WoWPro:print(message,...)
 	if message ~= nil then
-	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
+	    local msg = string.format("|c7f0000ff%s|r: "..message, self.name or "Wow-Pro",...)
 	    WoWPro:Add2Log(2,msg)
 	end
 end
@@ -108,7 +108,7 @@ function WoWPro:LogEvent(event,...)
             msg = msg .. ", "
         end
     end
-    msg = msg .. string.format(") InitLockdown=%s",tostring(WoWPro.InitLockdown)
+    msg = msg .. string.format(") InitLockdown=%s",tostring(WoWPro.InitLockdown))
     WoWPro:Add2Log(3,msg)
 end
 
