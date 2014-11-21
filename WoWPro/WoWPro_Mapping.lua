@@ -464,16 +464,15 @@ function WoWPro:MapPoint(row)
 		i = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
 	end
 
+
 	-- Removing old map point --
-	if LastMapPoint and LastMapPoint == i then
-	    WoWPro:dbp("MapPoint: LastMapPoint=%d is current. No update needed.", LastMapPoint)
+	if LastMapPoint and LastMapPoint == i and #cache > 1 and cache[1].index == i then
+	    WoWPro:dbp("MapPoint: LastMapPoint=%d [%.2f,%.2f@%d/%d] in %s. No update needed.", LastMapPoint, cache[1].x, cache[1].y, cache[1].map, cache[1].floor, cache[1].zone)
 	    return
 	end
 	WoWPro:RemoveMapPoint()
-	LastMapPoint = i
-	FinalCoord = nil
-	
-	
+
+
 	local coords
 	if WoWPro.map then
 	    coords = WoWPro.map[i]
@@ -481,14 +480,13 @@ function WoWPro:MapPoint(row)
 	    coords = nil
 	end
 	local desc = WoWPro.step[i]
-	local zone
 	local floor = 0
 	if row then
 	    zone = WoWPro.rows[row].zone
 	end 
 	zone = zone or WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
 	autoarrival = WoWPro.waypcomplete[i]
-	
+
 	if zone:match("/") then
 	    -- Well, they have a floor specified
 	    zone , floor = string.split("/",zone)
@@ -497,8 +495,7 @@ function WoWPro:MapPoint(row)
 	        zone = strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
 	    end
 	end
-	
-	
+
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
 	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
 		QuestMapUpdateAllQuests()
@@ -507,7 +504,7 @@ function WoWPro:MapPoint(row)
 		local x, y = WoWPro:findBlizzCoords(WoWPro.QID[i])
 		if x and y then coords = tostring(x)..","..tostring(y) end
 	end
-	
+
 	-- Set working objective based on QID
 	if WoWPro.QID and WoWPro.QID[i] then
 	    local qid = tonumber(WoWPro.QID[i])
@@ -515,7 +512,7 @@ function WoWPro:MapPoint(row)
                 SetSuperTrackedQuestID(qid)
 	    end
 	end
-	
+
 	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
 	if LightHeaded and WoWPro.QID and WoWPro.QID[i] and not coords then
 		if type(WoWPro.QID[i]) ~= "number" then return end
@@ -535,8 +532,11 @@ function WoWPro:MapPoint(row)
 	end
 
 	-- If there aren't coords to map, ending map function --
-	if not coords then return end
-	
+	if not coords then
+        WoWPro:dbp("MapPoint: No coords for step %d",i)
+	    return
+	end
+
 	-- Finding the zone --
 	local zm,zf,zc,zi
 	zm = nil
@@ -553,17 +553,17 @@ function WoWPro:MapPoint(row)
 	        zi = WoWPro.Zone2MapID[zone].zonei
 	    end
     end
-    
+
     if not zm then
 	    zm = GetCurrentMapAreaID()
 	    zf = GetCurrentMapDungeonLevel()
 	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
 	end
-	
+
 	if TomTom and TomTom.AddMFWaypoint and TomTom.db then
 		    TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
-    		
+
     		-- arrival distance, so TomTom can call our customized distance function when player
     		-- gets to the waypoints
     		local arrivaldistance
@@ -573,15 +573,16 @@ function WoWPro:MapPoint(row)
     			arrivaldistance = OldCleardistance + 1
     		end
     		WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
-    
+
     		-- prevents TomTom from clearing waypoints that are not final destination
     		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
     		WoWPro:dbp("MapPoint: autoarrival = %s, arrivaldistance=%s, TomTom..cleardistance = %d, OldCleardistance == %d",
     		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
-		
+
 		-- Parsing and mapping coordinates --
 		WoWPro:dbp("WoWPro:MapPoint1(%s@%s=%s/%s)",coords,tostring(zone),tostring(zm),tostring(zf))
 		local numcoords = select("#", string.split(";", coords))
+        FinalCoord = nil
 		for j=1,numcoords do
 			local waypoint = {}
 			local jcoord = select(numcoords-j+1, string.split(";", coords))
@@ -612,6 +613,8 @@ function WoWPro:MapPoint(row)
 				waypoint.uid = uid
 				waypoint.index = i
 				waypoint.zone = zone
+				waypoint.map = zm
+				waypoint.floor = zf
 				waypoint.x = x
 				waypoint.y = y
 				waypoint.desc = desc
@@ -621,7 +624,8 @@ function WoWPro:MapPoint(row)
 				FinalCoord = { x , y }
 			end
 		end
-		
+		LastMapPoint = i
+
 		if Nx then
 		    return
 		end
@@ -646,18 +650,16 @@ function WoWPro:MapPoint(row)
 				else
 				    WoWPro:Error("No closest waypoint? Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
 				end
-			
 			elseif autoarrival == 2 then
 				TomTom.db.profile.arrow.setclosest = false
-				
 			end
-			
 		end
 		TomTom.db.profile.persistence.cleardistance = OldCleardistance
 	elseif TomTom then
-		-- WoWPro:Print("WoWPro:MapPoint2(%s@%s/%s)",coords,tostring(zone),tostring(zm))
+		WoWPro:Print("WoWPro:MapPoint2(%s@%s/%s)",coords,tostring(zone),tostring(zm))
 		-- Legacy Parsing and mapping coordinates for Carbonite --
 		local numcoords = select("#", string.split(";", coords))
+	    FinalCoord = nil
 		for j=1,numcoords do
 			local jcoord = select(numcoords-j+1, string.split(";", coords))
 			local x = tonumber(jcoord:match("([^|]*),"))
@@ -667,9 +669,9 @@ function WoWPro:MapPoint(row)
 			table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false))
 			FinalCoord = { x , y }
 		end
-	
+		LastMapPoint = i
 	end
-	
+
 end
 
 function WoWPro:RemoveMapPoint()
