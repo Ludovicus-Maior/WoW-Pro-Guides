@@ -287,13 +287,13 @@ end
 -- Update Quest Tracker --
 function WoWPro:UpdateQuestTracker()
 	if not WoWPro.GuideFrame:IsVisible() then
-	    WoWPro:dbp("Punting: WoWPro:UpdateQuestTracker()")
+	    WoWPro:print("Punting: WoWPro:UpdateQuestTracker()")
 	    return
 	end
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 	
-	WoWPro:dbp("Running WoWPro:UpdateQuestTracker()")
+	WoWPro:print("Running WoWPro:UpdateQuestTracker()")
 	for i,row in ipairs(WoWPro.rows) do
 		local index = row.index
 		local questtext = WoWPro.questtext[index] 
@@ -389,16 +389,21 @@ function WoWPro.EventHandler(frame, event, ...)
     WoWPro:LogEvent(event,...)
 
 	-- Unlocking event processong after things get settled --
-	if event == "PLAYER_ENTERING_WORLD" then
-	    WoWPro:dbp("Setting Timer PEW")
+	if event == "PLAYER_ENTERING_WORLD" or "CINEMATIC_STOP" then
+	    WoWPro:print("Setting Timer PEW/CS")
 	    WoWPro.InitLockdown = true
-	    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
-	    WoWPro.LockdownTimer = 1.5
+	    if event == "PLAYER_ENTERING_WORLD" 
+    	    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+    	    WoWPro.LockdownTimer = 1.5
+    	else
+    	    WoWPro.LockdownCounter = 3  -- times until release and give up to wait for other addons
+    	    WoWPro.LockdownTimer = 0.5
+    	end
 	end
 		
 	-- Locking event processong till after things get settled --
-	if event == "PLAYER_LEAVING_WORLD" then
-	    WoWPro:dbp("Locking Down PLW")
+	if event == "PLAYER_LEAVING_WORLD" or "CINEMATIC_START" then
+	    WoWPro:print("Locking Down PLW/CS")
 	    WoWPro.InitLockdown = true
 	end
 	
@@ -407,6 +412,10 @@ function WoWPro.EventHandler(frame, event, ...)
 	    WoWPro.CheckAstrolabeData()
 	end
 
+	if WoWPro.InitLockdown and event = "QUEST_LOG_UPDATE" then
+	    WoWPro:SendMessage("WoWPro_PuntedQLU")
+	    return
+	end
 	if WoWPro.InitLockdown and event ~= "ZONE_CHANGED_NEW_AREA" then
 	    return
 	end
@@ -668,5 +677,9 @@ function WoWPro.EventHandler(frame, event, ...)
 end
 
 function WoWPro.PuntedQLU()
-    WoWPro.EventHandler(nil, "QUEST_LOG_UPDATE")
+    if WoWPro.InitLockdown then
+        WoWPro:SendMessage("WoWPro_PuntedQLU")
+        return
+    end
+    WoWPro.EventHandler(nil, "QUEST_LOG_UPDATE","-punted-")
 end
