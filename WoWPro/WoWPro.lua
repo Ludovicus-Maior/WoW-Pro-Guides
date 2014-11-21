@@ -50,7 +50,6 @@ function WoWPro:Add2Log(level,msg)
 	end
 end
 -- Debug print function --
-
 function WoWPro:dbp(message,...)
 	if WoWPro.DebugLevel > 0 and message ~= nil then
 	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
@@ -58,6 +57,14 @@ function WoWPro:dbp(message,...)
 	end
 end
 WoWPro:Export("dbp")
+
+function WoWPro:print(message,...)
+	if message ~= nil then
+	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
+	    WoWPro:Add2Log(2,msg)
+	end
+end
+WoWPro:Export("print")
 
 -- WoWPro print function --
 function WoWPro:Print(message,...)
