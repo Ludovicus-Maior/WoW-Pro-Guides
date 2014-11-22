@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2014-11-22 13:49
+-- Who: Ludovicus
+-- Log: Extra QO tag
+
+-- URL: http://wow-pro.com/node/3614/revisions/27029/view
 -- Date: 2014-11-22 11:58
 -- Who: Ludovicus
 
@@ -330,7 +335,7 @@ A An Eye for a Spy|QID|34096|PRE|34094|M|63.08,26.12|N|From Thaelin Darkanvil|
 C An Eye for a Spy|QID|34096|M|63.08,26.12|QO|1|N|Take a peek|
 T An Eye for a Spy|QID|34096|M|63.08,26.12|N|To Thaelin Darkanvil|
 A Born to Shred|QID|34097|PRE|34096|M|63.08,26.12|N|From Thaelin Darkanvil|
-C Born to Shred|QID|34097|M|59.8,35.2|QO|N|Head to Tuurem and let the slaughter begin!|
+C Born to Shred|QID|34097|M|59.8,35.2|N|Head to Tuurem and let the slaughter begin!|
 T Born to Shred|QID|34097|M|0,0|N|To Iron Shredder Prototype|
 A Engineering Her Demise|QID|34098|PRE|34097|M|0,0|N|From Iron Shredder Prototype|
 C Engineering Her Demise|QID|34098|M|61.0,38.6|N|Ketya Shrediron|
