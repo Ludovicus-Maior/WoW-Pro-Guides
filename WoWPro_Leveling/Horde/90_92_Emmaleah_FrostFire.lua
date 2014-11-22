@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-22 12:07
+-- Who: Ludovicus
+-- Log: Some tag fixes.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27025/view
 -- Date: 2014-11-20 11:56
 -- Who: Emmaleah
 -- Log: rearranged JC profession upgrade quest, Put PRE and or LEAD tags on steps to (hopefully) take care of duplicate instructions if you are JC/BS or Tailering/LW (not many of that combo)
@@ -280,7 +285,8 @@ R Frostboar Drifts|QID|33412|M|17.76,41.96|N|Head away from the Citadel and take
 C Wanted: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|
 
 C From Their Cold Dead Hands|QID|36417|M|24.30,28.30|S|P|Tailoring;197|N|From the ogres you have been killing, You don't need to get them all in this area.|
-T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrimar the Resolute.|A The Cure|QID|33454|M|24.30,28.30|N|From Igrimar the Resolute.|
+T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrimar the Resolute.|
+A The Cure|QID|33454|M|24.30,28.30|N|From Igrimar the Resolute.|
 A The Warlord's Guard|QID|33450|M|24.30,28.30|N|From Igrimar the Resolute.|
 C The Cure|QID|33454|M|27.17,26.98|S|N|Kill Geomancers to loot the antidote, use it on the gladiators.|
 K Thunk|QID|33450|M|27.0,25.6|QO|1|N|Inside the building.|T|Thunk|
@@ -412,7 +418,7 @@ A The Dark Lady's Gift|QID|35243|PRE|36709|M|62.14,22.99|Z|Warspear|N|From Vivia
 T The Dark Lady's Gift|QID|35243|M|62.14,22.99|Z|Warspear|N|To Vivianne.|
 H Town Hall (Frostwall)|QID|32989|M|41.58,53.06|U|110560|N|Return to your Garrison.|
 
-R Icewind Drifts|QID|32989|45.3,50.4|
+R Icewind Drifts|QID|32989|M|45.3,50.4|
 A Help out the Veteran|QID|33011|CHAT|RANK|3|M|43.8,49.3;45.3,50.4|CS|N|Talk to him to start the encounter. Help him defeat the attackers and he will share his most precious treasure with you.|
 T Securing the South|QID|32989|M|38.54,52.46|N|To Lokra.|
 A They Who Held Fast|QID|32990|M|38.54,52.46|N|From Lokra.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2014-11-22 12:04
+-- Who: Ludovicus
+-- Log: Corrected tags.
+
+-- URL: http://wow-pro.com/node/3618/revisions/27026/view
 -- Date: 2014-11-20 18:01
 -- Who: Fluclo
 
@@ -38,7 +43,7 @@ WoWPro:GuideNextGuide(guide, 'nil')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Warning!|QID|0|N|This guide is not usable.  It has never been played through and is currently a random collection of quests.|
+N Warning!|QID|0|N|This guide is partially written. It has been played through once and still needs TLC. Use at your own risk|
 
 L Level 98 |QID|34674;37184|LVL|98|N|This guide requires a minimum level of 98 to do.|
 N Welcome to Nagrand|QID|34674;37184|ACTIVE|34674;37184|S|N|If you want the rare elite and treasures included in this guide, please set your Rank to 3.|
@@ -177,13 +182,13 @@ A Obliterating Ogres |QID|34572|M|78.79,69.26|N|From Rangari Eleena|
 
 C Obliterating Ogres|QID|34572|S|M|83.38,74.85|N|Kill the Ogres.|
 A Removing the Paper Trail|QID|34597|M|81.34,70.38|N|From the Ogre Scrolls.|
-C Removing the Paper Trail|QID|34597|NC|M|82.01,73.68|S|N|Click the Boxes of Ogre Research to destroy them.|NC|
+C Removing the Paper Trail|QID|34597|NC|M|82.01,73.68|S|N|Click the Boxes of Ogre Research to destroy them.|
 C Obtaining Ogre Offensive Orders|QID|34593|QO|2|M|83.20,70.39|T|Thulgork|N|Kill and loot Thurgork for the orders.|
 C Obtaining Ogre Offensive Orders|QID|34593|QO|1|M|84.05,73.42|T|Crulgorosh|N|Kill and loot Crulgorosh for the orders. He can be found in the building up the stairs and to the left.|
 
 K Warmaster Blugthol |QID|34645|M|82.79,76.03|N|*Rare Kill*\nDrops Blug'thol's Bloody Bracers worth 14g.|RANK|3|
 
-C Removing the Paper Trail|QID|34597|NC|M|82.01,73.68|US|N|Finish clicking the Boxes of Ogre Research to destroy them.|NC|
+C Removing the Paper Trail|QID|34597|NC|M|82.01,73.68|US|N|Finish clicking the Boxes of Ogre Research to destroy them.|
 C Obliterating Ogres|QID|34572|US|M|83.38,74.85|N|Finish killing the Ogres.|
 
 T Obtaining Ogre Offensive Orders|QID|34593|M|84.06,76.85|N|To Rangari Mirana, who has moved up to the fourth floor of the overwatch.|
@@ -200,7 +205,7 @@ C That Pounding Sound |QID|35337|N|Kill and loot the Leatherhide Calf, Clefthoof
 C Shooting the Breeze |QID|35338|N|Kill and loot the Breezestrider Colt, Talbuk and Stallion for their Horns|S|ACTIVE|34951|
 
 R Hallvalor |QID|34951|M|84.75,58.35|N|Head to Hallvalor.|
-C The Friend o' My Enemy|QID|34952|US|M|85.42,55.30|N|Kill the Burning Blade forces at Hallvalor.|S|
+C The Friend o' My Enemy|QID|34952|M|85.42,55.30|N|Kill the Burning Blade forces at Hallvalor.|S|
 
 T They Call Him Lantresor of the Blade|QID|34951|M|85.41,54.58|N|To Lantresor of the Blade.|
 A The Blade Itself|QID|34954|M|85.42,54.59|N|From Lantresor of the Blade.|
@@ -215,7 +220,7 @@ T The Blade Itself|QID|34954|M|85.44,54.60|N|To Lantresor of the Blade.|
 T Not Without My Honor|QID|34955|M|85.44,54.60|N|To Lantresor of the Blade.|
 
 A Meet Me in the Cavern|QID|34956|M|85.44,54.60|N|From Lantresor of the Blade.|
-C The Friend o' My Enemy|QID|34952|US|M|85.42,55.30|N|Finish this up before you go in the Cavern as the ones inside don't count and when you come out you will be neutral to them.|US|
+C The Friend o' My Enemy|QID|34952|M|85.42,55.30|N|Finish this up before you go in the Cavern as the ones inside don't count and when you come out you will be neutral to them.|US|
 T Meet Me in the Cavern|QID|34956|M|89.99,55.94|N|To Lantresor of the Blade.|
 
 A Challenge of the Masters|QID|34957|M|89.99,55.94|N|From Lantresor of the Blade.|
@@ -256,7 +261,7 @@ R Vault of the Titan |QID|35663|N|Head to the Vault of the Titan.|M|67.20,49.55|
 C A Lesson in Teamwork |QID|35663|N|Loot the Ancient Reliquary from the ground or kill and loot the Highmaul.|NC|S|
 C A Lesson in Archaeology |QID|35632|N|Deploy the Teleportation Beacon.|NC|QO|1|M|70.75,47.50|
 C A Lesson in Archaeology |QID|35632|N|Wait for the dialog to finish.|NC|QO|2|M|70.75,47.50|
-C A Lesson in Teamwork |QID|35663|N|Finish looting the Ancient Reliquary from the ground or kill and loot the Highmaul.|NC|US|MC|68.85,48.65|
+C A Lesson in Teamwork |QID|35663|N|Finish looting the Ancient Reliquary from the ground or kill and loot the Highmaul.|NC|US|M|68.85,48.65|
 
 T A Lesson in Teamwork |QID|35663|N|To Gazmolf Futzwangler|M|71.13,52.35|
 T A Lesson in Archaeology |QID|35632|N|To Gazmolf Futzwangler|M|71.13,52.35|
@@ -356,7 +361,7 @@ A Elemental Attunement |QID|35333|N|From Vindicator Nobundo|M|71.73,19.66|PRE|35
 
 A An Old Friend |QID|34943|M|72.77,19.70|N|From Kalandrios|PRE|35331|
 R Skysong Lake |N|Head up the path through Skysong Lake and up the ledge.|M|73.85,16.50|ACTIVE|34943|
-T An Old Friend |QID|34943|M|72.77,19.70|N|To Gar'rok, up on the ledge.|M|75.08,22.75|
+T An Old Friend |QID|34943|M|72.77,19.70|N|To Gar'rok, up on the ledge.|
 
 N *** |QID|0|N|Remainder of guide hasn't been written yet.|
 

@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2014-11-22 11:58
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3614/revisions/27020/view
 -- Date: 2014-11-18 01:49
 -- Who: Ludovicus
 -- Log: Minor checkpoint for the end of the battle for Shattrath and the start of Auchindoun
@@ -307,16 +311,16 @@ T Decommissioned Mission|QID|34091|M|63.08,26.12|N|To Thaelin Darkanvil|
 N Vol. X Pages ?|QID|34094|N|Click off this step.  This is a pause to allow the next quest to load.|
 A Vol. X Pages ?|QID|34094|PRE|34090;34091|M|63.08,26.12|N|From Thaelin Darkanvil|
 
-C Vol. X Pages ?|QID|34094|M|54.2,22.2|Kill orcs at the Archenon Siegeyard to get the pages.|S|
+C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to get the pages.|S|
 C Iron Them Out|QID|34095|M|57.05,29.30|N|Click on glowing tanks to destroy.|
 C Dreadpiston|QID|34959|M|56.48,27.33|
 A Dying Wish|QID|33973|M|56.90,25.97|N|From Ahm|RANK|2|
 K Blademaster Bralok|QID|33973|M|57.03,24.38|N|Loot heirloom|
 T Dying Wish|QID|33973|M|56.90,25.97|N|To Ahm|
-C Vol. X Pages ?|QID|34094|M|54.2,22.2|Kill orcs at the Archenon Siegeyard to get the pages.|US|
+C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to get the pages.|US|
 
 K Wanted: Ra'tok the Hammer|QID|34105|M|54.2,22.2|N|Ra'tok the Hammer is down the path to the coastline.|
-N Bonus Objective|QID|34095|M|54.2,22.2|There is a bonus objective there on the coast. Take the path to the coastline.|
+N Bonus Objective|QID|34095|M|54.2,22.2|N|There is a bonus objective there on the coast. Take the path to the coastline.|
 
 T Iron Them Out|QID|34095|M|63.06,25.84|N|To Yrel|
 T Dreadpiston|QID|34959|M|63.04,25.89|N|To Vindicator Maraad|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2014-11-22 12:11
+-- Who: Ludovicus
+-- Log: Tag Fixes
+
+-- URL: http://wow-pro.com/node/3599/revisions/27027/view
 -- Date: 2014-11-22 07:14
 -- Who: Emmaleah
 -- Log: Added note about where to get treasure map. Fixed BADd routing to Mistcreep Mire, various other improvements from run thru with sparring arena on live.
@@ -281,7 +286,7 @@ A A Grim Harvest|QID|35030|M|57.21,61.95|N|From Grulkor.|
 A A Heartfelt Search|QID|35031|M|57.21,61.95|N|From Grulkor.|
 C A Grim Harvest|QID|35030|M|59.81,63.17|N|These are dropped by the Fungal Stompers. Kill them on the way to the strange fungus.|
 C A Heartfelt Search|QID|35031|M|58.93,62.57|NC|
-T A Grim Harvest|QID|35030|M|58.91,62.53|N|To Grulkor.|N|Wait a few seconds and he shows up for you to turn the quest in.|
+T A Grim Harvest|QID|35030|M|58.91,62.53|N|To Grulkor. Wait a few seconds and he shows up for you to turn the quest in.|
 T A Heartfelt Search|QID|35031|M|58.91,62.53|N|To Grulkor.|
 A Heart of the Fen|QID|35040|M|58.91,62.53|N|From Grulkor.|
 C Heart of the Fen|QID|35040|M|61.14,62.04|T|Grulkor|
@@ -324,7 +329,7 @@ C Beatface vs. Boulder|QID|33662|M|50.4,49.3;49.9,50.9;50.61,51.45|CS|NC|N|Click
 C Shredder vs. Saberon|QID|33663|M|51.97,45.84;52.62,47.53;52.22,48.62|CS|NC|N|Click on the vines and your shredder will take care of them.|
 T Beatface vs. Boulder|QID|33662|M|50.9,51.4|N|To Rakthoth.|
 T Shredder vs. Saberon|QID|33663|M|52.29,48.99|N|To Rakthoth.|
-A Steamscar Reagents|QID|33661|M|50.9,51.4;52.29,48.99|CN|N|From Rakthoth.|N|From Rakthoth, at the nearer of the two dots.|PRE|33662;33663|
+A Steamscar Reagents|QID|33661|M|50.9,51.4;52.29,48.99|CN|N|From Rakthoth, at the nearer of the two dots.|PRE|33662;33663|
 A The Sacking of Saberon|QID|33660|M|51.05,51.61;51.85,50.04|CN|N|From Saberon Stash available at either waypoint.|ACTIVE|33661|
 C The Sacking of Saberon|QID|33660|M|50.49,53.16|NC|S|N|Gather the herbs as you go about killing the mobs. Any movement, including panning your camera, causes the gather to fail.|
 C Steamscar Reagents|QID|33661|M|52.68,51.13|N|The reagents are looted from the saberon.|
@@ -402,7 +407,7 @@ C The Land Provides|QID|34960|M|54.24,69.74|Z|Frostfire Ridge|NC|N|Finish harves
 T Icespine Stingers|QID|36141|M|55.71,75.33|Z|Frostfire Ridge|N|To Mokugg Lagerpounder.|
 A Proving Your Worth|QID|36131|M|55.71,75.33|Z|Frostfire Ridge|N|From Mokugg Lagerpounder.|PRE|36141|
 C Proving Your Worth|QID|36131|M|55.23,75.05|Z|Frostfire Ridge|NC|N|Use the bait and then fish in this area.|U|114628|
-T Proving Your Worth|QID|36131|M|55.71,75.33|Z|Frostfire Ridge|N|To Mokugg Lagerpounder.|U|111356|N|Your first catch probably got you the fishing skillup book.  Don't forget to learn it.|
+T Proving Your Worth|QID|36131|M|55.71,75.33|Z|Frostfire Ridge|U|111356|N||To Mokugg Lagerpounder. Your first catch probably got you the fishing skillup book.  Don't forget to learn it.|
 A Anglin' In Our Garrison|QID|36132|M|55.71,75.33|Z|Frostfire Ridge|N|From Mokugg Lagerpounder.|PRE|36131|
 T Anglin' In Our Garrison|QID|36132|M|38.03,72.34|Z|Frostwall|N|To Mak'jin. He should now have a daily for you if you want to do it.|
 T The Land Provides|QID|34960|M|42.18,55.54|Z|Frostwall|N|To Gazlowe (he's inside the town hall). If you want to you can also upgrade your fishing shack to level 2 by purchasing the blueprint from Rezlak right next to Gazlowe.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2014-11-22 11:49
+-- Who: Ludovicus
+-- Log: Hey!  Needed @Draenor
+
+-- URL: http://wow-pro.com/node/3605/revisions/27023/view
 -- Date: 2014-11-20 03:22
 -- Who: Emmaleah
 -- Log: added |Z|The Underpale to the steps inside oshu'gun, Starting with T [Dark Binding] I did it from memory, so I may have added it to extra steps that shouldn't have it. 
@@ -38,7 +43,7 @@
 -- Who: Emmaleah
 -- Log: Emmaleah - 10/1/14 - First public draft
 
-local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand', 'Emmaleah', 'Horde')
+local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand@Draenor', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
 WoWPro:GuideNextGuide(guide, 'nil')
 WoWPro:GuideSteps(guide, function()
