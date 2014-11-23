@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2014-11-22 17:41
+-- Who: Ludovicus
+-- Log: Draft of next section.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27033/view
 -- Date: 2014-11-22 13:49
 -- Who: Ludovicus
 -- Log: Extra QO tag
@@ -348,45 +353,45 @@ T The Battle for Shattrath|QID|34099|M|69.67,21.10|N|To Yrel|
 
 ; In the Shadows of Auchindoun
 A Speaker for the Dead|QID|34701|M|69.65,21.61|N|From Vindicator Icia|
+F XXX|QID|34701|M|55.7,67.7|N|Go flying or go riding.|
 T Speaker for the Dead|QID|34701|M|55.7,67.7|N|To Exarch Maladaar|
 
 A Holding the Line|QID|34407|M|55.7,67.7|N|From Exarch Maladaar|
 A The Heart of Auchindoun|QID|33920|M|56.5,67.1|N|From Soulbinder Nyami|
 A Disrupting the Flow|QID|33917|M|56.7,66.0|N|From Vindicator Nobundo|
-A Every Bit Counts|QID|34709|M|56.1,68.3|N|From Aeun|
+A Every Bit Counts|QID|34709|M|56.1,68.3|N|From Aeun|; Leadin to Jorune Mine
 
 A Powering the Defenses|QID|34458|M|55.6,67.8|N|From Vindicator Kaluud|
-T Powering the Defenses|QID|34458|M|68.5,19.3|Z|Tomb of Lights|N|To Soulbinder Tuulani|
+T Powering the Defenses|QID|34458|M|68.5,19.3|N|To Soulbinder Tuulani|
 A We Must Construct Additional Pylons|QID|34351|M|68.5,19.3|N|From Soulbinder Tuulani|
+C Arkonite Crystals|QID|34351|M|68.5,19.3|QO|1|
+C Arkonite Pylon|QID|34351|M|68.5,19.3|QO|2|
 T We Must Construct Additional Pylons|QID|34351|M|55.1,67.4|N|To Soulbinder Tuulani|
 A Nightmare in the Tomb|QID|33530|M|52.1,38.8|N|From Yuuri|
+C Ritual investigated|QID|33530|M|55.7,67.7|QO|1|
+K Tagar Spinebreaker|QID|33530|M|55.7,67.7|QO|2|
 T Nightmare in the Tomb|QID|33530|M|55.7,67.7|N|To Exarch Maladaar|
 
-C The Heart of Auchindoun|QID|33920|M|56.6,63.0|N|O'mogg Blackheart|
-C The Heart of Auchindoun|QID|33920|M|56.7,62.5|N|Karab'uun|
-C Holding the Line|QID|34407|M|56.2,63.4|N|Legion Assailant|
-C Holding the Line|QID|34407|M|57.2,63.8|N|Shadow Council Pyromancer|
-C Holding the Line|QID|34407|M|54.6,62.2|N|Burning Hunter|
-C Holding the Line|QID|34407|M|55.4,62.8|N|Abyssal Invader|
-C Holding the Line|QID|34407|M|56.6,66.0|N|Legion Assailant|
-C Holding the Line|QID|34407|M|56.6,66.0|N|Burning Hunter|
-C Holding the Line|QID|34407|M|56.6,66.0|N|Abyssal Invader|
+K O'mogg Blackheart|QID|33920|M|56.6,63.0|QO|1|
+l Karab'uun|QID|33920|M|56.7,62.5|QO|2|
+C Holding the Line|QID|34407|M|55.66,63.41|N|Slay demons around here.|
 
-T Holding the Line|QID|34407|M|55.7,67.7|N|To Exarch Maladaar|
 T The Heart of Auchindoun|QID|33920|M|56.5,67.1|N|To Soulbinder Nyami|
 T Disrupting the Flow|QID|33917|M|56.7,66.0|N|To Vindicator Nobundo|
+T Holding the Line|QID|34407|M|55.7,67.7|N|To Exarch Maladaar|
 
 A Light's Rest|QID|34452|M|55.7,67.7|N|From Exarch Maladaar|
+R Light's Rest|QID|34452|M|57.2,77.0|N|Get on your hog and ride out.|
 T Light's Rest|QID|34452|M|57.2,77.0|N|To Exarch Maladaar|
 
 A Antivenin|QID|33967|M|57.2,76.9|N|From Soulbinder Tuulani|
 A Into the Hollow|QID|33958|M|57.2,76.9|N|From Soulbinder Nyami|
 A Vile Defilers|QID|33969|M|57.5,76.7|N|From Vindicator Namuun|
-C Into the Hollow|QID|33958|M|65.6,86.6|N|Xanatos the Defiler|
-C Into the Hollow|QID|33958|M|65.8,86.8|N|Sha'tari|
-C Antivenin|QID|33967|M|62.4,83.8|N|Deathweb Hatchling|
-C Antivenin|QID|33967|M|61.0,81.6|N|Deathweb Crawler|
-C Antivenin|QID|33967|M|61.0,83.8|N|Deathweb Egg Tender|
+C Defiling Crystals|QID|33958|S|QO|1|N|Scattered through the mine.|
+K Xanatos the Defiler|QID|33958|M|65.6,86.6|QO|1|
+C Sha'tari|QID|33958|M|65.8,86.8|QO|2|N|Loot Sha'tari|
+C Antivenin|QID|33967|M|62.4,83.8|QO|1|N|Kill Deathweb spiders|
+C Defiling Crystals|QID|33958|US|QO|1|N|Scattered through the mine.|
 T Antivenin|QID|33967|M|57.2,76.9|N|To Soulbinder Tuulani|
 T Into the Hollow|QID|33958|M|57.2,76.9|N|To Soulbinder Nyami|
 T Vile Defilers|QID|33969|M|57.5,76.7|N|To Vindicator Namuun|
@@ -396,40 +401,36 @@ T Scheduled Pickup|QID|34240|M|50.4,87.5|N|To Soulbinder Tuulani|
 A Restalaan,Captain of the Guard|QID|34508|M|50.4,87.5|N|From Soulbinder Tuulani|
 A Never Forget|QID|34013|M|50.5,87.5|N|From Defender Artaal|
 A Payback|QID|34234|M|50.4,87.3|N|From Vindicator Kaluud|
-A Invasion of the Soul Eaters|QID|33988|M|49.2,88.1|N|From Written Note|
-C Never Forget|QID|34013|M|49.2,87.9|N|Telmor Registry|
-C Never Forget|QID|34013|M|47.5,89.0|N|Leafshadow|
-C Never Forget|QID|34013|M|49.3,90.8|N|Auchenai Prayerbook|
-C Payback|QID|34234|M|47.8,90.2|N|Wrathguard Destroyer|
-C Payback|QID|34234|M|49.0,90.6|N|Fervid Adherent|
-C Payback|QID|34234|M|47.6,89.2|N|Depraved Hunter|
-C Payback|QID|34234|M|44.6,90.8|N|Vorpil Ribcleaver|
-C Payback|QID|34234|M|47.8,88.8|N|Shadowborne Reverend|
-C Payback|QID|34234|M|49.2,88.0|N|Zealous Fanatic|
-C Payback|QID|34234|M|48.4,89.6|N|Demon Conjurer|
-C Payback|QID|34234|M|47.2,91.4|N|Tol'ressa|
+
+C Shadow Council forces|QID|34234|M|47.8,90.2|S|QO|1|N|Kill Telmor Invaders.|
 T Restalaan,Captain of the Guard|QID|34508|M|44.9,90.5|N|To Restalaan|
+A Invasion of the Soul Eaters|QID|33988|M|49.2,88.1|N|From Written Note|
+C Body Piles|QID|33988|S|QO|1|N|Burn body piles as you find them|U|108886|
+C Never Forget|QID|34013|M|49.2,87.9|QO|1|N|Telmor Registry|
+C Never Forget|QID|34013|M|49.3,90.8|QO|2|N|Auchenai Prayerbook|
+C Never Forget|QID|34013|M|47.5,89.0|QO|3|N|Leafshadow|
+C Shadow Council forces|QID|34234|M|47.8,90.2|US|QO|1|N|Kill Telmor Invaders.|
+C Body Piles|QID|33988|US|QO|1|N|Burn body piles as you find them|U|108886|
+
 T Never Forget|QID|34013|M|50.5,87.5|N|To Defender Artaal|
 T Payback|QID|34234|M|50.4,87.3|N|To Vindicator Kaluud|
-T Invasion of the Soul Eaters|QID|33988|M|0,0|N|To Automatic|
+T Invasion of the Soul Eaters|QID|33988|M|50.5,87.5|N|To UI|
 
 A The Final Piece|QID|33976|M|44.9,90.5|N|From Restalaan|
-C The Final Piece|QID|33976|M|44.6,90.8|N|Vorpil Ribcleaver|
-C The Final Piece|QID|33976|M|44.5,90.9|N|Auch'naaru|
+K Vorpil Ribcleaver|QID|33976|M|44.6,90.8|QO|1|
+l Auch'naaru|QID|33976|M|44.5,90.9|QO|2|N|Loot it.|
 T The Final Piece|QID|33976|M|44.9,90.5|N|To Restalaan|
 A Changing the Tide|QID|34326|M|44.9,90.5|N|From Restalaan|
-T Changing the Tide|QID|34326|M|43.4,76.0|N|To Restalaan|
+R Retribution Point|QID|34326|M|43.4,76.0|N|Mount up and ride your hog.|
 
+T Changing the Tide|QID|34326|M|43.4,76.0|N|To Restalaan|
 A Desperate Measures|QID|34092|M|43.4,76.0|N|From Restalaan|
 A Ogre Diplomacy|QID|35227|M|42.9,76.1|N|From Exarch Maladaar|
-C Desperate Measures|QID|34092|M|42.6,84.6|N|Dur'gol the Ruthless|
-C Desperate Measures|QID|34092|M|39.6,83.4|N|Mok'war the Terrible|
-C Ogre Diplomacy|QID|35227|M|42.6,84.6|N|Dur'gol the Ruthless|
-C Ogre Diplomacy|QID|35227|M|39.6,83.4|N|Mok'war the Terrible|
-C Ogre Diplomacy|QID|35227|M|41.2,80.4|N|Ango'rosh Spellweaver|
-C Ogre Diplomacy|QID|35227|M|42.0,81.0|N|Ango'rosh Crusher|
-C Ogre Diplomacy|QID|35227|M|40.8,81.2|N|Ango'rosh Spellweaver|
-C Ogre Diplomacy|QID|35227|M|41.2,82.4|N|Ango'rosh Hunter|
+C Ogre Diplomacy|QID|35227|M|41.2,80.4|S|QO|1|N|Kill Ango'rosh in the area.|
+C Grimoire of Binding|QID|34092|M|42.6,84.6|QO|2|N|Kill Dur'gol the Ruthless for the Grimoire.|
+C Ango'rosh Spellbook|QID|34092|M|39.6,83.4|QO|1|N|Kill Mok'war the Terrible for the Spellbook.|
+C Ritual|QID|34092|M|41.1,82.5|QO|3|N|Click on the staff and wait for the ritual to end. DO NOT MOVE.|
+C Ogre Diplomacy|QID|35227|M|41.2,80.4|US|QO|1|N|Kill Ango'rosh in the area.|
 T Desperate Measures|QID|34092|M|43.4,76.0|N|To Restalaan|
 T Ogre Diplomacy|QID|35227|M|42.9,76.1|N|To Exarch Maladaar|
 
@@ -437,26 +438,27 @@ A Into the Heart of Madness|QID|34157|M|42.9,76.1|N|From Exarch Maladaar|
 A Retribution for the Light|QID|35254|M|42.9,76.1|N|From Exarch Maladaar|
 A Hiding in the Shadows|QID|34163|M|37.3,79.4|N|From Shadow Council Communicator|
 A Book Burning|QID|34164|M|34.0,74.0|N|From Kor'thos Dawnfury|
-C Retribution for the Light|QID|35254|M|33.4,76.6|N|Gorebound Legionnaire|
-C Retribution for the Light|QID|35254|M|34.6,78.2|N|Felwrought Annihilator|
-C Retribution for the Light|QID|35254|M|34.2,70.6|N|Gorebound Demonguard|
-C Retribution for the Light|QID|35254|M|35.6,79.8|N|Shadowborne Dementor|
-C Retribution for the Light|QID|35254|M|33.6,74.4|N|Eye of Gul'dan|
-C Retribution for the Light|QID|35254|M|36.6,75.4|N|Gorebound Beast-Tamer|
-C Retribution for the Light|QID|35254|M|33.4,75.0|N|Ravenous Mongrel|
-C Retribution for the Light|QID|35254|M|33.4,73.8|N|Gorebound Vessel|
-C Retribution for the Light|QID|35254|M|33.4,73.6|N|Gorebound Legionnaire|
-C Retribution for the Light|QID|35254|M|35.6,79.8|N|Shadowborne Dementor|
-T Into the Heart of Madness|QID|34157|M|31.2,73.6|N|To Soulbinder Nyami|
+C Gul'rok Demons|QID|35254|M|33.6,74.4|S|QO|1|N|Kill demons in the area.|
+C Book Burning|QID|34164|S|QO|1|T|Shadowborne Dementor|N|Kill Dementors and loot their books.  Then burn them by Kor'thos.  They hide in the buildings and on the 2nd level.|
+C Eastern Shadow Orb|QID|34163|M|37.8,77.4|QO|1|
+C Southern Shadow Orb|QID|34163|M|35.6,79.8|QO|2|
+C Northern Shadow Orb|QID|34163|M|34.5,70.4|QO|3|
+T Hiding in the Shadows|QID|34163|M|0,0|N|To UI|
+C Gul'rok Demons|QID|35254|M|33.6,74.4|US|QO|1|N|Kill demons in the area.|
+C Book Burning|QID|34164|US|QO|1|T|Shadowborne Dementor|N|Kill Dementors and loot their books.  Then burn them by Kor'thos.  They hide in the buildings and on the 2nd level.|
 T Retribution for the Light|QID|35254|M|45.7,74.1|N|To Exarch Maladaar|
-T Hiding in the Shadows|QID|34163|M|0,0|N|To Automatic|
 T Book Burning|QID|34164|M|34.0,74.0|N|To Kor'thos Dawnfury|
 
+T Into the Heart of Madness|QID|34157|M|31.2,73.6|N|To Soulbinder Nyami|
 A Destination: Unknown|QID|34154|M|31.2,73.6|N|From Soulbinder Nyami|
+C Portal there|QID|34154|M|31.2,73.6|QO|1|N|Right click on Nyami to  get ported.|
+K Mongrethod|QID|34154|M|31.2,73.6|QO|2|T|Mongrethod|
+C Portal back|QID|34154|M|31.2,73.6|QO|3|N|Right click on Nyami to  get ported. BTW, hang around and see the view from the floating island.  One of a kind.|
 T Destination: Unknown|QID|34154|M|46.3,74.1|N|To Soulbinder Tuulani|
 A Together We Are Strong|QID|36512|M|46.3,74.1|N|From Soulbinder Tuulani|
 T Together We Are Strong|QID|36512|M|46.3,74.1|N|To Soulbinder Tuulani|
 A Come Together|QID|34707|M|45.7,74.1|N|From Exarch Maladaar|
+H Fort Wrynn|QID|34707|N|Hearth back or fly or ride to Fort Wrynn|
 T Come Together|QID|34707|M|69.7,21.6|N|To Vindicator Icia|
 
 ; Jorune Mine

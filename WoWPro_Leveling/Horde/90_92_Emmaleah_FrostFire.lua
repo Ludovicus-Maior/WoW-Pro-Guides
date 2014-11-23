@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-23 00:13
+-- Who: Emmaleah
+-- Log: correct engineering works level 1 from 93 to 91, add target for {At the End of your Rope]
+
+-- URL: http://wow-pro.com/node/3587/revisions/27031/view
 -- Date: 2014-11-22 12:07
 -- Who: Ludovicus
 -- Log: Some tag fixes.
@@ -651,12 +656,12 @@ C Pick up order|QID|37572|QO|2|M|47.57,34.36|Z|Frostwall|BUILDING|ScribesQtrs;95
 T Your First Inscription Work Order|QID|37572|M|48.32,31.64|Z|Frostwall|BUILDING|ScribesQtrs;95;129;130|N|From Y'rogg.|
 
 ;engineering works SMALL
-A Your First Engineering Work Order|QID|37571|M|53.97,37.33|BUILDING|EngineeringWorks;93;123;124|N|From Pozzlow.|Z|Frostwall|
-B True Iron Ore|QID|37571|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
-B Blackrock Ore|QID|37571|L|109119 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 True Iron Ore.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
-C Place work order|QID|37571|CHAT|QO|1|M|53.13,36.18|N|At Garbra Fizzwonk.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
-C Pick up work order|QID|37571|NC|QO|2|M|51.84,35.94|Z|Frostwall|N|At the pile of boxes and bags named 'Engineering Work Order.|BUILDING|EngineeringWorks;93;123;124|
-T Your First Engineering Work Order|QID|37571|M|53.47,36.94|N|To Garbra Fizzwonk.|BUILDING|EngineeringWorks;93;123;124|Z|Frostwall|
+A Your First Engineering Work Order|QID|37571|M|53.97,37.33|BUILDING|EngineeringWorks;91;123;124|N|From Pozzlow.|Z|Frostwall|
+B True Iron Ore|QID|37571|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
+B Blackrock Ore|QID|37571|L|109119 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 True Iron Ore.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
+C Place work order|QID|37571|CHAT|QO|1|M|53.13,36.18|N|At Garbra Fizzwonk.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
+C Pick up work order|QID|37571|NC|QO|2|M|51.84,35.94|Z|Frostwall|N|At the pile of boxes and bags named 'Engineering Work Order.|BUILDING|EngineeringWorks;91;123;124|
+T Your First Engineering Work Order|QID|37571|M|53.47,36.94|N|To Garbra Fizzwonk.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
 
 ;if you chose enchanting hut SMALL
 A Your First Enchanting Work Order|QID|36645|M|52.95,37.31|N|From Yukla Greenshadow.|BUILDING|EnchantingHut;93;125;126|
@@ -720,9 +725,9 @@ T Getting the Points|QID|34069|M|82.62,69.77|N|To Scout Ruk'Gan.|
 T A Collection of Coils|QID|34067|M|82.62,69.77|N|To Scout Ruk'Gan.|
 A At the End of Your Rope|QID|34070|M|82.62,69.77|N|From Scout Ruk'Gan.|
 A Tar Get of Opportunity|QID|34072|M|82.62,69.77|N|From Scout Ruk'Gan.|
-C At the End of Your Rope|QID|34070|M|84.5,71.3|U|109082|S|N|Look up. Target the flyers and use your harpoon.|
+C At the End of Your Rope|QID|34070|M|84.5,71.3|U|109082|S|N|Look up. Target the flyers and use your harpoon.|T|Thunderlord War Rylak|
 C Tar Get of Opportunity|QID|34072|M|84.5,71.3|N|From the Black Tar (slimes).|
-C At the End of Your Rope|QID|34070|M|84.5,71.3|U|109082|US|N|Look up. Target the flyers and use your harpoon.|
+C At the End of Your Rope|QID|34070|M|84.5,71.3|U|109082|US|N|Look up. Target the flyers and use your harpoon.|T|Thunderlord War Rylak|
 T At the End of Your Rope|QID|34070|M|82.62,69.77|N|To Scout Ruk'Gan.|
 T Tar Get of Opportunity|QID|34072|M|82.62,69.77|N|To Scout Ruk'Gan.|
 A Burn Them Down|QID|34073|M|82.62,69.77|N|From Scout Ruk'Gan.|

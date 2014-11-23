@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-11-22 19:20
+-- Who: Fluclo
+-- Log:  Enchanting; Added another Rank 3 kill.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27003/view
 -- Date: 2014-11-15 23:01
 -- Who: Fluclo
 -- Log: Few more Rank 3 treasures and kills added
@@ -149,9 +154,12 @@ C Keeping it Together |QID|35176|N|Head to Shelly Harnby (outside the garrison) 
 C Pale Moonlight |QID|35174|N|Kill and loot the Pale Devourers|S|QO|2|
 C Ship Salvage|QID|35166|N|Loot the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|S|NC|
 C Pale Moonlight |QID|35174|N|Head down to Eventide Landing and kill Gnaw Bloodseeker|QO|1|M|25.5,5.5|T|Gnaw Bloodseeker|
+
 l Fantastic Fish |QID|34174|N|Fantastic Fish: Lootable object for Garrison Resources and 10k XP|M|26.50,5.68|RANK|3|
 l Sunken Treasure |QID|35279|N|Sunken Treasure: Lootable object for Garrison Resources and 10k XP, located in the water under the ship.|M|28.83,7.18|RANK|3|
+K Bahameye |QID|35281|N|N|*Rare Kill*\nDrops Garrison Resources.|RANK|3|
 l Stolen Treasure |QID|35280|N|Stolen Treasure: Lootable object for Garrison Resources and 10k XP, located in Paletide Den.|M|27.04,2.49|RANK|3|
+
 C Ship Salvage|QID|35166|N|Finish looting the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|US|NC|M|26.5,6.5|
 C Pale Moonlight |QID|35174|N|Finish killing the Pale Devourers|US|QO|2|M|26.5,6.5|
 
@@ -236,10 +244,18 @@ A Into Twilight |QID|33072|N|From Prophet Velen|CN|M|49.30,37.41;49.42,36.81|PRE
 A The Southern Wilds |QID|35444|N|From Farmer Gehaar|CN|M|49.05,38.63;49.1,38.6|PRE|34019|
 
 ; The next 7 blocks of quests are dependant upon which profession item(s) you have looted from Karnoth.
-H Lunarfall |QID|33814|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|35342|
+H Lunarfall |QID|36308;33814;36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36308;35342;36236|
+
 T The Mysterious Flask|QID|35342|M|47.69,45.39|Z|Lunarfall|N|To Aenir.|ACTIVE|35342|
 A The Young Alchemist|QID|35343|M|47.69,45.39|Z|Lunarfall|N|From Aenir.|PRE|35342|
-F Embaari Village |QID|35343|N|Fly back to Embaari Village|ACTIVE|35343|
+
+T The Cryptic Tome of Tailoring|QID|36236|M|43.0,54.9|Z|Lunarfall|N|To Aerun.|ACTIVE|36236|
+A Ameeka, Master Tailor|QID|36262|M|43.0,54.9|Z|Lunarfall|N|From Aerun.|PRE|36236|
+
+T Enchanted Highmaul Bracer|QID|36308|N|To Eileese Shadowsong|Z|Lunarfall|M|50.07,42.10|
+A The Arakkoan Enchanter|QID|36310|N|From Eileese Shadowsong|Z|Lunarfall|M|50.07,42.10|PRE|36308|
+
+F Embaari Village |QID|35343;36262;36310|N|Fly to Embaari Village|ACTIVE|35343;36262;36310|M|47.99,49.92|
 
 T The Young Alchemist|QID|35343|M|55.85,41.15|N|To Abatha.|
 A The Missing Father|QID|35344|M|55.85,41.15|N|From Abatha.|PRE|35343|
@@ -268,11 +284,6 @@ T The Strength of Iron|QID|36309|N|To Haephest in Embaari Village|M|45.2,38.9|AC
 A Father and Son|QID|36311|N|From Haephest|M|45.2,38.9|PRE|36309|
 C Father and Son|QID|36311|N|Speak to Duna at Arbor Glen|M|51.1,37.0|CHAT|
 T Father and Son|QID|36311|N|To Haephest|M|45.2,38.9|
-
-H Lunarfall |QID|36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36236|
-T The Cryptic Tome of Tailoring|QID|36236|M|43.0,54.9|Z|Lunarfall|N|To Aerun.|ACTIVE|36236|
-A Ameeka, Master Tailor|QID|36262|M|43.0,54.9|Z|Lunarfall|N|From Aerun.|PRE|36236|
-F Embaari Village |QID|36262|N|Fly to Embaari Village|ACTIVE|36262|
 
 ;Regular questing resumes from this point.
 T Migrant Workers |QID|34778|N|To Foreman Zipfizzle|M|55.99,32.61|
@@ -575,6 +586,7 @@ T Into Anguish|QID|35032|N|Auto-Complete|
 A The Dark Side of the Moon|QID|34054|PRE|35032|N|Auto-Accept|
 C The Dark Side of the Moon|QID|34054|N|Head up the Terrace of the Stars to Yrel then Velen.|M|29.44,40.59;30.3,43.2|NC|QO|1|CS|
 C The Dark Side of the Moon|QID|34054|N|Wait for the dialog to finish, then kill Arkeddon.|M|30.9,43.9|QO|2|
+; l Shadowmoon Sacrificial Dagger |QID|Not Known|M|30.00,45.34|N|Up the stairs.|
 
 l Ronokk's Belongs |QID|33886|N|Ronokk's Belongs: Lootable object for a cloak and tidy XP.|M|31.30,39.10|RANK|3|
 l Carved Drinking Horn |QID|33569|N|Carved Drinking Horn: Lootable object for Carved Drinking Horn and tidy XP.|M|33.50,39.65|RANK|3|
@@ -700,8 +712,7 @@ T Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.39,19.27|
 
 T Gloomshade Game Hunter|QID|33461|M|37.92,63.49|Z|Lunarfall|N|To Arsenio Zerep just outside your Garrison. Use your Garrison Hearthstone to get you back to your garrison.|U|110560|
 
-T Enchanted Highmaul Bracer|QID|36308|N|To Eileese Shadowsong|Z|Lunarfall|M|45.6,53.2|
-A The Arakkoan Enchanter|QID|36310|N|From Eileese Shadowsong|Z|Lunarfall|M|45.6,53.2|PRE|36308|
+;Enchanting Quests
 T The Arakkoan Enchanter|QID|36310|N|To Arcanist Delath|M|37.4,72.6|
 A Failed Apprentice |QID|36313|N|From Arcanist Delath|M|37.4,72.6|PRE|36310|
 C Failed Apprentice |QID|36313|N|Free Deema|M|37.4,72.6|NC|
