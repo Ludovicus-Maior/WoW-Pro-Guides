@@ -888,7 +888,11 @@ function WoWPro.NextStepNotSticky(k)
 			k = k + 1
 		end
 	end
-	WoWPro:print("WoWPro.NextStepNotSticky=%d: %s [%s] %s",k, WoWPro.action[k], WoWPro.step[k], (WoWPro.questtext[k] and "QO="..WoWPro.questtext[k]) or "" )
+	if k > WoWPro.stepcount then
+	    WoWPro:print("WoWPro.NextStepNotSticky=%d: > EOG",k)
+	else
+	    WoWPro:print("WoWPro.NextStepNotSticky=%d: %s [%s] %s",k, WoWPro.action[k], WoWPro.step[k], (WoWPro.questtext[k] and "QO="..WoWPro.questtext[k]) or "" )
+    end
 	return k
 end
 
