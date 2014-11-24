@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-23 23:47
+-- Who: Emmaleah
+-- Log: move A [Building for Professions] to AFTER you have a blueprint for a profession building :)
+
+-- URL: http://wow-pro.com/node/3587/revisions/27041/view
+-- Date: 2014-11-23 22:32
+-- Who: Emmaleah
+-- Log: Change CN to CS on T The Slavemaster's Demise
+
+-- URL: http://wow-pro.com/node/3587/revisions/27037/view
 -- Date: 2014-11-23 00:13
 -- Who: Emmaleah
 -- Log: correct engineering works level 1 from 93 to 91, add target for {At the End of your Rope]
@@ -342,7 +352,7 @@ U Learn Tailoring skill|QID|36706|U|115357|M|20.47,60.60|P|Tailoring;197|N|After
 ;U Learn Tailoring Emporium Blueprints|QID|36706|U|111816|M|20.47,60.60|P|Tailoring;197|N|After you learn check this step off manually.|
 F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Leatherworking;165|
 F Bladespire Fortress|QID|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Tailoring;197|LEAD|36516|
-T The Slavemaster's Demise|QID|33484|M|18.44,42.12;24.36,37.30|CN|N|To Guse.|
+T The Slavemaster's Demise|QID|33484|M|18.44,42.12;24.36,37.30|CS|N|To Guse.|
 T The Fall of the Warlord|QID|33467|M|25.6,36.4|N|To Snowrunner Rolga.|
 T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel|N|To Durotan.|
 A Ga'nar's Vengeance|QID|32783|M|43.13,41.23|Z|Bladespire Citadel|N|From Durotan.|
@@ -394,13 +404,13 @@ A Wanted: Grondo's Bounty|QID|33918|M|48.94,41.57|N|From the Command Board.|Z|Fr
 T To the Garrison|QID|32796|M|50.16,37.94|N|To Durotan.|Z|Frostwall|
 
 ;upgrade garrison level 2
-A Building For Professions|QID|37669|M|52.45,53.35|N|From Gazlowe.|Z|Frostwall|PRE|35106+36238+36260+36627+36475+36380+36516+36419|
 A Bigger is Better|QID|36567|M|52.53,53.13|N|From Gazlowe.|RANK|2|Z|Frostwall|
 C Bigger is Better|QID|36567|M|52.40,53.49|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This is the quest to upgrade your garrison to level 2.|
 
 t Bigger is Better|QID|36567|M|42.16,55.58|Z|Frostwall|RANK|2|N|To Gazlowe in your new town hall. Now you can upgrade your garrison with a medium and another small building.|
-C Building For Professions|QID|37669|M|52.40,53.49|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This quest doesn't complete if you build a non profession small building (such as storehouse).|
-T Building For Professions|QID|37669|M|52.45,53.35|N|To Gazlowe.|Z|Frostwall|
+A Building For Professions|QID|37669|M|42.16,55.58|N|From Gazlowe.|Z|Frostwall|PRE|35106+36238+36260+36627+36475+36380+36516+36419|
+C Building For Professions|QID|37669|M|42.16,55.58|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This quest doesn't complete if you build a non profession small building (such as storehouse).|
+T Building For Professions|QID|37669|M|42.16,55.58|N|To Gazlowe.|Z|Frostwall|
 
 ;buildings - you just upgraded to lvl 2 garrison which means you have 1 large (barracks) 1 med (your choice-lumber mill, barn,tavern,gladiators Sanctum or trading post)
 ;and one small (all the primary crafting professions plus storehouse) - no salvage yard available yet. lvl 2 plans not available yet - must be finished with gorgrond (specifically [strike while the iron is hot]
