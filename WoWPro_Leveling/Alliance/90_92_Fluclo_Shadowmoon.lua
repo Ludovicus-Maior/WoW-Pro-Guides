@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-11-23 18:25
+-- Who: Fluclo
+-- Log: Updated step names, as they were not showing the sticky steps when they should have been
+
+-- URL: http://wow-pro.com/node/3604/revisions/27039/view
+-- Date: 2014-11-23 18:09
+-- Who: Fluclo
+-- Log: Corrected QID for f Fey Landing (the ID used had already been completed, so wasn't showing flight point step)
+
+-- URL: http://wow-pro.com/node/3604/revisions/27036/view
 -- Date: 2014-11-22 19:20
 -- Who: Fluclo
 -- Log:  Enchanting; Added another Rank 3 kill.
@@ -376,7 +386,7 @@ T Friend of the Exarchs |QID|34788|N|To Exarch Naielle|M|62.48,26.22|
 
 A Supply Drop |QID|35905|N|From Exarch Naielle|PRE|34788|M|62.48,26.22|
 
-f Fey Landing |QID|35552|N|With Vamuun.|M|58.7,31.9|
+f Fey Landing |QID|35444|N|With Vamuun.|M|58.7,31.9|
 
 ;The next block is for Engineers only
 T Gnomish Location Transponder|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|
@@ -411,17 +421,18 @@ A Swamplighter Queen|QID|33808|M|53.60,57.27|N|From Fiona.|
 C Wanted: Maa'run's Hoof |QID|33836|N|Kill and loot Maa'run for her hoof. This is a 3-party group quest.|RANK|3|M|51.8,54.4|
 C Swamplighter Queen|QID|33808|N|Head into Swamplight Cave, then kill and loot Swamplighter Queen for her tail.|M|51.5,55.6|
 
-C Fiona's Solution|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|S|
-C Fiona's Solution|QID|33787|N|Kill and loot the Riot Blossom|QO|3|S|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Kill and loot the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|S|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Kill and loot Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|US|
-C Fiona's Solution|QID|33787|N|Finish killing and looting Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Finish killing and looting the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|US|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Finish killing and looting the Riot Blossom|QO|3|US|M|51.8,58.5|
+C Moonlit Herb|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|S|
+C Riot Blossom|QID|33787|N|Kill and loot the Riot Blossom|QO|3|S|M|51.8,58.5|
+C Swamplighter Drones|QID|33787|N|Kill and loot the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|S|M|51.8,58.5|
+C Twilight Riverbeast |QID|33787|N|Kill and loot Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
+C Moonlit Herb|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|US|
+C Twilight Riverbeast|QID|33787|N|Finish killing and looting Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
+C Swamplighter Drones|QID|33787|N|Finish killing and looting the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|US|M|51.8,58.5|
+C Riot Blossom|QID|33787|N|Finish killing and looting the Riot Blossom|QO|3|US|M|51.8,58.5|
 
 T Fiona's Solution|QID|33787|M|53.59,57.30|N|To Fiona.|
 T Swamplighter Queen|QID|33808|M|53.59,57.30|N|To Fiona.|
+
 A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787;33808|
 C Cooking With Unstable Herbs|QID|33788|QO|1|N|Speak with Fiona|CHAT|M|53.59,57.30|
 C Cooking With Unstable Herbs|QID|33788|QO|2|N|Follow Fiona's steps to complete the elixir.\n\nNice Glow = Moonlit Herb\nSomething Meaty = Riverbeast Heart\nWriggle Around = Riotvine\nDangerous and Toxic = Swamplighter Venom|NC|M|53.59,57.30|
