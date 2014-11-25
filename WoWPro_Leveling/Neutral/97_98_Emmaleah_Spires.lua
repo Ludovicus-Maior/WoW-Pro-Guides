@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-11-24 20:40
+-- Who: Ludovicus
+-- Log: Playing through on Alliance
+
+-- URL: http://wow-pro.com/node/3602/revisions/27017/view
 -- Date: 2014-11-17 13:06
 -- Who: Fluclo
 -- Log: Added 36601 to QID of 36606 in case player has gone off-guide and picked up quest from Shadow-Sage Iskar
@@ -52,6 +57,8 @@ N Beginnings|QID|34653|N|This guide begins at your garrison to take the free fli
 N Bonus Objectives|QID|34653|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 96 to do this guide.|
 N Jumping Games|QID|34653|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle).  I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
+A Arakkoa Exodus|QID|36951|M|42.67,44.73|Z|Lunarfall|N|From the Bulletin Board|FACTION|Alliance|
+A Arakkoa Exodus|QID|34653|M|49.5,41.5|Z|Frostwall|N|From the Command Board|FACTION|Horde|
 F Spires of Arak|QID|36951|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
 F Spires of Arak|QID|34653|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
 
@@ -80,14 +87,14 @@ A A Charming Deception|QID|34756|M|51.62,31.38|N|From Ornekka.|PRE|34659|
 A All Due Respect|QID|35636|M|51.62,31.38|N|From Ornekka.|PRE|34659|
 A Echo Hunters|QID|34805|M|51.57,31.36|N|From Rashad.|PRE|34659|
 C A Charming Deception|QID|34756|M|49.60,38.24|S|NC|N|After you click on the charms, an adherant will attack, the charm gives you an illusion, which you can "dispell" to stun your opponent.|
-C Echo Hunters|QID|34805|M|50.23,39.80|S|N|These are bats, (up in the air), you need ranged to get thier attention.|
+C Echo Hunters|QID|34805|M|50.23,39.80|S|N|These are bats, (up in the air), you need ranged to get their attention.|T|Echo Hunter|
 C All Due Respect|QID|35636|NC|QO|1|M|50.25,36.37|
 C All Due Respect|QID|35636|NC|QO|2|M|50.46,36.85|N|After you find the 2nd item, you will have to fight several adherants while Reshad studies what you have found.|
 T All Due Respect|QID|35636|M|50.27,36.72|N|To Reshad.|
 A Syth's Secret|QID|35668|M|50.27,36.72|N|From Reshad.|PRE|35636|
 C Syth's Secret|QID|35668|CS|M|49.05,41.23;48.47,42.47|T|Sun-Talon Oberyx|N|Go down into the burrow,kill Oberyx and loot the eye.|
 C A Charming Deception|QID|34756|M|49.60,38.24|US|N|After you click on the charms, an adherant will attack, the charm gives you an illusion, which you can "dispell" to stun your opponent.|
-C Echo Hunters|QID|34805|M|50.23,39.80|US|N|These are bats, (up in the air), you need ranged to get thier attention.|
+C Echo Hunters|QID|34805|M|50.23,39.80|US|N|These are bats, (up in the air), you need ranged to get their attention.|
 T A Charming Deception|QID|34756|M|48.59,44.48|N|To Reshad.|
 T Syth's Secret|QID|35668|M|48.59,44.48|N|To Reshad.|
 T Echo Hunters|QID|34805|M|48.59,44.48|N|To Reshad.|
@@ -105,20 +112,21 @@ A Inspecting the Troops|QID|35276|M|45.89,46.37|N|From Jasper Fel.|FACTION|Allia
 A Inspecting the Troops|QID|35275|M|45.90,46.36|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35272|
 
 R Southport|QID|35276|M|45.79,47.08;41.79,50.72;40.41,59.78|CS|N|Over to the coast.|FACTION|Alliance|
+f Southport|QID|35276|M|39.08,61.80|N|To Firn Swiftbreeze|
 T Inspecting the Troops|QID|35276|M|40.00,60.47|N|To Jasper Fel.|FACTION|Alliance|
 A Orders, Commander?|QID|35286|M|39.84,60.78|N|From Lieutenant Willem.|FACTION|Alliance|PRE|35276|
 C Orders, Commander?|QID|35286|M|39.70,60.84|NC|N|Pick your outpost.|FACTION|Alliance|
 T Orders, Commander?|QID|35286|M|39.84,60.78|N|To Lieutenant Willem.|FACTION|Alliance|
-A Outpost specific quest|QID|37327;35699|M|39.84,60.78|N|The quest (and quest giver) is determined by which building you choose. It is from Lieutenant Willam if you choose smugglers or Millie Osgood (inside the taphouse) if you choose brewery.|FACTION|Alliance|PRE|35286|
-;A Peace Offering|QID|35699|N|From Millie Osgood.| -- brewery
-;A Befriending the Locals|QID|37327|N|From Lieutenant Willem - smugglers den
+A Outpost specific quest|QID|37327;35699|M|39.84,60.78|N|The quest (and quest giver) is determined by which building you choose. It is from Lieutenant Willam (brewery) or Millie Osgood (smugglers den).|FACTION|Alliance|PRE|35286|
+;A Peace Offering|QID|35699|N|From Millie Osgood.| -- smugglers den
+;A Befriending the Locals|QID|37327|N|From Lieutenant Willem -
 
 R Axefall|QID|35275|M|40.06,44.04|N|On the other side of the mountain.|FACTION|Horde|
 T Inspecting the Troops|QID|35275|M|40.06,44.04|N|To Shadow Hunter Ukambe.|FACTION|Horde|
 A Orders, Commander?|QID|35277|M|40.19,43.46|N|From Taskmaster Gornek.|FACTION|Horde|PRE|35275|
 C Orders, Commander?|QID|35277|M|40.17,43.39|NC|N|Pick your outpost.|FACTION|Horde|
 T Orders, Commander?|QID|35277|M|40.18,43.51|N|To Taskmaster Gornek.|FACTION|Horde|
-A Outpost specific quest|QID|37326;35697|M|40.19,43.46|N|The quest (and quest giver) is determined by which building you choose. It is from Taskmaster Gornek (brewery) or Provisioner Galgar(smugglers den}.|FACTION|Horde|PRE|35277|
+A Outpost specific quest|QID|37326;35697|M|40.19,43.46|N|The quest (and quest giver) is determined by which building you choose. It is from Taskmaster Gornek (brewery) or Provisioner Galgar(smugglers den).|FACTION|Horde|PRE|35277|
 ;A Peace Offering|QID|35697|M|40.05,43.18|N|From Provisioner Galgar.|-- smugglers den
 ;A Befriending the Locals|QID|37326|N|From Taskmaster Gornek -- brewery
 
@@ -175,18 +183,17 @@ A Surviving in a Savage Land|QID|35550|M|36.86,56.74|N|From Shadow Hunter Ukambe
 H Southport|QID|35549|M|36.8,56.8|FACTION|Alliance|PRE|35482|
 H Axefall|QID|35550|M|36.86,56.74|FACTION|Horde|PRE|36183|
 
-T Honoring a Hero|QID|35549|M|36.88,60.04|N|To Lieutenant Willem.|FACTION|Alliance|
+T Honoring a Hero|QID|35549|M|39.88,60.85|N|To Lieutenant Willem.|FACTION|Alliance|
 A For Old Times Sake|QID|36353|M|39.98,60.65|N|To/From Admiral Taylor who wants to come join your garrison forces.|FACTION|Alliance|PRE|35549|
 T Surviving in a Savage Land|QID|35550|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
 
 f Southport|QID|35293|M|39.78,61.87;39.08,61.79|CS|N|At Firn Swiftbreeze.|FACTION|Alliance|
-F Veil Terokk|QID|37296|M|39.08,61.80|N|At Firn Swiftbreeze.|FACTION|Alliance|ACTIVE|37296|
 F Veil Terokk|QID|37327|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|ACTIVE|37297|
 t Befriending the Locals|QID|37326;37327|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
 C Peace Offering|QID|35697;35699|M|43.90,48.90|CHAT|N|Offer a peace offering to Shadow-Sage Iksar.|
 t Peace Offering|QID|35697;35699|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
 
-A A Lack of Wasps|QID|37296|M|43.90,48.90|N|From Dusk-Seer Irizzar.|PRE|35697+35699|
+A A Lack of Wasps|QID|37296|M|43.90,48.90|N|From Dusk-Seer Irizzar.|PRE|35697+35699+37326+37327|
 C A Lack of Wasps|QID|37296|M|44.15,47.54|
 T A Lack of Wasps|QID|37296|M|43.90,48.91|N|To Dusk-Seer Irizzar.|
 A Not Here, Not Now|QID|37328;37329;37330;37331|M|43.90,48.91|N|From Dusk-Seer Irizzar.|PRE|37296|
@@ -204,10 +211,10 @@ C Ikky's Egg|QID|34838|M|45.39,36.70|NC|N|Click on the egg to help him hatch.|
 T Ikky's Egg|QID|34838|M|45.39,36.70|N|To Ikky.|
 A Baby Bird|QID|34886|M|45.39,36.70|N|From Ikky.|PRE|34838|
 C Mother of Thorns|QID|34885|M|44.22,38.10|QO|1|S|
-C Baby Bird|QID|34886|M|44.37,37.71|NC|S|
+C Baby Bird|QID|34886|M|44.37,37.71|NC|S|N|Crawling on the ground|
 C Mother of Thorns|QID|34885|M|40.39,36.56|QO|2|
 C Mother of Thorns|QID|34885|M|44.22,38.10|QO|1|US|
-C Baby Bird|QID|34886|M|44.37,37.71|NC|US|
+C Baby Bird|QID|34886|M|44.37,37.71|NC|US|N|Crawling on the ground|
 T Baby Bird|QID|34886|M|45.40,36.69|N|To Ikky.|
 
 C Last of the Talonpriests|QID|34827|NC|U|112100|M|48.11,34.60|
@@ -221,9 +228,9 @@ C Ishaal's Orb|QID|34828|NC|M|48.08,28.47|
 C Egg Punt|QID|36425|NC|US|M|47.92,28.52|
 T Egg Punt|QID|36425|M|47.54,29.24|N|To UI Alert|
 C New Neighbors|QID|34829|US|M|45.43,29.96|
+T New Neighbors|QID|34829|M|48.02,34.75|N|To Talonpriest Ishaal.|
 T Ishaal's Orb|QID|34828|M|48.02,34.75|N|To Talonpriest Ishaal.|
 A Behind the Veil|QID|34830|M|48.02,34.75|N|From Talonpriest Ishaal.|PRE|34828|
-T New Neighbors|QID|34829|M|48.02,34.75|N|To Talonpriest Ishaal.|
 
 R Veil Akraz|QID|34830|M|44.73,26.98|
 C Behind the Veil|QID|34830|NC|U|112099|M|44.54,23.73|N|Stand on the porch steps and drink the elixer.|
@@ -250,12 +257,12 @@ C Sol Sisters|QID|35259|QO|1|M|34.67,30.06;34.15,28.31;32.86,28.50|CS|N|When you
 C Sol Sisters|QID|35259|QO|2|M|33.42,25.72;32.60,26.02;32.07,25.71|CS|N|Out of the cave and continue north to the ramp up to the top level. Go north at the top level and into the cave with the other sister.|
 T Sol Sisters|QID|35259|M|31.91,25.49|N|To Inactive Apexis Destroyer.|
 A Shot-Caller|QID|35261|M|31.91,25.49|N|From Inactive Apexis Destroyer.|PRE|35259|
-C Hardly Working|QID|35260|U|113084|NC|US|M|33.51,25.39|N|Back out of the cave and go southeast on this same level to find Overseer Akrath.|
 C Legacy of the Apexis|QID|35258|US|M|35.34,25.86|
 C Shot-Caller|QID|35261|M|33.35,30.14|T|Overseer Akrath|N|The overseer drops the apexis interface.|
 T Shot-Caller|QID|35261|M|35.52,32.06|N|To Overseer's Chair.|
 A Hot Seat|QID|35273|M|35.52,32.06|N|From Overseer's Chair.|PRE|35261|
 C Hot Seat|QID|35273|NC|M|35.48,32.03|N|Hop in the chair and use the abilities to kill the Destroyers and Sol-Shapers.|
+C Hardly Working|QID|35260|U|113084|NC|US|M|33.51,25.39|N|The outcasts you are freeing and the apexis guardians exist on all three levels.|
 T Hot Seat|QID|35273|M|36.95,24.44|N|To Kura the Blind.|
 T Legacy of the Apexis|QID|35258|M|36.85,24.52|N|To Darkscryer Raastok.|
 A Control is King|QID|35634|M|36.83,24.53|N|From Darkscryer Raastok.|PRE|35273+35258|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-24 20:37
+-- Who: Ludovicus
+-- Log: Turn in [We Need An Army] before doing [Winds of Change]
+
+-- URL: http://wow-pro.com/node/3587/revisions/27042/view
 -- Date: 2014-11-23 23:47
 -- Who: Emmaleah
 -- Log: move A [Building for Professions] to AFTER you have a blueprint for a profession building :)
@@ -185,8 +190,8 @@ C Build Your Barracks|QID|34461|M|52.31,53.57|NC|QO|3|N|Click on the table besid
 C Build Your Barracks|QID|34461|M|58.02,49.34|NC|QO|5|N|Follow Gazlowe over to the spot, and click on the scroll in front of the door to finalize your plot.|Z|Frostwall|
 T Build Your Barracks|QID|34461|M|57.40,48.39|Z|Frostwall|N|To Gazlowe. Finalizing your garrison sent you to your graveyard. Run back inside to turn in.|
 A We Need An Army|QID|34861|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
-A Winds of Change|QID|34462|M|53.85,54.81|N|From Warmaster Zog who is inside your Town Hall.|Z|Frostwall|
 T We Need An Army|QID|34861|M|53.85,54.81|N|To Warmaster Zog.|Z|Frostwall|
+A Winds of Change|QID|34462|M|53.85,54.81|N|From Warmaster Zog who is inside your Town Hall.|Z|Frostwall|
 C Winds of Change|QID|34462|M|50.19,60.01;55.27,62.12;57.32,62.90|CS|NC|N|He is just inside the cave.|Z|Frostfire Ridge|
 T Winds of Change|QID|34462|M|53.87,54.89|N|To Warmaster Zog.|Z|Frostwall|
 A Mission Probable|QID|34775|M|53.87,54.89|N|From Warmaster Zog.|Z|Frostwall|

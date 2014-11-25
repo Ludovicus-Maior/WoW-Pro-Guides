@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2014-11-24 21:08
+-- Who: Fluclo
+-- Log: Corrected |S| tag to |US|
+
+-- URL: http://wow-pro.com/node/3614/revisions/27038/view
 -- Date: 2014-11-23 15:36
 -- Who: Ludovicus
 -- Log: Finished play-through, garrison branch.
@@ -196,12 +201,12 @@ K Vizier Vorgorsh|QID|34979|M|68.6,82.6|QO|1|T|Vizier Vorgorsh|N|Upstairs, in th
 K Vizier Cromaug|QID|34979|M|66.2,80.8|QO|3|T|Vizier Cromaug|N|Up another flight in the building.|
 K Vizier Zulmork|QID|34979|M|67.14,77.04|QO|2|T|Vizier Zulmork|
 C Supply Recovery|QID|34977|M|67.0,80.0|QO|1|N|Scattered throughout the area.|US|
-C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|S|
+C Prized Repossessions|QID|34978|M|66.10,80.70;68.55,82.30;69.68,71.50;70.67,76.99;65.25,78.85;68.15,80.34;70.45,79.64;67.65,77.74;69.01,74.24;64.56,69.03;68.01,68.88|CN|QO|1|N|Gordunni Bashers or Cleavers|US|
 t Punching Through|QID|34979|N|To Miall, who is next to you|
 t Prized Repossessions|QID|34978|N|To Miall, who is next to you|
 t Supply Recovery|QID|34977|N|To Miall, who is next to you|
 
-A The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|
+A The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|PRE|34979;34978;34977|
 K Witch Lord Morkurk|QID|34980|M|64.0,81.8|QO|1|T|Witch Lord Morkurk|U|112307|
 T The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|
 A The Only Way to Travel|QID|34981|N|To Miall, who is next to you|
