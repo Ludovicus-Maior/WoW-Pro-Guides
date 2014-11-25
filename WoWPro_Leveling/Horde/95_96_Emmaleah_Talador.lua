@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2014-11-25 11:50
+-- Who: Emmaleah
+-- Log: Change final step to "D"
+
+-- URL: http://wow-pro.com/node/3598/revisions/27046/view
+-- Date: 2014-11-25 11:34
+-- Who: Emmaleah
+-- Log: Fixed QID Trouble in the Mines, added some pre/lead/active tags so things would flow better. Removed reference to follower at end of guide. (not sure what that was from...)
+
+-- URL: http://wow-pro.com/node/3598/revisions/27013/view
 -- Date: 2014-11-16 19:50
 -- Who: AyaJulia
 -- Log: Corrected location of Pure Crystal Dust and removed note that location needs to be corrected.
@@ -36,11 +46,12 @@ return [[
 ;Quests on wowhead not in this guide (that arent alliance, level 100, garrison support or tracking quests)
 ;As the Smoke Rises 34685/They came from above 36843  is alliance version of the same/leadin to burning sky will test to see if you do the stuff for seer malorne first you get this?
 ;Shreader Manual 34948 leadin to decommissioned mission probably from Gazlowe. probably if you come back to camp without doing decomissioned mission??
+L Level 94 |QID|34661|LVL|94|N|This guide requires a minimum level of 94 to do.|
 
 N Treasure|QID|34681|N|The guide mentions some but not nearly all the treasure to be found in the zone. At some point while questing you will recieve a treasure map that when you use it shows all the potential treasure on your map.|
 N Bonus Objectives|QID|34681|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100.|
-
 N Starts in Vol'jin's Pride|QID|34681|N|If you aren't there, Brom, the flightmaster at your garrison offers a free flight for your first trip.|
+
 A Legacy of the Ancients|QID|36385|M|46.88,84.88|O|U|115467|BUILDING|Lumbermill;41;138|N|Accepted from Barkskin Tome|
 T It's a Matter of Strategy|QID|34681|M|71.06,29.74|N|To Foreman Grobash.|
 f Vol'jin's Pride|QID|34681|M|70.07,29.4|N|At Mo'Jimba.|;currently you get this and 2 other FPs automatically
@@ -53,21 +64,21 @@ A Foreman Grobash's Quest|QID|34569;34632|M|71.06,29.74|N|This quest will vary d
 h Vol'jin's Pride|QID|34683|M|71.97,30.02|Z|Talador|N|At Paoni Softhoof.|
 
 ;choose arsenal
-t The Quarry Quandary|QID|34569|M|71.9,29.4|N|To Morketh Bladehowl.|
+T The Quarry Quandary|QID|34569|M|71.9,29.4|N|To Morketh Bladehowl.|
 A Unleashed Steel|QID|35102|M|71.9,29.4|PRE|34569|N|From Morketh Bladehowl.|
 T Unleashed Steel|QID|35102|M|70.90,30.49|N|To Morketh Bladehowl.|
 A Out of Jovite|QID|34577|M|70.90,30.49|PRE|35102|N|From Morketh Bladehowl.|
 A Iridium Recovery|QID|34576|M|70.90,30.49|PRE|35102|N|From Morketh Bladehowl.|
 A Gas Guzzlers|QID|34579|M|70.90,30.49|PRE|35102|N|From Morketh Bladehowl.|
-R Kuuro's Claim|QID|34576|M|74.03,22.68|
+R Kuuro's Claim|QID|34576|M|74.03,22.68|ACTIVE|34576|
 C Iridium Recovery|QID|34576|M|75.4,22|S|N|Look up, these are non-agro critters flying above you.|
-C Out of Jovite|QID|34577|M|75.4,22|NC|S|
+C Out of Jovite|QID|34577|M|75.4,22|NC|S|N|These are green crystals sticking out the ground and walls.|
 C Gas Guzzlers|QID|34579|M|75.4,22|U|111910|N|After you kill the goren, use your 'Goren Gas Extractor' on them.|S|
-A Pure Crystal Dust|QID|34576|M|78.11,14.8|N|More treasure, it's up the ramp and at the end of the room.|
+A Pure Crystal Dust|QID|34576|M|78.11,14.8|N|More treasure, it's up the ramp and at the end of the room.|ACTIVE|34576|
 C Gas Guzzlers|QID|34579|M|75.4,22|U|111910|N|After you kill the goren, use your 'Goren Gas Extractor' on them.|US|
 C Iridium Recovery|QID|34576|M|75.4,22|US|N|Look up, these are non-agro critters flying above you.|
-C Out of Jovite|QID|34577|M|75.4,22|NC|US|N|These are green rocks lying around.|
-H Vol'jin's Pride|QID|34576|M|75.4,22|N|Save your self a minute or two and hearth back.|
+C Out of Jovite|QID|34577|M|75.4,22|NC|US|N|These are green crystals sticking out the ground and walls.|
+H Vol'jin's Pride|QID|34576|M|75.4,22|N|Save your self a minute or two and hearth back.|ACTIVE|34576|
 T Out of Jovite|QID|34577|M|70.90,30.49|N|To Morketh Bladehowl.|
 T Iridium Recovery|QID|34576|M|70.90,30.49|N|To Morketh Bladehowl.|
 T Gas Guzzlers|QID|34579|M|70.90,30.49|N|To Morketh Bladehowl.|
@@ -92,7 +103,7 @@ T Forming the Scroll|QID|34635|M|81.74,27.27|N|To Magister Krelas.|
 T Gathering the Spark|QID|34636|M|81.74,27.27|N|To Magister Krelas.|
 A Next Steps|QID|34874|PRE|34634;34635;34636|M|81.74,27.27|N|From Magister Krelas.|
 R Khadgar's Tower|QID|34874|M|83.59,30.91|N|Run to the portal at Khadgar's Tower.|ACTIVE|34874|
-R Zangarra|QID|34874|M|83.59,30.91|N|Take the portal (which flys you across the gorge) to Zangarra.|ACTIVE|34874|
+R Zangarra|QID|34874|M|80.42,25.32|CC|N|Take the portal (which flys you across the gorge) to Zangarra.|ACTIVE|34874|
 F Vol'jin's Pride|QID|34874|ACTIVE|34874|M|80.42,25.32|N|Fly back to Vol'jin's Pride at Dominic Arlington.|
 T Next Steps|QID|34874|M|71.34,29.60|N|To Magister Krelas.|
 A The Foot of the Fortress|QID|34878|PRE|34874|M|71.34,29.60|N|From Magister Krelas.|
@@ -243,16 +254,16 @@ A Prized Repossessions|QID|34858|M|68.77,70.52|PRE|34840|N|From Morketh Bladehow
 A Supply Recovery|QID|34860|M|68.77,70.52|PRE|34840|N|From Morketh Bladehowl.|
 C Supply Recovery|QID|34860|S|M|69.04,82.47|NC|N|The boxes are scattered around the area.|
 C Prized Repossessions|QID|34858|S|M|69.04,82.47|N|Kill ogres as you travel towards the other objectives.|
-C Punching Through|QID|34855|QO|1|M|68.55,82.91|
-C Punching Through|QID|34855|QO|2|M|67.05,77.06|
-C Punching Through|QID|34855|QO|3|M|66.26,80.97|
+C Punching Through|QID|34855|QO|1|M|68.55,82.91|T|Vizier Vorgorsh|
+C Punching Through|QID|34855|QO|2|M|67.05,77.06|T|Vizier Zulmork|
+C Punching Through|QID|34855|QO|3|M|66.26,80.97|Vizier Cromaug|
 C Supply Recovery|QID|34860|US|M|69.04,82.47|
 C Prized Repossessions|QID|34858|US|M|69.04,82.47|
 T Punching Through|QID|34855|M|69.04,82.47|N|To Morketh Bladehowl (who is following you around).|
 T Prized Repossessions|QID|34858|M|69.04,82.47|N|To Morketh Bladehowl.|
 T Supply Recovery|QID|34860|M|69.04,82.47|N|To Morketh Bladehowl.|
 A The Lord of the Gordunni|QID|34870|M|69.04,82.47|PRE|34855;34858;34860|N|From Morketh Bladehowl.|
-C The Lord of the Gordunni|QID|34870|U|112307|M|64.49,81.75|N|Every so often a message will appear on your screen telling you to use your 'emergency rocket pack' to avoid the Witch Lord's nasty purple ground goo.|
+C The Lord of the Gordunni|QID|34870|U|112307|M|64.49,81.75|N|Every so often a message will appear on your screen telling you to use your 'emergency rocket pack' to avoid the Witch Lord's nasty purple ground goo.|T|Witch Lord Morkurk|
 T The Lord of the Gordunni|QID|34870|M|64.48,81.64|N|To Morketh Bladehowl.|
 A The Only Way to Travel|QID|34971|M|64.48,81.64|PRE|34870|N|From Morketh Bladehowl.|
 T The Only Way to Travel|QID|34971|M|71.19,29.91|N|To Morketh Bladehowl.This rewarded a book that is currency for one small or medium level 2 building plan in ashran (after making the purchase) the rest of the plans are sold in your garrison for gold. (with the exception of salvage yard)|
@@ -426,8 +437,8 @@ T Sher'KHAAAAAAANNNN!|QID|33884|M|36.19,65.06|RANK|3|N|To Caleb.|
 T And the Elekk Too?!|QID|33944|M|36.19,65.06|RANK|3|N|To Caleb.|
 
 R Jorune Mine|QID|34399|M|36.77,67.17;40.10,66.52;43.40,67.02;49.42,57.64|CS|N|Follow the road (and the waypoints) to Jorune Mine.|RANK|3|
-R Jorune Mine (2)|QID|34399|M|42.79,74.44;43.40,67.02;49.42,57.64|CS|N|Follow the road (and the waypoints) to Jorune Mine.|
-A Trouble In The Mine|QID|3439|M|49.90,56.13|N|From Ageilaa.|
+R Jorune Mine|QID|34399|M|42.79,74.44;43.40,67.02;49.42,57.64|CS|N|Follow the road (and the waypoints) to Jorune Mine.|LEAD|33884|
+A Trouble In The Mine|QID|34399|M|49.90,56.13|N|From Ageilaa.|
 A Frenzied Manafeeders|QID|34400|M|49.90,56.13|N|From Ageilaa.|
 T Every Bit Counts|QID|34710|M|49.90,56.13|N|To Ageilaa.|
 C Frenzied Manafeeders|QID|34400|U|110468|S|M|50.20,52.06|N|Fight the moths down to 35% (you will see an emote) then use the Dissapation Crystal(it has a very short range, so stand close).|
@@ -448,7 +459,7 @@ T Kaelynara Sunchaser|QID|34447|M|51.62,50.45|N|To Vindicator Doruu.|
 C Frenzied Manafeeders|QID|34400|U|110468|US|M|50.20,52.06|N|Fight the moths down to 35% (you will see an emote) then use the Dissapation Crystal(it has a very short range, so stand close).|
 T Frenzied Manafeeders|QID|34400|M|49.89,56.14|N|To Ageilaa.|
 
-H Vol'jin's Pride|QID|34706|M|49.89,56.14|N|Return to pick up your follower and then you are done with Talador.|
+H Vol'jin's Pride|QID|34706|M|49.89,56.14|N|Hearth and turn in the final quest and then you are done with Talador.|
 T Come Together|QID|34706|M|71.84,29.75|N|To Knight-Lord Dranarus.|
 A News from Spires of Arak|LVL|96|QID|35537|M|71.25,29.94|N|From Shadow Hunter Kajassa.|
 H Town Hall|QID|35537|M|71.84,29.75|N|Back to your garrison, where the Spires of Arak guide will start.|U|110560|
@@ -461,7 +472,7 @@ T Clearing the Garden|QID|34193|M|43.50,83.12|Z|Frostwall|N|To Tarnon.|
 N Herb Garden|QID|34653|M|48.11,89.25|Z|Frostwall|N|Herb gardens (like the mine) can be harvested once per day. \nYou can immediately buy the level 2 plans in your town hall and upgrade, however it will take an hour to complete.  \nIf you have a level 2 or 3 herb garden and you assign Shadow Hunter Rala (Picked up in Frostfire questing) or some other follower (recruited from the inn with herbalism skill) you will increase your output. He only needs to be assigned while you are harvesting, you can unasssign him and send on missions after.|
 C Flight to Spires|QID|34653|M|45.67,50.12|Z|Frostwall|CHAT|N|At Bron Skyhorn. Choose the chat option, not the actual flightpath.|
 
-N Spires of Arak|QID|34653|M|45.67,50.12|Z|Frostwall|N|Check this step off manually and the next guide should load.|
+D Spires of Arak|QID|34653|M|45.67,50.12|Z|Frostwall|N|Check this step off manually and the next guide should load.|
 ]]
 
 end)

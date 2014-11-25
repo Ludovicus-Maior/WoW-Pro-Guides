@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-11-25 13:57
+-- Who: Ludovicus
+-- Log: PLayed through [A Worthy Vessel]
+
+-- URL: http://wow-pro.com/node/3602/revisions/27044/view
 -- Date: 2014-11-24 20:40
 -- Who: Ludovicus
 -- Log: Playing through on Alliance
@@ -130,9 +135,6 @@ A Outpost specific quest|QID|37326;35697|M|40.19,43.46|N|The quest (and quest gi
 ;A Peace Offering|QID|35697|M|40.05,43.18|N|From Provisioner Galgar.|-- smugglers den
 ;A Befriending the Locals|QID|37326|N|From Taskmaster Gornek -- brewery
 
-A Wanted: Keeho's Severed Paw|QID|35674|M|39.46,61.66|N|From Wanted Poster inside the building.|FACTION|Alliance|PRE|35286|
-A Wanted: Spineslicer's Husk|QID|35675|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|
-A Wanted: Venombarb|QID|35676|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|
 h Southport|QID|35293|M|40.12,61.49|N|At Elria Willowfall.|FACTION|Alliance|
 A Old Friends|QID|35293|M|39.79,60.68|N|From Jasper Fel.|FACTION|Alliance|PRE|35286|
 A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Alliance|PRE|35286|
@@ -203,10 +205,10 @@ A Talon Watch|QID|34998|M|45.87,45.74|N|From Reshad.|PRE|35611|
 A The Kaliri Whisperer|QID|34884|M|45.87,45.74|N|From Reshad.|PRE|35611|
 A Last of the Talonpriests|QID|34827|M|45.93,45.78|N|From Shadow-Sage Iskar.|
 
-R Shadowglade|QID|34884|M|45.42,36.32|N|Run to Shadowglade to find Skizzik.|ACTIVE|34884|
+R Shadowglade|QID|34886|M|45.42,36.32|N|Run to Shadowglade to find Skizzik.|
 C The Kaliri Whisperer|QID|34884|M|45.42,36.32|CHAT|
-A Mother of Thorns|QID|34885|M|45.42,36.32|N|From Skizzik.|ACTIVE|34884|
-A Ikky's Egg|QID|34838|M|45.39,36.70|N|From a Kaliri Egg.|ACTIVE|34884|
+A Mother of Thorns|QID|34885|M|45.42,36.32|N|From Skizzik.|
+A Ikky's Egg|QID|34838|M|45.39,36.70|N|From a Kaliri Egg.|
 C Ikky's Egg|QID|34838|M|45.39,36.70|NC|N|Click on the egg to help him hatch.|
 T Ikky's Egg|QID|34838|M|45.39,36.70|N|To Ikky.|
 A Baby Bird|QID|34886|M|45.39,36.70|N|From Ikky.|PRE|34838|
@@ -252,7 +254,7 @@ T Power Unearthed|QID|35257|M|36.85,24.54|N|To Darkscryer Raastok.|
 A Hardly Working|QID|35260|M|36.85,24.54|N|From Darkscryer Raastok.|PRE|35257|
 A Legacy of the Apexis|QID|35258|M|36.85,24.54|N|From Darkscryer Raastok.|PRE|35257|
 C Legacy of the Apexis|QID|35258|S|M|35.34,25.86|N|The excavation has 3 levels, ground, midway up where the first Sol Sister is located, and the top where the other sol sister is and the final two quests take place.|
-C Hardly Working|QID|35260|U|113084|NC|S|M|33.51,25.39|N|The outcasts you are freeing and the apexis guardians exist on all three levels.|
+C Hardly Working|QID|35260|U|113084|NC|S|M|33.51,25.39|N|The outcasts you are freeing and the apexis guardians exist on all three levels. Visit the cave at ground level first!|
 C Sol Sisters|QID|35259|QO|1|M|34.67,30.06;34.15,28.31;32.86,28.50|CS|N|When you enter the cave, you have to pass thru a room before you get to the one she is in.|
 C Sol Sisters|QID|35259|QO|2|M|33.42,25.72;32.60,26.02;32.07,25.71|CS|N|Out of the cave and continue north to the ramp up to the top level. Go north at the top level and into the cave with the other sister.|
 T Sol Sisters|QID|35259|M|31.91,25.49|N|To Inactive Apexis Destroyer.|
@@ -262,7 +264,7 @@ C Shot-Caller|QID|35261|M|33.35,30.14|T|Overseer Akrath|N|The overseer drops the
 T Shot-Caller|QID|35261|M|35.52,32.06|N|To Overseer's Chair.|
 A Hot Seat|QID|35273|M|35.52,32.06|N|From Overseer's Chair.|PRE|35261|
 C Hot Seat|QID|35273|NC|M|35.48,32.03|N|Hop in the chair and use the abilities to kill the Destroyers and Sol-Shapers.|
-C Hardly Working|QID|35260|U|113084|NC|US|M|33.51,25.39|N|The outcasts you are freeing and the apexis guardians exist on all three levels.|
+C Hardly Working|QID|35260|U|113084|NC|US|M|33.51,25.39|N|The outcasts you are freeing and the apexis guardians exist on all three levels. Visit the cave at ground level first!|
 T Hot Seat|QID|35273|M|36.95,24.44|N|To Kura the Blind.|
 T Legacy of the Apexis|QID|35258|M|36.85,24.52|N|To Darkscryer Raastok.|
 A Control is King|QID|35634|M|36.83,24.53|N|From Darkscryer Raastok.|PRE|35273+35258|
@@ -273,6 +275,9 @@ H Axefall|QID|37328;37330|M|36.99,24.63|N|If you hearthstone isnt up or you didn
 T Not Here, Not Now|QID|37329;37331|M|39.89,60.84|N|To Lieutenant Willem.|FACTION|Alliance|
 A Attempted Murder|QID|35915|M|39.65,60.85|N|From Hulda Shadowblade.|PRE|37329|FACTION|Alliance|
 A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37331|FACTION|Alliance|
+A Wanted: Keeho's Severed Paw|QID|35674|M|39.46,61.66|N|From Wanted Poster inside the building.|FACTION|Alliance|PRE|35286|
+A Wanted: Spineslicer's Husk|QID|35675|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|
+A Wanted: Venombarb|QID|35676|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|
 F Veil Terokk|QID|35634|M|39.07,61.80|N|At Firn Swiftbreeze.|FACTION|Alliance|
 
 T Not Here, Not Now|QID|37328;37330|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
@@ -309,12 +314,13 @@ C Sons of Sethe|QID|35002|M|66.77,47.42|
 C Gaze of the Raven God|QID|35001|U|117396|NC|US|M|65.78,43.67|
 T Sons of Sethe|QID|35002|M|66.81,51.39|N|To the Offering Bowl.|
 T Gaze of the Raven God|QID|35001|M|66.59,51.69|N|To the stand to Place Eye of Anzu.|
-A The False Talon King|QID|35011|M|66.77,51.58|N|From Talon Guard Kurekk.|PRE|35001;35011|
-A Servants of a Dead God|QID|35004|M|66.83,51.72|N|From Anzu, (who is perched on a broken piller beside/above the alter).|PRE|35001;35011|
-A Ritual Severance|QID|35003|M|66.83,51.72|N|From Anzu.|PRE|35001;35011|
+
+A The False Talon King|QID|35011|M|66.77,51.58|N|From Talon Guard Kurekk.|PRE|35001;35002|
+A Servants of a Dead God|QID|35004|M|66.83,51.72|N|From Anzu, (who is perched on a broken piller beside/above the alter).|PRE|35001;35002|
+A Ritual Severance|QID|35003|M|66.83,51.72|N|From Anzu.|PRE|35001;35002|
 C Servants of a Dead God|QID|35004|S|M|67.46,38.17|
 C Southern Ritual|QID|35003|QO|1|NC|M|68.96,41.76|N|Run all over the circle until you stomp it out.|
-C The False Talon King|QID|35011|M|70.16,41.17|
+C The False Talon King|QID|35011|M|70.05,40.91|
 C Central Ritual|QID|35003|QO|2|NC|M|67.57,40.62|
 C Northern Ritual|QID|35003|QO|3|NC|M|66.93,38.24|
 C Servants of a Dead God|QID|35004|US|M|67.46,38.17|
@@ -339,7 +345,7 @@ C Terokk's Fall|QID|35895|QO|2;3|M|66.95,45.32|N|Use the "1" key to kill the out
 C Use Anzu's Eye|QID|35895|NC|QO|4|M|66.95,45.32|
 T Terokk's Fall|QID|35895|M|46.50,46.67|N|To Reshad.|
 A A Worthy Vessel|QID|36059|M|46.58,46.56|PRE|35895|N|From Shadow-Sage Iskar.|
-C A Worthy Vessel|QID|36059|M|46.63,46.22|N|Tell Terokk you are ready to fight, and then fight until he is nearly dead to convince him of your worthiness.|T|Terokk|
+C A Worthy Vessel|QID|36059|M|46.63,46.73|CHAT|N|Tell Terokk's Effigy you are ready to fight, and then fight until he is nearly dead to convince him of your worthiness.|T|Terokk|
 T A Worthy Vessel|QID|36059|M|46.62,46.75|N|To Shade of Terokk.|
 A The Avatar of Terokk|QID|35896|M|46.62,46.75|PRE|36059|N|From Shade of Terokk.|
 C The Avatar of Terokk|QID|35896|M|30.40,27.07|CHAT|N|Tell Terokk you are ready to start. Use the "1" ability and everything in front of you dies, until you meet Kargath (who is a bit more of a challenge).|
