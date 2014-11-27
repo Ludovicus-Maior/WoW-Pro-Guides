@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2014-11-26 14:17
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3613/revisions/27014/view
 -- Date: 2014-11-16 23:35
 -- Who: Fluclo
 -- Log: +Demonic Cache
@@ -166,7 +170,7 @@ f Deeproot|QID|35213|N|From Rangari Nogo|M|46.46,76.60|ACTIVE|35213|
 C The Infested|QID|35214|N|Kill the Infested Orcs|S|
 C The Razorbloom|QID|35213|N|Inspect the corpse of Lera Ashtoes|QO|1|NC|M|47.38,73.41|
 C The Razorbloom|QID|35213|N|Inspect the corpse of Razzlebeard|QO|3|NC|M|47.60,72.78|
-A The Voice of Iyu |QID|35215|N|From Razzlebeard's Report|M|47.60,72.78|
+A The Voice of Iyu |QID|35215|N|From Razzlebeard's Report|M|47.60,72.78|ACTIVE|35213|
 C The Razorbloom|QID|35213|N|Inspect the corpse of Nori Sootstash|QO|2|NC|M|48.13,73.56|
 C The Voice of Iyu |QID|35215|N|Slay the Voice of Iyu|T|Voice of Iyu|M|49.43,71.64|
 A Super Seeds |QID|35216|N|From Enriched Seeds|ACTIVE|35215|M|49.46,70.95|
