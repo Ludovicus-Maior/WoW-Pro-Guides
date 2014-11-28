@@ -732,10 +732,6 @@ function WoWPro:RowUpdate(offset)
 			row.targetbutton:Hide() 
 		end
 		
-		-- Setting the zone for the coordinates of the step --
-		zone = zone or strsplit("-(",WoWPro.Guides[GID].zone)
-		row.zone = strtrim(zone)
-
 		WoWPro.rows[i] = row
 		
 		k = k + 1

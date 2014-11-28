@@ -749,6 +749,7 @@ function WoWPro:CreateNextGuideDialog()
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
 		WoWProCharDB.Guide[WoWProDB.char.currentguide] = nil
+		WoWPro:Print("Guide Reset from UI, WoWPro Version %s.", WoWPro.Version);
 		WoWPro:LoadGuide()
 		WoWPro.NextGuideDialog:Hide()
 	end) 

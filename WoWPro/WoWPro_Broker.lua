@@ -204,7 +204,7 @@ end
 
 
 function WoWPro:UpdateGuide(From)
-    WoWPro:dbp("Signaled for UpdateGuide from %s",tostring(From))
+    WoWPro:print("Signaled for UpdateGuide from %s",tostring(From))
     WoWPro:SendMessage("WoWPro_UpdateGuide",From)
 end
 
@@ -222,23 +222,23 @@ function WoWPro.UpdateGuideReal(From)
 	    WoWPro:dbp("UpdateGuideReal(): Hey! No guide, no update.")
 	    return
 	end
-	WoWPro:dbp("Running: UpdateGuideReal()")
+	WoWPro:print("Running: UpdateGuideReal(), WoWPro Version %s.", WoWPro.Version);
 	local GID = WoWProDB.char.currentguide
 	local offset = WoWPro.GuideOffset
 	WoWPro.GuideOffset = nil
 	
 	-- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
 	if MaybeCombatLockdown() then
-	    WoWPro:dbp("Suppresssed guide update.  In Combat.")
+	    WoWPro:print("Suppresssed guide update.  In Combat.")
 	    WoWPro:SendMessage("WoWPro_UpdateGuide","InCombat")
 	    return
 	end
 	if  not GID or not WoWPro.Guides[GID] then
-	    WoWPro:dbp("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
+	    WoWPro:print("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
         return 
 	end
 	if  not WoWPro.GuideLoaded then
-	    WoWPro:dbp("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
+	    WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
         return 
 	end
 		
@@ -358,7 +358,7 @@ function WoWPro.NextStep(k,i)
 	local GID = WoWProDB.char.currentguide
 	if not k then k = 1 end --k is the position in the guide
 	if not i then i = 1 end --i is the position on the rows
-	WoWPro:dbp("Called WoWPro.NextStep(%d,%d)",k,i)
+	WoWPro:print("Called WoWPro.NextStep(%d,%d)",k,i)
 	local skip = true
 	-- The "repeat ... break ... until true" hack is how you do a continue in LUA!  http://lua-users.org/lists/lua-l/2006-12/msg00444.html
 	while skip do repeat
@@ -877,6 +877,7 @@ end
 -- Next Step Not Sticky --
 -- Determines the next active step that isn't a sticky step (for mapping) --
 function WoWPro.NextStepNotSticky(k)
+    WoWPro:print("Called WoWPro.NextStepNotSticky(%d)",k)
 	if not k then k = 1 end
 	local sticky = true
 	while sticky do 
@@ -887,6 +888,11 @@ function WoWPro.NextStepNotSticky(k)
 			k = k + 1
 		end
 	end
+	if k > WoWPro.stepcount then
+	    WoWPro:print("WoWPro.NextStepNotSticky=%d: > EOG",k)
+	else
+	    WoWPro:print("WoWPro.NextStepNotSticky=%d: %s [%s] %s",k, WoWPro.action[k], WoWPro.step[k], (WoWPro.questtext[k] and "QO="..WoWPro.questtext[k]) or "" )
+    end
 	return k
 end
 
@@ -897,7 +903,7 @@ function WoWPro.CompleteStep(step)
 	if WoWProDB.profile.checksound then	
 		PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
-	WoWPro:dbp("WoWPro.CompleteStep(%d,%s)",step,WoWPro.step[step])
+	WoWPro:print("WoWPro.CompleteStep(%d,%s)",step,WoWPro.step[step])
 	WoWProCharDB.Guide[GID].completion[step] = true
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWProCharDB.Guide[GID].completion[row.index] then
@@ -916,11 +922,11 @@ function WoWPro.CompleteStep(step)
 	    local line = string.format("Action=%s|Step=%s|M0=%.2f,%.2f|M1=%.2f,%.2f|Error=%.2f|QID=%s|Vers=%s|Guide=%s",WoWPro.action[step],WoWPro.step[step],Delta[2],Delta[3],Delta[4],Delta[5],Delta[1],qid,WoWPro.Version,GID)
         WoWProDB.global.Deltas = WoWProDB.global.Deltas or {}
 	    table.insert(WoWProDB.global.Deltas, line)
-	    WoWPro:dbp(line)
+	    WoWPro:print(line)
 	end
 	if WoWPro.action[step] == "D" then
 	    WoWProCharDB.Guide[GID].done = true
-	    WoWPro:dbp("WoWPro.CompleteStep: %s guide is done.",GID)
+	    WoWPro:print("WoWPro.CompleteStep: %s guide is done.",GID)
 	end
 	WoWPro:UpdateGuide("WoWPro.CompleteStep")
 	WoWPro:RemoveMapPoint()
@@ -930,7 +936,7 @@ end
 WoWPro.QuestLog = {}
 -- Populate the Quest Log table for other functions to call on --
 function WoWPro:PopulateQuestLog()
-	WoWPro:dbp("WoWPro:PopulateQuestLog()")
+	WoWPro:print("WoWPro:PopulateQuestLog()")
 	
 	-- If the UI is up, dont muck with things
 ---	if (QuestLogFrame:IsShown() or QuestLogDetailFrame:IsShown()) then
@@ -1036,7 +1042,7 @@ function WoWPro:PopulateQuestLog()
 	for QID, questInfo in pairs(WoWPro.QuestLog) do
 		if not WoWPro.oldQuests[QID] then 
 			WoWPro.newQuest = QID 
-			WoWPro:dbp("New Quest %d: [%s]",QID,WoWPro.QuestLog[QID].title)
+			WoWPro:print("New Quest %d: [%s]",QID,WoWPro.QuestLog[QID].title)
 		end
 	end
 	
@@ -1044,7 +1050,20 @@ function WoWPro:PopulateQuestLog()
 	for QID, questInfo in pairs(WoWPro.oldQuests) do
 		if not WoWPro.QuestLog[QID] then 
 			WoWPro.missingQuest = QID 
-			WoWPro:dbp("Missing Quest: "..WoWPro.oldQuests[QID].title)
+			WoWPro:print("Missing Quest: "..WoWPro.oldQuests[QID].title)
+		end
+	end
+
+	-- Generating table WoWPro.objectiveUpdate --
+	for QID, questInfo in pairs(WoWPro.oldQuests) do
+		if WoWPro.QuestLog[QID] then 
+            if WoWPro.oldQuests[QID].leaderboard and WoWPro.QuestLog[QID].leaderboard then
+                for  idx, status in pairs(WoWPro.oldQuests[QID].leaderboard) do
+                    if WoWPro.QuestLog[QID].leaderboard[idx] ~= WoWPro.oldQuests[QID].leaderboard[idx] then
+                        WoWPro:print("Updated objective: "..WoWPro.QuestLog[QID].leaderboard[idx])
+                    end
+                end
+            end
 		end
 	end
 

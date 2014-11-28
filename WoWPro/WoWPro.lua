@@ -29,7 +29,7 @@ _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
 BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
 _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
-WoWPro.Serial = 0
+WoWPro.Serial = 99999
 -- Add message to internal debug log
 function WoWPro:Add2Log(level,msg)
     if WoWPro.DebugLevel >= level then
@@ -50,7 +50,6 @@ function WoWPro:Add2Log(level,msg)
 	end
 end
 -- Debug print function --
-
 function WoWPro:dbp(message,...)
 	if WoWPro.DebugLevel > 0 and message ~= nil then
 	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
@@ -58,6 +57,14 @@ function WoWPro:dbp(message,...)
 	end
 end
 WoWPro:Export("dbp")
+
+function WoWPro:print(message,...)
+	if message ~= nil then
+	    local msg = string.format("|c7f0000ff%s|r: "..message, self.name or "Wow-Pro",...)
+	    WoWPro:Add2Log(2,msg)
+	end
+end
+WoWPro:Export("print")
 
 -- WoWPro print function --
 function WoWPro:Print(message,...)
@@ -101,7 +108,7 @@ function WoWPro:LogEvent(event,...)
             msg = msg .. ", "
         end
     end
-    msg = msg .. ")"
+    msg = msg .. string.format(") InitLockdown=%s",tostring(WoWPro.InitLockdown))
     WoWPro:Add2Log(3,msg)
 end
 
@@ -318,7 +325,7 @@ end
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
-	WoWPro:dbp("|cff33ff33Enabled|r: Core Addon")
+	WoWPro:Print("|cff33ff33Enabled|r: Version %s", WoWPro.Version)
     if  WoWProDB.global.RecklessCombat then
         WoWPro:Warning("Achtung!  Beware! Peligro!  Reckless Combat mode enabled.  InCombat interlocks disabled!")
     end
@@ -410,7 +417,7 @@ function WoWPro:OnDisable()
 	WoWPro:AbleFrames()								-- Hides all frames
 	WoWPro.EventFrame:UnregisterAllEvents()	-- Unregisters all events
 	WoWPro:RemoveMapPoint()							-- Removes any active map points
-	WoWPro:Print("|cffff3333Disabled|r: Core Addon")
+	WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
 end
 
 -- Tag Registration Function --

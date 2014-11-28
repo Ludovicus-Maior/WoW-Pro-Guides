@@ -4,6 +4,54 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-11-26 05:05
+-- Who: Fluclo
+-- Log: Added notes for Hexcloth
+
+-- URL: http://wow-pro.com/node/3604/revisions/27054/view
+-- Date: 2014-11-26 04:51
+-- Who: Fluclo
+-- Log: Added all cave treasures at anguish fortress
+
+-- URL: http://wow-pro.com/node/3604/revisions/27053/view
+-- Date: 2014-11-26 04:33
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3604/revisions/27052/view
+-- Date: 2014-11-26 04:30
+-- Who: Fluclo
+-- Log: Clarification on phase bug
+
+-- URL: http://wow-pro.com/node/3604/revisions/27051/view
+-- Date: 2014-11-26 02:13
+-- Who: Fluclo
+
+-- URL: http://wow-pro.com/node/3604/revisions/27050/view
+-- Date: 2014-11-26 02:12
+-- Who: Fluclo
+-- Log: the quest Chasing Shadows also requires The Fate of Karabor to have been completed.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27049/view
+-- Date: 2014-11-26 02:05
+-- Who: Fluclo
+-- Log: Added Iron Horde Tribute
+
+-- URL: http://wow-pro.com/node/3604/revisions/27040/view
+-- Date: 2014-11-23 18:25
+-- Who: Fluclo
+-- Log: Updated step names, as they were not showing the sticky steps when they should have been
+
+-- URL: http://wow-pro.com/node/3604/revisions/27039/view
+-- Date: 2014-11-23 18:09
+-- Who: Fluclo
+-- Log: Corrected QID for f Fey Landing (the ID used had already been completed, so wasn't showing flight point step)
+
+-- URL: http://wow-pro.com/node/3604/revisions/27036/view
+-- Date: 2014-11-22 19:20
+-- Who: Fluclo
+-- Log:  Enchanting; Added another Rank 3 kill.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27003/view
 -- Date: 2014-11-15 23:01
 -- Who: Fluclo
 -- Log: Few more Rank 3 treasures and kills added
@@ -149,9 +197,12 @@ C Keeping it Together |QID|35176|N|Head to Shelly Harnby (outside the garrison) 
 C Pale Moonlight |QID|35174|N|Kill and loot the Pale Devourers|S|QO|2|
 C Ship Salvage|QID|35166|N|Loot the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|S|NC|
 C Pale Moonlight |QID|35174|N|Head down to Eventide Landing and kill Gnaw Bloodseeker|QO|1|M|25.5,5.5|T|Gnaw Bloodseeker|
+
 l Fantastic Fish |QID|34174|N|Fantastic Fish: Lootable object for Garrison Resources and 10k XP|M|26.50,5.68|RANK|3|
 l Sunken Treasure |QID|35279|N|Sunken Treasure: Lootable object for Garrison Resources and 10k XP, located in the water under the ship.|M|28.83,7.18|RANK|3|
+K Bahameye |QID|35281|N|N|*Rare Kill*\nDrops Garrison Resources.|RANK|3|
 l Stolen Treasure |QID|35280|N|Stolen Treasure: Lootable object for Garrison Resources and 10k XP, located in Paletide Den.|M|27.04,2.49|RANK|3|
+
 C Ship Salvage|QID|35166|N|Finish looting the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|US|NC|M|26.5,6.5|
 C Pale Moonlight |QID|35174|N|Finish killing the Pale Devourers|US|QO|2|M|26.5,6.5|
 
@@ -236,10 +287,18 @@ A Into Twilight |QID|33072|N|From Prophet Velen|CN|M|49.30,37.41;49.42,36.81|PRE
 A The Southern Wilds |QID|35444|N|From Farmer Gehaar|CN|M|49.05,38.63;49.1,38.6|PRE|34019|
 
 ; The next 7 blocks of quests are dependant upon which profession item(s) you have looted from Karnoth.
-H Lunarfall |QID|33814|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|35342|
+H Lunarfall |QID|36308;33814;36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36308;35342;36236|
+
 T The Mysterious Flask|QID|35342|M|47.69,45.39|Z|Lunarfall|N|To Aenir.|ACTIVE|35342|
 A The Young Alchemist|QID|35343|M|47.69,45.39|Z|Lunarfall|N|From Aenir.|PRE|35342|
-F Embaari Village |QID|35343|N|Fly back to Embaari Village|ACTIVE|35343|
+
+T The Cryptic Tome of Tailoring|QID|36236|M|43.0,54.9|Z|Lunarfall|N|To Aerun.|ACTIVE|36236|
+A Ameeka, Master Tailor|QID|36262|M|43.0,54.9|Z|Lunarfall|N|From Aerun.|PRE|36236|
+
+T Enchanted Highmaul Bracer|QID|36308|N|To Eileese Shadowsong|Z|Lunarfall|M|50.07,42.10|
+A The Arakkoan Enchanter|QID|36310|N|From Eileese Shadowsong|Z|Lunarfall|M|50.07,42.10|PRE|36308|
+
+F Embaari Village |QID|35343;36262;36310|N|Fly to Embaari Village|ACTIVE|35343;36262;36310|M|47.99,49.92|
 
 T The Young Alchemist|QID|35343|M|55.85,41.15|N|To Abatha.|
 A The Missing Father|QID|35344|M|55.85,41.15|N|From Abatha.|PRE|35343|
@@ -268,11 +327,6 @@ T The Strength of Iron|QID|36309|N|To Haephest in Embaari Village|M|45.2,38.9|AC
 A Father and Son|QID|36311|N|From Haephest|M|45.2,38.9|PRE|36309|
 C Father and Son|QID|36311|N|Speak to Duna at Arbor Glen|M|51.1,37.0|CHAT|
 T Father and Son|QID|36311|N|To Haephest|M|45.2,38.9|
-
-H Lunarfall |QID|36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36236|
-T The Cryptic Tome of Tailoring|QID|36236|M|43.0,54.9|Z|Lunarfall|N|To Aerun.|ACTIVE|36236|
-A Ameeka, Master Tailor|QID|36262|M|43.0,54.9|Z|Lunarfall|N|From Aerun.|PRE|36236|
-F Embaari Village |QID|36262|N|Fly to Embaari Village|ACTIVE|36262|
 
 ;Regular questing resumes from this point.
 T Migrant Workers |QID|34778|N|To Foreman Zipfizzle|M|55.99,32.61|
@@ -365,7 +419,7 @@ T Friend of the Exarchs |QID|34788|N|To Exarch Naielle|M|62.48,26.22|
 
 A Supply Drop |QID|35905|N|From Exarch Naielle|PRE|34788|M|62.48,26.22|
 
-f Fey Landing |QID|35552|N|With Vamuun.|M|58.7,31.9|
+f Fey Landing |QID|35444|N|With Vamuun.|M|58.7,31.9|
 
 ;The next block is for Engineers only
 T Gnomish Location Transponder|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|
@@ -400,17 +454,18 @@ A Swamplighter Queen|QID|33808|M|53.60,57.27|N|From Fiona.|
 C Wanted: Maa'run's Hoof |QID|33836|N|Kill and loot Maa'run for her hoof. This is a 3-party group quest.|RANK|3|M|51.8,54.4|
 C Swamplighter Queen|QID|33808|N|Head into Swamplight Cave, then kill and loot Swamplighter Queen for her tail.|M|51.5,55.6|
 
-C Fiona's Solution|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|S|
-C Fiona's Solution|QID|33787|N|Kill and loot the Riot Blossom|QO|3|S|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Kill and loot the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|S|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Kill and loot Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|US|
-C Fiona's Solution|QID|33787|N|Finish killing and looting Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Finish killing and looting the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|US|M|51.8,58.5|
-C Fiona's Solution|QID|33787|N|Finish killing and looting the Riot Blossom|QO|3|US|M|51.8,58.5|
+C Moonlit Herb|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|S|
+C Riot Blossom|QID|33787|N|Kill and loot the Riot Blossom|QO|3|S|M|51.8,58.5|
+C Swamplighter Drones|QID|33787|N|Kill and loot the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|S|M|51.8,58.5|
+C Twilight Riverbeast |QID|33787|N|Kill and loot Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
+C Moonlit Herb|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|US|
+C Twilight Riverbeast|QID|33787|N|Finish killing and looting Twilight Riverbeast for the Heart.|QO|1|M|51.8,58.5|
+C Swamplighter Drones|QID|33787|N|Finish killing and looting the Swamplighter Drones for the Swamplighter Venom (note, venom does NOT drop from the Workers)|QO|2|US|M|51.8,58.5|
+C Riot Blossom|QID|33787|N|Finish killing and looting the Riot Blossom|QO|3|US|M|51.8,58.5|
 
 T Fiona's Solution|QID|33787|M|53.59,57.30|N|To Fiona.|
 T Swamplighter Queen|QID|33808|M|53.59,57.30|N|To Fiona.|
+
 A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787;33808|
 C Cooking With Unstable Herbs|QID|33788|QO|1|N|Speak with Fiona|CHAT|M|53.59,57.30|
 C Cooking With Unstable Herbs|QID|33788|QO|2|N|Follow Fiona's steps to complete the elixir.\n\nNice Glow = Moonlit Herb\nSomething Meaty = Riverbeast Heart\nWriggle Around = Riotvine\nDangerous and Toxic = Swamplighter Venom|NC|M|53.59,57.30|
@@ -502,6 +557,7 @@ C The Dark that Blinds Us |QID|33078|N|Click the Southern stone to get a rubbing
 T The Dark that Blinds Us |QID|33078|N|To Loreseeker Heidii|M|42.14,57.37|
 
 C Going Undercover |QID|33080|N|Head up into Shaz'gul, and click on the explosives inside the supply hut. Whilst in Shaz'gul, you will have a disguise that only the Void Occulus and Void Wolf can see through, so avoid any mob with void in their name. You will get a HUD message if you get too close, just keep running if that happens!\n\nIf you need to get past a Void Wolf, you can pick up a Tasty Meat and throw it near them. To get past the Void Occulus, use a Void Touched Pumpkin.|QO|2|M|37.2,59.3|NC|
+l Iron Horde Tribute|QID|33567|N|Iron Horde Tribute: Lootable object for an i523 trinket (Tiny Iron Star) worth 13g. It's at the back of the hut with the explosives.|M|37.48,59.26|RANK|3|ACTIVE|33080|
 C Going Undercover |QID|33080|N|Click the explosives inside the main lodge (and to the right)|QO|3|NC|M|36.4,61.4|
 C Going Undercover |QID|33080|N|Head up into Shaz'gul, and click on the explosives at chieftain's seat.|QO|4|M|39.1,62.9|NC|
 C Going Undercover |QID|33080|N|Click the explosives at the training pit|QO|5|M|36.6,65.5|NC|
@@ -513,7 +569,7 @@ C Escape From Shaz'gul |QID|33081|N|Speak to Yrel and select any two chat lines 
 C Escape From Shaz'gul |QID|33081|N|Escort Yrel out of Shaz'gul, a number of mobs will spawn at various points.|QO|2|M|39.2,57.5|
 
 T Escape From Shaz'gul |QID|33081|N|To Yrel, now in Twilight Glade.|M|40.60,54.94|
-A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33081|
+A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33081+33059|
 A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez.|PRE|33081|
 
 F Embaari Village |QID|33586|M|40.7,55.3|N|Fly to Embaari Village, or use your hearthstone if it has cooled down.|
@@ -525,7 +581,7 @@ A Forbidden Love|QID|34847|M|46.11,25.47|N|From Dulga.|
 A Lunarblossom|QID|34836|M|46.40,25.21|N|From Zukaza.|
 
 C Ancestor's Memory|QID|33082|M|45.71,25.38|N|Click on Ancestor's Totem in the cave underneath Exile's Rise. Entrance is south of the Rise (jump down)|NC|
-l Shadowmoon Exile Treasure |QID|33570|M|45.81,24.58|N|Shadowmoon Exile Treasure: Lootable object that can be used to gain 25 Garrison Resources.|RANK|3|
+l Shadowmoon Exile Treasure |QID|33570|M|45.81,24.58|N|Shadowmoon Exile Treasure: Lootable object that can be used to gain 25 Garrison Resources. Due to a phasing bug, you will need to wait fort he dialog to finish before you can interact with the Shadowmoon Exile Treasure.|RANK|3|
 
 T Ancestor's Memory|QID|33082|M|45.84,25.57|N|Wait for the dialog to finish, then To Rulkan|
 
@@ -535,9 +591,9 @@ A Rulkan |QID|35631|M|45.84,25.58|N|Ask Rulkan to become your follower.|PRE|3308
 R Mount Kra'gor |QID|35553|N|Head east outside of the cave, then head up the hill of Mount Kra'gor|M|47.26,23.43|RANK|3|
 K Rai'vosh |QID|35553|N|Kill Rai'vosh for a Rare piece to slow falling and some Garrison Resources. When you first reach him, you need to allow the dialog between Turog and Rai'vosh to play out before he is attackable.|M|48.81,22.64|RANK|3|
 
+C Lunarblossom|QID|34836|N|Loot the Lunarblossom from the ground of Deadwalker Pass, the entrance to the Pass is to the east of Exile's Rise.|NC|S|M|51.1,19.2|
 l Mushroom-Covered Chest |QID|33869|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
 
-C Lunarblossom|QID|34836|N|Loot the Lunarblossom from the ground of Deadwalker Pass, the entrance to the Pass is to the east of Exile's Rise.|NC|S|M|51.1,19.2|
 R Deadwalker Pass |QID|34847|N|Head east to Deadwalker Pass|M|50.93,25.20|ACTIVE|34847|
 C Forbidden Love|QID|34847|N|Head up to Dol'mak's Hideout to find Kral'za. The cave entrance is at the back of Deadwalker Pass - continue along the path north to get there.|QO|1|NC|M|48.1,15.1|
 C Forbidden Love|QID|34847|N|Kill Dol'mak|QO|2|M|48.1,15.1|
@@ -566,7 +622,12 @@ C The Great Salvation|QID|33794|N|Rescue the Draenei prisoners by opening the ca
 C Into Anguish|QID|35032|N|Deactivate the Mark of Shadows|QO|3|M|34.5,41.4|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Shadow to release it, then kill it.|QO|1|M|34.0,43.3|
 C Harbingers of the Void|QID|33793|N|Kill Essence of Anguish, who is inside Ancestor's Grotto cave.|QO|3|M|35.2,44.5|
-l Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for an i525 Blue Boots and tidy XP.|M|35.87,40.87|RANK|3|
+
+l Rovo's Dagger |QID|33573|N|Rovo's Dagger: Lootable object and tidy XP from Cave #2.|M|36.68,44.46|RANK|3|
+l Ashes of A'kumbo |QID|33584|N|Ashes of A'kumbo: Lootable object and tidy XP fropm Cave #3.|M|37.75,44.27|RANK|3|
+l Greka's Urn |QID|33614|N|Greka's Urn: Lootable object and tidy XP from Cave #4.|M|38.5 43.0|RANK|3|
+l Beloved's Offering |QID|33046|N|Beloved's Offering: Lootable object and tidy XP from Cave #5.|M|36.79,41.41|RANK|3|
+l Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for an i525 Blue Boots and tidy XP from Cave #6.|M|35.87,40.87|RANK|3|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Anguish|QO|4|M|32.6,38.8|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Darkness to release it, then kill it.|QO|2|M|31.2,39.4|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Darkness|QO|2|M|29.5,39.7|NC|
@@ -575,6 +636,7 @@ T Into Anguish|QID|35032|N|Auto-Complete|
 A The Dark Side of the Moon|QID|34054|PRE|35032|N|Auto-Accept|
 C The Dark Side of the Moon|QID|34054|N|Head up the Terrace of the Stars to Yrel then Velen.|M|29.44,40.59;30.3,43.2|NC|QO|1|CS|
 C The Dark Side of the Moon|QID|34054|N|Wait for the dialog to finish, then kill Arkeddon.|M|30.9,43.9|QO|2|
+; l Shadowmoon Sacrificial Dagger |QID|Not Known|M|30.00,45.34|N|Up the stairs.|
 
 l Ronokk's Belongs |QID|33886|N|Ronokk's Belongs: Lootable object for a cloak and tidy XP.|M|31.30,39.10|RANK|3|
 l Carved Drinking Horn |QID|33569|N|Carved Drinking Horn: Lootable object for Carved Drinking Horn and tidy XP.|M|33.50,39.65|RANK|3|
@@ -617,7 +679,7 @@ T Wanted: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.50|
 F Fey Landing |QID|36266|N|Fly to Fey Landing in Elodor.|ACTIVE|36266|
 T The Clothes on Their Backs|QID|36266|N|To Ameeka.|M|58.2,26.5|
 A Hexcloth|QID|36269|N|From Ameeka.|PRE|36266|M|58.2,26.5|
-C Hexcloth|QID|36269|N|Create a Hexweave Swatch.|NC|
+C Hexcloth|QID|36269|N|Click on Ameeka's Flytrap Ichor on the floor.|NC|M|58.28,26.57|
 T Hexcloth|QID|36269|N|To Ameeka.|M|58.2,26.5|
 F Embaari Village |QID|33837|N|Fly to Embaari Village.|PRE|36269|
 
@@ -700,8 +762,7 @@ T Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.39,19.27|
 
 T Gloomshade Game Hunter|QID|33461|M|37.92,63.49|Z|Lunarfall|N|To Arsenio Zerep just outside your Garrison. Use your Garrison Hearthstone to get you back to your garrison.|U|110560|
 
-T Enchanted Highmaul Bracer|QID|36308|N|To Eileese Shadowsong|Z|Lunarfall|M|45.6,53.2|
-A The Arakkoan Enchanter|QID|36310|N|From Eileese Shadowsong|Z|Lunarfall|M|45.6,53.2|PRE|36308|
+;Enchanting Quests
 T The Arakkoan Enchanter|QID|36310|N|To Arcanist Delath|M|37.4,72.6|
 A Failed Apprentice |QID|36313|N|From Arcanist Delath|M|37.4,72.6|PRE|36310|
 C Failed Apprentice |QID|36313|N|Free Deema|M|37.4,72.6|NC|

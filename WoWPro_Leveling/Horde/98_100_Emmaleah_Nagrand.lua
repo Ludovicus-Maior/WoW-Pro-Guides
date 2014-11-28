@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2014-11-22 11:49
+-- Who: Ludovicus
+-- Log: Hey!  Needed @Draenor
+
+-- URL: http://wow-pro.com/node/3605/revisions/27023/view
+-- Date: 2014-11-20 03:22
+-- Who: Emmaleah
+-- Log: added |Z|The Underpale to the steps inside oshu'gun, Starting with T [Dark Binding] I did it from memory, so I may have added it to extra steps that shouldn't have it. 
+
+-- URL: http://wow-pro.com/node/3605/revisions/26965/view
 -- Date: 2014-11-11 23:43
 -- Who: Emmaleah
 -- Log: Correct The Dead do not forget... again...
@@ -33,7 +43,7 @@
 -- Who: Emmaleah
 -- Log: Emmaleah - 10/1/14 - First public draft
 
-local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand', 'Emmaleah', 'Horde')
+local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand@Draenor', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,98, 100, 98.7)
 WoWPro:GuideNextGuide(guide, 'nil')
 WoWPro:GuideSteps(guide, function()
@@ -283,12 +293,12 @@ C Dark Binding|QID|35144|S|M|52.70,60.68|
 C The Pale Threat|QID|35145|QO|1|M|52.60,60.46|
 C Dark Binding|QID|35144|US|M|52.70,60.68|
 C The Pale Threat|QID|35145|US|QO|2|M|52.60,60.46|
-T Dark Binding|QID|35144|M|51.27,61.63|N|To Farseer Drek'Thar.|
-T The Pale Threat|QID|35145|M|51.27,61.63|N|To Farseer Drek'Thar.|
-A The Fate of Gordawg|QID|34271|M|51.27,61.63|N|From Farseer Drek'Thar.|
-A The Dark Heart of Oshu'gun|QID|35317|M|51.27,61.63|N|From Farseer Drek'Thar.|
-C The Fate of Gordawg|QID|34271|M|50.99,61.95|T|Gordawg|N|Kill Gordawg|
-C The Dark Heart of Oshu'gun|QID|35317|M|48.08,65.17|T|Decimatus|N|Listen to Chogall and Gul'dan and then kill Decimatus.|
+T Dark Binding|QID|35144|M|51.27,61.63|N|To Farseer Drek'Thar.|Z|The Underpale|
+T The Pale Threat|QID|35145|M|51.27,61.63|N|To Farseer Drek'Thar.|Z|The Underpale|
+A The Fate of Gordawg|QID|34271|M|51.27,61.63|N|From Farseer Drek'Thar.|Z|The Underpale|
+A The Dark Heart of Oshu'gun|QID|35317|M|51.27,61.63|N|From Farseer Drek'Thar.|Z|The Underpale|
+C The Fate of Gordawg|QID|34271|M|50.99,61.95|T|Gordawg|N|Kill Gordawg|Z|The Underpale|
+C The Dark Heart of Oshu'gun|QID|35317|M|48.08,65.17|T|Decimatus|N|Listen to Chogall and Gul'dan and then kill Decimatus.|Z|The Underpale|
 R Spirit Woods|QID|35084|M|47.04,59.86|N|Follow Farseer Drek'Thar out for a shortcut.|
 
 C Silence the Call|QID|35084|QO|2|M|55.45,55.92|S|N|It will be hard to avoid killing them as you go about the other tasks.|
