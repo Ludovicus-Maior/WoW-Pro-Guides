@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-27 21:46
+-- Who: Emmaleah
+-- Log: Added note about scenarios can be shared. changed name of bones of agurak flight point to Thunder Pass, note about scout ruk'gan going MIA
+
+-- URL: http://wow-pro.com/node/3587/revisions/27043/view
 -- Date: 2014-11-24 20:37
 -- Who: Ludovicus
 -- Log: Turn in [We Need An Army] before doing [Winds of Change]
@@ -190,8 +195,8 @@ C Build Your Barracks|QID|34461|M|52.31,53.57|NC|QO|3|N|Click on the table besid
 C Build Your Barracks|QID|34461|M|58.02,49.34|NC|QO|5|N|Follow Gazlowe over to the spot, and click on the scroll in front of the door to finalize your plot.|Z|Frostwall|
 T Build Your Barracks|QID|34461|M|57.40,48.39|Z|Frostwall|N|To Gazlowe. Finalizing your garrison sent you to your graveyard. Run back inside to turn in.|
 A We Need An Army|QID|34861|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
-T We Need An Army|QID|34861|M|53.85,54.81|N|To Warmaster Zog.|Z|Frostwall|
-A Winds of Change|QID|34462|M|53.85,54.81|N|From Warmaster Zog who is inside your Town Hall.|Z|Frostwall|
+T We Need An Army|QID|34861|M|53.85,54.81|N|To Warmaster Zog who is inside your Town Hall.|Z|Frostwall|
+A Winds of Change|QID|34462|M|53.85,54.81|N|From Warmaster Zog.|Z|Frostwall|
 C Winds of Change|QID|34462|M|50.19,60.01;55.27,62.12;57.32,62.90|CS|NC|N|He is just inside the cave.|Z|Frostfire Ridge|
 T Winds of Change|QID|34462|M|53.87,54.89|N|To Warmaster Zog.|Z|Frostwall|
 A Mission Probable|QID|34775|M|53.87,54.89|N|From Warmaster Zog.|Z|Frostwall|
@@ -694,7 +699,7 @@ T Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|
 A The Secrets of Gorgrond|QID|35557|M|41.58,53.06|N|From the Command Board.|
 T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|
 A Thunderlord Invasion|QID|37291|M|50.17,37.82|N|From Durotan.|
-C Thunderlord Invasion|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the solo scenario. It will take around 10 min.|
+C Thunderlord Invasion|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|
 t Thunderlord Invasion|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|
 A The Iron Wolf|QID|33010|M|50.17,37.82|N|From Durotan.|
 
@@ -718,15 +723,15 @@ A To Thunder Pass|QID|34123|M|53.23,56.27|Z|Hunter's Hall|N|From Thrall.|
 f Wolf's Stand|QID|34124|M|73.63,60.03|N|At Windhunter.|
 T To Thunder Pass|QID|34123|M|73.43,58.83|N|To Lokra.|
 A The Battle of Thunder Pass|QID|34124|M|73.43,58.83|N|From Lokra.|
-C The Battle of Thunder Pass|QID|34124|M|74.98,55.76|N|This is a solo scenario and takes around 20 min. Talk to Durotan to start it. The grunts are not part of the objectives and are the LOWEST priority to kill. \nThe orcs with flags are the ones you need to kill.|
+C The Battle of Thunder Pass|QID|34124|M|74.98,55.76|N|This scenario takes around 20 min. Talk to Durotan to start it. Up to two groupmates can share the scenario with you. The grunts are not part of the objectives and are the LOWEST priority to kill. \nThe orcs with flags are the ones you need to kill.|
 T The Battle of Thunder Pass|QID|34124|M|76.16,55.16|N|To Durotan.|
 A The Frostwolves Stand Ready|QID|37563|M|76.32,54.06|N|From Makar Stonebinder.|
 C Pick one|QID|37563|M|76.32,54.06|N|Geyah is a resto shaman, her guarenteed ability is a magic debuff counter, Kal'gor is an elemental shaman and his guarenteed ability is a counter to minion swarms, Lokra is an enhancelent shaman and her guarenteed ability is a counter to danger zones.  Pick the one you want.|
 T The Frostwolves Stand Ready|QID|37563|M|76.32,54.06|N|To Makar Stonebinder.|
 
 R Bones of Agurak|QID|34066|M|78.38,54.95;83.62,60.88|CS|N|There is a passage thru the rocks starting at the first waypoint.|
-f Bones of Agurak|QID|34066|M|83.62,60.88|N|At Bile Warneck.|
-A Savage Vengeance|QID|34066|M|83.22,62.76|N|From Scout Ruk'Gan.|
+f Thunder Pass|QID|34066|M|83.62,60.88|N|At Bile Warneck.|
+A Savage Vengeance|QID|34066|M|83.22,62.76|N|From Scout Ruk'Gan. If you happen arrive just as someone else picked up the quest it takes a minute or two for him to come back.|
 C Savage Vengeance|QID|34066|M|83.50,65.90|S|
 A Getting the Points|QID|34069|M|84.14,65.11|N|From Barbed Thunderlord Spear.|
 C Getting the Points|QID|34069|M|84.53,68.44|NC|S|

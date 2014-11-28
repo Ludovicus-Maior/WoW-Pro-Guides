@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-11-27 14:31
+-- Who: Ludovicus
+-- Log: Finished up!
+
+-- URL: http://wow-pro.com/node/3602/revisions/27048/view
 -- Date: 2014-11-25 13:57
 -- Who: Ludovicus
 -- Log: PLayed through [A Worthy Vessel]
@@ -50,7 +55,7 @@
 
 local guide = WoWPro:RegisterGuide('EmmSoArak', 'Leveling', 'Spires of Arak', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,96, 98, 96.7)
-WoWPro:GuideNextGuide(guide, 'nil|EmmNagrand')
+WoWPro:GuideNextGuide(guide, 'LudoNagrand|EmmNagrand')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -137,11 +142,9 @@ A Outpost specific quest|QID|37326;35697|M|40.19,43.46|N|The quest (and quest gi
 
 h Southport|QID|35293|M|40.12,61.49|N|At Elria Willowfall.|FACTION|Alliance|
 A Old Friends|QID|35293|M|39.79,60.68|N|From Jasper Fel.|FACTION|Alliance|PRE|35286|
-A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Alliance|PRE|35286|
 
 A Wanted: Keeho's Severed Paw|QID|35669|M|40.11,43.05|N|From Wanted Poster, its inside the building if you choose the brewery.|FACTION|Horde|PRE|35277|
 A Wanted: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|
-A Wanted: Venombarb|QID|35672|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|
 h Axefall|QID|35295|M|40.41,42.99|N|At Taz'jari.|FACTION|Horde|
 A What's Theirs is Ours|QID|35295|M|40.27,43.37|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35277|
 f Axefall|QID|35293|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
@@ -406,6 +409,9 @@ T When All Is Aligned|QID|35704|M|46.49,46.67|N|To Reshad.|
 A Victory is Within Reach|QID|36316|M|46.49,46.67|N|From Reshad. This is a dungeon quest.|PRE|35704|
 
 H Southport|QID|35915|ACTIVE|35915|M|46.53,46.80|FACTION|Alliance|
+t Wanted: Keeho's Severed Paw|QID|35674|M|39.89,60.85|N|To Lieutenant Willem.|FACTION|Alliance|
+t Wanted: Spineslicer's Husk|QID|35675|M|39.35,59.81|N|To Quartermaster Jolie.|FACTION|Alliance|
+A Wanted: Venombarb|QID|35672|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|
 C Attempted Murder|QID|35915|M|39.51,43.36|CHAT|N|Talk to Firn Swiftbreeze for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Alliance|
 T Attempted Murder|QID|35915|M|52.10,23.54|N|To Hulda Shadowblade.|FACTION|Alliance|
 A Assassin's Mark|QID|35926|M|52.10,23.54|PRE|35915|N|From Hulda Shadowblade.|FACTION|Alliance|
@@ -413,7 +419,7 @@ C Assassin's Mark|QID|35926|M|55.49,23.22|N|Check the bodies of the 'Vigilant Ou
 T Assassin's Mark|QID|35926|M|53.57,27.51|N|To (a stealthed) Hulda Shadowblade.|FACTION|Alliance|
 A The Power of Poison|QID|35959|M|53.57,27.51|PRE|35926|N|From (a stealthed) Hulda Shadowblade.|FACTION|Alliance|
 A Extrinsic Motivation|QID|36023|M|53.57,27.51|PRE|35926|N|From (a stealthed) Hulda Shadowblade.|FACTION|Alliance|
-C The Power of Poison|QID|35959|M|53.57,27.51|U|113587|FACTION|Alliance|N|Use the poisosn to encourage the orcs to talk.|
+C The Power of Poison|QID|35959|M|53.57,27.51|U|113587|FACTION|Alliance|N|Use the poison to encourage the orcs to talk. If you have a garrison follower, you want to dismiss them or they will kill them before they confess.|
 C Extrinsic Motivation|QID|36023|M|56,33|FACTION|Alliance|
 T The Power of Poison|QID|35959|M|53.57,27.51|N|To (the stealthed) Hulda Shadowblade.|FACTION|Alliance|
 T Extrinsic Motivation|QID|36023|M|53.57,27.51|N|To (the stealthed) Hulda Shadowblade.|FACTION|Alliance|
@@ -427,9 +433,10 @@ C We Have Him Now|QID|36048|M|58.15,33.3|QO|1|T|Gardul Venomshiv|FACTION|Allianc
 C We Have Him Now|QID|36048|M|58.15,33.3|QO|2|US|FACTION|Alliance|
 T We Have Him Now|QID|36048|M|57.14,34.49|N|To Hulda Shadowblade.|FACTION|Alliance|
 A No Time to Waste|QID|36165|M|57.14,34.49|PRE|36023|N|From Hulda Shadowblade.|FACTION|Alliance|
-R The Howling Crag|QID|35619|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are going to take a side trip for our traveling convenience.  Go North and somewhat east.|FACTION|Alliance|
+R The Howling Crag|QID|36165|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are going to take a side trip for our traveling convenience.  Go North and somewhat east.|FACTION|Alliance|
 C Wanted: Venombarb|QID|35676|M|61.11,19.05|RANK|3|FACTION|Alliance|
 H Southport|QID|35619|ACTIVE|35676;36165|FACTION|Alliance|
+A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Alliance|PRE|35286|
 
 H Axefall|QID|35907|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|
 C Attempted Murder|QID|35907||M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
@@ -458,10 +465,10 @@ H Axefall|QID|35620|ACTIVE|35672;36166|FACTION|Horde|
 
 C No Time to Waste|QID|36165|M|39.66,60.86|CHAT|FACTION|Alliance|
 T No Time to Waste|QID|36165|M|39.66,61.86|N|To Kolrigg Stokton.|FACTION|Alliance|
-A Standing United|QID|37281|M|39.74,61.90|PRE|36165|N|To/From Hulda Shadowblade to accept her as a follower.|FACTION|Alliance|
-A Cleaning House|QID|37287|M|38.51,61.68|PRE|36165|N|From Kolrigg Stokton.|FACTION|Alliance|
+A Standing United|QID|37281|M|39.72,60.91|PRE|36165|N|To/From Hulda Shadowblade to accept her as a follower.|FACTION|Alliance|
+A Cleaning House|QID|37287|M|39.51,61.68|PRE|36165|N|From Kolrigg Stokton.|FACTION|Alliance|
 C Cleaning House|QID|37287|M|38.37,62.64|CHAT|N|After you talk to him, he becomes hostile and you must kill him.|FACTION|Alliance|
-T Cleaning House|QID|37287|M|38.51,61.68|N|To Kolrigg Stokton.|FACTION|Alliance|
+T Cleaning House|QID|37287|M|39.51,61.68|N|To Kolrigg Stokton.|FACTION|Alliance|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|CHAT|N|Talk to Firn Swiftbreeze for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
 
 C No Time to Waste|QID|36166|M|40.11,43.28|CHAT|FACTION|Horde|
@@ -510,20 +517,20 @@ T The Right Parts for the Job|QID|35090|M|58.83,92.84|N|To Kimzee Pinchwhistle.|
 T Skimming Off The Top|QID|35089|M|58.83,92.84|N|To Kimzee Pinchwhistle.|
 A Sporicide|QID|35091|M|58.83,92.84|N|From Kimzee Pinchwhistle.|PRE|35090;35089|
 T Field Trial|QID|36384|M|58.46,92.22|N|To Krixel Pinchwhistle.|
-A Preventing the Worst|QID|35211|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35211|
-A Curing With Force|QID|36428|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35211|
-C Curing With Force|QID|36428|M|58,92|U|115533|S|N|You have to beat them up before they will accept the potion, don't forget to give it to them (instead of killing them).|
+A Preventing the Worst|QID|35211|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|36384|
+A Curing With Force|QID|36428|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|36384|
+C Curing With Force|QID|36428|M|58,92|U|115533|S|N|You have to beat them up before they will accept the potion, don't forget to give it to them (instead of killing them). Again, a garrison follower will kill them.  Send them home for a bit.|
 C Sporicide|QID|35091|M|58,92|S|N|There are a few of these wandering in the village but most are behind it.|
 C Preventing the Worst|QID|35211|M|58,92|NC|N|There is a translucent bomb inside of each of the buildings, click on it to activate. It is upstairs on the balcony of the 2 story building.|
-C Curing With Force|QID|36428|M|56.2,90.4|U|115533|US|N|You have to beat them up before they will accept the potion, don't forget to give it to them (instead of killing them).|
+C Curing With Force|QID|36428|M|56.2,90.4|U|115533|US|N|You have to beat them up before they will accept the potion, don't forget to give it to them (instead of killing them). Again, a garrison follower will kill them.  Send them home for a bit.|
 C Sporicide|QID|35091|M|56.2,90.4|US|N|There are a few of these wandering in the village but most are behind it.|
 T Sporicide|QID|35091|M|58.49,92.33|N|To Kimzee Pinchwhistle.|
 T Preventing the Worst|QID|35211|M|58.46,92.22|N|To Krixel Pinchwhistle.|
 T Curing With Force|QID|36428|M|58.46,92.22|N|To Krixel Pinchwhistle.|
-A Flame on|QID|35298|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35211;36428|
-C Flame on|QID|35298|M|58.44,92.24|QO|1|NC|N|Click on the Plunger to set off the bombs.|
-C Flame on|QID|35298|M|58.88,92.84|QO|2|NC|N|Hop in Kimzee's flying machine.|
-T Flame on|QID|35298|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
+A Flame On|QID|35298|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35211;36428|
+C Flame On|QID|35298|M|58.44,92.24|QO|1|NC|N|Click on the Plunger to set off the bombs.|
+C Flame On|QID|35298|M|58.88,92.84|QO|2|NC|N|Hop in Kimzee's flying machine.|
+T Flame On|QID|35298|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
 A Kimzee Pinchwhistle|QID|36062|M|61.47,72.94|N|To/From Kimzee Pinchwhistle.|PRE|35298|
 
 H Southport|QID|35674|M|61.47,72.94|N|Back to Southport.|FACTION|Alliance|
@@ -531,7 +538,7 @@ T Wanted: Keeho's Severed Paw|QID|35674|M|39.89,60.85|N|To Lieutenant Willem.|FA
 A News from Nagrand|QID|36606|M|39.89,60.85|N|From Lieutenant Willem.|LVL|98|FACTION|Alliance|
 T Wanted: Spineslicer's Husk|QID|35675|M|39.35,59.81|N|To Quartermaster Jolie.|FACTION|Alliance|
 T Wanted: Venombarb|QID|35676|M|39.24,62.86|N|To Falrogh the Drunk.|FACTION|Alliance|
-f Veil Terokk|QID|37141|M|39.09,61.81|N|To Firn Swiftbreeze.|FACTION|Alliance|
+F Veil Terokk|QID|37141|M|39.09,61.81|N|To Firn Swiftbreeze.|FACTION|Alliance|
 
 H Axefall|QID|35669|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
 T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
@@ -541,7 +548,7 @@ A News from Nagrand|QID|36606;36601|M|39.89,60.85|N|From Lieutenant Willem.|LVL|
 
 T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|
 T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
-f Veil Terokk|QID|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
+F Veil Terokk|QID|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
 
 A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|PRE|34829|
 
@@ -558,7 +565,7 @@ A Back on Track|QID|35719|M|56.21,42.49|PRE|35716;35878|N|From Filbert Tinkertos
 T Back on Track|QID|35719|M|60.18,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
 A All Natural|QID|35739|M|60.18,53.15|PRE|35719|N|From Dilbert Tinkertoss.|FACTION|Alliance|
 A I See Dead Arakkoa|QID|35782|M|60.18,53.15|PRE|35719|N|From Dilbert Tinkertoss.|FACTION|Alliance|
-C All Natural|QID|35739|S|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Alliance|
+C All Natural|QID|35739|S|M|61.00,57.12|N|Kill the ancient trees for their charcoal.|FACTION|Alliance|
 C I See Dead Arakkoa|QID|35782|U|113438|M|61.03,57.71|N|Use your ghostogrifier to summon Zekk.|FACTION|Alliance|
 C All Natural|QID|35739|US|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Alliance|
 T All Natural|QID|35739|M|60.19,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
@@ -589,7 +596,7 @@ A The Ebon Hunter|QID|35797|M|60.20,53.15|PRE|35738;35766|N|From Trixxy Weldblas
 C The Ebon Hunter|QID|35797|M|65.09,61.46|T|The Ebon Hunter|FACTION|Horde|
 T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
 
-U Your Garrison|QID|36606;36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak.  The final leveling zone quide, Nagrand, should load after you check off this step.|
+D Your Garrison|QID|36606;36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak.  The final leveling zone quide, Nagrand, should load after you check off this step.|
 
 ]]
 
