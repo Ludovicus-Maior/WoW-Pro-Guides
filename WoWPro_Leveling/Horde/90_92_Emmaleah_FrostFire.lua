@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-11-29 09:09
+-- Who: Emmaleah
+-- Log: Changed QID for Pale Loot Sack to QID for Shivertail's Den so it will stay checked off.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27058/view
 -- Date: 2014-11-27 21:46
 -- Who: Emmaleah
 -- Log: Added note about scenarios can be shared. changed name of bones of agurak flight point to Thunder Pass, note about scout ruk'gan going MIA
@@ -302,7 +307,7 @@ T Missing Pack|QID|33955|M|19.53,51.01|N|To Shivertail.|
 A Shivertail's Den|QID|33929|M|19.53,51.01|N|From Shivertail.|
 C Shivertail's Den|QID|33929|M|20.7,48.6|QO|1|NC|
 C Shivertail's Den|QID|33929|M|21.4,50.2|
-A Pale Loot Sack|QID|34714|M|21.7,50.7|NC|N|Go up the path on the other side of the room for minor treasure. You will need to manually check this step off.|;can not find the right QID to make this one stay checked off
+N Pale Loot Sack|QID|33929|M|21.7,50.7|NC|N|Go up the path on the other side of the room for minor treasure. You will need to manually check this step off.|;can not find the right QID to make this one stay checked offsetting to the QID Of the quest you do at the same time.
 T Shivertail's Den|QID|33929|M|19.53,51.01|N|To Shivertail.|
 C Bladespire Fortress|QID|33473|M|21.57,56.15|CHAT|N|At Pul Windcarver. Take the chat option, not the flight path.|
 
