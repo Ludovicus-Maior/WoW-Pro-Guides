@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-12-01 06:53
+-- Who: JamesL85
+-- Log: Changed the F step to "Path of the Light," from "Path of Light."
+
+-- URL: http://wow-pro.com/node/3604/revisions/27055/view
 -- Date: 2014-11-26 05:05
 -- Who: Fluclo
 -- Log: Added notes for Hexcloth
@@ -698,7 +703,7 @@ T The Defense of Karabor|QID|33256|N|Jump onto Raindash to take you back to Emba
 
 l The Prophet's Arcanum |QID|37322|N|Go to the mailbox, there will be a message there from Yrel, with The Prophet's Arcanum. Take it.|L|119208|PRE|33256|M|45.9,39.6|
 A The Prophet's Final Message|QID|37322|M|42.37,52.04|Z|Lunarfall|N|From The Prophet's Arcanum. (Quest can also be obtained from Arsenio Zerep.)|U|119208|PRE|33256|
-F Path of Light|QID|37322|N|Fly to the Path of Light|M|45.67,38.85|ACTIVE|37322|
+F Path of the Light|QID|37322|N|Fly to the Path of the Light|M|45.67,38.85|ACTIVE|37322|
 R Tranquil Court|QID|37322|M|70.43,50.42|N|Run east up the stairs to Tranquil Court.|
 f Tranquil Court|QID|37322|M|70.4,50.4|N|With Itara|ACTIVE|37322|
 T The Prophet's Final Message|QID|37322|N|To Prophet Velen's Memorial|M|73.7,55.8|
