@@ -1258,8 +1258,10 @@ local function activate( newInstance, oldInstance )
 			local contZoneList = newInstance.ContinentList[C];
 			contZoneList[0] = continents[C*2 - 1];
 			for Z = 1, (#zones / 2) do
-				contZoneList[Z] = zones[Z*2 - 1];
-				SetMapByID(contZoneList[Z]);
+				local areaId = zones[Z*2 - 1];
+				SetMapByID(areaId);
+				local zoneKey = GetCurrentMapZone();
+				contZoneList[zoneKey] = areaId
 				harvestMapData(HarvestedMapData);
 			end
 		end
@@ -1659,6 +1661,8 @@ WorldMapSize[946][13] = { xOffset = -1962.50000, height = 350.000000, yOffset = 
 WorldMapSize[947][15] = { xOffset =  -583.75000, height = 231.000000, yOffset = -1030.750000, width = 346.500000 , __index = zeroDataFunc };
 WorldMapSize[949][17] = { xOffset = -1013.75000, height = 165.000000, yOffset = -4330.000000, width = 247.500000 , __index = zeroDataFunc };
 WorldMapSize[949][19] = { xOffset = -1375.75000, height = 265.000000, yOffset = -6950.000000, width = 397.500000 , __index = zeroDataFunc };
+WorldMapSize[950][10] = { xOffset = -3895.00000, height = 370.000000, yOffset = -2510.500000, width = 555.000000 , __index = zeroDataFunc };
+WorldMapSize[950][11] = { xOffset = -5181.245117, height = 245.839844, yOffset = -2989.580078, width = 368.759766 , __index = zeroDataFunc };
 WorldMapSize[950][12] = { xOffset = -6075.00000, height = 400.000000, yOffset = -2322.500000, width = 600.000000 , __index = zeroDataFunc };
 WorldMapSize[970][1]  = { xOffset =  2720.379883, height = 303.172852, yOffset = -4359.998535, width = 454.759766 , __index = zeroDataFunc };
 WorldMapSize[971][23] = { xOffset =  -31.0000000, height = 250.000000, yOffset = -1806.000000, width = 375.000000 , __index = zeroDataFunc };
