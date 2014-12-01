@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2014-12-01 01:58
+-- Who: Ludovicus
+-- Log: Removed Stable quests.  Played through [The Call of Oshu'gun].
+
+-- URL: http://wow-pro.com/node/3618/revisions/27063/view
+-- Date: 2014-11-30 15:31
+-- Who: Ludovicus
+-- Log: Played through [THAELIN!] and removed duplicates at the end.
+
+-- URL: http://wow-pro.com/node/3618/revisions/27062/view
 -- Date: 2014-11-30 03:14
 -- Who: Ludovicus
 -- Log: Played through [Whacking Weeds]
@@ -68,7 +78,7 @@ T Taking the Fight to Nagrand|QID|34674;37184|M|86.40,66.20|N|To Lieutenant Balf
 A The Might of the Warsong|QID|34675|M|86.40,66.20|N|From Lieutenant Balfor.|PRE|34674;37184|
 K Malroc Stonesunder |QID|35932|M|81.09,59.77|N|*Rare Kill*\nDrops Malroc's Staff of Command worth 54g.|RANK|3|
 K Redclaw the Feral |QID|35712|M|73.57,58.02|N|*Rare Kill*\nDrops Redclaw's Gutripper worth 43g.|RANK|3|
-f Telaari Station|QID|34675|M|63.64,61.55|From Gryphon Master John Shelby|
+f Telaari Station|QID|34675|M|63.64,61.55|N|From Gryphon Master John Shelby|
 T The Might of the Warsong|QID|34675|M|63.52,61.88|N|To Rangari D'kaan at Telaari Station.|
 
 A Up and Running |QID|34678|M|63.52,61.88|N|From Rangari D'kaan.|
@@ -198,7 +208,7 @@ A Fruitful Ventures |QID|34819|N|From Digrem Orebar|M|79.21,52.63|PRE|34869|
 ; Some looting fun!
 l Warsong Spear |QID|35682|N|Warsong Spear: Lootable object for Garrison Resources. At the first coordinate, there's a path, head up it (the path will have blue flags with gold bars on it). At the top (second coordinate) use the Glider, and fly in a wide arc to the third coordinate under the stone bridge. Aim for a ledge.|M|78.33,71.83;76.13,73.02;76.1,70.0|CS|RANK|3|
 l Warsong Spoils |QID|35593|N|Warsong Spoils: Lootable object for Garrison Resources. Path at first coordinate, Glider at second coordinate, head to third coordinate. Run across ledge to fourth coordinate, run up the mountain to the fifth coordinate. Fly to the sixth coordinate (it's at the top of the tower)|M|78.25,71.90;76.10,73.00;76.00,70.60;75.95,65.85;75.70,64.50;80.60,60.60|CS|RANK|3|
-l Appropriated Warsong Supplies |QID|35673|Appropriated Warsong Supplies: Lootable object for Garrison Resources. Path at first coordinate, Glider at second coordinate, head to third coordinate, then ride to the fourth.|M|78.33,71.83;76.13,73.02;73.35,72.97;73.04,75.53|CS|RANK|3|
+l Appropriated Warsong Supplies |QID|35673|N|Appropriated Warsong Supplies: Lootable object for Garrison Resources. Path at first coordinate, Glider at second coordinate, head to third coordinate, then ride to the fourth.|M|78.33,71.83;76.13,73.02;73.35,72.97;73.04,75.53|CS|RANK|3|
 K Berserk T-300 Series Mark II |QID|35735|N|*Rare Kill*\nPath at first coordinate, Glider at second coordinate, head to third coordinate. Run across ledge to fourth coordinate, run up the mountain to the fifth coordinate. Fly to cave entrance|M|78.25,71.90;76.10,73.00;76.00,70.60;75.95,65.85;75.70,64.50;76.93,64.37|CS|RANK|3|
 l Saberon Stash |QID|36102|N|Saberon Stash: Lootable object for Garrison Resources. Path at first coordinate, Glider at second coordinate, head to third coordinate. Run across ledge to fourth coordinate, run half way up the mountain, then shimmy around the side (you'll see it before you need to walk down the mountain to it). Fly to cave entrance|M|78.25,71.90;76.10,73.00;76.00,70.60;75.95,65.85;75.19,64.93|CS|RANK|3|
 K Soulfang |QID|36128|N|*Rare Kill*\nJump down the mountain to Sabermaw Den. This has a long time respawn, so if he's not there, skip quest and come back later.|M|74.70,64.05|RANK|3|
@@ -350,7 +360,6 @@ T Whacking Weeds|QID|36273|M|77.42,47.36|N|To Marybelle Walsh|
 
 T Along the Riverside |QID|35059|N|To Yrel at Yrel's Watch.|M|61.98,40.54|
 A Terms of Surrender |QID|35060|N|From Yrel|M|61.98,40.54|PRE|35059|
-
 f Yrel's Watch|QID|35060|N|With Felicia Maline|M|62.67,40.64|
 T Terms of Surrender |QID|35060|N|To Uruk Foecleaver in Lok-rath.|M|55.49,42.10|
 
@@ -366,303 +375,134 @@ C The Pride of Lok-rath |QID|35061|N|Kill Uruk Foecleaver|M|55.64,47.75|
 C Silence the War Machines |QID|35067|N|Destroy the War Machines|US|M|55.77,46.53;54.57,44.89;55.97,43.02|CN|
 C If They Won't Surrender... |QID|35068|N|Finish killing the Lok-rath enemy forces.|US|
 
-T Terror of Nagrand |QID|35069|N|To Captain "Victorious" Chong|M|62.12,40.40|
-T Silence the War Machines |QID|35067|N|To Captain "Victorious" Chong|M|62.12,40.40|
-T If They Won't Surrender... |QID|35068|N|To Captain "Victorious" Chong|M|62.12,40.40|
+T Terror of Nagrand |QID|35069|N|To Captain "Victorious" Chong|M|62.13,40.43|
+T Silence the War Machines |QID|35067|N|To Captain "Victorious" Chong|M|62.13,40.43|
+T If They Won't Surrender... |QID|35068|N|To Captain "Victorious" Chong|M|62.13,40.43|
 
 T The Pride of Lok-rath |QID|35061|N|To Yrel at Yrel's Watch.|M|61.98,40.54|
 A Lok-rath is Secured |QID|35062|N|From Yrel.|M|61.98,40.54|PRE|35061|
 
-A Thaelin! |QID|35140|N|From Yrel.|M|61.98,40.54|PRE|35061|
-C Thaelin! |QID|35140|N|Click on the Baby Goren to capture them.|NC|M|62.00,40.50|
-T Thaelin! |QID|35140|N|To Yrel.|M|61.98,40.54|
+A THAELIN! |QID|35140|N|From Yrel.|M|61.98,40.54|PRE|35061|
+C THAELIN! |QID|35140|N|Click on the Baby Goren to capture them.  Or use the target button and your interact button (";" for me).|NC|M|62.00,40.50|T|Baby Goren|
+T THAELIN! |QID|35140|N|To Yrel.|M|61.98,40.54|
+
+; Active: [Nobundo Sends Word], [Lok-rath is Secured] and [Carrier Has Arrived]
+; Storylines remaining: [The Shadow of the Void], [The Dark heart of Oshugun], [The legacy of Garrosh Hellscream]
+; Flight points missing, [Joz's Rylax], [Throne of the Elements], [Nivek's Overlook], [Rilzit's Holdfast]
 
 A Carrier Has Arrived |QID|35141|N|From Yrel.|M|61.98,40.54|PRE|35140|
 K Tura'aka |QID|35920|M|64.89,39.31|N|*Rare Kill*\nDrops a cloak worth 23g.|RANK|3|
-f Joz's Rylax |QID|35141|N|With Joz Navarix|M|62.22,32.93|ACTIVE|35141|
-f Skysong Lake |QID|35141|N|With Gixmo Moneycash|M|73.68,26.64|ACTIVE|35141|
+f Joz's Rylaks |QID|35332|N|With Joz Navarix|M|62.23,32.89|
 
-T Nobundo Sends Word |QID|35332|N|To Vindicator Nobundo at the Throne of the Elements|M|71.73,19.66|
-A Called to the Throne |QID|35331|N|From Vindicator Nobundo|M|71.73,19.66|PRE|35332|
+H Telaari Station |QID|35062|N|Use your hearthstone to return to Telaari Station.|
+T Carrier Has Arrived|QID|35141|M|63.06,61.95|N|To Thaelin Darkanvil|
+T Lok-rath is Secured|QID|35062|M|63.52,61.89|N|To Rangari D'kaan|
+A And Justice for Thrall|QID|35169|PRE|34596;34957;35062|M|63.52,61.89|N|From Rangari D'kaan|
+F Yrel's Watch|QID|35332|M|63.64,61.55|N|To John Shelby|
 
+f Throne of the Elements|QID|35332|N|With Gixmo Moneycash|M|73.70,26.65|
+T Nobundo Sends Word |QID|35332|N|To Vindicator Nobundo at the Throne of the Elements|M|71.72,19.65|
+A Called to the Throne |QID|35331|N|From Vindicator Nobundo|M|71.72,19.65|PRE|35332|
 C Called to the Throne |QID|35331|QO|1|N|Speak to Vindicator Nobundo, and tell him you are ready to commune with the furies.|CHAT|
 C Called to the Throne |QID|35331|QO|2|N|Commune with the furries|NC|M|71.40,18.12|
+T Called to the Throne |QID|35331|N|To Vindicator Nobundo|M|71.72,19.65|
+A Elemental Attunement |QID|35333|N|From Vindicator Nobundo|M|71.72,19.65|PRE|35331|
+A An Old Friend |QID|34943|M|72.78,19.72|N|From Kalandrios|PRE|35331|
+A Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.86|N|From Inceneratus|
+A Guardians of the Plateau|QID|34893|M|71.34,17.86|N|From Inceneratus|
 
-T Called to the Throne |QID|35331|N|To Vindicator Nobundo|M|71.73,19.66|
-A Elemental Attunement |QID|35333|N|From Vindicator Nobundo|M|71.73,19.66|PRE|35331|
+R Skysong Lake |QID|34943|N|Head up the path through Skysong Lake and up the ledge.|M|73.85,16.50|
+T An Old Friend |QID|34943|M|75.07,22.74|N|To Gar'rok, up on the ledge.|
+A A Rare Bloom|QID|34894|M|75.07,22.74|N|From Gar'rok|
 
-A An Old Friend |QID|34943|M|72.77,19.70|N|From Kalandrios|PRE|35331|
-R Skysong Lake |N|Head up the path through Skysong Lake and up the ledge.|M|73.85,16.50|ACTIVE|34943|
-T An Old Friend |QID|34943|M|72.77,19.70|N|To Gar'rok, up on the ledge.|
+R Elemental Plateau|QID|34881|M|75.86,21.50;77.71,18.87|CS|N|Take the path all the way up to the Plateau|
+K Corrupted Wind Spirit|QID|34881|M|75.60,23.80;78.90,24.80;80.30,20.00;76.70,25.55;81.84,17.09;79.75,17.82;82.20,20.80;79.90,14.16;78.99,21.67|CN|QO|2|S|
+K Corrupted Wind Guardian|QID|34893|M|79.69,25.31|QO|2|
+C Pillar of Wind|QID|35333|M|78.32,24.42|QO|2|
 
-N *** |QID|0|N|Remainder of guide hasn't been written yet.|
+K Unstable Earth Spirit|QID|34881|M|76.45,14.30;74.38,9.75;82.30,17.65;78.30,15.80;82.10,19.80;81.10,15.76;76.10,11.70;79.59,18.29;80.70,21.55;79.50,13.18|CN|QO|1|S|
+C Unstable Earth Guardian|QID|34893|M|81.43,14.34|QO|1|
+C Pillar of Earth|QID|35333|M|79.30,11.67|QO|1|
 
-A The Call of Oshu'gun|QID|35372|M|0.0,0.0|N|From ?|
-T The Call of Oshu'gun|QID|35372|M|55.6,55.8|N|To Vindicator Nobundo|
+K Tumultous Water Spirit|QID|34881|M|78.00,15.50;80.35,18.55;72.31,9.12;74.12,11.01;75.99,12.54|CN|QO|4|S|
+K Tainted Water Guardian|QID|34893|M|75.28,14.05|QO|4|
+C Pillar of Water|QID|35333|M|73.80,10.50|QO|4|
 
-A Someone's Missing Arrow|QID|35356|M|0.0,0.0|N|From ?|
-T Someone's Missing Arrow|QID|35356|M|63.4,61.4|N|To Rangari Laara|
+C A Rare Bloom|QID|34894|M|70.7,9.9|N|Ember Blossom|
+K Volatile Fire Spirit|QID|34881|M|73.60,10.45;71.14,8.29;68.53,9.85;67.75,11.95;65.47,10.59|CN|QO|3|S|
+K Volatile Flame Guardian|QID|34893|M|66.54,8.39|QO|3|
+C Pillar of Flame|QID|35333|M|67.42,9.17|QO|3|
 
-A That Pounding Sound|QID|35337|M|63.4,61.4|N|From Kia Herman|
-C That Pounding Sound|QID|35337|M|72.0,58.0|N|Leatherhide Bull|
-T That Pounding Sound|QID|35337|M|63.4,61.4|N|To Kia Herman|
+R Throne of the Elements|QID|34894|M|67.57,11.28;68.83,14.10;70.62,17.15|CS|N|Take the back way back.|
+T A Rare Bloom|QID|34894|M|75.07,22.74|N|To Gar'rok|
+A Guise of the Deceiver|QID|34932|M|75.07,22.74|N|From Gar'rok|
+C Guise of the Deceiver|QID|34932|M|77.96,23.32|CHAT|N|Speak with her. Challe is on the path to the Plateau, but take a path to the right.|
+T Guise of the Deceiver|QID|34932|M|75.07,22.74|N|To Gar'rok|
+A The Debt We Share|QID|34941|M|75.07,22.74|N|From Gar'rok|
+C Witness|QID|34941|M|75.07,22.74|CHAT|N|Witness his passing, and wait a few moments.|
 
-A The Good Doctor|QID|35146|M|0.0,0.0|N|From ?|; Neutral
-T The Good Doctor|QID|35146|M|86.6,28.4|N|To Dr. Hadley Ricard|
+T The Debt We Share|QID|34941|M|72.6,19.6|N|To Kalandrios|
+T Elemental Attunement|QID|35333|M|71.72,19.65|N|To Vindicator Nobundo|
+T Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.86|N|To Incineratus|
+T Guardians of the Plateau|QID|34893|M|71.34,17.86|N|To Incineratus|
 
-A Bread and Circuses|QID|35921|M|0.0,0.0|N|From ?|
-T Bread and Circuses|QID|35921|M|79.4,50.2|N|To Dexyl Deadblade|
+A The Ritual of Binding|QID|35330|PRE|35333;34881;34893|M|71.72,19.65|N|From Vindicator Nobundo|
+C The Ritual of Binding|QID|35330|M|72.6,19.6|CHAT|N|Chat with Kalandrios to start the ritual.|
+T The Ritual of Binding|QID|35330|M|71.72,19.65|N|To Vindicator Nobundo|
 
-A THAELIN!|QID|35140|M|0.0,0.0|N|From ?|
-C THAELIN!|QID|35140|M|62.0,40.4|N|Baby Goren|
-T THAELIN!|QID|35140|M|62.0,40.4|N|To Vindicator Yrel|
+A The Call of Oshu'gun|QID|35372|M|71.72,19.65|N|From Vindicator Nobundo|
+F Spirit Woods|QID|35372|M|73.70,26.65|CHAT|N|Ask Gixmo Moneycash for a ride.|
+T The Call of Oshu'gun|QID|35372|M|55.52,55.92|N|To Vindicator Nobundo|
 
-A Nobundo Sends Word|QID|35332|M|0.0,0.0|N|From ?|
-T Nobundo Sends Word|QID|35332|M|71.6,19.6|N|To Vindicator Nobundo|
+N *** |QID|0|N|Remainder of guide hasn't been tested yet.|
 
-A Garrison Campaign: The Ring of Blood|QID|36282|M|0.0,0.0|N|From ?|; Neutral
-T Garrison Campaign: The Ring of Blood|QID|36282|M|63.0,36.0|N|To Gurgthock|
+A Spiritual Matters|QID|35393|PRE|35372|M|55.52,55.92|N|From  Vindicator Nobundo|
+A Silence the Call|QID|35084|M|55.46,55.92|N|From Shamanstone|
+A Disrupt the Rituals|QID|35083|M|55.46,55.92|N|From Shamanstone|
 
-A They Call Him Lantresor of the Blade|QID|34951|M|63.4,61.8|N|From Vindicator Mo'mor|
-T They Call Him Lantresor of the Blade|QID|34951|M|85.4,54.6|N|To Lantresor of the Blade|
+R Ancestral Grounds|QID|35393|M|40.4,56.8|CHAT|N|Speak with spirits.|
+C Silence the Call|QID|35084|M|54.2,67.6|QO|1|N|Warsong shamans|S|
+K Ritualist Kuhlrath|QID|35084|M|54.6,67.2|QO|2|
 
-A Garrison Campaign: The Ring of Blood|QID|36280|M|0.0,0.0|N|From ?|; Neutral
-T Garrison Campaign: The Ring of Blood|QID|36280|M|63.0,36.0|N|To Gurgthock|
+C Mok'gor totems|QID|35083|M|48,58|QO|1|
+C Gra'ah totems|QID|35083|M|52,63|QO|2|
+C Kag'ah totems|QID|35083|M|50,70|QO|3|
 
-A Tastes Like Chicken|QID|34869|M|0.0,0.0|N|From ?|; Neutral
-C Tastes Like Chicken|QID|34869|M|73.8,62.8|N|Ravenous Windroc|
-T Tastes Like Chicken|QID|34869|M|79.2,52.6|N|To Digrem Orebar|
-
-A Shields Down!|QID|34746|M|0.0,0.0|N|From ?|
-C Shields Down!|QID|34746|M|66.8,65.6|N|Packleader Kargora|
-T Shields Down!|QID|34746|M|63.0,61.8|N|To Thaelin Darkanvil|
-
-A King of the Breezestriders|QID|35357|PRE|35356|M|63.4,61.4|N|From Rangari Laara|
-C King of the Breezestriders|QID|35357|M|57.8,69.0|N|Tall Buck|
-T King of the Breezestriders|QID|35357|M|63.4,61.4|N|To Rangari Laara|
-
-A Queen of the Clefthoof|QID|35350|PRE|35337|M|0.0,0.0|N|From ?|
-C Queen of the Clefthoof|QID|35350|M|71.0,45.2|N|Banthar|
-T Queen of the Clefthoof|QID|35350|M|63.4,61.4|N|To Kia Herman|
-
-A Trouble at the Overwatch|QID|35148|PRE|34951|M|0.0,0.0|N|From ?|
-T Trouble at the Overwatch|QID|35148|M|78.8,69.2|N|To Rangari Eleena|
-
-A Taking the Fight to Nagrand|QID|37184|PRE|36601;36606|M|0.0,0.0|N|From ?|
-T Taking the Fight to Nagrand|QID|37184|M|86.4,66.2|N|To Lieutenant Balfor|
-
-A Spiritual Matters|QID|35393|PRE|35372|M|0.0,0.0|N|From ?|
+T Silence the Call|QID|35084|M|55.5,55.9|N|To Shamanstone|
+T Disrupt the Rituals|QID|35083|M|55.5,55.9|N|To Shamanstone|
 T Spiritual Matters|QID|35393|M|40.4,56.8|N|To Gar'rok|
 
-A A Choice to Make|QID|34769|PRE|34746|M|63.0,61.8|N|From Thaelin Darkanvil|
-T A Choice to Make|QID|34769|M|63.4,61.8|N|To Rangari D'kaan|
-
-A Not Without My Honor|QID|34955|PRE|34951|M|85.4,54.6|N|From Lantresor of the Blade|
-C Not Without My Honor|QID|34955|M|84.9,55.4|N|Burning Blade Locker|
-T Not Without My Honor|QID|34955|M|85.4,54.6|N|To Lantresor of the Blade|
-
-A How Tough Are You?|QID|36220|PRE|36219;36280;36281;36282|M|0.0,0.0|N|From ?|; Neutral
-C How Tough Are You?|QID|36220|M|56.8,19.2|N|Kroggol the Wall|
-C How Tough Are You?|QID|36220|M|64.2,22.8|N|Lug'dol|
-T How Tough Are You?|QID|36220|M|56.8,19.2|N|To Kroggol the Wall|
-
-A Ring of Trials: Crushmaul|QID|34662|PRE|35921;35922|M|0.0,0.0|N|From ?|; Neutral
-C Ring of Trials: Crushmaul|QID|34662|M|77.8,50.2|N|Crushmaul|
-T Ring of Trials: Crushmaul|QID|34662|M|79.4,50.2|N|To Dexyl Deadblade|
-
-A The Search For Research|QID|36275|PRE|35146|M|0.0,0.0|N|From ?|; Neutral
-C The Search For Research|QID|36275|M|88.9,19.8|N|Research Journal|
-T The Search For Research|QID|36275|M|86.6,28.4|N|To Dr. Hadley Ricard|
-
-A Called to the Throne|QID|35331|PRE|35332|M|0.0,0.0|N|From ?|
-T Called to the Throne|QID|35331|M|71.6,19.6|N|To Vindicator Nobundo|
-
-A Fruitful Ventures|QID|34819|PRE|34869|M|0.0,0.0|N|From ?|; Neutral
-C Fruitful Ventures|QID|34819|M|79.2,44.2|N|Nagrand Cherry|
-T Fruitful Ventures|QID|34819|M|79.2,52.6|N|To Digrem Orebar|
-
-A The Blade Itself|QID|34954|PRE|34951|M|85.4,54.6|N|From Lantresor of the Blade|
-C The Blade Itself|QID|34954|M|86.0,54.0|N|Instructor Luhk|
-T The Blade Itself|QID|34954|M|85.4,54.6|N|To Lantresor of the Blade|
-
-A Taking the Fight to Nagrand|QID|34674|PRE|36601;36606|M|0.0,0.0|N|From ?|
-T Taking the Fight to Nagrand|QID|34674|M|86.4,66.2|N|To Lieutenant Balfor|
-
-A A Fascinating Fungus|QID|36284|PRE|35146|M|0.0,0.0|N|From ?|; Neutral
-C A Fascinating Fungus|QID|36284|M|86.9,19.5|N|Spore Sac|
-T A Fascinating Fungus|QID|36284|M|86.6,28.4|N|To Dr. Hadley Ricard|
-
-A Carrier Has Arrived|QID|35141|PRE|35140|M|0.0,0.0|N|From ?|
-T Carrier Has Arrived|QID|35141|M|63.0,61.8|N|To Thaelin Darkanvil|
-
-A The Pride of Lok-rath|QID|35061|PRE|34954;34955;35148|M|0.0,0.0|N|From ?|
-C The Pride of Lok-rath|QID|35061|M|55.6,47.4|N|Uruk Foecleaver|
-T The Pride of Lok-rath|QID|35061|M|62.0,40.4|N|To Vindicator Yrel|
-
-A New Babies|QID|34900|PRE|34819|M|0.0,0.0|N|From ?|; Neutral
-T New Babies|QID|34900|M|79.2,52.6|N|To Digrem Orebar|
-
-A Entry Fee|QID|36221|PRE|36220|M|0.0,0.0|N|From ?|; Neutral
-T Entry Fee|QID|36221|M|56.8,13.0|N|To Wodin the Troll-Servant|
-
-A Obtaining Ogre Offensive Orders|QID|34593|PRE|34954;34955;35148|M|0.0,0.0|N|From ?|
-C Obtaining Ogre Offensive Orders|QID|34593|M|84.0,73.4|N|Crulgorosh|
-T Obtaining Ogre Offensive Orders|QID|34593|M|84.0,76.8|N|To Rangari Mirana|
-
-A The Might of the Warsong|QID|34675|PRE|34674;37184|M|86.4,66.2|N|From Lieutenant Balfor|
-T The Might of the Warsong|QID|34675|M|63.4,61.8|N|To Rangari D'kaan|
-
-A Meet Me in the Cavern|QID|34956|PRE|34954;34955;35148|M|85.4,54.6|N|From Lantresor of the Blade|
-T Meet Me in the Cavern|QID|34956|M|44.2,19.8|N|To Lantresor of the Blade|
-
-A Dirgemire|QID|36285|PRE|36275;36284|M|0.0,0.0|N|From ?|; Neutral
-C Dirgemire|QID|36285|M|84.6,17.2|N|Dirgemire|
-T Dirgemire|QID|36285|M|86.6,28.4|N|To Dr. Hadley Ricard|
-
-A Lok-rath is Secured|QID|35062|PRE|34593;34956;35061|M|0.0,0.0|N|From ?|
-T Lok-rath is Secured|QID|35062|M|63.4,61.8|N|To Rangari D'kaan|
-
-A The Champion of Blood|QID|36222|PRE|36221|M|0.0,0.0|N|From ?|; Neutral
-C The Champion of Blood|QID|36222|M|56.0,13.8|N|Azuka Bladefury|
-T The Champion of Blood|QID|36222|M|56.8,13.0|N|To Wodin the Troll-Servant|
-
-A Challenge of the Masters|QID|34957|PRE|34593;34956;35061|M|44.2,19.8|N|From Lantresor of the Blade|
-C Challenge of the Masters|QID|34957|M|90.8,60.6|N|Warlord Dharl of the Thrice-Bloodied Blade|
-C Challenge of the Masters|QID|34957|M|55.2,68.4|N|Warlord Dharl of the Thrice-Bloodied Blade|
-T Challenge of the Masters|QID|34957|M|63.4,61.8|N|To Rangari D'kaan|
-
-A Reglakk's Research|QID|34596|PRE|34593;34956;35061|M|0.0,0.0|N|From ?|
-C Reglakk's Research|QID|34596|M|81.6,76.6|N|Bulgorg the Wind Slayer|
-T Reglakk's Research|QID|34596|M|63.4,61.8|N|To Rangari D'kaan|
-
-A Up and Running|QID|34678|PRE|34675|M|0.0,0.0|N|From ?|
-C Up and Running|QID|34678|M|62.1,62.1|N|Assorted Engineering Parts|
-T Up and Running|QID|34678|M|63.0,61.8|N|To Thaelin Darkanvil|
-
-A Operation: Surprise Party|QID|34682|PRE|34678|M|63.0,61.8|N|From Thaelin Darkanvil|
-T Operation: Surprise Party|QID|34682|M|65.8,68.6|N|To Rangari Ogir|
-
-A And Justice for Thrall|QID|35169|PRE|34596;34957;35062|M|0.0,0.0|N|From ?|
-C And Justice for Thrall|QID|35169|M|74.6,69.4|N|Vindicator Yrel|
-C And Justice for Thrall|QID|35169|M|71.4,84.4|N|Garrosh Hellscream|
-T And Justice for Thrall|QID|35169|M|66.8,33.8|N|To Vindicator Yrel|
+N *** |QID|0|N|Remainder of guide is a collection of quests that are likely to be in the zone.|
 
 A A Wrong of Earth and Fire|QID|33928|M|0.0,0.0|N|From ?|; Neutral
 T A Wrong of Earth and Fire|QID|33928|M|71.4,18.0|N|To Incineratus|
 
-A Declawing The Competition|QID|34512|M|0.0,0.0|N|From ?|; Neutral
-T Declawing The Competition|QID|34512|M|78.6,48.4|N|To Pyxni Pennypocket|
+A The Fate of Gordawg|QID|35395|M|0.0,0.0|N|From ?|
+C The Fate of Gordawg|QID|35395|M|43.0,38.2|N|Gordawg|
+T The Fate of Gordawg|QID|35395|M|72.6,19.6|N|To Kalandrios|
 
-A WANTED: Razorpaw!|QID|34513|M|79.0,59.0|N|From Bounty Board|; Neutral
-C WANTED: Razorpaw!|QID|34513|M|75.0,62.2|N|Razorpaw|
-T WANTED: Razorpaw!|QID|34513|M|78.6,48.4|N|To Pyxni Pennypocket|
+C And Justice for Thrall|QID|35169|M|74.6,69.4|N|Vindicator Yrel|
+C And Justice for Thrall|QID|35169|M|71.4,84.4|N|Garrosh Hellscream|
+T And Justice for Thrall|QID|35169|M|66.8,33.8|N|To Vindicator Yrel|
 
-A They've Got The Goods!|QID|34514|M|0.0,0.0|N|From ?|; Neutral
-C They've Got The Goods!|QID|34514|M|76.2,61.2|N|Stolen Goods|
-T They've Got The Goods!|QID|34514|M|78.6,48.4|N|To Pyxni Pennypocket|
+A Someone's Missing Arrow|QID|35356|M|0.0,0.0|N|From ?|
+T Someone's Missing Arrow|QID|35356|M|63.4,61.4|N|To Rangari Laara|
 
-A Gobnapped|QID|34515|M|0.0,0.0|N|From ?|; Neutral
-C Gobnapped|QID|34515|M|74.8,60.1|N|Sabermaw Cage|
-T Gobnapped|QID|34515|M|78.6,48.4|N|To Pyxni Pennypocket|
+A Bread and Circuses|QID|35921|M|0.0,0.0|N|From ?|
+T Bread and Circuses|QID|35921|M|79.4,50.2|N|To Dexyl Deadblade|
 
-A My Precious!|QID|34516|M|0.0,0.0|N|From ?|; Neutral
-T My Precious!|QID|34516|M|74.8,61.6|N|To Bazwix|
+A Garrison Campaign: The Ring of Blood|QID|36282|M|0.0,0.0|N|From ?|; Neutral
+T Garrison Campaign: The Ring of Blood|QID|36282|M|63.0,36.0|N|To Gurgthock|
 
-A Obliterating Ogres|QID|34572|M|78.8,69.2|N|From Rangari Eleena|
-C Obliterating Ogres|QID|34572|M|82.0,73.6|N|Gorian Gladiator|
-C Obliterating Ogres|QID|34572|M|82.4,80.4|N|Gorian Cohort|
-C Obliterating Ogres|QID|34572|M|80.2,72.8|N|Thorg|
-C Obliterating Ogres|QID|34572|M|37.6,73.2|N|Highmaul Emissary Guard|
-C Obliterating Ogres|QID|34572|M|81.6,76.6|N|Bulgorg the Wind Slayer|
-T Obliterating Ogres|QID|34572|M|84.0,76.8|N|To Rangari Mirana|
+A Garrison Campaign: The Ring of Blood|QID|36280|M|0.0,0.0|N|From ?|; Neutral
+T Garrison Campaign: The Ring of Blood|QID|36280|M|63.0,36.0|N|To Gurgthock|
 
-A Removing the Paper Trail|QID|34597|M|81.3,70.3|N|From Ogre Scrolls|
-C Removing the Paper Trail|QID|34597|M|81.6,72.4|N|Box of Ogre Research|
-T Removing the Paper Trail|QID|34597|M|84.0,76.8|N|To Rangari Mirana|
+A Entry Fee|QID|36221|PRE|36220|M|0.0,0.0|N|From ?|; Neutral
+T Entry Fee|QID|36221|M|56.8,13.0|N|To Wodin the Troll-Servant|
 
-A The Missing Caravan|QID|34598|M|0.0,0.0|N|From ?|; Neutral
-T The Missing Caravan|QID|34598|M|79.0,58.8|N|To Greezlex Fizzpinch|
-
-A Ring of Trials: Raketalon|QID|34663|M|0.0,0.0|N|From ?|; Neutral
-T Ring of Trials: Raketalon|QID|34663|M|79.4,50.2|N|To Dexyl Deadblade|
-
-A Ring of Trials: Hol'yelaa|QID|34664|M|0.0,0.0|N|From ?|; Neutral
-T Ring of Trials: Hol'yelaa|QID|34664|M|79.4,50.2|N|To Dexyl Deadblade|
-
-A Ring of Trials: Captain Boomspark|QID|34665|M|0.0,0.0|N|From ?|; Neutral
-T Ring of Trials: Captain Boomspark|QID|34665|M|79.4,50.2|N|To Dexyl Deadblade|
-
-A Ring of Trials: Roakk the Zealot|QID|34666|M|0.0,0.0|N|From ?|; Neutral
-C Ring of Trials: Roakk the Zealot|QID|34666|M|77.8,50.2|N|Roakk the Zealot|
-T Ring of Trials: Roakk the Zealot|QID|34666|M|79.4,50.2|N|To Dexyl Deadblade|
-
-A Mo'mor Might Know|QID|34716|M|0.0,0.0|N|From ?|
-T Mo'mor Might Know|QID|34716|M|66.6,68.6|N|To Vindicator Mo'mor|
-
-A Operation: Just Arrowhead|QID|34717|M|0.0,0.0|N|From ?|
-C Operation: Just Arrowhead|QID|34717|M|65.2,65.4|N|Warsong Raider|
-C Operation: Just Arrowhead|QID|34717|M|66.6,68.4|N|Invading Warsinger|
-C Operation: Just Arrowhead|QID|34717|M|65.4,68.2|N|Savage Warwolf|
-T Operation: Just Arrowhead|QID|34717|M|63.4,61.8|N|To Rangari D'kaan|
-
-A The Others|QID|34718|M|66.6,68.6|N|From Vindicator Mo'mor|
-C The Others|QID|34718|M|68.4,67.0|N|Caregiver Felaani|
-C The Others|QID|34718|M|65.2,65.0|N|Arbiter Khan|
-C The Others|QID|34718|M|67.6,64.4|N|Hansel Heavyhands|
-T The Others|QID|34718|M|66.6,68.6|N|To Vindicator Mo'mor|
-
-A ... and My Hammer|QID|34719|M|66.6,68.6|N|From Vindicator Mo'mor|
-C ... and My Hammer|QID|34719|M|65.9,63.0|N|Mo'mor's Holy Hammer|
-T ... and My Hammer|QID|34719|M|66.6,68.6|N|To Vindicator Mo'mor|
-
-A The Honor of a Blademaster|QID|34747|M|82.6,46.6|N|From Lantresor of the Blade|
-T The Honor of a Blademaster|QID|34747|M|82.6,46.6|N|To Lantresor of the Blade|
-
-A A Lesson in Minerology|QID|34809|M|0.0,0.0|N|From ?|; Neutral
-C A Lesson in Minerology|QID|34809|M|65.6,54.8|N|Raging Crusher|
-T A Lesson in Minerology|QID|34809|M|71.1,52.4|N|To Gold-O-Matic 9000|
-
-A Gazmolf Futzwangler and the Highmaul Crusade|QID|34810|M|0.0,0.0|N|From ?|; Neutral
-T Gazmolf Futzwangler and the Highmaul Crusade|QID|34810|M|71.2,52.4|N|To Gazmolf Futzwangler|
-
-A Good Help is Hard to Find|QID|34811|M|0.0,0.0|N|From ?|; Neutral
-C Good Help is Hard to Find|QID|34811|M|67.7,51.4|N|Loose Soil|
-T Good Help is Hard to Find|QID|34811|M|71.0,52.4|N|To Trixi Leroux|
-
-A Removing the Reinforcements|QID|34877|M|84.0,76.8|N|From Rangari Mirana|
-T Removing the Reinforcements|QID|34877|M|63.4,61.8|N|To Rangari D'kaan|
-
-A Earth, Wind and Fire...and Water|QID|34881|M|0.0,0.0|N|From ?|; Neutral
-C Earth, Wind and Fire...and Water|QID|34881|M|79.4,12.0|N|Unstable Earth Spirit|
-T Earth, Wind and Fire...and Water|QID|34881|M|71.4,18.0|N|To Incineratus|
-
-A Guardians of the Plateau|QID|34893|M|0.0,0.0|N|From ?|; Neutral
-C Guardians of the Plateau|QID|34893|M|81.6,14.6|N|Unstable Earth Guardian|
-C Guardians of the Plateau|QID|34893|M|79.6,25.2|N|Corrupted Wind Guardian|
-C Guardians of the Plateau|QID|34893|M|66.6,8.6|N|Volatile Flame Guardian|
-C Guardians of the Plateau|QID|34893|M|75.2,13.8|N|Tainted Water Guardian|
-T Guardians of the Plateau|QID|34893|M|71.4,18.0|N|To Incineratus|
-
-A A Rare Bloom|QID|34894|M|0.0,0.0|N|From ?|; Neutral
-C A Rare Bloom|QID|34894|M|70.7,9.9|N|Ember Blossom|
-T A Rare Bloom|QID|34894|M|75.0,22.8|N|To Gar'rok|
-
-A Guise of the Deceiver|QID|34932|M|0.0,0.0|N|From ?|; Neutral
-C Guise of the Deceiver|QID|34932|M|77.8,23.2|N|Challe|
-T Guise of the Deceiver|QID|34932|M|75.0,22.8|N|To Gar'rok|
-
-A The Debt We Share|QID|34941|M|0.0,0.0|N|From ?|; Neutral
-T The Debt We Share|QID|34941|M|72.6,19.6|N|To Kalandrios|
-
-A An Old Friend|QID|34943|M|0.0,0.0|N|From ?|; Neutral
-T An Old Friend|QID|34943|M|75.0,22.8|N|To Gar'rok|
-
-A The Friend o' My Enemy|QID|34952|M|63.4,61.8|N|From Hansel Heavyhands|
-C The Friend o' My Enemy|QID|34952|M|85.4,55.6|N|Blademaster Trainee|
-C The Friend o' My Enemy|QID|34952|M|87.2,58.0|N|Burning Flameseer|
-C The Friend o' My Enemy|QID|34952|M|85.8,56.8|N|Hallvalor Villager|
-C The Friend o' My Enemy|QID|34952|M|30.0,16.0|N|Blademaster Trainee|
-T The Friend o' My Enemy|QID|34952|M|63.4,61.8|N|To Hansel Heavyhands|
+A The Champion of Blood|QID|36222|PRE|36221|M|0.0,0.0|N|From ?|; Neutral
+C The Champion of Blood|QID|36222|M|56.0,13.8|N|Azuka Bladefury|
+T The Champion of Blood|QID|36222|M|56.8,13.0|N|To Wodin the Troll-Servant|
 
 A Lighting The Darkness|QID|35022|M|0.0,0.0|N|From ?|; Neutral
 T Lighting The Darkness|QID|35022|M|40.4,56.8|N|To Gar'rok|
@@ -677,32 +517,6 @@ T Echoes of the Past|QID|35023|M|40.4,56.6|N|To Dahaka|
 A Golmash Hellscream|QID|35024|M|0.0,0.0|N|From ?|; Neutral
 C Golmash Hellscream|QID|35024|M|37.4,55.6|N|Golmash Hellscream|
 T Golmash Hellscream|QID|35024|M|40.4,56.8|N|To Gar'rok|
-
-A Along the Riverside|QID|35059|M|0.0,0.0|N|From ?|
-T Along the Riverside|QID|35059|M|62.0,40.4|N|To Vindicator Yrel|
-
-A Silence the War Machines|QID|35067|M|0.0,0.0|N|From ?|
-T Silence the War Machines|QID|35067|M|62.2,40.4|N|To Captain "Victorious" Chong|
-
-A If They Won't Surrender...|QID|35068|M|0.0,0.0|N|From ?|
-C If They Won't Surrender...|QID|35068|M|55.6,43.2|N|Warsong Wolf Master|
-C If They Won't Surrender...|QID|35068|M|53.6,46.0|N|Nagrand Raider|
-C If They Won't Surrender...|QID|35068|M|55.0,44.4|N|Lok-rath Windtamer|
-C If They Won't Surrender...|QID|35068|M|55.8,43.0|N|Iron Cannoneer|
-T If They Won't Surrender...|QID|35068|M|62.2,40.4|N|To Captain "Victorious" Chong|
-
-A Terror of Nagrand|QID|35069|M|0.0,0.0|N|From ?|
-C Terror of Nagrand|QID|35069|M|58.0,43.2|N|Shagor|
-T Terror of Nagrand|QID|35069|M|62.2,40.4|N|To Captain "Victorious" Chong|
-
-A Disrupt the Rituals|QID|35083|M|0.0,0.0|N|From ?|; Neutral
-T Disrupt the Rituals|QID|35083|M|55.5,55.9|N|To Shamanstone|
-
-A Silence the Call|QID|35084|M|0.0,0.0|N|From ?|; Neutral
-C Silence the Call|QID|35084|M|54.2,67.6|N|Warsong Axe-Singer|
-C Silence the Call|QID|35084|M|52.2,63.0|N|Warsong Windcaller|
-C Silence the Call|QID|35084|M|54.6,67.2|N|Ritualist Kuhlrath|
-T Silence the Call|QID|35084|M|55.5,55.9|N|To Shamanstone|
 
 A Through the Nether|QID|35085|M|0.0,0.0|N|From ?|; Neutral
 T Through the Nether|QID|35085|M|55.5,55.9|N|To Shamanstone|
@@ -723,24 +537,9 @@ A Fragments of the Past|QID|35147|M|50.2,41.2|N|From Sallee Silverclamp|; Neutra
 C Fragments of the Past|QID|35147|M|49.9,25.7|N|Highmaul Reliquary|
 T Fragments of the Past|QID|35147|M|50.2,41.2|N|To Sallee Silverclamp|
 
-A The Ritual of Binding|QID|35330|M|0.0,0.0|N|From ?|
-T The Ritual of Binding|QID|35330|M|71.6,19.6|N|To Vindicator Nobundo|
-
-A Elemental Attunement|QID|35333|M|0.0,0.0|N|From ?|
-C Elemental Attunement|QID|35333|M|67.5,9.2|N|Pillar of Flame|
-T Elemental Attunement|QID|35333|M|71.6,19.6|N|To Vindicator Nobundo|
-
-A Shooting the Breeze|QID|35338|M|63.4,61.4|N|From Rangari Laara|
-C Shooting the Breeze|QID|35338|M|42.2,70.2|N|Breezestrider Stallion|
-T Shooting the Breeze|QID|35338|M|63.4,61.4|N|To Rangari Laara|
-
 A The Warsong Threat|QID|35386|M|0.0,0.0|N|From ?|
 C The Warsong Threat|QID|35386|M|47.1,56.1|N|Mixed Unit Tactics|
 T The Warsong Threat|QID|35386|M|62.0,62.0|N|To Captain Washburn|
-
-A The Fate of Gordawg|QID|35395|M|0.0,0.0|N|From ?|
-C The Fate of Gordawg|QID|35395|M|43.0,38.2|N|Gordawg|
-T The Fate of Gordawg|QID|35395|M|72.6,19.6|N|To Kalandrios|
 
 A The Dark Heart of Oshu'gun|QID|35396|M|0.0,0.0|N|From ?|
 C The Dark Heart of Oshu'gun|QID|35396|M|48.2,65.2|N|K'ure|
@@ -768,161 +567,16 @@ T Dark Binding|QID|35398|M|51.2,61.6|N|To Vindicator Nobundo|
 A Feline Friends Forever|QID|35596|M|40.4,76.2|N|From Goldmane the Skinner|; Neutral
 T Feline Friends Forever|QID|35596|M|40.4,76.2|N|To Goldmane the Skinner|
 
-A A Lesson in Archaeology|QID|35632|M|0.0,0.0|N|From ?|; Neutral
-T A Lesson in Archaeology|QID|35632|M|71.2,52.4|N|To Gazmolf Futzwangler|
-
-A A Lesson in Teamwork|QID|35663|M|0.0,0.0|N|From ?|; Neutral
-C A Lesson in Teamwork|QID|35663|M|56.9,37.3|N|Mysterious Artifact|
-T A Lesson in Teamwork|QID|35663|M|71.2,52.4|N|To Gazmolf Futzwangler|
-
 A Meatgut Needs Bones|QID|35928|M|78.4,52.4|N|From Meatgut|; Neutral
 C Meatgut Needs Bones|QID|35928|M|71.0,45.2|N|Banthar|
 T Meatgut Needs Bones|QID|35928|M|78.4,52.4|N|To Meatgut|
 
-A Whacking Weeds|QID|36273|M|0.0,0.0|N|From ?|; Neutral
-C Whacking Weeds|QID|36273|M|84.2,25.2|N|Spiteleaf Sprout|
-C Whacking Weeds|QID|36273|M|84.0,25.6|N|Spiteleaf Spitter|
-C Whacking Weeds|QID|36273|M|86.0,20.4|N|Spiteleaf Squirt|
-C Whacking Weeds|QID|36273|M|86.0,20.4|N|Spiteleaf Stabber|
-C Whacking Weeds|QID|36273|M|84.2,25.0|N|Spiteleaf Mender|
-C Whacking Weeds|QID|36273|M|83.2,22.6|N|King Bippy Bop|
-C Whacking Weeds|QID|36273|M|86.2,24.6|N|Spiteleaf Spitter|
-C Whacking Weeds|QID|36273|M|87.0,26.4|N|Spiteleaf Stabber|
-T Whacking Weeds|QID|36273|M|77.4,47.4|N|To Marybelle Walsh|
-
 A Out of the Shadows|QID|36289|M|0.0,0.0|N|From ?|
 T Out of the Shadows|QID|36289|M|37.8,37.0|N|To Bodrick Grey|
-
-A Wrangling a Wolf|QID|36914|M|0.0,0.0|N|From ?|
-T Wrangling a Wolf|QID|36914|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Talbuk Training: Cruel Ogres|QID|36976|M|0.0,0.0|N|From ?|
-T Talbuk Training: Cruel Ogres|QID|36976|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Talbuk Training: Darkwing Roc|QID|36977|M|0.0,0.0|N|From ?|
-T Talbuk Training: Darkwing Roc|QID|36977|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Talbuk Training: Moth of Wrath|QID|36978|M|0.0,0.0|N|From ?|
-T Talbuk Training: Moth of Wrath|QID|36978|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Talbuk Training: Thundercall|QID|36979|M|0.0,0.0|N|From ?|
-T Talbuk Training: Thundercall|QID|36979|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Talbuk Training: Ironbore|QID|36980|M|0.0,0.0|N|From ?|
-T Talbuk Training: Ironbore|QID|36980|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Talbuk Training: Orc Hunters|QID|36981|M|0.0,0.0|N|From ?|
-T Talbuk Training: Orc Hunters|QID|36981|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Clefthoof Training: Cruel Ogres|QID|36988|M|0.0,0.0|N|From ?|
-T Clefthoof Training: Cruel Ogres|QID|36988|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Clefthoof Training: Darkwing Roc|QID|36989|M|0.0,0.0|N|From ?|
-T Clefthoof Training: Darkwing Roc|QID|36989|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Clefthoof Training: Moth of Wrath|QID|36990|M|0.0,0.0|N|From ?|
-T Clefthoof Training: Moth of Wrath|QID|36990|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Clefthoof Training: Thundercall|QID|36991|M|0.0,0.0|N|From ?|
-T Clefthoof Training: Thundercall|QID|36991|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Clefthoof Training: Ironbore|QID|36992|M|0.0,0.0|N|From ?|
-T Clefthoof Training: Ironbore|QID|36992|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Clefthoof Training: Orc Hunters|QID|36993|M|0.0,0.0|N|From ?|
-T Clefthoof Training: Orc Hunters|QID|36993|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Boar Training: Cruel Ogres|QID|36998|M|0.0,0.0|N|From ?|
-T Boar Training: Cruel Ogres|QID|36998|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Boar Training: Darkwing Roc|QID|36999|M|0.0,0.0|N|From ?|
-T Boar Training: Darkwing Roc|QID|36999|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Boar Training: Moth of Wrath|QID|37000|M|0.0,0.0|N|From ?|
-T Boar Training: Moth of Wrath|QID|37000|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Boar Training: Thundercall|QID|37001|M|0.0,0.0|N|From ?|
-T Boar Training: Thundercall|QID|37001|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Boar Training: Ironbore|QID|37002|M|0.0,0.0|N|From ?|
-T Boar Training: Ironbore|QID|37002|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Boar Training: Orc Hunters|QID|37003|M|0.0,0.0|N|From ?|
-T Boar Training: Orc Hunters|QID|37003|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Boar Training: The Garn|QID|37004|M|0.0,0.0|N|From ?|
-T Boar Training: The Garn|QID|37004|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Riverbeast Training: Cruel Ogres|QID|37007|M|0.0,0.0|N|From ?|
-T Riverbeast Training: Cruel Ogres|QID|37007|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Riverbeast Training: Darkwing Roc|QID|37008|M|0.0,0.0|N|From ?|
-T Riverbeast Training: Darkwing Roc|QID|37008|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Riverbeast Training: Moth of Wrath|QID|37009|M|0.0,0.0|N|From ?|
-T Riverbeast Training: Moth of Wrath|QID|37009|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Riverbeast Training: Thundercall|QID|37010|M|0.0,0.0|N|From ?|
-T Riverbeast Training: Thundercall|QID|37010|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Riverbeast Training: Ironbore|QID|37011|M|0.0,0.0|N|From ?|
-T Riverbeast Training: Ironbore|QID|37011|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Riverbeast Training: Orc Hunters|QID|37012|M|0.0,0.0|N|From ?|
-T Riverbeast Training: Orc Hunters|QID|37012|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Riverbeast Training: The Garn|QID|37013|M|0.0,0.0|N|From ?|
-T Riverbeast Training: The Garn|QID|37013|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Elekk Training: Cruel Ogres|QID|37015|M|0.0,0.0|N|From ?|
-T Elekk Training: Cruel Ogres|QID|37015|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Elekk Training: Darkwing Roc|QID|37016|M|0.0,0.0|N|From ?|
-T Elekk Training: Darkwing Roc|QID|37016|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Elekk Training: Moth of Wrath|QID|37017|M|0.0,0.0|N|From ?|
-T Elekk Training: Moth of Wrath|QID|37017|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Elekk Training: Thundercall|QID|37018|M|0.0,0.0|N|From ?|
-T Elekk Training: Thundercall|QID|37018|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Elekk Training: Ironbore|QID|37019|M|0.0,0.0|N|From ?|
-T Elekk Training: Ironbore|QID|37019|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Elekk Training: Orc Hunters|QID|37020|M|0.0,0.0|N|From ?|
-T Elekk Training: Orc Hunters|QID|37020|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Elekk Training: The Garn|QID|37021|M|0.0,0.0|N|From ?|
-T Elekk Training: The Garn|QID|37021|M|39.8,56.6|N|To Keegan Firebeard|
-
-A Wolf Training: Cruel Ogres|QID|37022|M|0.0,0.0|N|From ?|
-T Wolf Training: Cruel Ogres|QID|37022|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Wolf Training: Darkwing Roc|QID|37023|M|0.0,0.0|N|From ?|
-T Wolf Training: Darkwing Roc|QID|37023|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Wolf Training: Moth of Wrath|QID|37024|M|0.0,0.0|N|From ?|
-T Wolf Training: Moth of Wrath|QID|37024|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Wolf Training: Thundercall|QID|37025|M|0.0,0.0|N|From ?|
-T Wolf Training: Thundercall|QID|37025|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Wolf Training: Ironbore|QID|37026|M|0.0,0.0|N|From ?|
-T Wolf Training: Ironbore|QID|37026|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Wolf Training: Orc Hunters|QID|37027|M|0.0,0.0|N|From ?|
-T Wolf Training: Orc Hunters|QID|37027|M|40.0,56.8|N|To Fanny Firebeard|
-
-A Wolf Training: The Garn|QID|37028|M|0.0,0.0|N|From ?|
-T Wolf Training: The Garn|QID|37028|M|40.0,56.8|N|To Fanny Firebeard|
 
 A A Rare Find|QID|37125|M|50.2,41.2|N|From Sallee Silverclamp|; Neutral
 C A Rare Find|QID|37125|M|49.9,25.7|N|Highmaul Reliquary|
 T A Rare Find|QID|37125|M|50.2,41.2|N|To Sallee Silverclamp|
-
-A The Dead Do Not Forget...|QID|37318|M|0.0,0.0|N|From ?|; Neutral
-C The Dead Do Not Forget...|QID|37318|M|78.2,25.4|N|Ancient Snarlpaw Skull|
-T The Dead Do Not Forget...|QID|37318|M|79.7,30.2|N|To Boneseer's Cauldron|
 
 ]]
 
