@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2014-12-02 03:15
+-- Who: Blanckaert
+-- Log: Added QID for Quest Seeds of Fear, QID#31603
+
+-- URL: http://wow-pro.com/node/3504/revisions/26879/view
 -- Date: 2014-11-08 00:18
 -- Who: Ludovicus
 -- Log: BAd N's
@@ -375,7 +380,7 @@ T Kypa'rak's Core|QID|31598|M|55.00,35.40|N|To Ambersmith Zikk.|
 
 T The Matriarch's Maw|QID|31599|M|55.00,35.40|N|To Ambersmith Zikk.|
 
-T Seeds of Fear|M|55.00,35.40|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20
+T Seeds of Fear|QID|31603|M|55.00,35.40|L|87903 5|N|If you have 5 Dread Amber Shards you can turn them into Amersmith Zikk for 250 Klaxxi Rep.|;patch 5.1 changed to 5 shards from 20 ;Added QID ID for Quest
 
 T Culling the Swarm|QID|31109|M|55.10,35.90|N|To Kil'ruk the Wind-Reaver.|
 

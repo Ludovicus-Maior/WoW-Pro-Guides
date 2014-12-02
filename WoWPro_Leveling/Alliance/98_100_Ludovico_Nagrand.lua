@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2014-12-02 01:46
+-- Who: Ludovicus
+-- Log: Played through [Spiritual Matters].
+
+-- URL: http://wow-pro.com/node/3618/revisions/27064/view
 -- Date: 2014-12-01 01:58
 -- Who: Ludovicus
 -- Log: Removed Stable quests.  Played through [The Call of Oshu'gun].
@@ -454,32 +459,63 @@ A The Call of Oshu'gun|QID|35372|M|71.72,19.65|N|From Vindicator Nobundo|
 F Spirit Woods|QID|35372|M|73.70,26.65|CHAT|N|Ask Gixmo Moneycash for a ride.|
 T The Call of Oshu'gun|QID|35372|M|55.52,55.92|N|To Vindicator Nobundo|
 
-N *** |QID|0|N|Remainder of guide hasn't been tested yet.|
-
-A Spiritual Matters|QID|35393|PRE|35372|M|55.52,55.92|N|From  Vindicator Nobundo|
+A Spiritual Matters|QID|35393|PRE|35372|M|55.52,55.92|N|From Vindicator Nobundo|
+A The Pale Threat|QID|35397|M|55.52,55.92|N|From Vindicator Nobundo|
+A Dark Binding|QID|35398|M|55.52,55.92|N|From Vindicator Nobundo|
 A Silence the Call|QID|35084|M|55.46,55.92|N|From Shamanstone|
 A Disrupt the Rituals|QID|35083|M|55.46,55.92|N|From Shamanstone|
 
-R Ancestral Grounds|QID|35393|M|40.4,56.8|CHAT|N|Speak with spirits.|
-C Silence the Call|QID|35084|M|54.2,67.6|QO|1|N|Warsong shamans|S|
-K Ritualist Kuhlrath|QID|35084|M|54.6,67.2|QO|2|
+C The Pale Threat|QID|35397|M|57.6,59.2|QO|2|N|Kill the Pale|S|
+K Enslaved Earth Spirit|QID|35398|M|52.6,61.2|T|Enslaved Earth Spirit|QO|1|S|
+K Greyseer|QID|35397|M|66.30,18.00|QO|1|Z|The Underpale|N|Head to the cave at the back of Shadowfall Canyon. The arrow may be flaky until you get into the cave.|
 
-C Mok'gor totems|QID|35083|M|48,58|QO|1|
-C Gra'ah totems|QID|35083|M|52,63|QO|2|
-C Kag'ah totems|QID|35083|M|50,70|QO|3|
+T The Pale Threat|QID|35397|M|46.12,32.83|Z|The Underpale|N|To Vindicator Nobundo, in the cave.|
+T Dark Binding   |QID|35398|M|46.12,32.83|Z|The Underpale|N|To Vindicator Nobundo, in the cave.|
+A The Fate of Gordawg|QID|35395|M|46.12,32.83|Z|The Underpale|N|To Vindicator Nobundo, in the cave.|
+A The Dark Heart of Oshu'gun|QID|35396|M|46.12,32.83|Z|The Underpale|N|To Vindicator Nobundo, in the cave.|
+l Heart of the Fury|QID|35395|M|41.0,40.5|Z|The Underpale|QO|1|N|Kill Gordawg and loot the heart.|
+
+C The Dark Heart of Oshu'gun|QID|35396|M|17.50,64.50|Z|The Underpale|QO|1|N|Head into the opening behind Gordawg and keep on going till you see Cho'gall.|
+K Decimatus|QID|35396|M|17.09,64.70|Z|The Underpale|QO|2|T|Decimatus|
+R Oshu'gun|QID|35396|M|22.67,65.43;19.77,72.35;11.88,68.73;8.41,60.20|CS|Z|The Underpale|N|Follow Nobundo up the ramp and leave the Sanctum here. Climb up the crack.|
+
+C Mok'gor totems|QID|35083|M|48.16,58.49|QO|1|
+C Gra'ah totems|QID|35083|M|52.39,63.35|QO|2|
+A The Warsong Threat|QID|35386|M|51.87,62.09|N|From Warsong Plans|
+C Kag'ah totems|QID|35083|M|50.54,70.49|QO|3|
+
+C Silence the Call|QID|35084|M|54.2,67.6|QO|2|N|Warsong shamans|S|
+K Ritualist Kuhlrath|QID|35084|M|54.70,67.11|QO|1|N|In the hut.|
+
+R Ancestral Grounds|QID|35393|M|41.33,56.54|N|Get ready to speak with spirits.|
+T Spiritual Matters|QID|35393|M|40.43,56.79|N|To Gar'rok|
+A Lighting The Darkness|QID|35022|M|40.43,56.79|N|From Gar'rok|
+A Echoes of the Past|QID|35023|M|40.40,56.75|N|From Dahaka|
+N *** |QID|0|N|Remainder of guide hasn't been tested yet.|
+
+C Echoes of the Past|QID|35023|M|37.8,56.2|N|Tormented Echo|
+C Echoes of the Past|QID|35023|M|37.4,53.0|N|Tormented Echo|
+C Echoes of the Past|QID|35023|M|40.4,68.6|N|Void-Crazed Spirit|
+C Echoes of the Past|QID|35023|M|40.4,68.6|N|Void-Crazed Spirit|
+
+T Lighting The Darkness|QID|35022|M|40.43,56.79|N|To Gar'rok|
+T Echoes of the Past|QID|35023|M|40.4,56.6|N|To Dahaka|
 
 T Silence the Call|QID|35084|M|55.5,55.9|N|To Shamanstone|
 T Disrupt the Rituals|QID|35083|M|55.5,55.9|N|To Shamanstone|
-T Spiritual Matters|QID|35393|M|40.4,56.8|N|To Gar'rok|
+
+C The Warsong Threat|QID|35386|M|47.1,56.1|N|Mixed Unit Tactics|
+T The Warsong Threat|QID|35386|M|62.0,62.0|N|To Captain Washburn|
+
+f Nivek's Overlook|QID||M|49.38,75.91|N|From Nivek Lee|
+F Throne of the Elements|QID||M|49.38,75.91|N|From Nivek Lee|
+T The Fate of Gordawg|QID|35395|M|72.6,19.6|N|To Kalandrios|
+T The Dark Heart of Oshu'gun|QID|35396|M|71.6,19.8|N|To Vindicator Nobundo|
 
 N *** |QID|0|N|Remainder of guide is a collection of quests that are likely to be in the zone.|
 
 A A Wrong of Earth and Fire|QID|33928|M|0.0,0.0|N|From ?|; Neutral
 T A Wrong of Earth and Fire|QID|33928|M|71.4,18.0|N|To Incineratus|
-
-A The Fate of Gordawg|QID|35395|M|0.0,0.0|N|From ?|
-C The Fate of Gordawg|QID|35395|M|43.0,38.2|N|Gordawg|
-T The Fate of Gordawg|QID|35395|M|72.6,19.6|N|To Kalandrios|
 
 C And Justice for Thrall|QID|35169|M|74.6,69.4|N|Vindicator Yrel|
 C And Justice for Thrall|QID|35169|M|71.4,84.4|N|Garrosh Hellscream|
@@ -504,16 +540,6 @@ A The Champion of Blood|QID|36222|PRE|36221|M|0.0,0.0|N|From ?|; Neutral
 C The Champion of Blood|QID|36222|M|56.0,13.8|N|Azuka Bladefury|
 T The Champion of Blood|QID|36222|M|56.8,13.0|N|To Wodin the Troll-Servant|
 
-A Lighting The Darkness|QID|35022|M|0.0,0.0|N|From ?|; Neutral
-T Lighting The Darkness|QID|35022|M|40.4,56.8|N|To Gar'rok|
-
-A Echoes of the Past|QID|35023|M|0.0,0.0|N|From ?|; Neutral
-C Echoes of the Past|QID|35023|M|37.8,56.2|N|Tormented Echo|
-C Echoes of the Past|QID|35023|M|37.4,53.0|N|Tormented Echo|
-C Echoes of the Past|QID|35023|M|40.4,68.6|N|Void-Crazed Spirit|
-C Echoes of the Past|QID|35023|M|40.4,68.6|N|Void-Crazed Spirit|
-T Echoes of the Past|QID|35023|M|40.4,56.6|N|To Dahaka|
-
 A Golmash Hellscream|QID|35024|M|0.0,0.0|N|From ?|; Neutral
 C Golmash Hellscream|QID|35024|M|37.4,55.6|N|Golmash Hellscream|
 T Golmash Hellscream|QID|35024|M|40.4,56.8|N|To Gar'rok|
@@ -536,33 +562,6 @@ T The Shadow of the Void|QID|35088|M|55.5,55.9|N|To Shamanstone|
 A Fragments of the Past|QID|35147|M|50.2,41.2|N|From Sallee Silverclamp|; Neutral
 C Fragments of the Past|QID|35147|M|49.9,25.7|N|Highmaul Reliquary|
 T Fragments of the Past|QID|35147|M|50.2,41.2|N|To Sallee Silverclamp|
-
-A The Warsong Threat|QID|35386|M|0.0,0.0|N|From ?|
-C The Warsong Threat|QID|35386|M|47.1,56.1|N|Mixed Unit Tactics|
-T The Warsong Threat|QID|35386|M|62.0,62.0|N|To Captain Washburn|
-
-A The Dark Heart of Oshu'gun|QID|35396|M|0.0,0.0|N|From ?|
-C The Dark Heart of Oshu'gun|QID|35396|M|48.2,65.2|N|K'ure|
-C The Dark Heart of Oshu'gun|QID|35396|M|48.0,65.2|N|Decimatus|
-C The Dark Heart of Oshu'gun|QID|35396|M|16.4,66.6|N|K'ure|
-C The Dark Heart of Oshu'gun|QID|35396|M|16.6,67.2|N|Decimatus|
-T The Dark Heart of Oshu'gun|QID|35396|M|71.6,19.8|N|To Vindicator Nobundo|
-
-A The Pale Threat|QID|35397|M|0.0,0.0|N|From ?|
-C The Pale Threat|QID|35397|M|56.2,64.6|N|Pale Skulker|
-C The Pale Threat|QID|35397|M|53.4,60.2|N|Greyseer|
-C The Pale Threat|QID|35397|M|57.6,59.2|N|Pale Subjugator|
-C The Pale Threat|QID|35397|M|53.4,61.6|N|Pale Shade|
-C The Pale Threat|QID|35397|M|45.8,33.8|N|Pale Skulker|
-C The Pale Threat|QID|35397|M|65.8,20.0|N|Greyseer|
-C The Pale Threat|QID|35397|M|61.4,41.6|N|Pale Shade|
-T The Pale Threat|QID|35397|M|51.2,61.6|N|To Vindicator Nobundo|
-
-A Dark Binding|QID|35398|M|0.0,0.0|N|From ?|
-C Dark Binding|QID|35398|M|52.6,61.2|N|Enslaved Earth Spirit|
-C Dark Binding|QID|35398|M|57.6,59.2|N|Pale Subjugator|
-C Dark Binding|QID|35398|M|54.0,29.2|N|Enslaved Earth Spirit|
-T Dark Binding|QID|35398|M|51.2,61.6|N|To Vindicator Nobundo|
 
 A Feline Friends Forever|QID|35596|M|40.4,76.2|N|From Goldmane the Skinner|; Neutral
 T Feline Friends Forever|QID|35596|M|40.4,76.2|N|To Goldmane the Skinner|
