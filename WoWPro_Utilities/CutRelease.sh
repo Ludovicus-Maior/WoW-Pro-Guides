@@ -28,7 +28,7 @@ fgrep -H Version: */*.toc
 
 zip -r --include '*.lua' '*.toc' '*.tga' '*.xml' '*.html' @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies WowPro_Profession WoWPro_WorldEvents WoWPro_Achievements
 
-git commit -m V${nrelease}
+git commit -m V${nrelease} -a
 git tag ${nrelease}
 git push origin
 git push --tags
