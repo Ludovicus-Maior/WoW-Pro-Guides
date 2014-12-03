@@ -1656,6 +1656,7 @@ WorldMapSize[941][2] = { xOffset = -5479.995117, height = 423.339844, yOffset = 
 WorldMapSize[941][3] = { xOffset = -5645.000000, height = 240.000000, yOffset = -6710.000000, width = 360.000000 , __index = zeroDataFunc };
 WorldMapSize[941][4] = { xOffset = -5516.000000, height = 410.000000, yOffset = -6540.000000, width = 615.000000 , __index = zeroDataFunc };
 WorldMapSize[941][5] = { xOffset = -3296.250000, height = 295.000000, yOffset = -5475.000000, width = 442.500000 , __index = zeroDataFunc };
+WorldMapSize[941][6] = { xOffset = -3296.250000, height = 295.000000, yOffset = -5475.000000, width = 442.500000 , __index = zeroDataFunc };
 WorldMapSize[941][7] = { xOffset = -4147.500000, height = 550.000000, yOffset = -6650.000000, width = 825.000000 , __index = zeroDataFunc };
 WorldMapSize[946][13] = { xOffset = -1962.50000, height = 350.000000, yOffset = -1615.000000, width = 525.000000 , __index = zeroDataFunc };
 WorldMapSize[947][15] = { xOffset =  -583.75000, height = 231.000000, yOffset = -1030.750000, width = 346.500000 , __index = zeroDataFunc };
