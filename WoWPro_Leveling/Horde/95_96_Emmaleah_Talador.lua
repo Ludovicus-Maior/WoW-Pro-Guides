@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2014-12-04 01:52
+-- Who: Blanckaert
+-- Log: adjusted this line to read, Took out the msg about not have the coordinates, when they were in there.
+--	C Munitions Landing|QID|33721|U|107899|QO|2|M|56.22,12.25|NC|N|Set down Gazlowe's solution and let it do its thing.| ; Removed the missed coords line, and put the Gaz's Soln line in
+
+-- URL: http://wow-pro.com/node/3598/revisions/27047/view
 -- Date: 2014-11-25 11:50
 -- Who: Emmaleah
 -- Log: Change final step to "D"
@@ -134,7 +140,7 @@ R Orunai Coast|QID|33722|M|58.96,11.75|L|108743|N|As you get to the bottom of th
 C Old Friends, New Enemies|QID|35226|M|52.98,6.97|T|Lieutenant Dilka|N|Run in, confront Orgrim and then kill his lieutenant.|
 C In Short Supply|QID|33735|S|NC|M|50.09,11.71|N|This crates are scattered around the area.|
 C Thunderlord Cache|QID|33721|U|107899|QO|1|M|56.52,9.97|NC|N|Set down Gazlowe's solution and let it do its thing.|
-C Munitions Landing|QID|33721|U|107899|QO|2|M|56.22,12.25|NC|N|somehow missed getting the coords on this one.|
+C Munitions Landing|QID|33721|U|107899|QO|2|M|56.22,12.25|NC|N|Set down Gazlowe's solution and let it do its thing.| ; Removed the missed coords line, and put the Gaz's Soln line in
 C In Short Supply|QID|33735|US|M|55.52,15.52|NC|
 C Blackrock Forge|QID|33721|U|107899|QO|3|M|57.68,15.46|NC|N|Set down Gazlowe's solution and let it do its thing.|
 A Decommissioned Mission|QID|33720|M|59.95,16.48|N|From Iron Shredder Decommision Codes, lying on a rock by the road.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-12-04 00:04
+-- Who: Blanckaert
+-- Log: Fixed Greka's cords, adding the comma
+
+-- URL: http://wow-pro.com/node/3604/revisions/27065/view
 -- Date: 2014-12-01 06:53
 -- Who: JamesL85
 -- Log: Changed the F step to "Path of the Light," from "Path of Light."
@@ -630,7 +635,7 @@ C Harbingers of the Void|QID|33793|N|Kill Essence of Anguish, who is inside Ance
 
 l Rovo's Dagger |QID|33573|N|Rovo's Dagger: Lootable object and tidy XP from Cave #2.|M|36.68,44.46|RANK|3|
 l Ashes of A'kumbo |QID|33584|N|Ashes of A'kumbo: Lootable object and tidy XP fropm Cave #3.|M|37.75,44.27|RANK|3|
-l Greka's Urn |QID|33614|N|Greka's Urn: Lootable object and tidy XP from Cave #4.|M|38.5 43.0|RANK|3|
+l Greka's Urn |QID|33614|N|Greka's Urn: Lootable object and tidy XP from Cave #4.|M|38.5,43.0|RANK|3| ; Added comma to coord
 l Beloved's Offering |QID|33046|N|Beloved's Offering: Lootable object and tidy XP from Cave #5.|M|36.79,41.41|RANK|3|
 l Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for an i525 Blue Boots and tidy XP from Cave #6.|M|35.87,40.87|RANK|3|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Anguish|QO|4|M|32.6,38.8|NC|
