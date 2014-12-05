@@ -577,16 +577,18 @@ function WoWPro.NextStep(k,i)
 					end
 				end
 				-- Zero or max proflvl special skip logic
-				if (hasProf == false) and ((tonumber(profmaxlvl)>0) or (tonumber(profmaxskill)) > 0) then
+				if (hasProf == false) and ((profmaxlvl > 0) or (profmaxskill > 0) then
+				    -- This seems to be triggered sometimes in Shadowmoon...
+				    WoWPro:dbp("Prof unskip qid %s for no %s for profmaxlvl=%d and profmaxskill=%d",WoWPro.QID[k],prof, profmaxlvl, profmaxskill )
 				    skip = false
 				end
 				if WoWPro.action[k] == "A" and not hasProf then
 				    -- If they do not have the profession, mark the step and quest as skipped
 				    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
 				    WoWProCharDB.Guide[GID].skipped[k] = true
-				    -- LFO: Questionable, needs review
 				    WoWProCharDB.skippedQIDs[QID] = true
 				    WoWPro:dbp("Prof permaskip qid %s for no %s",WoWPro.QID[k],prof)
+				    skip = true 
 				    break
 				end
 			else

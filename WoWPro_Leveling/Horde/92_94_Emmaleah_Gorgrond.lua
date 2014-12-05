@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2014-11-29 09:24
+-- Who: Emmaleah
+-- Log: took out the a (replaced with A) added note explaining those steps. Changed some QID's so R steps would stay checked off. Added Woodfist to note on Centurian Without a Cause.
+
+-- URL: http://wow-pro.com/node/3599/revisions/27034/view
 -- Date: 2014-11-22 13:50
 -- Who: Ludovicus
 -- Log: Rid of a stutter ||
@@ -107,7 +112,7 @@ T Your Base, Your Choice|QID|35151|M|46.10,70.18|N|To Durotan.|
 A Durotan's quests|QID|36474;35880|M|46.10,70.18|N|From Durotan. This quest will vary depending on whether you chose the  Lumber Yard or the Sparring Arena in the previous step.|
 ;A The Razorbloom|QID|36474|M|46.10,70.20|N|From Durotan.|
 ;A Rage and Wisdom|QID|35880|M|46.10,70.18|N|From Durotan.|
-a Reagents from Rakthoth|QID|33694|M|46.29,69.98|N|From Marrow.|LVL|93|
+A Reagents from Rakthoth|QID|33694|M|46.29,69.98|N|From Marrow. If you level, this quest will pop up, if you aren't in Beastwatch, just check it off manually, the guide will remind you to pick it up again later.|LVL|93|
 A Skulltakers in Crimson Fen|QID|35667|M|46.29,69.98|N|From Marrow.|
 A Tangleheart|QID|35707|M|46.36,69.64|N|From Penny Clobberbottom.|ACTIVE|36474|
 A A Rediscovered Legend|QID|34697|M|46.33,69.69|N|From Limbflayer.|ACTIVE|35880|
@@ -188,7 +193,7 @@ T Eye in the Sky|QID|35139|M|43.9,48.9|N|To Rexxar.|
 A Chains of Iron|QID|35136|M|43.9,48.9|N|From Rexxar.|PRE|35139|
 C Chains of Iron|QID|35136|M|49.0,45.2;49.2,44.8|CS|QO|1|N|When you enter this valley, you first see Rexxar fighting some grunts, assist him, as he works his way towards Captain Brak. Eventually Nisha flys up and brings Capt Brak to you. Kill her, then go over and loot the artifact.|
 C Chains of Iron|QID|35136|M|49.74,43.85;49.6,44.5|CS|QO|2|CHAT|N|After you have the artifact, chat with Nisha for a ride back to your outpost.|
-A Reagents from Rakthoth|QID|33694|M|46.29,69.98|N|From Marrow.|LVL|93|ACTIVE|35136|
+A Reagents from Rakthoth|QID|33694|M|46.29,69.98|N|From Marrow. If you level, this quest will pop up, if you aren't in Beastwatch, just check it off manually, the guide will remind you to pick it up again later.|LVL|93|ACTIVE|35136|
 N Sparring Arena|QID|35880|ACTIVE|35880|N|What follows next is a running from flight path to flight path and getting a couple of followers.  If that doesn't interest you check these steps off until Run to Mistcreep Mire.  There are bonus objectives in these areas but no quests.|
 
 ;if lumber yard
@@ -239,13 +244,13 @@ T The Life Spring|QID|35434|M|42.06,85.93|N|To Kaz the Shrieker.|
 A Thieving Dwarves|QID|36488|M|42.06,85.91|N|From Kaz the Shrieker.|PRE|35434|
 
 f Evermorn Springs|QID|35468;36037|M|41.32,87.16|N|At Chucklespine.|
-R The Destroyed Expedition|QID|36037|M|44.86,86.72|N|This is to pick up a follower, if followers don't interest you following the road east to Bastian Rise is more direct.|RANK|2|
-A A Centurian Without a Cause|QID|36037|M|44.86,86.72|RANK|2|N|Assist Centurian Tormark with the waves of mobs. When they are defeated, wait a few seconds and he will offer to be your folloer. Its safer to run back to Evermorn Rise (where you just got the flight path) and run on to Bastion Rise from there, but you can go from here, just more mobs in the way.|
+R The Destroyed Expedition|QID|36037|M|44.86,86.72|N|This is to pick up a follower, if followers don't interest you following the road east to Bastion Rise is more direct.|RANK|2|
+A A Centurian Without a Cause|QID|36037|M|44.86,86.72|RANK|2|N|Assist Centurian Tormark with the waves of mobs. The final mob is Woodfist.  When they are defeated, wait a few seconds and he will offer to be your follower. Its safer to run back to Evermorn Rise (where you just got the flight path) and run on to Bastion Rise from there, but you can go from here, just more mobs in the way.|
 R Deeproot|QID|34279;34279|RANK|2|M|42.74,90.76|CC|N|Take the trail up here to find another follower.|
 R Blook's Overlook|QID|34279|RANK|2|M|42.30,92.16|N|Continue up the winding trail.|
 N Blook|QID|34279|RANK|2|CHAT|M|41.27,91.44|N|Chat with him to challenge him.  When you win, he will offer to be your follower. He despawns in about 15 seconds and you will have to wait to fight him again if you don't accept quick enough.|
 A I am Blook|QID|34279|RANK|2|M|41.27,91.44|N|If he despawns before you accecpt the quest you will have to fight him again when he respawns.|
-R Bastion Rise|QID|36488;35677|M|46.49,93.57|
+R Bastion Rise|QID|36488;35667|M|46.49,93.57|
 T Thieving Dwarves|QID|36488|M|46.49,93.57|N|To Cutter.|
 A Will of the Genesaur|QID|35509|M|46.49,93.57|N|From Cutter.|PRE|36488|
 A Down the Goren Hole|QID|35507|M|46.49,93.57|N|From Cutter.|PRE|36488|
@@ -265,7 +270,7 @@ T Kaz the Shrieker|QID|35511|M|47.78,93.27|N|This grants you Kaz as a follower.|
 f Bastion Rise|QID|33694|M|47.44,90.79|N|Grab the flight path while you are here.|
 
 ;for both
-L Level 93|QID|35136|LVL|93|N|If you aren't level 93 do some bonus quests (or something), because there is a quest back to Beastwatch which requires level 93.|
+L Level 93|QID|35667|LVL|93|N|If you aren't level 93 do some bonus quests (or something), because there is a quest back to Beastwatch which requires level 93.|
 H Beastwatch|QID|35667|N|Hearth or Fly back to Beastwatch.|
 A Reagents from Rakthoth|QID|33694|M|46.29,69.98|N|From Marrow.|LVL|93|
 R Mistcreep Mire|QID|35667|M|54.45,66.65|N|There is really no nice straight path over there, so check your map and go towards the waypoint.|
@@ -352,7 +357,7 @@ H Beastwatch|QID|35040|M|50.29,47.52|N|If you hearthstone isn't set to Beastwatc
 T Heart of the Fen|QID|35040|M|46.28,69.99|N|To Marrow.|
 T Power of the Genesaur|QID|35416|M|46.10,70.19|N|To Durotan.|
 T Chains of Iron|QID|35136|M|46.09,70.19|N|To Durotan.|
-a News from Talador|QID|36494|M|46.09,70.19|N|From Durotan.|LVL|94|
+A News from Talador|QID|36494|M|46.09,70.19|N|From Durotan. This will pop up when you level, just check it off manually if you are not at Beastwatch.|LVL|94|
 
 ;if arena
 R Stonemaul Arena|QID|34697|ACTIVE|34697|M|45.71,70.51;42.76,63.06|CS|N|Run over here to meet your champions.|
@@ -391,7 +396,7 @@ C Strike While the Iron is Hot|QID|36573;36574|QO|2|M|44.7,17.8|CHAT|N|Talk to D
 f The Iron Approach|QID|36573;36574|M|43.02,20.22|N|At Nisha. Fly back to Beastwatch to turn in. It's a little faster to hearth if you want.|ACTIVE|36573;36574|
 T Strike While the Iron is Hot|QID|36573;36574|M|46.09,70.19|N|To Durotan. Your reward is a book that allows the purchase of a level 2 small or medium garrison building plan -- in Ashran, there is a breadcrumb quest to lead you there in a few steps.|
 L Level 94|QID|37290|LVL|94|N|You are probably close to, or already 95, but you need to be at least 94 to get the next few quests.|
-A News from Talador|QID|36494|M|46.09,70.19|N|From Durotan.|LVL|94|
+A News from Talador|QID|36494|M|46.09,70.19|N|From Durotan.|
 N Gorgrond substantially done|QID|37290|N|This pretty much finishes Gorgrond. Take some time to finish up the bonus objectives if you want, the guide next sends you back to your garrison to do the quests that have opened up while you were gone, and then ends.|ACTIVE|36494|
 H Town Hall|QID|37290|U|110560|M|46.09,70.19|ACTIVE|36494|N|Hearth to your Garrison
 

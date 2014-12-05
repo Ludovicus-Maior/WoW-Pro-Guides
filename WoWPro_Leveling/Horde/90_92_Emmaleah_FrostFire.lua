@@ -4,6 +4,46 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-12-02 04:43
+-- Who: Emmaleah
+-- Log: changed note about treasure map since it is now sold and tradeable/mailable instead of free and soulbound.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27073/view
+-- Date: 2014-12-02 04:35
+-- Who: Emmaleah
+-- Log: updated QID for Clumsy Ogre.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27072/view
+-- Date: 2014-12-02 03:58
+-- Who: Emmaleah
+-- Log: Wowhead now matches up all the various frostwolf treasure caches with their name... I have the right QID for Pale Loot Sack (I hope)
+
+-- URL: http://wow-pro.com/node/3587/revisions/27071/view
+-- Date: 2014-12-02 03:31
+-- Who: Emmaleah
+-- Log: added to JC note that the Massive slime only has one spawn point (the small ones are several places, but the quest requires both)
+
+-- URL: http://wow-pro.com/node/3587/revisions/27070/view
+-- Date: 2014-12-02 03:25
+-- Who: Emmaleah
+-- Log: reworking comments to better explain the challenges mapping bladespire citadel
+
+-- URL: http://wow-pro.com/node/3587/revisions/27067/view
+-- Date: 2014-12-02 01:25
+-- Who: Emmaleah
+-- Log: Your first leatherworking order appears to have changed from QID 36642 to 37574 (or I had a typo... but its an odd one)
+
+-- URL: http://wow-pro.com/node/3587/revisions/27066/view
+-- Date: 2014-12-02 00:33
+-- Who: Emmaleah
+-- Log: Incorrect Item ID on frozen treasure
+
+-- URL: http://wow-pro.com/node/3587/revisions/27059/view
+-- Date: 2014-11-29 09:09
+-- Who: Emmaleah
+-- Log: Changed QID for Pale Loot Sack to QID for Shivertail's Den so it will stay checked off.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27058/view
 -- Date: 2014-11-27 21:46
 -- Who: Emmaleah
 -- Log: Added note about scenarios can be shared. changed name of bones of agurak flight point to Thunder Pass, note about scout ruk'gan going MIA
@@ -146,7 +186,7 @@ L Level 90 |QID|33815|LVL|90|N|This guide requires a minimum level of 90 to do.|
 N Getting to Frostfire Ridge|QID|33815|N|To get to Frostfire Riege in Draenor, you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|34446|
 
 N Welcome to Frostfire Ridge|QID|33815|M|40.75,67.10|
-N Treasure|QID|33815|M|40.75,67.10|N|The guide mentions some but not nearly all the treasure to be found in the zone. At some point while questing you will recieve a treasure map that when you use it shows all the potential treasure on your map.|
+N Treasure|QID|33815|M|40.75,67.10|N|The guide mentions some but not nearly all the treasure to be found in the zone. If you have extra gold, Srikka, the archeology vender in Warspear (74,32)sells a treasure map for 100g to any character who has finished the zone (which is mailable/tradeable). Otherwise if you are interested in ALL the treasure you can look on wowhead or any number of other addons.|
 N Bonus Objectives|QID|33815|M|40.75,67.10|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100.|
 
 t The Home of the Frostwolves|QID|33868|M|40.75,67.10|N|To Farseer Drek'Thar.|
@@ -220,11 +260,11 @@ C Gormaul Tower|QID|33784|M|21.08,43.93|N|Ride to Gormaul Tower then kill the og
 T Gormaul Tower|QID|33784|M|19.74,44.77|N|To Durotan.|
 A These Colors Don't Run|QID|33526|M|19.74,44.77|N|From Durotan.|
 C These Colors Don't Run|QID|33526|U|107279|M|39.0,23.4|N|Kill the ogres and plant the flag as you run up to Durotan's new location.|
-N Arrow pointing wrong?|QID|33546|N|Opening your map sometimes fixes it, reloading UI almost always does.|
+N TomTom pointing at huge doorway of citadel?|QID|33546|M|43.54,23.08|Z|Bladespire Citadel|N|If not, Opening your map sometimes fixes it, reloading UI almost always does. This is one of those transitions from one map to another that should work seamlessly, but doesn't quite.|
 T These Colors Don't Run|QID|33526|M|43.54,23.08|N|To Durotan.|Z|Bladespire Citadel|
 A Deeds Left Undone|QID|33546|M|43.54,23.08|N|From Durotan.|Z|Bladespire Citadel|
 C Deeds Left Undone|QID|33546|M|56.03,43.64|NC|N|Pick up the barrels of oil off of the ground as you go to Gol'kosh.|Z|Bladespire Citadel|
-T Deeds Left Undone|QID|33546|M|34.27,73.03|N|To Durotan, who is not outside in the courtyard of the citadel.|Z|Bladespire Citadel|
+T Deeds Left Undone|QID|33546|M|34.27,73.03|N|To Durotan, who is now outside in the courtyard of the citadel.|Z|Bladespire Citadel|
 A Great Balls of Fire!|QID|33408|M|34.27,73.03|N|From Durotan.|Z|Bladespire Citadel|
 C Great Balls of Fire!|QID|33408|M|56.0,85.8|NC|N|Dodge the fireballs as you run up the ramp, click on the barricade when you arrive.|Z|Bladespire Citadel|
 T Great Balls of Fire!|QID|33408|M|70.8,78.6|N|To Thrall.|Z|Bladespire Courtyard|
@@ -257,7 +297,7 @@ C Moving In|QID|33657|M|66.52,56.51|NC|N|Hop on the wolf next to Durotan and it 
 T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel|
 A Save Wolf Home|QID|33468|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel|
 
-A Wanted: Gutsmash the Destroyer|QID|33919|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel|
+A Wanted: Gutsmash the Destroyer|QID|33919|M|28.9,44.8|N|From Bounty Board. If the dot and arrow don't line up with the bounty board, your UI is out of sync with the map layer, opening your map or /reload should fix it.|Z|Bladespire Citadel|
 A Mopping Up|QID|33412|M|28.3,45.7|N|From Snowrunner Rolga.|Z|Bladespire Citadel|
 A Slavery and Strife|QID|33119|M|20.1,52.9|N|From Guse.|RANK|2|
 f Bladespire Fortress|QID|33412|M|19.9,51.8|N|At Roark the Airwolf.|
@@ -302,7 +342,7 @@ T Missing Pack|QID|33955|M|19.53,51.01|N|To Shivertail.|
 A Shivertail's Den|QID|33929|M|19.53,51.01|N|From Shivertail.|
 C Shivertail's Den|QID|33929|M|20.7,48.6|QO|1|NC|
 C Shivertail's Den|QID|33929|M|21.4,50.2|
-A Pale Loot Sack|QID|34714|M|21.7,50.7|NC|N|Go up the path on the other side of the room for minor treasure. You will need to manually check this step off.|;can not find the right QID to make this one stay checked off
+N Pale Loot Sack|QID|34931|M|21.7,50.7|NC|N|Go up the path on the other side of the room for minor treasure. You will need to manually check this step off.|
 T Shivertail's Den|QID|33929|M|19.53,51.01|N|To Shivertail.|
 C Bladespire Fortress|QID|33473|M|21.57,56.15|CHAT|N|At Pul Windcarver. Take the chat option, not the flight path.|
 
@@ -502,7 +542,7 @@ A Smeltcraft|QID|33838|M|65.06,39.52|N|From Initiate Na'Shra.|
 C Smeltcraft|QID|33838|M|66.66,38.06|NC|N|These are lying around on the ground in the gate of the breakers area.|
 T Smeltcraft|QID|33838|M|65.06,39.52|N|To Initiate Na'Shra.|
 A Blood Oath of Na'Shra|QID|34729|M|64.68,39.76|N|Wait a moment for her to walk over by the tent and then accept Na'Shra's service.|
-C No Pressure, No Diamonds|QID|36378|M|30.74,43.83|P|Jewelcrafting;755|N|The lava slimess who drop this exist in several lava pools in frostfire, we happen to be by one of them...While standing on the rock, wait for a lava slime to come in range, pull it to you and fight it on the rock.  When it dies, it will give you a buff that allows you to not get burned while in the lava, you can now go out in the lava and kill the ones farther out.  Be sure and maintain that buff.|
+C No Pressure, No Diamonds|QID|36378|M|30.74,43.83|P|Jewelcrafting;755|N|The lava slimess who drop this exist in several lava pools in frostfire, we happen to be by one of them...While standing on the rock, wait for a lava slime to come in range, pull it to you and fight it on the rock.  When it dies, it will give you a buff that allows you to not get burned while in the lava, you can now go out in the lava and kill the ones farther out.  Be sure and maintain that buff. The massive slime seems to ONLY spawn in this pool.|
 C Poulticide|QID|34345|M|56.12,37.83|US|NC|N|These are ground spawn in the area.|
 C Lurkers|QID|34344|M|54.01,31.36|US|N|These drop off the Snow Lurkers.|
 C Frosted Fury|QID|34346|M|59.46,35.37|US|N|These drop off the Ice Furies.|
@@ -524,7 +564,7 @@ T Poulticide|QID|34345|M|52.63,40.41|N|To Shadow Hunter Rala.|
 A The Real Prey|QID|34348|M|52.63,40.45|N|From Shadow Hunter Rala.|
 C The Real Prey|QID|34348|M|53.4,29.4;52.13,29.42|CS|T|Grosh the Mighty|
 f Bloodmaul Slag Mines|QID|34348|M|51.44,21.47|N|At Brenna Skymoor.As long as you are in the neighborhood, you can run up and get this explore and flight path, totally optional, for level 100 content. |
-C Treasure-Clumsy Cragmaul Brute|QID|33940|M|50.1,18.7|N|More treasure just lying around to be claimed.|;guessing at QID the other likely one is 33531 "Fallen Ogre"
+C Treasure-Clumsy Cragmaul Brute|QID|33531|M|50.1,18.7|N|More treasure just lying around to be claimed.|
 N Explore Cold Snap Bluffs|QID|34348|M|51.7,18.7|CC|N|Be careful of the lvl 100 mobs. Check this off manually if you don't want to explore.|
 
 T The Real Prey|QID|34348|M|52.61,40.42|N|To Shadow Hunter Rala.|
@@ -558,7 +598,7 @@ T Oru'kai's Scepter|QID|36260|M|54.4,51.6|P|Enchanting;333|N|To Arcanist Delath.
 U Learn Enchanting skill|QID|33918|U|111922|M|54.4,51.6|P|Enchanting;333|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Enchanter's Study Blueprints|QID|33918|U|111817|M|54.4,51.6|P|Enchanting;333|N|After you learn check this step off manually.|
 
-B Frozen Treasure|QID|34476|M|57.19,52.15|N|Kill the fury's loot the treasure.|L|111514|
+B Frozen Treasure|QID|34476|M|57.19,52.15|N|Kill the fury's loot the treasure.|L|111554|
 
 C Moving Target|QID|32992|M|55.02,55.73|NC|N|Watch the scene unfold.|
 T Moving Target|QID|32992|M|55.49,56.63|N|To Lokra.|
@@ -634,11 +674,11 @@ N Auctioning For Parts|QID|36948|BUILDING|Trading Post;144;145|M|57.88,27.83|N|T
 T Lost in Transition|QID|37060|M|52.87,40.64|N|To Yorn Longhoof.|
 
 ;tannery SMALL
-A Your First Leatherworking Work Order|QID|36642|M|53.00,41.32|BUILDING|Tannery;90;121;122|N|From Murne Greenhoof.|
-B Raw Beast Hide|QID|36642|M|52.84,47.29|BUILDING|Tannery;90;121;122|L|110609 5|N|Acquire from skinning or the Auction House or some other method.|
-C Place work order|QID|36642|M|52.84,47.29|QO|1|CHAT|L|110609 5|N|At Yanny.|
-C Pick up work order|QID|36642|M|52.95,41.3|QO|2|NC|L|110609 5|N|At Yanny.|
-t Your First Leatherworking Work Order|QID|36642|M|52.84,47.29|N|To Yanny.|
+A Your First Leatherworking Work Order|QID|37574|M|53.00,41.32|BUILDING|Tannery;90;121;122|N|From Murne Greenhoof.|
+B Raw Beast Hide|QID|37574|M|52.84,47.29|BUILDING|Tannery;90;121;122|L|110609 5|N|Acquire from skinning or the Auction House or some other method.|
+C Place work order|QID|37574|M|52.84,47.29|QO|1|CHAT|L|110609 5|N|At Yanny.|
+C Pick up work order|QID|37574|M|52.95,41.3|QO|2|NC|L|110609 5|N|At Yanny.|
+t Your First Leatherworking Work Order|QID|37574|M|52.84,47.29|N|To Yanny.|
 
 ;tailering emporium SMALL
 A Your First Tailoring Work Order|QID|36643|M|48.22,32.51|Z|Frostwall|BUILDING|TailoringEmporium;94;127;128|N|From ??.|
