@@ -577,7 +577,7 @@ function WoWPro.NextStep(k,i)
 					end
 				end
 				-- Zero proflvl special skip logic
-				if (hasProf == false) and proflvl == 0 then
+				if (hasProf == false) and (proflvl == 0) then
 				    WoWPro:dbp("Prof unskip qid %s for no %s for proflvl == 0",WoWPro.QID[k],prof)
 				    skip = false
 				end
