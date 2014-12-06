@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2014-12-05 22:40
+-- Who: Ludovicus
+-- Log: Eleminated double |N|N| from Bahameye
+
+-- URL: http://wow-pro.com/node/3604/revisions/27076/view
 -- Date: 2014-12-04 00:04
 -- Who: Blanckaert
 -- Log: Fixed Greka's cords, adding the comma
@@ -210,7 +215,7 @@ C Pale Moonlight |QID|35174|N|Head down to Eventide Landing and kill Gnaw Bloods
 
 l Fantastic Fish |QID|34174|N|Fantastic Fish: Lootable object for Garrison Resources and 10k XP|M|26.50,5.68|RANK|3|
 l Sunken Treasure |QID|35279|N|Sunken Treasure: Lootable object for Garrison Resources and 10k XP, located in the water under the ship.|M|28.83,7.18|RANK|3|
-K Bahameye |QID|35281|N|N|*Rare Kill*\nDrops Garrison Resources.|RANK|3|
+K Bahameye |QID|35281|N|*Rare Kill*\nDrops Garrison Resources.|RANK|3|
 l Stolen Treasure |QID|35280|N|Stolen Treasure: Lootable object for Garrison Resources and 10k XP, located in Paletide Den.|M|27.04,2.49|RANK|3|
 
 C Ship Salvage|QID|35166|N|Finish looting the Drudgeboat Salvage from the floor, or kill and loot the Pale Devourers and Shadowmoon Darters.|US|NC|M|26.5,6.5|
