@@ -576,10 +576,9 @@ function WoWPro.NextStep(k,i)
 						end
 					end
 				end
-				-- Zero or max proflvl special skip logic
-				if (hasProf == false) and ((profmaxlvl > 0) or (profmaxskill > 0) then
-				    -- This seems to be triggered sometimes in Shadowmoon...
-				    WoWPro:dbp("Prof unskip qid %s for no %s for profmaxlvl=%d and profmaxskill=%d",WoWPro.QID[k],prof, profmaxlvl, profmaxskill )
+				-- Zero proflvl special skip logic
+				if (hasProf == false) and proflvl == 0 then
+				    WoWPro:dbp("Prof unskip qid %s for no %s for proflvl == 0",WoWPro.QID[k],prof)
 				    skip = false
 				end
 				if WoWPro.action[k] == "A" and not hasProf then
