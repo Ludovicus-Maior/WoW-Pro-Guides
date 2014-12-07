@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2014-12-07 19:17
+-- Who: Blanckaert
+-- Log: adjusted step, and flow patterns
+
+-- URL: http://wow-pro.com/node/3605/revisions/27084/view
+-- Date: 2014-12-07 19:09
+-- Who: Blanckaert
+-- Log: moved a quest turn in, up a bit, since you pass it to turn in others
+
+-- URL: http://wow-pro.com/node/3605/revisions/27083/view
+-- Date: 2014-12-07 19:05
+-- Who: Blanckaert
+-- Log: change a A to T for QID 33928, add T step for QID 34893
+
+-- URL: http://wow-pro.com/node/3605/revisions/27028/view
 -- Date: 2014-11-22 11:49
 -- Who: Ludovicus
 -- Log: Hey!  Needed @Draenor
@@ -264,16 +279,25 @@ C A Rare Bloom|QID|34894|NC|M|70.59,9.91|N|In the back of the Magma Cave, (its a
 C Elemental Attunement|QID|34891|M|67.46,4.16|QO|3|NC|
 C Guardians of the Plateau|QID|34893|QO|3|M|66.57,8.64|
 C Earth, Wind and Fire...and Water|QID|34881|M|67.18,10.48|US|
-A A Wrong of Earth and Fire|QID|33928|M|71.34,17.89|N|To Incineratus.|
-T Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.89|N|To Incineratus.|
-T Elemental Attunement|QID|34891|M|71.71,19.68|N|To Farseer Drek'Thar.|
+
+; Moved this next block here since you have to turn in one down with the rest.
+
 T A Rare Bloom|QID|34894|M|75.08,22.74|N|To Gar'rok.|
 A Guise of the Deceiver|QID|34932|M|75.08,22.74|N|From Gar'rok.|
 C Guise of the Deceiver|QID|34932|M|75.92,21.39;77.39,20.62;77.97,23.35|CS|N|Talk to Challe, then she turns hostile and you must kill her.|
 T Guise of the Deceiver|QID|34932|M|75.08,22.74|N|To Gar'rok.|
 A The Debt We Share|QID|34941|M|75.08,22.74|N|From Gar'rok.|
 C The Debt We Share|QID|34941|CHAT|M|75.08,22.73|
+
+; Changed the A Step to T Step for QID 33928
+T A Wrong of Earth and Fire|QID|33928|M|71.34,17.89|N|To Incineratus.|
+T Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.89|N|To Incineratus.|
+
+; Missing Turn in for QID 34893, move 34941 here for flow from other above edits
 T The Debt We Share|QID|34941|M|72.79,19.65|N|To Kalandrios.|
+T Guardians of the Plateau|QID|34893|M|71.34,17.89|N|To Incineratus.|
+
+T Elemental Attunement|QID|34891|M|71.71,19.68|N|To Farseer Drek'Thar.|
 A The Ritual of Binding|QID|35265|M|71.72,19.64|N|From Farseer Drek'Thar.|
 C The Ritual of Binding|QID|35265|CHAT|M|72.68,19.70|
 T The Ritual of Binding|QID|35265|M|71.70,19.65|N|To Farseer Drek'Thar.|
