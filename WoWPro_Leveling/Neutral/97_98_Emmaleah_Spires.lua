@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-12-08 10:31
+-- Who: Emmaleah
+-- Log: moved A Pinchwhistle Gearworks later in the guide. it appears Bliz changed it to lvl 97.  
+
+-- URL: http://wow-pro.com/node/3602/revisions/27092/view
 -- Date: 2014-12-08 10:00
 -- Who: Emmaleah
 -- Log: Add N text to One of our own.
@@ -162,7 +167,6 @@ A Wanted: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTI
 h Axefall|QID|35295|M|40.41,42.99|N|At Taz'jari.|FACTION|Horde|
 A What's Theirs is Ours|QID|35295|M|40.27,43.37|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35277|
 f Axefall|QID|35293|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
-A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Horde|PRE|35277|
 
 A Return to Veil Terokk|QID|35611|M|40.18,60.25|N|From Percy.|PRE|35286+35277|
 R Admiral Taylor's Garrison|QID|35295|M|39.13,48.95|
@@ -491,6 +495,7 @@ A Standing United|QID|37276|M|40.04,43.33|PRE|36166|N|To/From Dark Ranger Velona
 A Not In Your Army|QID|37292|M|40.08,42.66|PRE|36166|N|From Lunzul.|FACTION|Horde|
 C Not In Your Army|QID|37292|M|39.45,41.72|CHAT|N|After you talk to her, she becomes hostile and you must kill her.|FACTION|Horde|
 T Not In Your Army|QID|37292|M|40.08,42.66|N|To Lunzul.|FACTION|Horde|
+A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you preferr).|FACTION|Horde|PRE|35277|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
 f Pinchwhistle Gearworks|QID|35619;35620|M|60.88,73.31|N|At Kwiven Quickcog.|
