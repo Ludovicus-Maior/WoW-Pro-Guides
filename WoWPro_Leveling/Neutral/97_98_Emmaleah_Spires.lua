@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-12-08 10:00
+-- Who: Emmaleah
+-- Log: Add N text to One of our own.
+
+-- URL: http://wow-pro.com/node/3602/revisions/27091/view
+-- Date: 2014-12-08 09:21
+-- Who: Emmaleah
+-- Log: C steps for Arakoa Exodus were also switched.
+
+-- URL: http://wow-pro.com/node/3602/revisions/27090/view
+-- Date: 2014-12-08 09:19
+-- Who: Emmaleah
+-- Log: Arakoa Exodus QIDs were switched horde/alliance
+
+-- URL: http://wow-pro.com/node/3602/revisions/27057/view
 -- Date: 2014-11-27 14:31
 -- Who: Ludovicus
 -- Log: Finished up!
@@ -67,10 +82,10 @@ N Beginnings|QID|34653|N|This guide begins at your garrison to take the free fli
 N Bonus Objectives|QID|34653|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 96 to do this guide.|
 N Jumping Games|QID|34653|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle).  I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
-A Arakkoa Exodus|QID|36951|M|42.67,44.73|Z|Lunarfall|N|From the Bulletin Board|FACTION|Alliance|
-A Arakkoa Exodus|QID|34653|M|49.5,41.5|Z|Frostwall|N|From the Command Board|FACTION|Horde|
-F Spires of Arak|QID|36951|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
-F Spires of Arak|QID|34653|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
+A Arakkoa Exodus|QID|34653|M|42.67,44.73|Z|Lunarfall|N|From the Bulletin Board|FACTION|Alliance|
+A Arakkoa Exodus|QID|36951|M|49.5,41.5|Z|Frostwall|N|From the Command Board|FACTION|Horde|
+F Spires of Arak|QID|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
+F Spires of Arak|QID|36951|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
 
 T Arakkoa Exodus|QID|36951;34653|M|37.89,18.02|N|To Azik.|
 A The Shadows of Skettis|QID|34655|M|37.89,18.02|N|From Azik.|PRE|36951+34653|
@@ -114,8 +129,7 @@ T A Gathering of Shadows|QID|35671|M|46.51,45.60|N|To Shadow-Sage Iskar.|
 f Veil Terokk|QID|35272|M|46.18,44.13|N|At Skytalon Meshaal.|
 A One of Our Own|QID|35274|M|45.89,46.36|N|From Jasper Fel.|FACTION|Alliance|
 A One of Our Own|QID|35272|M|45.90,46.35|N|From Shadow Hunter Ukambe.|FACTION|Horde|
-C One of Our Own|QID|35274|CHAT|M|46.52,45.61|FACTION|Alliance|
-C One of Our Own|QID|35272|CHAT|M|46.52,45.61|FACTION|Horde|
+C One of Our Own|QID|35272;35274|CHAT|M|46.52,45.61|N|Talk to Iskar and get him to let your guy free.|
 T One of Our Own|QID|35274|M|45.89,46.37|N|To Jasper Fel.|FACTION|Alliance|
 T One of Our Own|QID|35272|M|45.90,46.36|N|To Shadow Hunter Ukambe.|FACTION|Horde|
 A Inspecting the Troops|QID|35276|M|45.89,46.37|N|From Jasper Fel.|FACTION|Alliance|PRE|35274|
