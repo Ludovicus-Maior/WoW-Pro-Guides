@@ -4,6 +4,24 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2014-12-08 02:29
+-- Who: Blanckaert
+
+-- URL: http://wow-pro.com/node/3605/revisions/27088/view
+-- Date: 2014-12-08 02:25
+-- Who: Emmaleah
+-- Log: insert missing US tags on Lighting the Darkness and Echoes of the Past
+
+-- URL: http://wow-pro.com/node/3605/revisions/27087/view
+-- Date: 2014-12-08 02:01
+-- Who: Emmaleah
+-- Log: updated coords in The Underpale, added N tags to those steps also (most shamelessly stolen from Ludo's Alliance Nagrand guide) 
+
+-- URL: http://wow-pro.com/node/3605/revisions/27086/view
+-- Date: 2014-12-08 00:11
+-- Who: Blanckaert
+
+-- URL: http://wow-pro.com/node/3605/revisions/27085/view
 -- Date: 2014-12-07 19:17
 -- Who: Blanckaert
 -- Log: adjusted step, and flow patterns
@@ -65,7 +83,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ; per wowhead comparison 9/29/14
-;Feline Friends Forever 35596 40.4,76.2 for follower Goldmane the Skiner, Kill Bolkar the Cruel to get Goldman's Cage Key |L 111863|leaving this out because Bolkar is a RARE or VERY LONG respawn.
+; Feline Friends Forever 35596 40.4,76.2 for follower Goldmane the Skiner, Kill Bolkar the Cruel to get Goldman's Cage Key |L 111863|leaving this out because Bolkar is a RARE or VERY LONG respawn.
 
 N Beginnings|QID|36607|N|This guide begins at your garrison to take the free flight to Nagrand.|
 N Bonus Objectives|QID|36607|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 98 to do this guide.|
@@ -290,11 +308,11 @@ A The Debt We Share|QID|34941|M|75.08,22.74|N|From Gar'rok.|
 C The Debt We Share|QID|34941|CHAT|M|75.08,22.73|
 
 ; Changed the A Step to T Step for QID 33928
+; Missing Turn in for QID 34893, move 34941 here for flow from other above edits
+
+T The Debt We Share|QID|34941|M|72.79,19.65|N|To Kalandrios.|
 T A Wrong of Earth and Fire|QID|33928|M|71.34,17.89|N|To Incineratus.|
 T Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.89|N|To Incineratus.|
-
-; Missing Turn in for QID 34893, move 34941 here for flow from other above edits
-T The Debt We Share|QID|34941|M|72.79,19.65|N|To Kalandrios.|
 T Guardians of the Plateau|QID|34893|M|71.34,17.89|N|To Incineratus.|
 
 T Elemental Attunement|QID|34891|M|71.71,19.68|N|To Farseer Drek'Thar.|
@@ -312,18 +330,18 @@ A Silence the Call|QID|35084|M|55.45,55.92|N|From the Shamanstone.|
 A Disrupt the Rituals|QID|35083|M|55.45,55.92|N|From the Shamanstone.|
 
 R Shadowfall Canyon|QID|35145|M|55.93,56.98|N|We are making a short sidetrip for Farseer Drak'Thar.|
-C The Pale Threat|QID|35145|S|QO|2|M|52.60,60.46|
-C Dark Binding|QID|35144|S|M|52.70,60.68|
-C The Pale Threat|QID|35145|QO|1|M|52.60,60.46|
-C Dark Binding|QID|35144|US|M|52.70,60.68|
-C The Pale Threat|QID|35145|US|QO|2|M|52.60,60.46|
-T Dark Binding|QID|35144|M|51.27,61.63|N|To Farseer Drek'Thar.|Z|The Underpale|
-T The Pale Threat|QID|35145|M|51.27,61.63|N|To Farseer Drek'Thar.|Z|The Underpale|
-A The Fate of Gordawg|QID|34271|M|51.27,61.63|N|From Farseer Drek'Thar.|Z|The Underpale|
-A The Dark Heart of Oshu'gun|QID|35317|M|51.27,61.63|N|From Farseer Drek'Thar.|Z|The Underpale|
-C The Fate of Gordawg|QID|34271|M|50.99,61.95|T|Gordawg|N|Kill Gordawg|Z|The Underpale|
-C The Dark Heart of Oshu'gun|QID|35317|M|48.08,65.17|T|Decimatus|N|Listen to Chogall and Gul'dan and then kill Decimatus.|Z|The Underpale|
-R Spirit Woods|QID|35084|M|47.04,59.86|N|Follow Farseer Drek'Thar out for a shortcut.|
+C The Pale Threat|QID|35145|S|QO|2|M|52.60,60.46|N|Kill the Pale as you travel towards the cave in the back where Greyseer is.|
+C Dark Binding|QID|35144|S|M|52.70,60.68|N|Killing Pale near the neutral elementals liberates them.  Killing the hostile elementals will liberate them.|
+K Greyseer|QID|35145|M|66.30,18.00|QO|1|Z|The Underpale|N|Head to the cave at the back of Shadowfall Canyon. The arrow may be flaky until you get into the cave.|
+C Dark Binding|QID|35144|US|M|46.21,32.98|N|Finish up liberating the elementals.|
+C The Pale Threat|QID|35145|US|QO|2|M|46.21,32.98|N|You probably ended up killing more Pale than needed.|
+T Dark Binding|QID|35144|M|46.21,32.98|N|To Farseer Drek'Thar.|Z|The Underpale|
+T The Pale Threat|QID|35145|M|46.21,32.98|N|To Farseer Drek'Thar.|Z|The Underpale|
+A The Fate of Gordawg|QID|34271|M|46.21,32.98|N|From Farseer Drek'Thar.|Z|The Underpale|
+A The Dark Heart of Oshu'gun|QID|35317|M|46.21,32.98|N|From Farseer Drek'Thar.|Z|The Underpale|
+C The Fate of Gordawg|QID|34271|M|41.0,40.5|T|Gordawg|N|Kill Gordawg|Z|The Underpale|
+C The Dark Heart of Oshu'gun|QID|35317|M|17.09,64.70|T|Decimatus|N|Go through the opening behind Gordawg and follow the corridor until you see Cho'gall.  Listen to Cho'gall and Gul'dan and then kill Decimatus.|Z|The Underpale|
+R Spirit Woods|QID|35084|M|22.67,65.43;19.77,72.35;11.88,68.73;8.41,60.20|CS|N|Follow Farseer Drek'Thar up the ramp and out thru a crack in the wall for a shortcut.|
 
 C Silence the Call|QID|35084|QO|2|M|55.45,55.92|S|N|It will be hard to avoid killing them as you go about the other tasks.|
 C Disrupt the Rituals|QID|35083|NC|QO|1|M|48.46,58.69;47.79,58.71|CN|
@@ -361,8 +379,8 @@ A Echoes of the Past|QID|35023|M|40.41,56.75|N|From Dahaka.|
 C Lighting The Darkness|QID|35022|NC|U|112396|M|39.44,54.39|S|
 C Echoes of the Past|QID|35023|M|37.78,55.47|S|
 L Abu'gar's Favorite Lure|QID|36711|M|38.36,49.33|L|114242|N|In the grass on the riverbank just under the bridge.|
-C Lighting The Darkness|QID|35022|NC|U|112396|M|39.50,53.26|S|
-C Echoes of the Past|QID|35023|M|39.44,54.39|S|
+C Lighting The Darkness|QID|35022|NC|U|112396|M|39.50,53.26|US|
+C Echoes of the Past|QID|35023|M|39.44,54.39|US|
 T Echoes of the Past|QID|35023|M|40.39,56.75|N|To Dahaka.|
 T Lighting The Darkness|QID|35022|M|40.43,56.80|N|To Gar'rok.|
 A Golmash Hellscream|QID|35024|M|40.42,56.80|N|From Gar'rok.|
@@ -378,7 +396,7 @@ T Terms of Surrender|QID|35096|M|55.50,42.10|N|To Uruk Foecleaver.|
 A The Pride of Lok-rath|QID|35097|M|55.50,42.10|N|From Uruk Foecleaver.|
 A Silence the War Machines|QID|35099|M|55.44,42.08|N|From Senior Sergeant Igerdes.|
 A If They Won't Surrender...|QID|35100|M|55.44,42.08|N|From Senior Sergeant Igerdes.|
-A Terror of Nagrand|QID|35101|M|55.44,42.08|N|From Fallen Horde Soldier.|
+A Terror of Nagrand|QID|35101|M|56.10,43.76|N|From Fallen Horde Soldier.| ; Fixed Coordinates
 C Silence the War Machines|QID|35099|M|55.69,46.39|S|N|These are shown on your map by yellow dots.|
 C If They Won't Surrender...|QID|35100|M|53.93,45.40|S|
 C Terror of Nagrand|QID|35101|M|58.08,43.23|T|Shagor|
