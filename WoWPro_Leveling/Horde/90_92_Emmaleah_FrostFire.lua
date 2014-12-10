@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-12-05 23:30
+-- Who: Emmaleah
+-- Log: 12/3 hotfixes made the treasure maps soulbound (just when I add it to the guide)
+
+-- URL: http://wow-pro.com/node/3587/revisions/27074/view
 -- Date: 2014-12-02 04:43
 -- Who: Emmaleah
 -- Log: changed note about treasure map since it is now sold and tradeable/mailable instead of free and soulbound.
@@ -186,7 +191,7 @@ L Level 90 |QID|33815|LVL|90|N|This guide requires a minimum level of 90 to do.|
 N Getting to Frostfire Ridge|QID|33815|N|To get to Frostfire Riege in Draenor, you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|34446|
 
 N Welcome to Frostfire Ridge|QID|33815|M|40.75,67.10|
-N Treasure|QID|33815|M|40.75,67.10|N|The guide mentions some but not nearly all the treasure to be found in the zone. If you have extra gold, Srikka, the archeology vender in Warspear (74,32)sells a treasure map for 100g to any character who has finished the zone (which is mailable/tradeable). Otherwise if you are interested in ALL the treasure you can look on wowhead or any number of other addons.|
+N Treasure|QID|33815|M|40.75,67.10|N|The guide mentions some but not nearly all the treasure to be found in the zone. If you have extra gold, Srikka, the archeology vender in Warspear (74,32)sells a treasure map for 100g to any character who has finished the zone (it is no longer mailable/tradeable). Otherwise if you are interested in ALL the treasure you can look on wowhead or any number of other addons.|
 N Bonus Objectives|QID|33815|M|40.75,67.10|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100.|
 
 t The Home of the Frostwolves|QID|33868|M|40.75,67.10|N|To Farseer Drek'Thar.|

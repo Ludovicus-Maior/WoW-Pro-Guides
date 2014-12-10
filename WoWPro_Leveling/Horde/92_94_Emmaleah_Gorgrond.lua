@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2014-12-05 23:34
+-- Who: Emmaleah
+-- Log: Bliz changed the treasure map to be soulbound. Changed note accordingly.
+
+-- URL: http://wow-pro.com/node/3599/revisions/27060/view
 -- Date: 2014-11-29 09:24
 -- Who: Emmaleah
 -- Log: took out the a (replaced with A) added note explaining those steps. Changed some QID's so R steps would stay checked off. Added Woodfist to note on Centurian Without a Cause.
@@ -55,7 +60,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Guide begins in Gorgrond|QID|35557|N|This guide begins as you are leaving Frostfire and riding into Gorgrond. If you aren't there, the nearest flight point is Thunder Pass.|
-N Treasure|QID|35557|N|The guide mentions some but not nearly all the treasure to be found in the zone. If you want a treasure map, take a character that has been thru the zone and find Strikka in Ashran (74.6,31.who sells all the Horde treasure maps. (not soulbound or account bound) Depending on which building you build at your outpost, you will either have a shredder that can cut thru the tangled vines you run across or Beatface will come remove big rocks to uncover treasure previously hidden. You can loot the treasure someone else's shredder or Beatface uncovers (for about 2 min after they uncover it.)|
+N Treasure|QID|35557|N|The guide mentions some but not nearly all the treasure to be found in the zone. Depending on which building you build at your outpost, you will either have a shredder that can cut thru the tangled vines you run across or Beatface will come remove big rocks to uncover treasure previously hidden. You can loot the treasure someone else's shredder or Beatface uncovers (for about 2 min after they uncover it.)|
 N Bonus Objectives|QID|35557|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100. If you are doing this with a group you will notice that some of the outpost building specific quests are for you may be where the other person(s) will have bonus objectives if they built the other outpost type building.|
 
 ;this section all applies if you have arena - optional drops you may have gotten while out and about in gorgrond
