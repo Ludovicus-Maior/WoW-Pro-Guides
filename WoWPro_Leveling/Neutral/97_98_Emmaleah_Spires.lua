@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-12-14 04:58
+-- Who: Blanckaert
+-- Log: added LVL 97 tag to the Accept lines horde and alliance, I just hope I did it right
+
+-- URL: http://wow-pro.com/node/3602/revisions/27094/view
+-- Date: 2014-12-14 04:39
+-- Who: Blanckaert
+-- Log: the quest for Pinchwhistle Gearworks needs a Level tag for lvl 97 - added in comment till fixed.
+
+-- URL: http://wow-pro.com/node/3602/revisions/27093/view
 -- Date: 2014-12-08 10:31
 -- Who: Emmaleah
 -- Log: moved A Pinchwhistle Gearworks later in the guide. it appears Bliz changed it to lvl 97.  
@@ -84,7 +94,7 @@ return [[
 ;Rooby Roo 36798 vignette to loot str/crit/haste/ilvl581 Neck -- leaving out as I leave all the other treasure out -- buy rooby reat (114835)from ghost in kitchen@admiral taylors garrison, feed to rooby (ghost dog in main room), follow her outside, she poops. loot necklace.
 
 N Beginnings|QID|34653|N|This guide begins at your garrison to take the free flight to Spires.  If you do the Pinchwhistle Gearworks chain from your garrison, it will not be available for you when you come to it in this guide.|
-N Bonus Objectives|QID|34653|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 96 to do this guide.|
+N Bonus Objectives|QID|34653|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be at least 96 to do this guide.|
 N Jumping Games|QID|34653|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle).  I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
 A Arakkoa Exodus|QID|34653|M|42.67,44.73|Z|Lunarfall|N|From the Bulletin Board|FACTION|Alliance|
@@ -454,7 +464,7 @@ A No Time to Waste|QID|36165|M|57.14,34.49|PRE|36023|N|From Hulda Shadowblade.|F
 R The Howling Crag|QID|36165|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are going to take a side trip for our traveling convenience.  Go North and somewhat east.|FACTION|Alliance|
 C Wanted: Venombarb|QID|35676|M|61.11,19.05|RANK|3|FACTION|Alliance|
 H Southport|QID|35619|ACTIVE|35676;36165|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Alliance|PRE|35286|
+A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Alliance|PRE|35286|LVL|97| ; need to be 97 to get the quest, hope I did that right.
 
 H Axefall|QID|35907|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|
 C Attempted Murder|QID|35907||M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
@@ -495,7 +505,7 @@ A Standing United|QID|37276|M|40.04,43.33|PRE|36166|N|To/From Dark Ranger Velona
 A Not In Your Army|QID|37292|M|40.08,42.66|PRE|36166|N|From Lunzul.|FACTION|Horde|
 C Not In Your Army|QID|37292|M|39.45,41.72|CHAT|N|After you talk to her, she becomes hostile and you must kill her.|FACTION|Horde|
 T Not In Your Army|QID|37292|M|40.08,42.66|N|To Lunzul.|FACTION|Horde|
-A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you preferr).|FACTION|Horde|PRE|35277|
+A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you prefer).|FACTION|Horde|PRE|35277|LVL|97| ; need to be lvl 97 to get quest, I hope I did that right
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
 f Pinchwhistle Gearworks|QID|35619;35620|M|60.88,73.31|N|At Kwiven Quickcog.|
