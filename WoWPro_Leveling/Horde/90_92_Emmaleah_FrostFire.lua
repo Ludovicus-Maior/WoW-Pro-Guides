@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2014-12-14 22:31
+-- Who: Emmaleah
+-- Log: Corrected QID for [first enchanting work order]. It was incorrect for all steps except the A step.
+
+-- URL: http://wow-pro.com/node/3587/revisions/27080/view
 -- Date: 2014-12-05 23:30
 -- Who: Emmaleah
 -- Log: 12/3 hotfixes made the treasure maps soulbound (just when I add it to the guide)
@@ -730,10 +735,10 @@ T Your First Engineering Work Order|QID|37571|M|53.47,36.94|N|To Garbra Fizzwonk
 
 ;if you chose enchanting hut SMALL
 A Your First Enchanting Work Order|QID|36645|M|52.95,37.31|N|From Yukla Greenshadow.|BUILDING|EnchantingHut;93;125;126|
-B Draenic Dust|QID|37568|M|51.85,35.76|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
-C Place first work order|QID|37568|M|51.85,35.76|QO|1|CHAT|N|At Garra.|BUILDING|EnchantingHut;93;125;126|
-C Pick up work order|QID|37568|M|51.85,35.76|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
-T Your First Enchanting Work Order|QID|37568|M|52.56,36.72|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
+B Draenic Dust|QID|36645|M|51.85,35.76|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
+C Place first work order|QID|36645|M|51.85,35.76|QO|1|CHAT|N|At Garra.|BUILDING|EnchantingHut;93;125;126|
+C Pick up work order|QID|36645|M|51.85,35.76|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
+T Your First Enchanting Work Order|QID|36645|M|52.56,36.72|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
 
 ;if you choose barn MED
 A Breaking Into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|M|51.71,58.32|Z|Frostwall|N|From Farmer Lok'lub|
