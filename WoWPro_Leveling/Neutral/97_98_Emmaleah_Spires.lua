@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-12-18 02:56
+-- Who: Blanckaert
+-- Log:  35670 turnins up in the guide to clear them from the log
+
+-- URL: http://wow-pro.com/node/3602/revisions/27095/view
 -- Date: 2014-12-14 04:58
 -- Who: Blanckaert
 -- Log: added LVL 97 tag to the Accept lines horde and alliance, I just hope I did it right
@@ -467,6 +472,11 @@ H Southport|QID|35619|ACTIVE|35676;36165|FACTION|Alliance|
 A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Alliance|PRE|35286|LVL|97| ; need to be 97 to get the quest, hope I did that right.
 
 H Axefall|QID|35907|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|
+
+; moved two turn-ins up here to 'clear' them from log.
+T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
+T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|
+
 C Attempted Murder|QID|35907||M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
 T Attempted Murder|QID|35907|M|52.10,23.54|N|To Dark Ranger Velonara.|FACTION|Horde|
 A Assassin's Mark|QID|35924|M|52.10,23.54|PRE|35907|N|From Dark Ranger Velonara.|FACTION|Horde|
@@ -570,13 +580,12 @@ T Wanted: Venombarb|QID|35676|M|39.24,62.86|N|To Falrogh the Drunk.|FACTION|Alli
 F Veil Terokk|QID|37141|M|39.09,61.81|N|To Firn Swiftbreeze.|FACTION|Alliance|
 
 H Axefall|QID|35669|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
-T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
 
 ;36601 needed in case player has gone off-guide and picked up quest from Shadow-Sage Iskar
 A News from Nagrand|QID|36606;36601|M|39.89,60.85|N|From Lieutenant Willem.|LVL|98|FACTION|Alliance|
-
-T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|
+; Moved 35669 and 35670 up in guide, where you return to Axefall before going to Sahdow's Vigil (to clear 2 quests from log)
 T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
+
 F Veil Terokk|QID|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
 
 A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|PRE|34829|
