@@ -43,8 +43,8 @@ WoWPro.actionlabels = {
 }
 
 
--- Skip a step --
-function WoWPro:SkipStep(index)
+-- Skip a step -- 
+function WoWPro.SkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	
 	if not WoWPro.QID[index] then return "" end
@@ -52,7 +52,13 @@ function WoWPro:SkipStep(index)
 	if WoWPro.action[index] == "A" 
 	or WoWPro.action[index] == "C" 
 	or WoWPro.action[index] == "T" then
-		WoWProCharDB.skippedQIDs[WoWPro.QID[index]] = true
+	    local numqids = select("#", string.split(";", WoWPro.QID[j]))
+	    for k=1,numqids do
+	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[j]))
+	        if tonumber(kqid) then
+	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = true
+	        end
+	    end
 		WoWProCharDB.Guide[GID].skipped[index] = true
 	else 
 		WoWProCharDB.Guide[GID].skipped[index] = true
@@ -81,20 +87,25 @@ function WoWPro:SkipStep(index)
 	end
 	
 	skipstep(index)
-	
-	WoWPro:MapPoint()
+	WoWPro:UpdateGuide("SkipStep")
 	return steplist
 end
 
 -- Unskip a step --
-function WoWPro:UnSkipStep(index)
+function WoWPro.UnSkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	WoWProCharDB.Guide[GID].completion[index] = nil
 	if WoWPro.QID[index] 
 	and ( WoWPro.action[index] == "A" 
 		or WoWPro.action[index] == "C" 
 		or WoWPro.action[index] == "T" ) then
-			WoWProCharDB.skippedQIDs[WoWPro.QID[index]] = nil
+    		local numqids = select("#", string.split(";", WoWPro.QID[j]))
+    	    for k=1,numqids do
+    	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[j]))
+    	        if tonumber(kqid) then
+    	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = nil
+    	        end
+    	    end
 			WoWProCharDB.Guide[GID].skipped[index] = nil
 	else
 		WoWProCharDB.Guide[GID].skipped[index] = nil
@@ -230,6 +241,7 @@ function WoWPro.ParseQuestLine(faction,i,text)
 	WoWPro.recipe[i] = text:match("|RECIPE|([^|]*)|?")
 	WoWPro.pet[i] = text:match("|PET|([^|]*)|?")
 	WoWPro.building[i] = text:match("|BUILDING|([^|]*)|?")
+	WoWPro.item[i] = text:match("|ITEM|([^|]*)|?")
 	WoWPro.gossip[i] = text:match("|QG|([^|]*)|?")
 	if WoWPro.gossip[i] then WoWPro.gossip[i] = strupper(WoWPro.gossip[i]) end
 	WoWPro.why[i] = "I dunno."
@@ -516,7 +528,7 @@ function WoWPro:RowUpdate(offset)
 		--Loading Variables --
 		local step = WoWPro.step[k]
 		local action = WoWPro.action[k] 
-		local note = WoWPro.note[k]
+		local note = WoWPro.note[k] or ""
 		local QID = WoWPro.QID[k] 
 		local coord = WoWPro.map[k] 
 		local sticky = WoWPro.sticky[k] 
@@ -528,7 +540,8 @@ function WoWPro:RowUpdate(offset)
 		local optional = WoWPro.optional[k] 
 		local prereq = WoWPro.prereq[k] 
 		local leadin = WoWPro.leadin[k] 
-		local target = WoWPro.target[k] 
+		local target = WoWPro.target[k]
+		local item = WoWPro.item[k] 
 		if WoWPro.prof[k] then
 			local prof, proflvl = string.split(" ", WoWPro.prof[k]) 
 		end
@@ -691,6 +704,18 @@ function WoWPro:RowUpdate(offset)
 				itemkb = true
 			end
 		else row.itembutton:Hide() end
+		
+		-- Loots Button --
+		if item then
+		    local nomen = row.lootsbutton:SetItemByID(item)
+		    if note ~= "" then
+		        note = nomen .. ": " .. note
+		    else
+		        note = nomen
+		    end
+		    row.lootsbutton:Show()
+		    row.note:SetText(note)
+		else row.lootsbutton:Hide() end
 		
 		-- Target Button --
 		if target then
