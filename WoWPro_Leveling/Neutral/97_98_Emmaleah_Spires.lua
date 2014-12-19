@@ -4,6 +4,41 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-12-18 02:56
+-- Who: Blanckaert
+-- Log:  35670 turnins up in the guide to clear them from the log
+
+-- URL: http://wow-pro.com/node/3602/revisions/27095/view
+-- Date: 2014-12-14 04:58
+-- Who: Blanckaert
+-- Log: added LVL 97 tag to the Accept lines horde and alliance, I just hope I did it right
+
+-- URL: http://wow-pro.com/node/3602/revisions/27094/view
+-- Date: 2014-12-14 04:39
+-- Who: Blanckaert
+-- Log: the quest for Pinchwhistle Gearworks needs a Level tag for lvl 97 - added in comment till fixed.
+
+-- URL: http://wow-pro.com/node/3602/revisions/27093/view
+-- Date: 2014-12-08 10:31
+-- Who: Emmaleah
+-- Log: moved A Pinchwhistle Gearworks later in the guide. it appears Bliz changed it to lvl 97.  
+
+-- URL: http://wow-pro.com/node/3602/revisions/27092/view
+-- Date: 2014-12-08 10:00
+-- Who: Emmaleah
+-- Log: Add N text to One of our own.
+
+-- URL: http://wow-pro.com/node/3602/revisions/27091/view
+-- Date: 2014-12-08 09:21
+-- Who: Emmaleah
+-- Log: C steps for Arakoa Exodus were also switched.
+
+-- URL: http://wow-pro.com/node/3602/revisions/27090/view
+-- Date: 2014-12-08 09:19
+-- Who: Emmaleah
+-- Log: Arakoa Exodus QIDs were switched horde/alliance
+
+-- URL: http://wow-pro.com/node/3602/revisions/27057/view
 -- Date: 2014-11-27 14:31
 -- Who: Ludovicus
 -- Log: Finished up!
@@ -64,13 +99,13 @@ return [[
 ;Rooby Roo 36798 vignette to loot str/crit/haste/ilvl581 Neck -- leaving out as I leave all the other treasure out -- buy rooby reat (114835)from ghost in kitchen@admiral taylors garrison, feed to rooby (ghost dog in main room), follow her outside, she poops. loot necklace.
 
 N Beginnings|QID|34653|N|This guide begins at your garrison to take the free flight to Spires.  If you do the Pinchwhistle Gearworks chain from your garrison, it will not be available for you when you come to it in this guide.|
-N Bonus Objectives|QID|34653|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be 96 to do this guide.|
+N Bonus Objectives|QID|34653|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be at least 96 to do this guide.|
 N Jumping Games|QID|34653|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle).  I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
-A Arakkoa Exodus|QID|36951|M|42.67,44.73|Z|Lunarfall|N|From the Bulletin Board|FACTION|Alliance|
-A Arakkoa Exodus|QID|34653|M|49.5,41.5|Z|Frostwall|N|From the Command Board|FACTION|Horde|
-F Spires of Arak|QID|36951|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
-F Spires of Arak|QID|34653|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
+A Arakkoa Exodus|QID|34653|M|42.67,44.73|Z|Lunarfall|N|From the Bulletin Board|FACTION|Alliance|
+A Arakkoa Exodus|QID|36951|M|49.5,41.5|Z|Frostwall|N|From the Command Board|FACTION|Horde|
+F Spires of Arak|QID|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
+F Spires of Arak|QID|36951|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
 
 T Arakkoa Exodus|QID|36951;34653|M|37.89,18.02|N|To Azik.|
 A The Shadows of Skettis|QID|34655|M|37.89,18.02|N|From Azik.|PRE|36951+34653|
@@ -114,8 +149,7 @@ T A Gathering of Shadows|QID|35671|M|46.51,45.60|N|To Shadow-Sage Iskar.|
 f Veil Terokk|QID|35272|M|46.18,44.13|N|At Skytalon Meshaal.|
 A One of Our Own|QID|35274|M|45.89,46.36|N|From Jasper Fel.|FACTION|Alliance|
 A One of Our Own|QID|35272|M|45.90,46.35|N|From Shadow Hunter Ukambe.|FACTION|Horde|
-C One of Our Own|QID|35274|CHAT|M|46.52,45.61|FACTION|Alliance|
-C One of Our Own|QID|35272|CHAT|M|46.52,45.61|FACTION|Horde|
+C One of Our Own|QID|35272;35274|CHAT|M|46.52,45.61|N|Talk to Iskar and get him to let your guy free.|
 T One of Our Own|QID|35274|M|45.89,46.37|N|To Jasper Fel.|FACTION|Alliance|
 T One of Our Own|QID|35272|M|45.90,46.36|N|To Shadow Hunter Ukambe.|FACTION|Horde|
 A Inspecting the Troops|QID|35276|M|45.89,46.37|N|From Jasper Fel.|FACTION|Alliance|PRE|35274|
@@ -148,7 +182,6 @@ A Wanted: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTI
 h Axefall|QID|35295|M|40.41,42.99|N|At Taz'jari.|FACTION|Horde|
 A What's Theirs is Ours|QID|35295|M|40.27,43.37|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35277|
 f Axefall|QID|35293|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
-A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Horde|PRE|35277|
 
 A Return to Veil Terokk|QID|35611|M|40.18,60.25|N|From Percy.|PRE|35286+35277|
 R Admiral Taylor's Garrison|QID|35295|M|39.13,48.95|
@@ -436,9 +469,14 @@ A No Time to Waste|QID|36165|M|57.14,34.49|PRE|36023|N|From Hulda Shadowblade.|F
 R The Howling Crag|QID|36165|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are going to take a side trip for our traveling convenience.  Go North and somewhat east.|FACTION|Alliance|
 C Wanted: Venombarb|QID|35676|M|61.11,19.05|RANK|3|FACTION|Alliance|
 H Southport|QID|35619|ACTIVE|35676;36165|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Alliance|PRE|35286|
+A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Alliance|PRE|35286|LVL|97| ; need to be 97 to get the quest, hope I did that right.
 
 H Axefall|QID|35907|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|
+
+; moved two turn-ins up here to 'clear' them from log.
+T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
+T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|
+
 C Attempted Murder|QID|35907||M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
 T Attempted Murder|QID|35907|M|52.10,23.54|N|To Dark Ranger Velonara.|FACTION|Horde|
 A Assassin's Mark|QID|35924|M|52.10,23.54|PRE|35907|N|From Dark Ranger Velonara.|FACTION|Horde|
@@ -477,6 +515,7 @@ A Standing United|QID|37276|M|40.04,43.33|PRE|36166|N|To/From Dark Ranger Velona
 A Not In Your Army|QID|37292|M|40.08,42.66|PRE|36166|N|From Lunzul.|FACTION|Horde|
 C Not In Your Army|QID|37292|M|39.45,41.72|CHAT|N|After you talk to her, she becomes hostile and you must kill her.|FACTION|Horde|
 T Not In Your Army|QID|37292|M|40.08,42.66|N|To Lunzul.|FACTION|Horde|
+A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you prefer).|FACTION|Horde|PRE|35277|LVL|97| ; need to be lvl 97 to get quest, I hope I did that right
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
 f Pinchwhistle Gearworks|QID|35619;35620|M|60.88,73.31|N|At Kwiven Quickcog.|
@@ -541,13 +580,12 @@ T Wanted: Venombarb|QID|35676|M|39.24,62.86|N|To Falrogh the Drunk.|FACTION|Alli
 F Veil Terokk|QID|37141|M|39.09,61.81|N|To Firn Swiftbreeze.|FACTION|Alliance|
 
 H Axefall|QID|35669|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
-T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
 
 ;36601 needed in case player has gone off-guide and picked up quest from Shadow-Sage Iskar
 A News from Nagrand|QID|36606;36601|M|39.89,60.85|N|From Lieutenant Willem.|LVL|98|FACTION|Alliance|
-
-T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|
+; Moved 35669 and 35670 up in guide, where you return to Axefall before going to Sahdow's Vigil (to clear 2 quests from log)
 T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
+
 F Veil Terokk|QID|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
 
 A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|PRE|34829|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2014-12-06 21:21
+-- Who: Ludovicus
+-- Log: ! Line 265 for step C has unknown tag [Vizier Cromaug]: [C Punching Through|QID|34855|QO|3|M|66.26,80.97|Vizier Cromaug|]
+
+-- URL: http://wow-pro.com/node/3598/revisions/27077/view
 -- Date: 2014-12-04 01:52
 -- Who: Blanckaert
 -- Log: adjusted this line to read, Took out the msg about not have the coordinates, when they were in there.
@@ -262,7 +267,7 @@ C Supply Recovery|QID|34860|S|M|69.04,82.47|NC|N|The boxes are scattered around 
 C Prized Repossessions|QID|34858|S|M|69.04,82.47|N|Kill ogres as you travel towards the other objectives.|
 C Punching Through|QID|34855|QO|1|M|68.55,82.91|T|Vizier Vorgorsh|
 C Punching Through|QID|34855|QO|2|M|67.05,77.06|T|Vizier Zulmork|
-C Punching Through|QID|34855|QO|3|M|66.26,80.97|Vizier Cromaug|
+C Punching Through|QID|34855|QO|3|M|66.26,80.97|T|Vizier Cromaug|
 C Supply Recovery|QID|34860|US|M|69.04,82.47|
 C Prized Repossessions|QID|34858|US|M|69.04,82.47|
 T Punching Through|QID|34855|M|69.04,82.47|N|To Morketh Bladehowl (who is following you around).|
