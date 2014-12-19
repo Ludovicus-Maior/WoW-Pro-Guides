@@ -577,6 +577,7 @@ function WoWPro:CreateRows()
 		row.track = WoWPro:CreateTrack(row, row.action)
 		row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row, i)
 		row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, i)
+		row.lootsbutton, row.lootsicon = WoWPro:CreateLootsButton(row, i)
 		
 		local highlight = row:CreateTexture()
 		highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
