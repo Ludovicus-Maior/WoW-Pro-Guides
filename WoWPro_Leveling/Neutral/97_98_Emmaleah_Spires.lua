@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2014-12-20 09:18
+-- Who: Emmaleah
+-- Log: moved the murkbog quest chain earlier in the guide and talonpriest ishaal to the end. added a few notes. moved the wanted poster turn ins (not sure I put them in the right spot tho). Basically my first play thru on live.
+
+-- URL: http://wow-pro.com/node/3602/revisions/27097/view
 -- Date: 2014-12-18 02:56
 -- Who: Blanckaert
 -- Log:  35670 turnins up in the guide to clear them from the log
@@ -99,7 +104,7 @@ return [[
 ;Rooby Roo 36798 vignette to loot str/crit/haste/ilvl581 Neck -- leaving out as I leave all the other treasure out -- buy rooby reat (114835)from ghost in kitchen@admiral taylors garrison, feed to rooby (ghost dog in main room), follow her outside, she poops. loot necklace.
 
 N Beginnings|QID|34653|N|This guide begins at your garrison to take the free flight to Spires.  If you do the Pinchwhistle Gearworks chain from your garrison, it will not be available for you when you come to it in this guide.|
-N Bonus Objectives|QID|34653|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be at least 96 to do this guide.|
+N Bonus Objectives|QID|34653|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.  You must be at least level 96 to do this guide.|
 N Jumping Games|QID|34653|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle).  I leave these to you to figure out if you want to take the time.|
 N Nagrand|QID|34653|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.
 A Arakkoa Exodus|QID|34653|M|42.67,44.73|Z|Lunarfall|N|From the Bulletin Board|FACTION|Alliance|
@@ -179,6 +184,7 @@ A Old Friends|QID|35293|M|39.79,60.68|N|From Jasper Fel.|FACTION|Alliance|PRE|35
 
 A Wanted: Keeho's Severed Paw|QID|35669|M|40.11,43.05|N|From Wanted Poster, its inside the building if you choose the brewery.|FACTION|Horde|PRE|35277|
 A Wanted: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|
+A Wanted: Venombarb|QID|35672|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|
 h Axefall|QID|35295|M|40.41,42.99|N|At Taz'jari.|FACTION|Horde|
 A What's Theirs is Ours|QID|35295|M|40.27,43.37|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35277|
 f Axefall|QID|35293|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
@@ -388,7 +394,7 @@ C The Avatar of Terokk|QID|35896|M|30.40,27.07|CHAT|N|Tell Terokk you are ready 
 T The Avatar of Terokk|QID|35896|M|46.49,46.66|N|To Reshad.|
 A Cult of the Ravenspeakers|QID|34921|M|46.93,46.11|N|From Anzu.|
 
-C Cult of the Ravenspeakers|QID|34921|NC|M|48.93,48.90|
+C Cult of the Ravenspeakers|QID|34921|NC|M|48.93,48.90|N|Place the feather Anzu gave you in the 'Offering Basket'.|
 T Cult of the Ravenspeakers|QID|34921|M|48.97,48.97|N|To Iktis of the Flock.|
 A To the... Rescue?|QID|34991|M|48.97,48.97|N|From Iktis of the Flock.|PRE|34921|
 C To the... Rescue?|QID|34991|M|48.73,51.59|N|Go kill the Raptor and rescue(loot) poor Tillok.|T|Stonescale|
@@ -441,10 +447,9 @@ C When All Is Aligned|QID|35704|NC|M|46.5,54.56|N|Hop back on Ka'alu to began a 
 T When All Is Aligned|QID|35704|M|46.49,46.67|N|To Reshad.|
 A Victory is Within Reach|QID|36316|M|46.49,46.67|N|From Reshad. This is a dungeon quest.|PRE|35704|
 
-H Southport|QID|35915|ACTIVE|35915|M|46.53,46.80|FACTION|Alliance|
+H Southport|QID|35915|ACTIVE|35915|M|46.18,44.13|FACTION|Alliance|N|If your hearthstone is unavailable/not set to Southport, the closest flight point is in Veil Terok at Skytalon Meshaal.|
 t Wanted: Keeho's Severed Paw|QID|35674|M|39.89,60.85|N|To Lieutenant Willem.|FACTION|Alliance|
 t Wanted: Spineslicer's Husk|QID|35675|M|39.35,59.81|N|To Quartermaster Jolie.|FACTION|Alliance|
-A Wanted: Venombarb|QID|35672|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|
 C Attempted Murder|QID|35915|M|39.51,43.36|CHAT|N|Talk to Firn Swiftbreeze for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Alliance|
 T Attempted Murder|QID|35915|M|52.10,23.54|N|To Hulda Shadowblade.|FACTION|Alliance|
 A Assassin's Mark|QID|35926|M|52.10,23.54|PRE|35915|N|From Hulda Shadowblade.|FACTION|Alliance|
@@ -466,18 +471,48 @@ C We Have Him Now|QID|36048|M|58.15,33.3|QO|1|T|Gardul Venomshiv|FACTION|Allianc
 C We Have Him Now|QID|36048|M|58.15,33.3|QO|2|US|FACTION|Alliance|
 T We Have Him Now|QID|36048|M|57.14,34.49|N|To Hulda Shadowblade.|FACTION|Alliance|
 A No Time to Waste|QID|36165|M|57.14,34.49|PRE|36023|N|From Hulda Shadowblade.|FACTION|Alliance|
+
 R The Howling Crag|QID|36165|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are going to take a side trip for our traveling convenience.  Go North and somewhat east.|FACTION|Alliance|
 C Wanted: Venombarb|QID|35676|M|61.11,19.05|RANK|3|FACTION|Alliance|
+
+R Murkbog|QID|35713|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |ACTIVE|35713|FACTION|Alliance|
+T The Tinkertoss Twins|QID|35713|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
+A Sticky Situation|QID|35716|M|56.21,42.49|PRE|35713|N|From Filbert Tinkertoss.|FACTION|Alliance|
+A Safety Measures|QID|35878|M|56.21,42.49|PRE|35713|N|From Filbert Tinkertoss.|FACTION|Alliance|
+C Safety Measures|QID|35878|M|56.50,48.04|S|FACTION|Alliance|
+C Sticky Situation|QID|35716|NC|M|55.32,36.85|FACTION|Alliance|
+C Safety Measures|QID|35878|M|56.50,48.04|US|FACTION|Alliance|
+T Sticky Situation|QID|35716|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
+T Safety Measures|QID|35878|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
+A Back on Track|QID|35719|M|56.21,42.49|PRE|35716;35878|N|From Filbert Tinkertoss.|FACTION|Alliance|
+T Back on Track|QID|35719|M|60.18,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
+A All Natural|QID|35739|M|60.18,53.15|PRE|35719|N|From Dilbert Tinkertoss.|FACTION|Alliance|
+A I See Dead Arakkoa|QID|35782|M|60.18,53.15|PRE|35719|N|From Dilbert Tinkertoss.|FACTION|Alliance|
+C All Natural|QID|35739|S|M|61.00,57.12|N|Kill the ancient trees for their charcoal.|FACTION|Alliance|
+C I See Dead Arakkoa|QID|35782|U|113438|M|61.03,57.71|N|Use your ghostogrifier to summon Zekk.|FACTION|Alliance|
+C All Natural|QID|35739|US|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Alliance|
+T All Natural|QID|35739|M|60.19,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
+T I See Dead Arakkoa|QID|35782|M|60.19,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
+A The Ebon Hunter|QID|35835|M|60.20,53.15|PRE|35739;35782|N|From Dilbert Tinkertoss.|FACTION|Alliance|
+C The Ebon Hunter|QID|35835|M|65.09,61.46|T|The Ebon Hunter|FACTION|Alliance|
+T The Ebon Hunter|QID|35835|M|60.08,53.64|N|To Dilbert Tinkertoss.|FACTION|Alliance|
 H Southport|QID|35619|ACTIVE|35676;36165|FACTION|Alliance|
-A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (or go back to your garrison and ignore the guide).|FACTION|Alliance|PRE|35286|LVL|97| ; need to be 97 to get the quest, hope I did that right.
 
-H Axefall|QID|35907|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|
+A Pinchwhistle Gearworks|QID|35619|M|39.63,60.62|N|From Watchman Kovak. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you prefer).|FACTION|Alliance|PRE|35286|LVL|97|
+C No Time to Waste|QID|36165|M|39.66,60.86|CHAT|FACTION|Alliance|
+T No Time to Waste|QID|36165|M|39.66,61.86|N|To Kolrigg Stokton.|FACTION|Alliance|
+A Standing United|QID|37281|M|39.72,60.91|PRE|36165|N|To/From Hulda Shadowblade to accept her as a follower.|FACTION|Alliance|
+A Cleaning House|QID|37287|M|39.51,61.68|PRE|36165|N|From Kolrigg Stokton.|FACTION|Alliance|
+C Cleaning House|QID|37287|M|38.37,62.64|CHAT|N|After you talk to him, he becomes hostile and you must kill him.|FACTION|Alliance|
+T Cleaning House|QID|37287|M|39.51,61.68|N|To Kolrigg Stokton.|FACTION|Alliance|
+T Wanted: Venombarb|QID|35676|M|39.24,62.86|N|To Falrogh the Drunk.|FACTION|Alliance|
+C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|CHAT|N|Talk to Firn Swiftbreeze for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
 
-; moved two turn-ins up here to 'clear' them from log.
+H Axefall|QID|35907|ACTIVE|35907|M|46.18,44.13|FACTION|Horde|N|If your hearthstone is unavailable/not set to Axefall, the closest flight point is in Veil Terok at Skytalon Meshaal.|
 T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
 T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|
 
-C Attempted Murder|QID|35907||M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
+C Attempted Murder|QID|35907|M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
 T Attempted Murder|QID|35907|M|52.10,23.54|N|To Dark Ranger Velonara.|FACTION|Horde|
 A Assassin's Mark|QID|35924|M|52.10,23.54|PRE|35907|N|From Dark Ranger Velonara.|FACTION|Horde|
 C Assassin's Mark|QID|35924|M|55.49,23.22|N|Check the bodies of the 'Vigilant Outcasts' lying along the road.|FACTION|Horde|
@@ -497,17 +532,32 @@ C We Have Him Now|QID|36047|M|58.15,33.3|QO|1|T|Gardul Venomshiv|FACTION|Horde|
 C We Have Him Now|QID|36047|M|58.15,33.3|QO|2|US|FACTION|Horde|
 T We Have Him Now|QID|36047|M|57.14,34.49|N|To Dark Ranger Velonara.|FACTION|Horde|
 A No Time to Waste|QID|36166|M|57.14,34.49|PRE|36022|N|From Dark Ranger Velonara.|FACTION|Horde|
+
 R The Howling Crag|QID|35620|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are going to take a side trip for our traveling convenience.  Go North and somewhat east.|FACTION|Horde|
 C Wanted: Venombarb|QID|35672|M|61.11,19.05|RANK|3|FACTION|Horde|
-H Axefall|QID|35620|ACTIVE|35672;36166|FACTION|Horde|
 
-C No Time to Waste|QID|36165|M|39.66,60.86|CHAT|FACTION|Alliance|
-T No Time to Waste|QID|36165|M|39.66,61.86|N|To Kolrigg Stokton.|FACTION|Alliance|
-A Standing United|QID|37281|M|39.72,60.91|PRE|36165|N|To/From Hulda Shadowblade to accept her as a follower.|FACTION|Alliance|
-A Cleaning House|QID|37287|M|39.51,61.68|PRE|36165|N|From Kolrigg Stokton.|FACTION|Alliance|
-C Cleaning House|QID|37287|M|38.37,62.64|CHAT|N|After you talk to him, he becomes hostile and you must kill him.|FACTION|Alliance|
-T Cleaning House|QID|37287|M|39.51,61.68|N|To Kolrigg Stokton.|FACTION|Alliance|
-C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|CHAT|N|Talk to Firn Swiftbreeze for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
+R Murkbog|QID|35705|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |ACTIVE|35705|FACTION|Horde|
+T Best Deals Anywhere|QID|35705|M|56.02,40.88|N|To Mixxy Weldblast.|FACTION|Horde|
+A Safety Measures|QID|35879|M|56.02,40.88|PRE|35705|N|From Mixxy Weldblast.|FACTION|Horde|
+A Sticky Situation|QID|35706|M|56.02,40.91|PRE|35705|N|From Mixxy Weldblast.|FACTION|Horde|
+C Safety Measures|QID|35879|M|56.50,48.04|S|FACTION|Horde|
+C Sticky Situation|QID|35706|NC|M|55.32,36.85|FACTION|Horde|
+C Safety Measures|QID|35879|M|56.50,48.04|US|FACTION|Horde|
+T Sticky Situation|QID|35706|M|56.02,40.91|N|To Mixxy Weldblast.|FACTION|Horde|
+T Safety Measures|QID|35879|M|56.02,40.91|N|To Mixxy Weldblast.|FACTION|Horde|
+A Back on Track|QID|35718|M|56.02,40.91|PRE|35706;35879|N|From Mixxy Weldblast.|FACTION|Horde|
+T Back on Track|QID|35718|M|60.18,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
+A All Natural|QID|35738|M|60.18,53.15|PRE|35718|N|From Trixxy Weldblast.|FACTION|Horde|
+A I See Dead Arakkoa|QID|35766|M|60.18,53.15|PRE|35718|N|From Trixxy Weldblast.|FACTION|Horde|
+C All Natural|QID|35738|S|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Horde|
+C I See Dead Arakkoa|QID|35766|U|113438|M|61.03,57.71|N|Use your ghostogrifier to summon Zekk.|FACTION|Horde|
+C All Natural|QID|35738|US|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Horde|
+T All Natural|QID|35738|M|60.19,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
+T I See Dead Arakkoa|QID|35766|M|60.19,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
+A The Ebon Hunter|QID|35797|M|60.20,53.15|PRE|35738;35766|N|From Trixxy Weldblast.|FACTION|Horde|
+C The Ebon Hunter|QID|35797|M|65.09,61.46|T|The Ebon Hunter|FACTION|Horde|
+T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
+H Axefall|QID|35620|ACTIVE|35672;36166|FACTION|Horde|
 
 C No Time to Waste|QID|36166|M|40.11,43.28|CHAT|FACTION|Horde|
 T No Time to Waste|QID|36166|M|40.11,43.28|N|To Lunzul.|FACTION|Horde|
@@ -515,9 +565,10 @@ A Standing United|QID|37276|M|40.04,43.33|PRE|36166|N|To/From Dark Ranger Velona
 A Not In Your Army|QID|37292|M|40.08,42.66|PRE|36166|N|From Lunzul.|FACTION|Horde|
 C Not In Your Army|QID|37292|M|39.45,41.72|CHAT|N|After you talk to her, she becomes hostile and you must kill her.|FACTION|Horde|
 T Not In Your Army|QID|37292|M|40.08,42.66|N|To Lunzul.|FACTION|Horde|
-A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you prefer).|FACTION|Horde|PRE|35277|LVL|97| ; need to be lvl 97 to get quest, I hope I did that right
-C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
+A Pinchwhistle Gearworks|QID|35620|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you prefer).|FACTION|Horde|PRE|35277|LVL|97|
+T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
 
+C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 f Pinchwhistle Gearworks|QID|35619;35620|M|60.88,73.31|N|At Kwiven Quickcog.|
 T Pinchwhistle Gearworks|QID|35619;35620|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
 A Defungination|QID|35077|M|61.47,72.94|N|From Kimzee Pinchwhistle.|PRE|35619+35620|
@@ -573,68 +624,16 @@ T Flame On|QID|35298|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
 A Kimzee Pinchwhistle|QID|36062|M|61.47,72.94|N|To/From Kimzee Pinchwhistle.|PRE|35298|
 
 H Southport|QID|35674|M|61.47,72.94|N|Back to Southport.|FACTION|Alliance|
-T Wanted: Keeho's Severed Paw|QID|35674|M|39.89,60.85|N|To Lieutenant Willem.|FACTION|Alliance|
-A News from Nagrand|QID|36606|M|39.89,60.85|N|From Lieutenant Willem.|LVL|98|FACTION|Alliance|
-T Wanted: Spineslicer's Husk|QID|35675|M|39.35,59.81|N|To Quartermaster Jolie.|FACTION|Alliance|
-T Wanted: Venombarb|QID|35676|M|39.24,62.86|N|To Falrogh the Drunk.|FACTION|Alliance|
+A News from Nagrand|QID|36606;36601|M|39.89,60.85|N|From Lieutenant Willem.|LVL|98|FACTION|Alliance|
 F Veil Terokk|QID|37141|M|39.09,61.81|N|To Firn Swiftbreeze.|FACTION|Alliance|
 
-H Axefall|QID|35669|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
-
-;36601 needed in case player has gone off-guide and picked up quest from Shadow-Sage Iskar
-A News from Nagrand|QID|36606;36601|M|39.89,60.85|N|From Lieutenant Willem.|LVL|98|FACTION|Alliance|
-; Moved 35669 and 35670 up in guide, where you return to Axefall before going to Sahdow's Vigil (to clear 2 quests from log)
-T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
-
+H Axefall|QID|371419|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
+A News from Nagrand|QID|36607;36602|M|40.18,43.51|N|From Taskmaster Gornek.|FACTION|Horde|
 F Veil Terokk|QID|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|
 
 A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|PRE|34829|
 
-R Murkbog|QID|35713|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |ACTIVE|35713|FACTION|Alliance|
-T The Tinkertoss Twins|QID|35713|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
-A Sticky Situation|QID|35716|M|56.21,42.49|PRE|35713|N|From Filbert Tinkertoss.|FACTION|Alliance|
-A Safety Measures|QID|35878|M|56.21,42.49|PRE|35713|N|From Filbert Tinkertoss.|FACTION|Alliance|
-C Safety Measures|QID|35878|M|56.50,48.04|S|FACTION|Alliance|
-C Sticky Situation|QID|35716|NC|M|55.32,36.85|FACTION|Alliance|
-C Safety Measures|QID|35878|M|56.50,48.04|US|FACTION|Alliance|
-T Sticky Situation|QID|35716|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
-T Safety Measures|QID|35878|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
-A Back on Track|QID|35719|M|56.21,42.49|PRE|35716;35878|N|From Filbert Tinkertoss.|FACTION|Alliance|
-T Back on Track|QID|35719|M|60.18,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
-A All Natural|QID|35739|M|60.18,53.15|PRE|35719|N|From Dilbert Tinkertoss.|FACTION|Alliance|
-A I See Dead Arakkoa|QID|35782|M|60.18,53.15|PRE|35719|N|From Dilbert Tinkertoss.|FACTION|Alliance|
-C All Natural|QID|35739|S|M|61.00,57.12|N|Kill the ancient trees for their charcoal.|FACTION|Alliance|
-C I See Dead Arakkoa|QID|35782|U|113438|M|61.03,57.71|N|Use your ghostogrifier to summon Zekk.|FACTION|Alliance|
-C All Natural|QID|35739|US|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Alliance|
-T All Natural|QID|35739|M|60.19,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
-T I See Dead Arakkoa|QID|35782|M|60.19,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
-A The Ebon Hunter|QID|35835|M|60.20,53.15|PRE|35739;35782|N|From Dilbert Tinkertoss.|FACTION|Alliance|
-C The Ebon Hunter|QID|35835|M|65.09,61.46|T|The Ebon Hunter|FACTION|Alliance|
-T The Ebon Hunter|QID|35835|M|60.08,53.64|N|To Dilbert Tinkertoss.|FACTION|Alliance|
-
-R Murkbog|QID|35705|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |ACTIVE|35705|FACTION|Horde|
-T Best Deals Anywhere|QID|35705|M|56.02,40.88|N|To Mixxy Weldblast.|FACTION|Horde|
-A Safety Measures|QID|35879|M|56.02,40.88|PRE|35705|N|From Mixxy Weldblast.|FACTION|Horde|
-A Sticky Situation|QID|35706|M|56.02,40.91|PRE|35705|N|From Mixxy Weldblast.|FACTION|Horde|
-C Safety Measures|QID|35879|M|56.50,48.04|S|FACTION|Horde|
-C Sticky Situation|QID|35706|NC|M|55.32,36.85|FACTION|Horde|
-C Safety Measures|QID|35879|M|56.50,48.04|US|FACTION|Horde|
-T Sticky Situation|QID|35706|M|56.02,40.91|N|To Mixxy Weldblast.|FACTION|Horde|
-T Safety Measures|QID|35879|M|56.02,40.91|N|To Mixxy Weldblast.|FACTION|Horde|
-A Back on Track|QID|35718|M|56.02,40.91|PRE|35706;35879|N|From Mixxy Weldblast.|FACTION|Horde|
-T Back on Track|QID|35718|M|60.18,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
-A All Natural|QID|35738|M|60.18,53.15|PRE|35718|N|From Trixxy Weldblast.|FACTION|Horde|
-A I See Dead Arakkoa|QID|35766|M|60.18,53.15|PRE|35718|N|From Trixxy Weldblast.|FACTION|Horde|
-C All Natural|QID|35738|S|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Horde|
-C I See Dead Arakkoa|QID|35766|U|113438|M|61.03,57.71|N|Use your ghostogrifier to summon Zekk.|FACTION|Horde|
-C All Natural|QID|35738|US|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Horde|
-T All Natural|QID|35738|M|60.19,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
-T I See Dead Arakkoa|QID|35766|M|60.19,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
-A The Ebon Hunter|QID|35797|M|60.20,53.15|PRE|35738;35766|N|From Trixxy Weldblast.|FACTION|Horde|
-C The Ebon Hunter|QID|35797|M|65.09,61.46|T|The Ebon Hunter|FACTION|Horde|
-T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
-
-D Your Garrison|QID|36606;36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak.  The final leveling zone quide, Nagrand, should load after you check off this step.|
+D Your Garrison|QID|U|110560|M|40.18,43.5|N|This ends Spires of Arak.  The final leveling zone quide, Nagrand, should load after you check off this step.|
 
 ]]
 
