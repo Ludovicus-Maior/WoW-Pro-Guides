@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2014-12-25 17:11
+-- Who: Ludovicus
+-- Log: Corrected prologues
+
+-- URL: http://wow-pro.com/node/3474/revisions/26384/view
 -- Date: 2014-05-28 22:00
 -- Who: Ludovicus
 -- Log: Added Dragonblight

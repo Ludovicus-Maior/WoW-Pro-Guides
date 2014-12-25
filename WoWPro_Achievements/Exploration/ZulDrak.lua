@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2014-12-25 17:11
+-- Who: Ludovicus
+-- Log: Corrected prologues
+
+-- URL: http://wow-pro.com/node/3474/revisions/26384/view
 -- Date: 2014-05-28 22:00
 -- Who: Ludovicus
 -- Log: Added Dragonblight
@@ -37,7 +42,11 @@
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("KabExpZul","Zul'Drak","Zul'Drak","Exploration", "Northrend", "Kaboca", "Neutral", function()
+local guide = WoWPro:RegisterGuide("KabExpZul","Achievements","Zul'Drak","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",1267)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Zeramas|QID|912670010|M|21.5,76.5|ACH|1267;10|
 F Light's Breach|QID|912670013|M|32.0,75.6|ACH|1267;13|

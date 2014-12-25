@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
+-- Date: 2014-12-25 17:11
+-- Who: Ludovicus
+-- Log: Corrected prologues
+
+-- URL: http://wow-pro.com/node/3474/revisions/26384/view
 -- Date: 2014-05-28 22:00
 -- Who: Ludovicus
 -- Log: Added Dragonblight
@@ -37,7 +42,11 @@
 -- Date: 2012-05-27 17:49
 -- Who: Ludovicus
 
-WoWPro.Achievements:RegisterGuide("KabExpGriz","Grizzly Hills","Grizzly Hills","Exploration", "Northrend", "Kaboca", "Neutral", function()
+local guide = WoWPro:RegisterGuide("KabExpGriz","Achievements","Grizzly Hills","Kaboca", "Neutral")
+WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideIcon(guide,"ACH",1266)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
 return [[
 F Drak'Tharon Keep|QID|912660002|M|17.6,28.4|ACH|1266;2|
 F Granite Springs|QID|912660005|M|16.2,47.7|ACH|1266;5|
