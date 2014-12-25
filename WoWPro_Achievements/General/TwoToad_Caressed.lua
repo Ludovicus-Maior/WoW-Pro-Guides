@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2014-12-25 20:11
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3520/revisions/27102/view
 -- Date: 2014-12-25 18:56
 -- Who: Ludovicus
 
@@ -67,10 +71,9 @@
 -- Who: Ludovicus
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'MoP Zones', 'To All the Squirrels I Once Caressed?','Neutral')
+local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'Pandaria', 'TwoToad', 'Neutral')
 WoWPro:GuideLevels(guide,85, 90, 89)
 WoWPro:GuideIcon(guide,"ACH",6350)
-WoWPro:GuideNextGuide(guide, 'TwoToad')
 WoWPro:GuideSteps(guide, function()
 return [[
 
