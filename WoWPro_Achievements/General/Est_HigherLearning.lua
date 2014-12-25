@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3538
--- Date: 2014-06-03 22:15
+-- Date: 2014-12-25 18:51
 -- Who: Ludovicus
 -- Log: Moved Author to the right slot!
 
@@ -23,6 +23,7 @@
 -- Who: Ludovicus
 
 local guide = WoWPro:RegisterGuide('EstAchHiLe',"Achievements",'Dalaran', 'Estelyen','Neutral')
+WoWPro:GuideLevels(guide,70, 85, 82.5)
 WoWPro:GuideIcon(guide,"ACH",1956)
 WoWPro:GuideSteps(guide, function()
 return

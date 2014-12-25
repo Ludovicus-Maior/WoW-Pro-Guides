@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pandaria_lost_and_found_achievement
+-- Date: 2014-12-25 18:59
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3514/revisions/26841/view
 -- Date: 2014-11-07 20:18
 -- Who: Emmaleah
 
@@ -73,7 +77,8 @@
 -- Log: Close of Blog Page
 
 local guide = WoWPro:RegisterGuide('EmmAchLost',"Achievements",'MoP Zones', 'Lost and Found - Riches of Pandaria','Neutral')
--- WoWPro:GuideIcon(guide,"ACH",XXX)
+WoWPro:GuideLevels(guide,87, 91, 90)
+WoWPro:GuideIcon(guide,"ACH",7284)
 WoWPro:GuideNextGuide(guide, 'Emmaleah')
 WoWPro:GuideSteps(guide, function()
 return [[

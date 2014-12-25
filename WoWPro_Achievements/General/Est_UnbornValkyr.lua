@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3552
--- Date: 2014-05-26 18:10
+-- Date: 2014-12-25 19:06
 -- Who: Ludovicus
 -- Log: Added guide type.
 
@@ -23,7 +23,8 @@
 -- Who: Estelyen
 
 local guide = WoWPro:RegisterGuide('EstAchUnVa',"Achievements",'Dalaran', 'Unborn Valkyr','Neutral')
--- WoWPro:GuideIcon(guide,"ACH",XXX)
+WoWPro:GuideLevels(guide,75, 81, 80)
+WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_valkierpet")
 WoWPro:GuideNextGuide(guide, 'Estelyen')
 WoWPro:GuideSteps(guide, function()
 

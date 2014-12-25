@@ -4,6 +4,14 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/achievement_all_squirrels_i_once_caressed
+-- Date: 2014-12-25 18:56
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3520/revisions/27101/view
+-- Date: 2014-12-25 18:55
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3520/revisions/26318/view
 -- Date: 2014-05-26 19:54
 -- Who: Ludovicus
 -- Log: Added guid etype to TwoCared
@@ -59,18 +67,13 @@
 -- Who: Ludovicus
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'MoP Zones', 'To All the Squirrels I Once Carressed?','Neutral')
+local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'MoP Zones', 'To All the Squirrels I Once Caressed?','Neutral')
+WoWPro:GuideLevels(guide,85, 90, 89)
 WoWPro:GuideIcon(guide,"ACH",6350)
 WoWPro:GuideNextGuide(guide, 'TwoToad')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-; I left the misspelled guide title 'Carrassed' (Should be Caressed) just in case correcting it breaks the guide
-
-; Do we really need a note to tell us the title of the guide?
-;N To All the Squirrels I Once Carressed?
-
-;We do not need a note to tell us to love the animal listed. I added 'love' to the target option.
 F Leopard Tree Frog|QID|963500009|M|51,55|Z|The Jade Forest|ACH|6350;9|T|Leopard Tree Frog,love|
 F Shrine Fly|QID|963500015|M|36,58|Z|The Jade Forest|ACH|6350;15|T|Shrine Fly,love|
 F Coral Adder|QID|963500004|M|64,82|Z|The Jade Forest|ACH|6350;4|T|Coral Adder,love|

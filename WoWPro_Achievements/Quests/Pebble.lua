@@ -4,6 +4,14 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/glop_and_pebble_achievements
+-- Date: 2014-12-25 19:08
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3527/revisions/27104/view
+-- Date: 2014-12-25 19:07
+-- Who: Ludovicus
+
+-- URL: http://wow-pro.com/node/3527/revisions/26315/view
 -- Date: 2014-05-26 18:09
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -36,9 +44,9 @@
 -- Who: Ludovicus
 -- Log: Uploading existing files to website
 
-local guide = WoWPro:RegisterGuide("TwiPebble","Achievements","Deepholm","Rock Lover", "Neutral")
+local guide = WoWPro:RegisterGuide("TwiPebble","Achievements","Deepholm","Twists", "Neutral")
 WoWPro:GuideIcon(guide,"ACH",5449)
-WoWPro:GuideNextGuide(guide, "Twists")
+WoWPro:GuideLevels(guide,82, 85, 85)
 WoWPro:GuideSteps(guide, function()
 return [[
 

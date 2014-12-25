@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3555
--- Date: 2014-05-26 18:11
+-- Date: 2014-12-25 18:53
 -- Who: Ludovicus
 -- Log: Added guide type.
 
@@ -18,6 +18,7 @@
 -- Who: Estelyen
 
 local guide = WoWPro:RegisterGuide('EstAchGlor',"Achievements",'MoP Zones', 'Glorious!','Neutral')
+WoWPro:GuideLevels(guide,85, 91, 90)
 WoWPro:GuideIcon(guide,"ACH",7439)
 WoWPro:GuideNextGuide(guide, 'Estelyen')
 WoWPro:GuideSteps(guide, function()
