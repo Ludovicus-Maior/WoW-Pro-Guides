@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3552
--- Date: 2014-12-25 19:06
+-- Date: 2014-12-25 22:47
 -- Who: Ludovicus
 -- Log: Added guide type.
 
@@ -22,10 +22,10 @@
 -- Date: 2013-08-24 18:56
 -- Who: Estelyen
 
-local guide = WoWPro:RegisterGuide('EstAchUnVa',"Achievements",'Dalaran', 'Unborn Valkyr','Neutral')
+local guide = WoWPro:RegisterGuide('EstAchUnVa',"Achievements",'Northrend', 'Estelyen' ,'Neutral')
 WoWPro:GuideLevels(guide,75, 81, 80)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_valkierpet")
-WoWPro:GuideNextGuide(guide, 'Estelyen')
+WoWPro.Achievements:GuideMisc(guide, "Unborn Val'kyr", "Pets", "Northrend")
 WoWPro:GuideSteps(guide, function()
 
 return
