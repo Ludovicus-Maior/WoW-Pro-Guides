@@ -112,13 +112,16 @@ function WoWPro:CreateLootsButton(parent, id)
                     GameTooltip:SetOwner(lootsbutton,'ANCHOR_LEFT')
                     if lootsbutton.ID and lootsbutton.ID:len() > 1 and lootsbutton.ID:sub(1,1) == "$" then
                         GameTooltip:SetCurrencyByID(tonumber(lootsbutton.ID:sub(2)))
+                        GameTooltip:Show()
                     elseif tonumber(lootsbutton.ID) then
                         GameTooltip:SetItemByID(tonumber(lootsbutton.ID))
+                        GameTooltip:Show()
                     end               
-        		    GameTooltip:Show()
     end)
     lootsbutton:SetScript("OnLeave", function(self)
-        		    GameTooltip:Hide()
+                    if lootsbutton.ID then
+        		        GameTooltip:Hide()
+        		    end
     end)
     
 
