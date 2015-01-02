@@ -788,31 +788,47 @@ function WoWPro.NextStep(k,i)
             end
      	end
         
-        -- Test for buildings, default is to skip if we dont have any of the named ones.
-        if WoWPro.building and WoWPro.building[k] then
+        -- Test for buildings, default is to skip if we dont have any of the named ones if all other conditions satisfied.
+        if WoWPro.building and WoWPro.building[k] and not skip then
             local Name,ids  = string.split(";",WoWPro.building[k],2)
             local numList = select("#", string.split(";", ids))
-            local idHash = {}
-            WoWPro:dbp("Checking to see if you own %s: %s",Name, ids)
-            for i=1,numList do
-                local bid = select(numList-i+1, string.split(";", ids))
-                bid = tonumber(bid)
-		        if not bid then
-		            WoWPro:Error("Malformed BID [%s] in Guide %s",WoWPro.building[k],WoWProDB.char.currentguide)
-		            bid = 0
-		        end
-		        idHash[bid] = true
-		    end
-		    local buildings = C_Garrison.GetBuildings();
-		    WoWPro.why[k] = "NextStep(): Building not owned."
-		    skip = true
-            for i = 1, #buildings do
-                local building = buildings[i];
-                if idHash[building.buildingID] then
-                    skip = false
-                    WoWPro.why[k] = "NextStep(): Building owned."
-                    WoWPro:dbp("Build %d is owned",building.buildingID)
+            Name = string.lower(Name)
+            if Name == "townhall" then
+                local level, mapTexture, townHallX, townHallY = C_Garrison.GetGarrisonInfo()
+                if ( not level or not townHallX or not townHallY ) then
+                    -- if no garrison yet, then stop.
+                    skip = true
                 end
+                ids = tonumber(ids)
+                if ids ~= level then
+                    skip = true
+                    WoWPro.why[k] = "NextStep(): TownHall not right level"
+                end
+            else
+                local idHash = {}
+                WoWPro:dbp("Checking to see if you own %s: %s",Name, ids)
+                for i=1,numList do
+                    local bid = select(numList-i+1, string.split(";", ids))
+                    bid = tonumber(bid)
+    		        if not bid then
+    		            WoWPro:Error("Malformed BID [%s] in Guide %s",WoWPro.building[k],WoWProDB.char.currentguide)
+    		            bid = 0
+    		        end
+    		        idHash[bid] = true
+    		    end
+    		    local buildings = C_Garrison.GetBuildings();
+    		    WoWPro.why[k] = "NextStep(): Building not owned."
+    		    local owned = false
+                for i = 1, #buildings do
+                    local building = buildings[i];
+                    if idHash[building.buildingID] then
+                        owned = true
+                        WoWPro.why[k] = "NextStep(): Building owned."
+                        WoWPro:dbp("Building %d is owned",building.buildingID)
+                    end
+                end
+                -- skip if no buildings owned.
+                skip = not owned
             end
 		end
         
