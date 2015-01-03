@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2015-01-03 01:13
+-- Who: Emmaleah
+-- Log: and delete change log out of header :(
+
+-- URL: http://wow-pro.com/node/3599/revisions/27112/view
+-- Date: 2015-01-03 01:12
+-- Who: Emmaleah
+-- Log: correct typo and fix incorrect garrison resouces item code (from 924 to 824)
+
+-- URL: http://wow-pro.com/node/3599/revisions/27111/view
+-- Date: 2015-01-03 01:10
+-- Who: Emmaleah
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3599/revisions/27110/view
+-- Date: 2015-01-03 01:10
+-- Who: Emmaleah
+-- Log: Correct item code for Garrison Resources from 924 to 824.
+
+-- URL: http://wow-pro.com/node/3599/revisions/27109/view
 -- Date: 2015-01-01 06:32
 -- Who: Emmaleah
 -- Log: Added all treasure (with Item tags), non 100 named mobs (with item tags) and hardened vines/odd boulders. Set Rank for None, if you just want to get your book and ability to buy garrison plans.  2 is most of the quest content 3 includes all the treasure / rare mobs, etc. Added/improved a few notes, Added more R steps ... including one about avoiding Highpass. Removed all garrison building specific parts (since Ludo is making a new guide type that will include that) I left in fishing and Cordana's quest, but they should probably be deleted too.
@@ -100,7 +120,7 @@ A A Flare for the Dramatic|QID|33593|M|41.49,74.08|N|From Durotan.|
 C A Flare for the Dramatic|QID|33593|M|41.48,74.09|NC|N|Use the flare gun.|
 T A Flare for the Dramatic|QID|33593|M|41.49,74.07|N|To Durotan.|
 A Penny From Heaven|QID|36434|M|41.49,74.07|N|From Durotan.|
-B Laughing Skull Cache|QID|35709|M|44.36,73.58;44.20,74.27|CS|QO|1|N|Waypoint is at base of leaning tree, run up it to find the treasure.|ITEM|$924|
+B Laughing Skull Cache|QID|35709|M|44.36,73.58;44.20,74.27|CS|QO|1|N|Waypoint is at base of leaning tree, run up it to find the treasure.|ITEM|$824|
 T Penny From Heaven|QID|36434|M|45.68,70.60|N|To Penny Clobberbottom.|
 A Just Another Stick in the Wall|QID|36460|M|45.68,70.60|N|From Penny Clobberbottom.|
 C Just Another Stick in the Wall|QID|36460|M|45.67,70.59|NC|N|Use Penny's Plunger.|
@@ -194,7 +214,7 @@ C Zero Xuk's Given|QID|35247|CHAT|M|44,48.8|N|Talk to Xuk and then watch the mov
 T Zero Xuk's Given|QID|35247|M|44,48.8|N|To Spirit of Bony Xuk.|
 A Get the Xuk Out|QID|36832|M|44,48.8|N|From Spirit of Bony Xuk.|PRE|35247|
 
-B Harvestable Precious Crystal|QID|36651|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$924|
+B Harvestable Precious Crystal|QID|36651|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$824|
 K Glut|QID|36204|M|46.2,50.8|T|Glut|L|118229|N|Kill and loot for an ilvl 534 agility trinket.|RANK|3|ITEM|118229|
 l Odd Boulder|QID|36732|M|44.17,46.65|N|Call Beatface (click on the rock) to expose the Obsidian Crystal Formation|RANK|3|;8
 C Fair Warning|QID|35128|M|32.12,75.66|QO|1|S|N|Go into the cave and kill them as you go down.|Z|Heart of Fury|
@@ -216,7 +236,7 @@ T Eye in the Sky|QID|35139|M|43.9,48.9|N|To Rexxar.|
 A Chains of Iron|QID|35136|M|43.9,48.9|N|From Rexxar.|PRE|35139|
 l Odd Boulder|QID|36726|M|41.76,45.27|N|Call Beatface (click on the rock) to expose the Aged Stone Container|RANK|3|;9 - Gorgorok's Fall
 l Odd Boulder|QID|36722|M|45.62,49.31|N|Call Beatface (click on the rock) to expose the Aged Stone Container|RANK|3|;9.1 - Valley of Destruction
-B Iron Supply Chest|QID|36618|M|42.77,44.42;43.7,42.5|CS|QO|1|N|Down inside Brak's Excavation (a cave). Loot for some Garrison Resources.|RANK|3|ITEM|$924|
+B Iron Supply Chest|QID|36618|M|42.77,44.42;43.7,42.5|CS|QO|1|N|Down inside Brak's Excavation (a cave). Loot for some Garrison Resources.|RANK|3|ITEM|$824|
 l Hardened Thornvine|QID|36001|M|42.91,43.49|N|This is NOT inside Brak's excavation, it is just above/behind the cave entrance. Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;10 - Gronn Canyon/Brak's Excavation
 B Sniper's Crossbow|QID|36634|M|45.0,42.6|QO|1|N|Pick up an ilvl 539 crossbow.|RANK|3|ITEM|118713|;above/across from fissure of fury
 l Odd Boulder|QID|36733|M|44.57,43.02|N|Call Beatface (click on the rock) to expose the Ancient Ogre Cache|RANK|3|;10.1 - between petrified rylak egg and crossbow
@@ -268,7 +288,7 @@ C A Green Ogron?|QID|36482|M|42.92,80.71|T|Infested Ogron|N|Kill the Infested Og
 l Hardened Thornvine|QID|35980|M|41.81,78.05;41.13,77.26|CS|N|Go in the building here and out the back door, then climp up the small hill, the thornvine is just below you. Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;22.1 - go in building @ 41.81,78.05 out back door up hillock out of Evermorn Rise, then go K Berthora
 K Berthora|QID|36597|M|39.74,76.31|L|118232|N|Kill and loot for an ilvl 532 Mail Shoulder Item.|RANK|3|ITEM|118232|
 B Explorer Canister|QID|36621|M|40.4,76.6|L|118710|N|Loot for an item you click for 50 Garrison Resources.|RANK|3|ITEM|118710|;evernsprings
-B Evermorn Supply Cache|QID|36658|M|41.81,78.04|QO|1|N|Run back into Evermorn rise and loot the Evermorn Supply Cache  for garrison resources.|RANK|3|ITEM|$924|
+B Evermorn Supply Cache|QID|36658|M|41.81,78.04|QO|1|N|Run back into Evermorn rise and loot the Evermorn Supply Cache  for garrison resources.|RANK|3|ITEM|$824|
 C We Burn the Dead|QID|35487|M|43.84,81.04|US|N|Go back to Evermorn and finish up burning the bodies.|
 T A Green Ogron?|QID|36482|M|0,0|N|To Cutter.|
 T We Burn the Dead|QID|35487|M|0,0|N|To Cutter.|
@@ -435,7 +455,7 @@ K Char the Burning|QID|35503|M|53.2,44.4|T|Char the Burning|L|118212|N|Kill and 
 l Odd Boulder|QID|36734|M|51.33,40.55|N|This is on the edge of the "hole" Erosian is in. Call Beatface (click on the rock) to expose the Aged Stone Container|RANK|3|;13 - next to Erosian the Violent
 K Erosian the Violent|QID|35807|M|51.8,41.6|T|Erosian the Violent|L|113444|N|Erosian is a large elite steam elemental. It is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
 A Trophy of Glory: Erosian|QID|35807|M|51.8,41.6|O|U|113444|N|From 'Crystalized Steam' you just looted.|
-B Weapons Cache|QID|36596|M|49.28,43.62|QO|1|N|Loot for some Garrison Resources. This is the platform where Capt Brak was standing for the quest"Chains of Iron". However, it was phased and you couldn't see it then.|RANK|3|ITEM|$924|;Above where you do chains of iron - but can't be done then because it is phased out
+B Weapons Cache|QID|36596|M|49.28,43.62|QO|1|N|Loot for some Garrison Resources. This is the platform where Capt Brak was standing for the quest"Chains of Iron". However, it was phased and you couldn't see it then.|RANK|3|ITEM|$824|;Above where you do chains of iron - but can't be done then because it is phased out
 l Odd Boulder|QID|36721|M|48.11,46.37|N|Call Beatface (click on the rock) to expose the Obsidian Crystal Formation|RANK|3|;14 - Dionar's Demise
 l Hardened Thornvine|QID|35952|M|49.06,48.43|N|Use Shredder (click on the vines) to expose the Aged Stone Container|RANK|3|;15 - Dionar's Demise
 C Plant Pruning|QID|33689|M|49.90,47.28|US|
