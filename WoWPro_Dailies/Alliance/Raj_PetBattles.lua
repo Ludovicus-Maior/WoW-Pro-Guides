@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
+-- Date: 2015-01-04 23:36
+-- Who: Ludovicus
+-- Log: Corrected faction line.
+
+-- URL: http://wow-pro.com/node/3544/revisions/26952/view
 -- Date: 2014-11-09 03:17
 -- Who: Emmaleah
 -- Log: missed updating one QO|4
@@ -59,7 +64,7 @@
 
 local guide = WoWPro:RegisterGuide("RajiPetBattles",'Dailies', "Vale of Eternal Blossoms", "Rajitazi", "Alliance")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.Dailies:GuideFaction(guide,666) --  "Pet Battle Dailies"
+WoWPro.Dailies:GuideNameAndCategory(guide,"Pet Battle Dailies","Pets")
 WoWPro:GuideSteps(guide, function()
 return [[
 
