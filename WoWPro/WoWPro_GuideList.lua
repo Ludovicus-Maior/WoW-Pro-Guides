@@ -318,8 +318,10 @@ function WoWPro:ShowTooltipIcon(icon)
 end
 
 function WoWPro:HideTooltipIcon()
-    TooltipButton:Hide()
-    TooltipButton:SetParent(nil)
+    if TooltipButton then
+        TooltipButton:Hide()
+        TooltipButton:SetParent(nil)
+    end
 end
 
 WoWPro:Export("CreateGuideTabFrame_Rows")
