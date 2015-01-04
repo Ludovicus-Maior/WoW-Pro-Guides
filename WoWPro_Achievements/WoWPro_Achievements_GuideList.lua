@@ -27,6 +27,11 @@ function WoWPro.Achievements.Scrape()
 end
 
 local function AddInfo(guide)
+    -- If name and cat are set, then assume all is well.
+    if guide.name and guide.category then
+        guide.sub = guide.sub or ""
+        return
+    end
     if not guide.ach then
         WoWPro.Achievements:Error("Guide %s: missing ach",guide.GID)
         guide.name = "Unknown"
@@ -141,16 +146,8 @@ end
 -- Fancy tooltip!
 function WoWPro.Achievements.GuideTooltipInfo(row, tooltip, guide)
     GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.name)
-    if guide.icon then
-        GameTooltip:AddTexture(guide.icon,1,1,1,1)
-        GameTooltip:AddLine(guide.icon)
-        GameTooltip:AddTexture("")
-    else
-        GameTooltip:AddTexture("Interface\\Icons\\Ability_DualWield")
-        GameTooltip:AddLine("")
-        GameTooltip:AddTexture("")
-    end
+    GameTooltip:AddLine(guide.name.."      ")
+    GameTooltip:AddLine("")
     GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
     GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
