@@ -8,7 +8,7 @@
 -- Who: Ludovicus
 -- Log: Init
 
-local guide = WoWPro:RegisterGuide('LudoGarrison', 'Achievements', 'Lunarfall', 'Ludovicus', 'Neutral')
+local guide = WoWPro:RegisterGuide('LudoGarrCampaign', 'Achievements', 'Lunarfall', 'Ludovicus', 'Neutral')
 WoWPro:GuideLevels(guide,90, 100, 98.7)
 WoWPro:GuideIcon(guide,"ACH",9491)
 WoWPro:GuideNextGuide(guide, nil)
@@ -84,11 +84,11 @@ C Dirty Rats|QID|34355|M|56.0,89.3|Z|Shadowmoon Valley@Draenor|QO|1|U|110268|N|U
 T Dirty Rats|QID|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Releasing Rylak|QID|34365|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 A Downsizing the Darktide|QID|34397|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
-C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|QO|1|N|They look like barn traps.|S|
+C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|S|
 K Assistant Fexfuse|QID|34397|M|60.6,93.0|Z|Shadowmoon Valley@Draenor|QO|1|
 K Captain Killrath|QID|34397|M|62.2,94.0|Z|Shadowmoon Valley@Draenor|QO|2|
 K Ra'ka Bloodspear|QID|34397|M|59.4,99.0|Z|Shadowmoon Valley@Draenor|QO|3|
-C Free Rylaks|QID|34365|QO|1|N|They look like barn traps.|US|
+C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|US|
 T Releasing Rylak|QID|34365|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 T Downsizing the Darktide|QID|34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Rylak Rescue|QID|34450|PRE|34365;34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
@@ -100,24 +100,24 @@ T Rylak Rescue|QID|34450|M|67.97,90.12|Z|Shadowmoon Valley@Draenor|N|Click on Ni
 
 ; Garrison Campaign: The Sargerei|QID|34026|M|64.51,69.90|N|To Jr. Surveyor Dorn|
 ; A Garrison Campaign: The Sargerei|QID|35185|M|40.0,44.4|N|From Khadgar's Servant|
-T Garrison Campaign: The Sargerei|QID|35185|M|43.6,77.2|N|To Archmage Modera|
-A Infiltrating the Sargerei|QID|35187|PRE|35185|M|43.6,77.2|N|From Archmage Modera|
-C Sargerei Slippers|QID|35187|M|49.65,73.40;45.33,74.53;49.74,76.49|QO|1|N|Kill Sargerei Initiate and others for shoes|S|
-C Sargerei Robe|QID|35187|M|51.00,75.50;49.40,73.10;48.05,80.25|QO|2|N|Kill Sargerei Demonlords and others for a robe|S|
-C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.60,72.85;45.85,80.75;51.20,76.70|QO|3|N|Kill Sargerei Workers for a cowl|S|
-C Sargerei Slippers|QID|35187|M|49.65,73.40;45.33,74.53;49.74,76.49|QO|1|N|Kill Sargerei Initiate and others for shoes|US|
-C Sargerei Robe|QID|35187|M|51.00,75.50;49.40,73.10;48.05,80.25|QO|2|N|Kill Sargerei Demonlords and others for a robe|US|
-C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.60,72.85;45.85,80.75;51.20,76.70|QO|3|N|Kill Sargerei Workers for a cowl|US|
+T Garrison Campaign: The Sargerei|QID|35185|M|43.6,77.2|Z|Shadowmoon Valley@Draenor|N|To Archmage Modera|
+A Infiltrating the Sargerei|QID|35187|PRE|35185|M|43.6,77.2|Z|Shadowmoon Valley@Draenor|N|From Archmage Modera|
+C Sargerei Slippers|QID|35187|M|49.65,73.40;45.33,74.53;49.74,76.49|Z|Shadowmoon Valley@Draenor|CN|QO|1|N|Kill Sargerei Initiate and others for shoes|S|
+C Sargerei Robe|QID|35187|M|51.00,75.50;49.40,73.10;48.05,80.25|Z|Shadowmoon Valley@Draenor|CN|QO|2|N|Kill Sargerei Demonlords and others for a robe|S|
+C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.60,72.85;45.85,80.75;51.20,76.70|Z|Shadowmoon Valley@Draenor|CN|QO|3|N|Kill Sargerei Workers for a cowl|S|
+C Sargerei Slippers|QID|35187|M|49.65,73.40;45.33,74.53;49.74,76.49|Z|Shadowmoon Valley@Draenor|CN|QO|1|N|Kill Sargerei Initiate and others for shoes|US|
+C Sargerei Robe|QID|35187|M|51.00,75.50;49.40,73.10;48.05,80.25|Z|Shadowmoon Valley@Draenor|CN|QO|2|N|Kill Sargerei Demonlords and others for a robe|US|
+C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.60,72.85;45.85,80.75;51.20,76.70|Z|Shadowmoon Valley@Draenor|CN|QO|3|N|Kill Sargerei Workers for a cowl|US|
 l Sargerei Disguise|QID|35187|L|112904|U|112893|N|Click on the slippers to make the Disguise.  
-C Infiltrating the Sargerei|QID|35187|M|49.8,81.4|N|Speak to Soulbinder Zamaya|
-C Infiltrating the Sargerei|QID|35187|M|50.0,81.2|N|Speak to Anchorite Laanda|
-T Infiltrating the Sargerei|QID|35187|M|50.0,81.2|N|To Anchorite Laanda|
+C Infiltrating the Sargerei|QID|35187|M|49.8,81.4|Z|Shadowmoon Valley@Draenor|N|Speak to Soulbinder Zamaya|
+C Infiltrating the Sargerei|QID|35187|M|50.0,81.2|Z|Shadowmoon Valley@Draenor|N|Speak to Anchorite Laanda|
+T Infiltrating the Sargerei|QID|35187|M|50.0,81.2|Z|Shadowmoon Valley@Draenor|N|To Anchorite Laanda|
 
 ; These are parallel
 A Shattering the Enemy|QID|35191|PRE|35185|M|50.0,81.2|N|From Anchorite Laanda|; Neutral
-A The Word of Socrethar|QID|35189|M|50.0,81.2|N|From Anchorite Laanda|; Neutral
+A The Word of Socrethar|QID|35189|PRE|35185|M|50.0,81.2|N|From Anchorite Laanda|; Neutral
 A Pesky Podlings|QID|35188|PRE|35185|M|49.8,81.4|N|From Soulbinder Zamaya|; Neutral
-A An Ancient Threat|QID|PRE|35185|35190|M|49.8,81.4|N|From Soulbinder Zamaya|; Neutral
+A An Ancient Threat|QID|35190|PRE|35185|35190|M|49.8,81.4|N|From Soulbinder Zamaya|; Neutral
 
 C Shattering the Enemy|QID|35191|M|50.4,75.6|N|Felstorm Crystal|
 C The Word of Socrethar|QID|35189|M|51.4,75.6|N|The Eredar Destiny|
