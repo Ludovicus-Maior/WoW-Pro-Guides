@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2015-01-07 04:36
+-- Who: Emmaleah
+-- Log: change the QID associated with the f/h steps in Southport/Axefall so they will stay checked off no matter your rank, or quest chain.  Added N about the brewerys ability being a portal back, so no need to bind here. remove rank of h step so it shows no matter which rank. edited note at end of brewery specific quest chain
+
+-- URL: http://wow-pro.com/node/3602/revisions/27114/view
 -- Date: 2015-01-04 01:59
 -- Who: Emmaleah
 -- Log: Added Rank tags so rank 1 is just what it takes to get your garrison outpost book (for a level 2 small/medium blueprint in Ashran) and pinchwhistle gearworks (for salvage yard  lvl 1 blueprints).  Level 2 is almost everything else.  Level 3 includes the out of the way non essential quest lines (such as leorajh and the wanted posters)
@@ -173,11 +178,11 @@ T Orders, Commander?|QID|35286|M|39.84,60.78|N|To Lieutenant Willem.|FACTION|All
 A Outpost specific quest|QID|37327;35699|M|39.84,60.78|N|The quest (and quest giver) is determined by which building you choose. It is from Lieutenant Willam (brewery) or Millie Osgood (smugglers den).|FACTION|Alliance|PRE|35286|
 ;A Peace Offering|QID|35699|N|From Millie Osgood.| -- smugglers den
 ;A Befriending the Locals|QID|37327|N|From Lieutenant Willem -- brewery
-h Southport|QID|35293|M|40.12,61.49|N|At Elria Willowfall.|FACTION|Alliance|RANK|2|
+h Southport|QID|35276|M|40.12,61.49|N|At Elria Willowfall.|FACTION|Alliance|N|If you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
 A Old Friends|QID|35293|M|39.79,60.68|N|From Jasper Fel.|FACTION|Alliance|PRE|35286|RANK|2|
 ;horde
 R Axefall|QID|35275|M|40.06,44.04|N|On the other side of the mountain.|FACTION|Horde|
-f Axefall|QID|35293|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
+f Axefall|QID|35275|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
 T Inspecting the Troops|QID|35275|M|40.06,44.04|N|To Shadow Hunter Ukambe.|FACTION|Horde|
 A Orders, Commander?|QID|35277|M|40.19,43.46|N|From Taskmaster Gornek.|FACTION|Horde|PRE|35275|
 C Orders, Commander?|QID|35277|M|40.17,43.39|NC|N|Pick your outpost.|FACTION|Horde|
@@ -185,7 +190,7 @@ T Orders, Commander?|QID|35277|M|40.18,43.51|N|To Taskmaster Gornek.|FACTION|Hor
 A Outpost specific quest|QID|37326;35697|M|40.19,43.46|N|The quest (and quest giver) is determined by which building you choose. It is from Taskmaster Gornek (brewery) or Provisioner Galgar(smugglers den).|FACTION|Horde|PRE|35277|
 ;A Peace Offering|QID|35697|M|40.05,43.18|N|From Provisioner Galgar.|-- smugglers den
 ;A Befriending the Locals|QID|37326|N|From Taskmaster Gornek -- brewery
-h Axefall|QID|35295|M|40.41,42.99|N|At Taz'jari.|FACTION|Horde|RANK|2|
+h Axefall|QID|35275|M|40.41,42.99|N|At Taz'jari.|FACTION|Horde|N|If you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
 A What's Theirs is Ours|QID|35295|M|40.27,43.37|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35277|RANK|2|
 
 A Return to Veil Terokk|QID|35611|M|40.18,60.25|N|From Percy.|PRE|35286+35277|RANK|2|
@@ -543,7 +548,7 @@ A The Ebon Hunter|QID|35797|M|60.20,53.15|PRE|35738;35766|N|From Trixxy Weldblas
 C The Ebon Hunter|QID|35797|M|65.09,61.46|T|The Ebon Hunter|FACTION|Horde|
 T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
 
-R The Howling Crag|QID|35676;35672|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are going to take a side trip for our traveling convenience. Go North and somewhat east.|ACTIVE|36165;36166|
+R The Howling Crag|QID|35676;35672|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are NOT taking the provided ride and instead we are going to take a side trip for our traveling convenience. Go North and somewhat east.|ACTIVE|36165;36166|
 R The Howling Crag|QID|35676;35672|RANK|3|M|61,18|N|Its a bit of a run but this is as close as we get to this area in the guide, Go North and somewhat east.|PRE|35835;35797|;not actually a prereq, but I only want the step to show if you finished one of those quests
 C Wanted: Venombarb|QID|35676;35672|M|61.11,19.05|RANK|3|
 
