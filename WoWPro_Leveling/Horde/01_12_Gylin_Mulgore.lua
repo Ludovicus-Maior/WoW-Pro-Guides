@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2015-01-14 23:28
+-- Who: Ludovicus
+-- Log: Kudos to Tessero for noticing the Mulgore guide was missing!
+
+-- URL: http://wow-pro.com/node/3203/revisions/26209/view
 -- Date: 2014-05-25 22:23
 -- Who: Ludovicus
 -- Log: Added guide type.
@@ -112,7 +117,11 @@
 -- Date: 2010-12-02 23:02
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('GylMul0105', "Leveling", 'Mulgore', 'Gylin', '01', '12', 'BitNor1220', 'Horde', function()
+local guide = WoWPro:RegisterGuide('GylMul0105', "Leveling", 'Mulgore', 'Gylin', 'Horde')
+WoWPro:GuideLevels(guide,1,12,9)
+WoWPro:GuideNextGuide(guide, 'BitNor1220')
+WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A The First Step|QID|14449|M|45.14,75.56|Z|Mulgore|N|From Chief Hawkwind.|
