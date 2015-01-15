@@ -348,12 +348,12 @@ A Avalanche|QID|37410|M|68.20,84.80|Z|Shadowmoon Valley@Draenor|N|Apexis Crystal
 A Rovo's Dagger|QID|33573|M|36.70,44.50|Z|Shadowmoon Valley@Draenor|N|i520 Agility Dagger|ITEM|113378|
 A Rotting Basket|QID|33572|M|22.80,33.90|Z|Shadowmoon Valley@Draenor|N|Trash Item|ITEM|113373|
 A Fantastic Fish|QID|34174|M|26.50,5.70|Z|Shadowmoon Valley@Draenor|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 3|QID|35383|M|30.80,28.30|Z|Lunarfall|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 4|QID|35384|M|49.19,76.83|Z|Lunarfall|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 1|QID|35381|M|42.40,54.36|Z|Lunarfall|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
-A Lunarfall Egg|QID|35530|M|49.60,43.80|Z|Lunarfall|N|Garrison Resources|ITEM|$824|; on a wagon
-A Spark's Stolen Supplies|QID|35289|M|51.80,1.10|Z|Lunarfall|N|Garrison Resources|ITEM|$824|; in a cave in the lake
-A Pippers' Buried Supplies 2|QID|35382|M|50.70,48.50|Z|Lunarfall|N|Garrison Resources|ITEM|$824|
+A Pippers' Buried Supplies 3|QID|35383|M|30.80,28.30|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
+A Pippers' Buried Supplies 4|QID|35384|M|49.19,76.83|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
+A Pippers' Buried Supplies 1|QID|35381|M|42.40,54.36|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
+A Lunarfall Egg|QID|35530|M|49.60,43.80|Z|Lunarfall|FACTION|Alliance|N|Garrison Resources|ITEM|$824|; on a wagon
+A Spark's Stolen Supplies|QID|35289|M|51.80,1.10|Z|Lunarfall|FACTION|Alliance|N|Garrison Resources|ITEM|$824|; in a cave in the lake
+A Pippers' Buried Supplies 2|QID|35382|M|50.70,48.50|Z|Lunarfall|FACTION|Alliance|N|Garrison Resources|ITEM|$824|
 A Echidna|QID|37406|M|69.00,54.00|Z|Spires of Arak|N|unknown|RANK|3|LVL|100|
 A Elixir of Shadow Sight 3|QID|36398|M|69.20,43.30|Z|Spires of Arak|N|Elixir of Shadow Sight|ITEM|115463|; Elixir can be used at Shrine of Terrok for 1 of 6 i585 Weapons (see Gift of Anzu) Object will be removed as soon as you loot all Gifts of Anzu
 A Sun-Touched Cache 1|QID|36421|M|34.10,27.50|Z|Spires of Arak|N|Garrison Resources|ITEM|$824|
@@ -437,21 +437,21 @@ A Relics of the Outcasts 4|QID|36356|M|67.40,39.80|Z|Spires of Arak|N|Archaeolog
 A Misplaced Scrolls|QID|36244|M|42.70,18.30|Z|Spires of Arak|N|Archaeology Fragments|RANK|3|; Requires Archaeology and possibly a little bit of jumping
 A Relics of the Outcasts 5|QID|36359|M|60.20,53.90|Z|Spires of Arak|N|Archaeology Fragments|RANK|3|; Requires Archaeology and possibly a little bit of jumping
 A Iron Horde Explosives|QID|36444|M|50.40,25.80|Z|Spires of Arak|N|Trash Item|ITEM|118691|
-A Lady Sena's Other Materials Stash|QID|34937|M|74.50,56.20|Z|FrostFire|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 2|QID|35382|M|37.30,74.91|Z|Lunarfall|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
-A Lunarfall Egg|QID|35530|M|61.27,72.61|Z|Lunarfall|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|; in the tent
-A Pippers' Buried Supplies 4|QID|35384|M|61.52,71.54|Z|Lunarfall|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 3|QID|35383|M|37.86,43.78|Z|Lunarfall|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 1|QID|35381|M|60.57,55.15|Z|Lunarfall|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
-A Spark's Stolen Supplies|QID|35289|M|51.80,1.10|Z|Lunarfall|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|; in a cave in the lake
-A Pippers' Buried Supplies 4|QID|35384|M|46.63,76.08|Z|Lunarfall|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
-A Lunarfall Egg|QID|35530|M|37.30,65.90|Z|Lunarfall|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|; on a wagon
-A Pippers' Buried Supplies 2|QID|35382|M|51.87,45.45|Z|Lunarfall|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
-A Pippers' Buried Supplies 3|QID|35383|M|34.97,23.45|Z|Lunarfall|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
-A Spark's Stolen Supplies|QID|35289|M|51.80,1.10|Z|Lunarfall|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|; in a cave in the lake
-A Pippers' Buried Supplies 1|QID|35381|M|41.68,58.03|Z|Lunarfall|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
-A Lady Sena's Other Materials Stash|QID|34937|M|74.50,56.20|Z|FrostFire|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
-A Lady Sena's Other Materials Stash|QID|34937|M|74.50,56.20|Z|FrostFire|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
+A Lady Sena's Other Materials Stash|QID|34937|M|74.50,56.20|Z|Frostwall|FACTION|Horde|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
+A Pippers' Buried Supplies 2|QID|35382|M|37.30,74.91|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
+A Lunarfall Egg|QID|35530|M|61.27,72.61|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|; in the tent
+A Pippers' Buried Supplies 4|QID|35384|M|61.52,71.54|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
+A Pippers' Buried Supplies 3|QID|35383|M|37.86,43.78|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
+A Pippers' Buried Supplies 1|QID|35381|M|60.57,55.15|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|
+A Spark's Stolen Supplies|QID|35289|M|51.80,1.10|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;3|N|Garrison Resources|ITEM|$824|; in a cave in the lake
+A Pippers' Buried Supplies 4|QID|35384|M|46.63,76.08|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
+A Lunarfall Egg|QID|35530|M|37.30,65.90|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|; on a wagon
+A Pippers' Buried Supplies 2|QID|35382|M|51.87,45.45|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
+A Pippers' Buried Supplies 3|QID|35383|M|34.97,23.45|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
+A Spark's Stolen Supplies|QID|35289|M|51.80,1.10|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|; in a cave in the lake
+A Pippers' Buried Supplies 1|QID|35381|M|41.68,58.03|Z|Lunarfall|FACTION|Alliance|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
+A Lady Sena's Other Materials Stash|QID|34937|M|74.50,56.20|Z|Frostwall|FACTION|Horde|BUILDING|TownHall;2|N|Garrison Resources|ITEM|$824|
+A Lady Sena's Other Materials Stash|QID|34937|M|74.50,56.20|Z|Frostwall|FACTION|Horde|BUILDING|TownHall;1|N|Garrison Resources|ITEM|$824|
 A Teroclaw Nest 8|QID|35162|M|54.10,56.30|Z|Talador|N|Pet|ITEM|112699|; Only one Teroclaw Nest can be looted
 A Grrbrrgle|QID|36919|M|22.20,74.00|Z|Talador|N|unknown|RANK|2|; Restless Crate
 A Avatar of Socrethar|QID|37338|M|46.60,35.20|Z|Talador|N|i620 Offhand|ITEM|119378|RANK|3|LVL|100|
