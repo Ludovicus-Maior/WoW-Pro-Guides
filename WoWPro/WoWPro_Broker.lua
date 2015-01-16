@@ -474,7 +474,7 @@ function WoWPro.NextStep(k,i)
 		        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[k]))
 		        local lcomplete = false
 		        if tonumber(lquesttext) then
-		            lcomplete = WoWPro.QuestLog[qid].ocompleted[tonumber(lquesttext)]
+		            lcomplete = WoWPro.QuestLog[qid].ocompleted and WoWPro.QuestLog[qid].ocompleted[tonumber(lquesttext)]
 		        else
     		        for _, objective in pairs(WoWPro.QuestLog[qid].leaderBoard) do --Checks each of the quest log objectives
     			        if lquesttext == objective then --if the objective matches the step's criteria, mark true
