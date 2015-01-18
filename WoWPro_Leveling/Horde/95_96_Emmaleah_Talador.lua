@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_talador_guide_source
+-- Date: 2015-01-18 02:08
+-- Who: Blanckaert
+-- Log: Turn in for QID# 33920 is not in Tomb of Lights, removed Z Tag
+
+-- URL: http://wow-pro.com/node/3598/revisions/27082/view
 -- Date: 2014-12-06 21:21
 -- Who: Ludovicus
 -- Log: ! Line 265 for step C has unknown tag [Vizier Cromaug]: [C Punching Through|QID|34855|QO|3|M|66.26,80.97|Vizier Cromaug|]
@@ -352,7 +357,7 @@ A Nightmare in the Tomb|QID|33530|M|52.16,38.84|N|From Yuuri.|Z|Tomb of Lights|
 C Nightmare in the Tomb|QID|33530|M|63.28,68.10|T|Tagar Spinebreaker|Z|Tomb of Lights|
 C We Must Construct Additional Pylons|QID|34351|NC|QO|2|M|32.19,48.55|Z|Tomb of Lights|
 C We Must Construct Additional Pylons|QID|34351|NC|US|M|37.69,46.82|QO|1|N|Pick up the large pinkish crystals lying around as you go.|Z|Tomb of Lights|
-T The Heart of Auchindoun|QID|33920|M|56.51,67.12|N|To Soulbinder Nyami.|Z|Tomb of Lights|
+T The Heart of Auchindoun|QID|33920|M|56.51,67.12|N|To Soulbinder Nyami.| ; removed Zone
 T We Must Construct Additional Pylons|QID|34351|M|55.11,67.40|N|To Soulbinder Tuulani.|
 T Holding the Line|QID|34418|M|55.47,67.68|N|To Lady Liadrin.|
 T Nightmare in the Tomb|QID|33530|M|55.47,67.68|N|To Lady Liadrin.|
