@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-01-25 03:44
+-- Who: Blanckaert
+-- Log: flow change suggestion at line 473 QID#35254
+
+-- URL: http://wow-pro.com/node/3614/revisions/27128/view
+-- Date: 2015-01-24 22:39
+-- Who: Blanckaert
+-- Log: move QID#34458 for 'flow, and added comment from lines 187-215 NOT part of Arcane Sanctum
+
+-- URL: http://wow-pro.com/node/3614/revisions/27045/view
 -- Date: 2014-11-24 21:08
 -- Who: Fluclo
 -- Log: Corrected |S| tag to |US|
@@ -184,6 +194,8 @@ R Tomb of Lights|QID|34578|M|61.87,52.16;61.00,53.62;62.43,56.83;63.45,61.83|CS|
 C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress, waaay to the south of fort. Party of 3 suggested.|
 R Gordal Foothills|QID|34578|M|63.41,63.12;62.47,65.40;62.41,67.42|CS|N|Now on to the Gordunni|
 
+; These quests NOT part of having the Arcane Sanctum.
+
 T Going to the Gordunni|QID|34578|M|69.57,67.87|N|To Miall|
 A Dropping Bombs|QID|34976|M|62.57,67.87|N|From Miall|
 C Dropping Bombs|QID|34976|M|63.46,68.99|QO|1|U|112091|N|Base Catapult Destroyed|
@@ -213,6 +225,8 @@ A The Only Way to Travel|QID|34981|N|To Miall, who is next to you|
 T The Only Way to Travel|QID|34981|M|69.78,20.74|N|To Miall|
 A Armor Up|QID|34982|M|69.8,20.8|N|From Miall|RANK|2|
 T Armor Up|QID|34982|M|69.8,20.8|N|To Miall|
+
+; Above Block for other comment to here are NOT part of Arcane Sanctum.
 
 C Wanted: Kil'uun|QID|34103|M|66.20,34.40;72.90,31.40;72.95,25.95;67.05,36.35;73.20,28.30;72.75,34.15;66.25,31.77;68.88,27.29;71.28,24.52;69.80,37.25|CN|N|Kil'uun, Circles clockwise south of Fort Wrynn around Voljin's Pride. Party of 3 suggested.|
 T Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|To Patrick Messer|
@@ -368,11 +382,12 @@ f Exarch's Refuge|QID|34701|M|54.78,68.79|N|To Niaa, behind the building.|
 T Speaker for the Dead|QID|34701|M|55.64,67.70|N|To Exarch Maladaar|
 
 A Holding the Line|QID|34407|M|55.64,67.70|N|From Exarch Maladaar|
+A Powering the Defenses|QID|34458|M|55.64,67.77|N|From Vindicator Kaluud| ; moved here since he stands beside Maladaar.
+
 A Every Bit Counts|QID|34709|M|55.98,68.29|N|From Aeun|; Leadin to Jorune Mine
 A The Heart of Auchindoun|QID|33920|M|56.51,67.13|N|From Soulbinder Nyami|
 A Disrupting the Flow|QID|33917|M|56.7,66.0|N|From Vindicator Nobundo|
 
-A Powering the Defenses|QID|34458|M|55.64,67.77|N|From Vindicator Kaluud|
 R Tomb of Lights|QID|34458|M|58.56,65.08;58.85,64.83|CS|N|Head in and go downstairs.
 T Powering the Defenses|QID|34458|M|68.43,19.27|Z|Tomb of Lights|N|To Soulbinder Tuulani|
 A We Must Construct Additional Pylons|QID|34351|M|68.43,19.27|Z|Tomb of Lights|N|From Soulbinder Tuulani|
@@ -469,6 +484,8 @@ T Hiding in the Shadows|QID|34163|M|0,0|N|To UI|
 C Gul'rok Demons|QID|35254|M|33.6,74.4|US|QO|1|N|Kill demons in the area.|
 C Book Burning|QID|34164|US|QO|1|T|Shadowborne Dementor|N|Kill Dementors and loot their books.  Then burn them by Kor'thos.  They hide in the buildings and on the 2nd level.|
 T Book Burning|QID|34164|M|34.01,73.97|N|To Kor'thos Dawnfury|
+
+; Not sure but for flow, this one below, MIGHT be able to be turned in before getting the Come Together quest - didn't test as I'd already turned in 35254
 
 T Retribution for the Light|QID|35254|M|42.91,76.11|N|To Exarch Maladaar|
 
