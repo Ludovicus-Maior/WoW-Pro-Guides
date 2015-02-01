@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_grogond_source_code
+-- Date: 2015-02-01 22:23
+-- Who: Ludovicus
+-- Log: Played through and corrected coords and things.
+
+-- URL: http://wow-pro.com/node/3599/revisions/27113/view
 -- Date: 2015-01-03 01:13
 -- Who: Emmaleah
 -- Log: and delete change log out of header :(
@@ -163,7 +168,7 @@ T Cauterizing Wounds|QID|35730|M|44.28,61.65|N|To Rexxar.|
 A On the Mend|QID|35026|M|44.28,61.65|N|From Rexxar.|PRE|35730|
 A Basilisk Butcher|QID|35870|M|44.28,61.65|N|From Rexxar.|PRE|35730|
 C Basilisk Butcher|QID|35870|M|43.53,60.82|S|N|These drop from the basilisks in the area as well as groundspawn of basilisk corpses.|
-K Crater Lord Igneous|QID|35811|M|52.8,59.6|T|Crater Lord Igneous|L|113448|N|Crater Lord Igneous is a large elite earth elemental. It is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
+K Crater Lord Igneous|QID|35811|M|42.8,59.6|T|Crater Lord Igneous|L|113448|N|Crater Lord Igneous is a large elite earth elemental. It is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
 A Trophy of Glory: Crater Lord Igneous|QID|35811|M|52.8,59.6|O|U|113448|N|From 'Chunk of Crater Lord' you just looted.|
 l Odd Boulder|QID|36728|M|41.85,58.89|N|Call Beatface (click on the rock) to expose the Obsidian Crystal Formation|RANK|3|
 C On the Mend|QID|35026|M|45.89,59.30|N|These drop multiples from the steam elementals, the bigger ones (Turbulent Steamfury) drop more than thier smaller cousings (Rippling Steamfury).|
@@ -176,22 +181,22 @@ A Is This One of Yours?|QID|35036|M|46.04,54.74|N|From Rexxar.|PRE|35025|
 C Is This One of Yours?|QID|35036|M|46.04,54.74|CHAT|N|Let Rexxar know Bony Xuk is with you.|
 T Is This One of Yours?|QID|35036|M|46.20,55.09|N|To Bony Xuk.|
 A What the Bony Xuk|QID|35038|M|46.20,55.09|N|From Bony Xuk.|PRE|35036|
-A Xuk me, Right?|QID|35202|M|46.20,55.09|N|From Bony Xuk.|PRE|35036|
+A Xuk Me, Right?|QID|35202|M|46.20,55.09|N|From Bony Xuk.|PRE|35036|
 A Bad at Breaking|QID|35037|M|46.03,54.75|N|From Rexxar.|PRE|35036|
 A Nisha's Vengeance|QID|35934|M|46.03,54.75|N|From Rexxar.|PRE|35036|
 C Nisha's Vengeance|QID|35934|M|47.12,53.86|S|
 C Bad at Breaking|QID|35037|M|48.08,54.31|QO|1|T|Mangled Boulderbreaker|
 l Odd Boulder|QID|36730|M|48.11,55.16|N|Call Beatface (click on the rock) to expose the Aged Stone Container|RANK|3|
-C Xuk me, Right?|QID|35202|M|45.34,52.26|S|N|Kill and loot the Goren running amok.|
+C Xuk Me, Right?|QID|35202|M|45.34,52.26|S|N|Kill and loot the Goren running amok.|
 C What the Bony Xuk?|QID|35038|NC|M|44.03,53.02|S|N|From the Longtooth Gorger corpses lying around.|
 K Gronnslaver Raz|QID|35037|M|47.7,52|QO|2|T|Gronnslaver Raz|ACTIVE|35037|
 A The Gronn Strategy|QID|35925|M|47.73,52.07|N|From Weaponization Orders.|ACTIVE|35934|
 l Hardened Thornvine|QID|36718|M|47.21,51.82|N|Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;5
 B Suntouched Spear|QID|36610|M|45.7,49.7|QO|1|N|Run out of Raz's camp and towards the waypoint, then drop down to the ledge about 15 feet below, Wait here for Charl Doomwing to fly overhead to get that one.|ITEM|118718|
 K Charl Doomwing|QID|35815|M|46.0,46.8|T|Charl Doomwing|L|113456|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
-A Trophy of Glory: Charl Doomwing|QID|35812|M|46.0,46.8|O|U|113456|N|From 'Fang of the Doomwing' you just looted.|
+A Trophy of Glory: Charl Doomwing|QID|35815|M|46.0,46.8|O|U|113456|N|From 'Fang of the Doomwing' you just looted.|
 l Odd Boulder|QID|36731|M|43.36,51.68|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|;5.1
-C Xuk me, Right?|QID|35202|M|45.34,52.26|US|
+C Xuk Me, Right?|QID|35202|M|45.34,52.26|US|
 C What the Bony Xuk?|QID|35038|NC|M|44.03,53.02|US|N|From the Longtooth Gorger corpses lying around.|
 C Nisha's Vengeance|QID|35934|M|47.12,53.86|US|
 T What the Bony Xuk?|QID|35038|M|46.20,55.09|N|To Bony Xuk.|
@@ -208,8 +213,8 @@ C Xuk It!|QID|35041|NC|QO|6|M|43.0,42.5|N|Just past the Grom'kar Messenger is th
 T Xuk It!|QID|35041|M|46.03,54.75|N|To Rexxar.|
 A Leave Every Soldier Behind|QID|35129|M|46.03,54.75|N|From Rexxar.|PRE|35041|
 
-A Fair Warning|QID|35128|M|46.03,54.75|N|From Rexxar. Nisha will give you a ride to the area (chat option, not flightpath) if you so desire.|PRE|35041|
-A Zero Xuk's Given|QID|35247|M|44,48.8|N|From Bony Xuk.|PRE|35041|
+A Fair Warning|QID|35128|M|46.03,54.75|N|From Rexxar.|PRE|35041|
+A Zero Xuk's Given|QID|35247|M|44,48.8|N|From Bony Xuk. Nisha will give you a ride to the area (chat option, not flightpath) if you so desire.|PRE|35041|
 C Zero Xuk's Given|QID|35247|CHAT|M|44,48.8|N|Talk to Xuk and then watch the movie.|
 T Zero Xuk's Given|QID|35247|M|44,48.8|N|To Spirit of Bony Xuk.|
 A Get the Xuk Out|QID|36832|M|44,48.8|N|From Spirit of Bony Xuk.|PRE|35247|
@@ -217,16 +222,16 @@ A Get the Xuk Out|QID|36832|M|44,48.8|N|From Spirit of Bony Xuk.|PRE|35247|
 B Harvestable Precious Crystal|QID|36651|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$824|
 K Glut|QID|36204|M|46.2,50.8|T|Glut|L|118229|N|Kill and loot for an ilvl 534 agility trinket.|RANK|3|ITEM|118229|
 l Odd Boulder|QID|36732|M|44.17,46.65|N|Call Beatface (click on the rock) to expose the Obsidian Crystal Formation|RANK|3|;8
-C Fair Warning|QID|35128|M|32.12,75.66|QO|1|S|N|Go into the cave and kill them as you go down.|Z|Heart of Fury|
-C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|CHAT|QO|1|N|Talk to Thukmar and then take care of him.|Z|Heart of Fury|
-C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|NC|QO|2|N|The intel is on the ground beside Thukmar.|;Z|Heart of Fury| -- this seems to not be on map layer 19, dispite it showing on map layer 19 when you open the map...
-B Horned Skull|QID|35056|M|42.1,66.73|QO|1|N|Loot for some Garrison Resources.|RANK|3|Z|Heart of Fury|ITEM|$934|
-l Hardened Thornvine|QID|36720|M|36.71,51.45|Z|Heart of Fury|N|This is in the room with Gelgor. Use Shredder (click on the vines) to expose the Ancient Titan Chest|RANK|3|;6 -
+C Fair Warning|QID|35128|M|32.12,75.66|QO|1|S|N|Go into the cave and kill them as you go down.|Z|Fissure of Fury|
+C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|CHAT|QO|1|N|Talk to Thukmar and then take care of him.|Z|Fissure of Fury|
+C Leave Every Soldier Behind|QID|35129|M|44.96,86.18|NC|QO|2|N|The intel is on the ground beside Thukmar.|;Z|Fissure of Fury| -- this seems to not be on map layer 19, dispite it showing on map layer 19 when you open the map...
+B Horned Skull|QID|35056|M|42.1,66.73|QO|1|N|Loot for some Garrison Resources.|RANK|3|Z|Fissure of Fury|ITEM|$934|
+l Hardened Thornvine|QID|36720|M|36.71,51.45|Z|Fissure of Fury|N|This is in the room with Gelgor. Use Shredder (click on the vines) to expose the Ancient Titan Chest|RANK|3|;6 -
 K Gelgor of the Blue Flame|QID|36391|M|34.0,38.6|T|Gelgor the Blue Flame|L|118230|N|Kill and loot for an ilvl 534 versatility trinket.|RANK|3|ITEM|118230|;in fissure of fury
-l Odd Boulder|QID|36723|M|60.34,44.75|Z|Heart of Fury|N|Call Beatface (click on the rock) to expose the Aged Stone Container|RANK|3|;7
-C Fair Warning|QID|35128|M|30.78,75.97|US|;Z|Heart of Fury|
-A A Great Escape|QID|35210|M|34.72,66.66|N|From Goren Tunnel.|PRE|35041|;Z|Heart of Fury|
-C A Great Escape|QID|35210|M|34.72,66.66|NC|N|Click on the mound of dirt to clear the tunnel entrance.|;Z|Heart of Fury|
+l Odd Boulder|QID|36723|M|60.34,44.75|Z|Fissure of Fury|N|Call Beatface (click on the rock) to expose the Aged Stone Container|RANK|3|;7
+C Fair Warning|QID|35128|M|30.78,75.97|US|;Z|Fissure of Fury|
+A A Great Escape|QID|35210|M|34.72,66.66|N|From Goren Tunnel.|PRE|35041|;Z|Fissure of Fury|
+C A Great Escape|QID|35210|M|34.72,66.66|NC|N|Click on the mound of dirt to clear the tunnel entrance.|;Z|Fissure of Fury|
 T Leave Every Soldier Behind|QID|35129|M|43.9,48.9|N|To Rexxar.|
 T Fair Warning|QID|35128|M|43.9,48.9|N|To Rexxar.|
 T A Great Escape|QID|35210|M|43.9,48.9|N|To Rexxar.|
@@ -353,7 +358,7 @@ l Hardened Thornvine|QID|36713|M|53.01,79.03|N|Use Shredder (click on the vines)
 B Strange Looking Dagger |QID|34940|M|53.0,80.0|QO|1|N|In the back of The Forgotten Cave, Pick up for a bit of treasure. You can jump up from the rock.|RANK|3|ITEM|118718|
 R Darksting Cave|QID|34726|M|52.16,76.81|N|Exit the Forgotten Cave and Right next to it is Darksting Cave.|RANK|3|
 K Mother Araneae|QID|34726|M|53.4,78.2|T|Mother Araneae|L|118208|N|Inside the Darksting Cave. Kill and loot for an ilvl 534 agi dagger.|RANK|3|ITEM|118208|;just past strange dagger's cave
-R Sulferscale Cave|QID|36654|M|53.1,74.5|N|And out of Darksting Cave to Sulferscale Cave. It has two entrances, one where you drop down (levitate) or run in the sloped entrance.|RANK|3|
+R Sulfurscale Cave|QID|36654|M|51.46,74.38;53.1,74.5|CN|N|And out of Darksting Cave to Sulfurscale Cave Cave. It has two entrances: run in the sloped entrance at the first waypoint or where you drop down (levitate) at the second.|RANK|3|
 B Remains of Balik Orecrusher|QID|36654|M|53.1,74.5|L|118714|N|Inside Sulferscale Cave. Pick up for a bit of treasure.|RANK|3|ITEM|118714|
 l Hardened Thornvine|QID|35967|M|51.64,72.24|N|Out of the cave and follow the stone path, Use Shredder (click on the vines) to expose the Unknown Petrified Egg|RANK|3|;29 - @K Skrikka
 K Hive Queen Skrikka|QID|35908|M|52.2,70.2|T|Hive Queen Skrikka|L|118209|N|Kill and loot for an ilvl 534 int axe|RANK|3|ITEM|118209|
@@ -469,11 +474,11 @@ l Hardened Thornvine|QID|35701|M|53.34,46.73|N|Use Shredder (click on the vines)
 C Shredder vs. Saberon|QID|33663|M|51.97,45.84;52.62,47.53;52.22,48.62|CS|NC|N|Click on the vines and your shredder will take care of them.|
 T Beatface vs. Boulder|QID|33662|M|50.9,51.4|N|To Rakthoth.|
 T Shredder vs. Saberon|QID|33663|M|52.29,48.99|N|To Rakthoth.|
-A Steamscar Reagents|QID|33661|M|50.9,51.4;52.29,48.99|CN|N|From Rakthoth, at the nearer of the two dots.|PRE|33662;33663|RANK|2|
-A The Sacking of Saberon|QID|33660|M|51.05,51.61;51.85,50.04|CN|N|From Saberon Stash available at either waypoint.|ACTIVE|33661|
-C The Sacking of Saberon|QID|33660|M|50.49,53.16|NC|S|N|Gather the herbs as you go about killing the mobs. Any movement, including panning your camera, causes the gather to fail.|
-C Steamscar Reagents|QID|33661|M|52.68,51.13|N|The reagents are looted from the saberon.|
-C The Sacking of Saberon|QID|33660|M|52.68,51.13|NC|US|N|Gather the herbs as you go about killing the mobs. Any movement, including panning your camera, causes the gather to fail.|
+A Steamscar "Reagents"|QID|33661|M|50.9,51.4;52.29,48.99|CN|N|From Rakthoth, at the nearer of the two dots.|PRE|33662+33663|RANK|2|
+A The Sacking of the Saberon|QID|33660|M|51.05,51.61;51.85,50.04|CN|N|From Saberon Stash available at either waypoint.|ACTIVE|33661|
+C The Sacking of the Saberon|QID|33660|M|50.49,53.16|NC|S|N|Gather the herbs as you go about killing the mobs. Any movement, including panning your camera, causes the gather to fail.|
+C Steamscar "Reagents"|QID|33661|M|52.68,51.13|N|The reagents are looted from the saberon.|
+C The Sacking of the Saberon|QID|33660|M|52.68,51.13|NC|US|N|Gather the herbs as you go about killing the mobs. Any movement, including panning your camera, causes the gather to fail.|
 T Steamscar "Reagents"|QID|33661|M|52.86,51.77|N|To Rakthoth.|
 A Taking the Death Bloom|QID|33695|NC|M|52.86,71.77|N|From Rakthoth.|PRE|33661|RANK|2|
 T The Sacking of the Saberon|QID|33660|M|52.86,51.77|N|To Rakthoth.|

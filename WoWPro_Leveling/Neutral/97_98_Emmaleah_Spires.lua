@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2015-02-01 22:25
+-- Who: Ludovicus
+-- Log: QIDs and typos
+
+-- URL: http://wow-pro.com/node/3602/revisions/27121/view
 -- Date: 2015-01-07 04:36
 -- Who: Emmaleah
 -- Log: change the QID associated with the f/h steps in Southport/Axefall so they will stay checked off no matter your rank, or quest chain.  Added N about the brewerys ability being a portal back, so no need to bind here. remove rank of h step so it shows no matter which rank. edited note at end of brewery specific quest chain
@@ -234,8 +239,8 @@ T Honoring a Hero|QID|35549|M|39.88,60.85|N|To Lieutenant Willem.|FACTION|Allian
 A For Old Times Sake|QID|36353|M|39.98,60.65|N|To/From Admiral Taylor who wants to come join your garrison forces.|FACTION|Alliance|PRE|35549|RANK|2|
 T Surviving in a Savage Land|QID|35550|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|RANK|2|
 
-F Veil Terokk|QID|35293|M|39.78,61.87;39.08,61.79|CS|N|At Firn Swiftbreeze.|FACTION|Alliance|
-F Veil Terokk|QID|37327|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
+F Veil Terokk|QID|37296|M|39.78,61.87;39.08,61.79|CS|N|At Firn Swiftbreeze.|FACTION|Alliance|
+F Veil Terokk|QID|37296|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
 t Befriending the Locals|QID|37326;37327|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
 C Peace Offering|QID|35697;35699|M|43.90,48.90|CHAT|N|Offer a peace offering to Shadow-Sage Iksar.|
 t Peace Offering|QID|35697;35699|M|43.90,48.90|N|To Dusk-Seer Irizzar.|
@@ -291,7 +296,7 @@ T A Feast of Shadows|QID|34883|M|44.48,24.01|N|To Talonpriest Zellek.|RANK|2|
 A Back from Beyond|QID|34942|M|44.48,24.01|N|From Talonpriest Zellek.|PRE|34882+34883|RANK|2|
 A Power Unearthed|QID|35257|M|44.40,23.99|N|From Darkscryer Raastok.|PRE|34882+34883|RANK|2|
 
-R Apexis Excavation|QID|35257|M|36.99,24.63|N|RANK|2|
+R Apexis Excavation|QID|35257|M|36.99,24.63|RANK|2|
 f Apexis Excavation|QID|35257|M|36.99,24.63|N|At Skytalon Kuris.|RANK|2|
 A Sol Sisters|QID|35259|M|36.95,24.45|N|From Kura the Blind.|RANK|2|
 T Power Unearthed|QID|35257|M|36.85,24.54|N|To Darkscryer Raastok.|RANK|2|
@@ -638,7 +643,7 @@ A News from Nagrand|QID|36607;36602|M|40.18,43.51|N|From Taskmaster Gornek.|LVL|
 F Veil Terokk|QID|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|2|
 
 A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|PRE|34829|RANK|2|
-D Your Garrison|QID|36606;36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak.  Nagramd is the final leveling zone quide and it should load after you check off this step.|
+D Your Garrison|QID|36606;36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak.  Nagrand is the final leveling zone quide and it should load after you check off this step.|
 
 ]]
 
