@@ -22,24 +22,30 @@ F Fort Wrynn|QID|35988|M|0,0|Z|Lunarfall|FACTION|Alliance|
 f Zangarra|QID|35988|M|80.42,25.32|N|Get the direct flight point from Dominic Arlington.|
 T Call of the Archmage|QID|35988|M|85.18,31.72|N|To Archmage Khadgar|
 A Spires of the Betrayer|QID|36157|PRE|35988|M|85.18,31.72|N|From Archmage Khadgar|
-C Spires of the Betrayer|QID|36157|M|51.1,27.4|N|High Sage Viryx|
+C Spires of the Betrayer|QID|36157|M|51.1,27.4|N|High Sage Viryx in Skyreach (Normal)|
 T Spires of the Betrayer|QID|36157|M|85.18,31.72|N|To Archmage Khadgar|
 A Khadgar's Task|QID|35989|PRE|36157|M|85.18,31.72|N|From Archmage Khadgar|
+C Khadgar|QID|35989|PRE|36157|M|85.18,31.72|CHAT|QO|1|N|Talk to Archmage Khadgar and hear what he has to say.|
 T Khadgar's Task|QID|35989|M|85.18,31.72|N|To Archmage Khadgar|
-A Core of Life|QID|35992|PRE|35989|M|85.18,31.72|N|From Archmage Khadgar|
-C Core of Life|QID|35992|M|45.0,82.1|N|Yalnu|
-T Core of Life|QID|35992|M|85.18,31.72|N|To Archmage Khadgar|
-A Core of Iron|QID|35991|PRE|35989|M|85.18,31.72|N|From Archmage Khadgar|
-C Core of Iron|QID|35991|M|54.9,31.9|N|Engine Access|
-T Core of Iron|QID|35991|M|85.18,31.72|N|To Archmage Khadgar|
 A Core of Flame|QID|35990|PRE|35989|M|85.18,31.72|N|From Archmage Khadgar|
-C Core of Flame|QID|35990|M|65.4,22.7|N|Gug'rokk|
-T Core of Flame|QID|35990|M|85.18,31.72|N|To Archmage Khadgar|
+A Core of Life|QID|35992|PRE|35989|M|85.18,31.72|N|From Archmage Khadgar|
+A Core of Iron|QID|35991|PRE|35989|M|85.18,31.72|N|From Archmage Khadgar|
+A Draenor's Secret Power|QID|36158|PRE|35989|M|85.18,31.72|N|From Archmage Khadgar|
+
+C Core of Life|QID|35992|M|45.0,82.1|Z||QO|1|N|Yalnu in the Everbloom (Heroic)|
+C Core of Iron|QID|35991|M|54.9,31.9|Z||QO|1|N|Engine Access in the Grimrail Depot (Heroic)|
+C Core of Flame|QID|35990|M|65.4,22.7|Z||QO|1|N|Gug'rokk in the Bloommaul Slag Mines (Heroic)|
+
+t Core of Life|QID|35992|M|85.18,31.72|N|To Archmage Khadgar|
+t Core of Iron|QID|35991|M|85.18,31.72|N|To Archmage Khadgar|
+t Core of Flame|QID|35990|M|85.18,31.72|N|To Archmage Khadgar|
+C Draenor's Secret Power|QID|36158|QO|1|N|You need 4986 Apexis Crystals, one weeks worth of Apexis Dailies.|
+t Draenor's Secret Power|QID|36158|M|85.18,31.72|N|To Archmage Khadgar|
+
 A Tackling Teron'gor|QID|35993|PRE|35990;35991;35992|M|85.18,31.72|N|From Archmage Khadgar|
 C Tackling Teron'gor|QID|35993|M|48.4,30.8|N|Corrupted Blood|
 T Tackling Teron'gor|QID|35993|M|85.18,31.72|N|To Archmage Khadgar|
-A Draenor's Secret Power|QID|36158|PRE|35990;35991;35992|M|85.18,31.72|N|From Archmage Khadgar|
-T Draenor's Secret Power|QID|36158|M|85.18,31.72|N|To Archmage Khadgar|
+
 A Eyes of the Archmage|QID|35994|PRE|35993;36158|M|85.18,31.72|N|From Archmage Khadgar|
 T Eyes of the Archmage|QID|35994|M|85.18,31.72|N|To Archmage Khadgar|
 A Fugitive Dragon|QID|36000|PRE|35994|M|85.18,31.72|N|From Archmage Khadgar|
