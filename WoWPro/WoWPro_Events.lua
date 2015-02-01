@@ -168,6 +168,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 		        -- Quest Completion via QuestLog--
 		        if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
 			        WoWPro.CompleteStep(i)
+			        WoWPro.oldQuests[QID] = WoWPro.oldQuests[QID] or {}
 			        WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
 		        end
 		
