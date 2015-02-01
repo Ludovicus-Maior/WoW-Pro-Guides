@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/assault_dark_portal
+-- Date: 2015-02-01 22:06
+-- Who: Ludovicus
+-- Log: Put the run to the cave in TanaanJungleIntro instead of Umbral Halls.
+
+-- URL: http://wow-pro.com/node/3600/revisions/27116/view
 -- Date: 2015-01-04 23:29
 -- Who: Ludovicus
 -- Log: Flipped the Southern/Eastern cage QO's.
@@ -209,7 +214,7 @@ T A Potential Ally |QID|34427|N|To Farseer Drek'Thar once he has run back to the
 A Kill Your Hundred |QID|34429|N|From Archmage Khadgar|M|73.02,38.08|PRE|34427+34478|Z|TanaanJungleIntro|
 C Kill Your Hundred |QID|34429|N|Enter Kargathar Proving Grounds|QO|1|NC|M|73.6,29.0|Z|TanaanJungleIntro|
 C Kill Your Hundred |QID|34429|N|Wait until you have 100 Combatants killed (your friends will do all the killing for you if you want).|QO|2|M|73.6,27.3|Z|TanaanJungleIntro|
-C Kill Your Hundred |QID|34429|N|Leave the arena and head to Umbral Halls.|NC|QO|3|M|80.9,50.1|Z|Umbral Halls|
+C Kill Your Hundred |QID|34429|N|Leave the arena and head to Umbral Halls.|NC|QO|3|M|67.3,22.0|Z|TanaanJungleIntro|
 T Kill Your Hundred |QID|34429|N|To Archmage Khadgar|M|81.31,50.27|Z|Umbral Halls|
 
 A The Shadowmoon Clan |QID|34432|N|From Vindicator Maraad|FACTION|Alliance|M|80.7,45.3|PRE|34429|Z|Umbral Halls|
