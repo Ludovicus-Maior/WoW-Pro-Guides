@@ -369,6 +369,7 @@ function WoWPro.LoadGuideStepsReal()
 	end
 	local steps = { string.split("\n", sequence ) }
 
+    WoWProCharDB.Guide[GID].done = false
 	WoWPro:ParseSteps(steps)
 	
 	WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
