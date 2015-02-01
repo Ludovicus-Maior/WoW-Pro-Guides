@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2015-02-01 17:38
+-- Who: Ludovicus
+-- Log: Correcting quest name and flight point name.
+
+-- URL: http://wow-pro.com/node/3604/revisions/27130/view
 -- Date: 2015-01-25 05:58
 -- Who: Ludovicus
 -- Log: Aldavor:  Incorrect QID; the line (615) in Shadowmoon levelling guide should be changed from:
@@ -305,7 +310,7 @@ C Shadows Awaken |QID|34019|N|Kill and loot Karnoth.|M|49.4,37.0|
 A The Mysterious Flask|QID|35342|N|Loot the Mysterious Flask from Karnoth, and use it to begin the quest.|U|113103|P|Alchemy;171;*;1;700|
 A The Strength of Iron|QID|36309|N|Loot Haephest's Satchel from Karnoth, and use it to begin the quest.|U|115343|P|Blacksmithing;164;*;1;700|
 A Enchanted Highmaul Bracer|QID|36308|N|Loot the Enchanted Highmaul Bracer from Karnoth, and use it to begin the quest.|U|115281|P|Enchanting;333;*;1;700|
-A Gnomish Location Transponder|QID|36286|N|Loot the Gnomish Location Transponder from Karnoth, and use it to begin the quest.|U|115278|P|Engineering;202;*;1;700|
+A Transponder 047-B|QID|36286|N|Loot the Gnomish Location Transponder from Karnoth, and use it to begin the quest.|U|115278|P|Engineering;202;*;1;700|
 A A Mysterious Satchel|QID|36239|N|Loot the Mysterious Satchel from Karnoth, and use it to begin the quest.|U|114984|P|Inscription;773;*;1;700|
 A A Power Lost|QID|36408|N|Loot the Drained Crystal Fragment from Karnoth, and use it to begin the quest.|U|115507|P|Jewelcrafting;755;*;1;700|
 A A Call for Huntsman|QID|36176|N|Loot the Dirty Note from Karnoth, and use it to begin the quest.|U|114877|P|Leatherworking;164;*;1;700|
@@ -451,7 +456,7 @@ T Friend of the Exarchs |QID|34788|N|To Exarch Naielle|M|62.48,26.22|
 
 A Supply Drop |QID|35905|N|From Exarch Naielle|PRE|34788|M|62.48,26.22|
 
-f Fey Landing |QID|35444|N|With Vamuun.|M|58.7,31.9|
+f Elodor |QID|35444|N|With Vamuun.|M|58.7,31.9|
 
 ;The next block is for Engineers only
 T Gnomish Location Transponder|QID|36286|N|To Goggles|M|60.9,32.6|ACTIVE|36286|
