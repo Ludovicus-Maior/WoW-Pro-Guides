@@ -579,6 +579,10 @@ function WoWPro:GuideNextGuide(guide,nextGID)
     guide['nextGID'] = nextGID
 end
 
+function WoWPro:GuideAutoSwitch(guide)
+    guide['AutoSwitch'] = true
+end
+
 function WoWPro:GuideSteps(guide,steps)
     guide['sequence'] = steps
 end
