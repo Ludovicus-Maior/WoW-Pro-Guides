@@ -405,7 +405,7 @@ end
 function WoWPro:TryRemap(z,s,f,x,y)
 	local nx , ny = AL:TranslateWorldMapPosition(z,f,x/100,y/100,s,f)
 	WoWPro:dbp("Remapping1 to %d,%g,%g",s,nx,ny)
-	if nx >= 0 and nx <= 1 and ny >=0 and ny <= 1 then
+	if nx and ny then
 		-- Successfull translation, remap
 		WoWPro:dbp("Remapping! %d/%g,%g to %d/%g,%g",z,x,y,s,nx*100,ny*100)
 		return s,nx*100,ny*100
