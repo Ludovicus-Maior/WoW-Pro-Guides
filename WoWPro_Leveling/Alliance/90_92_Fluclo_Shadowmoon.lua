@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2015-02-08 20:39
+-- Who: Ludovicus
+-- Log: Edited [Pippers' Buried Supplies] as per Aldavor https://github.com/Jiyambi/WoW-Pro-Guides/issues/406
+
+-- URL: http://wow-pro.com/node/3604/revisions/27131/view
 -- Date: 2015-02-01 17:38
 -- Who: Ludovicus
 -- Log: Correcting quest name and flight point name.
@@ -253,7 +258,7 @@ C Build Your Barracks |QID|34587|N|Click on the Barracks Blueprints to learn it.
 C Build Your Barracks |QID|34587|N|Click on the Architect Table, then drag the Barracks icon to the Large Empty Plot.|QO|3|NC|M|41.12,48.93|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Go back to the Barracks construction site, and click on the scroll to Finalize Garrison Plot|QO|4|NC|M|44.6,43.5|Z|Lunarfall|
 ; Never completes!
-l Pippers' Buried Supplies|QID|35384|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Can be at one of four locations around the garrison.|CS|M|46.3,75.9;60.7,55.3;51.7,44.9;30.8,28.3|RANK|3|Z|Lunarfall|LEAD|35381;35382;35383|
+l Pippers' Buried Supplies|QID|35384|N|Pippers' Burried Supplies: Lootable object for Garrison Resources at four locations around the garrison. Follow Pippers the dog until it stops, and click on the mound (if you already have it, there will just be bones.|RANK|3|Z|Lunarfall|T|Pippers|
 T Build Your Barracks |QID|34587|N|To Vindicator Maraad.|M|44.10,53.35|Z|Lunarfall|
 
 A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad.|PRE|34587|M|44.10,53.35|Z|Lunarfall|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-02-08 20:28
+-- Who: Ludovicus
+-- Log: As per Aldavor https://github.com/Jiyambi/WoW-Pro-Guides/issues/408
+
+-- URL: http://wow-pro.com/node/3614/revisions/27129/view
 -- Date: 2015-01-25 03:44
 -- Who: Blanckaert
 -- Log: flow change suggestion at line 473 QID#35254
@@ -190,7 +195,12 @@ T Clear!|QID|34761|M|62.86,50.32|N|To Torben Zapblast|
 A New Owner|QID|35239|M|62.89,50.46|N|From Pleasure-Bot 8000, after a delay.|
 T New Owner|QID|35239|M|62.89,50.46|N|To Pleasure-Bot 8000|
 
-R Tomb of Lights|QID|34578|M|61.87,52.16;61.00,53.62;62.43,56.83;63.45,61.83|CS|N|Next, Near Tomb of Lights!|
+A A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|From Nadur|
+C A Pilgrimage Gone Awry|QID|34802|S|N|Kill Ridge Prowlers (and cubs) for Prowler Blood, Snapdragon Fronds are growing plants, loot Riverhopper Eye from frogs/toads|
+T A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|To Nadur|
+
+K Ra'kahn|M|60.1,57.5;59.48,59.59|CS|RANK|3|QID|34196|N|Rare kill; may drop Ra'kahn's Bite (i563 Fist Weapon). Head SW from Nadur, cave entrance is first coord.|
+
 C Wanted: Hilaani|QID|34104|M|66.21,65.30|N|Hilaani, between Tombs of Light and Gordal Fortress, waaay to the south of fort. Party of 3 suggested.|
 R Gordal Foothills|QID|34578|M|63.41,63.12;62.47,65.40;62.41,67.42|CS|N|Now on to the Gordunni|
 
