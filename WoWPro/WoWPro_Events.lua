@@ -427,7 +427,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	    guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
 	end
 	
-	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) then
+	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) and WoWProCharDB.AutoHideInsideInstances == true then
 		WoWPro:Print("|cff33ff33Pet Battle Auto Hide|r: %s Module",guidetype)
 		WoWPro.MainFrame:Hide()
 		WoWPro.Titlebar:Hide()
