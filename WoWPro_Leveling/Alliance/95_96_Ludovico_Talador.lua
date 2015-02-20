@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2015-02-20 20:07
+-- Who: Aldavor
+-- Log: Removed last line of guide as Ra'kahn is further up the guide list. Added a new last line to ensure turn-ins are effected and a click off to go to the next guide.
+
+-- URL: http://wow-pro.com/node/3614/revisions/27139/view
 -- Date: 2015-02-08 20:28
 -- Who: Ludovicus
 -- Log: As per Aldavor https://github.com/Jiyambi/WoW-Pro-Guides/issues/408
@@ -570,6 +575,6 @@ C Pieces of Us|QID|33734|M|77.9,43.1|N|Melani's Doll|
 C Pieces of Us|QID|33734|M|78.2,43.8|N|Annals of Aruuna|
 T Pieces of Us|QID|33734|M|76.6,55.2|N|To Crystal-Shaper Barum|
 
-K Ra'kahn|M|59.48,59.59|RANK|3|
+D Fall-through|N|No more quests in this guide. Next is Spires of Arak.|
 ]]
 end)
